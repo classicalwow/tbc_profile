@@ -1,6 +1,8 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0523,
+	["LastVersion"] = 2.0524,
+	["LastPlayerFullName"] = "特變電工-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 29011,
@@ -64,10 +66,10 @@ PawnOptions = {
 			["Level"] = 125,
 			["Link"] = "|cffa335ee|Hitem:28824::::::::70::::::::|h[火星完美護手]|h|r",
 		},
-		[9] = {
-			["ID"] = 28167,
+		[5] = {
+			["ID"] = 28262,
 			["Level"] = 115,
-			["Link"] = "|cff0070dd|Hitem:28167::::::::69::::::::|h[薩塔式護臂]|h|r",
+			["Link"] = "|cff0070dd|Hitem:28262::::::::70::::::::|h[玉顱胸甲]|h|r",
 		},
 		[11] = {
 			["ID"] = 28791,
@@ -86,14 +88,12 @@ PawnOptions = {
 			["AlsoFitsIn"] = 11,
 			["Link"] = "|cffa335ee|Hitem:29278::::::::70::::::::|h[紫羅蘭徽記]|h|r",
 		},
-		[5] = {
-			["ID"] = 28262,
+		[9] = {
+			["ID"] = 28167,
 			["Level"] = 115,
-			["Link"] = "|cff0070dd|Hitem:28262::::::::70::::::::|h[玉顱胸甲]|h|r",
+			["Link"] = "|cff0070dd|Hitem:28167::::::::69::::::::|h[薩塔式護臂]|h|r",
 		},
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "特變電工-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

@@ -10,10 +10,12 @@ AtlasDB = {
 				["外域副本"] = 4,
 			},
 			["options"] = {
+				["autoSelect"] = true,
 				["dropdowns"] = {
 					["module"] = 2,
 					["zone"] = 4,
 				},
+				["checkMissingModules"] = true,
 			},
 			["minimap"] = {
 				["minimapPos"] = 205.2677607227743,
