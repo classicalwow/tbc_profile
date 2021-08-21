@@ -1,0 +1,30 @@
+
+_weizpvp_chardb = {
+	["profileKeys"] = {
+		["特變電工 - 伊弗斯"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["Options"] = {
+				["Database"] = {
+					["LastCleaned"] = 1629525926,
+					["VERSION"] = 3,
+				},
+				["Addon"] = {
+					["EnabledInArena"] = true,
+					["DisabledInSanctuary"] = true,
+				},
+				["Frames"] = {
+					["Point"] = "TOPLEFT",
+					["Width"] = 220.5575714111328,
+					["Y"] = 544.012451171875,
+					["X"] = 793.4559936523438,
+					["List"] = {
+						["Height"] = 360.0001220703125,
+					},
+					["Height"] = 126.0000076293945,
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,66 @@
+
+ElvDB = {
+	["faction"] = {
+		["伊弗斯"] = {
+			["豬圈一"] = "Horde",
+		},
+	},
+	["global"] = {
+		["nameplate"] = {
+			["filters"] = {
+				["ElvUI_NonTarget"] = {
+				},
+				["ElvUI_Target"] = {
+				},
+				["ElvUI_Boss"] = {
+				},
+			},
+		},
+	},
+	["LuaErrorDisabledAddOns"] = {
+	},
+	["gold"] = {
+		["伊弗斯"] = {
+			["豬圈一"] = 0,
+		},
+	},
+	["class"] = {
+		["伊弗斯"] = {
+			["豬圈一"] = "ROGUE",
+		},
+	},
+	["profileKeys"] = {
+		["豬圈一 - 伊弗斯"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["convertPages"] = true,
+			["dbConverted"] = 2.1,
+			["actionbar"] = {
+				["bar6"] = {
+					["enabled"] = true,
+					["buttonsPerRow"] = 6,
+					["buttons"] = 6,
+				},
+				["microbar"] = {
+					["buttons"] = 7,
+				},
+				["bar5"] = {
+					["enabled"] = false,
+					["buttonsPerRow"] = 12,
+					["buttons"] = 12,
+				},
+			},
+		},
+	},
+}
+ElvPrivateDB = {
+	["profileKeys"] = {
+		["豬圈一 - 伊弗斯"] = "豬圈一 - 伊弗斯",
+	},
+	["profiles"] = {
+		["豬圈一 - 伊弗斯"] = {
+			["install_complete"] = 2.1,
+		},
+	},
+}

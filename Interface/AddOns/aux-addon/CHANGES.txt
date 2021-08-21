@@ -1,0 +1,10 @@
+lightweight tag 15cc29317c010ea68d8348544182e8d50ee5ef52 v2.1.9
+Author:	GitHub <noreply@github.com>
+Date:	Fri Aug 20 15:55:06 2021 +0200
+
+commit 2c66423ca9380d5072cf13012cffbee154b54b12
+Author: Simon Hirsig <simon.hirsig@gmail.com>
+Date:   Sat Jul 31 13:13:03 2021 +0200
+
+    fix for changed popup api
+
