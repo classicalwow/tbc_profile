@@ -10,22 +10,22 @@ CodexConfig = {
 	["minimumDropChance"] = 2,
 	["showLowLevel"] = false,
 	["_tom_waypoint"] = {
-		1949, -- [1]
-		0.637, -- [2]
-		0.195, -- [3]
+		1948, -- [1]
+		0.557, -- [2]
+		0.5820000000000001, -- [3]
 		["arrivaldistance"] = 15,
 		["callbacks"] = {
 			["distance"] = {
 			},
-			["minimap"] = {
-			},
 			["world"] = {
+			},
+			["minimap"] = {
 			},
 		},
 		["persistent"] = true,
 		["minimap"] = true,
 		["cleardistance"] = 10,
-		["title"] = "苟克",
+		["title"] = "拉瑞萨·射日者",
 		["from"] = "?",
 		["crazy"] = true,
 		["world"] = true,

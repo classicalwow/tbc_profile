@@ -106,3 +106,5 @@ consoleport: disabled
 consoleport_keyboard: enabled
 consoleport_config: enabled
 clique: disabled
+nameplatecooldowns: disabled
+gladiusex: disabled

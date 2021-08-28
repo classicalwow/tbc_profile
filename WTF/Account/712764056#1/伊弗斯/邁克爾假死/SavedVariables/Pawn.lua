@@ -1,6 +1,8 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0523,
+	["LastVersion"] = 2.0524,
+	["LastPlayerFullName"] = "邁克爾假死-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 28215,
@@ -94,8 +96,6 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:28397::::::::70::::::::|h[餘燼鷹之弩]|h|r",
 		}, -- [18]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "邁克爾假死-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
