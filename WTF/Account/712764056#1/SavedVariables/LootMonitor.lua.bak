@@ -5,9 +5,9 @@ LootMonitorDB = {
 			["InstanceID"] = 565,
 			["FirstPlayer"] = "貓咪的尾巴",
 			["InstanceName"] = "Gruul's Lair",
-			["FirstClass"] = "PALADIN",
-			["Date"] = "2021-08-15",
 			["Class"] = "WARRIOR",
+			["Date"] = "2021-08-15",
+			["FirstClass"] = "PALADIN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-565-171-18831-000018FF52",
@@ -41,9 +41,9 @@ LootMonitorDB = {
 			["InstanceID"] = 544,
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Magtheridon's Lair",
-			["FirstClass"] = "UNKNOWN",
-			["Date"] = "2021-08-15",
 			["Class"] = "WARRIOR",
+			["Date"] = "2021-08-15",
+			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-544-1134-17257-0000190EDB",
@@ -214,17 +214,17 @@ LootMonitorDB = {
 				}, -- [12]
 			},
 			["Date"] = "2021-08-16",
-			["FirstClass"] = "PALADIN",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "PALADIN",
 			["InstanceName"] = "Karazhan",
 		}, -- [3]
 		{
 			["InstanceID"] = 565,
 			["FirstPlayer"] = "貓咪的尾巴",
 			["InstanceName"] = "Gruul's Lair",
-			["FirstClass"] = "PALADIN",
-			["Date"] = "2021-08-22",
 			["Class"] = "WARRIOR",
+			["Date"] = "2021-08-22",
+			["FirstClass"] = "PALADIN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-565-16854-18831-0000223D7D",
@@ -258,9 +258,9 @@ LootMonitorDB = {
 			["InstanceID"] = 544,
 			["FirstPlayer"] = "佛仔",
 			["InstanceName"] = "Magtheridon's Lair",
-			["FirstClass"] = "DRUID",
-			["Date"] = "2021-08-22",
 			["Class"] = "WARRIOR",
+			["Date"] = "2021-08-22",
+			["FirstClass"] = "DRUID",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-544-17761-17257-0000224949",
@@ -431,8 +431,8 @@ LootMonitorDB = {
 				}, -- [12]
 			},
 			["Date"] = "2021-08-23",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "PALADIN",
+			["Class"] = "WARRIOR",
 			["InstanceName"] = "Karazhan",
 		}, -- [6]
 	},

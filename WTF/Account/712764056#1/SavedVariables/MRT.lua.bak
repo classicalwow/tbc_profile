@@ -231,11 +231,12 @@ VMRT = {
 			["渡厄"] = 0,
 			["我內人"] = 0,
 			["雙弦笙殤"] = 0,
+			["師尹"] = 0,
 			["希爾德爵士"] = 0,
 			["背骨陰仔"] = 0,
 			["一項羽一"] = 0,
 			["漂浮幽靈"] = 0,
-			["Bigshow"] = 0,
+			["雅心一"] = 0,
 			["夜夜無愁"] = 0,
 			["願聖光保佑妳"] = 0,
 			["卡道圖騰"] = 0,
@@ -245,7 +246,7 @@ VMRT = {
 			["Huwl"] = 0,
 			["強運魔人"] = 0,
 			["終歸一嗜"] = 0,
-			["雅心一"] = 0,
+			["Bigshow"] = 0,
 			["五華街蕭告亂"] = 0,
 			["邁克爾假死"] = 0,
 		},
@@ -448,14 +449,14 @@ VMRT = {
 	},
 	["RaidCheck"] = {
 		["FlaskExp"] = 1,
-		["ReadyCheckFrameTimerFade"] = 4,
-		["BuffsCheck"] = true,
-		["ReadyCheckFrame"] = true,
 		["WeaponEnch"] = {
 		},
+		["BuffsCheck"] = true,
+		["ReadyCheckFrame"] = true,
+		["ReadyCheckTop"] = 721.836181640625,
 		["ReadyCheckFrameOnlyRL"] = true,
 		["ReadyCheckLeft"] = 1472.969604492188,
-		["ReadyCheckTop"] = 721.836181640625,
+		["ReadyCheckFrameTimerFade"] = 4,
 	},
 	["Addon"] = {
 		["Timer"] = 0.1,
@@ -490,26 +491,26 @@ VMRT = {
 		["BlackNames"] = {
 		},
 		["Strata"] = "HIGH",
-		["Top"] = 227.3311462402344,
+		["BlackLastUpdateName"] = {
+		},
 		["AutoLoad"] = {
 		},
+		["SelfText"] = "1. 坦三角拉在月亮旁邊\n2.斷法\n3. 月亮8點第3棒\n\n",
+		["Left"] = 1510.747924804688,
+		["Width"] = 251,
+		["ShowOnlyPersonal"] = true,
+		["OnlyPromoted"] = true,
+		["BlackLastUpdateTime"] = {
+		},
+		["FontSize"] = 22,
+		["Height"] = 133,
 		["Black"] = {
 			"", -- [1]
 			"", -- [2]
 			"", -- [3]
 		},
-		["Left"] = 1510.747924804688,
-		["Width"] = 251,
-		["BlackLastUpdateName"] = {
-		},
-		["BlackLastUpdateTime"] = {
-		},
-		["OnlyPromoted"] = true,
-		["FontSize"] = 22,
-		["Height"] = 133,
-		["SelfText"] = "1. 坦三角拉在月亮旁邊\n2.斷法\n3. 月亮8點第3棒\n\n",
 		["Text1"] = "1. 誤導1隊小德凱撒 XX\n2. 6點骷髏順序3\n",
-		["ShowOnlyPersonal"] = true,
+		["Top"] = 227.3311462402344,
 	},
 	["Logging"] = {
 	},

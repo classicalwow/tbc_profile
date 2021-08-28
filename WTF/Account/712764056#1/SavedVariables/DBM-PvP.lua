@@ -1,7 +1,6 @@
 
 DBMPvP_AllSavedVars = {
 	["特變電工-伊弗斯"] = {
-		["talent2"] = "WARRIOR2",
 		["z529"] = {
 			{
 				["Enabled"] = true,
@@ -13,6 +12,7 @@ DBMPvP_AllSavedVars = {
 				["Enabled"] = true,
 			}, -- [3]
 		},
+		["talent2"] = "WARRIOR2",
 		["z566"] = {
 			{
 				["Enabled"] = true,
@@ -38,14 +38,14 @@ DBMPvP_AllSavedVars = {
 				["TimerCapCVoice"] = 0,
 				["ShowBasesToWin"] = false,
 				["Enabled"] = true,
-				["TimerCap"] = true,
+				["TimerStartTColor"] = 0,
 				["TimerWin"] = true,
 				["TimerStartCVoice"] = 0,
 				["TimerRemainingCVoice"] = 0,
 				["ShowEstimatedPoints"] = true,
 				["TimerWinCVoice"] = 0,
 				["TimerCapTColor"] = 0,
-				["TimerStartTColor"] = 0,
+				["TimerCap"] = true,
 				["AutoSpirit"] = false,
 				["TimerStart"] = true,
 			}, -- [1]
@@ -61,14 +61,14 @@ DBMPvP_AllSavedVars = {
 				["TimerCapCVoice"] = 0,
 				["TimerRemainingTColor"] = 0,
 				["TimerCap"] = true,
-				["TimerStartTColor"] = 0,
+				["TimerWin"] = true,
 				["Enabled"] = true,
 				["TimerStartCVoice"] = 0,
 				["TimerRemainingCVoice"] = 0,
 				["ShowEstimatedPoints"] = true,
 				["TimerWinCVoice"] = 0,
 				["TimerCapTColor"] = 0,
-				["TimerWin"] = true,
+				["TimerStartTColor"] = 0,
 				["AutoSpirit"] = false,
 				["TimerStart"] = true,
 			}, -- [2]
@@ -84,19 +84,18 @@ DBMPvP_AllSavedVars = {
 				["TimerCapCVoice"] = 0,
 				["ShowBasesToWin"] = false,
 				["TimerWin"] = true,
-				["TimerFlag"] = true,
+				["TimerCap"] = true,
 				["TimerStartTColor"] = 0,
 				["TimerStartCVoice"] = 0,
 				["TimerRemainingCVoice"] = 0,
 				["ShowEstimatedPoints"] = true,
 				["TimerWinCVoice"] = 0,
 				["TimerCapTColor"] = 0,
-				["TimerCap"] = true,
+				["TimerFlag"] = true,
 				["AutoSpirit"] = false,
 				["TimerStart"] = true,
 			}, -- [3]
 		},
-		["talent3"] = "WARRIOR3",
 		["z489"] = {
 			{
 				["Enabled"] = true,
@@ -108,6 +107,7 @@ DBMPvP_AllSavedVars = {
 				["Enabled"] = true,
 			}, -- [3]
 		},
+		["talent3"] = "WARRIOR3",
 		["z30"] = {
 			{
 				["Enabled"] = true,
@@ -157,14 +157,14 @@ DBMPvP_AllSavedVars = {
 				["TimerCapCVoice"] = 0,
 				["ShowBasesToWin"] = false,
 				["TimerStartTColor"] = 0,
-				["TimerFlag"] = true,
+				["TimerCap"] = true,
 				["TimerWin"] = true,
 				["TimerStartCVoice"] = 0,
 				["TimerRemainingCVoice"] = 0,
 				["ShowEstimatedPoints"] = true,
 				["TimerWinCVoice"] = 0,
 				["TimerCapTColor"] = 0,
-				["TimerCap"] = true,
+				["TimerFlag"] = true,
 				["AutoSpirit"] = true,
 				["TimerStart"] = true,
 			}, -- [1]

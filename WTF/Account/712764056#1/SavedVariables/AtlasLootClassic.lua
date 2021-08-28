@@ -23,8 +23,8 @@ AtlasLootClassicDB = {
 				},
 				["selected"] = {
 					nil, -- [1]
-					"Karazhan", -- [2]
-					16, -- [3]
+					"SethekkHalls", -- [2]
+					2, -- [3]
 					6, -- [4]
 					0, -- [5]
 				},
