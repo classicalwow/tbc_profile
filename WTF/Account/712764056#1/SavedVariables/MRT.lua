@@ -32,16 +32,16 @@ VMRT = {
 			[72] = 10,
 			[104] = 10,
 			[73] = 10,
-			[581] = 10,
-			[105] = 10,
-			[577] = 10,
-			[256] = 10,
-			[254] = 10,
 			[252] = 10,
+			[105] = 10,
+			[254] = 10,
+			[256] = 10,
+			[577] = 10,
+			[581] = 10,
 		},
 		["Type"] = 2,
-		["Strata"] = "HIGH",
 		["timeToKillAnalyze"] = 15,
+		["Strata"] = "HIGH",
 	},
 	["ProfileKeys"] = {
 		["特變電工-伊弗斯"] = "default",
@@ -49,6 +49,22 @@ VMRT = {
 		["畜生犬隊長-伊弗斯"] = "default",
 	},
 	["Encounter"] = {
+		["names"] = {
+			[653] = "摩洛",
+			[655] = "歌劇大廳",
+			[657] = "泰瑞斯提安·疫蹄",
+			[659] = "尼德斯",
+			[661] = "莫克札王子",
+			[650] = "弒龍者戈魯爾",
+			[652] = "獵人阿圖曼",
+			[654] = "貞潔聖女",
+			[656] = "館長",
+			[658] = "埃蘭之影",
+			[660] = "西洋棋事件",
+			[662] = "夜禍",
+			[649] = "大君王莫卡爾",
+			[651] = "瑪瑟里頓",
+		},
 		["list"] = {
 			["特變電工"] = {
 				"^652^175^1626881738^183^1^10^92.27^火之馴獸師", -- [1]
@@ -140,6 +156,9 @@ VMRT = {
 				"^660^175^1629741528^121^1^10^80.08^", -- [87]
 				"^661^175^1629742301^270^1^10^79.54^", -- [88]
 				"^659^175^1629743100^360^1^10^79.20^永生相惜", -- [89]
+				"^649^176^1630240311^175^1^25^79.71^馨香", -- [90]
+				"^650^176^1630240908^367^1^25^79.71^乳牛妹妹", -- [91]
+				"^651^176^1630242656^533^1^25^79.17^約翰跑路", -- [92]
 			},
 			["畜生犬隊長"] = {
 			},
@@ -157,22 +176,6 @@ VMRT = {
 				"^651^176^1627221852^507^1^25^78.45^無小小雙", -- [11]
 			},
 		},
-		["names"] = {
-			[653] = "摩洛",
-			[655] = "歌劇大廳",
-			[657] = "泰瑞斯提安·疫蹄",
-			[659] = "尼德斯",
-			[661] = "莫克札王子",
-			[650] = "弒龍者戈魯爾",
-			[652] = "獵人阿圖曼",
-			[654] = "貞潔聖女",
-			[656] = "館長",
-			[658] = "埃蘭之影",
-			[660] = "西洋棋事件",
-			[662] = "夜禍",
-			[649] = "大君王莫卡爾",
-			[651] = "瑪瑟里頓",
-		},
 	},
 	["Marks"] = {
 		["list"] = {
@@ -182,6 +185,7 @@ VMRT = {
 		["upd4525"] = true,
 		["gnGUIDs"] = {
 			["狂暴小牛"] = 0,
+			["意難平"] = 0,
 			["沙漠之鷹"] = 0,
 			["加一元多一件"] = 0,
 			["請輸入名字"] = 0,
@@ -189,6 +193,7 @@ VMRT = {
 			["暈暈怪"] = 0,
 			["月巴豸苗"] = 0,
 			["小樂子"] = 0,
+			["Metatron"] = 0,
 			["洗手間有人"] = 0,
 			["阿咘先生"] = 0,
 			["戰術變形"] = 0,
@@ -196,6 +201,7 @@ VMRT = {
 			["綠豆沙"] = 0,
 			["Nater"] = 0,
 			["雷公助我"] = 0,
+			["酸臭味古龍水"] = 0,
 			["事事是不是"] = 0,
 			["阿傑拔拔"] = 0,
 			["赤脊山下智久"] = 0,
@@ -206,6 +212,7 @@ VMRT = {
 			["貓咪的尾巴"] = 0,
 			["酒吧美尸"] = 0,
 			["來自強國的我"] = 0,
+			["月牙殘"] = 0,
 			["見習法師"] = 0,
 			["菇逃菇鬧"] = 0,
 			["下巴脫臼"] = 0,
@@ -231,31 +238,34 @@ VMRT = {
 			["永生相惜"] = 0,
 			["哞鬥凱薩"] = 0,
 			["魔法阿公"] = 0,
+			["約翰跑路"] = 0,
 			["牛奶菠蘿冰"] = 0,
 			["牧原股份"] = 0,
 			["渡厄"] = 0,
 			["我內人"] = 0,
 			["雙弦笙殤"] = 0,
+			["聖騎沒無敵"] = 0,
+			["希爾德爵士"] = 0,
 			["師尹"] = 0,
-			["傲嬌"] = 0,
-			["Hanpo"] = 0,
-			["邁克爾假死"] = 0,
+			["一項羽一"] = 0,
+			["漂浮幽靈"] = 0,
+			["願聖光保佑妳"] = 0,
 			["背骨陰仔"] = 0,
-			["五華街蕭告亂"] = 0,
-			["Bigshow"] = 0,
+			["春風吹花蕊"] = 0,
+			["乂張楚嵐乂"] = 0,
 			["雅心一"] = 0,
 			["夜夜無愁"] = 0,
-			["終歸一嗜"] = 0,
-			["卡道圖騰"] = 0,
-			["強運魔人"] = 0,
-			["Huwl"] = 0,
 			["紅麗幻法"] = 0,
-			["乂張楚嵐乂"] = 0,
-			["春風吹花蕊"] = 0,
-			["願聖光保佑妳"] = 0,
-			["漂浮幽靈"] = 0,
-			["一項羽一"] = 0,
-			["希爾德爵士"] = 0,
+			["卡道圖騰"] = 0,
+			["Huwl"] = 0,
+			["強運魔人"] = 0,
+			["Bigshow"] = 0,
+			["終歸一嗜"] = 0,
+			["五華街蕭告亂"] = 0,
+			["邁克爾假死"] = 0,
+			["Hanpo"] = 0,
+			["傲嬌"] = 0,
+			["倌夜瞳"] = 0,
 		},
 		["NoRaid"] = true,
 		["CDECol"] = {
@@ -278,13 +288,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [1]
 			{
 				["enabled"] = true,
@@ -293,13 +303,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [2]
 			{
 				["enabled"] = true,
@@ -308,13 +318,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [3]
 			{
 				["frameGeneral"] = true,
@@ -322,13 +332,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [4]
 			{
 				["frameGeneral"] = true,
@@ -336,13 +346,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [5]
 			{
 				["frameGeneral"] = true,
@@ -350,13 +360,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [6]
 			{
 				["frameGeneral"] = true,
@@ -364,13 +374,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [7]
 			{
 				["frameGeneral"] = true,
@@ -378,13 +388,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [8]
 			{
 				["frameGeneral"] = true,
@@ -392,13 +402,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [9]
 			{
 				["frameGeneral"] = true,
@@ -406,13 +416,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [10]
 			{
 				["frameGeneral"] = true,
@@ -420,13 +430,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [11]
 		},
 		["Priority"] = {
@@ -450,43 +460,39 @@ VMRT = {
 		["ColorizeLowIlvl685"] = false,
 		["ColorizeNoEnch"] = true,
 		["ColorizeNoGems"] = true,
-		["ColorizeLowIlvl"] = true,
 		["ColorizeNoTopEnchGems"] = false,
+		["ColorizeLowIlvl"] = true,
 		["ColorizeNoValorUpgrade"] = false,
 	},
-	["InviteTool"] = {
-		["Words"] = "инв inv byd штм 123",
-		["InvByChat"] = true,
-		["RaidDiff"] = 16,
-		["PromoteRank"] = 2,
-		["Ranks"] = {
-			true, -- [1]
+	["RaidCheck"] = {
+		["FlaskExp"] = 1,
+		["ReadyCheckFrameTimerFade"] = 4,
+		["BuffsCheck"] = true,
+		["ReadyCheckFrame"] = true,
+		["WeaponEnch"] = {
 		},
-		["LootThreshold"] = 2,
-		["MasterLooters"] = "",
-		["LootMethod"] = "group",
-		["PromoteNames"] = "",
-		["OnlyGuild"] = true,
-		["Rank"] = 1,
+		["ReadyCheckFrameOnlyRL"] = true,
+		["ReadyCheckLeft"] = 1472.969604492188,
+		["ReadyCheckTop"] = 721.836181640625,
 	},
 	["Addon"] = {
 		["Timer"] = 0.1,
-		["Scale"] = 1,
-		["Version"] = 4560,
 		["PreVersion"] = 4560,
+		["Version"] = 4560,
+		["Scale"] = 1,
 	},
 	["WhoPulled"] = {
+	},
+	["Profiles"] = {
 	},
 	["BossWatcher"] = {
 		["optionsDamageGraph"] = true,
 		["fightsNum"] = 2,
-		["enabled"] = true,
-		["optionsPositionsDist"] = true,
-		["optionsHealingGraph"] = true,
 		["trackingDamageSpells"] = {
 		},
-	},
-	["Profiles"] = {
+		["optionsPositionsDist"] = true,
+		["optionsHealingGraph"] = true,
+		["enabled"] = true,
 	},
 	["Profile"] = "default",
 	["LootLink"] = {
@@ -501,12 +507,15 @@ VMRT = {
 	["Note"] = {
 		["BlackNames"] = {
 		},
-		["Strata"] = "HIGH",
-		["Top"] = 227.3311462402344,
+		["FontSize"] = 22,
 		["AutoLoad"] = {
 		},
-		["OnlyPromoted"] = true,
 		["Left"] = 1510.747924804688,
+		["ShowOnlyPersonal"] = true,
+		["OnlyPromoted"] = true,
+		["Text1"] = "1. 誤導1隊小德凱撒 XX\n2. 6點骷髏順序3\n",
+		["OptionsFormatting"] = true,
+		["enabled"] = true,
 		["Width"] = 251,
 		["BlackLastUpdateName"] = {
 		},
@@ -515,13 +524,12 @@ VMRT = {
 			"", -- [2]
 			"", -- [3]
 		},
-		["SelfText"] = "1. 坦三角拉在月亮旁邊\n2.斷法\n3. 月亮8點第3棒\n\n",
-		["FontSize"] = 22,
+		["SelfText"] = "1. 三角4 11點方向\n\n",
 		["Height"] = 133,
 		["BlackLastUpdateTime"] = {
 		},
-		["Text1"] = "1. 誤導1隊小德凱撒 XX\n2. 6點骷髏順序3\n",
-		["ShowOnlyPersonal"] = true,
+		["Top"] = 227.3311462402344,
+		["Strata"] = "HIGH",
 	},
 	["Logging"] = {
 	},
@@ -534,11 +542,11 @@ VMRT = {
 			true, -- [5]
 		},
 		["Strata"] = "HIGH",
-		["Top"] = 246.0345001220703,
+		["enabled"] = true,
 		["pulltimer"] = 5,
 		["pulltimer_right"] = 10,
 		["Left"] = 501.2257995605469,
-		["enabled"] = true,
+		["Top"] = 246.0345001220703,
 	},
 	["VisNote"] = {
 		["data"] = {
@@ -586,15 +594,19 @@ VMRT = {
 		["sync_data"] = {
 		},
 	},
-	["RaidCheck"] = {
-		["FlaskExp"] = 1,
-		["ReadyCheckFrameTimerFade"] = 4,
-		["BuffsCheck"] = true,
-		["ReadyCheckFrame"] = true,
-		["WeaponEnch"] = {
+	["InviteTool"] = {
+		["Words"] = "инв inv byd штм 123",
+		["InvByChat"] = true,
+		["RaidDiff"] = 16,
+		["PromoteRank"] = 2,
+		["Ranks"] = {
+			true, -- [1]
 		},
-		["ReadyCheckLeft"] = 1472.969604492188,
-		["ReadyCheckFrameOnlyRL"] = true,
-		["ReadyCheckTop"] = 721.836181640625,
+		["LootThreshold"] = 2,
+		["MasterLooters"] = "",
+		["LootMethod"] = "group",
+		["PromoteNames"] = "",
+		["OnlyGuild"] = true,
+		["Rank"] = 1,
 	},
 }
