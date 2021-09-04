@@ -2570,7 +2570,7 @@ local function GetOptionsTable_GeneralGroup(updateFunc, groupName, numUnits)
 		end
 	end
 
-	if groupName == 'raid' or groupName == 'raid40' or groupName == 'raidpet' then
+	if groupName == 'raid' or groupName == 'raid40' then
 		config.args.positionsGroup.args.numGroups.disabled = function() return E.db.unitframe.smartRaidFilter end
 		config.args.visibilityGroup.args.visibility.disabled = function() return E.db.unitframe.smartRaidFilter end
 	end
@@ -5001,7 +5001,6 @@ E.Options.args.unitframe.args.groupUnits.args.raidpet = {
 			type = 'toggle',
 			order = 1,
 			name = L["Enable"],
-			disabled = function() return E.db.unitframe.smartRaidFilter end,
 		},
 		configureToggle = {
 			order = 2,
@@ -5121,6 +5120,7 @@ E.Options.args.unitframe.args.groupUnits.args.tank = {
 		cutaway = GetOptionsTable_Cutaway(UF.CreateAndUpdateHeaderGroup, 'tank'),
 		debuffs = GetOptionsTable_Auras('debuffs', UF.CreateAndUpdateHeaderGroup, 'tank'),
 		fader = GetOptionsTable_Fader(UF.CreateAndUpdateHeaderGroup, 'tank'),
+		healPredction = GetOptionsTable_HealPrediction(UF.CreateAndUpdateHeaderGroup, 'tank'),
 		name = GetOptionsTable_Name(UF.CreateAndUpdateHeaderGroup, 'tank'),
 		rdebuffs = GetOptionsTable_RaidDebuff(UF.CreateAndUpdateHeaderGroup, 'tank'),
 	},
@@ -5207,6 +5207,7 @@ E.Options.args.unitframe.args.groupUnits.args.assist = {
 		cutaway = GetOptionsTable_Cutaway(UF.CreateAndUpdateHeaderGroup, 'assist'),
 		debuffs = GetOptionsTable_Auras('debuffs', UF.CreateAndUpdateHeaderGroup, 'assist'),
 		fader = GetOptionsTable_Fader(UF.CreateAndUpdateHeaderGroup, 'assist'),
+		healPredction = GetOptionsTable_HealPrediction(UF.CreateAndUpdateHeaderGroup, 'assist'),
 		name = GetOptionsTable_Name(UF.CreateAndUpdateHeaderGroup, 'assist'),
 		rdebuffs = GetOptionsTable_RaidDebuff(UF.CreateAndUpdateHeaderGroup, 'assist'),
 	},

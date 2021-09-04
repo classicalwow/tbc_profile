@@ -55,7 +55,7 @@ end
 local ValueColorUpdate = function(hex)
 	String = strjoin("", "%s: ", hex, "%s|r")
 	
-	if Panel then
+	if (Panel ~= nil) then
 		OnEvent(Panel)
 	end
 end

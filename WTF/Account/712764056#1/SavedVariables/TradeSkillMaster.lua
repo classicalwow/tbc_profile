@@ -64,390 +64,6 @@ TradeSkillMasterDB = {
 	["c@路易斯桑拿 - 伊弗斯@internalData@craftingCooldowns"] = {
 	},
 	["f@Horde - 伊弗斯@internalData@crafts"] = {
-		["c:7719192"] = {
-			["mats"] = {
-				["i:12359"] = 6,
-				["i:12655"] = 2,
-				["i:8170"] = 1,
-			},
-			["itemString"] = "i:29203",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "附魔瑟銀刃",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:1375319"] = {
-			["mats"] = {
-				["i:2321"] = 2,
-				["i:3470"] = 3,
-				["i:2840"] = 8,
-			},
-			["itemString"] = "i:3473",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "銅質符文便褲",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:11044124"] = {
-			["mats"] = {
-				["i:3478"] = 1,
-				["i:2841"] = 5,
-			},
-			["itemString"] = "i:3480",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "劣質青銅護肩",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:10359049"] = {
-			["mats"] = {
-				["i:1206"] = 1,
-				["i:7067"] = 1,
-				["i:3859"] = 10,
-				["i:3466"] = 2,
-				["i:4234"] = 1,
-			},
-			["itemString"] = "i:12259",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "亮閃閃的鋼匕首",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:8404622"] = {
-			["mats"] = {
-				["i:4234"] = 2,
-				["i:3575"] = 14,
-				["i:3466"] = 2,
-				["i:3486"] = 2,
-				["i:3577"] = 4,
-			},
-			["itemString"] = "i:3855",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "巨型鐵斧",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:13649356"] = {
-			["mats"] = {
-				["i:2836"] = 2,
-			},
-			["itemString"] = "i:3478",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "粗製砂輪",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:16059468"] = {
-			["mats"] = {
-				["i:2605"] = 1,
-				["i:3575"] = 6,
-			},
-			["itemString"] = "i:3835",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "綠鐵護腕",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:5119473"] = {
-			["mats"] = {
-				["i:3575"] = 8,
-				["i:3486"] = 1,
-				["i:2605"] = 1,
-			},
-			["itemString"] = "i:3842",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "綠鐵護腿",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:2640120"] = {
-			["mats"] = {
-				["i:23445"] = 9,
-			},
-			["itemString"] = "i:23490",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "魔鐵鍊甲外套",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:10199199"] = {
-			["mats"] = {
-				["i:2842"] = 1,
-				["i:3470"] = 1,
-			},
-			["itemString"] = "i:15869",
-			["profession"] = "鍛造",
-			["numResult"] = 2,
-			["name"] = "銀骷髏鑰匙",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:2283278"] = {
-			["mats"] = {
-				["i:2841"] = 6,
-				["i:2319"] = 1,
-				["i:2880"] = 4,
-			},
-			["itemString"] = "i:2848",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "青銅釘錘",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:9984154"] = {
-			["mats"] = {
-				["i:7966"] = 3,
-				["i:3860"] = 4,
-			},
-			["itemString"] = "i:7969",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "秘銀馬刺",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:4460327"] = {
-			["mats"] = {
-				["i:23448"] = 8,
-			},
-			["itemString"] = "i:23518",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "魔鋼護腿",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:1095860"] = {
-			["mats"] = {
-				["i:23445"] = 8,
-			},
-			["itemString"] = "i:23488",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "魔鐵鎧甲便褲",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:147973"] = {
-			["mats"] = {
-				["i:2592"] = 1,
-				["i:2838"] = 1,
-			},
-			["itemString"] = "i:3241",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "重平衡石",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:1961664"] = {
-			["mats"] = {
-				["i:22831"] = 4,
-				["i:22451"] = 4,
-				["i:23448"] = 6,
-				["i:22449"] = 2,
-			},
-			["itemString"] = "i:23526",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "迅鋼手套",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:11568904"] = {
-			["mats"] = {
-				["i:2841"] = 5,
-				["i:2319"] = 2,
-				["i:2880"] = 4,
-			},
-			["itemString"] = "i:2850",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "青銅短劍",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:10692346"] = {
-			["mats"] = {
-				["i:2842"] = 1,
-				["i:3470"] = 2,
-			},
-			["itemString"] = "i:6338",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "銀棒",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:12524821"] = {
-			["mats"] = {
-				["i:12365"] = 1,
-				["i:14047"] = 1,
-			},
-			["itemString"] = "i:12643",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "緻密平衡石",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:2361474"] = {
-			["mats"] = {
-				["i:2318"] = 2,
-				["i:2880"] = 2,
-				["i:2840"] = 10,
-				["i:2842"] = 2,
-				["i:3470"] = 2,
-			},
-			["itemString"] = "i:3489",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "厚重的戰斧",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:10696573"] = {
-			["mats"] = {
-				["i:3860"] = 16,
-			},
-			["itemString"] = "i:7930",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "重型秘銀胸甲",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:7556386"] = {
-			["mats"] = {
-				["i:2589"] = 1,
-				["i:2835"] = 1,
-			},
-			["itemString"] = "i:3239",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "劣質平衡石",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:5314205"] = {
-			["mats"] = {
-				["i:12644"] = 1,
-				["i:12360"] = 1,
-			},
-			["itemString"] = "i:15872",
-			["profession"] = "鍛造",
-			["numResult"] = 2,
-			["name"] = "奧金骷髏鑰匙",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:14662883"] = {
-			["mats"] = {
-				["i:2840"] = 4,
-			},
-			["itemString"] = "i:2852",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "銅質鍊甲便褲",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:16267929"] = {
-			["mats"] = {
-				["i:12644"] = 1,
-				["i:12360"] = 3,
-			},
-			["itemString"] = "i:16206",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "奧金棒",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:9392426"] = {
-			["mats"] = {
-				["i:2835"] = 2,
-			},
-			["itemString"] = "i:3470",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "劣質砂輪",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:6975107"] = {
-			["mats"] = {
-				["i:23445"] = 6,
-			},
-			["itemString"] = "i:23494",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "魔鐵鍊甲護腕",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:11864065"] = {
-			["mats"] = {
-				["i:23445"] = 9,
-			},
-			["itemString"] = "i:23497",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "魔鐵短斧",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:16178675"] = {
-			["mats"] = {
-				["i:3470"] = 6,
-				["i:2841"] = 6,
-			},
-			["itemString"] = "i:6350",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "劣質青銅長靴",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
 		["c:11922014"] = {
 			["mats"] = {
 				["i:3478"] = 2,
@@ -455,11 +71,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:2868",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "青銅花紋護腕",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "青銅花紋護腕",
+			["numResult"] = 1,
 		},
 		["c:6816426"] = {
 			["mats"] = {
@@ -469,35 +85,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:6214",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
+			["players"] = {
+				["特變電工"] = true,
+			},
 			["name"] = "重銅大槌",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:5567167"] = {
-			["mats"] = {
-				["i:7912"] = 4,
-			},
-			["itemString"] = "i:7966",
-			["profession"] = "鍛造",
 			["numResult"] = 1,
-			["name"] = "堅固的砂輪",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:1024567"] = {
-			["mats"] = {
-				["i:12365"] = 4,
-			},
-			["itemString"] = "i:12644",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "緻密砂輪",
-			["players"] = {
-				["特變電工"] = true,
-			},
 		},
 		["c:13837222"] = {
 			["mats"] = {
@@ -505,11 +97,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:7071",
 			["profession"] = "鍛造",
-			["numResult"] = 2,
-			["name"] = "鐵扣環",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "鐵扣環",
+			["numResult"] = 2,
 		},
 		["c:7835376"] = {
 			["mats"] = {
@@ -518,11 +110,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:7922",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "鋼質頭盔",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "鋼質頭盔",
+			["numResult"] = 1,
 		},
 		["c:14526734"] = {
 			["mats"] = {
@@ -530,23 +122,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:23499",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
+			["players"] = {
+				["特變電工"] = true,
+			},
 			["name"] = "魔鐵巨劍",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:9439841"] = {
-			["mats"] = {
-				["i:12359"] = 12,
-			},
-			["itemString"] = "i:12425",
-			["profession"] = "鍛造",
 			["numResult"] = 1,
-			["name"] = "君王鎧甲護腕",
-			["players"] = {
-				["特變電工"] = true,
-			},
 		},
 		["c:891994"] = {
 			["mats"] = {
@@ -556,48 +136,37 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:3483",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "鍍銀青銅護手",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "鍍銀青銅護手",
+			["numResult"] = 1,
 		},
 		["c:15173865"] = {
 			["mats"] = {
-				["i:3860"] = 14,
 				["i:4304"] = 4,
+				["i:3860"] = 14,
 			},
 			["itemString"] = "i:7933",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
+			["players"] = {
+				["特變電工"] = true,
+			},
 			["name"] = "秘銀重靴",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:3877196"] = {
-			["mats"] = {
-				["i:2836"] = 1,
-			},
-			["itemString"] = "i:2863",
-			["profession"] = "鍛造",
 			["numResult"] = 1,
-			["name"] = "粗製磨刀石",
-			["players"] = {
-				["特變電工"] = true,
-			},
 		},
-		["c:41600"] = {
+		["c:14215814"] = {
 			["mats"] = {
-				["i:2840"] = 8,
+				["i:22573"] = 2,
+				["i:23446"] = 1,
 			},
-			["itemString"] = "i:3469",
+			["itemString"] = "i:23529",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "銅質鍊甲長靴",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "堅鋼磨刀石",
+			["numResult"] = 1,
 		},
 		["c:997235"] = {
 			["mats"] = {
@@ -605,11 +174,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:12426",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "君王鎧甲靴",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "君王鎧甲靴",
+			["numResult"] = 1,
 		},
 		["c:76282"] = {
 			["mats"] = {
@@ -617,23 +186,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:25521",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
+			["players"] = {
+				["特變電工"] = true,
+			},
 			["name"] = "強效結界符文",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:4833996"] = {
-			["mats"] = {
-				["i:23445"] = 4,
-			},
-			["itemString"] = "i:23482",
-			["profession"] = "鍛造",
 			["numResult"] = 1,
-			["name"] = "魔鐵鎧甲手套",
-			["players"] = {
-				["特變電工"] = true,
-			},
 		},
 		["c:4974399"] = {
 			["mats"] = {
@@ -643,11 +200,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:7957",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "青銅巨劍",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "青銅巨劍",
+			["numResult"] = 1,
 		},
 		["c:15202378"] = {
 			["mats"] = {
@@ -655,11 +212,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:2862",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "劣質磨刀石",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "劣質磨刀石",
+			["numResult"] = 1,
 		},
 		["c:3508986"] = {
 			["mats"] = {
@@ -668,23 +225,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:12424",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
+			["players"] = {
+				["特變電工"] = true,
+			},
 			["name"] = "君王鎧甲腰帶",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:13889499"] = {
-			["mats"] = {
-				["i:23448"] = 8,
-			},
-			["itemString"] = "i:23519",
-			["profession"] = "鍛造",
 			["numResult"] = 1,
-			["name"] = "魔鋼頭盔",
-			["players"] = {
-				["特變電工"] = true,
-			},
 		},
 		["c:6449499"] = {
 			["mats"] = {
@@ -694,24 +239,24 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:2847",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
+			["players"] = {
+				["特變電工"] = true,
+			},
 			["name"] = "銅質短劍",
-			["players"] = {
-				["特變電工"] = true,
-			},
+			["numResult"] = 1,
 		},
-		["c:9368815"] = {
+		["c:16267929"] = {
 			["mats"] = {
-				["i:6037"] = 1,
-				["i:7966"] = 1,
+				["i:12644"] = 1,
+				["i:12360"] = 3,
 			},
-			["itemString"] = "i:15871",
+			["itemString"] = "i:16206",
 			["profession"] = "鍛造",
-			["numResult"] = 2,
-			["name"] = "真銀骷髏鑰匙",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "奧金棒",
+			["numResult"] = 1,
 		},
 		["c:4020442"] = {
 			["mats"] = {
@@ -720,11 +265,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:15870",
 			["profession"] = "鍛造",
-			["numResult"] = 2,
-			["name"] = "金骷髏鑰匙",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "金骷髏鑰匙",
+			["numResult"] = 2,
 		},
 		["c:9259937"] = {
 			["mats"] = {
@@ -734,11 +279,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:2844",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "銅質釘錘",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "銅質釘錘",
+			["numResult"] = 1,
 		},
 		["c:9091748"] = {
 			["mats"] = {
@@ -746,11 +291,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:23559",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "次級結界符文",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "次級結界符文",
+			["numResult"] = 1,
 		},
 		["c:14742410"] = {
 			["mats"] = {
@@ -760,11 +305,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:2845",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "銅斧",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "銅斧",
+			["numResult"] = 1,
 		},
 		["c:6436449"] = {
 			["mats"] = {
@@ -774,11 +319,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:7958",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "青銅戰斧",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "青銅戰斧",
+			["numResult"] = 1,
 		},
 		["c:11895283"] = {
 			["mats"] = {
@@ -786,66 +331,26 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:2871",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
+			["players"] = {
+				["特變電工"] = true,
+			},
 			["name"] = "重磨刀石",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:8598080"] = {
-			["mats"] = {
-				["i:21884"] = 2,
-				["i:23445"] = 12,
-				["i:23449"] = 8,
-				["i:27503"] = 2,
-			},
-			["itemString"] = "i:33173",
-			["profession"] = "鍛造",
 			["numResult"] = 1,
-			["name"] = "怒鋼護肩",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:13022608"] = {
-			["mats"] = {
-				["i:2840"] = 8,
-				["i:3470"] = 2,
-			},
-			["itemString"] = "i:3472",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "銅質符文護手",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:826900"] = {
-			["mats"] = {
-				["i:2840"] = 4,
-			},
-			["itemString"] = "i:10421",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "劣質銅外衣",
-			["players"] = {
-				["特變電工"] = true,
-			},
 		},
 		["c:9865260"] = {
 			["mats"] = {
-				["i:3860"] = 12,
-				["i:7966"] = 1,
-				["i:4234"] = 4,
 				["i:3864"] = 2,
+				["i:4234"] = 4,
+				["i:7966"] = 1,
+				["i:3860"] = 12,
 			},
 			["itemString"] = "i:7941",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "秘銀重斧",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "秘銀重斧",
+			["numResult"] = 1,
 		},
 		["c:3977143"] = {
 			["mats"] = {
@@ -857,11 +362,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:3853",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "月鋼寬劍",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "月鋼寬劍",
+			["numResult"] = 1,
 		},
 		["c:5571489"] = {
 			["mats"] = {
@@ -869,11 +374,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:23484",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "魔鐵鎧甲腰帶",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "魔鐵鎧甲腰帶",
+			["numResult"] = 1,
 		},
 		["c:6942868"] = {
 			["mats"] = {
@@ -881,11 +386,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:3486",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "重砂輪",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "重砂輪",
+			["numResult"] = 1,
 		},
 		["c:13664018"] = {
 			["mats"] = {
@@ -896,11 +401,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:5540",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "珍珠匕首",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "珍珠匕首",
+			["numResult"] = 1,
 		},
 		["c:3801571"] = {
 			["mats"] = {
@@ -908,48 +413,36 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:2853",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
+			["players"] = {
+				["特變電工"] = true,
+			},
 			["name"] = "銅質護腕",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:12321513"] = {
-			["mats"] = {
-				["i:2840"] = 10,
-			},
-			["itemString"] = "i:2857",
-			["profession"] = "鍛造",
 			["numResult"] = 1,
-			["name"] = "銅質符文腰帶",
-			["players"] = {
-				["特變電工"] = true,
-			},
 		},
-		["c:15979867"] = {
+		["c:9392426"] = {
 			["mats"] = {
-				["i:2840"] = 10,
-				["i:3470"] = 3,
+				["i:2835"] = 2,
 			},
-			["itemString"] = "i:2854",
+			["itemString"] = "i:3470",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "銅質符文護腕",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "劣質砂輪",
+			["numResult"] = 1,
 		},
-		["c:100220"] = {
+		["c:9368815"] = {
 			["mats"] = {
-				["i:2841"] = 6,
+				["i:6037"] = 1,
+				["i:7966"] = 1,
 			},
-			["itemString"] = "i:2865",
+			["itemString"] = "i:15871",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "劣質青銅護腿",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "真銀骷髏鑰匙",
+			["numResult"] = 2,
 		},
 		["c:12656007"] = {
 			["mats"] = {
@@ -958,23 +451,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:7931",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
+			["players"] = {
+				["特變電工"] = true,
+			},
 			["name"] = "秘銀頭巾",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:14286420"] = {
-			["mats"] = {
-				["i:2841"] = 7,
-			},
-			["itemString"] = "i:2866",
-			["profession"] = "鍛造",
 			["numResult"] = 1,
-			["name"] = "劣質青銅胸衣",
-			["players"] = {
-				["特變電工"] = true,
-			},
 		},
 		["c:8834113"] = {
 			["mats"] = {
@@ -984,92 +465,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:29201",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
+			["players"] = {
+				["特變電工"] = true,
+			},
 			["name"] = "厚青銅飛鏢",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:11118705"] = {
-			["mats"] = {
-				["i:3486"] = 3,
-				["i:3859"] = 16,
-			},
-			["itemString"] = "i:7963",
-			["profession"] = "鍛造",
 			["numResult"] = 1,
-			["name"] = "鋼質胸甲",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:13806745"] = {
-			["mats"] = {
-				["i:23445"] = 10,
-			},
-			["itemString"] = "i:23498",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "魔鐵錘",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:2017437"] = {
-			["mats"] = {
-				["i:7912"] = 1,
-			},
-			["itemString"] = "i:7964",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "堅固的磨刀石",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:11614749"] = {
-			["mats"] = {
-				["i:2841"] = 7,
-				["i:2319"] = 1,
-				["i:2880"] = 4,
-			},
-			["itemString"] = "i:2849",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "青銅斧",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:4813125"] = {
-			["mats"] = {
-				["i:1705"] = 2,
-				["i:1206"] = 2,
-				["i:5500"] = 2,
-				["i:2842"] = 4,
-				["i:2841"] = 20,
-			},
-			["itemString"] = "i:2870",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "銀鱗胸甲",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:5573353"] = {
-			["mats"] = {
-				["i:3575"] = 12,
-				["i:2605"] = 1,
-				["i:3864"] = 1,
-			},
-			["itemString"] = "i:3836",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "綠鐵頭盔",
-			["players"] = {
-				["特變電工"] = true,
-			},
 		},
 		["c:2120643"] = {
 			["mats"] = {
@@ -1081,11 +481,62 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:3844",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "綠鐵鍊衫",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "綠鐵鍊衫",
+			["numResult"] = 1,
+		},
+		["c:11078462"] = {
+			["mats"] = {
+				["i:2836"] = 1,
+				["i:2592"] = 1,
+			},
+			["itemString"] = "i:3240",
+			["profession"] = "鍛造",
+			["players"] = {
+				["特變電工"] = true,
+			},
+			["name"] = "粗製平衡石",
+			["numResult"] = 1,
+		},
+		["c:13806745"] = {
+			["mats"] = {
+				["i:23445"] = 10,
+			},
+			["itemString"] = "i:23498",
+			["profession"] = "鍛造",
+			["players"] = {
+				["特變電工"] = true,
+			},
+			["name"] = "魔鐵錘",
+			["numResult"] = 1,
+		},
+		["c:2017437"] = {
+			["mats"] = {
+				["i:7912"] = 1,
+			},
+			["itemString"] = "i:7964",
+			["profession"] = "鍛造",
+			["players"] = {
+				["特變電工"] = true,
+			},
+			["name"] = "堅固的磨刀石",
+			["numResult"] = 1,
+		},
+		["c:11614749"] = {
+			["mats"] = {
+				["i:2841"] = 7,
+				["i:2319"] = 1,
+				["i:2880"] = 4,
+			},
+			["itemString"] = "i:2849",
+			["profession"] = "鍛造",
+			["players"] = {
+				["特變電工"] = true,
+			},
+			["name"] = "青銅斧",
+			["numResult"] = 1,
 		},
 		["c:8884320"] = {
 			["mats"] = {
@@ -1094,11 +545,51 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:6040",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "金鱗護腕",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "金鱗護腕",
+			["numResult"] = 1,
+		},
+		["c:5573353"] = {
+			["mats"] = {
+				["i:2605"] = 1,
+				["i:3575"] = 12,
+				["i:3864"] = 1,
+			},
+			["itemString"] = "i:3836",
+			["profession"] = "鍛造",
+			["players"] = {
+				["特變電工"] = true,
+			},
+			["name"] = "綠鐵頭盔",
+			["numResult"] = 1,
+		},
+		["c:16211830"] = {
+			["mats"] = {
+				["i:3478"] = 2,
+				["i:3577"] = 1,
+			},
+			["itemString"] = "i:11128",
+			["profession"] = "鍛造",
+			["players"] = {
+				["特變電工"] = true,
+			},
+			["name"] = "金棒",
+			["numResult"] = 1,
+		},
+		["c:4992072"] = {
+			["mats"] = {
+				["i:23446"] = 1,
+				["i:21877"] = 2,
+			},
+			["itemString"] = "i:28421",
+			["profession"] = "鍛造",
+			["players"] = {
+				["特變電工"] = true,
+			},
+			["name"] = "堅鋼平衡石",
+			["numResult"] = 1,
 		},
 		["c:4289924"] = {
 			["mats"] = {
@@ -1108,11 +599,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:7956",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "青銅戰錘",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "青銅戰錘",
+			["numResult"] = 1,
 		},
 		["c:6498570"] = {
 			["mats"] = {
@@ -1122,23 +613,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:3482",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
+			["players"] = {
+				["特變電工"] = true,
+			},
 			["name"] = "鍍銀青銅長靴",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:11200805"] = {
-			["mats"] = {
-				["i:3860"] = 12,
-			},
-			["itemString"] = "i:7920",
-			["profession"] = "鍛造",
 			["numResult"] = 1,
-			["name"] = "秘銀鱗片便褲",
-			["players"] = {
-				["特變電工"] = true,
-			},
 		},
 		["c:15564495"] = {
 			["mats"] = {
@@ -1146,11 +625,24 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:23491",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "魔鐵鍊甲手套",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "魔鐵鍊甲手套",
+			["numResult"] = 1,
+		},
+		["c:283362"] = {
+			["mats"] = {
+				["i:4338"] = 4,
+				["i:3860"] = 6,
+			},
+			["itemString"] = "i:7919",
+			["profession"] = "鍛造",
+			["players"] = {
+				["特變電工"] = true,
+			},
+			["name"] = "重型秘銀護手",
+			["numResult"] = 1,
 		},
 		["c:1390581"] = {
 			["mats"] = {
@@ -1158,11 +650,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:12404",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "緻密磨刀石",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "緻密磨刀石",
+			["numResult"] = 1,
 		},
 		["c:4545364"] = {
 			["mats"] = {
@@ -1175,11 +667,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:3491",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "青銅重錘",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "青銅重錘",
+			["numResult"] = 1,
 		},
 		["c:6155702"] = {
 			["mats"] = {
@@ -1187,55 +679,35 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:2851",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
+			["players"] = {
+				["特變電工"] = true,
+			},
 			["name"] = "銅質鍊甲腰帶",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:7551670"] = {
-			["mats"] = {
-				["i:22451"] = 20,
-				["i:23573"] = 6,
-				["i:23449"] = 12,
-				["i:21885"] = 20,
-			},
-			["itemString"] = "i:28440",
-			["profession"] = "鍛造",
 			["numResult"] = 1,
-			["name"] = "雷",
-			["players"] = {
-				["特變電工"] = true,
-			},
 		},
-		["c:15377278"] = {
+		["c:10856636"] = {
 			["mats"] = {
-				["i:22573"] = 1,
-				["i:23445"] = 1,
+				["i:23445"] = 10,
 			},
-			["itemString"] = "i:23528",
+			["itemString"] = "i:23489",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "惡魔磨刀石",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "魔鐵胸甲",
+			["numResult"] = 1,
 		},
-		["c:13194340"] = {
+		["c:11200805"] = {
 			["mats"] = {
-				["i:2318"] = 2,
-				["i:2880"] = 2,
-				["i:774"] = 2,
-				["i:2840"] = 12,
-				["i:3470"] = 2,
+				["i:3860"] = 12,
 			},
-			["itemString"] = "i:3488",
+			["itemString"] = "i:7920",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "銅質戰斧",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "秘銀鱗片便褲",
+			["numResult"] = 1,
 		},
 		["c:6300088"] = {
 			["mats"] = {
@@ -1246,25 +718,38 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:29202",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
+			["players"] = {
+				["特變電工"] = true,
+			},
 			["name"] = "旋風鐵斧",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:8426995"] = {
-			["mats"] = {
-				["i:23572"] = 8,
-				["i:22457"] = 10,
-				["i:28440"] = 1,
-			},
-			["itemString"] = "i:28441",
-			["profession"] = "鍛造",
 			["numResult"] = 1,
-			["name"] = "深雷",
+		},
+		["c:14286420"] = {
+			["mats"] = {
+				["i:2841"] = 7,
+			},
+			["itemString"] = "i:2866",
+			["profession"] = "鍛造",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "劣質青銅胸衣",
+			["numResult"] = 1,
+		},
+		["c:7551670"] = {
+			["mats"] = {
+				["i:23573"] = 6,
+				["i:22451"] = 20,
+				["i:23449"] = 12,
+				["i:21885"] = 20,
+			},
+			["itemString"] = "i:28440",
+			["profession"] = "鍛造",
+			["players"] = {
+				["特變電工"] = true,
+			},
+			["name"] = "雷",
+			["numResult"] = 1,
 		},
 		["c:14694818"] = {
 			["mats"] = {
@@ -1273,52 +758,51 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:11144",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
+			["players"] = {
+				["特變電工"] = true,
+			},
 			["name"] = "真銀棒",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:1340344"] = {
-			["mats"] = {
-				["i:23446"] = 8,
-			},
-			["itemString"] = "i:23503",
-			["profession"] = "鍛造",
 			["numResult"] = 1,
-			["name"] = "堅鋼斬斧",
-			["players"] = {
-				["特變電工"] = true,
-			},
 		},
-		["c:11078462"] = {
+		["c:826900"] = {
 			["mats"] = {
-				["i:2836"] = 1,
-				["i:2592"] = 1,
+				["i:2840"] = 4,
 			},
-			["itemString"] = "i:3240",
+			["itemString"] = "i:10421",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "粗製平衡石",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "劣質銅外衣",
+			["numResult"] = 1,
+		},
+		["c:100220"] = {
+			["mats"] = {
+				["i:2841"] = 6,
+			},
+			["itemString"] = "i:2865",
+			["profession"] = "鍛造",
+			["players"] = {
+				["特變電工"] = true,
+			},
+			["name"] = "劣質青銅護腿",
+			["numResult"] = 1,
 		},
 		["c:2087412"] = {
 			["mats"] = {
 				["i:1210"] = 4,
 				["i:7966"] = 1,
 				["i:3860"] = 16,
-				["i:4304"] = 2,
 				["i:7971"] = 1,
+				["i:4304"] = 2,
 			},
 			["itemString"] = "i:7945",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "巨型黑錘",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "巨型黑錘",
+			["numResult"] = 1,
 		},
 		["c:9045890"] = {
 			["mats"] = {
@@ -1326,92 +810,96 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:23487",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
+			["players"] = {
+				["特變電工"] = true,
+			},
 			["name"] = "魔鐵鎧甲長靴",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:5969898"] = {
-			["mats"] = {
-				["i:7912"] = 1,
-				["i:4306"] = 1,
-			},
-			["itemString"] = "i:7965",
-			["profession"] = "鍛造",
 			["numResult"] = 1,
-			["name"] = "堅固的平衡石",
+		},
+		["c:13194340"] = {
+			["mats"] = {
+				["i:2318"] = 2,
+				["i:2880"] = 2,
+				["i:774"] = 2,
+				["i:3470"] = 2,
+				["i:2840"] = 12,
+			},
+			["itemString"] = "i:3488",
+			["profession"] = "鍛造",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "銅質戰斧",
+			["numResult"] = 1,
 		},
 		["c:2487814"] = {
 			["mats"] = {
-				["i:2840"] = 14,
 				["i:818"] = 2,
+				["i:2840"] = 14,
 				["i:2319"] = 2,
 				["i:2880"] = 2,
 			},
 			["itemString"] = "i:3487",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
+			["players"] = {
+				["特變電工"] = true,
+			},
 			["name"] = "重銅寬劍",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:4992072"] = {
-			["mats"] = {
-				["i:23446"] = 1,
-				["i:21877"] = 2,
-			},
-			["itemString"] = "i:28421",
-			["profession"] = "鍛造",
 			["numResult"] = 1,
-			["name"] = "堅鋼平衡石",
+		},
+		["c:15377278"] = {
+			["mats"] = {
+				["i:22573"] = 1,
+				["i:23445"] = 1,
+			},
+			["itemString"] = "i:23528",
+			["profession"] = "鍛造",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "惡魔磨刀石",
+			["numResult"] = 1,
 		},
 		["c:12860168"] = {
 			["mats"] = {
-				["i:2840"] = 10,
 				["i:3470"] = 1,
+				["i:2840"] = 10,
 				["i:2318"] = 1,
 				["i:2880"] = 2,
 			},
 			["itemString"] = "i:7955",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
+			["players"] = {
+				["特變電工"] = true,
+			},
 			["name"] = "銅質巨刃劍",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:6153536"] = {
-			["mats"] = {
-				["i:21877"] = 1,
-				["i:23445"] = 1,
-			},
-			["itemString"] = "i:28420",
-			["profession"] = "鍛造",
 			["numResult"] = 1,
-			["name"] = "惡魔平衡石",
-			["players"] = {
-				["特變電工"] = true,
-			},
 		},
-		["c:10856636"] = {
+		["c:8426995"] = {
 			["mats"] = {
-				["i:23445"] = 10,
+				["i:22457"] = 10,
+				["i:23572"] = 8,
+				["i:28440"] = 1,
 			},
-			["itemString"] = "i:23489",
+			["itemString"] = "i:28441",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "魔鐵胸甲",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "深雷",
+			["numResult"] = 1,
+		},
+		["c:41600"] = {
+			["mats"] = {
+				["i:2840"] = 8,
+			},
+			["itemString"] = "i:3469",
+			["profession"] = "鍛造",
+			["players"] = {
+				["特變電工"] = true,
+			},
+			["name"] = "銅質鍊甲長靴",
+			["numResult"] = 1,
 		},
 		["c:6609247"] = {
 			["mats"] = {
@@ -1419,11 +907,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:23493",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "魔鐵鍊甲罩盔",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "魔鐵鍊甲罩盔",
+			["numResult"] = 1,
 		},
 		["c:5126811"] = {
 			["mats"] = {
@@ -1431,11 +919,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:14529",
 			["profession"] = "急救",
-			["numResult"] = 1,
-			["name"] = "符文布繃帶",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "符文布繃帶",
+			["numResult"] = 1,
 		},
 		["c:2492218"] = {
 			["mats"] = {
@@ -1444,11 +932,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:7918",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "重型秘銀護肩",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "重型秘銀護肩",
+			["numResult"] = 1,
 		},
 		["c:12906691"] = {
 			["mats"] = {
@@ -1456,11 +944,11 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:25843",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "魔鐵棒",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "魔鐵棒",
+			["numResult"] = 1,
 		},
 		["c:6067528"] = {
 			["mats"] = {
@@ -1468,39 +956,38 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:23517",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "魔鋼手套",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "魔鋼手套",
+			["numResult"] = 1,
 		},
 		["c:12890270"] = {
 			["mats"] = {
-				["i:2840"] = 6,
 				["i:3470"] = 1,
+				["i:2840"] = 6,
 				["i:2318"] = 1,
 				["i:2880"] = 1,
 			},
 			["itemString"] = "i:7166",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
+			["players"] = {
+				["特變電工"] = true,
+			},
 			["name"] = "銅質匕首",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:14215814"] = {
-			["mats"] = {
-				["i:22573"] = 2,
-				["i:23446"] = 1,
-			},
-			["itemString"] = "i:23529",
-			["profession"] = "鍛造",
 			["numResult"] = 1,
-			["name"] = "堅鋼磨刀石",
+		},
+		["c:12321513"] = {
+			["mats"] = {
+				["i:2840"] = 10,
+			},
+			["itemString"] = "i:2857",
+			["profession"] = "鍛造",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "銅質符文腰帶",
+			["numResult"] = 1,
 		},
 		["c:15554364"] = {
 			["mats"] = {
@@ -1512,37 +999,35 @@ TradeSkillMasterDB = {
 			},
 			["itemString"] = "i:3848",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
+			["players"] = {
+				["特變電工"] = true,
+			},
 			["name"] = "青銅匕首",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:16211830"] = {
-			["mats"] = {
-				["i:3478"] = 2,
-				["i:3577"] = 1,
-			},
-			["itemString"] = "i:11128",
-			["profession"] = "鍛造",
 			["numResult"] = 1,
-			["name"] = "金棒",
-			["players"] = {
-				["特變電工"] = true,
-			},
 		},
-		["c:283362"] = {
+		["c:1024567"] = {
 			["mats"] = {
-				["i:4338"] = 4,
-				["i:3860"] = 6,
+				["i:12365"] = 4,
 			},
-			["itemString"] = "i:7919",
+			["itemString"] = "i:12644",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "重型秘銀護手",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "緻密砂輪",
+			["numResult"] = 1,
+		},
+		["c:3877196"] = {
+			["mats"] = {
+				["i:2836"] = 1,
+			},
+			["itemString"] = "i:2863",
+			["profession"] = "鍛造",
+			["players"] = {
+				["特變電工"] = true,
+			},
+			["name"] = "粗製磨刀石",
+			["numResult"] = 1,
 		},
 	},
 	["g@ @mailingUIContext@showDefault"] = true,
@@ -1550,11 +1035,11 @@ TradeSkillMasterDB = {
 		["colWidth"] = {
 			["stackSize"] = 30,
 			["buyout"] = 100,
-			["highbidder"] = 110,
+			["currentBid"] = 100,
 			["group"] = 110,
 			["item"] = 248,
 			["timeLeft"] = 40,
-			["currentBid"] = 100,
+			["highbidder"] = 110,
 		},
 		["colHidden"] = {
 		},
@@ -1566,11 +1051,11 @@ TradeSkillMasterDB = {
 	["r@伊弗斯@internalData@saveTimeExpires"] = "1625976991,1626026620,1626026620,1626790929,1627141300,1627141300,1627199339,1627626459,1627626459,1627626459,1627626459,1627626459,1627626459,1627626459,1627626459,1627671285,1627671285,1627707674,1627707674,1627707674,1627754694,1627754694,1627793475,1627793475,1627793475,1627839299,1628358713,1628418101,1628877850,1628944841",
 	["g@ @bankingUIContext@isOpen"] = false,
 	["g@ @destroyingUIContext@frame"] = {
-		["centerX"] = 102.1999982595444,
+		["width"] = 295.9999694824219,
 		["height"] = 442,
 		["centerY"] = 3.499999940395355,
 		["scale"] = 1,
-		["width"] = 295.9999694824219,
+		["centerX"] = 102.1999982595444,
 	},
 	["s@路易斯桑拿 - Horde - 伊弗斯@internalData@mailQuantity"] = {
 	},
@@ -1581,15 +1066,15 @@ TradeSkillMasterDB = {
 			["ilvl"] = 32,
 			["pct"] = 40,
 			["seller"] = 88,
-			["stack"] = 40,
-			["bidPct"] = 40,
-			["itemBuyout"] = 115,
 			["item"] = 226,
-			["itemBid"] = 115,
-			["bid"] = 115,
+			["bidPct"] = 40,
 			["posts"] = 40,
-			["timeLeft"] = 26,
 			["buyout"] = 115,
+			["itemBuyout"] = 115,
+			["bid"] = 115,
+			["itemBid"] = 115,
+			["timeLeft"] = 26,
+			["stack"] = 40,
 		},
 		["colHidden"] = {
 			["bidPct"] = true,
@@ -1633,15 +1118,15 @@ TradeSkillMasterDB = {
 			["ilvl"] = 32,
 			["pct"] = 40,
 			["seller"] = 88,
-			["stack"] = 40,
-			["bidPct"] = 40,
-			["itemBuyout"] = 115,
 			["item"] = 226,
-			["itemBid"] = 115,
-			["bid"] = 115,
+			["bidPct"] = 40,
 			["posts"] = 40,
-			["timeLeft"] = 26,
 			["buyout"] = 115,
+			["itemBuyout"] = 115,
+			["bid"] = 115,
+			["itemBid"] = 115,
+			["timeLeft"] = 26,
+			["stack"] = 40,
 		},
 		["colHidden"] = {
 			["bid"] = true,
@@ -1661,7 +1146,7 @@ TradeSkillMasterDB = {
 		["unselected"] = {
 		},
 	},
-	["r@伊弗斯@internalData@csvExpense"] = "type,amount,otherPlayer,player,time\nRepair Bill,28629,Merchant,邁克爾假死,1622989052\nRepair Bill,24251,Merchant,邁克爾假死,1623056249\nPostage,30,邁克爾假死,畜生犬隊長,1623081337\nPostage,390,畜生犬隊長,邁克爾假死,1623158842\nRepair Bill,44018,Merchant,邁克爾假死,1623220641\nPostage,120,畜生犬隊長,邁克爾假死,1624537591\nPostage,120,畜生犬隊長,邁克爾假死,1624724796\nRepair Bill,22983,Merchant,邁克爾假死,1624777967\nPostage,180,畜生犬隊長,邁克爾假死,1624807042\nPostage,240,畜生犬隊長,邁克爾假死,1624942893\nRepair Bill,20113,Merchant,邁克爾假死,1624965791\nPostage,120,畜生犬隊長,邁克爾假死,1624975720\nRepair Bill,40530,Merchant,邁克爾假死,1625044550\nRepair Bill,16355,Merchant,邁克爾假死,1625113249\nRepair Bill,32060,Merchant,邁克爾假死,1625137902\nRepair Bill,17698,Merchant,邁克爾假死,1625155203\nPostage,120,畜生犬隊長,邁克爾假死,1625199624\nRepair Bill,7581,Merchant,邁克爾假死,1625204859\nRepair Bill,8146,Merchant,邁克爾假死,1625248230\nRepair Bill,10710,Merchant,邁克爾假死,1625304969\nRepair Bill,10008,Merchant,邁克爾假死,1625313678\nRepair Bill,70814,Merchant,邁克爾假死,1625328599\nRepair Bill,15039,Merchant,邁克爾假死,1625382245\nPostage,210,畜生犬隊長,邁克爾假死,1625399154\nRepair Bill,157949,Merchant,邁克爾假死,1625410703\nRepair Bill,50186,Merchant,邁克爾假死,1625588733\nPostage,90,畜生犬隊長,邁克爾假死,1625829708\nRepair Bill,71557,Merchant,邁克爾假死,1625837731\nRepair Bill,3269,Merchant,邁克爾假死,1625853065\nRepair Bill,22200,Merchant,邁克爾假死,1625920373\nPostage,540,畜生犬隊長,邁克爾假死,1625922972\nRepair Bill,11586,Merchant,邁克爾假死,1625932148\nRepair Bill,3538,Merchant,邁克爾假死,1625938764\nRepair Bill,32727,Merchant,邁克爾假死,1626009356\nPostage,150,特變電工,邁克爾假死,1626026587\nMoney Transfer,10001000,特變電工,邁克爾假死,1626264935\nPostage,60,特變電工,邁克爾假死,1626264935\nPostage,30,特變電工,邁克爾假死,1626284482\nRepair Bill,9823,Merchant,特變電工,1626317037\nPostage,150,畜生犬隊長,特變電工,1626334805\nPostage,150,畜生犬隊長,特變電工,1626373474\nPostage,390,畜生犬隊長,特變電工,1626426974\nMoney Transfer,60000000,特變電工,邁克爾假死,1626461076\nPostage,30,特變電工,邁克爾假死,1626461076\nPostage,210,畜生犬隊長,特變電工,1626531701\nRepair Bill,26236,Merchant,特變電工,1626534599\nRepair Bill,13366,Merchant,特變電工,1626581499\nRepair Bill,6575,Merchant,特變電工,1626587671\nRepair Bill,24970,Merchant,特變電工,1626607846\nPostage,30,邁克爾假死,特變電工,1626612806\nRepair Bill,37985,Merchant,邁克爾假死,1626612921\nPostage,30,特變電工,邁克爾假死,1626618616\nRepair Bill,18166,Merchant,特變電工,1626663601\nRepair Bill,62455,Merchant,特變電工,1626687606\nPostage,30,邁克爾假死,特變電工,1626713602\nPostage,240,畜生犬隊長,特變電工,1626749861\nRepair Bill,6647,Merchant,特變電工,1626775222\nMoney Transfer,50000000,特變電工,邁克爾假死,1626787065\nPostage,30,特變電工,邁克爾假死,1626787065\nMoney Transfer,50000000,邁克爾假死,特變電工,1626789361\nPostage,30,邁克爾假死,特變電工,1626789361\nPostage,300,特變電工,邁克爾假死,1626790849\nPostage,90,特變電工,邁克爾假死,1626792108\nPostage,90,特變電工,邁克爾假死,1626793403\nPostage,270,特變電工,邁克爾假死,1626795856\nPostage,90,特變電工,邁克爾假死,1626801157\nPostage,270,邁克爾假死,特變電工,1626802332\nPostage,90,特變電工,邁克爾假死,1626803441\nRepair Bill,36074,Merchant,特變電工,1626859387\nRepair Bill,29155,Merchant,特變電工,1626868960\nRepair Bill,109750,Merchant,特變電工,1626890564\nPostage,150,畜生犬隊長,特變電工,1626952450\nRepair Bill,42968,Merchant,特變電工,1626963655\nRepair Bill,14730,Merchant,特變電工,1627067994\nMoney Transfer,16000000,特變電工,邁克爾假死,1627199046\nPostage,30,特變電工,邁克爾假死,1627199046\nPostage,30,特變電工,邁克爾假死,1627199452\nMoney Transfer,2000000,邁克爾假死,特變電工,1627217805\nRepair Bill,40792,Merchant,特變電工,1627396010\nRepair Bill,5234,Merchant,特變電工,1627401333\nRepair Bill,62007,Merchant,特變電工,1627458700\nPostage,150,畜生犬隊長,特變電工,1627485781\nRepair Bill,70580,Merchant,特變電工,1627542793\nRepair Bill,31822,Merchant,特變電工,1627552803\nRepair Bill,90006,Merchant,特變電工,1627565914\nRepair Bill,54968,Merchant,特變電工,1627626441\nPostage,120,特變電工,邁克爾假死,1627626540\nPostage,30,特變電工,邁克爾假死,1627631964\nRepair Bill,81244,Merchant,特變電工,1627651485\nPostage,240,老闆挺住,特變電工,1627731211\nRepair Bill,58547,Merchant,特變電工,1627810174\nRepair Bill,34270,Merchant,特變電工,1627836760\nRepair Bill,37465,Merchant,特變電工,1627926587\nRepair Bill,13072,Merchant,特變電工,1628009506\nRepair Bill,69522,Merchant,特變電工,1628314817\nRepair Bill,30909,Merchant,特變電工,1628351356\nRepair Bill,153410,Merchant,特變電工,1628442313\nRepair Bill,158751,Merchant,特變電工,1628532594\nRepair Bill,56697,Merchant,特變電工,1628610426\nRepair Bill,3063,Merchant,特變電工,1628614439\nMoney Transfer,106000000,特變電工,邁克爾假死,1628922137\nPostage,30,特變電工,邁克爾假死,1628922137\nRepair Bill,869,Merchant,特變電工,1628933001\nRepair Bill,148162,Merchant,特變電工,1628956332\nRepair Bill,6985,Merchant,特變電工,1628963428\nRepair Bill,9812,Merchant,特變電工,1628958554\nRepair Bill,112603,Merchant,特變電工,1628949659\nRepair Bill,77006,Merchant,特變電工,1628931142\nRepair Bill,24597,Merchant,特變電工,1628876785\nRepair Bill,1466,Merchant,特變電工,1628612616\nRepair Bill,59930,Merchant,特變電工,1628535607\nRepair Bill,6840,Merchant,特變電工,1628525001\nRepair Bill,52163,Merchant,特變電工,1628414054\nRepair Bill,30585,Merchant,特變電工,1628333004\nRepair Bill,35132,Merchant,特變電工,1628261932\nRepair Bill,6856,Merchant,特變電工,1627928898\nRepair Bill,9017,Merchant,特變電工,1627916555\nRepair Bill,96291,Merchant,特變電工,1627818965\nRepair Bill,54050,Merchant,特變電工,1627748320\nRepair Bill,50673,Merchant,特變電工,1627717191\nMoney Transfer,100000000,特變電工,邁克爾假死,1627631964\nRepair Bill,39038,Merchant,特變電工,1627569077\nRepair Bill,80254,Merchant,特變電工,1627558257\nRepair Bill,1381,Merchant,特變電工,1627548875\nRepair Bill,103656,Merchant,特變電工,1627492361\nRepair Bill,36164,Merchant,特變電工,1627483644\nRepair Bill,108541,Merchant,特變電工,1627412736\nRepair Bill,43355,Merchant,特變電工,1627398533\nPostage,30,邁克爾假死,特變電工,1627217805\nMoney Transfer,5300000,特變電工,邁克爾假死,1627199452\nRepair Bill,59905,Merchant,特變電工,1627194966\nRepair Bill,33295,Merchant,特變電工,1627032213\nRepair Bill,47017,Merchant,特變電工,1626952521\nRepair Bill,1995,Merchant,特變電工,1626891878\nRepair Bill,1309,Merchant,特變電工,1626877577\nPostage,60,畜生犬隊長,特變電工,1626868883\nRepair Bill,55004,Merchant,特變電工,1626841745\nPostage,30,特變電工,邁克爾假死,1626803086\nPostage,60,特變電工,邁克爾假死,1626802197\nRepair Bill,55345,Merchant,邁克爾假死,1626800682\nRepair Bill,36000,Merchant,特變電工,1626795589\nPostage,90,特變電工,邁克爾假死,1626793064\nPostage,270,特變電工,邁克爾假死,1626791491\nPostage,90,特變電工,邁克爾假死,1626789544\nPostage,330,畜生犬隊長,特變電工,1626789307\nPostage,360,畜生犬隊長,特變電工,1626786183\nRepair Bill,19194,Merchant,特變電工,1626771172\nMoney Transfer,5000000,邁克爾假死,特變電工,1626713602\nPostage,240,畜生犬隊長,特變電工,1626683454\nRepair Bill,23333,Merchant,特變電工,1626628945\nMoney Transfer,85000000,特變電工,邁克爾假死,1626618616\nMoney Transfer,62000000,邁克爾假死,特變電工,1626612806\nPostage,180,畜生犬隊長,特變電工,1626607791\nPostage,270,畜生犬隊長,特變電工,1626585172\nPostage,150,畜生犬隊長,特變電工,1626544572\nRepair Bill,81372,Merchant,特變電工,1626531719\nRepair Bill,16100,Merchant,特變電工,1626507792\nRepair Bill,29184,Merchant,特變電工,1626427010\nRepair Bill,25526,Merchant,特變電工,1626373558\nRepair Bill,19046,Merchant,特變電工,1626343583\nRepair Bill,17387,Merchant,特變電工,1626331454\nPostage,390,特變電工,畜生犬隊長,1626316413\nPostage,180,畜生犬隊長,特變電工,1626277987\nMoney Transfer,1000100,特變電工,邁克爾假死,1626026587\nRepair Bill,2496,Merchant,邁克爾假死,1625939701\nRepair Bill,12020,Merchant,邁克爾假死,1625936372\nRepair Bill,3969,Merchant,邁克爾假死,1625924445\nRepair Bill,26152,Merchant,邁克爾假死,1625922914\nRepair Bill,76809,Merchant,邁克爾假死,1625902040\nRepair Bill,5204,Merchant,邁克爾假死,1625840374\nRepair Bill,50427,Merchant,邁克爾假死,1625830226\nRepair Bill,54088,Merchant,邁克爾假死,1625419570\nRepair Bill,7466,Merchant,邁克爾假死,1625401330\nRepair Bill,120879,Merchant,邁克爾假死,1625392882\nRepair Bill,90378,Merchant,邁克爾假死,1625333121\nRepair Bill,21391,Merchant,邁克爾假死,1625316722\nPostage,180,畜生犬隊長,邁克爾假死,1625313667\nRepair Bill,35879,Merchant,邁克爾假死,1625286658\nRepair Bill,53094,Merchant,邁克爾假死,1625215331\nRepair Bill,21021,Merchant,邁克爾假死,1625199608\nRepair Bill,17145,Merchant,邁克爾假死,1625152101\nPostage,120,畜生犬隊長,邁克爾假死,1625125802\nRepair Bill,10085,Merchant,邁克爾假死,1625052082\nRepair Bill,14795,Merchant,邁克爾假死,1625024272\nRepair Bill,7787,Merchant,邁克爾假死,1624970140\nRepair Bill,20978,Merchant,邁克爾假死,1624950821\nRepair Bill,72937,Merchant,邁克爾假死,1624807059\nPostage,270,畜生犬隊長,邁克爾假死,1624785890\nRepair Bill,5569,Merchant,邁克爾假死,1624774243\nRepair Bill,32411,Merchant,邁克爾假死,1624724738\nPostage,240,畜生犬隊長,邁克爾假死,1623231158\nPostage,120,畜生犬隊長,邁克爾假死,1623163660\nPostage,600,畜生犬隊長,邁克爾假死,1623086536\nPostage,420,畜生犬隊長,邁克爾假死,1623081169\nPostage,270,畜生犬隊長,邁克爾假死,1623056064\nRepair Bill,32273,Merchant,邁克爾假死,1622967385\nRepair Bill,122728,Merchant,邁克爾假死,1622909219",
+	["r@伊弗斯@internalData@csvExpense"] = "type,amount,otherPlayer,player,time\nRepair Bill,28629,Merchant,邁克爾假死,1622989052\nRepair Bill,24251,Merchant,邁克爾假死,1623056249\nPostage,30,邁克爾假死,畜生犬隊長,1623081337\nPostage,390,畜生犬隊長,邁克爾假死,1623158842\nRepair Bill,44018,Merchant,邁克爾假死,1623220641\nPostage,120,畜生犬隊長,邁克爾假死,1624537591\nPostage,120,畜生犬隊長,邁克爾假死,1624724796\nRepair Bill,22983,Merchant,邁克爾假死,1624777967\nPostage,180,畜生犬隊長,邁克爾假死,1624807042\nPostage,240,畜生犬隊長,邁克爾假死,1624942893\nRepair Bill,20113,Merchant,邁克爾假死,1624965791\nPostage,120,畜生犬隊長,邁克爾假死,1624975720\nRepair Bill,40530,Merchant,邁克爾假死,1625044550\nRepair Bill,16355,Merchant,邁克爾假死,1625113249\nRepair Bill,32060,Merchant,邁克爾假死,1625137902\nRepair Bill,17698,Merchant,邁克爾假死,1625155203\nPostage,120,畜生犬隊長,邁克爾假死,1625199624\nRepair Bill,7581,Merchant,邁克爾假死,1625204859\nRepair Bill,8146,Merchant,邁克爾假死,1625248230\nRepair Bill,10710,Merchant,邁克爾假死,1625304969\nRepair Bill,10008,Merchant,邁克爾假死,1625313678\nRepair Bill,70814,Merchant,邁克爾假死,1625328599\nRepair Bill,15039,Merchant,邁克爾假死,1625382245\nPostage,210,畜生犬隊長,邁克爾假死,1625399154\nRepair Bill,157949,Merchant,邁克爾假死,1625410703\nRepair Bill,50186,Merchant,邁克爾假死,1625588733\nPostage,90,畜生犬隊長,邁克爾假死,1625829708\nRepair Bill,71557,Merchant,邁克爾假死,1625837731\nRepair Bill,3269,Merchant,邁克爾假死,1625853065\nRepair Bill,22200,Merchant,邁克爾假死,1625920373\nPostage,540,畜生犬隊長,邁克爾假死,1625922972\nRepair Bill,11586,Merchant,邁克爾假死,1625932148\nRepair Bill,3538,Merchant,邁克爾假死,1625938764\nRepair Bill,32727,Merchant,邁克爾假死,1626009356\nPostage,150,特變電工,邁克爾假死,1626026587\nMoney Transfer,10001000,特變電工,邁克爾假死,1626264935\nPostage,60,特變電工,邁克爾假死,1626264935\nPostage,30,特變電工,邁克爾假死,1626284482\nRepair Bill,9823,Merchant,特變電工,1626317037\nPostage,150,畜生犬隊長,特變電工,1626334805\nPostage,150,畜生犬隊長,特變電工,1626373474\nPostage,390,畜生犬隊長,特變電工,1626426974\nMoney Transfer,60000000,特變電工,邁克爾假死,1626461076\nPostage,30,特變電工,邁克爾假死,1626461076\nPostage,210,畜生犬隊長,特變電工,1626531701\nRepair Bill,26236,Merchant,特變電工,1626534599\nRepair Bill,13366,Merchant,特變電工,1626581499\nRepair Bill,6575,Merchant,特變電工,1626587671\nRepair Bill,24970,Merchant,特變電工,1626607846\nPostage,30,邁克爾假死,特變電工,1626612806\nRepair Bill,37985,Merchant,邁克爾假死,1626612921\nPostage,30,特變電工,邁克爾假死,1626618616\nRepair Bill,18166,Merchant,特變電工,1626663601\nRepair Bill,62455,Merchant,特變電工,1626687606\nPostage,30,邁克爾假死,特變電工,1626713602\nPostage,240,畜生犬隊長,特變電工,1626749861\nRepair Bill,6647,Merchant,特變電工,1626775222\nMoney Transfer,50000000,特變電工,邁克爾假死,1626787065\nPostage,30,特變電工,邁克爾假死,1626787065\nMoney Transfer,50000000,邁克爾假死,特變電工,1626789361\nPostage,30,邁克爾假死,特變電工,1626789361\nPostage,300,特變電工,邁克爾假死,1626790849\nPostage,90,特變電工,邁克爾假死,1626792108\nPostage,90,特變電工,邁克爾假死,1626793403\nPostage,270,特變電工,邁克爾假死,1626795856\nPostage,90,特變電工,邁克爾假死,1626801157\nPostage,270,邁克爾假死,特變電工,1626802332\nPostage,90,特變電工,邁克爾假死,1626803441\nRepair Bill,36074,Merchant,特變電工,1626859387\nRepair Bill,29155,Merchant,特變電工,1626868960\nRepair Bill,109750,Merchant,特變電工,1626890564\nPostage,150,畜生犬隊長,特變電工,1626952450\nRepair Bill,42968,Merchant,特變電工,1626963655\nRepair Bill,14730,Merchant,特變電工,1627067994\nMoney Transfer,16000000,特變電工,邁克爾假死,1627199046\nPostage,30,特變電工,邁克爾假死,1627199046\nPostage,30,特變電工,邁克爾假死,1627199452\nMoney Transfer,2000000,邁克爾假死,特變電工,1627217805\nRepair Bill,40792,Merchant,特變電工,1627396010\nRepair Bill,5234,Merchant,特變電工,1627401333\nRepair Bill,62007,Merchant,特變電工,1627458700\nPostage,150,畜生犬隊長,特變電工,1627485781\nRepair Bill,70580,Merchant,特變電工,1627542793\nRepair Bill,31822,Merchant,特變電工,1627552803\nRepair Bill,90006,Merchant,特變電工,1627565914\nRepair Bill,54968,Merchant,特變電工,1627626441\nPostage,120,特變電工,邁克爾假死,1627626540\nPostage,30,特變電工,邁克爾假死,1627631964\nRepair Bill,81244,Merchant,特變電工,1627651485\nPostage,240,老闆挺住,特變電工,1627731211\nRepair Bill,58547,Merchant,特變電工,1627810174\nRepair Bill,34270,Merchant,特變電工,1627836760\nRepair Bill,37465,Merchant,特變電工,1627926587\nRepair Bill,13072,Merchant,特變電工,1628009506\nRepair Bill,69522,Merchant,特變電工,1628314817\nRepair Bill,30909,Merchant,特變電工,1628351356\nRepair Bill,153410,Merchant,特變電工,1628442313\nRepair Bill,158751,Merchant,特變電工,1628532594\nRepair Bill,56697,Merchant,特變電工,1628610426\nRepair Bill,3063,Merchant,特變電工,1628614439\nMoney Transfer,106000000,特變電工,邁克爾假死,1628922137\nPostage,30,特變電工,邁克爾假死,1628922137\nRepair Bill,869,Merchant,特變電工,1628933001\nRepair Bill,148162,Merchant,特變電工,1628956332\nRepair Bill,6985,Merchant,特變電工,1628963428\nRepair Bill,167887,Merchant,特變電工,1630735032\nRepair Bill,9812,Merchant,特變電工,1628958554\nRepair Bill,112603,Merchant,特變電工,1628949659\nRepair Bill,77006,Merchant,特變電工,1628931142\nRepair Bill,24597,Merchant,特變電工,1628876785\nRepair Bill,1466,Merchant,特變電工,1628612616\nRepair Bill,59930,Merchant,特變電工,1628535607\nRepair Bill,6840,Merchant,特變電工,1628525001\nRepair Bill,52163,Merchant,特變電工,1628414054\nRepair Bill,30585,Merchant,特變電工,1628333004\nRepair Bill,35132,Merchant,特變電工,1628261932\nRepair Bill,6856,Merchant,特變電工,1627928898\nRepair Bill,9017,Merchant,特變電工,1627916555\nRepair Bill,96291,Merchant,特變電工,1627818965\nRepair Bill,54050,Merchant,特變電工,1627748320\nRepair Bill,50673,Merchant,特變電工,1627717191\nMoney Transfer,100000000,特變電工,邁克爾假死,1627631964\nRepair Bill,39038,Merchant,特變電工,1627569077\nRepair Bill,80254,Merchant,特變電工,1627558257\nRepair Bill,1381,Merchant,特變電工,1627548875\nRepair Bill,103656,Merchant,特變電工,1627492361\nRepair Bill,36164,Merchant,特變電工,1627483644\nRepair Bill,108541,Merchant,特變電工,1627412736\nRepair Bill,43355,Merchant,特變電工,1627398533\nPostage,30,邁克爾假死,特變電工,1627217805\nMoney Transfer,5300000,特變電工,邁克爾假死,1627199452\nRepair Bill,59905,Merchant,特變電工,1627194966\nRepair Bill,33295,Merchant,特變電工,1627032213\nRepair Bill,47017,Merchant,特變電工,1626952521\nRepair Bill,1995,Merchant,特變電工,1626891878\nRepair Bill,1309,Merchant,特變電工,1626877577\nPostage,60,畜生犬隊長,特變電工,1626868883\nRepair Bill,55004,Merchant,特變電工,1626841745\nPostage,30,特變電工,邁克爾假死,1626803086\nPostage,60,特變電工,邁克爾假死,1626802197\nRepair Bill,55345,Merchant,邁克爾假死,1626800682\nRepair Bill,36000,Merchant,特變電工,1626795589\nPostage,90,特變電工,邁克爾假死,1626793064\nPostage,270,特變電工,邁克爾假死,1626791491\nPostage,90,特變電工,邁克爾假死,1626789544\nPostage,330,畜生犬隊長,特變電工,1626789307\nPostage,360,畜生犬隊長,特變電工,1626786183\nRepair Bill,19194,Merchant,特變電工,1626771172\nMoney Transfer,5000000,邁克爾假死,特變電工,1626713602\nPostage,240,畜生犬隊長,特變電工,1626683454\nRepair Bill,23333,Merchant,特變電工,1626628945\nMoney Transfer,85000000,特變電工,邁克爾假死,1626618616\nMoney Transfer,62000000,邁克爾假死,特變電工,1626612806\nPostage,180,畜生犬隊長,特變電工,1626607791\nPostage,270,畜生犬隊長,特變電工,1626585172\nPostage,150,畜生犬隊長,特變電工,1626544572\nRepair Bill,81372,Merchant,特變電工,1626531719\nRepair Bill,16100,Merchant,特變電工,1626507792\nRepair Bill,29184,Merchant,特變電工,1626427010\nRepair Bill,25526,Merchant,特變電工,1626373558\nRepair Bill,19046,Merchant,特變電工,1626343583\nRepair Bill,17387,Merchant,特變電工,1626331454\nPostage,390,特變電工,畜生犬隊長,1626316413\nPostage,180,畜生犬隊長,特變電工,1626277987\nMoney Transfer,1000100,特變電工,邁克爾假死,1626026587\nRepair Bill,2496,Merchant,邁克爾假死,1625939701\nRepair Bill,12020,Merchant,邁克爾假死,1625936372\nRepair Bill,3969,Merchant,邁克爾假死,1625924445\nRepair Bill,26152,Merchant,邁克爾假死,1625922914\nRepair Bill,76809,Merchant,邁克爾假死,1625902040\nRepair Bill,5204,Merchant,邁克爾假死,1625840374\nRepair Bill,50427,Merchant,邁克爾假死,1625830226\nRepair Bill,54088,Merchant,邁克爾假死,1625419570\nRepair Bill,7466,Merchant,邁克爾假死,1625401330\nRepair Bill,120879,Merchant,邁克爾假死,1625392882\nRepair Bill,90378,Merchant,邁克爾假死,1625333121\nRepair Bill,21391,Merchant,邁克爾假死,1625316722\nPostage,180,畜生犬隊長,邁克爾假死,1625313667\nRepair Bill,35879,Merchant,邁克爾假死,1625286658\nRepair Bill,53094,Merchant,邁克爾假死,1625215331\nRepair Bill,21021,Merchant,邁克爾假死,1625199608\nRepair Bill,17145,Merchant,邁克爾假死,1625152101\nPostage,120,畜生犬隊長,邁克爾假死,1625125802\nRepair Bill,10085,Merchant,邁克爾假死,1625052082\nRepair Bill,14795,Merchant,邁克爾假死,1625024272\nRepair Bill,7787,Merchant,邁克爾假死,1624970140\nRepair Bill,20978,Merchant,邁克爾假死,1624950821\nRepair Bill,72937,Merchant,邁克爾假死,1624807059\nPostage,270,畜生犬隊長,邁克爾假死,1624785890\nRepair Bill,5569,Merchant,邁克爾假死,1624774243\nRepair Bill,32411,Merchant,邁克爾假死,1624724738\nPostage,240,畜生犬隊長,邁克爾假死,1623231158\nPostage,120,畜生犬隊長,邁克爾假死,1623163660\nPostage,600,畜生犬隊長,邁克爾假死,1623086536\nPostage,420,畜生犬隊長,邁克爾假死,1623081169\nPostage,270,畜生犬隊長,邁克爾假死,1623056064\nRepair Bill,32273,Merchant,邁克爾假死,1622967385\nRepair Bill,122728,Merchant,邁克爾假死,1622909219",
 	["g@ @craftingUIContext@craftsScrollingTable"] = {
 		["colWidth"] = {
 			["saleRate"] = 32,
@@ -1669,11 +1154,11 @@ TradeSkillMasterDB = {
 			["bags"] = 28,
 			["profit"] = 100,
 			["craftingCost"] = 100,
-			["ah"] = 24,
-			["profitPct"] = 50,
-			["craftName"] = 218,
-			["queued"] = 30,
 			["itemValue"] = 100,
+			["queued"] = 30,
+			["craftName"] = 218,
+			["profitPct"] = 50,
+			["ah"] = 24,
 		},
 		["colHidden"] = {
 			["profitPct"] = true,
@@ -1689,12 +1174,12 @@ TradeSkillMasterDB = {
 	["s@邁克爾假死 - Horde - 伊弗斯@internalData@auctionQuantity"] = {
 	},
 	["g@ @mainUIContext@frame"] = {
-		["centerX"] = 0.699999988079071,
-		["scale"] = 1,
+		["width"] = 900,
 		["height"] = 700,
+		["scale"] = 1,
 		["centerY"] = 0.699999988079071,
 		["page"] = 2,
-		["width"] = 900,
+		["centerX"] = 0.699999988079071,
 	},
 	["g@ @tooltipOptions@tooltipPriceFormat"] = "text",
 	["g@ @mainUIContext@dashboardTimeRange"] = -1,
@@ -1705,7 +1190,7 @@ TradeSkillMasterDB = {
 		"auction", -- [4]
 		"craftNoProfit", -- [5]
 	},
-	["r@伊弗斯@internalData@csvBuys"] = "itemString,stackSize,quantity,price,otherPlayer,player,time,source\ni:8952,5,35,800,Merchant,邁克爾假死,1622910669,Vendor\ni:11285,200,1200,5,Merchant,邁克爾假死,1622910699,Vendor\ni:28053,200,3200,8,Merchant,邁克爾假死,1622964452,Vendor\ni:29292,5,10,10,Merchant,邁克爾假死,1622967397,Vendor\ni:22012,1,1,50000,Merchant,邁克爾假死,1622977925,Vendor\ni:21992,1,1,20000,Merchant,邁克爾假死,1622977928,Vendor\ni:28053,200,2000,8,Merchant,邁克爾假死,1622983184,Vendor\ni:29112,1,1,300,Merchant,邁克爾假死,1622983244,Vendor\ni:28053,200,1200,8,Merchant,邁克爾假死,1622992532,Vendor\ni:14047,5,5,3800,小雷包,邁克爾假死,1623055511,Auction\ni:14047,20,20,3800,小雷包,邁克爾假死,1623055512,Auction\ni:14047,20,20,3900,Boglus,邁克爾假死,1623055515,Auction\ni:14047,20,40,4000,戰戰競競,邁克爾假死,1623055718,Auction\ni:21993,1,1,38000,Merchant,邁克爾假死,1623057375,Vendor\ni:28053,200,2600,8,Merchant,邁克爾假死,1623081255,Vendor\ni:28053,200,1400,8,Merchant,邁克爾假死,1623163508,Vendor\ni:21881,1,1,5000,Merchant,邁克爾假死,1623172462,Vendor\ni:28061,200,2200,14,Merchant,邁克爾假死,1623231174,Vendor\ni:28056,200,3200,14,Merchant,邁克爾假死,1623231325,Vendor\ni:27860,5,35,1216,Merchant,邁克爾假死,1623231461,Vendor\ni:29449,5,5,1520,Merchant,邁克爾假死,1624205042,Vendor\ni:29451,5,20,1520,Merchant,邁克爾假死,1624532950,Vendor\ni:28056,200,2000,14,Merchant,邁克爾假死,1624535247,Vendor\ni:28056,200,2400,14,Merchant,邁克爾假死,1624724811,Vendor\ni:28056,200,400,15,Merchant,邁克爾假死,1624774203,Vendor\ni:28399,5,5,1120,Merchant,邁克爾假死,1624774213,Vendor\ni:27860,5,25,1280,Merchant,邁克爾假死,1624774215,Vendor\ni:29451,5,40,1600,Merchant,邁克爾假死,1624780429,Vendor\ni:28056,200,2600,14,Merchant,邁克爾假死,1624785903,Vendor\ni:33042,5,20,1280,Merchant,邁克爾假死,1624797380,Vendor\ni:28056,200,2800,14,Merchant,邁克爾假死,1624800929,Vendor\ni:28056,200,2000,14,Merchant,邁克爾假死,1624807013,Vendor\ni:28056,200,1000,14,Merchant,邁克爾假死,1624812009,Vendor\ni:28053,200,1800,8,Merchant,邁克爾假死,1624854720,Vendor\ni:28053,200,1400,8,Merchant,邁克爾假死,1624950789,Vendor\ni:28056,200,3400,14,Merchant,邁克爾假死,1624957442,Vendor\ni:29451,5,20,1520,Merchant,邁克爾假死,1624958099,Vendor\ni:28056,200,2000,14,Merchant,邁克爾假死,1624965738,Vendor\ni:25476,1,1,1000000,Merchant,邁克爾假死,1624969648,Vendor\ni:8925,5,5,475,Merchant,邁克爾假死,1624970139,Vendor\ni:28056,200,1400,14,Merchant,邁克爾假死,1624970168,Vendor\ni:28056,200,1000,14,Merchant,邁克爾假死,1624975699,Vendor\ni:27860,5,20,1152,Merchant,邁克爾假死,1625021462,Vendor\ni:28056,200,2000,14,Merchant,邁克爾假死,1625023577,Vendor\ni:23121,1,1,49998,妮妮小輝,邁克爾假死,1625030222,Auction\ni:28290,1,1,49599,棒棒噠,邁克爾假死,1625030173,Auction\ni:23097,1,1,64498,放魚,邁克爾假死,1625030082,Auction\ni:23097,1,1,64497,妮妮小輝,邁克爾假死,1625030080,Auction\ni:28056,200,1800,14,Merchant,邁克爾假死,1625032437,Vendor\ni:28056,200,1400,14,Merchant,邁克爾假死,1625038892,Vendor\ni:30633,1,1,85000,Merchant,邁克爾假死,1625039029,Vendor\ni:28056,200,1200,13,Merchant,邁克爾假死,1625044625,Vendor\ni:30623,1,1,85000,Merchant,邁克爾假死,1625044642,Vendor\ni:29451,5,40,1520,Merchant,邁克爾假死,1625046990,Vendor\ni:14341,1,1,4750,Merchant,邁克爾假死,1625046990,Vendor\ni:28056,200,1400,14,Merchant,邁克爾假死,1625052092,Vendor\ni:30635,1,1,85000,Merchant,邁克爾假死,1625053063,Vendor\ni:28056,200,800,14,Merchant,邁克爾假死,1625065704,Vendor\ni:28056,200,1800,14,Merchant,邁克爾假死,1625119600,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625122961,Vendor\ni:23121,1,1,48598,想念讚讚,邁克爾假死,1625123995,Auction\ni:23095,1,3,108500,龍痕飛雪,邁克爾假死,1625123971,Auction\ni:28053,200,2000,8,Merchant,邁克爾假死,1625131980,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625132965,Vendor\ni:23097,1,2,60000,無星夜,邁克爾假死,1625136857,Auction\ni:28056,200,3000,14,Merchant,邁克爾假死,1625142335,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625144849,Vendor\ni:23116,1,1,74500,湯姆大臘腸,邁克爾假死,1625145167,Auction\ni:32409,1,1,4582500,施噠噠,邁克爾假死,1625145151,Auction\ni:23097,1,1,49999,想念讚讚,邁克爾假死,1625145044,Auction\ni:22456,1,1,852000,蛭摩妖一,邁克爾假死,1625154937,Auction\ni:22456,1,1,850000,小草白,邁克爾假死,1625154938,Auction\ni:22456,1,2,830000,一刀斃了你,邁克爾假死,1625154938,Auction\ni:22456,1,4,829000,靈魂魔笛手,邁克爾假死,1625154939,Auction\ni:25707,2,2,46000,薩諾斯膠囊,邁克爾假死,1625154913,Auction\ni:25707,1,1,37500,克羅小熊,邁克爾假死,1625154911,Auction\ni:25707,5,5,49600,血厲,邁克爾假死,1625154911,Auction\ni:23793,10,10,87900,你販劍嗎,邁克爾假死,1625154892,Auction\ni:14341,1,3,4750,Merchant,邁克爾假死,1625155061,Vendor\ni:23097,1,1,48999,故道小王子,邁克爾假死,1625155475,Auction\ni:24048,1,1,1270000,龍痕飛雪,邁克爾假死,1625155443,Auction\ni:29451,5,35,1360,Merchant,邁克爾假死,1625156228,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625159424,Vendor\ni:29192,1,1,850000,Merchant,邁克爾假死,1625162590,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625193917,Vendor\ni:27860,5,30,1216,Merchant,邁克爾假死,1625193941,Vendor\ni:30634,1,1,85000,Merchant,邁克爾假死,1625198337,Vendor\ni:28053,200,400,8,Merchant,邁克爾假死,1625199582,Vendor\ni:28056,200,800,14,Merchant,邁克爾假死,1625199586,Vendor\ni:30637,1,1,85000,Merchant,邁克爾假死,1625203340,Vendor\ni:28056,200,1000,14,Merchant,邁克爾假死,1625204868,Vendor\ni:22832,5,5,24000,成都張叔叔,邁克爾假死,1625207881,Trade\ni:28056,200,1400,14,Merchant,邁克爾假死,1625215341,Vendor\ni:28056,200,1400,14,Merchant,邁克爾假死,1625282652,Vendor\ni:28056,200,800,14,Merchant,邁克爾假死,1625286692,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625304946,Vendor\ni:28056,200,1400,14,Merchant,邁克爾假死,1625313094,Vendor\ni:22831,5,5,148000,頭暈暈,邁克爾假死,1625313306,Auction\ni:28056,200,3200,14,Merchant,邁克爾假死,1625317001,Vendor\ni:28649,1,1,5000000,皮蛋瘦肉粥,邁克爾假死,1625323911,Trade\ni:28056,200,1000,14,Merchant,邁克爾假死,1625324426,Vendor\ni:23097,1,2,90000,特快噗噗車,邁克爾假死,1625332561,Auction\ni:22445,20,20,17500,草莓多拿滋,邁克爾假死,1625332830,Auction\ni:22446,6,6,53333,Cbuff,邁克爾假死,1625332810,Auction\ni:22449,1,8,351000,原料存放,邁克爾假死,1625332793,Auction\ni:28056,200,2000,14,Merchant,邁克爾假死,1625333132,Vendor\ni:29451,5,30,1360,Merchant,邁克爾假死,1625376517,Vendor\ni:28056,200,1600,14,Merchant,邁克爾假死,1625382254,Vendor\ni:28056,200,2600,14,Merchant,邁克爾假死,1625399107,Vendor\ni:31074,1,1,41555,Merchant,邁克爾假死,1625403096,Vendor\ni:4552,4,8,530,Merchant,邁克爾假死,1625410701,Vendor\ni:25306:-9,1,2,70314,Merchant,邁克爾假死,1625410701,Vendor\ni:28056,200,2000,3,Merchant,邁克爾假死,1625410701,Vendor\ni:27854,2,4,280,Merchant,邁克爾假死,1625410701,Vendor\ni:30959,1,2,48587,Merchant,邁克爾假死,1625410701,Vendor\ni:24477,4,8,100,Merchant,邁克爾假死,1625410701,Vendor\ni:17057,4,8,7,Merchant,邁克爾假死,1625410701,Vendor\ni:28056,200,1600,14,Merchant,邁克爾假死,1625415326,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625456739,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625466878,Vendor\ni:28056,200,2600,14,Merchant,邁克爾假死,1625588744,Vendor\ni:29451,5,35,1360,Merchant,邁克爾假死,1625591309,Vendor\ni:22831,1,5,117500,聽你在放屁,邁克爾假死,1625824134,Auction\ni:22832,5,10,52000,老欉文旦,邁克爾假死,1625823979,Auction\ni:22832,5,5,52000,捅阿捅,邁克爾假死,1625823981,Auction\ni:28056,200,2000,14,Merchant,邁克爾假死,1625824626,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625829677,Vendor\ni:25477,1,1,2000000,Merchant,邁克爾假死,1625829956,Vendor\ni:28056,200,3000,14,Merchant,邁克爾假死,1625837947,Vendor\ni:28056,200,400,14,Merchant,邁克爾假死,1625840383,Vendor\ni:21841,1,3,95900,南歌雾散,邁克爾假死,1625888811,Auction\ni:22832,5,5,52000,黑暗褲褲,邁克爾假死,1625823985,Auction\ni:22446,7,7,44600,三天沒洗頭,邁克爾假死,1625889688,Auction\ni:22446,1,1,44400,Aiyoki,邁克爾假死,1625889693,Auction\ni:22445,10,10,11000,帽子給我好嗎,邁克爾假死,1625889719,Auction\ni:23097,1,2,45000,特快噗噗車,邁克爾假死,1625890099,Auction\ni:31865,1,1,463998,想念讚讚,邁克爾假死,1625890167,Auction\ni:9172,5,5,47200,高山清茶,邁克爾假死,1625896956,Auction\ni:3823,5,5,9900,眼花花種瓜,邁克爾假死,1625896961,Auction\ni:29451,5,25,1360,Merchant,邁克爾假死,1625902014,Vendor\ni:28056,200,1600,14,Merchant,邁克爾假死,1625902046,Vendor\ni:33042,5,20,1280,Merchant,邁克爾假死,1625912161,Vendor\ni:28056,200,1400,14,Merchant,邁克爾假死,1625920379,Vendor\ni:33999,1,1,16000000,Merchant,邁克爾假死,1625921462,Vendor\ni:28056,200,2000,14,Merchant,邁克爾假死,1625932272,Vendor\ni:29451,5,15,1360,Merchant,邁克爾假死,1625932325,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625936383,Vendor\ni:28056,200,1800,14,Merchant,邁克爾假死,1625985618,Vendor\ni:21841,1,1,96500,酷英雄,邁克爾假死,1626026551,Auction\ni:21841,1,1,93900,諸行無常,邁克爾假死,1626026552,Auction\ni:21841,1,2,85000,碧昂屍吉屎兒,邁克爾假死,1626026554,Auction\ni:2493,1,1,666,Merchant,特變電工,1626026781,Vendor\ni:4541,5,40,24,Merchant,特變電工,1626061278,Vendor\ni:2401,1,1,314,Merchant,特變電工,1626061346,Vendor\ni:2400,1,1,415,Merchant,特變電工,1626061348,Vendor\ni:2402,1,1,209,Merchant,特變電工,1626061350,Vendor\ni:2398,1,1,412,Merchant,特變電工,1626061352,Vendor\ni:2399,1,1,207,Merchant,特變電工,1626061354,Vendor\ni:2403,1,1,210,Merchant,特變電工,1626061356,Vendor\ni:1197,1,1,2400,Merchant,特變電工,1626074478,Vendor\ni:2509,1,1,373,Merchant,特變電工,1626074488,Vendor\ni:2516,200,400,0,Merchant,特變電工,1626074492,Vendor\ni:28056,200,1400,14,Merchant,邁克爾假死,1626108279,Vendor\ni:27854,5,40,1120,Merchant,特變電工,1626267090,Vendor\ni:18794,1,1,900000,Merchant,特變電工,1626281774,Vendor\ni:2589,20,40,1269,彗星軌跡,特變電工,1626282225,Auction\ni:2589,20,20,1270,惡魔小辣椒,特變電工,1626282230,Auction\ni:2589,20,40,1270,惡魔小辣椒,特變電工,1626282595,Auction\ni:2592,10,10,3200,忙著打牌,特變電工,1626282610,Auction\ni:2592,4,44,3300,嗯嗯哼,特變電工,1626282611,Auction\ni:2592,4,4,3400,Kiana,特變電工,1626282620,Auction\ni:2592,6,6,4200,石原希望,特變電工,1626282622,Auction\ni:2592,20,60,4250,施噠噠,特變電工,1626282623,Auction\ni:2592,20,60,4440,Mnmi,特變電工,1626282626,Auction\ni:16084,1,1,27000,汙染者軍需官,特變電工,1626283279,Auction\ni:16112,1,1,17800,老字號,特變電工,1626283274,Auction\ni:4306,20,60,990,一人管理一國,特變電工,1626283297,Auction\ni:14047,20,120,750,Kawakami,特變電工,1626283355,Auction\ni:14047,20,20,900,Mailgear,特變電工,1626283364,Auction\ni:4306,20,20,985,姆咪咪,特變電工,1626283291,Auction\ni:4306,20,20,995,上個月的羊肉,特變電工,1626283301,Auction\ni:4306,7,7,995,上個月的羊肉,特變電工,1626283304,Auction\ni:4306,20,60,1000,小英純真可愛,特變電工,1626283308,Auction\ni:16113,1,1,112000,汙染者軍需官,邁克爾假死,1626284459,Auction\ni:4338,20,20,5444,小英純真可愛,特變電工,1626283335,Auction\ni:4338,20,80,6000,巴洛瑪,特變電工,1626283348,Auction\ni:4338,20,100,5857,用之不竭,特變電工,1626283350,Auction\ni:4306,20,20,990,一人管理一國,特變電工,1626283290,Auction\ni:4306,20,120,1000,小英純真可愛,特變電工,1626283294,Auction\ni:4338,17,17,4640,小英純真可愛,特變電工,1626283315,Auction\ni:4338,2,2,5400,不悔光明左使,特變電工,1626283319,Auction\ni:4338,13,13,5400,不悔光明左使,特變電工,1626283321,Auction\ni:4338,20,20,5400,不悔光明左使,特變電工,1626283321,Auction\ni:4338,6,6,5500,Shoulder,特變電工,1626283324,Auction\ni:4338,6,6,5600,胖胖龍爹地,特變電工,1626283325,Auction\ni:4338,5,5,5700,楓葉呆呆,特變電工,1626283326,Auction\ni:4338,11,11,5859,小英純真可愛,特變電工,1626283330,Auction\ni:14047,20,20,850,性感大種馬,特變電工,1626283352,Auction\ni:14047,20,40,900,Mailgear,特變電工,1626283352,Auction\ni:14047,20,20,955,咖啡因戰士,特變電工,1626283354,Auction\ni:14047,20,20,959,仓库贰号,特變電工,1626283355,Auction\ni:14047,20,20,959,超桂麥給你,特變電工,1626283356,Auction\ni:14047,20,40,960,神戶霜降肉質,特變電工,1626283358,Auction\ni:27855,5,45,1064,Merchant,特變電工,1626315771,Vendor\ni:22012,1,1,50000,Merchant,特變電工,1626315939,Vendor\ni:22012,1,1,12500,Merchant,特變電工,1626315948,Vendor\ni:14047,20,40,2650,靜書年華,畜生犬隊長,1626316386,Auction\ni:14047,20,40,2600,白茶烏龍,畜生犬隊長,1626316401,Auction\ni:21992,1,1,20000,Merchant,特變電工,1626316685,Vendor\ni:21993,1,1,40000,Merchant,特變電工,1626316687,Vendor\ni:29112,1,1,300,Merchant,特變電工,1626339418,Vendor\ni:25048:-9,1,1,30284,Merchant,特變電工,1626373544,Vendor\ni:27676,3,3,200,Merchant,特變電工,1626373544,Vendor\ni:24616:-8,1,1,12356,Merchant,特變電工,1626373544,Vendor\ni:24151,1,1,75303,Merchant,特變電工,1626373544,Vendor\ni:25522,1,1,32604,Merchant,特變電工,1626373544,Vendor\ni:25923,1,1,27810,Merchant,特變電工,1626373544,Vendor\ni:24245,1,1,146,Merchant,特變電工,1626373544,Vendor\ni:18588,5,5,200,Merchant,特變電工,1626373544,Vendor\ni:27553,5,5,30,Merchant,特變電工,1626373544,Vendor\ni:17057,2,2,7,Merchant,特變電工,1626373544,Vendor\ni:17058,2,2,7,Merchant,特變電工,1626373544,Vendor\ni:31786,1,1,27639,Merchant,特變電工,1626373544,Vendor\ni:27855,5,40,1064,Merchant,特變電工,1626426950,Vendor\ni:3033,200,200,1,Merchant,特變電工,1626460511,Vendor\ni:21841,1,4,90999,潑屎妹,特變電工,1626460639,Auction\ni:3859,20,300,28999,掐礦,特變電工,1626461026,Auction\ni:3859,20,100,27500,Sprewell,特變電工,1626461019,Auction\ni:3575,20,80,10990,哞喜勒烤,特變電工,1626460980,Auction\ni:3575,20,80,10400,三歲就會飛,特變電工,1626460975,Auction\ni:3575,4,8,10400,三歲就會飛,特變電工,1626460971,Auction\ni:3575,20,40,9500,妃暄,特變電工,1626460970,Auction\ni:3575,17,34,9412,妃暄,特變電工,1626460970,Auction\ni:3575,20,140,9000,炎曲尤加,特變電工,1626460967,Auction\ni:3577,14,28,16429,追風法師,特變電工,1626460946,Auction\ni:2838,20,60,9800,我愛做麵包,特變電工,1626460931,Auction\ni:2838,19,38,9800,我愛做麵包,特變電工,1626460930,Auction\ni:2838,20,80,9775,提姆先生,特變電工,1626460929,Auction\ni:2838,20,80,9500,提姆先生,特變電工,1626460927,Auction\ni:2838,19,38,6800,貓街夢少女,特變電工,1626460927,Auction\ni:2838,18,18,6700,阿浮斯,特變電工,1626460926,Auction\ni:2838,2,4,6600,風見準人,特變電工,1626460926,Auction\ni:2838,4,12,6599,孤乄狼,特變電工,1626460925,Auction\ni:2838,6,12,6400,索霖,特變電工,1626460924,Auction\ni:2838,3,6,6250,雷射鋼羊毛,特變電工,1626460924,Auction\ni:2838,20,80,6400,索霖,特變電工,1626460921,Auction\ni:2838,20,40,6000,追風法師,特變電工,1626460919,Auction\ni:2838,15,45,5933,追風法師,特變電工,1626460918,Auction\ni:2838,1,2,5800,Clannad,特變電工,1626460918,Auction\ni:2838,3,6,5700,三歲就會飛,特變電工,1626460918,Auction\ni:2838,1,1,5500,Ezgg,特變電工,1626460917,Auction\ni:2838,9,27,5600,龍舌蘭加檸檬,特變電工,1626460917,Auction\ni:2841,20,80,2000,炎曲尤加,特變電工,1626460906,Auction\ni:2841,20,40,1995,拜索斯,特變電工,1626460904,Auction\ni:2841,4,8,1990,Ezgg,特變電工,1626460904,Auction\ni:2841,20,100,1950,追風法師,特變電工,1626460904,Auction\ni:2841,14,42,1786,追風法師,特變電工,1626460902,Auction\ni:2841,20,40,1495,色誘聯盟專家,特變電工,1626460902,Auction\ni:2841,10,30,1490,色誘聯盟專家,特變電工,1626460901,Auction\ni:2841,12,24,833,炎曲尤加,特變電工,1626460900,Auction\ni:2842,10,20,4800,Jj,特變電工,1626460886,Auction\ni:2836,19,57,985,這位大德,特變電工,1626460869,Auction\ni:2836,7,14,985,叫我擋會滅團,特變電工,1626460868,Auction\ni:2836,10,20,975,我愛做麵包,特變電工,1626460868,Auction\ni:2836,1,6,899,色誘聯盟專家,特變電工,1626460867,Auction\ni:2836,3,6,970,索霖,特變電工,1626460867,Auction\ni:2836,10,20,895,幽兒希卡比獸,特變電工,1626460867,Auction\ni:2836,5,10,745,諮諮,特變電工,1626460867,Auction\ni:2836,8,16,750,追風法師,特變電工,1626460867,Auction\ni:2836,2,6,740,叫我擋會滅團,特變電工,1626460866,Auction\ni:2836,5,5,740,活一天算一天,特變電工,1626460867,Auction\ni:2836,3,6,735,熊貓奶茶,特變電工,1626460867,Auction\ni:2836,20,40,750,Tboy,特變電工,1626460859,Auction\ni:2836,20,60,745,諮諮,特變電工,1626460859,Auction\ni:2836,5,10,695,龍舌蘭加檸檬,特變電工,1626460858,Auction\ni:2836,14,28,717,白魔后,特變電工,1626460856,Auction\ni:2836,20,60,700,追風法師,特變電工,1626460855,Auction\ni:2836,12,12,690,聖光又變弱了,特變電工,1626460854,Auction\ni:2836,19,19,579,炎曲尤加,特變電工,1626460854,Auction\ni:2836,20,80,690,聖光又變弱了,特變電工,1626460850,Auction\ni:2836,20,80,650,炎曲尤加,特變電工,1626460848,Auction\ni:2835,20,40,300,炎曲尤加,特變電工,1626460834,Auction\ni:2835,2,6,197,叫我擋會滅團,特變電工,1626460832,Auction\ni:2835,19,38,184,追風法師,特變電工,1626460832,Auction\ni:2835,20,100,233,離魂判,特變電工,1626460829,Auction\ni:2835,20,120,231,索霖,特變電工,1626460827,Auction\ni:2835,20,20,198,諮諮,特變電工,1626460825,Auction\ni:2835,20,140,190,追風法師,特變電工,1626460822,Auction\ni:2605,1,1,95,Merchant,特變電工,1626461171,Vendor\ni:2605,10,30,95,Merchant,特變電工,1626461174,Vendor\ni:5956,1,1,17,Merchant,特變電工,1626461886,Vendor\ni:3478,20,20,10,Merchant,特變電工,1626462089,Vendor\ni:3575,20,40,10990,哞喜勒烤,特變電工,1626462946,Auction\ni:2605,10,30,90,Merchant,特變電工,1626498357,Vendor\ni:3575,20,60,10200,真的沒想法,特變電工,1626498271,Auction\ni:7912,20,40,9900,梅田阪急百貨,特變電工,1626498636,Auction\ni:7912,20,60,9900,伊豆牧,特變電工,1626498630,Auction\ni:7912,11,11,4025,你印堂發黑,特變電工,1626498630,Auction\ni:7912,1,2,1485,伊布,特變電工,1626498629,Auction\ni:7912,3,3,1480,我愛做麵包,特變電工,1626498629,Auction\ni:7912,20,20,10000,狂熱之怒,特變電工,1626498719,Auction\ni:7912,8,8,1175,熊熊兇巴巴,特變電工,1626498720,Auction\ni:7912,19,19,10448,幸運魔人,特變電工,1626498764,Auction\ni:7912,6,6,10448,幸運魔人,特變電工,1626498763,Auction\ni:3860,1,6,26800,真的沒想法,特變電工,1626498901,Auction\ni:3860,20,80,26800,真的沒想法,特變電工,1626499480,Auction\ni:3860,1,19,26800,真的沒想法,特變電工,1626499479,Auction\ni:3860,20,60,26000,污染者軍需官,特變電工,1626499482,Auction\ni:4338,20,40,4614,法嗖啦西,特變電工,1626499524,Auction\ni:28470,1,1,19000,Merchant,特變電工,1626534595,Vendor\ni:29739,1,1,399000,Rize,特變電工,1626585319,Auction\ni:31673,3,3,150,Merchant,特變電工,1626607854,Vendor\ni:27651,3,3,150,Merchant,特變電工,1626607856,Vendor\ni:25477,1,1,2000000,Merchant,特變電工,1626781924,Vendor\ni:21841,1,1,49800,呼呼啾不痛,特變電工,1626782388,Auction\ni:21841,1,2,50000,脫裝備單挑,特變電工,1626782391,Auction\ni:7989,1,1,4197500,廢歐娜,特變電工,1626782993,Auction\ni:3860,20,20,18000,阿姨不是人,特變電工,1626782549,Auction\ni:3860,3,3,20600,駱馬兒,特變電工,1626782553,Auction\ni:3860,20,60,21500,索爾公會倉庫,特變電工,1626782585,Auction\ni:12359,20,20,21490,阿公,特變電工,1626782658,Auction\ni:12359,14,14,20000,劉吉兒,特變電工,1626782659,Auction\ni:3860,20,40,20799,雪丶無痕,特變電工,1626782565,Auction\ni:3860,20,20,20800,Exilesorcere,特變電工,1626782569,Auction\ni:3860,20,20,21000,妹妹的誘惑,特變電工,1626782593,Auction\ni:4304,4,4,9900,阿芸,特變電工,1626783209,Auction\ni:1210,11,11,7200,伊利冄,特變電工,1626783201,Auction\ni:7971,1,2,29800,Bkm,特變電工,1626783188,Auction\ni:4234,2,2,8249,紫色的月光,特變電工,1626783328,Auction\ni:4234,7,7,5714,大右池久,特變電工,1626783328,Auction\ni:3864,2,2,10101,血月雪,特變電工,1626783306,Auction\ni:3864,1,2,9900,小朱莉,特變電工,1626783306,Auction\ni:12163,1,1,299999,白龍採礦剝皮,特變電工,1626783440,Auction\ni:12164,1,1,50000,月半,特變電工,1626783397,Auction\ni:2838,20,20,2300,Bkm,特變電工,1626783902,Auction\ni:4234,20,20,5000,天玥雪,特變電工,1626783893,Auction\ni:1705,3,3,20000,Cjck,特變電工,1626783874,Auction\ni:1705,1,5,19800,黃泉引路豬,特變電工,1626783868,Auction\ni:1705,1,1,19400,卡禿嚕皮,特變電工,1626783871,Auction\ni:1705,1,1,19000,戀居舒適,特變電工,1626783871,Auction\ni:1705,1,1,19200,頑皮卡丘,特變電工,1626783873,Auction\ni:1705,1,1,19600,都是浮雲,特變電工,1626783877,Auction\ni:3466,8,8,1800,Merchant,特變電工,1626783999,Vendor\ni:2838,5,5,2899,今天飛高高,特變電工,1626784243,Auction\ni:2838,20,20,2490,阿姨不是人,特變電工,1626784241,Auction\ni:3577,11,11,8600,社會我共治,特變電工,1626784186,Auction\ni:3575,13,13,9800,小西貓,特變電工,1626784164,Auction\ni:3466,8,8,1800,Merchant,特變電工,1626784304,Vendor\ni:7912,20,120,1090,臭鳥蛋,特變電工,1626786176,Auction\ni:7912,5,5,1085,褲子掉下來,特變電工,1626786181,Auction\ni:12365,20,60,2062,五月寒如水,特變電工,1626786409,Auction\ni:14047,20,20,497,娑婆,特變電工,1626786495,Auction\ni:14047,20,20,496,真牛魔王子,特變電工,1626786496,Auction\ni:7912,20,20,1070,寒霜之冬,特變電工,1626783108,Auction\ni:7912,19,19,1053,兩個靈魂,特變電工,1626783109,Auction\ni:7912,12,12,1070,寒霜之冬,特變電工,1626783110,Auction\ni:7912,14,14,1050,蓮霧派對,特變電工,1626783111,Auction\ni:3860,20,20,21399,雪丶無痕,特變電工,1626782538,Auction\ni:12359,20,20,19599,今天飛高高,特變電工,1626782609,Auction\ni:3860,19,19,21600,黃泉引路豬,特變電工,1626782557,Auction\ni:7912,20,20,890,阿姨不是人,特變電工,1626783130,Auction\ni:7912,3,3,885,阿浮斯,特變電工,1626783132,Auction\ni:7912,20,40,880,Bkm,特變電工,1626783132,Auction\ni:7912,16,16,1000,提姆先生,特變電工,1626783140,Auction\ni:7912,13,13,1030,鐵衛牙,特變電工,1626783145,Auction\ni:7912,5,5,1025,駱馬兒,特變電工,1626783146,Auction\ni:7912,3,3,1000,提姆先生,特變電工,1626783146,Auction\ni:7912,6,6,1045,Hanymuer,特變電工,1626783153,Auction\ni:7912,5,5,1040,Bkm,特變電工,1626783154,Auction\ni:7912,4,4,1080,臭鳥蛋,特變電工,1626786165,Auction\ni:7912,1,1,1050,鬼武葬,特變電工,1626783119,Auction\ni:7912,4,4,1035,駱馬兒,特變電工,1626783118,Auction\ni:7912,2,2,995,紅燒牛楠燴飯,特變電工,1626783114,Auction\ni:7912,2,2,990,胖胖龍爹地,特變電工,1626783115,Auction\ni:12359,20,80,21600,威力聖光,特變電工,1626782652,Auction\ni:12359,2,2,21600,威力聖光,特變電工,1626782654,Auction\ni:12359,20,60,21495,牧丹,特變電工,1626782654,Auction\ni:8170,20,60,17000,餅乾商店,邁克爾假死,1626789464,Auction\ni:12359,20,20,21495,牧丹,特變電工,1626782611,Auction\ni:12359,20,40,21490,阿公,特變電工,1626782612,Auction\ni:12359,3,3,21333,黑暗褲褲,特變電工,1626782614,Auction\ni:12359,12,12,20000,一祈福一,特變電工,1626782613,Auction\ni:12359,1,1,20000,牧丹,特變電工,1626782616,Auction\ni:12359,1,1,20000,黑暗牛肉麵,特變電工,1626782618,Auction\ni:12359,8,8,19600,駱馬兒,特變電工,1626782618,Auction\ni:12359,20,40,24444,阿魚,邁克爾假死,1626789876,Auction\ni:12359,20,60,25000,阿公,邁克爾假死,1626789883,Auction\ni:10620,12,12,21400,威力始元,邁克爾假死,1626789959,Auction\ni:10620,18,18,21600,Bkm,邁克爾假死,1626789961,Auction\ni:10620,20,40,21600,Bkm,邁克爾假死,1626789962,Auction\ni:10620,20,120,21800,台彎海森堡,邁克爾假死,1626789968,Auction\ni:23424,20,60,9900,觚隷,邁克爾假死,1626790656,Auction\ni:23424,20,160,10400,豆屎蝕尸,邁克爾假死,1626790678,Auction\ni:23424,20,60,10599,倉庫軍,邁克爾假死,1626790786,Auction\ni:23424,20,40,10600,Jacinthe,邁克爾假死,1626790793,Auction\ni:23424,20,20,10600,Jacinthe,邁克爾假死,1626790752,Auction\ni:23424,20,80,11800,粉色的尼拉克,邁克爾假死,1626790759,Auction\ni:23424,20,220,11900,关宏峰,邁克爾假死,1626790767,Auction\ni:23425,20,140,31500,朵一,邁克爾假死,1626792470,Auction\ni:23425,20,80,31500,哈那,邁克爾假死,1626792467,Auction\ni:23425,20,20,31495,玖娘子,邁克爾假死,1626792765,Auction\ni:23424,20,80,11900,关宏峰,邁克爾假死,1626790792,Auction\ni:23424,20,140,11995,綠小姐,邁克爾假死,1626790801,Auction\ni:23424,20,20,12250,緣之石,邁克爾假死,1626790799,Auction\ni:21841,1,4,55000,南歌雾散,邁克爾假死,1626794030,Auction\ni:25526,1,1,54000,Merchant,特變電工,1626794832,Vendor\ni:23591,1,1,36000,Merchant,特變電工,1626795587,Vendor\ni:23426,18,18,78007,綠小姐,邁克爾假死,1626800729,Auction\ni:23426,20,20,78007,綠小姐,邁克爾假死,1626800730,Auction\ni:23426,2,2,80000,臉黑非洲人,邁克爾假死,1626800734,Auction\ni:23426,20,20,80020,Cdlv,邁克爾假死,1626800737,Auction\ni:23426,20,40,80025,Meya,邁克爾假死,1626800738,Auction\ni:23618,1,1,54000,Merchant,特變電工,1626801690,Vendor\ni:28632,1,1,54000,Merchant,特變電工,1626801691,Vendor\ni:23425,20,60,31075,老鼠人,邁克爾假死,1626801986,Auction\ni:23427,20,40,55000,大倉庫仔,邁克爾假死,1626802423,Auction\ni:23116,1,4,57399,放魚,特變電工,1626803984,Auction\ni:23095,1,1,46597,茈茈,特變電工,1626851535,Auction\ni:29449,5,20,1520,Merchant,特變電工,1626868943,Vendor\ni:28061,200,200,14,Merchant,特變電工,1626869200,Vendor\ni:23111,1,3,3700,啊斯,特變電工,1626878119,Auction\ni:25896,1,1,2502500,施噠噠,特變電工,1626878067,Auction\ni:22573,10,10,13100,獸人加魯魯蛇,特變電工,1626879225,Auction\ni:22573,10,30,12999,飛天吉娃娃,特變電工,1626879224,Auction\ni:23446,20,20,59999,今天飛高高,特變電工,1626879200,Auction\ni:22445,5,5,13400,小樂子,特變電工,1626879060,Auction\ni:22445,7,7,13000,浪漫牛兒,特變電工,1626879054,Auction\ni:22445,1,1,13400,小樂子,特變電工,1626879061,Auction\ni:22445,2,2,12800,速嵐轎,特變電工,1626879056,Auction\ni:22446,1,1,48200,小樂子,特變電工,1626879552,Auction\ni:22445,20,40,13200,術法歪哥,特變電工,1626879524,Auction\ni:23116,1,1,54998,茈茈,特變電工,1626891973,Auction\ni:23118,1,1,33400,魔術手,特變電工,1626892122,Auction\ni:23100,1,1,41600,龍痕飛雪,特變電工,1626892100,Auction\ni:30623,1,1,85000,Merchant,特變電工,1626926071,Vendor\ni:23116,1,3,44800,圓球鋪,特變電工,1626963717,Auction\ni:30635,1,1,85000,Merchant,特變電工,1626969684,Vendor\ni:29186,1,1,850000,Merchant,特變電工,1626969689,Vendor\ni:30633,1,1,85000,Merchant,特變電工,1626973297,Vendor\ni:6214,1,1,78708,白龍採礦剝皮,特變電工,1627117995,Auction\ni:21841,1,4,59400,Austinger,邁克爾假死,1627141110,Auction\ni:21340,1,1,181249,白龍採礦剝皮,邁克爾假死,1627141203,Auction\ni:28056,200,2000,14,Merchant,邁克爾假死,1627143693,Vendor\ni:15268:845,1,1,5000,妖刖,特變電工,1627194813,Auction\ni:4567:1100,1,1,11000,細雪丨,特變電工,1627194802,Auction\ni:21885,1,1,530000,慢慢喵,特變電工,1627199180,Auction\ni:21885,2,4,530000,大樹的術,特變電工,1627199177,Auction\ni:21885,1,8,514000,樂觀二尖瓣,特變電工,1627199172,Auction\ni:21885,1,3,509900,殞落王者之劍,特變電工,1627199170,Auction\ni:21885,1,2,509899,八倍鏡,特變電工,1627199168,Auction\ni:21885,1,2,509500,阿席莉帕,特變電工,1627199167,Auction\ni:21885,1,17,509500,天才小喇叭,特變電工,1627199165,Auction\ni:1705,2,4,17000,阿姨不是人,特變電工,1626783859,Auction\ni:3860,2,4,21400,駱馬兒,特變電工,1626782544,Auction\ni:22451,1,3,558000,蛋比鳥大,特變電工,1627199524,Auction\ni:22451,1,2,558000,德羅茲狼嚎,特變電工,1627199521,Auction\ni:22451,2,20,558000,德羅茲狼嚎,特變電工,1627199520,Auction\ni:22451,1,2,557000,小樂子,特變電工,1627199513,Auction\ni:22451,1,5,556999,王雨瑤,特變電工,1627199512,Auction\ni:22451,1,4,556000,葛爾諾斯他婆,特變電工,1627199509,Auction\ni:28290,1,1,49999,棒棒噠,特變電工,1627199657,Auction\ni:23118,1,5,11499,棒棒噠,特變電工,1627199631,Auction\ni:23095,1,5,79000,施噠噠,特變電工,1627199608,Auction\ni:22445,1,11,13299,曼施坦茵,特變電工,1627401149,Auction\ni:22445,20,60,15000,大象埃德蒙,特變電工,1627401140,Auction\ni:22445,5,20,12800,暹小花,特變電工,1627401126,Auction\ni:3860,17,17,21399,雪丶無痕,特變電工,1626782540,Auction\ni:22851,1,1,885000,紫蘇奶茶,特變電工,1627402069,Auction\ni:25898,1,1,2549999,Neross,特變電工,1627446358,Auction\ni:24052,1,1,773999,肉肉喵喵,特變電工,1627446316,Auction\ni:23118,1,1,7500,職業剋星,特變電工,1627446489,Auction\ni:23118,1,1,7300,那瑪希鐵,特變電工,1627446487,Auction\ni:23118,1,1,7200,女妖之王,特變電工,1627446485,Auction\ni:29186,1,1,850000,Merchant,特變電工,1627447195,Vendor\ni:30634,1,1,85000,Merchant,特變電工,1627481456,Vendor\ni:30637,1,1,85000,Merchant,特變電工,1627544096,Vendor\ni:23105,1,3,7300,啊斯,特變電工,1627569612,Auction\ni:23105,1,2,6000,緋緋,特變電工,1627569612,Auction\ni:23105,1,1,5900,卍萊牛卍,特變電工,1627569611,Auction\ni:23105,1,1,5000,職業剋星,特變電工,1627569607,Auction\ni:22445,1,1,11600,夜狼神,特變電工,1627570354,Auction\ni:22445,6,12,11600,夜狼神,特變電工,1627570350,Auction\ni:22445,2,2,11600,夜狼神,特變電工,1627570357,Auction\ni:3860,4,4,20799,雪丶無痕,特變電工,1626782509,Auction\ni:3860,1,1,21200,都是浮雲,特變電工,1626782536,Auction\ni:30810,50,50,25000,薩凡斯,特變電工,1627617953,Auction\ni:30810,49,49,25000,葛格法師,特變電工,1627618027,Auction\ni:23448,2,22,395000,女妖之王,特變電工,1627630921,Auction\ni:23448,1,4,399000,黑色告死鳥,特變電工,1627631271,Auction\ni:23447,1,1,119425,血色序章,特變電工,1627631539,Auction\ni:23447,1,3,120000,殟系,特變電工,1627631540,Auction\ni:23447,10,10,120000,賽力勞斯,特變電工,1627631551,Auction\ni:23447,13,13,120677,百合妹妹,特變電工,1627631552,Auction\ni:23447,10,10,123000,卡滋沒基機,特變電工,1627631555,Auction\ni:23447,11,11,124236,百合妹妹,特變電工,1627631556,Auction\ni:23445,20,20,23500,大右池久,特變電工,1627631612,Auction\ni:23445,20,20,23500,Kdo,特變電工,1627631613,Auction\ni:23445,14,14,24400,浩天無極,特變電工,1627632309,Auction\ni:23445,20,40,24300,獸人加魯魯蛇,特變電工,1627632307,Auction\ni:23445,20,160,24000,卡滋沒基機,特變電工,1627632304,Auction\ni:23445,20,40,23500,罐罐貓,特變電工,1627632301,Auction\ni:23445,1,3,23400,喝啤酒吐泡泡,特變電工,1627632298,Auction\ni:23445,9,9,23200,高熙茵娜,特變電工,1627632297,Auction\ni:23447,13,26,130762,百合妹妹,特變電工,1627632243,Auction\ni:23447,1,53,129500,伊汶捷琳,特變電工,1627632234,Auction\ni:23447,1,13,127400,草藥二倉,特變電工,1627632215,Auction\ni:23447,9,27,124525,淅淅瀝瀝,特變電工,1627632210,Auction\ni:23447,10,10,124400,獸人加魯魯蛇,特變電工,1627632209,Auction\ni:23447,10,40,120000,賽力勞斯,特變電工,1627632208,Auction\ni:22457,8,8,484000,楓糖水蜜桃,特變電工,1627632831,Auction\ni:22457,1,3,484851,十四代双虹,特變電工,1627632876,Auction\ni:23098,1,1,5400,女妖之王,特變電工,1627634204,Auction\ni:28290,1,1,17300,女妖之王,特變電工,1627634154,Auction\ni:23111,1,1,8500,女妖之王,特變電工,1627634629,Auction\ni:23098,1,4,5400,女妖之王,特變電工,1627634598,Auction\ni:22829,5,40,6000,云哥法师,特變電工,1627651770,Auction\ni:5634,5,25,38200,雲水憐心,特變電工,1627671032,Auction\ni:5634,2,2,25000,神族狂戰士,特變電工,1627705334,Auction\ni:5634,1,1,24800,龍痕飛雪,特變電工,1627705335,Auction\ni:23098,1,3,25800,卡娜呵呵,特變電工,1627730905,Auction\ni:6358,9,9,9111,大車車,特變電工,1627731013,Auction\ni:6358,3,6,8999,想不到就睡覺,特變電工,1627731013,Auction\ni:6358,5,15,8900,讓開我來躺,特變電工,1627731013,Auction\ni:6358,1,32,8899,Momonga,特變電工,1627731012,Auction\ni:6358,20,60,8000,性感大種馬,特變電工,1627731011,Auction\ni:6358,6,12,7900,超級大砲,特變電工,1627731010,Auction\ni:3820,15,15,4600,滑溜,特變電工,1627731170,Auction\ni:21877,10,80,2000,算你內行,特變電工,1627792771,Auction\ni:23446,5,20,53000,礦石小弟,特變電工,1627792734,Auction\ni:23446,1,2,52500,螯蝦,特變電工,1627792731,Auction\ni:23446,1,1,52000,甜點師傅,特變電工,1627792730,Auction\ni:23446,2,4,52000,甜點師傅,特變電工,1627792729,Auction\ni:23446,2,6,51999,沒時間,特變電工,1627792729,Auction\ni:23118,1,11,17199,放魚,特變電工,1627818791,Auction\ni:23118,1,2,17000,卍萊牛卍,特變電工,1627818770,Auction\ni:13455,4,12,68000,魔術戰,特變電工,1627818751,Auction\ni:22851,1,4,893000,咪咧,特變電工,1627818724,Auction\ni:28824,1,1,9000000,月巴豸苗,特變電工,1627822842,Trade\ni:28777,1,1,4000000,月巴豸苗,特變電工,1627827009,Trade\ni:23104,1,1,8900,浜边美波,特變電工,1627999189,Auction\ni:23100,1,2,25597,白龍採礦剝皮,特變電工,1627999163,Auction\ni:29192,1,1,850000,Merchant,特變電工,1628007627,Vendor\ni:24051,1,1,579999,伯爵鮮奶茶,特變電工,1628339299,Auction\ni:24027,1,2,1465000,花俏俏,特變電工,1628339277,Auction\ni:24027,1,1,1464999,肉肉喵喵,特變電工,1628339276,Auction\ni:22449,1,9,281958,Sige,特變電工,1628339618,Auction\ni:22450,2,4,292500,玄米綠茶,特變電工,1628339601,Auction\ni:22446,1,13,43400,黑色告死鳥,特變電工,1628339578,Auction\ni:22445,1,3,16000,琉影,特變電工,1628339565,Auction\ni:22445,5,25,14200,要替婆婆報仇,特變電工,1628339562,Auction\ni:22449,1,6,281000,沫影,特變電工,1628339537,Auction\ni:22447,1,1,11800,臭鳥蛋,特變電工,1628344636,Auction\ni:22447,2,4,11600,反智轉身,特變電工,1628344630,Auction\ni:22447,1,2,9000,困桂桃,特變電工,1628344626,Auction\ni:24051,1,2,577999,伯爵鮮奶茶,特變電工,1628344586,Auction\ni:22445,1,1,14900,Austinger,特變電工,1628344872,Auction\ni:22445,5,10,14200,要替婆婆報仇,特變電工,1628344870,Auction\ni:21877,20,60,1720,蛋比鳥大,特變電工,1628398112,Auction\ni:23446,20,40,40400,Ikemen,特變電工,1628398082,Auction\ni:23095,1,1,56297,放魔水,特變電工,1628424599,Auction\ni:28290,1,5,26800,啊斯,特變電工,1628424563,Auction\ni:23100,1,7,6900,啊斯,特變電工,1628424527,Auction\ni:23104,1,3,3500,啊斯,特變電工,1628424489,Auction\ni:23116,1,1,30650,虎牙哥,特變電工,1628424460,Auction\ni:22446,1,1,50000,沫影,特變電工,1628425181,Auction\ni:22445,14,14,12600,狗哥,特變電工,1628425168,Auction\ni:23095,1,3,56295,救地正法,特變電工,1628429992,Auction\ni:23115,1,6,63998,棒棒噠,特變電工,1628429973,Auction\ni:23115,1,3,63500,卍萊牛卍,特變電工,1628429981,Auction\ni:23118,1,10,8700,女妖之王,特變電工,1628872342,Auction\ni:22456,2,2,430000,完美物流,特變電工,1628931806,Auction\ni:22456,5,10,430000,Klion,特變電工,1628931805,Auction\ni:22456,1,2,410000,打不死蟑螂,特變電工,1628931803,Auction\ni:25707,2,2,29800,Ricauo,特變電工,1628931794,Auction\ni:25707,6,6,29600,蜂蜜檸檬蘆薈,特變電工,1628931792,Auction\ni:23793,2,6,41600,你販劍嗎,特變電工,1628931784,Auction\ni:23793,4,16,41010,十四代双虹,特變電工,1628931780,Auction\ni:14341,1,3,4750,Merchant,特變電工,1628931886,Vendor\ni:24048,1,1,417998,伯爵鮮奶茶,特變電工,1628937261,Auction\ni:22451,1,1,467699,曉寶寶,特變電工,1628945185,Auction\ni:22451,1,15,467000,牛排特務,特變電工,1628945184,Auction\ni:22451,1,2,467000,Tamago,特變電工,1628945181,Auction\ni:29539,2,10,255000,Derony,特變電工,1628945166,Auction\ni:23793,4,8,41010,十四代双虹,特變電工,1628945143,Auction\ni:30810,100,100,23100,冰刃炎魔,特變電工,1628962779,Auction\ni:30810,40,80,22000,冰刃炎魔,特變電工,1628962779,Auction\ni:30810,250,250,21600,若葉姬色,特變電工,1628962775,Auction\ni:30810,114,228,21600,若葉姬色,特變電工,1628962775,Auction\ni:30810,36,108,21000,雪白兒,特變電工,1628962773,Auction\ni:30810,100,100,21000,冰刃炎魔,特變電工,1628962769,Auction\ni:30810,6,12,21000,Laviticus,特變電工,1628962768,Auction\ni:30810,2,4,21000,Badd,特變電工,1628962768,Auction\ni:30810,12,24,20833,姑逃姑鬧,特變電工,1628962768,Auction\ni:30810,5,15,20600,黑暗褲褲,特變電工,1628962767,Auction\ni:30810,5,40,20599,Bigomage,特變電工,1628962767,Auction\ni:30810,2,4,20500,德古拉法葉,特變電工,1628962767,Auction\ni:30810,12,24,20400,狗哥,特變電工,1628962761,Auction\ni:30810,50,150,20400,冰刃炎魔,特變電工,1628962761,Auction\ni:30810,28,56,20321,Druidfactor,特變電工,1628962761,Auction\ni:30810,1,2,20320,阿公店店花,特變電工,1628962760,Auction\ni:30810,99,198,20303,阿強扛不住,特變電工,1628962759,Auction\ni:30810,74,222,20270,Alta,特變電工,1628962759,Auction\ni:30810,1,2,20200,到底是在吵尛,特變電工,1628962758,Auction\ni:30810,8,16,20199,愛妳喲,特變電工,1628962757,Auction\ni:30810,14,28,20000,Srd,特變電工,1628962757,Auction\ni:30810,1,2,20000,湯姆克鹵蛋,特變電工,1628962755,Auction\ni:30810,6,6,20000,踏踏,特變電工,1628962755,Auction\ni:30810,5,50,20000,寶貝玩獵人,特變電工,1628962755,Auction\ni:30810,1,4,20000,薩下薩下,特變電工,1628962748,Auction\ni:30810,1,2,20000,牛奶喝到飽,特變電工,1628962747,Auction\ni:30810,13,39,19987,半壺老酒,特變電工,1628962746,Auction\ni:30810,15,15,19800,伊魯娜黛珥,特變電工,1628962746,Auction\ni:30810,8,24,19800,心動動,特變電工,1628962745,Auction\ni:30810,3,9,19800,內心謙下,特變電工,1628962744,Auction\ni:30810,5,10,19400,Zippoxi,特變電工,1628962743,Auction\ni:30810,39,78,19200,非酋的爆發力,特變電工,1628962739,Auction\ni:30810,10,40,19199,曉風乄血月,特變電工,1628962739,Auction\ni:30810,7,14,19199,曉風乄血月,特變電工,1628962735,Auction\ni:30810,36,108,19000,熱情的排骨,特變電工,1628962733,Auction\ni:29739,1,1,355999,曉風乄血月,特變電工,1628963189,Auction\ni:29739,2,2,355000,熱情的排骨,特變電工,1628963184,Auction",
+	["r@伊弗斯@internalData@csvBuys"] = "itemString,stackSize,quantity,price,otherPlayer,player,time,source\ni:8952,5,35,800,Merchant,邁克爾假死,1622910669,Vendor\ni:11285,200,1200,5,Merchant,邁克爾假死,1622910699,Vendor\ni:28053,200,3200,8,Merchant,邁克爾假死,1622964452,Vendor\ni:29292,5,10,10,Merchant,邁克爾假死,1622967397,Vendor\ni:22012,1,1,50000,Merchant,邁克爾假死,1622977925,Vendor\ni:21992,1,1,20000,Merchant,邁克爾假死,1622977928,Vendor\ni:28053,200,2000,8,Merchant,邁克爾假死,1622983184,Vendor\ni:29112,1,1,300,Merchant,邁克爾假死,1622983244,Vendor\ni:28053,200,1200,8,Merchant,邁克爾假死,1622992532,Vendor\ni:14047,5,5,3800,小雷包,邁克爾假死,1623055511,Auction\ni:14047,20,20,3800,小雷包,邁克爾假死,1623055512,Auction\ni:14047,20,20,3900,Boglus,邁克爾假死,1623055515,Auction\ni:14047,20,40,4000,戰戰競競,邁克爾假死,1623055718,Auction\ni:21993,1,1,38000,Merchant,邁克爾假死,1623057375,Vendor\ni:28053,200,2600,8,Merchant,邁克爾假死,1623081255,Vendor\ni:28053,200,1400,8,Merchant,邁克爾假死,1623163508,Vendor\ni:21881,1,1,5000,Merchant,邁克爾假死,1623172462,Vendor\ni:28061,200,2200,14,Merchant,邁克爾假死,1623231174,Vendor\ni:28056,200,3200,14,Merchant,邁克爾假死,1623231325,Vendor\ni:27860,5,35,1216,Merchant,邁克爾假死,1623231461,Vendor\ni:29449,5,5,1520,Merchant,邁克爾假死,1624205042,Vendor\ni:29451,5,20,1520,Merchant,邁克爾假死,1624532950,Vendor\ni:28056,200,2000,14,Merchant,邁克爾假死,1624535247,Vendor\ni:28056,200,2400,14,Merchant,邁克爾假死,1624724811,Vendor\ni:28056,200,400,15,Merchant,邁克爾假死,1624774203,Vendor\ni:28399,5,5,1120,Merchant,邁克爾假死,1624774213,Vendor\ni:27860,5,25,1280,Merchant,邁克爾假死,1624774215,Vendor\ni:29451,5,40,1600,Merchant,邁克爾假死,1624780429,Vendor\ni:28056,200,2600,14,Merchant,邁克爾假死,1624785903,Vendor\ni:33042,5,20,1280,Merchant,邁克爾假死,1624797380,Vendor\ni:28056,200,2800,14,Merchant,邁克爾假死,1624800929,Vendor\ni:28056,200,2000,14,Merchant,邁克爾假死,1624807013,Vendor\ni:28056,200,1000,14,Merchant,邁克爾假死,1624812009,Vendor\ni:28053,200,1800,8,Merchant,邁克爾假死,1624854720,Vendor\ni:28053,200,1400,8,Merchant,邁克爾假死,1624950789,Vendor\ni:28056,200,3400,14,Merchant,邁克爾假死,1624957442,Vendor\ni:29451,5,20,1520,Merchant,邁克爾假死,1624958099,Vendor\ni:28056,200,2000,14,Merchant,邁克爾假死,1624965738,Vendor\ni:25476,1,1,1000000,Merchant,邁克爾假死,1624969648,Vendor\ni:8925,5,5,475,Merchant,邁克爾假死,1624970139,Vendor\ni:28056,200,1400,14,Merchant,邁克爾假死,1624970168,Vendor\ni:28056,200,1000,14,Merchant,邁克爾假死,1624975699,Vendor\ni:27860,5,20,1152,Merchant,邁克爾假死,1625021462,Vendor\ni:28056,200,2000,14,Merchant,邁克爾假死,1625023577,Vendor\ni:23121,1,1,49998,妮妮小輝,邁克爾假死,1625030222,Auction\ni:28290,1,1,49599,棒棒噠,邁克爾假死,1625030173,Auction\ni:23097,1,1,64498,放魚,邁克爾假死,1625030082,Auction\ni:23097,1,1,64497,妮妮小輝,邁克爾假死,1625030080,Auction\ni:28056,200,1800,14,Merchant,邁克爾假死,1625032437,Vendor\ni:28056,200,1400,14,Merchant,邁克爾假死,1625038892,Vendor\ni:30633,1,1,85000,Merchant,邁克爾假死,1625039029,Vendor\ni:28056,200,1200,13,Merchant,邁克爾假死,1625044625,Vendor\ni:30623,1,1,85000,Merchant,邁克爾假死,1625044642,Vendor\ni:29451,5,40,1520,Merchant,邁克爾假死,1625046990,Vendor\ni:14341,1,1,4750,Merchant,邁克爾假死,1625046990,Vendor\ni:28056,200,1400,14,Merchant,邁克爾假死,1625052092,Vendor\ni:30635,1,1,85000,Merchant,邁克爾假死,1625053063,Vendor\ni:28056,200,800,14,Merchant,邁克爾假死,1625065704,Vendor\ni:28056,200,1800,14,Merchant,邁克爾假死,1625119600,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625122961,Vendor\ni:23121,1,1,48598,想念讚讚,邁克爾假死,1625123995,Auction\ni:23095,1,3,108500,龍痕飛雪,邁克爾假死,1625123971,Auction\ni:28053,200,2000,8,Merchant,邁克爾假死,1625131980,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625132965,Vendor\ni:23097,1,2,60000,無星夜,邁克爾假死,1625136857,Auction\ni:28056,200,3000,14,Merchant,邁克爾假死,1625142335,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625144849,Vendor\ni:23116,1,1,74500,湯姆大臘腸,邁克爾假死,1625145167,Auction\ni:32409,1,1,4582500,施噠噠,邁克爾假死,1625145151,Auction\ni:23097,1,1,49999,想念讚讚,邁克爾假死,1625145044,Auction\ni:22456,1,1,852000,蛭摩妖一,邁克爾假死,1625154937,Auction\ni:22456,1,1,850000,小草白,邁克爾假死,1625154938,Auction\ni:22456,1,2,830000,一刀斃了你,邁克爾假死,1625154938,Auction\ni:22456,1,4,829000,靈魂魔笛手,邁克爾假死,1625154939,Auction\ni:25707,2,2,46000,薩諾斯膠囊,邁克爾假死,1625154913,Auction\ni:25707,1,1,37500,克羅小熊,邁克爾假死,1625154911,Auction\ni:25707,5,5,49600,血厲,邁克爾假死,1625154911,Auction\ni:23793,10,10,87900,你販劍嗎,邁克爾假死,1625154892,Auction\ni:14341,1,3,4750,Merchant,邁克爾假死,1625155061,Vendor\ni:23097,1,1,48999,故道小王子,邁克爾假死,1625155475,Auction\ni:24048,1,1,1270000,龍痕飛雪,邁克爾假死,1625155443,Auction\ni:29451,5,35,1360,Merchant,邁克爾假死,1625156228,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625159424,Vendor\ni:29192,1,1,850000,Merchant,邁克爾假死,1625162590,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625193917,Vendor\ni:27860,5,30,1216,Merchant,邁克爾假死,1625193941,Vendor\ni:30634,1,1,85000,Merchant,邁克爾假死,1625198337,Vendor\ni:28053,200,400,8,Merchant,邁克爾假死,1625199582,Vendor\ni:28056,200,800,14,Merchant,邁克爾假死,1625199586,Vendor\ni:30637,1,1,85000,Merchant,邁克爾假死,1625203340,Vendor\ni:28056,200,1000,14,Merchant,邁克爾假死,1625204868,Vendor\ni:22832,5,5,24000,成都張叔叔,邁克爾假死,1625207881,Trade\ni:28056,200,1400,14,Merchant,邁克爾假死,1625215341,Vendor\ni:28056,200,1400,14,Merchant,邁克爾假死,1625282652,Vendor\ni:28056,200,800,14,Merchant,邁克爾假死,1625286692,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625304946,Vendor\ni:28056,200,1400,14,Merchant,邁克爾假死,1625313094,Vendor\ni:22831,5,5,148000,頭暈暈,邁克爾假死,1625313306,Auction\ni:28056,200,3200,14,Merchant,邁克爾假死,1625317001,Vendor\ni:28649,1,1,5000000,皮蛋瘦肉粥,邁克爾假死,1625323911,Trade\ni:28056,200,1000,14,Merchant,邁克爾假死,1625324426,Vendor\ni:23097,1,2,90000,特快噗噗車,邁克爾假死,1625332561,Auction\ni:22445,20,20,17500,草莓多拿滋,邁克爾假死,1625332830,Auction\ni:22446,6,6,53333,Cbuff,邁克爾假死,1625332810,Auction\ni:22449,1,8,351000,原料存放,邁克爾假死,1625332793,Auction\ni:28056,200,2000,14,Merchant,邁克爾假死,1625333132,Vendor\ni:29451,5,30,1360,Merchant,邁克爾假死,1625376517,Vendor\ni:28056,200,1600,14,Merchant,邁克爾假死,1625382254,Vendor\ni:28056,200,2600,14,Merchant,邁克爾假死,1625399107,Vendor\ni:31074,1,1,41555,Merchant,邁克爾假死,1625403096,Vendor\ni:4552,4,8,530,Merchant,邁克爾假死,1625410701,Vendor\ni:25306:-9,1,2,70314,Merchant,邁克爾假死,1625410701,Vendor\ni:28056,200,2000,3,Merchant,邁克爾假死,1625410701,Vendor\ni:27854,2,4,280,Merchant,邁克爾假死,1625410701,Vendor\ni:30959,1,2,48587,Merchant,邁克爾假死,1625410701,Vendor\ni:24477,4,8,100,Merchant,邁克爾假死,1625410701,Vendor\ni:17057,4,8,7,Merchant,邁克爾假死,1625410701,Vendor\ni:28056,200,1600,14,Merchant,邁克爾假死,1625415326,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625456739,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625466878,Vendor\ni:28056,200,2600,14,Merchant,邁克爾假死,1625588744,Vendor\ni:29451,5,35,1360,Merchant,邁克爾假死,1625591309,Vendor\ni:22831,1,5,117500,聽你在放屁,邁克爾假死,1625824134,Auction\ni:22832,5,10,52000,老欉文旦,邁克爾假死,1625823979,Auction\ni:22832,5,5,52000,捅阿捅,邁克爾假死,1625823981,Auction\ni:28056,200,2000,14,Merchant,邁克爾假死,1625824626,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625829677,Vendor\ni:25477,1,1,2000000,Merchant,邁克爾假死,1625829956,Vendor\ni:28056,200,3000,14,Merchant,邁克爾假死,1625837947,Vendor\ni:28056,200,400,14,Merchant,邁克爾假死,1625840383,Vendor\ni:21841,1,3,95900,南歌雾散,邁克爾假死,1625888811,Auction\ni:22832,5,5,52000,黑暗褲褲,邁克爾假死,1625823985,Auction\ni:22446,7,7,44600,三天沒洗頭,邁克爾假死,1625889688,Auction\ni:22446,1,1,44400,Aiyoki,邁克爾假死,1625889693,Auction\ni:22445,10,10,11000,帽子給我好嗎,邁克爾假死,1625889719,Auction\ni:23097,1,2,45000,特快噗噗車,邁克爾假死,1625890099,Auction\ni:31865,1,1,463998,想念讚讚,邁克爾假死,1625890167,Auction\ni:9172,5,5,47200,高山清茶,邁克爾假死,1625896956,Auction\ni:3823,5,5,9900,眼花花種瓜,邁克爾假死,1625896961,Auction\ni:29451,5,25,1360,Merchant,邁克爾假死,1625902014,Vendor\ni:28056,200,1600,14,Merchant,邁克爾假死,1625902046,Vendor\ni:33042,5,20,1280,Merchant,邁克爾假死,1625912161,Vendor\ni:28056,200,1400,14,Merchant,邁克爾假死,1625920379,Vendor\ni:33999,1,1,16000000,Merchant,邁克爾假死,1625921462,Vendor\ni:28056,200,2000,14,Merchant,邁克爾假死,1625932272,Vendor\ni:29451,5,15,1360,Merchant,邁克爾假死,1625932325,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625936383,Vendor\ni:28056,200,1800,14,Merchant,邁克爾假死,1625985618,Vendor\ni:21841,1,1,96500,酷英雄,邁克爾假死,1626026551,Auction\ni:21841,1,1,93900,諸行無常,邁克爾假死,1626026552,Auction\ni:21841,1,2,85000,碧昂屍吉屎兒,邁克爾假死,1626026554,Auction\ni:2493,1,1,666,Merchant,特變電工,1626026781,Vendor\ni:4541,5,40,24,Merchant,特變電工,1626061278,Vendor\ni:2401,1,1,314,Merchant,特變電工,1626061346,Vendor\ni:2400,1,1,415,Merchant,特變電工,1626061348,Vendor\ni:2402,1,1,209,Merchant,特變電工,1626061350,Vendor\ni:2398,1,1,412,Merchant,特變電工,1626061352,Vendor\ni:2399,1,1,207,Merchant,特變電工,1626061354,Vendor\ni:2403,1,1,210,Merchant,特變電工,1626061356,Vendor\ni:1197,1,1,2400,Merchant,特變電工,1626074478,Vendor\ni:2509,1,1,373,Merchant,特變電工,1626074488,Vendor\ni:2516,200,400,0,Merchant,特變電工,1626074492,Vendor\ni:28056,200,1400,14,Merchant,邁克爾假死,1626108279,Vendor\ni:27854,5,40,1120,Merchant,特變電工,1626267090,Vendor\ni:18794,1,1,900000,Merchant,特變電工,1626281774,Vendor\ni:2589,20,40,1269,彗星軌跡,特變電工,1626282225,Auction\ni:2589,20,20,1270,惡魔小辣椒,特變電工,1626282230,Auction\ni:2589,20,40,1270,惡魔小辣椒,特變電工,1626282595,Auction\ni:2592,10,10,3200,忙著打牌,特變電工,1626282610,Auction\ni:2592,4,44,3300,嗯嗯哼,特變電工,1626282611,Auction\ni:2592,4,4,3400,Kiana,特變電工,1626282620,Auction\ni:2592,6,6,4200,石原希望,特變電工,1626282622,Auction\ni:2592,20,60,4250,施噠噠,特變電工,1626282623,Auction\ni:2592,20,60,4440,Mnmi,特變電工,1626282626,Auction\ni:16084,1,1,27000,汙染者軍需官,特變電工,1626283279,Auction\ni:16112,1,1,17800,老字號,特變電工,1626283274,Auction\ni:4306,20,60,990,一人管理一國,特變電工,1626283297,Auction\ni:14047,20,120,750,Kawakami,特變電工,1626283355,Auction\ni:14047,20,20,900,Mailgear,特變電工,1626283364,Auction\ni:4306,20,20,985,姆咪咪,特變電工,1626283291,Auction\ni:4306,20,20,995,上個月的羊肉,特變電工,1626283301,Auction\ni:4306,7,7,995,上個月的羊肉,特變電工,1626283304,Auction\ni:4306,20,60,1000,小英純真可愛,特變電工,1626283308,Auction\ni:16113,1,1,112000,汙染者軍需官,邁克爾假死,1626284459,Auction\ni:4338,20,20,5444,小英純真可愛,特變電工,1626283335,Auction\ni:4338,20,80,6000,巴洛瑪,特變電工,1626283348,Auction\ni:4338,20,100,5857,用之不竭,特變電工,1626283350,Auction\ni:4306,20,20,990,一人管理一國,特變電工,1626283290,Auction\ni:4306,20,120,1000,小英純真可愛,特變電工,1626283294,Auction\ni:4338,17,17,4640,小英純真可愛,特變電工,1626283315,Auction\ni:4338,2,2,5400,不悔光明左使,特變電工,1626283319,Auction\ni:4338,13,13,5400,不悔光明左使,特變電工,1626283321,Auction\ni:4338,20,20,5400,不悔光明左使,特變電工,1626283321,Auction\ni:4338,6,6,5500,Shoulder,特變電工,1626283324,Auction\ni:4338,6,6,5600,胖胖龍爹地,特變電工,1626283325,Auction\ni:4338,5,5,5700,楓葉呆呆,特變電工,1626283326,Auction\ni:4338,11,11,5859,小英純真可愛,特變電工,1626283330,Auction\ni:14047,20,20,850,性感大種馬,特變電工,1626283352,Auction\ni:14047,20,40,900,Mailgear,特變電工,1626283352,Auction\ni:14047,20,20,955,咖啡因戰士,特變電工,1626283354,Auction\ni:14047,20,20,959,仓库贰号,特變電工,1626283355,Auction\ni:14047,20,20,959,超桂麥給你,特變電工,1626283356,Auction\ni:14047,20,40,960,神戶霜降肉質,特變電工,1626283358,Auction\ni:27855,5,45,1064,Merchant,特變電工,1626315771,Vendor\ni:22012,1,1,50000,Merchant,特變電工,1626315939,Vendor\ni:22012,1,1,12500,Merchant,特變電工,1626315948,Vendor\ni:14047,20,40,2650,靜書年華,畜生犬隊長,1626316386,Auction\ni:14047,20,40,2600,白茶烏龍,畜生犬隊長,1626316401,Auction\ni:21992,1,1,20000,Merchant,特變電工,1626316685,Vendor\ni:21993,1,1,40000,Merchant,特變電工,1626316687,Vendor\ni:29112,1,1,300,Merchant,特變電工,1626339418,Vendor\ni:25048:-9,1,1,30284,Merchant,特變電工,1626373544,Vendor\ni:27676,3,3,200,Merchant,特變電工,1626373544,Vendor\ni:24616:-8,1,1,12356,Merchant,特變電工,1626373544,Vendor\ni:24151,1,1,75303,Merchant,特變電工,1626373544,Vendor\ni:25522,1,1,32604,Merchant,特變電工,1626373544,Vendor\ni:25923,1,1,27810,Merchant,特變電工,1626373544,Vendor\ni:24245,1,1,146,Merchant,特變電工,1626373544,Vendor\ni:18588,5,5,200,Merchant,特變電工,1626373544,Vendor\ni:27553,5,5,30,Merchant,特變電工,1626373544,Vendor\ni:17057,2,2,7,Merchant,特變電工,1626373544,Vendor\ni:17058,2,2,7,Merchant,特變電工,1626373544,Vendor\ni:31786,1,1,27639,Merchant,特變電工,1626373544,Vendor\ni:27855,5,40,1064,Merchant,特變電工,1626426950,Vendor\ni:3033,200,200,1,Merchant,特變電工,1626460511,Vendor\ni:21841,1,4,90999,潑屎妹,特變電工,1626460639,Auction\ni:3859,20,300,28999,掐礦,特變電工,1626461026,Auction\ni:3859,20,100,27500,Sprewell,特變電工,1626461019,Auction\ni:3575,20,80,10990,哞喜勒烤,特變電工,1626460980,Auction\ni:3575,20,80,10400,三歲就會飛,特變電工,1626460975,Auction\ni:3575,4,8,10400,三歲就會飛,特變電工,1626460971,Auction\ni:3575,20,40,9500,妃暄,特變電工,1626460970,Auction\ni:3575,17,34,9412,妃暄,特變電工,1626460970,Auction\ni:3575,20,140,9000,炎曲尤加,特變電工,1626460967,Auction\ni:3577,14,28,16429,追風法師,特變電工,1626460946,Auction\ni:2838,20,60,9800,我愛做麵包,特變電工,1626460931,Auction\ni:2838,19,38,9800,我愛做麵包,特變電工,1626460930,Auction\ni:2838,20,80,9775,提姆先生,特變電工,1626460929,Auction\ni:2838,20,80,9500,提姆先生,特變電工,1626460927,Auction\ni:2838,19,38,6800,貓街夢少女,特變電工,1626460927,Auction\ni:2838,18,18,6700,阿浮斯,特變電工,1626460926,Auction\ni:2838,2,4,6600,風見準人,特變電工,1626460926,Auction\ni:2838,4,12,6599,孤乄狼,特變電工,1626460925,Auction\ni:2838,6,12,6400,索霖,特變電工,1626460924,Auction\ni:2838,3,6,6250,雷射鋼羊毛,特變電工,1626460924,Auction\ni:2838,20,80,6400,索霖,特變電工,1626460921,Auction\ni:2838,20,40,6000,追風法師,特變電工,1626460919,Auction\ni:2838,15,45,5933,追風法師,特變電工,1626460918,Auction\ni:2838,1,2,5800,Clannad,特變電工,1626460918,Auction\ni:2838,3,6,5700,三歲就會飛,特變電工,1626460918,Auction\ni:2838,1,1,5500,Ezgg,特變電工,1626460917,Auction\ni:2838,9,27,5600,龍舌蘭加檸檬,特變電工,1626460917,Auction\ni:2841,20,80,2000,炎曲尤加,特變電工,1626460906,Auction\ni:2841,20,40,1995,拜索斯,特變電工,1626460904,Auction\ni:2841,4,8,1990,Ezgg,特變電工,1626460904,Auction\ni:2841,20,100,1950,追風法師,特變電工,1626460904,Auction\ni:2841,14,42,1786,追風法師,特變電工,1626460902,Auction\ni:2841,20,40,1495,色誘聯盟專家,特變電工,1626460902,Auction\ni:2841,10,30,1490,色誘聯盟專家,特變電工,1626460901,Auction\ni:2841,12,24,833,炎曲尤加,特變電工,1626460900,Auction\ni:2842,10,20,4800,Jj,特變電工,1626460886,Auction\ni:2836,19,57,985,這位大德,特變電工,1626460869,Auction\ni:2836,7,14,985,叫我擋會滅團,特變電工,1626460868,Auction\ni:2836,10,20,975,我愛做麵包,特變電工,1626460868,Auction\ni:2836,1,6,899,色誘聯盟專家,特變電工,1626460867,Auction\ni:2836,3,6,970,索霖,特變電工,1626460867,Auction\ni:2836,10,20,895,幽兒希卡比獸,特變電工,1626460867,Auction\ni:2836,5,10,745,諮諮,特變電工,1626460867,Auction\ni:2836,8,16,750,追風法師,特變電工,1626460867,Auction\ni:2836,2,6,740,叫我擋會滅團,特變電工,1626460866,Auction\ni:2836,5,5,740,活一天算一天,特變電工,1626460867,Auction\ni:2836,3,6,735,熊貓奶茶,特變電工,1626460867,Auction\ni:2836,20,40,750,Tboy,特變電工,1626460859,Auction\ni:2836,20,60,745,諮諮,特變電工,1626460859,Auction\ni:2836,5,10,695,龍舌蘭加檸檬,特變電工,1626460858,Auction\ni:2836,14,28,717,白魔后,特變電工,1626460856,Auction\ni:2836,20,60,700,追風法師,特變電工,1626460855,Auction\ni:2836,12,12,690,聖光又變弱了,特變電工,1626460854,Auction\ni:2836,19,19,579,炎曲尤加,特變電工,1626460854,Auction\ni:2836,20,80,690,聖光又變弱了,特變電工,1626460850,Auction\ni:2836,20,80,650,炎曲尤加,特變電工,1626460848,Auction\ni:2835,20,40,300,炎曲尤加,特變電工,1626460834,Auction\ni:2835,2,6,197,叫我擋會滅團,特變電工,1626460832,Auction\ni:2835,19,38,184,追風法師,特變電工,1626460832,Auction\ni:2835,20,100,233,離魂判,特變電工,1626460829,Auction\ni:2835,20,120,231,索霖,特變電工,1626460827,Auction\ni:2835,20,20,198,諮諮,特變電工,1626460825,Auction\ni:2835,20,140,190,追風法師,特變電工,1626460822,Auction\ni:2605,1,1,95,Merchant,特變電工,1626461171,Vendor\ni:2605,10,30,95,Merchant,特變電工,1626461174,Vendor\ni:5956,1,1,17,Merchant,特變電工,1626461886,Vendor\ni:3478,20,20,10,Merchant,特變電工,1626462089,Vendor\ni:3575,20,40,10990,哞喜勒烤,特變電工,1626462946,Auction\ni:2605,10,30,90,Merchant,特變電工,1626498357,Vendor\ni:3575,20,60,10200,真的沒想法,特變電工,1626498271,Auction\ni:7912,20,40,9900,梅田阪急百貨,特變電工,1626498636,Auction\ni:7912,20,60,9900,伊豆牧,特變電工,1626498630,Auction\ni:7912,11,11,4025,你印堂發黑,特變電工,1626498630,Auction\ni:7912,1,2,1485,伊布,特變電工,1626498629,Auction\ni:7912,3,3,1480,我愛做麵包,特變電工,1626498629,Auction\ni:7912,20,20,10000,狂熱之怒,特變電工,1626498719,Auction\ni:7912,8,8,1175,熊熊兇巴巴,特變電工,1626498720,Auction\ni:7912,19,19,10448,幸運魔人,特變電工,1626498764,Auction\ni:7912,6,6,10448,幸運魔人,特變電工,1626498763,Auction\ni:3860,1,6,26800,真的沒想法,特變電工,1626498901,Auction\ni:3860,20,80,26800,真的沒想法,特變電工,1626499480,Auction\ni:3860,1,19,26800,真的沒想法,特變電工,1626499479,Auction\ni:3860,20,60,26000,污染者軍需官,特變電工,1626499482,Auction\ni:4338,20,40,4614,法嗖啦西,特變電工,1626499524,Auction\ni:28470,1,1,19000,Merchant,特變電工,1626534595,Vendor\ni:29739,1,1,399000,Rize,特變電工,1626585319,Auction\ni:31673,3,3,150,Merchant,特變電工,1626607854,Vendor\ni:27651,3,3,150,Merchant,特變電工,1626607856,Vendor\ni:25477,1,1,2000000,Merchant,特變電工,1626781924,Vendor\ni:21841,1,1,49800,呼呼啾不痛,特變電工,1626782388,Auction\ni:21841,1,2,50000,脫裝備單挑,特變電工,1626782391,Auction\ni:7989,1,1,4197500,廢歐娜,特變電工,1626782993,Auction\ni:3860,20,20,18000,阿姨不是人,特變電工,1626782549,Auction\ni:3860,3,3,20600,駱馬兒,特變電工,1626782553,Auction\ni:3860,20,60,21500,索爾公會倉庫,特變電工,1626782585,Auction\ni:12359,20,20,21490,阿公,特變電工,1626782658,Auction\ni:12359,14,14,20000,劉吉兒,特變電工,1626782659,Auction\ni:3860,20,40,20799,雪丶無痕,特變電工,1626782565,Auction\ni:3860,20,20,20800,Exilesorcere,特變電工,1626782569,Auction\ni:3860,20,20,21000,妹妹的誘惑,特變電工,1626782593,Auction\ni:4304,4,4,9900,阿芸,特變電工,1626783209,Auction\ni:1210,11,11,7200,伊利冄,特變電工,1626783201,Auction\ni:7971,1,2,29800,Bkm,特變電工,1626783188,Auction\ni:4234,2,2,8249,紫色的月光,特變電工,1626783328,Auction\ni:4234,7,7,5714,大右池久,特變電工,1626783328,Auction\ni:3864,2,2,10101,血月雪,特變電工,1626783306,Auction\ni:3864,1,2,9900,小朱莉,特變電工,1626783306,Auction\ni:12163,1,1,299999,白龍採礦剝皮,特變電工,1626783440,Auction\ni:12164,1,1,50000,月半,特變電工,1626783397,Auction\ni:2838,20,20,2300,Bkm,特變電工,1626783902,Auction\ni:4234,20,20,5000,天玥雪,特變電工,1626783893,Auction\ni:1705,3,3,20000,Cjck,特變電工,1626783874,Auction\ni:1705,1,5,19800,黃泉引路豬,特變電工,1626783868,Auction\ni:1705,1,1,19400,卡禿嚕皮,特變電工,1626783871,Auction\ni:1705,1,1,19000,戀居舒適,特變電工,1626783871,Auction\ni:1705,1,1,19200,頑皮卡丘,特變電工,1626783873,Auction\ni:1705,1,1,19600,都是浮雲,特變電工,1626783877,Auction\ni:3466,8,8,1800,Merchant,特變電工,1626783999,Vendor\ni:2838,5,5,2899,今天飛高高,特變電工,1626784243,Auction\ni:2838,20,20,2490,阿姨不是人,特變電工,1626784241,Auction\ni:3577,11,11,8600,社會我共治,特變電工,1626784186,Auction\ni:3575,13,13,9800,小西貓,特變電工,1626784164,Auction\ni:3466,8,8,1800,Merchant,特變電工,1626784304,Vendor\ni:7912,20,120,1090,臭鳥蛋,特變電工,1626786176,Auction\ni:7912,5,5,1085,褲子掉下來,特變電工,1626786181,Auction\ni:12365,20,60,2062,五月寒如水,特變電工,1626786409,Auction\ni:14047,20,20,497,娑婆,特變電工,1626786495,Auction\ni:14047,20,20,496,真牛魔王子,特變電工,1626786496,Auction\ni:7912,20,20,1070,寒霜之冬,特變電工,1626783108,Auction\ni:7912,19,19,1053,兩個靈魂,特變電工,1626783109,Auction\ni:7912,12,12,1070,寒霜之冬,特變電工,1626783110,Auction\ni:7912,14,14,1050,蓮霧派對,特變電工,1626783111,Auction\ni:3860,20,20,21399,雪丶無痕,特變電工,1626782538,Auction\ni:12359,20,20,19599,今天飛高高,特變電工,1626782609,Auction\ni:3860,19,19,21600,黃泉引路豬,特變電工,1626782557,Auction\ni:7912,20,20,890,阿姨不是人,特變電工,1626783130,Auction\ni:7912,3,3,885,阿浮斯,特變電工,1626783132,Auction\ni:7912,20,40,880,Bkm,特變電工,1626783132,Auction\ni:7912,16,16,1000,提姆先生,特變電工,1626783140,Auction\ni:7912,13,13,1030,鐵衛牙,特變電工,1626783145,Auction\ni:7912,5,5,1025,駱馬兒,特變電工,1626783146,Auction\ni:7912,3,3,1000,提姆先生,特變電工,1626783146,Auction\ni:7912,6,6,1045,Hanymuer,特變電工,1626783153,Auction\ni:7912,5,5,1040,Bkm,特變電工,1626783154,Auction\ni:7912,4,4,1080,臭鳥蛋,特變電工,1626786165,Auction\ni:7912,1,1,1050,鬼武葬,特變電工,1626783119,Auction\ni:7912,4,4,1035,駱馬兒,特變電工,1626783118,Auction\ni:7912,2,2,995,紅燒牛楠燴飯,特變電工,1626783114,Auction\ni:7912,2,2,990,胖胖龍爹地,特變電工,1626783115,Auction\ni:12359,20,80,21600,威力聖光,特變電工,1626782652,Auction\ni:12359,2,2,21600,威力聖光,特變電工,1626782654,Auction\ni:12359,20,60,21495,牧丹,特變電工,1626782654,Auction\ni:8170,20,60,17000,餅乾商店,邁克爾假死,1626789464,Auction\ni:12359,20,20,21495,牧丹,特變電工,1626782611,Auction\ni:12359,20,40,21490,阿公,特變電工,1626782612,Auction\ni:12359,3,3,21333,黑暗褲褲,特變電工,1626782614,Auction\ni:12359,12,12,20000,一祈福一,特變電工,1626782613,Auction\ni:12359,1,1,20000,牧丹,特變電工,1626782616,Auction\ni:12359,1,1,20000,黑暗牛肉麵,特變電工,1626782618,Auction\ni:12359,8,8,19600,駱馬兒,特變電工,1626782618,Auction\ni:12359,20,40,24444,阿魚,邁克爾假死,1626789876,Auction\ni:12359,20,60,25000,阿公,邁克爾假死,1626789883,Auction\ni:10620,12,12,21400,威力始元,邁克爾假死,1626789959,Auction\ni:10620,18,18,21600,Bkm,邁克爾假死,1626789961,Auction\ni:10620,20,40,21600,Bkm,邁克爾假死,1626789962,Auction\ni:10620,20,120,21800,台彎海森堡,邁克爾假死,1626789968,Auction\ni:23424,20,60,9900,觚隷,邁克爾假死,1626790656,Auction\ni:23424,20,160,10400,豆屎蝕尸,邁克爾假死,1626790678,Auction\ni:23424,20,60,10599,倉庫軍,邁克爾假死,1626790786,Auction\ni:23424,20,40,10600,Jacinthe,邁克爾假死,1626790793,Auction\ni:23424,20,20,10600,Jacinthe,邁克爾假死,1626790752,Auction\ni:23424,20,80,11800,粉色的尼拉克,邁克爾假死,1626790759,Auction\ni:23424,20,220,11900,关宏峰,邁克爾假死,1626790767,Auction\ni:23425,20,140,31500,朵一,邁克爾假死,1626792470,Auction\ni:23425,20,80,31500,哈那,邁克爾假死,1626792467,Auction\ni:23425,20,20,31495,玖娘子,邁克爾假死,1626792765,Auction\ni:23424,20,80,11900,关宏峰,邁克爾假死,1626790792,Auction\ni:23424,20,140,11995,綠小姐,邁克爾假死,1626790801,Auction\ni:23424,20,20,12250,緣之石,邁克爾假死,1626790799,Auction\ni:21841,1,4,55000,南歌雾散,邁克爾假死,1626794030,Auction\ni:25526,1,1,54000,Merchant,特變電工,1626794832,Vendor\ni:23591,1,1,36000,Merchant,特變電工,1626795587,Vendor\ni:23426,18,18,78007,綠小姐,邁克爾假死,1626800729,Auction\ni:23426,20,20,78007,綠小姐,邁克爾假死,1626800730,Auction\ni:23426,2,2,80000,臉黑非洲人,邁克爾假死,1626800734,Auction\ni:23426,20,20,80020,Cdlv,邁克爾假死,1626800737,Auction\ni:23426,20,40,80025,Meya,邁克爾假死,1626800738,Auction\ni:23618,1,1,54000,Merchant,特變電工,1626801690,Vendor\ni:28632,1,1,54000,Merchant,特變電工,1626801691,Vendor\ni:23425,20,60,31075,老鼠人,邁克爾假死,1626801986,Auction\ni:23427,20,40,55000,大倉庫仔,邁克爾假死,1626802423,Auction\ni:23116,1,4,57399,放魚,特變電工,1626803984,Auction\ni:23095,1,1,46597,茈茈,特變電工,1626851535,Auction\ni:29449,5,20,1520,Merchant,特變電工,1626868943,Vendor\ni:28061,200,200,14,Merchant,特變電工,1626869200,Vendor\ni:23111,1,3,3700,啊斯,特變電工,1626878119,Auction\ni:25896,1,1,2502500,施噠噠,特變電工,1626878067,Auction\ni:22573,10,10,13100,獸人加魯魯蛇,特變電工,1626879225,Auction\ni:22573,10,30,12999,飛天吉娃娃,特變電工,1626879224,Auction\ni:23446,20,20,59999,今天飛高高,特變電工,1626879200,Auction\ni:22445,5,5,13400,小樂子,特變電工,1626879060,Auction\ni:22445,7,7,13000,浪漫牛兒,特變電工,1626879054,Auction\ni:22445,1,1,13400,小樂子,特變電工,1626879061,Auction\ni:22445,2,2,12800,速嵐轎,特變電工,1626879056,Auction\ni:22446,1,1,48200,小樂子,特變電工,1626879552,Auction\ni:22445,20,40,13200,術法歪哥,特變電工,1626879524,Auction\ni:23116,1,1,54998,茈茈,特變電工,1626891973,Auction\ni:23118,1,1,33400,魔術手,特變電工,1626892122,Auction\ni:23100,1,1,41600,龍痕飛雪,特變電工,1626892100,Auction\ni:30623,1,1,85000,Merchant,特變電工,1626926071,Vendor\ni:23116,1,3,44800,圓球鋪,特變電工,1626963717,Auction\ni:30635,1,1,85000,Merchant,特變電工,1626969684,Vendor\ni:29186,1,1,850000,Merchant,特變電工,1626969689,Vendor\ni:30633,1,1,85000,Merchant,特變電工,1626973297,Vendor\ni:6214,1,1,78708,白龍採礦剝皮,特變電工,1627117995,Auction\ni:21841,1,4,59400,Austinger,邁克爾假死,1627141110,Auction\ni:21340,1,1,181249,白龍採礦剝皮,邁克爾假死,1627141203,Auction\ni:28056,200,2000,14,Merchant,邁克爾假死,1627143693,Vendor\ni:15268:845,1,1,5000,妖刖,特變電工,1627194813,Auction\ni:4567:1100,1,1,11000,細雪丨,特變電工,1627194802,Auction\ni:21885,1,1,530000,慢慢喵,特變電工,1627199180,Auction\ni:21885,2,4,530000,大樹的術,特變電工,1627199177,Auction\ni:21885,1,8,514000,樂觀二尖瓣,特變電工,1627199172,Auction\ni:21885,1,3,509900,殞落王者之劍,特變電工,1627199170,Auction\ni:21885,1,2,509899,八倍鏡,特變電工,1627199168,Auction\ni:21885,1,2,509500,阿席莉帕,特變電工,1627199167,Auction\ni:21885,1,17,509500,天才小喇叭,特變電工,1627199165,Auction\ni:1705,2,4,17000,阿姨不是人,特變電工,1626783859,Auction\ni:3860,2,4,21400,駱馬兒,特變電工,1626782544,Auction\ni:22451,1,3,558000,蛋比鳥大,特變電工,1627199524,Auction\ni:22451,1,2,558000,德羅茲狼嚎,特變電工,1627199521,Auction\ni:22451,2,20,558000,德羅茲狼嚎,特變電工,1627199520,Auction\ni:22451,1,2,557000,小樂子,特變電工,1627199513,Auction\ni:22451,1,5,556999,王雨瑤,特變電工,1627199512,Auction\ni:22451,1,4,556000,葛爾諾斯他婆,特變電工,1627199509,Auction\ni:28290,1,1,49999,棒棒噠,特變電工,1627199657,Auction\ni:23118,1,5,11499,棒棒噠,特變電工,1627199631,Auction\ni:23095,1,5,79000,施噠噠,特變電工,1627199608,Auction\ni:22445,1,11,13299,曼施坦茵,特變電工,1627401149,Auction\ni:22445,20,60,15000,大象埃德蒙,特變電工,1627401140,Auction\ni:22445,5,20,12800,暹小花,特變電工,1627401126,Auction\ni:3860,17,17,21399,雪丶無痕,特變電工,1626782540,Auction\ni:22851,1,1,885000,紫蘇奶茶,特變電工,1627402069,Auction\ni:25898,1,1,2549999,Neross,特變電工,1627446358,Auction\ni:24052,1,1,773999,肉肉喵喵,特變電工,1627446316,Auction\ni:23118,1,1,7500,職業剋星,特變電工,1627446489,Auction\ni:23118,1,1,7300,那瑪希鐵,特變電工,1627446487,Auction\ni:23118,1,1,7200,女妖之王,特變電工,1627446485,Auction\ni:29186,1,1,850000,Merchant,特變電工,1627447195,Vendor\ni:30634,1,1,85000,Merchant,特變電工,1627481456,Vendor\ni:30637,1,1,85000,Merchant,特變電工,1627544096,Vendor\ni:23105,1,3,7300,啊斯,特變電工,1627569612,Auction\ni:23105,1,2,6000,緋緋,特變電工,1627569612,Auction\ni:23105,1,1,5900,卍萊牛卍,特變電工,1627569611,Auction\ni:23105,1,1,5000,職業剋星,特變電工,1627569607,Auction\ni:22445,1,1,11600,夜狼神,特變電工,1627570354,Auction\ni:22445,6,12,11600,夜狼神,特變電工,1627570350,Auction\ni:22445,2,2,11600,夜狼神,特變電工,1627570357,Auction\ni:3860,4,4,20799,雪丶無痕,特變電工,1626782509,Auction\ni:3860,1,1,21200,都是浮雲,特變電工,1626782536,Auction\ni:30810,50,50,25000,薩凡斯,特變電工,1627617953,Auction\ni:30810,49,49,25000,葛格法師,特變電工,1627618027,Auction\ni:23448,2,22,395000,女妖之王,特變電工,1627630921,Auction\ni:23448,1,4,399000,黑色告死鳥,特變電工,1627631271,Auction\ni:23447,1,1,119425,血色序章,特變電工,1627631539,Auction\ni:23447,1,3,120000,殟系,特變電工,1627631540,Auction\ni:23447,10,10,120000,賽力勞斯,特變電工,1627631551,Auction\ni:23447,13,13,120677,百合妹妹,特變電工,1627631552,Auction\ni:23447,10,10,123000,卡滋沒基機,特變電工,1627631555,Auction\ni:23447,11,11,124236,百合妹妹,特變電工,1627631556,Auction\ni:23445,20,20,23500,大右池久,特變電工,1627631612,Auction\ni:23445,20,20,23500,Kdo,特變電工,1627631613,Auction\ni:23445,14,14,24400,浩天無極,特變電工,1627632309,Auction\ni:23445,20,40,24300,獸人加魯魯蛇,特變電工,1627632307,Auction\ni:23445,20,160,24000,卡滋沒基機,特變電工,1627632304,Auction\ni:23445,20,40,23500,罐罐貓,特變電工,1627632301,Auction\ni:23445,1,3,23400,喝啤酒吐泡泡,特變電工,1627632298,Auction\ni:23445,9,9,23200,高熙茵娜,特變電工,1627632297,Auction\ni:23447,13,26,130762,百合妹妹,特變電工,1627632243,Auction\ni:23447,1,53,129500,伊汶捷琳,特變電工,1627632234,Auction\ni:23447,1,13,127400,草藥二倉,特變電工,1627632215,Auction\ni:23447,9,27,124525,淅淅瀝瀝,特變電工,1627632210,Auction\ni:23447,10,10,124400,獸人加魯魯蛇,特變電工,1627632209,Auction\ni:23447,10,40,120000,賽力勞斯,特變電工,1627632208,Auction\ni:22457,8,8,484000,楓糖水蜜桃,特變電工,1627632831,Auction\ni:22457,1,3,484851,十四代双虹,特變電工,1627632876,Auction\ni:23098,1,1,5400,女妖之王,特變電工,1627634204,Auction\ni:28290,1,1,17300,女妖之王,特變電工,1627634154,Auction\ni:23111,1,1,8500,女妖之王,特變電工,1627634629,Auction\ni:23098,1,4,5400,女妖之王,特變電工,1627634598,Auction\ni:22829,5,40,6000,云哥法师,特變電工,1627651770,Auction\ni:5634,5,25,38200,雲水憐心,特變電工,1627671032,Auction\ni:5634,2,2,25000,神族狂戰士,特變電工,1627705334,Auction\ni:5634,1,1,24800,龍痕飛雪,特變電工,1627705335,Auction\ni:23098,1,3,25800,卡娜呵呵,特變電工,1627730905,Auction\ni:6358,9,9,9111,大車車,特變電工,1627731013,Auction\ni:6358,3,6,8999,想不到就睡覺,特變電工,1627731013,Auction\ni:6358,5,15,8900,讓開我來躺,特變電工,1627731013,Auction\ni:6358,1,32,8899,Momonga,特變電工,1627731012,Auction\ni:6358,20,60,8000,性感大種馬,特變電工,1627731011,Auction\ni:6358,6,12,7900,超級大砲,特變電工,1627731010,Auction\ni:3820,15,15,4600,滑溜,特變電工,1627731170,Auction\ni:21877,10,80,2000,算你內行,特變電工,1627792771,Auction\ni:23446,5,20,53000,礦石小弟,特變電工,1627792734,Auction\ni:23446,1,2,52500,螯蝦,特變電工,1627792731,Auction\ni:23446,1,1,52000,甜點師傅,特變電工,1627792730,Auction\ni:23446,2,4,52000,甜點師傅,特變電工,1627792729,Auction\ni:23446,2,6,51999,沒時間,特變電工,1627792729,Auction\ni:23118,1,11,17199,放魚,特變電工,1627818791,Auction\ni:23118,1,2,17000,卍萊牛卍,特變電工,1627818770,Auction\ni:13455,4,12,68000,魔術戰,特變電工,1627818751,Auction\ni:22851,1,4,893000,咪咧,特變電工,1627818724,Auction\ni:28824,1,1,9000000,月巴豸苗,特變電工,1627822842,Trade\ni:28777,1,1,4000000,月巴豸苗,特變電工,1627827009,Trade\ni:23104,1,1,8900,浜边美波,特變電工,1627999189,Auction\ni:23100,1,2,25597,白龍採礦剝皮,特變電工,1627999163,Auction\ni:29192,1,1,850000,Merchant,特變電工,1628007627,Vendor\ni:24051,1,1,579999,伯爵鮮奶茶,特變電工,1628339299,Auction\ni:24027,1,2,1465000,花俏俏,特變電工,1628339277,Auction\ni:24027,1,1,1464999,肉肉喵喵,特變電工,1628339276,Auction\ni:22449,1,9,281958,Sige,特變電工,1628339618,Auction\ni:22450,2,4,292500,玄米綠茶,特變電工,1628339601,Auction\ni:22446,1,13,43400,黑色告死鳥,特變電工,1628339578,Auction\ni:22445,1,3,16000,琉影,特變電工,1628339565,Auction\ni:22445,5,25,14200,要替婆婆報仇,特變電工,1628339562,Auction\ni:22449,1,6,281000,沫影,特變電工,1628339537,Auction\ni:22447,1,1,11800,臭鳥蛋,特變電工,1628344636,Auction\ni:22447,2,4,11600,反智轉身,特變電工,1628344630,Auction\ni:22447,1,2,9000,困桂桃,特變電工,1628344626,Auction\ni:24051,1,2,577999,伯爵鮮奶茶,特變電工,1628344586,Auction\ni:22445,1,1,14900,Austinger,特變電工,1628344872,Auction\ni:22445,5,10,14200,要替婆婆報仇,特變電工,1628344870,Auction\ni:21877,20,60,1720,蛋比鳥大,特變電工,1628398112,Auction\ni:23446,20,40,40400,Ikemen,特變電工,1628398082,Auction\ni:23095,1,1,56297,放魔水,特變電工,1628424599,Auction\ni:28290,1,5,26800,啊斯,特變電工,1628424563,Auction\ni:23100,1,7,6900,啊斯,特變電工,1628424527,Auction\ni:23104,1,3,3500,啊斯,特變電工,1628424489,Auction\ni:23116,1,1,30650,虎牙哥,特變電工,1628424460,Auction\ni:22446,1,1,50000,沫影,特變電工,1628425181,Auction\ni:22445,14,14,12600,狗哥,特變電工,1628425168,Auction\ni:23095,1,3,56295,救地正法,特變電工,1628429992,Auction\ni:23115,1,6,63998,棒棒噠,特變電工,1628429973,Auction\ni:23115,1,3,63500,卍萊牛卍,特變電工,1628429981,Auction\ni:23118,1,10,8700,女妖之王,特變電工,1628872342,Auction\ni:22456,2,2,430000,完美物流,特變電工,1628931806,Auction\ni:22456,5,10,430000,Klion,特變電工,1628931805,Auction\ni:22456,1,2,410000,打不死蟑螂,特變電工,1628931803,Auction\ni:25707,2,2,29800,Ricauo,特變電工,1628931794,Auction\ni:25707,6,6,29600,蜂蜜檸檬蘆薈,特變電工,1628931792,Auction\ni:23793,2,6,41600,你販劍嗎,特變電工,1628931784,Auction\ni:23793,4,16,41010,十四代双虹,特變電工,1628931780,Auction\ni:14341,1,3,4750,Merchant,特變電工,1628931886,Vendor\ni:24048,1,1,417998,伯爵鮮奶茶,特變電工,1628937261,Auction\ni:22451,1,1,467699,曉寶寶,特變電工,1628945185,Auction\ni:22451,1,15,467000,牛排特務,特變電工,1628945184,Auction\ni:22451,1,2,467000,Tamago,特變電工,1628945181,Auction\ni:29539,2,10,255000,Derony,特變電工,1628945166,Auction\ni:23793,4,8,41010,十四代双虹,特變電工,1628945143,Auction\ni:30810,100,100,23100,冰刃炎魔,特變電工,1628962779,Auction\ni:30810,40,80,22000,冰刃炎魔,特變電工,1628962779,Auction\ni:30810,250,250,21600,若葉姬色,特變電工,1628962775,Auction\ni:30810,114,228,21600,若葉姬色,特變電工,1628962775,Auction\ni:30810,36,108,21000,雪白兒,特變電工,1628962773,Auction\ni:30810,100,100,21000,冰刃炎魔,特變電工,1628962769,Auction\ni:30810,6,12,21000,Laviticus,特變電工,1628962768,Auction\ni:30810,2,4,21000,Badd,特變電工,1628962768,Auction\ni:30810,12,24,20833,姑逃姑鬧,特變電工,1628962768,Auction\ni:30810,5,15,20600,黑暗褲褲,特變電工,1628962767,Auction\ni:30810,5,40,20599,Bigomage,特變電工,1628962767,Auction\ni:30810,2,4,20500,德古拉法葉,特變電工,1628962767,Auction\ni:30810,12,24,20400,狗哥,特變電工,1628962761,Auction\ni:30810,50,150,20400,冰刃炎魔,特變電工,1628962761,Auction\ni:30810,28,56,20321,Druidfactor,特變電工,1628962761,Auction\ni:30810,1,2,20320,阿公店店花,特變電工,1628962760,Auction\ni:30810,99,198,20303,阿強扛不住,特變電工,1628962759,Auction\ni:30810,74,222,20270,Alta,特變電工,1628962759,Auction\ni:30810,1,2,20200,到底是在吵尛,特變電工,1628962758,Auction\ni:30810,8,16,20199,愛妳喲,特變電工,1628962757,Auction\ni:30810,14,28,20000,Srd,特變電工,1628962757,Auction\ni:30810,1,2,20000,湯姆克鹵蛋,特變電工,1628962755,Auction\ni:30810,6,6,20000,踏踏,特變電工,1628962755,Auction\ni:30810,5,50,20000,寶貝玩獵人,特變電工,1628962755,Auction\ni:30810,1,4,20000,薩下薩下,特變電工,1628962748,Auction\ni:30810,1,2,20000,牛奶喝到飽,特變電工,1628962747,Auction\ni:30810,13,39,19987,半壺老酒,特變電工,1628962746,Auction\ni:30810,15,15,19800,伊魯娜黛珥,特變電工,1628962746,Auction\ni:30810,8,24,19800,心動動,特變電工,1628962745,Auction\ni:30810,3,9,19800,內心謙下,特變電工,1628962744,Auction\ni:30810,5,10,19400,Zippoxi,特變電工,1628962743,Auction\ni:30810,39,78,19200,非酋的爆發力,特變電工,1628962739,Auction\ni:30810,10,40,19199,曉風乄血月,特變電工,1628962739,Auction\ni:30810,7,14,19199,曉風乄血月,特變電工,1628962735,Auction\ni:30810,36,108,19000,熱情的排骨,特變電工,1628962733,Auction\ni:29739,1,1,355999,曉風乄血月,特變電工,1628963189,Auction\ni:29739,2,2,355000,熱情的排骨,特變電工,1628963184,Auction\ni:22536,1,1,85000,Merchant,特變電工,1630735238,Vendor",
 	["c@路易斯桑拿 - 伊弗斯@auctionUIContext@auctioningGroupTree"] = {
 		["collapsed"] = {
 		},
@@ -1741,7 +1226,7 @@ TradeSkillMasterDB = {
 			["i:22572"] = 5,
 			["i:22577"] = 19,
 			["i:13446"] = 15,
-			["i:27855"] = 20,
+			["i:22832"] = 3,
 			["i:13444"] = 6,
 			["i:12803"] = 1,
 			["i:27859"] = 3,
@@ -1752,7 +1237,7 @@ TradeSkillMasterDB = {
 			["i:27502"] = 2,
 			["i:27854"] = 18,
 			["i:22574"] = 3,
-			["i:22832"] = 3,
+			["i:27855"] = 20,
 		},
 		["路易斯桑拿"] = {
 		},
@@ -1766,12 +1251,12 @@ TradeSkillMasterDB = {
 	["g@ @shoppingOptions@minDeSearchLvl"] = 1,
 	["g@ @internalData@appMessageId"] = 0,
 	["g@ @mailingUIContext@frame"] = {
-		["centerX"] = 228.1400053501129,
-		["scale"] = 1,
+		["width"] = 620,
 		["height"] = 516.0000610351562,
+		["scale"] = 1,
 		["centerY"] = 25.01000058650971,
 		["page"] = 1,
-		["width"] = 620,
+		["centerX"] = 228.1400053501129,
 	},
 	["f@Horde - 伊弗斯@internalData@isCraftFavorite"] = {
 	},
@@ -1792,16 +1277,16 @@ TradeSkillMasterDB = {
 		["colWidth"] = {
 			["saleRate"] = 30,
 			["name"] = 288,
-			["craftingCost"] = 100,
-			["profit"] = 100,
-			["qty"] = 54,
-			["profitPct"] = 50,
 			["itemValue"] = 100,
+			["profitPct"] = 50,
+			["qty"] = 54,
+			["profit"] = 100,
+			["craftingCost"] = 100,
 		},
 		["colHidden"] = {
-			["craftingCost"] = true,
-			["profitPct"] = true,
 			["itemValue"] = true,
+			["profitPct"] = true,
+			["craftingCost"] = true,
 		},
 		["collapsed"] = {
 			[34] = true,
@@ -1813,25 +1298,25 @@ TradeSkillMasterDB = {
 	["g@ @appearanceOptions@customColorSet"] = {
 		["ACTIVE_BG_ALT"] = "#a0a0a0",
 		["PRIMARY_BG"] = "#000000",
-		["ACTIVE_BG"] = "#404046",
-		["PRIMARY_BG_ALT"] = "#121212",
 		["FRAME_BG"] = "#232323",
+		["PRIMARY_BG_ALT"] = "#121212",
+		["ACTIVE_BG"] = "#404046",
 	},
 	["f@Horde - 伊弗斯@internalData@auctionDBScanHash"] = 8238397,
 	["g@ @appearanceOptions@taskListBackgroundLock"] = false,
 	["f@Horde - 伊弗斯@internalData@auctionDBScanTime"] = 1626877749,
-	["s@特變電工 - Horde - 伊弗斯@internalData@money"] = 110276668,
+	["s@特變電工 - Horde - 伊弗斯@internalData@money"] = 81522244,
 	["c@路易斯桑拿 - 伊弗斯@internalData@auctionSaleHints"] = {
 	},
 	["_version"] = 103,
 	["g@ @mailingOptions@openMailSound"] = "TSM_NO_SOUND",
 	["g@ @auctionUIContext@frame"] = {
-		["centerX"] = -10.98000025749207,
-		["scale"] = 1,
+		["width"] = 830,
 		["height"] = 587,
+		["scale"] = 1,
 		["centerY"] = 14.03000032901764,
 		["page"] = 1,
-		["width"] = 830,
+		["centerX"] = -10.98000025749207,
 	},
 	["g@ @appearanceOptions@colorSet"] = "midnight",
 	["s@畜生犬隊長 - Horde - 伊弗斯@internalData@bankQuantity"] = {
@@ -1840,9 +1325,9 @@ TradeSkillMasterDB = {
 	},
 	["g@ @tooltipOptions@vendorBuyTooltip"] = true,
 	["_syncOwner"] = {
-		["路易斯桑拿 - Horde - 伊弗斯"] = "Horde - 伊弗斯 - 798530221",
-		["特變電工 - Horde - 伊弗斯"] = "Horde - 伊弗斯 - 798530221",
 		["畜生犬隊長 - Horde - 伊弗斯"] = "Horde - 伊弗斯 - 798530221",
+		["特變電工 - Horde - 伊弗斯"] = "Horde - 伊弗斯 - 798530221",
+		["路易斯桑拿 - Horde - 伊弗斯"] = "Horde - 伊弗斯 - 798530221",
 		["邁克爾假死 - Horde - 伊弗斯"] = "Horde - 伊弗斯 - 798530221",
 	},
 	["g@ @auctionUIContext@auctioningBagScrollingTable"] = {
@@ -1897,9 +1382,9 @@ TradeSkillMasterDB = {
 	["g@ @tooltipOptions@detailedDestroyTooltip"] = false,
 	["g@ @vendoringUIContext@buyScrollingTable"] = {
 		["colWidth"] = {
-			["ilvl"] = 32,
-			["qty"] = 40,
 			["item"] = 310,
+			["qty"] = 40,
+			["ilvl"] = 32,
 			["cost"] = 150,
 		},
 		["colHidden"] = {
@@ -1942,25 +1427,15 @@ TradeSkillMasterDB = {
 		["i:23105"] = 1,
 		["i:31291"] = 1,
 		["i:28777"] = 1,
-		["i:30344"] = 1,
 		["i:22450"] = 2,
-		["i:28529"] = 1,
-		["i:28853"] = 1,
 		["i:28262"] = 1,
 		["i:22449"] = 4,
 		["i:27985"] = 1,
-		["i:22447"] = 4,
-		["i:28375"] = 1,
-		["i:27901"] = 1,
-		["i:774"] = 3,
-		["i:28381"] = 1,
 		["i:24401"] = 34,
 		["i:28608"] = 1,
 		["i:27892"] = 1,
-		["i:28730"] = 1,
-		["i:25937"] = 1,
-		["i:27676"] = 4,
-		["i:30644"] = 1,
+		["i:28042"] = 1,
+		["i:28323"] = 1,
 		["i:1210"] = 3,
 		["i:21881"] = 2,
 		["i:15268"] = 1,
@@ -1970,35 +1445,45 @@ TradeSkillMasterDB = {
 		["i:28553"] = 1,
 		["i:25719"] = 18,
 		["i:28176"] = 1,
+		["i:28381"] = 1,
+		["i:30644"] = 1,
 		["i:27918"] = 1,
-		["i:28421"] = 4,
 		["i:28791"] = 1,
-		["i:28301"] = 1,
+		["i:28730"] = 1,
 		["i:4567"] = 1,
 		["i:35279"] = 1,
-		["i:28042"] = 1,
-		["i:31405"] = 1,
 		["i:28824"] = 1,
+		["i:14047"] = 4,
+		["i:31405"] = 1,
+		["i:27901"] = 1,
 		["i:30959"] = 1,
 		["i:28031"] = 1,
-		["i:185986"] = 1,
+		["i:28375"] = 1,
 		["i:31380"] = 1,
-		["i:27887"] = 1,
+		["i:31820"] = 1,
 		["i:28750"] = 1,
 		["i:20748"] = 1,
 		["i:25811"] = 1,
 		["i:29425"] = 26,
 		["i:21991"] = 7,
 		["i:30533"] = 1,
-		["i:31820"] = 1,
-		["i:14047"] = 4,
+		["i:27887"] = 1,
+		["i:185986"] = 1,
 		["i:27906"] = 1,
 		["i:28102"] = 5,
 		["i:28851"] = 1,
 		["i:28852"] = 1,
 		["i:29383"] = 1,
 		["i:31074"] = 1,
-		["i:28323"] = 1,
+		["i:27676"] = 4,
+		["i:30344"] = 1,
+		["i:28301"] = 1,
+		["i:28421"] = 4,
+		["i:28853"] = 1,
+		["i:22447"] = 4,
+		["i:774"] = 3,
+		["i:28529"] = 1,
+		["i:25937"] = 1,
 	},
 	["c@特變電工 - 伊弗斯@vendoringUIContext@groupTree"] = {
 		["collapsed"] = {
@@ -2027,12 +1512,12 @@ TradeSkillMasterDB = {
 	["r@伊弗斯@internalData@saveTimeCancels"] = "1626786830,1626786830,1627631690,1627631690",
 	["f@Horde - 伊弗斯@internalData@mailExcessGoldChar"] = "",
 	["g@ @vendoringUIContext@frame"] = {
-		["centerX"] = -414.1900097131729,
-		["scale"] = 1,
+		["width"] = 560.0000610351562,
 		["height"] = 500.0000915527344,
+		["scale"] = 1,
 		["centerY"] = 122.6100028753281,
 		["page"] = 1,
-		["width"] = 560.0000610351562,
+		["centerX"] = -414.1900097131729,
 	},
 	["c@路易斯桑拿 - 伊弗斯@bankingUIContext@mailingGroupTree"] = {
 		["collapsed"] = {
@@ -2127,125 +1612,125 @@ TradeSkillMasterDB = {
 		["g@tooltipOptions@moduleTooltips"] = 10,
 		["r@internalData@csvExpired"] = 10,
 		["g@craftingUIContext@matsScrollingTable"] = 55,
-		["g@auctionUIContext@shoppingSelectionDividedContainer"] = 55,
-		["g@auctionUIContext@auctioningTabGroup"] = 93,
+		["g@mainUIContext@operationsSummaryScrollingTable"] = 76,
+		["g@craftingOptions@ignoreGuilds"] = 10,
 		["g@mainUIContext@operationsDividedContainer"] = 55,
 		["c@internalData@craftingCooldowns"] = 99,
-		["f@internalData@auctionDBScanHash"] = 50,
-		["g@auctionUIContext@myAuctionsScrollingTable"] = 103,
+		["c@bankingUIContext@auctioningGroupTree"] = 80,
+		["g@bankingUIContext@frame"] = 55,
 		["g@coreOptions@minimapIcon"] = 10,
 		["g@sniperOptions@sniperSound"] = 10,
-		["g@mailingOptions@resendDelay"] = 10,
+		["g@craftingUIContext@craftsScrollingTable"] = 86,
 		["g@vendoringOptions@qsMarketValue"] = 10,
 		["r@internalData@accountingTrimmed"] = 10,
 		["g@mailingOptions@sendItemsIndividually"] = 10,
 		["c@auctionUIContext@shoppingGroupTree"] = 80,
 		["g@taskListUIContext@frame"] = 55,
-		["g@mailingOptions@sendMessages"] = 10,
-		["f@internalData@csvAuctionDBScan"] = 50,
+		["g@mainUIContext@ledgerTransactionsScrollingTable"] = 62,
 		["g@shoppingOptions@maxDeSearchPercent"] = 23,
+		["f@internalData@csvAuctionDBScan"] = 50,
 		["g@tooltipOptions@vendorBuyTooltip"] = 10,
 		["g@internalData@whatsNewVersion"] = 94,
 		["g@appearanceOptions@showTotalMoney"] = 95,
-		["g@coreOptions@destroyValueSource"] = 10,
+		["g@shoppingOptions@pctSource"] = 12,
 		["p@internalData@createdDefaultOperations"] = 11,
 		["c@mainUIContext@importGroupTree"] = 80,
-		["f@internalData@expiringMail"] = 47,
+		["g@craftingOptions@defaultMatCostMethod"] = 10,
 		["g@auctionUIContext@sniperScrollingTable"] = 103,
-		["g@shoppingOptions@buyoutAlertSource"] = 46,
+		["g@craftingUIContext@showDefault"] = 55,
 		["g@userData@vendoringIgnore"] = 10,
 		["g@mainUIContext@dashboardTimeRange"] = 78,
 		["f@internalData@mailDisenchantablesChar"] = 49,
 		["g@tooltipOptions@embeddedTooltip"] = 10,
 		["g@tooltipOptions@tooltipPriceFormat"] = 10,
 		["g@coreOptions@protectAuctionHouse"] = 77,
-		["f@gatheringContext@crafter"] = 32,
+		["g@mainUIContext@ledgerResaleScrollingTable"] = 62,
 		["g@craftingUIContext@gatheringScrollingTable"] = 55,
 		["g@coreOptions@auctionSaleSound"] = 10,
-		["g@bankingUIContext@isOpen"] = 55,
-		["g@internalData@destroyingHistory"] = 10,
+		["g@tooltipOptions@transformTooltip"] = 10,
+		["f@internalData@pendingMail"] = 10,
 		["g@destroyingOptions@autoShow"] = 10,
 		["p@userData@operations"] = 10,
-		["g@auctionUIContext@showDefault"] = 55,
-		["g@craftingUIContext@professionDividedContainer"] = 55,
+		["f@internalData@isCraftFavorite"] = 56,
+		["g@tooltipOptions@inventoryTooltipFormat"] = 10,
 		["f@coreOptions@ignoreGuilds"] = 10,
 		["g@userData@savedAuctioningSearches"] = 96,
 		["g@tooltipOptions@detailedDestroyTooltip"] = 10,
 		["g@auctioningOptions@disableInvalidMsg"] = 10,
 		["g@craftingUIContext@gatheringDividedContainer"] = 55,
-		["s@internalData@bankQuantity"] = 19,
+		["g@userData@savedShoppingSearches"] = 96,
 		["g@mainUIContext@ledgerInventoryScrollingTable"] = 69,
 		["f@auctioningOptions@whitelist"] = 10,
 		["g@vendoringUIContext@frame"] = 55,
 		["g@tooltipOptions@enabled"] = 20,
-		["s@internalData@playerProfessions"] = 36,
+		["f@internalData@guildVaults"] = 10,
 		["f@internalData@guildGoldLogLastUpdate"] = 83,
-		["g@tooltipOptions@prospectTooltip"] = 10,
+		["c@internalData@auctionMessages"] = 10,
 		["g@auctioningOptions@matchWhitelist"] = 10,
 		["f@internalData@auctionDBScanTime"] = 50,
-		["c@mainUIContext@groupsManagementGroupTree"] = 71,
-		["g@appearanceOptions@colorSet"] = 75,
+		["g@tooltipOptions@tooltipShowModifier"] = 10,
+		["g@auctionUIContext@shoppingAuctionScrollingTable"] = 103,
 		["g@auctioningOptions@cancelWithBid"] = 10,
 		["f@internalData@characterGuilds"] = 10,
 		["r@internalData@saveTimeCancels"] = 10,
 		["g@tooltipOptions@millTooltip"] = 10,
 		["g@auctionUIContext@auctioningSelectionDividedContainer"] = 55,
 		["f@internalData@guildGoldLog"] = 25,
-		["g@coreOptions@globalOperations"] = 10,
-		["s@internalData@mailQuantity"] = 19,
+		["g@auctionUIContext@auctioningAuctionScrollingTable"] = 103,
+		["g@tooltipOptions@operationTooltips"] = 10,
 		["s@internalData@goldLog"] = 25,
 		["g@auctionUIContext@auctioningBagScrollingTable"] = 55,
 		["g@taskListUIContext@isOpen"] = 55,
-		["g@mailingOptions@openMailSound"] = 10,
-		["g@userData@customPriceSources"] = 10,
-		["g@auctioningOptions@confirmCompleteSound"] = 10,
+		["s@internalData@money"] = 74,
+		["g@tooltipOptions@vendorSellTooltip"] = 10,
 		["c@craftingUIContext@groupTree"] = 80,
+		["g@vendoringUIContext@sellScrollingTable"] = 55,
 		["g@mainUIContext@groupsDividedContainer"] = 55,
 		["r@internalData@csvIncome"] = 10,
 		["f@internalData@mats"] = 10,
-		["f@internalData@expiringAuction"] = 47,
-		["g@accountingOptions@trackTrades"] = 10,
-		["c@auctionUIContext@auctioningGroupTree"] = 80,
-		["g@internalData@optionalMatTextLookup"] = 97,
 		["g@tooltipOptions@deTooltip"] = 10,
-		["g@vendoringUIContext@sellScrollingTable"] = 55,
-		["g@tooltipOptions@vendorSellTooltip"] = 10,
-		["s@internalData@money"] = 74,
-		["g@tooltipOptions@operationTooltips"] = 10,
-		["g@auctionUIContext@auctioningAuctionScrollingTable"] = 103,
+		["g@internalData@optionalMatTextLookup"] = 97,
+		["c@auctionUIContext@auctioningGroupTree"] = 80,
+		["g@accountingOptions@trackTrades"] = 10,
+		["f@internalData@expiringAuction"] = 47,
+		["g@auctioningOptions@confirmCompleteSound"] = 10,
+		["g@userData@customPriceSources"] = 10,
+		["g@mailingOptions@openMailSound"] = 10,
+		["s@internalData@mailQuantity"] = 19,
+		["g@coreOptions@globalOperations"] = 10,
 		["g@mailingOptions@inboxMessages"] = 10,
-		["g@auctionUIContext@shoppingAuctionScrollingTable"] = 103,
-		["g@tooltipOptions@tooltipShowModifier"] = 10,
-		["c@internalData@auctionMessages"] = 10,
-		["f@internalData@guildVaults"] = 10,
-		["g@userData@savedShoppingSearches"] = 96,
+		["g@appearanceOptions@colorSet"] = 75,
+		["c@mainUIContext@groupsManagementGroupTree"] = 71,
+		["g@tooltipOptions@prospectTooltip"] = 10,
+		["s@internalData@playerProfessions"] = 36,
+		["s@internalData@bankQuantity"] = 19,
 		["g@appearanceOptions@customColorSet"] = 98,
-		["g@tooltipOptions@inventoryTooltipFormat"] = 10,
-		["f@internalData@isCraftFavorite"] = 56,
+		["g@craftingUIContext@professionDividedContainer"] = 55,
+		["g@auctionUIContext@showDefault"] = 55,
 		["p@userData@groups"] = 10,
-		["f@internalData@pendingMail"] = 10,
-		["g@tooltipOptions@transformTooltip"] = 10,
+		["g@internalData@destroyingHistory"] = 10,
+		["g@bankingUIContext@isOpen"] = 55,
 		["c@mailingUIContext@groupTree"] = 80,
 		["g@shoppingOptions@maxDeSearchLvl"] = 79,
-		["g@mainUIContext@ledgerResaleScrollingTable"] = 62,
+		["f@gatheringContext@crafter"] = 32,
 		["g@internalData@lastCharacter"] = 90,
 		["c@vendoringUIContext@groupTree"] = 80,
-		["g@craftingUIContext@showDefault"] = 55,
+		["g@shoppingOptions@buyoutAlertSource"] = 46,
 		["f@internalData@craftingQueue"] = 101,
-		["g@craftingOptions@defaultMatCostMethod"] = 10,
-		["g@shoppingOptions@pctSource"] = 12,
+		["f@internalData@expiringMail"] = 47,
+		["g@coreOptions@destroyValueSource"] = 10,
 		["g@appearanceOptions@taskListBackgroundLock"] = 87,
-		["g@mainUIContext@ledgerTransactionsScrollingTable"] = 62,
-		["g@craftingUIContext@craftsScrollingTable"] = 86,
-		["g@bankingUIContext@frame"] = 55,
-		["c@bankingUIContext@auctioningGroupTree"] = 80,
-		["g@craftingOptions@ignoreGuilds"] = 10,
-		["g@mainUIContext@operationsSummaryScrollingTable"] = 76,
+		["g@mailingOptions@sendMessages"] = 10,
+		["g@mailingOptions@resendDelay"] = 10,
+		["g@auctionUIContext@myAuctionsScrollingTable"] = 103,
+		["f@internalData@auctionDBScanHash"] = 50,
+		["g@auctionUIContext@auctioningTabGroup"] = 93,
+		["g@auctionUIContext@shoppingSelectionDividedContainer"] = 55,
 	},
 	["g@ @userData@savedShoppingSearches"] = {
-		["isFavorite"] = {
-		},
 		["name"] = {
+		},
+		["isFavorite"] = {
 		},
 		["filters"] = {
 			"/彈藥/箭", -- [1]
@@ -2409,13 +1894,13 @@ TradeSkillMasterDB = {
 		["i:20558"] = 18,
 		["i:24368"] = 22,
 		["i:10309"] = 5,
-		["i:22832"] = 23,
+		["i:25937"] = 1,
 		["i:25477"] = 1,
 		["i:28111"] = 1,
-		["i:29281"] = 1,
-		["i:25686"] = 1,
+		["i:20559"] = 6,
+		["i:30592"] = 1,
 		["i:18473"] = 1,
-		["i:16203"] = 4,
+		["i:13461"] = 5,
 		["i:18404"] = 1,
 		["i:18715"] = 1,
 		["i:27747"] = 1,
@@ -2424,73 +1909,73 @@ TradeSkillMasterDB = {
 		["i:19336"] = 1,
 		["i:14530"] = 20,
 		["i:21877"] = 68,
-		["i:30939"] = 1,
-		["i:26042"] = 41,
-		["i:32902"] = 15,
-		["i:4398"] = 10,
+		["i:9036"] = 5,
+		["i:16942"] = 1,
+		["i:18538"] = 1,
+		["i:24200"] = 1,
 		["i:10498"] = 1,
 		["i:5759"] = 1,
-		["i:24200"] = 1,
-		["i:12846"] = 1,
 		["i:11135"] = 1,
+		["i:12846"] = 1,
+		["i:4398"] = 10,
 		["i:19361"] = 1,
 		["i:21673"] = 1,
-		["i:20560"] = 5,
+		["i:16849"] = 1,
 		["i:14344"] = 16,
 		["i:10562"] = 1,
 		["i:5956"] = 1,
 		["i:12841"] = 7,
 		["i:13446"] = 5,
 		["i:25719"] = 20,
-		["i:19874"] = 1,
+		["i:16851"] = 1,
 		["i:15138"] = 1,
 		["i:28192"] = 1,
 		["i:20007"] = 1,
 		["i:13452"] = 2,
 		["i:28181"] = 1,
 		["i:12843"] = 2,
-		["i:16309"] = 1,
+		["i:19953"] = 1,
 		["i:18805"] = 1,
 		["i:20402"] = 1,
 		["i:16850"] = 1,
 		["i:16935"] = 1,
-		["i:16936"] = 1,
-		["i:18945"] = 13,
 		["i:16938"] = 1,
+		["i:18945"] = 13,
+		["i:16936"] = 1,
 		["i:18641"] = 40,
 		["i:13459"] = 4,
-		["i:19953"] = 1,
+		["i:16309"] = 1,
 		["i:19258"] = 1,
 		["i:16848"] = 1,
 		["i:7075"] = 2,
-		["i:16851"] = 1,
+		["i:19874"] = 1,
 		["i:15410"] = 4,
-		["i:16849"] = 1,
+		["i:20560"] = 5,
 		["i:18401"] = 1,
 		["i:9172"] = 4,
 		["i:18329"] = 2,
-		["i:18538"] = 1,
-		["i:16942"] = 1,
-		["i:9036"] = 5,
+		["i:32902"] = 15,
+		["i:26042"] = 41,
+		["i:30939"] = 1,
 		["i:31074"] = 1,
 		["i:11177"] = 19,
 		["i:12938"] = 1,
 		["i:10761"] = 2,
-		["i:13461"] = 5,
-		["i:30592"] = 1,
-		["i:20559"] = 6,
+		["i:16203"] = 4,
+		["i:25686"] = 1,
+		["i:29281"] = 1,
 		["i:19183"] = 3,
 		["i:4375"] = 8,
-		["i:25937"] = 1,
+		["i:22832"] = 23,
 	},
 	["g@ @destroyingOptions@autoStack"] = true,
 	["g@ @tooltipOptions@customPriceTooltips"] = {
 	},
 	["g@ @vendoringUIContext@sellScrollingTable"] = {
 		["colWidth"] = {
-			["potential"] = 100,
-			["item"] = 300,
 			["vendorSell"] = 100,
+			["item"] = 300,
+			["potential"] = 100,
 		},
 		["colHidden"] = {
 		},
@@ -2525,10 +2010,10 @@ TradeSkillMasterDB = {
 				["ignoreFactionrealm"] = {
 				},
 				["restock"] = false,
-				["maxQty"] = 10,
+				["keepQty"] = 0,
 				["relationships"] = {
 				},
-				["keepQty"] = 0,
+				["maxQtyEnabled"] = false,
 				["target"] = "",
 				["restockSources"] = {
 					["guild"] = false,
@@ -2536,7 +2021,7 @@ TradeSkillMasterDB = {
 				},
 				["ignorePlayer"] = {
 				},
-				["maxQtyEnabled"] = false,
+				["maxQty"] = 10,
 			},
 		},
 		["Auctioning"] = {
@@ -2557,15 +2042,15 @@ TradeSkillMasterDB = {
 				},
 				["undercut"] = "1c",
 				["maxExpires"] = "0",
-				["blacklist"] = "",
+				["stackSizeIsCap"] = false,
 				["priceReset"] = "none",
-				["duration"] = 2,
+				["ignorePlayer"] = {
+				},
 				["cancelRepostThreshold"] = "1g",
 				["aboveMax"] = "maxPrice",
 				["minPrice"] = "check(first(crafting,dbmarket,dbregionmarketavg),max(0.25*avg(crafting,dbmarket,dbregionmarketavg),1.5*vendorsell))",
-				["ignorePlayer"] = {
-				},
-				["stackSizeIsCap"] = false,
+				["duration"] = 2,
+				["blacklist"] = "",
 			},
 		},
 		["Crafting"] = {
@@ -2575,26 +2060,20 @@ TradeSkillMasterDB = {
 				["relationships"] = {
 				},
 				["minRestock"] = "10",
-				["minProfit"] = "100g",
-				["craftPriceMethod"] = "",
-				["maxRestock"] = "20",
 				["ignorePlayer"] = {
 				},
+				["minProfit"] = "100g",
+				["maxRestock"] = "20",
+				["craftPriceMethod"] = "",
 			},
 		},
-		["Warehousing"] = {
+		["Sniper"] = {
 			["#Default"] = {
-				["stackSize"] = 0,
 				["ignoreFactionrealm"] = {
 				},
-				["moveQuantity"] = 0,
-				["keepBankQuantity"] = 0,
+				["belowPrice"] = "max(vendorsell, ifgt(DBRegionMarketAvg, 250000g, 0.8, ifgt(DBRegionMarketAvg, 100000g, 0.7, ifgt(DBRegionMarketAvg, 50000g, 0.6, ifgt(DBRegionMarketAvg, 25000g, 0.5, ifgt(DBRegionMarketAvg, 10000g, 0.4, ifgt(DBRegionMarketAvg, 5000g, 0.3, ifgt(DBRegionMarketAvg, 2000g, 0.2, ifgt(DBRegionMarketAvg, 1000g, 0.1, 0.05)))))))) * DBRegionMarketAvg)",
 				["relationships"] = {
 				},
-				["restockKeepBankQuantity"] = 0,
-				["restockQuantity"] = 0,
-				["restockStackSize"] = 0,
-				["keepBagQuantity"] = 0,
 				["ignorePlayer"] = {
 				},
 			},
@@ -2605,10 +2084,16 @@ TradeSkillMasterDB = {
 				["ignoreFactionrealm"] = {
 				},
 				["enableBuy"] = true,
-				["vsDestroyValue"] = "destroy",
-				["sellAfterExpired"] = 20,
 				["vsMaxMarketValue"] = "0c",
+				["sellAfterExpired"] = 20,
+				["vsDestroyValue"] = "destroy",
+				["relationships"] = {
+				},
+				["ignorePlayer"] = {
+				},
 				["restockQty"] = 0,
+				["keepQty"] = 0,
+				["vsMaxDestroyValue"] = "0c",
 				["restockSources"] = {
 					["alts_ah"] = false,
 					["ah"] = false,
@@ -2617,25 +2102,8 @@ TradeSkillMasterDB = {
 					["mail"] = false,
 					["bank"] = false,
 				},
-				["relationships"] = {
-				},
-				["keepQty"] = 0,
-				["vsMaxDestroyValue"] = "0c",
-				["ignorePlayer"] = {
-				},
 				["sellSoulbound"] = false,
 				["enableSell"] = true,
-			},
-		},
-		["Sniper"] = {
-			["#Default"] = {
-				["belowPrice"] = "max(vendorsell, ifgt(DBRegionMarketAvg, 250000g, 0.8, ifgt(DBRegionMarketAvg, 100000g, 0.7, ifgt(DBRegionMarketAvg, 50000g, 0.6, ifgt(DBRegionMarketAvg, 25000g, 0.5, ifgt(DBRegionMarketAvg, 10000g, 0.4, ifgt(DBRegionMarketAvg, 5000g, 0.3, ifgt(DBRegionMarketAvg, 2000g, 0.2, ifgt(DBRegionMarketAvg, 1000g, 0.1, 0.05)))))))) * DBRegionMarketAvg)",
-				["ignorePlayer"] = {
-				},
-				["relationships"] = {
-				},
-				["ignoreFactionrealm"] = {
-				},
 			},
 		},
 		["Shopping"] = {
@@ -2651,10 +2119,27 @@ TradeSkillMasterDB = {
 					["guild"] = false,
 					["bank"] = false,
 				},
-				["ignorePlayer"] = {
-				},
 				["relationships"] = {
 				},
+				["ignorePlayer"] = {
+				},
+			},
+		},
+		["Warehousing"] = {
+			["#Default"] = {
+				["stackSize"] = 0,
+				["ignoreFactionrealm"] = {
+				},
+				["moveQuantity"] = 0,
+				["keepBankQuantity"] = 0,
+				["relationships"] = {
+				},
+				["ignorePlayer"] = {
+				},
+				["restockQuantity"] = 0,
+				["restockKeepBankQuantity"] = 0,
+				["keepBagQuantity"] = 0,
+				["restockStackSize"] = 0,
 			},
 		},
 	},
@@ -2687,6 +2172,10 @@ TradeSkillMasterDB = {
 	["g@ @craftingOptions@ignoreGuilds"] = {
 	},
 	["s@特變電工 - Horde - 伊弗斯@internalData@mailQuantity"] = {
+		["i:11144"] = 4,
+		["i:7969"] = 10,
+		["i:10978"] = 3,
+		["i:25844"] = 1,
 	},
 	["c@路易斯桑拿 - 伊弗斯@internalData@auctionMessages"] = {
 	},
@@ -2694,11 +2183,11 @@ TradeSkillMasterDB = {
 	["g@ @auctionUIContext@auctioningLogScrollingTable"] = {
 		["colWidth"] = {
 			["index"] = 14,
-			["info"] = 234,
+			["item"] = 190,
 			["operation"] = 108,
 			["buyout"] = 110,
 			["seller"] = 90,
-			["item"] = 190,
+			["info"] = 234,
 		},
 		["colHidden"] = {
 		},
@@ -2731,146 +2220,57 @@ TradeSkillMasterDB = {
 		["r:8426995"] = 0,
 		["r:5119473"] = 0,
 		["r:9045890"] = 0,
-		["r:16178675"] = 0,
-		["r:4992072"] = 0,
-		["r:12656007"] = 0,
+		["r:3977143"] = 0,
 		["r:447647"] = 0,
-		["r:283362"] = 0,
 		["r:14215814"] = 0,
+		["r:10856636"] = 0,
+		["r:283362"] = 0,
+		["r:2795633"] = 0,
 		["r:4588845"] = 0,
 		["r:11200805"] = 0,
-		["r:6609247"] = 0,
-		["r:8404622"] = 0,
+		["r:7551670"] = 0,
+		["r:9328191"] = 0,
 		["r:6067528"] = 0,
-		["r:3877196"] = 0,
+		["r:4065001"] = 0,
 		["r:3508986"] = 0,
 		["r:15202378"] = 0,
-		["r:6942868"] = 0,
+		["r:15564495"] = 0,
 		["r:1340344"] = 0,
 		["r:6980205"] = 0,
 		["r:1390581"] = 0,
-		["r:5567167"] = 0,
-		["r:9439841"] = 0,
 		["r:2087412"] = 0,
-		["r:15564495"] = 0,
-		["r:4065001"] = 0,
-		["r:9328191"] = 0,
-		["r:7551670"] = 0,
+		["r:9439841"] = 0,
+		["r:5567167"] = 0,
+		["r:6942868"] = 0,
+		["r:3877196"] = 0,
+		["r:8404622"] = 0,
+		["r:6609247"] = 0,
 		["r:16059468"] = 0,
-		["r:2795633"] = 0,
-		["r:10856636"] = 0,
-		["r:3977143"] = 0,
+		["r:12656007"] = 0,
+		["r:4992072"] = 0,
+		["r:16178675"] = 0,
 		["r:14352809"] = 0,
 		["r:13889499"] = 0,
 	},
 	["r@伊弗斯@internalData@csvExpired"] = "itemString,stackSize,quantity,player,time\ni:31322,1,1,邁克爾假死,1625933071\ni:31322,1,1,邁克爾假死,1626017409\ni:29425,15,15,邁克爾假死,1626017425\ni:24200,1,1,邁克爾假死,1626062684\ni:23445,20,20,邁克爾假死,1626846342\ni:23445,18,18,邁克爾假死,1626846352\ni:22540,1,1,特變電工,1626955284\ni:2836,20,100,特變電工,1627624394\ni:2835,20,20,特變電工,1627624400\ni:12365,20,40,特變電工,1627624426\ni:12365,7,7,特變電工,1627624452\ni:2838,8,8,特變電工,1627624456\ni:3859,3,3,特變電工,1627624456\ni:11128,1,3,特變電工,1627624558\ni:2842,5,5,特變電工,1627624584\ni:12365,7,21,特變電工,1627669616\ni:11128,1,6,特變電工,1627669641\ni:23517,1,8,特變電工,1627674398\ni:23519,1,12,特變電工,1627675886\ni:23517,1,8,特變電工,1627675908\ni:11128,1,6,特變電工,1627714293\ni:12365,7,28,特變電工,1627714297\ni:23519,1,11,特變電工,1627748685\ni:3860,17,51,特變電工,1627753825\ni:11128,1,5,特變電工,1627774173\ni:23519,1,13,特變電工,1627836085\ni:23519,1,15,特變電工,1627882241\ni:23519,1,12,特變電工,1628382653\ni:23519,1,9,特變電工,1628441361\ni:23519,1,7,特變電工,1628915656",
 	["g@ @tooltipOptions@tooltipShowModifier"] = "none",
 	["c@特變電工 - 伊弗斯@internalData@auctionSaleHints"] = {
-		["銀錠i:2842544500"] = 1627617888,
-		["粗糙的石頭i:2836206160"] = 1627634607,
-		["瑟銀錠i:1235911215600"] = 1627581393,
-		["秘銀錠i:3860255600"] = 1627199554,
-		["緻密的石頭i:123652094000"] = 1627617888,
-		["超強效法力藥水i:228325238000"] = 1627581393,
-		["緻密的石頭i:1236573458"] = 1627705498,
-		["血紅木槿i:24246219400"] = 1627581247,
-		["角瓶虛空能量劑i:3290214302400"] = 1627581393,
-		["薩格拉斯印記i:3080941451000"] = 1627581393,
-		["魔鋼頭盔i:2351913797500"] = 1627671161,
-		["魔鋼頭盔i:2351911447500"] = 1627818952,
-		["緻密的石頭i:12365732900"] = 1627617888,
-		["魔鋼手套i:235171299000"] = 1627705498,
-		["秘銀錠i:38605109000"] = 1627617888,
-		["超強效法力藥水i:228323142800"] = 1627581393,
-		["重皮i:423417300"] = 1627581393,
-		["絲綢i:43062021900"] = 1626285472,
-		["魔鋼錠i:234481398000"] = 1627651737,
-		["符文布i:140472015100"] = 1626285472,
-		["金棒i:11128158000"] = 1627617888,
-		["魔鐵礦石i:23424551000"] = 1627631402,
-		["幽紋布i:2187735205"] = 1627581393,
-		["法力微粒i:22576293600"] = 1627199554,
-		["幽紋布i:218771933060"] = 1627705498,
-		["青銅錠i:2841917910"] = 1627581393,
-		["生命微粒i:22575392400"] = 1627581393,
-		["緻密的石頭i:1236573374"] = 1627731148,
-		["幽紋布i:2187735220"] = 1627705498,
-		["符文布i:140472027800"] = 1627581393,
-		["盤牙裝備i:24368269200"] = 1627581393,
-		["水源微粒i:225782104000"] = 1627581393,
-		["魔鋼頭盔i:235191548000"] = 1628429923,
-		["魔鐵錠i:2344520460000"] = 1627631319,
-		["魔紋布i:433820118000"] = 1626285472,
-		["銀錠i:2842539500"] = 1627631593,
-		["魔鐵錠i:234454151200"] = 1627634107,
-		["次級月亮石i:1705114200"] = 1627199554,
-		["幽紋布i:218771933250"] = 1628933866,
-		["劣質的石頭i:2835201940"] = 1627617888,
 		["魔鋼頭盔i:235191999000"] = 1628963128,
-		["幽紋布i:218771423660"] = 1627818952,
-		["空氣微粒i:225722103000"] = 1627199554,
-		["魔化武器i:297401197500"] = 1627581393,
-		["硬甲皮i:817010124000"] = 1627581393,
-		["鋼錠i:3859352200"] = 1627634607,
-		["緻密的石頭i:123652062000"] = 1627631405,
-		["魔鐵錠i:2344518414000"] = 1627631400,
-		["符文布i:14047118305"] = 1626285472,
-		["堅固的石頭i:79121314105"] = 1626786782,
-		["幽紋布i:218772034500"] = 1627581393,
-		["硬甲皮i:817020300000"] = 1627199554,
-		["超強效法力藥水i:22832147600"] = 1627581393,
-		["秘銀錠i:386017360400"] = 1627792949,
-		["沉重的石頭i:283887960"] = 1627632110,
-		["鋼錠i:3859358800"] = 1627617888,
-		["法力微粒i:22576296000"] = 1627581393,
-		["魔鋼頭盔i:2351911192500"] = 1627839046,
-		["金棒i:11128124600"] = 1627731148,
-		["粗糙的石頭i:2836103160"] = 1627581393,
-		["堅鋼錠i:2344615741000"] = 1627632110,
-		["秘銀錠i:386020456000"] = 1627581393,
-		["角瓶虛空能量劑i:32902486400"] = 1627581393,
-		["金棒i:11128124800"] = 1627792949,
-		["鋸齒珍珠i:2447817600"] = 1627705498,
 		["魔鋼頭盔i:2351912295000"] = 1628872450,
-		["魔紋布i:433826800"] = 1627581393,
-		["秘銀錠i:386010228000"] = 1627581393,
-		["堅固的石頭i:79122021700"] = 1626786798,
-		["符文布i:140471115290"] = 1627581393,
-		["瑟銀錠i:1235920392000"] = 1627581393,
-		["靈魂精華i:21882445600"] = 1627617888,
-		["魔鋼頭盔i:2351911497500"] = 1627731148,
-		["劣質的石頭i:2835201480"] = 1627634576,
-		["魔鋼手套i:2351711895000"] = 1627671161,
-		["幽紋布i:218772034700"] = 1627581393,
-		["秘銀錠i:386020420000"] = 1626803968,
-		["青銅錠i:284147960"] = 1627581393,
-		["金棒i:11128149800"] = 1627651737,
-		["幽紋布i:218772033800"] = 1627818952,
-		["幽紋布i:218771118975"] = 1627581393,
-		["公式:附魔盾牌 - 盾牌格擋i:22540111980000"] = 1626892065,
-		["秘銀錠i:386017387600"] = 1627731148,
-		["秘銀錠i:386014294000"] = 1626803968,
-		["角瓶虛空噴劑i:329051018500"] = 1627581220,
-		["沉重的石頭i:2838811840"] = 1627617888,
-		["生命微粒i:22575269600"] = 1627839046,
-		["金錠i:3577434800"] = 1627581393,
-		["金棒i:11128149000"] = 1627705498,
-		["緻密的石頭i:12365721700"] = 1627651737,
-		["絲綢i:43061718615"] = 1626285472,
-		["魔紋布i:4338529500"] = 1626285472,
-		["粗糙的石頭i:2836206320"] = 1627617888,
 		["魔鋼頭盔i:235191643000"] = 1628344853,
 		["幽紋布i:21877712250"] = 1628933866,
+		["幽紋布i:218771933250"] = 1628933866,
+		["魔鋼頭盔i:235191548000"] = 1628429923,
 	},
 	["c@邁克爾假死 - 伊弗斯@internalData@craftingCooldowns"] = {
 	},
 	["p@Default@userData@groups"] = {
 		[""] = {
-			["Shopping"] = {
+			["Sniper"] = {
 				"#Default", -- [1]
 				["override"] = true,
 			},
-			["Mailing"] = {
+			["Warehousing"] = {
 				"#Default", -- [1]
 				["override"] = true,
 			},
@@ -2882,7 +2282,7 @@ TradeSkillMasterDB = {
 				"#Default", -- [1]
 				["override"] = true,
 			},
-			["Warehousing"] = {
+			["Mailing"] = {
 				"#Default", -- [1]
 				["override"] = true,
 			},
@@ -2890,7 +2290,7 @@ TradeSkillMasterDB = {
 				"#Default", -- [1]
 				["override"] = true,
 			},
-			["Sniper"] = {
+			["Shopping"] = {
 				"#Default", -- [1]
 				["override"] = true,
 			},
@@ -2899,96 +2299,109 @@ TradeSkillMasterDB = {
 	["g@ @tooltipOptions@groupNameTooltip"] = true,
 	["g@ @mainUIContext@ledgerTransactionsScrollingTable"] = {
 		["colWidth"] = {
-			["item"] = 156,
 			["type"] = 50,
+			["player"] = 95,
 			["time"] = 110,
-			["total"] = 120,
-			["perItem"] = 120,
 			["stack"] = 55,
 			["auctions"] = 60,
-			["player"] = 95,
+			["perItem"] = 120,
+			["total"] = 120,
+			["item"] = 156,
 		},
 		["colHidden"] = {
 			["total"] = true,
 		},
 	},
-	["s@特變電工 - Horde - 伊弗斯@internalData@goldLogLastUpdate"] = 1628963428,
+	["g@ @shoppingOptions@buyoutConfirm"] = false,
 	["g@ @auctionUIContext@auctioningTabGroup"] = {
 		["pathIndex"] = 2,
 	},
 	["f@Horde - 伊弗斯@gatheringContext@professions"] = {
 	},
-	["s@特變電工 - Horde - 伊弗斯@internalData@reagentBankQuantity"] = {
+	["g@ @tooltipOptions@operationTooltips"] = {
+		["Mailing"] = false,
+		["Auctioning"] = false,
+		["Crafting"] = false,
+		["Sniper"] = false,
+		["Vendoring"] = false,
+		["Shopping"] = false,
+		["Warehousing"] = false,
 	},
-	["s@特變電工 - Horde - 伊弗斯@internalData@auctionQuantity"] = {
-		["i:23519"] = 3,
+	["c@邁克爾假死 - 伊弗斯@auctionUIContext@auctioningGroupTree"] = {
+		["unselected"] = {
+		},
+		["collapsed"] = {
+		},
 	},
-	["s@畜生犬隊長 - Horde - 伊弗斯@internalData@auctionQuantity"] = {
+	["c@畜生犬隊長 - 伊弗斯@internalData@auctionPrices"] = {
 	},
 	["s@特變電工 - Horde - 伊弗斯@internalData@bagQuantity"] = {
-		["i:25433"] = 6,
-		["i:29443"] = 2,
-		["i:27860"] = 9,
-		["i:31952"] = 1,
-		["i:32062"] = 4,
+		["i:28755"] = 1,
+		["i:27501"] = 1,
+		["i:28795"] = 1,
+		["i:27860"] = 2,
+		["i:31952"] = 2,
+		["i:24140"] = 1,
 		["i:18794"] = 1,
-		["i:31535"] = 5,
-		["i:28855"] = 1,
+		["i:29019"] = 1,
+		["i:29381"] = 1,
 		["i:28061"] = 188,
-		["i:20559"] = 26,
+		["i:22445"] = 16,
 		["i:25686"] = 1,
 		["i:25477"] = 1,
 		["i:31544"] = 1,
-		["i:22829"] = 9,
-		["i:26044"] = 2,
-		["i:30809"] = 23,
-		["i:27502"] = 1,
-		["i:28659"] = 1,
+		["i:22829"] = 6,
+		["i:30809"] = 9,
+		["i:27502"] = 2,
 		["i:22576"] = 7,
-		["i:29736"] = 1,
-		["i:22824"] = 4,
-		["i:30592"] = 1,
-		["i:29449"] = 10,
-		["i:17202"] = 16,
-		["i:29740"] = 6,
-		["i:23559"] = 5,
-		["i:23933"] = 1,
+		["i:30155"] = 6,
+		["i:22824"] = 1,
+		["i:29449"] = 9,
+		["i:17056"] = 6,
+		["i:29024"] = 6,
 		["i:6948"] = 1,
-		["i:27854"] = 12,
-		["i:5956"] = 1,
-		["i:23529"] = 9,
-		["i:13455"] = 4,
-		["i:29434"] = 23,
-		["i:31617"] = 1,
-		["i:32902"] = 3,
-		["i:30563"] = 1,
-		["i:24246"] = 4,
-		["i:22575"] = 3,
-		["i:24421"] = 18,
+		["i:27500"] = 1,
+		["i:29021"] = 1,
+		["i:30810"] = 3,
+		["i:20558"] = 12,
+		["i:13455"] = 5,
+		["i:29434"] = 26,
+		["i:28524"] = 1,
+		["i:29279"] = 1,
+		["i:28824"] = 1,
 		["i:30359"] = 19,
-		["i:21877"] = 19,
-		["i:34062"] = 64,
+		["i:21877"] = 41,
+		["i:33872"] = 16,
 		["i:27498"] = 5,
-		["i:20560"] = 87,
-		["i:37297"] = 1,
+		["i:28545"] = 1,
+		["i:20560"] = 13,
+		["i:32068"] = 5,
 		["i:25521"] = 7,
-		["i:29425"] = 9,
-		["i:23118"] = 2,
-		["i:23572"] = 4,
-		["i:27499"] = 1,
-		["i:21991"] = 16,
-		["i:32905"] = 2,
-		["i:29024"] = 44,
+		["i:22536"] = 1,
+		["i:29266"] = 1,
+		["i:34062"] = 80,
+		["i:28438"] = 1,
+		["i:22849"] = 5,
+		["i:23529"] = 2,
+		["i:28558"] = 12,
+		["i:24421"] = 18,
+		["i:29443"] = 2,
+		["i:31071"] = 1,
+		["i:24139"] = 1,
+		["i:31878"] = 1,
+		["i:26045"] = 1,
+		["i:27854"] = 3,
+		["i:28034"] = 1,
+		["i:30638"] = 1,
+		["i:21991"] = 15,
+		["i:28791"] = 1,
+		["i:32905"] = 1,
+		["i:22572"] = 15,
 		["i:22851"] = 2,
-		["i:29451"] = 5,
-		["i:26042"] = 6,
-		["i:28558"] = 30,
+		["i:28102"] = 5,
 		["i:21882"] = 5,
-		["i:31750"] = 1,
-		["i:28421"] = 11,
-		["i:20558"] = 88,
-		["i:32072"] = 1,
-		["i:22832"] = 3,
+		["i:28421"] = 2,
+		["i:30721"] = 1,
 	},
 	["c@路易斯桑拿 - 伊弗斯@craftingUIContext@groupTree"] = {
 		["collapsed"] = {
@@ -2996,14 +2409,41 @@ TradeSkillMasterDB = {
 		["unselected"] = {
 		},
 	},
-	["s@特變電工 - Horde - 伊弗斯@internalData@goldLog"] = "minute,copper\n27100378,0\n27100444,1000000\n27101241,990000\n27101262,1000000\n27104405,1250000\n27104409,1220000\n27104428,11220000\n27104451,11180000\n27104461,11190000\n27104473,11200000\n27104482,11230000\n27104487,11250000\n27104514,11260000\n27104523,11270000\n27104525,11290000\n27104536,11300000\n27104549,11310000\n27104559,11320000\n27104562,11340000\n27104563,11470000\n27104573,11480000\n27104576,11510000\n27104605,11520000\n27104613,11530000\n27104631,11550000\n27104632,11680000\n27104635,11720000\n27104652,11760000\n27104653,11770000\n27104660,11780000\n27104664,11800000\n27104676,11820000\n27104689,11860000\n27104696,5560000\n27104699,5210000\n27104703,5130000\n27104705,5230000\n27104709,5180000\n27104710,4440000\n27104719,4510000\n27104720,4540000\n27104721,3780000\n27104722,2330000\n27104756,2410000\n27104757,2390000\n27105262,2340000\n27105263,3630000\n27105265,3580000\n27105278,3520000\n27105283,3600000\n27105286,3590000\n27105293,3600000\n27105306,3610000\n27105320,3620000\n27105329,3640000\n27105336,3660000\n27105341,3680000\n27105351,3700000\n27105357,3740000\n27105359,3750000\n27105362,3770000\n27105364,3800000\n27105367,3790000\n27105369,3800000\n27105410,3810000\n27105430,3890000\n27105431,3900000\n27105440,3920000\n27105444,3930000\n27105450,3950000\n27105453,3970000\n27105457,4040000\n27105458,4100000\n27105488,4110000\n27105510,4220000\n27105511,4230000\n27105522,4370000\n27105524,4360000\n27105538,4420000\n27105552,4430000\n27105562,4450000\n27105569,4460000\n27105577,4540000\n27105579,4870000\n27105591,4880000\n27105596,4930000\n27105597,4960000\n27105608,4990000\n27105634,5020000\n27105635,5050000\n27105641,5060000\n27105642,5110000\n27105656,5180000\n27105659,5220000\n27105701,5250000\n27105703,5300000\n27105704,5330000\n27105718,5410000\n27105724,5470000\n27105726,5720000\n27105727,5830000\n27105757,5840000\n27105764,5870000\n27105765,5900000\n27105771,5930000\n27105772,6030000\n27105774,6060000\n27105783,6140000\n27105793,6150000\n27105803,6160000\n27105811,6170000\n27105819,6180000\n27105825,6190000\n27105851,6260000\n27105852,6370000\n27105855,6460000\n27105856,6510000\n27105871,6540000\n27105872,6660000\n27105876,6670000\n27105877,6430000\n27106020,6460000\n27106029,6470000\n27106036,6480000\n27106040,6590000\n27106046,6600000\n27106056,6630000\n27106073,6660000\n27106077,6690000\n27106079,6720000\n27106084,6730000\n27106112,6740000\n27106119,6750000\n27106124,6760000\n27106137,6770000\n27106142,6780000\n27106148,6790000\n27106150,6820000\n27106152,7500000\n27106153,7620000\n27106167,7710000\n27106168,7830000\n27106177,7840000\n27106181,7850000\n27106188,7860000\n27106191,7920000\n27106192,7980000\n27106198,7990000\n27106205,8000000\n27106215,8100000\n27106218,8180000\n27106219,8210000\n27106221,8230000\n27106224,8450000\n27106225,8510000\n27106708,8530000\n27106715,8560000\n27106724,8590000\n27106754,8620000\n27106755,8650000\n27106800,8660000\n27106808,8670000\n27106815,8680000\n27106826,8690000\n27106836,8730000\n27106842,8740000\n27106851,9060000\n27106852,9160000\n27106968,9170000\n27106974,9180000\n27106981,9190000\n27106987,9220000\n27106989,9230000\n27107011,9240000\n27107015,9250000\n27107081,9260000\n27107086,9320000\n27107095,9330000\n27107103,9340000\n27107114,9440000\n27107115,9690000\n27107116,9660000\n27107118,9690000\n27107119,9750000\n27107127,9940000\n27107131,9970000\n27107132,9990000\n27107230,10000000\n27107239,10010000\n27107244,10040000\n27107247,10050000\n27107253,10060000\n27107265,10070000\n27107269,10130000\n27107271,10140000\n27107274,10170000\n27107277,10200000\n27107278,10360000\n27107287,10450000\n27107292,10490000\n27107300,10500000\n27107317,10530000\n27107319,10540000\n27107329,10550000\n27107332,10580000\n27107339,10610000\n27107633,10620000\n27107640,10630000\n27107651,10640000\n27107653,10700000\n27107659,10710000\n27107662,10740000\n27107663,10810000\n27107665,10800000\n27107667,10830000\n27107674,10960000\n27107675,11430000\n27107677,10700000\n27107679,10670000\n27107680,10450000\n27107681,8420000\n27107682,5840000\n27107683,100000\n27107685,60100000\n27107697,60090000\n27107701,60110000\n27107702,60100000\n27107707,60090000\n27107713,60100000\n27107714,60140000\n27107715,59700000\n27108304,59290000\n27108309,59220000\n27108310,58580000\n27108311,58370000\n27108312,58110000\n27108313,58080000\n27108314,57980000\n27108315,57920000\n27108320,57950000\n27108321,57970000\n27108324,54950000\n27108325,54770000\n27108328,54730000\n27108329,54800000\n27108334,54620000\n27108343,54720000\n27108386,54820000\n27108410,54860000\n27108426,54870000\n27108436,54880000\n27108443,54890000\n27108460,55170000\n27108463,55300000\n27108464,55370000\n27108465,55400000\n27108470,55410000\n27108482,55440000\n27108484,55510000\n27108487,55520000\n27108491,55620000\n27108512,55660000\n27108530,55880000\n27108541,55890000\n27108548,56000000\n27108549,56110000\n27108551,56220000\n27108552,56330000\n27108554,56450000\n27108556,56560000\n27108560,56770000\n27108563,56890000\n27108590,56900000\n27108594,56910000\n27108610,57010000\n27108613,57020000\n27108616,57030000\n27108621,57040000\n27108626,57050000\n27108678,57060000\n27108684,57070000\n27108688,57140000\n27108691,57150000\n27108699,57220000\n27108700,57290000\n27108702,57750000\n27108704,57820000\n27108706,57810000\n27108714,57820000\n27108718,57830000\n27108725,57840000\n27108733,57850000\n27108742,57860000\n27108754,57870000\n27108759,57880000\n27108760,57890000\n27108763,57900000\n27108771,57910000\n27108778,57930000\n27108793,57940000\n27108801,57950000\n27108802,57960000\n27108814,57970000\n27108818,57980000\n27108824,57990000\n27108833,58000000\n27108842,58010000\n27108849,58110000\n27108854,58120000\n27108860,58220000\n27108861,58170000\n27108862,58440000\n27108870,58450000\n27108875,58460000\n27108886,58470000\n27108909,58480000\n27108910,58600000\n27108925,58610000\n27108932,58620000\n27108941,58630000\n27108953,58700000\n27108965,58730000\n27108973,58810000\n27108981,58880000\n27108984,58920000\n27108993,58930000\n27108999,58940000\n27109007,58950000\n27109015,59060000\n27109039,59100000\n27109044,59140000\n27109048,59150000\n27109058,59190000\n27109060,59200000\n27109064,59210000\n27109071,59280000\n27109073,59310000\n27109074,59380000\n27109075,59680000\n27109623,59720000\n27109628,59730000\n27109641,59770000\n27109645,59810000\n27109683,59820000\n27109702,59860000\n27109703,59900000\n27109712,59910000\n27109722,59990000\n27109745,60000000\n27109749,60010000\n27109755,59610000\n27109756,59420000\n27109763,59460000\n27109771,59540000\n27109783,59550000\n27109787,59580000\n27109788,59650000\n27109794,59880000\n27109798,59890000\n27109820,59950000\n27109821,59960000\n27109828,59970000\n27109831,60080000\n27109832,60070000\n27109835,60240000\n27109836,60260000\n27109840,60300000\n27109849,60340000\n27109851,60330000\n27109854,60340000\n27109867,60350000\n27109873,60430000\n27109879,60460000\n27109885,60470000\n27109891,60480000\n27109903,60490000\n27109907,60500000\n27109909,60520000\n27109910,60530000\n27109912,60600000\n27109915,60680000\n27109920,60690000\n27109928,60770000\n27110002,60810000\n27110004,60820000\n27110008,60830000\n27110010,60870000\n27110016,60910000\n27110021,60920000\n27110024,60990000\n27110026,61110000\n27110043,61120000\n27110046,61200000\n27110094,61210000\n27110105,61250000\n27110109,61330000\n27110110,61450000\n27110115,61460000\n27110120,61470000\n27110124,61480000\n27110130,61660000\n27110131,62060000\n27110132,62200000\n27110142,62240000\n27110151,62280000\n27110158,62320000\n27110185,62440000\n27110186,62560000\n27110187,62680000\n27110196,62690000\n27110200,62770000\n27110202,62780000\n27110208,62790000\n27110212,62800000\n27110213,800000\n27110311,870000\n27110481,86150000\n27110482,86130000\n27110491,86140000\n27110499,86150000\n27110504,86170000\n27110509,86180000\n27110517,86190000\n27110527,86200000\n27110531,86210000\n27110532,86220000\n27110540,86390000\n27111060,86890000\n27111132,86900000\n27111138,86910000\n27111147,86920000\n27111150,86930000\n27111160,86940000\n27111240,86950000\n27111247,86990000\n27111249,87100000\n27111264,87210000\n27111267,87220000\n27111271,87320000\n27111272,87530000\n27111277,87610000\n27111312,87620000\n27111317,87630000\n27111324,87640000\n27111353,87650000\n27111357,87660000\n27111376,87790000\n27111394,87950000\n27111395,87990000\n27111410,88000000\n27111411,88040000\n27111415,88050000\n27111419,88090000\n27111423,88100000\n27111429,88140000\n27111452,88180000\n27111460,88110000\n27111686,88120000\n27111687,88160000\n27111750,88290000\n27111893,83290000\n27112501,83280000\n27112508,83290000\n27112514,83300000\n27112518,83340000\n27112520,83360000\n27112525,83400000\n27112530,83410000\n27112532,83450000\n27112536,83460000\n27112539,83500000\n27112563,83550000\n27112571,83590000\n27112575,83600000\n27112579,83680000\n27112580,83720000\n27112637,83880000\n27112780,83890000\n27112785,83900000\n27112789,83910000\n27112798,83920000\n27112803,83930000\n27112823,83940000\n27112831,83950000\n27112834,83960000\n27112837,83970000\n27112843,83980000\n27112852,84070000\n27112853,84250000\n27112854,84270000\n27112861,84400000\n27112874,84410000\n27112879,84420000\n27112884,84430000\n27112887,84440000\n27112891,84450000\n27112899,84460000\n27112901,84480000\n27112907,84490000\n27112912,84500000\n27112914,84720000\n27112920,84760000\n27112925,84770000\n27112926,84780000\n27112930,84790000\n27112934,84800000\n27112938,84810000\n27112941,84820000\n27112947,84830000\n27112952,84840000\n27112958,84850000\n27112960,84870000\n27112989,84880000\n27112991,84890000\n27112997,84900000\n27113002,84910000\n27113006,84920000\n27113008,84930000\n27113014,84940000\n27113018,84950000\n27113022,84960000\n27113024,84970000\n27113031,27010000\n27113032,25010000\n27113036,24260000\n27113037,24380000\n27113038,24500000\n27113039,24350000\n27113041,22580000\n27113042,19610000\n27113043,13660000\n27113045,13760000\n27113049,9560000\n27113051,9380000\n27113053,9200000\n27113054,9180000\n27113055,9100000\n27113056,9050000\n27113057,8750000\n27113064,8380000\n27113065,8330000\n27113066,8320000\n27113069,8100000\n27113070,8030000\n27113071,8020000\n27113100,8090000\n27113102,7950000\n27113106,7800000\n27113107,7790000\n27113108,7770000\n27113118,57770000\n27113156,7770000\n27113162,7910000\n27113186,8090000\n27113187,8150000\n27113192,8040000\n27113193,7970000\n27113196,7920000\n27113198,8100000\n27113203,8060000\n27113204,8020000\n27113224,8050000\n27113247,8000000\n27113259,7960000\n27113265,8220000\n27113270,8690000\n27113271,8790000\n27113272,9070000\n27113273,9670000\n27113294,9680000\n27113298,9690000\n27113309,9700000\n27113315,9710000\n27113319,9720000\n27113325,9730000\n27113329,9750000\n27113330,9760000\n27113335,9780000\n27113340,9920000\n27113361,9820000\n27113393,9810000\n27113398,9760000\n27113399,9580000\n27113403,9590000\n27113987,9600000\n27113993,9610000\n27114005,9620000\n27114020,9630000\n27114025,9640000\n27114028,9660000\n27114029,10850000\n27114034,11080000\n27114055,11090000\n27114061,11100000\n27114062,11110000\n27114071,11120000\n27114082,11280000\n27114185,11330000\n27114189,10900000\n27114192,10850000\n27114194,10860000\n27114227,11020000\n27114228,11170000\n27114229,11180000\n27114258,11300000\n27114280,11310000\n27114284,11320000\n27114289,11330000\n27114293,11340000\n27114296,11350000\n27114303,11360000\n27114314,11370000\n27114322,11430000\n27114323,11550000\n27114339,11830000\n27114344,11840000\n27114353,11850000\n27114359,11860000\n27114366,11870000\n27114370,11880000\n27114378,11890000\n27114388,11900000\n27114393,11910000\n27114404,11920000\n27114407,11930000\n27114412,11940000\n27114421,11950000\n27114424,11960000\n27114428,12090000\n27114429,12220000\n27114482,12160000\n27114492,12170000\n27114496,12280000\n27114498,12290000\n27114502,12300000\n27114504,12370000\n27114508,12380000\n27114517,12460000\n27114521,12540000\n27114561,12560000\n27114582,12680000\n27114583,12920000\n27114634,10420000\n27114635,10410000\n27114650,10210000\n27114653,8490000\n27114657,8220000\n27114658,7960000\n27114659,7910000\n27114667,7410000\n27114681,7450000\n27114698,7490000\n27114701,7570000\n27114703,7580000\n27114706,7590000\n27114709,7600000\n27114715,7640000\n27114719,7650000\n27114723,7660000\n27114732,7700000\n27114753,7730000\n27114755,7750000\n27114756,7780000\n27114757,7790000\n27114758,7800000\n27114761,7810000\n27114775,7840000\n27114779,7850000\n27114812,7900000\n27114821,7940000\n27114842,7870000\n27114858,7910000\n27114866,7850000\n27114868,7780000\n27114869,7840000\n27114870,8030000\n27115408,8040000\n27115413,8050000\n27115417,8060000\n27115420,8070000\n27115427,8080000\n27115430,8280000\n27115432,8440000\n27115434,8420000\n27115489,8430000\n27115567,8510000\n27115574,8590000\n27115577,8600000\n27115583,8670000\n27115585,8750000\n27115586,8760000\n27115587,8860000\n27115589,8900000\n27115590,8960000\n27115591,9030000\n27115593,9130000\n27115594,9150000\n27115596,9230000\n27115598,9250000\n27115600,9300000\n27115602,9310000\n27115605,9320000\n27115817,9400000\n27115819,9460000\n27115832,9470000\n27115839,9480000\n27115846,9490000\n27115852,9780000\n27115862,9850000\n27115864,9950000\n27115869,10200000\n27115873,10530000\n27115874,10610000\n27115875,10560000\n27115884,10570000\n27115887,10580000\n27115895,10590000\n27115899,10600000\n27115908,10610000\n27115915,10620000\n27115920,10630000\n27115947,10640000\n27115967,10650000\n27115978,10660000\n27115981,10670000\n27115984,10680000\n27115990,10690000\n27115997,10700000\n27115999,10710000\n27116002,10720000\n27116009,10730000\n27116024,10740000\n27116029,10750000\n27116032,10760000\n27116039,10770000\n27116044,10780000\n27116047,10790000\n27116052,10800000\n27116057,10810000\n27116060,10930000\n27116061,10880000\n27116070,10890000\n27116073,10900000\n27116081,10910000\n27116085,10920000\n27116094,10930000\n27116096,10950000\n27116098,10960000\n27116100,10970000\n27116106,10980000\n27116114,11370000\n27116147,11380000\n27116161,10470000\n27116169,10450000\n27116184,10460000\n27116190,10470000\n27116194,10480000\n27116197,10490000\n27116201,10500000\n27116208,10510000\n27116210,10520000\n27116211,10530000\n27116217,10540000\n27116221,10460000\n27116351,4460000\n27117178,4590000\n27117203,4550000\n27117242,4560000\n27117799,4550000\n27118633,4470000\n27118909,4480000\n27119913,4460000\n27119916,4400000\n27119985,16840000\n27119986,10130000\n27119991,5960000\n27119992,4280000\n27119993,4100000\n27119994,4050000\n27119998,4040000\n27119999,4030000\n27120296,2030000\n27120494,2040000\n27123108,2070000\n27123109,2020000\n27123129,2030000\n27123134,2040000\n27123136,2050000\n27123148,2060000\n27123162,2350000\n27123266,2320000\n27123272,2330000\n27123275,2340000\n27123279,2350000\n27123284,2360000\n27123286,2370000\n27123289,2380000\n27123291,2400000\n27123300,2410000\n27123307,2570000\n27123344,2580000\n27123346,2750000\n27123352,2250000\n27123353,2800000\n27123354,2500000\n27123367,1610000\n27123380,1620000\n27123385,1650000\n27123387,1660000\n27123390,1670000\n27123395,1680000\n27123401,1720000\n27123405,1730000\n27123410,1740000\n27123414,1780000\n27123438,1800000\n27123439,1820000\n27123441,1850000\n27123443,1860000\n27123444,1890000\n27123483,1930000\n27123498,1970000\n27123521,1980000\n27123526,2020000\n27123534,2060000\n27123544,2070000\n27123545,1990000\n27123558,2030000\n27123577,2070000\n27124051,2080000\n27124055,2090000\n27124059,2100000\n27124068,2110000\n27124070,2120000\n27124073,2130000\n27124075,2140000\n27124083,2150000\n27124085,2310000\n27124086,2420000\n27124101,22420000\n27124105,19100000\n27124108,19080000\n27124119,18230000\n27124133,18240000\n27124141,18250000\n27124145,18260000\n27124150,18270000\n27124151,18280000\n27124153,18290000\n27124160,18300000\n27124164,18310000\n27124176,18320000\n27124272,18330000\n27124276,18340000\n27124279,18350000\n27124289,18360000\n27124291,18370000\n27124293,18380000\n27124301,18390000\n27124311,18730000\n27124312,18750000\n27124319,18760000\n27124336,18780000\n27124349,18790000\n27124586,18870000\n27124589,18880000\n27124690,18800000\n27124727,18760000\n27124729,18770000\n27124733,18780000\n27124737,18790000\n27124742,18800000\n27124749,18810000\n27124756,18820000\n27124773,18830000\n27124784,18840000\n27124790,18850000\n27124796,18860000\n27124808,18980000\n27124814,18990000\n27124832,19000000\n27124834,19010000\n27124835,19020000\n27124841,19030000\n27124849,19040000\n27124852,19050000\n27124863,19540000\n27124872,19440000\n27124897,19340000\n27124958,19460000\n27125555,19310000\n27125583,19320000\n27125620,19330000\n27125628,19340000\n27125632,19350000\n27125634,19360000\n27125655,19730000\n27125713,19660000\n27125729,19740000\n27125733,19810000\n27125734,19800000\n27125735,19840000\n27125825,19850000\n27125831,19860000\n27125837,19870000\n27125842,19880000\n27125849,19890000\n27125855,19900000\n27125865,19910000\n27125880,19940000\n27125892,19950000\n27125897,19960000\n27125901,19970000\n27125920,19980000\n27125928,19990000\n27125943,20000000\n27125951,20010000\n27125959,20020000\n27125962,20040000\n27125965,20050000\n27125969,20060000\n27125970,19980000\n27125981,19990000\n27125984,20000000\n27125990,20010000\n27125995,20020000\n27126000,20030000\n27126003,20040000\n27126011,20050000\n27126012,20070000\n27126024,20080000\n27126029,20090000\n27126036,20100000\n27126039,20110000\n27126042,20230000\n27126060,20390000\n27126071,20400000\n27126091,20410000\n27126094,20420000\n27126096,20430000\n27126098,20360000\n27126103,20370000\n27126122,20380000\n27126134,20390000\n27126151,20470000\n27126152,20570000\n27126159,20560000\n27126160,20520000\n27126163,20530000\n27126170,20640000\n27126172,20470000\n27126175,20370000\n27126233,20420000\n27126256,20430000\n27126281,20440000\n27126294,20450000\n27126304,20460000\n27126320,20470000\n27126350,20450000\n27126352,20470000\n27126353,20460000\n27126355,20450000\n27126356,20440000\n27126357,20450000\n27126358,20460000\n27126958,24900000\n27126965,23650000\n27126967,22430000\n27127106,23330000\n27127107,23270000\n27127127,23280000\n27127135,23290000\n27127139,23300000\n27127146,23310000\n27127151,23320000\n27127163,23330000\n27127182,18590000\n27127184,16200000\n27127185,14610000\n27127186,14620000\n27127187,13020000\n27127192,7180000\n27127193,6240000\n27127199,106240000\n27127203,97340000\n27127204,94940000\n27127205,92670000\n27127211,92590000\n27127212,87590000\n27127213,83720000\n27127214,82750000\n27127215,82540000\n27127226,82340000\n27127234,79840000\n27127235,79820000\n27127243,79800000\n27127463,80040000\n27127524,79960000\n27127529,82510000\n27127718,82520000\n27127850,83470000\n27128400,83480000\n27128402,83490000\n27128407,83500000\n27128422,83420000\n27128424,83350000\n27128457,83360000\n27128619,83330000\n27128848,84480000\n27128850,84000000\n27128852,83930000\n27129138,83880000\n27129878,83030000\n27129879,84120000\n27129881,84080000\n27129950,84090000\n27129955,84100000\n27129958,84110000\n27130146,84120000\n27130169,84070000\n27130176,83820000\n27130225,83830000\n27130231,83840000\n27130242,83850000\n27130251,83860000\n27130262,83870000\n27130269,83880000\n27130277,83890000\n27130282,83900000\n27130311,83010000\n27130312,81790000\n27130313,82130000\n27130316,82190000\n27130322,82200000\n27130328,82210000\n27130344,82310000\n27130372,82410000\n27130380,73410000\n27130445,73600000\n27130450,69600000\n27130458,75140000\n27130473,75110000\n27130499,75120000\n27130503,75140000\n27130506,75150000\n27130510,75160000\n27130526,75410000\n27130527,75440000\n27130573,75450000\n27130577,75460000\n27130584,75470000\n27130588,75480000\n27130595,75490000\n27130598,75500000\n27130602,75510000\n27130605,75520000\n27130606,75530000\n27130640,75540000\n27130649,75640000\n27130650,75600000\n27131942,75590000\n27131993,75600000\n27131997,75630000\n27132000,75640000\n27132004,75650000\n27132008,75660000\n27132013,75690000\n27132015,75700000\n27132018,75710000\n27132025,75720000\n27132028,75760000\n27132050,75800000\n27132055,75820000\n27132056,75850000\n27132057,75860000\n27132070,75900000\n27132074,75910000\n27132090,75950000\n27132093,75960000\n27132102,76000000\n27132109,75990000\n27132122,76040000\n27132142,76080000\n27132148,76190000\n27133312,75890000\n27133319,75830000\n27133460,74980000\n27133491,74960000\n27134907,75080000\n27134970,75090000\n27136376,75210000\n27137698,75180000\n27137777,75300000\n27137802,75360000\n27138481,75370000\n27138580,75300000\n27138866,75420000\n27138883,75440000\n27138987,72510000\n27138988,72000000\n27138990,71960000\n27138991,71790000\n27138992,70390000\n27138993,68680000\n27138996,68280000\n27139076,67700000\n27139077,67660000\n27139081,67570000\n27139083,67470000\n27139189,67440000\n27139967,66630000\n27139968,66570000\n27139969,66530000\n27140234,66480000\n27140294,66600000\n27140407,66570000\n27140408,66550000\n27140409,66440000\n27140410,66970000\n27140412,66960000\n27140419,66740000\n27140422,96740000\n27140428,96390000\n27140432,96370000\n27140444,96470000\n27140495,96570000\n27140499,96270000\n27140501,95870000\n27140554,96070000\n27140561,79070000\n27140563,80070000\n27140568,85720000\n27140573,85970000\n27140602,85980000\n27140613,85990000\n27140618,86000000\n27140622,86010000\n27140633,86020000\n27140637,86030000\n27140644,86040000\n27140648,86050000\n27140657,86060000\n27140665,86070000\n27140674,86080000\n27140676,86090000\n27140685,86340000\n27140705,86220000\n27140707,36220000\n27141969,36230000\n27141974,36240000\n27141978,36250000\n27141983,36260000\n27141987,36280000\n27141989,36290000\n27141995,36300000\n27142001,36310000\n27142009,36320000\n27142017,36330000\n27142024,36570000\n27142031,36620000\n27142065,36740000\n27142082,36780000\n27142087,36800000\n27142091,36810000\n27142095,36840000\n27142098,36850000\n27142102,36860000\n27142109,36900000\n27142116,36910000\n27142123,36950000\n27142133,36960000\n27142134,36970000\n27142135,36990000\n27142136,37000000\n27142152,37040000\n27142170,37050000\n27142176,37080000\n27142197,37120000\n27142201,37130000\n27142209,37080000\n27142225,37110000\n27142258,37160000\n27142260,37100000\n27143492,36650000\n27143507,36590000\n27144874,36710000\n27147797,36830000\n27147872,36790000\n27147874,36760000\n27147875,36310000\n27147883,36320000\n27147888,36330000\n27147896,36340000\n27147902,36350000\n27147906,36360000\n27147912,36370000\n27147915,36390000\n27147922,36400000\n27147925,36410000\n27147928,36420000\n27147937,36430000\n27147939,36450000\n27147945,36700000\n27147946,36880000\n27148703,145070000\n27148732,145080000\n27148736,145090000\n27148749,145100000\n27148754,145110000\n27148761,145120000\n27148767,145130000\n27148775,145140000\n27148779,145150000\n27148788,145160000\n27148793,145170000\n27148799,145180000\n27148803,145200000\n27148808,145450000\n27148809,145480000\n27148815,144980000\n27148852,144990000\n27148862,144660000\n27148863,140920000\n27148864,140910000\n27148897,140880000\n27148954,140460000\n27148998,140570000\n27149034,140580000\n27149062,140690000\n27149068,140940000\n27149085,140770000\n27149086,136020000\n27149087,135320000\n27149101,134820000\n27149125,134830000\n27149130,134850000\n27149131,134860000\n27149135,134870000\n27149153,134980000\n27149154,135020000\n27149160,134910000\n27149161,134970000\n27149178,134980000\n27149183,134990000\n27149187,135000000\n27149190,135010000\n27149191,135020000\n27149195,135030000\n27149199,135040000\n27149220,135050000\n27149228,135060000\n27149235,135070000\n27149259,135180000\n27149260,135320000\n27149272,135180000\n27149283,135190000\n27149287,135200000\n27149293,135210000\n27149301,135220000\n27149304,135230000\n27149309,135400000\n27149324,135410000\n27149327,135420000\n27149329,135430000\n27149332,135440000\n27149337,135450000\n27149340,135460000\n27149345,135470000\n27149378,132590000\n27149379,111340000\n27149386,110270000\n27149390,110280000",
-	["g@ @vendoringUIContext@buybackScrollingTable"] = {
-		["colWidth"] = {
-			["qty"] = 40,
-			["item"] = 360,
-			["cost"] = 100,
-		},
-		["colHidden"] = {
+	["s@畜生犬隊長 - Horde - 伊弗斯@internalData@mailQuantity"] = {
+		["i:24998"] = 1,
+		["i:22457"] = 1,
+		["i:24886"] = 1,
+		["i:21877"] = 569,
+		["i:24666"] = 1,
+		["i:25012"] = 1,
+		["i:14047"] = 8,
+		["i:25057"] = 1,
+		["i:31952"] = 2,
+		["i:24623"] = 1,
+		["i:22578"] = 17,
+		["i:30809"] = 2,
+		["i:9172"] = 4,
+		["i:30810"] = 29,
+		["i:24991"] = 1,
+		["i:22572"] = 4,
+		["i:22577"] = 2,
+		["i:22573"] = 10,
+		["i:13446"] = 10,
+		["i:25041"] = 1,
+		["i:32902"] = 3,
+		["i:22575"] = 9,
+		["i:25719"] = 2,
+		["i:22829"] = 4,
+		["i:24643"] = 1,
+		["i:24246"] = 1,
+		["i:3823"] = 5,
+		["i:21882"] = 9,
+		["i:22576"] = 13,
+		["i:22574"] = 4,
+		["i:22832"] = 1,
+	},
+	["c@特變電工 - 伊弗斯@mainUIContext@groupsManagementGroupTree"] = {
+		["collapsed"] = {
 		},
 	},
 	["g@ @accountingOptions@trackTrades"] = true,
@@ -3016,15 +2456,15 @@ TradeSkillMasterDB = {
 	["c@路易斯桑拿 - 伊弗斯@internalData@auctionPrices"] = {
 	},
 	["r@伊弗斯@internalData@csvSales"] = "itemString,stackSize,quantity,price,otherPlayer,player,time,source\ni:28055,1,1,47247,Merchant,邁克爾假死,1622916225,Vendor\ni:29935,1,1,37614,Merchant,邁克爾假死,1622949796,Vendor\ni:29944,1,1,36094,Merchant,邁克爾假死,1622949796,Vendor\ni:29941,1,1,32948,Merchant,邁克爾假死,1622949797,Vendor\ni:29911,1,1,64414,Merchant,邁克爾假死,1622949797,Vendor\ni:25310:-44,1,1,53890,Merchant,邁克爾假死,1622949798,Vendor\ni:29936,1,1,37753,Merchant,邁克爾假死,1622949798,Vendor\ni:24724:-16,1,1,14731,Merchant,邁克爾假死,1622949799,Vendor\ni:24721:-17,1,1,21854,Merchant,邁克爾假死,1622964413,Vendor\ni:13965,1,1,16250,Merchant,邁克爾假死,1622964414,Vendor\ni:29109,1,1,72850,Merchant,邁克爾假死,1622964415,Vendor\ni:25979,1,1,38850,Merchant,邁克爾假死,1622964418,Vendor\ni:24936:-18,1,2,40916,Merchant,邁克爾假死,1622964418,Vendor\ni:14047,20,80,400,Merchant,邁克爾假死,1622964420,Vendor\ni:14047,7,7,400,Merchant,邁克爾假死,1622964423,Vendor\ni:11285,200,1200,2,Merchant,邁克爾假死,1622964462,Vendor\ni:11285,103,103,2,Merchant,邁克爾假死,1622964463,Vendor\ni:25282:-36,1,1,42203,Merchant,邁克爾假死,1622964472,Vendor\ni:29914,1,1,53547,Merchant,邁克爾假死,1622964473,Vendor\ni:30855,1,1,54657,Merchant,邁克爾假死,1622964473,Vendor\ni:29945,1,1,36229,Merchant,邁克爾假死,1622964481,Vendor\ni:27732,1,1,17486,Merchant,邁克爾假死,1622964482,Vendor\ni:27859,2,2,280,Merchant,邁克爾假死,1622964483,Vendor\ni:27651,5,5,150,Merchant,邁克爾假死,1622967390,Vendor\ni:29292,5,10,10,Merchant,邁克爾假死,1622967390,Vendor\ni:27684,1,1,5000,Merchant,邁克爾假死,1622967400,Vendor\ni:21877,1,1,800,Merchant,邁克爾假死,1622967404,Vendor\ni:27671,12,12,200,Merchant,邁克爾假死,1622967406,Vendor\ni:27674,4,8,200,Merchant,邁克爾假死,1622967407,Vendor\ni:24710:-41,1,1,21919,Merchant,邁克爾假死,1622967409,Vendor\ni:14047,8,8,400,Merchant,邁克爾假死,1622970133,Vendor\ni:24732:-39,1,1,15611,Merchant,邁克爾假死,1622970135,Vendor\ni:24808:-16,1,1,33531,Merchant,邁克爾假死,1622970135,Vendor\ni:29399,1,1,72796,Merchant,邁克爾假死,1622970135,Vendor\ni:31720,1,1,48023,Merchant,邁克爾假死,1622970137,Vendor\ni:25787,1,1,8910,Merchant,邁克爾假死,1622970139,Vendor\ni:31715,1,1,28546,Merchant,邁克爾假死,1622970140,Vendor\ni:5760,1,1,500,Merchant,邁克爾假死,1622970141,Vendor\ni:29111,1,1,1,Merchant,邁克爾假死,1622970152,Vendor\ni:17056,5,5,7,Merchant,邁克爾假死,1622970154,Vendor\ni:14047,1,1,400,Merchant,邁克爾假死,1622977844,Vendor\ni:24597:-8,1,1,11690,Merchant,邁克爾假死,1622977846,Vendor\ni:25502,1,3,21275,Merchant,邁克爾假死,1622977847,Vendor\ni:25987,1,1,75824,Merchant,邁克爾假死,1622982250,Vendor\ni:28069,1,1,36740,Merchant,邁克爾假死,1622982251,Vendor\ni:25915,1,1,62470,Merchant,邁克爾假死,1622982252,Vendor\ni:25482,1,1,28132,Merchant,邁克爾假死,1622982253,Vendor\ni:25781,1,1,43576,Merchant,邁克爾假死,1622982255,Vendor\ni:17056,2,2,7,Merchant,邁克爾假死,1622982255,Vendor\ni:27674,4,4,200,Merchant,邁克爾假死,1622982255,Vendor\ni:28062,1,1,46848,Merchant,邁克爾假死,1622982258,Vendor\ni:25505,1,1,29415,Merchant,邁克爾假死,1622987389,Vendor\ni:25500,1,1,30284,Merchant,邁克爾假死,1622987390,Vendor\ni:29292,4,4,10,Merchant,邁克爾假死,1622987395,Vendor\ni:28501,5,5,25,Merchant,邁克爾假死,1622987395,Vendor\ni:18588,5,5,200,Merchant,邁克爾假死,1622987397,Vendor\ni:27676,1,1,200,Merchant,邁克爾假死,1622987398,Vendor\ni:24478,1,1,1000,Merchant,邁克爾假死,1622987412,Vendor\ni:25488,1,1,30284,Merchant,邁克爾假死,1622987412,Vendor\ni:24606:-25,1,1,16885,Merchant,邁克爾假死,1622987413,Vendor\ni:25088:-16,1,1,28546,Merchant,邁克爾假死,1622987414,Vendor\ni:24477,5,5,100,Merchant,邁克爾假死,1622987418,Vendor\ni:25602,1,1,19739,Merchant,邁克爾假死,1622989053,Vendor\ni:25519,1,1,61556,Merchant,邁克爾假死,1622989055,Vendor\ni:24943:-44,1,1,32353,Merchant,邁克爾假死,1622989055,Vendor\ni:24408,4,4,1000,Merchant,邁克爾假死,1622989058,Vendor\ni:25032:-12,1,1,17725,Merchant,邁克爾假死,1622989062,Vendor\ni:24477,5,5,100,Merchant,邁克爾假死,1622991421,Vendor\ni:31786,1,1,27639,Merchant,邁克爾假死,1622992537,Vendor\ni:25522,1,1,32604,Merchant,邁克爾假死,1622992539,Vendor\ni:27717,1,1,35626,Merchant,邁克爾假死,1622992539,Vendor\ni:27725,1,1,32966,Merchant,邁克爾假死,1622992539,Vendor\ni:27721,1,1,32499,Merchant,邁克爾假死,1622992541,Vendor\ni:17058,9,9,7,Merchant,邁克爾假死,1622992546,Vendor\ni:25298:-16,1,1,59068,Merchant,邁克爾假死,1622995106,Vendor\ni:24609:-16,1,1,17546,Merchant,邁克爾假死,1622995107,Vendor\ni:24477,4,4,100,Merchant,邁克爾假死,1622995107,Vendor\ni:17057,16,16,7,Merchant,邁克爾假死,1622995114,Vendor\ni:17057,2,2,7,Merchant,邁克爾假死,1623028221,Vendor\ni:25621,1,1,18241,Merchant,邁克爾假死,1623028222,Vendor\ni:27716,1,1,40188,Merchant,邁克爾假死,1623028222,Vendor\ni:24839:-35,1,1,27620,Merchant,邁克爾假死,1623028223,Vendor\ni:24478,3,3,1000,Merchant,邁克爾假死,1623028225,Vendor\ni:27858,6,6,280,Merchant,邁克爾假死,1623028226,Vendor\ni:24540,6,6,1000,Merchant,邁克爾假死,1623028228,Vendor\ni:8952,8,8,200,Merchant,邁克爾假死,1623028233,Vendor\ni:25923,1,1,27810,Merchant,邁克爾假死,1623056250,Vendor\ni:25612,1,1,33757,Merchant,邁克爾假死,1623056250,Vendor\ni:27756,1,1,60895,Merchant,邁克爾假死,1623056251,Vendor\ni:25617,1,1,24178,Merchant,邁克爾假死,1623056252,Vendor\ni:14530,20,40,1000,Merchant,邁克爾假死,1623056256,Vendor\ni:14530,12,12,1000,Merchant,邁克爾假死,1623056257,Vendor\ni:17058,3,3,7,Merchant,邁克爾假死,1623056261,Vendor\ni:27553,5,10,30,Merchant,邁克爾假死,1623056262,Vendor\ni:24291,5,5,500,Merchant,邁克爾假死,1623056266,Vendor\ni:27676,4,4,200,Merchant,邁克爾假死,1623056280,Vendor\ni:27671,18,18,200,Merchant,邁克爾假死,1623056283,Vendor\ni:31723,1,1,62449,Merchant,邁克爾假死,1623081137,Vendor\ni:25494,1,1,75559,Merchant,邁克爾假死,1623081137,Vendor\ni:25511,1,1,41842,Merchant,邁克爾假死,1623081137,Vendor\ni:24845:-34,1,1,18733,Merchant,邁克爾假死,1623081139,Vendor\ni:25299:-44,1,1,56754,Merchant,邁克爾假死,1623081139,Vendor\ni:24724:-40,1,1,14731,Merchant,邁克爾假死,1623085339,Vendor\ni:24842:-40,1,1,27801,Merchant,邁克爾假死,1623085340,Vendor\ni:25047:-5,1,1,29415,Merchant,邁克爾假死,1623085341,Vendor\ni:31733,1,1,61828,Merchant,邁克爾假死,1623085342,Vendor\ni:31730,1,1,32023,Merchant,邁克爾假死,1623085343,Vendor\ni:24722:-41,1,1,29244,Merchant,邁克爾假死,1623085345,Vendor\ni:25917,1,1,80897,Merchant,邁克爾假死,1623085347,Vendor\ni:17056,8,8,7,Merchant,邁克爾假死,1623158892,Vendor\ni:17056,20,20,7,Merchant,邁克爾假死,1623158892,Vendor\ni:27503,1,2,125,Merchant,邁克爾假死,1623158895,Vendor\ni:25231:-20,1,1,76543,Merchant,邁克爾假死,1623163479,Vendor\ni:31724,1,1,48321,Merchant,邁克爾假死,1623163486,Vendor\ni:25978,1,1,50177,Merchant,邁克爾假死,1623163486,Vendor\ni:25935,1,1,82553,Merchant,邁克爾假死,1623163487,Vendor\ni:25973,1,1,40717,Merchant,邁克爾假死,1623163487,Vendor\ni:21881,1,1,5000,Merchant,邁克爾假死,1623172453,Vendor\ni:31785,1,1,82921,Merchant,邁克爾假死,1623172468,Vendor\ni:31762,1,1,47893,Merchant,邁克爾假死,1623172469,Vendor\ni:31816,1,1,82425,Merchant,邁克爾假死,1623209404,Vendor\ni:31821,1,1,67150,Merchant,邁克爾假死,1623209405,Vendor\ni:31759,1,1,72453,Merchant,邁克爾假死,1623209406,Vendor\ni:25929,1,1,42788,Merchant,邁克爾假死,1623209408,Vendor\ni:25951,1,1,29422,Merchant,邁克爾假死,1623218793,Vendor\ni:31765,1,1,46440,Merchant,邁克爾假死,1623218794,Vendor\ni:25977,1,1,31496,Merchant,邁克爾假死,1623218797,Vendor\ni:31794,1,1,44616,Merchant,邁克爾假死,1623218797,Vendor\ni:17056,3,3,7,Merchant,邁克爾假死,1623218806,Vendor\ni:31617,1,1,8222,Merchant,邁克爾假死,1623218816,Vendor\ni:25106:-11,1,1,66529,Merchant,邁克爾假死,1623218819,Vendor\ni:25204:-8,1,1,61303,Merchant,邁克爾假死,1623220645,Vendor\ni:25218:-14,1,1,80752,Merchant,邁克爾假死,1623220647,Vendor\ni:27682,19,19,200,Merchant,邁克爾假死,1623231108,Vendor\ni:27681,1,1,200,Merchant,邁克爾假死,1623231109,Vendor\ni:27678,20,20,200,Merchant,邁克爾假死,1623231111,Vendor\ni:28061,200,2200,3,Merchant,邁克爾假死,1623231306,Vendor\ni:25545,1,1,65130,Merchant,邁克爾假死,1623231985,Vendor\ni:25593,1,1,36095,Merchant,邁克爾假死,1623231987,Vendor\ni:25569,1,1,46281,Merchant,邁克爾假死,1623231987,Vendor\ni:25589,1,1,35575,Merchant,邁克爾假死,1623231991,Vendor\ni:25066:-36,1,1,33760,Merchant,邁克爾假死,1623231993,Vendor\ni:17056,1,1,7,Merchant,邁克爾假死,1624535235,Vendor\ni:17058,1,1,7,Merchant,邁克爾假死,1624535236,Vendor\ni:25301:-15,1,1,60568,Merchant,邁克爾假死,1624719104,Vendor\ni:29342,1,1,55280,Merchant,邁克爾假死,1624719135,Vendor\ni:24478,1,1,1000,Merchant,邁克爾假死,1624719139,Vendor\ni:27776,1,1,34036,Merchant,邁克爾假死,1624724745,Vendor\ni:27498,1,1,125,Merchant,邁克爾假死,1624724746,Vendor\ni:27501,1,1,100,Merchant,邁克爾假死,1624724746,Vendor\ni:25107:-14,1,1,68578,Merchant,邁克爾假死,1624724749,Vendor\ni:31671,1,1,200,Merchant,邁克爾假死,1624724750,Vendor\ni:17056,2,2,7,Merchant,邁克爾假死,1624724751,Vendor\ni:29329,1,1,106924,Merchant,邁克爾假死,1624724755,Vendor\ni:24477,5,5,100,Merchant,邁克爾假死,1624724818,Vendor\ni:27854,1,1,280,Merchant,邁克爾假死,1624724821,Vendor\ni:25276:-5,1,1,52027,Merchant,邁克爾假死,1624777969,Vendor\ni:24865:-15,1,1,18890,Merchant,邁克爾假死,1624777969,Vendor\ni:24752:-21,1,2,15743,Merchant,邁克爾假死,1624777970,Vendor\ni:24750:-9,1,1,25248,Merchant,邁克爾假死,1624777970,Vendor\ni:24987:-45,1,1,46805,Merchant,邁克爾假死,1624777971,Vendor\ni:30458,1,2,280,Merchant,邁克爾假死,1624777973,Vendor\ni:24643:-36,1,1,19180,Merchant,邁克爾假死,1624777974,Vendor\ni:29316,1,1,41649,Merchant,邁克爾假死,1624777974,Vendor\ni:25639,1,1,57838,Merchant,邁克爾假死,1624777983,Vendor\ni:21990,14,14,1275,Merchant,邁克爾假死,1624777995,Vendor\ni:27858,3,3,280,Merchant,邁克爾假死,1624778000,Vendor\ni:29449,5,5,400,Merchant,邁克爾假死,1624778000,Vendor\ni:30226,1,1,54369,Merchant,邁克爾假死,1624785841,Vendor\ni:25191:-11,1,1,64670,Merchant,邁克爾假死,1624785842,Vendor\ni:25318:-19,1,1,64880,Merchant,邁克爾假死,1624785842,Vendor\ni:25763,1,1,80334,Merchant,邁克爾假死,1624785844,Vendor\ni:30218,1,1,26421,Merchant,邁克爾假死,1624785847,Vendor\ni:29326,1,1,32789,Merchant,邁克爾假死,1624785847,Vendor\ni:30270,1,1,47874,Merchant,邁克爾假死,1624785848,Vendor\ni:24654:-6,1,1,21035,Merchant,邁克爾假死,1624785848,Vendor\ni:29335,1,1,41953,Merchant,邁克爾假死,1624785859,Vendor\ni:25051:-14,1,1,32891,Merchant,邁克爾假死,1624785862,Vendor\ni:30002,1,1,34618,Merchant,邁克爾假死,1624785862,Vendor\ni:30296,1,1,48936,Merchant,邁克爾假死,1624785863,Vendor\ni:31314,1,1,32544,Merchant,邁克爾假死,1624785864,Vendor\ni:27901,1,1,83803,Merchant,邁克爾假死,1624800842,Vendor\ni:24993:-12,1,1,24678,Merchant,邁克爾假死,1624800843,Vendor\ni:28176,1,1,44320,Merchant,邁克爾假死,1624800844,Vendor\ni:24779:-24,1,1,26165,Merchant,邁克爾假死,1624800846,Vendor\ni:24675:-38,1,1,22745,Merchant,邁克爾假死,1624800846,Vendor\ni:25067:-32,1,1,34629,Merchant,邁克爾假死,1624800849,Vendor\ni:28032,1,1,22518,Merchant,邁克爾假死,1624800856,Vendor\ni:27803,1,1,44126,Merchant,邁克爾假死,1624807019,Vendor\ni:24666:-36,1,1,27910,Merchant,邁克爾假死,1624807019,Vendor\ni:27908,1,1,45215,Merchant,邁克爾假死,1624807020,Vendor\ni:24789:-19,1,1,19021,Merchant,邁克爾假死,1624807021,Vendor\ni:25309:-15,1,1,76324,Merchant,邁克爾假死,1624807022,Vendor\ni:17057,4,4,7,Merchant,邁克爾假死,1624807028,Vendor\ni:24998:-26,1,1,23918,Merchant,邁克爾假死,1624811972,Vendor\ni:25070:-10,1,1,37236,Merchant,邁克爾假死,1624811972,Vendor\ni:17058,4,4,7,Merchant,邁克爾假死,1624942904,Vendor\ni:24477,3,3,100,Merchant,邁克爾假死,1624942904,Vendor\ni:17057,1,1,7,Merchant,邁克爾假死,1624942905,Vendor\ni:27858,2,2,280,Merchant,邁克爾假死,1624942909,Vendor\ni:24994:-13,1,1,37833,Merchant,邁克爾假死,1624942922,Vendor\ni:28053,200,2400,2,Merchant,邁克爾假死,1624957433,Vendor\ni:28053,196,196,2,Merchant,邁克爾假死,1624957438,Vendor\ni:24683:-36,1,1,21709,Merchant,邁克爾假死,1624957471,Vendor\ni:24477,2,2,100,Merchant,邁克爾假死,1624957476,Vendor\ni:27855,1,1,280,Merchant,邁克爾假死,1624957478,Vendor\ni:17058,2,2,7,Merchant,邁克爾假死,1624958106,Vendor\ni:17057,4,4,7,Merchant,邁克爾假死,1624958106,Vendor\ni:31952,1,1,750,Merchant,邁克爾假死,1624958108,Vendor\ni:25152:-14,1,1,68191,Merchant,邁克爾假死,1624965745,Vendor\ni:25071:-40,1,1,38105,Merchant,邁克爾假死,1624965746,Vendor\ni:27502,1,1,112,Merchant,邁克爾假死,1624965752,Vendor\ni:27733,1,1,30284,Merchant,邁克爾假死,1624970143,Vendor\ni:24791:-12,1,1,26622,Merchant,邁克爾假死,1624970145,Vendor\ni:25321:-15,1,1,70690,Merchant,邁克爾假死,1625023528,Vendor\ni:27738,1,1,26730,Merchant,邁克爾假死,1625023530,Vendor\ni:24800:-8,1,1,37586,Merchant,邁克爾假死,1625023530,Vendor\ni:24792:-39,1,1,35634,Merchant,邁克爾假死,1625023531,Vendor\ni:27526,1,1,63818,Merchant,邁克爾假死,1625023569,Vendor\ni:24477,2,2,100,Merchant,邁克爾假死,1625023573,Vendor\ni:17058,1,1,7,Merchant,邁克爾假死,1625023574,Vendor\ni:17057,2,2,7,Merchant,邁克爾假死,1625023575,Vendor\ni:22554,1,1,15000,Merchant,邁克爾假死,1625023585,Vendor\ni:23887,1,1,15000,Merchant,邁克爾假死,1625023590,Vendor\ni:25023:-13,1,1,38951,Merchant,邁克爾假死,1625023592,Vendor\ni:19925,1,1,43635,Merchant,邁克爾假死,1625032417,Vendor\ni:19898,1,1,55035,Merchant,邁克爾假死,1625032432,Vendor\ni:29320,1,1,7102,Merchant,邁克爾假死,1625032432,Vendor\ni:24477,3,3,100,Merchant,邁克爾假死,1625032434,Vendor\ni:17058,2,2,7,Merchant,邁克爾假死,1625032435,Vendor\ni:17057,5,5,7,Merchant,邁克爾假死,1625032435,Vendor\ni:25009:-7,1,1,25538,Merchant,邁克爾假死,1625032444,Vendor\ni:24690:-19,1,2,31212,Merchant,邁克爾假死,1625038872,Vendor\ni:25292:-26,1,1,53918,Merchant,邁克爾假死,1625038874,Vendor\ni:25224:-9,1,1,89096,Merchant,邁克爾假死,1625038874,Vendor\ni:24477,8,8,100,Merchant,邁克爾假死,1625038894,Vendor\ni:17058,4,4,7,Merchant,邁克爾假死,1625038895,Vendor\ni:17057,4,4,7,Merchant,邁克爾假死,1625038895,Vendor\ni:27858,7,7,280,Merchant,邁克爾假死,1625038908,Vendor\ni:24477,6,6,100,Merchant,邁克爾假死,1625044555,Vendor\ni:14341,1,1,1250,Merchant,邁克爾假死,1625046993,Vendor\ni:17057,4,4,7,Merchant,邁克爾假死,1625052083,Vendor\ni:17058,1,1,7,Merchant,邁克爾假死,1625052083,Vendor\ni:24685:-22,1,1,14921,Merchant,邁克爾假死,1625065686,Vendor\ni:24898:-33,1,1,33758,Merchant,邁克爾假死,1625065687,Vendor\ni:27888,1,1,39736,Merchant,邁克爾假死,1625065688,Vendor\ni:25166:-5,1,1,92161,Merchant,邁克爾假死,1625065690,Vendor\ni:27538,1,1,84562,Merchant,邁克爾假死,1625065691,Vendor\ni:24672:-32,1,1,15003,Merchant,邁克爾假死,1625065692,Vendor\ni:24656:-19,1,1,14491,Merchant,邁克爾假死,1625065693,Vendor\ni:24478,1,1,1000,Merchant,邁克爾假死,1625065695,Vendor\ni:30458,1,1,280,Merchant,邁克爾假死,1625113259,Vendor\ni:28278,1,1,26250,Merchant,邁克爾假死,1625119580,Vendor\ni:25320:-9,1,1,68745,Merchant,邁克爾假死,1625119581,Vendor\ni:27498,1,1,125,Merchant,邁克爾假死,1625122952,Vendor\ni:24802:-39,1,1,29156,Merchant,邁克爾假死,1625131990,Vendor\ni:25307:-16,1,1,72305,Merchant,邁克爾假死,1625131992,Vendor\ni:25055:-41,1,1,36368,Merchant,邁克爾假死,1625131993,Vendor\ni:25017:-18,1,1,24989,Merchant,邁克爾假死,1625131995,Vendor\ni:24680:-16,1,1,14309,Merchant,邁克爾假死,1625131996,Vendor\ni:25019:-45,1,1,50081,Merchant,邁克爾假死,1625131997,Vendor\ni:28340,1,1,33918,Merchant,邁克爾假死,1625131998,Vendor\ni:25068:-13,1,1,35498,Merchant,邁克爾假死,1625131999,Vendor\ni:28056,200,600,3,Merchant,邁克爾假死,1625132972,Vendor\ni:28170,1,1,26735,Merchant,邁克爾假死,1625136783,Vendor\ni:28263,1,1,89128,Merchant,邁克爾假死,1625136783,Vendor\ni:28108,1,1,10307,Merchant,邁克爾假死,1625136785,Vendor\ni:24794:-40,1,1,26930,Merchant,邁克爾假死,1625136790,Vendor\ni:27676,1,1,200,Merchant,邁克爾假死,1625136794,Vendor\ni:27858,4,4,280,Merchant,邁克爾假死,1625136797,Vendor\ni:20748,1,1,1000,Merchant,邁克爾假死,1625136804,Vendor\ni:27757,1,1,110959,Merchant,邁克爾假死,1625136816,Vendor\ni:28286,1,1,67565,Merchant,邁克爾假死,1625142288,Vendor\ni:24887:-40,1,1,30951,Merchant,邁克爾假死,1625142306,Vendor\ni:28249,1,2,27324,Merchant,邁克爾假死,1625142308,Vendor\ni:28267,1,1,90421,Merchant,邁克爾假死,1625142313,Vendor\ni:28053,200,1400,2,Merchant,邁克爾假死,1625142326,Vendor\ni:28053,117,117,2,Merchant,邁克爾假死,1625142327,Vendor\ni:28258,1,1,43988,Merchant,邁克爾假死,1625144834,Vendor\ni:28202,1,1,43253,Merchant,邁克爾假死,1625144835,Vendor\ni:28056,122,122,3,Merchant,邁克爾假死,1625144836,Vendor\ni:28215,1,1,37906,Merchant,邁克爾假死,1625144840,Vendor\ni:24674:-16,1,1,30219,Merchant,邁克爾假死,1625155522,Vendor\ni:25071:-29,1,1,38105,Merchant,邁克爾假死,1625155523,Vendor\ni:27892,1,1,26870,Merchant,邁克爾假死,1625155534,Vendor\ni:24477,6,6,100,Merchant,邁克爾假死,1625159429,Vendor\ni:28371,1,2,26252,Merchant,邁克爾假死,1625193900,Vendor\ni:24659:-16,1,1,19886,Merchant,邁克爾假死,1625193903,Vendor\ni:27550,1,1,27229,Merchant,邁克爾假死,1625193907,Vendor\ni:25053:-41,1,1,34629,Merchant,邁克爾假死,1625193909,Vendor\ni:17057,3,3,7,Merchant,邁克爾假死,1625193915,Vendor\ni:17058,2,2,7,Merchant,邁克爾假死,1625193915,Vendor\ni:28412,1,1,22045,Merchant,邁克爾假死,1625199580,Vendor\ni:24993:-13,1,1,24678,Merchant,邁克爾假死,1625199581,Vendor\ni:28053,200,400,2,Merchant,邁克爾假死,1625199585,Vendor\ni:27519,1,1,24865,Merchant,邁克爾假死,1625203348,Vendor\ni:24679:-6,1,1,28507,Merchant,邁克爾假死,1625203350,Vendor\ni:24675:-8,1,1,22745,Merchant,邁克爾假死,1625203352,Vendor\ni:24686:-39,1,1,22467,Merchant,邁克爾假死,1625248234,Vendor\ni:24477,2,2,100,Merchant,邁克爾假死,1625286661,Vendor\ni:17058,4,4,7,Merchant,邁克爾假死,1625286661,Vendor\ni:17057,1,1,7,Merchant,邁克爾假死,1625286662,Vendor\ni:25195:-45,1,1,72574,Merchant,邁克爾假死,1625286669,Vendor\ni:24477,3,3,100,Merchant,邁克爾假死,1625303119,Vendor\ni:17057,2,2,7,Merchant,邁克爾假死,1625303120,Vendor\ni:17058,4,4,7,Merchant,邁克爾假死,1625303121,Vendor\ni:24998:-18,1,1,23918,Merchant,邁克爾假死,1625304941,Vendor\ni:25715,1,1,33525,Merchant,邁克爾假死,1625304942,Vendor\ni:27855,2,2,280,Merchant,邁克爾假死,1625316726,Vendor\ni:27767,1,1,85530,Merchant,邁克爾假死,1625316734,Vendor\ni:21877,2,2,800,Merchant,邁克爾假死,1625316735,Vendor\ni:27740,1,1,10709,Merchant,邁克爾假死,1625316759,Vendor\ni:16941,1,1,37656,Merchant,邁克爾假死,1625316761,Vendor\ni:24898:-43,1,1,33758,Merchant,邁克爾假死,1625324444,Vendor\ni:27521,1,1,25661,Merchant,邁克爾假死,1625332926,Vendor\ni:28542:-19,1,1,36368,Merchant,邁克爾假死,1625388072,Vendor\ni:27790,1,1,45438,Merchant,邁克爾假死,1625388075,Vendor\ni:24664:-6,1,1,13851,Merchant,邁克爾假死,1625388079,Vendor\ni:27737,1,1,33294,Merchant,邁克爾假死,1625388082,Vendor\ni:25811,1,2,41903,Merchant,邁克爾假死,1625388096,Vendor\ni:24890:-27,1,1,31165,Merchant,邁克爾假死,1625397149,Vendor\ni:30964,1,1,37072,Merchant,邁克爾假死,1625397150,Vendor\ni:28263,1,1,89128,Merchant,邁克爾假死,1625397161,Vendor\ni:28397,1,1,67077,Merchant,邁克爾假死,1625397164,Vendor\ni:17057,7,7,7,Merchant,邁克爾假死,1625398491,Vendor\ni:17058,11,11,7,Merchant,邁克爾假死,1625398491,Vendor\ni:25012:-16,1,1,39446,Merchant,邁克爾假死,1625398492,Vendor\ni:30981,1,1,36368,Merchant,邁克爾假死,1625398492,Vendor\ni:27854,2,2,280,Merchant,邁克爾假死,1625398514,Vendor\ni:28056,200,1000,3,Merchant,邁克爾假死,1625399136,Vendor\ni:24477,4,4,100,Merchant,邁克爾假死,1625401332,Vendor\ni:17057,4,4,7,Merchant,邁克爾假死,1625401332,Vendor\ni:30959,1,1,48587,Merchant,邁克爾假死,1625403089,Vendor\ni:31074,1,2,41555,Merchant,邁克爾假死,1625403093,Vendor\ni:4552,4,4,530,Merchant,邁克爾假死,1625410708,Vendor\ni:25379,1,1,11508,Merchant,邁克爾假死,1625410711,Vendor\ni:25306:-9,1,1,70314,Merchant,邁克爾假死,1625410727,Vendor\ni:28390,1,1,30685,Merchant,邁克爾假死,1625410730,Vendor\ni:31073,1,1,80285,Merchant,邁克爾假死,1625410744,Vendor\ni:17057,4,4,7,Merchant,邁克爾假死,1625415335,Vendor\ni:24477,4,4,100,Merchant,邁克爾假死,1625415337,Vendor\ni:24667:-19,1,1,21011,Merchant,邁克爾假死,1625419576,Vendor\ni:30959,1,1,48587,Merchant,邁克爾假死,1625419577,Vendor\ni:24673:-37,1,1,22583,Merchant,邁克爾假死,1625466843,Vendor\ni:17058,1,1,7,Merchant,邁克爾假死,1625588734,Vendor\ni:23887,1,1,15000,Merchant,邁克爾假死,1625591317,Vendor\ni:27858,3,3,280,Merchant,邁克爾假死,1625591319,Vendor\ni:17057,2,2,7,Merchant,邁克爾假死,1625591319,Vendor\ni:17058,2,2,7,Merchant,邁克爾假死,1625591320,Vendor\ni:24477,1,1,100,Merchant,邁克爾假死,1625591321,Vendor\ni:22554,1,1,15000,Merchant,邁克爾假死,1625591323,Vendor\ni:22146,1,1,100000,Merchant,邁克爾假死,1625591323,Vendor\ni:27524,1,1,105570,Merchant,邁克爾假死,1625591326,Vendor\ni:28419,1,1,39470,Merchant,邁克爾假死,1625660052,Vendor\ni:27890,1,1,66698,Merchant,邁克爾假死,1625660069,Vendor\ni:27779,1,1,50287,Merchant,邁克爾假死,1625660132,Vendor\ni:28323,1,1,7102,Merchant,邁克爾假死,1625853070,Vendor\ni:17058,2,2,7,Merchant,邁克爾假死,1625853073,Vendor\ni:17057,4,4,7,Merchant,邁克爾假死,1625853073,Vendor\ni:24477,3,3,100,Merchant,邁克爾假死,1625853078,Vendor\ni:27672,1,1,29874,Merchant,邁克爾假死,1625853081,Vendor\ni:27741,1,1,90078,Merchant,邁克爾假死,1625853083,Vendor\ni:23868,1,1,1500,Merchant,邁克爾假死,1625853086,Vendor\ni:16248,1,1,6000,Merchant,邁克爾假死,1625889935,Vendor\ni:27671,13,13,200,Merchant,邁克爾假死,1625889937,Vendor\ni:8925,5,5,125,Merchant,邁克爾假死,1625889941,Vendor\ni:29740,1,9,291650,薩利奇特,邁克爾假死,1625889970,Auction\ni:21877,20,40,1359,我妖嬌嗎,邁克爾假死,1625890134,Auction\ni:21877,7,7,1359,魚魚啦,邁克爾假死,1625890654,Auction\ni:21877,1,1,1368,魚魚啦,邁克爾假死,1625890658,Auction\ni:14047,20,40,1411,虛無玄蹤,邁克爾假死,1625891694,Auction\ni:14047,18,18,1411,虛無玄蹤,邁克爾假死,1625891704,Auction\ni:14047,1,5,1415,Edvin,邁克爾假死,1625891744,Auction\ni:24893:-9,1,1,21011,Merchant,邁克爾假死,1625901968,Vendor\ni:31381,1,1,41903,Merchant,邁克爾假死,1625901974,Vendor\ni:31492,1,2,81771,Merchant,邁克爾假死,1625901982,Vendor\ni:23097,1,2,2500,Merchant,邁克爾假死,1625901984,Vendor\ni:24477,2,2,100,Merchant,邁克爾假死,1625920384,Vendor\ni:17056,1,1,7,Merchant,邁克爾假死,1625920385,Vendor\ni:24478,1,1,1000,Merchant,邁克爾假死,1625922919,Vendor\ni:27541,1,1,25659,Merchant,邁克爾假死,1625922924,Vendor\ni:23437,1,1,222300,活久見,邁克爾假死,1625893811,Auction\ni:7080,1,1,3040,處不留爺自去,邁克爾假死,1625900130,Auction\ni:23440,1,1,899650,花俏俏,邁克爾假死,1625912425,Auction\ni:25219:-44,1,1,85418,Merchant,邁克爾假死,1625925883,Vendor\ni:27454,1,1,40584,Merchant,邁克爾假死,1625932151,Vendor\ni:24796:-40,1,1,27136,Merchant,邁克爾假死,1625932264,Vendor\ni:25007:-32,1,1,37739,Merchant,邁克爾假死,1625932264,Vendor\ni:17056,5,5,7,Merchant,邁克爾假死,1625932265,Vendor\ni:24477,3,3,100,Merchant,邁克爾假死,1625936373,Vendor\ni:27804,1,1,25360,Merchant,邁克爾假死,1625936375,Vendor\ni:25071:-40,1,1,38105,Merchant,邁克爾假死,1625936376,Vendor\ni:17058,5,5,7,Merchant,邁克爾假死,1625936377,Vendor\ni:17057,2,2,7,Merchant,邁克爾假死,1625936377,Vendor\ni:24684:-39,1,1,14528,Merchant,邁克爾假死,1625985592,Vendor\ni:25306:-19,1,1,70314,Merchant,邁克爾假死,1625985595,Vendor\ni:30960,1,1,47610,Merchant,邁克爾假死,1625985596,Vendor\ni:17056,1,1,7,Merchant,邁克爾假死,1625985597,Vendor\ni:5976,1,1,2500,Merchant,邁克爾假死,1625985602,Vendor\ni:27855,2,2,280,Merchant,邁克爾假死,1625985605,Vendor\ni:2210,1,1,3,Merchant,特變電工,1626023317,Vendor\ni:4757,4,4,4,Merchant,特變電工,1626023317,Vendor\ni:7096,5,5,5,Merchant,特變電工,1626023318,Vendor\ni:6059,1,1,13,Merchant,特變電工,1626025489,Vendor\ni:21877,20,40,1587,南歌雾散,邁克爾假死,1625974223,Auction\ni:30810,2,2,26410,亡者再臨,邁克爾假死,1625974425,Auction\ni:21881,1,1,177175,四無君,邁克爾假死,1625974573,Auction\ni:21877,18,18,1601,石飼牛,邁克爾假死,1625976754,Auction\ni:14047,12,12,1715,相信奇蹟,邁克爾假死,1625977120,Auction\ni:5571,1,1,250,Merchant,特變電工,1626026719,Vendor\ni:2361,1,1,9,Merchant,特變電工,1626061267,Vendor\ni:1383,1,1,25,Merchant,特變電工,1626061267,Vendor\ni:7097,3,3,1,Merchant,特變電工,1626061289,Vendor\ni:4540,19,19,1,Merchant,特變電工,1626061290,Vendor\ni:117,1,1,1,Merchant,特變電工,1626061291,Vendor\ni:159,2,2,1,Merchant,特變電工,1626061292,Vendor\ni:4536,4,4,1,Merchant,特變電工,1626061293,Vendor\ni:2672,1,1,4,Merchant,特變電工,1626061295,Vendor\ni:2672,10,10,4,Merchant,特變電工,1626061295,Vendor\ni:4913,1,1,7,Merchant,特變電工,1626061379,Vendor\ni:10635,1,1,14,Merchant,特變電工,1626061379,Vendor\ni:4910,1,1,7,Merchant,特變電工,1626061379,Vendor\ni:4911,1,1,15,Merchant,特變電工,1626061380,Vendor\ni:5571,1,1,250,Merchant,特變電工,1626074449,Vendor\ni:4972,1,1,64,Merchant,特變電工,1626074450,Vendor\ni:4970,1,2,54,Merchant,特變電工,1626080148,Vendor\ni:4672,1,1,28,Merchant,特變電工,1626080149,Vendor\ni:3642,1,1,22,Merchant,特變電工,1626080150,Vendor\ni:14088,1,1,24,Merchant,特變電工,1626080152,Vendor\ni:8178:24,1,1,306,Merchant,特變電工,1626080153,Vendor\ni:5572,1,1,250,Merchant,特變電工,1626080155,Vendor\ni:805,1,1,250,Merchant,特變電工,1626080155,Vendor\ni:4967,1,1,116,Merchant,特變電工,1626080157,Vendor\ni:17056,7,7,7,Merchant,特變電工,1626080159,Vendor\ni:4958,1,1,23,Merchant,特變電工,1626080998,Vendor\ni:2403,1,1,44,Merchant,特變電工,1626081001,Vendor\ni:2493,1,1,140,Merchant,特變電工,1626081002,Vendor\ni:2672,4,4,4,Merchant,特變電工,1626082906,Vendor\ni:2672,10,20,4,Merchant,特變電工,1626082906,Vendor\ni:17922,1,1,125,Merchant,特變電工,1626082909,Vendor\ni:4963,1,1,24,Merchant,特變電工,1626082910,Vendor\ni:6271,1,1,50,Merchant,特變電工,1626082914,Vendor\ni:3290,1,1,48,Merchant,特變電工,1626090933,Vendor\ni:2400,1,1,87,Merchant,特變電工,1626090934,Vendor\ni:2509,1,1,82,Merchant,特變電工,1626090935,Vendor\ni:14098,1,1,43,Merchant,特變電工,1626090942,Vendor\ni:24477,3,3,100,Merchant,邁克爾假死,1626108264,Vendor\ni:17057,5,5,7,Merchant,邁克爾假死,1626108265,Vendor\ni:25208:-11,1,1,69001,Merchant,邁克爾假死,1626108267,Vendor\ni:24792:-27,1,1,35634,Merchant,邁克爾假死,1626108270,Vendor\ni:24478,1,1,1000,Merchant,邁克爾假死,1626108272,Vendor\ni:24861:-6,1,1,19524,Merchant,邁克爾假死,1626108283,Vendor\ni:186058,1,2,1,Merchant,特變電工,1626273790,Vendor\ni:186057,1,1,1,Merchant,特變電工,1626273792,Vendor\ni:185976,1,1,1,Merchant,特變電工,1626273794,Vendor\ni:185998,1,1,1,Merchant,特變電工,1626273794,Vendor\ni:186015,1,1,1,Merchant,特變電工,1626273796,Vendor\ni:25046:-28,1,1,28546,Merchant,特變電工,1626273804,Vendor\ni:29936,1,1,37753,Merchant,特變電工,1626273805,Vendor\ni:24591:-6,1,1,21592,Merchant,特變電工,1626273807,Vendor\ni:24702:-26,1,1,20091,Merchant,特變電工,1626277939,Vendor\ni:24811:-14,1,1,30664,Merchant,特變電工,1626277940,Vendor\ni:29941,1,1,32948,Merchant,特變電工,1626277941,Vendor\ni:6510,1,1,54,Merchant,特變電工,1626282275,Vendor\ni:6125,1,1,1,Merchant,特變電工,1626282276,Vendor\ni:1179,1,1,6,Merchant,特變電工,1626282277,Vendor\ni:1197,1,1,533,Merchant,特變電工,1626282293,Vendor\ni:15486:584,1,1,245,Merchant,特變電工,1626282297,Vendor\ni:3079,1,1,297,Merchant,特變電工,1626282298,Vendor\ni:3282,1,1,235,Merchant,特變電工,1626282302,Vendor\ni:2398,1,1,86,Merchant,特變電工,1626282303,Vendor\ni:24834:-17,1,1,26225,Merchant,特變電工,1626282304,Vendor\ni:2402,1,1,44,Merchant,特變電工,1626282305,Vendor\ni:186047,1,1,1,Merchant,特變電工,1626282306,Vendor\ni:24401,3,3,750,Merchant,特變電工,1626282317,Vendor\ni:27674,9,9,200,Merchant,特變電工,1626282319,Vendor\ni:27671,9,9,200,Merchant,特變電工,1626282320,Vendor\ni:6889,5,5,4,Merchant,特變電工,1626282321,Vendor\ni:2835,5,5,2,Merchant,特變電工,1626282321,Vendor\ni:2318,2,2,15,Merchant,特變電工,1626282326,Vendor\ni:856,1,1,875,Merchant,特變電工,1626282336,Vendor\ni:25184:-40,1,1,55279,Merchant,特變電工,1626282339,Vendor\ni:27684,1,1,5000,Merchant,特變電工,1626282344,Vendor\ni:27501,1,1,100,Merchant,特變電工,1626282345,Vendor\ni:27499,1,1,112,Merchant,特變電工,1626282345,Vendor\ni:17056,6,6,7,Merchant,特變電工,1626282347,Vendor\ni:118,5,10,5,Merchant,特變電工,1626282350,Vendor\ni:27503,1,1,125,Merchant,特變電工,1626282353,Vendor\ni:4960,25,25,12,Merchant,特變電工,1626282359,Vendor\ni:28501,5,5,25,Merchant,特變電工,1626282398,Vendor\ni:5469,6,6,9,Merchant,特變電工,1626282401,Vendor\ni:2399,1,1,43,Merchant,特變電工,1626282401,Vendor\ni:2401,1,1,66,Merchant,特變電工,1626282403,Vendor\ni:28399,1,1,280,Merchant,特變電工,1626282404,Vendor\ni:17056,8,8,7,Merchant,特變電工,1626282410,Vendor\ni:1251,20,20,8,Merchant,特變電工,1626282411,Vendor\ni:1251,19,19,8,Merchant,特變電工,1626282411,Vendor\ni:2581,19,19,20,Merchant,特變電工,1626282412,Vendor\ni:2589,20,20,13,Merchant,特變電工,1626283189,Vendor\ni:2589,4,4,13,Merchant,特變電工,1626283189,Vendor\ni:2581,18,18,20,Merchant,特變電工,1626283191,Vendor\ni:2581,20,20,20,Merchant,特變電工,1626283193,Vendor\ni:3530,6,6,25,Merchant,特變電工,1626283193,Vendor\ni:3531,20,60,57,Merchant,特變電工,1626283194,Vendor\ni:4499,1,4,25000,Merchant,特變電工,1626283194,Vendor\ni:3530,20,40,25,Merchant,特變電工,1626283201,Vendor\ni:3531,9,9,57,Merchant,特變電工,1626283201,Vendor\ni:117,2,2,1,Merchant,特變電工,1626283205,Vendor\ni:6450,2,2,170,Merchant,特變電工,1626285364,Vendor\ni:6450,20,40,170,Merchant,特變電工,1626285364,Vendor\ni:6451,20,40,400,Merchant,特變電工,1626285367,Vendor\ni:6451,14,14,400,Merchant,特變電工,1626285368,Vendor\ni:8545,20,20,800,Merchant,特變電工,1626285369,Vendor\ni:8545,19,19,800,Merchant,特變電工,1626285370,Vendor\ni:8544,20,20,340,Merchant,特變電工,1626285371,Vendor\ni:8544,17,17,340,Merchant,特變電工,1626285371,Vendor\ni:14529,9,9,425,Merchant,特變電工,1626285374,Vendor\ni:14529,20,20,425,Merchant,特變電工,1626285374,Vendor\ni:14047,11,11,717,紫星雨,特變電工,1626285554,Auction\ni:14047,20,240,717,紫星雨,特變電工,1626285557,Auction\ni:4306,20,140,1040,不孕症權威尹,特變電工,1626285884,Auction\ni:4338,20,60,5605,轉接語音信箱,特變電工,1626286012,Auction\ni:4338,20,100,5605,Allinwin,特變電工,1626286543,Auction\ni:4338,5,5,5605,Allinwin,特變電工,1626286548,Auction\ni:4306,17,17,1040,念著倒才頭豬,特變電工,1626289779,Auction\ni:22012,1,1,12500,Merchant,特變電工,1626315943,Vendor\ni:14530,20,80,1000,Merchant,特變電工,1626317038,Vendor\ni:14530,1,1,1000,Merchant,特變電工,1626317039,Vendor\ni:31955,1,1,12,Merchant,特變電工,1626327482,Vendor\ni:24590:-32,1,1,16134,Merchant,特變電工,1626327485,Vendor\ni:24722:-12,1,1,29244,Merchant,特變電工,1626327496,Vendor\ni:24598:-31,1,1,17597,Merchant,特變電工,1626327498,Vendor\ni:186001,1,1,1,Merchant,特變電工,1626331212,Vendor\ni:25171:-9,1,1,68031,Merchant,特變電工,1626334759,Vendor\ni:29914,1,1,53547,Merchant,特變電工,1626334761,Vendor\ni:29913,1,2,53349,Merchant,特變電工,1626334763,Vendor\ni:25103:-11,1,1,58907,Merchant,特變電工,1626334765,Vendor\ni:29944,1,1,36094,Merchant,特變電工,1626334766,Vendor\ni:185977,1,1,1,Merchant,特變電工,1626334767,Vendor\ni:24601:-31,1,1,17787,Merchant,特變電工,1626334768,Vendor\ni:186002,1,1,1,Merchant,特變電工,1626334772,Vendor\ni:24931:-20,1,1,38957,Merchant,特變電工,1626334775,Vendor\ni:185984,1,1,1,Merchant,特變電工,1626334785,Vendor\ni:31715,1,1,28546,Merchant,特變電工,1626343597,Vendor\ni:25987,1,1,75824,Merchant,特變電工,1626343599,Vendor\ni:24832:-40,1,1,33770,Merchant,特變電工,1626343603,Vendor\ni:24703:-40,1,1,26891,Merchant,特變電工,1626343605,Vendor\ni:25781,1,1,43576,Merchant,特變電工,1626343607,Vendor\ni:29945,1,1,36229,Merchant,特變電工,1626343616,Vendor\ni:186016,1,1,1,Merchant,特變電工,1626343618,Vendor\ni:24624:-15,1,1,12158,Merchant,特變電工,1626343619,Vendor\ni:25487,1,1,30284,Merchant,特變電工,1626343628,Vendor\ni:28062,1,1,46848,Merchant,特變電工,1626343641,Vendor\ni:25505,1,1,29415,Merchant,特變電工,1626343645,Vendor\ni:17056,2,2,7,Merchant,特變電工,1626347024,Vendor\ni:185981,1,1,1,Merchant,特變電工,1626351106,Vendor\ni:186074,1,1,1,Merchant,特變電工,1626351106,Vendor\ni:25481,1,1,21829,Merchant,特變電工,1626351108,Vendor\ni:185999,1,1,1,Merchant,特變電工,1626351110,Vendor\ni:24291,2,2,500,Merchant,特變電工,1626351344,Vendor\ni:24594:-22,1,1,22423,Merchant,特變電工,1626351357,Vendor\ni:25701,1,1,48531,Merchant,特變電工,1626351358,Vendor\ni:27731,1,1,17421,Merchant,特變電工,1626351359,Vendor\ni:25504,1,1,15219,Merchant,特變電工,1626351363,Vendor\ni:27674,6,6,200,Merchant,特變電工,1626351379,Vendor\ni:27671,10,10,200,Merchant,特變電工,1626351379,Vendor\ni:24477,1,1,100,Merchant,特變電工,1626351380,Vendor\ni:17058,7,7,7,Merchant,特變電工,1626362812,Vendor\ni:17057,5,5,7,Merchant,特變電工,1626362812,Vendor\ni:24476,1,1,100,Merchant,特變電工,1626362815,Vendor\ni:24477,3,3,100,Merchant,特變電工,1626362818,Vendor\ni:25494,1,1,75559,Merchant,特變電工,1626369125,Vendor\ni:30855,1,1,54657,Merchant,特變電工,1626369126,Vendor\ni:29946,1,1,27224,Merchant,特變電工,1626369131,Vendor\ni:27725,1,2,32966,Merchant,特變電工,1626369133,Vendor\ni:24824:-19,1,1,35194,Merchant,特變電工,1626369134,Vendor\ni:27716,1,1,40188,Merchant,特變電工,1626369135,Vendor\ni:25511,1,1,41842,Merchant,特變電工,1626369136,Vendor\ni:25979,1,1,38850,Merchant,特變電工,1626369137,Vendor\ni:27721,1,1,32499,Merchant,特變電工,1626369141,Vendor\ni:24602:-8,1,2,23798,Merchant,特變電工,1626369143,Vendor\ni:24589:-36,1,1,10715,Merchant,特變電工,1626369144,Vendor\ni:24611:-6,1,1,17677,Merchant,特變電工,1626369146,Vendor\ni:25187:-45,1,1,56971,Merchant,特變電工,1626369148,Vendor\ni:25313:-15,1,1,59783,Merchant,特變電工,1626369149,Vendor\ni:25612,1,1,33757,Merchant,特變電工,1626370096,Vendor\ni:29108,1,1,58074,Merchant,特變電工,1626370097,Vendor\ni:25621,1,1,18241,Merchant,特變電工,1626370100,Vendor\ni:25617,1,1,24178,Merchant,特變電工,1626373486,Vendor\ni:25530,1,1,32096,Merchant,特變電工,1626373487,Vendor\ni:25522,1,2,32604,Merchant,特變電工,1626373491,Vendor\ni:24616:-8,1,2,12356,Merchant,特變電工,1626373492,Vendor\ni:25048:-9,1,2,30284,Merchant,特變電工,1626373493,Vendor\ni:31786,1,2,27639,Merchant,特變電工,1626373494,Vendor\ni:25923,1,2,27810,Merchant,特變電工,1626373495,Vendor\ni:24151,1,2,75303,Merchant,特變電工,1626373501,Vendor\ni:17058,2,4,7,Merchant,特變電工,1626373502,Vendor\ni:17057,2,4,7,Merchant,特變電工,1626373502,Vendor\ni:27553,5,10,30,Merchant,特變電工,1626373504,Vendor\ni:18588,5,5,200,Merchant,特變電工,1626373511,Vendor\ni:27676,3,3,200,Merchant,特變電工,1626373513,Vendor\ni:24245,1,2,146,Merchant,特變電工,1626373517,Vendor\ni:25313:-16,1,1,59783,Merchant,特變電工,1626411110,Vendor\ni:31723,1,1,62449,Merchant,特變電工,1626411112,Vendor\ni:25048:-41,1,1,30284,Merchant,特變電工,1626411113,Vendor\ni:25244:-40,1,1,43473,Merchant,特變電工,1626411125,Vendor\ni:24943:-44,1,1,32353,Merchant,特變電工,1626411126,Vendor\ni:24626:-37,1,1,24501,Merchant,特變電工,1626411127,Vendor\ni:27681,8,8,200,Merchant,特變電工,1626411136,Vendor\ni:17056,14,14,7,Merchant,特變電工,1626426897,Vendor\ni:24402,1,1,12,Merchant,特變電工,1626426899,Vendor\ni:19441,1,1,1500,Merchant,特變電工,1626426907,Vendor\ni:25802,3,3,1500,Merchant,特變電工,1626426907,Vendor\ni:31816,1,1,82425,Merchant,特變電工,1626426910,Vendor\ni:31729,1,1,32023,Merchant,特變電工,1626426930,Vendor\ni:25499,1,1,30284,Merchant,特變電工,1626426934,Vendor\ni:31794,1,1,44616,Merchant,特變電工,1626426935,Vendor\ni:24719:-9,1,1,28141,Merchant,特變電工,1626426936,Vendor\ni:186063,1,1,1,Merchant,特變電工,1626426940,Vendor\ni:31756,1,1,71638,Merchant,特變電工,1626426954,Vendor\ni:25963,1,1,31154,Merchant,特變電工,1626460491,Vendor\ni:25951,1,1,29422,Merchant,特變電工,1626460492,Vendor\ni:31762,1,1,47893,Merchant,特變電工,1626460498,Vendor\ni:186056,1,1,1,Merchant,特變電工,1626460508,Vendor\ni:25712,1,2,21640,Merchant,特變電工,1626460517,Vendor\ni:24933:-41,1,1,19732,Merchant,特變電工,1626460518,Vendor\ni:24612:-9,1,1,11828,Merchant,特變電工,1626460520,Vendor\ni:25929,1,1,42788,Merchant,特變電工,1626460520,Vendor\ni:28497:-54,1,1,18615,Merchant,特變電工,1626460525,Vendor\ni:24723:-39,1,1,22015,Merchant,特變電工,1626460527,Vendor\ni:27715,1,1,30889,Merchant,特變電工,1626460529,Vendor\ni:24946:-8,1,1,30423,Merchant,特變電工,1626460531,Vendor\ni:31785,1,1,82921,Merchant,特變電工,1626460534,Vendor\ni:25519,1,1,61556,Merchant,特變電工,1626460536,Vendor\ni:25916,1,1,64487,Merchant,特變電工,1626460538,Vendor\ni:25978,1,1,50177,Merchant,特變電工,1626460540,Vendor\ni:27671,9,9,200,Merchant,特變電工,1626460545,Vendor\ni:27677,1,1,200,Merchant,特變電工,1626460545,Vendor\ni:31666,1,1,5000,Merchant,特變電工,1626460548,Vendor\ni:185985,1,1,1,Merchant,特變電工,1626460552,Vendor\ni:185988,1,1,1,Merchant,特變電工,1626460555,Vendor\ni:17056,6,6,7,Merchant,特變電工,1626460561,Vendor\ni:28053,80,80,2,Merchant,特變電工,1626460568,Vendor\ni:6350,1,1,295,Merchant,特變電工,1626461907,Vendor\ni:2862,5,5,3,Merchant,特變電工,1626461909,Vendor\ni:2862,20,20,3,Merchant,特變電工,1626461909,Vendor\ni:2863,15,15,10,Merchant,特變電工,1626461910,Vendor\ni:6338,1,5,125,Merchant,特變電工,1626461950,Vendor\ni:2865,1,21,962,Merchant,特變電工,1626462084,Vendor\ni:3478,20,20,10,Merchant,特變電工,1626462084,Vendor\ni:3842,1,17,2906,Merchant,特變電工,1626462837,Vendor\ni:2868,1,1,807,Merchant,特變電工,1626462839,Vendor\ni:11128,1,1,500,Merchant,特變電工,1626462842,Vendor\ni:3835,1,10,1106,Merchant,特變電工,1626462847,Vendor\ni:6040,1,29,1649,Merchant,特變電工,1626499247,Vendor\ni:3835,1,8,1106,Merchant,特變電工,1626499255,Vendor\ni:7920,1,4,8053,Merchant,特變電工,1626499768,Vendor\ni:6040,1,4,1649,Merchant,特變電工,1626499769,Vendor\ni:7919,1,2,4359,Merchant,特變電工,1626499770,Vendor\ni:7931,1,6,7955,Merchant,特變電工,1626499776,Vendor\ni:24649:-9,1,1,20134,Merchant,特變電工,1626507802,Vendor\ni:25575,1,1,31225,Merchant,特變電工,1626507803,Vendor\ni:24947:-14,1,1,40794,Merchant,特變電工,1626507821,Vendor\ni:25569,1,1,46281,Merchant,特變電工,1626507825,Vendor\ni:25914,1,1,30284,Merchant,特變電工,1626513641,Vendor\ni:25927,1,1,19247,Merchant,特變電工,1626513642,Vendor\ni:25593,1,1,36095,Merchant,特變電工,1626513644,Vendor\ni:25565,1,1,24421,Merchant,特變電工,1626513645,Vendor\ni:25977,1,1,31496,Merchant,特變電工,1626513645,Vendor\ni:27682,12,12,200,Merchant,特變電工,1626513649,Vendor\ni:27678,12,12,200,Merchant,特變電工,1626513650,Vendor\ni:25544,1,1,48660,Merchant,特變電工,1626522136,Vendor\ni:25972,1,1,40569,Merchant,特變電工,1626522137,Vendor\ni:25179:-8,1,1,87663,Merchant,特變電工,1626522139,Vendor\ni:25300:-44,1,1,58654,Merchant,特變電工,1626522142,Vendor\ni:27754,1,1,60447,Merchant,特變電工,1626522144,Vendor\ni:25545,1,1,65130,Merchant,特變電工,1626522145,Vendor\ni:24625:-9,1,1,18306,Merchant,特變電工,1626522147,Vendor\ni:25780,1,1,20207,Merchant,特變電工,1626522148,Vendor\ni:25052:-7,1,1,33760,Merchant,特變電工,1626522154,Vendor\ni:24741:-40,1,1,15857,Merchant,特變電工,1626531730,Vendor\ni:24966:-10,1,1,22246,Merchant,特變電工,1626531732,Vendor\ni:29342,1,1,55280,Merchant,特變電工,1626531738,Vendor\ni:24770:-19,1,1,36357,Merchant,特變電工,1626531743,Vendor\ni:25561,1,2,28859,Merchant,特變電工,1626531743,Vendor\ni:24744:-35,1,1,16035,Merchant,特變電工,1626531753,Vendor\ni:25291:-26,1,1,52406,Merchant,特變電工,1626531754,Vendor\ni:25556,1,1,40712,Merchant,特變電工,1626531756,Vendor\ni:25050:-36,1,1,32023,Merchant,特變電工,1626534579,Vendor\ni:24643:-38,1,1,19180,Merchant,特變電工,1626534606,Vendor\ni:25589,1,1,35575,Merchant,特變電工,1626534608,Vendor\ni:25205:-15,1,1,63210,Merchant,特變電工,1626534621,Vendor\ni:27411,1,1,22876,Merchant,特變電工,1626537197,Vendor\ni:24858:-9,1,1,28967,Merchant,特變電工,1626537204,Vendor\ni:24639:-34,1,1,27126,Merchant,特變電工,1626538438,Vendor\ni:31473,1,1,22872,Merchant,特變電工,1626544531,Vendor\ni:31486,1,1,34058,Merchant,特變電工,1626544536,Vendor\ni:25715,1,1,33525,Merchant,特變電工,1626544538,Vendor\ni:25203:-13,1,1,59415,Merchant,特變電工,1626544541,Vendor\ni:186163,1,2,1,Merchant,特變電工,1626544546,Vendor\ni:31476,1,1,67439,Merchant,特變電工,1626544548,Vendor\ni:17057,1,1,7,Merchant,特變電工,1626544551,Vendor\ni:27859,1,1,280,Merchant,特變電工,1626544552,Vendor\ni:25050:-36,1,1,32023,Merchant,特變電工,1626544554,Vendor\ni:25165:-15,1,1,89585,Merchant,特變電工,1626587673,Vendor\ni:31514,1,1,41189,Merchant,特變電工,1626587677,Vendor\ni:31521,1,1,36916,Merchant,特變電工,1626587678,Vendor\ni:31533,1,1,30910,Merchant,特變電工,1626587679,Vendor\ni:17056,11,11,7,Merchant,特變電工,1626590106,Vendor\ni:25602,1,1,19739,Merchant,特變電工,1626590110,Vendor\ni:25585,1,1,45576,Merchant,特變電工,1626590113,Vendor\ni:31674,1,1,7500,Merchant,特變電工,1626594599,Vendor\ni:31675,1,1,7500,Merchant,特變電工,1626594599,Vendor\ni:27855,4,4,280,Merchant,特變電工,1626607848,Vendor\ni:27651,3,6,150,Merchant,特變電工,1626607850,Vendor\ni:31673,3,6,150,Merchant,特變電工,1626607851,Vendor\ni:29211,1,1,9954,Merchant,特變電工,1626607864,Vendor\ni:25933,1,1,65575,Merchant,特變電工,1626607868,Vendor\ni:31734,1,1,39721,Merchant,特變電工,1626607877,Vendor\ni:31670,3,3,200,Merchant,特變電工,1626607879,Vendor\ni:19441,1,1,1500,Merchant,特變電工,1626607880,Vendor\ni:24994:-5,1,1,37833,Merchant,特變電工,1626607885,Vendor\ni:31538,1,1,26135,Merchant,特變電工,1626607888,Vendor\ni:24996:-36,1,2,38102,Merchant,特變電工,1626607889,Vendor\ni:24655:-31,1,1,28146,Merchant,特變電工,1626607890,Vendor\ni:31686,1,2,49140,Merchant,特變電工,1626607894,Vendor\ni:31315,1,1,25434,Merchant,特變電工,1626607896,Vendor\ni:25958,1,1,21241,Merchant,特變電工,1626607909,Vendor\ni:24993:-11,1,1,24678,Merchant,特變電工,1626607911,Vendor\ni:25065:-11,1,2,32891,Merchant,特變電工,1626607918,Vendor\ni:25292:-6,1,1,53918,Merchant,特變電工,1626607921,Vendor\ni:31791,1,1,41555,Merchant,特變電工,1626607922,Vendor\ni:30296,1,1,48936,Merchant,特變電工,1626607924,Vendor\ni:30002,1,1,34618,Merchant,特變電工,1626611228,Vendor\ni:24764:-26,1,1,16902,Merchant,特變電工,1626611229,Vendor\ni:30264,1,1,25332,Merchant,特變電工,1626611237,Vendor\ni:31696,1,1,39818,Merchant,特變電工,1626663605,Vendor\ni:29329,1,1,106924,Merchant,特變電工,1626663629,Vendor\ni:25206:-6,1,1,65130,Merchant,特變電工,1626663634,Vendor\ni:25139:-17,1,1,92090,Merchant,特變電工,1626663639,Vendor\ni:29968,1,1,40565,Merchant,特變電工,1626663647,Vendor\ni:30401,1,1,25452,Merchant,特變電工,1626663648,Vendor\ni:24750:-10,1,1,25248,Merchant,特變電工,1626663649,Vendor\ni:24871:-6,1,1,29887,Merchant,特變電工,1626663650,Vendor\ni:28069,1,1,36740,Merchant,特變電工,1626663656,Vendor\ni:24788:-8,1,1,28431,Merchant,特變電工,1626663659,Vendor\ni:29774,1,1,52018,Merchant,特變電工,1626676294,Vendor\ni:30386,1,1,36236,Merchant,特變電工,1626676306,Vendor\ni:24997:-41,1,1,23242,Merchant,特變電工,1626676324,Vendor\ni:24981:-36,1,1,22421,Merchant,特變電工,1626676336,Vendor\ni:25136:-45,1,1,82324,Merchant,特變電工,1626676339,Vendor\ni:25764,1,1,80629,Merchant,特變電工,1626676342,Vendor\ni:30275,1,1,36505,Merchant,特變電工,1626676647,Vendor\ni:24876:-43,1,1,30449,Merchant,特變電工,1626676649,Vendor\ni:38276,1,1,12556,Merchant,特變電工,1626676650,Vendor\ni:17056,2,2,7,Merchant,特變電工,1626676655,Vendor\ni:25775,1,1,38775,Merchant,特變電工,1626683721,Vendor\ni:24774:-35,1,1,25678,Merchant,特變電工,1626758266,Vendor\ni:30272,1,1,35317,Merchant,特變電工,1626758268,Vendor\ni:17056,5,5,7,Merchant,特變電工,1626771173,Vendor\ni:31714,1,1,23037,Merchant,特變電工,1626771179,Vendor\ni:24654:-38,1,1,21035,Merchant,特變電工,1626771181,Vendor\ni:24867:-5,1,1,38072,Merchant,特變電工,1626771186,Vendor\ni:24658:-38,1,1,26412,Merchant,特變電工,1626771188,Vendor\ni:31480,1,1,23468,Merchant,特變電工,1626771217,Vendor\ni:30270,1,1,47874,Merchant,特變電工,1626771226,Vendor\ni:31727,1,2,30574,Merchant,特變電工,1626771237,Vendor\ni:24768:-20,1,1,17591,Merchant,特變電工,1626771277,Vendor\ni:31671,1,1,200,Merchant,特變電工,1626771290,Vendor\ni:27885,1,1,63806,Merchant,特變電工,1626782222,Vendor\ni:24794:-19,1,1,26930,Merchant,特變電工,1626782226,Vendor\ni:24769:-21,1,1,27171,Merchant,特變電工,1626782227,Vendor\ni:24671:-36,1,1,29128,Merchant,特變電工,1626782284,Vendor\ni:24677:-9,1,1,15634,Merchant,特變電工,1626782285,Vendor\ni:24781:-9,1,1,18005,Merchant,特變電工,1626782287,Vendor\ni:24674:-9,1,1,30219,Merchant,特變電工,1626782290,Vendor\ni:25029:-6,1,1,27467,Merchant,特變電工,1626782301,Vendor\ni:31720,1,1,48023,Merchant,特變電工,1626782706,Vendor\ni:25291:-15,1,1,52406,Merchant,特變電工,1626782709,Vendor\ni:31415,1,1,44029,Merchant,特變電工,1626786039,Vendor\ni:30225,1,1,25427,Merchant,特變電工,1626786040,Vendor\ni:27855,1,1,280,Merchant,特變電工,1626786041,Vendor\ni:29209,1,1,500,Merchant,特變電工,1626786049,Vendor\ni:7969,1,6,250,Merchant,特變電工,1626787310,Vendor\ni:12425,1,8,10638,Merchant,特變電工,1626789749,Vendor\ni:12424,1,5,9738,Merchant,特變電工,1626789760,Vendor\ni:12425,1,17,10638,Merchant,特變電工,1626791206,Vendor\ni:12426,1,3,21069,Merchant,特變電工,1626791255,Vendor\ni:23484,1,5,20969,Merchant,特變電工,1626791876,Vendor\ni:23493,1,3,27683,Merchant,特變電工,1626791881,Vendor\ni:12426,1,2,21069,Merchant,特變電工,1626791883,Vendor\ni:23491,1,1,18866,Merchant,特變電工,1626791885,Vendor\ni:23491,1,2,18866,Merchant,特變電工,1626793488,Vendor\ni:23487,1,5,33419,Merchant,特變電工,1626795923,Vendor\ni:23489,1,12,47475,Merchant,特變電工,1626795926,Vendor\ni:23491,1,2,18866,Merchant,特變電工,1626795929,Vendor\ni:23489,1,8,47475,Merchant,特變電工,1626796295,Vendor\ni:23503,1,7,85143,Merchant,特變電工,1626796406,Vendor\ni:27898,1,1,62144,Merchant,特變電工,1626800425,Vendor\ni:25279:-6,1,1,56650,Merchant,特變電工,1626800427,Vendor\ni:17057,1,1,7,Merchant,特變電工,1626841735,Vendor\ni:17058,5,5,7,Merchant,特變電工,1626841735,Vendor\ni:24477,4,4,100,Merchant,特變電工,1626841736,Vendor\ni:24672:-19,1,1,15003,Merchant,特變電工,1626841738,Vendor\ni:3860,14,14,19950,燕飛翎,特變電工,1626829609,Auction\ni:3860,20,40,19950,燕飛翎,特變電工,1626829590,Auction\ni:25003:-13,1,1,48479,Merchant,特變電工,1626851152,Vendor\ni:27860,4,4,320,Merchant,特變電工,1626859374,Vendor\ni:27860,20,20,320,Merchant,特變電工,1626859374,Vendor\ni:28399,3,3,280,Merchant,特變電工,1626859377,Vendor\ni:27858,3,3,280,Merchant,特變電工,1626859381,Vendor\ni:27854,5,5,280,Merchant,特變電工,1626859382,Vendor\ni:24796:-35,1,1,27136,Merchant,特變電工,1626859390,Vendor\ni:28194,1,1,25176,Merchant,特變電工,1626859396,Vendor\ni:24688:-16,1,1,15495,Merchant,特變電工,1626859397,Vendor\ni:29320,1,1,7102,Merchant,特變電工,1626859399,Vendor\ni:25112:-8,1,1,71552,Merchant,特變電工,1626859401,Vendor\ni:28321,1,1,8788,Merchant,特變電工,1626859405,Vendor\ni:27794,1,1,65983,Merchant,特變電工,1626865700,Vendor\ni:24477,4,4,100,Merchant,特變電工,1626865702,Vendor\ni:24913:-5,1,1,23157,Merchant,特變電工,1626865708,Vendor\ni:17058,8,8,7,Merchant,特變電工,1626865710,Vendor\ni:29783,1,1,57552,Merchant,特變電工,1626865752,Vendor\ni:29791,1,1,38522,Merchant,特變電工,1626865753,Vendor\ni:30267,1,1,24403,Merchant,特變電工,1626865758,Vendor\ni:29777,1,1,19896,Merchant,特變電工,1626865768,Vendor\ni:17057,4,4,7,Merchant,特變電工,1626890565,Vendor\ni:27855,1,1,280,Merchant,特變電工,1626890567,Vendor\ni:27854,1,1,280,Merchant,特變電工,1626890567,Vendor\ni:24673:-9,1,1,22583,Merchant,特變電工,1626892194,Vendor\ni:31483,1,1,35314,Merchant,特變電工,1626892198,Vendor\ni:25085:-41,1,1,49203,Merchant,特變電工,1626892206,Vendor\ni:30227,1,1,34629,Merchant,特變電工,1626892211,Vendor\ni:31528,1,1,41555,Merchant,特變電工,1626892214,Vendor\ni:28167,1,1,31029,Merchant,特變電工,1626892226,Vendor\ni:29325,1,1,37866,Merchant,特變電工,1626892231,Vendor\ni:17058,5,5,7,Merchant,特變電工,1626926054,Vendor\ni:17057,3,3,7,Merchant,特變電工,1626926055,Vendor\ni:25069:-11,1,1,36368,Merchant,特變電工,1626926067,Vendor\ni:17057,1,1,7,Merchant,特變電工,1626952401,Vendor\ni:17056,1,1,7,Merchant,特變電工,1626952401,Vendor\ni:17058,1,1,7,Merchant,特變電工,1626952401,Vendor\ni:31306,1,1,33564,Merchant,特變電工,1626952404,Vendor\ni:30981,1,1,36368,Merchant,特變電工,1626952412,Vendor\ni:24996:-44,1,1,38102,Merchant,特變電工,1626952416,Vendor\ni:30964,1,2,37072,Merchant,特變電工,1626952417,Vendor\ni:24769:-40,1,1,27171,Merchant,特變電工,1626952419,Vendor\ni:25016:-41,1,1,54721,Merchant,特變電工,1626952422,Vendor\ni:25022:-9,1,1,26066,Merchant,特變電工,1626952424,Vendor\ni:29807,1,1,25507,Merchant,特變電工,1626952428,Vendor\ni:25057:-17,1,1,38105,Merchant,特變電工,1626952433,Vendor\ni:24477,3,3,100,Merchant,特變電工,1626952435,Vendor\ni:31541,1,1,72250,Merchant,特變電工,1626952440,Vendor\ni:25042:-23,1,1,22296,Merchant,特變電工,1626963656,Vendor\ni:24678:-39,1,1,21298,Merchant,特變電工,1626963657,Vendor\ni:24671:-23,1,1,29128,Merchant,特變電工,1626963658,Vendor\ni:24651:-9,1,1,20282,Merchant,特變電工,1626963659,Vendor\ni:27977,1,1,60782,Merchant,特變電工,1626963665,Vendor\ni:27988,1,1,24576,Merchant,特變電工,1626963669,Vendor\ni:23449,10,10,214700,Banso,邁克爾假死,1626812658,Auction\ni:23449,20,20,214700,Banso,邁克爾假死,1626812661,Auction\ni:23424,20,20,11400,中二大叔,邁克爾假死,1626829144,Auction\ni:23424,20,40,11400,帽子給我好嗎,邁克爾假死,1626832217,Auction\ni:23424,20,40,11400,Austinger,邁克爾假死,1626832352,Auction\ni:24648:-9,1,1,13373,Merchant,特變電工,1627400777,Vendor\ni:24674:-36,1,1,30219,Merchant,特變電工,1627400779,Vendor\ni:24796:-35,1,1,27136,Merchant,特變電工,1627400781,Vendor\ni:24909:-5,1,1,21709,Merchant,特變電工,1627400784,Vendor\ni:25023:-45,1,1,38951,Merchant,特變電工,1627400785,Vendor\ni:28349,1,1,38045,Merchant,特變電工,1627400790,Vendor\ni:22572,2,2,48925,阿公店店花,特變電工,1627203430,Auction\ni:3860,2,4,26410,坦薩白龍,特變電工,1627201680,Auction\ni:1705,1,4,13490,坦薩白龍,特變電工,1627201666,Auction\ni:8170,20,40,14250,牛頭阿李,特變電工,1627199819,Auction\ni:22576,2,4,44460,於仙,特變電工,1627199815,Auction\ni:6214,1,1,595,Merchant,特變電工,1627445197,Vendor\ni:27538,1,1,84562,Merchant,特變電工,1627445207,Vendor\ni:25113:-16,1,2,73504,Merchant,特變電工,1627458697,Vendor\ni:31290,1,1,10709,Merchant,特變電工,1627458699,Vendor\ni:24905:-40,1,1,21380,Merchant,特變電工,1627458699,Vendor\ni:24776:-11,1,1,17248,Merchant,特變電工,1627458703,Vendor\ni:24662:-15,1,1,20619,Merchant,特變電工,1627458704,Vendor\ni:24686:-39,1,1,22467,Merchant,特變電工,1627458705,Vendor\ni:24671:-9,1,1,29128,Merchant,特變電工,1627458706,Vendor\ni:28180,1,1,44997,Merchant,特變電工,1627458711,Vendor\ni:25165:-19,1,1,89585,Merchant,特變電工,1627458712,Vendor\ni:27529,1,1,66290,Merchant,特變電工,1627458717,Vendor\ni:27518,1,1,24770,Merchant,特變電工,1627458720,Vendor\ni:31294,1,1,40363,Merchant,特變電工,1627491786,Vendor\ni:28397,1,1,67077,Merchant,特變電工,1627491787,Vendor\ni:25772,1,1,75090,Merchant,特變電工,1627491789,Vendor\ni:25183:-20,1,1,97863,Merchant,特變電工,1627491791,Vendor\ni:25293:-39,1,1,55439,Merchant,特變電工,1627491791,Vendor\ni:27742,1,1,16784,Merchant,特變電工,1627491794,Vendor\ni:28202,1,1,43253,Merchant,特變電工,1627491796,Vendor\ni:27799,1,1,36689,Merchant,特變電工,1627491797,Vendor\ni:24667:-39,1,1,21011,Merchant,特變電工,1627491798,Vendor\ni:25071:-8,1,1,38105,Merchant,特變電工,1627491799,Vendor\ni:17058,3,3,7,Merchant,特變電工,1627491800,Vendor\ni:17057,3,3,7,Merchant,特變電工,1627491800,Vendor\ni:24477,3,3,100,Merchant,特變電工,1627491802,Vendor\ni:27748,1,1,60105,Merchant,特變電工,1627539330,Vendor\ni:24477,3,3,100,Merchant,特變電工,1627539355,Vendor\ni:17058,2,2,7,Merchant,特變電工,1627539355,Vendor\ni:17057,1,1,7,Merchant,特變電工,1627539356,Vendor\ni:29399,1,1,72796,Merchant,特變電工,1627544099,Vendor\ni:28055,1,1,47247,Merchant,特變電工,1627544099,Vendor\ni:25015:-14,1,1,40822,Merchant,特變電工,1627552805,Vendor\ni:24794:-20,1,1,26930,Merchant,特變電工,1627552806,Vendor\ni:24677:-31,1,1,15634,Merchant,特變電工,1627557762,Vendor\ni:27860,5,5,320,Merchant,特變電工,1627558263,Vendor\ni:27858,6,6,280,Merchant,特變電工,1627558268,Vendor\ni:25295:-19,1,2,58506,Merchant,特變電工,1627569079,Vendor\ni:27898,1,1,62144,Merchant,特變電工,1627569082,Vendor\ni:24779:-40,1,1,26165,Merchant,特變電工,1627569130,Vendor\ni:28413,1,1,26440,Merchant,特變電工,1627569135,Vendor\ni:29316,1,1,41649,Merchant,特變電工,1627569151,Vendor\ni:30458,1,1,280,Merchant,特變電工,1627569166,Vendor\ni:23105,1,2,2500,Merchant,特變電工,1627569791,Vendor\ni:31490,1,1,52380,Merchant,特變電工,1627574018,Vendor\ni:3478,20,40,10,Merchant,特變電工,1627581312,Vendor\ni:3478,18,18,10,Merchant,特變電工,1627581313,Vendor\ni:3470,20,20,5,Merchant,特變電工,1627581313,Vendor\ni:3470,10,10,5,Merchant,特變電工,1627581313,Vendor\ni:2835,4,4,2,Merchant,特變電工,1627581314,Vendor\ni:2605,6,6,25,Merchant,特變電工,1627581317,Vendor\ni:2605,10,20,25,Merchant,特變電工,1627581317,Vendor\ni:28420,9,9,750,Merchant,特變電工,1627581456,Vendor\ni:27855,3,3,280,Merchant,特變電工,1627581463,Vendor\ni:31672,2,2,150,Merchant,特變電工,1627581489,Vendor\ni:29453,8,8,400,Merchant,特變電工,1627581491,Vendor\ni:25787,1,1,8910,Merchant,特變電工,1627581496,Vendor\ni:21877,20,20,1648,飄飄小雨,特變電工,1627581056,Auction\ni:32905,10,10,1758,奶爸想單刷啦,特變電工,1627581226,Auction\ni:24246,2,2,9215,打劫不要錢,特變電工,1627581281,Auction\ni:3860,20,20,21660,熾熱緋紅,特變電工,1627581430,Auction\ni:8170,10,10,11780,熾熱緋紅,特變電工,1627581761,Auction\ni:21877,20,40,1639,沫影,特變電工,1627582210,Auction\ni:21877,11,11,1639,沫影,特變電工,1627582214,Auction\ni:21877,20,20,1648,沫影,特變電工,1627582219,Auction\ni:21877,3,3,1648,沫影,特變電工,1627582220,Auction\ni:22832,5,10,45220,小娜娜咪,特變電工,1627582405,Auction\ni:14047,20,20,1321,火石哥,特變電工,1627582610,Auction\ni:2835,20,40,92,敲敲你的頭,特變電工,1627582752,Auction\ni:2836,10,10,300,Mixia,特變電工,1627583332,Auction\ni:4234,1,1,6935,Mixia,特變電工,1627583416,Auction\ni:4338,2,2,3230,熊貓奶茶,特變電工,1627583731,Auction\ni:14047,11,11,1321,牛牛的倉庫,特變電工,1627584229,Auction\ni:30809,41,41,10450,獨作商場,特變電工,1627585207,Auction\ni:22576,2,2,45600,Esthar,特變電工,1627585564,Auction\ni:24368,2,2,32870,阿斯忒里亞,特變電工,1627586024,Auction\ni:3577,4,4,8265,Mixia,特變電工,1627586646,Auction\ni:22578,2,2,49400,超級飛俠樂迪,特變電工,1627586905,Auction\ni:22832,1,1,45220,墨西哥土鑑師,特變電工,1627588031,Auction\ni:22832,3,3,45220,墨西哥土鑑師,特變電工,1627588033,Auction\ni:12359,20,60,18620,Mixia,特變電工,1627588927,Auction\ni:2835,20,40,92,八十中旬老翁,特變電工,1627591653,Auction\ni:22578,2,2,49400,肥仔一跌落渠,特變電工,1627601416,Auction\ni:2841,4,4,1891,雄鷹特種部隊,特變電工,1627603821,Auction\ni:22575,3,3,29260,葉玄,特變電工,1627603838,Auction\ni:3860,10,10,21660,最星,特變電工,1627607804,Auction\ni:32902,14,14,20520,放油,特變電工,1627608515,Auction\ni:32902,4,4,20520,放油,特變電工,1627608515,Auction\ni:2841,9,45,1891,千羽寧月,特變電工,1627608833,Auction\ni:12359,11,11,18620,千羽寧月,特變電工,1627610306,Auction\ni:11128,1,1,55100,靈魂魔笛手,特變電工,1627613501,Auction\ni:29740,1,4,187625,西斯萊恩,特變電工,1627616763,Auction\ni:21882,4,4,10830,獨作商場,特變電工,1627619494,Auction\ni:3860,5,5,20710,待我鬍鬚及腰,特變電工,1627619672,Auction\ni:3859,3,6,16530,多吃冰淇淋,特變電工,1627639269,Auction\ni:2836,20,80,293,多吃冰淇淋,特變電工,1627635544,Auction\ni:2836,20,60,293,多吃冰淇淋,特變電工,1627635134,Auction\ni:2835,20,20,70,多吃冰淇淋,特變電工,1627634609,Auction\ni:23445,4,4,35910,騷蹄子,特變電工,1627634169,Auction\ni:23448,1,6,378100,坦薩白龍,特變電工,1627633854,Auction\ni:23446,15,30,46930,坦薩白龍,特變電工,1627632377,Auction\ni:2838,8,16,945,坦薩白龍,特變電工,1627632337,Auction\ni:2842,5,10,7505,Metatron,特變電工,1627631820,Auction\ni:12365,20,60,2945,黃泉夜,特變電工,1627631493,Auction\ni:23424,5,5,9690,初吻給了煙,特變電工,1627631411,Auction\ni:23448,1,8,378100,神坦再臨,特變電工,1627662986,Auction\ni:23517,1,9,284050,天魔無心,特變電工,1627724144,Auction\ni:24478,1,3,7220,加錢居仕,特變電工,1627712865,Auction\ni:21877,19,19,1653,沫影,特變電工,1627706736,Auction\ni:21877,3,3,1653,沫影,特變電工,1627706734,Auction\ni:11128,1,1,23370,如來蛋,特變電工,1627766739,Auction\ni:12365,7,14,458,Gutz,特變電工,1627733259,Auction\ni:23517,1,7,284050,潑屎妹,特變電工,1627728860,Auction\ni:3860,17,34,20140,喬琪姑娘,特變電工,1627805521,Auction\ni:11128,1,2,23560,菲力三分,特變電工,1627801964,Auction\ni:11128,1,2,23560,我的阿麻尼,特變電工,1627794739,Auction\ni:27674,1,1,200,Merchant,特變電工,1627818967,Vendor\ni:24684:-37,1,1,14528,Merchant,特變電工,1627818971,Vendor\ni:25022:-10,1,1,26066,Merchant,特變電工,1627818973,Vendor\ni:25070:-41,1,1,37236,Merchant,特變電工,1627818975,Vendor\ni:28204,1,1,43578,Merchant,特變電工,1627818977,Vendor\ni:30564,1,1,30000,Merchant,特變電工,1627818982,Vendor\ni:27746,1,1,17042,Merchant,特變電工,1627831645,Vendor\ni:21877,14,28,1606,女夭,特變電工,1627819304,Auction\ni:21877,20,80,1606,女夭,特變電工,1627819301,Auction\ni:24902:-34,1,1,23371,Merchant,特變電工,1627928903,Vendor\ni:27527,1,1,61238,Merchant,特變電工,1627928910,Vendor\ni:23517,1,1,30311,Merchant,特變電工,1627928921,Vendor\ni:30258,1,1,59660,Merchant,特變電工,1628268159,Vendor\ni:31519,1,1,50226,Merchant,特變電工,1628333006,Vendor\ni:22575,2,4,33060,職業當機,特變電工,1627840289,Auction\ni:23519,1,1,520600,牛妞妞,特變電工,1628402420,Auction\ni:24911:-6,1,1,33723,Merchant,特變電工,1628532597,Vendor\ni:24902:-44,1,1,23371,Merchant,特變電工,1628532597,Vendor\ni:24773:-40,1,1,17053,Merchant,特變電工,1628532598,Vendor\ni:24800:-41,1,1,37586,Merchant,特變電工,1628876809,Vendor\ni:27893,1,1,62913,Merchant,特變電工,1628876812,Vendor\ni:25023:-8,1,1,38951,Merchant,特變電工,1628876814,Vendor\ni:27889,1,1,17722,Merchant,特變電工,1628876817,Vendor\ni:25043:-7,1,1,22901,Merchant,特變電工,1628876819,Vendor\ni:23519,1,1,2180250,唐弎葬,特變電工,1628876302,Auction\ni:24672:-26,1,1,15003,Merchant,特變電工,1628931144,Vendor\ni:25021:-36,1,1,25375,Merchant,特變電工,1628931144,Vendor\ni:27788,1,1,43913,Merchant,特變電工,1628931150,Vendor\ni:21877,7,7,1663,琉影,特變電工,1628934277,Auction\ni:21877,19,76,1663,琉影,特變電工,1628934275,Auction\ni:24690:-19,1,1,31212,Merchant,特變電工,1628949225,Vendor\ni:27771,1,1,45495,Merchant,特變電工,1628949229,Vendor\ni:23118,1,1,2500,Merchant,特變電工,1628949239,Vendor\ni:31748,1,1,41953,Merchant,特變電工,1628949241,Vendor\ni:31298,1,1,58768,Merchant,特變電工,1628949666,Vendor\ni:24674:-6,1,1,30219,Merchant,特變電工,1628955602,Vendor\ni:24669:-36,1,1,14458,Merchant,特變電工,1628955602,Vendor\ni:27540,1,1,63903,Merchant,特變電工,1628955608,Vendor\ni:24477,1,1,100,Merchant,特變電工,1628958556,Vendor\ni:27794,1,1,65983,Merchant,特變電工,1628958556,Vendor\ni:27510,1,1,26538,Merchant,特變電工,1628958561,Vendor\ni:17058,1,1,7,Merchant,特變電工,1628958561,Vendor\ni:17057,2,2,7,Merchant,特變電工,1628958562,Vendor\ni:27901,1,1,83803,Merchant,特變電工,1628958569,Vendor\ni:31670,2,2,200,Merchant,特變電工,1628958572,Vendor",
-	["c@特變電工 - 伊弗斯@internalData@auctionMessages"] = {
-		["一位買家已經購得你拍賣的魔鋼頭盔。"] = "|cff0070dd|Hitem:23519::::::::70::::::::|h[魔鋼頭盔]|h|r",
+	["g@ @craftingUIContext@professionDividedContainer"] = {
+		["leftWidth"] = 520,
 	},
 	["g@ @mailingOptions@inboxMessages"] = true,
-	["g@ @mainUIContext@dashboardUnselectedCharacters"] = {
-	},
+	["s@畜生犬隊長 - Horde - 伊弗斯@internalData@goldLogLastUpdate"] = 1626316438,
 	["g@ @shoppingOptions@searchAutoFocus"] = true,
-	["g@ @vendoringUIContext@showDefault"] = true,
-	["g@ @shoppingOptions@buyoutAlertSource"] = "min(100000g, 200% dbmarket)",
+	["g@ @coreOptions@chatFrame"] = "",
+	["f@Horde - 伊弗斯@userData@craftingCooldownIgnore"] = {
+	},
 	["c@邁克爾假死 - 伊弗斯@mainUIContext@exportGroupTree"] = {
 		["collapsed"] = {
 		},
@@ -3035,8 +2475,8 @@ TradeSkillMasterDB = {
 		["colWidth"] = {
 			["items"] = 380,
 			["sender"] = 100,
-			["money"] = 115,
 			["expires"] = 65,
+			["money"] = 115,
 		},
 		["colHidden"] = {
 			["sender"] = true,
@@ -3063,169 +2503,123 @@ TradeSkillMasterDB = {
 		["i:28341"] = 1,
 		["i:27854"] = 3,
 		["i:30358"] = 20,
-		["i:29579"] = 2,
-		["i:30721"] = 1,
-		["i:30807"] = 1,
-		["i:24421"] = 17,
-		["i:28100"] = 5,
+		["i:28553"] = 1,
+		["i:24516"] = 1,
+		["i:24449"] = 1,
+		["i:24401"] = 1,
 		["i:29425"] = 18,
-		["i:28102"] = 4,
 		["i:6948"] = 1,
-		["i:31322"] = 1,
 		["i:23572"] = 9,
+		["i:30810"] = 5,
+		["i:31322"] = 1,
+		["i:20558"] = 18,
 		["i:33999"] = 1,
 		["i:27500"] = 2,
-		["i:29451"] = 12,
+		["i:32902"] = 2,
 		["i:30638"] = 1,
 		["i:21991"] = 18,
-		["i:30810"] = 5,
+		["i:24338"] = 3,
 		["i:32905"] = 10,
 		["i:22572"] = 4,
 		["i:22831"] = 2,
-		["i:20558"] = 18,
+		["i:27903"] = 1,
 		["i:28558"] = 27,
 		["i:22577"] = 1,
 		["i:29434"] = 34,
-		["i:27903"] = 1,
-		["i:24338"] = 3,
+		["i:28102"] = 4,
+		["i:29451"] = 12,
 		["i:33042"] = 8,
-		["i:32902"] = 2,
+		["i:29579"] = 2,
 		["i:24246"] = 3,
-		["i:24401"] = 1,
-		["i:24449"] = 1,
-		["i:24516"] = 1,
-		["i:28553"] = 1,
+		["i:28100"] = 5,
+		["i:24421"] = 17,
+		["i:30721"] = 1,
+		["i:30807"] = 1,
 		["i:22832"] = 3,
 	},
-	["f@Horde - 伊弗斯@internalData@mats"] = {
-		["i:1705"] = {
-		},
-		["i:22449"] = {
-		},
-		["i:22457"] = {
-		},
-		["i:21884"] = {
-		},
-		["i:21877"] = {
-		},
-		["i:7069"] = {
-		},
-		["i:2319"] = {
-		},
-		["i:28440"] = {
-		},
-		["i:12359"] = {
-		},
-		["i:7912"] = {
-		},
-		["i:3575"] = {
-		},
-		["i:3860"] = {
-		},
-		["i:4255"] = {
-		},
-		["i:1529"] = {
-		},
-		["i:774"] = {
-		},
-		["i:27503"] = {
-		},
-		["i:1210"] = {
-		},
-		["i:2835"] = {
-		},
-		["i:3486"] = {
-		},
-		["i:21885"] = {
-		},
-		["i:12655"] = {
-		},
-		["i:22451"] = {
-		},
-		["i:4338"] = {
-		},
-		["i:7971"] = {
-		},
-		["i:4304"] = {
-		},
-		["i:23445"] = {
-		},
-		["i:2318"] = {
-		},
-		["i:5498"] = {
-		},
-		["i:3859"] = {
-		},
-		["i:7067"] = {
-		},
-		["i:8170"] = {
-		},
-		["i:1206"] = {
-		},
-		["i:2589"] = {
-		},
-		["i:2842"] = {
-		},
-		["i:2841"] = {
-		},
-		["i:2838"] = {
-		},
-		["i:4306"] = {
-		},
-		["i:3470"] = {
-		},
-		["i:7966"] = {
-		},
-		["i:6037"] = {
-		},
-		["i:12644"] = {
-		},
-		["i:12360"] = {
-		},
-		["i:23446"] = {
-		},
-		["i:12365"] = {
-		},
-		["i:5500"] = {
-		},
-		["i:2321"] = {
-		},
-		["i:2605"] = {
-		},
-		["i:3577"] = {
-		},
-		["i:2592"] = {
-		},
-		["i:22831"] = {
-		},
-		["i:818"] = {
-		},
-		["i:14047"] = {
-		},
-		["i:23573"] = {
-		},
-		["i:3466"] = {
-		},
-		["i:23448"] = {
-		},
-		["i:4234"] = {
-		},
-		["i:22573"] = {
-		},
-		["i:23572"] = {
-		},
-		["i:3478"] = {
-		},
-		["i:2880"] = {
-		},
-		["i:2836"] = {
-		},
-		["i:2840"] = {
-		},
-		["i:23449"] = {
-		},
-		["i:3864"] = {
-		},
+	["g@ @internalData@vendorItems"] = {
+		["i:17194"] = 10,
+		["i:159"] = 25,
+		["i:8925"] = 2500,
+		["i:8343"] = 2000,
+		["i:1179"] = 125,
+		["i:29186"] = 850000,
+		["i:18256"] = 30000,
+		["i:4291"] = 500,
+		["i:6217"] = 124,
+		["i:2678"] = 10,
+		["i:4340"] = 350,
+		["i:17031"] = 1000,
+		["i:29181"] = 671595,
+		["i:30635"] = 85000,
+		["i:3713"] = 160,
+		["i:16583"] = 10000,
+		["i:17202"] = 10,
+		["i:17021"] = 700,
+		["i:10648"] = 500,
+		["i:11291"] = 4500,
+		["i:4342"] = 2500,
+		["i:14341"] = 5000,
+		["i:2325"] = 1000,
+		["i:2604"] = 50,
+		["i:17030"] = 2000,
+		["i:4399"] = 200,
+		["i:6260"] = 50,
+		["i:5140"] = 25,
+		["i:3372"] = 200,
+		["i:17035"] = 400,
+		["i:17034"] = 200,
+		["i:2320"] = 10,
+		["i:2692"] = 40,
+		["i:4400"] = 2000,
+		["i:4470"] = 38,
+		["i:2596"] = 120,
+		["i:33152"] = 85000,
+		["i:5956"] = 15,
+		["i:4341"] = 500,
+		["i:31355"] = 34000,
+		["i:29185"] = 375992,
+		["i:2324"] = 25,
+		["i:3371"] = 20,
+		["i:17037"] = 1400,
+		["i:21177"] = 3000,
+		["i:6530"] = 100,
+		["i:22536"] = 85000,
+		["i:17036"] = 800,
+		["i:24174"] = 102000,
+		["i:24181"] = 102000,
+		["i:29183"] = 366687,
+		["i:29184"] = 262226,
+		["i:2665"] = 20,
+		["i:17032"] = 2000,
+		["i:29182"] = 1748278,
+		["i:33160"] = 102000,
+		["i:29713"] = 102000,
+		["i:4536"] = 25,
+		["i:29198"] = 850000,
+		["i:25910"] = 102000,
+		["i:17196"] = 50,
+		["i:6261"] = 1000,
+		["i:17029"] = 1000,
+		["i:2894"] = 50,
+		["i:10290"] = 2500,
+		["i:18567"] = 127500,
+		["i:2901"] = 69,
+		["i:17028"] = 700,
+		["i:31777"] = 8500,
+		["i:2321"] = 100,
+		["i:10647"] = 2000,
+		["i:3466"] = 1700,
+		["i:2605"] = 100,
+		["i:3857"] = 425,
+		["i:17026"] = 1000,
+		["i:33158"] = 102000,
+		["i:28272"] = 68000,
+		["i:2880"] = 85,
+		["i:4289"] = 50,
+		["i:17020"] = 1000,
+		["i:17033"] = 2000,
+		["i:17038"] = 2000,
 	},
 	["s@畜生犬隊長 - Horde - 伊弗斯@internalData@goldLog"] = "minute,copper\n27050933,370000\n27105273,160000",
 	["g@ @mainUIContext@ledgerInventoryScrollingTable"] = {
@@ -3236,14 +2630,14 @@ TradeSkillMasterDB = {
 			["banks"] = 50,
 			["item"] = 160,
 			["totalItems"] = 50,
-			["guildVault"] = 50,
-			["alts"] = 50,
 			["mail"] = 50,
+			["alts"] = 50,
+			["guildVault"] = 50,
 		},
 		["colHidden"] = {
 		},
 	},
-	["c@特變電工 - 伊弗斯@auctionUIContext@auctioningGroupTree"] = {
+	["c@路易斯桑拿 - 伊弗斯@auctionUIContext@shoppingGroupTree"] = {
 		["collapsed"] = {
 		},
 		["unselected"] = {
@@ -3254,15 +2648,15 @@ TradeSkillMasterDB = {
 			["ilvl"] = 32,
 			["pct"] = 40,
 			["seller"] = 86,
-			["stack"] = 40,
-			["bidPct"] = 40,
-			["itemBuyout"] = 115,
 			["item"] = 230,
-			["itemBid"] = 115,
-			["bid"] = 115,
+			["bidPct"] = 40,
 			["posts"] = 40,
-			["icon"] = 24,
 			["buyout"] = 115,
+			["itemBuyout"] = 115,
+			["bid"] = 115,
+			["itemBid"] = 115,
+			["icon"] = 24,
+			["stack"] = 40,
 		},
 		["colHidden"] = {
 			["bid"] = true,
@@ -3279,10 +2673,13 @@ TradeSkillMasterDB = {
 			999000, -- [3]
 		},
 	},
-	["g@ @sniperOptions@sniperSound"] = "TSM_NO_SOUND",
-	["s@路易斯桑拿 - Horde - 伊弗斯@internalData@bagQuantity"] = {
-		["i:117"] = 4,
-		["i:6948"] = 1,
+	["s@路易斯桑拿 - Horde - 伊弗斯@internalData@bankQuantity"] = {
+	},
+	["g@ @taskListUIContext@frame"] = {
+		["topRightY"] = -10,
+		["isOpen"] = true,
+		["topRightX"] = -220,
+		["minimized"] = false,
 	},
 	["g@ @coreOptions@groupPriceSource"] = "dbmarket",
 	["s@畜生犬隊長 - Horde - 伊弗斯@internalData@bagQuantity"] = {
@@ -3301,64 +2698,33 @@ TradeSkillMasterDB = {
 		["i:1413"] = 1,
 		["i:4814"] = 2,
 		["i:6298"] = 1,
-		["i:118"] = 1,
 		["i:11391"] = 2,
+		["i:118"] = 1,
 	},
 	["s@邁克爾假死 - Horde - 伊弗斯@internalData@money"] = 2326086,
-	["s@邁克爾假死 - Horde - 伊弗斯@internalData@mailQuantity"] = {
-		["i:24998"] = 1,
-		["i:22457"] = 1,
-		["i:24886"] = 1,
-		["i:21877"] = 569,
-		["i:24666"] = 1,
-		["i:25012"] = 1,
-		["i:14047"] = 8,
-		["i:25057"] = 1,
-		["i:31952"] = 2,
-		["i:24623"] = 1,
-		["i:3823"] = 5,
-		["i:30809"] = 2,
-		["i:22577"] = 2,
-		["i:30810"] = 29,
-		["i:24991"] = 1,
-		["i:22572"] = 4,
-		["i:9172"] = 4,
-		["i:32902"] = 3,
-		["i:13446"] = 10,
-		["i:25041"] = 1,
-		["i:22573"] = 10,
-		["i:22575"] = 9,
-		["i:25719"] = 2,
-		["i:22829"] = 4,
-		["i:24643"] = 1,
-		["i:24246"] = 1,
-		["i:22578"] = 17,
-		["i:21882"] = 9,
-		["i:22576"] = 13,
-		["i:22574"] = 4,
-		["i:22832"] = 1,
-	},
 	["c@畜生犬隊長 - 伊弗斯@craftingUIContext@groupTree"] = {
 		["collapsed"] = {
 		},
 		["unselected"] = {
 		},
 	},
+	["g@ @auctionUIContext@auctioningSelectionDividedContainer"] = {
+		["leftWidth"] = 272,
+	},
 	["g@ @mainUIContext@ledgerDetailScrollingTable"] = {
 		["colWidth"] = {
-			["buyerSeller"] = 100,
+			["activityType"] = 91,
 			["source"] = 60,
 			["time"] = 110,
-			["perItem"] = 120,
 			["qty"] = 45,
+			["perItem"] = 120,
 			["totalPrice"] = 120,
-			["activityType"] = 91,
+			["buyerSeller"] = 100,
 		},
 		["colHidden"] = {
 		},
 	},
-	["c@特變電工 - 伊弗斯@internalData@craftingCooldowns"] = {
-	},
+	["f@Horde - 伊弗斯@gatheringContext@crafter"] = "",
 	["g@ @craftingUIContext@matsScrollingTable"] = {
 		["colWidth"] = {
 			["price"] = 100,
@@ -3372,26 +2738,34 @@ TradeSkillMasterDB = {
 	["s@路易斯桑拿 - Horde - 伊弗斯@internalData@auctionQuantity"] = {
 	},
 	["g@ @appearanceOptions@showTotalMoney"] = false,
-	["g@ @tooltipOptions@embeddedTooltip"] = true,
-	["g@ @craftingOptions@ignoreCharacters"] = {
+	["f@Horde - 伊弗斯@internalData@guildGoldLogLastUpdate"] = {
 	},
+	["s@邁克爾假死 - Horde - 伊弗斯@internalData@classKey"] = "HUNTER",
 	["r@伊弗斯@internalData@csvIncome"] = "type,amount,otherPlayer,player,time\nMoney Transfer,106000000,邁克爾假死,特變電工,1628922139\nMoney Transfer,100000000,邁克爾假死,特變電工,1627631964\nMoney Transfer,2000000,特變電工,邁克爾假死,1627217808\nMoney Transfer,5300000,邁克爾假死,特變電工,1627199452\nMoney Transfer,50000000,特變電工,邁克爾假死,1626789364\nMoney Transfer,10001000,邁克爾假死,特變電工,1626264956\nMoney Transfer,62000000,特變電工,邁克爾假死,1626612809\nMoney Transfer,5000000,特變電工,邁克爾假死,1626713604\nMoney Transfer,16000000,邁克爾假死,特變電工,1627199047\nMoney Transfer,50000000,邁克爾假死,特變電工,1626787067\nMoney Transfer,60000000,邁克爾假死,特變電工,1626461078\nMoney Transfer,1000100,邁克爾假死,特變電工,1626026618\nMoney Transfer,3200000,皮蛋瘦肉粥,邁克爾假死,1625332641\nMoney Transfer,4590000,成都張叔叔,邁克爾假死,1625210321",
 	["p@Default@userData@items"] = {
 	},
 	["r@伊弗斯@internalData@saveTimeBuys"] = "1623055868,1623055868,1623055868,1623055868,1625059645,1625059645,1625059645,1625059645,1625137110,1625137110,1625137110,1625146057,1625146057,1625146057,1625162780,1625162780,1625162780,1625162780,1625162780,1625162780,1625162780,1625162780,1625162780,1625162780,1625332516,1625335417,1625335417,1625335417,1625335417,1625843280,1625843280,1625843280,1625905645,1625905645,1625905645,1625905645,1625905645,1625905645,1625905645,1625905645,1625905645,1626026620,1626026620,1626026620,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284487,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626316440,1626316440,1626461032,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626598848,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626789366,1626789366,1626789366,1626789546,1626789812,1626789812,1626789812,1626789812,1626789812,1626789812,1626789812,1626790929,1626790929,1626790929,1626790929,1626790929,1626790929,1626790929,1626790929,1626790929,1626790929,1626792111,1626792111,1626792111,1626792969,1626792969,1626792969,1626793406,1626793406,1626793406,1626794465,1626801375,1626801375,1626801375,1626801375,1626801375,1626802200,1626803447,1626805003,1626867703,1626884406,1626884406,1626884406,1626884406,1626884406,1626884406,1626884406,1626884406,1626884406,1626884406,1626884406,1626892259,1626892259,1626892259,1626981521,1627118053,1627141300,1627141300,1627198946,1627198946,1627199339,1627199339,1627199339,1627199339,1627199339,1627199339,1627199339,1627199339,1627199339,1627208951,1627208951,1627208951,1627208951,1627208951,1627208951,1627208951,1627208951,1627208951,1627415720,1627415720,1627415720,1627415720,1627415720,1627453037,1627453037,1627453037,1627453037,1627453037,1627572834,1627572834,1627572834,1627572834,1627572834,1627572834,1627572834,1627621540,1627621540,1627621540,1627621540,1627631690,1627631690,1627631690,1627631690,1627631690,1627631690,1627631690,1627631690,1627631690,1627631690,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627671285,1627671285,1627707674,1627707674,1627754694,1627754694,1627754694,1627754694,1627754694,1627754694,1627754694,1627754694,1627793475,1627793475,1627793475,1627793475,1627793475,1627793475,1627839299,1627839299,1627839299,1627839299,1628011810,1628011810,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628418101,1628418101,1628442614,1628442614,1628442614,1628442614,1628442614,1628442614,1628442614,1628442614,1628442614,1628442614,1628877850,1628944841,1628944841,1628944841,1628944841,1628944841,1628944841,1628944841,1628944841,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737",
 	["g@ @mailingOptions@sendMessages"] = true,
-	["f@Horde - 伊弗斯@internalData@guildGoldLogLastUpdate"] = {
+	["c@畜生犬隊長 - 伊弗斯@vendoringUIContext@groupTree"] = {
+		["collapsed"] = {
+		},
+		["unselected"] = {
+		},
 	},
-	["c@邁克爾假死 - 伊弗斯@bankingUIContext@auctioningGroupTree"] = {
+	["g@ @coreOptions@minimapIcon"] = {
+		["minimapPos"] = 170.2092733147794,
+		["radius"] = 80,
+		["hide"] = false,
+	},
+	["_syncAccountKey"] = {
+		["Horde - 伊弗斯"] = "Horde - 伊弗斯 - 798530221",
+	},
+	["c@邁克爾假死 - 伊弗斯@bankingUIContext@mailingGroupTree"] = {
 		["unselected"] = {
 		},
 		["collapsed"] = {
 		},
 	},
-	["_syncAccountKey"] = {
-		["Horde - 伊弗斯"] = "Horde - 伊弗斯 - 798530221",
-	},
-	["s@邁克爾假死 - Horde - 伊弗斯@internalData@goldLogLastUpdate"] = 1628922137,
 	["g@ @auctionUIContext@shoppingSelectionDividedContainer"] = {
 		["leftWidth"] = 272,
 	},
@@ -3403,9 +2777,9 @@ TradeSkillMasterDB = {
 			"postItems", -- [1]
 			"postItems", -- [2]
 		},
-		["isFavorite"] = {
-		},
 		["name"] = {
+		},
+		["isFavorite"] = {
 		},
 		["filters"] = {
 			"i:14047", -- [1]
@@ -3413,7 +2787,7 @@ TradeSkillMasterDB = {
 		},
 	},
 	["g@ @craftingUIContext@showDefault"] = false,
-	["s@邁克爾假死 - Horde - 伊弗斯@internalData@classKey"] = "HUNTER",
+	["s@邁克爾假死 - Horde - 伊弗斯@internalData@goldLogLastUpdate"] = 1628922137,
 	["c@邁克爾假死 - 伊弗斯@craftingUIContext@groupTree"] = {
 		["collapsed"] = {
 		},
@@ -3426,29 +2800,23 @@ TradeSkillMasterDB = {
 		["unselected"] = {
 		},
 	},
-	["c@特變電工 - 伊弗斯@mainUIContext@importGroupTree"] = {
+	["c@邁克爾假死 - 伊弗斯@mainUIContext@importGroupTree"] = {
 		["collapsed"] = {
 		},
 		["selected"] = {
 		},
 	},
-	["g@ @internalData@destroyingHistory"] = {
-	},
+	["g@ @auctioningOptions@matchWhitelist"] = true,
 	["g@ @bankingUIContext@frame"] = {
-		["centerX"] = -477.3999918699265,
+		["width"] = 325.0003967285156,
 		["height"] = 600.0001220703125,
 		["centerY"] = 39.19999933242798,
 		["scale"] = 1,
-		["width"] = 325.0003967285156,
+		["centerX"] = -477.3999918699265,
 	},
-	["s@路易斯桑拿 - Horde - 伊弗斯@internalData@playerProfessions"] = {
+	["c@邁克爾假死 - 伊弗斯@internalData@auctionPrices"] = {
 	},
-	["c@路易斯桑拿 - 伊弗斯@bankingUIContext@warehousingGroupTree"] = {
-		["collapsed"] = {
-		},
-		["unselected"] = {
-		},
-	},
+	["s@路易斯桑拿 - Horde - 伊弗斯@internalData@money"] = 0,
 	["g@ @bankingUIContext@tab"] = "Warehousing",
 	["c@邁克爾假死 - 伊弗斯@internalData@auctionSaleHints"] = {
 		["魔鐵錠i:2344520488000"] = 1626803287,
@@ -3457,7 +2825,12 @@ TradeSkillMasterDB = {
 		["魔鐵錠i:2344518439200"] = 1626803287,
 		["克銀錠i:23449204520000"] = 1626803287,
 	},
-	["f@Horde - 伊弗斯@internalData@csvAuctionDBScan"] = "itemString,minBuyout,marketValue,numAuctions,quantity,lastScan\ni:16251,77000,77500,13,13,1626877749\ni:7059,77412,77412,1,1,1626877749\ni:10239,30000,30000,1,1,1626877749\ni:13491,99500,99500,3,3,1626877749\ni:25286,65200,65200,5,5,1626877750\ni:7090,2497500,2497500,2,2,1626877749\ni:11204,157999,157999,2,2,1626877749\ni:19441,1960,1965,23,55,1626877750\ni:4377,2400,2779,26,121,1626877749\ni:3480,15000,15000,16,16,1626877749\ni:7289,500000,500000,3,3,1626877749\ni:24170,467000,467000,6,6,1626877749\ni:23596,280000,280000,5,5,1626877749\ni:17062,20599,20599,7,7,1626877749\ni:28420,19800,20150,9,43,1626877749\ni:2728,4000,4000,3,3,1626877749\ni:13004,5000000,5000000,1,1,1626877749\ni:8492,11880000,11880000,1,1,1626877749\ni:18634,3295062,3295062,1,1,1626877749\ni:8201,514719,514719,1,1,1626877749\ni:4247,10000,10000,17,17,1626877749\ni:6585,200000,200000,1,1,1626877749\ni:2585,98581,98581,1,1,1626877749\ni:33092,37100,37160,17,340,1626877749\ni:22914,12000000,12000000,3,3,1626877749\ni:13939,39799,39799,7,7,1626877749\ni:7915,358920,358920,1,1,1626877749\ni:10408,335300,335300,1,1,1626877749\ni:24246,9799,9799,20,1020,1626877749\ni:24889,110000,110000,2,2,1626877749\ni:24830,500000,500000,1,1,1626877750\ni:25071,150000,150000,3,3,1626877749\ni:20959,50000,57500,14,14,1626877749\ni:21948,44999,44999,5,5,1626877749\ni:4325,27264,27264,1,1,1626877749\ni:20404,8200,55064,7,558,1626877749\ni:14179,30000,30000,1,1,1626877749\ni:24401,470,1108,59,600,1626877749\ni:8390,29800,29800,1,1,1626877749\ni:12682,100000,100000,1,1,1626877749\ni:9999,153999,153999,2,2,1626877749\ni:24992,80000,80000,2,2,1626877749\ni:15121,10000,10000,1,1,1626877749\ni:13128,410000,410000,1,1,1626877749\ni:4236,99999,122552,51,53,1626877749\ni:16647,8000,8000,1,1,1626877749\ni:4080,200000,200000,1,1,1626877749\ni:34826,987000,987000,6,6,1626877749\ni:3182,35000,35000,3,3,1626877749\ni:9155,10000,14974,25,125,1626877749\ni:22644,1666,1666,3,11,1626877749\ni:29732,10000000,10000000,1,1,1626877749\ni:21862,350000,350000,16,16,1626877749\ni:9844,100000,100000,1,1,1626877749\ni:31143,160000,160000,6,5,1626877749\ni:14107,157692,157692,1,1,1626877749\ni:24872,77700,77700,3,3,1626877749\ni:9880,80000,80000,1,1,1626877749\ni:25111,150000,150000,2,2,1626877749\ni:11083,19798,19798,60,394,1626877749\ni:8402,9800,9800,3,3,1626877749\ni:8106,200000,200000,1,1,1626877749\ni:14418,50000,50000,1,1,1626877750\ni:24880,70000,70000,3,3,1626877749\ni:2815,600000,600000,1,1,1626877749\ni:25099,500000,500000,2,2,1626877749\ni:19231,149500,149500,2,2,1626877749\ni:20861,29400,29400,5,5,1626877749\ni:14248,50000,50000,1,1,1626877749\ni:4327,343419,343419,1,1,1626877749\ni:23502,2151104,2151104,1,1,1626877749\ni:21536,7000,7000,3,52,1626877750\ni:2307,31007,31007,1,1,1626877749\ni:20971,123000,123000,5,5,1626877749\ni:8846,16666,20499,41,431,1626877749\ni:25847,489000,489000,5,5,1626877750\ni:4778,200000,200000,7,7,1626877749\ni:27682,5000,5000,3,60,1626877749\ni:3824,86500,86500,21,25,1626877749\ni:22834,109500,109500,29,107,1626877749\ni:24201,2879998,2879998,3,3,1626877749\ni:10034,500000,500000,1,1,1626877750\ni:18650,29799,29799,6,6,1626877749\ni:4328,68559,68559,1,1,1626877750\ni:7387,125500,125500,4,4,1626877749\ni:8191,885472,885472,2,2,1626877749\ni:24056,289000,292285,27,27,1626877749\ni:8168,1330,1330,1,15,1626877749\ni:24610,60000,60000,6,6,1626877749\ni:6149,1970,1979,19,83,1626877750\ni:22248,457999,457999,7,7,1626877749\ni:13121,260000,260000,3,3,1626877749\ni:12640,16486812,16486812,1,1,1626877749\ni:24933,100000,100000,1,1,1626877749\ni:29378,1000000,1000000,1,1,1626877749\ni:20820,19000,19000,3,3,1626877749\ni:6275,120500,120500,5,5,1626877749\ni:8495,90000,94998,7,7,1626877749\ni:3612,74999,74999,1,1,1626877750\ni:25119,130000,130000,1,1,1626877749\ni:29550,2997500,3001625,16,16,1626877749\ni:25293,79900,79900,5,5,1626877749\ni:18357,9200,9200,3,3,1626877749\ni:24033,487999,490356,61,61,1626877749\ni:7954,4317344,4317344,1,1,1626877749\ni:4343,8727,8727,1,1,1626877749\ni:2889,500000,500000,3,3,1626877749\ni:1613,60000,60000,1,1,1626877749\ni:24789,302521,302521,3,3,1626877749\ni:7539,500000,500000,1,1,1626877749\ni:18362,209000,209000,2,2,1626877749\ni:31285,349000,349000,6,6,1626877749\ni:31227,350000,350000,1,1,1626877749\ni:6050,9399,9399,6,30,1626877749\ni:2449,1914,1936,36,518,1626877749\ni:3848,26002,26002,2,2,1626877749\ni:1710,644,649,31,125,1626877750\ni:24691,3000000,3000000,1,1,1626877749\ni:7085,109000,109000,1,1,1626877750\ni:24887,60000,60000,3,3,1626877749\ni:8838,7800,8541,9,143,1626877749\ni:21754,100034,100034,1,1,1626877749\ni:7965,16317,16317,4,20,1626877749\ni:871,5000000,5000000,1,1,1626877749\ni:13940,106999,106999,7,7,1626877749\ni:9855,200000,200000,1,1,1626877749\ni:4334,29800,29849,14,14,1626877749\ni:24106,2009000,2009000,1,1,1626877749\ni:8139,50000,50000,1,1,1626877749\ni:24749,50500,50500,1,1,1626877749\ni:12204,50000,50000,1,1,1626877749\ni:6786,4526,4526,1,1,1626877749\ni:11965,46399,46399,1,1,1626877749\ni:21868,387000,387000,3,3,1626877749\ni:791,281000,281000,2,2,1626877749\ni:24664,90000,90000,5,5,1626877749\ni:18239,109000,109000,5,5,1626877749\ni:6241,20000,20000,10,10,1626877749\ni:14511,44440000,44440000,1,1,1626877749\ni:23774,228000,228000,19,19,1626877750\ni:19026,24194,24194,6,48,1626877749\ni:15772,250000,250000,1,1,1626877749\ni:31131,999499,999499,1,1,1626877749\ni:2555,1000000,1000000,6,6,1626877749\ni:13109,338342,338342,1,1,1626877750\ni:4406,89499,89500,33,33,1626877750\ni:13443,10700,15950,5,17,1626877749\ni:12958,127500,127750,7,7,1626877749\ni:22832,46600,47000,176,728,1626877749\ni:15052,2170332,2170332,1,1,1626877749\ni:25054,60000,60000,9,9,1626877749\ni:10507,3287,24199,4,54,1626877749\ni:3040,31500,31500,1,1,1626877749\ni:20668,2990000,2990000,1,1,1626877749\ni:2458,800,800,5,25,1626877749\ni:22890,500000,500000,1,1,1626877749\ni:4589,24600,24600,5,10,1626877749\ni:24217,8500000,8500000,1,1,1626877749\ni:858,199,1897,25,84,1626877749\ni:31079,257995,257995,10,22,1626877749\ni:2862,999,999,18,135,1626877749\ni:9832,60000,60000,1,1,1626877750\ni:31196,280000,280000,2,2,1626877749\ni:18648,29799,29799,6,6,1626877749\ni:2456,400,400,15,69,1626877749\ni:15548,60000,60000,1,1,1626877749\ni:17202,250,250,13,260,1626877749\ni:23783,23600,24015,21,53,1626877749\ni:2243,2000000,2000000,1,1,1626877749\ni:21895,65999,65999,6,6,1626877749\ni:29528,148500,149166,11,11,1626877749\ni:15244,100000,100000,1,1,1626877749\ni:24884,130000,130000,1,1,1626877749\ni:24966,200000,200000,1,1,1626877749\ni:4611,5700,5750,5,7,1626877749\ni:24666,50000,50000,10,10,1626877749\ni:25699,35000,41034,44,143,1626877749\ni:23771,18600,18799,10,45,1626877750\ni:28452,487,487,2,40,1626877749\ni:15748,1000000,1000000,1,1,1626877750\ni:18487,199500,199500,2,2,1626877749\ni:15322,19000,19000,4,4,1626877749\ni:17203,0,0,1,0,1626877749\ni:4402,2300,2355,14,33,1626877749\ni:9304,120498,120498,6,6,1626877749\ni:22449,273000,281123,207,408,1626877749\ni:23763,1500000,1500000,2,2,1626877749\ni:25289,900000,900000,1,1,1626877749\ni:24029,2074499,2074811,32,32,1626877749\ni:4390,1125,1125,14,119,1626877749\ni:5009,20000,20000,4,4,1626877749\ni:6367,5000000,5000000,1,1,1626877749\ni:25057,200000,200000,4,4,1626877749\ni:22252,3998000,3998000,2,2,1626877749\ni:23528,39200,39200,19,95,1626877750\ni:27442,4500000,4500000,2,2,1626877749\ni:11371,199499,199499,23,112,1626877749\ni:20818,19799,19908,38,38,1626877749\ni:24065,111094,111098,16,16,1626877749\ni:24032,2107399,2107499,17,17,1626877749\ni:15067,2817972,2817972,1,1,1626877749\ni:23631,29990000,29990000,2,2,1626877749\ni:3335,1888888,1888888,1,1,1626877749\ni:21940,3887500,3887500,1,1,1626877749\ni:24165,2507500,2507500,2,2,1626877749\ni:15603,50000,50000,1,1,1626877750\ni:3842,48000,48000,15,15,1626877749\ni:6037,6700,6759,14,40,1626877749\ni:16252,3399999,3399999,5,5,1626877749\ni:19267,4000000,4000000,1,1,1626877749\ni:25886,37554,37554,2,10,1626877749\ni:8399,1800,1800,2,2,1626877749\ni:29529,294000,294000,29,29,1626877750\ni:19817,199999,199999,4,4,1626877749\ni:10048,64748,64748,1,1,1626877749\ni:38328,497999,497999,3,3,1626877749\ni:31173,199000,199000,2,2,1626877749\ni:14143,502858,502858,1,1,1626877749\ni:3820,4500,4715,14,126,1626877749\ni:12636,4366596,4366596,1,1,1626877749\ni:9885,100000,100000,1,1,1626877749\ni:7482,8000,8000,1,1,1626877749\ni:27692,167499,167499,13,13,1626877749\ni:16656,10000,10000,3,3,1626877750\ni:8198,478504,478504,2,2,1626877749\ni:28497,101883,101883,3,3,1626877750\ni:22853,1633332,1633332,91,91,1626877749\ni:12037,243,244,8,48,1626877749\ni:6330,29800,29800,6,6,1626877749\ni:24685,5000000,5000000,1,1,1626877749\ni:24773,58300,58300,1,1,1626877749\ni:29733,1905000,1905000,1,1,1626877750\ni:24688,300000,300000,3,3,1626877749\ni:14429,200000,200000,1,1,1626877749\ni:28495,109800,109800,4,4,1626877749\ni:25845,2507500,2769166,13,13,1626877749\ni:10310,26799,26799,20,25,1626877749\ni:5082,148,148,2,3,1626877750\ni:8827,9600,10965,38,101,1626877749\ni:20422,44800,44800,1,1,1626877749\ni:10513,387,387,12,2364,1626877749\ni:25215,108800,108800,3,3,1626877749\ni:4326,29952,29952,1,1,1626877749\ni:22823,24600,24600,3,15,1626877749\ni:6401,29999,29999,4,4,1626877749\ni:15053,650347,650347,1,1,1626877749\ni:24824,500000,500000,1,1,1626877749\ni:21886,268000,269866,29,54,1626877749\ni:7989,4199999,4199999,2,2,1626877749\ni:9901,20000,20000,2,2,1626877749\ni:3830,119000,119000,5,5,1626877749\ni:23858,499999,499999,1,1,1626877749\ni:22450,430000,430000,12,23,1626877749\ni:14177,23000,23000,1,1,1626877749\ni:16651,10000,10000,2,2,1626877749\ni:21866,550000,550000,9,9,1626877749\ni:12034,20000,20000,1,1,1626877749\ni:16713,500000,500000,1,1,1626877749\ni:25063,50000,50000,5,5,1626877749\ni:19262,500000,500000,1,1,1626877749\ni:27736,49999,49999,7,7,1626877749\ni:8951,9800,9800,1,11,1626877749\ni:13465,23400,23589,10,43,1626877749\ni:24947,500000,500000,1,1,1626877749\ni:23592,104000,104000,6,6,1626877749\ni:7378,9900,9900,28,27,1626877749\ni:28534,50000,50000,2,2,1626877749\ni:7290,500000,500000,3,3,1626877749\ni:4235,100000,100000,9,26,1626877749\ni:25084,130000,130000,2,2,1626877749\ni:2164,1500000,1500000,2,2,1626877749\ni:20963,70000,79844,11,52,1626877749\ni:8831,13375,17141,54,607,1626877749\ni:18283,3939998,3939998,9,9,1626877749\ni:22146,59500,59500,7,7,1626877749\ni:16799,2000000,2000000,1,1,1626877749\ni:10588,1611663,1611663,2,2,1626877749\ni:16971,13799,13799,1,20,1626877749\ni:18562,1207499,1207499,10,10,1626877749\ni:21991,4100,4150,17,340,1626877749\ni:32905,2100,2100,13,17,1626877749\ni:27656,1995,3000,13,181,1626877749\ni:22548,4795000,4795000,3,3,1626877749\ni:9036,9000,9221,12,50,1626877749\ni:23448,498000,518647,136,178,1626877749\ni:17026,498,498,4,79,1626877749\ni:6533,1055,1055,17,318,1626877749\ni:25036,300000,300000,1,1,1626877749\ni:24254,7000000,7000000,1,1,1626877749\ni:32772,508000,508000,6,6,1626877749\ni:7534,100000,100000,1,1,1626877749\ni:24868,40000,40000,1,1,1626877749\ni:15284,200000,200000,1,1,1626877749\ni:29960,25000000,25000000,2,2,1626877749\ni:31158,4500000,4500000,1,1,1626877749\ni:24477,185,188,47,333,1626877749\ni:8956,36400,36599,7,24,1626877749\ni:10308,1445,1447,5,7,1626877749\ni:23499,1907998,1907998,1,1,1626877749\ni:7061,795317,795317,1,1,1626877749\ni:28104,435000,435999,16,73,1626877749\ni:7067,46633,49440,37,110,1626877749\ni:15741,127000,127000,5,5,1626877749\ni:24673,155000,155000,3,3,1626877749\ni:7972,483,488,27,175,1626877749\ni:16112,19600,19650,15,15,1626877749\ni:7742,210000,210000,3,3,1626877749\ni:24624,109900,109900,3,3,1626877749\ni:7372,103957,103957,5,5,1626877750\ni:3485,168610,168610,1,1,1626877749\ni:16703,409000,409000,1,1,1626877749\ni:23487,80000,89000,15,15,1626877749\ni:13084,400000,400000,1,1,1626877749\ni:7944,1235475,1235475,1,1,1626877749\ni:18649,1000000,1000000,3,3,1626877749\ni:24863,200000,200000,1,1,1626877749\ni:31281,406000,406000,4,4,1626877749\ni:14408,48000,48000,1,1,1626877749\ni:21547,98499,98499,6,6,1626877749\ni:7958,1000000,1000000,4,4,1626877749\ni:23529,129000,132579,19,89,1626877749\ni:22383,21268436,21268436,1,1,1626877749\ni:22374,295050,295050,7,13,1626877749\ni:7760,110000,110000,3,3,1626877749\ni:6260,0,0,1,0,1626877749\ni:12162,126397,126397,8,8,1626877749\ni:10998,3500,3818,51,73,1626877749\ni:19281,308999,308999,2,2,1626877749\ni:6271,50000,50000,1,1,1626877749\ni:15383,90000,90000,1,1,1626877749\ni:7052,478999,478999,2,2,1626877749\ni:29377,979999,979999,1,1,1626877749\ni:5789,498995,498995,3,3,1626877749\ni:7922,117775,117775,10,10,1626877749\ni:29549,98000,98000,6,6,1626877749\ni:4828,200000,200000,1,1,1626877749\ni:9210,115999,115999,11,26,1626877749\ni:13014,450000,450000,1,1,1626877749\ni:14162,40000,40000,1,1,1626877749\ni:25075,552300,552300,1,1,1626877749\ni:21881,145000,154206,100,233,1626877749\ni:4793,100000,100000,1,1,1626877749\ni:6384,500000,500000,1,1,1626877749\ni:29503,19880000,19880000,1,1,1626877749\ni:23120,29892,29892,20,20,1626877749\ni:25521,444900,448427,22,57,1626877749\ni:19257,4000000,4000000,1,1,1626877749\ni:2749,2300,2300,3,3,1626877749\ni:25315,147100,147100,3,3,1626877749\ni:25296,500000,500000,1,1,1626877749\ni:22202,58625,58625,1,10,1626877749\ni:31861,975000,978817,44,44,1626877749\ni:7445,200000,200000,1,1,1626877749\ni:3483,51478,51478,4,4,1626877749\ni:22926,99990000,99990000,2,1,1626877749\ni:5766,89998,89998,2,2,1626877749\ni:4063,30000,30000,2,2,1626877749\ni:24742,90000,90000,2,2,1626877749\ni:21114,8226,8226,1,3,1626877749\ni:25208,150000,150000,2,2,1626877749\ni:7460,50000,50000,1,1,1626877749\ni:10305,5800,5850,5,8,1626877749\ni:30421,74000,74333,11,11,1626877749\ni:11610,280000,280000,4,4,1626877749\ni:38225,6990000,6990000,1,1,1626877749\ni:29112,100000,100000,8,8,1626877749\ni:10073,150000,150000,1,1,1626877749\ni:7064,267976,267976,1,1,1626877749\ni:1202,6900,6900,1,1,1626877749\ni:4331,301618,301618,1,1,1626877749\ni:4245,20452,20452,3,3,1626877749\ni:7407,30000,30000,2,2,1626877749\ni:7088,499999,499999,2,2,1626877750\ni:20754,167000,167000,9,9,1626877749\ni:14047,1345,1548,193,3704,1626877749\ni:34535,39990000,39990000,1,1,1626877749\ni:24908,600000,600000,1,1,1626877749\ni:5765,50499,50499,5,5,1626877749\ni:3928,1545,1563,45,172,1626877749\ni:24764,140000,140000,1,1,1626877749\ni:6054,30000,30000,6,6,1626877749\ni:25686,8449996,8449996,5,5,1626877749\ni:13127,350000,350000,1,1,1626877749\ni:6048,6600,6640,15,45,1626877750\ni:4461,282,282,8,46,1626877749\ni:24995,300000,300000,1,1,1626877749\ni:20296,1378744,1378744,1,1,1626877749\ni:25316,200000,200000,2,2,1626877749\ni:12255,119999,119999,4,4,1626877749\ni:7483,60000,60000,1,1,1626877749\ni:5963,104500,104500,3,3,1626877749\ni:16825,0,0,1,0,1626877749\ni:23793,42250,43811,20,208,1626877749\ni:27671,1995,2210,47,256,1626877750\ni:15498,50000,50000,1,1,1626877749\ni:25139,140000,140000,1,1,1626877749\ni:4607,10000,10000,1,1,1626877749\ni:19943,4900,4950,4,8,1626877749\ni:4396,335188,335188,1,1,1626877749\ni:24954,50000,50000,2,2,1626877749\ni:31333,4500000,4500000,1,1,1626877749\ni:23445,24800,25343,116,1007,1626877750\ni:15093,723326,723326,1,1,1626877749\ni:21219,27200,27200,6,6,1626877749\ni:10233,200000,200000,2,2,1626877749\ni:10125,480000,480000,1,1,1626877749\ni:5635,235,235,10,37,1626877749\ni:11144,179997,179997,31,31,1626877749\ni:22459,287000,287000,6,6,1626877749\ni:24198,1492500,1492500,4,4,1626877749\ni:10001,110000,110000,7,7,1626877749\ni:4408,49999,49999,4,4,1626877750\ni:18742,5555555,5555555,1,1,1626877749\ni:7371,14399,14399,9,9,1626877749\ni:20881,1000000,1000000,1,2,1626877749\ni:6346,500000,500000,1,1,1626877749\ni:31240,200000,200000,2,2,1626877749\ni:19230,333332,333332,5,5,1626877749\ni:24211,6990000,6990000,4,4,1626877749\ni:21153,2000,2000,1,20,1626877749\ni:12256,500000,500000,1,1,1626877749\ni:6616,80000,80000,1,1,1626877749\ni:15765,59999,59999,1,1,1626877749\ni:8487,500000,500000,3,3,1626877749\ni:24169,300000,300000,4,4,1626877749\ni:23523,23518414,23518414,1,1,1626877749\ni:15520,40000,40000,1,1,1626877749\ni:23498,1225466,1225466,1,1,1626877749\ni:4083,20000,20000,1,1,1626877749\ni:10029,286572,286572,1,1,1626877749\ni:15740,91499,91499,5,5,1626877749\ni:15281,350000,350000,1,1,1626877749\ni:23505,398000,399000,13,13,1626877750\ni:14211,40000,40000,1,1,1626877749\ni:6047,88500,88500,5,5,1626877749\ni:13093,100000,100000,1,1,1626877749\ni:14499,503100,503100,1,1,1626877749\ni:24961,60000,60000,1,1,1626877749\ni:19221,90900,90900,1,3,1626877749\ni:2256,296741,296741,4,4,1626877749\ni:25056,90909,90909,7,7,1626877749\ni:38277,500000,500000,2,2,1626877749\ni:16083,18887,18887,9,9,1626877750\ni:4246,9421,9421,1,1,1626877749\ni:20874,1000000,1000000,1,1,1626877749\ni:4410,4000000,4000000,1,1,1626877749\ni:23772,40,52,57,11400,1626877749\ni:27676,1790,1834,22,185,1626877749\ni:28460,200000,200000,5,5,1626877749\ni:23519,759000,772666,11,11,1626877749\ni:25029,150000,150000,1,1,1626877750\ni:9826,100000,100000,1,1,1626877749\ni:8069,66,66,10,2000,1626877749\ni:10620,20000,22398,64,1234,1626877749\ni:24676,60000,60000,2,2,1626877749\ni:12776,3895378,3895378,1,1,1626877749\ni:2751,555,555,3,3,1626877749\ni:4255,339552,339552,2,2,1626877749\ni:16051,9999900,9999900,1,1,1626877749\ni:14108,593578,593578,1,1,1626877749\ni:28282,102500,102750,11,11,1626877749\ni:10286,6600,6759,93,285,1626877749\ni:15240,500000,500000,1,1,1626877749\ni:24189,9900,9900,2,4,1626877749\ni:10582,990000,990000,1,1,1626877749\ni:25308,150000,150000,6,6,1626877749\ni:14433,250000,250000,1,1,1626877749\ni:12774,4996772,4996772,2,2,1626877749\ni:24891,200000,200000,4,4,1626877749\ni:10064,30000,30000,1,1,1626877749\ni:25333,200000,200000,1,1,1626877749\ni:14752,10000,10000,1,1,1626877749\ni:954,9300,9300,6,8,1626877750\ni:867,958999,958999,2,2,1626877749\ni:12431,9900,9900,2,21,1626877749\ni:2701,500000,500000,3,3,1626877749\ni:11022,825,825,2,24,1626877749\ni:24653,151437,151437,4,4,1626877749\ni:24718,50000,50000,2,2,1626877749\ni:12810,5555,5555,3,41,1626877749\ni:12260,515602,515602,1,1,1626877749\ni:3469,73712,73712,5,5,1626877749\ni:23819,249000,250000,16,28,1626877749\ni:4569,33333,33333,2,2,1626877749\ni:1716,690000,690000,2,2,1626877749\ni:23747,24446844,24446844,1,1,1626877749\ni:29363,499000,499000,4,4,1626877749\ni:24628,150000,150000,3,3,1626877750\ni:16224,294500,294500,2,2,1626877749\ni:10394,500000,500000,2,2,1626877749\ni:22848,209500,209500,2,2,1626877749\ni:6470,715,780,6,47,1626877749\ni:24854,120000,120000,2,2,1626877749\ni:31879,6000000,6000000,3,3,1626877749\ni:12419,1587102,1587102,1,1,1626877749\ni:20966,212372,212372,1,1,1626877749\ni:5528,500000,500000,3,3,1626877749\ni:812,4997500,4997500,1,1,1626877750\ni:7349,37777,37777,2,2,1626877749\ni:24245,10000,10000,1,34,1626877749\ni:13056,989000,989000,2,2,1626877749\ni:28461,200000,200000,5,5,1626877749\ni:9963,20000,20000,1,1,1626877749\ni:29533,3827000,3828398,18,18,1626877749\ni:10603,54999,54999,3,2,1626877749\ni:4296,500000,500000,1,1,1626877749\ni:22527,1666,1666,7,23,1626877749\ni:8486,500000,500000,3,3,1626877749\ni:8368,39600,39650,3,16,1626877749\ni:4414,49800,49800,2,2,1626877749\ni:25332,105200,105200,3,3,1626877749\ni:24035,598999,599553,30,30,1626877749\ni:25049,100000,100000,5,5,1626877749\ni:13496,443500,443500,1,1,1626877749\ni:29903,500000,500000,3,3,1626877749\ni:16710,149000,149000,3,3,1626877749\ni:12836,5000000,5000000,1,1,1626877749\ni:13006,500000,500000,1,1,1626877749\ni:2409,3000,3000,2,2,1626877749\ni:9966,100000,100000,1,1,1626877749\ni:19183,1545,1545,1,8,1626877750\ni:25096,150000,150000,3,3,1626877749\ni:22846,978999,978999,6,6,1626877749\ni:13095,100000,100000,1,1,1626877749\ni:23811,106497,106497,4,4,1626877749\ni:24639,199999,199999,4,4,1626877749\ni:20873,99500,99750,3,8,1626877749\ni:24668,199999,199999,5,5,1626877749\ni:15259,59000,59000,1,1,1626877749\ni:23119,12000,12000,11,11,1626877749\ni:23590,50000,50250,7,7,1626877749\ni:13947,125500,125500,5,5,1626877749\ni:18046,27999,28299,8,8,1626877749\ni:24809,750000,750000,3,3,1626877749\ni:25653,4477499,4477499,6,6,1626877749\ni:4316,49800,49800,3,3,1626877749\ni:15070,403808,403808,1,1,1626877749\ni:24755,300000,300000,1,1,1626877749\ni:6541,50000,50000,1,1,1626877749\ni:6238,20000,20000,10,10,1626877749\ni:929,196,197,58,120,1626877749\ni:3849,264490,264490,1,1,1626877749\ni:24818,60000,60000,1,1,1626877749\ni:31335,4500000,4504350,7,7,1626877749\ni:2578,20000,20000,10,10,1626877749\ni:25025,105000,105000,2,2,1626877749\ni:6329,500000,500000,3,3,1626877749\ni:7959,3023500,3023500,1,1,1626877749\ni:31190,299000,299000,3,3,1626877749\ni:7946,1799557,1799557,1,1,1626877749\ni:22528,790,793,4,23,1626877749\ni:3487,225240,225240,2,2,1626877749\ni:22457,480100,490923,145,225,1626877750\ni:22792,43000,44842,113,1591,1626877749\ni:12024,350000,350000,1,1,1626877749\ni:4315,173130,173130,1,1,1626877749\ni:9765,50000,50000,1,1,1626877749\ni:8398,708000,708000,5,4,1626877749\ni:15596,10000,10000,1,1,1626877749\ni:27532,499898,499898,5,5,1626877749\ni:15999,1453257,1453257,1,1,1626877749\ni:12415,1415289,1415289,1,1,1626877749\ni:7921,80000,80000,6,6,1626877749\ni:3471,76888,76888,2,2,1626877749\ni:24761,400000,400000,2,2,1626877749\ni:28596,500000,500000,3,3,1626877749\ni:6451,4800,4800,4,64,1626877749\ni:31228,990000,990000,1,1,1626877749\ni:15502,50000,50000,2,2,1626877749\ni:24999,50000,50000,3,3,1626877749\ni:5775,5000,5000,1,1,1626877749\ni:20906,22624,22624,1,1,1626877749\ni:15726,1000000,1000000,2,2,1626877749\ni:11362,10000,10000,1,1,1626877749\ni:27658,4400,4449,7,140,1626877749\ni:14725,50000,50000,1,1,1626877749\ni:31867,886999,887777,33,33,1626877749\ni:4258,476368,476368,1,1,1626877749\ni:7990,10000,10000,2,1,1626877749\ni:7075,4300,4417,37,115,1626877749\ni:2262,400000,400000,1,1,1626877749\ni:10042,423340,423340,1,1,1626877749\ni:6575,20000,20000,2,2,1626877749\ni:4336,500000,500000,1,1,1626877750\ni:6553,14999,14999,2,1,1626877750\ni:24614,250000,250000,2,2,1626877749\ni:31217,50000000,50000000,1,1,1626877749\ni:22825,20000,20000,36,270,1626877749\ni:7428,371,371,3,8,1626877749\ni:25336,200000,200000,1,1,1626877749\ni:24935,64100,64100,2,2,1626877749\ni:10577,883982,883982,1,1,1626877749\ni:4768,50000,50000,1,1,1626877749\ni:24731,63000,63000,3,3,1626877749\ni:27655,14599,14600,16,85,1626877749\ni:7926,2000000,2000000,4,4,1626877749\ni:6887,645,645,6,87,1626877749\ni:15071,491034,491034,1,1,1626877749\ni:14231,70000,70000,1,1,1626877749\ni:9303,40000,40000,4,4,1626877749\ni:24195,5500000,5500000,5,5,1626877749\ni:31164,1990000,1990000,1,1,1626877749\ni:21990,1995,1995,1,3,1626877749\ni:21885,550000,558687,133,167,1626877749\ni:2312,34249,34249,2,2,1626877749\ni:21993,299900,309699,8,8,1626877749\ni:14573,190000,190000,1,1,1626877749\ni:25307,100000,100000,8,8,1626877749\ni:3819,295,298,17,121,1626877749\ni:31306,179500,179750,8,8,1626877749\ni:25673,180000,180000,1,1,1626877749\ni:20831,50250,50250,2,2,1626877750\ni:16255,2000000,2000000,2,2,1626877749\ni:7280,10290,10290,2,2,1626877749\ni:15072,281304,281304,1,1,1626877749\ni:13463,25200,28284,55,711,1626877749\ni:15749,2000000,2000000,2,2,1626877749\ni:24204,6000000,6000000,1,1,1626877749\ni:8389,76000,76000,1,1,1626877749\ni:3870,19800,19800,3,2,1626877749\ni:10021,329999,329999,3,3,1626877749\ni:12976,500000,500000,1,1,1626877749\ni:28496,100000,100000,3,3,1626877749\ni:13053,1003100,1003100,1,1,1626877749\ni:6046,6500000,6500000,1,1,1626877749\ni:25313,120000,120000,1,1,1626877749\ni:31672,22700,22964,13,75,1626877749\ni:9770,50000,50000,1,1,1626877749\ni:2553,99387,99387,4,4,1626877750\ni:24253,2000000,2000000,2,2,1626877749\ni:2583,38999,38999,1,1,1626877749\ni:4231,9900,9964,14,59,1626877749\ni:10421,37664,37664,1,1,1626877749\ni:19702,5099,8641,6,344,1626877749\ni:3847,454274,454274,1,1,1626877749\ni:15980,150000,150000,1,1,1626877749\ni:3712,995,1069,6,29,1626877749\ni:14562,100000,100000,1,1,1626877749\ni:24859,70000,70000,1,1,1626877749\ni:4795,100000,100000,4,4,1626877749\ni:1477,7199,7199,5,10,1626877749\ni:10314,500000,500000,3,3,1626877749\ni:6290,1000,1000,3,50,1626877749\ni:31203,300000,300000,1,1,1626877749\ni:23424,10400,10400,4,35,1626877749\ni:24193,6990000,6990000,4,4,1626877749\ni:811,998000,998000,2,2,1626877749\ni:4367,16690,16690,4,20,1626877749\ni:12775,1917576,1917576,1,1,1626877749\ni:21947,39999,39999,4,4,1626877749\ni:3530,74,74,4,70,1626877749\ni:22851,940000,944332,61,73,1626877750\ni:31305,247900,247900,5,5,1626877749\ni:25022,100000,100000,2,2,1626877749\ni:16249,2997500,2997500,2,2,1626877749\ni:10092,30000,30000,1,1,1626877749\ni:2742,2800,2800,5,5,1626877749\ni:23768,3899,3899,14,81,1626877749\ni:22373,9000,9416,23,142,1626877749\ni:2745,8000,8000,1,1,1626877749\ni:4311,112256,112256,1,1,1626877750\ni:3854,529196,529196,1,1,1626877749\ni:25301,160000,160000,6,6,1626877749\ni:2592,3899,4593,104,1975,1626877750\ni:25328,150000,150000,1,1,1626877749\ni:23530,5000000,5000000,2,2,1626877750\ni:6468,291400,291400,4,4,1626877749\ni:18984,1756847,1756847,1,1,1626877750\ni:13898,1000000,1000000,5,5,1626877749\ni:2310,14510,14510,1,1,1626877749\ni:24163,457000,457000,1,1,1626877750\ni:8213,3628582,3628582,5,5,1626877749\ni:25185,990000,990000,1,1,1626877749\ni:13479,200000,200000,1,1,1626877749\ni:4382,9700,9733,45,54,1626877749\ni:8189,728600,728600,2,2,1626877749\ni:24774,200000,200000,3,3,1626877750\ni:24219,3797500,3797500,4,4,1626877749\ni:28462,200000,200000,5,5,1626877749\ni:7758,350000,350000,1,1,1626877749\ni:15734,124999,124999,5,5,1626877749\ni:9300,99598,99598,3,3,1626877749\ni:6057,127500,127500,6,5,1626877750\ni:19699,6000,8894,6,392,1626877749\ni:11971,260000,260000,1,1,1626877749\ni:25907,4500000,4500000,2,2,1626877750\ni:4332,500000,500000,1,1,1626877749\ni:3195,23087,23087,3,3,1626877749\ni:23449,218798,218934,111,173,1626877750\ni:10393,499998,499998,6,6,1626877750\ni:29460,299000,299000,18,100,1626877750\ni:10562,18400,18471,17,141,1626877750\ni:23441,195000,214166,28,30,1626877749\ni:23482,241999,241999,2,2,1626877750\ni:24680,1500000,1500000,1,1,1626877749\ni:24969,56700,56700,1,1,1626877749\ni:13757,9600,9727,25,169,1626877750\ni:6328,29400,29500,8,8,1626877749\ni:24776,43000,43000,3,3,1626877750\ni:7728,100000,100000,5,4,1626877750\ni:4381,317549,317549,2,2,1626877749\ni:23807,242000,242000,4,4,1626877749\ni:4561,33333,33333,2,2,1626877749\ni:18661,900000,900000,2,2,1626877749\ni:12418,1074132,1074132,1,1,1626877749\ni:25655,289000,289000,5,5,1626877749\ni:12020,100000,100000,1,1,1626877749\ni:13102,385477,385477,1,1,1626877750\ni:6586,50499,50499,1,1,1626877749\ni:14044,114036,114036,2,2,1626877750\ni:25899,1897500,1899166,11,11,1626877749\ni:24870,40000,40000,3,3,1626877749\ni:20862,20000,37463,3,46,1626877750\ni:12644,1995,1998,21,130,1626877749\ni:24209,7300000,7300000,4,4,1626877750\ni:24815,750000,750000,3,3,1626877749\ni:4344,500000,500000,1,1,1626877749\ni:22831,115000,115000,22,123,1626877749\ni:16220,50000,50000,1,1,1626877749\ni:16646,8000,8000,1,1,1626877749\ni:3386,8699,8699,6,27,1626877750\ni:7282,20882,20882,2,2,1626877749\ni:8499,39960000,39960000,3,3,1626877750\ni:3486,4900,4900,5,21,1626877750\ni:10602,29999,29999,8,8,1626877750\ni:22456,579900,582442,108,210,1626877750\ni:24076,60000,60000,2,2,1626877749\ni:15356,90000,90000,1,1,1626877749\ni:10505,3000,3095,55,273,1626877749\ni:8387,3400,3400,1,1,1626877749\ni:24792,100000,100000,3,3,1626877750\ni:25284,70000,70000,7,7,1626877749\ni:21342,9500000,9500000,3,3,1626877750\ni:14634,249000,249000,4,4,1626877750\ni:25012,300000,300000,1,1,1626877749\ni:9318,12599,12599,11,53,1626877749\ni:38278,500000,500000,1,1,1626877749\ni:4496,4900,4900,1,1,1626877750\ni:25317,100000,100000,1,1,1626877749\ni:24795,120000,120000,5,5,1626877749\ni:2564,245553,245553,2,2,1626877750\ni:24833,349900,349900,2,2,1626877749\ni:9998,89500,89500,7,7,1626877749\ni:25659,290000,290000,1,1,1626877749\ni:12631,1481756,1481756,1,1,1626877749\ni:5498,4400,8977,18,103,1626877749\ni:2842,3333,8063,36,267,1626877750\ni:12426,204000,204333,13,13,1626877750\ni:10007,309634,309634,1,1,1626877749\ni:23515,299000,299000,13,13,1626877749\ni:24604,190000,190000,4,4,1626877749\ni:25720,98488,98488,5,5,1626877749\ni:15605,50000,50000,2,2,1626877750\ni:24275,2187499,2187499,7,7,1626877749\ni:16685,200000,200000,1,1,1626877749\ni:3239,1330,1330,4,20,1626877749\ni:15262,45000,45000,1,1,1626877749\ni:22841,599500,599500,1,5,1626877749\ni:11754,2900,3000,20,50,1626877749\ni:3473,49531,49531,2,2,1626877749\ni:25906,4007500,4007500,3,3,1626877750\ni:15064,2000000,2000000,2,2,1626877749\ni:14504,99998,99998,1,1,1626877749\ni:2632,5000,5000,2,2,1626877749\ni:24838,200000,200000,1,1,1626877749\ni:5540,111049,111049,1,1,1626877749\ni:4480,790,790,1,1,1626877749\ni:24196,5500000,5500000,4,4,1626877749\ni:7761,550000,550000,1,1,1626877750\ni:25322,155000,155000,5,5,1626877750\ni:818,1990,2210,51,125,1626877750\ni:9435,396561,396561,4,4,1626877750\ni:16650,23000,23000,3,3,1626877749\ni:18512,9900,9900,1,1,1626877749\ni:7077,41400,47760,48,427,1626877749\ni:31673,24700,25715,19,161,1626877750\ni:7969,20799,34625,29,29,1626877750\ni:31282,407000,407000,3,2,1626877749\ni:17010,83500,84000,14,37,1626877750\ni:2911,390000,390000,1,1,1626877750\ni:7964,42857,55845,7,49,1626877750\ni:6657,18000,26967,50,765,1626877749\ni:13010,300000,300000,2,2,1626877749\ni:24762,100000,100000,1,1,1626877749\ni:23821,2987500,2987500,9,9,1626877749\ni:1484,800000,800000,1,1,1626877750\ni:8152,740,740,4,16,1626877749\ni:18517,10000000,10000000,1,1,1626877749\ni:24900,50000,50000,4,4,1626877749\ni:11370,3200,4547,10,170,1626877749\ni:24728,500000,500000,1,1,1626877749\ni:15729,1000000,1000000,2,2,1626877749\ni:15581,5000,5000,1,1,1626877749\ni:15060,657066,657066,1,1,1626877749\ni:24760,60000,60000,2,2,1626877749\ni:7992,87500,87500,2,2,1626877749\ni:27668,3688,3688,8,45,1626877749\ni:12025,350000,350000,1,1,1626877749\ni:2870,710664,710664,1,1,1626877749\ni:6716,6800,6800,2,2,1626877749\ni:31501,2220000,2362783,9,8,1626877749\ni:29739,353000,356375,67,108,1626877749\ni:28100,1995,1997,5,19,1626877749\ni:19228,71000000,71000000,1,1,1626877749\ni:29372,3199999,3199999,2,2,1626877749\ni:27499,1635,1643,34,77,1626877750\ni:1314,100000,100000,1,1,1626877749\ni:6240,20000,20000,10,10,1626877749\ni:4832,200000,200000,1,1,1626877749\ni:8175,300000,300000,13,13,1626877750\ni:27661,250,269,28,250,1626877750\ni:25679,500000,500000,1,1,1626877749\ni:12226,125000,125000,4,4,1626877750\ni:2580,8378,8378,12,12,1626877750\ni:3489,82628,82628,1,1,1626877749\ni:1718,309000,309000,2,2,1626877749\ni:24968,500000,500000,1,1,1626877749\ni:22728,151499,151499,16,16,1626877749\ni:2245,1000000,1000000,1,1,1626877750\ni:11225,99500,99500,4,4,1626877749\ni:24888,200000,200000,1,1,1626877750\ni:27435,1990,2196,45,309,1626877749\ni:6522,19905,19905,10,29,1626877749\ni:22575,27400,28666,45,114,1626877749\ni:28467,29499,29499,6,6,1626877749\ni:729,1398,1398,1,5,1626877749\ni:8202,308560,308560,1,1,1626877749\ni:3302,10000,10000,2,2,1626877750\ni:10331,19800,19800,5,5,1626877749\ni:14109,30600,30600,1,1,1626877750\ni:24836,300000,300000,4,4,1626877749\ni:10514,37996,37996,8,62,1626877750\ni:23077,29399,29579,82,104,1626877749\ni:14943,200000,200000,1,1,1626877750\ni:14530,2398,2398,2,10,1626877749\ni:25115,200000,200000,1,1,1626877750\ni:11590,22000,22000,16,16,1626877750\ni:18652,49800,49800,4,4,1626877749\ni:31326,4880000,4880000,4,4,1626877749\ni:12163,298898,298898,3,3,1626877750\ni:18333,20000,20000,1,1,1626877749\ni:22866,1327500,1336666,62,62,1626877750\ni:29364,202998,202998,4,4,1626877749\ni:25052,60000,60000,5,5,1626877749\ni:24850,50000,50000,1,1,1626877749\ni:21898,103750,103750,4,4,1626877749\ni:23100,42399,42596,120,120,1626877749\ni:16827,0,0,1,0,1626877750\ni:28498,50000,50000,8,8,1626877750\ni:8006,520000,520000,1,1,1626877749\ni:22540,11960000,11960000,4,4,1626877749\ni:27678,3100,3100,51,416,1626877749\ni:24586,990000,990000,1,1,1626877750\ni:13051,255000,255000,3,3,1626877750\ni:13866,736450,736450,1,1,1626877749\ni:1981,500000,500000,1,1,1626877750\ni:25887,300000,300000,2,2,1626877750\ni:21949,249000,249000,1,1,1626877749\ni:24929,990000,990000,1,1,1626877749\ni:2584,24399,24399,6,6,1626877750\ni:32411,3800000,3800000,1,1,1626877750\ni:2300,23888,23888,2,2,1626877750\ni:7552,30000,30000,2,2,1626877749\ni:5483,115000,115000,5,5,1626877750\ni:24709,80000,80000,1,1,1626877749\ni:25428,11427,11427,1,1,1626877750\ni:21892,494000,494500,8,8,1626877749\ni:4552,5000,5000,1,6,1626877749\ni:25327,100000,100000,2,2,1626877750\ni:7947,745504,745504,2,2,1626877750\ni:25047,150000,150000,8,8,1626877750\ni:1713,250000,250000,3,3,1626877750\ni:24877,50500,50500,2,2,1626877750\ni:18232,290000,290000,3,14,1626877750\ni:2744,990,990,3,3,1626877750\ni:23736,14600,14803,48,408,1626877749\ni:14947,200000,200000,1,1,1626877749\ni:6375,1500000,1500000,1,1,1626877749\ni:12430,9800,9800,2,7,1626877749\ni:4794,200000,200000,1,1,1626877749\ni:25848,247000,247000,4,4,1626877749\ni:6413,200000,200000,1,1,1626877749\ni:1720,906000,906000,1,1,1626877749\ni:23147,500000,500000,3,3,1626877750\ni:15082,225168,225168,1,1,1626877750\ni:2735,3000,3000,5,5,1626877750\ni:3737,300000,300000,4,4,1626877749\ni:20974,29800,29800,5,5,1626877749\ni:31127,200000,200000,1,1,1626877749\ni:12231,57500,58000,11,11,1626877750\ni:6361,5000,5000,5,25,1626877749\ni:7933,537122,537122,4,4,1626877749\ni:24651,100000,100000,4,4,1626877749\ni:21933,46200,46200,2,2,1626877750\ni:7377,121000,121000,3,3,1626877750\ni:14184,50000,50000,1,1,1626877749\ni:4609,49000,49000,5,5,1626877750\ni:27502,1250,1260,18,34,1626877750\ni:2308,115280,115280,2,2,1626877749\ni:22565,293000,293999,10,10,1626877749\ni:24203,3695000,3695000,4,4,1626877750\ni:17057,1950,1961,28,236,1626877749\ni:10033,280872,280872,1,1,1626877750\ni:10307,5900,5900,3,7,1626877749\ni:24721,750000,750000,1,1,1626877749\ni:15846,299900,299900,2,2,1626877749\ni:31294,239000,239000,6,5,1626877749\ni:7424,23000,23000,1,1,1626877749\ni:19051,2448467,2448467,1,1,1626877749\ni:13059,1000000,1000000,1,1,1626877749\ni:6601,100000,100000,1,1,1626877750\ni:15372,80000,80000,2,2,1626877749\ni:24212,6990000,6990000,2,2,1626877749\ni:24797,250000,250000,1,1,1626877749\ni:7065,28776,28776,1,1,1626877749\ni:25104,200000,200000,3,3,1626877750\ni:2697,500000,500000,3,3,1626877749\ni:10028,312982,312982,1,1,1626877749\ni:20075,30000,30000,6,6,1626877749\ni:24932,300000,300000,1,1,1626877750\ni:24674,300000,300000,2,2,1626877749\ni:24819,350000,350000,1,1,1626877749\ni:6310,20000,20000,6,6,1626877749\ni:4712,105000,105000,1,1,1626877749\ni:7056,27768,27768,1,1,1626877749\ni:15310,20000,20000,1,1,1626877749\ni:13864,695404,695404,1,1,1626877749\ni:6043,97342,97342,5,20,1626877750\ni:24739,400000,400000,2,2,1626877750\ni:955,2700,2700,1,1,1626877749\ni:3729,6000,6000,1,7,1626877749\ni:15993,36000,36000,12,118,1626877749\ni:7729,399000,399000,1,1,1626877749\ni:24603,300000,300000,2,2,1626877749\ni:24862,59500,59500,5,5,1626877749\ni:12424,149500,199449,21,21,1626877750\ni:13022,1809997,1809997,2,2,1626877749\ni:25053,59900,59900,3,3,1626877749\ni:16000,98000,98000,22,28,1626877750\ni:7945,1995000,1995000,8,8,1626877749\ni:12433,10000,10000,1,2,1626877750\ni:27666,10000,10464,46,340,1626877750\ni:31175,159499,159499,2,2,1626877750\ni:4252,88096,88096,3,3,1626877749\ni:18238,773588,773588,1,1,1626877749\ni:25217,886112,886112,1,1,1626877749\ni:24911,250000,250000,1,1,1626877749\ni:31277,330000,339500,7,7,1626877749\ni:10306,4600,4700,8,17,1626877749\ni:2304,500,500,9,89,1626877750\ni:23494,254999,254999,10,10,1626877749\ni:15219,400000,400000,1,1,1626877750\ni:25028,50889,50889,1,1,1626877750\ni:24575,900000,900000,2,2,1626877749\ni:12436,44900,44900,1,2,1626877749\ni:24931,100000,100000,1,1,1626877749\ni:6051,39799,39799,4,20,1626877749\ni:8193,99500,100000,48,48,1626877750\ni:21301,499999,499999,1,1,1626877749\ni:29157,189797,189797,9,9,1626877750\ni:10558,879,880,53,76,1626877749\ni:31289,2490000,2490000,5,5,1626877749\ni:4076,0,0,1,0,1626877749\ni:13041,198000,198000,1,1,1626877749\ni:24915,2000000,2000000,1,1,1626877749\ni:31151,450000,450000,4,4,1626877749\ni:28492,450000,450000,3,3,1626877749\ni:15656,50000,50000,1,1,1626877749\ni:12217,8698,8698,14,58,1626877750\ni:12713,18999,18999,11,10,1626877749\ni:20746,36400,36400,1,1,1626877750\ni:16735,100000,100000,3,3,1626877749\ni:25189,500000,500000,1,1,1626877749\ni:33824,39800,39999,14,248,1626877749\ni:22448,83200,84080,104,120,1626877749\ni:24895,50000,50000,4,4,1626877750\ni:24793,180000,180000,1,1,1626877749\ni:24894,100000,100000,4,4,1626877749\ni:15514,50000,50000,1,1,1626877749\ni:25304,100000,100000,5,5,1626877749\ni:24368,70500,79999,129,2211,1626877749\ni:1625,50000,50000,2,2,1626877749\ni:9391,6120000,6120000,1,1,1626877749\ni:13863,83590,83590,1,1,1626877749\ni:31258,450000,450000,2,2,1626877749\ni:8397,8500,8500,4,4,1626877749\ni:2099,2120000,2120000,1,1,1626877749\ni:6660,550000,550000,1,1,1626877749\ni:4718,0,0,1,0,1626877749\ni:9774,60000,60000,2,2,1626877749\ni:20865,9900,37433,11,53,1626877749\ni:24840,100000,100000,6,6,1626877750\ni:9301,341950,341950,4,4,1626877749\ni:20954,188883,188883,2,2,1626877749\ni:6348,49800,49800,1,1,1626877749\ni:32068,37000,37171,5,25,1626877750\ni:4603,31,634,14,233,1626877749\ni:10510,511112,511112,1,1,1626877749\ni:13114,990000,990000,1,1,1626877750\ni:6609,214800,214800,1,1,1626877749\ni:2852,36856,36856,4,4,1626877750\ni:24938,100000,100000,1,1,1626877749\ni:23624,8880000,8880000,1,1,1626877749\ni:6597,170700,170700,1,1,1626877750\ni:14552,1000000,1000000,1,1,1626877749\ni:9780,30000,30000,3,3,1626877749\ni:27684,20000,20000,1,1,1626877749\ni:14483,104500,104500,4,4,1626877749\ni:5488,122000,122000,4,4,1626877749\ni:7359,273280,273280,1,1,1626877750\ni:13032,409000,409000,1,1,1626877750\ni:10025,143244,143244,1,1,1626877749\ni:7920,1214184,1214184,1,1,1626877750\ni:24695,50000,50000,1,1,1626877749\ni:4374,9599,9599,7,53,1626877750\ni:15758,999000,999000,2,2,1626877749\ni:21900,149500,149500,2,2,1626877749\ni:24215,2500000,2500000,3,3,1626877749\ni:7409,200000,200000,1,1,1626877749\ni:2633,1470,1470,1,1,1626877749\ni:14795,19999,19999,2,2,1626877750\ni:10323,500000,500000,3,3,1626877749\ni:9922,200000,200000,1,1,1626877749\ni:9822,119200,119200,1,1,1626877749\ni:5643,488000,488000,8,8,1626877749\ni:7927,2000000,2000000,4,4,1626877750\ni:10279,500000,500000,1,1,1626877749\ni:13457,24600,25113,23,97,1626877749\ni:21099,29399,29399,5,5,1626877749\ni:2699,500000,500000,3,3,1626877750\ni:24878,50000,50000,3,3,1626877749\ni:4397,1000000,1000000,2,2,1626877749\ni:10503,283997,283999,26,26,1626877749\ni:24844,50000,50000,3,3,1626877749\ni:10086,39000,39000,1,1,1626877749\ni:31280,479900,479900,3,3,1626877749\ni:3484,110430,110430,1,1,1626877749\ni:5640,119088,119529,10,10,1626877749\ni:13060,996000,996000,1,1,1626877749\ni:14469,39800,39800,5,5,1626877749\ni:7449,5000,5000,2,2,1626877749\ni:13464,7700,8739,35,399,1626877749\ni:13125,699000,699000,2,2,1626877750\ni:7348,40000,40000,2,2,1626877749\ni:15248,30000,30000,3,3,1626877749\ni:32902,9999,10266,18,71,1626877749\ni:31140,1110000,1110000,1,1,1626877749\ni:15752,50000,50000,1,1,1626877750\ni:3846,364291,364291,1,1,1626877749\ni:20747,4500,4500,3,3,1626877749\ni:31554,500000,500000,6,6,1626877750\ni:28421,87500,88172,38,99,1626877749\ni:3823,26800,27208,23,103,1626877749\ni:24980,80000,80000,1,1,1626877750\ni:29548,127000,127227,81,708,1626877749\ni:8209,3319566,3319566,1,1,1626877749\ni:29725,1009999,1009999,3,3,1626877749\ni:10051,12000,12000,9,9,1626877749\ni:14253,50000,50000,1,1,1626877749\ni:7936,2000000,2000000,4,4,1626877750\ni:24816,850000,850000,3,3,1626877749\ni:1529,10000,40624,64,229,1626877749\ni:13117,440000,440000,1,1,1626877749\ni:27685,128499,128499,4,4,1626877749\ni:16023,356999,356999,12,28,1626877749\ni:19768,10000,10000,1,20,1626877749\ni:7485,200000,200000,1,1,1626877749\ni:31186,600733,600733,1,1,1626877749\ni:2840,1900,2186,101,1481,1626877750\ni:10162,290000,290000,1,1,1626877749\ni:13122,499000,499000,4,4,1626877749\ni:24985,50000,50000,3,3,1626877749\ni:5573,6900,6900,3,2,1626877750\ni:21753,807998,807998,9,9,1626877749\ni:6053,29999,29999,10,9,1626877749\ni:9956,200000,200000,1,1,1626877749\ni:25027,300000,300000,1,1,1626877749\ni:23079,21199,22522,99,124,1626877749\ni:12029,250000,250000,2,2,1626877749\ni:31080,1177777,1177777,5,5,1626877750\ni:6303,247,247,5,42,1626877749\ni:15162,90000,90000,1,1,1626877749\ni:24702,320000,320000,1,1,1626877749\ni:31287,490000,490000,3,3,1626877749\ni:4796,100000,100000,2,2,1626877749\ni:3859,30000,31999,48,822,1626877749\ni:34482,1001970,1001970,3,3,1626877750\ni:25909,89999999,89999999,2,2,1626877750\ni:4233,9700,9733,23,32,1626877749\ni:23148,500000,500000,3,3,1626877750\ni:6371,3899,3999,18,92,1626877749\ni:27516,1890,1895,27,38,1626877750\ni:18704,50000000,50000000,1,1,1626877749\ni:9856,70000,70000,2,2,1626877750\ni:8766,500,500,12,240,1626877750\ni:32062,24000,24000,57,253,1626877750\ni:32413,14400,14618,50,184,1626877749\ni:25905,7000000,7000000,1,1,1626877749\ni:774,685,693,52,52,1626877749\ni:19767,4199,4199,2,6,1626877750\ni:15090,1973040,1973040,1,1,1626877750\ni:25288,100000,100000,3,3,1626877749\ni:2194,195000,195000,3,3,1626877749\ni:30810,23400,23946,99,1077,1626877749\ni:25295,200000,200000,7,7,1626877749\ni:15521,45000,45000,1,1,1626877749\ni:5571,800,800,1,1,1626877749\ni:16864,5000000,5000000,2,1,1626877749\ni:13455,44228,44228,28,140,1626877749\ni:16223,9970000,9970000,2,2,1626877749\ni:23504,1516564,1516564,2,2,1626877749\ni:4765,100000,100000,6,6,1626877749\ni:24952,100000,100000,3,3,1626877749\ni:25890,4799998,4799999,10,10,1626877749\ni:3396,1500000,1500000,1,1,1626877749\ni:31340,8880000,8880000,1,1,1626877749\ni:12820,14200,14266,3,12,1626877750\ni:4596,2499,2499,1,1,1626877749\ni:24078,180000,200176,26,26,1626877749\ni:21884,657000,692133,71,89,1626877749\ni:19821,97499,97499,4,4,1626877749\ni:14526,39999,39999,7,7,1626877750\ni:20832,300000,300000,7,7,1626877749\ni:5787,39800,39800,6,5,1626877749\ni:2951,790000,790000,1,1,1626877749\ni:24937,600000,600000,1,1,1626877749\ni:4317,352618,352618,1,1,1626877749\ni:13287,118500,118500,4,4,1626877749\ni:13288,500000,500000,3,3,1626877749\ni:22446,48000,48199,81,374,1626877749\ni:4409,950000,950000,2,2,1626877750\ni:6052,5898,5900,19,88,1626877749\ni:24635,500000,500000,1,1,1626877749\ni:1180,134000,134000,1,2,1626877750\ni:24958,100000,100000,2,2,1626877749\ni:22789,109500,111481,51,586,1626877749\ni:32833,16000,16916,29,29,1626877749\ni:18647,58999,58999,4,4,1626877749\ni:24682,300000,300000,2,2,1626877749\ni:7957,1000000,1000000,4,4,1626877750\ni:11134,2998,6534,69,339,1626877749\ni:11202,303000,303000,2,2,1626877749\ni:8210,182062,182062,3,3,1626877749\ni:35562,18400,18499,7,34,1626877749\ni:22788,15200,15634,102,459,1626877749\ni:21861,230000,236666,22,22,1626877749\ni:12227,1999998,1999998,1,1,1626877749\ni:25303,100000,100000,6,6,1626877750\ni:27659,9299,9299,16,98,1626877750\ni:4347,49999,49999,1,1,1626877749\ni:34330,38000,44553,41,51,1626877750\ni:6214,163580,163580,1,1,1626877750\ni:2800,790000,790000,1,1,1626877749\ni:16048,9700,9700,2,2,1626877750\ni:14635,125499,125499,6,6,1626877749\ni:13858,418829,418829,1,1,1626877749\ni:5071,50000,50000,1,1,1626877749\ni:6333,50000,50000,1,1,1626877749\ni:21863,810000,810000,8,8,1626877750\ni:18638,3057348,3057348,1,1,1626877749\ni:20749,290000,291047,142,142,1626877749\ni:25292,90000,95000,14,13,1626877749\ni:24665,150000,150000,4,4,1626877750\ni:31321,11000000,11000000,1,1,1626877749\ni:2163,999000,999000,2,2,1626877749\ni:25198,200000,200000,1,1,1626877749\ni:13034,1200000,1200000,2,2,1626877749\ni:8491,1098750,1098750,1,1,1626877749\ni:20823,50000,50000,3,3,1626877749\ni:22572,78000,79277,42,132,1626877749\ni:9172,46888,46888,11,55,1626877749\ni:24255,30000000,30000000,1,1,1626877749\ni:15725,280699,280699,3,3,1626877749\ni:15084,24700,24806,56,55,1626877750\ni:16050,500000,500000,2,2,1626877749\ni:25069,250000,250000,5,5,1626877750\ni:29727,4500000,4500000,1,1,1626877750\ni:3832,152000,152000,3,3,1626877750\ni:16111,69500,69500,9,9,1626877749\ni:24917,300000,300000,1,1,1626877749\ni:31318,4997500,4997500,4,4,1626877749\ni:11404,1923,1923,1,1,1626877749\ni:4401,455997,455997,2,2,1626877750\ni:3678,500000,500000,3,3,1626877749\ni:6663,466565,466565,4,4,1626877749\ni:15388,30000,30000,1,1,1626877750\ni:20858,20000,35703,3,45,1626877750\ni:9293,58500,58500,6,6,1626877749\ni:21790,170000,170000,2,2,1626877749\ni:24621,100000,100000,2,2,1626877749\ni:11608,3133896,3133896,3,3,1626877749\ni:24848,80000,80000,4,4,1626877749\ni:24605,56070,56070,3,3,1626877750\ni:31670,30000,30606,43,95,1626877749\ni:25103,120000,120000,1,1,1626877749\ni:15414,20000,20000,1,10,1626877749\ni:12009,150000,150000,1,1,1626877750\ni:24243,2200,2484,61,1071,1626877749\ni:24726,50000,50000,2,2,1626877749\ni:8068,53,53,10,2000,1626877749\ni:13466,18800,20554,35,490,1626877750\ni:8839,9900,9948,44,510,1626877749\ni:33866,27299,27344,40,180,1626877749\ni:12800,90000,103680,21,21,1626877749\ni:4306,273,385,141,2593,1626877749\ni:25719,23800,23923,50,115,1626877749\ni:14042,298268,298268,1,1,1626877750\ni:15477,30300,30300,1,1,1626877750\ni:25334,150000,150000,4,4,1626877749\ni:4357,94,97,77,366,1626877749\ni:20869,56000,56000,2,8,1626877750\ni:8185,886692,886692,2,2,1626877749\ni:8225,439000,439000,3,3,1626877749\ni:24837,350000,350000,2,2,1626877750\ni:25188,250000,250000,1,1,1626877749\ni:5957,17565,17565,1,1,1626877750\ni:23141,500000,500000,3,3,1626877749\ni:29958,405050,405050,4,4,1626877749\ni:10938,1495,1592,38,49,1626877750\ni:23784,503000,503428,20,26,1626877749\ni:8385,74000,74000,4,4,1626877749\ni:5465,57,57,1,1,1626877749\ni:21855,50000,50000,7,7,1626877750\ni:12042,290000,290000,2,2,1626877749\ni:20860,4900,4975,3,15,1626877750\ni:24199,13790000,13790000,2,2,1626877750\ni:8165,13400,13466,8,21,1626877749\ni:28103,30499,30499,17,100,1626877749\ni:31226,500000,500000,5,5,1626877749\ni:24677,80000,80000,5,5,1626877749\ni:13490,29000,29200,10,10,1626877749\ni:31338,19999999,19999999,2,1,1626877750\ni:14104,625590,625590,1,1,1626877749\ni:4060,60000,60000,1,1,1626877750\ni:31286,500000,500000,1,1,1626877749\ni:16202,39600,47188,15,68,1626877749\ni:10398,29990000,29990000,2,2,1626877749\ni:4319,46056,46056,1,1,1626877749\ni:4339,58500,58625,6,15,1626877749\ni:24048,938999,941076,46,46,1626877749\ni:24290,15400,15400,2,20,1626877749\ni:13756,9900,9957,3,41,1626877749\ni:24304,3002000,3002000,2,2,1626877749\ni:2059,330000,330000,4,4,1626877749\ni:10316,1400000,1400000,2,2,1626877750\ni:24059,985894,987478,37,37,1626877749\ni:6536,48799,48799,2,2,1626877750\ni:21213,19800,19800,2,20,1626877749\ni:20520,704000,704312,52,61,1626877750\ni:3740,20000,20000,1,1,1626877750\ni:21894,498999,498999,7,7,1626877749\ni:12364,130000,137000,17,16,1626877749\ni:32410,5419999,5419999,6,6,1626877749\ni:4304,17500,23659,18,211,1626877749\ni:24667,50000,50000,5,5,1626877749\ni:6377,28999,28999,5,5,1626877749\ni:31878,9490000,9490000,4,4,1626877750\ni:21844,118500,118750,8,8,1626877749\ni:7912,467,487,62,1021,1626877749\ni:18360,197000,197000,3,3,1626877749\ni:12978,451200,451200,1,1,1626877750\ni:6889,8888,8888,11,54,1626877749\ni:16247,12000000,12000000,1,1,1626877750\ni:3844,1004196,1004196,1,1,1626877749\ni:25110,91100,91100,1,1,1626877749\ni:4337,1095,1103,15,53,1626877749\ni:4412,4500000,4500000,1,1,1626877750\ni:8223,1100000,1100000,1,1,1626877749\ni:4293,15000,15000,4,4,1626877750\ni:13046,450000,450000,2,2,1626877749\ni:27515,15999,15999,18,18,1626877749\ni:24507,37399,38599,3,22,1626877749\ni:20870,59999,59999,1,1,1626877749\ni:24671,150000,150000,6,6,1626877750\ni:20758,80000,80000,6,6,1626877750\ni:6370,22600,22600,14,47,1626877749\ni:25127,102200,102200,1,1,1626877749\ni:24963,170000,170000,1,1,1626877750\ni:11139,1533,1748,47,117,1626877749\ni:7727,199500,199500,5,5,1626877749\ni:13512,948999,948999,12,12,1626877749\ni:25895,2947499,2947499,12,12,1626877749\ni:15409,49888,49964,30,64,1626877749\ni:2289,5400,5400,5,9,1626877750\ni:12365,497,610,75,1343,1626877750\ni:12408,565999,565999,9,9,1626877749\ni:8214,209139,209139,5,5,1626877749\ni:22576,48800,49371,18,52,1626877749\ni:29201,38999,38999,5,5,1626877749\ni:25009,300000,300000,2,2,1626877749\ni:4387,17600,18083,24,45,1626877750\ni:14188,35000,35000,2,2,1626877749\ni:5574,1500,1500,1,1,1626877750\ni:7285,90136,90136,2,2,1626877749\ni:23090,379999,379999,1,1,1626877749\ni:16009,2440193,2440193,1,1,1626877750\ni:19272,104499,104499,4,4,1626877750\ni:12035,350000,350000,2,2,1626877749\ni:23104,3300,3450,15,15,1626877749\ni:15755,39999,39999,3,3,1626877750\ni:23514,339000,339000,5,5,1626877750\ni:6372,41800,42000,6,27,1626877749\ni:5116,394,394,3,7,1626877750\ni:15370,90000,90000,2,2,1626877750\ni:21953,29200,29200,3,3,1626877749\ni:24801,45000,45000,1,1,1626877749\ni:7754,229000,229000,4,4,1626877750\ni:24663,150000,150000,5,5,1626877749\ni:31284,300000,300000,1,1,1626877750\ni:24867,160000,160000,1,1,1626877749\ni:31198,1501245,1501245,1,1,1626877750\ni:5972,21100,21100,1,1,1626877750\ni:13447,9200,9259,15,26,1626877749\ni:19264,150000,150000,1,1,1626877749\ni:14571,21450,21450,1,1,1626877750\ni:24886,250000,250000,1,1,1626877749\ni:4837,200000,200000,2,2,1626877749\ni:29730,2747500,2747500,3,2,1626877749\ni:7448,100000,100000,1,1,1626877749\ni:11078,5650,5650,1,4,1626877750\ni:2996,1560,1564,14,61,1626877749\ni:4309,18800,19600,11,11,1626877749\ni:15049,2953060,2953060,1,1,1626877749\ni:24662,158000,158000,3,3,1626877750\ni:2589,250,446,125,2391,1626877750\ni:25062,200000,200000,3,3,1626877750\ni:21071,10000,10000,4,71,1626877749\ni:7913,261060,261060,1,1,1626877749\ni:13890,910,910,3,24,1626877749\ni:4781,100000,100000,4,4,1626877749\ni:23484,106000,106000,14,14,1626877749\ni:24627,80000,80000,2,2,1626877750\ni:25291,400000,400000,1,1,1626877749\ni:15270,50000,50000,1,1,1626877750\ni:24062,142999,144532,51,51,1626877750\ni:22827,74000,74000,40,76,1626877749\ni:16221,280000,283000,8,8,1626877749\ni:2675,2000,2000,2,4,1626877749\ni:1204,1650000,1650000,3,3,1626877749\ni:25299,72300,72300,10,10,1626877750\ni:3206,65000,65000,2,2,1626877749\ni:13454,97999,97999,57,212,1626877749\ni:2698,500000,500000,3,3,1626877749\ni:24274,6850000,6850000,5,5,1626877749\ni:13468,944000,993736,13,63,1626877749\ni:21768,600000,600000,3,3,1626877749\ni:22891,49600,49600,2,2,1626877749\ni:24031,2044999,2047499,28,28,1626877749\ni:4405,23619,23619,3,3,1626877749\ni:19259,29800,29800,2,2,1626877750\ni:6612,111200,111200,1,1,1626877750\ni:6394,23100,23100,1,1,1626877749\ni:15061,831862,831862,2,2,1626877749\ni:30748,500000,500000,2,2,1626877749\ni:2290,1995,1995,2,3,1626877750\ni:790,201999,201999,1,1,1626877749\ni:18588,4450,6493,5,30,1626877749\ni:3039,50000,50000,1,1,1626877750\ni:11290,190000,190000,1,1,1626877749\ni:2098,350000,350000,1,1,1626877750\ni:4378,6899,6899,4,60,1626877750\ni:25186,150000,150000,3,3,1626877750\ni:6049,8699,8699,7,34,1626877749\ni:22553,5990000,5990000,4,4,1626877750\ni:4294,1985,1985,1,1,1626877750\ni:25055,60000,60000,10,10,1626877749\ni:10285,1039,1040,19,99,1626877750\ni:14367,24500,24500,1,1,1626877749\ni:31149,799999,799999,4,4,1626877749\ni:15973,30000,30000,1,1,1626877750\ni:31291,279000,279500,8,8,1626877749\ni:24652,45000,45000,2,2,1626877749\ni:24697,50000,50000,1,1,1626877749\ni:6474,20000,20000,5,5,1626877749\ni:16059,97999,97999,2,2,1626877750\ni:25242,150000,150000,1,1,1626877749\ni:25107,100000,100000,1,1,1626877750\ni:7386,663154,663154,1,1,1626877749\ni:13943,35999,35999,4,4,1626877749\ni:18656,91999,91999,2,2,1626877749\ni:4392,137999,138000,13,30,1626877749\ni:25003,80000,80000,3,3,1626877749\ni:23111,3700,3750,26,26,1626877749\ni:1721,330583,330583,1,1,1626877749\ni:754,480000,480000,1,1,1626877750\ni:25026,200000,200000,1,1,1626877749\ni:24768,50000,50000,2,2,1626877749\ni:4234,8400,9790,28,212,1626877749\ni:4695,50000,50000,1,1,1626877749\ni:23137,500000,500000,3,3,1626877749\ni:24590,600000,600000,1,1,1626877750\ni:18631,393999,393999,11,11,1626877749\ni:19282,196999,196999,2,2,1626877749\ni:25320,98200,98200,6,6,1626877749\ni:15746,43000,43000,3,3,1626877749\ni:1685,48800,48800,2,1,1626877750\ni:7479,110000,110000,2,1,1626877749\ni:13467,2500,2835,27,507,1626877749\ni:2454,133,133,5,26,1626877749\ni:3829,8500,8749,35,61,1626877749\ni:10501,634383,634383,1,1,1626877749\ni:22913,21500000,21500000,2,2,1626877749\ni:10329,29800,29800,6,4,1626877750\ni:20958,79999,79999,3,3,1626877749\ni:8217,319999,319999,8,8,1626877750\ni:28595,28399,28399,19,19,1626877749\ni:22148,3998,3998,1,20,1626877750\ni:8211,355034,355034,3,3,1626877750\ni:12632,3551212,3551212,2,2,1626877749\ni:22838,288888,289999,42,208,1626877749\ni:15076,390318,390318,1,1,1626877750\ni:25218,100000,100000,1,1,1626877750\ni:21775,70000,80000,27,27,1626877750\ni:25287,100000,100000,11,11,1626877749\ni:3470,280,287,16,143,1626877749\ni:21887,7000,7647,58,905,1626877749\ni:3187,150000,150000,1,1,1626877749\ni:19270,19400,19400,2,2,1626877749\ni:9797,152800,152800,1,1,1626877749\ni:2869,149970,149970,2,2,1626877749\ni:1475,7500,7500,1,1,1626877749\ni:27855,6300,6300,4,6,1626877749\ni:13024,200000,200000,1,1,1626877749\ni:24752,100000,100000,3,3,1626877749\ni:28458,29499,29499,7,7,1626877749\ni:12797,30144056,30144056,1,1,1626877750\ni:24997,80000,80000,2,2,1626877749\ni:13545,9777,9777,2,36,1626877749\ni:9889,35000,35000,1,1,1626877749\ni:23426,79499,88838,64,270,1626877749\ni:14508,97000,97000,1,1,1626877749\ni:7517,105000,105000,1,1,1626877749\ni:7453,1980,1980,2,2,1626877749\ni:24991,250000,250000,1,1,1626877749\ni:4096,990,990,2,3,1626877749\ni:25000,183000,183000,3,3,1626877749\ni:24039,588000,590249,33,33,1626877749\ni:2836,299,335,51,801,1626877749\ni:30477,9800,9800,1,3,1626877749\ni:18363,102500,102500,3,3,1626877749\ni:3491,193432,193432,1,1,1626877750\ni:21867,239000,239666,11,11,1626877749\ni:7916,502036,502036,1,1,1626877750\ni:9864,30000,30000,1,1,1626877749\ni:4407,211996,211996,7,7,1626877749\ni:17723,500000,500000,1,1,1626877750\ni:15336,33000,33000,2,2,1626877749\ni:28469,200000,200000,5,5,1626877749\ni:20961,110000,120000,26,26,1626877750\ni:6467,400770,400770,1,1,1626877749\ni:12683,100000,100000,1,1,1626877750\ni:4257,328375,328375,2,2,1626877749\ni:23113,36600,36786,43,43,1626877749\ni:14103,106591,106591,2,2,1626877750\ni:15761,69499,69499,3,3,1626877750\ni:25200,50000,50000,1,1,1626877749\ni:27503,24800,27449,25,34,1626877749\ni:17682,109500,109500,2,2,1626877750\ni:15166,90000,90000,3,3,1626877749\ni:12409,2390188,2390188,1,1,1626877749\ni:12251,500000,500000,4,4,1626877749\ni:3357,250,252,40,359,1626877749\ni:4320,535468,535468,1,1,1626877750\ni:31339,13499999,13499999,4,3,1626877750\ni:24655,200000,200000,2,2,1626877749\ni:15213,50000,50000,1,1,1626877749\ni:21945,149500,149500,3,3,1626877750\ni:6568,50000,50000,1,1,1626877749\ni:4232,8900,8900,6,26,1626877749\ni:3730,5188,5200,7,42,1626877749\ni:5489,238999,238999,5,5,1626877750\ni:24800,60000,60000,2,2,1626877750\ni:19774,29200,29200,28,47,1626877749\ni:24835,60000,60000,2,2,1626877750\ni:24631,0,0,1,0,1626877749\ni:10392,499998,499998,6,6,1626877750\ni:23742,119500,119500,8,8,1626877749\ni:20856,29800,29900,8,8,1626877749\ni:13134,299000,299000,2,2,1626877749\ni:2835,45,74,61,1062,1626877749\ni:23559,79068,79068,3,15,1626877749\ni:21277,5000000,5000000,1,1,1626877749\ni:14342,128571,136760,27,79,1626877749\ni:3681,500000,500000,3,3,1626877749\ni:10009,134912,134912,2,2,1626877749\ni:15579,35000,35000,1,1,1626877749\ni:17708,6390,6390,37,185,1626877749\ni:31222,259000,259000,1,1,1626877749\ni:6326,500000,500000,3,3,1626877750\ni:25192,500000,500000,1,1,1626877749\ni:4039,29500,29500,1,1,1626877749\ni:31147,109500,109500,6,6,1626877749\ni:31578,0,0,1,0,1626877749\ni:3020,249900,249900,4,4,1626877749\ni:4323,78654,78654,1,1,1626877749\ni:13871,161232,161232,1,1,1626877749\ni:21954,145500,145833,12,12,1626877749\ni:7374,142091,142091,2,2,1626877749\ni:13007,499899,499899,1,1,1626877749\ni:13946,101499,101499,4,4,1626877749\ni:783,105,106,7,48,1626877749\ni:3490,137122,137122,2,2,1626877749\ni:25130,200000,200000,2,2,1626877749\ni:4067,29000,29000,1,1,1626877749\ni:12184,4200,4367,29,214,1626877749\ni:11082,9899,9899,32,69,1626877749\ni:7451,92000,92000,6,6,1626877749\ni:28468,199500,199500,7,7,1626877749\ni:13016,249000,249000,2,2,1626877749\ni:7613,500000,500000,3,3,1626877749\ni:7069,14199,14222,14,68,1626877749\ni:5503,8036,8036,2,20,1626877749\ni:24975,150000,150000,2,2,1626877749\ni:13932,9700,9730,4,55,1626877749\ni:24940,100000,100000,2,2,1626877749\ni:3575,8333,9055,93,956,1626877749\ni:4564,5000,5000,4,4,1626877749\ni:13941,39999,39999,8,8,1626877749\ni:14138,257260,257260,2,2,1626877749\ni:2457,54999,54999,3,15,1626877749\ni:15422,19800,19800,2,15,1626877749\ni:13897,500000,500000,5,5,1626877749\ni:24725,150000,150000,2,2,1626877749\ni:34207,870000,870000,3,3,1626877749\ni:15412,990,990,1,8,1626877749\ni:1015,910,910,5,38,1626877749\ni:23883,9990000,9990000,1,1,1626877749\ni:24641,100000,100000,2,2,1626877749\ni:11407,1240,1240,1,1,1626877749\ni:4065,15000,15000,1,1,1626877749\ni:29535,7940000,7943333,12,12,1626877749\ni:24841,60000,60000,4,4,1626877749\ni:25092,50000,50000,1,1,1626877749\ni:21779,999800,999800,1,1,1626877749\ni:7279,9575,9575,5,5,1626877749\ni:21860,280000,280000,2,2,1626877749\ni:29723,4800000,4800000,2,2,1626877749\ni:15559,40000,40000,1,1,1626877749\ni:4242,17684,17684,2,2,1626877749\ni:9952,90000,90000,1,1,1626877749\ni:37915,496999,496999,2,2,1626877749\ni:24720,50000,50000,3,3,1626877749\ni:4379,50999,50999,1,1,1626877749\ni:6591,50000,50000,1,1,1626877749\ni:15073,276690,276690,1,1,1626877749\ni:7520,50000,50000,1,1,1626877749\ni:27664,3400,3599,30,310,1626877749\ni:27438,14599,14653,14,123,1626877750\ni:18262,139999,140167,69,318,1626877749\ni:3387,3900,3958,15,65,1626877749\ni:15564,7700,7700,19,37,1626877749\ni:8224,0,0,1,0,1626877749\ni:15234,38000,38000,1,1,1626877749\ni:3576,3100,3925,65,1185,1626877749\ni:7741,1000000,1000000,1,1,1626877749\ni:6475,30400,30400,5,5,1626877749\ni:8498,49990000,49990000,1,1,1626877749\ni:1715,369999,369999,6,6,1626877749\ni:24268,2400,2400,1,6,1626877749\ni:24846,50000,50000,4,4,1626877749\ni:4426,14400,14700,12,17,1626877749\ni:8292,200000,200000,1,1,1626877749\ni:23354,19200,19200,2,4,1626877749\ni:20875,1000000,1000000,1,1,1626877749\ni:2316,152038,152038,10,10,1626877749\ni:15287,80000,80000,1,1,1626877749\ni:12643,3899,3899,4,20,1626877749\ni:13047,1507323,1507323,1,1,1626877749\ni:23804,0,0,1,0,1626877749\ni:14252,65000,65000,2,2,1626877749\ni:25867,2064999,2067083,23,23,1626877749\ni:24678,290000,290000,4,4,1626877749\ni:20879,31400,31400,7,35,1626877749\ni:13101,880000,880000,1,1,1626877749\ni:6039,85499,85499,8,8,1626877749\ni:13311,54499,54499,2,2,1626877749\ni:24735,550000,550000,1,1,1626877749\ni:7046,50000,50000,1,1,1626877749\ni:7189,377999,377999,4,4,1626877750\ni:5507,82499,82499,1,1,1626877749\ni:2576,500000,500000,1,1,1626877749\ni:6602,30000,30000,2,2,1626877749\ni:1725,14599,14599,8,7,1626877749\ni:5469,1960,1960,1,8,1626877749\ni:16110,39600,39600,11,11,1626877749\ni:33185,5990000,5990000,2,2,1626877749\ni:25846,54497,54497,4,4,1626877749\ni:18662,86999,87000,5,21,1626877749\ni:6272,10000,10000,5,5,1626877749\ni:5134,1490,1490,2,7,1626877749\ni:23762,581694,801000,21,21,1626877749\ni:24657,100000,100000,3,3,1626877749\ni:14204,90000,90000,1,1,1626877749\ni:15773,200000,200000,1,1,1626877749\ni:4330,50899,50899,5,5,1626877749\ni:38082,15899999,15899999,5,5,1626877749\ni:20821,35444,35444,2,2,1626877749\ni:13124,150000,150000,1,1,1626877749\ni:31133,994000,994000,4,4,1626877749\ni:24869,100000,100000,1,1,1626877749\ni:25298,80000,90000,10,10,1626877749\ni:2997,4800,6851,20,82,1626877749\ni:20513,19600,19600,6,10,1626877750\ni:3866,9900,9900,2,2,1626877749\ni:24602,80000,80000,5,5,1626877749\ni:15870,7678,7678,4,80,1626877749\ni:20960,69000,69999,95,95,1626877749\ni:28399,476,476,1,4,1626877749\ni:31671,16800,18502,28,76,1626877750\ni:1195,499999,499999,1,1,1626877749\ni:8401,29600,29600,5,5,1626877749\ni:3382,6665,6665,4,20,1626877750\ni:7114,29999,29999,8,8,1626877749\ni:14468,98888,98888,1,1,1626877749\ni:5051,2117,2117,1,1,1626877750\ni:7089,24999,24999,6,6,1626877749\ni:24478,4100,4646,88,173,1626877750\ni:7361,500000,500000,3,3,1626877750\ni:29160,613613,613613,3,3,1626877749\ni:8489,2500000,2500000,1,1,1626877749\ni:24625,70000,70000,5,5,1626877749\ni:15506,20000,20000,1,1,1626877749\ni:16243,250000,250000,3,3,1626877749\ni:13112,222265,222265,1,1,1626877749\ni:24197,2900000,2900000,4,4,1626877749\ni:22573,12500,13432,139,1000,1626877749\ni:21896,249000,249633,10,10,1626877749\ni:31255,397000,397000,1,1,1626877749\ni:27697,87500,87831,13,13,1626877749\ni:8350,49990000,49990000,1,1,1626877749\ni:13422,7300,7590,29,468,1626877749\ni:24205,5600000,5600000,1,1,1626877749\ni:31275,450000,450000,5,5,1626877749\ni:7057,24999,24999,7,7,1626877749\ni:12405,407401,407401,5,5,1626877749\ni:24684,300000,300000,2,2,1626877749\ni:23098,6800,7141,59,59,1626877749\ni:24701,550000,550000,1,1,1626877749\ni:15080,310910,310910,1,1,1626877749\ni:25237,150000,150000,2,2,1626877749\ni:31292,388000,388000,4,4,1626877749\ni:25252,300000,300000,1,1,1626877749\ni:12190,5800,5800,8,32,1626877749\ni:863,200000,200000,2,1,1626877749\ni:27663,2100,2253,20,145,1626877749\ni:1169,9990000,9990000,1,1,1626877749\ni:25070,120000,120000,3,3,1626877749\ni:7471,80000,80000,1,1,1626877749\ni:19819,47400,47400,4,4,1626877749\ni:10287,23000,23000,1,1,1626877749\ni:8545,1000,1000,4,54,1626877749\ni:31865,401000,401497,27,27,1626877749\ni:3340,20700,20700,5,40,1626877749\ni:4838,60000,60000,4,4,1626877749\ni:864,29000,29000,1,1,1626877749\ni:22604,4900,4900,1,1,1626877749\ni:16245,1500000,1500000,4,4,1626877749\ni:5996,25000,25000,20,64,1626877749\ni:15016,20000,20000,1,1,1626877749\ni:25896,2502500,2505000,17,17,1626877749\ni:25700,30200,30381,27,43,1626877749\ni:3389,8461,8461,5,33,1626877749\ni:22786,24800,24989,25,491,1626877749\ni:13097,590000,590000,1,1,1626877749\ni:21893,18799,18799,8,8,1626877749\ni:12223,17,18,8,48,1626877749\ni:3852,964066,964066,1,1,1626877749\ni:29547,74000,74000,9,18,1626877749\ni:2864,148904,148904,2,2,1626877749\ni:2577,500000,500000,1,1,1626877749\ni:932,12000,12000,1,1,1626877749\ni:27694,79000,79250,8,8,1626877749\ni:23109,180000,180000,7,7,1626877749\ni:25868,2777498,2777999,21,21,1626877749\ni:15607,110000,110000,1,1,1626877749\ni:31234,460000,460000,1,1,1626877749\ni:10023,315090,315090,1,1,1626877749\ni:8161,50000,50000,1,1,1626877749\ni:24812,990000,990000,2,2,1626877749\ni:2857,49999,49999,14,14,1626877749\ni:24959,500000,500000,1,1,1626877749\ni:24976,50000,50000,4,4,1626877749\ni:20744,8100,8100,14,9,1626877749\ni:33825,35000,35000,4,80,1626877749\ni:23506,6393942,6393942,1,1,1626877749\ni:29540,2550000,2550000,2,2,1626877749\ni:8110,500000,500000,1,1,1626877749\ni:3855,1995000,1995000,16,16,1626877749\ni:3826,1260,1260,16,80,1626877750\ni:21882,48833,49347,13,45,1626877749\ni:6211,120000,120000,1,1,1626877749\ni:7971,28888,28888,25,45,1626877749\ni:24736,100000,100000,3,3,1626877749\ni:22901,49099,49099,4,4,1626877749\ni:27667,18800,19359,31,358,1626877749\ni:29953,500000,500000,2,2,1626877749\ni:3845,344796,344796,1,1,1626877749\ni:7070,31000,38781,19,41,1626877750\ni:23635,2500000,2500000,1,1,1626877749\ni:7049,47782,47782,1,1,1626877749\ni:4259,516272,516272,2,2,1626877749\ni:23623,3500000,3500000,3,3,1626877749\ni:23503,196500,197000,21,21,1626877749\ni:15324,100000,100000,1,1,1626877749\ni:21841,55555,55555,103,103,1626877749\ni:22835,23400,23500,11,66,1626877749\ni:10041,394999,394999,3,3,1626877749\ni:13042,809591,809591,1,1,1626877749\ni:4782,100000,100000,3,3,1626877749\ni:3049,29997,29997,2,2,1626877749\ni:12694,405000,405000,5,5,1626877749\ni:24946,309999,309999,2,2,1626877749\ni:24974,50000,50000,1,1,1626877749\ni:24826,40000,40000,1,1,1626877749\ni:21902,149999,149999,2,2,1626877749\ni:8188,29500,29500,2,1,1626877749\ni:25081,60000,60000,2,2,1626877749\ni:25146,150000,150000,1,1,1626877749\ni:5001,200000,200000,2,2,1626877749\ni:5504,1100,1100,1,10,1626877749\ni:18519,9990000,9990000,1,1,1626877749\ni:24648,500000,500000,1,1,1626877749\ni:27691,78997,78997,8,8,1626877749\ni:8959,4400,4533,3,10,1626877749\ni:3240,7518,7518,4,20,1626877749\ni:25061,500000,500000,4,4,1626877749\ni:14100,145068,145068,1,1,1626877749\ni:22871,101500,101500,5,5,1626877749\ni:23151,500000,500000,3,3,1626877749\ni:3492,353410,353410,1,1,1626877749\ni:25849,58500,58750,7,7,1626877749\ni:29203,472424,472424,1,1,1626877749\ni:11128,193324,193324,8,8,1626877749\ni:7357,0,0,1,0,1626877749\ni:20498,1935,1935,9,147,1626877749\ni:13931,13516,13516,1,1,1626877749\ni:3385,391,392,16,40,1626877749\ni:24054,524499,525748,27,27,1626877749\ni:24738,50000,50000,4,4,1626877749\ni:25744,9900,9949,6,8,1626877749\ni:31876,2500000,2500000,1,1,1626877749\ni:25649,1325,1353,93,1211,1626877749\ni:24713,50000,50000,5,5,1626877749\ni:21358,29799,29799,7,7,1626877749\ni:4243,29190,29190,2,2,1626877749\ni:3241,19999,19999,4,20,1626877749\ni:31138,508998,508998,4,4,1626877749\ni:4353,48600,48600,3,3,1626877749\ni:30156,56500,56500,6,6,1626877749\ni:4041,29500,29500,1,1,1626877749\ni:7062,58000,58000,21,21,1626877749\ni:24689,43000,43000,3,3,1626877749\ni:12404,3799,3799,12,98,1626877749\ni:10644,500000,500000,5,5,1626877749\ni:20876,999999,999999,2,3,1626877749\ni:14555,20000000,20000000,1,1,1626877749\ni:4424,9300,9350,3,7,1626877749\ni:15377,200000,200000,1,1,1626877749\ni:24711,50000,50000,5,5,1626877749\ni:15168,120000,120000,1,1,1626877749\ni:15045,627500,627500,1,1,1626877749\ni:4582,9800,9800,3,3,1626877749\ni:18654,990000,990000,1,1,1626877749\ni:11040,2000,2300,11,57,1626877749\ni:25082,210000,210000,2,2,1626877749\ni:24649,49900,49950,7,7,1626877750\ni:3872,10000,10000,1,1,1626877749\ni:10019,239999,239999,3,3,1626877749\ni:3428,100000,100000,1,1,1626877749\ni:15417,95500,95750,3,9,1626877749\ni:23490,476000,476000,4,4,1626877749\ni:25221,300000,300000,1,1,1626877749\ni:5965,241048,241048,1,1,1626877749\ni:15241,52000,52000,2,2,1626877749\ni:20004,49498,49498,1,10,1626877749\ni:4792,100000,100000,1,1,1626877749\ni:16060,100000,100000,2,2,1626877749\ni:4297,1000000,1000000,1,1,1626877749\ni:2455,45,45,4,16,1626877749\ni:13511,1197499,1197499,20,20,1626877749\ni:16055,8990000,8990000,2,2,1626877749\ni:18944,150,349,3,131,1626877749\ni:31342,15000000,15000000,2,2,1626877749\ni:15088,267907,267907,2,2,1626877749\ni:24777,90000,90000,3,3,1626877749\ni:23805,148999,148999,3,3,1626877749\ni:17716,701955,701955,1,1,1626877749\ni:8176,36200,36200,24,24,1626877749\ni:24912,250000,250000,1,1,1626877749\ni:11167,80000,80000,1,1,1626877749\ni:10939,7500,7623,45,137,1626877749\ni:13309,53000,53000,4,4,1626877749\ni:13935,995,995,1,10,1626877749\ni:27422,147,148,8,129,1626877749\ni:6614,100000,100000,1,1,1626877749\ni:4241,62624,62624,5,5,1626877749\ni:1288,489,489,3,8,1626877749\ni:30745,500000,500000,5,5,1626877749\ni:2236,330000,330000,3,3,1626877749\ni:3186,100000,100000,1,1,1626877749\ni:30746,500000,500000,1,1,1626877749\ni:13308,497999,497999,3,3,1626877749\ni:10046,16599,16599,1,1,1626877749\ni:25670,39800,39900,7,7,1626877749\ni:25100,200000,200000,1,1,1626877749\ni:23197,600000,600000,1,1,1626877749\ni:13860,316300,316300,1,1,1626877749\ni:18045,5300,5300,1,12,1626877749\ni:20855,30000,30000,9,9,1626877749\ni:25668,99000,99000,6,6,1626877749\ni:4362,24438,24438,1,1,1626877749\ni:18335,24800,24800,2,6,1626877749\ni:30747,149999,149999,6,6,1626877749\ni:13442,70500,71000,51,251,1626877749\ni:25196,400000,400000,1,1,1626877749\ni:4395,161996,161996,5,50,1626877749\ni:8952,1970,1970,1,2,1626877749\ni:4786,200000,200000,2,2,1626877749\ni:13130,489000,489000,4,4,1626877749\ni:13020,420000,420000,1,1,1626877749\ni:14923,40000,40000,1,1,1626877749\ni:7072,6000,6000,4,26,1626877749\ni:23508,7373549,7373549,1,1,1626877749\ni:31336,32500000,32500000,5,5,1626877749\ni:11983,100000,100000,2,2,1626877749\ni:15294,100000,100000,2,2,1626877749\ni:20859,33800,33986,2,49,1626877749\ni:15415,4700,4766,5,72,1626877749\ni:24970,600000,600000,1,1,1626877749\ni:4404,540,590,74,207,1626877750\ni:23824,19980000,19980000,3,3,1626877749\ni:23446,59999,62594,54,576,1626877749\ni:9839,60000,60000,1,1,1626877749\ni:20039,1990000,1990000,1,1,1626877749\ni:25314,300000,300000,4,4,1626877749\ni:10592,120,150,6,60,1626877749\ni:19280,111110,111110,6,6,1626877749\ni:24842,50000,50000,4,4,1626877749\ni:34113,336000,357819,29,135,1626877749\ni:5751,20000,20000,2,2,1626877749\ni:24747,50000,50000,2,2,1626877749\ni:24787,60000,60000,4,4,1626877749\ni:2447,495,495,24,347,1626877749\ni:24273,3002499,3002499,9,9,1626877749\ni:24896,100000,100000,2,2,1626877750\ni:24949,109900,109900,1,1,1626877749\ni:12689,57000,57000,1,1,1626877749\ni:6217,100000,100000,6,6,1626877749\ni:13510,1162500,1164998,18,18,1626877749\ni:9224,59499,59835,42,212,1626877749\ni:24601,399999,399999,1,1,1626877749\ni:14897,60000,60000,1,1,1626877749\ni:24672,250000,250000,4,4,1626877749\ni:31319,9990000,9990000,2,2,1626877749\ni:25117,300000,300000,1,1,1626877749\ni:5966,440112,440112,1,1,1626877749\ni:30422,58000,59000,8,8,1626877749\ni:31332,54999999,54999999,3,3,1626877749\ni:8490,500000,500000,1,1,1626877749\ni:24960,98000,98000,2,2,1626877749\ni:11736,155050,155050,1,1,1626877749\ni:24811,850000,850000,1,1,1626877749\ni:4500,188500,188500,12,12,1626877749\ni:31329,15700000,15700000,2,2,1626877749\ni:4251,21636,21636,2,1,1626877749\ni:3478,600,600,13,119,1626877749\ni:25220,150000,150000,2,2,1626877749\ni:13453,82000,82333,10,26,1626877750\ni:22790,1695,1727,64,1089,1626877749\ni:15174,100000,100000,1,1,1626877749\ni:7932,1729652,1729652,1,1,1626877749\ni:6347,99999,99999,1,1,1626877749\ni:23493,108000,108000,8,8,1626877749\ni:18587,2505000,2505000,3,3,1626877749\ni:24893,400000,400000,2,2,1626877749\ni:23440,755000,756180,18,18,1626877749\ni:25042,650000,650000,2,2,1626877749\ni:19704,6099,9712,9,602,1626877749\ni:10004,186186,186186,1,1,1626877749\ni:3383,268,350,9,91,1626877749\ni:10184,20000,20000,1,1,1626877749\ni:7058,59999,59999,7,7,1626877749\ni:6539,50000,50000,1,1,1626877749\ni:10055,500000,500000,1,1,1626877749\ni:21941,29800,29900,8,8,1626877749\ni:23761,863992,863992,1,1,1626877749\ni:19236,100000,100000,1,1,1626877749\ni:7456,100000,100000,1,1,1626877749\ni:25844,960706,980302,15,15,1626877749\ni:23447,127500,131222,63,169,1626877749\ni:13144,550000,550000,1,1,1626877749\ni:7375,615950,615950,1,1,1626877749\ni:12032,250000,250000,2,2,1626877749\ni:20955,19999,19999,38,38,1626877750\ni:22563,58500,58500,3,3,1626877749\ni:24599,50000,50000,3,3,1626877749\ni:3608,0,0,1,0,1626877749\ni:27665,10089,10089,39,565,1626877749\ni:16649,9900,9900,3,3,1626877749\ni:22794,333000,360516,89,117,1626877749\ni:24977,500000,500000,1,1,1626877749\ni:943,3497500,3497500,2,2,1626877749\ni:18744,400000,400000,1,1,1626877749\ni:10149,50000,50000,1,1,1626877749\ni:10559,51200,61910,35,36,1626877749\ni:23106,21599,21599,12,12,1626877749\ni:7340,1999999,1999999,1,1,1626877749\ni:20871,499999,499999,2,5,1626877749\ni:24670,500000,500000,2,2,1626877749\ni:19726,149000,149000,2,4,1626877749\ni:9951,70000,70000,1,1,1626877749\ni:31176,200396,200396,1,1,1626877749\ni:22521,129000,129078,67,67,1626877749\ni:28465,200000,200000,5,5,1626877749\ni:24164,704000,704000,2,2,1626877749\ni:7963,50000,50000,5,5,1626877749\ni:15083,348000,348000,3,3,1626877750\ni:15410,89500,89500,1,2,1626877749\ni:7931,50000,50000,35,35,1626877749\ni:8347,579000,579000,3,3,1626877749\ni:8367,1758976,1758976,1,1,1626877749\ni:14476,100000,100000,4,4,1626877749\ni:3853,1925000,1925000,19,19,1626877749\ni:8409,97999,97999,6,6,1626877750\ni:19705,5099,7734,4,343,1626877749\ni:1468,4988,4988,2,12,1626877749\ni:23444,300,300,1,5,1626877749\ni:4324,40220,40220,1,1,1626877749\ni:15503,30000,30000,2,2,1626877749\ni:3358,1985,2390,54,464,1626877749\ni:4348,54000,54000,3,3,1626877749\ni:20748,265500,265699,137,137,1626877749\ni:20451,200000,200000,1,1,1626877749\ni:8391,1010,1015,11,18,1626877749\ni:2776,34800,34918,31,126,1626877749\ni:23112,69499,72913,178,214,1626877749\ni:3873,124500,124500,2,2,1626877749\ni:18401,957000,957000,3,3,1626877749\ni:868,1097500,1097500,4,4,1626877749\ni:20752,44200,44200,6,6,1626877749\ni:4091,5000000,5000000,1,1,1626877749\ni:2819,20000,20000,1,1,1626877749\ni:24220,7999999,7999999,3,3,1626877749\ni:5484,126000,126000,5,5,1626877749\ni:18731,500000,500000,3,3,1626877749\ni:20877,300000,300000,1,1,1626877749\ni:24622,500000,500000,1,1,1626877749\ni:24798,700000,700000,1,1,1626877749\ni:7281,17444,17444,1,1,1626877749\ni:25122,92500,92500,1,1,1626877749\ni:24957,50000,50000,1,1,1626877749\ni:24693,800000,800000,1,1,1626877749\ni:16214,12000000,12000000,1,1,1626877749\ni:13868,252145,252145,1,1,1626877749\ni:19268,396000,396000,3,3,1626877749\ni:7443,30000,30000,2,2,1626877749\ni:14142,787106,787106,1,1,1626877749\ni:24934,50000,50000,2,2,1626877749\ni:24743,50000,50000,2,2,1626877749\ni:24027,2269999,2272499,29,29,1626877749\ni:20500,249000,249000,3,6,1626877749\ni:4310,49462,49462,1,1,1626877749\ni:22388,500000,500000,1,1,1626877749\ni:23764,795000,796499,14,14,1626877749\ni:31293,200000,200000,6,6,1626877749\ni:8184,119998,119998,1,1,1626877749\ni:31331,14390000,14390000,5,5,1626877749\ni:14466,50000,50000,1,1,1626877749\ni:7993,7400,7400,1,1,1626877749\ni:2772,8900,11302,16,239,1626877749\ni:32063,79500,79500,4,34,1626877749\ni:5117,980,986,6,28,1626877749\ni:23110,26697,26883,48,48,1626877749\ni:21151,8000,9033,16,157,1626877749\ni:7941,1487499,1487499,6,6,1626877749\ni:9302,39999,39999,3,3,1626877749\ni:16215,993000,993000,6,5,1626877749\ni:22854,1647500,1651400,20,20,1626877749\ni:9060,158500,158758,10,10,1626877750\ni:24881,100000,100000,2,2,1626877749\ni:13870,121100,121149,8,8,1626877749\ni:4727,0,0,1,0,1626877749\ni:4697,30000,30000,1,1,1626877749\ni:23636,4200000,4200000,1,1,1626877749\ni:20950,29799,34899,25,25,1626877749\ni:10044,599066,599066,1,1,1626877749\ni:20866,455050,455050,3,5,1626877749\ni:4417,0,0,1,0,1626877749\ni:24037,476000,477110,23,23,1626877749\ni:6338,150000,153569,26,26,1626877750\ni:5486,122000,122000,5,5,1626877749\ni:31328,4987499,4987499,3,3,1626877749\ni:23765,2950000,3277142,25,25,1626877750\ni:14048,5000,5000,5,22,1626877749\ni:24748,500000,500000,1,1,1626877749\ni:7026,4383,4383,1,1,1626877749\ni:3680,500000,500000,3,3,1626877749\ni:10121,50000,50000,1,1,1626877749\ni:28464,200000,200000,5,5,1626877749\ni:4314,23855,23855,5,5,1626877749\ni:24650,100000,100000,2,2,1626877749\ni:4594,252,252,1,20,1626877749\ni:21765,19799,19799,58,58,1626877749\ni:6056,29999,29999,8,8,1626877749\ni:15997,54,54,26,5200,1626877749\ni:24823,80000,80000,4,4,1626877749\ni:33782,87000,87944,32,32,1626877749\ni:13754,371,372,10,137,1626877749\ni:22246,9900,9900,7,7,1626877749\ni:15570,20000,20000,1,1,1626877749\ni:23334,2000,2000,2,2,1626877749\ni:20872,125000,125000,1,8,1626877749\ni:11206,999999,999999,3,3,1626877749\ni:19279,250000,250000,2,2,1626877749\ni:11176,8799,8904,92,400,1626877750\ni:21854,44000,44000,7,7,1626877750\ni:6611,30808,30808,2,2,1626877749\ni:24712,50000,50000,2,2,1626877749\ni:4058,13000,13000,1,1,1626877749\ni:7355,103100,103100,1,1,1626877749\ni:11138,495,498,57,122,1626877749\ni:21897,481000,481666,11,11,1626877750\ni:24732,250000,250000,1,1,1626877749\ni:20970,86000,86000,3,3,1626877749\ni:21767,48999,48999,25,25,1626877749\ni:14258,100000,100000,1,1,1626877749\ni:2452,15400,17490,33,289,1626877749\ni:7166,91065,91065,2,2,1626877749\ni:20576,500000,500000,3,3,1626877749\ni:24794,100000,100000,4,4,1626877749\ni:22529,1989,1989,2,3,1626877749\ni:25239,200000,200000,2,2,1626877749\ni:19703,9800,9894,5,438,1626877749\ni:31187,149499,149499,3,3,1626877749\ni:13885,189500,189500,1,1,1626877749\ni:2847,88812,88812,1,1,1626877749\ni:10053,313197,313197,1,1,1626877749\ni:13889,23800,23800,21,127,1626877749\ni:7939,4434998,4434998,3,3,1626877750\ni:10328,690000,690000,2,2,1626877749\ni:11188,14600,14999,3,114,1626877749\ni:8186,99999,99999,2,2,1626877749\ni:15407,10800,18071,14,32,1626877749\ni:29391,1000000,1000000,1,1,1626877749\ni:10978,1109,2230,30,203,1626877749\ni:24727,150000,150000,5,5,1626877749\ni:31677,499999,499999,8,25,1626877749\ni:12804,33400,33974,112,168,1626877749\ni:15927,100000,100000,1,1,1626877749\ni:14498,20000,20000,1,1,1626877749\ni:22849,57198,59538,160,542,1626877749\ni:25416,12399,12710,13,121,1626877750\ni:25323,300000,300000,2,2,1626877749\ni:22845,600000,600000,1,2,1626877749\ni:24843,90000,95000,7,7,1626877749\ni:1608,50000,50000,1,1,1626877749\ni:15381,35000,35000,1,1,1626877749\ni:24708,47025,47025,2,2,1626877750\ni:15212,345000,345000,1,1,1626877749\ni:31212,500000,500000,1,1,1626877749\ni:8494,399990000,399990000,1,1,1626877749\ni:3850,421480,421480,2,2,1626877749\ni:8205,1576334,1576334,1,1,1626877749\ni:24338,945,945,1,20,1626877749\ni:14223,8000,8000,1,1,1626877749\ni:27429,4988,4995,5,89,1626877749\ni:12974,100000,100000,2,2,1626877749\ni:2572,19522,19840,11,11,1626877749\ni:16218,169900,169900,4,4,1626877749\ni:33874,5000,5000,15,110,1626877749\ni:23097,59298,59598,124,124,1626877749\ni:25041,97517,97517,3,3,1626877750\ni:5833,10150,10150,12,55,1626877749\ni:4421,1994,1994,3,5,1626877749\ni:6390,1200000,1200000,1,1,1626877749\ni:14206,40000,40000,1,1,1626877749\ni:2459,29900,29900,53,112,1626877749\ni:31204,413000,413000,2,2,1626877749\ni:17058,458,460,32,307,1626877749\ni:7373,117804,117804,2,2,1626877749\ni:23199,6660000,6660000,1,1,1626877749\ni:24902,50000,50000,1,1,1626877749\ni:23758,700000,700000,4,4,1626877749\ni:7454,100000,100000,2,2,1626877749\ni:2844,33146,33146,1,1,1626877749\ni:8208,4746980,4746980,1,1,1626877749\ni:19698,5099,7982,5,426,1626877749\ni:8845,23800,24000,12,72,1626877749\ni:31295,200000,200000,9,9,1626877749\ni:12645,1076899,1076899,1,1,1626877749\ni:22393,17800,17800,1,1,1626877749\ni:21722,5000000,5000000,1,1,1626877749\ni:2988,30500,30500,1,1,1626877749\ni:31150,507999,507999,3,3,1626877749\ni:15654,1000000,1000000,1,1,1626877749\ni:23746,252000,252000,12,12,1626877749\ni:3287,30000,30000,1,1,1626877749\ni:25234,112400,112400,1,1,1626877749\ni:32381,37600,37766,11,11,1626877749\ni:24257,1000000,1000000,1,1,1626877749\ni:1181,13400,13400,2,3,1626877749\ni:22445,13200,13414,156,2183,1626877749\ni:25312,180000,180000,2,2,1626877749\ni:2799,9800,9800,5,28,1626877749\ni:23781,42800,48228,40,107,1626877749\ni:23117,23599,45888,225,312,1626877749\ni:6787,500000,500000,4,4,1626877750\ni:7937,2000000,2000000,4,4,1626877749\ni:2854,51999,51999,2,2,1626877749\ni:2738,4600,4600,4,4,1626877749\ni:25058,500000,500000,2,2,1626877749\ni:24778,100620,100620,4,4,1626877749\ni:7191,62000,62661,14,53,1626877749\ni:2866,35924,35924,1,1,1626877749\ni:7492,20000,20000,1,1,1626877749\ni:9061,11000,11115,40,225,1626877749\ni:10030,753288,753288,1,1,1626877749\ni:27681,3500,3599,29,133,1626877749\ni:20817,1825,1843,32,107,1626877749\ni:15249,100000,100000,1,1,1626877749\ni:12777,3038530,3038530,1,1,1626877749\ni:9295,507000,507000,3,3,1626877749\ni:24965,150000,150000,2,2,1626877749\ni:4701,30400,30400,1,1,1626877749\ni:14255,200000,200000,1,1,1626877749\ni:9088,23399,23399,6,40,1626877750\ni:18600,500000,500000,1,1,1626877749\ni:24301,2499999,2499999,2,2,1626877749\ni:15591,150000,150000,1,1,1626877749\ni:8501,500000,500000,3,3,1626877749\ni:24052,1009999,1010000,22,22,1626877749\ni:12693,60000,60000,4,4,1626877749\ni:14838,150000,150000,1,1,1626877749\ni:10309,41800,42688,23,32,1626877749\ni:23625,4997498,4997498,3,3,1626877749\ni:23101,57799,57822,39,39,1626877749\ni:23630,10000000,10000000,1,1,1626877749\ni:9313,30,30,21,98,1626877749\ni:24775,60000,60000,3,3,1626877749\ni:31304,289000,289000,1,1,1626877749\ni:6471,19000,19000,3,5,1626877749\ni:6554,20000,20000,1,1,1626877749\ni:13758,496,497,16,299,1626877749\ni:24710,500000,500000,2,2,1626877749\ni:22562,80000,80000,7,7,1626877749\ni:3745,1800,1800,1,2,1626877749\ni:15408,1220,1225,13,85,1626877750\ni:7363,50000,50000,1,1,1626877749\ni:25164,180000,180000,1,1,1626877749\ni:10040,500000,500000,1,1,1626877749\ni:24594,850000,850000,1,1,1626877749\ni:24692,400000,400000,1,1,1626877749\ni:14132,57023,57023,21,21,1626877749\ni:15078,451384,451384,1,1,1626877749\ni:2587,38600,38600,20,20,1626877749\ni:12232,29999,29999,9,9,1626877749\ni:6466,140398,140398,1,1,1626877749\ni:24479,59500,66563,34,45,1626877749\ni:27699,99499,99499,4,4,1626877749\ni:17721,563320,563320,1,1,1626877749\ni:15390,150000,150000,1,1,1626877749\ni:9776,30000,30000,1,1,1626877749\ni:7358,980980,980980,1,1,1626877749\ni:2244,1505000,1505000,4,4,1626877750\ni:12002,290000,290000,2,2,1626877749\ni:15051,3695048,3695048,1,1,1626877749\ni:10499,586740,586740,1,1,1626877749\ni:21942,19799,19799,9,9,1626877749\ni:15994,3400,3588,76,173,1626877749\ni:4313,115644,115644,1,1,1626877749\ni:15186,30000,30000,1,1,1626877749\ni:2318,980,999,138,2660,1626877749\ni:2770,3300,3712,44,557,1626877749\ni:7277,11801,11801,1,1,1626877749\ni:27854,810,810,1,1,1626877749\ni:14942,110000,110000,1,1,1626877749\ni:20295,4955884,4955884,1,1,1626877749\ni:22526,204,204,3,337,1626877749\ni:25671,47600,47800,27,27,1626877749\ni:32948,65098,65098,2,10,1626877749\ni:10548,231995,231995,8,8,1626877749\ni:15095,1532812,1532812,1,1,1626877749\ni:5740,10000,10000,31,155,1626877749\ni:7929,1400952,1400952,1,1,1626877749\ni:2848,44346,44346,1,1,1626877749\ni:13030,190000,190000,1,1,1626877749\ni:13089,927999,927999,3,3,1626877749\ni:19258,149500,149500,4,4,1626877749\ni:13929,1199,1199,1,20,1626877749\ni:2581,390,532,9,169,1626877749\ni:20671,2990000,2990000,1,1,1626877749\ni:10320,80000,80000,3,3,1626877749\ni:15075,631030,631030,1,1,1626877749\ni:25201,209975,209975,1,1,1626877749\ni:31303,258000,258000,2,2,1626877749\ni:5958,124219,124219,2,2,1626877749\ni:24834,689000,689000,1,1,1626877749\ni:23437,49599,52990,32,41,1626877749\ni:12040,30000,30000,3,3,1626877749\ni:7444,20000,20000,1,1,1626877749\ni:10423,152004,152004,1,1,1626877749\ni:6571,30000,30000,1,1,1626877749\ni:2748,9000,9000,1,1,1626877749\ni:9385,2800000,2800000,1,1,1626877750\ni:10608,1507500,1507500,1,1,1626877749\ni:31334,10000000,10000000,2,2,1626877749\ni:23638,198999,198999,5,5,1626877749\ni:8396,93500,93500,4,4,1626877749\ni:3735,28700,28700,3,3,1626877750\ni:8204,1780000,1785833,11,11,1626877749\ni:9806,100000,100000,1,1,1626877749\ni:28279,79500000,79500000,1,1,1626877749\ni:4385,370214,370214,1,1,1626877749\ni:3856,988816,988816,1,1,1626877749\ni:23094,29198,29259,36,36,1626877749\ni:3609,9999,9999,3,3,1626877749\ni:18949,187999,187999,3,3,1626877749\ni:8172,2300,2300,18,45,1626877749\ni:4260,1287769,1287769,1,1,1626877749\ni:10045,4383,4383,1,1,1626877749\ni:10561,20000,20000,20,36,1626877749\ni:24770,3990000,3990000,1,1,1626877749\ni:2570,4383,4383,1,1,1626877749\ni:12624,4778572,4778572,1,1,1626877749\ni:24053,934999,935000,21,21,1626877749\ni:28101,40000,40000,29,128,1626877749\ni:4346,39599,39599,6,6,1626877749\ni:23121,7100,7219,19,19,1626877749\ni:25205,130000,130000,2,2,1626877749\ni:23785,2661312,2661312,2,2,1626877749\ni:13040,210000,210000,4,4,1626877749\ni:21932,100744,100744,2,2,1626877749\ni:7406,30000,30000,1,1,1626877749\ni:14370,15000,15000,2,2,1626877749\ni:14137,958500,958500,2,2,1626877749\ni:13310,29999,29999,5,5,1626877749\ni:22376,29799,29799,39,162,1626877749\ni:2276,460000,460000,3,3,1626877749\ni:6714,10024,10024,3,49,1626877749\ni:23438,458900,461485,24,25,1626877749\ni:24250,4252500,4252500,2,2,1626877749\ni:15222,40000,40000,3,3,1626877749\ni:11223,30000,30000,2,2,1626877749\ni:15094,836482,836482,1,1,1626877749\ni:25657,100000,100000,2,2,1626877749\ni:24669,92500,92500,3,3,1626877749\ni:13865,602380,602380,1,1,1626877749\ni:6042,174008,174008,3,3,1626877749\ni:15091,634102,634102,1,1,1626877749\ni:10518,425890,425890,1,1,1626877749\ni:6546,30800,30800,1,1,1626877749\ni:27500,4000,4245,49,87,1626877749\ni:12432,149500,149800,4,18,1626877749\ni:3075,300000,300000,3,3,1626877749\ni:10361,499996,499996,2,2,1626877749\ni:10047,17777,17777,1,1,1626877749\ni:10604,65000,65000,5,5,1626877750\ni:13074,1995000,1995000,1,1,1626877750\ni:25158,200000,200000,1,1,1626877749\ni:15273,85600,85600,1,1,1626877749\ni:3482,44999,44999,4,4,1626877749\ni:25209,500000,500000,1,1,1626877749\ni:7786,179500,179500,9,9,1626877750\ni:22793,337000,338923,38,246,1626877749\ni:12410,2396065,2396065,1,1,1626877749\ni:24316,65499,65499,9,9,1626877750\ni:7055,67849,67849,1,1,1626877749\ni:16248,48400,48400,2,2,1626877749\ni:13013,999999,999999,2,2,1626877749\ni:7918,1294142,1294142,1,1,1626877749\ni:4239,8357,8357,28,28,1626877749\ni:22012,249998,249998,11,11,1626877749\ni:10333,60000,60000,1,1,1626877749\ni:14202,100000,100000,1,1,1626877749\ni:9296,49600,49600,2,2,1626877749\ni:2734,2899,2899,7,7,1626877749\ni:11382,292000,293000,14,14,1626877749\ni:4359,4900,4996,14,25,1626877749\ni:20406,30000,30000,2,2,1626877749\ni:25726,198000,198000,4,4,1626877749\ni:2865,33800,33800,7,7,1626877749\ni:23866,400000,400000,1,1,1626877749\ni:4250,152679,152679,1,1,1626877749\ni:6565,30000,30000,1,1,1626877749\ni:2838,1395,1960,29,372,1626877749\ni:8400,99000,99000,4,3,1626877749\ni:4256,1909328,1909328,1,1,1626877749\ni:24855,140000,140000,1,1,1626877749\ni:24694,850000,850000,1,1,1626877749\ni:2453,128,131,26,270,1626877749\ni:24944,60000,60000,1,1,1626877749\ni:15251,85000,85000,3,3,1626877749\ni:17012,99500,99557,9,106,1626877749\ni:25068,50000,50000,4,4,1626877749\ni:25689,4305025,4305025,1,1,1626877749\ni:3356,233,242,54,599,1626877750\ni:15054,467685,467685,1,1,1626877749\ni:29159,1482635,1482635,2,2,1626877749\ni:10240,200000,200000,1,1,1626877749\ni:3841,258908,258908,1,1,1626877749\ni:15096,1939536,1939536,1,1,1626877749\ni:3843,369038,369038,1,1,1626877749\ni:13079,457557,457557,1,1,1626877749\ni:33093,81400,81460,17,340,1626877749\ni:23439,760000,785999,40,42,1626877749\ni:4384,19990,29149,8,34,1626877749\ni:31299,258000,258000,5,5,1626877749\ni:7051,220226,220226,1,1,1626877749\ni:25894,3554999,3555833,11,11,1626877749\ni:4789,200000,200000,7,7,1626877749\ni:25691,258000,258000,15,15,1626877749\ni:7079,15200,15300,15,48,1626877749\ni:2579,500000,500000,1,1,1626877749\ni:24634,58300,58300,2,2,1626877749\ni:24847,159909,159909,1,1,1626877749\ni:30542,7007500,7007500,2,2,1626877749\ni:19057,4545359,4545359,1,1,1626877749\ni:14128,193116,193116,1,1,1626877749\ni:20909,110000,110000,9,9,1626877749\ni:6349,499999,499999,3,3,1626877749\ni:28494,660000,660000,2,2,1626877749\ni:14494,79499,79499,2,2,1626877749\ni:4455,278650,278650,2,2,1626877749\ni:6055,30000,30000,6,6,1626877749\ni:3174,51,51,6,35,1626877749\ni:23737,48600,48600,29,173,1626877749\ni:7418,0,0,1,0,1626877749\ni:14141,1150006,1150006,1,1,1626877749\ni:13949,49999,49999,7,7,1626877749\ni:7914,937408,937408,1,1,1626877749\ni:10031,438240,438240,1,1,1626877749\ni:22309,4500000,4500000,1,1,1626877749\ni:15048,5310212,5310212,1,1,1626877749\ni:21899,95000,95000,5,5,1626877749\ni:24724,200000,200000,3,3,1626877749\ni:11993,10000,10000,1,1,1626877749\ni:14111,278581,278581,1,1,1626877749\ni:24619,800000,800000,2,2,1626877749\ni:7432,90000,90000,2,2,1626877749\ni:20878,100000,100000,2,7,1626877749\ni:4575,33300,33300,1,1,1626877749\ni:3012,9500,9500,1,2,1626877749\ni:3836,899999,899999,10,10,1626877749\ni:23517,250000,250000,18,18,1626877749\ni:15116,10000,10000,1,1,1626877749\ni:15066,3134453,3134453,1,1,1626877749\ni:24608,300000,300000,1,1,1626877749\ni:27687,128499,128499,4,4,1626877749\ni:18641,33200,33400,26,74,1626877749\ni:20769,38888887,38888887,2,2,1626877749\ni:29426,19200,19476,42,85,1626877749\ni:14220,65000,65000,1,1,1626877749\ni:20964,60000,122499,29,29,1626877749\ni:25263,2990000,2990000,1,1,1626877749\ni:15230,275500,275500,1,1,1626877749\ni:24166,657500,657500,3,3,1626877749\ni:2881,3600,3600,3,3,1626877749\ni:18254,9444,9444,1,20,1626877749\ni:7463,40000,40000,1,1,1626877749\ni:24829,350000,350000,1,1,1626877749\ni:9233,38600,38800,6,29,1626877749\ni:24827,300000,300000,1,1,1626877749\ni:27660,5300,5300,14,98,1626877749\ni:24167,280000,280000,6,6,1626877749\ni:24659,250000,250000,2,2,1626877749\ni:6408,25000,25000,1,1,1626877749\ni:19274,223250,223250,1,1,1626877749\ni:3914,21200,27800,18,17,1626877749\ni:12716,9999999,9999999,1,1,1626877749\ni:24121,1450000,1450000,1,1,1626877749\ni:12229,29999,29999,8,8,1626877749\ni:14639,29999,29999,5,5,1626877749\ni:24988,100000,100000,2,2,1626877749\ni:7447,200000,200000,1,1,1626877749\ni:10097,228888,228888,1,1,1626877749\ni:19700,10000,11595,7,424,1626877749\ni:15077,264962,264962,1,1,1626877749\ni:9890,12900,12900,2,2,1626877749\ni:1206,44998,44999,6,7,1626877749\ni:11018,182,182,8,195,1626877749\ni:25051,68788,68838,7,7,1626877749\ni:12697,1000000,1000000,1,1,1626877749\ni:15069,687176,687176,1,1,1626877749\ni:7544,20000,20000,1,1,1626877749\ni:20008,199500,207350,8,36,1626877750\ni:22904,1007000,1007000,1,1,1626877749\ni:24057,369000,370379,21,21,1626877749\ni:29534,2460000,2466250,14,14,1626877749\ni:24306,31000000,31000000,2,2,1626877749\ni:15092,120000,120000,3,3,1626877749\ni:3384,10199,10199,4,20,1626877749\ni:15624,60000,60000,1,1,1626877749\ni:25319,250000,250000,1,1,1626877749\ni:28493,990000,990000,2,2,1626877749\ni:24805,200000,200000,1,1,1626877749\ni:3837,403888,403888,1,1,1626877749\ni:4238,4999,4999,35,35,1626877749\ni:23203,1509999,1509999,2,2,1626877749\ni:31137,128887,128887,2,2,1626877749\ni:24661,50000,50000,5,5,1626877749\ni:24587,700000,700000,1,1,1626877749\ni:24730,163000,163000,2,2,1626877750\ni:5467,7800,7800,3,4,1626877750\ni:12416,1058544,1058544,1,1,1626877749\ni:21929,34800,36949,178,259,1626877749\ni:32423,133499,133499,41,42,1626877749\ni:14601,95000,95000,2,2,1626877749\ni:19701,9500,9500,10,426,1626877749\ni:13476,86000,86000,2,2,1626877749\ni:25044,1100000,1100000,1,1,1626877749\ni:19713,9999,9999,4,62,1626877749\ni:7966,2899,2899,6,23,1626877749\ni:13494,0,0,1,0,1626877749\ni:24875,70000,70000,3,3,1626877749\ni:31330,5000000,5000000,2,2,1626877749\ni:22797,125000,189666,10,39,1626877749\ni:11166,599000,599000,3,3,1626877749\ni:7919,20000,22500,45,45,1626877749\ni:25015,300000,300000,1,1,1626877749\ni:15268,20000,20000,1,1,1626877749\ni:7068,656,4897,29,135,1626877749\ni:21072,10000,10000,4,64,1626877749\ni:4237,35091,35091,1,1,1626877749\ni:15601,100000,100000,1,1,1626877749\ni:27859,1199,1199,1,3,1626877749\ni:1523,13000,13000,2,2,1626877749\ni:2072,80000,80000,3,3,1626877749\ni:10245,30000,30000,1,1,1626877749\ni:2750,9000,9000,3,3,1626877749\ni:5763,58979,58979,5,5,1626877749\ni:4262,1443668,1443668,1,1,1626877749\ni:19271,199999,199999,1,1,1626877749\ni:7955,57834,57834,1,1,1626877749\ni:31272,1225000,1225000,3,3,1626877749\ni:5756,200000,200000,1,1,1626877749\ni:8212,496636,496636,4,4,1626877749\ni:24598,200000,200000,5,5,1626877749\ni:14675,30000,30000,1,1,1626877749\ni:10052,419999,419999,3,3,1626877749\ni:5788,60000,60000,5,5,1626877749\ni:18358,2500000,2500000,1,1,1626877749\ni:14120,50000,50000,1,1,1626877749\ni:12691,197500,197500,2,2,1626877749\ni:9144,9800,9800,6,26,1626877749\ni:21766,1603472,1603472,1,1,1626877749\ni:3021,450000,450000,1,1,1626877749\ni:29734,3450000,3450000,4,4,1626877749\ni:4070,30000,30000,1,1,1626877749\ni:23144,500000,500000,3,3,1626877749\ni:24060,856899,857815,45,45,1626877750\ni:1318,600000,600000,1,1,1626877749\ni:24769,200000,200000,2,2,1626877749\ni:31254,990000,990000,1,1,1626877749\ni:8279,35000,35000,1,1,1626877749\ni:3395,198500,198500,5,5,1626877749\ni:7909,9999,14874,18,17,1626877749\ni:2845,86809,86809,1,1,1626877749\ni:4292,99500,99500,1,1,1626877749\ni:24979,530964,530964,1,1,1626877749\ni:4389,9900,9900,24,51,1626877749\ni:14857,100000,100000,1,1,1626877749\ni:24508,9600,9794,6,118,1626877749\ni:4299,29800,29800,2,2,1626877749\ni:2315,18505,18505,1,1,1626877749\ni:11994,20000,20000,1,1,1626877749\ni:15869,4016,4016,5,100,1626877750\ni:25175,150000,150000,1,1,1626877749\ni:24905,88808,88808,1,1,1626877749\ni:6291,1799,1929,19,264,1626877749\ni:12233,235999,235999,7,7,1626877749\ni:12031,250000,250000,5,5,1626877749\ni:8138,23000,23000,1,1,1626877749\ni:20830,141346,141346,1,1,1626877749\ni:31136,458463,458463,3,3,1626877749\ni:25079,200000,200000,1,1,1626877749\ni:6416,100000,100000,1,1,1626877749\ni:765,495,498,19,220,1626877749\ni:5752,40000,40000,1,1,1626877749\ni:27674,11799,11799,3,10,1626877749\ni:25309,149000,149000,5,5,1626877749\ni:30420,79999,79999,5,5,1626877750\ni:25046,60000,60000,9,9,1626877749\ni:3472,63256,63256,1,1,1626877749\ni:6358,27400,27400,28,128,1626877749\ni:4861,30000,30000,1,1,1626877749\ni:6373,3699,3699,6,29,1626877749\ni:2324,300,300,2,12,1626877749\ni:24984,500000,500000,1,1,1626877749\ni:31178,100000,100000,3,3,1626877749\ni:7560,39799,39799,4,4,1626877749\ni:7975,0,0,1,0,1626877749\ni:15589,150000,150000,1,1,1626877749\ni:6400,50000,50000,1,1,1626877749\ni:16645,23000,23000,1,1,1626877749\ni:25017,204800,204800,4,4,1626877749\ni:8836,2400,3072,50,813,1626877749\ni:22824,11400,12642,38,244,1626877749\ni:13159,19500,19500,1,3,1626877749\ni:9815,30000,30000,1,1,1626877749\ni:5774,98000,98000,1,1,1626877749\ni:28491,3009600,3009600,2,1,1626877749\ni:6368,499999,499999,4,4,1626877749\ni:15085,1495664,1495664,2,2,1626877749\ni:21755,53500,53750,8,8,1626877750\ni:10858,49798,49798,6,6,1626877749\ni:10027,40000,40000,14,14,1626877749\ni:25302,106000,106000,3,3,1626877749\ni:8151,36666,37323,36,163,1626877749\ni:15995,819152,819152,1,1,1626877749\ni:15371,70000,70000,1,1,1626877749\ni:3474,43794,43794,5,5,1626877749\ni:16653,5000,5000,5,5,1626877749\ni:3577,7200,7422,34,286,1626877749\ni:11306,200000,200000,1,1,1626877749\ni:16736,159999,159999,1,1,1626877749\ni:3196,20000,20000,1,1,1626877749\ni:25294,180000,180000,3,3,1626877749\ni:23114,53499,53499,22,22,1626877749\ni:13759,16200,16469,13,69,1626877749\ni:12043,250000,250000,3,3,1626877749\ni:25246,150000,150000,1,1,1626877749\ni:3827,5399,5574,28,56,1626877750\ni:34440,25400,25666,12,56,1626877749\ni:21931,30000,30000,2,2,1626877749\ni:21957,76498,76499,7,7,1626877750\ni:4623,49000,49221,8,30,1626877749\ni:25893,3799999,3799999,6,6,1626877749\ni:23107,77000,78181,143,187,1626877749\ni:10360,500000,500000,2,2,1626877749\ni:25013,68800,68800,3,3,1626877749\ni:7391,570419,570419,1,1,1626877749\ni:4318,40690,40690,1,1,1626877750\ni:10940,4199,5346,200,876,1626877749\ni:8226,798000,798000,3,3,1626877749\ni:25020,180000,180000,3,3,1626877749\ni:13445,43198,43199,21,115,1626877750\ni:25048,150000,150000,4,4,1626877749\ni:28463,19200,19200,8,8,1626877749\ni:23096,84898,85073,109,109,1626877749\ni:13926,938000,941666,10,11,1626877749\ni:22839,82000,83459,73,297,1626877749\ni:4470,300,300,1,6,1626877749\ni:24767,50000,50000,3,3,1626877749\ni:11733,13400,13400,1,1,1626877749\ni:23622,12000000,12000000,3,3,1626877749\ni:6369,20399,20399,6,6,1626877749\ni:11178,400,400,7,8,1626877750\ni:25083,150000,150000,1,1,1626877749\ni:24802,204200,204200,3,3,1626877749\ni:3851,1000000,1000000,4,4,1626877749\ni:12695,53488,53488,5,5,1626877749\ni:12425,49600,49800,32,32,1626877749\ni:25696,4299999,4299999,2,2,1626877749\ni:12259,620015,620015,2,2,1626877749\ni:6045,23800,23800,3,3,1626877749\ni:5642,85500,85500,5,5,1626877749\ni:10024,92991,92991,1,1,1626877749\ni:29425,13300,13300,5,4,1626877749\ni:23116,55500,55733,74,74,1626877749\ni:22828,389250,389250,11,11,1626877749\ni:28470,29499,29499,6,6,1626877749\ni:14043,283892,283892,1,1,1626877749\ni:14155,76800,77010,35,35,1626877749\ni:8200,994776,994776,1,1,1626877750\ni:31145,320000,320000,4,3,1626877750\ni:25300,100000,100000,5,5,1626877749\ni:13456,9800,10078,30,141,1626877749\ni:7278,14738,14738,5,5,1626877749\ni:5961,115097,115097,2,2,1626877749\ni:12239,49800,49900,7,7,1626877750\ni:7087,500000,500000,3,3,1626877749\ni:11023,500000,500000,3,3,1626877749\ni:11185,9999,10000,4,31,1626877749\ni:15619,38888,38888,1,1,1626877749\ni:6264,124397,124397,1,1,1626877749\ni:3531,41286,41286,1,9,1626877749\ni:8348,3834306,3834306,1,1,1626877749\ni:5634,20000,38376,38,175,1626877749\ni:6342,9399,9399,8,8,1626877749\ni:22903,4497500,4497500,5,5,1626877749\ni:7063,91532,91532,1,1,1626877749\ni:2934,398,398,13,219,1626877749\ni:9824,190000,190000,1,1,1626877749\ni:24654,157328,157328,2,2,1626877749\ni:3172,835,837,10,30,1626877749\ni:25306,109900,109950,8,8,1626877749\ni:24643,250000,250000,2,2,1626877749\ni:10822,8899999,8899999,5,5,1626877749\ni:11175,44800,44800,2,8,1626877749\ni:4321,51632,51632,1,1,1626877749\ni:24686,500000,500000,2,2,1626877750\ni:25184,300000,300000,1,1,1626877749\ni:24642,220000,220000,2,2,1626877749\ni:24865,300000,300000,1,1,1626877749\ni:22447,16000,16983,27,229,1626877750\ni:12228,49200,49333,13,13,1626877749\ni:10321,500000,500000,3,3,1626877749\ni:7086,99000,99000,3,3,1626877749\ni:7081,17999,18136,60,64,1626877750\ni:20501,254500,254500,1,4,1626877749\ni:31308,400000,400000,2,2,1626877749\ni:24897,43000,43000,4,4,1626877749\ni:4312,20000,20000,14,14,1626877749\ni:15059,815750,815750,1,1,1626877749\ni:8349,4161674,4161674,1,1,1626877750\ni:25224,291199,291199,1,1,1626877749\ni:23571,2544999,2623183,102,119,1626877749\ni:14227,118500,119390,37,49,1626877749\ni:2313,12780,12780,1,10,1626877749\ni:2278,757000,757000,1,1,1626877749\ni:24806,350000,350000,1,1,1626877749\ni:10311,105500,105500,4,4,1626877750\ni:22452,129000,129500,40,237,1626877749\ni:25305,90000,90000,5,5,1626877749\ni:4481,785,790,9,54,1626877749\ni:25010,150000,150000,1,1,1626877749\ni:25725,73898,73898,3,3,1626877750\ni:13945,500000,500000,3,3,1626877749\ni:15269,303599,303599,1,1,1626877749\ni:6289,380,381,16,205,1626877750\ni:5485,500000,500000,3,3,1626877749\ni:13461,23000,23200,8,36,1626877750\ni:24906,51565,51565,2,2,1626877749\ni:10506,814352,814352,1,1,1626877749\ni:6564,50000,50000,1,1,1626877749\ni:11203,94500,94500,2,2,1626877749\ni:24998,250000,250000,2,2,1626877749\ni:16671,100000,100000,2,2,1626877749\ni:7911,49800,49800,2,14,1626877749\ni:10508,748335,748335,1,1,1626877749\ni:24683,500000,500000,5,5,1626877750\ni:13867,1007972,1007972,1,1,1626877750\ni:2871,5316,5316,4,20,1626877749\ni:11184,8075,8075,3,12,1626877749\ni:19706,9900,10400,6,546,1626877749\ni:24899,70000,70000,5,5,1626877749\ni:7082,1885,1969,24,48,1626877749\ni:31837,39600,39600,6,5,1626877750\ni:3193,20000,20000,1,1,1626877749\ni:12206,5000,5000,1,10,1626877749\ni:13423,10252,11255,14,150,1626877749\ni:25016,90000,90000,1,1,1626877749\ni:2325,300,300,1,1,1626877749\ni:5819,199500,199500,4,4,1626877749\ni:23491,95000,96500,28,28,1626877749\ni:8364,1870,1870,5,91,1626877749\ni:4373,99110,99110,1,1,1626877750\ni:7450,89500,89500,1,1,1626877750\ni:13052,500000,500000,1,1,1626877749\ni:23767,1000000,1000000,2,2,1626877749\ni:6270,15500,15500,5,5,1626877749\ni:3831,100000,100000,2,1,1626877749\ni:12703,1987500,1987500,4,4,1626877749\ni:29957,499000,499000,3,3,1626877749\ni:4364,934,942,68,311,1626877750\ni:3731,3500,3500,2,20,1626877749\ni:24791,99800,99800,2,2,1626877749\ni:24618,150000,150000,2,2,1626877749\ni:27693,89000,89331,10,10,1626877749\ni:31877,1999999,1999999,3,3,1626877749\ni:20882,999999,999999,2,7,1626877749\ni:12628,24999999,24999999,2,2,1626877749\ni:22785,5899,6722,156,2090,1626877749\ni:8167,4700,4733,8,101,1626877749\ni:7084,76000,76000,2,2,1626877749\ni:27651,9400,9400,5,29,1626877749\ni:18658,1960000,1960000,1,1,1626877749\ni:15369,70000,70000,1,1,1626877750\ni:25229,300000,300000,1,1,1626877749\ni:24036,2180000,2182916,24,24,1626877749\ni:3734,30000,30000,3,3,1626877749\ni:24754,140000,140000,1,1,1626877749\ni:24705,750000,750000,2,2,1626877749\ni:7390,413416,413416,2,2,1626877749\ni:10026,206408,206408,1,1,1626877749\ni:13888,39900,39900,5,50,1626877749\ni:14554,100000000,100000000,2,2,1626877749\ni:22837,323000,323571,21,25,1626877749\ni:12417,1556718,1556718,1,1,1626877750\ni:9859,90000,90000,1,1,1626877749\ni:24890,50000,50000,3,3,1626877749\ni:23573,716999,718000,73,73,1626877749\ni:20854,60000,60000,4,4,1626877749\ni:20007,41666,41666,6,37,1626877749\ni:22578,50000,55790,63,252,1626877749\ni:13452,99899,99957,55,236,1626877749\ni:934,288000,288000,1,1,1626877749\ni:12406,605288,605288,1,1,1626877750\ni:25439,18798,18798,26,26,1626877749\ni:23816,357000,357000,5,5,1626877749\ni:8203,2430000,2430000,6,6,1626877749\ni:24759,450000,450000,2,2,1626877749\ni:3682,63999,63999,4,4,1626877750\ni:2966,20000,20000,1,1,1626877749\ni:24271,1750000,1798333,18,21,1626877749\ni:21943,39999,39999,5,5,1626877749\ni:3860,19000,19153,81,1029,1626877749\ni:24612,250000,250000,3,3,1626877750\ni:15215,33333,33333,1,1,1626877749\ni:2568,4383,4383,1,1,1626877749\ni:3858,31000,31799,84,1468,1626877749\ni:16254,1500000,1500000,6,4,1626877749\ni:7942,1301189,1301189,2,2,1626877749\ni:11737,29000,29000,2,2,1626877749\ni:13942,91499,91499,4,4,1626877749\ni:24585,900000,900000,2,2,1626877749\ni:27858,423,423,7,32,1626877750\ni:15286,55400,55400,1,1,1626877749\ni:20833,319681,319681,2,2,1626877749\ni:873,10009999,10009999,1,1,1626877749\ni:11305,200000,200000,3,3,1626877749\ni:12240,127000,127000,4,4,1626877749\ni:12219,200000,200000,1,1,1626877749\ni:5764,28436,28436,5,5,1626877749\ni:3185,508198,508198,1,1,1626877749\ni:15151,50000,50000,1,1,1626877749\ni:19708,9900,9951,6,73,1626877749\ni:24907,260000,260000,2,2,1626877749\ni:16767,181000,181000,5,5,1626877749\ni:24583,990000,990000,2,2,1626877749\ni:15271,150000,150000,1,1,1626877749\ni:2824,4500000,4500000,1,1,1626877749\ni:25660,290000,290000,1,1,1626877749\ni:10187,200000,200000,1,1,1626877749\ni:25278,90000,90000,1,1,1626877749\ni:32836,190000,195484,44,44,1626877749\ni:17056,2797,2797,12,177,1626877749\ni:38327,497999,497999,3,3,1626877749\ni:23108,54500,55771,110,110,1626877749\ni:6359,197,199,27,186,1626877749\ni:11081,999999,999999,3,3,1626877750\ni:2598,4599,4599,5,5,1626877749\ni:24679,190000,190000,4,4,1626877750\ni:18298,450000,450000,1,1,1626877749\ni:22249,1987499,1987499,6,6,1626877749\ni:19232,999000,999000,2,2,1626877749\ni:5964,39000,39000,4,3,1626877749\ni:24717,300000,300000,2,2,1626877749\ni:3391,2000,2889,8,41,1626877749\ni:10273,89500,89500,1,1,1626877749\ni:6041,3051200,3051200,2,2,1626877750\ni:11289,11600,11600,4,4,1626877750\ni:23099,19098,19172,78,78,1626877749\ni:24613,333333,333333,3,3,1626877750\ni:4075,200000,200000,1,1,1626877749\ni:18361,489898,489898,1,1,1626877749\ni:4766,100000,100000,4,4,1626877749\ni:30809,15000,15929,68,798,1626877750\ni:33872,25000,25000,2,40,1626877749\ni:24030,1997499,2002045,39,39,1626877750\ni:8386,1000000,1000000,1,1,1626877750\ni:27689,193000,193000,5,5,1626877750\ni:7352,295658,295658,1,1,1626877749\ni:31679,189500,189500,1,4,1626877749\ni:20827,14999,14999,6,6,1626877750\ni:21840,11500,11500,27,270,1626877750\ni:16072,32000,32000,4,4,1626877749\ni:6530,224,224,9,85,1626877749\ni:31297,898000,965666,10,10,1626877750\ni:4439,178799,178799,1,1,1626877750\ni:24766,105000,105000,1,1,1626877749\ni:23152,500000,500000,3,3,1626877749\ni:5962,322902,322902,7,7,1626877750\ni:34832,7000,7055,31,603,1626877750\ni:4361,3000,3000,51,75,1626877750\ni:22829,7000,10344,72,337,1626877749\ni:2730,1850,1850,5,5,1626877749\ni:33924,102000,102000,1,1,1626877750\ni:24745,50000,50000,4,4,1626877750\ni:8199,130000,130000,1,1,1626877749\ni:6308,3900,3900,6,58,1626877750\ni:4265,34600,34722,29,63,1626877750\ni:27698,91500,91832,13,13,1626877750\ni:25282,990000,990000,1,1,1626877750\ni:11304,200000,200000,12,12,1626877749\ni:34622,149990000,149990000,1,1,1626877750\ni:24647,168888,168888,6,6,1626877750\ni:24511,5800,5866,3,32,1626877750\ni:28459,29499,29499,7,7,1626877750\ni:9872,100000,100000,1,1,1626877749\ni:31283,1004999,1004999,3,3,1626877749\ni:13111,105050,105050,1,1,1626877750\ni:5973,29800,29800,3,3,1626877750\ni:4248,55112,55112,2,2,1626877750\ni:14474,50000,50000,1,1,1626877749\ni:24047,1007398,1008913,28,28,1626877749\ni:24820,900000,900000,2,2,1626877749\ni:29380,989999,989999,2,2,1626877750\ni:3201,100000,100000,1,1,1626877749\ni:4777,200000,200000,8,8,1626877750\ni:25897,2382500,2382500,5,5,1626877749\ni:16806,1000000,1000000,2,2,1626877750\ni:3013,22000,22000,5,5,1626877750\ni:19260,149500,149500,1,1,1626877749\ni:23095,46300,46518,54,54,1626877750\ni:14130,195900,195900,1,1,1626877750\ni:15255,80000,80000,1,1,1626877749\ni:6661,2500000,2500000,5,5,1626877750\ni:2850,51628,51628,1,1,1626877750\ni:24200,6480000,6480000,5,5,1626877750\ni:22525,9000,9000,10,19,1626877749\ni:8169,495,496,18,124,1626877749\ni:22577,54999,56983,96,242,1626877749\ni:24449,49000,49000,3,4,1626877750\ni:15086,171500,172000,26,26,1626877750\ni:19820,400999,400999,3,3,1626877749\ni:33823,4400,4500,13,243,1626877750\ni:24756,50000,50000,6,6,1626877750\ni:31298,229000,229333,11,11,1626877750\ni:24276,6600000,6600000,4,4,1626877750\ni:22840,54400,54400,30,118,1626877750\ni:16204,7899,10410,144,1377,1626877750\ni:24746,180000,180000,1,1,1626877750\ni:10500,707999,707999,11,11,1626877750\ni:4365,4352,4352,3,50,1626877750\ni:3864,4398,4657,45,65,1626877750\ni:8206,3200252,3200252,1,1,1626877749\ni:6552,20303,20303,3,3,1626877750\ni:20755,166000,166499,9,9,1626877750\ni:11101,19799,19799,4,4,1626877750\ni:11084,1463,1478,47,268,1626877750\ni:13009,199999,199999,1,1,1626877750\ni:4403,98136,98136,23,23,1626877750\ni:15243,35000,35000,1,1,1626877750\ni:31322,6990000,6990000,1,1,1626877749\ni:31343,12989999,12989999,1,1,1626877750\ni:12811,499000,499500,7,7,1626877750\ni:2977,30800,30800,1,1,1626877749\ni:27425,585,6722,16,251,1626877749\ni:5500,19588,19998,31,41,1626877750\ni:19933,8500,8512,15,34,1626877750\ni:15223,210000,210000,2,2,1626877750\ni:12639,26564658,26564658,1,1,1626877749\ni:12435,55500,55500,1,1,1626877749\ni:6588,45799,45799,1,1,1626877750\ni:7506,499780,499780,1,1,1626877750\ni:5786,3900,3900,5,5,1626877750\ni:2314,32912,32912,1,1,1626877749\ni:9786,20000,20000,1,1,1626877749\ni:24990,50000,50000,2,2,1626877750\ni:24116,3800000,3800000,1,1,1626877749\ni:22902,129500,129500,4,4,1626877750\ni:25463,12000,12000,2,2,1626877750\ni:2582,20190,20190,1,1,1626877749\ni:8488,299999,299999,3,3,1626877749\ni:10003,52000,52000,28,28,1626877750\ni:9260,2656,2740,11,75,1626877749\ni:4375,7000,7000,9,27,1626877750\ni:34060,4500000,4500000,3,3,1626877750\ni:8345,699999,699999,8,8,1626877750\ni:7995,305000,305000,4,4,1626877750\ni:9206,30000,30000,9,79,1626877749\ni:10050,36800,37000,13,13,1626877749\ni:6239,20000,20000,10,10,1626877749\ni:18356,105998,105998,1,1,1626877750\ni:2725,80303,80303,3,3,1626877750\ni:33954,499000,499000,4,4,1626877750\ni:32079,3007500,3007500,1,1,1626877749\ni:24994,90000,90000,1,1,1626877749\ni:25004,200000,200000,2,2,1626877749\ni:12428,594169,594169,2,2,1626877750\ni:25265,120000,120000,1,1,1626877749\ni:24796,500000,500000,1,1,1626877750\ni:23510,284999,285666,11,11,1626877750\ni:23489,298000,298000,11,11,1626877750\ni:13896,500000,500000,5,5,1626877749\ni:8394,19800,19933,3,12,1626877750\ni:3390,32306,32306,4,20,1626877750\ni:4308,4778,4778,1,1,1626877750\ni:19273,80000,80000,4,4,1626877750\ni:24299,4495000,4495000,2,2,1626877750\ni:5637,2200,2233,7,13,1626877749\ni:9777,200000,200000,1,1,1626877750\ni:13760,8900,8920,18,186,1626877749\ni:24892,50000,50000,2,2,1626877750\ni:24194,9800000,9800000,3,3,1626877750\ni:23594,262000,262000,5,5,1626877750\ni:12808,85499,85699,50,91,1626877749\ni:24904,301280,301280,2,2,1626877750\ni:22574,63000,64326,58,381,1626877749\ni:4457,10600,10600,1,16,1626877749\ni:10504,1350955,1350955,3,3,1626877750\ni:22385,26294558,26294558,1,1,1626877750\ni:24856,700000,700000,1,1,1626877749\ni:4479,9800,9800,1,1,1626877749\ni:10325,129000,129000,4,4,1626877750\ni:24218,5000000,5000000,6,6,1626877750\ni:13492,806999,806999,3,3,1626877750\ni:7554,20000,20000,2,2,1626877750\ni:25006,63000,63000,1,1,1626877750\ni:23118,33400,33477,78,78,1626877749\ni:27501,9000,9094,31,69,1626877749\ni:9312,9502,9502,10,49,1626877749\ni:23538,16000000,16000000,1,1,1626877750\ni:14656,49000,49000,1,1,1626877750\ni:11135,11799,11861,39,108,1626877749\ni:27690,72500,72749,7,7,1626877750\ni:8163,8000,8000,1,1,1626877749\ni:14144,645902,645902,1,1,1626877750\ni:23628,5000000,5000000,3,3,1626877750\ni:35581,24358996,24358996,1,1,1626877749\ni:6610,150000,150000,1,1,1626877750\ni:8215,496636,496636,1,1,1626877750\ni:25014,55000,55000,1,1,1626877750\ni:24305,5008900,5008900,1,1,1626877750\ni:10151,80000,80000,1,1,1626877749\ni:28291,500000,500000,3,3,1626877750\ni:5997,200,711,74,151,1626877750\ni:24675,55000,55000,5,5,1626877749\ni:19261,200000,200000,1,1,1626877750\ni:8197,150000,184949,36,36,1626877749\ni:6580,50000,50000,4,4,1626877750\ni:24055,240999,241999,29,29,1626877750\ni:3667,1085,1085,5,34,1626877749\ni:15912,23400,23400,2,2,1626877749\ni:24660,70000,70000,1,1,1626877749\ni:18509,9990000,9990000,2,2,1626877749\ni:4298,200000,200000,1,1,1626877749\ni:8192,87500,87500,6,6,1626877750\ni:24620,189900,189900,7,7,1626877749\ni:22539,49800,49800,6,6,1626877750\ni:34220,2954500,2954749,7,7,1626877750\ni:2408,423000,423000,2,2,1626877749\ni:29204,4000000,4000000,6,6,1626877749\ni:25843,289997,289997,26,26,1626877750\ni:7053,26880,26880,1,1,1626877749\ni:24696,990000,990000,2,2,1626877750\ni:21934,62490,62490,1,1,1626877750\ni:29726,3995000,3995000,1,1,1626877750\ni:3835,50000,50000,50,50,1626877750\ni:29901,500000,500000,3,3,1626877749\ni:6615,50000,50000,1,1,1626877749\ni:24857,320000,320000,2,2,1626877750\ni:8932,2700,2700,3,53,1626877750\ni:21340,189536,189536,4,4,1626877749\ni:16008,3183668,3183668,1,1,1626877749\ni:2317,65756,65756,2,2,1626877750\ni:31940,450000,450000,5,5,1626877749\ni:24832,68850,68850,7,7,1626877750\ni:12203,139,140,13,64,1626877749\ni:4380,3125,3692,12,101,1626877750\ni:12250,149999,149999,4,4,1626877750\ni:12028,20000,20000,2,2,1626877750\ni:10035,500000,500000,1,1,1626877750\ni:27437,9100,9100,1,2,1626877750\ni:3840,296376,296376,1,1,1626877749\ni:2311,46914,46914,1,1,1626877750\ni:21952,376999,376999,4,4,1626877750\ni:2771,11999,12000,77,1413,1626877749\ni:5770,1000000,1000000,2,2,1626877750\ni:24853,45000,45000,3,3,1626877749\ni:5342,2400,2400,2,8,1626877749\ni:24825,40000,40000,2,2,1626877749\ni:14435,40000,40000,1,1,1626877750\ni:15012,50000,50000,1,1,1626877749\ni:5772,9800,9800,7,7,1626877750\ni:21752,21186,21186,6,30,1626877750\ni:15970,50000,50000,1,1,1626877749\ni:8171,1930,1942,19,127,1626877750\ni:4366,15600,15694,12,69,1626877750\ni:20969,455184,455184,2,2,1626877749\ni:24087,3000000,3000000,1,1,1626877749\ni:12794,13286108,13286108,1,1,1626877749\ni:24996,249900,249900,3,3,1626877750\ni:6344,149500,149500,2,2,1626877750\ni:6795,500000,500000,1,1,1626877750\ni:20816,9150,9199,38,204,1626877749\ni:24626,50000,50000,5,5,1626877750\ni:3857,9400,9579,10,59,1626877750\ni:2853,15424,15424,1,1,1626877750\ni:4372,211438,211438,3,3,1626877749\ni:18364,196000,196000,6,6,1626877749\ni:18665,11000000,11000000,3,3,1626877749\ni:12607,100000,100000,5,5,1626877749\ni:814,499999,499999,2,4,1626877749\ni:24986,100000,100000,2,2,1626877750\ni:14467,39800,39800,1,1,1626877750\ni:25118,81100,81100,2,2,1626877749\ni:24216,9890000,9890000,2,2,1626877749\ni:12363,297000,308399,49,51,1626877749\ni:15743,9900,9900,2,2,1626877750\ni:23115,88399,91619,69,69,1626877749\ni:18594,104999,104999,4,20,1626877749\ni:21901,299999,299999,1,1,1626877749\ni:6476,49800,49800,1,1,1626877750\ni:4562,10000,10000,2,2,1626877749\ni:4338,6299,8066,119,2215,1626877750\ni:785,306,311,32,366,1626877749\ni:24962,70000,70000,2,2,1626877750\ni:25097,500000,500000,3,3,1626877749\ni:23627,8000000,8000000,2,2,1626877750\ni:14256,119500,119500,10,16,1626877749\ni:15742,750000,750000,1,1,1626877750\ni:730,49,50,4,19,1626877749\ni:13462,29500,35811,16,60,1626877749\ni:10036,500000,500000,2,2,1626877750\ni:10326,500000,500000,3,3,1626877750\ni:4352,99500,99500,1,1,1626877750\ni:24744,50000,50000,2,2,1626877749\ni:12205,989,989,5,26,1626877750\ni:7935,2000000,2000000,4,4,1626877749\ni:15214,30000,30000,3,3,1626877750\ni:23518,2450000,2450000,6,6,1626877750\ni:16113,203000,203250,14,14,1626877749\ni:11288,48000,48000,4,4,1626877749\ni:21278,1170664,1170664,1,1,1626877749\ni:11987,30000,30000,1,1,1626877749\ni:24249,4492500,4492500,3,3,1626877750\ni:31288,2000000,2000000,4,4,1626877750\ni:29724,2800000,2800000,1,1,1626877749\ni:11998,140000,140000,1,1,1626877750\ni:15063,2667050,2667050,1,1,1626877750\ni:10056,258999,258999,20,20,1626877749\ni:17011,279999,280916,22,42,1626877750\ni:647,709000,709000,4,4,1626877749\ni:9424,51200000,51200000,1,1,1626877750\ni:5762,14879,14879,2,2,1626877749\ni:20750,48000,48000,12,12,1626877749\ni:35564,111000,111250,9,9,1626877750\ni:23786,1890000,1890833,11,11,1626877750\ni:14101,158860,158860,1,1,1626877749\ni:8949,20899,20899,8,33,1626877749\ni:8500,500000,500000,3,3,1626877749\ni:3393,80000,80000,2,2,1626877749\ni:25124,91200,91200,1,1,1626877749\ni:10002,186186,186186,1,1,1626877749\ni:24681,298474,298474,5,5,1626877750\ni:4240,15609,15609,5,5,1626877750\ni:24729,71200,71200,5,5,1626877749\ni:9262,214000,226900,35,40,1626877749\ni:8544,495,495,4,79,1626877749\ni:20864,1985,1985,2,98,1626877750\ni:17706,291000,291000,2,2,1626877749\ni:24584,800000,800000,1,1,1626877750\ni:30483,65999,65999,5,5,1626877750\ni:24066,89500,96055,30,30,1626877749\ni:10728,39999,39999,3,3,1626877750\ni:11164,4500000,4500000,1,1,1626877750\ni:13085,400000,400000,1,1,1626877749\ni:8218,319000,319000,6,6,1626877750\ni:12361,59000,59625,15,16,1626877749\ni:15003,50000,50000,1,1,1626877749\ni:9405,390000,390000,2,2,1626877750\ni:12828,55050,55050,1,1,1626877749\ni:6662,34999,34999,4,20,1626877749\ni:24866,301000,301000,1,1,1626877749\ni:25901,2712500,2713966,10,10,1626877750\ni:25065,40000,40000,2,2,1626877750\ni:2915,1200000,1200000,4,4,1626877750\ni:10139,500000,500000,1,1,1626877749\ni:27498,67000,70981,22,41,1626877750\ni:3036,9900,9900,1,1,1626877749\ni:728,500000,500000,3,3,1626877750\ni:25153,700000,700000,1,1,1626877750\ni:21872,15000000,15000000,1,1,1626877750\ni:20973,40000,40000,10,10,1626877750\ni:24202,7500000,7500000,5,5,1626877750\ni:13928,4500,4500,14,261,1626877749\ni:8153,2600,2927,42,269,1626877750\ni:31863,467900,469253,38,38,1626877749\ni:25708,129500,129516,68,210,1626877750\ni:1705,30000,49883,16,45,1626877750\ni:23803,366000,366000,6,6,1626877750\ni:9264,8500,25175,4,46,1626877750\ni:25181,140000,140000,2,2,1626877749\ni:4597,1000,1000,2,2,1626877750\ni:6450,1460,1460,5,92,1626877750\ni:5541,114862,114862,2,2,1626877749\ni:22153,200999,200999,2,2,1626877750\ni:24633,207777,207777,1,1,1626877749\ni:8497,500000,500000,2,2,1626877749\ni:24734,150000,150000,1,1,1626877749\ni:2450,5800,6625,62,736,1626877750\ni:4386,49764,49764,5,5,1626877749\ni:13132,266515,266515,2,2,1626877749\ni:27677,7900,9362,32,172,1626877750\ni:12547,853667,853667,1,1,1626877750\ni:24922,990000,990000,1,1,1626877750\ni:12427,596685,596685,2,2,1626877749\ni:27695,500000,500000,3,3,1626877749\ni:27662,995,1078,29,326,1626877749\ni:13459,4900,4966,7,26,1626877750\ni:7917,722027,722027,1,1,1626877750\ni:35566,118000,118249,9,9,1626877749\ni:30804,109899,109899,3,3,1626877750\ni:18945,105,1000,13,1085,1626877749\ni:20826,350000,350000,4,4,1626877750\ni:8160,80000,80000,1,1,1626877749\ni:12360,439000,439000,73,124,1626877749\ni:25438,19999,19999,7,7,1626877750\ni:21992,199999,209749,8,8,1626877750\ni:6578,130299,130299,1,1,1626877750\ni:25060,200000,200000,5,5,1626877750\ni:20725,77500,99474,17,151,1626877750\ni:27700,98499,98499,10,10,1626877750\ni:19275,505000,505000,1,1,1626877749\ni:11177,12498,12498,63,176,1626877750\ni:14786,88800,88800,1,1,1626877749\ni:18637,695372,695372,1,1,1626877750\ni:1210,5700,6164,59,67,1626877749\ni:15416,3100,3100,11,204,1626877750\ni:24192,6000000,6000000,4,4,1626877750\ni:3488,188600,188600,1,1,1626877750\ni:29158,100000,103166,11,11,1626877749\ni:11732,5900,5900,1,1,1626877750\ni:16046,74500,74500,4,4,1626877749\ni:2841,7500,9218,71,1339,1626877750\ni:24611,200000,200000,1,1,1626877749\ni:23154,6000000,6000000,1,1,1626877750\ni:12253,200000,200000,1,1,1626877749\ni:19815,4990000,4990000,1,1,1626877750\ni:7956,1000000,1000000,4,4,1626877750\ni:17683,80000,80000,3,3,1626877750\ni:24706,850000,850000,1,1,1626877750\ni:24687,100000,100000,4,4,1626877750\ni:25011,350000,350000,1,1,1626877749\ni:3719,404675,404675,1,1,1626877749\ni:28290,39899,39998,70,70,1626877750\ni:15419,6500,6600,2,17,1626877749\ni:15626,180000,180000,1,1,1626877750\ni:22390,993999,993999,2,2,1626877750\ni:16673,149500,149500,2,2,1626877749\ni:24781,45000,45000,1,1,1626877749\ni:3355,7600,7894,31,473,1626877750\ni:13444,21000,22895,291,1426,1626877750\ni:7961,3272422,3272422,1,1,1626877749\ni:22522,93000,93000,52,52,1626877750\ni:33867,2200,2260,20,129,1626877750\ni:18359,200000,200000,2,2,1626877750\ni:3184,139399,139399,1,1,1626877750\ni:24213,4000000,4000000,5,5,1626877749\ni:8496,90000,90000,5,5,1626877750\ni:29902,199995,199995,5,5,1626877750\ni:27439,19000,19218,17,237,1626877750\ni:6242,20000,20000,10,10,1626877749\ni:13869,196900,196900,1,1,1626877749\ni:12429,1519176,1519176,2,2,1626877750\ni:5782,2169565,2169565,1,1,1626877749\ni:23634,5000000,5000000,1,1,1626877749\ni:2700,500000,500000,3,3,1626877750\ni:24715,200000,200000,3,3,1626877750\ni:24050,890000,895248,32,32,1626877750\ni:14088,50000,50000,1,1,1626877749\ni:25206,500000,500000,1,1,1626877749\ni:12420,1161680,1161680,1,1,1626877749\ni:31153,780000,780000,4,4,1626877749\ni:25121,100000,100000,2,2,1626877750\ni:31126,448000,448000,2,2,1626877750\ni:9327,600000,600000,1,1,1626877749\ni:23782,85499,85649,24,36,1626877750\ni:24876,100000,100000,3,3,1626877750\ni:31237,299000,299000,5,5,1626877750\ni:24871,50000,50000,6,6,1626877750\ni:7787,208000,208000,1,1,1626877749\ni:3871,0,0,1,0,1626877749\ni:25089,150000,150000,2,2,1626877750\ni:7050,79010,79010,3,3,1626877749\ni:13054,900000,900000,2,2,1626877750\ni:24839,90000,90000,4,4,1626877750\ni:24629,80000,80000,2,2,1626877750\ni:25707,47200,47694,23,71,1626877749\ni:31154,42500,42500,3,3,1626877749\ni:23140,500000,500000,3,3,1626877749\ni:34861,499,500,51,312,1626877750\ni:31180,399000,399000,6,6,1626877749\ni:11208,1000000,1000000,3,3,1626877749\ni:789,33000,33000,4,4,1626877750\ni:3868,20000,20000,4,2,1626877750\ni:25045,700000,700000,2,2,1626877750\ni:2883,19800,19800,1,1,1626877750\ni:31562,3500000,3500000,1,1,1626877749\ni:7362,85900,85900,5,5,1626877750\ni:3821,3200,3300,28,398,1626877750\ni:24723,200000,200000,5,5,1626877750\ni:21774,2904056,2904056,1,1,1626877749\ni:13499,450000,450000,1,1,1626877750\ni:2303,11628,11628,1,1,1626877750\ni:12359,17857,23333,118,1833,1626877750\ni:22787,10800,10979,49,758,1626877750\ni:15732,250000,250000,2,2,1626877749\ni:13458,11600,11800,15,52,1626877749\ni:5075,489,489,4,26,1626877750\ni:4800,55000,55000,3,3,1626877750\ni:24740,49999,49999,3,3,1626877749\ni:8170,9000,15000,34,621,1626877750\ni:833,1500000,1500000,1,1,1626877750\ni:12799,24600,27699,9,54,1626877750\ni:22647,98499,98499,6,6,1626877750\ni:24945,50000,50000,1,1,1626877749\ni:15621,57200,57200,1,1,1626877750\ni:18486,4400416,4400416,1,1,1626877749\ni:9251,10000,10000,1,1,1626877749\ni:3042,210000,210000,1,1,1626877749\ni:21877,1550,1640,426,7774,1626877749\ni:7960,2100128,2100128,1,1,1626877750\ni:13091,100000,100000,2,2,1626877749\ni:8183,10000,10000,1,1,1626877749\ni:24623,98000,98000,5,5,1626877749\ni:3037,24000,24000,2,2,1626877750\ni:18255,14999,14999,1,16,1626877749\ni:24784,100000,100000,8,8,1626877750\ni:14123,50000,50000,1,1,1626877749\ni:25007,60000,60000,1,1,1626877750\ni:29505,15000000,15000000,1,1,1626877750\ni:9154,1990,2593,23,120,1626877750\ni:27669,7180,7180,6,37,1626877750\ni:9814,30000,30000,2,2,1626877750\ni:869,1000000,1000000,1,1,1626877749\ni:3869,9900,9900,3,2,1626877750\ni:13948,124499,124499,4,4,1626877749\ni:7928,2000000,2000000,4,4,1626877750\ni:3048,191898,191898,2,2,1626877750\ni:15164,20000,20000,1,1,1626877750\ni:21864,1150000,1150000,2,2,1626877749\ni:15282,300000,300000,2,2,1626877749\ni:25802,78000,88884,230,815,1626877749\ni:15971,50000,50000,1,1,1626877750\ni:3685,4800,4800,7,56,1626877750\ni:12987,490000,490000,1,1,1626877749\ni:14212,40033,40033,1,1,1626877750\ni:8173,21400,22646,9,46,1626877750\ni:22542,5000000,5000000,2,2,1626877750\ni:12030,250000,250000,5,5,1626877750\ni:2868,65000,65000,40,40,1626877749\ni:10008,69897,69897,1,1,1626877749\ni:1727,200000,200000,1,1,1626877749\ni:24719,50000,50000,3,3,1626877749\ni:10560,7500,7500,12,43,1626877750\ni:22791,39800,39999,17,258,1626877749\ni:9187,13399,13400,28,133,1626877750\ni:10302,30000,30000,2,2,1626877749\ni:8174,1028314,1028314,1,1,1626877750\ni:12625,6041476,6041476,1,1,1626877750\ni:24772,80000,80000,2,2,1626877749\ni:24615,200000,200000,6,6,1626877749\ni:3828,4900,4900,6,34,1626877750\ni:20868,50000,50250,4,8,1626877750\ni:4708,30000,30000,1,1,1626877750\ni:7148,520552,520552,2,2,1626877749\ni:23575,2300,2405,37,177,1626877749\ni:4419,5199,5199,1,1,1626877749\ni:4499,30000,30000,4,4,1626877750\ni:24765,50000,50000,2,2,1626877750\ni:25076,600000,600000,1,1,1626877749\ni:9179,7700,7700,12,68,1626877750\ni:7930,698464,698464,1,1,1626877749\ni:15260,60000,60000,2,2,1626877750\ni:31219,70000000,70000000,1,1,1626877750\ni:14809,500000,500000,1,1,1626877750\ni:12414,1771702,1771702,1,1,1626877750\ni:4360,4200,4200,16,97,1626877750\ni:24291,1990,2040,43,430,1626877749\ni:25324,750000,750000,1,1,1626877750\ni:7060,50276,50276,1,1,1626877750\ni:2075,50000,50000,1,1,1626877749\ni:12202,950,960,13,91,1626877750\ni:13136,409000,409000,3,3,1626877749\ni:24632,500000,500000,3,3,1626877750\ni:4416,49800,49800,2,2,1626877749\ni:7076,79500,79500,7,11,1626877750\ni:15056,1066150,1066150,1,1,1626877750\ni:23591,58000,58000,6,6,1626877750\ni:4715,100000,100000,1,1,1626877750\ni:5739,1153047,1153047,1,1,1626877749\ni:15250,60000,60000,2,2,1626877749\ni:5633,18399,18400,7,28,1626877749\ni:4625,24800,24953,10,122,1626877749\ni:11163,20000,20000,3,3,1626877749\ni:22557,11110000,11110000,3,3,1626877750\ni:4370,9854,9854,6,50,1626877750\ni:13146,450000,450000,3,3,1626877749\ni:14724,30000,30000,1,1,1626877750\ni:17187,5900,5900,1,1,1626877749\ni:1081,28,28,1,10,1626877750\ni:7421,50000,50000,1,1,1626877749\ni:6263,99346,99346,2,2,1626877749\ni:8207,4113808,4113808,1,1,1626877749\ni:6418,25000,25000,1,1,1626877750\ni:13038,450000,450000,3,3,1626877750\ni:16716,249000,249000,2,2,1626877749\ni:6325,10000,10000,3,3,1626877749\ni:20975,399999,399999,6,6,1626877750\ni:10502,127998,127998,4,4,1626877749\ni:4784,5600,5600,1,2,1626877749\ni:2849,80585,80585,1,1,1626877749\ni:16253,499000,499000,2,2,1626877749\ni:15735,1000000,1000000,2,2,1626877749\ni:3197,15000,15000,2,2,1626877750\ni:23103,4700,4750,9,9,1626877750\ni:25019,80000,80000,2,2,1626877750\ni:8067,43,43,10,2000,1626877750\ni:25095,1503600,1503600,1,1,1626877749\ni:1973,1500000,1500000,4,4,1626877750\ni:24942,159900,159900,2,2,1626877750\ni:22308,179500,179749,9,9,1626877749\ni:15978,250000,250000,1,1,1626877750\ni:17414,19400,19400,1,1,1626877749\ni:1465,50000,50000,1,1,1626877749\ni:25650,5000,5000,16,25,1626877750\ni:24067,193500,194000,34,34,1626877749\ni:15974,45000,45000,1,1,1626877750\ni:11137,5998,6229,179,1036,1626877750\ni:16206,1599641,1599641,18,18,1626877749\ni:2319,1950,1971,41,753,1626877750\ni:4254,285513,285513,1,1,1626877750\ni:12704,80000,80000,2,2,1626877750\ni:30155,1200,1340,12,73,1626877749\ni:15504,52628,52628,1,1,1626877749\ni:23826,884999,884999,4,5,1626877750\ni:10512,174,174,20,4000,1626877749\ni:24296,4740000,4740000,1,1,1626877750\ni:24593,850000,850000,1,1,1626877750\ni:2802,499000,499000,2,2,1626877750\ni:24061,998000,999799,21,21,1626877750\ni:2407,8499,8499,5,5,1626877750\ni:11174,19600,19800,37,83,1626877749\ni:13446,1945,7988,27,98,1626877750\ni:24058,946000,946000,10,10,1626877749\ni:9892,50000,50000,4,4,1626877750\ni:2740,985,985,1,2,1626877750\ni:24758,50500,50500,1,1,1626877749\ni:24690,100000,100000,1,1,1626877749\ni:13044,1507500,1507500,2,2,1626877750\ni:23131,500000,500000,3,3,1626877750\ni:24716,998888,998888,1,1,1626877749\ni:19818,4999900,4999900,4,4,1626877750\ni:15423,785,785,2,4,1626877750\ni:24939,150000,150000,2,2,1626877750\ni:29536,4992500,4992500,8,8,1626877749\ni:16861,0,0,1,0,1626877750\ni:2878,200000,200000,1,1,1626877750\ni:23766,19010000,19010000,5,5,1626877750\ni:20753,58499,58499,9,9,1626877750\ni:19816,408000,408000,3,3,1626877750\ni:24783,100000,100000,3,3,1626877749\ni:25123,110000,110000,1,1,1626877750\ni:3369,2300,2886,22,184,1626877749\ni:23135,500000,500000,3,3,1626877750\ni:13478,39800,39800,6,6,1626877750\ni:21546,20000,20039,25,190,1626877749\ni:19814,755998,755998,2,2,1626877750\ni:25202,150000,150000,1,1,1626877749\ni:31230,299000,299500,9,9,1626877749\ni:20452,4300,4381,13,91,1626877749\ni:31139,600000,600000,5,5,1626877750\ni:11611,459999,459999,1,1,1626877749\ni:10546,240999,240999,3,6,1626877749\ni:10054,500000,500000,1,1,1626877749\ni:29292,3500,3727,11,39,1626877750\ni:24600,200000,200000,2,2,1626877750\ni:27688,215000,215000,7,7,1626877750\ni:4333,500000,500000,1,1,1626877750\ni:8187,314348,314348,2,2,1626877749\ni:8146,74000,75129,31,95,1626877749\ni:14171,73799,73799,1,1,1626877749\ni:6068,29600,29699,8,8,1626877750\ni:29740,239000,240066,49,55,1626877749\ni:2073,33333,33333,2,2,1626877749\ni:31148,790000,790000,3,3,1626877749\ni:6584,141599,141599,1,1,1626877750\ni:9862,30000,30000,1,1,1626877749\ni:22919,20000000,20000000,1,1,1626877749\ni:15488,40000,40000,1,1,1626877750\ni:9305,127500,127500,6,6,1626877750\ni:21217,10000,10000,1,1,1626877749\ni:16084,498000,498000,8,8,1626877750\ni:8154,76923,99687,8,153,1626877750\ni:17704,716385,716385,1,1,1626877749\ni:15068,1119036,1119036,1,1,1626877749\ni:4568,21000,21000,1,1,1626877750\ni:28280,89980000,89980000,4,4,1626877750\ni:10586,139999,139999,7,51,1626877750\ni:6576,30000,30000,1,1,1626877749\ni:18338,552338,552338,1,1,1626877749\ni:15500,50000,50000,1,1,1626877750\ni:16006,418997,418997,14,14,1626877750\ni:8485,500000,500000,3,3,1626877749\ni:24808,990000,990000,1,1,1626877749\ni:14090,33333,33333,1,1,1626877749\ni:32774,1504999,1504999,1,1,1626877749\ni:12983,410000,410000,2,2,1626877749\ni:15992,7298,8258,60,703,1626877749\ni:12006,25000,25000,1,1,1626877750\ni:14431,90000,90000,1,1,1626877749\ni:15308,50500,50500,1,1,1626877750\ni:2882,5800,5800,2,2,1626877750\ni:3610,29000,29000,3,3,1626877749\ni:22532,4500000,4500000,3,3,1626877750\ni:14945,100000,100000,1,1,1626877749\ni:776,1200000,1200000,1,1,1626877750\ni:12783,18538244,18538244,1,1,1626877749\ni:16802,8880000,8880000,1,1,1626877749\ni:14425,50000,50000,1,1,1626877749\ni:23524,500000,524000,12,12,1626877750\ni:3481,132540,132540,2,2,1626877749\ni:6274,80000,80000,5,5,1626877749\ni:4852,18199,18199,1,4,1626877749\ni:4345,499000,499000,3,2,1626877750\ni:23632,8880000,8880000,1,1,1626877749\ni:10605,560000,560000,1,1,1626877749\ni:25087,100000,100000,1,1,1626877750\ni:7924,809456,809456,1,1,1626877750\ni:27657,11900,11930,26,111,1626877750\ni:3192,5000,5000,1,1,1626877749\ni:25335,100000,100000,6,6,1626877750\ni:24943,50000,50000,2,2,1626877750\ni:5470,4700,4700,4,27,1626877750\ni:14341,25600,25600,1,13,1626877749\ni:29731,5550000,5550000,3,3,1626877750\ni:31243,500000,500000,1,1,1626877749\ni:24214,4450000,4450000,5,5,1626877750\ni:2569,7446,7446,1,1,1626877749\ni:9294,9000,9000,3,3,1626877749\ni:24950,70000,70000,2,2,1626877750\ni:24658,290000,290000,4,4,1626877750\ni:1988,0,0,1,0,1626877749\ni:23105,8700,9233,60,60,1626877750\ni:2309,10000,10000,3,3,1626877750\ni:31200,1690000,1690000,2,2,1626877749\ni:6309,4075,4075,1,1,1626877750\ni:16219,950000,950000,5,5,1626877750\ni:24822,50090,50090,2,2,1626877749\ni:24898,80000,80000,4,4,1626877750\ni:10317,500000,500000,3,3,1626877749\ni:2302,5808,5808,1,1,1626877749\ni:19715,20000,20000,1,23,1626877749\ni:7047,117418,117418,1,1,1626877750\ni:15087,126000,126000,4,4,1626877749\ni:28466,200000,200000,5,5,1626877749\ni:15190,90000,90000,1,1,1626877749\ni:14343,7300,7481,88,215,1626877750\ni:24956,80000,80000,2,2,1626877749\ni:4305,6799,6924,8,60,1626877749\ni:12792,3696666,3696666,1,1,1626877749\ni:9817,142600,142600,1,1,1626877749\ni:10498,199499,199499,6,6,1626877750\ni:6362,125,142,25,445,1626877750\ni:21843,499999,499999,32,32,1626877750\ni:14630,499999,499999,3,3,1626877750\ni:11039,26665,26665,7,7,1626877750\ni:5771,500000,500000,3,3,1626877750\ni:23153,500000,500000,3,3,1626877750\ni:23787,1477500,1490952,52,71,1626877750\ni:3825,8800,9565,41,208,1626877750\ni:24753,80000,80000,3,3,1626877750\ni:7991,250000,250000,1,1,1626877750\ni:15737,20000,20000,2,2,1626877749\ni:24298,1002500,1002500,1,1,1626877750\ni:6385,500000,500000,1,1,1626877750\ni:18948,704662,704662,1,1,1626877749\ni:2775,72500,72960,23,81,1626877749\ni:9030,18400,18400,5,11,1626877750\ni:28501,4600,4681,7,37,1626877749\ni:24707,990000,990000,1,1,1626877749\ni:13755,10014,10014,5,100,1626877750\ni:15236,200000,200000,1,1,1626877750\ni:23595,262000,262000,5,5,1626877750\ni:23593,57500,57750,7,7,1626877749\ni:9863,60000,60000,1,1,1626877750\ni:9782,50000,50000,1,1,1626877750\ni:720,506000,506000,1,1,1626877749\ni:10601,100000,100000,1,1,1626877749\ni:31868,845000,864666,23,23,1626877750\ni:24913,600000,600000,2,2,1626877749\ni:29539,302800,319580,81,191,1626877750\ni:7753,440000,440000,4,4,1626877749\ni:15046,618500,618500,1,1,1626877749\ni:4358,879,879,7,128,1626877750\ni:6261,300,300,1,1,1626877749\ni:23884,12504999,12504999,7,7,1626877750\ni:19710,9900,9955,3,54,1626877750\ni:16717,106500,106500,6,6,1626877750\ni:4363,2955,2956,50,64,1626877750\ni:20907,13808,13808,1,1,1626877749\ni:8276,98000,98000,1,1,1626877749\ni:6796,49000,49000,7,7,1626877750\ni:9402,150000,150000,1,1,1626877749\ni:15420,9400,9558,7,190,1626877750\ni:24630,100000,100000,3,3,1626877750\ni:7910,18800,27039,56,73,1626877749\ni:1483,220000,220000,6,6,1626877749\ni:10096,40000,40000,1,1,1626877749\ni:24737,50000,50000,4,4,1626877750\ni:31875,8280000,8280000,3,3,1626877750\ni:24270,1897500,1897500,3,3,1626877749\ni:10593,99999,99999,2,2,1626877750\ni:2575,500000,500000,1,1,1626877750\ni:18332,34999,34999,4,4,1626877750\ni:14174,36799,36799,2,2,1626877750\ni:32409,2662500,2663749,9,9,1626877750\ni:4425,29000,29000,1,5,1626877749\ni:31142,259000,259000,4,3,1626877750\ni:29202,443938,443938,4,4,1626877750\ni:24750,49999,49999,6,6,1626877749\ni:24771,100000,100000,1,1,1626877750\ni:5783,1745915,1745915,1,1,1626877749\ni:13857,326660,326660,1,1,1626877749\ni:13070,309000,309000,1,1,1626877749\ni:3679,500000,500000,3,3,1626877750\ni:14046,15000,15000,25,25,1626877750\ni:3683,500000,500000,3,3,1626877750\ni:25898,2897499,2898332,10,10,1626877750\ni:20514,499000,499000,2,8,1626877750\ni:6350,61722,61722,1,1,1626877750\ni:12207,9000,9090,7,37,1626877750\ni:12208,2499,2499,10,73,1626877750\ni:19233,1007500,1007500,2,2,1626877750\ni:25697,2500000,2500000,1,1,1626877749\ni:4371,950,952,61,148,1626877750\ni:7276,8872,8872,1,1,1626877750\ni:24051,940997,941141,28,28,1626877750\ni:33173,2309900,2407450,8,8,1626877749\ni:15747,7700,7700,4,3,1626877750\ni:24909,200000,200000,2,2,1626877750\ni:5785,3000,3000,3,9,1626877750\ni:25001,50000,50000,2,2,1626877749\ni:15057,982866,982866,1,1,1626877749\ni:13497,149500,149500,5,5,1626877750\ni:24845,40000,40000,2,2,1626877750\ni:4369,60500,61312,31,31,1626877750\ni:15745,498000,498000,1,1,1626877750\ni:16723,208000,208000,1,1,1626877749\ni:11038,1500000,1500000,1,1,1626877750\ni:24028,1977500,1981944,36,36,1626877750\ni:22451,727000,728860,134,166,1626877749\ni:3388,24799,24799,11,27,1626877750\ni:25024,100000,100000,3,3,1626877750\ni:8216,418404,418404,1,1,1626877749\ni:8365,2900,3000,7,122,1626877750\ni:23799,79994,79994,5,5,1626877749\ni:2079,36000,36000,1,1,1626877749\ni:14344,122499,123998,321,977,1626877749\ni:21764,56500,57000,11,11,1626877750\ni:2672,9899,9899,6,41,1626877750\ni:25321,120000,120000,5,5,1626877749\ni:5631,5400,5400,10,46,1626877750\ni:34831,2999999,2999999,6,6,1626877750\ni:24617,200000,200000,2,2,1626877750\ni:27696,190000,192666,10,10,1626877750\ni:22850,899900,899900,1,4,1626877750\ni:9298,51000,51000,1,1,1626877750\ni:15762,1000000,1000000,1,1,1626877750\ni:22307,57500,58000,9,9,1626877750\ni:12803,6100,6684,47,74,1626877750\ni:24303,14000000,14000000,5,5,1626877750\ni:7974,5505,5505,24,205,1626877750\ni:4398,24800,24883,8,52,1626877749\ni:22795,399,590,17,77,1626877750\ni:23436,1835000,1842306,50,50,1626877750\ni:6712,9950,9950,40,40,1626877750\ni:12655,50000,50000,10,20,1626877750\ni:23825,20000000,20000000,1,1,1626877749\ni:10646,59000,59286,16,136,1626877750\ni:2851,46272,46272,1,1,1626877750\ni:7676,29800,29800,27,125,1626877750\ni:32067,139500,141444,14,92,1626877750\ni:27857,1600,1600,1,4,1626877750\ni:18639,3113120,3113120,1,1,1626877750\ni:9783,81199,81199,1,1,1626877750\ni:22897,2604545,2604545,2,1,1626877750\ni:3818,1995,2468,32,355,1626877750\ni:2080,40000,40000,1,1,1626877749\ni:4456,156534,156534,1,1,1626877749\ni:29904,500000,500000,3,3,1626877750\ni:7078,483,2240,92,340,1626877750\ni:23522,18009999,18009999,1,1,1626877749\ni:11603,600000,600000,1,1,1626877750\ni:4394,1687,1687,10,100,1626877750\ni:22861,1374998,1374998,40,40,1626877750\ni:24207,3005000,3005000,4,4,1626877750\ni:9802,100000,100000,1,1,1626877749\ni:9406,790000,790000,1,1,1626877750\ni:24722,50000,50000,4,4,1626877750\ni:13018,481925,481925,2,2,1626877750\ni:6219,55800,55800,1,1,1626877749\ni:4577,30400,30400,4,4,1626877750\ni:29956,499000,499000,2,2,1626877749\ni:15395,19999,19999,1,1,1626877749\ni:21845,1095000,1095000,23,27,1626877749\ni:6892,121000,121000,5,5,1626877750\ni:6040,30000,30000,29,29,1626877750\ni:25161,350000,350000,1,1,1626877750\ni:29729,5000000,5000000,3,3,1626877749\ni:13027,1100000,1100000,2,2,1626877750\ni:24609,250000,250000,3,3,1626877750\ni:14163,60000,60000,1,1,1626877750\ni:7080,2000,2216,31,44,1626877750\ni:9823,60000,60000,4,4,1626877750\ni:6311,503900,503900,1,1,1626877750\ni:24955,70000,70000,3,3,1626877750\ni:12422,1265980,1265980,2,2,1626877750\ni:11152,2800000,2800000,1,1,1626877749\ni:7934,1159567,1159567,1,1,1626877750\ni:11985,45000,45000,1,1,1626877750\ni:21944,99919,99919,1,1,1626877750\ni:4391,277999,277999,5,5,1626877750\ni:24607,400000,400000,1,1,1626877750\ni:19707,9900,9960,3,62,1626877750\ni:15760,59999,59999,1,1,1626877750\ni:23427,50000,53776,75,448,1626877749\ni:4090,99500,99500,3,3,1626877750\ni:23425,30000,30674,98,1123,1626877750\ni:8294,200000,200000,1,1,1626877749\ni:28102,14800,21459,42,153,1626877750\ni:22826,25000,25000,4,16,1626877750\ni:25318,150000,150000,1,1,1626877749\ni:14627,1000000,1000000,3,3,1626877749\ni:15074,213228,213228,1,1,1626877750\ni:18294,38000,38100,11,28,1626877750\ni:10018,213576,213576,1,1,1626877750\ni:6836,500000,500000,1,1,1626877749\ni:16203,97999,98207,24,43,1626877750\ni:31233,559153,559153,1,1,1626877749\ni:20863,60500,61144,3,15,1626877750\ni:24858,100000,100000,1,1,1626877750\ni:20828,19400,19600,41,41,1626877750\ni:184937,71500,71750,7,35,1626877750",
+	["c@路易斯桑拿 - 伊弗斯@bankingUIContext@auctioningGroupTree"] = {
+		["collapsed"] = {
+		},
+		["unselected"] = {
+		},
+	},
 	["c@特變電工 - 伊弗斯@mailingUIContext@groupTree"] = {
 		["collapsed"] = {
 		},
@@ -3471,8 +2844,8 @@ TradeSkillMasterDB = {
 			["stackSize"] = 55,
 			["quantity"] = 72,
 			["time"] = 120,
-			["item"] = 305,
 			["player"] = 110,
+			["item"] = 305,
 		},
 		["colHidden"] = {
 		},
@@ -3495,15 +2868,15 @@ TradeSkillMasterDB = {
 		},
 		["Crafting"] = {
 			["matPrice"] = false,
-			["detailedMats"] = false,
 			["craftingCost"] = true,
+			["detailedMats"] = false,
 		},
 		["Accounting"] = {
 			["sale"] = true,
 			["expiredAuctions"] = false,
 			["purchase"] = true,
-			["cancelledAuctions"] = false,
 			["saleRate"] = false,
+			["cancelledAuctions"] = false,
 		},
 		["Shopping"] = {
 			["maxPrice"] = false,
@@ -3512,28 +2885,20 @@ TradeSkillMasterDB = {
 			["belowPrice"] = false,
 		},
 	},
-	["g@ @mainUIContext@ledgerResaleScrollingTable"] = {
-		["colWidth"] = {
-			["bought"] = 50,
-			["totalProfit"] = 120,
-			["item"] = 194,
-			["sold"] = 50,
-			["avgProfit"] = 120,
-			["avgSellPrice"] = 120,
-			["profitPct"] = 80,
-			["avgBuyPrice"] = 120,
-		},
-		["colHidden"] = {
-			["profitPct"] = true,
-			["totalProfit"] = true,
-		},
+	["g@ @craftingUIContext@frame"] = {
+		["width"] = 820.0000610351562,
+		["height"] = 587,
+		["scale"] = 1,
+		["centerY"] = 169.5800039768219,
+		["page"] = 1,
+		["centerX"] = -600.2400140762329,
 	},
 	["g@ @craftingUIContext@gatheringScrollingTable"] = {
 		["colWidth"] = {
-			["need"] = 50,
-			["sources"] = 160,
-			["name"] = 206,
 			["have"] = 50,
+			["sources"] = 160,
+			["need"] = 50,
+			["name"] = 206,
 		},
 		["colHidden"] = {
 		},
@@ -3544,57 +2909,89 @@ TradeSkillMasterDB = {
 		["unselected"] = {
 		},
 	},
-	["g@ @craftingUIContext@frame"] = {
-		["centerX"] = -600.2400140762329,
-		["scale"] = 1,
-		["height"] = 587,
-		["centerY"] = 169.5800039768219,
-		["page"] = 1,
-		["width"] = 820.0000610351562,
+	["g@ @mainUIContext@ledgerResaleScrollingTable"] = {
+		["colWidth"] = {
+			["bought"] = 50,
+			["totalProfit"] = 120,
+			["item"] = 194,
+			["avgBuyPrice"] = 120,
+			["avgProfit"] = 120,
+			["avgSellPrice"] = 120,
+			["profitPct"] = 80,
+			["sold"] = 50,
+		},
+		["colHidden"] = {
+			["profitPct"] = true,
+			["totalProfit"] = true,
+		},
 	},
 	["g@ @tooltipOptions@prospectTooltip"] = true,
 	["g@ @tooltipOptions@transformTooltip"] = true,
-	["c@路易斯桑拿 - 伊弗斯@bankingUIContext@auctioningGroupTree"] = {
+	["f@Horde - 伊弗斯@internalData@csvAuctionDBScan"] = "itemString,minBuyout,marketValue,numAuctions,quantity,lastScan\ni:16251,77000,77500,13,13,1626877749\ni:7059,77412,77412,1,1,1626877749\ni:10239,30000,30000,1,1,1626877749\ni:13491,99500,99500,3,3,1626877749\ni:25286,65200,65200,5,5,1626877750\ni:7090,2497500,2497500,2,2,1626877749\ni:11204,157999,157999,2,2,1626877749\ni:19441,1960,1965,23,55,1626877750\ni:4377,2400,2779,26,121,1626877749\ni:3480,15000,15000,16,16,1626877749\ni:7289,500000,500000,3,3,1626877749\ni:24170,467000,467000,6,6,1626877749\ni:23596,280000,280000,5,5,1626877749\ni:17062,20599,20599,7,7,1626877749\ni:28420,19800,20150,9,43,1626877749\ni:2728,4000,4000,3,3,1626877749\ni:13004,5000000,5000000,1,1,1626877749\ni:8492,11880000,11880000,1,1,1626877749\ni:18634,3295062,3295062,1,1,1626877749\ni:8201,514719,514719,1,1,1626877749\ni:4247,10000,10000,17,17,1626877749\ni:6585,200000,200000,1,1,1626877749\ni:2585,98581,98581,1,1,1626877749\ni:33092,37100,37160,17,340,1626877749\ni:22914,12000000,12000000,3,3,1626877749\ni:13939,39799,39799,7,7,1626877749\ni:7915,358920,358920,1,1,1626877749\ni:10408,335300,335300,1,1,1626877749\ni:24246,9799,9799,20,1020,1626877749\ni:24889,110000,110000,2,2,1626877749\ni:24830,500000,500000,1,1,1626877750\ni:25071,150000,150000,3,3,1626877749\ni:20959,50000,57500,14,14,1626877749\ni:21948,44999,44999,5,5,1626877749\ni:4325,27264,27264,1,1,1626877749\ni:20404,8200,55064,7,558,1626877749\ni:14179,30000,30000,1,1,1626877749\ni:24401,470,1108,59,600,1626877749\ni:8390,29800,29800,1,1,1626877749\ni:12682,100000,100000,1,1,1626877749\ni:9999,153999,153999,2,2,1626877749\ni:24992,80000,80000,2,2,1626877749\ni:15121,10000,10000,1,1,1626877749\ni:13128,410000,410000,1,1,1626877749\ni:4236,99999,122552,51,53,1626877749\ni:16647,8000,8000,1,1,1626877749\ni:4080,200000,200000,1,1,1626877749\ni:34826,987000,987000,6,6,1626877749\ni:3182,35000,35000,3,3,1626877749\ni:9155,10000,14974,25,125,1626877749\ni:22644,1666,1666,3,11,1626877749\ni:29732,10000000,10000000,1,1,1626877749\ni:21862,350000,350000,16,16,1626877749\ni:9844,100000,100000,1,1,1626877749\ni:31143,160000,160000,6,5,1626877749\ni:14107,157692,157692,1,1,1626877749\ni:24872,77700,77700,3,3,1626877749\ni:9880,80000,80000,1,1,1626877749\ni:25111,150000,150000,2,2,1626877749\ni:11083,19798,19798,60,394,1626877749\ni:8402,9800,9800,3,3,1626877749\ni:8106,200000,200000,1,1,1626877749\ni:14418,50000,50000,1,1,1626877750\ni:24880,70000,70000,3,3,1626877749\ni:2815,600000,600000,1,1,1626877749\ni:25099,500000,500000,2,2,1626877749\ni:19231,149500,149500,2,2,1626877749\ni:20861,29400,29400,5,5,1626877749\ni:14248,50000,50000,1,1,1626877749\ni:4327,343419,343419,1,1,1626877749\ni:23502,2151104,2151104,1,1,1626877749\ni:21536,7000,7000,3,52,1626877750\ni:2307,31007,31007,1,1,1626877749\ni:20971,123000,123000,5,5,1626877749\ni:8846,16666,20499,41,431,1626877749\ni:25847,489000,489000,5,5,1626877750\ni:4778,200000,200000,7,7,1626877749\ni:27682,5000,5000,3,60,1626877749\ni:3824,86500,86500,21,25,1626877749\ni:22834,109500,109500,29,107,1626877749\ni:24201,2879998,2879998,3,3,1626877749\ni:10034,500000,500000,1,1,1626877750\ni:18650,29799,29799,6,6,1626877749\ni:4328,68559,68559,1,1,1626877750\ni:7387,125500,125500,4,4,1626877749\ni:8191,885472,885472,2,2,1626877749\ni:24056,289000,292285,27,27,1626877749\ni:8168,1330,1330,1,15,1626877749\ni:24610,60000,60000,6,6,1626877749\ni:6149,1970,1979,19,83,1626877750\ni:22248,457999,457999,7,7,1626877749\ni:13121,260000,260000,3,3,1626877749\ni:12640,16486812,16486812,1,1,1626877749\ni:24933,100000,100000,1,1,1626877749\ni:29378,1000000,1000000,1,1,1626877749\ni:20820,19000,19000,3,3,1626877749\ni:6275,120500,120500,5,5,1626877749\ni:8495,90000,94998,7,7,1626877749\ni:3612,74999,74999,1,1,1626877750\ni:25119,130000,130000,1,1,1626877749\ni:29550,2997500,3001625,16,16,1626877749\ni:25293,79900,79900,5,5,1626877749\ni:18357,9200,9200,3,3,1626877749\ni:24033,487999,490356,61,61,1626877749\ni:7954,4317344,4317344,1,1,1626877749\ni:4343,8727,8727,1,1,1626877749\ni:2889,500000,500000,3,3,1626877749\ni:1613,60000,60000,1,1,1626877749\ni:24789,302521,302521,3,3,1626877749\ni:7539,500000,500000,1,1,1626877749\ni:18362,209000,209000,2,2,1626877749\ni:31285,349000,349000,6,6,1626877749\ni:31227,350000,350000,1,1,1626877749\ni:6050,9399,9399,6,30,1626877749\ni:2449,1914,1936,36,518,1626877749\ni:3848,26002,26002,2,2,1626877749\ni:1710,644,649,31,125,1626877750\ni:24691,3000000,3000000,1,1,1626877749\ni:7085,109000,109000,1,1,1626877750\ni:24887,60000,60000,3,3,1626877749\ni:8838,7800,8541,9,143,1626877749\ni:21754,100034,100034,1,1,1626877749\ni:7965,16317,16317,4,20,1626877749\ni:871,5000000,5000000,1,1,1626877749\ni:13940,106999,106999,7,7,1626877749\ni:9855,200000,200000,1,1,1626877749\ni:4334,29800,29849,14,14,1626877749\ni:24106,2009000,2009000,1,1,1626877749\ni:8139,50000,50000,1,1,1626877749\ni:24749,50500,50500,1,1,1626877749\ni:12204,50000,50000,1,1,1626877749\ni:6786,4526,4526,1,1,1626877749\ni:11965,46399,46399,1,1,1626877749\ni:21868,387000,387000,3,3,1626877749\ni:791,281000,281000,2,2,1626877749\ni:24664,90000,90000,5,5,1626877749\ni:18239,109000,109000,5,5,1626877749\ni:6241,20000,20000,10,10,1626877749\ni:14511,44440000,44440000,1,1,1626877749\ni:23774,228000,228000,19,19,1626877750\ni:19026,24194,24194,6,48,1626877749\ni:15772,250000,250000,1,1,1626877749\ni:31131,999499,999499,1,1,1626877749\ni:2555,1000000,1000000,6,6,1626877749\ni:13109,338342,338342,1,1,1626877750\ni:4406,89499,89500,33,33,1626877750\ni:13443,10700,15950,5,17,1626877749\ni:12958,127500,127750,7,7,1626877749\ni:22832,46600,47000,176,728,1626877749\ni:15052,2170332,2170332,1,1,1626877749\ni:25054,60000,60000,9,9,1626877749\ni:10507,3287,24199,4,54,1626877749\ni:3040,31500,31500,1,1,1626877749\ni:20668,2990000,2990000,1,1,1626877749\ni:2458,800,800,5,25,1626877749\ni:22890,500000,500000,1,1,1626877749\ni:4589,24600,24600,5,10,1626877749\ni:24217,8500000,8500000,1,1,1626877749\ni:858,199,1897,25,84,1626877749\ni:31079,257995,257995,10,22,1626877749\ni:2862,999,999,18,135,1626877749\ni:9832,60000,60000,1,1,1626877750\ni:31196,280000,280000,2,2,1626877749\ni:18648,29799,29799,6,6,1626877749\ni:2456,400,400,15,69,1626877749\ni:15548,60000,60000,1,1,1626877749\ni:17202,250,250,13,260,1626877749\ni:23783,23600,24015,21,53,1626877749\ni:2243,2000000,2000000,1,1,1626877749\ni:21895,65999,65999,6,6,1626877749\ni:29528,148500,149166,11,11,1626877749\ni:15244,100000,100000,1,1,1626877749\ni:24884,130000,130000,1,1,1626877749\ni:24966,200000,200000,1,1,1626877749\ni:4611,5700,5750,5,7,1626877749\ni:24666,50000,50000,10,10,1626877749\ni:25699,35000,41034,44,143,1626877749\ni:23771,18600,18799,10,45,1626877750\ni:28452,487,487,2,40,1626877749\ni:15748,1000000,1000000,1,1,1626877750\ni:18487,199500,199500,2,2,1626877749\ni:15322,19000,19000,4,4,1626877749\ni:17203,0,0,1,0,1626877749\ni:4402,2300,2355,14,33,1626877749\ni:9304,120498,120498,6,6,1626877749\ni:22449,273000,281123,207,408,1626877749\ni:23763,1500000,1500000,2,2,1626877749\ni:25289,900000,900000,1,1,1626877749\ni:24029,2074499,2074811,32,32,1626877749\ni:4390,1125,1125,14,119,1626877749\ni:5009,20000,20000,4,4,1626877749\ni:6367,5000000,5000000,1,1,1626877749\ni:25057,200000,200000,4,4,1626877749\ni:22252,3998000,3998000,2,2,1626877749\ni:23528,39200,39200,19,95,1626877750\ni:27442,4500000,4500000,2,2,1626877749\ni:11371,199499,199499,23,112,1626877749\ni:20818,19799,19908,38,38,1626877749\ni:24065,111094,111098,16,16,1626877749\ni:24032,2107399,2107499,17,17,1626877749\ni:15067,2817972,2817972,1,1,1626877749\ni:23631,29990000,29990000,2,2,1626877749\ni:3335,1888888,1888888,1,1,1626877749\ni:21940,3887500,3887500,1,1,1626877749\ni:24165,2507500,2507500,2,2,1626877749\ni:15603,50000,50000,1,1,1626877750\ni:3842,48000,48000,15,15,1626877749\ni:6037,6700,6759,14,40,1626877749\ni:16252,3399999,3399999,5,5,1626877749\ni:19267,4000000,4000000,1,1,1626877749\ni:25886,37554,37554,2,10,1626877749\ni:8399,1800,1800,2,2,1626877749\ni:29529,294000,294000,29,29,1626877750\ni:19817,199999,199999,4,4,1626877749\ni:10048,64748,64748,1,1,1626877749\ni:38328,497999,497999,3,3,1626877749\ni:31173,199000,199000,2,2,1626877749\ni:14143,502858,502858,1,1,1626877749\ni:3820,4500,4715,14,126,1626877749\ni:12636,4366596,4366596,1,1,1626877749\ni:9885,100000,100000,1,1,1626877749\ni:7482,8000,8000,1,1,1626877749\ni:27692,167499,167499,13,13,1626877749\ni:16656,10000,10000,3,3,1626877750\ni:8198,478504,478504,2,2,1626877749\ni:28497,101883,101883,3,3,1626877750\ni:22853,1633332,1633332,91,91,1626877749\ni:12037,243,244,8,48,1626877749\ni:6330,29800,29800,6,6,1626877749\ni:24685,5000000,5000000,1,1,1626877749\ni:24773,58300,58300,1,1,1626877749\ni:29733,1905000,1905000,1,1,1626877750\ni:24688,300000,300000,3,3,1626877749\ni:14429,200000,200000,1,1,1626877749\ni:28495,109800,109800,4,4,1626877749\ni:25845,2507500,2769166,13,13,1626877749\ni:10310,26799,26799,20,25,1626877749\ni:5082,148,148,2,3,1626877750\ni:8827,9600,10965,38,101,1626877749\ni:20422,44800,44800,1,1,1626877749\ni:10513,387,387,12,2364,1626877749\ni:25215,108800,108800,3,3,1626877749\ni:4326,29952,29952,1,1,1626877749\ni:22823,24600,24600,3,15,1626877749\ni:6401,29999,29999,4,4,1626877749\ni:15053,650347,650347,1,1,1626877749\ni:24824,500000,500000,1,1,1626877749\ni:21886,268000,269866,29,54,1626877749\ni:7989,4199999,4199999,2,2,1626877749\ni:9901,20000,20000,2,2,1626877749\ni:3830,119000,119000,5,5,1626877749\ni:23858,499999,499999,1,1,1626877749\ni:22450,430000,430000,12,23,1626877749\ni:14177,23000,23000,1,1,1626877749\ni:16651,10000,10000,2,2,1626877749\ni:21866,550000,550000,9,9,1626877749\ni:12034,20000,20000,1,1,1626877749\ni:16713,500000,500000,1,1,1626877749\ni:25063,50000,50000,5,5,1626877749\ni:19262,500000,500000,1,1,1626877749\ni:27736,49999,49999,7,7,1626877749\ni:8951,9800,9800,1,11,1626877749\ni:13465,23400,23589,10,43,1626877749\ni:24947,500000,500000,1,1,1626877749\ni:23592,104000,104000,6,6,1626877749\ni:7378,9900,9900,28,27,1626877749\ni:28534,50000,50000,2,2,1626877749\ni:7290,500000,500000,3,3,1626877749\ni:4235,100000,100000,9,26,1626877749\ni:25084,130000,130000,2,2,1626877749\ni:2164,1500000,1500000,2,2,1626877749\ni:20963,70000,79844,11,52,1626877749\ni:8831,13375,17141,54,607,1626877749\ni:18283,3939998,3939998,9,9,1626877749\ni:22146,59500,59500,7,7,1626877749\ni:16799,2000000,2000000,1,1,1626877749\ni:10588,1611663,1611663,2,2,1626877749\ni:16971,13799,13799,1,20,1626877749\ni:18562,1207499,1207499,10,10,1626877749\ni:21991,4100,4150,17,340,1626877749\ni:32905,2100,2100,13,17,1626877749\ni:27656,1995,3000,13,181,1626877749\ni:22548,4795000,4795000,3,3,1626877749\ni:9036,9000,9221,12,50,1626877749\ni:23448,498000,518647,136,178,1626877749\ni:17026,498,498,4,79,1626877749\ni:6533,1055,1055,17,318,1626877749\ni:25036,300000,300000,1,1,1626877749\ni:24254,7000000,7000000,1,1,1626877749\ni:32772,508000,508000,6,6,1626877749\ni:7534,100000,100000,1,1,1626877749\ni:24868,40000,40000,1,1,1626877749\ni:15284,200000,200000,1,1,1626877749\ni:29960,25000000,25000000,2,2,1626877749\ni:31158,4500000,4500000,1,1,1626877749\ni:24477,185,188,47,333,1626877749\ni:8956,36400,36599,7,24,1626877749\ni:10308,1445,1447,5,7,1626877749\ni:23499,1907998,1907998,1,1,1626877749\ni:7061,795317,795317,1,1,1626877749\ni:28104,435000,435999,16,73,1626877749\ni:7067,46633,49440,37,110,1626877749\ni:15741,127000,127000,5,5,1626877749\ni:24673,155000,155000,3,3,1626877749\ni:7972,483,488,27,175,1626877749\ni:16112,19600,19650,15,15,1626877749\ni:7742,210000,210000,3,3,1626877749\ni:24624,109900,109900,3,3,1626877749\ni:7372,103957,103957,5,5,1626877750\ni:3485,168610,168610,1,1,1626877749\ni:16703,409000,409000,1,1,1626877749\ni:23487,80000,89000,15,15,1626877749\ni:13084,400000,400000,1,1,1626877749\ni:7944,1235475,1235475,1,1,1626877749\ni:18649,1000000,1000000,3,3,1626877749\ni:24863,200000,200000,1,1,1626877749\ni:31281,406000,406000,4,4,1626877749\ni:14408,48000,48000,1,1,1626877749\ni:21547,98499,98499,6,6,1626877749\ni:7958,1000000,1000000,4,4,1626877749\ni:23529,129000,132579,19,89,1626877749\ni:22383,21268436,21268436,1,1,1626877749\ni:22374,295050,295050,7,13,1626877749\ni:7760,110000,110000,3,3,1626877749\ni:6260,0,0,1,0,1626877749\ni:12162,126397,126397,8,8,1626877749\ni:10998,3500,3818,51,73,1626877749\ni:19281,308999,308999,2,2,1626877749\ni:6271,50000,50000,1,1,1626877749\ni:15383,90000,90000,1,1,1626877749\ni:7052,478999,478999,2,2,1626877749\ni:29377,979999,979999,1,1,1626877749\ni:5789,498995,498995,3,3,1626877749\ni:7922,117775,117775,10,10,1626877749\ni:29549,98000,98000,6,6,1626877749\ni:4828,200000,200000,1,1,1626877749\ni:9210,115999,115999,11,26,1626877749\ni:13014,450000,450000,1,1,1626877749\ni:14162,40000,40000,1,1,1626877749\ni:25075,552300,552300,1,1,1626877749\ni:21881,145000,154206,100,233,1626877749\ni:4793,100000,100000,1,1,1626877749\ni:6384,500000,500000,1,1,1626877749\ni:29503,19880000,19880000,1,1,1626877749\ni:23120,29892,29892,20,20,1626877749\ni:25521,444900,448427,22,57,1626877749\ni:19257,4000000,4000000,1,1,1626877749\ni:2749,2300,2300,3,3,1626877749\ni:25315,147100,147100,3,3,1626877749\ni:25296,500000,500000,1,1,1626877749\ni:22202,58625,58625,1,10,1626877749\ni:31861,975000,978817,44,44,1626877749\ni:7445,200000,200000,1,1,1626877749\ni:3483,51478,51478,4,4,1626877749\ni:22926,99990000,99990000,2,1,1626877749\ni:5766,89998,89998,2,2,1626877749\ni:4063,30000,30000,2,2,1626877749\ni:24742,90000,90000,2,2,1626877749\ni:21114,8226,8226,1,3,1626877749\ni:25208,150000,150000,2,2,1626877749\ni:7460,50000,50000,1,1,1626877749\ni:10305,5800,5850,5,8,1626877749\ni:30421,74000,74333,11,11,1626877749\ni:11610,280000,280000,4,4,1626877749\ni:38225,6990000,6990000,1,1,1626877749\ni:29112,100000,100000,8,8,1626877749\ni:10073,150000,150000,1,1,1626877749\ni:7064,267976,267976,1,1,1626877749\ni:1202,6900,6900,1,1,1626877749\ni:4331,301618,301618,1,1,1626877749\ni:4245,20452,20452,3,3,1626877749\ni:7407,30000,30000,2,2,1626877749\ni:7088,499999,499999,2,2,1626877750\ni:20754,167000,167000,9,9,1626877749\ni:14047,1345,1548,193,3704,1626877749\ni:34535,39990000,39990000,1,1,1626877749\ni:24908,600000,600000,1,1,1626877749\ni:5765,50499,50499,5,5,1626877749\ni:3928,1545,1563,45,172,1626877749\ni:24764,140000,140000,1,1,1626877749\ni:6054,30000,30000,6,6,1626877749\ni:25686,8449996,8449996,5,5,1626877749\ni:13127,350000,350000,1,1,1626877749\ni:6048,6600,6640,15,45,1626877750\ni:4461,282,282,8,46,1626877749\ni:24995,300000,300000,1,1,1626877749\ni:20296,1378744,1378744,1,1,1626877749\ni:25316,200000,200000,2,2,1626877749\ni:12255,119999,119999,4,4,1626877749\ni:7483,60000,60000,1,1,1626877749\ni:5963,104500,104500,3,3,1626877749\ni:16825,0,0,1,0,1626877749\ni:23793,42250,43811,20,208,1626877749\ni:27671,1995,2210,47,256,1626877750\ni:15498,50000,50000,1,1,1626877749\ni:25139,140000,140000,1,1,1626877749\ni:4607,10000,10000,1,1,1626877749\ni:19943,4900,4950,4,8,1626877749\ni:4396,335188,335188,1,1,1626877749\ni:24954,50000,50000,2,2,1626877749\ni:31333,4500000,4500000,1,1,1626877749\ni:23445,24800,25343,116,1007,1626877750\ni:15093,723326,723326,1,1,1626877749\ni:21219,27200,27200,6,6,1626877749\ni:10233,200000,200000,2,2,1626877749\ni:10125,480000,480000,1,1,1626877749\ni:5635,235,235,10,37,1626877749\ni:11144,179997,179997,31,31,1626877749\ni:22459,287000,287000,6,6,1626877749\ni:24198,1492500,1492500,4,4,1626877749\ni:10001,110000,110000,7,7,1626877749\ni:4408,49999,49999,4,4,1626877750\ni:18742,5555555,5555555,1,1,1626877749\ni:7371,14399,14399,9,9,1626877749\ni:20881,1000000,1000000,1,2,1626877749\ni:6346,500000,500000,1,1,1626877749\ni:31240,200000,200000,2,2,1626877749\ni:19230,333332,333332,5,5,1626877749\ni:24211,6990000,6990000,4,4,1626877749\ni:21153,2000,2000,1,20,1626877749\ni:12256,500000,500000,1,1,1626877749\ni:6616,80000,80000,1,1,1626877749\ni:15765,59999,59999,1,1,1626877749\ni:8487,500000,500000,3,3,1626877749\ni:24169,300000,300000,4,4,1626877749\ni:23523,23518414,23518414,1,1,1626877749\ni:15520,40000,40000,1,1,1626877749\ni:23498,1225466,1225466,1,1,1626877749\ni:4083,20000,20000,1,1,1626877749\ni:10029,286572,286572,1,1,1626877749\ni:15740,91499,91499,5,5,1626877749\ni:15281,350000,350000,1,1,1626877749\ni:23505,398000,399000,13,13,1626877750\ni:14211,40000,40000,1,1,1626877749\ni:6047,88500,88500,5,5,1626877749\ni:13093,100000,100000,1,1,1626877749\ni:14499,503100,503100,1,1,1626877749\ni:24961,60000,60000,1,1,1626877749\ni:19221,90900,90900,1,3,1626877749\ni:2256,296741,296741,4,4,1626877749\ni:25056,90909,90909,7,7,1626877749\ni:38277,500000,500000,2,2,1626877749\ni:16083,18887,18887,9,9,1626877750\ni:4246,9421,9421,1,1,1626877749\ni:20874,1000000,1000000,1,1,1626877749\ni:4410,4000000,4000000,1,1,1626877749\ni:23772,40,52,57,11400,1626877749\ni:27676,1790,1834,22,185,1626877749\ni:28460,200000,200000,5,5,1626877749\ni:23519,759000,772666,11,11,1626877749\ni:25029,150000,150000,1,1,1626877750\ni:9826,100000,100000,1,1,1626877749\ni:8069,66,66,10,2000,1626877749\ni:10620,20000,22398,64,1234,1626877749\ni:24676,60000,60000,2,2,1626877749\ni:12776,3895378,3895378,1,1,1626877749\ni:2751,555,555,3,3,1626877749\ni:4255,339552,339552,2,2,1626877749\ni:16051,9999900,9999900,1,1,1626877749\ni:14108,593578,593578,1,1,1626877749\ni:28282,102500,102750,11,11,1626877749\ni:10286,6600,6759,93,285,1626877749\ni:15240,500000,500000,1,1,1626877749\ni:24189,9900,9900,2,4,1626877749\ni:10582,990000,990000,1,1,1626877749\ni:25308,150000,150000,6,6,1626877749\ni:14433,250000,250000,1,1,1626877749\ni:12774,4996772,4996772,2,2,1626877749\ni:24891,200000,200000,4,4,1626877749\ni:10064,30000,30000,1,1,1626877749\ni:25333,200000,200000,1,1,1626877749\ni:14752,10000,10000,1,1,1626877749\ni:954,9300,9300,6,8,1626877750\ni:867,958999,958999,2,2,1626877749\ni:12431,9900,9900,2,21,1626877749\ni:2701,500000,500000,3,3,1626877749\ni:11022,825,825,2,24,1626877749\ni:24653,151437,151437,4,4,1626877749\ni:24718,50000,50000,2,2,1626877749\ni:12810,5555,5555,3,41,1626877749\ni:12260,515602,515602,1,1,1626877749\ni:3469,73712,73712,5,5,1626877749\ni:23819,249000,250000,16,28,1626877749\ni:4569,33333,33333,2,2,1626877749\ni:1716,690000,690000,2,2,1626877749\ni:23747,24446844,24446844,1,1,1626877749\ni:29363,499000,499000,4,4,1626877749\ni:24628,150000,150000,3,3,1626877750\ni:16224,294500,294500,2,2,1626877749\ni:10394,500000,500000,2,2,1626877749\ni:22848,209500,209500,2,2,1626877749\ni:6470,715,780,6,47,1626877749\ni:24854,120000,120000,2,2,1626877749\ni:31879,6000000,6000000,3,3,1626877749\ni:12419,1587102,1587102,1,1,1626877749\ni:20966,212372,212372,1,1,1626877749\ni:5528,500000,500000,3,3,1626877749\ni:812,4997500,4997500,1,1,1626877750\ni:7349,37777,37777,2,2,1626877749\ni:24245,10000,10000,1,34,1626877749\ni:13056,989000,989000,2,2,1626877749\ni:28461,200000,200000,5,5,1626877749\ni:9963,20000,20000,1,1,1626877749\ni:29533,3827000,3828398,18,18,1626877749\ni:10603,54999,54999,3,2,1626877749\ni:4296,500000,500000,1,1,1626877749\ni:22527,1666,1666,7,23,1626877749\ni:8486,500000,500000,3,3,1626877749\ni:8368,39600,39650,3,16,1626877749\ni:4414,49800,49800,2,2,1626877749\ni:25332,105200,105200,3,3,1626877749\ni:24035,598999,599553,30,30,1626877749\ni:25049,100000,100000,5,5,1626877749\ni:13496,443500,443500,1,1,1626877749\ni:29903,500000,500000,3,3,1626877749\ni:16710,149000,149000,3,3,1626877749\ni:12836,5000000,5000000,1,1,1626877749\ni:13006,500000,500000,1,1,1626877749\ni:2409,3000,3000,2,2,1626877749\ni:9966,100000,100000,1,1,1626877749\ni:19183,1545,1545,1,8,1626877750\ni:25096,150000,150000,3,3,1626877749\ni:22846,978999,978999,6,6,1626877749\ni:13095,100000,100000,1,1,1626877749\ni:23811,106497,106497,4,4,1626877749\ni:24639,199999,199999,4,4,1626877749\ni:20873,99500,99750,3,8,1626877749\ni:24668,199999,199999,5,5,1626877749\ni:15259,59000,59000,1,1,1626877749\ni:23119,12000,12000,11,11,1626877749\ni:23590,50000,50250,7,7,1626877749\ni:13947,125500,125500,5,5,1626877749\ni:18046,27999,28299,8,8,1626877749\ni:24809,750000,750000,3,3,1626877749\ni:25653,4477499,4477499,6,6,1626877749\ni:4316,49800,49800,3,3,1626877749\ni:15070,403808,403808,1,1,1626877749\ni:24755,300000,300000,1,1,1626877749\ni:6541,50000,50000,1,1,1626877749\ni:6238,20000,20000,10,10,1626877749\ni:929,196,197,58,120,1626877749\ni:3849,264490,264490,1,1,1626877749\ni:24818,60000,60000,1,1,1626877749\ni:31335,4500000,4504350,7,7,1626877749\ni:2578,20000,20000,10,10,1626877749\ni:25025,105000,105000,2,2,1626877749\ni:6329,500000,500000,3,3,1626877749\ni:7959,3023500,3023500,1,1,1626877749\ni:31190,299000,299000,3,3,1626877749\ni:7946,1799557,1799557,1,1,1626877749\ni:22528,790,793,4,23,1626877749\ni:3487,225240,225240,2,2,1626877749\ni:22457,480100,490923,145,225,1626877750\ni:22792,43000,44842,113,1591,1626877749\ni:12024,350000,350000,1,1,1626877749\ni:4315,173130,173130,1,1,1626877749\ni:9765,50000,50000,1,1,1626877749\ni:8398,708000,708000,5,4,1626877749\ni:15596,10000,10000,1,1,1626877749\ni:27532,499898,499898,5,5,1626877749\ni:15999,1453257,1453257,1,1,1626877749\ni:12415,1415289,1415289,1,1,1626877749\ni:7921,80000,80000,6,6,1626877749\ni:3471,76888,76888,2,2,1626877749\ni:24761,400000,400000,2,2,1626877749\ni:28596,500000,500000,3,3,1626877749\ni:6451,4800,4800,4,64,1626877749\ni:31228,990000,990000,1,1,1626877749\ni:15502,50000,50000,2,2,1626877749\ni:24999,50000,50000,3,3,1626877749\ni:5775,5000,5000,1,1,1626877749\ni:20906,22624,22624,1,1,1626877749\ni:15726,1000000,1000000,2,2,1626877749\ni:11362,10000,10000,1,1,1626877749\ni:27658,4400,4449,7,140,1626877749\ni:14725,50000,50000,1,1,1626877749\ni:31867,886999,887777,33,33,1626877749\ni:4258,476368,476368,1,1,1626877749\ni:7990,10000,10000,2,1,1626877749\ni:7075,4300,4417,37,115,1626877749\ni:2262,400000,400000,1,1,1626877749\ni:10042,423340,423340,1,1,1626877749\ni:6575,20000,20000,2,2,1626877749\ni:4336,500000,500000,1,1,1626877750\ni:6553,14999,14999,2,1,1626877750\ni:24614,250000,250000,2,2,1626877749\ni:31217,50000000,50000000,1,1,1626877749\ni:22825,20000,20000,36,270,1626877749\ni:7428,371,371,3,8,1626877749\ni:25336,200000,200000,1,1,1626877749\ni:24935,64100,64100,2,2,1626877749\ni:10577,883982,883982,1,1,1626877749\ni:4768,50000,50000,1,1,1626877749\ni:24731,63000,63000,3,3,1626877749\ni:27655,14599,14600,16,85,1626877749\ni:7926,2000000,2000000,4,4,1626877749\ni:6887,645,645,6,87,1626877749\ni:15071,491034,491034,1,1,1626877749\ni:14231,70000,70000,1,1,1626877749\ni:9303,40000,40000,4,4,1626877749\ni:24195,5500000,5500000,5,5,1626877749\ni:31164,1990000,1990000,1,1,1626877749\ni:21990,1995,1995,1,3,1626877749\ni:21885,550000,558687,133,167,1626877749\ni:2312,34249,34249,2,2,1626877749\ni:21993,299900,309699,8,8,1626877749\ni:14573,190000,190000,1,1,1626877749\ni:25307,100000,100000,8,8,1626877749\ni:3819,295,298,17,121,1626877749\ni:31306,179500,179750,8,8,1626877749\ni:25673,180000,180000,1,1,1626877749\ni:20831,50250,50250,2,2,1626877750\ni:16255,2000000,2000000,2,2,1626877749\ni:7280,10290,10290,2,2,1626877749\ni:15072,281304,281304,1,1,1626877749\ni:13463,25200,28284,55,711,1626877749\ni:15749,2000000,2000000,2,2,1626877749\ni:24204,6000000,6000000,1,1,1626877749\ni:8389,76000,76000,1,1,1626877749\ni:3870,19800,19800,3,2,1626877749\ni:10021,329999,329999,3,3,1626877749\ni:12976,500000,500000,1,1,1626877749\ni:28496,100000,100000,3,3,1626877749\ni:13053,1003100,1003100,1,1,1626877749\ni:6046,6500000,6500000,1,1,1626877749\ni:25313,120000,120000,1,1,1626877749\ni:31672,22700,22964,13,75,1626877749\ni:9770,50000,50000,1,1,1626877749\ni:2553,99387,99387,4,4,1626877750\ni:24253,2000000,2000000,2,2,1626877749\ni:2583,38999,38999,1,1,1626877749\ni:4231,9900,9964,14,59,1626877749\ni:10421,37664,37664,1,1,1626877749\ni:19702,5099,8641,6,344,1626877749\ni:3847,454274,454274,1,1,1626877749\ni:15980,150000,150000,1,1,1626877749\ni:3712,995,1069,6,29,1626877749\ni:14562,100000,100000,1,1,1626877749\ni:24859,70000,70000,1,1,1626877749\ni:4795,100000,100000,4,4,1626877749\ni:1477,7199,7199,5,10,1626877749\ni:10314,500000,500000,3,3,1626877749\ni:6290,1000,1000,3,50,1626877749\ni:31203,300000,300000,1,1,1626877749\ni:23424,10400,10400,4,35,1626877749\ni:24193,6990000,6990000,4,4,1626877749\ni:811,998000,998000,2,2,1626877749\ni:4367,16690,16690,4,20,1626877749\ni:12775,1917576,1917576,1,1,1626877749\ni:21947,39999,39999,4,4,1626877749\ni:3530,74,74,4,70,1626877749\ni:22851,940000,944332,61,73,1626877750\ni:31305,247900,247900,5,5,1626877749\ni:25022,100000,100000,2,2,1626877749\ni:16249,2997500,2997500,2,2,1626877749\ni:10092,30000,30000,1,1,1626877749\ni:2742,2800,2800,5,5,1626877749\ni:23768,3899,3899,14,81,1626877749\ni:22373,9000,9416,23,142,1626877749\ni:2745,8000,8000,1,1,1626877749\ni:4311,112256,112256,1,1,1626877750\ni:3854,529196,529196,1,1,1626877749\ni:25301,160000,160000,6,6,1626877749\ni:2592,3899,4593,104,1975,1626877750\ni:25328,150000,150000,1,1,1626877749\ni:23530,5000000,5000000,2,2,1626877750\ni:6468,291400,291400,4,4,1626877749\ni:18984,1756847,1756847,1,1,1626877750\ni:13898,1000000,1000000,5,5,1626877749\ni:2310,14510,14510,1,1,1626877749\ni:24163,457000,457000,1,1,1626877750\ni:8213,3628582,3628582,5,5,1626877749\ni:25185,990000,990000,1,1,1626877749\ni:13479,200000,200000,1,1,1626877749\ni:4382,9700,9733,45,54,1626877749\ni:8189,728600,728600,2,2,1626877749\ni:24774,200000,200000,3,3,1626877750\ni:24219,3797500,3797500,4,4,1626877749\ni:28462,200000,200000,5,5,1626877749\ni:7758,350000,350000,1,1,1626877749\ni:15734,124999,124999,5,5,1626877749\ni:9300,99598,99598,3,3,1626877749\ni:6057,127500,127500,6,5,1626877750\ni:19699,6000,8894,6,392,1626877749\ni:11971,260000,260000,1,1,1626877749\ni:25907,4500000,4500000,2,2,1626877750\ni:4332,500000,500000,1,1,1626877749\ni:3195,23087,23087,3,3,1626877749\ni:23449,218798,218934,111,173,1626877750\ni:10393,499998,499998,6,6,1626877750\ni:29460,299000,299000,18,100,1626877750\ni:10562,18400,18471,17,141,1626877750\ni:23441,195000,214166,28,30,1626877749\ni:23482,241999,241999,2,2,1626877750\ni:24680,1500000,1500000,1,1,1626877749\ni:24969,56700,56700,1,1,1626877749\ni:13757,9600,9727,25,169,1626877750\ni:6328,29400,29500,8,8,1626877749\ni:24776,43000,43000,3,3,1626877750\ni:7728,100000,100000,5,4,1626877750\ni:4381,317549,317549,2,2,1626877749\ni:23807,242000,242000,4,4,1626877749\ni:4561,33333,33333,2,2,1626877749\ni:18661,900000,900000,2,2,1626877749\ni:12418,1074132,1074132,1,1,1626877749\ni:25655,289000,289000,5,5,1626877749\ni:12020,100000,100000,1,1,1626877749\ni:13102,385477,385477,1,1,1626877750\ni:6586,50499,50499,1,1,1626877749\ni:14044,114036,114036,2,2,1626877750\ni:25899,1897500,1899166,11,11,1626877749\ni:24870,40000,40000,3,3,1626877749\ni:20862,20000,37463,3,46,1626877750\ni:12644,1995,1998,21,130,1626877749\ni:24209,7300000,7300000,4,4,1626877750\ni:24815,750000,750000,3,3,1626877749\ni:4344,500000,500000,1,1,1626877749\ni:22831,115000,115000,22,123,1626877749\ni:16220,50000,50000,1,1,1626877749\ni:16646,8000,8000,1,1,1626877749\ni:3386,8699,8699,6,27,1626877750\ni:7282,20882,20882,2,2,1626877749\ni:8499,39960000,39960000,3,3,1626877750\ni:3486,4900,4900,5,21,1626877750\ni:10602,29999,29999,8,8,1626877750\ni:22456,579900,582442,108,210,1626877750\ni:24076,60000,60000,2,2,1626877749\ni:15356,90000,90000,1,1,1626877749\ni:10505,3000,3095,55,273,1626877749\ni:8387,3400,3400,1,1,1626877749\ni:24792,100000,100000,3,3,1626877750\ni:25284,70000,70000,7,7,1626877749\ni:21342,9500000,9500000,3,3,1626877750\ni:14634,249000,249000,4,4,1626877750\ni:25012,300000,300000,1,1,1626877749\ni:9318,12599,12599,11,53,1626877749\ni:38278,500000,500000,1,1,1626877749\ni:4496,4900,4900,1,1,1626877750\ni:25317,100000,100000,1,1,1626877749\ni:24795,120000,120000,5,5,1626877749\ni:2564,245553,245553,2,2,1626877750\ni:24833,349900,349900,2,2,1626877749\ni:9998,89500,89500,7,7,1626877749\ni:25659,290000,290000,1,1,1626877749\ni:12631,1481756,1481756,1,1,1626877749\ni:5498,4400,8977,18,103,1626877749\ni:2842,3333,8063,36,267,1626877750\ni:12426,204000,204333,13,13,1626877750\ni:10007,309634,309634,1,1,1626877749\ni:23515,299000,299000,13,13,1626877749\ni:24604,190000,190000,4,4,1626877749\ni:25720,98488,98488,5,5,1626877749\ni:15605,50000,50000,2,2,1626877750\ni:24275,2187499,2187499,7,7,1626877749\ni:16685,200000,200000,1,1,1626877749\ni:3239,1330,1330,4,20,1626877749\ni:15262,45000,45000,1,1,1626877749\ni:22841,599500,599500,1,5,1626877749\ni:11754,2900,3000,20,50,1626877749\ni:3473,49531,49531,2,2,1626877749\ni:25906,4007500,4007500,3,3,1626877750\ni:15064,2000000,2000000,2,2,1626877749\ni:14504,99998,99998,1,1,1626877749\ni:2632,5000,5000,2,2,1626877749\ni:24838,200000,200000,1,1,1626877749\ni:5540,111049,111049,1,1,1626877749\ni:4480,790,790,1,1,1626877749\ni:24196,5500000,5500000,4,4,1626877749\ni:7761,550000,550000,1,1,1626877750\ni:25322,155000,155000,5,5,1626877750\ni:818,1990,2210,51,125,1626877750\ni:9435,396561,396561,4,4,1626877750\ni:16650,23000,23000,3,3,1626877749\ni:18512,9900,9900,1,1,1626877749\ni:7077,41400,47760,48,427,1626877749\ni:31673,24700,25715,19,161,1626877750\ni:7969,20799,34625,29,29,1626877750\ni:31282,407000,407000,3,2,1626877749\ni:17010,83500,84000,14,37,1626877750\ni:2911,390000,390000,1,1,1626877750\ni:7964,42857,55845,7,49,1626877750\ni:6657,18000,26967,50,765,1626877749\ni:13010,300000,300000,2,2,1626877749\ni:24762,100000,100000,1,1,1626877749\ni:23821,2987500,2987500,9,9,1626877749\ni:1484,800000,800000,1,1,1626877750\ni:8152,740,740,4,16,1626877749\ni:18517,10000000,10000000,1,1,1626877749\ni:24900,50000,50000,4,4,1626877749\ni:11370,3200,4547,10,170,1626877749\ni:24728,500000,500000,1,1,1626877749\ni:15729,1000000,1000000,2,2,1626877749\ni:15581,5000,5000,1,1,1626877749\ni:15060,657066,657066,1,1,1626877749\ni:24760,60000,60000,2,2,1626877749\ni:7992,87500,87500,2,2,1626877749\ni:27668,3688,3688,8,45,1626877749\ni:12025,350000,350000,1,1,1626877749\ni:2870,710664,710664,1,1,1626877749\ni:6716,6800,6800,2,2,1626877749\ni:31501,2220000,2362783,9,8,1626877749\ni:29739,353000,356375,67,108,1626877749\ni:28100,1995,1997,5,19,1626877749\ni:19228,71000000,71000000,1,1,1626877749\ni:29372,3199999,3199999,2,2,1626877749\ni:27499,1635,1643,34,77,1626877750\ni:1314,100000,100000,1,1,1626877749\ni:6240,20000,20000,10,10,1626877749\ni:4832,200000,200000,1,1,1626877749\ni:8175,300000,300000,13,13,1626877750\ni:27661,250,269,28,250,1626877750\ni:25679,500000,500000,1,1,1626877749\ni:12226,125000,125000,4,4,1626877750\ni:2580,8378,8378,12,12,1626877750\ni:3489,82628,82628,1,1,1626877749\ni:1718,309000,309000,2,2,1626877749\ni:24968,500000,500000,1,1,1626877749\ni:22728,151499,151499,16,16,1626877749\ni:2245,1000000,1000000,1,1,1626877750\ni:11225,99500,99500,4,4,1626877749\ni:24888,200000,200000,1,1,1626877750\ni:27435,1990,2196,45,309,1626877749\ni:6522,19905,19905,10,29,1626877749\ni:22575,27400,28666,45,114,1626877749\ni:28467,29499,29499,6,6,1626877749\ni:729,1398,1398,1,5,1626877749\ni:8202,308560,308560,1,1,1626877749\ni:3302,10000,10000,2,2,1626877750\ni:10331,19800,19800,5,5,1626877749\ni:14109,30600,30600,1,1,1626877750\ni:24836,300000,300000,4,4,1626877749\ni:10514,37996,37996,8,62,1626877750\ni:23077,29399,29579,82,104,1626877749\ni:14943,200000,200000,1,1,1626877750\ni:14530,2398,2398,2,10,1626877749\ni:25115,200000,200000,1,1,1626877750\ni:11590,22000,22000,16,16,1626877750\ni:18652,49800,49800,4,4,1626877749\ni:31326,4880000,4880000,4,4,1626877749\ni:12163,298898,298898,3,3,1626877750\ni:18333,20000,20000,1,1,1626877749\ni:22866,1327500,1336666,62,62,1626877750\ni:29364,202998,202998,4,4,1626877749\ni:25052,60000,60000,5,5,1626877749\ni:24850,50000,50000,1,1,1626877749\ni:21898,103750,103750,4,4,1626877749\ni:23100,42399,42596,120,120,1626877749\ni:16827,0,0,1,0,1626877750\ni:28498,50000,50000,8,8,1626877750\ni:8006,520000,520000,1,1,1626877749\ni:22540,11960000,11960000,4,4,1626877749\ni:27678,3100,3100,51,416,1626877749\ni:24586,990000,990000,1,1,1626877750\ni:13051,255000,255000,3,3,1626877750\ni:13866,736450,736450,1,1,1626877749\ni:1981,500000,500000,1,1,1626877750\ni:25887,300000,300000,2,2,1626877750\ni:21949,249000,249000,1,1,1626877749\ni:24929,990000,990000,1,1,1626877749\ni:2584,24399,24399,6,6,1626877750\ni:32411,3800000,3800000,1,1,1626877750\ni:2300,23888,23888,2,2,1626877750\ni:7552,30000,30000,2,2,1626877749\ni:5483,115000,115000,5,5,1626877750\ni:24709,80000,80000,1,1,1626877749\ni:25428,11427,11427,1,1,1626877750\ni:21892,494000,494500,8,8,1626877749\ni:4552,5000,5000,1,6,1626877749\ni:25327,100000,100000,2,2,1626877750\ni:7947,745504,745504,2,2,1626877750\ni:25047,150000,150000,8,8,1626877750\ni:1713,250000,250000,3,3,1626877750\ni:24877,50500,50500,2,2,1626877750\ni:18232,290000,290000,3,14,1626877750\ni:2744,990,990,3,3,1626877750\ni:23736,14600,14803,48,408,1626877749\ni:14947,200000,200000,1,1,1626877749\ni:6375,1500000,1500000,1,1,1626877749\ni:12430,9800,9800,2,7,1626877749\ni:4794,200000,200000,1,1,1626877749\ni:25848,247000,247000,4,4,1626877749\ni:6413,200000,200000,1,1,1626877749\ni:1720,906000,906000,1,1,1626877749\ni:23147,500000,500000,3,3,1626877750\ni:15082,225168,225168,1,1,1626877750\ni:2735,3000,3000,5,5,1626877750\ni:3737,300000,300000,4,4,1626877749\ni:20974,29800,29800,5,5,1626877749\ni:31127,200000,200000,1,1,1626877749\ni:12231,57500,58000,11,11,1626877750\ni:6361,5000,5000,5,25,1626877749\ni:7933,537122,537122,4,4,1626877749\ni:24651,100000,100000,4,4,1626877749\ni:21933,46200,46200,2,2,1626877750\ni:7377,121000,121000,3,3,1626877750\ni:14184,50000,50000,1,1,1626877749\ni:4609,49000,49000,5,5,1626877750\ni:27502,1250,1260,18,34,1626877750\ni:2308,115280,115280,2,2,1626877749\ni:22565,293000,293999,10,10,1626877749\ni:24203,3695000,3695000,4,4,1626877750\ni:17057,1950,1961,28,236,1626877749\ni:10033,280872,280872,1,1,1626877750\ni:10307,5900,5900,3,7,1626877749\ni:24721,750000,750000,1,1,1626877749\ni:15846,299900,299900,2,2,1626877749\ni:31294,239000,239000,6,5,1626877749\ni:7424,23000,23000,1,1,1626877749\ni:19051,2448467,2448467,1,1,1626877749\ni:13059,1000000,1000000,1,1,1626877749\ni:6601,100000,100000,1,1,1626877750\ni:15372,80000,80000,2,2,1626877749\ni:24212,6990000,6990000,2,2,1626877749\ni:24797,250000,250000,1,1,1626877749\ni:7065,28776,28776,1,1,1626877749\ni:25104,200000,200000,3,3,1626877750\ni:2697,500000,500000,3,3,1626877749\ni:10028,312982,312982,1,1,1626877749\ni:20075,30000,30000,6,6,1626877749\ni:24932,300000,300000,1,1,1626877750\ni:24674,300000,300000,2,2,1626877749\ni:24819,350000,350000,1,1,1626877749\ni:6310,20000,20000,6,6,1626877749\ni:4712,105000,105000,1,1,1626877749\ni:7056,27768,27768,1,1,1626877749\ni:15310,20000,20000,1,1,1626877749\ni:13864,695404,695404,1,1,1626877749\ni:6043,97342,97342,5,20,1626877750\ni:24739,400000,400000,2,2,1626877750\ni:955,2700,2700,1,1,1626877749\ni:3729,6000,6000,1,7,1626877749\ni:15993,36000,36000,12,118,1626877749\ni:7729,399000,399000,1,1,1626877749\ni:24603,300000,300000,2,2,1626877749\ni:24862,59500,59500,5,5,1626877749\ni:12424,149500,199449,21,21,1626877750\ni:13022,1809997,1809997,2,2,1626877749\ni:25053,59900,59900,3,3,1626877749\ni:16000,98000,98000,22,28,1626877750\ni:7945,1995000,1995000,8,8,1626877749\ni:12433,10000,10000,1,2,1626877750\ni:27666,10000,10464,46,340,1626877750\ni:31175,159499,159499,2,2,1626877750\ni:4252,88096,88096,3,3,1626877749\ni:18238,773588,773588,1,1,1626877749\ni:25217,886112,886112,1,1,1626877749\ni:24911,250000,250000,1,1,1626877749\ni:31277,330000,339500,7,7,1626877749\ni:10306,4600,4700,8,17,1626877749\ni:2304,500,500,9,89,1626877750\ni:23494,254999,254999,10,10,1626877749\ni:15219,400000,400000,1,1,1626877750\ni:25028,50889,50889,1,1,1626877750\ni:24575,900000,900000,2,2,1626877749\ni:12436,44900,44900,1,2,1626877749\ni:24931,100000,100000,1,1,1626877749\ni:6051,39799,39799,4,20,1626877749\ni:8193,99500,100000,48,48,1626877750\ni:21301,499999,499999,1,1,1626877749\ni:29157,189797,189797,9,9,1626877750\ni:10558,879,880,53,76,1626877749\ni:31289,2490000,2490000,5,5,1626877749\ni:4076,0,0,1,0,1626877749\ni:13041,198000,198000,1,1,1626877749\ni:24915,2000000,2000000,1,1,1626877749\ni:31151,450000,450000,4,4,1626877749\ni:28492,450000,450000,3,3,1626877749\ni:15656,50000,50000,1,1,1626877749\ni:12217,8698,8698,14,58,1626877750\ni:12713,18999,18999,11,10,1626877749\ni:20746,36400,36400,1,1,1626877750\ni:16735,100000,100000,3,3,1626877749\ni:25189,500000,500000,1,1,1626877749\ni:33824,39800,39999,14,248,1626877749\ni:22448,83200,84080,104,120,1626877749\ni:24895,50000,50000,4,4,1626877750\ni:24793,180000,180000,1,1,1626877749\ni:24894,100000,100000,4,4,1626877749\ni:15514,50000,50000,1,1,1626877749\ni:25304,100000,100000,5,5,1626877749\ni:24368,70500,79999,129,2211,1626877749\ni:1625,50000,50000,2,2,1626877749\ni:9391,6120000,6120000,1,1,1626877749\ni:13863,83590,83590,1,1,1626877749\ni:31258,450000,450000,2,2,1626877749\ni:8397,8500,8500,4,4,1626877749\ni:2099,2120000,2120000,1,1,1626877749\ni:6660,550000,550000,1,1,1626877749\ni:4718,0,0,1,0,1626877749\ni:9774,60000,60000,2,2,1626877749\ni:20865,9900,37433,11,53,1626877749\ni:24840,100000,100000,6,6,1626877750\ni:9301,341950,341950,4,4,1626877749\ni:20954,188883,188883,2,2,1626877749\ni:6348,49800,49800,1,1,1626877749\ni:32068,37000,37171,5,25,1626877750\ni:4603,31,634,14,233,1626877749\ni:10510,511112,511112,1,1,1626877749\ni:13114,990000,990000,1,1,1626877750\ni:6609,214800,214800,1,1,1626877749\ni:2852,36856,36856,4,4,1626877750\ni:24938,100000,100000,1,1,1626877749\ni:23624,8880000,8880000,1,1,1626877749\ni:6597,170700,170700,1,1,1626877750\ni:14552,1000000,1000000,1,1,1626877749\ni:9780,30000,30000,3,3,1626877749\ni:27684,20000,20000,1,1,1626877749\ni:14483,104500,104500,4,4,1626877749\ni:5488,122000,122000,4,4,1626877749\ni:7359,273280,273280,1,1,1626877750\ni:13032,409000,409000,1,1,1626877750\ni:10025,143244,143244,1,1,1626877749\ni:7920,1214184,1214184,1,1,1626877750\ni:24695,50000,50000,1,1,1626877749\ni:4374,9599,9599,7,53,1626877750\ni:15758,999000,999000,2,2,1626877749\ni:21900,149500,149500,2,2,1626877749\ni:24215,2500000,2500000,3,3,1626877749\ni:7409,200000,200000,1,1,1626877749\ni:2633,1470,1470,1,1,1626877749\ni:14795,19999,19999,2,2,1626877750\ni:10323,500000,500000,3,3,1626877749\ni:9922,200000,200000,1,1,1626877749\ni:9822,119200,119200,1,1,1626877749\ni:5643,488000,488000,8,8,1626877749\ni:7927,2000000,2000000,4,4,1626877750\ni:10279,500000,500000,1,1,1626877749\ni:13457,24600,25113,23,97,1626877749\ni:21099,29399,29399,5,5,1626877749\ni:2699,500000,500000,3,3,1626877750\ni:24878,50000,50000,3,3,1626877749\ni:4397,1000000,1000000,2,2,1626877749\ni:10503,283997,283999,26,26,1626877749\ni:24844,50000,50000,3,3,1626877749\ni:10086,39000,39000,1,1,1626877749\ni:31280,479900,479900,3,3,1626877749\ni:3484,110430,110430,1,1,1626877749\ni:5640,119088,119529,10,10,1626877749\ni:13060,996000,996000,1,1,1626877749\ni:14469,39800,39800,5,5,1626877749\ni:7449,5000,5000,2,2,1626877749\ni:13464,7700,8739,35,399,1626877749\ni:13125,699000,699000,2,2,1626877750\ni:7348,40000,40000,2,2,1626877749\ni:15248,30000,30000,3,3,1626877749\ni:32902,9999,10266,18,71,1626877749\ni:31140,1110000,1110000,1,1,1626877749\ni:15752,50000,50000,1,1,1626877750\ni:3846,364291,364291,1,1,1626877749\ni:20747,4500,4500,3,3,1626877749\ni:31554,500000,500000,6,6,1626877750\ni:28421,87500,88172,38,99,1626877749\ni:3823,26800,27208,23,103,1626877749\ni:24980,80000,80000,1,1,1626877750\ni:29548,127000,127227,81,708,1626877749\ni:8209,3319566,3319566,1,1,1626877749\ni:29725,1009999,1009999,3,3,1626877749\ni:10051,12000,12000,9,9,1626877749\ni:14253,50000,50000,1,1,1626877749\ni:7936,2000000,2000000,4,4,1626877750\ni:24816,850000,850000,3,3,1626877749\ni:1529,10000,40624,64,229,1626877749\ni:13117,440000,440000,1,1,1626877749\ni:27685,128499,128499,4,4,1626877749\ni:16023,356999,356999,12,28,1626877749\ni:19768,10000,10000,1,20,1626877749\ni:7485,200000,200000,1,1,1626877749\ni:31186,600733,600733,1,1,1626877749\ni:2840,1900,2186,101,1481,1626877750\ni:10162,290000,290000,1,1,1626877749\ni:13122,499000,499000,4,4,1626877749\ni:24985,50000,50000,3,3,1626877749\ni:5573,6900,6900,3,2,1626877750\ni:21753,807998,807998,9,9,1626877749\ni:6053,29999,29999,10,9,1626877749\ni:9956,200000,200000,1,1,1626877749\ni:25027,300000,300000,1,1,1626877749\ni:23079,21199,22522,99,124,1626877749\ni:12029,250000,250000,2,2,1626877749\ni:31080,1177777,1177777,5,5,1626877750\ni:6303,247,247,5,42,1626877749\ni:15162,90000,90000,1,1,1626877749\ni:24702,320000,320000,1,1,1626877749\ni:31287,490000,490000,3,3,1626877749\ni:4796,100000,100000,2,2,1626877749\ni:3859,30000,31999,48,822,1626877749\ni:34482,1001970,1001970,3,3,1626877750\ni:25909,89999999,89999999,2,2,1626877750\ni:4233,9700,9733,23,32,1626877749\ni:23148,500000,500000,3,3,1626877750\ni:6371,3899,3999,18,92,1626877749\ni:27516,1890,1895,27,38,1626877750\ni:18704,50000000,50000000,1,1,1626877749\ni:9856,70000,70000,2,2,1626877750\ni:8766,500,500,12,240,1626877750\ni:32062,24000,24000,57,253,1626877750\ni:32413,14400,14618,50,184,1626877749\ni:25905,7000000,7000000,1,1,1626877749\ni:774,685,693,52,52,1626877749\ni:19767,4199,4199,2,6,1626877750\ni:15090,1973040,1973040,1,1,1626877750\ni:25288,100000,100000,3,3,1626877749\ni:2194,195000,195000,3,3,1626877749\ni:30810,23400,23946,99,1077,1626877749\ni:25295,200000,200000,7,7,1626877749\ni:15521,45000,45000,1,1,1626877749\ni:5571,800,800,1,1,1626877749\ni:16864,5000000,5000000,2,1,1626877749\ni:13455,44228,44228,28,140,1626877749\ni:16223,9970000,9970000,2,2,1626877749\ni:23504,1516564,1516564,2,2,1626877749\ni:4765,100000,100000,6,6,1626877749\ni:24952,100000,100000,3,3,1626877749\ni:25890,4799998,4799999,10,10,1626877749\ni:3396,1500000,1500000,1,1,1626877749\ni:31340,8880000,8880000,1,1,1626877749\ni:12820,14200,14266,3,12,1626877750\ni:4596,2499,2499,1,1,1626877749\ni:24078,180000,200176,26,26,1626877749\ni:21884,657000,692133,71,89,1626877749\ni:19821,97499,97499,4,4,1626877749\ni:14526,39999,39999,7,7,1626877750\ni:20832,300000,300000,7,7,1626877749\ni:5787,39800,39800,6,5,1626877749\ni:2951,790000,790000,1,1,1626877749\ni:24937,600000,600000,1,1,1626877749\ni:4317,352618,352618,1,1,1626877749\ni:13287,118500,118500,4,4,1626877749\ni:13288,500000,500000,3,3,1626877749\ni:22446,48000,48199,81,374,1626877749\ni:4409,950000,950000,2,2,1626877750\ni:6052,5898,5900,19,88,1626877749\ni:24635,500000,500000,1,1,1626877749\ni:1180,134000,134000,1,2,1626877750\ni:24958,100000,100000,2,2,1626877749\ni:22789,109500,111481,51,586,1626877749\ni:32833,16000,16916,29,29,1626877749\ni:18647,58999,58999,4,4,1626877749\ni:24682,300000,300000,2,2,1626877749\ni:7957,1000000,1000000,4,4,1626877750\ni:11134,2998,6534,69,339,1626877749\ni:11202,303000,303000,2,2,1626877749\ni:8210,182062,182062,3,3,1626877749\ni:35562,18400,18499,7,34,1626877749\ni:22788,15200,15634,102,459,1626877749\ni:21861,230000,236666,22,22,1626877749\ni:12227,1999998,1999998,1,1,1626877749\ni:25303,100000,100000,6,6,1626877750\ni:27659,9299,9299,16,98,1626877750\ni:4347,49999,49999,1,1,1626877749\ni:34330,38000,44553,41,51,1626877750\ni:6214,163580,163580,1,1,1626877750\ni:2800,790000,790000,1,1,1626877749\ni:16048,9700,9700,2,2,1626877750\ni:14635,125499,125499,6,6,1626877749\ni:13858,418829,418829,1,1,1626877749\ni:5071,50000,50000,1,1,1626877749\ni:6333,50000,50000,1,1,1626877749\ni:21863,810000,810000,8,8,1626877750\ni:18638,3057348,3057348,1,1,1626877749\ni:20749,290000,291047,142,142,1626877749\ni:25292,90000,95000,14,13,1626877749\ni:24665,150000,150000,4,4,1626877750\ni:31321,11000000,11000000,1,1,1626877749\ni:2163,999000,999000,2,2,1626877749\ni:25198,200000,200000,1,1,1626877749\ni:13034,1200000,1200000,2,2,1626877749\ni:8491,1098750,1098750,1,1,1626877749\ni:20823,50000,50000,3,3,1626877749\ni:22572,78000,79277,42,132,1626877749\ni:9172,46888,46888,11,55,1626877749\ni:24255,30000000,30000000,1,1,1626877749\ni:15725,280699,280699,3,3,1626877749\ni:15084,24700,24806,56,55,1626877750\ni:16050,500000,500000,2,2,1626877749\ni:25069,250000,250000,5,5,1626877750\ni:29727,4500000,4500000,1,1,1626877750\ni:3832,152000,152000,3,3,1626877750\ni:16111,69500,69500,9,9,1626877749\ni:24917,300000,300000,1,1,1626877749\ni:31318,4997500,4997500,4,4,1626877749\ni:11404,1923,1923,1,1,1626877749\ni:4401,455997,455997,2,2,1626877750\ni:3678,500000,500000,3,3,1626877749\ni:6663,466565,466565,4,4,1626877749\ni:15388,30000,30000,1,1,1626877750\ni:20858,20000,35703,3,45,1626877750\ni:9293,58500,58500,6,6,1626877749\ni:21790,170000,170000,2,2,1626877749\ni:24621,100000,100000,2,2,1626877749\ni:11608,3133896,3133896,3,3,1626877749\ni:24848,80000,80000,4,4,1626877749\ni:24605,56070,56070,3,3,1626877750\ni:31670,30000,30606,43,95,1626877749\ni:25103,120000,120000,1,1,1626877749\ni:15414,20000,20000,1,10,1626877749\ni:12009,150000,150000,1,1,1626877750\ni:24243,2200,2484,61,1071,1626877749\ni:24726,50000,50000,2,2,1626877749\ni:8068,53,53,10,2000,1626877749\ni:13466,18800,20554,35,490,1626877750\ni:8839,9900,9948,44,510,1626877749\ni:33866,27299,27344,40,180,1626877749\ni:12800,90000,103680,21,21,1626877749\ni:4306,273,385,141,2593,1626877749\ni:25719,23800,23923,50,115,1626877749\ni:14042,298268,298268,1,1,1626877750\ni:15477,30300,30300,1,1,1626877750\ni:25334,150000,150000,4,4,1626877749\ni:4357,94,97,77,366,1626877749\ni:20869,56000,56000,2,8,1626877750\ni:8185,886692,886692,2,2,1626877749\ni:8225,439000,439000,3,3,1626877749\ni:24837,350000,350000,2,2,1626877750\ni:25188,250000,250000,1,1,1626877749\ni:5957,17565,17565,1,1,1626877750\ni:23141,500000,500000,3,3,1626877749\ni:29958,405050,405050,4,4,1626877749\ni:10938,1495,1592,38,49,1626877750\ni:23784,503000,503428,20,26,1626877749\ni:8385,74000,74000,4,4,1626877749\ni:5465,57,57,1,1,1626877749\ni:21855,50000,50000,7,7,1626877750\ni:12042,290000,290000,2,2,1626877749\ni:20860,4900,4975,3,15,1626877750\ni:24199,13790000,13790000,2,2,1626877750\ni:8165,13400,13466,8,21,1626877749\ni:28103,30499,30499,17,100,1626877749\ni:31226,500000,500000,5,5,1626877749\ni:24677,80000,80000,5,5,1626877749\ni:13490,29000,29200,10,10,1626877749\ni:31338,19999999,19999999,2,1,1626877750\ni:14104,625590,625590,1,1,1626877749\ni:4060,60000,60000,1,1,1626877750\ni:31286,500000,500000,1,1,1626877749\ni:16202,39600,47188,15,68,1626877749\ni:10398,29990000,29990000,2,2,1626877749\ni:4319,46056,46056,1,1,1626877749\ni:4339,58500,58625,6,15,1626877749\ni:24048,938999,941076,46,46,1626877749\ni:24290,15400,15400,2,20,1626877749\ni:13756,9900,9957,3,41,1626877749\ni:24304,3002000,3002000,2,2,1626877749\ni:2059,330000,330000,4,4,1626877749\ni:10316,1400000,1400000,2,2,1626877750\ni:24059,985894,987478,37,37,1626877749\ni:6536,48799,48799,2,2,1626877750\ni:21213,19800,19800,2,20,1626877749\ni:20520,704000,704312,52,61,1626877750\ni:3740,20000,20000,1,1,1626877750\ni:21894,498999,498999,7,7,1626877749\ni:12364,130000,137000,17,16,1626877749\ni:32410,5419999,5419999,6,6,1626877749\ni:4304,17500,23659,18,211,1626877749\ni:24667,50000,50000,5,5,1626877749\ni:6377,28999,28999,5,5,1626877749\ni:31878,9490000,9490000,4,4,1626877750\ni:21844,118500,118750,8,8,1626877749\ni:7912,467,487,62,1021,1626877749\ni:18360,197000,197000,3,3,1626877749\ni:12978,451200,451200,1,1,1626877750\ni:6889,8888,8888,11,54,1626877749\ni:16247,12000000,12000000,1,1,1626877750\ni:3844,1004196,1004196,1,1,1626877749\ni:25110,91100,91100,1,1,1626877749\ni:4337,1095,1103,15,53,1626877749\ni:4412,4500000,4500000,1,1,1626877750\ni:8223,1100000,1100000,1,1,1626877749\ni:4293,15000,15000,4,4,1626877750\ni:13046,450000,450000,2,2,1626877749\ni:27515,15999,15999,18,18,1626877749\ni:24507,37399,38599,3,22,1626877749\ni:20870,59999,59999,1,1,1626877749\ni:24671,150000,150000,6,6,1626877750\ni:20758,80000,80000,6,6,1626877750\ni:6370,22600,22600,14,47,1626877749\ni:25127,102200,102200,1,1,1626877749\ni:24963,170000,170000,1,1,1626877750\ni:11139,1533,1748,47,117,1626877749\ni:7727,199500,199500,5,5,1626877749\ni:13512,948999,948999,12,12,1626877749\ni:25895,2947499,2947499,12,12,1626877749\ni:15409,49888,49964,30,64,1626877749\ni:2289,5400,5400,5,9,1626877750\ni:12365,497,610,75,1343,1626877750\ni:12408,565999,565999,9,9,1626877749\ni:8214,209139,209139,5,5,1626877749\ni:22576,48800,49371,18,52,1626877749\ni:29201,38999,38999,5,5,1626877749\ni:25009,300000,300000,2,2,1626877749\ni:4387,17600,18083,24,45,1626877750\ni:14188,35000,35000,2,2,1626877749\ni:5574,1500,1500,1,1,1626877750\ni:7285,90136,90136,2,2,1626877749\ni:23090,379999,379999,1,1,1626877749\ni:16009,2440193,2440193,1,1,1626877750\ni:19272,104499,104499,4,4,1626877750\ni:12035,350000,350000,2,2,1626877749\ni:23104,3300,3450,15,15,1626877749\ni:15755,39999,39999,3,3,1626877750\ni:23514,339000,339000,5,5,1626877750\ni:6372,41800,42000,6,27,1626877749\ni:5116,394,394,3,7,1626877750\ni:15370,90000,90000,2,2,1626877750\ni:21953,29200,29200,3,3,1626877749\ni:24801,45000,45000,1,1,1626877749\ni:7754,229000,229000,4,4,1626877750\ni:24663,150000,150000,5,5,1626877749\ni:31284,300000,300000,1,1,1626877750\ni:24867,160000,160000,1,1,1626877749\ni:31198,1501245,1501245,1,1,1626877750\ni:5972,21100,21100,1,1,1626877750\ni:13447,9200,9259,15,26,1626877749\ni:19264,150000,150000,1,1,1626877749\ni:14571,21450,21450,1,1,1626877750\ni:24886,250000,250000,1,1,1626877749\ni:4837,200000,200000,2,2,1626877749\ni:29730,2747500,2747500,3,2,1626877749\ni:7448,100000,100000,1,1,1626877749\ni:11078,5650,5650,1,4,1626877750\ni:2996,1560,1564,14,61,1626877749\ni:4309,18800,19600,11,11,1626877749\ni:15049,2953060,2953060,1,1,1626877749\ni:24662,158000,158000,3,3,1626877750\ni:2589,250,446,125,2391,1626877750\ni:25062,200000,200000,3,3,1626877750\ni:21071,10000,10000,4,71,1626877749\ni:7913,261060,261060,1,1,1626877749\ni:13890,910,910,3,24,1626877749\ni:4781,100000,100000,4,4,1626877749\ni:23484,106000,106000,14,14,1626877749\ni:24627,80000,80000,2,2,1626877750\ni:25291,400000,400000,1,1,1626877749\ni:15270,50000,50000,1,1,1626877750\ni:24062,142999,144532,51,51,1626877750\ni:22827,74000,74000,40,76,1626877749\ni:16221,280000,283000,8,8,1626877749\ni:2675,2000,2000,2,4,1626877749\ni:1204,1650000,1650000,3,3,1626877749\ni:25299,72300,72300,10,10,1626877750\ni:3206,65000,65000,2,2,1626877749\ni:13454,97999,97999,57,212,1626877749\ni:2698,500000,500000,3,3,1626877749\ni:24274,6850000,6850000,5,5,1626877749\ni:13468,944000,993736,13,63,1626877749\ni:21768,600000,600000,3,3,1626877749\ni:22891,49600,49600,2,2,1626877749\ni:24031,2044999,2047499,28,28,1626877749\ni:4405,23619,23619,3,3,1626877749\ni:19259,29800,29800,2,2,1626877750\ni:6612,111200,111200,1,1,1626877750\ni:6394,23100,23100,1,1,1626877749\ni:15061,831862,831862,2,2,1626877749\ni:30748,500000,500000,2,2,1626877749\ni:2290,1995,1995,2,3,1626877750\ni:790,201999,201999,1,1,1626877749\ni:18588,4450,6493,5,30,1626877749\ni:3039,50000,50000,1,1,1626877750\ni:11290,190000,190000,1,1,1626877749\ni:2098,350000,350000,1,1,1626877750\ni:4378,6899,6899,4,60,1626877750\ni:25186,150000,150000,3,3,1626877750\ni:6049,8699,8699,7,34,1626877749\ni:22553,5990000,5990000,4,4,1626877750\ni:4294,1985,1985,1,1,1626877750\ni:25055,60000,60000,10,10,1626877749\ni:10285,1039,1040,19,99,1626877750\ni:14367,24500,24500,1,1,1626877749\ni:31149,799999,799999,4,4,1626877749\ni:15973,30000,30000,1,1,1626877750\ni:31291,279000,279500,8,8,1626877749\ni:24652,45000,45000,2,2,1626877749\ni:24697,50000,50000,1,1,1626877749\ni:6474,20000,20000,5,5,1626877749\ni:16059,97999,97999,2,2,1626877750\ni:25242,150000,150000,1,1,1626877749\ni:25107,100000,100000,1,1,1626877750\ni:7386,663154,663154,1,1,1626877749\ni:13943,35999,35999,4,4,1626877749\ni:18656,91999,91999,2,2,1626877749\ni:4392,137999,138000,13,30,1626877749\ni:25003,80000,80000,3,3,1626877749\ni:23111,3700,3750,26,26,1626877749\ni:1721,330583,330583,1,1,1626877749\ni:754,480000,480000,1,1,1626877750\ni:25026,200000,200000,1,1,1626877749\ni:24768,50000,50000,2,2,1626877749\ni:4234,8400,9790,28,212,1626877749\ni:4695,50000,50000,1,1,1626877749\ni:23137,500000,500000,3,3,1626877749\ni:24590,600000,600000,1,1,1626877750\ni:18631,393999,393999,11,11,1626877749\ni:19282,196999,196999,2,2,1626877749\ni:25320,98200,98200,6,6,1626877749\ni:15746,43000,43000,3,3,1626877749\ni:1685,48800,48800,2,1,1626877750\ni:7479,110000,110000,2,1,1626877749\ni:13467,2500,2835,27,507,1626877749\ni:2454,133,133,5,26,1626877749\ni:3829,8500,8749,35,61,1626877749\ni:10501,634383,634383,1,1,1626877749\ni:22913,21500000,21500000,2,2,1626877749\ni:10329,29800,29800,6,4,1626877750\ni:20958,79999,79999,3,3,1626877749\ni:8217,319999,319999,8,8,1626877750\ni:28595,28399,28399,19,19,1626877749\ni:22148,3998,3998,1,20,1626877750\ni:8211,355034,355034,3,3,1626877750\ni:12632,3551212,3551212,2,2,1626877749\ni:22838,288888,289999,42,208,1626877749\ni:15076,390318,390318,1,1,1626877750\ni:25218,100000,100000,1,1,1626877750\ni:21775,70000,80000,27,27,1626877750\ni:25287,100000,100000,11,11,1626877749\ni:3470,280,287,16,143,1626877749\ni:21887,7000,7647,58,905,1626877749\ni:3187,150000,150000,1,1,1626877749\ni:19270,19400,19400,2,2,1626877749\ni:9797,152800,152800,1,1,1626877749\ni:2869,149970,149970,2,2,1626877749\ni:1475,7500,7500,1,1,1626877749\ni:27855,6300,6300,4,6,1626877749\ni:13024,200000,200000,1,1,1626877749\ni:24752,100000,100000,3,3,1626877749\ni:28458,29499,29499,7,7,1626877749\ni:12797,30144056,30144056,1,1,1626877750\ni:24997,80000,80000,2,2,1626877749\ni:13545,9777,9777,2,36,1626877749\ni:9889,35000,35000,1,1,1626877749\ni:23426,79499,88838,64,270,1626877749\ni:14508,97000,97000,1,1,1626877749\ni:7517,105000,105000,1,1,1626877749\ni:7453,1980,1980,2,2,1626877749\ni:24991,250000,250000,1,1,1626877749\ni:4096,990,990,2,3,1626877749\ni:25000,183000,183000,3,3,1626877749\ni:24039,588000,590249,33,33,1626877749\ni:2836,299,335,51,801,1626877749\ni:30477,9800,9800,1,3,1626877749\ni:18363,102500,102500,3,3,1626877749\ni:3491,193432,193432,1,1,1626877750\ni:21867,239000,239666,11,11,1626877749\ni:7916,502036,502036,1,1,1626877750\ni:9864,30000,30000,1,1,1626877749\ni:4407,211996,211996,7,7,1626877749\ni:17723,500000,500000,1,1,1626877750\ni:15336,33000,33000,2,2,1626877749\ni:28469,200000,200000,5,5,1626877749\ni:20961,110000,120000,26,26,1626877750\ni:6467,400770,400770,1,1,1626877749\ni:12683,100000,100000,1,1,1626877750\ni:4257,328375,328375,2,2,1626877749\ni:23113,36600,36786,43,43,1626877749\ni:14103,106591,106591,2,2,1626877750\ni:15761,69499,69499,3,3,1626877750\ni:25200,50000,50000,1,1,1626877749\ni:27503,24800,27449,25,34,1626877749\ni:17682,109500,109500,2,2,1626877750\ni:15166,90000,90000,3,3,1626877749\ni:12409,2390188,2390188,1,1,1626877749\ni:12251,500000,500000,4,4,1626877749\ni:3357,250,252,40,359,1626877749\ni:4320,535468,535468,1,1,1626877750\ni:31339,13499999,13499999,4,3,1626877750\ni:24655,200000,200000,2,2,1626877749\ni:15213,50000,50000,1,1,1626877749\ni:21945,149500,149500,3,3,1626877750\ni:6568,50000,50000,1,1,1626877749\ni:4232,8900,8900,6,26,1626877749\ni:3730,5188,5200,7,42,1626877749\ni:5489,238999,238999,5,5,1626877750\ni:24800,60000,60000,2,2,1626877750\ni:19774,29200,29200,28,47,1626877749\ni:24835,60000,60000,2,2,1626877750\ni:24631,0,0,1,0,1626877749\ni:10392,499998,499998,6,6,1626877750\ni:23742,119500,119500,8,8,1626877749\ni:20856,29800,29900,8,8,1626877749\ni:13134,299000,299000,2,2,1626877749\ni:2835,45,74,61,1062,1626877749\ni:23559,79068,79068,3,15,1626877749\ni:21277,5000000,5000000,1,1,1626877749\ni:14342,128571,136760,27,79,1626877749\ni:3681,500000,500000,3,3,1626877749\ni:10009,134912,134912,2,2,1626877749\ni:15579,35000,35000,1,1,1626877749\ni:17708,6390,6390,37,185,1626877749\ni:31222,259000,259000,1,1,1626877749\ni:6326,500000,500000,3,3,1626877750\ni:25192,500000,500000,1,1,1626877749\ni:4039,29500,29500,1,1,1626877749\ni:31147,109500,109500,6,6,1626877749\ni:31578,0,0,1,0,1626877749\ni:3020,249900,249900,4,4,1626877749\ni:4323,78654,78654,1,1,1626877749\ni:13871,161232,161232,1,1,1626877749\ni:21954,145500,145833,12,12,1626877749\ni:7374,142091,142091,2,2,1626877749\ni:13007,499899,499899,1,1,1626877749\ni:13946,101499,101499,4,4,1626877749\ni:783,105,106,7,48,1626877749\ni:3490,137122,137122,2,2,1626877749\ni:25130,200000,200000,2,2,1626877749\ni:4067,29000,29000,1,1,1626877749\ni:12184,4200,4367,29,214,1626877749\ni:11082,9899,9899,32,69,1626877749\ni:7451,92000,92000,6,6,1626877749\ni:28468,199500,199500,7,7,1626877749\ni:13016,249000,249000,2,2,1626877749\ni:7613,500000,500000,3,3,1626877749\ni:7069,14199,14222,14,68,1626877749\ni:5503,8036,8036,2,20,1626877749\ni:24975,150000,150000,2,2,1626877749\ni:13932,9700,9730,4,55,1626877749\ni:24940,100000,100000,2,2,1626877749\ni:3575,8333,9055,93,956,1626877749\ni:4564,5000,5000,4,4,1626877749\ni:13941,39999,39999,8,8,1626877749\ni:14138,257260,257260,2,2,1626877749\ni:2457,54999,54999,3,15,1626877749\ni:15422,19800,19800,2,15,1626877749\ni:13897,500000,500000,5,5,1626877749\ni:24725,150000,150000,2,2,1626877749\ni:34207,870000,870000,3,3,1626877749\ni:15412,990,990,1,8,1626877749\ni:1015,910,910,5,38,1626877749\ni:23883,9990000,9990000,1,1,1626877749\ni:24641,100000,100000,2,2,1626877749\ni:11407,1240,1240,1,1,1626877749\ni:4065,15000,15000,1,1,1626877749\ni:29535,7940000,7943333,12,12,1626877749\ni:24841,60000,60000,4,4,1626877749\ni:25092,50000,50000,1,1,1626877749\ni:21779,999800,999800,1,1,1626877749\ni:7279,9575,9575,5,5,1626877749\ni:21860,280000,280000,2,2,1626877749\ni:29723,4800000,4800000,2,2,1626877749\ni:15559,40000,40000,1,1,1626877749\ni:4242,17684,17684,2,2,1626877749\ni:9952,90000,90000,1,1,1626877749\ni:37915,496999,496999,2,2,1626877749\ni:24720,50000,50000,3,3,1626877749\ni:4379,50999,50999,1,1,1626877749\ni:6591,50000,50000,1,1,1626877749\ni:15073,276690,276690,1,1,1626877749\ni:7520,50000,50000,1,1,1626877749\ni:27664,3400,3599,30,310,1626877749\ni:27438,14599,14653,14,123,1626877750\ni:18262,139999,140167,69,318,1626877749\ni:3387,3900,3958,15,65,1626877749\ni:15564,7700,7700,19,37,1626877749\ni:8224,0,0,1,0,1626877749\ni:15234,38000,38000,1,1,1626877749\ni:3576,3100,3925,65,1185,1626877749\ni:7741,1000000,1000000,1,1,1626877749\ni:6475,30400,30400,5,5,1626877749\ni:8498,49990000,49990000,1,1,1626877749\ni:1715,369999,369999,6,6,1626877749\ni:24268,2400,2400,1,6,1626877749\ni:24846,50000,50000,4,4,1626877749\ni:4426,14400,14700,12,17,1626877749\ni:8292,200000,200000,1,1,1626877749\ni:23354,19200,19200,2,4,1626877749\ni:20875,1000000,1000000,1,1,1626877749\ni:2316,152038,152038,10,10,1626877749\ni:15287,80000,80000,1,1,1626877749\ni:12643,3899,3899,4,20,1626877749\ni:13047,1507323,1507323,1,1,1626877749\ni:23804,0,0,1,0,1626877749\ni:14252,65000,65000,2,2,1626877749\ni:25867,2064999,2067083,23,23,1626877749\ni:24678,290000,290000,4,4,1626877749\ni:20879,31400,31400,7,35,1626877749\ni:13101,880000,880000,1,1,1626877749\ni:6039,85499,85499,8,8,1626877749\ni:13311,54499,54499,2,2,1626877749\ni:24735,550000,550000,1,1,1626877749\ni:7046,50000,50000,1,1,1626877749\ni:7189,377999,377999,4,4,1626877750\ni:5507,82499,82499,1,1,1626877749\ni:2576,500000,500000,1,1,1626877749\ni:6602,30000,30000,2,2,1626877749\ni:1725,14599,14599,8,7,1626877749\ni:5469,1960,1960,1,8,1626877749\ni:16110,39600,39600,11,11,1626877749\ni:33185,5990000,5990000,2,2,1626877749\ni:25846,54497,54497,4,4,1626877749\ni:18662,86999,87000,5,21,1626877749\ni:6272,10000,10000,5,5,1626877749\ni:5134,1490,1490,2,7,1626877749\ni:23762,581694,801000,21,21,1626877749\ni:24657,100000,100000,3,3,1626877749\ni:14204,90000,90000,1,1,1626877749\ni:15773,200000,200000,1,1,1626877749\ni:4330,50899,50899,5,5,1626877749\ni:38082,15899999,15899999,5,5,1626877749\ni:20821,35444,35444,2,2,1626877749\ni:13124,150000,150000,1,1,1626877749\ni:31133,994000,994000,4,4,1626877749\ni:24869,100000,100000,1,1,1626877749\ni:25298,80000,90000,10,10,1626877749\ni:2997,4800,6851,20,82,1626877749\ni:20513,19600,19600,6,10,1626877750\ni:3866,9900,9900,2,2,1626877749\ni:24602,80000,80000,5,5,1626877749\ni:15870,7678,7678,4,80,1626877749\ni:20960,69000,69999,95,95,1626877749\ni:28399,476,476,1,4,1626877749\ni:31671,16800,18502,28,76,1626877750\ni:1195,499999,499999,1,1,1626877749\ni:8401,29600,29600,5,5,1626877749\ni:3382,6665,6665,4,20,1626877750\ni:7114,29999,29999,8,8,1626877749\ni:14468,98888,98888,1,1,1626877749\ni:5051,2117,2117,1,1,1626877750\ni:7089,24999,24999,6,6,1626877749\ni:24478,4100,4646,88,173,1626877750\ni:7361,500000,500000,3,3,1626877750\ni:29160,613613,613613,3,3,1626877749\ni:8489,2500000,2500000,1,1,1626877749\ni:24625,70000,70000,5,5,1626877749\ni:15506,20000,20000,1,1,1626877749\ni:16243,250000,250000,3,3,1626877749\ni:13112,222265,222265,1,1,1626877749\ni:24197,2900000,2900000,4,4,1626877749\ni:22573,12500,13432,139,1000,1626877749\ni:21896,249000,249633,10,10,1626877749\ni:31255,397000,397000,1,1,1626877749\ni:27697,87500,87831,13,13,1626877749\ni:8350,49990000,49990000,1,1,1626877749\ni:13422,7300,7590,29,468,1626877749\ni:24205,5600000,5600000,1,1,1626877749\ni:31275,450000,450000,5,5,1626877749\ni:7057,24999,24999,7,7,1626877749\ni:12405,407401,407401,5,5,1626877749\ni:24684,300000,300000,2,2,1626877749\ni:23098,6800,7141,59,59,1626877749\ni:24701,550000,550000,1,1,1626877749\ni:15080,310910,310910,1,1,1626877749\ni:25237,150000,150000,2,2,1626877749\ni:31292,388000,388000,4,4,1626877749\ni:25252,300000,300000,1,1,1626877749\ni:12190,5800,5800,8,32,1626877749\ni:863,200000,200000,2,1,1626877749\ni:27663,2100,2253,20,145,1626877749\ni:1169,9990000,9990000,1,1,1626877749\ni:25070,120000,120000,3,3,1626877749\ni:7471,80000,80000,1,1,1626877749\ni:19819,47400,47400,4,4,1626877749\ni:10287,23000,23000,1,1,1626877749\ni:8545,1000,1000,4,54,1626877749\ni:31865,401000,401497,27,27,1626877749\ni:3340,20700,20700,5,40,1626877749\ni:4838,60000,60000,4,4,1626877749\ni:864,29000,29000,1,1,1626877749\ni:22604,4900,4900,1,1,1626877749\ni:16245,1500000,1500000,4,4,1626877749\ni:5996,25000,25000,20,64,1626877749\ni:15016,20000,20000,1,1,1626877749\ni:25896,2502500,2505000,17,17,1626877749\ni:25700,30200,30381,27,43,1626877749\ni:3389,8461,8461,5,33,1626877749\ni:22786,24800,24989,25,491,1626877749\ni:13097,590000,590000,1,1,1626877749\ni:21893,18799,18799,8,8,1626877749\ni:12223,17,18,8,48,1626877749\ni:3852,964066,964066,1,1,1626877749\ni:29547,74000,74000,9,18,1626877749\ni:2864,148904,148904,2,2,1626877749\ni:2577,500000,500000,1,1,1626877749\ni:932,12000,12000,1,1,1626877749\ni:27694,79000,79250,8,8,1626877749\ni:23109,180000,180000,7,7,1626877749\ni:25868,2777498,2777999,21,21,1626877749\ni:15607,110000,110000,1,1,1626877749\ni:31234,460000,460000,1,1,1626877749\ni:10023,315090,315090,1,1,1626877749\ni:8161,50000,50000,1,1,1626877749\ni:24812,990000,990000,2,2,1626877749\ni:2857,49999,49999,14,14,1626877749\ni:24959,500000,500000,1,1,1626877749\ni:24976,50000,50000,4,4,1626877749\ni:20744,8100,8100,14,9,1626877749\ni:33825,35000,35000,4,80,1626877749\ni:23506,6393942,6393942,1,1,1626877749\ni:29540,2550000,2550000,2,2,1626877749\ni:8110,500000,500000,1,1,1626877749\ni:3855,1995000,1995000,16,16,1626877749\ni:3826,1260,1260,16,80,1626877750\ni:21882,48833,49347,13,45,1626877749\ni:6211,120000,120000,1,1,1626877749\ni:7971,28888,28888,25,45,1626877749\ni:24736,100000,100000,3,3,1626877749\ni:22901,49099,49099,4,4,1626877749\ni:27667,18800,19359,31,358,1626877749\ni:29953,500000,500000,2,2,1626877749\ni:3845,344796,344796,1,1,1626877749\ni:7070,31000,38781,19,41,1626877750\ni:23635,2500000,2500000,1,1,1626877749\ni:7049,47782,47782,1,1,1626877749\ni:4259,516272,516272,2,2,1626877749\ni:23623,3500000,3500000,3,3,1626877749\ni:23503,196500,197000,21,21,1626877749\ni:15324,100000,100000,1,1,1626877749\ni:21841,55555,55555,103,103,1626877749\ni:22835,23400,23500,11,66,1626877749\ni:10041,394999,394999,3,3,1626877749\ni:13042,809591,809591,1,1,1626877749\ni:4782,100000,100000,3,3,1626877749\ni:3049,29997,29997,2,2,1626877749\ni:12694,405000,405000,5,5,1626877749\ni:24946,309999,309999,2,2,1626877749\ni:24974,50000,50000,1,1,1626877749\ni:24826,40000,40000,1,1,1626877749\ni:21902,149999,149999,2,2,1626877749\ni:8188,29500,29500,2,1,1626877749\ni:25081,60000,60000,2,2,1626877749\ni:25146,150000,150000,1,1,1626877749\ni:5001,200000,200000,2,2,1626877749\ni:5504,1100,1100,1,10,1626877749\ni:18519,9990000,9990000,1,1,1626877749\ni:24648,500000,500000,1,1,1626877749\ni:27691,78997,78997,8,8,1626877749\ni:8959,4400,4533,3,10,1626877749\ni:3240,7518,7518,4,20,1626877749\ni:25061,500000,500000,4,4,1626877749\ni:14100,145068,145068,1,1,1626877749\ni:22871,101500,101500,5,5,1626877749\ni:23151,500000,500000,3,3,1626877749\ni:3492,353410,353410,1,1,1626877749\ni:25849,58500,58750,7,7,1626877749\ni:29203,472424,472424,1,1,1626877749\ni:11128,193324,193324,8,8,1626877749\ni:7357,0,0,1,0,1626877749\ni:20498,1935,1935,9,147,1626877749\ni:13931,13516,13516,1,1,1626877749\ni:3385,391,392,16,40,1626877749\ni:24054,524499,525748,27,27,1626877749\ni:24738,50000,50000,4,4,1626877749\ni:25744,9900,9949,6,8,1626877749\ni:31876,2500000,2500000,1,1,1626877749\ni:25649,1325,1353,93,1211,1626877749\ni:24713,50000,50000,5,5,1626877749\ni:21358,29799,29799,7,7,1626877749\ni:4243,29190,29190,2,2,1626877749\ni:3241,19999,19999,4,20,1626877749\ni:31138,508998,508998,4,4,1626877749\ni:4353,48600,48600,3,3,1626877749\ni:30156,56500,56500,6,6,1626877749\ni:4041,29500,29500,1,1,1626877749\ni:7062,58000,58000,21,21,1626877749\ni:24689,43000,43000,3,3,1626877749\ni:12404,3799,3799,12,98,1626877749\ni:10644,500000,500000,5,5,1626877749\ni:20876,999999,999999,2,3,1626877749\ni:14555,20000000,20000000,1,1,1626877749\ni:4424,9300,9350,3,7,1626877749\ni:15377,200000,200000,1,1,1626877749\ni:24711,50000,50000,5,5,1626877749\ni:15168,120000,120000,1,1,1626877749\ni:15045,627500,627500,1,1,1626877749\ni:4582,9800,9800,3,3,1626877749\ni:18654,990000,990000,1,1,1626877749\ni:11040,2000,2300,11,57,1626877749\ni:25082,210000,210000,2,2,1626877749\ni:24649,49900,49950,7,7,1626877750\ni:3872,10000,10000,1,1,1626877749\ni:10019,239999,239999,3,3,1626877749\ni:3428,100000,100000,1,1,1626877749\ni:15417,95500,95750,3,9,1626877749\ni:23490,476000,476000,4,4,1626877749\ni:25221,300000,300000,1,1,1626877749\ni:5965,241048,241048,1,1,1626877749\ni:15241,52000,52000,2,2,1626877749\ni:20004,49498,49498,1,10,1626877749\ni:4792,100000,100000,1,1,1626877749\ni:16060,100000,100000,2,2,1626877749\ni:4297,1000000,1000000,1,1,1626877749\ni:2455,45,45,4,16,1626877749\ni:13511,1197499,1197499,20,20,1626877749\ni:16055,8990000,8990000,2,2,1626877749\ni:18944,150,349,3,131,1626877749\ni:31342,15000000,15000000,2,2,1626877749\ni:15088,267907,267907,2,2,1626877749\ni:24777,90000,90000,3,3,1626877749\ni:23805,148999,148999,3,3,1626877749\ni:17716,701955,701955,1,1,1626877749\ni:8176,36200,36200,24,24,1626877749\ni:24912,250000,250000,1,1,1626877749\ni:11167,80000,80000,1,1,1626877749\ni:10939,7500,7623,45,137,1626877749\ni:13309,53000,53000,4,4,1626877749\ni:13935,995,995,1,10,1626877749\ni:27422,147,148,8,129,1626877749\ni:6614,100000,100000,1,1,1626877749\ni:4241,62624,62624,5,5,1626877749\ni:1288,489,489,3,8,1626877749\ni:30745,500000,500000,5,5,1626877749\ni:2236,330000,330000,3,3,1626877749\ni:3186,100000,100000,1,1,1626877749\ni:30746,500000,500000,1,1,1626877749\ni:13308,497999,497999,3,3,1626877749\ni:10046,16599,16599,1,1,1626877749\ni:25670,39800,39900,7,7,1626877749\ni:25100,200000,200000,1,1,1626877749\ni:23197,600000,600000,1,1,1626877749\ni:13860,316300,316300,1,1,1626877749\ni:18045,5300,5300,1,12,1626877749\ni:20855,30000,30000,9,9,1626877749\ni:25668,99000,99000,6,6,1626877749\ni:4362,24438,24438,1,1,1626877749\ni:18335,24800,24800,2,6,1626877749\ni:30747,149999,149999,6,6,1626877749\ni:13442,70500,71000,51,251,1626877749\ni:25196,400000,400000,1,1,1626877749\ni:4395,161996,161996,5,50,1626877749\ni:8952,1970,1970,1,2,1626877749\ni:4786,200000,200000,2,2,1626877749\ni:13130,489000,489000,4,4,1626877749\ni:13020,420000,420000,1,1,1626877749\ni:14923,40000,40000,1,1,1626877749\ni:7072,6000,6000,4,26,1626877749\ni:23508,7373549,7373549,1,1,1626877749\ni:31336,32500000,32500000,5,5,1626877749\ni:11983,100000,100000,2,2,1626877749\ni:15294,100000,100000,2,2,1626877749\ni:20859,33800,33986,2,49,1626877749\ni:15415,4700,4766,5,72,1626877749\ni:24970,600000,600000,1,1,1626877749\ni:4404,540,590,74,207,1626877750\ni:23824,19980000,19980000,3,3,1626877749\ni:23446,59999,62594,54,576,1626877749\ni:9839,60000,60000,1,1,1626877749\ni:20039,1990000,1990000,1,1,1626877749\ni:25314,300000,300000,4,4,1626877749\ni:10592,120,150,6,60,1626877749\ni:19280,111110,111110,6,6,1626877749\ni:24842,50000,50000,4,4,1626877749\ni:34113,336000,357819,29,135,1626877749\ni:5751,20000,20000,2,2,1626877749\ni:24747,50000,50000,2,2,1626877749\ni:24787,60000,60000,4,4,1626877749\ni:2447,495,495,24,347,1626877749\ni:24273,3002499,3002499,9,9,1626877749\ni:24896,100000,100000,2,2,1626877750\ni:24949,109900,109900,1,1,1626877749\ni:12689,57000,57000,1,1,1626877749\ni:6217,100000,100000,6,6,1626877749\ni:13510,1162500,1164998,18,18,1626877749\ni:9224,59499,59835,42,212,1626877749\ni:24601,399999,399999,1,1,1626877749\ni:14897,60000,60000,1,1,1626877749\ni:24672,250000,250000,4,4,1626877749\ni:31319,9990000,9990000,2,2,1626877749\ni:25117,300000,300000,1,1,1626877749\ni:5966,440112,440112,1,1,1626877749\ni:30422,58000,59000,8,8,1626877749\ni:31332,54999999,54999999,3,3,1626877749\ni:8490,500000,500000,1,1,1626877749\ni:24960,98000,98000,2,2,1626877749\ni:11736,155050,155050,1,1,1626877749\ni:24811,850000,850000,1,1,1626877749\ni:4500,188500,188500,12,12,1626877749\ni:31329,15700000,15700000,2,2,1626877749\ni:4251,21636,21636,2,1,1626877749\ni:3478,600,600,13,119,1626877749\ni:25220,150000,150000,2,2,1626877749\ni:13453,82000,82333,10,26,1626877750\ni:22790,1695,1727,64,1089,1626877749\ni:15174,100000,100000,1,1,1626877749\ni:7932,1729652,1729652,1,1,1626877749\ni:6347,99999,99999,1,1,1626877749\ni:23493,108000,108000,8,8,1626877749\ni:18587,2505000,2505000,3,3,1626877749\ni:24893,400000,400000,2,2,1626877749\ni:23440,755000,756180,18,18,1626877749\ni:25042,650000,650000,2,2,1626877749\ni:19704,6099,9712,9,602,1626877749\ni:10004,186186,186186,1,1,1626877749\ni:3383,268,350,9,91,1626877749\ni:10184,20000,20000,1,1,1626877749\ni:7058,59999,59999,7,7,1626877749\ni:6539,50000,50000,1,1,1626877749\ni:10055,500000,500000,1,1,1626877749\ni:21941,29800,29900,8,8,1626877749\ni:23761,863992,863992,1,1,1626877749\ni:19236,100000,100000,1,1,1626877749\ni:7456,100000,100000,1,1,1626877749\ni:25844,960706,980302,15,15,1626877749\ni:23447,127500,131222,63,169,1626877749\ni:13144,550000,550000,1,1,1626877749\ni:7375,615950,615950,1,1,1626877749\ni:12032,250000,250000,2,2,1626877749\ni:20955,19999,19999,38,38,1626877750\ni:22563,58500,58500,3,3,1626877749\ni:24599,50000,50000,3,3,1626877749\ni:3608,0,0,1,0,1626877749\ni:27665,10089,10089,39,565,1626877749\ni:16649,9900,9900,3,3,1626877749\ni:22794,333000,360516,89,117,1626877749\ni:24977,500000,500000,1,1,1626877749\ni:943,3497500,3497500,2,2,1626877749\ni:18744,400000,400000,1,1,1626877749\ni:10149,50000,50000,1,1,1626877749\ni:10559,51200,61910,35,36,1626877749\ni:23106,21599,21599,12,12,1626877749\ni:7340,1999999,1999999,1,1,1626877749\ni:20871,499999,499999,2,5,1626877749\ni:24670,500000,500000,2,2,1626877749\ni:19726,149000,149000,2,4,1626877749\ni:9951,70000,70000,1,1,1626877749\ni:31176,200396,200396,1,1,1626877749\ni:22521,129000,129078,67,67,1626877749\ni:28465,200000,200000,5,5,1626877749\ni:24164,704000,704000,2,2,1626877749\ni:7963,50000,50000,5,5,1626877749\ni:15083,348000,348000,3,3,1626877750\ni:15410,89500,89500,1,2,1626877749\ni:7931,50000,50000,35,35,1626877749\ni:8347,579000,579000,3,3,1626877749\ni:8367,1758976,1758976,1,1,1626877749\ni:14476,100000,100000,4,4,1626877749\ni:3853,1925000,1925000,19,19,1626877749\ni:8409,97999,97999,6,6,1626877750\ni:19705,5099,7734,4,343,1626877749\ni:1468,4988,4988,2,12,1626877749\ni:23444,300,300,1,5,1626877749\ni:4324,40220,40220,1,1,1626877749\ni:15503,30000,30000,2,2,1626877749\ni:3358,1985,2390,54,464,1626877749\ni:4348,54000,54000,3,3,1626877749\ni:20748,265500,265699,137,137,1626877749\ni:20451,200000,200000,1,1,1626877749\ni:8391,1010,1015,11,18,1626877749\ni:2776,34800,34918,31,126,1626877749\ni:23112,69499,72913,178,214,1626877749\ni:3873,124500,124500,2,2,1626877749\ni:18401,957000,957000,3,3,1626877749\ni:868,1097500,1097500,4,4,1626877749\ni:20752,44200,44200,6,6,1626877749\ni:4091,5000000,5000000,1,1,1626877749\ni:2819,20000,20000,1,1,1626877749\ni:24220,7999999,7999999,3,3,1626877749\ni:5484,126000,126000,5,5,1626877749\ni:18731,500000,500000,3,3,1626877749\ni:20877,300000,300000,1,1,1626877749\ni:24622,500000,500000,1,1,1626877749\ni:24798,700000,700000,1,1,1626877749\ni:7281,17444,17444,1,1,1626877749\ni:25122,92500,92500,1,1,1626877749\ni:24957,50000,50000,1,1,1626877749\ni:24693,800000,800000,1,1,1626877749\ni:16214,12000000,12000000,1,1,1626877749\ni:13868,252145,252145,1,1,1626877749\ni:19268,396000,396000,3,3,1626877749\ni:7443,30000,30000,2,2,1626877749\ni:14142,787106,787106,1,1,1626877749\ni:24934,50000,50000,2,2,1626877749\ni:24743,50000,50000,2,2,1626877749\ni:24027,2269999,2272499,29,29,1626877749\ni:20500,249000,249000,3,6,1626877749\ni:4310,49462,49462,1,1,1626877749\ni:22388,500000,500000,1,1,1626877749\ni:23764,795000,796499,14,14,1626877749\ni:31293,200000,200000,6,6,1626877749\ni:8184,119998,119998,1,1,1626877749\ni:31331,14390000,14390000,5,5,1626877749\ni:14466,50000,50000,1,1,1626877749\ni:7993,7400,7400,1,1,1626877749\ni:2772,8900,11302,16,239,1626877749\ni:32063,79500,79500,4,34,1626877749\ni:5117,980,986,6,28,1626877749\ni:23110,26697,26883,48,48,1626877749\ni:21151,8000,9033,16,157,1626877749\ni:7941,1487499,1487499,6,6,1626877749\ni:9302,39999,39999,3,3,1626877749\ni:16215,993000,993000,6,5,1626877749\ni:22854,1647500,1651400,20,20,1626877749\ni:9060,158500,158758,10,10,1626877750\ni:24881,100000,100000,2,2,1626877749\ni:13870,121100,121149,8,8,1626877749\ni:4727,0,0,1,0,1626877749\ni:4697,30000,30000,1,1,1626877749\ni:23636,4200000,4200000,1,1,1626877749\ni:20950,29799,34899,25,25,1626877749\ni:10044,599066,599066,1,1,1626877749\ni:20866,455050,455050,3,5,1626877749\ni:4417,0,0,1,0,1626877749\ni:24037,476000,477110,23,23,1626877749\ni:6338,150000,153569,26,26,1626877750\ni:5486,122000,122000,5,5,1626877749\ni:31328,4987499,4987499,3,3,1626877749\ni:23765,2950000,3277142,25,25,1626877750\ni:14048,5000,5000,5,22,1626877749\ni:24748,500000,500000,1,1,1626877749\ni:7026,4383,4383,1,1,1626877749\ni:3680,500000,500000,3,3,1626877749\ni:10121,50000,50000,1,1,1626877749\ni:28464,200000,200000,5,5,1626877749\ni:4314,23855,23855,5,5,1626877749\ni:24650,100000,100000,2,2,1626877749\ni:4594,252,252,1,20,1626877749\ni:21765,19799,19799,58,58,1626877749\ni:6056,29999,29999,8,8,1626877749\ni:15997,54,54,26,5200,1626877749\ni:24823,80000,80000,4,4,1626877749\ni:33782,87000,87944,32,32,1626877749\ni:13754,371,372,10,137,1626877749\ni:22246,9900,9900,7,7,1626877749\ni:15570,20000,20000,1,1,1626877749\ni:23334,2000,2000,2,2,1626877749\ni:20872,125000,125000,1,8,1626877749\ni:11206,999999,999999,3,3,1626877749\ni:19279,250000,250000,2,2,1626877749\ni:11176,8799,8904,92,400,1626877750\ni:21854,44000,44000,7,7,1626877750\ni:6611,30808,30808,2,2,1626877749\ni:24712,50000,50000,2,2,1626877749\ni:4058,13000,13000,1,1,1626877749\ni:7355,103100,103100,1,1,1626877749\ni:11138,495,498,57,122,1626877749\ni:21897,481000,481666,11,11,1626877750\ni:24732,250000,250000,1,1,1626877749\ni:20970,86000,86000,3,3,1626877749\ni:21767,48999,48999,25,25,1626877749\ni:14258,100000,100000,1,1,1626877749\ni:2452,15400,17490,33,289,1626877749\ni:7166,91065,91065,2,2,1626877749\ni:20576,500000,500000,3,3,1626877749\ni:24794,100000,100000,4,4,1626877749\ni:22529,1989,1989,2,3,1626877749\ni:25239,200000,200000,2,2,1626877749\ni:19703,9800,9894,5,438,1626877749\ni:31187,149499,149499,3,3,1626877749\ni:13885,189500,189500,1,1,1626877749\ni:2847,88812,88812,1,1,1626877749\ni:10053,313197,313197,1,1,1626877749\ni:13889,23800,23800,21,127,1626877749\ni:7939,4434998,4434998,3,3,1626877750\ni:10328,690000,690000,2,2,1626877749\ni:11188,14600,14999,3,114,1626877749\ni:8186,99999,99999,2,2,1626877749\ni:15407,10800,18071,14,32,1626877749\ni:29391,1000000,1000000,1,1,1626877749\ni:10978,1109,2230,30,203,1626877749\ni:24727,150000,150000,5,5,1626877749\ni:31677,499999,499999,8,25,1626877749\ni:12804,33400,33974,112,168,1626877749\ni:15927,100000,100000,1,1,1626877749\ni:14498,20000,20000,1,1,1626877749\ni:22849,57198,59538,160,542,1626877749\ni:25416,12399,12710,13,121,1626877750\ni:25323,300000,300000,2,2,1626877749\ni:22845,600000,600000,1,2,1626877749\ni:24843,90000,95000,7,7,1626877749\ni:1608,50000,50000,1,1,1626877749\ni:15381,35000,35000,1,1,1626877749\ni:24708,47025,47025,2,2,1626877750\ni:15212,345000,345000,1,1,1626877749\ni:31212,500000,500000,1,1,1626877749\ni:8494,399990000,399990000,1,1,1626877749\ni:3850,421480,421480,2,2,1626877749\ni:8205,1576334,1576334,1,1,1626877749\ni:24338,945,945,1,20,1626877749\ni:14223,8000,8000,1,1,1626877749\ni:27429,4988,4995,5,89,1626877749\ni:12974,100000,100000,2,2,1626877749\ni:2572,19522,19840,11,11,1626877749\ni:16218,169900,169900,4,4,1626877749\ni:33874,5000,5000,15,110,1626877749\ni:23097,59298,59598,124,124,1626877749\ni:25041,97517,97517,3,3,1626877750\ni:5833,10150,10150,12,55,1626877749\ni:4421,1994,1994,3,5,1626877749\ni:6390,1200000,1200000,1,1,1626877749\ni:14206,40000,40000,1,1,1626877749\ni:2459,29900,29900,53,112,1626877749\ni:31204,413000,413000,2,2,1626877749\ni:17058,458,460,32,307,1626877749\ni:7373,117804,117804,2,2,1626877749\ni:23199,6660000,6660000,1,1,1626877749\ni:24902,50000,50000,1,1,1626877749\ni:23758,700000,700000,4,4,1626877749\ni:7454,100000,100000,2,2,1626877749\ni:2844,33146,33146,1,1,1626877749\ni:8208,4746980,4746980,1,1,1626877749\ni:19698,5099,7982,5,426,1626877749\ni:8845,23800,24000,12,72,1626877749\ni:31295,200000,200000,9,9,1626877749\ni:12645,1076899,1076899,1,1,1626877749\ni:22393,17800,17800,1,1,1626877749\ni:21722,5000000,5000000,1,1,1626877749\ni:2988,30500,30500,1,1,1626877749\ni:31150,507999,507999,3,3,1626877749\ni:15654,1000000,1000000,1,1,1626877749\ni:23746,252000,252000,12,12,1626877749\ni:3287,30000,30000,1,1,1626877749\ni:25234,112400,112400,1,1,1626877749\ni:32381,37600,37766,11,11,1626877749\ni:24257,1000000,1000000,1,1,1626877749\ni:1181,13400,13400,2,3,1626877749\ni:22445,13200,13414,156,2183,1626877749\ni:25312,180000,180000,2,2,1626877749\ni:2799,9800,9800,5,28,1626877749\ni:23781,42800,48228,40,107,1626877749\ni:23117,23599,45888,225,312,1626877749\ni:6787,500000,500000,4,4,1626877750\ni:7937,2000000,2000000,4,4,1626877749\ni:2854,51999,51999,2,2,1626877749\ni:2738,4600,4600,4,4,1626877749\ni:25058,500000,500000,2,2,1626877749\ni:24778,100620,100620,4,4,1626877749\ni:7191,62000,62661,14,53,1626877749\ni:2866,35924,35924,1,1,1626877749\ni:7492,20000,20000,1,1,1626877749\ni:9061,11000,11115,40,225,1626877749\ni:10030,753288,753288,1,1,1626877749\ni:27681,3500,3599,29,133,1626877749\ni:20817,1825,1843,32,107,1626877749\ni:15249,100000,100000,1,1,1626877749\ni:12777,3038530,3038530,1,1,1626877749\ni:9295,507000,507000,3,3,1626877749\ni:24965,150000,150000,2,2,1626877749\ni:4701,30400,30400,1,1,1626877749\ni:14255,200000,200000,1,1,1626877749\ni:9088,23399,23399,6,40,1626877750\ni:18600,500000,500000,1,1,1626877749\ni:24301,2499999,2499999,2,2,1626877749\ni:15591,150000,150000,1,1,1626877749\ni:8501,500000,500000,3,3,1626877749\ni:24052,1009999,1010000,22,22,1626877749\ni:12693,60000,60000,4,4,1626877749\ni:14838,150000,150000,1,1,1626877749\ni:10309,41800,42688,23,32,1626877749\ni:23625,4997498,4997498,3,3,1626877749\ni:23101,57799,57822,39,39,1626877749\ni:23630,10000000,10000000,1,1,1626877749\ni:9313,30,30,21,98,1626877749\ni:24775,60000,60000,3,3,1626877749\ni:31304,289000,289000,1,1,1626877749\ni:6471,19000,19000,3,5,1626877749\ni:6554,20000,20000,1,1,1626877749\ni:13758,496,497,16,299,1626877749\ni:24710,500000,500000,2,2,1626877749\ni:22562,80000,80000,7,7,1626877749\ni:3745,1800,1800,1,2,1626877749\ni:15408,1220,1225,13,85,1626877750\ni:7363,50000,50000,1,1,1626877749\ni:25164,180000,180000,1,1,1626877749\ni:10040,500000,500000,1,1,1626877749\ni:24594,850000,850000,1,1,1626877749\ni:24692,400000,400000,1,1,1626877749\ni:14132,57023,57023,21,21,1626877749\ni:15078,451384,451384,1,1,1626877749\ni:2587,38600,38600,20,20,1626877749\ni:12232,29999,29999,9,9,1626877749\ni:6466,140398,140398,1,1,1626877749\ni:24479,59500,66563,34,45,1626877749\ni:27699,99499,99499,4,4,1626877749\ni:17721,563320,563320,1,1,1626877749\ni:15390,150000,150000,1,1,1626877749\ni:9776,30000,30000,1,1,1626877749\ni:7358,980980,980980,1,1,1626877749\ni:2244,1505000,1505000,4,4,1626877750\ni:12002,290000,290000,2,2,1626877749\ni:15051,3695048,3695048,1,1,1626877749\ni:10499,586740,586740,1,1,1626877749\ni:21942,19799,19799,9,9,1626877749\ni:15994,3400,3588,76,173,1626877749\ni:4313,115644,115644,1,1,1626877749\ni:15186,30000,30000,1,1,1626877749\ni:2318,980,999,138,2660,1626877749\ni:2770,3300,3712,44,557,1626877749\ni:7277,11801,11801,1,1,1626877749\ni:27854,810,810,1,1,1626877749\ni:14942,110000,110000,1,1,1626877749\ni:20295,4955884,4955884,1,1,1626877749\ni:22526,204,204,3,337,1626877749\ni:25671,47600,47800,27,27,1626877749\ni:32948,65098,65098,2,10,1626877749\ni:10548,231995,231995,8,8,1626877749\ni:15095,1532812,1532812,1,1,1626877749\ni:5740,10000,10000,31,155,1626877749\ni:7929,1400952,1400952,1,1,1626877749\ni:2848,44346,44346,1,1,1626877749\ni:13030,190000,190000,1,1,1626877749\ni:13089,927999,927999,3,3,1626877749\ni:19258,149500,149500,4,4,1626877749\ni:13929,1199,1199,1,20,1626877749\ni:2581,390,532,9,169,1626877749\ni:20671,2990000,2990000,1,1,1626877749\ni:10320,80000,80000,3,3,1626877749\ni:15075,631030,631030,1,1,1626877749\ni:25201,209975,209975,1,1,1626877749\ni:31303,258000,258000,2,2,1626877749\ni:5958,124219,124219,2,2,1626877749\ni:24834,689000,689000,1,1,1626877749\ni:23437,49599,52990,32,41,1626877749\ni:12040,30000,30000,3,3,1626877749\ni:7444,20000,20000,1,1,1626877749\ni:10423,152004,152004,1,1,1626877749\ni:6571,30000,30000,1,1,1626877749\ni:2748,9000,9000,1,1,1626877749\ni:9385,2800000,2800000,1,1,1626877750\ni:10608,1507500,1507500,1,1,1626877749\ni:31334,10000000,10000000,2,2,1626877749\ni:23638,198999,198999,5,5,1626877749\ni:8396,93500,93500,4,4,1626877749\ni:3735,28700,28700,3,3,1626877750\ni:8204,1780000,1785833,11,11,1626877749\ni:9806,100000,100000,1,1,1626877749\ni:28279,79500000,79500000,1,1,1626877749\ni:4385,370214,370214,1,1,1626877749\ni:3856,988816,988816,1,1,1626877749\ni:23094,29198,29259,36,36,1626877749\ni:3609,9999,9999,3,3,1626877749\ni:18949,187999,187999,3,3,1626877749\ni:8172,2300,2300,18,45,1626877749\ni:4260,1287769,1287769,1,1,1626877749\ni:10045,4383,4383,1,1,1626877749\ni:10561,20000,20000,20,36,1626877749\ni:24770,3990000,3990000,1,1,1626877749\ni:2570,4383,4383,1,1,1626877749\ni:12624,4778572,4778572,1,1,1626877749\ni:24053,934999,935000,21,21,1626877749\ni:28101,40000,40000,29,128,1626877749\ni:4346,39599,39599,6,6,1626877749\ni:23121,7100,7219,19,19,1626877749\ni:25205,130000,130000,2,2,1626877749\ni:23785,2661312,2661312,2,2,1626877749\ni:13040,210000,210000,4,4,1626877749\ni:21932,100744,100744,2,2,1626877749\ni:7406,30000,30000,1,1,1626877749\ni:14370,15000,15000,2,2,1626877749\ni:14137,958500,958500,2,2,1626877749\ni:13310,29999,29999,5,5,1626877749\ni:22376,29799,29799,39,162,1626877749\ni:2276,460000,460000,3,3,1626877749\ni:6714,10024,10024,3,49,1626877749\ni:23438,458900,461485,24,25,1626877749\ni:24250,4252500,4252500,2,2,1626877749\ni:15222,40000,40000,3,3,1626877749\ni:11223,30000,30000,2,2,1626877749\ni:15094,836482,836482,1,1,1626877749\ni:25657,100000,100000,2,2,1626877749\ni:24669,92500,92500,3,3,1626877749\ni:13865,602380,602380,1,1,1626877749\ni:6042,174008,174008,3,3,1626877749\ni:15091,634102,634102,1,1,1626877749\ni:10518,425890,425890,1,1,1626877749\ni:6546,30800,30800,1,1,1626877749\ni:27500,4000,4245,49,87,1626877749\ni:12432,149500,149800,4,18,1626877749\ni:3075,300000,300000,3,3,1626877749\ni:10361,499996,499996,2,2,1626877749\ni:10047,17777,17777,1,1,1626877749\ni:10604,65000,65000,5,5,1626877750\ni:13074,1995000,1995000,1,1,1626877750\ni:25158,200000,200000,1,1,1626877749\ni:15273,85600,85600,1,1,1626877749\ni:3482,44999,44999,4,4,1626877749\ni:25209,500000,500000,1,1,1626877749\ni:7786,179500,179500,9,9,1626877750\ni:22793,337000,338923,38,246,1626877749\ni:12410,2396065,2396065,1,1,1626877749\ni:24316,65499,65499,9,9,1626877750\ni:7055,67849,67849,1,1,1626877749\ni:16248,48400,48400,2,2,1626877749\ni:13013,999999,999999,2,2,1626877749\ni:7918,1294142,1294142,1,1,1626877749\ni:4239,8357,8357,28,28,1626877749\ni:22012,249998,249998,11,11,1626877749\ni:10333,60000,60000,1,1,1626877749\ni:14202,100000,100000,1,1,1626877749\ni:9296,49600,49600,2,2,1626877749\ni:2734,2899,2899,7,7,1626877749\ni:11382,292000,293000,14,14,1626877749\ni:4359,4900,4996,14,25,1626877749\ni:20406,30000,30000,2,2,1626877749\ni:25726,198000,198000,4,4,1626877749\ni:2865,33800,33800,7,7,1626877749\ni:23866,400000,400000,1,1,1626877749\ni:4250,152679,152679,1,1,1626877749\ni:6565,30000,30000,1,1,1626877749\ni:2838,1395,1960,29,372,1626877749\ni:8400,99000,99000,4,3,1626877749\ni:4256,1909328,1909328,1,1,1626877749\ni:24855,140000,140000,1,1,1626877749\ni:24694,850000,850000,1,1,1626877749\ni:2453,128,131,26,270,1626877749\ni:24944,60000,60000,1,1,1626877749\ni:15251,85000,85000,3,3,1626877749\ni:17012,99500,99557,9,106,1626877749\ni:25068,50000,50000,4,4,1626877749\ni:25689,4305025,4305025,1,1,1626877749\ni:3356,233,242,54,599,1626877750\ni:15054,467685,467685,1,1,1626877749\ni:29159,1482635,1482635,2,2,1626877749\ni:10240,200000,200000,1,1,1626877749\ni:3841,258908,258908,1,1,1626877749\ni:15096,1939536,1939536,1,1,1626877749\ni:3843,369038,369038,1,1,1626877749\ni:13079,457557,457557,1,1,1626877749\ni:33093,81400,81460,17,340,1626877749\ni:23439,760000,785999,40,42,1626877749\ni:4384,19990,29149,8,34,1626877749\ni:31299,258000,258000,5,5,1626877749\ni:7051,220226,220226,1,1,1626877749\ni:25894,3554999,3555833,11,11,1626877749\ni:4789,200000,200000,7,7,1626877749\ni:25691,258000,258000,15,15,1626877749\ni:7079,15200,15300,15,48,1626877749\ni:2579,500000,500000,1,1,1626877749\ni:24634,58300,58300,2,2,1626877749\ni:24847,159909,159909,1,1,1626877749\ni:30542,7007500,7007500,2,2,1626877749\ni:19057,4545359,4545359,1,1,1626877749\ni:14128,193116,193116,1,1,1626877749\ni:20909,110000,110000,9,9,1626877749\ni:6349,499999,499999,3,3,1626877749\ni:28494,660000,660000,2,2,1626877749\ni:14494,79499,79499,2,2,1626877749\ni:4455,278650,278650,2,2,1626877749\ni:6055,30000,30000,6,6,1626877749\ni:3174,51,51,6,35,1626877749\ni:23737,48600,48600,29,173,1626877749\ni:7418,0,0,1,0,1626877749\ni:14141,1150006,1150006,1,1,1626877749\ni:13949,49999,49999,7,7,1626877749\ni:7914,937408,937408,1,1,1626877749\ni:10031,438240,438240,1,1,1626877749\ni:22309,4500000,4500000,1,1,1626877749\ni:15048,5310212,5310212,1,1,1626877749\ni:21899,95000,95000,5,5,1626877749\ni:24724,200000,200000,3,3,1626877749\ni:11993,10000,10000,1,1,1626877749\ni:14111,278581,278581,1,1,1626877749\ni:24619,800000,800000,2,2,1626877749\ni:7432,90000,90000,2,2,1626877749\ni:20878,100000,100000,2,7,1626877749\ni:4575,33300,33300,1,1,1626877749\ni:3012,9500,9500,1,2,1626877749\ni:3836,899999,899999,10,10,1626877749\ni:23517,250000,250000,18,18,1626877749\ni:15116,10000,10000,1,1,1626877749\ni:15066,3134453,3134453,1,1,1626877749\ni:24608,300000,300000,1,1,1626877749\ni:27687,128499,128499,4,4,1626877749\ni:18641,33200,33400,26,74,1626877749\ni:20769,38888887,38888887,2,2,1626877749\ni:29426,19200,19476,42,85,1626877749\ni:14220,65000,65000,1,1,1626877749\ni:20964,60000,122499,29,29,1626877749\ni:25263,2990000,2990000,1,1,1626877749\ni:15230,275500,275500,1,1,1626877749\ni:24166,657500,657500,3,3,1626877749\ni:2881,3600,3600,3,3,1626877749\ni:18254,9444,9444,1,20,1626877749\ni:7463,40000,40000,1,1,1626877749\ni:24829,350000,350000,1,1,1626877749\ni:9233,38600,38800,6,29,1626877749\ni:24827,300000,300000,1,1,1626877749\ni:27660,5300,5300,14,98,1626877749\ni:24167,280000,280000,6,6,1626877749\ni:24659,250000,250000,2,2,1626877749\ni:6408,25000,25000,1,1,1626877749\ni:19274,223250,223250,1,1,1626877749\ni:3914,21200,27800,18,17,1626877749\ni:12716,9999999,9999999,1,1,1626877749\ni:24121,1450000,1450000,1,1,1626877749\ni:12229,29999,29999,8,8,1626877749\ni:14639,29999,29999,5,5,1626877749\ni:24988,100000,100000,2,2,1626877749\ni:7447,200000,200000,1,1,1626877749\ni:10097,228888,228888,1,1,1626877749\ni:19700,10000,11595,7,424,1626877749\ni:15077,264962,264962,1,1,1626877749\ni:9890,12900,12900,2,2,1626877749\ni:1206,44998,44999,6,7,1626877749\ni:11018,182,182,8,195,1626877749\ni:25051,68788,68838,7,7,1626877749\ni:12697,1000000,1000000,1,1,1626877749\ni:15069,687176,687176,1,1,1626877749\ni:7544,20000,20000,1,1,1626877749\ni:20008,199500,207350,8,36,1626877750\ni:22904,1007000,1007000,1,1,1626877749\ni:24057,369000,370379,21,21,1626877749\ni:29534,2460000,2466250,14,14,1626877749\ni:24306,31000000,31000000,2,2,1626877749\ni:15092,120000,120000,3,3,1626877749\ni:3384,10199,10199,4,20,1626877749\ni:15624,60000,60000,1,1,1626877749\ni:25319,250000,250000,1,1,1626877749\ni:28493,990000,990000,2,2,1626877749\ni:24805,200000,200000,1,1,1626877749\ni:3837,403888,403888,1,1,1626877749\ni:4238,4999,4999,35,35,1626877749\ni:23203,1509999,1509999,2,2,1626877749\ni:31137,128887,128887,2,2,1626877749\ni:24661,50000,50000,5,5,1626877749\ni:24587,700000,700000,1,1,1626877749\ni:24730,163000,163000,2,2,1626877750\ni:5467,7800,7800,3,4,1626877750\ni:12416,1058544,1058544,1,1,1626877749\ni:21929,34800,36949,178,259,1626877749\ni:32423,133499,133499,41,42,1626877749\ni:14601,95000,95000,2,2,1626877749\ni:19701,9500,9500,10,426,1626877749\ni:13476,86000,86000,2,2,1626877749\ni:25044,1100000,1100000,1,1,1626877749\ni:19713,9999,9999,4,62,1626877749\ni:7966,2899,2899,6,23,1626877749\ni:13494,0,0,1,0,1626877749\ni:24875,70000,70000,3,3,1626877749\ni:31330,5000000,5000000,2,2,1626877749\ni:22797,125000,189666,10,39,1626877749\ni:11166,599000,599000,3,3,1626877749\ni:7919,20000,22500,45,45,1626877749\ni:25015,300000,300000,1,1,1626877749\ni:15268,20000,20000,1,1,1626877749\ni:7068,656,4897,29,135,1626877749\ni:21072,10000,10000,4,64,1626877749\ni:4237,35091,35091,1,1,1626877749\ni:15601,100000,100000,1,1,1626877749\ni:27859,1199,1199,1,3,1626877749\ni:1523,13000,13000,2,2,1626877749\ni:2072,80000,80000,3,3,1626877749\ni:10245,30000,30000,1,1,1626877749\ni:2750,9000,9000,3,3,1626877749\ni:5763,58979,58979,5,5,1626877749\ni:4262,1443668,1443668,1,1,1626877749\ni:19271,199999,199999,1,1,1626877749\ni:7955,57834,57834,1,1,1626877749\ni:31272,1225000,1225000,3,3,1626877749\ni:5756,200000,200000,1,1,1626877749\ni:8212,496636,496636,4,4,1626877749\ni:24598,200000,200000,5,5,1626877749\ni:14675,30000,30000,1,1,1626877749\ni:10052,419999,419999,3,3,1626877749\ni:5788,60000,60000,5,5,1626877749\ni:18358,2500000,2500000,1,1,1626877749\ni:14120,50000,50000,1,1,1626877749\ni:12691,197500,197500,2,2,1626877749\ni:9144,9800,9800,6,26,1626877749\ni:21766,1603472,1603472,1,1,1626877749\ni:3021,450000,450000,1,1,1626877749\ni:29734,3450000,3450000,4,4,1626877749\ni:4070,30000,30000,1,1,1626877749\ni:23144,500000,500000,3,3,1626877749\ni:24060,856899,857815,45,45,1626877750\ni:1318,600000,600000,1,1,1626877749\ni:24769,200000,200000,2,2,1626877749\ni:31254,990000,990000,1,1,1626877749\ni:8279,35000,35000,1,1,1626877749\ni:3395,198500,198500,5,5,1626877749\ni:7909,9999,14874,18,17,1626877749\ni:2845,86809,86809,1,1,1626877749\ni:4292,99500,99500,1,1,1626877749\ni:24979,530964,530964,1,1,1626877749\ni:4389,9900,9900,24,51,1626877749\ni:14857,100000,100000,1,1,1626877749\ni:24508,9600,9794,6,118,1626877749\ni:4299,29800,29800,2,2,1626877749\ni:2315,18505,18505,1,1,1626877749\ni:11994,20000,20000,1,1,1626877749\ni:15869,4016,4016,5,100,1626877750\ni:25175,150000,150000,1,1,1626877749\ni:24905,88808,88808,1,1,1626877749\ni:6291,1799,1929,19,264,1626877749\ni:12233,235999,235999,7,7,1626877749\ni:12031,250000,250000,5,5,1626877749\ni:8138,23000,23000,1,1,1626877749\ni:20830,141346,141346,1,1,1626877749\ni:31136,458463,458463,3,3,1626877749\ni:25079,200000,200000,1,1,1626877749\ni:6416,100000,100000,1,1,1626877749\ni:765,495,498,19,220,1626877749\ni:5752,40000,40000,1,1,1626877749\ni:27674,11799,11799,3,10,1626877749\ni:25309,149000,149000,5,5,1626877749\ni:30420,79999,79999,5,5,1626877750\ni:25046,60000,60000,9,9,1626877749\ni:3472,63256,63256,1,1,1626877749\ni:6358,27400,27400,28,128,1626877749\ni:4861,30000,30000,1,1,1626877749\ni:6373,3699,3699,6,29,1626877749\ni:2324,300,300,2,12,1626877749\ni:24984,500000,500000,1,1,1626877749\ni:31178,100000,100000,3,3,1626877749\ni:7560,39799,39799,4,4,1626877749\ni:7975,0,0,1,0,1626877749\ni:15589,150000,150000,1,1,1626877749\ni:6400,50000,50000,1,1,1626877749\ni:16645,23000,23000,1,1,1626877749\ni:25017,204800,204800,4,4,1626877749\ni:8836,2400,3072,50,813,1626877749\ni:22824,11400,12642,38,244,1626877749\ni:13159,19500,19500,1,3,1626877749\ni:9815,30000,30000,1,1,1626877749\ni:5774,98000,98000,1,1,1626877749\ni:28491,3009600,3009600,2,1,1626877749\ni:6368,499999,499999,4,4,1626877749\ni:15085,1495664,1495664,2,2,1626877749\ni:21755,53500,53750,8,8,1626877750\ni:10858,49798,49798,6,6,1626877749\ni:10027,40000,40000,14,14,1626877749\ni:25302,106000,106000,3,3,1626877749\ni:8151,36666,37323,36,163,1626877749\ni:15995,819152,819152,1,1,1626877749\ni:15371,70000,70000,1,1,1626877749\ni:3474,43794,43794,5,5,1626877749\ni:16653,5000,5000,5,5,1626877749\ni:3577,7200,7422,34,286,1626877749\ni:11306,200000,200000,1,1,1626877749\ni:16736,159999,159999,1,1,1626877749\ni:3196,20000,20000,1,1,1626877749\ni:25294,180000,180000,3,3,1626877749\ni:23114,53499,53499,22,22,1626877749\ni:13759,16200,16469,13,69,1626877749\ni:12043,250000,250000,3,3,1626877749\ni:25246,150000,150000,1,1,1626877749\ni:3827,5399,5574,28,56,1626877750\ni:34440,25400,25666,12,56,1626877749\ni:21931,30000,30000,2,2,1626877749\ni:21957,76498,76499,7,7,1626877750\ni:4623,49000,49221,8,30,1626877749\ni:25893,3799999,3799999,6,6,1626877749\ni:23107,77000,78181,143,187,1626877749\ni:10360,500000,500000,2,2,1626877749\ni:25013,68800,68800,3,3,1626877749\ni:7391,570419,570419,1,1,1626877749\ni:4318,40690,40690,1,1,1626877750\ni:10940,4199,5346,200,876,1626877749\ni:8226,798000,798000,3,3,1626877749\ni:25020,180000,180000,3,3,1626877749\ni:13445,43198,43199,21,115,1626877750\ni:25048,150000,150000,4,4,1626877749\ni:28463,19200,19200,8,8,1626877749\ni:23096,84898,85073,109,109,1626877749\ni:13926,938000,941666,10,11,1626877749\ni:22839,82000,83459,73,297,1626877749\ni:4470,300,300,1,6,1626877749\ni:24767,50000,50000,3,3,1626877749\ni:11733,13400,13400,1,1,1626877749\ni:23622,12000000,12000000,3,3,1626877749\ni:6369,20399,20399,6,6,1626877749\ni:11178,400,400,7,8,1626877750\ni:25083,150000,150000,1,1,1626877749\ni:24802,204200,204200,3,3,1626877749\ni:3851,1000000,1000000,4,4,1626877749\ni:12695,53488,53488,5,5,1626877749\ni:12425,49600,49800,32,32,1626877749\ni:25696,4299999,4299999,2,2,1626877749\ni:12259,620015,620015,2,2,1626877749\ni:6045,23800,23800,3,3,1626877749\ni:5642,85500,85500,5,5,1626877749\ni:10024,92991,92991,1,1,1626877749\ni:29425,13300,13300,5,4,1626877749\ni:23116,55500,55733,74,74,1626877749\ni:22828,389250,389250,11,11,1626877749\ni:28470,29499,29499,6,6,1626877749\ni:14043,283892,283892,1,1,1626877749\ni:14155,76800,77010,35,35,1626877749\ni:8200,994776,994776,1,1,1626877750\ni:31145,320000,320000,4,3,1626877750\ni:25300,100000,100000,5,5,1626877749\ni:13456,9800,10078,30,141,1626877749\ni:7278,14738,14738,5,5,1626877749\ni:5961,115097,115097,2,2,1626877749\ni:12239,49800,49900,7,7,1626877750\ni:7087,500000,500000,3,3,1626877749\ni:11023,500000,500000,3,3,1626877749\ni:11185,9999,10000,4,31,1626877749\ni:15619,38888,38888,1,1,1626877749\ni:6264,124397,124397,1,1,1626877749\ni:3531,41286,41286,1,9,1626877749\ni:8348,3834306,3834306,1,1,1626877749\ni:5634,20000,38376,38,175,1626877749\ni:6342,9399,9399,8,8,1626877749\ni:22903,4497500,4497500,5,5,1626877749\ni:7063,91532,91532,1,1,1626877749\ni:2934,398,398,13,219,1626877749\ni:9824,190000,190000,1,1,1626877749\ni:24654,157328,157328,2,2,1626877749\ni:3172,835,837,10,30,1626877749\ni:25306,109900,109950,8,8,1626877749\ni:24643,250000,250000,2,2,1626877749\ni:10822,8899999,8899999,5,5,1626877749\ni:11175,44800,44800,2,8,1626877749\ni:4321,51632,51632,1,1,1626877749\ni:24686,500000,500000,2,2,1626877750\ni:25184,300000,300000,1,1,1626877749\ni:24642,220000,220000,2,2,1626877749\ni:24865,300000,300000,1,1,1626877749\ni:22447,16000,16983,27,229,1626877750\ni:12228,49200,49333,13,13,1626877749\ni:10321,500000,500000,3,3,1626877749\ni:7086,99000,99000,3,3,1626877749\ni:7081,17999,18136,60,64,1626877750\ni:20501,254500,254500,1,4,1626877749\ni:31308,400000,400000,2,2,1626877749\ni:24897,43000,43000,4,4,1626877749\ni:4312,20000,20000,14,14,1626877749\ni:15059,815750,815750,1,1,1626877749\ni:8349,4161674,4161674,1,1,1626877750\ni:25224,291199,291199,1,1,1626877749\ni:23571,2544999,2623183,102,119,1626877749\ni:14227,118500,119390,37,49,1626877749\ni:2313,12780,12780,1,10,1626877749\ni:2278,757000,757000,1,1,1626877749\ni:24806,350000,350000,1,1,1626877749\ni:10311,105500,105500,4,4,1626877750\ni:22452,129000,129500,40,237,1626877749\ni:25305,90000,90000,5,5,1626877749\ni:4481,785,790,9,54,1626877749\ni:25010,150000,150000,1,1,1626877749\ni:25725,73898,73898,3,3,1626877750\ni:13945,500000,500000,3,3,1626877749\ni:15269,303599,303599,1,1,1626877749\ni:6289,380,381,16,205,1626877750\ni:5485,500000,500000,3,3,1626877749\ni:13461,23000,23200,8,36,1626877750\ni:24906,51565,51565,2,2,1626877749\ni:10506,814352,814352,1,1,1626877749\ni:6564,50000,50000,1,1,1626877749\ni:11203,94500,94500,2,2,1626877749\ni:24998,250000,250000,2,2,1626877749\ni:16671,100000,100000,2,2,1626877749\ni:7911,49800,49800,2,14,1626877749\ni:10508,748335,748335,1,1,1626877749\ni:24683,500000,500000,5,5,1626877750\ni:13867,1007972,1007972,1,1,1626877750\ni:2871,5316,5316,4,20,1626877749\ni:11184,8075,8075,3,12,1626877749\ni:19706,9900,10400,6,546,1626877749\ni:24899,70000,70000,5,5,1626877749\ni:7082,1885,1969,24,48,1626877749\ni:31837,39600,39600,6,5,1626877750\ni:3193,20000,20000,1,1,1626877749\ni:12206,5000,5000,1,10,1626877749\ni:13423,10252,11255,14,150,1626877749\ni:25016,90000,90000,1,1,1626877749\ni:2325,300,300,1,1,1626877749\ni:5819,199500,199500,4,4,1626877749\ni:23491,95000,96500,28,28,1626877749\ni:8364,1870,1870,5,91,1626877749\ni:4373,99110,99110,1,1,1626877750\ni:7450,89500,89500,1,1,1626877750\ni:13052,500000,500000,1,1,1626877749\ni:23767,1000000,1000000,2,2,1626877749\ni:6270,15500,15500,5,5,1626877749\ni:3831,100000,100000,2,1,1626877749\ni:12703,1987500,1987500,4,4,1626877749\ni:29957,499000,499000,3,3,1626877749\ni:4364,934,942,68,311,1626877750\ni:3731,3500,3500,2,20,1626877749\ni:24791,99800,99800,2,2,1626877749\ni:24618,150000,150000,2,2,1626877749\ni:27693,89000,89331,10,10,1626877749\ni:31877,1999999,1999999,3,3,1626877749\ni:20882,999999,999999,2,7,1626877749\ni:12628,24999999,24999999,2,2,1626877749\ni:22785,5899,6722,156,2090,1626877749\ni:8167,4700,4733,8,101,1626877749\ni:7084,76000,76000,2,2,1626877749\ni:27651,9400,9400,5,29,1626877749\ni:18658,1960000,1960000,1,1,1626877749\ni:15369,70000,70000,1,1,1626877750\ni:25229,300000,300000,1,1,1626877749\ni:24036,2180000,2182916,24,24,1626877749\ni:3734,30000,30000,3,3,1626877749\ni:24754,140000,140000,1,1,1626877749\ni:24705,750000,750000,2,2,1626877749\ni:7390,413416,413416,2,2,1626877749\ni:10026,206408,206408,1,1,1626877749\ni:13888,39900,39900,5,50,1626877749\ni:14554,100000000,100000000,2,2,1626877749\ni:22837,323000,323571,21,25,1626877749\ni:12417,1556718,1556718,1,1,1626877750\ni:9859,90000,90000,1,1,1626877749\ni:24890,50000,50000,3,3,1626877749\ni:23573,716999,718000,73,73,1626877749\ni:20854,60000,60000,4,4,1626877749\ni:20007,41666,41666,6,37,1626877749\ni:22578,50000,55790,63,252,1626877749\ni:13452,99899,99957,55,236,1626877749\ni:934,288000,288000,1,1,1626877749\ni:12406,605288,605288,1,1,1626877750\ni:25439,18798,18798,26,26,1626877749\ni:23816,357000,357000,5,5,1626877749\ni:8203,2430000,2430000,6,6,1626877749\ni:24759,450000,450000,2,2,1626877749\ni:3682,63999,63999,4,4,1626877750\ni:2966,20000,20000,1,1,1626877749\ni:24271,1750000,1798333,18,21,1626877749\ni:21943,39999,39999,5,5,1626877749\ni:3860,19000,19153,81,1029,1626877749\ni:24612,250000,250000,3,3,1626877750\ni:15215,33333,33333,1,1,1626877749\ni:2568,4383,4383,1,1,1626877749\ni:3858,31000,31799,84,1468,1626877749\ni:16254,1500000,1500000,6,4,1626877749\ni:7942,1301189,1301189,2,2,1626877749\ni:11737,29000,29000,2,2,1626877749\ni:13942,91499,91499,4,4,1626877749\ni:24585,900000,900000,2,2,1626877749\ni:27858,423,423,7,32,1626877750\ni:15286,55400,55400,1,1,1626877749\ni:20833,319681,319681,2,2,1626877749\ni:873,10009999,10009999,1,1,1626877749\ni:11305,200000,200000,3,3,1626877749\ni:12240,127000,127000,4,4,1626877749\ni:12219,200000,200000,1,1,1626877749\ni:5764,28436,28436,5,5,1626877749\ni:3185,508198,508198,1,1,1626877749\ni:15151,50000,50000,1,1,1626877749\ni:19708,9900,9951,6,73,1626877749\ni:24907,260000,260000,2,2,1626877749\ni:16767,181000,181000,5,5,1626877749\ni:24583,990000,990000,2,2,1626877749\ni:15271,150000,150000,1,1,1626877749\ni:2824,4500000,4500000,1,1,1626877749\ni:25660,290000,290000,1,1,1626877749\ni:10187,200000,200000,1,1,1626877749\ni:25278,90000,90000,1,1,1626877749\ni:32836,190000,195484,44,44,1626877749\ni:17056,2797,2797,12,177,1626877749\ni:38327,497999,497999,3,3,1626877749\ni:23108,54500,55771,110,110,1626877749\ni:6359,197,199,27,186,1626877749\ni:11081,999999,999999,3,3,1626877750\ni:2598,4599,4599,5,5,1626877749\ni:24679,190000,190000,4,4,1626877750\ni:18298,450000,450000,1,1,1626877749\ni:22249,1987499,1987499,6,6,1626877749\ni:19232,999000,999000,2,2,1626877749\ni:5964,39000,39000,4,3,1626877749\ni:24717,300000,300000,2,2,1626877749\ni:3391,2000,2889,8,41,1626877749\ni:10273,89500,89500,1,1,1626877749\ni:6041,3051200,3051200,2,2,1626877750\ni:11289,11600,11600,4,4,1626877750\ni:23099,19098,19172,78,78,1626877749\ni:24613,333333,333333,3,3,1626877750\ni:4075,200000,200000,1,1,1626877749\ni:18361,489898,489898,1,1,1626877749\ni:4766,100000,100000,4,4,1626877749\ni:30809,15000,15929,68,798,1626877750\ni:33872,25000,25000,2,40,1626877749\ni:24030,1997499,2002045,39,39,1626877750\ni:8386,1000000,1000000,1,1,1626877750\ni:27689,193000,193000,5,5,1626877750\ni:7352,295658,295658,1,1,1626877749\ni:31679,189500,189500,1,4,1626877749\ni:20827,14999,14999,6,6,1626877750\ni:21840,11500,11500,27,270,1626877750\ni:16072,32000,32000,4,4,1626877749\ni:6530,224,224,9,85,1626877749\ni:31297,898000,965666,10,10,1626877750\ni:4439,178799,178799,1,1,1626877750\ni:24766,105000,105000,1,1,1626877749\ni:23152,500000,500000,3,3,1626877749\ni:5962,322902,322902,7,7,1626877750\ni:34832,7000,7055,31,603,1626877750\ni:4361,3000,3000,51,75,1626877750\ni:22829,7000,10344,72,337,1626877749\ni:2730,1850,1850,5,5,1626877749\ni:33924,102000,102000,1,1,1626877750\ni:24745,50000,50000,4,4,1626877750\ni:8199,130000,130000,1,1,1626877749\ni:6308,3900,3900,6,58,1626877750\ni:4265,34600,34722,29,63,1626877750\ni:27698,91500,91832,13,13,1626877750\ni:25282,990000,990000,1,1,1626877750\ni:11304,200000,200000,12,12,1626877749\ni:34622,149990000,149990000,1,1,1626877750\ni:24647,168888,168888,6,6,1626877750\ni:24511,5800,5866,3,32,1626877750\ni:28459,29499,29499,7,7,1626877750\ni:9872,100000,100000,1,1,1626877749\ni:31283,1004999,1004999,3,3,1626877749\ni:13111,105050,105050,1,1,1626877750\ni:5973,29800,29800,3,3,1626877750\ni:4248,55112,55112,2,2,1626877750\ni:14474,50000,50000,1,1,1626877749\ni:24047,1007398,1008913,28,28,1626877749\ni:24820,900000,900000,2,2,1626877749\ni:29380,989999,989999,2,2,1626877750\ni:3201,100000,100000,1,1,1626877749\ni:4777,200000,200000,8,8,1626877750\ni:25897,2382500,2382500,5,5,1626877749\ni:16806,1000000,1000000,2,2,1626877750\ni:3013,22000,22000,5,5,1626877750\ni:19260,149500,149500,1,1,1626877749\ni:23095,46300,46518,54,54,1626877750\ni:14130,195900,195900,1,1,1626877750\ni:15255,80000,80000,1,1,1626877749\ni:6661,2500000,2500000,5,5,1626877750\ni:2850,51628,51628,1,1,1626877750\ni:24200,6480000,6480000,5,5,1626877750\ni:22525,9000,9000,10,19,1626877749\ni:8169,495,496,18,124,1626877749\ni:22577,54999,56983,96,242,1626877749\ni:24449,49000,49000,3,4,1626877750\ni:15086,171500,172000,26,26,1626877750\ni:19820,400999,400999,3,3,1626877749\ni:33823,4400,4500,13,243,1626877750\ni:24756,50000,50000,6,6,1626877750\ni:31298,229000,229333,11,11,1626877750\ni:24276,6600000,6600000,4,4,1626877750\ni:22840,54400,54400,30,118,1626877750\ni:16204,7899,10410,144,1377,1626877750\ni:24746,180000,180000,1,1,1626877750\ni:10500,707999,707999,11,11,1626877750\ni:4365,4352,4352,3,50,1626877750\ni:3864,4398,4657,45,65,1626877750\ni:8206,3200252,3200252,1,1,1626877749\ni:6552,20303,20303,3,3,1626877750\ni:20755,166000,166499,9,9,1626877750\ni:11101,19799,19799,4,4,1626877750\ni:11084,1463,1478,47,268,1626877750\ni:13009,199999,199999,1,1,1626877750\ni:4403,98136,98136,23,23,1626877750\ni:15243,35000,35000,1,1,1626877750\ni:31322,6990000,6990000,1,1,1626877749\ni:31343,12989999,12989999,1,1,1626877750\ni:12811,499000,499500,7,7,1626877750\ni:2977,30800,30800,1,1,1626877749\ni:27425,585,6722,16,251,1626877749\ni:5500,19588,19998,31,41,1626877750\ni:19933,8500,8512,15,34,1626877750\ni:15223,210000,210000,2,2,1626877750\ni:12639,26564658,26564658,1,1,1626877749\ni:12435,55500,55500,1,1,1626877749\ni:6588,45799,45799,1,1,1626877750\ni:7506,499780,499780,1,1,1626877750\ni:5786,3900,3900,5,5,1626877750\ni:2314,32912,32912,1,1,1626877749\ni:9786,20000,20000,1,1,1626877749\ni:24990,50000,50000,2,2,1626877750\ni:24116,3800000,3800000,1,1,1626877749\ni:22902,129500,129500,4,4,1626877750\ni:25463,12000,12000,2,2,1626877750\ni:2582,20190,20190,1,1,1626877749\ni:8488,299999,299999,3,3,1626877749\ni:10003,52000,52000,28,28,1626877750\ni:9260,2656,2740,11,75,1626877749\ni:4375,7000,7000,9,27,1626877750\ni:34060,4500000,4500000,3,3,1626877750\ni:8345,699999,699999,8,8,1626877750\ni:7995,305000,305000,4,4,1626877750\ni:9206,30000,30000,9,79,1626877749\ni:10050,36800,37000,13,13,1626877749\ni:6239,20000,20000,10,10,1626877749\ni:18356,105998,105998,1,1,1626877750\ni:2725,80303,80303,3,3,1626877750\ni:33954,499000,499000,4,4,1626877750\ni:32079,3007500,3007500,1,1,1626877749\ni:24994,90000,90000,1,1,1626877749\ni:25004,200000,200000,2,2,1626877749\ni:12428,594169,594169,2,2,1626877750\ni:25265,120000,120000,1,1,1626877749\ni:24796,500000,500000,1,1,1626877750\ni:23510,284999,285666,11,11,1626877750\ni:23489,298000,298000,11,11,1626877750\ni:13896,500000,500000,5,5,1626877749\ni:8394,19800,19933,3,12,1626877750\ni:3390,32306,32306,4,20,1626877750\ni:4308,4778,4778,1,1,1626877750\ni:19273,80000,80000,4,4,1626877750\ni:24299,4495000,4495000,2,2,1626877750\ni:5637,2200,2233,7,13,1626877749\ni:9777,200000,200000,1,1,1626877750\ni:13760,8900,8920,18,186,1626877749\ni:24892,50000,50000,2,2,1626877750\ni:24194,9800000,9800000,3,3,1626877750\ni:23594,262000,262000,5,5,1626877750\ni:12808,85499,85699,50,91,1626877749\ni:24904,301280,301280,2,2,1626877750\ni:22574,63000,64326,58,381,1626877749\ni:4457,10600,10600,1,16,1626877749\ni:10504,1350955,1350955,3,3,1626877750\ni:22385,26294558,26294558,1,1,1626877750\ni:24856,700000,700000,1,1,1626877749\ni:4479,9800,9800,1,1,1626877749\ni:10325,129000,129000,4,4,1626877750\ni:24218,5000000,5000000,6,6,1626877750\ni:13492,806999,806999,3,3,1626877750\ni:7554,20000,20000,2,2,1626877750\ni:25006,63000,63000,1,1,1626877750\ni:23118,33400,33477,78,78,1626877749\ni:27501,9000,9094,31,69,1626877749\ni:9312,9502,9502,10,49,1626877749\ni:23538,16000000,16000000,1,1,1626877750\ni:14656,49000,49000,1,1,1626877750\ni:11135,11799,11861,39,108,1626877749\ni:27690,72500,72749,7,7,1626877750\ni:8163,8000,8000,1,1,1626877749\ni:14144,645902,645902,1,1,1626877750\ni:23628,5000000,5000000,3,3,1626877750\ni:35581,24358996,24358996,1,1,1626877749\ni:6610,150000,150000,1,1,1626877750\ni:8215,496636,496636,1,1,1626877750\ni:25014,55000,55000,1,1,1626877750\ni:24305,5008900,5008900,1,1,1626877750\ni:10151,80000,80000,1,1,1626877749\ni:28291,500000,500000,3,3,1626877750\ni:5997,200,711,74,151,1626877750\ni:24675,55000,55000,5,5,1626877749\ni:19261,200000,200000,1,1,1626877750\ni:8197,150000,184949,36,36,1626877749\ni:6580,50000,50000,4,4,1626877750\ni:24055,240999,241999,29,29,1626877750\ni:3667,1085,1085,5,34,1626877749\ni:15912,23400,23400,2,2,1626877749\ni:24660,70000,70000,1,1,1626877749\ni:18509,9990000,9990000,2,2,1626877749\ni:4298,200000,200000,1,1,1626877749\ni:8192,87500,87500,6,6,1626877750\ni:24620,189900,189900,7,7,1626877749\ni:22539,49800,49800,6,6,1626877750\ni:34220,2954500,2954749,7,7,1626877750\ni:2408,423000,423000,2,2,1626877749\ni:29204,4000000,4000000,6,6,1626877749\ni:25843,289997,289997,26,26,1626877750\ni:7053,26880,26880,1,1,1626877749\ni:24696,990000,990000,2,2,1626877750\ni:21934,62490,62490,1,1,1626877750\ni:29726,3995000,3995000,1,1,1626877750\ni:3835,50000,50000,50,50,1626877750\ni:29901,500000,500000,3,3,1626877749\ni:6615,50000,50000,1,1,1626877749\ni:24857,320000,320000,2,2,1626877750\ni:8932,2700,2700,3,53,1626877750\ni:21340,189536,189536,4,4,1626877749\ni:16008,3183668,3183668,1,1,1626877749\ni:2317,65756,65756,2,2,1626877750\ni:31940,450000,450000,5,5,1626877749\ni:24832,68850,68850,7,7,1626877750\ni:12203,139,140,13,64,1626877749\ni:4380,3125,3692,12,101,1626877750\ni:12250,149999,149999,4,4,1626877750\ni:12028,20000,20000,2,2,1626877750\ni:10035,500000,500000,1,1,1626877750\ni:27437,9100,9100,1,2,1626877750\ni:3840,296376,296376,1,1,1626877749\ni:2311,46914,46914,1,1,1626877750\ni:21952,376999,376999,4,4,1626877750\ni:2771,11999,12000,77,1413,1626877749\ni:5770,1000000,1000000,2,2,1626877750\ni:24853,45000,45000,3,3,1626877749\ni:5342,2400,2400,2,8,1626877749\ni:24825,40000,40000,2,2,1626877749\ni:14435,40000,40000,1,1,1626877750\ni:15012,50000,50000,1,1,1626877749\ni:5772,9800,9800,7,7,1626877750\ni:21752,21186,21186,6,30,1626877750\ni:15970,50000,50000,1,1,1626877749\ni:8171,1930,1942,19,127,1626877750\ni:4366,15600,15694,12,69,1626877750\ni:20969,455184,455184,2,2,1626877749\ni:24087,3000000,3000000,1,1,1626877749\ni:12794,13286108,13286108,1,1,1626877749\ni:24996,249900,249900,3,3,1626877750\ni:6344,149500,149500,2,2,1626877750\ni:6795,500000,500000,1,1,1626877750\ni:20816,9150,9199,38,204,1626877749\ni:24626,50000,50000,5,5,1626877750\ni:3857,9400,9579,10,59,1626877750\ni:2853,15424,15424,1,1,1626877750\ni:4372,211438,211438,3,3,1626877749\ni:18364,196000,196000,6,6,1626877749\ni:18665,11000000,11000000,3,3,1626877749\ni:12607,100000,100000,5,5,1626877749\ni:814,499999,499999,2,4,1626877749\ni:24986,100000,100000,2,2,1626877750\ni:14467,39800,39800,1,1,1626877750\ni:25118,81100,81100,2,2,1626877749\ni:24216,9890000,9890000,2,2,1626877749\ni:12363,297000,308399,49,51,1626877749\ni:15743,9900,9900,2,2,1626877750\ni:23115,88399,91619,69,69,1626877749\ni:18594,104999,104999,4,20,1626877749\ni:21901,299999,299999,1,1,1626877749\ni:6476,49800,49800,1,1,1626877750\ni:4562,10000,10000,2,2,1626877749\ni:4338,6299,8066,119,2215,1626877750\ni:785,306,311,32,366,1626877749\ni:24962,70000,70000,2,2,1626877750\ni:25097,500000,500000,3,3,1626877749\ni:23627,8000000,8000000,2,2,1626877750\ni:14256,119500,119500,10,16,1626877749\ni:15742,750000,750000,1,1,1626877750\ni:730,49,50,4,19,1626877749\ni:13462,29500,35811,16,60,1626877749\ni:10036,500000,500000,2,2,1626877750\ni:10326,500000,500000,3,3,1626877750\ni:4352,99500,99500,1,1,1626877750\ni:24744,50000,50000,2,2,1626877749\ni:12205,989,989,5,26,1626877750\ni:7935,2000000,2000000,4,4,1626877749\ni:15214,30000,30000,3,3,1626877750\ni:23518,2450000,2450000,6,6,1626877750\ni:16113,203000,203250,14,14,1626877749\ni:11288,48000,48000,4,4,1626877749\ni:21278,1170664,1170664,1,1,1626877749\ni:11987,30000,30000,1,1,1626877749\ni:24249,4492500,4492500,3,3,1626877750\ni:31288,2000000,2000000,4,4,1626877750\ni:29724,2800000,2800000,1,1,1626877749\ni:11998,140000,140000,1,1,1626877750\ni:15063,2667050,2667050,1,1,1626877750\ni:10056,258999,258999,20,20,1626877749\ni:17011,279999,280916,22,42,1626877750\ni:647,709000,709000,4,4,1626877749\ni:9424,51200000,51200000,1,1,1626877750\ni:5762,14879,14879,2,2,1626877749\ni:20750,48000,48000,12,12,1626877749\ni:35564,111000,111250,9,9,1626877750\ni:23786,1890000,1890833,11,11,1626877750\ni:14101,158860,158860,1,1,1626877749\ni:8949,20899,20899,8,33,1626877749\ni:8500,500000,500000,3,3,1626877749\ni:3393,80000,80000,2,2,1626877749\ni:25124,91200,91200,1,1,1626877749\ni:10002,186186,186186,1,1,1626877749\ni:24681,298474,298474,5,5,1626877750\ni:4240,15609,15609,5,5,1626877750\ni:24729,71200,71200,5,5,1626877749\ni:9262,214000,226900,35,40,1626877749\ni:8544,495,495,4,79,1626877749\ni:20864,1985,1985,2,98,1626877750\ni:17706,291000,291000,2,2,1626877749\ni:24584,800000,800000,1,1,1626877750\ni:30483,65999,65999,5,5,1626877750\ni:24066,89500,96055,30,30,1626877749\ni:10728,39999,39999,3,3,1626877750\ni:11164,4500000,4500000,1,1,1626877750\ni:13085,400000,400000,1,1,1626877749\ni:8218,319000,319000,6,6,1626877750\ni:12361,59000,59625,15,16,1626877749\ni:15003,50000,50000,1,1,1626877749\ni:9405,390000,390000,2,2,1626877750\ni:12828,55050,55050,1,1,1626877749\ni:6662,34999,34999,4,20,1626877749\ni:24866,301000,301000,1,1,1626877749\ni:25901,2712500,2713966,10,10,1626877750\ni:25065,40000,40000,2,2,1626877750\ni:2915,1200000,1200000,4,4,1626877750\ni:10139,500000,500000,1,1,1626877749\ni:27498,67000,70981,22,41,1626877750\ni:3036,9900,9900,1,1,1626877749\ni:728,500000,500000,3,3,1626877750\ni:25153,700000,700000,1,1,1626877750\ni:21872,15000000,15000000,1,1,1626877750\ni:20973,40000,40000,10,10,1626877750\ni:24202,7500000,7500000,5,5,1626877750\ni:13928,4500,4500,14,261,1626877749\ni:8153,2600,2927,42,269,1626877750\ni:31863,467900,469253,38,38,1626877749\ni:25708,129500,129516,68,210,1626877750\ni:1705,30000,49883,16,45,1626877750\ni:23803,366000,366000,6,6,1626877750\ni:9264,8500,25175,4,46,1626877750\ni:25181,140000,140000,2,2,1626877749\ni:4597,1000,1000,2,2,1626877750\ni:6450,1460,1460,5,92,1626877750\ni:5541,114862,114862,2,2,1626877749\ni:22153,200999,200999,2,2,1626877750\ni:24633,207777,207777,1,1,1626877749\ni:8497,500000,500000,2,2,1626877749\ni:24734,150000,150000,1,1,1626877749\ni:2450,5800,6625,62,736,1626877750\ni:4386,49764,49764,5,5,1626877749\ni:13132,266515,266515,2,2,1626877749\ni:27677,7900,9362,32,172,1626877750\ni:12547,853667,853667,1,1,1626877750\ni:24922,990000,990000,1,1,1626877750\ni:12427,596685,596685,2,2,1626877749\ni:27695,500000,500000,3,3,1626877749\ni:27662,995,1078,29,326,1626877749\ni:13459,4900,4966,7,26,1626877750\ni:7917,722027,722027,1,1,1626877750\ni:35566,118000,118249,9,9,1626877749\ni:30804,109899,109899,3,3,1626877750\ni:18945,105,1000,13,1085,1626877749\ni:20826,350000,350000,4,4,1626877750\ni:8160,80000,80000,1,1,1626877749\ni:12360,439000,439000,73,124,1626877749\ni:25438,19999,19999,7,7,1626877750\ni:21992,199999,209749,8,8,1626877750\ni:6578,130299,130299,1,1,1626877750\ni:25060,200000,200000,5,5,1626877750\ni:20725,77500,99474,17,151,1626877750\ni:27700,98499,98499,10,10,1626877750\ni:19275,505000,505000,1,1,1626877749\ni:11177,12498,12498,63,176,1626877750\ni:14786,88800,88800,1,1,1626877749\ni:18637,695372,695372,1,1,1626877750\ni:1210,5700,6164,59,67,1626877749\ni:15416,3100,3100,11,204,1626877750\ni:24192,6000000,6000000,4,4,1626877750\ni:3488,188600,188600,1,1,1626877750\ni:29158,100000,103166,11,11,1626877749\ni:11732,5900,5900,1,1,1626877750\ni:16046,74500,74500,4,4,1626877749\ni:2841,7500,9218,71,1339,1626877750\ni:24611,200000,200000,1,1,1626877749\ni:23154,6000000,6000000,1,1,1626877750\ni:12253,200000,200000,1,1,1626877749\ni:19815,4990000,4990000,1,1,1626877750\ni:7956,1000000,1000000,4,4,1626877750\ni:17683,80000,80000,3,3,1626877750\ni:24706,850000,850000,1,1,1626877750\ni:24687,100000,100000,4,4,1626877750\ni:25011,350000,350000,1,1,1626877749\ni:3719,404675,404675,1,1,1626877749\ni:28290,39899,39998,70,70,1626877750\ni:15419,6500,6600,2,17,1626877749\ni:15626,180000,180000,1,1,1626877750\ni:22390,993999,993999,2,2,1626877750\ni:16673,149500,149500,2,2,1626877749\ni:24781,45000,45000,1,1,1626877749\ni:3355,7600,7894,31,473,1626877750\ni:13444,21000,22895,291,1426,1626877750\ni:7961,3272422,3272422,1,1,1626877749\ni:22522,93000,93000,52,52,1626877750\ni:33867,2200,2260,20,129,1626877750\ni:18359,200000,200000,2,2,1626877750\ni:3184,139399,139399,1,1,1626877750\ni:24213,4000000,4000000,5,5,1626877749\ni:8496,90000,90000,5,5,1626877750\ni:29902,199995,199995,5,5,1626877750\ni:27439,19000,19218,17,237,1626877750\ni:6242,20000,20000,10,10,1626877749\ni:13869,196900,196900,1,1,1626877749\ni:12429,1519176,1519176,2,2,1626877750\ni:5782,2169565,2169565,1,1,1626877749\ni:23634,5000000,5000000,1,1,1626877749\ni:2700,500000,500000,3,3,1626877750\ni:24715,200000,200000,3,3,1626877750\ni:24050,890000,895248,32,32,1626877750\ni:14088,50000,50000,1,1,1626877749\ni:25206,500000,500000,1,1,1626877749\ni:12420,1161680,1161680,1,1,1626877749\ni:31153,780000,780000,4,4,1626877749\ni:25121,100000,100000,2,2,1626877750\ni:31126,448000,448000,2,2,1626877750\ni:9327,600000,600000,1,1,1626877749\ni:23782,85499,85649,24,36,1626877750\ni:24876,100000,100000,3,3,1626877750\ni:31237,299000,299000,5,5,1626877750\ni:24871,50000,50000,6,6,1626877750\ni:7787,208000,208000,1,1,1626877749\ni:3871,0,0,1,0,1626877749\ni:25089,150000,150000,2,2,1626877750\ni:7050,79010,79010,3,3,1626877749\ni:13054,900000,900000,2,2,1626877750\ni:24839,90000,90000,4,4,1626877750\ni:24629,80000,80000,2,2,1626877750\ni:25707,47200,47694,23,71,1626877749\ni:31154,42500,42500,3,3,1626877749\ni:23140,500000,500000,3,3,1626877749\ni:34861,499,500,51,312,1626877750\ni:31180,399000,399000,6,6,1626877749\ni:11208,1000000,1000000,3,3,1626877749\ni:789,33000,33000,4,4,1626877750\ni:3868,20000,20000,4,2,1626877750\ni:25045,700000,700000,2,2,1626877750\ni:2883,19800,19800,1,1,1626877750\ni:31562,3500000,3500000,1,1,1626877749\ni:7362,85900,85900,5,5,1626877750\ni:3821,3200,3300,28,398,1626877750\ni:24723,200000,200000,5,5,1626877750\ni:21774,2904056,2904056,1,1,1626877749\ni:13499,450000,450000,1,1,1626877750\ni:2303,11628,11628,1,1,1626877750\ni:12359,17857,23333,118,1833,1626877750\ni:22787,10800,10979,49,758,1626877750\ni:15732,250000,250000,2,2,1626877749\ni:13458,11600,11800,15,52,1626877749\ni:5075,489,489,4,26,1626877750\ni:4800,55000,55000,3,3,1626877750\ni:24740,49999,49999,3,3,1626877749\ni:8170,9000,15000,34,621,1626877750\ni:833,1500000,1500000,1,1,1626877750\ni:12799,24600,27699,9,54,1626877750\ni:22647,98499,98499,6,6,1626877750\ni:24945,50000,50000,1,1,1626877749\ni:15621,57200,57200,1,1,1626877750\ni:18486,4400416,4400416,1,1,1626877749\ni:9251,10000,10000,1,1,1626877749\ni:3042,210000,210000,1,1,1626877749\ni:21877,1550,1640,426,7774,1626877749\ni:7960,2100128,2100128,1,1,1626877750\ni:13091,100000,100000,2,2,1626877749\ni:8183,10000,10000,1,1,1626877749\ni:24623,98000,98000,5,5,1626877749\ni:3037,24000,24000,2,2,1626877750\ni:18255,14999,14999,1,16,1626877749\ni:24784,100000,100000,8,8,1626877750\ni:14123,50000,50000,1,1,1626877749\ni:25007,60000,60000,1,1,1626877750\ni:29505,15000000,15000000,1,1,1626877750\ni:9154,1990,2593,23,120,1626877750\ni:27669,7180,7180,6,37,1626877750\ni:9814,30000,30000,2,2,1626877750\ni:869,1000000,1000000,1,1,1626877749\ni:3869,9900,9900,3,2,1626877750\ni:13948,124499,124499,4,4,1626877749\ni:7928,2000000,2000000,4,4,1626877750\ni:3048,191898,191898,2,2,1626877750\ni:15164,20000,20000,1,1,1626877750\ni:21864,1150000,1150000,2,2,1626877749\ni:15282,300000,300000,2,2,1626877749\ni:25802,78000,88884,230,815,1626877749\ni:15971,50000,50000,1,1,1626877750\ni:3685,4800,4800,7,56,1626877750\ni:12987,490000,490000,1,1,1626877749\ni:14212,40033,40033,1,1,1626877750\ni:8173,21400,22646,9,46,1626877750\ni:22542,5000000,5000000,2,2,1626877750\ni:12030,250000,250000,5,5,1626877750\ni:2868,65000,65000,40,40,1626877749\ni:10008,69897,69897,1,1,1626877749\ni:1727,200000,200000,1,1,1626877749\ni:24719,50000,50000,3,3,1626877749\ni:10560,7500,7500,12,43,1626877750\ni:22791,39800,39999,17,258,1626877749\ni:9187,13399,13400,28,133,1626877750\ni:10302,30000,30000,2,2,1626877749\ni:8174,1028314,1028314,1,1,1626877750\ni:12625,6041476,6041476,1,1,1626877750\ni:24772,80000,80000,2,2,1626877749\ni:24615,200000,200000,6,6,1626877749\ni:3828,4900,4900,6,34,1626877750\ni:20868,50000,50250,4,8,1626877750\ni:4708,30000,30000,1,1,1626877750\ni:7148,520552,520552,2,2,1626877749\ni:23575,2300,2405,37,177,1626877749\ni:4419,5199,5199,1,1,1626877749\ni:4499,30000,30000,4,4,1626877750\ni:24765,50000,50000,2,2,1626877750\ni:25076,600000,600000,1,1,1626877749\ni:9179,7700,7700,12,68,1626877750\ni:7930,698464,698464,1,1,1626877749\ni:15260,60000,60000,2,2,1626877750\ni:31219,70000000,70000000,1,1,1626877750\ni:14809,500000,500000,1,1,1626877750\ni:12414,1771702,1771702,1,1,1626877750\ni:4360,4200,4200,16,97,1626877750\ni:24291,1990,2040,43,430,1626877749\ni:25324,750000,750000,1,1,1626877750\ni:7060,50276,50276,1,1,1626877750\ni:2075,50000,50000,1,1,1626877749\ni:12202,950,960,13,91,1626877750\ni:13136,409000,409000,3,3,1626877749\ni:24632,500000,500000,3,3,1626877750\ni:4416,49800,49800,2,2,1626877749\ni:7076,79500,79500,7,11,1626877750\ni:15056,1066150,1066150,1,1,1626877750\ni:23591,58000,58000,6,6,1626877750\ni:4715,100000,100000,1,1,1626877750\ni:5739,1153047,1153047,1,1,1626877749\ni:15250,60000,60000,2,2,1626877749\ni:5633,18399,18400,7,28,1626877749\ni:4625,24800,24953,10,122,1626877749\ni:11163,20000,20000,3,3,1626877749\ni:22557,11110000,11110000,3,3,1626877750\ni:4370,9854,9854,6,50,1626877750\ni:13146,450000,450000,3,3,1626877749\ni:14724,30000,30000,1,1,1626877750\ni:17187,5900,5900,1,1,1626877749\ni:1081,28,28,1,10,1626877750\ni:7421,50000,50000,1,1,1626877749\ni:6263,99346,99346,2,2,1626877749\ni:8207,4113808,4113808,1,1,1626877749\ni:6418,25000,25000,1,1,1626877750\ni:13038,450000,450000,3,3,1626877750\ni:16716,249000,249000,2,2,1626877749\ni:6325,10000,10000,3,3,1626877749\ni:20975,399999,399999,6,6,1626877750\ni:10502,127998,127998,4,4,1626877749\ni:4784,5600,5600,1,2,1626877749\ni:2849,80585,80585,1,1,1626877749\ni:16253,499000,499000,2,2,1626877749\ni:15735,1000000,1000000,2,2,1626877749\ni:3197,15000,15000,2,2,1626877750\ni:23103,4700,4750,9,9,1626877750\ni:25019,80000,80000,2,2,1626877750\ni:8067,43,43,10,2000,1626877750\ni:25095,1503600,1503600,1,1,1626877749\ni:1973,1500000,1500000,4,4,1626877750\ni:24942,159900,159900,2,2,1626877750\ni:22308,179500,179749,9,9,1626877749\ni:15978,250000,250000,1,1,1626877750\ni:17414,19400,19400,1,1,1626877749\ni:1465,50000,50000,1,1,1626877749\ni:25650,5000,5000,16,25,1626877750\ni:24067,193500,194000,34,34,1626877749\ni:15974,45000,45000,1,1,1626877750\ni:11137,5998,6229,179,1036,1626877750\ni:16206,1599641,1599641,18,18,1626877749\ni:2319,1950,1971,41,753,1626877750\ni:4254,285513,285513,1,1,1626877750\ni:12704,80000,80000,2,2,1626877750\ni:30155,1200,1340,12,73,1626877749\ni:15504,52628,52628,1,1,1626877749\ni:23826,884999,884999,4,5,1626877750\ni:10512,174,174,20,4000,1626877749\ni:24296,4740000,4740000,1,1,1626877750\ni:24593,850000,850000,1,1,1626877750\ni:2802,499000,499000,2,2,1626877750\ni:24061,998000,999799,21,21,1626877750\ni:2407,8499,8499,5,5,1626877750\ni:11174,19600,19800,37,83,1626877749\ni:13446,1945,7988,27,98,1626877750\ni:24058,946000,946000,10,10,1626877749\ni:9892,50000,50000,4,4,1626877750\ni:2740,985,985,1,2,1626877750\ni:24758,50500,50500,1,1,1626877749\ni:24690,100000,100000,1,1,1626877749\ni:13044,1507500,1507500,2,2,1626877750\ni:23131,500000,500000,3,3,1626877750\ni:24716,998888,998888,1,1,1626877749\ni:19818,4999900,4999900,4,4,1626877750\ni:15423,785,785,2,4,1626877750\ni:24939,150000,150000,2,2,1626877750\ni:29536,4992500,4992500,8,8,1626877749\ni:16861,0,0,1,0,1626877750\ni:2878,200000,200000,1,1,1626877750\ni:23766,19010000,19010000,5,5,1626877750\ni:20753,58499,58499,9,9,1626877750\ni:19816,408000,408000,3,3,1626877750\ni:24783,100000,100000,3,3,1626877749\ni:25123,110000,110000,1,1,1626877750\ni:3369,2300,2886,22,184,1626877749\ni:23135,500000,500000,3,3,1626877750\ni:13478,39800,39800,6,6,1626877750\ni:21546,20000,20039,25,190,1626877749\ni:19814,755998,755998,2,2,1626877750\ni:25202,150000,150000,1,1,1626877749\ni:31230,299000,299500,9,9,1626877749\ni:20452,4300,4381,13,91,1626877749\ni:31139,600000,600000,5,5,1626877750\ni:11611,459999,459999,1,1,1626877749\ni:10546,240999,240999,3,6,1626877749\ni:10054,500000,500000,1,1,1626877749\ni:29292,3500,3727,11,39,1626877750\ni:24600,200000,200000,2,2,1626877750\ni:27688,215000,215000,7,7,1626877750\ni:4333,500000,500000,1,1,1626877750\ni:8187,314348,314348,2,2,1626877749\ni:8146,74000,75129,31,95,1626877749\ni:14171,73799,73799,1,1,1626877749\ni:6068,29600,29699,8,8,1626877750\ni:29740,239000,240066,49,55,1626877749\ni:2073,33333,33333,2,2,1626877749\ni:31148,790000,790000,3,3,1626877749\ni:6584,141599,141599,1,1,1626877750\ni:9862,30000,30000,1,1,1626877749\ni:22919,20000000,20000000,1,1,1626877749\ni:15488,40000,40000,1,1,1626877750\ni:9305,127500,127500,6,6,1626877750\ni:21217,10000,10000,1,1,1626877749\ni:16084,498000,498000,8,8,1626877750\ni:8154,76923,99687,8,153,1626877750\ni:17704,716385,716385,1,1,1626877749\ni:15068,1119036,1119036,1,1,1626877749\ni:4568,21000,21000,1,1,1626877750\ni:28280,89980000,89980000,4,4,1626877750\ni:10586,139999,139999,7,51,1626877750\ni:6576,30000,30000,1,1,1626877749\ni:18338,552338,552338,1,1,1626877749\ni:15500,50000,50000,1,1,1626877750\ni:16006,418997,418997,14,14,1626877750\ni:8485,500000,500000,3,3,1626877749\ni:24808,990000,990000,1,1,1626877749\ni:14090,33333,33333,1,1,1626877749\ni:32774,1504999,1504999,1,1,1626877749\ni:12983,410000,410000,2,2,1626877749\ni:15992,7298,8258,60,703,1626877749\ni:12006,25000,25000,1,1,1626877750\ni:14431,90000,90000,1,1,1626877749\ni:15308,50500,50500,1,1,1626877750\ni:2882,5800,5800,2,2,1626877750\ni:3610,29000,29000,3,3,1626877749\ni:22532,4500000,4500000,3,3,1626877750\ni:14945,100000,100000,1,1,1626877749\ni:776,1200000,1200000,1,1,1626877750\ni:12783,18538244,18538244,1,1,1626877749\ni:16802,8880000,8880000,1,1,1626877749\ni:14425,50000,50000,1,1,1626877749\ni:23524,500000,524000,12,12,1626877750\ni:3481,132540,132540,2,2,1626877749\ni:6274,80000,80000,5,5,1626877749\ni:4852,18199,18199,1,4,1626877749\ni:4345,499000,499000,3,2,1626877750\ni:23632,8880000,8880000,1,1,1626877749\ni:10605,560000,560000,1,1,1626877749\ni:25087,100000,100000,1,1,1626877750\ni:7924,809456,809456,1,1,1626877750\ni:27657,11900,11930,26,111,1626877750\ni:3192,5000,5000,1,1,1626877749\ni:25335,100000,100000,6,6,1626877750\ni:24943,50000,50000,2,2,1626877750\ni:5470,4700,4700,4,27,1626877750\ni:14341,25600,25600,1,13,1626877749\ni:29731,5550000,5550000,3,3,1626877750\ni:31243,500000,500000,1,1,1626877749\ni:24214,4450000,4450000,5,5,1626877750\ni:2569,7446,7446,1,1,1626877749\ni:9294,9000,9000,3,3,1626877749\ni:24950,70000,70000,2,2,1626877750\ni:24658,290000,290000,4,4,1626877750\ni:1988,0,0,1,0,1626877749\ni:23105,8700,9233,60,60,1626877750\ni:2309,10000,10000,3,3,1626877750\ni:31200,1690000,1690000,2,2,1626877749\ni:6309,4075,4075,1,1,1626877750\ni:16219,950000,950000,5,5,1626877750\ni:24822,50090,50090,2,2,1626877749\ni:24898,80000,80000,4,4,1626877750\ni:10317,500000,500000,3,3,1626877749\ni:2302,5808,5808,1,1,1626877749\ni:19715,20000,20000,1,23,1626877749\ni:7047,117418,117418,1,1,1626877750\ni:15087,126000,126000,4,4,1626877749\ni:28466,200000,200000,5,5,1626877749\ni:15190,90000,90000,1,1,1626877749\ni:14343,7300,7481,88,215,1626877750\ni:24956,80000,80000,2,2,1626877749\ni:4305,6799,6924,8,60,1626877749\ni:12792,3696666,3696666,1,1,1626877749\ni:9817,142600,142600,1,1,1626877749\ni:10498,199499,199499,6,6,1626877750\ni:6362,125,142,25,445,1626877750\ni:21843,499999,499999,32,32,1626877750\ni:14630,499999,499999,3,3,1626877750\ni:11039,26665,26665,7,7,1626877750\ni:5771,500000,500000,3,3,1626877750\ni:23153,500000,500000,3,3,1626877750\ni:23787,1477500,1490952,52,71,1626877750\ni:3825,8800,9565,41,208,1626877750\ni:24753,80000,80000,3,3,1626877750\ni:7991,250000,250000,1,1,1626877750\ni:15737,20000,20000,2,2,1626877749\ni:24298,1002500,1002500,1,1,1626877750\ni:6385,500000,500000,1,1,1626877750\ni:18948,704662,704662,1,1,1626877749\ni:2775,72500,72960,23,81,1626877749\ni:9030,18400,18400,5,11,1626877750\ni:28501,4600,4681,7,37,1626877749\ni:24707,990000,990000,1,1,1626877749\ni:13755,10014,10014,5,100,1626877750\ni:15236,200000,200000,1,1,1626877750\ni:23595,262000,262000,5,5,1626877750\ni:23593,57500,57750,7,7,1626877749\ni:9863,60000,60000,1,1,1626877750\ni:9782,50000,50000,1,1,1626877750\ni:720,506000,506000,1,1,1626877749\ni:10601,100000,100000,1,1,1626877749\ni:31868,845000,864666,23,23,1626877750\ni:24913,600000,600000,2,2,1626877749\ni:29539,302800,319580,81,191,1626877750\ni:7753,440000,440000,4,4,1626877749\ni:15046,618500,618500,1,1,1626877749\ni:4358,879,879,7,128,1626877750\ni:6261,300,300,1,1,1626877749\ni:23884,12504999,12504999,7,7,1626877750\ni:19710,9900,9955,3,54,1626877750\ni:16717,106500,106500,6,6,1626877750\ni:4363,2955,2956,50,64,1626877750\ni:20907,13808,13808,1,1,1626877749\ni:8276,98000,98000,1,1,1626877749\ni:6796,49000,49000,7,7,1626877750\ni:9402,150000,150000,1,1,1626877749\ni:15420,9400,9558,7,190,1626877750\ni:24630,100000,100000,3,3,1626877750\ni:7910,18800,27039,56,73,1626877749\ni:1483,220000,220000,6,6,1626877749\ni:10096,40000,40000,1,1,1626877749\ni:24737,50000,50000,4,4,1626877750\ni:31875,8280000,8280000,3,3,1626877750\ni:24270,1897500,1897500,3,3,1626877749\ni:10593,99999,99999,2,2,1626877750\ni:2575,500000,500000,1,1,1626877750\ni:18332,34999,34999,4,4,1626877750\ni:14174,36799,36799,2,2,1626877750\ni:32409,2662500,2663749,9,9,1626877750\ni:4425,29000,29000,1,5,1626877749\ni:31142,259000,259000,4,3,1626877750\ni:29202,443938,443938,4,4,1626877750\ni:24750,49999,49999,6,6,1626877749\ni:24771,100000,100000,1,1,1626877750\ni:5783,1745915,1745915,1,1,1626877749\ni:13857,326660,326660,1,1,1626877749\ni:13070,309000,309000,1,1,1626877749\ni:3679,500000,500000,3,3,1626877750\ni:14046,15000,15000,25,25,1626877750\ni:3683,500000,500000,3,3,1626877750\ni:25898,2897499,2898332,10,10,1626877750\ni:20514,499000,499000,2,8,1626877750\ni:6350,61722,61722,1,1,1626877750\ni:12207,9000,9090,7,37,1626877750\ni:12208,2499,2499,10,73,1626877750\ni:19233,1007500,1007500,2,2,1626877750\ni:25697,2500000,2500000,1,1,1626877749\ni:4371,950,952,61,148,1626877750\ni:7276,8872,8872,1,1,1626877750\ni:24051,940997,941141,28,28,1626877750\ni:33173,2309900,2407450,8,8,1626877749\ni:15747,7700,7700,4,3,1626877750\ni:24909,200000,200000,2,2,1626877750\ni:5785,3000,3000,3,9,1626877750\ni:25001,50000,50000,2,2,1626877749\ni:15057,982866,982866,1,1,1626877749\ni:13497,149500,149500,5,5,1626877750\ni:24845,40000,40000,2,2,1626877750\ni:4369,60500,61312,31,31,1626877750\ni:15745,498000,498000,1,1,1626877750\ni:16723,208000,208000,1,1,1626877749\ni:11038,1500000,1500000,1,1,1626877750\ni:24028,1977500,1981944,36,36,1626877750\ni:22451,727000,728860,134,166,1626877749\ni:3388,24799,24799,11,27,1626877750\ni:25024,100000,100000,3,3,1626877750\ni:8216,418404,418404,1,1,1626877749\ni:8365,2900,3000,7,122,1626877750\ni:23799,79994,79994,5,5,1626877749\ni:2079,36000,36000,1,1,1626877749\ni:14344,122499,123998,321,977,1626877749\ni:21764,56500,57000,11,11,1626877750\ni:2672,9899,9899,6,41,1626877750\ni:25321,120000,120000,5,5,1626877749\ni:5631,5400,5400,10,46,1626877750\ni:34831,2999999,2999999,6,6,1626877750\ni:24617,200000,200000,2,2,1626877750\ni:27696,190000,192666,10,10,1626877750\ni:22850,899900,899900,1,4,1626877750\ni:9298,51000,51000,1,1,1626877750\ni:15762,1000000,1000000,1,1,1626877750\ni:22307,57500,58000,9,9,1626877750\ni:12803,6100,6684,47,74,1626877750\ni:24303,14000000,14000000,5,5,1626877750\ni:7974,5505,5505,24,205,1626877750\ni:4398,24800,24883,8,52,1626877749\ni:22795,399,590,17,77,1626877750\ni:23436,1835000,1842306,50,50,1626877750\ni:6712,9950,9950,40,40,1626877750\ni:12655,50000,50000,10,20,1626877750\ni:23825,20000000,20000000,1,1,1626877749\ni:10646,59000,59286,16,136,1626877750\ni:2851,46272,46272,1,1,1626877750\ni:7676,29800,29800,27,125,1626877750\ni:32067,139500,141444,14,92,1626877750\ni:27857,1600,1600,1,4,1626877750\ni:18639,3113120,3113120,1,1,1626877750\ni:9783,81199,81199,1,1,1626877750\ni:22897,2604545,2604545,2,1,1626877750\ni:3818,1995,2468,32,355,1626877750\ni:2080,40000,40000,1,1,1626877749\ni:4456,156534,156534,1,1,1626877749\ni:29904,500000,500000,3,3,1626877750\ni:7078,483,2240,92,340,1626877750\ni:23522,18009999,18009999,1,1,1626877749\ni:11603,600000,600000,1,1,1626877750\ni:4394,1687,1687,10,100,1626877750\ni:22861,1374998,1374998,40,40,1626877750\ni:24207,3005000,3005000,4,4,1626877750\ni:9802,100000,100000,1,1,1626877749\ni:9406,790000,790000,1,1,1626877750\ni:24722,50000,50000,4,4,1626877750\ni:13018,481925,481925,2,2,1626877750\ni:6219,55800,55800,1,1,1626877749\ni:4577,30400,30400,4,4,1626877750\ni:29956,499000,499000,2,2,1626877749\ni:15395,19999,19999,1,1,1626877749\ni:21845,1095000,1095000,23,27,1626877749\ni:6892,121000,121000,5,5,1626877750\ni:6040,30000,30000,29,29,1626877750\ni:25161,350000,350000,1,1,1626877750\ni:29729,5000000,5000000,3,3,1626877749\ni:13027,1100000,1100000,2,2,1626877750\ni:24609,250000,250000,3,3,1626877750\ni:14163,60000,60000,1,1,1626877750\ni:7080,2000,2216,31,44,1626877750\ni:9823,60000,60000,4,4,1626877750\ni:6311,503900,503900,1,1,1626877750\ni:24955,70000,70000,3,3,1626877750\ni:12422,1265980,1265980,2,2,1626877750\ni:11152,2800000,2800000,1,1,1626877749\ni:7934,1159567,1159567,1,1,1626877750\ni:11985,45000,45000,1,1,1626877750\ni:21944,99919,99919,1,1,1626877750\ni:4391,277999,277999,5,5,1626877750\ni:24607,400000,400000,1,1,1626877750\ni:19707,9900,9960,3,62,1626877750\ni:15760,59999,59999,1,1,1626877750\ni:23427,50000,53776,75,448,1626877749\ni:4090,99500,99500,3,3,1626877750\ni:23425,30000,30674,98,1123,1626877750\ni:8294,200000,200000,1,1,1626877749\ni:28102,14800,21459,42,153,1626877750\ni:22826,25000,25000,4,16,1626877750\ni:25318,150000,150000,1,1,1626877749\ni:14627,1000000,1000000,3,3,1626877749\ni:15074,213228,213228,1,1,1626877750\ni:18294,38000,38100,11,28,1626877750\ni:10018,213576,213576,1,1,1626877750\ni:6836,500000,500000,1,1,1626877749\ni:16203,97999,98207,24,43,1626877750\ni:31233,559153,559153,1,1,1626877749\ni:20863,60500,61144,3,15,1626877750\ni:24858,100000,100000,1,1,1626877750\ni:20828,19400,19600,41,41,1626877750\ni:184937,71500,71750,7,35,1626877750",
+	["g@ @userData@destroyingIgnore"] = {
+	},
+	["c@路易斯桑拿 - 伊弗斯@bankingUIContext@warehousingGroupTree"] = {
 		["collapsed"] = {
 		},
 		["unselected"] = {
 		},
 	},
-	["g@ @userData@destroyingIgnore"] = {
+	["s@路易斯桑拿 - Horde - 伊弗斯@internalData@playerProfessions"] = {
 	},
-	["s@路易斯桑拿 - Horde - 伊弗斯@internalData@money"] = 0,
-	["g@ @auctioningOptions@matchWhitelist"] = true,
-	["c@邁克爾假死 - 伊弗斯@internalData@auctionPrices"] = {
+	["g@ @internalData@destroyingHistory"] = {
 	},
-	["c@邁克爾假死 - 伊弗斯@mainUIContext@importGroupTree"] = {
+	["c@特變電工 - 伊弗斯@mainUIContext@importGroupTree"] = {
 		["collapsed"] = {
 		},
 		["selected"] = {
 		},
 	},
 	["g@ @tooltipOptions@vendorSellTooltip"] = true,
-	["g@ @coreOptions@minimapIcon"] = {
-		["minimapPos"] = 170.2092733147794,
-		["radius"] = 80,
-		["hide"] = false,
-	},
-	["c@邁克爾假死 - 伊弗斯@bankingUIContext@mailingGroupTree"] = {
+	["c@邁克爾假死 - 伊弗斯@bankingUIContext@auctioningGroupTree"] = {
 		["unselected"] = {
 		},
 		["collapsed"] = {
 		},
 	},
-	["c@畜生犬隊長 - 伊弗斯@vendoringUIContext@groupTree"] = {
-		["collapsed"] = {
-		},
-		["unselected"] = {
-		},
+	["g@ @craftingOptions@ignoreCharacters"] = {
 	},
+	["g@ @tooltipOptions@embeddedTooltip"] = true,
 	["c@畜生犬隊長 - 伊弗斯@internalData@auctionMessages"] = {
 	},
-	["f@Horde - 伊弗斯@gatheringContext@crafter"] = "",
-	["g@ @auctionUIContext@auctioningSelectionDividedContainer"] = {
-		["leftWidth"] = 272,
+	["c@特變電工 - 伊弗斯@internalData@craftingCooldowns"] = {
+	},
+	["s@邁克爾假死 - Horde - 伊弗斯@internalData@mailQuantity"] = {
+		["i:24998"] = 1,
+		["i:22457"] = 1,
+		["i:24886"] = 1,
+		["i:21877"] = 569,
+		["i:30810"] = 29,
+		["i:22576"] = 13,
+		["i:14047"] = 8,
+		["i:22829"] = 4,
+		["i:31952"] = 2,
+		["i:24623"] = 1,
+		["i:22578"] = 17,
+		["i:24246"] = 1,
+		["i:9172"] = 4,
+		["i:24666"] = 1,
+		["i:21882"] = 9,
+		["i:22572"] = 4,
+		["i:22577"] = 2,
+		["i:13446"] = 10,
+		["i:32902"] = 3,
+		["i:22575"] = 9,
+		["i:22573"] = 10,
+		["i:25041"] = 1,
+		["i:25719"] = 2,
+		["i:24991"] = 1,
+		["i:24643"] = 1,
+		["i:30809"] = 2,
+		["i:3823"] = 5,
+		["i:25057"] = 1,
+		["i:25012"] = 1,
+		["i:22574"] = 4,
+		["i:22832"] = 1,
 	},
 	["s@特變電工 - Horde - 伊弗斯@internalData@playerProfessions"] = {
 		["鍛造"] = {
@@ -3604,9 +3001,9 @@ TradeSkillMasterDB = {
 			["skillId"] = -1,
 		},
 		["附魔"] = {
-			["maxLevel"] = 75,
+			["maxLevel"] = 375,
 			["isSecondary"] = false,
-			["level"] = 1,
+			["level"] = 352,
 			["skillId"] = -1,
 		},
 		["急救"] = {
@@ -3624,14 +3021,11 @@ TradeSkillMasterDB = {
 	},
 	["g@ @userData@vendoringIgnore"] = {
 	},
-	["g@ @taskListUIContext@frame"] = {
-		["topRightY"] = -10,
-		["isOpen"] = true,
-		["topRightX"] = -220,
-		["minimized"] = false,
+	["s@路易斯桑拿 - Horde - 伊弗斯@internalData@bagQuantity"] = {
+		["i:6948"] = 1,
+		["i:117"] = 4,
 	},
-	["s@路易斯桑拿 - Horde - 伊弗斯@internalData@bankQuantity"] = {
-	},
+	["g@ @sniperOptions@sniperSound"] = "TSM_NO_SOUND",
 	["s@特變電工 - Horde - 伊弗斯@internalData@classKey"] = "WARRIOR",
 	["_currentProfile"] = {
 		["路易斯桑拿 - 伊弗斯"] = "Default",
@@ -3639,7 +3033,7 @@ TradeSkillMasterDB = {
 		["邁克爾假死 - 伊弗斯"] = "Default",
 		["畜生犬隊長 - 伊弗斯"] = "Default",
 	},
-	["c@路易斯桑拿 - 伊弗斯@auctionUIContext@shoppingGroupTree"] = {
+	["c@特變電工 - 伊弗斯@auctionUIContext@auctioningGroupTree"] = {
 		["collapsed"] = {
 		},
 		["unselected"] = {
@@ -3647,202 +3041,117 @@ TradeSkillMasterDB = {
 	},
 	["s@路易斯桑拿 - Horde - 伊弗斯@internalData@goldLogLastUpdate"] = 0,
 	["g@ @internalData@lastCharacter"] = "特變電工 - 伊弗斯",
-	["g@ @internalData@vendorItems"] = {
-		["i:2535"] = 61557,
-		["i:3033"] = 1,
-		["i:2160"] = 3955,
-		["i:22148"] = 1500,
-		["i:29170"] = 671595,
-		["i:2429"] = 9632,
-		["i:2321"] = 95,
-		["i:10647"] = 2000,
-		["i:2468"] = 5995,
-		["i:6217"] = 118,
-		["i:2928"] = 19,
-		["i:3588"] = 13648,
-		["i:2613"] = 578,
-		["i:33149"] = 85000,
-		["i:3713"] = 152,
-		["i:2475"] = 16433,
-		["i:16583"] = 10000,
-		["i:17202"] = 10,
-		["i:15907"] = 7001,
-		["i:4342"] = 2375,
-		["i:29721"] = 102000,
-		["i:31392"] = 204000,
-		["i:32070"] = 34000,
-		["i:14341"] = 4750,
-		["i:2325"] = 950,
-		["i:5565"] = 5000,
-		["i:2467"] = 8958,
-		["i:6260"] = 48,
-		["i:31393"] = 240000,
-		["i:3023"] = 3583,
-		["i:5140"] = 20,
-		["i:2469"] = 6018,
-		["i:17035"] = 400,
-		["i:25526"] = 51000,
-		["i:25903"] = 120000,
-		["i:2320"] = 10,
-		["i:2473"] = 24465,
-		["i:3024"] = 6743,
-		["i:2529"] = 55277,
-		["i:2509"] = 393,
-		["i:31949"] = 21,
-		["i:2324"] = 24,
-		["i:3371"] = 3,
-		["i:17020"] = 1000,
-		["i:4289"] = 42,
-		["i:17028"] = 700,
-		["i:28271"] = 68000,
-		["i:2470"] = 32254,
-		["i:10290"] = 2375,
-		["i:23618"] = 51000,
-		["i:4536"] = 25,
-		["i:17196"] = 50,
-		["i:6261"] = 950,
-		["i:17029"] = 1000,
-		["i:31804"] = 8500,
-		["i:18567"] = 127500,
-		["i:6532"] = 238,
-		["i:2474"] = 16371,
-		["i:3857"] = 425,
-		["i:2533"] = 61108,
-		["i:31390"] = 204000,
-		["i:2143"] = 3748,
-		["i:2880"] = 85,
-		["i:8925"] = 400,
-		["i:159"] = 25,
-		["i:17033"] = 2000,
-		["i:2530"] = 52220,
-		["i:5173"] = 80,
-		["i:8924"] = 80,
-		["i:17194"] = 10,
-		["i:6530"] = 95,
-		["i:31356"] = 34000,
-		["i:31395"] = 240000,
-		["i:2463"] = 13010,
-		["i:2616"] = 2527,
-		["i:29174"] = 108265,
-		["i:8343"] = 1900,
-		["i:2472"] = 32501,
-		["i:2471"] = 16189,
-		["i:6256"] = 22,
-		["i:4400"] = 1900,
-		["i:24417"] = 9,
-		["i:18256"] = 3400,
-		["i:3466"] = 1700,
-		["i:4291"] = 475,
-		["i:2464"] = 6528,
-		["i:2612"] = 155,
-		["i:22535"] = 100000,
-		["i:3893"] = 26147,
-		["i:22922"] = 85000,
-		["i:2526"] = 15469,
-		["i:4340"] = 332,
-		["i:17031"] = 1000,
-		["i:2617"] = 10442,
-		["i:2692"] = 38,
-		["i:22147"] = 5000,
-		["i:24429"] = 6800,
-		["i:3592"] = 1999,
-		["i:22918"] = 68000,
-		["i:29172"] = 671595,
-		["i:2145"] = 2517,
-		["i:2158"] = 1963,
-		["i:23574"] = 68000,
-		["i:2465"] = 11853,
-		["i:3025"] = 17555,
-		["i:2156"] = 2924,
-		["i:2604"] = 48,
-		["i:10648"] = 500,
-		["i:11291"] = 4500,
-		["i:3591"] = 1992,
-		["i:17021"] = 700,
-		["i:2534"] = 36345,
-		["i:25869"] = 68000,
-		["i:21177"] = 150,
-		["i:28632"] = 51000,
-		["i:24183"] = 102000,
-		["i:2142"] = 2490,
-		["i:29720"] = 51000,
-		["i:17038"] = 2000,
-		["i:25902"] = 120000,
-		["i:17030"] = 2000,
-		["i:2528"] = 44061,
-		["i:31394"] = 240000,
-		["i:2511"] = 1258,
-		["i:31391"] = 204000,
-		["i:31402"] = 102000,
-		["i:5441"] = 950,
-		["i:38518"] = 128,
-		["i:2431"] = 9704,
-		["i:11284"] = 5,
-		["i:2159"] = 3941,
-		["i:29194"] = 850000,
-		["i:3372"] = 34,
-		["i:2435"] = 26299,
-		["i:23814"] = 51000,
-		["i:17034"] = 200,
-		["i:3777"] = 32,
-		["i:2614"] = 1104,
-		["i:2144"] = 2507,
-		["i:29171"] = 2258294,
-		["i:2532"] = 52608,
-		["i:25835"] = 380785,
-		["i:7005"] = 70,
-		["i:4470"] = 38,
-		["i:2146"] = 4569,
-		["i:2596"] = 120,
-		["i:25735"] = 136000,
-		["i:2438"] = 19946,
-		["i:5956"] = 15,
-		["i:3587"] = 13598,
-		["i:30623"] = 85000,
-		["i:2516"] = 0,
-		["i:28060"] = 8,
-		["i:29173"] = 149559,
-		["i:4341"] = 475,
-		["i:2520"] = 20935,
-		["i:17037"] = 1400,
-		["i:25838"] = 153980,
-		["i:2678"] = 2,
-		["i:2615"] = 4837,
-		["i:17036"] = 800,
-		["i:2519"] = 0,
-		["i:3890"] = 9691,
-		["i:2931"] = 800,
-		["i:8923"] = 160,
-		["i:2665"] = 20,
-		["i:2531"] = 56170,
-		["i:15903"] = 6900,
-		["i:4399"] = 190,
-		["i:15904"] = 18452,
-		["i:15909"] = 18791,
-		["i:15906"] = 1817,
-		["i:33999"] = 17000000,
-		["i:15905"] = 1810,
-		["i:2141"] = 4963,
-		["i:3889"] = 7527,
-		["i:2894"] = 50,
-		["i:25836"] = 305748,
-		["i:25736"] = 119000,
-		["i:2901"] = 69,
-		["i:29192"] = 850000,
-		["i:2521"] = 26262,
-		["i:2432"] = 7306,
-		["i:3594"] = 5222,
-		["i:2434"] = 4908,
-		["i:2605"] = 95,
-		["i:17032"] = 2000,
-		["i:17026"] = 1000,
-		["i:2437"] = 26496,
-		["i:1179"] = 125,
-		["i:3892"] = 20843,
-		["i:25737"] = 119000,
-		["i:2440"] = 13394,
-		["i:3593"] = 5204,
-		["i:2618"] = 25308,
+	["f@Horde - 伊弗斯@internalData@mats"] = {
+		["i:2589"] = {
+		},
+		["i:22457"] = {
+		},
+		["i:21877"] = {
+		},
+		["i:7069"] = {
+		},
+		["i:2319"] = {
+		},
+		["i:28440"] = {
+		},
+		["i:12359"] = {
+		},
+		["i:7912"] = {
+		},
+		["i:3575"] = {
+		},
+		["i:3860"] = {
+		},
+		["i:1210"] = {
+		},
+		["i:2835"] = {
+		},
+		["i:3486"] = {
+		},
+		["i:21885"] = {
+		},
+		["i:3864"] = {
+		},
+		["i:22451"] = {
+		},
+		["i:4338"] = {
+		},
+		["i:7971"] = {
+		},
+		["i:23449"] = {
+		},
+		["i:2840"] = {
+		},
+		["i:2318"] = {
+		},
+		["i:1529"] = {
+		},
+		["i:3859"] = {
+		},
+		["i:5498"] = {
+		},
+		["i:4255"] = {
+		},
+		["i:8170"] = {
+		},
+		["i:4234"] = {
+		},
+		["i:2842"] = {
+		},
+		["i:14047"] = {
+		},
+		["i:23448"] = {
+		},
+		["i:3466"] = {
+		},
+		["i:3470"] = {
+		},
+		["i:818"] = {
+		},
+		["i:7966"] = {
+		},
+		["i:1705"] = {
+		},
+		["i:1206"] = {
+		},
+		["i:23572"] = {
+		},
+		["i:2841"] = {
+		},
+		["i:23446"] = {
+		},
+		["i:12365"] = {
+		},
+		["i:3577"] = {
+		},
+		["i:2592"] = {
+		},
+		["i:6037"] = {
+		},
+		["i:12360"] = {
+		},
+		["i:12644"] = {
+		},
+		["i:23445"] = {
+		},
+		["i:2605"] = {
+		},
+		["i:2838"] = {
+		},
+		["i:22573"] = {
+		},
+		["i:23573"] = {
+		},
+		["i:3478"] = {
+		},
+		["i:2880"] = {
+		},
+		["i:2836"] = {
+		},
+		["i:774"] = {
+		},
+		["i:4304"] = {
+		},
 	},
 	["g@ @auctioningOptions@confirmCompleteSound"] = "TSM_NO_SOUND",
 	["g@ @mainUIContext@operationsSummaryScrollingTable"] = {
@@ -3855,91 +3164,38 @@ TradeSkillMasterDB = {
 		["colHidden"] = {
 		},
 	},
-	["f@Horde - 伊弗斯@userData@craftingCooldownIgnore"] = {
+	["g@ @shoppingOptions@buyoutAlertSource"] = "min(100000g, 200% dbmarket)",
+	["g@ @vendoringUIContext@showDefault"] = true,
+	["g@ @mainUIContext@dashboardUnselectedCharacters"] = {
 	},
-	["g@ @coreOptions@chatFrame"] = "",
-	["s@畜生犬隊長 - Horde - 伊弗斯@internalData@goldLogLastUpdate"] = 1626316438,
-	["g@ @craftingUIContext@professionDividedContainer"] = {
-		["leftWidth"] = 520,
+	["c@特變電工 - 伊弗斯@internalData@auctionMessages"] = {
+		["一位買家已經購得你拍賣的魔鋼頭盔。"] = "|cff0070dd|Hitem:23519::::::::70::::::::|h[魔鋼頭盔]|h|r",
 	},
-	["c@特變電工 - 伊弗斯@mainUIContext@groupsManagementGroupTree"] = {
-		["collapsed"] = {
+	["g@ @vendoringUIContext@buybackScrollingTable"] = {
+		["colWidth"] = {
+			["qty"] = 40,
+			["item"] = 360,
+			["cost"] = 100,
+		},
+		["colHidden"] = {
 		},
 	},
-	["s@畜生犬隊長 - Horde - 伊弗斯@internalData@mailQuantity"] = {
-		["i:24998"] = 1,
-		["i:22457"] = 1,
-		["i:24886"] = 1,
-		["i:21877"] = 569,
-		["i:25057"] = 1,
-		["i:22576"] = 13,
-		["i:14047"] = 8,
-		["i:21882"] = 9,
-		["i:31952"] = 2,
-		["i:24623"] = 1,
-		["i:3823"] = 5,
-		["i:24246"] = 1,
-		["i:22577"] = 2,
-		["i:24666"] = 1,
-		["i:22829"] = 4,
-		["i:22572"] = 4,
-		["i:9172"] = 4,
-		["i:22573"] = 10,
-		["i:13446"] = 10,
-		["i:22575"] = 9,
-		["i:32902"] = 3,
-		["i:25041"] = 1,
-		["i:25719"] = 2,
-		["i:24991"] = 1,
-		["i:24643"] = 1,
-		["i:30809"] = 2,
-		["i:22578"] = 17,
-		["i:30810"] = 29,
-		["i:25012"] = 1,
-		["i:22574"] = 4,
-		["i:22832"] = 1,
+	["s@特變電工 - Horde - 伊弗斯@internalData@goldLog"] = "minute,copper\n27100378,0\n27100444,1000000\n27101241,990000\n27101262,1000000\n27104405,1250000\n27104409,1220000\n27104428,11220000\n27104451,11180000\n27104461,11190000\n27104473,11200000\n27104482,11230000\n27104487,11250000\n27104514,11260000\n27104523,11270000\n27104525,11290000\n27104536,11300000\n27104549,11310000\n27104559,11320000\n27104562,11340000\n27104563,11470000\n27104573,11480000\n27104576,11510000\n27104605,11520000\n27104613,11530000\n27104631,11550000\n27104632,11680000\n27104635,11720000\n27104652,11760000\n27104653,11770000\n27104660,11780000\n27104664,11800000\n27104676,11820000\n27104689,11860000\n27104696,5560000\n27104699,5210000\n27104703,5130000\n27104705,5230000\n27104709,5180000\n27104710,4440000\n27104719,4510000\n27104720,4540000\n27104721,3780000\n27104722,2330000\n27104756,2410000\n27104757,2390000\n27105262,2340000\n27105263,3630000\n27105265,3580000\n27105278,3520000\n27105283,3600000\n27105286,3590000\n27105293,3600000\n27105306,3610000\n27105320,3620000\n27105329,3640000\n27105336,3660000\n27105341,3680000\n27105351,3700000\n27105357,3740000\n27105359,3750000\n27105362,3770000\n27105364,3800000\n27105367,3790000\n27105369,3800000\n27105410,3810000\n27105430,3890000\n27105431,3900000\n27105440,3920000\n27105444,3930000\n27105450,3950000\n27105453,3970000\n27105457,4040000\n27105458,4100000\n27105488,4110000\n27105510,4220000\n27105511,4230000\n27105522,4370000\n27105524,4360000\n27105538,4420000\n27105552,4430000\n27105562,4450000\n27105569,4460000\n27105577,4540000\n27105579,4870000\n27105591,4880000\n27105596,4930000\n27105597,4960000\n27105608,4990000\n27105634,5020000\n27105635,5050000\n27105641,5060000\n27105642,5110000\n27105656,5180000\n27105659,5220000\n27105701,5250000\n27105703,5300000\n27105704,5330000\n27105718,5410000\n27105724,5470000\n27105726,5720000\n27105727,5830000\n27105757,5840000\n27105764,5870000\n27105765,5900000\n27105771,5930000\n27105772,6030000\n27105774,6060000\n27105783,6140000\n27105793,6150000\n27105803,6160000\n27105811,6170000\n27105819,6180000\n27105825,6190000\n27105851,6260000\n27105852,6370000\n27105855,6460000\n27105856,6510000\n27105871,6540000\n27105872,6660000\n27105876,6670000\n27105877,6430000\n27106020,6460000\n27106029,6470000\n27106036,6480000\n27106040,6590000\n27106046,6600000\n27106056,6630000\n27106073,6660000\n27106077,6690000\n27106079,6720000\n27106084,6730000\n27106112,6740000\n27106119,6750000\n27106124,6760000\n27106137,6770000\n27106142,6780000\n27106148,6790000\n27106150,6820000\n27106152,7500000\n27106153,7620000\n27106167,7710000\n27106168,7830000\n27106177,7840000\n27106181,7850000\n27106188,7860000\n27106191,7920000\n27106192,7980000\n27106198,7990000\n27106205,8000000\n27106215,8100000\n27106218,8180000\n27106219,8210000\n27106221,8230000\n27106224,8450000\n27106225,8510000\n27106708,8530000\n27106715,8560000\n27106724,8590000\n27106754,8620000\n27106755,8650000\n27106800,8660000\n27106808,8670000\n27106815,8680000\n27106826,8690000\n27106836,8730000\n27106842,8740000\n27106851,9060000\n27106852,9160000\n27106968,9170000\n27106974,9180000\n27106981,9190000\n27106987,9220000\n27106989,9230000\n27107011,9240000\n27107015,9250000\n27107081,9260000\n27107086,9320000\n27107095,9330000\n27107103,9340000\n27107114,9440000\n27107115,9690000\n27107116,9660000\n27107118,9690000\n27107119,9750000\n27107127,9940000\n27107131,9970000\n27107132,9990000\n27107230,10000000\n27107239,10010000\n27107244,10040000\n27107247,10050000\n27107253,10060000\n27107265,10070000\n27107269,10130000\n27107271,10140000\n27107274,10170000\n27107277,10200000\n27107278,10360000\n27107287,10450000\n27107292,10490000\n27107300,10500000\n27107317,10530000\n27107319,10540000\n27107329,10550000\n27107332,10580000\n27107339,10610000\n27107633,10620000\n27107640,10630000\n27107651,10640000\n27107653,10700000\n27107659,10710000\n27107662,10740000\n27107663,10810000\n27107665,10800000\n27107667,10830000\n27107674,10960000\n27107675,11430000\n27107677,10700000\n27107679,10670000\n27107680,10450000\n27107681,8420000\n27107682,5840000\n27107683,100000\n27107685,60100000\n27107697,60090000\n27107701,60110000\n27107702,60100000\n27107707,60090000\n27107713,60100000\n27107714,60140000\n27107715,59700000\n27108304,59290000\n27108309,59220000\n27108310,58580000\n27108311,58370000\n27108312,58110000\n27108313,58080000\n27108314,57980000\n27108315,57920000\n27108320,57950000\n27108321,57970000\n27108324,54950000\n27108325,54770000\n27108328,54730000\n27108329,54800000\n27108334,54620000\n27108343,54720000\n27108386,54820000\n27108410,54860000\n27108426,54870000\n27108436,54880000\n27108443,54890000\n27108460,55170000\n27108463,55300000\n27108464,55370000\n27108465,55400000\n27108470,55410000\n27108482,55440000\n27108484,55510000\n27108487,55520000\n27108491,55620000\n27108512,55660000\n27108530,55880000\n27108541,55890000\n27108548,56000000\n27108549,56110000\n27108551,56220000\n27108552,56330000\n27108554,56450000\n27108556,56560000\n27108560,56770000\n27108563,56890000\n27108590,56900000\n27108594,56910000\n27108610,57010000\n27108613,57020000\n27108616,57030000\n27108621,57040000\n27108626,57050000\n27108678,57060000\n27108684,57070000\n27108688,57140000\n27108691,57150000\n27108699,57220000\n27108700,57290000\n27108702,57750000\n27108704,57820000\n27108706,57810000\n27108714,57820000\n27108718,57830000\n27108725,57840000\n27108733,57850000\n27108742,57860000\n27108754,57870000\n27108759,57880000\n27108760,57890000\n27108763,57900000\n27108771,57910000\n27108778,57930000\n27108793,57940000\n27108801,57950000\n27108802,57960000\n27108814,57970000\n27108818,57980000\n27108824,57990000\n27108833,58000000\n27108842,58010000\n27108849,58110000\n27108854,58120000\n27108860,58220000\n27108861,58170000\n27108862,58440000\n27108870,58450000\n27108875,58460000\n27108886,58470000\n27108909,58480000\n27108910,58600000\n27108925,58610000\n27108932,58620000\n27108941,58630000\n27108953,58700000\n27108965,58730000\n27108973,58810000\n27108981,58880000\n27108984,58920000\n27108993,58930000\n27108999,58940000\n27109007,58950000\n27109015,59060000\n27109039,59100000\n27109044,59140000\n27109048,59150000\n27109058,59190000\n27109060,59200000\n27109064,59210000\n27109071,59280000\n27109073,59310000\n27109074,59380000\n27109075,59680000\n27109623,59720000\n27109628,59730000\n27109641,59770000\n27109645,59810000\n27109683,59820000\n27109702,59860000\n27109703,59900000\n27109712,59910000\n27109722,59990000\n27109745,60000000\n27109749,60010000\n27109755,59610000\n27109756,59420000\n27109763,59460000\n27109771,59540000\n27109783,59550000\n27109787,59580000\n27109788,59650000\n27109794,59880000\n27109798,59890000\n27109820,59950000\n27109821,59960000\n27109828,59970000\n27109831,60080000\n27109832,60070000\n27109835,60240000\n27109836,60260000\n27109840,60300000\n27109849,60340000\n27109851,60330000\n27109854,60340000\n27109867,60350000\n27109873,60430000\n27109879,60460000\n27109885,60470000\n27109891,60480000\n27109903,60490000\n27109907,60500000\n27109909,60520000\n27109910,60530000\n27109912,60600000\n27109915,60680000\n27109920,60690000\n27109928,60770000\n27110002,60810000\n27110004,60820000\n27110008,60830000\n27110010,60870000\n27110016,60910000\n27110021,60920000\n27110024,60990000\n27110026,61110000\n27110043,61120000\n27110046,61200000\n27110094,61210000\n27110105,61250000\n27110109,61330000\n27110110,61450000\n27110115,61460000\n27110120,61470000\n27110124,61480000\n27110130,61660000\n27110131,62060000\n27110132,62200000\n27110142,62240000\n27110151,62280000\n27110158,62320000\n27110185,62440000\n27110186,62560000\n27110187,62680000\n27110196,62690000\n27110200,62770000\n27110202,62780000\n27110208,62790000\n27110212,62800000\n27110213,800000\n27110311,870000\n27110481,86150000\n27110482,86130000\n27110491,86140000\n27110499,86150000\n27110504,86170000\n27110509,86180000\n27110517,86190000\n27110527,86200000\n27110531,86210000\n27110532,86220000\n27110540,86390000\n27111060,86890000\n27111132,86900000\n27111138,86910000\n27111147,86920000\n27111150,86930000\n27111160,86940000\n27111240,86950000\n27111247,86990000\n27111249,87100000\n27111264,87210000\n27111267,87220000\n27111271,87320000\n27111272,87530000\n27111277,87610000\n27111312,87620000\n27111317,87630000\n27111324,87640000\n27111353,87650000\n27111357,87660000\n27111376,87790000\n27111394,87950000\n27111395,87990000\n27111410,88000000\n27111411,88040000\n27111415,88050000\n27111419,88090000\n27111423,88100000\n27111429,88140000\n27111452,88180000\n27111460,88110000\n27111686,88120000\n27111687,88160000\n27111750,88290000\n27111893,83290000\n27112501,83280000\n27112508,83290000\n27112514,83300000\n27112518,83340000\n27112520,83360000\n27112525,83400000\n27112530,83410000\n27112532,83450000\n27112536,83460000\n27112539,83500000\n27112563,83550000\n27112571,83590000\n27112575,83600000\n27112579,83680000\n27112580,83720000\n27112637,83880000\n27112780,83890000\n27112785,83900000\n27112789,83910000\n27112798,83920000\n27112803,83930000\n27112823,83940000\n27112831,83950000\n27112834,83960000\n27112837,83970000\n27112843,83980000\n27112852,84070000\n27112853,84250000\n27112854,84270000\n27112861,84400000\n27112874,84410000\n27112879,84420000\n27112884,84430000\n27112887,84440000\n27112891,84450000\n27112899,84460000\n27112901,84480000\n27112907,84490000\n27112912,84500000\n27112914,84720000\n27112920,84760000\n27112925,84770000\n27112926,84780000\n27112930,84790000\n27112934,84800000\n27112938,84810000\n27112941,84820000\n27112947,84830000\n27112952,84840000\n27112958,84850000\n27112960,84870000\n27112989,84880000\n27112991,84890000\n27112997,84900000\n27113002,84910000\n27113006,84920000\n27113008,84930000\n27113014,84940000\n27113018,84950000\n27113022,84960000\n27113024,84970000\n27113031,27010000\n27113032,25010000\n27113036,24260000\n27113037,24380000\n27113038,24500000\n27113039,24350000\n27113041,22580000\n27113042,19610000\n27113043,13660000\n27113045,13760000\n27113049,9560000\n27113051,9380000\n27113053,9200000\n27113054,9180000\n27113055,9100000\n27113056,9050000\n27113057,8750000\n27113064,8380000\n27113065,8330000\n27113066,8320000\n27113069,8100000\n27113070,8030000\n27113071,8020000\n27113100,8090000\n27113102,7950000\n27113106,7800000\n27113107,7790000\n27113108,7770000\n27113118,57770000\n27113156,7770000\n27113162,7910000\n27113186,8090000\n27113187,8150000\n27113192,8040000\n27113193,7970000\n27113196,7920000\n27113198,8100000\n27113203,8060000\n27113204,8020000\n27113224,8050000\n27113247,8000000\n27113259,7960000\n27113265,8220000\n27113270,8690000\n27113271,8790000\n27113272,9070000\n27113273,9670000\n27113294,9680000\n27113298,9690000\n27113309,9700000\n27113315,9710000\n27113319,9720000\n27113325,9730000\n27113329,9750000\n27113330,9760000\n27113335,9780000\n27113340,9920000\n27113361,9820000\n27113393,9810000\n27113398,9760000\n27113399,9580000\n27113403,9590000\n27113987,9600000\n27113993,9610000\n27114005,9620000\n27114020,9630000\n27114025,9640000\n27114028,9660000\n27114029,10850000\n27114034,11080000\n27114055,11090000\n27114061,11100000\n27114062,11110000\n27114071,11120000\n27114082,11280000\n27114185,11330000\n27114189,10900000\n27114192,10850000\n27114194,10860000\n27114227,11020000\n27114228,11170000\n27114229,11180000\n27114258,11300000\n27114280,11310000\n27114284,11320000\n27114289,11330000\n27114293,11340000\n27114296,11350000\n27114303,11360000\n27114314,11370000\n27114322,11430000\n27114323,11550000\n27114339,11830000\n27114344,11840000\n27114353,11850000\n27114359,11860000\n27114366,11870000\n27114370,11880000\n27114378,11890000\n27114388,11900000\n27114393,11910000\n27114404,11920000\n27114407,11930000\n27114412,11940000\n27114421,11950000\n27114424,11960000\n27114428,12090000\n27114429,12220000\n27114482,12160000\n27114492,12170000\n27114496,12280000\n27114498,12290000\n27114502,12300000\n27114504,12370000\n27114508,12380000\n27114517,12460000\n27114521,12540000\n27114561,12560000\n27114582,12680000\n27114583,12920000\n27114634,10420000\n27114635,10410000\n27114650,10210000\n27114653,8490000\n27114657,8220000\n27114658,7960000\n27114659,7910000\n27114667,7410000\n27114681,7450000\n27114698,7490000\n27114701,7570000\n27114703,7580000\n27114706,7590000\n27114709,7600000\n27114715,7640000\n27114719,7650000\n27114723,7660000\n27114732,7700000\n27114753,7730000\n27114755,7750000\n27114756,7780000\n27114757,7790000\n27114758,7800000\n27114761,7810000\n27114775,7840000\n27114779,7850000\n27114812,7900000\n27114821,7940000\n27114842,7870000\n27114858,7910000\n27114866,7850000\n27114868,7780000\n27114869,7840000\n27114870,8030000\n27115408,8040000\n27115413,8050000\n27115417,8060000\n27115420,8070000\n27115427,8080000\n27115430,8280000\n27115432,8440000\n27115434,8420000\n27115489,8430000\n27115567,8510000\n27115574,8590000\n27115577,8600000\n27115583,8670000\n27115585,8750000\n27115586,8760000\n27115587,8860000\n27115589,8900000\n27115590,8960000\n27115591,9030000\n27115593,9130000\n27115594,9150000\n27115596,9230000\n27115598,9250000\n27115600,9300000\n27115602,9310000\n27115605,9320000\n27115817,9400000\n27115819,9460000\n27115832,9470000\n27115839,9480000\n27115846,9490000\n27115852,9780000\n27115862,9850000\n27115864,9950000\n27115869,10200000\n27115873,10530000\n27115874,10610000\n27115875,10560000\n27115884,10570000\n27115887,10580000\n27115895,10590000\n27115899,10600000\n27115908,10610000\n27115915,10620000\n27115920,10630000\n27115947,10640000\n27115967,10650000\n27115978,10660000\n27115981,10670000\n27115984,10680000\n27115990,10690000\n27115997,10700000\n27115999,10710000\n27116002,10720000\n27116009,10730000\n27116024,10740000\n27116029,10750000\n27116032,10760000\n27116039,10770000\n27116044,10780000\n27116047,10790000\n27116052,10800000\n27116057,10810000\n27116060,10930000\n27116061,10880000\n27116070,10890000\n27116073,10900000\n27116081,10910000\n27116085,10920000\n27116094,10930000\n27116096,10950000\n27116098,10960000\n27116100,10970000\n27116106,10980000\n27116114,11370000\n27116147,11380000\n27116161,10470000\n27116169,10450000\n27116184,10460000\n27116190,10470000\n27116194,10480000\n27116197,10490000\n27116201,10500000\n27116208,10510000\n27116210,10520000\n27116211,10530000\n27116217,10540000\n27116221,10460000\n27116351,4460000\n27117178,4590000\n27117203,4550000\n27117242,4560000\n27117799,4550000\n27118633,4470000\n27118909,4480000\n27119913,4460000\n27119916,4400000\n27119985,16840000\n27119986,10130000\n27119991,5960000\n27119992,4280000\n27119993,4100000\n27119994,4050000\n27119998,4040000\n27119999,4030000\n27120296,2030000\n27120494,2040000\n27123108,2070000\n27123109,2020000\n27123129,2030000\n27123134,2040000\n27123136,2050000\n27123148,2060000\n27123162,2350000\n27123266,2320000\n27123272,2330000\n27123275,2340000\n27123279,2350000\n27123284,2360000\n27123286,2370000\n27123289,2380000\n27123291,2400000\n27123300,2410000\n27123307,2570000\n27123344,2580000\n27123346,2750000\n27123352,2250000\n27123353,2800000\n27123354,2500000\n27123367,1610000\n27123380,1620000\n27123385,1650000\n27123387,1660000\n27123390,1670000\n27123395,1680000\n27123401,1720000\n27123405,1730000\n27123410,1740000\n27123414,1780000\n27123438,1800000\n27123439,1820000\n27123441,1850000\n27123443,1860000\n27123444,1890000\n27123483,1930000\n27123498,1970000\n27123521,1980000\n27123526,2020000\n27123534,2060000\n27123544,2070000\n27123545,1990000\n27123558,2030000\n27123577,2070000\n27124051,2080000\n27124055,2090000\n27124059,2100000\n27124068,2110000\n27124070,2120000\n27124073,2130000\n27124075,2140000\n27124083,2150000\n27124085,2310000\n27124086,2420000\n27124101,22420000\n27124105,19100000\n27124108,19080000\n27124119,18230000\n27124133,18240000\n27124141,18250000\n27124145,18260000\n27124150,18270000\n27124151,18280000\n27124153,18290000\n27124160,18300000\n27124164,18310000\n27124176,18320000\n27124272,18330000\n27124276,18340000\n27124279,18350000\n27124289,18360000\n27124291,18370000\n27124293,18380000\n27124301,18390000\n27124311,18730000\n27124312,18750000\n27124319,18760000\n27124336,18780000\n27124349,18790000\n27124586,18870000\n27124589,18880000\n27124690,18800000\n27124727,18760000\n27124729,18770000\n27124733,18780000\n27124737,18790000\n27124742,18800000\n27124749,18810000\n27124756,18820000\n27124773,18830000\n27124784,18840000\n27124790,18850000\n27124796,18860000\n27124808,18980000\n27124814,18990000\n27124832,19000000\n27124834,19010000\n27124835,19020000\n27124841,19030000\n27124849,19040000\n27124852,19050000\n27124863,19540000\n27124872,19440000\n27124897,19340000\n27124958,19460000\n27125555,19310000\n27125583,19320000\n27125620,19330000\n27125628,19340000\n27125632,19350000\n27125634,19360000\n27125655,19730000\n27125713,19660000\n27125729,19740000\n27125733,19810000\n27125734,19800000\n27125735,19840000\n27125825,19850000\n27125831,19860000\n27125837,19870000\n27125842,19880000\n27125849,19890000\n27125855,19900000\n27125865,19910000\n27125880,19940000\n27125892,19950000\n27125897,19960000\n27125901,19970000\n27125920,19980000\n27125928,19990000\n27125943,20000000\n27125951,20010000\n27125959,20020000\n27125962,20040000\n27125965,20050000\n27125969,20060000\n27125970,19980000\n27125981,19990000\n27125984,20000000\n27125990,20010000\n27125995,20020000\n27126000,20030000\n27126003,20040000\n27126011,20050000\n27126012,20070000\n27126024,20080000\n27126029,20090000\n27126036,20100000\n27126039,20110000\n27126042,20230000\n27126060,20390000\n27126071,20400000\n27126091,20410000\n27126094,20420000\n27126096,20430000\n27126098,20360000\n27126103,20370000\n27126122,20380000\n27126134,20390000\n27126151,20470000\n27126152,20570000\n27126159,20560000\n27126160,20520000\n27126163,20530000\n27126170,20640000\n27126172,20470000\n27126175,20370000\n27126233,20420000\n27126256,20430000\n27126281,20440000\n27126294,20450000\n27126304,20460000\n27126320,20470000\n27126350,20450000\n27126352,20470000\n27126353,20460000\n27126355,20450000\n27126356,20440000\n27126357,20450000\n27126358,20460000\n27126958,24900000\n27126965,23650000\n27126967,22430000\n27127106,23330000\n27127107,23270000\n27127127,23280000\n27127135,23290000\n27127139,23300000\n27127146,23310000\n27127151,23320000\n27127163,23330000\n27127182,18590000\n27127184,16200000\n27127185,14610000\n27127186,14620000\n27127187,13020000\n27127192,7180000\n27127193,6240000\n27127199,106240000\n27127203,97340000\n27127204,94940000\n27127205,92670000\n27127211,92590000\n27127212,87590000\n27127213,83720000\n27127214,82750000\n27127215,82540000\n27127226,82340000\n27127234,79840000\n27127235,79820000\n27127243,79800000\n27127463,80040000\n27127524,79960000\n27127529,82510000\n27127718,82520000\n27127850,83470000\n27128400,83480000\n27128402,83490000\n27128407,83500000\n27128422,83420000\n27128424,83350000\n27128457,83360000\n27128619,83330000\n27128848,84480000\n27128850,84000000\n27128852,83930000\n27129138,83880000\n27129878,83030000\n27129879,84120000\n27129881,84080000\n27129950,84090000\n27129955,84100000\n27129958,84110000\n27130146,84120000\n27130169,84070000\n27130176,83820000\n27130225,83830000\n27130231,83840000\n27130242,83850000\n27130251,83860000\n27130262,83870000\n27130269,83880000\n27130277,83890000\n27130282,83900000\n27130311,83010000\n27130312,81790000\n27130313,82130000\n27130316,82190000\n27130322,82200000\n27130328,82210000\n27130344,82310000\n27130372,82410000\n27130380,73410000\n27130445,73600000\n27130450,69600000\n27130458,75140000\n27130473,75110000\n27130499,75120000\n27130503,75140000\n27130506,75150000\n27130510,75160000\n27130526,75410000\n27130527,75440000\n27130573,75450000\n27130577,75460000\n27130584,75470000\n27130588,75480000\n27130595,75490000\n27130598,75500000\n27130602,75510000\n27130605,75520000\n27130606,75530000\n27130640,75540000\n27130649,75640000\n27130650,75600000\n27131942,75590000\n27131993,75600000\n27131997,75630000\n27132000,75640000\n27132004,75650000\n27132008,75660000\n27132013,75690000\n27132015,75700000\n27132018,75710000\n27132025,75720000\n27132028,75760000\n27132050,75800000\n27132055,75820000\n27132056,75850000\n27132057,75860000\n27132070,75900000\n27132074,75910000\n27132090,75950000\n27132093,75960000\n27132102,76000000\n27132109,75990000\n27132122,76040000\n27132142,76080000\n27132148,76190000\n27133312,75890000\n27133319,75830000\n27133460,74980000\n27133491,74960000\n27134907,75080000\n27134970,75090000\n27136376,75210000\n27137698,75180000\n27137777,75300000\n27137802,75360000\n27138481,75370000\n27138580,75300000\n27138866,75420000\n27138883,75440000\n27138987,72510000\n27138988,72000000\n27138990,71960000\n27138991,71790000\n27138992,70390000\n27138993,68680000\n27138996,68280000\n27139076,67700000\n27139077,67660000\n27139081,67570000\n27139083,67470000\n27139189,67440000\n27139967,66630000\n27139968,66570000\n27139969,66530000\n27140234,66480000\n27140294,66600000\n27140407,66570000\n27140408,66550000\n27140409,66440000\n27140410,66970000\n27140412,66960000\n27140419,66740000\n27140422,96740000\n27140428,96390000\n27140432,96370000\n27140444,96470000\n27140495,96570000\n27140499,96270000\n27140501,95870000\n27140554,96070000\n27140561,79070000\n27140563,80070000\n27140568,85720000\n27140573,85970000\n27140602,85980000\n27140613,85990000\n27140618,86000000\n27140622,86010000\n27140633,86020000\n27140637,86030000\n27140644,86040000\n27140648,86050000\n27140657,86060000\n27140665,86070000\n27140674,86080000\n27140676,86090000\n27140685,86340000\n27140705,86220000\n27140707,36220000\n27141969,36230000\n27141974,36240000\n27141978,36250000\n27141983,36260000\n27141987,36280000\n27141989,36290000\n27141995,36300000\n27142001,36310000\n27142009,36320000\n27142017,36330000\n27142024,36570000\n27142031,36620000\n27142065,36740000\n27142082,36780000\n27142087,36800000\n27142091,36810000\n27142095,36840000\n27142098,36850000\n27142102,36860000\n27142109,36900000\n27142116,36910000\n27142123,36950000\n27142133,36960000\n27142134,36970000\n27142135,36990000\n27142136,37000000\n27142152,37040000\n27142170,37050000\n27142176,37080000\n27142197,37120000\n27142201,37130000\n27142209,37080000\n27142225,37110000\n27142258,37160000\n27142260,37100000\n27143492,36650000\n27143507,36590000\n27144874,36710000\n27147797,36830000\n27147872,36790000\n27147874,36760000\n27147875,36310000\n27147883,36320000\n27147888,36330000\n27147896,36340000\n27147902,36350000\n27147906,36360000\n27147912,36370000\n27147915,36390000\n27147922,36400000\n27147925,36410000\n27147928,36420000\n27147937,36430000\n27147939,36450000\n27147945,36700000\n27147946,36880000\n27148703,145070000\n27148732,145080000\n27148736,145090000\n27148749,145100000\n27148754,145110000\n27148761,145120000\n27148767,145130000\n27148775,145140000\n27148779,145150000\n27148788,145160000\n27148793,145170000\n27148799,145180000\n27148803,145200000\n27148808,145450000\n27148809,145480000\n27148815,144980000\n27148852,144990000\n27148862,144660000\n27148863,140920000\n27148864,140910000\n27148897,140880000\n27148954,140460000\n27148998,140570000\n27149034,140580000\n27149062,140690000\n27149068,140940000\n27149085,140770000\n27149086,136020000\n27149087,135320000\n27149101,134820000\n27149125,134830000\n27149130,134850000\n27149131,134860000\n27149135,134870000\n27149153,134980000\n27149154,135020000\n27149160,134910000\n27149161,134970000\n27149178,134980000\n27149183,134990000\n27149187,135000000\n27149190,135010000\n27149191,135020000\n27149195,135030000\n27149199,135040000\n27149220,135050000\n27149228,135060000\n27149235,135070000\n27149259,135180000\n27149260,135320000\n27149272,135180000\n27149283,135190000\n27149287,135200000\n27149293,135210000\n27149301,135220000\n27149304,135230000\n27149309,135400000\n27149324,135410000\n27149327,135420000\n27149329,135430000\n27149332,135440000\n27149337,135450000\n27149340,135460000\n27149345,135470000\n27149378,132590000\n27149379,111340000\n27149386,110270000\n27149390,110280000\n27178911,81680000\n27178917,81510000\n27178920,81420000\n27178921,81520000",
+	["s@畜生犬隊長 - Horde - 伊弗斯@internalData@auctionQuantity"] = {
 	},
-	["c@畜生犬隊長 - 伊弗斯@internalData@auctionPrices"] = {
+	["s@特變電工 - Horde - 伊弗斯@internalData@auctionQuantity"] = {
+		["i:23519"] = 3,
 	},
-	["c@邁克爾假死 - 伊弗斯@auctionUIContext@auctioningGroupTree"] = {
-		["unselected"] = {
-		},
-		["collapsed"] = {
-		},
+	["s@特變電工 - Horde - 伊弗斯@internalData@reagentBankQuantity"] = {
 	},
-	["g@ @tooltipOptions@operationTooltips"] = {
-		["Mailing"] = false,
-		["Auctioning"] = false,
-		["Crafting"] = false,
-		["Warehousing"] = false,
-		["Vendoring"] = false,
-		["Sniper"] = false,
-		["Shopping"] = false,
-	},
-	["g@ @shoppingOptions@buyoutConfirm"] = false,
+	["s@特變電工 - Horde - 伊弗斯@internalData@goldLogLastUpdate"] = 1630771964,
 }
 TSMItemInfoDB = {
 	["locale"] = "zhTW",
-	["revision"] = "39603",
+	["revision"] = "40045",
 	["version"] = 7,
-	["build"] = "2.5.1",
-	["itemStrings"] = {
-		"i:25071:-13i:25071:-6i:25071:-5i:25071:-31i:25071:-33i:25071:-43i:25071:-37i:24889:-17i:24889:-18i:24889:-19i:24889:-31i:24889:-34i:24889:-14i:10408:1030i:15535:1187i:25286:-15i:25286:-39i:25286:-36i:24638:-32i:10514i:20828i:24858i:20863i:32423i:9312i:13757i:19272i:20753i:23764i:6377i:15306i:15760i:19707i:24607i:4391i:21944i:16219i:7934i:20862i:20823i:24955i:24885i:18984i:6476i:937i:2984i:12208i:14821i:24589i:21845i:6371i:23148i:4577i:6219i:24403i:15599i:24207i:4394i:21299i:21859i:29734i:13423i:3818i:7542i:18639i:3203i:20854i:7078i:10646i:4358i:16000i:6712i:20860i:7974i:19701i:12803i:5075i:8393i:23144i:27696i:4412i:15752i:2672i:21764i:10207i:4363i:12229i:8365i:3388i:6369i:12239i:23595i:20827i:4369i:24845i:13497i:24853i:16223i:22902i:15747i:7728i:4371i:184937i:12207i:22375i:3683i:14046i:3679i:13857i:12631i:10325i:3075i:24879i:29460i:25098i:10593i:13132i:31875i:4096i:18361i:24630i:15420i:4398i:15994i:27685i:19710i:14593i:14943i:15046i:24964i:24913i:10601i:17193i:14272i:12618i:15236i:12808i:18948i:6385i:7082i:3847i:7676i:7362i:23787i:23153i:5771i:11039i:21843i:6239i:28291i:12792i:14155i:10576i:2584i:16767i:21993i:7047i:19715i:6543i:25077i:4349i:7961i:12414i:15761i:7947i:24658i:13870i:9294i:12408i:24214i:31243i:29731i:7556i:13064i:10501i:23520i:25007i:7924i:25087i:15082i:10045i:3382i:20424i:29904i:23524i:21933i:12783i:22532i:28539i:3849i:12006i:15992i:15999i:4077i:17061i:14627i:16006i:14775i:27666i:6576i:10586i:28280i:24753i:10728i:17704i:8154i:12163i:9305i:10320i:9252i:30420i:6068i:22642i:8146i:15757i:24600i:3292i:1288i:16224i:10018i:34535i:10040i:16054i:19814i:13478i:5782i:19816i:5541i:24633i:2878i:2163i:12547i:19818i:5216i:23131i:13044i:24825i:12015i:9892i:13446i:6381i:2407i:15076i:23826i:24612i:12704i:6047i:2291i:14659i:24222i:22308i:11382i:1973i:8067i:25019i:31187i:8485i:10573i:13032i:14173i:23521i:4374i:4861i:24200i:13125i:24865i:4346i:1081i:7520i:3928i:20871i:14634i:7356i:1720i:13443i:4715i:6714i:15056i:7076i:24984i:24632i:10285i:12202i:31080i:7060i:7081i:16247i:24892i:31219i:15260i:4051i:32079i:18637i:7070i:24686i:15375i:20868i:5789i:12625i:17414i:30804i:17723i:10560i:5637i:8492i:2633i:15779i:25311i:24620i:14526i:3685i:15971i:8194i:6787i:15737i:10316i:1678i:7928i:10502i:3869i:25153i:31878i:27669i:6325i:18662i:14956i:21071i:27659i:7360i:7960i:15264i:9251i:18486i:10512i:11163i:4370i:2452i:17722i:25254i:9771i:2303i:7048i:6263i:3821i:25259i:9901i:8157i:25045i:3868i:3173i:15728i:6056i:29729i:4047i:4314i:24839i:18780i:13893i:25089i:10602i:13466i:24871i:7148i:10513i:23782i:12804i:14443i:24296i:12420i:9060i:2700i:24837i:5957i:12429i:23594i:3404i:27439i:7975i:31331i:25166i:18359i:33867i:25238i:3355i:12624i:24220i:2799i:15419i:29292i:24687i:11287i:17683i:13458i:20752i:7519i:24611i:7954i:16084i:24618i:15416i:2579i:20520i:15045i:27700i:29158i:14476i:20950i:21992i:25438i:13102i:13036i:20826i:31139i:11608i:14555i:4393i:13459i:22563i:20955i:3856i:15748i:10054i:2869i:29157i:8217i:1645i:4597i:12633i:13949i:4359i:25708i:11289i:4250i:18594i:20973i:15048i:10507i:728i:5756i:2289i:2915i:7431i:14142i:5466i:9405i:24950i:9748i:8218i:11164i:24898i:30483i:29159i:15156i:3484i:21754i:25005i:14678i:4240i:24681i:12974i:25067i:23786i:35564i:11590i:2059i:7062i:16046i:20754i:24300i:14551i:9434i:10546i:15214i:25060i:12205i:10326i:14748i:13462i:25847i:10196i:31877i:25848i:24962i:19051i:24634i:16654i:3047i:15743i:8207i:8497i:14467i:24986i:25028i:18665i:24988i:4355i:12048i:10508i:4364i:12410i:4366i:24971i:5739i:21752i:25207i:14435i:10393i:10019i:12682i:5770i:11981i:21952i:2311i:27437i:10035i:12028i:25109i:8196i:20408i:7057i:5785i:4378i:21340i:8932i:24857i:7361i:8500i:24075i:21934i:6585i:17413i:10311i:27668i:5631i:8349i:6657i:4294i:5633i:15762i:6417i:6580i:19441i:24675i:7189i:730i:24305i:9262i:11999i:14144i:24192i:27690i:21792i:5071i:24197i:7053i:9435i:13492i:9424i:25439i:24088i:24206i:22385i:10504i:20821i:3490i:24904i:9391i:15079i:24194i:7490i:27694i:7446i:2981i:4308i:8496i:866i:23510i:17716i:12428i:2577i:24878i:23821i:18356i:2580i:24613i:7995i:5542i:4375i:10031i:10003i:12777i:25463i:12422i:7080i:24990i:21775i:13869i:5786i:7506i:9819i:2569i:15223i:20958i:25110i:10606i:15243i:4403i:6892i:11101i:20755i:2983i:4365i:10500i:12029i:24609i:16009i:22539i:24653i:2825i:6289i:6661i:20961i:14130i:3013i:16806i:31133i:4777i:22307i:13479i:25288i:7608i:14103i:27688i:5973i:3740i:19271i:9820i:24647i:13082i:25047i:14256i:9870i:4307i:6308i:22795i:33924i:15282i:4361i:34832i:25124i:24623i:10604i:8150i:6605i:9791i:9303i:31339i:27689i:8386i:5489i:3682i:10392i:31214i:13058i:25102i:21277i:25656i:19232i:18263i:25660i:23827i:2598i:21902i:6359i:4380i:25117i:11290i:24615i:24089i:4323i:25725i:24583i:25887i:19708i:13461i:5764i:12219i:12240i:11305i:11302i:15286i:21854i:24585i:13942i:31235i:7942i:1465i:2568i:24117i:3827i:21943i:4305i:10033i:34060i:14048i:8203i:23816i:3837i:14598i:6310i:20007i:9260i:4414i:24890i:22903i:25905i:31204i:24882i:10050i:2582i:7084i:4345i:24907i:12628i:24116i:6266i:27693i:13856i:13860i:118i:12703i:3831i:23507i:25001i:16646i:5819i:25016i:31673i:14588i:14949i:10308i:24899i:19706i:14514i:1988i:1207i:16671i:24998i:11203i:10506i:24171i:5485i:34861i:9849i:13945i:25010i:3731i:25305i:12811i:24806i:22249i:4710i:14227i:23571i:25224i:9769i:9296i:22525i:23867i:7050i:7086i:10321i:12228i:30437i:24642i:5469i:4321i:23152i:24163i:25306i:3172i:21842i:19183i:7063i:11737i:6342i:3867i:25303i:6264i:1195i:11185i:11023i:7087i:7278i:6149i:25300i:8200i:24941i:27697i:3745i:1640i:10024i:6045i:32411i:1483i:25104i:4087i:24824i:7543i:23622i:11733i:10191i:22839i:13926i:25048i:25020i:8226i:6616i:25013i:10360i:31159i:6419i:22374i:24692i:25327i:34440i:31342i:16245i:2864i:19813i:25318i:6551i:31211i:19767i:16653i:3474i:25112i:15995i:24199i:10027i:10858i:14141i:6368i:24852i:13885i:5470i:25241i:8836i:25017i:24606i:27425i:15409i:31178i:7753i:4379i:15414i:9779i:25046i:6536i:9030i:14285i:765i:7049i:25079i:31136i:20830i:6538i:12031i:12233i:6291i:28495i:25175i:14630i:4299i:2990i:23810i:25276i:4292i:1744i:25320i:3210i:4318i:6362i:9861i:3335i:24648i:21766i:9144i:12691i:7340i:3369i:5788i:3185i:28101i:22871i:20498i:15127i:24996i:25097i:24886i:27859i:24909i:25682i:7068i:38327i:25034i:2996i:22797i:31330i:24875i:19713i:25044i:14240i:24831i:12416i:2302i:16008i:4238i:10180i:28493i:25319i:25107i:24306i:7917i:22904i:21941i:24847i:15069i:25893i:11018i:15077i:19700i:7447i:14639i:27516i:14242i:10329i:3914i:12695i:15523i:24659i:25155i:27660i:15493i:25236i:10041i:7914i:2881i:15230i:25263i:20964i:15725i:22787i:20769i:21801i:27687i:24608i:19820i:15067i:24251i:11732i:4575i:29570i:9927i:11166i:14111i:20855i:31196i:22309i:13130i:27681i:4360i:7418i:23737i:3174i:6055i:14494i:24114i:24121i:20909i:2246i:19057i:24680i:11288i:24203i:7079i:7450i:23802i:7051i:31299i:4384i:33093i:13079i:24953i:3610i:3841i:11225i:23884i:3356i:16218", -- [1]
-		"i:17012i:7480i:24944i:8395i:4416i:3873i:8400i:24946i:14207i:23866i:20406i:20832i:25867i:25191i:1990i:25302i:25200i:24756i:24640i:24989i:19714i:10282i:25002i:12607i:25209i:4401i:13074i:6052i:31248i:25662i:4409i:12694i:19933i:10176i:13865i:25657i:5486i:15222i:30155i:13759i:4570i:9788i:14370i:9945i:21932i:4998i:23785i:4456i:8169i:15925i:13091i:4417i:2570i:4479i:34061i:24670i:8172i:18949i:3609i:25201i:28279i:8204i:3735i:8346i:23638i:31554i:12619i:9385i:15735i:24980i:10423i:3667i:12040i:2408i:24834i:20452i:12531i:25066i:31230i:6344i:19258i:12406i:7280i:7929i:5740i:4037i:10548i:4373i:22785i:20295i:29901i:25906i:19236i:12427i:25041i:25011i:9830i:21942i:10499i:24291i:13087i:17010i:17721i:27699i:24479i:12203i:12232i:24210i:14132i:24202i:20969i:24603i:22645i:5116i:8143i:13928i:13758i:24975i:6471i:25181i:10300i:5543i:23625i:10309i:8394i:12693i:6610i:12009i:15423i:18600i:25802i:24629i:15303i:31154i:20817i:2447i:10030i:9061i:16723i:13055i:7191i:25321i:25334i:7937i:2572i:31293i:20975i:11038i:14478i:11205i:23746i:21945i:31150i:8151i:22393i:12231i:19698i:4408i:14243i:13040i:25018i:7373i:22897i:12784i:10008i:5833i:24656i:33874i:13038i:24586i:7976i:27429i:21151i:4800i:3850i:9291i:25289i:16113i:22845i:25323i:4353i:22849i:13146i:15927i:29391i:15407i:4603i:11188i:9821i:4320i:10053i:24866i:24644i:9942i:22529i:20576i:10166i:15252i:21767i:2277i:28498i:21897i:24816i:8171i:814i:6611i:23803i:24997i:11206i:20872i:22246i:13754i:35557i:24823i:25649i:4386i:21765i:5471i:3832i:23633i:31140i:7026i:23765i:31328i:27662i:8165i:24772i:10044i:3195i:5207i:4727i:24881i:22791i:2406i:24916i:25085i:5117i:19703i:21861i:7609i:29529i:15491i:10264i:3840i:7288i:20500i:33823i:22557i:24934i:19268i:6274i:16214i:21867i:24942i:6421i:9848i:18731i:5484i:5578i:14159i:14376i:5762i:868i:18401i:3291i:3393i:8391i:12435i:13948i:4348i:25115i:4324i:25223i:5342i:19815i:8409i:24843i:8367i:4339i:31202i:22553i:24164i:19260i:19726i:23575i:3576i:10559i:4828i:943i:15150i:22794i:14097i:27665i:24218i:24599i:7375i:4090i:13144i:23447i:25844i:7456i:20820i:23761i:25744i:10055i:15408i:7058i:13009i:25899i:15255i:19259i:24893i:18587i:22793i:7932i:22790i:15385i:18254i:31329i:14926i:24811i:25076i:31272i:8490i:31332i:30422i:10266i:8205i:25269i:24601i:12689i:22739i:8167i:23203i:2140i:24842i:19280i:14900i:31671i:8208i:21309i:10103i:10644i:2924i:13030i:5504i:24668i:33825i:31336i:22912i:7072i:2194i:12683i:4786i:35720i:4395i:25196i:13442i:20833i:18335i:23140i:18655i:18045i:14168i:23781i:24166i:10046i:25152i:22194i:15773i:2236i:30745i:15745i:4241i:27422i:2459i:13309i:14895i:24912i:25058i:16702i:9210i:16055i:2455i:18364i:5182i:15614i:15241i:7455i:15417i:10084i:29902i:12043i:24649i:11040i:27664i:4582i:29732i:9824i:20668i:24808i:20407i:11208i:24689i:15755i:23514i:30156i:14468i:21358i:9301i:14722i:31200i:13931i:25093i:20758i:25849i:23151i:24270i:14100i:29540i:4322i:27691i:25907i:12032i:4368i:13025i:25661i:7332i:35566i:32468i:24918i:31677i:6390i:14471i:7452i:10301i:14477i:13068i:22526i:869i:23623i:21547i:22847i:3845i:29953i:27667i:22901i:22195i:3826i:2078i:18712i:27695i:24976i:24959i:20907i:6328i:10023i:15607i:7483i:4738i:8153i:932i:13929i:5095i:29547i:3852i:14591i:21893i:5572i:5082i:25700i:24939i:23630i:24826i:18232i:24841i:24683i:24622i:25015i:24594i:24616i:24587i:27663i:27657i:12190i:24914i:17706i:25237i:15080i:25148i:7938i:8499i:13422i:8350i:10605i:31255i:21896i:10002i:14563i:4312i:16243i:4609i:24625i:8489i:29160i:10561i:7089i:25091i:14101i:7114i:3680i:8401i:24316i:30746i:28399i:20960i:24602i:22376i:17011i:2997i:25298i:24869i:23525i:11223i:23626i:4330i:19774i:4381i:24657i:5134i:6272i:29726i:20008i:16253i:1725i:4731i:2576i:7935i:23799i:20075i:13126i:6039i:13101i:34482i:24678i:5426i:2877i:24812i:4383i:13043i:24074i:29957i:10063i:5503i:24242i:4426i:24846i:24643i:31275i:8498i:6475i:12363i:31940i:9253i:24253i:3387i:15075i:14552i:31284i:9908i:15073i:4385i:37915i:15412i:2674i:22012i:24896i:7279i:21779i:4372i:25726i:11407i:23883i:1015i:20816i:6416i:15051i:15422i:13941i:29956i:24940i:13932i:11972i:7613i:8846i:7451i:15997i:24855i:13114i:14479i:783i:13946i:13007i:23635i:21954i:23154i:31326i:31176i:3843i:31147i:4789i:6326i:18262i:20513i:10009i:3681i:14342i:28501i:7540i:24736i:24701i:24932i:24631i:24994i:24169i:20966i:4232i:22826i:22527i:15213i:24655i:24666i:1996i:12251i:12409i:15272i:7534i:12012i:10127i:10129i:25164i:25205i:12794i:4278i:7916i:24903i:4407i:24619i:31142i:21876i:18363i:10004i:25000i:28542i:7453i:6579i:25127i:15340i:14566i:30748i:14429i:16248i:4091i:1607i:18641i:23628i:25287i:27435i:24870i:1447i:12632i:27692i:2450i:7730i:15211i:22913i:3829i:13467i:10562i:24654i:15746i:19282i:10072i:25008i:13760i:22647i:10498i:10607i:1721i:2912i:4392i:24637i:2075i:6587i:5069i:6474i:25004i:15525i:15331i:31149i:14367i:12828i:12417i:6049i:15251i:15613i:4300i:18588i:31287i:25297i:15744i:9812i:25416i:22891i:21768i:13468i:14510i:2698i:2601i:15508i:1204i:15298i:16221i:21342i:14365i:25291i:31578:-45i:8206i:4781i:13890i:7913i:4313i:15501i:22828i:24662i:15049i:4309i:29426i:24304i:29730i:25059i:10047i:24077i:19264i:24406i:7460i:24867i:4425i:24663i:14177i:21953i:14185i:9956i:6372i:25304i:4075i:12035i:4792i:3770i:23090i:9960i:14188i:15250i:11304i:9297i:12014i:25125i:27698i:25895i:9864i:3384i:13094i:9871i:7441i:31134i:24874i:4293i:31340i:16072i:4337i:14828i:3056i:1521i:25206i:25322i:18360i:12030i:5001i:33872i:30747i:18517i:24883i:31194i:21894i:15377i:9719i:21213i:9917i:31153i:30419i:25222i:13756i:24290i:12250i:4319i:10398i:13897i:31286i:24985i:14104i:13896i:7436i:4242i:14764i:3851i:31193i:12223i:12042i:17056i:5465i:8385i:23784i:29958i:23141i:24873i:25188i:15078i:4765i:8185i:10713i:12046i:14202i:24968i:32410i:33866i:4766i:8068i:4782i:24243i:24271i:25103i:20869i:22542i:24848i:4837i:8294i:31242i:9293i:6663i:3678i:11404i:24917i:16111i:25024i:9893i:23522i:16050i:1980i:9172i:22837i:8491i:13034i:13495i:31321i:38328i:25292i:18638i:25081i:14774i:27651i:13858i:14635i:6242i:25186i:833i:10187i:8110i:6211i:22788i:35562i:7046i:23767i:12184i:12227i:19263i:22789i:12639i:12256i:10110i:13288i:13287i:5763i:13867i:2951i:5787i:5483i:19821i:24078i:16060i:15724i:4500i:3396i:24952i:31137i:24856i:9327i:5571i:31254i:3201i:10036i:3428i:10062i:10279i:1314i:24897i:32413i:21853i:4310i:24254i:9806i:22203i:10822i:4233i:4404i:3186i:2934i:12990i:1793i:6601i:14809i:1168i:6053i:21753i:13145i:1717i:7419i:11081i:31186i:12418i:19768i:6596i:12253i:13456i:7936i:25314i:10051i:29725i:8209i:6602i:3823i:6591i:3846i:24982i:4389i:10240i:25221i:25083i:9922i:13464i:7449i:14469i:7485i:5640i:4625i:31280i:15933i:24844i:25202i:4397i:2699i:21099i:13457i:21855i:5643i:21957i:10323i:25337i:7358i:7409i:24215i:4562i:15758i:14088i:15410i:10025i:7457i:5488i:14483i:27684i:9780i:14138i:16736i:23624i:23516i:4406i:25061i:8160i:10510i:6400i:23766", -- [2]
-		"i:12797i:20954i:9857i:3036i:20865i:3430i:24626i:6660i:2099i:8397i:31258i:13863i:24951i:1625i:24368i:21755i:25283i:13066i:7787i:33824i:13943i:18945i:19273i:12713i:3164i:19278i:31151i:21153i:23748i:10558i:4405i:24815i:32774i:6051i:13159i:12436i:4052i:21931i:14421i:25099i:14312i:14605i:4252i:4388i:7560i:14223i:24906i:13022i:15359i:12252i:15993i:34827i:14723i:14220i:9904i:13864i:11973i:7056i:9295i:14165i:23634i:15265i:15271i:10028i:2697i:14431i:6597i:15500i:24212i:24645i:13138i:13059i:5467i:25095i:31294i:15846i:24627i:21863i:24828i:3872i:31209i:3395i:12999i:24651i:6581i:14043i:10119i:6540i:20974i:3737i:9834i:6413i:25290i:13889i:15215i:15234i:23736i:9970i:9953i:19440i:24405i:24167i:22202i:15003i:21892i:24267i:5183i:1982i:4317i:24921i:19233i:21949i:14664i:9860i:13866i:25231i:24766i:27678i:8006i:21023i:21898i:13072i:25052i:15249i:23576i:19274i:18652i:236i:18042i:8120i:25258i:24836i:7478i:25090i:24168i:8202i:729i:9425i:6522i:24888i:11186i:24901i:24905i:24849i:12226i:25679i:25096i:4832i:6240i:21899i:24908i:29372i:19228i:25154i:6716i:24957i:24575i:25909i:7992i:10724i:15729i:6349i:11370i:24900i:14128i:24943i:20671i:12809i:31570i:15727i:14762i:31282i:24598i:20709i:7077i:18512i:22658i:7494i:22841i:24196i:27441i:3654i:24838i:3205i:14504i:15064i:14025i:11754i:22710i:14122i:22558i:16685i:14131i:23515i:1703i:15347i:25299i:7786i:25659i:9998i:24833i:13099i:27661i:25317i:29727i:38278i:9318i:28535i:1318i:25284i:11306i:13877i:10505i:24076i:20039i:27671i:24617i:16220i:13310i:8387i:24605i:24671i:24604i:34622i:23055i:20870i:25189i:10169i:4561i:23807i:4794i:3039i:12212i:24979i:24969i:10179i:22846i:10074i:22844i:785i:17682i:4332i:15259i:13112i:19699i:6057i:9300i:15734i:7758i:25192i:18704i:2244i:4382i:25185i:15631i:24965i:13898i:10331i:31157i:4852i:22562i:25655i:25301i:7392i:3854i:4311i:22373i:23768i:16656i:16651i:11184i:16249i:8501i:19709i:25868i:3192i:9313i:8488i:14123i:3196i:12775i:4367i:24193i:13051i:11965i:3184i:31203i:9768i:14364i:29723i:14746i:1477i:14232i:32381i:15309i:890i:15654i:22541i:3712i:9772i:19702i:4231i:2583i:13490i:2553i:8845i:31672i:24895i:9827i:25313i:15527i:6367i:24597i:9912i:10021i:3870i:24851i:24204i:15749i:13463i:14278i:15072i:4421i:16255i:31306i:25307i:4357i:15386i:31164i:24195i:7939i:15071i:7926i:27655i:20970i:10577i:24935i:1981i:7428i:31217i:24614i:4336i:6575i:10042i:2262i:7075i:7990i:27658i:25050i:15726i:20906i:20866i:24999i:15502i:31228i:29531i:28596i:1722i:14114i:3471i:7921i:12415i:10315i:27532i:8398i:4315i:12024i:13868i:22528i:5011i:7946i:7959i:6329i:25025i:2578i:24818i:16022i:929i:6238i:13871i:4316i:24809i:18046i:13947i:14440i:4571i:20873i:15090i:23811i:13095i:19704i:25042i:2409i:12836i:29903i:21849i:25049i:25332i:3385i:8368i:25167i:8486i:10148i:10603i:1624i:13137i:13056i:24110i:7349i:5528i:13039i:12419i:31879i:24854i:6470i:15415i:10394i:20859i:23508i:29363i:23747i:4569i:23819i:12260i:11974i:13308i:2701i:12431i:954i:11167i:23805i:24891i:12774i:10124i:25308i:4072i:10286i:28282i:4424i:16051i:12217i:24272i:12776i:24910i:4078i:8069i:3492i:25029i:25281i:23772i:4410i:4246i:16083i:38277i:25144i:14662i:25056i:2256i:19221i:24961i:14499i:6836i:23354i:10235i:23505i:15281i:15740i:10029i:22786i:15520i:23523i:4838i:8487i:19819i:7471i:24211i:19230i:31240i:6346i:7371i:12405i:10001i:24198i:5635i:16244i:10233i:21219i:4396i:19943i:16110i:13311i:25316i:20296i:23804i:4461i:6048i:6054i:23513i:1715i:5765i:7741i:25294i:27438i:7088i:15019i:15135i:7407i:4245i:4331i:4422i:7064i:25062i:29112i:38225i:11610i:19712i:30421i:10305i:13016i:3306i:4063i:5766i:22926i:9825i:31201i:6384i:4793i:25075i:23742i:24835i:863i:29549i:24660i:7052i:19281i:12162i:7760i:4387i:22383i:13116i:24863i:18649i:11734i:7944i:24821i:3485i:7372i:24624i:7742i:16112i:7972i:24673i:4038i:15546i:15741i:25162i:7061i:22838i:8956i:18631i:29960i:24768i:24868i:32772i:6533i:18656i:9036i:31152i:27656i:18562i:16971i:10588i:22146i:18283i:8831i:20963i:23147i:25084i:4235i:7290i:24947i:13465i:27736i:25063i:21866i:2675i:24636i:31162i:3830i:25069i:4567:673i:4567:845i:14181i:6401i:10070i:4326i:9961i:9302i:10361i:10310i:25845i:4576i:24688i:12994i:1604i:27515i:24685i:6330i:12037i:28497i:6889i:12978i:24667i:12636i:14143i:31173i:8347i:10048i:19817i:8399i:25886i:16252i:19269i:15996i:8225i:24165i:21940i:14042i:12039i:20818i:11371i:27442i:21790i:4390i:29530i:24665i:9304i:28544i:9359i:18487i:28452i:23771i:25699i:11202i:9766i:18647i:24884i:24958i:21895i:2243i:23783i:21280i:2456i:18648i:6348i:25295i:31079i:858i:24217i:4589i:22890i:9781i:15226i:3040i:6303i:25054i:15052i:12958i:16023i:14253i:2555i:15772i:19026i:14959i:23774i:24252i:15248i:6241i:18239i:24664i:791i:21868i:18253i:6786i:12204i:7561i:10503i:13940i:7927i:8838i:14438i:24887i:7085i:24691i:20538i:1710i:25072i:6050i:10183i:18362i:7539i:24840i:2889i:4343i:24793i:24915i:29550i:21301i:8495i:6275i:20539i:29378i:10306i:12640i:13121i:22248i:24610i:15370i:4328i:18650i:10034i:3824i:27682i:4778i:21844i:7065i:20971i:21536i:4327i:10307i:20861i:19231i:15177i:25040i:2815i:24880i:8402i:25111i:24872i:31143i:9844i:21862i:21774i:22644i:3182i:34826i:4080i:4236i:13128i:14420i:24992i:9999i:29364i:20404i:25654i:10007i:35625i:108300i:108306i:109991i:111663i:111664i:111666i:74247i:37700i:111650i:53038i:111669i:111656i:111668i:156930i:97512i:34056i:109119i:108362i:111651i:111652i:108294i:108307i:111658i:34052i:109624i:109141i:111595i:72235i:108305i:109143i:108350i:152546i:37703i:108297i:111674i:37705i:52985i:160711i:35627i:108329i:52720i:111667i:108308i:35622i:111676i:108325i:36903i:35624i:36912i:152545i:111672i:74252i:111589i:108326i:108353i:37701i:111659i:108298i:72092i:108303i:111665i:36910i:108301i:108295i:37704i:109625i:109144i:152548i:152543i:108299i:108365i:115502i:152547i:52719i:108309i:52721i:168302i:108304i:174328i:108322i:174327i:152544i:111601i:109137i:113588i:36909i:34053i:168646i:111673i:36860i:108319i:109124i:108296i:52183i:35623i:108391i:108336i:115504i:109138i:97621i:111675i:111671i:109139i:108302i:52718i:109125i:111670i:111662i:109140i:52185i:152549i:34055i:37702i:111245i:52988i:109142i:3024i:3025i:30014i:27794i:34191i:30638i:27994i:28754i:33830i:33474i:33293i:29384i:29109i:24255i:24249i:28121i:32409i:28566i:28530i:27867i:28391i:27522i:2313i:28211i:2319i:25071i:11840i:27413i:29337i:29375i:27523i:33836i:28743i:31084i:31086i:31085i:34247i:2589i:1251i:27985i:27876i:23009i:12259i:27544i:28040i:31405i:25957i:29258i:25637i:13289i:30936i:31237i:31797i:23438i:27789i:18839i:18841i:28180i:29463i:28788i:25836i:1478i:27500i:22513i:22512i:27542i:34113i:28304i:28661i:25437i:28516i:27780i:29279i:9154i:9233i:3828i:28762i:25786i:17031i:17032i:6603i:6600i:6607i:25763i:3314i:4243i:2312i:2308i:5958i:2307i:7067i:18567i:24690i:24508i:7069i:31126i:15018i:29261i:15017i:28610i:29126i:4698i:25039i:30586i:13447i:29168i:21100i:29145i:28477i:34339i:24031i:29373i:28296i:29123i:28393i:29128i:27904i:28467i:28119i:28290i:24048i:24037i:30594i:23121i:28465i:27534i:38518", -- [3]
-		"i:31952i:23426i:23449i:28511i:28103i:15268i:33471i:25583i:27447i:22565i:22535i:33153i:28273i:28271i:33152i:33149i:33165i:22560i:33307i:22559i:22561i:22540i:11204i:16251i:22556i:5976i:32854i:27739i:28203i:27839i:28285i:7734i:185988i:185986i:185984i:186025i:186019i:185987i:185983i:186021i:186022i:186054i:186020i:186024i:186023i:186074i:186018i:28601i:14601i:27902i:28731i:3819i:12820i:35509i:35496i:35511i:17708i:21870i:21869i:21871i:7377i:24722:-33i:24757:-33i:24780:-33i:24778:-33i:23758:-33i:24771:-33i:24744:-33i:24741:-33i:24803:-33i:24801:-33i:35495i:25454i:29327i:27547i:34170i:33814i:30860i:28244i:28246i:29348i:33815i:28041i:31175i:34603i:32072i:24143i:28518i:2458i:20744i:2457i:20745i:5997i:29283i:30565i:2105i:14567i:14573i:24126i:24125i:7754i:28569i:27869i:7005i:31180i:31716i:28795i:29449i:28907i:10182i:10190i:24703:-17i:24725:-17i:24727:-17i:24783:-17i:24803:-17i:27503i:16863i:3239i:2835i:3470i:2862i:10421i:2866i:3480i:2865i:6350i:27674i:23206i:30587i:27792i:27803i:28205i:27475i:14559i:14560i:24751i:24752i:24754i:24755i:24749i:24750i:27426i:27434i:17030i:28757i:28184i:30538i:24063i:20749i:20748i:16923i:29318i:24481i:31780i:31721i:31343i:28249i:29273i:3358i:32649i:28781i:30377i:23881i:34165i:29271i:27744i:2581i:21991i:25670i:25671i:25669i:25668i:4304i:14530i:3531i:6451i:34330i:23793i:3489i:28470i:24087i:23115i:24052i:8173i:29201i:8545i:24106i:29525i:29526i:29527i:21885i:21884i:22452i:22456i:21873i:21874i:21875i:22457i:21886i:22451i:24511i:23572i:28194i:13111i:28392i:31820i:25644i:23046i:28750i:28492:-49i:28496:-49i:34332i:11078i:28794i:28828i:25620i:28602i:15904i:15903i:15905i:24889i:30674i:12424i:12425i:12426i:28749i:22731i:6552i:6554i:28826i:31322i:27713i:27528i:27936i:28192i:24250i:26045i:26044i:32092i:29345i:25643i:23836i:31541i:23219i:28522i:29249i:30299i:29170i:5173i:29383i:29272i:28780i:10222i:29325i:24696i:24693i:24697i:24695i:35497i:28753i:14484i:25720i:21905i:21907i:29673i:29728i:24313i:29717i:24309i:24312i:29689i:30844i:29672i:29702i:24308i:24311i:29724i:29675i:10317i:5772i:10314i:7090i:6270i:29721i:29720i:25735i:25736i:25737i:24295i:33124i:7289i:25562i:31750i:7352i:14149i:32063i:27793i:29519i:29520i:29521i:2449i:30767i:30769i:30766i:30768i:27896i:5565i:30764i:30761i:30762i:30763i:28670i:24338i:30780i:30776i:30778i:30779i:30774i:30772i:30773i:30770i:22436i:23067i:22441i:22442i:22439i:22443i:22437i:22440i:22438i:28777i:10645i:27787i:17063i:18470i:28728i:28783i:34382i:29425i:28525i:27520i:24033i:7965i:7912i:7966i:7964i:23118i:28463i:32084i:24460i:24258i:25971i:28468i:23116i:24051i:23504i:23502i:28421i:23503i:33185i:23529i:23425i:23446i:23506i:25898i:3825i:24712i:24716i:24715i:22936i:24709i:24714i:24711i:24710i:24713i:27484i:24752:-39i:24696:-39i:24711:-39i:24724:-39i:24717:-39i:24718:-39i:24721:-39i:24739:-39i:24760:-39i:24707:-39i:24706:-39i:24726:-39i:24745:-39i:24787:-39i:24786:-39i:24804:-39i:31075i:28217i:29319i:29147i:27981i:27916i:29333i:31305i:33999i:16828i:16830i:31804i:21887i:25650i:2159i:2158i:3591i:3592i:2156i:23050i:6662i:25399i:8924i:21709i:21712i:21710i:27416i:29241i:25393i:25391i:27495i:28377i:28378i:15166i:15161i:15169i:35279i:35280i:31338i:25941i:28384i:14617i:30547i:23099i:24060i:8193i:8175i:8192i:8197i:8176i:29246i:6603:770i:10182:802i:24723:-9i:15343:766i:15348:761i:9894:775i:15182:773i:8214:786i:8214:787i:8214:785i:8210:778i:8213:781i:8213:782i:7445:773i:24730:-9i:24748:-9i:24792:-9i:15312:761i:23441i:6530i:15158i:11176i:27888i:22488i:23064i:22493i:22494i:22491i:22495i:22489i:22492i:22792i:3023i:28735i:22573i:29171i:28591i:27800i:30093i:18794i:11178i:11084i:3730i:22449i:4655i:27677i:769i:11139i:14344i:24490i:29357i:31288i:29290i:24677i:29287i:24682i:24684i:24679i:835i:12799i:23735i:23723i:28584i:28583i:2526i:34329i:29274i:31562i:17774i:34471i:28316i:28415i:27537i:27778i:28232i:27948i:10940i:27676i:15074i:23039i:27517i:27540i:19379i:25640i:28590i:27683i:27712i:27821i:24359i:30382i:31779i:29080i:29079i:28825i:27885i:29076i:27878i:32948i:28170i:30633i:28177i:18404i:24390i:20560i:27746i:16206i:12360i:15872i:28726i:30279i:774i:24758:-13i:24775:-13i:8214:531i:24732:-13i:6096i:2614i:28259i:24455i:5966i:29320i:31949i:25838i:7727i:4256i:5962i:5965i:4260i:21663i:4258i:27491i:28412i:28387i:34242i:34345i:25712i:28656i:31730i:31728i:27433i:31283i:19375i:29266i:29486i:3033i:29061i:29065i:29063i:29067i:29070i:29069i:2520i:28267i:28903i:4262i:9854i:9856i:9863i:9855i:9859i:9862i:28402i:28405i:28404i:32973i:32974i:32975i:28423i:28424i:31594i:31598i:31595i:28411i:28409i:28410i:28641i:28642i:28643i:28644i:28645i:28646i:28449i:28639i:28640i:28638i:28605i:28385i:28383i:28381i:28443i:28444i:27893i:30546i:24054i:23111i:5441i:11177i:10978i:22448i:11138i:14343i:1475i:28582i:10413i:23041i:28599i:28581i:28746i:9224i:19384i:3719i:4244i:4247i:4251i:23857i:1121i:27938i:21186i:31578i:34335i:27525i:24720i:24724i:24723i:24717i:24719i:24722i:24718i:24721i:28306i:15909i:15907i:15906i:9206i:27529i:27813i:12364i:3855i:7945i:2531i:24750:-10i:9856:942i:24737:-10i:24759:-10i:25022:-10i:24747:-10i:24792:-10i:16847i:27795i:3391i:25628i:25776i:25775i:25777i:6600:1020i:6554:1012i:15161:1033i:9863:1028i:25309:-8i:24763:-8i:25023:-8i:15128:1030i:24669:-8i:8212:1048i:9949:1028i:24781:-8i:24789:-8i:29563i:24679:-36i:25021:-36i:24669:-36i:20750i:8216i:8149i:8201i:31508i:24154i:28269i:27432i:27918i:27408i:28505i:29179i:33860i:30572i:33469i:6431i:18222i:31863i:31862i:16204i:11137i:24268i:21852i:21877i:21841i:21851i:21990i:21850i:21881i:2564i:28663i:30340i:2880i:25896i:28567i:2470i:2471i:2475i:2472i:2474i:3893i:2473i:34403i:16203i:28887i:28910i:3466i:28909i:28888i:9187i:11082i:18294i:21546i:22446i:13455i:28912i:11135i:13454i:28886i:25521i:9179i:11175i:8951i:28911i:10939i:28100i:24755:-40i:24750:-40i:24696:-40i:24693:-40i:24697:-40i:24712:-40i:24715:-40i:24709:-40i:24714:-40i:24711:-40i:24710:-40i:24713:-40i:31562:-40i:24720:-40i:24724:-40i:24723:-40i:24717:-40i:24719:-40i:24722:-40i:24718:-40i:24721:-40i:24734:-40i:24739:-40i:24733:-40i:24740:-40i:24735:-40i:24737:-40i:24760:-40i:24764:-40i:24761:-40i:24762:-40i:24705:-40i:24704:-40i:24708:-40i:24702:-40i:25057:-40i:24894:-40i:24775:-40i:24776:-40i:24779:-40i:24780:-40i:24773:-40i:24774:-40i:24777:-40i:24778:-40i:23758:-40i:24765:-40i:24769:-40i:24770:-40i:24729:-40i:24727:-40i:24728:-40i:24732:-40i:24730:-40i:24745:-40i:24744:-40i:24748:-40i:24742:-40i:24795:-40i:24794:-40i:24792:-40i:24797:-40i:24791:-40i:24787:-40i:24785:-40i:24788:-40i:24781:-40i:24784:-40i:24783:-40i:24786:-40i:24802:-40i:24800:-40i:19385i:22854i:25409i:5500i:30593i:18238i:25811i:25006i:25012i:21331i:21332i:25009i:30533i:27461i:24396i:28311i:29124i:29458i:25651i:24259i:24045i:28519i:25945i:27440i:28469i:28120i:23114i:24050i:24139i:32067i:31234i:25293i:4721i:6409i:4057i:4054i:4055i:31222i:28751i:24395i:27993i:27996i:29243i:27549i:29351i:27898i:15380i:32088i:33173i:16901i:16897i:16904i:16900i:19339i:32455i:32453i:28593i:23427i:23554i:27905i:28778i:27772i:28514i:29253i:27887i:28742i:29388i:28515i:27909i:27510i:28231i:28349i:28669i:27533i:16583i:28420i:25696i:25695i:25697i:27781i:29081i:31148i:25686i:23528i:28338i:30939i:27804i:28652i:34616i:28612i:28729i:16965i:25701i:28257i:34612i:28822i:28823i:31335i:29369i:28747i:2533i:24991i:25780i:24394i:20558i:19505i:29528i:29165i:29020i:29022i:25819i:29011i:29017i:29016i:29015i:29012i:29021i:2535i:24385i:30300i:27847i:34207i:4237i:7276i:7277i:24023i:720i:6125i:28345i:33859i:33467i:27828i:25309i:32085i:30634i:28347i:6452i:28189i:30548i:15345i:15343i:31277i:15348i:24392i:28251i:25897i:4831", -- [4]
-		"i:24464i:127i:25835i:25503i:28134i:28673i:30835i:25345i:25342i:24465i:24977i:27460i:24151i:24150i:27414i:28528i:31748i:28179i:28174i:30257i:31074i:29347i:28245i:28247i:9863:172i:15345:168i:8212:363i:24790:-18i:3012i:27498i:28506i:25787i:8949i:27466i:31078i:31077i:32394i:31038i:30543i:27519i:24417i:15197i:28767i:31775i:13396i:19431i:27412i:23939i:28503i:29202i:30810i:28772i:24738i:24734i:24739i:24733i:24740i:24735i:24737i:34336i:24759i:24760i:24764i:24763i:24757i:24761i:24758i:24762i:6532i:28466i:28462i:28595i:23113i:24047i:21583i:27543i:24452i:28187i:28254i:34168i:27815i:30635i:31777i:29184i:29181i:24289i:29183i:27988i:2532i:19377i:16059i:2530i:2612i:31291i:24690:-19i:10190:385i:24754:-19i:24696:-19i:24682:-19i:9859:213i:15380:177i:9775:94i:24776:-19i:15180:385i:8210:213i:15193:395i:2290i:27499i:13511i:3383i:31333i:28603i:9264i:28492:-57i:23107i:22577i:24020i:27761i:1210i:24661i:29248i:28796i:24711:-35i:24758:-35i:24775:-35i:24727:-35i:24796:-35i:24798:-35i:32080i:28204i:27509i:27776i:27908i:28414i:31519i:7387i:7374i:7378i:7390i:28056i:24398i:28288i:13966i:28315i:27418i:29024i:29317i:23199i:25645i:28342i:27545i:27873i:27468i:27737i:28202i:28348i:27492i:27783i:25710i:28255i:27518i:27914i:27483i:3853i:5498i:2616i:23825i:28286i:4399i:24401i:27771i:27870i:27497i:28403i:27799i:27427i:30273i:22721i:19438i:32083i:30962i:25417i:30606i:28520i:31323i:27987i:11122i:30944i:4344i:29263i:28752i:27763i:28647i:30535i:4709i:2278i:35508i:29349i:27891i:27507i:22105i:22103i:22646i:22116i:31852i:31839i:31838i:31853i:31854i:31841i:31840i:31855i:22827i:22824i:32062i:22831i:22835i:13444i:22834i:22840i:24579i:21519i:31523i:29264i:28521i:29265i:6261i:10052i:10056i:23036i:25964i:16202i:20746i:3390i:10998i:1705i:20747i:22447i:4623i:11134i:23559i:11174i:10938i:34244i:34331i:32087i:31318i:26042i:25634i:30359i:30358i:27464i:11815i:29254i:31033i:28666i:29434i:27505i:27539i:28512i:9775i:9777i:27493i:31308i:3777i:29247i:21620i:29376i:29192i:28324i:28252i:27639i:25890i:25453i:2592i:15564i:8827i:5996i:27714i:5107i:28782i:27822i:8925i:31292i:22578i:23556i:27768i:29309i:29301i:29374i:34601i:29305i:29297i:34602i:28763i:27448i:28604i:25400i:28398i:31145i:27411i:4400i:2838i:31131i:27467i:27760i:21666i:31545i:24735:-26i:10109:2043i:24672:-26i:22825i:33092i:28523i:3386i:25540i:31789i:27766i:25451i:29368i:22576i:22853i:28374i:24450i:22044i:28193i:27465i:27907i:27796i:27742i:24262i:24266i:28030i:27767i:27747i:25602i:2276i:24379i:34406i:13510i:23437i:27521i:29330i:25937i:25936i:28658i:19360i:27866i:25901i:31105i:22848i:3357i:31320i:28419i:28507i:29245i:28183i:27458i:34831i:24703i:24705i:24704i:24708i:24707i:24706i:24702i:27758i:24029i:28460i:23094i:29175i:27860i:25333i:35494i:13120i:28606i:27912i:27806i:34845i:28328i:28441i:34220i:27827i:24027i:28458i:28362i:23095i:28407i:2324i:10109i:28253i:28597i:28578i:24039i:23120i:11811i:28653i:30551i:31865i:31864i:18256i:25609i:25607i:6373i:19400i:15053i:15054i:28824i:27490i:18814i:22574i:28594i:24722:-32i:24760:-32i:24777:-32i:24794:-32i:24792:-32i:24797:-32i:24785:-32i:24789:-32i:24784:-32i:8348i:27488i:21929i:22147i:7755i:23824i:29270i:27784i:30637i:15304i:4340i:2587i:12255i:29275i:18509i:2615i:19387i:33208i:4377i:30837i:19143i:29485i:30807i:28621i:34401i:27740i:27409i:27986i:29336i:28572i:28755i:30667i:22939i:34241i:23059i:22419i:28730i:21464i:28779i:19372i:29262i:21586i:28370i:25821i:28190i:28748i:28206i:28734i:28633i:2521i:27854i:3857i:27892i:4795i:28266i:27845i:27454i:19162i:30089i:30480i:23247i:34243i:2617i:28375i:23858i:30966i:24065i:23106i:24140i:29499i:6948i:25940i:28182i:24022i:28031i:23573i:32077i:34404i:33831i:29929i:31276i:29386i:29173i:25676i:25674i:25675i:25673i:31226i:25420i:1978i:28509i:8345i:28102i:25333:-14i:25106:-14i:24731:-14i:9952:697i:15310:672i:31549i:28428i:28429i:29238i:2454i:17922i:28744i:2511i:9891i:9894i:28454i:15358i:15018:236i:24719:-11i:24734:-11i:15304:234i:24788:-11i:34604i:28262i:34609i:21177i:25070i:5540i:25057i:25043i:21615i:12645i:10620i:28256i:12359i:27871i:27855i:25764i:28175i:29090i:29088i:29099i:29098i:28789i:32386i:32385i:31303i:30828i:8152i:2678i:22396i:22575i:23436i:27457i:15059i:19312i:15061i:15060i:30973i:18744i:30555i:24056i:25456i:23108i:30601i:24261i:24264i:6795i:31534i:24245i:28453i:27779i:24057i:23109i:23439i:30365i:13118i:22861i:8839i:27846i:28733i:11144i:7911i:6037i:15871i:18812i:29533i:25106i:29539i:31190i:28325i:33827i:25023i:33473i:25022i:25026i:34245i:31281i:31866i:31867i:4567i:28600i:1718i:15199i:10582i:29579i:25435i:28034i:30953i:27512i:24516i:25406i:25014i:25021i:28395i:28740i:25434i:2146i:2141i:2145i:2142i:2144i:2143i:8170i:30959i:30925i:31298i:30550i:24894i:24775i:24776i:24779i:24780i:24773i:24774i:24777i:24778i:27889i:25397i:25367i:2901i:27886i:33102i:31664i:29180i:27548i:27899i:27884i:29152i:27646i:27647i:24273i:30573i:24053i:28766i:30531i:29735i:28413i:28230i:27775i:27536i:27875i:31289i:24397i:25713i:34167i:17033i:17029i:28904i:24712:-42i:24711:-42i:24721:-42i:24738:-42i:24776:-42i:24778:-42i:24729:-42i:24731:-42i:24746:-42i:24792:-42i:24803:-42i:32089i:15180i:15182i:24256i:28340i:22153i:31501i:28341i:29739i:29257i:15358:1811i:24778:-21i:7448:1808i:24791:-21i:24024i:29736i:34405i:29195i:9155i:28327i:24735:-31i:24777:-31i:23758:-31i:24785:-31i:24784:-31i:24786:-31i:7967i:3858i:7941i:7933i:3860i:7931i:7969i:7920i:18511i:30549i:24055i:23110i:30834i:22460i:32076i:33782i:30592i:22572i:3371i:28774i:19024i:18710i:36941i:22462i:16207i:14047i:14529i:22463i:28322i:24274i:24030i:28461i:28118i:23096i:15095i:15093i:15091i:15096i:15092i:15094i:11145i:14341i:24376i:30560i:11130i:6339i:6218i:23544i:22461i:24488i:23065i:22470i:22467i:22471i:22465i:22468i:22466i:27527i:10290i:30574i:25421i:154i:2836i:8343i:2320i:3240i:3478i:2863i:15128i:2251i:24032i:27733i:11284i:25716i:31464i:24733:-15i:8212:415i:24765:-15i:1712i:27501i:24028i:28459i:23097i:25266i:32449i:31304i:28104i:31144i:28033i:27911i:7910i:28585i:31546i:2575i:6796i:2604i:2657i:19348i:8124i:28770i:19022i:24421i:29255i:22866i:32836i:32833i:28765i:18815i:31727i:30372i:24581i:24004i:18904i:34334i:28727i:31113i:29280i:29281i:29282i:29288i:29289i:29278i:29285i:29291i:29286i:29277i:29276i:29793i:25055i:4342i:25286i:25068i:25483i:2321i:27769i:33069i:25772i:14148i:35311i:23887i:23809i:23814i:35582i:31860i:31861i:30039i:28573i:30607i:3530i:27410i:31290i:23045i:4306i:4291i:6450i:32698i:28510i:28524i:1206i:31404i:21525i:19711i:25574i:7386i:30943i:2605i:4257i:4255i:4259i:3835i:3842i:3844i:3836i:9828i:28608i:34610i:12643i:25404i:12365i:12644i:12404i:29390i:28587i:31547i:31072i:28579i:13115i:23079i:1529i:20959i:27494i:23758i:24062i:23105i:3020i:24722:-16i:24704:-16i:8211:335i:24728:-16i:24742:-16i:25280:-16i:15305:22i:1180i:1711i:27502i:27430i:34402i:27913i:18663i:28508i:34611i:29354i:24021i:27538i:27452i:28662i:28771i:29267i:31837i:867i:17028i:29049i:29055i:29328i:20725i:30532i:27546i:19325i:2160i:24739:-20i:8212:1567i:8212:1568i:24786:-20i:25361i:25364i:25358i:25357i:25360i:25359i:25378i:25374i:25377i:27459i:31334i:27456i:30041i:33281i:34169i:34384i:24711:-24i:24779:-24i:8210:2001i:24728:-24i:24726:-24i:24785:-24i:24802:-24i:28803i:28655i:29194i:29487i:24751:-34i:24695:-34i:24716:-34i:24775:-34i:24773:-34i:24778:-34i:23758:-34i:24770:-34i:24791:-34i:24902:-34i:24789:-34i:24783:-34i:24801:-34i:5634i:34837i:2534i:3776i:3713i:8174i:30226", -- [5]
-		"i:33858i:27453i:24674i:24672i:24676i:24669i:29172i:12800i:35514i:34333i:30858i:8923i:35507i:27790i:28745i:27755i:2529i:3820i:5422i:2734i:2735i:2738i:2740i:2742i:2725i:2744i:2745i:2748i:2749i:2750i:2751i:2728i:2730i:2732i:29915i:28264i:27531i:27797i:27837i:28224i:28768i:28801i:33840i:31722i:28042i:30563i:2509i:24451i:31527i:31071i:22728i:30623i:28390i:31781i:28176i:28167i:31460i:31381i:31380i:31383i:29176i:30267i:34343i:30809i:28418i:28301i:28659i:29269i:12361i:23117i:6260i:25051i:25774i:28588i:28732i:28674i:818i:23023i:29322i:29251i:21680i:28968i:28963i:25939i:28248i:22450i:22459i:29048i:29046i:29044i:34615i:28371i:31490i:27890i:29967i:28386i:29535i:28260i:28565i:29536i:24911i:28258i:29548i:27791i:6467i:6466i:6468i:30559i:2928i:30600i:21670i:14660i:14657i:14653i:28657i:24463i:13453i:23198i:8211i:8215i:8214i:8210i:8212i:8213i:27741i:28773i:28802i:25003i:33215i:29443i:31535i:28188i:23077i:24246i:19998i:27788i:30986i:27487i:25549i:29382i:27449i:7448i:7439i:7445i:7440i:28060i:19137i:34386i:14145i:29182i:24767i:31544i:29534i:29451i:24771i:24765i:24769i:24770i:29242i:34344i:29174i:17037i:32905i:32902i:28396i:28186i:31393i:31394i:31395i:33155i:35304i:24205i:23592i:23590i:28632i:23591i:23618i:23593i:23596i:25846i:24183i:24209i:25902i:25526i:20856i:25903i:23602i:24181i:33158i:30826i:31402i:21948i:31390i:31391i:31392i:23137i:24216i:23135i:24213i:24174i:23606i:24170i:33466i:28185i:34368i:29387i:23029i:28675i:28221i:29167i:24449i:14672i:14674i:15193i:10592i:4796i:13452i:27489i:2528i:29211i:18428i:16335i:15200i:30224i:19828i:28592i:31297i:28793i:7059i:27906i:27462i:28207i:2431i:2429i:2434i:3889i:3593i:3594i:2432i:18634i:23762i:22522i:22829i:22832i:22521i:9808i:13445i:13512i:23763i:2453i:28741i:30276i:22873i:22872i:23555i:2304i:35581i:7285i:2516i:30073i:2318i:7282i:7281i:24066i:30608i:23103i:35275i:34337i:27865i:2692i:16710i:7391i:35513i:25894i:25477i:4455i:31670i:23526i:28649i:21459i:30641i:24638i:9924i:24360i:24725i:24729i:24727i:24728i:24731i:24732i:24730i:24726i:34166i:29757i:29754i:29760i:29756i:29762i:29755i:29765i:29759i:29758i:29753i:29761i:24386i:7348i:29185i:24745i:24746i:24744i:24747i:24741i:24748i:24742i:34614i:25280i:28570i:34400i:28265i:31617i:24795i:24429i:24794i:24792i:27734i:24790i:24796i:24797i:24791i:28764i:29385i:34851i:34848i:34852i:28367i:34341i:28545i:28800i:28790i:32090i:28586i:29381i:28654i:31869i:31868i:15085i:15087i:15088i:15083i:15084i:15086i:15535i:33479i:29346i:3287i:28240i:28242i:28241i:30346i:30344i:28239i:30345i:30343i:28243i:18849i:29592i:18846i:18834i:18851i:18845i:18853i:18850i:18607i:24551i:9952i:29316i:9949i:22918i:32070i:31356i:22922i:22914i:5642i:13491i:31355i:23574i:25869i:24684:-37i:25917i:7359i:24269i:7930i:7919i:7918i:25689i:25690i:25691i:4265i:3241i:2519i:4234i:3486i:2871i:6214i:3487i:4254i:27773i:5964i:5963i:7915i:16717i:18510i:15310i:15312i:15305i:28051i:32078i:24751:-7i:24750:-7i:24715:-7i:24710:-7i:15169:1202i:24719:-7i:24721:-7i:24738:-7i:25043:-7i:24767:-7i:9924:1215i:24730:-7i:24781:-7i:24710:-41i:31562:-41i:24717:-41i:24721:-41i:25009:-41i:25761i:24704:-41i:27474i:27801i:28228i:27874i:28275i:25070:-41i:25022:-41i:25026:-41i:24765:-41i:24769:-41i:24725:-41i:24729:-41i:24727:-41i:24728:-41i:24800:-41i:24798:-41i:28372i:28589i:28064i:17026i:17021i:22148i:28797i:27450i:24720:-12i:4567:1100i:24779:-12i:24765:-12i:24799:-12i:29356i:19885i:11128i:2776i:33478i:24276i:28029i:28406i:3577i:15870i:6040i:2465i:2463i:3890i:2469i:2464i:2468i:2467i:27631i:3372i:27805i:34613i:27910i:6338i:2775i:29370i:24275i:2618i:2842i:15869i:2870i:2845i:6217i:2770i:7166i:7955i:3488i:2847i:3473i:2857i:3472i:2854i:2853i:2844i:2852i:2851i:3469i:2840i:2986i:6379i:2987i:25403i:25418i:24478i:24067i:30602i:23104i:18223i:24476i:24477i:28343i:28671i:6041i:7963i:7922i:3859i:28504i:2771i:13503i:3483i:3482i:27995i:28061i:24387i:5956i:24064i:7071i:17038i:2772i:15066i:32068i:6043i:6042i:3575i:27455i:10408i:2437i:3892i:2440i:27848i:27485i:3587i:2435i:3588i:2438i:24384i:24466i:24902:-44i:25962i:30564i:24035i:23119i:28464i:17057i:30558i:24036i:28227i:5140i:28373i:30556i:23100i:24061i:7414i:27732i:28171i:6600:147i:25014:-27i:24731:-27i:24787:-27i:24784:-27i:18357i:22851i:3389i:30566i:29186i:25402i:30932i:27770i:19376i:33214i:25719i:20559i:29379i:28529i:33283i:9088i:29177i:31749i:31461i:28792i:30258i:4325i:29203i:12655i:28321i:12620i:12810i:29497i:10518i:28323i:30841i:31109i:33216i:26055i:29367i:21605i:22823i:32321i:15268:845i:24749:-6i:6552:848i:9854:864i:9856:855i:9862:866i:24723:-6i:24737:-6i:24674:-6i:24911:-6i:8211:872i:7439:869i:24765:-6i:9808:857i:24730:-6i:24726:-6i:24792:-6i:7414:862i:24798:-6i:24902i:23098i:24058i:28363i:27843i:4059i:4060i:6420i:6422i:2300i:4239i:2310i:2309i:2613i:31755i:33476i:17202i:28440i:31146i:28394i:15057i:21278i:31463i:30666i:19019i:28775i:31477i:24413i:28785i:28660i:29389i:29353i:15068i:15070i:22983i:22501i:17626i:19029i:31573i:30644i:6607:602i:15017:593i:10222:620i:24711:-5i:24713:-5i:15166:608i:15158:605i:9855:601i:9855:600i:24720:-5i:24721:-5i:9777:587i:9891:604i:24779:-5i:24773:-5i:24777:-5i:25266:-5i:9828:599i:8211:617i:8214:617i:8213:611i:7445:602i:7440:610i:24771:-5i:9808:602i:24746:-5i:24803:-5i:11083i:23021i:27872i:32825i:21882i:6265i:7909i:25053i:3848i:7957i:7958i:7956i:2849i:2850i:2868i:3491i:2848i:2841i:21200i:21209i:32081i:29359i:18224i:4253i:2314i:29244i:27903i:32572i:32569i:28517i:28218i:24677:-38i:27514i:31319i:28791i:30832i:30721i:29522i:31031i:30541i:31704i:28442i:29155i:21372i:21376i:21375i:32086i:29034i:29035i:29038i:29040i:24388i:31766i:29362i:3734i:13939i:17062i:28416i:28609i:28397i:30942i:16938i:25653i:28908i:28776i:27506i:28555i:28759i:28553i:28760i:28560i:28576i:28758i:28559i:28574i:28502i:27765i:22479i:4334i:30588i:23101i:24059i:28123i:28756i:28937i:28930i:28921i:28928i:28919i:28922i:28293i:28925i:28817i:28820i:28821i:28935i:28938i:28920i:28918i:31628i:31627i:31621i:28931i:31647i:31650i:31649i:28923i:28836i:28839i:28924i:28917i:31584i:31587i:31585i:28929i:28868i:28870i:28864i:28862i:28863i:28856i:28859i:28858i:28860i:31636i:28926i:28933i:28806i:28808i:28850i:28846i:28845i:28842i:28854i:28852i:28855i:28851i:28853i:28939i:28811i:28814i:28874i:28295i:28310i:28309i:28313i:28476i:28314i:24550i:28305i:28320i:24557i:28319i:32451i:28308i:28298i:31410i:31409i:28297i:28300i:25834i:25830i:28358i:28302i:28299i:31379i:31377i:28312i:28346i:25856i:32452i:32450i:31616i:28307i:28294i:27470i:27469i:27472i:25998i:24547i:24549i:24546i:24544i:24545i:28136i:28558i:30931i:22811i:29740i:25707i:22445i:2931i:30924i:15062i:15063i:21860i:27508i:27738i:28229i:28278i:25718i:22019i:34062i:21847i:21846i:24361i:21848i:31285i:17020i:33286i:4338i:8544i:23517i:23530i:29204i:23518i:23448i:23519i:23499i:23546i:25843i:23497i:23424i:23489i:23498i:23445i:23490i:23491i:23493i:23494i:23488i:23482i:23484i:23487i:5783i:17058i:6256i:27946i:28568i:31746i:35504i:27925i:29335i:28492i:28496i:29239i:4289i:29268i:23933i:3864i:4341i:37297i:23112i:34342i:23440i:6358i:6370i:33042i:13965i:25462i:24787i:25569i:24785i:24788i:24781i:24789i:24784i:24783i:24786i:34340i:11197i:27415i:33122i:28672i:27901i:31295i:33468i:27451i:10403i:25433i:28318i:7971i:5961i:2317i:4248i:2316i:4249i:2315i:4333i:34846", -- [6]
-		"i:7283i:31513i:24248i:33826i:2325i:29350i:29515i:29516i:29517i:31548i:23537i:28438i:28611i:28437i:28439i:19394i:19406i:28830i:28631i:30534i:34164i:24802i:24803i:24800i:24801i:24804i:24798i:24799", -- [7]
-	},
-	["data"] = "4BGB_____________E_C__4BGB_____________E_C__4BGB_____________E_C__4BGB_____________E_C__4BGB_____________E_C__4BGB_____________E_C__4BGB_____________E_C__vBDB_____________E_C__vBDB_____________E_C__vBDB_____________E_C__vBDB_____________E_C__vBDB_____________E_C__vBDB_____________E_C__gAbA_____________E_C__dAYA_____________E_C__dB9A_____________C_C__dB9A_____________C_C__dB9A_____________C_C__mBAB_____________E_C_____________AOpgAAHC______________LAkgAAEA______________BgagAAED______________AT8gAAMA______________AxrgAAHB______________A1MhAAAI______________AKsgAAHL______________AW1gAAMA______________A3ygAAJI______________Ap0gAAHD______________A3ygAAJI______________J8XgAAEC______________Ab8gAAJB______________A0WgAAMA______________UmYgAAEB______________AUfgAAHD______________Ae8gAAJK______________A3ygAAJI______________BWfgAAEE______________AU8gAAMA______________LujgAAEA______________Ho4gAAEE______________J9XgAAED______________MprgAAEA______________Ae8gAAJB______________Ru_gAACK______________KYdgAAEB______________AStgAAHI______________UKagAAEE______________GMWgAAEB______________AhcgAAHF______________Ai6gAAHL______________Ab8gAAJK______________A8GhAACD______________V41gAACO______________AvwgAAMA______________IpXgAAED______________Ad8gAAJK______________ANpgAAHC______________AnpgAAJA______________Hq3gAAEB______________Ac8gAAJB______________AA7gAAHL______________AxwgAAHJ______________IuXgAAED______________MyrgAAEA______________RwlgAACF______________Ab8gAAJK______________AWKhAAHK______________ASKhAAHC______________ASpgAAHC______________AjegAAHB______________AyXgAAPA______________AX8gAAMA______________A3tgAAHI______________AeqgAAMA______________AGNhAAHK______________AwvgAAMA______________AMpgAAMA______________Ab8gAAJK______________Ab8gAAJF______________Ae8gAAJD______________Ad8gAAJB______________AStgAAHI______________C2igAAEA______________BfagAAEE______________AFegAAHB______________Ab8gAAJF______________AAsgAAHI______________AK7gAAAB______________Ab8gAAJF______________Ab8gAAJF______________Ab8gAAJE______________LjjgAAEA______________AAHhAACD______________J7XgAAED______________Ae8gAAJG______________J9XgAAED______________A3ygAAJI______________Ab8gAAJG______________Ae8gAAJB______________U6YgAAEB______________AgegAAHB______________A3rgAAAA______________AibgAAHI______________A21gAAMA______________Ab8gAAJF______________SUogAABA______________Ab8gAAJF______________UlYgAAEB______________KJdgAAEE______________Ab8gAAJC______________BaggAAEB______________IKXgAAED______________Ap7gAANA______________X9ygAAEA______________AJvgAAMA______________DC-gAAED______________Ad8gAAJK______________A0ygAAPA______________AmpgAAMA______________IRXgAAEB______________A2cgAAHG______________Ay1gAAHC______________AGegAAHB______________Ab8gAAJF______________AyWgAAMA______________Q7pgAAEB______________GXWgAAEE______________H52gAAED______________DO-gAAEE______________KddgAAED______________Ae8gAAJD______________RKfgAACF______________KVdgAAEB______________UJagAAEE______________N3UgAACA______________ADQhAAHK______________JGYgAAEC______________Ew9gAAEA______________AWNhAAHK______________I3WgAAED______________ATbgAAAF______________Ab8gAAJB______________AUegAAHB______________Ae8gAAJK______________Ab8gAAJC______________A3ygAAJI______________SZogAABA______________UJZgAAEB______________Ae8gAAJK______________VzegAACE______________SPogAABA______________MJwgAAEA______________QCqgAAEB______________Ab8gAAJF______________AnpgAAJH______________KcdgAAEB______________AwWgAAMA______________JDYgAAEB______________Wk8gAAEG______________Ae8gAAJC______________V2ChAACH______________H42gAAEE______________Ae8gAAJB______________NiHhAACP______________HH3gAAEB______________KLdgAAEB______________Ae8gAAJG______________JEYgAAEE______________Ad8gAAJK______________HI4gAAED______________Ac8gAAJB______________XAzgAAEA______________AvEhAACT______________BdggAAEB______________KgdgAAEE______________IoXgAAEE______________J-XgAAED______________XvEhAAEA______________GMWgAAED______________H_2gAAEB______________AJ7gAAAB______________A3tgAAHI______________AhbgAAPC______________GUWgAAEE______________CcWgAAEA______________NTChAACP______________A3ygAAJI______________ZeHhAACQ______________VZChAACH______________LqjgAAEA______________ATngAAHB______________BdggAAEB______________BgagAAED______________QMqgAAEB______________Ab8gAAJC______________AJegAAHB______________H62gAAED______________AQsgAAAF______________GfWgAAED______________AQpgAAHC______________A3ygAAJI______________BXggAAEC______________Ab8gAAJC______________VtUgAACA______________AgygAAHG______________Ab8gAAJE______________Ab8gAAJG______________Ae8gAAJC______________A3ygAAMA______________LpjgAAEA______________Ab8gAAJG______________AzzgAAMA______________AWygAAHL______________Ae8gAAJB______________KZdgAAEB______________Uj9gAAEB______________ACzgAAHL______________A3ygAAJI______________KZdgAAEB______________ALwgAAPC______________UlYgAAEB______________Ae8gAAJD______________AXxgAAMA______________Ab8gAAJG______________UaYgAAEC______________AXxgAAMA______________NyegAACE______________BOggAAEB______________N1UgAACA______________NGChAACP______________KddgAAEC______________AXxgAAMA______________AsEhAACT______________Ab8gAAJK______________RpBhAACI______________KXdgAAED______________LqjgAAEA______________KVdgAAEC______________Ay6gAAAB______________QCqgAAEB______________Ab8gAAJB______________UdYgAAED______________AsegAAHC______________J-XgAAEB______________Ae8gAAJE______________Ab8gAAJE______________R2UgAACB______________H72gAAEC______________NmHhAACP______________Ab8gAAJC______________AGvgAADH______________M-ygAAEA______________YgUgAAGD______________Hj4gAAEE______________IKXgAAED______________A3XgAAPC______________R3ChAACI______________NfChAACH______________GfWgAAEB______________BEggAAEE______________AVpgAAHC______________UrZgAAEC______________Ad8gAAJK______________I3WgAAED______________KZdgAAED______________Ae8gAAJC______________AxygAAHI______________B3fgAAEB______________Ax6gAAAB______________A47gAAMA______________Ae8gAAJG______________Q6pgAAEB______________R6_gAACK______________AG7gAAAB______________QAqgAAEB______________ASpgAAHC______________UzZgAAEC______________AmOhAAHK______________UHagAAEE______________KXdgAAEB______________AxOhAAHF______________AStgAAHI______________AjvgAAHL______________DS-gAAEB______________ASNhAAHK______________A3ygAAJI______________DF-gAAED______________B8rgAAEC______________R-egAACF______________I_WgAAEC______________Aq7gAANA______________MrrgAAEA______________A64gAAHK______________I_WgAAEB______________DO-gAAEC______________A17gAAMA______________Ab8gAAJB______________DL-gAAEE______________AtpgAAJA______________LAkgAAEA______________Ew9gAAEA______________AIWgAAHB______________AdpgAAHL______________AkNhAAPC______________AX5gAAAB______________Ae8gAAJB______________VLmgAACE______________JEYgAAEB______________Ab8gAAJC______________AibgAAHI______________X5AhAAEA______________NzegAACE______________Uo9gAAEB______________Ae8gAAJB______________Ae8gAAJC______________I3WgAAED______________DA-gAAEE______________BdggAAEB______________Ae8gAAJE______________NzDhAACH______________Ad8gAAJK______________AKugAAHI______________Ab8gAAJF______________AQ1gAAAI______________JAYgAAEE______________ASsgAAHI______________AFugAAAF______________Ae8gAAJB______________RVChAACI______________R9egAACF______________A7ygAAMA______________UlYgAAEB______________YfUgAAGD______________A3ygAAJI______________ANpgAAHC______________AowgAAHJ______________Ab8gAAJB______________AqFhAACS______________KYdgAAEB______________Hy4gAAEC______________BLggAAEB______________Up9gAAEB______________A0wgAAHJ______________A3FhAACS______________GkWgAAED______________UKagAAEE______________L_jgAAEA______________Ae8gAAJE______________ALugAAHI______________Ae8gAAJB______________Ab8gAAJG______________Ac8gAAJB______________I_WgAAEB______________D99gAAEB______________IGXgAAED______________A8ygAAMA______________AcygAAAF______________XxEhAAEA______________Ab8gAAJD______________ALxgAAHJ______________IGXgAAED______________AsrgAAEA______________YfUgAAGD______________ASegAAHB______________ALNhAAHL______________DJ-gAAEB______________Ad8gAAJC______________H32gAAED______________AH2gAAHB______________Ab8gAAJF______________J-XgAAED______________UYagAAEC______________H42gAAEE______________Ab8gAAJE______________AgygAAHI______________AMsgAAHI______________Ae8gAAJE______________NuHhAACP______________RFDhAACI______________AvpgAAMA______________AbsgAAAF______________RU_gAACG______________AysgAAHJ______________UaYgAAED______________Ad8gAAJK______________AaygAAMA______________AYzgAAHG______________A0tgAAAF______________Ug9gAAEB______________Aj_gAACT______________AvpgAAJA______________AS6gAAAB______________A3ygAAJI______________HA3gAAEB______________DA-gAAEB______________V_egAACE______________AspgAAJH______________H82gAAEB______________AlygAAHG______________Ew9gAAEA______________AAQhAAHL______________UUYgAAED______________Ab8gAAJF______________L8jgAAEA______________Ae8gAAJC______________C38gAAEA______________AnpgAAJH______________CoigAAEA______________BhjgAAEB______________N4ChAACH______________L4jgAAEA______________NrlgAACE______________R2egAACF______________NwChAACP______________BaggAAEB______________AT6gAAAB______________A3ygAAJI______________LGkgAAEA______________R4UgAACB______________Ab8gAAJB______________E09gAAEA______________UXYgAAED______________LMkgAAEA______________SH0gAALC______________A1agAAAF______________Ae8gAAJG______________B3fgAAEE______________Ab8gAAJF______________A0ugAAHB______________A3xgAAHG______________Aj_gAACT______________GPWgAAEC______________AYPhAAHC______________Ab8gAAJK______________USYgAAED______________ASpgAAHC______________Ab8gAAJF______________NsHhAACP______________Aa8gAAAE______________RvegAACF______________H82gAAEB______________KLdgAAEB______________ADOhAAHI______________GkWgAAED______________GMWgAAEE______________UzYgAAEB______________SDogAALD______________A3ygAAJI______________B3fgAAED______________Ab8gAAJC______________LBkgAAEA______________B3fgAAEC______________I3WgAAED______________L7jgAAEA______________JKYgAAEE______________DO-gAAEC______________SHogAABA______________BgagAAEB______________NPChAACH______________CoigAAEA______________AaegAAHB______________Ab8gAAJF______________AFegAAHD______________Q8pgAAEB______________H62gAAEB______________Ab8gAAJD______________A3ygAAJI______________Ad8gAAJC______________KkdgAAED______________UuZgAAEB______________Ap0gAAHD______________NZChAACH______________CrvgAAEA______________A3tgAAHI______________Ab8gAAJC______________H32gAAED______________Ab6gAAAB______________Ab8gAAJE______________KddgAAED______________Ad8gAAJK______________A3ygAAJI______________BUfgAAEE______________GUWgAAEE______________H-2gAAEB______________A8ygAAMA______________KRdgAAED______________Ab8gAAJB______________D79gAAED______________AaagAAPC______________Ae8gAAJC______________BUfgAAEE______________DO-gAAEE______________MgQhAAEA______________DP-gAAEE______________Ab8gAAJC______________CyigAAEA______________AAHhAACD______________AZrgAAHB______________BFggAAEE______________AeagAAHD______________Hi3gAAEE______________UvZgAAEC______________AZigAAHE______________NtUgAACA______________GgWgAAEB______________AAPhAAPC______________KYdgAAEB______________Ae8gAAJE______________U-YgAAEB______________LfjgAAEA______________Ab8gAAJK______________UYagAAEC______________AVsgAAHI______________H12gAAEB______________CvigAAEA______________NRChAACP______________NyChAACH______________BJggAAEB______________DJ-gAAEB______________AhygAAHG______________ASpgAAHC______________SmogAABB______________AptgAAAF______________KgdgAAED______________Ab8gAAJB______________A2QgAAPC______________LakgAAEA______________CpigAAEA______________Q6pgAAEB______________AtpgAAJA______________Ab8gAAJC______________ALugAAHI______________AU6gAAAB______________UxZgAAEC______________AeygAAAF______________Ab8gAAJB______________AR6gAAAB______________Ab8gAAJB______________Q8pgAAEB______________USYgAAED______________AFzgAAHL______________DJ-gAAEB______________IlegAAEB______________A8rgAAHI______________Ad8gAAJC______________A1vgAAHL______________LgjgAAEA______________H12gAAEB______________Ad8gAAJK______________Ab8gAAJF______________COjgAAEA______________AdHhAACT______________Ad8gAAJK______________QvYgAAEB______________KRdgAAED______________Ae8gAAJG______________N4ChAACH______________LzjgAAEA______________LfkgAAEA______________Ad8gAAJK______________H42gAAEE______________BaggAAEB______________L1jgAAEA______________NZHhAACP______________Ug9gAAED______________Rk0gAACF______________HA3gAAED______________Ad8gAAJK______________IuXgAAED______________Ab8gAAJF______________Q-pgAAEB______________UpYgAAEB______________JDYgAAEB______________AkNhAAPC______________Rp_gAACK______________GmWgAAEE______________A3KhAAHD______________D59gAAEE______________Ev9gAAEA______________GeWgAAED______________AtegAAHD______________AqpgAAMA______________Q_pgAAEB______________GoWgAAEB______________Ab8gAAJE______________QDqgAAEB______________AEegAAHB______________I7WgAAEB______________KLdgAAEB______________NsChAACH______________AZpgAAMA______________UJagAAEE______________AHNhAAHK______________GKWgAAEE______________L5jgAAEA______________UpYgAAEB______________Ab8gAAJB______________MozgAAEA______________UmYgAAEB______________I_WgAAEB______________V1egAACE______________LyjgAAEA______________NiHhAACP______________Ae8gAAJD______________NVHhAACP______________AH2gAAHD______________Ab8gAAJF______________A3ygAAJI______________A3ygAAJI______________I7WgAAEB______________ASpgAAHC______________BdggAAEB______________CoigAAEA______________BhggAAEB______________CiigAAEA______________A3ygAAJI______________GPWgAAEB______________PJFhAACC______________AesgAAHI______________Ab8gAAJF______________L7jgAAEA______________BtggAAEB______________Af8gAAAE______________GWWgAAEB______________H82gAAEB______________R9egAACF______________Ab8gAAJC______________Ae8gAAJG______________A0EhAACT______________X3agAAEA______________QDqgAAEB______________Ab8gAAJF______________Ab8gAAJB______________VuHhAACH______________AW1gAAMA______________I5WgAAEB______________UBZgAAEB______________Wx8gAAEG______________LnjgAAEA______________AYcgAAHF______________BgagAAED______________KLdgAAEB______________AcsgAAHI______________A-wgAAAA______________AXqgAAAF______________AsEhAACT______________AhegAAHB______________A2agAAAF______________NtlgAACE______________UzZgAAEB______________Ae8gAAJD______________AZrgAAHG______________KedgAAEC______________Ui9gAAEB______________Ab8gAAJG______________LWkgAAEA______________Ab8gAAJF______________Ae8gAAJB______________Ab8gAAJF______________Ab8gAAJF______________AoNhAAPC______________IHXgAAED______________RV_gAACG______________NbHhAACP______________AdRgAAPC______________HE4gAAED______________AS1gAAMA______________JAYgAAEB______________UeYgAAED______________AregAAHC______________Ae8gAAJC______________Ab8gAAJC______________AbygAAHL______________ARpgAAHC______________NzlgAACE______________AtEhAACT______________U0YgAAEB______________LVkgAAEA______________BJggAAEB______________Ab8gAAJB______________UmYgAAEB______________Ae8gAAJD______________AuWgAAMA______________AP7gAAAB______________S_ngAABA______________AtIhAAMA______________Ab8gAAJF______________PHFhAACC______________M_kgAAEA______________PKFhAACC______________U-YgAAEB______________B-ogAAEB______________Ab8gAAJF______________I7WgAAEC______________NqUgAACA______________NjHhAACP______________Uh9gAAEB______________CHjgAAEA______________AE7gAAAB______________Ab8gAAJK______________ArcgAAHF______________B-ogAAEB______________AQSgAAHD______________AocgAAHF______________UtZgAAED______________Ab8gAAJD______________BSggAAED______________GYWgAAEC______________XcsgAAPA______________Ap6gAAAB______________A0agAAAB______________Ae8gAAJD______________BYggAAED______________Ae8gAAJG______________Ad8gAAJK______________AAHhAACD______________BgagAAED______________SIogAABA______________UIZgAAEB______________Ae8gAAJC______________Ae8gAAJC______________H62gAAED______________UFagAAEE______________CEjgAAEA______________Uh9gAAEB______________Ab8gAAJF______________GYWgAAEB______________QCqgAAEB______________At6gAAAB______________Ab8gAAJE______________Ab8gAAJG______________UKagAAEE______________KidgAAEE______________A8ygAAMA______________BPfgAAED______________UEagAAEE______________AcugAAAF______________GSWgAAEC______________KZdgAAEE______________AZ8gAAAE______________HL4gAAED______________AiqgAAMA______________Ab8gAAJC______________KcdgAAED______________NylgAACE______________J5XgAAED______________GRWgAAEE______________A3ygAAJI______________BfggAAEB______________Ad8gAAJK______________Ab8gAAJF______________ASxgAAAI______________BOggAAEB______________Ab8gAAJF______________BUfgAAEE______________ALugAAHI______________VbHhAACP______________AqvgAAHL______________GaWgAAED______________SeogAABD______________QBqgAAEB______________AxOhAAHF______________AyNhAAHK______________RSVgAACB______________Xx_gAAEA______________Ad8gAAJG______________ADngAAMA______________A8ygAAPA______________B9ogAAEB______________Ae8gAAJC______________Ab8gAAJC______________Ab8gAAJF______________ADvgAAPA______________HI3gAAEB______________AUtgAAHI______________I5WgAAEB______________Ab8gAAJK______________Ad8gAAJK______________VrBhAACP______________AGzgAAHI______________AkcgAAHF______________AZrgAAAI______________U6YgAAEB______________AupgAAJA______________A3ygAAJI______________Ae8gAAJE______________VaHhAACP______________U5YgAAEB______________Rj0gAACF______________AZvgAAMA______________AaagAAPC______________Ab8gAAJC______________SB0gAALC______________AF7gAAAB______________VzHhAACP______________U6YgAAEC______________JAYgAAEE______________Ab8gAAJF______________A6kgAAMA______________R5UgAACB______________B9ogAAEB______________Ae8gAAJE______________Ad8gAAJK______________N1egAACE______________NXHhAACP______________PKFhAACC______________UaYgAAED______________DN-gAAED______________Ac8gAAJE______________AlpgAAJA______________JFYgAAED______________AJ5gAAAB______________ArvgAADH______________LvjgAAEA______________DB-gAAEE______________NUChAACH______________H12gAAEB______________JKYgAAEE______________AoNhAAPC______________DT-gAAEE______________KUdgAAEC______________Az1gAAMA______________JBYgAAEB______________RHAhAACK______________AY6gAAAB______________VdmgAACE______________A3ygAAJI______________UCagAAED______________AXxgAAMA______________VzlgAACE______________I3WgAAED______________Hi3gAAEC______________AJzgAAHG______________A8ygAAMA______________KLdgAAED______________NqHhAACP______________AAHhAACD______________Ad8gAAJK______________DQ-gAAEB______________Ab8gAAJE______________Uk9gAAEB______________Ab8gAAJF______________DJ-gAAED______________XEsgAAPA______________AZpgAAHI______________PFFhAACC______________AywgAAHJ______________KjdgAAEE______________I7WgAAEB______________AlsgAAHI______________AYrgAAHG______________CCjgAAEA______________RxUgAACB______________AAHhAACD______________AtygAAHG______________QLqgAAEB______________LBkgAAEA______________Uw9gAAEB______________A44gAAAB______________I9WgAAEB______________AuwgAAHJ______________KWdgAAEB______________Wn8gAAEG______________UMagAAEE______________CyigAAEA______________UwYgAAEB______________CuigAAEA______________Ab8gAAJF______________AGsgAAHI______________GYWgAAEB______________R4AhAACK______________Ab8gAAJC______________Ab8gAAJB______________H22gAAED______________Ae8gAAJD______________A6GhAACD______________Ab8gAAJC______________D-9gAAED______________VqlgAACE______________R4UgAACB______________KLdgAAEB______________ACsgAAHI______________KcdgAAEC______________Rp_gAACK______________KadgAAEB______________C1igAAEA______________Ae6gAAAB______________Ae8gAAJE______________LojgAAEA______________AZrgAAHJ______________Ab8gAAJB______________Rr_gAACK______________AH7gAAAB______________Ay5gAAAB______________ArygAAHG______________D_9gAAEC______________DP-gAAEE______________X9ygAAEA______________GhWgAAED______________A91gAAAF______________JBYgAAED______________BgggAAEC______________A9JhAAHK______________Ab8gAAJC______________Q-pgAAEB______________AacgAAHF______________AJxgAAHJ______________BSfgAAED______________HJ4gAAED______________AvWgAAMA______________LCkgAAEA______________JEYgAAEB______________IFXgAAED______________GUWgAAED______________I6WgAAEC______________BdggAAEB______________S2ngAABA______________GLWgAAEB______________IAXgAAED______________VulgAACE______________NkHhAACP______________Ad8gAAJC______________KldgAAED______________Ae8gAAJG______________Ab8gAAJK______________IKXgAAED______________H12gAAEC______________AUvgAADG______________AZrgAAMA______________JAYgAAED______________AgqgAAMA______________J_XgAAEC______________Ab8gAAJD______________XjsgAAPA______________H82gAAEB______________GPWgAAED______________S9ngAABA______________Ae8gAAJE______________DK-gAAED______________D49gAAEB______________NwBhAACH______________AYugAAAF______________H62gAAED______________RJDhAACG______________BfagAAEB______________UcYgAAED______________Ae8gAAJE______________V_UgAACA______________ArFhAACS______________LjjgAAEA______________Ab8gAAJB______________AMxgAAHJ______________ALQgAAPC______________AqEhAACT______________Ab8gAAJF______________KedgAAEB______________AXxgAAMA______________D99gAAEC______________J-XgAAEB______________AqpgAAJA______________RAAhAACK______________AXxgAAPA______________JEYgAAED______________A3ygAAJI______________BQggAAEB______________Ab8gAAJK______________CKjgAAEA______________Ae8gAAJC______________H32gAAED______________AXugAAHI______________AVpgAAHC______________UAagAAED______________AUpgAAHC______________Al0gAAHI______________Ab8gAAJG______________Ae8gAAJC______________CuigAAEA______________CcjgAAEA______________C9igAAEA______________LjjgAAEA______________KjdgAAEE______________KddgAAEB______________Ao_gAACT______________Ad8gAAJK______________A9ygAAHK______________Ab8gAAJB______________Ad8gAAJD______________Ug9gAAEB______________RXmgAACF______________AHOhAAHC______________AM6gAAAI______________Ws8gAAEG______________KidgAAEE______________Ae8gAAJE______________DA-gAAED______________A3ygAAJI______________Ad8gAAJD______________AnwgAAHJ______________A3ygAAJI______________AiUgAAHG______________KfdgAAEC______________UVYgAAEE______________Ae8gAAJB______________Ae8gAAJD______________Ae8gAAJE______________Ae8gAAJB______________BPfgAAEE______________H72gAAEB______________A8ygAAPA______________D89gAAEB______________BjagAAEB______________ARvgAADG______________WWygAACN______________RplgAACF______________VtHhAACP______________NpUgAACA______________J-XgAAEC______________KWdgAAEB______________JAYgAAEE______________A1WgAAMA______________J6XgAAEE______________BtfgAAEE______________AvygAAMA______________NtlgAACA______________AZagAAPC______________H42gAAEE______________A94gAAAB______________DN-gAAED______________HD4gAAED______________Ae8gAAJD______________Ae8gAAJE______________AoPhAAPA______________KddgAAEB______________H92gAAEB______________UbYgAAED______________Ab8gAAJF______________V1egAACE______________AftgAAAF______________AVsgAAHI______________R8egAACF______________GUWgAAED______________H22gAAEB______________GfWgAAEB______________LqjgAAEA______________LijgAAEA______________AYegAAHB______________GLWgAAEC______________AUzgAAHG______________X1_gAAEA______________CBlgAAEA______________Ae8gAAJD______________QGqgAAEB______________A6kgAAAI______________ARSgAAHD______________IKXgAAEB______________ARzgAAHG______________Ab8gAAJB______________Ae8gAAJE______________NyUgAACA______________A3ygAAJI______________KedgAAED______________Ab8gAAJF______________KkdgAAEC______________Ab8gAAJE______________UpYgAAEB______________H42gAAEE______________R3ChAACI______________Ab8gAAJB______________DA-gAAEE______________H42gAAED______________AStgAAHI______________CoigAAEA______________Ae8gAAJB______________BVggAAED______________AEugAAAF______________NXHhAACP______________C7ugAAEA______________ISXgAAEB______________A3ygAAJI______________Ah1gAAMA______________GnWgAAEE______________H22gAAEC______________H32gAAED______________AAKhAAAI______________H82gAAEB______________Ap0gAAHD______________BdggAAEB______________AAxgAAHJ______________HL4gAAED______________AhbgAAPC______________Ad8gAAJK______________AS1gAAMA______________BEggAAEE______________QJqgAAEB______________Hn4gAAEE______________Ws8gAAEG______________Ab8gAAJK______________BdggAAEB______________A0ygAAMA______________CwigAAEA______________AEKhAAHL______________KbdgAAEC______________Ab8gAAJF______________AovgAADH______________ALugAAHI______________Ab8gAAJF______________Ad8gAAJK______________H92gAAEB______________Ad8gAAJK______________BhagAAEB______________DO-gAAEB______________AcugAAAF______________A0cgAAHG______________H32gAAEE______________ALsgAAAF______________AEsgAAHI______________I3WgAAEE______________AfygAAHG______________R1_gAACK______________Ae8gAAJC______________Ae8gAAJE______________Ac8gAAJE______________Aa8gAAAE______________AEzgAAMA______________Ae8gAAJE______________U0YgAAEB______________LjjgAAEA______________AqxgAAHG______________ArpgAAJA______________AFzgAAMA______________GiWgAAEB______________H92gAAEC______________CHjgAAEA______________A1hgAAHE______________AzsgAAHJ______________BLggAAEB______________ANYgAAHB______________GUWgAAEE______________RZ_gAACG______________AxugAAHB______________VzlgAACE______________R1_gAACK______________BWfgAAEE______________UzYgAAEB______________GoWgAAED______________Ab8gAAJK______________A3ygAAJI______________Ae8gAAJC______________A3ygAAJI______________A9GhAACD______________Ae8gAAJK______________KMdgAAEB______________A45gAAHL______________AtpgAAJA______________Ab8gAAJF______________AmngAAMA______________Ae8gAAJD______________D59gAAEB______________AtFhAACS______________BPfgAAEE______________H72gAAEC______________ArpgAAJA______________RwUgAACB______________BDqgAAEB______________Av2gAAMA______________KddgAAEB______________A1tgAAAF______________AtFhAACS______________HF3gAAEB______________Ab8gAAJE______________AgsgAAHI______________A3agAAAF______________H32gAAED______________NyChAACH______________H32gAAEE______________AuEhAACT______________AnpgAAJH______________Ag5gAAAB______________VXmgAACE______________Ae8gAAJC______________Am5gAAAB______________ABHhAACD______________XrvgAAEA______________NbHhAACP______________ATzgAAHG______________A_rgAAHI______________A4vgAAMA______________JCYgAAEB______________I7WgAAEB______________U2YgAAEA______________BRfgAAED______________JDYgAAEB______________H82gAAEB______________AKOhAAMA______________Ab8gAAJB______________GpWgAAEE______________R7ChAACI______________LvjgAAEA______________H12gAAEB______________GcWgAAEE______________Ab8gAAJC______________USYgAAED______________AVzgAAHG______________A6agAAHB______________G9ogAAEB______________Ab8gAAJD______________JFYgAAEE______________A3ygAAJI______________A-7gAAMA______________ShogAABD______________AdygAAHI______________AjUgAAPD______________IHXgAAED______________AyxgAAHG______________ADegAAHD______________L4jgAAEA______________AizgAAHI______________Ae8gAAJG______________Ac8gAAJE______________QIqgAAEB______________GOWgAAEB______________Ap0gAAHD______________HM4gAAED______________AOugAAAF______________AvygAAHG______________J-XgAAEC______________I7WgAAEB______________RxUgAACB______________AtEhAACT______________GZWgAAED______________KLdgAAED______________AIxgAAHJ______________Ae8gAAJB______________DA-gAAED______________W08gAAEG______________A9cgAAMA______________AlqgAAMA______________UtYgAAEB______________Xo_gAAEA______________ASrgAAAI______________KVdgAAED______________UyZgAAEC______________DA-gAAED______________Ab8gAAJB______________AsygAAHG______________AbsgAAHI______________A3ygAAJI______________GWWgAAEE______________AW1gAAMA______________Ab8gAAJC______________A3ygAAJI______________I9WgAAEB______________GWWgAAEE______________GYWgAAEC______________KcdgAAEB______________Ab8gAAJB______________Ab8gAAJF______________Ae8gAAJE______________I7WgAAEB______________QKqgAAEB______________S3ngAABA______________NwlgAACE______________AvpgAAMA______________Hy4gAAEB______________Ab8gAAJG______________AUtgAAMA______________A7AhAAMA______________Ab8gAAJF______________Ae8gAAJC______________NqlgAACE______________UGZgAAEB______________RyUgAACB______________A3agAAAF______________AXxgAAMA______________Ab8gAAJB______________HF4gAAED______________UVYgAAED______________AecgAAHF______________GRWgAAEE______________A3ygAAJI______________Ad8gAAJK______________Ah1gAAMA______________AtwgAAHJ______________AZ0gAAAI______________AjhgAAHH______________AH2gAAHB______________GjWgAAEB______________R-_gAACK______________D_9gAAEC______________A_wgAAHJ______________H22gAAEB______________AQugAAAF______________Ad8gAAJK______________UuZgAAEB______________UXYgAAEC______________N2agAACE______________GQWgAAEB______________AphgAAHH______________AJ8gAAHM______________BfagAAED______________L6jgAAEA______________BfegAAEB______________A8rgAAMA______________E19gAAEA______________AhygAAHG______________Ug9gAAEB______________UxZgAAEC______________ATvgAADG______________RuBhAACI______________Ah1gAAMA______________JEYgAAED______________AtrgAAHD______________AGxgAAHJ______________DD-gAAED______________A5wgAAHJ______________HA3gAAEC______________ADugAAAF______________QIqgAAEB______________KjdgAAEE______________HN3gAAED______________Wn8gAAEG______________BFvgAAEB______________A3XgAAPC______________NaDhAACH______________LIkgAAEA______________UPagAAED______________JAYgAAED______________A_GhAACD______________BfagAAEB______________Ae8gAAJE______________ArpgAAJA______________ApygAAHG______________cF8gAAEH______________NVHhAACP______________BGggAAED______________Ac1gAAMA______________H72gAAEE______________AmugAAHI______________BCggAAED______________ASogAAPD______________GiWgAAEB______________Ab8gAAJG______________AStgAAHI______________XfpgAAEA______________A3tgAAHI______________J-XgAAEB______________ADugAAAF______________VnBhAACH______________Ae8gAAJG______________AfygAAHL______________NzegAACE______________Ae8gAAJE______________GLWgAAEB______________A45gAAAF______________Aq8gAAHC______________VHdgAACN______________Al6gAAAB______________LgjgAAEA______________A4ugAAMA______________Ab8gAAJK______________Ae8gAAJD______________AztgAAAF______________KWdgAAEB______________AZngAAHB______________Ad8gAAJK______________I7WgAAEB______________NmChAACH______________KldgAAED______________Ae8gAAJB______________NWHhAACP______________SzXgAABE______________Ae8gAAJB______________SKogAABA______________AjsgAAHI______________Ab7gAAAB______________Ab8gAAJD______________UHagAAEE______________Ug9gAAED______________CzigAAEA______________GVWgAAEB______________A34gAAHL______________Ae8gAAJD______________AC7gAAAB______________AupgAAMA______________RfChAACI______________IuXgAAED______________NVHhAACP______________H42gAAED______________ALzgAAHG______________H42gAAED______________AhbgAAPC______________CvigAAEA______________BfagAAEB______________ApwgAAMA______________ASugAAAF______________AzygAAMA______________Ac8gAAJB______________D99gAAEB______________HM4gAAED______________UaYgAAED______________UyYgAAEB______________A3ygAAJI______________BpggAAEB______________Ae8gAAJB______________KRdgAAEE______________Ab8gAAJF______________Ab8gAAJC______________Ab8gAAJC______________Ae8gAAJG______________I8WgAAED______________Wn8gAAEG______________AEbgAAAF______________X9ygAAEA______________A3ygAAJI______________A3ygAAJI______________Ae8gAAJK______________SQogAABF______________U7YgAAEB______________SQogAABG______________BNggAAEB______________Ab8gAAJF______________Ad8gAAJK______________CtigAAEA______________BdggAAEB______________N9egAACE______________KKdgAAED______________Uf9gAAEB______________Ab8gAAJF______________A5bgAAMA______________GfWgAAEE______________Ar5gAAAB______________Ae8gAAJC______________Ae8gAAJC______________Ab8gAAJB______________Ae8gAAJC______________Ae8gAAJC______________IuXgAAEE______________AcpgAAMA______________NeChAACH______________Ac8gAAJE______________Ae8gAAJG______________Ad5gAAAB______________UUYgAAED______________AcRgAAPC______________AOsgAAAF______________Ab8gAAJG______________GZWgAAED______________AL7gAAAB______________NZChAACH______________JKYgAAEE______________Ab8gAAJF______________UDagAAEE______________IoXgAAEE______________LsjgAAEA______________Ab8gAAJF______________KPdgAAEB______________H42gAAED______________Q5pgAAEB______________GVWgAAEC______________AnwgAAHJ______________SBogAABA______________ABsgAAAF______________AZsgAAAF______________AkygAAHG______________RxegAACF______________B9fgAAEC______________Ab8gAAJC______________SFogAABA______________AvxgAAHG______________AiygAAHG______________Hp4gAAEE______________Ac8gAAJE______________BPggAAED______________AkbgAAHD______________KQdgAAED______________DA-gAAEB______________I9WgAAEB______________IoXgAAEE______________HE3gAAEB______________KMdgAAEB______________D_9gAAEB______________ATugAAAF______________AaugAAAF______________AP7gAAAB______________BSfgAAED______________Ae8gAAJE______________RX_gAACG______________BCggAAED______________N0DhAACH______________KjdgAAEE______________AJwgAAPC______________AJsgAAHL______________LhjgAAEA______________Ab8gAAJD______________QMqgAAEB______________Ab8gAAJC______________H_2gAAEB______________QDqgAAEB______________I_WgAAEB______________A3ygAAJI______________Ab8gAAJF______________BpggAAEB______________A3XgAAPC______________LwjgAAEA______________AdegAAHB______________Ab8gAAJC______________XUpgAAEA______________KbdgAAEB______________Ab8gAAJC______________Ab8gAAJF______________Ae8gAAJB______________Ab8gAAJC______________SJogAABG______________AebgAAAF______________LBkgAAEA______________H03gAAEB______________A01gAAMA______________AZNhAAHL______________AxcgAAHF______________ViHhAACP______________JBYgAAED______________IAXgAAEE______________A3ygAAJI______________Ac8gAAJE______________E19gAAEA______________A3ugAADH______________MJegAAEA______________BPggAAEB______________ATRgAAMA______________Ab8gAAJC______________Ac8gAAJB______________A-4gAAAB______________A3ygAAJI______________SAogAABA______________DQ-gAAEC______________E29gAAEA______________UJagAAEE______________Ab8gAAJD______________Ab8gAAJF______________KQdgAAED______________Ab8gAAJF______________I7WgAAEB______________SVogAABH______________I_WgAAEB______________NBVgAACA______________RcChAACI______________DJ-gAAED______________A_GhAACD______________RtBhAACI______________LFkgAAEA______________AcRgAAPC______________DJ-gAAEB______________A3tgAAHI______________AvzgAAPA______________Aa8gAAAE______________GaWgAAED______________DJ-gAAEB______________C6igAAEA______________ANwgAAPC______________Ab8gAAJB______________A3vgAADH______________CHjgAAEA______________A5ygAAMA______________QCqgAAEB______________A66gAAAB______________UyZgAAEC______________DL-gAAEE______________JBYgAAEE______________Q6pgAAEB______________I9WgAAEC______________BdggAAEB______________Ab8gAAJC______________ApygAAHG______________A3tgAAHI______________AupgAAJH______________UXYgAAED______________SNngAALD______________LHkgAAEA______________AAHhAACD______________Ab8gAAJB______________AYzgAAMA______________Ad8gAAJD______________AStgAAHI______________A7hgAAHE______________I7WgAAEB______________D49gAAED______________AOzgAAHG______________Ab8gAAJF______________AcRgAAPC______________DP-gAAEE______________ARsgAAAF______________LgjgAAEA______________Ab8gAAJB______________A1wgAAHJ______________Ab8gAAJB______________YhUgAAGD______________IDXgAAED______________H62gAAEC______________Ae8gAAJC______________AhzgAAHG______________Ab8gAAJF______________QKqgAAEB______________Ac8gAAJE______________Ab8gAAJK______________Ae8gAAJK______________LYkgAAEA______________KQdgAAEE______________H42gAAED______________CtigAAEA______________I5WgAAEC______________Ab8gAAJF______________A8AhAAAI______________A-kgAAMA______________H62gAAEB______________Ab8gAAJF______________AfcgAAHF______________AjbgAAAF______________BOfgAAED______________KddgAAEC______________GiWgAAEC______________DE-gAAEE______________Ui9gAAEB______________BWfgAAEE______________Ad8gAAJK______________CoigAAEA______________AczgAAHG______________AN5gAAAB______________A7vgAAMA______________NyChAACH______________UTZgAAEB______________HG3gAAEB______________LtjgAAEA______________R2_gAACK______________ItXgAAEE______________R4UgAACB______________JHYgAAEC______________LmjgAAEA______________JHYgAAEE______________KldgAAEE______________R5DhAACI______________NHVgAACA______________VxegAACE______________Ax2gAAMA______________ImXgAAED______________I_WgAAED______________Ap0gAAHD______________D49gAAEB______________VaHhAACP______________SaogAABA______________AopgAAMA______________UHZgAAEB______________UFagAAEE______________ZmHhAACQ______________Ab8gAAJB______________DS-gAAED______________NuegAACE______________Q5pgAAEB______________D_9gAAEC______________S-ngAABD______________J-XgAAEB______________A3ygAAJI______________NXHhAACP______________RjPhAACK______________ASpgAAHC______________Ac8gAAJE______________AzEhAACT______________AnsgAAHI______________GfWgAAED______________LkWgAAEA______________KkdgAAED______________Ab8gAAJF______________AM0gAAHJ______________RxegAACF______________NZChAACH______________Ae8gAAJG______________AQ6gAAAI______________AExgAAHJ______________ATpgAAHC______________I_WgAAEB______________Ae8gAAJB______________Ac1gAAMA______________KSdgAAEC______________UCagAAEE______________ARsgAAHI______________Ab8gAAJF______________Ad0gAAHB______________Ab8gAAJD______________N2egAACE______________NkHhAACP______________AdagAAHD______________GiWgAAEB______________VplgAACE______________H22gAAEC______________Aj_gAACT______________Ab8gAAJB______________DO-gAAEE______________ItXgAAED______________J9XgAAEC______________KVdgAAEB______________KYdgAAEB______________Ae8gAAJE______________BfagAAED______________AD6gAAAB______________R4ChAACI______________GsWgAAED______________Ab8gAAJB______________APpgAAHC______________Wo8gAAEG______________VPChAACP______________Ae8gAAJB______________QGqgAAEB______________AQvgAAMA______________ArpgAAJA______________L7jgAAEA______________A6wgAAHJ______________Ab8gAAJC______________Ab8gAAJF______________Ae8gAAJC______________QGqgAAEB______________Wo8gAAEG______________Ws8gAAEG______________A3ygAAJI______________SgogAABB______________QIqgAAEB______________ArvgAACT___zBGB_____________E_D_____________HA3gAAED______________Um9gAAEB______________ACsgAAMA______________DO-gAAED______________I_WgAAEB______________QFqgAAEB______________AL5gAAAB______________ISXgAAEB______________DJ-gAAED______________H72gAAEB______________A1jgAAMA______________Ad8gAAJC______________Ac8gAAJB______________C2igAAEA______________H_2gAAEB______________CHjgAAEA______________Ah1gAAMA______________AzsgAAMA______________QIqgAAEB______________HQ4gAAED______________Aa8gAAAE______________Uk9gAAEB______________J9XgAAEB______________Ae8gAAJK______________GeWgAAEB______________J4XgAAED______________Ai5gAAAB______________VYHhAACP______________KfdgAAED______________CtigAAEA______________QDqgAAEB______________AStgAAAF______________JFYgAAEE______________KgdgAAED______________QIqgAAEB______________RZChAACI______________PCFhAACC______________Ae8gAAJG______________LljgAAEA______________NipgAACE______________Ab8gAAJF______________AUvgAADG______________I7WgAAED______________A_4gAAAB______________L4jgAAEA______________H32gAAED______________B9fgAAEC______________RVDhAACI______________BRggAAED______________Ab8gAAJB______________UMZgAAEB______________AspgAAJF______________AxOhAAHF______________I7WgAAEE______________H72gAAEC______________R5UgAACB______________NJVgAACA______________VqlgAACE______________AppgAAMA______________CtigAAEA______________LijgAAEA______________AYugAAAF______________S7ngAABF______________Ac8gAAJB______________Hi3gAAED______________C6igAAEA______________Ab8gAAJC______________JAYgAAEC______________AwBhAAHL______________A1pgAAPD______________I-WgAAEC______________N5UgAACA______________CoigAAEA______________R_UgAACB______________ABsgAAHI______________ADzgAAMA______________R4UgAACB______________KXdgAAEB______________A8MhAAPC______________UTZgAAEA______________UJagAAED______________KcdgAAEE______________H92gAAEB______________U4YgAAEA______________QFqgAAEB______________H22gAAEC______________KPdgAAED______________R0egAACF______________NiHhAACP______________AYzgAAHI______________CrigAAEA______________A1cgAAPB______________AxygAAHI______________Ab8gAAJB______________AMegAAHB______________AcRgAAPC______________Ab8gAAJK______________KSdgAAED______________VWygAACN______________KedgAAED______________NZChAACH______________H22gAAED______________Ad8gAAJE______________CoigAAEA______________Uj9gAAEB______________UXagAAEE______________AUvgAADG______________AfugAAAF______________NdChAACH______________YgUgAAGD______________UyYgAAEB______________ArzgAAHE______________AucgAAHF______________NWHhAACP______________Ax7gAAMA______________A3ygAAJI______________UaYgAAED______________X-kgAAEA______________I3WgAAEC______________Hh4gAAEE______________Ae8gAAJG______________Ae8gAAJG______________Ab8gAAJF______________A8rgAAMA______________JBYgAAED______________Ab8gAAJF______________UNagAAEE______________HC3gAAEC______________UeYgAAEE______________Ab8gAAJD______________LtjgAAEA______________AV6gAAAB______________AI5gAAAB______________A3XgAAPC______________NsChAACH______________Ae8gAAJG______________CMjgAAEA______________Ab8gAAJC______________AtEhAACT______________MmrgAAEA______________Wn8gAAEG______________BBggAAED______________AZugAAAF______________UlYgAAEB______________Ab8gAAJB______________U4YgAAEB______________VYygAACN______________M02gAAEA______________BcggAAEC______________KddgAAEB______________Ab8gAAJG______________ABxgAAHJ______________ARtgAAHI______________H82gAAEB______________AXxgAAHD______________AJugAAHI______________Ab8gAAJF______________Ah1gAAMA______________APxgAAHJ______________KkdgAAEE______________H62gAAEB______________KedgAAEC______________Ab8gAAJB______________Ab8gAAJB______________SLogAABA______________DM-gAAEB______________LqjgAAEA______________Ab8gAAJB______________Ab8gAAJF______________AXxgAAMA______________LZkgAAEA______________E29gAAEA______________Ab8gAAJB______________SBogAABA______________Ab8gAAJG______________UdYgAAEE______________KjdgAAEE______________UVYgAAED______________AihgAAMA______________SDogAABA______________QBqgAAEB______________R4UgAACB______________Uu9gAAEB______________Ex9gAAEA______________KddgAAEB______________BWfgAAEE______________KTdgAAEC______________KkdgAAED______________ArKhAAHC______________I7WgAAEB______________KLdgAAEB______________QDqgAAEB______________KLdgAAEC______________AJBhAAHH______________AKwgAAPC______________ASzgAAHG______________AihgAAHB______________VvChAACH______________AYzgAAHG______________NaGhAACA______________D99gAAEC______________I5WgAAEC______________I9WgAAED______________Wj8gAAEG______________Ab8gAAJG______________LDkgAAEA______________GkWgAAEE______________UQYgAAED______________QHqgAAEB______________A3ygAAJI______________RTAhAACK______________KgdgAAED______________AMzgAAHG______________H62gAAED______________QKqgAAEB______________AQ6gAAAB______________I3WgAAEE______________VzegAACE______________SLogAABA______________Ac8gAAJB______________I7WgAAED______________JDYgAAEC______________AO6gAAAB______________JBYgAAED______________I3WgAAED______________GWWgAAEE______________ApzgAAHB______________UzZgAAEE______________RTVgAACB______________Wr8gAAEG______________HC3gAAEC______________ANxgAAHJ______________Ae8gAAJB______________Ab8gAAJC______________GaWgAAEC______________Ab8gAAJG______________A4wgAAHJ______________KQdgAAED______________Xj_gAAEA______________DO-gAAED______________NRVgAACA______________MDegAAEA______________Ab8gAAJF______________Ab8gAAJF______________AU6gAAAB______________Ug9gAAEB______________Ab8gAAJG______________Ab8gAAJK______________Ab8gAAJC______________RRAhAACK______________KLdgAAEC______________I7WgAAEC______________Ad8gAAJK______________R8DhAACB______________Ab8gAAJB______________QCqgAAEB______________AlygAAHG______________BJggAAEB______________KidgAAED______________Ab8gAAJF______________Ab8gAAJC______________Ab8gAAJF______________KVdgAAEC______________UpYgAAEB______________GrWgAAEE______________Ac8gAAJE______________BEggAAEE______________Ap0gAAHD______________CyigAAEA______________InXgAAEE______________AAHhAACD______________Wn8gAAEG______________Ap0gAAHD______________V7BhAACH______________NKdgAACN______________JDYgAAEC______________PMFhAACC______________AcTjIAMA______________A-GhAACD______________H72gAAEB______________NbHhAACP______________ACHhAACD______________Ae8gAAJB______________LykgAAEA______________KfdgAAEB______________IHXgAAEE______________R8ChAACI______________AZ_gAAMA______________C3igAAEA______________AtEhAACT______________DP-gAAEE______________Wk8gAAEG______________AmsgAAHI______________Ab8gAAJF______________A5bgAAMA______________AW1gAAMA______________Ae8gAAJE______________ADzgAAHL______________Ac1gAAMA______________GgWgAAEE______________ATsgAAHI______________A8GhAACD______________AJWgAAHB______________Ap0gAAHD______________IGXgAAED______________LujgAAEA______________AA5gAAAB______________AZrgAAMA______________A7AhAAMA______________B9fgAAEC______________LqjgAAEA______________BUWgAAEB______________X9ygAAEA______________BfagAAEB______________H62gAAEC______________DD-gAAEC______________Ap0gAAHD______________Ab8gAAJD______________D59gAAEB______________BUfgAAED______________PLFhAACC______________UpYgAAEC______________Ro_gAACK______________AUpgAAHC______________BaggAAEA______________J9XgAAED______________BgWgAAEB______________DR-gAAED______________I7WgAAEB______________LhjgAAEA______________QxYgAAEB______________Ae8gAAJG______________H22gAAEB______________Ac8gAAJE______________R3egAACF______________RzUgAACB______________DQ-gAAEB______________Ab8gAAJF______________KddgAAEB______________D-9gAAED______________USYgAAED______________Ad8gAAJK______________GZWgAAEB______________ABHhAACD______________Ra_gAACG______________AStgAAHI______________XBzgAAEA______________DO-gAAED______________AkbgAAHD______________DJ-gAAEB______________KXdgAAEB______________DF-gAAED______________Ae8gAAJE______________HV4gAAEE______________Ab8gAAJG______________JAYgAAEC______________DA-gAAEB______________GZWgAAEC______________KLdgAAEB______________IqXgAAED______________H-2gAAEB______________Ae8gAAJK______________Ab8gAAJF______________D_9gAAEC______________JJYgAAED______________AtEhAACT______________ASsgAAHI______________VSChAACH______________VqUgAACA______________ARegAAHC______________H62gAAEE______________BGggAAEC______________ABbgAAAI______________AswgAAMA______________Ad8gAAJK______________A30gAAHH______________GgWgAAEC______________Ab8gAAJC______________B0ggAAEB______________XAzgAAEA______________RoBhAACI______________H62gAAEB______________KidgAAEE______________AS1gAAMA______________Ae8gAAJK______________UtZgAAEC______________Q7pgAAEB______________B-ogAAEB______________RSChAACG______________IFXgAAEC______________AUugAAHI______________NtHhAACP______________AFugAAAF______________Ab8gAAJC______________KJdgAAEE______________LBkgAAEA______________RcChAACI______________Aa0gAAAI______________AW1gAAMA______________Ab8gAAJD______________U1ZgAAEC______________YeUgAAGC______________QKqgAAEB______________ArFhAACS______________DA-gAAED______________HC3gAAEC______________XoEhAAEA______________Ad8gAAJK______________H22gAAEC______________AUtgAAHI______________RaGhAACB______________AbygAAAF______________UaYgAAED______________AyvgAAMA______________JJYgAAED______________KddgAAED______________KSdgAAED______________Ab8gAAJF______________ArngAAAI______________XoEhAAEA______________H72gAAEC______________UGZgAAEB______________Ab8gAAJC______________DA-gAAED______________WoGhAACN______________Ad1gAAMA______________NJDhAACH______________Ae8gAAJD______________JFYgAAEE______________GYWgAAEB______________Ad8gAAJK______________Ae8gAAJE______________I4WgAAEB______________Ab8gAAJB______________A3ygAAJI______________Av2gAAHH______________D59gAAED______________UPZgAAEB______________IDXgAAEE______________Hg4gAAEE______________A8AhAAHH______________UfYgAAED______________Ab8gAAJB______________I7WgAAED______________UAZgAAEB______________I-WgAAEB______________A7agAAAF______________ALKhAAHK______________AS6gAAHL______________QIqgAAEB______________GiWgAAED______________Ac5gAAAB______________Ad8gAAJK______________AksgAAPA______________Wr8gAAEG______________GWWgAAED______________J-XgAAEC______________Ae8gAAJC______________UvZgAAEC______________GjWgAAEB______________A3ugAAMA______________AvwgAAHJ______________JBYgAAEB______________A3ygAAJI______________GRWgAAEB______________GOWgAAEB______________JKYgAAEE______________AYpgAAAI______________GiWgAAEC______________VzHhAACP______________N1UgAACA______________IAXgAAED______________UuZgAAEB______________KRdgAAED______________I7WgAAEB______________ARugAAAF______________VKmgAACE______________Ac8gAAJB______________H_2gAAEB______________AAKhAAAI______________Z6UgAACQ______________RAEhAACB______________AsEhAACT______________PHFhAACC______________AEsgAAPA______________AszgAAHB______________LQkgAAEA______________IHXgAAEE______________AWugAAHI______________BrggAAEB______________A3ygAAJI______________Ab8gAAJD______________Ae8gAAJB______________GMWgAAEB______________UIZgAAEB______________JBYgAAEB______________ZsHhAACQ______________Aa8gAAHL______________A07gAAMA______________WOdgAACN______________H62gAAEE______________V6UgAACA______________Ab8gAAJD______________J7XgAAEC______________PDFhAACC______________AEbgAAAF______________Hk4gAAEE______________KkdgAAEE______________I_WgAAEB______________Ab5gAAAB______________H_2gAAEC______________Af5gAAAB______________A8kgAAHJ______________AvpgAAJA______________E39gAAEA______________R9egAACF______________BBggAAEC______________AhqgAAMA______________Ab8gAAJG______________Ab8gAAJG______________Ab8gAAJB______________Rb_gAACG______________NaygAACN______________AqogAAMA______________NUChAACH______________AOegAAHB______________WldgAACN______________UYYgAAED______________JBYgAAEE______________U_YgAAEA______________KZdgAAED______________UuZgAAEC______________ANngAAHC______________A3ygAAJI______________IHXgAAED______________VlChAACP______________AhygAAHG______________RrBhAACI______________QGqgAAEB______________A11gAAMA______________AOygAAAI______________A8ygAAMA______________A8ygAAMA______________A1vgAAMA______________A3ygAAJI______________A2QgAAPC______________A2WgAAMA______________ASvgAADG______________R2ChAACI______________AGNhAAAI______________A3XgAAPC______________QGqgAAEB______________RcChAACI______________RdGhAACB______________Ay1gAAHC______________Ad8gAAJK______________RxChAACI______________LjjgAAEA______________NVHhAACP______________LXkgAAEA______________JDYgAAEB______________I7WgAAEB______________Ac8gAAJB______________GfWgAAED______________Aa8gAAAE______________D59gAAEB______________Ab8gAAJD______________QKqgAAEB______________Rl_gAACK______________GQWgAAED______________A3ygAAJI______________AKugAAHI______________H-2gAAEB______________AkqgAAMA______________AezgAAHG______________I_WgAAEB______________Ae8gAAJG______________Ae8gAAJG______________AB2gAAHJ______________A0tgAAAF______________IFXgAAED______________GSWgAAEC______________VqlgAACE______________KcdgAAED______________RDdgAACU______________GZWgAAEB______________D59gAAEB______________ULZgAAEB______________Ae8gAAJE______________HE4gAAED______________Ad8gAAJK______________Ae8gAAJB______________A8wgAAHJ______________DQ-gAAEB______________H22gAAEC______________Af8gAAAE______________A3ygAAJI______________HV4gAAEB______________VZHhAACP______________AYrgAAHB______________D49gAAEC______________KXdgAAED______________Ad8gAAJK______________UDagAAEE______________I7WgAAEC______________H42gAAEE______________A5tgAAAF______________Ab8gAAJK______________MH2gAAEA______________ISXgAAEE______________UFagAAED______________AJzgAAHG______________B8rgAAEE______________IHXgAAEB______________Eu9gAAEA______________Q9pgAAEB______________U6YgAAEB______________LtjgAAEA______________A_AhAAHK______________Ae8gAAJE______________AAugAAAF______________LwjgAAEA______________Ab8gAAJB______________LrjgAAEA______________Ay7gAAMA______________IuXgAAEE______________KXdgAAED______________GfWgAAED______________AXrgAAAI______________Ab8gAAJK______________RxegAACF______________IwXgAAEB______________UQYgAAED______________H32gAAEE______________UPagAAED______________Ae8gAAJC______________AqpgAAJJ______________Ae8gAAJB______________DA-gAAEB______________CuigAAEA______________UkYgAAEB______________AungAAMA______________LqjgAAEA______________V-egAACE______________Ra_gAACG______________Ab8gAAJF______________KidgAAEE______________UrZgAAEB______________BVfgAAED______________MJwgAAEA______________Av6gAAAB______________U2YgAAEB______________H82gAAEB______________H12gAAEB______________KbdgAAED______________Ab8gAAJF______________Ab8gAAJF______________QBqgAAEB______________NjHhAACP______________Aw7gAAMA______________UyZgAAEC______________Ab8gAAJD______________LijgAAEA______________AmqgAAMA______________QGqgAAEB______________Ae8gAAJB______________Ab8gAAJE______________AhbgAAPC______________J-XgAAEB______________L_jgAAEA______________Rs_gAACK______________AD7gAAAB______________AKzgAAHG______________RnChAACI______________A3XgAAPC______________QCqgAAEB______________Ae8gAAJD______________BPfgAAED______________ABHhAACD______________Ra_gAACG______________C2igAAEA______________KYdgAAEC______________Ab8gAAJF______________AtFhAACS______________IoXgAAED______________Ad8gAAJK______________GUWgAAED______________AgygAAHG______________AnygAAHG______________ABRgAAPC______________AV8gAAMA______________KkdgAAEE______________AGNhAAPC______________A9GhAACD______________V1egAACE______________AYPhAAHC______________VZHhAACP______________LfjgAAEA______________Ab8gAAJD______________Ab8gAAJF______________A7AhAAMA______________Aa8gAAAE______________A3ygAAJI______________Ab8gAAJD______________HE3gAAED______________NsUgAACA______________H42gAAED______________VtHhAACP______________KJdgAAED______________AswgAAHK______________A3ygAAJI______________AZ8gAAAE______________Ae8gAAJD______________AEbgAAAF______________AXcgAAHF______________RyegAACF______________GLWgAAED______________BLggAAED______________YgUgAAGD______________VxegAACE______________JFYgAAEE______________AAHhAACD______________YTegAAGD______________Ae8gAAJD______________GNWgAAEC______________AspgAAJJ______________Uu9gAAEB______________N1DhAACH______________I3WgAAEC______________LijgAAEA______________NhpgAACE______________A2agAAAF______________KddgAAEE______________Ae8gAAJC______________I7WgAAEB______________A1vgAAAI______________BUfgAAED______________NsChAACH______________Ar_gAACT______________Ab8gAAJB______________DO-gAAEB______________A9wgAAHJ______________KcdgAAED______________HY4gAAEE______________Xk2gAAEA______________A3XgAAPC______________AXxgAAMA______________KmdgAAEB______________Ad8gAAJK______________AS1gAAMA______________H_3gAAED______________A3ygAAJI______________SC0gAALC______________UHagAAEE______________UuYgAAEB______________Ad8gAAJK______________AYygAAHL______________A3ygAAJI______________GUWgAAED______________Ab8gAAJF______________MJwgAAEA______________AlOhAAHL______________Ab8gAAJF______________Ab8gAAJD______________V-egAACE______________KSdgAAED______________Ad8gAAJD______________AfygAAHG______________Ao6gAAAB______________Ab8gAAJG______________UPagAAEE______________UXYgAAED______________S9ngAABA______________A5AhAAMA______________AsEhAACT______________AisgAAHI______________Ab8gAAJC______________D99gAAEC______________QAqgAAEB______________UuZgAAEC______________S8ngAABA______________KZdgAAEB______________Af8gAAAE______________KLdgAAEB______________COvgAAEA______________A-agAAAF______________ScogAABC______________Ab8gAAJE______________AzWgAAMA______________L3jgAAEA______________Af8gAAAE______________RxUgAACB______________UnYgAAED______________KfdgAAEC______________UyYgAAEB______________Ae8gAAJG______________H92gAAEB______________QMqgAAEB______________Ev9gAAEA______________Q5pgAAEB______________Wm8gAAEG______________A9GhAACD______________HL4gAAED______________NvUgAACA______________AtpgAAJA______________JAYgAAEB______________GfWgAAEB______________Ac1gAAMA______________Ab8gAAJE______________H62gAAEC______________AY_gAAHB______________VBDhAACH______________DJ-gAAEC______________I4WgAAED______________Ab8gAAJD______________ArpgAAJA______________VsChAACH______________JEYgAAED______________KLdgAAED______________SCogAALD______________KYdgAAEB______________Ab8gAAJD______________AnpgAAJH______________Al0gAAHK______________BOggAAEB______________U9YgAAEB______________UnYgAAED______________Ab8gAAJB______________RIDhAACI______________GhWgAAEB______________AK5gAAAB______________AM5gAAAI______________Az_gAAHB______________A2XgAAPC______________KXdgAAEC______________DO-gAAED______________LjjgAAEA______________AetgAAHD______________Ab8gAAJD______________AD6gAAAB______________UPagAAEE______________AbugAAAF______________AQBhAAHH______________Ah0gAAAF______________BfggAAEB______________AvpgAAJA______________Ap0gAAHD______________A2wgAAHJ______________AFigAAHE______________Ae8gAAJK______________Wv8gAAEG______________AizgAAHG______________Ab8gAAJB______________HW4gAAEE______________AHxgAAHJ______________AupgAAJF______________C7vgAAEA______________JKYgAAEB______________AMpgAAHI______________JDYgAAEB______________DV-gAAEB______________Ab8gAAJG______________C4vgAAEA___QALA_____________C_C__QALA_____________C_C_____________KLdgAAEB______________Ab8gAAJC______________UYYgAAEC______________Q6pgAAEB______________GRWgAAED______________Ad8gAAJG______________AoNhAAPC______________Aa8gAAAE______________AN8gAAHM______________PHFhAACC______________KddgAAEB______________KRdgAAED______________RbChAACI______________XlsgAAPA______________GLWgAAEB______________Ab8gAAJF______________AHugAAHI______________GjWgAAED______________AgbgAAHI______________GYWgAAED______________DA-gAAEB______________BGggAAED______________GZWgAAEB______________I4WgAAED______________KQdgAAED______________H22gAAEB______________AXxgAAMA______________Ae8gAAJB______________AMygAAAI______________A3ygAAJI______________AW1gAAMA______________AdygAAPC______________NsChAACH______________Ad8gAAJK______________Ae8gAAJK______________UoYgAAEB______________CyigAAEA______________LfjgAAEA______________AxhgAAHH______________AosgAAPA______________CyigAAEA______________AUpgAAHC______________AUrgAAAI______________BMggAAEB______________Ab8gAAJG______________ZqTgAACQ______________N2sgAACE______________Ab8gAAJC______________AzagAAMA______________ALygAAAI______________A1xgAAHG______________A3ygAAJI______________GOWgAAEB______________Ab8gAAJD______________DJ-gAAED______________GrWgAAEE______________Ab8gAAJC______________NxlgAACE______________AQegAAHB______________ArpgAAJA______________A54gAAAB______________Ab8gAAJD______________A3ygAAJI______________A1EhAACT______________A0IhAAHE______________Au6gAAAB______________Ad8gAAJK______________A4MhAAHL______________ArpgAAJA______________H62gAAEC______________V9egAACE______________A6GhAACD______________AWsgAAHI______________LojgAAEA______________H32gAAED______________Ab8gAAJG______________AaagAAHD______________KadgAAEB______________Ae8gAAJG______________Ad8gAAJB______________AwLhAAAI______________KMdgAAEE______________S0rgAABE______________QMqgAAEB______________RcChAACI______________UlYgAAEB______________Ab8gAAJB______________KYdgAAEB______________Rj_gAACK______________UiYgAAEB______________Ar6gAAAB______________Uo9gAAEA______________AKugAAHI______________Ab8gAAJD______________BdggAAEB______________Ab8gAAJF______________KldgAAEE______________A3wgAAHJ______________I_WgAAEB______________I_WgAAED______________Ae8gAAJC______________DA-gAAEB______________HH3gAAEB______________Aw6gAAAB______________Wp8gAAEG______________Ai5gAAAB______________I-WgAAEC______________AspgAAMA______________H32gAAED______________UVYgAAED______________Ab8gAAJF______________H62gAAEB______________KddgAAEC______________H62gAAED______________ArpgAAJA______________AUhgAAPD______________AkNhAAPC______________Ab8gAAJC______________GXWgAAEB______________ArEhAACT______________AZ8gAAAE______________BSggAAEE______________Q8pgAAEB______________SiogAABD______________HG3gAAEB______________I-WgAAEC______________GiWgAAEB______________Ab8gAAJD______________Ek9gAAEA______________AT6gAAAI______________ALugAAHI______________RklgAACF______________AtcgAAHF______________UnYgAAEB______________Ab8gAAJK______________ArvgAAPD______________Q8pgAAEB______________Af8gAAAE______________AS8gAAMA______________AS1gAAMA______________DE-gAAEC______________QKqgAAEB______________NBVgAACA______________UGagAAED______________Ae8gAAJB______________NiHhAACP______________UUYgAAED______________QKqgAAEB______________UnYgAAEB______________UOZgAAEB______________BiagAAEB______________ADngAAHI______________AxOhAAHF______________LhjgAAEA______________B-fgAAED______________AfzgAAHG______________BAggAAED______________Q8pgAAEB______________UPagAAEE______________H92gAAEB______________AaagAAPC______________A8ygAAMA______________KKdgAAED______________Ul9gAAEB____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________B_____________________B__qBAAEOKAABAHJ3gAAECDBAwBEB_GQAABAALHhAACDDBABAAAAAAAAUAApKhAAPDBAABAAAAAAAABAAbagAAMABBAwBEB3IGAABADb-gAAEBDBAzBGBzfSAABAWA9gAAEGEBAFCGBYQWAABAMTEhAAEAEBAECGBpsYAABAPYFhAACCEBAACGBgtOAABALikgAAEAEBAuBGBAAAAABALMkgAAEAEBAXBAASyRAABARt_gAACKCBApBGB4VFAABAGMWgAAEBEAAwBFBzCEAABAJCYgAAEBDAAzBGBQcCAABAMLYgAAEADBAGBAAwUHAABAATvgAADGDAAzBGBSXKAABAGkWgAAEEEBAzBGBjkVAABACejgAAEAEBAzBGBdCIAABAIFXgAAECDBAzBGBU0MAABAUYagAAEDDBAzBGBfSGAABAJAYgAAEDDBAPAFAIDAAAKAApngAAAGBAAzBGB7bNAABALojgAAEADBA___________AuxgAAHG___4BGBZTJAABACeigAAEACAA3AAAhvBAABAEu9gAAEABBAkBBB-kEAABALAkgAAEADBAkBAAGoNAABAUJagAAEEDBAuBGBAAAAABAQ6pgAAEBEBAzBGB-nDAABALVkgAAEADBABAAAAAAAABAAuvgAAMABBAzBGBciOAABADU-gAAEEEBAAAAAAAAAABAApagAANABBABAAAAAAAABAABvgAAMABBABAAAAAAAABAA-ugAAMABBAkCGBetyAABARCChAACIEBAFAAANAAAAUAAZcgAAHFBAABAAAIAAAAUAA1ogAAAHBAAzBEBo4HAABAGgWgAAEEDBAzBGBNkUAABAVrlgAACEDBATB8AkpPAABAA5EhAACTEBAkAfAI-BAABANZHhAACPCAAzBGBdVGAABAcKOhAAEJDBAYBAAyLQAABAMsagAAEADBABAAAAAAAABATr9gAAEACBAhBABUvFAABAIPXgAAEBDBAuBGBPTIAABAITXgAAEBEBApBAAxKDAABAGpWgAAEBCBABAAAAAAAABAA-GhAAMABBAyBAA8gEAABAGYWgAAECCBAnBCBc9JAABAHj3gAAECDAAjBAAl5FAABADQ-gAAECCBAGBAAwUHAAUAAUigAADBDAAwBEBUKGAABAQIqgAAEBDBA___________________B_____________________B__zBAAF_KAABABHggAAEEDBAuBGBGtJAABAJ5XgAAEEEBA8AAAEnAAABATy9gAAEABBA___________________D__ZAPA-AAAAFAAf8gAAAEBAAGB8AkBAAAFAAf8gAAAEBAAYB8AjUJAABAHH3gAAEBEBAcB8ATqJAABAUMZgAAEBEBAzBGBTMEAABAGnWgAAEBDBAGBAAQcCAAFAAjrgAAHDBAAzBGBdXEAABAKWdgAAEBDBAzBGBgtOAABALCkgAAEAEBABAAAtUAAAUAADngAAPAAAAzBGBrGVAABACcjgAAEAEBAzBGBVdUAABAL9jgAAEADBACCAAAAAAABALckgAAEAEBAuAkAsEAAAUAAx6gAAACBAAyAoA0HAAAUAAx6gAAACBAAnAdAWCAAAUAA44gAAACBAA9BGB5FZAABACHjgAAEAEBAdBAAo0BAABAM7vgAAEACBA___________________B_____________________B__eAZAfkAAABAUsZgAAECCAAbAWAjNAAABAGiWgAAECCAAeAZAaiAAABAH72gAAECCAAnBAAOnTAABANZHhAACPDBAPAKArCAAABAKYdgAAECCAARAMANHAAABAU0ZgAAECCAAPAKA1CAAABAKLdgAAECCAAPAKAWDAAABAQCqgAAEBCAAVAQA9MAAABAH22gAAECCAASANAzDAAABAI8WgAAECBAA___________As2gAAHK______________________B__4BGBsnHAABAH62gAAEBCAABAAAhSAAAUAApagAAPAAAA___________ArOhAAHK___VB8AlOEAABAKbdgAAECDAAUAPACLAAABAUrZgAAECCAAuBGBDZIAABAGnWgAAEDEBATAOAjJAAABAH62gAAECCAAzBGBriMAABAIDXgAAEDEBApBGBYOwAABALSkgAAEAEBAVAQAtEAAABADA-gAAEBBAAsBCB03EAABAQKqgAAEBCAAGBAAwUHAABAAYigAADEEBA2AsAiTAAAUAAZ6gAAACBAAzBGBUvKAABAL0jgAAEADBABAAAAAAAAkBAirgAAMABBAzBGBUvKAABALtjgAAEADBAzBGBL-FAABAJEYgAAEBEBAkCGBKIMAABAB6fgAAEBEBAGBAAwUHAABAAEigAADADAAuBGBAAAAABALTkgAAEAEBAzBGBEXGAABAcwpgAAEHDBApBGBYOwAABACfigAAEAEBAzBGBu5aAABARSmgAACFDBAzBGB-uBAABALOkgAAEADBAzBGBVnCAABALekgAAEADBA3AAAIOBAABAA5vgAADCBAA______________________8AAAEnAAABAAhvgAADCCAAGBAAwUHAABAA6hgAADCDAAGBAAwUHAABAAVigAADBDAAGBAAwUHAABAAYigAADEEBA8AAAEnAAABAA_ugAADBCAA3AAAIOBAABAAJvgAADBBAAzBGBdYFAABAXjvgAAEADBA___________________B__EBAAuLAAABAAIzgAAPACAAGBAAEnAAAUAAt2gAAHHCAAGBAAUDDAAUAAnhgAAHHCAAzBGBA2FAABAJEYgAAEBEBA8AyAEnAAAUAAc7gAAACBAAQALAAQAAABARwUgAACBCAAFCGBCXJAABAIjXgAAEBEBApBAAa8DAABAGgWgAAECCBAzBGBlUHAABAJJYgAAEEDBADBAAYqDAABAA3ygAAJIBAA___________________B__GBAAoGGAABAA3ygAAJIDBAGBAAYqDAABAA3ygAAJICBA___________________C__GBAAoGGAABAA3ygAAJIDBAGBAAoGGAABAA3ygAAJIDBAGBAAM1BAABAA3ygAAJIBBALBAAYqDAABAA3ygAAJIDBALBAAYqDAABAA3ygAAJIDBALBAAYqDAABAA3ygAAJIDBALBAAYqDAABAA3ygAAJIDBAEBAAYqDAABAA3ygAAJICAAsAAAMRAAABAA3ygAAJICAA8AAAM1BAABAA3ygAAJICAAIBAAYqDAABAA3ygAAJICBABAAAEnAAABATy9gAAEABAApBGBlCiAABARRmgAACFEAAzBGBMcLAABADB-gAAEEDBAzBGBu1OAABAUdYgAAEEDBAzBGBNkOAABAH42gAAEEDBAzBGB7eLAABABHggAAEEDBAzAuAHyDAABAM2ngAAEADAA0A6ABAAAABAM50gAAEACBA0A6ABAAAABAMUBhAAEACBA0A6ABAAAABALzjgAAEACBA0A6ABAAAABAKXdgAAEBCBA0A6ABAAAABAD59gAAEBCBA0A6ABAAAABAM60gAAEACBA0A6ABAAAABALnjgAAEACBA0A6ABAAAABAGQWgAAEBCBA0A6ABAAAABAH82gAAEBCBA0A6ABAAAABAc9NhAAEICBA0A6ABAAAABAU-YgAAEBCBA0A6ABAAAABAJ-XgAAEBCBA0A6ABAAAABAI7WgAAEBCBA0A6ABAAAABACcigAAEACBA0A6ABAAAABABLggAAEBCBAzBGBCdOAABAUxZgAAECEBAsAnALyBAABAUvZgAAECCAAzBGB5TGAABAIWXgAAEBDBAzBGB5FZAABACLjgAAEAEBAnAAAkBAAAUAA0sgAAHJBAAyAtAAAAAAKAAY7gAAACBAAuBGBQNMAABACLjgAAEAEBAuBGBEAIAABAQIqgAAEBEBAuBGBQNMAABAC3igAAEAEBAmAcAjAAAAUAA64gAAACBAApBGBZCIAABAIQXgAAEBEBApBGBhAIAABADQ-gAAEBEBApBGBXwKAABAUpYgAAEBEBAkAfAdjAAABAQ8pgAAEBCAAaB8A8IHAABAH22gAAECCAApBBBUBEAABAGeWgAAECCAAvBDBlREAABAJ_XgAAECCAAvBDBHfIAABAH12gAAECCAAqBAAjPHAABABfegAAECDAAsBCB5CGAABADJ-gAAECCAAjB_Aj6DAABAKYdgAAECCAAjB_Ax3DAABAGSWgAAECCAA4BGBnhJAABAH62gAAECCAA4BGBmuEAABAKddgAAECCAAuBGBH-HAABAQIqgAAEBEBABAAAePAAAUAAtvgAAPAAAAhBAAbcEAABAKcdgAAECDBAzBGBVREAABAGYWgAAEBDBAfCGBJiPAABAHJ3gAAEBEBABAAAAAAAABAA5AhAAMABBAtBAATJKAABALAkgAAEADBAxBGBAAAAABACPjgAAEAEBAkBGBAAAAABALakgAAEADBApBGB1iZAABAVxGhAACNEBABAAAAAAAABAAmBhAAMABBAYBAAyLQAABAMsagAAEADBAeB_AYREAABAJ-XgAAECDAAzBGBR9IAABAZBEhAACQEBAuBGBOWJAABAKidgAAEEEBABAAABAAAABAEbYgAAEAAAAzBGBWzJAABAKldgAAEEEBAMACAPAAAAUAAm6gAAACBAAPAFA0HAAABAA34gAAAIBAAMACAPAAAAUAAX7gAAACBAAeAUAoPAAABAAe7gAAAIBAAFABAFAAAAUAA76gAAACBAACCAAAAAAABALckgAAEAEBAGBAAwUHAABAALigAADFEBABAAABAAAABAEq9gAAEABAAXASARIAAABAGMWgAAECCAAbAWAJUAAABAD99gAAECCAAzBGBYqDAABAMOigAAEADBAzBGBYqDAABAMbigAAEADBAeAZAneAAABAI7WgAAECDAAzBGB9lPAABAIEXgAAEEEBAzBGBvOKAABALEkgAAEADBA___________________B__hBAB3LGAABAKjdgAAEEDAABAAAAAAAABAA4UgAAMABBA9BGBWTLAABAJGYgAAEEEBALBBBQGAAAUAAmtgAAAFBAAABABAAAAABAAzQgAAMACBA6A1ACfEAABAUtZgAAECCAA0AvANoBAABAGWWgAAECCAAUB6ALkGAABAUnYgAAECCAAdB9A2tDAABAGSWgAAECCAAdB9AJfHAABAUg9gAAECCAAyBEBHpGAABAITXgAAECCAA4BGBnhJAABAH62gAAECCAA___________Aa8gAAAE___CB8AhOGAABAKQdgAAEEEBAFABADAAAAUAAXBhAAAIBAAFAAACAAAAUAAABhAAHHBAAKAAAFAAAAUAALBhAAHHBAAFABADAAAAUAAQBhAAAIBAAHACAgAAAABAUQYgAAEDBAAXASAxLAAABAUWYgAAEDBAAWARAUIAAABAD89gAAEDBAAVAQACPAAABAH32gAAEDCAASANAnEAAABAI3WgAAEDBAA8AAAIDAAAUAAMugAAHIBAAaBAAAAAAABAMk1gAAEAEBAGBAAwUHAABAALigAADFEBAwBEBUJCAABACMTgAAEADBAzBGBexKAABADR-gAAEEDBAzBGBw8OAABAUdYgAAEEDBAzBGBhvHAABAKidgAAEEDBASANAXEAAABAGjWgAAECCAATAOAkHAAABAI7WgAAECCAAmBAB5PIAABAU0ZgAAECCAAmBAB_1DAABAKYdgAAECCAAmBABuvHAABAHG3gAAECCAAmBABO1FAABADA-gAAECCAAmBABDGEAABAGjWgAAECCAAmBABgKGAABAI7WgAAECCAAnBCBfwSAABAVfmgAACEDBAnBCB5PHAABADa-gAAECDBA___________________B__9BGBqvbAABALzkgAAEAEBAwBEBsxUAABANODhAACHDBAuBGBdrNAABAHq3gAAECEBAVB8ArDEAABAGmWgAAECDBA3AtAoPAAABAAH5gAAAIBAA3AtAoPAAABAAC5gAAAIBAAMB8AD_HAABAUkYgAAEBEBAnBAAihHAABAIFXgAAECDBAeB_AbQHAABAUtYgAAEBDBAUAAAEnAAABATy9gAAEABBABAAAAAAAABAAk0gAAMABBAkBGBhFKAABAHW3gAAEBEAAzBGB8qGAABAQMqgAAEBDBA______________________lAAAvCAAAUAAswgAAHJBAANCAAAAAAABACfigAAMAEBA9BGBzkxAABAXO2gAAEAEBAtBAAuuBAABACyigAAEADBAAAAAAAAAABAAxHhAAMABBAaCGBpAlAABANdIhAACPEBA______________________zBGBbMGAABAcZQgAAEIDBABAAAUAAAAUAA4ogAAAHBAAGBAA4uAAAUAA8ogAAAHBAAgB-A53HAABAHo3gAAECCAApBBB-jIAABAUyZgAAECCAAUB5ACfDAABAKKdgAAECCAAjB_Av3FAABAIAXgAAECCAA___________AxxgAAHG___6AAAoPAAAUAAyogAAAHBAABAAA5AAAAUAA3ogAAAHBAABAAAQGAAAUAAoogAAAHBAAGB8AM1BAAKAAzngAAAGBAABBAAqhBAAUAA0xgAAHGBAARAMApOAAABAV7DhAACACAA3AAAIOBAABAA5vgAADCBAAtBEBtCJAABALekgAAEADAA8AAAEnAAABAAhvgAADCCAAGBAAwUHAABAA6hgAADCDAAoAeAoPAAAKAAingAAAGBAAUAPAWCAAABAZY_gAACQCAABAAAgMAAAUAA6ogAAAHBAAxBGBSjJAABAC4igAAEADAA4BGBeBPAABAUOZgAAECEBAzBGBTcHAABAGMWgAAECEBAzBGB9dHAABAJ-XgAAECEBABBAAg-AAAUAA0bgAAHKCAABBAAg-AAAUAAvbgAAHKCAABBAAg-AAAUAAubgAAHKCAABBAAg-AAAUAAzbgAAHKCAAzBGBZ4FAABAGoWgAAEBEBApBGB2JIAABAD59gAAEBEBA4BGBEcLAABAUlYgAAEBEBABBAAg-AAAUAAxbgAAHKCAABBAAg-AAAUAAwbgAAHKCAABBAAg-AAAUAAtbgAAHKCAABAAAtUAAAUAAtagAAPAAAABBAAA6DAAUAAybgAAHNDBAzBGBYJGAABAJDYgAAEDDBA2AxApaDAABAIjXgAAECDAAzBGBScVAABAVvGhAACNDBAmBAA7BIAABALJkgAAEACBAnBAAWwFAABAcE8gAAEHDBAaB8AYQWAABAMUEhAAEAEBAzBGBsHHAABAGjWgAAECEBAeB_AT4GAABAIdXgAAECDAAjB_A4DEAABAGTWgAAECCAAkCGB2uRAABABMfgAAEDEBABAAAAAAAAUAAdxgAANABAA9BGBl_nAABARjVgAACBEBA9BGB50HAABAGjWgAAECEBAgBAAYtBAABAMEjgAAEACBAzBGBvmLAABAUtYgAAEBEBA___________________B_____________________B_____________________B__vBDBaDFAABAKRdgAAEDCAAzBGBTFLAABAIrXgAAECEBA1AvAKYCAABAGKWgAAEECAA2AxAOmCAABAJKYgAAEECAA7A2ANJFAABAImXgAAEECAAzBGB-XcAABANYDhAACHEBAYB8AtyGAABAQKqgAAEBEBATAOAZJAAABAUn9gAAECCAARAMAlDAAABAKVdgAAECCAA9BGBR9IAABAZEngAACQEBAkBGBskeAABARJfgAACFEAAzBGB-pJAABADL-gAAEDDBAzBGBkbGAABAKQdgAAEDDBAzBEBQrMAABAHW3gAAEDDBAzBGBeHKAABABAggAAEDDBAwBFByDEAABAJBYgAAEBDAABAAAAAAAAkBAV0gAAPACBABAAAAAAAAkBAW0gAAPACBABAAAAAAAABAAl7gAANADBAhBAAmDHAABAHt3gAAEBDBAnBAA-uFAABAcC8gAAEIDBAGBAAkfFAABAMoegAAEADAAsBAA6oRAABANvChAACHCBAVB8AWnHAABAGWWgAAEEEBAzBGBMRcAABAVHfgAACEEBAuBGBawFAABAJEYgAAEBEBAtBAAm_OAABAHj4gAAEEDBApBGBYOwAABAX9ygAAEAEBA___________________B__uBGBAAAAABAMtygAAEAEBAuBGBAAAAABAXAzgAAEAEBA9BGBu6FAABAKVdgAAEBEBA7A2A-hDAABAI3WgAAECCAAhBAAqPJAABAIpXgAAEEDBARB5ADbDAABAKLdgAAECCAARB5AwYDAABAGLWgAAECCAARB5AvJFAABABQfgAAECCAARB5Am0GAABAUyZgAAECCAAuBGBu3HAABAQIqgAAEBEBAzBGBgtOAABALtjgAAEAEBA3AAAg-AAABAAe8gAAJCCAABBAAUDDAABAAb8gAAJBBAAGBAAYqDAABAAe8gAAJCCBAKBAAg4EAABAAe8gAAJCCBAEBAAUDDAABAAe8gAAJBCBAJBAAgpOAABAAc8gAAJBEAALBAAYqDAABAAd8gAAJCEBAJBAAwUHAABAAd8gAAJBBBALBAAYqDAABAAd8gAAJCEBALBAAYqDAABAAd8gAAJCEBAGBAAg4EAABAAb8gAAJBBBAGBAAoGGAABAAb8gAAJCBBAEBAAUDDAABAAe8gAAJBCBAGBAAg4EAABAAb8gAAJBBBALBAAYqDAABAAd8gAAJCEBALBAAYqDAABAAd8gAAJCEBAJBAAgpOAABAAc8gAAJBEAAEBAAUDDAABAAe8gAAJBCBA___________Ab8gAAJCB_____________Ab8gAAJCB_____________Ab8gAAJCB__hAAA6DAAABAAe8gAAJCCAA___________Ab8gAAJCB__JBAAwUHAABAAb8gAAJBBBA___________________B_____________________D_____________________D_____________________D__LBAAQ-VAABAAb8gAAJCBBAGBAAUDDAABAAd8gAAJBDBAUAAAiCAAABAAb8gAAJBBAAkBAA3dJAABACtigAAEADBABAAAAAAAABAAx2gAAMABBAbAWAaUAAABAD99gAAECCAASANA5FAAABAQKqgAAEBDBA_AyAcXAAAUAA95gAAACBAAwBEB6aGAABAKJdgAAEDDBA4BGBhoRAABAUGagAAEDEBAzBGB2gIAABAGMWgAAEDEBAzBGB4iIAABAJDYgAAEDEBAFAAAUAAAAUAArwgAAHJBAA________________________________________________________________________________________zBGBQcCAABAMj5gAAEADBA___________________B__________________________________________________________________________________________zBGBSoHAABAI7WgAAEBEBA3A3AIDAAAUAAn0gAAAFBAA__________________________________________________________________________________________________________________________________________________________zBGBAAAAABAIHXgAAEDEBAcB8AYVOAABAUdYgAAEDEBAcB8AgtOAABALRkgAAEAEBAYB8ADhGAABAKfdgAAEDEBAYB8AqiGAABAGfWgAAEDEBAWB8AFjJAABADF-gAAEDEBAYB8AQkGAABAJ5XgAAEDEBAYB8AE1NAABAHL4gAAEDEBAWB8AclJAABAIEXgAAEDEBAYB8AcqJAABAB9fgAAEDEBA9BGB8sJAABAQGqgAAEBEBAwAAAuLAAABAMKegAAEABBAwBEBOMKAABAUKagAAECDBAOB8AZ2FAABALtjgAAEAEBA-AAAAAAAABAMDlgAAEADBAzBGBzkxAABAX0vgAAEAEBA9BGBhcWAABAA7EhAACTEBAfCGBAAAAABAHn4gAAEEEBABAAAIDAAA6DAVPhAAMABAAzBGBzkxAABAXakgAAEAEBAwBEBJpKAABAB1ggAAEEDBAGBAAwUHAABAAVigAADBDAAjAZAoAAAAUAAaBhAAAIBAAjAAAkBAAAUAAEBhAAHHBAAjAAAIDAAAUAAOBhAAHHBAAjAZAoAAAAUAATBhAAAIBAA8AAAEnAAABAA_ugAADBCAA3AAAIOBAABAAJvgAADBBAA______________________eB_AS7HAABACmrgAAEADBApBGBdGIAABAQIqgAAEBEAAQBAAq3JAABAPLFhAACCCBA3AAAIOBAABAA5vgAADCBAA8AAAEnAAABAAhvgAADCCAAGBAAwUHAABAA6hgAADCDAApBBBMsQAABANGChAACPCAAmBABXLUAABARxlgAACFCAAGB8AoPAAAUAAdBhAAAICAApBBBXyUAABARwUgAACBCAA_AAAQZEAAFAAaKhAAAGCAAGB8AoPAAAUAAWBhAAAICAABBAAcXAAAUAAh2gAAHHBAABBAA4uAAAUAAohgAAHHBAAnBCBq-GAABAJ-XgAAEEDAAGBAAwUHAABAATvgAADGDAAjAZAuBAAAUAAn6gAAACBAAXB7A9lDAABAKUdgAAECCAAXB7AOpDAABAJ9XgAAECCAAXB7AncFAABAD_9gAAECCAATB8AviHAABAJIYgAAEEEBAXB7AgjDAABAGiWgAAECCAAXB7ANPHAABAHC3gAAECCAAXB7AQKHAABAUzZgAAECCAAXB7AfWFAABAIUXgAAECCAAXB7AKaFAABABVfgAAECCAAzBGBsKGAABAc70gAAEHDBAmBAB_1DAABAKYdgAAECCAARB5ADbDAABAKLdgAAECCAAXB7AQKHAABAUzZgAAECCAAaB8ALmDAABAJBYgAAECCAAaB8ALxDAABAGgWgAAECCAAaB8AiIFAABAIBXgAAECCAAaB8AeVFAABABPggAAECCAAgB-A6mFAABAD99gAAECCAApBBBNEEAABAKbdgAAECCAAUB6AdIFAABADJ-gAAECCAAUB6AZ0GAABAHI3gAAECCAAdB9ADmFAABAIPXgAAECCAAjB_AL5FAABABgggAAECCAAyBEBOOJAABAHu3gAAECCAAyBEBF5GAABAB3cgAAECCAA4BGB3KHAABADA-gAAECCAAtBAATJKAABALBkgAAEADBAzBGBhPKAABACOEhAAEADBAnBAAnCGAABAGhWgAAEDDBAzBGBSKIAABAD-9gAAECDBAzBEBFdGAABAQDqgAAEBDBAwBEBUvKAABAZGEhAACQDBAzBAAhPKAABACHjgAAEADBAzBGBIDVAABANXHhAACPDAAGBGBAAAAABAApSgAAPFEBACB8A0YEAABAGPWgAAECEAACB8AUiEAABAJ6XgAAECEAAUAAAEnAAABATy9gAAEABBA8AAAiTAAAUAAzxgAAHGBAA8AyAM1BAAKAAyngAAAGBAA___________________B_____________________B_____________________B_____________________B_____________________B__aB8Ah7GAABAQRqgAAEBEBASAIAfBAAAUAAB5gAAACBAAFBAB6gEAABAVgChAACHAAA___________________B__YB8AqvbAABALwkgAAEAEBAYB8AAIcAABACcjgAAEAEBAYB8A4gGAABAQCqgAAEBEBAkBBBDhCAABAMbggAAEADBAuBGBEmFAABAGMWgAAEBEBAIBDB-uBAABAKidgAAEEAAAIBDBMuBAABAJ6XgAAEEAAAzBGBhPKAABACSjgAAEADBA7BGBAAAAABAQ_pgAAEBEBA7BGBAAAAABAQ_pgAAEBEBAtAoAp9AAABAKcdgAAECCAArAmA3zAAABAGVWgAAECCAAsAnAmWBAABADO-gAAECCAABAAAAAAAABATN1gAAEADBABAAAAAAAABATM1gAAEADBAkBGBjkVAABACPjgAAEAEAAhBABB8HAABAICXgAAEDDBAzBGBvHKAABAIIXgAAEDDBABAAAqhBAABAE19gAAEABBAGBAAwUHAABAALigAADFEBA8AAAEnAAABAAevgAADFCAAGBAAwUHAABAALigAADFDAAuApAEICAABAH_2gAAECCAApAkATdBAABAUuZgAAECCAAqAlAuKBAABAD-9gAAECCAAvAqA2vBAABAI7WgAAECCAApAkAPGBAABABhWgAAECCAAuBGBrHHAABAJGYgAAECEBAeAZAfkAAABAUsZgAAECCAA6A1ACfEAABAUtZgAAECCAAaB8A_XFAABAD_9gAAECCAAeAZAzRAAABAKedgAAECCAAaAVAYMAAABAJDYgAAECCAApAkA1IBAABAD_9gAAECCAAzAuAsdBAABAJFYgAAECCAAtAoAWhBAABABWfgAAECCAAtAoAWhBAABABWfgAAECCAAtAoAWhBAABABWfgAAECCAAsAnAhWBAABADJ-gAAECCAAxAsAW_BAABAI9WgAAECCAAxAsAW_BAABAI9WgAAECCAAmAhAM5AAABAD_9gAAECCAAdB9AXkHAABAH62gAAECCAAjB_AO-DAABAJBYgAAECCAA1BFBysIAABAUg9gAAECCAAUAPApLAAABAH62gAAECCAAGBAAwUHAAUAAHigAADDDAA___________A0ygAAAIB__oAjAgDBAABADN-gAAECCAAtAAAAAAAAUAA3bgAAHMBAAwBEB4sJAABABDggAAEDDBAcB8AB6LAABAUdYgAAECEBAcB8AgtOAABALRkgAAEAEBAYB8A40FAABAKfdgAAECEBAYB8AO2FAABAGfWgAAECEBAWB8AOgIAABADF-gAAECEBAYB8Aj3FAABAJ5XgAAECEBAYB8APfLAABAHL4gAAECEBAWB8ALiIAABAIEXgAAECEBAJBAAiTAAAUAAKxgAAHJBAA___________________B__zBGB_ZRAABAUHagAAEDEBABBAAQGAAAKAAmbgAAHKBAAkBGBjuBCABAR3egAACFEBAzBGB2-OAABAHL4gAAECEBAzBGBIPLAABAHC3gAAECDBAkBBBgxYAABAR2egAACFDBA8A8AAAAAABAAVSgAAPFEBAtAAAAAAAAUAATcgAAHMDAAZAAAAAAAAUAAMcgAAHMDAAVAAAtAAAAKAAStgAAHIBAAGBAAAAAAAUAARcgAAHMDAAjAAAHBAAAKAA3tgAAHIBAA8AAAIDAAAUAAVugAAHIBAAFAAADAAAAKAAStgAAHIBAAjAAAAAAAAUAAOcgAAHMDAA3AAAAAAAAUAAJcgAAHMDAABAAAAAAAABAAhxgAANABBAuBGBeEHAABAKcdgAAECEBAtBEBXUHAABAISXgAAECDAACCAAAAAAABALckgAAEAEBA1BFBS0DAABAGLWgAAEBCAACCAAAAAAABALckgAAEAEBA1BFBjCHAABAH62gAAEBCAA1BFBAjDAABAJBYgAAEBCAA1BFBb9GAABAUg9gAAEBCAAMACAXAAAABAA1ygAAAABBA3AAAYtBAAUAAkvgAADHCAABAAAAAAAABAAfigAAMABBABAAAAAAAABAAqGhAAMABBAzBGBlOdAABAVZygAACNEBAzBGBtGNAABABQfgAAEDEBA___________________B__kCGBj6lAABANeIhAACPEBA______________________zBGBePLAABAUyZgAAECDAAwAAA1fBAABAMBlgAAEACBAzBGBnlRAABAMI5gAAEAEBAzBGBUkNAABAWE9gAAEGDBAzBGBLgGAABABMggAAEBDBAzBGBPHEAABAKWdgAAEBDBAzBGBgsGAABADJ-gAAEBDBAzBGBX_IAABAU-YgAAEBDBAzBEBF1IAABAH82gAAEBDBAKAAAAAAAAUAA6bgAAHMBAA8AAAIDAAAUAAbrgAAHIBAA1AwATrBAABAKddgAAECCAATB8ATxbAABARWGhAACGEBAwBEBBBEAABAJEYgAAEBDBAzBGBfmPAABAA3EhAACTDBATB8AnQyAABAMJBhAAEAEBAnBAALLOAABAArEhAACTDBAzBGBYQWAABAM2ogAAEAEBAzBGBQcCAABAMovgAAEADBAzBGBhUFAABAJ_XgAAECDBAzBGB7wGAABAIZXgAAEBDBAbB-AuoGAABAHS3gAAEBDBAyBAAnfDAABAJAYgAAEBCBAUAAAEnAAABATy9gAAEABBA4BGBAAAAABAKXdgAAEBEBA4BGBAAAAABADQ-gAAEBEBA9BGBX0TAABAW_8gAAEGEBAwBEB-kPAABAArEhAACTDBA4BGBAAAAABABfagAAEBEBAzBGB3NGAABAQNqgAAEBDBAEB3AAAAAAFAAq5gAAABBAAzBAAvhGAABAJHYgAAEDDBAGBAAoGGAABAAlxgAANABBAzBAApXJAABAIKXgAAEDDBAKBAA6oBAABACwigAAEAEBAYB9ABEFAABAMp7gAAEADBABAAAAAAAAkBA8igAAAACBAzBGBSKEAABAJKYgAAEBDBA3AAAoPAAABAA0_gAAHMBAA___________A70gAAHH___3AAAxJAAAUAAixgAAAICAAzBGBzaIAABADQ-gAAEBEBAvBAAIRNAABAA_GhAACDCBAHAAAPAAAAUAAavgAADHCAApBBBcDGAABAI9WgAAECCAAvBDB9YIAABAUCZgAAECCAAtAoAWhBAABABWfgAAECCAAdB9A7zDAABAJBYgAAECCAABAAABAAAABAEd9gAAEABAA___________________B__zBGBSiHAABALckgAAEADBAeB_AzoIAABAUFagAAECDBAmAhAeVAAABAKLdgAAECBAAzBAA-uBAABALEkgAAEADBA___________________D__bB-AG2IAABAUzZgAAECDBAgAbA4mAAABADO-gAAECDAAjAeAV2AAABAUzZgAAECCAAgAbAqrAAABAH22gAAECCAAlAgAonAAABAQ7pgAAEBCAAnAiA_nAAABAJBYgAAECCAANB8AJHIAABAU4YgAAEBEBAiAdA4YAAABAGMWgAAECCAAzBGBSiHAABALZkgAAEADBAzBGBdYFAABAXZ2gAAEADBAzBGBdYFAABAXwlgAAEADBAkCGB48LAABAQMqgAAEBEBAkCGBJpVAABABEhgAAEEEBAYBAAISFAABAQMqgAAEBDBAzBGBvgIAABAGfWgAAEDEBAjBAAX0HAABALmjgAAEACBAjBAAX0HAABALnjgAAEACBAnBCBvxFAABADR-gAAEBDBAqBDBb4DAABAGgWgAAEBDAATB8A3IGAABABiggAAEBEBAuBGBAAAAABAWC9gAAEGEBAEBBBYqDAAKAA5KhAAAGCAA___________________B__4BGBAAAAABAB9fgAAEEEBA4BGBAAAAABAKfdgAAEEEBA4BGBAAAAABAHL4gAAEEEBA4BGBAAAAABAKfdgAAEEEBA4BGBAAAAABADF-gAAEEEBA4BGBAAAAABAHL4gAAEEEBA___________________B__zBGB1EWAABANbDhAACHDBAABABAAAAABAAAzgAAMACBAlAgAcpAAABAGKWgAAECDAAmAhAHNBAABAUzZgAAECCAAkAfAXsAAABAI-WgAAECCAAlAgAHyAAABAD_9gAAECCAAjAeAndAAABAGMWgAAECCAAkAfA4sAAABAB9fgAAECCAAlAgAkCBAABAH72gAAECCAA7BGBAAAAABAI7WgAAEBEBAxBGBAAAAABAJ-XgAAEBEBA7BGBAAAAABAGaWgAAEBEBAxBGBAAAAABAJ-XgAAEBEBA7BGBAAAAABAGaWgAAEBEBA7BGBAAAAABAI7WgAAEBEBA7BGBAAAAABAGaWgAAECEBAxBGBAAAAABAJ-XgAAECEBA7BGBAAAAABAGaWgAAECEBAxBGBAAAAABAJ-XgAAECEBA7BGBAAAAABAI-WgAAECEBAxBGBAAAAABAJ-XgAAEBEBA7BGBAAAAABAGaWgAAEBEBA7BGBAAAAABAI7WgAAEBEBA7BGBAAAAABAGXWgAAEEEBA7BGBAAAAABAIpXgAAEEEBAxBGBAAAAABAJKYgAAEEEBA7BGBAAAAABAGXWgAAEEEBA7BGBAAAAABAIpXgAAEEEBAxBGBAAAAABAJKYgAAEEEBA7BGBAAAAABAIrXgAAEDEBA7BGBAAAAABAGdWgAAEDEBA7BGBAAAAABAIrXgAAEDEBAxBGBAAAAABAJHYgAAEDEBAxBGBAAAAABAJHYgAAEDEBA7BGBAAAAABAGXWgAAEEEBA7BGBAAAAABAIpXgAAEEEBAxBGBAAAAABAJKYgAAEEEBA7BGBAAAAABAGaWgAAECEBA7BGBAAAAABAI-WgAAECEBAwBEBBXPAABAHp4gAAEEDBAGBAAwUHAABAAIigAADDEBAGBAAwUHAABAAIigAADDDAA8AAAEnAAABAAWvgAADDCAA___________________B__oAAAAAAAAUAAUcgAAHMDAAUAAAAAAAAUAANcgAAHMDAABBAAAAAAAUAAScgAAHMDAAeAAAAAAAAUAAPcgAAHMDAAyAAAAAAAAUAAKcgAAHMDAABAAASBAAAFAADzgAAHLBAAzBGBGtIAABAQKqgAAEBEBATAOAxFAAABAKYdgAAECDAAaB8AYQWAABAMREhAAEAEBAzBGBAORAABAUVYgAAEDEBAzBGB0rVAABAAPHhAACDEBAzBGBtrMAABAIEXgAAEDEBAyAoA8KAAAUAAX6gAAACBAATB8A44fAABALHkgAAEAEBAeAZA2MAAABAQ_pgAAEBBAAUAPATLAAABAU1ZgAAECCAAdAYAZQAAABAKLdgAAECCAAaAVAwSAAABAD_9gAAECCAAAAAAAAAAABAArpgAAAIBAAYATAzQAAABAIwXgAAECDAAzBGBy-HAABAB3ggAAECDBA-AAAuTDAABAJDYgAAEBEBAzBGBBhPAABAUNagAAEEDAAkCGB21nAABAVwmgAACEEBAwBEBYNGAABAIZXgAAEBDBAaB8AziDAABAKYdgAAECCAAaB8ALmDAABAJBYgAAECCAAaB8A_XFAABAD_9gAAECCAAaB8ALxDAABAGgWgAAECCAAaB8At3GAABAU0ZgAAECCAAaB8A8IHAABAH22gAAECCAAaB8AiIFAABAIBXgAAECCAAaB8AeVFAABABPggAAECCAAzBGBcOJAABADC-gAAEDDBA___________________B_____________________B_____________________B__wAmA8KAAAUAA56gAAACBAAzBGByLQAABAM67gAAEADBAzBGBEfLAABAIKXgAAEEDBA8AAAQcCAAUAAYvgAADHCAAlAgAwvCAABAR_DhAACBCAAuApALOEAABAVylgAACECAA___________________B__mBABgKGAABAI7WgAAECCAAkAfAXsAAABAI-WgAAECCAAgB-ANkFAABABPggAAECCAApBBBiGIAABAUnYgAAECCAA4BGBSXGAABAGWWgAAEECAAjB_A87FAABAD99gAAECCAA1BFBysIAABAUg9gAAECCAACB8ARxKAABAH_3gAAEDEBAzBGBmaEAABAGWWgAAEBDBAeAUAUAAAAUAA16gAAACBAAmBAAYtBAABAM9kgAAEACBAkBAA3dJAABACqigAAEADBAkBAA3dJAABALgjgAAEADBAkBAAomFAABAQIqgAAEBDBAbAWAjNAAABAGiWgAAECCAARAMAlDAAABAKVdgAAECCAArAmA3zAAABAGVWgAAECCAAlAgAHyAAABAD_9gAAECCAA4BGBkoSAABAVsHhAACPCAApBBBtKGAABAD99gAAECCAA4BGBngJAABAIDXgAAEECAAfAaA5lAAABAUmYgAAECCAAyBEB6hDAABAGaWgAAEBCAAyAtAB1CAABAHC3gAAECCAAwArA3LBAABAJHYgAAECCAAyBEBVZEAABAGLWgAAECCAAyBEBNpEAABAJBYgAAECCAABAAAhSAAAKAAXygAAPAAAA1BFBb9GAABAUg9gAAEBCAA1BFBfMGAABAJBYgAAEECAAyBEB6hDAABAGaWgAAEBCAAyAoAoPAAABAAG5gAAAIBAAwArAziBAABAQ6pgAAEBCAABAAAAAAAABAAWWgAAMABBAsAnAmTBAABABCWgAAECCAAsBAAfjGAABAHH3gAAEBCBAVB8AWXDAABAL2jgAAEADBAzBGB3qGAABAQ9pgAAEBDBAnBCBl8IAABALTkgAAEADBAwBEBrHHAABAJBYgAAEEDBAkBBBVpJAABAB-fgAAEEDBAzBGBDEKAABAKfdgAAEEEBAzBGBUvKAABAMirgAAEADBABAAAAAAAABAAqrgAAMABBAGBAAwUHAABAAIigAADDEBAFCGBNiTAABAU_ZgAAEDEBArAmA8UBAABAI3WgAAECCAABAAA-vAAAUAA0wgAAPAAAAGBAAwUHAABAAIigAADDDAA8AAAEnAAABAAWvgAADDCAA3AAAAAAAAUAA4bgAAHMBAAjAAAAAAAAUAA7bgAAHMBAA8AAAkBAAAUAA1ygAAAIBAAmBABukGAABAH92gAAEBCAA8AAAgMAAAUAAicgAAHFBAA_AAAQcCAABASYogAABACAAjB_ADMDAABAKhdgAAEBCAAABAA7TAAAUAA7ogAAAHBAAdB9ASADAABAGNWgAAEBCAA8AAAIOBAAKAAxOhAAHFBAAyAtAhqBAABAKNdgAAECDAAzBGBc9IAABAIjXgAAEBEBAyBAAQ4IAABAM1IhAAEACBA___________________B__GBAAwUHAABAATvgAADGDAAzBGBR3IAABAGfWgAAEDEBA___________________B_____________________B_____________________B_____________________B_____________________B_____________________B_____________________B__fCGBAAAAABAB0fgAAECEBA3AAAAAAAAKAAAcgAAHMCAAGBGBAAAAABAAmLhAAMADBAGBGBAAAAABAAyMhAAMADBA___________________B__GBGBAAAAABAA_ygAAMADBAGBGBAAAAABAAkLhAAMADBAwAmAYJAAAUAAa7gAAACBAAZAAAAAAAAKAA-bgAAHMCAAtAjA6DAAAUAA84gAAACBAAyAoAjAAAAUAA46gAAACBAABBAAAAAAAKAA8bgAAHMCAA4AuAuLAAAFAAB7gAAABBAAGBGBAAAAABAADMhAAMADBAjAAAAAAAAKAAEcgAAHMCAA5AvAuLAAAUAAV6gAAACBAAGBGBAAAAABAAiMhAAMADBAGB8A4uAAAUAAX0gAAAIBAAvAlAoPAAAUAAB5gAAACBAAtAAAAAAAAKAAGcgAAHMCAAnAdAIDAAAUAA96gAAACBAAGBGBAAAAABAANLhAAMADBAPAAAAAAAAKAACcgAAHMCAA8A3AoPAAAFAAk6gAAABBAAmBABO1FAABADA-gAAECCAAmBABgKGAABAI7WgAAECCAARB5ADbDAABAKLdgAAECCAARB5AwYDAABAGLWgAAECCAARB5AvJFAABABQfgAAECCAAXB7A9lDAABAKUdgAAECCAAXB7AncFAABAD_9gAAECCAAXB7AgjDAABAGiWgAAECCAAXB7ANPHAABAHC3gAAECCAAXB7AQKHAABAUzZgAAECCAAXB7AfWFAABAIUXgAAECCAAXB7AKaFAABABVfgAAECCAAzBGBePLAABAUyZgAAECDAAaB8AziDAABAKYdgAAECCAAaB8ALmDAABAJBYgAAECCAAaB8A_XFAABAD_9gAAECCAAaB8ALxDAABAGgWgAAECCAAaB8At3GAABAU0ZgAAECCAAaB8A8IHAABAH22gAAECCAAaB8AiIFAABAIBXgAAECCAAaB8AeVFAABABPggAAECCAAgB-AD7FAABAISXgAAECCAAgB-A6mFAABAD99gAAECCAAgB-A17DAABAGZWgAAECCAAgB-ALwDAABAJ-XgAAECCAAgB-AN7HAABAUfYgAAECCAAgB-ANkFAABABPggAAECCAApBBBNEEAABAKbdgAAECCAApBBBGIEAABAJDYgAAECCAApBBByHGAABABWggAAECCAApBBBVMIAABAHw3gAAECCAAUB6AGGFAABABDggAAECCAAUB6AmYDAABAKYdgAAECCAAUB6AxbDAABAJDYgAAECCAAUB6A75EAABAI7WgAAECCAA4BGBZTJAABALijgAAEACAAyBEBmRFAABAGoWgAAEDCAAvBDB9YIAABAUCZgAAECCAAvBDBgNEAABAKadgAAECCAAvBDB1YGAABAD69gAAECCAAvBDBlREAABAJ_XgAAECCAAvBDBdKEAABAGZWgAAECCAAvBDBORGAABAIQXgAAECCAAvBDBzVGAABAB9fgAAECCAAvBDBHfIAABAH12gAAECCAAqBAAjPHAABABfegAAECDAAsBCB5PEAABAGjWgAAECCAAsBCBjoGAABABZggAAECCAAsBCBF4IAABAHN3gAAECCAAdB9A_pFAABABPggAAECCAAdB9AJfHAABAUg9gAAECCAAdB9AdwDAABAKddgAAECCAAdB9A7zDAABAJBYgAAECCAAdB9AXkHAABAH62gAAECCAAjB_AL5FAABABgggAAECCAAjB_Aj6DAABAKYdgAAECCAAjB_AO-DAABAJBYgAAECCAAjB_AD1FAABAI-WgAAECCAA1BFBMzIAABAH62gAAECCAA1BFBykGAABABPggAAECCAA1BFBysIAABAUg9gAAECCAA1BFBwbEAABAJBYgAAECCAA1BFB-fGAABAI_WgAAECCAAyBEBOOJAABAHu3gAAECCAAyBEBClEAABAKddgAAECCAAyBEBP8GAABAD99gAAECCAAyBEBVZEAABAGLWgAAECCAAyBEB64IAABAUvZgAAECCAAyBEBHpGAABAITXgAAECCAAyBEBF5GAABAB3cgAAECCAA4BGBkHHAABABGggAAECCAA4BGBSLJAABAUg9gAAECCAANB8AALIAABAHV3gAAEBEBALBBBg4EAAFAAU5gAAADBAABAAAhSAAAUAAzygAAPAAAA___________ApvgAADH___GBAAwUHAABAALigAADFEBAoAjA5zAAABAKmdgAAECDAAtBAAvOKAABAL1jgAAEADBAyBEBoKGAABAGUWgAAEECAAyBEBWoJAABADO-gAAEECAAYB8ACNPAABAULagAAEEEBARB8AFMOAABAHX4gAAEEEBAyBEBCPGAABAKgdgAAEECAAuBGB9ySAABAHp4gAAEEEBAzBGBIPLAABAUzZgAAECDBAYB9AYzIAABAUuZgAAECDBAzBGBdzUAABANdDhAACHDBAkBGBQNlBABANzDhAACHEBA9BGB67SAABAWC9gAAEGEBABB3AkfFAAKAA0ngAAAGBAApBGBRIIAABAQKqgAAEBEAAVB8AWXDAABAL4jgAAEADBAzBGBtYIAABAKfdgAAEDEBAhBABwfFAABAQJqgAAEBDBAnBCBZBDAABACOvgAAEADBA3AAAIOBAABAA5vgAADCBAA______________________8AAAEnAAABAAhvgAADCCAAGBAAwUHAABAA6hgAADCDAABAAAAAAAABAADcgAAMABBAAByAcXAAAUAA-5gAAACBAAnBCBNtTAABANdDhAACHDAAyBEBPiNAABAAzEhAACTCAAjAeA5rAAABAD-9gAAECCAAiAdA8ZAAABAGSWgAAECCAAkAfAA_AAABAUxZgAAECCAAjAeAq4AAABAH92gAAECCAAiAdAxmAAABAI9WgAAECCAAkBBBw4IAABABnggAAEDDAAzBGBnJRAABAHL4gAAEDEBAYB9AjgDAABAGTWgAAEBDBAwBEBILJAABAB_fgAAEDDBAwBEBSiHAABALZkgAAEADBAuBGBAdIAABAJ5XgAAEDEBAzBGBy-JAABAIHXgAAEDDBApBGBm5TAABAP5FhAACCEBAwBEBALPAABAAMHhAACDDBAuApAnEBAABAJHYgAAECCAAuBGBAAAAABABUggAAECEBAzBGBsULAABADH-gAAEEDAAMB8AQ6JAABAH62gAAECEBAMB8A8wJAABAUeYgAAECEBAMB8AnAFAABAJ6XgAAECEBAMB8A7ZHAABABVfgAAECEBAMB8AnlRAABAMzOhAAEAEBA___________________B_____________AUbgAAAFB__zBGBvTOAABABPfgAAEEEBAGBAAiTAAAUAAn2gAAHHCAApBGBfuZAABAVZHhAACPEAAzBGB21VAABAVrChAACHDBA9BGBszIAABAGdWgAAEDEBAzBGBZnNAABAWD9gAAEGDBAzBGB02GAABAJGYgAAECEBAuBGB7jJAABAGUWgAAEEEBAwBEB3vNAABAWE9gAAEGDBAzBGBjDLAABAHP3gAAEBEBAuBGBAAAAABAcE8gAAEHEBAzBGBagFAABAJEYgAAEBEBAzBGB1SNAABAHC4gAAEDDBAzBGBqeGAABAKQdgAAEDDBAzBGBEcNAABAURYgAAEDDBAzBGBdSJAABABBggAAEDDBAzBGBHXKAABAIrXgAAECEBAzBGBmZWAABAVsGhAACNDBA___________________B__8AyAuLAAAUAAcBhAAAIBAAyBGBEPMAABAUbYgAAEDDAAwBFBz_FAABAGWWgAAEDDAAyBGBDJGAABAJFYgAAEDDAAzBGBxHGAABAB2ggAAEBDBA4BGBAAAAABAB9fgAAEDEBAbB9AGyGAABAD-9gAAECDAAwBFBeBIAABAISXgAAECDAA8AyAuLAAAUAAVBhAAAIBAAzBGBOxIAABAHQ3gAAEBDBAtBAAy4HAABAIKXgAAECDBAzBGBQMGAABAQFqgAAEBDBAzBGBxlFAABAGRWgAAEBEBA9BGBaaeAABANhVgAACAEBAzBGBwYIAABADQ-gAAEBEBAzBGBKYcAABANYDhAACHEBAMB8A0zKAABAIpXgAAEEEBAYBAAT2LAABAUdYgAAEEDBAzBGBZSVAABAVwlgAACEDBA9BGBssPAABAIEXgAAEEEBA9BGB5FZAABACepgAAEAEBA9BGBYQWAABAMgQhAAEAEBAkBGBnKNAABAHE4gAAECEAAuBGBAAAAABAQIqgAAEBEBAzBGBjwOAABAIrXgAAEEEBA___________________B__sBCB45IAABAIGXgAAEECAApBAAv7EAABAQKqgAAEBCBAYB9Am2VAABARgVgAACBDBABAAAAAAAAkBAU0gAAAACBAUAAAAAAAABATy9gAAEABBAEBAAIOBAABAATrgAAAICAAkBGB3jlBABANxUgAACAEBA4BGBAAAAABAKidgAAEEEBA4BGBAAAAABAHZ4gAAEEEBAnBAAl4NAABAUVYgAAEEDBA4BGBAAAAABABoggAAEEEBA4BGBAAAAABAKidgAAEEEBA4BGBAAAAABADU-gAAEEEBA4BGBAAAAABAHZ4gAAEEEBA4BGBAAAAABAUBagAAEEEBA4BGBAAAAABABoggAAEEEBA___________________B__YB9A-yEAABAC4igAAEADBAtBAAvOKAABAMIUgAAEADBAzBGBAPLAABADZ-gAAEEDBAGB8AM1BAAKAAjngAAAGCAAKAFAjAAAABAGNWgAAECBAAJAEAiAAAABAQeggAAEBBAAJAEAcAAAABAJ_XgAAECBAAVB8Az8DAABAJ-XgAAECDBAcAXAuQAAABAKLdgAAECDAABAAABAAAABAEvZgAAEABAAzBGBaeWAABANMIhAACPDBABAAAAAAAABAA1pgAAMABBAKCGB8bhAABAV6BhAACHEBAzBGBQcCAABAMU8gAAEADBA4BGBkoSAABAVsHhAACPCAA______________________GBAAoGGAABAAjxgAANABBAzBGBfPKAABAHR4gAAECDBAQAAAcAAAAUAAl0gAAAIBAAzBGBRrVAABANaDhAACHDBAGBAAwUHAABAAYigAADEEBAfAaAmdAAABAD_9gAAECCAAeAZAzRAAABAKedgAAECCAAqBDBvOKAABALvkgAAEADAAaAVAYMAAABAJDYgAAECCAAYB9ALeDAABAJBkgAAEBDBAzBGBcZIAABAI7WgAAECDBAGBAAwUHAABAATvgAADGDAAaAVAjYAAABAH-2gAAECCAAeB_A7VSAABANDDhAACPDBABAAABAAAABAEj9gAAEABAA___________________D__aBAAk9CAABAKLdgAAEBCBAwBEBAfFAABACCjgAAEADBAzBGBcCVAABAA8EhAACTEBAzBGBduMAABAUHagAAEDDBAIBDBhZBAABABhggAAEBAAAIBDBiYBAABAI_WgAAEBAAAeB_A5CLAABAURYgAAEDDBAmBABBZFAABAKjdgAAEECAA1BGB7bNAABALxkgAAEADBAVB8AnYSAABALvjgAAEADBAVB8A4HFAABAQJqgAAEBDBAkBBBNeIAABABBggAAEDDBAzBGBYQWAABAMpzgAAEAEBAzBAAhPKAABACzigAAEADBAzBAAARGAABAIjXgAAEBDBAzBAAiaEAABAJ-XgAAEBDBAtBAAbXKAABAHm3gAAECDBAtBAATJKAABAC4igAAEADBAuBGBjkVAABACRRgAAEAEBAxBGBAAAAABACPjgAAEAEBAkBGBAAAAABALakgAAEADBAlAgAHyAAABAD_9gAAECCAAfAaAmdAAABAD_9gAAECCAAyAtAB1CAABAHC3gAAECCAA1BFBXxEAABAGLWgAAECCAAUAKAyAAAAFAAa8gAAAEBAAGB8A9BAAAFAAa8gAAAEBAAzBGBILHAABAKidgAAECEBAdBAAOLCAABAM-kgAAEACBAlAbAIDAAAUAAZ7gAAACBAAzBGByNGAABAB0ggAAEBDBAtBAATJKAABALUkgAAEADBAtBAATJKAABALFkgAAEADBACCGByuLAABAIbXgAAECEAAsBAAQxYAABAR2AhAACKDBAuBGB-bLAABAHW3gAAEBEBAwBEBhEGAABAQ-pgAAEBDBA___________________C_____________________B__9BGBoYeAABAVlVgAACAEBAUAAAAAAAABATy9gAAEABBA5A0AFiHAABAAhpgAACTDBALB8ANLZAABAMlngAAEAEBAkBBB7WXAABARBAhAACKDBABAAAhSAAAKAADngAAPAAAAzBGB2gIAABAJ5XgAAEDEBAoAjAYJAAABAZsUgAACQCAABAAAIDAAA6DACkgAAMABAA9BGBE1XAABAPSFhAACCEBAgB-AvcHAABAH13gAAECCAAgB-AD7FAABAISXgAAECCAAgB-A6mFAABAD99gAAECCAAgB-A17DAABAGZWgAAECCAAgB-ALwDAABAJ-XgAAECCAAgB-AN7HAABAUfYgAAECCAAgB-ANkFAABABPggAAECCAAkCGBR_nAABAVcIhAACPEBApBBBiGIAABAUnYgAAECCAApBBBNEEAABAKbdgAAECCAApBBBGIEAABAJDYgAAECCAApBBBtKGAABAD99gAAECCAApBBBUBEAABAGeWgAAECCAApBBByHGAABABWggAAECCAApBBBcDGAABAI9WgAAECCAApBBBVMIAABAHw3gAAECCAA___________________B__3AAAIOBAABAA5vgAADCBAA3AAAIOBAABAAyvgAADABAA8AAAEnAAABAACvgAADACAA8AAAEnAAABAAhvgAADCCAAGBAAwUHAABAA6hgAADCDAAYB8AfqGAABAQ6pgAAEBEBAzBGBcCVAABAV4HhAACPDBAeB_APREAABAKbdgAAECDBAwBEBdYFAABAXX2gAAEADBAzBGBAfFAABACJjgAAEADBAfCGBaIXAABAHM4gAAEDEBAzBGB2nGAABAcpQhAAEJDBAGBAAoGGAABAAexgAANABBAUAAAEnAAABATy9gAAEABBAzBGBEEPAABAHe4gAAEEDBApBGBYOwAABAMoagAAEAEBABAAAAAAAABAAk1gAAAABBApBGBHEVAABAJBYgAAEBEBAwBEBAAGAABAQHqgAAEBDBA___________________B__TB8AwtZAABAC4igAAEAEBAUAAAkBAAABAEz9gAAEABAA___________________B_____________________B__wBFBPRaAABARRVgAACBDAA4BGBsnHAABAH62gAAEBCAA0AvANoBAABAGWWgAAECCAAmBABuvHAABAHG3gAAECCAARB5ADbDAABAKLdgAAECCAA1BFBjCHAABAH62gAAEBCAAkAfA4sAAABAB9fgAAECCAAuApAnEBAABAJHYgAAECCAATAOA8EAAABAGMWgAAECCAAvBDBgNEAABAKadgAAECCAA1AwAeoBAABAGUWgAAECCAAsAnAhWBAABADJ-gAAECCAA-A5ANAEAABABSfgAAECCAAeAUALBAAAFAAZ8gAAAEBAAGB8AwBAAAFAAZ8gAAAEBAA8AyAIOBAAFAAd7gAAADBAAUAKAkBAAAUAA94gAAACBAAkBGBizJAABABZggAAECEAAzBGBzkxAABAXV2gAAEAEBAyAoAjAAAAUAAq6gAAACBAAeB_AT4GAABAIdXgAAECDAABBAAEnAAAUAAXvgAADDCAABBAAQGAAAKAArbgAAHKBAAVB8ArnPAABAVNDhAACHDBAzBGBVnCAABALvkgAAEADBAUAAA6DAAAUAA6ugAADHCAAvBDB_VDAABAGeWgAAEBCAAuBGBWwKAABAISXgAAECEBA9BGBXFMAABABoggAAECEBAXB7AQKHAABAUzZgAAECCAApBBBcDGAABAI9WgAAECCAAvBDB9YIAABAUCZgAAECCAAdB9AJfHAABAUg9gAAECCAA1BFBAoGAABADA-gAAECCAA4BGBcjEAABAGLWgAAECCAAuBGBuQKAABADQ-gAAECEBAzBGB6oKAABAUfYgAAECDBAzBGBRYFAABAKHdgAAECDBAzBGB0TIAABADP-gAAECDBAzBGBfCLAABAHk3gAAECDBAzBGBUGIAABAB9fgAAECDBAsBAAyQMAABAHo4gAAEECBAnAiAboAAABAGPWgAAECCAAjAeAw6AAABAUuZgAAECCAAlAgAihAAABAJ-XgAAECCAAoAjANCBAABAI9WgAAECCAA2BBBDAAAAIDYIngAAGCBAAYB9AipGAABADD-gAAECDBAzBGBQcCAABAM0rgAAEADBA_AAA69DAABAMClgAAEADBAzBGBqHVAABAWvGhAACNDBAnBCBM2HAABAHt3gAAEBDBABAAAAAAAAkBAgNhAAAACBAnBAA5_DAABAKmdgAAEBDBABB8AA3DAABAcH8gAAEJDAAnBAAsxFAABAcG8gAAEJDBAzBGBU5IAABAU-YgAAEBDBAzBGBTmKAABAHB4gAAECDBAzBGBVPLAABAHC3gAAECDBAzBGBAOFAABAKTdgAAECDBAzBGBOIIAABADP-gAAECDBAzBGB1jKAABAUoYgAAECDBAzBGBetHAABAB9fgAAECDBAzBGBP4KAABAHO3gAAECDBAwBEBNBFAABAGRWgAAECDBAYBAAqjGAABABGggAAECDBAzBGBbtHAABADK-gAAECDBAwBEBCDGAABAcyIhAAEIDBAwBEBbQIAABAIbXgAAECDBAzBGBpHFAABAJ_XgAAECDBAkAfApeCAABAReChAACICAA___________AqvgAADH______________________B__tBAAILEAABAGkWgAAEBDAAzBGBtfQAABAAOHhAACDDBA___________________B__AAAAuLAAAIDA0sgAAMABAAzBGB3GLAABADR-gAAEEDBAzBGB5KPAABAHg4gAAEEDBAzBGBAzHAABAKjdgAAEEDBAzBGBqgOAABAUdYgAAEEDBAzBGBR9IAABAUzYgAAEBDBAnBCBjLNAABAUaYgAAEEDBAvBAAq0HAABAIDXgAAEDCBABB8AeoPAABALujgAAEAEBAHB8AUkFAABAIdXgAAEBEBA______________________tBAA78GAABAGWWgAAEEDBABAAAmNAAAUAAaygAAPAAAAGBAAwUHAABAAYigAADEEBAzBGBvaIAABAKfdgAAEDEBAkBGBYaSAABAANHhAACDEAAwBEBT8OAABAPTFhAACCDBAyAAA6vBAABAM6tgAAEACBAtBAAd-EAABAJ9XgAAECDBAHAAALAAAABAEe9gAAEABAAuBGBwCHAABAJ5XgAAECEBAzBGBjwKAABAIEXgAAECEBAzBGBktHAABAB_fgAAECDBAzBGBKSKAABAD49gAAECEBAuBGBxhNAABAHE4gAAECEBAZAUAWPAAABAD_9gAAECCAAfAaAWkAAABADJ-gAAECDAAuBGBQNMAABACqigAAEAEBAuBGBjkVAABACtigAAEAEBAwBEByLQAABAM77gAAEADBAzBGBTBQAABAA4FhAACSDBAGB8AAAAAABAA-AhAAAIBAAGB8AAAAAABAA-AhAAAIBAACBCBAAAAABAczvgAAEABBAGBAAAAAAABAAAzgAAAABBA___________________B_____________________B_____________________B_____________________B_____________________B_____________________B_____________________B_____________________B__AByAEnAAAUAA25gAAACBAA9AyAEnAAAUAA15gAAACBAA9AyAiTAAAUAAB6gAAACBAACB3Ag-AAAUAAf5gAAACBAAGB8AwdBAAUAAz5gAAACBAA7AxAcXAAAFAAI7gAAABBAAFB3Ag-AAAUAAa5gAAACBAAHB8AwdBAAUAA65gAAACBAA8ABAAAAAA6DAm1gAAAABBABAAAAAAAAUAAtwgAAPABBAsBAATJKAABALqjgAAEACBAuBGBYEHAABAGfWgAAECEBAzBGBpCHAABAKfdgAAECEBAuBGBBpKAABAIEXgAAECEBA___________________B__oAAAcXAAABAEz9gAAEABAArAAAcXAAABAEz9gAAEABAATB8AjkVAABACJjgAAEAEBAkBBBTwSAABAVcDhAACHDBAyAAAAAAAAKAABcgAAHMCAAoAeAoPAAABAAF5gAAHMBAAcASAjAAAAUAAY7gAAACBAAUAAAAAAAAKAA_bgAAHMCAAeAAAYJAAAUAAHvgAADHCAAyAoAoPAAABAAf7gAAHMBAA8AAAAAAAAKAA9bgAAHMCAArAhA3FAAAFAA_6gAAABBAAeAAAAAAAAKAAFcgAAHMCAABB3AuLAAAUAAY0gAAAIBAAoAAAAAAAAKAAHcgAAHMCAAKAAAAAAAAKAADcgAAHMCAAkCGBKDPAABAB0fgAAECEBAkCGBXNmAABAV2GhAACNEBAuBGBAAAAABAB3ggAAECEBAkBGBAHeAABARrVgAACBEAABBAAAAAAAkBA7bgAAPABBApBAAYtBAABAM_kgAAEACBALBBBQGAAAUAAbugAAAFBBALBBBQGAAAUAA7tgAAAFBBAzBGBAfFAABAC4igAAEADBA6A1AQcCAABAM6kgAAEADBAuBGBWSOAABAIEXgAAEEEBAqBAAPLGAABAcxpgAAEHDBAzBGBCUOAABADa-gAAEEEBAGBGBAAAAAIDAMLhAAPAEBAzBGBAHLAABABtfgAAEEDBAzBGB82KAABADc-gAAEEDBAzBGBpUKAABAJ5XgAAEEEBATAOA8EAAABAGMWgAAECCAATAOA-EAAABAJ8XgAAECCAAzBGBhXEAABAKZdgAAEBDBAzBGB5mZAABARn_gAACKDAA___________________B__uBGBUJHAABAGjWgAAECEBAOB8AVpVAABALvkgAAEAEBAuBGBAAAAABAMXEhAAEAEBAGBGBQC9AABAAZQgAAMACBAzBGBo4HAABAKgdgAAEEDBAzBGBT_IAABAU6YgAAEBDBAkBCBAAAAABAGXWgAAEEDBAGBAAwUHAABAAUvgAADGDAABAAAtUAAAUAAC2gAAPAAAAPAAAhAAAAUAAvcgAAHFBAAyAoAoPAAAKAAkngAAAGBAAyAjA9BAAAUAAK6gAAACBAASAIAfBAAAUAAN6gAAACBAAzBGBSaIAABAXY2gAAEADBAOAAALCAAABAEo9gAAEABAA9BGBDRlAABARVAhAACKEBAzBGB7bNAABALUkgAAEADBA___________________B__wBFBOzMAABAWE9gAAEGDAABBAAQGAAAKAAsbgAAHKBAApBGBz6ZAABAVzlgAACEEAAzBGBTMEAABAGKWgAAEBDBAYCAAAAAAABALVkgAAEAEBAYCAAAAAAABALVkgAAEAEBAuBGBAAAAABACKjgAAEAEBAzBGB_CPAABADS-gAAEEEBAYCAAAAAAABALVkgAAEAEBAYCAAAAAAABALVkgAAEAEBAzBGBJNHAABAJ5XgAAECEBA9BGBgtOAABALmjgAAEAEBAzBGB4QGAABAQDqgAAEBDBAzBGByhkAABARZAhAACKEBAFBABdqFAABAR1ChAACIAAAzBGBoeFAABAGjWgAAECDBAbB-AbOGAABAB_fgAAECDAAkBBBclFAABAIbXgAAEBDBA___________________B__ZAAA8AAAAUAAGBhAAHHBAAVB8AF6DAABAGhWgAAECDAAzBGBFzHAABAITXgAAECDBAzBGBqnFAABAGhWgAAECDBAMB8AYTWAABAX_7gAAEAEBAtBAAGzJAABAHQ3gAAECDBAgB-AN7HAABAUfYgAAECCAA2AxApxBAABAGUWgAAECCAAyBEBbqDAABAKXdgAAEBCAA9AyAEnAAAUAAw5gAAACBAACB3AIOBAAUAAL6gAAAIBAAzBGBygIAABAclNhAAEJEBA3AOAjAAAAUAAX5gAAACBAAeBAA4nFAABAQMqgAAEBDBAaBAAFGEAABAI-WgAAEBCBAzBGBuoJAABACGjgAAEADBABAAAhSAAAUAAqwgAAPAAAA______________________BBAAQGAAAKAApbgAAHKBAALBBBg4EAAFAAV5gAAADBAAzBGBxeGAABADX-gAAEBDBAeB_A4vDAABAKUdgAAEBDBAEBEBAAAAABAA2vgAAAABBAzBGB5HGAABABWkgAAEBDBAzBGBLIEAABAKVdgAAEBDBAzBGBNzIAABAHT3gAAEBDBAzBGBapGAABADN-gAAEBDBAzBGBQGEAABAGWWgAAEBDBApBGBM9KAABAHQ3gAAEBEAApBGBpiHAABABJggAAEBEAAhBAA5TFAABAQIqgAAEBDBAzBGBa4UAABANbVgAACADBAzBGBj4UAABAWyGhAACNDBAaBAAb0EAABAGYWgAAEECBAlAgA9_AAABAI_WgAAECDAAbB-Ag-EAABAQ-pgAAEBDBAkCGBAAAAABAKWdgAAEBEBA8AyAIOBAAFAA66gAAADBAAGBAAwUHAAUAAXigAADEDAAzBGB9QGAABAGSWgAAEDDBAzBAASaIAABAXrpgAAEADBAjBAAyLQAABAMB1gAAEACBAjBAAyLQAABAMB1gAAEACBAzBGBLrkAABARXAhAACKEBARB8ApaUAABAVplgAACEEBAzBGBCaGAABABiggAAEBDBAGBAAwUHAABAATvgAADGDAAtBAApBLAABABWfgAAEEDBAJB8AYtBAAUAAp5gAAACBAAeAAALBAAAUAAN0gAAHJBAAkBGBY_QAABAUBagAAEEEAAzBGBuoJAABACJjgAAEADBAzBGBnwFAABAKXdgAAEBEBAuBGB70MAABAIFXgAAEDEBAzBAAEXGAABABsggAAEBDBAzBGB5VNAABAHN3gAAEDDBAGBAAwUHAABAATigAADBDAAUB6ALkGAABAUnYgAAECCAAUB6AGGFAABABDggAAECCAAUB6AmYDAABAKYdgAAECCAAUB6AxbDAABAJDYgAAECCAAUB6AdIFAABADJ-gAAECCAAUB6AZ0GAABAHI3gAAECCAAUB6A75EAABAI7WgAAECCAAzBGBAfFAABACNjgAAEADBAGBAAwUHAABAAEigAADADAA3AAAIOBAABAAyvgAADABAA8AAAEnAAABAACvgAADACAAkBGBa1hBABAVxegAACEEBALBBBAFAAAUAAfbgAAAFBAAsBCBMCWAABARs_gAACKCAAuBGBN8HAABAQIqgAAEBEBA3AyAhUCAABAJ-XgAAECDAAzBGBo1SAABAW-8gAAEGEBAzBGB6bNAABAUwZgAAEDDBAzBGBMaGAABAKQdgAAEDDBAGBAAuICAABASiogAABAEBAzBGB3KGAABAQBqgAAEBDBA7BGBWckAABAREmgAACFEBAGBAAwUHAABAAUvgAADGDAAzBGBEXFAABAJ9XgAAECDBAGBAAwUHAABAAEigAADADAA3AAAIOBAABAAyvgAADABAA8AAAAAAAABAAxvgAADAEBA8AAAEnAAABAACvgAADACAAzBGB7bNAABALykgAAEADBAFAAAGAAAAKAA_agAAHLBAA2AxApxBAABAGUWgAAECCAAzBGBMMcAABARNGhAACGDBAzBGBL8TAABAUBagAAEEEBAzBGBCcLAABAUMZgAAEBEBAGBAAwUHAABAAVigAADBDAA8AAAEnAAABAA_ugAADBCAA3AyAcXAAABAMEvgAAEADBAzBGBoaIAABAQ9pgAAEBEBAGBAAwUHAABAALigAADFEBAGBAAwUHAABAAIigAADDDAA8AAAEnAAABAAWvgAADDCAA___________A5agAAHLB__hBAAXoEAABAGQWgAAECDBAhBAA7BIAABAL3jgAAEADBAcASAjAAAAUAAd6gAAACBAALB8A96DAABAGTWgAAEBEBA5A0A7NEAABAUyZgAAECCAA2AxAfjDAABAH62gAAECCAA9BGBB3KAABAKldgAAEEEBAzBGBUmVAABANkVgAACADBAOB8AvwVAABACgigAAEAEBABBAAQGAAAKAAnbgAAHKBAAzBGBLRLAABAHH3gAAEBEBAaB8A8IHAABAH22gAAECCAApBBBNEEAABAKbdgAAECCAAvBDBzVGAABAB9fgAAECCAA1BFBykGAABABPggAAECCAA1BFBysIAABAUg9gAAECCAA1BFBwbEAABAJBYgAAECCAAyBEBClEAABAKddgAAECCAAyBEBNpEAABAJBYgAAECCAAyBEB64IAABAUvZgAAECCAAyAtADpCAABABUfgAAECDAAzBGBrbGAABABQggAAEBDBABBAAEnAAAUAAfvgAADFCAA___________________B__mAhAsABAABADE-gAAECDAAwBAAe_HAABAIlegAAECDAA______________________wBEBvOKAABALckgAAEADBAGBAAoGGAABAAnxgAANABBAQALAeGAAABAUsZgAAECCAA___________________B__UAAAIDAAABAEx9gAAEABAA___________H12gAAEBC________________________-A5ALPFAABAQ6pgAAEBEAA___________________B__NB8ACyKAABAIpXgAAEEEBAGBBBIOBAAFAAs6gAAADBAAZAAAWCAAAUAAdrgAAHBBAAwBFBALEAABAJCYgAAEBDAAFB8AvoGAABAKgdgAAEEEBAEBBBYqDAAKAAQKhAAAGCAABAAAAAAAABAAjzgAAMABBAzBGB6OUAABAHZ4gAAEEEBAfCGBAAAAABABHggAAEEEBAzBGBVnCAABAL2jgAAEADBAkBBBe7GAABABDggAAECDBAzBEBWGcAABARoVgAACBDBAzBAAhPKAABACNjgAAEADBAzBGBMNbAABAN6HhAACPEBAzBGBUKLAABADU-gAAECEBAzBGBgtOAABALRkgAAEAEBATB8AgtOAABALQkgAAEAEBAkCGBD6LAABAQQqgAAEBEBAcB8AgtOAABALRkgAAEAEBAWB8A-6LAABADU-gAAEEEBAzBGBgtOAABAL2jgAAEAEBAIB8ATpDAABAJ-XgAAEBEBA9BGB-XKAABAGfWgAAEEEBAKB8ArmKAABABWfgAAEEEBAuBGBGsMAABAIEXgAAEDEBAYB8A7wFAABAGjWgAAECEBAzBGBQcCAABAMCjgAAEADBAnBAAU_JAABAH62gAAECDBAzBGBQcCAABAMHngAAEADBAzBGBbyTAABAHm4gAAEEEBAzBGBdCIAABABLggAAECDBAzBGBzkxAABAXWvgAAEAEBAzBGBxEjAABARPGhAACKEBA___________________B__BB3AYEAAAUAA2tgAAAFBAA___________Az2gAAHHB__wBEB2jGAABAQAqgAAEBDBAZAUABLAAABAJ-XgAAECCAAzBGBpMNAABAHW4gAAEDDBAzBGBnnJAABAIMXgAAEDDBAzBGBI6JAABADO-gAAEDDBAGB8ASwEAABAGhWgAAECEAAkBBBliTAABAV-egAACEDBAGBGBAAAAABAAOSgAAPFEBABAAAAAAAA6DAfBhAAPABBAkCGB78UAABABHggAAEEEBA___________________B__zBGBaoHAABAGgWgAAEEDBAAAAAcXAAABAA8ygAAPABAAvBAAq-FAABAJFYgAAEECBAGBAAwUHAABAAYigAADEDAA8AAAEnAAABAAMvgAADECAAAAAAAAAAABAAy1gAAAABBAwBFB7wHAABAISXgAAECDAABAAAAAAAABAAO0gAAPABBAhBABRzFAABAcA8gAAEIDBAzBAA-6HAABAB9fgAAECDBAVB8AZcJAABAHw3gAAEDDBAhBAAleFAABAQKqgAAEBDBABBAAwUHAAUAAqhgAAHHBAAuBGBkHIAABAKRdgAAEDEBAfCGBAAAAABAB0fgAAECEBAFCGBYQWAABAMvIhAAEAEBARBAAlaGAABAU0ZgAAECCBAqBDBK-JAABAIDXgAAEEDAAuBGBAAAAABACdjgAAEAEBAzBGBUvKAABACtigAAEADBApBBB34HAABAUyZgAAECCAAdB9AZ4DAABAKKdgAAECCAAjB_ACdHAABAHo3gAAECCAAUB5AVTFAABAIAXgAAECCAAkBBB2BJAABAHO3gAAECDAABAAAePAAAUAAWygAAPAAAAbAWAVPAAABAKKdgAAECDAAzBGBedfAABAC9igAAEAEBAtAoA9zBAABABQfgAAECDAA8AyAEnAAAUAA26gAAACBAAsBCBMCWAABARs_gAACKCAAjB_AhPQAABAN4HhAACPCAAdB9AlsFAABADO-gAAECCAAxAsAHSBAABAKcdgAAECCAASANAXEAAABAKLdgAAECCAAtBAAa7NAABAUPagAAEEDBArBGBY-gAABARkChAACIEBA7BGBNklAABARlChAACIEBAuBGBYvJAABAGkWgAAEEEBAFABAUAAAAUAA06gAAACBAAKAFA9BAAABAUrZgAAECCAAzBGBrWIAABABjggAAEBEBA___________________B__nAiAMpAAABAGaWgAAECCAApAkA1IBAABAD_9gAAECCAAzBGBR3IAABAJ5XgAAEDEBAjAeAU4AAABAH72gAAECCAAUAPACLAAABAUrZgAAECCAAaB8At3GAABAU0ZgAAECCAAgB-AD7FAABAISXgAAECCAAQALAeGAAABAUsZgAAECCAAyBEBP8GAABAD99gAAECCAAzBGB8BdAABAVJIhAACPEBAzBGBSLPAABAUGagAAEEDBA9BGBlndAABANODhAACHEBA___________________B__1BFB0FJAABACeigAAEACAAXASA7gAAABANZHhAACPCAA4BGBZTJAABALijgAAEACAA4BGB1lFAABAQGqgAAEBCAARB8AmAGAABABhggAAEBEBA3AAA0HAAAFAAungAAAGCAAoAAA6DAAAUAAy2gAAHHBAAzBGBMXGAABAQDqgAAEBDBAyAAAYJAAAUAAlhgAAHHBAAzBGBUJCAABACsMhAAEADBABB3AYEAAAUAAjugAAAFBAAnBAA1rTAABANKdgAACNDBAnBAAQCOAABAHp4gAAEEDBA4BGBAAAAABAKfdgAAECEBA4BGBAAAAABAHL4gAAECEBA4BGBAAAAABAHL4gAAECEBA4BGBAAAAABAB9fgAAECEBA9BGBYQWAABAMobgAAEAEBAGBGBAAAAABAAewgAAPAEBAGBGBAAAAABAAewgAAPAEBAzBGB0qPAABAPEFhAACCDAABAAAAAAAABAAszgAAMABBAoAAA0HAAAUAAX5gAAHLBAA___________________B__OB8AwMGAABAcG8gAAEJEBABBAAQGAAAKAAobgAAHKBAAGBAAwUHAAUAADigAADADAAzBGBKzHAABAKPdgAAEEDBA8A3AIDGAABAUGagAAECDAABB8AAAAAABAX1sgAAEAEBA2AxArXDAABADJ-gAAECDAA5A0AdMFAABAH52gAAECDAAqBAAc-JAABALKkgAAEADBA6A1ArxCAABAKYdgAAECDAAGBAAwUHAABAAIigAADDEBAGBAAwUHAABAAIigAADDDAABAAAmNAAAUAAZPhAAPAAAA8AAAEnAAABAAWvgAADDCAAGBAAwUHAABAALigAADFEBApBGBs6KAABAHJ3gAAEBEAApBGBmRIAABABjggAAEBEAAgAAA0HAAABAE29gAAEABAAsBAAf5FAABAKjdgAAEECBABAAASCAAAkBA71gAAMABAAzBGBFXHAABAJ5XgAAECEBAzBGBvRMAABACrigAAEADBAGBAAwUHAABAAIigAADDDAA8AAAEnAAABAAWvgAADDCAAGBAAwUHAAUAAKigAADFDAAtBAAuuBAABAL2jgAAEADBA5A0AplCAABAGiWgAAECDAALBBBg4EAAFAAT5gAAADBAAvAAA3FAAAUAAzwgAAHJBAAzBGBEXVAABAVuGhAACNDBAzBGBxIKAABAGfWgAAEEEBAoAAAoPAAABAAs_gAAHMBAAoAAA0HAAAUAA02gAAHHCAA___________AmhgAAHH___oAAAxJAAAUAAlxgAAAICAAHB8AnZFAABAJ5XgAAEDEBADB8Ag4EAAUAAvngAAAGDAAjB_AhPQAABAN4HhAACPCAA8AAAiTAAAUAAwygAAHGBAAhBEBvlGAABADV-gAAECDAAzBGBWGcAABARRAhAACKDBABAAAAAAAABAAppgAAMABBA4BGBngJAABAIDXgAAEECAAFCGBHIXAABAUUagAAEEEBA4BGBSXGAABAGWWgAAEECAA4BGBB4JAABABEggAAEECAAkCGBlGPAABAB0fgAAECEBAqBDBTOHAABABYggAAECDAA8AAAEnAAABAAevgAADFCAAGBAAwUHAABAALigAADFDAAQALAZQAAABARqBhAACICAAzBGBuZOAABAUyZgAAECEBArAmAo9BAABAH62gAAECDAAoAAAAAAAABATL1gAAEABBAkAfAW4AAABAI-WgAAECDAABAAAmNAAAKAAdvgAAPAAAABAAAhSAAAUAA38gAAPAAAAwBEBQcCAABAMaegAAEADBAyBAAtEIAABAI4WgAAEDCBAzBGBXwVAABAVnBhAACHDBABAAAmNAAAKAAaygAAPAAAAFBABTeDAABAPCFhAACCAAA1BFB9qGAABAGUWgAAEECAA1BFBfMGAABAJBYgAAEECAABAAAAAAAABAAcxgAANABBAzBGBLdQAABAHW4gAAEDEBABAAAmNAAAUAA38gAAPAAAA___________________B_____________________B_____________________B_____________________B_____________________B_____________________B_____________ArxgAAHG___yBAAL3LAABAULagAAEECBAtBAAp_FAABADO-gAAEBDBAzBGBQWOAABAHp4gAAEEDAAGBAAwUHAABAAYigAADEEBAyBEBmRFAABAGoWgAAEDCAAvBDB9YIAABAUCZgAAECCAAvBDBgNEAABAKadgAAECCAAvBDB1YGAABAD69gAAECCAAvBDBlREAABAJ_XgAAECCAAvBDBdKEAABAGZWgAAECCAAvBDBORGAABAIQXgAAECCAAvBDBzVGAABAB9fgAAECCAAvBDBHfIAABAH12gAAECCAAwBEB6UEAABAKZdgAAEBDBAFBABweEAABAV9DhAACAAAACB9AeBCAABAI3WgAAEDAAA___________________B__wBEBRQGAABAc9NhAAEIDBAGBGBAAAAABAAQ6gAAMAEBABAAAAAAAABAAnxgAANABBAzBGBJXGAABAGRWgAAEDDBAzBGB2iHAABAGgWgAAEEDBAzBGBMzUAABAV2DhAACHDBAwBEBB2KAABAIDXgAAEEDBAkBGB8HOBABAPIFhAACCEBAkBCBAAAAABAGdWgAAEDDBAkBCBAAAAABAHA4gAAEDDBADB8Ag4EAAUAAKNhAAAGDAAGBAAwUHAABAALigAADFEBAGBAAwUHAABAA6hgAADCDAA9BGBMFJAABAQKqgAAEBEBAuBGBRqKAABAHQ4gAAEBEBAAAAAAAAAA6DAdrgAAAABBAzBGBIdGAABABckgAAEBDBAzBGBW7IAABAUIZgAAEBDBAzBGB-nGAABADN-gAAEBDBAzBGBOGEAABAKhdgAAEBDBAzBGBcMIAABAHU3gAAEBDBAtBEBMZYAABARPAhAACKDAAYB9ATEHAABAUAZgAAEBDBAYBAAscIAABALBkgAAEADBAfCGBw4aAABAHq4gAAEEEBA___________________B_____________________B__ABABAAAAABAApMhAAMACBAXB7A9lDAABAKUdgAAECCAAXB7AQKHAABAUzZgAAECCAAaB8AeVFAABABPggAAECCAAgB-AvcHAABAH13gAAECCAAvBDBgNEAABAKadgAAECCAAvBDBHfIAABAH12gAAECCAAdB9A_pFAABABPggAAECCAAdB9AlsFAABADO-gAAECCAAjB_Aw4HAABAHA3gAAECCAA1BFBysIAABAUg9gAAECCAA4BGBnhJAABAH62gAAECCAAuBGBAAAAABABMggAAEBEBA1AwAeoBAABAGUWgAAECCAAzAuAsdBAABAJFYgAAECCAApBGBIXFAABAGWWgAAEBEAAzBGB-RIAABADJ-gAAECDBAGBGBgaYAABAArpgAAJADAAGBGBgaYAABAArpgAAJADAAzBGBwsbAABARPAhAACKDBAAAAAAAAAA6DArpgAAMACAAuBGB2gFAABAGMWgAAEBEBAjAeAU4AAABAH72gAAECCAAvBDBHfIAABAH12gAAECCAAkAfAcgAAABAGNWgAAECCAA1BFB-fGAABAI_WgAAECCAAVB8AhwEAABAD49gAAEBDBAAAAAAAAAA6DAS0gAAAABBAkCGBAAAAABAB6fgAAEBEBAGBGBQC9AABAA1IhAAMACBAvAlAQGAAAUAAa6gAAACBAAzBGB-nDAABALckgAAEADBAgB-AN7HAABAUfYgAAECCAAvBDBzVGAABAB9fgAAECCAAqBAAjPHAABABfegAAECDAAyBEBClEAABAKddgAAECCAAyBEB64IAABAUvZgAAECCAAyBEBF5GAABAB3cgAAECCAArAAA6DAAAFAAdngAAAGCAAoAAA6DAAAUAAw2gAAHHBAAqAlAoDDAABAV1UgAACACAAvAqAddCAABAImXgAAEECAAoAAAQGAAAUAAkhgAAHHBAAuApAT8BAABABRggAAEDCAArAAA6DAAABAATTgAAAGCAAqAlA19BAABAH32gAAEDCAA-A5AhxEAABAQMqgAAEBEAAGBAAwUHAABAAIigAADDEBAGBAAwUHAABAAIigAADDDAA8AAAEnAAABAAWvgAADDCAAkBGBmDMAABALHkgAAEAEBAGBAAAAAAABAAIcgAADIDAAuBGBnFIAABAKldgAAEDEBAGBAAwUHAABAAYigAADEDAAGBAAwUHAABAAYigAADEEBABBAAQGAAAKAAlbgAAHKBAA___________________B__9BGB1_nAABAROGhAACGEBA3AAAvcCAABAMfngAAEADBAyAtA4wBAABAJ_XgAAECDAABAAAAAAAABATy9gAAEADBA9AAAA0HAABAAK8gAAHMCBA6AAAiTAAABAAvEhAAHMBBAyAAAQGAAAUAAncgAAHFBAA0AAApGAAAUAAxogAAAHBAA9AAAAxJAABAAL8gAAHMDBAzBGBbPWAABAVHIhAACPDBALB8AQNMAAUAALNhAAAGEAAGBAAwUHAABAAEigAADADAA3AAAIOBAABAAyvgAADABAA______________________8AAAEnAAABAACvgAADACAA8A3AVGFAABAH22gAAECCAA4AzAwCCAABAGgWgAAECCAA2AxAbwBAABAKldgAAECCAA-A5Ah8DAABADG-gAAECCAA3AyAo3BAABAJCYgAAECCAA6A1ALdDAABABxogAAECCAAoAAAiTAAABAAs_gAAHMBBAyAAAiTAAAUAA4OhAAHFBAAbB-APcAAABAM_1gAAEADBAGBAAwUHAABAAYigAADEEBAeAAA0HAAABAAr_gAAHMBBAUABAYAAAABAAi_gAAHMBBAFABAYAAAABAA5AhAAHMBBApBGBmsaAABAN2egAACEEAA9AAAiTAAABAAM8gAAHMBBAAAAAAAAAABAAcxgAAMABBAcB8AgtOAABALRkgAAEAEBAYB8Ay6GAABAGfWgAAEDEBAWB8Au1JAABADF-gAAEDEBAYB8AW8GAABAJ5XgAAEDEBAYB8AvONAABAHL4gAAEDEBAWB8AF4JAABAIEXgAAEDEBAYB8Ad9JAABAB9fgAAEDEBAzBGB28OAABAHV4gAAEEDBA___________________B__GBAAwUHAABAAIigAADDEBABAAAtUAAAUAAWygAAPAAAABAAABAAAABAEGqgAAEABAAPAAAPAAAAUAADBhAAHHBAA___________________B_____________________B__PAFAKAAAAUAAYBhAAAIBAAUAAAKAAAAUAAMBhAAHHBAAPAFAKAAAAUAARBhAAAIBAAfAaA5lAAABAUmYgAAECCAAZAAAMAAAAKAAxygAAHIBAAGBAAwUHAABAAEigAADADAAdBAAMZHAABALJkgAAEACBA___________________B__VBAACtEAABAKQdgAAEDDBAzBAAYhFAABAGZWgAAECDBAgB-A17DAABAGZWgAAECCAAyAtAB1CAABAHC3gAAECCAAsBCB5PEAABAGjWgAAECCAAZAPA-AAAAFAAZ8gAAAEBAAGB8AkBAAAFAAZ8gAAAEBAAGBAAwUHAABAAEigAADADAA3AAAIOBAABAAyvgAADABAA8AAAEnAAABAACvgAADACAA1BFBeJNAABAArFhAACSCAABAAAAAAAABAArvgAAMABBAzBGBD-UAABAVKmgAACEDAA_AyAEnAAAUAAO5gAAACBAABAAAAAAAABAA2sgAAMABBAwBEB3KaAABAROAhAACKDBAzBGBDlFAABAGcWgAAECDBAyAAAIOBAAUAAxvgAADHCAAzBGBNzIAABAIWXgAAEBEBAtBAAt5FAABAByvgAAEBDBAKAAAZAAAABAE19gAAEABAAjAAAuLAAABAE19gAAEABAA___________________B__PAAArNAAABAS3ngAABABAAKB8AZcMAABAW28gAAEGEBAwArA87BAABADO-gAAECCAA9BGBYueAABAV8HhAACPEBAyAAAk-GAABARDdgAACUCBABAAAAAAAAUAAvtgAAAABBAuBGBSeFAABAJEYgAAEBEBALBBBg4EAAFAAS5gAAADBAA8AAAQcCAABAAuvgAADDDAA8AAAQcCAABAAvvgAADDCAA9BGBDDJAABAQ-pgAAEBEBALB8AfpPAABAM9JhAAEAEBAeBAAudHAABAC7igAAEADBAtBAAIOFAABAGiWgAAECDBA8ABAAAAAA6DAo1gAAAABBAUAAAEnAAABATy9gAAEABBABAAAAAAAABAALegAAMABBAkCGBSqsAABAPfFhAACCFBAzBGBYQWAABAMQEhAAEAEBAzBAAUvKAABAM9LhAAEAEBAzBAAAAAAABALckgAAEADBAuBAAAAAAABALckgAAEAEBA4BAAAAAAABALckgAAEAEBAzBAAAAAAABALckgAAEADBAuBAAAAAAABALckgAAEAEBA4BAAAAAAABALckgAAEAEBAuBAAAAAAABALckgAAEAEBA4BAAAAAAABALckgAAEAEBA4BAAAAAAABALckgAAEAEBAuBAAAAAAABALckgAAEAEBAzBAAAAAAABALckgAAEADBAvBAAqqIAABAL0jgAAEACBAyBEBQ4IAABAL_jgAAEACAA___________________B__dB9AH_KAABAA1pgAACTCAAvBDBqqIAABACvigAAEACAAdBAALDDAABAGQWgAAEBCBA___________________B__zBGBDTaAABARVDhAACIDBABAAAAAAAABAA2ygAAMABBAkBAASVSAABANZChAACHDBASANA6DAAABAJEYgAAEBDBAFBAAg4EAABAAd8gAAJDDBAHBAAYqDAABAAd8gAAJDDBALBAAYqDAABAAd8gAAJDDBA___________________B__HBAAYqDAABAAd8gAAJDDBA8AAAEnAAABAAhvgAADCCAAGBAAwUHAABAA6hgAADCDAAACGBRWMAABAI7WgAAECEBAzBGB-IiAABARTDhAACIEBAGBAAwUHAABAALigAADFEBABAAAZAAAAUAA0ogAAAHBAAkBBBIkFAABABSfgAAEBDBAtBGBVnCAABAL2jgAAEADAAaB8AtnGAABAQRqgAAEBEBAeAAAWCAAAUAApcgAAHFBAA___________________B__BAAAqCAAAUAAnogAAAHBAAAAAAAAAAABAA2ygAAMABBAzBGBgtOAABAL9jgAAEAEBAzBGBwecAABAN5HhAACPEBAZAAAQGAAAUAAZvgAADHCAABAAAAAAAABATr9gAAEACBABAAABAAAABAByggAAEBCBA9A6AAAAAA6DAxWgAAMADAApBAAIwGAABAH-2gAAEBCBAmAhATlAAABAJ9XgAAECCAAtBAAP9EAABAKbdgAAECDBA___________________B__gAbAfUAAABAGaWgAAECCAAfAaA-kAAABAUzZgAAECCAAkAfAOeAAABAJDYgAAECCAAhAcASRAAABAJ9XgAAEDBAAfAaAatAAABAH52gAAEDCAAkAfAaYBAABAUQYgAAEDDAAiAdAtvAAABABPfgAAEDCAAfAaA1cAAABAI5WgAAECCAAzBGBHiPAABAIpXgAAEEEBA9BGBF5LAABAUzYgAAEBEBAtAjALBAAAUAAbBhAAAIBAAFBAB0vFAABARz_gAACKAAAtAAA6DAAAUAA90gAAHHBAAtAAAIDAAAUAAPBhAAHHBAAtAjALBAAAUAAUBhAAAIBAAuBGBAAAAABAcB8gAAEIEBAzBGBc7kAABARUVgAACBEBAtBAAv4IAABABbggAAEDDBAtBAANpOAABAPQFhAACCDBAzBGBYQWAABAM34gAAEAEBAtAoAPtBAABADK-gAAECDAABBAAEnAAAUAANvgAADECAAjAAA8KAAAUAA2vgAADHCAAlAgA4aAAABALpjgAAEACAAzBGBwkGAABAJHYgAAEDDBAqBAAjPHAABABfegAAECDAAGBAAwUHAABAAYigAADEDAA8AAAEnAAABAAMvgAADECAAhAcAfpAAABAB9fgAAECDAAaB8A8IHAABAH22gAAECCAAUB6AmYDAABAKYdgAAECCAAtAoAC9BAABAUnYgAAECCAAdB9AdwDAABAKddgAAECCAAjB_AD1FAABAI-WgAAECCAA1BFBdNOAABAABHhAACDCAASANAcGAAABAI7WgAAECCAAPAFAlAAAAFAAf8gAAAEBAAeAUALBAAAFAAf8gAAAEBAAGB8AwBAAAFAAf8gAAAEBAAnBCBQbLAABAHp4gAAEDDBAfCGBAAAAABABMfgAAEDEBAzBGBReWAABANGIhAACPDBABAAAAAAAABAAy1gAAMABBAzBGB-xFAABAKXdgAAEBEBA9BGBB2dAABAVHmgAACEEBAuBGBGZIAABAQ-pgAAEBEBAVB8Af-KAABAUCagAAEEDBAzBGBSpUAABAVEfgAACEDBAzBGBRPEAABAJEYgAAEBDBAzBGBR1UAABAUCagAAEEEBA9BGBHqfAABAVWmgAACEEBAuBGBAAAAABAWC9gAAEGEBAGBGBemDAABAAtpgAAJADAAqAlAgTBAABAKMdgAAECEAA___________________B__4BGBAAAAABABfagAAEBEBA4BGBAAAAABAKXdgAAEBEBAhBAAakDAABAGTWgAAEBDBA8AAAAAAAAUAAQcgAAHMEAAuBGBzsKAABAHS3gAAEBEBAzBGBUJCAABAC2ygAAEADBABB8AAAAAABALBkgAAEAEBA___________________B__gB-A6mFAABAD99gAAECCAAyAtAB1CAABAHC3gAAECCAAyAtAB1CAABAHC3gAAECCAAyBEBF5GAABAB3cgAAECCAAIBDBfJBAABAKYdgAAECAAAIBDBfyBAABAD_9gAAECAAAIBDBqIBAABAGfWgAAECAAAIBDBwQCAABAU0ZgAAECAAAIBDBNJBAABAJBYgAAECAAAIBDBZtBAABAI7WgAAECAAAIBDBKXBAABAKKdgAAEDAAAIBDB7eBAABAGSWgAAEDAAAIBDBRCCAABABfagAAEDAAAzBGBv2HAABAJ9XgAAEEDBAkBGBEzgAABARSAhAACKEAAzBGBfCLAABAUoYgAAECDBAACGBGkLAABAIRXgAAECEBAACGB5FZAABACdjgAAEAEBAfCGBrRPAABAH43gAAECEBAfCGBAAAAABAH43gAAECEBAXB7AQKHAABAUzZgAAECCAAvBDB1YGAABAD69gAAECCAAsAnAhWBAABADJ-gAAECCAAdB9AdwDAABAKddgAAECCAAdB9ADmFAABAIPXgAAECCAAyBEBClEAABAKddgAAECCAA4BGBkHHAABABGggAAECCAA9BGB1hLAABAB9fgAAECEBAzBGBQEHAABAGfWgAAECEBA___________________C__EBBBYqDAAKAAeOhAAAGCAAmBAB5PIAABAU0ZgAAECCAARB5Am0GAABAUyZgAAECCAAXB7AOpDAABAJ9XgAAECCAAvBDB9YIAABAUCZgAAECCAAvBDBdKEAABAGZWgAAECCAAvBDBHfIAABAH12gAAECCAAqBAAjPHAABABfegAAECDAAsBCBF4IAABAHN3gAAECCAA1BFB-fGAABAI_WgAAECCAA1BFBLtFAABAGLWgAAEDCAAyBEBNpEAABAJBYgAAECCAAyBEBHpGAABAITXgAAECCAA4BGBmuEAABAKddgAAECCAAeAUALBAAAFAA74gAAABBAAHCGBkwCAABALAkgAAEAEAA___________________B__yAyAvCAAAUAAySgAAAIBAA___________________B__oAjAjABAABAB9fgAAECCAAsBAAhRNAABAPDFhAACCCBABAAAAAAAABAAaegAAMABBAzBGB-uBAABALEkgAAEADBAyBEBLYHAABAHM3gAAEBCAAyBEBbqDAABAKXdgAAEBCAAyBEBxtDAABAJ9XgAAEBCAAyBEB6hDAABAGaWgAAEBCAApBGBYOwAABALRkgAAEAEBA8AAAQcCAAUAAOvgAADHCAAuBGBIFhAABARtAhAACKEBAkCGBFzRAABABMfgAAEDEBABAAAAAAAAUAA9agAAAABBA___________________B__uBGBQNMAABAC5igAAEAEBAwBEB-FLAABAB4ggAAEEDBAzBGB5FZAABACtigAAEAEBAzBGBskHAABAGmWgAAEEDBA___________________B__UAAAkBAAAUAAvwgAAHJBAAUAPA0KAAABAH22gAAECCAABAAA3FAAAKAA8ygAAMABAABAAA3FAAAKAA8ygAAMABAABAAA3FAAAKAA8ygAAMABAABAAA3FAAAKAA8ygAAMABAABAAA3FAAAKAA8ygAAMABAABAAA3FAAAKAA8ygAAMABAABAAA3FAAAKAA8ygAAMABAABAAA3FAAAKAA8ygAAMABAABAAA3FAAAKAA8ygAAMABAABAAA3FAAAKAA8ygAAMABAABAAA3FAAAKAA8ygAAMABAABAAA3FAAAKAA8ygAAMABAABAAA3FAAAKAA8ygAAMABAABAAA3FAAAKAA8ygAAMABAABAAA3FAAAKAA8ygAAMABAARBAAx1JAABAAzEhAACTCBAzBGB36KAABAUfYgAAECDBAzBGBvaFAABAKfdgAAECDBAzBGBrVIAABADG-gAAECDBAzBGBXHLAABAHA4gAAECDBAzBGBPMIAABAB9fgAAECDBA9BGB9feAABAN7HhAACPEBA9BGBPXNAABABFggAAEDEBABAAAAAAAABAAlbgAAMABBABAAAAAAAABAABzgAAMABBAYBAAyLQAABAMsagAAEADBAGBAAwUHAABAAIigAADDEBA___________________B__eB_ADpFAABAJvkgAAEDDBAsBAATJKAABALDkgAAEACBAtBAAxcTAABAN1UgAACADBA3AAAIOBAABAAXegAAHDBAAGBAAoGGAABAAnxgAANABBAzBGBdfHAABAKkdgAAEEDBAUAAAEnAAABATy9gAAEABBAzBAAg0KAABAIAXgAAEEDBAzBAA1kHAABAJIYgAAEEDBAzBAAcqHAABAGgWgAAEEDBAtBAAvOKAABALfkgAAEADBAtBAAvOKAABALekgAAEADBAtBAAvOKAABALVkgAAEADBApBGB5qBBABAW_8gAAEGEBAvBAAT9FAABAKZdgAAEECBAkCGBYTMAABAKudgAAEDEBABAAAIDAAA6DAVPhAAMABAAzBGBQcCAABAMPegAAEADBAzBGBqeGAABAQPqgAAEBDBAzBGBR9IAABAZ3HhAACQEBAuBGBAAAAABAXWpgAAEAEBA3AAAYtBAAUAA0vgAADHCAABBAAEnAAAUAAAvgAADBCAAKAAAMAAAAKAA45gAAHLBAAmBAB7BIAABAL7jgAAEACAAkBAAIeSAABAVpHhAACPDBAzBGBJPWAABAA1EhAACTEBAzBGBnwKAABABoggAAECEBAzBGBjkVAABACNjgAAEAEBAPAAAkBAAAUAAmvgAADHCAATB8ArGVAABACHjgAAEAEBAzBAA-uBAABALEkgAAEADBAuBGBr3HAABAIQXgAAEBEBAOB8AAJKAABAUOZgAAECEBA4BGBAAAAABAKXdgAAEBEBA4BGBAAAAABABfagAAEBEBAhBAB7cOAABAAsEhAACTDBAzBGBapGAABAc3IhAAEJDBAGBAAAAAAAUAAVcgAAHMEAAGBAAAAAAABAAWcgAADIEAA4BGBAAAAABAKidgAAECEBA4BGBAAAAABAHZ4gAAECEBA4BGBAAAAABABoggAAECEBA9BGBXNVAABAUBagAAEEEBAzBGBMaGAABAQ6pgAAEBDBAtBAAcyMAABAWm8gAAEGDBAwBEBKSQAABAA4EhAACTDBAsBAAQOIAABAU1ZgAAECCBAzBGBbuPAABAA2EhAACTDBAJB8AAxJAAUAAzngAAAGEAAzBGBdYFAABAXppgAAEADBAzBGBg3FAABAGRWgAAEBEBAJB8AAxJAAUAAzngAAAGEAA4BGB7OIAABAIDXgAAEDCAAzBGBUvKAABAZhqgAACQDBA8AAAQfAAAUAAoygAAHGBAAwBEBsjaAABARQAhAACKDBAVAQAkGAAABAKLdgAAECCAASANAKFAAABAQhygAAEBCAAXASASKAAABAGSWgAAECDAAGBAAwUHAABAALigAADFEBA___________________B__GBAAwUHAABAAIigAADDEBAMB8AvmTAABAMFngAAEAEBAvAqAXuBAABAD89gAAECCAAuApAjBBAABAKfdgAAECCAAuApAGrBAABAI3WgAAECCAAzBGBYecAABAV_HhAACEEBAeB_A6kJAABADG-gAAEEDBA3AtAiTAAAUAA36gAAACBAABB8AF2DAABAcA8gAAEIDBAtAoAC9BAABAUnYgAAECCAAyAtAtwBAABAQ7pgAAEBCAAtAoAWhBAABABWfgAAECCAAsAnAhWBAABADJ-gAAECCAAyAtAB1CAABAHC3gAAECCAAxAsAW_BAABAI9WgAAECCAAzBGBe_VAABAV3lgAACEDBA9BGB82nAABARfVgAACBEBA9BGB2zdAABAVPDhAACHEBAvBDBf1LAABAHf4gAAEECAAACGB8-WAABAUUagAAEEEBABAAAAAAAAUAA4agAAAABBApBAAAAAAAFAAxSgAAAABBAzBGBv_aAABARJAhAACKDBABBAAEnAAAUAADvgAADACAABAAAQGAAAIDA4wgAAMABAABB8ABwEAABABaggAAECDAAwBEBJuKAABAIDXgAAEEDBAvBAAs3KAABAWn8gAAEGCBAzBGBC9OAABAHW4gAAEEDBA8AAAAAAAABATy9gAAEABBA______________________zBGBYaNAABAWn8gAAEGDBAkAfAcgAAABAGNWgAAECCAAoAjAxUBAABAUvZgAAECCAAmAhAM5AAABAD_9gAAECCAAnAiAyOBAABAHy4gAAECCAA___________________B__OB8ADCHAABAGmWgAAEEEBAfCGBAAAAABAHQ3gAAEBEBASANAWTAAABANgHhAACHDBAkBGBfbkBABANuHhAACPEBAsBCByjIAABAUm9gAAECCAAtBAAvwJAABAHC3gAAECDBADB8Ag4EAAUAAxngAAAGDAALBBBQGAAAUAA0tgAAAFBAAsBCB5CGAABADJ-gAAECCAAsBCB5PEAABAGjWgAAECCAAsBCBjoGAABABZggAAECCAAsBCBF4IAABAHN3gAAECCAAuBGBDbIAABAIYXgAAEBEBAkCGBzOIAABAKVdgAAEBEBAzBGBCOGAABABQggAAEBDBA___________________B__BB3AAAAAAPAA85gAAABBAAEB3AAAAAAPAA_5gAAABBAAzBGBHcFAABAKcdgAAECDBAwBEBxjMAABAUvZgAAEDDBA__________________________________________________________________GBAAwUHAABAAd8gAAJKBBAGBAAwUHAABAAd8gAAJKDBAGBAAwUHAABAAd8gAAJKDAACBAAQcCAABAAb8gAAJEBAABBAAQcCAABAAb8gAAJEBAA___________________B__CBAAQcCAABAAb8gAAJEBAA___________________B__DBAAQcCAABAAb8gAAJEBAAEBAAYqDAABAAb8gAAJEBAAGBAAQcCAABAAb8gAAJEBAA___________________D__GBAAwUHAABAAd8gAAJKDAA___________________B_____________________B_____________Ab8gAAJKB_____________________B__HBAAYqDAABAAb8gAAJEBBAKBAAwUHAABAAd8gAAJKDBAGBAAwUHAABAAd8gAAJKBBAIBAAwUHAABAAd8gAAJKDBALBAAwUHAABAAc8gAAJKEBAyAAATdAAABAAb8gAAJKBAALBAAgpOAABAAc8gAAJEEBA_____________________________________________AAAYqDAABAAb8gAAJKBAAGBAAwUHAABAAd8gAAJKDAA8AAAQcCAABAAb8gAAJKBAAGBAAwUHAABAAd8gAAJKDAAIBAAwUHAABAAd8gAAJKDBAIBAAYqDAABAAd8gAAJEDBAJBAA4iIAABAAd8gAAJKDAAFCGBjkVAABACrigAAEAEBAwBEB3VIAABAHm3gAAEBDBAGBAAAAAAABAA7vgAAMABBAuBGBAAAAABAMJWgAAEAEBATB8ALvRAABAXT2gAAEAEBAzBGBgtOAABALxjgAAEAEBAzBGBiBLAABAIHXgAAEEDBAzBGByMbAABARW_gAACGDBABAAASCAAAIDAbrgAAMABAA1AwANyBAABAJ6XgAAECCAA3AyAOBCAABAGVWgAAECCAA-A5ANAEAABABSfgAAECCAAoAeAWCAAAUAAg6gAAACBAAZAUAELAAABAJ7XgAAECCAA4AuAiTAAAUAAc6gAAACBAAzBGB1kHAABAJEYgAAEEDBA___________________B__nBAAibCAABAZAEhAACQDBA___________________D_____________________D_____________________D__sBAAaRFAABAKJdgAAEDCBABBAAAAAAABAUrZgAAEDEBAzBGBVBJAABAcD8gAAEHEBAwBFBBAIAABAU6YgAAEBDAA9BAAgtOAABALfkgAAEAEBAmAhAdrAAABADO-gAAEBCAAzBGBDWPAABAUHagAAEEDBAzBGBqgEAABAJEYgAAEBDBAzBGBhRLAABAD49gAAEEDBA___________________B_____________________B_____________________B_____________________B_____________________B_____________________B_____________________B__0AvAUDDAABAMkrgAAEADAAwBAAsLGAABABfegAAEBDAAEB6AcXAAABAAv5gAAAIBAABB3AIOBAAFAAk5gAAABBAAEB3AIOBAAFAAq5gAAABBAA-A0AcXAAABAAD5gAAAIBAAcAXA4cAAABAH22gAAECCAA1ArA0HAAAUAA-6gAAACBAA8AyAIOBAAFAAl6gAAADBAAwBAAewHAABABfegAAECDAAUAAAZAAAAUAAlwgAAHJBAAzBGBCxNAABAHu3gAAECEBAsBAAFdIAABACxigAAEACBAEB8AAAAAABAH62gAAEEDBAEB8AAAAAABAUPagAAEEDBApBGBj0ZAABANZHhAACPEAAFABAPAAAAKAArngAAAGBAAwBAAPYGAABAIlegAAEBDAAYATANJAAABAKLdgAAECCAA___________________B__0AvARIIAABAVCfgAACEDBA___________AsxgAAHG___TAOAXJAAABAH22gAAECCAAOAJAVBAAABAJ7XgAAECBAAGBAAwUHAABAAYigAADEDAAGBAAwUHAABAAYigAADEEBA8AAAEnAAABAAMvgAADECAAGBGBKIBAABAA-ygAAEADBAkCGB1KyAABARoAhAACKEBAzBGBjYGAABAJHYgAAEDDBA___________________B__5A0AOjCAABAJ-XgAAECDAAoAjAdCBAABAI-WgAAECCAA8A8AAAAAABAALSgAAPFEBAGBAAwUHAABAAUvgAADGDAAGBGBAAAAABAAsSgAAPFEBAhAcAYwAAABAUvZgAAECCAA8AAAIDAAAUAAUtgAAHIBAAzBGBgkGAABAKXdgAAEDDAAzBGBgtOAABALNkgAAEAEBAIB8AC1OAABAAvFhAACSEBAzBGB-XOAABAIpXgAAEEEBAmBABv8EAABAI_WgAAEBCAAwArAkgCAABAUzZgAAECCAAbB-Ax_EAABAGUWgAAEDDBAdB9A2tDAABAGSWgAAECCAAdB9A_pFAABABPggAAECCAAdB9AJfHAABAUg9gAAECCAAdB9AdwDAABAKddgAAECCAAdB9AlsFAABADO-gAAECCAAdB9A7zDAABAJBYgAAECCAAdB9AXkHAABAH62gAAECCAAdB9ADmFAABAIPXgAAECCAAaCGBgtOAABALXkgAAEAEBAGBGBQNMAABAAhdgAAPAEBAGBGBQNMAABAARYgAAPAEBAGBGBQNMAABAAGggAAPAEBAGBGBQNMAABAAhdgAAPAEBAGBGBQNMAABAAN-gAAPAEBAGBGBQNMAABAARYgAAPAEBAGBGBQNMAABAAl4gAAPAEBAGBGBQNMAABAAGggAAPAEBAGBGBQNMAABAAhdgAAPAEBAGBGBQNMAABAARYgAAPAEBAGBGBQNMAABAAGggAAPAEBAYB9AIGFAABAcxpgAAEHDBAZAUAyKAAABAKLdgAAECCAAzBGBUmVAABAV7BhAACHDBAjB_AL5FAABABgggAAECCAAjB_Aw4HAABAHA3gAAECCAAjB_Aj6DAABAKYdgAAECCAAjB_A87FAABAD99gAAECCAAjB_Ax3DAABAGSWgAAECCAAjB_AO-DAABAJBYgAAECCAAjB_AD1FAABAI-WgAAECCAA9BGBEHSAABAUUYgAAEDEBA1BFBdNOAABAABHhAACDCAAzBGBY9IAABAQMqgAAEBEBAfCGBAAAAABABUfgAAEEEBAzBGB7bNAABALQkgAAEADBAmBAAeACAABAMHlgAAEACBA1BFBMzIAABAH62gAAECCAA___________________B__1BFBykGAABABPggAAECCAA1BFBysIAABAUg9gAAECCAAdBAAMZHAABALhjgAAEACBA1BFBXxEAABAGLWgAAECCAA1BFBAoGAABADA-gAAECCAA1BFBwbEAABAJBYgAAECCAA1BFB-fGAABAI_WgAAECCAA9BGB3AJAABAQJqgAAEBEBA______________________GBGBQNMAABAAIYgAAPAEBAGBGBQNMAABAAHYgAAPAEBAGBGBQNMAABAAGYgAAPAEBAzBGBYmZAABARIDhAACIDBAkCGBSwKAABAK8dgAAEEEBAzBGB8tKAABAIrXgAAECEBA9BGBh-kAABARJfgAACFEBA9BAAgtOAABALkkgAAEAEBA______________________zBGBM1IAABABMggAAEBEBAuBGBAAAAABACrigAAEAEBAzBGBcoFAABAGMWgAAEBEBA8AAAEnAAABAAevgAADFCAAGBAAwUHAABAALigAADFDAA9A4AAXFAABAUFagAAECCAA6A1AkXEAABAHA3gAAECCAA8A3AtaCAABAGMWgAAECCAA0AvAYrBAABAKldgAAECCAA1AwAPyBAABAJ-XgAAECCAA4AzAiNDAABABzogAAECCAAdAYA2TAAABAJ-XgAAEDCAAFCGBRqMAABABpfgAAECEBAuBGB8baAABAN0ChAACPEBAMAHAHDAAABAH62gAAECCAAzBGBAAAAABAMNlgAAEADBAzBGBAAAAABAMNlgAAEADBAzBGBAAAAABAMNlgAAEADBAzBGBAAAAABAMNlgAAEADBAzBGBAAAAABAMNlgAAEADBAzBGBAAAAABAMNlgAAEADBAzBGBAAAAABAMNlgAAEADBAzBGBAAAAABAMNlgAAEADBAzBGBAAAAABAMNlgAAEADBAAAAAAAAAABAMNlgAAEADBAAAAAAAAAABAMNlgAAEADBAAAAAAAAAABAMNlgAAEADBAAAAAAAAAABAMNlgAAEADBAAAAAAAAAABAMNlgAAEADBAAAAAAAAAABAMNlgAAEADBAAAAAAAAAABAMNlgAAEADBAAAAAAAAAABAMNlgAAEADBA___________________B________________________xAsAHSBAABAKcdgAAECCAAnBAAxKKAABAD49gAAEEDBAwArA3LBAABAJHYgAAECCAA___________________C_____________________B__8AAAQcCAABAAe8gAAJGCBAIBAAoGGAABAAe8gAAJGBBAGBAAg4EAABAAe8gAAJGCAAeAAACHAAABAAb8gAAJGBAA4AAAg-AAABAAe8gAAJGCAA8AAAQcCAABAAe8gAAJGCBA___________________C_____________________B__1BFBAjDAABAJBYgAAEBCAAgBAABwTAABARs_gAACKCBAdAYASPAAABAKddgAAECCAA8AAAkBAAAUAA1ygAAAIBAAuApAqADAABAUJagAAEECAApAoAHEBAABAKhdgAAEECAApAoAClBAABADN-gAAEECAAyBGBS_KAABAUxZgAAECDAAxBGBI8KAABAHA3gAAECDAAxBFB-OIAABAI9WgAAECDAAeAUAKKAAAKAAqngAAAGBAAZAPAoAAAAUAAZBhAAAIBAA___________________B_____________AwxgAAHG___ZAAAkBAAAUAANBhAAHHBAAZAPAoAAAAUAASBhAAAIBAAQALATJAAABAR_egAACFBAATAOAaXAAABARQChAACICAAeAZAvQAAABAKLdgAAECCAAzBGB_zMAABAHn3gAAEDDBAjAeAxoAAABAD_9gAAECCAAiAdAPxAAABAHA3gAAECCAAjAeAJ0AAABABHggAAEDCAA7A2AU_CAABAKXdgAAECDAA-A5AVwEAABAQ5pgAAEBEAASANAXEAAABAKLdgAAECCAAUAPApLAAABAH62gAAECCAASANAcGAAABAI7WgAAECCAAVBAAnHIAABAUmYgAAECDBAuBGBwRMAABADY-gAAEDEBAmBAB5PIAABAU0ZgAAECCAAmBABgKGAABAI7WgAAECCAAXB7AncFAABAD_9gAAECCAAXB7AfWFAABAIUXgAAECCAAsAnAmWBAABADO-gAAECCAAaB8At3GAABAU0ZgAAECCAAaB8AeVFAABABPggAAECCAAgB-AvcHAABAH13gAAECCAA4BGB1lFAABAQGqgAAEBCAAsBCByjIAABAUm9gAAECCAAwArAkgCAABAUzZgAAECCAAdB9AXkHAABAH62gAAECCAAyBEBVZEAABAGLWgAAECCAAXB7AfWFAABAIUXgAAECCAAzBGBePLAABAUyZgAAECDAAaB8ALxDAABAGgWgAAECCAAaB8AeVFAABABPggAAECCAAyBEBCPGAABAKgdgAAEECAAnBAAsVYAABARDAhAACKDBAUB6AmYDAABAKYdgAAECCAAzBGB1kGAABAKQdgAAEDDBAzBGBZMKAABADO-gAAEDDBAzBGB6SNAABAURYgAAEDDBAzBGBnPMAABAH32gAAEDDBAzBGBcgJAABABBggAAEDDBA1BFB0FJAABACeigAAEACAA4BGBSXGAABAGWWgAAEECAA4BGBB4JAABABEggAAEECAAsBCB5PEAABAGjWgAAECCAAsBCBjoGAABABZggAAECCAAdB9A2tDAABAGSWgAAECCAAdB9A_pFAABABPggAAECCAAdB9AJfHAABAUg9gAAECCAAdB9AdwDAABAKddgAAECCAA4BGBSLJAABAUg9gAAECCAA4BGBcjEAABAGLWgAAECCAAzBGBubGAABAciQgAAEIDBAzBGBqcNAABADb-gAAEDEBAdBAAASEAABAcfOhAAEICBA___________AM0gAAPBB_____________________B_____________________B__9BGB0sJAABAQIqgAAEBEBAzBGBigJAABAICXgAAEDDBAaB8AziDAABAKYdgAAECCAAQALAZQAAABARqBhAACICAAvBDB1YGAABAD69gAAECCAAsBCB5PEAABAGjWgAAECCAA4BGB02GAABAI_WgAAECCAApBGBfxhAABARfDhAACIEBACB8AryKAABACLkgAAEAEBAeAAA0HAAABAAr_gAAHMBAAZAAA0HAAAUAAr2gAAHHCAAKCGBTgrAABAR5BhAACIEBALB8AQNMAAUAASMhAAAGEAAeBAAfbDAABAJDYgAAEBDBAzBGBiSGAABAIRXgAAEBDBA___________AhhgAAHH___eAAAsEAAAUAAnxgAAAICAAlAgAxZAAABAJBYgAAEDBAA___________________B_____________________B_____________________B_____________________B_____________________B_____________________B_____________________B__eB_AR9IAABAZGEhAACQDBA___________________B__zBGBVnCAABALgkgAAEADBA9BGBvRLAABAD-9gAAECEBAzBGB0OOAABAWF9gAAEGDBAUAAA9BAAABAAi_gAAHMBAAKAAALBAAAUAAKBhAAHHCAAuBGBAAAAABAMrHhAAEAEBADB8Ag4EAAUAAwNhAAAGDAA___________________B_____________AfhgAAHH___UAAAyAAAAUAAdxgAAAICAAdAYA3tAAABAUOagAAEDDAAJAEAtBAAABAVBVgAACABAAFAAAYAAAABAA2sgAAHMBAAKAAAFAAAAUAAm2gAAHHBAALAGACDAAABANiHhAACPBAALAGAxDAAABARaChAACIBAANAIAlJAAABAR8DhAACBCAAJAEAuBAAABAVfChAACHBAANAIArEAAABAH32gAAEDCAASANAGDAAABAGMWgAAEDBAAMAHAHBAAABAKKdgAAEDBAATAOAhDAAABAJ6XgAAEDBAAHACARAAAABAJ6XgAAEDBAAJAEAqBAAABAVklgAACEBAAJAEADBAAABAH32gAAEDBAALAGA4AAAABAGLWgAAEDBAAJAEAxAAAABAI3WgAAEDBAAKAAAKAAAAUAAghgAAHHBAAUAPAOLAAABAH22gAAECCAARAMA0DAAABAGjWgAAECCAASANAYGAAABAI7WgAAECCAAFBABNlEAABANZHhAACPAAABAAAhSAAAUAAaygAAPAAAAoAAAoPAAAUAApvgAADHCAAGBAAwUHAABAAYigAADEDAAGBAAwUHAABAAYigAADEEBA8AAAEnAAABAAMvgAADECAABAAA-fBAAUAAowgAAPAAAABBAAkBAAABAAh0gAAHLBAABBAAkBAAAKAA3tgAAHIBAAzBGBrgCAABAC4igAAEADBAzBGB2hMAABABRfgAAEDEBAmAAAcXAAAFAAaKhAAAGBAAoAjAYlBAABAUEagAAEDCAArAoA4ABAABABPfgAAEEBAA___________AyhgAAHH___zBGBNXVAABAA7FhAACSEBAUAAAZAAAAUAAz2gAAHHBAAaBAAoGGAABAMMMhAAHLEBAbAWAFPAAABAKLdgAAEDCAAaAVAlUAAABAI3WgAAEDCAAwBEB8sHAABAD_9gAAECDBA2BBBDAAAAIDYSngAAGDBAAYB9ABAGAABAKJdgAAEEDBABABADAAAABAVBfgAACOBAAVB8ATiIAABAIpXgAAEEDBAeAAAkBAAAFAAnngAAHBBAA___________________B__eAAAWCAAAUAAs2gAAHHBAA6A1AixFAABAUxZgAAECDAACB3AcXAAAUAAC6gAAACBAAhAAA0HAAAFAA9ygAAAGBAAeAAA6DAAAFAAcngAAAGBAAeAAAIDAAAUAAwhgAAHHBAAzBGBzhLAABABtfgAAEEDBAgAbAWlAAABABSggAAEDCAA___________________B_____________________B_____________________B__zBGBIdGAABAITXgAAEBDBAzBGBJXGAABAQKqgAAEBDBA___________________B_____________________B_____________________B_____________________B__YB9AF3QAABAVFmgAACEDBAeB_AJPJAABAHR4gAAECDBA1BFBLtFAABAGLWgAAEDCAAhBABVdUAABALKkgAAEADBAGBAAwUHAABAALigAADFEBAGBAAwUHAABAAVigAADBDAA8AAAEnAAABAA_ugAADBCAA3AAAIOBAABAAJvgAADBBAABAAAHAAAAUAAmygAAPBBAAGBAAwUHAABAALigAADFEBAGBAAwUHAABAAEigAADADAAzBGBVdUAABALdkgAAEADBA___________________B__zBGBQdGAABAQGqgAAEBDBAGBAAwUHAABAALigAADFEBA8AAAEnAAABAAevgAADFCAAGBAAwUHAABAALigAADFDAAiAdAoxAAABAH72gAAECCAAaBAAOREAABAQDqgAAEBCBAzBAAXdFAABAJ_XgAAECDBAbAWAjNAAABAGiWgAAECCAA1BFB9qGAABAGUWgAAEECAAdB9AlsFAABADO-gAAECCAAyBEBOOJAABAHu3gAAECCAAyBEB64IAABAUvZgAAECCAA8A2AAAAAABAArpgAAMADAALBBBg4EAAFAAW5gAAADBAAaAQAoAAAAUAA86gAAACBAAGBAAwUHAABAAIigAADDEBAGBGBQC9AABAANUgAAMACBAFBABKtFAABAR9egAACFAAAtBAAfGEAABAGRWgAAEBDBAzBGBsRFAABAMwngAAEADBATB8AoObAABALGkgAAEAEBAECGB4phAABAN5BhAACHEBABAAAkNAAA6DA3cgAAMABAABAAAAAAAAkBAiigAAAACBAuBGBAAAAABALvkgAAEAEBAzBGB4sIAABAQCqgAAEBEBAECGB3RgAABAVImgAACEEBAwAmA6DAAAUAAY6gAAACBAApBGBYOwAABALOkgAAEAEBAzBAAhPKAABACzigAAEADBAzBAArXEAABAGTWgAAEBDBA9BAAgtOAABALVkgAAEAEBAtBAAMkOAABAUKagAAEEDBAjAeAgjAAABAI7WgAAEBCAA8A3AQcCAABAZuHhAACQCAA3AAA0HAAAUAAthgAAHHBAAzBGBUJCAABACvkgAAEADBA-A5A02GAABABOfgAAEEDAA3AAA0HAAAUAAS0gAAHGBAAwBFBMtHAABAIQXgAAECDAAtAAAYJBAABAQDqgAAEBCAAzBGB-uBAABALujgAAEADBAzBGBUvKAABAMvpgAAEADBAtBAANAIAABAB3ggAAECDBAACGBLEXAABAUWagAAEEEBAkBBBijWAABAMLkgAAEADBAuBGBAAAAABALWkgAAEAEBARB8AtVFAABAKZdgAAECEBA9AyAEnAAAUAA55gAAACBAABAAAAAAAABAA1ygAAMABBAQALAAQAAABARwUgAACBCAAmBABDGEAABAGjWgAAECCAATAOAZJAAABAUn9gAAECCAAmAhAHNBAABAUzZgAAECCAAkAfAXsAAABAI-WgAAECCAAlAgAkCBAABAH72gAAECCAAaB8A_XFAABAD_9gAAECCAAgB-ANkFAABABPggAAECCAAyBEBLYHAABAHM3gAAEBCAA4BGB7OIAABAIDXgAAEDCAAtAoAC9BAABAUnYgAAECCAAoAjAxUBAABAUvZgAAECCAAsBCB5PEAABAGjWgAAECCAAcAXA4cAAABAH22gAAECCAAdB9AXkHAABAH62gAAECCAAdB9ADmFAABAIPXgAAECCAA1BFBysIAABAUg9gAAECCAAiAdAoxAAABAH72gAAECCAA4BGBcjEAABAGLWgAAECCAA1BFBLtFAABAGLWgAAEDCAA8AAAEnAAABAAevgAADFCAAGBAAwUHAABAALigAADFDAA______________________zBGBYOEAABAGTWgAAEBDBAlAgA6iAAABAJAYgAAECCAAoAjAQYBAABAHB3gAAECCAAnAiAb6AAABAI-WgAAECCAAnAiA46AAABAB3fgAAECCAAMAHAADAAABAU0ZgAAECCAANAIAHBAAABAKLdgAAECBAANAIAZBAAABAQeggAAEBBAAPAKAMEAAABAI7WgAAECCAA___________________B__BAAAAAAAABAAlxgAAMABBAKCGBojiAABAN2VgAACAEBAFAAAAAAAAUAAjUgAAPDBAArBGBE_fAABARDmgAACFEBABAAAAAAAABAATxgAAMABBAzBGBvOKAABALOkgAAEADBA3AyAokEAABAH92gAAECDAA3AyAmOCAABAKLdgAAECDAABAAAAAAAABAAMvgAAMABBAzBGBjkVAABACJjgAAEAEBAQB8AEEeAABAN1ChAACHFBA9BGB60QAABABoggAAEEEBAmBAAEODAABAKZdgAAEBCBAeB_AliFAABAcwNhAAEJDBAzBGBYQWAABAMUEhAAEAEBAzBGBZ3IAABAQMqgAAEBEBA______________________pBGBouaAABAVemgAACEEBA-A5AH-EAABAUYYgAAECCAA7A2AgUCAABAKWdgAAECCAATB8A3lGAABAD89gAAEBEBAYB8A7VEAABAKXdgAAEBEBABAAAAAAAABAA9mgAAMABBA8A8AAAAAABAATxgAAPFEBAtBGB7XJAABAIHXgAAEDDBAzBGB97GAABAKidgAAECEBAeAZAaiAAABAH72gAAECCAATAOAjJAAABAH62gAAECCAA7A2A-hDAABAI3WgAAECCAAXB7AQKHAABAUzZgAAECCAAXB7AKaFAABABVfgAAECCAAtAoAp9AAABAKcdgAAECCAAoAjAgDBAABADN-gAAECCAAjAeAndAAABAGMWgAAECCAAjAeAndAAABAGMWgAAECCAAaB8AziDAABAKYdgAAECCAAaB8AeVFAABABPggAAECCAATAOA-EAAABAJ8XgAAECCAAnAiAMpAAABAGaWgAAECCAAvBDB1YGAABAD69gAAECCAAvBDBdKEAABAGZWgAAECCAAvBDBzVGAABAB9fgAAECCAA1BFBeJNAABAArFhAACSCAAfAaA1cAAABAI5WgAAECCAAtAoAC9BAABAUnYgAAECCAAtAoAWhBAABABWfgAAECCAAxAsAW_BAABAI9WgAAECCAAmAhAM5AAABAD_9gAAECCAAnAiAyOBAABAHy4gAAECCAAsBCB5CGAABADJ-gAAECCAAcAXA4cAAABAH22gAAECCAAjB_Aw4HAABAHA3gAAECCAA4BGBnhJAABAH62gAAECCAAZAAAAAAAAUAA5bgAAHMBAATB8AbeEAABAJ-XgAAEBEBAzBGBmZWAABANhVgAACADBABAAAAAAAABAAnrgAAMABBA8AAAEnAAAUAAWQhAAHLBAAKAAAAAAAABAA7ugAAPBBBAtAAAoPAAAUAAIvgAADHCAAsBCBFdIAABAL0jgAAEACAAUAPASWAAABANYHhAACPCAAaAVAdiAAABARZChAACIBAAbAWADmAAABAR_UgAACBBAAZAUAYeAAABAR_egAACFBAAXASA1TAAABAV4UgAACABAAYATAfWAAABAVqBhAACHBAAZAUAnMAAABAJ-XgAAEDCAAZAUA1qAAABAVrlgAACECAAWARAfRAAABAVrlgAACEBAAUAAAyAAAAUAArhgAAHHBAAQB8AAAAAABALGkgAAEAEBALB8AAAAAABALGkgAAEAEBAuBGBYOwAABALLkgAAEAEBApBGBtIiAABARYAhAACKEBABAAAAbAAAoAAM0gAAPAAAAbAWACPAAABAKedgAAECDAAYATAnLAAABAU1ZgAAECBAAuBGB9eIAABAGfWgAAEDEBAzBGBxGbAABARb_gAACGDBAAAAAAAAAA6DAangAAPADBAAAAAAAAAA6DAbngAAPABBAzBGBsUIAABAISXgAAEBEBAzBGBhUIAABAHU3gAAEBDBA1BFBS0DAABAGLWgAAEBCAAzBGBM9KAABAHt3gAAECDBAkBGBxSTAABALvkgAAEAEAA9BAAgtOAABALlkgAAEAEBAkBGBopYAABAV1egAACEEBAGBAAAAAAABABdggAAEABBA4BGBA3OAABAUsZgAAECEBAqBAAcIGAABAc1NhAAEJDBAuBGBKCRAABAHk3gAAEDEBABAAAAAAAABAAxagAANABBAICGBkHoAABARFmgAACFEBAkBGBrRpBABAVnBhAACHEBARB8AlHJAABAB3ggAAEDEBAOB8Az_IAABAD69gAAEDEBARB8A9SMAABAHG4gAAEDEBA______________________4BGBAAAAABAKfdgAAEDEBA4BGBAAAAABAB9fgAAEDEBA4BGBAAAAABAUdYgAAEDEBA4BGBAAAAABAB9fgAAEDEBAYB9AfIFAABAGoWgAAEDDBAjBAAG4EAABABvggAAEBCBApBGBVmbAABANNDhAACHEBAZAAAQGAAABAAb8gAAJFBAAtAAAg-AAABAAb8gAAJFBAAeAAAmIAAABAAb8gAAJFBAAzBGBOwVAABAN3HhAACPDBAzBGB5FZAABAC4igAAEAEBAzBGBFYQAABAA6FhAACSDBAyBAAUSEAABAGaWgAAECCBAMB8AgwLAABAH32gAAEDEBAGBFBcREAABAMrqgAAEADAAABABAAAAABAAMLhAAMACBA9BGBoDIAABAKZdgAAECEBAzBGBygIAABAUHZgAAEBDBAfBDBAAAAABALakgAAEAEBAkBCBAAAAABABMggAAEBDBAfBDBAAAAABALakgAAEAEBAkBCBAAAAABABMggAAEBDBAkBCBAAAAABABEggAAEEDBAkBCBAAAAABABVfgAAEDDBAkBCBAAAAABABVfgAAEDDBAkBCBAAAAABABEggAAEEDBAkBCBAAAAABABMggAAECDBAzBGB98JAABAJKYgAAEEEBAzBGBjLFAABAJ-XgAAECDBAWB8A06HAABADU-gAAECEBAiAAAmIAAABAEk9gAAEABAAGBAAwUHAABAALigAADFEBA8AAAEnAAABAAevgAADFCAAGBAAwUHAABAALigAADFDAA______________________zBGBf9IAABABfagAAEBEBA___________________D_____________________D_____________________D_____________________D_____________________D_____________________D_____________________D_____________________D__zBGBAAAAABAKVdgAAEBDBAzBGBAAAAABAD59gAAEBDBAzBGBAAAAABAUMZgAAEBDBA___________________D_____________________D_____________________D_____________________D__zBGBAAAAABAD59gAAEBDBAzBGBAAAAABAHH3gAAEBDBAzBGBAAAAABAKVdgAAEBDBA___________________D__zBGBAAAAABAKRdgAAEDDBAzBGBAAAAABADU-gAAEDDBAzBGBAAAAABAHL4gAAEDDBA___________________D__zBGBAAAAABAKidgAAECDBAzBGBAAAAABADD-gAAECDBA___________________D_____________________D__zBGBAAAAABAKidgAAECDBAzBGBAAAAABADD-gAAECDBAzBGBAAAAABABMggAAECDBA___________________D__zBGBAAAAABAKZdgAAEBDBAzBGBAAAAABAH72gAAEBDBAzBGBAAAAABAHl4gAAEEDBAzBGBAAAAABAKjdgAAEEDBAzBGBAAAAABABEggAAEEDBAzBGBAAAAABAKVdgAAEBDBAzBGBAAAAABAD59gAAEBDBAzBGBAAAAABAHH3gAAEBDBAzBGBAAAAABAUMZgAAEBDBAzBGBAAAAABAKjdgAAEEDBA___________________D_____________________D__zBGBAAAAABAKRdgAAEDDBAzBGBAAAAABAHL4gAAEDDBAzBGBAAAAABADU-gAAEDDBAzBGBAAAAABAUZYgAAEDDBAzBGBAAAAABADU-gAAEDDBAzBGBAAAAABAKRdgAAEDDBAzBGBAAAAABAHl4gAAEEDBAzBGBAAAAABAKjdgAAEEDBAzBGBAAAAABADN-gAAEEDBAzBGBAAAAABAUEagAAEEDBAzBGBAAAAABABEggAAEEDBA___________________D__zBGBAAAAABAKidgAAECDBAzBGBAAAAABADD-gAAECDBAzBGBAAAAABADD-gAAECDBA________________________________________________________________________________________7BGBAAAAABARcmgAACFEBA______________________7BGBAAAAABARUDhAACIEBA7BGBAAAAABANMmgAACEEBA____________________________________________7BGBAAAAABAZqUgAACQEBA______________________7BGBAAAAABANaVgAACAEBA______________________7BGBAAAAABABMggAAEBEBA7BGBAAAAABAKVdgAAEBEBA____________________________________________7BGBAAAAABAKidgAAECEBA7BGBAAAAABABMggAAECEBA____________________________________________7BGBAAAAABARcmgAACFEBA7BGBAAAAABAUuZgAAECEBA7BGBAAAAABAHH3gAAECEBA____________________________________________7BGBAAAAABAUsZgAAEBEBA______________________7BGBAAAAABAVXmgAACEEBA7BGBAAAAABABEggAAEEEBA7BGBAAAAABAWVDhAACHEBA______________________7BGBAAAAABAKRdgAAEDEBA7BGBAAAAABAUZYgAAEDEBA7BGBAAAAABAHL4gAAEDEBA7BGBAAAAABABVfgAAEDEBA7BGBAAAAABAHl4gAAEEEBA7BGBAAAAABAKjdgAAEEEBA7BGBAAAAABADN-gAAEEEBA7BGBAAAAABAUEagAAEEEBA7BGBAAAAABABTfgAAEEEBA7BGBAAAAABAKidgAAECEBABAAAAAAAAIDAmigAAMABBAyBAAdUFAABABqggAAEBCBATB8A4iQAABAPNFhAACCEBAAAAAAAAAA6DAIrgAAMACAAGBAAqhBAAUAA2xgAAHGBAA8AAAAAAAAUAA2bgAAHMBAA___________________B__qBAAd4DAABAKZdgAAEBDBA8A3AtRGAABAHy4gAAECDAA6A1A12CAABAKgdgAAECDAAtBFBoAGAABAI9WgAAEBDAAzBGBbSEAABAKXdgAAEBDBAzBGBqhGAABAD59gAAEBDBAzBGBU5IAABAU6YgAAEBDBAzBGBKaGAABABQggAAEBDBAVBAAt3EAABADF-gAAEBDBALBBBAAAAAUAAktgAAAFBAALBBBAAAAAUAABtgAAAFBAApBGBQTFAABAKZdgAAEBEBApBGBASFAABAGNWgAAEBEBAbB-A8tQAABAVrBhAACHDBApBGBApKAABAUjYgAAEBEBAtBEBsBKAABAUxZgAAECDAA___________________B__ACGBDTOAABABpfgAAEDEBAoAAA6DAAAUAAccgAAHFBAABAAAUFAAAUAA5ogAAAHBAAyBGBnZHAABAKjdgAAEEDAAGBAAg7CAAFAA1ngAAAGCAAuBGBg4EAABAZuHhAACQDAAyBGBYxOAABAHa4gAAEEDAA8AAAkfFAAUAAvhgAAHHCAAzBGB-LLAABABEggAAEEDAAjB_AfbTAABARfChAACICAApBGBXnhAABAR-egAACFEAA8AAAA9BAABAAO8gAAHMBAAdB9A0MOAABANyUgAACACAA8AAAoPAAAUAAp2gAAHHBAAmBABzlLAABAUGagAAEECAAgB-AfqOAABANzegAACECAA8AAAQfAAAUAAuhgAAHHBAAjB_AQtJAABAUcYgAAEDCAAdB9AymEAABAKRdgAAEDCAAaB8AjwGAABABRggAAEDCAAgB-AfyEAABAJEYgAAEDCAAgB-AF8KAABAHm4gAAEECAAaB9At8EAABAKJdgAAEECAAaB9ApHFAABAGeWgAAEECAAgB-ALKIAABAIKXgAAEECAAmAhAMkAAABAJ8XgAAECCAABAAAHAAAAUAA86gAAPBBAA___________________B__zBEBwkGAABAQIqgAAEBDBAzBGBU5IAABAcO1gAAEIEBAzBAAgtOAABALCkgAAEAEBAGBAAEnAAABAAlzgAAPCDBAzBEB-uBAABALujgAAEADBAzBAAhPKAABACrigAAEADBAeB_AT4GAABAIdXgAAECDAAjB_A4DEAABAGTWgAAECCAAuBGBajOAABAImXgAAEEEBA___________________B__uBGBAAAAABAWG9gAAEGEBAAAAAAAAAABAAqpgAAMABBAoAAAgMAAAUAAlvgAADHCAA___________________B__BAAAAAAAABAAeigAAPADBABBAAEnAAAUAAivgAADCCAAkCGBFLIAABAKWdgAAEBEBAGBAAwUHAAUAA5hgAADCDAAPAAAEAAAAUAAeygAAHLBAAPAAAKAAAAUAA_agAAHLBAALBBBAFAAAUAACbgAAAFBAA_AAA69DAABAMkngAAEADBAAAAAAAAAABAAqpgAAMABBAyBEBOOJAABAHu3gAAECCAApBAAJTLAABAUKagAAEECBAyBEBClEAABAKddgAAECCAAyBEBP8GAABAD99gAAECCAAyBEBVZEAABAGLWgAAECCAAyBEBNpEAABAJBYgAAECCAAyBEB64IAABAUvZgAAECCAAyBEBHpGAABAITXgAAECCAAyBEBF5GAABAB3cgAAECCAAkCGB_KMAABAB6fgAAEBEBABAAAAAAAABAAlxgAANABAAkBBBeFHAABABYggAAECDBA4BGBNSJAABAQMqgAAEBEAAzBGBiYIAABAQCqgAAEBEBAwBEBbdUAABANLmgAACEDBAwBFBBAKAABAUwZgAAECDAAKCGB9jhAABAVfAhAACEEBAzBGBaVGAABAISXgAAEBDBAWARAdIAAABAGjWgAAECDAABAAAIDAAAIDA6igAAMABBAzBGBMMLAABAIrXgAAEEDBA___________AovgAADH___XASABRAAABAH92gAAECCAAUAPAxKAAABAUuZgAAECCAAaAVAXMAAABAKLdgAAECCAAWARAGFAAABAQCqgAAEBBAAZAUA_KAAABAGMWgAAECCAAUAPAzEAAABAI7WgAAECBAAfAAAwSAAABAEu9gAAEABAABAAAaKBAABAAIogAAPACAAUAPAfGAAABAQhygAAEBCAApBAAdEEAABAGWWgAAECCBABAAAAAAAABAA9OhAAMABBABAAAAAAAABAAe0gAAMABBA___________________B__uBGBWrUAABAA5EhAACTEBA4BGB0XRAABAUHagAAEDEBAzBGBwYIAABAGmWgAAEDEBApBGBOwHAABAJKYgAAEDEBAtBAAH4NAABAUJagAAEEDBApBGBKKJAABAJ-XgAAEEEAA7BGBg3fAABAVOmgAACEEBAzBGB30RAABAWG9gAAEGEBArBGBo-bAABAVNmgAACEEBAICGBVufAABAVPmgAACEEBALB8AlxJAABADO-gAAEEEBALB8AYQWAABAMbpgAAEAEBA9BGBYQWAABAMYpgAAEAEBAzBGBklMAABADF-gAAEDEBAuBGBBLQAABAHM4gAAEDEBAaCGBx3kAABANBChAACHEBA4BGBkHHAABABGggAAECCAA4BGBnhJAABAH62gAAECCAA4BGBSLJAABAUg9gAAECCAA4BGBmuEAABAKddgAAECCAA4BGB3KHAABADA-gAAECCAA4BGBcjEAABAGLWgAAECCAA4BGB02GAABAI_WgAAECCAA",
-	["names"] = {
-		"", -- [1]
-		"", -- [2]
-		"BKP 2700「執行者」BKP 42「偏激者」X-52飛行員護腿X-54型無後座力火箭撕裂砲一捧雪花一盒戲法三大恐懼披肩上古三連盾上古亞基神器上古阿曼尼長弓上古魔法徽記不屈之力指環不屈之杖不屈束腰不屈護腕不屈驍勇塑像不懈的大地風暴鑽石不撓的赤紅束腰不滅狂怒胸針不義之靴世界之火護胸世界盡頭護腕中型護甲片中尉的羅德隆徽記中皮丹泉石墜飾主建築師的襯衣主教之戒主教保衛者主教的披風主教的鑽石指環主教的靈魂寶石亞伯拉彌斯披肩亞克崔茲鑰匙亞克崔茲鑰匙的底部裂片亞克崔茲鑰匙的頂部裂片亞玻萊昂，靈魂撕裂者亞麻布亞麻繃帶亡鑄束腰亡靈主教的意志亡靈低語魔杖亮閃閃的鋼匕首人工生長圖騰伊利達瑞的復仇伊利達瑞紫色勝利外袍伊斯利天行者之靴伊斯利操作之靴伊斯利束帶伊根的衝擊器伊瓦的腰帶伊萊克皮護腿伊萊克皮革肩甲伊露恩之星低語貝殼披風作戰治療藥水作戰法力藥水侍從頭飾侵略者的琥珀手環保衛者外袍保衛者鬥棍保護卷軸 II保護卷軸 V信仰護腿信仰長袍信念之索修理機器人110G型修補稜彩手套修補者之心型指環倒刺小腿倒刺懲罰頸飾假象之戒偉大保衛者之紫羅蘭徽記偵測不死生物藥劑偵測惡魔藥劑偵測次級隱形藥劑偷取的靈魂飾物催眠師的錶傳送符文傳送門符文僧侶外套僧侶腰帶僧侶護腿儀式戰槌血刃儀式皮手套優質皮外套優質皮手套優質皮披風優質皮褲優質皮靴元素之土元素助熔劑元素師護腿元素碎片元素空氣兇暴手套兇猛外衣兇猛束腰兇猛護腿兇猛迅足靴先知徽章先知披肩先知披風先知綠玉髓先知藥劑先祖指環先祖硬幣先祖靈魂指環先驅者手環光之純淨風帽光亮的生命紅寶石光圈指環光明使者聖契光明先驅者勳章光明灌注戰槌光明看護者指環光榮響亮之戒光滑的琥珀光滑的華麗黎明石光滑的黃金卓奈石光滑的黎明石光輝的伊露恩之星光輝的綠玉髓光輝的藍月石光輝的鋯石光輝霍特斯徽印克洛的蘋果", -- [3]
-		"克銀帶鎖箱克銀礦石克銀錠內心手環內行藥劑兩刃斧兩趾便鞋八十銀腰帶公平獎勵護腕公式:大塊稜石裂片公式:附魔戒指 - 打擊公式:附魔手套 - 威脅公式:附魔手套 - 極效治療公式:附魔手套 - 法術打擊公式:附魔手套 - 超強敏捷公式:附魔披風 - 潛行公式:附魔武器 - 強效敏捷公式:附魔武器 - 烈日火焰公式:附魔武器 - 處決者公式:附魔武器 - 貓鼬公式:附魔武器 - 靈魂冰霜公式:附魔盾牌 - 盾牌格擋公式:附魔護腕 - 強效精神公式:附魔護腕 - 超強耐力公式:附魔雙手武器 - 極效敏捷公會外袍公正力量之錘公正肩甲公正胸甲公正腿鎧公正頭盔六魔包共治堅忍之石共治堅耐之石共治堅耐指環共治手套共治披肩共治智慧之石共治智慧指環共治束帶共治束褲共治生命塑像共治護甲共治護腕共治長靴共治項鍊共治風帽共謀者護胸典獄官裹衣冥想沉默軟靴冥界之光亮項鍊冬刺草冬泉火水冰川寧靜護符冰縛披風冰雹墜飾冰霜之力藥劑冰霜影紋之靴冰霜影紋護肩冰霜影紋長袍冰霜皮甲披風冰霜防護之崔互德長褲冰霜防護之昂布拉凡腰環冰霜防護之碎骨者腕甲冰霜防護之碎骨者馬褲冰霜防護之考格斯賓護目鏡冰霜防護之裂蹄肩衛冰霜防護之遊俠手套冰霜防護之遊俠腰帶冰霜防護之龍鷹便褲冰霜防護之龍鷹手套冰霜領主戰爭披風冷光圓球冷凝長手套冷語之索冷靜之擊窄褲凱利丹的羽飾手杖凱嵐的璽戒凱旋墜飾凱旋指環刃拳刃拳的徽印刃拳飾物刃舞者腕甲分心繁刃分歧護手初學者襯衫初新鐵護手初級堅韌藥劑初級巫師之油初級敏捷藥劑初級法力之油初級防禦藥劑刺客大師之紫羅蘭徽記刺客的火焰蛋白石刺客襯衣刺皮腰帶刺皮襯肩刻像 - 生命紅寶石巨蛇刻像 - 黎明石蟹前驅之靴剛勇之靴剛毅靈魂牧者指環剝皮小刀劈顱護手劊子手的廢棄之斧劍刃氏族戰爭手環劍刃貝果劍刃銘文劍客胸甲劍客腰帶力量之海艾斯上衣力量之退化之索力量之退化外衣力量之黑暗之血長靴力量之龍鷹便褲力量卷軸 V力量護手劣質平衡石劣質的石頭劣質砂輪劣質磨刀石劣質銅外衣劣質青銅胸衣劣質青銅護肩劣質青銅護腿劣質青銅長靴劫毀者肉勇士印記勇士火焰蛋白石勇氣蒸汽絞鍊圈勇猛肩衛勇猛胸甲勇猛護手勘察員束帶勘察員的靴子匕首沼地戰衣匕首沼地手套匕首沼地縫褲匕首沼地肩鎧匕首沼地腰帶匕首沼地長靴北郡戰錘匹瑞諾德披肩十字章千印之戒千禧之刃午夜腿甲午夜變換束帶卓越巫師之油卓越法力之油卓越長袍南海鎮運動鞋占兆師長袍占卜者外袍卡利斯瑞的三叉戟卡媚的天藍色裙子卡帕希特斯的測定披風卡德加的背包卡德加的鬍鬚卡拉伯爾勳章卡拉伯爾護符卡爾加的勳章卡爾古瑪之手卡雷苟斯之牙卡雷苟斯護符厄索克塑像厚亞麻繃帶厚幽紋繃帶厚德萊尼便褲厚德萊尼外衣厚德萊尼手套厚德萊尼長靴厚皮厚符文布繃帶厚絨線繃帶厚絲質繃帶厚重境外皮護甲片厚重境外皮革厚重的戰斧厚重的琥珀厚重的魔鋼戒指厚重的黃金卓奈石厚重的黎明石厚重護甲片厚青銅飛鏢厚魔紋繃帶厚魔鋼項鍊原始之擊外衣原始之擊腰帶原始之擊護腕原始之水原始之火原始大地原始暗影原始月布腰帶原始月布護肩原始月布長袍原始法力原始生命原始空氣原始精華原始虛空原浪護腕反叛者便鞋反射之刃受祝福的璽戒受祝福的納葛蘭之書受限制的薩菲隆精華叛節束腰叢林之鷹爪的靴子叢林之鷹爪腰帶古爾丹風帽古物寶庫鑰匙古羅王之斧古羅縫製束腰古老水晶護符古老符號長袍右手刃右手爪右手黃銅指虎司凱堤斯護手吉爾哈特遺失的足靴君王鎧甲腰帶君王鎧甲護腕君王鎧甲靴君王防衛者吞噬者披風吟游詩人外套吟游詩人手套否定手裏劍命運之錘哀傷之鏈肩鎧哀傷之鏈護手哀傷之鏈護脛哀傷之鏈頭盔哈伏克護腕哈剌戰鬥徽章哈剌研究徽章哈拉瑪德之眼哈拉瑪德的裹腿哈爾歐德的回春手鑽哥布林火箭發射器哨嘯之劍啟發者束腰善潔裂片善行手環喚星腿甲喚風者寶珠喪命草嗜血胸針嗜魂者寶珠嗜魂者裹手噩夢長靴噬屍獸鑄鐵護脛噬骨手套噬骨束腰噬骨皮披風噬骨護軀嚴寒之風披風回憶之戒圖樣:亮布披風圖樣:厚重境外皮革圖樣:奧紋護腕圖樣:奧紋長袍圖樣:寒冰護甲片圖樣:屠風者裹帶圖樣:戰放兜帽圖樣:戰鬥之鼓圖樣:法擊便褲圖樣:法擊兜帽圖樣:火鱗護腿圖樣:烈焰之心外衣圖樣:烈焰護甲片圖樣:爆烈守衛便褲圖樣:白癒便褲圖樣:白癒兜帽圖樣:眼鏡蛇鱗手套圖樣:秘法護甲片圖樣:粉紅魔紋襯衣圖樣:紅色毛紡包圖樣:紫色魔紋襯衣圖樣:綠色絲甲圖樣:藍色亞麻外衣圖樣:虛空裂蹄護腿片圖樣:裂蹄皮護腿片圖樣:重型裂蹄外衣圖樣:重型裂蹄護腿圖樣:重型裂蹄長靴圖樣:金色法術絲線圖樣:黑暗披風圖樣:黑色幼龍披風土靈夷平印記土靈徽記土靈皮護肩地下斗篷地化藥劑地幔裹手地擊胸甲地擊腰帶地擊護腕地根草地獄淬鍊護手地獄淬鍊護胸地獄淬鍊護腿地獄淬鍊長靴地獄火力量淨化物地獄火石地獄火織手套地獄火織護腿地獄火織長袍地獄火織長靴地獄火集會之靴地獄火骨葉地獄硬化手套地獄硬化護胸地獄硬化護腿地獄硬化長靴地獄鍛造手套地獄鍛造護腿地獄鍛造鍊衫地獄鍛造長靴地穴行者外套地穴行者戒指地穴行者手甲地穴行者束腰地穴行者肩甲地穴行者腕甲地穴行者腿甲地穴行者長靴地穴行者首盔地窖潛行者披風地精死亡射線坦然護胸埃古雷亞指環埃德薩拉斯皇家徽印埃蘭的舒緩藍寶石埃雷達爾忘卻法杖執法官腿甲基爾加丹印記堅信之戒堅固巨盔堅固的伊露恩之星堅固的平衡石堅固的石頭堅固的砂輪堅固的磨刀石堅固的藍月石堅固的鋯石堅定勇士盔帽堅毅護符堅決斗篷堅硬橡木長弓堅硬的琥珀堅硬的黃金卓奈石堅硬的黎明石堅鋼匕首堅鋼大槌堅鋼平衡石堅鋼斬斧堅鋼武器鍊堅鋼磨刀石堅鋼礦石堅鋼錠堅鋼鎧甲護腕堅韌的大地風暴鑽石堅韌藥劑報復手套報復手環報復肩鎧報復腕甲報復腰帶報復腿甲報復護軀報復長靴報復頭盔報怨聖契塑能師之匕首沼地手套塑能師之噬骨手套塑能師之報復護軀塑能師之崔互德手環塑能師之崔互德腰帶塑能師之崔互德長靴塑能師之崔互德風帽塑能師之日翼肩衛塑能師之昂布拉凡手套塑能師之海艾斯肩鎧塑能師之海艾斯護腿塑能師之退化長靴塑能師之遊俠之帽塑能師之黑暗之血便褲塑能師之黑暗之血首羽塑能師之龍鷹肩衛塑能師的救贖印記塔倫米爾活力小墜子塔倫米爾防衛者繫腰塔巴克皮肩甲塞司克神諭者披風塞司克羽毛飛鏢塞司克預言者項圈塞德的切肉刀塞納里奧戰爭角鷹獸塞納里奧腰帶塞納里奧護腕塞納里奧遠征外袍境外皮革境外護甲片墊甲便褲墊甲手套墊甲腰帶墊甲護腕墊甲靴墓地披風增長藥劑墮落之刃墮落之塵墮落之神之戒墮落之神咒符墮落之神披風墮落者神像墮落腰帶墮落鎧甲手套墮落鎧甲護腕士兵的識別證士官厚重披風士官厚重斗篷壯麗手套壯麗腰帶壯麗護肩夏日晴空外袍夏日烈焰外袍夏綠蒂的常春藤外域者之靴外域行者之靴外科醫生襯衣夜光的火焰蛋白石夜光的火石榴石夜光的皇家黃寶石夜景便褲夜景外套夜景護肩夜景長靴夜景頭帶夜暮腕甲夜梟之僧侶外套夜梟之劍客胸甲夜梟之崔互德肩鎧夜梟之拓荒者手套夜梟之拓荒者護腕夜梟之獵戶護肩夜梟之禁衛腕環夜梟之蠻皮盔帽夜梟之蠻皮盔帽夜梟之蠻皮盔帽夜梟之蠻皮護肩夜梟之蠻皮長靴夜梟之蠻皮長靴夜梟之衛戍護肩夜梟之退化長褲夜梟之遊俠護臂夜梟之遠征隊外套夜梟之野性護腿夜眼石夜色蟲夜間墊肩夢境之塵夢翼頭盔夢行者外套夢行者戒指夢行者手甲夢行者束腰夢行者肩甲夢行者腕甲夢行者腿甲夢行者長靴夢魘根大口徑短槍大地之血護胸大地微粒大地看守者大地靈魂護腿大地靈魂馬褲大型地鑄戰錘大型棕色科多獸大塊強光裂片大塊微光裂片大塊的熊肉大塊稜石裂片大塊蚌肉大塊蜥蜴肉大塊野豬肉大塊閃光裂片大塊魔光裂片大師之鑰大師級竊盜手套大師足靴大治癒者之紫羅蘭徽記大法師之帶大法師之紫羅蘭徽記大法師便褲大法師手鐲大法師長袍大繩網大蛋白石大術士的護符大酋長卡加斯之手大野狼的爪子大野狼的頭顱大錘天啟十字天堂之淚天行者外套天選印記太陽之井晶瓶太陽鳥聖禦盾失落兜帽失落手套失落肩甲失落長袍失落長褲奇異之塵奇異孢子奇美拉手套奈幽之眼奈德克斯手環奈薩斯火炬奈薩里奧之淚奈辛瓦里狩獵隊之棒奉獻綬帶奎克米瑞之眼奎克米瑞的手銬奢華的怨恨之靴奢華統治護腿奧多爾儀式裹腕奧多爾外袍奧多爾手套奧多爾肩鎧奧多爾遺產防衛者奧多爾靈魂魔杖奧多爾頭帶奧奇奈死亡罩氅奧奇奈法力藥水奧奇奈護腕奧奇奈鑰匙奧奇奈長靴奧妮克希亞龍牙墜飾奧斯雷的聖光引導器奧特蘭克山谷榮譽獎章奧金徽記手環奧金棒奧金錠奧金骷髏鑰匙奪心魔披肩媽媽的保險步槍孔雀石孤狼之昂布拉凡長靴孤狼之碎骨者上衣孤狼之蠻皮盔帽孤狼之退化護臂學徒襯衣學徒資格長袍宇宙生命指環守夜外套守衛手套守衛指環守衛者之箭守衛者鍊衫守衛肩鎧守護之甲守護便褲守護披風守護皮甲護腕守護聖徒長袍守護腰帶安寧之戒安寧光輝提燈安寧和祥提燈安東尼達斯的破斗篷安納斯提安之冠完美平衡斗篷宵小束腰家傳恢復徽記家傳意志力徽記容忍肩鎧密封命運束帶密蘇達爾，奪魂者的頭環寇達拉的藍色盾牌寒冰護甲片實心子彈審判者神聖冠冕審判者神聖手套審判者神聖護腿審判者防禦手甲審判者防禦肩衛審判者防禦腿甲寬劍寰宇邊際之鋒寶珠銘文寶石皮帶射手上衣射手的靴子射手肩墊射手腰帶射手軟帽射手長褲將軍懼紋布靴將軍懼紋腕輪將軍懼紋腰帶將軍月布腕輪將軍月布腰帶將軍月布軟靴將軍皮甲腰帶將軍皮甲護腕將軍科多獸皮腰帶將軍科多獸皮護腕將軍科多獸皮靴將軍絲質腕輪將軍絲質腰帶將軍絲質護足將軍綴甲腰帶將軍綴甲護脛將軍綴甲護腕將軍綴鱗腰帶將軍綴鱗護脛將軍綴鱗護腕將軍鍊甲脛甲將軍鎖甲束腰將軍鎖甲脛甲將軍鎖甲護腕將軍鎖鍊護腕將軍鎧甲腰帶將軍鎧甲護脛將軍鎧甲護腕將軍龍皮腰帶將軍龍皮長靴尊敬之華麗護腿尊貴的丹泉石尊貴的夜眼石尊貴的暗影卓奈石小型彈藥袋小塊強光裂片小塊微光裂片小塊稜石裂片小塊閃光裂片小塊魔光裂片小毒囊小紅帽披風尖牙手套屠殺紋飾屠殺綴鱗胸甲屠狼者狙擊步槍屠魔之靴屠魔藥劑屠龍大師之戒山地披風山地皮外衣山地皮手套山地護肩山脈之王傳說山貓之足山貓領主之野性面罩岩石怒火護腕岩鋼胸甲崇聖之錘崇聖寶石之靴崔互德手套崔互德手環崔互德肩鎧崔互德腰帶崔互德護軀崔互德長褲崔互德長靴崔互德風帽巡狩卓越披肩左手刃左手爪左手黃銅指虎巨人藥劑巨像之偶巨像之靴巨型綠寶石巨型鐵斧巨型黑錘巨斧巨猿之匕首沼地長靴巨猿之射手的靴子巨猿之日翼面罩巨猿之昂布拉凡外套巨猿之督軍鐵束腰巨猿之遊俠肩鎧巨猿之遠征隊外套巨獸之王護腿巨蛇束帶巨魔力量藥劑巨魔槌兵徽章巨魔殺戮者墜飾巨魔殺戮者指環巨魔殺戮者罩篷巨鯨之僧侶腰帶巨鯨之吟游詩人手套巨鯨之壯麗腰帶巨鯨之射手肩墊巨鯨之扭曲的匕首巨鯨之昂布拉凡肩衛巨鯨之督軍脛甲巨鯨之粗野外套巨鯨之艾德南腰帶巨鯨之蠻皮護腿巨鯨之酋長護腕巨鯨之黑暗之血腰帶巨鯨之黑暗之血護腕巨龍之爪巫士之大法師長袍巫士之破碎之手臂鎧巫士之艾德南腰帶巫師之油巫毒披風巫毒符咒巫毒面具巫集馬褲巫魅指環巴巴的秘法披風布洛克斯的勇氣之戒希斯手環希望持有者頭盔希望重燃護手希瑞的禮物帕薩里歐的投映器帝國丹泉石帝國勇士鍊衫帝王皮靴帶刺的藤條平衡的夜眼石平衡的暗影卓奈石幻影之塵幻象之塵幽紋之網幽紋便褲幽紋布幽紋布包幽紋手套幽紋繃帶幽紋腰帶幽網蜘蛛絲幽魂熊爪廉正之靴弒星首飾弱效助熔劑強力的大地風暴鑽石強力腰帶強化皮外衣強化皮帶強化皮手套強化皮褲強化皮護腕強化皮軟帽強化皮靴強大的厄索克頭罩強效不滅精華強效信念銘文強效劍刃銘文強效助熔劑強效寶珠銘文強效復仇銘文強效敏捷藥劑強效星界精華強效水下呼吸藥劑強效火力藥劑強效異界精華強效石盾藥水強效神諭銘文強效秘法精華強效秘法藥劑強效紀律銘文強效結界符文強效聰穎藥劑強效虛空精華強效防禦藥劑強效騎士銘文強效魔法精華強烈治療藥水強盜之匕首沼地肩鎧強盜之匕首沼地長靴強盜之噬骨手套強盜之噬骨束腰強盜之噬骨皮披風強盜之報復手套強盜之報復肩鎧強盜之報復腰帶強盜之報復腿甲強盜之報復護軀強盜之報復長靴強盜之報復頭盔強盜之天行者外套強盜之崔互德手套強盜之崔互德手環強盜之崔互德肩鎧強盜之崔互德腰帶強盜之崔互德護軀強盜之崔互德長褲強盜之崔互德長靴強盜之崔互德風帽強盜之日翼皮靴強盜之日翼肩衛強盜之日翼腰環強盜之日翼護臂強盜之日翼護軀強盜之日翼面罩強盜之昂布拉凡手套強盜之昂布拉凡束腕強盜之昂布拉凡軟帽強盜之昂布拉凡馬褲強盜之海艾斯之帽強盜之海艾斯手套強盜之海艾斯束腕強盜之海艾斯長靴強盜之琥珀指環強盜之碎裂腰環強盜之碎骨者上衣強盜之碎骨者手套強盜之碎骨者肩衛強盜之碎骨者腕甲強盜之碎骨者腰帶強盜之碎骨者長靴強盜之碎骨者顱帽強盜之碎骨者馬褲強盜之考格斯賓護目鏡強盜之裂蹄腰帶強盜之裂蹄頭罩強盜之裂蹄馬褲強盜之退化兜帽強盜之退化外衣強盜之退化手套強盜之退化護臂強盜之退化長褲強盜之遊俠之帽強盜之遊俠手套強盜之遊俠護臂強盜之遊俠長靴強盜之遠征隊便褲強盜之遠征隊兜帽強盜之遠征隊外套強盜之遠征隊護腕強盜之遠征隊長靴強盜之黑暗之血便褲強盜之黑暗之血手套強盜之黑暗之血肩衛強盜之黑暗之血腰帶強盜之黑暗之血護軀強盜之黑暗之血長靴強盜之黑暗之血首羽強盜之龍鷹之帽強盜之龍鷹外套強能護腿強襲精煉藥劑彈力尾巴毛彩色珍珠彩虹火焰蛋白石影皮手套征服者的指環征服者的束腰征服者的肩冑征服者的胸甲征服者的腿甲征服者的護手征服者腿鎧徘徊者護胸復仇外衣復仇者復仇者佩劍復仇者聖禦盾復仇者護甲片復仇裹布復原指環復甦手套復甦披風復發鑽石稜柱微光的琥珀微光的華麗黎明石微光的黃金卓奈石微光的黎明石微弱的秘法精華德萊尼智慧藥劑德萊尼水晶之刃德萊尼魔杖徽記披肩徽記腰帶徽記護胸徽記護腿徽記長靴心怒頭飾心火護腿心靈之火腰環心靈之火頭盔心靈專注之戒怒浪臂鎧怒浪長靴怒潮長弓怒火手持火砲怒爪護腕怒獸者風帽怒鋼護肩怒風腿甲怒風護胸怒風護腕怒風頭罩思維加速寶石恆星悲淚恆星淚水恆金巨盔恆金礦石恆金符文刃恐怖夢境之劍恐怖陷阱束腰恢復之風暴盾牌恨惡護腕悍勇功蹟束腰悍勇白金盾牌悔悟窄褲悔悟聖契惡毒手環惡潮褶裙惡潮護手惡潮護軀惡潮頭盔惡霸之靴惡魔之血除取者惡魔刻像惡魔平衡石惡魔捕獵者胸甲惡魔捕獵者腰帶惡魔捕獵者護腕惡魔毒牙儀式頭盔惡魔獵者巨盔惡魔皮肩甲惡魔皮靴惡魔磨刀石惡魔縫製護腿惡魔野豬輕皮鞋惡魔鯊魚斗篷意志環帶慧星衝擊慰藉給予者肩鎧憤怒之刃憤怒脛甲懲罰胸甲懺悔之錘懺悔騎士護脛戈魯爾之牙戈魯爾之眼成長便褲或然恆變披巾戰傷長靴戰槌戰槌護脛戰槌防衛者披風戰歌咆哮之斧戰歌峽谷榮譽獎章戰歌軍服戰爭之鼓戰爭使者戰爭使者戰甲護手戰爭使者戰甲護脛戰爭使者胸甲戰爭使者防禦巨盔戰爭使者防禦手甲戰爭使者防禦肩衛戰爭使者防禦腿甲戰爭使者防禦護胸戰爭使者鬥盔戰爭法杖戰爭貪欲墜飾戴比瑞之謎扇刃肩鎧手套強化片手工皮帶手工皮披風手工皮護腕手段護腕打鬥手套打鬥者甲冑扭曲分裂者之刺扭曲分裂者的剪枝扭曲幻象之刃扭曲甲蟲胸針扭曲的匕首扭曲行者頭盔扭曲鍛造鑰匙扭曲鱗片護腿抗毒藥劑拉托的移形長劍拋光的綠玉髓拓荒者墊肩拓荒者手套拓荒者指環拓荒者護腕拱狀護腕持劍者之靴振奮的大地風暴鑽石捕獵便褲", -- [4]
-		"捕獵者毒牙捕獸者襯衣探險者的手杖控火者手套提升高效胸針提里斯法權勢魔杖援助者鍊衫損壞的布帽損壞的布甲長靴搖晃之皮護胸搶奪者手套搶奪者指環摩克納薩爾之戒摩克納薩爾迷霧披風摩克納薩爾野獸面罩摩洛的幸運懷錶撒塔斯力量頸飾撒塔斯步靴撒塔斯裹帶撒塔斯護腿撕裂之心護符擊碎者護符支配墜飾支配指環敏捷之射手肩墊敏捷之拓荒者墊肩敏捷之蠻皮護腿敏捷之遠征隊束腰敏捷卷軸敏捷卷軸 V敏捷操作手套敏捷符咒敏捷藥劑敏捷頭飾救贖之保衛者印記救贖之殺戮者印記救贖之魂底鞋救贖者法杖教皇褶裙敵意披風斥候之箭斥候外袍斬首者斯博格爾外袍斯庫爾的蒼白之觸斯泰林的甲蟲殼新生鐵法杖新鮮的劫毀者之爪旋風護腕旋風鐵斧日怒徽章日怒鳳凰之弓日翼皮褲日翼皮靴日翼肩衛日翼腰環日翼護臂日翼護軀日翼面罩日耀焰光昂布拉凡外套昂布拉凡手套昂布拉凡束腕昂布拉凡肩衛昂布拉凡腰環昂布拉凡軟帽昂布拉凡長靴昂布拉凡馬褲明亮的小珠明亮的琥珀明亮的紅玉明亮的血石榴石明亮的黃金卓奈石明亮的黎明石明晰披風星光匕首星光護手星心提燈星移工程師之稜彩項鍊星辰行者腿甲星風圖騰時光之鑰時光守望者外袍時光守護者護腿時光流逝裂片時間信號燈時間行者束腕時間轉移斗篷晨星普瑞斯托的陰謀飾物普通的棕襯衣普通短斧普通長袍晶鑄戰斧智力之元素師護腿智力之劍客腰帶智力之匕首沼地縫褲智力之噬骨手套智力之大法師便褲智力之射手軟帽智力之怒爪護腕智力之歹徒繫腰智力之碎骨者手套智力之禁衛束腰智力之蠻皮護肩智力之豪華之冠智力卷軸 II智力卷軸 V智慧精煉藥劑智慧藥劑暗夜守衛者暗夜毒物護符暗影之力藥劑暗影之鷹爪的靴子暗影卓奈石暗影微粒暗影撕裂長刃暗影深處之戒暗影石暗影議會腰帶暗影足跡行者之靴暗影邪惡面罩暗影防護之報復護軀暗影防護之昂布拉凡長靴暗影防護之碎骨者上衣暗影防護之退化外衣暗影防護之遠征隊肩衛暗影防護之龍鷹腰帶暗擁披肩暗殺外套暗殺纏手暗殺肩墊暗殺護腿暗殺頭盔暗示護腿暗色皮帶暗色皮甲暗色護腕暗色長靴暗飛箭暮色居民披肩暴力機會算盤暴君印記暴掠戰刃暴掠暗影褶裙暴風之眼榮譽獎章暴風之觸手套暴風圖騰曠野圖騰曲能灌注外衣曼紐的綴鱗護腿月光林地便褲月光林地裹手月光林地護肩月光林地長袍月光林地風帽月兒護腿月怒束腰月梟頭飾月爪肩鎧月神的象牙塑像月行者之靴月觸手環月鋼寬劍有光澤的小珍珠有光澤的絲質長袍有限無敵腰帶望遠鏡刺耳火槍木柴未經辨認的植物組織末日戰甲肩衛末日戰甲腿甲末日戰甲護手末日戰甲護胸朱紅支配長袍杜洛坦的戰鬥背心杜羅硬板靴束縛指環林格的暴風雪長靴果決面甲柏爾拉克的勇氣腰帶染血的毒牙柔光綠玉髓核心手套桑朵先生的知名獵槍梅爾摩塔之微光長弓棍子上的胡蘿蔔棕嘯護腕棕色亞麻襯衣森林之心護腕森林之王行者之靴森林之王頭冠森林之風肩墊森林漫步者褶裙森林皮披肩森林追蹤者肩冑極地波流頸飾極堅不壞項鍊極堅刻像極堅強弩極強效治療石極強效治療石極強效法術石極強效靈魂石極效作戰治療藥水極效作戰治療藥水極效作戰治療藥水極效作戰治療藥水極效作戰法力藥水極效作戰法力藥水極效作戰法力藥水極效作戰法力藥水極效冰霜之力藥劑極效力量藥劑極效堅韌藥劑極效敏捷藥劑極效暗影之力藥劑極效法力藥水極效防禦藥劑極效魔血藥劑榮譽堡印記槲寄生樹幹戒指樹林修補者腰帶樹林修補者長手套樹皮碎片長靴橘色染料橘色軍用襯衣橘色魔紋襯衣檢驗之鍊次等夏阿爾德之劍次級不滅精華次級巫師之油次級敏捷藥劑次級星界精華次級月亮石次級法力之油次級異界精華次級石盾藥水次級秘法精華次級結界符文次級虛空精華次級魔法精華欺瞞偽裝欺詐者之手欺詐者面罩歌唱水晶之斧歐夏剛水晶粉末樣本歐夏剛聖物歐朗諾克的力量之薯歐朗諾克的敏捷之薯歐瑪爾的不屈意志正義之手正義之路之靴正義力量聖契正義尋求者肩鎧正義徽章正義紅寶石頭盔正義背負者肩鎧正義護腕歹徒繫腰歹徒護腕死亡注視者手套死亡降臨者死草根死靈束腰殉難者之戒殉難者精華殘暴雕紋殘酷意念護手殲滅血長袍殺戮者護腰毀滅的天火鑽石毒帽真菌毛料毛皮護甲片水上行走藥劑水下呼吸藥劑水光燈籠水手襯衣水晶之心搏動法杖水晶勇氣指環水晶瓶水晶脈搏盾牌水源微粒永恆之手永恆之謎神諭腰帶永恆修復者指環永恆勇士指環永恆希望項鍊永恆痛楚重肩甲永恆聖人指環永恆防衛者指環永歌腕輪永生玉戒永生者披風永生黑夜之杖污損的巨刃劍沉睡之索沉睡者頭飾沉著軟靴沉重的樹幹沉重的石頭沉默之刃束帶沉默行者長靴沙丘之風束帶沙爾圖拉的力量油布馬褲治療之日翼護軀治療之漫遊者腰帶治療之艾德南手套治療能量藥劑治療藥水注射器治癒大雨圖騰治癒藥水沼澤暗色披風沼牙長靴沼石項鍊沼蘚法力奔騰墜飾法力微粒法力恢復精煉藥劑法力氛圍肩衛法力火花手套法力綠寶石法力蝕刻之冠法力蝕刻手套法力蝕刻窄褲法力蝕刻肩甲法師之怒束腰法擊便褲法擊兜帽法術投擲保衛者泥沼搶奪者泥沼脊椎指節泥沼行者腰帶泥沼長靴泥沼閃擊鱗片披風泰利之力手套泰坦精煉藥劑泰拉寶石泰拉蕊狩獵束腰泰洛克的傳說泰洛卡精密石板泰洛卡精神石板泰瑞斯提安抑制法杖洛卡米爾·伊洛曼希斯洞察之火花頭飾洞察的大地風暴鑽石洞察霸主盔帽活效藥劑活根草流亡護胸流動思慮頸飾流動思緒裹手浪峰行者之靴海法師裹頭海洋之歌褶裙海洋之眼海艾斯上衣海艾斯之帽海艾斯手套海艾斯束腕海艾斯肩鎧海艾斯護腿海艾斯長靴海蛇牙項鍊淚滴的生命紅寶石淚滴的紅玉淚滴的血石榴石淨光裁決槌淨化過的德萊尼水淨純法杖深冬之寒罩氅深怒護腕深沉黑暗之盾深流背心深淵之心護手深淵領主的背包深綠秘銀披風深雷混沌的天火鑽石清晰夢境護腕清晰的生命紅寶石清晰的紅玉清晰的華麗紅寶石清晰的血石榴石源質哨兵指環漂白液漫遊者腰帶漿鼠超長鐮刀潘札薩爾胸甲潛藏禮袍激烈的伊露恩之星激烈的藍月石濃煙山脈之心灌注之影藤披風灌能火焰蛋白石灌能的夜眼石灌能的暗影卓奈石灌魔之瓶火刃信徒繫腰火刃祭司指環火力藥劑火喉之攫火山胸甲火山護腿火星完美護手火炬戰斧火焰之王的頸飾火焰微粒火焰試煉長褲火焰防護之崔互德長褲火焰防護之昂布拉凡手套火焰防護之碎骨者顱帽火焰防護之遠征隊兜帽火焰防護之遠征隊外套火焰防護之遠征隊護腕火焰防護之黑暗之血手套火焰防護之黑暗之血護腕火焰防護之黑暗之血護軀火焰頭盔火焰風暴之法師頭帶火石榴石火石草種子火石護肩火箭靴極限版火舌封印火花珊瑚指環火鑄之鑰灰白上衣灰色染料灰色毛紡襯衣灰色護腿灼熱日光之刃炫彩披風炫彩長袍炫彩長靴炫彩驚奇精煉藥劑烈性火藥粉烈焰之心護腕烈焰守衛護手烈焰護甲片烏伏洛斯的火鬃烏瑞恩王朝護脛烏瑟決心之盔烏索指環烏鴉之心頭飾烏鴉之翼收割斧烏鴉護衛印記無報之刃無情刀刃肩墊無情風暴之戒無應禱言指環無法寬恕之罪披風無畏戒指無畏肩鎧無疤秘銀指環無疤者鐐銬無盡圈套束腰無盡怒氣頭盔無盡狩獵之靴無盡痛苦腰帶無盡祝福手鐲無盡突襲護腿無盡迴圈寶石無罪腿鎧無罪風帽無限可能珠寶無限奧義法杖焰刃劍煙燻塔巴克鹿肉煤塊煽動者披風熊皮護腕熔岩大地褶裙熔岩羽飾靴熔岩肩鎧熔核犬皮腰帶熔鑄戰錘熾炎戰馬韁繩燃燒之花燃燒正義頭盔燃燒長袍燃石戰鬥束腰燒焦的書頁燒焦的臂鎧燦爛的泰拉寶石燦爛的翠綠橄欖石燻黑的骨灰甕爆烈守衛長靴爐石爪形塑像爪形頭盔爭鬥者鱗片護腿牧民編織披風特堅鋼錠狂怒灌注護手狂怒獵人面具狂戰士的吶喊狂暴靈魂背心狂熱之靴狂熱項鍊狂野之力狂野德萊尼外衣狂野德萊尼手套狂野德萊尼護腿狂野德萊尼長靴狡詐護腿狼爪狼爪手套狼爪項鍊狼首頭盔猛擊藥劑猛虎之淨純法杖猛虎之眼鏡蛇短刃猛虎之退化肩衛猛虎之酋長手套猛虎之野性手套獅子胸甲獅心之刃獅心勇士劍獅心束腰獅王之力藥劑獅皮護甲獨心頭飾獵人火槍獵戶腰帶獵戶護肩獵捕者戰鬥手環獵頭者毛褲獵鷹之兇猛外衣獵鷹之崔互德護軀獵鷹之日翼皮靴獵鷹之灰白上衣獵鷹之黑暗之血肩衛玉晶匕首玉顱胸甲王子的激發之刃王者印記珊瑚珠鍊珍珠匕首琥珀指環琥珀斗篷瑞格貝托的帽子瑟銀盾刺瑟銀礦石瑟銀編織披風瑟銀錠瑪拉達爾的祝福念珠瑪格哈全麥麵包瑪格哈利憤怒烙印瑪格哈利督軍腿鎧瑪洛尼儀祭手甲瑪洛尼儀祭腿甲瑪洛尼戰馭護脛瑪洛尼戰馭鹿盔瑪瑟里頓之眼瑪瑟里頓之首瑪瑟里頓之首瓦拉諾斯長弓瓶裝地獄土壤瓶裝大魔精甜香料生命圖騰生命微粒生命紅寶石生命背負者護手生命胸甲生命花環生命護肩生命護腿痛苦指環瘟疫蝙蝠皮手套發光的丹泉石發光的夜眼石發光的孢子發光的暗影卓奈石發光的火焰蛋白石白癒便褲白癒兜帽白色劍客襯衣白蹄護手白閃菇白雄鹿護腕白骨枷鎖項鍊皇家的夜眼石皇家的暗影卓奈石皇家黃寶石監督者徽記盤蛇束帶盲目之光精煉藥劑盲目草看守者之爪真實束腰真銀棒真銀礦石真銀錠真銀骷髏鑰匙真龍腕甲眼鏡蛇皮護腿片眼鏡蛇短刃眼鏡蛇鱗睡夢肩墊睡夢龍杖督軍的論述督軍脛甲督軍護胸督軍鐵束腰督軍鐵頭盔睿智的厄索珥頭罩矇矓的死亡面罩矇矓的火石榴石矇矓的皇家黃寶石短刃重劍石化樹幹上衣石化蜥蜴皮褲石守衛的紋章石楠皮靴石片晶體破化甲殼破壞者沙漏破天者之靴破志者破損的岩石鐮奪怪之爪破損的長弓破碎之手腰帶破碎之手臂鎧破碎大廳鑰匙破碎撕掠者護腿破裂的甲殼硝化便褲硝化外衣硝化手套硝化腰帶硝化護腕硝化長靴硬甲皮碎心家族外套碎心肩甲碎手腿甲碎裂綠玉髓碎裂腰環碎骨者上衣碎骨者手套碎骨者肩衛碎骨者腕甲碎骨者腰帶碎骨者長靴碎骨者顱帽碎骨者馬褲碧火殲滅手套磨損的斧頭磨損的鎖甲長靴礦工鋤祖母綠皇后塑像祖爾金之血祖魯希德的鑰匙祝福之鱗束腰祝福滿盈束腰神力之怒神化華麗之靴神射手的弓神射手的腰帶神射手的腿甲神秘法術絲線神秘火焰蛋白石神秘的黎明石神秘紅寶石披氅神秘長褲神聖之塵神聖儀祭之冠神聖儀祭服飾神聖儀祭肩鎧神聖儀祭裹手神聖儀祭長褲神聖導注法杖神聖權威衣飾神聖治療指環神聖狂熱腿鎧神聖符印神聖蠟燭神諭銘文祭師之報復手套祭師之報復護軀祭師之崔互德風帽祭師之日翼皮褲祭師之碎骨者手套祭師之碎骨者馬褲祭師之退化兜帽祭師之退化肩衛祭師之遊俠便褲祭師之遠征隊外套祭師之龍鷹便褲禁法者風帽禁衛束腰禁衛腕環禍根束腰秋天披肩秘典:秘法光輝 II秘典:造食術 VIII秘法之扭曲法杖秘法寶典秘法幻象束帶秘法懲戒之獵頭者毛褲秘法懲戒之碎骨者馬褲秘法懲戒之衛戍束腰秘法懲戒之遠征隊長靴秘法狂怒肩鎧秘法符文秘法純淨盔帽秘法結界雕紋秘法藥劑秘法虛空指環秘法防護之日翼護軀秘法防護之碎骨者顱帽秘法防護之考格斯賓護目鏡秘法防護之黑暗之血手套秘法防護之黑暗之血護軀秘法防護之黑暗之血首羽秘銀盾刺秘銀礦石秘銀重斧秘銀重靴秘銀錠秘銀頭巾秘銀馬刺秘銀鱗片便褲移形披風移形的丹泉石移形的夜眼石移形的暗影卓奈石移形者徽記稜石球體穩固手甲穩固的泰拉寶石穩固的綠玉髓空氣微粒空瓶競技場之寬刃競技場宗師飾物競技場護腕競賽者外袍符文堅鋼魔棒符文奧金棒符文布符文布繃帶符文恆金棒符文撫慰匕首符文法術絲線符文的生命紅寶石符文的紅玉符文的華麗紅寶石符文的血石榴石符文皮甲便褲符文皮甲腰帶符文皮甲護手符文皮甲護肩符文皮甲護腕符文皮甲頭帶符文真銀棒符文線符文菌帽符文表面的綠玉髓符文金棒符文銀棒符文銅棒符文錘符文魔鐵棒第三塊鑰匙碎片粉碎大地戒指粉碎大地束腰粉碎大地肩甲粉碎大地腕甲粉碎大地腿甲粉碎大地長靴粉碎大地首盔粉碎者護脛粉紅染料粗暴的丹泉石粗糙之爪粗糙的披肩粗糙的石頭粗絲線粗線粗製平衡石粗製砂輪粗製磨刀石粗野外套粘糊的蜘蛛腿精巧的生命紅寶石精準之守衛者指環精準彈丸精準手甲精準那魯腰帶精神之日翼腰環精神之蠻皮護腿精神之裂蹄腰帶精神卷軸 II精神卷軸 V精緻的生命紅寶石精緻的紅玉精緻的血石榴石精良平衡的弩精華灌注的月亮石精華集中器精通藥劑精靈之哨紀元修補權杖紀元私語繫腰紅寶石紅寶石軟靴紅玉之冠紅色亞麻襯衣紅色劍客襯衣紅色染料紅色皮包紅龍保衛者紋章肩甲納斯雷茲姆心靈之刃納特·帕格的極限釣魚竿FC-5000型納葛蘭櫻桃純化魔法手環純淨死亡精煉藥劑純淨的暗影珍珠純淨的鋸齒珍珠純潔之心無垢披風純焰精華純種羽毛頸飾索奎薩爾束腰索爾瑪印記索爾瑪外袍索爾賓的超級壓縮器索瑞達爾，眾星之怒紫羅蘭之眼墜飾紫羅蘭徽章紫羅蘭徽記紫羅蘭徽記紫羅蘭徽記紫羅蘭徽記紫羅蘭徽記紫羅蘭徽記紫羅蘭徽記紫羅蘭徽記紫羅蘭徽記紫羅蘭徽記紫羅蘭徽記紫羅蘭高塔之戒紫翠玉戒指紫色染料紫衫魔杖紫鋰輝石項鍊細束帶細線終結者之劍結實的繩索結晶短彎刀結晶腕輪結構圖:法力藥水注射器結構圖:火箭靴極限版結構圖:穩固恆金瞄準鏡結構圖:綠色煙霧照明彈結構圖:輕巧型火箭靴極限版絕佳的黃金卓奈石絕佳的黎明石絕對黑暗之靴絕望之劍絢麗火焰蛋白石絨線繃帶統率頭帶統轄指環統轄罩氅絲綢絲線絲質繃帶綑綁套索經絡鬼靈指環綠寶石匕首綠瑪瑙綠色伊利達瑞戰利外袍綠色冬帽綠色哈卡萊寶石綠色守衛者窄褲綠色幼龍護腕綠色手套綠色染料綠色皮帶綠色皮甲綠色皮護腕綠鐵護腕綠鐵護腿綠鐵鍊衫綠鐵頭盔綴鱗皮甲長靴緊急鐵行者之靴緋紅辛多雷長袍緻密平衡石緻密戰爭法杖緻密的石頭緻密砂輪緻密磨刀石繁花塑像繼承之斧罪人眼罩羅恩格隆，碎心之弓羅慕歐的毒藥瓶羊毛披肩翠綠橄欖石翡翠翡翠之眼翡翠之眼護腕考格斯賓護目鏡耐久的泰拉寶石耐久的翠綠橄欖石耐久軟帽耐力之崔互德長褲耐力之海艾斯手套耐力之蠻皮外衣耐力之退化手套耐力之遊俠長靴耐力之遊戲獵人步槍耐力之野性輕鞋耐力卷軸耐力卷軸 II耐力卷軸 V耐性綴鱗護脛耐祖奧酋長綸巾耳語屠殺之刃耶維爾的瓶子聖使祝福手套聖儀鬥棍聖光之觸捨己披肩聖光之觸胸甲聖光之誓大錘聖光刻劃手環聖光捆縛者胸甲聖光正義之錘聖光背負者的信念盾牌聖典:暗影防護禱言II聖力手套聖潔蠟燭聖軀儀祭神光頭帶聖軀儀祭裹手聯合團王子的腰帶聯結水晶肯瑞托大師長褲背叛套索胡力歐指環胸墊甲能量之日翼肩衛能量之蠻皮護腿能量之蠻皮護腿能量之黑暗之血首羽腐朽皮手套腐朽皮肩墊腐朽皮腰帶腐朽皮護甲腐朽皮護腕腐朽皮長靴腐蝕鎖甲手套腐蝕鎖甲腰帶腐蝕鎖甲頭環膽量臂鎧自然之怒法杖自然之息衣飾自然之擁之靴自然仁慈胸針自然侵略馬褲自然光輝馬褲自然懲戒之報復護軀自然懲戒之碎骨者肩衛自然懲戒之蠻皮護肩自然懲戒之退化手套自然懲戒之退化長靴自然懲戒之黑暗之血手套自然懲戒之龍鷹之帽自然氣息風帽自然生計之索自然結界雕紋自然護甲片自然防護之匕首沼地戰衣自然防護之噬骨護軀自然防護之報復手環自然防護之碎骨者上衣自然防護之碎骨者腰帶自然防護之碎骨者馬褲自然防護之考格斯賓護目鏡自然防護之裂蹄馬褲自然防護之遠征隊長靴自然防護之雄鹿皮縫製腰帶自然防護之黑暗之血護腕自然防護之黑暗之血長靴自然防護之龍鷹手套自由行動藥水至尊二戒致命的細短劍致殘毒藥 II舒心草舒適的皮帽艾利之弓", -- [5]
-		"艾奧那斯的沙漏艾弗林的殺戮戒指艾德南便褲艾德南手套艾德南手鐲艾德南腰帶艾斯炎的禮物艾澤拉斯鑽石艾胡恩的冰霜鐮刀艾蘭里亞罩盔苦工睡眠藥水苦楚精華苦澀仇恨護符苦行面罩英氣秘銀項鍊英豪束腰茲偉雙手劍荊棘藻荊棘護腿荊棘谷的青山 - 第10頁荊棘谷的青山 - 第11頁荊棘谷的青山 - 第14頁荊棘谷的青山 - 第16頁荊棘谷的青山 - 第18頁荊棘谷的青山 - 第1頁荊棘谷的青山 - 第20頁荊棘谷的青山 - 第21頁荊棘谷的青山 - 第24頁荊棘谷的青山 - 第25頁荊棘谷的青山 - 第26頁荊棘谷的青山 - 第27頁荊棘谷的青山 - 第4頁荊棘谷的青山 - 第6頁荊棘谷的青山 - 第8頁荒蕪魔杖荒行外套荒行手套荒行肩墊荒行護腿荒行頭盔莫克辛匕首莫卡爾的戰爭頭盔莫爾墨的低語莫爾墨的精華華貴保護首飾華貴的丹泉石華麗短槍萊庫血手環葉鬚指環葛洛姆特的斧頭蒸汽坦克遙控器蓄湖之鑰薩堤亞自我懲戒護手薩塔外袍薩塔式護脛薩塔式護臂薩塔復仇者護腰薩塔的侵略者印記薩塔的特技員印記薩塔的降神師印記薩塔紋章盾薩希斯手套薩拉斯遊俠護手薩格拉斯印記薩法爾之奈薩斯號角薩瑞尼斯謎樣的華服薩維亞短劍薩菲隆之翼骨藍寶石藍月石藍色染料藍色蜂鳥指環藍色輕刃藍鑽石女巫魔杖藐視風帽虎爪護符虎眼石虐待者項圈虔誠之堅護者指環虔誠之靴處決者的外衣虛無之心手套虛無之心頭冠虛無之火焰魔杖虛無圖騰虛無水晶虛無球體虛空之刃手套虛空之刃長褲虛空之刃面罩虛空之力胸鎧虛空之怒斗篷虛空之翼保衛者之盾虛空之翼魔杖虛空外衣虛空核心之支配魔棒虛空眼鏡蛇護腿片虛空術師寶典虛空裂片束腰虛空裂蹄護腿片虛空風暴護脛虛空飛鏢虛空龍鱗蛇峰生命法杖蛇鱗手套蛇鱗披風蛇鱗腰帶蝕刻火焰蛋白石蝕骨灰螢光丹泉石蟲群守衛徽章蠍蟲墊肩蠍蟲手套蠍蟲軟靴蠢人毒藥蠻力肩鎧蠻力藥劑蠻橫塑像蠻皮外衣蠻皮披風蠻皮盔帽蠻皮護肩蠻皮護腿蠻皮長靴血之谷戰錘血吼之斧血喉魔導師之刃血拳腿鎧血染的精靈戰鬥外衣血槌蠻禁烈酒血沸毒藥血火大法杖血石榴石血紅木槿血藤鏡片血誓戰靴血鑄防護血領主腿鎧血騎士外袍血騎士戰爭披風血騎士防衛者衛戍束腰衛戍胸甲衛戍護肩衛戍長褲衝擊彈藥衝擊束腰衝突滋長窄褲被詛咒的魔刃裂縫分裂者裂蹄皮上衣裂蹄皮護腿裂蹄皮護腿片裂蹄肋排裂蹄肩衛裂蹄腰帶裂蹄頭罩裂蹄馬褲褻瀆之靴褻瀆諸界手甲觀察者風帽角樹種子角瓶虛空噴劑角瓶虛空能量劑解放手套訕笑骷髏戰爭背心設計圖:冰霜守衛胸甲設計圖:冰霜守衛護腿設計圖:冰霜守衛頭盔設計圖:凱麗之薔設計圖:堅固的伊露恩之星設計圖:堅硬的黎明石設計圖:堅鋼匕首設計圖:堅鋼大槌設計圖:堅鋼平衡石設計圖:堅鋼斬斧設計圖:堅鋼磨刀石設計圖:堅鋼細劍設計圖:堅鋼胸甲設計圖:堅鋼魔棒設計圖:夜眼石獵豹設計圖:尊貴的夜眼石設計圖:強力的大地風暴鑽石設計圖:強效結界符文設計圖:戰爭之黃金項鍊設計圖:振奮的大地風暴鑽石設計圖:烈焰毀滅頭盔設計圖:生命紅寶石巨蛇設計圖:眾刃之石設計圖:秘法護盾戒指設計圖:自然守衛設計圖:衝擊之蛋白石項鍊設計圖:野性看守者胸甲設計圖:野性看守者護腿設計圖:野性看守者頭盔設計圖:閃爍的火石榴石設計圖:閃爍的皇家黃寶石設計圖:雕刻的火石榴石設計圖:雕刻的皇家黃寶石設計圖:霜炎墜飾設計圖:魔鋼護腿設計圖:黎明之擁詛咒骸骨迴圈誓絕之卡德加褶裙調諧水晶核諾姆瑞根自動格擋器600型諾斯冰心謝爾曼納偉大之戒警戒之心之靴變黑的長矛豐饒孢子豪族手環豪族束腰豪華之冠貓眼藥劑貓頭鷹護腕貓鼬藥劑貞潔先驅者臂鎧貴族闊劍費茲的擲斧資深士官徽記資深士官徽記資深士官徽記資淺技師第三級手套贊達拉占兆師鍊衫贖救靈魂聖契赤紅指令長袍赤紅狂怒指環赤紅絲質護肩赤紅鍛造胸甲赤紅陰暗護腕赤紅飛行肩鎧赤色便褲赤色外衣赤色手套赤色的帽子赤色腰帶赤色護腕赤色長靴超低溫寒冰反射器超光學偵測護目鏡超強巫師之油超強效治療藥水超強效法力藥水超強法力之油超強護腿超強防禦藥劑超級能量精煉藥劑超視覺護目鏡跌打草躲藏護脛車夫家族傳家寶軍團士兵鎧甲護腿軍團士兵鎧甲鍊衫輓歌之刃輕型護甲片輕巧型火箭靴極限版輕巧的皮手套輕彈丸輕煤鑄之錘輕皮輕皮便褲輕皮護腕輻光的泰拉寶石輻光的綠玉髓輻光的翠綠橄欖石辛多雷寶珠辛多雷黃金之杖辛瑞克護腕辣椒迅影護腕迅捷之靴迅捷白色陸行鷹迅捷的天火鑽石迅捷紅色雙足飛龍迅猛龍皮背心迅猛龍肋骨迅鋼手套迦羅娜的璽戒迫近末日之弩迴避之靴迷霧蘆葦之靴追蹤者外套追蹤者的腰帶退化之索退化兜帽退化外衣退化手套退化肩衛退化護臂退化長褲退化長靴透明光柱指環逝往勇士手套逝往勇士護胸逝往勇士頭盔逝往英雄手套逝往英雄肩鎧逝往英雄護胸逝往英雄護腿逝往英雄頭盔逝往防衛者手套逝往防衛者護胸逝往防衛者頭盔逝者聖契造弓師手套連續之刃遊俠之帽遊俠便褲遊俠手套遊俠肩鎧遊俠腰帶遊俠護臂遊俠長靴遊俠領主外套遊戲獵人步槍達拉然暗影披風達斯雷瑪之冠達斯雷瑪防禦之戒遠古德萊尼戰爭護符遠征隊便褲遠征隊信號彈遠征隊兜帽遠征隊外套遠征隊施法者指環遠征隊束腰遠征隊肩衛遠征隊護腕遠征隊長靴遠行者迷惑披風遠行者防禦披風遺忘保衛者護腕遺忘征服者護腕遺忘防禦者護腕遺棄者幻象之劍邊地疼痛之握邊緣行者長靴那魯之錘那魯光明護衛指環那魯祈福風帽邪惡女巫之帽邪惡意圖頸飾邪惡束腰邪惡的火石榴石邪惡的皇家黃寶石邪惡皮甲邪惡皮甲便褲邪惡皮甲腰帶邪惡皮甲護手邪惡皮甲護腕邪惡皮甲頭帶邪惡鍊甲護腕邪笑面甲邪齒除取者部落便褲部落勳章部落勳章部落勳章部落勳章部落勳章部落勳章部落勳章部落勳章部落勳章部落徽記部落徽記部落徽記部落徽記部落徽記部落徽記部落徽記部落徽記部落戰旗部落護符酋長手套酋長的披肩酋長護腕配方:原始之水轉化原始空氣配方:地化藥劑配方:智慧精煉藥劑配方:極效自然防護藥水配方:毀滅藥水配方:自由行動藥水配方:貓鼬藥劑配方:超級能量精煉藥劑配方:轉化原始力量配方:轉化大地風暴鑽石醫師之大法師手鐲醫者的森林法杖重型土靈手套重型幽紋之網重型秘銀胸甲重型秘銀護手重型秘銀護肩重型裂蹄外衣重型裂蹄護腿重型裂蹄長靴重型護甲片重平衡石重彈丸重皮重砂輪重磨刀石重銅大槌重銅寬劍野人手套野人裹腿野人護肩野人護腿野人鐵頭盔野性之心手套野性之皮野性手套野性護腿野性輕鞋野性靈魂上衣野性魔法肩鎧野熊之匕首沼地戰衣野熊之匕首沼地長靴野熊之報復肩鎧野熊之報復長靴野熊之壯麗護肩野熊之崔互德護軀野熊之崔互德風帽野熊之日翼皮褲野熊之琥珀斗篷野熊之裂蹄皮上衣野熊之追蹤者外套野熊之退化長褲野熊之黑暗之血腰帶野獸之報復長靴野獸之天行者外套野獸之崔互德腰帶野獸之崔互德風帽野獸之征服者的護手野獸之杖野獸之海艾斯手套野獸之王手甲野獸之王披肩野獸之王胸衣野獸之王護腿野獸之王頭盔野獸之珊瑚珠鍊野獸之督軍鐵束腰野獸之督軍鐵頭盔野獸之裂蹄腰帶野獸之裂蹄頭罩野獸之退化之索野獸之退化兜帽野獸之退化外衣野獸之退化手套野獸之龍鷹外套野獸之龍鷹腰帶野獸暗影塑像野獸深淵肩鎧野生塑像野生棘根草野生漿果野生羽蔓野蠻巨魔僧侶披風野行者之靴野豬之崔互德手套野豬之短刃重劍野豬之碎骨者肩衛野豬之裂蹄腰帶野豬之龍鷹長靴量子刃金度的邪眼金棒金礦石金羅克，偉大的天啟之劍金色法術絲線金藤裹帶金邊符印之靴金錠金骷髏鑰匙金鱗護腕釘甲便褲釘甲外衣釘甲帽釘甲手套釘甲腰帶釘甲護腕釘甲長靴針葉飛鏢鉛瓶銀手之戒銀月保持者肩墊銀月羽飾盾牌銀棒銀礦石銀色弦月塑像銀色法術絲線銀色長袍銀錠銀骷髏鑰匙銀鱗胸甲銅斧銅棒銅礦石銅質匕首銅質巨刃劍銅質戰斧銅質短劍銅質符文便褲銅質符文腰帶銅質符文護手銅質符文護腕銅質護腕銅質釘錘銅質鍊甲便褲銅質鍊甲腰帶銅質鍊甲長靴銅錠銘文皮便褲銘文皮帶銘文皮靴銳利的短劍鋒利之牙鋸齒珍珠鋸齒的泰拉寶石鋸齒的綠玉髓鋸齒的翠綠橄欖石鋸齒花瓣鋸齒蚌鋸齒蚌肉鋸齒青褐墜飾鋼刺面甲鋼質武器鍊鋼質胸甲鋼質頭盔鋼錠鋼鷹之弩錫礦石鍊金石鍍銀青銅護手鍍銀青銅長靴鍍陽護肩鐵傷子彈鐵刃護手鐵匠之錘鐵底重靴鐵扣環鐵木種子鐵礦石鐵羽胸甲鐵膚藥劑鐵質平衡錘鐵質盾刺鐵錠鐵龍面甲鑲帶頭盔鑲邊便褲鑲邊帽鑲邊手套鑲邊法葬長靴鑲邊神秘斗篷鑲邊腰帶鑲邊護甲鑲邊護腕鑲邊長靴鑽石核心大錘鑿顱者護腿長者之雄鹿皮縫製腰帶長途行者戒環閃亮火焰蛋白石閃亮的伊露恩之星閃亮的藍月石閃亮的鋯石閃亮的魚鱗閃光火焰蛋白石閃光的生命紅寶石閃光秘法戒指閃光粉閃爍光環披風閃爍的火焰蛋白石閃爍的火石榴石閃爍的皇家黃寶石間諜便褲間諜的披風間諜首領腕甲防禦之僧侶腰帶防禦之破碎之手腰帶防禦之退化肩衛防禦之黑暗之血便褲防禦之黑暗之血護軀防禦寶典防禦精煉藥劑防禦藥劑防衛者的丹泉石防衛者雕紋阻斷之力阿卡瑪的束帶阿古斯式羅盤阿基迪羅斯的清算之戒阿奇爾森的爪刃阿拉卡羽毛阿拉希盆地榮譽獎章阿拉希督軍之戒阿拉希諸王皇家披風阿曼尼懲戒之錘阿薩斯的禮物阿達歐的命令阿達歐的恢復項鍊阿達歐的禮物阿達歐的防禦徽記阿達歐胸鎧附魔師之靴附魔瑟銀刃附魔瑟銀錠附魔瑟銀項鍊附魔瑟銀頭盔附魔皮附魔裂蹄長靴降落傘披風陰影厄運之戒陰鬱城祈禱者之書隱匿千里眼盔帽隱匿意圖護胸隱密注視之眼隱秘夢境之戒隱秘神殿手套隱身藥劑雀鷹捕網雄鷹之兩刃斧雄鷹之匕首沼地腰帶雄鷹之吟游詩人外套雄鷹之射手上衣雄鷹之射手的靴子雄鷹之射手長褲雄鷹之崔互德肩鎧雄鷹之日翼面罩雄鷹之艾德南便褲雄鷹之虛空風暴護脛雄鷹之蠻皮外衣雄鷹之衛戍胸甲雄鷹之裂蹄腰帶雄鷹之超強護腿雄鷹之退化長褲雄鷹之退化長靴雄鷹之遠征隊外套雄鷹之間諜便褲雄鷹之龍鷹腰帶雄鹿皮縫製腰帶雕刻的火石榴石雕刻的皇家黃寶石雕刻的華麗黃寶石雕紋繩束帶雕紋護腕雕紋護腿雕紋長靴雕紋頭盔雕花皮甲外衣雕花皮甲手套雕花皮甲披風雕花皮甲長靴雙線長袍雙足翼龍的牢籠鑰匙難恕斬斧雪球雷雷克薩的戰爭號角雷恩寇的精妙指環雷暴便褲雷暴手套雷札克的裂片雷特辛失落墜飾雷霆之怒，逐風者的祝福之刃雷霆巨盔雷霆王之紅色護手雷首圖騰電光相容器電鍍瑟銀披風震地圖騰震浪之錘霜刃外套霜刃手套霜滿披肩霜火手套霜狼口套霜狼嗥叫者號角霧幕之靴靈巧之握手套靈猴之僧侶護腿靈猴之兇猛護腿靈猴之噩夢長靴靈猴之報復護軀靈猴之報復頭盔靈猴之壯麗手套靈猴之夜間墊肩靈猴之射手腰帶靈猴之射手腰帶靈猴之崔互德手套靈猴之崔互德風帽靈猴之歹徒護腕靈猴之獵戶腰帶靈猴之碎骨者肩衛靈猴之碎骨者腰帶靈猴之碎骨者顱帽靈猴之精良平衡的弩靈猴之綴鱗皮甲長靴靈猴之蠻皮外衣靈猴之蠻皮盔帽靈猴之蠻皮長靴靈猴之衛戍護肩靈猴之衛戍長褲靈猴之裂蹄肩衛靈猴之超強護腿靈猴之遊俠便褲靈猴之龍鷹便褲靈魂之塵靈魂收割者束腕靈魂收穫者靈魂火砲靈魂精華靈魂裂片青綠石青金指環青銅匕首青銅巨劍青銅戰斧青銅戰錘青銅斧青銅短劍青銅花紋護腕青銅重錘青銅釘錘青銅錠青銅龍軍團的徽記之戒青銅龍軍團的徽記之戒靜行者之眼鞭叱之野性法杖鞭笞者之根韌化皮手套韌化皮甲音浪束腰音速之矛頂尖水晶頂尖裂片預示之靴預言主教窄褲預言者之大法師之帶頑固護腿頑固防禦指環頑強之戒顯密裁決槌顯靈鏡風之隼鍊衫風暴之怒圖騰風暴之歌褶裙風暴之鑰風暴信使風暴召喚者風暴召喚者冠冕風暴召喚者的肩鎧風暴召喚者的護腿風暴大師的盔帽颶風戰衣手甲颶風戰衣面甲颶風戰馭胸甲颶風戰馭頭盔颶風束腰飛天女巫帽食日者食譜:大塊的熊排食譜:斑點黃尾魚食譜:銀頭鱒魚飢餓裂脊匕首餘燼馬刺護符餘燼鷹之弩馬尼莫繫腰馭龍者腿甲騎乘馬鞭騎士銘文騙子的口才手套騰光長袍驅魔者之印驅魔者懼紋兜帽驅魔者指環驅魔者絲質兜帽驅魔者綴甲頭盔驅魔者鍊甲頭盔驅魔者鎖甲頭盔驅魔者鎧甲頭盔驅魔者龍皮頭盔驍勇臂鎧驕傲裹臂骨鐮肩鎧體面的白襯衣高效火焰蛋白石高效的火石榴石高效的皇家黃寶石高效的華麗黃寶石高階君主頭飾高階督軍分割者高階督軍剃刃高階督軍劈斧高階督軍右齒鋸高階督軍大槌高階督軍左齒鋸高階督軍巨刃劍高階督軍懲戒錘高階督軍懼紋手套高階督軍懼紋披肩高階督軍懼紋長袍高階督軍戰爭法杖高階督軍戰鬥秘典高階督軍斬斧高階督軍斬首者高階督軍月布肩墊高階督軍月布腿甲高階督軍月布長手套高階督軍法術之刃高階督軍環甲手套高階督軍環甲肩墊高階督軍環甲腿甲高階督軍痛苦之鋸高階督軍皮甲手套高階督軍皮甲肩甲高階督軍碎骨錘高階督軍磨骨槌高階督軍科多獸皮手套高階督軍科多獸皮肩甲高階督軍科多獸皮頭盔高階督軍穿刺匕首高階督軍絲質手甲高階督軍絲質長褲高階督軍綴鱗腿甲高階督軍綴鱗護手高階督軍綴鱗頭盔高階督軍緞質手套高階督軍緞質披肩高階督軍緞質護腿高階督軍緞質長袍高階督軍裝飾手套高階督軍速刃高階督軍重弩高階督軍鍊甲護手高階督軍鍊甲護腿高階督軍鎖甲肩甲高階督軍鎖甲護甲高階督軍鎖鍊肩甲高階督軍鎖鍊護手高階督軍鎧甲腿甲高階督軍鎧甲護手高階督軍鎧甲護肩高階督軍鎧甲護軀高階督軍鎧甲頭盔高階督軍防禦高階督軍龍皮手套高階督軍龍皮肩甲高階督軍龍革肩甲鬥士分割者鬥士剃刃鬥士劈斧鬥士右齒鋸鬥士大槌鬥士左齒鋸鬥士巨劍鬥士懲戒錘鬥士戰勝之觸鬥士戰爭法杖鬥士戰鋒飛斧鬥士救贖者鬥士斬斧鬥士斬首者鬥士月布兜帽鬥士月布手套鬥士法術之刃鬥士痛苦之鋸鬥士皮甲手套鬥士皮甲頭盔鬥士盾牆鬥士碎骨錘鬥士磨骨槌鬥士科多獸皮外套鬥士科多獸皮腿甲鬥士穿刺匕首鬥士終卷鬥士絲質衣飾鬥士緩刑器鬥士裁決槌鬥士裝飾頭罩鬥士速刃鬥士重弩鬥士鎖甲護手鬥士鎖甲護甲鬥士鎖甲護腿鬥士鎖鍊頭盔鬥士鎧甲腿甲鬥士鎧甲護手鬥士鎧甲護肩鬥士鎧甲護軀鬥士鎧甲頭盔鬥士龍革手套鬼靈裂片鬼魅裹頭魂魄弓魔化武器魔化皮革魔塵魔女的痛苦魔導師手套魔暴龍皮護腿魔暴龍護手魔染幽紋長靴魔法使的手套魔法使的肩鎧魔法使的長袍魔法使的風帽魔法勢力披肩魔法可頌魔法軟餅魔焰手套魔焰腰帶魔焰長劍魔焰長袍魔爪護胸魔粉魔精修補者面具魔紋布魔紋繃帶魔鋼手套魔鋼盾刺魔鋼耳語小刀魔鋼護腿魔鋼錠魔鋼頭盔魔鐵巨劍魔鐵強化槌魔鐵棒魔鐵短斧魔鐵礦石魔鐵胸甲魔鐵錘魔鐵錠魔鐵鍊甲外套魔鐵鍊甲手套魔鐵鍊甲罩盔魔鐵鍊甲護腕魔鐵鎧甲便褲魔鐵鎧甲手套魔鐵鎧甲腰帶魔鐵鎧甲長靴魚人鱗片護腕魚油魚竿鳥人羽毛披風鳥類之心塑像鳳凰之火指環鳳凰寶寶鴉爪指環鷹主項圈鷹爪的靴子鷹爪腰帶鷹頂戰靴鹽麥索瑞爾榮譽之盾麥迪文的日記黃水晶黃色染料黃金勳章黃金卓奈石黎明手甲黎明石黑口魚黑口魚油黑咖啡黑手飾物黑暗之書黑暗之血便褲黑暗之血復仇胸鎧黑暗之血手套黑暗之血肩衛黑暗之血腰帶黑暗之血護腕黑暗之血護軀黑暗之血長靴黑暗之血首羽黑暗咒術師頭帶黑暗守護者鑰匙黑暗守護面罩黑暗披風黑暗搶奪者披氅黑暗權杖黑暗潛行者護胸黑暗祝福黑暗行者之靴黑暗迪菲亞腰帶黑曜石戰爭串珠黑曜石無情踏靴黑珍珠黑皮便褲黑皮外套黑皮手套黑皮披風黑皮腰帶黑皮長靴黑絲襯衣黑色寶石袋", -- [6]
-		"黑色幼龍披風黑色幼龍腰帶黑色捕獵者的大腦黑色捕獵者的蛋黑色染料黑色獵捕魔杖黑虛空鱗胸甲黑虛空鱗腰帶黑虛空鱗護腕黑邊胸鎧黑魔鋼護腕龍喉龍心火焰盾牌龍拳之錘龍擊龍爪肩鎧龍牙飾物龍脊戰利品龍震肩衛龍鱗護脛龍鱗鑲嵌長刃龍鷹之帽龍鷹便褲龍鷹外套龍鷹手套龍鷹肩衛龍鷹腰帶龍鷹長靴", -- [7]
-	},
+	["build"] = "2.5.2",
+	["itemStrings"] = "i:109142i:111245i:37702i:34055i:52185i:152549i:109140i:108322i:111662i:111670i:109125i:52718i:108302i:111671i:109139i:111675i:97621i:109138i:115504i:108336i:35623i:52988i:108296i:109124i:108319i:52183i:36860i:37700i:168646i:34053i:36909i:109137i:111601i:152544i:113588i:174327i:109991i:108304i:174328i:52721i:52719i:152547i:115502i:108365i:108299i:152543i:152548i:109144i:111673i:109625i:37704i:108295i:108301i:36910i:111665i:108391i:108303i:72092i:108298i:111659i:37701i:108353i:108326i:111589i:74252i:111672i:152545i:36912i:35624i:36903i:108325i:111676i:35622i:108308i:111667i:52720i:108329i:35627i:160711i:52985i:37705i:111674i:108297i:37703i:152546i:108350i:109143i:108305i:72235i:111595i:109141i:109624i:108309i:34052i:111658i:108307i:108294i:111652i:111651i:108362i:109119i:34056i:97512i:156930i:111668i:111656i:111669i:53038i:111650i:74247i:111666i:111664i:111663i:108306i:108300i:168302i:35625i:27794i:34191i:30638i:32409i:1251i:12259i:13289i:23438i:1478i:27500i:29279i:28762i:18567i:24031i:28467i:28290i:24048i:24037i:23121i:28465i:31952i:23426i:23449i:22536i:28272i:33152i:7734i:3819i:29198i:28244i:28041i:2105i:27869i:28795i:29449i:3239i:2835i:3470i:2862i:10421i:2866i:3480i:2865i:6350i:28757i:3358i:28781i:2581i:21991i:14530i:3531i:6451i:3489i:28470i:23115i:24052i:29201i:8545i:21885i:21884i:22452i:22456i:22457i:21886i:22451i:11078i:28602i:12424i:12425i:12426i:26045i:32092i:23836i:29383i:29713i:2449i:28777i:10645i:27787i:24033i:7965i:7912i:7966i:7964i:23118i:28463i:24460i:28468i:23116i:24051i:28421i:23503i:23529i:23425i:23446i:25844i:25898i:23099i:24060i:23441i:11176i:22792i:22573i:18794i:11178i:11084i:22449i:11139i:14344i:835i:12799i:27915i:34471i:10940i:20560i:16206i:15872i:774i:29266i:28405i:28381i:24054i:11177i:10978i:22448i:11138i:14343i:12364i:3855i:7945i:8149i:31863i:31862i:16204i:11137i:24268i:21877i:21841i:21990i:2880i:25896i:16203i:3466i:11082i:22446i:13455i:11135i:25521i:11175i:10939i:30533i:28469i:23114i:24050i:24139i:33173i:23427i:28420i:25686i:23528i:28729i:29369i:20558i:29019i:29021i:32073i:6125i:25897i:127i:28673i:24151i:27414i:3012i:27498i:28767i:29202i:30810i:28466i:28462i:28595i:23113i:24047i:30635i:31777i:29184i:29181i:24289i:29183i:2290i:23107i:22577i:1210i:29024i:3853i:22105i:22824i:21519i:16202i:10998i:1705i:22447i:11134i:23559i:11174i:10938i:30359i:29434i:25890i:22578i:2838i:22576i:24262i:24266i:31118i:23437i:29329i:25901i:3357i:24029i:28460i:23094i:27860i:28328i:28441i:34220i:24027i:28458i:23095i:24039i:23120i:31865i:31864i:31116i:28824i:22574i:21929i:23824i:28755i:28730i:28779i:27854i:3857i:28375i:24065i:23106i:24140i:6948i:24022i:28509i:28102i:29238i:5540i:10620i:12359i:22575i:23436i:24056i:23108i:24057i:23109i:23439i:8839i:11144i:7911i:15871i:31866i:31867i:28034i:2901i:27884i:24053i:24256i:3858i:7941i:7933i:3860i:7931i:7969i:7920i:24055i:23110i:33782i:22572i:36941i:14047i:14529i:24030i:28461i:23096i:2836i:3240i:3478i:2863i:24032i:1712i:27501i:24028i:28459i:23097i:7910i:28585i:24421i:18904i:33069i:31860i:31861i:3530i:6450i:32698i:28524i:1206i:31404i:3835i:3842i:3844i:3836i:28608i:12643i:12365i:12644i:12404i:23079i:1529i:24062i:23105i:1180i:1711i:27502i:18663i:29326i:20725i:27546i:5634i:31117i:12800i:28768i:24451i:31071i:30809i:28659i:12361i:23117i:4580i:818i:28968i:22450i:29047i:29045i:29044i:28258i:30155i:29443i:23077i:29182i:31544i:32905i:23592i:23590i:23591i:23593i:25846i:33160i:24181i:33158i:31878i:25910i:6047i:24174i:34368i:22829i:2453i:17056i:24066i:23103i:33872i:25894i:25477i:23526i:24360i:29185i:31617i:28545i:29381i:31869i:31868i:30344i:30343i:31355i:24269i:7930i:7919i:7918i:3241i:3486i:2871i:6214i:3487i:11128i:2776i:15870i:6040i:6338i:2775i:29370i:15869i:2870i:2845i:2770i:7166i:7955i:3488i:2847i:3473i:2857i:3472i:2854i:2853i:2844i:2852i:2851i:3469i:2840i:24067i:23104i:23533i:7963i:7922i:2771i:3483i:3482i:28061i:5956i:7071i:22849i:2772i:32068i:3575i:24035i:23119i:28464i:24036i:23100i:24061i:22851i:29186i:29203i:10518i:29367i:32321i:23098i:24058i:28440i:31463i:17626i:24365i:11083i:32825i:21882i:6265i:7909i:3848i:7957i:7958i:7956i:2849i:2850i:2868i:3491i:2848i:2841i:28791i:30721i:29155i:28776i:28553i:23101i:24059i:28820i:28852i:28855i:28851i:28853i:28295i:28310i:28309i:28313i:28476i:28314i:24550i:28305i:28320i:24557i:28319i:32451i:28308i:28298i:28297i:28300i:25833i:28358i:28302i:28299i:28312i:28346i:32452i:32450i:28307i:28294i:24547i:24549i:24546i:24544i:24545i:28558i:25499i:22445i:22019i:34062i:8544i:23517i:29204i:23518i:23448i:23519i:23499i:25843i:23497i:23424i:23489i:23498i:23445i:23490i:23491i:23493i:23494i:23488i:23482i:23484i:23487i:29239i:3864i:23112i:23440i:11197i:28672i:28438",
+	["data"] = "______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________wBEB_GQAABAALHhAACDDBABAAAAAAAAUAApKhAAPDBAABAAAAAAAABAAbagAAMABBAGBAAwUHAABAATvgAADGDAABAAAIAAAAUAA1ogAAAHBAAkAfAI-BAABANZHhAACPCAABAAAAAAAABAA-GhAAMABBAGBAAwUHAAUAAUigAADBDAAZAPA-AAAAFAAf8gAAAEBAAGB8AkBAAAFAAf8gAAAEBAACCAAAAAAABALckgAAEAEBA9BGB5FZAABACHjgAAEAEBA___________________B__GBAAwUHAABAAEigAADADAA3AAAIOBAABAA5vgAADCBAA8AAAEnAAABAAhvgAADCCAAGBAAwUHAABAA6hgAADCDAAGBAAwUHAABAAVigAADBDAA8AAAEnAAABAA_ugAADBCAA3AAAIOBAABAAJvgAADBBAAEBAAuLAAABAAIzgAAPACAAGBAAEnAAAUAAt2gAAHHCAAGBAAUDDAAUAAnhgAAHHCAAIBAAoGGAABAA3ygAAJIBBA___________________C_____________________D__zAuAHyDAABAM2ngAAEADAAnAAAkBAAAUAA0sgAAHJBAA___________________C__xBGBAAAAABACPjgAAEAEBAYBAAyLQAABAMsagAAEADBABAAABAAAABAEq9gAAEABAAzBGBvOKAABALEkgAAEADBA9BGBWTLAABAJGYgAAEEEBALBBBQGAAAUAAmtgAAAFBAAFABADAAAAUAAXBhAAAIBAAFAAACAAAAUAAABhAAHHBAAKAAAFAAAAUAALBhAAHHBAAFABADAAAAUAAQBhAAAIBAAHACAgAAAABAUQYgAAEDBAAXASAxLAAABAUWYgAAEDBAAWARAUIAAABAD89gAAEDBAAVAQACPAAABAH32gAAEDCAASANAnEAAABAI3WgAAEDBAA9BGBqvbAABALzkgAAEAEBAlAAAvCAAAUAAswgAAHJBAA9BGBzkxAABAXO2gAAEAEBABAAAUAAAAUAA4ogAAAHBAAGBAA4uAAAUAA8ogAAAHBAA6AAAoPAAAUAAyogAAAHBAABAAA5AAAAUAA3ogAAAHBAABAAAQGAAAUAAoogAAAHBAARAMApOAAABAV7DhAACACAA3AAAIOBAABAA5vgAADCBAA8AAAEnAAABAAhvgAADCCAAGBAAwUHAABAA6hgAADCDAAUAPAWCAAABAZY_gAACQCAABAAAgMAAAUAA6ogAAAHBAABBAAg-AAAUAA0bgAAHKCAABBAAg-AAAUAAvbgAAHKCAABBAAg-AAAUAAubgAAHKCAABBAAg-AAAUAAzbgAAHKCAABBAAg-AAAUAAxbgAAHKCAABBAAg-AAAUAAwbgAAHKCAABBAAg-AAAUAAtbgAAHKCAABAAAAAAAAUAAdxgAANABAAzBGBvmLAABAUtYgAAEBEBA1AvAKYCAABAGKWgAAEECAA2AxAOmCAABAJKYgAAEECAA7A2ANJFAABAImXgAAEECAABAAAAAAAAkBAV0gAAPACBABAAAAAAAABAAl7gAANADBAGBAAkfFAABAMoegAAEADAAuBGBAAAAABAMtygAAEAEBA___________________B__FAAAUAAAAUAArwgAAHJBAA9BGB8sJAABAQGqgAAEBEBAwAAAuLAAABAMKegAAEABBAwBEBOMKAABAUKagAAECDBAGBAAwUHAABAAVigAADBDAAjAZAoAAAAUAAaBhAAAIBAAjAAAkBAAAUAAEBhAAHHBAAjAAAIDAAAUAAOBhAAHHBAAjAZAoAAAAUAATBhAAAIBAA8AAAEnAAABAA_ugAADBCAA3AAAIOBAABAAJvgAADBBAAeB_AS7HAABACmrgAAEADBA3AAAIOBAABAA5vgAADCBAA8AAAEnAAABAAhvgAADCCAAGBAAwUHAABAA6hgAADCDAAGB8AoPAAAUAAdBhAAAICAApBBBXyUAABARwUgAACBCAAGB8AoPAAAUAAWBhAAAICAABBAAcXAAAUAAh2gAAHHBAABBAA4uAAAUAAohgAAHHBAAGBAAA0HAABAAJ8gAAHMBAAGBAAwUHAABAATvgAADGDAA8AAAEnAAABAAevgAADFCAAGBAAwUHAABAALigAADFDAAGBAAwUHAAUAAHigAADDDAAtAAAAAAAAUAA3bgAAHMBAAJBAAiTAAAUAAKxgAAHJBAABBAAQGAAAKAAmbgAAHKBAA8A8AAAAAABAAVSgAAPFEBAtAAAAAAAAUAATcgAAHMDAAZAAAAAAAAUAAMcgAAHMDAAGBAAAAAAAUAARcgAAHMDAAjAAAAAAAAUAAOcgAAHMDAA3AAAAAAAAUAAJcgAAHMDAAMACAXAAAABAA1ygAAAABBA3AAAYtBAAUAAkvgAADHCAAwBEBZCJAABAIEXgAAEDDBAzBGBnlRAABAMI5gAAEAEBAKAAAAAAAAUAA6bgAAHMBAABAAAAAAAAkBA8igAAAACBA3AAAoPAAABAA0_gAAHMBAA3AAAxJAAAUAAixgAAAICAAHAAAPAAAAUAAavgAADHCAAuBGBAAAAABAWC9gAAEGEBAxBGBAAAAABAJ-XgAAEBEBAxBGBAAAAABAJKYgAAEEEBAGBAAwUHAABAAIigAADDDAAoAAAAAAAAUAAUcgAAHMDAAUAAAAAAAAUAANcgAAHMDAABBAAAAAAAUAAScgAAHMDAAeAAAAAAAAUAAPcgAAHMDAAyAAAAAAAAUAAKcgAAHMDAA8AAAQcCAAUAAYvgAADHCAAlAgAwvCAABAR_DhAACBCAAuApALOEAABAVylgAACECAABAAAAAAAABAAWWgAAMABBAGBAAwUHAABAAIigAADDDAA8AAAEnAAABAAWvgAADDCAA3AAAAAAAAUAA4bgAAHMBAAjAAAAAAAAUAA7bgAAHMBAA8AAAkBAAAUAA1ygAAAIBAA8AAAgMAAAUAAicgAAHFBAA_AAAQcCAABASYogAABACAAABAA7TAAAUAA7ogAAAHBAA___________________B__GBAAwUHAABAATvgAADGDAA3AAAAAAAAKAAAcgAAHMCAA___________________B__ZAAAAAAAAKAA-bgAAHMCAABBAAAAAAAKAA8bgAAHMCAA4AuAuLAAAFAAB7gAAABBAAjAAAAAAAAKAAEcgAAHMCAAGB8A4uAAAUAAX0gAAAIBAAtAAAAAAAAKAAGcgAAHMCAAPAAAAAAAAKAACcgAAHMCAAuBGB9ySAABAHp4gAAEEEBA3AAAIOBAABAA5vgAADCBAA8AAAEnAAABAAhvgAADCCAAGBAAwUHAABAA6hgAADCDAABAAAAAAAABAADcgAAMABBAzBGBsULAABADH-gAAEEDAAGBAAiTAAAUAAn2gAAHHCAA8AyAuLAAAUAAcBhAAAIBAAwBFBeBIAABAISXgAAECDAA8AyAuLAAAUAAVBhAAAIBAAzBGBKYcAABANYDhAACHEBAuBGBAAAAABAQIqgAAEBEBABAAAAAAAAkBAU0gAAAACBA4BGBAAAAABAUBagAAEEEBA4BGBAAAAABABoggAAEEEBAuBGB99NAABADH-gAAEEEBABAAABAAAABAEvZgAAEABAAGBAAwUHAABAATvgAADGDAABAAABAAAABAEj9gAAEABAAzBGBcCVAABAA8EhAACTEBAVB8AnYSAABALvjgAAEADBAkBBBNeIAABABBggAAEDDBAUAKAyAAAAFAAa8gAAAEBAAGB8A9BAAAFAAa8gAAAEBAA9BGBoYeAABAVlVgAACAEBAoAjAYJAAABAZsUgAACQCAABAAAIDAAA6DACkgAAMABAA3AAAIOBAABAA5vgAADCBAA3AAAIOBAABAAyvgAADABAA8AAAEnAAABAACvgAADACAA8AAAEnAAABAAhvgAADCCAAGBAAwUHAABAA6hgAADCDAA___________________B_____________________B__zBGBEEPAABAHe4gAAEEDBA______________________BAAAAAAAABAAk1gAAAABBApBGBHEVAABAJBYgAAEBEBAeAUALBAAAFAAZ8gAAAEBAABBAAEnAAAUAAXvgAADDCAABBAAQGAAAKAArbgAAHKBAAUAAA6DAAAUAA6ugAADHCAABAAAAAAAAkBAgNhAAAACBAkAfApeCAABAReChAACICAAGB8AAAAAABAA-AhAAAIBAA9AyAEnAAAUAA15gAAACBAABAAAAAAAAUAAtwgAAPABBAyAAAAAAAAKAABcgAAHMCAAUAAAAAAAAKAA_bgAAHMCAAeAAAYJAAAUAAHvgAADHCAA8AAAAAAAAKAA9bgAAHMCAAeAAAAAAAAKAAFcgAAHMCAABB3AuLAAAUAAY0gAAAIBAAoAAAAAAAAKAAHcgAAHMCAAKAAAAAAAAKAADcgAAHMCAALBBBQGAAAUAAbugAAAFBBAGBGBAAAAAIDAMLhAAPAEBAGBAAwUHAABAAUvgAADGDAABBAAQGAAAKAAsbgAAHKBAAZAAA8AAAAUAAGBhAAHHBAABBAAQGAAAKAApbgAAHKBAApBGBM9KAABAHQ3gAAEBEAApBGBpiHAABABJggAAEBEAAGBAAwUHAABAAIigAADDEBAGBAAwUHAAUAAXigAADEDAAzBAAsGaAABARb_gAACGDBAGBAAwUHAABAATvgAADGDAAeAAALBAAAUAAN0gAAHJBAAGBAAwUHAABAAEigAADADAA3AAAIOBAABAAyvgAADABAA8AAAEnAAABAACvgAADACAALBBBAFAAAUAAfbgAAAFBAAzBGB3KGAABAQBqgAAEBDBA7BGBWckAABAREmgAACFEBAGBAAwUHAABAAUvgAADGDAAGBAAwUHAABAAEigAADADAA3AAAIOBAABAAyvgAADABAA8AAAEnAAABAACvgAADACAAGBAAwUHAABAAVigAADBDAA8AAAEnAAABAA_ugAADBCAAGBAAwUHAABAAIigAADDDAA8AAAEnAAABAAWvgAADDCAAGBAAwUHAABAAIigAADDEBA9BGBB3KAABAKldgAAEEEBABBAAQGAAAKAAnbgAAHKBAABBAAEnAAAUAAfvgAADFCAAwBAAe_HAABAIlegAAECDAAzBGBUKLAABADU-gAAECEBAzBGBgtOAABAL2jgAAEAEBA9BGB-XKAABAGfWgAAEEEBABB3AYEAAAUAA2tgAAAFBAA___________________B__zBGBaoHAABAGgWgAAEEDBAGBAAwUHAABAAYigAADEDAA8AAAEnAAABAAMvgAADECAAAAAAAAAAABAAy1gAAAABBABAAAAAAAABAAO0gAAPABBAVB8AZcJAABAHw3gAAEDDBAzBGBedfAABAC9igAAEAEBA8AyAEnAAAUAA26gAAACBAAuBGBYvJAABAGkWgAAEEEBAXASA7gAAABANZHhAACPCAAoAAA6DAAAUAAy2gAAHHBAAyAAAYJAAAUAAlhgAAHHBAABBAAQGAAAKAAobgAAHKBAAGBAAwUHAAUAADigAADADAAGBAAwUHAABAAIigAADDDAA8AAAEnAAABAAWvgAADDCAAGBAAwUHAABAAIigAADDDAA8AAAEnAAABAAWvgAADDCAAGBAAwUHAAUAAKigAADFDAAvAAA3FAAAUAAzwgAAHJBAAoAAAoPAAABAAs_gAAHMBAAoAAA0HAAAUAA02gAAHHCAAoAAAxJAAAUAAlxgAAAICAA8AAAEnAAABAAevgAADFCAAGBAAwUHAABAALigAADFDAAwBEBQcCAABAMaegAAEADBA___________________B__wBEBB2KAABAIDXgAAEEDBAGBAAwUHAABAA6hgAADCDAApBGBIXFAABAGWWgAAEBEAAoAAA6DAAAUAAw2gAAHHBAAqAlAoDDAABAV1UgAACACAAvAqAddCAABAImXgAAEECAAoAAAQGAAAUAAkhgAAHHBAAuApAT8BAABABRggAAEDCAArAAA6DAAABAATTgAAAGCAAqAlA19BAABAH32gAAEDCAAGBAAwUHAABAAIigAADDDAA8AAAEnAAABAAWvgAADDCAAGBAAwUHAABAAYigAADEDAABBAAQGAAAKAAlbgAAHKBAABAAAAAAAABATy9gAAEADBAyAAAQGAAAUAAncgAAHFBAA0AAApGAAAUAAxogAAAHBAAGBAAwUHAABAAEigAADADAA3AAAIOBAABAAyvgAADABAA8AAAEnAAABAACvgAADACAAPAAAPAAAAUAADBhAAHHBAAPAFAKAAAAUAAYBhAAAIBAAUAAAKAAAAUAAMBhAAHHBAAPAFAKAAAAUAARBhAAAIBAAGBAAwUHAABAAEigAADADAAZAPA-AAAAFAAZ8gAAAEBAAGB8AkBAAAFAAZ8gAAAEBAAGBAAwUHAABAAEigAADADAA3AAAIOBAABAAyvgAADABAA8AAAEnAAABAACvgAADACAAyAAAIOBAAUAAxvgAADHCAAzBGBNzIAABAIWXgAAEBEBABAAAAAAAAUAAvtgAAAABBABAAAAAAAABAALegAAMABBABAAAAAAAABAA2ygAAMABBA8AAAEnAAABAAhvgAADCCAAGBAAwUHAABAA6hgAADCDAABAAAZAAAAUAA0ogAAAHBAABAAAqCAAAUAAnogAAAHBAAAAAAAAAAABAA2ygAAMABBAzBGBwecAABAN5HhAACPEBAZAAAQGAAAUAAZvgAADHCAABAAAAAAAABATr9gAAEACBAhAcASRAAABAJ9XgAAEDBAAfAaAatAAABAH52gAAEDCAAkAfAaYBAABAUQYgAAEDDAAiAdAtvAAABABPfgAAEDCAAzBGBHiPAABAIpXgAAEEEBAtAjALBAAAUAAbBhAAAIBAAtAAA6DAAAUAA90gAAHHBAAtAAAIDAAAUAAPBhAAHHBAAtAjALBAAAUAAUBhAAAIBAABBAAEnAAAUAANvgAADECAAjAAA8KAAAUAA2vgAADHCAAGBAAwUHAABAAYigAADEDAA8AAAEnAAABAAMvgAADECAAPAFAlAAAAFAAf8gAAAEBAAeAUALBAAAFAAf8gAAAEBAAGB8AwBAAAFAAf8gAAAEBAABAAAAAAAABAAy1gAAMABBAhBAAVAIAABAD69gAAEDDBA8AAAAAAAAUAAQcgAAHMEAAzBGBUJCAABAC2ygAAEADBAeAUALBAAAFAA74gAAABBAAGBAAwUHAABAAIigAADDEBA8AAAQcCAAUAAOvgAADHCAA9BGB9feAABAN7HhAACPEBAeB_ADpFAABAJvkgAAEDDBAtBAAxcTAABAN1UgAACADBABAAAIDAAA6DAVPhAAMABAAzBGBR9IAABAZ3HhAACQEBA3AAAYtBAAUAA0vgAADHCAABBAAEnAAAUAAAvgAADBCAABAAATMAAAKAAaygAAPAAAAPAAAkBAAAUAAmvgAADHCAA4BGBAAAAABAKXdgAAEBEBAGBAAAAAAAUAAVcgAAHMEAA4BGBAAAAABADU-gAAECEBA4BGBAAAAABAUBagAAECEBA4BGBAAAAABABoggAAECEBAzBGBUvKAABAZhqgAACQDBABB3AWCAAAUAAftgAAAFBAABAAAAAAAAUAA4agAAAABBABBAAEnAAAUAADvgAADACAAkBGBfbkBABANuHhAACPEBAtBAAvwJAABAHC3gAAECDBABB3AAAAAAPAA85gAAABBAA___________________B_____________________B_____________________B_____________________B_____________________B_____________________B_____________________D__GBAAwUHAABAAd8gAAJKBBAGBAAwUHAABAAd8gAAJKDAA___________________B_____________________B_____________________D__GBAAAAAAABAA7vgAAMABBABB3AIOBAAFAAk5gAAABBAAUAAAZAAAAUAAlwgAAHJBAABAAAHAAAAUAA1cgAAPBBAAGBAAwUHAABAAYigAADEDAA8AAAEnAAABAAMvgAADECAALBBBWCAAAUAAYugAAAFBAAGBAAwUHAABAAUvgAADGDAAGBGBAAAAABAAsSgAAPFEBAzBGBgkGAABAKXdgAAEDDAAbB-Ax_EAABAGUWgAAEDDBAzBGBUmVAABAV7BhAACHDBAmBAAeACAABAMHlgAAEACBAzBGB8tKAABAIrXgAAECEBAuBGBAAAAABACrigAAEAEBA8AAAEnAAABAAevgAADFCAAGBAAwUHAABAALigAADFDAAzBGBAAAAABAMNlgAAEADBAzBGBAAAAABAMNlgAAEADBA8AAAQcCAABAAe8gAAJGCBA8AAAkBAAAUAA1ygAAAIBAAuApAqADAABAUJagAAEECAApAoAHEBAABAKhdgAAEECAApAoAClBAABADN-gAAEECAAZAPAoAAAAUAAZBhAAAIBAAZAAAkBAAAUAANBhAAHHBAAZAPAoAAAAUAASBhAAAIBAAQALATJAAABAR_egAACFBAATAOAaXAAABARQChAACICAAeAAA0HAAABAAr_gAAHMBAAZAAA0HAAAUAAr2gAAHHCAAeAAAsEAAAUAAnxgAAAICAAlAgAxZAAABAJBYgAAEDBAAUAAA9BAAABAAi_gAAHMBAAKAAALBAAAUAAKBhAAHHCAAuBGBAAAAABAMrHhAAEAEBAUAAAyAAAAUAAdxgAAAICAAdAYA3tAAABAUOagAAEDDAAJAEAtBAAABAVBVgAACABAAKAAAFAAAAUAAm2gAAHHBAALAGACDAAABANiHhAACPBAALAGAxDAAABARaChAACIBAANAIAlJAAABAR8DhAACBCAAJAEAuBAAABAVfChAACHBAANAIArEAAABAH32gAAEDCAASANAGDAAABAGMWgAAEDBAAMAHAHBAAABAKKdgAAEDBAATAOAhDAAABAJ6XgAAEDBAAHACARAAAABAJ6XgAAEDBAAJAEAqBAAABAVklgAACEBAAJAEADBAAABAH32gAAEDBAALAGA4AAAABAGLWgAAEDBAAJAEAxAAAABAI3WgAAEDBAAKAAAKAAAAUAAghgAAHHBAAGBAAwUHAABAAYigAADEDAA8AAAEnAAABAAMvgAADECAApBGBbBJAABAKjdgAAEEEAAoAjAYlBAABAUEagAAEDCAArAoA4ABAABABPfgAAEEBAAUAAAZAAAAUAAz2gAAHHBAAbAWAFPAAABAKLdgAAEDCAAaAVAlUAAABAI3WgAAEDCAA2BBBDAAAAIDYSngAAGDBAA___________________B__eAAAkBAAAFAAnngAAHBBAAJB8AYtBAAFAAm5gAAABBAAeAAAWCAAAUAAs2gAAHHBAACB3AcXAAAUAAC6gAAACBAAeAAAIDAAAUAAwhgAAHHBAAGBAAwUHAABAAVigAADBDAA8AAAEnAAABAA_ugAADBCAA3AAAIOBAABAAJvgAADBBAAGBAAwUHAABAAEigAADADAA8AAAEnAAABAAevgAADFCAAGBAAwUHAABAALigAADFDAALBBBg4EAAFAAW5gAAADBAA___________________C__8A3AQcCAABAZuHhAACQCAAtAAAYJBAABAQDqgAAEBCAAuBGBAAAAABALWkgAAEAEBABAAAAAAAABAA1ygAAMABBA8AAAEnAAABAAevgAADFCAAGBAAwUHAABAALigAADFDAArBGBE_fAABARDmgAACFEBABAAAAAAAABAAMvgAAMABBABAAAAAAAABAA9mgAAMABBAbB-AlPEAABAKcdgAAECDBAZAAAAAAAAUAA5bgAAHMBAABAAAAAAAABAAnrgAAMABBA8AAAEnAAAUAAWQhAAHLBAAKAAAAAAAABAA7ugAAPBBBAtAAAoPAAAUAAIvgAADHCAAUAPASWAAABANYHhAACPCAAaAVAdiAAABARZChAACIBAAbAWADmAAABAR_UgAACBBAAZAUAYeAAABAR_egAACFBAAXASA1TAAABAV4UgAACABAAYATAfWAAABAVqBhAACHBAAZAUAnMAAABAJ-XgAAEDCAAZAUA1qAAABAVrlgAACECAAWARAfRAAABAVrlgAACEBAAUAAAyAAAAUAArhgAAHHBAA9BAAgtOAABALlkgAAEAEBAGBAAAAAAABABdggAAEABBAkBGBrRpBABAVnBhAACHEBA9BGBoDIAABAKZdgAAECEBAfBDBAAAAABALakgAAEAEBA8AAAEnAAABAAevgAADFCAAGBAAwUHAABAALigAADFDAAzBGBAAAAABAD59gAAEBDBAzBGBAAAAABAKjdgAAEEDBAzBGBAAAAABADN-gAAEEDBAzBGBAAAAABAUEagAAEEDBAzBGBAAAAABABEggAAEEDBA________________________________________________________________________________________________________________________________________________________________________________7BGBAAAAABAAvEhAACTEBA______________________7BGBAAAAABAZqUgAACQEBA______________________________________________________________________________________________________________7BGBAAAAABAHH3gAAECEBA7BGBAAAAABAWA9gAAEGEBA__________________________________________________________________7BGBAAAAABAXqpgAAEAEBA________________________________________________________________________________________7BGBAAAAABAHl4gAAEEEBA7BGBAAAAABAKjdgAAEEEBA____________________________________________7BGBAAAAABABTfgAAEEEBABAAAAAAAAIDAmigAAMABBAdBAAMZHAABALijgAAEACBA8AAAAAAAAUAA2bgAAHMBAALBBBAAAAAUAAktgAAAFBAALBBBAAAAAUAABtgAAAFBAABAAAUFAAAUAA5ogAAAHBAAyBGBnZHAABAKjdgAAEEDAAuBGBg4EAABAZuHhAACQDAAyBGBYxOAABAHa4gAAEEDAA8AAAkfFAAUAAvhgAAHHCAAzBGB-LLAABABEggAAEEDAAjB_AfbTAABARfChAACICAA8AAAA9BAABAAO8gAAHMBAAdB9A0MOAABANyUgAACACAA8AAAoPAAAUAAp2gAAHHBAAmBABzlLAABAUGagAAEECAAgB-AfqOAABANzegAACECAA8AAAQfAAAUAAuhgAAHHBAAjB_AQtJAABAUcYgAAEDCAAdB9AymEAABAKRdgAAEDCAAaB8AjwGAABABRggAAEDCAAgB-AfyEAABAJEYgAAEDCAAgB-AF8KAABAHm4gAAEECAAaB9At8EAABAKJdgAAEECAAaB9ApHFAABAGeWgAAEECAAgB-ALKIAABAIKXgAAEECAAuBGBajOAABAImXgAAEEEBAoAAAgMAAAUAAlvgAADHCAABBAAEnAAAUAAivgAADCCAAGBAAwUHAAUAA5hgAADCDAABAAAAAAAABAAlxgAANABAAzBGBiYIAABAQCqgAAEBEBA7BGBg3fAABAVOmgAACEEBA",
+	["names"] = "X-54型無後座力火箭撕裂砲一捧雪花一盒戲法不懈的大地風暴鑽石亞麻繃帶亮閃閃的鋼匕首伊根的衝擊器伊露恩之星保護卷軸 II保護卷軸 V偉大保衛者之紫羅蘭徽記偷取的靈魂飾物元素助熔劑光亮的生命紅寶石光滑的琥珀光滑的黃金卓奈石光滑的黎明石光輝的伊露恩之星光輝的藍月石光輝的鋯石克銀帶鎖箱克銀礦石克銀錠公式:附魔戒指 - 法術能量公式:附魔手套 - 極效法術能量公式:附魔手套 - 超強敏捷六魔包冬刺草冰霜結界雕紋凱旋墜飾刃拳飾物刺客襯衣剛毅靈魂牧者指環劍刃氏族戰爭手環劍刃貝果劣質平衡石劣質的石頭劣質砂輪劣質磨刀石劣質銅外衣劣質青銅胸衣劣質青銅護肩劣質青銅護腿劣質青銅長靴千印之戒卡德加的鬍鬚卡拉伯爾護符厚亞麻繃帶厚幽紋繃帶厚符文布繃帶厚絨線繃帶厚絲質繃帶厚重的戰斧厚重的琥珀厚重的黃金卓奈石厚重的黎明石厚青銅飛鏢厚魔紋繃帶原始之水原始之火原始大地原始暗影原始法力原始生命原始空氣古物寶庫鑰匙古老符號長袍君王鎧甲腰帶君王鎧甲護腕君王鎧甲靴哈剌戰鬥徽章哈拉瑪德之眼哥布林火箭發射器嗜血胸針圖樣:驚慌之鼓地根草地窖潛行者披風地精死亡射線坦然護胸堅固的伊露恩之星堅固的平衡石堅固的石頭堅固的砂輪堅固的磨刀石堅固的藍月石堅固的鋯石堅毅護符堅硬的琥珀堅硬的黃金卓奈石堅硬的黎明石堅鋼平衡石堅鋼斬斧堅鋼磨刀石堅鋼礦石堅鋼錠堅鋼魔棒堅韌的大地風暴鑽石夜光的火石榴石夜光的皇家黃寶石夜眼石夢境之塵夢魘根大地微粒大型棕色科多獸大塊強光裂片大塊微光裂片大塊稜石裂片大塊閃光裂片大塊魔光裂片大繩網大蛋白石天獵迅捷之靴太陽之井晶瓶奇異之塵奧特蘭克山谷榮譽獎章奧金棒奧金骷髏鑰匙孔雀石寇達拉的藍色盾牌將軍懼紋腕輪將軍鎧甲護腕尊貴的夜眼石小塊強光裂片小塊微光裂片小塊稜石裂片小塊閃光裂片小塊魔光裂片巨型綠寶石巨型鐵斧巨型黑錘巫毒符咒平衡的夜眼石平衡的暗影卓奈石幻影之塵幻象之塵幽紋之網幽紋布幽紋布包幽紋繃帶弱效助熔劑強力的大地風暴鑽石強效不滅精華強效助熔劑強效星界精華強效異界精華強效石盾藥水強效秘法精華強效結界符文強效虛空精華強效魔法精華征服者腿鎧微光的琥珀微光的黃金卓奈石微光的黎明石微弱的秘法精華怒鋼護肩恆金礦石惡魔平衡石惡魔皮靴惡魔磨刀石憤怒之刃或然恆變披巾戰歌峽谷榮譽獎章戰爭使者戰甲胸甲戰爭使者鬥盔戰狂肩甲打鬥者甲冑振奮的大地風暴鑽石捕獸者襯衣提里斯法權勢魔杖摩克納薩爾之戒摩克納薩爾野獸面罩敏捷卷軸敏捷卷軸 V斬首者旋風鐵斧日怒徽章明亮的琥珀明亮的紅玉明亮的血石榴石明亮的黃金卓奈石明亮的黎明石時光之鑰時光守望者外袍時光守護者護腿時光流逝裂片時間信號燈時間行者束腕智力卷軸 II暗影卓奈石暗影微粒暗影石暴風之眼榮譽獎章月鋼寬劍極強效治療石極效力量藥劑槲寄生次級不滅精華次級星界精華次級月亮石次級異界精華次級秘法精華次級結界符文次級虛空精華次級魔法精華歐朗諾克的力量之薯正義徽章毀滅的天火鑽石水源微粒沉重的石頭法力微粒法擊便褲法擊兜帽波光紫水晶泰拉寶石泰洛克羽毛洞察的大地風暴鑽石活根草淚滴的生命紅寶石淚滴的紅玉淚滴的血石榴石淨化過的德萊尼水深綠秘銀披風深雷混沌的天火鑽石清晰的生命紅寶石清晰的紅玉清晰的血石榴石激烈的伊露恩之星激烈的藍月石灌能的夜眼石灌能的暗影卓奈石灌能紫水晶火星完美護手火焰微粒火石榴石火箭靴極限版無情刀刃肩墊無疤秘銀指環無盡圈套束腰煙燻塔巴克鹿肉煤塊燃石戰鬥束腰燦爛的泰拉寶石燦爛的翠綠橄欖石燻黑的骨灰甕爐石爭鬥者鱗片護腿狼爪項鍊猛擊藥劑獅心束腰珍珠匕首瑟銀礦石瑟銀錠生命微粒生命紅寶石發光的夜眼石發光的暗影卓奈石皇家的夜眼石皇家的暗影卓奈石皇家黃寶石盲目草真銀棒真銀礦石真銀骷髏鑰匙矇矓的火石榴石矇矓的皇家黃寶石破壞者沙漏礦工鋤神化華麗之靴神秘的黎明石禍根束腰秘銀礦石秘銀重斧秘銀重靴秘銀錠秘銀頭巾秘銀馬刺秘銀鱗片便褲移形的夜眼石移形的暗影卓奈石穩固的泰拉寶石空氣微粒競賽者外袍符文布符文布繃帶符文的生命紅寶石符文的紅玉符文的血石榴石粗糙的石頭粗製平衡石粗製砂輪粗製磨刀石精巧的生命紅寶石精神卷軸 II精神卷軸 V精緻的生命紅寶石精緻的紅玉精緻的血石榴石紅寶石紅寶石軟靴納葛蘭櫻桃索爾賓的超級壓縮器結實的繩索絕佳的黃金卓奈石絕佳的黎明石絨線繃帶絲質繃帶綑綁套索綠寶石匕首綠瑪瑙綠色伊利達瑞戰利外袍綠鐵護腕綠鐵護腿綠鐵鍊衫綠鐵頭盔緊急鐵行者之靴緻密平衡石緻密的石頭緻密砂輪緻密磨刀石翠綠橄欖石翡翠耐久的泰拉寶石耐久的翠綠橄欖石耐力卷軸耐力卷軸 II耐力卷軸 V耶維爾的瓶子聯合團移行披肩聯結水晶背叛套索自由行動藥水舒心紫水晶艾澤拉斯鑽石莫克辛匕首萊庫血手環葛洛姆特的斧頭薩格拉斯印記薩維亞短劍藍寶石藍月石虎牙虎眼石虛無之心手套虛無水晶虛空之刃肩墊虛空之刃護軀虛空之刃面罩虛空飛鏢蛤蜊條血槌蠻禁烈酒血石榴石裂縫分裂者裂蹄皮護腿角瓶虛空噴劑設計圖:堅鋼匕首設計圖:堅鋼大槌設計圖:堅鋼斬斧設計圖:堅鋼細劍設計圖:堅鋼魔棒設計圖:永恆切面設計圖:生命紅寶石巨蛇設計圖:眾刃之石設計圖:矇矓的皇家黃寶石設計圖:謎般的天火鑽石設計圖:金鱗罩盔設計圖:霜炎墜飾調諧水晶核超強效治療藥水跌打草輕羽毛輻光的泰拉寶石輻光的翠綠橄欖石辣炒塔巴克迅捷的天火鑽石迅捷紅色雙足飛龍迅鋼手套追蹤者的腰帶連續之刃遠古德萊尼戰爭護符邊緣行者長靴邪惡意圖頸飾邪惡的火石榴石邪惡的皇家黃寶石部落勳章部落勳章配方:超級能量精煉藥劑重型幽紋之網重型秘銀胸甲重型秘銀護手重型秘銀護肩重平衡石重砂輪重磨刀石重銅大槌重銅寬劍金棒金礦石金骷髏鑰匙金鱗護腕銀棒銀礦石銀色弦月塑像銀骷髏鑰匙銀鱗胸甲銅斧銅礦石銅質匕首銅質巨刃劍銅質戰斧銅質短劍銅質符文便褲銅質符文腰帶銅質符文護手銅質符文護腕銅質護腕銅質釘錘銅質鍊甲便褲銅質鍊甲腰帶銅質鍊甲長靴銅錠鋸齒的泰拉寶石鋸齒的翠綠橄欖石鋼握護手鋼質胸甲鋼質頭盔錫礦石鍍銀青銅護手鍍銀青銅長靴鐵傷子彈鐵匠之錘鐵扣環鐵盾藥水鐵礦石鐵膚藥劑鐵錠閃亮的伊露恩之星閃亮的藍月石閃亮的鋯石閃光的生命紅寶石閃爍的火石榴石閃爍的皇家黃寶石防禦精煉藥劑防衛者雕紋附魔瑟銀刃降落傘披風隱秘夢境之戒雀鷹捕網雕刻的火石榴石雕刻的皇家黃寶石雷雷札克的裂片霜狼口套靈巧手甲靈魂之塵靈魂火砲靈魂精華靈魂裂片青綠石青銅匕首青銅巨劍青銅戰斧青銅戰錘青銅斧青銅短劍青銅花紋護腕青銅重錘青銅釘錘青銅錠頑強之戒顯靈鏡風暴召喚者騙子的口才手套驅魔者指環高效的火石榴石高效的皇家黃寶石高階督軍懼紋披肩高階督軍鎧甲護手高階督軍鎧甲護肩高階督軍鎧甲護軀高階督軍鎧甲頭盔鬥士分割者鬥士剃刃鬥士劈斧鬥士右齒鋸鬥士大槌鬥士左齒鋸鬥士巨劍鬥士懲戒錘鬥士戰勝之觸鬥士戰爭法杖鬥士戰鋒飛斧鬥士救贖者鬥士斬斧鬥士斬首者鬥士法術之刃鬥士痛苦之鋸鬥士皮甲腿甲鬥士盾牆鬥士碎骨錘鬥士磨骨槌鬥士穿刺匕首鬥士終卷鬥士緩刑器鬥士裁決槌鬥士速刃鬥士重弩鬥士鎧甲腿甲鬥士鎧甲護手鬥士鎧甲護肩鬥士鎧甲護軀鬥士鎧甲頭盔鬼靈裂片魔化之血指環魔塵魔法可頌魔法軟餅魔紋繃帶魔鋼手套魔鋼耳語小刀魔鋼護腿魔鋼錠魔鋼頭盔魔鐵巨劍魔鐵棒魔鐵短斧魔鐵礦石魔鐵胸甲魔鐵錘魔鐵錠魔鐵鍊甲外套魔鐵鍊甲手套魔鐵鍊甲罩盔魔鐵鍊甲護腕魔鐵鎧甲便褲魔鐵鎧甲手套魔鐵鎧甲腰帶魔鐵鎧甲長靴鷹頂戰靴黃水晶黃金卓奈石黎明石黑暗守護者鑰匙黑暗搶奪者披氅龍喉",
 }
