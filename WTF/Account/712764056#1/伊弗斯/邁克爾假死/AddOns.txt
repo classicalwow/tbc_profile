@@ -1,5 +1,5 @@
 RareScanner: enabled
-Plater: enabled
+Plater: disabled
 WeakAurasCompanion: enabled
 WeakAurasArchive: enabled
 Tukui: enabled
@@ -94,7 +94,7 @@ ClassicCodex-db-koKR: disabled
 atlas: enabled
 classiccodex-db: disabled
 classiccodex-db-ruru: disabled
-classiccodex: enabled
+classiccodex: disabled
 MeetingHorn: disabled
 gladiatorlossa2: enabled
 ElvUI_KlixUI_TBC_Classic: disabled
@@ -107,7 +107,7 @@ consoleport_keyboard: disabled
 consoleport_config: disabled
 clique: disabled
 nameplatecooldowns: enabled
-gladiusex: enabled
+gladiusex: disabled
 AutoBarBCC: enabled
 aux-addon: enabled
 BattlegroundSpiritReleaser: enabled

@@ -122,6 +122,9 @@ GuidelimeDataChar = {
 	["mainFrameFontSize"] = 14,
 	["mainFrameShowScrollBar"] = true,
 	["showArrow"] = true,
+	["version"] = "2.025",
+	["editorFrameRelative"] = "CENTER",
+	["mainFrameShowing"] = false,
 	["guideSize"] = {
 		["Bustea's Horde Leveling guide 1-6 Freezy3 Undead Starter"] = 38,
 		["Flymolo's Outland Leveling Guide 67- Flymolo's Horde-Aldor Guide"] = 180,
@@ -131,9 +134,6 @@ GuidelimeDataChar = {
 		["Bustea's Horde Leveling guide 1-12 Mulgore Tauren"] = 219,
 		["Flymolo's Outland Leveling Guide 65-67 Flymolo's Horde-Aldor Guide"] = 215,
 	},
-	["version"] = "2.025",
-	["mainFrameShowing"] = false,
-	["editorFrameRelative"] = "CENTER",
 	["mainFrameRelative"] = "LEFT",
 	["editorFrameX"] = 0,
 }

@@ -75,12 +75,12 @@ ElvDB = {
 			},
 		},
 	},
-	["gold"] = {
+	["faction"] = {
 		["伊弗斯"] = {
-			["邁克爾假死"] = 193678,
-			["畜生犬隊長"] = 164166,
-			["路易斯桑拿"] = 0,
-			["特變電工"] = 81522244,
+			["邁克爾假死"] = "Horde",
+			["畜生犬隊長"] = "Horde",
+			["路易斯桑拿"] = "Horde",
+			["特變電工"] = "Horde",
 		},
 	},
 	["profileKeys"] = {
@@ -89,13 +89,7 @@ ElvDB = {
 		["邁克爾假死 - 伊弗斯"] = "my profile",
 		["畜生犬隊長 - 伊弗斯"] = "Default",
 	},
-	["faction"] = {
-		["伊弗斯"] = {
-			["邁克爾假死"] = "Horde",
-			["畜生犬隊長"] = "Horde",
-			["路易斯桑拿"] = "Horde",
-			["特變電工"] = "Horde",
-		},
+	["LuaErrorDisabledAddOns"] = {
 	},
 	["class"] = {
 		["伊弗斯"] = {
@@ -123,7 +117,13 @@ ElvDB = {
 			},
 		},
 	},
-	["LuaErrorDisabledAddOns"] = {
+	["gold"] = {
+		["伊弗斯"] = {
+			["邁克爾假死"] = 193678,
+			["畜生犬隊長"] = 164166,
+			["路易斯桑拿"] = 0,
+			["特變電工"] = 54783669,
+		},
 	},
 	["profiles"] = {
 		["my profile1"] = {
@@ -1376,9 +1376,9 @@ ElvDB = {
 					["point"] = "BOTTOMLEFT",
 					["buttonSize"] = 30,
 					["showGrid"] = true,
-					["mouseover"] = true,
 					["buttonSpacing"] = 1,
 					["backdropSpacing"] = 0,
+					["mouseover"] = true,
 				},
 				["barPet"] = {
 					["style"] = "darkenInactive",
@@ -1976,6 +1976,7 @@ ElvPrivateDB = {
 			["install_complete"] = 2.1,
 		},
 		["邁克爾假死 - 伊弗斯"] = {
+			["install_complete"] = 2.1,
 			["KlixUI"] = {
 				["pvpreadydialogreset"] = true,
 				["characterGoldsSorting"] = {
@@ -1984,7 +1985,6 @@ ElvPrivateDB = {
 				},
 				["install_complete"] = "0.03",
 			},
-			["install_complete"] = 2.1,
 		},
 		["畜生犬隊長 - 伊弗斯"] = {
 			["install_complete"] = 2.08,

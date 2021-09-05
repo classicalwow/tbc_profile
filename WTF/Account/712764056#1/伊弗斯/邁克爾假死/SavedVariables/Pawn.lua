@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0524,
+	["LastVersion"] = 2.0525,
 	["LastPlayerFullName"] = "邁克爾假死-伊弗斯",
 	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
@@ -69,10 +69,10 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:28034::::::::70::::::::|h[破壞者沙漏]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 29383,
-			["Level"] = 110,
+			["ID"] = 28034,
+			["Level"] = 112,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:29383::::::::70::::::::|h[嗜血胸針]|h|r",
+			["Link"] = "|cff0070dd|Hitem:28034::::::::70:::::::::|h[破壞者沙漏]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 27878,

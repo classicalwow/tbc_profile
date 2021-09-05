@@ -144,12 +144,12 @@ AutoBarDB = {
 				},
 				["AutoBarButtonFoodPet"] = {
 					["enabled"] = true,
-					["buttonClass"] = "AutoBarButtonFoodPet",
-					["defaultButtonIndex"] = "*",
-					["barKey"] = "AutoBarClassBarHunter",
 					["rightClickTargetsPet"] = true,
-					["arrangeOnUse"] = true,
 					["buttonKey"] = "AutoBarButtonFoodPet",
+					["defaultButtonIndex"] = "*",
+					["arrangeOnUse"] = true,
+					["buttonClass"] = "AutoBarButtonFoodPet",
+					["barKey"] = "AutoBarClassBarHunter",
 					["square_popups"] = true,
 				},
 				["AutoBarButtonAspect"] = {
@@ -161,13 +161,13 @@ AutoBarDB = {
 					["buttonKey"] = "AutoBarButtonAspect",
 					["square_popups"] = true,
 				},
-				["AutoBarButtonTrap"] = {
+				["AutoBarButtonCharge"] = {
 					["barKey"] = "AutoBarClassBarHunter",
-					["buttonClass"] = "AutoBarButtonTrap",
+					["buttonClass"] = "AutoBarButtonCharge",
 					["defaultButtonIndex"] = "*",
 					["arrangeOnUse"] = true,
 					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonTrap",
+					["buttonKey"] = "AutoBarButtonCharge",
 					["square_popups"] = true,
 				},
 				["AutoBarButtonDebuff"] = {
@@ -186,6 +186,15 @@ AutoBarDB = {
 					["buttonKey"] = "AutoBarButtonClassPet",
 					["square_popups"] = true,
 				},
+				["AutoBarButtonTrap"] = {
+					["barKey"] = "AutoBarClassBarHunter",
+					["buttonClass"] = "AutoBarButtonTrap",
+					["defaultButtonIndex"] = "*",
+					["arrangeOnUse"] = true,
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonTrap",
+					["square_popups"] = true,
+				},
 				["AutoBarButtonInterrupt"] = {
 					["barKey"] = "AutoBarClassBarHunter",
 					["buttonClass"] = "AutoBarButtonInterrupt",
@@ -193,15 +202,6 @@ AutoBarDB = {
 					["arrangeOnUse"] = true,
 					["enabled"] = true,
 					["buttonKey"] = "AutoBarButtonInterrupt",
-					["square_popups"] = true,
-				},
-				["AutoBarButtonCharge"] = {
-					["barKey"] = "AutoBarClassBarHunter",
-					["buttonClass"] = "AutoBarButtonCharge",
-					["defaultButtonIndex"] = "*",
-					["arrangeOnUse"] = true,
-					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonCharge",
 					["square_popups"] = true,
 				},
 				["AutoBarButtonClassPets3"] = {
@@ -257,7 +257,7 @@ AutoBarDB = {
 					["arrangeOnUse"] = 30616,
 				},
 				["AutoBarButtonBuffWeapon1"] = {
-					["arrangeOnUse"] = 28421,
+					["arrangeOnUse"] = 23529,
 				},
 			},
 			["barList"] = {

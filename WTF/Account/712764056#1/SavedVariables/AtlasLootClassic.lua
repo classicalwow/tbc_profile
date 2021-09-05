@@ -24,16 +24,13 @@ AtlasLootClassicDB = {
 				["selected"] = {
 					"AtlasLootClassic_Crafting", -- [1]
 					"EnchantingBC", -- [2]
-					9, -- [3]
+					7, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},
 			},
 		},
 		["邁克爾假死 - 伊弗斯"] = {
-			["minimap"] = {
-				["minimapPos"] = 286.7554949708375,
-			},
 			["GUI"] = {
 				["point"] = {
 					"RIGHT", -- [1]
@@ -49,6 +46,9 @@ AtlasLootClassicDB = {
 					1, -- [4]
 					0, -- [5]
 				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 286.7554949708375,
 			},
 		},
 		["畜生犬隊長 - 伊弗斯"] = {

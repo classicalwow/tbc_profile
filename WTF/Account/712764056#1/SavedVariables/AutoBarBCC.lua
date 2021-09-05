@@ -161,13 +161,13 @@ AutoBarDB = {
 					["buttonKey"] = "AutoBarButtonTrack",
 					["defaultButtonIndex"] = "*",
 				},
-				["AutoBarButtonInterrupt"] = {
+				["AutoBarButtonTrap"] = {
 					["barKey"] = "AutoBarClassBarHunter",
-					["buttonClass"] = "AutoBarButtonInterrupt",
+					["buttonClass"] = "AutoBarButtonTrap",
 					["square_popups"] = true,
 					["arrangeOnUse"] = true,
 					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonInterrupt",
+					["buttonKey"] = "AutoBarButtonTrap",
 					["defaultButtonIndex"] = "*",
 				},
 				["AutoBarButtonDebuff"] = {
@@ -186,6 +186,15 @@ AutoBarDB = {
 					["buttonKey"] = "AutoBarButtonClassPet",
 					["defaultButtonIndex"] = "*",
 				},
+				["AutoBarButtonInterrupt"] = {
+					["barKey"] = "AutoBarClassBarHunter",
+					["buttonClass"] = "AutoBarButtonInterrupt",
+					["square_popups"] = true,
+					["arrangeOnUse"] = true,
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonInterrupt",
+					["defaultButtonIndex"] = "*",
+				},
 				["AutoBarButtonCharge"] = {
 					["barKey"] = "AutoBarClassBarHunter",
 					["buttonClass"] = "AutoBarButtonCharge",
@@ -193,15 +202,6 @@ AutoBarDB = {
 					["arrangeOnUse"] = true,
 					["enabled"] = true,
 					["buttonKey"] = "AutoBarButtonCharge",
-					["defaultButtonIndex"] = "*",
-				},
-				["AutoBarButtonTrap"] = {
-					["barKey"] = "AutoBarClassBarHunter",
-					["buttonClass"] = "AutoBarButtonTrap",
-					["square_popups"] = true,
-					["arrangeOnUse"] = true,
-					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonTrap",
 					["defaultButtonIndex"] = "*",
 				},
 				["AutoBarButtonClassPets3"] = {
@@ -643,7 +643,7 @@ AutoBarDB = {
 					["arrangeOnUse"] = "鍛造",
 				},
 				["AutoBarButtonBuffWeapon1"] = {
-					["arrangeOnUse"] = 28421,
+					["arrangeOnUse"] = 23529,
 				},
 				["AutoBarButtonQuest"] = {
 					["arrangeOnUse"] = 30616,

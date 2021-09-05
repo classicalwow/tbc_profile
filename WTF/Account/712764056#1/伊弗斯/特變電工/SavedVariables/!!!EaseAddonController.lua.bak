@@ -109,13 +109,13 @@ U1DB = {
 		["adibags_config"] = 1,
 		["dbm-onyxia"] = 1,
 		["auctionator"] = 1,
-		["atlaslootclassic"] = 1,
+		["alatalentemu"] = 1,
 		["tullarange_config"] = 1,
 		["safequeue"] = 1,
 		["vendorprice"] = 1,
 		["parrot"] = 1,
-		["alatalentemu"] = 1,
 		["weakaurastemplates"] = 1,
+		["atlaslootclassic"] = 1,
 		["xansoundalerts"] = 1,
 		["battleinfo"] = 0,
 		["classiccodex-db-esmx"] = 0,
@@ -136,5 +136,5 @@ U1DB = {
 	["configs"] = {
 	},
 	["sortByName"] = true,
-	["last_logout_time"] = 1630764689,
+	["last_logout_time"] = 1630853369,
 }
