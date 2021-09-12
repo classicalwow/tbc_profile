@@ -1,6 +1,8 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0525,
+	["LastVersion"] = 2.0527,
+	["LastPlayerFullName"] = "特變電工-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 29011,
@@ -64,10 +66,10 @@ PawnOptions = {
 			["Level"] = 125,
 			["Link"] = "|cffa335ee|Hitem:28824::::::::70::::::::|h[火星完美護手]|h|r",
 		},
-		[9] = {
-			["ID"] = 28795,
-			["Level"] = 125,
-			["Link"] = "|cffa335ee|Hitem:28795::::::::70::::::::|h[劍刃氏族戰爭手環]|h|r",
+		[5] = {
+			["ID"] = 29019,
+			["Level"] = 120,
+			["Link"] = "|cffa335ee|Hitem:29019:2661:24058:24054:24054::::70::::::::|h[戰爭使者戰甲胸甲]|h|r",
 		},
 		[11] = {
 			["ID"] = 29279,
@@ -86,14 +88,12 @@ PawnOptions = {
 			["AlsoFitsIn"] = 11,
 			["Link"] = "|cffa335ee|Hitem:28791::::::::70::::::::|h[頑強之戒]|h|r",
 		},
-		[5] = {
-			["ID"] = 29019,
-			["Level"] = 120,
-			["Link"] = "|cffa335ee|Hitem:29019:2661:24058:24054:24054::::70::::::::|h[戰爭使者戰甲胸甲]|h|r",
+		[9] = {
+			["ID"] = 28795,
+			["Level"] = 125,
+			["Link"] = "|cffa335ee|Hitem:28795::::::::70::::::::|h[劍刃氏族戰爭手環]|h|r",
 		},
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "特變電工-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

@@ -1,13 +1,13 @@
 
 AtlasLootClassicDB = {
-	["global"] = {
-		["__addonrevision"] = 2030002,
-	},
 	["profileKeys"] = {
 		["路易斯桑拿 - 伊弗斯"] = "路易斯桑拿 - 伊弗斯",
 		["特變電工 - 伊弗斯"] = "特變電工 - 伊弗斯",
 		["邁克爾假死 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
 		["畜生犬隊長 - 伊弗斯"] = "畜生犬隊長 - 伊弗斯",
+	},
+	["global"] = {
+		["__addonrevision"] = 2030002,
 	},
 	["profiles"] = {
 		["路易斯桑拿 - 伊弗斯"] = {
@@ -18,13 +18,13 @@ AtlasLootClassicDB = {
 					"LEFT", -- [1]
 					nil, -- [2]
 					"LEFT", -- [3]
-					314.9635009765625, -- [4]
-					-70.96343231201172, -- [5]
+					315, -- [4]
+					-70.41706085205078, -- [5]
 				},
 				["selected"] = {
 					"AtlasLootClassic_Crafting", -- [1]
 					"EnchantingBC", -- [2]
-					7, -- [3]
+					nil, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},
@@ -42,7 +42,7 @@ AtlasLootClassicDB = {
 				["selected"] = {
 					"AtlasLootClassic_Crafting", -- [1]
 					"BlacksmithingBC", -- [2]
-					3, -- [3]
+					nil, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},
