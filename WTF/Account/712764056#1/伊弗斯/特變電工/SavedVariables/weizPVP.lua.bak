@@ -11,14 +11,15 @@ _weizpvp_chardb = {
 					["VERSION"] = 3,
 				},
 				["Addon"] = {
+					["Enabled"] = false,
 					["EnabledInArena"] = true,
 					["DisabledInSanctuary"] = true,
 				},
 				["Frames"] = {
 					["Point"] = "TOPLEFT",
 					["Width"] = 220.5575714111328,
-					["Y"] = 491.5543212890625,
-					["X"] = 772.4738159179688,
+					["Y"] = 217.0187377929688,
+					["X"] = 1535.461059570313,
 					["List"] = {
 						["Height"] = 360.0001220703125,
 					},
