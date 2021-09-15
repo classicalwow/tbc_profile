@@ -1,13 +1,13 @@
 
 AtlasLootClassicDB = {
+	["global"] = {
+		["__addonrevision"] = 2030002,
+	},
 	["profileKeys"] = {
 		["路易斯桑拿 - 伊弗斯"] = "路易斯桑拿 - 伊弗斯",
 		["特變電工 - 伊弗斯"] = "特變電工 - 伊弗斯",
 		["邁克爾假死 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
 		["畜生犬隊長 - 伊弗斯"] = "畜生犬隊長 - 伊弗斯",
-	},
-	["global"] = {
-		["__addonrevision"] = 2030002,
 	},
 	["profiles"] = {
 		["路易斯桑拿 - 伊弗斯"] = {
@@ -15,15 +15,15 @@ AtlasLootClassicDB = {
 		["特變電工 - 伊弗斯"] = {
 			["GUI"] = {
 				["point"] = {
-					"LEFT", -- [1]
+					nil, -- [1]
 					nil, -- [2]
-					"LEFT", -- [3]
-					315, -- [4]
-					-70.41706085205078, -- [5]
+					"CENTER", -- [3]
+					-25.87435531616211, -- [4]
+					-59.50821304321289, -- [5]
 				},
 				["selected"] = {
 					"AtlasLootClassic_Crafting", -- [1]
-					"EnchantingBC", -- [2]
+					"MiningBC", -- [2]
 					nil, -- [3]
 					1, -- [4]
 					0, -- [5]
@@ -31,6 +31,9 @@ AtlasLootClassicDB = {
 			},
 		},
 		["邁克爾假死 - 伊弗斯"] = {
+			["minimap"] = {
+				["minimapPos"] = 286.7554949708375,
+			},
 			["GUI"] = {
 				["point"] = {
 					"RIGHT", -- [1]
@@ -46,9 +49,6 @@ AtlasLootClassicDB = {
 					1, -- [4]
 					0, -- [5]
 				},
-			},
-			["minimap"] = {
-				["minimapPos"] = 286.7554949708375,
 			},
 		},
 		["畜生犬隊長 - 伊弗斯"] = {

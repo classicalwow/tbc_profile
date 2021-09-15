@@ -32,12 +32,12 @@ weakaurasarchive: enabled
 elvui_optionsui: enabled
 dbm-pvp: enabled
 atlaslootclassic_collections: enabled
-classiccodex-db: disabled
+classiccodex-db: enabled
 dbm-outlands: enabled
 weakaurasmodelpaths: enabled
 dbm-hyjal: enabled
 dbm-zg: enabled
-classiccodex-db-zhtw: disabled
+classiccodex-db-zhtw: enabled
 atlaslootclassic_crafting: enabled
 classiccodex-db-eses: disabled
 dbm-theeye: enabled
@@ -50,7 +50,7 @@ dbm-azeroth: enabled
 dbm-naxx: enabled
 dbm-mc: enabled
 dbm-aq40: enabled
-classiccodex: disabled
+classiccodex: enabled
 dbm-karazhan: enabled
 dbm-zulaman: enabled
 classiccodex-db-ruru: disabled
@@ -64,7 +64,7 @@ bugsack: enabled
 itemrackoptions: enabled
 tullarange_config: enabled
 !!!easeaddoncontroller: enabled
-classiccodex-patch: disabled
+classiccodex-patch: enabled
 ElvUI_VisualAuraTimers: disabled
 ElvUI_ExtraActionBars: disabled
 ElvUI_CastBarOverlay: disabled
@@ -135,7 +135,13 @@ DBM-Core: enabled
 DBM-StatusBarTimers: enabled
 DBM-VPVV: enabled
 Questie: enabled
-ClassicCodex-loader: disabled
+ClassicCodex-loader: enabled
 ElvUI_PVPDT: enabled
 AtlasQuest: enabled
 Atlas_ClassicWoW: enabled
+altoholic_agenda: enabled
+altoholic_summary: enabled
+altoholic_characters: enabled
+altoholic_guild: enabled
+altoholic_grids: enabled
+altoholic_search: enabled
