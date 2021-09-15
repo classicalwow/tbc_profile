@@ -12,8 +12,8 @@ DataStoreDB = {
 		["Version"] = 1,
 		["Characters"] = {
 			["Default.伊弗斯.特變電工"] = {
-				["faction"] = "Horde",
 				["guildName"] = "槍在手跟我走",
+				["faction"] = "Horde",
 			},
 		},
 		["ShortToLongRealmNames"] = {

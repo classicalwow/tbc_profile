@@ -35,7 +35,7 @@ DataStore_InventoryDB = {
 			["Default.伊弗斯.槍在手跟我走"] = {
 				["Members"] = {
 					["特變電工"] = {
-						["averageItemLvl"] = 116,
+						["averageItemLvl"] = 117,
 					},
 					["三浦建太郎"] = {
 						["averageItemLvl"] = 117,

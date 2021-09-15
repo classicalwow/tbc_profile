@@ -28,15 +28,12 @@ DataStore_InventoryDB = {
 					"|cff0070dd|Hitem:36941::::::::70:::::::::|h[競賽者外袍]|h|r", -- [19]
 				},
 				["averageItemLvl"] = 117.1764705882353,
-				["lastUpdate"] = 1631637615,
+				["lastUpdate"] = 1631723862,
 			},
 		},
 		["Guilds"] = {
 			["Default.伊弗斯.槍在手跟我走"] = {
 				["Members"] = {
-					["特變電工"] = {
-						["averageItemLvl"] = 117,
-					},
 					["三浦建太郎"] = {
 						["averageItemLvl"] = 117,
 					},

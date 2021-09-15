@@ -7,7 +7,8 @@ ItemRackUser = {
 	["MainScale"] = 1,
 	["SetMenuWrapValue"] = 3,
 	["SetMenuWrap"] = "OFF",
-	["CurrentSet"] = "防戰",
+	["Queues"] = {
+	},
 	["Sets"] = {
 		["狂暴"] = {
 			["oldset"] = "pvp",
@@ -120,16 +121,12 @@ ItemRackUser = {
 				"28659::::::::70:::::::::", -- [18]
 				[0] = "28061::::::::70:::::::::",
 			},
-			["icon"] = 134949,
 			["key"] = "]",
+			["icon"] = 134949,
 			["old"] = {
 			},
 		},
 		["~CombatQueue"] = {
-			["equip"] = {
-			},
-		},
-		["~Unequip"] = {
 			["equip"] = {
 			},
 		},
@@ -175,11 +172,14 @@ ItemRackUser = {
 				[17] = "28307:2673:::::::70:::::::::",
 			},
 		},
+		["~Unequip"] = {
+			["equip"] = {
+			},
+		},
 	},
 	["EnableQueues"] = "ON",
 	["EnablePerSetQueues"] = "OFF",
-	["Buttons"] = {
-	},
+	["EnableEvents"] = "ON",
 	["ItemsUsed"] = {
 	},
 	["Events"] = {
@@ -188,11 +188,11 @@ ItemRackUser = {
 		["Set"] = {
 		},
 	},
-	["Alpha"] = 1,
 	["Hidden"] = {
 	},
-	["EnableEvents"] = "ON",
-	["MenuScale"] = 0.85,
-	["Queues"] = {
+	["Alpha"] = 1,
+	["Buttons"] = {
 	},
+	["MenuScale"] = 0.85,
+	["CurrentSet"] = "防戰",
 }
