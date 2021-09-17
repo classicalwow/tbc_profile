@@ -11,21 +11,29 @@ CodexConfig = {
 	["showLowLevel"] = false,
 	["_tom_waypoint"] = {
 		1948, -- [1]
-		0.557, -- [2]
-		0.5820000000000001, -- [3]
+		0.5820000000000001, -- [2]
+		0.708, -- [3]
 		["arrivaldistance"] = 15,
 		["callbacks"] = {
 			["distance"] = {
+				[10] = nil --[[ skipped inline function ]],
+				[15] = nil --[[ skipped inline function ]],
 			},
 			["world"] = {
+				["onclick"] = nil --[[ skipped inline function ]],
+				["tooltip_update"] = nil --[[ skipped inline function ]],
+				["tooltip_show"] = nil --[[ skipped inline function ]],
 			},
 			["minimap"] = {
+				["onclick"] = nil --[[ skipped inline function ]],
+				["tooltip_update"] = nil --[[ skipped inline function ]],
+				["tooltip_show"] = nil --[[ skipped inline function ]],
 			},
 		},
 		["persistent"] = true,
 		["minimap"] = true,
 		["cleardistance"] = 10,
-		["title"] = "拉瑞萨·射日者",
+		["title"] = "上古影月之魂",
 		["from"] = "?",
 		["crazy"] = true,
 		["world"] = true,

@@ -9,7 +9,7 @@ alaTalentEmuSV = {
 	},
 	["_version"] = 210524,
 	["var"] = {
-		["Player-4487-0012ECFA"] = "9S::gH::iLRH:26dc661",
+		["Player-4487-0012ECFA"] = "9ukAW-ufn7GHgnN:2:G61",
 		["savedTalent"] = {
 			["防戰- 武器 5 狂怒10 |cff7fbfff防护46|r"] = "9S::gH::iLRH:26dc661",
 			["|cffaad372猎人|r- |cff7fbfff野兽控制41|r 射击20 生存 0"] = "2xFDiHk3l61n6PU61",

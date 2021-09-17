@@ -93,7 +93,7 @@ ConsolePort_Menu: disabled
 ConsolePort_World: disabled
 ConsolePort_Bar: disabled
 clique: enabled
-TradeSkillMaster: enabled
+TradeSkillMaster: disabled
 BattlegroundSpiritReleaser: enabled
 aux-addon: enabled
 AutoBarBCC: enabled

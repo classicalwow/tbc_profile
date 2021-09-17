@@ -4,6 +4,9 @@ WeakAurasOptionsSaved = {
 	["needsRebuild"] = false,
 	["version"] = "3.7.1",
 	["magnetAlign"] = true,
+	["savedSnippets"] = {
+	},
+	["spellCacheAchivements"] = true,
 	["spellCache"] = {
 		["召喚瑪格拉姆劫毀者"] = {
 			["spells"] = {
@@ -48786,7 +48789,7 @@ WeakAurasOptionsSaved = {
 				[38584] = 135825,
 				[7389] = 132150,
 				[6351] = 135825,
-				[6603] = 135384,
+				[6603] = 133508,
 				[31992] = 135825,
 				[8386] = 135641,
 				[3606] = 135825,
@@ -56501,7 +56504,7 @@ WeakAurasOptionsSaved = {
 		},
 		["鞭擊恐懼惡魔"] = {
 			["spells"] = {
-				[35673] = 135384,
+				[35673] = 133508,
 			},
 		},
 		["裝滿娜瑪拉的瓶子"] = {
@@ -90381,9 +90384,6 @@ WeakAurasOptionsSaved = {
 				[2402] = 136249,
 			},
 		},
-	},
-	["spellCacheAchivements"] = true,
-	["savedSnippets"] = {
 	},
 	["build"] = "40045",
 }
