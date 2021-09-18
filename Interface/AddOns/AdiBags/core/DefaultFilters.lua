@@ -1,6 +1,6 @@
 --[[
 AdiBags - Adirelle's bag addon.
-Copyright 2010-2014 Adirelle (adirelle@gmail.com)
+Copyright 2010-2021 Adirelle (adirelle@gmail.com)
 All rights reserved.
 
 This file is part of AdiBags.
@@ -44,6 +44,7 @@ function addon:SetupDefaultFilters()
 	local TRADE_GOODS = GetItemClassInfo(LE_ITEM_CLASS_TRADEGOODS)
 	local WEAPON = GetItemClassInfo(LE_ITEM_CLASS_WEAPON)
 	local ARMOR = GetItemClassInfo(LE_ITEM_CLASS_ARMOR)
+	local KEY = GetItemClassInfo(LE_ITEM_CLASS_KEY)
 	local JEWELRY = L['Jewelry']
 	local EQUIPMENT = L['Equipment']
 	local AMMUNITION = L['Ammunition']
@@ -56,8 +57,22 @@ function addon:SetupDefaultFilters()
 		[CONSUMMABLE] = -10,
 		[MISCELLANEOUS] = -20,
 		[AMMUNITION] = -30,
-		[JUNK] = -40,
+		[KEY] = -40,
+		[JUNK] = -50,
 	}
+
+	-- [90] Key
+	do
+		local keyFilter = addon:RegisterFilter('Key', 90, function(self, slotData)
+			if slotData.bagFamily == 256 or slotData.class == KEY or slotData.subclass == KEY then
+				return KEY
+			else
+				return false
+			end
+		end)
+		keyFilter.uiName = KEY
+		keyFilter.uiDesc = L['Put items categorized as keys in their own section.']
+	end
 
 	-- [75] Quest Items
 	do

@@ -1,6 +1,6 @@
 --[[
 AdiBags - Adirelle's bag addon.
-Copyright 2010-2014 Adirelle (adirelle@gmail.com)
+Copyright 2010-2021 Adirelle (adirelle@gmail.com)
 All rights reserved.
 
 This file is part of AdiBags.
@@ -33,8 +33,8 @@ local GetContainerNumFreeSlots = _G.GetContainerNumFreeSlots
 local geterrorhandler = _G.geterrorhandler
 local GetItemFamily = _G.GetItemFamily
 local GetItemInfo = _G.GetItemInfo
-local ITEM_QUALITY_POOR = _G.LE_ITEM_QUALITY_POOR
-local ITEM_QUALITY_UNCOMMON = _G.LE_ITEM_QUALITY_UNCOMMON
+local ITEM_QUALITY_POOR = _G.Enum.ItemQuality.Poor
+local ITEM_QUALITY_UNCOMMON = _G.Enum.ItemQuality.Good
 local pairs = _G.pairs
 local pcall = _G.pcall
 local select = _G.select

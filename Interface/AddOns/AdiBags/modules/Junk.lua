@@ -1,6 +1,6 @@
 --[[
 AdiBags - Adirelle's bag addon.
-Copyright 2010-2014 Adirelle (adirelle@gmail.com)
+Copyright 2010-2021 Adirelle (adirelle@gmail.com)
 All rights reserved.
 
 This file is part of AdiBags.
@@ -27,8 +27,10 @@ local _G = _G
 local format = _G.format
 local GameTooltip = _G.GameTooltip
 local GetItemInfo = _G.GetItemInfo
-local ITEM_QUALITY_POOR = _G.LE_ITEM_QUALITY_POOR
-local ITEM_QUALITY_UNCOMMON = _G.LE_ITEM_QUALITY_UNCOMMON
+local hooksecurefunc = _G.hooksecurefunc
+local IsAddOnLoaded = _G.IsAddOnLoaded
+local ITEM_QUALITY_POOR = _G.Enum.ItemQuality.Poor
+local ITEM_QUALITY_UNCOMMON = _G.Enum.ItemQuality.Good
 local print = _G.print
 local select = _G.select
 local setmetatable = _G.setmetatable
@@ -75,6 +77,20 @@ function mod:OnEnable()
 	wipe(cache)
 	addon.RegisterSectionHeaderScript(self, 'OnTooltipUpdate', 'OnTooltipUpdateSectionHeader')
 	addon.RegisterSectionHeaderScript(self, 'OnClick', 'OnClickSectionHeader')
+	if not self.hooked then
+		if IsAddOnLoaded('Scrap_Merchant') then
+			self:ADDON_LOADED('OnEnable', 'Scrap_Merchant')
+		else
+			self:RegisterEvent('ADDON_LOADED')
+		end
+	end
+end
+
+function mod:ADDON_LOADED(_, name)
+	if name ~= 'Scrap_Merchant' then return end
+	self:UnregisterEvent('ADDON_LOADED')
+	self:HookScrap()
+	self.hooked = true
 end
 
 function mod:OnDisable()
@@ -208,6 +224,7 @@ function mod:GetOptions()
 		},
 		include = {
 			type = 'multiselect',
+			width = 'full',
 			dialogControl = 'ItemList',
 			name = L['Include list'],
 			desc = L['Items in this list are always considered as junk. Click an item to remove it from the list.'],
@@ -218,6 +235,7 @@ function mod:GetOptions()
 		},
 		exclude = {
 			type = 'multiselect',
+			width = 'full',
 			dialogControl = 'ItemList',
 			name = L['Exclude list'],
 			desc = L['Items in this list are never considered as junk. Click an item to remove it from the list.'],
@@ -241,7 +259,7 @@ if Scrap and type(Scrap.IsJunk) == "function" then
 		return (force or prefs.sources.Scrap) and Scrap:IsJunk(itemId)
 	end
 
-	local function updateScrap()
+	local function hook()
 		if prefs.sources.Scrap then
 			wipe(cache)
 			addon:SendMessage("AdiBags_FiltersChanged")
@@ -249,15 +267,18 @@ if Scrap and type(Scrap.IsJunk) == "function" then
 	end
 
 	if Scrap.HookScript then
-		Scrap:HookScript('OnReceiveDrag', updateScrap)
-	end
-
-	if Scrap.Merchant and Scrap.Merchant.HookScript then
-		Scrap.Merchant:HookScript('OnReceiveDrag', updateScrap)
+		-- Fallback support for older versions; no longer a ScriptObject.
+		Scrap:HookScript('OnReceiveDrag', hook)
 	end
 
 	if Scrap.ToggleJunk then
-		_G.hooksecurefunc(Scrap, "ToggleJunk", updateScrap)
+		hooksecurefunc(Scrap, 'ToggleJunk', hook)
+	end
+
+	function mod:HookScrap()
+		if Scrap.Merchant then
+			Scrap.Merchant:HookScript('OnReceiveDrag', hook)
+		end
 	end
 
 	sourceList.Scrap = "Scrap"

@@ -1,6 +1,6 @@
 --[[
 AdiBags - Adirelle's bag addon.
-Copyright 2010-2014 Adirelle (adirelle@gmail.com)
+Copyright 2010-2021 Adirelle (adirelle@gmail.com)
 All rights reserved.
 
 This file is part of AdiBags.
@@ -24,7 +24,6 @@ local L = addon.L
 
 --<GLOBALS
 local _G = _G
-local BackdropTemplateMixin = _G.BackdropTemplateMixin
 local BACKPACK_CONTAINER = _G.BACKPACK_CONTAINER
 local band = _G.bit.band
 local BankFrame = _G.BankFrame
@@ -50,6 +49,7 @@ local GetItemInfo = _G.GetItemInfo
 local GetNumBankSlots = _G.GetNumBankSlots
 local ipairs = _G.ipairs
 local IsInventoryItemLocked = _G.IsInventoryItemLocked
+local KEYRING_CONTAINER = _G.KEYRING_CONTAINER
 local next = _G.next
 local NUM_BAG_SLOTS = _G.NUM_BAG_SLOTS
 local NUM_BANKGENERIC_SLOTS = _G.NUM_BANKGENERIC_SLOTS
@@ -104,7 +104,7 @@ do
 		addon:Debug('FindSlotForItem', itemId, GetItemInfo(itemId), 'count=', itemCount, 'maxStack=', maxStack, 'family=', itemFamily, 'bags:', unpack(bags))
 		local bestBag, bestSlot, bestScore
 		for i, bag in pairs(bags) do
-			local scoreBonus = band(select(2, GetContainerNumFreeSlots(bag)) or 0, itemFamily) ~= 0 and maxStack or 0
+			local scoreBonus = band(bag == KEYRING_CONTAINER and 256 or select(2, GetContainerNumFreeSlots(bag)) or 0, itemFamily) ~= 0 and maxStack or 0
 			for slot = 1, GetContainerNumSlots(bag) do
 				local texture, slotCount, locked = GetContainerItemInfo(bag, slot)
 				if not locked and (not texture or GetContainerItemID(bag, slot) == itemId) then
@@ -114,15 +114,15 @@ do
 						if not bestScore or slotScore > bestScore then
 							addon:Debug('FindSlotForItem', bag, slot, 'slotCount=', slotCount, 'score=', slotScore, 'NEW BEST SLOT')
 							bestBag, bestSlot, bestScore = bag, slot, slotScore
-						--@debug@
+						--[===[@debug@
 						else
 							addon:Debug('FindSlotForItem', bag, slot, 'slotCount=', slotCount, 'score=', slotScore, '<', bestScore)
-						--@end-debug@
+						--@end-debug@]===]
 						end
-					--@debug@
+					--[===[@debug@
 					else
 						addon:Debug('FindSlotForItem', bag, slot, 'slotCount=', slotCount, ': not enough space')
-					--@end-debug@
+					--@end-debug@]===]
 					end
 				end
 			end
@@ -423,14 +423,6 @@ local function Panel_UpdateSkin(self)
 	else
 		self:SetBackdropBorderColor(0.5+(0.5*r/m), 0.5+(0.5*g/m), 0.5+(0.5*b/m), a)
 	end
-	
-	if IsAddOnLoaded("ElvUI") then
-		self:StripTextures()
-		self:SetTemplate("Transparent")
-		if IsAddOnLoaded("ElvUI_KlixUI") then
-			self:Styling()
-		end
-	end
 end
 
 local function Panel_ConfigChanged(self, event, name)
@@ -444,7 +436,7 @@ end
 --------------------------------------------------------------------------------
 
 function addon:CreateBagSlotPanel(container, name, bags, isBank)
-	local self = CreateFrame("Frame", container:GetName().."Bags", container, BackdropTemplateMixin and "BackdropTemplate")
+	local self = CreateFrame("Frame", container:GetName().."Bags", container, "BackdropTemplate")
 	self:SetPoint("BOTTOMLEFT", container, "TOPLEFT", 0, 4)
 
 	self.openSound = isBank and SOUNDKIT.IG_MAINMENU_OPEN or SOUNDKIT.IG_BACKPACK_OPEN
@@ -465,21 +457,11 @@ function addon:CreateBagSlotPanel(container, name, bags, isBank)
 	local x = BAG_INSET
 	local height = 0
 	for i, bag in ipairs(bags) do
-		if bag ~= BACKPACK_CONTAINER and bag ~= BANK_CONTAINER then
+		if bag ~= KEYRING_CONTAINER and bag ~= BACKPACK_CONTAINER and bag ~= BANK_CONTAINER then
 			local button = buttonClass:Create(bag)
 			button:SetParent(self)
 			button:SetPoint("TOPLEFT", x, -TOP_PADDING)
 			button:Show()
-			if IsAddOnLoaded("ElvUI") then
-				button:SetTemplate(nil, true)
-				button:StyleButton()
-				button:SetNormalTexture(nil)
-				button.icon:SetTexCoord(unpack(ElvUI[1].TexCoords))
-				button.icon:SetInside()
-				if IsAddOnLoaded("ElvUI_KlixUI") then
-					button:CreateIconShadow()
-				end
-			end
 			x = x + ITEM_SIZE + ITEM_SPACING
 			tinsert(self.buttons, button)
 		end

@@ -1,6 +1,6 @@
 --[[
 AdiBags - Adirelle's bag addon.
-Copyright 2010-2014 Adirelle (adirelle@gmail.com)
+Copyright 2010-2021 Adirelle (adirelle@gmail.com)
 All rights reserved.
 
 This file is part of AdiBags.
@@ -34,9 +34,11 @@ local GetContainerNumFreeSlots = _G.GetContainerNumFreeSlots
 local GetItemInfo = _G.GetItemInfo
 local GetItemQualityColor = _G.GetItemQualityColor
 local hooksecurefunc = _G.hooksecurefunc
+local IsContainerItemAnUpgrade = _G.IsContainerItemAnUpgrade
 local IsInventoryItemLocked = _G.IsInventoryItemLocked
-local ITEM_QUALITY_POOR = _G.LE_ITEM_QUALITY_POOR
-local ITEM_QUALITY_UNCOMMON = _G.LE_ITEM_QUALITY_UNCOMMON
+local ITEM_QUALITY_COMMON = _G.Enum.ItemQuality.Standard
+local ITEM_QUALITY_POOR = _G.Enum.ItemQuality.Poor
+local KEYRING_CONTAINER = _G.KEYRING_CONTAINER
 local next = _G.next
 local pairs = _G.pairs
 local select = _G.select
@@ -72,11 +74,6 @@ function buttonProto:OnCreate()
 	self:SetScript('OnHide', self.OnHide)
 	self:SetWidth(ITEM_SIZE)
 	self:SetHeight(ITEM_SIZE)
-	if IsAddOnLoaded("ElvUI") then
-		self:SetTemplate(nil, true)
-		self:StyleButton()
-		self:SetNormalTexture(nil)
-	end
 	if self.NewItemTexture then
 		self.NewItemTexture:Hide()
 	end
@@ -279,7 +276,7 @@ function buttonProto:FullUpdate()
 	self.itemLink = GetContainerItemLink(bag, slot)
 	self.hasItem = not not self.itemId
 	self.texture = GetContainerItemInfo(bag, slot)
-	self.bagFamily = select(2, GetContainerNumFreeSlots(bag))
+	self.bagFamily = bag == KEYRING_CONTAINER and 256 or select(2, GetContainerNumFreeSlots(bag))
 	self:Update()
 end
 
@@ -288,21 +285,10 @@ function buttonProto:Update()
 	local icon = self.IconTexture
 	if self.texture then
 		icon:SetTexture(self.texture)
-		if IsAddOnLoaded("ElvUI") then
-			icon:SetTexCoord(unpack(ElvUI[1].TexCoords))
-			icon:SetInside()
-		else
-			icon:SetTexCoord(0,1,0,1)
-		end
+		icon:SetTexCoord(0,1,0,1)
 	else
-		if IsAddOnLoaded("ElvUI") then
-			icon:SetTexture()
-			icon:SetTexCoord(unpack(ElvUI[1].TexCoords))
-			icon:SetInside()
-		else
-			icon:SetTexture([[Interface\BUTTONS\UI-EmptySlot]])
-			icon:SetTexCoord(12/64, 51/64, 12/64, 51/64)
-		end
+		icon:SetTexture([[Interface\BUTTONS\UI-EmptySlot]])
+		icon:SetTexCoord(12/64, 51/64, 12/64, 51/64)
 	end
 	local tag = (not self.itemId or addon.db.profile.showBagType) and addon:GetFamilyTag(self.bagFamily)
 	if tag then
@@ -316,9 +302,6 @@ function buttonProto:Update()
 	self:UpdateCooldown()
 	self:UpdateLock()
 	self:UpdateNew()
-	if IsAddOnLoaded("ElvUI_KlixUI") then
-		self:UpdateKlixStyling()
-	end
 	if self.UpdateSearch then
 		self:UpdateSearch()
 	end
@@ -359,9 +342,6 @@ function buttonProto:UpdateSearch()
 end
 
 function buttonProto:UpdateCooldown()
-	if IsAddOnLoaded("ElvUI") then
-		ElvUI[1]:RegisterCooldown(self.Cooldown)
-	end
 	return ContainerFrame_UpdateCooldown(self.bag, self)
 end
 
@@ -369,8 +349,11 @@ function buttonProto:UpdateNew()
 	self.BattlepayItemTexture:SetShown(IsBattlePayItem(self.bag, self.slot))
 end
 
-function buttonProto:UpdateKlixStyling()
-	self:CreateIconShadow()
+function buttonProto:UpdateUpgradeIcon()
+	-- Use Pawn's (third-party addon) function if present; else fallback to Blizzard's.
+	local PawnIsContainerItemAnUpgrade = _G.PawnIsContainerItemAnUpgrade
+	local itemIsUpgrade = PawnIsContainerItemAnUpgrade and PawnIsContainerItemAnUpgrade(self.bag, self.slot) or IsContainerItemAnUpgrade(self.bag, self.slot)
+	self.UpgradeIcon:SetShown(itemIsUpgrade or false)
 end
 
 local function GetBorder(bag, slot, itemId, settings)
@@ -378,70 +361,39 @@ local function GetBorder(bag, slot, itemId, settings)
 		return
 	end
 	local _, _, _, quality = GetContainerItemInfo(bag, slot)
-	if quality == LE_ITEM_QUALITY_POOR and settings.dimJunk then
+	if quality == ITEM_QUALITY_POOR and settings.dimJunk then
 		local v = 1 - 0.5 * settings.qualityOpacity
-		if IsAddOnLoaded("ElvUI") then		
-			return true, v, v, v, 1, "MOD"
-		else
-			return true, v, v, v, 1, nil, nil, nil, nil, "MOD"
-		end
+		return true, v, v, v, 1, nil, nil, nil, nil, "MOD"
 	end
-	local color = settings.allHighlight and BAG_ITEM_QUALITY_COLORS[quality] or quality ~= LE_ITEM_QUALITY_COMMON and BAG_ITEM_QUALITY_COLORS[quality]
+	local color = quality ~= ITEM_QUALITY_COMMON and BAG_ITEM_QUALITY_COLORS[quality]
 	if color then
-		if IsAddOnLoaded("ElvUI") then
-			return [[Interface\Buttons\UI-ActionButton-Border]], color.r, color.g, color.b, settings.qualityOpacity, "ADD"
-		else
-			return [[Interface\Buttons\UI-ActionButton-Border]], color.r, color.g, color.b, settings.qualityOpacity, 14/64, 49/64, 15/64, 50/64, "ADD"
-		end
+		return [[Interface\Buttons\UI-ActionButton-Border]], color.r, color.g, color.b, settings.qualityOpacity, 14/64, 49/64, 15/64, 50/64, "ADD"
 	end
 end
 
 function buttonProto:UpdateBorder(isolatedEvent)
-	if IsAddOnLoaded("ElvUI") then
-		self:SetBackdropBorderColor(unpack(ElvUI[1].media.bordercolor))
-		local texture, r, g, b, a, blendMode
-		if self.hasItem then
-			texture, r, g, b, a, blendMode = GetBorder(self.bag, self.slot, self.itemLink or self.itemId, addon.db.profile)
-		end
-		local border = self.IconQuestTexture
-		if not texture and texture ~= nil then
-			border:Hide()
-		else
-			if texture == true then
-				border:SetColorTexture(r, g, b, a)
-			else
-				border:SetTexture()
-				self:SetBackdropBorderColor(r, g, b, a)
-			end
-			border:SetTexCoord(0, 1, 0, 1)
-			border:SetInside()
-			border:SetBlendMode(blendMode or "BLEND")
-			border:Show()
-		end
+	local texture, r, g, b, a, x1, x2, y1, y2, blendMode
+	if self.hasItem then
+		texture, r, g, b, a, x1, x2, y1, y2, blendMode = GetBorder(self.bag, self.slot, self.itemLink or self.itemId, addon.db.profile)
+	end
+	if not texture then
+		self.IconQuestTexture:Hide()
 	else
-		local texture, r, g, b, a, x1, x2, y1, y2, blendMode
-		if self.hasItem then
-			texture, r, g, b, a, x1, x2, y1, y2, blendMode = GetBorder(self.bag, self.slot, self.itemLink or self.itemId, addon.db.profile)
-		end
-		if not texture then
-			self.IconQuestTexture:Hide()
+		local border = self.IconQuestTexture
+		if texture == true then
+			border:SetVertexColor(1, 1, 1, 1)
+			border:SetColorTexture(r or 1, g or 1, b or 1, a or 1)
 		else
-			local border = self.IconQuestTexture
-			if texture == true then
-				border:SetVertexColor(1, 1, 1, 1)
-				border:SetColorTexture(r or 1, g or 1, b or 1, a or 1)
-			else
-				border:SetTexture(texture)
-				border:SetVertexColor(r or 1, g or 1, b or 1, a or 1)
-			end
-			border:SetTexCoord(x1 or 0, x2 or 1, y1 or 0, y2 or 1)
-			border:SetBlendMode(blendMode or "BLEND")
-			border:Show()
+			border:SetTexture(texture)
+			border:SetVertexColor(r or 1, g or 1, b or 1, a or 1)
 		end
+		border:SetTexCoord(x1 or 0, x2 or 1, y1 or 0, y2 or 1)
+		border:SetBlendMode(blendMode or "BLEND")
+		border:Show()
 	end
 	if self.JunkIcon then
 		local quality = self.hasItem and select(3, GetItemInfo(self.itemLink or self.itemId))
-		self.JunkIcon:SetShown(quality == LE_ITEM_QUALITY_POOR and addon:GetInteractingWindow() == "MERCHANT")
+		self.JunkIcon:SetShown(quality == ITEM_QUALITY_POOR and addon:GetInteractingWindow() == "MERCHANT")
 	end
 	if isolatedEvent then
 		addon:SendMessage('AdiBags_UpdateBorder', self)
@@ -604,7 +556,7 @@ function stackProto:Update()
 	self:UpdateVisibleSlot()
 	self:UpdateCount()
 	if self.button then
-		self.button:FullUpdate()
+		self.button:Update()
 	end
 end
 

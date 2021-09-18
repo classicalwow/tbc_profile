@@ -1,6 +1,6 @@
 --[[
 AdiBags - Adirelle's bag addon.
-Copyright 2010-2014 Adirelle (adirelle@gmail.com)
+Copyright 2010-2021 Adirelle (adirelle@gmail.com)
 All rights reserved.
 
 This file is part of AdiBags.
@@ -221,7 +221,7 @@ function addon:GetPool(name)
 	return name and pools[name]
 end
 
---@debug@
+--[===[@debug@
 -- Globals: SLASH_ADIBAGSOODEBUG1
 SLASH_ADIBAGSOODEBUG1 = "/aboo"
 function SlashCmdList.ADIBAGSOODEBUG()
@@ -241,4 +241,4 @@ function SlashCmdList.ADIBAGSOODEBUG()
 		print(format("- %s: heap size: %d, number of active objects: %d", name, heapSize, numActives))
 	end
 end
---@end-debug@
+--@end-debug@]===]

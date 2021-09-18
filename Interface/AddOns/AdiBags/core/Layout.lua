@@ -1,6 +1,6 @@
 --[[
 AdiBags - Adirelle's bag addon.
-Copyright 2010-2014 Adirelle (adirelle@gmail.com)
+Copyright 2010-2021 Adirelle (adirelle@gmail.com)
 All rights reserved.
 
 This file is part of AdiBags.
@@ -24,8 +24,6 @@ local L = addon.L
 
 --<GLOBALS
 local _G = _G
-local BackdropTemplateMixin = _G.BackdropTemplateMixin
-local Mixin = _G.Mixin
 local pairs = _G.pairs
 local type = _G.type
 local UIParent = _G.UIParent
@@ -34,9 +32,7 @@ local wipe = _G.wipe
 
 function addon:CreateBagAnchor()
 	local anchor = self:CreateAnchorWidget(UIParent, "anchor", L["AdiBags Anchor"])
-	if BackdropTemplateMixin then
-		Mixin(anchor, BackdropTemplateMixin)
-	end
+	Mixin(anchor, BackdropTemplateMixin)
 	anchor:SetSize(80, 80)
 	anchor:SetFrameStrata("TOOLTIP")
 	anchor:SetBackdrop({ bgFile = [[Interface\Tooltips\UI-Tooltip-Background]] })

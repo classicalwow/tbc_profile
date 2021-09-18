@@ -1,6 +1,6 @@
 --[[
 AdiBags - Adirelle's bag addon.
-Copyright 2010-2014 Adirelle (adirelle@gmail.com)
+Copyright 2010-2021 Adirelle (adirelle@gmail.com)
 All rights reserved.
 
 This file is part of AdiBags.
@@ -24,7 +24,6 @@ local L = addon.L
 
 --<GLOBALS
 local _G = _G
-local BackdropTemplateMixin = _G.BackdropTemplateMixin
 local assert = _G.assert
 local BACKPACK_CONTAINER = _G.BACKPACK_CONTAINER
 local band = _G.bit.band
@@ -42,6 +41,7 @@ local GetCursorInfo = _G.GetCursorInfo
 local GetItemInfo = _G.GetItemInfo
 local GetMerchantItemLink = _G.GetMerchantItemLink
 local ipairs = _G.ipairs
+local KEYRING_CONTAINER = _G.KEYRING_CONTAINER
 local max = _G.max
 local min = _G.min
 local next = _G.next
@@ -97,9 +97,7 @@ local bagSlots = {}
 function containerProto:OnCreate(name, isBank, bagObject)
 	self:SetParent(UIParent)
 	containerParentProto.OnCreate(self)
-	if BackdropTemplateMixin then
-		Mixin(self, BackdropTemplateMixin)
-	end
+	Mixin(self, BackdropTemplateMixin)
 
 	--self:EnableMouse(true)
 	self:SetFrameStrata("HIGH")
@@ -175,27 +173,11 @@ function containerProto:OnCreate(name, isBank, bagObject)
 	closeButton:SetPoint("TOPRIGHT", -2, -2)
 	addon.SetupTooltip(closeButton, L["Close"])
 	closeButton:SetFrameLevel(frameLevel)
-	if IsAddOnLoaded("ElvUI")  then
-		ElvUI[1]:GetModule("Skins"):HandleCloseButton(self.CloseButton)
-	end
 
 	local bagSlotButton = CreateFrame("CheckButton", nil, self)
 	bagSlotButton:SetNormalTexture([[Interface\Buttons\Button-Backpack-Up]])
-	if IsAddOnLoaded("ElvUI") then
-		bagSlotButton:SetCheckedTexture(ElvUI[1].media.normTex)
-		bagSlotButton:GetCheckedTexture():SetVertexColor(1, .82, 0, 0.5)
-		bagSlotButton:GetCheckedTexture():SetInside(bagSlotButton.backdrop, 0, 0)
-		ElvUI[1]:GetModule("Skins"):HandleIcon(bagSlotButton:GetNormalTexture(), true)
-		if IsAddOnLoaded("ElvUI_KlixUI") then
-			bagSlotButton:CreateIconShadow()
-			if ElvUI[1].db.KlixUI.general.iconShadow and not IsAddOnLoaded("Masque") then
-				bagSlotButton.ishadow:SetInside(bagSlotButton, 0, 0)
-			end
-		end
-	else
-		bagSlotButton:SetCheckedTexture([[Interface\Buttons\CheckButtonHilight]])
-		bagSlotButton:GetCheckedTexture():SetBlendMode("ADD")
-	end
+	bagSlotButton:SetCheckedTexture([[Interface\Buttons\CheckButtonHilight]])
+	bagSlotButton:GetCheckedTexture():SetBlendMode("ADD")
 	bagSlotButton:SetScript('OnClick', BagSlotButton_OnClick)
 	bagSlotButton.panel = bagSlotPanel
 	bagSlotButton:SetWidth(18)
@@ -208,17 +190,10 @@ function containerProto:OnCreate(name, isBank, bagObject)
 	headerLeftRegion:AddWidget(bagSlotButton, 50)
 
 	local searchBox = CreateFrame("EditBox", self:GetName().."SearchBox", self, "BagSearchBoxTemplate")
-	if IsAddOnLoaded("ElvUI") then
-		searchBox:SetSize(130, 18)
-	else
-		searchBox:SetSize(130, 20)
-	end
+	searchBox:SetSize(130, 20)
 	searchBox:SetFrameLevel(frameLevel)
 	headerRightRegion:AddWidget(searchBox, -10, 130, 0, -1)
 	tinsert(_G.ITEM_SEARCHBAR_LIST, searchBox:GetName())
-	if IsAddOnLoaded("ElvUI") then
-		ElvUI[1]:GetModule("Skins"):HandleEditBox(searchBox)
-	end
 
 	local title = self:CreateFontString(self:GetName().."Title","OVERLAY")
 	self.Title = title
@@ -281,9 +256,6 @@ function containerProto:CreateModuleButton(letter, order, onClick, tooltip)
 	button:SetSize(20, 20)
 	button:SetScript("OnClick", onClick)
 	button:RegisterForClicks("AnyUp")
-	if IsAddOnLoaded("ElvUI") then
-		ElvUI[1]:GetModule("Skins"):HandleButton(button)
-	end
 	if order then
 		self:AddHeaderWidget(button, order)
 	end
@@ -413,7 +385,7 @@ local function FindBagWithRoom(self, itemFamily)
 	for bag in pairs(self:GetBagIds()) do
 		local numFree, family = GetContainerNumFreeSlots(bag)
 		if numFree and numFree > 0 then
-			if band(family, itemFamily) ~= 0 then
+			if band(bag == KEYRING_CONTAINER and 256 or family, itemFamily) ~= 0 then
 				return bag
 			elseif not fallback then
 				fallback = bag
@@ -512,14 +484,6 @@ function containerProto:UpdateSkin()
 	else
 		self:SetBackdropBorderColor(0.5+(0.5*r/m), 0.5+(0.5*g/m), 0.5+(0.5*b/m), a)
 	end
-	
-	if IsAddOnLoaded("ElvUI") then
-		self:StripTextures()
-		self:SetTemplate("Transparent")
-		if IsAddOnLoaded("ElvUI_KlixUI") then
-			self:Styling()
-		end
-	end
 end
 
 --------------------------------------------------------------------------------
@@ -532,6 +496,7 @@ function containerProto:UpdateContent(bag)
 	local content = self.content[bag]
 	local newSize = self:GetBagIds()[bag] and GetContainerNumSlots(bag) or 0
 	local _, bagFamily = GetContainerNumFreeSlots(bag)
+	bagFamily = bag == KEYRING_CONTAINER and 256 or bagFamily
 	content.family = bagFamily
 	for slot = 1, newSize do
 		local itemId = GetContainerItemID(bag, slot)
@@ -625,7 +590,9 @@ end
 local function FilterByBag(slotData)
 	local bag = slotData.bag
 	local name
-	if bag == BACKPACK_CONTAINER then
+	if bag == KEYRING_CONTAINER then
+		name = L['Keyring']
+	elseif bag == BACKPACK_CONTAINER then
 		name = L['Backpack']
 	elseif bag == BANK_CONTAINER then
 		name = L['Bank']

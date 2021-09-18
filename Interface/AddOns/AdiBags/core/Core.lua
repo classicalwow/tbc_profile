@@ -1,6 +1,6 @@
 --[[
 AdiBags - Adirelle's bag addon.
-Copyright 2010-2014 Adirelle (adirelle@gmail.com)
+Copyright 2010-2021 Adirelle (adirelle@gmail.com)
 All rights reserved.
 
 This file is part of AdiBags.
@@ -45,32 +45,32 @@ local unpack = _G.unpack
 --GLOBALS>
 
 LibStub('AceAddon-3.0'):NewAddon(addon, addonName, 'ABEvent-1.0', 'ABBucket-1.0', 'AceHook-3.0', 'AceConsole-3.0')
---@debug@
+--[===[@debug@
 _G[addonName] = addon
---@end-debug@
+--@end-debug@]===]
 
 --------------------------------------------------------------------------------
 -- Debug stuff
 --------------------------------------------------------------------------------
 
---@alpha@
+--[===[@alpha@
 if AdiDebug then
 	AdiDebug:Embed(addon, addonName)
 else
---@end-alpha@
+--@end-alpha@]===]
 	function addon.Debug() end
---@alpha@
+--[===[@alpha@
 end
---@end-alpha@
+--@end-alpha@]===]
 
---@debug@
+--[===[@debug@
 local function DebugTable(t, prevKey)
 	local k, v = next(t, prevKey)
 	if k ~= nil then
 		return k, v, DebugTable(t, k)
 	end
 end
---@end-debug@
+--@end-debug@]===]
 
 --------------------------------------------------------------------------------
 -- Addon initialization and enabling
@@ -108,6 +108,13 @@ function addon:OnInitialize()
 	self:RegisterChatCommand("adibags", function(cmd)
 		addon:OpenOptions(strsplit(' ', cmd or ""))
 	end, true)
+
+	-- Just a warning
+	--[===[@alpha@
+	if geterrorhandler() == _G._ERRORMESSAGE and not GetCVarBool("scriptErrors") then
+		print('|cffffee00', L["Warning: You are using an alpha or beta version of AdiBags without displaying Lua errors. If anything goes wrong, AdiBags (or any other addon causing some error) will simply stop working for apparently no reason. Please either enable the display of Lua errors or install an error handler addon like BugSack or Swatter."], '|r')
+	end
+	--@end-alpha@]===]
 
 	self:Debug('Initialized')
 end
@@ -249,27 +256,6 @@ function addon:UpgradeProfile()
 end
 
 --------------------------------------------------------------------------------
--- Error reporting
---------------------------------------------------------------------------------
-
-local BugGrabber = addon.BugGrabber
-if BugGrabber then
-	if BugGrabber.setupCallbacks then
-		BugGrabber.setupCallbacks()
-	end
-	local pattern = "("..addonName.."[^\n]+%.lua):%d+:"
-	BugGrabber.RegisterCallback(addon, 'BugGrabber_BugGrabbed', function(_, errorObject)
-		local ref = errorObject and errorObject.stack and strmatch(errorObject.stack, pattern)
-		if ref and not strmatch(ref, '\\libs\\') then
-			if not addon.db.global.muteBugGrabber then
-				print(format('|cffffff00'..L['Error in %s: %s -- details: %s'], addonName, '|r'..errorObject.message, BugGrabber:GetChatLink(errorObject)))
-			end
-			addon:Debug('Error:', errorObject.message)
-		end
-	end)
-end
-
---------------------------------------------------------------------------------
 -- Option addon handling
 --------------------------------------------------------------------------------
 
@@ -306,9 +292,6 @@ do
 	button:SetText(L['Configure'])
 	button:SetWidth(128)
 	button:SetPoint("TOPLEFT", 10, -48)
-	if IsAddOnLoaded("ElvUI") then
-		ElvUI[1]:GetModule("Skins"):HandleButton(button)
-	end
 	button:SetScript('OnClick', function()
 		while CloseWindows() do end
 		return addon:OpenOptions()
@@ -355,9 +338,9 @@ function addon:BankUpdated(slots)
 end
 
 function addon:ConfigChanged(vars)
-	--@debug@
+	--[===[@debug@
 	self:Debug('ConfigChanged', DebugTable(vars))
-	--@end-debug@
+	--@end-debug@]===]
 	if vars.enabled then
 		if self.db.profile.enabled then
 			self:Enable()

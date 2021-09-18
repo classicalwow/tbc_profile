@@ -48,6 +48,13 @@ TomTomWaypointsM = {
 					0.624, -- [2]
 					0.737, -- [3]
 					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "斯克提斯翼卫",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "斯克提斯翼卫",
+					["from"] = "?",
 					["callbacks"] = {
 						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
@@ -64,12 +71,7 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
-					["persistent"] = true,
 					["minimap"] = true,
-					["cleardistance"] = 10,
-					["title"] = "斯克提斯翼卫",
-					["from"] = "?",
-					["crazy"] = true,
 					["world"] = true,
 				},
 			},

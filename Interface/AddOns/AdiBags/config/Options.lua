@@ -1,6 +1,6 @@
 --[[
 AdiBags - Adirelle's bag addon.
-Copyright 2010-2014 Adirelle (adirelle@gmail.com)
+Copyright 2010-2021 Adirelle (adirelle@gmail.com)
 All rights reserved.
 
 This file is part of AdiBags.
@@ -270,12 +270,12 @@ local function GetOptions()
 		end
 	end
 	options = {
-		--@debug@
-		name = addonName..' Build 1',
-		--@end-debug@
-		--[===[@non-debug@
-		name = addonName..' @project-version@',
-		--@end-non-debug@]===]
+		--[===[@debug@
+		name = addonName..' DEV',
+		--@end-debug@]===]
+		--@non-debug@
+		name = addonName..' v1.9.25-bcc',
+		--@end-non-debug@
 		type = 'group',
 		handler = addon:GetOptionHandler(addon),
 		get = 'Get',
@@ -295,16 +295,6 @@ local function GetOptions()
 				width = 'double',
 				type = 'toggle',
 				order = 110,
-			},
-			muteBugGrabber = {
-				name = L['No error reports'],
-				desc = L['Check to disable error reporting.'],
-				type = 'toggle',
-				order = 115,
-				confirm = function(_, value) return value and L["If the addon seems not to work properly, please re-enable error reporting and check again before filing a bug ticket."] end,
-				get = function() return addon.db.global.muteBugGrabber end,
-				set = function(_, v) addon.db.global.muteBugGrabber = v end,
-				hidden = not addon.BugGrabber,
 			},
 			bags = {
 				name = L['Bags'],
@@ -445,8 +435,6 @@ local function GetOptions()
 						type = 'group',
 						inline = true,
 						order = 20,
-						hidden = function() return IsAddOnLoaded("ElvUI") end,
-						disabled = function() return IsAddOnLoaded("ElvUI") end,
 						args = {
 							texture = {
 								name = L['Texture'],
@@ -542,21 +530,11 @@ local function GetOptions()
 									return info.handler:IsDisabled(info) or not addon.db.profile.qualityHighlight
 								end,
 							},
-							allHighlight = {
-								name = L['Highlight All'],
-								desc = L['Check this to display borders around no quality items in your bag.'],
-								type = 'toggle',
-								order = 225,
-								--hidden = function(info) return not IsAddOnLoaded("ElvUI") end,
-								disabled = function(info)
-									return info.handler:IsDisabled(info) or not addon.db.profile.qualityHighlight
-								end,
-							},
 							dimJunk = {
 								name = L['Dim junk'],
 								desc = L['Check this to have poor quality items dimmed.'],
 								type = 'toggle',
-								order = 230,
+								order = 225,
 								disabled = function(info)
 									return info.handler:IsDisabled(info) or not addon.db.profile.qualityHighlight
 								end,
@@ -680,4 +658,3 @@ function addon:OpenOptions(...)
 		AceConfigDialog:Open(addonName)
 	end
 end
-

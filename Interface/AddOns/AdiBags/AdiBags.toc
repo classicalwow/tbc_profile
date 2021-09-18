@@ -1,5 +1,5 @@
 # AdiBags - Adirelle's bag addon.
-# Copyright 2010-2014 Adirelle (adirelle@gmail.com)
+# Copyright 2010-2021 Adirelle (adirelle@gmail.com)
 # All rights reserved.
 #
 # This file is part of AdiBags.
@@ -20,27 +20,25 @@
 ## Interface: 20501
 
 ## Title: AdiBags
-## Notes: Adirelle's bag addon for WoW TBC Classic.
-## Author: Adirelle, Klix
-## Version: Build 1
+## Notes: Adirelle's bag addon.
+## Author: Adirelle
+## Version: v1.9.25-bcc
 ## SavedVariables: AdiBagsDB
-## X-Date: 
+## X-Date: 2021-06-18T8:24:26Z
 ## X-License: GPL v3
-## OptionalDeps: LibStub, CallbackHandler-1.0, Ace3, LibSharedMedia-3.0, Scrap, BrainDead, !BugGrabber, SyLevel, ElvUI, ElvUI_KlixUI
+## OptionalDeps: LibStub, CallbackHandler-1.0, Ace3, LibSharedMedia-3.0, Scrap, BrainDead, SyLevel
 #@alpha@
-## OptionalDeps: AdiDebug, BugSack, Swatter
+# ## OptionalDeps: AdiDebug, BugSack, Swatter
 #@end-alpha@
 
 #@no-lib-strip@
 libs\LibStub\LibStub.lua
 libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
-libs\BugGrabber\load.xml
 libs\AceAddon-3.0\AceAddon-3.0.xml
 libs\AceDB-3.0\AceDB-3.0.xml
 libs\AceHook-3.0\AceHook-3.0.xml
 libs\AceConsole-3.0\AceConsole-3.0.xml
 libs\LibSharedMedia-3.0\lib.xml
-libs\LibCustomGlow-1.0\LibCustomGlow-1.0.lua
 #@end-no-lib-strip@
 
 libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
@@ -78,5 +76,5 @@ modules\ChangeHighlight.lua
 core\DefaultFilters.lua
 
 #@debug@
-## Version: DEV
+# ## Version: DEV
 #@end-debug@
