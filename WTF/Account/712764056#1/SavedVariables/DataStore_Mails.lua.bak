@@ -6,60 +6,8 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1631722626,
-				["Mails"] = {
-					{
-						["returned"] = false,
-						["sender"] = "部落拍賣場",
-						["itemID"] = 24682,
-						["link"] = "|cffffffff|Hitem:24682::::::-34:130547767:70:::::::::|h[]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1631809309,
-						["icon"] = 134586,
-						["daysLeft"] = 29.96491813659668,
-					}, -- [1]
-					{
-						["returned"] = false,
-						["sender"] = "部落拍賣場",
-						["itemID"] = 24682,
-						["link"] = "|cffffffff|Hitem:24682::::::-33:1070071863:70:::::::::|h[]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1631809309,
-						["icon"] = 134586,
-						["daysLeft"] = 29.96538162231445,
-					}, -- [2]
-					{
-						["returned"] = false,
-						["sender"] = "部落拍賣場",
-						["itemID"] = 22446,
-						["link"] = "|cff1eff00|Hitem:22446::::::::70:::::::::|h[強效異界精華]|h|r",
-						["count"] = 3,
-						["lastCheck"] = 1631809309,
-						["icon"] = 132860,
-						["daysLeft"] = 29.99912071228027,
-					}, -- [3]
-					{
-						["returned"] = false,
-						["sender"] = "部落拍賣場",
-						["itemID"] = 24048,
-						["link"] = "|cff0070dd|Hitem:24048::::::::70:::::::::|h[光滑的黎明石]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1631809309,
-						["icon"] = 133242,
-						["daysLeft"] = 29.99968719482422,
-					}, -- [4]
-					{
-						["returned"] = false,
-						["sender"] = "部落拍賣場",
-						["itemID"] = 24048,
-						["link"] = "|cff0070dd|Hitem:24048::::::::70:::::::::|h[光滑的黎明石]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1631809309,
-						["icon"] = 133242,
-						["daysLeft"] = 29.99971008300781,
-					}, -- [5]
-				},
-				["lastVisitDate"] = "2021/09/16 00:17",
+				["lastUpdate"] = 1631894970,
+				["lastVisitDate"] = "2021/09/18 00:09",
 			},
 		},
 	},

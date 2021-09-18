@@ -7,8 +7,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "Metatron",
 			["InstanceName"] = "Gruul's Lair",
 			["Date"] = "2021-09-05",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "PRIEST",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-565-4832-18831-000034B4D3",
@@ -52,9 +52,9 @@ LootMonitorDB = {
 			["InstanceID"] = 544,
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Magtheridon's Lair",
-			["FirstClass"] = "UNKNOWN",
-			["Date"] = "2021-09-05",
 			["Class"] = "WARRIOR",
+			["Date"] = "2021-09-05",
+			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-544-6166-17257-000034C7C8",
@@ -187,9 +187,9 @@ LootMonitorDB = {
 					},
 				}, -- [9]
 			},
-			["FirstClass"] = "PRIEST",
-			["Date"] = "2021-09-06",
 			["Class"] = "WARRIOR",
+			["Date"] = "2021-09-06",
+			["FirstClass"] = "PRIEST",
 			["InstanceName"] = "Karazhan",
 			["FirstPlayer"] = "小冰妹",
 		}, -- [3]
@@ -332,17 +332,17 @@ LootMonitorDB = {
 				}, -- [11]
 			},
 			["Date"] = "2021-09-08",
-			["Class"] = "HUNTER",
 			["FirstClass"] = "UNKNOWN",
+			["Class"] = "HUNTER",
 			["InstanceName"] = "Karazhan",
 		}, -- [4]
 		{
 			["InstanceID"] = 565,
 			["FirstPlayer"] = "紅十字急救站",
 			["InstanceName"] = "Gruul's Lair",
-			["FirstClass"] = "PRIEST",
-			["Date"] = "2021-09-12",
 			["Class"] = "WARRIOR",
+			["Date"] = "2021-09-12",
+			["FirstClass"] = "PRIEST",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-565-7494-18831-00003DED00",
@@ -376,9 +376,9 @@ LootMonitorDB = {
 			["InstanceID"] = 544,
 			["FirstPlayer"] = "牧原股份",
 			["InstanceName"] = "Magtheridon's Lair",
-			["FirstClass"] = "DRUID",
-			["Date"] = "2021-09-12",
 			["Class"] = "WARRIOR",
+			["Date"] = "2021-09-12",
+			["FirstClass"] = "DRUID",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-544-14150-17257-00003DFE9C",
@@ -404,8 +404,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "強運魔人",
 			["InstanceName"] = "Karazhan",
 			["Date"] = "2021-09-13",
-			["FirstClass"] = "PALADIN",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "PALADIN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-532-25060-16152-00003F6C72",

@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 	["lastSanitation"] = 3,
-	["session"] = 393,
+	["session"] = 395,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\TomTom\\TomTom_Config.lua:40: attempt to call method 'EnableDisablePOIIntegration' (a nil value)",
@@ -501,21 +501,13 @@ BugGrabberDB = {
 			["counter"] = 72,
 		}, -- [65]
 		{
-			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
-			["time"] = "2021/07/01 16:18:25",
-			["locals"] = "GearScore = 2320\nItemLevel = 105\nRed = 0.081600\nBlue = 0.320000\nGreen = 0.840000\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 5\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
-			["session"] = 391,
-			["counter"] = 3595,
-		}, -- [66]
-		{
 			["message"] = "...e\\AddOns\\TradeSkillMaster\\Core\\UI\\AuctionUI\\Core.lua:196: assertion failed!",
 			["time"] = "2021/09/15 00:49:19",
 			["locals"] = "(*temporary) = false\n",
 			["stack"] = "[string \"=[C]\"]: in function `assert'\n[string \"@Interface\\AddOns\\TradeSkillMaster\\Core\\UI\\AuctionUI\\Core.lua\"]:196: in function `callback'\n[string \"@Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\Event.lua\"]:85: in function `ProcessEvent'\n[string \"@Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\Event.lua\"]:101: in function <...erface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\Event.lua:93>\n[string \"=[C]\"]: in function `CloseAuctionHouse'\n[string \"@Interface\\AddOns\\aux-addon\\frame.lua\"]:29: in function <Interface\\AddOns\\aux-addon\\frame.lua:29>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface\\AddOns\\aux-addon\\frame.lua\"]:54: in function <Interface\\AddOns\\aux-addon\\frame.lua:54>",
 			["session"] = 392,
 			["counter"] = 2,
-		}, -- [67]
+		}, -- [66]
 		{
 			["message"] = "...erface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\Event.lua:97: assertion failed!",
 			["time"] = "2021/09/15 00:50:55",
@@ -523,26 +515,42 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `assert'\n[string \"@Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\Event.lua\"]:97: in function <...erface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\Event.lua:93>",
 			["session"] = 392,
 			["counter"] = 18,
+		}, -- [67]
+		{
+			["message"] = "Interface\\AddOns\\ElvUI\\Core\\Math.lua:313: script ran too long",
+			["time"] = "2021/09/18 00:42:50",
+			["locals"] = "self = ElvUI_WaitFrame {\n 0 = <userdata>\n}\nelapse = 0.521000\ni = 1\ndata = <table> {\n 1 = 0.083000\n 2 = <function> defined @Interface\\AddOns\\ElvUI\\Modules\\Bags\\Bags.lua:308\n 3 = <table> {\n }\n}\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = <table> {\n 1 = <table> {\n }\n 2 = <table> {\n }\n 3 = <table> {\n }\n 4 = <table> {\n }\n 5 = <table> {\n }\n 6 = <table> {\n }\n 7 = <table> {\n }\n 8 = <table> {\n }\n 9 = <table> {\n }\n 10 = <table> {\n }\n 11 = <table> {\n }\n 12 = <table> {\n }\n 13 = <table> {\n }\n 14 = <table> {\n }\n 15 = <table> {\n }\n 16 = <table> {\n }\n 17 = <table> {\n }\n 18 = <table> {\n }\n 19 = <table> {\n }\n 20 = <table> {\n }\n 21 = <table> {\n }\n 22 = <table> {\n }\n 23 = <table> {\n }\n 24 = <table> {\n }\n 25 = <table> {\n }\n 26 = <table> {\n }\n 27 = <table> {\n }\n 28 = <table> {\n }\n 29 = <table> {\n }\n 30 = <table> {\n }\n 31 = <table> {\n }\n 32 = <table> {\n }\n 33 = <table> {\n }\n 34 = <table> {\n }\n 35 = <table> {\n }\n 36 = <table> {\n }\n 37 = <table> {\n }\n 38 = <table> {\n }\n 39 = <table> {\n }\n 40 = <table> {\n }\n 41 = <table> {\n }\n 42 = <table> {\n }\n 43 = <table> {\n }\n 44 = <table> {\n }\n 45 = <table> {\n }\n 46 = <table> {\n }\n 47 = <table> {\n }\n 48 = <table> {\n }\n 49 = <table> {\n }\n 50 = <table> {\n }\n 51 = <table> {\n }\n 52 = <table> {\n }\n 53 = <table> {\n }\n 54 = <table> {\n }\n 55 = <table> {\n }\n 56 = <table> {\n }\n 57 = <table> {\n }\n 58 = <table> {\n }\n 59 = <table> {\n }\n 60 = <table> {\n }\n 61 = <table> {\n }\n 62 = <table> {\n }\n 63 = <table> {\n }\n 64 = <table> {\n }\n 65 = <table> {\n }\n 66 = <table> {\n }\n 67 = <table> {\n }\n 68 = <table> {\n }\n 69 = <table> {\n }\n 70 = <table> {\n }\n 71 = <table> {\n }\n 72 = <table> {\n }\n 73 = <table> {\n }\n 74 = <table> {\n }\n 75 = <table> {\n }\n 76 = <table> {\n }\n 77 = <table> {\n }\n 78 = <table> {\n }\n 79 = <table> {\n }\n 80 = <table> {\n }\n 81 = <table> {\n }\n 82 = <table> {\n }\n 83 = <table> {\n }\n 84 = <table> {\n }\n 85 = <table> {\n }\n 86 = <table> {\n }\n 87 = <table> {\n }\n 88 = <table> {\n }\n 89 = <table> {\n }\n 90 = <table> {\n }\n 91 = <table> {\n }\n 92 = <table> {\n }\n 93 = <table> {\n }\n 94 = <table> {\n }\n 95 = <table> {\n }\n 96 = <table> {\n }\n 97 = <table> {\n }\n 98 = <table> {\n }\n 99 = <table> {\n }\n 100 = <table> {\n }\n 101 = <table> {\n }\n 102 = <table> {\n }\n 103 = <table> {\n }\n 104 = <table> {\n }\n 105 = <table> {\n }\n 106 = <table> {\n }\n 107 = <table> {\n }\n 108 = <table> {\n }\n 109 = <table> {\n }\n 110 = <table> {\n }\n 111 = <table> {\n }\n 112 = <table> {\n }\n 113 = <table> {\n }\n 114 = <table> {\n }\n 115 = <table> {\n }\n 116 = <table> {\n }\n 117 = <table> {\n }\n 118 = <table> {\n }\n 119 = <table> {\n }\n 120 = <table> {\n }\n 121 = <table> {\n }\n 122 = <table> {\n }\n 123 = <table> {\n }\n 124 = <table> {\n }\n 125 = <table> {\n }\n 126 = <table> {\n }\n 127 = <table> {\n }\n 128 = <table> {\n }\n 129 = <table> {\n }\n 130 = <table> {\n }\n 131 = <table> {\n }\n 132 = <table> {\n }\n 133 = <table> {\n }\n 134 = <table> {\n }\n 135 = <table> {\n }\n 136 = <table> {\n }\n 137 = <table> {\n }\n 138 = <table> {\n }\n 139 = <table> {\n }\n 140 = <table> {\n }\n 141 = <table> {\n }\n 142 = <table> {\n }\n 143 = <table> {\n }\n 144 = <table> {\n }\n 145 = <table> {\n }\n 146 = <table> {\n }\n 147 = <table> {\n }\n 148 = <table> {\n }\n 149 = <table> {\n }\n 150 = <table> {\n }\n 151 = <table> {\n }\n 152 = <table> {\n }\n 153 = <table> {\n }\n 154 = <table> {\n }\n 155 = <table> {\n }\n 156 = <table> {\n }\n 157 = <table> {\n }\n 158 = <table> {\n }\n 159 = <table> {\n }\n 160 = <table> {\n }\n 161 = <table> {\n }\n 162 = <table> {\n }\n 163 = <table> {\n }\n 164 = <table> {\n }\n 165 = <table> {\n }\n 166 = <table> {\n }\n 167 = <table> {\n }\n 168 = <table> {\n }\n 169 = <table> {\n }\n 170 = <table> {\n }\n 171 = <table> {\n }\n 172 = <table> {\n }\n 173 = <table> {\n }\n 174 = <table> {\n }\n 175 = <table> {\n }\n 176 = <table> {\n }\n 177 = <table> {\n }\n 178 = <table> {\n }\n 179 = <table> {\n }\n 180 = <table> {\n }\n 181 = <table> {\n }\n 182 = <table> {\n }\n 183 = <table> {\n }\n 184 = <table> {\n }\n 185 = <table> {\n }\n 186 = <table> {\n }\n 187 = <table> {\n }\n 188 = <table> {\n }\n 189 = <table> {\n }\n 190 = <table> {\n }\n 191 = <table> {\n }\n 192 = <table> {\n }\n 193 = <table> {\n }\n 194 = <table> {\n }\n 195 = <table> {\n }\n 196 = <table> {\n }\n 197 = <table> {\n }\n 198",
+			["stack"] = "[string \"@Interface\\AddOns\\ElvUI\\Core\\Math.lua\"]:313: in function <Interface\\AddOns\\ElvUI\\Core\\Math.lua:305>",
+			["session"] = 394,
+			["counter"] = 2,
 		}, -- [68]
+		{
+			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
+			["time"] = "2021/07/01 16:18:25",
+			["locals"] = "GearScore = 2320\nItemLevel = 105\nRed = 0.081600\nBlue = 0.320000\nGreen = 0.840000\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 5\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
+			["session"] = 394,
+			["counter"] = 3615,
+		}, -- [69]
 		{
 			["message"] = "...sEx\\libs\\LibGroupInSpecT-1.1\\LibGroupInSpecT-1.1-92.lua:166: attempt to index field 'C_SpecializationInfo' (a nil value)",
 			["time"] = "2021/08/22 00:22:44",
 			["locals"] = "MAJOR = \"LibGroupInSpecT-1.1\"\nMINOR = 92\nlib = <table> {\n static_cache = <table> {\n }\n debug = false\n cache = <table> {\n }\n RegisterCallback = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:90\n state = <table> {\n }\n UnregisterCallback = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:153\n NotifyInspect = <function> defined @Interface\\AddOns\\GladiusEx\\libs\\LibGroupInSpecT-1.1\\LibGroupInSpecT-1.1.lua:154\n hooked = true\n frame = LibGroupInSpecT-1.1_Frame {\n }\n events = <table> {\n }\n UnregisterAllCallbacks = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:174\n}\nUPDATE_EVENT = \"GroupInSpecT_Update\"\nREMOVE_EVENT = \"GroupInSpecT_Remove\"\nINSPECT_READY_EVENT = \"GroupInSpecT_InspectReady\"\nQUEUE_EVENT = \"GroupInSpecT_QueueChanged\"\nCOMMS_PREFIX = \"LGIST11\"\nCOMMS_FMT = \"1\"\nCOMMS_DELIM = \"\"\nINSPECT_DELAY = 1.500000\nINSPECT_TIMEOUT = 10\nMAX_ATTEMPTS = 2\ndebug = <function> defined @Interface\\AddOns\\GladiusEx\\libs\\LibGroupInSpecT-1.1\\LibGroupInSpecT-1.1.lua:100\nframe = LibGroupInSpecT-1.1_Frame {\n 0 = <userdata>\n OnEvent = <function> defined @Interface\\AddOns\\GladiusEx\\libs\\LibGroupInSpecT-1.1\\LibGroupInSpecT-1.1.lua:127\n}\nCanInspect = <function> defined =[C]:-1\nClearInspectPlayer = <function> defined =[C]:-1\nGetClassInfo = <function> defined =[C]:-1\nGetNumSubgroupMembers = <function> defined =[C]:-1\nGetNumSpecializationsForClassID = nil\nGetPlayerInfoByGUID = <function> defined =[C]:-1\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index field 'C_SpecializationInfo' (a nil value)\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\GladiusEx\\libs\\LibGroupInSpecT-1.1\\LibGroupInSpecT-1.1-92.lua\"]:166: in main chunk",
-			["session"] = 393,
-			["counter"] = 57,
-		}, -- [69]
+			["session"] = 395,
+			["counter"] = 59,
+		}, -- [70]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GladiusEx\\libs\\LibCooldownTracker-1.0-10\\cooldowns_bcc_racials.lua",
 			["time"] = "2021/08/22 00:22:49",
-			["session"] = 393,
-			["counter"] = 285,
-		}, -- [70]
+			["session"] = 395,
+			["counter"] = 295,
+		}, -- [71]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GladiusEx\\libs\\LibCooldownTracker-1.0-10\\cooldowns_bcc_items.lua",
 			["time"] = "2021/08/22 00:22:49",
-			["session"] = 393,
-			["counter"] = 285,
-		}, -- [71]
+			["session"] = 395,
+			["counter"] = 295,
+		}, -- [72]
 	},
 }

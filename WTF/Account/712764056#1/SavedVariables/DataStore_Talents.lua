@@ -6,7 +6,7 @@ DataStore_TalentsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1631812966,
+				["lastUpdate"] = 1631898727,
 				["Class"] = "WARRIOR",
 				["TalentTrees"] = {
 					["武器"] = {
@@ -64,7 +64,6 @@ DataStore_TalentsRefDB = {
 			["Order"] = "武器,狂怒,防護",
 			["Trees"] = {
 				["武器"] = {
-					["background"] = "WarriorArms",
 					["talents"] = {
 						"強化英勇打擊|132282|1|1|3", -- [1]
 						"偏斜|132269|1|2|5", -- [2]
@@ -90,15 +89,15 @@ DataStore_TalentsRefDB = {
 						"強化致死打擊|132355|8|2|5", -- [22]
 						"無盡怒氣|132344|9|2|1", -- [23]
 					},
-					["icon"] = 132292,
 					["prereqs"] = {
 						[11] = "3|3",
 						[22] = "7|2",
 						[20] = "5|2",
 					},
+					["icon"] = 132292,
+					["background"] = "WarriorArms",
 				},
 				["防護"] = {
-					["background"] = "WarriorProtection",
 					["talents"] = {
 						"強化血性狂暴|132277|1|1|2", -- [1]
 						"精通戰術|136031|1|2|3", -- [2]
@@ -123,14 +122,14 @@ DataStore_TalentsRefDB = {
 						"活力|133123|8|2|5", -- [21]
 						"挫敗|135291|9|2|1", -- [22]
 					},
-					["icon"] = 132341,
 					["prereqs"] = {
 						[7] = "2|2",
 						[19] = "5|2",
 					},
+					["icon"] = 132341,
+					["background"] = "WarriorProtection",
 				},
 				["狂怒"] = {
-					["background"] = "WarriorFury",
 					["talents"] = {
 						"震耳嗓音|136075|1|2|5", -- [1]
 						"殘忍|132292|1|3|5", -- [2]
@@ -154,12 +153,13 @@ DataStore_TalentsRefDB = {
 						"強化狂暴姿態|132275|8|3|5", -- [20]
 						"暴怒|132352|9|2|1", -- [21]
 					},
-					["icon"] = 132347,
 					["prereqs"] = {
 						[18] = "5|2",
 						[16] = "4|3",
 						[21] = "7|2",
 					},
+					["icon"] = 132347,
+					["background"] = "WarriorFury",
 				},
 			},
 		},

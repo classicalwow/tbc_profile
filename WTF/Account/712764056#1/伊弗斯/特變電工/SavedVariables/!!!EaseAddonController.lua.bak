@@ -98,7 +98,7 @@ U1DB = {
 		["clique"] = 1,
 		["itemrack"] = 1,
 		["altoholic"] = 1,
-		["wim"] = 1,
+		["advancedinterfaceoptions"] = 1,
 		["myslot"] = 1,
 		["mbb"] = 1,
 		["atlaslootclassic_pvp"] = 1,
@@ -144,8 +144,8 @@ U1DB = {
 		["bugsack"] = 1,
 		["datastore_spells"] = 1,
 		["datastore_containers"] = 1,
+		["wim"] = 1,
 		["guidelime_flymolo's outland leveling guide"] = 1,
-		["advancedinterfaceoptions"] = 1,
 		["postal"] = 1,
 		["addonskins"] = 1,
 		["datastore"] = 1,
@@ -157,5 +157,5 @@ U1DB = {
 	["configs"] = {
 	},
 	["sortByName"] = true,
-	["last_logout_time"] = "reload",
+	["last_logout_time"] = 1631898709,
 }
