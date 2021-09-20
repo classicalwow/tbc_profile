@@ -1,0 +1,15 @@
+## Interface: 90100
+
+## Title: Ark Inventory [Rules] Profession
+## Notes: Character based rules "profession" for ArkInventory
+## Author: Janothia
+## Version: 1.0.0
+
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## RequiredDeps: ArkInventoryRules
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Always:delayed
+
+ArkInventoryRules_Profession.lua

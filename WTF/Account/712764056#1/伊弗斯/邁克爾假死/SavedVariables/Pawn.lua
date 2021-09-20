@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0525,
+	["LastVersion"] = 2.0527,
 	["LastPlayerFullName"] = "邁克爾假死-伊弗斯",
 	["AutoSelectScales"] = false,
 	["ItemLevels"] = {

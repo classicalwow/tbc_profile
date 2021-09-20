@@ -14,7 +14,7 @@ details: enabled
 atlaslootclassic: enabled
 atlas: enabled
 advancedinterfaceoptions: enabled
-battleinfo: disabled
+battleinfo: enabled
 lootmonitor: enabled
 classiccodex-db-enus: disabled
 classiccodex-db-kokr: disabled
@@ -93,7 +93,7 @@ ConsolePort_Menu: disabled
 ConsolePort_World: disabled
 ConsolePort_Bar: disabled
 clique: enabled
-TradeSkillMaster: disabled
+TradeSkillMaster: enabled
 BattlegroundSpiritReleaser: enabled
 aux-addon: enabled
 AutoBarBCC: enabled
@@ -145,3 +145,5 @@ altoholic_characters: enabled
 altoholic_guild: enabled
 altoholic_grids: enabled
 altoholic_search: enabled
+Altoholic: enabled
+arkinventoryconfig: enabled

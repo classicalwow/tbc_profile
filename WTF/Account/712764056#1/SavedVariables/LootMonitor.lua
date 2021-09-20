@@ -2,79 +2,6 @@
 LootMonitorDB = {
 	["LootLog"] = {
 		{
-			["InstanceID"] = 565,
-			["Player"] = "特變電工",
-			["FirstPlayer"] = "Metatron",
-			["InstanceName"] = "Gruul's Lair",
-			["Date"] = "2021-09-05",
-			["Class"] = "WARRIOR",
-			["FirstClass"] = "PRIEST",
-			["LootTable"] = {
-				{
-					["GUID"] = "Creature-0-4490-565-4832-18831-000034B4D3",
-					["Time"] = "20:44:07",
-					["Looter"] = "貓咪的尾巴",
-					["Date"] = "2021-09-05",
-					["Class"] = "PALADIN",
-					["Name"] = "大君王莫卡爾",
-					["Loots"] = {
-						"|cffa335ee|Hitem:29764::::::::70:::::::::|h[逝往防衛者肩鎧]|h|r", -- [1]
-						"|cffa335ee|Hitem:28801::::::::70:::::::::|h[莫卡爾的戰爭頭盔]|h|r", -- [2]
-					},
-				}, -- [1]
-				{
-					["GUID"] = "Creature-0-4490-565-4832-19389-000134B4D3",
-					["Time"] = "20:49:46",
-					["Looter"] = "約翰跑路",
-					["Date"] = "2021-09-05",
-					["Class"] = "HUNTER",
-					["Name"] = "巢穴蠻卒",
-					["Loots"] = {
-						"|cff0070dd|Hitem:24218::::::::70:::::::::|h[設計圖:輻光的泰拉寶石]|h|r", -- [1]
-					},
-				}, -- [2]
-				{
-					["GUID"] = "Creature-0-4490-565-4832-19044-000034B4D3",
-					["Time"] = "21:01:10",
-					["Looter"] = "貓咪的尾巴",
-					["Date"] = "2021-09-05",
-					["Class"] = "PALADIN",
-					["Name"] = "弒龍者戈魯爾",
-					["Loots"] = {
-						"|cffa335ee|Hitem:28825::::::::70:::::::::|h[奧多爾遺產防衛者]|h|r", -- [1]
-						"|cffa335ee|Hitem:29765::::::::70:::::::::|h[逝往英雄護腿]|h|r", -- [2]
-						"|cffa335ee|Hitem:28822::::::::70:::::::::|h[戈魯爾之牙]|h|r", -- [3]
-					},
-				}, -- [3]
-			},
-		}, -- [1]
-		{
-			["InstanceID"] = 544,
-			["FirstPlayer"] = "未知",
-			["InstanceName"] = "Magtheridon's Lair",
-			["FirstClass"] = "UNKNOWN",
-			["Date"] = "2021-09-05",
-			["Class"] = "WARRIOR",
-			["LootTable"] = {
-				{
-					["GUID"] = "Creature-0-4490-544-6166-17257-000034C7C8",
-					["Time"] = "21:49:24",
-					["Class"] = "MAGE",
-					["Date"] = "2021-09-05",
-					["Looter"] = "浪神",
-					["Name"] = "瑪瑟里頓",
-					["Loots"] = {
-						"|cffa335ee|Hitem:34845::::::::70:::::::::|h[深淵領主的背包]|h|r", -- [1]
-						"|cffa335ee|Hitem:28774::::::::70:::::::::|h[競技場之寬刃]|h|r", -- [2]
-						"|cffa335ee|Hitem:28781::::::::70:::::::::|h[卡拉伯爾護符]|h|r", -- [3]
-						"|cffa335ee|Hitem:29753::::::::70:::::::::|h[逝往防衛者護胸]|h|r", -- [4]
-						"|cffa335ee|Hitem:32386::::::::70:::::::::|h[瑪瑟里頓之首]|h|r", -- [5]
-					},
-				}, -- [1]
-			},
-			["Player"] = "特變電工",
-		}, -- [2]
-		{
 			["InstanceID"] = 532,
 			["Player"] = "特變電工",
 			["LootTable"] = {
@@ -187,12 +114,12 @@ LootMonitorDB = {
 					},
 				}, -- [9]
 			},
-			["FirstClass"] = "PRIEST",
-			["Date"] = "2021-09-06",
 			["Class"] = "WARRIOR",
+			["Date"] = "2021-09-06",
+			["FirstClass"] = "PRIEST",
 			["InstanceName"] = "Karazhan",
 			["FirstPlayer"] = "小冰妹",
-		}, -- [3]
+		}, -- [1]
 		{
 			["InstanceID"] = 532,
 			["FirstPlayer"] = "未知",
@@ -332,17 +259,17 @@ LootMonitorDB = {
 				}, -- [11]
 			},
 			["Date"] = "2021-09-08",
-			["Class"] = "HUNTER",
 			["FirstClass"] = "UNKNOWN",
+			["Class"] = "HUNTER",
 			["InstanceName"] = "Karazhan",
-		}, -- [4]
+		}, -- [2]
 		{
 			["InstanceID"] = 565,
 			["FirstPlayer"] = "紅十字急救站",
 			["InstanceName"] = "Gruul's Lair",
-			["FirstClass"] = "PRIEST",
-			["Date"] = "2021-09-12",
 			["Class"] = "WARRIOR",
+			["Date"] = "2021-09-12",
+			["FirstClass"] = "PRIEST",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-565-7494-18831-00003DED00",
@@ -371,14 +298,14 @@ LootMonitorDB = {
 				}, -- [2]
 			},
 			["Player"] = "特變電工",
-		}, -- [5]
+		}, -- [3]
 		{
 			["InstanceID"] = 544,
 			["FirstPlayer"] = "牧原股份",
 			["InstanceName"] = "Magtheridon's Lair",
-			["FirstClass"] = "DRUID",
-			["Date"] = "2021-09-12",
 			["Class"] = "WARRIOR",
+			["Date"] = "2021-09-12",
+			["FirstClass"] = "DRUID",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-544-14150-17257-00003DFE9C",
@@ -397,15 +324,15 @@ LootMonitorDB = {
 				}, -- [1]
 			},
 			["Player"] = "特變電工",
-		}, -- [6]
+		}, -- [4]
 		{
 			["InstanceID"] = 532,
 			["Player"] = "特變電工",
 			["FirstPlayer"] = "強運魔人",
 			["InstanceName"] = "Karazhan",
 			["Date"] = "2021-09-13",
-			["FirstClass"] = "PALADIN",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "PALADIN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-532-25060-16152-00003F6C72",
@@ -561,15 +488,15 @@ LootMonitorDB = {
 					},
 				}, -- [13]
 			},
-		}, -- [7]
+		}, -- [5]
 		{
 			["InstanceID"] = 548,
 			["Player"] = "特變電工",
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Serpentshrine Cavern",
 			["Date"] = "2021-09-18",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "UNKNOWN",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-548-23380-21216-000045D0C3",
@@ -666,7 +593,130 @@ LootMonitorDB = {
 					},
 				}, -- [8]
 			},
-		}, -- [8]
+		}, -- [6]
+		{
+			["InstanceID"] = 550,
+			["FirstPlayer"] = "未知",
+			["InstanceName"] = "Tempest Keep",
+			["FirstClass"] = "UNKNOWN",
+			["Date"] = "2021-09-19",
+			["Class"] = "WARRIOR",
+			["LootTable"] = {
+				{
+					["GUID"] = "Creature-0-4490-550-28822-20031-00014722C7",
+					["Time"] = "20:20:36",
+					["Class"] = "PRIEST",
+					["Date"] = "2021-09-19",
+					["Looter"] = "慕蓉兒",
+					["Name"] = "血守衛軍團士兵",
+					["Loots"] = {
+						"|cffa335ee|Hitem:30183::::::::70:::::::::|h[虛空漩渦]|h|r", -- [1]
+					},
+				}, -- [1]
+				{
+					["GUID"] = "Creature-0-4490-550-28822-20037-00004722C7",
+					["Time"] = "20:33:58",
+					["Class"] = "PRIEST",
+					["Date"] = "2021-09-19",
+					["Looter"] = "Damocles",
+					["Name"] = "風暴要塞-熔爐鷹獵者",
+					["Loots"] = {
+						"|cffa335ee|Hitem:30183::::::::70:::::::::|h[虛空漩渦]|h|r", -- [1]
+					},
+				}, -- [2]
+				{
+					["GUID"] = "Creature-0-4490-550-28822-20043-0000C722C8",
+					["Time"] = "21:03:16",
+					["Class"] = "WARRIOR",
+					["Date"] = "2021-09-19",
+					["Looter"] = "特變電工",
+					["Name"] = "見習占星者",
+					["Loots"] = {
+						"|cffa335ee|Hitem:30281::::::::70:::::::::|h[圖樣:長路腰帶]|h|r", -- [1]
+					},
+				}, -- [3]
+				{
+					["GUID"] = "Creature-0-4490-550-28822-19516-00004722C7",
+					["Time"] = "21:45:08",
+					["Class"] = "SHAMAN",
+					["Date"] = "2021-09-19",
+					["Looter"] = "莫沫",
+					["Name"] = "虛無搶奪者",
+					["Loots"] = {
+						"|cffa335ee|Hitem:30248::::::::70:::::::::|h[征服勇士肩鎧]|h|r", -- [1]
+						"|cffa335ee|Hitem:29984::::::::70:::::::::|h[札爾塔束腰]|h|r", -- [2]
+						"|cffa335ee|Hitem:30250::::::::70:::::::::|h[征服英雄肩鎧]|h|r", -- [3]
+					},
+				}, -- [4]
+				{
+					["GUID"] = "Creature-0-4490-550-28822-20044-00024722C7",
+					["Time"] = "21:55:22",
+					["Class"] = "PALADIN",
+					["Date"] = "2021-09-19",
+					["Looter"] = "歐艾丹",
+					["Name"] = "星術師初學者",
+					["Loots"] = {
+						"|cffa335ee|Hitem:30183::::::::70:::::::::|h[虛空漩渦]|h|r", -- [1]
+					},
+				}, -- [5]
+				{
+					["GUID"] = "Creature-0-4490-550-28822-20036-00014722C7",
+					["Time"] = "21:55:38",
+					["Class"] = "ROGUE",
+					["Date"] = "2021-09-19",
+					["Looter"] = "背鍋俠",
+					["Name"] = "血守衛扈從",
+					["Loots"] = {
+						"|cffa335ee|Hitem:30030::::::::70:::::::::|h[殞星束腰]|h|r", -- [1]
+					},
+				}, -- [6]
+				{
+					["GUID"] = "Creature-0-4490-550-28822-20044-00064722C7",
+					["Time"] = "22:14:22",
+					["Class"] = "ROGUE",
+					["Date"] = "2021-09-19",
+					["Looter"] = "背鍋俠",
+					["Name"] = "星術師初學者",
+					["Loots"] = {
+						"|cffa335ee|Hitem:30322::::::::70:::::::::|h[設計圖:紅色戰鬥腰帶]|h|r", -- [1]
+					},
+				}, -- [7]
+				{
+					["GUID"] = "Creature-0-4490-550-28822-20043-0005C722C7",
+					["Time"] = "22:14:50",
+					["Class"] = "PALADIN",
+					["Date"] = "2021-09-19",
+					["Looter"] = "歐艾丹",
+					["Name"] = "見習占星者",
+					["Loots"] = {
+						"|cffa335ee|Hitem:30024::::::::70:::::::::|h[精靈王披肩]|h|r", -- [1]
+					},
+				}, -- [8]
+				{
+					["GUID"] = "Creature-0-4490-550-28822-20034-000047495B",
+					["Time"] = "22:45:28",
+					["Class"] = "WARRIOR",
+					["Date"] = "2021-09-19",
+					["Looter"] = "特變電工",
+					["Name"] = "占星者",
+					["Loots"] = {
+						"|cffa335ee|Hitem:30020::::::::70:::::::::|h[魔導師火焰之索]|h|r", -- [1]
+					},
+				}, -- [9]
+				{
+					["GUID"] = "Creature-0-4490-550-28822-20039-0000474B2A",
+					["Time"] = "22:51:42",
+					["Class"] = "SHAMAN",
+					["Date"] = "2021-09-19",
+					["Looter"] = "柒刻",
+					["Name"] = "鳳鷹",
+					["Loots"] = {
+						"|cffa335ee|Hitem:30028::::::::70:::::::::|h[堤里斯佛倫之第七指環]|h|r", -- [1]
+					},
+				}, -- [10]
+			},
+			["Player"] = "特變電工",
+		}, -- [7]
 	},
 	["Config"] = {
 		["ShowMinimapIcon"] = true,

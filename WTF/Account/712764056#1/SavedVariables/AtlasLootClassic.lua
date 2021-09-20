@@ -1,7 +1,7 @@
 
 AtlasLootClassicDB = {
 	["global"] = {
-		["__addonrevision"] = 2030002,
+		["__addonrevision"] = 2030003,
 	},
 	["profileKeys"] = {
 		["路易斯桑拿 - 伊弗斯"] = "路易斯桑拿 - 伊弗斯",
@@ -23,17 +23,14 @@ AtlasLootClassicDB = {
 				},
 				["selected"] = {
 					nil, -- [1]
-					"SerpentshrineCavern", -- [2]
-					6, -- [3]
+					"TempestKeep", -- [2]
+					nil, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},
 			},
 		},
 		["邁克爾假死 - 伊弗斯"] = {
-			["minimap"] = {
-				["minimapPos"] = 286.7554949708375,
-			},
 			["GUI"] = {
 				["point"] = {
 					"RIGHT", -- [1]
@@ -49,6 +46,9 @@ AtlasLootClassicDB = {
 					1, -- [4]
 					0, -- [5]
 				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 286.7554949708375,
 			},
 		},
 		["畜生犬隊長 - 伊弗斯"] = {

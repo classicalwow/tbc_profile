@@ -42,39 +42,6 @@ TomTomWaypointsM = {
 	},
 	["profiles"] = {
 		["特變電工 - 伊弗斯"] = {
-			[1952] = {
-				["1952:624000000:737000000:斯克提斯翼卫"] = {
-					1952, -- [1]
-					0.624, -- [2]
-					0.737, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "斯克提斯翼卫",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "斯克提斯翼卫",
-					["from"] = "?",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
 		},
 		["邁克爾假死 - 伊弗斯"] = {
 		},
