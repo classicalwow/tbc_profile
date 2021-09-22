@@ -31,7 +31,7 @@ DataStore_InventoryDB = {
 				["lastUpdate"] = 1632051167,
 			},
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1632075274,
+				["lastUpdate"] = 1632247167,
 				["averageItemLvl"] = 118.5625,
 				["Inventory"] = {
 					"|cff0070dd|Hitem:28853:3003:28556:24048:::::70:::::::::|h[高階督軍鎧甲頭盔]|h|r", -- [1]

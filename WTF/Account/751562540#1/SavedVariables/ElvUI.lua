@@ -1,6 +1,10 @@
 
 ElvDB = {
-	["LuaErrorDisabledAddOns"] = {
+	["faction"] = {
+		["伊弗斯"] = {
+			["豬圈一"] = "Horde",
+			["牧原股份"] = "Horde",
+		},
 	},
 	["global"] = {
 		["nameplate"] = {
@@ -14,27 +18,32 @@ ElvDB = {
 			},
 		},
 	},
-	["faction"] = {
-		["伊弗斯"] = {
-			["豬圈一"] = "Horde",
-		},
-	},
-	["profileKeys"] = {
-		["豬圈一 - 伊弗斯"] = "Default",
-	},
-	["class"] = {
-		["伊弗斯"] = {
-			["豬圈一"] = "ROGUE",
-		},
+	["LuaErrorDisabledAddOns"] = {
 	},
 	["gold"] = {
 		["伊弗斯"] = {
 			["豬圈一"] = 30,
+			["牧原股份"] = 242403042,
 		},
+	},
+	["class"] = {
+		["伊弗斯"] = {
+			["豬圈一"] = "ROGUE",
+			["牧原股份"] = "DRUID",
+		},
+	},
+	["profileKeys"] = {
+		["牧原股份 - 伊弗斯"] = "Default",
+		["豬圈一 - 伊弗斯"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["dbConverted"] = 2.1,
+			["dbConverted"] = 2.17,
+			["convertPages"] = true,
+			["movers"] = {
+				["LeftChatMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,4",
+				["ShiftAB"] = "BOTTOM,ElvUIParent,BOTTOM,0,235",
+			},
 			["actionbar"] = {
 				["bar6"] = {
 					["enabled"] = true,
@@ -42,7 +51,7 @@ ElvDB = {
 					["buttonsPerRow"] = 6,
 				},
 				["microbar"] = {
-					["buttons"] = 7,
+					["buttons"] = 8,
 				},
 				["bar5"] = {
 					["enabled"] = false,
@@ -50,15 +59,18 @@ ElvDB = {
 					["buttonsPerRow"] = 12,
 				},
 			},
-			["convertPages"] = true,
 		},
 	},
 }
 ElvPrivateDB = {
 	["profileKeys"] = {
+		["牧原股份 - 伊弗斯"] = "牧原股份 - 伊弗斯",
 		["豬圈一 - 伊弗斯"] = "豬圈一 - 伊弗斯",
 	},
 	["profiles"] = {
+		["牧原股份 - 伊弗斯"] = {
+			["install_complete"] = 2.17,
+		},
 		["豬圈一 - 伊弗斯"] = {
 			["install_complete"] = 2.1,
 		},

@@ -106,7 +106,7 @@ Guidelime_Flymolo's Outland Leveling Guide: enabled
 Guidelime: enabled
 LFGBulletinBoard: enabled
 ls_Toasts: enabled
-Mapster: enabled
+Mapster: disabled
 MRT: enabled
 MBB: enabled
 Myslot: enabled
@@ -118,7 +118,7 @@ WideQuestLog: enabled
 AddOnSkins: enabled
 DBM-CountPack-Overwatch: enabled
 nameplatecooldowns: enabled
-gladiusex: enabled
+gladiusex: disabled
 ItemRack: enabled
 MailLogger: enabled
 RareScanner: enabled
