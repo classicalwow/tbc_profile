@@ -147,3 +147,5 @@ altoholic_grids: enabled
 altoholic_search: enabled
 Altoholic: enabled
 arkinventoryconfig: enabled
+blizzmove: disabled
+blizzmove_debug: enabled
