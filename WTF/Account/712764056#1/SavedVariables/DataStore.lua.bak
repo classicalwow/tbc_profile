@@ -15,13 +15,13 @@ DataStoreDB = {
 		},
 		["Version"] = 1,
 		["Characters"] = {
-			["Default.伊弗斯.特變電工"] = {
-				["guildName"] = "槍在手跟我走",
+			["Default.伊弗斯.邁克爾假死"] = {
+				["guildName"] = "極限鐵盒",
 				["faction"] = "Horde",
 			},
-			["Default.伊弗斯.邁克爾假死"] = {
+			["Default.伊弗斯.特變電工"] = {
 				["faction"] = "Horde",
-				["guildName"] = "極限鐵盒",
+				["guildName"] = "槍在手跟我走",
 			},
 		},
 		["ShortToLongRealmNames"] = {
