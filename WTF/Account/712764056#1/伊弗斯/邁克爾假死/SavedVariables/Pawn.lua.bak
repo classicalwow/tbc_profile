@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0527,
+	["LastPlayerFullName"] = "邁克爾假死-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 28215,
@@ -39,9 +41,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:28746::::::::70::::::::|h[屠魔之靴]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 28170,
-			["Level"] = 115,
-			["Link"] = "|cff0070dd|Hitem:28170::::::::68::::::::|h[奧奇奈護腕]|h|r",
+			["ID"] = 30091,
+			["Level"] = 128,
+			["Link"] = "|cffa335ee|Hitem:30091::::::::70:::::::::|h[精準遠行者手環]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 27474,
@@ -94,8 +96,6 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:28397::::::::70::::::::|h[餘燼鷹之弩]|h|r",
 		}, -- [18]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "邁克爾假死-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

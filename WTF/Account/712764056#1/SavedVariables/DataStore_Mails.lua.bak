@@ -6,105 +6,25 @@ DataStore_MailsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.伊弗斯.邁克爾假死"] = {
-				["lastUpdate"] = 1632051199,
+			["Default.伊弗斯.特變電工"] = {
+				["lastUpdate"] = 1632561504,
 				["Mails"] = {
 					{
+						["icon"] = 134327,
+						["sender"] = "亞尼·納沙克",
+						["subject"] = "",
 						["returned"] = false,
-						["sender"] = "特變電工",
-						["itemID"] = 11144,
-						["link"] = "|cffffffff|Hitem:11144::::::::70:::::::::|h[真銀棒]|h|r",
-						["lastCheck"] = 1632051199,
-						["count"] = 1,
-						["icon"] = 135148,
-						["daysLeft"] = 20.20847129821777,
+						["money"] = 0,
+						["text"] = "祝你平安，我的朋友。希望你在為部落而戰的征途中又有了新的斬獲。我衷心期望著有一天，其他冒險者們會像崇敬葛羅·地獄吼那樣崇敬你。\n\n我沒有忘記你在收穫節中為了紀念葛羅而做的事情，為此，我寄一些你可能用得到的東西給你。\n\n亞尼·納沙克",
+						["lastCheck"] = 1632561504,
+						["daysLeft"] = 26.87295150756836,
 					}, -- [1]
-					{
-						["returned"] = false,
-						["sender"] = "特變電工",
-						["itemID"] = 22576,
-						["link"] = "|cffffffff|Hitem:22576::::::::70:::::::::|h[法力微粒]|h|r",
-						["lastCheck"] = 1632051199,
-						["count"] = 2,
-						["icon"] = 132841,
-						["daysLeft"] = 20.20847129821777,
-					}, -- [2]
-					{
-						["returned"] = false,
-						["sender"] = "特變電工",
-						["itemID"] = 31952,
-						["link"] = "|cff1eff00|Hitem:31952::::::::70:::::::::|h[克銀帶鎖箱]|h|r",
-						["lastCheck"] = 1632051199,
-						["count"] = 1,
-						["icon"] = 134344,
-						["daysLeft"] = 20.20847129821777,
-					}, -- [3]
-					{
-						["returned"] = false,
-						["sender"] = "特變電工",
-						["itemID"] = 31952,
-						["link"] = "|cff1eff00|Hitem:31952::::::::70:::::::::|h[克銀帶鎖箱]|h|r",
-						["lastCheck"] = 1632051199,
-						["count"] = 1,
-						["icon"] = 134344,
-						["daysLeft"] = 20.20847129821777,
-					}, -- [4]
-					{
-						["returned"] = false,
-						["sender"] = "特變電工",
-						["itemID"] = 22573,
-						["link"] = "|cffffffff|Hitem:22573::::::::70:::::::::|h[大地微粒]|h|r",
-						["lastCheck"] = 1632051199,
-						["count"] = 3,
-						["icon"] = 132838,
-						["daysLeft"] = 20.20847129821777,
-					}, -- [5]
-					{
-						["returned"] = false,
-						["sender"] = "特變電工",
-						["itemID"] = 11144,
-						["link"] = "|cffffffff|Hitem:11144::::::::70:::::::::|h[真銀棒]|h|r",
-						["lastCheck"] = 1632051199,
-						["count"] = 1,
-						["icon"] = 135148,
-						["daysLeft"] = 20.20847129821777,
-					}, -- [6]
-					{
-						["returned"] = false,
-						["sender"] = "特變電工",
-						["itemID"] = 11144,
-						["link"] = "|cffffffff|Hitem:11144::::::::70:::::::::|h[真銀棒]|h|r",
-						["lastCheck"] = 1632051199,
-						["count"] = 1,
-						["icon"] = 135148,
-						["daysLeft"] = 20.20847129821777,
-					}, -- [7]
-					{
-						["returned"] = false,
-						["sender"] = "特變電工",
-						["itemID"] = 11144,
-						["link"] = "|cffffffff|Hitem:11144::::::::70:::::::::|h[真銀棒]|h|r",
-						["lastCheck"] = 1632051199,
-						["count"] = 1,
-						["icon"] = 135148,
-						["daysLeft"] = 20.20847129821777,
-					}, -- [8]
-					{
-						["returned"] = false,
-						["sender"] = "特變電工",
-						["itemID"] = 31952,
-						["link"] = "|cff1eff00|Hitem:31952::::::::70:::::::::|h[克銀帶鎖箱]|h|r",
-						["lastCheck"] = 1632051199,
-						["count"] = 1,
-						["icon"] = 134344,
-						["daysLeft"] = 20.20847129821777,
-					}, -- [9]
 				},
-				["lastVisitDate"] = "2021/09/19 19:33",
+				["lastVisitDate"] = "2021/09/25 17:18",
 			},
-			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1632247351,
-				["lastVisitDate"] = "2021/09/22 02:02",
+			["Default.伊弗斯.邁克爾假死"] = {
+				["lastUpdate"] = 1632561473,
+				["lastVisitDate"] = "2021/09/25 17:17",
 			},
 		},
 	},

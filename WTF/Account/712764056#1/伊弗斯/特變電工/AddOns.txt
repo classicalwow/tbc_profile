@@ -149,3 +149,4 @@ Altoholic: enabled
 arkinventoryconfig: enabled
 blizzmove: disabled
 blizzmove_debug: enabled
+dbm-worldevents: enabled

@@ -1,13 +1,13 @@
 
 AtlasLootClassicDB = {
+	["global"] = {
+		["__addonrevision"] = 2030003,
+	},
 	["profileKeys"] = {
 		["路易斯桑拿 - 伊弗斯"] = "路易斯桑拿 - 伊弗斯",
 		["特變電工 - 伊弗斯"] = "特變電工 - 伊弗斯",
 		["邁克爾假死 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
 		["畜生犬隊長 - 伊弗斯"] = "畜生犬隊長 - 伊弗斯",
-	},
-	["global"] = {
-		["__addonrevision"] = 2030003,
 	},
 	["profiles"] = {
 		["路易斯桑拿 - 伊弗斯"] = {
@@ -22,10 +22,10 @@ AtlasLootClassicDB = {
 					-59.50821304321289, -- [5]
 				},
 				["selected"] = {
-					"AtlasLootClassic_Factions", -- [1]
-					"CenarionExpedition", -- [2]
-					2, -- [3]
-					2, -- [4]
+					nil, -- [1]
+					"SerpentshrineCavern", -- [2]
+					5, -- [3]
+					1, -- [4]
 					0, -- [5]
 				},
 			},
@@ -36,16 +36,16 @@ AtlasLootClassicDB = {
 			},
 			["GUI"] = {
 				["point"] = {
-					"RIGHT", -- [1]
+					nil, -- [1]
 					nil, -- [2]
-					"RIGHT", -- [3]
-					-25.49185371398926, -- [4]
-					122.5871124267578, -- [5]
+					"CENTER", -- [3]
+					272.1581726074219, -- [4]
+					43.14564895629883, -- [5]
 				},
 				["selected"] = {
-					"AtlasLootClassic_Crafting", -- [1]
-					"BlacksmithingBC", -- [2]
-					nil, -- [3]
+					nil, -- [1]
+					"SerpentshrineCavern", -- [2]
+					5, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},

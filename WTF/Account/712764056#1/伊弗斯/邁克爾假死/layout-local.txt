@@ -6,13 +6,6 @@ X: 408
 Y: 138
 W: 347
 H: 34
-Frame: ItemRefTooltip
-FrameLevel: 1
-Anchor: BOTTOM
-X: -223
-Y: 127
-W: 128
-H: 64
 Frame: ColorPickerFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -29,9 +22,9 @@ W: 1023
 H: 631
 Frame: AtlasLoot_GUI-Frame
 FrameLevel: 1
-Anchor: RIGHT
-X: -25
-Y: 123
+Anchor: CENTER
+X: 272
+Y: 43
 W: 920
 H: 600
 Frame: GroupBulletinBoardFrame
@@ -62,3 +55,10 @@ X: -245
 Y: -178
 W: 200
 H: 50
+Frame: ItemRefTooltip
+FrameLevel: 1
+Anchor: BOTTOM
+X: -223
+Y: 127
+W: 267
+H: 533
