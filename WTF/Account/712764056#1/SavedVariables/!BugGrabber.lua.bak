@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+	["session"] = 436,
 	["lastSanitation"] = 3,
-	["session"] = 435,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\TomTom\\TomTom_Config.lua:40: attempt to call method 'EnableDisablePOIIntegration' (a nil value)",
@@ -74,8 +74,8 @@ BugGrabberDB = {
 		}, -- [9]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\MeetingHorn\\Libs\\tdGUI\\Libs\\LibClass-2.0-10\\LibClass-2.0.xml",
-			["time"] = "2021/06/08 20:55:27",
 			["session"] = 47,
+			["time"] = "2021/06/08 20:55:27",
 			["counter"] = 91,
 		}, -- [10]
 		{
@@ -237,26 +237,26 @@ BugGrabberDB = {
 		}, -- [30]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\alaTalentEmu\\libs\\libs.xml",
-			["session"] = 304,
 			["time"] = "2021/08/08 18:21:56",
+			["session"] = 304,
 			["counter"] = 3,
 		}, -- [31]
 		{
 			["message"] = "Error loading Interface\\AddOns\\ClassicCodex-patch\\objects-questie-tbc.lua",
-			["session"] = 304,
 			["time"] = "2021/08/08 18:21:56",
+			["session"] = 304,
 			["counter"] = 3,
 		}, -- [32]
 		{
 			["message"] = "Error loading Interface\\AddOns\\ClassicCodex-patch\\objects-loc-tbc.lua",
-			["session"] = 304,
 			["time"] = "2021/08/08 18:21:56",
+			["session"] = 304,
 			["counter"] = 3,
 		}, -- [33]
 		{
 			["message"] = "Error loading Interface\\AddOns\\Questie\\Localization\\Translations\\Zones\\Battlegrounds-戰場.lua",
-			["session"] = 304,
 			["time"] = "2021/08/08 18:21:56",
+			["session"] = 304,
 			["counter"] = 1,
 		}, -- [34]
 		{
@@ -348,8 +348,8 @@ BugGrabberDB = {
 		}, -- [45]
 		{
 			["message"] = "Texture <unnamed>: Unable to load atlas entry QuestSharing-Padlock",
-			["time"] = "2021/08/22 00:26:04",
 			["session"] = 333,
+			["time"] = "2021/08/22 00:26:04",
 			["counter"] = 10,
 		}, -- [46]
 		{
@@ -520,14 +520,14 @@ BugGrabberDB = {
 		}, -- [67]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GladiusEx\\libs\\LibCooldownTracker-1.0-10\\cooldowns_bcc_racials.lua",
-			["time"] = "2021/08/22 00:22:49",
 			["session"] = 420,
+			["time"] = "2021/08/22 00:22:49",
 			["counter"] = 410,
 		}, -- [68]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GladiusEx\\libs\\LibCooldownTracker-1.0-10\\cooldowns_bcc_items.lua",
-			["time"] = "2021/08/22 00:22:49",
 			["session"] = 420,
+			["time"] = "2021/08/22 00:22:49",
 			["counter"] = 410,
 		}, -- [69]
 		{
@@ -561,20 +561,20 @@ BugGrabberDB = {
 			["counter"] = 8,
 		}, -- [73]
 		{
-			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
-			["time"] = "2021/07/01 16:18:25",
-			["locals"] = "GearScore = 2320\nItemLevel = 105\nRed = 0.081600\nBlue = 0.320000\nGreen = 0.840000\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 5\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
-			["session"] = 435,
-			["counter"] = 3921,
-		}, -- [74]
-		{
 			["message"] = "Interface\\AddOns\\DBM-Core\\DBM-Core-7f0cfb8.lua:5525: attempt to index global 'ObjectiveTrackerFrame' (a nil value)",
 			["time"] = "2021/09/25 14:19:58",
 			["locals"] = "self = <table> {\n CHAT_MSG_ADDON_LOGGED = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:5098\n StopLogging = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6545\n FindScenarioIDs = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:7535\n GetNumGuildPlayersInZone = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:3156\n FindDungeonMapIDs = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:7507\n GetUnitIdFromGUID = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:3395\n CopyProfile = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:2061\n CHAT_MSG_MONSTER_EMOTE = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:5730\n CHAT_MSG_WHISPER = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:7239\n SendPVPTimers = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:7044\n DeleteProfile = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:2078\n DungeonMusic = <table> {\n }\n ShowUpdateReminder = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:5241\n lastAntiSpamFLASH = 9262.271000\n PLAYER_REGEN_DISABLED = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:5483\n FireEvent = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1708\n CreateModLocalization = <function> defined @Interface\\AddOns\\DBM-Core\\modules\\objects\\Localization.lua:88\n SCENARIO_COMPLETED = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:4034\n IsEnabled = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:7324\n GetMyPlayerInfo = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:3234\n Capitalize = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:7435\n ADDON_LOADED = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1400\n IconNumToTexture = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:7501\n BattleMusic = <table> {\n }\n INSTANCE_GROUP_SIZE_CHANGED = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:3127\n AddDefeatSound = <function> defined @Interface\\AddOns\\DBM-Core\\modules\\Sounds.lua:106\n GetBossUnitId = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:3378\n AddDefaultOptions = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:3464\n UPDATE_MOUSEOVER_UNIT = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:4380\n InfoFrame = <table> {\n }\n FilterRaidBossEmote = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1238\n RequestTimers = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6943\n UPDATE_BATTLEFIELD_STATUS = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:4012\n CheckNearby = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:3425\n CHAT_MSG_MONSTER_YELL = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:5695\n LFG_PROPOSAL_SHOW = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:3942\n ReleaseRevision = 20210922000000\n RegisterShortTermEvents = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1179\n UnitAura = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6873\n LOADING_SCREEN_DISABLED = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:4211\n GetUnitFullName = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:3239\n FlashClientIcon = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:7490\n VoiceVersions = <table> {\n }\n Voices = <table> {\n }\n AddOns = <table> {\n }\n UNIT_DIED = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6908\n Options = <table> {\n }\n ReceiveCombatInfo = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6971\n GetModLocalization = <function> defined @Interface\\AddOns\\DBM-Core\\modules\\objects\\Localization.lua:105\n PLAY_MOVIE = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:7581\n GetMusic = <function> defined @Interface\\AddOns\\DBM-Core\\modules\\Sounds.lua:215\n PLAYER_SPECIALIZATION_CHANGED = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:3974\n Music = <table> {\n }\n RegisterCallback = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1723\n FindEncounterIDs = <function> defined @Interface",
 			["stack"] = "[string \"@Interface\\AddOns\\DBM-Core\\DBM-Core-7f0cfb8.lua\"]:5525: in function `handler'\n[string \"@Interface\\AddOns\\DBM-Core\\DBM-Core-7f0cfb8.lua\"]:910: in function <Interface\\AddOns\\DBM-Core\\DBM-Core.lua:897>",
-			["session"] = 435,
-			["counter"] = 45,
+			["session"] = 436,
+			["counter"] = 47,
+		}, -- [74]
+		{
+			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
+			["time"] = "2021/07/01 16:18:25",
+			["locals"] = "GearScore = 2320\nItemLevel = 105\nRed = 0.081600\nBlue = 0.320000\nGreen = 0.840000\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 5\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
+			["session"] = 436,
+			["counter"] = 3934,
 		}, -- [75]
 	},
 }

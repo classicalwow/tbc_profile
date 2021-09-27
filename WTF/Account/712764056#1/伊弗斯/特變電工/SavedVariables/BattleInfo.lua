@@ -5,13 +5,13 @@ BatteInfoSettings = {
 	["auto_leave_bg_time"] = 120,
 	["show_time_elapsed"] = true,
 	["label_size"] = 0,
-	["stat_window"] = false,
+	["show_number"] = true,
 	["replace_enter_battle"] = true,
 	["replace_hide_battle"] = true,
-	["flash_icon"] = true,
-	["map_unit_color"] = true,
 	["show_spirit_heal"] = true,
-	["show_number"] = true,
+	["map_unit_color"] = true,
+	["flash_icon"] = true,
+	["stat_window"] = false,
 }
 BatteInfoStat = {
 	{
@@ -54,9 +54,9 @@ BatteInfoStat = {
 		},
 		["total"] = 20,
 		["win"] = 10,
-		[18894] = {
-			["win"] = 2,
-			["total"] = 3,
+		[18895] = {
+			["win"] = 1,
+			["total"] = 2,
 		},
 		["start"] = 1632044299,
 		[18891] = {
@@ -67,9 +67,9 @@ BatteInfoStat = {
 			["win"] = 0,
 			["total"] = 1,
 		},
-		[18895] = {
-			["win"] = 1,
-			["total"] = 2,
+		[18894] = {
+			["win"] = 2,
+			["total"] = 3,
 		},
 	}, -- [4]
 }

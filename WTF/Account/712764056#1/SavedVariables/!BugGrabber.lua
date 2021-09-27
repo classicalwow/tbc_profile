@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-	["session"] = 436,
 	["lastSanitation"] = 3,
+	["session"] = 437,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\TomTom\\TomTom_Config.lua:40: attempt to call method 'EnableDisablePOIIntegration' (a nil value)",
@@ -74,8 +74,8 @@ BugGrabberDB = {
 		}, -- [9]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\MeetingHorn\\Libs\\tdGUI\\Libs\\LibClass-2.0-10\\LibClass-2.0.xml",
-			["session"] = 47,
 			["time"] = "2021/06/08 20:55:27",
+			["session"] = 47,
 			["counter"] = 91,
 		}, -- [10]
 		{
@@ -237,26 +237,26 @@ BugGrabberDB = {
 		}, -- [30]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\alaTalentEmu\\libs\\libs.xml",
-			["time"] = "2021/08/08 18:21:56",
 			["session"] = 304,
+			["time"] = "2021/08/08 18:21:56",
 			["counter"] = 3,
 		}, -- [31]
 		{
 			["message"] = "Error loading Interface\\AddOns\\ClassicCodex-patch\\objects-questie-tbc.lua",
-			["time"] = "2021/08/08 18:21:56",
 			["session"] = 304,
+			["time"] = "2021/08/08 18:21:56",
 			["counter"] = 3,
 		}, -- [32]
 		{
 			["message"] = "Error loading Interface\\AddOns\\ClassicCodex-patch\\objects-loc-tbc.lua",
-			["time"] = "2021/08/08 18:21:56",
 			["session"] = 304,
+			["time"] = "2021/08/08 18:21:56",
 			["counter"] = 3,
 		}, -- [33]
 		{
 			["message"] = "Error loading Interface\\AddOns\\Questie\\Localization\\Translations\\Zones\\Battlegrounds-戰場.lua",
-			["time"] = "2021/08/08 18:21:56",
 			["session"] = 304,
+			["time"] = "2021/08/08 18:21:56",
 			["counter"] = 1,
 		}, -- [34]
 		{
@@ -348,8 +348,8 @@ BugGrabberDB = {
 		}, -- [45]
 		{
 			["message"] = "Texture <unnamed>: Unable to load atlas entry QuestSharing-Padlock",
-			["session"] = 333,
 			["time"] = "2021/08/22 00:26:04",
+			["session"] = 333,
 			["counter"] = 10,
 		}, -- [46]
 		{
@@ -520,14 +520,14 @@ BugGrabberDB = {
 		}, -- [67]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GladiusEx\\libs\\LibCooldownTracker-1.0-10\\cooldowns_bcc_racials.lua",
-			["session"] = 420,
 			["time"] = "2021/08/22 00:22:49",
+			["session"] = 420,
 			["counter"] = 410,
 		}, -- [68]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GladiusEx\\libs\\LibCooldownTracker-1.0-10\\cooldowns_bcc_items.lua",
-			["session"] = 420,
 			["time"] = "2021/08/22 00:22:49",
+			["session"] = 420,
 			["counter"] = 410,
 		}, -- [69]
 		{

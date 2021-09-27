@@ -1,4 +1,5 @@
 SET lootUnderMouse "1"
+SET alwaysCompareItems "1"
 SET showTargetOfTarget "1"
 SET scriptErrors "1"
 SET instantQuestText "1"
