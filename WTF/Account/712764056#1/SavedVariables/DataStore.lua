@@ -6,17 +6,20 @@ DataStoreDB = {
 	},
 	["global"] = {
 		["Guilds"] = {
-			["Default.伊弗斯.極限鐵盒"] = {
+			["Default.伊弗斯.猛男俱樂部"] = {
 				["faction"] = "Horde",
 			},
 			["Default.伊弗斯.槍在手跟我走"] = {
+				["faction"] = "Horde",
+			},
+			["Default.伊弗斯.極限鐵盒"] = {
 				["faction"] = "Horde",
 			},
 		},
 		["Version"] = 1,
 		["Characters"] = {
 			["Default.伊弗斯.特變電工"] = {
-				["guildName"] = "槍在手跟我走",
+				["guildName"] = "猛男俱樂部",
 				["faction"] = "Horde",
 			},
 			["Default.伊弗斯.邁克爾假死"] = {

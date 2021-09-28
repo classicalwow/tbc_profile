@@ -1,6 +1,5 @@
 
 U1DB = {
-	["enteredWorld"] = true,
 	["selectedTag"] = "NOTAGS",
 	["addons"] = {
 		["maxcam"] = 1,
@@ -109,7 +108,7 @@ U1DB = {
 		["myslot"] = 1,
 		["itemrack"] = 1,
 		["altoholic"] = 1,
-		["advancedinterfaceoptions"] = 1,
+		["wim"] = 1,
 		["atlaslootclassic_crafting"] = 1,
 		["mbb"] = 1,
 		["atlaslootclassic_pvp"] = 1,
@@ -150,8 +149,8 @@ U1DB = {
 		["atlasquest"] = 1,
 		["classiccodex-db-dede"] = 0,
 		["battleinfo"] = 1,
-		["wim"] = 1,
 		["guidelime_flymolo's outland leveling guide"] = 1,
+		["advancedinterfaceoptions"] = 1,
 		["bugsack"] = 1,
 		["dbm-vpvv"] = 1,
 		["datastore_spells"] = 1,
@@ -165,8 +164,9 @@ U1DB = {
 		["datastore_mails"] = 1,
 		["classiccodex-patch"] = 1,
 	},
+	["last_logout_time"] = 1632760401,
 	["configs"] = {
 	},
 	["sortByName"] = true,
-	["last_logout_time"] = 1632590046,
+	["enteredWorld"] = true,
 }

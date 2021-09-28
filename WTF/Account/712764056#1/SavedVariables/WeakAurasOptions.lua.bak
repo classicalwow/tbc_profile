@@ -4,9 +4,6 @@ WeakAurasOptionsSaved = {
 	["needsRebuild"] = false,
 	["version"] = "3.7.1",
 	["magnetAlign"] = true,
-	["savedSnippets"] = {
-	},
-	["spellCacheAchivements"] = true,
 	["spellCache"] = {
 		["召喚瑪格拉姆劫毀者"] = {
 			["spells"] = {
@@ -29479,7 +29476,7 @@ WeakAurasOptionsSaved = {
 				[15547] = 132222,
 				[40124] = 132222,
 				[8996] = 132222,
-				[5019] = 135545,
+				[5019] = 132317,
 				[8997] = 132222,
 				[32103] = 132222,
 				[47001] = 132222,
@@ -39319,7 +39316,7 @@ WeakAurasOptionsSaved = {
 		},
 		["Shoot (TEST)"] = {
 			["spells"] = {
-				[19881] = 135545,
+				[19881] = 132317,
 			},
 		},
 		["召喚變異蹣跚者"] = {
@@ -44336,7 +44333,7 @@ WeakAurasOptionsSaved = {
 		},
 		["自動射擊"] = {
 			["spells"] = {
-				[75] = 135545,
+				[75] = 132369,
 			},
 		},
 		["吉茲洛克的假人"] = {
@@ -48821,7 +48818,7 @@ WeakAurasOptionsSaved = {
 				[38584] = 135825,
 				[7389] = 132150,
 				[6351] = 135825,
-				[6603] = 132436,
+				[6603] = 135384,
 				[31992] = 135825,
 				[8386] = 135641,
 				[3606] = 135825,
@@ -56546,7 +56543,7 @@ WeakAurasOptionsSaved = {
 		},
 		["鞭擊恐懼惡魔"] = {
 			["spells"] = {
-				[35673] = 132436,
+				[35673] = 135384,
 			},
 		},
 		["裝滿娜瑪拉的瓶子"] = {
@@ -90379,6 +90376,9 @@ WeakAurasOptionsSaved = {
 				[2402] = 136249,
 			},
 		},
+	},
+	["spellCacheAchivements"] = true,
+	["savedSnippets"] = {
 	},
 	["build"] = "40260",
 }

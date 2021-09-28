@@ -13,18 +13,21 @@ AtlasLootClassicDB = {
 		["路易斯桑拿 - 伊弗斯"] = {
 		},
 		["特變電工 - 伊弗斯"] = {
+			["minimap"] = {
+				["minimapPos"] = 228.6882344345748,
+			},
 			["GUI"] = {
 				["point"] = {
-					nil, -- [1]
+					"RIGHT", -- [1]
 					nil, -- [2]
-					"CENTER", -- [3]
-					-25.87435531616211, -- [4]
-					-59.50821304321289, -- [5]
+					"RIGHT", -- [3]
+					-211.8287200927734, -- [4]
+					-82.73228454589844, -- [5]
 				},
 				["selected"] = {
-					nil, -- [1]
-					"SerpentshrineCavern", -- [2]
-					6, -- [3]
+					"AtlasLootClassic_Crafting", -- [1]
+					"EnchantingBC", -- [2]
+					nil, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},

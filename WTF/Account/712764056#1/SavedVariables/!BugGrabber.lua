@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 	["lastSanitation"] = 3,
-	["session"] = 437,
+	["session"] = 441,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\TomTom\\TomTom_Config.lua:40: attempt to call method 'EnableDisablePOIIntegration' (a nil value)",
@@ -569,12 +569,20 @@ BugGrabberDB = {
 			["counter"] = 47,
 		}, -- [74]
 		{
+			["message"] = "Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:112: attempt to index field 'db' (a nil value)",
+			["time"] = "2021/09/27 23:12:39",
+			["locals"] = "self = <table> {\n GetProfileByName = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:76\n NewProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:118\n IterateProfiles = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:92\n LoadProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:164\n GetProfileByIndex = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:72\n eventFrame = <unnamed> {\n }\n SaveProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:136\n GetProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:84\n EnableOrDisableAddOn = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:182\n GetNumProfiles = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:96\n Show = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:64\n RemoveProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:131\n Initialize = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:46\n CreateFrame = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\ProfilesUI.lua:57\n CreateProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:100\n EditProfileOption = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:125\n BackupSession = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:203\n}\nname = \"登出前\"\nptype = \"auto\"\nprof = <table> {\n config = <table> {\n }\n name = \"登出前\"\n ptype = \"auto\"\n}\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index field 'db' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua\"]:112: in function `CreateProfile'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua\"]:222: in function `BackupSession'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua\"]:253: in function <Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:234>",
+			["session"] = 439,
+			["counter"] = 1,
+		}, -- [75]
+		{
 			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
 			["time"] = "2021/07/01 16:18:25",
 			["locals"] = "GearScore = 2320\nItemLevel = 105\nRed = 0.081600\nBlue = 0.320000\nGreen = 0.840000\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 5\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
-			["session"] = 436,
-			["counter"] = 3934,
-		}, -- [75]
+			["session"] = 440,
+			["counter"] = 3963,
+		}, -- [76]
 	},
 }

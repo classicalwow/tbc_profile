@@ -7,7 +7,7 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1632588233,
+				["lastUpdate"] = 1632751045,
 				["Mails"] = {
 					{
 						["icon"] = 134327,
@@ -16,11 +16,11 @@ DataStore_MailsDB = {
 						["returned"] = false,
 						["money"] = 0,
 						["text"] = "祝你平安，我的朋友。希望你在為部落而戰的征途中又有了新的斬獲。我衷心期望著有一天，其他冒險者們會像崇敬葛羅·地獄吼那樣崇敬你。\n\n我沒有忘記你在收穫節中為了紀念葛羅而做的事情，為此，我寄一些你可能用得到的東西給你。\n\n亞尼·納沙克",
-						["lastCheck"] = 1632588233,
-						["daysLeft"] = 26.56418991088867,
+						["lastCheck"] = 1632751045,
+						["daysLeft"] = 24.67934036254883,
 					}, -- [1]
 				},
-				["lastVisitDate"] = "2021/09/26 00:43",
+				["lastVisitDate"] = "2021/09/27 21:57",
 			},
 			["Default.伊弗斯.邁克爾假死"] = {
 				["lastUpdate"] = 1632561473,

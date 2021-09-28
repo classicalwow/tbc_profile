@@ -2,6 +2,7 @@
 MBB_Exclude = {
 	"Lib_GPI_Minimap_LFGBulletinBoard", -- [1]
 	"LibDBIcon10_ItemRack", -- [2]
+	"LibDBIcon10_AtlasLoot", -- [3]
 }
 MBB_Options = {
 	["CollapseTimeout"] = 1,

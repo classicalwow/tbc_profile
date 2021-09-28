@@ -295,11 +295,11 @@ PawnCommon = {
 		},
 		["\"Classic\":ROGUE"] = {
 			["Color"] = "fff468",
-			["LocalizedName"] = "盜賊: 副手",
+			["ClassID"] = 4,
 			["PerCharacterOptions"] = {
 			},
 			["DoNotShow1HUpgrades"] = false,
-			["ClassID"] = 4,
+			["LocalizedName"] = "盜賊: 副手",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
