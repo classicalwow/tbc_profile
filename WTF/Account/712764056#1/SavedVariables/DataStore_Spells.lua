@@ -7,7 +7,7 @@ DataStore_SpellsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1632932625,
+				["lastUpdate"] = 1633101529,
 				["Spells"] = {
 					["武器"] = {
 						"20230|", -- [1]

@@ -1,6 +1,6 @@
 
 BugGrabberDB = {
-	["session"] = 444,
+	["session"] = 452,
 	["lastSanitation"] = 3,
 	["errors"] = {
 		{
@@ -577,12 +577,28 @@ BugGrabberDB = {
 			["counter"] = 1,
 		}, -- [75]
 		{
+			["message"] = "...Puggle\\Libs\\NoTaintUIDropDownMenu\\UIDropDownMenu.lua:1101: attempt to index local 'frame' (a nil value)",
+			["time"] = "2021/10/01 10:33:55",
+			["locals"] = "frame = nil\ntext = \"特變電工 - Friday October 01, 2021 at 10:33 - 奧格瑪\"\n(*temporary) = <table> {\n puggletags_STL_pick = puggletags_STL_pick {\n }\n ContainerFrame5Item7 = ContainerFrame5Item7 {\n }\n ARKINV_Frame1ScrollContainerBag5Item23ArkIconOverlay = ARKINV_Frame1ScrollContainerBag5Item23ArkIconOverlay {\n }\n GetTrainerServiceTypeFilter = <function> defined =[C]:-1\n UNIT_NAMES_COMBATLOG_TOOLTIP = \"將單位名稱標示顏色。\"\n aux.frame11Shine10 = aux.frame11Shine10 {\n }\n SetTrainerServiceTypeFilter = <function> defined =[C]:-1\n LE_GAME_ERR_CHAT_RAID_RESTRICTED_TRIAL = 776\n SPELL_FAILED_CUSTOM_ERROR_71 = \"這名派對客想要跟你跳舞。\"\n LE_GAME_ERR_PET_SPELL_TARGETS_DEAD = 399\n Atr_StackPriceCopperMiddle = Atr_StackPriceCopperMiddle {\n }\n aux.frame12FlyoutBorderShadow = aux.frame12FlyoutBorderShadow {\n }\n CompactUnitFrameProfilesGeneralOptionsFrameHealthTextDropdownButtonNormalTexture = CompactUnitFrameProfilesGeneralOptionsFrameHealthTextDropdownButtonNormalTexture {\n }\n InspectFrameTab1HighlightTexture = InspectFrameTab1HighlightTexture {\n }\n PawnItemComparer = <function> defined @Interface\\AddOns\\Pawn\\Pawn.lua:3963\n MultiBarLeftButton7 = MultiBarLeftButton7 {\n }\n AudioOptionsVoicePanelOutputDeviceDropdownButtonHighlightTexture = AudioOptionsVoicePanelOutputDeviceDropdownButtonHighlightTexture {\n }\n LE_GAME_ERR_INVALID_FOLLOW_PVP_COMBAT = 353\n MerchantItem4AltCurrencyFrameItem1Text = MerchantItem4AltCurrencyFrameItem1Text {\n }\n BINDING_NAME_NAMEPLATES = \"顯示敵方名條\"\n CHAT_HEADER_SUFFIX = \"：\"\n MultiBarBottomRightButton8Shine5 = MultiBarBottomRightButton8Shine5 {\n }\n IsReferAFriendLinked = <function> defined =[C]:-1\n Inst31Quest3Rewardtext = \"|cff0070dd 沒有獎勵物品\"\n UnitFrameManaBar_UnregisterDefaultEvents = <function> defined @Interface_TBC\\FrameXML\\UnitFrame.lua:600\n ERR_NOAMMO_S = \"%s\"\n CraftExpandTabLeft = CraftExpandTabLeft {\n }\n BOOST2_WARRIOR_COLOSSUSSMASH = \"使用|cFFFFFFFF千鈞潰擊|r。\n\n|cFFFFFFFF千鈞潰擊|r可提高你的傷害。\"\n CinematicFrameRaidBossEmoteFrame = CinematicFrameRaidBossEmoteFrame {\n }\n Inst22Quest2_HORDE_QuestID = \"5725\"\n ElvUI_Bar5Button12Shine7 = ElvUI_Bar5Button12Shine7 {\n }\n CompactRaidFrameManagerDisplayFrameHiddenModeToggleTopRight = CompactRaidFrameManagerDisplayFrameHiddenModeToggleTopRight {\n }\n LE_GAME_ERR_ONLY_ONE_QUIVER = 32\n GetMonitorAspectRatio = <function> defined =[C]:-1\n LOSS_OF_CONTROL_DISPLAY_FEAR = \"恐懼\"\n Graphics_QualityText = Graphics_QualityText {\n }\n Inst20Quest13_HORDE_Attain = \"54\"\n questieLineFrame38 = questieLineFrame38 {\n }\n LibDBIcon10_BugSack = LibDBIcon10_BugSack {\n }\n CompactUnitFrameProfilesSaveButton = CompactUnitFrameProfilesSaveButton {\n }\n ElvUI_Bar6Button6 = ElvUI_Bar6Button6 {\n }\n RaidGraphics_EnvironmentalDetailSlider = RaidGraphics_EnvironmentalDetailSlider {\n }\n RaidUtility_CloseButton = RaidUtility_CloseButton {\n }\n ARKINV_Frame4TitleActionButton2 = ARKINV_Frame4TitleActionButton2 {\n }\n Is64BitClient = <function> defined =[C]:-1\n Inst56Quest15description1 = \"飾品\"\n Puggle_ContainerFrameTab3HighlightTexture = Puggle_ContainerFrameTab3HighlightTexture {\n }\n SortQuestWatches = <function> defined =[C]:-1\n ContainerFrame4Item16Cooldown = ContainerFrame4Item16Cooldown {\n }\n Inst27Quest3 = \"3. 逐風者桑德蘭\"\n DUNGEON_FLOOR_DRAGONBLIGHTCHROMIESCENARIO2 = \"安多哈爾\"\n PlayerFrame_UpdateReadyCheck = <function> defined @Interface\\FrameXML\\PlayerFrame.lua:345\n ElvUI_Bar10Button8FlyoutBorder = ElvUI_Bar10Button8FlyoutBorder {\n }\n Inst43Quest1_HORDE_Folgequest = \"None\"\n WowTokenRedemptionFrameBg = WowTokenRedemptionFrameBg {\n }\n SPELL_FAILED_CUSTOM_ERROR_152 = \"你必須選擇一項專精才能使用卓越術。\"\n Atr_IsTabSelected = <function> defined @Interface\\AddOns\\Auctionator\\Auctionator.lua:4553\n GuildControlPopupFrame = GuildControlPopupFrame {\n }\n AutoBarButtonFreeActionFrameShine4 = AutoBarButtonFreeActionFrameShine4 {\n }\n SendStationeryBackgroundRight = SendStationeryBackgroundRight {\n }\n Inst19Quest5ITC1 = \"|cff1eff00\"\n TUTORIAL61_SPELLID_DRUID = \"768\"\n ElvUI_Bar1Button7Shine6 = ElvUI_Bar1But",
+			["stack"] = "[string \"@Interface\\AddOns\\Puggle\\Libs\\NoTaintUIDropDownMenu\\UIDropDownMenu.lua\"]:1101: in function `Lib_UIDropDownMenu_SetText'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:606: in function `Puggle_UpdateCurrentGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:526: in function `Puggle_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
+			["session"] = 446,
+			["counter"] = 21,
+		}, -- [76]
+		{
+			["message"] = "Interface\\AddOns\\Puggle\\Puggle-216.lua:1346: bad argument #1 to 'gsub' (string expected, got nil)",
+			["time"] = "2021/10/01 10:34:12",
+			["locals"] = "(*temporary) = nil\n(*temporary) = \"[^ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=]\"\n(*temporary) = \"\"\n(*temporary) = \"string expected, got nil\"\n",
+			["stack"] = "[string \"=[C]\"]: in function `gsub'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1346: in function `Puggle_dec'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:974: in function `Puggle_displayPlayers'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1367: in function `Puggle_SetStarSource'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>",
+			["session"] = 448,
+			["counter"] = 11,
+		}, -- [77]
+		{
 			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
 			["time"] = "2021/07/01 16:18:25",
 			["locals"] = "GearScore = 2320\nItemLevel = 105\nRed = 0.081600\nBlue = 0.320000\nGreen = 0.840000\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 5\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
-			["session"] = 444,
-			["counter"] = 3975,
-		}, -- [76]
+			["session"] = 449,
+			["counter"] = 4024,
+		}, -- [78]
 	},
 }

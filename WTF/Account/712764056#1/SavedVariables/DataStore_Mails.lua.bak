@@ -8,23 +8,121 @@ DataStore_MailsDB = {
 		["Characters"] = {
 			["Default.伊弗斯.邁克爾假死"] = {
 				["lastUpdate"] = 1632561473,
+				["Mails"] = {
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["lastCheck"] = 1633085030,
+						["icon"] = 132898,
+						["daysLeft"] = 30,
+					}, -- [1]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["lastCheck"] = 1633085030,
+						["icon"] = 132898,
+						["daysLeft"] = 30,
+					}, -- [2]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["lastCheck"] = 1633085030,
+						["icon"] = 132898,
+						["daysLeft"] = 30,
+					}, -- [3]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["lastCheck"] = 1633089237,
+						["icon"] = 132898,
+						["daysLeft"] = 30,
+					}, -- [4]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 8,
+						["lastCheck"] = 1633089237,
+						["icon"] = 132898,
+						["daysLeft"] = 30,
+					}, -- [5]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["lastCheck"] = 1633089237,
+						["icon"] = 132898,
+						["daysLeft"] = 30,
+					}, -- [6]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["lastCheck"] = 1633085030,
+						["icon"] = 132898,
+						["daysLeft"] = 30,
+					}, -- [7]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["lastCheck"] = 1633085030,
+						["icon"] = 132898,
+						["daysLeft"] = 30,
+					}, -- [8]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["lastCheck"] = 1633085030,
+						["icon"] = 132898,
+						["daysLeft"] = 30,
+					}, -- [9]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["lastCheck"] = 1633085030,
+						["icon"] = 132898,
+						["daysLeft"] = 30,
+					}, -- [10]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 2,
+						["lastCheck"] = 1633085030,
+						["icon"] = 132898,
+						["daysLeft"] = 30,
+					}, -- [11]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["lastCheck"] = 1633089237,
+						["icon"] = 132898,
+						["daysLeft"] = 30,
+					}, -- [12]
+				},
 				["lastVisitDate"] = "2021/09/25 17:17",
 			},
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1632751045,
-				["Mails"] = {
-					{
-						["lastCheck"] = 1632751045,
-						["sender"] = "亞尼·納沙克",
-						["subject"] = "",
-						["returned"] = false,
-						["money"] = 0,
-						["text"] = "祝你平安，我的朋友。希望你在為部落而戰的征途中又有了新的斬獲。我衷心期望著有一天，其他冒險者們會像崇敬葛羅·地獄吼那樣崇敬你。\n\n我沒有忘記你在收穫節中為了紀念葛羅而做的事情，為此，我寄一些你可能用得到的東西給你。\n\n亞尼·納沙克",
-						["icon"] = 134327,
-						["daysLeft"] = 24.67934036254883,
-					}, -- [1]
-				},
-				["lastVisitDate"] = "2021/09/27 21:57",
+				["lastUpdate"] = 1633091852,
+				["lastVisitDate"] = "2021/10/01 20:37",
 			},
 		},
 	},

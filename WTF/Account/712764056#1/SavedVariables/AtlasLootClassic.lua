@@ -21,13 +21,13 @@ AtlasLootClassicDB = {
 					nil, -- [1]
 					nil, -- [2]
 					"CENTER", -- [3]
-					185.0019836425781, -- [4]
-					-71.07471466064453, -- [5]
+					-56.31142807006836, -- [4]
+					-73.91427612304688, -- [5]
 				},
 				["selected"] = {
-					nil, -- [1]
-					"SerpentshrineCavern", -- [2]
-					5, -- [3]
+					"AtlasLootClassic_Crafting", -- [1]
+					"EnchantingBC", -- [2]
+					9, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},

@@ -42,6 +42,39 @@ TomTomWaypointsM = {
 	},
 	["profiles"] = {
 		["特變電工 - 伊弗斯"] = {
+			[1955] = {
+				["1955:640586797.06601:411002444.98778:紐卓"] = {
+					1955, -- [1]
+					0.6405867970660146, -- [2]
+					0.4110024449877751, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "紐卓",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "紐卓",
+					["from"] = "?",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
 		},
 		["邁克爾假死 - 伊弗斯"] = {
 		},
