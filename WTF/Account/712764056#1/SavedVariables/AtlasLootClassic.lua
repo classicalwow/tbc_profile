@@ -1,7 +1,7 @@
 
 AtlasLootClassicDB = {
 	["global"] = {
-		["__addonrevision"] = 2030003,
+		["__addonrevision"] = 2030004,
 	},
 	["profileKeys"] = {
 		["路易斯桑拿 - 伊弗斯"] = "路易斯桑拿 - 伊弗斯",
@@ -18,17 +18,17 @@ AtlasLootClassicDB = {
 			},
 			["GUI"] = {
 				["point"] = {
-					nil, -- [1]
+					"BOTTOM", -- [1]
 					nil, -- [2]
-					"CENTER", -- [3]
-					-56.31142807006836, -- [4]
-					-73.91427612304688, -- [5]
+					"BOTTOM", -- [3]
+					-264.670654296875, -- [4]
+					-0, -- [5]
 				},
 				["selected"] = {
-					"AtlasLootClassic_Crafting", -- [1]
-					"EnchantingBC", -- [2]
-					9, -- [3]
-					1, -- [4]
+					"AtlasLootClassic_PvP", -- [1]
+					"ArenaS1PvP", -- [2]
+					4, -- [3]
+					2, -- [4]
 					0, -- [5]
 				},
 			},

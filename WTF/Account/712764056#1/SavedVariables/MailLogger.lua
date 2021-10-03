@@ -30,239 +30,6 @@ MailLoggerDB = {
 	},
 	["TradeLog"] = {
 		{
-			["TargetName"] = "鳥德開團用",
-			["PlayerName"] = "邁克爾假死",
-			["Date"] = "2021-07-03",
-			["ReceiveMoney"] = 19250000,
-			["Time"] = "00:46:14",
-			["GiveMoney"] = 0,
-			["Location"] = "撒塔斯城",
-			["GiveItems"] = {
-			},
-			["Result"] = "completed",
-			["ReceiveItems"] = {
-			},
-		}, -- [1]
-		{
-			["TargetName"] = "澳格瑪性騎士",
-			["PlayerName"] = "邁克爾假死",
-			["Date"] = "2021-07-03",
-			["ReceiveMoney"] = 0,
-			["Time"] = "00:46:44",
-			["GiveMoney"] = 3850000,
-			["Location"] = "撒塔斯城",
-			["GiveItems"] = {
-			},
-			["Result"] = "completed",
-			["ReceiveItems"] = {
-			},
-		}, -- [2]
-		{
-			["TargetName"] = "高城御守",
-			["PlayerName"] = "邁克爾假死",
-			["Date"] = "2021-07-03",
-			["ReceiveMoney"] = 0,
-			["Time"] = "00:47:00",
-			["GiveMoney"] = 3850000,
-			["Location"] = "撒塔斯城",
-			["GiveItems"] = {
-			},
-			["Result"] = "completed",
-			["ReceiveItems"] = {
-			},
-		}, -- [3]
-		{
-			["TargetName"] = "奶很大很給力",
-			["PlayerName"] = "邁克爾假死",
-			["Date"] = "2021-07-03",
-			["ReceiveMoney"] = 0,
-			["Time"] = "00:47:16",
-			["GiveMoney"] = 3850000,
-			["Location"] = "撒塔斯城",
-			["GiveItems"] = {
-			},
-			["Result"] = "completed",
-			["ReceiveItems"] = {
-			},
-		}, -- [4]
-		{
-			["TargetName"] = "哈佛高材生",
-			["PlayerName"] = "邁克爾假死",
-			["Date"] = "2021-07-03",
-			["ReceiveMoney"] = 0,
-			["Time"] = "00:47:24",
-			["GiveMoney"] = 3850000,
-			["Location"] = "撒塔斯城",
-			["GiveItems"] = {
-			},
-			["Result"] = "completed",
-			["ReceiveItems"] = {
-			},
-		}, -- [5]
-		{
-			["TargetName"] = "畜生犬隊長",
-			["PlayerName"] = "邁克爾假死",
-			["Date"] = "2021-07-03",
-			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-				{
-					["Number"] = 3,
-					["ItemLink"] = "|cffffffff|Hitem:22575::::::::70::::::::|h[生命微粒]|h|r",
-					["Name"] = "生命微粒",
-				}, -- [1]
-				{
-					["Number"] = 41,
-					["ItemLink"] = "|cffffffff|Hitem:21877::::::::70::::::::|h[幽紋布]|h|r",
-					["Name"] = "幽紋布",
-				}, -- [2]
-				[5] = {
-					["Number"] = 2,
-					["ItemLink"] = "|cff1eff00|Hitem:31952::::::::70::::::::|h[克銀帶鎖箱]|h|r",
-					["Name"] = "克銀帶鎖箱",
-				},
-			},
-			["GiveMoney"] = 0,
-			["Location"] = "奧格瑪",
-			["Time"] = "20:01:07",
-			["Result"] = "sent",
-			["ReceiveItems"] = {
-			},
-		}, -- [6]
-		{
-			["Date"] = "2021-07-03",
-			["TargetName"] = "薚蒯",
-			["ReceiveMoney"] = 0,
-			["Time"] = "20:04:09",
-			["GiveMoney"] = 0,
-			["Location"] = "塞司克大廳",
-			["GiveItems"] = {
-			},
-			["PlayerName"] = "邁克爾假死",
-			["ReceiveItems"] = {
-			},
-		}, -- [7]
-		{
-			["TargetName"] = "薚蒯",
-			["PlayerName"] = "邁克爾假死",
-			["Date"] = "2021-07-03",
-			["ReceiveMoney"] = 0,
-			["Time"] = "20:04:09",
-			["GiveMoney"] = 0,
-			["Location"] = "塞司克大廳",
-			["GiveItems"] = {
-				{
-					["Number"] = 19,
-					["ItemLink"] = "|cffffffff|Hitem:34062::::::::70::::::::|h[魔法軟餅]|h|r",
-					["Name"] = "魔法軟餅",
-				}, -- [1]
-				{
-					["Number"] = 20,
-					["ItemLink"] = "|cffffffff|Hitem:34062::::::::70::::::::|h[魔法軟餅]|h|r",
-					["Name"] = "魔法軟餅",
-				}, -- [2]
-			},
-			["Result"] = "completed",
-			["ReceiveItems"] = {
-			},
-		}, -- [8]
-		{
-			["PlayerName"] = "邁克爾假死",
-			["TargetName"] = "部落拍賣場",
-			["Reason"] = 1,
-			["Date"] = "2021-07-03",
-			["ReceiveMoney"] = 0,
-			["Time"] = "20:51:53",
-			["GiveMoney"] = 0,
-			["Location"] = "奧格瑪",
-			["GiveItems"] = {
-			},
-			["Result"] = "received",
-			["ReceiveItems"] = {
-				{
-					["Number"] = 5,
-					["ItemLink"] = "|cffffffff|Hitem:22831::::::::70::::::::|h[極效敏捷藥劑]|h|r",
-					["Name"] = "極效敏捷藥劑",
-				}, -- [1]
-			},
-		}, -- [9]
-		{
-			["Date"] = "2021-07-03",
-			["TargetName"] = "皮蛋瘦肉粥",
-			["ReceiveMoney"] = 0,
-			["Time"] = "22:24:53",
-			["GiveMoney"] = 0,
-			["Location"] = "卡拉贊",
-			["GiveItems"] = {
-			},
-			["PlayerName"] = "邁克爾假死",
-			["ReceiveItems"] = {
-			},
-		}, -- [10]
-		{
-			["TargetName"] = "皮蛋瘦肉粥",
-			["PlayerName"] = "邁克爾假死",
-			["Date"] = "2021-07-03",
-			["ReceiveMoney"] = 0,
-			["Time"] = "22:24:53",
-			["GiveMoney"] = 1000000,
-			["Location"] = "卡拉贊",
-			["GiveItems"] = {
-			},
-			["Result"] = "completed",
-			["ReceiveItems"] = {
-				{
-					["Number"] = 1,
-					["ItemLink"] = "|cffa335ee|Hitem:28587::::::::70::::::::|h[繼承之斧]|h|r",
-					["Name"] = "繼承之斧",
-				}, -- [1]
-			},
-		}, -- [11]
-		{
-			["Date"] = "2021-07-03",
-			["TargetName"] = "皮蛋瘦肉粥",
-			["ReceiveMoney"] = 0,
-			["Time"] = "22:51:17",
-			["GiveMoney"] = 0,
-			["Location"] = "卡拉贊",
-			["GiveItems"] = {
-			},
-			["PlayerName"] = "邁克爾假死",
-			["ReceiveItems"] = {
-			},
-		}, -- [12]
-		{
-			["Date"] = "2021-07-03",
-			["TargetName"] = "皮蛋瘦肉粥",
-			["ReceiveMoney"] = 0,
-			["Time"] = "22:51:40",
-			["GiveMoney"] = 0,
-			["Location"] = "卡拉贊",
-			["GiveItems"] = {
-			},
-			["PlayerName"] = "邁克爾假死",
-			["ReceiveItems"] = {
-			},
-		}, -- [13]
-		{
-			["TargetName"] = "皮蛋瘦肉粥",
-			["PlayerName"] = "邁克爾假死",
-			["Date"] = "2021-07-03",
-			["ReceiveMoney"] = 0,
-			["Time"] = "22:51:40",
-			["GiveMoney"] = 5000000,
-			["Location"] = "卡拉贊",
-			["GiveItems"] = {
-			},
-			["Result"] = "completed",
-			["ReceiveItems"] = {
-				{
-					["Number"] = 1,
-					["ItemLink"] = "|cffa335ee|Hitem:28649::::::::70::::::::|h[迦羅娜的璽戒]|h|r",
-					["Name"] = "迦羅娜的璽戒",
-				}, -- [1]
-			},
-		}, -- [14]
-		{
 			["Date"] = "2021-07-04",
 			["TargetName"] = "皮蛋瘦肉粥",
 			["ReceiveMoney"] = 0,
@@ -274,7 +41,7 @@ MailLoggerDB = {
 			["PlayerName"] = "邁克爾假死",
 			["ReceiveItems"] = {
 			},
-		}, -- [15]
+		}, -- [1]
 		{
 			["TargetName"] = "皮蛋瘦肉粥",
 			["PlayerName"] = "邁克爾假死",
@@ -293,7 +60,7 @@ MailLoggerDB = {
 					["Name"] = "叛節束腰",
 				}, -- [1]
 			},
-		}, -- [16]
+		}, -- [2]
 		{
 			["Date"] = "2021-07-04",
 			["TargetName"] = "忘卻的紀念",
@@ -306,7 +73,7 @@ MailLoggerDB = {
 			["PlayerName"] = "邁克爾假死",
 			["ReceiveItems"] = {
 			},
-		}, -- [17]
+		}, -- [3]
 		{
 			["TargetName"] = "忘卻的紀念",
 			["PlayerName"] = "邁克爾假死",
@@ -325,7 +92,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [18]
+		}, -- [4]
 		{
 			["Date"] = "2021-07-04",
 			["TargetName"] = "Riechar",
@@ -338,7 +105,7 @@ MailLoggerDB = {
 			["PlayerName"] = "邁克爾假死",
 			["ReceiveItems"] = {
 			},
-		}, -- [19]
+		}, -- [5]
 		{
 			["TargetName"] = "Riechar",
 			["PlayerName"] = "邁克爾假死",
@@ -357,7 +124,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [20]
+		}, -- [6]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "部落拍賣場",
@@ -377,7 +144,7 @@ MailLoggerDB = {
 					["Name"] = "精緻的血石榴石",
 				}, -- [1]
 			},
-		}, -- [21]
+		}, -- [7]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "部落拍賣場",
@@ -407,7 +174,7 @@ MailLoggerDB = {
 					["Name"] = "大塊稜石裂片",
 				}, -- [3]
 			},
-		}, -- [22]
+		}, -- [8]
 		{
 			["Date"] = "2021-07-04",
 			["PlayerName"] = "邁克爾假死",
@@ -420,7 +187,7 @@ MailLoggerDB = {
 			["Time"] = "01:21:32",
 			["ReceiveItems"] = {
 			},
-		}, -- [23]
+		}, -- [9]
 		{
 			["TargetName"] = "魔滅戰神",
 			["PlayerName"] = "邁克爾假死",
@@ -449,7 +216,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [24]
+		}, -- [10]
 		{
 			["Date"] = "2021-07-04",
 			["PlayerName"] = "邁克爾假死",
@@ -462,7 +229,7 @@ MailLoggerDB = {
 			["Time"] = "01:21:39",
 			["ReceiveItems"] = {
 			},
-		}, -- [25]
+		}, -- [11]
 		{
 			["TargetName"] = "魔滅戰神",
 			["PlayerName"] = "邁克爾假死",
@@ -482,7 +249,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [26]
+		}, -- [12]
 		{
 			["TargetName"] = "畜生犬隊長",
 			["PlayerName"] = "邁克爾假死",
@@ -516,7 +283,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [27]
+		}, -- [13]
 		{
 			["TargetName"] = "畜生犬隊長",
 			["PlayerName"] = "邁克爾假死",
@@ -545,7 +312,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [28]
+		}, -- [14]
 		{
 			["Date"] = "2021-07-04",
 			["TargetName"] = "靈活小胖子",
@@ -558,7 +325,7 @@ MailLoggerDB = {
 			["PlayerName"] = "邁克爾假死",
 			["ReceiveItems"] = {
 			},
-		}, -- [29]
+		}, -- [15]
 		{
 			["TargetName"] = "Austinger",
 			["PlayerName"] = "邁克爾假死",
@@ -571,7 +338,7 @@ MailLoggerDB = {
 			["Date"] = "2021-07-05",
 			["ReceiveItems"] = {
 			},
-		}, -- [30]
+		}, -- [16]
 		{
 			["TargetName"] = "專職奶爸",
 			["PlayerName"] = "邁克爾假死",
@@ -584,7 +351,7 @@ MailLoggerDB = {
 			["Date"] = "2021-07-07",
 			["ReceiveItems"] = {
 			},
-		}, -- [31]
+		}, -- [17]
 		{
 			["TargetName"] = "專職奶爸",
 			["PlayerName"] = "邁克爾假死",
@@ -603,7 +370,7 @@ MailLoggerDB = {
 					["Name"] = "魔法軟餅",
 				}, -- [1]
 			},
-		}, -- [32]
+		}, -- [18]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "部落拍賣場",
@@ -628,7 +395,7 @@ MailLoggerDB = {
 					["Name"] = "極效敏捷藥劑",
 				}, -- [2]
 			},
-		}, -- [33]
+		}, -- [19]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "皮蛋瘦肉粥",
@@ -643,7 +410,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [34]
+		}, -- [20]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "部落拍賣場",
@@ -668,7 +435,7 @@ MailLoggerDB = {
 					["Name"] = "超強效法力藥水",
 				}, -- [2]
 			},
-		}, -- [35]
+		}, -- [21]
 		{
 			["TargetName"] = "有點小崩潰",
 			["PlayerName"] = "邁克爾假死",
@@ -681,7 +448,7 @@ MailLoggerDB = {
 			["Date"] = "2021-07-09",
 			["ReceiveItems"] = {
 			},
-		}, -- [36]
+		}, -- [22]
 		{
 			["TargetName"] = "有點小崩潰",
 			["PlayerName"] = "邁克爾假死",
@@ -695,7 +462,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [37]
+		}, -- [23]
 		{
 			["TargetName"] = "醉後卍獵人",
 			["PlayerName"] = "邁克爾假死",
@@ -708,7 +475,7 @@ MailLoggerDB = {
 			["Date"] = "2021-07-09",
 			["ReceiveItems"] = {
 			},
-		}, -- [38]
+		}, -- [24]
 		{
 			["TargetName"] = "醉後卍獵人",
 			["PlayerName"] = "邁克爾假死",
@@ -722,7 +489,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [39]
+		}, -- [25]
 		{
 			["TargetName"] = "畜生犬隊長",
 			["PlayerName"] = "邁克爾假死",
@@ -741,7 +508,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [40]
+		}, -- [26]
 		{
 			["TargetName"] = "莯小豪",
 			["PlayerName"] = "邁克爾假死",
@@ -754,7 +521,7 @@ MailLoggerDB = {
 			["Date"] = "2021-07-09",
 			["ReceiveItems"] = {
 			},
-		}, -- [41]
+		}, -- [27]
 		{
 			["TargetName"] = "莯小豪",
 			["PlayerName"] = "邁克爾假死",
@@ -773,7 +540,7 @@ MailLoggerDB = {
 					["Name"] = "狼人的折磨",
 				}, -- [1]
 			},
-		}, -- [42]
+		}, -- [28]
 		{
 			["TargetName"] = "麥鴻敢",
 			["PlayerName"] = "邁克爾假死",
@@ -786,7 +553,7 @@ MailLoggerDB = {
 			["Date"] = "2021-07-09",
 			["ReceiveItems"] = {
 			},
-		}, -- [43]
+		}, -- [29]
 		{
 			["TargetName"] = "麥鴻敢",
 			["PlayerName"] = "邁克爾假死",
@@ -800,7 +567,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [44]
+		}, -- [30]
 		{
 			["TargetName"] = "總加速師",
 			["PlayerName"] = "邁克爾假死",
@@ -813,7 +580,7 @@ MailLoggerDB = {
 			["Date"] = "2021-07-09",
 			["ReceiveItems"] = {
 			},
-		}, -- [45]
+		}, -- [31]
 		{
 			["TargetName"] = "總加速師",
 			["PlayerName"] = "邁克爾假死",
@@ -832,7 +599,7 @@ MailLoggerDB = {
 					["Name"] = "屠魔之靴",
 				}, -- [1]
 			},
-		}, -- [46]
+		}, -- [32]
 		{
 			["TargetName"] = "綺羅香",
 			["PlayerName"] = "邁克爾假死",
@@ -845,7 +612,7 @@ MailLoggerDB = {
 			["Date"] = "2021-07-09",
 			["ReceiveItems"] = {
 			},
-		}, -- [47]
+		}, -- [33]
 		{
 			["TargetName"] = "綺羅香",
 			["PlayerName"] = "邁克爾假死",
@@ -859,7 +626,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [48]
+		}, -- [34]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "部落拍賣場",
@@ -874,7 +641,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [49]
+		}, -- [35]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["Date"] = "2021-07-10",
@@ -887,7 +654,7 @@ MailLoggerDB = {
 			["TargetName"] = "噬血症",
 			["ReceiveItems"] = {
 			},
-		}, -- [50]
+		}, -- [36]
 		{
 			["TargetName"] = "噬血症",
 			["PlayerName"] = "邁克爾假死",
@@ -931,7 +698,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [51]
+		}, -- [37]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["Date"] = "2021-07-10",
@@ -944,7 +711,7 @@ MailLoggerDB = {
 			["TargetName"] = "噬血症",
 			["ReceiveItems"] = {
 			},
-		}, -- [52]
+		}, -- [38]
 		{
 			["TargetName"] = "噬血症",
 			["PlayerName"] = "邁克爾假死",
@@ -988,7 +755,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [53]
+		}, -- [39]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["Date"] = "2021-07-10",
@@ -1001,7 +768,7 @@ MailLoggerDB = {
 			["TargetName"] = "噬血症",
 			["ReceiveItems"] = {
 			},
-		}, -- [54]
+		}, -- [40]
 		{
 			["TargetName"] = "噬血症",
 			["PlayerName"] = "邁克爾假死",
@@ -1025,7 +792,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [55]
+		}, -- [41]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["Date"] = "2021-07-10",
@@ -1038,7 +805,7 @@ MailLoggerDB = {
 			["TargetName"] = "噬血症",
 			["ReceiveItems"] = {
 			},
-		}, -- [56]
+		}, -- [42]
 		{
 			["TargetName"] = "噬血症",
 			["PlayerName"] = "邁克爾假死",
@@ -1058,7 +825,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [57]
+		}, -- [43]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "部落拍賣場",
@@ -1083,7 +850,7 @@ MailLoggerDB = {
 					["Name"] = "灌能的夜眼石",
 				}, -- [2]
 			},
-		}, -- [58]
+		}, -- [44]
 		{
 			["TargetName"] = "畜生犬隊長",
 			["PlayerName"] = "邁克爾假死",
@@ -1137,7 +904,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [59]
+		}, -- [45]
 		{
 			["TargetName"] = "畜生犬隊長",
 			["PlayerName"] = "邁克爾假死",
@@ -1186,7 +953,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [60]
+		}, -- [46]
 		{
 			["Date"] = "2021-07-10",
 			["PlayerName"] = "邁克爾假死",
@@ -1199,7 +966,7 @@ MailLoggerDB = {
 			["Time"] = "23:17:24",
 			["ReceiveItems"] = {
 			},
-		}, -- [61]
+		}, -- [47]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -1218,7 +985,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [62]
+		}, -- [48]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -1232,7 +999,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [63]
+		}, -- [49]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "邁克爾假死",
@@ -1247,7 +1014,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [64]
+		}, -- [50]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "Ggsb",
@@ -1260,7 +1027,7 @@ MailLoggerDB = {
 			["Time"] = "00:06:32",
 			["ReceiveItems"] = {
 			},
-		}, -- [65]
+		}, -- [51]
 		{
 			["TargetName"] = "Ggsb",
 			["PlayerName"] = "邁克爾假死",
@@ -1279,7 +1046,7 @@ MailLoggerDB = {
 					["Name"] = "魔法軟餅",
 				}, -- [1]
 			},
-		}, -- [66]
+		}, -- [52]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -1293,7 +1060,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [67]
+		}, -- [53]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -1307,7 +1074,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [68]
+		}, -- [54]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "邁克爾假死",
@@ -1322,7 +1089,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [69]
+		}, -- [55]
 		{
 			["Date"] = "2021-07-14",
 			["TargetName"] = "老闆挺住",
@@ -1335,7 +1102,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [70]
+		}, -- [56]
 		{
 			["TargetName"] = "老闆挺住",
 			["PlayerName"] = "特變電工",
@@ -1359,7 +1126,7 @@ MailLoggerDB = {
 					["Name"] = "斯博格爾蘑菇",
 				},
 			},
-		}, -- [71]
+		}, -- [57]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "邁克爾假死",
@@ -1374,7 +1141,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [72]
+		}, -- [58]
 		{
 			["TargetName"] = "畜生犬隊長",
 			["PlayerName"] = "特變電工",
@@ -1398,7 +1165,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [73]
+		}, -- [59]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "特變電工",
@@ -1418,7 +1185,7 @@ MailLoggerDB = {
 					["Name"] = "亞麻布",
 				}, -- [1]
 			},
-		}, -- [74]
+		}, -- [60]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "特變電工",
@@ -1433,7 +1200,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [75]
+		}, -- [61]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -1458,7 +1225,7 @@ MailLoggerDB = {
 					["Name"] = "手冊:厚絲質繃帶",
 				}, -- [2]
 			},
-		}, -- [76]
+		}, -- [62]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -1483,7 +1250,7 @@ MailLoggerDB = {
 					["Name"] = "符文布",
 				}, -- [2]
 			},
-		}, -- [77]
+		}, -- [63]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -1503,7 +1270,7 @@ MailLoggerDB = {
 					["Name"] = "絲綢",
 				}, -- [1]
 			},
-		}, -- [78]
+		}, -- [64]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "部落拍賣場",
@@ -1523,7 +1290,7 @@ MailLoggerDB = {
 					["Name"] = "手冊:魔紋繃帶",
 				}, -- [1]
 			},
-		}, -- [79]
+		}, -- [65]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -1542,7 +1309,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [80]
+		}, -- [66]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "邁克爾假死",
@@ -1562,7 +1329,7 @@ MailLoggerDB = {
 					["Name"] = "手冊:魔紋繃帶",
 				}, -- [1]
 			},
-		}, -- [81]
+		}, -- [67]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -1582,7 +1349,7 @@ MailLoggerDB = {
 					["Name"] = "魔紋布",
 				}, -- [1]
 			},
-		}, -- [82]
+		}, -- [68]
 		{
 			["PlayerName"] = "畜生犬隊長",
 			["TargetName"] = "特變電工",
@@ -1607,7 +1374,7 @@ MailLoggerDB = {
 					["Name"] = "符文布",
 				},
 			},
-		}, -- [83]
+		}, -- [69]
 		{
 			["PlayerName"] = "畜生犬隊長",
 			["TargetName"] = "邁克爾假死",
@@ -1627,7 +1394,7 @@ MailLoggerDB = {
 					["Name"] = "符文布",
 				}, -- [1]
 			},
-		}, -- [84]
+		}, -- [70]
 		{
 			["Date"] = "2021-07-15",
 			["PlayerName"] = "畜生犬隊長",
@@ -1640,7 +1407,7 @@ MailLoggerDB = {
 			["Time"] = "10:32:38",
 			["ReceiveItems"] = {
 			},
-		}, -- [85]
+		}, -- [71]
 		{
 			["PlayerName"] = "畜生犬隊長",
 			["TargetName"] = "部落拍賣場",
@@ -1660,7 +1427,7 @@ MailLoggerDB = {
 					["Name"] = "符文布",
 				}, -- [1]
 			},
-		}, -- [86]
+		}, -- [72]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "畜生犬隊長",
@@ -1684,7 +1451,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [87]
+		}, -- [73]
 		{
 			["PlayerName"] = "畜生犬隊長",
 			["TargetName"] = "部落拍賣場",
@@ -1704,7 +1471,7 @@ MailLoggerDB = {
 					["Name"] = "符文布",
 				}, -- [1]
 			},
-		}, -- [88]
+		}, -- [74]
 		{
 			["PlayerName"] = "畜生犬隊長",
 			["TargetName"] = "邁克爾假死",
@@ -1724,7 +1491,7 @@ MailLoggerDB = {
 					["Name"] = "幽紋布",
 				}, -- [1]
 			},
-		}, -- [89]
+		}, -- [75]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "畜生犬隊長",
@@ -1748,7 +1515,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [90]
+		}, -- [76]
 		{
 			["Date"] = "2021-07-15",
 			["TargetName"] = "亞曼",
@@ -1761,7 +1528,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [91]
+		}, -- [77]
 		{
 			["TargetName"] = "畜生犬隊長",
 			["PlayerName"] = "特變電工",
@@ -1785,7 +1552,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [92]
+		}, -- [78]
 		{
 			["Date"] = "2021-07-15",
 			["PlayerName"] = "特變電工",
@@ -1798,7 +1565,7 @@ MailLoggerDB = {
 			["Time"] = "17:47:21",
 			["ReceiveItems"] = {
 			},
-		}, -- [93]
+		}, -- [79]
 		{
 			["Date"] = "2021-07-15",
 			["PlayerName"] = "特變電工",
@@ -1811,7 +1578,7 @@ MailLoggerDB = {
 			["Time"] = "19:09:42",
 			["ReceiveItems"] = {
 			},
-		}, -- [94]
+		}, -- [80]
 		{
 			["Date"] = "2021-07-15",
 			["PlayerName"] = "特變電工",
@@ -1824,7 +1591,7 @@ MailLoggerDB = {
 			["Time"] = "19:10:30",
 			["ReceiveItems"] = {
 			},
-		}, -- [95]
+		}, -- [81]
 		{
 			["Date"] = "2021-07-15",
 			["PlayerName"] = "特變電工",
@@ -1837,7 +1604,7 @@ MailLoggerDB = {
 			["Time"] = "19:10:43",
 			["ReceiveItems"] = {
 			},
-		}, -- [96]
+		}, -- [82]
 		{
 			["TargetName"] = "小小煌",
 			["PlayerName"] = "特變電工",
@@ -1856,7 +1623,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [97]
+		}, -- [83]
 		{
 			["TargetName"] = "臭球球",
 			["PlayerName"] = "特變電工",
@@ -1869,7 +1636,7 @@ MailLoggerDB = {
 			["Date"] = "2021-07-15",
 			["ReceiveItems"] = {
 			},
-		}, -- [98]
+		}, -- [84]
 		{
 			["TargetName"] = "畜生犬隊長",
 			["PlayerName"] = "特變電工",
@@ -1893,7 +1660,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [99]
+		}, -- [85]
 		{
 			["TargetName"] = "Soullol",
 			["Date"] = "2021-07-16",
@@ -1906,7 +1673,7 @@ MailLoggerDB = {
 			["Time"] = "16:56:52",
 			["ReceiveItems"] = {
 			},
-		}, -- [100]
+		}, -- [86]
 		{
 			["TargetName"] = "Soullol",
 			["Date"] = "2021-07-16",
@@ -1919,7 +1686,7 @@ MailLoggerDB = {
 			["Time"] = "16:56:59",
 			["ReceiveItems"] = {
 			},
-		}, -- [101]
+		}, -- [87]
 		{
 			["TargetName"] = "畜生犬隊長",
 			["PlayerName"] = "特變電工",
@@ -1961,7 +1728,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [102]
+		}, -- [88]
 		{
 			["TargetName"] = "畜生犬隊長",
 			["PlayerName"] = "特變電工",
@@ -1995,7 +1762,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [103]
+		}, -- [89]
 		{
 			["Date"] = "2021-07-16",
 			["PlayerName"] = "特變電工",
@@ -2008,7 +1775,7 @@ MailLoggerDB = {
 			["Time"] = "20:34:54",
 			["ReceiveItems"] = {
 			},
-		}, -- [104]
+		}, -- [90]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -2022,7 +1789,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [105]
+		}, -- [91]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "邁克爾假死",
@@ -2037,7 +1804,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [106]
+		}, -- [92]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -2066,33 +1833,33 @@ MailLoggerDB = {
 					["ItemLink"] = "|cffffffff|Hitem:3575::::::::64::::::::|h[鐵錠]|h|r",
 					["Name"] = "鐵錠",
 				},
-				[109] = {
-					["Number"] = 20,
-					["ItemLink"] = "|cff1eff00|Hitem:2842::::::::64::::::::|h[銀錠]|h|r",
-					["Name"] = "銀錠",
+				[160] = {
+					["Number"] = 464,
+					["ItemLink"] = "|cffffffff|Hitem:2835::::::::64::::::::|h[劣質的石頭]|h|r",
+					["Name"] = "劣質的石頭",
 				},
 				[86] = {
 					["Number"] = 364,
 					["ItemLink"] = "|cffffffff|Hitem:2841::::::::64::::::::|h[青銅錠]|h|r",
 					["Name"] = "青銅錠",
 				},
-				[160] = {
-					["Number"] = 464,
-					["ItemLink"] = "|cffffffff|Hitem:2835::::::::64::::::::|h[劣質的石頭]|h|r",
-					["Name"] = "劣質的石頭",
-				},
-				[111] = {
-					["Number"] = 555,
-					["ItemLink"] = "|cffffffff|Hitem:2836::::::::64::::::::|h[粗糙的石頭]|h|r",
-					["Name"] = "粗糙的石頭",
+				[109] = {
+					["Number"] = 20,
+					["ItemLink"] = "|cff1eff00|Hitem:2842::::::::64::::::::|h[銀錠]|h|r",
+					["Name"] = "銀錠",
 				},
 				[42] = {
 					["Number"] = 28,
 					["ItemLink"] = "|cff1eff00|Hitem:3577::::::::64::::::::|h[金錠]|h|r",
 					["Name"] = "金錠",
 				},
+				[111] = {
+					["Number"] = 555,
+					["ItemLink"] = "|cffffffff|Hitem:2836::::::::64::::::::|h[粗糙的石頭]|h|r",
+					["Name"] = "粗糙的石頭",
+				},
 			},
-		}, -- [107]
+		}, -- [93]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -2112,7 +1879,7 @@ MailLoggerDB = {
 					["Name"] = "鐵錠",
 				}, -- [1]
 			},
-		}, -- [108]
+		}, -- [94]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -2132,7 +1899,7 @@ MailLoggerDB = {
 					["Name"] = "鐵錠",
 				}, -- [1]
 			},
-		}, -- [109]
+		}, -- [95]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -2152,7 +1919,7 @@ MailLoggerDB = {
 					["Name"] = "堅固的石頭",
 				}, -- [1]
 			},
-		}, -- [110]
+		}, -- [96]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -2172,7 +1939,7 @@ MailLoggerDB = {
 					["Name"] = "堅固的石頭",
 				}, -- [1]
 			},
-		}, -- [111]
+		}, -- [97]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -2192,7 +1959,7 @@ MailLoggerDB = {
 					["Name"] = "堅固的石頭",
 				}, -- [1]
 			},
-		}, -- [112]
+		}, -- [98]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -2212,7 +1979,7 @@ MailLoggerDB = {
 					["Name"] = "秘銀錠",
 				}, -- [1]
 			},
-		}, -- [113]
+		}, -- [99]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -2232,7 +1999,7 @@ MailLoggerDB = {
 					["Name"] = "秘銀錠",
 				}, -- [1]
 			},
-		}, -- [114]
+		}, -- [100]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -2252,7 +2019,7 @@ MailLoggerDB = {
 					["Name"] = "魔紋布",
 				}, -- [1]
 			},
-		}, -- [115]
+		}, -- [101]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "老闆挺住",
@@ -2265,7 +2032,7 @@ MailLoggerDB = {
 			["Time"] = "13:44:56",
 			["ReceiveItems"] = {
 			},
-		}, -- [116]
+		}, -- [102]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "麦迪雯",
@@ -2278,7 +2045,7 @@ MailLoggerDB = {
 			["Time"] = "13:59:51",
 			["ReceiveItems"] = {
 			},
-		}, -- [117]
+		}, -- [103]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "麦迪雯",
@@ -2291,7 +2058,7 @@ MailLoggerDB = {
 			["Time"] = "14:00:14",
 			["ReceiveItems"] = {
 			},
-		}, -- [118]
+		}, -- [104]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "瀟薩",
@@ -2304,7 +2071,7 @@ MailLoggerDB = {
 			["Time"] = "14:36:14",
 			["ReceiveItems"] = {
 			},
-		}, -- [119]
+		}, -- [105]
 		{
 			["TargetName"] = "瀟薩",
 			["PlayerName"] = "特變電工",
@@ -2323,7 +2090,7 @@ MailLoggerDB = {
 					["Name"] = "一對象長牙",
 				}, -- [1]
 			},
-		}, -- [120]
+		}, -- [106]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "花妞妞",
@@ -2336,7 +2103,7 @@ MailLoggerDB = {
 			["Time"] = "15:17:29",
 			["ReceiveItems"] = {
 			},
-		}, -- [121]
+		}, -- [107]
 		{
 			["TargetName"] = "花妞妞",
 			["PlayerName"] = "特變電工",
@@ -2355,7 +2122,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [122]
+		}, -- [108]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "Kawakami",
@@ -2368,7 +2135,7 @@ MailLoggerDB = {
 			["Time"] = "17:14:15",
 			["ReceiveItems"] = {
 			},
-		}, -- [123]
+		}, -- [109]
 		{
 			["TargetName"] = "Kawakami",
 			["PlayerName"] = "特變電工",
@@ -2387,7 +2154,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [124]
+		}, -- [110]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "Lv",
@@ -2400,7 +2167,7 @@ MailLoggerDB = {
 			["Time"] = "20:37:19",
 			["ReceiveItems"] = {
 			},
-		}, -- [125]
+		}, -- [111]
 		{
 			["TargetName"] = "Lv",
 			["PlayerName"] = "特變電工",
@@ -2419,7 +2186,7 @@ MailLoggerDB = {
 					["Name"] = "極效治療藥水",
 				}, -- [1]
 			},
-		}, -- [126]
+		}, -- [112]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "魔王丶你贏了",
@@ -2432,7 +2199,7 @@ MailLoggerDB = {
 			["Time"] = "20:58:37",
 			["ReceiveItems"] = {
 			},
-		}, -- [127]
+		}, -- [113]
 		{
 			["TargetName"] = "魔王丶你贏了",
 			["PlayerName"] = "特變電工",
@@ -2451,7 +2218,7 @@ MailLoggerDB = {
 					["Name"] = "一本煽情的愛情小說",
 				},
 			},
-		}, -- [128]
+		}, -- [114]
 		{
 			["TargetName"] = "畜生犬隊長",
 			["PlayerName"] = "特變電工",
@@ -2470,7 +2237,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [129]
+		}, -- [115]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "大餅的玩具",
@@ -2483,7 +2250,7 @@ MailLoggerDB = {
 			["Time"] = "01:16:37",
 			["ReceiveItems"] = {
 			},
-		}, -- [130]
+		}, -- [116]
 		{
 			["TargetName"] = "大餅的玩具",
 			["PlayerName"] = "特變電工",
@@ -2512,7 +2279,7 @@ MailLoggerDB = {
 					["Name"] = "魔法軟餅",
 				}, -- [3]
 			},
-		}, -- [131]
+		}, -- [117]
 		{
 			["TargetName"] = "畜生犬隊長",
 			["PlayerName"] = "特變電工",
@@ -2531,7 +2298,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [132]
+		}, -- [118]
 		{
 			["TargetName"] = "畜生犬隊長",
 			["PlayerName"] = "特變電工",
@@ -2550,7 +2317,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [133]
+		}, -- [119]
 		{
 			["Date"] = "2021-07-18",
 			["TargetName"] = "老闆挺住",
@@ -2563,7 +2330,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [134]
+		}, -- [120]
 		{
 			["TargetName"] = "老闆挺住",
 			["PlayerName"] = "特變電工",
@@ -2597,7 +2364,7 @@ MailLoggerDB = {
 					["Name"] = "魔法可頌",
 				}, -- [4]
 			},
-		}, -- [135]
+		}, -- [121]
 		{
 			["TargetName"] = "畜生犬隊長",
 			["PlayerName"] = "特變電工",
@@ -2651,7 +2418,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [136]
+		}, -- [122]
 		{
 			["TargetName"] = "畜生犬隊長",
 			["PlayerName"] = "特變電工",
@@ -2670,7 +2437,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [137]
+		}, -- [123]
 		{
 			["TargetName"] = "老闆挺住",
 			["PlayerName"] = "特變電工",
@@ -2683,7 +2450,7 @@ MailLoggerDB = {
 			["Date"] = "2021-07-18",
 			["ReceiveItems"] = {
 			},
-		}, -- [138]
+		}, -- [124]
 		{
 			["TargetName"] = "老闆挺住",
 			["PlayerName"] = "特變電工",
@@ -2717,7 +2484,7 @@ MailLoggerDB = {
 					["Name"] = "魔法可頌",
 				}, -- [4]
 			},
-		}, -- [139]
+		}, -- [125]
 		{
 			["TargetName"] = "邁克爾假死",
 			["PlayerName"] = "特變電工",
@@ -2731,7 +2498,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [140]
+		}, -- [126]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "特變電工",
@@ -2746,7 +2513,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [141]
+		}, -- [127]
 		{
 			["TargetName"] = "蕭家掌門人",
 			["Date"] = "2021-07-18",
@@ -2759,7 +2526,7 @@ MailLoggerDB = {
 			["Time"] = "21:24:06",
 			["ReceiveItems"] = {
 			},
-		}, -- [142]
+		}, -- [128]
 		{
 			["TargetName"] = "蕭家掌門人",
 			["PlayerName"] = "邁克爾假死",
@@ -2778,7 +2545,7 @@ MailLoggerDB = {
 					["Name"] = "強效聰穎藥劑",
 				}, -- [1]
 			},
-		}, -- [143]
+		}, -- [129]
 		{
 			["TargetName"] = "凌鹿打工仔",
 			["Date"] = "2021-07-18",
@@ -2791,7 +2558,7 @@ MailLoggerDB = {
 			["Time"] = "22:28:36",
 			["ReceiveItems"] = {
 			},
-		}, -- [144]
+		}, -- [130]
 		{
 			["TargetName"] = "凌鹿打工仔",
 			["PlayerName"] = "邁克爾假死",
@@ -2805,7 +2572,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [145]
+		}, -- [131]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -2819,7 +2586,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [146]
+		}, -- [132]
 		{
 			["Date"] = "2021-07-19",
 			["PlayerName"] = "特變電工",
@@ -2832,7 +2599,7 @@ MailLoggerDB = {
 			["Time"] = "13:42:41",
 			["ReceiveItems"] = {
 			},
-		}, -- [147]
+		}, -- [133]
 		{
 			["TargetName"] = "月牧心",
 			["PlayerName"] = "特變電工",
@@ -2851,7 +2618,7 @@ MailLoggerDB = {
 					["Name"] = "魔法可頌",
 				}, -- [1]
 			},
-		}, -- [148]
+		}, -- [134]
 		{
 			["Date"] = "2021-07-19",
 			["PlayerName"] = "特變電工",
@@ -2864,7 +2631,7 @@ MailLoggerDB = {
 			["Time"] = "13:54:15",
 			["ReceiveItems"] = {
 			},
-		}, -- [149]
+		}, -- [135]
 		{
 			["Date"] = "2021-07-19",
 			["PlayerName"] = "特變電工",
@@ -2877,7 +2644,7 @@ MailLoggerDB = {
 			["Time"] = "13:54:19",
 			["ReceiveItems"] = {
 			},
-		}, -- [150]
+		}, -- [136]
 		{
 			["Date"] = "2021-07-19",
 			["PlayerName"] = "特變電工",
@@ -2890,7 +2657,7 @@ MailLoggerDB = {
 			["Time"] = "13:58:56",
 			["ReceiveItems"] = {
 			},
-		}, -- [151]
+		}, -- [137]
 		{
 			["TargetName"] = "月牧心",
 			["PlayerName"] = "特變電工",
@@ -2914,7 +2681,7 @@ MailLoggerDB = {
 					["Name"] = "魔法可頌",
 				}, -- [2]
 			},
-		}, -- [152]
+		}, -- [138]
 		{
 			["TargetName"] = "畜生犬隊長",
 			["PlayerName"] = "特變電工",
@@ -2948,7 +2715,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [153]
+		}, -- [139]
 		{
 			["TargetName"] = "畜生犬隊長",
 			["PlayerName"] = "特變電工",
@@ -2967,7 +2734,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [154]
+		}, -- [140]
 		{
 			["TargetName"] = "邁克爾假死",
 			["PlayerName"] = "特變電工",
@@ -2981,7 +2748,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [155]
+		}, -- [141]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "特變電工",
@@ -2996,7 +2763,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [156]
+		}, -- [142]
 		{
 			["TargetName"] = "畜生犬隊長",
 			["PlayerName"] = "特變電工",
@@ -3040,7 +2807,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [157]
+		}, -- [143]
 		{
 			["Date"] = "2021-07-20",
 			["PlayerName"] = "特變電工",
@@ -3053,7 +2820,7 @@ MailLoggerDB = {
 			["Time"] = "17:29:19",
 			["ReceiveItems"] = {
 			},
-		}, -- [158]
+		}, -- [144]
 		{
 			["TargetName"] = "沙朗狩媞",
 			["PlayerName"] = "特變電工",
@@ -3072,7 +2839,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [159]
+		}, -- [145]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -3092,7 +2859,7 @@ MailLoggerDB = {
 					["Name"] = "設計圖:秘銀馬刺",
 				}, -- [1]
 			},
-		}, -- [160]
+		}, -- [146]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -3117,7 +2884,7 @@ MailLoggerDB = {
 					["Name"] = "瑟銀錠",
 				},
 			},
-		}, -- [161]
+		}, -- [147]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -3147,7 +2914,7 @@ MailLoggerDB = {
 					["Name"] = "黑珍珠",
 				}, -- [3]
 			},
-		}, -- [162]
+		}, -- [148]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -3172,7 +2939,7 @@ MailLoggerDB = {
 					["Name"] = "黃水晶",
 				},
 			},
-		}, -- [163]
+		}, -- [149]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -3197,7 +2964,7 @@ MailLoggerDB = {
 					["Name"] = "設計圖:巨型鐵斧",
 				}, -- [2]
 			},
-		}, -- [164]
+		}, -- [150]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -3227,7 +2994,7 @@ MailLoggerDB = {
 					["Name"] = "次級月亮石",
 				}, -- [3]
 			},
-		}, -- [165]
+		}, -- [151]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -3258,7 +3025,7 @@ MailLoggerDB = {
 					["Name"] = "鐵錠",
 				}, -- [4]
 			},
-		}, -- [166]
+		}, -- [152]
 		{
 			["TargetName"] = "畜生犬隊長",
 			["PlayerName"] = "特變電工",
@@ -3277,7 +3044,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [167]
+		}, -- [153]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -3297,7 +3064,7 @@ MailLoggerDB = {
 					["Name"] = "堅固的石頭",
 				}, -- [1]
 			},
-		}, -- [168]
+		}, -- [154]
 		{
 			["TargetName"] = "畜生犬隊長",
 			["PlayerName"] = "特變電工",
@@ -3316,7 +3083,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [169]
+		}, -- [155]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -3336,7 +3103,7 @@ MailLoggerDB = {
 					["Name"] = "緻密的石頭",
 				}, -- [1]
 			},
-		}, -- [170]
+		}, -- [156]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -3356,7 +3123,7 @@ MailLoggerDB = {
 					["Name"] = "符文布",
 				}, -- [1]
 			},
-		}, -- [171]
+		}, -- [157]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -3376,7 +3143,7 @@ MailLoggerDB = {
 					["Name"] = "堅固的石頭",
 				}, -- [1]
 			},
-		}, -- [172]
+		}, -- [158]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -3401,7 +3168,7 @@ MailLoggerDB = {
 					["Name"] = "瑟銀錠",
 				}, -- [2]
 			},
-		}, -- [173]
+		}, -- [159]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -3421,7 +3188,7 @@ MailLoggerDB = {
 					["Name"] = "堅固的石頭",
 				}, -- [1]
 			},
-		}, -- [174]
+		}, -- [160]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -3441,7 +3208,7 @@ MailLoggerDB = {
 					["Name"] = "堅固的石頭",
 				}, -- [1]
 			},
-		}, -- [175]
+		}, -- [161]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -3461,7 +3228,7 @@ MailLoggerDB = {
 					["Name"] = "堅固的石頭",
 				}, -- [1]
 			},
-		}, -- [176]
+		}, -- [162]
 		{
 			["TargetName"] = "有點小夢幻",
 			["PlayerName"] = "邁克爾假死",
@@ -3474,7 +3241,7 @@ MailLoggerDB = {
 			["Date"] = "2021-07-20",
 			["ReceiveItems"] = {
 			},
-		}, -- [177]
+		}, -- [163]
 		{
 			["TargetName"] = "有點小夢幻",
 			["PlayerName"] = "邁克爾假死",
@@ -3488,7 +3255,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [178]
+		}, -- [164]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -3502,7 +3269,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [179]
+		}, -- [165]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "邁克爾假死",
@@ -3517,7 +3284,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [180]
+		}, -- [166]
 		{
 			["TargetName"] = "畜生犬隊長",
 			["PlayerName"] = "特變電工",
@@ -3541,7 +3308,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [181]
+		}, -- [167]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -3561,7 +3328,7 @@ MailLoggerDB = {
 					["Name"] = "瑟銀錠",
 				}, -- [1]
 			},
-		}, -- [182]
+		}, -- [168]
 		{
 			["TargetName"] = "畜生犬隊長",
 			["PlayerName"] = "特變電工",
@@ -3585,7 +3352,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [183]
+		}, -- [169]
 		{
 			["TargetName"] = "邁克爾假死",
 			["PlayerName"] = "特變電工",
@@ -3599,7 +3366,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [184]
+		}, -- [170]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "特變電工",
@@ -3614,7 +3381,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [185]
+		}, -- [171]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "部落拍賣場",
@@ -3634,7 +3401,7 @@ MailLoggerDB = {
 					["Name"] = "硬甲皮",
 				}, -- [1]
 			},
-		}, -- [186]
+		}, -- [172]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -3653,7 +3420,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [187]
+		}, -- [173]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "邁克爾假死",
@@ -3673,7 +3440,7 @@ MailLoggerDB = {
 					["Name"] = "硬甲皮",
 				}, -- [1]
 			},
-		}, -- [188]
+		}, -- [174]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -3688,7 +3455,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [189]
+		}, -- [175]
 		{
 			["TargetName"] = "老闆雄起",
 			["PlayerName"] = "邁克爾假死",
@@ -3701,7 +3468,7 @@ MailLoggerDB = {
 			["Date"] = "2021-07-20",
 			["ReceiveItems"] = {
 			},
-		}, -- [190]
+		}, -- [176]
 		{
 			["TargetName"] = "老闆雄起",
 			["PlayerName"] = "邁克爾假死",
@@ -3745,7 +3512,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [191]
+		}, -- [177]
 		{
 			["TargetName"] = "老闆雄起",
 			["PlayerName"] = "邁克爾假死",
@@ -3758,7 +3525,7 @@ MailLoggerDB = {
 			["Date"] = "2021-07-20",
 			["ReceiveItems"] = {
 			},
-		}, -- [192]
+		}, -- [178]
 		{
 			["TargetName"] = "老闆雄起",
 			["PlayerName"] = "邁克爾假死",
@@ -3817,7 +3584,7 @@ MailLoggerDB = {
 					["Name"] = "瑟銀錠",
 				}, -- [6]
 			},
-		}, -- [193]
+		}, -- [179]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -3836,7 +3603,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [194]
+		}, -- [180]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -3855,7 +3622,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [195]
+		}, -- [181]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "邁克爾假死",
@@ -3875,7 +3642,7 @@ MailLoggerDB = {
 					["Name"] = "瑟銀錠",
 				}, -- [1]
 			},
-		}, -- [196]
+		}, -- [182]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["Date"] = "2021-07-20",
@@ -3888,7 +3655,7 @@ MailLoggerDB = {
 			["TargetName"] = "老闆雄起",
 			["ReceiveItems"] = {
 			},
-		}, -- [197]
+		}, -- [183]
 		{
 			["TargetName"] = "老闆雄起",
 			["PlayerName"] = "邁克爾假死",
@@ -3947,7 +3714,7 @@ MailLoggerDB = {
 					["Name"] = "瑟銀錠",
 				}, -- [3]
 			},
-		}, -- [198]
+		}, -- [184]
 		{
 			["Date"] = "2021-07-20",
 			["TargetName"] = "老闆雄起",
@@ -3960,7 +3727,7 @@ MailLoggerDB = {
 			["PlayerName"] = "邁克爾假死",
 			["ReceiveItems"] = {
 			},
-		}, -- [199]
+		}, -- [185]
 		{
 			["TargetName"] = "老闆雄起",
 			["PlayerName"] = "邁克爾假死",
@@ -4024,7 +3791,7 @@ MailLoggerDB = {
 					["Name"] = "魔鐵錠",
 				}, -- [4]
 			},
-		}, -- [200]
+		}, -- [186]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -4043,7 +3810,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [201]
+		}, -- [187]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "邁克爾假死",
@@ -4063,7 +3830,7 @@ MailLoggerDB = {
 					["Name"] = "瑟銀錠",
 				}, -- [1]
 			},
-		}, -- [202]
+		}, -- [188]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -4082,7 +3849,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [203]
+		}, -- [189]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -4101,7 +3868,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [204]
+		}, -- [190]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "邁克爾假死",
@@ -4121,7 +3888,7 @@ MailLoggerDB = {
 					["Name"] = "魔鐵錠",
 				},
 			},
-		}, -- [205]
+		}, -- [191]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["Date"] = "2021-07-20",
@@ -4134,7 +3901,7 @@ MailLoggerDB = {
 			["TargetName"] = "老闆雄起",
 			["ReceiveItems"] = {
 			},
-		}, -- [206]
+		}, -- [192]
 		{
 			["TargetName"] = "老闆雄起",
 			["PlayerName"] = "邁克爾假死",
@@ -4193,7 +3960,7 @@ MailLoggerDB = {
 					["Name"] = "魔鐵錠",
 				}, -- [3]
 			},
-		}, -- [207]
+		}, -- [193]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -4212,7 +3979,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [208]
+		}, -- [194]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "邁克爾假死",
@@ -4232,7 +3999,7 @@ MailLoggerDB = {
 					["Name"] = "魔鐵錠",
 				}, -- [1]
 			},
-		}, -- [209]
+		}, -- [195]
 		{
 			["Date"] = "2021-07-20",
 			["TargetName"] = "老闆雄起",
@@ -4245,7 +4012,7 @@ MailLoggerDB = {
 			["PlayerName"] = "邁克爾假死",
 			["ReceiveItems"] = {
 			},
-		}, -- [210]
+		}, -- [196]
 		{
 			["TargetName"] = "老闆雄起",
 			["PlayerName"] = "邁克爾假死",
@@ -4304,7 +4071,7 @@ MailLoggerDB = {
 					["Name"] = "魔鐵錠",
 				}, -- [3]
 			},
-		}, -- [211]
+		}, -- [197]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "部落拍賣場",
@@ -4324,7 +4091,7 @@ MailLoggerDB = {
 					["Name"] = "堅鋼礦石",
 				}, -- [1]
 			},
-		}, -- [212]
+		}, -- [198]
 		{
 			["Date"] = "2021-07-20",
 			["TargetName"] = "老闆雄起",
@@ -4337,7 +4104,7 @@ MailLoggerDB = {
 			["PlayerName"] = "邁克爾假死",
 			["ReceiveItems"] = {
 			},
-		}, -- [213]
+		}, -- [199]
 		{
 			["TargetName"] = "老闆雄起",
 			["PlayerName"] = "邁克爾假死",
@@ -4396,7 +4163,7 @@ MailLoggerDB = {
 					["Name"] = "魔鐵錠",
 				}, -- [3]
 			},
-		}, -- [214]
+		}, -- [200]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "部落拍賣場",
@@ -4416,7 +4183,7 @@ MailLoggerDB = {
 					["Name"] = "堅鋼礦石",
 				}, -- [1]
 			},
-		}, -- [215]
+		}, -- [201]
 		{
 			["Date"] = "2021-07-20",
 			["TargetName"] = "老闆雄起",
@@ -4429,7 +4196,7 @@ MailLoggerDB = {
 			["PlayerName"] = "邁克爾假死",
 			["ReceiveItems"] = {
 			},
-		}, -- [216]
+		}, -- [202]
 		{
 			["TargetName"] = "老闆雄起",
 			["PlayerName"] = "邁克爾假死",
@@ -4488,7 +4255,7 @@ MailLoggerDB = {
 					["Name"] = "堅鋼錠",
 				}, -- [3]
 			},
-		}, -- [217]
+		}, -- [203]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -4507,7 +4274,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [218]
+		}, -- [204]
 		{
 			["TargetName"] = "老闆雄起",
 			["Date"] = "2021-07-20",
@@ -4520,7 +4287,7 @@ MailLoggerDB = {
 			["Time"] = "22:59:20",
 			["ReceiveItems"] = {
 			},
-		}, -- [219]
+		}, -- [205]
 		{
 			["TargetName"] = "老闆雄起",
 			["PlayerName"] = "邁克爾假死",
@@ -4579,7 +4346,7 @@ MailLoggerDB = {
 					["Name"] = "堅鋼錠",
 				}, -- [3]
 			},
-		}, -- [220]
+		}, -- [206]
 		{
 			["TargetName"] = "老闆雄起",
 			["Date"] = "2021-07-20",
@@ -4592,7 +4359,7 @@ MailLoggerDB = {
 			["Time"] = "23:02:45",
 			["ReceiveItems"] = {
 			},
-		}, -- [221]
+		}, -- [207]
 		{
 			["TargetName"] = "老闆雄起",
 			["PlayerName"] = "邁克爾假死",
@@ -4621,7 +4388,7 @@ MailLoggerDB = {
 					["Name"] = "魔鐵錠",
 				}, -- [3]
 			},
-		}, -- [222]
+		}, -- [208]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -4640,7 +4407,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [223]
+		}, -- [209]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "邁克爾假死",
@@ -4660,7 +4427,7 @@ MailLoggerDB = {
 					["Name"] = "堅鋼錠",
 				}, -- [1]
 			},
-		}, -- [224]
+		}, -- [210]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "部落拍賣場",
@@ -4680,7 +4447,7 @@ MailLoggerDB = {
 					["Name"] = "幽紋布包",
 				}, -- [1]
 			},
-		}, -- [225]
+		}, -- [211]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "牧原股份",
@@ -4693,7 +4460,7 @@ MailLoggerDB = {
 			["Time"] = "23:15:01",
 			["ReceiveItems"] = {
 			},
-		}, -- [226]
+		}, -- [212]
 		{
 			["TargetName"] = "牧原股份",
 			["PlayerName"] = "邁克爾假死",
@@ -4727,7 +4494,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [227]
+		}, -- [213]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "邁克爾假死",
@@ -4747,7 +4514,7 @@ MailLoggerDB = {
 					["Name"] = "堅鋼錠",
 				}, -- [1]
 			},
-		}, -- [228]
+		}, -- [214]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -4766,7 +4533,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [229]
+		}, -- [215]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "邁克爾假死",
@@ -4786,7 +4553,7 @@ MailLoggerDB = {
 					["Name"] = "魔鐵錠",
 				}, -- [1]
 			},
-		}, -- [230]
+		}, -- [216]
 		{
 			["TargetName"] = "青樓探花",
 			["Date"] = "2021-07-21",
@@ -4799,7 +4566,7 @@ MailLoggerDB = {
 			["Time"] = "01:06:03",
 			["ReceiveItems"] = {
 			},
-		}, -- [231]
+		}, -- [217]
 		{
 			["TargetName"] = "青樓探花",
 			["Date"] = "2021-07-21",
@@ -4812,7 +4579,7 @@ MailLoggerDB = {
 			["Time"] = "01:07:21",
 			["ReceiveItems"] = {
 			},
-		}, -- [232]
+		}, -- [218]
 		{
 			["TargetName"] = "青樓探花",
 			["PlayerName"] = "邁克爾假死",
@@ -4851,7 +4618,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [233]
+		}, -- [219]
 		{
 			["TargetName"] = "青樓探花",
 			["Date"] = "2021-07-21",
@@ -4864,7 +4631,7 @@ MailLoggerDB = {
 			["Time"] = "01:11:53",
 			["ReceiveItems"] = {
 			},
-		}, -- [234]
+		}, -- [220]
 		{
 			["TargetName"] = "青樓探花",
 			["PlayerName"] = "邁克爾假死",
@@ -4893,7 +4660,7 @@ MailLoggerDB = {
 					["Name"] = "克銀錠",
 				}, -- [3]
 			},
-		}, -- [235]
+		}, -- [221]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -4912,7 +4679,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [236]
+		}, -- [222]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "邁克爾假死",
@@ -4932,7 +4699,7 @@ MailLoggerDB = {
 					["Name"] = "克銀錠",
 				}, -- [1]
 			},
-		}, -- [237]
+		}, -- [223]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "青樓探花",
@@ -4945,7 +4712,7 @@ MailLoggerDB = {
 			["Time"] = "01:26:45",
 			["ReceiveItems"] = {
 			},
-		}, -- [238]
+		}, -- [224]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "青樓探花",
@@ -4958,7 +4725,7 @@ MailLoggerDB = {
 			["Time"] = "01:26:55",
 			["ReceiveItems"] = {
 			},
-		}, -- [239]
+		}, -- [225]
 		{
 			["TargetName"] = "青樓探花",
 			["PlayerName"] = "邁克爾假死",
@@ -4987,7 +4754,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [240]
+		}, -- [226]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "青樓探花",
@@ -5000,7 +4767,7 @@ MailLoggerDB = {
 			["Time"] = "01:29:36",
 			["ReceiveItems"] = {
 			},
-		}, -- [241]
+		}, -- [227]
 		{
 			["TargetName"] = "青樓探花",
 			["PlayerName"] = "邁克爾假死",
@@ -5024,7 +4791,7 @@ MailLoggerDB = {
 					["Name"] = "堅鋼錠",
 				}, -- [2]
 			},
-		}, -- [242]
+		}, -- [228]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -5043,7 +4810,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [243]
+		}, -- [229]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "邁克爾假死",
@@ -5063,7 +4830,7 @@ MailLoggerDB = {
 					["Name"] = "堅鋼錠",
 				}, -- [1]
 			},
-		}, -- [244]
+		}, -- [230]
 		{
 			["TargetName"] = "邁克爾假死",
 			["PlayerName"] = "特變電工",
@@ -5097,7 +4864,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [245]
+		}, -- [231]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "特變電工",
@@ -5133,7 +4900,7 @@ MailLoggerDB = {
 					["Name"] = "堅鋼錠",
 				},
 			},
-		}, -- [246]
+		}, -- [232]
 		{
 			["Date"] = "2021-07-21",
 			["PlayerName"] = "邁克爾假死",
@@ -5146,7 +4913,7 @@ MailLoggerDB = {
 			["Time"] = "01:33:50",
 			["ReceiveItems"] = {
 			},
-		}, -- [247]
+		}, -- [233]
 		{
 			["TargetName"] = "青樓探花",
 			["PlayerName"] = "邁克爾假死",
@@ -5190,7 +4957,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [248]
+		}, -- [234]
 		{
 			["Date"] = "2021-07-21",
 			["PlayerName"] = "邁克爾假死",
@@ -5203,7 +4970,7 @@ MailLoggerDB = {
 			["Time"] = "01:37:33",
 			["ReceiveItems"] = {
 			},
-		}, -- [249]
+		}, -- [235]
 		{
 			["TargetName"] = "青樓探花",
 			["PlayerName"] = "邁克爾假死",
@@ -5237,7 +5004,7 @@ MailLoggerDB = {
 					["Name"] = "魔鐵錠",
 				}, -- [4]
 			},
-		}, -- [250]
+		}, -- [236]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "部落拍賣場",
@@ -5257,7 +5024,7 @@ MailLoggerDB = {
 					["Name"] = "恆金礦石",
 				}, -- [1]
 			},
-		}, -- [251]
+		}, -- [237]
 		{
 			["Date"] = "2021-07-21",
 			["PlayerName"] = "邁克爾假死",
@@ -5270,7 +5037,7 @@ MailLoggerDB = {
 			["Time"] = "01:38:09",
 			["ReceiveItems"] = {
 			},
-		}, -- [252]
+		}, -- [238]
 		{
 			["Date"] = "2021-07-21",
 			["PlayerName"] = "邁克爾假死",
@@ -5283,7 +5050,7 @@ MailLoggerDB = {
 			["Time"] = "01:38:18",
 			["ReceiveItems"] = {
 			},
-		}, -- [253]
+		}, -- [239]
 		{
 			["TargetName"] = "青樓探花",
 			["PlayerName"] = "邁克爾假死",
@@ -5307,7 +5074,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [254]
+		}, -- [240]
 		{
 			["Date"] = "2021-07-21",
 			["ReceiveMoney"] = 0,
@@ -5319,7 +5086,7 @@ MailLoggerDB = {
 			["Location"] = "雷霆崖",
 			["ReceiveItems"] = {
 			},
-		}, -- [255]
+		}, -- [241]
 		{
 			["Date"] = "2021-07-21",
 			["PlayerName"] = "邁克爾假死",
@@ -5332,7 +5099,7 @@ MailLoggerDB = {
 			["Time"] = "01:39:51",
 			["ReceiveItems"] = {
 			},
-		}, -- [256]
+		}, -- [242]
 		{
 			["TargetName"] = "青樓探花",
 			["PlayerName"] = "邁克爾假死",
@@ -5356,7 +5123,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [257]
+		}, -- [243]
 		{
 			["Date"] = "2021-07-21",
 			["PlayerName"] = "邁克爾假死",
@@ -5369,7 +5136,7 @@ MailLoggerDB = {
 			["Time"] = "01:41:43",
 			["ReceiveItems"] = {
 			},
-		}, -- [258]
+		}, -- [244]
 		{
 			["TargetName"] = "青樓探花",
 			["PlayerName"] = "邁克爾假死",
@@ -5388,7 +5155,7 @@ MailLoggerDB = {
 					["Name"] = "魔鋼錠",
 				}, -- [1]
 			},
-		}, -- [259]
+		}, -- [245]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -5407,7 +5174,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [260]
+		}, -- [246]
 		{
 			["Date"] = "2021-07-21",
 			["PlayerName"] = "邁克爾假死",
@@ -5420,7 +5187,7 @@ MailLoggerDB = {
 			["Time"] = "01:47:33",
 			["ReceiveItems"] = {
 			},
-		}, -- [261]
+		}, -- [247]
 		{
 			["TargetName"] = "青樓探花",
 			["PlayerName"] = "邁克爾假死",
@@ -5444,7 +5211,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [262]
+		}, -- [248]
 		{
 			["Date"] = "2021-07-21",
 			["PlayerName"] = "邁克爾假死",
@@ -5457,7 +5224,7 @@ MailLoggerDB = {
 			["Time"] = "01:47:56",
 			["ReceiveItems"] = {
 			},
-		}, -- [263]
+		}, -- [249]
 		{
 			["TargetName"] = "青樓探花",
 			["PlayerName"] = "邁克爾假死",
@@ -5481,7 +5248,7 @@ MailLoggerDB = {
 					["Name"] = "堅鋼錠",
 				}, -- [2]
 			},
-		}, -- [264]
+		}, -- [250]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "特變電工",
@@ -5501,7 +5268,7 @@ MailLoggerDB = {
 					["Name"] = "堅鋼錠",
 				}, -- [1]
 			},
-		}, -- [265]
+		}, -- [251]
 		{
 			["Date"] = "2021-07-21",
 			["PlayerName"] = "邁克爾假死",
@@ -5514,7 +5281,7 @@ MailLoggerDB = {
 			["Time"] = "01:48:25",
 			["ReceiveItems"] = {
 			},
-		}, -- [266]
+		}, -- [252]
 		{
 			["TargetName"] = "青樓探花",
 			["PlayerName"] = "邁克爾假死",
@@ -5543,7 +5310,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [267]
+		}, -- [253]
 		{
 			["Date"] = "2021-07-21",
 			["PlayerName"] = "邁克爾假死",
@@ -5556,7 +5323,7 @@ MailLoggerDB = {
 			["Time"] = "01:48:46",
 			["ReceiveItems"] = {
 			},
-		}, -- [268]
+		}, -- [254]
 		{
 			["TargetName"] = "青樓探花",
 			["PlayerName"] = "邁克爾假死",
@@ -5580,7 +5347,7 @@ MailLoggerDB = {
 					["Name"] = "堅鋼錠",
 				}, -- [2]
 			},
-		}, -- [269]
+		}, -- [255]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -5604,7 +5371,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [270]
+		}, -- [256]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "邁克爾假死",
@@ -5635,7 +5402,7 @@ MailLoggerDB = {
 					["Name"] = "魔鋼錠",
 				}, -- [4]
 			},
-		}, -- [271]
+		}, -- [257]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -5655,7 +5422,7 @@ MailLoggerDB = {
 					["Name"] = "堅硬的黃金卓奈石",
 				}, -- [1]
 			},
-		}, -- [272]
+		}, -- [258]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -5670,7 +5437,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [273]
+		}, -- [259]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -5690,7 +5457,7 @@ MailLoggerDB = {
 					["Name"] = "清晰的血石榴石",
 				}, -- [1]
 			},
-		}, -- [274]
+		}, -- [260]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-07-21",
@@ -5703,7 +5470,7 @@ MailLoggerDB = {
 			["TargetName"] = "尼爸",
 			["ReceiveItems"] = {
 			},
-		}, -- [275]
+		}, -- [261]
 		{
 			["TargetName"] = "尼爸",
 			["PlayerName"] = "特變電工",
@@ -5732,7 +5499,7 @@ MailLoggerDB = {
 					["Name"] = "角瓶虛空噴劑",
 				}, -- [3]
 			},
-		}, -- [276]
+		}, -- [262]
 		{
 			["TargetName"] = "畜生犬隊長",
 			["PlayerName"] = "特變電工",
@@ -5751,7 +5518,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [277]
+		}, -- [263]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -5776,7 +5543,7 @@ MailLoggerDB = {
 					["Name"] = "強力的大地風暴鑽石",
 				},
 			},
-		}, -- [278]
+		}, -- [264]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -5801,7 +5568,7 @@ MailLoggerDB = {
 					["Name"] = "堅鋼錠",
 				},
 			},
-		}, -- [279]
+		}, -- [265]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -5821,7 +5588,7 @@ MailLoggerDB = {
 					["Name"] = "魔塵",
 				}, -- [1]
 			},
-		}, -- [280]
+		}, -- [266]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -5846,7 +5613,7 @@ MailLoggerDB = {
 					["Name"] = "魔塵",
 				}, -- [2]
 			},
-		}, -- [281]
+		}, -- [267]
 		{
 			["Date"] = "2021-07-21",
 			["TargetName"] = "Melva",
@@ -5859,7 +5626,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [282]
+		}, -- [268]
 		{
 			["TargetName"] = "Melva",
 			["PlayerName"] = "特變電工",
@@ -5893,7 +5660,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [283]
+		}, -- [269]
 		{
 			["Date"] = "2021-07-21",
 			["TargetName"] = "Melva",
@@ -5906,7 +5673,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [284]
+		}, -- [270]
 		{
 			["TargetName"] = "Melva",
 			["PlayerName"] = "特變電工",
@@ -5926,7 +5693,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [285]
+		}, -- [271]
 		{
 			["Date"] = "2021-07-21",
 			["TargetName"] = "Melva",
@@ -5939,7 +5706,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [286]
+		}, -- [272]
 		{
 			["TargetName"] = "Melva",
 			["PlayerName"] = "特變電工",
@@ -5959,7 +5726,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [287]
+		}, -- [273]
 		{
 			["Date"] = "2021-07-21",
 			["TargetName"] = "Melva",
@@ -5972,7 +5739,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [288]
+		}, -- [274]
 		{
 			["TargetName"] = "Melva",
 			["PlayerName"] = "特變電工",
@@ -5992,7 +5759,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [289]
+		}, -- [275]
 		{
 			["Date"] = "2021-07-21",
 			["TargetName"] = "Melva",
@@ -6005,7 +5772,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [290]
+		}, -- [276]
 		{
 			["TargetName"] = "Melva",
 			["PlayerName"] = "特變電工",
@@ -6025,7 +5792,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [291]
+		}, -- [277]
 		{
 			["Date"] = "2021-07-21",
 			["TargetName"] = "Melva",
@@ -6038,7 +5805,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [292]
+		}, -- [278]
 		{
 			["TargetName"] = "Melva",
 			["PlayerName"] = "特變電工",
@@ -6058,7 +5825,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [293]
+		}, -- [279]
 		{
 			["Date"] = "2021-07-21",
 			["TargetName"] = "Melva",
@@ -6071,7 +5838,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [294]
+		}, -- [280]
 		{
 			["TargetName"] = "Melva",
 			["PlayerName"] = "特變電工",
@@ -6090,7 +5857,7 @@ MailLoggerDB = {
 					["Name"] = "魔塵",
 				}, -- [1]
 			},
-		}, -- [295]
+		}, -- [281]
 		{
 			["Date"] = "2021-07-21",
 			["TargetName"] = "速嵐轎",
@@ -6103,7 +5870,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [296]
+		}, -- [282]
 		{
 			["TargetName"] = "速嵐轎",
 			["PlayerName"] = "特變電工",
@@ -6122,7 +5889,7 @@ MailLoggerDB = {
 					["Name"] = "驍勇臂鎧",
 				}, -- [1]
 			},
-		}, -- [297]
+		}, -- [283]
 		{
 			["TargetName"] = "速嵐轎",
 			["Date"] = "2021-07-22",
@@ -6135,7 +5902,7 @@ MailLoggerDB = {
 			["Time"] = "01:02:03",
 			["ReceiveItems"] = {
 			},
-		}, -- [298]
+		}, -- [284]
 		{
 			["TargetName"] = "速嵐轎",
 			["PlayerName"] = "特變電工",
@@ -6154,7 +5921,7 @@ MailLoggerDB = {
 					["Name"] = "靈巧之握手套",
 				}, -- [1]
 			},
-		}, -- [299]
+		}, -- [285]
 		{
 			["TargetName"] = "永生相惜",
 			["Date"] = "2021-07-22",
@@ -6167,7 +5934,7 @@ MailLoggerDB = {
 			["Time"] = "01:21:54",
 			["ReceiveItems"] = {
 			},
-		}, -- [300]
+		}, -- [286]
 		{
 			["TargetName"] = "永生相惜",
 			["PlayerName"] = "特變電工",
@@ -6186,7 +5953,7 @@ MailLoggerDB = {
 					["Name"] = "山脈之王傳說",
 				}, -- [1]
 			},
-		}, -- [301]
+		}, -- [287]
 		{
 			["TargetName"] = "速嵐轎",
 			["Date"] = "2021-07-22",
@@ -6199,7 +5966,7 @@ MailLoggerDB = {
 			["Time"] = "01:33:56",
 			["ReceiveItems"] = {
 			},
-		}, -- [302]
+		}, -- [288]
 		{
 			["TargetName"] = "速嵐轎",
 			["PlayerName"] = "特變電工",
@@ -6223,7 +5990,7 @@ MailLoggerDB = {
 					["Name"] = "薩維亞短劍",
 				}, -- [2]
 			},
-		}, -- [303]
+		}, -- [289]
 		{
 			["TargetName"] = "速嵐轎",
 			["Date"] = "2021-07-22",
@@ -6236,7 +6003,7 @@ MailLoggerDB = {
 			["Time"] = "01:45:18",
 			["ReceiveItems"] = {
 			},
-		}, -- [304]
+		}, -- [290]
 		{
 			["TargetName"] = "速嵐轎",
 			["PlayerName"] = "特變電工",
@@ -6255,7 +6022,7 @@ MailLoggerDB = {
 					["Name"] = "謝爾曼納偉大之戒",
 				}, -- [1]
 			},
-		}, -- [305]
+		}, -- [291]
 		{
 			["TargetName"] = "速嵐轎",
 			["Date"] = "2021-07-22",
@@ -6268,7 +6035,7 @@ MailLoggerDB = {
 			["Time"] = "02:07:56",
 			["ReceiveItems"] = {
 			},
-		}, -- [306]
+		}, -- [292]
 		{
 			["TargetName"] = "速嵐轎",
 			["PlayerName"] = "特變電工",
@@ -6287,7 +6054,7 @@ MailLoggerDB = {
 					["Name"] = "戰傷長靴",
 				}, -- [1]
 			},
-		}, -- [307]
+		}, -- [293]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -6307,7 +6074,7 @@ MailLoggerDB = {
 					["Name"] = "堅硬的黃金卓奈石",
 				}, -- [1]
 			},
-		}, -- [308]
+		}, -- [294]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -6332,7 +6099,7 @@ MailLoggerDB = {
 					["Name"] = "閃爍的火石榴石",
 				}, -- [2]
 			},
-		}, -- [309]
+		}, -- [295]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-07-22",
@@ -6345,7 +6112,7 @@ MailLoggerDB = {
 			["TargetName"] = "璃朔",
 			["ReceiveItems"] = {
 			},
-		}, -- [310]
+		}, -- [296]
 		{
 			["TargetName"] = "璃朔",
 			["PlayerName"] = "特變電工",
@@ -6359,7 +6126,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [311]
+		}, -- [297]
 		{
 			["TargetName"] = "畜生犬隊長",
 			["PlayerName"] = "特變電工",
@@ -6378,7 +6145,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [312]
+		}, -- [298]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -6398,7 +6165,7 @@ MailLoggerDB = {
 					["Name"] = "堅硬的黃金卓奈石",
 				}, -- [1]
 			},
-		}, -- [313]
+		}, -- [299]
 		{
 			["Date"] = "2021-07-23",
 			["TargetName"] = "牧原股份",
@@ -6411,7 +6178,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [314]
+		}, -- [300]
 		{
 			["TargetName"] = "牧原股份",
 			["PlayerName"] = "特變電工",
@@ -6425,7 +6192,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [315]
+		}, -- [301]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -6445,7 +6212,7 @@ MailLoggerDB = {
 					["Name"] = "重銅大槌",
 				}, -- [1]
 			},
-		}, -- [316]
+		}, -- [302]
 		{
 			["TargetName"] = "蘋果巨硬",
 			["PlayerName"] = "邁克爾假死",
@@ -6458,7 +6225,7 @@ MailLoggerDB = {
 			["Date"] = "2021-07-24",
 			["ReceiveItems"] = {
 			},
-		}, -- [317]
+		}, -- [303]
 		{
 			["TargetName"] = "蘋果巨硬",
 			["PlayerName"] = "邁克爾假死",
@@ -6497,7 +6264,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [318]
+		}, -- [304]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -6522,7 +6289,7 @@ MailLoggerDB = {
 					["Name"] = "野豬之短刃重劍",
 				}, -- [2]
 			},
-		}, -- [319]
+		}, -- [305]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -6542,7 +6309,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [320]
+		}, -- [306]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -6556,7 +6323,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [321]
+		}, -- [307]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "邁克爾假死",
@@ -6571,7 +6338,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [322]
+		}, -- [308]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -6591,7 +6358,7 @@ MailLoggerDB = {
 					["Name"] = "原始之水",
 				}, -- [1]
 			},
-		}, -- [323]
+		}, -- [309]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -6611,7 +6378,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [324]
+		}, -- [310]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "競賽之靈",
@@ -6636,7 +6403,7 @@ MailLoggerDB = {
 					["Name"] = "競賽者外袍",
 				}, -- [2]
 			},
-		}, -- [325]
+		}, -- [311]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -6656,7 +6423,7 @@ MailLoggerDB = {
 					["Name"] = "公式:附魔盾牌 - 盾牌格擋",
 				}, -- [1]
 			},
-		}, -- [326]
+		}, -- [312]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "卡德加",
@@ -6676,7 +6443,7 @@ MailLoggerDB = {
 					["Name"] = "來自撒塔斯的信件",
 				}, -- [1]
 			},
-		}, -- [327]
+		}, -- [313]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "邁克爾假死",
@@ -6696,7 +6463,7 @@ MailLoggerDB = {
 					["Name"] = "硬甲皮",
 				}, -- [1]
 			},
-		}, -- [328]
+		}, -- [314]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -6721,7 +6488,7 @@ MailLoggerDB = {
 					["Name"] = "秘銀錠",
 				},
 			},
-		}, -- [329]
+		}, -- [315]
 		{
 			["Date"] = "2021-07-25",
 			["TargetName"] = "繁華落盡",
@@ -6734,7 +6501,7 @@ MailLoggerDB = {
 			["PlayerName"] = "邁克爾假死",
 			["ReceiveItems"] = {
 			},
-		}, -- [330]
+		}, -- [316]
 		{
 			["TargetName"] = "繁華落盡",
 			["PlayerName"] = "邁克爾假死",
@@ -6748,7 +6515,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [331]
+		}, -- [317]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -6762,7 +6529,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [332]
+		}, -- [318]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "邁克爾假死",
@@ -6777,7 +6544,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [333]
+		}, -- [319]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -6797,7 +6564,7 @@ MailLoggerDB = {
 					["Name"] = "原始空氣",
 				}, -- [1]
 			},
-		}, -- [334]
+		}, -- [320]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -6817,7 +6584,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [335]
+		}, -- [321]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -6847,7 +6614,7 @@ MailLoggerDB = {
 					["Name"] = "清晰的血石榴石",
 				},
 			},
-		}, -- [336]
+		}, -- [322]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -6867,7 +6634,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [337]
+		}, -- [323]
 		{
 			["TargetName"] = "邁克爾假死",
 			["PlayerName"] = "特變電工",
@@ -6881,7 +6648,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [338]
+		}, -- [324]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["Date"] = "2021-07-25",
@@ -6894,7 +6661,7 @@ MailLoggerDB = {
 			["TargetName"] = "春娘",
 			["ReceiveItems"] = {
 			},
-		}, -- [339]
+		}, -- [325]
 		{
 			["TargetName"] = "春娘",
 			["PlayerName"] = "邁克爾假死",
@@ -6908,7 +6675,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [340]
+		}, -- [326]
 		{
 			["TargetName"] = "重度異常",
 			["PlayerName"] = "特變電工",
@@ -6921,7 +6688,7 @@ MailLoggerDB = {
 			["Date"] = "2021-07-27",
 			["ReceiveItems"] = {
 			},
-		}, -- [341]
+		}, -- [327]
 		{
 			["TargetName"] = "重度異常",
 			["PlayerName"] = "特變電工",
@@ -6940,7 +6707,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [342]
+		}, -- [328]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -6965,7 +6732,7 @@ MailLoggerDB = {
 					["Name"] = "秘銀錠",
 				},
 			},
-		}, -- [343]
+		}, -- [329]
 		{
 			["TargetName"] = "Inasiiss",
 			["Date"] = "2021-07-27",
@@ -6978,7 +6745,7 @@ MailLoggerDB = {
 			["Time"] = "23:54:20",
 			["ReceiveItems"] = {
 			},
-		}, -- [344]
+		}, -- [330]
 		{
 			["TargetName"] = "Inasiiss",
 			["PlayerName"] = "特變電工",
@@ -7002,7 +6769,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [345]
+		}, -- [331]
 		{
 			["TargetName"] = "Inasiiss",
 			["Date"] = "2021-07-27",
@@ -7015,7 +6782,7 @@ MailLoggerDB = {
 			["Time"] = "23:54:31",
 			["ReceiveItems"] = {
 			},
-		}, -- [346]
+		}, -- [332]
 		{
 			["TargetName"] = "Inasiiss",
 			["PlayerName"] = "特變電工",
@@ -7035,7 +6802,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [347]
+		}, -- [333]
 		{
 			["TargetName"] = "Inasiiss",
 			["Date"] = "2021-07-27",
@@ -7048,7 +6815,7 @@ MailLoggerDB = {
 			["Time"] = "23:54:43",
 			["ReceiveItems"] = {
 			},
-		}, -- [348]
+		}, -- [334]
 		{
 			["TargetName"] = "Inasiiss",
 			["PlayerName"] = "特變電工",
@@ -7068,7 +6835,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [349]
+		}, -- [335]
 		{
 			["TargetName"] = "Inasiiss",
 			["Date"] = "2021-07-27",
@@ -7081,7 +6848,7 @@ MailLoggerDB = {
 			["Time"] = "23:54:54",
 			["ReceiveItems"] = {
 			},
-		}, -- [350]
+		}, -- [336]
 		{
 			["TargetName"] = "Inasiiss",
 			["PlayerName"] = "特變電工",
@@ -7101,7 +6868,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [351]
+		}, -- [337]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -7121,7 +6888,7 @@ MailLoggerDB = {
 					["Name"] = "防禦精煉藥劑",
 				}, -- [1]
 			},
-		}, -- [352]
+		}, -- [338]
 		{
 			["TargetName"] = "恕嵐轎",
 			["Date"] = "2021-07-28",
@@ -7134,7 +6901,7 @@ MailLoggerDB = {
 			["Time"] = "02:06:19",
 			["ReceiveItems"] = {
 			},
-		}, -- [353]
+		}, -- [339]
 		{
 			["TargetName"] = "恕嵐轎",
 			["PlayerName"] = "特變電工",
@@ -7153,7 +6920,7 @@ MailLoggerDB = {
 					["Name"] = "緊急鐵行者之靴",
 				}, -- [1]
 			},
-		}, -- [354]
+		}, -- [340]
 		{
 			["TargetName"] = "永生相惜",
 			["Date"] = "2021-07-28",
@@ -7166,7 +6933,7 @@ MailLoggerDB = {
 			["Time"] = "02:38:28",
 			["ReceiveItems"] = {
 			},
-		}, -- [355]
+		}, -- [341]
 		{
 			["TargetName"] = "永生相惜",
 			["Date"] = "2021-07-28",
@@ -7179,7 +6946,7 @@ MailLoggerDB = {
 			["Time"] = "02:38:33",
 			["ReceiveItems"] = {
 			},
-		}, -- [356]
+		}, -- [342]
 		{
 			["TargetName"] = "永生相惜",
 			["PlayerName"] = "特變電工",
@@ -7198,7 +6965,7 @@ MailLoggerDB = {
 					["Name"] = "山脈之王傳說",
 				}, -- [1]
 			},
-		}, -- [357]
+		}, -- [343]
 		{
 			["TargetName"] = "尼根的棒棒",
 			["Date"] = "2021-07-28",
@@ -7211,7 +6978,7 @@ MailLoggerDB = {
 			["Time"] = "02:50:13",
 			["ReceiveItems"] = {
 			},
-		}, -- [358]
+		}, -- [344]
 		{
 			["TargetName"] = "尼根的棒棒",
 			["Date"] = "2021-07-28",
@@ -7224,7 +6991,7 @@ MailLoggerDB = {
 			["Time"] = "02:50:42",
 			["ReceiveItems"] = {
 			},
-		}, -- [359]
+		}, -- [345]
 		{
 			["TargetName"] = "尼根的棒棒",
 			["Date"] = "2021-07-28",
@@ -7237,7 +7004,7 @@ MailLoggerDB = {
 			["Time"] = "02:51:05",
 			["ReceiveItems"] = {
 			},
-		}, -- [360]
+		}, -- [346]
 		{
 			["TargetName"] = "尼根的棒棒",
 			["PlayerName"] = "特變電工",
@@ -7256,7 +7023,7 @@ MailLoggerDB = {
 					["Name"] = "山脈之王傳說",
 				}, -- [1]
 			},
-		}, -- [361]
+		}, -- [347]
 		{
 			["TargetName"] = "恕嵐轎",
 			["Date"] = "2021-07-28",
@@ -7269,7 +7036,7 @@ MailLoggerDB = {
 			["Time"] = "03:50:43",
 			["ReceiveItems"] = {
 			},
-		}, -- [362]
+		}, -- [348]
 		{
 			["TargetName"] = "恕嵐轎",
 			["PlayerName"] = "特變電工",
@@ -7288,7 +7055,7 @@ MailLoggerDB = {
 					["Name"] = "蠢人毒藥",
 				}, -- [1]
 			},
-		}, -- [363]
+		}, -- [349]
 		{
 			["TargetName"] = "恕嵐轎",
 			["Date"] = "2021-07-28",
@@ -7301,7 +7068,7 @@ MailLoggerDB = {
 			["Time"] = "03:51:33",
 			["ReceiveItems"] = {
 			},
-		}, -- [364]
+		}, -- [350]
 		{
 			["TargetName"] = "恕嵐轎",
 			["PlayerName"] = "特變電工",
@@ -7320,7 +7087,7 @@ MailLoggerDB = {
 					["Name"] = "逝往防衛者頭盔",
 				}, -- [1]
 			},
-		}, -- [365]
+		}, -- [351]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-07-28",
@@ -7333,7 +7100,7 @@ MailLoggerDB = {
 			["TargetName"] = "牧原股份",
 			["ReceiveItems"] = {
 			},
-		}, -- [366]
+		}, -- [352]
 		{
 			["TargetName"] = "牧原股份",
 			["PlayerName"] = "特變電工",
@@ -7347,7 +7114,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [367]
+		}, -- [353]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -7372,7 +7139,7 @@ MailLoggerDB = {
 					["Name"] = "厚重的黎明石",
 				}, -- [2]
 			},
-		}, -- [368]
+		}, -- [354]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -7392,7 +7159,7 @@ MailLoggerDB = {
 					["Name"] = "堅固的藍月石",
 				}, -- [1]
 			},
-		}, -- [369]
+		}, -- [355]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -7412,7 +7179,7 @@ MailLoggerDB = {
 					["Name"] = "堅固的藍月石",
 				}, -- [1]
 			},
-		}, -- [370]
+		}, -- [356]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-07-28",
@@ -7425,7 +7192,7 @@ MailLoggerDB = {
 			["TargetName"] = "風語靜",
 			["ReceiveItems"] = {
 			},
-		}, -- [371]
+		}, -- [357]
 		{
 			["TargetName"] = "風語靜",
 			["PlayerName"] = "特變電工",
@@ -7449,7 +7216,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [372]
+		}, -- [358]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-07-28",
@@ -7462,7 +7229,7 @@ MailLoggerDB = {
 			["TargetName"] = "別叫我粗鼠",
 			["ReceiveItems"] = {
 			},
-		}, -- [373]
+		}, -- [359]
 		{
 			["TargetName"] = "別叫我粗鼠",
 			["PlayerName"] = "特變電工",
@@ -7481,7 +7248,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [374]
+		}, -- [360]
 		{
 			["Date"] = "2021-07-28",
 			["TargetName"] = "Seraphim",
@@ -7494,7 +7261,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [375]
+		}, -- [361]
 		{
 			["TargetName"] = "畜生犬隊長",
 			["PlayerName"] = "特變電工",
@@ -7513,7 +7280,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [376]
+		}, -- [362]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "倌夜瞳",
@@ -7526,7 +7293,7 @@ MailLoggerDB = {
 			["Time"] = "21:07:49",
 			["ReceiveItems"] = {
 			},
-		}, -- [377]
+		}, -- [363]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -7546,7 +7313,7 @@ MailLoggerDB = {
 					["Name"] = "耐久的翠綠橄欖石",
 				}, -- [1]
 			},
-		}, -- [378]
+		}, -- [364]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -7566,7 +7333,7 @@ MailLoggerDB = {
 					["Name"] = "魔塵",
 				}, -- [1]
 			},
-		}, -- [379]
+		}, -- [365]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "炎曲尤加",
@@ -7579,7 +7346,7 @@ MailLoggerDB = {
 			["Time"] = "22:54:53",
 			["ReceiveItems"] = {
 			},
-		}, -- [380]
+		}, -- [366]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "炎曲尤加",
@@ -7592,7 +7359,7 @@ MailLoggerDB = {
 			["Time"] = "22:55:26",
 			["ReceiveItems"] = {
 			},
-		}, -- [381]
+		}, -- [367]
 		{
 			["TargetName"] = "炎曲尤加",
 			["PlayerName"] = "特變電工",
@@ -7611,7 +7378,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [382]
+		}, -- [368]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "炎曲尤加",
@@ -7624,7 +7391,7 @@ MailLoggerDB = {
 			["Time"] = "22:55:35",
 			["ReceiveItems"] = {
 			},
-		}, -- [383]
+		}, -- [369]
 		{
 			["TargetName"] = "炎曲尤加",
 			["PlayerName"] = "特變電工",
@@ -7644,7 +7411,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [384]
+		}, -- [370]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "青樓探花",
@@ -7657,7 +7424,7 @@ MailLoggerDB = {
 			["Time"] = "14:25:34",
 			["ReceiveItems"] = {
 			},
-		}, -- [385]
+		}, -- [371]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "特變電工",
@@ -7672,7 +7439,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [386]
+		}, -- [372]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -7701,7 +7468,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [387]
+		}, -- [373]
 		{
 			["Date"] = "2021-07-30",
 			["PlayerName"] = "特變電工",
@@ -7714,7 +7481,7 @@ MailLoggerDB = {
 			["Time"] = "15:25:56",
 			["ReceiveItems"] = {
 			},
-		}, -- [388]
+		}, -- [374]
 		{
 			["Date"] = "2021-07-30",
 			["PlayerName"] = "特變電工",
@@ -7727,7 +7494,7 @@ MailLoggerDB = {
 			["Time"] = "15:53:45",
 			["ReceiveItems"] = {
 			},
-		}, -- [389]
+		}, -- [375]
 		{
 			["TargetName"] = "青樓探花",
 			["PlayerName"] = "特變電工",
@@ -7771,7 +7538,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [390]
+		}, -- [376]
 		{
 			["Date"] = "2021-07-30",
 			["PlayerName"] = "特變電工",
@@ -7784,7 +7551,7 @@ MailLoggerDB = {
 			["Time"] = "15:53:57",
 			["ReceiveItems"] = {
 			},
-		}, -- [391]
+		}, -- [377]
 		{
 			["TargetName"] = "青樓探花",
 			["PlayerName"] = "特變電工",
@@ -7808,7 +7575,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [392]
+		}, -- [378]
 		{
 			["TargetName"] = "有點小夢幻",
 			["PlayerName"] = "邁克爾假死",
@@ -7821,7 +7588,7 @@ MailLoggerDB = {
 			["Date"] = "2021-07-30",
 			["ReceiveItems"] = {
 			},
-		}, -- [393]
+		}, -- [379]
 		{
 			["TargetName"] = "有點小夢幻",
 			["PlayerName"] = "邁克爾假死",
@@ -7835,7 +7602,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [394]
+		}, -- [380]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -7849,7 +7616,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [395]
+		}, -- [381]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "邁克爾假死",
@@ -7864,7 +7631,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [396]
+		}, -- [382]
 		{
 			["TargetName"] = "青樓探花",
 			["Date"] = "2021-07-30",
@@ -7877,7 +7644,7 @@ MailLoggerDB = {
 			["Time"] = "15:59:57",
 			["ReceiveItems"] = {
 			},
-		}, -- [397]
+		}, -- [383]
 		{
 			["TargetName"] = "青樓探花",
 			["PlayerName"] = "特變電工",
@@ -7901,7 +7668,7 @@ MailLoggerDB = {
 					["Name"] = "魔鋼錠",
 				}, -- [2]
 			},
-		}, -- [398]
+		}, -- [384]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -7926,7 +7693,7 @@ MailLoggerDB = {
 					["Name"] = "恆金錠",
 				},
 			},
-		}, -- [399]
+		}, -- [385]
 		{
 			["TargetName"] = "青樓探花",
 			["Date"] = "2021-07-30",
@@ -7939,7 +7706,7 @@ MailLoggerDB = {
 			["Time"] = "16:05:40",
 			["ReceiveItems"] = {
 			},
-		}, -- [400]
+		}, -- [386]
 		{
 			["TargetName"] = "青樓探花",
 			["PlayerName"] = "特變電工",
@@ -7983,7 +7750,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [401]
+		}, -- [387]
 		{
 			["TargetName"] = "青樓探花",
 			["Date"] = "2021-07-30",
@@ -7996,7 +7763,7 @@ MailLoggerDB = {
 			["Time"] = "16:05:51",
 			["ReceiveItems"] = {
 			},
-		}, -- [402]
+		}, -- [388]
 		{
 			["TargetName"] = "青樓探花",
 			["PlayerName"] = "特變電工",
@@ -8040,7 +7807,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [403]
+		}, -- [389]
 		{
 			["TargetName"] = "青樓探花",
 			["Date"] = "2021-07-30",
@@ -8053,7 +7820,7 @@ MailLoggerDB = {
 			["Time"] = "16:06:02",
 			["ReceiveItems"] = {
 			},
-		}, -- [404]
+		}, -- [390]
 		{
 			["TargetName"] = "青樓探花",
 			["PlayerName"] = "特變電工",
@@ -8072,7 +7839,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [405]
+		}, -- [391]
 		{
 			["TargetName"] = "青樓探花",
 			["Date"] = "2021-07-30",
@@ -8085,7 +7852,7 @@ MailLoggerDB = {
 			["Time"] = "16:09:14",
 			["ReceiveItems"] = {
 			},
-		}, -- [406]
+		}, -- [392]
 		{
 			["TargetName"] = "青樓探花",
 			["PlayerName"] = "特變電工",
@@ -8119,7 +7886,7 @@ MailLoggerDB = {
 					["Name"] = "魔鐵錠",
 				}, -- [4]
 			},
-		}, -- [407]
+		}, -- [393]
 		{
 			["TargetName"] = "青樓探花",
 			["Date"] = "2021-07-30",
@@ -8132,7 +7899,7 @@ MailLoggerDB = {
 			["Time"] = "16:11:59",
 			["ReceiveItems"] = {
 			},
-		}, -- [408]
+		}, -- [394]
 		{
 			["TargetName"] = "青樓探花",
 			["PlayerName"] = "特變電工",
@@ -8146,7 +7913,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [409]
+		}, -- [395]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -8166,7 +7933,7 @@ MailLoggerDB = {
 					["Name"] = "原始法力",
 				}, -- [1]
 			},
-		}, -- [410]
+		}, -- [396]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -8186,7 +7953,7 @@ MailLoggerDB = {
 					["Name"] = "原始法力",
 				}, -- [1]
 			},
-		}, -- [411]
+		}, -- [397]
 		{
 			["TargetName"] = "法拉米果",
 			["Date"] = "2021-07-30",
@@ -8199,7 +7966,7 @@ MailLoggerDB = {
 			["Time"] = "16:33:52",
 			["ReceiveItems"] = {
 			},
-		}, -- [412]
+		}, -- [398]
 		{
 			["TargetName"] = "法拉米果",
 			["Date"] = "2021-07-30",
@@ -8212,7 +7979,7 @@ MailLoggerDB = {
 			["Time"] = "16:34:43",
 			["ReceiveItems"] = {
 			},
-		}, -- [413]
+		}, -- [399]
 		{
 			["TargetName"] = "法拉米果",
 			["PlayerName"] = "特變電工",
@@ -8232,7 +7999,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [414]
+		}, -- [400]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -8257,7 +8024,7 @@ MailLoggerDB = {
 					["Name"] = "光滑的黃金卓奈石",
 				}, -- [2]
 			},
-		}, -- [415]
+		}, -- [401]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -8282,7 +8049,7 @@ MailLoggerDB = {
 					["Name"] = "雕刻的火石榴石",
 				}, -- [2]
 			},
-		}, -- [416]
+		}, -- [402]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -8302,7 +8069,7 @@ MailLoggerDB = {
 					["Name"] = "超強效治療藥水",
 				}, -- [1]
 			},
-		}, -- [417]
+		}, -- [403]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -8332,7 +8099,7 @@ MailLoggerDB = {
 					["Name"] = "緻密的石頭",
 				},
 			},
-		}, -- [418]
+		}, -- [404]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -8352,7 +8119,7 @@ MailLoggerDB = {
 					["Name"] = "自由行動藥水",
 				}, -- [1]
 			},
-		}, -- [419]
+		}, -- [405]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -8377,7 +8144,7 @@ MailLoggerDB = {
 					["Name"] = "魔鋼頭盔",
 				},
 			},
-		}, -- [420]
+		}, -- [406]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -8407,7 +8174,7 @@ MailLoggerDB = {
 					["Name"] = "金棒",
 				},
 			},
-		}, -- [421]
+		}, -- [407]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -8427,7 +8194,7 @@ MailLoggerDB = {
 					["Name"] = "黑口魚",
 				}, -- [1]
 			},
-		}, -- [422]
+		}, -- [408]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -8447,7 +8214,7 @@ MailLoggerDB = {
 					["Name"] = "荊棘藻",
 				}, -- [1]
 			},
-		}, -- [423]
+		}, -- [409]
 		{
 			["TargetName"] = "老闆挺住",
 			["PlayerName"] = "特變電工",
@@ -8471,7 +8238,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [424]
+		}, -- [410]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -8511,7 +8278,7 @@ MailLoggerDB = {
 					["Name"] = "秘銀錠",
 				},
 			},
-		}, -- [425]
+		}, -- [411]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "老闆挺住",
@@ -8551,7 +8318,7 @@ MailLoggerDB = {
 					["Name"] = "自由行動藥水",
 				}, -- [5]
 			},
-		}, -- [426]
+		}, -- [412]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -8566,7 +8333,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [427]
+		}, -- [413]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "中和林志穎",
@@ -8579,7 +8346,7 @@ MailLoggerDB = {
 			["Time"] = "18:37:28",
 			["ReceiveItems"] = {
 			},
-		}, -- [428]
+		}, -- [414]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -8609,7 +8376,7 @@ MailLoggerDB = {
 					["Name"] = "防禦精煉藥劑",
 				},
 			},
-		}, -- [429]
+		}, -- [415]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "月巴豸苗",
@@ -8622,7 +8389,7 @@ MailLoggerDB = {
 			["Time"] = "21:00:34",
 			["ReceiveItems"] = {
 			},
-		}, -- [430]
+		}, -- [416]
 		{
 			["TargetName"] = "月巴豸苗",
 			["PlayerName"] = "特變電工",
@@ -8641,7 +8408,7 @@ MailLoggerDB = {
 					["Name"] = "火星完美護手",
 				}, -- [1]
 			},
-		}, -- [431]
+		}, -- [417]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "月巴豸苗",
@@ -8654,7 +8421,7 @@ MailLoggerDB = {
 			["Time"] = "22:10:02",
 			["ReceiveItems"] = {
 			},
-		}, -- [432]
+		}, -- [418]
 		{
 			["TargetName"] = "月巴豸苗",
 			["PlayerName"] = "特變電工",
@@ -8673,7 +8440,7 @@ MailLoggerDB = {
 					["Name"] = "地窖潛行者披風",
 				}, -- [1]
 			},
-		}, -- [433]
+		}, -- [419]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "月巴豸苗",
@@ -8686,7 +8453,7 @@ MailLoggerDB = {
 			["Time"] = "22:18:30",
 			["ReceiveItems"] = {
 			},
-		}, -- [434]
+		}, -- [420]
 		{
 			["TargetName"] = "月巴豸苗",
 			["PlayerName"] = "特變電工",
@@ -8700,7 +8467,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [435]
+		}, -- [421]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -8720,7 +8487,7 @@ MailLoggerDB = {
 					["Name"] = "魔鋼頭盔",
 				}, -- [1]
 			},
-		}, -- [436]
+		}, -- [422]
 		{
 			["Date"] = "2021-08-03",
 			["TargetName"] = "恕嵐轎",
@@ -8733,7 +8500,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [437]
+		}, -- [423]
 		{
 			["TargetName"] = "恕嵐轎",
 			["PlayerName"] = "特變電工",
@@ -8752,7 +8519,7 @@ MailLoggerDB = {
 					["Name"] = "初新鐵護手",
 				},
 			},
-		}, -- [438]
+		}, -- [424]
 		{
 			["Date"] = "2021-08-03",
 			["TargetName"] = "恕嵐轎",
@@ -8765,7 +8532,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [439]
+		}, -- [425]
 		{
 			["TargetName"] = "恕嵐轎",
 			["PlayerName"] = "特變電工",
@@ -8784,7 +8551,7 @@ MailLoggerDB = {
 					["Name"] = "阿拉希諸王皇家披風",
 				}, -- [1]
 			},
-		}, -- [440]
+		}, -- [426]
 		{
 			["Date"] = "2021-08-03",
 			["TargetName"] = "恕嵐轎",
@@ -8797,7 +8564,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [441]
+		}, -- [427]
 		{
 			["TargetName"] = "恕嵐轎",
 			["PlayerName"] = "特變電工",
@@ -8816,7 +8583,7 @@ MailLoggerDB = {
 					["Name"] = "烏瑞恩王朝護脛",
 				}, -- [1]
 			},
-		}, -- [442]
+		}, -- [428]
 		{
 			["Date"] = "2021-08-03",
 			["TargetName"] = "滅眾生",
@@ -8829,7 +8596,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [443]
+		}, -- [429]
 		{
 			["TargetName"] = "滅眾生",
 			["PlayerName"] = "特變電工",
@@ -8848,7 +8615,7 @@ MailLoggerDB = {
 					["Name"] = "山脈之王傳說",
 				},
 			},
-		}, -- [444]
+		}, -- [430]
 		{
 			["Date"] = "2021-08-03",
 			["TargetName"] = "恕嵐轎",
@@ -8861,7 +8628,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [445]
+		}, -- [431]
 		{
 			["TargetName"] = "恕嵐轎",
 			["PlayerName"] = "特變電工",
@@ -8880,7 +8647,7 @@ MailLoggerDB = {
 					["Name"] = "叛節束腰",
 				}, -- [1]
 			},
-		}, -- [446]
+		}, -- [432]
 		{
 			["Date"] = "2021-08-03",
 			["TargetName"] = "蛋餅十元",
@@ -8893,7 +8660,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [447]
+		}, -- [433]
 		{
 			["TargetName"] = "蛋餅十元",
 			["PlayerName"] = "特變電工",
@@ -8912,7 +8679,7 @@ MailLoggerDB = {
 					["Name"] = "山脈之王傳說",
 				}, -- [1]
 			},
-		}, -- [448]
+		}, -- [434]
 		{
 			["Date"] = "2021-08-03",
 			["TargetName"] = "滅眾生",
@@ -8925,7 +8692,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [449]
+		}, -- [435]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -8950,7 +8717,7 @@ MailLoggerDB = {
 					["Name"] = "閃爍的火石榴石",
 				}, -- [2]
 			},
-		}, -- [450]
+		}, -- [436]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -8980,7 +8747,7 @@ MailLoggerDB = {
 					["Name"] = "魔鋼頭盔",
 				},
 			},
-		}, -- [451]
+		}, -- [437]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -9015,7 +8782,7 @@ MailLoggerDB = {
 					["Name"] = "魔塵",
 				},
 			},
-		}, -- [452]
+		}, -- [438]
 		{
 			["Date"] = "2021-08-07",
 			["PlayerName"] = "特變電工",
@@ -9028,7 +8795,7 @@ MailLoggerDB = {
 			["Time"] = "20:35:33",
 			["ReceiveItems"] = {
 			},
-		}, -- [453]
+		}, -- [439]
 		{
 			["TargetName"] = "Kmk",
 			["PlayerName"] = "特變電工",
@@ -9057,7 +8824,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [454]
+		}, -- [440]
 		{
 			["Date"] = "2021-08-07",
 			["PlayerName"] = "特變電工",
@@ -9070,7 +8837,7 @@ MailLoggerDB = {
 			["Time"] = "20:36:24",
 			["ReceiveItems"] = {
 			},
-		}, -- [455]
+		}, -- [441]
 		{
 			["TargetName"] = "Kmk",
 			["PlayerName"] = "特變電工",
@@ -9090,7 +8857,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [456]
+		}, -- [442]
 		{
 			["Date"] = "2021-08-07",
 			["PlayerName"] = "特變電工",
@@ -9103,7 +8870,7 @@ MailLoggerDB = {
 			["Time"] = "20:36:42",
 			["ReceiveItems"] = {
 			},
-		}, -- [457]
+		}, -- [443]
 		{
 			["TargetName"] = "Kmk",
 			["PlayerName"] = "特變電工",
@@ -9127,7 +8894,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [458]
+		}, -- [444]
 		{
 			["Date"] = "2021-08-07",
 			["PlayerName"] = "特變電工",
@@ -9140,7 +8907,7 @@ MailLoggerDB = {
 			["Time"] = "20:36:57",
 			["ReceiveItems"] = {
 			},
-		}, -- [459]
+		}, -- [445]
 		{
 			["TargetName"] = "Kmk",
 			["PlayerName"] = "特變電工",
@@ -9160,7 +8927,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [460]
+		}, -- [446]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -9185,7 +8952,7 @@ MailLoggerDB = {
 					["Name"] = "堅硬的黎明石",
 				},
 			},
-		}, -- [461]
+		}, -- [447]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -9205,7 +8972,7 @@ MailLoggerDB = {
 					["Name"] = "魔塵",
 				}, -- [1]
 			},
-		}, -- [462]
+		}, -- [448]
 		{
 			["Date"] = "2021-08-07",
 			["PlayerName"] = "特變電工",
@@ -9218,7 +8985,7 @@ MailLoggerDB = {
 			["Time"] = "22:03:00",
 			["ReceiveItems"] = {
 			},
-		}, -- [463]
+		}, -- [449]
 		{
 			["TargetName"] = "吉吉硬硬德",
 			["PlayerName"] = "特變電工",
@@ -9237,7 +9004,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [464]
+		}, -- [450]
 		{
 			["Date"] = "2021-08-07",
 			["PlayerName"] = "特變電工",
@@ -9250,7 +9017,7 @@ MailLoggerDB = {
 			["Time"] = "22:03:12",
 			["ReceiveItems"] = {
 			},
-		}, -- [465]
+		}, -- [451]
 		{
 			["Date"] = "2021-08-07",
 			["PlayerName"] = "特變電工",
@@ -9263,7 +9030,7 @@ MailLoggerDB = {
 			["Time"] = "22:03:23",
 			["ReceiveItems"] = {
 			},
-		}, -- [466]
+		}, -- [452]
 		{
 			["TargetName"] = "吉吉硬硬德",
 			["PlayerName"] = "特變電工",
@@ -9283,7 +9050,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [467]
+		}, -- [453]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -9313,7 +9080,7 @@ MailLoggerDB = {
 					["Name"] = "魔鋼頭盔",
 				},
 			},
-		}, -- [468]
+		}, -- [454]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -9353,7 +9120,7 @@ MailLoggerDB = {
 					["Name"] = "堅硬的黃金卓奈石",
 				},
 			},
-		}, -- [469]
+		}, -- [455]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "戰歌峽谷戰場軍官",
@@ -9373,7 +9140,7 @@ MailLoggerDB = {
 					["Name"] = "戰歌峽谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [470]
+		}, -- [456]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -9388,7 +9155,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [471]
+		}, -- [457]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -9408,7 +9175,7 @@ MailLoggerDB = {
 					["Name"] = "閃爍的火石榴石",
 				}, -- [1]
 			},
-		}, -- [472]
+		}, -- [458]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "戰歌峽谷戰場軍官",
@@ -9428,7 +9195,7 @@ MailLoggerDB = {
 					["Name"] = "戰歌峽谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [473]
+		}, -- [459]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -9453,7 +9220,7 @@ MailLoggerDB = {
 					["Name"] = "魔塵",
 				}, -- [2]
 			},
-		}, -- [474]
+		}, -- [460]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "戰歌峽谷戰場軍官",
@@ -9468,7 +9235,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [475]
+		}, -- [461]
 		{
 			["TargetName"] = "龍舟隊長",
 			["Date"] = "2021-08-08",
@@ -9481,7 +9248,7 @@ MailLoggerDB = {
 			["Time"] = "20:20:31",
 			["ReceiveItems"] = {
 			},
-		}, -- [476]
+		}, -- [462]
 		{
 			["TargetName"] = "龍舟隊長",
 			["PlayerName"] = "特變電工",
@@ -9505,7 +9272,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [477]
+		}, -- [463]
 		{
 			["TargetName"] = "龍舟隊長",
 			["Date"] = "2021-08-08",
@@ -9518,7 +9285,7 @@ MailLoggerDB = {
 			["Time"] = "20:20:37",
 			["ReceiveItems"] = {
 			},
-		}, -- [478]
+		}, -- [464]
 		{
 			["TargetName"] = "龍舟隊長",
 			["PlayerName"] = "特變電工",
@@ -9538,7 +9305,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [479]
+		}, -- [465]
 		{
 			["TargetName"] = "牧原股份",
 			["Date"] = "2021-08-08",
@@ -9551,7 +9318,7 @@ MailLoggerDB = {
 			["Time"] = "20:22:02",
 			["ReceiveItems"] = {
 			},
-		}, -- [480]
+		}, -- [466]
 		{
 			["TargetName"] = "牧原股份",
 			["PlayerName"] = "特變電工",
@@ -9565,7 +9332,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [481]
+		}, -- [467]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -9590,7 +9357,7 @@ MailLoggerDB = {
 					["Name"] = "厚重的黃金卓奈石",
 				},
 			},
-		}, -- [482]
+		}, -- [468]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -9610,7 +9377,7 @@ MailLoggerDB = {
 					["Name"] = "厚重的黃金卓奈石",
 				}, -- [1]
 			},
-		}, -- [483]
+		}, -- [469]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "戰歌峽谷戰場軍官",
@@ -9625,7 +9392,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [484]
+		}, -- [470]
 		{
 			["TargetName"] = "月巴豸苗",
 			["Date"] = "2021-08-08",
@@ -9638,7 +9405,7 @@ MailLoggerDB = {
 			["Time"] = "22:41:09",
 			["ReceiveItems"] = {
 			},
-		}, -- [485]
+		}, -- [471]
 		{
 			["TargetName"] = "月巴豸苗",
 			["PlayerName"] = "特變電工",
@@ -9657,7 +9424,7 @@ MailLoggerDB = {
 					["Name"] = "瑪瑟里頓之首",
 				}, -- [1]
 			},
-		}, -- [486]
+		}, -- [472]
 		{
 			["TargetName"] = "月巴豸苗",
 			["Date"] = "2021-08-08",
@@ -9670,7 +9437,7 @@ MailLoggerDB = {
 			["Time"] = "22:43:28",
 			["ReceiveItems"] = {
 			},
-		}, -- [487]
+		}, -- [473]
 		{
 			["TargetName"] = "月巴豸苗",
 			["PlayerName"] = "特變電工",
@@ -9684,7 +9451,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [488]
+		}, -- [474]
 		{
 			["TargetName"] = "貓咪的尾巴",
 			["Date"] = "2021-08-08",
@@ -9697,7 +9464,7 @@ MailLoggerDB = {
 			["Time"] = "22:47:55",
 			["ReceiveItems"] = {
 			},
-		}, -- [489]
+		}, -- [475]
 		{
 			["TargetName"] = "貓咪的尾巴",
 			["PlayerName"] = "特變電工",
@@ -9711,7 +9478,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [490]
+		}, -- [476]
 		{
 			["TargetName"] = "牛咩咩耶",
 			["Date"] = "2021-08-08",
@@ -9724,7 +9491,7 @@ MailLoggerDB = {
 			["Time"] = "23:18:33",
 			["ReceiveItems"] = {
 			},
-		}, -- [491]
+		}, -- [477]
 		{
 			["TargetName"] = "牛咩咩耶",
 			["PlayerName"] = "特變電工",
@@ -9748,7 +9515,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [492]
+		}, -- [478]
 		{
 			["TargetName"] = "荖弓",
 			["Date"] = "2021-08-09",
@@ -9761,7 +9528,7 @@ MailLoggerDB = {
 			["Time"] = "00:18:13",
 			["ReceiveItems"] = {
 			},
-		}, -- [493]
+		}, -- [479]
 		{
 			["TargetName"] = "牧原股份",
 			["Date"] = "2021-08-09",
@@ -9774,7 +9541,7 @@ MailLoggerDB = {
 			["Time"] = "01:06:46",
 			["ReceiveItems"] = {
 			},
-		}, -- [494]
+		}, -- [480]
 		{
 			["TargetName"] = "牧原股份",
 			["Date"] = "2021-08-09",
@@ -9787,7 +9554,7 @@ MailLoggerDB = {
 			["Time"] = "01:06:56",
 			["ReceiveItems"] = {
 			},
-		}, -- [495]
+		}, -- [481]
 		{
 			["TargetName"] = "牧原股份",
 			["PlayerName"] = "特變電工",
@@ -9801,7 +9568,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [496]
+		}, -- [482]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-08-09",
@@ -9814,7 +9581,7 @@ MailLoggerDB = {
 			["TargetName"] = "老闆挺住",
 			["ReceiveItems"] = {
 			},
-		}, -- [497]
+		}, -- [483]
 		{
 			["TargetName"] = "老闆挺住",
 			["PlayerName"] = "特變電工",
@@ -9833,7 +9600,7 @@ MailLoggerDB = {
 					["Name"] = "極效堅韌藥劑",
 				}, -- [1]
 			},
-		}, -- [498]
+		}, -- [484]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-08-10",
@@ -9846,7 +9613,7 @@ MailLoggerDB = {
 			["TargetName"] = "滅眾生",
 			["ReceiveItems"] = {
 			},
-		}, -- [499]
+		}, -- [485]
 		{
 			["TargetName"] = "滅眾生",
 			["PlayerName"] = "特變電工",
@@ -9865,7 +9632,7 @@ MailLoggerDB = {
 					["Name"] = "山脈之王傳說",
 				},
 			},
-		}, -- [500]
+		}, -- [486]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-08-10",
@@ -9878,7 +9645,7 @@ MailLoggerDB = {
 			["TargetName"] = "恕嵐轎",
 			["ReceiveItems"] = {
 			},
-		}, -- [501]
+		}, -- [487]
 		{
 			["TargetName"] = "恕嵐轎",
 			["PlayerName"] = "特變電工",
@@ -9897,7 +9664,7 @@ MailLoggerDB = {
 					["Name"] = "無疤秘銀指環",
 				}, -- [1]
 			},
-		}, -- [502]
+		}, -- [488]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -9922,7 +9689,7 @@ MailLoggerDB = {
 					["Name"] = "魔鋼頭盔",
 				},
 			},
-		}, -- [503]
+		}, -- [489]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["Date"] = "2021-08-14",
@@ -9935,7 +9702,7 @@ MailLoggerDB = {
 			["TargetName"] = "有點小夢幻",
 			["ReceiveItems"] = {
 			},
-		}, -- [504]
+		}, -- [490]
 		{
 			["TargetName"] = "有點小夢幻",
 			["PlayerName"] = "邁克爾假死",
@@ -9949,7 +9716,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [505]
+		}, -- [491]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -9963,7 +9730,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [506]
+		}, -- [492]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "邁克爾假死",
@@ -9978,7 +9745,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [507]
+		}, -- [493]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -9993,7 +9760,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [508]
+		}, -- [494]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -10028,7 +9795,7 @@ MailLoggerDB = {
 					["Name"] = "魔鋼頭盔",
 				},
 			},
-		}, -- [509]
+		}, -- [495]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "開車的張學友",
@@ -10041,7 +9808,7 @@ MailLoggerDB = {
 			["Time"] = "17:07:07",
 			["ReceiveItems"] = {
 			},
-		}, -- [510]
+		}, -- [496]
 		{
 			["TargetName"] = "開車的張學友",
 			["PlayerName"] = "特變電工",
@@ -10075,7 +9842,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [511]
+		}, -- [497]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "開車的張學友",
@@ -10088,7 +9855,7 @@ MailLoggerDB = {
 			["Time"] = "17:07:50",
 			["ReceiveItems"] = {
 			},
-		}, -- [512]
+		}, -- [498]
 		{
 			["TargetName"] = "開車的張學友",
 			["PlayerName"] = "特變電工",
@@ -10107,7 +9874,7 @@ MailLoggerDB = {
 					["Name"] = "惡魔皮靴",
 				}, -- [1]
 			},
-		}, -- [513]
+		}, -- [499]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -10127,7 +9894,7 @@ MailLoggerDB = {
 					["Name"] = "光滑的黎明石",
 				}, -- [1]
 			},
-		}, -- [514]
+		}, -- [500]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -10142,7 +9909,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [515]
+		}, -- [501]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "Nazul",
@@ -10155,7 +9922,7 @@ MailLoggerDB = {
 			["Time"] = "19:51:52",
 			["ReceiveItems"] = {
 			},
-		}, -- [516]
+		}, -- [502]
 		{
 			["TargetName"] = "Nazul",
 			["PlayerName"] = "特變電工",
@@ -10179,7 +9946,7 @@ MailLoggerDB = {
 					["Name"] = "魔法可頌",
 				}, -- [2]
 			},
-		}, -- [517]
+		}, -- [503]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -10209,7 +9976,7 @@ MailLoggerDB = {
 					["Name"] = "厚重境外皮革",
 				},
 			},
-		}, -- [518]
+		}, -- [504]
 		{
 			["Date"] = "2021-08-14",
 			["TargetName"] = "雷殤破睿",
@@ -10222,7 +9989,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [519]
+		}, -- [505]
 		{
 			["TargetName"] = "雷殤破睿",
 			["PlayerName"] = "特變電工",
@@ -10251,7 +10018,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [520]
+		}, -- [506]
 		{
 			["Date"] = "2021-08-14",
 			["TargetName"] = "雷殤破睿",
@@ -10264,7 +10031,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [521]
+		}, -- [507]
 		{
 			["Date"] = "2021-08-14",
 			["TargetName"] = "雷殤破睿",
@@ -10277,7 +10044,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [522]
+		}, -- [508]
 		{
 			["TargetName"] = "雷殤破睿",
 			["PlayerName"] = "特變電工",
@@ -10296,7 +10063,7 @@ MailLoggerDB = {
 					["Name"] = "虛空眼鏡蛇護腿片",
 				}, -- [1]
 			},
-		}, -- [523]
+		}, -- [509]
 		{
 			["Date"] = "2021-08-14",
 			["TargetName"] = "戴萩芙蒙黛奈",
@@ -10309,7 +10076,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [524]
+		}, -- [510]
 		{
 			["TargetName"] = "戴萩芙蒙黛奈",
 			["PlayerName"] = "特變電工",
@@ -10328,7 +10095,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [525]
+		}, -- [511]
 		{
 			["Date"] = "2021-08-15",
 			["TargetName"] = "朽木白哉",
@@ -10341,7 +10108,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [526]
+		}, -- [512]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -10361,7 +10128,7 @@ MailLoggerDB = {
 					["Name"] = "日怒徽章",
 				}, -- [1]
 			},
-		}, -- [527]
+		}, -- [513]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -10381,7 +10148,7 @@ MailLoggerDB = {
 					["Name"] = "秘法寶典",
 				}, -- [1]
 			},
-		}, -- [528]
+		}, -- [514]
 		{
 			["Date"] = "2021-08-15",
 			["PlayerName"] = "特變電工",
@@ -10394,7 +10161,7 @@ MailLoggerDB = {
 			["Time"] = "02:51:51",
 			["ReceiveItems"] = {
 			},
-		}, -- [529]
+		}, -- [515]
 		{
 			["TargetName"] = "好想回祖國",
 			["PlayerName"] = "特變電工",
@@ -10403,201 +10170,201 @@ MailLoggerDB = {
 			["Time"] = "02:51:51",
 			["GiveMoney"] = 300000,
 			["Location"] = "黑色沼澤",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [516]
+		{
+			["Date"] = "2021-08-15",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "黑色沼澤",
+			["TargetName"] = "Xeqtr",
+			["Time"] = "02:52:14",
+			["ReceiveItems"] = {
+			},
+		}, -- [517]
+		{
+			["TargetName"] = "Xeqtr",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-08-15",
+			["ReceiveMoney"] = 0,
+			["Time"] = "02:52:14",
+			["GiveMoney"] = 300000,
+			["Location"] = "黑色沼澤",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [518]
+		{
+			["Date"] = "2021-08-15",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "黑色沼澤",
+			["TargetName"] = "貝爾那",
+			["Time"] = "02:52:23",
+			["ReceiveItems"] = {
+			},
+		}, -- [519]
+		{
+			["TargetName"] = "貝爾那",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-08-15",
+			["ReceiveMoney"] = 0,
+			["Time"] = "02:52:23",
+			["GiveMoney"] = 300000,
+			["Location"] = "黑色沼澤",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [520]
+		{
+			["Date"] = "2021-08-15",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "黑色沼澤",
+			["TargetName"] = "前大酋長握莖",
+			["Time"] = "02:52:50",
+			["ReceiveItems"] = {
+			},
+		}, -- [521]
+		{
+			["TargetName"] = "前大酋長握莖",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-08-15",
+			["ReceiveMoney"] = 0,
+			["Time"] = "02:52:50",
+			["GiveMoney"] = 300000,
+			["Location"] = "黑色沼澤",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [522]
+		{
+			["TargetName"] = "牛吳",
+			["Date"] = "2021-08-15",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "深幽泥沼",
+			["PlayerName"] = "特變電工",
+			["Time"] = "15:05:06",
+			["ReceiveItems"] = {
+			},
+		}, -- [523]
+		{
+			["TargetName"] = "牛吳",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-08-15",
+			["ReceiveMoney"] = 0,
+			["Time"] = "15:05:06",
+			["GiveMoney"] = 100000,
+			["Location"] = "深幽泥沼",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [524]
+		{
+			["TargetName"] = "烏賊是隻貓",
+			["Date"] = "2021-08-15",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "深幽泥沼",
+			["PlayerName"] = "特變電工",
+			["Time"] = "15:05:15",
+			["ReceiveItems"] = {
+			},
+		}, -- [525]
+		{
+			["TargetName"] = "烏賊是隻貓",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-08-15",
+			["ReceiveMoney"] = 0,
+			["Time"] = "15:05:15",
+			["GiveMoney"] = 100000,
+			["Location"] = "深幽泥沼",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [526]
+		{
+			["TargetName"] = "希瓦蘭轎",
+			["Date"] = "2021-08-15",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "深幽泥沼",
+			["PlayerName"] = "特變電工",
+			["Time"] = "15:05:20",
+			["ReceiveItems"] = {
+			},
+		}, -- [527]
+		{
+			["TargetName"] = "希瓦蘭轎",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-08-15",
+			["ReceiveMoney"] = 0,
+			["Time"] = "15:05:20",
+			["GiveMoney"] = 100000,
+			["Location"] = "深幽泥沼",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [528]
+		{
+			["TargetName"] = "康藏",
+			["Date"] = "2021-08-15",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "深幽泥沼",
+			["PlayerName"] = "特變電工",
+			["Time"] = "15:05:30",
+			["ReceiveItems"] = {
+			},
+		}, -- [529]
+		{
+			["TargetName"] = "康藏",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-08-15",
+			["ReceiveMoney"] = 0,
+			["Time"] = "15:05:30",
+			["GiveMoney"] = 100000,
+			["Location"] = "深幽泥沼",
 			["GiveItems"] = {
 			},
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
 		}, -- [530]
-		{
-			["Date"] = "2021-08-15",
-			["PlayerName"] = "特變電工",
-			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
-			["GiveMoney"] = 0,
-			["Location"] = "黑色沼澤",
-			["TargetName"] = "Xeqtr",
-			["Time"] = "02:52:14",
-			["ReceiveItems"] = {
-			},
-		}, -- [531]
-		{
-			["TargetName"] = "Xeqtr",
-			["PlayerName"] = "特變電工",
-			["Date"] = "2021-08-15",
-			["ReceiveMoney"] = 0,
-			["Time"] = "02:52:14",
-			["GiveMoney"] = 300000,
-			["Location"] = "黑色沼澤",
-			["GiveItems"] = {
-			},
-			["Result"] = "completed",
-			["ReceiveItems"] = {
-			},
-		}, -- [532]
-		{
-			["Date"] = "2021-08-15",
-			["PlayerName"] = "特變電工",
-			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
-			["GiveMoney"] = 0,
-			["Location"] = "黑色沼澤",
-			["TargetName"] = "貝爾那",
-			["Time"] = "02:52:23",
-			["ReceiveItems"] = {
-			},
-		}, -- [533]
-		{
-			["TargetName"] = "貝爾那",
-			["PlayerName"] = "特變電工",
-			["Date"] = "2021-08-15",
-			["ReceiveMoney"] = 0,
-			["Time"] = "02:52:23",
-			["GiveMoney"] = 300000,
-			["Location"] = "黑色沼澤",
-			["GiveItems"] = {
-			},
-			["Result"] = "completed",
-			["ReceiveItems"] = {
-			},
-		}, -- [534]
-		{
-			["Date"] = "2021-08-15",
-			["PlayerName"] = "特變電工",
-			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
-			["GiveMoney"] = 0,
-			["Location"] = "黑色沼澤",
-			["TargetName"] = "前大酋長握莖",
-			["Time"] = "02:52:50",
-			["ReceiveItems"] = {
-			},
-		}, -- [535]
-		{
-			["TargetName"] = "前大酋長握莖",
-			["PlayerName"] = "特變電工",
-			["Date"] = "2021-08-15",
-			["ReceiveMoney"] = 0,
-			["Time"] = "02:52:50",
-			["GiveMoney"] = 300000,
-			["Location"] = "黑色沼澤",
-			["GiveItems"] = {
-			},
-			["Result"] = "completed",
-			["ReceiveItems"] = {
-			},
-		}, -- [536]
-		{
-			["TargetName"] = "牛吳",
-			["Date"] = "2021-08-15",
-			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
-			["GiveMoney"] = 0,
-			["Location"] = "深幽泥沼",
-			["PlayerName"] = "特變電工",
-			["Time"] = "15:05:06",
-			["ReceiveItems"] = {
-			},
-		}, -- [537]
-		{
-			["TargetName"] = "牛吳",
-			["PlayerName"] = "特變電工",
-			["Date"] = "2021-08-15",
-			["ReceiveMoney"] = 0,
-			["Time"] = "15:05:06",
-			["GiveMoney"] = 100000,
-			["Location"] = "深幽泥沼",
-			["GiveItems"] = {
-			},
-			["Result"] = "completed",
-			["ReceiveItems"] = {
-			},
-		}, -- [538]
-		{
-			["TargetName"] = "烏賊是隻貓",
-			["Date"] = "2021-08-15",
-			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
-			["GiveMoney"] = 0,
-			["Location"] = "深幽泥沼",
-			["PlayerName"] = "特變電工",
-			["Time"] = "15:05:15",
-			["ReceiveItems"] = {
-			},
-		}, -- [539]
-		{
-			["TargetName"] = "烏賊是隻貓",
-			["PlayerName"] = "特變電工",
-			["Date"] = "2021-08-15",
-			["ReceiveMoney"] = 0,
-			["Time"] = "15:05:15",
-			["GiveMoney"] = 100000,
-			["Location"] = "深幽泥沼",
-			["GiveItems"] = {
-			},
-			["Result"] = "completed",
-			["ReceiveItems"] = {
-			},
-		}, -- [540]
-		{
-			["TargetName"] = "希瓦蘭轎",
-			["Date"] = "2021-08-15",
-			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
-			["GiveMoney"] = 0,
-			["Location"] = "深幽泥沼",
-			["PlayerName"] = "特變電工",
-			["Time"] = "15:05:20",
-			["ReceiveItems"] = {
-			},
-		}, -- [541]
-		{
-			["TargetName"] = "希瓦蘭轎",
-			["PlayerName"] = "特變電工",
-			["Date"] = "2021-08-15",
-			["ReceiveMoney"] = 0,
-			["Time"] = "15:05:20",
-			["GiveMoney"] = 100000,
-			["Location"] = "深幽泥沼",
-			["GiveItems"] = {
-			},
-			["Result"] = "completed",
-			["ReceiveItems"] = {
-			},
-		}, -- [542]
-		{
-			["TargetName"] = "康藏",
-			["Date"] = "2021-08-15",
-			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
-			["GiveMoney"] = 0,
-			["Location"] = "深幽泥沼",
-			["PlayerName"] = "特變電工",
-			["Time"] = "15:05:30",
-			["ReceiveItems"] = {
-			},
-		}, -- [543]
-		{
-			["TargetName"] = "康藏",
-			["PlayerName"] = "特變電工",
-			["Date"] = "2021-08-15",
-			["ReceiveMoney"] = 0,
-			["Time"] = "15:05:30",
-			["GiveMoney"] = 100000,
-			["Location"] = "深幽泥沼",
-			["GiveItems"] = {
-			},
-			["Result"] = "completed",
-			["ReceiveItems"] = {
-			},
-		}, -- [544]
 		{
 			["TargetName"] = "Treat",
 			["Date"] = "2021-08-15",
@@ -10610,196 +10377,196 @@ MailLoggerDB = {
 			["Time"] = "16:11:49",
 			["ReceiveItems"] = {
 			},
+		}, -- [531]
+		{
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-08-15",
+			["ReceiveMoney"] = 0,
+			["Time"] = "16:19:45",
+			["GiveMoney"] = 0,
+			["Location"] = "麥克納爾",
+			["GiveItems"] = {
+			},
+			["TargetName"] = "Whitebai",
+			["ReceiveItems"] = {
+			},
+		}, -- [532]
+		{
+			["TargetName"] = "Whitebai",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-08-15",
+			["ReceiveMoney"] = 0,
+			["Time"] = "16:19:45",
+			["GiveMoney"] = 260000,
+			["Location"] = "麥克納爾",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [533]
+		{
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-08-15",
+			["ReceiveMoney"] = 0,
+			["Time"] = "16:19:52",
+			["GiveMoney"] = 0,
+			["Location"] = "麥克納爾",
+			["GiveItems"] = {
+			},
+			["TargetName"] = "Treat",
+			["ReceiveItems"] = {
+			},
+		}, -- [534]
+		{
+			["TargetName"] = "Treat",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-08-15",
+			["ReceiveMoney"] = 0,
+			["Time"] = "16:19:52",
+			["GiveMoney"] = 260000,
+			["Location"] = "麥克納爾",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [535]
+		{
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-08-15",
+			["ReceiveMoney"] = 0,
+			["Time"] = "16:19:59",
+			["GiveMoney"] = 0,
+			["Location"] = "麥克納爾",
+			["GiveItems"] = {
+			},
+			["TargetName"] = "十五年老司機",
+			["ReceiveItems"] = {
+			},
+		}, -- [536]
+		{
+			["TargetName"] = "十五年老司機",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-08-15",
+			["ReceiveMoney"] = 0,
+			["Time"] = "16:19:59",
+			["GiveMoney"] = 260000,
+			["Location"] = "麥克納爾",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [537]
+		{
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-08-15",
+			["ReceiveMoney"] = 0,
+			["Time"] = "16:20:09",
+			["GiveMoney"] = 0,
+			["Location"] = "麥克納爾",
+			["GiveItems"] = {
+			},
+			["TargetName"] = "龍胎若系",
+			["ReceiveItems"] = {
+			},
+		}, -- [538]
+		{
+			["TargetName"] = "龍胎若系",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-08-15",
+			["ReceiveMoney"] = 0,
+			["Time"] = "16:20:09",
+			["GiveMoney"] = 260000,
+			["Location"] = "麥克納爾",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [539]
+		{
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-08-15",
+			["ReceiveMoney"] = 0,
+			["Time"] = "17:16:10",
+			["GiveMoney"] = 0,
+			["Location"] = "黑色沼澤",
+			["GiveItems"] = {
+			},
+			["TargetName"] = "國姓爺",
+			["ReceiveItems"] = {
+			},
+		}, -- [540]
+		{
+			["TargetName"] = "國姓爺",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-08-15",
+			["ReceiveMoney"] = 0,
+			["Time"] = "17:16:10",
+			["GiveMoney"] = 200000,
+			["Location"] = "黑色沼澤",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [541]
+		{
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-08-15",
+			["ReceiveMoney"] = 0,
+			["Time"] = "17:16:19",
+			["GiveMoney"] = 0,
+			["Location"] = "黑色沼澤",
+			["GiveItems"] = {
+			},
+			["TargetName"] = "正經賊",
+			["ReceiveItems"] = {
+			},
+		}, -- [542]
+		{
+			["TargetName"] = "正經賊",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-08-15",
+			["ReceiveMoney"] = 0,
+			["Time"] = "17:16:19",
+			["GiveMoney"] = 200000,
+			["Location"] = "黑色沼澤",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [543]
+		{
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-08-15",
+			["ReceiveMoney"] = 0,
+			["Time"] = "17:16:27",
+			["GiveMoney"] = 0,
+			["Location"] = "黑色沼澤",
+			["GiveItems"] = {
+			},
+			["TargetName"] = "龍之守護者",
+			["ReceiveItems"] = {
+			},
+		}, -- [544]
+		{
+			["TargetName"] = "龍之守護者",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-08-15",
+			["ReceiveMoney"] = 0,
+			["Time"] = "17:16:27",
+			["GiveMoney"] = 200000,
+			["Location"] = "黑色沼澤",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
 		}, -- [545]
-		{
-			["PlayerName"] = "特變電工",
-			["Date"] = "2021-08-15",
-			["ReceiveMoney"] = 0,
-			["Time"] = "16:19:45",
-			["GiveMoney"] = 0,
-			["Location"] = "麥克納爾",
-			["GiveItems"] = {
-			},
-			["TargetName"] = "Whitebai",
-			["ReceiveItems"] = {
-			},
-		}, -- [546]
-		{
-			["TargetName"] = "Whitebai",
-			["PlayerName"] = "特變電工",
-			["Date"] = "2021-08-15",
-			["ReceiveMoney"] = 0,
-			["Time"] = "16:19:45",
-			["GiveMoney"] = 260000,
-			["Location"] = "麥克納爾",
-			["GiveItems"] = {
-			},
-			["Result"] = "completed",
-			["ReceiveItems"] = {
-			},
-		}, -- [547]
-		{
-			["PlayerName"] = "特變電工",
-			["Date"] = "2021-08-15",
-			["ReceiveMoney"] = 0,
-			["Time"] = "16:19:52",
-			["GiveMoney"] = 0,
-			["Location"] = "麥克納爾",
-			["GiveItems"] = {
-			},
-			["TargetName"] = "Treat",
-			["ReceiveItems"] = {
-			},
-		}, -- [548]
-		{
-			["TargetName"] = "Treat",
-			["PlayerName"] = "特變電工",
-			["Date"] = "2021-08-15",
-			["ReceiveMoney"] = 0,
-			["Time"] = "16:19:52",
-			["GiveMoney"] = 260000,
-			["Location"] = "麥克納爾",
-			["GiveItems"] = {
-			},
-			["Result"] = "completed",
-			["ReceiveItems"] = {
-			},
-		}, -- [549]
-		{
-			["PlayerName"] = "特變電工",
-			["Date"] = "2021-08-15",
-			["ReceiveMoney"] = 0,
-			["Time"] = "16:19:59",
-			["GiveMoney"] = 0,
-			["Location"] = "麥克納爾",
-			["GiveItems"] = {
-			},
-			["TargetName"] = "十五年老司機",
-			["ReceiveItems"] = {
-			},
-		}, -- [550]
-		{
-			["TargetName"] = "十五年老司機",
-			["PlayerName"] = "特變電工",
-			["Date"] = "2021-08-15",
-			["ReceiveMoney"] = 0,
-			["Time"] = "16:19:59",
-			["GiveMoney"] = 260000,
-			["Location"] = "麥克納爾",
-			["GiveItems"] = {
-			},
-			["Result"] = "completed",
-			["ReceiveItems"] = {
-			},
-		}, -- [551]
-		{
-			["PlayerName"] = "特變電工",
-			["Date"] = "2021-08-15",
-			["ReceiveMoney"] = 0,
-			["Time"] = "16:20:09",
-			["GiveMoney"] = 0,
-			["Location"] = "麥克納爾",
-			["GiveItems"] = {
-			},
-			["TargetName"] = "龍胎若系",
-			["ReceiveItems"] = {
-			},
-		}, -- [552]
-		{
-			["TargetName"] = "龍胎若系",
-			["PlayerName"] = "特變電工",
-			["Date"] = "2021-08-15",
-			["ReceiveMoney"] = 0,
-			["Time"] = "16:20:09",
-			["GiveMoney"] = 260000,
-			["Location"] = "麥克納爾",
-			["GiveItems"] = {
-			},
-			["Result"] = "completed",
-			["ReceiveItems"] = {
-			},
-		}, -- [553]
-		{
-			["PlayerName"] = "特變電工",
-			["Date"] = "2021-08-15",
-			["ReceiveMoney"] = 0,
-			["Time"] = "17:16:10",
-			["GiveMoney"] = 0,
-			["Location"] = "黑色沼澤",
-			["GiveItems"] = {
-			},
-			["TargetName"] = "國姓爺",
-			["ReceiveItems"] = {
-			},
-		}, -- [554]
-		{
-			["TargetName"] = "國姓爺",
-			["PlayerName"] = "特變電工",
-			["Date"] = "2021-08-15",
-			["ReceiveMoney"] = 0,
-			["Time"] = "17:16:10",
-			["GiveMoney"] = 200000,
-			["Location"] = "黑色沼澤",
-			["GiveItems"] = {
-			},
-			["Result"] = "completed",
-			["ReceiveItems"] = {
-			},
-		}, -- [555]
-		{
-			["PlayerName"] = "特變電工",
-			["Date"] = "2021-08-15",
-			["ReceiveMoney"] = 0,
-			["Time"] = "17:16:19",
-			["GiveMoney"] = 0,
-			["Location"] = "黑色沼澤",
-			["GiveItems"] = {
-			},
-			["TargetName"] = "正經賊",
-			["ReceiveItems"] = {
-			},
-		}, -- [556]
-		{
-			["TargetName"] = "正經賊",
-			["PlayerName"] = "特變電工",
-			["Date"] = "2021-08-15",
-			["ReceiveMoney"] = 0,
-			["Time"] = "17:16:19",
-			["GiveMoney"] = 200000,
-			["Location"] = "黑色沼澤",
-			["GiveItems"] = {
-			},
-			["Result"] = "completed",
-			["ReceiveItems"] = {
-			},
-		}, -- [557]
-		{
-			["PlayerName"] = "特變電工",
-			["Date"] = "2021-08-15",
-			["ReceiveMoney"] = 0,
-			["Time"] = "17:16:27",
-			["GiveMoney"] = 0,
-			["Location"] = "黑色沼澤",
-			["GiveItems"] = {
-			},
-			["TargetName"] = "龍之守護者",
-			["ReceiveItems"] = {
-			},
-		}, -- [558]
-		{
-			["TargetName"] = "龍之守護者",
-			["PlayerName"] = "特變電工",
-			["Date"] = "2021-08-15",
-			["ReceiveMoney"] = 0,
-			["Time"] = "17:16:27",
-			["GiveMoney"] = 200000,
-			["Location"] = "黑色沼澤",
-			["GiveItems"] = {
-			},
-			["Result"] = "completed",
-			["ReceiveItems"] = {
-			},
-		}, -- [559]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-08-15",
@@ -10812,7 +10579,7 @@ MailLoggerDB = {
 			["TargetName"] = "龍之守護者",
 			["ReceiveItems"] = {
 			},
-		}, -- [560]
+		}, -- [546]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-08-15",
@@ -10825,7 +10592,7 @@ MailLoggerDB = {
 			["TargetName"] = "龍之守護者",
 			["ReceiveItems"] = {
 			},
-		}, -- [561]
+		}, -- [547]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-08-15",
@@ -10838,7 +10605,7 @@ MailLoggerDB = {
 			["TargetName"] = "瘦術士",
 			["ReceiveItems"] = {
 			},
-		}, -- [562]
+		}, -- [548]
 		{
 			["TargetName"] = "瘦術士",
 			["PlayerName"] = "特變電工",
@@ -10852,7 +10619,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [563]
+		}, -- [549]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "龍之守護者",
@@ -10865,7 +10632,7 @@ MailLoggerDB = {
 			["Time"] = "17:26:02",
 			["ReceiveItems"] = {
 			},
-		}, -- [564]
+		}, -- [550]
 		{
 			["TargetName"] = "龍之守護者",
 			["PlayerName"] = "特變電工",
@@ -10879,7 +10646,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [565]
+		}, -- [551]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "正經賊",
@@ -10892,7 +10659,7 @@ MailLoggerDB = {
 			["Time"] = "17:26:08",
 			["ReceiveItems"] = {
 			},
-		}, -- [566]
+		}, -- [552]
 		{
 			["TargetName"] = "正經賊",
 			["PlayerName"] = "特變電工",
@@ -10906,7 +10673,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [567]
+		}, -- [553]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "國姓爺",
@@ -10919,7 +10686,7 @@ MailLoggerDB = {
 			["Time"] = "17:26:16",
 			["ReceiveItems"] = {
 			},
-		}, -- [568]
+		}, -- [554]
 		{
 			["TargetName"] = "國姓爺",
 			["PlayerName"] = "特變電工",
@@ -10933,7 +10700,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [569]
+		}, -- [555]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "瘦術士",
@@ -10946,7 +10713,7 @@ MailLoggerDB = {
 			["Time"] = "17:27:05",
 			["ReceiveItems"] = {
 			},
-		}, -- [570]
+		}, -- [556]
 		{
 			["TargetName"] = "瘦術士",
 			["PlayerName"] = "特變電工",
@@ -10960,7 +10727,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [571]
+		}, -- [557]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -10999,18 +10766,18 @@ MailLoggerDB = {
 					["ItemLink"] = "|cff1eff00|Hitem:23449::::::::70::::::::|h[克銀錠]|h|r",
 					["Name"] = "克銀錠",
 				},
-				[63] = {
-					["Number"] = 14,
-					["ItemLink"] = "|cff1eff00|Hitem:29740::::::::70::::::::|h[魔化武器]|h|r",
-					["Name"] = "魔化武器",
-				},
 				[30] = {
 					["Number"] = 38,
 					["ItemLink"] = "|cff1eff00|Hitem:21884::::::::70::::::::|h[原始之火]|h|r",
 					["Name"] = "原始之火",
 				},
+				[63] = {
+					["Number"] = 14,
+					["ItemLink"] = "|cff1eff00|Hitem:29740::::::::70::::::::|h[魔化武器]|h|r",
+					["Name"] = "魔化武器",
+				},
 			},
-		}, -- [572]
+		}, -- [558]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -11040,7 +10807,7 @@ MailLoggerDB = {
 					["Name"] = "大塊稜石裂片",
 				},
 			},
-		}, -- [573]
+		}, -- [559]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -11065,7 +10832,7 @@ MailLoggerDB = {
 					["Name"] = "光滑的黎明石",
 				}, -- [2]
 			},
-		}, -- [574]
+		}, -- [560]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "老闆挺住",
@@ -11085,7 +10852,7 @@ MailLoggerDB = {
 					["Name"] = "蛤蜊條",
 				}, -- [1]
 			},
-		}, -- [575]
+		}, -- [561]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "在座的各位",
@@ -11098,7 +10865,7 @@ MailLoggerDB = {
 			["Time"] = "18:45:56",
 			["ReceiveItems"] = {
 			},
-		}, -- [576]
+		}, -- [562]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -11118,7 +10885,7 @@ MailLoggerDB = {
 					["Name"] = "大塊稜石裂片",
 				}, -- [1]
 			},
-		}, -- [577]
+		}, -- [563]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "在座的各位",
@@ -11131,7 +10898,7 @@ MailLoggerDB = {
 			["Time"] = "18:46:17",
 			["ReceiveItems"] = {
 			},
-		}, -- [578]
+		}, -- [564]
 		{
 			["TargetName"] = "在座的各位",
 			["PlayerName"] = "特變電工",
@@ -11155,7 +10922,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [579]
+		}, -- [565]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "在座的各位",
@@ -11168,7 +10935,7 @@ MailLoggerDB = {
 			["Time"] = "18:46:30",
 			["ReceiveItems"] = {
 			},
-		}, -- [580]
+		}, -- [566]
 		{
 			["TargetName"] = "在座的各位",
 			["PlayerName"] = "特變電工",
@@ -11188,7 +10955,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [581]
+		}, -- [567]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "希爾德烈日",
@@ -11201,7 +10968,7 @@ MailLoggerDB = {
 			["Time"] = "18:56:52",
 			["ReceiveItems"] = {
 			},
-		}, -- [582]
+		}, -- [568]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "希爾德烈日",
@@ -11214,7 +10981,7 @@ MailLoggerDB = {
 			["Time"] = "18:57:16",
 			["ReceiveItems"] = {
 			},
-		}, -- [583]
+		}, -- [569]
 		{
 			["TargetName"] = "希爾德烈日",
 			["PlayerName"] = "特變電工",
@@ -11248,7 +11015,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [584]
+		}, -- [570]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "希爾德烈日",
@@ -11261,7 +11028,7 @@ MailLoggerDB = {
 			["Time"] = "18:57:33",
 			["ReceiveItems"] = {
 			},
-		}, -- [585]
+		}, -- [571]
 		{
 			["TargetName"] = "希爾德烈日",
 			["PlayerName"] = "特變電工",
@@ -11281,7 +11048,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [586]
+		}, -- [572]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "希爾德烈日",
@@ -11294,7 +11061,7 @@ MailLoggerDB = {
 			["Time"] = "19:01:21",
 			["ReceiveItems"] = {
 			},
-		}, -- [587]
+		}, -- [573]
 		{
 			["TargetName"] = "希爾德烈日",
 			["PlayerName"] = "特變電工",
@@ -11323,7 +11090,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [588]
+		}, -- [574]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "希爾德烈日",
@@ -11336,7 +11103,7 @@ MailLoggerDB = {
 			["Time"] = "19:01:51",
 			["ReceiveItems"] = {
 			},
-		}, -- [589]
+		}, -- [575]
 		{
 			["TargetName"] = "希爾德烈日",
 			["PlayerName"] = "特變電工",
@@ -11356,7 +11123,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [590]
+		}, -- [576]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -11376,7 +11143,7 @@ MailLoggerDB = {
 					["Name"] = "原始法力",
 				}, -- [1]
 			},
-		}, -- [591]
+		}, -- [577]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -11396,7 +11163,7 @@ MailLoggerDB = {
 					["Name"] = "原始空氣",
 				}, -- [1]
 			},
-		}, -- [592]
+		}, -- [578]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "你好哇範範",
@@ -11409,7 +11176,7 @@ MailLoggerDB = {
 			["Time"] = "19:04:47",
 			["ReceiveItems"] = {
 			},
-		}, -- [593]
+		}, -- [579]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "你好哇範範",
@@ -11422,7 +11189,7 @@ MailLoggerDB = {
 			["Time"] = "19:04:59",
 			["ReceiveItems"] = {
 			},
-		}, -- [594]
+		}, -- [580]
 		{
 			["TargetName"] = "你好哇範範",
 			["PlayerName"] = "特變電工",
@@ -11451,7 +11218,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [595]
+		}, -- [581]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "你好哇範範",
@@ -11464,7 +11231,7 @@ MailLoggerDB = {
 			["Time"] = "19:05:09",
 			["ReceiveItems"] = {
 			},
-		}, -- [596]
+		}, -- [582]
 		{
 			["TargetName"] = "你好哇範範",
 			["PlayerName"] = "特變電工",
@@ -11484,7 +11251,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [597]
+		}, -- [583]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "月巴豸苗",
@@ -11497,7 +11264,7 @@ MailLoggerDB = {
 			["Time"] = "21:45:36",
 			["ReceiveItems"] = {
 			},
-		}, -- [598]
+		}, -- [584]
 		{
 			["TargetName"] = "月巴豸苗",
 			["PlayerName"] = "特變電工",
@@ -11511,7 +11278,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [599]
+		}, -- [585]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "Faddedflower",
@@ -11524,7 +11291,7 @@ MailLoggerDB = {
 			["Time"] = "21:48:25",
 			["ReceiveItems"] = {
 			},
-		}, -- [600]
+		}, -- [586]
 		{
 			["TargetName"] = "Faddedflower",
 			["PlayerName"] = "特變電工",
@@ -11538,7 +11305,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [601]
+		}, -- [587]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -11558,7 +11325,7 @@ MailLoggerDB = {
 					["Name"] = "眼鏡蛇皮護腿片",
 				}, -- [1]
 			},
-		}, -- [602]
+		}, -- [588]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -11573,7 +11340,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [603]
+		}, -- [589]
 		{
 			["Date"] = "2021-08-17",
 			["TargetName"] = "速嵐轎",
@@ -11586,7 +11353,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [604]
+		}, -- [590]
 		{
 			["TargetName"] = "速嵐轎",
 			["PlayerName"] = "特變電工",
@@ -11605,7 +11372,7 @@ MailLoggerDB = {
 					["Name"] = "不撓的赤紅束腰",
 				}, -- [1]
 			},
-		}, -- [605]
+		}, -- [591]
 		{
 			["Date"] = "2021-08-17",
 			["TargetName"] = "速嵐轎",
@@ -11618,7 +11385,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [606]
+		}, -- [592]
 		{
 			["TargetName"] = "速嵐轎",
 			["PlayerName"] = "特變電工",
@@ -11637,7 +11404,7 @@ MailLoggerDB = {
 					["Name"] = "潘札薩爾胸甲",
 				}, -- [1]
 			},
-		}, -- [607]
+		}, -- [593]
 		{
 			["Date"] = "2021-08-17",
 			["TargetName"] = "速嵐轎",
@@ -11650,7 +11417,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [608]
+		}, -- [594]
 		{
 			["TargetName"] = "速嵐轎",
 			["PlayerName"] = "特變電工",
@@ -11669,7 +11436,7 @@ MailLoggerDB = {
 					["Name"] = "逝往防衛者手套",
 				}, -- [1]
 			},
-		}, -- [609]
+		}, -- [595]
 		{
 			["Date"] = "2021-08-17",
 			["TargetName"] = "強運魔人",
@@ -11682,7 +11449,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [610]
+		}, -- [596]
 		{
 			["TargetName"] = "強運魔人",
 			["PlayerName"] = "特變電工",
@@ -11701,7 +11468,7 @@ MailLoggerDB = {
 					["Name"] = "山脈之王傳說",
 				},
 			},
-		}, -- [611]
+		}, -- [597]
 		{
 			["Date"] = "2021-08-17",
 			["TargetName"] = "速嵐轎",
@@ -11714,7 +11481,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [612]
+		}, -- [598]
 		{
 			["TargetName"] = "速嵐轎",
 			["PlayerName"] = "特變電工",
@@ -11733,7 +11500,7 @@ MailLoggerDB = {
 					["Name"] = "無情刀刃肩墊",
 				}, -- [1]
 			},
-		}, -- [613]
+		}, -- [599]
 		{
 			["Date"] = "2021-08-17",
 			["TargetName"] = "牧原股份",
@@ -11746,7 +11513,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [614]
+		}, -- [600]
 		{
 			["Date"] = "2021-08-17",
 			["TargetName"] = "速嵐轎",
@@ -11759,7 +11526,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [615]
+		}, -- [601]
 		{
 			["TargetName"] = "速嵐轎",
 			["PlayerName"] = "特變電工",
@@ -11783,7 +11550,7 @@ MailLoggerDB = {
 					["Name"] = "虛無水晶",
 				}, -- [2]
 			},
-		}, -- [616]
+		}, -- [602]
 		{
 			["Date"] = "2021-08-17",
 			["TargetName"] = "紅麗幻法",
@@ -11796,7 +11563,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [617]
+		}, -- [603]
 		{
 			["TargetName"] = "紅麗幻法",
 			["PlayerName"] = "特變電工",
@@ -11820,7 +11587,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [618]
+		}, -- [604]
 		{
 			["Date"] = "2021-08-17",
 			["TargetName"] = "速嵐轎",
@@ -11833,7 +11600,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [619]
+		}, -- [605]
 		{
 			["TargetName"] = "速嵐轎",
 			["PlayerName"] = "特變電工",
@@ -11847,7 +11614,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [620]
+		}, -- [606]
 		{
 			["Date"] = "2021-08-17",
 			["TargetName"] = "牧原股份",
@@ -11860,7 +11627,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [621]
+		}, -- [607]
 		{
 			["TargetName"] = "牧原股份",
 			["PlayerName"] = "特變電工",
@@ -11874,7 +11641,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [622]
+		}, -- [608]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -11899,7 +11666,7 @@ MailLoggerDB = {
 					["Name"] = "虛空裂蹄護腿片",
 				},
 			},
-		}, -- [623]
+		}, -- [609]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "畜生犬隊長",
@@ -11947,7 +11714,7 @@ MailLoggerDB = {
 					["Name"] = "幽紋布",
 				}, -- [9]
 			},
-		}, -- [624]
+		}, -- [610]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -11967,7 +11734,7 @@ MailLoggerDB = {
 					["Name"] = "強力的大地風暴鑽石",
 				}, -- [1]
 			},
-		}, -- [625]
+		}, -- [611]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -12002,7 +11769,7 @@ MailLoggerDB = {
 					["Name"] = "大塊稜石裂片",
 				},
 			},
-		}, -- [626]
+		}, -- [612]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "畜生犬隊長",
@@ -12033,7 +11800,7 @@ MailLoggerDB = {
 					["Name"] = "原始生命",
 				}, -- [4]
 			},
-		}, -- [627]
+		}, -- [613]
 		{
 			["Date"] = "2021-08-17",
 			["PlayerName"] = "特變電工",
@@ -12046,7 +11813,7 @@ MailLoggerDB = {
 			["Time"] = "23:20:47",
 			["ReceiveItems"] = {
 			},
-		}, -- [628]
+		}, -- [614]
 		{
 			["TargetName"] = "卡道圖騰",
 			["PlayerName"] = "特變電工",
@@ -12085,7 +11852,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [629]
+		}, -- [615]
 		{
 			["Date"] = "2021-08-17",
 			["PlayerName"] = "特變電工",
@@ -12098,7 +11865,7 @@ MailLoggerDB = {
 			["Time"] = "23:21:13",
 			["ReceiveItems"] = {
 			},
-		}, -- [630]
+		}, -- [616]
 		{
 			["TargetName"] = "卡道圖騰",
 			["PlayerName"] = "特變電工",
@@ -12117,7 +11884,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [631]
+		}, -- [617]
 		{
 			["Date"] = "2021-08-17",
 			["PlayerName"] = "特變電工",
@@ -12130,7 +11897,7 @@ MailLoggerDB = {
 			["Time"] = "23:21:44",
 			["ReceiveItems"] = {
 			},
-		}, -- [632]
+		}, -- [618]
 		{
 			["TargetName"] = "卡道圖騰",
 			["PlayerName"] = "特變電工",
@@ -12150,7 +11917,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [633]
+		}, -- [619]
 		{
 			["Date"] = "2021-08-17",
 			["PlayerName"] = "特變電工",
@@ -12163,7 +11930,7 @@ MailLoggerDB = {
 			["Time"] = "23:22:01",
 			["ReceiveItems"] = {
 			},
-		}, -- [634]
+		}, -- [620]
 		{
 			["TargetName"] = "卡道圖騰",
 			["PlayerName"] = "特變電工",
@@ -12183,7 +11950,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [635]
+		}, -- [621]
 		{
 			["Date"] = "2021-08-17",
 			["PlayerName"] = "特變電工",
@@ -12196,7 +11963,7 @@ MailLoggerDB = {
 			["Time"] = "23:22:17",
 			["ReceiveItems"] = {
 			},
-		}, -- [636]
+		}, -- [622]
 		{
 			["TargetName"] = "卡道圖騰",
 			["PlayerName"] = "特變電工",
@@ -12220,7 +11987,7 @@ MailLoggerDB = {
 					["Name"] = "大塊稜石裂片",
 				}, -- [2]
 			},
-		}, -- [637]
+		}, -- [623]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -12245,7 +12012,7 @@ MailLoggerDB = {
 					["Name"] = "光滑的黎明石",
 				},
 			},
-		}, -- [638]
+		}, -- [624]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "畜生犬隊長",
@@ -12340,7 +12107,7 @@ MailLoggerDB = {
 					["Name"] = "幽紋布",
 				}, -- [16]
 			},
-		}, -- [639]
+		}, -- [625]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -12355,7 +12122,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [640]
+		}, -- [626]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "畜生犬隊長",
@@ -12391,7 +12158,7 @@ MailLoggerDB = {
 					["Name"] = "水源微粒",
 				}, -- [5]
 			},
-		}, -- [641]
+		}, -- [627]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -12411,7 +12178,7 @@ MailLoggerDB = {
 					["Name"] = "角瓶虛空噴劑",
 				}, -- [1]
 			},
-		}, -- [642]
+		}, -- [628]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "畜生犬隊長",
@@ -12436,7 +12203,7 @@ MailLoggerDB = {
 					["Name"] = "幽紋布",
 				},
 			},
-		}, -- [643]
+		}, -- [629]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "畜生犬隊長",
@@ -12461,7 +12228,7 @@ MailLoggerDB = {
 					["Name"] = "幽紋布",
 				},
 			},
-		}, -- [644]
+		}, -- [630]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -12481,7 +12248,7 @@ MailLoggerDB = {
 					["Name"] = "魔鋼頭盔",
 				}, -- [1]
 			},
-		}, -- [645]
+		}, -- [631]
 		{
 			["Date"] = "2021-08-18",
 			["PlayerName"] = "特變電工",
@@ -12494,7 +12261,7 @@ MailLoggerDB = {
 			["Time"] = "23:21:49",
 			["ReceiveItems"] = {
 			},
-		}, -- [646]
+		}, -- [632]
 		{
 			["TargetName"] = "牧原股份",
 			["PlayerName"] = "特變電工",
@@ -12508,7 +12275,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [647]
+		}, -- [633]
 		{
 			["TargetName"] = "花無殤",
 			["PlayerName"] = "特變電工",
@@ -12521,7 +12288,7 @@ MailLoggerDB = {
 			["Date"] = "2021-08-19",
 			["ReceiveItems"] = {
 			},
-		}, -- [648]
+		}, -- [634]
 		{
 			["TargetName"] = "花無殤",
 			["PlayerName"] = "特變電工",
@@ -12535,7 +12302,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [649]
+		}, -- [635]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "牧原股份",
@@ -12550,7 +12317,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [650]
+		}, -- [636]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -12575,7 +12342,7 @@ MailLoggerDB = {
 					["Name"] = "水源微粒",
 				}, -- [2]
 			},
-		}, -- [651]
+		}, -- [637]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "畜生犬隊長",
@@ -12735,7 +12502,7 @@ MailLoggerDB = {
 					["Name"] = "空氣微粒",
 				}, -- [29]
 			},
-		}, -- [652]
+		}, -- [638]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -12755,7 +12522,7 @@ MailLoggerDB = {
 					["Name"] = "魔鋼頭盔",
 				}, -- [1]
 			},
-		}, -- [653]
+		}, -- [639]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -12770,7 +12537,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [654]
+		}, -- [640]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -12820,7 +12587,7 @@ MailLoggerDB = {
 					["Name"] = "山地腰帶",
 				},
 			},
-		}, -- [655]
+		}, -- [641]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -12840,7 +12607,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [656]
+		}, -- [642]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -12883,7 +12650,7 @@ MailLoggerDB = {
 					["Name"] = "陽春鯉魚",
 				}, -- [8]
 			},
-		}, -- [657]
+		}, -- [643]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -12970,7 +12737,7 @@ MailLoggerDB = {
 					["Name"] = "智力之珠串裹衣",
 				},
 			},
-		}, -- [658]
+		}, -- [644]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -12990,7 +12757,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [659]
+		}, -- [645]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -13043,7 +12810,7 @@ MailLoggerDB = {
 					["Name"] = "銘文皮便褲",
 				},
 			},
-		}, -- [660]
+		}, -- [646]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -13058,7 +12825,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [661]
+		}, -- [647]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -13123,7 +12890,7 @@ MailLoggerDB = {
 					["Name"] = "山地護肩",
 				},
 			},
-		}, -- [662]
+		}, -- [648]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -13143,7 +12910,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [663]
+		}, -- [649]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -13188,7 +12955,7 @@ MailLoggerDB = {
 					["Name"] = "自然懲戒之軍官戰錘",
 				},
 			},
-		}, -- [664]
+		}, -- [650]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -13213,7 +12980,7 @@ MailLoggerDB = {
 					["Name"] = "閃耀魔杖",
 				},
 			},
-		}, -- [665]
+		}, -- [651]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -13228,7 +12995,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [666]
+		}, -- [652]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -13258,7 +13025,7 @@ MailLoggerDB = {
 					["Name"] = "巨鯨之野性護腿",
 				},
 			},
-		}, -- [667]
+		}, -- [653]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -13273,7 +13040,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [668]
+		}, -- [654]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -13288,7 +13055,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [669]
+		}, -- [655]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -13338,7 +13105,7 @@ MailLoggerDB = {
 					["Name"] = "強效魔法精華",
 				},
 			},
-		}, -- [670]
+		}, -- [656]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -13358,7 +13125,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [671]
+		}, -- [657]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -13378,7 +13145,7 @@ MailLoggerDB = {
 					["Name"] = "原始空氣",
 				}, -- [1]
 			},
-		}, -- [672]
+		}, -- [658]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "畜生犬隊長",
@@ -13423,7 +13190,7 @@ MailLoggerDB = {
 					["Name"] = "",
 				},
 			},
-		}, -- [673]
+		}, -- [659]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -13459,7 +13226,7 @@ MailLoggerDB = {
 					["Name"] = "巨鯨之鋒利的重劍",
 				},
 			},
-		}, -- [674]
+		}, -- [660]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "畜生犬隊長",
@@ -13509,7 +13276,7 @@ MailLoggerDB = {
 					["Name"] = "煙燻塔巴克鹿肉",
 				},
 			},
-		}, -- [675]
+		}, -- [661]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -13529,7 +13296,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [676]
+		}, -- [662]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -13544,7 +13311,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [677]
+		}, -- [663]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -13579,7 +13346,7 @@ MailLoggerDB = {
 					["Name"] = "野熊之蠻兵裹足",
 				},
 			},
-		}, -- [678]
+		}, -- [664]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -13599,7 +13366,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [679]
+		}, -- [665]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -13619,7 +13386,7 @@ MailLoggerDB = {
 					["Name"] = "銀棒",
 				}, -- [1]
 			},
-		}, -- [680]
+		}, -- [666]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -13634,7 +13401,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [681]
+		}, -- [667]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -13689,7 +13456,7 @@ MailLoggerDB = {
 					["Name"] = "軍用鎖甲肩甲",
 				},
 			},
-		}, -- [682]
+		}, -- [668]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -13709,7 +13476,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [683]
+		}, -- [669]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -13772,7 +13539,7 @@ MailLoggerDB = {
 					["Name"] = "迅猛龍皮腰帶",
 				},
 			},
-		}, -- [684]
+		}, -- [670]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -13787,7 +13554,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [685]
+		}, -- [671]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -13822,7 +13589,7 @@ MailLoggerDB = {
 					["Name"] = "金棒",
 				},
 			},
-		}, -- [686]
+		}, -- [672]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -13837,7 +13604,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [687]
+		}, -- [673]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -13873,7 +13640,7 @@ MailLoggerDB = {
 					["Name"] = "碧藍絲質披風",
 				},
 			},
-		}, -- [688]
+		}, -- [674]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -13893,7 +13660,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [689]
+		}, -- [675]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -13908,7 +13675,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [690]
+		}, -- [676]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -13928,7 +13695,7 @@ MailLoggerDB = {
 					["Name"] = "強效秘法精華",
 				}, -- [1]
 			},
-		}, -- [691]
+		}, -- [677]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -13943,7 +13710,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [692]
+		}, -- [678]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -13958,7 +13725,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [693]
+		}, -- [679]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -13978,7 +13745,7 @@ MailLoggerDB = {
 					["Name"] = "元素火焰",
 				}, -- [1]
 			},
-		}, -- [694]
+		}, -- [680]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -13998,7 +13765,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [695]
+		}, -- [681]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -14018,7 +13785,7 @@ MailLoggerDB = {
 					["Name"] = "手工皮披風",
 				}, -- [1]
 			},
-		}, -- [696]
+		}, -- [682]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -14038,7 +13805,7 @@ MailLoggerDB = {
 					["Name"] = "幻象之塵",
 				}, -- [1]
 			},
-		}, -- [697]
+		}, -- [683]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -14053,7 +13820,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [698]
+		}, -- [684]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -14084,7 +13851,7 @@ MailLoggerDB = {
 					["Name"] = "黑珍珠",
 				}, -- [4]
 			},
-		}, -- [699]
+		}, -- [685]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -14099,7 +13866,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [700]
+		}, -- [686]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -14114,7 +13881,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [701]
+		}, -- [687]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -14134,7 +13901,7 @@ MailLoggerDB = {
 					["Name"] = "沉重的石頭",
 				}, -- [1]
 			},
-		}, -- [702]
+		}, -- [688]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -14149,7 +13916,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [703]
+		}, -- [689]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -14169,7 +13936,7 @@ MailLoggerDB = {
 					["Name"] = "幻象之塵",
 				}, -- [1]
 			},
-		}, -- [704]
+		}, -- [690]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -14189,7 +13956,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [705]
+		}, -- [691]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -14214,7 +13981,7 @@ MailLoggerDB = {
 					["Name"] = "夢境之塵",
 				},
 			},
-		}, -- [706]
+		}, -- [692]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -14234,7 +14001,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [707]
+		}, -- [693]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -14254,7 +14021,7 @@ MailLoggerDB = {
 					["Name"] = "強效不滅精華",
 				}, -- [1]
 			},
-		}, -- [708]
+		}, -- [694]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -14274,7 +14041,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [709]
+		}, -- [695]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -14289,7 +14056,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [710]
+		}, -- [696]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -14309,7 +14076,7 @@ MailLoggerDB = {
 					["Name"] = "黑色甲殼盾",
 				}, -- [1]
 			},
-		}, -- [711]
+		}, -- [697]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -14329,7 +14096,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [712]
+		}, -- [698]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -14349,7 +14116,7 @@ MailLoggerDB = {
 					["Name"] = "夢境之塵",
 				}, -- [1]
 			},
-		}, -- [713]
+		}, -- [699]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -14369,7 +14136,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [714]
+		}, -- [700]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -14389,7 +14156,7 @@ MailLoggerDB = {
 					["Name"] = "夢境之塵",
 				}, -- [1]
 			},
-		}, -- [715]
+		}, -- [701]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -14404,7 +14171,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [716]
+		}, -- [702]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -14434,7 +14201,7 @@ MailLoggerDB = {
 					["Name"] = "符文皮甲護手",
 				},
 			},
-		}, -- [717]
+		}, -- [703]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -14454,7 +14221,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [718]
+		}, -- [704]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -14474,7 +14241,7 @@ MailLoggerDB = {
 					["Name"] = "夢境之塵",
 				}, -- [1]
 			},
-		}, -- [719]
+		}, -- [705]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -14489,7 +14256,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [720]
+		}, -- [706]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -14509,7 +14276,7 @@ MailLoggerDB = {
 					["Name"] = "強效異界精華",
 				}, -- [1]
 			},
-		}, -- [721]
+		}, -- [707]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -14529,7 +14296,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [722]
+		}, -- [708]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -14549,7 +14316,7 @@ MailLoggerDB = {
 					["Name"] = "幻影之塵",
 				}, -- [1]
 			},
-		}, -- [723]
+		}, -- [709]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -14569,7 +14336,7 @@ MailLoggerDB = {
 					["Name"] = "自然懲戒之狡詐外衣",
 				}, -- [1]
 			},
-		}, -- [724]
+		}, -- [710]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -14589,7 +14356,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [725]
+		}, -- [711]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -14614,7 +14381,7 @@ MailLoggerDB = {
 					["Name"] = "耐力之追蹤者腕甲",
 				},
 			},
-		}, -- [726]
+		}, -- [712]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -14634,7 +14401,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [727]
+		}, -- [713]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -14654,7 +14421,7 @@ MailLoggerDB = {
 					["Name"] = "原始空氣",
 				}, -- [1]
 			},
-		}, -- [728]
+		}, -- [714]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -14674,7 +14441,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [729]
+		}, -- [715]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -14699,7 +14466,7 @@ MailLoggerDB = {
 					["Name"] = "公式:符文奧金棒",
 				},
 			},
-		}, -- [730]
+		}, -- [716]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -14719,7 +14486,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [731]
+		}, -- [717]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -14744,7 +14511,7 @@ MailLoggerDB = {
 					["Name"] = "奧金錠",
 				},
 			},
-		}, -- [732]
+		}, -- [718]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -14759,7 +14526,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [733]
+		}, -- [719]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -14784,7 +14551,7 @@ MailLoggerDB = {
 					["Name"] = "金珍珠",
 				},
 			},
-		}, -- [734]
+		}, -- [720]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -14799,7 +14566,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [735]
+		}, -- [721]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -14819,7 +14586,7 @@ MailLoggerDB = {
 					["Name"] = "大塊魔光裂片",
 				}, -- [1]
 			},
-		}, -- [736]
+		}, -- [722]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -14839,7 +14606,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [737]
+		}, -- [723]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -14859,7 +14626,7 @@ MailLoggerDB = {
 					["Name"] = "強效異界精華",
 				}, -- [1]
 			},
-		}, -- [738]
+		}, -- [724]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -14874,7 +14641,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [739]
+		}, -- [725]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -14899,7 +14666,7 @@ MailLoggerDB = {
 					["Name"] = "堅鋼錠",
 				},
 			},
-		}, -- [740]
+		}, -- [726]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -14919,7 +14686,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [741]
+		}, -- [727]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -14950,7 +14717,7 @@ MailLoggerDB = {
 					["Name"] = "公式:附魔盾牌 - 智力",
 				}, -- [4]
 			},
-		}, -- [742]
+		}, -- [728]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -14970,7 +14737,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [743]
+		}, -- [729]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -14985,7 +14752,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [744]
+		}, -- [730]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -15000,7 +14767,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [745]
+		}, -- [731]
 		{
 			["TargetName"] = "你好給虧嗎",
 			["Date"] = "2021-08-22",
@@ -15013,7 +14780,7 @@ MailLoggerDB = {
 			["Time"] = "13:48:04",
 			["ReceiveItems"] = {
 			},
-		}, -- [746]
+		}, -- [732]
 		{
 			["TargetName"] = "你好給虧嗎",
 			["PlayerName"] = "特變電工",
@@ -15032,7 +14799,7 @@ MailLoggerDB = {
 					["Name"] = "魔塵",
 				}, -- [1]
 			},
-		}, -- [747]
+		}, -- [733]
 		{
 			["TargetName"] = "你好給虧嗎",
 			["Date"] = "2021-08-22",
@@ -15045,7 +14812,7 @@ MailLoggerDB = {
 			["Time"] = "13:48:11",
 			["ReceiveItems"] = {
 			},
-		}, -- [748]
+		}, -- [734]
 		{
 			["TargetName"] = "你好給虧嗎",
 			["PlayerName"] = "特變電工",
@@ -15065,7 +14832,7 @@ MailLoggerDB = {
 					["Name"] = "深沉黑暗之盾",
 				},
 			},
-		}, -- [749]
+		}, -- [735]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "畜生犬隊長",
@@ -15090,7 +14857,7 @@ MailLoggerDB = {
 					["Name"] = "極效治療藥水",
 				}, -- [2]
 			},
-		}, -- [750]
+		}, -- [736]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -15105,7 +14872,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [751]
+		}, -- [737]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -15125,7 +14892,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [752]
+		}, -- [738]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -15145,7 +14912,7 @@ MailLoggerDB = {
 					["Name"] = "幽紋布",
 				}, -- [1]
 			},
-		}, -- [753]
+		}, -- [739]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -15170,7 +14937,7 @@ MailLoggerDB = {
 					["Name"] = "光滑的黎明石",
 				}, -- [2]
 			},
-		}, -- [754]
+		}, -- [740]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -15190,7 +14957,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [755]
+		}, -- [741]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -15210,7 +14977,7 @@ MailLoggerDB = {
 					["Name"] = "堅固的砂輪",
 				}, -- [1]
 			},
-		}, -- [756]
+		}, -- [742]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -15225,7 +14992,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [757]
+		}, -- [743]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -15245,7 +15012,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [758]
+		}, -- [744]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -15280,7 +15047,7 @@ MailLoggerDB = {
 					["Name"] = "法力微粒",
 				},
 			},
-		}, -- [759]
+		}, -- [745]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -15295,7 +15062,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [760]
+		}, -- [746]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -15320,7 +15087,7 @@ MailLoggerDB = {
 					["Name"] = "公式:大塊稜石裂片",
 				}, -- [2]
 			},
-		}, -- [761]
+		}, -- [747]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -15340,7 +15107,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [762]
+		}, -- [748]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -15355,7 +15122,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [763]
+		}, -- [749]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-08-22",
@@ -15368,7 +15135,7 @@ MailLoggerDB = {
 			["TargetName"] = "埃斯特拉達",
 			["ReceiveItems"] = {
 			},
-		}, -- [764]
+		}, -- [750]
 		{
 			["TargetName"] = "埃斯特拉達",
 			["PlayerName"] = "特變電工",
@@ -15397,7 +15164,7 @@ MailLoggerDB = {
 					["Name"] = "原始大地",
 				}, -- [3]
 			},
-		}, -- [765]
+		}, -- [751]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-08-22",
@@ -15410,7 +15177,7 @@ MailLoggerDB = {
 			["TargetName"] = "埃斯特拉達",
 			["ReceiveItems"] = {
 			},
-		}, -- [766]
+		}, -- [752]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-08-22",
@@ -15423,7 +15190,7 @@ MailLoggerDB = {
 			["TargetName"] = "埃斯特拉達",
 			["ReceiveItems"] = {
 			},
-		}, -- [767]
+		}, -- [753]
 		{
 			["TargetName"] = "埃斯特拉達",
 			["PlayerName"] = "特變電工",
@@ -15443,7 +15210,7 @@ MailLoggerDB = {
 					["Name"] = "悍勇白金盾牌",
 				},
 			},
-		}, -- [768]
+		}, -- [754]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -15478,7 +15245,7 @@ MailLoggerDB = {
 					["Name"] = "奇異之塵",
 				},
 			},
-		}, -- [769]
+		}, -- [755]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -15498,7 +15265,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [770]
+		}, -- [756]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -15528,7 +15295,7 @@ MailLoggerDB = {
 					["Name"] = "真銀棒",
 				},
 			},
-		}, -- [771]
+		}, -- [757]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -15548,7 +15315,7 @@ MailLoggerDB = {
 					["Name"] = "魔塵",
 				}, -- [1]
 			},
-		}, -- [772]
+		}, -- [758]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -15568,7 +15335,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [773]
+		}, -- [759]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -15598,7 +15365,7 @@ MailLoggerDB = {
 					["Name"] = "堅鋼錠",
 				},
 			},
-		}, -- [774]
+		}, -- [760]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -15613,7 +15380,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [775]
+		}, -- [761]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -15628,7 +15395,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [776]
+		}, -- [762]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -15643,7 +15410,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [777]
+		}, -- [763]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -15663,7 +15430,7 @@ MailLoggerDB = {
 					["Name"] = "夢境之塵",
 				}, -- [1]
 			},
-		}, -- [778]
+		}, -- [764]
 		{
 			["Date"] = "2021-08-22",
 			["PlayerName"] = "特變電工",
@@ -15676,7 +15443,7 @@ MailLoggerDB = {
 			["Time"] = "21:31:41",
 			["ReceiveItems"] = {
 			},
-		}, -- [779]
+		}, -- [765]
 		{
 			["TargetName"] = "月巴豸苗",
 			["PlayerName"] = "特變電工",
@@ -15695,7 +15462,7 @@ MailLoggerDB = {
 					["Name"] = "逝往防衛者肩鎧",
 				}, -- [1]
 			},
-		}, -- [780]
+		}, -- [766]
 		{
 			["Date"] = "2021-08-22",
 			["PlayerName"] = "特變電工",
@@ -15708,7 +15475,7 @@ MailLoggerDB = {
 			["Time"] = "21:34:05",
 			["ReceiveItems"] = {
 			},
-		}, -- [781]
+		}, -- [767]
 		{
 			["TargetName"] = "月巴豸苗",
 			["PlayerName"] = "特變電工",
@@ -15727,7 +15494,7 @@ MailLoggerDB = {
 					["Name"] = "無盡圈套束腰",
 				}, -- [1]
 			},
-		}, -- [782]
+		}, -- [768]
 		{
 			["Date"] = "2021-08-22",
 			["PlayerName"] = "特變電工",
@@ -15740,7 +15507,7 @@ MailLoggerDB = {
 			["Time"] = "21:35:59",
 			["ReceiveItems"] = {
 			},
-		}, -- [783]
+		}, -- [769]
 		{
 			["TargetName"] = "月巴豸苗",
 			["PlayerName"] = "特變電工",
@@ -15759,7 +15526,7 @@ MailLoggerDB = {
 					["Name"] = "逝往防衛者護胸",
 				}, -- [1]
 			},
-		}, -- [784]
+		}, -- [770]
 		{
 			["Date"] = "2021-08-22",
 			["PlayerName"] = "特變電工",
@@ -15772,7 +15539,7 @@ MailLoggerDB = {
 			["Time"] = "21:39:15",
 			["ReceiveItems"] = {
 			},
-		}, -- [785]
+		}, -- [771]
 		{
 			["TargetName"] = "月巴豸苗",
 			["PlayerName"] = "特變電工",
@@ -15786,7 +15553,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [786]
+		}, -- [772]
 		{
 			["Date"] = "2021-08-22",
 			["PlayerName"] = "特變電工",
@@ -15799,7 +15566,7 @@ MailLoggerDB = {
 			["Time"] = "21:41:31",
 			["ReceiveItems"] = {
 			},
-		}, -- [787]
+		}, -- [773]
 		{
 			["Date"] = "2021-08-22",
 			["PlayerName"] = "特變電工",
@@ -15812,7 +15579,7 @@ MailLoggerDB = {
 			["Time"] = "21:42:27",
 			["ReceiveItems"] = {
 			},
-		}, -- [788]
+		}, -- [774]
 		{
 			["TargetName"] = "月巴豸苗",
 			["PlayerName"] = "特變電工",
@@ -15826,7 +15593,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [789]
+		}, -- [775]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -15866,7 +15633,7 @@ MailLoggerDB = {
 					["Name"] = "秘法寶典",
 				},
 			},
-		}, -- [790]
+		}, -- [776]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -15886,7 +15653,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [791]
+		}, -- [777]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -15901,7 +15668,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [792]
+		}, -- [778]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -15926,7 +15693,7 @@ MailLoggerDB = {
 					["Name"] = "大塊稜石裂片",
 				}, -- [2]
 			},
-		}, -- [793]
+		}, -- [779]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -15941,7 +15708,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [794]
+		}, -- [780]
 		{
 			["TargetName"] = "有點小夢幻",
 			["PlayerName"] = "邁克爾假死",
@@ -15954,7 +15721,7 @@ MailLoggerDB = {
 			["Date"] = "2021-08-22",
 			["ReceiveItems"] = {
 			},
-		}, -- [795]
+		}, -- [781]
 		{
 			["TargetName"] = "有點小夢幻",
 			["PlayerName"] = "邁克爾假死",
@@ -15967,7 +15734,7 @@ MailLoggerDB = {
 			["Date"] = "2021-08-22",
 			["ReceiveItems"] = {
 			},
-		}, -- [796]
+		}, -- [782]
 		{
 			["TargetName"] = "有點小夢幻",
 			["PlayerName"] = "邁克爾假死",
@@ -15980,7 +15747,7 @@ MailLoggerDB = {
 			["Date"] = "2021-08-22",
 			["ReceiveItems"] = {
 			},
-		}, -- [797]
+		}, -- [783]
 		{
 			["TargetName"] = "有點小夢幻",
 			["PlayerName"] = "邁克爾假死",
@@ -15994,7 +15761,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [798]
+		}, -- [784]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "畜生犬隊長",
@@ -16089,7 +15856,7 @@ MailLoggerDB = {
 					["Name"] = "水源微粒",
 				}, -- [20]
 			},
-		}, -- [799]
+		}, -- [785]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "畜生犬隊長",
@@ -16161,7 +15928,7 @@ MailLoggerDB = {
 					["Name"] = "超強效治療藥水",
 				},
 			},
-		}, -- [800]
+		}, -- [786]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "畜生犬隊長",
@@ -16221,7 +15988,7 @@ MailLoggerDB = {
 					["Name"] = "治療之司凱堤斯腰帶",
 				},
 			},
-		}, -- [801]
+		}, -- [787]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "畜生犬隊長",
@@ -16266,7 +16033,7 @@ MailLoggerDB = {
 					["Name"] = "冰霜懲戒之伏擊者披風",
 				}, -- [6]
 			},
-		}, -- [802]
+		}, -- [788]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -16325,7 +16092,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [803]
+		}, -- [789]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -16339,7 +16106,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [804]
+		}, -- [790]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "邁克爾假死",
@@ -16401,7 +16168,7 @@ MailLoggerDB = {
 					["Name"] = "雄鷹之暗影議會便褲",
 				}, -- [11]
 			},
-		}, -- [805]
+		}, -- [791]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -16421,7 +16188,7 @@ MailLoggerDB = {
 					["Name"] = "奧特蘭克山谷榮譽獎章",
 				}, -- [1]
 			},
-		}, -- [806]
+		}, -- [792]
 		{
 			["TargetName"] = "湯姆克鹵蛋",
 			["Date"] = "2021-08-22",
@@ -16434,7 +16201,7 @@ MailLoggerDB = {
 			["Time"] = "22:46:18",
 			["ReceiveItems"] = {
 			},
-		}, -- [807]
+		}, -- [793]
 		{
 			["TargetName"] = "湯姆克鹵蛋",
 			["PlayerName"] = "特變電工",
@@ -16453,7 +16220,7 @@ MailLoggerDB = {
 					["Name"] = "藍色鋸齒水晶",
 				}, -- [1]
 			},
-		}, -- [808]
+		}, -- [794]
 		{
 			["TargetName"] = "牧原股份",
 			["Date"] = "2021-08-22",
@@ -16466,7 +16233,7 @@ MailLoggerDB = {
 			["Time"] = "23:11:00",
 			["ReceiveItems"] = {
 			},
-		}, -- [809]
+		}, -- [795]
 		{
 			["TargetName"] = "牧原股份",
 			["PlayerName"] = "特變電工",
@@ -16500,7 +16267,7 @@ MailLoggerDB = {
 					["Name"] = "超強效治療藥水",
 				}, -- [4]
 			},
-		}, -- [810]
+		}, -- [796]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -16525,7 +16292,7 @@ MailLoggerDB = {
 					["Name"] = "清晰的生命紅寶石",
 				}, -- [2]
 			},
-		}, -- [811]
+		}, -- [797]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "奧特蘭克山谷戰場軍官",
@@ -16540,7 +16307,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [812]
+		}, -- [798]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -16569,10 +16336,10 @@ MailLoggerDB = {
 					["ItemLink"] = "|cff0070dd|Hitem:11138::::::::70::::::::|h[小塊閃光裂片]|h|r",
 					["Name"] = "小塊閃光裂片",
 				},
-				[42] = {
-					["Number"] = 22,
-					["ItemLink"] = "|cff1eff00|Hitem:7969::::::::70::::::::|h[秘銀馬刺]|h|r",
-					["Name"] = "秘銀馬刺",
+				[30] = {
+					["Number"] = 8,
+					["ItemLink"] = "|cffffffff|Hitem:11144::::::::70::::::::|h[真銀棒]|h|r",
+					["Name"] = "真銀棒",
 				},
 				[40] = {
 					["Number"] = 6,
@@ -16584,10 +16351,10 @@ MailLoggerDB = {
 					["ItemLink"] = "|cffffffff|Hitem:25844::::::::70::::::::|h[堅鋼魔棒]|h|r",
 					["Name"] = "堅鋼魔棒",
 				},
-				[30] = {
-					["Number"] = 8,
-					["ItemLink"] = "|cffffffff|Hitem:11144::::::::70::::::::|h[真銀棒]|h|r",
-					["Name"] = "真銀棒",
+				[42] = {
+					["Number"] = 22,
+					["ItemLink"] = "|cff1eff00|Hitem:7969::::::::70::::::::|h[秘銀馬刺]|h|r",
+					["Name"] = "秘銀馬刺",
 				},
 				[28] = {
 					["Number"] = 38,
@@ -16595,7 +16362,7 @@ MailLoggerDB = {
 					["Name"] = "奇異之塵",
 				},
 			},
-		}, -- [813]
+		}, -- [799]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -16615,7 +16382,7 @@ MailLoggerDB = {
 					["Name"] = "靈魂之塵",
 				}, -- [1]
 			},
-		}, -- [814]
+		}, -- [800]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "畜生犬隊長",
@@ -16635,7 +16402,7 @@ MailLoggerDB = {
 					["Name"] = "幽紋布",
 				}, -- [1]
 			},
-		}, -- [815]
+		}, -- [801]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -16655,7 +16422,7 @@ MailLoggerDB = {
 					["Name"] = "符文布",
 				}, -- [1]
 			},
-		}, -- [816]
+		}, -- [802]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -16675,7 +16442,7 @@ MailLoggerDB = {
 					["Name"] = "強效石盾藥水",
 				}, -- [1]
 			},
-		}, -- [817]
+		}, -- [803]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-08-23",
@@ -16688,7 +16455,7 @@ MailLoggerDB = {
 			["TargetName"] = "恕嵐轎",
 			["ReceiveItems"] = {
 			},
-		}, -- [818]
+		}, -- [804]
 		{
 			["TargetName"] = "恕嵐轎",
 			["PlayerName"] = "特變電工",
@@ -16717,7 +16484,7 @@ MailLoggerDB = {
 					["Name"] = "鐵膚藥劑",
 				}, -- [3]
 			},
-		}, -- [819]
+		}, -- [805]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-08-24",
@@ -16730,7 +16497,7 @@ MailLoggerDB = {
 			["TargetName"] = "速嵐轎",
 			["ReceiveItems"] = {
 			},
-		}, -- [820]
+		}, -- [806]
 		{
 			["TargetName"] = "速嵐轎",
 			["PlayerName"] = "特變電工",
@@ -16749,7 +16516,7 @@ MailLoggerDB = {
 					["Name"] = "綠寶石匕首",
 				}, -- [1]
 			},
-		}, -- [821]
+		}, -- [807]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-08-24",
@@ -16762,7 +16529,7 @@ MailLoggerDB = {
 			["TargetName"] = "強運魔人",
 			["ReceiveItems"] = {
 			},
-		}, -- [822]
+		}, -- [808]
 		{
 			["TargetName"] = "強運魔人",
 			["PlayerName"] = "特變電工",
@@ -16781,7 +16548,7 @@ MailLoggerDB = {
 					["Name"] = "山脈之王傳說",
 				},
 			},
-		}, -- [823]
+		}, -- [809]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-08-24",
@@ -16794,7 +16561,7 @@ MailLoggerDB = {
 			["TargetName"] = "速嵐轎",
 			["ReceiveItems"] = {
 			},
-		}, -- [824]
+		}, -- [810]
 		{
 			["TargetName"] = "速嵐轎",
 			["PlayerName"] = "特變電工",
@@ -16813,7 +16580,7 @@ MailLoggerDB = {
 					["Name"] = "黑暗搶奪者披氅",
 				}, -- [1]
 			},
-		}, -- [825]
+		}, -- [811]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-08-24",
@@ -16826,7 +16593,7 @@ MailLoggerDB = {
 			["TargetName"] = "永生相惜",
 			["ReceiveItems"] = {
 			},
-		}, -- [826]
+		}, -- [812]
 		{
 			["TargetName"] = "永生相惜",
 			["PlayerName"] = "特變電工",
@@ -16845,7 +16612,7 @@ MailLoggerDB = {
 					["Name"] = "山脈之王傳說",
 				}, -- [1]
 			},
-		}, -- [827]
+		}, -- [813]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-08-24",
@@ -16858,7 +16625,7 @@ MailLoggerDB = {
 			["TargetName"] = "速嵐轎",
 			["ReceiveItems"] = {
 			},
-		}, -- [828]
+		}, -- [814]
 		{
 			["TargetName"] = "速嵐轎",
 			["PlayerName"] = "特變電工",
@@ -16877,7 +16644,7 @@ MailLoggerDB = {
 					["Name"] = "日怒鳳凰之弓",
 				}, -- [1]
 			},
-		}, -- [829]
+		}, -- [815]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-08-24",
@@ -16890,7 +16657,7 @@ MailLoggerDB = {
 			["TargetName"] = "速嵐轎",
 			["ReceiveItems"] = {
 			},
-		}, -- [830]
+		}, -- [816]
 		{
 			["TargetName"] = "速嵐轎",
 			["PlayerName"] = "特變電工",
@@ -16909,7 +16676,7 @@ MailLoggerDB = {
 					["Name"] = "逝往防衛者頭盔",
 				}, -- [1]
 			},
-		}, -- [831]
+		}, -- [817]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-08-24",
@@ -16922,7 +16689,7 @@ MailLoggerDB = {
 			["TargetName"] = "賽亞人",
 			["ReceiveItems"] = {
 			},
-		}, -- [832]
+		}, -- [818]
 		{
 			["TargetName"] = "賽亞人",
 			["PlayerName"] = "特變電工",
@@ -16936,7 +16703,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [833]
+		}, -- [819]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -16966,7 +16733,7 @@ MailLoggerDB = {
 					["Name"] = "原始空氣",
 				},
 			},
-		}, -- [834]
+		}, -- [820]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -16986,7 +16753,7 @@ MailLoggerDB = {
 					["Name"] = "辣炒塔巴克",
 				}, -- [1]
 			},
-		}, -- [835]
+		}, -- [821]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "畜生犬隊長",
@@ -17026,7 +16793,7 @@ MailLoggerDB = {
 					["Name"] = "幽紋布",
 				}, -- [5]
 			},
-		}, -- [836]
+		}, -- [822]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -17041,7 +16808,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [837]
+		}, -- [823]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -17091,7 +16858,7 @@ MailLoggerDB = {
 					["Name"] = "真銀棒",
 				},
 			},
-		}, -- [838]
+		}, -- [824]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -17111,7 +16878,7 @@ MailLoggerDB = {
 					["Name"] = "虛空眼鏡蛇護腿片",
 				}, -- [1]
 			},
-		}, -- [839]
+		}, -- [825]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -17155,23 +16922,23 @@ MailLoggerDB = {
 					["ItemLink"] = "|cff1eff00|Hitem:7082::::::::70::::::::|h[空氣精華]|h|r",
 					["Name"] = "空氣精華",
 				},
-				[14] = {
-					["Number"] = 24,
-					["ItemLink"] = "|cff1eff00|Hitem:7969::::::::70::::::::|h[秘銀馬刺]|h|r",
-					["Name"] = "秘銀馬刺",
+				[26] = {
+					["Number"] = 3,
+					["ItemLink"] = "|cff0070dd|Hitem:11138::::::::70::::::::|h[小塊閃光裂片]|h|r",
+					["Name"] = "小塊閃光裂片",
 				},
 				[23] = {
 					["Number"] = 8,
 					["ItemLink"] = "|cffffffff|Hitem:11144::::::::70::::::::|h[真銀棒]|h|r",
 					["Name"] = "真銀棒",
 				},
-				[26] = {
-					["Number"] = 3,
-					["ItemLink"] = "|cff0070dd|Hitem:11138::::::::70::::::::|h[小塊閃光裂片]|h|r",
-					["Name"] = "小塊閃光裂片",
+				[14] = {
+					["Number"] = 24,
+					["ItemLink"] = "|cff1eff00|Hitem:7969::::::::70::::::::|h[秘銀馬刺]|h|r",
+					["Name"] = "秘銀馬刺",
 				},
 			},
-		}, -- [840]
+		}, -- [826]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -17211,7 +16978,7 @@ MailLoggerDB = {
 					["Name"] = "堅鋼魔棒",
 				},
 			},
-		}, -- [841]
+		}, -- [827]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "牧原股份",
@@ -17224,7 +16991,7 @@ MailLoggerDB = {
 			["Time"] = "01:36:56",
 			["ReceiveItems"] = {
 			},
-		}, -- [842]
+		}, -- [828]
 		{
 			["TargetName"] = "牧原股份",
 			["PlayerName"] = "特變電工",
@@ -17243,7 +17010,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [843]
+		}, -- [829]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "牧原股份",
@@ -17256,7 +17023,7 @@ MailLoggerDB = {
 			["Time"] = "01:57:02",
 			["ReceiveItems"] = {
 			},
-		}, -- [844]
+		}, -- [830]
 		{
 			["TargetName"] = "牧原股份",
 			["PlayerName"] = "特變電工",
@@ -17275,7 +17042,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [845]
+		}, -- [831]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -17290,7 +17057,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [846]
+		}, -- [832]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "牧原股份",
@@ -17305,7 +17072,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [847]
+		}, -- [833]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "畜生犬隊長",
@@ -17325,7 +17092,7 @@ MailLoggerDB = {
 					["Name"] = "幽紋布",
 				}, -- [1]
 			},
-		}, -- [848]
+		}, -- [834]
 		{
 			["Date"] = "2021-08-29",
 			["PlayerName"] = "特變電工",
@@ -17338,7 +17105,7 @@ MailLoggerDB = {
 			["Time"] = "21:24:38",
 			["ReceiveItems"] = {
 			},
-		}, -- [849]
+		}, -- [835]
 		{
 			["TargetName"] = "月巴豸苗",
 			["PlayerName"] = "特變電工",
@@ -17357,7 +17124,7 @@ MailLoggerDB = {
 					["Name"] = "劍刃氏族戰爭手環",
 				}, -- [1]
 			},
-		}, -- [850]
+		}, -- [836]
 		{
 			["Date"] = "2021-08-29",
 			["PlayerName"] = "特變電工",
@@ -17370,7 +17137,7 @@ MailLoggerDB = {
 			["Time"] = "21:30:44",
 			["ReceiveItems"] = {
 			},
-		}, -- [851]
+		}, -- [837]
 		{
 			["TargetName"] = "月巴豸苗",
 			["PlayerName"] = "特變電工",
@@ -17389,7 +17156,7 @@ MailLoggerDB = {
 					["Name"] = "虛無水晶",
 				}, -- [1]
 			},
-		}, -- [852]
+		}, -- [838]
 		{
 			["Date"] = "2021-08-29",
 			["PlayerName"] = "特變電工",
@@ -17402,7 +17169,7 @@ MailLoggerDB = {
 			["Time"] = "21:32:44",
 			["ReceiveItems"] = {
 			},
-		}, -- [853]
+		}, -- [839]
 		{
 			["TargetName"] = "雷公助我",
 			["PlayerName"] = "特變電工",
@@ -17416,7 +17183,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [854]
+		}, -- [840]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -17441,7 +17208,7 @@ MailLoggerDB = {
 					["Name"] = "清晰的生命紅寶石",
 				}, -- [2]
 			},
-		}, -- [855]
+		}, -- [841]
 		{
 			["TargetName"] = "速嵐轎",
 			["Date"] = "2021-08-30",
@@ -17454,7 +17221,7 @@ MailLoggerDB = {
 			["Time"] = "23:55:51",
 			["ReceiveItems"] = {
 			},
-		}, -- [856]
+		}, -- [842]
 		{
 			["TargetName"] = "速嵐轎",
 			["PlayerName"] = "特變電工",
@@ -17473,7 +17240,7 @@ MailLoggerDB = {
 					["Name"] = "邊緣行者長靴",
 				}, -- [1]
 			},
-		}, -- [857]
+		}, -- [843]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-08-31",
@@ -17486,7 +17253,7 @@ MailLoggerDB = {
 			["TargetName"] = "速嵐轎",
 			["ReceiveItems"] = {
 			},
-		}, -- [858]
+		}, -- [844]
 		{
 			["TargetName"] = "速嵐轎",
 			["PlayerName"] = "特變電工",
@@ -17500,7 +17267,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [859]
+		}, -- [845]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-08-31",
@@ -17513,7 +17280,7 @@ MailLoggerDB = {
 			["TargetName"] = "強運魔人",
 			["ReceiveItems"] = {
 			},
-		}, -- [860]
+		}, -- [846]
 		{
 			["TargetName"] = "強運魔人",
 			["PlayerName"] = "特變電工",
@@ -17527,7 +17294,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [861]
+		}, -- [847]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-08-31",
@@ -17540,7 +17307,7 @@ MailLoggerDB = {
 			["TargetName"] = "賽亞人",
 			["ReceiveItems"] = {
 			},
-		}, -- [862]
+		}, -- [848]
 		{
 			["TargetName"] = "賽亞人",
 			["PlayerName"] = "特變電工",
@@ -17554,7 +17321,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [863]
+		}, -- [849]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-08-31",
@@ -17567,7 +17334,7 @@ MailLoggerDB = {
 			["TargetName"] = "牧原股份",
 			["ReceiveItems"] = {
 			},
-		}, -- [864]
+		}, -- [850]
 		{
 			["TargetName"] = "牧原股份",
 			["PlayerName"] = "特變電工",
@@ -17581,7 +17348,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [865]
+		}, -- [851]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-08-31",
@@ -17594,7 +17361,7 @@ MailLoggerDB = {
 			["TargetName"] = "小冰妹",
 			["ReceiveItems"] = {
 			},
-		}, -- [866]
+		}, -- [852]
 		{
 			["TargetName"] = "小冰妹",
 			["PlayerName"] = "特變電工",
@@ -17608,7 +17375,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [867]
+		}, -- [853]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -17623,7 +17390,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [868]
+		}, -- [854]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -17643,7 +17410,7 @@ MailLoggerDB = {
 					["Name"] = "堅鋼錠",
 				}, -- [1]
 			},
-		}, -- [869]
+		}, -- [855]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "戰歌峽谷戰場軍官",
@@ -17658,7 +17425,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [870]
+		}, -- [856]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -17693,7 +17460,7 @@ MailLoggerDB = {
 					["Name"] = "秘銀馬刺",
 				},
 			},
-		}, -- [871]
+		}, -- [857]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "月巴豸苗",
@@ -17706,7 +17473,7 @@ MailLoggerDB = {
 			["Time"] = "21:51:27",
 			["ReceiveItems"] = {
 			},
-		}, -- [872]
+		}, -- [858]
 		{
 			["TargetName"] = "月巴豸苗",
 			["PlayerName"] = "特變電工",
@@ -17725,7 +17492,7 @@ MailLoggerDB = {
 					["Name"] = "奧多爾遺產防衛者",
 				}, -- [1]
 			},
-		}, -- [873]
+		}, -- [859]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "歐趴賊",
@@ -17738,7 +17505,7 @@ MailLoggerDB = {
 			["Time"] = "22:04:28",
 			["ReceiveItems"] = {
 			},
-		}, -- [874]
+		}, -- [860]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "歐趴賊",
@@ -17751,7 +17518,7 @@ MailLoggerDB = {
 			["Time"] = "22:04:30",
 			["ReceiveItems"] = {
 			},
-		}, -- [875]
+		}, -- [861]
 		{
 			["TargetName"] = "歐趴賊",
 			["PlayerName"] = "特變電工",
@@ -17765,7 +17532,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [876]
+		}, -- [862]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -17785,7 +17552,7 @@ MailLoggerDB = {
 					["Name"] = "堅固的伊露恩之星",
 				}, -- [1]
 			},
-		}, -- [877]
+		}, -- [863]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "戰歌峽谷戰場軍官",
@@ -17800,7 +17567,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [878]
+		}, -- [864]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -17835,7 +17602,7 @@ MailLoggerDB = {
 					["Name"] = "堅鋼錠",
 				},
 			},
-		}, -- [879]
+		}, -- [865]
 		{
 			["Date"] = "2021-09-07",
 			["TargetName"] = "恕嵐轎",
@@ -17848,7 +17615,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [880]
+		}, -- [866]
 		{
 			["Date"] = "2021-09-07",
 			["TargetName"] = "恕嵐轎",
@@ -17861,7 +17628,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [881]
+		}, -- [867]
 		{
 			["TargetName"] = "恕嵐轎",
 			["PlayerName"] = "特變電工",
@@ -17880,7 +17647,7 @@ MailLoggerDB = {
 					["Name"] = "倒刺懲罰頸飾",
 				}, -- [1]
 			},
-		}, -- [882]
+		}, -- [868]
 		{
 			["Date"] = "2021-09-07",
 			["PlayerName"] = "特變電工",
@@ -17893,7 +17660,7 @@ MailLoggerDB = {
 			["Time"] = "00:37:30",
 			["ReceiveItems"] = {
 			},
-		}, -- [883]
+		}, -- [869]
 		{
 			["TargetName"] = "恕嵐轎",
 			["PlayerName"] = "特變電工",
@@ -17912,7 +17679,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [884]
+		}, -- [870]
 		{
 			["Date"] = "2021-09-07",
 			["PlayerName"] = "特變電工",
@@ -17925,7 +17692,7 @@ MailLoggerDB = {
 			["Time"] = "01:15:18",
 			["ReceiveItems"] = {
 			},
-		}, -- [885]
+		}, -- [871]
 		{
 			["TargetName"] = "善哉善哉",
 			["PlayerName"] = "特變電工",
@@ -17944,7 +17711,7 @@ MailLoggerDB = {
 					["Name"] = "狼人的折磨",
 				}, -- [1]
 			},
-		}, -- [886]
+		}, -- [872]
 		{
 			["Date"] = "2021-09-07",
 			["PlayerName"] = "特變電工",
@@ -17957,7 +17724,7 @@ MailLoggerDB = {
 			["Time"] = "02:17:41",
 			["ReceiveItems"] = {
 			},
-		}, -- [887]
+		}, -- [873]
 		{
 			["TargetName"] = "恕嵐轎",
 			["PlayerName"] = "特變電工",
@@ -17971,7 +17738,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [888]
+		}, -- [874]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -17996,7 +17763,7 @@ MailLoggerDB = {
 					["Name"] = "小塊微光裂片",
 				},
 			},
-		}, -- [889]
+		}, -- [875]
 		{
 			["TargetName"] = "邁克爾假死",
 			["PlayerName"] = "特變電工",
@@ -18010,7 +17777,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [890]
+		}, -- [876]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "特變電工",
@@ -18025,7 +17792,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [891]
+		}, -- [877]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "部落拍賣場",
@@ -18060,7 +17827,7 @@ MailLoggerDB = {
 					["Name"] = "極效敏捷藥劑",
 				},
 			},
-		}, -- [892]
+		}, -- [878]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["Date"] = "2021-09-08",
@@ -18073,7 +17840,7 @@ MailLoggerDB = {
 			["TargetName"] = "Cd",
 			["ReceiveItems"] = {
 			},
-		}, -- [893]
+		}, -- [879]
 		{
 			["TargetName"] = "Cd",
 			["PlayerName"] = "邁克爾假死",
@@ -18092,7 +17859,7 @@ MailLoggerDB = {
 					["Name"] = "狼人的折磨",
 				}, -- [1]
 			},
-		}, -- [894]
+		}, -- [880]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["Date"] = "2021-09-09",
@@ -18105,7 +17872,7 @@ MailLoggerDB = {
 			["TargetName"] = "Yao",
 			["ReceiveItems"] = {
 			},
-		}, -- [895]
+		}, -- [881]
 		{
 			["TargetName"] = "Yao",
 			["PlayerName"] = "邁克爾假死",
@@ -18124,7 +17891,7 @@ MailLoggerDB = {
 					["Name"] = "逝往英雄頭盔",
 				}, -- [1]
 			},
-		}, -- [896]
+		}, -- [882]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -18153,7 +17920,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [897]
+		}, -- [883]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "邁克爾假死",
@@ -18183,7 +17950,7 @@ MailLoggerDB = {
 					["Name"] = "能量之血拳臂鎧",
 				}, -- [3]
 			},
-		}, -- [898]
+		}, -- [884]
 		{
 			["TargetName"] = "邁克爾假死",
 			["PlayerName"] = "特變電工",
@@ -18217,7 +17984,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [899]
+		}, -- [885]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -18247,7 +18014,7 @@ MailLoggerDB = {
 					["Name"] = "自由行動藥水",
 				},
 			},
-		}, -- [900]
+		}, -- [886]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -18317,7 +18084,7 @@ MailLoggerDB = {
 					["Name"] = "大塊稜石裂片",
 				}, -- [11]
 			},
-		}, -- [901]
+		}, -- [887]
 		{
 			["Date"] = "2021-09-12",
 			["TargetName"] = "銀月土鑑師",
@@ -18330,7 +18097,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [902]
+		}, -- [888]
 		{
 			["Date"] = "2021-09-12",
 			["TargetName"] = "希爾德烈日",
@@ -18343,7 +18110,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [903]
+		}, -- [889]
 		{
 			["Date"] = "2021-09-12",
 			["TargetName"] = "希爾德烈日",
@@ -18356,7 +18123,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [904]
+		}, -- [890]
 		{
 			["TargetName"] = "希爾德烈日",
 			["PlayerName"] = "特變電工",
@@ -18395,7 +18162,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [905]
+		}, -- [891]
 		{
 			["Date"] = "2021-09-12",
 			["TargetName"] = "希爾德烈日",
@@ -18408,7 +18175,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [906]
+		}, -- [892]
 		{
 			["Date"] = "2021-09-12",
 			["TargetName"] = "希爾德烈日",
@@ -18421,7 +18188,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [907]
+		}, -- [893]
 		{
 			["TargetName"] = "希爾德烈日",
 			["PlayerName"] = "特變電工",
@@ -18441,7 +18208,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [908]
+		}, -- [894]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -18461,7 +18228,7 @@ MailLoggerDB = {
 					["Name"] = "辣炒塔巴克",
 				}, -- [1]
 			},
-		}, -- [909]
+		}, -- [895]
 		{
 			["Date"] = "2021-09-12",
 			["PlayerName"] = "特變電工",
@@ -18474,7 +18241,7 @@ MailLoggerDB = {
 			["Time"] = "21:52:46",
 			["ReceiveItems"] = {
 			},
-		}, -- [910]
+		}, -- [896]
 		{
 			["TargetName"] = "煙毒屍髮",
 			["PlayerName"] = "特變電工",
@@ -18488,7 +18255,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [911]
+		}, -- [897]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -18508,7 +18275,7 @@ MailLoggerDB = {
 					["Name"] = "設計圖:閃光的生命紅寶石",
 				}, -- [1]
 			},
-		}, -- [912]
+		}, -- [898]
 		{
 			["TargetName"] = "恕嵐轎",
 			["PlayerName"] = "特變電工",
@@ -18521,7 +18288,7 @@ MailLoggerDB = {
 			["Date"] = "2021-09-13",
 			["ReceiveItems"] = {
 			},
-		}, -- [913]
+		}, -- [899]
 		{
 			["TargetName"] = "恕嵐轎",
 			["PlayerName"] = "特變電工",
@@ -18534,7 +18301,7 @@ MailLoggerDB = {
 			["Date"] = "2021-09-13",
 			["ReceiveItems"] = {
 			},
-		}, -- [914]
+		}, -- [900]
 		{
 			["TargetName"] = "恕嵐轎",
 			["PlayerName"] = "特變電工",
@@ -18553,7 +18320,7 @@ MailLoggerDB = {
 					["Name"] = "羅慕歐的毒藥瓶",
 				}, -- [1]
 			},
-		}, -- [915]
+		}, -- [901]
 		{
 			["TargetName"] = "恕嵐轎",
 			["PlayerName"] = "特變電工",
@@ -18566,7 +18333,7 @@ MailLoggerDB = {
 			["Date"] = "2021-09-14",
 			["ReceiveItems"] = {
 			},
-		}, -- [916]
+		}, -- [902]
 		{
 			["TargetName"] = "恕嵐轎",
 			["PlayerName"] = "特變電工",
@@ -18585,7 +18352,7 @@ MailLoggerDB = {
 					["Name"] = "君王防衛者",
 				}, -- [1]
 			},
-		}, -- [917]
+		}, -- [903]
 		{
 			["TargetName"] = "紅麗幻法",
 			["PlayerName"] = "特變電工",
@@ -18598,7 +18365,7 @@ MailLoggerDB = {
 			["Date"] = "2021-09-14",
 			["ReceiveItems"] = {
 			},
-		}, -- [918]
+		}, -- [904]
 		{
 			["TargetName"] = "恕嵐轎",
 			["PlayerName"] = "特變電工",
@@ -18611,7 +18378,7 @@ MailLoggerDB = {
 			["Date"] = "2021-09-14",
 			["ReceiveItems"] = {
 			},
-		}, -- [919]
+		}, -- [905]
 		{
 			["TargetName"] = "恕嵐轎",
 			["PlayerName"] = "特變電工",
@@ -18625,7 +18392,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [920]
+		}, -- [906]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -18650,7 +18417,7 @@ MailLoggerDB = {
 					["Name"] = "強效異界精華",
 				},
 			},
-		}, -- [921]
+		}, -- [907]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -18675,7 +18442,7 @@ MailLoggerDB = {
 					["Name"] = "虛無水晶",
 				}, -- [2]
 			},
-		}, -- [922]
+		}, -- [908]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -18695,7 +18462,7 @@ MailLoggerDB = {
 					["Name"] = "魔塵",
 				}, -- [1]
 			},
-		}, -- [923]
+		}, -- [909]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-09-14",
@@ -18708,7 +18475,7 @@ MailLoggerDB = {
 			["TargetName"] = "小瓜呆脆笛酥",
 			["ReceiveItems"] = {
 			},
-		}, -- [924]
+		}, -- [910]
 		{
 			["TargetName"] = "小瓜呆脆笛酥",
 			["PlayerName"] = "特變電工",
@@ -18747,7 +18514,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [925]
+		}, -- [911]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-09-14",
@@ -18760,7 +18527,7 @@ MailLoggerDB = {
 			["TargetName"] = "小瓜呆脆笛酥",
 			["ReceiveItems"] = {
 			},
-		}, -- [926]
+		}, -- [912]
 		{
 			["TargetName"] = "小瓜呆脆笛酥",
 			["PlayerName"] = "特變電工",
@@ -18780,7 +18547,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [927]
+		}, -- [913]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -18810,7 +18577,7 @@ MailLoggerDB = {
 					["Name"] = "克銀礦石",
 				},
 			},
-		}, -- [928]
+		}, -- [914]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-09-14",
@@ -18823,7 +18590,7 @@ MailLoggerDB = {
 			["TargetName"] = "青樓探花",
 			["ReceiveItems"] = {
 			},
-		}, -- [929]
+		}, -- [915]
 		{
 			["TargetName"] = "青樓探花",
 			["PlayerName"] = "特變電工",
@@ -18852,7 +18619,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [930]
+		}, -- [916]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-09-14",
@@ -18865,7 +18632,7 @@ MailLoggerDB = {
 			["TargetName"] = "青樓探花",
 			["ReceiveItems"] = {
 			},
-		}, -- [931]
+		}, -- [917]
 		{
 			["TargetName"] = "青樓探花",
 			["PlayerName"] = "特變電工",
@@ -18889,7 +18656,7 @@ MailLoggerDB = {
 					["Name"] = "克銀錠",
 				}, -- [2]
 			},
-		}, -- [932]
+		}, -- [918]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-09-14",
@@ -18902,7 +18669,7 @@ MailLoggerDB = {
 			["TargetName"] = "英霸無雙",
 			["ReceiveItems"] = {
 			},
-		}, -- [933]
+		}, -- [919]
 		{
 			["TargetName"] = "英霸無雙",
 			["PlayerName"] = "特變電工",
@@ -18916,7 +18683,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [934]
+		}, -- [920]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-09-14",
@@ -18929,7 +18696,7 @@ MailLoggerDB = {
 			["TargetName"] = "亞培",
 			["ReceiveItems"] = {
 			},
-		}, -- [935]
+		}, -- [921]
 		{
 			["TargetName"] = "亞培",
 			["PlayerName"] = "特變電工",
@@ -18943,7 +18710,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [936]
+		}, -- [922]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-09-14",
@@ -18956,7 +18723,7 @@ MailLoggerDB = {
 			["TargetName"] = "牛頭牌愛福好",
 			["ReceiveItems"] = {
 			},
-		}, -- [937]
+		}, -- [923]
 		{
 			["TargetName"] = "牛頭牌愛福好",
 			["PlayerName"] = "特變電工",
@@ -18970,7 +18737,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [938]
+		}, -- [924]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-09-14",
@@ -18983,7 +18750,7 @@ MailLoggerDB = {
 			["TargetName"] = "Tomori",
 			["ReceiveItems"] = {
 			},
-		}, -- [939]
+		}, -- [925]
 		{
 			["TargetName"] = "Tomori",
 			["PlayerName"] = "特變電工",
@@ -18997,7 +18764,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [940]
+		}, -- [926]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -19022,7 +18789,7 @@ MailLoggerDB = {
 					["Name"] = "原始之火",
 				},
 			},
-		}, -- [941]
+		}, -- [927]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -19052,7 +18819,7 @@ MailLoggerDB = {
 					["Name"] = "冰霜防護之大法師便褲",
 				}, -- [3]
 			},
-		}, -- [942]
+		}, -- [928]
 		{
 			["Date"] = "2021-09-16",
 			["TargetName"] = "華航機師",
@@ -19065,7 +18832,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [943]
+		}, -- [929]
 		{
 			["TargetName"] = "華航機師",
 			["PlayerName"] = "特變電工",
@@ -19079,7 +18846,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [944]
+		}, -- [930]
 		{
 			["Date"] = "2021-09-16",
 			["TargetName"] = "廢物模式",
@@ -19092,7 +18859,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [945]
+		}, -- [931]
 		{
 			["TargetName"] = "廢物模式",
 			["PlayerName"] = "特變電工",
@@ -19106,7 +18873,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [946]
+		}, -- [932]
 		{
 			["Date"] = "2021-09-16",
 			["TargetName"] = "亞培",
@@ -19119,7 +18886,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [947]
+		}, -- [933]
 		{
 			["TargetName"] = "亞培",
 			["PlayerName"] = "特變電工",
@@ -19133,7 +18900,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [948]
+		}, -- [934]
 		{
 			["Date"] = "2021-09-16",
 			["TargetName"] = "昨晚又是我",
@@ -19146,7 +18913,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [949]
+		}, -- [935]
 		{
 			["TargetName"] = "昨晚又是我",
 			["PlayerName"] = "特變電工",
@@ -19160,7 +18927,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [950]
+		}, -- [936]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -19195,7 +18962,7 @@ MailLoggerDB = {
 					["Name"] = "水銀堅鋼石",
 				},
 			},
-		}, -- [951]
+		}, -- [937]
 		{
 			["Date"] = "2021-09-16",
 			["TargetName"] = "瞄準豆沙包",
@@ -19208,7 +18975,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [952]
+		}, -- [938]
 		{
 			["TargetName"] = "瞄準豆沙包",
 			["PlayerName"] = "特變電工",
@@ -19242,7 +19009,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [953]
+		}, -- [939]
 		{
 			["Date"] = "2021-09-16",
 			["TargetName"] = "瞄準豆沙包",
@@ -19255,7 +19022,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [954]
+		}, -- [940]
 		{
 			["TargetName"] = "瞄準豆沙包",
 			["PlayerName"] = "特變電工",
@@ -19274,7 +19041,7 @@ MailLoggerDB = {
 					["Name"] = "融解墜飾",
 				}, -- [1]
 			},
-		}, -- [955]
+		}, -- [941]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -19309,7 +19076,7 @@ MailLoggerDB = {
 					["Name"] = "光滑的黎明石",
 				}, -- [4]
 			},
-		}, -- [956]
+		}, -- [942]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -19324,7 +19091,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [957]
+		}, -- [943]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -19349,7 +19116,7 @@ MailLoggerDB = {
 					["Name"] = "厚重境外皮革",
 				},
 			},
-		}, -- [958]
+		}, -- [944]
 		{
 			["TargetName"] = "大虎斑斑",
 			["Date"] = "2021-09-18",
@@ -19362,7 +19129,7 @@ MailLoggerDB = {
 			["Time"] = "00:10:18",
 			["ReceiveItems"] = {
 			},
-		}, -- [959]
+		}, -- [945]
 		{
 			["TargetName"] = "大虎斑斑",
 			["PlayerName"] = "特變電工",
@@ -19386,7 +19153,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [960]
+		}, -- [946]
 		{
 			["TargetName"] = "大虎斑斑",
 			["Date"] = "2021-09-18",
@@ -19399,7 +19166,7 @@ MailLoggerDB = {
 			["Time"] = "00:10:44",
 			["ReceiveItems"] = {
 			},
-		}, -- [961]
+		}, -- [947]
 		{
 			["TargetName"] = "大虎斑斑",
 			["PlayerName"] = "特變電工",
@@ -19418,7 +19185,7 @@ MailLoggerDB = {
 					["Name"] = "寒冰護甲片",
 				}, -- [1]
 			},
-		}, -- [962]
+		}, -- [948]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -19438,7 +19205,7 @@ MailLoggerDB = {
 					["Name"] = "盤牙裝備",
 				}, -- [1]
 			},
-		}, -- [963]
+		}, -- [949]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "別逼我擋怪",
@@ -19451,7 +19218,7 @@ MailLoggerDB = {
 			["Time"] = "20:11:14",
 			["ReceiveItems"] = {
 			},
-		}, -- [964]
+		}, -- [950]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -19471,7 +19238,7 @@ MailLoggerDB = {
 					["Name"] = "盤牙裝備",
 				}, -- [1]
 			},
-		}, -- [965]
+		}, -- [951]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "別逼我擋怪",
@@ -19484,7 +19251,7 @@ MailLoggerDB = {
 			["Time"] = "20:15:05",
 			["ReceiveItems"] = {
 			},
-		}, -- [966]
+		}, -- [952]
 		{
 			["TargetName"] = "別逼我擋怪",
 			["PlayerName"] = "特變電工",
@@ -19508,7 +19275,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [967]
+		}, -- [953]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "別逼我擋怪",
@@ -19521,7 +19288,7 @@ MailLoggerDB = {
 			["Time"] = "20:19:36",
 			["ReceiveItems"] = {
 			},
-		}, -- [968]
+		}, -- [954]
 		{
 			["TargetName"] = "別逼我擋怪",
 			["PlayerName"] = "特變電工",
@@ -19535,7 +19302,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [969]
+		}, -- [955]
 		{
 			["Date"] = "2021-09-19",
 			["TargetName"] = "終焉之戰",
@@ -19548,7 +19315,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [970]
+		}, -- [956]
 		{
 			["TargetName"] = "終焉之戰",
 			["PlayerName"] = "特變電工",
@@ -19562,7 +19329,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [971]
+		}, -- [957]
 		{
 			["Date"] = "2021-09-19",
 			["TargetName"] = "別逼我擋怪",
@@ -19575,7 +19342,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [972]
+		}, -- [958]
 		{
 			["TargetName"] = "別逼我擋怪",
 			["PlayerName"] = "特變電工",
@@ -19589,7 +19356,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [973]
+		}, -- [959]
 		{
 			["Date"] = "2021-09-19",
 			["TargetName"] = "終焉之戰",
@@ -19602,7 +19369,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [974]
+		}, -- [960]
 		{
 			["Date"] = "2021-09-19",
 			["TargetName"] = "終焉之戰",
@@ -19615,7 +19382,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
-		}, -- [975]
+		}, -- [961]
 		{
 			["TargetName"] = "終焉之戰",
 			["PlayerName"] = "特變電工",
@@ -19629,7 +19396,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [976]
+		}, -- [962]
 		{
 			["TargetName"] = "有點小夢幻",
 			["Date"] = "2021-09-19",
@@ -19642,7 +19409,7 @@ MailLoggerDB = {
 			["Time"] = "14:22:11",
 			["ReceiveItems"] = {
 			},
-		}, -- [977]
+		}, -- [963]
 		{
 			["TargetName"] = "有點小夢幻",
 			["PlayerName"] = "邁克爾假死",
@@ -19656,7 +19423,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [978]
+		}, -- [964]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -19670,7 +19437,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [979]
+		}, -- [965]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "邁克爾假死",
@@ -19685,7 +19452,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [980]
+		}, -- [966]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -19705,7 +19472,7 @@ MailLoggerDB = {
 					["Name"] = "防禦精煉藥劑",
 				}, -- [1]
 			},
-		}, -- [981]
+		}, -- [967]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -19730,7 +19497,7 @@ MailLoggerDB = {
 					["Name"] = "大地微粒",
 				},
 			},
-		}, -- [982]
+		}, -- [968]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "終焉之戰",
@@ -19743,7 +19510,7 @@ MailLoggerDB = {
 			["Time"] = "22:04:49",
 			["ReceiveItems"] = {
 			},
-		}, -- [983]
+		}, -- [969]
 		{
 			["TargetName"] = "終焉之戰",
 			["PlayerName"] = "特變電工",
@@ -19757,7 +19524,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [984]
+		}, -- [970]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "終焉之戰",
@@ -19770,7 +19537,7 @@ MailLoggerDB = {
 			["Time"] = "22:10:30",
 			["ReceiveItems"] = {
 			},
-		}, -- [985]
+		}, -- [971]
 		{
 			["TargetName"] = "終焉之戰",
 			["PlayerName"] = "特變電工",
@@ -19784,7 +19551,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [986]
+		}, -- [972]
 		{
 			["Date"] = "2021-09-20",
 			["PlayerName"] = "特變電工",
@@ -19797,7 +19564,7 @@ MailLoggerDB = {
 			["Time"] = "00:43:29",
 			["ReceiveItems"] = {
 			},
-		}, -- [987]
+		}, -- [973]
 		{
 			["TargetName"] = "別逼我擋怪",
 			["PlayerName"] = "特變電工",
@@ -19811,7 +19578,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [988]
+		}, -- [974]
 		{
 			["Date"] = "2021-09-20",
 			["PlayerName"] = "特變電工",
@@ -19824,7 +19591,7 @@ MailLoggerDB = {
 			["Time"] = "00:44:57",
 			["ReceiveItems"] = {
 			},
-		}, -- [989]
+		}, -- [975]
 		{
 			["TargetName"] = "別逼我擋怪",
 			["PlayerName"] = "特變電工",
@@ -19838,7 +19605,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [990]
+		}, -- [976]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "Xemo",
@@ -19851,7 +19618,7 @@ MailLoggerDB = {
 			["Time"] = "01:52:04",
 			["ReceiveItems"] = {
 			},
-		}, -- [991]
+		}, -- [977]
 		{
 			["TargetName"] = "Xemo",
 			["PlayerName"] = "特變電工",
@@ -19865,7 +19632,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [992]
+		}, -- [978]
 		{
 			["TargetName"] = "贛夠王羅迪文",
 			["Date"] = "2021-09-23",
@@ -19878,7 +19645,7 @@ MailLoggerDB = {
 			["Time"] = "00:08:04",
 			["ReceiveItems"] = {
 			},
-		}, -- [993]
+		}, -- [979]
 		{
 			["TargetName"] = "贛夠王羅迪文",
 			["PlayerName"] = "特變電工",
@@ -19892,7 +19659,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [994]
+		}, -- [980]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-09-23",
@@ -19905,7 +19672,7 @@ MailLoggerDB = {
 			["TargetName"] = "美式圖釘",
 			["ReceiveItems"] = {
 			},
-		}, -- [995]
+		}, -- [981]
 		{
 			["TargetName"] = "美式圖釘",
 			["PlayerName"] = "特變電工",
@@ -19919,7 +19686,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [996]
+		}, -- [982]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -19939,7 +19706,7 @@ MailLoggerDB = {
 					["Name"] = "虛無水晶",
 				}, -- [1]
 			},
-		}, -- [997]
+		}, -- [983]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-09-24",
@@ -19952,7 +19719,7 @@ MailLoggerDB = {
 			["TargetName"] = "小萀芽",
 			["ReceiveItems"] = {
 			},
-		}, -- [998]
+		}, -- [984]
 		{
 			["TargetName"] = "小萀芽",
 			["PlayerName"] = "特變電工",
@@ -19976,7 +19743,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [999]
+		}, -- [985]
 		{
 			["PlayerName"] = "特變電工",
 			["Date"] = "2021-09-24",
@@ -19989,7 +19756,7 @@ MailLoggerDB = {
 			["TargetName"] = "小萀芽",
 			["ReceiveItems"] = {
 			},
-		}, -- [1000]
+		}, -- [986]
 		{
 			["TargetName"] = "小萀芽",
 			["PlayerName"] = "特變電工",
@@ -20009,7 +19776,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [1001]
+		}, -- [987]
 		{
 			["TargetName"] = "邁克爾假死",
 			["PlayerName"] = "特變電工",
@@ -20023,7 +19790,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [1002]
+		}, -- [988]
 		{
 			["TargetName"] = "邁克爾假死",
 			["PlayerName"] = "特變電工",
@@ -20037,7 +19804,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [1003]
+		}, -- [989]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "特變電工",
@@ -20052,7 +19819,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [1004]
+		}, -- [990]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "部落拍賣場",
@@ -20077,7 +19844,7 @@ MailLoggerDB = {
 					["Name"] = "猛擊藥劑",
 				},
 			},
-		}, -- [1005]
+		}, -- [991]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "德過且過",
@@ -20090,7 +19857,7 @@ MailLoggerDB = {
 			["Time"] = "16:42:05",
 			["ReceiveItems"] = {
 			},
-		}, -- [1006]
+		}, -- [992]
 		{
 			["TargetName"] = "德過且過",
 			["PlayerName"] = "邁克爾假死",
@@ -20109,7 +19876,7 @@ MailLoggerDB = {
 					["Name"] = "精準遠行者手環",
 				}, -- [1]
 			},
-		}, -- [1007]
+		}, -- [993]
 		{
 			["PlayerName"] = "邁克爾假死",
 			["TargetName"] = "部落拍賣場",
@@ -20124,7 +19891,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [1008]
+		}, -- [994]
 		{
 			["Date"] = "2021-09-25",
 			["TargetName"] = "羽山人秋",
@@ -20137,7 +19904,7 @@ MailLoggerDB = {
 			["PlayerName"] = "邁克爾假死",
 			["ReceiveItems"] = {
 			},
-		}, -- [1009]
+		}, -- [995]
 		{
 			["TargetName"] = "羽山人秋",
 			["PlayerName"] = "邁克爾假死",
@@ -20151,7 +19918,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [1010]
+		}, -- [996]
 		{
 			["TargetName"] = "特變電工",
 			["PlayerName"] = "邁克爾假死",
@@ -20165,7 +19932,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [1011]
+		}, -- [997]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "亞尼·納沙克",
@@ -20185,7 +19952,7 @@ MailLoggerDB = {
 					["Name"] = "收穫節的獎勵",
 				}, -- [1]
 			},
-		}, -- [1012]
+		}, -- [998]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "邁克爾假死",
@@ -20200,7 +19967,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [1013]
+		}, -- [999]
 		{
 			["TargetName"] = "終焉之戰",
 			["PlayerName"] = "特變電工",
@@ -20213,7 +19980,7 @@ MailLoggerDB = {
 			["Date"] = "2021-09-25",
 			["ReceiveItems"] = {
 			},
-		}, -- [1014]
+		}, -- [1000]
 		{
 			["TargetName"] = "終焉之戰",
 			["PlayerName"] = "特變電工",
@@ -20232,7 +19999,7 @@ MailLoggerDB = {
 					["Name"] = "戰鬥舞者肩鎧",
 				}, -- [1]
 			},
-		}, -- [1015]
+		}, -- [1001]
 		{
 			["TargetName"] = "終焉之戰",
 			["PlayerName"] = "特變電工",
@@ -20245,7 +20012,7 @@ MailLoggerDB = {
 			["Date"] = "2021-09-25",
 			["ReceiveItems"] = {
 			},
-		}, -- [1016]
+		}, -- [1002]
 		{
 			["TargetName"] = "終焉之戰",
 			["PlayerName"] = "特變電工",
@@ -20259,7 +20026,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [1017]
+		}, -- [1003]
 		{
 			["TargetName"] = "終焉之戰",
 			["PlayerName"] = "特變電工",
@@ -20272,7 +20039,7 @@ MailLoggerDB = {
 			["Date"] = "2021-09-25",
 			["ReceiveItems"] = {
 			},
-		}, -- [1018]
+		}, -- [1004]
 		{
 			["TargetName"] = "終焉之戰",
 			["PlayerName"] = "特變電工",
@@ -20286,7 +20053,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [1019]
+		}, -- [1005]
 		{
 			["TargetName"] = "終焉之戰",
 			["Date"] = "2021-09-26",
@@ -20299,7 +20066,7 @@ MailLoggerDB = {
 			["Time"] = "00:29:04",
 			["ReceiveItems"] = {
 			},
-		}, -- [1020]
+		}, -- [1006]
 		{
 			["TargetName"] = "終焉之戰",
 			["PlayerName"] = "特變電工",
@@ -20313,7 +20080,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [1021]
+		}, -- [1007]
 		{
 			["TargetName"] = "別逼我擋怪",
 			["Date"] = "2021-09-26",
@@ -20326,7 +20093,7 @@ MailLoggerDB = {
 			["Time"] = "00:30:35",
 			["ReceiveItems"] = {
 			},
-		}, -- [1022]
+		}, -- [1008]
 		{
 			["TargetName"] = "別逼我擋怪",
 			["PlayerName"] = "特變電工",
@@ -20340,7 +20107,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [1023]
+		}, -- [1009]
 		{
 			["TargetName"] = "陰牙婦產科",
 			["Date"] = "2021-09-26",
@@ -20353,7 +20120,7 @@ MailLoggerDB = {
 			["Time"] = "00:38:45",
 			["ReceiveItems"] = {
 			},
-		}, -- [1024]
+		}, -- [1010]
 		{
 			["TargetName"] = "陰牙婦產科",
 			["PlayerName"] = "特變電工",
@@ -20367,7 +20134,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [1025]
+		}, -- [1011]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -20392,7 +20159,7 @@ MailLoggerDB = {
 					["Name"] = "堅固的伊露恩之星",
 				}, -- [2]
 			},
-		}, -- [1026]
+		}, -- [1012]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -20412,7 +20179,7 @@ MailLoggerDB = {
 					["Name"] = "清晰的生命紅寶石",
 				}, -- [1]
 			},
-		}, -- [1027]
+		}, -- [1013]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "牧原股份",
@@ -20427,7 +20194,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [1028]
+		}, -- [1014]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -20462,7 +20229,7 @@ MailLoggerDB = {
 					["Name"] = "魔塵",
 				},
 			},
-		}, -- [1029]
+		}, -- [1015]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "小瓜呆脆笛酥",
@@ -20475,7 +20242,7 @@ MailLoggerDB = {
 			["Time"] = "21:55:53",
 			["ReceiveItems"] = {
 			},
-		}, -- [1030]
+		}, -- [1016]
 		{
 			["TargetName"] = "小瓜呆脆笛酥",
 			["PlayerName"] = "特變電工",
@@ -20514,7 +20281,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [1031]
+		}, -- [1017]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "小瓜呆脆笛酥",
@@ -20527,7 +20294,7 @@ MailLoggerDB = {
 			["Time"] = "21:56:11",
 			["ReceiveItems"] = {
 			},
-		}, -- [1032]
+		}, -- [1018]
 		{
 			["TargetName"] = "小瓜呆脆笛酥",
 			["PlayerName"] = "特變電工",
@@ -20547,7 +20314,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [1033]
+		}, -- [1019]
 		{
 			["TargetName"] = "邁克爾假死",
 			["PlayerName"] = "特變電工",
@@ -20566,7 +20333,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [1034]
+		}, -- [1020]
 		{
 			["TargetName"] = "邁克爾假死",
 			["PlayerName"] = "特變電工",
@@ -20585,7 +20352,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [1035]
+		}, -- [1021]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "每月啤酒俱樂部",
@@ -20605,7 +20372,7 @@ MailLoggerDB = {
 					["Name"] = "秋季橡實麥酒",
 				}, -- [1]
 			},
-		}, -- [1036]
+		}, -- [1022]
 		{
 			["PlayerName"] = "特變電工",
 			["TargetName"] = "部落拍賣場",
@@ -20624,6 +20391,233 @@ MailLoggerDB = {
 					["ItemLink"] = "|cffa335ee|Hitem:22450::::::::70:::::::::|h[虛無水晶]|h|r",
 					["Name"] = "虛無水晶",
 				}, -- [1]
+			},
+		}, -- [1023]
+		{
+			["PlayerName"] = "特變電工",
+			["TargetName"] = "部落拍賣場",
+			["Reason"] = 1,
+			["Date"] = "2021-10-02",
+			["ReceiveMoney"] = 120974,
+			["Time"] = "11:18:17",
+			["GiveMoney"] = 0,
+			["Location"] = "撒塔斯城",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+			},
+		}, -- [1024]
+		{
+			["TargetName"] = "邁克爾假死",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-10-02",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 43,
+					["ItemLink"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+					["Name"] = "幽紋布",
+				}, -- [1]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "撒塔斯城",
+			["Time"] = "11:18:34",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [1025]
+		{
+			["TargetName"] = "邁克爾假死",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-10-02",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 196,
+					["ItemLink"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+					["Name"] = "幽紋布",
+				}, -- [1]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "撒塔斯城",
+			["Time"] = "14:52:54",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [1026]
+		{
+			["TargetName"] = "邁克爾假死",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-10-02",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 123,
+					["ItemLink"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+					["Name"] = "幽紋布",
+				}, -- [1]
+				[8] = {
+					["Number"] = 1,
+					["ItemLink"] = "|cff1eff00|Hitem:23107::::::::70:::::::::|h[暗影卓奈石]|h|r",
+					["Name"] = "暗影卓奈石",
+				},
+				[7] = {
+					["Number"] = 1,
+					["ItemLink"] = "|cff1eff00|Hitem:23117::::::::70:::::::::|h[藍月石]|h|r",
+					["Name"] = "藍月石",
+				},
+				[9] = {
+					["Number"] = 1,
+					["ItemLink"] = "|cff1eff00|Hitem:23112::::::::70:::::::::|h[黃金卓奈石]|h|r",
+					["Name"] = "黃金卓奈石",
+				},
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "納葛蘭",
+			["Time"] = "15:42:35",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [1027]
+		{
+			["TargetName"] = "終焉之戰",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:52:14",
+			["GiveMoney"] = 0,
+			["Location"] = "毒蛇神殿洞穴",
+			["GiveItems"] = {
+			},
+			["Date"] = "2021-10-02",
+			["ReceiveItems"] = {
+			},
+		}, -- [1028]
+		{
+			["TargetName"] = "終焉之戰",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-10-02",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:52:14",
+			["GiveMoney"] = 11000000,
+			["Location"] = "毒蛇神殿洞穴",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:30061::::::::70:::::::::|h[先祖征服之戒]|h|r",
+					["Name"] = "先祖征服之戒",
+				}, -- [1]
+			},
+		}, -- [1029]
+		{
+			["TargetName"] = "別逼我擋怪",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["Time"] = "00:22:37",
+			["GiveMoney"] = 0,
+			["Location"] = "毒蛇神殿洞穴",
+			["GiveItems"] = {
+			},
+			["Date"] = "2021-10-03",
+			["ReceiveItems"] = {
+			},
+		}, -- [1030]
+		{
+			["TargetName"] = "別逼我擋怪",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-10-03",
+			["ReceiveMoney"] = 1500000,
+			["Time"] = "00:22:37",
+			["GiveMoney"] = 0,
+			["Location"] = "毒蛇神殿洞穴",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [1031]
+		{
+			["TargetName"] = "別逼我擋怪",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["Time"] = "00:23:37",
+			["GiveMoney"] = 0,
+			["Location"] = "毒蛇神殿洞穴",
+			["GiveItems"] = {
+			},
+			["Date"] = "2021-10-03",
+			["ReceiveItems"] = {
+			},
+		}, -- [1032]
+		{
+			["TargetName"] = "別逼我擋怪",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-10-03",
+			["ReceiveMoney"] = 500000,
+			["Time"] = "00:23:37",
+			["GiveMoney"] = 0,
+			["Location"] = "毒蛇神殿洞穴",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [1033]
+		{
+			["TargetName"] = "別逼我擋怪",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["Time"] = "00:23:53",
+			["GiveMoney"] = 0,
+			["Location"] = "毒蛇神殿洞穴",
+			["GiveItems"] = {
+			},
+			["Date"] = "2021-10-03",
+			["ReceiveItems"] = {
+			},
+		}, -- [1034]
+		{
+			["TargetName"] = "別逼我擋怪",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-10-03",
+			["ReceiveMoney"] = 1110000,
+			["Time"] = "00:23:53",
+			["GiveMoney"] = 0,
+			["Location"] = "毒蛇神殿洞穴",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [1035]
+		{
+			["TargetName"] = "別逼我擋怪",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["Time"] = "00:24:34",
+			["GiveMoney"] = 0,
+			["Location"] = "毒蛇神殿洞穴",
+			["GiveItems"] = {
+			},
+			["Date"] = "2021-10-03",
+			["ReceiveItems"] = {
+			},
+		}, -- [1036]
+		{
+			["TargetName"] = "別逼我擋怪",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-10-03",
+			["ReceiveMoney"] = 8230000,
+			["Time"] = "00:24:34",
+			["GiveMoney"] = 0,
+			["Location"] = "毒蛇神殿洞穴",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
 			},
 		}, -- [1037]
 	},

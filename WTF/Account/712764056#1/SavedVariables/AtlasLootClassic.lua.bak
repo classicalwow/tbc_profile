@@ -7,7 +7,7 @@ AtlasLootClassicDB = {
 		["畜生犬隊長 - 伊弗斯"] = "畜生犬隊長 - 伊弗斯",
 	},
 	["global"] = {
-		["__addonrevision"] = 2030003,
+		["__addonrevision"] = 2030004,
 	},
 	["profiles"] = {
 		["路易斯桑拿 - 伊弗斯"] = {
@@ -26,8 +26,8 @@ AtlasLootClassicDB = {
 				},
 				["selected"] = {
 					"AtlasLootClassic_Crafting", -- [1]
-					"EnchantingBC", -- [2]
-					9, -- [3]
+					"EngineeringBC", -- [2]
+					nil, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},
