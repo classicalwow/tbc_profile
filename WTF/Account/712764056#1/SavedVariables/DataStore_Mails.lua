@@ -7,30 +7,8 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1633191936,
-				["Mails"] = {
-					{
-						["returned"] = false,
-						["sender"] = "部落拍賣場",
-						["itemID"] = 774,
-						["link"] = "|cff1eff00|Hitem:774::::::::70:::::::::|h[孔雀石]|h|r",
-						["count"] = 3,
-						["lastCheck"] = 1633191936,
-						["icon"] = 134106,
-						["daysLeft"] = 29.60484886169434,
-					}, -- [1]
-					{
-						["returned"] = false,
-						["sender"] = "部落拍賣場",
-						["itemID"] = 25521,
-						["link"] = "|cffffffff|Hitem:25521::::::::70:::::::::|h[強效結界符文]|h|r",
-						["count"] = 7,
-						["lastCheck"] = 1633191936,
-						["icon"] = 134423,
-						["daysLeft"] = 29.60484886169434,
-					}, -- [2]
-				},
-				["lastVisitDate"] = "2021/10/03 00:25",
+				["lastUpdate"] = 1633282672,
+				["lastVisitDate"] = "2021/10/04 01:37",
 			},
 			["Default.伊弗斯.邁克爾假死"] = {
 				["lastUpdate"] = 1632561473,
