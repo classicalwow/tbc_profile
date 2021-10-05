@@ -25,10 +25,10 @@ AtlasLootClassicDB = {
 					-77.99995422363281, -- [5]
 				},
 				["selected"] = {
-					nil, -- [1]
-					"TempestKeep", -- [2]
-					2, -- [3]
-					1, -- [4]
+					"AtlasLootClassic_Factions", -- [1]
+					"TheConsortium", -- [2]
+					3, -- [3]
+					2, -- [4]
 					0, -- [5]
 				},
 			},

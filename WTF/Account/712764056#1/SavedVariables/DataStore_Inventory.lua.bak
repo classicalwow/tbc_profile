@@ -31,7 +31,7 @@ DataStore_InventoryDB = {
 				["lastUpdate"] = 1632561001,
 			},
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1633258949,
+				["lastUpdate"] = 1633366579,
 				["averageItemLvl"] = 123.875,
 				["Inventory"] = {
 					"|cff0070dd|Hitem:28853:3003:28556:24048:::::70:::::::::|h[高階督軍鎧甲頭盔]|h|r", -- [1]
@@ -56,13 +56,6 @@ DataStore_InventoryDB = {
 			},
 		},
 		["Guilds"] = {
-			["Default.伊弗斯.猛男俱樂部"] = {
-				["Members"] = {
-					["三浦建太郎"] = {
-						["averageItemLvl"] = 7,
-					},
-				},
-			},
 			["Default.伊弗斯.槍在手跟我走"] = {
 				["Members"] = {
 					["三浦建太郎"] = {

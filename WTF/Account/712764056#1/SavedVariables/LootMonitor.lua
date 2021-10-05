@@ -2,129 +2,6 @@
 LootMonitorDB = {
 	["LootLog"] = {
 		{
-			["InstanceID"] = 550,
-			["FirstPlayer"] = "未知",
-			["InstanceName"] = "Tempest Keep",
-			["Class"] = "WARRIOR",
-			["Date"] = "2021-09-19",
-			["FirstClass"] = "UNKNOWN",
-			["LootTable"] = {
-				{
-					["GUID"] = "Creature-0-4490-550-28822-20031-00014722C7",
-					["Time"] = "20:20:36",
-					["Class"] = "PRIEST",
-					["Date"] = "2021-09-19",
-					["Looter"] = "慕蓉兒",
-					["Name"] = "血守衛軍團士兵",
-					["Loots"] = {
-						"|cffa335ee|Hitem:30183::::::::70:::::::::|h[虛空漩渦]|h|r", -- [1]
-					},
-				}, -- [1]
-				{
-					["GUID"] = "Creature-0-4490-550-28822-20037-00004722C7",
-					["Time"] = "20:33:58",
-					["Class"] = "PRIEST",
-					["Date"] = "2021-09-19",
-					["Looter"] = "Damocles",
-					["Name"] = "風暴要塞-熔爐鷹獵者",
-					["Loots"] = {
-						"|cffa335ee|Hitem:30183::::::::70:::::::::|h[虛空漩渦]|h|r", -- [1]
-					},
-				}, -- [2]
-				{
-					["GUID"] = "Creature-0-4490-550-28822-20043-0000C722C8",
-					["Time"] = "21:03:16",
-					["Class"] = "WARRIOR",
-					["Date"] = "2021-09-19",
-					["Looter"] = "特變電工",
-					["Name"] = "見習占星者",
-					["Loots"] = {
-						"|cffa335ee|Hitem:30281::::::::70:::::::::|h[圖樣:長路腰帶]|h|r", -- [1]
-					},
-				}, -- [3]
-				{
-					["GUID"] = "Creature-0-4490-550-28822-19516-00004722C7",
-					["Time"] = "21:45:08",
-					["Class"] = "SHAMAN",
-					["Date"] = "2021-09-19",
-					["Looter"] = "莫沫",
-					["Name"] = "虛無搶奪者",
-					["Loots"] = {
-						"|cffa335ee|Hitem:30248::::::::70:::::::::|h[征服勇士肩鎧]|h|r", -- [1]
-						"|cffa335ee|Hitem:29984::::::::70:::::::::|h[札爾塔束腰]|h|r", -- [2]
-						"|cffa335ee|Hitem:30250::::::::70:::::::::|h[征服英雄肩鎧]|h|r", -- [3]
-					},
-				}, -- [4]
-				{
-					["GUID"] = "Creature-0-4490-550-28822-20044-00024722C7",
-					["Time"] = "21:55:22",
-					["Class"] = "PALADIN",
-					["Date"] = "2021-09-19",
-					["Looter"] = "歐艾丹",
-					["Name"] = "星術師初學者",
-					["Loots"] = {
-						"|cffa335ee|Hitem:30183::::::::70:::::::::|h[虛空漩渦]|h|r", -- [1]
-					},
-				}, -- [5]
-				{
-					["GUID"] = "Creature-0-4490-550-28822-20036-00014722C7",
-					["Time"] = "21:55:38",
-					["Class"] = "ROGUE",
-					["Date"] = "2021-09-19",
-					["Looter"] = "背鍋俠",
-					["Name"] = "血守衛扈從",
-					["Loots"] = {
-						"|cffa335ee|Hitem:30030::::::::70:::::::::|h[殞星束腰]|h|r", -- [1]
-					},
-				}, -- [6]
-				{
-					["GUID"] = "Creature-0-4490-550-28822-20044-00064722C7",
-					["Time"] = "22:14:22",
-					["Class"] = "ROGUE",
-					["Date"] = "2021-09-19",
-					["Looter"] = "背鍋俠",
-					["Name"] = "星術師初學者",
-					["Loots"] = {
-						"|cffa335ee|Hitem:30322::::::::70:::::::::|h[設計圖:紅色戰鬥腰帶]|h|r", -- [1]
-					},
-				}, -- [7]
-				{
-					["GUID"] = "Creature-0-4490-550-28822-20043-0005C722C7",
-					["Time"] = "22:14:50",
-					["Class"] = "PALADIN",
-					["Date"] = "2021-09-19",
-					["Looter"] = "歐艾丹",
-					["Name"] = "見習占星者",
-					["Loots"] = {
-						"|cffa335ee|Hitem:30024::::::::70:::::::::|h[精靈王披肩]|h|r", -- [1]
-					},
-				}, -- [8]
-				{
-					["GUID"] = "Creature-0-4490-550-28822-20034-000047495B",
-					["Time"] = "22:45:28",
-					["Class"] = "WARRIOR",
-					["Date"] = "2021-09-19",
-					["Looter"] = "特變電工",
-					["Name"] = "占星者",
-					["Loots"] = {
-						"|cffa335ee|Hitem:30020::::::::70:::::::::|h[魔導師火焰之索]|h|r", -- [1]
-					},
-				}, -- [9]
-				{
-					["GUID"] = "Creature-0-4490-550-28822-20039-0000474B2A",
-					["Time"] = "22:51:42",
-					["Class"] = "SHAMAN",
-					["Date"] = "2021-09-19",
-					["Looter"] = "柒刻",
-					["Name"] = "鳳鷹",
-					["Loots"] = {
-						"|cffa335ee|Hitem:30028::::::::70:::::::::|h[堤里斯佛倫之第七指環]|h|r", -- [1]
-					},
-				}, -- [10]
-			},
-			["Player"] = "特變電工",
-		}, -- [1]
-		{
 			["InstanceID"] = 565,
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Gruul's Lair",
@@ -148,7 +25,7 @@ LootMonitorDB = {
 				}, -- [1]
 			},
 			["Player"] = "特變電工",
-		}, -- [2]
+		}, -- [1]
 		{
 			["InstanceID"] = 544,
 			["FirstPlayer"] = "Magichilo",
@@ -175,7 +52,7 @@ LootMonitorDB = {
 				}, -- [1]
 			},
 			["Player"] = "特變電工",
-		}, -- [3]
+		}, -- [2]
 		{
 			["InstanceID"] = 548,
 			["FirstPlayer"] = "法拉米果",
@@ -246,7 +123,7 @@ LootMonitorDB = {
 				}, -- [5]
 			},
 			["Player"] = "邁克爾假死",
-		}, -- [4]
+		}, -- [3]
 		{
 			["InstanceID"] = 548,
 			["FirstPlayer"] = "未知",
@@ -435,7 +312,7 @@ LootMonitorDB = {
 			["FirstClass"] = "UNKNOWN",
 			["Class"] = "WARRIOR",
 			["InstanceName"] = "Serpentshrine Cavern",
-		}, -- [5]
+		}, -- [4]
 		{
 			["InstanceID"] = 550,
 			["Player"] = "特變電工",
@@ -527,7 +404,7 @@ LootMonitorDB = {
 					},
 				}, -- [7]
 			},
-		}, -- [6]
+		}, -- [5]
 	},
 	["Config"] = {
 		["ShowMinimapIcon"] = true,

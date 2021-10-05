@@ -184,7 +184,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1633258949,
+				["lastUpdate"] = 1633366579,
 				["Spells"] = {
 					["武器"] = {
 						"20230|", -- [1]

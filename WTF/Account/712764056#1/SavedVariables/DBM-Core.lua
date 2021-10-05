@@ -167,9 +167,9 @@ DBM_AllSavedOptions = {
 		["BigBrotherAnnounceToRaid"] = false,
 		["SpecialWarningFlashAlph2"] = 0.3,
 		["CountdownVoice"] = "Corsica",
+		["RecordOnlyBosses"] = false,
 		["CountdownVoice3"] = "Smooth",
 		["DontShowUserTimers"] = false,
-		["RecordOnlyBosses"] = false,
 		["WarningFontShadow"] = true,
 		["DontShowRangeFrame"] = false,
 		["AutoRespond"] = true,
@@ -257,5 +257,5 @@ DBM_AllSavedOptions = {
 	},
 }
 DBM_MinimapIcon = {
-	["minimapPos"] = 286.2833866491822,
+	["minimapPos"] = 256.6180194241058,
 }

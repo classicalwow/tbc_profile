@@ -21,13 +21,13 @@ AtlasLootClassicDB = {
 					nil, -- [1]
 					nil, -- [2]
 					"CENTER", -- [3]
-					148.8432312011719, -- [4]
-					-77.70484924316406, -- [5]
+					148.9999847412109, -- [4]
+					-77.99995422363281, -- [5]
 				},
 				["selected"] = {
-					"AtlasLootClassic_PvP", -- [1]
-					"ArenaS4PvP", -- [2]
-					12, -- [3]
+					"AtlasLootClassic_Factions", -- [1]
+					"TheConsortium", -- [2]
+					3, -- [3]
 					2, -- [4]
 					0, -- [5]
 				},
@@ -47,7 +47,7 @@ AtlasLootClassicDB = {
 					"SerpentshrineCavern", -- [2]
 					5, -- [3]
 					1, -- [4]
-					-0, -- [5]
+					0, -- [5]
 				},
 			},
 			["minimap"] = {
