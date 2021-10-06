@@ -48,6 +48,13 @@ TomTomWaypointsM = {
 					0.8733496332518338, -- [2]
 					0.4811735941320293, -- [3]
 					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "法拉格·伏瑞菲德",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "法拉格·伏瑞菲德",
+					["from"] = "?",
 					["callbacks"] = {
 						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
@@ -64,12 +71,7 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
-					["persistent"] = true,
 					["minimap"] = true,
-					["cleardistance"] = 10,
-					["title"] = "法拉格·伏瑞菲德",
-					["from"] = "?",
-					["crazy"] = true,
 					["world"] = true,
 				},
 			},

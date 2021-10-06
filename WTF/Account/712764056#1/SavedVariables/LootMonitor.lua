@@ -2,64 +2,12 @@
 LootMonitorDB = {
 	["LootLog"] = {
 		{
-			["InstanceID"] = 565,
-			["FirstPlayer"] = "未知",
-			["InstanceName"] = "Gruul's Lair",
-			["FirstClass"] = "UNKNOWN",
-			["Date"] = "2021-09-21",
-			["Class"] = "WARRIOR",
-			["LootTable"] = {
-				{
-					["GUID"] = "Creature-0-4490-565-11335-19044-000048B558",
-					["Time"] = "01:07:35",
-					["Class"] = "WARRIOR",
-					["Date"] = "2021-09-21",
-					["Looter"] = "掏凹凹",
-					["Name"] = "弒龍者戈魯爾",
-					["Loots"] = {
-						"|cffa335ee|Hitem:29765::::::::70:::::::::|h[逝往英雄護腿]|h|r", -- [1]
-						"|cffa335ee|Hitem:28826::::::::70:::::::::|h[否定手裏劍]|h|r", -- [2]
-						"|cffa335ee|Hitem:28822::::::::70:::::::::|h[戈魯爾之牙]|h|r", -- [3]
-						"|cffa335ee|Hitem:29766::::::::70:::::::::|h[逝往勇士護腿]|h|r", -- [4]
-					},
-				}, -- [1]
-			},
-			["Player"] = "特變電工",
-		}, -- [1]
-		{
-			["InstanceID"] = 544,
-			["FirstPlayer"] = "Magichilo",
-			["InstanceName"] = "Magtheridon's Lair",
-			["FirstClass"] = "MAGE",
-			["Date"] = "2021-09-21",
-			["Class"] = "WARRIOR",
-			["LootTable"] = {
-				{
-					["GUID"] = "Creature-0-4490-544-12766-17257-000048C06A",
-					["Time"] = "01:33:46",
-					["Class"] = "WARRIOR",
-					["Date"] = "2021-09-21",
-					["Looter"] = "業牙",
-					["Name"] = "瑪瑟里頓",
-					["Loots"] = {
-						"|cffa335ee|Hitem:32386::::::::70:::::::::|h[瑪瑟里頓之首]|h|r", -- [1]
-						"|cffa335ee|Hitem:34845::::::::70:::::::::|h[深淵領主的背包]|h|r", -- [2]
-						"|cffa335ee|Hitem:28774::::::::70:::::::::|h[競技場之寬刃]|h|r", -- [3]
-						"|cffa335ee|Hitem:28783::::::::70:::::::::|h[埃雷達爾忘卻法杖]|h|r", -- [4]
-						"|cffa335ee|Hitem:29754::::::::70:::::::::|h[逝往勇士護胸]|h|r", -- [5]
-						"|cffa335ee|Hitem:29754::::::::70:::::::::|h[逝往勇士護胸]|h|r", -- [6]
-					},
-				}, -- [1]
-			},
-			["Player"] = "特變電工",
-		}, -- [2]
-		{
 			["InstanceID"] = 548,
 			["FirstPlayer"] = "法拉米果",
 			["InstanceName"] = "Serpentshrine Cavern",
-			["Class"] = "HUNTER",
-			["Date"] = "2021-09-25",
 			["FirstClass"] = "MAGE",
+			["Date"] = "2021-09-25",
+			["Class"] = "HUNTER",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-548-19781-21215-00004EADBD",
@@ -123,7 +71,7 @@ LootMonitorDB = {
 				}, -- [5]
 			},
 			["Player"] = "邁克爾假死",
-		}, -- [3]
+		}, -- [1]
 		{
 			["InstanceID"] = 548,
 			["FirstPlayer"] = "未知",
@@ -309,18 +257,18 @@ LootMonitorDB = {
 				}, -- [15]
 			},
 			["Date"] = "2021-09-25",
-			["FirstClass"] = "UNKNOWN",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "UNKNOWN",
 			["InstanceName"] = "Serpentshrine Cavern",
-		}, -- [4]
+		}, -- [2]
 		{
 			["InstanceID"] = 550,
 			["Player"] = "特變電工",
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Tempest Keep",
 			["Date"] = "2021-10-03",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "UNKNOWN",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-550-11979-19514-000059A7AB",
@@ -404,7 +352,7 @@ LootMonitorDB = {
 					},
 				}, -- [7]
 			},
-		}, -- [5]
+		}, -- [3]
 	},
 	["Config"] = {
 		["ShowMinimapIcon"] = true,
