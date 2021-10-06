@@ -10,9 +10,9 @@ CodexConfig = {
 	["minimumDropChance"] = 2,
 	["showLowLevel"] = false,
 	["_tom_waypoint"] = {
-		1952, -- [1]
-		0.624, -- [2]
-		0.737, -- [3]
+		1955, -- [1]
+		0.67, -- [2]
+		0.5660000000000001, -- [3]
 		["arrivaldistance"] = 15,
 		["callbacks"] = {
 			["distance"] = {
@@ -25,7 +25,7 @@ CodexConfig = {
 		["persistent"] = true,
 		["minimap"] = true,
 		["cleardistance"] = 10,
-		["title"] = "斯克提斯翼卫",
+		["title"] = "部落战争使者",
 		["from"] = "?",
 		["crazy"] = true,
 		["world"] = true,
@@ -57,4 +57,9 @@ CodexBrowserFavorites = {
 	},
 }
 CodexColors = {
+	["沙德雷克"] = {
+		0.996078431372549, -- [1]
+		0.2352941176470588, -- [2]
+		0.00784313725490196, -- [3]
+	},
 }

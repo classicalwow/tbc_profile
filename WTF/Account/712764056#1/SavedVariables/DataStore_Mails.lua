@@ -7,8 +7,310 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1633282672,
-				["lastVisitDate"] = "2021/10/04 01:37",
+				["lastUpdate"] = 1633430043,
+				["Mails"] = {
+					{
+						["icon"] = 134327,
+						["sender"] = "戰歌峽谷戰場軍官",
+						["subject"] = "戰歌峽谷榮譽獎章",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "在你最近於戰歌峽谷的戰鬥之後，我們無法給予你榮譽獎章。關閉之後你將會看到我們當時無法立即給你的榮譽獎章。感謝你在戰歌峽谷的奮戰!",
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.007395833265036345,
+					}, -- [1]
+					{
+						["link"] = "|cff1eff00|Hitem:20558::::::::70:::::::::|h[戰歌峽谷榮譽獎章]|h|r",
+						["sender"] = "戰歌峽谷戰場軍官",
+						["itemID"] = 20558,
+						["returned"] = false,
+						["icon"] = 134420,
+						["count"] = 1,
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.007395833265036345,
+					}, -- [2]
+					{
+						["link"] = "|cff1eff00|Hitem:20558::::::::70:::::::::|h[戰歌峽谷榮譽獎章]|h|r",
+						["sender"] = "戰歌峽谷戰場軍官",
+						["itemID"] = 20558,
+						["returned"] = false,
+						["icon"] = 134420,
+						["count"] = 3,
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.01825231499969959,
+					}, -- [3]
+					{
+						["icon"] = 134327,
+						["sender"] = "戰歌峽谷戰場軍官",
+						["subject"] = "戰歌峽谷榮譽獎章",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "在你最近於戰歌峽谷的戰鬥之後，我們無法給予你榮譽獎章。關閉之後你將會看到我們當時無法立即給你的榮譽獎章。感謝你在戰歌峽谷的奮戰!",
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.01825231499969959,
+					}, -- [4]
+					{
+						["link"] = "|cff1eff00|Hitem:20558::::::::70:::::::::|h[戰歌峽谷榮譽獎章]|h|r",
+						["sender"] = "戰歌峽谷戰場軍官",
+						["itemID"] = 20558,
+						["returned"] = false,
+						["icon"] = 134420,
+						["count"] = 3,
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.02762731537222862,
+					}, -- [5]
+					{
+						["icon"] = 134327,
+						["sender"] = "戰歌峽谷戰場軍官",
+						["subject"] = "戰歌峽谷榮譽獎章",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "在你最近於戰歌峽谷的戰鬥之後，我們無法給予你榮譽獎章。關閉之後你將會看到我們當時無法立即給你的榮譽獎章。感謝你在戰歌峽谷的奮戰!",
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.02762731537222862,
+					}, -- [6]
+					{
+						["icon"] = 134327,
+						["sender"] = "戰歌峽谷戰場軍官",
+						["subject"] = "戰歌峽谷榮譽獎章",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "在你最近於戰歌峽谷的戰鬥之後，我們無法給予你榮譽獎章。關閉之後你將會看到我們當時無法立即給你的榮譽獎章。感謝你在戰歌峽谷的奮戰!",
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.04416666552424431,
+					}, -- [7]
+					{
+						["link"] = "|cff1eff00|Hitem:20558::::::::70:::::::::|h[戰歌峽谷榮譽獎章]|h|r",
+						["sender"] = "戰歌峽谷戰場軍官",
+						["itemID"] = 20558,
+						["returned"] = false,
+						["icon"] = 134420,
+						["count"] = 3,
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.04416666552424431,
+					}, -- [8]
+					{
+						["link"] = "|cff1eff00|Hitem:20558::::::::70:::::::::|h[戰歌峽谷榮譽獎章]|h|r",
+						["sender"] = "戰歌峽谷戰場軍官",
+						["itemID"] = 20558,
+						["returned"] = false,
+						["icon"] = 134420,
+						["count"] = 1,
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.06059027835726738,
+					}, -- [9]
+					{
+						["icon"] = 134327,
+						["sender"] = "戰歌峽谷戰場軍官",
+						["subject"] = "戰歌峽谷榮譽獎章",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "在你最近於戰歌峽谷的戰鬥之後，我們無法給予你榮譽獎章。關閉之後你將會看到我們當時無法立即給你的榮譽獎章。感謝你在戰歌峽谷的奮戰!",
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.06059027835726738,
+					}, -- [10]
+					{
+						["link"] = "|cff1eff00|Hitem:20558::::::::70:::::::::|h[戰歌峽谷榮譽獎章]|h|r",
+						["sender"] = "戰歌峽谷戰場軍官",
+						["itemID"] = 20558,
+						["returned"] = false,
+						["icon"] = 134420,
+						["count"] = 1,
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.07343749701976776,
+					}, -- [11]
+					{
+						["icon"] = 134327,
+						["sender"] = "戰歌峽谷戰場軍官",
+						["subject"] = "戰歌峽谷榮譽獎章",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "在你最近於戰歌峽谷的戰鬥之後，我們無法給予你榮譽獎章。關閉之後你將會看到我們當時無法立即給你的榮譽獎章。感謝你在戰歌峽谷的奮戰!",
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.07343749701976776,
+					}, -- [12]
+					{
+						["link"] = "|cff1eff00|Hitem:20558::::::::70:::::::::|h[戰歌峽谷榮譽獎章]|h|r",
+						["sender"] = "戰歌峽谷戰場軍官",
+						["itemID"] = 20558,
+						["returned"] = false,
+						["icon"] = 134420,
+						["count"] = 1,
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.09030092507600784,
+					}, -- [13]
+					{
+						["icon"] = 134327,
+						["sender"] = "戰歌峽谷戰場軍官",
+						["subject"] = "戰歌峽谷榮譽獎章",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "在你最近於戰歌峽谷的戰鬥之後，我們無法給予你榮譽獎章。關閉之後你將會看到我們當時無法立即給你的榮譽獎章。感謝你在戰歌峽谷的奮戰!",
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.09030092507600784,
+					}, -- [14]
+					{
+						["icon"] = 134327,
+						["sender"] = "戰歌峽谷戰場軍官",
+						["subject"] = "戰歌峽谷榮譽獎章",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "在你最近於戰歌峽谷的戰鬥之後，我們無法給予你榮譽獎章。關閉之後你將會看到我們當時無法立即給你的榮譽獎章。感謝你在戰歌峽谷的奮戰!",
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.1078125014901161,
+					}, -- [15]
+					{
+						["link"] = "|cff1eff00|Hitem:20558::::::::70:::::::::|h[戰歌峽谷榮譽獎章]|h|r",
+						["sender"] = "戰歌峽谷戰場軍官",
+						["itemID"] = 20558,
+						["returned"] = false,
+						["icon"] = 134420,
+						["count"] = 3,
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.1078125014901161,
+					}, -- [16]
+					{
+						["link"] = "|cff1eff00|Hitem:20558::::::::70:::::::::|h[戰歌峽谷榮譽獎章]|h|r",
+						["sender"] = "戰歌峽谷戰場軍官",
+						["itemID"] = 20558,
+						["returned"] = false,
+						["icon"] = 134420,
+						["count"] = 1,
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.1344097256660461,
+					}, -- [17]
+					{
+						["icon"] = 134327,
+						["sender"] = "戰歌峽谷戰場軍官",
+						["subject"] = "戰歌峽谷榮譽獎章",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "在你最近於戰歌峽谷的戰鬥之後，我們無法給予你榮譽獎章。關閉之後你將會看到我們當時無法立即給你的榮譽獎章。感謝你在戰歌峽谷的奮戰!",
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.1344097256660461,
+					}, -- [18]
+					{
+						["link"] = "|cff1eff00|Hitem:20558::::::::70:::::::::|h[戰歌峽谷榮譽獎章]|h|r",
+						["sender"] = "戰歌峽谷戰場軍官",
+						["itemID"] = 20558,
+						["returned"] = false,
+						["icon"] = 134420,
+						["count"] = 3,
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.1489814817905426,
+					}, -- [19]
+					{
+						["icon"] = 134327,
+						["sender"] = "戰歌峽谷戰場軍官",
+						["subject"] = "戰歌峽谷榮譽獎章",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "在你最近於戰歌峽谷的戰鬥之後，我們無法給予你榮譽獎章。關閉之後你將會看到我們當時無法立即給你的榮譽獎章。感謝你在戰歌峽谷的奮戰!",
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.1489814817905426,
+					}, -- [20]
+					{
+						["icon"] = 134327,
+						["sender"] = "戰歌峽谷戰場軍官",
+						["subject"] = "戰歌峽谷榮譽獎章",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "在你最近於戰歌峽谷的戰鬥之後，我們無法給予你榮譽獎章。關閉之後你將會看到我們當時無法立即給你的榮譽獎章。感謝你在戰歌峽谷的奮戰!",
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.1683564782142639,
+					}, -- [21]
+					{
+						["link"] = "|cff1eff00|Hitem:20558::::::::70:::::::::|h[戰歌峽谷榮譽獎章]|h|r",
+						["sender"] = "戰歌峽谷戰場軍官",
+						["itemID"] = 20558,
+						["returned"] = false,
+						["icon"] = 134420,
+						["count"] = 3,
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.1683564782142639,
+					}, -- [22]
+					{
+						["link"] = "|cff1eff00|Hitem:20558::::::::70:::::::::|h[戰歌峽谷榮譽獎章]|h|r",
+						["sender"] = "戰歌峽谷戰場軍官",
+						["itemID"] = 20558,
+						["returned"] = false,
+						["icon"] = 134420,
+						["count"] = 1,
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.1760532408952713,
+					}, -- [23]
+					{
+						["icon"] = 134327,
+						["sender"] = "戰歌峽谷戰場軍官",
+						["subject"] = "戰歌峽谷榮譽獎章",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "在你最近於戰歌峽谷的戰鬥之後，我們無法給予你榮譽獎章。關閉之後你將會看到我們當時無法立即給你的榮譽獎章。感謝你在戰歌峽谷的奮戰!",
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.1760532408952713,
+					}, -- [24]
+					{
+						["link"] = "|cff1eff00|Hitem:20558::::::::70:::::::::|h[戰歌峽谷榮譽獎章]|h|r",
+						["sender"] = "戰歌峽谷戰場軍官",
+						["itemID"] = 20558,
+						["returned"] = false,
+						["icon"] = 134420,
+						["count"] = 3,
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.2655671238899231,
+					}, -- [25]
+					{
+						["icon"] = 134327,
+						["sender"] = "戰歌峽谷戰場軍官",
+						["subject"] = "戰歌峽谷榮譽獎章",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "在你最近於戰歌峽谷的戰鬥之後，我們無法給予你榮譽獎章。關閉之後你將會看到我們當時無法立即給你的榮譽獎章。感謝你在戰歌峽谷的奮戰!",
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.2655671238899231,
+					}, -- [26]
+					{
+						["link"] = "|cff1eff00|Hitem:20558::::::::70:::::::::|h[戰歌峽谷榮譽獎章]|h|r",
+						["sender"] = "戰歌峽谷戰場軍官",
+						["itemID"] = 20558,
+						["returned"] = false,
+						["icon"] = 134420,
+						["count"] = 1,
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.3205671310424805,
+					}, -- [27]
+					{
+						["icon"] = 134327,
+						["sender"] = "戰歌峽谷戰場軍官",
+						["subject"] = "戰歌峽谷榮譽獎章",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "在你最近於戰歌峽谷的戰鬥之後，我們無法給予你榮譽獎章。關閉之後你將會看到我們當時無法立即給你的榮譽獎章。感謝你在戰歌峽谷的奮戰!",
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.3205671310424805,
+					}, -- [28]
+					{
+						["icon"] = 134327,
+						["sender"] = "戰歌峽谷戰場軍官",
+						["subject"] = "戰歌峽谷榮譽獎章",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "在你最近於戰歌峽谷的戰鬥之後，我們無法給予你榮譽獎章。關閉之後你將會看到我們當時無法立即給你的榮譽獎章。感謝你在戰歌峽谷的奮戰!",
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.9920370578765869,
+					}, -- [29]
+					{
+						["link"] = "|cff1eff00|Hitem:20558::::::::70:::::::::|h[戰歌峽谷榮譽獎章]|h|r",
+						["sender"] = "戰歌峽谷戰場軍官",
+						["itemID"] = 20558,
+						["returned"] = false,
+						["icon"] = 134420,
+						["count"] = 3,
+						["lastCheck"] = 1633430043,
+						["daysLeft"] = 0.9920370578765869,
+					}, -- [30]
+				},
+				["lastVisitDate"] = "2021/10/05 18:34",
 			},
 			["Default.伊弗斯.邁克爾假死"] = {
 				["lastUpdate"] = 1632561473,
@@ -36,17 +338,17 @@ DataStore_MailsDB = {
 						["itemID"] = 21877,
 						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
 						["count"] = 20,
+						["lastCheck"] = 1633144714,
 						["icon"] = 132898,
-						["lastCheck"] = 1633089237,
 						["daysLeft"] = 30,
 					}, -- [3]
 					{
 						["sender"] = "特變電工",
 						["itemID"] = 21877,
 						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
-						["count"] = 16,
+						["count"] = 20,
 						["icon"] = 132898,
-						["lastCheck"] = 1633157573,
+						["lastCheck"] = 1633089237,
 						["daysLeft"] = 30,
 					}, -- [4]
 					{
@@ -54,55 +356,10 @@ DataStore_MailsDB = {
 						["itemID"] = 21877,
 						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
 						["count"] = 20,
-						["lastCheck"] = 1633144714,
 						["icon"] = 132898,
+						["lastCheck"] = 1633157573,
 						["daysLeft"] = 30,
 					}, -- [5]
-					{
-						["sender"] = "特變電工",
-						["itemID"] = 21877,
-						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
-						["count"] = 20,
-						["icon"] = 132898,
-						["lastCheck"] = 1633089237,
-						["daysLeft"] = 30,
-					}, -- [6]
-					{
-						["sender"] = "特變電工",
-						["itemID"] = 21877,
-						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
-						["count"] = 20,
-						["icon"] = 132898,
-						["lastCheck"] = 1633085030,
-						["daysLeft"] = 30,
-					}, -- [7]
-					{
-						["sender"] = "特變電工",
-						["itemID"] = 21877,
-						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
-						["count"] = 20,
-						["icon"] = 132898,
-						["lastCheck"] = 1633085030,
-						["daysLeft"] = 30,
-					}, -- [8]
-					{
-						["sender"] = "特變電工",
-						["itemID"] = 21877,
-						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
-						["count"] = 20,
-						["icon"] = 132898,
-						["lastCheck"] = 1633160555,
-						["daysLeft"] = 30,
-					}, -- [9]
-					{
-						["sender"] = "特變電工",
-						["itemID"] = 21877,
-						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
-						["count"] = 20,
-						["icon"] = 132898,
-						["lastCheck"] = 1633160555,
-						["daysLeft"] = 30,
-					}, -- [10]
 					{
 						["sender"] = "特變電工",
 						["itemID"] = 23117,
@@ -111,14 +368,59 @@ DataStore_MailsDB = {
 						["icon"] = 134080,
 						["lastCheck"] = 1633160555,
 						["daysLeft"] = 30,
+					}, -- [6]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 16,
+						["icon"] = 132898,
+						["lastCheck"] = 1633157573,
+						["daysLeft"] = 30,
+					}, -- [7]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["icon"] = 132898,
+						["lastCheck"] = 1633160555,
+						["daysLeft"] = 30,
+					}, -- [8]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["icon"] = 132898,
+						["lastCheck"] = 1633089237,
+						["daysLeft"] = 30,
+					}, -- [9]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["icon"] = 132898,
+						["lastCheck"] = 1633085030,
+						["daysLeft"] = 30,
+					}, -- [10]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["icon"] = 132898,
+						["lastCheck"] = 1633160555,
+						["daysLeft"] = 30,
 					}, -- [11]
 					{
 						["sender"] = "特變電工",
-						["itemID"] = 23107,
-						["link"] = "|cff1eff00|Hitem:23107::::::::70:::::::::|h[暗影卓奈石]|h|r",
-						["count"] = 1,
-						["icon"] = 134103,
-						["lastCheck"] = 1633160555,
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["icon"] = 132898,
+						["lastCheck"] = 1633085030,
 						["daysLeft"] = 30,
 					}, -- [12]
 					{
@@ -134,9 +436,9 @@ DataStore_MailsDB = {
 						["sender"] = "特變電工",
 						["itemID"] = 21877,
 						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
-						["count"] = 20,
+						["count"] = 3,
+						["lastCheck"] = 1633144714,
 						["icon"] = 132898,
-						["lastCheck"] = 1633160555,
 						["daysLeft"] = 30,
 					}, -- [14]
 					{
@@ -159,13 +461,31 @@ DataStore_MailsDB = {
 					}, -- [16]
 					{
 						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["icon"] = 132898,
+						["lastCheck"] = 1633430037,
+						["daysLeft"] = 30,
+					}, -- [17]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["lastCheck"] = 1633144714,
+						["icon"] = 132898,
+						["daysLeft"] = 30,
+					}, -- [18]
+					{
+						["sender"] = "特變電工",
 						["itemID"] = 23112,
 						["link"] = "|cff1eff00|Hitem:23112::::::::70:::::::::|h[黃金卓奈石]|h|r",
 						["count"] = 1,
 						["icon"] = 134114,
 						["lastCheck"] = 1633160555,
 						["daysLeft"] = 30,
-					}, -- [17]
+					}, -- [19]
 					{
 						["sender"] = "特變電工",
 						["itemID"] = 21877,
@@ -174,24 +494,6 @@ DataStore_MailsDB = {
 						["icon"] = 132898,
 						["lastCheck"] = 1633085030,
 						["daysLeft"] = 30,
-					}, -- [18]
-					{
-						["sender"] = "特變電工",
-						["itemID"] = 21877,
-						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
-						["count"] = 20,
-						["lastCheck"] = 1633144714,
-						["icon"] = 132898,
-						["daysLeft"] = 30,
-					}, -- [19]
-					{
-						["sender"] = "特變電工",
-						["itemID"] = 21877,
-						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
-						["count"] = 3,
-						["lastCheck"] = 1633144714,
-						["icon"] = 132898,
-						["daysLeft"] = 30,
 					}, -- [20]
 					{
 						["sender"] = "特變電工",
@@ -199,7 +501,7 @@ DataStore_MailsDB = {
 						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
 						["count"] = 20,
 						["icon"] = 132898,
-						["lastCheck"] = 1633089237,
+						["lastCheck"] = 1633160555,
 						["daysLeft"] = 30,
 					}, -- [21]
 					{
@@ -208,16 +510,16 @@ DataStore_MailsDB = {
 						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
 						["count"] = 20,
 						["icon"] = 132898,
-						["lastCheck"] = 1633157573,
+						["lastCheck"] = 1633089237,
 						["daysLeft"] = 30,
 					}, -- [22]
 					{
 						["sender"] = "特變電工",
-						["itemID"] = 21877,
-						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
-						["count"] = 20,
-						["icon"] = 132898,
-						["lastCheck"] = 1633157573,
+						["itemID"] = 23107,
+						["link"] = "|cff1eff00|Hitem:23107::::::::70:::::::::|h[暗影卓奈石]|h|r",
+						["count"] = 1,
+						["icon"] = 134103,
+						["lastCheck"] = 1633160555,
 						["daysLeft"] = 30,
 					}, -- [23]
 					{
@@ -226,7 +528,7 @@ DataStore_MailsDB = {
 						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
 						["count"] = 20,
 						["icon"] = 132898,
-						["lastCheck"] = 1633157573,
+						["lastCheck"] = 1633430040,
 						["daysLeft"] = 30,
 					}, -- [24]
 					{
@@ -242,9 +544,9 @@ DataStore_MailsDB = {
 						["sender"] = "特變電工",
 						["itemID"] = 21877,
 						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
-						["count"] = 20,
+						["count"] = 7,
 						["icon"] = 132898,
-						["lastCheck"] = 1633085030,
+						["lastCheck"] = 1633430037,
 						["daysLeft"] = 30,
 					}, -- [26]
 					{
@@ -253,7 +555,7 @@ DataStore_MailsDB = {
 						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
 						["count"] = 20,
 						["icon"] = 132898,
-						["lastCheck"] = 1633157573,
+						["lastCheck"] = 1633085030,
 						["daysLeft"] = 30,
 					}, -- [27]
 					{
@@ -278,9 +580,9 @@ DataStore_MailsDB = {
 						["sender"] = "特變電工",
 						["itemID"] = 21877,
 						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
-						["count"] = 2,
+						["count"] = 20,
 						["icon"] = 132898,
-						["lastCheck"] = 1633085030,
+						["lastCheck"] = 1633157573,
 						["daysLeft"] = 30,
 					}, -- [30]
 					{
@@ -296,9 +598,9 @@ DataStore_MailsDB = {
 						["sender"] = "特變電工",
 						["itemID"] = 21877,
 						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
-						["count"] = 8,
+						["count"] = 2,
 						["icon"] = 132898,
-						["lastCheck"] = 1633089237,
+						["lastCheck"] = 1633085030,
 						["daysLeft"] = 30,
 					}, -- [32]
 					{
@@ -323,11 +625,137 @@ DataStore_MailsDB = {
 						["sender"] = "特變電工",
 						["itemID"] = 21877,
 						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["icon"] = 132898,
+						["lastCheck"] = 1633157573,
+						["daysLeft"] = 30,
+					}, -- [35]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 8,
+						["icon"] = 132898,
+						["lastCheck"] = 1633089237,
+						["daysLeft"] = 30,
+					}, -- [36]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["icon"] = 132898,
+						["lastCheck"] = 1633157573,
+						["daysLeft"] = 30,
+					}, -- [37]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
 						["count"] = 3,
 						["icon"] = 132898,
 						["lastCheck"] = 1633160555,
 						["daysLeft"] = 30,
-					}, -- [35]
+					}, -- [38]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["icon"] = 132898,
+						["lastCheck"] = 1633430037,
+						["daysLeft"] = 30,
+					}, -- [39]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["icon"] = 132898,
+						["lastCheck"] = 1633430037,
+						["daysLeft"] = 30,
+					}, -- [40]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["icon"] = 132898,
+						["lastCheck"] = 1633430037,
+						["daysLeft"] = 30,
+					}, -- [41]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["icon"] = 132898,
+						["lastCheck"] = 1633430037,
+						["daysLeft"] = 30,
+					}, -- [42]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["icon"] = 132898,
+						["lastCheck"] = 1633430037,
+						["daysLeft"] = 30,
+					}, -- [43]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["icon"] = 132898,
+						["lastCheck"] = 1633430037,
+						["daysLeft"] = 30,
+					}, -- [44]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["icon"] = 132898,
+						["lastCheck"] = 1633430037,
+						["daysLeft"] = 30,
+					}, -- [45]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["icon"] = 132898,
+						["lastCheck"] = 1633430037,
+						["daysLeft"] = 30,
+					}, -- [46]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["icon"] = 132898,
+						["lastCheck"] = 1633430037,
+						["daysLeft"] = 30,
+					}, -- [47]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["icon"] = 132898,
+						["lastCheck"] = 1633430037,
+						["daysLeft"] = 30,
+					}, -- [48]
+					{
+						["sender"] = "特變電工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+						["count"] = 20,
+						["icon"] = 132898,
+						["lastCheck"] = 1633430040,
+						["daysLeft"] = 30,
+					}, -- [49]
 				},
 				["lastVisitDate"] = "2021/09/25 17:17",
 			},
