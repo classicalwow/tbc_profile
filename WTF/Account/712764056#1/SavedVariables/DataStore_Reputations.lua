@@ -7,7 +7,7 @@ DataStore_ReputationsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1633494106,
+				["lastUpdate"] = 1633537540,
 				["Factions"] = {
 					[30] = 1100,
 					[8] = 3978,
@@ -29,7 +29,7 @@ DataStore_ReputationsDB = {
 					[53] = 42999,
 					[37] = 21086,
 					[45] = 35734,
-					[12] = 8700,
+					[12] = 8730,
 				},
 			},
 			["Default.伊弗斯.邁克爾假死"] = {
