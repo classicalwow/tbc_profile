@@ -5,13 +5,13 @@ BatteInfoSettings = {
 	["auto_leave_bg_time"] = 120,
 	["show_time_elapsed"] = true,
 	["label_size"] = 0,
-	["stat_window"] = false,
+	["show_number"] = true,
 	["replace_enter_battle"] = true,
 	["replace_hide_battle"] = true,
-	["flash_icon"] = true,
-	["map_unit_color"] = true,
 	["show_spirit_heal"] = true,
-	["show_number"] = true,
+	["map_unit_color"] = true,
+	["flash_icon"] = true,
+	["stat_window"] = false,
 }
 BatteInfoStat = {
 	{
@@ -69,20 +69,24 @@ BatteInfoStat = {
 			["win"] = 1,
 			["total"] = 2,
 		},
-		["total"] = 11,
-		["win"] = 8,
-		["start"] = 1632044299,
-		[18907] = {
-			["win"] = 2,
+		["total"] = 13,
+		["win"] = 9,
+		[18910] = {
+			["win"] = 1,
 			["total"] = 2,
+		},
+		["start"] = 1632044299,
+		[18901] = {
+			["win"] = 4,
+			["total"] = 6,
 		},
 		[18894] = {
 			["win"] = 1,
 			["total"] = 1,
 		},
-		[18901] = {
-			["win"] = 4,
-			["total"] = 6,
+		[18907] = {
+			["win"] = 2,
+			["total"] = 2,
 		},
 	}, -- [3]
 	{
@@ -108,9 +112,9 @@ BatteInfoStat = {
 			["win"] = 1,
 			["total"] = 1,
 		},
-		[18900] = {
-			["win"] = 1,
-			["total"] = 1,
+		[18891] = {
+			["win"] = 7,
+			["total"] = 12,
 		},
 		[18906] = {
 			["win"] = 5,
@@ -121,17 +125,17 @@ BatteInfoStat = {
 			["total"] = 2,
 		},
 		["start"] = 1632044299,
-		[18907] = {
-			["win"] = 1,
-			["total"] = 3,
-		},
 		[18892] = {
 			["win"] = 0,
 			["total"] = 1,
 		},
-		[18891] = {
-			["win"] = 7,
-			["total"] = 12,
+		[18907] = {
+			["win"] = 1,
+			["total"] = 3,
+		},
+		[18900] = {
+			["win"] = 1,
+			["total"] = 1,
 		},
 	}, -- [4]
 }
