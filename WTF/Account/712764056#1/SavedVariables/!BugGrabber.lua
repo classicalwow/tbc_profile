@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+	["session"] = 486,
 	["lastSanitation"] = 3,
-	["session"] = 483,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\TomTom\\TomTom_Config.lua:40: attempt to call method 'EnableDisablePOIIntegration' (a nil value)",
@@ -74,8 +74,8 @@ BugGrabberDB = {
 		}, -- [9]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\MeetingHorn\\Libs\\tdGUI\\Libs\\LibClass-2.0-10\\LibClass-2.0.xml",
-			["time"] = "2021/06/08 20:55:27",
 			["session"] = 47,
+			["time"] = "2021/06/08 20:55:27",
 			["counter"] = 91,
 		}, -- [10]
 		{
@@ -229,26 +229,26 @@ BugGrabberDB = {
 		}, -- [29]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\alaTalentEmu\\libs\\libs.xml",
-			["session"] = 304,
 			["time"] = "2021/08/08 18:21:56",
+			["session"] = 304,
 			["counter"] = 3,
 		}, -- [30]
 		{
 			["message"] = "Error loading Interface\\AddOns\\ClassicCodex-patch\\objects-questie-tbc.lua",
-			["session"] = 304,
 			["time"] = "2021/08/08 18:21:56",
+			["session"] = 304,
 			["counter"] = 3,
 		}, -- [31]
 		{
 			["message"] = "Error loading Interface\\AddOns\\ClassicCodex-patch\\objects-loc-tbc.lua",
-			["session"] = 304,
 			["time"] = "2021/08/08 18:21:56",
+			["session"] = 304,
 			["counter"] = 3,
 		}, -- [32]
 		{
 			["message"] = "Error loading Interface\\AddOns\\Questie\\Localization\\Translations\\Zones\\Battlegrounds-戰場.lua",
-			["session"] = 304,
 			["time"] = "2021/08/08 18:21:56",
+			["session"] = 304,
 			["counter"] = 1,
 		}, -- [33]
 		{
@@ -340,8 +340,8 @@ BugGrabberDB = {
 		}, -- [44]
 		{
 			["message"] = "Texture <unnamed>: Unable to load atlas entry QuestSharing-Padlock",
-			["time"] = "2021/08/22 00:26:04",
 			["session"] = 333,
+			["time"] = "2021/08/22 00:26:04",
 			["counter"] = 10,
 		}, -- [45]
 		{
@@ -504,14 +504,14 @@ BugGrabberDB = {
 		}, -- [65]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GladiusEx\\libs\\LibCooldownTracker-1.0-10\\cooldowns_bcc_racials.lua",
-			["time"] = "2021/08/22 00:22:49",
 			["session"] = 420,
+			["time"] = "2021/08/22 00:22:49",
 			["counter"] = 410,
 		}, -- [66]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GladiusEx\\libs\\LibCooldownTracker-1.0-10\\cooldowns_bcc_items.lua",
-			["time"] = "2021/08/22 00:22:49",
 			["session"] = 420,
+			["time"] = "2021/08/22 00:22:49",
 			["counter"] = 410,
 		}, -- [67]
 		{
@@ -589,16 +589,16 @@ BugGrabberDB = {
 			["time"] = "2021/07/04 21:10:43",
 			["locals"] = "self = MailLoggerFrame {\n 0 = <userdata>\n ADDON_LOADED = <function> defined @Interface\\AddOns\\MailLogger\\Events.lua:411\n TRADE_ACCEPT_UPDATE = <function> defined @Interface\\AddOns\\MailLogger\\Events.lua:576\n PLAYER_ENTERING_WORLD = <function> defined @Interface\\AddOns\\MailLogger\\Events.lua:470\n MAIL_CLOSED = <function> defined @Interface\\AddOns\\MailLogger\\Events.lua:702\n MAIL_SHOW = <function> defined @Interface\\AddOns\\MailLogger\\Events.lua:665\n UI_INFO_MESSAGE = <function> defined @Interface\\AddOns\\MailLogger\\Events.lua:735\n TRADE_MONEY_CHANGED = <function> defined @Interface\\AddOns\\MailLogger\\Events.lua:570\n MAIL_SEND_INFO_UPDATE = <function> defined @Interface\\AddOns\\MailLogger\\Events.lua:670\n TRADE_SHOW = <function> defined @Interface\\AddOns\\MailLogger\\Events.lua:503\n UI_ERROR_MESSAGE = <function> defined @Interface\\AddOns\\MailLogger\\Events.lua:718\n TRADE_PLAYER_ITEM_CHANGED = <function> defined @Interface\\AddOns\\MailLogger\\Events.lua:559\n TRADE_TARGET_ITEM_CHANGED = <function> defined @Interface\\AddOns\\MailLogger\\Events.lua:564\n PLAYER_LOGOUT = <function> defined @Interface\\AddOns\\MailLogger\\Events.lua:486\n}\narg = <table> {\n 1 = 226\n 2 = \"交易取消\"\n}\n(*temporary) = nil\n(*temporary) = \"交易取消\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index upvalue 'Current' (a nil value)\"\nCurrent = nil\nConfig = <table> {\n ShowMinimapIcon = true\n MinimapIconAngle = 352.674179\n SendToGroup = false\n LogTrades = true\n SelectName = \"邁克爾假死\"\n PreventTrade = false\n EnableCalendar = true\n OutputFramePos = <table> {\n }\n LogDays = 90\n LogEverything = false\n AltList = <table> {\n }\n}\nAddon = <table> {\n Calendar = <table> {\n }\n SetDay = \"04\"\n GetMoneyString = <function> defined @Interface\\AddOns\\MailLogger\\Events.lua:142\n ScrollFrame = <unnamed> {\n }\n CompareTime = <function> defined @Interface\\AddOns\\MailLogger\\Events.lua:87\n TradeLog = <table> {\n }\n Output = <table> {\n }\n NewTrade = <function> defined @Interface\\AddOns\\MailLogger\\Events.lua:106\n Config = <table> {\n }\n LDB = <table> {\n }\n Frame = MailLoggerFrame {\n }\n DefaultIgnoreItems = <table> {\n }\n FormatMessage = <function> defined @Interface\\AddOns\\MailLogger\\Events.lua:70\n UpdateTradeMoney = <function> defined @Interface\\AddOns\\MailLogger\\Events.lua:204\n NewMail = <function> defined @Interface\\AddOns\\MailLogger\\Events.lua:124\n IgnoreItems = <table> {\n }\n SetMonth = \"07\"\n L = <table> {\n }\n AvailableDate = <table> {\n }\n MinimapIcon = <table> {\n }\n SetYear = \"2021\"\n GetAvailableDate = <function> defined @Interface\\AddOns\\MailLogger\\Calendar.lua:11\n LDBIcon = <table> {\n }\n VerNum = 143\n RefreshCalendar = <function> defined @Interface\\AddOns\\MailLogger\\Calendar.lua:33\n UpdatePosition = <function> defined @Interface\\AddOns\\MailLogger\\MinimapIcon.lua:85\n PrintTradeLog = <function> defined @Interface\\AddOns\\MailLogger\\Events.lua:277\n AnnounceTrade = <function> defined @Interface\\AddOns\\MailLogger\\Events.lua:209\n Version = \"1.4.3\"\n UpdateTradeItemInfo = <function> defined @Interface\\AddOns\\MailLogger\\Events.lua:180\n Panel = MailLoggerPanel {\n }\n GetTableSize = <function> defined @Interface\\AddOns\\MailLogger\\Events.lua:79\n UpdateTable = <function> defined @Interface\\AddOns\\MailLogger\\Events.lua:55\n GetColorMoneyString = <function> defined @Interface\\AddOns\\MailLogger\\Events.lua:159\n}\nt_insert = <function> defined =[C]:-1\nTradeLog = <table> {\n 1 = <table> {\n }\n 2 = <table> {\n }\n 3 = <table> {\n }\n 4 = <table> {\n }\n 5 = <table> {\n }\n 6 = <table> {\n }\n 7 = <table> {\n }\n 8 = <table> {\n }\n 9 = <table> {\n }\n 10 = <table> {\n }\n 11 = <table> {\n }\n 12 = <table> {\n }\n 13 = <table> {\n }\n 14 = <table> {\n }\n 15 = <table> {\n }\n 16 = <table> {\n }\n 17 = <table> {\n }\n 18 = <table> {\n }\n 19 = <table> {\n }\n 20 = <table> {\n }\n 21 = <table> {\n }\n 22 = <table> {\n }\n 23 = <table> {\n }\n 24 = <table> {\n }\n 25 = <table> {\n }\n 26 = <table> {\n }\n 27 = <table> {\n }\n 28 = <table> {\n }\n 29 = <table> {\n }\n 30 = <table> {",
 			["stack"] = "[string \"@Interface\\AddOns\\MailLogger\\Events.lua\"]:738: in function <Interface\\AddOns\\MailLogger\\Events.lua:735>\n[string \"=(tail call)\"]: ?",
-			["session"] = 478,
-			["counter"] = 8,
+			["session"] = 484,
+			["counter"] = 9,
 		}, -- [77]
 		{
 			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
 			["time"] = "2021/07/01 16:18:25",
 			["locals"] = "GearScore = 2320\nItemLevel = 105\nRed = 0.081600\nBlue = 0.320000\nGreen = 0.840000\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 5\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
-			["session"] = 483,
-			["counter"] = 4294,
+			["session"] = 486,
+			["counter"] = 4324,
 		}, -- [78]
 	},
 }
