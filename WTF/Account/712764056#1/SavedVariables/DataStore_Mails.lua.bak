@@ -7,7 +7,7 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1633606432,
+				["lastUpdate"] = 1633879772,
 				["Mails"] = {
 					{
 						["link"] = "|cff1eff00|Hitem:20558::::::::70:::::::::|h[戰歌峽谷榮譽獎章]|h|r",
@@ -15,9 +15,9 @@ DataStore_MailsDB = {
 						["itemID"] = 20558,
 						["returned"] = false,
 						["icon"] = 134420,
-						["count"] = 1,
-						["lastCheck"] = 1633606432,
-						["daysLeft"] = 0.202777773141861,
+						["count"] = 3,
+						["lastCheck"] = 1633879772,
+						["daysLeft"] = 0.5404629707336426,
 					}, -- [1]
 					{
 						["icon"] = 134327,
@@ -26,11 +26,11 @@ DataStore_MailsDB = {
 						["returned"] = false,
 						["money"] = 0,
 						["text"] = "在你最近於戰歌峽谷的戰鬥之後，我們無法給予你榮譽獎章。關閉之後你將會看到我們當時無法立即給你的榮譽獎章。感謝你在戰歌峽谷的奮戰!",
-						["lastCheck"] = 1633606432,
-						["daysLeft"] = 0.202777773141861,
+						["lastCheck"] = 1633879772,
+						["daysLeft"] = 0.5404629707336426,
 					}, -- [2]
 				},
-				["lastVisitDate"] = "2021/10/07 19:33",
+				["lastVisitDate"] = "2021/10/10 23:29",
 			},
 			["Default.伊弗斯.邁克爾假死"] = {
 				["lastUpdate"] = 1632561473,

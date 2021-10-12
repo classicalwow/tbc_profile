@@ -28,7 +28,7 @@ DataStore_InventoryDB = {
 					[19] = "|cff0070dd|Hitem:36941::::::::70:::::::::|h[競賽者外袍]|h|r",
 				},
 				["averageItemLvl"] = 124.875,
-				["lastUpdate"] = 1633859286,
+				["lastUpdate"] = 1633962671,
 			},
 			["Default.伊弗斯.邁克爾假死"] = {
 				["Inventory"] = {

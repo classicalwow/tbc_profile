@@ -461,8 +461,8 @@ DataStore_MailsDB = {
 						["sender"] = "戰歌峽谷戰場軍官",
 						["itemID"] = 20558,
 						["link"] = "|cff1eff00|Hitem:20558::::::::70:::::::::|h[戰歌峽谷榮譽獎章]|h|r",
-						["count"] = 3,
 						["lastCheck"] = 1633879772,
+						["count"] = 3,
 						["icon"] = 134420,
 						["daysLeft"] = 0.5404629707336426,
 					}, -- [1]

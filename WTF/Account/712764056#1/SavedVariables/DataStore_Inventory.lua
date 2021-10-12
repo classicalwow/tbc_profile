@@ -53,12 +53,15 @@ DataStore_InventoryDB = {
 					"|cff0070dd|Hitem:36941::::::::70:::::::::|h[競賽者外袍]|h|r", -- [19]
 				},
 				["averageItemLvl"] = 124.875,
-				["lastUpdate"] = 1633880000,
+				["lastUpdate"] = 1633967449,
 			},
 		},
 		["Guilds"] = {
 			["Default.伊弗斯.猛男俱樂部"] = {
 				["Members"] = {
+					["特變電工"] = {
+						["averageItemLvl"] = 124,
+					},
 					["軟爛膝蓋"] = {
 						["averageItemLvl"] = 119,
 					},

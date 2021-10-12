@@ -7,7 +7,7 @@ AltoholicDB = {
 		["options"] = {
 			["UI.Tabs.Summary.CurrentMode"] = 4,
 			["UI.Tabs.Characters.ViewBagsRarity"] = 4,
-			["UI.Mail.LastExpiryWarning"] = 1633855577,
+			["UI.Mail.LastExpiryWarning"] = 1633958717,
 		},
 	},
 }

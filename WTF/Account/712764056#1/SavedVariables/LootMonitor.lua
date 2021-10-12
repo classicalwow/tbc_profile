@@ -4,6 +4,7 @@ LootMonitorDB = {
 		{
 			["InstanceID"] = 550,
 			["FirstPlayer"] = "未知",
+			["Player"] = "特變電工",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-550-11979-19514-000059A7AB",
@@ -202,10 +203,9 @@ LootMonitorDB = {
 					},
 				}, -- [17]
 			},
-			["Player"] = "特變電工",
 			["Date"] = "2021-10-03",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "UNKNOWN",
+			["Class"] = "WARRIOR",
 			["InstanceName"] = "Tempest Keep",
 		}, -- [1]
 	},
