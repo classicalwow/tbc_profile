@@ -7,7 +7,7 @@ _weizpvp_chardb = {
 		["Default"] = {
 			["Options"] = {
 				["Database"] = {
-					["LastCleaned"] = 1633958708,
+					["LastCleaned"] = 1634047787,
 					["VERSION"] = 3,
 				},
 				["Addon"] = {
@@ -18,8 +18,8 @@ _weizpvp_chardb = {
 				["Frames"] = {
 					["Point"] = "TOPLEFT",
 					["Width"] = 220.5575714111328,
-					["Y"] = 491.5553588867188,
-					["X"] = 777.1371459960938,
+					["Y"] = 484.5608825683594,
+					["X"] = 778.8858032226562,
 					["List"] = {
 						["Height"] = 360.0001220703125,
 					},
