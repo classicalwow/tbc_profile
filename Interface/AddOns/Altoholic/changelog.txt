@@ -2,6 +2,10 @@ Altoholic Burning Crusade Classic Changelog (dates in dd/mm/yyyy)
 ===========================================
 
 
+2.5.007 (03/10/2021)
+
+- Fixed an issue that made any recipe tooltip with "Requires [reagents](X)" show as learnable (Thanks Solastus75 !)
+
 2.5.006 (05/09/2021)
 
 - Grids Tab : fixed the tradeskills not being properly listed.

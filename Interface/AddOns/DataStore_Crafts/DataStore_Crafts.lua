@@ -449,8 +449,9 @@ local function ScanEnchantingRecipes()
 		local _, _, icon, _, _, _, spellID = GetSpellInfo(name)		-- Gets : icon = 135225, spellID = 7421
 		
 		local color = SkillTypeToColor[skillType]
-		
-		table.insert(crafts, format("%d|%d|%d", color, spellID, icon))
+		if color then
+			table.insert(crafts, format("%d|%d|%d", color, spellID, icon))
+		end
 		
 		-- scan reagents for current skill
 		wipe(reagentsInfo)
@@ -551,21 +552,23 @@ local function ScanRecipes()
 		local color = SkillTypeToColor[skillType]
 		local craftInfo
 		
-		if skillType == "header" then
-			craftInfo = skillName or ""
-			table.insert(profession.Categories, skillName)
-		else
-			-- cooldowns, if any
-			local cooldown = GetTradeSkillCooldown(i)
-			if cooldown then
-			-- ex: "Hexweave Cloth|86220|1533539676" expire at "now + cooldown"
-				table.insert(profession.Cooldowns, format("%s|%d|%d", skillName, cooldown, cooldown + time()))
-			end		
+		if color then
+			if skillType == "header" then
+				craftInfo = skillName or ""
+				table.insert(profession.Categories, skillName)
+			else
+				-- cooldowns, if any
+				local cooldown = GetTradeSkillCooldown(i)
+				if cooldown then
+				-- ex: "Hexweave Cloth|86220|1533539676" expire at "now + cooldown"
+					table.insert(profession.Cooldowns, format("%s|%d|%d", skillName, cooldown, cooldown + time()))
+				end		
 
-			-- if there is a valid itemID, save it
-			craftInfo = (link and itemID) and itemID or ""
+				-- if there is a valid itemID, save it
+				craftInfo = (link and itemID) and itemID or ""
+			end
+			crafts[i] = format("%s|%s", color, craftInfo)
 		end
-		crafts[i] = format("%s|%s", color, craftInfo)
 	end
 	
 	addon:SendMessage("DATASTORE_RECIPES_SCANNED", char, tradeskillName)

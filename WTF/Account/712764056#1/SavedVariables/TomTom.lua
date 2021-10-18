@@ -42,19 +42,12 @@ TomTomWaypointsM = {
 	},
 	["profiles"] = {
 		["特變電工 - 伊弗斯"] = {
-			[1944] = {
-				["1944:550122249.38875:359413202.93399:納茲格雷爾"] = {
-					1944, -- [1]
-					0.5501222493887531, -- [2]
-					0.3594132029339853, -- [3]
+			[1952] = {
+				["1952:396088019.5599:712469437.65281:勒威薩斯"] = {
+					1952, -- [1]
+					0.3960880195599023, -- [2]
+					0.7124694376528118, -- [3]
 					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "納茲格雷爾",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "納茲格雷爾",
-					["from"] = "?",
 					["callbacks"] = {
 						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
@@ -71,7 +64,12 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
+					["persistent"] = true,
 					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "勒威薩斯",
+					["from"] = "?",
+					["crazy"] = true,
 					["world"] = true,
 				},
 			},

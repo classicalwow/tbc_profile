@@ -1,6 +1,6 @@
 ## Interface: 20502
 ## X-Min-Interface: 90100
-## X-Min-Interface-Classic: 11307
+## X-Min-Interface-Classic: 11400
 ## X-Min-Interface-BCC: 20502
 
 ## Title:|cffffd200Deadly Boss Mods|r |cff69ccf0Core|r
@@ -20,7 +20,7 @@
 ## LoadOnDemand: 0
 ## DefaultState: enabled
 ## Author: MysticalOS, QartemisT
-## Version: 8ed2049
+## Version: a3ea5f8
 ## X-Website: https://deadlybossmods.com
 
 Libs\LibStub\LibStub.lua
@@ -45,6 +45,12 @@ localization.kr.lua
 localization.es.lua
 localization.br.lua
 
+# Pre-core modules
+modules\Modules.lua
+
+modules\Icons.lua
+
+# Core
 DBM-Core.lua
 DBM-Arrow.lua
 DBM-Flash.lua

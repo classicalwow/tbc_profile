@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0527,
-	["LastPlayerFullName"] = "特變電工-伊弗斯",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 29011,
@@ -26,9 +24,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:30344::::::::70::::::::|h[部落勳章]|h|r",
 		},
 		[7] = {
-			["ID"] = 29950,
-			["Level"] = 128,
-			["Link"] = "|cffa335ee|Hitem:29950::::::::70:::::::::|h[血守衛護脛]|h|r",
+			["ID"] = 30116,
+			["Level"] = 133,
+			["Link"] = "|cffa335ee|Hitem:30116::::::::70:::::::::|h[毀滅者防禦腿甲]|h|r",
 		},
 		[14] = {
 			["ID"] = 31113,
@@ -57,19 +55,19 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:28825::::::::70:::::::::|h[奧多爾遺產防衛者]|h|r",
 		},
 		[18] = {
-			["ID"] = 28659,
-			["Level"] = 115,
-			["Link"] = "|cffa335ee|Hitem:28659::::::::70::::::::|h[薩維亞短劍]|h|r",
+			["ID"] = 30025,
+			["Level"] = 134,
+			["Link"] = "|cffa335ee|Hitem:30025::::::::70:::::::::|h[毒蛇神殿手裏劍]|h|r",
 		},
 		[10] = {
 			["ID"] = 30487,
 			["Level"] = 136,
 			["Link"] = "|cffa335ee|Hitem:30487:684:::::::70:::::::::|h[殘忍鬥士鎧甲護手]|h|r",
 		},
-		[5] = {
-			["ID"] = 29019,
-			["Level"] = 120,
-			["Link"] = "|cffa335ee|Hitem:29019:2661:24058:24054:24054::::70::::::::|h[戰爭使者戰甲胸甲]|h|r",
+		[9] = {
+			["ID"] = 32818,
+			["Level"] = 126,
+			["Link"] = "|cffa335ee|Hitem:32818::::::::70:::::::::|h[精兵鎧甲護腕]|h|r",
 		},
 		[11] = {
 			["ID"] = 29279,
@@ -88,12 +86,14 @@ PawnOptions = {
 			["AlsoFitsIn"] = 11,
 			["Link"] = "|cffa335ee|Hitem:29279::::::::70:::::::::|h[偉大保衛者之紫羅蘭徽記]|h|r",
 		},
-		[9] = {
-			["ID"] = 32818,
-			["Level"] = 126,
-			["Link"] = "|cffa335ee|Hitem:32818::::::::70:::::::::|h[精兵鎧甲護腕]|h|r",
+		[5] = {
+			["ID"] = 29019,
+			["Level"] = 120,
+			["Link"] = "|cffa335ee|Hitem:29019:2661:24058:24054:24054::::70::::::::|h[戰爭使者戰甲胸甲]|h|r",
 		},
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "特變電工-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
