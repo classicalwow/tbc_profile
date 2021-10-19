@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+	["session"] = 496,
 	["lastSanitation"] = 3,
-	["session"] = 495,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\TomTom\\TomTom_Config.lua:40: attempt to call method 'EnableDisablePOIIntegration' (a nil value)",
@@ -74,8 +74,8 @@ BugGrabberDB = {
 		}, -- [9]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\MeetingHorn\\Libs\\tdGUI\\Libs\\LibClass-2.0-10\\LibClass-2.0.xml",
-			["time"] = "2021/06/08 20:55:27",
 			["session"] = 47,
+			["time"] = "2021/06/08 20:55:27",
 			["counter"] = 91,
 		}, -- [10]
 		{
@@ -205,26 +205,26 @@ BugGrabberDB = {
 		}, -- [26]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\alaTalentEmu\\libs\\libs.xml",
-			["session"] = 304,
 			["time"] = "2021/08/08 18:21:56",
+			["session"] = 304,
 			["counter"] = 3,
 		}, -- [27]
 		{
 			["message"] = "Error loading Interface\\AddOns\\ClassicCodex-patch\\objects-questie-tbc.lua",
-			["session"] = 304,
 			["time"] = "2021/08/08 18:21:56",
+			["session"] = 304,
 			["counter"] = 3,
 		}, -- [28]
 		{
 			["message"] = "Error loading Interface\\AddOns\\ClassicCodex-patch\\objects-loc-tbc.lua",
-			["session"] = 304,
 			["time"] = "2021/08/08 18:21:56",
+			["session"] = 304,
 			["counter"] = 3,
 		}, -- [29]
 		{
 			["message"] = "Error loading Interface\\AddOns\\Questie\\Localization\\Translations\\Zones\\Battlegrounds-戰場.lua",
-			["session"] = 304,
 			["time"] = "2021/08/08 18:21:56",
+			["session"] = 304,
 			["counter"] = 1,
 		}, -- [30]
 		{
@@ -316,8 +316,8 @@ BugGrabberDB = {
 		}, -- [41]
 		{
 			["message"] = "Texture <unnamed>: Unable to load atlas entry QuestSharing-Padlock",
-			["time"] = "2021/08/22 00:26:04",
 			["session"] = 333,
+			["time"] = "2021/08/22 00:26:04",
 			["counter"] = 10,
 		}, -- [42]
 		{
@@ -473,14 +473,14 @@ BugGrabberDB = {
 		}, -- [61]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GladiusEx\\libs\\LibCooldownTracker-1.0-10\\cooldowns_bcc_racials.lua",
-			["time"] = "2021/08/22 00:22:49",
 			["session"] = 420,
+			["time"] = "2021/08/22 00:22:49",
 			["counter"] = 410,
 		}, -- [62]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GladiusEx\\libs\\LibCooldownTracker-1.0-10\\cooldowns_bcc_items.lua",
-			["time"] = "2021/08/22 00:22:49",
 			["session"] = 420,
+			["time"] = "2021/08/22 00:22:49",
 			["counter"] = 410,
 		}, -- [63]
 		{
@@ -674,14 +674,14 @@ BugGrabberDB = {
 		}, -- [87]
 		{
 			["message"] = "Error loading Interface\\AddOns\\DBM-Core\\modules\\Modules.lua",
-			["session"] = 495,
 			["time"] = "2021/10/17 14:23:42",
+			["session"] = 495,
 			["counter"] = 6,
 		}, -- [88]
 		{
 			["message"] = "Error loading Interface\\AddOns\\DBM-Core\\modules\\Icons.lua",
-			["session"] = 495,
 			["time"] = "2021/10/17 14:23:42",
+			["session"] = 495,
 			["counter"] = 6,
 		}, -- [89]
 		{
@@ -741,12 +741,28 @@ BugGrabberDB = {
 			["counter"] = 2,
 		}, -- [96]
 		{
+			["message"] = "...erface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:1058: attempt to index local 'quest' (a nil value)",
+			["time"] = "2021/10/18 22:06:24",
+			["locals"] = "self = <table> {\n GetAllQuestIds = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:504\n AcceptQuest = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:377\n HideQuest = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:345\n ToggleNotes = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:80\n PopulateQuestLogInfo = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:1057\n AbandonedQuest = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:428\n SmoothReset = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:252\n PopulateObjectiveNotes = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:1018\n DrawDailyQuest = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:1500\n _resetNeedsAvailables = false\n private = <table> {\n }\n GetRawLeaderBoardDetails = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:355\n UnhideQuest = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:350\n GetAllQuestIdsNoObjectives = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:540\n UpdateQuest = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:475\n AddAllNotes = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:223\n PopulateObjective = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:701\n GetAllQuestObjectives = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:1078\n availableQuests = <table> {\n }\n UpdateObjectiveNotes = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:568\n AddFinisher = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:583\n CalculateAndDrawAvailableQuestsIterative = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:1415\n CompleteQuest = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:401\n Initialize = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:70\n GetAllLeaderBoardDetails = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:1212\n ForceToMap = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:672\n ClearAllNotes = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:179\n Reset = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:233\n}\nquest = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index local 'quest' (a nil value)\"\nQuestieQuest = <table> {\n GetAllQuestIds = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:504\n AcceptQuest = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:377\n HideQuest = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:345\n ToggleNotes = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:80\n PopulateQuestLogInfo = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:1057\n AbandonedQuest = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:428\n SmoothReset = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:252\n PopulateObjectiveNotes = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:1018\n DrawDailyQuest = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:1500\n _resetNeedsAvailables = false\n private = <table> {\n }\n GetRawLeaderBoar",
+			["stack"] = "[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:1058: in function `PopulateQuestLogInfo'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:389: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>",
+			["session"] = 496,
+			["counter"] = 1,
+		}, -- [97]
+		{
+			["message"] = "...erface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:1019: attempt to index local 'quest' (a nil value)",
+			["time"] = "2021/10/18 22:06:24",
+			["locals"] = "self = <table> {\n GetAllQuestIds = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:504\n AcceptQuest = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:377\n HideQuest = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:345\n ToggleNotes = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:80\n PopulateQuestLogInfo = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:1057\n AbandonedQuest = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:428\n SmoothReset = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:252\n PopulateObjectiveNotes = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:1018\n DrawDailyQuest = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:1500\n _resetNeedsAvailables = false\n private = <table> {\n }\n GetRawLeaderBoardDetails = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:355\n UnhideQuest = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:350\n GetAllQuestIdsNoObjectives = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:540\n UpdateQuest = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:475\n AddAllNotes = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:223\n PopulateObjective = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:701\n GetAllQuestObjectives = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:1078\n availableQuests = <table> {\n }\n UpdateObjectiveNotes = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:568\n AddFinisher = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:583\n CalculateAndDrawAvailableQuestsIterative = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:1415\n CompleteQuest = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:401\n Initialize = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:70\n GetAllLeaderBoardDetails = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:1212\n ForceToMap = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:672\n ClearAllNotes = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:179\n Reset = <function> defined @Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua:233\n}\nquest = nil\n(*temporary) = <function> defined @Interface\\AddOns\\Questie\\Questie.lua:181\n(*temporary) = <table> {\n SetDefaultModuleLibraries = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:367\n _sessionWarnings = <table> {\n }\n modules = <table> {\n }\n CancelTimer = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:147\n DEBUG_DEVELOP = \"|cff7c83ff[DEVELOP]|r\"\n UnregisterComm = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:153\n Warning = <function> defined @Interface\\AddOns\\Questie\\Questie.lua:175\n Printf = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceConsole-3.0\\AceConsole-3.0.lua:69\n SetDefaultModulePrototype = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:409\n defaultModuleState = true\n IsEnabled = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:451\n ScheduleTimer = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:94\n DisableModule = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:350\n RegisterMessage = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:90\n GetArgs = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceConsole-3.0\\AceConsole-3",
+			["stack"] = "[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:1019: in function `PopulateObjectiveNotes'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Quest\\QuestieQuest.lua\"]:390: in function `val'\n[string \"@Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua\"]:8: in function <Interface\\AddOns\\Questie\\Modules\\TaskQueue.lua:6>",
+			["session"] = 496,
+			["counter"] = 1,
+		}, -- [98]
+		{
 			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
 			["time"] = "2021/07/01 16:18:25",
 			["locals"] = "GearScore = 2320\nItemLevel = 105\nRed = 0.081600\nBlue = 0.320000\nGreen = 0.840000\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 5\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
-			["session"] = 495,
-			["counter"] = 4514,
-		}, -- [97]
+			["session"] = 496,
+			["counter"] = 4553,
+		}, -- [99]
 	},
 }
