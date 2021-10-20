@@ -33,7 +33,27 @@ DBMPvP_AllSavedVars = {
 		["talent1"] = "WARRIOR1",
 		["PvPGeneral"] = {
 			{
+				["TimerRemaining"] = true,
+				["TimerFlagCVoice"] = 0,
+				["ShowRelativeGameTime"] = true,
+				["TimerRemainingTColor"] = 0,
+				["TimerFlagTColor"] = 0,
+				["HideBossEmoteFrame"] = false,
+				["TimerFlag"] = true,
+				["TimerWinTColor"] = 0,
+				["TimerCapCVoice"] = 0,
+				["ShowBasesToWin"] = false,
+				["TimerStartTColor"] = 0,
+				["TimerWinCVoice"] = 0,
+				["TimerCap"] = true,
+				["TimerStartCVoice"] = 0,
+				["TimerRemainingCVoice"] = 0,
+				["ShowEstimatedPoints"] = true,
 				["Enabled"] = true,
+				["TimerCapTColor"] = 0,
+				["TimerWin"] = true,
+				["AutoSpirit"] = false,
+				["TimerStart"] = true,
 			}, -- [1]
 			{
 				["TimerRemaining"] = true,
@@ -123,6 +143,10 @@ DBMPvP_AllSavedVars = {
 		["z30"] = {
 			{
 				["Enabled"] = true,
+				["TimerBossTColor"] = 0,
+				["TimerBoss"] = true,
+				["AutoTurnIn"] = true,
+				["TimerBossCVoice"] = 0,
 			}, -- [1]
 			{
 				["Enabled"] = true,

@@ -5,9 +5,9 @@ LootMonitorDB = {
 			["InstanceID"] = 532,
 			["FirstPlayer"] = "布極隔",
 			["InstanceName"] = "Karazhan",
-			["Class"] = "WARRIOR",
-			["Date"] = "2021-10-16",
 			["FirstClass"] = "ROGUE",
+			["Date"] = "2021-10-16",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-532-23656-16152-00006A7A87",
@@ -150,8 +150,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Serpentshrine Cavern",
 			["Date"] = "2021-10-16",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "UNKNOWN",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-548-26551-21216-00006ABA3A",
@@ -590,9 +590,9 @@ LootMonitorDB = {
 					},
 				}, -- [29]
 			},
-			["Class"] = "WARRIOR",
-			["Date"] = "2021-10-16",
 			["FirstClass"] = "HUNTER",
+			["Date"] = "2021-10-16",
+			["Class"] = "WARRIOR",
 			["InstanceName"] = "Tempest Keep",
 			["FirstPlayer"] = "尐沫",
 		}, -- [3]
