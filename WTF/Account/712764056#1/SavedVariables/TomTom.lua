@@ -42,19 +42,12 @@ TomTomWaypointsM = {
 	},
 	["profiles"] = {
 		["特變電工 - 伊弗斯"] = {
-			[1420] = {
-				["1420:614914425.42787:530562347.18826:郵箱"] = {
-					1420, -- [1]
-					0.6149144254278729, -- [2]
-					0.5305623471882641, -- [3]
+			[1951] = {
+				["1951:571882640.5868:352322738.38631:古爾莎"] = {
+					1951, -- [1]
+					0.571882640586797, -- [2]
+					0.3523227383863081, -- [3]
 					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "郵箱",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "郵箱",
-					["from"] = "?",
 					["callbacks"] = {
 						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
@@ -71,7 +64,12 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
+					["persistent"] = true,
 					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "古爾莎",
+					["from"] = "?",
+					["crazy"] = true,
 					["world"] = true,
 				},
 			},
