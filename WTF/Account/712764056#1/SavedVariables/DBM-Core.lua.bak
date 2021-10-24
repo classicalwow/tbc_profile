@@ -198,7 +198,7 @@ DBM_AllSavedOptions = {
 			0, -- [2]
 			1, -- [3]
 		},
-		["DontShowUserTimers"] = false,
+		["CountdownVoice3"] = "Smooth",
 		["SpecialWarningFont"] = "standardFont",
 		["WarningDuration2"] = 1.5,
 		["AutoRespond"] = true,
@@ -216,8 +216,8 @@ DBM_AllSavedOptions = {
 		["DisableStatusWhisper"] = false,
 		["InfoFrameShowSelf"] = false,
 		["WarningFontShadow"] = true,
-		["CountdownVoice3"] = "Smooth",
 		["RecordOnlyBosses"] = false,
+		["DontShowUserTimers"] = false,
 		["DontShowBossTimers"] = false,
 		["SpecialWarningFontStyle"] = "THICKOUTLINE",
 		["DontShowSpecialWarningFlash"] = false,

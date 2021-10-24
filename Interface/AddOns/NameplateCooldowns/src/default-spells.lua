@@ -354,32 +354,52 @@ do
 		end
 	end
 
-	local allMageSpells = {};
-	for spellId in pairs(addonTable.CDs.MAGE) do
-		if (spellId ~= 12472) then
-			allMageSpells[#allMageSpells + 1] = spellId;
-		end
-	end
+	local mageResetSpells = {};
+	table.insert(mageResetSpells, 120); 	-- Cone of Cold
+	table.insert(mageResetSpells, 8492); 	-- Cone of Cold
+	table.insert(mageResetSpells, 10159); 	-- Cone of Cold
+	table.insert(mageResetSpells, 10160); 	-- Cone of Cold
+	table.insert(mageResetSpells, 10161); 	-- Cone of Cold
+	table.insert(mageResetSpells, 27087); 	-- Cone of Cold
+	table.insert(mageResetSpells, 122); 	-- Frost Nova
+	table.insert(mageResetSpells, 865); 	-- Frost Nova
+	table.insert(mageResetSpells, 6131); 	-- Frost Nova
+	table.insert(mageResetSpells, 10230); 	-- Frost Nova
+	table.insert(mageResetSpells, 27088); 	-- Frost Nova
+	table.insert(mageResetSpells, 11426); 	-- Ice Barrier
+	table.insert(mageResetSpells, 13031); 	-- Ice Barrier
+	table.insert(mageResetSpells, 13032); 	-- Ice Barrier
+	table.insert(mageResetSpells, 13033); 	-- Ice Barrier
+	table.insert(mageResetSpells, 27134); 	-- Ice Barrier
+	table.insert(mageResetSpells, 33405); 	-- Ice Barrier
+	table.insert(mageResetSpells, 12472); 	-- Icy Veins
+	table.insert(mageResetSpells, 45438); 	-- Ice Block
+	table.insert(mageResetSpells, 31687); 	-- Summon Water Elemental
 
-	local allRogueSpells = {};
-	for spellId in pairs(addonTable.CDs.ROGUE) do
-		if (spellId ~= 14185) then
-			allRogueSpells[#allRogueSpells + 1] = spellId;
-		end
-	end
+	local roguePreparationCds = {};
+	table.insert(roguePreparationCds, 26669); 	-- Evasion
+	table.insert(roguePreparationCds, 2983); 	-- Sprint
+	table.insert(roguePreparationCds, 11305); 	-- Sprint
+	table.insert(roguePreparationCds, 8696); 	-- Sprint
+	table.insert(roguePreparationCds, 1856); 	-- Vanish
+	table.insert(roguePreparationCds, 26889); 	-- Vanish
+	table.insert(roguePreparationCds, 1857); 	-- Vanish
+	table.insert(roguePreparationCds, 14177); 	-- Cold Blood
+	table.insert(roguePreparationCds, 36554); 	-- Shadowstep
+	table.insert(roguePreparationCds, 14183); 	-- Premeditation
 
 	addonTable.Reductions = {
 		[23989] = {	-- HUNTER: Готовность https://ru.tbc.wowhead.com/spell=23989
 			["reduction"] = BIG_REDUCTION,
 			["spells"] = allHunterSpells,
 		},
-		[12472] = {	-- MAGE: Стылая кровь https://ru.tbc.wowhead.com/spell=12472
+		[11958] = {	-- MAGE: Стылая кровь https://ru.tbc.wowhead.com/spell=12472
 			["reduction"] = BIG_REDUCTION,
-			["spells"] = allMageSpells,
+			["spells"] = mageResetSpells,
 		},
 		[14185] = {	-- ROGUE: Подготовка https://ru.tbc.wowhead.com/spell=14185
 			["reduction"] = BIG_REDUCTION,
-			["spells"] = allRogueSpells,
+			["spells"] = roguePreparationCds,
 		},
 	};
 

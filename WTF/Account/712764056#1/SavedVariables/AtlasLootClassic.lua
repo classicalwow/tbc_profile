@@ -25,10 +25,10 @@ AtlasLootClassicDB = {
 					-94.32051086425781, -- [5]
 				},
 				["selected"] = {
-					"AtlasLootClassic_Factions", -- [1]
-					"TheAldor", -- [2]
+					"AtlasLootClassic_Crafting", -- [1]
+					"EnchantingBC", -- [2]
 					nil, -- [3]
-					2, -- [4]
+					1, -- [4]
 					0, -- [5]
 				},
 			},

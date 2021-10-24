@@ -7,8 +7,8 @@ DataStore_AuctionsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1634439866,
-				["lastVisitDate"] = "2021/10/17 11:04",
+				["lastUpdate"] = 1634984791,
+				["lastVisitDate"] = "2021/10/23 18:26",
 			},
 			["Default.伊弗斯.邁克爾假死"] = {
 				["lastUpdate"] = 1632545261,
