@@ -18,16 +18,16 @@ AtlasLootClassicDB = {
 			},
 			["GUI"] = {
 				["point"] = {
-					nil, -- [1]
+					"LEFT", -- [1]
 					nil, -- [2]
-					"CENTER", -- [3]
-					-165.7540130615234, -- [4]
-					-94.32051086425781, -- [5]
+					"LEFT", -- [3]
+					318.834228515625, -- [4]
+					-76.53938293457031, -- [5]
 				},
 				["selected"] = {
-					"AtlasLootClassic_Crafting", -- [1]
-					"EnchantingBC", -- [2]
-					nil, -- [3]
+					nil, -- [1]
+					"TempestKeep", -- [2]
+					4, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},

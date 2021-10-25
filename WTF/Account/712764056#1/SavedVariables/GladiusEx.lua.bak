@@ -31,26 +31,28 @@ GladiusExDB = {
 					["modules"] = {
 						["Alerts"] = true,
 					},
+					["barsHeight"] = 55,
 					["margin"] = 0,
+					["oorAlpha"] = 0.6000000000000001,
 					["y"] = {
-						["arena2"] = 352.8840035175708,
-						["arena4"] = 254.0884810142434,
-						["anchor_arena"] = 289.8893663500821,
-						["arena5"] = 204.6907451730422,
-						["arena3"] = 303.4862676763696,
-						["arena1"] = 402.2817732393887,
+						["arena2"] = 385.5709931562888,
+						["arena1"] = 456.3535406974188,
+						["anchor_arena"] = 324.3784450288513,
+						["arena3"] = 420.9622460772443,
+						["arena5"] = 279.3971926942031,
+						["arena4"] = 350.1796985361143,
 					},
 					["x"] = {
-						["arena2"] = 995.0491146739005,
-						["arena4"] = 995.0491146739005,
-						["anchor_arena"] = 959.5227131541251,
-						["arena5"] = 995.0491146739005,
-						["arena3"] = 995.0491146739005,
-						["arena1"] = 995.0491146739005,
+						["arena2"] = 1293.817842703982,
+						["arena1"] = 1293.817842703982,
+						["anchor_arena"] = 1015.700570244844,
+						["arena3"] = 1293.817842703982,
+						["arena5"] = 1293.817842703982,
+						["arena4"] = 1293.817842703982,
 					},
 					["backgroundPadding"] = 0,
 					["frameScale"] = 0.91,
-					["barWidth"] = 154,
+					["barWidth"] = 216,
 				},
 			},
 		},
@@ -61,22 +63,27 @@ GladiusExDB = {
 		["party"] = {
 			["profiles"] = {
 				["特變電工 - 伊弗斯"] = {
+					["modMargin"] = 2,
+					["borderSize"] = 1,
 					["y"] = {
-						["player"] = 379.6721196659746,
-						["party1"] = 330.2682853137703,
-						["anchor_party"] = 295.2221358295064,
-						["party2"] = 280.8643323794076,
-						["party3"] = 231.4604641465867,
-						["party4"] = 182.056562033149,
+						["player"] = 374.1327723267677,
+						["party1"] = 309.7168198211657,
+						["anchor_party"] = 325.0887573109612,
+						["party2"] = 341.9247960739667,
+						["party3"] = 277.5088018691458,
+						["party4"] = 213.0927868147155,
 					},
 					["x"] = {
-						["player"] = 277.090556830397,
-						["party1"] = 277.090556830397,
-						["anchor_party"] = 253.2550730777584,
-						["party2"] = 277.090556830397,
-						["party3"] = 277.090556830397,
-						["party4"] = 277.090556830397,
+						["player"] = 142.5149303141388,
+						["party1"] = 142.5149303141388,
+						["anchor_party"] = 85.07732644667612,
+						["party2"] = 142.5149303141388,
+						["party3"] = 142.5149303141388,
+						["party4"] = 142.5149303141388,
 					},
+					["barsHeight"] = 41,
+					["frameScale"] = 1.12,
+					["barWidth"] = 172,
 				},
 			},
 		},
@@ -90,29 +97,29 @@ GladiusExDB = {
 		},
 		["HealthBar"] = {
 		},
-		["party_PetBar"] = {
+		["Clicks"] = {
 		},
-		["PetBar"] = {
+		["Tags"] = {
 		},
 		["party_Cooldowns"] = {
 		},
 		["party_Clicks"] = {
 		},
-		["party_Interrupts"] = {
+		["party_Auras"] = {
 		},
 		["Announcements"] = {
 		},
-		["Alerts"] = {
+		["party_Tags"] = {
 		},
 		["TargetBar"] = {
 		},
-		["party_Tags"] = {
+		["Alerts"] = {
 		},
-		["party_Auras"] = {
+		["party_Interrupts"] = {
 		},
-		["Tags"] = {
+		["PetBar"] = {
 		},
-		["Clicks"] = {
+		["party_PetBar"] = {
 		},
 		["ClassIcon"] = {
 		},
@@ -123,6 +130,8 @@ GladiusExDB = {
 	},
 	["profiles"] = {
 		["特變電工 - 伊弗斯"] = {
+			["globalFont"] = "預設",
+			["globalFontSize"] = 12,
 			["locked"] = true,
 			["advancedOptions"] = true,
 		},

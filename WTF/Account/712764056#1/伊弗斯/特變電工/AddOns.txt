@@ -118,7 +118,7 @@ WideQuestLog: enabled
 AddOnSkins: enabled
 DBM-CountPack-Overwatch: enabled
 nameplatecooldowns: enabled
-gladiusex: disabled
+gladiusex: enabled
 ItemRack: enabled
 MailLogger: enabled
 RareScanner: enabled

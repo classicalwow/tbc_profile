@@ -25,10 +25,10 @@ AtlasLootClassicDB = {
 					-94.32051086425781, -- [5]
 				},
 				["selected"] = {
-					"AtlasLootClassic_PvP", -- [1]
-					"ArenaS4PvP", -- [2]
-					7, -- [3]
-					2, -- [4]
+					"AtlasLootClassic_Crafting", -- [1]
+					"EnchantingBC", -- [2]
+					nil, -- [3]
+					1, -- [4]
 					0, -- [5]
 				},
 			},
