@@ -11,7 +11,7 @@ local Trinkets = addonTable.Trinkets;
 local Reductions = addonTable.Reductions;
 
 --@non-debug@
-local buildTimestamp = "20501.10-release";
+local buildTimestamp = "20501.11-release";
 --@end-non-debug@
 
 -- Libraries
@@ -655,7 +655,7 @@ do
 	local _spellCDs;
 	local _spellIDs = {
 		[2139] 		= 24,
-		[108194] 	= 45,
+		[28730] 	= 45,
 		[100] 		= 17,
 	};
 
