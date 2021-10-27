@@ -7,8 +7,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "布極隔",
 			["InstanceName"] = "Karazhan",
 			["Date"] = "2021-10-16",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "ROGUE",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-532-23656-16152-00006A7A87",
@@ -148,9 +148,9 @@ LootMonitorDB = {
 			["InstanceID"] = 548,
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Serpentshrine Cavern",
-			["FirstClass"] = "UNKNOWN",
-			["Date"] = "2021-10-16",
 			["Class"] = "WARRIOR",
+			["Date"] = "2021-10-16",
+			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-548-26551-21216-00006ABA3A",
@@ -592,8 +592,8 @@ LootMonitorDB = {
 				}, -- [29]
 			},
 			["Date"] = "2021-10-16",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "HUNTER",
+			["Class"] = "WARRIOR",
 			["InstanceName"] = "Tempest Keep",
 		}, -- [3]
 		{
@@ -602,8 +602,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Serpentshrine Cavern",
 			["Date"] = "2021-10-23",
-			["FirstClass"] = "UNKNOWN",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-548-31074-21339-000173F3D5",
@@ -719,8 +719,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "我只能慢慢來",
 			["InstanceName"] = "Tempest Keep",
 			["Date"] = "2021-10-23",
-			["FirstClass"] = "DRUID",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "DRUID",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-550-7113-19514-00007422C9",
@@ -766,7 +766,10 @@ LootMonitorDB = {
 			["Class"] = "WARRIOR",
 			["InstanceID"] = 309,
 			["FirstPlayer"] = "未知",
+			["SavedID"] = 44698949,
+			["InstanceName"] = "祖爾格拉布",
 			["FirstClass"] = "UNKNOWN",
+			["Player"] = "特變電工",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-309-25674-14509-000074FF83",
@@ -793,9 +796,6 @@ LootMonitorDB = {
 					},
 				}, -- [2]
 			},
-			["SavedID"] = 44698949,
-			["Player"] = "特變電工",
-			["InstanceName"] = "祖爾格拉布",
 		}, -- [6]
 		{
 			["InstanceID"] = 550,
@@ -803,8 +803,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Tempest Keep",
 			["Date"] = "2021-10-24",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "UNKNOWN",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-550-8545-20031-0000F54542",

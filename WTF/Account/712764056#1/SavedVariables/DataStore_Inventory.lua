@@ -31,7 +31,7 @@ DataStore_InventoryDB = {
 				["lastUpdate"] = 1632561001,
 			},
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1635185212,
+				["lastUpdate"] = 1635270320,
 				["averageItemLvl"] = 126.375,
 				["Inventory"] = {
 					"|cff0070dd|Hitem:28853:3003:28556:24048:::::70:::::::::|h[高階督軍鎧甲頭盔]|h|r", -- [1]
@@ -58,6 +58,9 @@ DataStore_InventoryDB = {
 		["Guilds"] = {
 			["Default.伊弗斯.猛男俱樂部"] = {
 				["Members"] = {
+					["特變電工"] = {
+						["averageItemLvl"] = 123,
+					},
 					["軟爛膝蓋"] = {
 						["averageItemLvl"] = 119,
 					},

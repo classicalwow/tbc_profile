@@ -15,20 +15,17 @@ BatteInfoSettings = {
 }
 BatteInfoStat = {
 	{
-		[18917] = {
-			["win"] = 3,
-			["total"] = 9,
-		},
-		["total"] = 25,
-		["win"] = 10,
 		[18889] = {
 			["win"] = 1,
 			["total"] = 3,
 		},
-		[18918] = {
-			["win"] = 4,
-			["total"] = 4,
+		["total"] = 25,
+		["win"] = 10,
+		[18917] = {
+			["win"] = 3,
+			["total"] = 9,
 		},
+		["start"] = 1632044299,
 		[18891] = {
 			["win"] = 0,
 			["total"] = 2,
@@ -37,7 +34,10 @@ BatteInfoStat = {
 			["win"] = 2,
 			["total"] = 7,
 		},
-		["start"] = 1632044299,
+		[18918] = {
+			["win"] = 4,
+			["total"] = 4,
+		},
 	}, -- [1]
 	{
 		["total"] = 80,

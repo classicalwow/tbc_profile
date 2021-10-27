@@ -5,9 +5,9 @@ LootMonitorDB = {
 			["InstanceID"] = 532,
 			["FirstPlayer"] = "布極隔",
 			["InstanceName"] = "Karazhan",
-			["Class"] = "WARRIOR",
-			["Date"] = "2021-10-16",
 			["FirstClass"] = "ROGUE",
+			["Date"] = "2021-10-16",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-532-23656-16152-00006A7A87",
@@ -150,8 +150,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Serpentshrine Cavern",
 			["Date"] = "2021-10-16",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "UNKNOWN",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-548-26551-21216-00006ABA3A",
@@ -590,9 +590,9 @@ LootMonitorDB = {
 					},
 				}, -- [29]
 			},
-			["Class"] = "WARRIOR",
-			["Date"] = "2021-10-16",
 			["FirstClass"] = "HUNTER",
+			["Date"] = "2021-10-16",
+			["Class"] = "WARRIOR",
 			["InstanceName"] = "Tempest Keep",
 			["FirstPlayer"] = "尐沫",
 		}, -- [3]
@@ -600,9 +600,9 @@ LootMonitorDB = {
 			["InstanceID"] = 548,
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Serpentshrine Cavern",
-			["FirstClass"] = "UNKNOWN",
-			["Date"] = "2021-10-23",
 			["Class"] = "WARRIOR",
+			["Date"] = "2021-10-23",
+			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-548-31074-21339-000173F3D5",
@@ -717,9 +717,9 @@ LootMonitorDB = {
 			["InstanceID"] = 550,
 			["FirstPlayer"] = "我只能慢慢來",
 			["InstanceName"] = "Tempest Keep",
-			["FirstClass"] = "DRUID",
-			["Date"] = "2021-10-23",
 			["Class"] = "WARRIOR",
+			["Date"] = "2021-10-23",
+			["FirstClass"] = "DRUID",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-550-7113-19514-00007422C9",
@@ -766,6 +766,7 @@ LootMonitorDB = {
 			["Class"] = "WARRIOR",
 			["InstanceID"] = 309,
 			["FirstPlayer"] = "未知",
+			["InstanceName"] = "祖爾格拉布",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-309-25674-14509-000074FF83",
@@ -792,18 +793,17 @@ LootMonitorDB = {
 					},
 				}, -- [2]
 			},
-			["InstanceName"] = "祖爾格拉布",
-			["SavedID"] = 44698949,
-			["Player"] = "特變電工",
 			["FirstClass"] = "UNKNOWN",
+			["Player"] = "特變電工",
+			["SavedID"] = 44698949,
 		}, -- [6]
 		{
 			["InstanceID"] = 550,
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Tempest Keep",
-			["Class"] = "WARRIOR",
-			["Date"] = "2021-10-24",
 			["FirstClass"] = "UNKNOWN",
+			["Date"] = "2021-10-24",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-550-8545-20031-0000F54542",
