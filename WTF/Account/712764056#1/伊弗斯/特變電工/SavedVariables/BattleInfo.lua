@@ -5,19 +5,19 @@ BatteInfoSettings = {
 	["auto_leave_bg_time"] = 120,
 	["show_time_elapsed"] = true,
 	["label_size"] = 0,
-	["show_number"] = true,
+	["stat_window"] = false,
 	["replace_enter_battle"] = true,
 	["replace_hide_battle"] = true,
-	["show_spirit_heal"] = true,
-	["map_unit_color"] = true,
 	["flash_icon"] = true,
-	["stat_window"] = false,
+	["map_unit_color"] = true,
+	["show_spirit_heal"] = true,
+	["show_number"] = true,
 }
 BatteInfoStat = {
 	{
-		[18918] = {
-			["win"] = 4,
-			["total"] = 4,
+		[18917] = {
+			["win"] = 3,
+			["total"] = 9,
 		},
 		["total"] = 25,
 		["win"] = 10,
@@ -25,7 +25,10 @@ BatteInfoStat = {
 			["win"] = 1,
 			["total"] = 3,
 		},
-		["start"] = 1632044299,
+		[18918] = {
+			["win"] = 4,
+			["total"] = 4,
+		},
 		[18891] = {
 			["win"] = 0,
 			["total"] = 2,
@@ -34,16 +37,13 @@ BatteInfoStat = {
 			["win"] = 2,
 			["total"] = 7,
 		},
-		[18917] = {
-			["win"] = 3,
-			["total"] = 9,
-		},
+		["start"] = 1632044299,
 	}, -- [1]
 	{
 		["total"] = 81,
 		["win"] = 45,
-		[18921] = {
-			["win"] = 1,
+		[18920] = {
+			["win"] = 0,
 			["total"] = 1,
 		},
 		[18901] = {
@@ -54,9 +54,9 @@ BatteInfoStat = {
 			["win"] = 3,
 			["total"] = 4,
 		},
-		[18904] = {
-			["win"] = 10,
-			["total"] = 23,
+		[18906] = {
+			["win"] = 5,
+			["total"] = 6,
 		},
 		[18928] = {
 			["win"] = 1,
@@ -66,9 +66,9 @@ BatteInfoStat = {
 			["win"] = 6,
 			["total"] = 11,
 		},
-		[18906] = {
-			["win"] = 5,
-			["total"] = 6,
+		[18921] = {
+			["win"] = 1,
+			["total"] = 1,
 		},
 		[18910] = {
 			["win"] = 1,
@@ -83,9 +83,9 @@ BatteInfoStat = {
 			["win"] = 2,
 			["total"] = 5,
 		},
-		[18920] = {
-			["win"] = 0,
-			["total"] = 1,
+		[18904] = {
+			["win"] = 10,
+			["total"] = 23,
 		},
 	}, -- [2]
 	{
@@ -180,24 +180,24 @@ BatteInfoStat = {
 			["win"] = 1,
 			["total"] = 1,
 		},
-		[18928] = {
+		[18925] = {
 			["win"] = 1,
 			["total"] = 1,
 		},
-		[18922] = {
-			["win"] = 0,
-			["total"] = 1,
+		[18924] = {
+			["win"] = 5,
+			["total"] = 7,
 		},
 		["start"] = 1632044299,
 		[18923] = {
 			["win"] = 2,
 			["total"] = 7,
 		},
-		[18924] = {
-			["win"] = 5,
-			["total"] = 7,
+		[18922] = {
+			["win"] = 0,
+			["total"] = 1,
 		},
-		[18925] = {
+		[18928] = {
 			["win"] = 1,
 			["total"] = 1,
 		},
