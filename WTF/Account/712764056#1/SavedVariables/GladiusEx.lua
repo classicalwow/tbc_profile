@@ -67,19 +67,19 @@ GladiusExDB = {
 					["borderSize"] = 1,
 					["y"] = {
 						["player"] = 314.9606838898872,
-						["party1"] = 262.6227203716371,
-						["anchor_party"] = 338.5998880089719,
 						["party2"] = 341.9247960739667,
-						["party3"] = 277.5088018691458,
+						["anchor_party"] = 338.5998880089719,
 						["party4"] = 213.0927868147155,
+						["party3"] = 277.5088018691458,
+						["party1"] = 262.6227203716371,
 					},
 					["x"] = {
 						["player"] = 31.14893055500102,
-						["party1"] = 31.14893055500102,
-						["anchor_party"] = -19.10044317238157,
 						["party2"] = 142.5149303141388,
-						["party3"] = 142.5149303141388,
+						["anchor_party"] = -19.10044317238157,
 						["party4"] = 142.5149303141388,
+						["party3"] = 142.5149303141388,
+						["party1"] = 31.14893055500102,
 					},
 					["barsHeight"] = 41,
 					["frameScale"] = 1.12,
@@ -107,7 +107,7 @@ GladiusExDB = {
 		},
 		["party_Auras"] = {
 		},
-		["party_Interrupts"] = {
+		["Announcements"] = {
 		},
 		["party_Tags"] = {
 		},
@@ -115,7 +115,7 @@ GladiusExDB = {
 		},
 		["Alerts"] = {
 		},
-		["Announcements"] = {
+		["party_Interrupts"] = {
 		},
 		["PetBar"] = {
 		},

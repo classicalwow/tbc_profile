@@ -20,7 +20,7 @@ DataStore_AgendaDB = {
 				},
 			},
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1635385471,
+				["lastUpdate"] = 1635439356,
 			},
 		},
 	},

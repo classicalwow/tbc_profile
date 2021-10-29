@@ -73,7 +73,7 @@ DBM_AllSavedOptions = {
 		["SpecialWarningShortText"] = true,
 		["SpecialWarningVibrate1"] = false,
 		["DontShowPTText"] = false,
-		["NewsMessageShown2"] = 1,
+		["UseNameplateHandoff"] = true,
 		["SpecialWarningVibrate4"] = true,
 		["SpecialWarningFontSize2"] = 35,
 		["SpecialWarningFlashCol5"] = {
@@ -81,7 +81,7 @@ DBM_AllSavedOptions = {
 			1, -- [2]
 			1, -- [3]
 		},
-		["UseNameplateHandoff"] = true,
+		["NewsMessageShown2"] = 1,
 		["SpecialWarningVibrate3"] = true,
 		["SpecialWarningFlashCol1"] = {
 			1, -- [1]
@@ -93,8 +93,8 @@ DBM_AllSavedOptions = {
 		["FilterTrashWarnings2"] = true,
 		["SpecialWarningFlashAlph4"] = 0.4,
 		["EventSoundMusic"] = "None",
-		["PTCountThreshold2"] = 5,
 		["SpecialWarningVibrate2"] = false,
+		["PTCountThreshold2"] = 5,
 		["SpecialWarningFlashCount2"] = 1,
 		["RLReadyCheckSound"] = true,
 		["EventSoundDungeonBGM"] = "None",
@@ -111,17 +111,11 @@ DBM_AllSavedOptions = {
 		["DontPlayTrivialSpecialWarningSound"] = true,
 		["SpecialWarningSound4"] = "Interface\\AddOns\\DBM-Core\\sounds\\ClassicSupport\\HoodWolfTransformPlayer01.ogg",
 		["DontRestoreIcons"] = false,
-		["GUIX"] = -196.1592712402344,
-		["DisableSFX"] = false,
 		["AutologBosses"] = false,
+		["DisableSFX"] = false,
+		["GUIX"] = -196.1592712402344,
 		["SpecialWarningFlashDura4"] = 0.7,
 		["ShowGuildMessages"] = true,
-		["InfoFrameFontSize"] = 12,
-		["SpecialWarningFlashCol3"] = {
-			1, -- [1]
-			0, -- [2]
-			0, -- [3]
-		},
 		["WarningColors"] = {
 			{
 				["b"] = 0.9411764705882353,
@@ -144,6 +138,12 @@ DBM_AllSavedOptions = {
 				["r"] = 1,
 			}, -- [4]
 		},
+		["SpecialWarningFlashCol3"] = {
+			1, -- [1]
+			0, -- [2]
+			0, -- [3]
+		},
+		["InfoFrameFontSize"] = 12,
 		["SpecialWarningFlashDura5"] = 1,
 		["SWarningAlphabetical"] = true,
 		["GUIHeight"] = 600,
@@ -164,11 +164,11 @@ DBM_AllSavedOptions = {
 		["CustomSounds"] = 0,
 		["RaidWarningSound"] = 6674,
 		["DontRestoreRange"] = false,
-		["RoleSpecAlert"] = true,
-		["SpecialWarningFlashCount3"] = 3,
 		["ShortTimerText"] = true,
+		["SpecialWarningFlashCount3"] = 3,
+		["RoleSpecAlert"] = true,
 		["WhisperStats"] = false,
-		["VoiceOverSpecW2"] = "DefaultOnly",
+		["SilentMode"] = false,
 		["LogOnlyNonTrivial"] = true,
 		["DontPlayPTCountdown"] = false,
 		["SpecialWarningFlashAlph5"] = 0.5,
@@ -198,7 +198,7 @@ DBM_AllSavedOptions = {
 			0, -- [2]
 			1, -- [3]
 		},
-		["CountdownVoice3"] = "Smooth",
+		["DontShowUserTimers"] = false,
 		["SpecialWarningFont"] = "standardFont",
 		["WarningDuration2"] = 1.5,
 		["AutoRespond"] = true,
@@ -216,8 +216,8 @@ DBM_AllSavedOptions = {
 		["DisableStatusWhisper"] = false,
 		["InfoFrameShowSelf"] = false,
 		["WarningFontShadow"] = true,
+		["CountdownVoice3"] = "Smooth",
 		["RecordOnlyBosses"] = false,
-		["DontShowUserTimers"] = false,
 		["DontShowBossTimers"] = false,
 		["SpecialWarningFontStyle"] = "THICKOUTLINE",
 		["DontShowSpecialWarningFlash"] = false,
@@ -226,7 +226,7 @@ DBM_AllSavedOptions = {
 		["WorldBossNearAlert"] = false,
 		["DontShowBossAnnounces"] = false,
 		["BadIDAlert"] = false,
-		["SilentMode"] = false,
+		["VoiceOverSpecW2"] = "DefaultOnly",
 		["AutoAcceptFriendInvite"] = false,
 		["WarningIconChat"] = true,
 		["SpecialWarningFlashCount1"] = 1,
