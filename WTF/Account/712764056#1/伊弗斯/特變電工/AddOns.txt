@@ -147,6 +147,7 @@ altoholic_grids: enabled
 altoholic_search: enabled
 Altoholic: enabled
 arkinventoryconfig: enabled
-blizzmove: disabled
+blizzmove: enabled
 blizzmove_debug: enabled
 dbm-worldevents: enabled
+gladius: disabled

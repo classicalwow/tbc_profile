@@ -1,8 +1,0 @@
-Changes since tag 2.0-BCC
-
-commit f12ad864d672a3ed5d76aba898169c2e544de83d
-Author: vendethiel <vendethiel@hotmail.fr>
-Date:   Fri Jul 16 13:48:18 2021 +0200
-
-    zzz bcc
-
