@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 	["lastSanitation"] = 3,
-	["session"] = 525,
+	["session"] = 535,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\TomTom\\TomTom_Config.lua:40: attempt to call method 'EnableDisablePOIIntegration' (a nil value)",
@@ -765,12 +765,19 @@ BugGrabberDB = {
 			["counter"] = 1,
 		}, -- [99]
 		{
+			["message"] = "Interface\\AddOns\\Gladdy\\Modules\\Auras-光環.lua:310: attempt to index field '?' (a nil value)",
+			["time"] = "2021/10/31 17:08:37",
+			["stack"] = "[string \"@Interface\\AddOns\\Gladdy\\Modules\\Auras-光環.lua\"]:310: in function `?'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-4.lua\"]:131: in function `Call'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-4.lua\"]:309: in function `Test'\n[string \"@Interface\\AddOns\\Gladdy\\Frame.lua\"]:329: in function `ToggleFrame'\n[string \"@Interface\\AddOns\\Gladdy\\Modules\\XiconProfiles.lua\"]:34: in function `ApplyClassic'\n[string \"@Interface\\AddOns\\Gladdy\\Modules\\XiconProfiles.lua\"]:107: in function <Interface\\AddOns\\Gladdy\\Modules\\XiconProfiles.lua:105>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Accountant_Classic\\Libs\\AceConfig-3.0-3\\AceConfigDialog-3.0\\AceConfigDialog-3.0-81.lua\"]:51: in function <...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:49>\n[string \"@Interface\\AddOns\\Accountant_Classic\\Libs\\AceConfig-3.0-3\\AceConfigDialog-3.0\\AceConfigDialog-3.0-81.lua\"]:847: in function <...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:668>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\AceGUI-3.0-41.lua\"]:72: in function <...ns\\Accountant_Classic\\Libs\\AceGUI-3.0\\AceGUI-3.0.lua:70>\n[string \"@Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\AceGUI-3.0-41.lua\"]:306: in function `Fire'\n[string \"@Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Icon.lua\"]:26: in function <...lassic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-Icon.lua:25>",
+			["session"] = 528,
+			["counter"] = 2,
+		}, -- [100]
+		{
 			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
 			["time"] = "2021/07/01 16:18:25",
 			["locals"] = "GearScore = 2320\nItemLevel = 105\nRed = 0.081600\nBlue = 0.320000\nGreen = 0.840000\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 5\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
-			["session"] = 525,
-			["counter"] = 5038,
-		}, -- [100]
+			["session"] = 533,
+			["counter"] = 5092,
+		}, -- [101]
 	},
 }

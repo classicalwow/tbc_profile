@@ -42,12 +42,19 @@ TomTomWaypointsM = {
 	},
 	["profiles"] = {
 		["特變電工 - 伊弗斯"] = {
-			[1953] = {
-				["1953:651833740.8313:667970660.1467:哈帕克斯"] = {
-					1953, -- [1]
-					0.651833740831296, -- [2]
-					0.6679706601466993, -- [3]
+			[1955] = {
+				["1955:640586797.06601:411002444.98778:紐卓"] = {
+					1955, -- [1]
+					0.6405867970660146, -- [2]
+					0.4110024449877751, -- [3]
 					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "紐卓",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "紐卓",
+					["from"] = "?",
 					["callbacks"] = {
 						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
@@ -64,12 +71,7 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
-					["persistent"] = true,
 					["minimap"] = true,
-					["cleardistance"] = 10,
-					["title"] = "哈帕克斯",
-					["from"] = "?",
-					["crazy"] = true,
 					["world"] = true,
 				},
 			},

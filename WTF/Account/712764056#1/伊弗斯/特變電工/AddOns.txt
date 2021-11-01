@@ -151,3 +151,5 @@ blizzmove: enabled
 blizzmove_debug: enabled
 dbm-worldevents: enabled
 gladius: disabled
+omnicd: enabled
+omnibar: enabled
