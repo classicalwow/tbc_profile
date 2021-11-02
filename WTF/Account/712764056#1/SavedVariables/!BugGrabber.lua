@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+	["session"] = 538,
 	["lastSanitation"] = 3,
-	["session"] = 535,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\TomTom\\TomTom_Config.lua:40: attempt to call method 'EnableDisablePOIIntegration' (a nil value)",
@@ -74,8 +74,8 @@ BugGrabberDB = {
 		}, -- [9]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\MeetingHorn\\Libs\\tdGUI\\Libs\\LibClass-2.0-10\\LibClass-2.0.xml",
-			["time"] = "2021/06/08 20:55:27",
 			["session"] = 47,
+			["time"] = "2021/06/08 20:55:27",
 			["counter"] = 91,
 		}, -- [10]
 		{
@@ -197,26 +197,26 @@ BugGrabberDB = {
 		}, -- [25]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\alaTalentEmu\\libs\\libs.xml",
-			["session"] = 304,
 			["time"] = "2021/08/08 18:21:56",
+			["session"] = 304,
 			["counter"] = 3,
 		}, -- [26]
 		{
 			["message"] = "Error loading Interface\\AddOns\\ClassicCodex-patch\\objects-questie-tbc.lua",
-			["session"] = 304,
 			["time"] = "2021/08/08 18:21:56",
+			["session"] = 304,
 			["counter"] = 3,
 		}, -- [27]
 		{
 			["message"] = "Error loading Interface\\AddOns\\ClassicCodex-patch\\objects-loc-tbc.lua",
-			["session"] = 304,
 			["time"] = "2021/08/08 18:21:56",
+			["session"] = 304,
 			["counter"] = 3,
 		}, -- [28]
 		{
 			["message"] = "Error loading Interface\\AddOns\\Questie\\Localization\\Translations\\Zones\\Battlegrounds-戰場.lua",
-			["session"] = 304,
 			["time"] = "2021/08/08 18:21:56",
+			["session"] = 304,
 			["counter"] = 1,
 		}, -- [29]
 		{
@@ -300,8 +300,8 @@ BugGrabberDB = {
 		}, -- [39]
 		{
 			["message"] = "Texture <unnamed>: Unable to load atlas entry QuestSharing-Padlock",
-			["time"] = "2021/08/22 00:26:04",
 			["session"] = 333,
+			["time"] = "2021/08/22 00:26:04",
 			["counter"] = 10,
 		}, -- [40]
 		{
@@ -601,14 +601,14 @@ BugGrabberDB = {
 		}, -- [77]
 		{
 			["message"] = "Error loading Interface\\AddOns\\DBM-Core\\modules\\Modules.lua",
-			["session"] = 495,
 			["time"] = "2021/10/17 14:23:42",
+			["session"] = 495,
 			["counter"] = 6,
 		}, -- [78]
 		{
 			["message"] = "Error loading Interface\\AddOns\\DBM-Core\\modules\\Icons.lua",
-			["session"] = 495,
 			["time"] = "2021/10/17 14:23:42",
+			["session"] = 495,
 			["counter"] = 6,
 		}, -- [79]
 		{
@@ -746,14 +746,14 @@ BugGrabberDB = {
 		}, -- [96]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GladiusEx\\libs\\LibCooldownTracker-1.0-10\\cooldowns_bcc_racials.lua",
-			["time"] = "2021/08/22 00:22:49",
 			["session"] = 520,
+			["time"] = "2021/08/22 00:22:49",
 			["counter"] = 470,
 		}, -- [97]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GladiusEx\\libs\\LibCooldownTracker-1.0-10\\cooldowns_bcc_items.lua",
-			["time"] = "2021/08/22 00:22:49",
 			["session"] = 520,
+			["time"] = "2021/08/22 00:22:49",
 			["counter"] = 470,
 		}, -- [98]
 		{
@@ -772,12 +772,20 @@ BugGrabberDB = {
 			["counter"] = 2,
 		}, -- [100]
 		{
+			["message"] = "Interface_TBC\\FrameXML\\UIParent.lua:3691: attempt to call global 'SocialQueueUtil_GetQueueName' (a nil value)",
+			["time"] = "2021/11/02 00:41:11",
+			["locals"] = "firstInvite = \"Player-4487-0008667C\"\nconfirmationType = 3\nname = \"胡辣來殺人囉\"\nguid = \"Player-4487-0008667C\"\nrolesInvalid = false\nwillConvertToRaid = false\ntext = \"如果胡辣來殺人囉加入你的隊伍，你將被移出以下佇列：\"\ninvalidQueues = <table> {\n 1 = <table> {\n }\n}\n(for index) = 1\n(for limit) = 1\n(for step) = 1\ni = 1\n(*temporary) = nil\n(*temporary) = <table> {\n listID = 6\n mapName = \"所有競技場\"\n queueType = \"pvp\"\n isBrawl = false\n rated = true\n battlefieldType = \"ARENA\"\n teamSize = 2\n}\n(*temporary) = \"attempt to call global 'SocialQueueUtil_GetQueueName' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:3691: in function `UpdateInviteConfirmationDialogs'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:1524: in function <Interface_TBC\\FrameXML\\UIParent.lua:666>",
+			["session"] = 537,
+			["counter"] = 1,
+		}, -- [101]
+		{
 			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
 			["time"] = "2021/07/01 16:18:25",
 			["locals"] = "GearScore = 2320\nItemLevel = 105\nRed = 0.081600\nBlue = 0.320000\nGreen = 0.840000\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 5\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
-			["session"] = 533,
-			["counter"] = 5092,
-		}, -- [101]
+			["session"] = 538,
+			["counter"] = 5121,
+		}, -- [102]
 	},
 }
