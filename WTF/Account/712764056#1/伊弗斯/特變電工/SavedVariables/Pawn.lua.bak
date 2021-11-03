@@ -2,7 +2,6 @@
 PawnOptions = {
 	["LastVersion"] = 2.0527,
 	["LastPlayerFullName"] = "特變電工-伊弗斯",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 29011,
@@ -95,6 +94,7 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:32818::::::::70:::::::::|h[精兵鎧甲護腕]|h|r",
 		},
 	},
+	["AutoSelectScales"] = false,
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

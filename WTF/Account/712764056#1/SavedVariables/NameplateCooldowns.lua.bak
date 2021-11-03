@@ -6,6 +6,8 @@ NameplateCooldownsAceDB = {
 	},
 	["profiles"] = {
 		["特變電工 - 伊弗斯"] = {
+			["IconXOffset"] = 113,
+			["IconYOffset"] = -4,
 			["IconSize"] = 20,
 			["SpellCDs"] = {
 				[1513] = {
@@ -620,28 +622,28 @@ NameplateCooldownsAceDB = {
 				[10414] = {
 					["enabled"] = true,
 				},
-				[26994] = {
-					["enabled"] = true,
-				},
 				[14751] = {
 					["enabled"] = true,
 				},
 				[5211] = {
 					["enabled"] = true,
 				},
-				[11285] = {
+				[498] = {
 					["enabled"] = true,
 				},
-				[10223] = {
+				[11285] = {
 					["enabled"] = true,
 				},
 				[1857] = {
 					["enabled"] = true,
 				},
-				[34600] = {
+				[26297] = {
 					["enabled"] = true,
 				},
-				[26297] = {
+				[8044] = {
+					["enabled"] = true,
+				},
+				[26994] = {
 					["enabled"] = true,
 				},
 				[11305] = {
@@ -650,7 +652,7 @@ NameplateCooldownsAceDB = {
 				[6940] = {
 					["enabled"] = true,
 				},
-				[14177] = {
+				[34490] = {
 					["enabled"] = true,
 				},
 				[871] = {
@@ -665,10 +667,10 @@ NameplateCooldownsAceDB = {
 				[23989] = {
 					["enabled"] = true,
 				},
-				[16810] = {
+				[10942] = {
 					["enabled"] = true,
 				},
-				[10942] = {
+				[16810] = {
 					["enabled"] = true,
 				},
 				[13896] = {
@@ -689,10 +691,10 @@ NameplateCooldownsAceDB = {
 				[27023] = {
 					["enabled"] = true,
 				},
-				[19241] = {
+				[17116] = {
 					["enabled"] = true,
 				},
-				[17116] = {
+				[19241] = {
 					["enabled"] = true,
 				},
 				[19242] = {
@@ -710,7 +712,7 @@ NameplateCooldownsAceDB = {
 				[2983] = {
 					["enabled"] = true,
 				},
-				[34490] = {
+				[14177] = {
 					["enabled"] = true,
 				},
 				[853] = {
@@ -770,16 +772,19 @@ NameplateCooldownsAceDB = {
 				[8042] = {
 					["enabled"] = true,
 				},
-				[8044] = {
+				[8918] = {
 					["enabled"] = true,
 				},
 				[8046] = {
 					["enabled"] = true,
 				},
-				[498] = {
+				[34600] = {
 					["enabled"] = true,
 				},
 				[13018] = {
+					["enabled"] = true,
+				},
+				[10223] = {
 					["enabled"] = true,
 				},
 				[33933] = {
@@ -795,9 +800,6 @@ NameplateCooldownsAceDB = {
 					["enabled"] = true,
 				},
 				[33041] = {
-					["enabled"] = true,
-				},
-				[8918] = {
 					["enabled"] = true,
 				},
 				[14305] = {
@@ -829,9 +831,7 @@ NameplateCooldownsAceDB = {
 				},
 			},
 			["MigrationVersion"] = 7,
-			["IconXOffset"] = 113,
 			["IconGrowDirection"] = "left",
-			["IconYOffset"] = -4,
 		},
 		["邁克爾假死 - 伊弗斯"] = {
 			["MigrationVersion"] = 7,
@@ -1415,13 +1415,13 @@ NameplateCooldownsAceDB = {
 				[8696] = {
 					["enabled"] = true,
 				},
-				[34600] = {
+				[14303] = {
 					["enabled"] = true,
 				},
 				[16813] = {
 					["enabled"] = true,
 				},
-				[14303] = {
+				[34600] = {
 					["enabled"] = true,
 				},
 				[26297] = {
@@ -1433,10 +1433,10 @@ NameplateCooldownsAceDB = {
 				[14310] = {
 					["enabled"] = true,
 				},
-				[498] = {
+				[38768] = {
 					["enabled"] = true,
 				},
-				[38768] = {
+				[498] = {
 					["enabled"] = true,
 				},
 				[14327] = {

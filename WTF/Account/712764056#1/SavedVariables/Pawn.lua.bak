@@ -7,12 +7,17 @@ PawnCommon = {
 	["ShowRelicUpgrades"] = false,
 	["ShowValuesForUpgradesOnly"] = true,
 	["ShowItemLevelUpgrades"] = true,
-	["Digits"] = 1,
 	["Debug"] = false,
 	["ColorTooltipBorder"] = true,
+	["Digits"] = 1,
 	["ShowTooltipIcons"] = true,
 	["LastVersion"] = 2.0527,
 	["ShowSocketingAdvisor"] = true,
+	["ShowSpecIcons"] = true,
+	["IgnoreGemsWhileLeveling"] = true,
+	["ButtonPosition"] = 2,
+	["ShowLootUpgradeAdvisor"] = true,
+	["ShowQuestUpgradeAdvisor"] = true,
 	["Scales"] = {
 		["\"Classic\":WARRIOR2"] = {
 			["PerCharacterOptions"] = {
@@ -294,16 +299,16 @@ PawnCommon = {
 			["SpecID"] = 3,
 		},
 		["\"Classic\":ROGUE"] = {
-			["Color"] = "fff468",
-			["ClassID"] = 4,
 			["PerCharacterOptions"] = {
 			},
-			["DoNotShow1HUpgrades"] = false,
+			["Color"] = "fff468",
 			["LocalizedName"] = "盜賊: 副手",
+			["DoNotShow1HUpgrades"] = false,
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
 			["UnenchantedColor"] = "bfb74e",
+			["ClassID"] = 4,
 		},
 		["\"Classic\":DRUID3"] = {
 			["PerCharacterOptions"] = {
@@ -446,10 +451,5 @@ PawnCommon = {
 			["SpecID"] = 2,
 		},
 	},
-	["IgnoreGemsWhileLeveling"] = true,
-	["ButtonPosition"] = 2,
-	["ShowLootUpgradeAdvisor"] = true,
-	["ShowQuestUpgradeAdvisor"] = true,
-	["ShowSpecIcons"] = true,
 	["ShownGettingStarted"] = true,
 }
