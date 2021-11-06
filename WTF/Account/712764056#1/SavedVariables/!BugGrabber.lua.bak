@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-	["session"] = 540,
 	["lastSanitation"] = 3,
+	["session"] = 541,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\TomTom\\TomTom_Config.lua:40: attempt to call method 'EnableDisablePOIIntegration' (a nil value)",
@@ -74,8 +74,8 @@ BugGrabberDB = {
 		}, -- [9]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\MeetingHorn\\Libs\\tdGUI\\Libs\\LibClass-2.0-10\\LibClass-2.0.xml",
-			["session"] = 47,
 			["time"] = "2021/06/08 20:55:27",
+			["session"] = 47,
 			["counter"] = 91,
 		}, -- [10]
 		{
@@ -197,26 +197,26 @@ BugGrabberDB = {
 		}, -- [25]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\alaTalentEmu\\libs\\libs.xml",
-			["time"] = "2021/08/08 18:21:56",
 			["session"] = 304,
+			["time"] = "2021/08/08 18:21:56",
 			["counter"] = 3,
 		}, -- [26]
 		{
 			["message"] = "Error loading Interface\\AddOns\\ClassicCodex-patch\\objects-questie-tbc.lua",
-			["time"] = "2021/08/08 18:21:56",
 			["session"] = 304,
+			["time"] = "2021/08/08 18:21:56",
 			["counter"] = 3,
 		}, -- [27]
 		{
 			["message"] = "Error loading Interface\\AddOns\\ClassicCodex-patch\\objects-loc-tbc.lua",
-			["time"] = "2021/08/08 18:21:56",
 			["session"] = 304,
+			["time"] = "2021/08/08 18:21:56",
 			["counter"] = 3,
 		}, -- [28]
 		{
 			["message"] = "Error loading Interface\\AddOns\\Questie\\Localization\\Translations\\Zones\\Battlegrounds-戰場.lua",
-			["time"] = "2021/08/08 18:21:56",
 			["session"] = 304,
+			["time"] = "2021/08/08 18:21:56",
 			["counter"] = 1,
 		}, -- [29]
 		{
@@ -300,8 +300,8 @@ BugGrabberDB = {
 		}, -- [39]
 		{
 			["message"] = "Texture <unnamed>: Unable to load atlas entry QuestSharing-Padlock",
-			["session"] = 333,
 			["time"] = "2021/08/22 00:26:04",
+			["session"] = 333,
 			["counter"] = 10,
 		}, -- [40]
 		{
@@ -593,14 +593,14 @@ BugGrabberDB = {
 		}, -- [76]
 		{
 			["message"] = "Error loading Interface\\AddOns\\DBM-Core\\modules\\Modules.lua",
-			["time"] = "2021/10/17 14:23:42",
 			["session"] = 495,
+			["time"] = "2021/10/17 14:23:42",
 			["counter"] = 6,
 		}, -- [77]
 		{
 			["message"] = "Error loading Interface\\AddOns\\DBM-Core\\modules\\Icons.lua",
-			["time"] = "2021/10/17 14:23:42",
 			["session"] = 495,
+			["time"] = "2021/10/17 14:23:42",
 			["counter"] = 6,
 		}, -- [78]
 		{
@@ -738,14 +738,14 @@ BugGrabberDB = {
 		}, -- [95]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GladiusEx\\libs\\LibCooldownTracker-1.0-10\\cooldowns_bcc_racials.lua",
-			["session"] = 520,
 			["time"] = "2021/08/22 00:22:49",
+			["session"] = 520,
 			["counter"] = 470,
 		}, -- [96]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GladiusEx\\libs\\LibCooldownTracker-1.0-10\\cooldowns_bcc_items.lua",
-			["session"] = 520,
 			["time"] = "2021/08/22 00:22:49",
+			["session"] = 520,
 			["counter"] = 470,
 		}, -- [97]
 		{
@@ -784,8 +784,16 @@ BugGrabberDB = {
 			["time"] = "2021/07/01 16:18:25",
 			["locals"] = "GearScore = 2320\nItemLevel = 105\nRed = 0.081600\nBlue = 0.320000\nGreen = 0.840000\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 5\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
-			["session"] = 540,
-			["counter"] = 5203,
+			["session"] = 541,
+			["counter"] = 5237,
 		}, -- [102]
+		{
+			["message"] = "Interface\\AddOns\\Gladdy\\EventListener.lua:72: Usage: UnitIsUnit(\"unit\", \"otherUnit\")",
+			["time"] = "2021/11/04 00:56:35",
+			["locals"] = "(*temporary) = \"arena2\"\n(*temporary) = nil\n",
+			["stack"] = "[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Gladdy\\EventListener.lua\"]:72: in function `SpotEnemy'\n[string \"@Interface\\AddOns\\Gladdy\\Modules\\Healthbar.lua\"]:127: in function <Interface\\AddOns\\Gladdy\\Modules\\Healthbar.lua:97>",
+			["session"] = 541,
+			["counter"] = 1,
+		}, -- [103]
 	},
 }
