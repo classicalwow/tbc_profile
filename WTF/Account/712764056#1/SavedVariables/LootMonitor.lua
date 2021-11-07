@@ -5,9 +5,9 @@ LootMonitorDB = {
 			["InstanceID"] = 548,
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Serpentshrine Cavern",
-			["Class"] = "WARRIOR",
-			["Date"] = "2021-10-23",
 			["FirstClass"] = "UNKNOWN",
+			["Date"] = "2021-10-23",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-548-31074-21339-000173F3D5",
@@ -122,9 +122,9 @@ LootMonitorDB = {
 			["InstanceID"] = 550,
 			["FirstPlayer"] = "我只能慢慢來",
 			["InstanceName"] = "Tempest Keep",
-			["Class"] = "WARRIOR",
-			["Date"] = "2021-10-23",
 			["FirstClass"] = "DRUID",
+			["Date"] = "2021-10-23",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-550-7113-19514-00007422C9",
@@ -171,7 +171,6 @@ LootMonitorDB = {
 			["Class"] = "WARRIOR",
 			["InstanceID"] = 309,
 			["FirstPlayer"] = "未知",
-			["InstanceName"] = "祖爾格拉布",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-309-25674-14509-000074FF83",
@@ -198,17 +197,18 @@ LootMonitorDB = {
 					},
 				}, -- [2]
 			},
-			["FirstClass"] = "UNKNOWN",
-			["Player"] = "特變電工",
+			["InstanceName"] = "祖爾格拉布",
 			["SavedID"] = 44698949,
+			["Player"] = "特變電工",
+			["FirstClass"] = "UNKNOWN",
 		}, -- [3]
 		{
 			["InstanceID"] = 550,
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Tempest Keep",
-			["FirstClass"] = "UNKNOWN",
-			["Date"] = "2021-10-24",
 			["Class"] = "WARRIOR",
+			["Date"] = "2021-10-24",
+			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-550-8545-20031-0000F54542",
@@ -385,8 +385,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Serpentshrine Cavern",
 			["Date"] = "2021-10-30",
-			["FirstClass"] = "UNKNOWN",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-548-380-21216-00007D2F8F",
@@ -489,9 +489,9 @@ LootMonitorDB = {
 			["InstanceID"] = 550,
 			["FirstPlayer"] = "叼煙抽寂寞",
 			["InstanceName"] = "Tempest Keep",
-			["Class"] = "WARRIOR",
-			["Date"] = "2021-10-30",
 			["FirstClass"] = "WARRIOR",
+			["Date"] = "2021-10-30",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-550-1994-20039-0000FD60A6",
@@ -840,6 +840,204 @@ LootMonitorDB = {
 			},
 			["Player"] = "特變電工",
 		}, -- [6]
+		{
+			["InstanceID"] = 548,
+			["Player"] = "特變電工",
+			["FirstPlayer"] = "未知",
+			["InstanceName"] = "Serpentshrine Cavern",
+			["Date"] = "2021-11-06",
+			["Class"] = "WARRIOR",
+			["FirstClass"] = "UNKNOWN",
+			["LootTable"] = {
+				{
+					["GUID"] = "Creature-0-4491-548-14831-21216-00000668F2",
+					["Time"] = "20:56:37",
+					["Looter"] = "別逼我擋怪",
+					["Date"] = "2021-11-06",
+					["Class"] = "WARRIOR",
+					["Name"] = "不穩定者海卓司",
+					["Loots"] = {
+						"|cffa335ee|Hitem:30629::::::::70:::::::::|h[移位寶石]|h|r", -- [1]
+						"|cffa335ee|Hitem:30664::::::::70:::::::::|h[野性之心生命根源]|h|r", -- [2]
+					},
+				}, -- [1]
+				{
+					["GUID"] = "Creature-0-4491-548-14831-21217-0000067FB8",
+					["Time"] = "21:23:10",
+					["Looter"] = "特變電工",
+					["Date"] = "2021-11-06",
+					["Class"] = "WARRIOR",
+					["Name"] = "海底潛伏者",
+					["Loots"] = {
+						"|cffa335ee|Hitem:30065::::::::70:::::::::|h[真實閃光胸甲]|h|r", -- [1]
+						"|cffa335ee|Hitem:30057::::::::70:::::::::|h[消滅護腕]|h|r", -- [2]
+					},
+				}, -- [2]
+				{
+					["GUID"] = "Creature-0-4491-548-14831-21226-00010668F2",
+					["Time"] = "21:40:13",
+					["Looter"] = "终焉誓約",
+					["Date"] = "2021-11-06",
+					["Class"] = "PALADIN",
+					["Name"] = "潮行者薩滿",
+					["Loots"] = {
+						"|cffa335ee|Hitem:30183::::::::70:::::::::|h[虛空漩渦]|h|r", -- [1]
+					},
+				}, -- [3]
+				{
+					["GUID"] = "Creature-0-4491-548-14831-21213-00000668F2",
+					["Time"] = "21:55:52",
+					["Looter"] = "特變電工",
+					["Date"] = "2021-11-06",
+					["Class"] = "WARRIOR",
+					["Name"] = "莫洛葛利姆·潮行者",
+					["Loots"] = {
+						"|cffa335ee|Hitem:30082::::::::70:::::::::|h[艾薩拉之爪]|h|r", -- [1]
+						"|cffa335ee|Hitem:30079::::::::70:::::::::|h[伊利達瑞肩墊]|h|r", -- [2]
+					},
+				}, -- [4]
+				{
+					["GUID"] = "Creature-0-4491-548-14831-21251-00038668F2",
+					["Time"] = "22:02:02",
+					["Looter"] = "殺戮聖經",
+					["Date"] = "2021-11-06",
+					["Class"] = "WARRIOR",
+					["Name"] = "深幽泥沼巨人",
+					["Loots"] = {
+						"|cffa335ee|Hitem:30306::::::::70:::::::::|h[圖樣:絕對黑暗之靴]|h|r", -- [1]
+					},
+				}, -- [5]
+				{
+					["GUID"] = "Creature-0-4491-548-14831-21251-00030668F2",
+					["Time"] = "22:06:23",
+					["Looter"] = "殺戮聖經",
+					["Date"] = "2021-11-06",
+					["Class"] = "WARRIOR",
+					["Name"] = "深幽泥沼巨人",
+					["Loots"] = {
+						"|cffa335ee|Hitem:30281::::::::70:::::::::|h[圖樣:長路腰帶]|h|r", -- [1]
+					},
+				}, -- [6]
+				{
+					["GUID"] = "Creature-0-4491-548-14831-21214-00000668F2",
+					["Time"] = "22:25:30",
+					["Looter"] = "殺戮聖經",
+					["Date"] = "2021-11-06",
+					["Class"] = "WARRIOR",
+					["Name"] = "深淵之王卡拉薩瑞斯",
+					["Loots"] = {
+						"|cffa335ee|Hitem:30247::::::::70:::::::::|h[征服英雄護腿]|h|r", -- [1]
+						"|cffa335ee|Hitem:30099::::::::70:::::::::|h[浸濕的磨損拴繩]|h|r", -- [2]
+						"|cffa335ee|Hitem:30246::::::::70:::::::::|h[征服防衛者護腿]|h|r", -- [3]
+					},
+				}, -- [7]
+				{
+					["GUID"] = "Creature-0-4491-548-14831-21215-00000668F2",
+					["Time"] = "22:44:09",
+					["Looter"] = "特變電工",
+					["Date"] = "2021-11-06",
+					["Class"] = "WARRIOR",
+					["Name"] = "『盲目者』李奧薩拉斯",
+					["Loots"] = {
+						"|cffa335ee|Hitem:30239::::::::70:::::::::|h[征服勇士手套]|h|r", -- [1]
+						"|cffa335ee|Hitem:30240::::::::70:::::::::|h[征服防衛者手套]|h|r", -- [2]
+						"|cffa335ee|Hitem:30097::::::::70:::::::::|h[珊瑚鉤肩墊]|h|r", -- [3]
+					},
+				}, -- [8]
+			},
+		}, -- [7]
+		{
+			["InstanceID"] = 550,
+			["Player"] = "特變電工",
+			["FirstPlayer"] = "法號丶夢遺",
+			["InstanceName"] = "Tempest Keep",
+			["Date"] = "2021-11-06",
+			["Class"] = "WARRIOR",
+			["FirstClass"] = "MAGE",
+			["LootTable"] = {
+				{
+					["GUID"] = "Creature-0-4491-550-24618-20034-00010695CF",
+					["Time"] = "22:57:06",
+					["Looter"] = "特變電工",
+					["Date"] = "2021-11-06",
+					["Class"] = "WARRIOR",
+					["Name"] = "占星者",
+					["Loots"] = {
+						"|cffa335ee|Hitem:30183::::::::70:::::::::|h[虛空漩渦]|h|r", -- [1]
+					},
+				}, -- [1]
+				{
+					["GUID"] = "Creature-0-4491-550-24618-19514-00000695CF",
+					["Time"] = "23:28:45",
+					["Looter"] = "別逼我擋怪",
+					["Date"] = "2021-11-06",
+					["Class"] = "WARRIOR",
+					["Name"] = "歐爾",
+					["Loots"] = {
+						"|cffa335ee|Hitem:29949::::::::70:::::::::|h[奧金蒸汽手槍]|h|r", -- [1]
+						"|cffa335ee|Hitem:29920::::::::70:::::::::|h[重生鳳凰之翼]|h|r", -- [2]
+					},
+				}, -- [2]
+				{
+					["GUID"] = "Creature-0-4491-550-24618-20036-00018695CF",
+					["Time"] = "23:35:58",
+					["Looter"] = "背鍋俠",
+					["Date"] = "2021-11-06",
+					["Class"] = "ROGUE",
+					["Name"] = "血守衛扈從",
+					["Loots"] = {
+						"|cffa335ee|Hitem:30183::::::::70:::::::::|h[虛空漩渦]|h|r", -- [1]
+					},
+				}, -- [3]
+				{
+					["GUID"] = "Creature-0-4491-550-24618-20043-00038695CF",
+					["Time"] = "23:39:44",
+					["Looter"] = "歐艾丹",
+					["Date"] = "2021-11-06",
+					["Class"] = "PALADIN",
+					["Name"] = "見習占星者",
+					["Loots"] = {
+						"|cffa335ee|Hitem:30020::::::::70:::::::::|h[魔導師火焰之索]|h|r", -- [1]
+					},
+				}, -- [4]
+				{
+					["GUID"] = "Creature-0-4491-550-24618-20043-00088695CF",
+					["Time"] = "23:47:14",
+					["Looter"] = "歐艾丹",
+					["Date"] = "2021-11-06",
+					["Class"] = "PALADIN",
+					["Name"] = "見習占星者",
+					["Loots"] = {
+						"|cffa335ee|Hitem:30030::::::::70:::::::::|h[殞星束腰]|h|r", -- [1]
+					},
+				}, -- [5]
+				{
+					["GUID"] = "Creature-0-4491-550-24618-18805-00000695CF",
+					["Time"] = "23:59:25",
+					["Looter"] = "別打我要有愛",
+					["Date"] = "2021-11-06",
+					["Class"] = "SHAMAN",
+					["Name"] = "高階星術師索拉瑞恩",
+					["Loots"] = {
+						"|cffa335ee|Hitem:29962::::::::70:::::::::|h[撕心匕首]|h|r", -- [1]
+						"|cffa335ee|Hitem:29981::::::::70:::::::::|h[伊斯利恩生命法杖]|h|r", -- [2]
+					},
+				}, -- [6]
+				{
+					["GUID"] = "Creature-0-4491-550-24618-19516-00000695CF",
+					["Time"] = "00:31:28",
+					["Looter"] = "翔翔大肆虐",
+					["Date"] = "2021-11-07",
+					["Class"] = "MAGE",
+					["Name"] = "虛無搶奪者",
+					["Loots"] = {
+						"|cffa335ee|Hitem:30248::::::::70:::::::::|h[征服勇士肩鎧]|h|r", -- [1]
+						"|cffa335ee|Hitem:30619::::::::70:::::::::|h[惡魔搶奪者活塞]|h|r", -- [2]
+						"|cffa335ee|Hitem:30250::::::::70:::::::::|h[征服英雄肩鎧]|h|r", -- [3]
+					},
+				}, -- [7]
+			},
+		}, -- [8]
 	},
 	["Config"] = {
 		["ShowMinimapIcon"] = true,

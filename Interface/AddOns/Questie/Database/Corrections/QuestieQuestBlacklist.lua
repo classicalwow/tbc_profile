@@ -514,6 +514,40 @@ function QuestieQuestBlacklist:Load()
         [12358] = true,
         [12359] = true,
         [12360] = true,
+        [12361] = true,
+        [12362] = true,
+        [12363] = true,
+        [12364] = true,
+        [12365] = true,
+        [12366] = true,
+        [12367] = true,
+        [12368] = true,
+        [12369] = true,
+        [12370] = true,
+        [12371] = true,
+        [12373] = true,
+        [12374] = true,
+        [12375] = true,
+        [12376] = true,
+        [12377] = true,
+        [12378] = true,
+        [12379] = true,
+        [12380] = true,
+        [12381] = true,
+        [12382] = true,
+        [12383] = true,
+        [12384] = true,
+        [12385] = true,
+        [12386] = true,
+        [12387] = true,
+        [12388] = true,
+        [12389] = true,
+        [12390] = true,
+        [12391] = true,
+        [12392] = true,
+        [12393] = true,
+        [12394] = true,
+        [12395] = true,
         [12396] = true,
         [12397] = true,
         [12398] = true,
@@ -523,12 +557,10 @@ function QuestieQuestBlacklist:Load()
         [12402] = true,
         [12403] = true,
         [12404] = true,
-        [12405] = true,
         [12406] = true,
         [12407] = true,
         [12408] = true,
         [12409] = true,
-        [12410] = true,
         [12420] = true,
         ----------------
 
@@ -835,7 +867,6 @@ function QuestieQuestBlacklist:Load()
         [10379] = true, -- Touch of Weakness (Followup of NOT A QUEST)
         [10534] = true, -- Returning Home (Unavailable Priest quest)
         [10539] = true, -- Returning Home (Unavailable Priest quest)
-        [10561] = true, -- Revered Among the Keepers of Time
         [10638] = true, -- NOT A QUEST (Unavailable Priest quest)
         [10779] = true, -- The Hunter's Path (Unused)
         [10931] = true, -- Level 0 Priest quest
@@ -851,6 +882,13 @@ function QuestieQuestBlacklist:Load()
         [64064] = true, -- Boosted character quest
         [64128] = true, -- Boosted character quest
         [64217] = true, -- Boosted character quest
+
+        -- Revered Among X quests
+        [10459] = true,
+        [10558] = true,
+        [10559] = true,
+        [10560] = true,
+        [10561] = true,
 
         [11497] = true, -- Learning to Fly (requires NOT to have flying skill, which can't be handled atm)
         [11498] = true, -- Learning to Fly (requires NOT to have flying skill, which can't be handled atm)
@@ -933,8 +971,6 @@ function QuestieQuestBlacklist:Load()
         [8443] = true,
         [9712] = true,
         [10377] = true,
-        [10459] = true,
-        [10558] = true,
         [11052] = true,
 
         -- Netherwing
@@ -992,7 +1028,6 @@ function QuestieQuestBlacklist:Load()
         [10473] = true,
         [10474] = true,
         [10475] = true,
-        [10560] = true,
         [10944] = true,
         [10946] = true,
         [10947] = true,

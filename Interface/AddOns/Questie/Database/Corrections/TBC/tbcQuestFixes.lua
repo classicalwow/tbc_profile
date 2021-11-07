@@ -83,6 +83,9 @@ function QuestieTBCQuestFixes:Load()
         [1135] = {
             [questKeys.startedBy] = {{4456},nil,nil},
         },
+        [1437] = {
+            [questKeys.triggerEnd] = {"Find and search Tyranis and Dalinda Malem's wagon", {[zoneIDs.DESOLACE]={{56.52,17.84}}}},
+        },
         [1448] = {
             [questKeys.triggerEnd] = {"Search for the Temple of Atal'Hakkar", {[zoneIDs.SWAMP_OF_SORROWS]={{64.67,48.82},{64.36,56.12},{64.09,51.95},{69.6,44.18},{73.97,46.36}}}},
         },
@@ -204,6 +207,13 @@ function QuestieTBCQuestFixes:Load()
         [8259] = {
             [questKeys.requiredRaces] = raceIDs.ALL_HORDE,
         },
+        [8311] = {
+            [questKeys.requiredLevel] = 10,
+            [questKeys.questLevel] = -1,
+        },
+        [8312] = {
+            [questKeys.requiredLevel] = 10,
+        },
         [8325] = {
             [questKeys.requiredRaces] = raceIDs.BLOOD_ELF,
         },
@@ -244,6 +254,32 @@ function QuestieTBCQuestFixes:Load()
         },
         [8347] = {
             [questKeys.requiredRaces] = raceIDs.BLOOD_ELF,
+        },
+        [8353] = {
+            [questKeys.requiredLevel] = 10,
+        },
+        [8354] = {
+            [questKeys.requiredLevel] = 10,
+        },
+        [8355] = {
+            [questKeys.requiredLevel] = 10,
+        },
+        [8356] = {
+            [questKeys.requiredLevel] = 10,
+        },
+        [8357] = {
+            [questKeys.requiredLevel] = 10,
+            [questKeys.questLevel] = -1,
+        },
+        [8358] = {
+            [questKeys.requiredLevel] = 10,
+        },
+        [8359] = {
+            [questKeys.requiredLevel] = 10,
+        },
+        [8360] = {
+            [questKeys.requiredLevel] = 10,
+            [questKeys.questLevel] = -1,
         },
         [8367] = {
             [questKeys.requiredLevel] = 61,
@@ -2946,7 +2982,7 @@ function QuestieTBCQuestFixes:Load()
             [questKeys.finishedBy] = {nil,{190063,},},
             [questKeys.requiredLevel] = 1,
             [questKeys.questLevel] = -1,
-            [questKeys.requiredRaces] = raceIDs.ALL,
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
             [questKeys.zoneOrSort] = -22,
         },
         [12361] = {
@@ -3261,7 +3297,7 @@ function QuestieTBCQuestFixes:Load()
             [questKeys.finishedBy] = {nil,{190102,},},
             [questKeys.requiredLevel] = 1,
             [questKeys.questLevel] = -1,
-            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.requiredRaces] = raceIDs.ALL,
             [questKeys.zoneOrSort] = -22,
         },
         [12397] = {
@@ -3270,7 +3306,7 @@ function QuestieTBCQuestFixes:Load()
             [questKeys.finishedBy] = {nil,{190103,},},
             [questKeys.requiredLevel] = 1,
             [questKeys.questLevel] = -1,
-            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.requiredRaces] = raceIDs.ALL,
             [questKeys.zoneOrSort] = -22,
         },
         [12398] = {
@@ -3279,7 +3315,7 @@ function QuestieTBCQuestFixes:Load()
             [questKeys.finishedBy] = {nil,{190104,},},
             [questKeys.requiredLevel] = 1,
             [questKeys.questLevel] = -1,
-            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.requiredRaces] = raceIDs.ALL,
             [questKeys.zoneOrSort] = -22,
         },
         [12399] = {
@@ -3329,8 +3365,8 @@ function QuestieTBCQuestFixes:Load()
         },
         [12404] = {
             [questKeys.name] = "Candy Bucket",
-            [questKeys.startedBy] = {nil,{190110,},nil,},
-            [questKeys.finishedBy] = {nil,{190110,},},
+            [questKeys.startedBy] = {nil,{190110,190111},nil},
+            [questKeys.finishedBy] = {nil,{190110,190111}},
             [questKeys.requiredLevel] = 1,
             [questKeys.questLevel] = -1,
             [questKeys.requiredRaces] = raceIDs.ALL,
@@ -3365,8 +3401,8 @@ function QuestieTBCQuestFixes:Load()
         },
         [12409] = {
             [questKeys.name] = "Candy Bucket",
-            [questKeys.startedBy] = {nil,{190115,},nil,},
-            [questKeys.finishedBy] = {nil,{190115,},},
+            [questKeys.startedBy] = {nil,{190115,190116},nil},
+            [questKeys.finishedBy] = {nil,{190115,190116}},
             [questKeys.requiredLevel] = 1,
             [questKeys.questLevel] = -1,
             [questKeys.requiredRaces] = raceIDs.ALL,
@@ -3567,7 +3603,6 @@ function QuestieTBCQuestFixes:Load()
             [questKeys.objectives] = {{{352, "Speak to Dungar Longdrink, the Gryphon Master"}},nil,nil,nil,nil},
             [questKeys.preQuestSingle] = {64035},
             [questKeys.exclusiveTo] = {64038},
-            [questKeys.zoneOrSort] = zoneIDs.STORMWIND_CITY,
         },
         [64028] = {
             [questKeys.name] = "A New Beginning",
@@ -3577,7 +3612,6 @@ function QuestieTBCQuestFixes:Load()
             [questKeys.questLevel] = 58,
             [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
             [questKeys.objectivesText] = {"Meet with your class trainer in Stormwind."},
-            [questKeys.zoneOrSort] = zoneIDs.STORMWIND_CITY,
         },
         [64031] = {
             [questKeys.name] = "Tools for Survival",
@@ -3589,7 +3623,6 @@ function QuestieTBCQuestFixes:Load()
             [questKeys.objectivesText] = {"Open the survival kit and equip a weapon."},
             [questKeys.objectives] = {nil,{{400009, "Open the Survival Kit"}, {400010, "Equip a Weapon"}},nil,nil,nil},
             [questKeys.preQuestSingle] = {64028},
-            [questKeys.zoneOrSort] = zoneIDs.STORMWIND_CITY,
         },
         [64034] = {
             [questKeys.name] = "Combat Training",
@@ -3601,7 +3634,6 @@ function QuestieTBCQuestFixes:Load()
             [questKeys.objectivesText] = {"Train a spell by speaking to your class trainer."},
             [questKeys.objectives] = {nil,{{400011, "Train a Spell"}},nil,nil,nil},
             [questKeys.preQuestSingle] = {64031},
-            [questKeys.zoneOrSort] = zoneIDs.STORMWIND_CITY,
         },
         [64035] = {
             [questKeys.name] = "Talented",
@@ -3613,7 +3645,6 @@ function QuestieTBCQuestFixes:Load()
             [questKeys.objectivesText] = {"Activate the Talents interface and allocate a Talent Point."},
             [questKeys.objectives] = {nil,{{400012, "Train a Spell"}},nil,nil,nil},
             [questKeys.preQuestSingle] = {64034},
-            [questKeys.zoneOrSort] = zoneIDs.STORMWIND_CITY,
         },
         [64038] = {
             [questKeys.name] = "The Dark Portal",
@@ -3625,7 +3656,6 @@ function QuestieTBCQuestFixes:Load()
             [questKeys.objectivesText] = {"Find Watch Commander Relthorn Netherwane at the Blasted Lands. He awaits your arrival before the Dark Portal."},
             [questKeys.objectives] = {{{352, "Speak to Dungar Longdrink, the Gryphon Master"}},nil,nil,nil,nil},
             [questKeys.preQuestSingle] = {64035},
-            [questKeys.zoneOrSort] = zoneIDs.STORMWIND_CITY,
         },
         [64046] = {
             [questKeys.name] = "A New Beginning",
@@ -3635,7 +3665,6 @@ function QuestieTBCQuestFixes:Load()
             [questKeys.questLevel] = 58,
             [questKeys.requiredRaces] = raceIDs.ALL_HORDE,
             [questKeys.objectivesText] = {"Meet with your class trainer in Orgrimmar."},
-            [questKeys.zoneOrSort] = zoneIDs.ORGRIMMAR,
         },
         [64047] = {
             [questKeys.name] = "A New Beginning",
@@ -3646,7 +3675,6 @@ function QuestieTBCQuestFixes:Load()
             [questKeys.requiredRaces] = raceIDs.TAUREN,
             [questKeys.requiredClasses] = classIDs.DRUID,
             [questKeys.objectivesText] = {"Meet with your Druid trainer in Thunderbluff."},
-            [questKeys.zoneOrSort] = zoneIDs.THUNDER_BLUFF,
         },
         [64048] = {
             [questKeys.name] = "Tools for Survival",
@@ -3658,7 +3686,6 @@ function QuestieTBCQuestFixes:Load()
             [questKeys.objectivesText] = {"Open the survival kit and equip a weapon."},
             [questKeys.objectives] = {nil,{{400001, "Open the Survival Kit"}, {400002, "Equip a Weapon"}},nil,nil,nil},
             [questKeys.preQuestSingle] = {64046},
-            [questKeys.zoneOrSort] = zoneIDs.ORGRIMMAR,
         },
         [64049] = {
             [questKeys.name] = "Tools for Survival",
@@ -3671,7 +3698,6 @@ function QuestieTBCQuestFixes:Load()
             [questKeys.objectivesText] = {"Open the survival kit and equip a weapon."},
             [questKeys.objectives] = {nil,{{400003, "Open the Survival Kit"}, {400004, "Equip a Weapon"}},nil,nil,nil},
             [questKeys.preQuestSingle] = {64047},
-            [questKeys.zoneOrSort] = zoneIDs.THUNDER_BLUFF,
         },
         [64050] = {
             [questKeys.name] = "Combat Training",
@@ -3683,7 +3709,6 @@ function QuestieTBCQuestFixes:Load()
             [questKeys.objectivesText] = {"Train a spell by speaking to your class trainer."},
             [questKeys.objectives] = {nil,{{400005, "Train a Spell"}},nil,nil,nil},
             [questKeys.preQuestSingle] = {64048},
-            [questKeys.zoneOrSort] = zoneIDs.ORGRIMMAR,
         },
         [64051] = {
             [questKeys.name] = "Combat Training",
@@ -3696,7 +3721,6 @@ function QuestieTBCQuestFixes:Load()
             [questKeys.objectivesText] = {"Train a spell by speaking to your Druid trainer."},
             [questKeys.objectives] = {nil,{{400006, "Train a Spell"}},nil,nil,nil},
             [questKeys.preQuestSingle] = {64049},
-            [questKeys.zoneOrSort] = zoneIDs.THUNDER_BLUFF,
         },
         [64052] = {
             [questKeys.name] = "Talented",
@@ -3708,7 +3732,6 @@ function QuestieTBCQuestFixes:Load()
             [questKeys.objectivesText] = {"Activate the Talents interface and allocate five Talent Points."},
             [questKeys.objectives] = {nil,{{400007, "Train a Spell"}},nil,nil,nil},
             [questKeys.preQuestSingle] = {64050},
-            [questKeys.zoneOrSort] = zoneIDs.ORGRIMMAR,
         },
         [64053] = {
             [questKeys.name] = "Talented",
@@ -3721,7 +3744,6 @@ function QuestieTBCQuestFixes:Load()
             [questKeys.objectivesText] = {"Activate the Talents interface and allocate five Talent Points."},
             [questKeys.objectives] = {nil,{{400008, "Train a Spell"}},nil,nil,nil},
             [questKeys.preQuestSingle] = {64051},
-            [questKeys.zoneOrSort] = zoneIDs.THUNDER_BLUFF,
         },
         [64063] = {
             [questKeys.name] = "The Dark Portal",
@@ -3734,7 +3756,6 @@ function QuestieTBCQuestFixes:Load()
             [questKeys.objectives] = {{{12136, "Visit Snurk Bucksqick by the Zepplin Master"},{1387, "Speak to Thysta at Grom'Gol Base Camp"}},nil,nil,nil,nil},
             [questKeys.preQuestSingle] = {64052},
             [questKeys.exclusiveTo] = {64217},
-            [questKeys.zoneOrSort] = zoneIDs.ORGRIMMAR,
         },
         [64064] = {
             [questKeys.name] = "Eastern Plaguelands",
@@ -3747,7 +3768,6 @@ function QuestieTBCQuestFixes:Load()
             [questKeys.objectives] = {{{9564, "Visit Zeppelin Master Frezza"}},nil,nil,nil,nil},
             [questKeys.preQuestSingle] = {64052},
             [questKeys.exclusiveTo] = {64063,64217,64128},
-            [questKeys.zoneOrSort] = zoneIDs.ORGRIMMAR,
         },
         [64128] = {
             [questKeys.name] = "Eastern Plaguelands",
@@ -3761,7 +3781,6 @@ function QuestieTBCQuestFixes:Load()
             [questKeys.objectives] = {{{9564, "Speak to Tal, the Wind Rider Master"},{9564, "Visit Zeppelin Master Frezza"}},nil,nil,nil,nil},
             [questKeys.preQuestSingle] = {64053},
             [questKeys.exclusiveTo] = {64063,64064,64217},
-            [questKeys.zoneOrSort] = zoneIDs.THUNDER_BLUFF,
         },
         [64217] = {
             [questKeys.name] = "The Dark Portal",
@@ -3774,7 +3793,6 @@ function QuestieTBCQuestFixes:Load()
             [questKeys.objectives] = {{{12136, "Visit Snurk Bucksqick by the Zepplin Master"},{1387, "Speak to Thysta at Grom'Gol Base Camp"}},nil,nil,nil,nil},
             [questKeys.preQuestSingle] = {64053},
             [questKeys.exclusiveTo] = {64063,64064,64128},
-            [questKeys.zoneOrSort] = zoneIDs.THUNDER_BLUFF,
         },
     }
 end

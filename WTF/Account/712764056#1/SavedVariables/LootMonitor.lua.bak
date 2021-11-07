@@ -7,8 +7,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Serpentshrine Cavern",
 			["Date"] = "2021-10-23",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "UNKNOWN",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-548-31074-21339-000173F3D5",
@@ -124,8 +124,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "我只能慢慢來",
 			["InstanceName"] = "Tempest Keep",
 			["Date"] = "2021-10-23",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "DRUID",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-550-7113-19514-00007422C9",
@@ -171,10 +171,7 @@ LootMonitorDB = {
 			["Class"] = "WARRIOR",
 			["InstanceID"] = 309,
 			["FirstPlayer"] = "未知",
-			["SavedID"] = 44698949,
-			["InstanceName"] = "祖爾格拉布",
 			["FirstClass"] = "UNKNOWN",
-			["Player"] = "特變電工",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-309-25674-14509-000074FF83",
@@ -201,6 +198,9 @@ LootMonitorDB = {
 					},
 				}, -- [2]
 			},
+			["SavedID"] = 44698949,
+			["Player"] = "特變電工",
+			["InstanceName"] = "祖爾格拉布",
 		}, -- [3]
 		{
 			["InstanceID"] = 550,
@@ -208,8 +208,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Tempest Keep",
 			["Date"] = "2021-10-24",
-			["FirstClass"] = "UNKNOWN",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-550-8545-20031-0000F54542",
@@ -383,9 +383,9 @@ LootMonitorDB = {
 			["InstanceID"] = 548,
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Serpentshrine Cavern",
-			["Class"] = "WARRIOR",
-			["Date"] = "2021-10-30",
 			["FirstClass"] = "UNKNOWN",
+			["Date"] = "2021-10-30",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-548-380-21216-00007D2F8F",
@@ -491,8 +491,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "叼煙抽寂寞",
 			["InstanceName"] = "Tempest Keep",
 			["Date"] = "2021-10-30",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "WARRIOR",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-550-1994-20039-0000FD60A6",
