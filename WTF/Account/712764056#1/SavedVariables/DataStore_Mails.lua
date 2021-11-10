@@ -461,8 +461,8 @@ DataStore_MailsDB = {
 						["sender"] = "部落拍賣場",
 						["itemID"] = 22459,
 						["link"] = "|cffa335ee|Hitem:22459::::::::70:::::::::|h[虛無球體]|h|r",
-						["count"] = 1,
 						["lastCheck"] = 1636379559,
+						["count"] = 1,
 						["icon"] = 132886,
 						["daysLeft"] = 28.60043907165527,
 					}, -- [1]
@@ -471,8 +471,8 @@ DataStore_MailsDB = {
 						["sender"] = "部落拍賣場",
 						["itemID"] = 22459,
 						["link"] = "|cffa335ee|Hitem:22459::::::::70:::::::::|h[虛無球體]|h|r",
-						["count"] = 1,
 						["lastCheck"] = 1636379559,
+						["count"] = 1,
 						["icon"] = 132886,
 						["daysLeft"] = 28.60043907165527,
 					}, -- [2]
@@ -481,8 +481,8 @@ DataStore_MailsDB = {
 						["sender"] = "部落拍賣場",
 						["itemID"] = 27860,
 						["link"] = "|cffffffff|Hitem:27860::::::::70:::::::::|h[淨化過的德萊尼水]|h|r",
-						["count"] = 1,
 						["lastCheck"] = 1636379559,
+						["count"] = 1,
 						["icon"] = 132831,
 						["daysLeft"] = 28.60061264038086,
 					}, -- [3]
@@ -491,8 +491,8 @@ DataStore_MailsDB = {
 						["sender"] = "部落拍賣場",
 						["itemID"] = 13444,
 						["link"] = "|cffffffff|Hitem:13444::::::::70:::::::::|h[極效法力藥水]|h|r",
-						["count"] = 3,
 						["lastCheck"] = 1636379559,
+						["count"] = 3,
 						["icon"] = 134856,
 						["daysLeft"] = 28.60072898864746,
 					}, -- [4]
@@ -501,8 +501,8 @@ DataStore_MailsDB = {
 						["sender"] = "部落拍賣場",
 						["itemID"] = 23117,
 						["link"] = "|cff1eff00|Hitem:23117::::::::70:::::::::|h[藍月石]|h|r",
-						["count"] = 1,
 						["lastCheck"] = 1636379559,
+						["count"] = 1,
 						["icon"] = 134080,
 						["daysLeft"] = 28.60402870178223,
 					}, -- [5]

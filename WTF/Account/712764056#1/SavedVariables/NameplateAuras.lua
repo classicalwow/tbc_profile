@@ -5,12 +5,15 @@ NameplateAurasAceDB = {
 	},
 	["profiles"] = {
 		["特變電工 - 伊弗斯"] = {
+			["StacksFontScale"] = 2.2,
+			["StacksTextYOffset"] = -23,
 			["HidePlayerBlizzardFrame"] = true,
 			["InterruptsGlowType"] = 1,
 			["AlwaysShowMyAuras"] = true,
 			["DBVersion"] = 19,
 			["IconAnchor"] = 3,
 			["ShowAurasOnPlayerNameplate"] = true,
+			["StacksTextXOffset"] = 4,
 			["HideBlizzardFrames"] = false,
 			["DefaultSpellsLastSetImported"] = 2,
 			["CustomSpells2"] = {

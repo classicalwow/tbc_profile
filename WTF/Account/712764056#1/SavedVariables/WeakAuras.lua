@@ -125,7 +125,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -135,33 +135,40 @@ WeakAurasSaved = {
 				},
 				["use_alive"] = true,
 				["spellknown"] = 30356,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = -100,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Shield Slam",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 45,
 			["frameStrata"] = 1,
+			["width"] = 45,
+			["alpha"] = 1,
 			["uid"] = "S5Vdf86u7j3",
 			["inverse"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = -100,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -202,14 +209,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["法反"] = {
 			["iconSource"] = -1,
@@ -321,6 +321,14 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["actions"] = {
 				["start"] = {
 				},
@@ -331,51 +339,24 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/jMHRj-FSb/3",
-			["parent"] = "pvp",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["xOffset"] = -40.2166748046875,
 			["uid"] = "T5uYuLimuLo",
-			["semver"] = "1.0.2",
-			["zoom"] = 0,
 			["auto"] = true,
+			["zoom"] = 0,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "法反",
 			["width"] = 56.56667709350586,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
+			["parent"] = "pvp",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -421,7 +402,26 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["xOffset"] = -40.2166748046875,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
 		},
 		["Bloodrage"] = {
 			["iconSource"] = -1,
@@ -582,27 +582,34 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = 95,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Bloodrage",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 35,
 			["frameStrata"] = 1,
+			["width"] = 35,
+			["alpha"] = 1,
 			["uid"] = "9sOwYXSR4N(",
 			["inverse"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = 95,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -634,14 +641,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Overpower - Usable (Berserker) 3"] = {
 			["iconSource"] = 0,
@@ -676,9 +676,9 @@ WeakAurasSaved = {
 						["subeventSuffix"] = "_MISSED",
 						["spellIds"] = {
 						},
-						["use_missType"] = true,
-						["missType"] = "DODGE",
 						["use_sourceUnit"] = true,
+						["missType"] = "DODGE",
+						["use_missType"] = true,
 						["sourceUnit"] = "player",
 						["debuffType"] = "HELPFUL",
 					},
@@ -769,7 +769,7 @@ WeakAurasSaved = {
 						[15] = true,
 					},
 				},
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -778,21 +778,21 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
 				["use_talent"] = true,
 				["use_class"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -810,11 +810,11 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["icon"] = true,
+			["cooldownEdge"] = false,
 			["authorOptions"] = {
 			},
 			["regionType"] = "icon",
-			["parent"] = "pvp",
+			["icon"] = true,
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -832,29 +832,19 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["cooldownTextDisabled"] = false,
-			["width"] = 45,
+			["parent"] = "pvp",
 			["zoom"] = 0,
-			["auto"] = false,
+			["width"] = 45,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Overpower - Usable (Berserker) 3",
 			["alpha"] = 1,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "1.0.2",
+			["auto"] = false,
 			["uid"] = "nYvKrvGan5Q",
 			["inverse"] = false,
-			["cooldownEdge"] = false,
-			["displayIcon"] = 132223,
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
 			["animation"] = {
 				["start"] = {
 					["easeStrength"] = 3,
@@ -874,6 +864,16 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeType"] = "none",
 				},
+			},
+			["displayIcon"] = 132223,
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
 		},
 		["Flurry - Buff"] = {
@@ -905,12 +905,12 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["stacks"] = "0",
 						["use_unit"] = true,
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 						["debuffType"] = "HELPFUL",
 						["name"] = "Spell Reflection",
 						["type"] = "aura2",
-						["stacksOperator"] = ">",
-						["unevent"] = "auto",
+						["use_debuffClass"] = false,
+						["subeventSuffix"] = "_CAST_START",
 						["useName"] = true,
 						["form"] = {
 							["single"] = 2,
@@ -922,7 +922,7 @@ WeakAurasSaved = {
 						["spellIds"] = {
 							248622, -- [1]
 						},
-						["use_debuffClass"] = false,
+						["stacksOperator"] = ">",
 						["use_inverse"] = true,
 						["combineMatches"] = "showLowest",
 						["unit"] = "player",
@@ -1072,27 +1072,36 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = 52,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Flurry - Buff",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 45,
 			["frameStrata"] = 1,
+			["width"] = 45,
+			["alpha"] = 1,
 			["uid"] = "CmCH4TK6tSt",
 			["inverse"] = false,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = 52,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -1106,16 +1115,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "",
-					["do_custom"] = false,
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["攔截 2"] = {
 			["iconSource"] = -1,
@@ -1227,6 +1227,14 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["actions"] = {
 				["start"] = {
 				},
@@ -1237,51 +1245,24 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/jMHRj-FSb/3",
-			["parent"] = "pvp",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["xOffset"] = -94.2166748046875,
 			["uid"] = "gvC0WvR(l)V",
-			["semver"] = "1.0.2",
-			["zoom"] = 0,
 			["auto"] = true,
+			["zoom"] = 0,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "攔截 2",
 			["width"] = 56.56667709350586,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
+			["parent"] = "pvp",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -1327,7 +1308,26 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["xOffset"] = -94.2166748046875,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
 		},
 		["4三角 Triangle"] = {
 			["wagoID"] = "vQY6_rTnB",
@@ -1349,10 +1349,10 @@ WeakAurasSaved = {
 					["do_custom"] = true,
 				},
 				["finish"] = {
-					["do_custom"] = true,
-					["hide_all_glows"] = true,
 					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Hide() end",
+					["hide_all_glows"] = true,
 					["do_message"] = false,
+					["do_custom"] = true,
 				},
 				["init"] = {
 					["custom"] = "local e = aura_env\ne.icon=e.config.id\ne.col='|c'..RAID_CLASS_COLORS[select(2, UnitClass(\"player\"))].colorStr--职业颜色\n\nlocal X='|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_7:0|t'--x\nlocal S='|TInterface\\\\Addons\\\\WeakAuras\\\\PowerAurasMedia\\\\Auras\\\\Aura78:0|t'--√\n\nlocal btn=_G[e.id..\"Button\"]\nlocal region = WeakAuras.GetRegion(e.id) \nif not btn then      \n    btn = CreateFrame(\"Button\", e.id..\"Button\", UIParent, \"SecureActionButtonTemplate\")     \n    btn:SetAllPoints(region) \nend\n\nregion:SetAlpha(e.config.Leave)\n\nbtn:RegisterForClicks(\"LeftButtonDown\",\"RightButtonDown\")\nbtn:SetAttribute(\"type\", \"macro\") \nbtn:SetAttribute(\"macrotext1\", \"/script SetRaidTarget(\\\"target\\\",\"..e.icon..\")\")\nbtn:SetAttribute(\"type2\", \"macro\")\ne.btn2=function()\n    if e.str then \n        btn:SetAttribute(\"macrotext2\", \"/target \"..e.str)\n    else\n        btn:SetAttribute(\"macrotext2\", \"\")\n    end \nend\n\ne.TipsShow=function(self)    \n    if e.config.cur==10 or (UnitAffectingCombat('player') and e.config.noShowTooltipsInCombat) then return end\n    \n    local cur={'ANCHOR_TOP' ,'ANCHOR_RIGHT','ANCHOR_BOTTOM','ANCHOR_LEFT','ANCHOR_TOPRIGHT','ANCHOR_BOTTOMRIGHT','ANCHOR_TOPLEFT','ANCHOR_BOTTOMLEFT','ANCHOR_CURSOR'}\n    cur=cur[e.config.cur]\n    GameTooltip:SetOwner(self, cur)        \n    GameTooltip:ClearLines()    \n    local m=''\n    \n    m=m.._G['SETTINGS']..': |TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t'\n    \n    m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON1']..'|r\\n'--左键点击操作\n    m=m..'|cFF00FF00'.._G['KEY_MOUSEWHEELUP']..'|r'--鼠标滚轮向上滚动\n    \n    \n    m=m..'\\n\\n'.._G['BINDING_NAME_RAIDTARGETNONE']\n    m=m..'\\n|cFF00FF00'.._G['KEY_MOUSEWHEELDOWN']..'|r'--鼠标滚轮向下滚动\n    \n    \n    m=m..'\\n\\n'.._G['BINDING_HEADER_TARGETING']\n    if e.Tar then m=m..'(|cFFFF9000'..e.Tar..'|r)' end--选中目标数量\n    if e.str then m=m..': '..e.str else m=m..': ...' end        \n    m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON2']..'|r'--右键点击\n    \n    local s=_G[e.config.S] or e.config.S\n    m=m..'\\n\\n'.._G['SAY']..'(|cFFFF9000'..s..'|r): '\n    if e.Chat then m=m..'|cFF00FF00'.._G['ENABLE']..'|r' else m=m..'|cFFFF0000'.._G['DISABLE']..'|r' end\n    m=m..'\\n|cFF00FF00Alt + '.._G['KEY_MOUSEWHEELUP']..'|r'--鼠标滚轮向下滚动\n    \n    \n    m=m..'\\n\\n|cFFFF00FF|T134248:0|t '..e.config.Key1..'|r: '..string.match(_G['BINDING_NAME_ACTIONBUTTON1'],'(.+)%d')\n    if e.Key1 then \n        m=m..S..'|cFF00FF00'.._G['ENABLE']..'|r'\n    else \n        m=m..X..'|cFFFF0000'.._G['DISABLE']..'|r'\n    end \n    m=m..'\\n|T134248:0|t|cFFFF00FFAlt + '..e.config.Key1..'|r: '\n    if e.str then m=m..e.str else m=m.._G['TARGET'] end\n    if e.Key1 then \n        m=m..S..'|cFF00FF00'.._G['ENABLE']..'|r'\n    else \n        m=m..X..'|cFFFF0000'.._G['DISABLE']..'|r'\n    end \n    m=m..'\\n|cFF00FF00Alt + '.._G['KEY_MOUSEWHEELDOWN']..'|r'--鼠标滚轮向下滚动\n    \n    m=e.col..m..'|r'\n    GameTooltip:SetText(m)            \n    GameTooltip:Show()        \nend\n\ne.GetKey=function()\n    if UnitAffectingCombat('player') then return end\n    ClearOverrideBindings(btn)\n    local SetKey=function(k,RL,S)\n        if not k then return end \n        local s=S or '' \n        local C \n        if RL=='R' then\n            C='RightButton' \n        else\n        C='LeftButton' end \n        SetOverrideBindingClick(btn, true, k, btn:GetName(), C) \n        if not WeakAuras.IsOptionsOpen() then\n            print('|cFF00FF00'.._G['SETTINGS']..'|T134248:12|t|r|cFFFF00FF'..k..'|r: '..e.col..s..'|r') \n        end        \n    end\n    \n    local sa = WeakAurasSaved[e.id..'key1']\n    local key=string.gsub(e.config.Key1,' ','')\n    if sa and sa==1 and key~='' then        \n        SetKey(key,'L','|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t') \n        SetKey('ALT-'..key,'R', _G['TARGET']) \n        if #key==1 then e.Key1=e.col..string.upper(key)..'|r' else e.Key1='|T134248:12|t' end\n    else\n        e.Key1=nil\n    end\nend\ne.GetKey()--设置快捷键\n\nif WeakAurasSaved[e.id..'Chat']==1 then e.Chat=true end\nbtn:EnableMouseWheel(true)\nbtn:SetScript('OnMouseWheel',function(self,delta)\n        if delta==-1 and IsAltKeyDown() then--设置KEY\n            if UnitAffectingCombat('player') then\n                return \n            end\n            if not e.Key1 then                                \n                WeakAurasSaved[e.id..'key1']=1\n            else          \n                print('|cFFFF0000'.._G['KEY_NUMLOCK_MAC']..'|r|T134248:12|t|cFFFF00FF'.. e.config.Key1..'|r: |TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t')                \n                WeakAurasSaved[e.id..'key1']=0                \n            end\n            e.GetKey()\n            WeakAuras.ScanEvents('ENV_Marker_Chat')                        \n        elseif delta==1 and IsAltKeyDown() then\n            local s=_G[e.config.S] or e.config.S\n            if e.Chat then \n                e.Chat=false\n                WeakAurasSaved[e.id..'Chat']=0\n                print('|cFFFF0000'.._G['DISABLE']..'|r: '.._G['SAY']..'): '..s..'|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t')\n            else\n                e.Chat=true\n                WeakAurasSaved[e.id..'Chat']=1\n                print('|cFF0FF000'.._G['ENABLE']..'|r: '.._G['SAY']..'): '..s..'|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t')\n            end            \n            WeakAuras.ScanEvents('ENV_Marker_Chat')            \n        elseif delta == -1 then--鼠标向下，清除目标标记,向上标记\n            if UnitExists('target') then\n                local t=GetRaidTargetIndex('target')                 \n                if t and t~=0 then\n                    SetRaidTarget('target',0)                    \n                end\n            end            \n        elseif delta == 1 then \n            if UnitExists('target') then\n                local t=GetRaidTargetIndex('target')                 \n                if t~=e.icon then\n                    SetRaidTarget('target',e.icon)\n                end\n            end            \n        end\n        e.TipsShow(self)            \nend)\n\nbtn:SetScript(\"OnEnter\",function(self)\n        e.btn2()\n        region:SetAlpha(e.config.Enter)       \n        e.TipsShow(self)\nend)\nbtn:SetScript(\"OnLeave\",function(self)\n        region:SetAlpha(e.config.Leave)\n        GameTooltip:Hide()        \nend)\nbtn:SetScript(\"OnMouseUp\", function(self)\n        region:SetAlpha(e.config.Enter)   \n        e.TipsShow(self)        \nend)\n\nbtn:SetScript(\"OnMouseDown\", function(self)\n        region:SetAlpha(e.config.Down)        \nend)",
@@ -1374,11 +1374,11 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["events"] = "PLAYER_ENTERING_WORLD,ENV_Marker_Chat",
 						["customName"] = "function()\n    local e=aura_env\n    if e.Chat then \n        return e.col.._G['SAY']..'|r'\n    else    \n        return ''\n    end    \nend",
-						["spellIds"] = {
-						},
+						["custom"] = "function()\n    return true\nend",
 						["use_unit"] = true,
 						["check"] = "event",
-						["custom"] = "function()\n    return true\nend",
+						["spellIds"] = {
+						},
 						["custom_type"] = "status",
 						["names"] = {
 						},
@@ -1535,8 +1535,8 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_font"] = "聊天",
-					["text_anchorYOffset"] = 0,
 					["text_shadowYOffset"] = -3,
+					["text_anchorYOffset"] = 0,
 					["text_fontType"] = "OUTLINE",
 					["text_wordWrap"] = "WordWrap",
 					["text_visible"] = true,
@@ -1563,9 +1563,9 @@ WeakAurasSaved = {
 					["anchorYOffset"] = 0,
 					["text_justify"] = "CENTER",
 					["rotateText"] = "NONE",
-					["text_text_format_1.n_format"] = "none",
-					["type"] = "subtext",
 					["text_anchorXOffset"] = -5,
+					["type"] = "subtext",
+					["text_text_format_1.n_format"] = "none",
 					["text_color"] = {
 						1, -- [1]
 						1, -- [2]
@@ -1615,10 +1615,10 @@ WeakAurasSaved = {
 					["text_anchorYOffset"] = 7,
 					["text_shadowXOffset"] = 3,
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_anchorPoint"] = "CENTER",
 					["text_shadowYOffset"] = -3,
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 					["text_text_format_6.n_format"] = "none",
 					["anchorXOffset"] = 0,
 					["text_selfPoint"] = "AUTO",
@@ -1665,66 +1665,10 @@ WeakAurasSaved = {
 			["anchorFrameFrame"] = "WeakAuras:3",
 			["regionType"] = "texture",
 			["blendMode"] = "BLEND",
-			["parent"] = "World-Target Markers",
+			["selfPoint"] = "CENTER",
 			["anchorFrameParent"] = false,
 			["texture"] = "Interface\\TargetingFrame\\UI-RaidTargetingIcon_4",
-			["xOffset"] = -125,
-			["selfPoint"] = "CENTER",
-			["semver"] = "9.2.83",
-			["tocversion"] = 20501,
-			["id"] = "4三角 Triangle",
-			["rotation"] = 0,
-			["alpha"] = 0.5,
-			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
-			["uid"] = "FFVYvAq1pZn",
-			["width"] = 25,
-			["config"] = {
-				["noShowTooltipsInCombat"] = false,
-				["cur"] = 7,
-				["point"] = 1,
-				["Key1"] = "4",
-				["Enter"] = 1,
-				["Leave"] = 0.3,
-				["S"] = "COMBATLOG_HIGHLIGHT_KILL",
-				["Down"] = 0.1,
-				["id"] = 4,
-			},
-			["conditions"] = {
-				{
-					["check"] = {
-						["trigger"] = 2,
-						["variable"] = "show",
-						["value"] = 0,
-					},
-					["changes"] = {
-						{
-							["value"] = true,
-							["property"] = "desaturate",
-						}, -- [1]
-					},
-				}, -- [1]
-				{
-					["check"] = {
-						["trigger"] = 4,
-						["variable"] = "show",
-						["value"] = 1,
-					},
-					["changes"] = {
-						{
-							["value"] = true,
-							["property"] = "sub.4.border_visible",
-						}, -- [1]
-						{
-							["value"] = 1,
-							["property"] = "alpha",
-						}, -- [2]
-					},
-				}, -- [2]
-			},
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
+			["parent"] = "World-Target Markers",
 			["authorOptions"] = {
 				{
 					["type"] = "header",
@@ -1854,6 +1798,62 @@ WeakAurasSaved = {
 					["width"] = 1,
 				}, -- [12]
 			},
+			["semver"] = "9.2.83",
+			["tocversion"] = 20501,
+			["id"] = "4三角 Triangle",
+			["xOffset"] = -125,
+			["alpha"] = 0.5,
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
+			["config"] = {
+				["noShowTooltipsInCombat"] = false,
+				["cur"] = 7,
+				["point"] = 1,
+				["Key1"] = "4",
+				["Enter"] = 1,
+				["Leave"] = 0.3,
+				["S"] = "COMBATLOG_HIGHLIGHT_KILL",
+				["Down"] = 0.1,
+				["id"] = 4,
+			},
+			["width"] = 25,
+			["uid"] = "FFVYvAq1pZn",
+			["conditions"] = {
+				{
+					["check"] = {
+						["trigger"] = 2,
+						["variable"] = "show",
+						["value"] = 0,
+					},
+					["changes"] = {
+						{
+							["value"] = true,
+							["property"] = "desaturate",
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["check"] = {
+						["trigger"] = 4,
+						["variable"] = "show",
+						["value"] = 1,
+					},
+					["changes"] = {
+						{
+							["value"] = true,
+							["property"] = "sub.4.border_visible",
+						}, -- [1]
+						{
+							["value"] = 1,
+							["property"] = "alpha",
+						}, -- [2]
+					},
+				}, -- [2]
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["rotation"] = 0,
 		},
 		["Heroic Strike"] = {
 			["iconSource"] = 0,
@@ -1935,16 +1935,16 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["custom_type"] = "status",
 						["event"] = "Health",
-						["subeventPrefix"] = "SPELL",
+						["unit"] = "player",
 						["names"] = {
 						},
 						["events"] = "ACTIONBAR_UPDATE_STATE ACTIONBAR_SLOT_CHANGED ACTIONBAR_PAGE_CHANGED",
-						["custom"] = "function(e)\n    if e == \"ACTIONBAR_UPDATE_STATE\" then\n        if aura_env.slotList and IsCurrentAction(aura_env.slotList[1]) then\n            return true\n        end\n    elseif e == \"ACTIONBAR_SLOT_CHANGED\" or e ==\"ACTIONBAR_PAGE_CHANGED\" then\n        local _, _, icon, _, _, _, spellid = GetSpellInfo(\"Heroic Strike\")\n        if icon and spellid then\n            aura_env.icon = icon\n            aura_env.slotList = C_ActionBar.FindSpellActionButtons(spellid)\n        end\n    end\nend",
-						["customIcon"] = "function() return aura_env.icon end",
-						["check"] = "event",
 						["spellIds"] = {
 						},
-						["unit"] = "player",
+						["customIcon"] = "function() return aura_env.icon end",
+						["check"] = "event",
+						["custom"] = "function(e)\n    if e == \"ACTIONBAR_UPDATE_STATE\" then\n        if aura_env.slotList and IsCurrentAction(aura_env.slotList[1]) then\n            return true\n        end\n    elseif e == \"ACTIONBAR_SLOT_CHANGED\" or e ==\"ACTIONBAR_PAGE_CHANGED\" then\n        local _, _, icon, _, _, _, spellid = GetSpellInfo(\"Heroic Strike\")\n        if icon and spellid then\n            aura_env.icon = icon\n            aura_env.slotList = C_ActionBar.FindSpellActionButtons(spellid)\n        end\n    end\nend",
+						["subeventPrefix"] = "SPELL",
 						["custom_hide"] = "timed",
 					},
 					["untrigger"] = {
@@ -2007,7 +2007,8 @@ WeakAurasSaved = {
 				["zoneIds"] = "",
 			},
 			["uid"] = "FzrbqhOcDK8",
-			["xOffset"] = 112,
+			["authorOptions"] = {
+			},
 			["actions"] = {
 				["start"] = {
 				},
@@ -2017,7 +2018,7 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["parent"] = "Warrior",
+			["xOffset"] = 112,
 			["cooldown"] = false,
 			["conditions"] = {
 				{
@@ -2034,27 +2035,26 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["selfPoint"] = "CENTER",
-			["zoom"] = 0,
-			["anchorFrameType"] = "SCREEN",
+			["parent"] = "Warrior",
 			["cooldownTextDisabled"] = false,
-			["semver"] = "1.0.2",
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0,
+			["auto"] = false,
 			["tocversion"] = 20501,
 			["id"] = "Heroic Strike",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 16,
-			["auto"] = false,
+			["semver"] = "1.0.2",
 			["config"] = {
 			},
 			["inverse"] = false,
-			["authorOptions"] = {
-			},
+			["cooldownEdge"] = false,
 			["displayIcon"] = 132282,
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["cooldownEdge"] = false,
+			["selfPoint"] = "CENTER",
 		},
 		["法反可用"] = {
 			["iconSource"] = -1,
@@ -2090,7 +2090,7 @@ WeakAurasSaved = {
 						["use_unit"] = true,
 						["type"] = "spell",
 						["use_genericShowOn"] = true,
-						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["use_showOn"] = true,
 						["use_remaining"] = true,
 						["event"] = "Cooldown Progress (Spell)",
@@ -2100,7 +2100,7 @@ WeakAurasSaved = {
 						["spellIds"] = {
 						},
 						["subeventPrefix"] = "SPELL",
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 						["spellName"] = 23920,
 						["use_track"] = true,
 						["unit"] = "player",
@@ -2232,7 +2232,7 @@ WeakAurasSaved = {
 				["zoneIds"] = "",
 			},
 			["zoom"] = 0,
-			["selfPoint"] = "CENTER",
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["regionType"] = "icon",
 			["color"] = {
 				1, -- [1]
@@ -2240,30 +2240,30 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["cooldown"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = -38.3404541015625,
 			["config"] = {
 			},
-			["auto"] = true,
-			["cooldownTextDisabled"] = false,
 			["semver"] = "1.0.2",
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 20501,
 			["id"] = "法反可用",
 			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
-			["width"] = 56.56667709350586,
 			["alpha"] = 1,
+			["width"] = 56.56667709350586,
+			["frameStrata"] = 1,
 			["uid"] = "9SBHE2vCsM6",
 			["inverse"] = true,
-			["icon"] = true,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["xOffset"] = -38.3404541015625,
+			["icon"] = true,
 		},
 		["Alpha Options (Hunter)"] = {
 			["iconSource"] = 0,
@@ -2340,15 +2340,15 @@ WeakAurasSaved = {
 						["genericShowOn"] = "showOnCooldown",
 						["names"] = {
 						},
-						["custom_hide"] = "custom",
 						["spellName"] = 0,
+						["custom_hide"] = "custom",
 						["debuffType"] = "HELPFUL",
 						["use_genericShowOn"] = true,
 						["type"] = "custom",
 						["unit"] = "player",
-						["subeventSuffix"] = "_CAST_START",
-						["events"] = "PLAYER_ENTERING_WORLD PLAYER_REGEN_ENABLED PLAYER_REGEN_DISABLED PLAYER_TARGET_CHANGED PLAYER_ALIVE PLAYER_DEAD PLAYER_UNGHOST",
+						["use_eventtype"] = true,
 						["custom"] = "function(event, ...)\n    local data = WeakAuras.GetData(aura_env.id)\n    local frame = WeakAuras.GetRegion(data.parent)\n    \n    if frame then\n        local alpha = 1\n        local cfgAlpha = aura_env.config\n        \n        if not UnitAffectingCombat(\"player\") then\n            alpha = cfgAlpha[\"ooc-alpha\"]\n        end\n        \n        if UnitExists(\"target\") then\n            local isEnemy = UnitCanAttack(\"player\", \"target\") or UnitIsEnemy(\"player\", \"target\")\n            \n            if (not isEnemy and cfgAlpha[\"friendly-alpha\"]) or (isEnemy and cfgAlpha[\"enemy-alpha\"]) then\n                alpha = 1\n            end\n        end\n        \n        frame:SetAlpha(alpha)\n        \n        return true\n    end\n    \n    return false\nend\n\n\n",
+						["events"] = "PLAYER_ENTERING_WORLD PLAYER_REGEN_ENABLED PLAYER_REGEN_DISABLED PLAYER_TARGET_CHANGED PLAYER_ALIVE PLAYER_DEAD PLAYER_UNGHOST",
 						["event"] = "Combat Log",
 						["eventtype"] = "PLAYER_REGEN_DISABLED",
 						["realSpellName"] = 0,
@@ -2356,8 +2356,8 @@ WeakAurasSaved = {
 						["spellIds"] = {
 						},
 						["unevent"] = "timed",
+						["subeventSuffix"] = "_CAST_START",
 						["custom_type"] = "event",
-						["use_eventtype"] = true,
 						["use_track"] = true,
 						["subeventPrefix"] = "SPELL",
 					},
@@ -2438,8 +2438,8 @@ WeakAurasSaved = {
 			["displayText_format_p_time_precision"] = 1,
 			["zoom"] = 0,
 			["fixedWidth"] = 200,
-			["semver"] = "1.0.1",
 			["justify"] = "LEFT",
+			["semver"] = "1.0.1",
 			["anchorFrameType"] = "SCREEN",
 			["id"] = "Alpha Options (Hunter)",
 			["config"] = {
@@ -2495,8 +2495,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -2618,38 +2618,38 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName",
-					["message_format_1.spellName_format"] = "none",
-					["message_format_n_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.sourceName_format"] = "none",
 					["message_type"] = "PARTY",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_1.sourceName_format"] = "none",
+					["message_format_n_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 132369,
 			["uid"] = "sEdd8bc6hXb",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Hunter-Deterrence",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -2657,7 +2657,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["可用"] = {
 			["iconSource"] = -1,
@@ -2810,16 +2810,6 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["icon"] = true,
-			["cooldownEdge"] = false,
-			["cooldown"] = true,
 			["animation"] = {
 				["start"] = {
 					["easeStrength"] = 3,
@@ -2840,21 +2830,30 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["regionType"] = "icon",
+			["icon"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["cooldown"] = true,
+			["parent"] = "狂暴戰",
 			["config"] = {
 			},
-			["auto"] = true,
-			["cooldownTextDisabled"] = false,
 			["semver"] = "1.0.2",
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 20501,
 			["id"] = "可用",
 			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
-			["width"] = 45.25634384155273,
 			["alpha"] = 1,
+			["width"] = 45.25634384155273,
+			["frameStrata"] = 1,
 			["uid"] = "Jyui99fXW5c",
 			["inverse"] = true,
-			["authorOptions"] = {
-			},
+			["cooldownEdge"] = false,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -2873,7 +2872,8 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "狂暴戰",
+			["authorOptions"] = {
+			},
 		},
 		["Rampage 4"] = {
 			["iconSource"] = -1,
@@ -2976,11 +2976,11 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_font"] = "Friz Quadrata TT",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_shadowYOffset"] = 0,
 					["anchorXOffset"] = 0,
 					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 					["text_anchorPoint"] = "INNER_BOTTOMRIGHT",
 					["text_shadowXOffset"] = 0,
 					["text_shadowColor"] = {
@@ -3073,6 +3073,14 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["cooldownEdge"] = false,
+			["regionType"] = "icon",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["actions"] = {
 				["start"] = {
 				},
@@ -3081,37 +3089,29 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["selfPoint"] = "CENTER",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["cooldownEdge"] = false,
+			["xOffset"] = -2.9998779296875,
 			["uid"] = "Gr1fo6Yeb48",
-			["auto"] = true,
-			["zoom"] = 0,
 			["semver"] = "1.0.2",
+			["zoom"] = 0,
+			["auto"] = true,
 			["tocversion"] = 20501,
 			["id"] = "Rampage 4",
 			["width"] = 45,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["xOffset"] = -2.9998779296875,
+			["authorOptions"] = {
+			},
 		},
 		["Swing Timer 2"] = {
 			["sparkWidth"] = 10,
@@ -3336,8 +3336,22 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 1,
+				["class"] = {
+					["single"] = "WARRIOR",
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_talent"] = true,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -3345,27 +3359,13 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_talent"] = true,
-				["use_class"] = true,
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
 				["role"] = {
 					["multi"] = {
 					},
 				},
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "WARRIOR",
+				["use_class"] = true,
+				["spec"] = {
+					["single"] = 1,
 					["multi"] = {
 					},
 				},
@@ -3396,14 +3396,14 @@ WeakAurasSaved = {
 			["useAdjustededMin"] = false,
 			["regionType"] = "aurabar",
 			["borderInFront"] = true,
-			["semver"] = "1.0.2",
+			["spark"] = false,
 			["icon_side"] = "RIGHT",
-			["auto"] = true,
+			["semver"] = "1.0.2",
 			["sparkHeight"] = 30,
 			["texture"] = "ElvUI Blank",
 			["useAdjustededMax"] = false,
 			["zoom"] = 0,
-			["spark"] = false,
+			["auto"] = true,
 			["tocversion"] = 20501,
 			["id"] = "Swing Timer 2",
 			["animation"] = {
@@ -3460,10 +3460,10 @@ WeakAurasSaved = {
 					["do_custom"] = true,
 				},
 				["finish"] = {
-					["do_custom"] = true,
-					["hide_all_glows"] = true,
 					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Hide() end",
+					["hide_all_glows"] = true,
 					["do_message"] = false,
+					["do_custom"] = true,
 				},
 				["init"] = {
 					["custom"] = "local e = aura_env\ne.icon=e.config.id\ne.col='|c'..RAID_CLASS_COLORS[select(2, UnitClass(\"player\"))].colorStr--职业颜色\n\nlocal X='|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_7:0|t'--x\nlocal S='|TInterface\\\\Addons\\\\WeakAuras\\\\PowerAurasMedia\\\\Auras\\\\Aura78:0|t'--√\n\nlocal btn=_G[e.id..\"Button\"]\nlocal region = WeakAuras.GetRegion(e.id) \nif not btn then      \n    btn = CreateFrame(\"Button\", e.id..\"Button\", UIParent, \"SecureActionButtonTemplate\")     \n    btn:SetAllPoints(region) \nend\n\nregion:SetAlpha(e.config.Leave)\n\nbtn:RegisterForClicks(\"LeftButtonDown\",\"RightButtonDown\")\nbtn:SetAttribute(\"type\", \"macro\") \nbtn:SetAttribute(\"macrotext1\", \"/script SetRaidTarget(\\\"target\\\",\"..e.icon..\")\")\nbtn:SetAttribute(\"type2\", \"macro\")\ne.btn2=function()\n    if e.str then \n        btn:SetAttribute(\"macrotext2\", \"/target \"..e.str)\n    else\n        btn:SetAttribute(\"macrotext2\", \"\")\n    end \nend\n\ne.TipsShow=function(self)    \n    if e.config.cur==10 or (UnitAffectingCombat('player') and e.config.noShowTooltipsInCombat) then return end\n    \n    local cur={'ANCHOR_TOP' ,'ANCHOR_RIGHT','ANCHOR_BOTTOM','ANCHOR_LEFT','ANCHOR_TOPRIGHT','ANCHOR_BOTTOMRIGHT','ANCHOR_TOPLEFT','ANCHOR_BOTTOMLEFT','ANCHOR_CURSOR'}\n    cur=cur[e.config.cur]\n    GameTooltip:SetOwner(self, cur)        \n    GameTooltip:ClearLines()    \n    local m=''\n    \n    m=m.._G['SETTINGS']..': |TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t'\n    \n    m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON1']..'|r\\n'--左键点击操作\n    m=m..'|cFF00FF00'.._G['KEY_MOUSEWHEELUP']..'|r'--鼠标滚轮向上滚动\n    \n    \n    m=m..'\\n\\n'.._G['BINDING_NAME_RAIDTARGETNONE']\n    m=m..'\\n|cFF00FF00'.._G['KEY_MOUSEWHEELDOWN']..'|r'--鼠标滚轮向下滚动\n    \n    \n    m=m..'\\n\\n'.._G['BINDING_HEADER_TARGETING']\n    if e.Tar then m=m..'(|cFFFF9000'..e.Tar..'|r)' end--选中目标数量\n    if e.str then m=m..': '..e.str else m=m..': ...' end        \n    m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON2']..'|r'--右键点击\n    \n    local s=_G[e.config.S] or e.config.S\n    m=m..'\\n\\n'.._G['SAY']..'(|cFFFF9000'..s..'|r): '\n    if e.Chat then m=m..'|cFF00FF00'.._G['ENABLE']..'|r' else m=m..'|cFFFF0000'.._G['DISABLE']..'|r' end\n    m=m..'\\n|cFF00FF00Alt + '.._G['KEY_MOUSEWHEELUP']..'|r'--鼠标滚轮向下滚动\n    \n    \n    m=m..'\\n\\n|cFFFF00FF|T134248:0|t '..e.config.Key1..'|r: '..string.match(_G['BINDING_NAME_ACTIONBUTTON1'],'(.+)%d')\n    if e.Key1 then \n        m=m..S..'|cFF00FF00'.._G['ENABLE']..'|r'\n    else \n        m=m..X..'|cFFFF0000'.._G['DISABLE']..'|r'\n    end \n    m=m..'\\n|T134248:0|t|cFFFF00FFAlt + '..e.config.Key1..'|r: '\n    if e.str then m=m..e.str else m=m.._G['TARGET'] end\n    if e.Key1 then \n        m=m..S..'|cFF00FF00'.._G['ENABLE']..'|r'\n    else \n        m=m..X..'|cFFFF0000'.._G['DISABLE']..'|r'\n    end \n    m=m..'\\n|cFF00FF00Alt + '.._G['KEY_MOUSEWHEELDOWN']..'|r'--鼠标滚轮向下滚动\n    \n    m=e.col..m..'|r'\n    GameTooltip:SetText(m)            \n    GameTooltip:Show()        \nend\n\ne.GetKey=function()\n    if UnitAffectingCombat('player') then return end\n    ClearOverrideBindings(btn)\n    local SetKey=function(k,RL,S)\n        if not k then return end \n        local s=S or '' \n        local C \n        if RL=='R' then\n            C='RightButton' \n        else\n        C='LeftButton' end \n        SetOverrideBindingClick(btn, true, k, btn:GetName(), C) \n        if not WeakAuras.IsOptionsOpen() then\n            print('|cFF00FF00'.._G['SETTINGS']..'|T134248:12|t|r|cFFFF00FF'..k..'|r: '..e.col..s..'|r') \n        end        \n    end\n    \n    local sa = WeakAurasSaved[e.id..'key1']\n    local key=string.gsub(e.config.Key1,' ','')\n    if sa and sa==1 and key~='' then        \n        SetKey(key,'L','|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t') \n        SetKey('ALT-'..key,'R', _G['TARGET']) \n        if #key==1 then e.Key1=e.col..string.upper(key)..'|r' else e.Key1='|T134248:12|t' end\n    else\n        e.Key1=nil\n    end\nend\ne.GetKey()--设置快捷键\n\nif WeakAurasSaved[e.id..'Chat']==1 then e.Chat=true end\nbtn:EnableMouseWheel(true)\nbtn:SetScript('OnMouseWheel',function(self,delta)\n        if delta==-1 and IsAltKeyDown() then--设置KEY\n            if UnitAffectingCombat('player') then\n                return \n            end\n            if not e.Key1 then                                \n                WeakAurasSaved[e.id..'key1']=1\n            else          \n                print('|cFFFF0000'.._G['KEY_NUMLOCK_MAC']..'|r|T134248:12|t|cFFFF00FF'.. e.config.Key1..'|r: |TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t')                \n                WeakAurasSaved[e.id..'key1']=0                \n            end\n            e.GetKey()\n            WeakAuras.ScanEvents('ENV_Marker_Chat')                        \n        elseif delta==1 and IsAltKeyDown() then\n            local s=_G[e.config.S] or e.config.S\n            if e.Chat then \n                e.Chat=false\n                WeakAurasSaved[e.id..'Chat']=0\n                print('|cFFFF0000'.._G['DISABLE']..'|r: '.._G['SAY']..'): '..s..'|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t')\n            else\n                e.Chat=true\n                WeakAurasSaved[e.id..'Chat']=1\n                print('|cFF0FF000'.._G['ENABLE']..'|r: '.._G['SAY']..'): '..s..'|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t')\n            end            \n            WeakAuras.ScanEvents('ENV_Marker_Chat')            \n        elseif delta == -1 then--鼠标向下，清除目标标记,向上标记\n            if UnitExists('target') then\n                local t=GetRaidTargetIndex('target')                 \n                if t and t~=0 then\n                    SetRaidTarget('target',0)                    \n                end\n            end            \n        elseif delta == 1 then \n            if UnitExists('target') then\n                local t=GetRaidTargetIndex('target')                 \n                if t~=e.icon then\n                    SetRaidTarget('target',e.icon)\n                end\n            end            \n        end\n        e.TipsShow(self)            \nend)\n\nbtn:SetScript(\"OnEnter\",function(self)\n        e.btn2()\n        region:SetAlpha(e.config.Enter)       \n        e.TipsShow(self)\nend)\nbtn:SetScript(\"OnLeave\",function(self)\n        region:SetAlpha(e.config.Leave)\n        GameTooltip:Hide()        \nend)\nbtn:SetScript(\"OnMouseUp\", function(self)\n        region:SetAlpha(e.config.Enter)   \n        e.TipsShow(self)        \nend)\n\nbtn:SetScript(\"OnMouseDown\", function(self)\n        region:SetAlpha(e.config.Down)        \nend)",
@@ -3485,11 +3485,11 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["events"] = "PLAYER_ENTERING_WORLD,ENV_Marker_Chat",
 						["customName"] = "function()\n    local e=aura_env\n    if e.Chat then \n        return e.col.._G['SAY']..'|r'\n    else    \n        return ''\n    end    \nend",
-						["spellIds"] = {
-						},
+						["custom"] = "function()\n    return true\nend",
 						["use_unit"] = true,
 						["check"] = "event",
-						["custom"] = "function()\n    return true\nend",
+						["spellIds"] = {
+						},
 						["custom_type"] = "status",
 						["names"] = {
 						},
@@ -3646,8 +3646,8 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_font"] = "聊天",
-					["text_anchorYOffset"] = 0,
 					["text_shadowYOffset"] = -3,
+					["text_anchorYOffset"] = 0,
 					["text_fontType"] = "OUTLINE",
 					["text_wordWrap"] = "WordWrap",
 					["text_visible"] = true,
@@ -3674,9 +3674,9 @@ WeakAurasSaved = {
 					["anchorYOffset"] = 0,
 					["text_justify"] = "CENTER",
 					["rotateText"] = "NONE",
-					["text_text_format_1.n_format"] = "none",
-					["type"] = "subtext",
 					["text_anchorXOffset"] = -5,
+					["type"] = "subtext",
+					["text_text_format_1.n_format"] = "none",
 					["text_color"] = {
 						1, -- [1]
 						1, -- [2]
@@ -3726,10 +3726,10 @@ WeakAurasSaved = {
 					["text_anchorYOffset"] = 7,
 					["text_shadowXOffset"] = 3,
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_anchorPoint"] = "CENTER",
 					["text_shadowYOffset"] = -3,
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 					["text_text_format_6.n_format"] = "none",
 					["anchorXOffset"] = 0,
 					["text_selfPoint"] = "AUTO",
@@ -3776,66 +3776,10 @@ WeakAurasSaved = {
 			["anchorFrameFrame"] = "WeakAuras:1",
 			["regionType"] = "texture",
 			["blendMode"] = "BLEND",
-			["parent"] = "World-Target Markers",
+			["selfPoint"] = "CENTER",
 			["anchorFrameParent"] = false,
 			["texture"] = "Interface\\TargetingFrame\\UI-RaidTargetingIcon_2",
-			["xOffset"] = -75,
-			["selfPoint"] = "CENTER",
-			["semver"] = "9.2.83",
-			["tocversion"] = 20501,
-			["id"] = "2大饼 Circle",
-			["rotation"] = 0,
-			["alpha"] = 0.5,
-			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
-			["uid"] = "XYDn0)u8bdX",
-			["width"] = 25,
-			["config"] = {
-				["noShowTooltipsInCombat"] = false,
-				["cur"] = 7,
-				["point"] = 1,
-				["Key1"] = "2",
-				["Enter"] = 1,
-				["Leave"] = 0.3,
-				["S"] = "TANK",
-				["Down"] = 0.1,
-				["id"] = 2,
-			},
-			["conditions"] = {
-				{
-					["check"] = {
-						["trigger"] = 2,
-						["variable"] = "show",
-						["value"] = 0,
-					},
-					["changes"] = {
-						{
-							["value"] = true,
-							["property"] = "desaturate",
-						}, -- [1]
-					},
-				}, -- [1]
-				{
-					["check"] = {
-						["trigger"] = 4,
-						["variable"] = "show",
-						["value"] = 1,
-					},
-					["changes"] = {
-						{
-							["value"] = true,
-							["property"] = "sub.4.border_visible",
-						}, -- [1]
-						{
-							["value"] = 1,
-							["property"] = "alpha",
-						}, -- [2]
-					},
-				}, -- [2]
-			},
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
+			["parent"] = "World-Target Markers",
 			["authorOptions"] = {
 				{
 					["type"] = "header",
@@ -3965,6 +3909,62 @@ WeakAurasSaved = {
 					["width"] = 1,
 				}, -- [12]
 			},
+			["semver"] = "9.2.83",
+			["tocversion"] = 20501,
+			["id"] = "2大饼 Circle",
+			["xOffset"] = -75,
+			["alpha"] = 0.5,
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
+			["config"] = {
+				["noShowTooltipsInCombat"] = false,
+				["cur"] = 7,
+				["point"] = 1,
+				["Key1"] = "2",
+				["Enter"] = 1,
+				["Leave"] = 0.3,
+				["S"] = "TANK",
+				["Down"] = 0.1,
+				["id"] = 2,
+			},
+			["width"] = 25,
+			["uid"] = "XYDn0)u8bdX",
+			["conditions"] = {
+				{
+					["check"] = {
+						["trigger"] = 2,
+						["variable"] = "show",
+						["value"] = 0,
+					},
+					["changes"] = {
+						{
+							["value"] = true,
+							["property"] = "desaturate",
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["check"] = {
+						["trigger"] = 4,
+						["variable"] = "show",
+						["value"] = 1,
+					},
+					["changes"] = {
+						{
+							["value"] = true,
+							["property"] = "sub.4.border_visible",
+						}, -- [1]
+						{
+							["value"] = 1,
+							["property"] = "alpha",
+						}, -- [2]
+					},
+				}, -- [2]
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["rotation"] = 0,
 		},
 		["Dispel-BoP"] = {
 			["iconSource"] = -1,
@@ -4111,37 +4111,37 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.spellName is off.",
 					["message_type"] = "PARTY",
-					["do_message"] = true,
 					["message_format_1.spellName_format"] = "none",
 					["message_format_1.sourceName_format"] = "none",
+					["do_message"] = true,
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 135894,
 			["uid"] = "MH1Wvq44)Lh",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Dispel-BoP",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -4149,7 +4149,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = false,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Flurry - Buff 2"] = {
 			["iconSource"] = -1,
@@ -4185,14 +4185,14 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["use_specific_unit"] = false,
 						["use_inverse"] = true,
-						["use_debuffClass"] = false,
+						["stacksOperator"] = ">",
 						["debuffType"] = "HELPFUL",
 						["spellIds"] = {
 							248622, -- [1]
 						},
 						["type"] = "aura2",
-						["stacksOperator"] = ">",
-						["subeventSuffix"] = "_CAST_START",
+						["use_debuffClass"] = false,
+						["unevent"] = "auto",
 						["duration"] = "1",
 						["form"] = {
 							["single"] = 2,
@@ -4202,7 +4202,7 @@ WeakAurasSaved = {
 						["buffShowOn"] = "showOnActive",
 						["useName"] = true,
 						["name"] = "Spell Reflection",
-						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["auranames"] = {
 							"Flurry", -- [1]
 						},
@@ -4296,15 +4296,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 1,
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["use_talent"] = true,
-				["use_class"] = true,
-				["role"] = {
+				["class"] = {
+					["single"] = "WARRIOR",
 					["multi"] = {
 					},
 				},
@@ -4312,27 +4305,34 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "WARRIOR",
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["spec"] = {
+					["single"] = 1,
 					["multi"] = {
 					},
 				},
 				["zoneIds"] = "",
 			},
 			["cooldownTextDisabled"] = false,
-			["parent"] = "狂暴戰",
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["regionType"] = "icon",
 			["color"] = {
 				1, -- [1]
@@ -4340,24 +4340,36 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["icon"] = true,
+			["parent"] = "狂暴戰",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = 52,
 			["uid"] = "Vb8uXzFgxrV",
-			["semver"] = "1.0.2",
-			["zoom"] = 0,
 			["auto"] = true,
+			["zoom"] = 0,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Flurry - Buff 2",
 			["width"] = 45,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
+			["icon"] = true,
+			["conditions"] = {
+				{
+					["check"] = {
+					},
+					["changes"] = {
+						{
+						}, -- [1]
+					},
+				}, -- [1]
+			},
+			["cooldown"] = true,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -4378,18 +4390,6 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["conditions"] = {
-				{
-					["check"] = {
-					},
-					["changes"] = {
-						{
-						}, -- [1]
-					},
-				}, -- [1]
-			},
-			["cooldown"] = true,
-			["xOffset"] = 52,
 		},
 		["Kill Command"] = {
 			["iconSource"] = -1,
@@ -4514,13 +4514,7 @@ WeakAurasSaved = {
 				["zoneIds"] = "",
 			},
 			["uid"] = "fMy2Zod)kkx",
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
+			["authorOptions"] = {
 			},
 			["animation"] = {
 				["start"] = {
@@ -4543,27 +4537,33 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["parent"] = "Hunter Core (TBC) - Luxthos",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
 			["displayIcon"] = "",
-			["url"] = "https://wago.io/1NxtmsD1Z/2",
-			["zoom"] = 0.3,
-			["anchorFrameType"] = "SCREEN",
+			["parent"] = "Hunter Core (TBC) - Luxthos",
 			["cooldownTextDisabled"] = false,
-			["auto"] = true,
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["semver"] = "1.0.1",
 			["tocversion"] = 20501,
 			["id"] = "Kill Command",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 46,
-			["semver"] = "1.0.1",
+			["auto"] = true,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["authorOptions"] = {
-			},
+			["xOffset"] = -125,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -4649,7 +4649,7 @@ WeakAurasSaved = {
 				}, -- [5]
 			},
 			["cooldown"] = true,
-			["xOffset"] = -125,
+			["url"] = "https://wago.io/1NxtmsD1Z/2",
 		},
 		["Hunter-Bestial Wrath"] = {
 			["iconSource"] = 0,
@@ -4682,8 +4682,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -4805,38 +4805,38 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName",
-					["message_format_1.spellName_format"] = "none",
-					["message_format_n_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.sourceName_format"] = "none",
 					["message_type"] = "PARTY",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_1.sourceName_format"] = "none",
+					["message_format_n_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 132127,
 			["uid"] = "vKAOZhq7qkz",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Hunter-Bestial Wrath",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -4844,7 +4844,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["亂舞"] = {
 			["iconSource"] = -1,
@@ -4877,7 +4877,7 @@ WeakAurasSaved = {
 						["name"] = "Spell Reflection",
 						["debuffType"] = "HELPFUL",
 						["subeventSuffix"] = "_CAST_START",
-						["useName"] = true,
+						["type"] = "spell",
 						["use_debuffClass"] = false,
 						["unevent"] = "auto",
 						["spellName"] = 25212,
@@ -4889,7 +4889,7 @@ WeakAurasSaved = {
 						["spellIds"] = {
 							215572, -- [1]
 						},
-						["type"] = "spell",
+						["useName"] = true,
 						["matchesShowOn"] = "showOnActive",
 						["combineMatches"] = "showLowest",
 						["use_track"] = true,
@@ -5005,6 +5005,23 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+			},
 			["animation"] = {
 				["start"] = {
 					["easeStrength"] = 3,
@@ -5025,40 +5042,23 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["regionType"] = "icon",
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "",
-					["do_custom"] = false,
-				},
-			},
-			["authorOptions"] = {
-			},
 			["cooldown"] = true,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["xOffset"] = -100.0001220703125,
 			["config"] = {
 			},
-			["auto"] = true,
-			["cooldownTextDisabled"] = false,
 			["semver"] = "1.0.2",
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 20501,
 			["id"] = "亂舞",
 			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
-			["width"] = 45,
 			["alpha"] = 1,
+			["width"] = 45,
+			["frameStrata"] = 1,
 			["uid"] = "09BuHQHAF3P",
 			["inverse"] = false,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -5102,7 +5102,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["xOffset"] = -100.0001220703125,
+			["cooldownEdge"] = false,
 		},
 		["法反 3"] = {
 			["iconSource"] = -1,
@@ -5214,18 +5214,6 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["cooldownEdge"] = false,
-			["xOffset"] = 108.3502197265625,
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -5246,20 +5234,41 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["regionType"] = "icon",
+			["cooldownEdge"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+					["custom"] = "aura_env.region.stacks:SetPoint(\"BOTTOMRIGHT\", aura_env.region, \"BOTTOMRIGHT\", 0, 0)\naura_env.region.stacks:SetShadowOffset(1, -1)",
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
 			["uid"] = "G8nfLNuf74y",
-			["auto"] = true,
-			["zoom"] = 0,
 			["semver"] = "1.0.2",
+			["zoom"] = 0,
+			["auto"] = true,
 			["tocversion"] = 20501,
 			["id"] = "法反 3",
 			["width"] = 56.56667709350586,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["parent"] = "pvp",
+			["xOffset"] = 108.3502197265625,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -5305,16 +5314,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-					["custom"] = "aura_env.region.stacks:SetPoint(\"BOTTOMRIGHT\", aura_env.region, \"BOTTOMRIGHT\", 0, 0)\naura_env.region.stacks:SetShadowOffset(1, -1)",
-					["do_custom"] = false,
-				},
-				["finish"] = {
-				},
-			},
+			["parent"] = "pvp",
 		},
 		["Intercept 3"] = {
 			["iconSource"] = -1,
@@ -5436,7 +5436,7 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
-			["parent"] = "狂暴戰",
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["regionType"] = "icon",
 			["color"] = {
 				1, -- [1]
@@ -5444,44 +5444,25 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["icon"] = true,
+			["parent"] = "狂暴戰",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = -19,
 			["uid"] = "ScSfHIt9J1z",
-			["semver"] = "1.0.2",
-			["zoom"] = 0,
 			["auto"] = true,
+			["zoom"] = 0,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Intercept 3",
 			["width"] = 35,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
+			["icon"] = true,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -5527,7 +5508,26 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["xOffset"] = -19,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
 		},
 		["可用 2"] = {
 			["iconSource"] = -1,
@@ -5693,6 +5693,14 @@ WeakAurasSaved = {
 				["zoneIds"] = "",
 			},
 			["cooldownTextDisabled"] = false,
+			["cooldownEdge"] = false,
+			["regionType"] = "icon",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["actions"] = {
 				["start"] = {
 				},
@@ -5703,33 +5711,24 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["selfPoint"] = "CENTER",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["cooldownEdge"] = false,
+			["xOffset"] = 46.12841796875,
 			["uid"] = "MyPsRhfHZlY",
-			["auto"] = true,
-			["zoom"] = 0,
 			["semver"] = "1.0.2",
+			["zoom"] = 0,
+			["auto"] = true,
 			["tocversion"] = 20501,
 			["id"] = "可用 2",
 			["width"] = 45.25634384155273,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -5746,7 +5745,8 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = true,
-			["xOffset"] = 46.12841796875,
+			["authorOptions"] = {
+			},
 		},
 		["Victory Rush - Usable"] = {
 			["iconSource"] = -1,
@@ -5784,7 +5784,7 @@ WeakAurasSaved = {
 						["name"] = "Spell Reflection",
 						["debuffType"] = "HELPFUL",
 						["subeventSuffix"] = "_CAST_START",
-						["type"] = "spell",
+						["useName"] = true,
 						["use_debuffClass"] = false,
 						["unevent"] = "auto",
 						["spellName"] = 34428,
@@ -5796,7 +5796,7 @@ WeakAurasSaved = {
 						["spellIds"] = {
 							215572, -- [1]
 						},
-						["useName"] = true,
+						["type"] = "spell",
 						["matchesShowOn"] = "showOnActive",
 						["combineMatches"] = "showLowest",
 						["use_track"] = true,
@@ -5899,7 +5899,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -5909,33 +5909,42 @@ WeakAurasSaved = {
 				},
 				["use_alive"] = true,
 				["spellknown"] = 34428,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = -100,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Victory Rush - Usable",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 45,
 			["frameStrata"] = 1,
+			["width"] = 45,
+			["alpha"] = 1,
 			["uid"] = "6h2(an)8pwx",
 			["inverse"] = false,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = -100,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -5979,16 +5988,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "",
-					["do_custom"] = false,
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["飾品"] = {
 			["iconSource"] = -1,
@@ -6020,11 +6020,11 @@ WeakAurasSaved = {
 						["names"] = {
 						},
 						["type"] = "item",
-						["subeventSuffix"] = "_CAST_START",
 						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["use_showOn"] = true,
-						["event"] = "Cooldown Progress (Item)",
 						["use_itemName"] = true,
+						["event"] = "Cooldown Progress (Item)",
 						["use_exact_spellName"] = false,
 						["realSpellName"] = "拳擊",
 						["use_spellName"] = true,
@@ -6086,18 +6086,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "WARRIOR",
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["use_talent"] = true,
-				["use_class"] = true,
-				["race"] = {
+				["spec"] = {
+					["single"] = 2,
 					["multi"] = {
 					},
 				},
@@ -6105,17 +6095,27 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
+				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 2,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["class"] = {
+					["single"] = "WARRIOR",
 					["multi"] = {
 					},
 				},
@@ -6125,32 +6125,46 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["icon"] = true,
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["regionType"] = "icon",
 			["authorOptions"] = {
 			},
-			["xOffset"] = 140.7918701171875,
+			["icon"] = true,
 			["cooldown"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["animation"] = {
+				["start"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
 			["config"] = {
 			},
-			["auto"] = true,
-			["cooldownTextDisabled"] = false,
 			["semver"] = "1.0.2",
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 20501,
 			["id"] = "飾品",
 			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
-			["width"] = 45.58298873901367,
 			["alpha"] = 1,
+			["width"] = 45.58298873901367,
+			["frameStrata"] = 1,
 			["uid"] = "wGzHMtVOcbe",
 			["inverse"] = true,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["xOffset"] = 140.7918701171875,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -6193,25 +6207,11 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["animation"] = {
-				["start"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
 		},
 		["Berserker Stance"] = {
@@ -6241,8 +6241,8 @@ WeakAurasSaved = {
 						["names"] = {
 						},
 						["type"] = "unit",
-						["subeventSuffix"] = "_CAST_START",
 						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["use_showOn"] = true,
 						["form"] = {
 							["single"] = 3,
@@ -6333,13 +6333,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
+			["authorOptions"] = {
 			},
 			["animation"] = {
 				["start"] = {
@@ -6362,30 +6356,36 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["parent"] = "Warrior",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 			},
-			["url"] = "https://wago.io/jMHRj-FSb/3",
-			["cooldownTextDisabled"] = false,
-			["width"] = 20,
+			["parent"] = "Warrior",
 			["zoom"] = 0,
-			["auto"] = false,
+			["width"] = 20,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Berserker Stance",
 			["alpha"] = 0.4,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "1.0.2",
+			["auto"] = false,
 			["uid"] = "WiiLc2nOzvq",
 			["inverse"] = true,
-			["authorOptions"] = {
-			},
+			["xOffset"] = 112,
 			["displayIcon"] = 132275,
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["xOffset"] = 112,
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["破膽"] = {
 			["iconSource"] = -1,
@@ -6524,7 +6524,7 @@ WeakAurasSaved = {
 				["zoneIds"] = "",
 			},
 			["zoom"] = 0,
-			["selfPoint"] = "CENTER",
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["regionType"] = "icon",
 			["color"] = {
 				1, -- [1]
@@ -6532,24 +6532,24 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["cooldown"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = 132.8695068359375,
 			["config"] = {
 			},
-			["auto"] = true,
-			["cooldownTextDisabled"] = false,
 			["semver"] = "1.0.2",
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 20501,
 			["id"] = "破膽",
 			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
-			["width"] = 56.56667709350586,
 			["alpha"] = 1,
+			["width"] = 56.56667709350586,
+			["frameStrata"] = 1,
 			["uid"] = "VKa6tLNNYWF",
 			["inverse"] = true,
-			["icon"] = true,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -6572,7 +6572,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["xOffset"] = 132.8695068359375,
+			["icon"] = true,
 		},
 		["Ready"] = {
 			["wagoID"] = "vQY6_rTnB",
@@ -6612,11 +6612,11 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["event"] = "Health",
 						["custom_type"] = "status",
+						["events"] = "GROUP_ROSTER_UPDATE,PLAYER_ENTERING_WORLD",
+						["customName"] = "",
+						["custom"] = "function()\n    if IsInGroup() and (UnitIsGroupAssistant('player') or UnitIsGroupLeader('player')) then        \n        return true        \n    end    \nend",
 						["spellIds"] = {
 						},
-						["customName"] = "",
-						["events"] = "GROUP_ROSTER_UPDATE,PLAYER_ENTERING_WORLD",
-						["custom"] = "function()\n    if IsInGroup() and (UnitIsGroupAssistant('player') or UnitIsGroupLeader('player')) then        \n        return true        \n    end    \nend",
 						["check"] = "event",
 						["duration"] = "1",
 						["use_unit"] = true,
@@ -6804,15 +6804,6 @@ WeakAurasSaved = {
 			["textureWrapMode"] = "CLAMP",
 			["uid"] = "Nw5lCHYsXvD",
 			["zoom"] = 0,
-			["icon"] = true,
-			["mirror"] = false,
-			["color"] = {
-				0.97647058823529, -- [1]
-				0.98039215686275, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "texture",
 			["authorOptions"] = {
 				{
 					["type"] = "header",
@@ -6902,19 +6893,28 @@ WeakAurasSaved = {
 					["width"] = 2,
 				}, -- [8]
 			},
+			["mirror"] = false,
+			["icon"] = true,
+			["regionType"] = "texture",
+			["parent"] = "World-Target Markers",
 			["blendMode"] = "BLEND",
-			["url"] = "https://wago.io/vQY6_rTnB/84",
+			["color"] = {
+				0.97647058823529, -- [1]
+				0.98039215686275, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["selfPoint"] = "CENTER",
 			["texture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura78",
-			["semver"] = "9.2.83",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "9.2.83",
 			["tocversion"] = 20501,
 			["id"] = "Ready",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 0.5,
-			["width"] = 25,
 			["frameStrata"] = 1,
+			["width"] = 25,
+			["alpha"] = 0.5,
 			["config"] = {
 				["Leave"] = 0.3,
 				["cur"] = 7,
@@ -6930,14 +6930,13 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "World-Target Markers",
+			["url"] = "https://wago.io/vQY6_rTnB/84",
 		},
 		["Rage Bar 3"] = {
 			["sparkWidth"] = 10,
-			["sparkOffsetX"] = 0,
+			["borderBackdrop"] = "None",
 			["wagoID"] = "jMHRj-FSb",
-			["authorOptions"] = {
-			},
+			["parent"] = "狂暴戰",
 			["preferToUpdate"] = false,
 			["customText"] = "function()\n    if aura_env.region then\n        local rage = UnitPower(\"player\", Enum.PowerType.Rage)\n        aura_env.region.text3:SetText(rage)\n    end\nend\n\n\n\n\n\n\n\n\n\n\n\n",
 			["yOffset"] = -126.99987792969,
@@ -6954,16 +6953,7 @@ WeakAurasSaved = {
 			["sparkRotation"] = 0,
 			["sparkRotationMode"] = "AUTO",
 			["url"] = "https://wago.io/jMHRj-FSb/3",
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-					["custom"] = "if aura_env.region then\n    local r = aura_env.region\n    if not r.text3 then\n        local text3 = r.bar:CreateFontString(nil, \"OVERLAY\")\n        r.text3 = text3\n        r.text3:SetJustifyH(\"CENTER\")\n        r.text3:SetJustifyV(\"MIDDLE\")\n        r.text3:SetPoint(\"CENTER\", r.bar, \"CENTER\")\n        r.text3:Show()\n    end\n    r.text3:SetShadowOffset(1, -1)\n    r.text3:SetFont(r.text:GetFont())\n    r.text3:SetTextColor(r.text:GetTextColor())\nend\n\n\n\n\n\n\n",
-					["do_custom"] = true,
-				},
-				["finish"] = {
-				},
-			},
+			["icon"] = false,
 			["triggers"] = {
 				{
 					["trigger"] = {
@@ -7003,10 +6993,11 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["internalVersion"] = 45,
-			["iconSource"] = -1,
+			["sparkOffsetX"] = 0,
 			["selfPoint"] = "CENTER",
 			["backdropInFront"] = false,
-			["xOffset"] = 0,
+			["authorOptions"] = {
+			},
 			["barColor"] = {
 				1, -- [1]
 				0, -- [2]
@@ -7014,12 +7005,16 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["stickyDuration"] = false,
-			["borderBackdrop"] = "None",
-			["backgroundColor"] = {
-				0.3921568627451, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.60000002384186, -- [4]
+			["iconSource"] = -1,
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+					["custom"] = "if aura_env.region then\n    local r = aura_env.region\n    if not r.text3 then\n        local text3 = r.bar:CreateFontString(nil, \"OVERLAY\")\n        r.text3 = text3\n        r.text3:SetJustifyH(\"CENTER\")\n        r.text3:SetJustifyV(\"MIDDLE\")\n        r.text3:SetPoint(\"CENTER\", r.bar, \"CENTER\")\n        r.text3:Show()\n    end\n    r.text3:SetShadowOffset(1, -1)\n    r.text3:SetFont(r.text:GetFont())\n    r.text3:SetTextColor(r.text:GetTextColor())\nend\n\n\n\n\n\n\n",
+					["do_custom"] = true,
+				},
+				["finish"] = {
+				},
 			},
 			["sparkOffsetY"] = 0,
 			["subRegions"] = {
@@ -7196,7 +7191,7 @@ WeakAurasSaved = {
 			},
 			["sparkBlendMode"] = "ADD",
 			["useAdjustededMax"] = false,
-			["parent"] = "狂暴戰",
+			["xOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -7219,7 +7214,12 @@ WeakAurasSaved = {
 			},
 			["id"] = "Rage Bar 3",
 			["desaturate"] = false,
-			["icon"] = false,
+			["backgroundColor"] = {
+				0.3921568627451, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.60000002384186, -- [4]
+			},
 			["version"] = 3,
 			["useAdjustededMin"] = false,
 			["regionType"] = "aurabar",
@@ -7295,7 +7295,7 @@ WeakAurasSaved = {
 						["use_unit"] = true,
 						["type"] = "spell",
 						["use_genericShowOn"] = true,
-						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["use_showOn"] = true,
 						["use_remaining"] = true,
 						["event"] = "Cooldown Progress (Spell)",
@@ -7305,7 +7305,7 @@ WeakAurasSaved = {
 						["spellIds"] = {
 						},
 						["subeventPrefix"] = "SPELL",
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 						["spellName"] = 11578,
 						["use_track"] = true,
 						["unit"] = "player",
@@ -7437,7 +7437,7 @@ WeakAurasSaved = {
 				["zoneIds"] = "",
 			},
 			["zoom"] = 0,
-			["selfPoint"] = "CENTER",
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["regionType"] = "icon",
 			["color"] = {
 				1, -- [1]
@@ -7445,30 +7445,30 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["cooldown"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = -94.2166748046875,
 			["config"] = {
 			},
-			["auto"] = true,
-			["cooldownTextDisabled"] = false,
 			["semver"] = "1.0.2",
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 20501,
 			["id"] = "攔截可用 2",
 			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
-			["width"] = 56.56667709350586,
 			["alpha"] = 1,
+			["width"] = 56.56667709350586,
+			["frameStrata"] = 1,
 			["uid"] = "Xm5wdDoOfsi",
 			["inverse"] = true,
-			["icon"] = true,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["xOffset"] = -94.2166748046875,
+			["icon"] = true,
 		},
 		["Druid-Nature's Swiftness"] = {
 			["iconSource"] = 0,
@@ -7501,8 +7501,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -7624,38 +7624,38 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName",
-					["message_format_1.spellName_format"] = "none",
-					["message_format_n_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.sourceName_format"] = "none",
 					["message_type"] = "PARTY",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_1.sourceName_format"] = "none",
+					["message_format_n_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 136076,
 			["uid"] = "tXxupXN20Ax",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Druid-Nature's Swiftness",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -7663,7 +7663,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Mage-Counterspell"] = {
 			["iconSource"] = 0,
@@ -7696,8 +7696,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -7819,40 +7819,40 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName on %1.destName",
-					["message_format_1.spellName_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.destName_format"] = "none",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_.destName_format"] = "none",
 					["message_type"] = "PARTY",
 					["message_format_n_format"] = "none",
 					["message_format_1.sourceName_format"] = "none",
-					["message_format_.destName_format"] = "none",
+					["message_format_1.destName_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 135856,
 			["uid"] = "36HNLmIog0P",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Mage-Counterspell",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -7860,7 +7860,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["3 - Purple Diamond"] = {
 			["wagoID"] = "vQY6_rTnB",
@@ -7892,11 +7892,11 @@ WeakAurasSaved = {
 						["subeventSuffix"] = "_CAST_START",
 						["custom"] = "function()    \n    if IsInGroup() and \n    select(4,GetBuildInfo()) >=40000 and\n    (IsInRaid() and  (UnitIsGroupAssistant('player') or UnitIsGroupLeader('player')) or not IsInRaid())    \n    then \n        return true        \n    end    \nend",
 						["customName"] = "function()--显示快捷键\n    local e=aura_env\n    if e.Key1 then\n        return e.Key1\n    else\n        return ''\n    end\nend\n\n",
-						["spellIds"] = {
-						},
+						["events"] = "GROUP_ROSTER_UPDATE PLAYER_ENTERING_WORLD PLAYER_REGEN_ENABLED",
 						["use_unit"] = true,
 						["check"] = "event",
-						["events"] = "GROUP_ROSTER_UPDATE PLAYER_ENTERING_WORLD PLAYER_REGEN_ENABLED",
+						["spellIds"] = {
+						},
 						["custom_type"] = "status",
 						["use_absorbMode"] = true,
 					},
@@ -7959,13 +7959,13 @@ WeakAurasSaved = {
 					["text_shadowYOffset"] = -3,
 					["text_anchorYOffset"] = 7,
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_anchorPoint"] = "CENTER",
 					["text_anchorXOffset"] = 7,
 					["text_shadowXOffset"] = 3,
 					["text_fontSize"] = 12,
 					["anchorXOffset"] = 0,
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 				}, -- [1]
 				{
 					["type"] = "subborder",
@@ -8022,24 +8022,6 @@ WeakAurasSaved = {
 				["Leave"] = 0.3,
 			},
 			["zoom"] = 0,
-			["selfPoint"] = "CENTER",
-			["mirror"] = false,
-			["actions"] = {
-				["start"] = {
-					["custom"] = "local e = aura_env\nlocal icon=e.config.id\n\nlocal region = WeakAuras.GetRegion(e.id) \nlocal btn=_G[e.id..\"Button\"]\nif not btn then      \n    btn = CreateFrame(\"Button\", e.id..\"Button\", UIParent, \"SecureActionButtonTemplate\")     \n    btn:SetAllPoints(region) \nend\n\nbtn:RegisterForClicks(\"LeftButtonDown\",\"RightButtonDown\")\nregion:SetAlpha(e.config.Leave)\n\nbtn:SetAttribute(\"type\", \"macro\") \nbtn:SetAttribute(\"macrotext1\", \"/wm \"..icon)\nbtn:SetAttribute(\"type2\", \"macro\") \nbtn:SetAttribute(\"macrotext2\", \"/cwm \"..icon)\n\nbtn:SetScript(\"OnEnter\",function(self)\n        region:SetAlpha(e.config.Enter)    \n        if e.config.cur==10 or (UnitAffectingCombat('player') and e.config.noShowTooltipsInCombat) then return end\n        \n        local cur={'ANCHOR_TOP' ,'ANCHOR_RIGHT','ANCHOR_BOTTOM','ANCHOR_LEFT','ANCHOR_TOPRIGHT','ANCHOR_BOTTOMRIGHT','ANCHOR_TOPLEFT','ANCHOR_BOTTOMLEFT','ANCHOR_CURSOR'}\n        cur=cur[e.config.cur]        \n        GameTooltip:SetOwner(self, e.cur)        \n        GameTooltip:ClearLines()\n        local m=''\n        \n        local marck={_G['WORLD_MARKER5'],_G['WORLD_MARKER6'],_G['WORLD_MARKER3'],_G['WORLD_MARKER2'],_G['WORLD_MARKER7'],_G['WORLD_MARKER1'],_G['WORLD_MARKER4'],_G['WORLD_MARKER8']}\n        local mar={6,4,3,7,1,2,5,8}\n        m=m..marck[mar[icon]]\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON1']..'|r'--左键点击操作\n        \n        \n        m=m..'\\n\\n'.._G['KEY_NUMLOCK_MAC']\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON2']..'|r'--右键点击\n        \n        m=e.col..m..'|r'\n        GameTooltip:SetText(m)\n        GameTooltip:Show()\n        \nend)\n\nbtn:SetScript(\"OnLeave\",function(self)\n        region:SetAlpha(e.config.Leave)\n        GameTooltip:Hide()        \nend)\nbtn:SetScript(\"OnMouseUp\", function(self)\n        region:SetAlpha(e.config.Enter)    \nend)\nbtn:SetScript(\"OnMouseDown\", function(self)\n        region:SetAlpha(e.config.Down)        \nend)\nbtn:Show()",
-					["do_custom"] = true,
-				},
-				["finish"] = {
-					["hide_all_glows"] = true,
-					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Hide() end",
-					["do_custom"] = true,
-				},
-				["init"] = {
-					["custom"] = "local e = aura_env\ne.col='|c'..RAID_CLASS_COLORS[select(2, UnitClass(\"player\"))].colorStr--职业颜色\n\nlocal region = WeakAuras.GetRegion(e.id) \n--型状\nlocal icon=e.config.id\nlocal mar={6,4,3,7,1,2,5,8}\nif e.config.point==1 then--水平\n    region:SetPoint('CENTER',-(mar[icon]+1)*25,0)\nelseif e.config.point==2 then--垂直\n    region:SetPoint('CENTER',0,(mar[icon]+1)*25)\nelseif e.config.point==3 then-- 方块 Square\n    region:SetPoint('CENTER',-100,0) \nend",
-					["do_custom"] = true,
-				},
-			},
-			["regionType"] = "texture",
 			["authorOptions"] = {
 				{
 					["type"] = "header",
@@ -8140,19 +8122,37 @@ WeakAurasSaved = {
 					["width"] = 2,
 				}, -- [9]
 			},
+			["mirror"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "texture",
+			["parent"] = "World-Target Markers",
 			["blendMode"] = "BLEND",
-			["xOffset"] = -100,
+			["actions"] = {
+				["start"] = {
+					["custom"] = "local e = aura_env\nlocal icon=e.config.id\n\nlocal region = WeakAuras.GetRegion(e.id) \nlocal btn=_G[e.id..\"Button\"]\nif not btn then      \n    btn = CreateFrame(\"Button\", e.id..\"Button\", UIParent, \"SecureActionButtonTemplate\")     \n    btn:SetAllPoints(region) \nend\n\nbtn:RegisterForClicks(\"LeftButtonDown\",\"RightButtonDown\")\nregion:SetAlpha(e.config.Leave)\n\nbtn:SetAttribute(\"type\", \"macro\") \nbtn:SetAttribute(\"macrotext1\", \"/wm \"..icon)\nbtn:SetAttribute(\"type2\", \"macro\") \nbtn:SetAttribute(\"macrotext2\", \"/cwm \"..icon)\n\nbtn:SetScript(\"OnEnter\",function(self)\n        region:SetAlpha(e.config.Enter)    \n        if e.config.cur==10 or (UnitAffectingCombat('player') and e.config.noShowTooltipsInCombat) then return end\n        \n        local cur={'ANCHOR_TOP' ,'ANCHOR_RIGHT','ANCHOR_BOTTOM','ANCHOR_LEFT','ANCHOR_TOPRIGHT','ANCHOR_BOTTOMRIGHT','ANCHOR_TOPLEFT','ANCHOR_BOTTOMLEFT','ANCHOR_CURSOR'}\n        cur=cur[e.config.cur]        \n        GameTooltip:SetOwner(self, e.cur)        \n        GameTooltip:ClearLines()\n        local m=''\n        \n        local marck={_G['WORLD_MARKER5'],_G['WORLD_MARKER6'],_G['WORLD_MARKER3'],_G['WORLD_MARKER2'],_G['WORLD_MARKER7'],_G['WORLD_MARKER1'],_G['WORLD_MARKER4'],_G['WORLD_MARKER8']}\n        local mar={6,4,3,7,1,2,5,8}\n        m=m..marck[mar[icon]]\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON1']..'|r'--左键点击操作\n        \n        \n        m=m..'\\n\\n'.._G['KEY_NUMLOCK_MAC']\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON2']..'|r'--右键点击\n        \n        m=e.col..m..'|r'\n        GameTooltip:SetText(m)\n        GameTooltip:Show()\n        \nend)\n\nbtn:SetScript(\"OnLeave\",function(self)\n        region:SetAlpha(e.config.Leave)\n        GameTooltip:Hide()        \nend)\nbtn:SetScript(\"OnMouseUp\", function(self)\n        region:SetAlpha(e.config.Enter)    \nend)\nbtn:SetScript(\"OnMouseDown\", function(self)\n        region:SetAlpha(e.config.Down)        \nend)\nbtn:Show()",
+					["do_custom"] = true,
+				},
+				["finish"] = {
+					["hide_all_glows"] = true,
+					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Hide() end",
+					["do_custom"] = true,
+				},
+				["init"] = {
+					["custom"] = "local e = aura_env\ne.col='|c'..RAID_CLASS_COLORS[select(2, UnitClass(\"player\"))].colorStr--职业颜色\n\nlocal region = WeakAuras.GetRegion(e.id) \n--型状\nlocal icon=e.config.id\nlocal mar={6,4,3,7,1,2,5,8}\nif e.config.point==1 then--水平\n    region:SetPoint('CENTER',-(mar[icon]+1)*25,0)\nelseif e.config.point==2 then--垂直\n    region:SetPoint('CENTER',0,(mar[icon]+1)*25)\nelseif e.config.point==3 then-- 方块 Square\n    region:SetPoint('CENTER',-100,0) \nend",
+					["do_custom"] = true,
+				},
+			},
 			["rotation"] = 0,
 			["texture"] = "Interface\\TargetingFrame\\UI-RaidTargetingIcon_3",
-			["auto"] = true,
-			["cooldownTextDisabled"] = false,
 			["semver"] = "9.2.83",
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 20501,
 			["id"] = "3 - Purple Diamond",
 			["width"] = 25,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["alpha"] = 0.5,
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
 			["uid"] = "SBRUxd67Mki",
 			["inverse"] = false,
 			["url"] = "https://wago.io/vQY6_rTnB/84",
@@ -8161,7 +8161,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "World-Target Markers",
+			["xOffset"] = -100,
 		},
 		["Spell Reflection"] = {
 			["iconSource"] = -1,
@@ -8299,11 +8299,11 @@ WeakAurasSaved = {
 					},
 				},
 				["use_spellknown"] = true,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -8319,27 +8319,34 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = 19,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Spell Reflection",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 35,
 			["frameStrata"] = 1,
+			["width"] = 35,
+			["alpha"] = 1,
 			["uid"] = "YZvfXd3ZQaz",
 			["inverse"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = 19,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -8386,14 +8393,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Execute - Usable (Defensive)"] = {
 			["iconSource"] = 0,
@@ -8564,15 +8564,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "",
-					["do_custom"] = false,
-				},
+			["authorOptions"] = {
 			},
 			["animation"] = {
 				["start"] = {
@@ -8595,7 +8587,16 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["parent"] = "Warrior",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -8613,26 +8614,25 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["url"] = "https://wago.io/jMHRj-FSb/3",
-			["cooldownTextDisabled"] = false,
-			["width"] = 45,
+			["parent"] = "Warrior",
 			["zoom"] = 0,
-			["auto"] = false,
+			["width"] = 45,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Execute - Usable (Defensive)",
 			["alpha"] = 1,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "1.0.2",
+			["auto"] = false,
 			["uid"] = "3sPS1YjPbZ1",
 			["inverse"] = false,
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 			["displayIcon"] = 135358,
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["xOffset"] = 0,
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Charge 2"] = {
 			["iconSource"] = -1,
@@ -8751,7 +8751,7 @@ WeakAurasSaved = {
 				["zoneIds"] = "",
 			},
 			["cooldownTextDisabled"] = false,
-			["parent"] = "狂暴戰",
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["regionType"] = "icon",
 			["color"] = {
 				1, -- [1]
@@ -8759,44 +8759,25 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["icon"] = true,
+			["parent"] = "狂暴戰",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = -19,
 			["uid"] = "6Hz5xWQnAFt",
-			["semver"] = "1.0.2",
-			["zoom"] = 0,
 			["auto"] = true,
+			["zoom"] = 0,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Charge 2",
 			["width"] = 35,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
+			["icon"] = true,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -8823,7 +8804,26 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = true,
-			["xOffset"] = -19,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
 		},
 		["Dispel-PI"] = {
 			["iconSource"] = -1,
@@ -8970,37 +8970,37 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.spellName is off.",
 					["message_type"] = "PARTY",
-					["do_message"] = true,
 					["message_format_1.spellName_format"] = "none",
 					["message_format_1.sourceName_format"] = "none",
+					["do_message"] = true,
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 135894,
 			["uid"] = "ecWX6qGzWJO",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Dispel-PI",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -9008,7 +9008,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = false,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Last Stand - Buff"] = {
 			["iconSource"] = -1,
@@ -9133,7 +9133,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -9143,38 +9143,18 @@ WeakAurasSaved = {
 				},
 				["use_alive"] = true,
 				["spellknown"] = 12975,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = 52,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
-			["config"] = {
-			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
-			["auto"] = true,
-			["tocversion"] = 20501,
-			["id"] = "Last Stand - Buff",
-			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 45,
-			["frameStrata"] = 1,
-			["uid"] = "F3NePd4Y8Wk",
-			["inverse"] = false,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
-			["conditions"] = {
-			},
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
 			["actions"] = {
 				["start"] = {
 				},
@@ -9185,6 +9165,26 @@ WeakAurasSaved = {
 					["do_custom"] = false,
 				},
 			},
+			["config"] = {
+			},
+			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
+			["tocversion"] = 20501,
+			["id"] = "Last Stand - Buff",
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
+			["width"] = 45,
+			["alpha"] = 1,
+			["uid"] = "F3NePd4Y8Wk",
+			["inverse"] = false,
+			["xOffset"] = 52,
+			["conditions"] = {
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Priest-Power Infusion"] = {
 			["iconSource"] = 0,
@@ -9217,8 +9217,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -9340,40 +9340,40 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName on %1.destName",
-					["message_format_1.spellName_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.destName_format"] = "none",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_.destName_format"] = "none",
 					["message_type"] = "PARTY",
 					["message_format_n_format"] = "none",
 					["message_format_1.sourceName_format"] = "none",
-					["message_format_.destName_format"] = "none",
+					["message_format_1.destName_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 135939,
 			["uid"] = "dPxwsVFo4Jx",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Priest-Power Infusion",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -9381,7 +9381,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Rampage"] = {
 			["iconSource"] = -1,
@@ -9504,7 +9504,7 @@ WeakAurasSaved = {
 					["text_shadowYOffset"] = 0,
 					["text_text_format_p_time_dynamic_threshold"] = 60,
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_anchorPoint"] = "INNER_BOTTOMRIGHT",
 					["text_shadowXOffset"] = 0,
 					["text_shadowColor"] = {
@@ -9515,7 +9515,7 @@ WeakAurasSaved = {
 					},
 					["text_fontSize"] = 12,
 					["anchorXOffset"] = 0,
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 				}, -- [1]
 			},
 			["height"] = 45,
@@ -9562,7 +9562,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -9572,33 +9572,40 @@ WeakAurasSaved = {
 				},
 				["use_alive"] = true,
 				["spellknown"] = 29801,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = 50,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Rampage",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 45,
 			["frameStrata"] = 1,
+			["width"] = 45,
+			["alpha"] = 1,
 			["uid"] = "krJIqDoBF7C",
 			["inverse"] = false,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = 50,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -9646,14 +9653,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Overpower - Usable (Defensive)"] = {
 			["iconSource"] = 0,
@@ -9684,9 +9684,9 @@ WeakAurasSaved = {
 						["subeventSuffix"] = "_MISSED",
 						["spellIds"] = {
 						},
-						["use_missType"] = true,
-						["missType"] = "DODGE",
 						["use_sourceUnit"] = true,
+						["missType"] = "DODGE",
+						["use_missType"] = true,
 						["sourceUnit"] = "player",
 						["debuffType"] = "HELPFUL",
 					},
@@ -9841,15 +9841,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "",
-					["do_custom"] = false,
-				},
+			["authorOptions"] = {
 			},
 			["animation"] = {
 				["start"] = {
@@ -9872,7 +9864,16 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["parent"] = "Warrior",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -9890,26 +9891,25 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["url"] = "https://wago.io/jMHRj-FSb/3",
-			["cooldownTextDisabled"] = false,
-			["width"] = 45,
+			["parent"] = "Warrior",
 			["zoom"] = 0,
-			["auto"] = false,
+			["width"] = 45,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Overpower - Usable (Defensive)",
 			["alpha"] = 1,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "1.0.2",
+			["auto"] = false,
 			["uid"] = "4hXd1qVBCbA",
 			["inverse"] = false,
-			["authorOptions"] = {
-			},
+			["xOffset"] = -100,
 			["displayIcon"] = 132223,
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["xOffset"] = -100,
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Orc-Bloodfury"] = {
 			["iconSource"] = 0,
@@ -9942,8 +9942,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -10065,38 +10065,38 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName",
-					["message_format_1.spellName_format"] = "none",
-					["message_format_n_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.sourceName_format"] = "none",
 					["message_type"] = "PARTY",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_1.sourceName_format"] = "none",
+					["message_format_n_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 135726,
 			["uid"] = "tHI4vd(GNai",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Orc-Bloodfury",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -10104,7 +10104,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Enrage - Buff 2"] = {
 			["iconSource"] = -1,
@@ -10130,12 +10130,12 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["use_specific_unit"] = false,
 						["use_unit"] = true,
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 						["debuffType"] = "HELPFUL",
 						["name"] = "Spell Reflection",
 						["type"] = "aura2",
-						["use_debuffClass"] = false,
-						["unevent"] = "auto",
+						["stacksOperator"] = ">",
+						["subeventSuffix"] = "_CAST_START",
 						["useName"] = true,
 						["form"] = {
 							["single"] = 2,
@@ -10147,7 +10147,7 @@ WeakAurasSaved = {
 						["spellIds"] = {
 							248622, -- [1]
 						},
-						["stacksOperator"] = ">",
+						["use_debuffClass"] = false,
 						["matchesShowOn"] = "showOnActive",
 						["combineMatches"] = "showLowest",
 						["use_tooltip"] = false,
@@ -10219,8 +10219,22 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 1,
+				["class"] = {
+					["single"] = "WARRIOR",
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_talent"] = true,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -10228,27 +10242,13 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_talent"] = true,
-				["use_class"] = true,
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
 				["role"] = {
 					["multi"] = {
 					},
 				},
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "WARRIOR",
+				["use_class"] = true,
+				["spec"] = {
+					["single"] = 1,
 					["multi"] = {
 					},
 				},
@@ -10258,7 +10258,8 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["parent"] = "pvp",
+			["authorOptions"] = {
+			},
 			["regionType"] = "icon",
 			["color"] = {
 				1, -- [1]
@@ -10266,23 +10267,45 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["cooldownEdge"] = false,
+			["parent"] = "pvp",
 			["cooldown"] = true,
-			["authorOptions"] = {
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
 			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Enrage - Buff 2",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 45,
 			["frameStrata"] = 1,
+			["width"] = 45,
+			["alpha"] = 1,
 			["uid"] = "HS2o0UJUvQi",
 			["inverse"] = false,
+			["cooldownEdge"] = false,
+			["conditions"] = {
+				{
+					["check"] = {
+					},
+					["changes"] = {
+						{
+						}, -- [1]
+					},
+				}, -- [1]
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
 			["animation"] = {
 				["start"] = {
 					["easeStrength"] = 3,
@@ -10301,29 +10324,6 @@ WeakAurasSaved = {
 					["type"] = "none",
 					["duration_type"] = "seconds",
 					["easeType"] = "none",
-				},
-			},
-			["conditions"] = {
-				{
-					["check"] = {
-					},
-					["changes"] = {
-						{
-						}, -- [1]
-					},
-				}, -- [1]
-			},
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "",
-					["do_custom"] = false,
 				},
 			},
 		},
@@ -10412,15 +10412,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 1,
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["use_talent"] = true,
-				["use_class"] = true,
-				["role"] = {
+				["class"] = {
+					["single"] = "WARRIOR",
 					["multi"] = {
 					},
 				},
@@ -10428,27 +10421,34 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "WARRIOR",
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["spec"] = {
+					["single"] = 1,
 					["multi"] = {
 					},
 				},
 				["zoneIds"] = "",
 			},
 			["cooldownTextDisabled"] = false,
-			["parent"] = "狂暴戰",
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["regionType"] = "icon",
 			["color"] = {
 				1, -- [1]
@@ -10456,24 +10456,28 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["icon"] = true,
+			["parent"] = "狂暴戰",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = 100,
 			["uid"] = "VOBqrOHk69g",
-			["semver"] = "1.0.2",
-			["zoom"] = 0,
 			["auto"] = true,
+			["zoom"] = 0,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Recklessness - Buff 2",
 			["width"] = 45,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
+			["icon"] = true,
+			["conditions"] = {
+			},
+			["cooldown"] = true,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -10494,10 +10498,6 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["conditions"] = {
-			},
-			["cooldown"] = true,
-			["xOffset"] = 100,
 		},
 		["0 - Clear all world markers"] = {
 			["wagoID"] = "vQY6_rTnB",
@@ -10529,11 +10529,11 @@ WeakAurasSaved = {
 						["subeventSuffix"] = "_CAST_START",
 						["custom"] = "function()    \n    if IsInGroup() and \n    select(4,GetBuildInfo()) >=40000 and\n    (IsInRaid() and  (UnitIsGroupAssistant('player') or UnitIsGroupLeader('player')) or not IsInRaid())    \n    then \n        return true        \n    end    \nend",
 						["customName"] = "function()--显示快捷键\n    local e=aura_env\n    if e.Key1 then\n        return e.Key1\n    else\n        return ''\n    end\nend\n\n",
-						["spellIds"] = {
-						},
+						["events"] = "GROUP_ROSTER_UPDATE PLAYER_ENTERING_WORLD PLAYER_REGEN_ENABLED",
 						["use_unit"] = true,
 						["check"] = "event",
-						["events"] = "GROUP_ROSTER_UPDATE PLAYER_ENTERING_WORLD PLAYER_REGEN_ENABLED",
+						["spellIds"] = {
+						},
 						["custom_type"] = "status",
 						["use_absorbMode"] = true,
 					},
@@ -10596,13 +10596,13 @@ WeakAurasSaved = {
 					["text_shadowYOffset"] = -3,
 					["text_anchorYOffset"] = 7,
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_anchorPoint"] = "CENTER",
 					["text_anchorXOffset"] = 7,
 					["text_shadowXOffset"] = 3,
 					["text_fontSize"] = 12,
 					["anchorXOffset"] = 0,
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 				}, -- [1]
 			},
 			["height"] = 25,
@@ -10646,24 +10646,6 @@ WeakAurasSaved = {
 				["Leave"] = 0.3,
 			},
 			["zoom"] = 0,
-			["selfPoint"] = "CENTER",
-			["mirror"] = false,
-			["actions"] = {
-				["start"] = {
-					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Show() end",
-					["do_custom"] = true,
-				},
-				["finish"] = {
-					["hide_all_glows"] = true,
-					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Hide() end",
-					["do_custom"] = true,
-				},
-				["init"] = {
-					["custom"] = "local e = aura_env\nlocal icon=e.config.id\ne.col='|c'..RAID_CLASS_COLORS[select(2, UnitClass(\"player\"))].colorStr--职业颜色\n\nlocal region = WeakAuras.GetRegion(e.id) \n--型状\nif e.config.point==1 then--水平\n    region:SetPoint('CENTER',-25,0)\nelseif e.config.point==2 then\n    region:SetPoint('CENTER',0,25)\nelseif e.config.point==3 then-- 方块 Square\n    region:SetPoint('CENTER',-75,0) \nend\n\nlocal btn=_G[e.id..\"Button\"]\nif not btn then      \n    btn = CreateFrame(\"Button\", e.id..\"Button\", UIParent, \"SecureActionButtonTemplate\")     \n    btn:SetAllPoints(region) \nend\n\nbtn:RegisterForClicks(\"LeftButtonDown\",\"RightButtonDown\")\nregion:SetAlpha(e.config.Leave)\n\nbtn:SetAttribute(\"type\", \"macro\") \nbtn:SetAttribute(\"macrotext1\", \"/cwm \"..icon)\n\nbtn:SetAttribute(\"type2\", \"macro\") \nbtn:SetAttribute(\"macrotext2\", \"/cwm \"..icon)\n\nbtn:SetScript(\"OnMouseUp\", function(self)\n        region:SetAlpha(e.config.Enter)    \nend)\nbtn:SetScript(\"OnMouseDown\", function(self)\n        region:SetAlpha(e.config.Down)        \nend)\nbtn:SetScript(\"OnEnter\",function(self)\n        region:SetAlpha(e.config.Enter)\n        if e.config.cur==10 or (UnitAffectingCombat('player') and e.config.noShowTooltipsInCombat) then return end\n        local cur={'ANCHOR_TOP' ,'ANCHOR_RIGHT','ANCHOR_BOTTOM','ANCHOR_LEFT','ANCHOR_TOPRIGHT','ANCHOR_BOTTOMRIGHT','ANCHOR_TOPLEFT','ANCHOR_BOTTOMLEFT','ANCHOR_CURSOR'}\n        cur=cur[e.config.cur]\n        \n        GameTooltip:SetOwner(self, cur)\n        GameTooltip:ClearLines()\n        GameTooltip:SetText(e.col.._G['CLEAR_ALL']..'|r')\n        GameTooltip:Show()\nend)\nbtn:SetScript(\"OnLeave\",function(self)\n        region:SetAlpha(e.config.Leave)\n        GameTooltip:Hide()        \nend)",
-					["do_custom"] = true,
-				},
-			},
-			["regionType"] = "texture",
 			["authorOptions"] = {
 				{
 					["type"] = "header",
@@ -10764,19 +10746,37 @@ WeakAurasSaved = {
 					["width"] = 2,
 				}, -- [9]
 			},
+			["mirror"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "texture",
+			["parent"] = "World-Target Markers",
 			["blendMode"] = "BLEND",
-			["xOffset"] = -25,
+			["actions"] = {
+				["start"] = {
+					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Show() end",
+					["do_custom"] = true,
+				},
+				["finish"] = {
+					["hide_all_glows"] = true,
+					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Hide() end",
+					["do_custom"] = true,
+				},
+				["init"] = {
+					["custom"] = "local e = aura_env\nlocal icon=e.config.id\ne.col='|c'..RAID_CLASS_COLORS[select(2, UnitClass(\"player\"))].colorStr--职业颜色\n\nlocal region = WeakAuras.GetRegion(e.id) \n--型状\nif e.config.point==1 then--水平\n    region:SetPoint('CENTER',-25,0)\nelseif e.config.point==2 then\n    region:SetPoint('CENTER',0,25)\nelseif e.config.point==3 then-- 方块 Square\n    region:SetPoint('CENTER',-75,0) \nend\n\nlocal btn=_G[e.id..\"Button\"]\nif not btn then      \n    btn = CreateFrame(\"Button\", e.id..\"Button\", UIParent, \"SecureActionButtonTemplate\")     \n    btn:SetAllPoints(region) \nend\n\nbtn:RegisterForClicks(\"LeftButtonDown\",\"RightButtonDown\")\nregion:SetAlpha(e.config.Leave)\n\nbtn:SetAttribute(\"type\", \"macro\") \nbtn:SetAttribute(\"macrotext1\", \"/cwm \"..icon)\n\nbtn:SetAttribute(\"type2\", \"macro\") \nbtn:SetAttribute(\"macrotext2\", \"/cwm \"..icon)\n\nbtn:SetScript(\"OnMouseUp\", function(self)\n        region:SetAlpha(e.config.Enter)    \nend)\nbtn:SetScript(\"OnMouseDown\", function(self)\n        region:SetAlpha(e.config.Down)        \nend)\nbtn:SetScript(\"OnEnter\",function(self)\n        region:SetAlpha(e.config.Enter)\n        if e.config.cur==10 or (UnitAffectingCombat('player') and e.config.noShowTooltipsInCombat) then return end\n        local cur={'ANCHOR_TOP' ,'ANCHOR_RIGHT','ANCHOR_BOTTOM','ANCHOR_LEFT','ANCHOR_TOPRIGHT','ANCHOR_BOTTOMRIGHT','ANCHOR_TOPLEFT','ANCHOR_BOTTOMLEFT','ANCHOR_CURSOR'}\n        cur=cur[e.config.cur]\n        \n        GameTooltip:SetOwner(self, cur)\n        GameTooltip:ClearLines()\n        GameTooltip:SetText(e.col.._G['CLEAR_ALL']..'|r')\n        GameTooltip:Show()\nend)\nbtn:SetScript(\"OnLeave\",function(self)\n        region:SetAlpha(e.config.Leave)\n        GameTooltip:Hide()        \nend)",
+					["do_custom"] = true,
+				},
+			},
 			["rotation"] = 0,
 			["texture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura73",
-			["auto"] = true,
-			["cooldownTextDisabled"] = false,
 			["semver"] = "9.2.83",
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 20501,
 			["id"] = "0 - Clear all world markers",
 			["width"] = 25,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["alpha"] = 0.5,
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
 			["uid"] = "hqki38cdJ1U",
 			["inverse"] = false,
 			["url"] = "https://wago.io/vQY6_rTnB/84",
@@ -10785,7 +10785,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "World-Target Markers",
+			["xOffset"] = -25,
 		},
 		["狂暴戰"] = {
 			["controlledChildren"] = {
@@ -10914,7 +10914,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -10922,16 +10922,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["use_class"] = "true",
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
+				["use_class"] = "true",
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
 					["multi"] = {
 					},
 				},
@@ -10954,18 +10954,18 @@ WeakAurasSaved = {
 			["id"] = "狂暴戰",
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["borderInset"] = 1,
-			["uid"] = "lltCS(JyOca",
 			["selfPoint"] = "BOTTOMLEFT",
 			["config"] = {
 			},
+			["uid"] = "lltCS(JyOca",
+			["xOffset"] = 9.3270263671875,
 			["conditions"] = {
 			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 				["groupOffset"] = true,
 			},
-			["xOffset"] = 9.3270263671875,
+			["borderInset"] = 1,
 		},
 		["Shield Bash"] = {
 			["iconSource"] = -1,
@@ -11119,27 +11119,34 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = -57,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Shield Bash",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 35,
 			["frameStrata"] = 1,
+			["width"] = 35,
+			["alpha"] = 1,
 			["uid"] = "CYhw27O1KNB",
 			["inverse"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = -57,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -11180,14 +11187,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Demoralizing Shout"] = {
 			["iconSource"] = -1,
@@ -11218,8 +11218,8 @@ WeakAurasSaved = {
 						["debuffType"] = "HARMFUL",
 						["type"] = "aura2",
 						["useName"] = true,
-						["subeventSuffix"] = "_CAST_START",
 						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["use_showOn"] = true,
 						["spellName"] = 1160,
 						["event"] = "Cooldown Progress (Spell)",
@@ -11343,7 +11343,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -11353,33 +11353,42 @@ WeakAurasSaved = {
 				},
 				["use_alive"] = true,
 				["spellknown"] = 1160,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = 50,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Demoralizing Shout",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 45,
 			["frameStrata"] = 1,
+			["width"] = 45,
+			["alpha"] = 1,
 			["uid"] = "GxeJjwvUN0P",
 			["inverse"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = 50,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -11399,16 +11408,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "",
-					["do_custom"] = false,
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["8骷髅 Skull"] = {
 			["wagoID"] = "vQY6_rTnB",
@@ -11430,10 +11430,10 @@ WeakAurasSaved = {
 					["do_custom"] = true,
 				},
 				["finish"] = {
-					["do_custom"] = true,
-					["hide_all_glows"] = true,
 					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Hide() end",
+					["hide_all_glows"] = true,
 					["do_message"] = false,
+					["do_custom"] = true,
 				},
 				["init"] = {
 					["custom"] = "local e = aura_env\ne.icon=e.config.id\ne.col='|c'..RAID_CLASS_COLORS[select(2, UnitClass(\"player\"))].colorStr--职业颜色\n\nlocal X='|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_7:0|t'--x\nlocal S='|TInterface\\\\Addons\\\\WeakAuras\\\\PowerAurasMedia\\\\Auras\\\\Aura78:0|t'--√\n\nlocal btn=_G[e.id..\"Button\"]\nlocal region = WeakAuras.GetRegion(e.id) \nif not btn then      \n    btn = CreateFrame(\"Button\", e.id..\"Button\", UIParent, \"SecureActionButtonTemplate\")     \n    btn:SetAllPoints(region) \nend\n\nregion:SetAlpha(e.config.Leave)\n\nbtn:RegisterForClicks(\"LeftButtonDown\",\"RightButtonDown\")\nbtn:SetAttribute(\"type\", \"macro\") \nbtn:SetAttribute(\"macrotext1\", \"/script SetRaidTarget(\\\"target\\\",\"..e.icon..\")\")\nbtn:SetAttribute(\"type2\", \"macro\")\ne.btn2=function()\n    if e.str then \n        btn:SetAttribute(\"macrotext2\", \"/target \"..e.str)\n    else\n        btn:SetAttribute(\"macrotext2\", \"\")\n    end \nend\n\ne.TipsShow=function(self)    \n    if e.config.cur==10 or (UnitAffectingCombat('player') and e.config.noShowTooltipsInCombat) then return end\n    \n    local cur={'ANCHOR_TOP' ,'ANCHOR_RIGHT','ANCHOR_BOTTOM','ANCHOR_LEFT','ANCHOR_TOPRIGHT','ANCHOR_BOTTOMRIGHT','ANCHOR_TOPLEFT','ANCHOR_BOTTOMLEFT','ANCHOR_CURSOR'}\n    cur=cur[e.config.cur]\n    GameTooltip:SetOwner(self, cur)        \n    GameTooltip:ClearLines()    \n    local m=''\n    \n    m=m.._G['SETTINGS']..': |TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t'\n    \n    m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON1']..'|r\\n'--左键点击操作\n    m=m..'|cFF00FF00'.._G['KEY_MOUSEWHEELUP']..'|r'--鼠标滚轮向上滚动\n    \n    \n    m=m..'\\n\\n'.._G['BINDING_NAME_RAIDTARGETNONE']\n    m=m..'\\n|cFF00FF00'.._G['KEY_MOUSEWHEELDOWN']..'|r'--鼠标滚轮向下滚动\n    \n    \n    m=m..'\\n\\n'.._G['BINDING_HEADER_TARGETING']\n    if e.Tar then m=m..'(|cFFFF9000'..e.Tar..'|r)' end--选中目标数量\n    if e.str then m=m..': '..e.str else m=m..': ...' end        \n    m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON2']..'|r'--右键点击\n    \n    local s=_G[e.config.S] or e.config.S\n    m=m..'\\n\\n'.._G['SAY']..'(|cFFFF9000'..s..'|r): '\n    if e.Chat then m=m..'|cFF00FF00'.._G['ENABLE']..'|r' else m=m..'|cFFFF0000'.._G['DISABLE']..'|r' end\n    m=m..'\\n|cFF00FF00Alt + '.._G['KEY_MOUSEWHEELUP']..'|r'--鼠标滚轮向下滚动\n    \n    \n    m=m..'\\n\\n|cFFFF00FF|T134248:0|t '..e.config.Key1..'|r: '..string.match(_G['BINDING_NAME_ACTIONBUTTON1'],'(.+)%d')\n    if e.Key1 then \n        m=m..S..'|cFF00FF00'.._G['ENABLE']..'|r'\n    else \n        m=m..X..'|cFFFF0000'.._G['DISABLE']..'|r'\n    end \n    m=m..'\\n|T134248:0|t|cFFFF00FFAlt + '..e.config.Key1..'|r: '\n    if e.str then m=m..e.str else m=m.._G['TARGET'] end\n    if e.Key1 then \n        m=m..S..'|cFF00FF00'.._G['ENABLE']..'|r'\n    else \n        m=m..X..'|cFFFF0000'.._G['DISABLE']..'|r'\n    end \n    m=m..'\\n|cFF00FF00Alt + '.._G['KEY_MOUSEWHEELDOWN']..'|r'--鼠标滚轮向下滚动\n    \n    m=e.col..m..'|r'\n    GameTooltip:SetText(m)            \n    GameTooltip:Show()        \nend\n\ne.GetKey=function()\n    if UnitAffectingCombat('player') then return end\n    ClearOverrideBindings(btn)\n    local SetKey=function(k,RL,S)\n        if not k then return end \n        local s=S or '' \n        local C \n        if RL=='R' then\n            C='RightButton' \n        else\n        C='LeftButton' end \n        SetOverrideBindingClick(btn, true, k, btn:GetName(), C) \n        if not WeakAuras.IsOptionsOpen() then\n            print('|cFF00FF00'.._G['SETTINGS']..'|T134248:12|t|r|cFFFF00FF'..k..'|r: '..e.col..s..'|r') \n        end        \n    end\n    \n    local sa = WeakAurasSaved[e.id..'key1']\n    local key=string.gsub(e.config.Key1,' ','')\n    if sa and sa==1 and key~='' then        \n        SetKey(key,'L','|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t') \n        SetKey('ALT-'..key,'R', _G['TARGET']) \n        if #key==1 then e.Key1=e.col..string.upper(key)..'|r' else e.Key1='|T134248:12|t' end\n    else\n        e.Key1=nil\n    end\nend\ne.GetKey()--设置快捷键\n\nif WeakAurasSaved[e.id..'Chat']==1 then e.Chat=true end\nbtn:EnableMouseWheel(true)\nbtn:SetScript('OnMouseWheel',function(self,delta)\n        if delta==-1 and IsAltKeyDown() then--设置KEY\n            if UnitAffectingCombat('player') then\n                return \n            end\n            if not e.Key1 then                                \n                WeakAurasSaved[e.id..'key1']=1\n            else          \n                print('|cFFFF0000'.._G['KEY_NUMLOCK_MAC']..'|r|T134248:12|t|cFFFF00FF'.. e.config.Key1..'|r: |TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t')                \n                WeakAurasSaved[e.id..'key1']=0                \n            end\n            e.GetKey()\n            WeakAuras.ScanEvents('ENV_Marker_Chat')                        \n        elseif delta==1 and IsAltKeyDown() then\n            local s=_G[e.config.S] or e.config.S\n            if e.Chat then \n                e.Chat=false\n                WeakAurasSaved[e.id..'Chat']=0\n                print('|cFFFF0000'.._G['DISABLE']..'|r: '.._G['SAY']..'): '..s..'|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t')\n            else\n                e.Chat=true\n                WeakAurasSaved[e.id..'Chat']=1\n                print('|cFF0FF000'.._G['ENABLE']..'|r: '.._G['SAY']..'): '..s..'|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t')\n            end            \n            WeakAuras.ScanEvents('ENV_Marker_Chat')            \n        elseif delta == -1 then--鼠标向下，清除目标标记,向上标记\n            if UnitExists('target') then\n                local t=GetRaidTargetIndex('target')                 \n                if t and t~=0 then\n                    SetRaidTarget('target',0)                    \n                end\n            end            \n        elseif delta == 1 then \n            if UnitExists('target') then\n                local t=GetRaidTargetIndex('target')                 \n                if t~=e.icon then\n                    SetRaidTarget('target',e.icon)\n                end\n            end            \n        end\n        e.TipsShow(self)            \nend)\n\nbtn:SetScript(\"OnEnter\",function(self)\n        e.btn2()\n        region:SetAlpha(e.config.Enter)       \n        e.TipsShow(self)\nend)\nbtn:SetScript(\"OnLeave\",function(self)\n        region:SetAlpha(e.config.Leave)\n        GameTooltip:Hide()        \nend)\nbtn:SetScript(\"OnMouseUp\", function(self)\n        region:SetAlpha(e.config.Enter)   \n        e.TipsShow(self)        \nend)\n\nbtn:SetScript(\"OnMouseDown\", function(self)\n        region:SetAlpha(e.config.Down)        \nend)",
@@ -11455,11 +11455,11 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["events"] = "PLAYER_ENTERING_WORLD,ENV_Marker_Chat",
 						["customName"] = "function()\n    local e=aura_env\n    if e.Chat then \n        return e.col.._G['SAY']..'|r'\n    else    \n        return ''\n    end    \nend",
-						["spellIds"] = {
-						},
+						["custom"] = "function()\n    return true\nend",
 						["use_unit"] = true,
 						["check"] = "event",
-						["custom"] = "function()\n    return true\nend",
+						["spellIds"] = {
+						},
 						["custom_type"] = "status",
 						["names"] = {
 						},
@@ -11616,8 +11616,8 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_font"] = "聊天",
-					["text_anchorYOffset"] = 0,
 					["text_shadowYOffset"] = -3,
+					["text_anchorYOffset"] = 0,
 					["text_fontType"] = "OUTLINE",
 					["text_wordWrap"] = "WordWrap",
 					["text_visible"] = true,
@@ -11644,9 +11644,9 @@ WeakAurasSaved = {
 					["anchorYOffset"] = 0,
 					["text_justify"] = "CENTER",
 					["rotateText"] = "NONE",
-					["text_text_format_1.n_format"] = "none",
-					["type"] = "subtext",
 					["text_anchorXOffset"] = -5,
+					["type"] = "subtext",
+					["text_text_format_1.n_format"] = "none",
 					["text_color"] = {
 						1, -- [1]
 						1, -- [2]
@@ -11696,10 +11696,10 @@ WeakAurasSaved = {
 					["text_anchorYOffset"] = 7,
 					["text_shadowXOffset"] = 3,
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_anchorPoint"] = "CENTER",
 					["text_shadowYOffset"] = -3,
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 					["text_text_format_6.n_format"] = "none",
 					["anchorXOffset"] = 0,
 					["text_selfPoint"] = "AUTO",
@@ -11746,66 +11746,10 @@ WeakAurasSaved = {
 			["anchorFrameFrame"] = "WeakAuras:7",
 			["regionType"] = "texture",
 			["blendMode"] = "BLEND",
-			["parent"] = "World-Target Markers",
+			["selfPoint"] = "CENTER",
 			["anchorFrameParent"] = false,
 			["texture"] = "Interface\\TargetingFrame\\UI-RaidTargetingIcon_8",
-			["xOffset"] = -225,
-			["selfPoint"] = "CENTER",
-			["semver"] = "9.2.83",
-			["tocversion"] = 20501,
-			["id"] = "8骷髅 Skull",
-			["rotation"] = 0,
-			["alpha"] = 0.5,
-			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
-			["uid"] = "tyBVUouFmbc",
-			["width"] = 25,
-			["config"] = {
-				["noShowTooltipsInCombat"] = false,
-				["cur"] = 7,
-				["point"] = 1,
-				["Key1"] = "8",
-				["Enter"] = 1,
-				["Leave"] = 0.3,
-				["S"] = "COMBATLOG_HIGHLIGHT_KILL",
-				["Down"] = 0.1,
-				["id"] = 8,
-			},
-			["conditions"] = {
-				{
-					["check"] = {
-						["trigger"] = 2,
-						["variable"] = "show",
-						["value"] = 0,
-					},
-					["changes"] = {
-						{
-							["value"] = true,
-							["property"] = "desaturate",
-						}, -- [1]
-					},
-				}, -- [1]
-				{
-					["check"] = {
-						["trigger"] = 4,
-						["variable"] = "show",
-						["value"] = 1,
-					},
-					["changes"] = {
-						{
-							["value"] = true,
-							["property"] = "sub.4.border_visible",
-						}, -- [1]
-						{
-							["value"] = 1,
-							["property"] = "alpha",
-						}, -- [2]
-					},
-				}, -- [2]
-			},
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
+			["parent"] = "World-Target Markers",
 			["authorOptions"] = {
 				{
 					["type"] = "header",
@@ -11935,6 +11879,62 @@ WeakAurasSaved = {
 					["width"] = 1,
 				}, -- [12]
 			},
+			["semver"] = "9.2.83",
+			["tocversion"] = 20501,
+			["id"] = "8骷髅 Skull",
+			["xOffset"] = -225,
+			["alpha"] = 0.5,
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
+			["config"] = {
+				["noShowTooltipsInCombat"] = false,
+				["cur"] = 7,
+				["point"] = 1,
+				["Key1"] = "8",
+				["Enter"] = 1,
+				["Leave"] = 0.3,
+				["S"] = "COMBATLOG_HIGHLIGHT_KILL",
+				["Down"] = 0.1,
+				["id"] = 8,
+			},
+			["width"] = 25,
+			["uid"] = "tyBVUouFmbc",
+			["conditions"] = {
+				{
+					["check"] = {
+						["trigger"] = 2,
+						["variable"] = "show",
+						["value"] = 0,
+					},
+					["changes"] = {
+						{
+							["value"] = true,
+							["property"] = "desaturate",
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["check"] = {
+						["trigger"] = 4,
+						["variable"] = "show",
+						["value"] = 1,
+					},
+					["changes"] = {
+						{
+							["value"] = true,
+							["property"] = "sub.4.border_visible",
+						}, -- [1]
+						{
+							["value"] = 1,
+							["property"] = "alpha",
+						}, -- [2]
+					},
+				}, -- [2]
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["rotation"] = 0,
 		},
 		["Enrage - Buff"] = {
 			["iconSource"] = -1,
@@ -11965,12 +11965,12 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["stacks"] = "0",
 						["use_unit"] = true,
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 						["debuffType"] = "HELPFUL",
 						["name"] = "Spell Reflection",
 						["type"] = "aura2",
-						["stacksOperator"] = ">",
-						["unevent"] = "auto",
+						["use_debuffClass"] = false,
+						["subeventSuffix"] = "_CAST_START",
 						["useName"] = true,
 						["form"] = {
 							["single"] = 2,
@@ -11982,7 +11982,7 @@ WeakAurasSaved = {
 						["spellIds"] = {
 							248622, -- [1]
 						},
-						["use_debuffClass"] = false,
+						["stacksOperator"] = ">",
 						["use_inverse"] = true,
 						["combineMatches"] = "showLowest",
 						["unit"] = "player",
@@ -12113,27 +12113,36 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = -52,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Enrage - Buff",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 45,
 			["frameStrata"] = 1,
+			["width"] = 45,
+			["alpha"] = 1,
 			["uid"] = "U4SIS9WP55e",
 			["inverse"] = false,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = -52,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -12147,16 +12156,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "",
-					["do_custom"] = false,
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Hunter-Scatter Shot"] = {
 			["iconSource"] = 0,
@@ -12189,8 +12189,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -12312,40 +12312,40 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName on %1.destName",
-					["message_format_1.spellName_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.destName_format"] = "none",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_.destName_format"] = "none",
 					["message_type"] = "PARTY",
 					["message_format_n_format"] = "none",
 					["message_format_1.sourceName_format"] = "none",
-					["message_format_.destName_format"] = "none",
+					["message_format_1.destName_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 132153,
 			["uid"] = "ktIW9C3S7Y4",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Hunter-Scatter Shot",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -12353,7 +12353,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["破膽可用"] = {
 			["iconSource"] = -1,
@@ -12532,37 +12532,37 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
+			["icon"] = true,
+			["regionType"] = "icon",
+			["xOffset"] = 132.8695068359375,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["regionType"] = "icon",
-			["xOffset"] = 132.8695068359375,
-			["parent"] = "pvp",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
 			["uid"] = "(oDKbvBnE4e",
-			["auto"] = true,
-			["cooldownTextDisabled"] = false,
 			["semver"] = "1.0.2",
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 20501,
 			["id"] = "破膽可用",
 			["width"] = 56.56667709350586,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["parent"] = "pvp",
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Execute - Usable 2"] = {
 			["iconSource"] = -1,
@@ -12595,7 +12595,7 @@ WeakAurasSaved = {
 						["name"] = "Spell Reflection",
 						["debuffType"] = "HELPFUL",
 						["subeventSuffix"] = "_CAST_START",
-						["useName"] = true,
+						["type"] = "spell",
 						["use_debuffClass"] = false,
 						["unevent"] = "auto",
 						["spellName"] = 20660,
@@ -12607,7 +12607,7 @@ WeakAurasSaved = {
 						["spellIds"] = {
 							215572, -- [1]
 						},
-						["type"] = "spell",
+						["useName"] = true,
 						["use_genericShowOn"] = true,
 						["combineMatches"] = "showLowest",
 						["use_track"] = true,
@@ -12684,8 +12684,22 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 2,
+				["class"] = {
+					["single"] = "WARRIOR",
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_talent"] = true,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -12693,27 +12707,13 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_talent"] = true,
-				["use_class"] = true,
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
 				["role"] = {
 					["multi"] = {
 					},
 				},
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "WARRIOR",
+				["use_class"] = true,
+				["spec"] = {
+					["single"] = 2,
 					["multi"] = {
 					},
 				},
@@ -12723,7 +12723,8 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["parent"] = "pvp",
+			["authorOptions"] = {
+			},
 			["regionType"] = "icon",
 			["color"] = {
 				1, -- [1]
@@ -12731,43 +12732,32 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["cooldownEdge"] = false,
+			["parent"] = "pvp",
 			["cooldown"] = true,
-			["authorOptions"] = {
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
 			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Execute - Usable 2",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 45,
 			["frameStrata"] = 1,
+			["width"] = 45,
+			["alpha"] = 1,
 			["uid"] = "GS(SgLGSfJT",
 			["inverse"] = false,
-			["animation"] = {
-				["start"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
+			["cooldownEdge"] = false,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -12812,14 +12802,24 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
+			["animation"] = {
 				["start"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
 				},
 				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "",
-					["do_custom"] = false,
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
 				},
 			},
 		},
@@ -12854,7 +12854,7 @@ WeakAurasSaved = {
 						["name"] = "Spell Reflection",
 						["debuffType"] = "HELPFUL",
 						["subeventSuffix"] = "_CAST_START",
-						["useName"] = true,
+						["type"] = "spell",
 						["use_debuffClass"] = false,
 						["unevent"] = "auto",
 						["spellName"] = 7384,
@@ -12866,7 +12866,7 @@ WeakAurasSaved = {
 						["spellIds"] = {
 							215572, -- [1]
 						},
-						["type"] = "spell",
+						["useName"] = true,
 						["use_genericShowOn"] = true,
 						["combineMatches"] = "showLowest",
 						["use_track"] = true,
@@ -12943,8 +12943,22 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 2,
+				["class"] = {
+					["single"] = "WARRIOR",
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_talent"] = true,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -12952,27 +12966,13 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_talent"] = true,
-				["use_class"] = true,
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
 				["role"] = {
 					["multi"] = {
 					},
 				},
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "WARRIOR",
+				["use_class"] = true,
+				["spec"] = {
+					["single"] = 2,
 					["multi"] = {
 					},
 				},
@@ -12982,7 +12982,8 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["parent"] = "pvp",
+			["authorOptions"] = {
+			},
 			["regionType"] = "icon",
 			["color"] = {
 				1, -- [1]
@@ -12990,43 +12991,32 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["cooldownEdge"] = false,
+			["parent"] = "pvp",
 			["cooldown"] = true,
-			["authorOptions"] = {
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
 			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Overpower - Usable 2",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 45,
 			["frameStrata"] = 1,
+			["width"] = 45,
+			["alpha"] = 1,
 			["uid"] = "VcIR9cqw65X",
 			["inverse"] = false,
-			["animation"] = {
-				["start"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
+			["cooldownEdge"] = false,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -13071,14 +13061,24 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
+			["animation"] = {
 				["start"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
 				},
 				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "",
-					["do_custom"] = false,
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
 				},
 			},
 		},
@@ -13172,7 +13172,7 @@ WeakAurasSaved = {
 					},
 				},
 				["zoneIds"] = "",
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -13180,15 +13180,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
 				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -13223,9 +13223,17 @@ WeakAurasSaved = {
 			["id"] = "pvp",
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
+			["config"] = {
+			},
 			["uid"] = "HA4)mip1uRa",
 			["borderInset"] = 1,
-			["config"] = {
+			["authorOptions"] = {
+			},
+			["conditions"] = {
+			},
+			["information"] = {
+				["groupOffset"] = true,
+				["ignoreOptionsEventErrors"] = true,
 			},
 			["animation"] = {
 				["start"] = {
@@ -13246,14 +13254,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeType"] = "none",
 				},
-			},
-			["conditions"] = {
-			},
-			["information"] = {
-				["groupOffset"] = true,
-				["ignoreOptionsEventErrors"] = true,
-			},
-			["authorOptions"] = {
 			},
 		},
 		["Intimidating Shout"] = {
@@ -13389,27 +13389,34 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = -57,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Intimidating Shout",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 35,
 			["frameStrata"] = 1,
+			["width"] = 35,
+			["alpha"] = 1,
 			["uid"] = "jnmJsMDe(6y",
 			["inverse"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = -57,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -13450,14 +13457,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Concussion Blow"] = {
 			["iconSource"] = -1,
@@ -13506,8 +13506,8 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["spellName"] = 12809,
 						["type"] = "spell",
-						["subeventSuffix"] = "_CAST_START",
 						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["use_showOn"] = true,
 						["subeventPrefix"] = "SPELL",
 						["event"] = "Cooldown Progress (Spell)",
@@ -13601,7 +13601,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -13611,33 +13611,40 @@ WeakAurasSaved = {
 				},
 				["use_alive"] = true,
 				["spellknown"] = 12809,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = 100,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Concussion Blow",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 45,
 			["frameStrata"] = 1,
+			["width"] = 45,
+			["alpha"] = 1,
 			["uid"] = "12R66zDk06K",
 			["inverse"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = 100,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -13683,14 +13690,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Shield Wall - Buff"] = {
 			["iconSource"] = -1,
@@ -13828,32 +13828,12 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = 100,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
-			["config"] = {
-			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
-			["auto"] = true,
-			["tocversion"] = 20501,
-			["id"] = "Shield Wall - Buff",
-			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 45,
-			["frameStrata"] = 1,
-			["uid"] = "3ULYyioFzrz",
-			["inverse"] = false,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
-			["conditions"] = {
-			},
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
 			["actions"] = {
 				["start"] = {
 				},
@@ -13864,6 +13844,26 @@ WeakAurasSaved = {
 					["do_custom"] = false,
 				},
 			},
+			["config"] = {
+			},
+			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
+			["tocversion"] = 20501,
+			["id"] = "Shield Wall - Buff",
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
+			["width"] = 45,
+			["alpha"] = 1,
+			["uid"] = "3ULYyioFzrz",
+			["inverse"] = false,
+			["xOffset"] = 100,
+			["conditions"] = {
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Execute - Usable (Defensive) 2"] = {
 			["iconSource"] = 0,
@@ -13997,8 +13997,22 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 2,
+				["class"] = {
+					["single"] = "WARRIOR",
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_talent"] = true,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -14006,27 +14020,13 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_talent"] = true,
-				["use_class"] = true,
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
 				["role"] = {
 					["multi"] = {
 					},
 				},
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "WARRIOR",
+				["use_class"] = true,
+				["spec"] = {
+					["single"] = 2,
 					["multi"] = {
 					},
 				},
@@ -14037,11 +14037,11 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["icon"] = true,
+			["cooldownEdge"] = false,
 			["authorOptions"] = {
 			},
 			["regionType"] = "icon",
-			["parent"] = "pvp",
+			["icon"] = true,
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -14059,29 +14059,19 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["cooldownTextDisabled"] = false,
-			["width"] = 45,
+			["parent"] = "pvp",
 			["zoom"] = 0,
-			["auto"] = false,
+			["width"] = 45,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Execute - Usable (Defensive) 2",
 			["alpha"] = 1,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "1.0.2",
+			["auto"] = false,
 			["uid"] = "QC(4VsS8SVw",
 			["inverse"] = false,
-			["cooldownEdge"] = false,
-			["displayIcon"] = 135358,
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
 			["animation"] = {
 				["start"] = {
 					["easeStrength"] = 3,
@@ -14101,6 +14091,16 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeType"] = "none",
 				},
+			},
+			["displayIcon"] = 135358,
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
 		},
 		["Arcane Shot"] = {
@@ -14213,13 +14213,7 @@ WeakAurasSaved = {
 				["zoneIds"] = "",
 			},
 			["uid"] = "NSk(ivi7h(u",
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
+			["authorOptions"] = {
 			},
 			["animation"] = {
 				["start"] = {
@@ -14242,27 +14236,33 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["parent"] = "Hunter Core (TBC) - Luxthos",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
 			["displayIcon"] = "",
-			["url"] = "https://wago.io/1NxtmsD1Z/2",
-			["zoom"] = 0.3,
-			["anchorFrameType"] = "SCREEN",
+			["parent"] = "Hunter Core (TBC) - Luxthos",
 			["cooldownTextDisabled"] = false,
-			["auto"] = true,
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["semver"] = "1.0.1",
 			["tocversion"] = 20501,
 			["id"] = "Arcane Shot",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 46,
-			["semver"] = "1.0.1",
+			["auto"] = true,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["authorOptions"] = {
-			},
+			["xOffset"] = -75,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -14312,7 +14312,7 @@ WeakAurasSaved = {
 				}, -- [3]
 			},
 			["cooldown"] = true,
-			["xOffset"] = -75,
+			["url"] = "https://wago.io/1NxtmsD1Z/2",
 		},
 		["Not Pet (Hunter)"] = {
 			["iconSource"] = -1,
@@ -14427,13 +14427,7 @@ WeakAurasSaved = {
 				["zoneIds"] = "",
 			},
 			["uid"] = "(qCbfFc3LCW",
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
+			["authorOptions"] = {
 			},
 			["animation"] = {
 				["start"] = {
@@ -14456,27 +14450,33 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["parent"] = "Hunter Core (TBC) - Luxthos",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
 			["displayIcon"] = 132161,
-			["url"] = "https://wago.io/1NxtmsD1Z/2",
-			["zoom"] = 0.3,
-			["anchorFrameType"] = "SCREEN",
+			["parent"] = "Hunter Core (TBC) - Luxthos",
 			["cooldownTextDisabled"] = false,
-			["auto"] = true,
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["semver"] = "1.0.1",
 			["tocversion"] = 20501,
 			["id"] = "Not Pet (Hunter)",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 46,
-			["semver"] = "1.0.1",
+			["auto"] = true,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["authorOptions"] = {
-			},
+			["xOffset"] = -125,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -14508,7 +14508,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = true,
-			["xOffset"] = -125,
+			["url"] = "https://wago.io/1NxtmsD1Z/2",
 		},
 		["Dwarf-Stoneform"] = {
 			["iconSource"] = 0,
@@ -14541,8 +14541,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -14664,38 +14664,38 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName",
-					["message_format_1.spellName_format"] = "none",
-					["message_format_n_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.sourceName_format"] = "none",
 					["message_type"] = "PARTY",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_1.sourceName_format"] = "none",
+					["message_format_n_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 136225,
 			["uid"] = "rUM7FqKOTdQ",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Dwarf-Stoneform",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -14703,7 +14703,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Swing Timer"] = {
 			["sparkWidth"] = 10,
@@ -14998,14 +14998,14 @@ WeakAurasSaved = {
 			["useAdjustededMin"] = false,
 			["regionType"] = "aurabar",
 			["borderInFront"] = true,
-			["semver"] = "1.0.2",
+			["spark"] = false,
 			["icon_side"] = "RIGHT",
-			["auto"] = true,
+			["semver"] = "1.0.2",
 			["sparkHeight"] = 30,
 			["texture"] = "ElvUI Blank",
 			["desaturate"] = false,
 			["zoom"] = 0,
-			["spark"] = false,
+			["auto"] = true,
 			["tocversion"] = 20501,
 			["id"] = "Swing Timer",
 			["sparkColor"] = {
@@ -15064,8 +15064,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -15187,40 +15187,40 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName on %1.destName",
-					["message_format_1.spellName_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.destName_format"] = "none",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_.destName_format"] = "none",
 					["message_type"] = "PARTY",
 					["message_format_n_format"] = "none",
 					["message_format_1.sourceName_format"] = "none",
-					["message_format_.destName_format"] = "none",
+					["message_format_1.destName_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 136048,
 			["uid"] = "xl0Nto)2rmD",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Druid-Innervate",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -15228,7 +15228,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Stings"] = {
 			["iconSource"] = -1,
@@ -15337,13 +15337,7 @@ WeakAurasSaved = {
 				["zoneIds"] = "",
 			},
 			["uid"] = "(rjX2)akWhz",
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
+			["authorOptions"] = {
 			},
 			["animation"] = {
 				["start"] = {
@@ -15366,27 +15360,33 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["parent"] = "Hunter Core (TBC) - Luxthos",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
 			["displayIcon"] = "",
-			["url"] = "https://wago.io/1NxtmsD1Z/2",
-			["zoom"] = 0.3,
-			["anchorFrameType"] = "SCREEN",
+			["parent"] = "Hunter Core (TBC) - Luxthos",
 			["cooldownTextDisabled"] = false,
-			["auto"] = true,
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["semver"] = "1.0.1",
 			["tocversion"] = 20501,
 			["id"] = "Stings",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 46,
-			["semver"] = "1.0.1",
+			["auto"] = true,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["authorOptions"] = {
-			},
+			["xOffset"] = 25,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -15472,7 +15472,7 @@ WeakAurasSaved = {
 				}, -- [4]
 			},
 			["cooldown"] = true,
-			["xOffset"] = 25,
+			["url"] = "https://wago.io/1NxtmsD1Z/2",
 		},
 		["Mage-Icy Veins"] = {
 			["iconSource"] = 0,
@@ -15505,8 +15505,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -15628,38 +15628,38 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName",
-					["message_format_1.spellName_format"] = "none",
-					["message_format_n_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.sourceName_format"] = "none",
 					["message_type"] = "PARTY",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_1.sourceName_format"] = "none",
+					["message_format_n_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 135838,
 			["uid"] = "vo7Bn1U)i3D",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Mage-Icy Veins",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -15667,7 +15667,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Rogue-Kidney Shot"] = {
 			["iconSource"] = 0,
@@ -15700,8 +15700,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -15823,40 +15823,40 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName on %1.destName",
-					["message_format_1.spellName_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.destName_format"] = "none",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_.destName_format"] = "none",
 					["message_type"] = "PARTY",
 					["message_format_n_format"] = "none",
 					["message_format_1.sourceName_format"] = "none",
-					["message_format_.destName_format"] = "none",
+					["message_format_1.destName_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 132298,
 			["uid"] = "3kw6strhBSZ",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Rogue-Kidney Shot",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -15864,7 +15864,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["标记目标 Mark Target"] = {
 			["outline"] = "OUTLINE",
@@ -15910,10 +15910,10 @@ WeakAurasSaved = {
 						["spellIds"] = {
 						},
 						["customName"] = "function()    \n    local e=aura_env\n    if e.Marker then \n        return '|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.Icon..':0|t'\n    else--不标记 No Mark        \n        return '|TInterface\\\\AddOns\\\\WeakAuras\\\\Media\\\\Textures\\\\cancel-mark.tga:0:0:0:-2:|t'--￠\n    end     \nend",
-						["custom"] = "function(env)--显示\n    local e=aura_env\n    \n    if (IsInRaid() and (UnitIsGroupAssistant('player') or UnitIsGroupLeader('player'))) or not IsInRaid() then --团里能标记            \n        \n        if e.Marker and env=='PLAYER_TARGET_CHANGED' then --标记目标        \n            local unit ='target'\n            if UnitExists(unit) and not UnitIsUnit('player',unit) and CanBeRaidTarget(unit) then                \n                if not GetRaidTargetIndex(unit) then SetRaidTarget(unit, e.Icon) end \n            end            \n        end\n        \n        return  true\n    end\nend",
+						["events"] = "PLAYER_ENTERING_WORLD,GROUP_ROSTER_UPDATE,Mark_Target_ENV,PLAYER_TARGET_CHANGED",
 						["custom_type"] = "status",
 						["check"] = "event",
-						["events"] = "PLAYER_ENTERING_WORLD,GROUP_ROSTER_UPDATE,Mark_Target_ENV,PLAYER_TARGET_CHANGED",
+						["custom"] = "function(env)--显示\n    local e=aura_env\n    \n    if (IsInRaid() and (UnitIsGroupAssistant('player') or UnitIsGroupLeader('player'))) or not IsInRaid() then --团里能标记            \n        \n        if e.Marker and env=='PLAYER_TARGET_CHANGED' then --标记目标        \n            local unit ='target'\n            if UnitExists(unit) and not UnitIsUnit('player',unit) and CanBeRaidTarget(unit) then                \n                if not GetRaidTargetIndex(unit) then SetRaidTarget(unit, e.Icon) end \n            end            \n        end\n        \n        return  true\n    end\nend",
 						["use_unit"] = true,
 						["names"] = {
 						},
@@ -15951,8 +15951,8 @@ WeakAurasSaved = {
 					["x"] = 90,
 					["translateType"] = "straightTranslate",
 					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
 					["rotate"] = 0,
+					["easeStrength"] = 3,
 					["colorA"] = 1,
 				},
 				["finish"] = {
@@ -15965,9 +15965,9 @@ WeakAurasSaved = {
 			},
 			["fixedWidth"] = 200,
 			["url"] = "https://wago.io/vQY6_rTnB/84",
-			["rotation"] = 0,
-			["desaturate"] = false,
 			["discrete_rotation"] = 0,
+			["desaturate"] = false,
+			["rotation"] = 0,
 			["font"] = "聊天",
 			["version"] = 84,
 			["subRegions"] = {
@@ -16195,10 +16195,10 @@ WeakAurasSaved = {
 						["event"] = "Power",
 						["names"] = {
 						},
-						["custom"] = "function(a, e, t)\n    local currMana = UnitPower(\"player\", 0)\n    local maxMana = UnitPowerMax(\"player\", 0)\n    aura_env.lastmana = aura_env.lastmana or 0\n    if currMana < maxMana and currMana > aura_env.lastmana then\n        local dur = 2\n        a[\"\"] = {\n            show = true,\n            changed = true,\n            duration = dur,\n            expirationTime = GetTime() + dur,\n            progressType = \"timed\",\n            autoHide = true\n        }\n    elseif currMana < aura_env.lastmana then\n        a[\"\"] = {\n            show = false\n        }\n    end\n    aura_env.lastmana = currMana\n    return true\nend",
 						["spellIds"] = {
 						},
 						["events"] = "UNIT_POWER_FREQUENT:player",
+						["custom"] = "function(a, e, t)\n    local currMana = UnitPower(\"player\", 0)\n    local maxMana = UnitPowerMax(\"player\", 0)\n    aura_env.lastmana = aura_env.lastmana or 0\n    if currMana < maxMana and currMana > aura_env.lastmana then\n        local dur = 2\n        a[\"\"] = {\n            show = true,\n            changed = true,\n            duration = dur,\n            expirationTime = GetTime() + dur,\n            progressType = \"timed\",\n            autoHide = true\n        }\n    elseif currMana < aura_env.lastmana then\n        a[\"\"] = {\n            show = false\n        }\n    end\n    aura_env.lastmana = currMana\n    return true\nend",
 						["use_unit"] = true,
 						["check"] = "event",
 						["custom_type"] = "stateupdate",
@@ -16322,13 +16322,14 @@ WeakAurasSaved = {
 			["sparkBlendMode"] = "ADD",
 			["useAdjustededMax"] = false,
 			["iconSource"] = -1,
+			["config"] = {
+			},
 			["sparkColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["uid"] = "44rkhQi46Uc",
 			["backgroundColor"] = {
 				0, -- [1]
 				0, -- [2]
@@ -16340,12 +16341,12 @@ WeakAurasSaved = {
 			["useAdjustededMin"] = false,
 			["regionType"] = "aurabar",
 			["frameStrata"] = 4,
-			["spark"] = true,
+			["semver"] = "1.0.1",
 			["icon_side"] = "RIGHT",
 			["id"] = "Mana Rule (Hunter)",
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
-			["semver"] = "1.0.1",
+			["spark"] = true,
 			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["auto"] = true,
 			["tocversion"] = 20501,
@@ -16354,8 +16355,7 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["width"] = 296,
 			["sparkRotationMode"] = "AUTO",
-			["config"] = {
-			},
+			["uid"] = "44rkhQi46Uc",
 			["inverse"] = true,
 			["icon"] = false,
 			["orientation"] = "HORIZONTAL",
@@ -16396,8 +16396,8 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["spellIds"] = {
 						},
-						["use_missType"] = true,
 						["use_sourceUnit"] = true,
+						["use_missType"] = true,
 						["unit"] = "player",
 						["sourceUnit"] = "player",
 						["debuffType"] = "HELPFUL",
@@ -16553,15 +16553,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "",
-					["do_custom"] = false,
-				},
+			["authorOptions"] = {
 			},
 			["animation"] = {
 				["start"] = {
@@ -16584,7 +16576,16 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["parent"] = "Warrior",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -16602,26 +16603,25 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["url"] = "https://wago.io/jMHRj-FSb/3",
-			["cooldownTextDisabled"] = false,
-			["width"] = 45,
+			["parent"] = "Warrior",
 			["zoom"] = 0,
-			["auto"] = false,
+			["width"] = 45,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Overpower - Usable (Defensive) 2",
 			["alpha"] = 1,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "1.0.2",
+			["auto"] = false,
 			["uid"] = "xBhnpqAoqvb",
 			["inverse"] = false,
-			["authorOptions"] = {
-			},
+			["xOffset"] = -100,
 			["displayIcon"] = 132223,
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["xOffset"] = -100,
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Warlock-Death Coil"] = {
 			["iconSource"] = 0,
@@ -16654,8 +16654,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -16777,40 +16777,40 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName on %1.destName",
-					["message_format_1.spellName_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.destName_format"] = "none",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_.destName_format"] = "none",
 					["message_type"] = "PARTY",
 					["message_format_n_format"] = "none",
 					["message_format_1.sourceName_format"] = "none",
-					["message_format_.destName_format"] = "none",
+					["message_format_1.destName_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 136145,
 			["uid"] = "nQLYhkN4aKP",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Warlock-Death Coil",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -16818,7 +16818,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Rage Bar 2"] = {
 			["overlays"] = {
@@ -16829,10 +16829,9 @@ WeakAurasSaved = {
 					0.25, -- [4]
 				}, -- [1]
 			},
-			["iconSource"] = -1,
+			["sparkOffsetX"] = 0,
 			["wagoID"] = "jMHRj-FSb",
-			["authorOptions"] = {
-			},
+			["parent"] = "pvp",
 			["preferToUpdate"] = false,
 			["customText"] = "function()\n    if aura_env.region then\n        local rage = UnitPower(\"player\", Enum.PowerType.Rage)\n        aura_env.region.text3:SetText(rage)\n    end\nend\n\n\n\n\n\n\n\n\n\n\n\n",
 			["yOffset"] = -126.99987792969,
@@ -16842,7 +16841,12 @@ WeakAurasSaved = {
 			["sparkRotation"] = 0,
 			["sparkRotationMode"] = "AUTO",
 			["url"] = "https://wago.io/jMHRj-FSb/3",
-			["icon"] = false,
+			["backgroundColor"] = {
+				0.3921568627451, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.60000002384186, -- [4]
+			},
 			["fontFlags"] = "OUTLINE",
 			["icon_color"] = {
 				1, -- [1]
@@ -16851,7 +16855,7 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["internalVersion"] = 45,
-			["borderBackdrop"] = "None",
+			["iconSource"] = -1,
 			["animation"] = {
 				["start"] = {
 					["easeStrength"] = 3,
@@ -16873,7 +16877,8 @@ WeakAurasSaved = {
 				},
 			},
 			["backdropInFront"] = false,
-			["xOffset"] = 0,
+			["authorOptions"] = {
+			},
 			["barColor"] = {
 				1, -- [1]
 				0, -- [2]
@@ -16881,17 +16886,8 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["desaturate"] = false,
-			["sparkOffsetX"] = 0,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "if aura_env.region then\n    local r = aura_env.region\n    if not r.text3 then\n        local text3 = r.bar:CreateFontString(nil, \"OVERLAY\")\n        r.text3 = text3\n        r.text3:SetJustifyH(\"CENTER\")\n        r.text3:SetJustifyV(\"MIDDLE\")\n        r.text3:SetPoint(\"CENTER\", r.bar, \"CENTER\")\n        r.text3:Show()\n    end\n    r.text3:SetShadowOffset(1, -1)\n    r.text3:SetFont(r.text:GetFont())\n    r.text3:SetTextColor(r.text:GetTextColor())\nend\n\n\n\n\n\n\n",
-					["do_custom"] = true,
-				},
-			},
+			["borderBackdrop"] = "None",
+			["icon"] = false,
 			["version"] = 3,
 			["subRegions"] = {
 				{
@@ -17103,7 +17099,7 @@ WeakAurasSaved = {
 				0, -- [3]
 				1, -- [4]
 			},
-			["parent"] = "pvp",
+			["xOffset"] = 0,
 			["selfPoint"] = "CENTER",
 			["sparkColor"] = {
 				1, -- [1]
@@ -17112,11 +17108,15 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["stickyDuration"] = false,
-			["backgroundColor"] = {
-				0.3921568627451, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.60000002384186, -- [4]
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "if aura_env.region then\n    local r = aura_env.region\n    if not r.text3 then\n        local text3 = r.bar:CreateFontString(nil, \"OVERLAY\")\n        r.text3 = text3\n        r.text3:SetJustifyH(\"CENTER\")\n        r.text3:SetJustifyV(\"MIDDLE\")\n        r.text3:SetPoint(\"CENTER\", r.bar, \"CENTER\")\n        r.text3:Show()\n    end\n    r.text3:SetShadowOffset(1, -1)\n    r.text3:SetFont(r.text:GetFont())\n    r.text3:SetTextColor(r.text:GetTextColor())\nend\n\n\n\n\n\n\n",
+					["do_custom"] = true,
+				},
 			},
 			["sparkOffsetY"] = 0,
 			["useAdjustededMin"] = false,
@@ -17131,13 +17131,13 @@ WeakAurasSaved = {
 			["texture"] = "ElvUI Blank",
 			["alpha"] = 1,
 			["zoom"] = 0,
-			["spark"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["sparkHidden"] = "NEVER",
 			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["frameStrata"] = 3,
 			["width"] = 245,
-			["semver"] = "1.0.2",
+			["auto"] = true,
 			["uid"] = "oIHbkhqvnR0",
 			["inverse"] = false,
 			["sparkDesature"] = false,
@@ -17147,7 +17147,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["auto"] = true,
+			["spark"] = false,
 		},
 		["Rogue-Blind"] = {
 			["iconSource"] = 0,
@@ -17180,8 +17180,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -17303,40 +17303,40 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName on %1.destName",
-					["message_format_1.spellName_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.destName_format"] = "none",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_.destName_format"] = "none",
 					["message_type"] = "PARTY",
 					["message_format_n_format"] = "none",
 					["message_format_1.sourceName_format"] = "none",
-					["message_format_.destName_format"] = "none",
+					["message_format_1.destName_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 136175,
 			["uid"] = "YqI974iyOEB",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Rogue-Blind",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -17344,7 +17344,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Swing Timer 3"] = {
 			["sparkWidth"] = 10,
@@ -17572,15 +17572,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 1,
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["use_talent"] = true,
-				["use_class"] = true,
-				["role"] = {
+				["class"] = {
+					["single"] = "WARRIOR",
 					["multi"] = {
 					},
 				},
@@ -17588,20 +17581,27 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "WARRIOR",
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["spec"] = {
+					["single"] = 1,
 					["multi"] = {
 					},
 				},
@@ -17624,14 +17624,14 @@ WeakAurasSaved = {
 			["useAdjustededMin"] = false,
 			["regionType"] = "aurabar",
 			["borderInFront"] = true,
-			["auto"] = true,
+			["spark"] = false,
 			["icon_side"] = "RIGHT",
-			["semver"] = "1.0.2",
+			["auto"] = true,
 			["sparkHeight"] = 30,
 			["texture"] = "ElvUI Blank",
 			["useAdjustededMax"] = false,
 			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
-			["spark"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["sparkHidden"] = "NEVER",
 			["animation"] = {
@@ -17792,7 +17792,7 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
-			["parent"] = "狂暴戰",
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["regionType"] = "icon",
 			["color"] = {
 				1, -- [1]
@@ -17800,44 +17800,25 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["icon"] = true,
+			["parent"] = "狂暴戰",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = -100,
 			["uid"] = "raTNJZnDIn7",
-			["semver"] = "1.0.2",
-			["zoom"] = 0,
 			["auto"] = true,
+			["zoom"] = 0,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Bloodthirst 2",
 			["width"] = 45,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
+			["icon"] = true,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -17876,7 +17857,26 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["xOffset"] = -100,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
 		},
 		["标记坦克-治疗 Markers TANK-HEALER"] = {
 			["iconSource"] = 0,
@@ -17921,11 +17921,11 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
+				["spec"] = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
+				["class"] = {
 					["multi"] = {
 					},
 				},
@@ -17966,12 +17966,12 @@ WeakAurasSaved = {
 						["duration"] = "1",
 						["debuffType"] = "HELPFUL",
 						["custom_hide"] = "timed",
-						["subeventSuffix"] = "_CAST_START",
-						["type"] = "custom",
 						["custom_type"] = "status",
+						["type"] = "custom",
+						["subeventSuffix"] = "_CAST_START",
 						["unevent"] = "timed",
-						["events"] = "GROUP_ROSER_UPDATE,GROUP_JOINED,PLAYER_ROLES_ASSIGNED,PLAYER_ENTERING_WORLD,RAID_TARGET_UPDATE",
 						["custom"] = "function(env)    \n    local e=aura_env    \n    if select(4,GetBuildInfo()) >= 30000  and \n    IsInGroup() and (IsInRaid() and (UnitIsGroupAssistant('player') or  UnitIsGroupLeader('player')) or not IsInRaid())\n    then        \n        if not (env=='RAID_TARGET_UPDATE' and not e.A) then----仅在组队时生效\n            e.Get()\n        elseif not e.Set  then --不标记自已        \n            e.NotPlayer()        \n        end\n        \n        return true\n    end    \nend",
+						["events"] = "GROUP_ROSER_UPDATE,GROUP_JOINED,PLAYER_ROLES_ASSIGNED,PLAYER_ENTERING_WORLD,RAID_TARGET_UPDATE",
 						["event"] = "Combat Log",
 						["use_spellName"] = true,
 						["realSpellName"] = 0,
@@ -18183,7 +18183,7 @@ WeakAurasSaved = {
 			["fixedWidth"] = 200,
 			["automaticWidth"] = "Auto",
 			["icon"] = true,
-			["semver"] = "9.2.83",
+			["justify"] = "LEFT",
 			["cooldownTextDisabled"] = false,
 			["id"] = "标记坦克-治疗 Markers TANK-HEALER",
 			["width"] = 15,
@@ -18200,7 +18200,7 @@ WeakAurasSaved = {
 				["Down"] = 0.1,
 				["Leave"] = 0.3,
 			},
-			["justify"] = "LEFT",
+			["semver"] = "9.2.83",
 			["inverse"] = false,
 			["parent"] = "World-Target Markers",
 			["shadowColor"] = {
@@ -18305,13 +18305,13 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 1,
+				["class"] = {
+					["single"] = "WARRIOR",
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "WARRIOR",
+				["spec"] = {
+					["single"] = 1,
 					["multi"] = {
 					},
 				},
@@ -18329,11 +18329,11 @@ WeakAurasSaved = {
 					},
 				},
 				["use_class"] = true,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -18348,27 +18348,36 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = -19,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "aura_env.region.stacks:SetPoint(\"BOTTOMRIGHT\", aura_env.region, \"BOTTOMRIGHT\", 0, 0)\naura_env.region.stacks:SetShadowOffset(1, -1)",
+					["do_custom"] = false,
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Charge",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 35,
 			["frameStrata"] = 1,
+			["width"] = 35,
+			["alpha"] = 1,
 			["uid"] = "6g(HLjTc2tp",
 			["inverse"] = false,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = -19,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -18397,16 +18406,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "aura_env.region.stacks:SetPoint(\"BOTTOMRIGHT\", aura_env.region, \"BOTTOMRIGHT\", 0, 0)\naura_env.region.stacks:SetShadowOffset(1, -1)",
-					["do_custom"] = false,
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Cast - Bar (Hunter)"] = {
 			["sparkWidth"] = 10,
@@ -18502,11 +18502,11 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_font"] = "Friz Quadrata TT",
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 					["text_shadowYOffset"] = -1,
 					["anchorXOffset"] = 0,
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_anchorPoint"] = "INNER_RIGHT",
 					["text_shadowXOffset"] = 1,
 					["text_shadowColor"] = {
@@ -18615,32 +18615,32 @@ WeakAurasSaved = {
 				0, -- [3]
 				0.30000001192093, -- [4]
 			},
+			["uid"] = "8SMLDZXJihY",
+			["smoothProgress"] = true,
+			["useAdjustededMin"] = false,
+			["regionType"] = "aurabar",
 			["sparkColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["smoothProgress"] = true,
-			["useAdjustededMin"] = false,
-			["regionType"] = "aurabar",
-			["config"] = {
-			},
-			["zoom"] = 0,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["icon_side"] = "LEFT",
 			["anchorFrameType"] = "SCREEN",
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
-			["spark"] = true,
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["auto"] = true,
+			["zoom"] = 0,
+			["semver"] = "1.0.1",
 			["tocversion"] = 20501,
-			["sparkHidden"] = "BOTH",
 			["id"] = "Cast - Bar (Hunter)",
+			["sparkHidden"] = "BOTH",
 			["alpha"] = 1,
 			["width"] = 296,
-			["semver"] = "1.0.1",
-			["uid"] = "8SMLDZXJihY",
+			["spark"] = true,
+			["config"] = {
+			},
 			["inverse"] = false,
 			["iconSource"] = -1,
 			["orientation"] = "HORIZONTAL",
@@ -18698,8 +18698,8 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["spellName"] = 12328,
 						["type"] = "spell",
-						["subeventSuffix"] = "_CAST_START",
 						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["use_showOn"] = true,
 						["subeventPrefix"] = "SPELL",
 						["event"] = "Cooldown Progress (Spell)",
@@ -18771,7 +18771,7 @@ WeakAurasSaved = {
 					["text_shadowYOffset"] = 0,
 					["text_text_format_p_time_dynamic_threshold"] = 60,
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_anchorPoint"] = "INNER_BOTTOMRIGHT",
 					["text_shadowXOffset"] = 0,
 					["text_shadowColor"] = {
@@ -18782,7 +18782,7 @@ WeakAurasSaved = {
 					},
 					["text_fontSize"] = 12,
 					["anchorXOffset"] = 0,
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 				}, -- [1]
 			},
 			["height"] = 45,
@@ -18829,7 +18829,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -18839,33 +18839,40 @@ WeakAurasSaved = {
 				},
 				["use_alive"] = true,
 				["spellknown"] = 12328,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = 100,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Sweeping Strikes",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 45,
 			["frameStrata"] = 1,
+			["width"] = 45,
+			["alpha"] = 1,
 			["uid"] = "2siOcknoDcX",
 			["inverse"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = 100,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -18910,14 +18917,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Mage-Presence of Mind"] = {
 			["iconSource"] = 0,
@@ -18950,8 +18950,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -19073,38 +19073,38 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName",
-					["message_format_1.spellName_format"] = "none",
-					["message_format_n_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.sourceName_format"] = "none",
 					["message_type"] = "PARTY",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_1.sourceName_format"] = "none",
+					["message_format_n_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 136031,
 			["uid"] = "4p0QlKPAKJ0",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Mage-Presence of Mind",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -19112,7 +19112,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Sweeping Strikes (with Death Wish) 2"] = {
 			["iconSource"] = -1,
@@ -19161,7 +19161,7 @@ WeakAurasSaved = {
 						["genericShowOn"] = "showAlways",
 						["subeventPrefix"] = "SPELL",
 						["unit"] = "player",
-						["spellName"] = 12328,
+						["debuffType"] = "HELPFUL",
 						["use_unit"] = true,
 						["type"] = "spell",
 						["names"] = {
@@ -19179,7 +19179,7 @@ WeakAurasSaved = {
 						["unevent"] = "auto",
 						["use_genericShowOn"] = true,
 						["use_track"] = true,
-						["debuffType"] = "HELPFUL",
+						["spellName"] = 12328,
 					},
 					["untrigger"] = {
 						["showOn"] = "showAlways",
@@ -19214,11 +19214,11 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_font"] = "Friz Quadrata TT",
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 					["text_shadowYOffset"] = 0,
 					["anchorXOffset"] = 0,
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_anchorPoint"] = "INNER_BOTTOMRIGHT",
 					["text_shadowXOffset"] = 0,
 					["text_shadowColor"] = {
@@ -19291,7 +19291,7 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
-			["parent"] = "狂暴戰",
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["regionType"] = "icon",
 			["color"] = {
 				1, -- [1]
@@ -19299,44 +19299,25 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["icon"] = true,
+			["parent"] = "狂暴戰",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = 95.1064453125,
 			["uid"] = "xonnclAMiWb",
-			["semver"] = "1.0.2",
-			["zoom"] = 0,
 			["auto"] = true,
+			["zoom"] = 0,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Sweeping Strikes (with Death Wish) 2",
 			["width"] = 40.78737640380859,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
+			["icon"] = true,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -19379,7 +19360,26 @@ WeakAurasSaved = {
 				}, -- [3]
 			},
 			["cooldown"] = true,
-			["xOffset"] = 95.1064453125,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
 		},
 		["Overpower - Usable (Defensive) 4"] = {
 			["iconSource"] = 0,
@@ -19415,8 +19415,8 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["spellIds"] = {
 						},
-						["use_missType"] = true,
 						["use_sourceUnit"] = true,
+						["use_missType"] = true,
 						["unit"] = "player",
 						["sourceUnit"] = "player",
 						["debuffType"] = "HELPFUL",
@@ -19530,7 +19530,7 @@ WeakAurasSaved = {
 						[15] = true,
 					},
 				},
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -19539,21 +19539,21 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
 				["use_talent"] = true,
 				["use_class"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -19571,11 +19571,11 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["icon"] = true,
+			["cooldownEdge"] = false,
 			["authorOptions"] = {
 			},
 			["regionType"] = "icon",
-			["parent"] = "pvp",
+			["icon"] = true,
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -19593,29 +19593,19 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["cooldownTextDisabled"] = false,
-			["width"] = 45,
+			["parent"] = "pvp",
 			["zoom"] = 0,
-			["auto"] = false,
+			["width"] = 45,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Overpower - Usable (Defensive) 4",
 			["alpha"] = 1,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "1.0.2",
+			["auto"] = false,
 			["uid"] = "RfGK4WI26Xt",
 			["inverse"] = false,
-			["cooldownEdge"] = false,
-			["displayIcon"] = 132223,
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
 			["animation"] = {
 				["start"] = {
 					["easeStrength"] = 3,
@@ -19635,6 +19625,16 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeType"] = "none",
 				},
+			},
+			["displayIcon"] = 132223,
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
 		},
 		["Paladin-Repentance"] = {
@@ -19668,8 +19668,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -19791,40 +19791,40 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName on %1.destName",
-					["message_format_1.spellName_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.destName_format"] = "none",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_.destName_format"] = "none",
 					["message_type"] = "PARTY",
 					["message_format_n_format"] = "none",
 					["message_format_1.sourceName_format"] = "none",
-					["message_format_.destName_format"] = "none",
+					["message_format_1.destName_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 135942,
 			["uid"] = "GzYBK8Ldrx6",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Paladin-Repentance",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -19832,7 +19832,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["阻擾可用"] = {
 			["iconSource"] = -1,
@@ -19873,7 +19873,7 @@ WeakAurasSaved = {
 						["use_unit"] = true,
 						["type"] = "spell",
 						["use_genericShowOn"] = true,
-						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["use_showOn"] = true,
 						["use_remaining"] = true,
 						["event"] = "Cooldown Progress (Spell)",
@@ -19883,7 +19883,7 @@ WeakAurasSaved = {
 						["spellIds"] = {
 						},
 						["subeventPrefix"] = "SPELL",
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 						["spellName"] = 3411,
 						["use_track"] = true,
 						["unit"] = "player",
@@ -20027,33 +20027,33 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["xOffset"] = 13.8619384765625,
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["regionType"] = "icon",
 			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
+			["xOffset"] = 13.8619384765625,
 			["cooldown"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["icon"] = true,
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "阻擾可用",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 56.56667709350586,
 			["frameStrata"] = 1,
+			["width"] = 56.56667709350586,
+			["alpha"] = 1,
 			["uid"] = "kbG)N(WqRDZ",
 			["inverse"] = true,
-			["parent"] = "pvp",
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["icon"] = true,
+			["parent"] = "pvp",
 		},
 		["法反可用 2"] = {
 			["iconSource"] = -1,
@@ -20087,8 +20087,8 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["spellName"] = 30330,
 						["use_remaining"] = true,
-						["subeventSuffix"] = "_CAST_START",
 						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["use_showOn"] = true,
 						["subeventPrefix"] = "SPELL",
 						["event"] = "Cooldown Progress (Spell)",
@@ -20231,38 +20231,38 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
-			["selfPoint"] = "CENTER",
+			["authorOptions"] = {
+			},
 			["regionType"] = "icon",
 			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["selfPoint"] = "CENTER",
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["parent"] = "pvp",
+			["uid"] = "SN4chGLH1Ly",
+			["semver"] = "1.0.2",
+			["zoom"] = 0,
+			["auto"] = true,
+			["tocversion"] = 20501,
+			["id"] = "法反可用 2",
+			["width"] = 56.56667709350586,
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
+			["config"] = {
+			},
+			["inverse"] = true,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
-			["authorOptions"] = {
-			},
-			["uid"] = "SN4chGLH1Ly",
-			["auto"] = true,
-			["zoom"] = 0,
-			["semver"] = "1.0.2",
-			["tocversion"] = 20501,
-			["id"] = "法反可用 2",
-			["width"] = 56.56667709350586,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["config"] = {
-			},
-			["inverse"] = true,
-			["icon"] = true,
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "pvp",
+			["icon"] = true,
 		},
 		["Mana - Bar (Hunter)"] = {
 			["sparkWidth"] = 10,
@@ -20301,13 +20301,13 @@ WeakAurasSaved = {
 				{
 					["trigger"] = {
 						["type"] = "unit",
+						["subeventPrefix"] = "SPELL",
+						["unevent"] = "auto",
 						["names"] = {
 						},
-						["unevent"] = "auto",
-						["use_unit"] = true,
 						["duration"] = "1",
 						["use_showCost"] = true,
-						["subeventPrefix"] = "SPELL",
+						["use_unit"] = true,
 						["use_absorbMode"] = true,
 						["powertype"] = 0,
 						["spellIds"] = {
@@ -20375,25 +20375,25 @@ WeakAurasSaved = {
 					["anchorYOffset"] = 0,
 					["text_justify"] = "CENTER",
 					["rotateText"] = "NONE",
-					["text_shadowYOffset"] = -1,
-					["text_text_format_percentpower_big_number_format"] = "AbbreviateLargeNumbers",
+					["text_text_format_percentpower_realm_name"] = "never",
+					["text_fontType"] = "OUTLINE",
 					["text_text_format_percentpower_format"] = "BigNumber",
 					["type"] = "subtext",
 					["text_text_format_percentpower_abbreviate"] = false,
+					["text_text_format_power_format"] = "none",
+					["text_font"] = "Friz Quadrata TT",
+					["text_text_format_percentpower_abbreviate_max"] = 8,
+					["text_shadowYOffset"] = -1,
+					["text_text_format_percentpower_big_number_format"] = "AbbreviateLargeNumbers",
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "INNER_CENTER",
 					["text_color"] = {
 						1, -- [1]
 						1, -- [2]
 						1, -- [3]
 						1, -- [4]
 					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_text_format_percentpower_abbreviate_max"] = 8,
-					["text_text_format_percentpower_realm_name"] = "never",
-					["text_fontType"] = "OUTLINE",
-					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
-					["text_anchorPoint"] = "INNER_CENTER",
-					["text_text_format_power_format"] = "none",
 					["text_text_format_percentpower_color"] = true,
 					["text_fontSize"] = 14,
 					["anchorXOffset"] = 0,
@@ -20414,15 +20414,15 @@ WeakAurasSaved = {
 					["text_selfPoint"] = "CENTER",
 					["text_automaticWidth"] = "Auto",
 					["text_fixedWidth"] = 64,
-					["text_text_format_percentpower_big_number_format"] = "AbbreviateLargeNumbers",
+					["text_fontType"] = "OUTLINE",
 					["anchorYOffset"] = 0,
 					["text_justify"] = "CENTER",
 					["rotateText"] = "NONE",
-					["text_text_format_percentpower_realm_name"] = "never",
+					["text_shadowYOffset"] = -1,
 					["text_text_format_percentpower_format"] = "BigNumber",
-					["text_fontType"] = "OUTLINE",
+					["text_text_format_percentpower_big_number_format"] = "AbbreviateLargeNumbers",
 					["type"] = "subtext",
-					["text_anchorXOffset"] = -20,
+					["text_text_format_percentpower_abbreviate"] = false,
 					["text_color"] = {
 						1, -- [1]
 						1, -- [2]
@@ -20431,12 +20431,12 @@ WeakAurasSaved = {
 					},
 					["text_font"] = "Friz Quadrata TT",
 					["text_text_format_percentpower_abbreviate_max"] = 8,
-					["text_shadowYOffset"] = -1,
+					["text_text_format_percentpower_realm_name"] = "never",
 					["text_text_format_power_format"] = "none",
 					["text_wordWrap"] = "WordWrap",
 					["text_visible"] = true,
 					["text_anchorPoint"] = "INNER_RIGHT",
-					["text_text_format_percentpower_abbreviate"] = false,
+					["text_anchorXOffset"] = -20,
 					["text_text"] = "%percentpower%%",
 					["text_fontSize"] = 14,
 					["anchorXOffset"] = 0,
@@ -20489,13 +20489,14 @@ WeakAurasSaved = {
 			["sparkBlendMode"] = "ADD",
 			["useAdjustededMax"] = false,
 			["iconSource"] = -1,
+			["config"] = {
+			},
 			["sparkColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["uid"] = "d8GUIpXC08U",
 			["backgroundColor"] = {
 				0, -- [1]
 				0, -- [2]
@@ -20507,12 +20508,12 @@ WeakAurasSaved = {
 			["useAdjustededMin"] = false,
 			["regionType"] = "aurabar",
 			["frameStrata"] = 3,
-			["spark"] = false,
+			["semver"] = "1.0.1",
 			["icon_side"] = "RIGHT",
 			["id"] = "Mana - Bar (Hunter)",
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
-			["semver"] = "1.0.1",
+			["spark"] = false,
 			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["auto"] = true,
 			["tocversion"] = 20501,
@@ -20521,8 +20522,7 @@ WeakAurasSaved = {
 			["alpha"] = 1,
 			["width"] = 296,
 			["sparkRotationMode"] = "AUTO",
-			["config"] = {
-			},
+			["uid"] = "d8GUIpXC08U",
 			["inverse"] = false,
 			["icon"] = false,
 			["orientation"] = "HORIZONTAL",
@@ -20681,27 +20681,36 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = -19,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "aura_env.region.stacks:SetPoint(\"BOTTOMRIGHT\", aura_env.region, \"BOTTOMRIGHT\", 0, 0)\naura_env.region.stacks:SetShadowOffset(1, -1)",
+					["do_custom"] = false,
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Intercept",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 35,
 			["frameStrata"] = 1,
+			["width"] = 35,
+			["alpha"] = 1,
 			["uid"] = "oa6qAn2uz7c",
 			["inverse"] = false,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = -19,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -20749,16 +20758,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "aura_env.region.stacks:SetPoint(\"BOTTOMRIGHT\", aura_env.region, \"BOTTOMRIGHT\", 0, 0)\naura_env.region.stacks:SetShadowOffset(1, -1)",
-					["do_custom"] = false,
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["PULL(Need DBM BW ERT)"] = {
 			["wagoID"] = "vQY6_rTnB",
@@ -20788,11 +20788,11 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["event"] = "Health",
 						["custom_type"] = "status",
+						["events"] = "GROUP_ROSTER_UPDATE PLAYER_ENTERING_WORLD PLAYER_REGEN_ENABLED",
+						["customName"] = "",
+						["custom"] = "function()\n    if IsInGroup() and (UnitIsGroupAssistant('player') or  UnitIsGroupLeader('player'))  and--有队伍，团长助理，或5队伍\n    (IsAddOnLoaded('DBM-Core') or IsAddOnLoaded('BigWigs') or IsAddOnLoaded('ExRT'))\n    then            \n        return true        \n    end    \nend\n\n\n",
 						["spellIds"] = {
 						},
-						["customName"] = "",
-						["events"] = "GROUP_ROSTER_UPDATE PLAYER_ENTERING_WORLD PLAYER_REGEN_ENABLED",
-						["custom"] = "function()\n    if IsInGroup() and (UnitIsGroupAssistant('player') or  UnitIsGroupLeader('player'))  and--有队伍，团长助理，或5队伍\n    (IsAddOnLoaded('DBM-Core') or IsAddOnLoaded('BigWigs') or IsAddOnLoaded('ExRT'))\n    then            \n        return true        \n    end    \nend\n\n\n",
 						["check"] = "event",
 						["duration"] = "1",
 						["use_unit"] = true,
@@ -20873,24 +20873,6 @@ WeakAurasSaved = {
 				["Enter"] = 1,
 			},
 			["zoom"] = 0,
-			["selfPoint"] = "CENTER",
-			["mirror"] = false,
-			["actions"] = {
-				["start"] = {
-					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Show() end",
-					["do_custom"] = true,
-				},
-				["finish"] = {
-					["hide_all_glows"] = true,
-					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Hide() end",
-					["do_custom"] = true,
-				},
-				["init"] = {
-					["custom"] = "local e = aura_env\ne.col='|c'..RAID_CLASS_COLORS[select(2, UnitClass(\"player\"))].colorStr--职业颜色\n\nlocal region = WeakAuras.GetRegion(e.id) \n--型状\nif e.config.point==1 then--水平\n    if (select(4,GetBuildInfo()) <= 19999) then--classic\n        region:SetPoint('CENTER',25,25)\n    else\n        region:SetPoint('CENTER',0,0)\n    end    \nelseif e.config.point==2 then--垂直\n    if (select(4,GetBuildInfo()) <= 19999) then--classic\n        region:SetPoint('CENTER',-25,-25)\n    else\n        region:SetPoint('CENTER',0,0)\n    end    \nelseif e.config.point==3 then-- 方块 Square\n    region:SetPoint('CENTER',25,0) \nend\n\nlocal btn= _G[e.id..\"Button\"]\nif not _G[e.id..\"Button\"] then      \n    btn = CreateFrame(\"Button\", e.id..\"Button\", UIParent, \"SecureActionButtonTemplate\")     \n    btn:SetAllPoints(region) \nend\n\nbtn:RegisterForClicks(\"LeftButtonDown\",\"RightButtonDown\")\nregion:SetAlpha(e.config.Leave)\n\nbtn:SetAttribute(\"type1\", \"macro\") \nbtn:SetAttribute(\"type2\", \"macro\") \n\ne.pull=WeakAurasSaved[e.id..'PULL']\nif not e.pull then e.pull=6 end\nbtn:SetAttribute(\"macrotext1\", \"/PULL \"..e.pull)\nbtn:SetAttribute(\"macrotext2\", \"/PULL 0\")\n\ne.TipsShow=function(self)\n        if e.config.cur==10 or (UnitAffectingCombat('player') and e.config.noShowTooltipsInCombat) then return end\n    \n    local cur={'ANCHOR_TOP' ,'ANCHOR_RIGHT','ANCHOR_BOTTOM','ANCHOR_LEFT','ANCHOR_TOPRIGHT','ANCHOR_BOTTOMRIGHT','ANCHOR_TOPLEFT','ANCHOR_BOTTOMLEFT','ANCHOR_CURSOR'}\n    cur=cur[e.config.cur]        \n    GameTooltip:SetOwner(self, cur)\n    GameTooltip:ClearLines()\n    local m=''\n    \n    m=_G['BINDING_NAME_STARTATTACK']..'|r: /pull '..e.pull        \n    m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON1']..'|r'--左键点击操作\n    \n    \n    m=m..'\\n\\n'.._G['BINDING_NAME_STOPATTACK']..'|r: /pull 0'\n    m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON1']..'|r'--左键点击操作        \n    \n    m=m..'\\n\\n|cFF00FF00'.._G['KEY_MOUSEWHEELUP']..'|r: '..e.pull..'-1 (3-30)'--鼠标滚轮向上滚动\n    m=m..'\\n|cFF00FF00'.._G['KEY_MOUSEWHEELDOWN']..'|r: '..e.pull..'+1 (3-30)'--鼠标滚轮向下滚动\n    GameTooltip:SetText(m)\n    GameTooltip:Show()        \nend\n\nbtn:EnableMouseWheel(true)\nbtn:SetScript('OnMouseWheel',function(self,D)        \n        if D == 1 then\n            if e.pull==3 then e.pull=31 end\n            e.pull=e.pull-1\n        elseif D == -1 then\n            if e.pull==30 then e.pull=2 end\n            e.pull=e.pull+1                \n        end    \n        WeakAurasSaved[e.id..'PULL']=e.pull\n        btn:SetAttribute(\"macrotext1\", \"/PULL \"..e.pull)\n        e.TipsShow(self)\nend)\n\nbtn:SetScript(\"OnEnter\",function(self)\n        region:SetAlpha(e.config.Enter)      \n        e.TipsShow(self)\nend)\nbtn:SetScript(\"OnLeave\",function(self)\n        region:SetAlpha(e.config.Leave)\n        GameTooltip:Hide()        \nend)\nbtn:SetScript(\"OnMouseUp\", function(self)\n        region:SetAlpha(e.config.Enter)  \nend)\nbtn:SetScript(\"OnMouseDown\", function(self)\n        region:SetAlpha(e.config.Down)\nend)",
-					["do_custom"] = true,
-				},
-			},
-			["regionType"] = "texture",
 			["authorOptions"] = {
 				{
 					["type"] = "header",
@@ -20978,19 +20960,37 @@ WeakAurasSaved = {
 					["width"] = 2,
 				}, -- [8]
 			},
+			["mirror"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "texture",
+			["parent"] = "World-Target Markers",
 			["blendMode"] = "BLEND",
-			["xOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Show() end",
+					["do_custom"] = true,
+				},
+				["finish"] = {
+					["hide_all_glows"] = true,
+					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Hide() end",
+					["do_custom"] = true,
+				},
+				["init"] = {
+					["custom"] = "local e = aura_env\ne.col='|c'..RAID_CLASS_COLORS[select(2, UnitClass(\"player\"))].colorStr--职业颜色\n\nlocal region = WeakAuras.GetRegion(e.id) \n--型状\nif e.config.point==1 then--水平\n    if (select(4,GetBuildInfo()) <= 19999) then--classic\n        region:SetPoint('CENTER',25,25)\n    else\n        region:SetPoint('CENTER',0,0)\n    end    \nelseif e.config.point==2 then--垂直\n    if (select(4,GetBuildInfo()) <= 19999) then--classic\n        region:SetPoint('CENTER',-25,-25)\n    else\n        region:SetPoint('CENTER',0,0)\n    end    \nelseif e.config.point==3 then-- 方块 Square\n    region:SetPoint('CENTER',25,0) \nend\n\nlocal btn= _G[e.id..\"Button\"]\nif not _G[e.id..\"Button\"] then      \n    btn = CreateFrame(\"Button\", e.id..\"Button\", UIParent, \"SecureActionButtonTemplate\")     \n    btn:SetAllPoints(region) \nend\n\nbtn:RegisterForClicks(\"LeftButtonDown\",\"RightButtonDown\")\nregion:SetAlpha(e.config.Leave)\n\nbtn:SetAttribute(\"type1\", \"macro\") \nbtn:SetAttribute(\"type2\", \"macro\") \n\ne.pull=WeakAurasSaved[e.id..'PULL']\nif not e.pull then e.pull=6 end\nbtn:SetAttribute(\"macrotext1\", \"/PULL \"..e.pull)\nbtn:SetAttribute(\"macrotext2\", \"/PULL 0\")\n\ne.TipsShow=function(self)\n        if e.config.cur==10 or (UnitAffectingCombat('player') and e.config.noShowTooltipsInCombat) then return end\n    \n    local cur={'ANCHOR_TOP' ,'ANCHOR_RIGHT','ANCHOR_BOTTOM','ANCHOR_LEFT','ANCHOR_TOPRIGHT','ANCHOR_BOTTOMRIGHT','ANCHOR_TOPLEFT','ANCHOR_BOTTOMLEFT','ANCHOR_CURSOR'}\n    cur=cur[e.config.cur]        \n    GameTooltip:SetOwner(self, cur)\n    GameTooltip:ClearLines()\n    local m=''\n    \n    m=_G['BINDING_NAME_STARTATTACK']..'|r: /pull '..e.pull        \n    m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON1']..'|r'--左键点击操作\n    \n    \n    m=m..'\\n\\n'.._G['BINDING_NAME_STOPATTACK']..'|r: /pull 0'\n    m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON1']..'|r'--左键点击操作        \n    \n    m=m..'\\n\\n|cFF00FF00'.._G['KEY_MOUSEWHEELUP']..'|r: '..e.pull..'-1 (3-30)'--鼠标滚轮向上滚动\n    m=m..'\\n|cFF00FF00'.._G['KEY_MOUSEWHEELDOWN']..'|r: '..e.pull..'+1 (3-30)'--鼠标滚轮向下滚动\n    GameTooltip:SetText(m)\n    GameTooltip:Show()        \nend\n\nbtn:EnableMouseWheel(true)\nbtn:SetScript('OnMouseWheel',function(self,D)        \n        if D == 1 then\n            if e.pull==3 then e.pull=31 end\n            e.pull=e.pull-1\n        elseif D == -1 then\n            if e.pull==30 then e.pull=2 end\n            e.pull=e.pull+1                \n        end    \n        WeakAurasSaved[e.id..'PULL']=e.pull\n        btn:SetAttribute(\"macrotext1\", \"/PULL \"..e.pull)\n        e.TipsShow(self)\nend)\n\nbtn:SetScript(\"OnEnter\",function(self)\n        region:SetAlpha(e.config.Enter)      \n        e.TipsShow(self)\nend)\nbtn:SetScript(\"OnLeave\",function(self)\n        region:SetAlpha(e.config.Leave)\n        GameTooltip:Hide()        \nend)\nbtn:SetScript(\"OnMouseUp\", function(self)\n        region:SetAlpha(e.config.Enter)  \nend)\nbtn:SetScript(\"OnMouseDown\", function(self)\n        region:SetAlpha(e.config.Down)\nend)",
+					["do_custom"] = true,
+				},
+			},
 			["rotation"] = 0,
 			["texture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura19",
-			["auto"] = true,
-			["cooldownTextDisabled"] = false,
 			["semver"] = "9.2.83",
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 20501,
 			["id"] = "PULL(Need DBM BW ERT)",
 			["width"] = 25,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["alpha"] = 0.5,
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
 			["uid"] = "5b0S5YEZc9X",
 			["inverse"] = false,
 			["url"] = "https://wago.io/vQY6_rTnB/84",
@@ -20999,7 +20999,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "World-Target Markers",
+			["xOffset"] = 0,
 		},
 		["Overpower - Usable (Berserker) 2"] = {
 			["iconSource"] = 0,
@@ -21031,8 +21031,8 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["spellIds"] = {
 						},
-						["use_missType"] = true,
 						["use_sourceUnit"] = true,
+						["use_missType"] = true,
 						["unit"] = "player",
 						["sourceUnit"] = "player",
 						["debuffType"] = "HELPFUL",
@@ -21166,15 +21166,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "",
-					["do_custom"] = false,
-				},
+			["authorOptions"] = {
 			},
 			["animation"] = {
 				["start"] = {
@@ -21197,7 +21189,16 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["parent"] = "Warrior",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -21215,26 +21216,25 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["url"] = "https://wago.io/jMHRj-FSb/3",
-			["cooldownTextDisabled"] = false,
-			["width"] = 45,
+			["parent"] = "Warrior",
 			["zoom"] = 0,
-			["auto"] = false,
+			["width"] = 45,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Overpower - Usable (Berserker) 2",
 			["alpha"] = 1,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "1.0.2",
+			["auto"] = false,
 			["uid"] = "N5PVHcqb0wt",
 			["inverse"] = false,
-			["authorOptions"] = {
-			},
+			["xOffset"] = -100,
 			["displayIcon"] = 132223,
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["xOffset"] = -100,
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Multi-Shot"] = {
 			["iconSource"] = -1,
@@ -21346,13 +21346,7 @@ WeakAurasSaved = {
 				["zoneIds"] = "",
 			},
 			["uid"] = "HSW68EXOwvC",
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
+			["authorOptions"] = {
 			},
 			["animation"] = {
 				["start"] = {
@@ -21375,27 +21369,33 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["parent"] = "Hunter Core (TBC) - Luxthos",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
 			["displayIcon"] = "",
-			["url"] = "https://wago.io/1NxtmsD1Z/2",
-			["zoom"] = 0.3,
-			["anchorFrameType"] = "SCREEN",
+			["parent"] = "Hunter Core (TBC) - Luxthos",
 			["cooldownTextDisabled"] = false,
-			["auto"] = true,
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["semver"] = "1.0.1",
 			["tocversion"] = 20501,
 			["id"] = "Multi-Shot",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 46,
-			["semver"] = "1.0.1",
+			["auto"] = true,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["authorOptions"] = {
-			},
+			["xOffset"] = -25,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -21445,7 +21445,7 @@ WeakAurasSaved = {
 				}, -- [3]
 			},
 			["cooldown"] = true,
-			["xOffset"] = -25,
+			["url"] = "https://wago.io/1NxtmsD1Z/2",
 		},
 		["Cleave"] = {
 			["iconSource"] = 0,
@@ -21527,16 +21527,16 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["custom_type"] = "status",
 						["event"] = "Health",
-						["subeventPrefix"] = "SPELL",
+						["unit"] = "player",
 						["names"] = {
 						},
 						["events"] = "ACTIONBAR_UPDATE_STATE ACTIONBAR_SLOT_CHANGED ACTIONBAR_PAGE_CHANGED",
-						["custom"] = "function(e)\n    if e == \"ACTIONBAR_UPDATE_STATE\" then\n        if aura_env.slotList and IsCurrentAction(aura_env.slotList[1]) then\n            return true\n        end\n    elseif e == \"ACTIONBAR_SLOT_CHANGED\" or e ==\"ACTIONBAR_PAGE_CHANGED\" then\n        local _, _, icon, _, _, _, spellid = GetSpellInfo(\"Cleave\")\n        if icon and spellid then\n            aura_env.icon = icon\n            aura_env.slotList = C_ActionBar.FindSpellActionButtons(spellid)\n        end\n    end\nend",
-						["customIcon"] = "function() return aura_env.icon end",
-						["check"] = "event",
 						["spellIds"] = {
 						},
-						["unit"] = "player",
+						["customIcon"] = "function() return aura_env.icon end",
+						["check"] = "event",
+						["custom"] = "function(e)\n    if e == \"ACTIONBAR_UPDATE_STATE\" then\n        if aura_env.slotList and IsCurrentAction(aura_env.slotList[1]) then\n            return true\n        end\n    elseif e == \"ACTIONBAR_SLOT_CHANGED\" or e ==\"ACTIONBAR_PAGE_CHANGED\" then\n        local _, _, icon, _, _, _, spellid = GetSpellInfo(\"Cleave\")\n        if icon and spellid then\n            aura_env.icon = icon\n            aura_env.slotList = C_ActionBar.FindSpellActionButtons(spellid)\n        end\n    end\nend",
+						["subeventPrefix"] = "SPELL",
 						["custom_hide"] = "timed",
 					},
 					["untrigger"] = {
@@ -21599,7 +21599,8 @@ WeakAurasSaved = {
 				["zoneIds"] = "",
 			},
 			["uid"] = "rXsS5SVCbaQ",
-			["xOffset"] = 112,
+			["authorOptions"] = {
+			},
 			["actions"] = {
 				["start"] = {
 				},
@@ -21609,7 +21610,7 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["parent"] = "Warrior",
+			["xOffset"] = 112,
 			["cooldown"] = false,
 			["conditions"] = {
 				{
@@ -21626,27 +21627,26 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["selfPoint"] = "CENTER",
-			["zoom"] = 0,
-			["anchorFrameType"] = "SCREEN",
+			["parent"] = "Warrior",
 			["cooldownTextDisabled"] = false,
-			["semver"] = "1.0.2",
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0,
+			["auto"] = false,
 			["tocversion"] = 20501,
 			["id"] = "Cleave",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 16,
-			["auto"] = false,
+			["semver"] = "1.0.2",
 			["config"] = {
 			},
 			["inverse"] = false,
-			["authorOptions"] = {
-			},
+			["cooldownEdge"] = false,
 			["displayIcon"] = 132338,
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["cooldownEdge"] = false,
+			["selfPoint"] = "CENTER",
 		},
 		["繳械可用"] = {
 			["iconSource"] = -1,
@@ -21825,37 +21825,37 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
+			["icon"] = true,
+			["regionType"] = "icon",
+			["xOffset"] = 74.5723876953125,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["regionType"] = "icon",
-			["xOffset"] = 74.5723876953125,
-			["parent"] = "pvp",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["icon"] = true,
+			["selfPoint"] = "CENTER",
 			["uid"] = "rsdR6TddmBn",
-			["auto"] = true,
-			["cooldownTextDisabled"] = false,
 			["semver"] = "1.0.2",
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 20501,
 			["id"] = "繳械可用",
 			["width"] = 56.56667709350586,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["parent"] = "pvp",
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Hunter Core (TBC) - Luxthos"] = {
 			["controlledChildren"] = {
@@ -21971,14 +21971,14 @@ WeakAurasSaved = {
 			["semver"] = "1.0.1",
 			["tocversion"] = 20501,
 			["id"] = "Hunter Core (TBC) - Luxthos",
-			["uid"] = "It0wqlC3bpk",
+			["xOffset"] = 2.5396728515625,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["groupIcon"] = "interface/icons/classicon_hunter.blp",
+			["borderInset"] = 1,
+			["uid"] = "It0wqlC3bpk",
 			["config"] = {
 			},
-			["xOffset"] = 2.5396728515625,
-			["borderInset"] = 1,
 			["conditions"] = {
 			},
 			["information"] = {
@@ -22106,7 +22106,7 @@ WeakAurasSaved = {
 			["regionType"] = "group",
 			["borderSize"] = 2,
 			["anchorFrameParent"] = false,
-			["borderInset"] = 1,
+			["uid"] = "rh)rYiWAoCS",
 			["borderOffset"] = 4,
 			["semver"] = "9.2.83",
 			["tocversion"] = 20501,
@@ -22114,9 +22114,9 @@ WeakAurasSaved = {
 			["groupIcon"] = "Interface\\TargetingFrame\\UI-RaidTargetingIcon_8",
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SELECTFRAME",
+			["xOffset"] = -876.6484375,
+			["borderInset"] = 1,
 			["borderEdge"] = "Square Full White",
-			["uid"] = "rh)rYiWAoCS",
-			["selfPoint"] = "BOTTOMLEFT",
 			["config"] = {
 			},
 			["conditions"] = {
@@ -22125,7 +22125,7 @@ WeakAurasSaved = {
 				["groupOffset"] = true,
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["xOffset"] = -876.6484375,
+			["selfPoint"] = "BOTTOMLEFT",
 		},
 		["Blood Elf-Arcane Torrent"] = {
 			["iconSource"] = 0,
@@ -22158,8 +22158,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -22281,38 +22281,38 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName",
-					["message_format_1.spellName_format"] = "none",
-					["message_format_n_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.sourceName_format"] = "none",
 					["message_type"] = "PARTY",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_1.sourceName_format"] = "none",
+					["message_format_n_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 136222,
 			["uid"] = "AvLqftrf)H0",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Blood Elf-Arcane Torrent",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -22320,7 +22320,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Volley"] = {
 			["iconSource"] = -1,
@@ -22431,13 +22431,7 @@ WeakAurasSaved = {
 				["zoneIds"] = "",
 			},
 			["uid"] = "zpV8RS8LryK",
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
+			["authorOptions"] = {
 			},
 			["animation"] = {
 				["start"] = {
@@ -22460,27 +22454,33 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["parent"] = "Hunter Core (TBC) - Luxthos",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
 			["displayIcon"] = "",
-			["url"] = "https://wago.io/1NxtmsD1Z/2",
-			["zoom"] = 0.3,
-			["anchorFrameType"] = "SCREEN",
+			["parent"] = "Hunter Core (TBC) - Luxthos",
 			["cooldownTextDisabled"] = false,
-			["auto"] = true,
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["semver"] = "1.0.1",
 			["tocversion"] = 20501,
 			["id"] = "Volley",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 46,
-			["semver"] = "1.0.1",
+			["auto"] = true,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["authorOptions"] = {
-			},
+			["xOffset"] = 75,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -22526,7 +22526,7 @@ WeakAurasSaved = {
 				}, -- [3]
 			},
 			["cooldown"] = true,
-			["xOffset"] = 75,
+			["url"] = "https://wago.io/1NxtmsD1Z/2",
 		},
 		["Victory Rush - Usable 3"] = {
 			["iconSource"] = -1,
@@ -22565,13 +22565,13 @@ WeakAurasSaved = {
 							"Frothing Berserker", -- [1]
 						},
 						["matchesShowOn"] = "showOnActive",
-						["useName"] = true,
+						["type"] = "spell",
 						["spellIds"] = {
 							215572, -- [1]
 						},
 						["debuffType"] = "HELPFUL",
 						["unevent"] = "auto",
-						["type"] = "spell",
+						["useName"] = true,
 						["use_debuffClass"] = false,
 						["subeventSuffix"] = "_CAST_START",
 						["spellName"] = 34428,
@@ -22680,7 +22680,7 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
-			["parent"] = "狂暴戰",
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["regionType"] = "icon",
 			["color"] = {
 				1, -- [1]
@@ -22688,44 +22688,25 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["icon"] = true,
+			["parent"] = "狂暴戰",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = -100,
 			["uid"] = "BNOCUdIRePS",
-			["semver"] = "1.0.2",
-			["zoom"] = 0,
 			["auto"] = true,
+			["zoom"] = 0,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Victory Rush - Usable 3",
 			["width"] = 45,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
+			["icon"] = true,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -22767,7 +22748,26 @@ WeakAurasSaved = {
 				}, -- [3]
 			},
 			["cooldown"] = true,
-			["xOffset"] = -100,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
 		},
 		["Details! Boss Mods Group"] = {
 			["grow"] = "DOWN",
@@ -22862,18 +22862,18 @@ WeakAurasSaved = {
 				1, -- [3]
 				0.5, -- [4]
 			},
-			["rowSpace"] = 1,
+			["fullCircle"] = true,
 			["animate"] = false,
-			["rotation"] = 0,
+			["selfPoint"] = "TOP",
 			["scale"] = 1,
-			["radius"] = 200,
+			["arcLength"] = 360,
 			["border"] = false,
 			["borderEdge"] = "Square Full White",
 			["regionType"] = "dynamicgroup",
 			["borderSize"] = 2,
 			["sort"] = "none",
-			["selfPoint"] = "TOP",
-			["fullCircle"] = true,
+			["rowSpace"] = 1,
+			["radius"] = 200,
 			["constantFactor"] = "RADIUS",
 			["gridType"] = "RD",
 			["borderOffset"] = 4,
@@ -22887,13 +22887,13 @@ WeakAurasSaved = {
 			["useLimit"] = false,
 			["borderInset"] = 1,
 			["limit"] = 5,
-			["xOffset"] = 0,
+			["rotation"] = 0,
 			["conditions"] = {
 			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["arcLength"] = 360,
+			["xOffset"] = 0,
 		},
 		["Rogue-Cloak of Shadows"] = {
 			["iconSource"] = 0,
@@ -22926,8 +22926,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -23049,38 +23049,38 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName",
-					["message_format_1.spellName_format"] = "none",
-					["message_format_n_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.sourceName_format"] = "none",
 					["message_type"] = "PARTY",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_1.sourceName_format"] = "none",
+					["message_format_n_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 136177,
 			["uid"] = "BoZ7eHkOXT2",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Rogue-Cloak of Shadows",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -23088,7 +23088,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["0清除队伍标记图标 Clear team mark icon"] = {
 			["wagoID"] = "vQY6_rTnB",
@@ -23133,11 +23133,11 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["events"] = "PLAYER_ENTERING_WORLD,GROUP_ROSTER_UPDATE,GROUP_LEFT,PLAYER_ROLES_ASSIGNED,CONVERT_TO_RAID_CONFIRMATION,PARTY_LEADER_CHANGED,PLAYER_TARGET_CHANGED,ENV_Marker_Chat",
 						["customName"] = "",
-						["spellIds"] = {
-						},
+						["custom"] = "function()--在团里没有，没有权限时不显示\n    if (IsInRaid() and  (UnitIsGroupAssistant('player') or UnitIsGroupLeader('player'))) or not IsInRaid() then \n        return true        \n    end    \nend",
 						["use_unit"] = true,
 						["check"] = "event",
-						["custom"] = "function()--在团里没有，没有权限时不显示\n    if (IsInRaid() and  (UnitIsGroupAssistant('player') or UnitIsGroupLeader('player'))) or not IsInRaid() then \n        return true        \n    end    \nend",
+						["spellIds"] = {
+						},
 						["custom_type"] = "status",
 						["names"] = {
 						},
@@ -23225,52 +23225,10 @@ WeakAurasSaved = {
 			["anchorFrameFrame"] = "WeakAuras:2",
 			["regionType"] = "texture",
 			["blendMode"] = "BLEND",
-			["parent"] = "World-Target Markers",
+			["rotation"] = 0,
 			["anchorFrameParent"] = false,
 			["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Ring_40px.tga",
-			["xOffset"] = -25,
-			["rotation"] = 0,
-			["semver"] = "9.2.83",
-			["tocversion"] = 20501,
-			["id"] = "0清除队伍标记图标 Clear team mark icon",
-			["selfPoint"] = "CENTER",
-			["alpha"] = 0.5,
-			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
-			["uid"] = "2JduSSckfox",
-			["width"] = 25,
-			["config"] = {
-				["noShowTooltipsInCombat"] = false,
-				["cur"] = 7,
-				["point"] = 1,
-				["id"] = 0,
-				["Enter"] = 1,
-				["Down"] = 0.1,
-				["Leave"] = 0.3,
-			},
-			["conditions"] = {
-				{
-					["check"] = {
-						["trigger"] = 2,
-						["variable"] = "show",
-						["value"] = 1,
-					},
-					["changes"] = {
-						{
-							["value"] = {
-								1, -- [1]
-								0.007843137254902, -- [2]
-								0, -- [3]
-								1, -- [4]
-							},
-							["property"] = "color",
-						}, -- [1]
-					},
-				}, -- [1]
-			},
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
+			["parent"] = "World-Target Markers",
 			["authorOptions"] = {
 				{
 					["type"] = "header",
@@ -23371,6 +23329,48 @@ WeakAurasSaved = {
 					["width"] = 2,
 				}, -- [9]
 			},
+			["semver"] = "9.2.83",
+			["tocversion"] = 20501,
+			["id"] = "0清除队伍标记图标 Clear team mark icon",
+			["xOffset"] = -25,
+			["alpha"] = 0.5,
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
+			["config"] = {
+				["noShowTooltipsInCombat"] = false,
+				["cur"] = 7,
+				["point"] = 1,
+				["id"] = 0,
+				["Enter"] = 1,
+				["Down"] = 0.1,
+				["Leave"] = 0.3,
+			},
+			["width"] = 25,
+			["uid"] = "2JduSSckfox",
+			["conditions"] = {
+				{
+					["check"] = {
+						["trigger"] = 2,
+						["variable"] = "show",
+						["value"] = 1,
+					},
+					["changes"] = {
+						{
+							["value"] = {
+								1, -- [1]
+								0.007843137254902, -- [2]
+								0, -- [3]
+								1, -- [4]
+							},
+							["property"] = "color",
+						}, -- [1]
+					},
+				}, -- [1]
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["selfPoint"] = "CENTER",
 		},
 		["Overpower - Usable (Defensive) 3"] = {
 			["iconSource"] = 0,
@@ -23405,9 +23405,9 @@ WeakAurasSaved = {
 						["subeventSuffix"] = "_MISSED",
 						["spellIds"] = {
 						},
-						["use_missType"] = true,
-						["missType"] = "DODGE",
 						["use_sourceUnit"] = true,
+						["missType"] = "DODGE",
+						["use_missType"] = true,
 						["sourceUnit"] = "player",
 						["debuffType"] = "HELPFUL",
 					},
@@ -23520,7 +23520,7 @@ WeakAurasSaved = {
 						[15] = true,
 					},
 				},
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -23529,21 +23529,21 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
 				["use_talent"] = true,
 				["use_class"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -23561,11 +23561,11 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["icon"] = true,
+			["cooldownEdge"] = false,
 			["authorOptions"] = {
 			},
 			["regionType"] = "icon",
-			["parent"] = "pvp",
+			["icon"] = true,
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -23583,29 +23583,19 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["cooldownTextDisabled"] = false,
-			["width"] = 45,
+			["parent"] = "pvp",
 			["zoom"] = 0,
-			["auto"] = false,
+			["width"] = 45,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Overpower - Usable (Defensive) 3",
 			["alpha"] = 1,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "1.0.2",
+			["auto"] = false,
 			["uid"] = "DSyf3ljtd7b",
 			["inverse"] = false,
-			["cooldownEdge"] = false,
-			["displayIcon"] = 132223,
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
 			["animation"] = {
 				["start"] = {
 					["easeStrength"] = 3,
@@ -23625,6 +23615,16 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeType"] = "none",
 				},
+			},
+			["displayIcon"] = 132223,
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
 		},
 		["Hunter-Wyvern Sting"] = {
@@ -23658,8 +23658,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -23781,40 +23781,40 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName on %1.destName",
-					["message_format_1.spellName_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.destName_format"] = "none",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_.destName_format"] = "none",
 					["message_type"] = "PARTY",
 					["message_format_n_format"] = "none",
 					["message_format_1.sourceName_format"] = "none",
-					["message_format_.destName_format"] = "none",
+					["message_format_1.destName_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 135125,
 			["uid"] = "0G1M00rxTTX",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Hunter-Wyvern Sting",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -23822,7 +23822,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Pummel"] = {
 			["iconSource"] = -1,
@@ -23975,27 +23975,34 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = -57,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Pummel",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 35,
 			["frameStrata"] = 1,
+			["width"] = 35,
+			["alpha"] = 1,
 			["uid"] = "itPiALDJHAq",
 			["inverse"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = -57,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -24038,14 +24045,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["阻擾"] = {
 			["iconSource"] = -1,
@@ -24186,42 +24186,34 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
-			["cooldownEdge"] = false,
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["xOffset"] = 18.86181640625,
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["cooldownEdge"] = false,
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["authorOptions"] = {
+			},
 			["uid"] = "JNhf5d4pBsS",
-			["semver"] = "1.0.2",
-			["zoom"] = 0,
 			["auto"] = true,
+			["zoom"] = 0,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "阻擾",
 			["width"] = 56.56667709350586,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-					["custom"] = "aura_env.region.stacks:SetPoint(\"BOTTOMRIGHT\", aura_env.region, \"BOTTOMRIGHT\", 0, 0)\naura_env.region.stacks:SetShadowOffset(1, -1)",
-					["do_custom"] = false,
-				},
-				["finish"] = {
-				},
-			},
+			["xOffset"] = 18.86181640625,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -24267,7 +24259,15 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["authorOptions"] = {
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+					["custom"] = "aura_env.region.stacks:SetPoint(\"BOTTOMRIGHT\", aura_env.region, \"BOTTOMRIGHT\", 0, 0)\naura_env.region.stacks:SetShadowOffset(1, -1)",
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
 			},
 		},
 		["Dispel-Iceblock"] = {
@@ -24415,37 +24415,37 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.spellName is off.",
 					["message_type"] = "PARTY",
-					["do_message"] = true,
 					["message_format_1.spellName_format"] = "none",
 					["message_format_1.sourceName_format"] = "none",
+					["do_message"] = true,
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 135894,
 			["uid"] = "Y0OMsebw5ya",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Dispel-Iceblock",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -24453,7 +24453,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = false,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["法反可用 3"] = {
 			["iconSource"] = -1,
@@ -24481,7 +24481,7 @@ WeakAurasSaved = {
 						["use_unit"] = true,
 						["type"] = "spell",
 						["use_absorbMode"] = true,
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 						["use_showOn"] = true,
 						["use_remaining"] = true,
 						["event"] = "Cooldown Progress (Spell)",
@@ -24491,7 +24491,7 @@ WeakAurasSaved = {
 						["spellIds"] = {
 						},
 						["subeventPrefix"] = "SPELL",
-						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["spellName"] = 1680,
 						["use_track"] = true,
 						["unit"] = "player",
@@ -24604,12 +24604,7 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["regionType"] = "icon",
 			["animation"] = {
 				["start"] = {
@@ -24631,28 +24626,13 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["xOffset"] = 108.3499755859375,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["cooldown"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
-			["config"] = {
-			},
-			["auto"] = true,
-			["cooldownTextDisabled"] = false,
-			["semver"] = "1.0.2",
-			["tocversion"] = 20501,
-			["id"] = "法反可用 3",
-			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
-			["width"] = 56.56667709350586,
-			["alpha"] = 1,
-			["uid"] = "KocJSgeSAgg",
-			["inverse"] = true,
-			["parent"] = "pvp",
-			["conditions"] = {
-			},
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
 			["actions"] = {
 				["start"] = {
 				},
@@ -24663,6 +24643,26 @@ WeakAurasSaved = {
 					["do_custom"] = false,
 				},
 			},
+			["config"] = {
+			},
+			["semver"] = "1.0.2",
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
+			["tocversion"] = 20501,
+			["id"] = "法反可用 3",
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
+			["width"] = 56.56667709350586,
+			["frameStrata"] = 1,
+			["uid"] = "KocJSgeSAgg",
+			["inverse"] = true,
+			["xOffset"] = 108.3499755859375,
+			["conditions"] = {
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["parent"] = "pvp",
 		},
 		["Gnome-Escape Artist"] = {
 			["iconSource"] = 0,
@@ -24695,8 +24695,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -24818,38 +24818,38 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName",
-					["message_format_1.spellName_format"] = "none",
-					["message_format_n_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.sourceName_format"] = "none",
 					["message_type"] = "PARTY",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_1.sourceName_format"] = "none",
+					["message_format_n_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 132309,
 			["uid"] = "DICSVjCY82P",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Gnome-Escape Artist",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -24857,7 +24857,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Dispel-Innervate"] = {
 			["iconSource"] = -1,
@@ -25004,37 +25004,37 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.spellName is off.",
 					["message_type"] = "PARTY",
-					["do_message"] = true,
 					["message_format_1.spellName_format"] = "none",
 					["message_format_1.sourceName_format"] = "none",
+					["do_message"] = true,
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 135894,
 			["uid"] = "4P83w2bAUGj",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Dispel-Innervate",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -25042,7 +25042,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = false,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Priest-Psychic Scream"] = {
 			["iconSource"] = 0,
@@ -25075,8 +25075,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -25198,38 +25198,38 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName",
-					["message_format_1.spellName_format"] = "none",
-					["message_format_n_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.sourceName_format"] = "none",
 					["message_type"] = "PARTY",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_1.sourceName_format"] = "none",
+					["message_format_n_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 136184,
 			["uid"] = "VYMVnoqWTFv",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Priest-Psychic Scream",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -25237,7 +25237,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Mage-Iceblock"] = {
 			["iconSource"] = 0,
@@ -25270,8 +25270,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -25393,38 +25393,38 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName",
-					["message_format_1.spellName_format"] = "none",
-					["message_format_n_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.sourceName_format"] = "none",
 					["message_type"] = "PARTY",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_1.sourceName_format"] = "none",
+					["message_format_n_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 135841,
 			["uid"] = "(e6a3hQHbCZ",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Mage-Iceblock",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -25432,7 +25432,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Shield Block"] = {
 			["iconSource"] = -1,
@@ -25573,7 +25573,7 @@ WeakAurasSaved = {
 					["text_shadowYOffset"] = 0,
 					["text_text_format_p_time_dynamic_threshold"] = 60,
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_anchorPoint"] = "INNER_BOTTOMRIGHT",
 					["text_shadowXOffset"] = 0,
 					["text_shadowColor"] = {
@@ -25584,7 +25584,7 @@ WeakAurasSaved = {
 					},
 					["text_fontSize"] = 12,
 					["anchorXOffset"] = 0,
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 				}, -- [1]
 			},
 			["height"] = 45,
@@ -25645,27 +25645,34 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = 0,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Shield Block",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 45,
 			["frameStrata"] = 1,
+			["width"] = 45,
+			["alpha"] = 1,
 			["uid"] = "5gw(vLp8a6W",
 			["inverse"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = 0,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -25711,14 +25718,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Disarm"] = {
 			["iconSource"] = -1,
@@ -25900,27 +25900,34 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = 56.999450683594,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Disarm",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 35,
 			["frameStrata"] = 1,
+			["width"] = 35,
+			["alpha"] = 1,
 			["uid"] = "PfxEcaV0AtA",
 			["inverse"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = 56.999450683594,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -25966,14 +25973,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Whirlwind 2"] = {
 			["iconSource"] = -1,
@@ -26076,15 +26076,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 1,
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["use_talent"] = true,
-				["use_class"] = true,
-				["role"] = {
+				["class"] = {
+					["single"] = "WARRIOR",
 					["multi"] = {
 					},
 				},
@@ -26092,27 +26085,34 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "WARRIOR",
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["spec"] = {
+					["single"] = 1,
 					["multi"] = {
 					},
 				},
 				["zoneIds"] = "",
 			},
 			["cooldownTextDisabled"] = false,
-			["parent"] = "狂暴戰",
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["regionType"] = "icon",
 			["color"] = {
 				1, -- [1]
@@ -26120,44 +26120,25 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["icon"] = true,
+			["parent"] = "狂暴戰",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = -53.0001220703125,
 			["uid"] = "j(NK4)7zcw4",
-			["semver"] = "1.0.2",
-			["zoom"] = 0,
 			["auto"] = true,
+			["zoom"] = 0,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Whirlwind 2",
 			["width"] = 45,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
+			["icon"] = true,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -26196,7 +26177,26 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["xOffset"] = -53.0001220703125,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
 		},
 		["Night Elf-Shadowmeld"] = {
 			["iconSource"] = 0,
@@ -26229,8 +26229,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -26352,38 +26352,38 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName",
-					["message_format_1.spellName_format"] = "none",
-					["message_format_n_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.sourceName_format"] = "none",
 					["message_type"] = "PARTY",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_1.sourceName_format"] = "none",
+					["message_format_n_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 132089,
 			["uid"] = "kCijrjmC9uF",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Night Elf-Shadowmeld",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -26391,7 +26391,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Battle Stance 2"] = {
 			["iconSource"] = 0,
@@ -26417,7 +26417,7 @@ WeakAurasSaved = {
 						["use_genericShowOn"] = true,
 						["type"] = "unit",
 						["use_absorbMode"] = true,
-						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["use_showOn"] = true,
 						["form"] = {
 							["single"] = 1,
@@ -26430,7 +26430,7 @@ WeakAurasSaved = {
 						},
 						["spellName"] = 2457,
 						["subeventPrefix"] = "SPELL",
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 						["use_track"] = true,
 						["use_unit"] = true,
 					},
@@ -26489,15 +26489,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 1,
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["use_talent"] = true,
-				["use_class"] = true,
-				["role"] = {
+				["class"] = {
+					["single"] = "WARRIOR",
 					["multi"] = {
 					},
 				},
@@ -26505,57 +26498,55 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "WARRIOR",
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["spec"] = {
+					["single"] = 1,
 					["multi"] = {
 					},
 				},
 				["zoneIds"] = "",
 			},
 			["uid"] = "cWOZLk0Cg6T",
-			["selfPoint"] = "CENTER",
+			["cooldownEdge"] = false,
 			["xOffset"] = 112,
 			["regionType"] = "icon",
-			["parent"] = "狂暴戰",
+			["selfPoint"] = "CENTER",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
 			["displayIcon"] = 132349,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["zoom"] = 0,
-			["anchorFrameType"] = "SCREEN",
+			["parent"] = "狂暴戰",
 			["cooldownTextDisabled"] = false,
-			["auto"] = false,
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Battle Stance 2",
 			["frameStrata"] = 1,
 			["alpha"] = 0.4,
 			["width"] = 20,
-			["semver"] = "1.0.2",
+			["auto"] = false,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["cooldownEdge"] = false,
-			["conditions"] = {
-			},
-			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -26563,6 +26554,15 @@ WeakAurasSaved = {
 				},
 				["finish"] = {
 				},
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
 		},
 		["繳械"] = {
@@ -26702,7 +26702,7 @@ WeakAurasSaved = {
 				["zoneIds"] = "",
 			},
 			["zoom"] = 0,
-			["selfPoint"] = "CENTER",
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["regionType"] = "icon",
 			["color"] = {
 				1, -- [1]
@@ -26710,24 +26710,24 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["cooldown"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = 74.359130859375,
 			["config"] = {
 			},
-			["auto"] = true,
-			["cooldownTextDisabled"] = false,
 			["semver"] = "1.0.2",
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 20501,
 			["id"] = "繳械",
 			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
-			["width"] = 56.56667709350586,
 			["alpha"] = 1,
+			["width"] = 56.56667709350586,
+			["frameStrata"] = 1,
 			["uid"] = "xnmHUOdPHRR",
 			["inverse"] = true,
-			["icon"] = true,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -26775,7 +26775,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["xOffset"] = 74.359130859375,
+			["icon"] = true,
 		},
 		["Bloodthirst"] = {
 			["iconSource"] = -1,
@@ -26897,7 +26897,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -26907,33 +26907,40 @@ WeakAurasSaved = {
 				},
 				["use_alive"] = true,
 				["spellknown"] = 23881,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = -100,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Bloodthirst",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 45,
 			["frameStrata"] = 1,
+			["width"] = 45,
+			["alpha"] = 1,
 			["uid"] = "3Kh7b5SPisQ",
 			["inverse"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = -100,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -26974,14 +26981,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Rogue-Shadowstep"] = {
 			["iconSource"] = 0,
@@ -27014,8 +27014,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -27137,38 +27137,38 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName",
-					["message_format_1.spellName_format"] = "none",
-					["message_format_n_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.sourceName_format"] = "none",
 					["message_type"] = "PARTY",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_1.sourceName_format"] = "none",
+					["message_format_n_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 132303,
 			["uid"] = "fP3xGMiMCAL",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Rogue-Shadowstep",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -27176,7 +27176,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["攔截"] = {
 			["iconSource"] = -1,
@@ -27299,7 +27299,8 @@ WeakAurasSaved = {
 				["zoneIds"] = "",
 			},
 			["zoom"] = 0,
-			["parent"] = "pvp",
+			["authorOptions"] = {
+			},
 			["regionType"] = "icon",
 			["color"] = {
 				1, -- [1]
@@ -27307,43 +27308,32 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["cooldownEdge"] = false,
+			["parent"] = "pvp",
 			["cooldown"] = true,
-			["authorOptions"] = {
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "aura_env.region.stacks:SetPoint(\"BOTTOMRIGHT\", aura_env.region, \"BOTTOMRIGHT\", 0, 0)\naura_env.region.stacks:SetShadowOffset(1, -1)",
+					["do_custom"] = false,
+				},
 			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "攔截",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 56.56667709350586,
 			["frameStrata"] = 1,
+			["width"] = 56.56667709350586,
+			["alpha"] = 1,
 			["uid"] = "p5j0ka5CRze",
 			["inverse"] = true,
-			["animation"] = {
-				["start"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
+			["cooldownEdge"] = false,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -27391,14 +27381,24 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
+			["animation"] = {
 				["start"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
 				},
 				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "aura_env.region.stacks:SetPoint(\"BOTTOMRIGHT\", aura_env.region, \"BOTTOMRIGHT\", 0, 0)\naura_env.region.stacks:SetShadowOffset(1, -1)",
-					["do_custom"] = false,
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
 				},
 			},
 		},
@@ -27433,8 +27433,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -27556,40 +27556,40 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName on %1.destName",
-					["message_format_1.spellName_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.destName_format"] = "none",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_.destName_format"] = "none",
 					["message_type"] = "PARTY",
 					["message_format_n_format"] = "none",
 					["message_format_1.sourceName_format"] = "none",
-					["message_format_.destName_format"] = "none",
+					["message_format_1.destName_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 135902,
 			["uid"] = "cy96QTzbGrw",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Priest-Fear Ward",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -27597,7 +27597,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Paladin-Blessing of Protection"] = {
 			["iconSource"] = 0,
@@ -27630,8 +27630,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -27753,40 +27753,40 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName on %1.destName",
-					["message_format_1.spellName_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.destName_format"] = "none",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_.destName_format"] = "none",
 					["message_type"] = "PARTY",
 					["message_format_n_format"] = "none",
 					["message_format_1.sourceName_format"] = "none",
-					["message_format_.destName_format"] = "none",
+					["message_format_1.destName_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 135964,
 			["uid"] = "uHe8Gh84G(k",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Paladin-Blessing of Protection",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -27794,7 +27794,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Defensive Stance 2"] = {
 			["iconSource"] = 0,
@@ -27820,7 +27820,7 @@ WeakAurasSaved = {
 						["use_genericShowOn"] = true,
 						["type"] = "unit",
 						["use_absorbMode"] = true,
-						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["use_showOn"] = true,
 						["form"] = {
 							["single"] = 2,
@@ -27833,7 +27833,7 @@ WeakAurasSaved = {
 						},
 						["spellName"] = 2457,
 						["subeventPrefix"] = "SPELL",
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 						["use_track"] = true,
 						["use_unit"] = true,
 					},
@@ -27892,15 +27892,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 1,
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["use_talent"] = true,
-				["use_class"] = true,
-				["role"] = {
+				["class"] = {
+					["single"] = "WARRIOR",
 					["multi"] = {
 					},
 				},
@@ -27908,57 +27901,55 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "WARRIOR",
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["spec"] = {
+					["single"] = 1,
 					["multi"] = {
 					},
 				},
 				["zoneIds"] = "",
 			},
 			["uid"] = "Uph3Hpxvs7(",
-			["selfPoint"] = "CENTER",
+			["cooldownEdge"] = false,
 			["xOffset"] = 112,
 			["regionType"] = "icon",
-			["parent"] = "狂暴戰",
+			["selfPoint"] = "CENTER",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
 			["displayIcon"] = 132341,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["zoom"] = 0,
-			["anchorFrameType"] = "SCREEN",
+			["parent"] = "狂暴戰",
 			["cooldownTextDisabled"] = false,
-			["auto"] = false,
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Defensive Stance 2",
 			["frameStrata"] = 1,
 			["alpha"] = 0.4,
 			["width"] = 20,
-			["semver"] = "1.0.2",
+			["auto"] = false,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["cooldownEdge"] = false,
-			["conditions"] = {
-			},
-			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -27966,6 +27957,15 @@ WeakAurasSaved = {
 				},
 				["finish"] = {
 				},
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
 		},
 		["Dispel-Fear Ward"] = {
@@ -28113,37 +28113,37 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.spellName is off.",
 					["message_type"] = "PARTY",
-					["do_message"] = true,
 					["message_format_1.spellName_format"] = "none",
 					["message_format_1.sourceName_format"] = "none",
+					["do_message"] = true,
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 135894,
 			["uid"] = "LLhOrrzlLTl",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Dispel-Fear Ward",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -28151,7 +28151,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = false,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Cleave 2"] = {
 			["iconSource"] = 0,
@@ -28233,12 +28233,12 @@ WeakAurasSaved = {
 						["type"] = "custom",
 						["custom_type"] = "status",
 						["custom_hide"] = "timed",
-						["unit"] = "player",
-						["event"] = "Health",
 						["subeventPrefix"] = "SPELL",
+						["event"] = "Health",
+						["unit"] = "player",
+						["custom"] = "function(e)\n    if e == \"ACTIONBAR_UPDATE_STATE\" then\n        if aura_env.slotList and IsCurrentAction(aura_env.slotList[1]) then\n            return true\n        end\n    elseif e == \"ACTIONBAR_SLOT_CHANGED\" or e ==\"ACTIONBAR_PAGE_CHANGED\" then\n        local _, _, icon, _, _, _, spellid = GetSpellInfo(\"Cleave\")\n        if icon and spellid then\n            aura_env.icon = icon\n            aura_env.slotList = C_ActionBar.FindSpellActionButtons(spellid)\n        end\n    end\nend",
 						["spellIds"] = {
 						},
-						["custom"] = "function(e)\n    if e == \"ACTIONBAR_UPDATE_STATE\" then\n        if aura_env.slotList and IsCurrentAction(aura_env.slotList[1]) then\n            return true\n        end\n    elseif e == \"ACTIONBAR_SLOT_CHANGED\" or e ==\"ACTIONBAR_PAGE_CHANGED\" then\n        local _, _, icon, _, _, _, spellid = GetSpellInfo(\"Cleave\")\n        if icon and spellid then\n            aura_env.icon = icon\n            aura_env.slotList = C_ActionBar.FindSpellActionButtons(spellid)\n        end\n    end\nend",
 						["events"] = "ACTIONBAR_UPDATE_STATE ACTIONBAR_SLOT_CHANGED ACTIONBAR_PAGE_CHANGED",
 						["customIcon"] = "function() return aura_env.icon end",
 						["check"] = "event",
@@ -28271,12 +28271,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "WARRIOR",
+				["spec"] = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
+				["class"] = {
+					["single"] = "WARRIOR",
 					["multi"] = {
 					},
 				},
@@ -28288,6 +28288,9 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
+			["cooldownEdge"] = false,
+			["xOffset"] = 112,
+			["regionType"] = "icon",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -28308,33 +28311,25 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["xOffset"] = 112,
-			["regionType"] = "icon",
-			["authorOptions"] = {
-			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
 			["displayIcon"] = 132338,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["authorOptions"] = {
 			},
-			["cooldownTextDisabled"] = false,
-			["width"] = 16,
 			["zoom"] = 0,
-			["semver"] = "1.0.2",
+			["width"] = 16,
+			["cooldownTextDisabled"] = false,
+			["auto"] = false,
 			["tocversion"] = 20501,
 			["id"] = "Cleave 2",
 			["alpha"] = 1,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["auto"] = false,
+			["semver"] = "1.0.2",
 			["uid"] = "Ud)MAr7HZMV",
 			["inverse"] = false,
-			["cooldownEdge"] = false,
+			["icon"] = true,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -28351,7 +28346,12 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["icon"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 		},
 		["Pet Health - Bar (Hunter)"] = {
 			["sparkWidth"] = 10,
@@ -28386,10 +28386,10 @@ WeakAurasSaved = {
 						["unit"] = "pet",
 						["use_powertype"] = true,
 						["debuffType"] = "HELPFUL",
-						["useName"] = true,
 						["type"] = "unit",
+						["useName"] = true,
 						["use_absorbMode"] = true,
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 						["spellName"] = 25771,
 						["percenthealth"] = "100",
 						["event"] = "Health",
@@ -28398,7 +28398,7 @@ WeakAurasSaved = {
 						["use_spellName"] = true,
 						["spellIds"] = {
 						},
-						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["duration"] = "1",
 						["use_percenthealth"] = false,
 						["use_track"] = true,
@@ -28472,11 +28472,11 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_font"] = "Friz Quadrata TT",
-					["text_visible"] = false,
+					["text_fontType"] = "OUTLINE",
 					["text_shadowYOffset"] = -1,
 					["anchorXOffset"] = 0,
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = false,
 					["text_anchorPoint"] = "INNER_CENTER",
 					["text_shadowXOffset"] = 1,
 					["text_shadowColor"] = {
@@ -28557,32 +28557,32 @@ WeakAurasSaved = {
 				0, -- [3]
 				0.30000001192093, -- [4]
 			},
+			["uid"] = "QpzqHAPIeLA",
+			["smoothProgress"] = true,
+			["useAdjustededMin"] = false,
+			["regionType"] = "aurabar",
 			["sparkColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["smoothProgress"] = true,
-			["useAdjustededMin"] = false,
-			["regionType"] = "aurabar",
-			["config"] = {
-			},
-			["zoom"] = 0,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["icon_side"] = "RIGHT",
 			["anchorFrameType"] = "SCREEN",
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
-			["spark"] = false,
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["auto"] = true,
+			["zoom"] = 0,
+			["semver"] = "1.0.1",
 			["tocversion"] = 20501,
-			["sparkHidden"] = "NEVER",
 			["id"] = "Pet Health - Bar (Hunter)",
+			["sparkHidden"] = "NEVER",
 			["alpha"] = 1,
 			["width"] = 296,
-			["semver"] = "1.0.1",
-			["uid"] = "QpzqHAPIeLA",
+			["spark"] = false,
+			["config"] = {
+			},
 			["inverse"] = false,
 			["iconSource"] = -1,
 			["orientation"] = "HORIZONTAL",
@@ -28689,11 +28689,11 @@ WeakAurasSaved = {
 						["subeventSuffix"] = "_CAST_START",
 						["custom"] = "function()    \n    if IsInGroup() and \n    select(4,GetBuildInfo()) >=40000 and\n    (IsInRaid() and  (UnitIsGroupAssistant('player') or UnitIsGroupLeader('player')) or not IsInRaid())    \n    then \n        return true        \n    end    \nend",
 						["customName"] = "function()--显示快捷键\n    local e=aura_env\n    if e.Key1 then\n        return e.Key1\n    else\n        return ''\n    end\nend\n\n",
-						["spellIds"] = {
-						},
+						["events"] = "GROUP_ROSTER_UPDATE PLAYER_ENTERING_WORLD PLAYER_REGEN_ENABLED",
 						["use_unit"] = true,
 						["check"] = "event",
-						["events"] = "GROUP_ROSTER_UPDATE PLAYER_ENTERING_WORLD PLAYER_REGEN_ENABLED",
+						["spellIds"] = {
+						},
 						["custom_type"] = "status",
 						["use_absorbMode"] = true,
 					},
@@ -28756,13 +28756,13 @@ WeakAurasSaved = {
 					["text_shadowYOffset"] = -3,
 					["text_anchorYOffset"] = 7,
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_anchorPoint"] = "CENTER",
 					["text_anchorXOffset"] = 7,
 					["text_shadowXOffset"] = 3,
 					["text_fontSize"] = 12,
 					["anchorXOffset"] = 0,
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 				}, -- [1]
 				{
 					["type"] = "subborder",
@@ -28819,24 +28819,6 @@ WeakAurasSaved = {
 				["Leave"] = 0.3,
 			},
 			["zoom"] = 0,
-			["selfPoint"] = "CENTER",
-			["mirror"] = false,
-			["actions"] = {
-				["start"] = {
-					["custom"] = "local e = aura_env\nlocal icon=e.config.id\n\nlocal region = WeakAuras.GetRegion(e.id) \nlocal btn=_G[e.id..\"Button\"]\nif not btn then      \n    btn = CreateFrame(\"Button\", e.id..\"Button\", UIParent, \"SecureActionButtonTemplate\")     \n    btn:SetAllPoints(region) \nend\n\nbtn:RegisterForClicks(\"LeftButtonDown\",\"RightButtonDown\")\nregion:SetAlpha(e.config.Leave)\n\nbtn:SetAttribute(\"type\", \"macro\") \nbtn:SetAttribute(\"macrotext1\", \"/wm \"..icon)\nbtn:SetAttribute(\"type2\", \"macro\") \nbtn:SetAttribute(\"macrotext2\", \"/cwm \"..icon)\n\nbtn:SetScript(\"OnEnter\",function(self)\n        region:SetAlpha(e.config.Enter)    \n        if e.config.cur==10 or (UnitAffectingCombat('player') and e.config.noShowTooltipsInCombat) then return end\n        \n        local cur={'ANCHOR_TOP' ,'ANCHOR_RIGHT','ANCHOR_BOTTOM','ANCHOR_LEFT','ANCHOR_TOPRIGHT','ANCHOR_BOTTOMRIGHT','ANCHOR_TOPLEFT','ANCHOR_BOTTOMLEFT','ANCHOR_CURSOR'}\n        cur=cur[e.config.cur]        \n        GameTooltip:SetOwner(self, e.cur)        \n        GameTooltip:ClearLines()\n        local m=''\n        \n        local marck={_G['WORLD_MARKER5'],_G['WORLD_MARKER6'],_G['WORLD_MARKER3'],_G['WORLD_MARKER2'],_G['WORLD_MARKER7'],_G['WORLD_MARKER1'],_G['WORLD_MARKER4'],_G['WORLD_MARKER8']}\n        local mar={6,4,3,7,1,2,5,8}\n        m=m..marck[mar[icon]]\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON1']..'|r'--左键点击操作\n        \n        \n        m=m..'\\n\\n'.._G['KEY_NUMLOCK_MAC']\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON2']..'|r'--右键点击\n        \n        m=e.col..m..'|r'\n        GameTooltip:SetText(m)\n        GameTooltip:Show()\n        \nend)\n\nbtn:SetScript(\"OnLeave\",function(self)\n        region:SetAlpha(e.config.Leave)\n        GameTooltip:Hide()        \nend)\nbtn:SetScript(\"OnMouseUp\", function(self)\n        region:SetAlpha(e.config.Enter)    \nend)\nbtn:SetScript(\"OnMouseDown\", function(self)\n        region:SetAlpha(e.config.Down)        \nend)\nbtn:Show()",
-					["do_custom"] = true,
-				},
-				["finish"] = {
-					["hide_all_glows"] = true,
-					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Hide() end",
-					["do_custom"] = true,
-				},
-				["init"] = {
-					["custom"] = "local e = aura_env\ne.col='|c'..RAID_CLASS_COLORS[select(2, UnitClass(\"player\"))].colorStr--职业颜色\n\nlocal region = WeakAuras.GetRegion(e.id) \n--型状\nlocal icon=e.config.id\nlocal mar={6,4,3,7,1,2,5,8}\nif e.config.point==1 then--水平\n    region:SetPoint('CENTER',-(mar[icon]+1)*25,0)\nelseif e.config.point==2 then--垂直\n    region:SetPoint('CENTER',0,(mar[icon]+1)*25)\nelseif e.config.point==3 then-- 方块 Square\n    region:SetPoint('CENTER',-125,0) \nend",
-					["do_custom"] = true,
-				},
-			},
-			["regionType"] = "texture",
 			["authorOptions"] = {
 				{
 					["type"] = "header",
@@ -28937,19 +28919,37 @@ WeakAurasSaved = {
 					["width"] = 2,
 				}, -- [9]
 			},
+			["mirror"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "texture",
+			["parent"] = "World-Target Markers",
 			["blendMode"] = "BLEND",
-			["xOffset"] = -175,
+			["actions"] = {
+				["start"] = {
+					["custom"] = "local e = aura_env\nlocal icon=e.config.id\n\nlocal region = WeakAuras.GetRegion(e.id) \nlocal btn=_G[e.id..\"Button\"]\nif not btn then      \n    btn = CreateFrame(\"Button\", e.id..\"Button\", UIParent, \"SecureActionButtonTemplate\")     \n    btn:SetAllPoints(region) \nend\n\nbtn:RegisterForClicks(\"LeftButtonDown\",\"RightButtonDown\")\nregion:SetAlpha(e.config.Leave)\n\nbtn:SetAttribute(\"type\", \"macro\") \nbtn:SetAttribute(\"macrotext1\", \"/wm \"..icon)\nbtn:SetAttribute(\"type2\", \"macro\") \nbtn:SetAttribute(\"macrotext2\", \"/cwm \"..icon)\n\nbtn:SetScript(\"OnEnter\",function(self)\n        region:SetAlpha(e.config.Enter)    \n        if e.config.cur==10 or (UnitAffectingCombat('player') and e.config.noShowTooltipsInCombat) then return end\n        \n        local cur={'ANCHOR_TOP' ,'ANCHOR_RIGHT','ANCHOR_BOTTOM','ANCHOR_LEFT','ANCHOR_TOPRIGHT','ANCHOR_BOTTOMRIGHT','ANCHOR_TOPLEFT','ANCHOR_BOTTOMLEFT','ANCHOR_CURSOR'}\n        cur=cur[e.config.cur]        \n        GameTooltip:SetOwner(self, e.cur)        \n        GameTooltip:ClearLines()\n        local m=''\n        \n        local marck={_G['WORLD_MARKER5'],_G['WORLD_MARKER6'],_G['WORLD_MARKER3'],_G['WORLD_MARKER2'],_G['WORLD_MARKER7'],_G['WORLD_MARKER1'],_G['WORLD_MARKER4'],_G['WORLD_MARKER8']}\n        local mar={6,4,3,7,1,2,5,8}\n        m=m..marck[mar[icon]]\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON1']..'|r'--左键点击操作\n        \n        \n        m=m..'\\n\\n'.._G['KEY_NUMLOCK_MAC']\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON2']..'|r'--右键点击\n        \n        m=e.col..m..'|r'\n        GameTooltip:SetText(m)\n        GameTooltip:Show()\n        \nend)\n\nbtn:SetScript(\"OnLeave\",function(self)\n        region:SetAlpha(e.config.Leave)\n        GameTooltip:Hide()        \nend)\nbtn:SetScript(\"OnMouseUp\", function(self)\n        region:SetAlpha(e.config.Enter)    \nend)\nbtn:SetScript(\"OnMouseDown\", function(self)\n        region:SetAlpha(e.config.Down)        \nend)\nbtn:Show()",
+					["do_custom"] = true,
+				},
+				["finish"] = {
+					["hide_all_glows"] = true,
+					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Hide() end",
+					["do_custom"] = true,
+				},
+				["init"] = {
+					["custom"] = "local e = aura_env\ne.col='|c'..RAID_CLASS_COLORS[select(2, UnitClass(\"player\"))].colorStr--职业颜色\n\nlocal region = WeakAuras.GetRegion(e.id) \n--型状\nlocal icon=e.config.id\nlocal mar={6,4,3,7,1,2,5,8}\nif e.config.point==1 then--水平\n    region:SetPoint('CENTER',-(mar[icon]+1)*25,0)\nelseif e.config.point==2 then--垂直\n    region:SetPoint('CENTER',0,(mar[icon]+1)*25)\nelseif e.config.point==3 then-- 方块 Square\n    region:SetPoint('CENTER',-125,0) \nend",
+					["do_custom"] = true,
+				},
+			},
 			["rotation"] = 0,
 			["texture"] = "Interface\\TargetingFrame\\UI-RaidTargetingIcon_6",
-			["auto"] = true,
-			["cooldownTextDisabled"] = false,
 			["semver"] = "9.2.83",
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 20501,
 			["id"] = "1 - Blue Square",
 			["width"] = 25,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["alpha"] = 0.5,
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
 			["uid"] = "7RnRFY0Xs5n",
 			["inverse"] = false,
 			["url"] = "https://wago.io/vQY6_rTnB/84",
@@ -28958,7 +28958,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "World-Target Markers",
+			["xOffset"] = -175,
 		},
 		["Rend"] = {
 			["iconSource"] = -1,
@@ -29075,11 +29075,11 @@ WeakAurasSaved = {
 					},
 				},
 				["use_spellknown"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -29095,27 +29095,34 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = 50,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Rend",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 45,
 			["frameStrata"] = 1,
+			["width"] = 45,
+			["alpha"] = 1,
 			["uid"] = "xmHMhaJYXq)",
 			["inverse"] = false,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = 50,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -29135,14 +29142,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Execute - Usable 3"] = {
 			["iconSource"] = -1,
@@ -29181,13 +29181,13 @@ WeakAurasSaved = {
 							"Frothing Berserker", -- [1]
 						},
 						["matchesShowOn"] = "showOnActive",
-						["useName"] = true,
+						["type"] = "spell",
 						["spellIds"] = {
 							215572, -- [1]
 						},
 						["debuffType"] = "HELPFUL",
 						["unevent"] = "auto",
-						["type"] = "spell",
+						["useName"] = true,
 						["use_debuffClass"] = false,
 						["subeventSuffix"] = "_CAST_START",
 						["spellName"] = 20660,
@@ -29277,15 +29277,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 2,
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["use_talent"] = true,
-				["use_class"] = true,
-				["role"] = {
+				["class"] = {
+					["single"] = "WARRIOR",
 					["multi"] = {
 					},
 				},
@@ -29293,27 +29286,34 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "WARRIOR",
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["spec"] = {
+					["single"] = 2,
 					["multi"] = {
 					},
 				},
 				["zoneIds"] = "",
 			},
 			["cooldownTextDisabled"] = false,
-			["parent"] = "狂暴戰",
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["regionType"] = "icon",
 			["color"] = {
 				1, -- [1]
@@ -29321,44 +29321,25 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["icon"] = true,
+			["parent"] = "狂暴戰",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = 0,
 			["uid"] = "b)0p2cR8VFo",
-			["semver"] = "1.0.2",
-			["zoom"] = 0,
 			["auto"] = true,
+			["zoom"] = 0,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Execute - Usable 3",
 			["width"] = 45,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
+			["icon"] = true,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -29401,7 +29382,26 @@ WeakAurasSaved = {
 				}, -- [3]
 			},
 			["cooldown"] = true,
-			["xOffset"] = 0,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
 		},
 		["Overpower - Usable (Berserker)"] = {
 			["iconSource"] = 0,
@@ -29432,9 +29432,9 @@ WeakAurasSaved = {
 						["subeventSuffix"] = "_MISSED",
 						["spellIds"] = {
 						},
-						["use_missType"] = true,
-						["missType"] = "DODGE",
 						["use_sourceUnit"] = true,
+						["missType"] = "DODGE",
+						["use_missType"] = true,
 						["sourceUnit"] = "player",
 						["debuffType"] = "HELPFUL",
 					},
@@ -29567,15 +29567,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "",
-					["do_custom"] = false,
-				},
+			["authorOptions"] = {
 			},
 			["animation"] = {
 				["start"] = {
@@ -29598,7 +29590,16 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["parent"] = "Warrior",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -29616,26 +29617,25 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["url"] = "https://wago.io/jMHRj-FSb/3",
-			["cooldownTextDisabled"] = false,
-			["width"] = 45,
+			["parent"] = "Warrior",
 			["zoom"] = 0,
-			["auto"] = false,
+			["width"] = 45,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Overpower - Usable (Berserker)",
 			["alpha"] = 1,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "1.0.2",
+			["auto"] = false,
 			["uid"] = "iu4iAmkGEuo",
 			["inverse"] = false,
-			["authorOptions"] = {
-			},
+			["xOffset"] = -100,
 			["displayIcon"] = 132223,
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["xOffset"] = -100,
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Dispel-BoS"] = {
 			["iconSource"] = -1,
@@ -29782,37 +29782,37 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.spellName is off.",
 					["message_type"] = "PARTY",
-					["do_message"] = true,
 					["message_format_1.spellName_format"] = "none",
 					["message_format_1.sourceName_format"] = "none",
+					["do_message"] = true,
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 135894,
 			["uid"] = "o7d9eI781cC",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Dispel-BoS",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -29820,7 +29820,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = false,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["5 - Yellow Star"] = {
 			["wagoID"] = "vQY6_rTnB",
@@ -29850,11 +29850,11 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["event"] = "Health",
 						["custom_type"] = "status",
+						["events"] = "GROUP_ROSTER_UPDATE PLAYER_ENTERING_WORLD PLAYER_REGEN_ENABLED",
+						["customName"] = "function()--显示快捷键\n    local e=aura_env\n    if e.Key1 then\n        return e.Key1\n    else\n        return ''\n    end\nend\n\n",
+						["custom"] = "function()    \n    if IsInGroup() and \n    select(4,GetBuildInfo()) >=40000 and\n    (IsInRaid() and  (UnitIsGroupAssistant('player') or UnitIsGroupLeader('player')) or not IsInRaid())    \n    then \n        return true        \n    end    \nend",
 						["spellIds"] = {
 						},
-						["customName"] = "function()--显示快捷键\n    local e=aura_env\n    if e.Key1 then\n        return e.Key1\n    else\n        return ''\n    end\nend\n\n",
-						["events"] = "GROUP_ROSTER_UPDATE PLAYER_ENTERING_WORLD PLAYER_REGEN_ENABLED",
-						["custom"] = "function()    \n    if IsInGroup() and \n    select(4,GetBuildInfo()) >=40000 and\n    (IsInRaid() and  (UnitIsGroupAssistant('player') or UnitIsGroupLeader('player')) or not IsInRaid())    \n    then \n        return true        \n    end    \nend",
 						["check"] = "event",
 						["duration"] = "1",
 						["use_unit"] = true,
@@ -29920,13 +29920,13 @@ WeakAurasSaved = {
 					["text_shadowYOffset"] = -3,
 					["text_anchorYOffset"] = 7,
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_anchorPoint"] = "CENTER",
 					["text_anchorXOffset"] = 7,
 					["text_shadowXOffset"] = 3,
 					["text_fontSize"] = 12,
 					["anchorXOffset"] = 0,
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 				}, -- [1]
 				{
 					["type"] = "subborder",
@@ -29983,24 +29983,6 @@ WeakAurasSaved = {
 				["Leave"] = 0.3,
 			},
 			["zoom"] = 0,
-			["selfPoint"] = "CENTER",
-			["mirror"] = false,
-			["actions"] = {
-				["start"] = {
-					["custom"] = "local e = aura_env\nlocal icon=e.config.id\n\nlocal region = WeakAuras.GetRegion(e.id) \nlocal btn=_G[e.id..\"Button\"]\nif not btn then      \n    btn = CreateFrame(\"Button\", e.id..\"Button\", UIParent, \"SecureActionButtonTemplate\")     \n    btn:SetAllPoints(region) \nend\n\nbtn:RegisterForClicks(\"LeftButtonDown\",\"RightButtonDown\")\nregion:SetAlpha(e.config.Leave)\n\nbtn:SetAttribute(\"type\", \"macro\") \nbtn:SetAttribute(\"macrotext1\", \"/wm \"..icon)\nbtn:SetAttribute(\"type2\", \"macro\") \nbtn:SetAttribute(\"macrotext2\", \"/cwm \"..icon)\n\nbtn:SetScript(\"OnEnter\",function(self)\n        region:SetAlpha(e.config.Enter)    \n        if e.config.cur==10 or (UnitAffectingCombat('player') and e.config.noShowTooltipsInCombat) then return end\n        \n        local cur={'ANCHOR_TOP' ,'ANCHOR_RIGHT','ANCHOR_BOTTOM','ANCHOR_LEFT','ANCHOR_TOPRIGHT','ANCHOR_BOTTOMRIGHT','ANCHOR_TOPLEFT','ANCHOR_BOTTOMLEFT','ANCHOR_CURSOR'}\n        cur=cur[e.config.cur]        \n        GameTooltip:SetOwner(self, e.cur)        \n        GameTooltip:ClearLines()\n        local m=''\n        \n        local marck={_G['WORLD_MARKER5'],_G['WORLD_MARKER6'],_G['WORLD_MARKER3'],_G['WORLD_MARKER2'],_G['WORLD_MARKER7'],_G['WORLD_MARKER1'],_G['WORLD_MARKER4'],_G['WORLD_MARKER8']}\n        local mar={6,4,3,7,1,2,5,8}\n        m=m..marck[mar[icon]]\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON1']..'|r'--左键点击操作\n        \n        \n        m=m..'\\n\\n'.._G['KEY_NUMLOCK_MAC']\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON2']..'|r'--右键点击\n        \n        m=e.col..m..'|r'\n        GameTooltip:SetText(m)\n        GameTooltip:Show()\n        \nend)\n\nbtn:SetScript(\"OnLeave\",function(self)\n        region:SetAlpha(e.config.Leave)\n        GameTooltip:Hide()        \nend)\nbtn:SetScript(\"OnMouseUp\", function(self)\n        region:SetAlpha(e.config.Enter)    \nend)\nbtn:SetScript(\"OnMouseDown\", function(self)\n        region:SetAlpha(e.config.Down)        \nend)\nbtn:Show()",
-					["do_custom"] = true,
-				},
-				["finish"] = {
-					["hide_all_glows"] = true,
-					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Hide() end",
-					["do_custom"] = true,
-				},
-				["init"] = {
-					["custom"] = "local e = aura_env\ne.col='|c'..RAID_CLASS_COLORS[select(2, UnitClass(\"player\"))].colorStr--职业颜色\n\nlocal region = WeakAuras.GetRegion(e.id) \n--型状\nlocal icon=e.config.id\nlocal mar={6,4,3,7,1,2,5,8}\nif e.config.point==1 then--水平\n    region:SetPoint('CENTER',-(mar[icon]+1)*25,0)\nelseif e.config.point==2 then--垂直\n    region:SetPoint('CENTER',0,(mar[icon]+1)*25)\nelseif e.config.point==3 then-- 方块 Square\n    region:SetPoint('CENTER',-75,25) \nend",
-					["do_custom"] = true,
-				},
-			},
-			["regionType"] = "texture",
 			["authorOptions"] = {
 				{
 					["type"] = "header",
@@ -30101,19 +30083,37 @@ WeakAurasSaved = {
 					["width"] = 2,
 				}, -- [9]
 			},
+			["mirror"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "texture",
+			["parent"] = "World-Target Markers",
 			["blendMode"] = "BLEND",
-			["xOffset"] = -50,
+			["actions"] = {
+				["start"] = {
+					["custom"] = "local e = aura_env\nlocal icon=e.config.id\n\nlocal region = WeakAuras.GetRegion(e.id) \nlocal btn=_G[e.id..\"Button\"]\nif not btn then      \n    btn = CreateFrame(\"Button\", e.id..\"Button\", UIParent, \"SecureActionButtonTemplate\")     \n    btn:SetAllPoints(region) \nend\n\nbtn:RegisterForClicks(\"LeftButtonDown\",\"RightButtonDown\")\nregion:SetAlpha(e.config.Leave)\n\nbtn:SetAttribute(\"type\", \"macro\") \nbtn:SetAttribute(\"macrotext1\", \"/wm \"..icon)\nbtn:SetAttribute(\"type2\", \"macro\") \nbtn:SetAttribute(\"macrotext2\", \"/cwm \"..icon)\n\nbtn:SetScript(\"OnEnter\",function(self)\n        region:SetAlpha(e.config.Enter)    \n        if e.config.cur==10 or (UnitAffectingCombat('player') and e.config.noShowTooltipsInCombat) then return end\n        \n        local cur={'ANCHOR_TOP' ,'ANCHOR_RIGHT','ANCHOR_BOTTOM','ANCHOR_LEFT','ANCHOR_TOPRIGHT','ANCHOR_BOTTOMRIGHT','ANCHOR_TOPLEFT','ANCHOR_BOTTOMLEFT','ANCHOR_CURSOR'}\n        cur=cur[e.config.cur]        \n        GameTooltip:SetOwner(self, e.cur)        \n        GameTooltip:ClearLines()\n        local m=''\n        \n        local marck={_G['WORLD_MARKER5'],_G['WORLD_MARKER6'],_G['WORLD_MARKER3'],_G['WORLD_MARKER2'],_G['WORLD_MARKER7'],_G['WORLD_MARKER1'],_G['WORLD_MARKER4'],_G['WORLD_MARKER8']}\n        local mar={6,4,3,7,1,2,5,8}\n        m=m..marck[mar[icon]]\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON1']..'|r'--左键点击操作\n        \n        \n        m=m..'\\n\\n'.._G['KEY_NUMLOCK_MAC']\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON2']..'|r'--右键点击\n        \n        m=e.col..m..'|r'\n        GameTooltip:SetText(m)\n        GameTooltip:Show()\n        \nend)\n\nbtn:SetScript(\"OnLeave\",function(self)\n        region:SetAlpha(e.config.Leave)\n        GameTooltip:Hide()        \nend)\nbtn:SetScript(\"OnMouseUp\", function(self)\n        region:SetAlpha(e.config.Enter)    \nend)\nbtn:SetScript(\"OnMouseDown\", function(self)\n        region:SetAlpha(e.config.Down)        \nend)\nbtn:Show()",
+					["do_custom"] = true,
+				},
+				["finish"] = {
+					["hide_all_glows"] = true,
+					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Hide() end",
+					["do_custom"] = true,
+				},
+				["init"] = {
+					["custom"] = "local e = aura_env\ne.col='|c'..RAID_CLASS_COLORS[select(2, UnitClass(\"player\"))].colorStr--职业颜色\n\nlocal region = WeakAuras.GetRegion(e.id) \n--型状\nlocal icon=e.config.id\nlocal mar={6,4,3,7,1,2,5,8}\nif e.config.point==1 then--水平\n    region:SetPoint('CENTER',-(mar[icon]+1)*25,0)\nelseif e.config.point==2 then--垂直\n    region:SetPoint('CENTER',0,(mar[icon]+1)*25)\nelseif e.config.point==3 then-- 方块 Square\n    region:SetPoint('CENTER',-75,25) \nend",
+					["do_custom"] = true,
+				},
+			},
 			["rotation"] = 0,
 			["texture"] = "Interface\\TargetingFrame\\UI-RaidTargetingIcon_1",
-			["auto"] = true,
-			["cooldownTextDisabled"] = false,
 			["semver"] = "9.2.83",
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 20501,
 			["id"] = "5 - Yellow Star",
 			["width"] = 25,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["alpha"] = 0.5,
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
 			["uid"] = "OhIfrxSz2Da",
 			["inverse"] = false,
 			["url"] = "https://wago.io/vQY6_rTnB/84",
@@ -30122,7 +30122,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "World-Target Markers",
+			["xOffset"] = -50,
 		},
 		["Berserker Rage 2"] = {
 			["iconSource"] = -1,
@@ -30250,15 +30250,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 2,
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["use_talent"] = true,
-				["use_class"] = true,
-				["role"] = {
+				["class"] = {
+					["single"] = "WARRIOR",
 					["multi"] = {
 					},
 				},
@@ -30266,27 +30259,34 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "WARRIOR",
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["spec"] = {
+					["single"] = 2,
 					["multi"] = {
 					},
 				},
 				["zoneIds"] = "",
 			},
 			["cooldownTextDisabled"] = false,
-			["parent"] = "狂暴戰",
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["regionType"] = "icon",
 			["color"] = {
 				1, -- [1]
@@ -30294,44 +30294,25 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["icon"] = true,
+			["parent"] = "狂暴戰",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = 56.999450683594,
 			["uid"] = "6zXgu7DyPEg",
-			["semver"] = "1.0.2",
-			["zoom"] = 0,
 			["auto"] = true,
+			["zoom"] = 0,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Berserker Rage 2",
 			["width"] = 35,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
+			["icon"] = true,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -30361,7 +30342,26 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["xOffset"] = 56.999450683594,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
 		},
 		["Hamstring"] = {
 			["iconSource"] = -1,
@@ -30392,8 +30392,8 @@ WeakAurasSaved = {
 						["debuffType"] = "HARMFUL",
 						["type"] = "aura2",
 						["useName"] = true,
-						["subeventSuffix"] = "_CAST_START",
 						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["use_showOn"] = true,
 						["spellName"] = 7372,
 						["event"] = "Stance/Form/Aura",
@@ -30521,7 +30521,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -30531,33 +30531,42 @@ WeakAurasSaved = {
 				},
 				["use_alive"] = true,
 				["spellknown"] = 26141,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = 0,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "aura_env.region.stacks:SetPoint(\"BOTTOMRIGHT\", aura_env.region, \"BOTTOMRIGHT\", 0, 0)\naura_env.region.stacks:SetShadowOffset(1, -1)",
+					["do_custom"] = false,
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Hamstring",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 45,
 			["frameStrata"] = 1,
+			["width"] = 45,
+			["alpha"] = 1,
 			["uid"] = "NH2He)NnhcY",
 			["inverse"] = false,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = 0,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -30577,16 +30586,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "aura_env.region.stacks:SetPoint(\"BOTTOMRIGHT\", aura_env.region, \"BOTTOMRIGHT\", 0, 0)\naura_env.region.stacks:SetShadowOffset(1, -1)",
-					["do_custom"] = false,
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Rampage 3"] = {
 			["iconSource"] = -1,
@@ -30694,7 +30694,7 @@ WeakAurasSaved = {
 					["text_shadowYOffset"] = 0,
 					["text_text_format_p_time_dynamic_threshold"] = 60,
 					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 					["text_anchorPoint"] = "INNER_BOTTOMRIGHT",
 					["text_shadowXOffset"] = 0,
 					["text_shadowColor"] = {
@@ -30705,7 +30705,7 @@ WeakAurasSaved = {
 					},
 					["text_fontSize"] = 12,
 					["anchorXOffset"] = 0,
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 				}, -- [1]
 				{
 					["glowFrequency"] = 0.25,
@@ -30787,16 +30787,6 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["icon"] = true,
-			["cooldownEdge"] = false,
-			["cooldown"] = true,
 			["animation"] = {
 				["start"] = {
 					["easeStrength"] = 3,
@@ -30817,767 +30807,36 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["regionType"] = "icon",
+			["icon"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["cooldown"] = true,
+			["parent"] = "狂暴戰",
 			["config"] = {
 			},
-			["auto"] = true,
-			["cooldownTextDisabled"] = false,
 			["semver"] = "1.0.2",
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 20501,
 			["id"] = "Rampage 3",
 			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
-			["width"] = 45,
 			["alpha"] = 1,
+			["width"] = 45,
+			["frameStrata"] = 1,
 			["uid"] = "1vwWJfYIhqa",
 			["inverse"] = false,
-			["authorOptions"] = {
-			},
-			["conditions"] = {
-			},
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
-			["parent"] = "狂暴戰",
-		},
-		["Rage Bar"] = {
-			["sparkWidth"] = 10,
-			["iconSource"] = -1,
-			["wagoID"] = "jMHRj-FSb",
-			["parent"] = "Warrior",
-			["preferToUpdate"] = false,
-			["customText"] = "function()\n    if aura_env.region then\n        local rage = UnitPower(\"player\", Enum.PowerType.Rage)\n        aura_env.region.text3:SetText(rage)\n    end\nend\n\n\n\n\n\n\n\n\n\n\n\n",
-			["yOffset"] = -126.99987792969,
-			["anchorPoint"] = "CENTER",
-			["overlays"] = {
-				{
-					0.43529411764706, -- [1]
-					0, -- [2]
-					1, -- [3]
-					0.25, -- [4]
-				}, -- [1]
-			},
-			["anchorFrameType"] = "SCREEN",
-			["sparkRotation"] = 0,
-			["sparkRotationMode"] = "AUTO",
-			["url"] = "https://wago.io/jMHRj-FSb/3",
-			["backgroundColor"] = {
-				0.3921568627451, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.60000002384186, -- [4]
-			},
-			["fontFlags"] = "OUTLINE",
-			["icon_color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["internalVersion"] = 45,
-			["sparkOffsetX"] = 0,
-			["selfPoint"] = "CENTER",
-			["backdropInFront"] = false,
-			["authorOptions"] = {
-			},
-			["barColor"] = {
-				1, -- [1]
-				0, -- [2]
-				0, -- [3]
-				1, -- [4]
-			},
-			["stickyDuration"] = false,
-			["borderBackdrop"] = "None",
-			["icon"] = false,
-			["sparkOffsetY"] = 0,
-			["subRegions"] = {
-				{
-					["type"] = "aurabar_bar",
-				}, -- [1]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text"] = "%c ",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "AUTO",
-					["text_automaticWidth"] = "Auto",
-					["text_fixedWidth"] = 64,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "CENTER",
-					["rotateText"] = "NONE",
-					["type"] = "subtext",
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Expressway",
-					["text_shadowYOffset"] = -1,
-					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "None",
-					["text_anchorPoint"] = "INNER_RIGHT",
-					["text_fontSize"] = 15,
-					["anchorXOffset"] = 0,
-					["text_visible"] = false,
-				}, -- [2]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text"] = " ",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "AUTO",
-					["text_automaticWidth"] = "Auto",
-					["text_fixedWidth"] = 64,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "CENTER",
-					["rotateText"] = "NONE",
-					["type"] = "subtext",
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Expressway",
-					["text_shadowYOffset"] = -1,
-					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "None",
-					["text_anchorPoint"] = "INNER_LEFT",
-					["text_fontSize"] = 18,
-					["anchorXOffset"] = 0,
-					["text_visible"] = true,
-				}, -- [3]
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text_format_s_format"] = "none",
-					["text_text"] = "%s",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "AUTO",
-					["text_automaticWidth"] = "Auto",
-					["text_fixedWidth"] = 64,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "CENTER",
-					["rotateText"] = "NONE",
-					["type"] = "subtext",
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_shadowYOffset"] = -1,
-					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "None",
-					["text_anchorPoint"] = "ICON_CENTER",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_visible"] = false,
-				}, -- [4]
-				{
-					["type"] = "subborder",
-					["border_anchor"] = "bar",
-					["border_size"] = 1,
-					["border_color"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["border_visible"] = true,
-					["border_edge"] = "1 Pixel",
-					["border_offset"] = 1,
-				}, -- [5]
-			},
-			["height"] = 20,
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["use_power"] = false,
-						["genericShowOn"] = "showOnActive",
-						["unit"] = "player",
-						["powertype"] = 1,
-						["use_powertype"] = true,
-						["debuffType"] = "HELPFUL",
-						["type"] = "unit",
-						["use_health"] = true,
-						["health_operator"] = ">=",
-						["duration"] = "1",
-						["event"] = "Power",
-						["subeventSuffix"] = "_CAST_START",
-						["subeventPrefix"] = "SPELL",
-						["unevent"] = "auto",
-						["health"] = "0",
-						["spellIds"] = {
-						},
-						["use_showCost"] = true,
-						["names"] = {
-						},
-						["custom_hide"] = "timed",
-						["use_unit"] = true,
-					},
-					["untrigger"] = {
-					},
-				}, -- [1]
-				["disjunctive"] = "all",
-				["activeTriggerMode"] = -10,
-			},
-			["load"] = {
-				["use_petbattle"] = false,
-				["use_never"] = false,
-				["class"] = {
-					["single"] = "WARRIOR",
-					["multi"] = {
-					},
-				},
-				["use_talent"] = true,
-				["use_class"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["talent"] = {
-					["single"] = 102,
-					["multi"] = {
-					},
-				},
-				["use_vehicle"] = false,
-				["spec"] = {
-					["single"] = 1,
-					["multi"] = {
-						true, -- [1]
-						[3] = true,
-					},
-				},
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["use_alive"] = true,
-				["zoneIds"] = "",
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["sparkBlendMode"] = "ADD",
-			["useAdjustededMax"] = false,
-			["xOffset"] = 0,
-			["animation"] = {
-				["start"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
-			["config"] = {
-			},
-			["desaturate"] = false,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "if aura_env.region then\n    local r = aura_env.region\n    if not r.text3 then\n        local text3 = r.bar:CreateFontString(nil, \"OVERLAY\")\n        r.text3 = text3\n        r.text3:SetJustifyH(\"CENTER\")\n        r.text3:SetJustifyV(\"MIDDLE\")\n        r.text3:SetPoint(\"CENTER\", r.bar, \"CENTER\")\n        r.text3:Show()\n    end\n    r.text3:SetShadowOffset(1, -1)\n    r.text3:SetFont(r.text:GetFont())\n    r.text3:SetTextColor(r.text:GetTextColor())\nend\n\n\n\n\n\n\n",
-					["do_custom"] = true,
-				},
-			},
-			["version"] = 3,
-			["useAdjustededMin"] = false,
-			["regionType"] = "aurabar",
-			["borderInFront"] = true,
-			["backdropColor"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				1, -- [4]
-			},
-			["icon_side"] = "RIGHT",
-			["sparkColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["id"] = "Rage Bar",
-			["sparkHeight"] = 30,
-			["texture"] = "ElvUI Blank",
-			["alpha"] = 1,
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
-			["auto"] = true,
-			["tocversion"] = 20501,
-			["sparkHidden"] = "NEVER",
-			["zoom"] = 0,
-			["frameStrata"] = 3,
-			["width"] = 245,
-			["spark"] = false,
-			["uid"] = "GOdOjMqf1hX",
-			["inverse"] = false,
-			["sparkDesature"] = false,
-			["orientation"] = "HORIZONTAL",
-			["conditions"] = {
-			},
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
-			["semver"] = "1.0.2",
-		},
-		["Recklessness - Buff"] = {
-			["iconSource"] = -1,
-			["wagoID"] = "jMHRj-FSb",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["preferToUpdate"] = false,
-			["yOffset"] = -73,
-			["anchorPoint"] = "CENTER",
-			["cooldownSwipe"] = true,
 			["cooldownEdge"] = false,
-			["icon"] = true,
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["auranames"] = {
-							"1719", -- [1]
-						},
-						["ownOnly"] = true,
-						["use_specific_unit"] = false,
-						["use_tooltip"] = false,
-						["debuffType"] = "HELPFUL",
-						["matchesShowOn"] = "showOnActive",
-						["useName"] = true,
-						["use_debuffClass"] = false,
-						["subeventSuffix"] = "_CAST_START",
-						["type"] = "aura2",
-						["names"] = {
-							"In For The Kill", -- [1]
-						},
-						["event"] = "Health",
-						["stacks"] = "0",
-						["stacksOperator"] = ">",
-						["name"] = "Spell Reflection",
-						["spellIds"] = {
-							248622, -- [1]
-						},
-						["useGroup_count"] = false,
-						["subeventPrefix"] = "SPELL",
-						["combineMatches"] = "showLowest",
-						["buffShowOn"] = "showOnActive",
-						["unit"] = "player",
-					},
-					["untrigger"] = {
-					},
-				}, -- [1]
-				["disjunctive"] = "all",
-				["activeTriggerMode"] = -10,
-			},
-			["internalVersion"] = 45,
-			["keepAspectRatio"] = false,
-			["animation"] = {
-				["start"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
-			["desaturate"] = false,
-			["version"] = 3,
-			["subRegions"] = {
-			},
-			["height"] = 45,
-			["load"] = {
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
-				["use_never"] = false,
-				["class"] = {
-					["single"] = "WARRIOR",
-					["multi"] = {
-					},
-				},
-				["use_talent"] = true,
-				["use_class"] = true,
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["zoneIds"] = "",
-				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["talent"] = {
-					["single"] = 102,
-					["multi"] = {
-						[16] = true,
-					},
-				},
-				["spec"] = {
-					["single"] = 1,
-					["multi"] = {
-					},
-				},
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_alive"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["zoom"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["parent"] = "Warrior",
-			["xOffset"] = 100,
-			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
-			["config"] = {
-			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
-			["auto"] = true,
-			["tocversion"] = 20501,
-			["id"] = "Recklessness - Buff",
-			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 45,
-			["frameStrata"] = 1,
-			["uid"] = "9(wssH567lA",
-			["inverse"] = false,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["conditions"] = {
 			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "",
-					["do_custom"] = false,
-				},
-			},
-		},
-		["Sunder Armor"] = {
-			["iconSource"] = -1,
-			["wagoID"] = "jMHRj-FSb",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["preferToUpdate"] = false,
-			["yOffset"] = -162,
-			["anchorPoint"] = "CENTER",
-			["cooldownSwipe"] = true,
-			["cooldownEdge"] = false,
-			["icon"] = true,
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["auranames"] = {
-							"8380", -- [1]
-						},
-						["use_genericShowOn"] = true,
-						["genericShowOn"] = "showAlways",
-						["use_unit"] = true,
-						["unitExists"] = true,
-						["unit"] = "target",
-						["debuffType"] = "HARMFUL",
-						["type"] = "aura2",
-						["useName"] = true,
-						["subeventSuffix"] = "_CAST_START",
-						["unevent"] = "auto",
-						["use_showOn"] = true,
-						["spellName"] = 6343,
-						["event"] = "Cooldown Progress (Spell)",
-						["subeventPrefix"] = "SPELL",
-						["realSpellName"] = "Thunder Clap",
-						["use_spellName"] = true,
-						["spellIds"] = {
-						},
-						["matchesShowOn"] = "showAlways",
-						["use_absorbMode"] = true,
-						["names"] = {
-						},
-						["use_track"] = true,
-						["duration"] = "1",
-					},
-					["untrigger"] = {
-						["showOn"] = "showAlways",
-						["spellName"] = 6343,
-					},
-				}, -- [1]
-				{
-					["trigger"] = {
-						["type"] = "unit",
-						["unevent"] = "auto",
-						["form"] = {
-							["single"] = 2,
-						},
-						["event"] = "Stance/Form/Aura",
-						["unit"] = "player",
-						["duration"] = "1",
-						["subeventSuffix"] = "_CAST_START",
-						["use_form"] = true,
-						["subeventPrefix"] = "SPELL",
-						["use_unit"] = true,
-					},
-					["untrigger"] = {
-					},
-				}, -- [2]
-				["disjunctive"] = "all",
-				["activeTriggerMode"] = -10,
-			},
-			["internalVersion"] = 45,
-			["keepAspectRatio"] = false,
-			["animation"] = {
-				["start"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
-			["desaturate"] = false,
-			["version"] = 3,
-			["subRegions"] = {
-				{
-					["text_shadowXOffset"] = 1,
-					["text_text_format_s_format"] = "none",
-					["text_text"] = "%s",
-					["text_shadowColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["text_selfPoint"] = "AUTO",
-					["text_automaticWidth"] = "Auto",
-					["text_fixedWidth"] = 64,
-					["anchorYOffset"] = 0,
-					["text_justify"] = "CENTER",
-					["rotateText"] = "NONE",
-					["type"] = "subtext",
-					["text_color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["text_font"] = "Friz Quadrata TT",
-					["text_shadowYOffset"] = 0,
-					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
-					["text_anchorPoint"] = "INNER_BOTTOMRIGHT",
-					["text_fontSize"] = 12,
-					["anchorXOffset"] = 0,
-					["text_visible"] = true,
-				}, -- [1]
-			},
-			["height"] = 45,
-			["load"] = {
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
-				["use_never"] = false,
-				["class"] = {
-					["single"] = "WARRIOR",
-					["multi"] = {
-					},
-				},
-				["use_talent"] = true,
-				["use_class"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["zoneIds"] = "",
-				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["talent"] = {
-					["single"] = 102,
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-					},
-				},
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["use_spellknown"] = false,
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-				["use_alive"] = true,
-				["spellknown"] = 8205,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["zoom"] = 0,
 			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["parent"] = "Warrior",
-			["xOffset"] = -50,
-			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
-			["config"] = {
-			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
-			["auto"] = true,
-			["tocversion"] = 20501,
-			["id"] = "Sunder Armor",
-			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 45,
-			["frameStrata"] = 1,
-			["uid"] = "9HBZJJ1prI7",
-			["inverse"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
-			["conditions"] = {
-				{
-					["check"] = {
-						["trigger"] = 1,
-						["op"] = "==",
-						["value"] = "0",
-						["variable"] = "matchCount",
-					},
-					["changes"] = {
-						{
-							["value"] = true,
-							["property"] = "desaturate",
-						}, -- [1]
-					},
-				}, -- [1]
-			},
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
 			},
 		},
 		["NNA Trigger"] = {
@@ -31814,8 +31073,8 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["selfPoint"] = "CENTER",
-			["cooldownTextDisabled"] = false,
 			["zoom"] = 0,
+			["cooldownTextDisabled"] = false,
 			["width"] = 96,
 			["tocversion"] = 20501,
 			["id"] = "NNA Trigger",
@@ -31833,6 +31092,747 @@ WeakAurasSaved = {
 			["information"] = {
 			},
 			["parent"] = "Nidjo : Nameplate Debuffs",
+		},
+		["Recklessness - Buff"] = {
+			["iconSource"] = -1,
+			["wagoID"] = "jMHRj-FSb",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["preferToUpdate"] = false,
+			["yOffset"] = -73,
+			["anchorPoint"] = "CENTER",
+			["cooldownSwipe"] = true,
+			["cooldownEdge"] = false,
+			["icon"] = true,
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["auranames"] = {
+							"1719", -- [1]
+						},
+						["ownOnly"] = true,
+						["use_specific_unit"] = false,
+						["use_tooltip"] = false,
+						["debuffType"] = "HELPFUL",
+						["matchesShowOn"] = "showOnActive",
+						["useName"] = true,
+						["use_debuffClass"] = false,
+						["subeventSuffix"] = "_CAST_START",
+						["type"] = "aura2",
+						["names"] = {
+							"In For The Kill", -- [1]
+						},
+						["event"] = "Health",
+						["stacks"] = "0",
+						["stacksOperator"] = ">",
+						["name"] = "Spell Reflection",
+						["spellIds"] = {
+							248622, -- [1]
+						},
+						["useGroup_count"] = false,
+						["subeventPrefix"] = "SPELL",
+						["combineMatches"] = "showLowest",
+						["buffShowOn"] = "showOnActive",
+						["unit"] = "player",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+				["disjunctive"] = "all",
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 45,
+			["keepAspectRatio"] = false,
+			["animation"] = {
+				["start"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["desaturate"] = false,
+			["version"] = 3,
+			["subRegions"] = {
+			},
+			["height"] = 45,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["class"] = {
+					["single"] = "WARRIOR",
+					["multi"] = {
+					},
+				},
+				["use_talent"] = true,
+				["use_class"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["zoneIds"] = "",
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["single"] = 102,
+					["multi"] = {
+						[16] = true,
+					},
+				},
+				["spec"] = {
+					["single"] = 1,
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_alive"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["zoom"] = 0,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Warrior",
+			["authorOptions"] = {
+			},
+			["cooldown"] = true,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+			},
+			["config"] = {
+			},
+			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
+			["tocversion"] = 20501,
+			["id"] = "Recklessness - Buff",
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
+			["width"] = 45,
+			["alpha"] = 1,
+			["uid"] = "9(wssH567lA",
+			["inverse"] = false,
+			["xOffset"] = 100,
+			["conditions"] = {
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
+		},
+		["Sunder Armor"] = {
+			["iconSource"] = -1,
+			["wagoID"] = "jMHRj-FSb",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["preferToUpdate"] = false,
+			["yOffset"] = -162,
+			["anchorPoint"] = "CENTER",
+			["cooldownSwipe"] = true,
+			["cooldownEdge"] = false,
+			["icon"] = true,
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["auranames"] = {
+							"8380", -- [1]
+						},
+						["use_genericShowOn"] = true,
+						["genericShowOn"] = "showAlways",
+						["use_unit"] = true,
+						["unitExists"] = true,
+						["unit"] = "target",
+						["debuffType"] = "HARMFUL",
+						["type"] = "aura2",
+						["useName"] = true,
+						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
+						["use_showOn"] = true,
+						["spellName"] = 6343,
+						["event"] = "Cooldown Progress (Spell)",
+						["subeventPrefix"] = "SPELL",
+						["realSpellName"] = "Thunder Clap",
+						["use_spellName"] = true,
+						["spellIds"] = {
+						},
+						["matchesShowOn"] = "showAlways",
+						["use_absorbMode"] = true,
+						["names"] = {
+						},
+						["use_track"] = true,
+						["duration"] = "1",
+					},
+					["untrigger"] = {
+						["showOn"] = "showAlways",
+						["spellName"] = 6343,
+					},
+				}, -- [1]
+				{
+					["trigger"] = {
+						["type"] = "unit",
+						["unevent"] = "auto",
+						["form"] = {
+							["single"] = 2,
+						},
+						["event"] = "Stance/Form/Aura",
+						["unit"] = "player",
+						["duration"] = "1",
+						["subeventSuffix"] = "_CAST_START",
+						["use_form"] = true,
+						["subeventPrefix"] = "SPELL",
+						["use_unit"] = true,
+					},
+					["untrigger"] = {
+					},
+				}, -- [2]
+				["disjunctive"] = "all",
+				["activeTriggerMode"] = -10,
+			},
+			["internalVersion"] = 45,
+			["keepAspectRatio"] = false,
+			["animation"] = {
+				["start"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["desaturate"] = false,
+			["version"] = 3,
+			["subRegions"] = {
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text_format_s_format"] = "none",
+					["text_text"] = "%s",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "AUTO",
+					["text_automaticWidth"] = "Auto",
+					["text_fixedWidth"] = 64,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "CENTER",
+					["rotateText"] = "NONE",
+					["type"] = "subtext",
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_shadowYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_fontType"] = "OUTLINE",
+					["text_anchorPoint"] = "INNER_BOTTOMRIGHT",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_visible"] = true,
+				}, -- [1]
+			},
+			["height"] = 45,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["class"] = {
+					["single"] = "WARRIOR",
+					["multi"] = {
+					},
+				},
+				["use_talent"] = true,
+				["use_class"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["zoneIds"] = "",
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["single"] = 102,
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["single"] = 3,
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_spellknown"] = false,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["use_alive"] = true,
+				["spellknown"] = 8205,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["zoom"] = 0,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Warrior",
+			["authorOptions"] = {
+			},
+			["cooldown"] = true,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["config"] = {
+			},
+			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
+			["tocversion"] = 20501,
+			["id"] = "Sunder Armor",
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
+			["width"] = 45,
+			["alpha"] = 1,
+			["uid"] = "9HBZJJ1prI7",
+			["inverse"] = true,
+			["xOffset"] = -50,
+			["conditions"] = {
+				{
+					["check"] = {
+						["trigger"] = 1,
+						["op"] = "==",
+						["value"] = "0",
+						["variable"] = "matchCount",
+					},
+					["changes"] = {
+						{
+							["value"] = true,
+							["property"] = "desaturate",
+						}, -- [1]
+					},
+				}, -- [1]
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
+		},
+		["Rage Bar"] = {
+			["sparkWidth"] = 10,
+			["borderBackdrop"] = "None",
+			["wagoID"] = "jMHRj-FSb",
+			["xOffset"] = 0,
+			["preferToUpdate"] = false,
+			["customText"] = "function()\n    if aura_env.region then\n        local rage = UnitPower(\"player\", Enum.PowerType.Rage)\n        aura_env.region.text3:SetText(rage)\n    end\nend\n\n\n\n\n\n\n\n\n\n\n\n",
+			["yOffset"] = -126.99987792969,
+			["anchorPoint"] = "CENTER",
+			["overlays"] = {
+				{
+					0.43529411764706, -- [1]
+					0, -- [2]
+					1, -- [3]
+					0.25, -- [4]
+				}, -- [1]
+			},
+			["anchorFrameType"] = "SCREEN",
+			["sparkRotation"] = 0,
+			["sparkRotationMode"] = "AUTO",
+			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "if aura_env.region then\n    local r = aura_env.region\n    if not r.text3 then\n        local text3 = r.bar:CreateFontString(nil, \"OVERLAY\")\n        r.text3 = text3\n        r.text3:SetJustifyH(\"CENTER\")\n        r.text3:SetJustifyV(\"MIDDLE\")\n        r.text3:SetPoint(\"CENTER\", r.bar, \"CENTER\")\n        r.text3:Show()\n    end\n    r.text3:SetShadowOffset(1, -1)\n    r.text3:SetFont(r.text:GetFont())\n    r.text3:SetTextColor(r.text:GetTextColor())\nend\n\n\n\n\n\n\n",
+					["do_custom"] = true,
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["icon_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["internalVersion"] = 45,
+			["iconSource"] = -1,
+			["selfPoint"] = "CENTER",
+			["backdropInFront"] = false,
+			["parent"] = "Warrior",
+			["barColor"] = {
+				1, -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+			["stickyDuration"] = false,
+			["sparkOffsetX"] = 0,
+			["backgroundColor"] = {
+				0.3921568627451, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.60000002384186, -- [4]
+			},
+			["sparkOffsetY"] = 0,
+			["subRegions"] = {
+				{
+					["type"] = "aurabar_bar",
+				}, -- [1]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = "%c ",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "AUTO",
+					["text_automaticWidth"] = "Auto",
+					["text_fixedWidth"] = 64,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "CENTER",
+					["rotateText"] = "NONE",
+					["type"] = "subtext",
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Expressway",
+					["text_shadowYOffset"] = -1,
+					["text_wordWrap"] = "WordWrap",
+					["text_fontType"] = "None",
+					["text_anchorPoint"] = "INNER_RIGHT",
+					["text_fontSize"] = 15,
+					["anchorXOffset"] = 0,
+					["text_visible"] = false,
+				}, -- [2]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text"] = " ",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "AUTO",
+					["text_automaticWidth"] = "Auto",
+					["text_fixedWidth"] = 64,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "CENTER",
+					["rotateText"] = "NONE",
+					["type"] = "subtext",
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Expressway",
+					["text_shadowYOffset"] = -1,
+					["text_wordWrap"] = "WordWrap",
+					["text_fontType"] = "None",
+					["text_anchorPoint"] = "INNER_LEFT",
+					["text_fontSize"] = 18,
+					["anchorXOffset"] = 0,
+					["text_visible"] = true,
+				}, -- [3]
+				{
+					["text_shadowXOffset"] = 1,
+					["text_text_format_s_format"] = "none",
+					["text_text"] = "%s",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "AUTO",
+					["text_automaticWidth"] = "Auto",
+					["text_fixedWidth"] = 64,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "CENTER",
+					["rotateText"] = "NONE",
+					["type"] = "subtext",
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_shadowYOffset"] = -1,
+					["text_wordWrap"] = "WordWrap",
+					["text_fontType"] = "None",
+					["text_anchorPoint"] = "ICON_CENTER",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_visible"] = false,
+				}, -- [4]
+				{
+					["type"] = "subborder",
+					["border_anchor"] = "bar",
+					["border_size"] = 1,
+					["border_color"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["border_visible"] = true,
+					["border_edge"] = "1 Pixel",
+					["border_offset"] = 1,
+				}, -- [5]
+			},
+			["height"] = 20,
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["use_power"] = false,
+						["genericShowOn"] = "showOnActive",
+						["unit"] = "player",
+						["powertype"] = 1,
+						["use_powertype"] = true,
+						["debuffType"] = "HELPFUL",
+						["type"] = "unit",
+						["use_health"] = true,
+						["health_operator"] = ">=",
+						["duration"] = "1",
+						["event"] = "Power",
+						["subeventSuffix"] = "_CAST_START",
+						["subeventPrefix"] = "SPELL",
+						["unevent"] = "auto",
+						["health"] = "0",
+						["spellIds"] = {
+						},
+						["use_showCost"] = true,
+						["names"] = {
+						},
+						["custom_hide"] = "timed",
+						["use_unit"] = true,
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+				["disjunctive"] = "all",
+				["activeTriggerMode"] = -10,
+			},
+			["load"] = {
+				["use_petbattle"] = false,
+				["use_never"] = false,
+				["class"] = {
+					["single"] = "WARRIOR",
+					["multi"] = {
+					},
+				},
+				["use_talent"] = true,
+				["use_class"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["single"] = 102,
+					["multi"] = {
+					},
+				},
+				["use_vehicle"] = false,
+				["spec"] = {
+					["single"] = 1,
+					["multi"] = {
+						true, -- [1]
+						[3] = true,
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_alive"] = true,
+				["zoneIds"] = "",
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["sparkBlendMode"] = "ADD",
+			["useAdjustededMax"] = false,
+			["authorOptions"] = {
+			},
+			["animation"] = {
+				["start"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["config"] = {
+			},
+			["desaturate"] = false,
+			["icon"] = false,
+			["version"] = 3,
+			["useAdjustededMin"] = false,
+			["regionType"] = "aurabar",
+			["borderInFront"] = true,
+			["backdropColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+			["icon_side"] = "RIGHT",
+			["sparkColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["id"] = "Rage Bar",
+			["sparkHeight"] = 30,
+			["texture"] = "ElvUI Blank",
+			["alpha"] = 1,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["spark"] = false,
+			["tocversion"] = 20501,
+			["sparkHidden"] = "NEVER",
+			["zoom"] = 0,
+			["frameStrata"] = 3,
+			["width"] = 245,
+			["semver"] = "1.0.2",
+			["uid"] = "GOdOjMqf1hX",
+			["inverse"] = false,
+			["sparkDesature"] = false,
+			["orientation"] = "HORIZONTAL",
+			["conditions"] = {
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["auto"] = true,
 		},
 		["3菱形 Diamond"] = {
 			["wagoID"] = "vQY6_rTnB",
@@ -31854,10 +31854,10 @@ WeakAurasSaved = {
 					["do_custom"] = true,
 				},
 				["finish"] = {
-					["do_custom"] = true,
-					["hide_all_glows"] = true,
 					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Hide() end",
+					["hide_all_glows"] = true,
 					["do_message"] = false,
+					["do_custom"] = true,
 				},
 				["init"] = {
 					["custom"] = "local e = aura_env\ne.icon=e.config.id\ne.col='|c'..RAID_CLASS_COLORS[select(2, UnitClass(\"player\"))].colorStr--职业颜色\n\nlocal X='|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_7:0|t'--x\nlocal S='|TInterface\\\\Addons\\\\WeakAuras\\\\PowerAurasMedia\\\\Auras\\\\Aura78:0|t'--√\n\nlocal btn=_G[e.id..\"Button\"]\nlocal region = WeakAuras.GetRegion(e.id) \nif not btn then      \n    btn = CreateFrame(\"Button\", e.id..\"Button\", UIParent, \"SecureActionButtonTemplate\")     \n    btn:SetAllPoints(region) \nend\n\nregion:SetAlpha(e.config.Leave)\n\nbtn:RegisterForClicks(\"LeftButtonDown\",\"RightButtonDown\")\nbtn:SetAttribute(\"type\", \"macro\") \nbtn:SetAttribute(\"macrotext1\", \"/script SetRaidTarget(\\\"target\\\",\"..e.icon..\")\")\nbtn:SetAttribute(\"type2\", \"macro\")\ne.btn2=function()\n    if e.str then \n        btn:SetAttribute(\"macrotext2\", \"/target \"..e.str)\n    else\n        btn:SetAttribute(\"macrotext2\", \"\")\n    end \nend\n\ne.TipsShow=function(self)    \n    if e.config.cur==10 or (UnitAffectingCombat('player') and e.config.noShowTooltipsInCombat) then return end\n    \n    local cur={'ANCHOR_TOP' ,'ANCHOR_RIGHT','ANCHOR_BOTTOM','ANCHOR_LEFT','ANCHOR_TOPRIGHT','ANCHOR_BOTTOMRIGHT','ANCHOR_TOPLEFT','ANCHOR_BOTTOMLEFT','ANCHOR_CURSOR'}\n    cur=cur[e.config.cur]\n    GameTooltip:SetOwner(self, cur)        \n    GameTooltip:ClearLines()    \n    local m=''\n    \n    m=m.._G['SETTINGS']..': |TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t'\n    \n    m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON1']..'|r\\n'--左键点击操作\n    m=m..'|cFF00FF00'.._G['KEY_MOUSEWHEELUP']..'|r'--鼠标滚轮向上滚动\n    \n    \n    m=m..'\\n\\n'.._G['BINDING_NAME_RAIDTARGETNONE']\n    m=m..'\\n|cFF00FF00'.._G['KEY_MOUSEWHEELDOWN']..'|r'--鼠标滚轮向下滚动\n    \n    \n    m=m..'\\n\\n'.._G['BINDING_HEADER_TARGETING']\n    if e.Tar then m=m..'(|cFFFF9000'..e.Tar..'|r)' end--选中目标数量\n    if e.str then m=m..': '..e.str else m=m..': ...' end        \n    m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON2']..'|r'--右键点击\n    \n    local s=_G[e.config.S] or e.config.S\n    m=m..'\\n\\n'.._G['SAY']..'(|cFFFF9000'..s..'|r): '\n    if e.Chat then m=m..'|cFF00FF00'.._G['ENABLE']..'|r' else m=m..'|cFFFF0000'.._G['DISABLE']..'|r' end\n    m=m..'\\n|cFF00FF00Alt + '.._G['KEY_MOUSEWHEELUP']..'|r'--鼠标滚轮向下滚动\n    \n    \n    m=m..'\\n\\n|cFFFF00FF|T134248:0|t '..e.config.Key1..'|r: '..string.match(_G['BINDING_NAME_ACTIONBUTTON1'],'(.+)%d')\n    if e.Key1 then \n        m=m..S..'|cFF00FF00'.._G['ENABLE']..'|r'\n    else \n        m=m..X..'|cFFFF0000'.._G['DISABLE']..'|r'\n    end \n    m=m..'\\n|T134248:0|t|cFFFF00FFAlt + '..e.config.Key1..'|r: '\n    if e.str then m=m..e.str else m=m.._G['TARGET'] end\n    if e.Key1 then \n        m=m..S..'|cFF00FF00'.._G['ENABLE']..'|r'\n    else \n        m=m..X..'|cFFFF0000'.._G['DISABLE']..'|r'\n    end \n    m=m..'\\n|cFF00FF00Alt + '.._G['KEY_MOUSEWHEELDOWN']..'|r'--鼠标滚轮向下滚动\n    \n    m=e.col..m..'|r'\n    GameTooltip:SetText(m)            \n    GameTooltip:Show()        \nend\n\ne.GetKey=function()\n    if UnitAffectingCombat('player') then return end\n    ClearOverrideBindings(btn)\n    local SetKey=function(k,RL,S)\n        if not k then return end \n        local s=S or '' \n        local C \n        if RL=='R' then\n            C='RightButton' \n        else\n        C='LeftButton' end \n        SetOverrideBindingClick(btn, true, k, btn:GetName(), C) \n        if not WeakAuras.IsOptionsOpen() then\n            print('|cFF00FF00'.._G['SETTINGS']..'|T134248:12|t|r|cFFFF00FF'..k..'|r: '..e.col..s..'|r') \n        end        \n    end\n    \n    local sa = WeakAurasSaved[e.id..'key1']\n    local key=string.gsub(e.config.Key1,' ','')\n    if sa and sa==1 and key~='' then        \n        SetKey(key,'L','|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t') \n        SetKey('ALT-'..key,'R', _G['TARGET']) \n        if #key==1 then e.Key1=e.col..string.upper(key)..'|r' else e.Key1='|T134248:12|t' end\n    else\n        e.Key1=nil\n    end\nend\ne.GetKey()--设置快捷键\n\nif WeakAurasSaved[e.id..'Chat']==1 then e.Chat=true end\nbtn:EnableMouseWheel(true)\nbtn:SetScript('OnMouseWheel',function(self,delta)\n        if delta==-1 and IsAltKeyDown() then--设置KEY\n            if UnitAffectingCombat('player') then\n                return \n            end\n            if not e.Key1 then                                \n                WeakAurasSaved[e.id..'key1']=1\n            else          \n                print('|cFFFF0000'.._G['KEY_NUMLOCK_MAC']..'|r|T134248:12|t|cFFFF00FF'.. e.config.Key1..'|r: |TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t')                \n                WeakAurasSaved[e.id..'key1']=0                \n            end\n            e.GetKey()\n            WeakAuras.ScanEvents('ENV_Marker_Chat')                        \n        elseif delta==1 and IsAltKeyDown() then\n            local s=_G[e.config.S] or e.config.S\n            if e.Chat then \n                e.Chat=false\n                WeakAurasSaved[e.id..'Chat']=0\n                print('|cFFFF0000'.._G['DISABLE']..'|r: '.._G['SAY']..'): '..s..'|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t')\n            else\n                e.Chat=true\n                WeakAurasSaved[e.id..'Chat']=1\n                print('|cFF0FF000'.._G['ENABLE']..'|r: '.._G['SAY']..'): '..s..'|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t')\n            end            \n            WeakAuras.ScanEvents('ENV_Marker_Chat')            \n        elseif delta == -1 then--鼠标向下，清除目标标记,向上标记\n            if UnitExists('target') then\n                local t=GetRaidTargetIndex('target')                 \n                if t and t~=0 then\n                    SetRaidTarget('target',0)                    \n                end\n            end            \n        elseif delta == 1 then \n            if UnitExists('target') then\n                local t=GetRaidTargetIndex('target')                 \n                if t~=e.icon then\n                    SetRaidTarget('target',e.icon)\n                end\n            end            \n        end\n        e.TipsShow(self)            \nend)\n\nbtn:SetScript(\"OnEnter\",function(self)\n        e.btn2()\n        region:SetAlpha(e.config.Enter)       \n        e.TipsShow(self)\nend)\nbtn:SetScript(\"OnLeave\",function(self)\n        region:SetAlpha(e.config.Leave)\n        GameTooltip:Hide()        \nend)\nbtn:SetScript(\"OnMouseUp\", function(self)\n        region:SetAlpha(e.config.Enter)   \n        e.TipsShow(self)        \nend)\n\nbtn:SetScript(\"OnMouseDown\", function(self)\n        region:SetAlpha(e.config.Down)        \nend)",
@@ -31879,11 +31879,11 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["events"] = "PLAYER_ENTERING_WORLD,ENV_Marker_Chat",
 						["customName"] = "function()\n    local e=aura_env\n    if e.Chat then \n        return e.col.._G['SAY']..'|r'\n    else    \n        return ''\n    end    \nend",
-						["spellIds"] = {
-						},
+						["custom"] = "function()\n    return true\nend",
 						["use_unit"] = true,
 						["check"] = "event",
-						["custom"] = "function()\n    return true\nend",
+						["spellIds"] = {
+						},
 						["custom_type"] = "status",
 						["names"] = {
 						},
@@ -32040,8 +32040,8 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_font"] = "聊天",
-					["text_anchorYOffset"] = 0,
 					["text_shadowYOffset"] = -3,
+					["text_anchorYOffset"] = 0,
 					["text_fontType"] = "OUTLINE",
 					["text_wordWrap"] = "WordWrap",
 					["text_visible"] = true,
@@ -32068,9 +32068,9 @@ WeakAurasSaved = {
 					["anchorYOffset"] = 0,
 					["text_justify"] = "CENTER",
 					["rotateText"] = "NONE",
-					["text_text_format_1.n_format"] = "none",
-					["type"] = "subtext",
 					["text_anchorXOffset"] = -5,
+					["type"] = "subtext",
+					["text_text_format_1.n_format"] = "none",
 					["text_color"] = {
 						1, -- [1]
 						1, -- [2]
@@ -32120,10 +32120,10 @@ WeakAurasSaved = {
 					["text_anchorYOffset"] = 7,
 					["text_shadowXOffset"] = 3,
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_anchorPoint"] = "CENTER",
 					["text_shadowYOffset"] = -3,
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 					["text_text_format_6.n_format"] = "none",
 					["anchorXOffset"] = 0,
 					["text_selfPoint"] = "AUTO",
@@ -32170,66 +32170,10 @@ WeakAurasSaved = {
 			["anchorFrameFrame"] = "WeakAuras:1",
 			["regionType"] = "texture",
 			["blendMode"] = "BLEND",
-			["parent"] = "World-Target Markers",
+			["selfPoint"] = "CENTER",
 			["anchorFrameParent"] = false,
 			["texture"] = "Interface\\TargetingFrame\\UI-RaidTargetingIcon_3",
-			["xOffset"] = -100,
-			["selfPoint"] = "CENTER",
-			["semver"] = "9.2.83",
-			["tocversion"] = 20501,
-			["id"] = "3菱形 Diamond",
-			["rotation"] = 0,
-			["alpha"] = 0.5,
-			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
-			["uid"] = "XyVFORg9JY)",
-			["width"] = 25,
-			["config"] = {
-				["noShowTooltipsInCombat"] = false,
-				["cur"] = 7,
-				["point"] = 1,
-				["Key1"] = "3",
-				["Enter"] = 1,
-				["Leave"] = 0.3,
-				["S"] = "COMBATLOG_HIGHLIGHT_KILL",
-				["Down"] = 0.1,
-				["id"] = 3,
-			},
-			["conditions"] = {
-				{
-					["check"] = {
-						["trigger"] = 2,
-						["variable"] = "show",
-						["value"] = 0,
-					},
-					["changes"] = {
-						{
-							["value"] = true,
-							["property"] = "desaturate",
-						}, -- [1]
-					},
-				}, -- [1]
-				{
-					["check"] = {
-						["trigger"] = 4,
-						["variable"] = "show",
-						["value"] = 1,
-					},
-					["changes"] = {
-						{
-							["value"] = true,
-							["property"] = "sub.4.border_visible",
-						}, -- [1]
-						{
-							["value"] = 1,
-							["property"] = "alpha",
-						}, -- [2]
-					},
-				}, -- [2]
-			},
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
+			["parent"] = "World-Target Markers",
 			["authorOptions"] = {
 				{
 					["type"] = "header",
@@ -32359,6 +32303,62 @@ WeakAurasSaved = {
 					["width"] = 1,
 				}, -- [12]
 			},
+			["semver"] = "9.2.83",
+			["tocversion"] = 20501,
+			["id"] = "3菱形 Diamond",
+			["xOffset"] = -100,
+			["alpha"] = 0.5,
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
+			["config"] = {
+				["noShowTooltipsInCombat"] = false,
+				["cur"] = 7,
+				["point"] = 1,
+				["Key1"] = "3",
+				["Enter"] = 1,
+				["Leave"] = 0.3,
+				["S"] = "COMBATLOG_HIGHLIGHT_KILL",
+				["Down"] = 0.1,
+				["id"] = 3,
+			},
+			["width"] = 25,
+			["uid"] = "XyVFORg9JY)",
+			["conditions"] = {
+				{
+					["check"] = {
+						["trigger"] = 2,
+						["variable"] = "show",
+						["value"] = 0,
+					},
+					["changes"] = {
+						{
+							["value"] = true,
+							["property"] = "desaturate",
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["check"] = {
+						["trigger"] = 4,
+						["variable"] = "show",
+						["value"] = 1,
+					},
+					["changes"] = {
+						{
+							["value"] = true,
+							["property"] = "sub.4.border_visible",
+						}, -- [1]
+						{
+							["value"] = 1,
+							["property"] = "alpha",
+						}, -- [2]
+					},
+				}, -- [2]
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["rotation"] = 0,
 		},
 		["Berserker Rage"] = {
 			["iconSource"] = -1,
@@ -32539,27 +32539,34 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = 56.999450683594,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Berserker Rage",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 35,
 			["frameStrata"] = 1,
+			["width"] = 35,
+			["alpha"] = 1,
 			["uid"] = "sYKPdk2L4)i",
 			["inverse"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = 56.999450683594,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -32591,14 +32598,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["飾品 2"] = {
 			["iconSource"] = -1,
@@ -32630,12 +32630,12 @@ WeakAurasSaved = {
 						["remaining_operator"] = "==",
 						["use_absorbMode"] = true,
 						["duration"] = "1",
-						["debuffType"] = "HELPFUL",
 						["spellName"] = 6552,
-						["type"] = "item",
+						["debuffType"] = "HELPFUL",
 						["use_remaining"] = true,
+						["type"] = "item",
 						["event"] = "Cooldown Progress (Item)",
-						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["use_showOn"] = true,
 						["use_itemSlot"] = true,
 						["use_itemName"] = true,
@@ -32644,7 +32644,7 @@ WeakAurasSaved = {
 						["use_spellName"] = true,
 						["spellIds"] = {
 						},
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 						["subeventPrefix"] = "SPELL",
 						["unit"] = "player",
 						["use_track"] = true,
@@ -32739,13 +32739,27 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["class"] = {
+					["single"] = "WARRIOR",
+					["multi"] = {
+					},
+				},
 				["spec"] = {
 					["single"] = 2,
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "WARRIOR",
+				["use_spec"] = true,
+				["use_talent"] = true,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -32753,25 +32767,11 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_talent"] = true,
-				["use_class"] = true,
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
 				["role"] = {
 					["multi"] = {
 					},
 				},
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
+				["use_class"] = true,
 				["talent2"] = {
 					["multi"] = {
 					},
@@ -32779,33 +32779,28 @@ WeakAurasSaved = {
 				["zoneIds"] = "",
 			},
 			["cooldownTextDisabled"] = false,
-			["cooldownEdge"] = false,
+			["xOffset"] = 140.7918701171875,
 			["regionType"] = "icon",
 			["icon"] = true,
-			["selfPoint"] = "CENTER",
+			["cooldownEdge"] = false,
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["xOffset"] = 140.7918701171875,
+			["parent"] = "狂暴戰",
 			["uid"] = "RFbnCiK((9b",
-			["auto"] = true,
-			["zoom"] = 0,
 			["semver"] = "1.0.2",
+			["zoom"] = 0,
+			["auto"] = true,
 			["tocversion"] = 20501,
 			["id"] = "飾品 2",
 			["width"] = 45.58298873901367,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["selfPoint"] = "CENTER",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -32846,7 +32841,12 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["parent"] = "狂暴戰",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 		},
 		["Rogue-Vanish"] = {
 			["iconSource"] = 0,
@@ -32879,8 +32879,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -33002,38 +33002,38 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName",
-					["message_format_1.spellName_format"] = "none",
-					["message_format_n_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.sourceName_format"] = "none",
 					["message_type"] = "PARTY",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_1.sourceName_format"] = "none",
+					["message_format_n_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 132331,
 			["uid"] = "X4Tzqn24kZJ",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Rogue-Vanish",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -33041,7 +33041,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Rapid Fire"] = {
 			["iconSource"] = -1,
@@ -33172,13 +33172,7 @@ WeakAurasSaved = {
 				["zoneIds"] = "",
 			},
 			["uid"] = "ga8gybetWTN",
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
+			["authorOptions"] = {
 			},
 			["animation"] = {
 				["start"] = {
@@ -33201,27 +33195,33 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["parent"] = "Hunter Core (TBC) - Luxthos",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
 			["displayIcon"] = "",
-			["url"] = "https://wago.io/1NxtmsD1Z/2",
-			["zoom"] = 0.3,
-			["anchorFrameType"] = "SCREEN",
+			["parent"] = "Hunter Core (TBC) - Luxthos",
 			["cooldownTextDisabled"] = false,
-			["auto"] = true,
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["semver"] = "1.0.1",
 			["tocversion"] = 20501,
 			["id"] = "Rapid Fire",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 46,
-			["semver"] = "1.0.1",
+			["auto"] = true,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["authorOptions"] = {
-			},
+			["xOffset"] = 125,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -33323,7 +33323,7 @@ WeakAurasSaved = {
 				}, -- [5]
 			},
 			["cooldown"] = true,
-			["xOffset"] = 125,
+			["url"] = "https://wago.io/1NxtmsD1Z/2",
 		},
 		["Defensive Stance"] = {
 			["iconSource"] = 0,
@@ -33352,8 +33352,8 @@ WeakAurasSaved = {
 						["names"] = {
 						},
 						["type"] = "unit",
-						["subeventSuffix"] = "_CAST_START",
 						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["use_showOn"] = true,
 						["form"] = {
 							["single"] = 2,
@@ -33444,13 +33444,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
+			["authorOptions"] = {
 			},
 			["animation"] = {
 				["start"] = {
@@ -33473,30 +33467,36 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["parent"] = "Warrior",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 			},
-			["url"] = "https://wago.io/jMHRj-FSb/3",
-			["cooldownTextDisabled"] = false,
-			["width"] = 20,
+			["parent"] = "Warrior",
 			["zoom"] = 0,
-			["auto"] = false,
+			["width"] = 20,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Defensive Stance",
 			["alpha"] = 0.4,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "1.0.2",
+			["auto"] = false,
 			["uid"] = "eFHxWutMAyT",
 			["inverse"] = true,
-			["authorOptions"] = {
-			},
+			["xOffset"] = 112,
 			["displayIcon"] = 132341,
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["xOffset"] = 112,
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["8 - White Skull"] = {
 			["wagoID"] = "vQY6_rTnB",
@@ -33528,11 +33528,11 @@ WeakAurasSaved = {
 						["subeventSuffix"] = "_CAST_START",
 						["custom"] = "function()    \n    if IsInGroup() and \n    select(4,GetBuildInfo()) >=40000 and\n    (IsInRaid() and  (UnitIsGroupAssistant('player') or UnitIsGroupLeader('player')) or not IsInRaid())    \n    then \n        return true        \n    end    \nend",
 						["customName"] = "function()--显示快捷键\n    local e=aura_env\n    if e.Key1 then\n        return e.Key1\n    else\n        return ''\n    end\nend\n\n",
-						["spellIds"] = {
-						},
+						["events"] = "GROUP_ROSTER_UPDATE PLAYER_ENTERING_WORLD PLAYER_REGEN_ENABLED",
 						["use_unit"] = true,
 						["check"] = "event",
-						["events"] = "GROUP_ROSTER_UPDATE PLAYER_ENTERING_WORLD PLAYER_REGEN_ENABLED",
+						["spellIds"] = {
+						},
 						["custom_type"] = "status",
 						["use_absorbMode"] = true,
 					},
@@ -33595,13 +33595,13 @@ WeakAurasSaved = {
 					["text_shadowYOffset"] = -3,
 					["text_anchorYOffset"] = 7,
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_anchorPoint"] = "CENTER",
 					["text_anchorXOffset"] = 7,
 					["text_shadowXOffset"] = 3,
 					["text_fontSize"] = 12,
 					["anchorXOffset"] = 0,
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 				}, -- [1]
 				{
 					["type"] = "subborder",
@@ -33658,24 +33658,6 @@ WeakAurasSaved = {
 				["Leave"] = 0.3,
 			},
 			["zoom"] = 0,
-			["selfPoint"] = "CENTER",
-			["mirror"] = false,
-			["actions"] = {
-				["start"] = {
-					["custom"] = "local e = aura_env\nlocal icon=e.config.id\n\nlocal region = WeakAuras.GetRegion(e.id) \nlocal btn=_G[e.id..\"Button\"]\nif not btn then      \n    btn = CreateFrame(\"Button\", e.id..\"Button\", UIParent, \"SecureActionButtonTemplate\")     \n    btn:SetAllPoints(region) \nend\n\nbtn:RegisterForClicks(\"LeftButtonDown\",\"RightButtonDown\")\nregion:SetAlpha(e.config.Leave)\n\nbtn:SetAttribute(\"type\", \"macro\") \nbtn:SetAttribute(\"macrotext1\", \"/wm \"..icon)\nbtn:SetAttribute(\"type2\", \"macro\") \nbtn:SetAttribute(\"macrotext2\", \"/cwm \"..icon)\n\nbtn:SetScript(\"OnEnter\",function(self)\n        region:SetAlpha(e.config.Enter)    \n        if e.config.cur==10 or (UnitAffectingCombat('player') and e.config.noShowTooltipsInCombat) then return end\n        \n        local cur={'ANCHOR_TOP' ,'ANCHOR_RIGHT','ANCHOR_BOTTOM','ANCHOR_LEFT','ANCHOR_TOPRIGHT','ANCHOR_BOTTOMRIGHT','ANCHOR_TOPLEFT','ANCHOR_BOTTOMLEFT','ANCHOR_CURSOR'}\n        cur=cur[e.config.cur]        \n        GameTooltip:SetOwner(self, e.cur)        \n        GameTooltip:ClearLines()\n        local m=''\n        \n        local marck={_G['WORLD_MARKER5'],_G['WORLD_MARKER6'],_G['WORLD_MARKER3'],_G['WORLD_MARKER2'],_G['WORLD_MARKER7'],_G['WORLD_MARKER1'],_G['WORLD_MARKER4'],_G['WORLD_MARKER8']}\n        local mar={6,4,3,7,1,2,5,8}\n        m=m..marck[mar[icon]]\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON1']..'|r'--左键点击操作\n        \n        \n        m=m..'\\n\\n'.._G['KEY_NUMLOCK_MAC']\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON2']..'|r'--右键点击\n        \n        m=e.col..m..'|r'\n        GameTooltip:SetText(m)\n        GameTooltip:Show()\n        \nend)\n\nbtn:SetScript(\"OnLeave\",function(self)\n        region:SetAlpha(e.config.Leave)\n        GameTooltip:Hide()        \nend)\nbtn:SetScript(\"OnMouseUp\", function(self)\n        region:SetAlpha(e.config.Enter)    \nend)\nbtn:SetScript(\"OnMouseDown\", function(self)\n        region:SetAlpha(e.config.Down)        \nend)\nbtn:Show()",
-					["do_custom"] = true,
-				},
-				["finish"] = {
-					["hide_all_glows"] = true,
-					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Hide() end",
-					["do_custom"] = true,
-				},
-				["init"] = {
-					["custom"] = "local e = aura_env\ne.col='|c'..RAID_CLASS_COLORS[select(2, UnitClass(\"player\"))].colorStr--职业颜色\n\nlocal region = WeakAuras.GetRegion(e.id) \n--型状\nlocal icon=e.config.id\nlocal mar={6,4,3,7,1,2,5,8}\nif e.config.point==1 then--水平\n    region:SetPoint('CENTER',-(mar[icon]+1)*25,0)\nelseif e.config.point==2 then--垂直\n    region:SetPoint('CENTER',0,(mar[icon]+1)*25)\nelseif e.config.point==3 then-- 方块 Square\n    region:SetPoint('CENTER',-125,50) \nend",
-					["do_custom"] = true,
-				},
-			},
-			["regionType"] = "texture",
 			["authorOptions"] = {
 				{
 					["type"] = "header",
@@ -33776,19 +33758,37 @@ WeakAurasSaved = {
 					["width"] = 2,
 				}, -- [9]
 			},
+			["mirror"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "texture",
+			["parent"] = "World-Target Markers",
 			["blendMode"] = "BLEND",
-			["xOffset"] = -225,
+			["actions"] = {
+				["start"] = {
+					["custom"] = "local e = aura_env\nlocal icon=e.config.id\n\nlocal region = WeakAuras.GetRegion(e.id) \nlocal btn=_G[e.id..\"Button\"]\nif not btn then      \n    btn = CreateFrame(\"Button\", e.id..\"Button\", UIParent, \"SecureActionButtonTemplate\")     \n    btn:SetAllPoints(region) \nend\n\nbtn:RegisterForClicks(\"LeftButtonDown\",\"RightButtonDown\")\nregion:SetAlpha(e.config.Leave)\n\nbtn:SetAttribute(\"type\", \"macro\") \nbtn:SetAttribute(\"macrotext1\", \"/wm \"..icon)\nbtn:SetAttribute(\"type2\", \"macro\") \nbtn:SetAttribute(\"macrotext2\", \"/cwm \"..icon)\n\nbtn:SetScript(\"OnEnter\",function(self)\n        region:SetAlpha(e.config.Enter)    \n        if e.config.cur==10 or (UnitAffectingCombat('player') and e.config.noShowTooltipsInCombat) then return end\n        \n        local cur={'ANCHOR_TOP' ,'ANCHOR_RIGHT','ANCHOR_BOTTOM','ANCHOR_LEFT','ANCHOR_TOPRIGHT','ANCHOR_BOTTOMRIGHT','ANCHOR_TOPLEFT','ANCHOR_BOTTOMLEFT','ANCHOR_CURSOR'}\n        cur=cur[e.config.cur]        \n        GameTooltip:SetOwner(self, e.cur)        \n        GameTooltip:ClearLines()\n        local m=''\n        \n        local marck={_G['WORLD_MARKER5'],_G['WORLD_MARKER6'],_G['WORLD_MARKER3'],_G['WORLD_MARKER2'],_G['WORLD_MARKER7'],_G['WORLD_MARKER1'],_G['WORLD_MARKER4'],_G['WORLD_MARKER8']}\n        local mar={6,4,3,7,1,2,5,8}\n        m=m..marck[mar[icon]]\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON1']..'|r'--左键点击操作\n        \n        \n        m=m..'\\n\\n'.._G['KEY_NUMLOCK_MAC']\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON2']..'|r'--右键点击\n        \n        m=e.col..m..'|r'\n        GameTooltip:SetText(m)\n        GameTooltip:Show()\n        \nend)\n\nbtn:SetScript(\"OnLeave\",function(self)\n        region:SetAlpha(e.config.Leave)\n        GameTooltip:Hide()        \nend)\nbtn:SetScript(\"OnMouseUp\", function(self)\n        region:SetAlpha(e.config.Enter)    \nend)\nbtn:SetScript(\"OnMouseDown\", function(self)\n        region:SetAlpha(e.config.Down)        \nend)\nbtn:Show()",
+					["do_custom"] = true,
+				},
+				["finish"] = {
+					["hide_all_glows"] = true,
+					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Hide() end",
+					["do_custom"] = true,
+				},
+				["init"] = {
+					["custom"] = "local e = aura_env\ne.col='|c'..RAID_CLASS_COLORS[select(2, UnitClass(\"player\"))].colorStr--职业颜色\n\nlocal region = WeakAuras.GetRegion(e.id) \n--型状\nlocal icon=e.config.id\nlocal mar={6,4,3,7,1,2,5,8}\nif e.config.point==1 then--水平\n    region:SetPoint('CENTER',-(mar[icon]+1)*25,0)\nelseif e.config.point==2 then--垂直\n    region:SetPoint('CENTER',0,(mar[icon]+1)*25)\nelseif e.config.point==3 then-- 方块 Square\n    region:SetPoint('CENTER',-125,50) \nend",
+					["do_custom"] = true,
+				},
+			},
 			["rotation"] = 0,
 			["texture"] = "Interface\\TargetingFrame\\UI-RaidTargetingIcon_8",
-			["auto"] = true,
-			["cooldownTextDisabled"] = false,
 			["semver"] = "9.2.83",
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 20501,
 			["id"] = "8 - White Skull",
 			["width"] = 25,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["alpha"] = 0.5,
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
 			["uid"] = "OC(n3yOJHyK",
 			["inverse"] = false,
 			["url"] = "https://wago.io/vQY6_rTnB/84",
@@ -33797,7 +33797,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "World-Target Markers",
+			["xOffset"] = -225,
 		},
 		["Rogue-Preparation"] = {
 			["iconSource"] = 0,
@@ -33830,8 +33830,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -33953,38 +33953,38 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName",
-					["message_format_1.spellName_format"] = "none",
-					["message_format_n_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.sourceName_format"] = "none",
 					["message_type"] = "PARTY",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_1.sourceName_format"] = "none",
+					["message_format_n_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 136121,
 			["uid"] = "ivb5rBE5LPW",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Rogue-Preparation",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -33992,7 +33992,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["攔截可用"] = {
 			["iconSource"] = -1,
@@ -34017,9 +34017,9 @@ WeakAurasSaved = {
 						["duration"] = "1",
 						["debuffType"] = "HELPFUL",
 						["spellName"] = 20252,
-						["type"] = "spell",
-						["unevent"] = "auto",
+						["use_remaining"] = true,
 						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 						["use_showOn"] = true,
 						["subeventPrefix"] = "SPELL",
 						["event"] = "Cooldown Progress (Spell)",
@@ -34031,7 +34031,7 @@ WeakAurasSaved = {
 						["names"] = {
 						},
 						["use_absorbMode"] = true,
-						["use_remaining"] = true,
+						["type"] = "spell",
 						["use_track"] = true,
 						["remaining_operator"] = "<=",
 					},
@@ -34155,6 +34155,14 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["actions"] = {
 				["start"] = {
 				},
@@ -34165,31 +34173,27 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/jMHRj-FSb/3",
-			["parent"] = "pvp",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["xOffset"] = -94.2166748046875,
 			["uid"] = ")C7qUwlsjyd",
-			["semver"] = "1.0.2",
-			["zoom"] = 0,
 			["auto"] = true,
+			["zoom"] = 0,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "攔截可用",
 			["width"] = 56.56667709350586,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = true,
+			["parent"] = "pvp",
+			["conditions"] = {
+			},
+			["cooldown"] = true,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -34210,10 +34214,6 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["conditions"] = {
-			},
-			["cooldown"] = true,
-			["xOffset"] = -94.2166748046875,
 		},
 		["Mortal Strike"] = {
 			["iconSource"] = -1,
@@ -34335,7 +34335,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -34345,33 +34345,40 @@ WeakAurasSaved = {
 				},
 				["use_alive"] = true,
 				["spellknown"] = 12294,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = -100,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Mortal Strike",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 45,
 			["frameStrata"] = 1,
+			["width"] = 45,
+			["alpha"] = 1,
 			["uid"] = "M6mSWwyS7S(",
 			["inverse"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = -100,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -34412,14 +34419,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Attack Timer (Hunter)"] = {
 			["sparkWidth"] = 10,
@@ -34458,12 +34458,12 @@ WeakAurasSaved = {
 						["use_hand"] = true,
 						["subeventPrefix"] = "SPELL",
 						["use_unit"] = true,
-						["hand"] = "ranged",
+						["use_powertype"] = true,
 						["debuffType"] = "HARMFUL",
 						["use_genericShowOn"] = true,
-						["type"] = "unit",
+						["useName"] = true,
 						["ownOnly"] = true,
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 						["unit"] = "target",
 						["spellName"] = 0,
 						["event"] = "Swing Timer",
@@ -34472,9 +34472,9 @@ WeakAurasSaved = {
 						["use_spellName"] = true,
 						["spellIds"] = {
 						},
-						["unevent"] = "auto",
-						["useName"] = true,
-						["use_powertype"] = true,
+						["subeventSuffix"] = "_CAST_START",
+						["type"] = "unit",
+						["hand"] = "ranged",
 						["use_track"] = true,
 						["use_inverse"] = false,
 					},
@@ -34557,11 +34557,11 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_font"] = "Friz Quadrata TT",
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 					["text_shadowYOffset"] = -1,
 					["anchorXOffset"] = 0,
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_anchorPoint"] = "INNER_RIGHT",
 					["text_shadowXOffset"] = 1,
 					["text_shadowColor"] = {
@@ -34622,18 +34622,18 @@ WeakAurasSaved = {
 					["tick_desaturate"] = false,
 					["automatic_length"] = true,
 					["tick_thickness"] = 3,
-					["tick_placement_mode"] = "AtPercent",
-					["use_texture"] = false,
 					["tick_color"] = {
 						1, -- [1]
 						1, -- [2]
 						1, -- [3]
 						1, -- [4]
 					},
-					["tick_texture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
-					["tick_yOffset"] = 0,
+					["use_texture"] = false,
+					["tick_placement_mode"] = "AtPercent",
 					["tick_visible"] = true,
 					["tick_placement"] = "25",
+					["tick_texture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+					["tick_yOffset"] = 0,
 					["tick_length"] = 30,
 					["tick_mirror"] = false,
 					["type"] = "subtick",
@@ -34702,32 +34702,32 @@ WeakAurasSaved = {
 				0, -- [3]
 				0.30000001192093, -- [4]
 			},
+			["uid"] = "2tImKe9tVGy",
+			["smoothProgress"] = false,
+			["useAdjustededMin"] = false,
+			["regionType"] = "aurabar",
 			["sparkColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["smoothProgress"] = false,
-			["useAdjustededMin"] = false,
-			["regionType"] = "aurabar",
-			["config"] = {
-			},
-			["zoom"] = 0,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["icon_side"] = "LEFT",
 			["anchorFrameType"] = "SCREEN",
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
-			["spark"] = true,
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["auto"] = true,
+			["zoom"] = 0,
+			["semver"] = "1.0.1",
 			["tocversion"] = 20501,
-			["sparkHidden"] = "BOTH",
 			["id"] = "Attack Timer (Hunter)",
+			["sparkHidden"] = "BOTH",
 			["alpha"] = 1,
 			["width"] = 296,
-			["semver"] = "1.0.1",
-			["uid"] = "2tImKe9tVGy",
+			["spark"] = true,
+			["config"] = {
+			},
 			["inverse"] = true,
 			["iconSource"] = -1,
 			["orientation"] = "HORIZONTAL",
@@ -34781,7 +34781,7 @@ WeakAurasSaved = {
 						["use_genericShowOn"] = true,
 						["type"] = "unit",
 						["use_absorbMode"] = true,
-						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["use_showOn"] = true,
 						["form"] = {
 							["single"] = 3,
@@ -34794,7 +34794,7 @@ WeakAurasSaved = {
 						},
 						["spellName"] = 2457,
 						["subeventPrefix"] = "SPELL",
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 						["use_track"] = true,
 						["use_unit"] = true,
 					},
@@ -34853,15 +34853,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 1,
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["use_talent"] = true,
-				["use_class"] = true,
-				["role"] = {
+				["class"] = {
+					["single"] = "WARRIOR",
 					["multi"] = {
 					},
 				},
@@ -34869,57 +34862,55 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "WARRIOR",
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["spec"] = {
+					["single"] = 1,
 					["multi"] = {
 					},
 				},
 				["zoneIds"] = "",
 			},
 			["uid"] = "8rmr28279FU",
-			["selfPoint"] = "CENTER",
+			["cooldownEdge"] = false,
 			["xOffset"] = 112,
 			["regionType"] = "icon",
-			["parent"] = "狂暴戰",
+			["selfPoint"] = "CENTER",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
 			["displayIcon"] = 132275,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["zoom"] = 0,
-			["anchorFrameType"] = "SCREEN",
+			["parent"] = "狂暴戰",
 			["cooldownTextDisabled"] = false,
-			["auto"] = false,
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Berserker Stance 2",
 			["frameStrata"] = 1,
 			["alpha"] = 0.4,
 			["width"] = 20,
-			["semver"] = "1.0.2",
+			["auto"] = false,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["cooldownEdge"] = false,
-			["conditions"] = {
-			},
-			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -34927,6 +34918,15 @@ WeakAurasSaved = {
 				},
 				["finish"] = {
 				},
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
 		},
 		["Overpower - Usable (Berserker) 4"] = {
@@ -34963,8 +34963,8 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["spellIds"] = {
 						},
-						["use_missType"] = true,
 						["use_sourceUnit"] = true,
+						["use_missType"] = true,
 						["unit"] = "player",
 						["sourceUnit"] = "player",
 						["debuffType"] = "HELPFUL",
@@ -35056,7 +35056,7 @@ WeakAurasSaved = {
 						[15] = true,
 					},
 				},
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -35065,21 +35065,21 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
 				["use_talent"] = true,
 				["use_class"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -35097,11 +35097,11 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["icon"] = true,
+			["cooldownEdge"] = false,
 			["authorOptions"] = {
 			},
 			["regionType"] = "icon",
-			["parent"] = "pvp",
+			["icon"] = true,
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -35119,29 +35119,19 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["cooldownTextDisabled"] = false,
-			["width"] = 45,
+			["parent"] = "pvp",
 			["zoom"] = 0,
-			["auto"] = false,
+			["width"] = 45,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Overpower - Usable (Berserker) 4",
 			["alpha"] = 1,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "1.0.2",
+			["auto"] = false,
 			["uid"] = "mOg4S1uprsQ",
 			["inverse"] = false,
-			["cooldownEdge"] = false,
-			["displayIcon"] = 132223,
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
 			["animation"] = {
 				["start"] = {
 					["easeStrength"] = 3,
@@ -35161,6 +35151,16 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["easeType"] = "none",
 				},
+			},
+			["displayIcon"] = 132223,
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
 		},
 		["Death Wish"] = {
@@ -35210,8 +35210,8 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["spellName"] = 12292,
 						["type"] = "spell",
-						["subeventSuffix"] = "_CAST_START",
 						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["use_showOn"] = true,
 						["subeventPrefix"] = "SPELL",
 						["event"] = "Cooldown Progress (Spell)",
@@ -35301,11 +35301,11 @@ WeakAurasSaved = {
 					},
 				},
 				["use_spellknown"] = true,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -35321,27 +35321,34 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = 100,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Death Wish",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 45,
 			["frameStrata"] = 1,
+			["width"] = 45,
+			["alpha"] = 1,
 			["uid"] = "EUy80uqQYkk",
 			["inverse"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = 100,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -35387,14 +35394,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Revenge - Usable"] = {
 			["iconSource"] = -1,
@@ -35432,7 +35432,7 @@ WeakAurasSaved = {
 						["name"] = "Spell Reflection",
 						["debuffType"] = "HELPFUL",
 						["subeventSuffix"] = "_CAST_START",
-						["type"] = "spell",
+						["useName"] = true,
 						["use_debuffClass"] = false,
 						["unevent"] = "auto",
 						["spellName"] = 7379,
@@ -35444,7 +35444,7 @@ WeakAurasSaved = {
 						["spellIds"] = {
 							215572, -- [1]
 						},
-						["useName"] = true,
+						["type"] = "spell",
 						["matchesShowOn"] = "showOnActive",
 						["combineMatches"] = "showLowest",
 						["use_track"] = true,
@@ -35580,27 +35580,36 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = -52,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Revenge - Usable",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 45,
 			["frameStrata"] = 1,
+			["width"] = 45,
+			["alpha"] = 1,
 			["uid"] = "05Et2oL4yqS",
 			["inverse"] = false,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = -52,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -35645,16 +35654,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "",
-					["do_custom"] = false,
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Whirlwind"] = {
 			["iconSource"] = -1,
@@ -35810,27 +35810,34 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = -50,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Whirlwind",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 45,
 			["frameStrata"] = 1,
+			["width"] = 45,
+			["alpha"] = 1,
 			["uid"] = "Nq2Tsb85SSj",
 			["inverse"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = -50,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -35871,14 +35878,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Bloodrage 2"] = {
 			["iconSource"] = -1,
@@ -35986,15 +35986,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 2,
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["use_talent"] = true,
-				["use_class"] = true,
-				["role"] = {
+				["class"] = {
+					["single"] = "WARRIOR",
 					["multi"] = {
 					},
 				},
@@ -36002,27 +35995,34 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "WARRIOR",
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["spec"] = {
+					["single"] = 2,
 					["multi"] = {
 					},
 				},
 				["zoneIds"] = "",
 			},
 			["cooldownTextDisabled"] = false,
-			["parent"] = "狂暴戰",
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["regionType"] = "icon",
 			["color"] = {
 				1, -- [1]
@@ -36030,44 +36030,25 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["icon"] = true,
+			["parent"] = "狂暴戰",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = 95,
 			["uid"] = "I8hlwnP1205",
-			["semver"] = "1.0.2",
-			["zoom"] = 0,
 			["auto"] = true,
+			["zoom"] = 0,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Bloodrage 2",
 			["width"] = 35,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
+			["icon"] = true,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -36097,7 +36078,26 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["xOffset"] = 95,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
 		},
 		["Threat Differential on Nameplates"] = {
 			["xOffset"] = -50,
@@ -36141,7 +36141,7 @@ WeakAurasSaved = {
 						["subeventSuffix"] = "_CAST_START",
 						["debuffType"] = "HELPFUL",
 						["custom_type"] = "stateupdate",
-						["genericShowOn"] = "showOnActive",
+						["event"] = "Health",
 						["unit"] = "player",
 						["names"] = {
 						},
@@ -36151,7 +36151,7 @@ WeakAurasSaved = {
 						["events"] = "NAME_PLATE_UNIT_ADDED, NAME_PLATE_UNIT_REMOVED, UNIT_THREAT_LIST_UPDATE, GROUP_ROSTER_UPDATE",
 						["check"] = "event",
 						["subeventPrefix"] = "SPELL",
-						["event"] = "Health",
+						["genericShowOn"] = "showOnActive",
 						["customVariables"] = "{\n    status = {\n        display = \"Threat Status\",\n        type = \"select\",\n        values = {\n            [1] = \"Untanked\", \n            [2] = \"Insecurely Tanking\", \n            [3] = \"Tanking\",\n            [4] = \"Tanked by Other Tank\"\n        }\n    }\n}",
 					},
 					["untrigger"] = {
@@ -36324,13 +36324,13 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["semver"] = "1.0.8",
+			["justify"] = "LEFT",
 			["width"] = 40,
 			["id"] = "Threat Differential on Nameplates",
 			["selfPoint"] = "CENTER",
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "NAMEPLATE",
-			["justify"] = "LEFT",
+			["semver"] = "1.0.8",
 			["desc"] = "Shows the threat difference between yourself and the party/raid member with the most threat on enemy nameplates.\n\nColor determined by Tankstatus:\n\"Tanking\"  (default: green)\n\"Insecurely Tanking\" (default: yellow \"!!!\")\n\"Tanked by Other Tank\"  (default: blue)\n\"Untanked\" (default: red)",
 			["inverse"] = false,
 			["config"] = {
@@ -36461,7 +36461,7 @@ WeakAurasSaved = {
 						["name"] = "Spell Reflection",
 						["debuffType"] = "HELPFUL",
 						["subeventSuffix"] = "_CAST_START",
-						["type"] = "spell",
+						["useName"] = true,
 						["use_debuffClass"] = false,
 						["unevent"] = "auto",
 						["spellName"] = 20660,
@@ -36473,7 +36473,7 @@ WeakAurasSaved = {
 						["spellIds"] = {
 							215572, -- [1]
 						},
-						["useName"] = true,
+						["type"] = "spell",
 						["matchesShowOn"] = "showOnActive",
 						["combineMatches"] = "showLowest",
 						["use_track"] = true,
@@ -36609,27 +36609,36 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = 0,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Execute - Usable",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 45,
 			["frameStrata"] = 1,
+			["width"] = 45,
+			["alpha"] = 1,
 			["uid"] = "Q4UnELEdniC",
 			["inverse"] = false,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = 0,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -36674,16 +36683,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "",
-					["do_custom"] = false,
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["1星星 Star"] = {
 			["outline"] = "OUTLINE",
@@ -36712,11 +36712,11 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["events"] = "PLAYER_ENTERING_WORLD,ENV_Marker_Chat",
 						["customName"] = "function()\n    local e=aura_env\n    if e.Chat then \n        return e.col.._G['SAY']..'|r'\n    else    \n        return ''\n    end    \nend",
-						["spellIds"] = {
-						},
+						["custom"] = "function()\n    return true\nend",
 						["use_unit"] = true,
 						["check"] = "event",
-						["custom"] = "function()\n    return true\nend",
+						["spellIds"] = {
+						},
 						["custom_type"] = "status",
 						["names"] = {
 						},
@@ -36847,7 +36847,7 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["justify"] = "LEFT",
+			["auto"] = true,
 			["fontSize"] = 24,
 			["desaturate"] = false,
 			["discrete_rotation"] = 0,
@@ -36878,8 +36878,8 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_font"] = "聊天",
-					["text_anchorYOffset"] = 0,
 					["text_shadowYOffset"] = -3,
+					["text_anchorYOffset"] = 0,
 					["text_fontType"] = "OUTLINE",
 					["text_wordWrap"] = "WordWrap",
 					["text_visible"] = true,
@@ -36906,9 +36906,9 @@ WeakAurasSaved = {
 					["anchorYOffset"] = 0,
 					["text_justify"] = "CENTER",
 					["rotateText"] = "NONE",
-					["text_text_format_1.n_format"] = "none",
-					["type"] = "subtext",
 					["text_anchorXOffset"] = -5,
+					["type"] = "subtext",
+					["text_text_format_1.n_format"] = "none",
 					["text_color"] = {
 						1, -- [1]
 						1, -- [2]
@@ -36958,10 +36958,10 @@ WeakAurasSaved = {
 					["text_anchorYOffset"] = 7,
 					["text_shadowXOffset"] = 3,
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_anchorPoint"] = "CENTER",
 					["text_shadowYOffset"] = -3,
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 					["text_text_format_6.n_format"] = "none",
 					["anchorXOffset"] = 0,
 					["text_selfPoint"] = "AUTO",
@@ -37013,10 +37013,10 @@ WeakAurasSaved = {
 					["do_custom"] = true,
 				},
 				["finish"] = {
-					["do_custom"] = true,
-					["hide_all_glows"] = true,
 					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Hide() end",
+					["hide_all_glows"] = true,
 					["do_message"] = false,
+					["do_custom"] = true,
 				},
 				["init"] = {
 					["custom"] = "local e = aura_env\ne.icon=e.config.id\ne.col='|c'..RAID_CLASS_COLORS[select(2, UnitClass(\"player\"))].colorStr--职业颜色\n\nlocal X='|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_7:0|t'--x\nlocal S='|TInterface\\\\Addons\\\\WeakAuras\\\\PowerAurasMedia\\\\Auras\\\\Aura78:0|t'--√\n\nlocal btn=_G[e.id..\"Button\"]\nlocal region = WeakAuras.GetRegion(e.id) \nif not btn then      \n    btn = CreateFrame(\"Button\", e.id..\"Button\", UIParent, \"SecureActionButtonTemplate\")     \n    btn:SetAllPoints(region) \nend\n\nregion:SetAlpha(e.config.Leave)\n\nbtn:RegisterForClicks(\"LeftButtonDown\",\"RightButtonDown\")\nbtn:SetAttribute(\"type\", \"macro\") \nbtn:SetAttribute(\"macrotext1\", \"/script SetRaidTarget(\\\"target\\\",\"..e.icon..\")\")\nbtn:SetAttribute(\"type2\", \"macro\")\ne.btn2=function()\n    if e.str then \n        btn:SetAttribute(\"macrotext2\", \"/target \"..e.str)\n    else\n        btn:SetAttribute(\"macrotext2\", \"\")\n    end \nend\n\ne.TipsShow=function(self)    \n    if e.config.cur==10 or (UnitAffectingCombat('player') and e.config.noShowTooltipsInCombat) then return end\n    \n    local cur={'ANCHOR_TOP' ,'ANCHOR_RIGHT','ANCHOR_BOTTOM','ANCHOR_LEFT','ANCHOR_TOPRIGHT','ANCHOR_BOTTOMRIGHT','ANCHOR_TOPLEFT','ANCHOR_BOTTOMLEFT','ANCHOR_CURSOR'}\n    cur=cur[e.config.cur]\n    GameTooltip:SetOwner(self, cur)        \n    GameTooltip:ClearLines()    \n    local m=''\n    \n    m=m.._G['SETTINGS']..': |TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t'\n    \n    m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON1']..'|r\\n'--左键点击操作\n    m=m..'|cFF00FF00'.._G['KEY_MOUSEWHEELUP']..'|r'--鼠标滚轮向上滚动\n    \n    \n    m=m..'\\n\\n'.._G['BINDING_NAME_RAIDTARGETNONE']\n    m=m..'\\n|cFF00FF00'.._G['KEY_MOUSEWHEELDOWN']..'|r'--鼠标滚轮向下滚动\n    \n    \n    m=m..'\\n\\n'.._G['BINDING_HEADER_TARGETING']\n    if e.Tar then m=m..'(|cFFFF9000'..e.Tar..'|r)' end--选中目标数量\n    if e.str then m=m..': '..e.str else m=m..': ...' end        \n    m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON2']..'|r'--右键点击\n    \n    local s=_G[e.config.S] or e.config.S\n    m=m..'\\n\\n'.._G['SAY']..'(|cFFFF9000'..s..'|r): '\n    if e.Chat then m=m..'|cFF00FF00'.._G['ENABLE']..'|r' else m=m..'|cFFFF0000'.._G['DISABLE']..'|r' end\n    m=m..'\\n|cFF00FF00Alt + '.._G['KEY_MOUSEWHEELUP']..'|r'--鼠标滚轮向下滚动\n    \n    \n    m=m..'\\n\\n|cFFFF00FF|T134248:0|t '..e.config.Key1..'|r: '..string.match(_G['BINDING_NAME_ACTIONBUTTON1'],'(.+)%d')\n    if e.Key1 then \n        m=m..S..'|cFF00FF00'.._G['ENABLE']..'|r'\n    else \n        m=m..X..'|cFFFF0000'.._G['DISABLE']..'|r'\n    end \n    m=m..'\\n|T134248:0|t|cFFFF00FFAlt + '..e.config.Key1..'|r: '\n    if e.str then m=m..e.str else m=m.._G['TARGET'] end\n    if e.Key1 then \n        m=m..S..'|cFF00FF00'.._G['ENABLE']..'|r'\n    else \n        m=m..X..'|cFFFF0000'.._G['DISABLE']..'|r'\n    end \n    m=m..'\\n|cFF00FF00Alt + '.._G['KEY_MOUSEWHEELDOWN']..'|r'--鼠标滚轮向下滚动\n    \n    m=e.col..m..'|r'\n    GameTooltip:SetText(m)            \n    GameTooltip:Show()        \nend\n\ne.GetKey=function()\n    if UnitAffectingCombat('player') then return end\n    ClearOverrideBindings(btn)\n    local SetKey=function(k,RL,S)\n        if not k then return end \n        local s=S or '' \n        local C \n        if RL=='R' then\n            C='RightButton' \n        else\n        C='LeftButton' end \n        SetOverrideBindingClick(btn, true, k, btn:GetName(), C) \n        if not WeakAuras.IsOptionsOpen() then\n            print('|cFF00FF00'.._G['SETTINGS']..'|T134248:12|t|r|cFFFF00FF'..k..'|r: '..e.col..s..'|r') \n        end        \n    end\n    \n    local sa = WeakAurasSaved[e.id..'key1']\n    local key=string.gsub(e.config.Key1,' ','')\n    if sa and sa==1 and key~='' then        \n        SetKey(key,'L','|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t') \n        SetKey('ALT-'..key,'R', _G['TARGET']) \n        if #key==1 then e.Key1=e.col..string.upper(key)..'|r' else e.Key1='|T134248:12|t' end\n    else\n        e.Key1=nil\n    end\nend\ne.GetKey()--设置快捷键\n\nif WeakAurasSaved[e.id..'Chat']==1 then e.Chat=true end\nbtn:EnableMouseWheel(true)\nbtn:SetScript('OnMouseWheel',function(self,delta)\n        if delta==-1 and IsAltKeyDown() then--设置KEY\n            if UnitAffectingCombat('player') then\n                return \n            end\n            if not e.Key1 then                                \n                WeakAurasSaved[e.id..'key1']=1\n            else          \n                print('|cFFFF0000'.._G['KEY_NUMLOCK_MAC']..'|r|T134248:12|t|cFFFF00FF'.. e.config.Key1..'|r: |TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t')                \n                WeakAurasSaved[e.id..'key1']=0                \n            end\n            e.GetKey()\n            WeakAuras.ScanEvents('ENV_Marker_Chat')                        \n        elseif delta==1 and IsAltKeyDown() then\n            local s=_G[e.config.S] or e.config.S\n            if e.Chat then \n                e.Chat=false\n                WeakAurasSaved[e.id..'Chat']=0\n                print('|cFFFF0000'.._G['DISABLE']..'|r: '.._G['SAY']..'): '..s..'|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t')\n            else\n                e.Chat=true\n                WeakAurasSaved[e.id..'Chat']=1\n                print('|cFF0FF000'.._G['ENABLE']..'|r: '.._G['SAY']..'): '..s..'|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t')\n            end            \n            WeakAuras.ScanEvents('ENV_Marker_Chat')            \n        elseif delta == -1 then--鼠标向下，清除目标标记,向上标记\n            if UnitExists('target') then\n                local t=GetRaidTargetIndex('target')                 \n                if t and t~=0 then\n                    SetRaidTarget('target',0)                    \n                end\n            end            \n        elseif delta == 1 then \n            if UnitExists('target') then\n                local t=GetRaidTargetIndex('target')                 \n                if t~=e.icon then\n                    SetRaidTarget('target',e.icon)\n                end\n            end            \n        end\n        e.TipsShow(self)            \nend)\n\nbtn:SetScript(\"OnEnter\",function(self)\n        e.btn2()\n        region:SetAlpha(e.config.Enter)       \n        e.TipsShow(self)\nend)\nbtn:SetScript(\"OnLeave\",function(self)\n        region:SetAlpha(e.config.Leave)\n        GameTooltip:Hide()        \nend)\nbtn:SetScript(\"OnMouseUp\", function(self)\n        region:SetAlpha(e.config.Enter)   \n        e.TipsShow(self)        \nend)\n\nbtn:SetScript(\"OnMouseDown\", function(self)\n        region:SetAlpha(e.config.Down)        \nend)",
@@ -37161,9 +37161,9 @@ WeakAurasSaved = {
 			["alpha"] = 0.5,
 			["wordWrap"] = "WordWrap",
 			["texture"] = "Interface\\TargetingFrame\\UI-RaidTargetingIcon_1",
-			["semver"] = "9.2.83",
+			["justify"] = "LEFT",
 			["cooldownTextDisabled"] = false,
-			["auto"] = true,
+			["semver"] = "9.2.83",
 			["tocversion"] = 20501,
 			["id"] = "1星星 Star",
 			["color"] = {
@@ -37305,12 +37305,12 @@ WeakAurasSaved = {
 						["type"] = "custom",
 						["custom_type"] = "status",
 						["custom_hide"] = "timed",
-						["unit"] = "player",
-						["event"] = "Health",
 						["subeventPrefix"] = "SPELL",
+						["event"] = "Health",
+						["unit"] = "player",
+						["custom"] = "function(e)\n    if e == \"ACTIONBAR_UPDATE_STATE\" then\n        if aura_env.slotList and IsCurrentAction(aura_env.slotList[1]) then\n            return true\n        end\n    elseif e == \"ACTIONBAR_SLOT_CHANGED\" or e ==\"ACTIONBAR_PAGE_CHANGED\" then\n        local _, _, icon, _, _, _, spellid = GetSpellInfo(\"Heroic Strike\")\n        if icon and spellid then\n            aura_env.icon = icon\n            aura_env.slotList = C_ActionBar.FindSpellActionButtons(spellid)\n        end\n    end\nend",
 						["spellIds"] = {
 						},
-						["custom"] = "function(e)\n    if e == \"ACTIONBAR_UPDATE_STATE\" then\n        if aura_env.slotList and IsCurrentAction(aura_env.slotList[1]) then\n            return true\n        end\n    elseif e == \"ACTIONBAR_SLOT_CHANGED\" or e ==\"ACTIONBAR_PAGE_CHANGED\" then\n        local _, _, icon, _, _, _, spellid = GetSpellInfo(\"Heroic Strike\")\n        if icon and spellid then\n            aura_env.icon = icon\n            aura_env.slotList = C_ActionBar.FindSpellActionButtons(spellid)\n        end\n    end\nend",
 						["events"] = "ACTIONBAR_UPDATE_STATE ACTIONBAR_SLOT_CHANGED ACTIONBAR_PAGE_CHANGED",
 						["customIcon"] = "function() return aura_env.icon end",
 						["check"] = "event",
@@ -37343,12 +37343,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "WARRIOR",
+				["spec"] = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
+				["class"] = {
+					["single"] = "WARRIOR",
 					["multi"] = {
 					},
 				},
@@ -37360,6 +37360,9 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
+			["cooldownEdge"] = false,
+			["xOffset"] = 112,
+			["regionType"] = "icon",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -37380,33 +37383,25 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["xOffset"] = 112,
-			["regionType"] = "icon",
-			["authorOptions"] = {
-			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
 			["displayIcon"] = 132282,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["authorOptions"] = {
 			},
-			["cooldownTextDisabled"] = false,
-			["width"] = 16,
 			["zoom"] = 0,
-			["semver"] = "1.0.2",
+			["width"] = 16,
+			["cooldownTextDisabled"] = false,
+			["auto"] = false,
 			["tocversion"] = 20501,
 			["id"] = "Heroic Strike 2",
 			["alpha"] = 1,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["auto"] = false,
+			["semver"] = "1.0.2",
 			["uid"] = "(PEzx6JNCKa",
 			["inverse"] = false,
-			["cooldownEdge"] = false,
+			["icon"] = true,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -37423,7 +37418,12 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["icon"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 		},
 		["Intimidating Shout 2"] = {
 			["iconSource"] = -1,
@@ -37505,15 +37505,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 2,
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["use_talent"] = true,
-				["use_class"] = true,
-				["role"] = {
+				["class"] = {
+					["single"] = "WARRIOR",
 					["multi"] = {
 					},
 				},
@@ -37521,27 +37514,34 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "WARRIOR",
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["spec"] = {
+					["single"] = 2,
 					["multi"] = {
 					},
 				},
 				["zoneIds"] = "",
 			},
 			["cooldownTextDisabled"] = false,
-			["parent"] = "狂暴戰",
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["regionType"] = "icon",
 			["color"] = {
 				1, -- [1]
@@ -37549,44 +37549,25 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["icon"] = true,
+			["parent"] = "狂暴戰",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = -57,
 			["uid"] = "(oFRLwbM0ab",
-			["semver"] = "1.0.2",
-			["zoom"] = 0,
 			["auto"] = true,
+			["zoom"] = 0,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Intimidating Shout 2",
 			["width"] = 35,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
+			["icon"] = true,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -37625,7 +37606,26 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["xOffset"] = -57,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
 		},
 		["Victory Rush - Usable 2"] = {
 			["iconSource"] = -1,
@@ -37658,7 +37658,7 @@ WeakAurasSaved = {
 						["name"] = "Spell Reflection",
 						["debuffType"] = "HELPFUL",
 						["subeventSuffix"] = "_CAST_START",
-						["useName"] = true,
+						["type"] = "spell",
 						["use_debuffClass"] = false,
 						["unevent"] = "auto",
 						["spellName"] = 34428,
@@ -37670,7 +37670,7 @@ WeakAurasSaved = {
 						["spellIds"] = {
 							215572, -- [1]
 						},
-						["type"] = "spell",
+						["useName"] = true,
 						["use_genericShowOn"] = true,
 						["combineMatches"] = "showLowest",
 						["use_track"] = true,
@@ -37769,7 +37769,8 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["parent"] = "pvp",
+			["authorOptions"] = {
+			},
 			["regionType"] = "icon",
 			["color"] = {
 				1, -- [1]
@@ -37777,43 +37778,32 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["cooldownEdge"] = false,
+			["parent"] = "pvp",
 			["cooldown"] = true,
-			["authorOptions"] = {
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
 			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Victory Rush - Usable 2",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 45,
 			["frameStrata"] = 1,
+			["width"] = 45,
+			["alpha"] = 1,
 			["uid"] = "aMpXGF61wod",
 			["inverse"] = false,
-			["animation"] = {
-				["start"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["easeStrength"] = 3,
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
+			["cooldownEdge"] = false,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -37857,14 +37847,24 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
+			["animation"] = {
 				["start"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
 				},
 				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "",
-					["do_custom"] = false,
+					["easeStrength"] = 3,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
 				},
 			},
 		},
@@ -37896,8 +37896,8 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["type"] = "aura2",
 						["useName"] = true,
-						["subeventSuffix"] = "_CAST_START",
 						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["use_showOn"] = true,
 						["spellName"] = 6544,
 						["event"] = "Cooldown Progress (Spell)",
@@ -37976,13 +37976,13 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 1,
+				["class"] = {
+					["single"] = "WARRIOR",
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "WARRIOR",
+				["spec"] = {
+					["single"] = 1,
 					["multi"] = {
 					},
 				},
@@ -38000,11 +38000,11 @@ WeakAurasSaved = {
 					},
 				},
 				["use_class"] = true,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -38019,27 +38019,36 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = -95,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "aura_env.region.stacks:SetJustifyH(\"CENTER\")\naura_env.region.stacks:SetPoint(\"BOTTOMRIGHT\", aura_env.region, \"BOTTOMRIGHT\", 0, 0)\naura_env.region.stacks:SetShadowOffset(1, -1)",
+					["do_custom"] = false,
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Battle Shout",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 35,
 			["frameStrata"] = 1,
+			["width"] = 35,
+			["alpha"] = 1,
 			["uid"] = "L3zu3Gye1Ug",
 			["inverse"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = -95,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -38059,16 +38068,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "aura_env.region.stacks:SetJustifyH(\"CENTER\")\naura_env.region.stacks:SetPoint(\"BOTTOMRIGHT\", aura_env.region, \"BOTTOMRIGHT\", 0, 0)\naura_env.region.stacks:SetShadowOffset(1, -1)",
-					["do_custom"] = false,
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Battle Shout 2"] = {
 			["iconSource"] = -1,
@@ -38100,11 +38100,11 @@ WeakAurasSaved = {
 						["genericShowOn"] = "showAlways",
 						["unit"] = "player",
 						["duration"] = "1",
-						["debuffType"] = "HELPFUL",
+						["spellName"] = 6544,
 						["use_genericShowOn"] = true,
 						["useName"] = true,
 						["use_unit"] = true,
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 						["use_showOn"] = true,
 						["use_absorbMode"] = true,
 						["event"] = "Cooldown Progress (Spell)",
@@ -38116,9 +38116,9 @@ WeakAurasSaved = {
 						["type"] = "aura2",
 						["names"] = {
 						},
-						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["use_track"] = true,
-						["spellName"] = 6544,
+						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
 						["showOn"] = "showAlways",
@@ -38206,7 +38206,7 @@ WeakAurasSaved = {
 				["zoneIds"] = "",
 			},
 			["cooldownTextDisabled"] = false,
-			["parent"] = "狂暴戰",
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["regionType"] = "icon",
 			["color"] = {
 				1, -- [1]
@@ -38214,24 +38214,42 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["icon"] = true,
+			["parent"] = "狂暴戰",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = 46.12841796875,
 			["uid"] = "dlTFng)PzBP",
-			["semver"] = "1.0.2",
-			["zoom"] = 0,
 			["auto"] = true,
+			["zoom"] = 0,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Battle Shout 2",
 			["width"] = 45.25634384155273,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = true,
+			["icon"] = true,
+			["conditions"] = {
+				{
+					["check"] = {
+						["trigger"] = 1,
+						["op"] = "==",
+						["variable"] = "matchCount",
+						["value"] = "0",
+					},
+					["changes"] = {
+						{
+							["value"] = true,
+							["property"] = "desaturate",
+						}, -- [1]
+					},
+				}, -- [1]
+			},
+			["cooldown"] = true,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -38252,24 +38270,6 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["conditions"] = {
-				{
-					["check"] = {
-						["trigger"] = 1,
-						["op"] = "==",
-						["variable"] = "matchCount",
-						["value"] = "0",
-					},
-					["changes"] = {
-						{
-							["value"] = true,
-							["property"] = "desaturate",
-						}, -- [1]
-					},
-				}, -- [1]
-			},
-			["cooldown"] = true,
-			["xOffset"] = 46.12841796875,
 		},
 		["Paladin-Divine Shield"] = {
 			["iconSource"] = 0,
@@ -38302,8 +38302,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -38425,38 +38425,38 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName",
-					["message_format_1.spellName_format"] = "none",
-					["message_format_n_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.sourceName_format"] = "none",
 					["message_type"] = "PARTY",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_1.sourceName_format"] = "none",
+					["message_format_n_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 135896,
 			["uid"] = "wvrbU36lJIP",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Paladin-Divine Shield",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -38464,7 +38464,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["4 - Red Cross"] = {
 			["wagoID"] = "vQY6_rTnB",
@@ -38496,11 +38496,11 @@ WeakAurasSaved = {
 						["subeventSuffix"] = "_CAST_START",
 						["custom"] = "function()    \n    if IsInGroup() and \n    select(4,GetBuildInfo()) >=40000 and\n    (IsInRaid() and  (UnitIsGroupAssistant('player') or UnitIsGroupLeader('player')) or not IsInRaid())    \n    then \n        return true        \n    end    \nend",
 						["customName"] = "function()--显示快捷键\n    local e=aura_env\n    if e.Key1 then\n        return e.Key1\n    else\n        return ''\n    end\nend\n\n",
-						["spellIds"] = {
-						},
+						["events"] = "GROUP_ROSTER_UPDATE PLAYER_ENTERING_WORLD PLAYER_REGEN_ENABLED",
 						["use_unit"] = true,
 						["check"] = "event",
-						["events"] = "GROUP_ROSTER_UPDATE PLAYER_ENTERING_WORLD PLAYER_REGEN_ENABLED",
+						["spellIds"] = {
+						},
 						["custom_type"] = "status",
 						["use_absorbMode"] = true,
 					},
@@ -38563,13 +38563,13 @@ WeakAurasSaved = {
 					["text_shadowYOffset"] = -3,
 					["text_anchorYOffset"] = 7,
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_anchorPoint"] = "CENTER",
 					["text_anchorXOffset"] = 7,
 					["text_shadowXOffset"] = 3,
 					["text_fontSize"] = 12,
 					["anchorXOffset"] = 0,
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 				}, -- [1]
 				{
 					["type"] = "subborder",
@@ -38626,24 +38626,6 @@ WeakAurasSaved = {
 				["Leave"] = 0.3,
 			},
 			["zoom"] = 0,
-			["selfPoint"] = "CENTER",
-			["mirror"] = false,
-			["actions"] = {
-				["start"] = {
-					["custom"] = "local e = aura_env\nlocal icon=e.config.id\n\nlocal region = WeakAuras.GetRegion(e.id) \nlocal btn=_G[e.id..\"Button\"]\nif not btn then      \n    btn = CreateFrame(\"Button\", e.id..\"Button\", UIParent, \"SecureActionButtonTemplate\")     \n    btn:SetAllPoints(region) \nend\n\nbtn:RegisterForClicks(\"LeftButtonDown\",\"RightButtonDown\")\nregion:SetAlpha(e.config.Leave)\n\nbtn:SetAttribute(\"type\", \"macro\") \nbtn:SetAttribute(\"macrotext1\", \"/wm \"..icon)\nbtn:SetAttribute(\"type2\", \"macro\") \nbtn:SetAttribute(\"macrotext2\", \"/cwm \"..icon)\n\nbtn:SetScript(\"OnEnter\",function(self)\n        region:SetAlpha(e.config.Enter)    \n        if e.config.cur==10 or (UnitAffectingCombat('player') and e.config.noShowTooltipsInCombat) then return end\n        \n        local cur={'ANCHOR_TOP' ,'ANCHOR_RIGHT','ANCHOR_BOTTOM','ANCHOR_LEFT','ANCHOR_TOPRIGHT','ANCHOR_BOTTOMRIGHT','ANCHOR_TOPLEFT','ANCHOR_BOTTOMLEFT','ANCHOR_CURSOR'}\n        cur=cur[e.config.cur]        \n        GameTooltip:SetOwner(self, e.cur)        \n        GameTooltip:ClearLines()\n        local m=''\n        \n        local marck={_G['WORLD_MARKER5'],_G['WORLD_MARKER6'],_G['WORLD_MARKER3'],_G['WORLD_MARKER2'],_G['WORLD_MARKER7'],_G['WORLD_MARKER1'],_G['WORLD_MARKER4'],_G['WORLD_MARKER8']}\n        local mar={6,4,3,7,1,2,5,8}\n        m=m..marck[mar[icon]]\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON1']..'|r'--左键点击操作\n        \n        \n        m=m..'\\n\\n'.._G['KEY_NUMLOCK_MAC']\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON2']..'|r'--右键点击\n        \n        m=e.col..m..'|r'\n        GameTooltip:SetText(m)\n        GameTooltip:Show()\n        \nend)\n\nbtn:SetScript(\"OnLeave\",function(self)\n        region:SetAlpha(e.config.Leave)\n        GameTooltip:Hide()        \nend)\nbtn:SetScript(\"OnMouseUp\", function(self)\n        region:SetAlpha(e.config.Enter)    \nend)\nbtn:SetScript(\"OnMouseDown\", function(self)\n        region:SetAlpha(e.config.Down)        \nend)\nbtn:Show()",
-					["do_custom"] = true,
-				},
-				["finish"] = {
-					["hide_all_glows"] = true,
-					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Hide() end",
-					["do_custom"] = true,
-				},
-				["init"] = {
-					["custom"] = "local e = aura_env\ne.col='|c'..RAID_CLASS_COLORS[select(2, UnitClass(\"player\"))].colorStr--职业颜色\n\nlocal region = WeakAuras.GetRegion(e.id) \n--型状\nlocal icon=e.config.id\nlocal mar={6,4,3,7,1,2,5,8}\nif e.config.point==1 then--水平\n    region:SetPoint('CENTER',-(mar[icon]+1)*25,0)\nelseif e.config.point==2 then--垂直\n    region:SetPoint('CENTER',0,(mar[icon]+1)*25)\nelseif e.config.point==3 then-- 方块 Square\n    region:SetPoint('CENTER',-125,25) \nend",
-					["do_custom"] = true,
-				},
-			},
-			["regionType"] = "texture",
 			["authorOptions"] = {
 				{
 					["type"] = "header",
@@ -38744,19 +38726,37 @@ WeakAurasSaved = {
 					["width"] = 2,
 				}, -- [9]
 			},
+			["mirror"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "texture",
+			["parent"] = "World-Target Markers",
 			["blendMode"] = "BLEND",
-			["xOffset"] = -200,
+			["actions"] = {
+				["start"] = {
+					["custom"] = "local e = aura_env\nlocal icon=e.config.id\n\nlocal region = WeakAuras.GetRegion(e.id) \nlocal btn=_G[e.id..\"Button\"]\nif not btn then      \n    btn = CreateFrame(\"Button\", e.id..\"Button\", UIParent, \"SecureActionButtonTemplate\")     \n    btn:SetAllPoints(region) \nend\n\nbtn:RegisterForClicks(\"LeftButtonDown\",\"RightButtonDown\")\nregion:SetAlpha(e.config.Leave)\n\nbtn:SetAttribute(\"type\", \"macro\") \nbtn:SetAttribute(\"macrotext1\", \"/wm \"..icon)\nbtn:SetAttribute(\"type2\", \"macro\") \nbtn:SetAttribute(\"macrotext2\", \"/cwm \"..icon)\n\nbtn:SetScript(\"OnEnter\",function(self)\n        region:SetAlpha(e.config.Enter)    \n        if e.config.cur==10 or (UnitAffectingCombat('player') and e.config.noShowTooltipsInCombat) then return end\n        \n        local cur={'ANCHOR_TOP' ,'ANCHOR_RIGHT','ANCHOR_BOTTOM','ANCHOR_LEFT','ANCHOR_TOPRIGHT','ANCHOR_BOTTOMRIGHT','ANCHOR_TOPLEFT','ANCHOR_BOTTOMLEFT','ANCHOR_CURSOR'}\n        cur=cur[e.config.cur]        \n        GameTooltip:SetOwner(self, e.cur)        \n        GameTooltip:ClearLines()\n        local m=''\n        \n        local marck={_G['WORLD_MARKER5'],_G['WORLD_MARKER6'],_G['WORLD_MARKER3'],_G['WORLD_MARKER2'],_G['WORLD_MARKER7'],_G['WORLD_MARKER1'],_G['WORLD_MARKER4'],_G['WORLD_MARKER8']}\n        local mar={6,4,3,7,1,2,5,8}\n        m=m..marck[mar[icon]]\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON1']..'|r'--左键点击操作\n        \n        \n        m=m..'\\n\\n'.._G['KEY_NUMLOCK_MAC']\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON2']..'|r'--右键点击\n        \n        m=e.col..m..'|r'\n        GameTooltip:SetText(m)\n        GameTooltip:Show()\n        \nend)\n\nbtn:SetScript(\"OnLeave\",function(self)\n        region:SetAlpha(e.config.Leave)\n        GameTooltip:Hide()        \nend)\nbtn:SetScript(\"OnMouseUp\", function(self)\n        region:SetAlpha(e.config.Enter)    \nend)\nbtn:SetScript(\"OnMouseDown\", function(self)\n        region:SetAlpha(e.config.Down)        \nend)\nbtn:Show()",
+					["do_custom"] = true,
+				},
+				["finish"] = {
+					["hide_all_glows"] = true,
+					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Hide() end",
+					["do_custom"] = true,
+				},
+				["init"] = {
+					["custom"] = "local e = aura_env\ne.col='|c'..RAID_CLASS_COLORS[select(2, UnitClass(\"player\"))].colorStr--职业颜色\n\nlocal region = WeakAuras.GetRegion(e.id) \n--型状\nlocal icon=e.config.id\nlocal mar={6,4,3,7,1,2,5,8}\nif e.config.point==1 then--水平\n    region:SetPoint('CENTER',-(mar[icon]+1)*25,0)\nelseif e.config.point==2 then--垂直\n    region:SetPoint('CENTER',0,(mar[icon]+1)*25)\nelseif e.config.point==3 then-- 方块 Square\n    region:SetPoint('CENTER',-125,25) \nend",
+					["do_custom"] = true,
+				},
+			},
 			["rotation"] = 0,
 			["texture"] = "Interface\\TargetingFrame\\UI-RaidTargetingIcon_7",
-			["auto"] = true,
-			["cooldownTextDisabled"] = false,
 			["semver"] = "9.2.83",
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 20501,
 			["id"] = "4 - Red Cross",
 			["width"] = 25,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["alpha"] = 0.5,
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
 			["uid"] = "7GgtBt4N5Uc",
 			["inverse"] = false,
 			["url"] = "https://wago.io/vQY6_rTnB/84",
@@ -38765,7 +38765,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "World-Target Markers",
+			["xOffset"] = -200,
 		},
 		["Sweeping Strikes (with Death Wish)"] = {
 			["iconSource"] = -1,
@@ -38814,8 +38814,8 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["spellName"] = 12328,
 						["type"] = "spell",
-						["subeventSuffix"] = "_CAST_START",
 						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["use_showOn"] = true,
 						["subeventPrefix"] = "SPELL",
 						["event"] = "Cooldown Progress (Spell)",
@@ -38887,7 +38887,7 @@ WeakAurasSaved = {
 					["text_shadowYOffset"] = 0,
 					["text_text_format_p_time_dynamic_threshold"] = 60,
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_anchorPoint"] = "INNER_BOTTOMRIGHT",
 					["text_shadowXOffset"] = 0,
 					["text_shadowColor"] = {
@@ -38898,7 +38898,7 @@ WeakAurasSaved = {
 					},
 					["text_fontSize"] = 12,
 					["anchorXOffset"] = 0,
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 				}, -- [1]
 			},
 			["height"] = 45,
@@ -38945,7 +38945,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -38955,33 +38955,40 @@ WeakAurasSaved = {
 				},
 				["use_alive"] = true,
 				["spellknown"] = 12292,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = 50,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Sweeping Strikes (with Death Wish)",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 45,
 			["frameStrata"] = 1,
+			["width"] = 45,
+			["alpha"] = 1,
 			["uid"] = "NE2Otm4pHLB",
 			["inverse"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = 50,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -39026,14 +39033,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Rogue-Kick"] = {
 			["iconSource"] = 0,
@@ -39066,8 +39066,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -39189,40 +39189,40 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName on %1.destName",
-					["message_format_1.spellName_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.destName_format"] = "none",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_.destName_format"] = "none",
 					["message_type"] = "PARTY",
 					["message_format_n_format"] = "none",
 					["message_format_1.sourceName_format"] = "none",
-					["message_format_.destName_format"] = "none",
+					["message_format_1.destName_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 132219,
 			["uid"] = "8XXR3SABUsc",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Rogue-Kick",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -39230,7 +39230,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Warlock-Spell Lock"] = {
 			["iconSource"] = 0,
@@ -39263,8 +39263,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = false,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -39386,40 +39386,40 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.spellName used on %1.destName",
-					["message_format_1.spellName_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.destName_format"] = "none",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_.destName_format"] = "none",
 					["message_type"] = "PARTY",
 					["message_format_n_format"] = "none",
 					["message_format_1.sourceName_format"] = "none",
-					["message_format_.destName_format"] = "none",
+					["message_format_1.destName_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 136174,
 			["uid"] = "TnW5hPsWmzm",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Warlock-Spell Lock",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -39427,7 +39427,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Overpower - Usable"] = {
 			["iconSource"] = -1,
@@ -39465,7 +39465,7 @@ WeakAurasSaved = {
 						["name"] = "Spell Reflection",
 						["debuffType"] = "HELPFUL",
 						["subeventSuffix"] = "_CAST_START",
-						["type"] = "spell",
+						["useName"] = true,
 						["use_debuffClass"] = false,
 						["unevent"] = "auto",
 						["spellName"] = 7384,
@@ -39477,7 +39477,7 @@ WeakAurasSaved = {
 						["spellIds"] = {
 							215572, -- [1]
 						},
-						["useName"] = true,
+						["type"] = "spell",
 						["matchesShowOn"] = "showOnActive",
 						["combineMatches"] = "showLowest",
 						["use_track"] = true,
@@ -39613,27 +39613,36 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = -100,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Overpower - Usable",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 45,
 			["frameStrata"] = 1,
+			["width"] = 45,
+			["alpha"] = 1,
 			["uid"] = "hmEgAO(zumK",
 			["inverse"] = false,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = -100,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -39678,16 +39687,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "",
-					["do_custom"] = false,
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Warlock-Fel Domination"] = {
 			["iconSource"] = 0,
@@ -39720,8 +39720,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -39843,38 +39843,38 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName",
-					["message_format_1.spellName_format"] = "none",
-					["message_format_n_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.sourceName_format"] = "none",
 					["message_type"] = "PARTY",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_1.sourceName_format"] = "none",
+					["message_format_n_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 136082,
 			["uid"] = "Zn6AYRC6Emv",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Warlock-Fel Domination",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -39882,7 +39882,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Nidjo : Nameplate Debuffs"] = {
 			["grow"] = "HORIZONTAL",
@@ -39934,7 +39934,8 @@ WeakAurasSaved = {
 			["stagger"] = 0,
 			["subRegions"] = {
 			},
-			["limit"] = 5,
+			["config"] = {
+			},
 			["uid"] = "gBsSheyqOFR",
 			["load"] = {
 				["size"] = {
@@ -39954,18 +39955,15 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["rotation"] = 0,
+			["useAnchorPerUnit"] = true,
 			["backdropColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				0.5, -- [4]
 			},
-			["useAnchorPerUnit"] = true,
+			["rotation"] = 0,
 			["animate"] = false,
-			["authorOptions"] = {
-			},
-			["scale"] = 0.5,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -39986,14 +39984,15 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["scale"] = 0.5,
+			["useLimit"] = false,
 			["border"] = false,
 			["borderEdge"] = "Square Full White",
 			["regionType"] = "dynamicgroup",
 			["borderSize"] = 2,
+			["limit"] = 5,
 			["sort"] = "none",
 			["rowSpace"] = 1,
-			["config"] = {
-			},
 			["constantFactor"] = "RADIUS",
 			["anchorPerUnit"] = "NAMEPLATE",
 			["borderOffset"] = 4,
@@ -40003,15 +40002,16 @@ WeakAurasSaved = {
 			["fullCircle"] = true,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["arcLength"] = 360,
-			["borderInset"] = 1,
 			["internalVersion"] = 45,
+			["borderInset"] = 1,
 			["gridType"] = "RD",
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 			},
 			["information"] = {
 			},
-			["useLimit"] = false,
+			["arcLength"] = 360,
 		},
 		["法反 2"] = {
 			["iconSource"] = -1,
@@ -40122,7 +40122,16 @@ WeakAurasSaved = {
 				["zoneIds"] = "",
 			},
 			["zoom"] = 0,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "aura_env.region.stacks:SetPoint(\"BOTTOMRIGHT\", aura_env.region, \"BOTTOMRIGHT\", 0, 0)\naura_env.region.stacks:SetShadowOffset(1, -1)",
+					["do_custom"] = false,
+				},
+			},
 			["regionType"] = "icon",
 			["animation"] = {
 				["start"] = {
@@ -40144,37 +40153,27 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["cooldown"] = true,
+			["parent"] = "pvp",
+			["config"] = {
+			},
+			["semver"] = "1.0.2",
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
+			["tocversion"] = 20501,
+			["id"] = "法反 2",
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
+			["width"] = 56.56667709350586,
+			["frameStrata"] = 1,
+			["uid"] = "eG8I(Wwl46Z",
+			["inverse"] = true,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
-			},
-			["cooldown"] = true,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "aura_env.region.stacks:SetPoint(\"BOTTOMRIGHT\", aura_env.region, \"BOTTOMRIGHT\", 0, 0)\naura_env.region.stacks:SetShadowOffset(1, -1)",
-					["do_custom"] = false,
-				},
-			},
-			["config"] = {
-			},
-			["auto"] = true,
-			["cooldownTextDisabled"] = false,
-			["semver"] = "1.0.2",
-			["tocversion"] = 20501,
-			["id"] = "法反 2",
-			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
-			["width"] = 56.56667709350586,
-			["alpha"] = 1,
-			["uid"] = "eG8I(Wwl46Z",
-			["inverse"] = true,
-			["authorOptions"] = {
 			},
 			["conditions"] = {
 				{
@@ -40223,7 +40222,8 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "pvp",
+			["authorOptions"] = {
+			},
 		},
 		["2 - Green Triangle"] = {
 			["wagoID"] = "vQY6_rTnB",
@@ -40255,11 +40255,11 @@ WeakAurasSaved = {
 						["subeventSuffix"] = "_CAST_START",
 						["custom"] = "function()    \n    if IsInGroup() and \n    select(4,GetBuildInfo()) >=40000 and\n    (IsInRaid() and  (UnitIsGroupAssistant('player') or UnitIsGroupLeader('player')) or not IsInRaid())    \n    then \n        return true        \n    end    \nend",
 						["customName"] = "function()--显示快捷键\n    local e=aura_env\n    if e.Key1 then\n        return e.Key1\n    else\n        return ''\n    end\nend\n\n",
-						["spellIds"] = {
-						},
+						["events"] = "GROUP_ROSTER_UPDATE PLAYER_ENTERING_WORLD PLAYER_REGEN_ENABLED",
 						["use_unit"] = true,
 						["check"] = "event",
-						["events"] = "GROUP_ROSTER_UPDATE PLAYER_ENTERING_WORLD PLAYER_REGEN_ENABLED",
+						["spellIds"] = {
+						},
 						["custom_type"] = "status",
 						["use_absorbMode"] = true,
 					},
@@ -40322,13 +40322,13 @@ WeakAurasSaved = {
 					["text_shadowYOffset"] = -3,
 					["text_anchorYOffset"] = 7,
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_anchorPoint"] = "CENTER",
 					["text_anchorXOffset"] = 7,
 					["text_shadowXOffset"] = 3,
 					["text_fontSize"] = 12,
 					["anchorXOffset"] = 0,
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 				}, -- [1]
 				{
 					["type"] = "subborder",
@@ -40385,24 +40385,6 @@ WeakAurasSaved = {
 				["Leave"] = 0.3,
 			},
 			["zoom"] = 0,
-			["selfPoint"] = "CENTER",
-			["mirror"] = false,
-			["actions"] = {
-				["start"] = {
-					["custom"] = "local e = aura_env\nlocal icon=e.config.id\n\nlocal region = WeakAuras.GetRegion(e.id) \nlocal btn=_G[e.id..\"Button\"]\nif not btn then      \n    btn = CreateFrame(\"Button\", e.id..\"Button\", UIParent, \"SecureActionButtonTemplate\")     \n    btn:SetAllPoints(region) \nend\n\nbtn:RegisterForClicks(\"LeftButtonDown\",\"RightButtonDown\")\nregion:SetAlpha(e.config.Leave)\n\nbtn:SetAttribute(\"type\", \"macro\") \nbtn:SetAttribute(\"macrotext1\", \"/wm \"..icon)\nbtn:SetAttribute(\"type2\", \"macro\") \nbtn:SetAttribute(\"macrotext2\", \"/cwm \"..icon)\n\nbtn:SetScript(\"OnEnter\",function(self)\n        region:SetAlpha(e.config.Enter)    \n        if e.config.cur==10 or (UnitAffectingCombat('player') and e.config.noShowTooltipsInCombat) then return end\n        \n        local cur={'ANCHOR_TOP' ,'ANCHOR_RIGHT','ANCHOR_BOTTOM','ANCHOR_LEFT','ANCHOR_TOPRIGHT','ANCHOR_BOTTOMRIGHT','ANCHOR_TOPLEFT','ANCHOR_BOTTOMLEFT','ANCHOR_CURSOR'}\n        cur=cur[e.config.cur]        \n        GameTooltip:SetOwner(self, e.cur)        \n        GameTooltip:ClearLines()\n        local m=''\n        \n        local marck={_G['WORLD_MARKER5'],_G['WORLD_MARKER6'],_G['WORLD_MARKER3'],_G['WORLD_MARKER2'],_G['WORLD_MARKER7'],_G['WORLD_MARKER1'],_G['WORLD_MARKER4'],_G['WORLD_MARKER8']}\n        local mar={6,4,3,7,1,2,5,8}\n        m=m..marck[mar[icon]]\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON1']..'|r'--左键点击操作\n        \n        \n        m=m..'\\n\\n'.._G['KEY_NUMLOCK_MAC']\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON2']..'|r'--右键点击\n        \n        m=e.col..m..'|r'\n        GameTooltip:SetText(m)\n        GameTooltip:Show()\n        \nend)\n\nbtn:SetScript(\"OnLeave\",function(self)\n        region:SetAlpha(e.config.Leave)\n        GameTooltip:Hide()        \nend)\nbtn:SetScript(\"OnMouseUp\", function(self)\n        region:SetAlpha(e.config.Enter)    \nend)\nbtn:SetScript(\"OnMouseDown\", function(self)\n        region:SetAlpha(e.config.Down)        \nend)\nbtn:Show()",
-					["do_custom"] = true,
-				},
-				["finish"] = {
-					["hide_all_glows"] = true,
-					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Hide() end",
-					["do_custom"] = true,
-				},
-				["init"] = {
-					["custom"] = "local e = aura_env\ne.col='|c'..RAID_CLASS_COLORS[select(2, UnitClass(\"player\"))].colorStr--职业颜色\n\nlocal region = WeakAuras.GetRegion(e.id) \n--型状\nlocal icon=e.config.id\nlocal mar={6,4,3,7,1,2,5,8}\nif e.config.point==1 then--水平\n    region:SetPoint('CENTER',-(mar[icon]+1)*25,0)\nelseif e.config.point==2 then--垂直\n    region:SetPoint('CENTER',0,(mar[icon]+1)*25)\nelseif e.config.point==3 then-- 方块 Square\n    region:SetPoint('CENTER',-100,25) \nend",
-					["do_custom"] = true,
-				},
-			},
-			["regionType"] = "texture",
 			["authorOptions"] = {
 				{
 					["type"] = "header",
@@ -40503,19 +40485,37 @@ WeakAurasSaved = {
 					["width"] = 2,
 				}, -- [9]
 			},
+			["mirror"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "texture",
+			["parent"] = "World-Target Markers",
 			["blendMode"] = "BLEND",
-			["xOffset"] = -125,
+			["actions"] = {
+				["start"] = {
+					["custom"] = "local e = aura_env\nlocal icon=e.config.id\n\nlocal region = WeakAuras.GetRegion(e.id) \nlocal btn=_G[e.id..\"Button\"]\nif not btn then      \n    btn = CreateFrame(\"Button\", e.id..\"Button\", UIParent, \"SecureActionButtonTemplate\")     \n    btn:SetAllPoints(region) \nend\n\nbtn:RegisterForClicks(\"LeftButtonDown\",\"RightButtonDown\")\nregion:SetAlpha(e.config.Leave)\n\nbtn:SetAttribute(\"type\", \"macro\") \nbtn:SetAttribute(\"macrotext1\", \"/wm \"..icon)\nbtn:SetAttribute(\"type2\", \"macro\") \nbtn:SetAttribute(\"macrotext2\", \"/cwm \"..icon)\n\nbtn:SetScript(\"OnEnter\",function(self)\n        region:SetAlpha(e.config.Enter)    \n        if e.config.cur==10 or (UnitAffectingCombat('player') and e.config.noShowTooltipsInCombat) then return end\n        \n        local cur={'ANCHOR_TOP' ,'ANCHOR_RIGHT','ANCHOR_BOTTOM','ANCHOR_LEFT','ANCHOR_TOPRIGHT','ANCHOR_BOTTOMRIGHT','ANCHOR_TOPLEFT','ANCHOR_BOTTOMLEFT','ANCHOR_CURSOR'}\n        cur=cur[e.config.cur]        \n        GameTooltip:SetOwner(self, e.cur)        \n        GameTooltip:ClearLines()\n        local m=''\n        \n        local marck={_G['WORLD_MARKER5'],_G['WORLD_MARKER6'],_G['WORLD_MARKER3'],_G['WORLD_MARKER2'],_G['WORLD_MARKER7'],_G['WORLD_MARKER1'],_G['WORLD_MARKER4'],_G['WORLD_MARKER8']}\n        local mar={6,4,3,7,1,2,5,8}\n        m=m..marck[mar[icon]]\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON1']..'|r'--左键点击操作\n        \n        \n        m=m..'\\n\\n'.._G['KEY_NUMLOCK_MAC']\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON2']..'|r'--右键点击\n        \n        m=e.col..m..'|r'\n        GameTooltip:SetText(m)\n        GameTooltip:Show()\n        \nend)\n\nbtn:SetScript(\"OnLeave\",function(self)\n        region:SetAlpha(e.config.Leave)\n        GameTooltip:Hide()        \nend)\nbtn:SetScript(\"OnMouseUp\", function(self)\n        region:SetAlpha(e.config.Enter)    \nend)\nbtn:SetScript(\"OnMouseDown\", function(self)\n        region:SetAlpha(e.config.Down)        \nend)\nbtn:Show()",
+					["do_custom"] = true,
+				},
+				["finish"] = {
+					["hide_all_glows"] = true,
+					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Hide() end",
+					["do_custom"] = true,
+				},
+				["init"] = {
+					["custom"] = "local e = aura_env\ne.col='|c'..RAID_CLASS_COLORS[select(2, UnitClass(\"player\"))].colorStr--职业颜色\n\nlocal region = WeakAuras.GetRegion(e.id) \n--型状\nlocal icon=e.config.id\nlocal mar={6,4,3,7,1,2,5,8}\nif e.config.point==1 then--水平\n    region:SetPoint('CENTER',-(mar[icon]+1)*25,0)\nelseif e.config.point==2 then--垂直\n    region:SetPoint('CENTER',0,(mar[icon]+1)*25)\nelseif e.config.point==3 then-- 方块 Square\n    region:SetPoint('CENTER',-100,25) \nend",
+					["do_custom"] = true,
+				},
+			},
 			["rotation"] = 0,
 			["texture"] = "Interface\\TargetingFrame\\UI-RaidTargetingIcon_4",
-			["auto"] = true,
-			["cooldownTextDisabled"] = false,
 			["semver"] = "9.2.83",
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 20501,
 			["id"] = "2 - Green Triangle",
 			["width"] = 25,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["alpha"] = 0.5,
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
 			["uid"] = "pz9wnW9pt59",
 			["inverse"] = false,
 			["url"] = "https://wago.io/vQY6_rTnB/84",
@@ -40524,7 +40524,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "World-Target Markers",
+			["xOffset"] = -125,
 		},
 		["7 - Pale Blue Moon"] = {
 			["wagoID"] = "vQY6_rTnB",
@@ -40556,11 +40556,11 @@ WeakAurasSaved = {
 						["subeventSuffix"] = "_CAST_START",
 						["custom"] = "function()    \n    if IsInGroup() and \n    select(4,GetBuildInfo()) >=40000 and\n    (IsInRaid() and  (UnitIsGroupAssistant('player') or UnitIsGroupLeader('player')) or not IsInRaid())    \n    then \n        return true        \n    end    \nend",
 						["customName"] = "function()--显示快捷键\n    local e=aura_env\n    if e.Key1 then\n        return e.Key1\n    else\n        return ''\n    end\nend\n\n",
-						["spellIds"] = {
-						},
+						["events"] = "GROUP_ROSTER_UPDATE PLAYER_ENTERING_WORLD PLAYER_REGEN_ENABLED",
 						["use_unit"] = true,
 						["check"] = "event",
-						["events"] = "GROUP_ROSTER_UPDATE PLAYER_ENTERING_WORLD PLAYER_REGEN_ENABLED",
+						["spellIds"] = {
+						},
 						["custom_type"] = "status",
 						["use_absorbMode"] = true,
 					},
@@ -40623,13 +40623,13 @@ WeakAurasSaved = {
 					["text_shadowYOffset"] = -3,
 					["text_anchorYOffset"] = 7,
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_anchorPoint"] = "CENTER",
 					["text_anchorXOffset"] = 7,
 					["text_shadowXOffset"] = 3,
 					["text_fontSize"] = 12,
 					["anchorXOffset"] = 0,
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 				}, -- [1]
 				{
 					["type"] = "subborder",
@@ -40686,24 +40686,6 @@ WeakAurasSaved = {
 				["Leave"] = 0.3,
 			},
 			["zoom"] = 0,
-			["selfPoint"] = "CENTER",
-			["mirror"] = false,
-			["actions"] = {
-				["start"] = {
-					["custom"] = "local e = aura_env\nlocal icon=e.config.id\n\nlocal region = WeakAuras.GetRegion(e.id) \nlocal btn=_G[e.id..\"Button\"]\nif not btn then      \n    btn = CreateFrame(\"Button\", e.id..\"Button\", UIParent, \"SecureActionButtonTemplate\")     \n    btn:SetAllPoints(region) \nend\n\nbtn:RegisterForClicks(\"LeftButtonDown\",\"RightButtonDown\")\nregion:SetAlpha(e.config.Leave)\n\nbtn:SetAttribute(\"type\", \"macro\") \nbtn:SetAttribute(\"macrotext1\", \"/wm \"..icon)\nbtn:SetAttribute(\"type2\", \"macro\") \nbtn:SetAttribute(\"macrotext2\", \"/cwm \"..icon)\n\nbtn:SetScript(\"OnEnter\",function(self)\n        region:SetAlpha(e.config.Enter)    \n        if e.config.cur==10 or (UnitAffectingCombat('player') and e.config.noShowTooltipsInCombat) then return end\n        \n        local cur={'ANCHOR_TOP' ,'ANCHOR_RIGHT','ANCHOR_BOTTOM','ANCHOR_LEFT','ANCHOR_TOPRIGHT','ANCHOR_BOTTOMRIGHT','ANCHOR_TOPLEFT','ANCHOR_BOTTOMLEFT','ANCHOR_CURSOR'}\n        cur=cur[e.config.cur]        \n        GameTooltip:SetOwner(self, e.cur)        \n        GameTooltip:ClearLines()\n        local m=''\n        \n        local marck={_G['WORLD_MARKER5'],_G['WORLD_MARKER6'],_G['WORLD_MARKER3'],_G['WORLD_MARKER2'],_G['WORLD_MARKER7'],_G['WORLD_MARKER1'],_G['WORLD_MARKER4'],_G['WORLD_MARKER8']}\n        local mar={6,4,3,7,1,2,5,8}\n        m=m..marck[mar[icon]]\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON1']..'|r'--左键点击操作\n        \n        \n        m=m..'\\n\\n'.._G['KEY_NUMLOCK_MAC']\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON2']..'|r'--右键点击\n        \n        m=e.col..m..'|r'\n        GameTooltip:SetText(m)\n        GameTooltip:Show()\n        \nend)\n\nbtn:SetScript(\"OnLeave\",function(self)\n        region:SetAlpha(e.config.Leave)\n        GameTooltip:Hide()        \nend)\nbtn:SetScript(\"OnMouseUp\", function(self)\n        region:SetAlpha(e.config.Enter)    \nend)\nbtn:SetScript(\"OnMouseDown\", function(self)\n        region:SetAlpha(e.config.Down)        \nend)\nbtn:Show()",
-					["do_custom"] = true,
-				},
-				["finish"] = {
-					["hide_all_glows"] = true,
-					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Hide() end",
-					["do_custom"] = true,
-				},
-				["init"] = {
-					["custom"] = "local e = aura_env\ne.col='|c'..RAID_CLASS_COLORS[select(2, UnitClass(\"player\"))].colorStr--职业颜色\n\nlocal region = WeakAuras.GetRegion(e.id) \n--型状\nlocal icon=e.config.id\nlocal mar={6,4,3,7,1,2,5,8}\nif e.config.point==1 then--水平\n    region:SetPoint('CENTER',-(mar[icon]+1)*25,0)\nelseif e.config.point==2 then--垂直\n    region:SetPoint('CENTER',0,(mar[icon]+1)*25)\nelseif e.config.point==3 then-- 方块 Square\n    region:SetPoint('CENTER',-100,50) \nend",
-					["do_custom"] = true,
-				},
-			},
-			["regionType"] = "texture",
 			["authorOptions"] = {
 				{
 					["type"] = "header",
@@ -40804,19 +40786,37 @@ WeakAurasSaved = {
 					["width"] = 2,
 				}, -- [9]
 			},
+			["mirror"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "texture",
+			["parent"] = "World-Target Markers",
 			["blendMode"] = "BLEND",
-			["xOffset"] = -150,
+			["actions"] = {
+				["start"] = {
+					["custom"] = "local e = aura_env\nlocal icon=e.config.id\n\nlocal region = WeakAuras.GetRegion(e.id) \nlocal btn=_G[e.id..\"Button\"]\nif not btn then      \n    btn = CreateFrame(\"Button\", e.id..\"Button\", UIParent, \"SecureActionButtonTemplate\")     \n    btn:SetAllPoints(region) \nend\n\nbtn:RegisterForClicks(\"LeftButtonDown\",\"RightButtonDown\")\nregion:SetAlpha(e.config.Leave)\n\nbtn:SetAttribute(\"type\", \"macro\") \nbtn:SetAttribute(\"macrotext1\", \"/wm \"..icon)\nbtn:SetAttribute(\"type2\", \"macro\") \nbtn:SetAttribute(\"macrotext2\", \"/cwm \"..icon)\n\nbtn:SetScript(\"OnEnter\",function(self)\n        region:SetAlpha(e.config.Enter)    \n        if e.config.cur==10 or (UnitAffectingCombat('player') and e.config.noShowTooltipsInCombat) then return end\n        \n        local cur={'ANCHOR_TOP' ,'ANCHOR_RIGHT','ANCHOR_BOTTOM','ANCHOR_LEFT','ANCHOR_TOPRIGHT','ANCHOR_BOTTOMRIGHT','ANCHOR_TOPLEFT','ANCHOR_BOTTOMLEFT','ANCHOR_CURSOR'}\n        cur=cur[e.config.cur]        \n        GameTooltip:SetOwner(self, e.cur)        \n        GameTooltip:ClearLines()\n        local m=''\n        \n        local marck={_G['WORLD_MARKER5'],_G['WORLD_MARKER6'],_G['WORLD_MARKER3'],_G['WORLD_MARKER2'],_G['WORLD_MARKER7'],_G['WORLD_MARKER1'],_G['WORLD_MARKER4'],_G['WORLD_MARKER8']}\n        local mar={6,4,3,7,1,2,5,8}\n        m=m..marck[mar[icon]]\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON1']..'|r'--左键点击操作\n        \n        \n        m=m..'\\n\\n'.._G['KEY_NUMLOCK_MAC']\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON2']..'|r'--右键点击\n        \n        m=e.col..m..'|r'\n        GameTooltip:SetText(m)\n        GameTooltip:Show()\n        \nend)\n\nbtn:SetScript(\"OnLeave\",function(self)\n        region:SetAlpha(e.config.Leave)\n        GameTooltip:Hide()        \nend)\nbtn:SetScript(\"OnMouseUp\", function(self)\n        region:SetAlpha(e.config.Enter)    \nend)\nbtn:SetScript(\"OnMouseDown\", function(self)\n        region:SetAlpha(e.config.Down)        \nend)\nbtn:Show()",
+					["do_custom"] = true,
+				},
+				["finish"] = {
+					["hide_all_glows"] = true,
+					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Hide() end",
+					["do_custom"] = true,
+				},
+				["init"] = {
+					["custom"] = "local e = aura_env\ne.col='|c'..RAID_CLASS_COLORS[select(2, UnitClass(\"player\"))].colorStr--职业颜色\n\nlocal region = WeakAuras.GetRegion(e.id) \n--型状\nlocal icon=e.config.id\nlocal mar={6,4,3,7,1,2,5,8}\nif e.config.point==1 then--水平\n    region:SetPoint('CENTER',-(mar[icon]+1)*25,0)\nelseif e.config.point==2 then--垂直\n    region:SetPoint('CENTER',0,(mar[icon]+1)*25)\nelseif e.config.point==3 then-- 方块 Square\n    region:SetPoint('CENTER',-100,50) \nend",
+					["do_custom"] = true,
+				},
+			},
 			["rotation"] = 0,
 			["texture"] = "Interface\\TargetingFrame\\UI-RaidTargetingIcon_5",
-			["auto"] = true,
-			["cooldownTextDisabled"] = false,
 			["semver"] = "9.2.83",
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 20501,
 			["id"] = "7 - Pale Blue Moon",
 			["width"] = 25,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["alpha"] = 0.5,
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
 			["uid"] = "5pWkheV7jlO",
 			["inverse"] = false,
 			["url"] = "https://wago.io/vQY6_rTnB/84",
@@ -40825,7 +40825,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "World-Target Markers",
+			["xOffset"] = -150,
 		},
 		["6 - Orange Circle"] = {
 			["wagoID"] = "vQY6_rTnB",
@@ -40857,11 +40857,11 @@ WeakAurasSaved = {
 						["subeventSuffix"] = "_CAST_START",
 						["custom"] = "function()    \n    if IsInGroup() and \n    select(4,GetBuildInfo()) >=40000 and\n    (IsInRaid() and  (UnitIsGroupAssistant('player') or UnitIsGroupLeader('player')) or not IsInRaid())    \n    then \n        return true        \n    end    \nend",
 						["customName"] = "function()--显示快捷键\n    local e=aura_env\n    if e.Key1 then\n        return e.Key1\n    else\n        return ''\n    end\nend\n\n",
-						["spellIds"] = {
-						},
+						["events"] = "GROUP_ROSTER_UPDATE PLAYER_ENTERING_WORLD PLAYER_REGEN_ENABLED",
 						["use_unit"] = true,
 						["check"] = "event",
-						["events"] = "GROUP_ROSTER_UPDATE PLAYER_ENTERING_WORLD PLAYER_REGEN_ENABLED",
+						["spellIds"] = {
+						},
 						["custom_type"] = "status",
 						["use_absorbMode"] = true,
 					},
@@ -40924,13 +40924,13 @@ WeakAurasSaved = {
 					["text_shadowYOffset"] = -3,
 					["text_anchorYOffset"] = 7,
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_anchorPoint"] = "CENTER",
 					["text_anchorXOffset"] = 7,
 					["text_shadowXOffset"] = 3,
 					["text_fontSize"] = 12,
 					["anchorXOffset"] = 0,
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 				}, -- [1]
 				{
 					["type"] = "subborder",
@@ -40987,24 +40987,6 @@ WeakAurasSaved = {
 				["Leave"] = 0.3,
 			},
 			["zoom"] = 0,
-			["selfPoint"] = "CENTER",
-			["mirror"] = false,
-			["actions"] = {
-				["start"] = {
-					["custom"] = "local e = aura_env\nlocal icon=e.config.id\n\nlocal region = WeakAuras.GetRegion(e.id) \nlocal btn=_G[e.id..\"Button\"]\nif not btn then      \n    btn = CreateFrame(\"Button\", e.id..\"Button\", UIParent, \"SecureActionButtonTemplate\")     \n    btn:SetAllPoints(region) \nend\n\nbtn:RegisterForClicks(\"LeftButtonDown\",\"RightButtonDown\")\nregion:SetAlpha(e.config.Leave)\n\nbtn:SetAttribute(\"type\", \"macro\") \nbtn:SetAttribute(\"macrotext1\", \"/wm \"..icon)\nbtn:SetAttribute(\"type2\", \"macro\") \nbtn:SetAttribute(\"macrotext2\", \"/cwm \"..icon)\n\nbtn:SetScript(\"OnEnter\",function(self)\n        region:SetAlpha(e.config.Enter)    \n        if e.config.cur==10 or (UnitAffectingCombat('player') and e.config.noShowTooltipsInCombat) then return end\n        \n        local cur={'ANCHOR_TOP' ,'ANCHOR_RIGHT','ANCHOR_BOTTOM','ANCHOR_LEFT','ANCHOR_TOPRIGHT','ANCHOR_BOTTOMRIGHT','ANCHOR_TOPLEFT','ANCHOR_BOTTOMLEFT','ANCHOR_CURSOR'}\n        cur=cur[e.config.cur]        \n        GameTooltip:SetOwner(self, e.cur)        \n        GameTooltip:ClearLines()\n        local m=''\n        \n        local marck={_G['WORLD_MARKER5'],_G['WORLD_MARKER6'],_G['WORLD_MARKER3'],_G['WORLD_MARKER2'],_G['WORLD_MARKER7'],_G['WORLD_MARKER1'],_G['WORLD_MARKER4'],_G['WORLD_MARKER8']}\n        local mar={6,4,3,7,1,2,5,8}\n        m=m..marck[mar[icon]]\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON1']..'|r'--左键点击操作\n        \n        \n        m=m..'\\n\\n'.._G['KEY_NUMLOCK_MAC']\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON2']..'|r'--右键点击\n        \n        m=e.col..m..'|r'\n        GameTooltip:SetText(m)\n        GameTooltip:Show()\n        \nend)\n\nbtn:SetScript(\"OnLeave\",function(self)\n        region:SetAlpha(e.config.Leave)\n        GameTooltip:Hide()        \nend)\nbtn:SetScript(\"OnMouseUp\", function(self)\n        region:SetAlpha(e.config.Enter)    \nend)\nbtn:SetScript(\"OnMouseDown\", function(self)\n        region:SetAlpha(e.config.Down)        \nend)\nbtn:Show()",
-					["do_custom"] = true,
-				},
-				["finish"] = {
-					["hide_all_glows"] = true,
-					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Hide() end",
-					["do_custom"] = true,
-				},
-				["init"] = {
-					["custom"] = "local e = aura_env\ne.col='|c'..RAID_CLASS_COLORS[select(2, UnitClass(\"player\"))].colorStr--职业颜色\n\nlocal region = WeakAuras.GetRegion(e.id) \n--型状\nlocal icon=e.config.id\nlocal mar={6,4,3,7,1,2,5,8}\nif e.config.point==1 then--水平\n    region:SetPoint('CENTER',-(mar[icon]+1)*25,0)\nelseif e.config.point==2 then--垂直\n    region:SetPoint('CENTER',0,(mar[icon]+1)*25)\nelseif e.config.point==3 then-- 方块 Square\n    region:SetPoint('CENTER',-75,50) \nend",
-					["do_custom"] = true,
-				},
-			},
-			["regionType"] = "texture",
 			["authorOptions"] = {
 				{
 					["type"] = "header",
@@ -41105,19 +41087,37 @@ WeakAurasSaved = {
 					["width"] = 2,
 				}, -- [9]
 			},
+			["mirror"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "texture",
+			["parent"] = "World-Target Markers",
 			["blendMode"] = "BLEND",
-			["xOffset"] = -75,
+			["actions"] = {
+				["start"] = {
+					["custom"] = "local e = aura_env\nlocal icon=e.config.id\n\nlocal region = WeakAuras.GetRegion(e.id) \nlocal btn=_G[e.id..\"Button\"]\nif not btn then      \n    btn = CreateFrame(\"Button\", e.id..\"Button\", UIParent, \"SecureActionButtonTemplate\")     \n    btn:SetAllPoints(region) \nend\n\nbtn:RegisterForClicks(\"LeftButtonDown\",\"RightButtonDown\")\nregion:SetAlpha(e.config.Leave)\n\nbtn:SetAttribute(\"type\", \"macro\") \nbtn:SetAttribute(\"macrotext1\", \"/wm \"..icon)\nbtn:SetAttribute(\"type2\", \"macro\") \nbtn:SetAttribute(\"macrotext2\", \"/cwm \"..icon)\n\nbtn:SetScript(\"OnEnter\",function(self)\n        region:SetAlpha(e.config.Enter)    \n        if e.config.cur==10 or (UnitAffectingCombat('player') and e.config.noShowTooltipsInCombat) then return end\n        \n        local cur={'ANCHOR_TOP' ,'ANCHOR_RIGHT','ANCHOR_BOTTOM','ANCHOR_LEFT','ANCHOR_TOPRIGHT','ANCHOR_BOTTOMRIGHT','ANCHOR_TOPLEFT','ANCHOR_BOTTOMLEFT','ANCHOR_CURSOR'}\n        cur=cur[e.config.cur]        \n        GameTooltip:SetOwner(self, e.cur)        \n        GameTooltip:ClearLines()\n        local m=''\n        \n        local marck={_G['WORLD_MARKER5'],_G['WORLD_MARKER6'],_G['WORLD_MARKER3'],_G['WORLD_MARKER2'],_G['WORLD_MARKER7'],_G['WORLD_MARKER1'],_G['WORLD_MARKER4'],_G['WORLD_MARKER8']}\n        local mar={6,4,3,7,1,2,5,8}\n        m=m..marck[mar[icon]]\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON1']..'|r'--左键点击操作\n        \n        \n        m=m..'\\n\\n'.._G['KEY_NUMLOCK_MAC']\n        m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON2']..'|r'--右键点击\n        \n        m=e.col..m..'|r'\n        GameTooltip:SetText(m)\n        GameTooltip:Show()\n        \nend)\n\nbtn:SetScript(\"OnLeave\",function(self)\n        region:SetAlpha(e.config.Leave)\n        GameTooltip:Hide()        \nend)\nbtn:SetScript(\"OnMouseUp\", function(self)\n        region:SetAlpha(e.config.Enter)    \nend)\nbtn:SetScript(\"OnMouseDown\", function(self)\n        region:SetAlpha(e.config.Down)        \nend)\nbtn:Show()",
+					["do_custom"] = true,
+				},
+				["finish"] = {
+					["hide_all_glows"] = true,
+					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Hide() end",
+					["do_custom"] = true,
+				},
+				["init"] = {
+					["custom"] = "local e = aura_env\ne.col='|c'..RAID_CLASS_COLORS[select(2, UnitClass(\"player\"))].colorStr--职业颜色\n\nlocal region = WeakAuras.GetRegion(e.id) \n--型状\nlocal icon=e.config.id\nlocal mar={6,4,3,7,1,2,5,8}\nif e.config.point==1 then--水平\n    region:SetPoint('CENTER',-(mar[icon]+1)*25,0)\nelseif e.config.point==2 then--垂直\n    region:SetPoint('CENTER',0,(mar[icon]+1)*25)\nelseif e.config.point==3 then-- 方块 Square\n    region:SetPoint('CENTER',-75,50) \nend",
+					["do_custom"] = true,
+				},
+			},
 			["rotation"] = 0,
 			["texture"] = "Interface\\TargetingFrame\\UI-RaidTargetingIcon_2",
-			["auto"] = true,
-			["cooldownTextDisabled"] = false,
 			["semver"] = "9.2.83",
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 20501,
 			["id"] = "6 - Orange Circle",
 			["width"] = 25,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["alpha"] = 0.5,
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
 			["uid"] = "Cldd(lrJHaW",
 			["inverse"] = false,
 			["url"] = "https://wago.io/vQY6_rTnB/84",
@@ -41126,7 +41126,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "World-Target Markers",
+			["xOffset"] = -75,
 		},
 		["Paladin-Blessing of Sacrifice"] = {
 			["iconSource"] = 0,
@@ -41159,8 +41159,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -41282,40 +41282,40 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName on %1.destName",
-					["message_format_1.spellName_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.destName_format"] = "none",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_.destName_format"] = "none",
 					["message_type"] = "PARTY",
 					["message_format_n_format"] = "none",
 					["message_format_1.sourceName_format"] = "none",
-					["message_format_.destName_format"] = "none",
+					["message_format_1.destName_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 135966,
 			["uid"] = "jcgbqt5dZgn",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Paladin-Blessing of Sacrifice",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -41323,7 +41323,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["7插插\"X\" Cross"] = {
 			["wagoID"] = "vQY6_rTnB",
@@ -41345,10 +41345,10 @@ WeakAurasSaved = {
 					["do_custom"] = true,
 				},
 				["finish"] = {
-					["do_custom"] = true,
-					["hide_all_glows"] = true,
 					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Hide() end",
+					["hide_all_glows"] = true,
 					["do_message"] = false,
+					["do_custom"] = true,
 				},
 				["init"] = {
 					["custom"] = "local e = aura_env\ne.icon=e.config.id\ne.col='|c'..RAID_CLASS_COLORS[select(2, UnitClass(\"player\"))].colorStr--职业颜色\n\nlocal X='|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_7:0|t'--x\nlocal S='|TInterface\\\\Addons\\\\WeakAuras\\\\PowerAurasMedia\\\\Auras\\\\Aura78:0|t'--√\n\nlocal btn=_G[e.id..\"Button\"]\nlocal region = WeakAuras.GetRegion(e.id) \nif not btn then      \n    btn = CreateFrame(\"Button\", e.id..\"Button\", UIParent, \"SecureActionButtonTemplate\")     \n    btn:SetAllPoints(region) \nend\n\nregion:SetAlpha(e.config.Leave)\n\nbtn:RegisterForClicks(\"LeftButtonDown\",\"RightButtonDown\")\nbtn:SetAttribute(\"type\", \"macro\") \nbtn:SetAttribute(\"macrotext1\", \"/script SetRaidTarget(\\\"target\\\",\"..e.icon..\")\")\nbtn:SetAttribute(\"type2\", \"macro\")\ne.btn2=function()\n    if e.str then \n        btn:SetAttribute(\"macrotext2\", \"/target \"..e.str)\n    else\n        btn:SetAttribute(\"macrotext2\", \"\")\n    end \nend\n\ne.TipsShow=function(self)    \n    if e.config.cur==10 or (UnitAffectingCombat('player') and e.config.noShowTooltipsInCombat) then return end\n    \n    local cur={'ANCHOR_TOP' ,'ANCHOR_RIGHT','ANCHOR_BOTTOM','ANCHOR_LEFT','ANCHOR_TOPRIGHT','ANCHOR_BOTTOMRIGHT','ANCHOR_TOPLEFT','ANCHOR_BOTTOMLEFT','ANCHOR_CURSOR'}\n    cur=cur[e.config.cur]\n    GameTooltip:SetOwner(self, cur)        \n    GameTooltip:ClearLines()    \n    local m=''\n    \n    m=m.._G['SETTINGS']..': |TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t'\n    \n    m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON1']..'|r\\n'--左键点击操作\n    m=m..'|cFF00FF00'.._G['KEY_MOUSEWHEELUP']..'|r'--鼠标滚轮向上滚动\n    \n    \n    m=m..'\\n\\n'.._G['BINDING_NAME_RAIDTARGETNONE']\n    m=m..'\\n|cFF00FF00'.._G['KEY_MOUSEWHEELDOWN']..'|r'--鼠标滚轮向下滚动\n    \n    \n    m=m..'\\n\\n'.._G['BINDING_HEADER_TARGETING']\n    if e.Tar then m=m..'(|cFFFF9000'..e.Tar..'|r)' end--选中目标数量\n    if e.str then m=m..': '..e.str else m=m..': ...' end        \n    m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON2']..'|r'--右键点击\n    \n    local s=_G[e.config.S] or e.config.S\n    m=m..'\\n\\n'.._G['SAY']..'(|cFFFF9000'..s..'|r): '\n    if e.Chat then m=m..'|cFF00FF00'.._G['ENABLE']..'|r' else m=m..'|cFFFF0000'.._G['DISABLE']..'|r' end\n    m=m..'\\n|cFF00FF00Alt + '.._G['KEY_MOUSEWHEELUP']..'|r'--鼠标滚轮向下滚动\n    \n    \n    m=m..'\\n\\n|cFFFF00FF|T134248:0|t '..e.config.Key1..'|r: '..string.match(_G['BINDING_NAME_ACTIONBUTTON1'],'(.+)%d')\n    if e.Key1 then \n        m=m..S..'|cFF00FF00'.._G['ENABLE']..'|r'\n    else \n        m=m..X..'|cFFFF0000'.._G['DISABLE']..'|r'\n    end \n    m=m..'\\n|T134248:0|t|cFFFF00FFAlt + '..e.config.Key1..'|r: '\n    if e.str then m=m..e.str else m=m.._G['TARGET'] end\n    if e.Key1 then \n        m=m..S..'|cFF00FF00'.._G['ENABLE']..'|r'\n    else \n        m=m..X..'|cFFFF0000'.._G['DISABLE']..'|r'\n    end \n    m=m..'\\n|cFF00FF00Alt + '.._G['KEY_MOUSEWHEELDOWN']..'|r'--鼠标滚轮向下滚动\n    \n    m=e.col..m..'|r'\n    GameTooltip:SetText(m)            \n    GameTooltip:Show()        \nend\n\ne.GetKey=function()\n    if UnitAffectingCombat('player') then return end\n    ClearOverrideBindings(btn)\n    local SetKey=function(k,RL,S)\n        if not k then return end \n        local s=S or '' \n        local C \n        if RL=='R' then\n            C='RightButton' \n        else\n        C='LeftButton' end \n        SetOverrideBindingClick(btn, true, k, btn:GetName(), C) \n        if not WeakAuras.IsOptionsOpen() then\n            print('|cFF00FF00'.._G['SETTINGS']..'|T134248:12|t|r|cFFFF00FF'..k..'|r: '..e.col..s..'|r') \n        end        \n    end\n    \n    local sa = WeakAurasSaved[e.id..'key1']\n    local key=string.gsub(e.config.Key1,' ','')\n    if sa and sa==1 and key~='' then        \n        SetKey(key,'L','|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t') \n        SetKey('ALT-'..key,'R', _G['TARGET']) \n        if #key==1 then e.Key1=e.col..string.upper(key)..'|r' else e.Key1='|T134248:12|t' end\n    else\n        e.Key1=nil\n    end\nend\ne.GetKey()--设置快捷键\n\nif WeakAurasSaved[e.id..'Chat']==1 then e.Chat=true end\nbtn:EnableMouseWheel(true)\nbtn:SetScript('OnMouseWheel',function(self,delta)\n        if delta==-1 and IsAltKeyDown() then--设置KEY\n            if UnitAffectingCombat('player') then\n                return \n            end\n            if not e.Key1 then                                \n                WeakAurasSaved[e.id..'key1']=1\n            else          \n                print('|cFFFF0000'.._G['KEY_NUMLOCK_MAC']..'|r|T134248:12|t|cFFFF00FF'.. e.config.Key1..'|r: |TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t')                \n                WeakAurasSaved[e.id..'key1']=0                \n            end\n            e.GetKey()\n            WeakAuras.ScanEvents('ENV_Marker_Chat')                        \n        elseif delta==1 and IsAltKeyDown() then\n            local s=_G[e.config.S] or e.config.S\n            if e.Chat then \n                e.Chat=false\n                WeakAurasSaved[e.id..'Chat']=0\n                print('|cFFFF0000'.._G['DISABLE']..'|r: '.._G['SAY']..'): '..s..'|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t')\n            else\n                e.Chat=true\n                WeakAurasSaved[e.id..'Chat']=1\n                print('|cFF0FF000'.._G['ENABLE']..'|r: '.._G['SAY']..'): '..s..'|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t')\n            end            \n            WeakAuras.ScanEvents('ENV_Marker_Chat')            \n        elseif delta == -1 then--鼠标向下，清除目标标记,向上标记\n            if UnitExists('target') then\n                local t=GetRaidTargetIndex('target')                 \n                if t and t~=0 then\n                    SetRaidTarget('target',0)                    \n                end\n            end            \n        elseif delta == 1 then \n            if UnitExists('target') then\n                local t=GetRaidTargetIndex('target')                 \n                if t~=e.icon then\n                    SetRaidTarget('target',e.icon)\n                end\n            end            \n        end\n        e.TipsShow(self)            \nend)\n\nbtn:SetScript(\"OnEnter\",function(self)\n        e.btn2()\n        region:SetAlpha(e.config.Enter)       \n        e.TipsShow(self)\nend)\nbtn:SetScript(\"OnLeave\",function(self)\n        region:SetAlpha(e.config.Leave)\n        GameTooltip:Hide()        \nend)\nbtn:SetScript(\"OnMouseUp\", function(self)\n        region:SetAlpha(e.config.Enter)   \n        e.TipsShow(self)        \nend)\n\nbtn:SetScript(\"OnMouseDown\", function(self)\n        region:SetAlpha(e.config.Down)        \nend)",
@@ -41370,11 +41370,11 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["events"] = "PLAYER_ENTERING_WORLD,ENV_Marker_Chat",
 						["customName"] = "function()\n    local e=aura_env\n    if e.Chat then \n        return e.col.._G['SAY']..'|r'\n    else    \n        return ''\n    end    \nend",
-						["spellIds"] = {
-						},
+						["custom"] = "function()\n    return true\nend",
 						["use_unit"] = true,
 						["check"] = "event",
-						["custom"] = "function()\n    return true\nend",
+						["spellIds"] = {
+						},
 						["custom_type"] = "status",
 						["names"] = {
 						},
@@ -41531,8 +41531,8 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_font"] = "聊天",
-					["text_anchorYOffset"] = 0,
 					["text_shadowYOffset"] = -3,
+					["text_anchorYOffset"] = 0,
 					["text_fontType"] = "OUTLINE",
 					["text_wordWrap"] = "WordWrap",
 					["text_visible"] = true,
@@ -41559,9 +41559,9 @@ WeakAurasSaved = {
 					["anchorYOffset"] = 0,
 					["text_justify"] = "CENTER",
 					["rotateText"] = "NONE",
-					["text_text_format_1.n_format"] = "none",
-					["type"] = "subtext",
 					["text_anchorXOffset"] = -5,
+					["type"] = "subtext",
+					["text_text_format_1.n_format"] = "none",
 					["text_color"] = {
 						1, -- [1]
 						1, -- [2]
@@ -41611,10 +41611,10 @@ WeakAurasSaved = {
 					["text_anchorYOffset"] = 7,
 					["text_shadowXOffset"] = 3,
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_anchorPoint"] = "CENTER",
 					["text_shadowYOffset"] = -3,
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 					["text_text_format_6.n_format"] = "none",
 					["anchorXOffset"] = 0,
 					["text_selfPoint"] = "AUTO",
@@ -41661,66 +41661,10 @@ WeakAurasSaved = {
 			["anchorFrameFrame"] = "WeakAuras:6",
 			["regionType"] = "texture",
 			["blendMode"] = "BLEND",
-			["parent"] = "World-Target Markers",
+			["selfPoint"] = "CENTER",
 			["anchorFrameParent"] = false,
 			["texture"] = "Interface\\TargetingFrame\\UI-RaidTargetingIcon_7",
-			["xOffset"] = -200,
-			["selfPoint"] = "CENTER",
-			["semver"] = "9.2.83",
-			["tocversion"] = 20501,
-			["id"] = "7插插\"X\" Cross",
-			["rotation"] = 0,
-			["alpha"] = 0.5,
-			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
-			["uid"] = "1PsiUeO26IN",
-			["width"] = 25,
-			["config"] = {
-				["noShowTooltipsInCombat"] = false,
-				["cur"] = 7,
-				["point"] = 1,
-				["Key1"] = "7",
-				["Enter"] = 1,
-				["Leave"] = 0.3,
-				["S"] = "COMBATLOG_HIGHLIGHT_KILL",
-				["Down"] = 0.1,
-				["id"] = 7,
-			},
-			["conditions"] = {
-				{
-					["check"] = {
-						["trigger"] = 2,
-						["variable"] = "show",
-						["value"] = 0,
-					},
-					["changes"] = {
-						{
-							["value"] = true,
-							["property"] = "desaturate",
-						}, -- [1]
-					},
-				}, -- [1]
-				{
-					["check"] = {
-						["trigger"] = 4,
-						["variable"] = "show",
-						["value"] = 1,
-					},
-					["changes"] = {
-						{
-							["value"] = true,
-							["property"] = "sub.4.border_visible",
-						}, -- [1]
-						{
-							["value"] = 1,
-							["property"] = "alpha",
-						}, -- [2]
-					},
-				}, -- [2]
-			},
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
+			["parent"] = "World-Target Markers",
 			["authorOptions"] = {
 				{
 					["type"] = "header",
@@ -41850,6 +41794,62 @@ WeakAurasSaved = {
 					["width"] = 1,
 				}, -- [12]
 			},
+			["semver"] = "9.2.83",
+			["tocversion"] = 20501,
+			["id"] = "7插插\"X\" Cross",
+			["xOffset"] = -200,
+			["alpha"] = 0.5,
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
+			["config"] = {
+				["noShowTooltipsInCombat"] = false,
+				["cur"] = 7,
+				["point"] = 1,
+				["Key1"] = "7",
+				["Enter"] = 1,
+				["Leave"] = 0.3,
+				["S"] = "COMBATLOG_HIGHLIGHT_KILL",
+				["Down"] = 0.1,
+				["id"] = 7,
+			},
+			["width"] = 25,
+			["uid"] = "1PsiUeO26IN",
+			["conditions"] = {
+				{
+					["check"] = {
+						["trigger"] = 2,
+						["variable"] = "show",
+						["value"] = 0,
+					},
+					["changes"] = {
+						{
+							["value"] = true,
+							["property"] = "desaturate",
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["check"] = {
+						["trigger"] = 4,
+						["variable"] = "show",
+						["value"] = 1,
+					},
+					["changes"] = {
+						{
+							["value"] = true,
+							["property"] = "sub.4.border_visible",
+						}, -- [1]
+						{
+							["value"] = 1,
+							["property"] = "alpha",
+						}, -- [2]
+					},
+				}, -- [2]
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["rotation"] = 0,
 		},
 		["PepsiArenaCDs"] = {
 			["arcLength"] = 360,
@@ -41966,7 +41966,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["internalVersion"] = 45,
+			["selfPoint"] = "TOP",
 			["backdropColor"] = {
 				1, -- [1]
 				1, -- [2]
@@ -41980,7 +41980,7 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["animate"] = false,
-			["borderInset"] = 1,
+			["internalVersion"] = 45,
 			["scale"] = 1,
 			["grow"] = "DOWN",
 			["border"] = false,
@@ -41988,6 +41988,7 @@ WeakAurasSaved = {
 			["regionType"] = "dynamicgroup",
 			["borderSize"] = 2,
 			["limit"] = 20,
+			["rotation"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -42008,7 +42009,6 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["selfPoint"] = "TOP",
 			["constantFactor"] = "RADIUS",
 			["sort"] = "descending",
 			["borderOffset"] = 4,
@@ -42020,13 +42020,13 @@ WeakAurasSaved = {
 			["anchorFrameType"] = "SCREEN",
 			["xOffset"] = -884.62176895142,
 			["uid"] = "NjnzmcIPstR",
-			["gridType"] = "RD",
 			["rowSpace"] = 1,
+			["borderInset"] = 1,
 			["conditions"] = {
 			},
 			["information"] = {
 			},
-			["rotation"] = 0,
+			["gridType"] = "RD",
 		},
 		["Thunder Clap"] = {
 			["iconSource"] = -1,
@@ -42057,8 +42057,8 @@ WeakAurasSaved = {
 						["debuffType"] = "HARMFUL",
 						["type"] = "aura2",
 						["useName"] = true,
-						["subeventSuffix"] = "_CAST_START",
 						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["use_showOn"] = true,
 						["spellName"] = 6343,
 						["event"] = "Cooldown Progress (Spell)",
@@ -42163,11 +42163,11 @@ WeakAurasSaved = {
 					},
 				},
 				["use_spellknown"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -42183,27 +42183,34 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = 19,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Thunder Clap",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 35,
 			["frameStrata"] = 1,
+			["width"] = 35,
+			["alpha"] = 1,
 			["uid"] = "HqJOg4nioGh",
 			["inverse"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = 19,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -42223,14 +42230,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Human-Perception"] = {
 			["iconSource"] = 0,
@@ -42263,8 +42263,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -42386,38 +42386,38 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName",
-					["message_format_1.spellName_format"] = "none",
-					["message_format_n_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.sourceName_format"] = "none",
 					["message_type"] = "PARTY",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_1.sourceName_format"] = "none",
+					["message_format_n_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 136090,
 			["uid"] = "HEqT8Rc8TZR",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Human-Perception",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -42425,7 +42425,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Undead-WotF"] = {
 			["iconSource"] = 0,
@@ -42458,8 +42458,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -42581,38 +42581,38 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName",
-					["message_format_1.spellName_format"] = "none",
-					["message_format_n_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.sourceName_format"] = "none",
 					["message_type"] = "PARTY",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_1.sourceName_format"] = "none",
+					["message_format_n_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 136187,
 			["uid"] = "LaRA06o9aeC",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Undead-WotF",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -42620,7 +42620,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Dispel-Fel Dom"] = {
 			["iconSource"] = -1,
@@ -42767,37 +42767,37 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.spellName is off.",
 					["message_type"] = "PARTY",
-					["do_message"] = true,
 					["message_format_1.spellName_format"] = "none",
 					["message_format_1.sourceName_format"] = "none",
+					["do_message"] = true,
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 135894,
 			["uid"] = "E6XVV39f5de",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Dispel-Fel Dom",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -42805,7 +42805,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = false,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Rampage 2"] = {
 			["iconSource"] = -1,
@@ -42908,11 +42908,11 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_font"] = "Friz Quadrata TT",
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 					["text_shadowYOffset"] = 0,
 					["anchorXOffset"] = 0,
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_anchorPoint"] = "INNER_BOTTOMRIGHT",
 					["text_shadowXOffset"] = 0,
 					["text_shadowColor"] = {
@@ -42985,7 +42985,7 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
-			["parent"] = "狂暴戰",
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["regionType"] = "icon",
 			["color"] = {
 				1, -- [1]
@@ -42993,44 +42993,25 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["icon"] = true,
+			["parent"] = "狂暴戰",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = -3,
 			["uid"] = "fzVf49uDJKn",
-			["semver"] = "1.0.2",
-			["zoom"] = 0,
 			["auto"] = true,
+			["zoom"] = 0,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Rampage 2",
 			["width"] = 45,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
+			["icon"] = true,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -43076,7 +43057,26 @@ WeakAurasSaved = {
 				}, -- [3]
 			},
 			["cooldown"] = true,
-			["xOffset"] = -3,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
 		},
 		["Commanding Shout"] = {
 			["iconSource"] = -1,
@@ -43106,8 +43106,8 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["type"] = "aura2",
 						["useName"] = true,
-						["subeventSuffix"] = "_CAST_START",
 						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["use_showOn"] = true,
 						["spellName"] = 6544,
 						["event"] = "Cooldown Progress (Spell)",
@@ -43186,13 +43186,13 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 1,
+				["class"] = {
+					["single"] = "WARRIOR",
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "WARRIOR",
+				["spec"] = {
+					["single"] = 1,
 					["multi"] = {
 					},
 				},
@@ -43210,11 +43210,11 @@ WeakAurasSaved = {
 					},
 				},
 				["use_class"] = true,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -43229,32 +43229,12 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = -95,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
-			["config"] = {
-			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
-			["auto"] = true,
-			["tocversion"] = 20501,
-			["id"] = "Commanding Shout",
-			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 35,
-			["frameStrata"] = 1,
-			["uid"] = "EPVt2zfUSGl",
-			["inverse"] = true,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
-			["conditions"] = {
-			},
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
 			["actions"] = {
 				["start"] = {
 				},
@@ -43265,6 +43245,26 @@ WeakAurasSaved = {
 					["do_custom"] = false,
 				},
 			},
+			["config"] = {
+			},
+			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
+			["tocversion"] = 20501,
+			["id"] = "Commanding Shout",
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
+			["width"] = 35,
+			["alpha"] = 1,
+			["uid"] = "EPVt2zfUSGl",
+			["inverse"] = true,
+			["xOffset"] = -95,
+			["conditions"] = {
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Battle Stance"] = {
 			["iconSource"] = 0,
@@ -43293,8 +43293,8 @@ WeakAurasSaved = {
 						["names"] = {
 						},
 						["type"] = "unit",
-						["subeventSuffix"] = "_CAST_START",
 						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["use_showOn"] = true,
 						["form"] = {
 							["single"] = 1,
@@ -43385,13 +43385,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
+			["authorOptions"] = {
 			},
 			["animation"] = {
 				["start"] = {
@@ -43414,30 +43408,36 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["parent"] = "Warrior",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 			},
-			["url"] = "https://wago.io/jMHRj-FSb/3",
-			["cooldownTextDisabled"] = false,
-			["width"] = 20,
+			["parent"] = "Warrior",
 			["zoom"] = 0,
-			["auto"] = false,
+			["width"] = 20,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Battle Stance",
 			["alpha"] = 0.4,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "1.0.2",
+			["auto"] = false,
 			["uid"] = "ZcoqajLuzwI",
 			["inverse"] = true,
-			["authorOptions"] = {
-			},
+			["xOffset"] = 112,
 			["displayIcon"] = 132349,
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["xOffset"] = 112,
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Paladin-Blessing of Freedom"] = {
 			["iconSource"] = 0,
@@ -43470,8 +43470,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -43593,40 +43593,40 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName on %1.destName",
-					["message_format_1.spellName_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.destName_format"] = "none",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_.destName_format"] = "none",
 					["message_type"] = "PARTY",
 					["message_format_n_format"] = "none",
 					["message_format_1.sourceName_format"] = "none",
-					["message_format_.destName_format"] = "none",
+					["message_format_1.destName_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 135968,
 			["uid"] = "OQSwitfsmdp",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Paladin-Blessing of Freedom",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -43634,7 +43634,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Execute - Usable (Defensive) 3"] = {
 			["iconSource"] = 0,
@@ -43782,15 +43782,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 2,
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["use_talent"] = true,
-				["use_class"] = true,
-				["role"] = {
+				["class"] = {
+					["single"] = "WARRIOR",
 					["multi"] = {
 					},
 				},
@@ -43798,54 +43791,65 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "WARRIOR",
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["spec"] = {
+					["single"] = 2,
 					["multi"] = {
 					},
 				},
 				["zoneIds"] = "",
 			},
 			["uid"] = "vHllwAm5nLt",
-			["selfPoint"] = "CENTER",
+			["cooldownEdge"] = false,
 			["xOffset"] = 0,
 			["regionType"] = "icon",
-			["parent"] = "狂暴戰",
+			["selfPoint"] = "CENTER",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
 			["displayIcon"] = 135358,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["zoom"] = 0,
-			["anchorFrameType"] = "SCREEN",
+			["parent"] = "狂暴戰",
 			["cooldownTextDisabled"] = false,
-			["auto"] = false,
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Execute - Usable (Defensive) 3",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 45,
-			["semver"] = "1.0.2",
+			["auto"] = false,
 			["config"] = {
 			},
 			["inverse"] = false,
-			["cooldownEdge"] = false,
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -43863,15 +43867,11 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = true,
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-					["custom"] = "",
-					["do_custom"] = false,
-				},
-				["finish"] = {
-				},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
 		},
 		["Warrior"] = {
@@ -44006,7 +44006,7 @@ WeakAurasSaved = {
 					},
 				},
 				["zoneIds"] = "",
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -44014,15 +44014,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
 				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -44057,18 +44057,18 @@ WeakAurasSaved = {
 			["id"] = "Warrior",
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["xOffset"] = 0.58349609375,
-			["borderInset"] = 1,
 			["uid"] = "ZamSJy1V18h",
-			["selfPoint"] = "BOTTOMLEFT",
+			["borderInset"] = 1,
+			["xOffset"] = 0.58349609375,
+			["config"] = {
+			},
 			["conditions"] = {
 			},
 			["information"] = {
 				["groupOffset"] = true,
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["config"] = {
-			},
+			["selfPoint"] = "BOTTOMLEFT",
 		},
 		["Pummel 2"] = {
 			["iconSource"] = -1,
@@ -44168,15 +44168,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 2,
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["use_talent"] = true,
-				["use_class"] = true,
-				["role"] = {
+				["class"] = {
+					["single"] = "WARRIOR",
 					["multi"] = {
 					},
 				},
@@ -44184,27 +44177,34 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "WARRIOR",
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["spec"] = {
+					["single"] = 2,
 					["multi"] = {
 					},
 				},
 				["zoneIds"] = "",
 			},
 			["cooldownTextDisabled"] = false,
-			["parent"] = "狂暴戰",
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["regionType"] = "icon",
 			["color"] = {
 				1, -- [1]
@@ -44212,44 +44212,25 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["icon"] = true,
+			["parent"] = "狂暴戰",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = -57,
 			["uid"] = "ZIeLWAoAr)H",
-			["semver"] = "1.0.2",
-			["zoom"] = 0,
 			["auto"] = true,
+			["zoom"] = 0,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Pummel 2",
 			["width"] = 35,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
+			["icon"] = true,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -44290,7 +44271,26 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = true,
-			["xOffset"] = -57,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
 		},
 		["Priest-Desperate Prayer"] = {
 			["iconSource"] = 0,
@@ -44323,8 +44323,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -44446,38 +44446,38 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName",
-					["message_format_1.spellName_format"] = "none",
-					["message_format_n_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.sourceName_format"] = "none",
 					["message_type"] = "PARTY",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_1.sourceName_format"] = "none",
+					["message_format_n_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 135954,
 			["uid"] = "VMhFpdtBlpi",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Priest-Desperate Prayer",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -44485,7 +44485,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["6方块 Square"] = {
 			["wagoID"] = "vQY6_rTnB",
@@ -44507,10 +44507,10 @@ WeakAurasSaved = {
 					["do_custom"] = true,
 				},
 				["finish"] = {
-					["do_custom"] = true,
-					["hide_all_glows"] = true,
 					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Hide() end",
+					["hide_all_glows"] = true,
 					["do_message"] = false,
+					["do_custom"] = true,
 				},
 				["init"] = {
 					["custom"] = "local e = aura_env\ne.icon=e.config.id\ne.col='|c'..RAID_CLASS_COLORS[select(2, UnitClass(\"player\"))].colorStr--职业颜色\n\nlocal X='|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_7:0|t'--x\nlocal S='|TInterface\\\\Addons\\\\WeakAuras\\\\PowerAurasMedia\\\\Auras\\\\Aura78:0|t'--√\n\nlocal btn=_G[e.id..\"Button\"]\nlocal region = WeakAuras.GetRegion(e.id) \nif not btn then      \n    btn = CreateFrame(\"Button\", e.id..\"Button\", UIParent, \"SecureActionButtonTemplate\")     \n    btn:SetAllPoints(region) \nend\n\nregion:SetAlpha(e.config.Leave)\n\nbtn:RegisterForClicks(\"LeftButtonDown\",\"RightButtonDown\")\nbtn:SetAttribute(\"type\", \"macro\") \nbtn:SetAttribute(\"macrotext1\", \"/script SetRaidTarget(\\\"target\\\",\"..e.icon..\")\")\nbtn:SetAttribute(\"type2\", \"macro\")\ne.btn2=function()\n    if e.str then \n        btn:SetAttribute(\"macrotext2\", \"/target \"..e.str)\n    else\n        btn:SetAttribute(\"macrotext2\", \"\")\n    end \nend\n\ne.TipsShow=function(self)    \n    if e.config.cur==10 or (UnitAffectingCombat('player') and e.config.noShowTooltipsInCombat) then return end\n    \n    local cur={'ANCHOR_TOP' ,'ANCHOR_RIGHT','ANCHOR_BOTTOM','ANCHOR_LEFT','ANCHOR_TOPRIGHT','ANCHOR_BOTTOMRIGHT','ANCHOR_TOPLEFT','ANCHOR_BOTTOMLEFT','ANCHOR_CURSOR'}\n    cur=cur[e.config.cur]\n    GameTooltip:SetOwner(self, cur)        \n    GameTooltip:ClearLines()    \n    local m=''\n    \n    m=m.._G['SETTINGS']..': |TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t'\n    \n    m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON1']..'|r\\n'--左键点击操作\n    m=m..'|cFF00FF00'.._G['KEY_MOUSEWHEELUP']..'|r'--鼠标滚轮向上滚动\n    \n    \n    m=m..'\\n\\n'.._G['BINDING_NAME_RAIDTARGETNONE']\n    m=m..'\\n|cFF00FF00'.._G['KEY_MOUSEWHEELDOWN']..'|r'--鼠标滚轮向下滚动\n    \n    \n    m=m..'\\n\\n'.._G['BINDING_HEADER_TARGETING']\n    if e.Tar then m=m..'(|cFFFF9000'..e.Tar..'|r)' end--选中目标数量\n    if e.str then m=m..': '..e.str else m=m..': ...' end        \n    m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON2']..'|r'--右键点击\n    \n    local s=_G[e.config.S] or e.config.S\n    m=m..'\\n\\n'.._G['SAY']..'(|cFFFF9000'..s..'|r): '\n    if e.Chat then m=m..'|cFF00FF00'.._G['ENABLE']..'|r' else m=m..'|cFFFF0000'.._G['DISABLE']..'|r' end\n    m=m..'\\n|cFF00FF00Alt + '.._G['KEY_MOUSEWHEELUP']..'|r'--鼠标滚轮向下滚动\n    \n    \n    m=m..'\\n\\n|cFFFF00FF|T134248:0|t '..e.config.Key1..'|r: '..string.match(_G['BINDING_NAME_ACTIONBUTTON1'],'(.+)%d')\n    if e.Key1 then \n        m=m..S..'|cFF00FF00'.._G['ENABLE']..'|r'\n    else \n        m=m..X..'|cFFFF0000'.._G['DISABLE']..'|r'\n    end \n    m=m..'\\n|T134248:0|t|cFFFF00FFAlt + '..e.config.Key1..'|r: '\n    if e.str then m=m..e.str else m=m.._G['TARGET'] end\n    if e.Key1 then \n        m=m..S..'|cFF00FF00'.._G['ENABLE']..'|r'\n    else \n        m=m..X..'|cFFFF0000'.._G['DISABLE']..'|r'\n    end \n    m=m..'\\n|cFF00FF00Alt + '.._G['KEY_MOUSEWHEELDOWN']..'|r'--鼠标滚轮向下滚动\n    \n    m=e.col..m..'|r'\n    GameTooltip:SetText(m)            \n    GameTooltip:Show()        \nend\n\ne.GetKey=function()\n    if UnitAffectingCombat('player') then return end\n    ClearOverrideBindings(btn)\n    local SetKey=function(k,RL,S)\n        if not k then return end \n        local s=S or '' \n        local C \n        if RL=='R' then\n            C='RightButton' \n        else\n        C='LeftButton' end \n        SetOverrideBindingClick(btn, true, k, btn:GetName(), C) \n        if not WeakAuras.IsOptionsOpen() then\n            print('|cFF00FF00'.._G['SETTINGS']..'|T134248:12|t|r|cFFFF00FF'..k..'|r: '..e.col..s..'|r') \n        end        \n    end\n    \n    local sa = WeakAurasSaved[e.id..'key1']\n    local key=string.gsub(e.config.Key1,' ','')\n    if sa and sa==1 and key~='' then        \n        SetKey(key,'L','|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t') \n        SetKey('ALT-'..key,'R', _G['TARGET']) \n        if #key==1 then e.Key1=e.col..string.upper(key)..'|r' else e.Key1='|T134248:12|t' end\n    else\n        e.Key1=nil\n    end\nend\ne.GetKey()--设置快捷键\n\nif WeakAurasSaved[e.id..'Chat']==1 then e.Chat=true end\nbtn:EnableMouseWheel(true)\nbtn:SetScript('OnMouseWheel',function(self,delta)\n        if delta==-1 and IsAltKeyDown() then--设置KEY\n            if UnitAffectingCombat('player') then\n                return \n            end\n            if not e.Key1 then                                \n                WeakAurasSaved[e.id..'key1']=1\n            else          \n                print('|cFFFF0000'.._G['KEY_NUMLOCK_MAC']..'|r|T134248:12|t|cFFFF00FF'.. e.config.Key1..'|r: |TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t')                \n                WeakAurasSaved[e.id..'key1']=0                \n            end\n            e.GetKey()\n            WeakAuras.ScanEvents('ENV_Marker_Chat')                        \n        elseif delta==1 and IsAltKeyDown() then\n            local s=_G[e.config.S] or e.config.S\n            if e.Chat then \n                e.Chat=false\n                WeakAurasSaved[e.id..'Chat']=0\n                print('|cFFFF0000'.._G['DISABLE']..'|r: '.._G['SAY']..'): '..s..'|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t')\n            else\n                e.Chat=true\n                WeakAurasSaved[e.id..'Chat']=1\n                print('|cFF0FF000'.._G['ENABLE']..'|r: '.._G['SAY']..'): '..s..'|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t')\n            end            \n            WeakAuras.ScanEvents('ENV_Marker_Chat')            \n        elseif delta == -1 then--鼠标向下，清除目标标记,向上标记\n            if UnitExists('target') then\n                local t=GetRaidTargetIndex('target')                 \n                if t and t~=0 then\n                    SetRaidTarget('target',0)                    \n                end\n            end            \n        elseif delta == 1 then \n            if UnitExists('target') then\n                local t=GetRaidTargetIndex('target')                 \n                if t~=e.icon then\n                    SetRaidTarget('target',e.icon)\n                end\n            end            \n        end\n        e.TipsShow(self)            \nend)\n\nbtn:SetScript(\"OnEnter\",function(self)\n        e.btn2()\n        region:SetAlpha(e.config.Enter)       \n        e.TipsShow(self)\nend)\nbtn:SetScript(\"OnLeave\",function(self)\n        region:SetAlpha(e.config.Leave)\n        GameTooltip:Hide()        \nend)\nbtn:SetScript(\"OnMouseUp\", function(self)\n        region:SetAlpha(e.config.Enter)   \n        e.TipsShow(self)        \nend)\n\nbtn:SetScript(\"OnMouseDown\", function(self)\n        region:SetAlpha(e.config.Down)        \nend)",
@@ -44532,11 +44532,11 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["events"] = "PLAYER_ENTERING_WORLD,ENV_Marker_Chat",
 						["customName"] = "function()\n    local e=aura_env\n    if e.Chat then \n        return e.col.._G['SAY']..'|r'\n    else    \n        return ''\n    end    \nend",
-						["spellIds"] = {
-						},
+						["custom"] = "function()\n    return true\nend",
 						["use_unit"] = true,
 						["check"] = "event",
-						["custom"] = "function()\n    return true\nend",
+						["spellIds"] = {
+						},
 						["custom_type"] = "status",
 						["names"] = {
 						},
@@ -44693,8 +44693,8 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_font"] = "聊天",
-					["text_anchorYOffset"] = 0,
 					["text_shadowYOffset"] = -3,
+					["text_anchorYOffset"] = 0,
 					["text_fontType"] = "OUTLINE",
 					["text_wordWrap"] = "WordWrap",
 					["text_visible"] = true,
@@ -44721,9 +44721,9 @@ WeakAurasSaved = {
 					["anchorYOffset"] = 0,
 					["text_justify"] = "CENTER",
 					["rotateText"] = "NONE",
-					["text_text_format_1.n_format"] = "none",
-					["type"] = "subtext",
 					["text_anchorXOffset"] = -5,
+					["type"] = "subtext",
+					["text_text_format_1.n_format"] = "none",
 					["text_color"] = {
 						1, -- [1]
 						1, -- [2]
@@ -44773,10 +44773,10 @@ WeakAurasSaved = {
 					["text_anchorYOffset"] = 7,
 					["text_shadowXOffset"] = 3,
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_anchorPoint"] = "CENTER",
 					["text_shadowYOffset"] = -3,
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 					["text_text_format_6.n_format"] = "none",
 					["anchorXOffset"] = 0,
 					["text_selfPoint"] = "AUTO",
@@ -44823,66 +44823,10 @@ WeakAurasSaved = {
 			["anchorFrameFrame"] = "WeakAuras:3",
 			["regionType"] = "texture",
 			["blendMode"] = "BLEND",
-			["parent"] = "World-Target Markers",
+			["selfPoint"] = "CENTER",
 			["anchorFrameParent"] = false,
 			["texture"] = "Interface\\TargetingFrame\\UI-RaidTargetingIcon_6",
-			["xOffset"] = -175,
-			["selfPoint"] = "CENTER",
-			["semver"] = "9.2.83",
-			["tocversion"] = 20501,
-			["id"] = "6方块 Square",
-			["rotation"] = 0,
-			["alpha"] = 0.5,
-			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
-			["uid"] = "OjgJkExEfsZ",
-			["width"] = 25,
-			["config"] = {
-				["noShowTooltipsInCombat"] = false,
-				["cur"] = 7,
-				["point"] = 1,
-				["Key1"] = "6",
-				["Enter"] = 1,
-				["Leave"] = 0.3,
-				["S"] = "TANK",
-				["Down"] = 0.1,
-				["id"] = 6,
-			},
-			["conditions"] = {
-				{
-					["check"] = {
-						["trigger"] = 2,
-						["variable"] = "show",
-						["value"] = 0,
-					},
-					["changes"] = {
-						{
-							["value"] = true,
-							["property"] = "desaturate",
-						}, -- [1]
-					},
-				}, -- [1]
-				{
-					["check"] = {
-						["trigger"] = 4,
-						["variable"] = "show",
-						["value"] = 1,
-					},
-					["changes"] = {
-						{
-							["value"] = true,
-							["property"] = "sub.4.border_visible",
-						}, -- [1]
-						{
-							["value"] = 1,
-							["property"] = "alpha",
-						}, -- [2]
-					},
-				}, -- [2]
-			},
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
+			["parent"] = "World-Target Markers",
 			["authorOptions"] = {
 				{
 					["type"] = "header",
@@ -45012,6 +44956,62 @@ WeakAurasSaved = {
 					["width"] = 1,
 				}, -- [12]
 			},
+			["semver"] = "9.2.83",
+			["tocversion"] = 20501,
+			["id"] = "6方块 Square",
+			["xOffset"] = -175,
+			["alpha"] = 0.5,
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
+			["config"] = {
+				["noShowTooltipsInCombat"] = false,
+				["cur"] = 7,
+				["point"] = 1,
+				["Key1"] = "6",
+				["Enter"] = 1,
+				["Leave"] = 0.3,
+				["S"] = "TANK",
+				["Down"] = 0.1,
+				["id"] = 6,
+			},
+			["width"] = 25,
+			["uid"] = "OjgJkExEfsZ",
+			["conditions"] = {
+				{
+					["check"] = {
+						["trigger"] = 2,
+						["variable"] = "show",
+						["value"] = 0,
+					},
+					["changes"] = {
+						{
+							["value"] = true,
+							["property"] = "desaturate",
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["check"] = {
+						["trigger"] = 4,
+						["variable"] = "show",
+						["value"] = 1,
+					},
+					["changes"] = {
+						{
+							["value"] = true,
+							["property"] = "sub.4.border_visible",
+						}, -- [1]
+						{
+							["value"] = 1,
+							["property"] = "alpha",
+						}, -- [2]
+					},
+				}, -- [2]
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["rotation"] = 0,
 		},
 		["Mage-Cold Snap"] = {
 			["iconSource"] = 0,
@@ -45044,8 +45044,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -45167,38 +45167,38 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName",
-					["message_format_1.spellName_format"] = "none",
-					["message_format_n_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.sourceName_format"] = "none",
 					["message_type"] = "PARTY",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_1.sourceName_format"] = "none",
+					["message_format_n_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 135865,
 			["uid"] = "XIsF7Wa009V",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Mage-Cold Snap",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -45206,7 +45206,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Priest-Pain Suppression"] = {
 			["iconSource"] = 0,
@@ -45239,8 +45239,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -45362,40 +45362,40 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName on %1.destName",
-					["message_format_1.spellName_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.destName_format"] = "none",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_.destName_format"] = "none",
 					["message_type"] = "PARTY",
 					["message_format_n_format"] = "none",
 					["message_format_1.sourceName_format"] = "none",
-					["message_format_.destName_format"] = "none",
+					["message_format_1.destName_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 135936,
 			["uid"] = "W8wsFF8Le(8",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Priest-Pain Suppression",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -45403,7 +45403,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Paladin-Hammer of Justice"] = {
 			["iconSource"] = 0,
@@ -45436,8 +45436,8 @@ WeakAurasSaved = {
 						["use_sourceFlags3"] = true,
 						["event"] = "Combat Log",
 						["sourceFlags2"] = "Hostile",
-						["use_spellName"] = true,
 						["use_spellId"] = false,
+						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
@@ -45559,40 +45559,40 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.sourceName used %1.spellName on %1.destName",
-					["message_format_1.spellName_format"] = "none",
 					["do_message"] = true,
-					["message_format_1.destName_format"] = "none",
+					["message_format_1.spellName_format"] = "none",
+					["message_format_.destName_format"] = "none",
 					["message_type"] = "PARTY",
 					["message_format_n_format"] = "none",
 					["message_format_1.sourceName_format"] = "none",
-					["message_format_.destName_format"] = "none",
+					["message_format_1.destName_format"] = "none",
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 135963,
 			["uid"] = "EhEq3tBuWfV",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Paladin-Hammer of Justice",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -45600,7 +45600,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Dispel-BoF"] = {
 			["iconSource"] = -1,
@@ -45747,37 +45747,37 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = 0,
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["url"] = "https://wago.io/J9NyOpfv5/5",
 			["actions"] = {
 				["start"] = {
 					["message"] = "%1.spellName is off.",
 					["message_type"] = "PARTY",
-					["do_message"] = true,
 					["message_format_1.spellName_format"] = "none",
 					["message_format_1.sourceName_format"] = "none",
+					["do_message"] = true,
 				},
 				["init"] = {
 				},
 				["finish"] = {
 				},
 			},
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["parent"] = "PepsiArenaCDs",
+			["xOffset"] = 0,
 			["information"] = {
 			},
 			["displayIcon"] = 135894,
 			["uid"] = "hu3Z2djQDvP",
-			["zoom"] = 0,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["semver"] = "1.0.4",
 			["tocversion"] = 20501,
 			["id"] = "Dispel-BoF",
 			["width"] = 32,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -45785,7 +45785,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = false,
-			["parent"] = "PepsiArenaCDs",
+			["url"] = "https://wago.io/J9NyOpfv5/5",
 		},
 		["Intervene"] = {
 			["iconSource"] = -1,
@@ -45937,27 +45937,36 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = -19,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "aura_env.region.stacks:SetPoint(\"BOTTOMRIGHT\", aura_env.region, \"BOTTOMRIGHT\", 0, 0)\naura_env.region.stacks:SetShadowOffset(1, -1)",
+					["do_custom"] = false,
+				},
+			},
 			["config"] = {
 			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
 			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Intervene",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 35,
 			["frameStrata"] = 1,
+			["width"] = 35,
+			["alpha"] = 1,
 			["uid"] = "C)4rO7JArPy",
 			["inverse"] = false,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = -19,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -46005,16 +46014,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "aura_env.region.stacks:SetPoint(\"BOTTOMRIGHT\", aura_env.region, \"BOTTOMRIGHT\", 0, 0)\naura_env.region.stacks:SetShadowOffset(1, -1)",
-					["do_custom"] = false,
-				},
-			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Retaliation - Buff"] = {
 			["iconSource"] = -1,
@@ -46184,32 +46184,12 @@ WeakAurasSaved = {
 				},
 			},
 			["zoom"] = 0,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["regionType"] = "icon",
 			["parent"] = "Warrior",
-			["xOffset"] = 100,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
-			["config"] = {
-			},
-			["semver"] = "1.0.2",
-			["cooldownTextDisabled"] = false,
-			["auto"] = true,
-			["tocversion"] = 20501,
-			["id"] = "Retaliation - Buff",
-			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["width"] = 45,
-			["frameStrata"] = 1,
-			["uid"] = "GfKszA)SWXs",
-			["inverse"] = false,
-			["url"] = "https://wago.io/jMHRj-FSb/3",
-			["conditions"] = {
-			},
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
 			["actions"] = {
 				["start"] = {
 				},
@@ -46220,6 +46200,26 @@ WeakAurasSaved = {
 					["do_custom"] = false,
 				},
 			},
+			["config"] = {
+			},
+			["auto"] = true,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.0.2",
+			["tocversion"] = 20501,
+			["id"] = "Retaliation - Buff",
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
+			["width"] = 45,
+			["alpha"] = 1,
+			["uid"] = "GfKszA)SWXs",
+			["inverse"] = false,
+			["xOffset"] = 100,
+			["conditions"] = {
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 		},
 		["Details! Aura Group"] = {
 			["grow"] = "DOWN",
@@ -46314,18 +46314,18 @@ WeakAurasSaved = {
 				1, -- [3]
 				0.5, -- [4]
 			},
-			["rowSpace"] = 1,
+			["fullCircle"] = true,
 			["animate"] = false,
-			["rotation"] = 0,
+			["selfPoint"] = "TOP",
 			["scale"] = 1,
-			["radius"] = 200,
+			["arcLength"] = 360,
 			["border"] = false,
 			["borderEdge"] = "Square Full White",
 			["regionType"] = "dynamicgroup",
 			["borderSize"] = 2,
 			["sort"] = "none",
-			["selfPoint"] = "TOP",
-			["fullCircle"] = true,
+			["rowSpace"] = 1,
+			["radius"] = 200,
 			["constantFactor"] = "RADIUS",
 			["gridType"] = "RD",
 			["borderOffset"] = 4,
@@ -46339,13 +46339,13 @@ WeakAurasSaved = {
 			["useLimit"] = false,
 			["borderInset"] = 1,
 			["limit"] = 5,
-			["xOffset"] = 0,
+			["rotation"] = 0,
 			["conditions"] = {
 			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["arcLength"] = 360,
+			["xOffset"] = 0,
 		},
 		["Revenge - Usable 2"] = {
 			["iconSource"] = -1,
@@ -46384,13 +46384,13 @@ WeakAurasSaved = {
 							"Frothing Berserker", -- [1]
 						},
 						["matchesShowOn"] = "showOnActive",
-						["useName"] = true,
+						["type"] = "spell",
 						["spellIds"] = {
 							215572, -- [1]
 						},
 						["debuffType"] = "HELPFUL",
 						["unevent"] = "auto",
-						["type"] = "spell",
+						["useName"] = true,
 						["use_debuffClass"] = false,
 						["subeventSuffix"] = "_CAST_START",
 						["spellName"] = 7379,
@@ -46480,15 +46480,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 2,
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["use_talent"] = true,
-				["use_class"] = true,
-				["role"] = {
+				["class"] = {
+					["single"] = "WARRIOR",
 					["multi"] = {
 					},
 				},
@@ -46496,27 +46489,34 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "WARRIOR",
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["spec"] = {
+					["single"] = 2,
 					["multi"] = {
 					},
 				},
 				["zoneIds"] = "",
 			},
 			["cooldownTextDisabled"] = false,
-			["parent"] = "狂暴戰",
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["regionType"] = "icon",
 			["color"] = {
 				1, -- [1]
@@ -46524,44 +46524,25 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["icon"] = true,
+			["parent"] = "狂暴戰",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = -52,
 			["uid"] = "p60uP0IVequ",
-			["semver"] = "1.0.2",
-			["zoom"] = 0,
 			["auto"] = true,
+			["zoom"] = 0,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Revenge - Usable 2",
 			["width"] = 45,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
+			["icon"] = true,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -46604,7 +46585,26 @@ WeakAurasSaved = {
 				}, -- [3]
 			},
 			["cooldown"] = true,
-			["xOffset"] = -52,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
 		},
 		["5月亮 Crescent Moon"] = {
 			["wagoID"] = "vQY6_rTnB",
@@ -46626,10 +46626,10 @@ WeakAurasSaved = {
 					["do_custom"] = true,
 				},
 				["finish"] = {
-					["do_custom"] = true,
-					["hide_all_glows"] = true,
 					["custom"] = "local e=aura_env\nif _G[e.id..\"Button\"] then _G[e.id..\"Button\"]:Hide() end",
+					["hide_all_glows"] = true,
 					["do_message"] = false,
+					["do_custom"] = true,
 				},
 				["init"] = {
 					["custom"] = "local e = aura_env\ne.icon=e.config.id\ne.col='|c'..RAID_CLASS_COLORS[select(2, UnitClass(\"player\"))].colorStr--职业颜色\n\nlocal X='|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_7:0|t'--x\nlocal S='|TInterface\\\\Addons\\\\WeakAuras\\\\PowerAurasMedia\\\\Auras\\\\Aura78:0|t'--√\n\nlocal btn=_G[e.id..\"Button\"]\nlocal region = WeakAuras.GetRegion(e.id) \nif not btn then      \n    btn = CreateFrame(\"Button\", e.id..\"Button\", UIParent, \"SecureActionButtonTemplate\")     \n    btn:SetAllPoints(region) \nend\n\nregion:SetAlpha(e.config.Leave)\n\nbtn:RegisterForClicks(\"LeftButtonDown\",\"RightButtonDown\")\nbtn:SetAttribute(\"type\", \"macro\") \nbtn:SetAttribute(\"macrotext1\", \"/script SetRaidTarget(\\\"target\\\",\"..e.icon..\")\")\nbtn:SetAttribute(\"type2\", \"macro\")\ne.btn2=function()\n    if e.str then \n        btn:SetAttribute(\"macrotext2\", \"/target \"..e.str)\n    else\n        btn:SetAttribute(\"macrotext2\", \"\")\n    end \nend\n\ne.TipsShow=function(self)    \n    if e.config.cur==10 or (UnitAffectingCombat('player') and e.config.noShowTooltipsInCombat) then return end\n    \n    local cur={'ANCHOR_TOP' ,'ANCHOR_RIGHT','ANCHOR_BOTTOM','ANCHOR_LEFT','ANCHOR_TOPRIGHT','ANCHOR_BOTTOMRIGHT','ANCHOR_TOPLEFT','ANCHOR_BOTTOMLEFT','ANCHOR_CURSOR'}\n    cur=cur[e.config.cur]\n    GameTooltip:SetOwner(self, cur)        \n    GameTooltip:ClearLines()    \n    local m=''\n    \n    m=m.._G['SETTINGS']..': |TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t'\n    \n    m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON1']..'|r\\n'--左键点击操作\n    m=m..'|cFF00FF00'.._G['KEY_MOUSEWHEELUP']..'|r'--鼠标滚轮向上滚动\n    \n    \n    m=m..'\\n\\n'.._G['BINDING_NAME_RAIDTARGETNONE']\n    m=m..'\\n|cFF00FF00'.._G['KEY_MOUSEWHEELDOWN']..'|r'--鼠标滚轮向下滚动\n    \n    \n    m=m..'\\n\\n'.._G['BINDING_HEADER_TARGETING']\n    if e.Tar then m=m..'(|cFFFF9000'..e.Tar..'|r)' end--选中目标数量\n    if e.str then m=m..': '..e.str else m=m..': ...' end        \n    m=m..'\\n|cFF00FF00'.._G['KEY_BUTTON2']..'|r'--右键点击\n    \n    local s=_G[e.config.S] or e.config.S\n    m=m..'\\n\\n'.._G['SAY']..'(|cFFFF9000'..s..'|r): '\n    if e.Chat then m=m..'|cFF00FF00'.._G['ENABLE']..'|r' else m=m..'|cFFFF0000'.._G['DISABLE']..'|r' end\n    m=m..'\\n|cFF00FF00Alt + '.._G['KEY_MOUSEWHEELUP']..'|r'--鼠标滚轮向下滚动\n    \n    \n    m=m..'\\n\\n|cFFFF00FF|T134248:0|t '..e.config.Key1..'|r: '..string.match(_G['BINDING_NAME_ACTIONBUTTON1'],'(.+)%d')\n    if e.Key1 then \n        m=m..S..'|cFF00FF00'.._G['ENABLE']..'|r'\n    else \n        m=m..X..'|cFFFF0000'.._G['DISABLE']..'|r'\n    end \n    m=m..'\\n|T134248:0|t|cFFFF00FFAlt + '..e.config.Key1..'|r: '\n    if e.str then m=m..e.str else m=m.._G['TARGET'] end\n    if e.Key1 then \n        m=m..S..'|cFF00FF00'.._G['ENABLE']..'|r'\n    else \n        m=m..X..'|cFFFF0000'.._G['DISABLE']..'|r'\n    end \n    m=m..'\\n|cFF00FF00Alt + '.._G['KEY_MOUSEWHEELDOWN']..'|r'--鼠标滚轮向下滚动\n    \n    m=e.col..m..'|r'\n    GameTooltip:SetText(m)            \n    GameTooltip:Show()        \nend\n\ne.GetKey=function()\n    if UnitAffectingCombat('player') then return end\n    ClearOverrideBindings(btn)\n    local SetKey=function(k,RL,S)\n        if not k then return end \n        local s=S or '' \n        local C \n        if RL=='R' then\n            C='RightButton' \n        else\n        C='LeftButton' end \n        SetOverrideBindingClick(btn, true, k, btn:GetName(), C) \n        if not WeakAuras.IsOptionsOpen() then\n            print('|cFF00FF00'.._G['SETTINGS']..'|T134248:12|t|r|cFFFF00FF'..k..'|r: '..e.col..s..'|r') \n        end        \n    end\n    \n    local sa = WeakAurasSaved[e.id..'key1']\n    local key=string.gsub(e.config.Key1,' ','')\n    if sa and sa==1 and key~='' then        \n        SetKey(key,'L','|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t') \n        SetKey('ALT-'..key,'R', _G['TARGET']) \n        if #key==1 then e.Key1=e.col..string.upper(key)..'|r' else e.Key1='|T134248:12|t' end\n    else\n        e.Key1=nil\n    end\nend\ne.GetKey()--设置快捷键\n\nif WeakAurasSaved[e.id..'Chat']==1 then e.Chat=true end\nbtn:EnableMouseWheel(true)\nbtn:SetScript('OnMouseWheel',function(self,delta)\n        if delta==-1 and IsAltKeyDown() then--设置KEY\n            if UnitAffectingCombat('player') then\n                return \n            end\n            if not e.Key1 then                                \n                WeakAurasSaved[e.id..'key1']=1\n            else          \n                print('|cFFFF0000'.._G['KEY_NUMLOCK_MAC']..'|r|T134248:12|t|cFFFF00FF'.. e.config.Key1..'|r: |TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t')                \n                WeakAurasSaved[e.id..'key1']=0                \n            end\n            e.GetKey()\n            WeakAuras.ScanEvents('ENV_Marker_Chat')                        \n        elseif delta==1 and IsAltKeyDown() then\n            local s=_G[e.config.S] or e.config.S\n            if e.Chat then \n                e.Chat=false\n                WeakAurasSaved[e.id..'Chat']=0\n                print('|cFFFF0000'.._G['DISABLE']..'|r: '.._G['SAY']..'): '..s..'|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t')\n            else\n                e.Chat=true\n                WeakAurasSaved[e.id..'Chat']=1\n                print('|cFF0FF000'.._G['ENABLE']..'|r: '.._G['SAY']..'): '..s..'|TInterface\\\\TargetingFrame\\\\UI-RaidTargetingIcon_'..e.icon..':0|t')\n            end            \n            WeakAuras.ScanEvents('ENV_Marker_Chat')            \n        elseif delta == -1 then--鼠标向下，清除目标标记,向上标记\n            if UnitExists('target') then\n                local t=GetRaidTargetIndex('target')                 \n                if t and t~=0 then\n                    SetRaidTarget('target',0)                    \n                end\n            end            \n        elseif delta == 1 then \n            if UnitExists('target') then\n                local t=GetRaidTargetIndex('target')                 \n                if t~=e.icon then\n                    SetRaidTarget('target',e.icon)\n                end\n            end            \n        end\n        e.TipsShow(self)            \nend)\n\nbtn:SetScript(\"OnEnter\",function(self)\n        e.btn2()\n        region:SetAlpha(e.config.Enter)       \n        e.TipsShow(self)\nend)\nbtn:SetScript(\"OnLeave\",function(self)\n        region:SetAlpha(e.config.Leave)\n        GameTooltip:Hide()        \nend)\nbtn:SetScript(\"OnMouseUp\", function(self)\n        region:SetAlpha(e.config.Enter)   \n        e.TipsShow(self)        \nend)\n\nbtn:SetScript(\"OnMouseDown\", function(self)\n        region:SetAlpha(e.config.Down)        \nend)",
@@ -46651,11 +46651,11 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["events"] = "PLAYER_ENTERING_WORLD,ENV_Marker_Chat",
 						["customName"] = "function()\n    local e=aura_env\n    if e.Chat then \n        return e.col.._G['SAY']..'|r'\n    else    \n        return ''\n    end    \nend",
-						["spellIds"] = {
-						},
+						["custom"] = "function()\n    return true\nend",
 						["use_unit"] = true,
 						["check"] = "event",
-						["custom"] = "function()\n    return true\nend",
+						["spellIds"] = {
+						},
 						["custom_type"] = "status",
 						["names"] = {
 						},
@@ -46812,8 +46812,8 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_font"] = "聊天",
-					["text_anchorYOffset"] = 0,
 					["text_shadowYOffset"] = -3,
+					["text_anchorYOffset"] = 0,
 					["text_fontType"] = "OUTLINE",
 					["text_wordWrap"] = "WordWrap",
 					["text_visible"] = true,
@@ -46840,9 +46840,9 @@ WeakAurasSaved = {
 					["anchorYOffset"] = 0,
 					["text_justify"] = "CENTER",
 					["rotateText"] = "NONE",
-					["text_text_format_1.n_format"] = "none",
-					["type"] = "subtext",
 					["text_anchorXOffset"] = -5,
+					["type"] = "subtext",
+					["text_text_format_1.n_format"] = "none",
 					["text_color"] = {
 						1, -- [1]
 						1, -- [2]
@@ -46892,10 +46892,10 @@ WeakAurasSaved = {
 					["text_anchorYOffset"] = 7,
 					["text_shadowXOffset"] = 3,
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_anchorPoint"] = "CENTER",
 					["text_shadowYOffset"] = -3,
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 					["text_text_format_6.n_format"] = "none",
 					["anchorXOffset"] = 0,
 					["text_selfPoint"] = "AUTO",
@@ -46942,66 +46942,10 @@ WeakAurasSaved = {
 			["anchorFrameFrame"] = "WeakAuras:4",
 			["regionType"] = "texture",
 			["blendMode"] = "BLEND",
-			["parent"] = "World-Target Markers",
+			["selfPoint"] = "CENTER",
 			["anchorFrameParent"] = false,
 			["texture"] = "Interface\\TargetingFrame\\UI-RaidTargetingIcon_5",
-			["xOffset"] = -150,
-			["selfPoint"] = "CENTER",
-			["semver"] = "9.2.83",
-			["tocversion"] = 20501,
-			["id"] = "5月亮 Crescent Moon",
-			["rotation"] = 0,
-			["alpha"] = 0.5,
-			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
-			["uid"] = ")(MZJLplng4",
-			["width"] = 25,
-			["config"] = {
-				["noShowTooltipsInCombat"] = false,
-				["cur"] = 7,
-				["point"] = 1,
-				["Key1"] = "5",
-				["Enter"] = 1,
-				["Leave"] = 0.3,
-				["S"] = "COMBATLOG_HIGHLIGHT_KILL",
-				["Down"] = 0.1,
-				["id"] = 5,
-			},
-			["conditions"] = {
-				{
-					["check"] = {
-						["trigger"] = 2,
-						["variable"] = "show",
-						["value"] = 0,
-					},
-					["changes"] = {
-						{
-							["value"] = true,
-							["property"] = "desaturate",
-						}, -- [1]
-					},
-				}, -- [1]
-				{
-					["check"] = {
-						["trigger"] = 4,
-						["variable"] = "show",
-						["value"] = 1,
-					},
-					["changes"] = {
-						{
-							["value"] = true,
-							["property"] = "sub.4.border_visible",
-						}, -- [1]
-						{
-							["value"] = 1,
-							["property"] = "alpha",
-						}, -- [2]
-					},
-				}, -- [2]
-			},
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
+			["parent"] = "World-Target Markers",
 			["authorOptions"] = {
 				{
 					["type"] = "header",
@@ -47131,6 +47075,62 @@ WeakAurasSaved = {
 					["width"] = 1,
 				}, -- [12]
 			},
+			["semver"] = "9.2.83",
+			["tocversion"] = 20501,
+			["id"] = "5月亮 Crescent Moon",
+			["xOffset"] = -150,
+			["alpha"] = 0.5,
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
+			["config"] = {
+				["noShowTooltipsInCombat"] = false,
+				["cur"] = 7,
+				["point"] = 1,
+				["Key1"] = "5",
+				["Enter"] = 1,
+				["Leave"] = 0.3,
+				["S"] = "COMBATLOG_HIGHLIGHT_KILL",
+				["Down"] = 0.1,
+				["id"] = 5,
+			},
+			["width"] = 25,
+			["uid"] = ")(MZJLplng4",
+			["conditions"] = {
+				{
+					["check"] = {
+						["trigger"] = 2,
+						["variable"] = "show",
+						["value"] = 0,
+					},
+					["changes"] = {
+						{
+							["value"] = true,
+							["property"] = "desaturate",
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["check"] = {
+						["trigger"] = 4,
+						["variable"] = "show",
+						["value"] = 1,
+					},
+					["changes"] = {
+						{
+							["value"] = true,
+							["property"] = "sub.4.border_visible",
+						}, -- [1]
+						{
+							["value"] = 1,
+							["property"] = "alpha",
+						}, -- [2]
+					},
+				}, -- [2]
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["rotation"] = 0,
 		},
 		["arena preparation timer"] = {
 			["sparkWidth"] = 10,
@@ -47270,11 +47270,11 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_font"] = "Avenir",
-					["text_fontType"] = "None",
+					["text_visible"] = true,
 					["text_shadowYOffset"] = -1,
 					["anchorXOffset"] = 0,
 					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
+					["text_fontType"] = "None",
 					["text_anchorPoint"] = "INNER_RIGHT",
 					["text_text_format_p_time_format"] = 0,
 					["text_text_format_p_format"] = "timed",
@@ -47345,26 +47345,26 @@ WeakAurasSaved = {
 			["xOffset"] = -12.823486328125,
 			["iconSource"] = -1,
 			["icon_side"] = "RIGHT",
-			["zoom"] = 0,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["sparkHeight"] = 30,
 			["texture"] = "Flat",
 			["uid"] = "BL8429eMAKR",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["zoom"] = 0,
 			["spark"] = false,
 			["tocversion"] = 20501,
 			["sparkHidden"] = "NEVER",
-			["alpha"] = 1,
 			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["width"] = 360,
-			["config"] = {
-			},
-			["inverse"] = false,
+			["anchorFrameType"] = "SCREEN",
 			["sparkColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
+			},
+			["inverse"] = false,
+			["config"] = {
 			},
 			["orientation"] = "HORIZONTAL",
 			["conditions"] = {
@@ -47414,14 +47414,14 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["use_specific_unit"] = false,
 						["use_inverse"] = true,
-						["use_debuffClass"] = false,
+						["stacksOperator"] = ">",
 						["debuffType"] = "HELPFUL",
 						["spellIds"] = {
 							248622, -- [1]
 						},
 						["type"] = "aura2",
-						["stacksOperator"] = ">",
-						["subeventSuffix"] = "_CAST_START",
+						["use_debuffClass"] = false,
+						["unevent"] = "auto",
 						["duration"] = "1",
 						["form"] = {
 							["single"] = 2,
@@ -47431,7 +47431,7 @@ WeakAurasSaved = {
 						["buffShowOn"] = "showOnActive",
 						["useName"] = true,
 						["name"] = "Spell Reflection",
-						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["auranames"] = {
 							"13048", -- [1]
 						},
@@ -47506,15 +47506,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 1,
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["use_talent"] = true,
-				["use_class"] = true,
-				["role"] = {
+				["class"] = {
+					["single"] = "WARRIOR",
 					["multi"] = {
 					},
 				},
@@ -47522,27 +47515,34 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "WARRIOR",
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["spec"] = {
+					["single"] = 1,
 					["multi"] = {
 					},
 				},
 				["zoneIds"] = "",
 			},
 			["cooldownTextDisabled"] = false,
-			["parent"] = "狂暴戰",
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["regionType"] = "icon",
 			["color"] = {
 				1, -- [1]
@@ -47550,24 +47550,36 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["icon"] = true,
+			["parent"] = "狂暴戰",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = -52,
 			["uid"] = "G5jFh(gnjiy",
-			["semver"] = "1.0.2",
-			["zoom"] = 0,
 			["auto"] = true,
+			["zoom"] = 0,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Enrage - Buff 3",
 			["width"] = 45,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = false,
+			["icon"] = true,
+			["conditions"] = {
+				{
+					["check"] = {
+					},
+					["changes"] = {
+						{
+						}, -- [1]
+					},
+				}, -- [1]
+			},
+			["cooldown"] = true,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -47588,18 +47600,6 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["conditions"] = {
-				{
-					["check"] = {
-					},
-					["changes"] = {
-						{
-						}, -- [1]
-					},
-				}, -- [1]
-			},
-			["cooldown"] = true,
-			["xOffset"] = -52,
 		},
 		["Sweeping Strikes 2"] = {
 			["iconSource"] = -1,
@@ -47648,7 +47648,7 @@ WeakAurasSaved = {
 						["genericShowOn"] = "showAlways",
 						["subeventPrefix"] = "SPELL",
 						["unit"] = "player",
-						["spellName"] = 12328,
+						["debuffType"] = "HELPFUL",
 						["use_unit"] = true,
 						["type"] = "spell",
 						["names"] = {
@@ -47666,7 +47666,7 @@ WeakAurasSaved = {
 						["unevent"] = "auto",
 						["use_genericShowOn"] = true,
 						["use_track"] = true,
-						["debuffType"] = "HELPFUL",
+						["spellName"] = 12328,
 					},
 					["untrigger"] = {
 						["showOn"] = "showAlways",
@@ -47701,11 +47701,11 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_font"] = "Friz Quadrata TT",
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 					["text_shadowYOffset"] = 0,
 					["anchorXOffset"] = 0,
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_anchorPoint"] = "INNER_BOTTOMRIGHT",
 					["text_shadowXOffset"] = 0,
 					["text_shadowColor"] = {
@@ -47778,7 +47778,7 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
-			["parent"] = "狂暴戰",
+			["url"] = "https://wago.io/jMHRj-FSb/3",
 			["regionType"] = "icon",
 			["color"] = {
 				1, -- [1]
@@ -47786,44 +47786,25 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["icon"] = true,
+			["parent"] = "狂暴戰",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/jMHRj-FSb/3",
+			["xOffset"] = 95,
 			["uid"] = "ViDFnoVI3G5",
-			["semver"] = "1.0.2",
-			["zoom"] = 0,
 			["auto"] = true,
+			["zoom"] = 0,
+			["semver"] = "1.0.2",
 			["tocversion"] = 20501,
 			["id"] = "Sweeping Strikes 2",
 			["width"] = 45,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
+			["icon"] = true,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -47866,7 +47847,26 @@ WeakAurasSaved = {
 				}, -- [3]
 			},
 			["cooldown"] = true,
-			["xOffset"] = 95,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
 		},
 	},
 	["lastArchiveClear"] = 1622906884,
