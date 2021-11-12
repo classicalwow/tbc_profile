@@ -5,14 +5,15 @@ NameplateAurasAceDB = {
 	},
 	["profiles"] = {
 		["特變電工 - 伊弗斯"] = {
-			["DefaultIconSizeHeight"] = 40,
+			["StacksTextXOffset"] = 4,
+			["StacksFontScale"] = 2.2,
+			["StacksTextYOffset"] = -23,
 			["HidePlayerBlizzardFrame"] = true,
-			["HideBlizzardFrames"] = false,
+			["InterruptsGlowType"] = 1,
 			["AlwaysShowMyAuras"] = true,
 			["DBVersion"] = 19,
 			["IconAnchor"] = 3,
 			["ShowAurasOnPlayerNameplate"] = true,
-			["InterruptsGlowType"] = 1,
 			["DefaultSpellsLastSetImported"] = 2,
 			["CustomSpells2"] = {
 				{
@@ -926,7 +927,9 @@ NameplateAurasAceDB = {
 					["spellName"] = "死亡謊言",
 				}, -- [65]
 			},
+			["HideBlizzardFrames"] = false,
 			["Additions_DispellableSpells"] = true,
+			["DefaultIconSizeHeight"] = 40,
 			["DefaultIconSizeWidth"] = 40,
 		},
 	},

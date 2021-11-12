@@ -31,7 +31,7 @@ DataStore_InventoryDB = {
 				["lastUpdate"] = 1632561001,
 			},
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1636478317,
+				["lastUpdate"] = 1636558671,
 				["averageItemLvl"] = 128.3125,
 				["Inventory"] = {
 					"|cffa335ee|Hitem:29021:3003:32409:24058:::::70:::::::::|h[戰爭使者鬥盔]|h|r", -- [1]
@@ -59,9 +59,6 @@ DataStore_InventoryDB = {
 		["Guilds"] = {
 			["Default.伊弗斯.猛男俱樂部"] = {
 				["Members"] = {
-					["特變電工"] = {
-						["averageItemLvl"] = 128,
-					},
 					["三浦建太郎"] = {
 						["averageItemLvl"] = 7,
 					},
