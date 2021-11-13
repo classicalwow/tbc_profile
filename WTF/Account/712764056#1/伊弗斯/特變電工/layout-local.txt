@@ -20,3 +20,17 @@ X: -245
 Y: -178
 W: 200
 H: 50
+Frame: BattlefieldMapTab
+FrameLevel: 1
+Anchor: RIGHT
+X: -138
+Y: -104
+W: 88
+H: 32
+Frame: ItemRackOptFrame
+FrameLevel: 0
+Anchor: CENTER
+X: 0
+Y: 100
+W: 288
+H: 348

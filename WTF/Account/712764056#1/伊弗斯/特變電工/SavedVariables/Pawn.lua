@@ -1,11 +1,13 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0529,
+	["LastPlayerFullName"] = "特變電工-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 29011,
-			["Level"] = 120,
-			["Link"] = "|cffa335ee|Hitem:29011::::::::70::::::::|h[戰爭使者防禦巨盔]|h|r",
+			["ID"] = 30488,
+			["Level"] = 136,
+			["Link"] = "|cffa335ee|Hitem:30488:3003:25894:24048:::::70:::::::::|h[殘忍鬥士鎧甲頭盔]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 33066,
@@ -65,10 +67,10 @@ PawnOptions = {
 			["Level"] = 136,
 			["Link"] = "|cffa335ee|Hitem:30487:684:::::::70:::::::::|h[殘忍鬥士鎧甲護手]|h|r",
 		},
-		[9] = {
-			["ID"] = 30057,
-			["Level"] = 128,
-			["Link"] = "|cffa335ee|Hitem:30057::::::::70:::::::::|h[消滅護腕]|h|r",
+		[5] = {
+			["ID"] = 30486,
+			["Level"] = 136,
+			["Link"] = "|cffa335ee|Hitem:30486::::::::70:::::::::|h[殘忍鬥士鎧甲護軀]|h|r",
 		},
 		[11] = {
 			["ID"] = 29279,
@@ -87,14 +89,12 @@ PawnOptions = {
 			["AlsoFitsIn"] = 11,
 			["Link"] = "|cffa335ee|Hitem:29279::::::::70:::::::::|h[偉大保衛者之紫羅蘭徽記]|h|r",
 		},
-		[5] = {
-			["ID"] = 30486,
-			["Level"] = 136,
-			["Link"] = "|cffa335ee|Hitem:30486::::::::70:::::::::|h[殘忍鬥士鎧甲護軀]|h|r",
+		[9] = {
+			["ID"] = 30057,
+			["Level"] = 128,
+			["Link"] = "|cffa335ee|Hitem:30057::::::::70:::::::::|h[消滅護腕]|h|r",
 		},
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "特變電工-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
