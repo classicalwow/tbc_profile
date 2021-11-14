@@ -1311,7 +1311,7 @@ function QuestieTracker:Update()
             elseif qA.zoneOrSort < 0 then
                 qAZone = QuestieTracker.utils:GetCategoryNameByID(qA.zoneOrSort)
             else
-                qAZone = qA.zoneOrSort
+                qAZone = tostring(qA.zoneOrSort)
                 _Tracker:ReportErrorMessage(qAZone)
             end
 
@@ -1320,7 +1320,7 @@ function QuestieTracker:Update()
             elseif qB.zoneOrSort < 0 then
                 qBZone = QuestieTracker.utils:GetCategoryNameByID(qB.zoneOrSort)
             else
-                qBZone = qB.zoneOrSort
+                qBZone = tostring(qB.zoneOrSort)
                 _Tracker:ReportErrorMessage(qBZone)
             end
 
@@ -1400,7 +1400,7 @@ function QuestieTracker:Update()
 
         -- Probobly not in the Database. Assign zoneOrSort ID so Questie doesn't error
         else
-            zoneName = quest.zoneOrSort
+            zoneName = tostring(quest.zoneOrSort)
             _Tracker:ReportErrorMessage(zoneName)
         end
 
@@ -2253,6 +2253,26 @@ _RemoveQuestWatch = function(index, isQuestie)
             else
                 Questie.db.char.AutoUntrackedQuests[questId] = true
             end
+
+            if Questie.db.char.hideUntrackedQuestsMapIcons then
+                -- Remove quest Icons from map when untracking quest.
+                -- Also reset caches of spawned Icons so re-tracking works.
+                QuestieMap:UnloadQuestFrames(questId)
+                local quest = QuestieDB:GetQuest(questId)
+                if quest then
+                    if quest.Objectives then
+                        for _, objective in pairs(quest.Objectives) do
+                            objective.AlreadySpawned = {}
+                        end
+                    end
+                    if next(quest.SpecialObjectives) then
+                        for _, objective in pairs(quest.SpecialObjectives) do
+                            objective.AlreadySpawned = {}
+                        end
+                    end
+                end
+            end
+
             QuestieCombatQueue:Queue(function()
                 QuestieTracker:ResetLinesForChange()
                 QuestieTracker:Update()
@@ -2323,6 +2343,10 @@ function QuestieTracker:AQW_Insert(index, expire)
         QuestieCombatQueue:Queue(function()
             QuestieTracker:ResetLinesForChange()
             QuestieTracker:Update()
+            if Questie.db.char.hideUntrackedQuestsMapIcons then
+                -- Quest had its Icons removed, paint them again
+                QuestieQuest:PopulateObjectiveNotes(quest)
+            end
         end)
     end
 end

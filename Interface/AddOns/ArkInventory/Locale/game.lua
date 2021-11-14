@@ -138,6 +138,7 @@ L["CLEAR"] = KEY_NUMLOCK_MAC or true
 L["CLOSE"] = CLOSE or true
 L["COLOUR"] = COLOR or true
 L["COLLECTED"] = COLLECTED or true
+L["COMBAT"] = COMBAT or true
 L["COMPANIONS"] = COMPANIONS or true
 L["COMPLETE"] = COMPLETE or true
 L["CONTROLS"] = CONTROLS_LABEL or true

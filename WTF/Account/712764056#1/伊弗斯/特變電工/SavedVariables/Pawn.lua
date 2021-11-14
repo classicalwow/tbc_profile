@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0529,
+	["LastVersion"] = 2.053,
 	["LastPlayerFullName"] = "特變電工-伊弗斯",
 	["AutoSelectScales"] = false,
 	["ItemLevels"] = {

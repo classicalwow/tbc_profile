@@ -211,7 +211,7 @@ DataStore_QuestsDB = {
 				},
 			},
 			["Default.伊弗斯.特變電工"] = {
-				["HistoryLastUpdate"] = 1636557649,
+				["HistoryLastUpdate"] = 1636804244,
 				["QuestHeaders"] = {
 					"司凱堤斯", -- [1]
 					"奧齊頓", -- [2]
@@ -362,7 +362,7 @@ DataStore_QuestsDB = {
 					246000, -- [10]
 					0, -- [11]
 				},
-				["lastUpdate"] = 1636558886,
+				["lastUpdate"] = 1636804863,
 				["Rewards"] = {
 					"r|32720|1|1", -- [1]
 					"c|29312|1|1,c|29313|1|1,c|29315|1|1,c|29314|1|1", -- [2]

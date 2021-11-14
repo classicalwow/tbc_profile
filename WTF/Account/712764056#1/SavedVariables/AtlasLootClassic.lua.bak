@@ -7,7 +7,7 @@ AtlasLootClassicDB = {
 		["畜生犬隊長 - 伊弗斯"] = "畜生犬隊長 - 伊弗斯",
 	},
 	["global"] = {
-		["__addonrevision"] = 2030004,
+		["__addonrevision"] = 2040000,
 	},
 	["profiles"] = {
 		["路易斯桑拿 - 伊弗斯"] = {

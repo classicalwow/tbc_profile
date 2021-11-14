@@ -2,8 +2,8 @@
 
 License: All Rights Reserved, (c) 2009-2018
 
-$Revision: 2900 $
-$Date: 2021-08-15 23:38:39 +1000 (Sun, 15 Aug 2021) $
+$Revision: 2944 $
+$Date: 2021-11-08 22:57:40 +1100 (Mon, 08 Nov 2021) $
 
 ]]--
 
@@ -216,7 +216,6 @@ function ArkInventoryRules.AppliesToItem( i )
 	end
 	
 	local codex = ArkInventory.GetLocationCodex( i.loc_id )
-	
 	ArkInventoryRules.Object.playerinfo = codex.player.data.info
 	
 	local cat_type = ArkInventory.Const.Category.Type.Rule
@@ -699,7 +698,81 @@ function ArkInventoryRules.System.boolean_itemleveluse( ... )
 	if e >= arg1 and e <= arg2 then
 		return true
 	end
+	
+	return false
+	
+end
 
+function ArkInventoryRules.System.boolean_itemlevelbelowaverage( ... )
+	
+	if not ArkInventoryRules.Object.h then
+		return false
+	end
+	
+	if ( ArkInventoryRules.Object.playerinfo.itemlevel or 1 ) == 1 then
+		return false
+	end
+	
+	local e = ArkInventoryRules.Object.info.ilvl or -2
+	if e < 0 then return false end
+	
+	local fn = "itemlevelbelowaverage"
+	
+	local ac = select( '#', ... )
+	
+	if ac == 0 then
+		error( string.format( ArkInventory.Localise["RULE_FAILED_ARGUMENT_NONE_SPECIFIED"], fn ), 0 )
+	end
+	
+	local arg1, arg2 = ...
+	-- arg1 = levels below average to become junk
+	-- arg2 = minimum level (1 if not set)
+	
+	if not arg1 then
+		error( string.format( ArkInventory.Localise["RULE_FAILED_ARGUMENT_IS_NIL"], fn, 1 ), 0 )
+	end
+	
+	if type( arg1 ) ~= "number" then
+		error( string.format( ArkInventory.Localise["RULE_FAILED_ARGUMENT_IS_NOT"], fn, 1, ArkInventory.Localise["NUMBER"] ), 0 )
+	end
+	
+	if arg1 < 1 then
+		error( string.format( ArkInventory.Localise["RULE_FAILED_ARGUMENT_IS_INVALID"], fn, 1 ), 0 )
+	end
+	
+	if not arg2 then
+		arg2 = 2
+	end
+	
+	if type( arg2 ) ~= "number" then
+		error( string.format( ArkInventory.Localise["RULE_FAILED_ARGUMENT_IS_NOT"], fn, 2, ArkInventory.Localise["NUMBER"] ), 0 )
+	end
+	
+	if arg2 < 1 then
+		arg2 = 2
+	end
+	
+	local equip = ArkInventoryRules.System.boolean_equip( )
+	if not equip then
+		return false
+	end
+	
+	local overall, equipped, pvp = GetAverageItemLevel( )
+	local averagelevel = ArkInventoryRules.Object.playerinfo.itemlevel or equipped
+	
+	arg1 = averagelevel - arg1
+	if arg1 < 2 then
+		arg1 = 2
+	end
+	
+	if arg1 < arg2 then
+		arg1 = arg2
+	end
+	
+	if e >= arg2 and e <= arg1 then
+		return true
+	end
+	
 	return false
 	
 end
@@ -2071,6 +2144,7 @@ ArkInventoryRules.Environment = {
 	
 	ireq = ArkInventoryRules.System.boolean_itemleveluse,
 	uselevel = ArkInventoryRules.System.boolean_itemleveluse,
+	belowaverage = ArkInventoryRules.System.boolean_itemlevelbelowaverage,
 	
 	bonus = ArkInventoryRules.System.boolean_bonusids,
 	
@@ -2896,6 +2970,9 @@ function ArkInventoryRules.SetObject( tbl )
 	
 	ArkInventory.Table.Wipe( i )
 	ArkInventory.Table.Merge( tbl, i )
+	
+	local codex = ArkInventory.GetLocationCodex( i.loc_id )
+	i.playerinfo = codex.player.data.info
 	
 	i.info = ArkInventory.GetObjectInfo( i.h )
 	if not i.info.ready then

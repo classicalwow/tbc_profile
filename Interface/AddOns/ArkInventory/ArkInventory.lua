@@ -4,8 +4,8 @@
 
 License: All Rights Reserved, (c) 2006-2020
 
-$Revision: 2923 $
-$Date: 2021-09-10 13:49:21 +1000 (Fri, 10 Sep 2021) $
+$Revision: 2934 $
+$Date: 2021-11-06 10:29:06 +1100 (Sat, 06 Nov 2021) $
 
 ]]--
 
@@ -990,7 +990,7 @@ BINDING_NAME_ARKINV_MENU = ArkInventory.Localise["MENU"]
 BINDING_NAME_ARKINV_CONFIG = ArkInventory.Localise["CONFIG_DESC"]
 BINDING_NAME_ARKINV_LDB_PETS_SUMMON = ArkInventory.Localise["LDB_COMPANION_SUMMON"]
 _G["BINDING_NAME_CLICK ARKINV_MountToggle:LeftButton"] = ArkInventory.Localise["LDB_MOUNTS_SUMMON"]
-BINDING_NAME_ARKINV_JUNK_SELL = ArkInventory.Localise["BINDING_JUNK_SELL_MANUAL"]
+BINDING_NAME_ARKINV_JUNK_SELL = ArkInventory.Localise["CONFIG_JUNK_SELL_BINDING"]
 
 ArkInventory.Const.DatabaseDefaults.global = {
 	["option"] = {
@@ -1835,7 +1835,7 @@ ArkInventory.Const.DatabaseDefaults.global = {
 				custom = false,
 				value = nil,
 			},
-			["EVENT_ARKINV_ACTIONBAR_UPDATE_USABLE_BUCKET"] = { default = 1 },
+			--["EVENT_ARKINV_ACTIONBAR_UPDATE_USABLE_BUCKET"] = { default = 1 },
 			["EVENT_ARKINV_AUCTION_LEAVE_BUCKET"] = { default = 0.3 },
 			["EVENT_ARKINV_AUCTION_UPDATE_MASSIVE_BUCKET"] = { default = 60 },
 			["EVENT_ARKINV_AUCTION_UPDATE_BUCKET"] = { default = 2 },
@@ -1992,12 +1992,16 @@ ArkInventory.Const.DatabaseDefaults.global = {
 			["realm"] = {
 				["loaded"] = true,
 			},
+			["object"] = {
+				["notfound"] = false,
+			},
 		},
 		["mount"] = {
 			["correction"] = { }, -- [spell] = mountType
 		},
 		["junk"] = {
 			["sell"] = false,
+			["combat"] = false,
 			["limit"] = true,
 			["delete"] = false,
 			["notify"] = true,
@@ -2581,7 +2585,7 @@ function ArkInventory.OnInitialize( )
 	ArkInventory.Const.BLIZZARD.Events = {
 --		{ "blizzard event name", "arkinventory function name", blizzard_project_id, min_toc, max_toc }
 		
-		{ "ACTIONBAR_UPDATE_USABLE", "EVENT_ARKINV_ACTIONBAR_UPDATE_USABLE" },
+		--{ "ACTIONBAR_UPDATE_USABLE", "EVENT_ARKINV_ACTIONBAR_UPDATE_USABLE" },
 		{ "CVAR_UPDATE", "EVENT_ARKINV_CVAR_UPDATE" },
 --		{ "PLAYER_CONTROL_GAINED", "EVENT_ARKINV_PLAYER_CONTROL_GAINED" },
 --		{ "PLAYER_CONTROL_LOST", "EVENT_ARKINV_PLAYER_CONTROL_LOST" },

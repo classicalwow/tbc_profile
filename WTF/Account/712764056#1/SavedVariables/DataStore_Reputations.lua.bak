@@ -39,7 +39,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1636558671,
+				["lastUpdate"] = 1636804863,
 				["Factions"] = {
 					[15] = 500,
 					[30] = 1100,

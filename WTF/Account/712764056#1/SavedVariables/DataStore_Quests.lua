@@ -7,7 +7,7 @@ DataStore_QuestsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.伊弗斯.特變電工"] = {
-				["HistoryLastUpdate"] = 1636734817,
+				["HistoryLastUpdate"] = 1636805120,
 				["QuestHeaders"] = {
 					"司凱堤斯", -- [1]
 					"奧齊頓", -- [2]
@@ -157,7 +157,7 @@ DataStore_QuestsDB = {
 					[11] = "r|20557|1|1",
 				},
 				["HistoryBuild"] = "40892",
-				["lastUpdate"] = 1636736599,
+				["lastUpdate"] = 1636821602,
 				["Quests"] = {
 					4589632, -- [1]
 					4395072, -- [2]

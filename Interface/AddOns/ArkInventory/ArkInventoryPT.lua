@@ -274,7 +274,7 @@ ArkInventory.Lib.PeriodicTable:AddData( "ArkInventory", "1", {
 	
 	-- shadowlands covenant other items
 	["ArkInventory.Consumable.Power.Shadowlands.Kyrian.Ascended Crafting"] = "180479,180579,181140,181145,181846,181157,181159,181239,181240",
-	["ArkInventory.Consumable.Power.Shadowlands.Necrolord.Abomination Stitching"] = "178061,183744,183760,183830,184204",
+	["ArkInventory.Consumable.Power.Shadowlands.Necrolord.Abominable Stitching"] = "178061,183744,183754,183760,183830,184204,184224",
 	["ArkInventory.Consumable.Power.Shadowlands.Night Fae.Queens Conservatory"] = "176832,176921,176922,177953,177698,177699,177700,178874,178878,178879,178877,178880,178881,178882,178883,178884,183520,183521,183522,183704,183805,183806,184779",
 	["ArkInventory.Consumable.Power.Shadowlands.Venthyr.Ember Court"] = "177230,177231,177232,177233,177234,177235,177236,177237,177238,177239,177241,177242,177243,177244,177245,180248,181436,181437,181438,181439,181440,181441,181442,181443,181444,181445,181446,181447,181448,181449,181451,181517,181518,181519,181520,181521,181522,181523,181524,181530,181532,181533,181535,181536,181537,181538,182243,182342,182296,183956,183957,184627,184628,184663",
 	["ArkInventory.Consumable.Power.Shadowlands.Conduit.Boost"] = "187216",
@@ -361,7 +361,8 @@ ArkInventory.Lib.PeriodicTable:AddData( "ArkInventory", "1", {
 	["ArkInventory.Skill.Tailoring.PTBase"] = "m,Tradeskill.Mat.ByProfession.Tailoring,TradeskillResultMats.Reverse.Tailoring,ArkInventory.Tradegoods.Cloth",
 	
 	
-	["ArkInventory.Armor Token.60.Korthian"] = "187187",
+	["ArkInventory.Armor Token.200.Korthian"] = "187187",
+	["ArkInventory.Armor Token.174-233.CastleNathria"] = "183888,183889,183890,183891,183892,183893,183894,183895,183896,183897,183898,183899",
 	["ArkInventory.Armor Token.120.Black Empire.Cloth"] = "173414,173415,173416,173417,173418,173419,173420,173423",
 	["ArkInventory.Armor Token.120.Black Empire.Leather"] = "173407,173408,173409,173410,173411,173412,173413,173424",
 	["ArkInventory.Armor Token.120.Black Empire.Plate"] = "173393,173394,173395,173396,173397,173398,173399,173422",

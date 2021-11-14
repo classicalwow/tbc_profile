@@ -342,6 +342,18 @@ function QuestieQuest:SmoothReset()
     end)
 end
 
+function QuestieQuest:ShouldShowQuestNotes(questId)
+    if not Questie.db.char.hideUntrackedQuestsMapIcons then
+        -- Always show quest notes (map icons) unless option is enabled
+        return true
+    end
+
+    local autoWatch = (GetCVar("autoQuestWatch") == "1")
+    local trackedAuto = autoWatch and (not Questie.db.char.AutoUntrackedQuests or not Questie.db.char.AutoUntrackedQuests[questId])
+    local trackedManual = not autoWatch and (Questie.db.char.TrackedQuests and Questie.db.char.TrackedQuests[questId])
+    return trackedAuto or trackedManual
+end
+
 function QuestieQuest:HideQuest(id)
     Questie.db.char.hidden[id] = true
     QuestieMap:UnloadQuestFrames(id);
@@ -480,7 +492,11 @@ function QuestieQuest:UpdateQuest(questId)
     local quest = QuestieDB:GetQuest(questId)
     if quest and (not Questie.db.char.complete[questId]) then
         QuestieQuest:PopulateQuestLogInfo(quest)
-        QuestieQuest:UpdateObjectiveNotes(quest)
+
+        if QuestieQuest:ShouldShowQuestNotes(questId) then
+            QuestieQuest:UpdateObjectiveNotes(quest)
+        end
+
         local isComplete = quest:IsComplete()
         if isComplete == 1 then -- Quest is complete
             Questie:Debug(Questie.DEBUG_DEVELOP, "[QuestieQuest:UpdateQuest] Quest is complete")
@@ -507,7 +523,7 @@ function QuestieQuest:GetAllQuestIds()
     Questie:Debug(Questie.DEBUG_INFO, "[QuestieQuest]: Getting all quests");
     QuestiePlayer.currentQuestlog = {}
     for index = 1, MAX_QUEST_LOG_INDEX do
-        local title, _, _, isHeader, _, _, _, questId = GetQuestLogTitle(index)
+        local title, _, _, isHeader, _, isComplete, _, questId = GetQuestLogTitle(index)
         if (not title) then
             -- We exceeded the valid quest log entries
             break
@@ -517,13 +533,17 @@ function QuestieQuest:GetAllQuestIds()
                 Questie:Error(l10n("The quest %s is missing from Questie's database, Please report this on GitHub or Discord!", tostring(questId)))
                 Questie._sessionWarnings[questId] = true
             end
-        elseif (not isHeader) then
+        elseif (not isHeader) and isComplete ~= -1 then
             --Keep the object in the questlog to save searching
             local quest = QuestieDB:GetQuest(questId)
             if quest then
                 QuestiePlayer.currentQuestlog[questId] = quest
                 QuestieQuest:PopulateQuestLogInfo(quest)
-                QuestieQuest:PopulateObjectiveNotes(quest)
+
+                if QuestieQuest:ShouldShowQuestNotes(questId) then
+                    QuestieQuest:PopulateObjectiveNotes(quest)
+                end
+
                 if title and strlen(title) > 1 then
                     quest.LocalizedName = title
                 end
@@ -770,7 +790,7 @@ function QuestieQuest:PopulateObjective(quest, objectiveIndex, objective, blockI
             objectiveCenter = { x = x, y = y}
         end
 
-        local iconsToDraw, spawnItemId  = _DetermineIconsToDraw(quest, objective, objectiveIndex, objectiveCenter)
+        local iconsToDraw, _  = _DetermineIconsToDraw(quest, objective, objectiveIndex, objectiveCenter)
         local icon, iconPerZone = _DrawObjectiveIcons(quest.Id, iconsToDraw, objective, maxPerType)
         _DrawObjectiveWaypoints(objective, icon, iconPerZone)
     end

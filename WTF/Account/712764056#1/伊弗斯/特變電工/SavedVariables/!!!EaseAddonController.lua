@@ -171,7 +171,7 @@ U1DB = {
 		["classiccodex-db-dede"] = 0,
 		["classiccodex-patch"] = 1,
 	},
-	["last_logout_time"] = 1636737132,
+	["last_logout_time"] = 1636821629,
 	["configs"] = {
 	},
 	["sortByName"] = true,
