@@ -7,60 +7,8 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1636379559,
-				["Mails"] = {
-					{
-						["link"] = "|cffa335ee|Hitem:22459::::::::70:::::::::|h[虛無球體]|h|r",
-						["sender"] = "部落拍賣場",
-						["itemID"] = 22459,
-						["returned"] = false,
-						["icon"] = 132886,
-						["count"] = 1,
-						["lastCheck"] = 1636379559,
-						["daysLeft"] = 28.60043907165527,
-					}, -- [1]
-					{
-						["link"] = "|cffa335ee|Hitem:22459::::::::70:::::::::|h[虛無球體]|h|r",
-						["sender"] = "部落拍賣場",
-						["itemID"] = 22459,
-						["returned"] = false,
-						["icon"] = 132886,
-						["count"] = 1,
-						["lastCheck"] = 1636379559,
-						["daysLeft"] = 28.60043907165527,
-					}, -- [2]
-					{
-						["link"] = "|cffffffff|Hitem:27860::::::::70:::::::::|h[淨化過的德萊尼水]|h|r",
-						["sender"] = "部落拍賣場",
-						["itemID"] = 27860,
-						["returned"] = false,
-						["icon"] = 132831,
-						["count"] = 1,
-						["lastCheck"] = 1636379559,
-						["daysLeft"] = 28.60061264038086,
-					}, -- [3]
-					{
-						["link"] = "|cffffffff|Hitem:13444::::::::70:::::::::|h[極效法力藥水]|h|r",
-						["sender"] = "部落拍賣場",
-						["itemID"] = 13444,
-						["returned"] = false,
-						["icon"] = 134856,
-						["count"] = 3,
-						["lastCheck"] = 1636379559,
-						["daysLeft"] = 28.60072898864746,
-					}, -- [4]
-					{
-						["link"] = "|cff1eff00|Hitem:23117::::::::70:::::::::|h[藍月石]|h|r",
-						["sender"] = "部落拍賣場",
-						["itemID"] = 23117,
-						["returned"] = false,
-						["icon"] = 134080,
-						["count"] = 1,
-						["lastCheck"] = 1636379559,
-						["daysLeft"] = 28.60402870178223,
-					}, -- [5]
-				},
-				["lastVisitDate"] = "2021/11/08 21:52",
+				["lastUpdate"] = 1636908956,
+				["lastVisitDate"] = "2021/11/15 00:55",
 			},
 			["Default.伊弗斯.邁克爾假死"] = {
 				["lastUpdate"] = 1632561473,

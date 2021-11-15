@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 	["lastSanitation"] = 3,
-	["session"] = 561,
+	["session"] = 563,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\TomTom\\TomTom_Config.lua:40: attempt to call method 'EnableDisablePOIIntegration' (a nil value)",
@@ -740,21 +740,13 @@ BugGrabberDB = {
 			["counter"] = 1,
 		}, -- [96]
 		{
-			["message"] = "Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua:1946: Usage: SaveBindings(1||2)",
-			["time"] = "2021/06/20 23:23:47",
-			["locals"] = "(*temporary) = 0\n",
-			["stack"] = "[string \"=[C]\"]: in function `SaveBindings'\n[string \"@Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua\"]:1946: in function `SetSetBindings'\n[string \"@Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua\"]:233: in function `?'\n[string \"@Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua\"]:198: in function `OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
-			["session"] = 543,
-			["counter"] = 3,
-		}, -- [97]
-		{
 			["message"] = "Interface\\FrameXML\\ChatFrame.lua:4212: attempt to index field 'chatFrame' (a nil value)",
 			["time"] = "2021/08/01 01:57:38",
 			["locals"] = "editBox = WIM3_msgFrame20MsgBox {\n 0 = <userdata>\n parentWindow = WIM3_msgFrame20 {\n }\n setText = 0\n textToSet = \"\"\n widgetName = \"msg_box\"\n}\npreviousValue = ChatFrame1EditBox {\n 0 = <userdata>\n autoCompleteSource = <function> defined =[C]:-1\n wimIsShown = <function> defined =[C]:-1\n customAutoCompleteFunction = <function> defined @Interface\\FrameXML\\ChatFrame.lua:4036\n chatStyle = \"classic\"\n language = \"獸人語\"\n disallowAutoComplete = false\n headerSuffix = ChatFrame1EditBoxHeaderSuffix {\n }\n autoCompleteParams = <table> {\n }\n backdrop = <unnamed> {\n }\n font = \"Fonts\\bLEI00D.ttf\"\n characterCount = <unnamed> {\n }\n fontSize = 14\n tabCompleteTableIndex = 1\n setText = 0\n chatFrame = ChatFrame1 {\n }\n addSpaceToAutoComplete = true\n historyLines = <table> {\n }\n wimIsVisible = <function> defined =[C]:-1\n chatLanguage = \"獸人語\"\n AddHistoryLine = <function> defined =[C]:-1\n HighlightText = <function> defined @Interface\\AddOns\\WIM\\Sources\\Hooks.lua:51\n wimHighlightText = <function> defined =[C]:-1\n SetText = <function> defined =[C]:-1\n text = \"/cw 恕嵐轎-伊弗斯 \"\n IsShown = <function> defined @Interface\\AddOns\\WIM\\Sources\\Hooks.lua:33\n fontStyle = \"NONE\"\n header = ChatFrame1EditBoxHeader {\n }\n addHighlightedText = true\n historyIndex = 0\n IsVisible = <function> defined @Interface\\AddOns\\WIM\\Sources\\Hooks.lua:25\n languageID = 1\n Insert = <function> defined =[C]:-1\n}\n(*temporary) = <function> defined @Interface\\FrameXML\\FloatingChatFrame.lua:1819\n(*temporary) = nil\n(*temporary) = \"attempt to index field 'chatFrame' (a nil value)\"\nChatEdit_SetDeactivated = <function> defined @Interface\\FrameXML\\ChatFrame.lua:4152\n",
 			["stack"] = "[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4212: in function <Interface\\FrameXML\\ChatFrame.lua:4193>\n[string \"=[C]\"]: in function `ChatEdit_SetLastActiveWindow'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4129: in function <Interface\\FrameXML\\ChatFrame.lua:4122>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `ChatEdit_ActivateChat'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4227: in function `ChatEdit_FocusActiveWindow'\n[string \"@Interface\\FrameXML\\StaticPopup.lua\"]:4248: in function `OnHide'\n[string \"@Interface\\FrameXML\\StaticPopup.lua\"]:5002: in function <Interface\\FrameXML\\StaticPopup.lua:4994>\n[string \"=[C]\"]: in function `StaticPopup_OnHide'\n[string \"*:OnHide\"]:1: in function <[string \"*:OnHide\"]:1>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\AddOns\\Blizzard_Communities\\CommunitiesTicketManagerDialog.lua\"]:37: in function `CommunitiesTicketManagerDialog_Open'\n[string \"@Interface\\FrameXML\\StaticPopup.lua\"]:4263: in function `OnExtraButton'\n[string \"@Interface\\FrameXML\\StaticPopup.lua\"]:5088: in function `StaticPopup_OnClick'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>",
 			["session"] = 544,
 			["counter"] = 3,
-		}, -- [98]
+		}, -- [97]
 		{
 			["message"] = "Interface\\FrameXML\\ChatFrame.lua:4170: attempt to index field '?' (a nil value)",
 			["time"] = "2021/08/01 01:57:52",
@@ -762,7 +754,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4170: in function <Interface\\FrameXML\\ChatFrame.lua:4152>\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4178: in function <Interface\\FrameXML\\ChatFrame.lua:4173>\n[string \"=[C]\"]: in function `ChatEdit_DeactivateChat'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4125: in function <Interface\\FrameXML\\ChatFrame.lua:4122>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `ChatEdit_ActivateChat'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:3712: in function <Interface\\FrameXML\\ChatFrame.lua:3701>\n[string \"=[C]\"]: in function `ChatFrame_OpenChat'\n[string \"OPENCHAT\"]:1: in function <[string \"OPENCHAT\"]:1>",
 			["session"] = 544,
 			["counter"] = 3,
-		}, -- [99]
+		}, -- [98]
 		{
 			["message"] = "Interface\\FrameXML\\ChatFrame.lua:4208: attempt to index field 'chatFrame' (a nil value)",
 			["time"] = "2021/08/01 01:58:32",
@@ -770,7 +762,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4208: in function <Interface\\FrameXML\\ChatFrame.lua:4193>\n[string \"=[C]\"]: in function `ChatEdit_SetLastActiveWindow'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4129: in function <Interface\\FrameXML\\ChatFrame.lua:4122>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `ChatEdit_ActivateChat'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:3712: in function <Interface\\FrameXML\\ChatFrame.lua:3701>\n[string \"=[C]\"]: in function `ChatFrame_OpenChat'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:3798: in function <Interface\\FrameXML\\ChatFrame.lua:3793>\n[string \"=[C]\"]: in function `ChatFrame_SendBNetTell'\n[string \"@Interface\\FrameXML\\UnitPopup.lua\"]:1711: in function `func'\n[string \"@Interface\\FrameXML\\UIDropDownMenu.lua\"]:960: in function `UIDropDownMenuButton_OnClick'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>",
 			["session"] = 544,
 			["counter"] = 4,
-		}, -- [100]
+		}, -- [99]
 		{
 			["message"] = "[string \"if(GetActionCooldown(63)==0) then C(\"压制\");end /script if(Un...\"]:1: unexpected symbol near '/'",
 			["time"] = "2021/11/06 15:29:43",
@@ -778,14 +770,14 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `RunScript'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:2160: in function `?'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4825: in function `ChatEdit_ParseText'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4488: in function `ChatEdit_SendText'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:2916: in function <Interface\\FrameXML\\ChatFrame.lua:2909>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `UseAction'\n[string \"@Interface\\FrameXML\\SecureTemplates.lua\"]:338: in function `handler'\n[string \"@Interface\\FrameXML\\SecureTemplates.lua\"]:616: in function <Interface\\FrameXML\\SecureTemplates.lua:564>\n[string \"=[C]\"]: ?\n[string \"@Interface\\FrameXML\\SecureHandlers.lua\"]:266: in function <Interface\\FrameXML\\SecureHandlers.lua:263>\n[string \"=[C]\"]: ?\n[string \"@Interface\\FrameXML\\SecureHandlers.lua\"]:296: in function <Interface\\FrameXML\\SecureHandlers.lua:279>\n[string \"=(tail call)\"]: ?",
 			["session"] = 546,
 			["counter"] = 18,
-		}, -- [101]
+		}, -- [100]
 		{
 			["message"] = "Interface\\AddOns\\Details\\functions\\deathmenu.lua:70: attempt to call global 'UnitGroupRolesAssigned' (a nil value)",
 			["time"] = "2021/11/06 23:59:24",
 			["stack"] = "[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\Details\\Libs\\DF\\fw.lua\"]:3602: in function `CoreDispatch'\n[string \"@Interface\\AddOns\\Details\\Libs\\DF\\button.lua\"]:921: in function <Interface\\AddOns\\Details\\Libs\\DF\\button.lua:834>",
 			["session"] = 548,
 			["counter"] = 2,
-		}, -- [102]
+		}, -- [101]
 		{
 			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:235: attempt to compare number with nil",
 			["time"] = "2021/07/02 01:32:29",
@@ -793,7 +785,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:235: in function `GearScore_GetQuality'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:448: in function `GearScore_SetTargetData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:328: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:326>",
 			["session"] = 549,
 			["counter"] = 74,
-		}, -- [103]
+		}, -- [102]
 		{
 			["message"] = "Interface\\AddOns\\LootMonitor\\LootMonitor-3.30.lua:1163: attempt to index field '?' (a nil value)",
 			["time"] = "2021/07/28 16:53:39",
@@ -801,14 +793,30 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\LootMonitor\\LootMonitor-3.30.lua\"]:1163: in function <Interface\\AddOns\\LootMonitor\\LootMonitor.lua:1143>\n[string \"=(tail call)\"]: ?",
 			["session"] = 561,
 			["counter"] = 11,
+		}, -- [103]
+		{
+			["message"] = "Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua:1946: Usage: SaveBindings(1||2)",
+			["time"] = "2021/06/20 23:23:47",
+			["locals"] = "(*temporary) = 0\n",
+			["stack"] = "[string \"=[C]\"]: in function `SaveBindings'\n[string \"@Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua\"]:1946: in function `SetSetBindings'\n[string \"@Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua\"]:233: in function `?'\n[string \"@Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua\"]:198: in function `OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
+			["session"] = 562,
+			["counter"] = 4,
 		}, -- [104]
+		{
+			["message"] = "Interface\\AddOns\\LFGBulletinBoard\\RequestList.lua:26: attempt to index local 'b' (a nil value)",
+			["time"] = "2021/11/14 23:00:13",
+			["locals"] = "a = <table> {\n IsFriend = false\n last = 1636901989\n class = \"MAGE\"\n IsGuildMember = false\n IsPastPlayer = false\n name = \"台中發大財\"\n message = \"影牙車車100G 缺1寶寶\"\n start = 1636901404\n IsHeroic = false\n dungeon = \"SFK\"\n IsRaid = false\n}\nb = nil\n(*temporary) = 4\n(*temporary) = <table> {\n 1 = \"RFC\"\n 2 = \"WC\"\n 3 = \"DM\"\n 4 = \"SFK\"\n 5 = \"STK\"\n 6 = \"BFD\"\n 7 = \"GNO\"\n 8 = \"RFK\"\n 9 = \"SMG\"\n 10 = \"SML\"\n 11 = \"SMA\"\n 12 = \"SMC\"\n 13 = \"RFD\"\n 14 = \"ULD\"\n 15 = \"ZF\"\n 16 = \"MAR\"\n 17 = \"ST\"\n 18 = \"BRD\"\n 19 = \"LBRS\"\n 20 = \"DME\"\n 21 = \"DMN\"\n 22 = \"DMW\"\n 23 = \"STR\"\n 24 = \"SCH\"\n 25 = \"UBRS\"\n 26 = \"ONY\"\n 27 = \"MC\"\n 28 = \"ZG\"\n 29 = \"AQ20\"\n 30 = \"BWL\"\n 31 = \"AQ40\"\n 32 = \"NAX\"\n 33 = \"RAMPS\"\n 34 = \"BF\"\n 35 = \"SP\"\n 36 = \"UB\"\n 37 = \"MT\"\n 38 = \"CRYPTS\"\n 39 = \"SETH\"\n 40 = \"OHB\"\n 41 = \"MECH\"\n 42 = \"BM\"\n 43 = \"MGT\"\n 44 = \"SH\"\n 45 = \"BOT\"\n 46 = \"SL\"\n 47 = \"SV\"\n 48 = \"ARC\"\n 49 = \"KARA\"\n 50 = \"GL\"\n 51 = \"MAG\"\n 52 = \"SSC\"\n 53 = \"EYE\"\n 54 = \"ZA\"\n 55 = \"HYJAL\"\n 56 = \"BT\"\n 57 = \"SWP\"\n 58 = \"WSG\"\n 59 = \"AB\"\n 60 = \"AV\"\n 61 = \"EOTS\"\n 62 = \"ARENA\"\n 63 = \"MISC\"\n 64 = \"TRADE\"\n ARENA = 62\n SML = 10\n SCH = 24\n RFC = 1\n MC = 27\n RFK = 8\n SFK = 4\n WC = 2\n NIL = 67\n KARA = 49\n LBRS = 19\n ZG = 28\n UBRS = 25\n SP = 35\n ST = 17\n SMA = 11\n BAD = 66\n BT = 56\n SSC = 52\n WSG = 58\n SWP = 57\n DME = 20\n BRD = 18\n DEADMINES = 99\n SH = 44\n DM2 = 19.500000\n MGT = 43\n 65 = \"DEBUG\"\n 66 = \"BAD\"\n 67 = \"NIL\"\n BM = 42\n AQ20 = 29\n SM2 = 10.500000\n BFD = 6\n ONY = 26\n BWL = 30\n DMW = 22\n EYE = 53\n RAMPS = 33\n STK = 5\n NAX = 32\n MAR = 16\n AB = 59\n MISC = 63\n ULD = 14\n RFD = 13\n SMC = 12\n STR = 23\n BF = 34\n TRADE = 64\n GNO = 7\n MT = 37\n MECH = 41\n CRYPTS = 38\n ARC = 48\n MAG = 51\n GL = 50\n UB = 36\n SL = 46\n AV = 60\n DM = 3\n SV = 47\n SMG = 9\n DMN = 21\n BOT = 45\n AQ40 = 31\n OHB = 40\n HYJAL = 55\n ZA = 54\n EOTS = 61\n SETH = 39\n DEBUG = 65\n ZF = 15\n}\n(*temporary) = nil\n(*temporary) = \"attempt to index local 'b' (a nil value)\"\nGBB = <table> {\n DUNGEONBREAK = 25\n GetDungeonNames = <function> defined @Interface\\AddOns\\LFGBulletinBoard\\Dungeons.lua:16\n ClearNeeded = false\n InitGroupList = <function> defined @Interface\\AddOns\\LFGBulletinBoard\\GroupList.Lua:175\n TBCMAXDUNGEON = 64\n BtnSettings = <function> defined @Interface\\AddOns\\LFGBulletinBoard\\GroupBulletinBoard.lua:229\n TAGSEARCH = \"+++\"\n tagList = <table> {\n }\n TBCDUNGEONBREAK = 55\n RealLevel = <table> {\n }\n PatternOnline = \"|Hplayer:(.-)|h%[(.-)%]|h上線了。\"\n CreateTagListLOC = <function> defined @Interface\\AddOns\\LFGBulletinBoard\\GroupBulletinBoard.lua:241\n LevelRange = <function> defined @Interface\\AddOns\\LFGBulletinBoard\\GroupBulletinBoard.lua:115\n UserName = \"特變電工\"\n TxtEscapePicture = \"|T%s:0|t\"\n Clear = <function> defined @Interface\\AddOns\\LFGBulletinBoard\\RequestList.lua:304\n suffixTags = <table> {\n }\n FoldedDungeons = <table> {\n }\n FramePullDownChannel = GBB.PullDownMenu {\n }\n LFG_Successfulljoined = true\n CreateChannelPulldown = <function> defined @Interface\\AddOns\\LFGBulletinBoard\\Chat.lua:147\n ClearTimer = 301636895286\n ToggleWindow = <function> defined @Interface\\AddOns\\LFGBulletinBoard\\GroupBulletinBoard.lua:217\n TbcDungeonLevels = <table> {\n }\n PatternWho1 = \"|Hplayer:(.-)|h%[(.-)%]|h:等級(%d-) (.-) (.-) %- (.-)\"\n EditAnnounceMessage_Changed = <function> defined @Interface\\AddOns\\LFGBulletinBoard\\Chat.lua:129\n MAXDUNGEON = 32\n PhraseMessage = <function> defined @Interface\\AddOns\\LFGBulletinBoard\\RequestList.lua:605\n TbcDungeonNames = <table> {\n }\n AddGroupList = <function> defined @Interface\\AddOns\\LFGBulletinBoard\\GroupList.Lua:46\n MAXTIME = 1668437393\n PostTbcDungeonLevels = <table> {\n }\n FramesEntries = <table> {\n }\n MiniIcon = \"Interface\\Icons\\spell_holy_prayerofshadowprotection\"\n ClickRequest = <function> defined @Interface\\AddOns\\LFGBulletinBoard\\RequestList.lua:828\n dungeonSort = <table> {\n }\n searchTagsLoc = <table> {\n }\n AnnounceInit = <function> defined @Interface\\AddOns\\LFGBulletinBoard\\Chat.lua:110\n GroupTrans = <table> {\n }\n PANELOFFSET = 1\n SaveAnchors = <function> defined @Interface\\AddOns\\LFGBulletinBoard\\GroupBulletinBoard.lua:181\n locales = <table> {\n }\n CreateChatFrame = <function> define",
+			["stack"] = "[string \"@Interface\\AddOns\\LFGBulletinBoard\\RequestList.lua\"]:26: in function <Interface\\AddOns\\LFGBulletinBoard\\RequestList.lua:23>\n[string \"=[C]\"]: in function `sort'\n[string \"@Interface\\AddOns\\LFGBulletinBoard\\RequestList.lua\"]:341: in function `UpdateList'\n[string \"@Interface\\AddOns\\LFGBulletinBoard\\RequestList.lua\"]:732: in function `PhraseMessage'\n[string \"@Interface\\AddOns\\LFGBulletinBoard\\GroupBulletinBoard.lua\"]:666: in function `?'\n[string \"@Interface\\AddOns\\LFGBulletinBoard\\LibGPIToolBox.lua\"]:100: in function <Interface\\AddOns\\LFGBulletinBoard\\LibGPIToolBox.lua:97>",
+			["session"] = 563,
+			["counter"] = 15,
+		}, -- [105]
 		{
 			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
 			["time"] = "2021/07/01 16:18:25",
 			["locals"] = "GearScore = 2320\nItemLevel = 105\nRed = 0.081600\nBlue = 0.320000\nGreen = 0.840000\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 5\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
-			["session"] = 561,
-			["counter"] = 5466,
-		}, -- [105]
+			["session"] = 563,
+			["counter"] = 5500,
+		}, -- [106]
 	},
 }
