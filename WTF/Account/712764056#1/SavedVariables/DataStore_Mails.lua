@@ -7,8 +7,8 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1636908956,
-				["lastVisitDate"] = "2021/11/15 00:55",
+				["lastUpdate"] = 1636980976,
+				["lastVisitDate"] = "2021/11/15 20:56",
 			},
 			["Default.伊弗斯.邁克爾假死"] = {
 				["lastUpdate"] = 1632561473,
