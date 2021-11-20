@@ -7,11 +7,12 @@ function ArkInventory.CrossClient.GetAverageItemLevel( )
 	
 	if GetAverageItemLevel then
 		
-		return GetAverageItemLevel( )
+		local overall, equipped, pvp = GetAverageItemLevel( )
+		return math.floor( equipped )
 		
 	else
 		
-		return 1, 1, 1
+		return 1
 		
 	end
 	

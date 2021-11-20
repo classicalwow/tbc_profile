@@ -2,7 +2,7 @@
 ## Title: NameplateCooldowns [TBC]
 ## Notes: Shows the cooldowns of enemy players above their nameplates
 ## SavedVariables: NameplateCooldownsAceDB
-## Version: 20501.11-release
+## Version: 20501.12-release
 ## X-Curse-Project-ID: 66866
 ## X-Wago-ID: 0mNwjlGo
 

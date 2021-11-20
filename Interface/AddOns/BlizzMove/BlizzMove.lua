@@ -506,6 +506,7 @@ local function OnMouseDown(frame, button)
 	local returnValue = false;
 	local parentReturnValue = false;
 	local frameData = BlizzMove.FrameData[frame];
+	BlizzMove:SetupPointStorage(frame);
 
 	BlizzMove:DebugPrint("OnMouseDown:", frameData.storage.frameName, button);
 
@@ -533,6 +534,7 @@ local function OnMouseDown(frame, button)
 
 				frame:StartMoving();
 				frame:SetUserPlaced(userPlaced);
+				frameData.storage.points.startPoints = frameData.storage.points.startPoints or GetFramePoints(frame);
 				frameData.storage.isMoving = true;
 				returnValue = true;
 
@@ -552,7 +554,6 @@ local function OnMouseUp(frame, button)
 	local returnValue = false;
 	local parentReturnValue = false;
 	local frameData = BlizzMove.FrameData[frame];
-	BlizzMove:SetupPointStorage(frame);
 
 	BlizzMove:DebugPrint("OnMouseUp:", frameData.storage.frameName, button);
 
@@ -601,6 +602,11 @@ local function OnMouseUp(frame, button)
 			end
 
 			if IsShiftKeyDown() or fullReset then
+
+				if (not fullReset and frameData.storage.points.startPoints) then
+					SetFramePoints(frame, frameData.storage.points.startPoints);
+					frameData.storage.points.startPoints = nil;
+				end
 
 				frameData.storage.points.dragPoints = nil;
 				frameData.storage.points.dragged = nil;
@@ -978,6 +984,14 @@ end
 function BlizzMove:ADDON_LOADED(event, addOnName)
 
 	if addOnName ~= self.name then self:ProcessFrames(addOnName); end
+
+	-- fix a stupid anchor family connection issue blizzard added in 9.1.5
+	if addOnName == 'Blizzard_Collections' then
+		local checkbox = _G.WardrobeTransmogFrame.ToggleSecondaryAppearanceCheckbox;
+		checkbox.Label:ClearAllPoints();
+		checkbox.Label:SetPoint("LEFT", checkbox, "RIGHT", 2, 1);
+		checkbox.Label:SetPoint("RIGHT", checkbox, "RIGHT", 160, 1);
+	end
 
 end
 

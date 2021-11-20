@@ -727,6 +727,12 @@ function ArkInventory.ItemCategoryGetDefaultActual( i )
 		end
 	end
 	
+	-- toy (tooltip)
+	if ArkInventory.TooltipContains( ArkInventory.Global.Tooltip.Scan, ArkInventory.Localise["WOW_TOOLTIP_ITEM_TOY_ONUSE"], false, true, false, ArkInventory.Const.Tooltip.Search.Short ) then
+		return ArkInventory.CategoryGetSystemID( "SYSTEM_TOY" )
+	end
+	
+	
 	
 	
 	-- currencies and power
@@ -812,6 +818,25 @@ function ArkInventory.ItemCategoryGetDefaultActual( i )
 	-- bags / containers
 	if info.itemtypeid == ArkInventory.Const.ItemClass.CONTAINER then
 		return ArkInventory.CategoryGetSystemID( "SYSTEM_CONTAINER" )
+	end
+	
+	-- equipable items (tooltip)
+	if info.equiploc ~= "" or info.itemtypeid == ArkInventory.Const.ItemClass.WEAPON or info.itemtypeid == ArkInventory.Const.ItemClass.ARMOR or ArkInventory.PT_ItemInSets( i.h, "ArkInventory.Armor Token" ) then
+		if ArkInventory.TooltipContains( ArkInventory.Global.Tooltip.Scan, ArkInventory.Localise["WOW_TOOLTIP_ITEM_COSMETIC"], false, true, false, ArkInventory.Const.Tooltip.Search.Short ) then
+			return ArkInventory.CategoryGetSystemID( "SYSTEM_EQUIPMENT_COSMETIC" )
+		elseif i.sb == ArkInventory.Const.Bind.Account then
+			return ArkInventory.CategoryGetSystemID( "SYSTEM_EQUIPMENT_ACCOUNTBOUND" )
+		elseif i.sb == ArkInventory.Const.Bind.Pickup then
+			if ArkInventory.db.option.junk.soulbound.equipment then
+				if not ArkInventory.TooltipCanUse( ArkInventory.Global.Tooltip.Scan, ArkInventory.db.option.junk.soulbound.known, ArkInventory.db.option.junk.soulbound.itemlevel ) then
+					--ArkInventory.Output( i.h, " is junk" )
+					return ArkInventory.CategoryGetSystemID( "SYSTEM_JUNK" )
+				end
+			end
+			return ArkInventory.CategoryGetSystemID( "SYSTEM_EQUIPMENT_SOULBOUND" )
+		else
+			return ArkInventory.CategoryGetSystemID( "SYSTEM_EQUIPMENT" )
+		end
 	end
 	
 	-- keys
@@ -983,35 +1008,10 @@ function ArkInventory.ItemCategoryGetDefaultActual( i )
 	
 	
 	
-	-- tooltip based checks
+	
+	
 	
 	local codex = ArkInventory.GetLocationCodex( i.loc_id )
-	
-	
-	-- equipable items (tooltip)
-	if info.equiploc ~= "" or info.itemtypeid == ArkInventory.Const.ItemClass.WEAPON or info.itemtypeid == ArkInventory.Const.ItemClass.ARMOR or ArkInventory.PT_ItemInSets( i.h, "ArkInventory.Armor Token" ) then
-		if ArkInventory.TooltipContains( ArkInventory.Global.Tooltip.Scan, ArkInventory.Localise["WOW_TOOLTIP_ITEM_COSMETIC"], false, true, false, ArkInventory.Const.Tooltip.Search.Short ) then
-			return ArkInventory.CategoryGetSystemID( "SYSTEM_EQUIPMENT_COSMETIC" )
-		elseif i.sb == ArkInventory.Const.Bind.Account then
-			return ArkInventory.CategoryGetSystemID( "SYSTEM_EQUIPMENT_ACCOUNTBOUND" )
-		elseif i.sb == ArkInventory.Const.Bind.Pickup then
-			if ArkInventory.db.option.junk.soulbound.equipment then
-				if not ArkInventory.TooltipCanUse( ArkInventory.Global.Tooltip.Scan, true ) then
-					--ArkInventory.Output( i.h, " is junk?" )
-					return ArkInventory.CategoryGetSystemID( "SYSTEM_JUNK" )
-				end
-			end
-			return ArkInventory.CategoryGetSystemID( "SYSTEM_EQUIPMENT_SOULBOUND" )
-		else
-			return ArkInventory.CategoryGetSystemID( "SYSTEM_EQUIPMENT" )
-		end
-	end
-	
-	-- toy (tooltip)
-	if ArkInventory.TooltipContains( ArkInventory.Global.Tooltip.Scan, ArkInventory.Localise["WOW_TOOLTIP_ITEM_TOY_ONUSE"], false, true, false, ArkInventory.Const.Tooltip.Search.Short ) then
-		return ArkInventory.CategoryGetSystemID( "SYSTEM_TOY" )
-	end
-	
 	
 	-- categorise based off characters primary professions
 	if codex.player.data.tradeskill and codex.player.data.tradeskill.priority > 0 then

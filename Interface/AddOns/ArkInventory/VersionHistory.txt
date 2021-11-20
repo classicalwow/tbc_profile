@@ -13,6 +13,13 @@
  ** note - a recipe item will show "Learn" next to the characters that have not currently learned that recipe (skill level requirements are not checked)
  
  
+*3.09.61 (19-NOV-2021)*
+ * fixed - (mostly) issue when right clicking on a completely identical item in your bags that you are also currently wearing not updating the locked status (remained faded) when they swap (if you keep swapping them multiple times it will eventually get out of sync until the next window update)
+ * fixed - issue with the junk quality, and soulbound options, not clearing the item cache when you change them (so would need a reload to actually change)
+ * fixed - (maybe) belowaverage rule function to stop an issue where it somehow collects more items than it should
+ * fixed - inactive heart of azeroth items are no longer considered unusable (or junk because of that)
+ * fixed - issue with unequipable status if you enter the game while in the arena, mythic plus, or torghast, or while in combat and open your bags while still in combat
+ * added - config option for junk soulbound equipment to ignore item level requirement (ie a level 60 item when you are level 58 would no longer be considered junk) - enabled by default
  
 *3.09.60 (10-NOV-2021)*
  * added - config option to disable object data not found warning message - disabled by default

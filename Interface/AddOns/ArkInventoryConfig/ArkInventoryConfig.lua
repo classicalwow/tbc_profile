@@ -2,8 +2,8 @@
 
 License: All Rights Reserved, (c) 2006-2018
 
-$Revision: 2933 $
-$Date: 2021-11-06 10:28:57 +1100 (Sat, 06 Nov 2021) $
+$Revision: 2955 $
+$Date: 2021-11-17 12:36:32 +1100 (Wed, 17 Nov 2021) $
 
 ]]--
 
@@ -1495,6 +1495,8 @@ function ArkInventory.ConfigInternal( )
 							end,
 							set = function( info, v )
 								ArkInventory.db.option.junk.raritycutoff = tonumber( v )
+								ArkInventory.ItemCacheClear( )
+								ArkInventory.Frame_Main_Generate( nil, ArkInventory.Const.Window.Draw.Recalculate )
 							end,
 						},
 						limit = {
@@ -1614,10 +1616,12 @@ function ArkInventory.ConfigInternal( )
 									end,
 									set = function( info, v )
 										ArkInventory.db.option.junk.soulbound.known = not ArkInventory.db.option.junk.soulbound.known
+										ArkInventory.ItemCacheClear( )
+										ArkInventory.Frame_Main_Generate( nil, ArkInventory.Const.Window.Draw.Recalculate )
 									end,
 								},
 								equipment = {
-									order = 100,
+									order = 200,
 									name = ArkInventory.Localise["EQUIPMENT"],
 									desc = ArkInventory.Localise["CONFIG_JUNK_SOULBOUND_EQUIPMENT_DESC"],
 									type = "toggle",
@@ -1629,6 +1633,25 @@ function ArkInventory.ConfigInternal( )
 									end,
 									set = function( info, v )
 										ArkInventory.db.option.junk.soulbound.equipment = not ArkInventory.db.option.junk.soulbound.equipment
+										ArkInventory.ItemCacheClear( )
+										ArkInventory.Frame_Main_Generate( nil, ArkInventory.Const.Window.Draw.Recalculate )
+									end,
+								},
+								itemlevel = {
+									order = 300,
+									name = ArkInventory.Localise["ITEM_LEVEL"],
+									desc = ArkInventory.Localise["CONFIG_JUNK_SOULBOUND_ITEMLEVEL_DESC"],
+									type = "toggle",
+									disabled = function( info )
+										return not ArkInventory.Global.Junk.process or not ArkInventory.db.option.junk.soulbound.equipment
+									end,
+									get = function( info )
+										return ArkInventory.db.option.junk.soulbound.itemlevel
+									end,
+									set = function( info, v )
+										ArkInventory.db.option.junk.soulbound.itemlevel = not ArkInventory.db.option.junk.soulbound.itemlevel
+										ArkInventory.ItemCacheClear( )
+										ArkInventory.Frame_Main_Generate( nil, ArkInventory.Const.Window.Draw.Recalculate )
 									end,
 								},
 							},

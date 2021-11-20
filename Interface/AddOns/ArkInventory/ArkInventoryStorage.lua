@@ -99,6 +99,7 @@ function ArkInventory.PlayerInfoSet( )
 	local id = ArkInventory.PlayerIDSelf( )
 	
 	local player = ArkInventory.db.player.data[id].info
+	ArkInventory.Global.Me = player
 	
 	player.proj = WOW_PROJECT_ID
 	player.guid = UnitGUID( "player" ) or player.guid
@@ -122,8 +123,7 @@ function ArkInventory.PlayerInfoSet( )
 	
 	player.level = UnitLevel( "player" ) or player.level or 1
 	
-	local overall, equipped, pvp = ArkInventory.CrossClient.GetAverageItemLevel( )
-	player.itemlevel = math.floor( equipped ) or player.itemlevel or 1
+	player.itemlevel = ArkInventory.CrossClient.GetAverageItemLevel( ) or player.itemlevel or 1
 	
 	local race_local, race = UnitRace( "player" )
 	player.race_local = race_local or player.race_local
@@ -483,47 +483,73 @@ end
 function ArkInventory:EVENT_ARKINV_BAG_UPDATE( ... )
 	
 	local event, arg1 = ...
-	--ArkInventory.Output2( "[", event, "] [", arg1, "]" )
+	--ArkInventory.Output( "[", event, "] [", arg1, "]" )
 	
 	ArkInventory:SendMessage( "EVENT_ARKINV_BAG_UPDATE_BUCKET", arg1 )
 	
 end
 
-function ArkInventory:EVENT_ARKINV_BAG_LOCK( ... )
+function ArkInventory:EVENT_ARKINV_ITEM_LOCK_CHANGED( ... )
 	
-	local event, arg1, arg2 = ...
-	--ArkInventory.Output( "[", event, "] [", arg1, "/", arg2, "]" )
+	local event, blizzard_id, slot_id = ...
+	--ArkInventory.Output( "[", event, "] [", blizzard_id, "/", slot_id, "]" )
 	
-	if not arg2 then
+	if not slot_id then
 		
-		-- player bag lock
+		-- player inventory lock
 		ArkInventory.Frame_Changer_Update( ArkInventory.Const.Location.Bag )
 		
 	else
 		
-		if arg1 == BANK_CONTAINER then
+		if blizzard_id == BANK_CONTAINER then
 			
 			local count = GetContainerNumSlots( BANK_CONTAINER )
 			
-			if arg2 <= count then
+			if slot_id <= count then
+				
 				-- bank item lock
-				local loc_id, bag_id = ArkInventory.BlizzardBagIdToInternalId( arg1 )
-				ArkInventory.Frame_Item_Update( loc_id, bag_id, arg2 )
+				local loc_id, bag_id = ArkInventory.BlizzardBagIdToInternalId( blizzard_id )
+				ArkInventory.Frame_Item_Update( loc_id, bag_id, slot_id )
+				
 			else
+				
 				-- bank bag lock
 				ArkInventory.Frame_Changer_Update( ArkInventory.Const.Location.Bank )
+				
 			end
 			
 		else
 			
 			-- player item lock
-			local loc_id, bag_id = ArkInventory.BlizzardBagIdToInternalId( arg1 )
-			ArkInventory.Frame_Item_Update( loc_id, bag_id, arg2 )
+			local loc_id, bag_id = ArkInventory.BlizzardBagIdToInternalId( blizzard_id )
+			ArkInventory.Frame_Item_Update( loc_id, bag_id, slot_id )
 			
 		end
 		
 	end
 	
+end
+
+function ArkInventory:EVENT_ARKINV_AVG_ITEM_LEVEL_UPDATE_BUCKET( bucket )
+	
+	--ArkInventory.Output( "[EVENT_ARKINV_AVG_ITEM_LEVEL_UPDATE_BUCKET] [", bucket, "]" )
+	
+	local player = ArkInventory.Global.Me
+	
+	local itemlevel_old = player.itemlevel or 1
+	local itemlevel_new = ArkInventory.CrossClient.GetAverageItemLevel( )
+	
+	if itemlevel_old ~= itemlevel_new then
+		player.itemlevel = itemlevel_new
+		--ArkInventory.Output( "item level changed from ", itemlevel_old, " to ", itemlevel_new )
+		ArkInventory.ItemCacheClear( )
+		ArkInventory.Frame_Main_DrawStatus( nil, ArkInventory.Const.Window.Draw.Refresh )
+	end
+	
+end
+
+function ArkInventory:EVENT_ARKINV_AVG_ITEM_LEVEL_UPDATE( event )
+	ArkInventory:SendMessage( "EVENT_ARKINV_AVG_ITEM_LEVEL_UPDATE_BUCKET", event )
 end
 
 function ArkInventory:EVENT_ARKINV_CHANGER_UPDATE_BUCKET( bucket )
@@ -1468,7 +1494,7 @@ end
 function ArkInventory:EVENT_ARKINV_BAG_UPDATE_DELAYED( ... )
 	
 	local event, arg1, arg2, arg3, arg4 = ...
-	ArkInventory.Output( "[", event, "] [", arg1, "] [", arg2, "] [", arg3, "] [", arg4, "]" )
+	--ArkInventory.Output( "[", event, "] [", arg1, "] [", arg2, "] [", arg3, "] [", arg4, "]" )
 	
 end
 
@@ -1920,9 +1946,9 @@ function ArkInventory.getItemTinted( i, codex )
 			
 			ArkInventory.TooltipSetHyperlink( ArkInventory.Global.Tooltip.Scan, i.h )
 			
-			local ignoreAlreadyKnown = ( ( i.q or 0 ) == ArkInventory.Const.BLIZZARD.GLOBAL.ITEMQUALITY.HEIRLOOM )
+			local allow_known = ( ( i.q or 0 ) == ArkInventory.Const.BLIZZARD.GLOBAL.ITEMQUALITY.HEIRLOOM )
 			
-			if not ArkInventory.TooltipCanUse( ArkInventory.Global.Tooltip.Scan, ignoreAlreadyKnown ) then
+			if not ArkInventory.TooltipCanUse( ArkInventory.Global.Tooltip.Scan, allow_known ) then
 				return true
 			end
 			
@@ -2708,7 +2734,6 @@ function ArkInventory.ScanWearing_Threaded( blizzard_id, loc_id, bag_id, thread_
 	ArkInventory.ThreadYield_Scan( thread_id )
 	
 	local player = ArkInventory.GetPlayerStorage( nil, loc_id )
-	local itemlevel_old = player.data.info.itemlevel
 	
 	local bag = player.data.location[loc_id].bag[bag_id]
 	
@@ -2792,15 +2817,6 @@ function ArkInventory.ScanWearing_Threaded( blizzard_id, loc_id, bag_id, thread_
 	end
 	
 	ArkInventory.ScanCleanup( player, loc_id, bag_id, bag )
-	
-	local overall, equipped, pvp = ArkInventory.CrossClient.GetAverageItemLevel( )
-	local itemlevel_new = math.floor( equipped )
-	if itemlevel_old ~= itemlevel_new then
-		player.data.info.itemlevel = itemlevel_new
-		--ArkInventory.Output( "temp debug: item level changed from ", itemlevel_old, " to ", itemlevel_new )
-		ArkInventory.ItemCacheClear( )
-		ArkInventory.Frame_Main_DrawStatus( nil, ArkInventory.Const.Window.Draw.Refresh )
-	end
 	
 	ArkInventory.OutputThread( "ScanWearing_Threaded( ", blizzard_id, " ) END" )
 	

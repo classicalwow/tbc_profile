@@ -4,8 +4,8 @@
 
 License: All Rights Reserved, (c) 2006-2020
 
-$Revision: 2934 $
-$Date: 2021-11-06 10:29:06 +1100 (Sat, 06 Nov 2021) $
+$Revision: 2953 $
+$Date: 2021-11-15 14:05:32 +1100 (Mon, 15 Nov 2021) $
 
 ]]--
 
@@ -438,10 +438,7 @@ ArkInventory.Global = { -- globals
 	
 	Version = "", --calculated
 	
-	Me = {
-		-- this will always point to the current characters data
-		data = nil,
-	},
+	Me = { },
 	
 	Mode = {
 		Bank = false,
@@ -946,6 +943,8 @@ ArkInventory.Global = { -- globals
 	BagsOpenedBy = nil,
 	
 	ItemCrossReference = { },
+	
+	ItemLock = { },
 	
 }
 
@@ -1871,6 +1870,8 @@ ArkInventory.Const.DatabaseDefaults.global = {
 			["EVENT_ARKINV_LDB_PET_UPDATE_BUCKET"] = { default = 1 },
 			["EVENT_ARKINV_LDB_MOUNT_UPDATE_BUCKET"] = { default = 1 },
 			--["EVENT_ARKINV_ZONE_CHANGED_BUCKET"] = { default = 5 },
+			["EVENT_ARKINV_AVG_ITEM_LEVEL_UPDATE_BUCKET"] = { default = 1 },
+			
 		},
 		["bugfix"] = {
 			["framelevel"] = {
@@ -1880,6 +1881,9 @@ ArkInventory.Const.DatabaseDefaults.global = {
 			["zerosizebag"] = {
 				["enable"] = true,
 				["alert"] = true,
+			},
+			["itemlock"] = {
+				["delay"] = 0.6,
 			},
 		},
 		["tooltip"] = {
@@ -2011,6 +2015,7 @@ ArkInventory.Const.DatabaseDefaults.global = {
 			["soulbound"] = {
 				["known"] = true,
 				["equipment"] = true,
+				["itemlevel"] = true,
 			},
 		},
 		["font"] = {
@@ -2617,7 +2622,10 @@ function ArkInventory.OnInitialize( )
 		{ "BAG_UPDATE", "EVENT_ARKINV_BAG_UPDATE" },
 		{ "BAG_UPDATE_COOLDOWN", "EVENT_ARKINV_BAG_UPDATE_COOLDOWN" },
 --		{ "BAG_UPDATE_DELAYED", "EVENT_ARKINV_BAG_UPDATE_DELAYED" },
-		{ "ITEM_LOCK_CHANGED", "EVENT_ARKINV_BAG_LOCK" },
+--		{ "ITEM_LOCKED", "EVENT_ARKINV_ITEM_LOCK_CHANGED" },
+--		{ "ITEM_UNLOCKED", "EVENT_ARKINV_ITEM_LOCK_CHANGED" },
+		{ "ITEM_LOCK_CHANGED", "EVENT_ARKINV_ITEM_LOCK_CHANGED" },
+		{ "PLAYER_AVG_ITEM_LEVEL_UPDATE", "EVENT_ARKINV_AVG_ITEM_LEVEL_UPDATE" },
 		{ "PLAYERBANKSLOTS_CHANGED", "EVENT_ARKINV_BANK_UPDATE" }, -- a bag_update event for the bank (-1)
 		
 		{ "BANKFRAME_CLOSED", "EVENT_ARKINV_BANK_LEAVE" },
@@ -8675,24 +8683,28 @@ function ArkInventory.Frame_Item_Update_Lock( frame, codex, changer )
 	if not ArkInventory.ValidFrame( frame ) then return end
 	
 	local loc_id = frame.ARK_Data.loc_id
-	if ArkInventory.Global.Mode.Edit or ArkInventory.Global.Location[loc_id].isOffline then
-		return
-	end
-	
-	local i = ArkInventory.Frame_Item_GetDB( frame )
-	
 	local locked = false
 	
-	if i and i.h then
+	if ArkInventory.Global.Mode.Edit or ArkInventory.Global.Location[loc_id].isOffline then
 		
-		local codex = codex or ArkInventory.GetLocationCodex( loc_id )
+	else
 		
-		if loc_id == ArkInventory.Const.Location.Vault then
-			locked = select( 3, GetGuildBankItemInfo( frame.ARK_Data.bag_id, frame.ARK_Data.slot_id ) )
-		elseif changer then
-			locked = IsInventoryItemLocked( frame.ARK_Data.inv_id )
-		else
-			locked = select( 3, GetContainerItemInfo( frame.ARK_Data.blizzard_id, frame.ARK_Data.slot_id ) )
+		local i = ArkInventory.Frame_Item_GetDB( frame )
+		
+		if i and i.h then
+			
+			--local codex = codex or ArkInventory.GetLocationCodex( loc_id )
+			
+			if loc_id == ArkInventory.Const.Location.Vault then
+				locked = select( 3, GetGuildBankItemInfo( frame.ARK_Data.bag_id, frame.ARK_Data.slot_id ) )
+			elseif changer then
+				locked = IsInventoryItemLocked( frame.ARK_Data.inv_id )
+				--ArkInventory.Output( "locked [", frame.ARK_Data.inv_id, "] = ", locked )
+			else
+				locked = select( 3, GetContainerItemInfo( frame.ARK_Data.blizzard_id, frame.ARK_Data.slot_id ) )
+				--ArkInventory.Output( "locked [", loc_id, "] [", i.bag_id, "] [", i.slot_id, "] = ", locked )
+			end
+			
 		end
 		
 	end
@@ -8904,7 +8916,7 @@ function ArkInventory.Frame_Item_OnDragStart_MountJournal( frame )
 	
 end
 
-function ArkInventory.Frame_Item_Update( loc_id, bag_id, slot_id )
+function ArkInventory.Frame_Item_Update( loc_id, bag_id, slot_id, lockevent )
 	
 	local framename, frame = ArkInventory.ContainerItemNameGet( loc_id, bag_id, slot_id )
 	
@@ -8955,6 +8967,15 @@ function ArkInventory.Frame_Item_Update( loc_id, bag_id, slot_id )
 	
 	if not frame.ARK_Data.tainted then
 		ArkInventory.API.ItemFrameUpdated( frame, loc_id, bag_id, slot_id )
+	end
+	
+	if lockevent then
+		C_Timer.After(
+			ArkInventory.db.option.bugfix.itemlock.delay,
+			function( )
+				ArkInventory.Frame_Item_Update( loc_id, bag_id, slot_id )
+			end
+		)
 	end
 	
 end

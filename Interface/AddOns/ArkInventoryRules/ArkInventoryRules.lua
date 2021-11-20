@@ -2,8 +2,8 @@
 
 License: All Rights Reserved, (c) 2009-2018
 
-$Revision: 2944 $
-$Date: 2021-11-08 22:57:40 +1100 (Mon, 08 Nov 2021) $
+$Revision: 2948 $
+$Date: 2021-11-14 23:51:47 +1100 (Sun, 14 Nov 2021) $
 
 ]]--
 
@@ -714,7 +714,7 @@ function ArkInventoryRules.System.boolean_itemlevelbelowaverage( ... )
 	end
 	
 	local e = ArkInventoryRules.Object.info.ilvl or -2
-	if e < 0 then return false end
+	if e < 1 then return false end
 	
 	local fn = "itemlevelbelowaverage"
 	
@@ -725,8 +725,8 @@ function ArkInventoryRules.System.boolean_itemlevelbelowaverage( ... )
 	end
 	
 	local arg1, arg2 = ...
-	-- arg1 = levels below average to become junk
-	-- arg2 = minimum level (1 if not set)
+	-- arg1 = levels below average to keep
+	-- arg2 = minimum level (2 if not set)
 	
 	if not arg1 then
 		error( string.format( ArkInventory.Localise["RULE_FAILED_ARGUMENT_IS_NIL"], fn, 1 ), 0 )
@@ -757,19 +757,18 @@ function ArkInventoryRules.System.boolean_itemlevelbelowaverage( ... )
 		return false
 	end
 	
-	local overall, equipped, pvp = GetAverageItemLevel( )
-	local averagelevel = ArkInventoryRules.Object.playerinfo.itemlevel or equipped
+	local avgitemlevel = ArkInventory.CrossClient.GetAverageItemLevel( ) or ArkInventoryRules.Object.playerinfo.itemlevel or 1
 	
-	arg1 = averagelevel - arg1
+	arg1 = avgitemlevel - arg1
 	if arg1 < 2 then
 		arg1 = 2
 	end
 	
 	if arg1 < arg2 then
-		arg1 = arg2
+		return false
 	end
 	
-	if e >= arg2 and e <= arg1 then
+	if e <= arg1 and e >= arg2 then
 		return true
 	end
 	

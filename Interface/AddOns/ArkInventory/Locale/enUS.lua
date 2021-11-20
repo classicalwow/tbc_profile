@@ -595,6 +595,7 @@ if not L then return end
 	L["CONFIG_JUNK_PROCESSING_DISABLED_DESC"] = "All junk selling options have been disabled due to the %s addon being loaded"
 	L["CONFIG_JUNK_SOULBOUND_ALREADY_KNOWN_DESC"] = "Categorise any soulbound item (typically recipes), that you already know, as junk"
 	L["CONFIG_JUNK_SOULBOUND_EQUIPMENT_DESC"] = "Categorise any soulbound equipable item, that you cannot use, as junk"
+	L["CONFIG_JUNK_SOULBOUND_ITEMLEVEL_DESC"] = "Ignore item level requirement on equipment for junk purposes"
 	L["CONFIG_JUNK_COMBAT_DESC"] = "When enabled will keep selling/destroying while in combat"
 	
 	
