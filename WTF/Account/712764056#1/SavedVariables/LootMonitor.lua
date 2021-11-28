@@ -5,9 +5,9 @@ LootMonitorDB = {
 			["InstanceID"] = 548,
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Serpentshrine Cavern",
-			["FirstClass"] = "UNKNOWN",
-			["Date"] = "2021-11-13",
 			["Class"] = "WARRIOR",
+			["Date"] = "2021-11-13",
+			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-548-18983-21220-00008FA626",
@@ -156,9 +156,9 @@ LootMonitorDB = {
 			["InstanceID"] = 550,
 			["FirstPlayer"] = "尐沫",
 			["InstanceName"] = "Tempest Keep",
-			["Class"] = "WARRIOR",
-			["Date"] = "2021-11-13",
 			["FirstClass"] = "HUNTER",
+			["Date"] = "2021-11-13",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-550-29743-20031-00000FCEE5",
@@ -963,8 +963,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Serpentshrine Cavern",
 			["Date"] = "2021-11-20",
-			["FirstClass"] = "UNKNOWN",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-548-5117-21246-000018DD2B",
@@ -1319,12 +1319,36 @@ LootMonitorDB = {
 					},
 				}, -- [19]
 			},
-			["Class"] = "WARRIOR",
-			["Date"] = "2021-11-20",
 			["FirstClass"] = "HUNTER",
+			["Date"] = "2021-11-20",
+			["Class"] = "WARRIOR",
 			["InstanceName"] = "Tempest Keep",
 			["FirstPlayer"] = "狂牛奔向天",
 		}, -- [4]
+		{
+			["InstanceID"] = 548,
+			["Player"] = "特變電工",
+			["FirstPlayer"] = "未知",
+			["InstanceName"] = "Serpentshrine Cavern",
+			["Date"] = "2021-11-27",
+			["Class"] = "WARRIOR",
+			["FirstClass"] = "UNKNOWN",
+			["LootTable"] = {
+				{
+					["GUID"] = "Creature-0-4490-548-19334-21216-0000221AC5",
+					["Time"] = "21:07:14",
+					["Looter"] = "特變電工",
+					["Date"] = "2021-11-27",
+					["Class"] = "WARRIOR",
+					["Name"] = "不穩定者海卓司",
+					["Loots"] = {
+						"|cffa335ee|Hitem:30629::::::::70:::::::::|h[移位寶石]|h|r", -- [1]
+						"|cffa335ee|Hitem:30047::::::::70:::::::::|h[黑暗深淵戰爭手環]|h|r", -- [2]
+						"|cffa335ee|Hitem:30324::::::::70:::::::::|h[設計圖:紅色浩劫長靴]|h|r", -- [3]
+					},
+				}, -- [1]
+			},
+		}, -- [5]
 	},
 	["Config"] = {
 		["ShowMinimapIcon"] = true,

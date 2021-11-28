@@ -7,8 +7,40 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1637382017,
-				["lastVisitDate"] = "2021/11/20 12:20",
+				["lastUpdate"] = 1637672380,
+				["Mails"] = {
+					{
+						["link"] = "|cffa335ee|Hitem:22459::::::::70:::::::::|h[虛無球體]|h|r",
+						["sender"] = "部落拍賣場",
+						["itemID"] = 22459,
+						["returned"] = false,
+						["icon"] = 132886,
+						["count"] = 1,
+						["lastCheck"] = 1637672380,
+						["daysLeft"] = 27.6395378112793,
+					}, -- [1]
+					{
+						["link"] = "|cffa335ee|Hitem:22459::::::::70:::::::::|h[虛無球體]|h|r",
+						["sender"] = "部落拍賣場",
+						["itemID"] = 22459,
+						["returned"] = false,
+						["icon"] = 132886,
+						["count"] = 1,
+						["lastCheck"] = 1637672380,
+						["daysLeft"] = 27.6395378112793,
+					}, -- [2]
+					{
+						["link"] = "|cffa335ee|Hitem:22459::::::::70:::::::::|h[虛無球體]|h|r",
+						["sender"] = "部落拍賣場",
+						["itemID"] = 22459,
+						["returned"] = false,
+						["icon"] = 132886,
+						["count"] = 1,
+						["lastCheck"] = 1637672380,
+						["daysLeft"] = 27.6395378112793,
+					}, -- [3]
+				},
+				["lastVisitDate"] = "2021/11/23 20:59",
 			},
 			["Default.伊弗斯.邁克爾假死"] = {
 				["lastUpdate"] = 1632561473,

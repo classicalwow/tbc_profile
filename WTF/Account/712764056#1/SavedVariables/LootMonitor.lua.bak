@@ -7,8 +7,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Serpentshrine Cavern",
 			["Date"] = "2021-11-13",
-			["FirstClass"] = "UNKNOWN",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-548-18983-21220-00008FA626",
@@ -158,8 +158,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "尐沫",
 			["InstanceName"] = "Tempest Keep",
 			["Date"] = "2021-11-13",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "HUNTER",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-550-29743-20031-00000FCEE5",
@@ -961,9 +961,9 @@ LootMonitorDB = {
 			["InstanceID"] = 548,
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Serpentshrine Cavern",
-			["Class"] = "WARRIOR",
-			["Date"] = "2021-11-20",
 			["FirstClass"] = "UNKNOWN",
+			["Date"] = "2021-11-20",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-548-5117-21246-000018DD2B",
@@ -1099,6 +1099,7 @@ LootMonitorDB = {
 		{
 			["InstanceID"] = 550,
 			["FirstPlayer"] = "狂牛奔向天",
+			["Player"] = "特變電工",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-550-14534-20034-000019036C",
@@ -1319,10 +1320,9 @@ LootMonitorDB = {
 					},
 				}, -- [19]
 			},
-			["Player"] = "特變電工",
 			["Date"] = "2021-11-20",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "HUNTER",
+			["Class"] = "WARRIOR",
 			["InstanceName"] = "Tempest Keep",
 		}, -- [4]
 	},

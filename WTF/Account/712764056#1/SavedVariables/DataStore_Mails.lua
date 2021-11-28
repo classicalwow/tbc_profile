@@ -461,8 +461,8 @@ DataStore_MailsDB = {
 						["sender"] = "部落拍賣場",
 						["itemID"] = 22459,
 						["link"] = "|cffa335ee|Hitem:22459::::::::70:::::::::|h[虛無球體]|h|r",
-						["count"] = 1,
 						["lastCheck"] = 1637672380,
+						["count"] = 1,
 						["icon"] = 132886,
 						["daysLeft"] = 27.6395378112793,
 					}, -- [1]
@@ -471,8 +471,8 @@ DataStore_MailsDB = {
 						["sender"] = "部落拍賣場",
 						["itemID"] = 22459,
 						["link"] = "|cffa335ee|Hitem:22459::::::::70:::::::::|h[虛無球體]|h|r",
-						["count"] = 1,
 						["lastCheck"] = 1637672380,
+						["count"] = 1,
 						["icon"] = 132886,
 						["daysLeft"] = 27.6395378112793,
 					}, -- [2]
@@ -481,8 +481,8 @@ DataStore_MailsDB = {
 						["sender"] = "部落拍賣場",
 						["itemID"] = 22459,
 						["link"] = "|cffa335ee|Hitem:22459::::::::70:::::::::|h[虛無球體]|h|r",
-						["count"] = 1,
 						["lastCheck"] = 1637672380,
+						["count"] = 1,
 						["icon"] = 132886,
 						["daysLeft"] = 27.6395378112793,
 					}, -- [3]
