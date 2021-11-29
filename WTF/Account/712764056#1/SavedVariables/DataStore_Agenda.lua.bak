@@ -6,9 +6,6 @@ DataStore_AgendaDB = {
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1638007905,
-			},
 			["Default.伊弗斯.邁克爾假死"] = {
 				["lastUpdate"] = 1632561105,
 				["BossKills"] = {
@@ -21,6 +18,9 @@ DataStore_AgendaDB = {
 						"瓦許女士|0", -- [6]
 					},
 				},
+			},
+			["Default.伊弗斯.特變電工"] = {
+				["lastUpdate"] = 1638017808,
 			},
 		},
 	},
