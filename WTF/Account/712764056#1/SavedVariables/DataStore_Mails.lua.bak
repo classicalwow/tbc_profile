@@ -454,40 +454,8 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2021/09/25 17:17",
 			},
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1637672380,
-				["Mails"] = {
-					{
-						["returned"] = false,
-						["sender"] = "部落拍賣場",
-						["itemID"] = 22459,
-						["link"] = "|cffa335ee|Hitem:22459::::::::70:::::::::|h[虛無球體]|h|r",
-						["lastCheck"] = 1637672380,
-						["count"] = 1,
-						["icon"] = 132886,
-						["daysLeft"] = 27.6395378112793,
-					}, -- [1]
-					{
-						["returned"] = false,
-						["sender"] = "部落拍賣場",
-						["itemID"] = 22459,
-						["link"] = "|cffa335ee|Hitem:22459::::::::70:::::::::|h[虛無球體]|h|r",
-						["lastCheck"] = 1637672380,
-						["count"] = 1,
-						["icon"] = 132886,
-						["daysLeft"] = 27.6395378112793,
-					}, -- [2]
-					{
-						["returned"] = false,
-						["sender"] = "部落拍賣場",
-						["itemID"] = 22459,
-						["link"] = "|cffa335ee|Hitem:22459::::::::70:::::::::|h[虛無球體]|h|r",
-						["lastCheck"] = 1637672380,
-						["count"] = 1,
-						["icon"] = 132886,
-						["daysLeft"] = 27.6395378112793,
-					}, -- [3]
-				},
-				["lastVisitDate"] = "2021/11/23 20:59",
+				["lastUpdate"] = 1638366013,
+				["lastVisitDate"] = "2021/12/01 21:40",
 			},
 		},
 	},

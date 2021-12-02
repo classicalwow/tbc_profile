@@ -1312,7 +1312,7 @@ LoseControlDB = {
 			["alpha"] = 1,
 			["size"] = 36,
 		},
-		["raid36"] = {
+		["raid17"] = {
 			["enabled"] = false,
 			["x"] = 0,
 			["categoriesEnabled"] = {
@@ -1394,7 +1394,7 @@ LoseControlDB = {
 			["alpha"] = 1,
 			["size"] = 20,
 		},
-		["raid17"] = {
+		["raid36"] = {
 			["enabled"] = false,
 			["x"] = 0,
 			["categoriesEnabled"] = {
@@ -1476,20 +1476,15 @@ LoseControlDB = {
 			["alpha"] = 1,
 			["size"] = 20,
 		},
-		["arena2"] = {
+		["raid40"] = {
 			["enabled"] = false,
-			["point"] = "TOPLEFT",
-			["alpha"] = 1,
-			["y"] = -318.1244506835938,
-			["x"] = 832.3641357421875,
-			["relativePoint"] = "TOPLEFT",
-			["anchor"] = "None",
+			["x"] = 0,
 			["categoriesEnabled"] = {
 				["interrupt"] = {
-					["enemy"] = true,
+					["friendly"] = true,
 				},
 				["debuff"] = {
-					["enemy"] = {
+					["friendly"] = {
 						["Other"] = true,
 						["CC"] = true,
 						["Snare"] = true,
@@ -1503,8 +1498,8 @@ LoseControlDB = {
 					},
 				},
 				["buff"] = {
-					["enemy"] = {
-						["Other"] = true,
+					["friendly"] = {
+						["Other"] = false,
 						["CC"] = true,
 						["Snare"] = true,
 						["Disarm"] = true,
@@ -1517,7 +1512,10 @@ LoseControlDB = {
 					},
 				},
 			},
-			["size"] = 28,
+			["anchor"] = "BlizzardRaidFrames",
+			["y"] = 1,
+			["alpha"] = 1,
+			["size"] = 20,
 		},
 		["focus"] = {
 			["enabled"] = false,
@@ -2088,15 +2086,20 @@ LoseControlDB = {
 			["alpha"] = 1,
 			["size"] = 36,
 		},
-		["raid40"] = {
+		["arena2"] = {
 			["enabled"] = false,
-			["x"] = 0,
+			["point"] = "TOPLEFT",
+			["alpha"] = 1,
+			["y"] = -318.1244506835938,
+			["x"] = 832.3641357421875,
+			["relativePoint"] = "TOPLEFT",
+			["anchor"] = "None",
 			["categoriesEnabled"] = {
 				["interrupt"] = {
-					["friendly"] = true,
+					["enemy"] = true,
 				},
 				["debuff"] = {
-					["friendly"] = {
+					["enemy"] = {
 						["Other"] = true,
 						["CC"] = true,
 						["Snare"] = true,
@@ -2110,8 +2113,8 @@ LoseControlDB = {
 					},
 				},
 				["buff"] = {
-					["friendly"] = {
-						["Other"] = false,
+					["enemy"] = {
+						["Other"] = true,
 						["CC"] = true,
 						["Snare"] = true,
 						["Disarm"] = true,
@@ -2124,10 +2127,7 @@ LoseControlDB = {
 					},
 				},
 			},
-			["anchor"] = "BlizzardRaidFrames",
-			["y"] = 1,
-			["alpha"] = 1,
-			["size"] = 20,
+			["size"] = 28,
 		},
 		["raid8"] = {
 			["enabled"] = false,
@@ -2484,17 +2484,17 @@ LoseControlDB = {
 	["noBlizzardCooldownCount"] = true,
 	["duplicatePlayerPortrait"] = true,
 	["showNPCInterruptsFocus"] = true,
-	["showNPCInterruptsFocusTarget"] = true,
-	["disableFocusDeadFocusTarget"] = true,
-	["disableArenaInBG"] = true,
 	["customSpellIds"] = {
 	},
-	["disablePartyInBG"] = true,
+	["disablePartyInRaid"] = true,
+	["noCooldownCount"] = false,
+	["showNPCInterruptsFocusTarget"] = true,
 	["showNPCInterruptsTargetTarget"] = true,
+	["disablePartyInBG"] = true,
 	["version"] = 2,
 	["showNPCInterruptsTarget"] = true,
-	["noCooldownCount"] = false,
-	["disablePartyInRaid"] = true,
+	["disableArenaInBG"] = true,
+	["disableFocusDeadFocusTarget"] = true,
 	["disableFocusFocusTarget"] = false,
 	["disablePlayerTargetPlayerTargetTarget"] = true,
 }
