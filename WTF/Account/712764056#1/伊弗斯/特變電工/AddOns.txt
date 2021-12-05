@@ -1,6 +1,6 @@
 AdiBags: enabled
 AdiBags_Config: enabled
-alaTalentEmu: enabled
+alaTalentEmu: disabled
 Auctionator: enabled
 AutoBar: disabled
 BiSTracker: disabled
