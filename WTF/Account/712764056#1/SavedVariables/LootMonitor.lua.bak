@@ -371,7 +371,11 @@ LootMonitorDB = {
 		}, -- [3]
 		{
 			["InstanceID"] = 550,
-			["Player"] = "特變電工",
+			["FirstPlayer"] = "術難奉陪",
+			["InstanceName"] = "Tempest Keep",
+			["Class"] = "WARRIOR",
+			["Date"] = "2021-12-04",
+			["FirstClass"] = "WARLOCK",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-550-10290-20037-0000AB82F9",
@@ -657,12 +661,31 @@ LootMonitorDB = {
 						"|cffa335ee|Hitem:32405::::::::70:::::::::|h[嫩綠球體]|h|r", -- [6]
 					},
 				}, -- [25]
+				{
+					["GUID"] = "Creature-0-4491-550-31327-20039-000134907D",
+					["Time"] = "20:33:37",
+					["Class"] = "PRIEST",
+					["Date"] = "2021-12-11",
+					["Looter"] = "維爾德拉",
+					["Name"] = "鳳鷹",
+					["Loots"] = {
+						"|cffa335ee|Hitem:30029::::::::70:::::::::|h[古老智慧的樹皮手套]|h|r", -- [1]
+					},
+				}, -- [26]
+				{
+					["GUID"] = "Creature-0-4491-550-31327-19514-0000349E1A",
+					["Time"] = "20:59:12",
+					["Class"] = "WARLOCK",
+					["Date"] = "2021-12-11",
+					["Looter"] = "Devinfon",
+					["Name"] = "歐爾",
+					["Loots"] = {
+						"|cffa335ee|Hitem:29948::::::::70:::::::::|h[鳳凰之掌]|h|r", -- [1]
+						"|cffa335ee|Hitem:29922::::::::70:::::::::|h[歐爾指環]|h|r", -- [2]
+					},
+				}, -- [27]
 			},
-			["FirstClass"] = "WARLOCK",
-			["Date"] = "2021-12-04",
-			["Class"] = "WARRIOR",
-			["InstanceName"] = "Tempest Keep",
-			["FirstPlayer"] = "術難奉陪",
+			["Player"] = "特變電工",
 		}, -- [4]
 	},
 	["Config"] = {

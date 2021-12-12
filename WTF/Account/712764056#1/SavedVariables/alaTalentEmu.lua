@@ -1,7 +1,7 @@
 
 alaTalentEmuSV = {
 	["var"] = {
-		["Player-4487-0012ECFA"] = "9iFBW-u7Aw4hwnN:2:G61",
+		["Player-4487-0012ECFA"] = "9Sn3::gg=::QLRH:26dc661",
 		["Player-4487-0008386D"] = "2xFDiHk3l61n6PU61",
 		["savedTalent"] = {
 			["狂暴戰- 武器17 |cff7fbfff狂怒44|r 防护 0"] = "9ZbcV7:4Iah-VAcc661",

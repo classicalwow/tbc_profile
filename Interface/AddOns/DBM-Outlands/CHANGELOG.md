@@ -1,31 +1,46 @@
 # <DBM> Outlands
 
-## [2.5.20](https://github.com/DeadlyBossMods/DBM-TBC-Classic/tree/2.5.20) (2021-11-20)
-[Full Changelog](https://github.com/DeadlyBossMods/DBM-TBC-Classic/compare/2.5.19...2.5.20) [Previous Releases](https://github.com/DeadlyBossMods/DBM-TBC-Classic/releases)
+## [2.5.21](https://github.com/DeadlyBossMods/DBM-TBC-Classic/tree/2.5.21) (2021-12-08)
+[Full Changelog](https://github.com/DeadlyBossMods/DBM-TBC-Classic/compare/2.5.20...2.5.21) [Previous Releases](https://github.com/DeadlyBossMods/DBM-TBC-Classic/releases)
 
-- prep new tags  
-- Fix a nil error in DBT  
-- SoM removed debuff cap, as such this should no longer be restricted.  
-- Fixed a bad copy-paste in the error correcting code.  
-    Was calling DBT, not DBM >.>  
-- Add a migration for ElvUI due to changes they made in folder structure;  
-    - ElvUI assets are now located in a nested Core folder  
-    This was causing bar textures, fonts, etc. to start being a little weird when depending on old ElvUI assets.  
-- Add localization for LurkerBelow name  
-    This should fix the spew announce, as it depends on this localization.  
-- Update localization.ru.lua (#21)  
-    Translated some phrases. Fixed some existing phrases.  
-- Update localization.ru.lua (#20)  
-    Translated some phrases. Fixed some existing phrases.  
-- Update DBM-Serpentshrine.toc (#82)  
-    * Update DBM-Serpentshrine.toc  
-    * Update DBM-TheEye.toc  
-- Add TheEye FR localization  
-    Big thanks to Ocsa on discord for this submition.  
-- Add phase change messages for FR - Lady Vashj (#80)  
-- Bump dev.  
-- bump classic toc while testing my new unified cloud based source code folder across multiple computers  
-- Fix for Vashj shields (#79)  
-- Update localization.cn.lua (#19)  
-- Possible fix for early invalid combat detection fo Leotheras  
-- bump next alpha cycle  
+- Prep new tags across board  
+- Infoframe update  
+     - Updated all infoframes to support total absorb being unknown and be an optional arg (when not given it returns numeric value instead of percent  
+     - Removed unused variable  
+     - Also updated the player absorb check to work without spell input optionally to be a generic total absorb checker  
+- Update localization.tw.lua (#26)  
+- Update commonlocal.tw.lua (#25)  
+- Fixed a bug that caused mage tower challenges to incorrectly report as scenario mods instead of solo challenges, This caused incorrect combat reporting and stats tracking.  
+- Update localization.ru.lua (#24)  
+    Minor typos.  
+- Update localization.ru.lua (#23)  
+    Minor typos.  
+- Add support for classic era difficulty IDs 184-186  
+- tweak to last  
+- Optimize CheckDispelFilter to return cached value when checking multiple debuffs similtaniously to avoid calling GetSpellCooldown over 100x in a single frame in rare cases.  
+- Fix frame Hide cases for hyperlinks nad updatereminder  
+- Fix incorrect difficulty ID (#22)  
+- Missed some renames  
+- Move journal icons to common locals too, that way nearly 100% of smaller mods can avoid using the cores much larger locals table for any reason.  
+- Split common locals out of core so mods and gui elements that only need to access these only have to read or localize a much smaller table.  
+- Fix case in Hyperlinks too.  
+- Fixed regressions in notes and update popups  
+- Fix dway usage. (Cleaner)  
+- Fix dway usage.  
+- Make Mitalie happy  
+- More modules;  
+    - Migrated Commands  
+    - Migrated Hyperlinks  
+    - Migrated Notes Editor  
+    - Cleaned up a bit of Core Lua  
+- Redunant IsLatestCodebase function  
+- Migrate commands into modules  
+- Luacheck unused variables.  
+- Fixed previous commit  
+- Fixed a positioning error within the GUI  
+- Remove redundant nil returns  
+- Revert one bad change  
+- Safer usage for removing values from tables;  
+    - In cases where we iterate and remove, just use twipe (table.wipe)  
+    - In cases where its ipairs, use tremove (table.remove), as it's a SAFE CAST, otherwise iterating it can corrupt  
+- Fixed commit signing, and bumped alphas  

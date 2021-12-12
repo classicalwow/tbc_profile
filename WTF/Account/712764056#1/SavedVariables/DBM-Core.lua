@@ -9,7 +9,7 @@ DBM_AllSavedOptions = {
 		["RangeFrameRadarY"] = -139.6187591552734,
 		["InfoFrameX"] = -494.6590576171875,
 		["DontShowNameplateIcons"] = false,
-		["CoreSavedRevision"] = 20211120042548,
+		["CoreSavedRevision"] = 20211208045522,
 		["RangeFrameX"] = 252.1582794189453,
 		["AlwaysShowSpeedKillTimer"] = true,
 		["RangeFrameY"] = -118.0636749267578,
@@ -198,7 +198,7 @@ DBM_AllSavedOptions = {
 			0, -- [2]
 			1, -- [3]
 		},
-		["DontShowUserTimers"] = false,
+		["CountdownVoice3"] = "Smooth",
 		["SpecialWarningFont"] = "standardFont",
 		["WarningDuration2"] = 1.5,
 		["AutoRespond"] = true,
@@ -216,8 +216,8 @@ DBM_AllSavedOptions = {
 		["DisableStatusWhisper"] = false,
 		["InfoFrameShowSelf"] = false,
 		["WarningFontShadow"] = true,
-		["CountdownVoice3"] = "Smooth",
 		["RecordOnlyBosses"] = false,
+		["DontShowUserTimers"] = false,
 		["DontShowBossTimers"] = false,
 		["SpecialWarningFontStyle"] = "THICKOUTLINE",
 		["DontShowSpecialWarningFlash"] = false,
