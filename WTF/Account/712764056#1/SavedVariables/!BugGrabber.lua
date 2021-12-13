@@ -1,6 +1,6 @@
 
 BugGrabberDB = {
-	["session"] = 588,
+	["session"] = 590,
 	["lastSanitation"] = 3,
 	["errors"] = {
 		{
@@ -823,32 +823,32 @@ BugGrabberDB = {
 			["counter"] = 1,
 		}, -- [107]
 		{
-			["message"] = "Binding ALARAIDTOOL_NEWWINDOW is defined more than once in Interface\\AddOns\\alaTalentEmu\\Bindings.xml",
-			["session"] = 588,
-			["time"] = "2021/12/05 20:25:25",
-			["counter"] = 20,
-		}, -- [108]
-		{
-			["message"] = "Binding ALARAIDTOOL_QUERY is defined more than once in Interface\\AddOns\\alaTalentEmu\\Bindings.xml",
-			["session"] = 588,
-			["time"] = "2021/12/05 20:25:25",
-			["counter"] = 20,
-		}, -- [109]
-		{
 			["message"] = "Interface\\AddOns\\LootMonitor\\LootMonitor-3.30.lua:1163: attempt to index field '?' (a nil value)",
 			["time"] = "2021/07/28 16:53:39",
 			["locals"] = "self = <unnamed> {\n 0 = <userdata>\n CHAT_MSG_ADDON = <function> defined @Interface\\AddOns\\LootMonitor\\LootMonitor.lua:761\n COMBAT_LOG_EVENT_UNFILTERED = <function> defined @Interface\\AddOns\\LootMonitor\\LootMonitor.lua:1209\n PLAYER_ENTERING_WORLD = <function> defined @Interface\\AddOns\\LootMonitor\\LootMonitor.lua:710\n GROUP_ROSTER_UPDATE = <function> defined @Interface\\AddOns\\LootMonitor\\LootMonitor.lua:1041\n UNIT_FLAGS = <function> defined @Interface\\AddOns\\LootMonitor\\LootMonitor.lua:1072\n PLAYER_LOGOUT = <function> defined @Interface\\AddOns\\LootMonitor\\LootMonitor.lua:727\n LOOT_OPENED = <function> defined @Interface\\AddOns\\LootMonitor\\LootMonitor.lua:1143\n ADDON_LOADED = <function> defined @Interface\\AddOns\\LootMonitor\\LootMonitor.lua:644\n}\nLoots = <table> {\n 2 = <table> {\n }\n 3 = <table> {\n }\n 4 = <table> {\n }\n 5 = <table> {\n }\n}\nLootLink = <table> {\n}\nTargetGUID = nil\n(for index) = 1\n(for limit) = 5\n(for step) = 1\ni = 1\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index field '?' (a nil value)\"\nUnitInBattleground = <function> defined =[C]:-1\nIsInGroup = <function> defined =[C]:-1\nIsFishingLoot = <function> defined =[C]:-1\nGetLootInfo = <function> defined =[C]:-1\nGetLootSourceInfo = <function> defined =[C]:-1\nConfig = <table> {\n Enabled = true\n ExpireDay = 14\n EnteringCheck = true\n OutputPos = <table> {\n }\n SetWindowPos = <table> {\n }\n MinimapIconAngle = 296.302925\n ShowMinimapIcon = true\n BossOnly = false\n Quality = 3\n OutputToRaidWarning = false\n}\nt_insert = <function> defined =[C]:-1\nGetLootSlotLink = <function> defined =[C]:-1\nUnitExists = <function> defined =[C]:-1\nUnitGUID = <function> defined =[C]:-1\nUnitName = <function> defined =[C]:-1\nAddon = <table> {\n SetWindow = <table> {\n }\n UpdatePosition = <function> defined @Interface\\AddOns\\LootMonitor\\MinimapIcon.lua:81\n LDBIcon = <table> {\n }\n LDB = <table> {\n }\n GetMobNameFromGUID = <function> defined @Interface\\AddOns\\LootMonitor\\LootMonitor.lua:189\n InitGroupInfo = <function> defined @Interface\\AddOns\\LootMonitor\\LootMonitor.lua:349\n CleanLootLogs = <function> defined @Interface\\AddOns\\LootMonitor\\LootMonitor.lua:555\n NewLoots = <function> defined @Interface\\AddOns\\LootMonitor\\LootMonitor.lua:225\n GroupState = <table> {\n }\n PrintLootLog = <function> defined @Interface\\AddOns\\LootMonitor\\LootMonitor.lua:498\n InitGroupFlags = <function> defined @Interface\\AddOns\\LootMonitor\\LootMonitor.lua:272\n DoShowState = <function> defined @Interface\\AddOns\\LootMonitor\\LootMonitor.lua:473\n MinimapIcon = <table> {\n }\n UpdateGroupInfo = <function> defined @Interface\\AddOns\\LootMonitor\\LootMonitor.lua:404\n DoUpdateCheck = <function> defined @Interface\\AddOns\\LootMonitor\\LootMonitor.lua:238\n NewRaid = <function> defined @Interface\\AddOns\\LootMonitor\\LootMonitor.lua:210\n RaidInstanceID = <table> {\n }\n DoReply = <function> defined @Interface\\AddOns\\LootMonitor\\LootMonitor.lua:260\n Output = <table> {\n }\n DoCheck = <function> defined @Interface\\AddOns\\LootMonitor\\LootMonitor.lua:246\n Config = <table> {\n }\n Version = \"3.30\"\n GetUnitPartyUnit = <function> defined @Interface\\AddOns\\LootMonitor\\LootMonitor.lua:177\n IsRaidBoss = <table> {\n }\n Frame = <unnamed> {\n }\n UpdateTable = <function> defined @Interface\\AddOns\\LootMonitor\\LootMonitor.lua:162\n L = <table> {\n }\n}\nCorpseInfo = <table> {\n Creature-0-5580-552-20394-20865-0007010DA4 = <table> {\n }\n Creature-0-5580-552-20394-20865-0000010DF0 = <table> {\n }\n Creature-0-5580-552-20394-20865-0003810DA4 = <table> {\n }\n Creature-0-5580-552-20394-20906-000001174E = <table> {\n }\n Creature-0-5580-552-20394-20865-0000010E05 = <table> {\n }\n Creature-0-5580-552-20394-20865-0008010DA4 = <table> {\n }\n Creature-0-5580-552-20394-20873-0000810DA4 = <table> {\n }\n Creature-0-5580-552-20394-21395-00008114FE = <table> {\n }\n Creature-0-5580-552-20394-20873-0001010DA4 = <table> {\n }\n Creature-0-5580-552-20394-20902-0000810DA4 = <table> {\n }\n Creature-0-5580-552-20394-20865-0000810DA4 = <table> {\n }\n Creature-0-5580-552-20394-15438-000001183A = <table> {\n }\n Creature-0-5",
 			["stack"] = "[string \"@Interface\\AddOns\\LootMonitor\\LootMonitor-3.30.lua\"]:1163: in function <Interface\\AddOns\\LootMonitor\\LootMonitor.lua:1143>\n[string \"=(tail call)\"]: ?",
 			["session"] = 588,
 			["counter"] = 13,
+		}, -- [108]
+		{
+			["message"] = "Binding ALARAIDTOOL_NEWWINDOW is defined more than once in Interface\\AddOns\\alaTalentEmu\\Bindings.xml",
+			["session"] = 590,
+			["time"] = "2021/12/05 20:25:25",
+			["counter"] = 24,
+		}, -- [109]
+		{
+			["message"] = "Binding ALARAIDTOOL_QUERY is defined more than once in Interface\\AddOns\\alaTalentEmu\\Bindings.xml",
+			["session"] = 590,
+			["time"] = "2021/12/05 20:25:25",
+			["counter"] = 24,
 		}, -- [110]
 		{
 			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
 			["time"] = "2021/07/01 16:18:25",
 			["locals"] = "GearScore = 2320\nItemLevel = 105\nRed = 0.081600\nBlue = 0.320000\nGreen = 0.840000\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 5\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
-			["session"] = 588,
-			["counter"] = 6099,
+			["session"] = 590,
+			["counter"] = 6128,
 		}, -- [111]
 	},
 }

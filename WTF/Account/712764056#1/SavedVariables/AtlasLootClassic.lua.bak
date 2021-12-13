@@ -25,10 +25,10 @@ AtlasLootClassicDB = {
 					-96.00004577636719, -- [5]
 				},
 				["selected"] = {
-					nil, -- [1]
-					"SerpentshrineCavern", -- [2]
-					6, -- [3]
-					6, -- [4]
+					"AtlasLootClassic_Crafting", -- [1]
+					"EnchantingBC", -- [2]
+					nil, -- [3]
+					1, -- [4]
 					0, -- [5]
 				},
 			},
