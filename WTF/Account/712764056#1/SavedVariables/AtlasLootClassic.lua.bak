@@ -25,9 +25,9 @@ AtlasLootClassicDB = {
 					-96.00004577636719, -- [5]
 				},
 				["selected"] = {
-					"AtlasLootClassic_Crafting", -- [1]
-					"EnchantingBC", -- [2]
-					nil, -- [3]
+					nil, -- [1]
+					"Karazhan", -- [2]
+					5, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},

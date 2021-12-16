@@ -4,9 +4,6 @@ WeakAurasOptionsSaved = {
 	["needsRebuild"] = false,
 	["version"] = "3.7.3",
 	["magnetAlign"] = true,
-	["savedSnippets"] = {
-	},
-	["spellCacheAchivements"] = true,
 	["spellCache"] = {
 		["召喚瑪格拉姆劫毀者"] = {
 			["spells"] = {
@@ -48651,7 +48648,7 @@ WeakAurasOptionsSaved = {
 				[38584] = 135825,
 				[7389] = 132150,
 				[6351] = 135825,
-				[6603] = 133519,
+				[6603] = 133509,
 				[31992] = 135825,
 				[8386] = 135641,
 				[3606] = 135825,
@@ -56395,7 +56392,7 @@ WeakAurasOptionsSaved = {
 		},
 		["鞭擊恐懼惡魔"] = {
 			["spells"] = {
-				[35673] = 133519,
+				[35673] = 133509,
 			},
 		},
 		["鐵羽護肩"] = {
@@ -90375,5 +90372,8 @@ WeakAurasOptionsSaved = {
 			},
 		},
 	},
-	["build"] = "40892",
+	["spellCacheAchivements"] = true,
+	["savedSnippets"] = {
+	},
+	["build"] = "41446",
 }
