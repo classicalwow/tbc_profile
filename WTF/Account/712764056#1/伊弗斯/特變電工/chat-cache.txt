@@ -3,7 +3,6 @@ VERSION 6
 ADDEDVERSION 21
 
 CHANNELS
-尋求組隊 1 1 0
 綜合 0 2 0
 交易 0 3 0
 本地防務 0 4 0

@@ -1,4 +1,11 @@
 Version: 1
+Frame: GladdyFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 81
+Y: -28
+W: 404
+H: 435
 Frame: ColorPickerFrame
 FrameLevel: 1
 Anchor: CENTER

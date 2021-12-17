@@ -454,8 +454,20 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2021/09/25 17:17",
 			},
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1639310740,
-				["lastVisitDate"] = "2021/12/12 20:05",
+				["lastUpdate"] = 1639670892,
+				["Mails"] = {
+					{
+						["returned"] = false,
+						["sender"] = "部落拍賣場",
+						["itemID"] = 24048,
+						["link"] = "|cff0070dd|Hitem:24048::::::::70:::::::::|h[光滑的黎明石]|h|r",
+						["count"] = 1,
+						["lastCheck"] = 1639670892,
+						["icon"] = 133242,
+						["daysLeft"] = 29.99982643127441,
+					}, -- [1]
+				},
+				["lastVisitDate"] = "2021/12/17 00:08",
 			},
 		},
 	},

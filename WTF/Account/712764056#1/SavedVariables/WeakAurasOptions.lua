@@ -4,6 +4,9 @@ WeakAurasOptionsSaved = {
 	["needsRebuild"] = false,
 	["version"] = "3.7.3",
 	["magnetAlign"] = true,
+	["savedSnippets"] = {
+	},
+	["spellCacheAchivements"] = true,
 	["spellCache"] = {
 		["召喚瑪格拉姆劫毀者"] = {
 			["spells"] = {
@@ -90371,9 +90374,6 @@ WeakAurasOptionsSaved = {
 				[27448] = 132294,
 			},
 		},
-	},
-	["spellCacheAchivements"] = true,
-	["savedSnippets"] = {
 	},
 	["build"] = "41446",
 }

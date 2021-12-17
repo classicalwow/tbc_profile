@@ -243,86 +243,6 @@ Puggle_dungeonTags = {
 		"mags", -- [1]
 		"magtheridon", -- [2]
 	},
-	["ZA"] = {
-		"zulAman", -- [1]
-		"za", -- [2]
-	},
-	["BT"] = {
-		"black", -- [1]
-		"temple", -- [2]
-		"bt", -- [3]
-	},
-	["MH"] = {
-		"hyjal", -- [1]
-		"hijal", -- [2]
-	},
-	["AV"] = {
-		"av", -- [1]
-		"alterac", -- [2]
-		"valley", -- [3]
-	},
-	["KZ"] = {
-		"karazhan", -- [1]
-		"kz", -- [2]
-		"kara", -- [3]
-	},
-	["ARC"] = {
-		"arc", -- [1]
-		"arcatraz", -- [2]
-	},
-	["SMG"] = {
-		"smgy", -- [1]
-		"smg", -- [2]
-		"gy", -- [3]
-		"graveyard", -- [4]
-	},
-	["MT"] = {
-		"mana-tombs", -- [1]
-		"mt", -- [2]
-		"manatombs", -- [3]
-		"tombs", -- [4]
-	},
-	["BOT"] = {
-		"botanica", -- [1]
-		"bot", -- [2]
-		"bota", -- [3]
-		"botanic", -- [4]
-	},
-	["DMN"] = {
-		"dmn", -- [1]
-		"north", -- [2]
-		"tribute", -- [3]
-		"dm:n", -- [4]
-	},
-	["SL"] = {
-		"sl", -- [1]
-		"shadowlabs", -- [2]
-		"labs", -- [3]
-	},
-	["SETH"] = {
-		"setthekk", -- [1]
-		"setthek", -- [2]
-		"seth", -- [3]
-	},
-	["UB"] = {
-		"ub", -- [1]
-		"underbog", -- [2]
-	},
-	["RFD"] = {
-		"rfd", -- [1]
-		"downs", -- [2]
-	},
-	["SMC"] = {
-		"smcath", -- [1]
-		"smc", -- [2]
-		"cath", -- [3]
-		"cathedral", -- [4]
-	},
-	["STL"] = {
-		"stratlive", -- [1]
-		"live", -- [2]
-		"strat", -- [3]
-	},
 	["ZF"] = {
 		"zf", -- [1]
 		"zul", -- [2]
@@ -330,6 +250,86 @@ Puggle_dungeonTags = {
 		"zul'farrak", -- [4]
 		"zulfarrak", -- [5]
 		"zulfarak", -- [6]
+	},
+	["ZA"] = {
+		"zulAman", -- [1]
+		"za", -- [2]
+	},
+	["SMC"] = {
+		"smcath", -- [1]
+		"smc", -- [2]
+		"cath", -- [3]
+		"cathedral", -- [4]
+	},
+	["AV"] = {
+		"av", -- [1]
+		"alterac", -- [2]
+		"valley", -- [3]
+	},
+	["RFD"] = {
+		"rfd", -- [1]
+		"downs", -- [2]
+	},
+	["UB"] = {
+		"ub", -- [1]
+		"underbog", -- [2]
+	},
+	["SMG"] = {
+		"smgy", -- [1]
+		"smg", -- [2]
+		"gy", -- [3]
+		"graveyard", -- [4]
+	},
+	["MH"] = {
+		"hyjal", -- [1]
+		"hijal", -- [2]
+	},
+	["BOT"] = {
+		"botanica", -- [1]
+		"bot", -- [2]
+		"bota", -- [3]
+		"botanic", -- [4]
+	},
+	["SL"] = {
+		"sl", -- [1]
+		"shadowlabs", -- [2]
+		"labs", -- [3]
+	},
+	["DMN"] = {
+		"dmn", -- [1]
+		"north", -- [2]
+		"tribute", -- [3]
+		"dm:n", -- [4]
+	},
+	["MT"] = {
+		"mana-tombs", -- [1]
+		"mt", -- [2]
+		"manatombs", -- [3]
+		"tombs", -- [4]
+	},
+	["ARC"] = {
+		"arc", -- [1]
+		"arcatraz", -- [2]
+	},
+	["KZ"] = {
+		"karazhan", -- [1]
+		"kz", -- [2]
+		"kara", -- [3]
+	},
+	["SETH"] = {
+		"setthekk", -- [1]
+		"setthek", -- [2]
+		"seth", -- [3]
+	},
+	["BT"] = {
+		"black", -- [1]
+		"temple", -- [2]
+		"bt", -- [3]
+	},
+	["STL"] = {
+		"stratlive", -- [1]
+		"live", -- [2]
+		"strat", -- [3]
 	},
 }
 Puggle_dungeonNames = {
@@ -381,23 +381,23 @@ Puggle_dungeonNames = {
 	["SV"] = "The Steamvault",
 	["MECH"] = "The Mechanar",
 	["MAG"] = "Magtheridon's Lair",
-	["ZA"] = "Zul'Aman",
-	["BT"] = "Black Temple",
-	["MH"] = "Mount Hyjal",
-	["AV"] = "Alterac Valley",
-	["KZ"] = "Karazhan",
-	["ARC"] = "The Arcatraz",
-	["SMG"] = "Scarlet Monastery: Graveyard",
-	["MT"] = "Mana-Tombs",
-	["BOT"] = "The Botanica",
-	["DMN"] = "Dire Maul: North",
-	["SL"] = "Shadow Labyrinth",
-	["SETH"] = "Sethekk Halls",
-	["UB"] = "Underbog",
-	["RFD"] = "Razorfen Downs",
-	["SMC"] = "Scarlet Monastery: Cathedral",
-	["STL"] = "Stratholme: Live",
 	["ZF"] = "Zul'Farrak",
+	["ZA"] = "Zul'Aman",
+	["SMC"] = "Scarlet Monastery: Cathedral",
+	["AV"] = "Alterac Valley",
+	["RFD"] = "Razorfen Downs",
+	["UB"] = "Underbog",
+	["SMG"] = "Scarlet Monastery: Graveyard",
+	["MH"] = "Mount Hyjal",
+	["BOT"] = "The Botanica",
+	["SL"] = "Shadow Labyrinth",
+	["DMN"] = "Dire Maul: North",
+	["MT"] = "Mana-Tombs",
+	["ARC"] = "The Arcatraz",
+	["KZ"] = "Karazhan",
+	["SETH"] = "Sethekk Halls",
+	["BT"] = "Black Temple",
+	["STL"] = "Stratholme: Live",
 }
 Puggle_searchTags = {
 	"lfg", -- [1]
@@ -419,15 +419,19 @@ Puggle_pastGroups = {
 }
 Puggle_pastPlayers = {
 	{
+		["latestguild"] = "",
+		["latestfrom"] = "",
 		["class"] = "RFJVSUQ=",
+		["latesttime"] = 1639669216,
+		["race"] = "VGF1cmVu",
 		["lateststar"] = "MA==",
 		["player"] = true,
 		["name"] = "54mn5Y6f6IKh5Lu9",
 		["faction"] = "SG9yZGU=",
-		["latestcmt"] = "",
-		["race"] = "VGF1cmVu",
-		["gender"] = "Mg==",
 		["realm"] = "5LyK5byX5pav",
+		["gender"] = "Mg==",
+		["latestlevel"] = "MQ==",
+		["latestcmt"] = "",
 	}, -- [1]
 }
 Puggle_encoded = true
