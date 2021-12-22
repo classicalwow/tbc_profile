@@ -48,3 +48,10 @@ X: -245
 Y: -178
 W: 200
 H: 50
+Frame: WIM3_msgFrame1
+FrameLevel: 2
+Anchor: LEFT
+X: 457
+Y: -89
+W: 333
+H: 220

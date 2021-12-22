@@ -7,7 +7,7 @@ _weizpvp_chardb = {
 		["Default"] = {
 			["Options"] = {
 				["Database"] = {
-					["LastCleaned"] = 1639926994,
+					["LastCleaned"] = 1640096838,
 					["VERSION"] = 3,
 				},
 				["Addon"] = {
