@@ -41,6 +41,13 @@ X: -349
 Y: -23
 W: 640
 H: 480
+Frame: GroupBulletinBoardFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 342
+Y: -59
+W: 441
+H: 782
 Frame: scanner_button
 FrameLevel: 200
 Anchor: RIGHT
@@ -48,10 +55,3 @@ X: -245
 Y: -178
 W: 200
 H: 50
-Frame: WIM3_msgFrame1
-FrameLevel: 2
-Anchor: LEFT
-X: 457
-Y: -89
-W: 333
-H: 220

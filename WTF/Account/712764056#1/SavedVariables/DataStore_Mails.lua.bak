@@ -454,8 +454,20 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2021/09/25 17:17",
 			},
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1639846658,
-				["lastVisitDate"] = "2021/12/19 00:57",
+				["lastUpdate"] = 1640183036,
+				["Mails"] = {
+					{
+						["returned"] = false,
+						["sender"] = "部落拍賣場",
+						["itemID"] = 24067,
+						["link"] = "|cff0070dd|Hitem:24067::::::::70:::::::::|h[鋸齒的泰拉寶石]|h|r",
+						["count"] = 1,
+						["lastCheck"] = 1640183036,
+						["icon"] = 133272,
+						["daysLeft"] = 27.10620307922363,
+					}, -- [1]
+				},
+				["lastVisitDate"] = "2021/12/22 22:23",
 			},
 		},
 	},

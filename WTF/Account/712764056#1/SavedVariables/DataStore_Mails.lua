@@ -7,8 +7,20 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1639846658,
-				["lastVisitDate"] = "2021/12/19 00:57",
+				["lastUpdate"] = 1640183036,
+				["Mails"] = {
+					{
+						["link"] = "|cff0070dd|Hitem:24067::::::::70:::::::::|h[鋸齒的泰拉寶石]|h|r",
+						["sender"] = "部落拍賣場",
+						["itemID"] = 24067,
+						["returned"] = false,
+						["icon"] = 133272,
+						["count"] = 1,
+						["lastCheck"] = 1640183036,
+						["daysLeft"] = 27.10620307922363,
+					}, -- [1]
+				},
+				["lastVisitDate"] = "2021/12/22 22:23",
 			},
 			["Default.伊弗斯.邁克爾假死"] = {
 				["lastUpdate"] = 1632561473,

@@ -42,39 +42,6 @@ TomTomWaypointsM = {
 	},
 	["profiles"] = {
 		["特變電工 - 伊弗斯"] = {
-			[1446] = {
-				["1446:650611246.94377:503911980.4401:集合石"] = {
-					1446, -- [1]
-					0.6506112469437653, -- [2]
-					0.5039119804400979, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "集合石",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "集合石",
-					["from"] = "?",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
 		},
 		["邁克爾假死 - 伊弗斯"] = {
 		},
