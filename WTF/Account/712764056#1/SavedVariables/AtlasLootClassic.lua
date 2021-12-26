@@ -25,9 +25,9 @@ AtlasLootClassicDB = {
 					-148.8160247802734, -- [5]
 				},
 				["selected"] = {
-					"AtlasLootClassic_Crafting", -- [1]
-					"LeatherworkingBC", -- [2]
-					10, -- [3]
+					nil, -- [1]
+					"SerpentshrineCavern", -- [2]
+					6, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},
