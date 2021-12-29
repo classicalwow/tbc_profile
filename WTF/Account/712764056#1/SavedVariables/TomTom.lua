@@ -48,6 +48,13 @@ TomTomWaypointsM = {
 					0.651833740831296, -- [2]
 					0.6679706601466993, -- [3]
 					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "哈帕克斯",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "哈帕克斯",
+					["from"] = "?",
 					["callbacks"] = {
 						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
@@ -64,12 +71,7 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
-					["persistent"] = true,
 					["minimap"] = true,
-					["cleardistance"] = 10,
-					["title"] = "哈帕克斯",
-					["from"] = "?",
-					["crazy"] = true,
 					["world"] = true,
 				},
 			},

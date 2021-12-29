@@ -3412,14 +3412,14 @@ MailLoggerDB = {
 		}, -- [170]
 		{
 			["TargetName"] = "別逼我擋怪",
-			["Date"] = "2021-12-19",
+			["PlayerName"] = "特變電工",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "00:43:11",
 			["GiveMoney"] = 0,
 			["Location"] = "毒蛇神殿洞穴",
-			["PlayerName"] = "特變電工",
-			["Time"] = "00:43:11",
+			["GiveItems"] = {
+			},
+			["Date"] = "2021-12-19",
 			["ReceiveItems"] = {
 			},
 		}, -- [171]
@@ -3439,27 +3439,27 @@ MailLoggerDB = {
 		}, -- [172]
 		{
 			["TargetName"] = "終焉之戰",
-			["Date"] = "2021-12-19",
+			["PlayerName"] = "特變電工",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "00:46:22",
 			["GiveMoney"] = 0,
 			["Location"] = "毒蛇神殿洞穴",
-			["PlayerName"] = "特變電工",
-			["Time"] = "00:46:22",
+			["GiveItems"] = {
+			},
+			["Date"] = "2021-12-19",
 			["ReceiveItems"] = {
 			},
 		}, -- [173]
 		{
 			["TargetName"] = "終焉之戰",
-			["Date"] = "2021-12-19",
+			["PlayerName"] = "特變電工",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "00:46:42",
 			["GiveMoney"] = 0,
 			["Location"] = "毒蛇神殿洞穴",
-			["PlayerName"] = "特變電工",
-			["Time"] = "00:46:42",
+			["GiveItems"] = {
+			},
+			["Date"] = "2021-12-19",
 			["ReceiveItems"] = {
 			},
 		}, -- [174]
@@ -3657,5 +3657,37 @@ MailLoggerDB = {
 				}, -- [1]
 			},
 		}, -- [184]
+		{
+			["TargetName"] = "終焉之戰",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:17:01",
+			["GiveMoney"] = 0,
+			["Location"] = "風暴要塞",
+			["GiveItems"] = {
+			},
+			["Date"] = "2021-12-25",
+			["ReceiveItems"] = {
+			},
+		}, -- [185]
+		{
+			["TargetName"] = "終焉之戰",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2021-12-25",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:17:01",
+			["GiveMoney"] = 30000000,
+			["Location"] = "風暴要塞",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:30022::::::::70:::::::::|h[冒險墜飾]|h|r",
+					["Name"] = "冒險墜飾",
+				}, -- [1]
+			},
+		}, -- [186]
 	},
 }
