@@ -1,9 +1,9 @@
 
 TradeSkillMasterDB = {
 	["c@特變電工 - 伊弗斯@auctionUIContext@shoppingGroupTree"] = {
-		["collapsed"] = {
-		},
 		["unselected"] = {
+		},
+		["collapsed"] = {
 		},
 	},
 	["c@路易斯桑拿 - 伊弗斯@mainUIContext@importGroupTree"] = {
@@ -65,95 +65,16 @@ TradeSkillMasterDB = {
 	["c@路易斯桑拿 - 伊弗斯@internalData@craftingCooldowns"] = {
 	},
 	["f@Horde - 伊弗斯@internalData@crafts"] = {
-		["c:9984154"] = {
+		["c:5119473"] = {
 			["mats"] = {
-				["i:7966"] = 3,
-				["i:3860"] = 4,
+				["i:2605"] = 1,
+				["i:3486"] = 1,
+				["i:3575"] = 8,
 			},
-			["itemString"] = "i:7969",
+			["itemString"] = "i:3842",
 			["profession"] = "鍛造",
 			["numResult"] = 1,
-			["name"] = "秘銀馬刺",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:1087028"] = {
-			["mats"] = {
-				["i:30183"] = 2,
-				["i:21884"] = 10,
-				["i:23573"] = 5,
-			},
-			["itemString"] = "i:30032",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "紅色戰鬥腰帶",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:13889499"] = {
-			["mats"] = {
-				["i:23448"] = 8,
-			},
-			["itemString"] = "i:23519",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "魔鋼頭盔",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:6975107"] = {
-			["mats"] = {
-				["i:23445"] = 6,
-			},
-			["itemString"] = "i:23494",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "魔鐵鍊甲護腕",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:10692346"] = {
-			["mats"] = {
-				["i:2842"] = 1,
-				["i:3470"] = 2,
-			},
-			["itemString"] = "i:6338",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "銀棒",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:6153536"] = {
-			["mats"] = {
-				["i:21877"] = 1,
-				["i:23445"] = 1,
-			},
-			["itemString"] = "i:28420",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "惡魔平衡石",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:2361474"] = {
-			["mats"] = {
-				["i:2318"] = 2,
-				["i:2880"] = 2,
-				["i:2840"] = 10,
-				["i:2842"] = 2,
-				["i:3470"] = 2,
-			},
-			["itemString"] = "i:3489",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "厚重的戰斧",
+			["name"] = "綠鐵護腿",
 			["players"] = {
 				["特變電工"] = true,
 			},
@@ -167,6 +88,22 @@ TradeSkillMasterDB = {
 			["profession"] = "鍛造",
 			["numResult"] = 1,
 			["name"] = "銅質符文護手",
+			["players"] = {
+				["特變電工"] = true,
+			},
+		},
+		["c:4813125"] = {
+			["mats"] = {
+				["i:1705"] = 2,
+				["i:2841"] = 20,
+				["i:5500"] = 2,
+				["i:2842"] = 4,
+				["i:1206"] = 2,
+			},
+			["itemString"] = "i:2870",
+			["profession"] = "鍛造",
+			["numResult"] = 1,
+			["name"] = "銀鱗胸甲",
 			["players"] = {
 				["特變電工"] = true,
 			},
@@ -185,41 +122,14 @@ TradeSkillMasterDB = {
 				["特變電工"] = true,
 			},
 		},
-		["c:4964849"] = {
+		["c:12321513"] = {
 			["mats"] = {
-				["i:21884"] = 12,
-				["i:23449"] = 8,
-				["i:23572"] = 1,
-				["i:21885"] = 12,
+				["i:2840"] = 10,
 			},
-			["itemString"] = "i:31371",
+			["itemString"] = "i:2857",
 			["profession"] = "鍛造",
 			["numResult"] = 1,
-			["name"] = "冰霜守衛頭盔",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:12906691"] = {
-			["mats"] = {
-				["i:23445"] = 6,
-			},
-			["itemString"] = "i:25843",
-			["profession"] = "鍛造",
-			["players"] = {
-				["特變電工"] = true,
-			},
-			["name"] = "魔鐵棒",
-			["numResult"] = 1,
-		},
-		["c:14526734"] = {
-			["mats"] = {
-				["i:23445"] = 12,
-			},
-			["itemString"] = "i:23499",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "魔鐵巨劍",
+			["name"] = "銅質符文腰帶",
 			["players"] = {
 				["特變電工"] = true,
 			},
@@ -237,18 +147,6 @@ TradeSkillMasterDB = {
 				["特變電工"] = true,
 			},
 		},
-		["c:3877196"] = {
-			["mats"] = {
-				["i:2836"] = 1,
-			},
-			["itemString"] = "i:2863",
-			["profession"] = "鍛造",
-			["players"] = {
-				["特變電工"] = true,
-			},
-			["name"] = "粗製磨刀石",
-			["numResult"] = 1,
-		},
 		["c:14662883"] = {
 			["mats"] = {
 				["i:2840"] = 4,
@@ -257,43 +155,6 @@ TradeSkillMasterDB = {
 			["profession"] = "鍛造",
 			["numResult"] = 1,
 			["name"] = "銅質鍊甲便褲",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:6609247"] = {
-			["mats"] = {
-				["i:23445"] = 4,
-			},
-			["itemString"] = "i:23493",
-			["profession"] = "鍛造",
-			["players"] = {
-				["特變電工"] = true,
-			},
-			["name"] = "魔鐵鍊甲罩盔",
-			["numResult"] = 1,
-		},
-		["c:10856636"] = {
-			["mats"] = {
-				["i:23445"] = 10,
-			},
-			["itemString"] = "i:23489",
-			["profession"] = "鍛造",
-			["players"] = {
-				["特變電工"] = true,
-			},
-			["name"] = "魔鐵胸甲",
-			["numResult"] = 1,
-		},
-		["c:5314205"] = {
-			["mats"] = {
-				["i:12644"] = 1,
-				["i:12360"] = 1,
-			},
-			["itemString"] = "i:15872",
-			["profession"] = "鍛造",
-			["numResult"] = 2,
-			["name"] = "奧金骷髏鑰匙",
 			["players"] = {
 				["特變電工"] = true,
 			},
@@ -364,16 +225,17 @@ TradeSkillMasterDB = {
 				["特變電工"] = true,
 			},
 		},
-		["c:5119473"] = {
+		["c:1961664"] = {
 			["mats"] = {
-				["i:3575"] = 8,
-				["i:2605"] = 1,
-				["i:3486"] = 1,
+				["i:22449"] = 2,
+				["i:22831"] = 4,
+				["i:23448"] = 6,
+				["i:22451"] = 4,
 			},
-			["itemString"] = "i:3842",
+			["itemString"] = "i:23526",
 			["profession"] = "鍛造",
 			["numResult"] = 1,
-			["name"] = "綠鐵護腿",
+			["name"] = "迅鋼手套",
 			["players"] = {
 				["特變電工"] = true,
 			},
@@ -403,32 +265,29 @@ TradeSkillMasterDB = {
 				["特變電工"] = true,
 			},
 		},
-		["c:9392426"] = {
+		["c:14526734"] = {
 			["mats"] = {
-				["i:2835"] = 2,
-			},
-			["itemString"] = "i:3470",
-			["profession"] = "鍛造",
-			["players"] = {
-				["特變電工"] = true,
-			},
-			["name"] = "劣質砂輪",
-			["numResult"] = 1,
-		},
-		["c:8598080"] = {
-			["mats"] = {
-				["i:21884"] = 2,
 				["i:23445"] = 12,
-				["i:23449"] = 8,
-				["i:27503"] = 2,
 			},
-			["itemString"] = "i:33173",
+			["itemString"] = "i:23499",
 			["profession"] = "鍛造",
 			["numResult"] = 1,
-			["name"] = "怒鋼護肩",
+			["name"] = "魔鐵巨劍",
 			["players"] = {
 				["特變電工"] = true,
 			},
+		},
+		["c:15202378"] = {
+			["mats"] = {
+				["i:2835"] = 1,
+			},
+			["itemString"] = "i:2862",
+			["profession"] = "鍛造",
+			["players"] = {
+				["特變電工"] = true,
+			},
+			["name"] = "劣質磨刀石",
+			["numResult"] = 1,
 		},
 		["c:891994"] = {
 			["mats"] = {
@@ -470,17 +329,16 @@ TradeSkillMasterDB = {
 			["name"] = "堅鋼磨刀石",
 			["numResult"] = 1,
 		},
-		["c:4992072"] = {
+		["c:9392426"] = {
 			["mats"] = {
-				["i:23446"] = 1,
-				["i:21877"] = 2,
+				["i:2835"] = 2,
 			},
-			["itemString"] = "i:28421",
+			["itemString"] = "i:3470",
 			["profession"] = "鍛造",
 			["players"] = {
 				["特變電工"] = true,
 			},
-			["name"] = "堅鋼平衡石",
+			["name"] = "劣質砂輪",
 			["numResult"] = 1,
 		},
 		["c:997235"] = {
@@ -507,20 +365,18 @@ TradeSkillMasterDB = {
 			["name"] = "強效結界符文",
 			["numResult"] = 1,
 		},
-		["c:1961664"] = {
+		["c:9368815"] = {
 			["mats"] = {
-				["i:22451"] = 4,
-				["i:22449"] = 2,
-				["i:23448"] = 6,
-				["i:22831"] = 4,
+				["i:7966"] = 1,
+				["i:6037"] = 1,
 			},
-			["itemString"] = "i:23526",
+			["itemString"] = "i:15871",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "迅鋼手套",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "真銀骷髏鑰匙",
+			["numResult"] = 2,
 		},
 		["c:4974399"] = {
 			["mats"] = {
@@ -538,9 +394,9 @@ TradeSkillMasterDB = {
 		},
 		["c:2583061"] = {
 			["mats"] = {
+				["i:23449"] = 8,
 				["i:21884"] = 12,
 				["i:23572"] = 1,
-				["i:23449"] = 8,
 				["i:21885"] = 12,
 			},
 			["itemString"] = "i:31369",
@@ -564,19 +420,17 @@ TradeSkillMasterDB = {
 			["name"] = "君王鎧甲腰帶",
 			["numResult"] = 1,
 		},
-		["c:12320703"] = {
+		["c:8884320"] = {
 			["mats"] = {
-				["i:23448"] = 8,
-				["i:23572"] = 1,
-				["i:22456"] = 12,
-				["i:21886"] = 12,
+				["i:3486"] = 2,
+				["i:3859"] = 5,
 			},
-			["itemString"] = "i:31367",
+			["itemString"] = "i:6040",
 			["profession"] = "鍛造",
 			["players"] = {
 				["特變電工"] = true,
 			},
-			["name"] = "野性看守者護腿",
+			["name"] = "金鱗護腕",
 			["numResult"] = 1,
 		},
 		["c:6449499"] = {
@@ -685,16 +539,16 @@ TradeSkillMasterDB = {
 			["name"] = "緻密砂輪",
 			["numResult"] = 1,
 		},
-		["c:13806745"] = {
+		["c:12906691"] = {
 			["mats"] = {
-				["i:23445"] = 10,
+				["i:23445"] = 6,
 			},
-			["itemString"] = "i:23498",
+			["itemString"] = "i:25843",
 			["profession"] = "鍛造",
 			["players"] = {
 				["特變電工"] = true,
 			},
-			["name"] = "魔鐵錘",
+			["name"] = "魔鐵棒",
 			["numResult"] = 1,
 		},
 		["c:3372524"] = {
@@ -709,17 +563,20 @@ TradeSkillMasterDB = {
 			["name"] = "抗毒藥劑",
 			["numResult"] = 3,
 		},
-		["c:12321513"] = {
+		["c:2605226"] = {
 			["mats"] = {
-				["i:2840"] = 10,
+				["i:23447"] = 12,
+				["i:22452"] = 20,
+				["i:21884"] = 20,
+				["i:23449"] = 8,
 			},
-			["itemString"] = "i:2857",
+			["itemString"] = "i:28437",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "銅質符文腰帶",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "龍拳之錘",
+			["numResult"] = 1,
 		},
 		["c:9865260"] = {
 			["mats"] = {
@@ -803,43 +660,42 @@ TradeSkillMasterDB = {
 			["name"] = "銅質護腕",
 			["numResult"] = 1,
 		},
-		["c:15564495"] = {
+		["c:8834113"] = {
 			["mats"] = {
-				["i:23445"] = 5,
+				["i:2841"] = 6,
+				["i:2319"] = 1,
+				["i:3470"] = 2,
 			},
-			["itemString"] = "i:23491",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "魔鐵鍊甲手套",
-			["players"] = {
-				["特變電工"] = true,
-			},
-		},
-		["c:9328191"] = {
-			["mats"] = {
-				["i:2589"] = 2,
-			},
-			["itemString"] = "i:2581",
-			["profession"] = "急救",
-			["players"] = {
-				["特變電工"] = true,
-			},
-			["name"] = "厚亞麻繃帶",
-			["numResult"] = 1,
-		},
-		["c:7551670"] = {
-			["mats"] = {
-				["i:23573"] = 6,
-				["i:22451"] = 20,
-				["i:23449"] = 12,
-				["i:21885"] = 20,
-			},
-			["itemString"] = "i:28440",
+			["itemString"] = "i:29201",
 			["profession"] = "鍛造",
 			["players"] = {
 				["特變電工"] = true,
 			},
-			["name"] = "雷",
+			["name"] = "厚青銅飛鏢",
+			["numResult"] = 1,
+		},
+		["c:6609247"] = {
+			["mats"] = {
+				["i:23445"] = 4,
+			},
+			["itemString"] = "i:23493",
+			["profession"] = "鍛造",
+			["players"] = {
+				["特變電工"] = true,
+			},
+			["name"] = "魔鐵鍊甲罩盔",
+			["numResult"] = 1,
+		},
+		["c:10856636"] = {
+			["mats"] = {
+				["i:23445"] = 10,
+			},
+			["itemString"] = "i:23489",
+			["profession"] = "鍛造",
+			["players"] = {
+				["特變電工"] = true,
+			},
+			["name"] = "魔鐵胸甲",
 			["numResult"] = 1,
 		},
 		["c:12656007"] = {
@@ -883,20 +739,17 @@ TradeSkillMasterDB = {
 			["name"] = "綠鐵鍊衫",
 			["numResult"] = 1,
 		},
-		["c:6300088"] = {
+		["c:15564495"] = {
 			["mats"] = {
-				["i:3859"] = 5,
-				["i:7069"] = 2,
-				["i:3486"] = 2,
-				["i:4234"] = 1,
+				["i:23445"] = 5,
 			},
-			["itemString"] = "i:29202",
+			["itemString"] = "i:23491",
 			["profession"] = "鍛造",
+			["numResult"] = 1,
+			["name"] = "魔鐵鍊甲手套",
 			["players"] = {
 				["特變電工"] = true,
 			},
-			["name"] = "旋風鐵斧",
-			["numResult"] = 1,
 		},
 		["c:13194340"] = {
 			["mats"] = {
@@ -926,6 +779,33 @@ TradeSkillMasterDB = {
 			["name"] = "厚魔紋繃帶",
 			["numResult"] = 1,
 		},
+		["c:4992072"] = {
+			["mats"] = {
+				["i:23446"] = 1,
+				["i:21877"] = 2,
+			},
+			["itemString"] = "i:28421",
+			["profession"] = "鍛造",
+			["players"] = {
+				["特變電工"] = true,
+			},
+			["name"] = "堅鋼平衡石",
+			["numResult"] = 1,
+		},
+		["c:5573353"] = {
+			["mats"] = {
+				["i:3575"] = 12,
+				["i:2605"] = 1,
+				["i:3864"] = 1,
+			},
+			["itemString"] = "i:3836",
+			["profession"] = "鍛造",
+			["players"] = {
+				["特變電工"] = true,
+			},
+			["name"] = "綠鐵頭盔",
+			["numResult"] = 1,
+		},
 		["c:826900"] = {
 			["mats"] = {
 				["i:2840"] = 4,
@@ -938,49 +818,25 @@ TradeSkillMasterDB = {
 			["name"] = "劣質銅外衣",
 			["numResult"] = 1,
 		},
-		["c:8884320"] = {
+		["c:11614749"] = {
 			["mats"] = {
-				["i:3486"] = 2,
-				["i:3859"] = 5,
+				["i:2841"] = 7,
+				["i:2319"] = 1,
+				["i:2880"] = 4,
 			},
-			["itemString"] = "i:6040",
+			["itemString"] = "i:2849",
 			["profession"] = "鍛造",
 			["players"] = {
 				["特變電工"] = true,
 			},
-			["name"] = "金鱗護腕",
-			["numResult"] = 1,
-		},
-		["c:15377278"] = {
-			["mats"] = {
-				["i:22573"] = 1,
-				["i:23445"] = 1,
-			},
-			["itemString"] = "i:23528",
-			["profession"] = "鍛造",
-			["players"] = {
-				["特變電工"] = true,
-			},
-			["name"] = "惡魔磨刀石",
-			["numResult"] = 1,
-		},
-		["c:11895283"] = {
-			["mats"] = {
-				["i:2838"] = 1,
-			},
-			["itemString"] = "i:2871",
-			["profession"] = "鍛造",
-			["players"] = {
-				["特變電工"] = true,
-			},
-			["name"] = "重磨刀石",
+			["name"] = "青銅斧",
 			["numResult"] = 1,
 		},
 		["c:408691"] = {
 			["mats"] = {
+				["i:23572"] = 1,
 				["i:23448"] = 8,
 				["i:22456"] = 12,
-				["i:23572"] = 1,
 				["i:21886"] = 12,
 			},
 			["itemString"] = "i:31368",
@@ -1019,32 +875,31 @@ TradeSkillMasterDB = {
 			["name"] = "鍍銀青銅長靴",
 			["numResult"] = 1,
 		},
-		["c:8834113"] = {
+		["c:11895283"] = {
 			["mats"] = {
-				["i:2841"] = 6,
-				["i:2319"] = 1,
-				["i:3470"] = 2,
+				["i:2838"] = 1,
 			},
-			["itemString"] = "i:29201",
+			["itemString"] = "i:2871",
 			["profession"] = "鍛造",
 			["players"] = {
 				["特變電工"] = true,
 			},
-			["name"] = "厚青銅飛鏢",
+			["name"] = "重磨刀石",
 			["numResult"] = 1,
 		},
-		["c:5573353"] = {
+		["c:6300088"] = {
 			["mats"] = {
-				["i:3575"] = 12,
-				["i:2605"] = 1,
-				["i:3864"] = 1,
+				["i:3859"] = 5,
+				["i:7069"] = 2,
+				["i:3486"] = 2,
+				["i:4234"] = 1,
 			},
-			["itemString"] = "i:3836",
+			["itemString"] = "i:29202",
 			["profession"] = "鍛造",
 			["players"] = {
 				["特變電工"] = true,
 			},
-			["name"] = "綠鐵頭盔",
+			["name"] = "旋風鐵斧",
 			["numResult"] = 1,
 		},
 		["c:1390581"] = {
@@ -1088,6 +943,34 @@ TradeSkillMasterDB = {
 			["name"] = "銅質鍊甲腰帶",
 			["numResult"] = 1,
 		},
+		["c:7551670"] = {
+			["mats"] = {
+				["i:23573"] = 6,
+				["i:22451"] = 20,
+				["i:23449"] = 12,
+				["i:21885"] = 20,
+			},
+			["itemString"] = "i:28440",
+			["profession"] = "鍛造",
+			["players"] = {
+				["特變電工"] = true,
+			},
+			["name"] = "雷",
+			["numResult"] = 1,
+		},
+		["c:15377278"] = {
+			["mats"] = {
+				["i:22573"] = 1,
+				["i:23445"] = 1,
+			},
+			["itemString"] = "i:23528",
+			["profession"] = "鍛造",
+			["players"] = {
+				["特變電工"] = true,
+			},
+			["name"] = "惡魔磨刀石",
+			["numResult"] = 1,
+		},
 		["c:2017437"] = {
 			["mats"] = {
 				["i:7912"] = 1,
@@ -1099,31 +982,6 @@ TradeSkillMasterDB = {
 			},
 			["name"] = "堅固的磨刀石",
 			["numResult"] = 1,
-		},
-		["c:11200805"] = {
-			["mats"] = {
-				["i:3860"] = 12,
-			},
-			["itemString"] = "i:7920",
-			["profession"] = "鍛造",
-			["players"] = {
-				["特變電工"] = true,
-			},
-			["name"] = "秘銀鱗片便褲",
-			["numResult"] = 1,
-		},
-		["c:12524821"] = {
-			["mats"] = {
-				["i:12365"] = 1,
-				["i:14047"] = 1,
-			},
-			["itemString"] = "i:12643",
-			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "緻密平衡石",
-			["players"] = {
-				["特變電工"] = true,
-			},
 		},
 		["c:14286420"] = {
 			["mats"] = {
@@ -1164,31 +1022,28 @@ TradeSkillMasterDB = {
 			["name"] = "真銀棒",
 			["numResult"] = 1,
 		},
-		["c:11614749"] = {
+		["c:11200805"] = {
 			["mats"] = {
-				["i:2841"] = 7,
-				["i:2319"] = 1,
-				["i:2880"] = 4,
+				["i:3860"] = 12,
 			},
-			["itemString"] = "i:2849",
+			["itemString"] = "i:7920",
 			["profession"] = "鍛造",
 			["players"] = {
 				["特變電工"] = true,
 			},
-			["name"] = "青銅斧",
+			["name"] = "秘銀鱗片便褲",
 			["numResult"] = 1,
 		},
-		["c:11078462"] = {
+		["c:9328191"] = {
 			["mats"] = {
-				["i:2836"] = 1,
-				["i:2592"] = 1,
+				["i:2589"] = 2,
 			},
-			["itemString"] = "i:3240",
-			["profession"] = "鍛造",
+			["itemString"] = "i:2581",
+			["profession"] = "急救",
 			["players"] = {
 				["特變電工"] = true,
 			},
-			["name"] = "粗製平衡石",
+			["name"] = "厚亞麻繃帶",
 			["numResult"] = 1,
 		},
 		["c:11426238"] = {
@@ -1216,20 +1071,18 @@ TradeSkillMasterDB = {
 			["name"] = "魔鐵鎧甲長靴",
 			["numResult"] = 1,
 		},
-		["c:2605226"] = {
+		["c:12524821"] = {
 			["mats"] = {
-				["i:23447"] = 12,
-				["i:22452"] = 20,
-				["i:23449"] = 8,
-				["i:21884"] = 20,
+				["i:12365"] = 1,
+				["i:14047"] = 1,
 			},
-			["itemString"] = "i:28437",
+			["itemString"] = "i:12643",
 			["profession"] = "鍛造",
+			["numResult"] = 1,
+			["name"] = "緻密平衡石",
 			["players"] = {
 				["特變電工"] = true,
 			},
-			["name"] = "龍拳之錘",
-			["numResult"] = 1,
 		},
 		["c:2487814"] = {
 			["mats"] = {
@@ -1246,18 +1099,18 @@ TradeSkillMasterDB = {
 			["name"] = "重銅寬劍",
 			["numResult"] = 1,
 		},
-		["c:9368815"] = {
+		["c:11078462"] = {
 			["mats"] = {
-				["i:7966"] = 1,
-				["i:6037"] = 1,
+				["i:2836"] = 1,
+				["i:2592"] = 1,
 			},
-			["itemString"] = "i:15871",
+			["itemString"] = "i:3240",
 			["profession"] = "鍛造",
 			["players"] = {
 				["特變電工"] = true,
 			},
-			["name"] = "真銀骷髏鑰匙",
-			["numResult"] = 2,
+			["name"] = "粗製平衡石",
+			["numResult"] = 1,
 		},
 		["c:12860168"] = {
 			["mats"] = {
@@ -1274,16 +1127,16 @@ TradeSkillMasterDB = {
 			["name"] = "銅質巨刃劍",
 			["numResult"] = 1,
 		},
-		["c:15202378"] = {
+		["c:13806745"] = {
 			["mats"] = {
-				["i:2835"] = 1,
+				["i:23445"] = 10,
 			},
-			["itemString"] = "i:2862",
+			["itemString"] = "i:23498",
 			["profession"] = "鍛造",
 			["players"] = {
 				["特變電工"] = true,
 			},
-			["name"] = "劣質磨刀石",
+			["name"] = "魔鐵錘",
 			["numResult"] = 1,
 		},
 		["c:41600"] = {
@@ -1376,18 +1229,20 @@ TradeSkillMasterDB = {
 			["name"] = "銅質匕首",
 			["numResult"] = 1,
 		},
-		["c:5969898"] = {
+		["c:12320703"] = {
 			["mats"] = {
-				["i:7912"] = 1,
-				["i:4306"] = 1,
+				["i:22456"] = 12,
+				["i:23448"] = 8,
+				["i:23572"] = 1,
+				["i:21886"] = 12,
 			},
-			["itemString"] = "i:7965",
+			["itemString"] = "i:31367",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "堅固的平衡石",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "野性看守者護腿",
+			["numResult"] = 1,
 		},
 		["c:15554364"] = {
 			["mats"] = {
@@ -1405,27 +1260,23 @@ TradeSkillMasterDB = {
 			["name"] = "青銅匕首",
 			["numResult"] = 1,
 		},
-		["c:4813125"] = {
+		["c:3877196"] = {
 			["mats"] = {
-				["i:1705"] = 2,
-				["i:2841"] = 20,
-				["i:5500"] = 2,
-				["i:2842"] = 4,
-				["i:1206"] = 2,
+				["i:2836"] = 1,
 			},
-			["itemString"] = "i:2870",
+			["itemString"] = "i:2863",
 			["profession"] = "鍛造",
-			["numResult"] = 1,
-			["name"] = "銀鱗胸甲",
 			["players"] = {
 				["特變電工"] = true,
 			},
+			["name"] = "粗製磨刀石",
+			["numResult"] = 1,
 		},
 		["c:99645"] = {
 			["mats"] = {
+				["i:23449"] = 8,
 				["i:23572"] = 1,
 				["i:21884"] = 12,
-				["i:23449"] = 8,
 				["i:21885"] = 12,
 			},
 			["itemString"] = "i:31370",
@@ -1473,15 +1324,15 @@ TradeSkillMasterDB = {
 			["ilvl"] = 32,
 			["pct"] = 40,
 			["seller"] = 88,
-			["buyout"] = 115,
-			["bidPct"] = 40,
-			["itemBid"] = 115,
 			["item"] = 226,
-			["posts"] = 40,
-			["bid"] = 115,
+			["bidPct"] = 40,
 			["stack"] = 40,
-			["timeLeft"] = 26,
+			["buyout"] = 115,
+			["itemBid"] = 115,
+			["bid"] = 115,
 			["itemBuyout"] = 115,
+			["timeLeft"] = 26,
+			["posts"] = 40,
 		},
 		["colHidden"] = {
 			["bid"] = true,
@@ -1525,15 +1376,15 @@ TradeSkillMasterDB = {
 			["ilvl"] = 32,
 			["pct"] = 40,
 			["seller"] = 88,
-			["buyout"] = 115,
-			["bidPct"] = 40,
-			["itemBid"] = 115,
 			["item"] = 226,
-			["posts"] = 40,
-			["bid"] = 115,
+			["bidPct"] = 40,
 			["stack"] = 40,
-			["timeLeft"] = 26,
+			["buyout"] = 115,
+			["itemBid"] = 115,
+			["bid"] = 115,
 			["itemBuyout"] = 115,
+			["timeLeft"] = 26,
+			["posts"] = 40,
 		},
 		["colHidden"] = {
 			["bid"] = true,
@@ -1553,7 +1404,7 @@ TradeSkillMasterDB = {
 		["unselected"] = {
 		},
 	},
-	["r@伊弗斯@internalData@csvExpense"] = "type,amount,otherPlayer,player,time\nRepair Bill,28629,Merchant,邁克爾假死,1622989052\nRepair Bill,24251,Merchant,邁克爾假死,1623056249\nPostage,30,邁克爾假死,畜生犬隊長,1623081337\nPostage,390,畜生犬隊長,邁克爾假死,1623158842\nRepair Bill,44018,Merchant,邁克爾假死,1623220641\nPostage,120,畜生犬隊長,邁克爾假死,1624537591\nPostage,120,畜生犬隊長,邁克爾假死,1624724796\nRepair Bill,22983,Merchant,邁克爾假死,1624777967\nPostage,180,畜生犬隊長,邁克爾假死,1624807042\nPostage,240,畜生犬隊長,邁克爾假死,1624942893\nRepair Bill,20113,Merchant,邁克爾假死,1624965791\nPostage,120,畜生犬隊長,邁克爾假死,1624975720\nRepair Bill,40530,Merchant,邁克爾假死,1625044550\nRepair Bill,16355,Merchant,邁克爾假死,1625113249\nRepair Bill,32060,Merchant,邁克爾假死,1625137902\nRepair Bill,17698,Merchant,邁克爾假死,1625155203\nPostage,120,畜生犬隊長,邁克爾假死,1625199624\nRepair Bill,7581,Merchant,邁克爾假死,1625204859\nRepair Bill,8146,Merchant,邁克爾假死,1625248230\nRepair Bill,10710,Merchant,邁克爾假死,1625304969\nRepair Bill,10008,Merchant,邁克爾假死,1625313678\nRepair Bill,70814,Merchant,邁克爾假死,1625328599\nRepair Bill,15039,Merchant,邁克爾假死,1625382245\nPostage,210,畜生犬隊長,邁克爾假死,1625399154\nRepair Bill,157949,Merchant,邁克爾假死,1625410703\nRepair Bill,50186,Merchant,邁克爾假死,1625588733\nPostage,90,畜生犬隊長,邁克爾假死,1625829708\nRepair Bill,71557,Merchant,邁克爾假死,1625837731\nRepair Bill,3269,Merchant,邁克爾假死,1625853065\nRepair Bill,22200,Merchant,邁克爾假死,1625920373\nPostage,540,畜生犬隊長,邁克爾假死,1625922972\nRepair Bill,11586,Merchant,邁克爾假死,1625932148\nRepair Bill,3538,Merchant,邁克爾假死,1625938764\nRepair Bill,32727,Merchant,邁克爾假死,1626009356\nPostage,150,特變電工,邁克爾假死,1626026587\nMoney Transfer,10001000,特變電工,邁克爾假死,1626264935\nPostage,60,特變電工,邁克爾假死,1626264935\nPostage,30,特變電工,邁克爾假死,1626284482\nRepair Bill,9823,Merchant,特變電工,1626317037\nPostage,150,畜生犬隊長,特變電工,1626334805\nPostage,150,畜生犬隊長,特變電工,1626373474\nPostage,390,畜生犬隊長,特變電工,1626426974\nMoney Transfer,60000000,特變電工,邁克爾假死,1626461076\nPostage,30,特變電工,邁克爾假死,1626461076\nPostage,210,畜生犬隊長,特變電工,1626531701\nRepair Bill,26236,Merchant,特變電工,1626534599\nRepair Bill,13366,Merchant,特變電工,1626581499\nRepair Bill,6575,Merchant,特變電工,1626587671\nRepair Bill,24970,Merchant,特變電工,1626607846\nPostage,30,邁克爾假死,特變電工,1626612806\nRepair Bill,37985,Merchant,邁克爾假死,1626612921\nPostage,30,特變電工,邁克爾假死,1626618616\nRepair Bill,18166,Merchant,特變電工,1626663601\nRepair Bill,62455,Merchant,特變電工,1626687606\nPostage,30,邁克爾假死,特變電工,1626713602\nPostage,240,畜生犬隊長,特變電工,1626749861\nRepair Bill,6647,Merchant,特變電工,1626775222\nMoney Transfer,50000000,特變電工,邁克爾假死,1626787065\nPostage,30,特變電工,邁克爾假死,1626787065\nMoney Transfer,50000000,邁克爾假死,特變電工,1626789361\nPostage,30,邁克爾假死,特變電工,1626789361\nPostage,300,特變電工,邁克爾假死,1626790849\nPostage,90,特變電工,邁克爾假死,1626792108\nPostage,90,特變電工,邁克爾假死,1626793403\nPostage,270,特變電工,邁克爾假死,1626795856\nPostage,90,特變電工,邁克爾假死,1626801157\nPostage,270,邁克爾假死,特變電工,1626802332\nPostage,90,特變電工,邁克爾假死,1626803441\nRepair Bill,36074,Merchant,特變電工,1626859387\nRepair Bill,29155,Merchant,特變電工,1626868960\nRepair Bill,109750,Merchant,特變電工,1626890564\nPostage,150,畜生犬隊長,特變電工,1626952450\nRepair Bill,42968,Merchant,特變電工,1626963655\nRepair Bill,14730,Merchant,特變電工,1627067994\nMoney Transfer,16000000,特變電工,邁克爾假死,1627199046\nPostage,30,特變電工,邁克爾假死,1627199046\nPostage,30,特變電工,邁克爾假死,1627199452\nMoney Transfer,2000000,邁克爾假死,特變電工,1627217805\nRepair Bill,40792,Merchant,特變電工,1627396010\nRepair Bill,5234,Merchant,特變電工,1627401333\nRepair Bill,62007,Merchant,特變電工,1627458700\nPostage,150,畜生犬隊長,特變電工,1627485781\nRepair Bill,70580,Merchant,特變電工,1627542793\nRepair Bill,31822,Merchant,特變電工,1627552803\nRepair Bill,90006,Merchant,特變電工,1627565914\nRepair Bill,54968,Merchant,特變電工,1627626441\nPostage,120,特變電工,邁克爾假死,1627626540\nPostage,30,特變電工,邁克爾假死,1627631964\nRepair Bill,81244,Merchant,特變電工,1627651485\nPostage,240,老闆挺住,特變電工,1627731211\nRepair Bill,58547,Merchant,特變電工,1627810174\nRepair Bill,34270,Merchant,特變電工,1627836760\nRepair Bill,37465,Merchant,特變電工,1627926587\nRepair Bill,13072,Merchant,特變電工,1628009506\nRepair Bill,69522,Merchant,特變電工,1628314817\nRepair Bill,30909,Merchant,特變電工,1628351356\nRepair Bill,153410,Merchant,特變電工,1628442313\nRepair Bill,158751,Merchant,特變電工,1628532594\nRepair Bill,56697,Merchant,特變電工,1628610426\nRepair Bill,3063,Merchant,特變電工,1628614439\nMoney Transfer,106000000,特變電工,邁克爾假死,1628922137\nPostage,30,特變電工,邁克爾假死,1628922137\nRepair Bill,869,Merchant,特變電工,1628933001\nRepair Bill,148162,Merchant,特變電工,1628956332\nRepair Bill,6985,Merchant,特變電工,1628963428\nRepair Bill,3923,Merchant,特變電工,1630843767\nRepair Bill,167222,Merchant,特變電工,1630950492\nPostage,30,邁克爾假死,特變電工,1631026343\nRepair Bill,45950,Merchant,邁克爾假死,1631026402\nMoney Transfer,75000000,特變電工,邁克爾假死,1631118057\nPostage,90,特變電工,邁克爾假死,1631118057\nRepair Bill,41448,Merchant,特變電工,1631292318\nRepair Bill,15042,Merchant,特變電工,1631341176\nRepair Bill,2682,Merchant,特變電工,1631385200\nRepair Bill,16392,Merchant,特變電工,1631433974\nRepair Bill,809,Merchant,特變電工,1631442007\nRepair Bill,4119,Merchant,特變電工,1631458210\nRepair Bill,14899,Merchant,特變電工,1631541442\nRepair Bill,394,Merchant,特變電工,1631545694\nRepair Bill,154833,Merchant,特變電工,1631554206\nRepair Bill,7538,Merchant,特變電工,1631723672\nRepair Bill,25414,Merchant,特變電工,1632044210\nPostage,30,特變電工,邁克爾假死,1632051191\nRepair Bill,248006,Merchant,特變電工,1632064292\nRepair Bill,216005,Merchant,特變電工,1632069676\nRepair Bill,17242,Merchant,特變電工,1632151050\nRepair Bill,66636,Merchant,特變電工,1632157717\nRepair Bill,27324,Merchant,特變電工,1632213416\nRepair Bill,5443,Merchant,特變電工,1632249236\nPostage,60,邁克爾假死,特變電工,1632544937\nRepair Bill,87425,Merchant,邁克爾假死,1632557985\nMoney Transfer,106970000,特變電工,邁克爾假死,1632561471\nPostage,30,特變電工,邁克爾假死,1632561471\nRepair Bill,233996,Merchant,特變電工,1632587987\nRepair Bill,32712,Merchant,特變電工,1632926781\nRepair Bill,734,Merchant,特變電工,1633055554\nPostage,240,邁克爾假死,特變電工,1633085030\nRepair Bill,81116,Merchant,特變電工,1633144646\nPostage,300,邁克爾假死,特變電工,1633157573\nPostage,300,邁克爾假死,特變電工,1633160555\nRepair Bill,157665,Merchant,特變電工,1633184768\nRepair Bill,10296,Merchant,特變電工,1633198443\nRepair Bill,8912,Merchant,特變電工,1633242256\nRepair Bill,46626,Merchant,特變電工,1633325058\nRepair Bill,63953,Merchant,特變電工,1633363995\nRepair Bill,106751,Merchant,特變電工,1633430012\nRepair Bill,35164,Merchant,特變電工,1633500610\nRepair Bill,35060,Merchant,特變電工,1633606773\nRepair Bill,68932,Merchant,特變電工,1633855789\nRepair Bill,28687,Merchant,特變電工,1634056436\nRepair Bill,102734,Merchant,特變電工,1634373318\nRepair Bill,42127,Merchant,特變電工,1634440161\nRepair Bill,15587,Merchant,特變電工,1634465363\nRepair Bill,236108,Merchant,特變電工,1634481992\nRepair Bill,31879,Merchant,特變電工,1634571028\nRepair Bill,68970,Merchant,特變電工,1634962211\nRepair Bill,235392,Merchant,特變電工,1635007261\nRepair Bill,115791,Merchant,特變電工,1635089621\nRepair Bill,23414,Merchant,特變電工,1635183786\nRepair Bill,54310,Merchant,特變電工,1635352603\nRepair Bill,55592,Merchant,特變電工,1635567779\nRepair Bill,254874,Merchant,特變電工,1635610329\nRepair Bill,32817,Merchant,特變電工,1635776332\nRepair Bill,4974,Merchant,特變電工,1635871167\nRepair Bill,245656,Merchant,特變電工,1636199660\nRepair Bill,122675,Merchant,特變電工,1636260416\nRepair Bill,162938,Merchant,特變電工,1636298791\nRepair Bill,5461,Merchant,特變電工,1636477939\nRepair Bill,63904,Merchant,特變電工,1636793417\nRepair Bill,123761,Merchant,特變電工,1636814449\nRepair Bill,258222,Merchant,特變電工,1636903694\nMoney Transfer,12640000,终焉誓約,特變電工,1636908501\nRepair Bill,4868,Merchant,特變電工,1636908996\nRepair Bill,336719,Merchant,特變電工,1637496600\nRepair Bill,136868,Merchant,特變電工,1638100004\nRepair Bill,312732,Merchant,特變電工,1638628170\nRepair Bill,259670,Merchant,特變電工,1638707171\nRepair Bill,133362,Merchant,特變電工,1638971968\nRepair Bill,250956,Merchant,特變電工,1638715045\nRepair Bill,160983,Merchant,特變電工,1639233928\nRepair Bill,137050,Merchant,特變電工,1639310762\nRepair Bill,125724,Merchant,特變電工,1639578801\nRepair Bill,10572,Merchant,特變電工,1639667713\nRepair Bill,69028,Merchant,特變電工,1639841072\nRepair Bill,2723,Merchant,特變電工,1640410329\nRepair Bill,67739,Merchant,特變電工,1640440959\nRepair Bill,208802,Merchant,特變電工,1640701985\nRepair Bill,3566,Merchant,特變電工,1640411883\nRepair Bill,98662,Merchant,特變電工,1640408888\nRepair Bill,154886,Merchant,特變電工,1639836533\nRepair Bill,415402,Merchant,特變電工,1639321745\nRepair Bill,38202,Merchant,特變電工,1639235095\nRepair Bill,146891,Merchant,特變電工,1639226883\nRepair Bill,56865,Merchant,特變電工,1638630077\nRepair Bill,177663,Merchant,特變電工,1638369513\nRepair Bill,342826,Merchant,特變電工,1637507309\nRepair Bill,14038,Merchant,特變電工,1637382155\nPostage,30,终焉誓約,特變電工,1636908501\nRepair Bill,122078,Merchant,特變電工,1636906477\nRepair Bill,253512,Merchant,特變電工,1636821626\nRepair Bill,162225,Merchant,特變電工,1636811976\nRepair Bill,14363,Merchant,特變電工,1636792840\nRepair Bill,51009,Merchant,特變電工,1636472704\nRepair Bill,181957,Merchant,特變電工,1636293753\nRepair Bill,150059,Merchant,特變電工,1636210168\nRepair Bill,58468,Merchant,特變電工,1636043124\nRepair Bill,60129,Merchant,特變電工,1635868236\nRepair Bill,219888,Merchant,特變電工,1635696575\nRepair Bill,231868,Merchant,特變電工,1635595483\nRepair Bill,15298,Merchant,特變電工,1635430416\nRepair Bill,15776,Merchant,特變電工,1635261867\nRepair Bill,38123,Merchant,特變電工,1635174091\nRepair Bill,248104,Merchant,特變電工,1635077237\nRepair Bill,62914,Merchant,特變電工,1634984545\nRepair Bill,11066,Merchant,特變電工,1634654966\nRepair Bill,74646,Merchant,特變電工,1634484063\nRepair Bill,23507,Merchant,特變電工,1634471980\nRepair Bill,41688,Merchant,特變電工,1634459774\nRepair Bill,136146,Merchant,特變電工,1634397055\nRepair Bill,804,Merchant,特變電工,1634133692\nRepair Bill,290227,Merchant,特變電工,1633878933\nRepair Bill,29214,Merchant,特變電工,1633615777\nRepair Bill,13346,Merchant,特變電工,1633509473\nPostage,420,邁克爾假死,特變電工,1633430037\nRepair Bill,69924,Merchant,特變電工,1633415696\nRepair Bill,13143,Merchant,特變電工,1633336901\nRepair Bill,275279,Merchant,特變電工,1633275600\nRepair Bill,12921,Merchant,特變電工,1633239563\nRepair Bill,243166,Merchant,特變電工,1633194735\nRepair Bill,36993,Merchant,特變電工,1633175531\nRepair Bill,62312,Merchant,特變電工,1633160444\nPostage,90,邁克爾假死,特變電工,1633144714\nPostage,120,邁克爾假死,特變電工,1633089237\nRepair Bill,28818,Merchant,特變電工,1633072849\nRepair Bill,12957,Merchant,特變電工,1632933860\nRepair Bill,226659,Merchant,特變電工,1632579997\nRepair Bill,27554,Merchant,邁克爾假死,1632561016\nMoney Transfer,110011000,邁克爾假死,特變電工,1632544937\nRepair Bill,15603,Merchant,特變電工,1632244439\nRepair Bill,4155,Merchant,特變電工,1632200051\nRepair Bill,5183,Merchant,特變電工,1632153675\nRepair Bill,4488,Merchant,特變電工,1632071360\nRepair Bill,61862,Merchant,特變電工,1632065820\nMoney Transfer,100000000,特變電工,邁克爾假死,1632051191\nRepair Bill,877,Merchant,特變電工,1632030025\nRepair Bill,42325,Merchant,特變電工,1631720111\nRepair Bill,3136,Merchant,特變電工,1631546683\nRepair Bill,4077,Merchant,特變電工,1631544311\nRepair Bill,7299,Merchant,特變電工,1631460442\nRepair Bill,76569,Merchant,特變電工,1631456925\nRepair Bill,20012,Merchant,特變電工,1631441438\nRepair Bill,351,Merchant,特變電工,1631421893\nRepair Bill,10149,Merchant,特變電工,1631383559\nRepair Bill,14092,Merchant,特變電工,1631333684\nPostage,270,邁克爾假死,特變電工,1631118785\nRepair Bill,20192,Merchant,邁克爾假死,1631117221\nMoney Transfer,70000000,邁克爾假死,特變電工,1631026343\nRepair Bill,16520,Merchant,特變電工,1630940314\nRepair Bill,167887,Merchant,特變電工,1630735032\nRepair Bill,9812,Merchant,特變電工,1628958554\nRepair Bill,112603,Merchant,特變電工,1628949659\nRepair Bill,77006,Merchant,特變電工,1628931142\nRepair Bill,24597,Merchant,特變電工,1628876785\nRepair Bill,1466,Merchant,特變電工,1628612616\nRepair Bill,59930,Merchant,特變電工,1628535607\nRepair Bill,6840,Merchant,特變電工,1628525001\nRepair Bill,52163,Merchant,特變電工,1628414054\nRepair Bill,30585,Merchant,特變電工,1628333004\nRepair Bill,35132,Merchant,特變電工,1628261932\nRepair Bill,6856,Merchant,特變電工,1627928898\nRepair Bill,9017,Merchant,特變電工,1627916555\nRepair Bill,96291,Merchant,特變電工,1627818965\nRepair Bill,54050,Merchant,特變電工,1627748320\nRepair Bill,50673,Merchant,特變電工,1627717191\nMoney Transfer,100000000,特變電工,邁克爾假死,1627631964\nRepair Bill,39038,Merchant,特變電工,1627569077\nRepair Bill,80254,Merchant,特變電工,1627558257\nRepair Bill,1381,Merchant,特變電工,1627548875\nRepair Bill,103656,Merchant,特變電工,1627492361\nRepair Bill,36164,Merchant,特變電工,1627483644\nRepair Bill,108541,Merchant,特變電工,1627412736\nRepair Bill,43355,Merchant,特變電工,1627398533\nPostage,30,邁克爾假死,特變電工,1627217805\nMoney Transfer,5300000,特變電工,邁克爾假死,1627199452\nRepair Bill,59905,Merchant,特變電工,1627194966\nRepair Bill,33295,Merchant,特變電工,1627032213\nRepair Bill,47017,Merchant,特變電工,1626952521\nRepair Bill,1995,Merchant,特變電工,1626891878\nRepair Bill,1309,Merchant,特變電工,1626877577\nPostage,60,畜生犬隊長,特變電工,1626868883\nRepair Bill,55004,Merchant,特變電工,1626841745\nPostage,30,特變電工,邁克爾假死,1626803086\nPostage,60,特變電工,邁克爾假死,1626802197\nRepair Bill,55345,Merchant,邁克爾假死,1626800682\nRepair Bill,36000,Merchant,特變電工,1626795589\nPostage,90,特變電工,邁克爾假死,1626793064\nPostage,270,特變電工,邁克爾假死,1626791491\nPostage,90,特變電工,邁克爾假死,1626789544\nPostage,330,畜生犬隊長,特變電工,1626789307\nPostage,360,畜生犬隊長,特變電工,1626786183\nRepair Bill,19194,Merchant,特變電工,1626771172\nMoney Transfer,5000000,邁克爾假死,特變電工,1626713602\nPostage,240,畜生犬隊長,特變電工,1626683454\nRepair Bill,23333,Merchant,特變電工,1626628945\nMoney Transfer,85000000,特變電工,邁克爾假死,1626618616\nMoney Transfer,62000000,邁克爾假死,特變電工,1626612806\nPostage,180,畜生犬隊長,特變電工,1626607791\nPostage,270,畜生犬隊長,特變電工,1626585172\nPostage,150,畜生犬隊長,特變電工,1626544572\nRepair Bill,81372,Merchant,特變電工,1626531719\nRepair Bill,16100,Merchant,特變電工,1626507792\nRepair Bill,29184,Merchant,特變電工,1626427010\nRepair Bill,25526,Merchant,特變電工,1626373558\nRepair Bill,19046,Merchant,特變電工,1626343583\nRepair Bill,17387,Merchant,特變電工,1626331454\nPostage,390,特變電工,畜生犬隊長,1626316413\nPostage,180,畜生犬隊長,特變電工,1626277987\nMoney Transfer,1000100,特變電工,邁克爾假死,1626026587\nRepair Bill,2496,Merchant,邁克爾假死,1625939701\nRepair Bill,12020,Merchant,邁克爾假死,1625936372\nRepair Bill,3969,Merchant,邁克爾假死,1625924445\nRepair Bill,26152,Merchant,邁克爾假死,1625922914\nRepair Bill,76809,Merchant,邁克爾假死,1625902040\nRepair Bill,5204,Merchant,邁克爾假死,1625840374\nRepair Bill,50427,Merchant,邁克爾假死,1625830226\nRepair Bill,54088,Merchant,邁克爾假死,1625419570\nRepair Bill,7466,Merchant,邁克爾假死,1625401330\nRepair Bill,120879,Merchant,邁克爾假死,1625392882\nRepair Bill,90378,Merchant,邁克爾假死,1625333121\nRepair Bill,21391,Merchant,邁克爾假死,1625316722\nPostage,180,畜生犬隊長,邁克爾假死,1625313667\nRepair Bill,35879,Merchant,邁克爾假死,1625286658\nRepair Bill,53094,Merchant,邁克爾假死,1625215331\nRepair Bill,21021,Merchant,邁克爾假死,1625199608\nRepair Bill,17145,Merchant,邁克爾假死,1625152101\nPostage,120,畜生犬隊長,邁克爾假死,1625125802\nRepair Bill,10085,Merchant,邁克爾假死,1625052082\nRepair Bill,14795,Merchant,邁克爾假死,1625024272\nRepair Bill,7787,Merchant,邁克爾假死,1624970140\nRepair Bill,20978,Merchant,邁克爾假死,1624950821\nRepair Bill,72937,Merchant,邁克爾假死,1624807059\nPostage,270,畜生犬隊長,邁克爾假死,1624785890\nRepair Bill,5569,Merchant,邁克爾假死,1624774243\nRepair Bill,32411,Merchant,邁克爾假死,1624724738\nPostage,240,畜生犬隊長,邁克爾假死,1623231158\nPostage,120,畜生犬隊長,邁克爾假死,1623163660\nPostage,600,畜生犬隊長,邁克爾假死,1623086536\nPostage,420,畜生犬隊長,邁克爾假死,1623081169\nPostage,270,畜生犬隊長,邁克爾假死,1623056064\nRepair Bill,32273,Merchant,邁克爾假死,1622967385\nRepair Bill,122728,Merchant,邁克爾假死,1622909219",
+	["r@伊弗斯@internalData@csvExpense"] = "type,amount,otherPlayer,player,time\nRepair Bill,28629,Merchant,邁克爾假死,1622989052\nRepair Bill,24251,Merchant,邁克爾假死,1623056249\nPostage,30,邁克爾假死,畜生犬隊長,1623081337\nPostage,390,畜生犬隊長,邁克爾假死,1623158842\nRepair Bill,44018,Merchant,邁克爾假死,1623220641\nPostage,120,畜生犬隊長,邁克爾假死,1624537591\nPostage,120,畜生犬隊長,邁克爾假死,1624724796\nRepair Bill,22983,Merchant,邁克爾假死,1624777967\nPostage,180,畜生犬隊長,邁克爾假死,1624807042\nPostage,240,畜生犬隊長,邁克爾假死,1624942893\nRepair Bill,20113,Merchant,邁克爾假死,1624965791\nPostage,120,畜生犬隊長,邁克爾假死,1624975720\nRepair Bill,40530,Merchant,邁克爾假死,1625044550\nRepair Bill,16355,Merchant,邁克爾假死,1625113249\nRepair Bill,32060,Merchant,邁克爾假死,1625137902\nRepair Bill,17698,Merchant,邁克爾假死,1625155203\nPostage,120,畜生犬隊長,邁克爾假死,1625199624\nRepair Bill,7581,Merchant,邁克爾假死,1625204859\nRepair Bill,8146,Merchant,邁克爾假死,1625248230\nRepair Bill,10710,Merchant,邁克爾假死,1625304969\nRepair Bill,10008,Merchant,邁克爾假死,1625313678\nRepair Bill,70814,Merchant,邁克爾假死,1625328599\nRepair Bill,15039,Merchant,邁克爾假死,1625382245\nPostage,210,畜生犬隊長,邁克爾假死,1625399154\nRepair Bill,157949,Merchant,邁克爾假死,1625410703\nRepair Bill,50186,Merchant,邁克爾假死,1625588733\nPostage,90,畜生犬隊長,邁克爾假死,1625829708\nRepair Bill,71557,Merchant,邁克爾假死,1625837731\nRepair Bill,3269,Merchant,邁克爾假死,1625853065\nRepair Bill,22200,Merchant,邁克爾假死,1625920373\nPostage,540,畜生犬隊長,邁克爾假死,1625922972\nRepair Bill,11586,Merchant,邁克爾假死,1625932148\nRepair Bill,3538,Merchant,邁克爾假死,1625938764\nRepair Bill,32727,Merchant,邁克爾假死,1626009356\nPostage,150,特變電工,邁克爾假死,1626026587\nMoney Transfer,10001000,特變電工,邁克爾假死,1626264935\nPostage,60,特變電工,邁克爾假死,1626264935\nPostage,30,特變電工,邁克爾假死,1626284482\nRepair Bill,9823,Merchant,特變電工,1626317037\nPostage,150,畜生犬隊長,特變電工,1626334805\nPostage,150,畜生犬隊長,特變電工,1626373474\nPostage,390,畜生犬隊長,特變電工,1626426974\nMoney Transfer,60000000,特變電工,邁克爾假死,1626461076\nPostage,30,特變電工,邁克爾假死,1626461076\nPostage,210,畜生犬隊長,特變電工,1626531701\nRepair Bill,26236,Merchant,特變電工,1626534599\nRepair Bill,13366,Merchant,特變電工,1626581499\nRepair Bill,6575,Merchant,特變電工,1626587671\nRepair Bill,24970,Merchant,特變電工,1626607846\nPostage,30,邁克爾假死,特變電工,1626612806\nRepair Bill,37985,Merchant,邁克爾假死,1626612921\nPostage,30,特變電工,邁克爾假死,1626618616\nRepair Bill,18166,Merchant,特變電工,1626663601\nRepair Bill,62455,Merchant,特變電工,1626687606\nPostage,30,邁克爾假死,特變電工,1626713602\nPostage,240,畜生犬隊長,特變電工,1626749861\nRepair Bill,6647,Merchant,特變電工,1626775222\nMoney Transfer,50000000,特變電工,邁克爾假死,1626787065\nPostage,30,特變電工,邁克爾假死,1626787065\nMoney Transfer,50000000,邁克爾假死,特變電工,1626789361\nPostage,30,邁克爾假死,特變電工,1626789361\nPostage,300,特變電工,邁克爾假死,1626790849\nPostage,90,特變電工,邁克爾假死,1626792108\nPostage,90,特變電工,邁克爾假死,1626793403\nPostage,270,特變電工,邁克爾假死,1626795856\nPostage,90,特變電工,邁克爾假死,1626801157\nPostage,270,邁克爾假死,特變電工,1626802332\nPostage,90,特變電工,邁克爾假死,1626803441\nRepair Bill,36074,Merchant,特變電工,1626859387\nRepair Bill,29155,Merchant,特變電工,1626868960\nRepair Bill,109750,Merchant,特變電工,1626890564\nPostage,150,畜生犬隊長,特變電工,1626952450\nRepair Bill,42968,Merchant,特變電工,1626963655\nRepair Bill,14730,Merchant,特變電工,1627067994\nMoney Transfer,16000000,特變電工,邁克爾假死,1627199046\nPostage,30,特變電工,邁克爾假死,1627199046\nPostage,30,特變電工,邁克爾假死,1627199452\nMoney Transfer,2000000,邁克爾假死,特變電工,1627217805\nRepair Bill,40792,Merchant,特變電工,1627396010\nRepair Bill,5234,Merchant,特變電工,1627401333\nRepair Bill,62007,Merchant,特變電工,1627458700\nPostage,150,畜生犬隊長,特變電工,1627485781\nRepair Bill,70580,Merchant,特變電工,1627542793\nRepair Bill,31822,Merchant,特變電工,1627552803\nRepair Bill,90006,Merchant,特變電工,1627565914\nRepair Bill,54968,Merchant,特變電工,1627626441\nPostage,120,特變電工,邁克爾假死,1627626540\nPostage,30,特變電工,邁克爾假死,1627631964\nRepair Bill,81244,Merchant,特變電工,1627651485\nPostage,240,老闆挺住,特變電工,1627731211\nRepair Bill,58547,Merchant,特變電工,1627810174\nRepair Bill,34270,Merchant,特變電工,1627836760\nRepair Bill,37465,Merchant,特變電工,1627926587\nRepair Bill,13072,Merchant,特變電工,1628009506\nRepair Bill,69522,Merchant,特變電工,1628314817\nRepair Bill,30909,Merchant,特變電工,1628351356\nRepair Bill,153410,Merchant,特變電工,1628442313\nRepair Bill,158751,Merchant,特變電工,1628532594\nRepair Bill,56697,Merchant,特變電工,1628610426\nRepair Bill,3063,Merchant,特變電工,1628614439\nMoney Transfer,106000000,特變電工,邁克爾假死,1628922137\nPostage,30,特變電工,邁克爾假死,1628922137\nRepair Bill,869,Merchant,特變電工,1628933001\nRepair Bill,148162,Merchant,特變電工,1628956332\nRepair Bill,6985,Merchant,特變電工,1628963428\nRepair Bill,3923,Merchant,特變電工,1630843767\nRepair Bill,167222,Merchant,特變電工,1630950492\nPostage,30,邁克爾假死,特變電工,1631026343\nRepair Bill,45950,Merchant,邁克爾假死,1631026402\nMoney Transfer,75000000,特變電工,邁克爾假死,1631118057\nPostage,90,特變電工,邁克爾假死,1631118057\nRepair Bill,41448,Merchant,特變電工,1631292318\nRepair Bill,15042,Merchant,特變電工,1631341176\nRepair Bill,2682,Merchant,特變電工,1631385200\nRepair Bill,16392,Merchant,特變電工,1631433974\nRepair Bill,809,Merchant,特變電工,1631442007\nRepair Bill,4119,Merchant,特變電工,1631458210\nRepair Bill,14899,Merchant,特變電工,1631541442\nRepair Bill,394,Merchant,特變電工,1631545694\nRepair Bill,154833,Merchant,特變電工,1631554206\nRepair Bill,7538,Merchant,特變電工,1631723672\nRepair Bill,25414,Merchant,特變電工,1632044210\nPostage,30,特變電工,邁克爾假死,1632051191\nRepair Bill,248006,Merchant,特變電工,1632064292\nRepair Bill,216005,Merchant,特變電工,1632069676\nRepair Bill,17242,Merchant,特變電工,1632151050\nRepair Bill,66636,Merchant,特變電工,1632157717\nRepair Bill,27324,Merchant,特變電工,1632213416\nRepair Bill,5443,Merchant,特變電工,1632249236\nPostage,60,邁克爾假死,特變電工,1632544937\nRepair Bill,87425,Merchant,邁克爾假死,1632557985\nMoney Transfer,106970000,特變電工,邁克爾假死,1632561471\nPostage,30,特變電工,邁克爾假死,1632561471\nRepair Bill,233996,Merchant,特變電工,1632587987\nRepair Bill,32712,Merchant,特變電工,1632926781\nRepair Bill,734,Merchant,特變電工,1633055554\nPostage,240,邁克爾假死,特變電工,1633085030\nRepair Bill,81116,Merchant,特變電工,1633144646\nPostage,300,邁克爾假死,特變電工,1633157573\nPostage,300,邁克爾假死,特變電工,1633160555\nRepair Bill,157665,Merchant,特變電工,1633184768\nRepair Bill,10296,Merchant,特變電工,1633198443\nRepair Bill,8912,Merchant,特變電工,1633242256\nRepair Bill,46626,Merchant,特變電工,1633325058\nRepair Bill,63953,Merchant,特變電工,1633363995\nRepair Bill,106751,Merchant,特變電工,1633430012\nRepair Bill,35164,Merchant,特變電工,1633500610\nRepair Bill,35060,Merchant,特變電工,1633606773\nRepair Bill,68932,Merchant,特變電工,1633855789\nRepair Bill,28687,Merchant,特變電工,1634056436\nRepair Bill,102734,Merchant,特變電工,1634373318\nRepair Bill,42127,Merchant,特變電工,1634440161\nRepair Bill,15587,Merchant,特變電工,1634465363\nRepair Bill,236108,Merchant,特變電工,1634481992\nRepair Bill,31879,Merchant,特變電工,1634571028\nRepair Bill,68970,Merchant,特變電工,1634962211\nRepair Bill,235392,Merchant,特變電工,1635007261\nRepair Bill,115791,Merchant,特變電工,1635089621\nRepair Bill,23414,Merchant,特變電工,1635183786\nRepair Bill,54310,Merchant,特變電工,1635352603\nRepair Bill,55592,Merchant,特變電工,1635567779\nRepair Bill,254874,Merchant,特變電工,1635610329\nRepair Bill,32817,Merchant,特變電工,1635776332\nRepair Bill,4974,Merchant,特變電工,1635871167\nRepair Bill,245656,Merchant,特變電工,1636199660\nRepair Bill,122675,Merchant,特變電工,1636260416\nRepair Bill,162938,Merchant,特變電工,1636298791\nRepair Bill,5461,Merchant,特變電工,1636477939\nRepair Bill,63904,Merchant,特變電工,1636793417\nRepair Bill,123761,Merchant,特變電工,1636814449\nRepair Bill,258222,Merchant,特變電工,1636903694\nMoney Transfer,12640000,终焉誓約,特變電工,1636908501\nRepair Bill,4868,Merchant,特變電工,1636908996\nRepair Bill,336719,Merchant,特變電工,1637496600\nRepair Bill,136868,Merchant,特變電工,1638100004\nRepair Bill,312732,Merchant,特變電工,1638628170\nRepair Bill,259670,Merchant,特變電工,1638707171\nRepair Bill,133362,Merchant,特變電工,1638971968\nRepair Bill,250956,Merchant,特變電工,1638715045\nRepair Bill,160983,Merchant,特變電工,1639233928\nRepair Bill,137050,Merchant,特變電工,1639310762\nRepair Bill,125724,Merchant,特變電工,1639578801\nRepair Bill,10572,Merchant,特變電工,1639667713\nRepair Bill,69028,Merchant,特變電工,1639841072\nRepair Bill,2723,Merchant,特變電工,1640410329\nRepair Bill,67739,Merchant,特變電工,1640440959\nRepair Bill,298897,Merchant,特變電工,1641045151\nRepair Bill,208802,Merchant,特變電工,1640701985\nRepair Bill,3566,Merchant,特變電工,1640411883\nRepair Bill,98662,Merchant,特變電工,1640408888\nRepair Bill,154886,Merchant,特變電工,1639836533\nRepair Bill,415402,Merchant,特變電工,1639321745\nRepair Bill,38202,Merchant,特變電工,1639235095\nRepair Bill,146891,Merchant,特變電工,1639226883\nRepair Bill,56865,Merchant,特變電工,1638630077\nRepair Bill,177663,Merchant,特變電工,1638369513\nRepair Bill,342826,Merchant,特變電工,1637507309\nRepair Bill,14038,Merchant,特變電工,1637382155\nPostage,30,终焉誓約,特變電工,1636908501\nRepair Bill,122078,Merchant,特變電工,1636906477\nRepair Bill,253512,Merchant,特變電工,1636821626\nRepair Bill,162225,Merchant,特變電工,1636811976\nRepair Bill,14363,Merchant,特變電工,1636792840\nRepair Bill,51009,Merchant,特變電工,1636472704\nRepair Bill,181957,Merchant,特變電工,1636293753\nRepair Bill,150059,Merchant,特變電工,1636210168\nRepair Bill,58468,Merchant,特變電工,1636043124\nRepair Bill,60129,Merchant,特變電工,1635868236\nRepair Bill,219888,Merchant,特變電工,1635696575\nRepair Bill,231868,Merchant,特變電工,1635595483\nRepair Bill,15298,Merchant,特變電工,1635430416\nRepair Bill,15776,Merchant,特變電工,1635261867\nRepair Bill,38123,Merchant,特變電工,1635174091\nRepair Bill,248104,Merchant,特變電工,1635077237\nRepair Bill,62914,Merchant,特變電工,1634984545\nRepair Bill,11066,Merchant,特變電工,1634654966\nRepair Bill,74646,Merchant,特變電工,1634484063\nRepair Bill,23507,Merchant,特變電工,1634471980\nRepair Bill,41688,Merchant,特變電工,1634459774\nRepair Bill,136146,Merchant,特變電工,1634397055\nRepair Bill,804,Merchant,特變電工,1634133692\nRepair Bill,290227,Merchant,特變電工,1633878933\nRepair Bill,29214,Merchant,特變電工,1633615777\nRepair Bill,13346,Merchant,特變電工,1633509473\nPostage,420,邁克爾假死,特變電工,1633430037\nRepair Bill,69924,Merchant,特變電工,1633415696\nRepair Bill,13143,Merchant,特變電工,1633336901\nRepair Bill,275279,Merchant,特變電工,1633275600\nRepair Bill,12921,Merchant,特變電工,1633239563\nRepair Bill,243166,Merchant,特變電工,1633194735\nRepair Bill,36993,Merchant,特變電工,1633175531\nRepair Bill,62312,Merchant,特變電工,1633160444\nPostage,90,邁克爾假死,特變電工,1633144714\nPostage,120,邁克爾假死,特變電工,1633089237\nRepair Bill,28818,Merchant,特變電工,1633072849\nRepair Bill,12957,Merchant,特變電工,1632933860\nRepair Bill,226659,Merchant,特變電工,1632579997\nRepair Bill,27554,Merchant,邁克爾假死,1632561016\nMoney Transfer,110011000,邁克爾假死,特變電工,1632544937\nRepair Bill,15603,Merchant,特變電工,1632244439\nRepair Bill,4155,Merchant,特變電工,1632200051\nRepair Bill,5183,Merchant,特變電工,1632153675\nRepair Bill,4488,Merchant,特變電工,1632071360\nRepair Bill,61862,Merchant,特變電工,1632065820\nMoney Transfer,100000000,特變電工,邁克爾假死,1632051191\nRepair Bill,877,Merchant,特變電工,1632030025\nRepair Bill,42325,Merchant,特變電工,1631720111\nRepair Bill,3136,Merchant,特變電工,1631546683\nRepair Bill,4077,Merchant,特變電工,1631544311\nRepair Bill,7299,Merchant,特變電工,1631460442\nRepair Bill,76569,Merchant,特變電工,1631456925\nRepair Bill,20012,Merchant,特變電工,1631441438\nRepair Bill,351,Merchant,特變電工,1631421893\nRepair Bill,10149,Merchant,特變電工,1631383559\nRepair Bill,14092,Merchant,特變電工,1631333684\nPostage,270,邁克爾假死,特變電工,1631118785\nRepair Bill,20192,Merchant,邁克爾假死,1631117221\nMoney Transfer,70000000,邁克爾假死,特變電工,1631026343\nRepair Bill,16520,Merchant,特變電工,1630940314\nRepair Bill,167887,Merchant,特變電工,1630735032\nRepair Bill,9812,Merchant,特變電工,1628958554\nRepair Bill,112603,Merchant,特變電工,1628949659\nRepair Bill,77006,Merchant,特變電工,1628931142\nRepair Bill,24597,Merchant,特變電工,1628876785\nRepair Bill,1466,Merchant,特變電工,1628612616\nRepair Bill,59930,Merchant,特變電工,1628535607\nRepair Bill,6840,Merchant,特變電工,1628525001\nRepair Bill,52163,Merchant,特變電工,1628414054\nRepair Bill,30585,Merchant,特變電工,1628333004\nRepair Bill,35132,Merchant,特變電工,1628261932\nRepair Bill,6856,Merchant,特變電工,1627928898\nRepair Bill,9017,Merchant,特變電工,1627916555\nRepair Bill,96291,Merchant,特變電工,1627818965\nRepair Bill,54050,Merchant,特變電工,1627748320\nRepair Bill,50673,Merchant,特變電工,1627717191\nMoney Transfer,100000000,特變電工,邁克爾假死,1627631964\nRepair Bill,39038,Merchant,特變電工,1627569077\nRepair Bill,80254,Merchant,特變電工,1627558257\nRepair Bill,1381,Merchant,特變電工,1627548875\nRepair Bill,103656,Merchant,特變電工,1627492361\nRepair Bill,36164,Merchant,特變電工,1627483644\nRepair Bill,108541,Merchant,特變電工,1627412736\nRepair Bill,43355,Merchant,特變電工,1627398533\nPostage,30,邁克爾假死,特變電工,1627217805\nMoney Transfer,5300000,特變電工,邁克爾假死,1627199452\nRepair Bill,59905,Merchant,特變電工,1627194966\nRepair Bill,33295,Merchant,特變電工,1627032213\nRepair Bill,47017,Merchant,特變電工,1626952521\nRepair Bill,1995,Merchant,特變電工,1626891878\nRepair Bill,1309,Merchant,特變電工,1626877577\nPostage,60,畜生犬隊長,特變電工,1626868883\nRepair Bill,55004,Merchant,特變電工,1626841745\nPostage,30,特變電工,邁克爾假死,1626803086\nPostage,60,特變電工,邁克爾假死,1626802197\nRepair Bill,55345,Merchant,邁克爾假死,1626800682\nRepair Bill,36000,Merchant,特變電工,1626795589\nPostage,90,特變電工,邁克爾假死,1626793064\nPostage,270,特變電工,邁克爾假死,1626791491\nPostage,90,特變電工,邁克爾假死,1626789544\nPostage,330,畜生犬隊長,特變電工,1626789307\nPostage,360,畜生犬隊長,特變電工,1626786183\nRepair Bill,19194,Merchant,特變電工,1626771172\nMoney Transfer,5000000,邁克爾假死,特變電工,1626713602\nPostage,240,畜生犬隊長,特變電工,1626683454\nRepair Bill,23333,Merchant,特變電工,1626628945\nMoney Transfer,85000000,特變電工,邁克爾假死,1626618616\nMoney Transfer,62000000,邁克爾假死,特變電工,1626612806\nPostage,180,畜生犬隊長,特變電工,1626607791\nPostage,270,畜生犬隊長,特變電工,1626585172\nPostage,150,畜生犬隊長,特變電工,1626544572\nRepair Bill,81372,Merchant,特變電工,1626531719\nRepair Bill,16100,Merchant,特變電工,1626507792\nRepair Bill,29184,Merchant,特變電工,1626427010\nRepair Bill,25526,Merchant,特變電工,1626373558\nRepair Bill,19046,Merchant,特變電工,1626343583\nRepair Bill,17387,Merchant,特變電工,1626331454\nPostage,390,特變電工,畜生犬隊長,1626316413\nPostage,180,畜生犬隊長,特變電工,1626277987\nMoney Transfer,1000100,特變電工,邁克爾假死,1626026587\nRepair Bill,2496,Merchant,邁克爾假死,1625939701\nRepair Bill,12020,Merchant,邁克爾假死,1625936372\nRepair Bill,3969,Merchant,邁克爾假死,1625924445\nRepair Bill,26152,Merchant,邁克爾假死,1625922914\nRepair Bill,76809,Merchant,邁克爾假死,1625902040\nRepair Bill,5204,Merchant,邁克爾假死,1625840374\nRepair Bill,50427,Merchant,邁克爾假死,1625830226\nRepair Bill,54088,Merchant,邁克爾假死,1625419570\nRepair Bill,7466,Merchant,邁克爾假死,1625401330\nRepair Bill,120879,Merchant,邁克爾假死,1625392882\nRepair Bill,90378,Merchant,邁克爾假死,1625333121\nRepair Bill,21391,Merchant,邁克爾假死,1625316722\nPostage,180,畜生犬隊長,邁克爾假死,1625313667\nRepair Bill,35879,Merchant,邁克爾假死,1625286658\nRepair Bill,53094,Merchant,邁克爾假死,1625215331\nRepair Bill,21021,Merchant,邁克爾假死,1625199608\nRepair Bill,17145,Merchant,邁克爾假死,1625152101\nPostage,120,畜生犬隊長,邁克爾假死,1625125802\nRepair Bill,10085,Merchant,邁克爾假死,1625052082\nRepair Bill,14795,Merchant,邁克爾假死,1625024272\nRepair Bill,7787,Merchant,邁克爾假死,1624970140\nRepair Bill,20978,Merchant,邁克爾假死,1624950821\nRepair Bill,72937,Merchant,邁克爾假死,1624807059\nPostage,270,畜生犬隊長,邁克爾假死,1624785890\nRepair Bill,5569,Merchant,邁克爾假死,1624774243\nRepair Bill,32411,Merchant,邁克爾假死,1624724738\nPostage,240,畜生犬隊長,邁克爾假死,1623231158\nPostage,120,畜生犬隊長,邁克爾假死,1623163660\nPostage,600,畜生犬隊長,邁克爾假死,1623086536\nPostage,420,畜生犬隊長,邁克爾假死,1623081169\nPostage,270,畜生犬隊長,邁克爾假死,1623056064\nRepair Bill,32273,Merchant,邁克爾假死,1622967385\nRepair Bill,122728,Merchant,邁克爾假死,1622909219",
 	["g@ @craftingUIContext@craftsScrollingTable"] = {
 		["colWidth"] = {
 			["saleRate"] = 32,
@@ -1601,7 +1452,7 @@ TradeSkillMasterDB = {
 		"auction", -- [4]
 		"craftNoProfit", -- [5]
 	},
-	["r@伊弗斯@internalData@csvBuys"] = "itemString,stackSize,quantity,price,otherPlayer,player,time,source\ni:8952,5,35,800,Merchant,邁克爾假死,1622910669,Vendor\ni:11285,200,1200,5,Merchant,邁克爾假死,1622910699,Vendor\ni:28053,200,3200,8,Merchant,邁克爾假死,1622964452,Vendor\ni:29292,5,10,10,Merchant,邁克爾假死,1622967397,Vendor\ni:22012,1,1,50000,Merchant,邁克爾假死,1622977925,Vendor\ni:21992,1,1,20000,Merchant,邁克爾假死,1622977928,Vendor\ni:28053,200,2000,8,Merchant,邁克爾假死,1622983184,Vendor\ni:29112,1,1,300,Merchant,邁克爾假死,1622983244,Vendor\ni:28053,200,1200,8,Merchant,邁克爾假死,1622992532,Vendor\ni:14047,5,5,3800,小雷包,邁克爾假死,1623055511,Auction\ni:14047,20,20,3800,小雷包,邁克爾假死,1623055512,Auction\ni:14047,20,20,3900,Boglus,邁克爾假死,1623055515,Auction\ni:14047,20,40,4000,戰戰競競,邁克爾假死,1623055718,Auction\ni:21993,1,1,38000,Merchant,邁克爾假死,1623057375,Vendor\ni:28053,200,2600,8,Merchant,邁克爾假死,1623081255,Vendor\ni:28053,200,1400,8,Merchant,邁克爾假死,1623163508,Vendor\ni:21881,1,1,5000,Merchant,邁克爾假死,1623172462,Vendor\ni:28061,200,2200,14,Merchant,邁克爾假死,1623231174,Vendor\ni:28056,200,3200,14,Merchant,邁克爾假死,1623231325,Vendor\ni:27860,5,35,1216,Merchant,邁克爾假死,1623231461,Vendor\ni:29449,5,5,1520,Merchant,邁克爾假死,1624205042,Vendor\ni:29451,5,20,1520,Merchant,邁克爾假死,1624532950,Vendor\ni:28056,200,2000,14,Merchant,邁克爾假死,1624535247,Vendor\ni:28056,200,2400,14,Merchant,邁克爾假死,1624724811,Vendor\ni:28056,200,400,15,Merchant,邁克爾假死,1624774203,Vendor\ni:28399,5,5,1120,Merchant,邁克爾假死,1624774213,Vendor\ni:27860,5,25,1280,Merchant,邁克爾假死,1624774215,Vendor\ni:29451,5,40,1600,Merchant,邁克爾假死,1624780429,Vendor\ni:28056,200,2600,14,Merchant,邁克爾假死,1624785903,Vendor\ni:33042,5,20,1280,Merchant,邁克爾假死,1624797380,Vendor\ni:28056,200,2800,14,Merchant,邁克爾假死,1624800929,Vendor\ni:28056,200,2000,14,Merchant,邁克爾假死,1624807013,Vendor\ni:28056,200,1000,14,Merchant,邁克爾假死,1624812009,Vendor\ni:28053,200,1800,8,Merchant,邁克爾假死,1624854720,Vendor\ni:28053,200,1400,8,Merchant,邁克爾假死,1624950789,Vendor\ni:28056,200,3400,14,Merchant,邁克爾假死,1624957442,Vendor\ni:29451,5,20,1520,Merchant,邁克爾假死,1624958099,Vendor\ni:28056,200,2000,14,Merchant,邁克爾假死,1624965738,Vendor\ni:25476,1,1,1000000,Merchant,邁克爾假死,1624969648,Vendor\ni:8925,5,5,475,Merchant,邁克爾假死,1624970139,Vendor\ni:28056,200,1400,14,Merchant,邁克爾假死,1624970168,Vendor\ni:28056,200,1000,14,Merchant,邁克爾假死,1624975699,Vendor\ni:27860,5,20,1152,Merchant,邁克爾假死,1625021462,Vendor\ni:28056,200,2000,14,Merchant,邁克爾假死,1625023577,Vendor\ni:23121,1,1,49998,妮妮小輝,邁克爾假死,1625030222,Auction\ni:28290,1,1,49599,棒棒噠,邁克爾假死,1625030173,Auction\ni:23097,1,1,64498,放魚,邁克爾假死,1625030082,Auction\ni:23097,1,1,64497,妮妮小輝,邁克爾假死,1625030080,Auction\ni:28056,200,1800,14,Merchant,邁克爾假死,1625032437,Vendor\ni:28056,200,1400,14,Merchant,邁克爾假死,1625038892,Vendor\ni:30633,1,1,85000,Merchant,邁克爾假死,1625039029,Vendor\ni:28056,200,1200,13,Merchant,邁克爾假死,1625044625,Vendor\ni:30623,1,1,85000,Merchant,邁克爾假死,1625044642,Vendor\ni:29451,5,40,1520,Merchant,邁克爾假死,1625046990,Vendor\ni:14341,1,1,4750,Merchant,邁克爾假死,1625046990,Vendor\ni:28056,200,1400,14,Merchant,邁克爾假死,1625052092,Vendor\ni:30635,1,1,85000,Merchant,邁克爾假死,1625053063,Vendor\ni:28056,200,800,14,Merchant,邁克爾假死,1625065704,Vendor\ni:28056,200,1800,14,Merchant,邁克爾假死,1625119600,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625122961,Vendor\ni:23121,1,1,48598,想念讚讚,邁克爾假死,1625123995,Auction\ni:23095,1,3,108500,龍痕飛雪,邁克爾假死,1625123971,Auction\ni:28053,200,2000,8,Merchant,邁克爾假死,1625131980,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625132965,Vendor\ni:23097,1,2,60000,無星夜,邁克爾假死,1625136857,Auction\ni:28056,200,3000,14,Merchant,邁克爾假死,1625142335,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625144849,Vendor\ni:23116,1,1,74500,湯姆大臘腸,邁克爾假死,1625145167,Auction\ni:32409,1,1,4582500,施噠噠,邁克爾假死,1625145151,Auction\ni:23097,1,1,49999,想念讚讚,邁克爾假死,1625145044,Auction\ni:22456,1,1,852000,蛭摩妖一,邁克爾假死,1625154937,Auction\ni:22456,1,1,850000,小草白,邁克爾假死,1625154938,Auction\ni:22456,1,2,830000,一刀斃了你,邁克爾假死,1625154938,Auction\ni:22456,1,4,829000,靈魂魔笛手,邁克爾假死,1625154939,Auction\ni:25707,2,2,46000,薩諾斯膠囊,邁克爾假死,1625154913,Auction\ni:25707,1,1,37500,克羅小熊,邁克爾假死,1625154911,Auction\ni:25707,5,5,49600,血厲,邁克爾假死,1625154911,Auction\ni:23793,10,10,87900,你販劍嗎,邁克爾假死,1625154892,Auction\ni:14341,1,3,4750,Merchant,邁克爾假死,1625155061,Vendor\ni:23097,1,1,48999,故道小王子,邁克爾假死,1625155475,Auction\ni:24048,1,1,1270000,龍痕飛雪,邁克爾假死,1625155443,Auction\ni:29451,5,35,1360,Merchant,邁克爾假死,1625156228,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625159424,Vendor\ni:29192,1,1,850000,Merchant,邁克爾假死,1625162590,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625193917,Vendor\ni:27860,5,30,1216,Merchant,邁克爾假死,1625193941,Vendor\ni:30634,1,1,85000,Merchant,邁克爾假死,1625198337,Vendor\ni:28053,200,400,8,Merchant,邁克爾假死,1625199582,Vendor\ni:28056,200,800,14,Merchant,邁克爾假死,1625199586,Vendor\ni:30637,1,1,85000,Merchant,邁克爾假死,1625203340,Vendor\ni:28056,200,1000,14,Merchant,邁克爾假死,1625204868,Vendor\ni:22832,5,5,24000,成都張叔叔,邁克爾假死,1625207881,Trade\ni:28056,200,1400,14,Merchant,邁克爾假死,1625215341,Vendor\ni:28056,200,1400,14,Merchant,邁克爾假死,1625282652,Vendor\ni:28056,200,800,14,Merchant,邁克爾假死,1625286692,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625304946,Vendor\ni:28056,200,1400,14,Merchant,邁克爾假死,1625313094,Vendor\ni:22831,5,5,148000,頭暈暈,邁克爾假死,1625313306,Auction\ni:28056,200,3200,14,Merchant,邁克爾假死,1625317001,Vendor\ni:28649,1,1,5000000,皮蛋瘦肉粥,邁克爾假死,1625323911,Trade\ni:28056,200,1000,14,Merchant,邁克爾假死,1625324426,Vendor\ni:23097,1,2,90000,特快噗噗車,邁克爾假死,1625332561,Auction\ni:22445,20,20,17500,草莓多拿滋,邁克爾假死,1625332830,Auction\ni:22446,6,6,53333,Cbuff,邁克爾假死,1625332810,Auction\ni:22449,1,8,351000,原料存放,邁克爾假死,1625332793,Auction\ni:28056,200,2000,14,Merchant,邁克爾假死,1625333132,Vendor\ni:29451,5,30,1360,Merchant,邁克爾假死,1625376517,Vendor\ni:28056,200,1600,14,Merchant,邁克爾假死,1625382254,Vendor\ni:28056,200,2600,14,Merchant,邁克爾假死,1625399107,Vendor\ni:31074,1,1,41555,Merchant,邁克爾假死,1625403096,Vendor\ni:4552,4,8,530,Merchant,邁克爾假死,1625410701,Vendor\ni:25306:-9,1,2,70314,Merchant,邁克爾假死,1625410701,Vendor\ni:28056,200,2000,3,Merchant,邁克爾假死,1625410701,Vendor\ni:27854,2,4,280,Merchant,邁克爾假死,1625410701,Vendor\ni:30959,1,2,48587,Merchant,邁克爾假死,1625410701,Vendor\ni:24477,4,8,100,Merchant,邁克爾假死,1625410701,Vendor\ni:17057,4,8,7,Merchant,邁克爾假死,1625410701,Vendor\ni:28056,200,1600,14,Merchant,邁克爾假死,1625415326,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625456739,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625466878,Vendor\ni:28056,200,2600,14,Merchant,邁克爾假死,1625588744,Vendor\ni:29451,5,35,1360,Merchant,邁克爾假死,1625591309,Vendor\ni:22831,1,5,117500,聽你在放屁,邁克爾假死,1625824134,Auction\ni:22832,5,10,52000,老欉文旦,邁克爾假死,1625823979,Auction\ni:22832,5,5,52000,捅阿捅,邁克爾假死,1625823981,Auction\ni:28056,200,2000,14,Merchant,邁克爾假死,1625824626,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625829677,Vendor\ni:25477,1,1,2000000,Merchant,邁克爾假死,1625829956,Vendor\ni:28056,200,3000,14,Merchant,邁克爾假死,1625837947,Vendor\ni:28056,200,400,14,Merchant,邁克爾假死,1625840383,Vendor\ni:21841,1,3,95900,南歌雾散,邁克爾假死,1625888811,Auction\ni:22832,5,5,52000,黑暗褲褲,邁克爾假死,1625823985,Auction\ni:22446,7,7,44600,三天沒洗頭,邁克爾假死,1625889688,Auction\ni:22446,1,1,44400,Aiyoki,邁克爾假死,1625889693,Auction\ni:22445,10,10,11000,帽子給我好嗎,邁克爾假死,1625889719,Auction\ni:23097,1,2,45000,特快噗噗車,邁克爾假死,1625890099,Auction\ni:31865,1,1,463998,想念讚讚,邁克爾假死,1625890167,Auction\ni:9172,5,5,47200,高山清茶,邁克爾假死,1625896956,Auction\ni:3823,5,5,9900,眼花花種瓜,邁克爾假死,1625896961,Auction\ni:29451,5,25,1360,Merchant,邁克爾假死,1625902014,Vendor\ni:28056,200,1600,14,Merchant,邁克爾假死,1625902046,Vendor\ni:33042,5,20,1280,Merchant,邁克爾假死,1625912161,Vendor\ni:28056,200,1400,14,Merchant,邁克爾假死,1625920379,Vendor\ni:33999,1,1,16000000,Merchant,邁克爾假死,1625921462,Vendor\ni:28056,200,2000,14,Merchant,邁克爾假死,1625932272,Vendor\ni:29451,5,15,1360,Merchant,邁克爾假死,1625932325,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625936383,Vendor\ni:28056,200,1800,14,Merchant,邁克爾假死,1625985618,Vendor\ni:21841,1,1,96500,酷英雄,邁克爾假死,1626026551,Auction\ni:21841,1,1,93900,諸行無常,邁克爾假死,1626026552,Auction\ni:21841,1,2,85000,碧昂屍吉屎兒,邁克爾假死,1626026554,Auction\ni:2493,1,1,666,Merchant,特變電工,1626026781,Vendor\ni:4541,5,40,24,Merchant,特變電工,1626061278,Vendor\ni:2401,1,1,314,Merchant,特變電工,1626061346,Vendor\ni:2400,1,1,415,Merchant,特變電工,1626061348,Vendor\ni:2402,1,1,209,Merchant,特變電工,1626061350,Vendor\ni:2398,1,1,412,Merchant,特變電工,1626061352,Vendor\ni:2399,1,1,207,Merchant,特變電工,1626061354,Vendor\ni:2403,1,1,210,Merchant,特變電工,1626061356,Vendor\ni:1197,1,1,2400,Merchant,特變電工,1626074478,Vendor\ni:2509,1,1,373,Merchant,特變電工,1626074488,Vendor\ni:2516,200,400,0,Merchant,特變電工,1626074492,Vendor\ni:28056,200,1400,14,Merchant,邁克爾假死,1626108279,Vendor\ni:27854,5,40,1120,Merchant,特變電工,1626267090,Vendor\ni:18794,1,1,900000,Merchant,特變電工,1626281774,Vendor\ni:2589,20,40,1269,彗星軌跡,特變電工,1626282225,Auction\ni:2589,20,20,1270,惡魔小辣椒,特變電工,1626282230,Auction\ni:2589,20,40,1270,惡魔小辣椒,特變電工,1626282595,Auction\ni:2592,10,10,3200,忙著打牌,特變電工,1626282610,Auction\ni:2592,4,44,3300,嗯嗯哼,特變電工,1626282611,Auction\ni:2592,4,4,3400,Kiana,特變電工,1626282620,Auction\ni:2592,6,6,4200,石原希望,特變電工,1626282622,Auction\ni:2592,20,60,4250,施噠噠,特變電工,1626282623,Auction\ni:2592,20,60,4440,Mnmi,特變電工,1626282626,Auction\ni:16084,1,1,27000,汙染者軍需官,特變電工,1626283279,Auction\ni:16112,1,1,17800,老字號,特變電工,1626283274,Auction\ni:4306,20,60,990,一人管理一國,特變電工,1626283297,Auction\ni:14047,20,120,750,Kawakami,特變電工,1626283355,Auction\ni:14047,20,20,900,Mailgear,特變電工,1626283364,Auction\ni:4306,20,20,985,姆咪咪,特變電工,1626283291,Auction\ni:4306,20,20,995,上個月的羊肉,特變電工,1626283301,Auction\ni:4306,7,7,995,上個月的羊肉,特變電工,1626283304,Auction\ni:4306,20,60,1000,小英純真可愛,特變電工,1626283308,Auction\ni:16113,1,1,112000,汙染者軍需官,邁克爾假死,1626284459,Auction\ni:4338,20,20,5444,小英純真可愛,特變電工,1626283335,Auction\ni:4338,20,80,6000,巴洛瑪,特變電工,1626283348,Auction\ni:4338,20,100,5857,用之不竭,特變電工,1626283350,Auction\ni:4306,20,20,990,一人管理一國,特變電工,1626283290,Auction\ni:4306,20,120,1000,小英純真可愛,特變電工,1626283294,Auction\ni:4338,17,17,4640,小英純真可愛,特變電工,1626283315,Auction\ni:4338,2,2,5400,不悔光明左使,特變電工,1626283319,Auction\ni:4338,13,13,5400,不悔光明左使,特變電工,1626283321,Auction\ni:4338,20,20,5400,不悔光明左使,特變電工,1626283321,Auction\ni:4338,6,6,5500,Shoulder,特變電工,1626283324,Auction\ni:4338,6,6,5600,胖胖龍爹地,特變電工,1626283325,Auction\ni:4338,5,5,5700,楓葉呆呆,特變電工,1626283326,Auction\ni:4338,11,11,5859,小英純真可愛,特變電工,1626283330,Auction\ni:14047,20,20,850,性感大種馬,特變電工,1626283352,Auction\ni:14047,20,40,900,Mailgear,特變電工,1626283352,Auction\ni:14047,20,20,955,咖啡因戰士,特變電工,1626283354,Auction\ni:14047,20,20,959,仓库贰号,特變電工,1626283355,Auction\ni:14047,20,20,959,超桂麥給你,特變電工,1626283356,Auction\ni:14047,20,40,960,神戶霜降肉質,特變電工,1626283358,Auction\ni:27855,5,45,1064,Merchant,特變電工,1626315771,Vendor\ni:22012,1,1,50000,Merchant,特變電工,1626315939,Vendor\ni:22012,1,1,12500,Merchant,特變電工,1626315948,Vendor\ni:14047,20,40,2650,靜書年華,畜生犬隊長,1626316386,Auction\ni:14047,20,40,2600,白茶烏龍,畜生犬隊長,1626316401,Auction\ni:21992,1,1,20000,Merchant,特變電工,1626316685,Vendor\ni:21993,1,1,40000,Merchant,特變電工,1626316687,Vendor\ni:29112,1,1,300,Merchant,特變電工,1626339418,Vendor\ni:25048:-9,1,1,30284,Merchant,特變電工,1626373544,Vendor\ni:27676,3,3,200,Merchant,特變電工,1626373544,Vendor\ni:24616:-8,1,1,12356,Merchant,特變電工,1626373544,Vendor\ni:24151,1,1,75303,Merchant,特變電工,1626373544,Vendor\ni:25522,1,1,32604,Merchant,特變電工,1626373544,Vendor\ni:25923,1,1,27810,Merchant,特變電工,1626373544,Vendor\ni:24245,1,1,146,Merchant,特變電工,1626373544,Vendor\ni:18588,5,5,200,Merchant,特變電工,1626373544,Vendor\ni:27553,5,5,30,Merchant,特變電工,1626373544,Vendor\ni:17057,2,2,7,Merchant,特變電工,1626373544,Vendor\ni:17058,2,2,7,Merchant,特變電工,1626373544,Vendor\ni:31786,1,1,27639,Merchant,特變電工,1626373544,Vendor\ni:27855,5,40,1064,Merchant,特變電工,1626426950,Vendor\ni:3033,200,200,1,Merchant,特變電工,1626460511,Vendor\ni:21841,1,4,90999,潑屎妹,特變電工,1626460639,Auction\ni:3859,20,300,28999,掐礦,特變電工,1626461026,Auction\ni:3859,20,100,27500,Sprewell,特變電工,1626461019,Auction\ni:3575,20,80,10990,哞喜勒烤,特變電工,1626460980,Auction\ni:3575,20,80,10400,三歲就會飛,特變電工,1626460975,Auction\ni:3575,4,8,10400,三歲就會飛,特變電工,1626460971,Auction\ni:3575,20,40,9500,妃暄,特變電工,1626460970,Auction\ni:3575,17,34,9412,妃暄,特變電工,1626460970,Auction\ni:3575,20,140,9000,炎曲尤加,特變電工,1626460967,Auction\ni:3577,14,28,16429,追風法師,特變電工,1626460946,Auction\ni:2838,20,60,9800,我愛做麵包,特變電工,1626460931,Auction\ni:2838,19,38,9800,我愛做麵包,特變電工,1626460930,Auction\ni:2838,20,80,9775,提姆先生,特變電工,1626460929,Auction\ni:2838,20,80,9500,提姆先生,特變電工,1626460927,Auction\ni:2838,19,38,6800,貓街夢少女,特變電工,1626460927,Auction\ni:2838,18,18,6700,阿浮斯,特變電工,1626460926,Auction\ni:2838,2,4,6600,風見準人,特變電工,1626460926,Auction\ni:2838,4,12,6599,孤乄狼,特變電工,1626460925,Auction\ni:2838,6,12,6400,索霖,特變電工,1626460924,Auction\ni:2838,3,6,6250,雷射鋼羊毛,特變電工,1626460924,Auction\ni:2838,20,80,6400,索霖,特變電工,1626460921,Auction\ni:2838,20,40,6000,追風法師,特變電工,1626460919,Auction\ni:2838,15,45,5933,追風法師,特變電工,1626460918,Auction\ni:2838,1,2,5800,Clannad,特變電工,1626460918,Auction\ni:2838,3,6,5700,三歲就會飛,特變電工,1626460918,Auction\ni:2838,1,1,5500,Ezgg,特變電工,1626460917,Auction\ni:2838,9,27,5600,龍舌蘭加檸檬,特變電工,1626460917,Auction\ni:2841,20,80,2000,炎曲尤加,特變電工,1626460906,Auction\ni:2841,20,40,1995,拜索斯,特變電工,1626460904,Auction\ni:2841,4,8,1990,Ezgg,特變電工,1626460904,Auction\ni:2841,20,100,1950,追風法師,特變電工,1626460904,Auction\ni:2841,14,42,1786,追風法師,特變電工,1626460902,Auction\ni:2841,20,40,1495,色誘聯盟專家,特變電工,1626460902,Auction\ni:2841,10,30,1490,色誘聯盟專家,特變電工,1626460901,Auction\ni:2841,12,24,833,炎曲尤加,特變電工,1626460900,Auction\ni:2842,10,20,4800,Jj,特變電工,1626460886,Auction\ni:2836,19,57,985,這位大德,特變電工,1626460869,Auction\ni:2836,7,14,985,叫我擋會滅團,特變電工,1626460868,Auction\ni:2836,10,20,975,我愛做麵包,特變電工,1626460868,Auction\ni:2836,1,6,899,色誘聯盟專家,特變電工,1626460867,Auction\ni:2836,3,6,970,索霖,特變電工,1626460867,Auction\ni:2836,10,20,895,幽兒希卡比獸,特變電工,1626460867,Auction\ni:2836,5,10,745,諮諮,特變電工,1626460867,Auction\ni:2836,8,16,750,追風法師,特變電工,1626460867,Auction\ni:2836,2,6,740,叫我擋會滅團,特變電工,1626460866,Auction\ni:2836,5,5,740,活一天算一天,特變電工,1626460867,Auction\ni:2836,3,6,735,熊貓奶茶,特變電工,1626460867,Auction\ni:2836,20,40,750,Tboy,特變電工,1626460859,Auction\ni:2836,20,60,745,諮諮,特變電工,1626460859,Auction\ni:2836,5,10,695,龍舌蘭加檸檬,特變電工,1626460858,Auction\ni:2836,14,28,717,白魔后,特變電工,1626460856,Auction\ni:2836,20,60,700,追風法師,特變電工,1626460855,Auction\ni:2836,12,12,690,聖光又變弱了,特變電工,1626460854,Auction\ni:2836,19,19,579,炎曲尤加,特變電工,1626460854,Auction\ni:2836,20,80,690,聖光又變弱了,特變電工,1626460850,Auction\ni:2836,20,80,650,炎曲尤加,特變電工,1626460848,Auction\ni:2835,20,40,300,炎曲尤加,特變電工,1626460834,Auction\ni:2835,2,6,197,叫我擋會滅團,特變電工,1626460832,Auction\ni:2835,19,38,184,追風法師,特變電工,1626460832,Auction\ni:2835,20,100,233,離魂判,特變電工,1626460829,Auction\ni:2835,20,120,231,索霖,特變電工,1626460827,Auction\ni:2835,20,20,198,諮諮,特變電工,1626460825,Auction\ni:2835,20,140,190,追風法師,特變電工,1626460822,Auction\ni:2605,1,1,95,Merchant,特變電工,1626461171,Vendor\ni:2605,10,30,95,Merchant,特變電工,1626461174,Vendor\ni:5956,1,1,17,Merchant,特變電工,1626461886,Vendor\ni:3478,20,20,10,Merchant,特變電工,1626462089,Vendor\ni:3575,20,40,10990,哞喜勒烤,特變電工,1626462946,Auction\ni:2605,10,30,90,Merchant,特變電工,1626498357,Vendor\ni:3575,20,60,10200,真的沒想法,特變電工,1626498271,Auction\ni:7912,20,40,9900,梅田阪急百貨,特變電工,1626498636,Auction\ni:7912,20,60,9900,伊豆牧,特變電工,1626498630,Auction\ni:7912,11,11,4025,你印堂發黑,特變電工,1626498630,Auction\ni:7912,1,2,1485,伊布,特變電工,1626498629,Auction\ni:7912,3,3,1480,我愛做麵包,特變電工,1626498629,Auction\ni:7912,20,20,10000,狂熱之怒,特變電工,1626498719,Auction\ni:7912,8,8,1175,熊熊兇巴巴,特變電工,1626498720,Auction\ni:7912,19,19,10448,幸運魔人,特變電工,1626498764,Auction\ni:7912,6,6,10448,幸運魔人,特變電工,1626498763,Auction\ni:3860,1,6,26800,真的沒想法,特變電工,1626498901,Auction\ni:3860,20,80,26800,真的沒想法,特變電工,1626499480,Auction\ni:3860,1,19,26800,真的沒想法,特變電工,1626499479,Auction\ni:3860,20,60,26000,污染者軍需官,特變電工,1626499482,Auction\ni:4338,20,40,4614,法嗖啦西,特變電工,1626499524,Auction\ni:28470,1,1,19000,Merchant,特變電工,1626534595,Vendor\ni:29739,1,1,399000,Rize,特變電工,1626585319,Auction\ni:31673,3,3,150,Merchant,特變電工,1626607854,Vendor\ni:27651,3,3,150,Merchant,特變電工,1626607856,Vendor\ni:25477,1,1,2000000,Merchant,特變電工,1626781924,Vendor\ni:21841,1,1,49800,呼呼啾不痛,特變電工,1626782388,Auction\ni:21841,1,2,50000,脫裝備單挑,特變電工,1626782391,Auction\ni:7989,1,1,4197500,廢歐娜,特變電工,1626782993,Auction\ni:3860,20,20,18000,阿姨不是人,特變電工,1626782549,Auction\ni:3860,3,3,20600,駱馬兒,特變電工,1626782553,Auction\ni:3860,20,60,21500,索爾公會倉庫,特變電工,1626782585,Auction\ni:12359,20,20,21490,阿公,特變電工,1626782658,Auction\ni:12359,14,14,20000,劉吉兒,特變電工,1626782659,Auction\ni:3860,20,40,20799,雪丶無痕,特變電工,1626782565,Auction\ni:3860,20,20,20800,Exilesorcere,特變電工,1626782569,Auction\ni:3860,20,20,21000,妹妹的誘惑,特變電工,1626782593,Auction\ni:4304,4,4,9900,阿芸,特變電工,1626783209,Auction\ni:1210,11,11,7200,伊利冄,特變電工,1626783201,Auction\ni:7971,1,2,29800,Bkm,特變電工,1626783188,Auction\ni:4234,2,2,8249,紫色的月光,特變電工,1626783328,Auction\ni:4234,7,7,5714,大右池久,特變電工,1626783328,Auction\ni:3864,2,2,10101,血月雪,特變電工,1626783306,Auction\ni:3864,1,2,9900,小朱莉,特變電工,1626783306,Auction\ni:12163,1,1,299999,白龍採礦剝皮,特變電工,1626783440,Auction\ni:12164,1,1,50000,月半,特變電工,1626783397,Auction\ni:2838,20,20,2300,Bkm,特變電工,1626783902,Auction\ni:4234,20,20,5000,天玥雪,特變電工,1626783893,Auction\ni:1705,3,3,20000,Cjck,特變電工,1626783874,Auction\ni:1705,1,5,19800,黃泉引路豬,特變電工,1626783868,Auction\ni:1705,1,1,19400,卡禿嚕皮,特變電工,1626783871,Auction\ni:1705,1,1,19000,戀居舒適,特變電工,1626783871,Auction\ni:1705,1,1,19200,頑皮卡丘,特變電工,1626783873,Auction\ni:1705,1,1,19600,都是浮雲,特變電工,1626783877,Auction\ni:3466,8,8,1800,Merchant,特變電工,1626783999,Vendor\ni:2838,5,5,2899,今天飛高高,特變電工,1626784243,Auction\ni:2838,20,20,2490,阿姨不是人,特變電工,1626784241,Auction\ni:3577,11,11,8600,社會我共治,特變電工,1626784186,Auction\ni:3575,13,13,9800,小西貓,特變電工,1626784164,Auction\ni:3466,8,8,1800,Merchant,特變電工,1626784304,Vendor\ni:7912,20,120,1090,臭鳥蛋,特變電工,1626786176,Auction\ni:7912,5,5,1085,褲子掉下來,特變電工,1626786181,Auction\ni:12365,20,60,2062,五月寒如水,特變電工,1626786409,Auction\ni:14047,20,20,497,娑婆,特變電工,1626786495,Auction\ni:14047,20,20,496,真牛魔王子,特變電工,1626786496,Auction\ni:7912,20,20,1070,寒霜之冬,特變電工,1626783108,Auction\ni:7912,19,19,1053,兩個靈魂,特變電工,1626783109,Auction\ni:7912,12,12,1070,寒霜之冬,特變電工,1626783110,Auction\ni:7912,14,14,1050,蓮霧派對,特變電工,1626783111,Auction\ni:3860,20,20,21399,雪丶無痕,特變電工,1626782538,Auction\ni:12359,20,20,19599,今天飛高高,特變電工,1626782609,Auction\ni:3860,19,19,21600,黃泉引路豬,特變電工,1626782557,Auction\ni:7912,20,20,890,阿姨不是人,特變電工,1626783130,Auction\ni:7912,3,3,885,阿浮斯,特變電工,1626783132,Auction\ni:7912,20,40,880,Bkm,特變電工,1626783132,Auction\ni:7912,16,16,1000,提姆先生,特變電工,1626783140,Auction\ni:7912,13,13,1030,鐵衛牙,特變電工,1626783145,Auction\ni:7912,5,5,1025,駱馬兒,特變電工,1626783146,Auction\ni:7912,3,3,1000,提姆先生,特變電工,1626783146,Auction\ni:7912,6,6,1045,Hanymuer,特變電工,1626783153,Auction\ni:7912,5,5,1040,Bkm,特變電工,1626783154,Auction\ni:7912,4,4,1080,臭鳥蛋,特變電工,1626786165,Auction\ni:7912,1,1,1050,鬼武葬,特變電工,1626783119,Auction\ni:7912,4,4,1035,駱馬兒,特變電工,1626783118,Auction\ni:7912,2,2,995,紅燒牛楠燴飯,特變電工,1626783114,Auction\ni:7912,2,2,990,胖胖龍爹地,特變電工,1626783115,Auction\ni:12359,20,80,21600,威力聖光,特變電工,1626782652,Auction\ni:12359,2,2,21600,威力聖光,特變電工,1626782654,Auction\ni:12359,20,60,21495,牧丹,特變電工,1626782654,Auction\ni:8170,20,60,17000,餅乾商店,邁克爾假死,1626789464,Auction\ni:12359,20,20,21495,牧丹,特變電工,1626782611,Auction\ni:12359,20,40,21490,阿公,特變電工,1626782612,Auction\ni:12359,3,3,21333,黑暗褲褲,特變電工,1626782614,Auction\ni:12359,12,12,20000,一祈福一,特變電工,1626782613,Auction\ni:12359,1,1,20000,牧丹,特變電工,1626782616,Auction\ni:12359,1,1,20000,黑暗牛肉麵,特變電工,1626782618,Auction\ni:12359,8,8,19600,駱馬兒,特變電工,1626782618,Auction\ni:12359,20,40,24444,阿魚,邁克爾假死,1626789876,Auction\ni:12359,20,60,25000,阿公,邁克爾假死,1626789883,Auction\ni:10620,12,12,21400,威力始元,邁克爾假死,1626789959,Auction\ni:10620,18,18,21600,Bkm,邁克爾假死,1626789961,Auction\ni:10620,20,40,21600,Bkm,邁克爾假死,1626789962,Auction\ni:10620,20,120,21800,台彎海森堡,邁克爾假死,1626789968,Auction\ni:23424,20,60,9900,觚隷,邁克爾假死,1626790656,Auction\ni:23424,20,160,10400,豆屎蝕尸,邁克爾假死,1626790678,Auction\ni:23424,20,60,10599,倉庫軍,邁克爾假死,1626790786,Auction\ni:23424,20,40,10600,Jacinthe,邁克爾假死,1626790793,Auction\ni:23424,20,20,10600,Jacinthe,邁克爾假死,1626790752,Auction\ni:23424,20,80,11800,粉色的尼拉克,邁克爾假死,1626790759,Auction\ni:23424,20,220,11900,关宏峰,邁克爾假死,1626790767,Auction\ni:23425,20,140,31500,朵一,邁克爾假死,1626792470,Auction\ni:23425,20,80,31500,哈那,邁克爾假死,1626792467,Auction\ni:23425,20,20,31495,玖娘子,邁克爾假死,1626792765,Auction\ni:23424,20,80,11900,关宏峰,邁克爾假死,1626790792,Auction\ni:23424,20,140,11995,綠小姐,邁克爾假死,1626790801,Auction\ni:23424,20,20,12250,緣之石,邁克爾假死,1626790799,Auction\ni:21841,1,4,55000,南歌雾散,邁克爾假死,1626794030,Auction\ni:25526,1,1,54000,Merchant,特變電工,1626794832,Vendor\ni:23591,1,1,36000,Merchant,特變電工,1626795587,Vendor\ni:23426,18,18,78007,綠小姐,邁克爾假死,1626800729,Auction\ni:23426,20,20,78007,綠小姐,邁克爾假死,1626800730,Auction\ni:23426,2,2,80000,臉黑非洲人,邁克爾假死,1626800734,Auction\ni:23426,20,20,80020,Cdlv,邁克爾假死,1626800737,Auction\ni:23426,20,40,80025,Meya,邁克爾假死,1626800738,Auction\ni:23618,1,1,54000,Merchant,特變電工,1626801690,Vendor\ni:28632,1,1,54000,Merchant,特變電工,1626801691,Vendor\ni:23425,20,60,31075,老鼠人,邁克爾假死,1626801986,Auction\ni:23427,20,40,55000,大倉庫仔,邁克爾假死,1626802423,Auction\ni:23116,1,4,57399,放魚,特變電工,1626803984,Auction\ni:23095,1,1,46597,茈茈,特變電工,1626851535,Auction\ni:29449,5,20,1520,Merchant,特變電工,1626868943,Vendor\ni:28061,200,200,14,Merchant,特變電工,1626869200,Vendor\ni:23111,1,3,3700,啊斯,特變電工,1626878119,Auction\ni:25896,1,1,2502500,施噠噠,特變電工,1626878067,Auction\ni:22573,10,10,13100,獸人加魯魯蛇,特變電工,1626879225,Auction\ni:22573,10,30,12999,飛天吉娃娃,特變電工,1626879224,Auction\ni:23446,20,20,59999,今天飛高高,特變電工,1626879200,Auction\ni:22445,5,5,13400,小樂子,特變電工,1626879060,Auction\ni:22445,7,7,13000,浪漫牛兒,特變電工,1626879054,Auction\ni:22445,1,1,13400,小樂子,特變電工,1626879061,Auction\ni:22445,2,2,12800,速嵐轎,特變電工,1626879056,Auction\ni:22446,1,1,48200,小樂子,特變電工,1626879552,Auction\ni:22445,20,40,13200,術法歪哥,特變電工,1626879524,Auction\ni:23116,1,1,54998,茈茈,特變電工,1626891973,Auction\ni:23118,1,1,33400,魔術手,特變電工,1626892122,Auction\ni:23100,1,1,41600,龍痕飛雪,特變電工,1626892100,Auction\ni:30623,1,1,85000,Merchant,特變電工,1626926071,Vendor\ni:23116,1,3,44800,圓球鋪,特變電工,1626963717,Auction\ni:30635,1,1,85000,Merchant,特變電工,1626969684,Vendor\ni:29186,1,1,850000,Merchant,特變電工,1626969689,Vendor\ni:30633,1,1,85000,Merchant,特變電工,1626973297,Vendor\ni:6214,1,1,78708,白龍採礦剝皮,特變電工,1627117995,Auction\ni:21841,1,4,59400,Austinger,邁克爾假死,1627141110,Auction\ni:21340,1,1,181249,白龍採礦剝皮,邁克爾假死,1627141203,Auction\ni:28056,200,2000,14,Merchant,邁克爾假死,1627143693,Vendor\ni:15268:845,1,1,5000,妖刖,特變電工,1627194813,Auction\ni:4567:1100,1,1,11000,細雪丨,特變電工,1627194802,Auction\ni:21885,1,1,530000,慢慢喵,特變電工,1627199180,Auction\ni:21885,2,4,530000,大樹的術,特變電工,1627199177,Auction\ni:21885,1,8,514000,樂觀二尖瓣,特變電工,1627199172,Auction\ni:21885,1,3,509900,殞落王者之劍,特變電工,1627199170,Auction\ni:21885,1,2,509899,八倍鏡,特變電工,1627199168,Auction\ni:21885,1,2,509500,阿席莉帕,特變電工,1627199167,Auction\ni:21885,1,17,509500,天才小喇叭,特變電工,1627199165,Auction\ni:1705,2,4,17000,阿姨不是人,特變電工,1626783859,Auction\ni:3860,2,4,21400,駱馬兒,特變電工,1626782544,Auction\ni:22451,1,3,558000,蛋比鳥大,特變電工,1627199524,Auction\ni:22451,1,2,558000,德羅茲狼嚎,特變電工,1627199521,Auction\ni:22451,2,20,558000,德羅茲狼嚎,特變電工,1627199520,Auction\ni:22451,1,2,557000,小樂子,特變電工,1627199513,Auction\ni:22451,1,5,556999,王雨瑤,特變電工,1627199512,Auction\ni:22451,1,4,556000,葛爾諾斯他婆,特變電工,1627199509,Auction\ni:28290,1,1,49999,棒棒噠,特變電工,1627199657,Auction\ni:23118,1,5,11499,棒棒噠,特變電工,1627199631,Auction\ni:23095,1,5,79000,施噠噠,特變電工,1627199608,Auction\ni:22445,1,11,13299,曼施坦茵,特變電工,1627401149,Auction\ni:22445,20,60,15000,大象埃德蒙,特變電工,1627401140,Auction\ni:22445,5,20,12800,暹小花,特變電工,1627401126,Auction\ni:3860,17,17,21399,雪丶無痕,特變電工,1626782540,Auction\ni:22851,1,1,885000,紫蘇奶茶,特變電工,1627402069,Auction\ni:25898,1,1,2549999,Neross,特變電工,1627446358,Auction\ni:24052,1,1,773999,肉肉喵喵,特變電工,1627446316,Auction\ni:23118,1,1,7500,職業剋星,特變電工,1627446489,Auction\ni:23118,1,1,7300,那瑪希鐵,特變電工,1627446487,Auction\ni:23118,1,1,7200,女妖之王,特變電工,1627446485,Auction\ni:29186,1,1,850000,Merchant,特變電工,1627447195,Vendor\ni:30634,1,1,85000,Merchant,特變電工,1627481456,Vendor\ni:30637,1,1,85000,Merchant,特變電工,1627544096,Vendor\ni:23105,1,3,7300,啊斯,特變電工,1627569612,Auction\ni:23105,1,2,6000,緋緋,特變電工,1627569612,Auction\ni:23105,1,1,5900,卍萊牛卍,特變電工,1627569611,Auction\ni:23105,1,1,5000,職業剋星,特變電工,1627569607,Auction\ni:22445,1,1,11600,夜狼神,特變電工,1627570354,Auction\ni:22445,6,12,11600,夜狼神,特變電工,1627570350,Auction\ni:22445,2,2,11600,夜狼神,特變電工,1627570357,Auction\ni:3860,4,4,20799,雪丶無痕,特變電工,1626782509,Auction\ni:3860,1,1,21200,都是浮雲,特變電工,1626782536,Auction\ni:30810,50,50,25000,薩凡斯,特變電工,1627617953,Auction\ni:30810,49,49,25000,葛格法師,特變電工,1627618027,Auction\ni:23448,2,22,395000,女妖之王,特變電工,1627630921,Auction\ni:23448,1,4,399000,黑色告死鳥,特變電工,1627631271,Auction\ni:23447,1,1,119425,血色序章,特變電工,1627631539,Auction\ni:23447,1,3,120000,殟系,特變電工,1627631540,Auction\ni:23447,10,10,120000,賽力勞斯,特變電工,1627631551,Auction\ni:23447,13,13,120677,百合妹妹,特變電工,1627631552,Auction\ni:23447,10,10,123000,卡滋沒基機,特變電工,1627631555,Auction\ni:23447,11,11,124236,百合妹妹,特變電工,1627631556,Auction\ni:23445,20,20,23500,大右池久,特變電工,1627631612,Auction\ni:23445,20,20,23500,Kdo,特變電工,1627631613,Auction\ni:23445,14,14,24400,浩天無極,特變電工,1627632309,Auction\ni:23445,20,40,24300,獸人加魯魯蛇,特變電工,1627632307,Auction\ni:23445,20,160,24000,卡滋沒基機,特變電工,1627632304,Auction\ni:23445,20,40,23500,罐罐貓,特變電工,1627632301,Auction\ni:23445,1,3,23400,喝啤酒吐泡泡,特變電工,1627632298,Auction\ni:23445,9,9,23200,高熙茵娜,特變電工,1627632297,Auction\ni:23447,13,26,130762,百合妹妹,特變電工,1627632243,Auction\ni:23447,1,53,129500,伊汶捷琳,特變電工,1627632234,Auction\ni:23447,1,13,127400,草藥二倉,特變電工,1627632215,Auction\ni:23447,9,27,124525,淅淅瀝瀝,特變電工,1627632210,Auction\ni:23447,10,10,124400,獸人加魯魯蛇,特變電工,1627632209,Auction\ni:23447,10,40,120000,賽力勞斯,特變電工,1627632208,Auction\ni:22457,8,8,484000,楓糖水蜜桃,特變電工,1627632831,Auction\ni:22457,1,3,484851,十四代双虹,特變電工,1627632876,Auction\ni:23098,1,1,5400,女妖之王,特變電工,1627634204,Auction\ni:28290,1,1,17300,女妖之王,特變電工,1627634154,Auction\ni:23111,1,1,8500,女妖之王,特變電工,1627634629,Auction\ni:23098,1,4,5400,女妖之王,特變電工,1627634598,Auction\ni:22829,5,40,6000,云哥法师,特變電工,1627651770,Auction\ni:5634,5,25,38200,雲水憐心,特變電工,1627671032,Auction\ni:5634,2,2,25000,神族狂戰士,特變電工,1627705334,Auction\ni:5634,1,1,24800,龍痕飛雪,特變電工,1627705335,Auction\ni:23098,1,3,25800,卡娜呵呵,特變電工,1627730905,Auction\ni:6358,9,9,9111,大車車,特變電工,1627731013,Auction\ni:6358,3,6,8999,想不到就睡覺,特變電工,1627731013,Auction\ni:6358,5,15,8900,讓開我來躺,特變電工,1627731013,Auction\ni:6358,1,32,8899,Momonga,特變電工,1627731012,Auction\ni:6358,20,60,8000,性感大種馬,特變電工,1627731011,Auction\ni:6358,6,12,7900,超級大砲,特變電工,1627731010,Auction\ni:3820,15,15,4600,滑溜,特變電工,1627731170,Auction\ni:21877,10,80,2000,算你內行,特變電工,1627792771,Auction\ni:23446,5,20,53000,礦石小弟,特變電工,1627792734,Auction\ni:23446,1,2,52500,螯蝦,特變電工,1627792731,Auction\ni:23446,1,1,52000,甜點師傅,特變電工,1627792730,Auction\ni:23446,2,4,52000,甜點師傅,特變電工,1627792729,Auction\ni:23446,2,6,51999,沒時間,特變電工,1627792729,Auction\ni:23118,1,11,17199,放魚,特變電工,1627818791,Auction\ni:23118,1,2,17000,卍萊牛卍,特變電工,1627818770,Auction\ni:13455,4,12,68000,魔術戰,特變電工,1627818751,Auction\ni:22851,1,4,893000,咪咧,特變電工,1627818724,Auction\ni:28824,1,1,9000000,月巴豸苗,特變電工,1627822842,Trade\ni:28777,1,1,4000000,月巴豸苗,特變電工,1627827009,Trade\ni:23104,1,1,8900,浜边美波,特變電工,1627999189,Auction\ni:23100,1,2,25597,白龍採礦剝皮,特變電工,1627999163,Auction\ni:29192,1,1,850000,Merchant,特變電工,1628007627,Vendor\ni:24051,1,1,579999,伯爵鮮奶茶,特變電工,1628339299,Auction\ni:24027,1,2,1465000,花俏俏,特變電工,1628339277,Auction\ni:24027,1,1,1464999,肉肉喵喵,特變電工,1628339276,Auction\ni:22449,1,9,281958,Sige,特變電工,1628339618,Auction\ni:22450,2,4,292500,玄米綠茶,特變電工,1628339601,Auction\ni:22446,1,13,43400,黑色告死鳥,特變電工,1628339578,Auction\ni:22445,1,3,16000,琉影,特變電工,1628339565,Auction\ni:22445,5,25,14200,要替婆婆報仇,特變電工,1628339562,Auction\ni:22449,1,6,281000,沫影,特變電工,1628339537,Auction\ni:22447,1,1,11800,臭鳥蛋,特變電工,1628344636,Auction\ni:22447,2,4,11600,反智轉身,特變電工,1628344630,Auction\ni:22447,1,2,9000,困桂桃,特變電工,1628344626,Auction\ni:24051,1,2,577999,伯爵鮮奶茶,特變電工,1628344586,Auction\ni:22445,1,1,14900,Austinger,特變電工,1628344872,Auction\ni:22445,5,10,14200,要替婆婆報仇,特變電工,1628344870,Auction\ni:21877,20,60,1720,蛋比鳥大,特變電工,1628398112,Auction\ni:23446,20,40,40400,Ikemen,特變電工,1628398082,Auction\ni:23095,1,1,56297,放魔水,特變電工,1628424599,Auction\ni:28290,1,5,26800,啊斯,特變電工,1628424563,Auction\ni:23100,1,7,6900,啊斯,特變電工,1628424527,Auction\ni:23104,1,3,3500,啊斯,特變電工,1628424489,Auction\ni:23116,1,1,30650,虎牙哥,特變電工,1628424460,Auction\ni:22446,1,1,50000,沫影,特變電工,1628425181,Auction\ni:22445,14,14,12600,狗哥,特變電工,1628425168,Auction\ni:23095,1,3,56295,救地正法,特變電工,1628429992,Auction\ni:23115,1,6,63998,棒棒噠,特變電工,1628429973,Auction\ni:23115,1,3,63500,卍萊牛卍,特變電工,1628429981,Auction\ni:23118,1,10,8700,女妖之王,特變電工,1628872342,Auction\ni:22456,2,2,430000,完美物流,特變電工,1628931806,Auction\ni:22456,5,10,430000,Klion,特變電工,1628931805,Auction\ni:22456,1,2,410000,打不死蟑螂,特變電工,1628931803,Auction\ni:25707,2,2,29800,Ricauo,特變電工,1628931794,Auction\ni:25707,6,6,29600,蜂蜜檸檬蘆薈,特變電工,1628931792,Auction\ni:23793,2,6,41600,你販劍嗎,特變電工,1628931784,Auction\ni:23793,4,16,41010,十四代双虹,特變電工,1628931780,Auction\ni:14341,1,3,4750,Merchant,特變電工,1628931886,Vendor\ni:24048,1,1,417998,伯爵鮮奶茶,特變電工,1628937261,Auction\ni:22451,1,1,467699,曉寶寶,特變電工,1628945185,Auction\ni:22451,1,15,467000,牛排特務,特變電工,1628945184,Auction\ni:22451,1,2,467000,Tamago,特變電工,1628945181,Auction\ni:29539,2,10,255000,Derony,特變電工,1628945166,Auction\ni:23793,4,8,41010,十四代双虹,特變電工,1628945143,Auction\ni:30810,100,100,23100,冰刃炎魔,特變電工,1628962779,Auction\ni:30810,40,80,22000,冰刃炎魔,特變電工,1628962779,Auction\ni:30810,250,250,21600,若葉姬色,特變電工,1628962775,Auction\ni:30810,114,228,21600,若葉姬色,特變電工,1628962775,Auction\ni:30810,36,108,21000,雪白兒,特變電工,1628962773,Auction\ni:30810,100,100,21000,冰刃炎魔,特變電工,1628962769,Auction\ni:30810,6,12,21000,Laviticus,特變電工,1628962768,Auction\ni:30810,2,4,21000,Badd,特變電工,1628962768,Auction\ni:30810,12,24,20833,姑逃姑鬧,特變電工,1628962768,Auction\ni:30810,5,15,20600,黑暗褲褲,特變電工,1628962767,Auction\ni:30810,5,40,20599,Bigomage,特變電工,1628962767,Auction\ni:30810,2,4,20500,德古拉法葉,特變電工,1628962767,Auction\ni:30810,12,24,20400,狗哥,特變電工,1628962761,Auction\ni:30810,50,150,20400,冰刃炎魔,特變電工,1628962761,Auction\ni:30810,28,56,20321,Druidfactor,特變電工,1628962761,Auction\ni:30810,1,2,20320,阿公店店花,特變電工,1628962760,Auction\ni:30810,99,198,20303,阿強扛不住,特變電工,1628962759,Auction\ni:30810,74,222,20270,Alta,特變電工,1628962759,Auction\ni:30810,1,2,20200,到底是在吵尛,特變電工,1628962758,Auction\ni:30810,8,16,20199,愛妳喲,特變電工,1628962757,Auction\ni:30810,14,28,20000,Srd,特變電工,1628962757,Auction\ni:30810,1,2,20000,湯姆克鹵蛋,特變電工,1628962755,Auction\ni:30810,6,6,20000,踏踏,特變電工,1628962755,Auction\ni:30810,5,50,20000,寶貝玩獵人,特變電工,1628962755,Auction\ni:30810,1,4,20000,薩下薩下,特變電工,1628962748,Auction\ni:30810,1,2,20000,牛奶喝到飽,特變電工,1628962747,Auction\ni:30810,13,39,19987,半壺老酒,特變電工,1628962746,Auction\ni:30810,15,15,19800,伊魯娜黛珥,特變電工,1628962746,Auction\ni:30810,8,24,19800,心動動,特變電工,1628962745,Auction\ni:30810,3,9,19800,內心謙下,特變電工,1628962744,Auction\ni:30810,5,10,19400,Zippoxi,特變電工,1628962743,Auction\ni:30810,39,78,19200,非酋的爆發力,特變電工,1628962739,Auction\ni:30810,10,40,19199,曉風乄血月,特變電工,1628962739,Auction\ni:30810,7,14,19199,曉風乄血月,特變電工,1628962735,Auction\ni:30810,36,108,19000,熱情的排骨,特變電工,1628962733,Auction\ni:29739,1,1,355999,曉風乄血月,特變電工,1628963189,Auction\ni:29739,2,2,355000,熱情的排骨,特變電工,1628963184,Auction\ni:22536,1,1,85000,Merchant,特變電工,1630735238,Vendor\ni:23446,20,20,20995,百合妹妹,特變電工,1630843104,Auction\ni:28825,1,1,30000000,月巴豸苗,特變電工,1630849898,Trade\ni:24033,1,1,158498,Pasta,特變電工,1630850813,Auction\ni:31392,1,1,204000,Merchant,特變電工,1630851623,Vendor\ni:31391,1,1,204000,Merchant,特變電工,1630851625,Vendor\ni:22573,8,8,3397,浒斛,特變電工,1630941347,Auction\ni:22573,8,24,3397,步鈽獛,特變電工,1630941347,Auction\ni:22573,6,12,3399,寒你还好吗,特變電工,1630941347,Auction\ni:22573,2,4,3300,Albedo,特變電工,1630941347,Auction\ni:22573,8,24,2600,我是寒泪,特變電工,1630941346,Auction\ni:22573,3,9,2500,拿鐵小騎士,特變電工,1630941345,Auction\ni:22573,1,2,2400,免費祭改,特變電工,1630941344,Auction\ni:23446,20,20,25000,惹火牛物,特變電工,1630941331,Auction\ni:28516,1,1,8000000,恕嵐轎,特變電工,1630944199,Trade\ni:28056,200,4400,14,Merchant,邁克爾假死,1631026414,Vendor\ni:29451,5,25,1360,Merchant,邁克爾假死,1631026589,Vendor\ni:3820,4,4,10000,老大好,特變電工,1631383885,Auction\ni:3820,9,27,3333,Monni,特變電工,1631383883,Auction\ni:6358,20,40,11000,林楓,特變電工,1631383826,Auction\ni:5634,2,4,10000,Monni,特變電工,1631383770,Auction\ni:22450,1,3,118990,我用戴奧辛,特變電工,1631434236,Auction\ni:22449,1,8,232898,鐵頭無雙,特變電工,1631434229,Auction\ni:33872,20,20,12200,御狐神,特變電工,1631442050,Auction\ni:28579,1,1,1000000,恕嵐轎,特變電工,1631548808,Trade\ni:28749,1,1,1000000,恕嵐轎,特變電工,1631554403,Trade\ni:31393,1,1,240000,Merchant,特變電工,1631629631,Vendor\ni:31395,1,1,240000,Merchant,特變電工,1631629636,Vendor\ni:31394,1,1,240000,Merchant,特變電工,1631629639,Vendor\ni:22449,1,5,211895,Carman,特變電工,1631629940,Auction\ni:22449,1,1,211996,台彎海森堡,特變電工,1631629954,Auction\ni:22449,1,2,211997,Carman,特變電工,1631629956,Auction\ni:22446,8,8,59000,Blackpearl,特變電工,1631630001,Auction\ni:22449,1,1,214000,牛咩咩耶,特變電工,1631630077,Auction\ni:22450,1,6,122500,初四了阿伯,特變電工,1631630088,Auction\ni:22445,8,8,11600,深粉,特變電工,1631630136,Auction\ni:21885,2,12,340998,Cooltaer,特變電工,1631630648,Auction\ni:21884,1,5,580000,魔法師大衛,特變電工,1631630666,Auction\ni:21884,1,7,582000,Llissa,特變電工,1631630670,Auction\ni:23426,3,3,34600,萬歲娘,特變電工,1631630865,Auction\ni:23426,2,2,35000,陳彥甫,特變電工,1631630867,Auction\ni:23426,4,4,34800,陳彥甫,特變電工,1631630869,Auction\ni:23426,9,9,35000,陳彥甫,特變電工,1631630870,Auction\ni:23426,10,10,35000,陳彥甫,特變電工,1631630877,Auction\ni:23426,20,20,35000,风见琴雪,特變電工,1631630880,Auction\ni:21885,6,6,339999,Hbbs,特變電工,1631633446,Auction\ni:21885,10,10,339000,得汝液,特變電工,1631633448,Auction\ni:21885,2,8,354000,梅寒焦油,特變電工,1631633453,Auction\ni:21884,1,16,583999,召尸墓響,特變電工,1631633475,Auction\ni:21884,1,8,584000,喝啤酒吐泡泡,特變電工,1631633499,Auction\ni:29198,1,1,850000,Merchant,特變電工,1631637336,Vendor\ni:28272,1,1,68000,Merchant,特變電工,1631637353,Vendor\ni:25054:-33,1,1,350000,個人銀行,特變電工,1631637754,Auction\ni:31398,1,1,6229999,放油二,特變電工,1631638063,Auction\ni:24682:-33,1,1,990000,小脚裤,特變電工,1631719851,Auction\ni:23448,1,2,125500,Kimojii,特變電工,1631722544,Auction\ni:21884,1,1,591999,終會路左相逢,特變電工,1631722557,Auction\ni:21884,1,1,592000,魯智神,特變電工,1631722559,Auction\ni:21884,1,1,600000,啃羊蹄,特變電工,1631722563,Auction\ni:21884,3,3,599900,Sghuntress,特變電工,1631722566,Auction\ni:21885,4,4,347897,Orangh,特變電工,1631722578,Auction\ni:31079,2,2,53999,伯爵鮮奶茶,特變電工,1631722590,Auction\ni:22851,1,2,1162000,Ryanchoi,特變電工,1632051323,Auction\ni:22851,1,2,1162500,啃羊蹄,特變電工,1632051330,Auction\ni:23446,20,40,10400,你靈魂會受難,特變電工,1632051768,Auction\ni:22573,10,20,955,涵風微笑,特變電工,1632051788,Auction\ni:22450,2,2,59500,斬卍凱蒂卍佛,特變電工,1632417625,Auction\ni:22854,1,5,1455000,棒之呼吸,邁克爾假死,1632545191,Auction\ni:28102,1,8,10600,菩提補薩,邁克爾假死,1632545256,Auction\ni:28056,200,4000,14,Merchant,邁克爾假死,1632545370,Vendor\ni:28056,200,2600,15,Merchant,邁克爾假死,1632557984,Vendor\ni:28056,200,1000,14,Merchant,邁克爾假死,1632561026,Vendor\ni:30053,1,1,9000000,終焉之戰,特變電工,1632576562,Trade\ni:29739,10,10,309229,麵條拉起來,特變電工,1632588106,Auction\ni:24033,1,1,184999,伯爵鮮奶茶,特變電工,1632588169,Auction\ni:24027,1,1,224995,台彎海森堡,特變電工,1632588183,Auction\ni:22449,2,2,219000,Magichilo,特變電工,1632750793,Auction\ni:22449,1,6,220999,Carman,特變電工,1632750802,Auction\ni:22450,1,3,49999,身寸起來,特變電工,1632750820,Auction\ni:22450,1,1,50500,蕾拉寶貝,特變電工,1632750833,Auction\ni:22450,2,2,49800,多如牛毛,特變電工,1632750838,Auction\ni:22446,4,4,54500,有附魔,特變電工,1632750867,Auction\ni:22445,20,40,8495,薇霓莎,特變電工,1632750879,Auction\ni:24478,1,1,1000,Merchant,特變電工,1633055630,Vendor\ni:22450,10,10,75000,哞西哞西,特變電工,1633091512,Auction\ni:22450,4,4,79000,一夢空,特變電工,1633091514,Auction\ni:30061,1,1,11000000,終焉之戰,特變電工,1633186340,Trade\ni:22535,1,1,100000,Merchant,特變電工,1633432537,Vendor\ni:21877,20,20,1525,只會裝逼,特變電工,1633606411,Auction\ni:22573,10,10,1460,倉儲助理,特變電工,1633606397,Auction\ni:22573,10,10,1466,Qiutian,特變電工,1633606399,Auction\ni:23446,20,20,12399,哞喜勒烤,特變電工,1633606372,Auction\ni:24033,1,2,77899,台彎海森堡,特變電工,1633879697,Auction\ni:29739,1,1,349000,你是在哭嗎,特變電工,1633879753,Auction\ni:29739,2,4,350000,Camelo,特變電工,1633879755,Auction\ni:29739,5,10,370000,德皇老喬,特變電工,1633879756,Auction\ni:29535,1,1,6239999,滔滔不在家,特變電工,1634367484,Auction\ni:24048,1,2,97900,風吹乳罩飄,特變電工,1634367351,Auction\ni:24048,1,1,97999,白龍採礦剝皮,特變電工,1634367355,Auction\ni:30052,1,1,20000000,終焉之戰,特變電工,1634389111,Trade\ni:30025,1,1,6000000,終焉之戰,特變電工,1634393652,Trade\ni:30246,1,1,17000000,終焉之戰,特變電工,1634396240,Trade\ni:29536,1,1,4979999,申申如也,特變電工,1634396996,Auction\ni:24055,1,1,98000,啊斯,特變電工,1634396950,Auction\ni:22449,2,2,261498,玥歌,特變電工,1634439867,Auction\ni:29449,5,40,1280,Merchant,特變電工,1634440361,Vendor\ni:22449,1,4,307993,Iamxiaobu,特變電工,1634984775,Auction\ni:22445,1,6,12498,麒麟,特變電工,1634984789,Auction\ni:30629,1,1,7000000,終焉之戰,特變電工,1634996774,Trade\ni:30058,1,1,6000000,終焉之戰,特變電工,1634998872,Trade\ni:22449,1,10,305998,復甦之光,特變電工,1635000952,Auction\ni:22450,1,3,90000,倉庫的農奴,特變電工,1635000975,Auction\ni:22450,1,3,95000,Piapiapia,特變電工,1635000982,Auction\ni:22446,10,10,104998,皮皮牛,特變電工,1635001007,Auction\ni:22445,20,40,11780,皮皮牛,特變電工,1635001017,Auction\ni:30098,1,1,5000000,終焉之戰,特變電工,1635002310,Trade\ni:22445,1,4,11800,聖光與你,特變電工,1635006817,Auction\ni:22451,1,1,315998,曉寶寶,特變電工,1635006831,Auction\ni:23446,5,20,16000,奸商花花,特變電工,1635066002,Auction\ni:22573,10,10,4000,魚的記憶,特變電工,1635066019,Auction\ni:22573,2,6,4100,哥哥姆湯,特變電工,1635066024,Auction\ni:22851,1,5,1089600,武科瓦奇,特變電工,1635077197,Auction\ni:22450,1,2,69000,抽水馮達,特變電工,1635183675,Auction\ni:22450,2,2,104000,独来独往,特變電工,1635355170,Auction\ni:24048,1,1,118498,白龍採礦剝皮,特變電工,1635385536,Auction\ni:22449,1,1,264000,Metalgear,特變電工,1635385609,Auction\ni:22449,1,2,265000,Lucozade,特變電工,1635385616,Auction\ni:22445,1,4,12800,丁樞機,特變電工,1635385624,Auction\ni:22446,3,3,90480,葛格法師,特變電工,1635385643,Auction\ni:23111,1,1,4800,漪霜雪,特變電工,1635427518,Auction\ni:24054,1,1,133500,熊熊的熊熊,特變電工,1635427648,Auction\ni:22445,2,8,12250,寶藏女孩,特變電工,1635432237,Auction\ni:22450,2,2,64500,寒冰貝戔,特變電工,1635567675,Auction\ni:22450,2,2,66000,皮魔王,特變電工,1635567678,Auction\ni:22450,1,2,65000,前大酋長握莖,特變電工,1635567683,Auction\ni:30446,1,1,2000000,終焉之戰,特變電工,1635611257,Trade\ni:29449,5,40,1280,Merchant,特變電工,1635670210,Vendor\ni:28274,1,1,34000,Merchant,特變電工,1635680644,Vendor\ni:23446,20,20,28500,哞哞麥可,特變電工,1636172206,Auction\ni:21877,20,40,1493,綠小姐,特變電工,1636172286,Auction\ni:32742,1,2,30000,Merchant,特變電工,1636187074,Vendor\ni:27498,1,8,500,Merchant,特變電工,1636187079,Vendor\ni:30057,1,1,10000000,终焉誓約,特變電工,1636205603,Trade\ni:24067,1,1,73742,救地正法,特變電工,1636216492,Auction\ni:22445,1,2,12499,曼施坦茵,特變電工,1636216571,Auction\ni:30099,1,1,3000000,終焉之戰,特變電工,1636815365,Trade\ni:30322,1,1,2000000,終焉之戰,特變電工,1636820286,Trade\ni:24067,1,1,102947,棒棒噠,特變電工,1636908900,Auction\ni:31868,1,1,147947,棒棒噠,特變電工,1636908921,Auction\ni:22450,1,1,80998,時光憶流年,特變電工,1636980949,Auction\ni:22450,1,2,80999,妹妹的誘惑,特變電工,1636980950,Auction\ni:22450,1,4,70000,抽水馮達,特變電工,1637381989,Auction\ni:22450,1,4,58000,蛇頭裡有舌頭,特變電工,1638100247,Auction\ni:22851,1,3,1284900,武科瓦奇,特變電工,1638100101,Auction\ni:22851,1,2,1285000,好想回祖國,特變電工,1638100106,Auction\ni:23446,20,20,27900,仓库贰号,特變電工,1638365951,Auction\ni:22573,10,20,4699,年少無知最瘋,特變電工,1638365973,Auction\ni:21877,8,8,1845,工具薩,特變電工,1638365986,Auction\ni:22450,1,4,71000,終焉之戰,特變電工,1638978689,Auction\ni:22854,1,1,2400000,阿曼尼擊天者,特變電工,1639223109,Auction\ni:22854,1,2,2410000,實驗倉庫,特變電工,1639223111,Auction\ni:33872,1,2,19699,聖盔周董,特變電工,1639223279,Auction\ni:33872,5,5,19799,八支八支半,特變電工,1639223283,Auction\ni:27664,20,20,3800,恰查某,特變電工,1639223287,Auction\ni:22449,2,2,376000,蜂蜜芒果紅茶,特變電工,1639223385,Auction\ni:22445,9,9,14800,Metalgear,特變電工,1639223396,Auction\ni:22450,1,6,100000,倉庫的農奴,特變電工,1639237418,Auction\ni:22449,1,10,376000,無情開雷,特變電工,1639237438,Auction\ni:22446,10,10,105500,半支菸的擱淺,特變電工,1639237467,Auction\ni:22445,20,40,14600,醬爆咪,特變電工,1639237475,Auction\ni:29996,1,1,73000000,終焉之戰,特變電工,1639238398,Trade\ni:22449,10,10,359896,時光憶流年,特變電工,1639310695,Auction\ni:22446,8,8,91250,法神倉庫,特變電工,1639310705,Auction\ni:22450,3,3,91500,Bnxx,特變電工,1639310711,Auction\ni:22450,1,3,92000,亞培,特變電工,1639310714,Auction\ni:22445,20,40,13800,帽子給我好嗎,特變電工,1639310721,Auction\ni:30627,1,1,101000000,終焉之戰,特變電工,1639318072,Trade\ni:22451,1,3,446600,勾芡,特變電工,1639669503,Auction\ni:22451,1,2,447000,漫天繁星,特變電工,1639669508,Auction\ni:22451,1,3,447998,瓜子臉,特變電工,1639669511,Auction\ni:29539,1,1,409000,蒼龍幻焰,特變電工,1639669521,Auction\ni:29539,1,3,410000,深得你心,特變電工,1639669523,Auction\ni:23793,2,4,67996,甩鍋俠,特變電工,1639669541,Auction\ni:24054,1,1,456997,生命紅寶石,特變電工,1639670858,Auction\ni:24048,1,1,371804,生命紅寶石,特變電工,1639670877,Auction\ni:23446,20,20,39199,一天晴一,特變電工,1639828219,Auction\ni:21877,20,40,3490,盛港盧卡斯,特變電工,1639828230,Auction\ni:22854,1,2,2497497,Pasta,特變電工,1639828255,Auction\ni:33872,20,40,8494,插棍,特變電工,1639828270,Auction\ni:32409,1,1,2447500,施噠噠,特變電工,1639836637,Auction\ni:23573,1,5,494997,一天晴一,特變電工,1639846293,Auction\ni:21884,10,10,620000,出門向右轉,特變電工,1639846311,Auction\ni:24067,1,2,240300,瑪麗亞安娜,特變電工,1639846387,Auction\ni:24048,1,1,358996,Pasta,特變電工,1639846641,Auction\ni:22854,1,7,1864999,阿齁,特變電工,1640410528,Auction\ni:22831,5,15,190501,白龍採礦剝皮,特變電工,1640411742,Auction\ni:22831,2,2,190000,帽子給我好嗎,特變電工,1640411717,Auction\ni:23446,1,8,45999,妙才連箭,特變電工,1640413445,Auction\ni:21877,20,20,2200,射爆你個頭,特變電工,1640413461,Auction\ni:30022,1,1,30000000,終焉之戰,特變電工,1640441829,Trade",
+	["r@伊弗斯@internalData@csvBuys"] = "itemString,stackSize,quantity,price,otherPlayer,player,time,source\ni:8952,5,35,800,Merchant,邁克爾假死,1622910669,Vendor\ni:11285,200,1200,5,Merchant,邁克爾假死,1622910699,Vendor\ni:28053,200,3200,8,Merchant,邁克爾假死,1622964452,Vendor\ni:29292,5,10,10,Merchant,邁克爾假死,1622967397,Vendor\ni:22012,1,1,50000,Merchant,邁克爾假死,1622977925,Vendor\ni:21992,1,1,20000,Merchant,邁克爾假死,1622977928,Vendor\ni:28053,200,2000,8,Merchant,邁克爾假死,1622983184,Vendor\ni:29112,1,1,300,Merchant,邁克爾假死,1622983244,Vendor\ni:28053,200,1200,8,Merchant,邁克爾假死,1622992532,Vendor\ni:14047,5,5,3800,小雷包,邁克爾假死,1623055511,Auction\ni:14047,20,20,3800,小雷包,邁克爾假死,1623055512,Auction\ni:14047,20,20,3900,Boglus,邁克爾假死,1623055515,Auction\ni:14047,20,40,4000,戰戰競競,邁克爾假死,1623055718,Auction\ni:21993,1,1,38000,Merchant,邁克爾假死,1623057375,Vendor\ni:28053,200,2600,8,Merchant,邁克爾假死,1623081255,Vendor\ni:28053,200,1400,8,Merchant,邁克爾假死,1623163508,Vendor\ni:21881,1,1,5000,Merchant,邁克爾假死,1623172462,Vendor\ni:28061,200,2200,14,Merchant,邁克爾假死,1623231174,Vendor\ni:28056,200,3200,14,Merchant,邁克爾假死,1623231325,Vendor\ni:27860,5,35,1216,Merchant,邁克爾假死,1623231461,Vendor\ni:29449,5,5,1520,Merchant,邁克爾假死,1624205042,Vendor\ni:29451,5,20,1520,Merchant,邁克爾假死,1624532950,Vendor\ni:28056,200,2000,14,Merchant,邁克爾假死,1624535247,Vendor\ni:28056,200,2400,14,Merchant,邁克爾假死,1624724811,Vendor\ni:28056,200,400,15,Merchant,邁克爾假死,1624774203,Vendor\ni:28399,5,5,1120,Merchant,邁克爾假死,1624774213,Vendor\ni:27860,5,25,1280,Merchant,邁克爾假死,1624774215,Vendor\ni:29451,5,40,1600,Merchant,邁克爾假死,1624780429,Vendor\ni:28056,200,2600,14,Merchant,邁克爾假死,1624785903,Vendor\ni:33042,5,20,1280,Merchant,邁克爾假死,1624797380,Vendor\ni:28056,200,2800,14,Merchant,邁克爾假死,1624800929,Vendor\ni:28056,200,2000,14,Merchant,邁克爾假死,1624807013,Vendor\ni:28056,200,1000,14,Merchant,邁克爾假死,1624812009,Vendor\ni:28053,200,1800,8,Merchant,邁克爾假死,1624854720,Vendor\ni:28053,200,1400,8,Merchant,邁克爾假死,1624950789,Vendor\ni:28056,200,3400,14,Merchant,邁克爾假死,1624957442,Vendor\ni:29451,5,20,1520,Merchant,邁克爾假死,1624958099,Vendor\ni:28056,200,2000,14,Merchant,邁克爾假死,1624965738,Vendor\ni:25476,1,1,1000000,Merchant,邁克爾假死,1624969648,Vendor\ni:8925,5,5,475,Merchant,邁克爾假死,1624970139,Vendor\ni:28056,200,1400,14,Merchant,邁克爾假死,1624970168,Vendor\ni:28056,200,1000,14,Merchant,邁克爾假死,1624975699,Vendor\ni:27860,5,20,1152,Merchant,邁克爾假死,1625021462,Vendor\ni:28056,200,2000,14,Merchant,邁克爾假死,1625023577,Vendor\ni:23121,1,1,49998,妮妮小輝,邁克爾假死,1625030222,Auction\ni:28290,1,1,49599,棒棒噠,邁克爾假死,1625030173,Auction\ni:23097,1,1,64498,放魚,邁克爾假死,1625030082,Auction\ni:23097,1,1,64497,妮妮小輝,邁克爾假死,1625030080,Auction\ni:28056,200,1800,14,Merchant,邁克爾假死,1625032437,Vendor\ni:28056,200,1400,14,Merchant,邁克爾假死,1625038892,Vendor\ni:30633,1,1,85000,Merchant,邁克爾假死,1625039029,Vendor\ni:28056,200,1200,13,Merchant,邁克爾假死,1625044625,Vendor\ni:30623,1,1,85000,Merchant,邁克爾假死,1625044642,Vendor\ni:29451,5,40,1520,Merchant,邁克爾假死,1625046990,Vendor\ni:14341,1,1,4750,Merchant,邁克爾假死,1625046990,Vendor\ni:28056,200,1400,14,Merchant,邁克爾假死,1625052092,Vendor\ni:30635,1,1,85000,Merchant,邁克爾假死,1625053063,Vendor\ni:28056,200,800,14,Merchant,邁克爾假死,1625065704,Vendor\ni:28056,200,1800,14,Merchant,邁克爾假死,1625119600,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625122961,Vendor\ni:23121,1,1,48598,想念讚讚,邁克爾假死,1625123995,Auction\ni:23095,1,3,108500,龍痕飛雪,邁克爾假死,1625123971,Auction\ni:28053,200,2000,8,Merchant,邁克爾假死,1625131980,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625132965,Vendor\ni:23097,1,2,60000,無星夜,邁克爾假死,1625136857,Auction\ni:28056,200,3000,14,Merchant,邁克爾假死,1625142335,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625144849,Vendor\ni:23116,1,1,74500,湯姆大臘腸,邁克爾假死,1625145167,Auction\ni:32409,1,1,4582500,施噠噠,邁克爾假死,1625145151,Auction\ni:23097,1,1,49999,想念讚讚,邁克爾假死,1625145044,Auction\ni:22456,1,1,852000,蛭摩妖一,邁克爾假死,1625154937,Auction\ni:22456,1,1,850000,小草白,邁克爾假死,1625154938,Auction\ni:22456,1,2,830000,一刀斃了你,邁克爾假死,1625154938,Auction\ni:22456,1,4,829000,靈魂魔笛手,邁克爾假死,1625154939,Auction\ni:25707,2,2,46000,薩諾斯膠囊,邁克爾假死,1625154913,Auction\ni:25707,1,1,37500,克羅小熊,邁克爾假死,1625154911,Auction\ni:25707,5,5,49600,血厲,邁克爾假死,1625154911,Auction\ni:23793,10,10,87900,你販劍嗎,邁克爾假死,1625154892,Auction\ni:14341,1,3,4750,Merchant,邁克爾假死,1625155061,Vendor\ni:23097,1,1,48999,故道小王子,邁克爾假死,1625155475,Auction\ni:24048,1,1,1270000,龍痕飛雪,邁克爾假死,1625155443,Auction\ni:29451,5,35,1360,Merchant,邁克爾假死,1625156228,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625159424,Vendor\ni:29192,1,1,850000,Merchant,邁克爾假死,1625162590,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625193917,Vendor\ni:27860,5,30,1216,Merchant,邁克爾假死,1625193941,Vendor\ni:30634,1,1,85000,Merchant,邁克爾假死,1625198337,Vendor\ni:28053,200,400,8,Merchant,邁克爾假死,1625199582,Vendor\ni:28056,200,800,14,Merchant,邁克爾假死,1625199586,Vendor\ni:30637,1,1,85000,Merchant,邁克爾假死,1625203340,Vendor\ni:28056,200,1000,14,Merchant,邁克爾假死,1625204868,Vendor\ni:22832,5,5,24000,成都張叔叔,邁克爾假死,1625207881,Trade\ni:28056,200,1400,14,Merchant,邁克爾假死,1625215341,Vendor\ni:28056,200,1400,14,Merchant,邁克爾假死,1625282652,Vendor\ni:28056,200,800,14,Merchant,邁克爾假死,1625286692,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625304946,Vendor\ni:28056,200,1400,14,Merchant,邁克爾假死,1625313094,Vendor\ni:22831,5,5,148000,頭暈暈,邁克爾假死,1625313306,Auction\ni:28056,200,3200,14,Merchant,邁克爾假死,1625317001,Vendor\ni:28649,1,1,5000000,皮蛋瘦肉粥,邁克爾假死,1625323911,Trade\ni:28056,200,1000,14,Merchant,邁克爾假死,1625324426,Vendor\ni:23097,1,2,90000,特快噗噗車,邁克爾假死,1625332561,Auction\ni:22445,20,20,17500,草莓多拿滋,邁克爾假死,1625332830,Auction\ni:22446,6,6,53333,Cbuff,邁克爾假死,1625332810,Auction\ni:22449,1,8,351000,原料存放,邁克爾假死,1625332793,Auction\ni:28056,200,2000,14,Merchant,邁克爾假死,1625333132,Vendor\ni:29451,5,30,1360,Merchant,邁克爾假死,1625376517,Vendor\ni:28056,200,1600,14,Merchant,邁克爾假死,1625382254,Vendor\ni:28056,200,2600,14,Merchant,邁克爾假死,1625399107,Vendor\ni:31074,1,1,41555,Merchant,邁克爾假死,1625403096,Vendor\ni:4552,4,8,530,Merchant,邁克爾假死,1625410701,Vendor\ni:25306:-9,1,2,70314,Merchant,邁克爾假死,1625410701,Vendor\ni:28056,200,2000,3,Merchant,邁克爾假死,1625410701,Vendor\ni:27854,2,4,280,Merchant,邁克爾假死,1625410701,Vendor\ni:30959,1,2,48587,Merchant,邁克爾假死,1625410701,Vendor\ni:24477,4,8,100,Merchant,邁克爾假死,1625410701,Vendor\ni:17057,4,8,7,Merchant,邁克爾假死,1625410701,Vendor\ni:28056,200,1600,14,Merchant,邁克爾假死,1625415326,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625456739,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625466878,Vendor\ni:28056,200,2600,14,Merchant,邁克爾假死,1625588744,Vendor\ni:29451,5,35,1360,Merchant,邁克爾假死,1625591309,Vendor\ni:22831,1,5,117500,聽你在放屁,邁克爾假死,1625824134,Auction\ni:22832,5,10,52000,老欉文旦,邁克爾假死,1625823979,Auction\ni:22832,5,5,52000,捅阿捅,邁克爾假死,1625823981,Auction\ni:28056,200,2000,14,Merchant,邁克爾假死,1625824626,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625829677,Vendor\ni:25477,1,1,2000000,Merchant,邁克爾假死,1625829956,Vendor\ni:28056,200,3000,14,Merchant,邁克爾假死,1625837947,Vendor\ni:28056,200,400,14,Merchant,邁克爾假死,1625840383,Vendor\ni:21841,1,3,95900,南歌雾散,邁克爾假死,1625888811,Auction\ni:22832,5,5,52000,黑暗褲褲,邁克爾假死,1625823985,Auction\ni:22446,7,7,44600,三天沒洗頭,邁克爾假死,1625889688,Auction\ni:22446,1,1,44400,Aiyoki,邁克爾假死,1625889693,Auction\ni:22445,10,10,11000,帽子給我好嗎,邁克爾假死,1625889719,Auction\ni:23097,1,2,45000,特快噗噗車,邁克爾假死,1625890099,Auction\ni:31865,1,1,463998,想念讚讚,邁克爾假死,1625890167,Auction\ni:9172,5,5,47200,高山清茶,邁克爾假死,1625896956,Auction\ni:3823,5,5,9900,眼花花種瓜,邁克爾假死,1625896961,Auction\ni:29451,5,25,1360,Merchant,邁克爾假死,1625902014,Vendor\ni:28056,200,1600,14,Merchant,邁克爾假死,1625902046,Vendor\ni:33042,5,20,1280,Merchant,邁克爾假死,1625912161,Vendor\ni:28056,200,1400,14,Merchant,邁克爾假死,1625920379,Vendor\ni:33999,1,1,16000000,Merchant,邁克爾假死,1625921462,Vendor\ni:28056,200,2000,14,Merchant,邁克爾假死,1625932272,Vendor\ni:29451,5,15,1360,Merchant,邁克爾假死,1625932325,Vendor\ni:28056,200,1200,14,Merchant,邁克爾假死,1625936383,Vendor\ni:28056,200,1800,14,Merchant,邁克爾假死,1625985618,Vendor\ni:21841,1,1,96500,酷英雄,邁克爾假死,1626026551,Auction\ni:21841,1,1,93900,諸行無常,邁克爾假死,1626026552,Auction\ni:21841,1,2,85000,碧昂屍吉屎兒,邁克爾假死,1626026554,Auction\ni:2493,1,1,666,Merchant,特變電工,1626026781,Vendor\ni:4541,5,40,24,Merchant,特變電工,1626061278,Vendor\ni:2401,1,1,314,Merchant,特變電工,1626061346,Vendor\ni:2400,1,1,415,Merchant,特變電工,1626061348,Vendor\ni:2402,1,1,209,Merchant,特變電工,1626061350,Vendor\ni:2398,1,1,412,Merchant,特變電工,1626061352,Vendor\ni:2399,1,1,207,Merchant,特變電工,1626061354,Vendor\ni:2403,1,1,210,Merchant,特變電工,1626061356,Vendor\ni:1197,1,1,2400,Merchant,特變電工,1626074478,Vendor\ni:2509,1,1,373,Merchant,特變電工,1626074488,Vendor\ni:2516,200,400,0,Merchant,特變電工,1626074492,Vendor\ni:28056,200,1400,14,Merchant,邁克爾假死,1626108279,Vendor\ni:27854,5,40,1120,Merchant,特變電工,1626267090,Vendor\ni:18794,1,1,900000,Merchant,特變電工,1626281774,Vendor\ni:2589,20,40,1269,彗星軌跡,特變電工,1626282225,Auction\ni:2589,20,20,1270,惡魔小辣椒,特變電工,1626282230,Auction\ni:2589,20,40,1270,惡魔小辣椒,特變電工,1626282595,Auction\ni:2592,10,10,3200,忙著打牌,特變電工,1626282610,Auction\ni:2592,4,44,3300,嗯嗯哼,特變電工,1626282611,Auction\ni:2592,4,4,3400,Kiana,特變電工,1626282620,Auction\ni:2592,6,6,4200,石原希望,特變電工,1626282622,Auction\ni:2592,20,60,4250,施噠噠,特變電工,1626282623,Auction\ni:2592,20,60,4440,Mnmi,特變電工,1626282626,Auction\ni:16084,1,1,27000,汙染者軍需官,特變電工,1626283279,Auction\ni:16112,1,1,17800,老字號,特變電工,1626283274,Auction\ni:4306,20,60,990,一人管理一國,特變電工,1626283297,Auction\ni:14047,20,120,750,Kawakami,特變電工,1626283355,Auction\ni:14047,20,20,900,Mailgear,特變電工,1626283364,Auction\ni:4306,20,20,985,姆咪咪,特變電工,1626283291,Auction\ni:4306,20,20,995,上個月的羊肉,特變電工,1626283301,Auction\ni:4306,7,7,995,上個月的羊肉,特變電工,1626283304,Auction\ni:4306,20,60,1000,小英純真可愛,特變電工,1626283308,Auction\ni:16113,1,1,112000,汙染者軍需官,邁克爾假死,1626284459,Auction\ni:4338,20,20,5444,小英純真可愛,特變電工,1626283335,Auction\ni:4338,20,80,6000,巴洛瑪,特變電工,1626283348,Auction\ni:4338,20,100,5857,用之不竭,特變電工,1626283350,Auction\ni:4306,20,20,990,一人管理一國,特變電工,1626283290,Auction\ni:4306,20,120,1000,小英純真可愛,特變電工,1626283294,Auction\ni:4338,17,17,4640,小英純真可愛,特變電工,1626283315,Auction\ni:4338,2,2,5400,不悔光明左使,特變電工,1626283319,Auction\ni:4338,13,13,5400,不悔光明左使,特變電工,1626283321,Auction\ni:4338,20,20,5400,不悔光明左使,特變電工,1626283321,Auction\ni:4338,6,6,5500,Shoulder,特變電工,1626283324,Auction\ni:4338,6,6,5600,胖胖龍爹地,特變電工,1626283325,Auction\ni:4338,5,5,5700,楓葉呆呆,特變電工,1626283326,Auction\ni:4338,11,11,5859,小英純真可愛,特變電工,1626283330,Auction\ni:14047,20,20,850,性感大種馬,特變電工,1626283352,Auction\ni:14047,20,40,900,Mailgear,特變電工,1626283352,Auction\ni:14047,20,20,955,咖啡因戰士,特變電工,1626283354,Auction\ni:14047,20,20,959,仓库贰号,特變電工,1626283355,Auction\ni:14047,20,20,959,超桂麥給你,特變電工,1626283356,Auction\ni:14047,20,40,960,神戶霜降肉質,特變電工,1626283358,Auction\ni:27855,5,45,1064,Merchant,特變電工,1626315771,Vendor\ni:22012,1,1,50000,Merchant,特變電工,1626315939,Vendor\ni:22012,1,1,12500,Merchant,特變電工,1626315948,Vendor\ni:14047,20,40,2650,靜書年華,畜生犬隊長,1626316386,Auction\ni:14047,20,40,2600,白茶烏龍,畜生犬隊長,1626316401,Auction\ni:21992,1,1,20000,Merchant,特變電工,1626316685,Vendor\ni:21993,1,1,40000,Merchant,特變電工,1626316687,Vendor\ni:29112,1,1,300,Merchant,特變電工,1626339418,Vendor\ni:25048:-9,1,1,30284,Merchant,特變電工,1626373544,Vendor\ni:27676,3,3,200,Merchant,特變電工,1626373544,Vendor\ni:24616:-8,1,1,12356,Merchant,特變電工,1626373544,Vendor\ni:24151,1,1,75303,Merchant,特變電工,1626373544,Vendor\ni:25522,1,1,32604,Merchant,特變電工,1626373544,Vendor\ni:25923,1,1,27810,Merchant,特變電工,1626373544,Vendor\ni:24245,1,1,146,Merchant,特變電工,1626373544,Vendor\ni:18588,5,5,200,Merchant,特變電工,1626373544,Vendor\ni:27553,5,5,30,Merchant,特變電工,1626373544,Vendor\ni:17057,2,2,7,Merchant,特變電工,1626373544,Vendor\ni:17058,2,2,7,Merchant,特變電工,1626373544,Vendor\ni:31786,1,1,27639,Merchant,特變電工,1626373544,Vendor\ni:27855,5,40,1064,Merchant,特變電工,1626426950,Vendor\ni:3033,200,200,1,Merchant,特變電工,1626460511,Vendor\ni:21841,1,4,90999,潑屎妹,特變電工,1626460639,Auction\ni:3859,20,300,28999,掐礦,特變電工,1626461026,Auction\ni:3859,20,100,27500,Sprewell,特變電工,1626461019,Auction\ni:3575,20,80,10990,哞喜勒烤,特變電工,1626460980,Auction\ni:3575,20,80,10400,三歲就會飛,特變電工,1626460975,Auction\ni:3575,4,8,10400,三歲就會飛,特變電工,1626460971,Auction\ni:3575,20,40,9500,妃暄,特變電工,1626460970,Auction\ni:3575,17,34,9412,妃暄,特變電工,1626460970,Auction\ni:3575,20,140,9000,炎曲尤加,特變電工,1626460967,Auction\ni:3577,14,28,16429,追風法師,特變電工,1626460946,Auction\ni:2838,20,60,9800,我愛做麵包,特變電工,1626460931,Auction\ni:2838,19,38,9800,我愛做麵包,特變電工,1626460930,Auction\ni:2838,20,80,9775,提姆先生,特變電工,1626460929,Auction\ni:2838,20,80,9500,提姆先生,特變電工,1626460927,Auction\ni:2838,19,38,6800,貓街夢少女,特變電工,1626460927,Auction\ni:2838,18,18,6700,阿浮斯,特變電工,1626460926,Auction\ni:2838,2,4,6600,風見準人,特變電工,1626460926,Auction\ni:2838,4,12,6599,孤乄狼,特變電工,1626460925,Auction\ni:2838,6,12,6400,索霖,特變電工,1626460924,Auction\ni:2838,3,6,6250,雷射鋼羊毛,特變電工,1626460924,Auction\ni:2838,20,80,6400,索霖,特變電工,1626460921,Auction\ni:2838,20,40,6000,追風法師,特變電工,1626460919,Auction\ni:2838,15,45,5933,追風法師,特變電工,1626460918,Auction\ni:2838,1,2,5800,Clannad,特變電工,1626460918,Auction\ni:2838,3,6,5700,三歲就會飛,特變電工,1626460918,Auction\ni:2838,1,1,5500,Ezgg,特變電工,1626460917,Auction\ni:2838,9,27,5600,龍舌蘭加檸檬,特變電工,1626460917,Auction\ni:2841,20,80,2000,炎曲尤加,特變電工,1626460906,Auction\ni:2841,20,40,1995,拜索斯,特變電工,1626460904,Auction\ni:2841,4,8,1990,Ezgg,特變電工,1626460904,Auction\ni:2841,20,100,1950,追風法師,特變電工,1626460904,Auction\ni:2841,14,42,1786,追風法師,特變電工,1626460902,Auction\ni:2841,20,40,1495,色誘聯盟專家,特變電工,1626460902,Auction\ni:2841,10,30,1490,色誘聯盟專家,特變電工,1626460901,Auction\ni:2841,12,24,833,炎曲尤加,特變電工,1626460900,Auction\ni:2842,10,20,4800,Jj,特變電工,1626460886,Auction\ni:2836,19,57,985,這位大德,特變電工,1626460869,Auction\ni:2836,7,14,985,叫我擋會滅團,特變電工,1626460868,Auction\ni:2836,10,20,975,我愛做麵包,特變電工,1626460868,Auction\ni:2836,1,6,899,色誘聯盟專家,特變電工,1626460867,Auction\ni:2836,3,6,970,索霖,特變電工,1626460867,Auction\ni:2836,10,20,895,幽兒希卡比獸,特變電工,1626460867,Auction\ni:2836,5,10,745,諮諮,特變電工,1626460867,Auction\ni:2836,8,16,750,追風法師,特變電工,1626460867,Auction\ni:2836,2,6,740,叫我擋會滅團,特變電工,1626460866,Auction\ni:2836,5,5,740,活一天算一天,特變電工,1626460867,Auction\ni:2836,3,6,735,熊貓奶茶,特變電工,1626460867,Auction\ni:2836,20,40,750,Tboy,特變電工,1626460859,Auction\ni:2836,20,60,745,諮諮,特變電工,1626460859,Auction\ni:2836,5,10,695,龍舌蘭加檸檬,特變電工,1626460858,Auction\ni:2836,14,28,717,白魔后,特變電工,1626460856,Auction\ni:2836,20,60,700,追風法師,特變電工,1626460855,Auction\ni:2836,12,12,690,聖光又變弱了,特變電工,1626460854,Auction\ni:2836,19,19,579,炎曲尤加,特變電工,1626460854,Auction\ni:2836,20,80,690,聖光又變弱了,特變電工,1626460850,Auction\ni:2836,20,80,650,炎曲尤加,特變電工,1626460848,Auction\ni:2835,20,40,300,炎曲尤加,特變電工,1626460834,Auction\ni:2835,2,6,197,叫我擋會滅團,特變電工,1626460832,Auction\ni:2835,19,38,184,追風法師,特變電工,1626460832,Auction\ni:2835,20,100,233,離魂判,特變電工,1626460829,Auction\ni:2835,20,120,231,索霖,特變電工,1626460827,Auction\ni:2835,20,20,198,諮諮,特變電工,1626460825,Auction\ni:2835,20,140,190,追風法師,特變電工,1626460822,Auction\ni:2605,1,1,95,Merchant,特變電工,1626461171,Vendor\ni:2605,10,30,95,Merchant,特變電工,1626461174,Vendor\ni:5956,1,1,17,Merchant,特變電工,1626461886,Vendor\ni:3478,20,20,10,Merchant,特變電工,1626462089,Vendor\ni:3575,20,40,10990,哞喜勒烤,特變電工,1626462946,Auction\ni:2605,10,30,90,Merchant,特變電工,1626498357,Vendor\ni:3575,20,60,10200,真的沒想法,特變電工,1626498271,Auction\ni:7912,20,40,9900,梅田阪急百貨,特變電工,1626498636,Auction\ni:7912,20,60,9900,伊豆牧,特變電工,1626498630,Auction\ni:7912,11,11,4025,你印堂發黑,特變電工,1626498630,Auction\ni:7912,1,2,1485,伊布,特變電工,1626498629,Auction\ni:7912,3,3,1480,我愛做麵包,特變電工,1626498629,Auction\ni:7912,20,20,10000,狂熱之怒,特變電工,1626498719,Auction\ni:7912,8,8,1175,熊熊兇巴巴,特變電工,1626498720,Auction\ni:7912,19,19,10448,幸運魔人,特變電工,1626498764,Auction\ni:7912,6,6,10448,幸運魔人,特變電工,1626498763,Auction\ni:3860,1,6,26800,真的沒想法,特變電工,1626498901,Auction\ni:3860,20,80,26800,真的沒想法,特變電工,1626499480,Auction\ni:3860,1,19,26800,真的沒想法,特變電工,1626499479,Auction\ni:3860,20,60,26000,污染者軍需官,特變電工,1626499482,Auction\ni:4338,20,40,4614,法嗖啦西,特變電工,1626499524,Auction\ni:28470,1,1,19000,Merchant,特變電工,1626534595,Vendor\ni:29739,1,1,399000,Rize,特變電工,1626585319,Auction\ni:31673,3,3,150,Merchant,特變電工,1626607854,Vendor\ni:27651,3,3,150,Merchant,特變電工,1626607856,Vendor\ni:25477,1,1,2000000,Merchant,特變電工,1626781924,Vendor\ni:21841,1,1,49800,呼呼啾不痛,特變電工,1626782388,Auction\ni:21841,1,2,50000,脫裝備單挑,特變電工,1626782391,Auction\ni:7989,1,1,4197500,廢歐娜,特變電工,1626782993,Auction\ni:3860,20,20,18000,阿姨不是人,特變電工,1626782549,Auction\ni:3860,3,3,20600,駱馬兒,特變電工,1626782553,Auction\ni:3860,20,60,21500,索爾公會倉庫,特變電工,1626782585,Auction\ni:12359,20,20,21490,阿公,特變電工,1626782658,Auction\ni:12359,14,14,20000,劉吉兒,特變電工,1626782659,Auction\ni:3860,20,40,20799,雪丶無痕,特變電工,1626782565,Auction\ni:3860,20,20,20800,Exilesorcere,特變電工,1626782569,Auction\ni:3860,20,20,21000,妹妹的誘惑,特變電工,1626782593,Auction\ni:4304,4,4,9900,阿芸,特變電工,1626783209,Auction\ni:1210,11,11,7200,伊利冄,特變電工,1626783201,Auction\ni:7971,1,2,29800,Bkm,特變電工,1626783188,Auction\ni:4234,2,2,8249,紫色的月光,特變電工,1626783328,Auction\ni:4234,7,7,5714,大右池久,特變電工,1626783328,Auction\ni:3864,2,2,10101,血月雪,特變電工,1626783306,Auction\ni:3864,1,2,9900,小朱莉,特變電工,1626783306,Auction\ni:12163,1,1,299999,白龍採礦剝皮,特變電工,1626783440,Auction\ni:12164,1,1,50000,月半,特變電工,1626783397,Auction\ni:2838,20,20,2300,Bkm,特變電工,1626783902,Auction\ni:4234,20,20,5000,天玥雪,特變電工,1626783893,Auction\ni:1705,3,3,20000,Cjck,特變電工,1626783874,Auction\ni:1705,1,5,19800,黃泉引路豬,特變電工,1626783868,Auction\ni:1705,1,1,19400,卡禿嚕皮,特變電工,1626783871,Auction\ni:1705,1,1,19000,戀居舒適,特變電工,1626783871,Auction\ni:1705,1,1,19200,頑皮卡丘,特變電工,1626783873,Auction\ni:1705,1,1,19600,都是浮雲,特變電工,1626783877,Auction\ni:3466,8,8,1800,Merchant,特變電工,1626783999,Vendor\ni:2838,5,5,2899,今天飛高高,特變電工,1626784243,Auction\ni:2838,20,20,2490,阿姨不是人,特變電工,1626784241,Auction\ni:3577,11,11,8600,社會我共治,特變電工,1626784186,Auction\ni:3575,13,13,9800,小西貓,特變電工,1626784164,Auction\ni:3466,8,8,1800,Merchant,特變電工,1626784304,Vendor\ni:7912,20,120,1090,臭鳥蛋,特變電工,1626786176,Auction\ni:7912,5,5,1085,褲子掉下來,特變電工,1626786181,Auction\ni:12365,20,60,2062,五月寒如水,特變電工,1626786409,Auction\ni:14047,20,20,497,娑婆,特變電工,1626786495,Auction\ni:14047,20,20,496,真牛魔王子,特變電工,1626786496,Auction\ni:7912,20,20,1070,寒霜之冬,特變電工,1626783108,Auction\ni:7912,19,19,1053,兩個靈魂,特變電工,1626783109,Auction\ni:7912,12,12,1070,寒霜之冬,特變電工,1626783110,Auction\ni:7912,14,14,1050,蓮霧派對,特變電工,1626783111,Auction\ni:3860,20,20,21399,雪丶無痕,特變電工,1626782538,Auction\ni:12359,20,20,19599,今天飛高高,特變電工,1626782609,Auction\ni:3860,19,19,21600,黃泉引路豬,特變電工,1626782557,Auction\ni:7912,20,20,890,阿姨不是人,特變電工,1626783130,Auction\ni:7912,3,3,885,阿浮斯,特變電工,1626783132,Auction\ni:7912,20,40,880,Bkm,特變電工,1626783132,Auction\ni:7912,16,16,1000,提姆先生,特變電工,1626783140,Auction\ni:7912,13,13,1030,鐵衛牙,特變電工,1626783145,Auction\ni:7912,5,5,1025,駱馬兒,特變電工,1626783146,Auction\ni:7912,3,3,1000,提姆先生,特變電工,1626783146,Auction\ni:7912,6,6,1045,Hanymuer,特變電工,1626783153,Auction\ni:7912,5,5,1040,Bkm,特變電工,1626783154,Auction\ni:7912,4,4,1080,臭鳥蛋,特變電工,1626786165,Auction\ni:7912,1,1,1050,鬼武葬,特變電工,1626783119,Auction\ni:7912,4,4,1035,駱馬兒,特變電工,1626783118,Auction\ni:7912,2,2,995,紅燒牛楠燴飯,特變電工,1626783114,Auction\ni:7912,2,2,990,胖胖龍爹地,特變電工,1626783115,Auction\ni:12359,20,80,21600,威力聖光,特變電工,1626782652,Auction\ni:12359,2,2,21600,威力聖光,特變電工,1626782654,Auction\ni:12359,20,60,21495,牧丹,特變電工,1626782654,Auction\ni:8170,20,60,17000,餅乾商店,邁克爾假死,1626789464,Auction\ni:12359,20,20,21495,牧丹,特變電工,1626782611,Auction\ni:12359,20,40,21490,阿公,特變電工,1626782612,Auction\ni:12359,3,3,21333,黑暗褲褲,特變電工,1626782614,Auction\ni:12359,12,12,20000,一祈福一,特變電工,1626782613,Auction\ni:12359,1,1,20000,牧丹,特變電工,1626782616,Auction\ni:12359,1,1,20000,黑暗牛肉麵,特變電工,1626782618,Auction\ni:12359,8,8,19600,駱馬兒,特變電工,1626782618,Auction\ni:12359,20,40,24444,阿魚,邁克爾假死,1626789876,Auction\ni:12359,20,60,25000,阿公,邁克爾假死,1626789883,Auction\ni:10620,12,12,21400,威力始元,邁克爾假死,1626789959,Auction\ni:10620,18,18,21600,Bkm,邁克爾假死,1626789961,Auction\ni:10620,20,40,21600,Bkm,邁克爾假死,1626789962,Auction\ni:10620,20,120,21800,台彎海森堡,邁克爾假死,1626789968,Auction\ni:23424,20,60,9900,觚隷,邁克爾假死,1626790656,Auction\ni:23424,20,160,10400,豆屎蝕尸,邁克爾假死,1626790678,Auction\ni:23424,20,60,10599,倉庫軍,邁克爾假死,1626790786,Auction\ni:23424,20,40,10600,Jacinthe,邁克爾假死,1626790793,Auction\ni:23424,20,20,10600,Jacinthe,邁克爾假死,1626790752,Auction\ni:23424,20,80,11800,粉色的尼拉克,邁克爾假死,1626790759,Auction\ni:23424,20,220,11900,关宏峰,邁克爾假死,1626790767,Auction\ni:23425,20,140,31500,朵一,邁克爾假死,1626792470,Auction\ni:23425,20,80,31500,哈那,邁克爾假死,1626792467,Auction\ni:23425,20,20,31495,玖娘子,邁克爾假死,1626792765,Auction\ni:23424,20,80,11900,关宏峰,邁克爾假死,1626790792,Auction\ni:23424,20,140,11995,綠小姐,邁克爾假死,1626790801,Auction\ni:23424,20,20,12250,緣之石,邁克爾假死,1626790799,Auction\ni:21841,1,4,55000,南歌雾散,邁克爾假死,1626794030,Auction\ni:25526,1,1,54000,Merchant,特變電工,1626794832,Vendor\ni:23591,1,1,36000,Merchant,特變電工,1626795587,Vendor\ni:23426,18,18,78007,綠小姐,邁克爾假死,1626800729,Auction\ni:23426,20,20,78007,綠小姐,邁克爾假死,1626800730,Auction\ni:23426,2,2,80000,臉黑非洲人,邁克爾假死,1626800734,Auction\ni:23426,20,20,80020,Cdlv,邁克爾假死,1626800737,Auction\ni:23426,20,40,80025,Meya,邁克爾假死,1626800738,Auction\ni:23618,1,1,54000,Merchant,特變電工,1626801690,Vendor\ni:28632,1,1,54000,Merchant,特變電工,1626801691,Vendor\ni:23425,20,60,31075,老鼠人,邁克爾假死,1626801986,Auction\ni:23427,20,40,55000,大倉庫仔,邁克爾假死,1626802423,Auction\ni:23116,1,4,57399,放魚,特變電工,1626803984,Auction\ni:23095,1,1,46597,茈茈,特變電工,1626851535,Auction\ni:29449,5,20,1520,Merchant,特變電工,1626868943,Vendor\ni:28061,200,200,14,Merchant,特變電工,1626869200,Vendor\ni:23111,1,3,3700,啊斯,特變電工,1626878119,Auction\ni:25896,1,1,2502500,施噠噠,特變電工,1626878067,Auction\ni:22573,10,10,13100,獸人加魯魯蛇,特變電工,1626879225,Auction\ni:22573,10,30,12999,飛天吉娃娃,特變電工,1626879224,Auction\ni:23446,20,20,59999,今天飛高高,特變電工,1626879200,Auction\ni:22445,5,5,13400,小樂子,特變電工,1626879060,Auction\ni:22445,7,7,13000,浪漫牛兒,特變電工,1626879054,Auction\ni:22445,1,1,13400,小樂子,特變電工,1626879061,Auction\ni:22445,2,2,12800,速嵐轎,特變電工,1626879056,Auction\ni:22446,1,1,48200,小樂子,特變電工,1626879552,Auction\ni:22445,20,40,13200,術法歪哥,特變電工,1626879524,Auction\ni:23116,1,1,54998,茈茈,特變電工,1626891973,Auction\ni:23118,1,1,33400,魔術手,特變電工,1626892122,Auction\ni:23100,1,1,41600,龍痕飛雪,特變電工,1626892100,Auction\ni:30623,1,1,85000,Merchant,特變電工,1626926071,Vendor\ni:23116,1,3,44800,圓球鋪,特變電工,1626963717,Auction\ni:30635,1,1,85000,Merchant,特變電工,1626969684,Vendor\ni:29186,1,1,850000,Merchant,特變電工,1626969689,Vendor\ni:30633,1,1,85000,Merchant,特變電工,1626973297,Vendor\ni:6214,1,1,78708,白龍採礦剝皮,特變電工,1627117995,Auction\ni:21841,1,4,59400,Austinger,邁克爾假死,1627141110,Auction\ni:21340,1,1,181249,白龍採礦剝皮,邁克爾假死,1627141203,Auction\ni:28056,200,2000,14,Merchant,邁克爾假死,1627143693,Vendor\ni:15268:845,1,1,5000,妖刖,特變電工,1627194813,Auction\ni:4567:1100,1,1,11000,細雪丨,特變電工,1627194802,Auction\ni:21885,1,1,530000,慢慢喵,特變電工,1627199180,Auction\ni:21885,2,4,530000,大樹的術,特變電工,1627199177,Auction\ni:21885,1,8,514000,樂觀二尖瓣,特變電工,1627199172,Auction\ni:21885,1,3,509900,殞落王者之劍,特變電工,1627199170,Auction\ni:21885,1,2,509899,八倍鏡,特變電工,1627199168,Auction\ni:21885,1,2,509500,阿席莉帕,特變電工,1627199167,Auction\ni:21885,1,17,509500,天才小喇叭,特變電工,1627199165,Auction\ni:1705,2,4,17000,阿姨不是人,特變電工,1626783859,Auction\ni:3860,2,4,21400,駱馬兒,特變電工,1626782544,Auction\ni:22451,1,3,558000,蛋比鳥大,特變電工,1627199524,Auction\ni:22451,1,2,558000,德羅茲狼嚎,特變電工,1627199521,Auction\ni:22451,2,20,558000,德羅茲狼嚎,特變電工,1627199520,Auction\ni:22451,1,2,557000,小樂子,特變電工,1627199513,Auction\ni:22451,1,5,556999,王雨瑤,特變電工,1627199512,Auction\ni:22451,1,4,556000,葛爾諾斯他婆,特變電工,1627199509,Auction\ni:28290,1,1,49999,棒棒噠,特變電工,1627199657,Auction\ni:23118,1,5,11499,棒棒噠,特變電工,1627199631,Auction\ni:23095,1,5,79000,施噠噠,特變電工,1627199608,Auction\ni:22445,1,11,13299,曼施坦茵,特變電工,1627401149,Auction\ni:22445,20,60,15000,大象埃德蒙,特變電工,1627401140,Auction\ni:22445,5,20,12800,暹小花,特變電工,1627401126,Auction\ni:3860,17,17,21399,雪丶無痕,特變電工,1626782540,Auction\ni:22851,1,1,885000,紫蘇奶茶,特變電工,1627402069,Auction\ni:25898,1,1,2549999,Neross,特變電工,1627446358,Auction\ni:24052,1,1,773999,肉肉喵喵,特變電工,1627446316,Auction\ni:23118,1,1,7500,職業剋星,特變電工,1627446489,Auction\ni:23118,1,1,7300,那瑪希鐵,特變電工,1627446487,Auction\ni:23118,1,1,7200,女妖之王,特變電工,1627446485,Auction\ni:29186,1,1,850000,Merchant,特變電工,1627447195,Vendor\ni:30634,1,1,85000,Merchant,特變電工,1627481456,Vendor\ni:30637,1,1,85000,Merchant,特變電工,1627544096,Vendor\ni:23105,1,3,7300,啊斯,特變電工,1627569612,Auction\ni:23105,1,2,6000,緋緋,特變電工,1627569612,Auction\ni:23105,1,1,5900,卍萊牛卍,特變電工,1627569611,Auction\ni:23105,1,1,5000,職業剋星,特變電工,1627569607,Auction\ni:22445,1,1,11600,夜狼神,特變電工,1627570354,Auction\ni:22445,6,12,11600,夜狼神,特變電工,1627570350,Auction\ni:22445,2,2,11600,夜狼神,特變電工,1627570357,Auction\ni:3860,4,4,20799,雪丶無痕,特變電工,1626782509,Auction\ni:3860,1,1,21200,都是浮雲,特變電工,1626782536,Auction\ni:30810,50,50,25000,薩凡斯,特變電工,1627617953,Auction\ni:30810,49,49,25000,葛格法師,特變電工,1627618027,Auction\ni:23448,2,22,395000,女妖之王,特變電工,1627630921,Auction\ni:23448,1,4,399000,黑色告死鳥,特變電工,1627631271,Auction\ni:23447,1,1,119425,血色序章,特變電工,1627631539,Auction\ni:23447,1,3,120000,殟系,特變電工,1627631540,Auction\ni:23447,10,10,120000,賽力勞斯,特變電工,1627631551,Auction\ni:23447,13,13,120677,百合妹妹,特變電工,1627631552,Auction\ni:23447,10,10,123000,卡滋沒基機,特變電工,1627631555,Auction\ni:23447,11,11,124236,百合妹妹,特變電工,1627631556,Auction\ni:23445,20,20,23500,大右池久,特變電工,1627631612,Auction\ni:23445,20,20,23500,Kdo,特變電工,1627631613,Auction\ni:23445,14,14,24400,浩天無極,特變電工,1627632309,Auction\ni:23445,20,40,24300,獸人加魯魯蛇,特變電工,1627632307,Auction\ni:23445,20,160,24000,卡滋沒基機,特變電工,1627632304,Auction\ni:23445,20,40,23500,罐罐貓,特變電工,1627632301,Auction\ni:23445,1,3,23400,喝啤酒吐泡泡,特變電工,1627632298,Auction\ni:23445,9,9,23200,高熙茵娜,特變電工,1627632297,Auction\ni:23447,13,26,130762,百合妹妹,特變電工,1627632243,Auction\ni:23447,1,53,129500,伊汶捷琳,特變電工,1627632234,Auction\ni:23447,1,13,127400,草藥二倉,特變電工,1627632215,Auction\ni:23447,9,27,124525,淅淅瀝瀝,特變電工,1627632210,Auction\ni:23447,10,10,124400,獸人加魯魯蛇,特變電工,1627632209,Auction\ni:23447,10,40,120000,賽力勞斯,特變電工,1627632208,Auction\ni:22457,8,8,484000,楓糖水蜜桃,特變電工,1627632831,Auction\ni:22457,1,3,484851,十四代双虹,特變電工,1627632876,Auction\ni:23098,1,1,5400,女妖之王,特變電工,1627634204,Auction\ni:28290,1,1,17300,女妖之王,特變電工,1627634154,Auction\ni:23111,1,1,8500,女妖之王,特變電工,1627634629,Auction\ni:23098,1,4,5400,女妖之王,特變電工,1627634598,Auction\ni:22829,5,40,6000,云哥法师,特變電工,1627651770,Auction\ni:5634,5,25,38200,雲水憐心,特變電工,1627671032,Auction\ni:5634,2,2,25000,神族狂戰士,特變電工,1627705334,Auction\ni:5634,1,1,24800,龍痕飛雪,特變電工,1627705335,Auction\ni:23098,1,3,25800,卡娜呵呵,特變電工,1627730905,Auction\ni:6358,9,9,9111,大車車,特變電工,1627731013,Auction\ni:6358,3,6,8999,想不到就睡覺,特變電工,1627731013,Auction\ni:6358,5,15,8900,讓開我來躺,特變電工,1627731013,Auction\ni:6358,1,32,8899,Momonga,特變電工,1627731012,Auction\ni:6358,20,60,8000,性感大種馬,特變電工,1627731011,Auction\ni:6358,6,12,7900,超級大砲,特變電工,1627731010,Auction\ni:3820,15,15,4600,滑溜,特變電工,1627731170,Auction\ni:21877,10,80,2000,算你內行,特變電工,1627792771,Auction\ni:23446,5,20,53000,礦石小弟,特變電工,1627792734,Auction\ni:23446,1,2,52500,螯蝦,特變電工,1627792731,Auction\ni:23446,1,1,52000,甜點師傅,特變電工,1627792730,Auction\ni:23446,2,4,52000,甜點師傅,特變電工,1627792729,Auction\ni:23446,2,6,51999,沒時間,特變電工,1627792729,Auction\ni:23118,1,11,17199,放魚,特變電工,1627818791,Auction\ni:23118,1,2,17000,卍萊牛卍,特變電工,1627818770,Auction\ni:13455,4,12,68000,魔術戰,特變電工,1627818751,Auction\ni:22851,1,4,893000,咪咧,特變電工,1627818724,Auction\ni:28824,1,1,9000000,月巴豸苗,特變電工,1627822842,Trade\ni:28777,1,1,4000000,月巴豸苗,特變電工,1627827009,Trade\ni:23104,1,1,8900,浜边美波,特變電工,1627999189,Auction\ni:23100,1,2,25597,白龍採礦剝皮,特變電工,1627999163,Auction\ni:29192,1,1,850000,Merchant,特變電工,1628007627,Vendor\ni:24051,1,1,579999,伯爵鮮奶茶,特變電工,1628339299,Auction\ni:24027,1,2,1465000,花俏俏,特變電工,1628339277,Auction\ni:24027,1,1,1464999,肉肉喵喵,特變電工,1628339276,Auction\ni:22449,1,9,281958,Sige,特變電工,1628339618,Auction\ni:22450,2,4,292500,玄米綠茶,特變電工,1628339601,Auction\ni:22446,1,13,43400,黑色告死鳥,特變電工,1628339578,Auction\ni:22445,1,3,16000,琉影,特變電工,1628339565,Auction\ni:22445,5,25,14200,要替婆婆報仇,特變電工,1628339562,Auction\ni:22449,1,6,281000,沫影,特變電工,1628339537,Auction\ni:22447,1,1,11800,臭鳥蛋,特變電工,1628344636,Auction\ni:22447,2,4,11600,反智轉身,特變電工,1628344630,Auction\ni:22447,1,2,9000,困桂桃,特變電工,1628344626,Auction\ni:24051,1,2,577999,伯爵鮮奶茶,特變電工,1628344586,Auction\ni:22445,1,1,14900,Austinger,特變電工,1628344872,Auction\ni:22445,5,10,14200,要替婆婆報仇,特變電工,1628344870,Auction\ni:21877,20,60,1720,蛋比鳥大,特變電工,1628398112,Auction\ni:23446,20,40,40400,Ikemen,特變電工,1628398082,Auction\ni:23095,1,1,56297,放魔水,特變電工,1628424599,Auction\ni:28290,1,5,26800,啊斯,特變電工,1628424563,Auction\ni:23100,1,7,6900,啊斯,特變電工,1628424527,Auction\ni:23104,1,3,3500,啊斯,特變電工,1628424489,Auction\ni:23116,1,1,30650,虎牙哥,特變電工,1628424460,Auction\ni:22446,1,1,50000,沫影,特變電工,1628425181,Auction\ni:22445,14,14,12600,狗哥,特變電工,1628425168,Auction\ni:23095,1,3,56295,救地正法,特變電工,1628429992,Auction\ni:23115,1,6,63998,棒棒噠,特變電工,1628429973,Auction\ni:23115,1,3,63500,卍萊牛卍,特變電工,1628429981,Auction\ni:23118,1,10,8700,女妖之王,特變電工,1628872342,Auction\ni:22456,2,2,430000,完美物流,特變電工,1628931806,Auction\ni:22456,5,10,430000,Klion,特變電工,1628931805,Auction\ni:22456,1,2,410000,打不死蟑螂,特變電工,1628931803,Auction\ni:25707,2,2,29800,Ricauo,特變電工,1628931794,Auction\ni:25707,6,6,29600,蜂蜜檸檬蘆薈,特變電工,1628931792,Auction\ni:23793,2,6,41600,你販劍嗎,特變電工,1628931784,Auction\ni:23793,4,16,41010,十四代双虹,特變電工,1628931780,Auction\ni:14341,1,3,4750,Merchant,特變電工,1628931886,Vendor\ni:24048,1,1,417998,伯爵鮮奶茶,特變電工,1628937261,Auction\ni:22451,1,1,467699,曉寶寶,特變電工,1628945185,Auction\ni:22451,1,15,467000,牛排特務,特變電工,1628945184,Auction\ni:22451,1,2,467000,Tamago,特變電工,1628945181,Auction\ni:29539,2,10,255000,Derony,特變電工,1628945166,Auction\ni:23793,4,8,41010,十四代双虹,特變電工,1628945143,Auction\ni:30810,100,100,23100,冰刃炎魔,特變電工,1628962779,Auction\ni:30810,40,80,22000,冰刃炎魔,特變電工,1628962779,Auction\ni:30810,250,250,21600,若葉姬色,特變電工,1628962775,Auction\ni:30810,114,228,21600,若葉姬色,特變電工,1628962775,Auction\ni:30810,36,108,21000,雪白兒,特變電工,1628962773,Auction\ni:30810,100,100,21000,冰刃炎魔,特變電工,1628962769,Auction\ni:30810,6,12,21000,Laviticus,特變電工,1628962768,Auction\ni:30810,2,4,21000,Badd,特變電工,1628962768,Auction\ni:30810,12,24,20833,姑逃姑鬧,特變電工,1628962768,Auction\ni:30810,5,15,20600,黑暗褲褲,特變電工,1628962767,Auction\ni:30810,5,40,20599,Bigomage,特變電工,1628962767,Auction\ni:30810,2,4,20500,德古拉法葉,特變電工,1628962767,Auction\ni:30810,12,24,20400,狗哥,特變電工,1628962761,Auction\ni:30810,50,150,20400,冰刃炎魔,特變電工,1628962761,Auction\ni:30810,28,56,20321,Druidfactor,特變電工,1628962761,Auction\ni:30810,1,2,20320,阿公店店花,特變電工,1628962760,Auction\ni:30810,99,198,20303,阿強扛不住,特變電工,1628962759,Auction\ni:30810,74,222,20270,Alta,特變電工,1628962759,Auction\ni:30810,1,2,20200,到底是在吵尛,特變電工,1628962758,Auction\ni:30810,8,16,20199,愛妳喲,特變電工,1628962757,Auction\ni:30810,14,28,20000,Srd,特變電工,1628962757,Auction\ni:30810,1,2,20000,湯姆克鹵蛋,特變電工,1628962755,Auction\ni:30810,6,6,20000,踏踏,特變電工,1628962755,Auction\ni:30810,5,50,20000,寶貝玩獵人,特變電工,1628962755,Auction\ni:30810,1,4,20000,薩下薩下,特變電工,1628962748,Auction\ni:30810,1,2,20000,牛奶喝到飽,特變電工,1628962747,Auction\ni:30810,13,39,19987,半壺老酒,特變電工,1628962746,Auction\ni:30810,15,15,19800,伊魯娜黛珥,特變電工,1628962746,Auction\ni:30810,8,24,19800,心動動,特變電工,1628962745,Auction\ni:30810,3,9,19800,內心謙下,特變電工,1628962744,Auction\ni:30810,5,10,19400,Zippoxi,特變電工,1628962743,Auction\ni:30810,39,78,19200,非酋的爆發力,特變電工,1628962739,Auction\ni:30810,10,40,19199,曉風乄血月,特變電工,1628962739,Auction\ni:30810,7,14,19199,曉風乄血月,特變電工,1628962735,Auction\ni:30810,36,108,19000,熱情的排骨,特變電工,1628962733,Auction\ni:29739,1,1,355999,曉風乄血月,特變電工,1628963189,Auction\ni:29739,2,2,355000,熱情的排骨,特變電工,1628963184,Auction\ni:22536,1,1,85000,Merchant,特變電工,1630735238,Vendor\ni:23446,20,20,20995,百合妹妹,特變電工,1630843104,Auction\ni:28825,1,1,30000000,月巴豸苗,特變電工,1630849898,Trade\ni:24033,1,1,158498,Pasta,特變電工,1630850813,Auction\ni:31392,1,1,204000,Merchant,特變電工,1630851623,Vendor\ni:31391,1,1,204000,Merchant,特變電工,1630851625,Vendor\ni:22573,8,8,3397,浒斛,特變電工,1630941347,Auction\ni:22573,8,24,3397,步鈽獛,特變電工,1630941347,Auction\ni:22573,6,12,3399,寒你还好吗,特變電工,1630941347,Auction\ni:22573,2,4,3300,Albedo,特變電工,1630941347,Auction\ni:22573,8,24,2600,我是寒泪,特變電工,1630941346,Auction\ni:22573,3,9,2500,拿鐵小騎士,特變電工,1630941345,Auction\ni:22573,1,2,2400,免費祭改,特變電工,1630941344,Auction\ni:23446,20,20,25000,惹火牛物,特變電工,1630941331,Auction\ni:28516,1,1,8000000,恕嵐轎,特變電工,1630944199,Trade\ni:28056,200,4400,14,Merchant,邁克爾假死,1631026414,Vendor\ni:29451,5,25,1360,Merchant,邁克爾假死,1631026589,Vendor\ni:3820,4,4,10000,老大好,特變電工,1631383885,Auction\ni:3820,9,27,3333,Monni,特變電工,1631383883,Auction\ni:6358,20,40,11000,林楓,特變電工,1631383826,Auction\ni:5634,2,4,10000,Monni,特變電工,1631383770,Auction\ni:22450,1,3,118990,我用戴奧辛,特變電工,1631434236,Auction\ni:22449,1,8,232898,鐵頭無雙,特變電工,1631434229,Auction\ni:33872,20,20,12200,御狐神,特變電工,1631442050,Auction\ni:28579,1,1,1000000,恕嵐轎,特變電工,1631548808,Trade\ni:28749,1,1,1000000,恕嵐轎,特變電工,1631554403,Trade\ni:31393,1,1,240000,Merchant,特變電工,1631629631,Vendor\ni:31395,1,1,240000,Merchant,特變電工,1631629636,Vendor\ni:31394,1,1,240000,Merchant,特變電工,1631629639,Vendor\ni:22449,1,5,211895,Carman,特變電工,1631629940,Auction\ni:22449,1,1,211996,台彎海森堡,特變電工,1631629954,Auction\ni:22449,1,2,211997,Carman,特變電工,1631629956,Auction\ni:22446,8,8,59000,Blackpearl,特變電工,1631630001,Auction\ni:22449,1,1,214000,牛咩咩耶,特變電工,1631630077,Auction\ni:22450,1,6,122500,初四了阿伯,特變電工,1631630088,Auction\ni:22445,8,8,11600,深粉,特變電工,1631630136,Auction\ni:21885,2,12,340998,Cooltaer,特變電工,1631630648,Auction\ni:21884,1,5,580000,魔法師大衛,特變電工,1631630666,Auction\ni:21884,1,7,582000,Llissa,特變電工,1631630670,Auction\ni:23426,3,3,34600,萬歲娘,特變電工,1631630865,Auction\ni:23426,2,2,35000,陳彥甫,特變電工,1631630867,Auction\ni:23426,4,4,34800,陳彥甫,特變電工,1631630869,Auction\ni:23426,9,9,35000,陳彥甫,特變電工,1631630870,Auction\ni:23426,10,10,35000,陳彥甫,特變電工,1631630877,Auction\ni:23426,20,20,35000,风见琴雪,特變電工,1631630880,Auction\ni:21885,6,6,339999,Hbbs,特變電工,1631633446,Auction\ni:21885,10,10,339000,得汝液,特變電工,1631633448,Auction\ni:21885,2,8,354000,梅寒焦油,特變電工,1631633453,Auction\ni:21884,1,16,583999,召尸墓響,特變電工,1631633475,Auction\ni:21884,1,8,584000,喝啤酒吐泡泡,特變電工,1631633499,Auction\ni:29198,1,1,850000,Merchant,特變電工,1631637336,Vendor\ni:28272,1,1,68000,Merchant,特變電工,1631637353,Vendor\ni:25054:-33,1,1,350000,個人銀行,特變電工,1631637754,Auction\ni:31398,1,1,6229999,放油二,特變電工,1631638063,Auction\ni:24682:-33,1,1,990000,小脚裤,特變電工,1631719851,Auction\ni:23448,1,2,125500,Kimojii,特變電工,1631722544,Auction\ni:21884,1,1,591999,終會路左相逢,特變電工,1631722557,Auction\ni:21884,1,1,592000,魯智神,特變電工,1631722559,Auction\ni:21884,1,1,600000,啃羊蹄,特變電工,1631722563,Auction\ni:21884,3,3,599900,Sghuntress,特變電工,1631722566,Auction\ni:21885,4,4,347897,Orangh,特變電工,1631722578,Auction\ni:31079,2,2,53999,伯爵鮮奶茶,特變電工,1631722590,Auction\ni:22851,1,2,1162000,Ryanchoi,特變電工,1632051323,Auction\ni:22851,1,2,1162500,啃羊蹄,特變電工,1632051330,Auction\ni:23446,20,40,10400,你靈魂會受難,特變電工,1632051768,Auction\ni:22573,10,20,955,涵風微笑,特變電工,1632051788,Auction\ni:22450,2,2,59500,斬卍凱蒂卍佛,特變電工,1632417625,Auction\ni:22854,1,5,1455000,棒之呼吸,邁克爾假死,1632545191,Auction\ni:28102,1,8,10600,菩提補薩,邁克爾假死,1632545256,Auction\ni:28056,200,4000,14,Merchant,邁克爾假死,1632545370,Vendor\ni:28056,200,2600,15,Merchant,邁克爾假死,1632557984,Vendor\ni:28056,200,1000,14,Merchant,邁克爾假死,1632561026,Vendor\ni:30053,1,1,9000000,終焉之戰,特變電工,1632576562,Trade\ni:29739,10,10,309229,麵條拉起來,特變電工,1632588106,Auction\ni:24033,1,1,184999,伯爵鮮奶茶,特變電工,1632588169,Auction\ni:24027,1,1,224995,台彎海森堡,特變電工,1632588183,Auction\ni:22449,2,2,219000,Magichilo,特變電工,1632750793,Auction\ni:22449,1,6,220999,Carman,特變電工,1632750802,Auction\ni:22450,1,3,49999,身寸起來,特變電工,1632750820,Auction\ni:22450,1,1,50500,蕾拉寶貝,特變電工,1632750833,Auction\ni:22450,2,2,49800,多如牛毛,特變電工,1632750838,Auction\ni:22446,4,4,54500,有附魔,特變電工,1632750867,Auction\ni:22445,20,40,8495,薇霓莎,特變電工,1632750879,Auction\ni:24478,1,1,1000,Merchant,特變電工,1633055630,Vendor\ni:22450,10,10,75000,哞西哞西,特變電工,1633091512,Auction\ni:22450,4,4,79000,一夢空,特變電工,1633091514,Auction\ni:30061,1,1,11000000,終焉之戰,特變電工,1633186340,Trade\ni:22535,1,1,100000,Merchant,特變電工,1633432537,Vendor\ni:21877,20,20,1525,只會裝逼,特變電工,1633606411,Auction\ni:22573,10,10,1460,倉儲助理,特變電工,1633606397,Auction\ni:22573,10,10,1466,Qiutian,特變電工,1633606399,Auction\ni:23446,20,20,12399,哞喜勒烤,特變電工,1633606372,Auction\ni:24033,1,2,77899,台彎海森堡,特變電工,1633879697,Auction\ni:29739,1,1,349000,你是在哭嗎,特變電工,1633879753,Auction\ni:29739,2,4,350000,Camelo,特變電工,1633879755,Auction\ni:29739,5,10,370000,德皇老喬,特變電工,1633879756,Auction\ni:29535,1,1,6239999,滔滔不在家,特變電工,1634367484,Auction\ni:24048,1,2,97900,風吹乳罩飄,特變電工,1634367351,Auction\ni:24048,1,1,97999,白龍採礦剝皮,特變電工,1634367355,Auction\ni:30052,1,1,20000000,終焉之戰,特變電工,1634389111,Trade\ni:30025,1,1,6000000,終焉之戰,特變電工,1634393652,Trade\ni:30246,1,1,17000000,終焉之戰,特變電工,1634396240,Trade\ni:29536,1,1,4979999,申申如也,特變電工,1634396996,Auction\ni:24055,1,1,98000,啊斯,特變電工,1634396950,Auction\ni:22449,2,2,261498,玥歌,特變電工,1634439867,Auction\ni:29449,5,40,1280,Merchant,特變電工,1634440361,Vendor\ni:22449,1,4,307993,Iamxiaobu,特變電工,1634984775,Auction\ni:22445,1,6,12498,麒麟,特變電工,1634984789,Auction\ni:30629,1,1,7000000,終焉之戰,特變電工,1634996774,Trade\ni:30058,1,1,6000000,終焉之戰,特變電工,1634998872,Trade\ni:22449,1,10,305998,復甦之光,特變電工,1635000952,Auction\ni:22450,1,3,90000,倉庫的農奴,特變電工,1635000975,Auction\ni:22450,1,3,95000,Piapiapia,特變電工,1635000982,Auction\ni:22446,10,10,104998,皮皮牛,特變電工,1635001007,Auction\ni:22445,20,40,11780,皮皮牛,特變電工,1635001017,Auction\ni:30098,1,1,5000000,終焉之戰,特變電工,1635002310,Trade\ni:22445,1,4,11800,聖光與你,特變電工,1635006817,Auction\ni:22451,1,1,315998,曉寶寶,特變電工,1635006831,Auction\ni:23446,5,20,16000,奸商花花,特變電工,1635066002,Auction\ni:22573,10,10,4000,魚的記憶,特變電工,1635066019,Auction\ni:22573,2,6,4100,哥哥姆湯,特變電工,1635066024,Auction\ni:22851,1,5,1089600,武科瓦奇,特變電工,1635077197,Auction\ni:22450,1,2,69000,抽水馮達,特變電工,1635183675,Auction\ni:22450,2,2,104000,独来独往,特變電工,1635355170,Auction\ni:24048,1,1,118498,白龍採礦剝皮,特變電工,1635385536,Auction\ni:22449,1,1,264000,Metalgear,特變電工,1635385609,Auction\ni:22449,1,2,265000,Lucozade,特變電工,1635385616,Auction\ni:22445,1,4,12800,丁樞機,特變電工,1635385624,Auction\ni:22446,3,3,90480,葛格法師,特變電工,1635385643,Auction\ni:23111,1,1,4800,漪霜雪,特變電工,1635427518,Auction\ni:24054,1,1,133500,熊熊的熊熊,特變電工,1635427648,Auction\ni:22445,2,8,12250,寶藏女孩,特變電工,1635432237,Auction\ni:22450,2,2,64500,寒冰貝戔,特變電工,1635567675,Auction\ni:22450,2,2,66000,皮魔王,特變電工,1635567678,Auction\ni:22450,1,2,65000,前大酋長握莖,特變電工,1635567683,Auction\ni:30446,1,1,2000000,終焉之戰,特變電工,1635611257,Trade\ni:29449,5,40,1280,Merchant,特變電工,1635670210,Vendor\ni:28274,1,1,34000,Merchant,特變電工,1635680644,Vendor\ni:23446,20,20,28500,哞哞麥可,特變電工,1636172206,Auction\ni:21877,20,40,1493,綠小姐,特變電工,1636172286,Auction\ni:32742,1,2,30000,Merchant,特變電工,1636187074,Vendor\ni:27498,1,8,500,Merchant,特變電工,1636187079,Vendor\ni:30057,1,1,10000000,终焉誓約,特變電工,1636205603,Trade\ni:24067,1,1,73742,救地正法,特變電工,1636216492,Auction\ni:22445,1,2,12499,曼施坦茵,特變電工,1636216571,Auction\ni:30099,1,1,3000000,終焉之戰,特變電工,1636815365,Trade\ni:30322,1,1,2000000,終焉之戰,特變電工,1636820286,Trade\ni:24067,1,1,102947,棒棒噠,特變電工,1636908900,Auction\ni:31868,1,1,147947,棒棒噠,特變電工,1636908921,Auction\ni:22450,1,1,80998,時光憶流年,特變電工,1636980949,Auction\ni:22450,1,2,80999,妹妹的誘惑,特變電工,1636980950,Auction\ni:22450,1,4,70000,抽水馮達,特變電工,1637381989,Auction\ni:22450,1,4,58000,蛇頭裡有舌頭,特變電工,1638100247,Auction\ni:22851,1,3,1284900,武科瓦奇,特變電工,1638100101,Auction\ni:22851,1,2,1285000,好想回祖國,特變電工,1638100106,Auction\ni:23446,20,20,27900,仓库贰号,特變電工,1638365951,Auction\ni:22573,10,20,4699,年少無知最瘋,特變電工,1638365973,Auction\ni:21877,8,8,1845,工具薩,特變電工,1638365986,Auction\ni:22450,1,4,71000,終焉之戰,特變電工,1638978689,Auction\ni:22854,1,1,2400000,阿曼尼擊天者,特變電工,1639223109,Auction\ni:22854,1,2,2410000,實驗倉庫,特變電工,1639223111,Auction\ni:33872,1,2,19699,聖盔周董,特變電工,1639223279,Auction\ni:33872,5,5,19799,八支八支半,特變電工,1639223283,Auction\ni:27664,20,20,3800,恰查某,特變電工,1639223287,Auction\ni:22449,2,2,376000,蜂蜜芒果紅茶,特變電工,1639223385,Auction\ni:22445,9,9,14800,Metalgear,特變電工,1639223396,Auction\ni:22450,1,6,100000,倉庫的農奴,特變電工,1639237418,Auction\ni:22449,1,10,376000,無情開雷,特變電工,1639237438,Auction\ni:22446,10,10,105500,半支菸的擱淺,特變電工,1639237467,Auction\ni:22445,20,40,14600,醬爆咪,特變電工,1639237475,Auction\ni:29996,1,1,73000000,終焉之戰,特變電工,1639238398,Trade\ni:22449,10,10,359896,時光憶流年,特變電工,1639310695,Auction\ni:22446,8,8,91250,法神倉庫,特變電工,1639310705,Auction\ni:22450,3,3,91500,Bnxx,特變電工,1639310711,Auction\ni:22450,1,3,92000,亞培,特變電工,1639310714,Auction\ni:22445,20,40,13800,帽子給我好嗎,特變電工,1639310721,Auction\ni:30627,1,1,101000000,終焉之戰,特變電工,1639318072,Trade\ni:22451,1,3,446600,勾芡,特變電工,1639669503,Auction\ni:22451,1,2,447000,漫天繁星,特變電工,1639669508,Auction\ni:22451,1,3,447998,瓜子臉,特變電工,1639669511,Auction\ni:29539,1,1,409000,蒼龍幻焰,特變電工,1639669521,Auction\ni:29539,1,3,410000,深得你心,特變電工,1639669523,Auction\ni:23793,2,4,67996,甩鍋俠,特變電工,1639669541,Auction\ni:24054,1,1,456997,生命紅寶石,特變電工,1639670858,Auction\ni:24048,1,1,371804,生命紅寶石,特變電工,1639670877,Auction\ni:23446,20,20,39199,一天晴一,特變電工,1639828219,Auction\ni:21877,20,40,3490,盛港盧卡斯,特變電工,1639828230,Auction\ni:22854,1,2,2497497,Pasta,特變電工,1639828255,Auction\ni:33872,20,40,8494,插棍,特變電工,1639828270,Auction\ni:32409,1,1,2447500,施噠噠,特變電工,1639836637,Auction\ni:23573,1,5,494997,一天晴一,特變電工,1639846293,Auction\ni:21884,10,10,620000,出門向右轉,特變電工,1639846311,Auction\ni:24067,1,2,240300,瑪麗亞安娜,特變電工,1639846387,Auction\ni:24048,1,1,358996,Pasta,特變電工,1639846641,Auction\ni:22854,1,7,1864999,阿齁,特變電工,1640410528,Auction\ni:22831,5,15,190501,白龍採礦剝皮,特變電工,1640411742,Auction\ni:22831,2,2,190000,帽子給我好嗎,特變電工,1640411717,Auction\ni:23446,1,8,45999,妙才連箭,特變電工,1640413445,Auction\ni:21877,20,20,2200,射爆你個頭,特變電工,1640413461,Auction\ni:30022,1,1,30000000,終焉之戰,特變電工,1640441829,Trade\ni:30105,1,1,30000000,終焉之戰,特變電工,1641041858,Trade\ni:22831,5,5,224500,想念讚讚,特變電工,1641045188,Auction",
 	["c@路易斯桑拿 - 伊弗斯@auctionUIContext@auctioningGroupTree"] = {
 		["collapsed"] = {
 		},
@@ -1720,7 +1571,7 @@ TradeSkillMasterDB = {
 	["f@Horde - 伊弗斯@internalData@auctionDBScanHash"] = 8467877,
 	["g@ @appearanceOptions@taskListBackgroundLock"] = false,
 	["f@Horde - 伊弗斯@internalData@auctionDBScanTime"] = 1636260761,
-	["s@特變電工 - Horde - 伊弗斯@internalData@money"] = 150253062,
+	["s@特變電工 - Horde - 伊弗斯@internalData@money"] = 149485150,
 	["c@路易斯桑拿 - 伊弗斯@internalData@auctionSaleHints"] = {
 	},
 	["_version"] = 103,
@@ -2090,13 +1941,13 @@ TradeSkillMasterDB = {
 		["f@internalData@guildGoldLog"] = 25,
 		["g@auctionUIContext@auctioningAuctionScrollingTable"] = 103,
 		["g@tooltipOptions@operationTooltips"] = 10,
-		["s@internalData@mailQuantity"] = 19,
+		["s@internalData@goldLog"] = 25,
 		["g@auctionUIContext@auctioningBagScrollingTable"] = 55,
 		["g@taskListUIContext@isOpen"] = 55,
 		["s@internalData@money"] = 74,
 		["g@tooltipOptions@vendorSellTooltip"] = 10,
-		["g@vendoringUIContext@sellScrollingTable"] = 55,
 		["c@craftingUIContext@groupTree"] = 80,
+		["g@vendoringUIContext@sellScrollingTable"] = 55,
 		["g@mainUIContext@groupsDividedContainer"] = 55,
 		["r@internalData@csvIncome"] = 10,
 		["f@internalData@mats"] = 10,
@@ -2108,7 +1959,7 @@ TradeSkillMasterDB = {
 		["g@auctioningOptions@confirmCompleteSound"] = 10,
 		["g@userData@customPriceSources"] = 10,
 		["g@mailingOptions@openMailSound"] = 10,
-		["s@internalData@goldLog"] = 25,
+		["s@internalData@mailQuantity"] = 19,
 		["g@coreOptions@globalOperations"] = 10,
 		["g@mailingOptions@inboxMessages"] = 10,
 		["g@appearanceOptions@colorSet"] = 75,
@@ -2335,18 +2186,18 @@ TradeSkillMasterDB = {
 		["i:9036"] = 5,
 		["i:16942"] = 1,
 		["i:18538"] = 1,
+		["i:4398"] = 10,
 		["i:24200"] = 1,
-		["i:11135"] = 1,
 		["i:10498"] = 1,
 		["i:5759"] = 1,
 		["i:19361"] = 1,
 		["i:12846"] = 1,
-		["i:4398"] = 10,
+		["i:11135"] = 1,
 		["i:21673"] = 1,
 		["i:16849"] = 1,
 		["i:10562"] = 1,
 		["i:14344"] = 16,
-		["i:20560"] = 5,
+		["i:13446"] = 5,
 		["i:5956"] = 1,
 		["i:12841"] = 7,
 		["i:16851"] = 1,
@@ -2374,7 +2225,7 @@ TradeSkillMasterDB = {
 		["i:7075"] = 2,
 		["i:19874"] = 1,
 		["i:15410"] = 4,
-		["i:13446"] = 5,
+		["i:20560"] = 5,
 		["i:18401"] = 1,
 		["i:9172"] = 4,
 		["i:18329"] = 2,
@@ -2434,10 +2285,10 @@ TradeSkillMasterDB = {
 				["ignoreFactionrealm"] = {
 				},
 				["restock"] = false,
-				["maxQtyEnabled"] = false,
+				["keepQty"] = 0,
 				["relationships"] = {
 				},
-				["keepQty"] = 0,
+				["maxQtyEnabled"] = false,
 				["target"] = "",
 				["restockSources"] = {
 					["guild"] = false,
@@ -2511,29 +2362,21 @@ TradeSkillMasterDB = {
 				["relationships"] = {
 				},
 				["minRestock"] = "10",
+				["minProfit"] = "100g",
+				["craftPriceMethod"] = "",
+				["maxRestock"] = "20",
 				["ignorePlayer"] = {
 				},
-				["minProfit"] = "100g",
-				["maxRestock"] = "20",
-				["craftPriceMethod"] = "",
 			},
 		},
-		["Shopping"] = {
+		["Sniper"] = {
 			["#Default"] = {
-				["ignoreFactionrealm"] = {
-				},
-				["showAboveMaxPrice"] = true,
-				["maxPrice"] = "dbmarket",
-				["restockQuantity"] = "0",
-				["restockSources"] = {
-					["alts"] = false,
-					["auctions"] = false,
-					["guild"] = false,
-					["bank"] = false,
+				["belowPrice"] = "max(vendorsell, ifgt(DBRegionMarketAvg, 250000g, 0.8, ifgt(DBRegionMarketAvg, 100000g, 0.7, ifgt(DBRegionMarketAvg, 50000g, 0.6, ifgt(DBRegionMarketAvg, 25000g, 0.5, ifgt(DBRegionMarketAvg, 10000g, 0.4, ifgt(DBRegionMarketAvg, 5000g, 0.3, ifgt(DBRegionMarketAvg, 2000g, 0.2, ifgt(DBRegionMarketAvg, 1000g, 0.1, 0.05)))))))) * DBRegionMarketAvg)",
+				["ignorePlayer"] = {
 				},
 				["relationships"] = {
 				},
-				["ignorePlayer"] = {
+				["ignoreFactionrealm"] = {
 				},
 			},
 		},
@@ -2565,11 +2408,19 @@ TradeSkillMasterDB = {
 				["enableSell"] = true,
 			},
 		},
-		["Sniper"] = {
+		["Shopping"] = {
 			["#Default"] = {
 				["ignoreFactionrealm"] = {
 				},
-				["belowPrice"] = "max(vendorsell, ifgt(DBRegionMarketAvg, 250000g, 0.8, ifgt(DBRegionMarketAvg, 100000g, 0.7, ifgt(DBRegionMarketAvg, 50000g, 0.6, ifgt(DBRegionMarketAvg, 25000g, 0.5, ifgt(DBRegionMarketAvg, 10000g, 0.4, ifgt(DBRegionMarketAvg, 5000g, 0.3, ifgt(DBRegionMarketAvg, 2000g, 0.2, ifgt(DBRegionMarketAvg, 1000g, 0.1, 0.05)))))))) * DBRegionMarketAvg)",
+				["showAboveMaxPrice"] = true,
+				["maxPrice"] = "dbmarket",
+				["restockQuantity"] = "0",
+				["restockSources"] = {
+					["alts"] = false,
+					["auctions"] = false,
+					["guild"] = false,
+					["bank"] = false,
+				},
 				["relationships"] = {
 				},
 				["ignorePlayer"] = {
@@ -2585,12 +2436,12 @@ TradeSkillMasterDB = {
 				["keepBankQuantity"] = 0,
 				["relationships"] = {
 				},
+				["restockKeepBankQuantity"] = 0,
+				["restockQuantity"] = 0,
+				["restockStackSize"] = 0,
+				["keepBagQuantity"] = 0,
 				["ignorePlayer"] = {
 				},
-				["restockQuantity"] = 0,
-				["restockKeepBankQuantity"] = 0,
-				["keepBagQuantity"] = 0,
-				["restockStackSize"] = 0,
 			},
 		},
 	},
@@ -2624,7 +2475,6 @@ TradeSkillMasterDB = {
 	},
 	["s@特變電工 - Horde - 伊弗斯@internalData@mailQuantity"] = {
 		["i:23446"] = 1,
-		["i:20558"] = 4,
 	},
 	["c@路易斯桑拿 - 伊弗斯@internalData@auctionMessages"] = {
 	},
@@ -2669,20 +2519,20 @@ TradeSkillMasterDB = {
 		["r:3977143"] = 0,
 		["r:4992072"] = 0,
 		["r:9865260"] = 0,
-		["r:13649356"] = 0,
-		["r:8404622"] = 0,
 		["r:8426995"] = 0,
+		["r:11823383"] = 0,
+		["r:12656007"] = 0,
 		["r:5571489"] = 0,
 		["r:15564495"] = 0,
 		["r:7551670"] = 0,
 		["r:5119473"] = 0,
 		["r:9045890"] = 0,
 		["r:4588845"] = 0,
-		["r:10856636"] = 0,
-		["r:3877196"] = 0,
 		["r:447647"] = 0,
+		["r:3877196"] = 0,
+		["r:10856636"] = 0,
 		["r:283362"] = 0,
-		["r:14215814"] = 0,
+		["r:2795633"] = 0,
 		["r:5567167"] = 0,
 		["r:11200805"] = 0,
 		["r:9328191"] = 0,
@@ -2698,13 +2548,13 @@ TradeSkillMasterDB = {
 		["r:2087412"] = 0,
 		["r:9439841"] = 0,
 		["r:4964849"] = 0,
-		["r:2795633"] = 0,
+		["r:14215814"] = 0,
 		["r:4065001"] = 0,
 		["r:6942868"] = 0,
 		["r:6609247"] = 0,
 		["r:16059468"] = 0,
-		["r:12656007"] = 0,
-		["r:11823383"] = 0,
+		["r:13649356"] = 0,
+		["r:8404622"] = 0,
 		["r:16178675"] = 0,
 		["r:14352809"] = 0,
 		["r:13889499"] = 0,
@@ -2712,7 +2562,6 @@ TradeSkillMasterDB = {
 	["r@伊弗斯@internalData@csvExpired"] = "itemString,stackSize,quantity,player,time\ni:31322,1,1,邁克爾假死,1625933071\ni:31322,1,1,邁克爾假死,1626017409\ni:29425,15,15,邁克爾假死,1626017425\ni:24200,1,1,邁克爾假死,1626062684\ni:23445,20,20,邁克爾假死,1626846342\ni:23445,18,18,邁克爾假死,1626846352\ni:22540,1,1,特變電工,1626955284\ni:2836,20,100,特變電工,1627624394\ni:2835,20,20,特變電工,1627624400\ni:12365,20,40,特變電工,1627624426\ni:12365,7,7,特變電工,1627624452\ni:2838,8,8,特變電工,1627624456\ni:3859,3,3,特變電工,1627624456\ni:11128,1,3,特變電工,1627624558\ni:2842,5,5,特變電工,1627624584\ni:12365,7,21,特變電工,1627669616\ni:11128,1,6,特變電工,1627669641\ni:23517,1,8,特變電工,1627674398\ni:23519,1,12,特變電工,1627675886\ni:23517,1,8,特變電工,1627675908\ni:11128,1,6,特變電工,1627714293\ni:12365,7,28,特變電工,1627714297\ni:23519,1,11,特變電工,1627748685\ni:3860,17,51,特變電工,1627753825\ni:11128,1,5,特變電工,1627774173\ni:23519,1,13,特變電工,1627836085\ni:23519,1,15,特變電工,1627882241\ni:23519,1,12,特變電工,1628382653\ni:23519,1,9,特變電工,1628441361\ni:23519,1,7,特變電工,1628915656\ni:31322,1,2,邁克爾假死,1629727291\ni:21885,1,2,邁克爾假死,1629727300\ni:22831,2,4,邁克爾假死,1629727395\ni:27854,3,6,邁克爾假死,1629727400\ni:7969,1,23,特變電工,1630252048\ni:11144,1,11,特變電工,1630252050\ni:10978,3,3,特變電工,1630252059\ni:25844,1,3,特變電工,1630252060\ni:10978,3,6,特變電工,1630930107\ni:11144,1,5,特變電工,1630930110\ni:11144,1,1,特變電工,1630930120\ni:7969,1,17,特變電工,1630930122\ni:24198,1,1,特變電工,1631528446\ni:25521,7,7,特變電工,1633157800\ni:774,3,3,特變電工,1633157801\ni:17057,2,2,特變電工,1635093203\ni:27858,1,1,特變電工,1635093209\ni:19768,3,3,特變電工,1635152937\ni:13444,3,3,特變電工,1635152948\ni:22572,1,1,特變電工,1635152953\ni:22459,1,3,特變電工,1637468437\ni:22459,1,4,特變電工,1638186806\ni:24067,1,1,特變電工,1639933012",
 	["g@ @tooltipOptions@tooltipShowModifier"] = "none",
 	["c@特變電工 - 伊弗斯@internalData@auctionSaleHints"] = {
-		["虛無球體i:22459179499"] = 1638100404,
 		["鋸齒的泰拉寶石i:240671240299"] = 1639846625,
 	},
 	["c@邁克爾假死 - 伊弗斯@internalData@craftingCooldowns"] = {
@@ -2752,14 +2601,14 @@ TradeSkillMasterDB = {
 	["g@ @tooltipOptions@groupNameTooltip"] = true,
 	["g@ @mainUIContext@ledgerTransactionsScrollingTable"] = {
 		["colWidth"] = {
-			["player"] = 95,
 			["type"] = 50,
-			["item"] = 156,
-			["auctions"] = 60,
+			["player"] = 95,
+			["time"] = 110,
 			["stack"] = 55,
+			["auctions"] = 60,
 			["perItem"] = 120,
 			["total"] = 120,
-			["time"] = 110,
+			["item"] = 156,
 		},
 		["colHidden"] = {
 			["total"] = true,
@@ -2775,9 +2624,9 @@ TradeSkillMasterDB = {
 		["Mailing"] = false,
 		["Auctioning"] = false,
 		["Crafting"] = false,
-		["Shopping"] = false,
-		["Vendoring"] = false,
 		["Sniper"] = false,
+		["Vendoring"] = false,
+		["Shopping"] = false,
 		["Warehousing"] = false,
 	},
 	["c@邁克爾假死 - 伊弗斯@auctionUIContext@auctioningGroupTree"] = {
@@ -2793,7 +2642,7 @@ TradeSkillMasterDB = {
 		["i:27664"] = 17,
 		["i:31370"] = 1,
 		["i:29472"] = 1,
-		["i:30061"] = 1,
+		["i:28442"] = 1,
 		["i:28747"] = 1,
 		["i:29381"] = 1,
 		["i:28597"] = 1,
@@ -2802,13 +2651,17 @@ TradeSkillMasterDB = {
 		["i:25477"] = 1,
 		["i:30629"] = 1,
 		["i:31113"] = 1,
+		["i:30155"] = 10,
 		["i:22824"] = 11,
-		["i:29449"] = 23,
+		["i:29449"] = 22,
 		["i:31398"] = 1,
+		["i:32805"] = 1,
 		["i:6948"] = 1,
 		["i:29996"] = 1,
 		["i:28579"] = 1,
 		["i:31369"] = 1,
+		["i:32818"] = 1,
+		["i:23529"] = 1,
 		["i:28558"] = 42,
 		["i:29434"] = 3,
 		["i:24067"] = 1,
@@ -2818,43 +2671,42 @@ TradeSkillMasterDB = {
 		["i:22449"] = 3,
 		["i:30359"] = 16,
 		["i:21877"] = 14,
-		["i:33872"] = 26,
-		["i:29950"] = 1,
-		["i:30627"] = 1,
-		["i:30057"] = 1,
+		["i:33872"] = 17,
 		["i:28502"] = 1,
-		["i:30022"] = 1,
-		["i:30032"] = 1,
-		["i:30081"] = 1,
-		["i:28824"] = 1,
-		["i:27855"] = 1,
+		["i:32793"] = 1,
 		["i:20560"] = 93,
 		["i:5956"] = 1,
-		["i:30155"] = 10,
-		["i:24368"] = 4,
+		["i:30025"] = 1,
 		["i:28825"] = 1,
-		["i:23529"] = 1,
-		["i:22851"] = 3,
 		["i:30116"] = 1,
-		["i:13455"] = 4,
-		["i:31371"] = 1,
-		["i:28672"] = 1,
+		["i:30489"] = 1,
 		["i:27804"] = 1,
-		["i:28566"] = 1,
+		["i:22105"] = 1,
 		["i:28307"] = 1,
-		["i:22854"] = 10,
-		["i:30028"] = 1,
+		["i:30344"] = 1,
+		["i:22851"] = 3,
 		["i:30117"] = 1,
+		["i:27855"] = 1,
 		["i:30099"] = 1,
+		["i:28672"] = 1,
 		["i:30058"] = 1,
-		["i:37127"] = 1,
-		["i:21991"] = 11,
+		["i:30487"] = 1,
+		["i:21991"] = 10,
 		["i:8491"] = 1,
-		["i:22831"] = 10,
+		["i:30028"] = 1,
+		["i:37127"] = 1,
+		["i:31371"] = 1,
+		["i:22831"] = 6,
 		["i:32902"] = 2,
 		["i:24093"] = 1,
+		["i:22854"] = 10,
+		["i:28566"] = 1,
 		["i:29016"] = 1,
-		["i:28421"] = 11,
+		["i:13455"] = 4,
+		["i:24368"] = 5,
+		["i:28421"] = 5,
+		["i:33057"] = 1,
+		["i:33066"] = 1,
 		["i:29011"] = 1,
 		["i:28439"] = 1,
 		["i:38289"] = 1,
@@ -2873,13 +2725,13 @@ TradeSkillMasterDB = {
 		["i:24666"] = 1,
 		["i:25012"] = 1,
 		["i:14047"] = 8,
-		["i:30810"] = 29,
+		["i:25057"] = 1,
 		["i:31952"] = 2,
 		["i:24623"] = 1,
 		["i:22578"] = 17,
 		["i:30809"] = 2,
 		["i:9172"] = 4,
-		["i:25057"] = 1,
+		["i:30810"] = 29,
 		["i:24991"] = 1,
 		["i:22572"] = 4,
 		["i:22577"] = 2,
@@ -2889,11 +2741,11 @@ TradeSkillMasterDB = {
 		["i:32902"] = 3,
 		["i:22575"] = 9,
 		["i:25719"] = 2,
-		["i:21882"] = 9,
+		["i:22829"] = 4,
 		["i:24643"] = 1,
 		["i:24246"] = 1,
 		["i:3823"] = 5,
-		["i:22829"] = 4,
+		["i:21882"] = 9,
 		["i:22576"] = 13,
 		["i:22574"] = 4,
 		["i:22832"] = 1,
@@ -2963,26 +2815,26 @@ TradeSkillMasterDB = {
 		["i:22576"] = 5,
 		["i:30810"] = 14,
 		["i:23933"] = 1,
-		["i:6948"] = 1,
+		["i:33999"] = 1,
 		["i:23572"] = 9,
 		["i:9172"] = 4,
 		["i:30638"] = 1,
 		["i:21991"] = 17,
 		["i:24338"] = 3,
 		["i:32905"] = 10,
-		["i:22573"] = 9,
-		["i:22831"] = 2,
-		["i:28102"] = 10,
-		["i:29451"] = 22,
 		["i:21882"] = 11,
+		["i:22831"] = 2,
+		["i:20558"] = 18,
+		["i:29451"] = 22,
+		["i:22573"] = 9,
 		["i:29434"] = 34,
 		["i:32902"] = 5,
 		["i:28558"] = 27,
 		["i:33042"] = 8,
-		["i:20558"] = 18,
+		["i:28102"] = 10,
 		["i:24246"] = 4,
 		["i:3823"] = 5,
-		["i:33999"] = 1,
+		["i:6948"] = 1,
 		["i:24421"] = 17,
 		["i:22574"] = 4,
 		["i:30807"] = 1,
@@ -3031,26 +2883,26 @@ TradeSkillMasterDB = {
 		["i:11284"] = 5,
 		["i:2596"] = 120,
 		["i:5956"] = 15,
-		["i:2526"] = 15469,
 		["i:3033"] = 1,
 		["i:8924"] = 80,
+		["i:3024"] = 6388,
 		["i:3371"] = 20,
 		["i:17037"] = 1400,
 		["i:21177"] = 150,
 		["i:6530"] = 100,
-		["i:3024"] = 6388,
+		["i:2516"] = 0,
 		["i:17036"] = 800,
 		["i:2519"] = 0,
-		["i:2516"] = 0,
+		["i:2526"] = 15469,
 		["i:2931"] = 800,
 		["i:8923"] = 160,
 		["i:2665"] = 20,
 		["i:10290"] = 2500,
 		["i:5441"] = 900,
 		["i:8925"] = 400,
-		["i:17020"] = 1000,
-		["i:4536"] = 25,
 		["i:28060"] = 7,
+		["i:4536"] = 25,
+		["i:17020"] = 1000,
 		["i:2324"] = 25,
 		["i:17196"] = 50,
 		["i:6261"] = 1000,
@@ -3102,15 +2954,15 @@ TradeSkillMasterDB = {
 			["ilvl"] = 32,
 			["pct"] = 40,
 			["seller"] = 86,
-			["buyout"] = 115,
-			["bidPct"] = 40,
-			["itemBid"] = 115,
 			["item"] = 230,
-			["posts"] = 40,
-			["bid"] = 115,
+			["bidPct"] = 40,
 			["stack"] = 40,
-			["icon"] = 24,
+			["buyout"] = 115,
+			["itemBid"] = 115,
+			["bid"] = 115,
 			["itemBuyout"] = 115,
+			["icon"] = 24,
+			["posts"] = 40,
 		},
 		["colHidden"] = {
 			["bid"] = true,
@@ -3151,14 +3003,13 @@ TradeSkillMasterDB = {
 		["i:118"] = 1,
 	},
 	["s@邁克爾假死 - Horde - 伊弗斯@internalData@money"] = 8457,
+	["s@邁克爾假死 - Horde - 伊弗斯@internalData@mailQuantity"] = {
+	},
 	["c@畜生犬隊長 - 伊弗斯@craftingUIContext@groupTree"] = {
 		["collapsed"] = {
 		},
 		["unselected"] = {
 		},
-	},
-	["g@ @auctionUIContext@auctioningSelectionDividedContainer"] = {
-		["leftWidth"] = 272,
 	},
 	["g@ @mainUIContext@ledgerDetailScrollingTable"] = {
 		["colWidth"] = {
@@ -3187,24 +3038,19 @@ TradeSkillMasterDB = {
 	["s@路易斯桑拿 - Horde - 伊弗斯@internalData@auctionQuantity"] = {
 	},
 	["g@ @appearanceOptions@showTotalMoney"] = false,
+	["f@Horde - 伊弗斯@internalData@guildGoldLogLastUpdate"] = {
+	},
+	["s@邁克爾假死 - Horde - 伊弗斯@internalData@classKey"] = "HUNTER",
+	["r@伊弗斯@internalData@csvIncome"] = "type,amount,otherPlayer,player,time\nMoney Transfer,28010000,Tinfani,特變電工,1640449502\nMoney Transfer,110011000,特變電工,邁克爾假死,1632544942\nMoney Transfer,106970000,邁克爾假死,特變電工,1632561472\nMoney Transfer,7710000,牧原股份,特變電工,1632669327\nMoney Transfer,100000000,邁克爾假死,特變電工,1632051192\nMoney Transfer,70000000,特變電工,邁克爾假死,1631026345\nMoney Transfer,75000000,邁克爾假死,特變電工,1631118059\nMoney Transfer,106000000,邁克爾假死,特變電工,1628922139\nMoney Transfer,100000000,邁克爾假死,特變電工,1627631964\nMoney Transfer,7600000,终焉誓約,特變電工,1638719812\nMoney Transfer,9190000,雲飄雪,特變電工,1638637459\nMoney Transfer,25160000,終焉之戰,特變電工,1639325207\nMoney Transfer,2000000,別逼我擋怪,特變電工,1640449241\nMoney Transfer,2000000,特變電工,邁克爾假死,1627217808\nMoney Transfer,5300000,邁克爾假死,特變電工,1627199452\nMoney Transfer,50000000,特變電工,邁克爾假死,1626789364\nMoney Transfer,10001000,邁克爾假死,特變電工,1626264956\nMoney Transfer,62000000,特變電工,邁克爾假死,1626612809\nMoney Transfer,5000000,特變電工,邁克爾假死,1626713604\nMoney Transfer,16000000,邁克爾假死,特變電工,1627199047\nMoney Transfer,50000000,邁克爾假死,特變電工,1626787067\nMoney Transfer,60000000,邁克爾假死,特變電工,1626461078\nMoney Transfer,1000100,邁克爾假死,特變電工,1626026618\nMoney Transfer,3200000,皮蛋瘦肉粥,邁克爾假死,1625332641\nMoney Transfer,4590000,成都張叔叔,邁克爾假死,1625210321",
+	["p@Default@userData@items"] = {
+	},
+	["r@伊弗斯@internalData@saveTimeBuys"] = "1623055868,1623055868,1623055868,1623055868,1625059645,1625059645,1625059645,1625059645,1625137110,1625137110,1625137110,1625146057,1625146057,1625146057,1625162780,1625162780,1625162780,1625162780,1625162780,1625162780,1625162780,1625162780,1625162780,1625162780,1625332516,1625335417,1625335417,1625335417,1625335417,1625843280,1625843280,1625843280,1625905645,1625905645,1625905645,1625905645,1625905645,1625905645,1625905645,1625905645,1625905645,1626026620,1626026620,1626026620,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284487,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626316440,1626316440,1626461032,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626598848,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626789366,1626789366,1626789366,1626789546,1626789812,1626789812,1626789812,1626789812,1626789812,1626789812,1626789812,1626790929,1626790929,1626790929,1626790929,1626790929,1626790929,1626790929,1626790929,1626790929,1626790929,1626792111,1626792111,1626792111,1626792969,1626792969,1626792969,1626793406,1626793406,1626793406,1626794465,1626801375,1626801375,1626801375,1626801375,1626801375,1626802200,1626803447,1626805003,1626867703,1626884406,1626884406,1626884406,1626884406,1626884406,1626884406,1626884406,1626884406,1626884406,1626884406,1626884406,1626892259,1626892259,1626892259,1626981521,1627118053,1627141300,1627141300,1627198946,1627198946,1627199339,1627199339,1627199339,1627199339,1627199339,1627199339,1627199339,1627199339,1627199339,1627208951,1627208951,1627208951,1627208951,1627208951,1627208951,1627208951,1627208951,1627208951,1627415720,1627415720,1627415720,1627415720,1627415720,1627453037,1627453037,1627453037,1627453037,1627453037,1627572834,1627572834,1627572834,1627572834,1627572834,1627572834,1627572834,1627621540,1627621540,1627621540,1627621540,1627631690,1627631690,1627631690,1627631690,1627631690,1627631690,1627631690,1627631690,1627631690,1627631690,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627671285,1627671285,1627707674,1627707674,1627754694,1627754694,1627754694,1627754694,1627754694,1627754694,1627754694,1627754694,1627793475,1627793475,1627793475,1627793475,1627793475,1627793475,1627839299,1627839299,1627839299,1627839299,1628011810,1628011810,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628418101,1628418101,1628442614,1628442614,1628442614,1628442614,1628442614,1628442614,1628442614,1628442614,1628442614,1628442614,1628877850,1628944841,1628944841,1628944841,1628944841,1628944841,1628944841,1628944841,1628944841,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1630847271,1630853369,1630946227,1630946227,1630946227,1630946227,1630946227,1630946227,1630946227,1630946227,1631385522,1631385522,1631385522,1631385522,1631446341,1631446341,1631446341,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631723865,1631723865,1631723865,1631723865,1631723865,1631723865,1631723865,1631723865,1631723865,1631723865,1632053632,1632053632,1632053632,1632053632,1632417962,1632561090,1632561090,1632588393,1632588393,1632588393,1632755435,1632755435,1632755435,1632755435,1632755435,1632755435,1632755435,1633098999,1633098999,1633615102,1633615102,1633615102,1633615102,1633880008,1633880008,1633880008,1633880008,1634374576,1634374576,1634374576,1634408480,1634408480,1634450506,1634986019,1634986019,1635014664,1635014664,1635014664,1635014664,1635014664,1635014664,1635014664,1635066791,1635066791,1635066791,1635096766,1635185232,1635355476,1635385773,1635385773,1635385773,1635385773,1635385773,1635434768,1635434768,1635434768,1635572160,1635572160,1635572160,1636173919,1636173919,1636217477,1636217477,1636909008,1636909008,1636980979,1636980979,1637382167,1638115164,1638115164,1638115164,1638366139,1638366139,1638366139,1638980234,1639224568,1639224568,1639224568,1639224568,1639224568,1639224568,1639224568,1639239951,1639239951,1639239951,1639239951,1639313800,1639313800,1639313800,1639313800,1639313800,1639673137,1639673137,1639673137,1639673137,1639673137,1639673137,1639673137,1639673137,1639847811,1639847811,1639847811,1639847811,1639847811,1639847811,1639847811,1639847811,1639847811,1640413563,1640413563,1640413563,1640413563,1640413563,1641045487",
+	["g@ @mailingOptions@sendMessages"] = true,
 	["c@畜生犬隊長 - 伊弗斯@vendoringUIContext@groupTree"] = {
 		["collapsed"] = {
 		},
 		["unselected"] = {
 		},
-	},
-	["c@邁克爾假死 - 伊弗斯@bankingUIContext@mailingGroupTree"] = {
-		["unselected"] = {
-		},
-		["collapsed"] = {
-		},
-	},
-	["r@伊弗斯@internalData@csvIncome"] = "type,amount,otherPlayer,player,time\nMoney Transfer,110011000,特變電工,邁克爾假死,1632544942\nMoney Transfer,106970000,邁克爾假死,特變電工,1632561472\nMoney Transfer,7710000,牧原股份,特變電工,1632669327\nMoney Transfer,100000000,邁克爾假死,特變電工,1632051192\nMoney Transfer,70000000,特變電工,邁克爾假死,1631026345\nMoney Transfer,75000000,邁克爾假死,特變電工,1631118059\nMoney Transfer,106000000,邁克爾假死,特變電工,1628922139\nMoney Transfer,100000000,邁克爾假死,特變電工,1627631964\nMoney Transfer,7600000,终焉誓約,特變電工,1638719812\nMoney Transfer,9190000,雲飄雪,特變電工,1638637459\nMoney Transfer,25160000,終焉之戰,特變電工,1639325207\nMoney Transfer,2000000,特變電工,邁克爾假死,1627217808\nMoney Transfer,5300000,邁克爾假死,特變電工,1627199452\nMoney Transfer,50000000,特變電工,邁克爾假死,1626789364\nMoney Transfer,10001000,邁克爾假死,特變電工,1626264956\nMoney Transfer,62000000,特變電工,邁克爾假死,1626612809\nMoney Transfer,5000000,特變電工,邁克爾假死,1626713604\nMoney Transfer,16000000,邁克爾假死,特變電工,1627199047\nMoney Transfer,50000000,邁克爾假死,特變電工,1626787067\nMoney Transfer,60000000,邁克爾假死,特變電工,1626461078\nMoney Transfer,1000100,邁克爾假死,特變電工,1626026618\nMoney Transfer,3200000,皮蛋瘦肉粥,邁克爾假死,1625332641\nMoney Transfer,4590000,成都張叔叔,邁克爾假死,1625210321",
-	["p@Default@userData@items"] = {
-	},
-	["r@伊弗斯@internalData@saveTimeBuys"] = "1623055868,1623055868,1623055868,1623055868,1625059645,1625059645,1625059645,1625059645,1625137110,1625137110,1625137110,1625146057,1625146057,1625146057,1625162780,1625162780,1625162780,1625162780,1625162780,1625162780,1625162780,1625162780,1625162780,1625162780,1625332516,1625335417,1625335417,1625335417,1625335417,1625843280,1625843280,1625843280,1625905645,1625905645,1625905645,1625905645,1625905645,1625905645,1625905645,1625905645,1625905645,1626026620,1626026620,1626026620,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284348,1626284487,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626285482,1626316440,1626316440,1626461032,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626463045,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626544603,1626598848,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626786830,1626789366,1626789366,1626789366,1626789546,1626789812,1626789812,1626789812,1626789812,1626789812,1626789812,1626789812,1626790929,1626790929,1626790929,1626790929,1626790929,1626790929,1626790929,1626790929,1626790929,1626790929,1626792111,1626792111,1626792111,1626792969,1626792969,1626792969,1626793406,1626793406,1626793406,1626794465,1626801375,1626801375,1626801375,1626801375,1626801375,1626802200,1626803447,1626805003,1626867703,1626884406,1626884406,1626884406,1626884406,1626884406,1626884406,1626884406,1626884406,1626884406,1626884406,1626884406,1626892259,1626892259,1626892259,1626981521,1627118053,1627141300,1627141300,1627198946,1627198946,1627199339,1627199339,1627199339,1627199339,1627199339,1627199339,1627199339,1627199339,1627199339,1627208951,1627208951,1627208951,1627208951,1627208951,1627208951,1627208951,1627208951,1627208951,1627415720,1627415720,1627415720,1627415720,1627415720,1627453037,1627453037,1627453037,1627453037,1627453037,1627572834,1627572834,1627572834,1627572834,1627572834,1627572834,1627572834,1627621540,1627621540,1627621540,1627621540,1627631690,1627631690,1627631690,1627631690,1627631690,1627631690,1627631690,1627631690,1627631690,1627631690,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627637547,1627671285,1627671285,1627707674,1627707674,1627754694,1627754694,1627754694,1627754694,1627754694,1627754694,1627754694,1627754694,1627793475,1627793475,1627793475,1627793475,1627793475,1627793475,1627839299,1627839299,1627839299,1627839299,1628011810,1628011810,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628358713,1628418101,1628418101,1628442614,1628442614,1628442614,1628442614,1628442614,1628442614,1628442614,1628442614,1628442614,1628442614,1628877850,1628944841,1628944841,1628944841,1628944841,1628944841,1628944841,1628944841,1628944841,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1628963737,1630847271,1630853369,1630946227,1630946227,1630946227,1630946227,1630946227,1630946227,1630946227,1630946227,1631385522,1631385522,1631385522,1631385522,1631446341,1631446341,1631446341,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631637833,1631723865,1631723865,1631723865,1631723865,1631723865,1631723865,1631723865,1631723865,1631723865,1631723865,1632053632,1632053632,1632053632,1632053632,1632417962,1632561090,1632561090,1632588393,1632588393,1632588393,1632755435,1632755435,1632755435,1632755435,1632755435,1632755435,1632755435,1633098999,1633098999,1633615102,1633615102,1633615102,1633615102,1633880008,1633880008,1633880008,1633880008,1634374576,1634374576,1634374576,1634408480,1634408480,1634450506,1634986019,1634986019,1635014664,1635014664,1635014664,1635014664,1635014664,1635014664,1635014664,1635066791,1635066791,1635066791,1635096766,1635185232,1635355476,1635385773,1635385773,1635385773,1635385773,1635385773,1635434768,1635434768,1635434768,1635572160,1635572160,1635572160,1636173919,1636173919,1636217477,1636217477,1636909008,1636909008,1636980979,1636980979,1637382167,1638115164,1638115164,1638115164,1638366139,1638366139,1638366139,1638980234,1639224568,1639224568,1639224568,1639224568,1639224568,1639224568,1639224568,1639239951,1639239951,1639239951,1639239951,1639313800,1639313800,1639313800,1639313800,1639313800,1639673137,1639673137,1639673137,1639673137,1639673137,1639673137,1639673137,1639673137,1639847811,1639847811,1639847811,1639847811,1639847811,1639847811,1639847811,1639847811,1639847811,1640413563,1640413563,1640413563,1640413563,1640413563",
-	["g@ @mailingOptions@sendMessages"] = true,
-	["f@Horde - 伊弗斯@internalData@guildGoldLogLastUpdate"] = {
 	},
 	["g@ @coreOptions@minimapIcon"] = {
 		["minimapPos"] = 170.2092733147794,
@@ -3214,7 +3060,12 @@ TradeSkillMasterDB = {
 	["_syncAccountKey"] = {
 		["Horde - 伊弗斯"] = "Horde - 伊弗斯 - 798530221",
 	},
-	["s@邁克爾假死 - Horde - 伊弗斯@internalData@classKey"] = "HUNTER",
+	["c@邁克爾假死 - 伊弗斯@bankingUIContext@mailingGroupTree"] = {
+		["unselected"] = {
+		},
+		["collapsed"] = {
+		},
+	},
 	["g@ @auctionUIContext@shoppingSelectionDividedContainer"] = {
 		["leftWidth"] = 272,
 	},
@@ -3255,6 +3106,14 @@ TradeSkillMasterDB = {
 		["selected"] = {
 		},
 	},
+	["g@ @auctioningOptions@matchWhitelist"] = true,
+	["g@ @bankingUIContext@frame"] = {
+		["width"] = 325.0003967285156,
+		["height"] = 600.0001220703125,
+		["centerY"] = 39.19999933242798,
+		["scale"] = 1,
+		["centerX"] = -477.3999918699265,
+	},
 	["c@邁克爾假死 - 伊弗斯@internalData@auctionPrices"] = {
 		["|cff1eff00|Hitem:21885::::::::70:::::::::|h[原始之水]|h|r"] = {
 		},
@@ -3267,14 +3126,6 @@ TradeSkillMasterDB = {
 		["|cff1eff00|Hitem:22457::::::::70:::::::::|h[原始法力]|h|r"] = {
 		},
 	},
-	["g@ @bankingUIContext@frame"] = {
-		["width"] = 325.0003967285156,
-		["height"] = 600.0001220703125,
-		["centerY"] = 39.19999933242798,
-		["scale"] = 1,
-		["centerX"] = -477.3999918699265,
-	},
-	["g@ @auctioningOptions@matchWhitelist"] = true,
 	["s@路易斯桑拿 - Horde - 伊弗斯@internalData@money"] = 0,
 	["g@ @bankingUIContext@tab"] = "Warehousing",
 	["c@邁克爾假死 - 伊弗斯@internalData@auctionSaleHints"] = {
@@ -3355,6 +3206,22 @@ TradeSkillMasterDB = {
 		["page"] = 1,
 		["centerX"] = -308.6600072383881,
 	},
+	["g@ @craftingUIContext@gatheringScrollingTable"] = {
+		["colWidth"] = {
+			["need"] = 50,
+			["sources"] = 160,
+			["name"] = 206,
+			["have"] = 50,
+		},
+		["colHidden"] = {
+		},
+	},
+	["c@邁克爾假死 - 伊弗斯@auctionUIContext@shoppingGroupTree"] = {
+		["unselected"] = {
+		},
+		["collapsed"] = {
+		},
+	},
 	["g@ @mainUIContext@ledgerResaleScrollingTable"] = {
 		["colWidth"] = {
 			["bought"] = 50,
@@ -3369,22 +3236,6 @@ TradeSkillMasterDB = {
 		["colHidden"] = {
 			["profitPct"] = true,
 			["totalProfit"] = true,
-		},
-	},
-	["c@邁克爾假死 - 伊弗斯@auctionUIContext@shoppingGroupTree"] = {
-		["unselected"] = {
-		},
-		["collapsed"] = {
-		},
-	},
-	["g@ @craftingUIContext@gatheringScrollingTable"] = {
-		["colWidth"] = {
-			["have"] = 50,
-			["sources"] = 160,
-			["need"] = 50,
-			["name"] = 206,
-		},
-		["colHidden"] = {
 		},
 	},
 	["g@ @tooltipOptions@prospectTooltip"] = true,
@@ -3403,60 +3254,60 @@ TradeSkillMasterDB = {
 	["g@ @internalData@destroyingHistory"] = {
 		["分解"] = {
 			{
+				["item"] = "i:25042:-17",
+				["time"] = 1631118129,
 				["result"] = {
 					["i:22445"] = 5,
 				},
-				["item"] = "i:25042:-17",
-				["time"] = 1631118129,
 			}, -- [1]
 			{
+				["item"] = "i:24661:-39",
+				["time"] = 1631118136,
 				["result"] = {
 					["i:22445"] = 4,
 				},
-				["item"] = "i:24661:-39",
-				["time"] = 1631118136,
 			}, -- [2]
 			{
-				["result"] = {
-					["i:22445"] = 2,
-				},
 				["item"] = "i:25005:-20",
 				["time"] = 1631118142,
-			}, -- [3]
-			{
 				["result"] = {
 					["i:22445"] = 2,
 				},
+			}, -- [3]
+			{
 				["item"] = "i:24802:-24",
 				["time"] = 1631547801,
+				["result"] = {
+					["i:22445"] = 2,
+				},
 			}, -- [4]
 			{
-				["time"] = 1633095421,
 				["result"] = {
 					["i:22445"] = 5,
 				},
 				["item"] = "i:24876:-40",
+				["time"] = 1633095421,
 			}, -- [5]
 			{
-				["item"] = "i:25293:-8",
 				["time"] = 1634389275,
 				["result"] = {
 					["i:22446"] = 1,
 				},
+				["item"] = "i:25293:-8",
 			}, -- [6]
 			{
+				["item"] = "i:24789:-40",
+				["time"] = 1638102662,
 				["result"] = {
 					["i:22446"] = 2,
 				},
-				["item"] = "i:24789:-40",
-				["time"] = 1638102662,
 			}, -- [7]
 			{
-				["time"] = 1640435713,
 				["result"] = {
 					["i:22449"] = 1,
 				},
 				["item"] = "i:25294:-21",
+				["time"] = 1640435713,
 			}, -- [8]
 		},
 	},
@@ -3480,7 +3331,8 @@ TradeSkillMasterDB = {
 	},
 	["c@特變電工 - 伊弗斯@internalData@craftingCooldowns"] = {
 	},
-	["s@邁克爾假死 - Horde - 伊弗斯@internalData@mailQuantity"] = {
+	["g@ @auctionUIContext@auctioningSelectionDividedContainer"] = {
+		["leftWidth"] = 272,
 	},
 	["s@特變電工 - Horde - 伊弗斯@internalData@playerProfessions"] = {
 		["鍛造"] = {
@@ -3540,8 +3392,6 @@ TradeSkillMasterDB = {
 		["i:3860"] = {
 		},
 		["i:28441"] = {
-		},
-		["i:27503"] = {
 		},
 		["i:3486"] = {
 		},
@@ -3605,9 +3455,9 @@ TradeSkillMasterDB = {
 		},
 		["i:3864"] = {
 		},
-		["i:2840"] = {
-		},
 		["i:8170"] = {
+		},
+		["i:2840"] = {
 		},
 		["i:22449"] = {
 		},
@@ -3623,15 +3473,15 @@ TradeSkillMasterDB = {
 		},
 		["i:1705"] = {
 		},
-		["i:2605"] = {
+		["i:21885"] = {
 		},
-		["i:23572"] = {
+		["i:6037"] = {
 		},
 		["i:1475"] = {
 		},
 		["i:5500"] = {
 		},
-		["i:21885"] = {
+		["i:2605"] = {
 		},
 		["i:22451"] = {
 		},
@@ -3651,11 +3501,11 @@ TradeSkillMasterDB = {
 		},
 		["i:23448"] = {
 		},
+		["i:23572"] = {
+		},
 		["i:22456"] = {
 		},
 		["i:12360"] = {
-		},
-		["i:6037"] = {
 		},
 		["i:3478"] = {
 		},
@@ -3696,27 +3546,27 @@ TradeSkillMasterDB = {
 		["colHidden"] = {
 		},
 	},
-	["s@特變電工 - Horde - 伊弗斯@internalData@goldLog"] = "minute,copper\n27100378,0\n27100444,1000000\n27101241,990000\n27101262,1000000\n27104405,1250000\n27104409,1220000\n27104428,11220000\n27104451,11180000\n27104461,11190000\n27104473,11200000\n27104482,11230000\n27104487,11250000\n27104514,11260000\n27104523,11270000\n27104525,11290000\n27104536,11300000\n27104549,11310000\n27104559,11320000\n27104562,11340000\n27104563,11470000\n27104573,11480000\n27104576,11510000\n27104605,11520000\n27104613,11530000\n27104631,11550000\n27104632,11680000\n27104635,11720000\n27104652,11760000\n27104653,11770000\n27104660,11780000\n27104664,11800000\n27104676,11820000\n27104689,11860000\n27104696,5560000\n27104699,5210000\n27104703,5130000\n27104705,5230000\n27104709,5180000\n27104710,4440000\n27104719,4510000\n27104720,4540000\n27104721,3780000\n27104722,2330000\n27104756,2410000\n27104757,2390000\n27105262,2340000\n27105263,3630000\n27105265,3580000\n27105278,3520000\n27105283,3600000\n27105286,3590000\n27105293,3600000\n27105306,3610000\n27105320,3620000\n27105329,3640000\n27105336,3660000\n27105341,3680000\n27105351,3700000\n27105357,3740000\n27105359,3750000\n27105362,3770000\n27105364,3800000\n27105367,3790000\n27105369,3800000\n27105410,3810000\n27105430,3890000\n27105431,3900000\n27105440,3920000\n27105444,3930000\n27105450,3950000\n27105453,3970000\n27105457,4040000\n27105458,4100000\n27105488,4110000\n27105510,4220000\n27105511,4230000\n27105522,4370000\n27105524,4360000\n27105538,4420000\n27105552,4430000\n27105562,4450000\n27105569,4460000\n27105577,4540000\n27105579,4870000\n27105591,4880000\n27105596,4930000\n27105597,4960000\n27105608,4990000\n27105634,5020000\n27105635,5050000\n27105641,5060000\n27105642,5110000\n27105656,5180000\n27105659,5220000\n27105701,5250000\n27105703,5300000\n27105704,5330000\n27105718,5410000\n27105724,5470000\n27105726,5720000\n27105727,5830000\n27105757,5840000\n27105764,5870000\n27105765,5900000\n27105771,5930000\n27105772,6030000\n27105774,6060000\n27105783,6140000\n27105793,6150000\n27105803,6160000\n27105811,6170000\n27105819,6180000\n27105825,6190000\n27105851,6260000\n27105852,6370000\n27105855,6460000\n27105856,6510000\n27105871,6540000\n27105872,6660000\n27105876,6670000\n27105877,6430000\n27106020,6460000\n27106029,6470000\n27106036,6480000\n27106040,6590000\n27106046,6600000\n27106056,6630000\n27106073,6660000\n27106077,6690000\n27106079,6720000\n27106084,6730000\n27106112,6740000\n27106119,6750000\n27106124,6760000\n27106137,6770000\n27106142,6780000\n27106148,6790000\n27106150,6820000\n27106152,7500000\n27106153,7620000\n27106167,7710000\n27106168,7830000\n27106177,7840000\n27106181,7850000\n27106188,7860000\n27106191,7920000\n27106192,7980000\n27106198,7990000\n27106205,8000000\n27106215,8100000\n27106218,8180000\n27106219,8210000\n27106221,8230000\n27106224,8450000\n27106225,8510000\n27106708,8530000\n27106715,8560000\n27106724,8590000\n27106754,8620000\n27106755,8650000\n27106800,8660000\n27106808,8670000\n27106815,8680000\n27106826,8690000\n27106836,8730000\n27106842,8740000\n27106851,9060000\n27106852,9160000\n27106968,9170000\n27106974,9180000\n27106981,9190000\n27106987,9220000\n27106989,9230000\n27107011,9240000\n27107015,9250000\n27107081,9260000\n27107086,9320000\n27107095,9330000\n27107103,9340000\n27107114,9440000\n27107115,9690000\n27107116,9660000\n27107118,9690000\n27107119,9750000\n27107127,9940000\n27107131,9970000\n27107132,9990000\n27107230,10000000\n27107239,10010000\n27107244,10040000\n27107247,10050000\n27107253,10060000\n27107265,10070000\n27107269,10130000\n27107271,10140000\n27107274,10170000\n27107277,10200000\n27107278,10360000\n27107287,10450000\n27107292,10490000\n27107300,10500000\n27107317,10530000\n27107319,10540000\n27107329,10550000\n27107332,10580000\n27107339,10610000\n27107633,10620000\n27107640,10630000\n27107651,10640000\n27107653,10700000\n27107659,10710000\n27107662,10740000\n27107663,10810000\n27107665,10800000\n27107667,10830000\n27107674,10960000\n27107675,11430000\n27107677,10700000\n27107679,10670000\n27107680,10450000\n27107681,8420000\n27107682,5840000\n27107683,100000\n27107685,60100000\n27107697,60090000\n27107701,60110000\n27107702,60100000\n27107707,60090000\n27107713,60100000\n27107714,60140000\n27107715,59700000\n27108304,59290000\n27108309,59220000\n27108310,58580000\n27108311,58370000\n27108312,58110000\n27108313,58080000\n27108314,57980000\n27108315,57920000\n27108320,57950000\n27108321,57970000\n27108324,54950000\n27108325,54770000\n27108328,54730000\n27108329,54800000\n27108334,54620000\n27108343,54720000\n27108386,54820000\n27108410,54860000\n27108426,54870000\n27108436,54880000\n27108443,54890000\n27108460,55170000\n27108463,55300000\n27108464,55370000\n27108465,55400000\n27108470,55410000\n27108482,55440000\n27108484,55510000\n27108487,55520000\n27108491,55620000\n27108512,55660000\n27108530,55880000\n27108541,55890000\n27108548,56000000\n27108549,56110000\n27108551,56220000\n27108552,56330000\n27108554,56450000\n27108556,56560000\n27108560,56770000\n27108563,56890000\n27108590,56900000\n27108594,56910000\n27108610,57010000\n27108613,57020000\n27108616,57030000\n27108621,57040000\n27108626,57050000\n27108678,57060000\n27108684,57070000\n27108688,57140000\n27108691,57150000\n27108699,57220000\n27108700,57290000\n27108702,57750000\n27108704,57820000\n27108706,57810000\n27108714,57820000\n27108718,57830000\n27108725,57840000\n27108733,57850000\n27108742,57860000\n27108754,57870000\n27108759,57880000\n27108760,57890000\n27108763,57900000\n27108771,57910000\n27108778,57930000\n27108793,57940000\n27108801,57950000\n27108802,57960000\n27108814,57970000\n27108818,57980000\n27108824,57990000\n27108833,58000000\n27108842,58010000\n27108849,58110000\n27108854,58120000\n27108860,58220000\n27108861,58170000\n27108862,58440000\n27108870,58450000\n27108875,58460000\n27108886,58470000\n27108909,58480000\n27108910,58600000\n27108925,58610000\n27108932,58620000\n27108941,58630000\n27108953,58700000\n27108965,58730000\n27108973,58810000\n27108981,58880000\n27108984,58920000\n27108993,58930000\n27108999,58940000\n27109007,58950000\n27109015,59060000\n27109039,59100000\n27109044,59140000\n27109048,59150000\n27109058,59190000\n27109060,59200000\n27109064,59210000\n27109071,59280000\n27109073,59310000\n27109074,59380000\n27109075,59680000\n27109623,59720000\n27109628,59730000\n27109641,59770000\n27109645,59810000\n27109683,59820000\n27109702,59860000\n27109703,59900000\n27109712,59910000\n27109722,59990000\n27109745,60000000\n27109749,60010000\n27109755,59610000\n27109756,59420000\n27109763,59460000\n27109771,59540000\n27109783,59550000\n27109787,59580000\n27109788,59650000\n27109794,59880000\n27109798,59890000\n27109820,59950000\n27109821,59960000\n27109828,59970000\n27109831,60080000\n27109832,60070000\n27109835,60240000\n27109836,60260000\n27109840,60300000\n27109849,60340000\n27109851,60330000\n27109854,60340000\n27109867,60350000\n27109873,60430000\n27109879,60460000\n27109885,60470000\n27109891,60480000\n27109903,60490000\n27109907,60500000\n27109909,60520000\n27109910,60530000\n27109912,60600000\n27109915,60680000\n27109920,60690000\n27109928,60770000\n27110002,60810000\n27110004,60820000\n27110008,60830000\n27110010,60870000\n27110016,60910000\n27110021,60920000\n27110024,60990000\n27110026,61110000\n27110043,61120000\n27110046,61200000\n27110094,61210000\n27110105,61250000\n27110109,61330000\n27110110,61450000\n27110115,61460000\n27110120,61470000\n27110124,61480000\n27110130,61660000\n27110131,62060000\n27110132,62200000\n27110142,62240000\n27110151,62280000\n27110158,62320000\n27110185,62440000\n27110186,62560000\n27110187,62680000\n27110196,62690000\n27110200,62770000\n27110202,62780000\n27110208,62790000\n27110212,62800000\n27110213,800000\n27110311,870000\n27110481,86150000\n27110482,86130000\n27110491,86140000\n27110499,86150000\n27110504,86170000\n27110509,86180000\n27110517,86190000\n27110527,86200000\n27110531,86210000\n27110532,86220000\n27110540,86390000\n27111060,86890000\n27111132,86900000\n27111138,86910000\n27111147,86920000\n27111150,86930000\n27111160,86940000\n27111240,86950000\n27111247,86990000\n27111249,87100000\n27111264,87210000\n27111267,87220000\n27111271,87320000\n27111272,87530000\n27111277,87610000\n27111312,87620000\n27111317,87630000\n27111324,87640000\n27111353,87650000\n27111357,87660000\n27111376,87790000\n27111394,87950000\n27111395,87990000\n27111410,88000000\n27111411,88040000\n27111415,88050000\n27111419,88090000\n27111423,88100000\n27111429,88140000\n27111452,88180000\n27111460,88110000\n27111686,88120000\n27111687,88160000\n27111750,88290000\n27111893,83290000\n27112501,83280000\n27112508,83290000\n27112514,83300000\n27112518,83340000\n27112520,83360000\n27112525,83400000\n27112530,83410000\n27112532,83450000\n27112536,83460000\n27112539,83500000\n27112563,83550000\n27112571,83590000\n27112575,83600000\n27112579,83680000\n27112580,83720000\n27112637,83880000\n27112780,83890000\n27112785,83900000\n27112789,83910000\n27112798,83920000\n27112803,83930000\n27112823,83940000\n27112831,83950000\n27112834,83960000\n27112837,83970000\n27112843,83980000\n27112852,84070000\n27112853,84250000\n27112854,84270000\n27112861,84400000\n27112874,84410000\n27112879,84420000\n27112884,84430000\n27112887,84440000\n27112891,84450000\n27112899,84460000\n27112901,84480000\n27112907,84490000\n27112912,84500000\n27112914,84720000\n27112920,84760000\n27112925,84770000\n27112926,84780000\n27112930,84790000\n27112934,84800000\n27112938,84810000\n27112941,84820000\n27112947,84830000\n27112952,84840000\n27112958,84850000\n27112960,84870000\n27112989,84880000\n27112991,84890000\n27112997,84900000\n27113002,84910000\n27113006,84920000\n27113008,84930000\n27113014,84940000\n27113018,84950000\n27113022,84960000\n27113024,84970000\n27113031,27010000\n27113032,25010000\n27113036,24260000\n27113037,24380000\n27113038,24500000\n27113039,24350000\n27113041,22580000\n27113042,19610000\n27113043,13660000\n27113045,13760000\n27113049,9560000\n27113051,9380000\n27113053,9200000\n27113054,9180000\n27113055,9100000\n27113056,9050000\n27113057,8750000\n27113064,8380000\n27113065,8330000\n27113066,8320000\n27113069,8100000\n27113070,8030000\n27113071,8020000\n27113100,8090000\n27113102,7950000\n27113106,7800000\n27113107,7790000\n27113108,7770000\n27113118,57770000\n27113156,7770000\n27113162,7910000\n27113186,8090000\n27113187,8150000\n27113192,8040000\n27113193,7970000\n27113196,7920000\n27113198,8100000\n27113203,8060000\n27113204,8020000\n27113224,8050000\n27113247,8000000\n27113259,7960000\n27113265,8220000\n27113270,8690000\n27113271,8790000\n27113272,9070000\n27113273,9670000\n27113294,9680000\n27113298,9690000\n27113309,9700000\n27113315,9710000\n27113319,9720000\n27113325,9730000\n27113329,9750000\n27113330,9760000\n27113335,9780000\n27113340,9920000\n27113361,9820000\n27113393,9810000\n27113398,9760000\n27113399,9580000\n27113403,9590000\n27113987,9600000\n27113993,9610000\n27114005,9620000\n27114020,9630000\n27114025,9640000\n27114028,9660000\n27114029,10850000\n27114034,11080000\n27114055,11090000\n27114061,11100000\n27114062,11110000\n27114071,11120000\n27114082,11280000\n27114185,11330000\n27114189,10900000\n27114192,10850000\n27114194,10860000\n27114227,11020000\n27114228,11170000\n27114229,11180000\n27114258,11300000\n27114280,11310000\n27114284,11320000\n27114289,11330000\n27114293,11340000\n27114296,11350000\n27114303,11360000\n27114314,11370000\n27114322,11430000\n27114323,11550000\n27114339,11830000\n27114344,11840000\n27114353,11850000\n27114359,11860000\n27114366,11870000\n27114370,11880000\n27114378,11890000\n27114388,11900000\n27114393,11910000\n27114404,11920000\n27114407,11930000\n27114412,11940000\n27114421,11950000\n27114424,11960000\n27114428,12090000\n27114429,12220000\n27114482,12160000\n27114492,12170000\n27114496,12280000\n27114498,12290000\n27114502,12300000\n27114504,12370000\n27114508,12380000\n27114517,12460000\n27114521,12540000\n27114561,12560000\n27114582,12680000\n27114583,12920000\n27114634,10420000\n27114635,10410000\n27114650,10210000\n27114653,8490000\n27114657,8220000\n27114658,7960000\n27114659,7910000\n27114667,7410000\n27114681,7450000\n27114698,7490000\n27114701,7570000\n27114703,7580000\n27114706,7590000\n27114709,7600000\n27114715,7640000\n27114719,7650000\n27114723,7660000\n27114732,7700000\n27114753,7730000\n27114755,7750000\n27114756,7780000\n27114757,7790000\n27114758,7800000\n27114761,7810000\n27114775,7840000\n27114779,7850000\n27114812,7900000\n27114821,7940000\n27114842,7870000\n27114858,7910000\n27114866,7850000\n27114868,7780000\n27114869,7840000\n27114870,8030000\n27115408,8040000\n27115413,8050000\n27115417,8060000\n27115420,8070000\n27115427,8080000\n27115430,8280000\n27115432,8440000\n27115434,8420000\n27115489,8430000\n27115567,8510000\n27115574,8590000\n27115577,8600000\n27115583,8670000\n27115585,8750000\n27115586,8760000\n27115587,8860000\n27115589,8900000\n27115590,8960000\n27115591,9030000\n27115593,9130000\n27115594,9150000\n27115596,9230000\n27115598,9250000\n27115600,9300000\n27115602,9310000\n27115605,9320000\n27115817,9400000\n27115819,9460000\n27115832,9470000\n27115839,9480000\n27115846,9490000\n27115852,9780000\n27115862,9850000\n27115864,9950000\n27115869,10200000\n27115873,10530000\n27115874,10610000\n27115875,10560000\n27115884,10570000\n27115887,10580000\n27115895,10590000\n27115899,10600000\n27115908,10610000\n27115915,10620000\n27115920,10630000\n27115947,10640000\n27115967,10650000\n27115978,10660000\n27115981,10670000\n27115984,10680000\n27115990,10690000\n27115997,10700000\n27115999,10710000\n27116002,10720000\n27116009,10730000\n27116024,10740000\n27116029,10750000\n27116032,10760000\n27116039,10770000\n27116044,10780000\n27116047,10790000\n27116052,10800000\n27116057,10810000\n27116060,10930000\n27116061,10880000\n27116070,10890000\n27116073,10900000\n27116081,10910000\n27116085,10920000\n27116094,10930000\n27116096,10950000\n27116098,10960000\n27116100,10970000\n27116106,10980000\n27116114,11370000\n27116147,11380000\n27116161,10470000\n27116169,10450000\n27116184,10460000\n27116190,10470000\n27116194,10480000\n27116197,10490000\n27116201,10500000\n27116208,10510000\n27116210,10520000\n27116211,10530000\n27116217,10540000\n27116221,10460000\n27116351,4460000\n27117178,4590000\n27117203,4550000\n27117242,4560000\n27117799,4550000\n27118633,4470000\n27118909,4480000\n27119913,4460000\n27119916,4400000\n27119985,16840000\n27119986,10130000\n27119991,5960000\n27119992,4280000\n27119993,4100000\n27119994,4050000\n27119998,4040000\n27119999,4030000\n27120296,2030000\n27120494,2040000\n27123108,2070000\n27123109,2020000\n27123129,2030000\n27123134,2040000\n27123136,2050000\n27123148,2060000\n27123162,2350000\n27123266,2320000\n27123272,2330000\n27123275,2340000\n27123279,2350000\n27123284,2360000\n27123286,2370000\n27123289,2380000\n27123291,2400000\n27123300,2410000\n27123307,2570000\n27123344,2580000\n27123346,2750000\n27123352,2250000\n27123353,2800000\n27123354,2500000\n27123367,1610000\n27123380,1620000\n27123385,1650000\n27123387,1660000\n27123390,1670000\n27123395,1680000\n27123401,1720000\n27123405,1730000\n27123410,1740000\n27123414,1780000\n27123438,1800000\n27123439,1820000\n27123441,1850000\n27123443,1860000\n27123444,1890000\n27123483,1930000\n27123498,1970000\n27123521,1980000\n27123526,2020000\n27123534,2060000\n27123544,2070000\n27123545,1990000\n27123558,2030000\n27123577,2070000\n27124051,2080000\n27124055,2090000\n27124059,2100000\n27124068,2110000\n27124070,2120000\n27124073,2130000\n27124075,2140000\n27124083,2150000\n27124085,2310000\n27124086,2420000\n27124101,22420000\n27124105,19100000\n27124108,19080000\n27124119,18230000\n27124133,18240000\n27124141,18250000\n27124145,18260000\n27124150,18270000\n27124151,18280000\n27124153,18290000\n27124160,18300000\n27124164,18310000\n27124176,18320000\n27124272,18330000\n27124276,18340000\n27124279,18350000\n27124289,18360000\n27124291,18370000\n27124293,18380000\n27124301,18390000\n27124311,18730000\n27124312,18750000\n27124319,18760000\n27124336,18780000\n27124349,18790000\n27124586,18870000\n27124589,18880000\n27124690,18800000\n27124727,18760000\n27124729,18770000\n27124733,18780000\n27124737,18790000\n27124742,18800000\n27124749,18810000\n27124756,18820000\n27124773,18830000\n27124784,18840000\n27124790,18850000\n27124796,18860000\n27124808,18980000\n27124814,18990000\n27124832,19000000\n27124834,19010000\n27124835,19020000\n27124841,19030000\n27124849,19040000\n27124852,19050000\n27124863,19540000\n27124872,19440000\n27124897,19340000\n27124958,19460000\n27125555,19310000\n27125583,19320000\n27125620,19330000\n27125628,19340000\n27125632,19350000\n27125634,19360000\n27125655,19730000\n27125713,19660000\n27125729,19740000\n27125733,19810000\n27125734,19800000\n27125735,19840000\n27125825,19850000\n27125831,19860000\n27125837,19870000\n27125842,19880000\n27125849,19890000\n27125855,19900000\n27125865,19910000\n27125880,19940000\n27125892,19950000\n27125897,19960000\n27125901,19970000\n27125920,19980000\n27125928,19990000\n27125943,20000000\n27125951,20010000\n27125959,20020000\n27125962,20040000\n27125965,20050000\n27125969,20060000\n27125970,19980000\n27125981,19990000\n27125984,20000000\n27125990,20010000\n27125995,20020000\n27126000,20030000\n27126003,20040000\n27126011,20050000\n27126012,20070000\n27126024,20080000\n27126029,20090000\n27126036,20100000\n27126039,20110000\n27126042,20230000\n27126060,20390000\n27126071,20400000\n27126091,20410000\n27126094,20420000\n27126096,20430000\n27126098,20360000\n27126103,20370000\n27126122,20380000\n27126134,20390000\n27126151,20470000\n27126152,20570000\n27126159,20560000\n27126160,20520000\n27126163,20530000\n27126170,20640000\n27126172,20470000\n27126175,20370000\n27126233,20420000\n27126256,20430000\n27126281,20440000\n27126294,20450000\n27126304,20460000\n27126320,20470000\n27126350,20450000\n27126352,20470000\n27126353,20460000\n27126355,20450000\n27126356,20440000\n27126357,20450000\n27126358,20460000\n27126958,24900000\n27126965,23650000\n27126967,22430000\n27127106,23330000\n27127107,23270000\n27127127,23280000\n27127135,23290000\n27127139,23300000\n27127146,23310000\n27127151,23320000\n27127163,23330000\n27127182,18590000\n27127184,16200000\n27127185,14610000\n27127186,14620000\n27127187,13020000\n27127192,7180000\n27127193,6240000\n27127199,106240000\n27127203,97340000\n27127204,94940000\n27127205,92670000\n27127211,92590000\n27127212,87590000\n27127213,83720000\n27127214,82750000\n27127215,82540000\n27127226,82340000\n27127234,79840000\n27127235,79820000\n27127243,79800000\n27127463,80040000\n27127524,79960000\n27127529,82510000\n27127718,82520000\n27127850,83470000\n27128400,83480000\n27128402,83490000\n27128407,83500000\n27128422,83420000\n27128424,83350000\n27128457,83360000\n27128619,83330000\n27128848,84480000\n27128850,84000000\n27128852,83930000\n27129138,83880000\n27129878,83030000\n27129879,84120000\n27129881,84080000\n27129950,84090000\n27129955,84100000\n27129958,84110000\n27130146,84120000\n27130169,84070000\n27130176,83820000\n27130225,83830000\n27130231,83840000\n27130242,83850000\n27130251,83860000\n27130262,83870000\n27130269,83880000\n27130277,83890000\n27130282,83900000\n27130311,83010000\n27130312,81790000\n27130313,82130000\n27130316,82190000\n27130322,82200000\n27130328,82210000\n27130344,82310000\n27130372,82410000\n27130380,73410000\n27130445,73600000\n27130450,69600000\n27130458,75140000\n27130473,75110000\n27130499,75120000\n27130503,75140000\n27130506,75150000\n27130510,75160000\n27130526,75410000\n27130527,75440000\n27130573,75450000\n27130577,75460000\n27130584,75470000\n27130588,75480000\n27130595,75490000\n27130598,75500000\n27130602,75510000\n27130605,75520000\n27130606,75530000\n27130640,75540000\n27130649,75640000\n27130650,75600000\n27131942,75590000\n27131993,75600000\n27131997,75630000\n27132000,75640000\n27132004,75650000\n27132008,75660000\n27132013,75690000\n27132015,75700000\n27132018,75710000\n27132025,75720000\n27132028,75760000\n27132050,75800000\n27132055,75820000\n27132056,75850000\n27132057,75860000\n27132070,75900000\n27132074,75910000\n27132090,75950000\n27132093,75960000\n27132102,76000000\n27132109,75990000\n27132122,76040000\n27132142,76080000\n27132148,76190000\n27133312,75890000\n27133319,75830000\n27133460,74980000\n27133491,74960000\n27134907,75080000\n27134970,75090000\n27136376,75210000\n27137698,75180000\n27137777,75300000\n27137802,75360000\n27138481,75370000\n27138580,75300000\n27138866,75420000\n27138883,75440000\n27138987,72510000\n27138988,72000000\n27138990,71960000\n27138991,71790000\n27138992,70390000\n27138993,68680000\n27138996,68280000\n27139076,67700000\n27139077,67660000\n27139081,67570000\n27139083,67470000\n27139189,67440000\n27139967,66630000\n27139968,66570000\n27139969,66530000\n27140234,66480000\n27140294,66600000\n27140407,66570000\n27140408,66550000\n27140409,66440000\n27140410,66970000\n27140412,66960000\n27140419,66740000\n27140422,96740000\n27140428,96390000\n27140432,96370000\n27140444,96470000\n27140495,96570000\n27140499,96270000\n27140501,95870000\n27140554,96070000\n27140561,79070000\n27140563,80070000\n27140568,85720000\n27140573,85970000\n27140602,85980000\n27140613,85990000\n27140618,86000000\n27140622,86010000\n27140633,86020000\n27140637,86030000\n27140644,86040000\n27140648,86050000\n27140657,86060000\n27140665,86070000\n27140674,86080000\n27140676,86090000\n27140685,86340000\n27140705,86220000\n27140707,36220000\n27141969,36230000\n27141974,36240000\n27141978,36250000\n27141983,36260000\n27141987,36280000\n27141989,36290000\n27141995,36300000\n27142001,36310000\n27142009,36320000\n27142017,36330000\n27142024,36570000\n27142031,36620000\n27142065,36740000\n27142082,36780000\n27142087,36800000\n27142091,36810000\n27142095,36840000\n27142098,36850000\n27142102,36860000\n27142109,36900000\n27142116,36910000\n27142123,36950000\n27142133,36960000\n27142134,36970000\n27142135,36990000\n27142136,37000000\n27142152,37040000\n27142170,37050000\n27142176,37080000\n27142197,37120000\n27142201,37130000\n27142209,37080000\n27142225,37110000\n27142258,37160000\n27142260,37100000\n27143492,36650000\n27143507,36590000\n27144874,36710000\n27147797,36830000\n27147872,36790000\n27147874,36760000\n27147875,36310000\n27147883,36320000\n27147888,36330000\n27147896,36340000\n27147902,36350000\n27147906,36360000\n27147912,36370000\n27147915,36390000\n27147922,36400000\n27147925,36410000\n27147928,36420000\n27147937,36430000\n27147939,36450000\n27147945,36700000\n27147946,36880000\n27148703,145070000\n27148732,145080000\n27148736,145090000\n27148749,145100000\n27148754,145110000\n27148761,145120000\n27148767,145130000\n27148775,145140000\n27148779,145150000\n27148788,145160000\n27148793,145170000\n27148799,145180000\n27148803,145200000\n27148808,145450000\n27148809,145480000\n27148815,144980000\n27148852,144990000\n27148862,144660000\n27148863,140920000\n27148864,140910000\n27148897,140880000\n27148954,140460000\n27148998,140570000\n27149034,140580000\n27149062,140690000\n27149068,140940000\n27149085,140770000\n27149086,136020000\n27149087,135320000\n27149101,134820000\n27149125,134830000\n27149130,134850000\n27149131,134860000\n27149135,134870000\n27149153,134980000\n27149154,135020000\n27149160,134910000\n27149161,134970000\n27149178,134980000\n27149183,134990000\n27149187,135000000\n27149190,135010000\n27149191,135020000\n27149195,135030000\n27149199,135040000\n27149220,135050000\n27149228,135060000\n27149235,135070000\n27149259,135180000\n27149260,135320000\n27149272,135180000\n27149283,135190000\n27149287,135200000\n27149293,135210000\n27149301,135220000\n27149304,135230000\n27149309,135400000\n27149324,135410000\n27149327,135420000\n27149329,135430000\n27149332,135440000\n27149337,135450000\n27149340,135460000\n27149345,135470000\n27149378,132590000\n27149379,111340000\n27149386,110270000\n27149390,110280000\n27178911,81680000\n27178917,81510000\n27178920,81420000\n27178921,81520000\n27180718,81100000\n27180728,81090000\n27180729,81080000\n27180732,80580000\n27180764,80680000\n27180781,80780000\n27180829,80990000\n27180831,50990000\n27180844,54990000\n27180846,54830000\n27180847,55190000\n27180860,54780000\n27182338,54840000\n27182341,54920000\n27182342,54930000\n27182355,54320000\n27182356,54430000\n27182361,54470000\n27182363,54480000\n27182366,54490000\n27182368,54500000\n27182373,54540000\n27182374,54550000\n27182378,54560000\n27182385,54600000\n27182394,54610000\n27182399,54650000\n27182401,54680000\n27182402,54700000\n27182403,46710000\n27182437,46810000\n27182447,46850000\n27182449,46860000\n27182459,46890000\n27182471,46900000\n27182479,46910000\n27182483,46940000\n27182490,46980000\n27182496,46990000\n27182506,47020000\n27182507,47030000\n27182508,46900000\n27182528,46940000\n27182537,67300000\n27183772,770000\n27185302,75770000\n27185303,75800000\n27188151,75350000\n27188205,75310000\n27188894,75290000\n27189019,75280000\n27189595,75240000\n27189725,75230000\n27189729,75210000\n27189730,74990000\n27189731,74920000\n27190439,75040000\n27190566,75020000\n27190570,73850000\n27190690,73830000\n27190700,73580000\n27190815,73080000\n27190851,73180000\n27190867,73280000\n27190897,73470000\n27190912,75470000\n27190914,74970000\n27190948,74900000\n27190970,74890000\n27192357,74870000\n27192430,74370000\n27192442,74410000\n27192444,74420000\n27192449,74430000\n27192451,74440000\n27192455,74480000\n27192458,74490000\n27192460,74500000\n27192467,74540000\n27192473,74550000\n27192479,74590000\n27192480,73590000\n27192481,73600000\n27192482,73620000\n27192483,73640000\n27192504,73670000\n27192508,73680000\n27192522,73720000\n27192540,73730000\n27192543,73770000\n27192550,73800000\n27192552,73810000\n27192568,73850000\n27192570,73760000\n27192573,72760000\n27192591,72800000\n27192597,76480000\n27193824,76490000\n27193827,75770000\n27193832,74070000\n27193833,73600000\n27193834,72650000\n27193835,72560000\n27193836,72260000\n27193837,71760000\n27193844,60690000\n27193847,59010000\n27193860,59020000\n27193866,59030000\n27193870,59040000\n27193875,59050000\n27193879,59060000\n27193882,59070000\n27193886,58470000\n27193887,58520000\n27193890,51670000\n27193891,36240000\n27193901,36250000\n27193906,36260000\n27193909,36270000\n27193912,36280000\n27193923,36290000\n27193929,36300000\n27193933,36310000\n27193937,36330000\n27193955,35410000\n27193962,35060000\n27195330,27840000\n27195331,27820000\n27195335,27780000\n27195347,27790000\n27195352,27800000\n27195357,27810000\n27195363,27820000\n27195364,27830000\n27195366,27630000\n27195367,27270000\n27195375,25840000\n27195376,21940000\n27195381,21640000\n27200480,30400000\n27200488,29900000\n27200574,29910000\n27200736,29880000\n27200855,125230000\n27200862,124820000\n27200863,124800000\n27200879,124300000\n27200909,124310000\n27200940,124320000\n27200963,124330000\n27200985,124430000\n27200997,124440000\n27201004,114440000\n27201010,104440000\n27201014,104450000\n27201050,104460000\n27201071,104210000\n27201097,104150000\n27201161,103930000\n27201163,105170000\n27201165,114610000\n27201188,114110000\n27201223,113680000\n27201255,113760000\n27202517,113750000\n27202530,113740000\n27202557,113750000\n27202561,113740000\n27202589,113240000\n27202612,113340000\n27202627,113440000\n27202628,113380000\n27202653,113570000\n27202672,118380000\n27203360,117880000\n27203370,118000000\n27203556,117980000\n27203899,118100000\n27204073,118080000\n27205448,118020000\n27206866,117720000\n27206891,117730000\n27206939,117850000\n27206960,117730000\n27206962,116430000\n27209082,116420000\n27209084,6420000\n27209358,113390000\n27209521,112890000\n27209561,113000000\n27209570,113010000\n27209584,113020000\n27209600,113120000\n27209609,104120000\n27209618,92130000\n27209641,92230000\n27209647,92240000\n27209666,92010000\n27209678,92110000\n27209686,80110000\n27209692,80120000\n27209703,80130000\n27209789,82130000\n27209790,83150000\n27209798,90820000\n27209799,90580000\n27209801,87490000\n27209802,87080000\n27212505,82800000\n27212513,80740000\n27212514,80180000\n27212516,79880000\n27212517,79380000\n27212543,79500000\n27215446,79470000\n27215543,79590000\n27215564,79580000\n27217592,79600000\n27217593,79690000\n27217638,79700000\n27217843,79820000\n27217856,79800000\n27217871,79810000\n27217873,79820000\n27217875,79830000\n27217877,79840000\n27217880,79940000\n27217882,79950000\n27217893,79960000\n27217894,79970000\n27217897,79980000\n27217899,79990000\n27217901,80000000\n27217904,80010000\n27217905,80020000\n27217927,80070000\n27217942,80080000\n27217945,80090000\n27217947,80100000\n27217949,80110000\n27217988,80120000\n27217990,80130000\n27218054,80140000\n27218056,80150000\n27218060,80160000\n27218063,80170000\n27218065,80180000\n27218067,80190000\n27218069,80200000\n27218071,80210000\n27218073,80220000\n27218076,80230000\n27218083,80320000\n27218086,80330000\n27218138,80340000\n27218142,80350000\n27218145,80360000\n27218147,80370000\n27218150,80380000\n27218153,80500000\n27218191,79430000\n27218192,80370000\n27218249,80380000\n27218252,80390000\n27218254,80400000\n27218257,80410000\n27218260,80420000\n27218262,80430000\n27219077,80460000\n27219078,80580000\n27219082,80590000\n27219114,80600000\n27219117,80610000\n27219121,80620000\n27219124,80630000\n27219127,80640000\n27219174,80650000\n27219176,80660000\n27219208,80670000\n27219256,80680000\n27219258,80690000\n27219262,80700000\n27219264,80710000\n27219267,80720000\n27219269,80730000\n27219271,80740000\n27219272,80750000\n27219275,80760000\n27219276,80770000\n27219278,80780000\n27219280,80790000\n27219282,80800000\n27219285,80810000\n27219288,80820000\n27219290,80830000\n27219292,81100000\n27219308,81110000\n27219311,81120000\n27219313,81130000\n27219315,81280000\n27219318,81290000\n27219320,81300000\n27219321,81310000\n27219323,81320000\n27219326,81330000\n27219328,81340000\n27219331,81350000\n27219333,81360000\n27219336,81370000\n27219339,81560000\n27219340,81760000\n27219341,81810000\n27219350,81820000\n27219352,81830000\n27219596,81330000\n27219651,81430000\n27219655,81440000\n27219664,81450000\n27219682,81550000\n27219698,81560000\n27219742,81660000\n27219746,81510000\n27219768,81610000\n27219772,70610000\n27219780,70620000\n27219862,72120000\n27219863,73730000\n27219864,81960000\n27219866,81460000\n27219912,81230000\n27219974,81220000\n27220659,81320000\n27220743,81310000\n27221041,80810000\n27221060,80820000\n27221107,80920000\n27221112,80930000\n27221140,81030000\n27221145,81040000\n27221158,81050000\n27221168,81060000\n27221208,81160000\n27221218,83060000\n27221220,93810000\n27221223,93310000\n27221260,93030000\n27221300,93040000\n27221985,93050000\n27221988,93060000\n27221991,93070000\n27221994,93080000\n27221996,93090000\n27221999,93100000\n27222000,93110000\n27222004,93120000\n27222007,93130000\n27222012,93140000\n27222014,93150000\n27222017,93160000\n27222020,93170000\n27222084,93150000\n27222260,93160000\n27222281,93150000\n27222733,93090000\n27223496,93100000\n27223498,93110000\n27223504,93120000\n27223506,93130000\n27223509,93140000\n27223513,93150000\n27223515,93160000\n27223518,93170000\n27223520,93180000\n27223524,93190000\n27223527,93200000\n27223528,93210000\n27223532,93220000\n27223536,93230000\n27223539,93240000\n27223550,93250000\n27223552,93260000\n27223557,93270000\n27223559,93280000\n27223562,93290000\n27223565,93300000\n27223568,93310000\n27223569,93370000\n27223570,93420000\n27223594,93370000\n27223830,93490000\n27223833,93380000\n27223862,93330000\n27223868,93340000\n27223875,93240000\n27224977,92740000\n27225010,92700000\n27225076,92820000\n27225125,92850000\n27225133,92840000\n27225142,92850000\n27225157,92840000\n27226770,92750000\n27226772,92500000\n27226773,92440000\n27226779,92410000\n27226807,92530000\n27226929,92500000\n27229896,92480000\n27230929,92410000\n27231114,91960000\n27231136,91970000\n27231170,92070000\n27231182,92080000\n27231201,92180000\n27231207,92190000\n27231222,92200000\n27231228,92210000\n27231248,72210000\n27231273,72310000\n27231299,72320000\n27231315,72030000\n27231318,68030000\n27231321,72770000\n27231323,73400000\n27231328,70340000\n27232646,69840000\n27232674,69960000\n27234259,70080000\n27234273,70050000\n27239452,69550000\n27239455,69260000\n27239457,63020000\n27239469,63060000\n27239471,63070000\n27239473,63080000\n27239476,63090000\n27239477,63120000\n27239478,63130000\n27239480,63140000\n27239484,63180000\n27239494,63220000\n27239496,63260000\n27239497,63290000\n27239498,63300000\n27239509,63340000\n27239513,63350000\n27239519,63380000\n27239524,63390000\n27239533,63430000\n27239539,63470000\n27239553,63510000\n27239555,63460000\n27239565,63500000\n27239574,68500000\n27239758,68000000\n27239802,68100000\n27239806,68110000\n27239815,68120000\n27239818,48120000\n27239832,48220000\n27239853,48230000\n27239866,48240000\n27239889,48340000\n27239894,42340000\n27239895,30340000\n27239911,30440000\n27239921,30450000\n27239933,30550000\n27239937,13550000\n27239944,15550000\n27239945,17220000\n27239946,26370000\n27239949,21290000\n27239950,21150000\n27239966,21160000\n27239996,21260000\n27239999,21270000\n27240030,21380000\n27240036,21860000\n27240038,24750000\n27240042,24250000\n27240664,23720000\n27240665,22720000\n27240669,22690000\n27240672,22630000\n27240682,22710000\n27240683,22730000\n27240692,22740000\n27240696,22750000\n27240698,22760000\n27240700,22830000\n27240702,22910000\n27240709,22990000\n27240710,23030000\n27240718,23050000\n27240996,23010000\n27241089,23000000\n27241199,22970000\n27241200,22470000\n27241231,22480000\n27241237,22490000\n27241250,22500000\n27241263,22600000\n27241292,22610000\n27241366,22370000\n27241401,22300000\n27241411,22740000\n27241420,22240000\n27242761,22280000\n27242765,22400000\n27242767,22520000\n27242775,22600000\n27242779,22610000\n27242850,22580000\n27244249,22570000\n27245589,20570000\n27245658,20680000\n27245735,20690000\n27247099,20700000\n27247112,21700000\n27249370,21630000\n27249527,21640000\n27249742,21580000\n27249746,20270000\n27249763,20390000\n27249794,170390000\n27249846,169890000\n27249879,169990000\n27249886,170000000\n27249894,170010000\n27249927,170110000\n27249939,170120000\n27249946,163120000\n27249969,163220000\n27249973,163230000\n27249981,157230000\n27249993,157330000\n27250012,157430000\n27250015,154680000\n27250016,152300000\n27250038,147300000\n27250045,147310000\n27250056,147410000\n27250094,147520000\n27250107,150870000\n27250108,170750000\n27250109,160810000\n27250113,160450000\n27250115,159950000\n27250121,159710000\n27250886,159720000\n27250965,159770000\n27250969,159780000\n27250972,159830000\n27251099,159750000\n27251100,159910000\n27251108,159900000\n27251109,159880000\n27251286,155300000\n27251287,155050000\n27251288,154550000\n27251310,154560000\n27251317,154570000\n27251323,154580000\n27251349,154680000\n27251359,154690000\n27251474,157100000\n27251477,156600000\n27251480,156790000\n27251493,156680000\n27251495,156960000\n27251605,156990000\n27252841,157000000\n27252901,156960000\n27253061,157070000\n27253063,157050000\n27254364,157030000\n27254411,157040000\n27255876,156990000\n27255903,157110000\n27255919,156900000\n27256425,156780000\n27256426,155940000\n27256427,155670000\n27257125,155660000\n27257127,155530000\n27257173,155510000\n27257203,155420000\n27259461,155030000\n27259462,154980000\n27259491,154990000\n27259498,155010000\n27259508,155020000\n27259512,155180000\n27259520,155190000\n27259532,155250000\n27259600,155410000\n27259605,155420000\n27259923,154920000\n27259924,154720000\n27259948,154820000\n27259956,154830000\n27259962,154840000\n27259989,154940000\n27260008,154950000\n27260017,154960000\n27260059,155060000\n27260085,155160000\n27260096,155170000\n27260107,155270000\n27260146,155370000\n27260158,155380000\n27260166,155390000\n27260172,155130000\n27260173,155140000\n27260177,155150000\n27260185,155250000\n27260187,153250000\n27260191,152750000\n27260983,152870000\n27260985,152980000\n27261170,152930000\n27261344,152900000\n27261360,152400000\n27261390,152410000\n27261399,152510000\n27261419,152520000\n27261550,154520000\n27261551,178140000\n27261557,177640000\n27261609,177420000\n27262938,177380000\n27262946,177390000\n27264470,177330000\n27267384,177450000\n27267385,177390000\n27269536,176820000\n27269537,176790000\n27269538,177120000\n27269539,177100000\n27269542,177070000\n27269730,177080000\n27269736,177090000\n27269738,177300000\n27269769,177310000\n27269771,177320000\n27269774,177330000\n27269776,177340000\n27269778,177450000\n27269780,177490000\n27269782,177530000\n27269783,177560000\n27269785,177620000\n27269989,177630000\n27269994,177380000\n27269995,176880000\n27270024,176890000\n27270056,176990000\n27270065,177000000\n27270083,177100000\n27270091,177110000\n27270092,167110000\n27270105,167120000\n27270115,167220000\n27270145,167320000\n27270164,167420000\n27270169,167470000\n27270208,167570000\n27270212,167580000\n27270222,167590000\n27270227,167600000\n27270239,167700000\n27270250,167710000\n27270271,167810000\n27270274,167740000\n27270275,167710000\n27270276,169960000\n27270281,169460000\n27271006,169340000\n27271435,168840000\n27271474,168850000\n27271562,168660000\n27271592,168670000\n27271646,168510000\n27271685,169830000\n27271687,180820000\n27271688,182820000\n27272993,182320000\n27273109,181520000\n27274545,181470000\n27274632,181460000\n27278913,178920000\n27279880,178940000\n27279882,178920000\n27279890,178860000\n27280072,178410000\n27280113,178420000\n27280121,178430000\n27280135,178530000\n27280149,178630000\n27280158,178640000\n27280186,178740000\n27280193,178750000\n27280199,178580000\n27280216,178680000\n27280219,178690000\n27280239,178790000\n27280240,178670000\n27280256,175670000\n27280287,175770000\n27280290,175780000\n27280299,175790000\n27280309,175800000\n27280318,175900000\n27280338,173910000\n27280352,174010000\n27280360,173750000\n27281695,175750000\n27281696,185710000\n27281705,185720000\n27281728,185460000\n27281774,185340000\n27281794,185460000\n27281806,223380000\n27281807,212110000\n27281808,199470000\n27281811,198970000\n27281815,198720000\n27283015,198480000\n27289699,198200000\n27289702,198180000\n27290158,197680000\n27290184,197690000\n27290198,197700000\n27290203,197710000\n27290216,197810000\n27290227,197910000\n27290235,197920000\n27290255,198020000\n27290257,198030000\n27290274,198130000\n27290293,198230000\n27290310,198240000\n27290332,198340000\n27290338,198350000\n27290346,198360000\n27290349,198370000\n27290369,198470000\n27290386,198480000\n27290400,198580000\n27291609,198600000\n27291610,198270000\n27291638,198280000\n27291674,198400000\n27291788,198050000\n27291805,200050000\n27291807,202870000\n27291808,226900000\n27294540,226400000\n27300131,226650000\n27300135,226150000\n27300307,226250000\n27301666,226110000\n27301668,219690000\n27301670,219460000\n27301699,219470000\n27301706,211470000\n27301708,211480000\n27301718,211490000\n27301742,211590000\n27301753,211690000\n27301760,203700000\n27301819,203820000\n27301820,187820000\n27301821,187660000\n27301916,298560000\n27301917,212440000\n27306099,211770000\n27306100,211850000\n27306101,211350000\n27306158,211170000\n27310313,210670000\n27310343,210680000\n27310354,210690000\n27310361,210700000\n27310371,210710000\n27310377,210810000\n27310391,210910000\n27310408,210920000\n27310449,211020000\n27310469,210710000\n27310477,210810000\n27310482,210820000\n27310497,210920000\n27310501,210860000\n27310510,210870000\n27310536,210970000\n27310542,210980000\n27310564,211080000\n27310577,211090000\n27310587,211100000\n27310592,211110000\n27310614,211210000\n27311786,210950000\n27311798,210960000\n27311852,211080000\n27311917,210830000\n27316199,210700000\n27316208,227490000\n27316230,226990000\n27316311,226700000\n27320385,219480000\n27320387,219350000\n27320388,219270000\n27320389,218380000\n27320391,217930000\n27320414,217940000\n27320448,217800000\n27320459,217900000\n27320477,217910000\n27320488,218010000\n27320498,218020000\n27320505,218030000\n27320511,218040000\n27320519,218140000\n27320565,217980000\n27320584,217950000\n27320618,218070000\n27320619,202070000\n27320620,201640000\n27320623,198780000\n27320624,195640000\n27320639,122650000\n27320656,122150000\n27320665,122250000\n27321844,118650000\n27321845,116810000\n27321846,116680000\n27321847,116180000\n27321860,116190000\n27321868,116200000\n27321879,116300000\n27321893,116310000\n27321906,116410000\n27321937,116510000\n27321940,116520000\n27321954,116620000\n27321967,15620000\n27322029,15210000\n27326313,15080000\n27326315,14580000\n27327795,14570000\n27327821,174570000\n27327825,194690000\n27327826,194240000\n27327827,192440000\n27327847,191610000\n27327853,191620000\n27327858,191630000\n27327868,191640000\n27327873,191650000\n27330470,185740000\n27330471,185400000\n27330473,184900000\n27330498,184910000\n27330519,185010000\n27330530,185020000\n27330539,185030000\n27330541,179030000\n27330545,179040000\n27330547,179050000\n27330595,179170000\n27330600,179270000\n27330607,179370000\n27330608,179220000\n27330610,176770000\n27330612,174770000\n27330621,174780000\n27330645,174880000\n27330651,174890000\n27330655,174900000\n27330662,175000000\n27330675,175010000\n27330683,175110000\n27330684,175040000\n27330711,175140000\n27330716,175150000\n27330725,175250000\n27330748,175370000\n27330763,177370000\n27330766,206920000\n27330771,198240000\n27330773,197760000\n27330776,197740000\n27330777,197380000\n27330792,197630000\n27330794,197710000\n27336494,197210000\n27340148,197110000\n27340172,197100000\n27340174,187780000\n27340175,184050000\n27340194,182720000\n27340195,180810000\n27340223,180760000\n27340224,180400000\n27340557,179900000\n27340591,180000000\n27340593,180010000\n27340615,180130000\n27340625,180230000\n27340630,180240000\n27340636,180250000\n27340645,180350000\n27340658,180450000\n27340681,180550000\n27340682,180490000\n27340697,150490000\n27340720,150590000\n27340724,150600000\n27340731,150610000\n27340738,150620000\n27340744,150720000\n27340753,150730000\n27340774,150740000\n27340795,150860000\n27340801,150960000\n27345033,150750000\n27345047,150250000",
+	["s@特變電工 - Horde - 伊弗斯@internalData@goldLog"] = "minute,copper\n27100378,0\n27100444,1000000\n27101241,990000\n27101262,1000000\n27104405,1250000\n27104409,1220000\n27104428,11220000\n27104451,11180000\n27104461,11190000\n27104473,11200000\n27104482,11230000\n27104487,11250000\n27104514,11260000\n27104523,11270000\n27104525,11290000\n27104536,11300000\n27104549,11310000\n27104559,11320000\n27104562,11340000\n27104563,11470000\n27104573,11480000\n27104576,11510000\n27104605,11520000\n27104613,11530000\n27104631,11550000\n27104632,11680000\n27104635,11720000\n27104652,11760000\n27104653,11770000\n27104660,11780000\n27104664,11800000\n27104676,11820000\n27104689,11860000\n27104696,5560000\n27104699,5210000\n27104703,5130000\n27104705,5230000\n27104709,5180000\n27104710,4440000\n27104719,4510000\n27104720,4540000\n27104721,3780000\n27104722,2330000\n27104756,2410000\n27104757,2390000\n27105262,2340000\n27105263,3630000\n27105265,3580000\n27105278,3520000\n27105283,3600000\n27105286,3590000\n27105293,3600000\n27105306,3610000\n27105320,3620000\n27105329,3640000\n27105336,3660000\n27105341,3680000\n27105351,3700000\n27105357,3740000\n27105359,3750000\n27105362,3770000\n27105364,3800000\n27105367,3790000\n27105369,3800000\n27105410,3810000\n27105430,3890000\n27105431,3900000\n27105440,3920000\n27105444,3930000\n27105450,3950000\n27105453,3970000\n27105457,4040000\n27105458,4100000\n27105488,4110000\n27105510,4220000\n27105511,4230000\n27105522,4370000\n27105524,4360000\n27105538,4420000\n27105552,4430000\n27105562,4450000\n27105569,4460000\n27105577,4540000\n27105579,4870000\n27105591,4880000\n27105596,4930000\n27105597,4960000\n27105608,4990000\n27105634,5020000\n27105635,5050000\n27105641,5060000\n27105642,5110000\n27105656,5180000\n27105659,5220000\n27105701,5250000\n27105703,5300000\n27105704,5330000\n27105718,5410000\n27105724,5470000\n27105726,5720000\n27105727,5830000\n27105757,5840000\n27105764,5870000\n27105765,5900000\n27105771,5930000\n27105772,6030000\n27105774,6060000\n27105783,6140000\n27105793,6150000\n27105803,6160000\n27105811,6170000\n27105819,6180000\n27105825,6190000\n27105851,6260000\n27105852,6370000\n27105855,6460000\n27105856,6510000\n27105871,6540000\n27105872,6660000\n27105876,6670000\n27105877,6430000\n27106020,6460000\n27106029,6470000\n27106036,6480000\n27106040,6590000\n27106046,6600000\n27106056,6630000\n27106073,6660000\n27106077,6690000\n27106079,6720000\n27106084,6730000\n27106112,6740000\n27106119,6750000\n27106124,6760000\n27106137,6770000\n27106142,6780000\n27106148,6790000\n27106150,6820000\n27106152,7500000\n27106153,7620000\n27106167,7710000\n27106168,7830000\n27106177,7840000\n27106181,7850000\n27106188,7860000\n27106191,7920000\n27106192,7980000\n27106198,7990000\n27106205,8000000\n27106215,8100000\n27106218,8180000\n27106219,8210000\n27106221,8230000\n27106224,8450000\n27106225,8510000\n27106708,8530000\n27106715,8560000\n27106724,8590000\n27106754,8620000\n27106755,8650000\n27106800,8660000\n27106808,8670000\n27106815,8680000\n27106826,8690000\n27106836,8730000\n27106842,8740000\n27106851,9060000\n27106852,9160000\n27106968,9170000\n27106974,9180000\n27106981,9190000\n27106987,9220000\n27106989,9230000\n27107011,9240000\n27107015,9250000\n27107081,9260000\n27107086,9320000\n27107095,9330000\n27107103,9340000\n27107114,9440000\n27107115,9690000\n27107116,9660000\n27107118,9690000\n27107119,9750000\n27107127,9940000\n27107131,9970000\n27107132,9990000\n27107230,10000000\n27107239,10010000\n27107244,10040000\n27107247,10050000\n27107253,10060000\n27107265,10070000\n27107269,10130000\n27107271,10140000\n27107274,10170000\n27107277,10200000\n27107278,10360000\n27107287,10450000\n27107292,10490000\n27107300,10500000\n27107317,10530000\n27107319,10540000\n27107329,10550000\n27107332,10580000\n27107339,10610000\n27107633,10620000\n27107640,10630000\n27107651,10640000\n27107653,10700000\n27107659,10710000\n27107662,10740000\n27107663,10810000\n27107665,10800000\n27107667,10830000\n27107674,10960000\n27107675,11430000\n27107677,10700000\n27107679,10670000\n27107680,10450000\n27107681,8420000\n27107682,5840000\n27107683,100000\n27107685,60100000\n27107697,60090000\n27107701,60110000\n27107702,60100000\n27107707,60090000\n27107713,60100000\n27107714,60140000\n27107715,59700000\n27108304,59290000\n27108309,59220000\n27108310,58580000\n27108311,58370000\n27108312,58110000\n27108313,58080000\n27108314,57980000\n27108315,57920000\n27108320,57950000\n27108321,57970000\n27108324,54950000\n27108325,54770000\n27108328,54730000\n27108329,54800000\n27108334,54620000\n27108343,54720000\n27108386,54820000\n27108410,54860000\n27108426,54870000\n27108436,54880000\n27108443,54890000\n27108460,55170000\n27108463,55300000\n27108464,55370000\n27108465,55400000\n27108470,55410000\n27108482,55440000\n27108484,55510000\n27108487,55520000\n27108491,55620000\n27108512,55660000\n27108530,55880000\n27108541,55890000\n27108548,56000000\n27108549,56110000\n27108551,56220000\n27108552,56330000\n27108554,56450000\n27108556,56560000\n27108560,56770000\n27108563,56890000\n27108590,56900000\n27108594,56910000\n27108610,57010000\n27108613,57020000\n27108616,57030000\n27108621,57040000\n27108626,57050000\n27108678,57060000\n27108684,57070000\n27108688,57140000\n27108691,57150000\n27108699,57220000\n27108700,57290000\n27108702,57750000\n27108704,57820000\n27108706,57810000\n27108714,57820000\n27108718,57830000\n27108725,57840000\n27108733,57850000\n27108742,57860000\n27108754,57870000\n27108759,57880000\n27108760,57890000\n27108763,57900000\n27108771,57910000\n27108778,57930000\n27108793,57940000\n27108801,57950000\n27108802,57960000\n27108814,57970000\n27108818,57980000\n27108824,57990000\n27108833,58000000\n27108842,58010000\n27108849,58110000\n27108854,58120000\n27108860,58220000\n27108861,58170000\n27108862,58440000\n27108870,58450000\n27108875,58460000\n27108886,58470000\n27108909,58480000\n27108910,58600000\n27108925,58610000\n27108932,58620000\n27108941,58630000\n27108953,58700000\n27108965,58730000\n27108973,58810000\n27108981,58880000\n27108984,58920000\n27108993,58930000\n27108999,58940000\n27109007,58950000\n27109015,59060000\n27109039,59100000\n27109044,59140000\n27109048,59150000\n27109058,59190000\n27109060,59200000\n27109064,59210000\n27109071,59280000\n27109073,59310000\n27109074,59380000\n27109075,59680000\n27109623,59720000\n27109628,59730000\n27109641,59770000\n27109645,59810000\n27109683,59820000\n27109702,59860000\n27109703,59900000\n27109712,59910000\n27109722,59990000\n27109745,60000000\n27109749,60010000\n27109755,59610000\n27109756,59420000\n27109763,59460000\n27109771,59540000\n27109783,59550000\n27109787,59580000\n27109788,59650000\n27109794,59880000\n27109798,59890000\n27109820,59950000\n27109821,59960000\n27109828,59970000\n27109831,60080000\n27109832,60070000\n27109835,60240000\n27109836,60260000\n27109840,60300000\n27109849,60340000\n27109851,60330000\n27109854,60340000\n27109867,60350000\n27109873,60430000\n27109879,60460000\n27109885,60470000\n27109891,60480000\n27109903,60490000\n27109907,60500000\n27109909,60520000\n27109910,60530000\n27109912,60600000\n27109915,60680000\n27109920,60690000\n27109928,60770000\n27110002,60810000\n27110004,60820000\n27110008,60830000\n27110010,60870000\n27110016,60910000\n27110021,60920000\n27110024,60990000\n27110026,61110000\n27110043,61120000\n27110046,61200000\n27110094,61210000\n27110105,61250000\n27110109,61330000\n27110110,61450000\n27110115,61460000\n27110120,61470000\n27110124,61480000\n27110130,61660000\n27110131,62060000\n27110132,62200000\n27110142,62240000\n27110151,62280000\n27110158,62320000\n27110185,62440000\n27110186,62560000\n27110187,62680000\n27110196,62690000\n27110200,62770000\n27110202,62780000\n27110208,62790000\n27110212,62800000\n27110213,800000\n27110311,870000\n27110481,86150000\n27110482,86130000\n27110491,86140000\n27110499,86150000\n27110504,86170000\n27110509,86180000\n27110517,86190000\n27110527,86200000\n27110531,86210000\n27110532,86220000\n27110540,86390000\n27111060,86890000\n27111132,86900000\n27111138,86910000\n27111147,86920000\n27111150,86930000\n27111160,86940000\n27111240,86950000\n27111247,86990000\n27111249,87100000\n27111264,87210000\n27111267,87220000\n27111271,87320000\n27111272,87530000\n27111277,87610000\n27111312,87620000\n27111317,87630000\n27111324,87640000\n27111353,87650000\n27111357,87660000\n27111376,87790000\n27111394,87950000\n27111395,87990000\n27111410,88000000\n27111411,88040000\n27111415,88050000\n27111419,88090000\n27111423,88100000\n27111429,88140000\n27111452,88180000\n27111460,88110000\n27111686,88120000\n27111687,88160000\n27111750,88290000\n27111893,83290000\n27112501,83280000\n27112508,83290000\n27112514,83300000\n27112518,83340000\n27112520,83360000\n27112525,83400000\n27112530,83410000\n27112532,83450000\n27112536,83460000\n27112539,83500000\n27112563,83550000\n27112571,83590000\n27112575,83600000\n27112579,83680000\n27112580,83720000\n27112637,83880000\n27112780,83890000\n27112785,83900000\n27112789,83910000\n27112798,83920000\n27112803,83930000\n27112823,83940000\n27112831,83950000\n27112834,83960000\n27112837,83970000\n27112843,83980000\n27112852,84070000\n27112853,84250000\n27112854,84270000\n27112861,84400000\n27112874,84410000\n27112879,84420000\n27112884,84430000\n27112887,84440000\n27112891,84450000\n27112899,84460000\n27112901,84480000\n27112907,84490000\n27112912,84500000\n27112914,84720000\n27112920,84760000\n27112925,84770000\n27112926,84780000\n27112930,84790000\n27112934,84800000\n27112938,84810000\n27112941,84820000\n27112947,84830000\n27112952,84840000\n27112958,84850000\n27112960,84870000\n27112989,84880000\n27112991,84890000\n27112997,84900000\n27113002,84910000\n27113006,84920000\n27113008,84930000\n27113014,84940000\n27113018,84950000\n27113022,84960000\n27113024,84970000\n27113031,27010000\n27113032,25010000\n27113036,24260000\n27113037,24380000\n27113038,24500000\n27113039,24350000\n27113041,22580000\n27113042,19610000\n27113043,13660000\n27113045,13760000\n27113049,9560000\n27113051,9380000\n27113053,9200000\n27113054,9180000\n27113055,9100000\n27113056,9050000\n27113057,8750000\n27113064,8380000\n27113065,8330000\n27113066,8320000\n27113069,8100000\n27113070,8030000\n27113071,8020000\n27113100,8090000\n27113102,7950000\n27113106,7800000\n27113107,7790000\n27113108,7770000\n27113118,57770000\n27113156,7770000\n27113162,7910000\n27113186,8090000\n27113187,8150000\n27113192,8040000\n27113193,7970000\n27113196,7920000\n27113198,8100000\n27113203,8060000\n27113204,8020000\n27113224,8050000\n27113247,8000000\n27113259,7960000\n27113265,8220000\n27113270,8690000\n27113271,8790000\n27113272,9070000\n27113273,9670000\n27113294,9680000\n27113298,9690000\n27113309,9700000\n27113315,9710000\n27113319,9720000\n27113325,9730000\n27113329,9750000\n27113330,9760000\n27113335,9780000\n27113340,9920000\n27113361,9820000\n27113393,9810000\n27113398,9760000\n27113399,9580000\n27113403,9590000\n27113987,9600000\n27113993,9610000\n27114005,9620000\n27114020,9630000\n27114025,9640000\n27114028,9660000\n27114029,10850000\n27114034,11080000\n27114055,11090000\n27114061,11100000\n27114062,11110000\n27114071,11120000\n27114082,11280000\n27114185,11330000\n27114189,10900000\n27114192,10850000\n27114194,10860000\n27114227,11020000\n27114228,11170000\n27114229,11180000\n27114258,11300000\n27114280,11310000\n27114284,11320000\n27114289,11330000\n27114293,11340000\n27114296,11350000\n27114303,11360000\n27114314,11370000\n27114322,11430000\n27114323,11550000\n27114339,11830000\n27114344,11840000\n27114353,11850000\n27114359,11860000\n27114366,11870000\n27114370,11880000\n27114378,11890000\n27114388,11900000\n27114393,11910000\n27114404,11920000\n27114407,11930000\n27114412,11940000\n27114421,11950000\n27114424,11960000\n27114428,12090000\n27114429,12220000\n27114482,12160000\n27114492,12170000\n27114496,12280000\n27114498,12290000\n27114502,12300000\n27114504,12370000\n27114508,12380000\n27114517,12460000\n27114521,12540000\n27114561,12560000\n27114582,12680000\n27114583,12920000\n27114634,10420000\n27114635,10410000\n27114650,10210000\n27114653,8490000\n27114657,8220000\n27114658,7960000\n27114659,7910000\n27114667,7410000\n27114681,7450000\n27114698,7490000\n27114701,7570000\n27114703,7580000\n27114706,7590000\n27114709,7600000\n27114715,7640000\n27114719,7650000\n27114723,7660000\n27114732,7700000\n27114753,7730000\n27114755,7750000\n27114756,7780000\n27114757,7790000\n27114758,7800000\n27114761,7810000\n27114775,7840000\n27114779,7850000\n27114812,7900000\n27114821,7940000\n27114842,7870000\n27114858,7910000\n27114866,7850000\n27114868,7780000\n27114869,7840000\n27114870,8030000\n27115408,8040000\n27115413,8050000\n27115417,8060000\n27115420,8070000\n27115427,8080000\n27115430,8280000\n27115432,8440000\n27115434,8420000\n27115489,8430000\n27115567,8510000\n27115574,8590000\n27115577,8600000\n27115583,8670000\n27115585,8750000\n27115586,8760000\n27115587,8860000\n27115589,8900000\n27115590,8960000\n27115591,9030000\n27115593,9130000\n27115594,9150000\n27115596,9230000\n27115598,9250000\n27115600,9300000\n27115602,9310000\n27115605,9320000\n27115817,9400000\n27115819,9460000\n27115832,9470000\n27115839,9480000\n27115846,9490000\n27115852,9780000\n27115862,9850000\n27115864,9950000\n27115869,10200000\n27115873,10530000\n27115874,10610000\n27115875,10560000\n27115884,10570000\n27115887,10580000\n27115895,10590000\n27115899,10600000\n27115908,10610000\n27115915,10620000\n27115920,10630000\n27115947,10640000\n27115967,10650000\n27115978,10660000\n27115981,10670000\n27115984,10680000\n27115990,10690000\n27115997,10700000\n27115999,10710000\n27116002,10720000\n27116009,10730000\n27116024,10740000\n27116029,10750000\n27116032,10760000\n27116039,10770000\n27116044,10780000\n27116047,10790000\n27116052,10800000\n27116057,10810000\n27116060,10930000\n27116061,10880000\n27116070,10890000\n27116073,10900000\n27116081,10910000\n27116085,10920000\n27116094,10930000\n27116096,10950000\n27116098,10960000\n27116100,10970000\n27116106,10980000\n27116114,11370000\n27116147,11380000\n27116161,10470000\n27116169,10450000\n27116184,10460000\n27116190,10470000\n27116194,10480000\n27116197,10490000\n27116201,10500000\n27116208,10510000\n27116210,10520000\n27116211,10530000\n27116217,10540000\n27116221,10460000\n27116351,4460000\n27117178,4590000\n27117203,4550000\n27117242,4560000\n27117799,4550000\n27118633,4470000\n27118909,4480000\n27119913,4460000\n27119916,4400000\n27119985,16840000\n27119986,10130000\n27119991,5960000\n27119992,4280000\n27119993,4100000\n27119994,4050000\n27119998,4040000\n27119999,4030000\n27120296,2030000\n27120494,2040000\n27123108,2070000\n27123109,2020000\n27123129,2030000\n27123134,2040000\n27123136,2050000\n27123148,2060000\n27123162,2350000\n27123266,2320000\n27123272,2330000\n27123275,2340000\n27123279,2350000\n27123284,2360000\n27123286,2370000\n27123289,2380000\n27123291,2400000\n27123300,2410000\n27123307,2570000\n27123344,2580000\n27123346,2750000\n27123352,2250000\n27123353,2800000\n27123354,2500000\n27123367,1610000\n27123380,1620000\n27123385,1650000\n27123387,1660000\n27123390,1670000\n27123395,1680000\n27123401,1720000\n27123405,1730000\n27123410,1740000\n27123414,1780000\n27123438,1800000\n27123439,1820000\n27123441,1850000\n27123443,1860000\n27123444,1890000\n27123483,1930000\n27123498,1970000\n27123521,1980000\n27123526,2020000\n27123534,2060000\n27123544,2070000\n27123545,1990000\n27123558,2030000\n27123577,2070000\n27124051,2080000\n27124055,2090000\n27124059,2100000\n27124068,2110000\n27124070,2120000\n27124073,2130000\n27124075,2140000\n27124083,2150000\n27124085,2310000\n27124086,2420000\n27124101,22420000\n27124105,19100000\n27124108,19080000\n27124119,18230000\n27124133,18240000\n27124141,18250000\n27124145,18260000\n27124150,18270000\n27124151,18280000\n27124153,18290000\n27124160,18300000\n27124164,18310000\n27124176,18320000\n27124272,18330000\n27124276,18340000\n27124279,18350000\n27124289,18360000\n27124291,18370000\n27124293,18380000\n27124301,18390000\n27124311,18730000\n27124312,18750000\n27124319,18760000\n27124336,18780000\n27124349,18790000\n27124586,18870000\n27124589,18880000\n27124690,18800000\n27124727,18760000\n27124729,18770000\n27124733,18780000\n27124737,18790000\n27124742,18800000\n27124749,18810000\n27124756,18820000\n27124773,18830000\n27124784,18840000\n27124790,18850000\n27124796,18860000\n27124808,18980000\n27124814,18990000\n27124832,19000000\n27124834,19010000\n27124835,19020000\n27124841,19030000\n27124849,19040000\n27124852,19050000\n27124863,19540000\n27124872,19440000\n27124897,19340000\n27124958,19460000\n27125555,19310000\n27125583,19320000\n27125620,19330000\n27125628,19340000\n27125632,19350000\n27125634,19360000\n27125655,19730000\n27125713,19660000\n27125729,19740000\n27125733,19810000\n27125734,19800000\n27125735,19840000\n27125825,19850000\n27125831,19860000\n27125837,19870000\n27125842,19880000\n27125849,19890000\n27125855,19900000\n27125865,19910000\n27125880,19940000\n27125892,19950000\n27125897,19960000\n27125901,19970000\n27125920,19980000\n27125928,19990000\n27125943,20000000\n27125951,20010000\n27125959,20020000\n27125962,20040000\n27125965,20050000\n27125969,20060000\n27125970,19980000\n27125981,19990000\n27125984,20000000\n27125990,20010000\n27125995,20020000\n27126000,20030000\n27126003,20040000\n27126011,20050000\n27126012,20070000\n27126024,20080000\n27126029,20090000\n27126036,20100000\n27126039,20110000\n27126042,20230000\n27126060,20390000\n27126071,20400000\n27126091,20410000\n27126094,20420000\n27126096,20430000\n27126098,20360000\n27126103,20370000\n27126122,20380000\n27126134,20390000\n27126151,20470000\n27126152,20570000\n27126159,20560000\n27126160,20520000\n27126163,20530000\n27126170,20640000\n27126172,20470000\n27126175,20370000\n27126233,20420000\n27126256,20430000\n27126281,20440000\n27126294,20450000\n27126304,20460000\n27126320,20470000\n27126350,20450000\n27126352,20470000\n27126353,20460000\n27126355,20450000\n27126356,20440000\n27126357,20450000\n27126358,20460000\n27126958,24900000\n27126965,23650000\n27126967,22430000\n27127106,23330000\n27127107,23270000\n27127127,23280000\n27127135,23290000\n27127139,23300000\n27127146,23310000\n27127151,23320000\n27127163,23330000\n27127182,18590000\n27127184,16200000\n27127185,14610000\n27127186,14620000\n27127187,13020000\n27127192,7180000\n27127193,6240000\n27127199,106240000\n27127203,97340000\n27127204,94940000\n27127205,92670000\n27127211,92590000\n27127212,87590000\n27127213,83720000\n27127214,82750000\n27127215,82540000\n27127226,82340000\n27127234,79840000\n27127235,79820000\n27127243,79800000\n27127463,80040000\n27127524,79960000\n27127529,82510000\n27127718,82520000\n27127850,83470000\n27128400,83480000\n27128402,83490000\n27128407,83500000\n27128422,83420000\n27128424,83350000\n27128457,83360000\n27128619,83330000\n27128848,84480000\n27128850,84000000\n27128852,83930000\n27129138,83880000\n27129878,83030000\n27129879,84120000\n27129881,84080000\n27129950,84090000\n27129955,84100000\n27129958,84110000\n27130146,84120000\n27130169,84070000\n27130176,83820000\n27130225,83830000\n27130231,83840000\n27130242,83850000\n27130251,83860000\n27130262,83870000\n27130269,83880000\n27130277,83890000\n27130282,83900000\n27130311,83010000\n27130312,81790000\n27130313,82130000\n27130316,82190000\n27130322,82200000\n27130328,82210000\n27130344,82310000\n27130372,82410000\n27130380,73410000\n27130445,73600000\n27130450,69600000\n27130458,75140000\n27130473,75110000\n27130499,75120000\n27130503,75140000\n27130506,75150000\n27130510,75160000\n27130526,75410000\n27130527,75440000\n27130573,75450000\n27130577,75460000\n27130584,75470000\n27130588,75480000\n27130595,75490000\n27130598,75500000\n27130602,75510000\n27130605,75520000\n27130606,75530000\n27130640,75540000\n27130649,75640000\n27130650,75600000\n27131942,75590000\n27131993,75600000\n27131997,75630000\n27132000,75640000\n27132004,75650000\n27132008,75660000\n27132013,75690000\n27132015,75700000\n27132018,75710000\n27132025,75720000\n27132028,75760000\n27132050,75800000\n27132055,75820000\n27132056,75850000\n27132057,75860000\n27132070,75900000\n27132074,75910000\n27132090,75950000\n27132093,75960000\n27132102,76000000\n27132109,75990000\n27132122,76040000\n27132142,76080000\n27132148,76190000\n27133312,75890000\n27133319,75830000\n27133460,74980000\n27133491,74960000\n27134907,75080000\n27134970,75090000\n27136376,75210000\n27137698,75180000\n27137777,75300000\n27137802,75360000\n27138481,75370000\n27138580,75300000\n27138866,75420000\n27138883,75440000\n27138987,72510000\n27138988,72000000\n27138990,71960000\n27138991,71790000\n27138992,70390000\n27138993,68680000\n27138996,68280000\n27139076,67700000\n27139077,67660000\n27139081,67570000\n27139083,67470000\n27139189,67440000\n27139967,66630000\n27139968,66570000\n27139969,66530000\n27140234,66480000\n27140294,66600000\n27140407,66570000\n27140408,66550000\n27140409,66440000\n27140410,66970000\n27140412,66960000\n27140419,66740000\n27140422,96740000\n27140428,96390000\n27140432,96370000\n27140444,96470000\n27140495,96570000\n27140499,96270000\n27140501,95870000\n27140554,96070000\n27140561,79070000\n27140563,80070000\n27140568,85720000\n27140573,85970000\n27140602,85980000\n27140613,85990000\n27140618,86000000\n27140622,86010000\n27140633,86020000\n27140637,86030000\n27140644,86040000\n27140648,86050000\n27140657,86060000\n27140665,86070000\n27140674,86080000\n27140676,86090000\n27140685,86340000\n27140705,86220000\n27140707,36220000\n27141969,36230000\n27141974,36240000\n27141978,36250000\n27141983,36260000\n27141987,36280000\n27141989,36290000\n27141995,36300000\n27142001,36310000\n27142009,36320000\n27142017,36330000\n27142024,36570000\n27142031,36620000\n27142065,36740000\n27142082,36780000\n27142087,36800000\n27142091,36810000\n27142095,36840000\n27142098,36850000\n27142102,36860000\n27142109,36900000\n27142116,36910000\n27142123,36950000\n27142133,36960000\n27142134,36970000\n27142135,36990000\n27142136,37000000\n27142152,37040000\n27142170,37050000\n27142176,37080000\n27142197,37120000\n27142201,37130000\n27142209,37080000\n27142225,37110000\n27142258,37160000\n27142260,37100000\n27143492,36650000\n27143507,36590000\n27144874,36710000\n27147797,36830000\n27147872,36790000\n27147874,36760000\n27147875,36310000\n27147883,36320000\n27147888,36330000\n27147896,36340000\n27147902,36350000\n27147906,36360000\n27147912,36370000\n27147915,36390000\n27147922,36400000\n27147925,36410000\n27147928,36420000\n27147937,36430000\n27147939,36450000\n27147945,36700000\n27147946,36880000\n27148703,145070000\n27148732,145080000\n27148736,145090000\n27148749,145100000\n27148754,145110000\n27148761,145120000\n27148767,145130000\n27148775,145140000\n27148779,145150000\n27148788,145160000\n27148793,145170000\n27148799,145180000\n27148803,145200000\n27148808,145450000\n27148809,145480000\n27148815,144980000\n27148852,144990000\n27148862,144660000\n27148863,140920000\n27148864,140910000\n27148897,140880000\n27148954,140460000\n27148998,140570000\n27149034,140580000\n27149062,140690000\n27149068,140940000\n27149085,140770000\n27149086,136020000\n27149087,135320000\n27149101,134820000\n27149125,134830000\n27149130,134850000\n27149131,134860000\n27149135,134870000\n27149153,134980000\n27149154,135020000\n27149160,134910000\n27149161,134970000\n27149178,134980000\n27149183,134990000\n27149187,135000000\n27149190,135010000\n27149191,135020000\n27149195,135030000\n27149199,135040000\n27149220,135050000\n27149228,135060000\n27149235,135070000\n27149259,135180000\n27149260,135320000\n27149272,135180000\n27149283,135190000\n27149287,135200000\n27149293,135210000\n27149301,135220000\n27149304,135230000\n27149309,135400000\n27149324,135410000\n27149327,135420000\n27149329,135430000\n27149332,135440000\n27149337,135450000\n27149340,135460000\n27149345,135470000\n27149378,132590000\n27149379,111340000\n27149386,110270000\n27149390,110280000\n27178911,81680000\n27178917,81510000\n27178920,81420000\n27178921,81520000\n27180718,81100000\n27180728,81090000\n27180729,81080000\n27180732,80580000\n27180764,80680000\n27180781,80780000\n27180829,80990000\n27180831,50990000\n27180844,54990000\n27180846,54830000\n27180847,55190000\n27180860,54780000\n27182338,54840000\n27182341,54920000\n27182342,54930000\n27182355,54320000\n27182356,54430000\n27182361,54470000\n27182363,54480000\n27182366,54490000\n27182368,54500000\n27182373,54540000\n27182374,54550000\n27182378,54560000\n27182385,54600000\n27182394,54610000\n27182399,54650000\n27182401,54680000\n27182402,54700000\n27182403,46710000\n27182437,46810000\n27182447,46850000\n27182449,46860000\n27182459,46890000\n27182471,46900000\n27182479,46910000\n27182483,46940000\n27182490,46980000\n27182496,46990000\n27182506,47020000\n27182507,47030000\n27182508,46900000\n27182528,46940000\n27182537,67300000\n27183772,770000\n27185302,75770000\n27185303,75800000\n27188151,75350000\n27188205,75310000\n27188894,75290000\n27189019,75280000\n27189595,75240000\n27189725,75230000\n27189729,75210000\n27189730,74990000\n27189731,74920000\n27190439,75040000\n27190566,75020000\n27190570,73850000\n27190690,73830000\n27190700,73580000\n27190815,73080000\n27190851,73180000\n27190867,73280000\n27190897,73470000\n27190912,75470000\n27190914,74970000\n27190948,74900000\n27190970,74890000\n27192357,74870000\n27192430,74370000\n27192442,74410000\n27192444,74420000\n27192449,74430000\n27192451,74440000\n27192455,74480000\n27192458,74490000\n27192460,74500000\n27192467,74540000\n27192473,74550000\n27192479,74590000\n27192480,73590000\n27192481,73600000\n27192482,73620000\n27192483,73640000\n27192504,73670000\n27192508,73680000\n27192522,73720000\n27192540,73730000\n27192543,73770000\n27192550,73800000\n27192552,73810000\n27192568,73850000\n27192570,73760000\n27192573,72760000\n27192591,72800000\n27192597,76480000\n27193824,76490000\n27193827,75770000\n27193832,74070000\n27193833,73600000\n27193834,72650000\n27193835,72560000\n27193836,72260000\n27193837,71760000\n27193844,60690000\n27193847,59010000\n27193860,59020000\n27193866,59030000\n27193870,59040000\n27193875,59050000\n27193879,59060000\n27193882,59070000\n27193886,58470000\n27193887,58520000\n27193890,51670000\n27193891,36240000\n27193901,36250000\n27193906,36260000\n27193909,36270000\n27193912,36280000\n27193923,36290000\n27193929,36300000\n27193933,36310000\n27193937,36330000\n27193955,35410000\n27193962,35060000\n27195330,27840000\n27195331,27820000\n27195335,27780000\n27195347,27790000\n27195352,27800000\n27195357,27810000\n27195363,27820000\n27195364,27830000\n27195366,27630000\n27195367,27270000\n27195375,25840000\n27195376,21940000\n27195381,21640000\n27200480,30400000\n27200488,29900000\n27200574,29910000\n27200736,29880000\n27200855,125230000\n27200862,124820000\n27200863,124800000\n27200879,124300000\n27200909,124310000\n27200940,124320000\n27200963,124330000\n27200985,124430000\n27200997,124440000\n27201004,114440000\n27201010,104440000\n27201014,104450000\n27201050,104460000\n27201071,104210000\n27201097,104150000\n27201161,103930000\n27201163,105170000\n27201165,114610000\n27201188,114110000\n27201223,113680000\n27201255,113760000\n27202517,113750000\n27202530,113740000\n27202557,113750000\n27202561,113740000\n27202589,113240000\n27202612,113340000\n27202627,113440000\n27202628,113380000\n27202653,113570000\n27202672,118380000\n27203360,117880000\n27203370,118000000\n27203556,117980000\n27203899,118100000\n27204073,118080000\n27205448,118020000\n27206866,117720000\n27206891,117730000\n27206939,117850000\n27206960,117730000\n27206962,116430000\n27209082,116420000\n27209084,6420000\n27209358,113390000\n27209521,112890000\n27209561,113000000\n27209570,113010000\n27209584,113020000\n27209600,113120000\n27209609,104120000\n27209618,92130000\n27209641,92230000\n27209647,92240000\n27209666,92010000\n27209678,92110000\n27209686,80110000\n27209692,80120000\n27209703,80130000\n27209789,82130000\n27209790,83150000\n27209798,90820000\n27209799,90580000\n27209801,87490000\n27209802,87080000\n27212505,82800000\n27212513,80740000\n27212514,80180000\n27212516,79880000\n27212517,79380000\n27212543,79500000\n27215446,79470000\n27215543,79590000\n27215564,79580000\n27217592,79600000\n27217593,79690000\n27217638,79700000\n27217843,79820000\n27217856,79800000\n27217871,79810000\n27217873,79820000\n27217875,79830000\n27217877,79840000\n27217880,79940000\n27217882,79950000\n27217893,79960000\n27217894,79970000\n27217897,79980000\n27217899,79990000\n27217901,80000000\n27217904,80010000\n27217905,80020000\n27217927,80070000\n27217942,80080000\n27217945,80090000\n27217947,80100000\n27217949,80110000\n27217988,80120000\n27217990,80130000\n27218054,80140000\n27218056,80150000\n27218060,80160000\n27218063,80170000\n27218065,80180000\n27218067,80190000\n27218069,80200000\n27218071,80210000\n27218073,80220000\n27218076,80230000\n27218083,80320000\n27218086,80330000\n27218138,80340000\n27218142,80350000\n27218145,80360000\n27218147,80370000\n27218150,80380000\n27218153,80500000\n27218191,79430000\n27218192,80370000\n27218249,80380000\n27218252,80390000\n27218254,80400000\n27218257,80410000\n27218260,80420000\n27218262,80430000\n27219077,80460000\n27219078,80580000\n27219082,80590000\n27219114,80600000\n27219117,80610000\n27219121,80620000\n27219124,80630000\n27219127,80640000\n27219174,80650000\n27219176,80660000\n27219208,80670000\n27219256,80680000\n27219258,80690000\n27219262,80700000\n27219264,80710000\n27219267,80720000\n27219269,80730000\n27219271,80740000\n27219272,80750000\n27219275,80760000\n27219276,80770000\n27219278,80780000\n27219280,80790000\n27219282,80800000\n27219285,80810000\n27219288,80820000\n27219290,80830000\n27219292,81100000\n27219308,81110000\n27219311,81120000\n27219313,81130000\n27219315,81280000\n27219318,81290000\n27219320,81300000\n27219321,81310000\n27219323,81320000\n27219326,81330000\n27219328,81340000\n27219331,81350000\n27219333,81360000\n27219336,81370000\n27219339,81560000\n27219340,81760000\n27219341,81810000\n27219350,81820000\n27219352,81830000\n27219596,81330000\n27219651,81430000\n27219655,81440000\n27219664,81450000\n27219682,81550000\n27219698,81560000\n27219742,81660000\n27219746,81510000\n27219768,81610000\n27219772,70610000\n27219780,70620000\n27219862,72120000\n27219863,73730000\n27219864,81960000\n27219866,81460000\n27219912,81230000\n27219974,81220000\n27220659,81320000\n27220743,81310000\n27221041,80810000\n27221060,80820000\n27221107,80920000\n27221112,80930000\n27221140,81030000\n27221145,81040000\n27221158,81050000\n27221168,81060000\n27221208,81160000\n27221218,83060000\n27221220,93810000\n27221223,93310000\n27221260,93030000\n27221300,93040000\n27221985,93050000\n27221988,93060000\n27221991,93070000\n27221994,93080000\n27221996,93090000\n27221999,93100000\n27222000,93110000\n27222004,93120000\n27222007,93130000\n27222012,93140000\n27222014,93150000\n27222017,93160000\n27222020,93170000\n27222084,93150000\n27222260,93160000\n27222281,93150000\n27222733,93090000\n27223496,93100000\n27223498,93110000\n27223504,93120000\n27223506,93130000\n27223509,93140000\n27223513,93150000\n27223515,93160000\n27223518,93170000\n27223520,93180000\n27223524,93190000\n27223527,93200000\n27223528,93210000\n27223532,93220000\n27223536,93230000\n27223539,93240000\n27223550,93250000\n27223552,93260000\n27223557,93270000\n27223559,93280000\n27223562,93290000\n27223565,93300000\n27223568,93310000\n27223569,93370000\n27223570,93420000\n27223594,93370000\n27223830,93490000\n27223833,93380000\n27223862,93330000\n27223868,93340000\n27223875,93240000\n27224977,92740000\n27225010,92700000\n27225076,92820000\n27225125,92850000\n27225133,92840000\n27225142,92850000\n27225157,92840000\n27226770,92750000\n27226772,92500000\n27226773,92440000\n27226779,92410000\n27226807,92530000\n27226929,92500000\n27229896,92480000\n27230929,92410000\n27231114,91960000\n27231136,91970000\n27231170,92070000\n27231182,92080000\n27231201,92180000\n27231207,92190000\n27231222,92200000\n27231228,92210000\n27231248,72210000\n27231273,72310000\n27231299,72320000\n27231315,72030000\n27231318,68030000\n27231321,72770000\n27231323,73400000\n27231328,70340000\n27232646,69840000\n27232674,69960000\n27234259,70080000\n27234273,70050000\n27239452,69550000\n27239455,69260000\n27239457,63020000\n27239469,63060000\n27239471,63070000\n27239473,63080000\n27239476,63090000\n27239477,63120000\n27239478,63130000\n27239480,63140000\n27239484,63180000\n27239494,63220000\n27239496,63260000\n27239497,63290000\n27239498,63300000\n27239509,63340000\n27239513,63350000\n27239519,63380000\n27239524,63390000\n27239533,63430000\n27239539,63470000\n27239553,63510000\n27239555,63460000\n27239565,63500000\n27239574,68500000\n27239758,68000000\n27239802,68100000\n27239806,68110000\n27239815,68120000\n27239818,48120000\n27239832,48220000\n27239853,48230000\n27239866,48240000\n27239889,48340000\n27239894,42340000\n27239895,30340000\n27239911,30440000\n27239921,30450000\n27239933,30550000\n27239937,13550000\n27239944,15550000\n27239945,17220000\n27239946,26370000\n27239949,21290000\n27239950,21150000\n27239966,21160000\n27239996,21260000\n27239999,21270000\n27240030,21380000\n27240036,21860000\n27240038,24750000\n27240042,24250000\n27240664,23720000\n27240665,22720000\n27240669,22690000\n27240672,22630000\n27240682,22710000\n27240683,22730000\n27240692,22740000\n27240696,22750000\n27240698,22760000\n27240700,22830000\n27240702,22910000\n27240709,22990000\n27240710,23030000\n27240718,23050000\n27240996,23010000\n27241089,23000000\n27241199,22970000\n27241200,22470000\n27241231,22480000\n27241237,22490000\n27241250,22500000\n27241263,22600000\n27241292,22610000\n27241366,22370000\n27241401,22300000\n27241411,22740000\n27241420,22240000\n27242761,22280000\n27242765,22400000\n27242767,22520000\n27242775,22600000\n27242779,22610000\n27242850,22580000\n27244249,22570000\n27245589,20570000\n27245658,20680000\n27245735,20690000\n27247099,20700000\n27247112,21700000\n27249370,21630000\n27249527,21640000\n27249742,21580000\n27249746,20270000\n27249763,20390000\n27249794,170390000\n27249846,169890000\n27249879,169990000\n27249886,170000000\n27249894,170010000\n27249927,170110000\n27249939,170120000\n27249946,163120000\n27249969,163220000\n27249973,163230000\n27249981,157230000\n27249993,157330000\n27250012,157430000\n27250015,154680000\n27250016,152300000\n27250038,147300000\n27250045,147310000\n27250056,147410000\n27250094,147520000\n27250107,150870000\n27250108,170750000\n27250109,160810000\n27250113,160450000\n27250115,159950000\n27250121,159710000\n27250886,159720000\n27250965,159770000\n27250969,159780000\n27250972,159830000\n27251099,159750000\n27251100,159910000\n27251108,159900000\n27251109,159880000\n27251286,155300000\n27251287,155050000\n27251288,154550000\n27251310,154560000\n27251317,154570000\n27251323,154580000\n27251349,154680000\n27251359,154690000\n27251474,157100000\n27251477,156600000\n27251480,156790000\n27251493,156680000\n27251495,156960000\n27251605,156990000\n27252841,157000000\n27252901,156960000\n27253061,157070000\n27253063,157050000\n27254364,157030000\n27254411,157040000\n27255876,156990000\n27255903,157110000\n27255919,156900000\n27256425,156780000\n27256426,155940000\n27256427,155670000\n27257125,155660000\n27257127,155530000\n27257173,155510000\n27257203,155420000\n27259461,155030000\n27259462,154980000\n27259491,154990000\n27259498,155010000\n27259508,155020000\n27259512,155180000\n27259520,155190000\n27259532,155250000\n27259600,155410000\n27259605,155420000\n27259923,154920000\n27259924,154720000\n27259948,154820000\n27259956,154830000\n27259962,154840000\n27259989,154940000\n27260008,154950000\n27260017,154960000\n27260059,155060000\n27260085,155160000\n27260096,155170000\n27260107,155270000\n27260146,155370000\n27260158,155380000\n27260166,155390000\n27260172,155130000\n27260173,155140000\n27260177,155150000\n27260185,155250000\n27260187,153250000\n27260191,152750000\n27260983,152870000\n27260985,152980000\n27261170,152930000\n27261344,152900000\n27261360,152400000\n27261390,152410000\n27261399,152510000\n27261419,152520000\n27261550,154520000\n27261551,178140000\n27261557,177640000\n27261609,177420000\n27262938,177380000\n27262946,177390000\n27264470,177330000\n27267384,177450000\n27267385,177390000\n27269536,176820000\n27269537,176790000\n27269538,177120000\n27269539,177100000\n27269542,177070000\n27269730,177080000\n27269736,177090000\n27269738,177300000\n27269769,177310000\n27269771,177320000\n27269774,177330000\n27269776,177340000\n27269778,177450000\n27269780,177490000\n27269782,177530000\n27269783,177560000\n27269785,177620000\n27269989,177630000\n27269994,177380000\n27269995,176880000\n27270024,176890000\n27270056,176990000\n27270065,177000000\n27270083,177100000\n27270091,177110000\n27270092,167110000\n27270105,167120000\n27270115,167220000\n27270145,167320000\n27270164,167420000\n27270169,167470000\n27270208,167570000\n27270212,167580000\n27270222,167590000\n27270227,167600000\n27270239,167700000\n27270250,167710000\n27270271,167810000\n27270274,167740000\n27270275,167710000\n27270276,169960000\n27270281,169460000\n27271006,169340000\n27271435,168840000\n27271474,168850000\n27271562,168660000\n27271592,168670000\n27271646,168510000\n27271685,169830000\n27271687,180820000\n27271688,182820000\n27272993,182320000\n27273109,181520000\n27274545,181470000\n27274632,181460000\n27278913,178920000\n27279880,178940000\n27279882,178920000\n27279890,178860000\n27280072,178410000\n27280113,178420000\n27280121,178430000\n27280135,178530000\n27280149,178630000\n27280158,178640000\n27280186,178740000\n27280193,178750000\n27280199,178580000\n27280216,178680000\n27280219,178690000\n27280239,178790000\n27280240,178670000\n27280256,175670000\n27280287,175770000\n27280290,175780000\n27280299,175790000\n27280309,175800000\n27280318,175900000\n27280338,173910000\n27280352,174010000\n27280360,173750000\n27281695,175750000\n27281696,185710000\n27281705,185720000\n27281728,185460000\n27281774,185340000\n27281794,185460000\n27281806,223380000\n27281807,212110000\n27281808,199470000\n27281811,198970000\n27281815,198720000\n27283015,198480000\n27289699,198200000\n27289702,198180000\n27290158,197680000\n27290184,197690000\n27290198,197700000\n27290203,197710000\n27290216,197810000\n27290227,197910000\n27290235,197920000\n27290255,198020000\n27290257,198030000\n27290274,198130000\n27290293,198230000\n27290310,198240000\n27290332,198340000\n27290338,198350000\n27290346,198360000\n27290349,198370000\n27290369,198470000\n27290386,198480000\n27290400,198580000\n27291609,198600000\n27291610,198270000\n27291638,198280000\n27291674,198400000\n27291788,198050000\n27291805,200050000\n27291807,202870000\n27291808,226900000\n27294540,226400000\n27300131,226650000\n27300135,226150000\n27300307,226250000\n27301666,226110000\n27301668,219690000\n27301670,219460000\n27301699,219470000\n27301706,211470000\n27301708,211480000\n27301718,211490000\n27301742,211590000\n27301753,211690000\n27301760,203700000\n27301819,203820000\n27301820,187820000\n27301821,187660000\n27301916,298560000\n27301917,212440000\n27306099,211770000\n27306100,211850000\n27306101,211350000\n27306158,211170000\n27310313,210670000\n27310343,210680000\n27310354,210690000\n27310361,210700000\n27310371,210710000\n27310377,210810000\n27310391,210910000\n27310408,210920000\n27310449,211020000\n27310469,210710000\n27310477,210810000\n27310482,210820000\n27310497,210920000\n27310501,210860000\n27310510,210870000\n27310536,210970000\n27310542,210980000\n27310564,211080000\n27310577,211090000\n27310587,211100000\n27310592,211110000\n27310614,211210000\n27311786,210950000\n27311798,210960000\n27311852,211080000\n27311917,210830000\n27316199,210700000\n27316208,227490000\n27316230,226990000\n27316311,226700000\n27320385,219480000\n27320387,219350000\n27320388,219270000\n27320389,218380000\n27320391,217930000\n27320414,217940000\n27320448,217800000\n27320459,217900000\n27320477,217910000\n27320488,218010000\n27320498,218020000\n27320505,218030000\n27320511,218040000\n27320519,218140000\n27320565,217980000\n27320584,217950000\n27320618,218070000\n27320619,202070000\n27320620,201640000\n27320623,198780000\n27320624,195640000\n27320639,122650000\n27320656,122150000\n27320665,122250000\n27321844,118650000\n27321845,116810000\n27321846,116680000\n27321847,116180000\n27321860,116190000\n27321868,116200000\n27321879,116300000\n27321893,116310000\n27321906,116410000\n27321937,116510000\n27321940,116520000\n27321954,116620000\n27321967,15620000\n27322029,15210000\n27326313,15080000\n27326315,14580000\n27327795,14570000\n27327821,174570000\n27327825,194690000\n27327826,194240000\n27327827,192440000\n27327847,191610000\n27327853,191620000\n27327858,191630000\n27327868,191640000\n27327873,191650000\n27330470,185740000\n27330471,185400000\n27330473,184900000\n27330498,184910000\n27330519,185010000\n27330530,185020000\n27330539,185030000\n27330541,179030000\n27330545,179040000\n27330547,179050000\n27330595,179170000\n27330600,179270000\n27330607,179370000\n27330608,179220000\n27330610,176770000\n27330612,174770000\n27330621,174780000\n27330645,174880000\n27330651,174890000\n27330655,174900000\n27330662,175000000\n27330675,175010000\n27330683,175110000\n27330684,175040000\n27330711,175140000\n27330716,175150000\n27330725,175250000\n27330748,175370000\n27330763,177370000\n27330766,206920000\n27330771,198240000\n27330773,197760000\n27330776,197740000\n27330777,197380000\n27330792,197630000\n27330794,197710000\n27336494,197210000\n27340148,197110000\n27340172,197100000\n27340174,187780000\n27340175,184050000\n27340194,182720000\n27340195,180810000\n27340223,180760000\n27340224,180400000\n27340557,179900000\n27340591,180000000\n27340593,180010000\n27340615,180130000\n27340625,180230000\n27340630,180240000\n27340636,180250000\n27340645,180350000\n27340658,180450000\n27340681,180550000\n27340682,180490000\n27340697,150490000\n27340720,150590000\n27340724,150600000\n27340731,150610000\n27340738,150620000\n27340744,150720000\n27340753,150730000\n27340774,150740000\n27340795,150860000\n27340801,150960000\n27345033,150750000\n27345047,150250000\n27350638,149750000\n27350658,149760000\n27350662,149770000\n27350678,149890000\n27350690,149990000\n27350697,120000000\n27350704,120010000\n27350717,120110000\n27350725,120210000\n27350731,120220000\n27350739,120320000\n27350750,120420000\n27350752,120120000\n27350753,149010000\n27350765,149020000\n27350783,149120000\n27350787,149130000\n27350791,149140000\n27350798,149250000\n27350818,149260000\n27350853,149380000\n27350854,149390000\n27350859,149490000",
 	["s@畜生犬隊長 - Horde - 伊弗斯@internalData@auctionQuantity"] = {
 	},
 	["s@特變電工 - Horde - 伊弗斯@internalData@auctionQuantity"] = {
 	},
 	["s@特變電工 - Horde - 伊弗斯@internalData@reagentBankQuantity"] = {
 	},
-	["s@特變電工 - Horde - 伊弗斯@internalData@goldLogLastUpdate"] = 1640702867,
+	["s@特變電工 - Horde - 伊弗斯@internalData@goldLogLastUpdate"] = 1641051545,
 }
 TSMItemInfoDB = {
 	["locale"] = "zhTW",
 	["revision"] = "41446",
 	["version"] = 7,
 	["names"] = {
-		"6級霜狼徽記BKP 2700「執行者」BKP 42「偏激者」一捧雪花上古三連盾不懈的大地風暴鑽石不撓的赤紅束腰不滅狂怒胸針不穩定法力藥水丘加利頭帶中皮丹札拉之印主建築師的襯衣亞麻布亞麻繃帶亮酒符咒亮閃閃的鋼匕首人工生長圖騰伊利達瑞紫色勝利外袍伊利達瑞肩墊伊斯利恩生命法杖伊根的衝擊器伊露恩之星低語貝殼披風保衛者之靴保衛者外袍保護卷軸 II修補者之心型指環倒刺懲罰頸飾假象之戒偉大保衛者之紫羅蘭徽記偷取的靈魂飾物傳送符文傳送門符文僧侶腰帶僧侶護腕元素之土元素助熔劑元素空氣先祖征服之戒先驅者手環光亮的生命紅寶石光滑的琥珀光滑的華麗黎明石光滑的黃金卓奈石光滑的黎明石光輝的伊露恩之星光輝的藍月石光輝的鋯石克銀礦石克銀錠內心手環六魔包共謀者護胸冒險墜飾冥界之光亮項鍊冬刺草冬靴冰凍之眼冰霜守衛胸甲冰霜守衛護腿冰霜守衛頭盔冰霜影紋之靴冰霜影紋長袍冰霜防護之大法師便褲冰霜防護之方鈉礦指環凱旋墜飾凱爾薩斯的殘存之瓶分歧護手刺客大師之紫羅蘭徽記劍刃貝果力量卷軸 V劣質平衡石劣質的石頭劣質砂輪劣質磨刀石劣質銅外衣劣質青銅胸衣劣質青銅護肩劣質青銅護腿劣質青銅長靴十字章千印之戒千羽箭袋卓越法力之油博學者護甲片卡德加的鬍鬚厚亞麻繃帶厚幽紋繃帶厚皮厚科多獸毛厚符文布繃帶厚絨線繃帶厚絲質繃帶厚重境外皮護甲片厚重境外皮革厚重的戰斧厚重的琥珀厚重的黃金卓奈石厚重的黎明石厚青銅飛鏢厚魔紋繃帶原始之水原始之火原始力量原始大地原始暗影原始法力原始生命原始空氣原始虎皮原始虛空叛節束腰古物寶庫鑰匙古羅縫製束腰古老智慧的樹皮手套古老符號長袍古老青苔君王鎧甲腰帶君王鎧甲護腕君王鎧甲靴哈伏克護腕哈剌戰鬥徽章哈剌研究徽章哈拉瑪德之眼哈拉瑪德的第三硬幣護腿哥布林火箭發射器善潔裂片喚風者寶珠喪命草嗜血胸針嗜魂者寶珠嚴寒之風披風嚴寒元素指環回憶之戒圖樣:季風腰帶圖樣:紅鷹之靴圖樣:自然之擁之靴圖樣:虛空眼鏡蛇護腿片圖樣:衝擊之靴圖樣:長路之靴圖樣:颶風長靴地擊胸甲地擊腰帶地擊護腕地根草地獄火力量淨化物地獄火石地獄火集會之靴地窖潛行者披風地精撒網器地精死亡射線坦克電子護目鏡埃蘭的舒緩藍寶石埃雷達爾忘卻法杖堅固的伊露恩之星堅固的平衡石堅固的石頭堅固的砂輪堅固的磨刀石堅固的藍月石堅固的鋯石堅毅徽章堅硬的琥珀堅硬的黃金卓奈石堅硬的黎明石堅鋼平衡石堅鋼斬斧堅鋼磨刀石堅鋼礦石堅鋼錠堅鋼魔棒堅韌的大地風暴鑽石堅韌追蹤者披肩堤里斯佛倫之第七指環報怨聖契境外皮彈藥包境外皮箭袋境外皮革墓地披風增重的南瓜燈籠墮落之塵墮落者兜帽墮落者手套墮落者披肩墮落者護腿墮落者長袍士官厚重披風士官厚重斗篷夏日晴空外袍夜光的火石榴石夜光的皇家黃寶石夜眼石夢境之塵夢魘根大口徑短槍大地之血護胸大地微粒大地靈魂護腿大地靈魂馬褲大地風暴鑽石大型棕色科多獸大塊強光裂片大塊微光裂片大塊稜石裂片大塊閃光裂片大塊魔光裂片大工程師風帽大治癒者之紫羅蘭徽記大法師之帶大法師之紫羅蘭徽記大法師便褲大繩網大蛋白石大錘天火鑽石太陽之井晶瓶太陽之王權杖太陽之王的墜飾太陽之王護手太陽之鷹護腿失落兜帽奇異之塵奈德克斯手環奈薩斯關鍵法杖奎克米瑞之眼奎克米瑞的手銬奧多爾法衣奧多爾遺產防衛者奧多爾頭帶奧特蘭克山谷榮譽獎章奧秘的天火鑽石奧金棒奧金蒸汽手槍奧金錠奧金骷髏鑰匙嫩綠球體孔雀石學徒襯衣守衛者腰帶守護者絲絨之靴宵小束腰寇仁的幸運錢幣實心子彈審判者神聖冠冕將軍懼紋布靴將軍月布腕輪將軍月布軟靴將軍科多獸皮腰帶將軍科多獸皮護腕將軍科多獸皮靴將軍鎧甲護脛將軍鎧甲護腕尊貴的夜眼石對立手環小型彈藥袋小塊強光裂片小塊微光裂片小塊稜石裂片小塊閃光裂片小塊魔光裂片小毒囊小紅帽披風屠魔之靴巨像之偶巨型南瓜燈籠巨型綠寶石巨型鐵斧巨型黑錘巫毒符咒巴巴的秘法披風希望重燃護手希瑞的禮物平衡的夜眼石平衡的暗影卓奈石幻影之塵幻象之塵幽紋之網幽紋布幽紋布包幽紋繃帶弱效助熔劑強力的大地風暴鑽石強化礦石包強效不滅精華強效助熔劑強效星界精華強效異界精華強效石盾藥水強效秘法精華強效結界符文強效虛空精華強效魔法精華強烈治療藥水強襲精煉藥劑彈力之靴彩色珍珠征服勇士手套征服勇士護胸征服勇士護腿征服勇士頭盔征服英雄肩鎧征服英雄護胸征服英雄護腿征服英雄頭盔征服防衛者手套征服防衛者頭盔復仇者佩劍復甦珊瑚指環微光的琥珀微光的黃金卓奈石微光的黎明石怒鋼護肩思維加速寶石怪異肩墊恆金礦石恆金錠恨惡護腕悔悟聖契惡意侵略指環惡毒手環惡霸之靴惡魔刻像惡魔平衡石惡魔搶奪者活塞惡魔獵者背心惡魔磨刀石惡魔鯊魚斗篷憎恨回音長袍憤怒之刃戈魯爾之眼戰傷長靴戰歌峽谷榮譽獎章戰爭使者戰甲胸甲戰爭使者防禦巨盔戰爭使者防禦手甲戰爭使者防禦肩衛戰爭使者鬥盔戰鬥舞者肩鎧戴比瑞之謎扭曲分割者扭曲彈簧線圈抗毒藥劑拼接皮包振奮的大地風暴鑽石提里斯法手套提里斯法披肩提里斯法權勢魔杖提里斯法護腿提里斯法風帽搜尋之眼藥劑撕裂之心護符支配墜飾敏捷卷軸敏捷卷軸 V敏捷操作手套救贖之保衛者印記斬首者斯泰林的甲蟲殼新月女神塑像方鈉礦指環旋風護腕旋風鐵斧日怒徽章日怒鳳凰之弓明亮的琥珀明亮的紅玉明亮的血石榴石明亮的黃金卓奈石明亮的黎明石星術師長褲星風圖騰時光流逝卷軸時間信號燈晦暗者之握晶鑄戰甲戰盔晶鑄神聖手套晶鑄神聖肩鎧晶鑄神聖護腿晶鑄神聖護軀晶鑄防禦手甲晶鑄防禦肩衛晶鑄防禦腿甲智力卷軸 II智力卷軸 V暗夜毒物護符暗影之塵暗影卓奈石暗影微粒暗影深淵腰帶暗影石暗影藥劑暗殺頭盔暗飛箭暴力機會算盤暴風之眼榮譽獎章暴風行者之靴月光林地風帽月神的象牙塑像月行者之靴月鋼寬劍有光澤的小珍珠有限無敵腰帶末日顱骨札爾塔束腰果決腕甲核心手套桑古納爾領主的頸鏈森林之心護腕森林之王行者之靴森林之風肩墊極堅刻像極強效治療石極強效治療石極效力量藥劑極效敏捷藥劑極效防禦藥劑槲寄生樹林修補者腰帶次級不滅精華次級星界精華次級月亮石次級異界精華次級秘法精華次級結界符文次級虛空精華次級魔法精華歐朗諾克的力量之薯歐爾指環正義徽章正義明亮頭盔正義護腕正道束腰死神傳承手甲死神傳承肩墊死神傳承腿甲死神傳承護胸死神傳承頭盔死草根殘忍鬥士分割者殘忍鬥士剃刃殘忍鬥士劈斧殘忍鬥士右齒鋸殘忍鬥士堅毅塑像殘忍鬥士壁壘殘忍鬥士大槌殘忍鬥士屏障殘忍鬥士左齒鋸殘忍鬥士巨劍殘忍鬥士懲戒錘殘忍鬥士懼紋手套殘忍鬥士懼紋護腿殘忍鬥士戰勝之觸殘忍鬥士戰爭法杖殘忍鬥士戰鋒飛斧殘忍鬥士救贖者殘忍鬥士斬斧殘忍鬥士斬首者殘忍鬥士月布手套殘忍鬥士月布護腿殘忍鬥士月布長袍殘忍鬥士法術之刃殘忍鬥士痛苦之鋸殘忍鬥士盾牆殘忍鬥士碎骨錘殘忍鬥士磨骨槌殘忍鬥士科多獸皮外套殘忍鬥士科多獸皮腿甲殘忍鬥士科多獸皮頭盔殘忍鬥士穿刺匕首殘忍鬥士終卷殘忍鬥士綴鱗護軀殘忍鬥士綴鱗頭盔殘忍鬥士緩刑器殘忍鬥士裁決槌殘忍鬥士速刃殘忍鬥士鎖鍊護手殘忍鬥士鎖鍊護甲殘忍鬥士鎖鍊護腿殘忍鬥士鎖鍊頭盔殘忍鬥士鎧甲腿甲殘忍鬥士鎧甲護手殘忍鬥士鎧甲護肩殘忍鬥士鎧甲護軀殘忍鬥士鎧甲頭盔殘忍鬥士鳳凰之弩殘忍鬥士龍革外套殘忍鬥士龍革手套殞星束腰毀滅環視鏡毀滅的天火鑽石毀滅者戰甲鬥盔毀滅者防禦巨盔毀滅者防禦肩衛毀滅者防禦腿甲毒蛇神殿手裏劍毛料水晶瓶水源微粒水銀堅鋼石永恆指環永恆指環永恆指環永恆指環沉重的石頭法力微粒法力恢復精煉藥劑法力綠寶石法力薊法擊兜帽泰拉寶石泰洛克暗影法杖泰瑞斯提安抑制法杖洞察的大地風暴鑽石活根草流動思緒裹手浴陽光明披風海嘯護符海巨獸毒牙海巫法衣海怪之心胸甲浸濕的磨損拴繩消滅護腕淚滴的生命紅寶石淚滴的紅玉淚滴的血石榴石深沉黑暗之盾深淵石深雷混沌的天火鑽石清晰的生命紅寶石清晰的紅玉清晰的華麗紅寶石清晰的血石榴石漩渦圖騰潘札薩爾胸甲潮汐之錘激烈的伊露恩之星激烈的藍月石灌能的夜眼石灌能的暗影卓奈石灌魔之瓶火星完美護手火焰微粒火焰救贖寶典火焰試煉長褲火石榴石火石草種子火箭靴極限版火羽胸甲灼熱掌握手套炫彩驚奇精煉藥劑烏鴉女神塑像烏鴉護衛印記烤泥鰍無情刀刃肩墊無情風暴之戒無應禱言指環無敵束腰無疤秘銀指環無盡之刃無盡圈套束腰無盡祝福手鐲無盡線圈之戒無盡迴圈寶石無盡驍勇之靴無限可能珠寶無限奧義法杖無頭騎士之刃無頭騎士盔帽煤塊熾炎戰馬韁繩燦爛的泰拉寶石燦爛的翠綠橄欖石燻黑的骨灰甕爐石特堅鋼錠狂熱項鍊狼爪項鍊猛擊藥劑獅心斬首者獨心頭飾獵人火槍獵捕者戰鬥手環王者印記珊瑚鉤肩墊珍珠匕首瑟銀礦石瑟銀錠瑪格哈全麥麵包瑪洛尼儀祭之冠瑪洛尼儀祭手甲瑪洛尼儀祭肩衛瑪洛尼戰衣肩鎧瑪洛尼戰衣護軀瑪洛尼戰馭披肩瑪洛尼戰馭胸甲瑪洛尼戰馭護手瑪洛尼戰馭護脛瑪洛尼戰馭鹿盔瑪瑟里頓之眼瓦許毒牙瓦許的殘存之瓶生命微粒生命紅寶石發光的夜眼石發光的暗影卓奈石白雄鹿護腕百亡腰帶皇家的丹泉石皇家的夜眼石皇家的暗影卓奈石皇家黃寶石盤牙裝備盲目之光精煉藥劑盲目草真銀棒真銀礦石真銀錠真銀骷髏鑰匙眼鏡蛇鞭長靴眼鏡蛇鱗矇矓的火石榴石矇矓的皇家黃寶石石化樹幹上衣破壞者沙漏硬甲皮礦工鋤祖母綠皇后塑像祝福滿盈束腰神秘的黎明石神秘紅寶石披氅神聖射手手環神聖符印神聖蠟燭科多獸的肉秘典:秘法光輝 II秘法懲戒之龍鱗魔杖秘銀礦石秘銀重斧秘銀重靴秘銀錠秘銀頭巾秘銀馬刺秘銀鱗片便褲移位寶石移形的夜眼石移形的暗影卓奈石移形者徽記穩固的泰拉寶石空氣微粒空的恐酒酒杯競技場隊伍登記表 (5v5)競賽者外袍符文圖騰披肩符文堅鋼魔棒符文布符文布繃帶符文法術絲線符文的生命紅寶石符文的紅玉符文的血石榴石粗暴的大地風暴鑽石粗糙的石頭粗製平衡石粗製砂輪粗製磨刀石精兵凱旋墜飾精兵凱旋指環精兵懼紋腰帶精兵拯救墜飾精兵拯救指環精兵支配指環精兵科多獸皮護腕精兵科多獸皮長靴精兵絲質腕輪精兵鎖鍊束腰精兵鎖鍊脛甲精兵鎖鍊護腕精兵鎧甲腰帶精兵鎧甲護脛精兵鎧甲護腕精巧的生命紅寶石精準彈丸精準遠行者手環精準那魯腰帶精神卷軸 II精緻的生命紅寶石精緻的紅玉精緻的血石榴石精靈王披肩紅寶石紅色戰鬥腰帶紋飾披風納斯雷茲姆心靈之刃純淨死亡精煉藥劑純淨的暗影珍珠純淨裹帶純潔之心無垢披風索拉瑞恩藍寶石索爾賓的超級壓縮器紫羅蘭徽章細線終末臂鎧結實的繩索結構圖:穩固恆金瞄準鏡絕佳的黃金卓奈石絕佳的黎明石絕對打擊護目鏡v2.0絨線繃帶絲綢絲質繃帶綑綁套索經絡鬼靈指環綠瑪瑙綠色染料綠色皮甲綠鐵護腕綠鐵護腿綠鐵鍊衫綠鐵頭盔緊急鐵行者之靴緻密平衡石緻密的石頭緻密砂輪緻密磨刀石羅慕歐的毒藥瓶美味變異點心羞慚的光榮護手翠綠橄欖石翡翠耐久的泰拉寶石耐久的翠綠橄欖石耐力卷軸耐力卷軸 II耐力卷軸 V耶維爾的瓶子聖使祝福手套聖光正義之錘聖光深淵錘杖聖潔蠟燭聖者儀祭手套聖者儀祭法衣聖者儀祭長褲聖者戰衣手甲聖者戰衣罩衣聖者戰衣翼肩聖者戰衣頭飾聖軀儀祭神光披肩聖軀儀祭神光頭帶聖軀戰衣靈魂頭帶聯合團王子的腰帶聯結水晶腐朽皮盔帽自然之力腰帶自然之擁之靴自然生計之索自然防護之大法師便褲自然防護之雄鹿皮內襯護腿自由行動藥水致命之戒致命意圖護腿致命的細短劍舒適的鞋墊艾斯炎的禮物艾澤拉斯鑽石苦楚精華苦澀仇恨護符華貴的丹泉石華麗短槍薩拉斯迷霧披風薩法爾之奈薩斯號角薩瑞尼斯謎樣的華服薩維亞短劍藍寶石藍月石虎爪護符虎眼石虛無之心手套虛無之心披肩虛無圖騰虛無水晶虛無球體虛空之刃面罩虛空之翼魔杖虛空漩渦虛空眼鏡蛇護腿片虛空裂片束腰虛空裂蹄護腿片虛空鱗彈藥袋蛇脊長弓蛤蜊條融解墜飾血喉魔導師之刃血守衛護脛血海盜賊的外衣血石榴石衝擊之靴衝擊彈藥衝擊腰帶裂地儀祭護盔裂地戰衣首盔裂地戰馭護手裂地戰馭重肩甲裂地戰馭頭盔裂隙行者披肩裂隙行者護手裂隙行者護腿裂隙行者頭盔製皮師的背包角樹種子角瓶虛空能量劑設計圖:堅鋼匕首設計圖:堅鋼大槌設計圖:堅鋼斬斧設計圖:堅鋼細劍設計圖:堅鋼魔棒設計圖:紅色浩劫長靴調諧水晶核諾格弗格藥劑諾達希爾憤怒首盔諾達希爾生命披肩諾達希爾生命護盔諾達希爾野性頭飾謎般的天火鑽石謝爾曼納偉大之戒警覺指環變換夢魘之靴貓籠(黑紋灰貓)贖救靈魂聖契赤紅狂怒指環超強法力之油跌打草躲藏護脛輕巧型火箭靴極限版輕彈丸輕皮輻光的泰拉寶石輻光的翠綠橄欖石辣炒塔巴克迅捷的天火鑽石迅捷紅色雙足飛龍迅鋼手套迦羅娜的璽戒迴轉平衡克銀毀滅火槍逐日者皇家披風遊俠領袖指環達拉然暗影披風遠行者迷惑披風遺忘戰靴邊緣行者長靴那魯光明護衛指環那魯冷光魔棒邪惡小南瓜邪惡意圖頸飾邪惡束腰邪惡的火石榴石邪惡的皇家黃寶石部落勳章部落勳章部落勳章部落勳章部落勳章部落勳章部落徽記部落戰旗醫師之大法師之帶重型幽紋之網重型秘銀胸甲重型秘銀護手重型秘銀護肩重型裂蹄長靴重平衡石重彈丸重生鳳凰之翼重皮重砂輪重磨刀石重銅大槌重銅寬劍野性之心生命根源野性之怒法杖野性看守者護腿", -- [1]
-		"野性看守者頭盔野獸之王手甲野獸之王披肩野獸之王胸衣野獸之王護腿野生棘根草野生漿果野生羽蔓金棒金礦石金錠金骷髏鑰匙金鱗護腕銀棒銀礦石銀色弦月塑像銀色黎明外袍銀錠銀骷髏鑰匙銀鱗胸甲銅斧銅礦石銅質匕首銅質巨刃劍銅質戰斧銅質短劍銅質符文便褲銅質符文腰帶銅質符文護手銅質符文護腕銅質護腕銅質釘錘銅質鍊甲便褲銅質鍊甲腰帶銅質鍊甲長靴銅錠鋒利鱗片戰爭披風鋸齒的泰拉寶石鋸齒的翠綠橄欖石鋸齒蚌鋸齒蚌肉鋼握護手鋼質胸甲鋼質頭盔鋼錠鋼鷹之弩錫礦石鍍銀青銅護手鍍銀青銅長靴鐵傷子彈鐵匠之錘鐵扣環鐵木種子鐵盾藥水鐵礦石鐵錠鑄鐵披風鑄鐵腕甲長路之靴長路腰帶閃亮的伊露恩之星閃亮的藍月石閃亮的鋯石閃亮的魚鱗閃光的生命紅寶石閃光粉閃爍的火石榴石閃爍的皇家黃寶石防禦精煉藥劑防衛者的丹泉石阿拉希諸王皇家披風阿達歐的防禦徽記附魔瑟銀刃附魔瑟銀錠雀鷹捕網雄鹿皮內襯護腿雕刻的火石榴石雕刻的皇家黃寶石雕刻的華麗黃寶石雪球雷雷姆洛斯樹叢手環雷札克的裂片雷特辛失落墜飾電光相容器電鍍瑟銀披風震地圖騰霜狼口套靈巧之握手套靈魂之塵靈魂分裂之戒靈魂收割者束腕靈魂收穫者靈魂火砲靈魂精華靈魂裂片青綠石青銅匕首青銅巨劍青銅戰斧青銅戰錘青銅斧青銅短劍青銅花紋護腕青銅重錘青銅釘錘青銅錠靜心棱鏡預示之靴頑強之戒風暴信使風暴召喚者颶風戰衣手甲颶風戰衣肩衛颶風戰衣腿甲颶風戰衣面甲颶風戰馭頭盔颶風長靴餘燼馬刺護符首席遊俠護胸騎乘馬鞭騎士的璽戒驅魔者之印驅魔者指環驍勇臂鎧驚人的天火鑽石骯髒的科多獸鱗片高效的火石榴石高效的皇家黃寶石高階督軍月布肩墊高階督軍鎧甲護肩高階督軍鎧甲護軀鬥士懲戒錘鬥士懼紋兜帽鬥士懼紋披肩鬥士懼紋長袍鬥士戰勝之觸鬥士月布兜帽鬥士碎骨錘鬥士科多獸皮手套鬥士科多獸皮腿甲鬥士科多獸皮頭盔鬥士綴鱗腿甲鬥士綴鱗護肩鬥士綴鱗護軀鬥士緞質披肩鬥士速刃鬥士鎧甲腿甲鬥士龍革肩甲鬼靈裂片魔塵魔女的痛苦魔法冰河水魔法可頌魔法掃帚魔法軟餅魔粉魔紋布魔紋繃帶魔鋼戰爭頭盔魔鋼手套魔鋼護腿魔鋼錠魔鋼頭盔魔鐵巨劍魔鐵棒魔鐵短斧魔鐵礦石魔鐵胸甲魔鐵錘魔鐵錠魔鐵鍊甲外套魔鐵鍊甲手套魔鐵鍊甲罩盔魔鐵鍊甲護腕魔鐵鎧甲便褲魔鐵鎧甲手套魔鐵鎧甲腰帶魔鐵鎧甲長靴魚油鳳凰之掌鳳凰之火指環鳳凰之爪鳳凰之翼披風鳳凰之雙刃劍麥索瑞爾榮譽之盾黃水晶黃金勳章黃金卓奈石黎明石黑口魚黑暗守護者鑰匙黑暗披風黑暗搶奪者披氅黑暗深淵戰爭手環黑珍珠黑色戰鬥迅猛龍之哨黑色獵捕魔杖龍喉龍拳之錘龍擊龍牙飾物龍脊戰利品龍鱗魔杖", -- [2]
+		"6級霜狼徽記BKP 2700「執行者」BKP 42「偏激者」一捧雪花上古三連盾不懈的大地風暴鑽石不撓的赤紅束腰不滅狂怒胸針不穩定法力藥水丘加利頭帶中皮丹札拉之印主建築師的襯衣亞麻布亞麻繃帶亮酒符咒亮閃閃的鋼匕首人工生長圖騰伊利達瑞的復仇伊利達瑞紫色勝利外袍伊利達瑞肩墊伊斯利恩生命法杖伊根的衝擊器伊露恩之星低語貝殼披風保衛者之靴保衛者外袍保護卷軸 II修補者之心型指環倒刺懲罰頸飾假象之戒偉大保衛者之紫羅蘭徽記偷取的靈魂飾物傳送符文傳送門符文僧侶腰帶僧侶護腕元素之土元素助熔劑元素空氣先祖征服之戒先驅者手環光亮的生命紅寶石光滑的琥珀光滑的華麗黎明石光滑的黃金卓奈石光滑的黎明石光輝的伊露恩之星光輝的藍月石光輝的鋯石克銀礦石克銀錠內心手環六魔包共謀者護胸冒險墜飾冥界之光亮項鍊冬刺草冬靴冰凍之眼冰川寧靜護符冰雹墜飾冰霜守衛胸甲冰霜守衛護腿冰霜守衛頭盔冰霜影紋之靴冰霜影紋護肩冰霜影紋長袍冰霜防護之大法師便褲冰霜防護之方鈉礦指環凱旋墜飾凱爾薩斯的殘存之瓶分歧護手刺客大師之紫羅蘭徽記劍刃貝果力量卷軸 V劣質平衡石劣質的石頭劣質砂輪劣質磨刀石劣質銅外衣劣質青銅胸衣劣質青銅護肩劣質青銅護腿劣質青銅長靴十字章千印之戒千羽箭袋卓越法力之油博學者護甲片卡德加的鬍鬚厚亞麻繃帶厚幽紋繃帶厚皮厚科多獸毛厚符文布繃帶厚絨線繃帶厚絲質繃帶厚重境外皮護甲片厚重境外皮革厚重的戰斧厚重的琥珀厚重的黃金卓奈石厚重的黎明石厚青銅飛鏢厚魔紋繃帶原始之水原始之火原始力量原始大地原始暗影原始法力原始生命原始空氣原始虎皮原始虛空叛節束腰古物寶庫鑰匙古羅縫製束腰古老智慧的樹皮手套古老符號長袍古老青苔君王鎧甲腰帶君王鎧甲護腕君王鎧甲靴哈伏克護腕哈剌戰鬥徽章哈剌研究徽章哈拉瑪德之眼哈拉瑪德的第三硬幣護腿哥布林火箭發射器善潔裂片喚風者寶珠喪命草嗜血胸針嗜魂者寶珠嗜魂者裹手嚴寒之風披風嚴寒元素指環回憶之戒圖樣:季風腰帶圖樣:紅鷹之靴圖樣:自然之擁之靴圖樣:虛空眼鏡蛇護腿片圖樣:衝擊之靴圖樣:衝擊腰帶圖樣:長路之靴圖樣:長路腰帶圖樣:颶風長靴地擊胸甲地擊腰帶地擊護腕地根草地獄火力量淨化物地獄火石地獄火集會之靴地窖潛行者披風地精撒網器地精死亡射線坦克電子護目鏡埃蘭的舒緩藍寶石埃雷達爾忘卻法杖堅信之戒堅固的伊露恩之星堅固的平衡石堅固的石頭堅固的砂輪堅固的磨刀石堅固的藍月石堅固的鋯石堅毅徽章堅硬的琥珀堅硬的黃金卓奈石堅硬的黎明石堅鋼平衡石堅鋼斬斧堅鋼磨刀石堅鋼礦石堅鋼錠堅鋼魔棒堅韌的大地風暴鑽石堅韌追蹤者披肩堤里斯佛倫之第七指環報怨聖契境外皮彈藥包境外皮箭袋境外皮革墓地披風增重的南瓜燈籠墮落之塵墮落者兜帽墮落者手套墮落者披肩墮落者護腿墮落者長袍士官厚重披風士官厚重斗篷夏日晴空外袍夜光的火石榴石夜光的皇家黃寶石夜眼石夢境之塵夢魘根大口徑短槍大地之血護胸大地微粒大地看守者大地靈魂護腿大地靈魂馬褲大地風暴鑽石大型棕色科多獸大塊強光裂片大塊微光裂片大塊稜石裂片大塊閃光裂片大塊魔光裂片大工程師風帽大治癒者之紫羅蘭徽記大法師之帶大法師之紫羅蘭徽記大法師便褲大繩網大蛋白石大錘天火鑽石太陽之井晶瓶太陽之王權杖太陽之王的墜飾太陽之王護手太陽之鷹護腿失落兜帽奇異之塵奈德克斯手環奈薩斯火炬奈薩斯關鍵法杖奎克米瑞之眼奎克米瑞的手銬奧多爾法衣奧多爾遺產防衛者奧多爾頭帶奧特蘭克山谷榮譽獎章奧秘的天火鑽石奧金棒奧金蒸汽手槍奧金錠奧金骷髏鑰匙嫩綠球體孔雀石學徒襯衣宇宙灌溉者守衛者腰帶守護者絲絨之靴宵小束腰寇仁的幸運錢幣實心子彈審判者戰甲之冠審判者神聖冠冕審判者防禦手甲審判者防禦肩衛審判者防禦護胸審判者防禦面甲將軍懼紋布靴將軍月布腕輪將軍月布軟靴將軍科多獸皮腰帶將軍科多獸皮護腕將軍科多獸皮靴將軍鎧甲護脛將軍鎧甲護腕尊貴的夜眼石對立手環小型彈藥袋小塊強光裂片小塊微光裂片小塊稜石裂片小塊閃光裂片小塊魔光裂片小毒囊小紅帽披風屠魔之靴巨像之偶巨型南瓜燈籠巨型綠寶石巨型鐵斧巨型黑錘巫毒符咒巴巴的秘法披風希望重燃護手希瑞的禮物平衡的夜眼石平衡的暗影卓奈石幻影之塵幻象之塵幽紋之網幽紋布幽紋布包幽紋繃帶弱效助熔劑強力的大地風暴鑽石強化礦石包強效不滅精華強效助熔劑強效星界精華強效異界精華強效石盾藥水強效秘法精華強效結界符文強效虛空精華強效魔法精華強烈治療藥水強襲精煉藥劑彈力之靴彩色珍珠征服勇士手套征服勇士肩鎧征服勇士護胸征服勇士護腿征服勇士頭盔征服英雄肩鎧征服英雄護胸征服英雄護腿征服英雄頭盔征服防衛者手套征服防衛者肩鎧征服防衛者護胸征服防衛者頭盔復仇者佩劍復甦珊瑚指環微光的琥珀微光的黃金卓奈石微光的黎明石怒鋼護肩思維加速寶石怪異肩墊恆金礦石恆金錠恨惡護腕悔悟聖契惡意侵略指環惡毒手環惡霸之靴惡魔刻像惡魔平衡石惡魔搶奪者活塞惡魔獵者背心惡魔磨刀石惡魔鯊魚斗篷憎恨回音長袍憤怒之刃戈魯爾之眼戰傷長靴戰歌峽谷榮譽獎章戰爭使者戰甲胸甲戰爭使者防禦巨盔戰爭使者防禦手甲戰爭使者防禦肩衛戰爭使者鬥盔戰鬥舞者肩鎧戴比瑞之謎扭曲分割者扭曲彈簧線圈抗毒藥劑拼接皮包振奮的大地風暴鑽石提里斯法手套提里斯法披肩提里斯法權勢魔杖提里斯法護腿提里斯法長袍提里斯法風帽損壞的布甲長靴搜尋之眼藥劑撕心匕首撕裂之心護符支配墜飾敏捷卷軸敏捷卷軸 V敏捷操作手套救贖之保衛者印記斬首者斯泰林的甲蟲殼新月女神塑像方鈉礦指環旋風護腕旋風鐵斧日怒徽章日怒鳳凰之弓明亮的琥珀明亮的紅玉明亮的血石榴石明亮的黃金卓奈石明亮的黎明石星術師長褲星靈馬褲星風圖騰時光流逝卷軸時間信號燈晦暗者之握晶鑄戰甲戰盔晶鑄戰甲護肩晶鑄神聖手套晶鑄神聖肩鎧晶鑄神聖護腿晶鑄神聖護軀晶鑄防禦手甲晶鑄防禦肩衛晶鑄防禦腿甲智力卷軸 II智力卷軸 V暗夜毒物護符暗影之塵暗影卓奈石暗影微粒暗影深淵腰帶暗影石暗影藥劑暗殺頭盔暗飛箭暴力機會算盤暴風之眼榮譽獎章暴風行者之靴月光林地風帽月神的象牙塑像月行者之靴月鋼寬劍有光澤的小珍珠有限無敵腰帶末日顱骨札爾塔束腰果決腕甲核心手套桑古納爾領主的頸鏈森林之心護腕森林之王行者之靴森林之風肩墊極堅刻像極強效治療石極強效治療石極效力量藥劑極效敏捷藥劑極效防禦藥劑槲寄生樹林修補者腰帶樹林修補者長手套次級不滅精華次級星界精華次級月亮石次級異界精華次級秘法精華次級結界符文次級虛空精華次級魔法精華歐朗諾克的力量之薯歐爾指環歐爾灰燼正義徽章正義明亮頭盔正義護腕正道束腰死神傳承手甲死神傳承肩墊死神傳承腿甲死神傳承護胸死神傳承頭盔死草根殘忍鬥士分割者殘忍鬥士剃刃殘忍鬥士劈斧殘忍鬥士右齒鋸殘忍鬥士堅毅塑像殘忍鬥士壁壘殘忍鬥士大槌殘忍鬥士屏障殘忍鬥士左齒鋸殘忍鬥士巨劍殘忍鬥士懲戒錘殘忍鬥士懼紋手套殘忍鬥士懼紋護腿殘忍鬥士戰勝之觸殘忍鬥士戰爭法杖殘忍鬥士戰鋒飛斧殘忍鬥士救贖者殘忍鬥士斬斧殘忍鬥士斬首者殘忍鬥士月布手套殘忍鬥士月布護腿殘忍鬥士月布長袍殘忍鬥士法術之刃殘忍鬥士痛苦之鋸殘忍鬥士盾牆殘忍鬥士碎骨錘殘忍鬥士磨骨槌殘忍鬥士科多獸皮外套殘忍鬥士科多獸皮腿甲殘忍鬥士科多獸皮頭盔殘忍鬥士穿刺匕首殘忍鬥士終卷殘忍鬥士綴鱗護軀殘忍鬥士綴鱗頭盔殘忍鬥士緩刑器殘忍鬥士裁決槌殘忍鬥士速刃殘忍鬥士鎖鍊護手殘忍鬥士鎖鍊護甲殘忍鬥士鎖鍊護腿殘忍鬥士鎖鍊頭盔殘忍鬥士鎧甲腿甲殘忍鬥士鎧甲護手殘忍鬥士鎧甲護肩殘忍鬥士鎧甲護軀殘忍鬥士鎧甲頭盔殘忍鬥士鳳凰之弩殘忍鬥士龍革外套殘忍鬥士龍革手套殞星束腰毀滅環視鏡毀滅的天火鑽石毀滅者戰甲鬥盔毀滅者防禦巨盔毀滅者防禦肩衛毀滅者防禦腿甲毒蛇神殿手裏劍毛料水晶瓶水源微粒水銀堅鋼石永恆希望項鍊永恆指環永恆指環永恆指環永恆指環永生玉戒沉重的石頭治癒大雨圖騰法力微粒法力恢復精煉藥劑法力綠寶石法力薊法擊便褲法擊兜帽泰拉寶石泰洛克暗影法杖泰瑞斯提安抑制法杖洞察的大地風暴鑽石活根草流動思緒裹手浴陽光明披風海嘯護符海巨獸毒牙海巫法衣海怪之心胸甲浸濕的磨損拴繩消滅護腕淚滴的生命紅寶石淚滴的紅玉淚滴的血石榴石深沉黑暗之盾深淵石深雷混沌的天火鑽石清晰的生命紅寶石清晰的紅玉清晰的華麗紅寶石清晰的血石榴石漩渦圖騰潘札薩爾胸甲潮汐之錘激烈的伊露恩之星激烈的藍月石灌能的夜眼石灌能的暗影卓奈石灌魔之瓶火星完美護手火焰微粒火焰救贖寶典火焰試煉長褲火石榴石火石草種子火箭靴極限版火羽胸甲灼熱掌握手套炫彩驚奇精煉藥劑烏瑞恩王朝護脛烏鴉女神塑像烏鴉護衛印記烤泥鰍無情刀刃肩墊無情風暴之戒無應禱言指環無敵束腰無疤秘銀指環無盡之刃無盡圈套束腰無盡祝福手鐲無盡線圈之戒無盡迴圈寶石無盡驍勇之靴無限可能珠寶無限奧義法杖無頭騎士之刃無頭騎士盔帽煤塊熾炎戰馬韁繩燦爛的泰拉寶石燦爛的翠綠橄欖石燻黑的骨灰甕爐石特堅鋼錠狂熱項鍊狼爪項鍊猛擊藥劑獅心斬首者獨心頭飾獵人火槍獵捕者戰鬥手環王者印記珊瑚鉤肩墊珍珠匕首瑟銀礦石瑟銀錠瑪格哈全麥麵包瑪洛尼儀祭之冠瑪洛尼儀祭手甲瑪洛尼儀祭肩衛瑪洛尼戰衣肩鎧瑪洛尼戰衣護軀瑪洛尼戰馭披肩瑪洛尼戰馭胸甲瑪洛尼戰馭護手瑪洛尼戰馭護脛瑪洛尼戰馭鹿盔瑪瑟里頓之眼瓦許毒牙瓦許的殘存之瓶生命微粒生命紅寶石發光的夜眼石發光的暗影卓奈石白雄鹿護腕百亡腰帶皇家的丹泉石皇家的夜眼石皇家的暗影卓奈石皇家黃寶石盤牙裝備盲目之光精煉藥劑盲目草真銀棒真銀礦石真銀錠真銀骷髏鑰匙眼鏡蛇鞭長靴眼鏡蛇鱗矇矓的火石榴石矇矓的皇家黃寶石石化樹幹上衣破壞者沙漏硬甲皮礦工鋤祖母綠皇后塑像祝福滿盈束腰神秘的黎明石神秘紅寶石披氅神聖射手手環神聖符印神聖蠟燭科多獸的肉秘典:秘法光輝 II秘法懲戒之龍鱗魔杖秘銀礦石秘銀重斧秘銀重靴秘銀錠秘銀頭巾秘銀馬刺秘銀鱗片便褲移位寶石移形的夜眼石移形的暗影卓奈石移形者徽記穩固的泰拉寶石空氣微粒空的恐酒酒杯競技場隊伍登記表 (5v5)競賽者外袍符文圖騰披肩符文堅鋼魔棒符文布符文布繃帶符文法術絲線符文的生命紅寶石符文的紅玉符文的血石榴石粗暴的大地風暴鑽石粗糙的石頭粗製平衡石粗製砂輪粗製磨刀石精兵凱旋墜飾精兵凱旋指環精兵懼紋腰帶精兵拯救墜飾精兵拯救指環精兵支配指環精兵科多獸皮護腕精兵科多獸皮長靴精兵絲質腕輪精兵鎖鍊束腰精兵鎖鍊脛甲精兵鎖鍊護腕精兵鎧甲腰帶精兵鎧甲護脛精兵鎧甲護腕精巧的生命紅寶石精準彈丸精準遠行者手環精準那魯腰帶精神卷軸 II精緻的生命紅寶石精緻的紅玉精緻的血石榴石精靈王披肩紅寶石紅色戰鬥腰帶紋飾披風納斯雷茲姆心靈之刃純淨死亡精煉藥劑純淨的暗影珍珠純淨裹帶純潔之心無垢披風索拉瑞恩藍寶石索爾賓的超級壓縮器紫羅蘭徽章細線終末臂鎧結實的繩索結構圖:穩固恆金瞄準鏡絕佳的黃金卓奈石絕佳的黎明石絕對打擊護目鏡v2.0絨線繃帶絲綢絲質繃帶綑綁套索經絡鬼靈指環綠瑪瑙綠色染料綠色皮甲綠鐵護腕綠鐵護腿綠鐵鍊衫綠鐵頭盔緊急鐵行者之靴緻密平衡石緻密的石頭緻密砂輪緻密磨刀石羅慕歐的毒藥瓶美味變異點心羞慚的光榮護手翠綠橄欖石翡翠耐久的泰拉寶石耐久的翠綠橄欖石耐力卷軸耐力卷軸 II耐力卷軸 V耶維爾的瓶子聖使祝福手套聖光之觸捨己披肩聖光正義之錘聖光深淵錘杖聖潔蠟燭聖者儀祭手套聖者儀祭法衣聖者儀祭長褲聖者戰衣手甲聖者戰衣罩衣聖者戰衣翼肩聖者戰衣頭飾聖軀儀祭神光披肩聖軀儀祭神光頭帶聖軀戰衣靈魂頭帶聯合團王子的腰帶聯結水晶腐朽皮盔帽自然之力腰帶自然之擁之靴自然氣息風帽自然生計之索自然防護之大法師便褲自然防護之雄鹿皮內襯護腿自由行動藥水致命之戒致命意圖護腿致命的細短劍舒適的鞋墊艷麗的羽毛艾斯炎的禮物艾澤拉斯鑽石苦楚精華苦澀仇恨護符英氣秘銀項鍊華貴的丹泉石華麗短槍薩拉斯迷霧披風薩法爾之奈薩斯號角薩洛迪恩的符咒薩瑞尼斯謎樣的華服薩維亞短劍藍寶石藍月石虎爪護符虎眼石虛無之心手套虛無之心披肩虛無圖騰虛無水晶虛無球體虛空之刃面罩虛空之翼魔杖虛空死亡之斧虛空漩渦虛空眼鏡蛇護腿片虛空裂片束腰虛空裂蹄護腿片虛空鱗彈藥袋蛇脊長弓蛤蜊條融解墜飾血喉魔導師之刃血守衛護脛血海盜賊的外衣血火大法杖血石榴石衝擊之靴衝擊彈藥衝擊腰帶裂地儀祭護盔裂地戰衣首盔裂地戰馭護手裂地戰馭重肩甲裂地戰馭頭盔裂蹄皮護腿裂隙行者披肩裂隙行者護手裂隙行者護腿裂隙行者頭盔製皮師的背包角樹種子角瓶虛空噴劑角瓶虛空能量劑設計圖:保衛者之靴設計圖:堅鋼匕首設計圖:堅鋼大槌設計圖:堅鋼斬斧設計圖:堅鋼細劍設計圖:堅鋼魔棒設計圖:紅色浩劫長靴調諧水晶核諾格弗格藥劑諾達希爾憤怒首盔諾達希爾生命披肩諾達希爾生命褶裙諾達希爾生命護盔諾達希爾生命護胸諾達希爾野性褶裙諾達希爾野性頭飾謎般的天火鑽石謝爾曼納偉大之戒警覺指環變換夢魘之靴貓籠(黑紋灰貓)贊達拉英雄符咒贖救靈魂聖契赤紅狂怒指環超強法力之油跌打草躲藏護脛輕巧型火箭靴極限版輕彈丸輕皮輻光的泰拉寶石", -- [1]
+		"輻光的翠綠橄欖石辣炒塔巴克迅捷的天火鑽石迅捷紅色雙足飛龍迅鋼手套迦羅娜的璽戒迴轉平衡克銀毀滅火槍逆戟鯨皮之靴逐日者皇家披風遊俠領袖指環達拉然暗影披風遠行者迷惑披風遺忘戰靴邊緣行者長靴那魯之錘那魯光明護衛指環那魯冷光魔棒邪惡小南瓜邪惡意圖頸飾邪惡束腰邪惡的火石榴石邪惡的皇家黃寶石部落勳章部落勳章部落勳章部落勳章部落勳章部落勳章部落徽記部落戰旗醫師之大法師之帶重型幽紋之網重型秘銀胸甲重型秘銀護手重型秘銀護肩重型裂蹄長靴重平衡石重彈丸重生鳳凰之翼重皮重砂輪重磨刀石重銅大槌重銅寬劍野性之心生命根源野性之怒法杖野性看守者護腿野性看守者頭盔野獸之王手甲野獸之王披肩野獸之王胸衣野獸之王護腿野生棘根草野生漿果野生羽蔓金棒金礦石金錠金骷髏鑰匙金鱗護腕銀手之戒銀棒銀礦石銀色弦月塑像銀色黎明外袍銀錠銀骷髏鑰匙銀鱗胸甲銅斧銅礦石銅質匕首銅質巨刃劍銅質戰斧銅質短劍銅質符文便褲銅質符文腰帶銅質符文護手銅質符文護腕銅質護腕銅質釘錘銅質鍊甲便褲銅質鍊甲腰帶銅質鍊甲長靴銅錠鋒利鱗片戰爭披風鋸齒的泰拉寶石鋸齒的翠綠橄欖石鋸齒蚌鋸齒蚌肉鋼握護手鋼質胸甲鋼質頭盔鋼錠鋼鷹之弩錫礦石鍍銀青銅護手鍍銀青銅長靴鐵傷子彈鐵匠之錘鐵扣環鐵木種子鐵盾藥水鐵礦石鐵錠鑄鐵披風鑄鐵腕甲長路之靴長路腰帶閃亮的伊露恩之星閃亮的藍月石閃亮的鋯石閃亮的魚鱗閃光的生命紅寶石閃光粉閃爍的火石榴石閃爍的皇家黃寶石防禦精煉藥劑防衛者的丹泉石阿拉希諸王皇家披風阿達歐的防禦徽記附魔瑟銀刃附魔瑟銀錠陰鬱城祈禱者之書雀鷹捕網雄鹿皮內襯護腿雕刻的火石榴石雕刻的皇家黃寶石雕刻的華麗黃寶石雪球雷雷姆洛斯樹叢手環雷札克的裂片雷特辛失落墜飾電光相容器電鍍瑟銀披風震地圖騰霜狼口套靈巧之握手套靈魂之塵靈魂分裂之戒靈魂收割者束腕靈魂收穫者靈魂火砲靈魂精華靈魂行者之靴靈魂裂片青綠石青銅匕首青銅巨劍青銅戰斧青銅戰錘青銅斧青銅短劍青銅花紋護腕青銅重錘青銅釘錘青銅錠靜心棱鏡預示之靴頑強之戒風之隼護腕風暴信使風暴召喚者颶風儀祭手套颶風儀祭褶裙颶風儀祭鍊衫颶風儀祭頭飾颶風戰衣手甲颶風戰衣肩衛颶風戰衣腿甲颶風戰衣面甲颶風戰馭頭盔颶風長靴餘燼馬刺護符首席遊俠護胸騎乘馬鞭騎士的璽戒騙子的口才手套驅魔者之印驅魔者指環驍勇臂鎧驚人的天火鑽石骯髒的科多獸鱗片高效的火石榴石高效的皇家黃寶石高階督軍月布肩墊高階督軍鎧甲護肩高階督軍鎧甲護軀鬥士懲戒錘鬥士懼紋兜帽鬥士懼紋披肩鬥士懼紋長袍鬥士戰勝之觸鬥士月布兜帽鬥士碎骨錘鬥士科多獸皮手套鬥士科多獸皮腿甲鬥士科多獸皮頭盔鬥士綴鱗腿甲鬥士綴鱗護肩鬥士綴鱗護軀鬥士緞質披肩鬥士速刃鬥士鎧甲腿甲鬥士龍革肩甲鬼靈裂片魔塵魔女的痛苦魔導師火焰之索魔法冰河水魔法可頌魔法掃帚魔法軟餅魔粉魔紋布魔紋繃帶魔鋼戰爭頭盔魔鋼手套魔鋼護腿魔鋼錠魔鋼頭盔魔鐵巨劍魔鐵棒魔鐵短斧魔鐵礦石魔鐵胸甲魔鐵錘魔鐵錠魔鐵鍊甲外套魔鐵鍊甲手套魔鐵鍊甲罩盔魔鐵鍊甲護腕魔鐵鎧甲便褲魔鐵鎧甲手套魔鐵鎧甲腰帶魔鐵鎧甲長靴魚油鳳凰之掌鳳凰之火指環鳳凰之爪鳳凰之翼披風鳳凰之雙刃劍麥索瑞爾榮譽之盾黃水晶黃金勳章黃金卓奈石黎明石黑口魚黑暗守護者鑰匙黑暗披風黑暗搶奪者披氅黑暗深淵戰爭手環黑珍珠黑色戰鬥迅猛龍之哨黑色獵捕魔杖龍喉龍心火焰盾牌龍拳之錘龍擊龍牙飾物龍脊戰利品龍震肩衛龍鱗魔杖", -- [2]
 	},
 	["itemStrings"] = {
-		"i:52721i:168302i:36912i:174328i:108306i:109991i:113588i:111664i:111666i:74247i:74252i:111589i:111673i:108326i:53038i:111669i:37701i:111659i:108298i:111656i:111668i:156930i:97512i:34056i:109119i:108362i:72092i:108303i:108391i:111665i:37704i:108300i:108336i:35625i:108294i:111650i:115504i:108307i:109625i:109138i:111658i:109144i:152548i:97621i:34052i:111674i:111652i:111675i:111651i:109139i:108302i:52718i:152543i:109125i:108299i:109624i:108297i:108365i:108295i:111670i:115502i:152547i:52719i:111663i:111662i:36910i:108309i:109141i:52183i:108322i:111672i:109142i:108301i:111595i:52185i:108304i:109143i:108350i:152546i:174327i:108353i:37703i:152544i:36903i:111601i:109137i:37705i:36909i:52985i:34053i:35627i:37700i:36860i:37702i:108329i:52720i:111245i:111667i:72235i:108308i:108319i:109124i:52988i:108296i:35622i:35623i:108305i:111676i:168646i:152545i:160711i:111671i:109140i:152549i:34055i:108325i:35624i:17909i:3024i:3025i:34191i:28754i:32409i:28566i:28530i:28101i:28804i:2319i:33054i:11840i:2589i:1251i:37127i:12259i:27544i:31405i:30079i:29981i:13289i:23438i:27789i:30033i:28788i:1478i:28661i:28516i:27780i:29279i:28762i:17031i:17032i:6600i:6602i:7067i:18567i:7069i:30061i:28477i:24031i:28467i:28119i:28290i:24048i:24037i:23121i:28465i:23426i:23449i:28511i:7734i:28601i:30022i:28731i:3819i:34086i:31398i:31369i:31370i:31371i:21870i:21871i:24682:-33i:25054:-33i:28244i:29905i:32072i:29283i:29449i:27503i:3239i:2835i:3470i:2862i:10421i:2866i:3480i:2865i:6350i:17030i:28757i:34105i:20748i:25652i:3358i:2581i:21991i:4304i:5122i:14530i:3531i:6451i:34330i:23793i:3489i:28470i:23115i:24052i:29201i:8545i:21885i:21884i:23571i:22452i:22456i:22457i:21886i:22451i:19768i:23572i:28750i:11078i:28828i:30029i:28602i:22790i:12424i:12425i:12426i:24250i:26045i:26044i:32092i:29343i:23836i:28522i:29170i:5173i:29383i:29272i:35497i:32779i:28753i:30304i:30307i:30305i:31362i:30282i:30283i:30308i:29519i:29520i:29521i:2449i:27896i:5565i:28670i:28777i:10720i:10645i:32473i:28728i:28783i:24033i:7965i:7912i:7966i:7964i:23118i:28463i:32658i:28468i:23116i:24051i:28421i:23503i:23529i:23425i:23446i:25844i:25898i:30085i:30028i:27484i:34099i:34100i:21887i:23050i:34068i:8924i:30212i:30211i:30215i:30213i:30214i:28377i:28378i:35279i:23099i:24060i:23441i:11176i:22792i:3023i:28735i:22573i:28591i:27800i:25867i:18794i:11178i:11084i:22449i:11139i:14344i:29986i:29290i:24677i:29287i:24682i:835i:12799i:2526i:25868i:34471i:29996i:30015i:29987i:29991i:28415i:10940i:27517i:29988i:27683i:27712i:29077i:28825i:29076i:20560i:25893i:16206i:29949i:12360i:15872i:32405i:774i:6096i:30034i:30067i:28656i:38289i:3033i:29061i:28402i:32973i:32975i:31594i:31598i:31595i:28383i:28381i:24054i:29240i:5441i:11177i:10978i:22448i:11138i:14343i:1475i:28582i:28746i:27529i:33292i:12364i:3855i:7945i:8149i:28269i:28505i:29179i:31863i:31862i:16204i:11137i:24268i:21877i:21841i:21990i:2880i:25896i:29540i:16203i:3466i:11082i:22446i:13455i:11135i:25521i:11175i:10939i:28100i:22854i:32267i:5500i:30239i:30236i:30245i:30242i:30250i:30238i:30247i:30244i:30240i:30243i:29124i:30110i:28469i:23114i:24050i:33173i:19339i:30055i:23427i:23447i:28514i:29388i:33055i:28515i:28669i:16583i:28420i:30619i:29082i:23528i:27804i:30056i:28729i:28823i:28747i:20558i:29019i:29011i:29017i:29016i:29021i:30053i:30300i:30311i:30450i:6452i:34490i:25897i:30205i:30210i:28673i:30207i:30206i:22830i:31074i:28245i:3012i:27498i:28506i:31078i:28767i:19431i:30051i:25054i:28503i:29202i:30810i:28772i:28466i:28462i:28595i:23113i:24047i:29972i:27815i:32620i:24289i:30007i:30131i:30135i:30138i:30137i:30134i:30124i:30127i:30126i:2290i:27499i:28603i:32388i:23107i:22577i:30040i:1210i:32446i:28414i:28056i:28288i:29024i:30066i:28348i:27518i:27914i:3853i:5498i:23825i:4984i:29984i:32515i:28520i:30018i:29263i:28752i:28647i:27891i:22103i:22105i:22824i:22831i:22834i:21519i:29264i:16202i:10998i:1705i:22447i:11134i:23559i:11174i:10938i:30359i:29922i:29434i:30048i:28512i:29965i:30145i:30149i:30148i:30144i:30146i:3777i:32052i:32046i:31985i:32028i:33076i:33309i:32014i:33313i:32003i:31984i:32026i:31973i:31975i:32962i:32055i:32054i:32964i:31965i:31966i:32015i:32017i:32019i:32053i:32025i:32045i:31958i:31959i:31991i:31989i:31988i:32044i:31978i:32039i:32041i:32961i:32963i:32027i:32005i:32004i:32007i:32006i:30489i:30487i:30490i:30486i:30488i:31986i:32060i:32056i:30030i:32494i:25890i:30120i:30115i:30117i:30116i:30025i:2592i:8925i:22578i:31079i:29302i:29298i:29294i:29299i:2838i:22576i:22853i:22044i:22793i:24266i:23437i:29355i:28658i:25901i:3357i:28507i:29989i:30627i:30095i:30107i:30102i:30099i:30057i:24029i:28460i:23094i:28606i:30049i:28441i:34220i:24027i:28458i:28362i:23095i:30023i:28597i:30058i:24039i:23120i:31865i:31864i:18256i:28824i:22574i:30447i:28594i:21929i:22147i:23824i:29921i:29947i:33208i:32387i:29336i:27664i:28755i:30667i:22939i:30096i:28730i:30312i:28779i:28370i:30109i:28190i:30027i:28734i:28633i:38175i:33808i:3857i:30480i:24065i:23106i:24140i:6948i:23573i:29386i:28509i:28102i:28430i:28744i:2511i:28454i:21177i:30097i:5540i:10620i:12359i:27855i:29086i:29090i:29089i:29095i:29091i:29100i:29096i:29097i:29099i:29098i:28789i:30103i:29906i:22575i:23436i:24056i:23108i:28453i:30106i:30603i:24057i:23109i:23439i:24368i:22861i:8839i:11144i:7911i:6037i:15871i:30104i:29539i:31866i:31867i:28600i:28034i:8170i:2901i:27886i:27548i:24053i:28766i:30026i:17033i:17029i:5467i:22153i:25294:-21i:3858i:7941i:7933i:3860i:7931i:7969i:7920i:30629i:24055i:23110i:30834i:33782i:22572i:38287i:23562i:36941i:30111i:22462i:14047i:14529i:24274i:24030i:28461i:23096i:25899i:2836i:3240i:3478i:2863i:33066i:33057i:32799i:33068i:33064i:33056i:32812i:32788i:32820i:32803i:32791i:32816i:32805i:32793i:32818i:24032i:11284i:30091i:31464i:1712i:24028i:28459i:23097i:30024i:7910i:30032i:4715i:28770i:22866i:32836i:32516i:28765i:30446i:18904i:31113i:2321i:29966i:33069i:23809i:31860i:31861i:32474i:3530i:4306i:6450i:32698i:28510i:1206i:2605i:4255i:3835i:3842i:3844i:3836i:28608i:12643i:12365i:12644i:12404i:28579i:6657i:30112i:23079i:1529i:24062i:23105i:1180i:1711i:27502i:18663i:28508i:28771i:30108i:17028i:30151i:30150i:30153i:30160i:30159i:30163i:30161i:29054i:29049i:29058i:29328i:20725i:25362i:30042i:30041i:28655i:24682:-34i:24907:-34i:5634i:30052i:29995i:2534i:25679i:29172i:12800i:8923i:35507i:30563i:2509i:29994i:28418i:28301i:28659i:12361i:23117i:28674i:818i:28968i:28967i:28248i:22450i:22459i:29044i:27890i:30183i:29535i:28565i:29536i:34106i:30105i:30155i:24093i:28802i:29950i:30101i:23077i:30037i:28060i:30038i:30166i:30171i:30189i:30194i:30190i:30143i:30140i:30142i:30141i:34482i:17037i:32902i:23592i:23590i:23591i:23593i:25846i:30324i:34368i:8529i:30233i:30221i:30219i:30228i:25895i:28675i:33058i:30050i:8491i:28592i:28793i:22521i:2453i:28741i:35581i:2516i:2318i:24066i:23103i:33872i:25894i:25477i:23526i:28649i:32756i:29992i:29997i:28570i:28764i:30081i:28545i:28790i:30080i:33154i:29381i:28654i:31869i:31868i:30344i:30346i:28242i:30345i:28241i:30343i:18850i:18607i:24677:-37i:24269i:7930i:7919i:7918i:25691i:3241i:2519i:29920i:4234i:3486i:2871i:6214i:3487i:30664i:30021i:31367", -- [1]
-		"i:31368i:27474i:27801i:28228i:27874i:17026i:17021i:22148i:11128i:2776i:3577i:15870i:6040i:6338i:2775i:29370i:22999i:2842i:15869i:2870i:2845i:2770i:7166i:7955i:3488i:2847i:3473i:2857i:3472i:2854i:2853i:2844i:2852i:2851i:3469i:2840i:30098i:24067i:23104i:24476i:24477i:23533i:7963i:7922i:3859i:28504i:2771i:3483i:3482i:28061i:5956i:7071i:17038i:22849i:2772i:3575i:6593i:6591i:30035i:30036i:24035i:23119i:28464i:17057i:24036i:5140i:23100i:24061i:22851i:30566i:28529i:28792i:29203i:12655i:32321i:24907i:23098i:24058i:28363i:17202i:28440i:30062i:31463i:30666i:28785i:28660i:29389i:17626i:30644i:11083i:30083i:23021i:27872i:32825i:21882i:6265i:7909i:3848i:7957i:7958i:7956i:2849i:2850i:2868i:3491i:2848i:2841i:30621i:28517i:28791i:28442i:29155i:29034i:29037i:29036i:29035i:29040i:30043i:28609i:30054i:25653i:34073i:28555i:28553i:28502i:32410i:5121i:23101i:24059i:31628i:28855i:28851i:28305i:24553i:24554i:24552i:28320i:31410i:28302i:31375i:31377i:31376i:27882i:27883i:27879i:27710i:28307i:24547i:28139i:28558i:22445i:2931i:22018i:22019i:37011i:34062i:17020i:4338i:8544i:29983i:23517i:23518i:23448i:23519i:23499i:25843i:23497i:23424i:23489i:23498i:23445i:23490i:23491i:23493i:23494i:23488i:23482i:23484i:23487i:17058i:29948i:31746i:32944i:29925i:29993i:29268i:3864i:37297i:23112i:23440i:6358i:11197i:33122i:28672i:30047i:7971i:29472i:29350i:28438i:28437i:28439i:19406i:28830i:25294", -- [2]
+		"i:52721i:168302i:36912i:174328i:108306i:109991i:113588i:111664i:111666i:74247i:74252i:111589i:111673i:108326i:53038i:111669i:37701i:111659i:108298i:111656i:111668i:156930i:97512i:34056i:109119i:108362i:72092i:108303i:108391i:111665i:37704i:108300i:108336i:35625i:108294i:111650i:115504i:108307i:109625i:109138i:111658i:109144i:152548i:97621i:34052i:111674i:111652i:111675i:111651i:109139i:108302i:52718i:152543i:109125i:108299i:109624i:108297i:108365i:108295i:111670i:115502i:152547i:52719i:111663i:111662i:36910i:108309i:109141i:52183i:108322i:111672i:109142i:108301i:111595i:52185i:108304i:109143i:108350i:152546i:174327i:108353i:37703i:152544i:36903i:111601i:109137i:37705i:36909i:52985i:34053i:35627i:37700i:36860i:37702i:108329i:52720i:111245i:111667i:72235i:108308i:108319i:109124i:52988i:108296i:35622i:35623i:108305i:111676i:168646i:152545i:160711i:111671i:109140i:152549i:34055i:108325i:35624i:17909i:3024i:3025i:34191i:28754i:32409i:28566i:28530i:28101i:28804i:2319i:33054i:11840i:2589i:1251i:37127i:12259i:27544i:28040i:31405i:30079i:29981i:13289i:23438i:27789i:30033i:28788i:1478i:28661i:28516i:27780i:29279i:28762i:17031i:17032i:6600i:6602i:7067i:18567i:7069i:30061i:28477i:24031i:28467i:28119i:28290i:24048i:24037i:23121i:28465i:23426i:23449i:28511i:7734i:28601i:30022i:28731i:3819i:34086i:31398i:35509i:35511i:31369i:31370i:31371i:21870i:21869i:21871i:24682:-33i:25054:-33i:28244i:29905i:32072i:29283i:29449i:27503i:3239i:2835i:3470i:2862i:10421i:2866i:3480i:2865i:6350i:17030i:28757i:34105i:20748i:25652i:3358i:2581i:21991i:4304i:5122i:14530i:3531i:6451i:34330i:23793i:3489i:28470i:23115i:24052i:29201i:8545i:21885i:21884i:23571i:22452i:22456i:22457i:21886i:22451i:19768i:23572i:28750i:11078i:28828i:30029i:28602i:22790i:12424i:12425i:12426i:24250i:26045i:26044i:32092i:29343i:23836i:28522i:29170i:5173i:29383i:29272i:28780i:35497i:32779i:28753i:30304i:30307i:30305i:31362i:30282i:30280i:30283i:30281i:30308i:29519i:29520i:29521i:2449i:27896i:5565i:28670i:28777i:10720i:10645i:32473i:28728i:28783i:28525i:24033i:7965i:7912i:7966i:7964i:23118i:28463i:32658i:28468i:23116i:24051i:28421i:23503i:23529i:23425i:23446i:25844i:25898i:30085i:30028i:27484i:34099i:34100i:21887i:23050i:34068i:8924i:30212i:30211i:30215i:30213i:30214i:28377i:28378i:35279i:23099i:24060i:23441i:11176i:22792i:3023i:28735i:22573i:29171i:28591i:27800i:25867i:18794i:11178i:11084i:22449i:11139i:14344i:29986i:29290i:24677i:29287i:24682i:835i:12799i:2526i:25868i:34471i:29996i:30015i:29987i:29991i:28415i:10940i:27517i:27540i:29988i:27683i:27712i:29077i:28825i:29076i:20560i:25893i:16206i:29949i:12360i:15872i:32405i:774i:6096i:30317i:30034i:30067i:28656i:38289i:3033i:29073i:29061i:29067i:29070i:29066i:29068i:28402i:32973i:32975i:31594i:31598i:31595i:28383i:28381i:24054i:29240i:5441i:11177i:10978i:22448i:11138i:14343i:1475i:28582i:28746i:27529i:33292i:12364i:3855i:7945i:8149i:28269i:28505i:29179i:31863i:31862i:16204i:11137i:24268i:21877i:21841i:21990i:2880i:25896i:29540i:16203i:3466i:11082i:22446i:13455i:11135i:25521i:11175i:10939i:28100i:22854i:32267i:5500i:30239i:30248i:30236i:30245i:30242i:30250i:30238i:30247i:30244i:30240i:30249i:30237i:30243i:29124i:30110i:28469i:23114i:24050i:33173i:19339i:30055i:23427i:23447i:28514i:29388i:33055i:28515i:28669i:16583i:28420i:30619i:29082i:23528i:27804i:30056i:28729i:28823i:28747i:20558i:29019i:29011i:29017i:29016i:29021i:30053i:30300i:30311i:30450i:6452i:34490i:25897i:30205i:30210i:28673i:30207i:30196i:30206i:25342i:22830i:29962i:31074i:28245i:3012i:27498i:28506i:31078i:28767i:19431i:30051i:25054i:28503i:29202i:30810i:28772i:28466i:28462i:28595i:23113i:24047i:29972i:29977i:27815i:32620i:24289i:30007i:30131i:30133i:30135i:30138i:30137i:30134i:30124i:30127i:30126i:2290i:27499i:28603i:32388i:23107i:22577i:30040i:1210i:32446i:28414i:28056i:28288i:29024i:30066i:28348i:27518i:27914i:3853i:5498i:23825i:4984i:29984i:32515i:28520i:30018i:29263i:28752i:28647i:27891i:22103i:22105i:22824i:22831i:22834i:21519i:29264i:28521i:16202i:10998i:1705i:22447i:11134i:23559i:11174i:10938i:30359i:29922i:32458i:29434i:30048i:28512i:29965i:30145i:30149i:30148i:30144i:30146i:3777i:32052i:32046i:31985i:32028i:33076i:33309i:32014i:33313i:32003i:31984i:32026i:31973i:31975i:32962i:32055i:32054i:32964i:31965i:31966i:32015i:32017i:32019i:32053i:32025i:32045i:31958i:31959i:31991i:31989i:31988i:32044i:31978i:32039i:32041i:32961i:32963i:32027i:32005i:32004i:32007i:32006i:30489i:30487i:30490i:30486i:30488i:31986i:32060i:32056i:30030i:32494i:25890i:30120i:30115i:30117i:30116i:30025i:2592i:8925i:22578i:31079i:29374i:29302i:29298i:29294i:29299i:28763i:2838i:28523i:22576i:22853i:22044i:22793i:24262i:24266i:23437i:29355i:28658i:25901i:3357i:28507i:29989i:30627i:30095i:30107i:30102i:30099i:30057i:24029i:28460i:23094i:28606i:30049i:28441i:34220i:24027i:28458i:28362i:23095i:30023i:28597i:30058i:24039i:23120i:31865i:31864i:18256i:28824i:22574i:30447i:28594i:21929i:22147i:23824i:29921i:29947i:33208i:28621i:32387i:29336i:27664i:28755i:30667i:22939i:30096i:28730i:30312i:28779i:28370i:30109i:28190i:30027i:28734i:28633i:38175i:33808i:3857i:30480i:24065i:23106i:24140i:6948i:23573i:29386i:28509i:28102i:28430i:28744i:2511i:28454i:21177i:30097i:5540i:10620i:12359i:27855i:29086i:29090i:29089i:29095i:29091i:29100i:29096i:29097i:29099i:29098i:28789i:30103i:29906i:22575i:23436i:24056i:23108i:28453i:30106i:30603i:24057i:23109i:23439i:24368i:22861i:8839i:11144i:7911i:6037i:15871i:30104i:29539i:31866i:31867i:28600i:28034i:8170i:2901i:27886i:27548i:24053i:28766i:30026i:17033i:17029i:5467i:22153i:25294:-21i:3858i:7941i:7933i:3860i:7931i:7969i:7920i:30629i:24055i:23110i:30834i:33782i:22572i:38287i:23562i:36941i:30111i:22462i:14047i:14529i:24274i:24030i:28461i:23096i:25899i:2836i:3240i:3478i:2863i:33066i:33057i:32799i:33068i:33064i:33056i:32812i:32788i:32820i:32803i:32791i:32816i:32805i:32793i:32818i:24032i:11284i:30091i:31464i:1712i:24028i:28459i:23097i:30024i:7910i:30032i:4715i:28770i:22866i:32836i:32516i:28765i:30446i:18904i:31113i:2321i:29966i:33069i:23809i:31860i:31861i:32474i:3530i:4306i:6450i:32698i:28510i:1206i:2605i:4255i:3835i:3842i:3844i:3836i:28608i:12643i:12365i:12644i:12404i:28579i:6657i:30112i:23079i:1529i:24062i:23105i:1180i:1711i:27502i:18663i:28508i:29354i:28771i:30108i:17028i:30151i:30150i:30153i:30160i:30159i:30163i:30161i:29054i:29049i:29058i:29328i:20725i:25362i:30042i:30041i:28803i:28655i:24682:-34i:24907:-34i:5634i:30052i:29995i:2534i:25679i:25426i:29172i:12800i:8923i:35507i:28745i:30563i:2509i:29994i:28418i:30378i:28301i:28659i:12361i:23117i:28674i:818i:28968i:28967i:28248i:22450i:22459i:29044i:27890i:29924i:30183i:29535i:28565i:29536i:34106i:30105i:30155i:24093i:28802i:29950i:30101i:28188i:23077i:30037i:28060i:30038i:30166i:30171i:30189i:30194i:30190i:31544i:30143i:30140i:30142i:30141i:34482i:17037i:32905i:32902i:30323i:23592i:23590i:23591i:23593i:25846i:30324i:34368i:8529i:30233i:30221i:30220i:30219i:30216i:30229i:30228i:25895i:28675i:33058i:30050i:8491i:19950i:28592i:28793i:22521i:2453i:28741i:35581i:2516i:2318i:24066", -- [1]
+		"i:23103i:33872i:25894i:25477i:23526i:28649i:32756i:30092i:29992i:29997i:28570i:28764i:30081i:28545i:28800i:28790i:30080i:33154i:29381i:28654i:31869i:31868i:30344i:30346i:28242i:30345i:28241i:30343i:18850i:18607i:24677:-37i:24269i:7930i:7919i:7918i:25691i:3241i:2519i:29920i:4234i:3486i:2871i:6214i:3487i:30664i:30021i:31367i:31368i:27474i:27801i:28228i:27874i:17026i:17021i:22148i:11128i:2776i:3577i:15870i:6040i:27805i:6338i:2775i:29370i:22999i:2842i:15869i:2870i:2845i:2770i:7166i:7955i:3488i:2847i:3473i:2857i:3472i:2854i:2853i:2844i:2852i:2851i:3469i:2840i:30098i:24067i:23104i:24476i:24477i:23533i:7963i:7922i:3859i:28504i:2771i:3483i:3482i:28061i:5956i:7071i:17038i:22849i:2772i:3575i:6593i:6591i:30035i:30036i:24035i:23119i:28464i:17057i:24036i:5140i:23100i:24061i:22851i:30566i:28529i:28792i:29203i:12655i:30841i:32321i:24907i:23098i:24058i:28363i:17202i:28440i:30062i:31463i:30666i:28785i:28660i:29389i:17626i:30644i:11083i:30083i:23021i:27872i:32825i:21882i:30100i:6265i:7909i:3848i:7957i:7958i:7956i:2849i:2850i:2868i:3491i:2848i:2841i:30621i:28517i:28791i:29523i:28442i:29155i:29032i:29030i:29029i:29028i:29034i:29037i:29036i:29035i:29040i:30043i:28609i:30054i:25653i:34073i:28776i:28555i:28553i:28502i:32410i:5121i:23101i:24059i:31628i:28855i:28851i:28305i:24553i:24554i:24552i:28320i:31410i:28302i:31375i:31377i:31376i:27882i:27883i:27879i:27710i:28307i:24547i:28139i:28558i:22445i:2931i:30020i:22018i:22019i:37011i:34062i:17020i:4338i:8544i:29983i:23517i:23518i:23448i:23519i:23499i:25843i:23497i:23424i:23489i:23498i:23445i:23490i:23491i:23493i:23494i:23488i:23482i:23484i:23487i:17058i:29948i:31746i:32944i:29925i:29993i:29268i:3864i:37297i:23112i:23440i:6358i:11197i:33122i:28672i:30047i:7971i:29472i:29350i:28438i:28611i:28437i:28439i:19406i:28830i:28631i:25294", -- [2]
 	},
-	["data"] = "______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________8AAAAAAAABAMnigAAEAEBA___________________B_____________________B__BAAAAAAAAUAApKhAAPDBAAzBGBzfSAABAWA9gAAEGEBAGBAAwUHAABAATvgAADGDAAzBGBSXKAABAGkWgAAEEEBAzBGBjkVAABACejgAAEAEBA___________________B__9BGBaQJAABABJggAAEBEBA______________________ACGBgtOAABALFkgAAEAEBA3AAAhvBAABAEu9gAAEABBAFAAANAAAAUAAZcgAAHFBAABAAAIAAAAUAA1ogAAAHBAAACGBAAAAABAM7agAAEAEBAkAfAI-BAABANZHhAACPCAAzBGBdVGAABAcKOhAAEJDBABAAAAAAAABATr9gAAEACBAACGBeLJAABADQ-gAAEBEBAGCGBTInAABARUAhAACKEBABAAAAAAAABAA-GhAAMABBAGBAAwUHAAUAAUigAADBDAAwBEBUKGAABAQIqgAAEBDBAACGB_4QAABAIoXgAAEEEBA8AAAEnAAABATy9gAAEABBAZAPA-AAAAFAAf8gAAAEBAAzBGBgtOAABALCkgAAEAEBAzBGBrGVAABACcjgAAEAEBAzBGBVdUAABAL9jgAAEADBACCAAAAAAABALckgAAEAEBA9BGB5FZAABACHjgAAEAEBA___________________B_____________________B__bAWAjNAAABAGiWgAAECCAAbAWAqNAAABAJDYgAAECCAA_________________________________________B________________________ACGBgtOAABALHkgAAEAEBAzBGBL-FAABAJEYgAAEBEBAGBAAwUHAABAAEigAADADAA3AAAIOBAABAA5vgAADCBAA8AAAAAAAABAA3vgAADCEBA8AAAEnAAABAAhvgAADCCAAGBAAwUHAABAA6hgAADCDAAGBAAwUHAABAAVigAADBDAA8AAAEnAAABAA_ugAADBCAA3AAAIOBAABAAJvgAADBBAAGBAAEnAAAUAAt2gAAHHCAAGBAAUDDAAUAAnhgAAHHCAAzBGBA2FAABAJEYgAAEBEBAzAuAHyDAABAM2ngAAEADAAzBGBCdOAABAUxZgAAECEBAACGB5FZAABACbjgAAEAEBAzBGB5FZAABACLjgAAEAEBAnAAAkBAAAUAA0sgAAHJBAABAAABAAAABAINXgAAEBBAAkBGBgtOAABALkkgAAEAEAAzBGBqdUAABAUKagAAEEEAAkBGBoGSAABAHe4gAAEEEAAkBGBcmNAABABSfgAAEEEAApBGBZCIAABAIQXgAAEBEBApBGBXwKAABAUpYgAAEBEBA1BFBjCHAABAH62gAAEBCAAvBDBqqIAABALojgAAEACAAxBGBAAAAABACPjgAAEAEBAAAAAAAAAABAAD5gAAAABBAuBGBOWJAABAKidgAAEEEBACCAAAAAAABALckgAAEAEBALBBBQGAAAUAAmtgAAAFBAA___________________B__FABADAAAAUAAXBhAAAIBAAFAAACAAAAUAAABhAAHHBAAKAAAFAAAAUAALBhAAHHBAAFABADAAAAUAAQBhAAAIBAAHACAgAAAABAUQYgAAEDBAAXASAxLAAABAUWYgAAEDBAAWARAUIAAABAD89gAAEDBAAVAQACPAAABAH32gAAEDCAASANAnEAAABAI3WgAAEDBAA___________________B__9BGBqvbAABALzkgAAEAEBAGBGB8JJAABASF0gAALCDAA3AtAoPAAABAAC5gAAAIBAABB3AkfFAAKAAwngAAAGBAAlAAAvCAAAUAAswgAAHJBAABAAAUAAAAUAA4ogAAAHBAAGBAA4uAAAUAA8ogAAAHBAA______________________BAAAfEAAAKAAZcgAAPAAAA6AAAoPAAAUAAyogAAAHBAABAAA5AAAAUAA3ogAAAHBAABAAAQGAAAUAAoogAAAHBAAGB8AM1BAAKAAzngAAAGBAABBAAqhBAAUAA0xgAAHGBAARAMApOAAABAV7DhAACACAA3AAAIOBAABAA5vgAADCBAA8AAAEnAAABAAhvgAADCCAAGBAAwUHAABAA6hgAADCDAAUAPAWCAAABAZY_gAACQCAABAAAgMAAAUAA6ogAAAHBAABBAAg-AAAUAA0bgAAHKCAABBAAg-AAAUAAvbgAAHKCAA______________________BBAAg-AAAUAAubgAAHKCAABBAAg-AAAUAAzbgAAHKCAABBAAg-AAAUAAxbgAAHKCAABBAAg-AAAUAAwbgAAHKCAABBAAg-AAAUAAtbgAAHKCAA8AAAQfAAAUAAMzgAAHGBAABBAAA6DAAUAAybgAAHNDBAzBGBsHHAABAGjWgAAECEBABAAAAAAAAUAAdxgAANABAA9BGB50HAABAGjWgAAECEBAACGBT8HAABAKfdgAAECEBAzBGBvmLAABAUtYgAAEBEBAEBAAuLAAAUAA5wgAAHJBAA1AvAKYCAABAGKWgAAEECAA2AxAOmCAABAJKYgAAEECAA7A2ANJFAABAImXgAAEECAAwBFByDEAABAJBYgAAEBDAABAAAAAAAAkBAV0gAAPACBABAAAAAAAAkBAW0gAAPACBABAAAAAAAABAAl7gAANADBAhBAAIwIAABAHi3gAAECDBAGBAAkfFAABAMoegAAEADAAzBGBMRcAABAVHfgAACEEBApBGBYOwAABAX9ygAAEAEBA___________________B__uBGBAAAAABAMtygAAEAEBAuBGBAAAAABAXAzgAAEAEBAuBGBu3HAABAQIqgAAEBEBAzBGBVdUAABALdkgAAEADBAzBGBgtOAABALtjgAAEAEBALBAAgpOAABAAc8gAAJBEBALBAAgpOAABAAc8gAAJBEAALBAAgpOAABAAc8gAAJBEAAJBAAwUHAABAAb8gAAJBBBALBAAwUHAABAAc8gAAJCEAALBAAwUHAABAAc8gAAJCEAALBAAgpOAABAAc8gAAJBEAA4BGBhoRAABAUGagAAEDEBAzBGB2gIAABAGMWgAAEDEBAzBGB4iIAABAJDYgAAEDEBAFAAAUAAAAUAArwgAAHJBAAzBGBQcCAABAMj5gAAEADBA___________________B__zBGBSoHAABAI7WgAAEBEBA9BGB8sJAABAQGqgAAEBEBAqAAAuLAAABAM1ygAAEABAAwAAAuLAAABAMKegAAEABBA_B-AUaQAABABfegAAEEEBAzBGBzkxAABAX0vgAAEAEBA9BGBhcWAABAA7EhAACTEBAGBAAwUHAABAAVigAADBDAAjAZAoAAAAUAAaBhAAAIBAAjAAAkBAAAUAAEBhAAHHBAAjAAAIDAAAUAAOBhAAHHBAAjAZAoAAAAUAATBhAAAIBAA8AAAEnAAABAA_ugAADBCAA3AAAIOBAABAAJvgAADBBAAzBGBQcCAABAMnngAAEADAA3AAAIOBAABAA5vgAADCBAA8AAAEnAAABAAhvgAADCCAAGBAAwUHAABAA6hgAADCDAAGB8AoPAAAUAAdBhAAAICAApBBBXyUAABARwUgAACBCAAGB8AoPAAAUAAWBhAAAICAABBAAcXAAAUAAh2gAAHHBAABBAA4uAAAUAAohgAAHHBAAGBAAA0HAABAAJ8gAAHMBAAGBAAwUHAABAATvgAADGDAAACGBOJOAABADS-gAAEDEBAACGBgtOAABAL2jgAAEAEBAzBGBsKGAABAc70gAAEHDBAGB8AkfFAABASCogAALDCAAGB8AkfFAABASG0gAALCCAA8AAAiTAAAUAAzxgAAHGBAAaB8Ah7GAABAQRqgAAEBEBABAAAAAAAAUAAdogAAAABAA___________________B__FCGBAAAAABABfagAAEBEBAFCGBAAAAABAKXdgAAEBEBAFCGBAAAAABADQ-gAAEBEBAFCGBAAAAABAHH3gAAEBEBAFCGBAAAAABAUMZgAAEBEBA7BGBAAAAABAQ_pgAAEBEBA7BGBAAAAABAQ_pgAAEBEBABAAAAAAAABATN1gAAEADBA8AAAEnAAABAAevgAADFCAAGBAAwUHAABAALigAADFDAAGBAAwUHAAUAAHigAADDDAAtAAAAAAAAUAA3bgAAHMBAAJBAAiTAAAUAAKxgAAHJBAA___________________B__zBGB_ZRAABAUHagAAEDEBABBAAQGAAAKAAmbgAAHKBAAzBGB2-OAABAHL4gAAECEBAzBGBIPLAABAHC3gAAECDBAGBAAwUHAAUAARvgAADGDAA8A8AAAAAABAAVSgAAPFEBAtAAAAAAAAUAATcgAAHMDAAZAAAAAAAAUAAMcgAAHMDAAGBAAAAAAAUAARcgAAHMDAAjAAAAAAAAUAAOcgAAHMDAA3AAAAAAAAUAAJcgAAHMDAAACGBWLJAABAB8fgAAEBEBACCAAAAAAABALckgAAEAEBA1BFBS0DAABAGLWgAAEBCAACCAAAAAAABALckgAAEAEBA1BFBjCHAABAH62gAAEBCAAMACAXAAAABAA1ygAAAABBA3AAAYtBAAUAAkvgAADHCAA___________________B__GBAAwUHAAUAASvgAADGDAAzBGBnlRAABAMI5gAAEAEBANCGBFojAABANYmgAACEEBAKCAA5FZAABAC1igAAEAEBAKCGBOlGAABAKXdgAAEBEBAKCGBzCUAABAHb4gAAEDEBAzBGBLgGAABABMggAAEBDBAKAAAAAAAAUAA6bgAAHMBAAwBEBBBEAABAJEYgAAEBDBANCGBuHqAABARMAhAACKEBAzBGBQcCAABAMovgAAEADBAzBGBhUFAABAJ_XgAAECDBA4BGBAAAAABAUMZgAAEBEBA9BGBX0TAABAW_8gAAEGEBA4BGBAAAAABABfagAAEBEBABAAAAAAAAkBA8igAAAACBAGBAAwUHAABAAUvgAADGDAA3AAAoPAAABAA0_gAAHMBAAGCGBYNYAABAAKHhAACDEBA______________________3AAAxJAAAUAAixgAAAICAAGBGBAAAAABAAtvgAAPAEBAHAAAPAAAAUAAavgAADHCAABAAABAAAABAEd9gAAEABAAACGByYLAABAGlWgAAEEEAAACGBcMIAABAI7WgAAEBEBAzBGBvgIAABAGfWgAAEDEBAuBGBAAAAABAMirgAAEAEBA___________________B__4BGBAAAAABAB9fgAAEEEBA7BGBAAAAABAI7WgAAEBEBAxBGBAAAAABAJ-XgAAEBEBA7BGBAAAAABAI7WgAAEBEBA7BGBAAAAABAGaWgAAECEBAxBGBAAAAABAJ-XgAAECEBA7BGBAAAAABAI-WgAAECEBA7BGBAAAAABAIpXgAAEEEBAxBGBAAAAABAJKYgAAEEEBAGBAAwUHAABAAIigAADDDAAuBGBzkFAABAJDYgAAEBEBA___________________B__oAAAAAAAAUAAUcgAAHMDAAUAAAAAAAAUAANcgAAHMDAABBAAAAAAAUAAScgAAHMDAAeAAAAAAAAUAAPcgAAHMDAAyAAAAAAAAUAAKcgAAHMDAABAAASBAAAFAADzgAAHLBAAzBGBGtIAABAQKqgAAEBEBAzBGBtrMAABAIEXgAAEDEBAzBGByLQAABAM67gAAEADBABAAACAAAABABdogAAEBDBA8AAAQcCAAUAAYvgAADHCAAlAgAwvCAABAR_DhAACBCAAuApALOEAABAVylgAACECAABAAAAAAAABAAWWgAAMABBAzBGB3qGAABAQ9pgAAEBDBAzBGBDEKAABAKfdgAAEEEBAzBGBUvKAABAMirgAAEADBAGBAAwUHAABAAIigAADDDAA8AAAEnAAABAAWvgAADDCAA3AAAAAAAAUAA4bgAAHMBAAjAAAAAAAAUAA7bgAAHMBAA8AAAkBAAAUAA1ygAAAIBAA8AAAgMAAAUAAicgAAHFBAA_AAAQcCAABASYogAABACAAABAA7TAAAUAA7ogAAAHBAA___________________B__GBAAwUHAABAATvgAADGDAABBAAwUHAABASQogAABGCAA3AAAAAAAAKAAAcgAAHMCAA___________________B__ZAAAAAAAAKAA-bgAAHMCAABBAAAAAAAKAA8bgAAHMCAA4AuAuLAAAFAAB7gAAABBAAjAAAAAAAAKAAEcgAAHMCAAGB8A4uAAAUAAX0gAAAIBAAtAAAAAAAAKAAGcgAAHMCAAPAAAAAAAAKAACcgAAHMCAA___________________B__LBBBg4EAAFAAU5gAAADBAAACGByhQAABAIrXgAAEEEBA______________________GBGBQNMAABAAhdgAAPAEBAGBGBQNMAABAARYgAAPAEBAGBGBQNMAABAAl4gAAPAEBAGBGBQNMAABAAGggAAPAEBAGBGBQNMAABAAN-gAAPAEBAGBGBQNMAABAARYgAAPAEBAGBGBQNMAABAAl4gAAPAEBAGBGBQNMAABAAGggAAPAEBAGBGBQNMAABAAhdgAAPAEBAGBGBQNMAABAAGggAAPAEBAkBGBQNlBABANzDhAACHEBAKCGBgtOAABALBkgAAEAEBA3AAAIOBAABAA5vgAADCBAA8AAAEnAAABAAhvgAADCCAAGBAAwUHAABAA6hgAADCDAAzBGBsULAABADH-gAAEEDAAMB8AnlRAABAMzOhAAEAEBAACGBDLMAABADO-gAAECEBAGBAAiTAAAUAAn2gAAHHCAA______________________zBGB02GAABAJGYgAAECEBAuBGBAAAAABAcE8gAAEHEBAACGBgtOAABALlkgAAEAEBAzBGBagFAABAJEYgAAEBEBAzBGBHXKAABAIrXgAAECEBA___________________B__8AyAuLAAAUAAcBhAAAIBAAACGBYQWAABAMwrgAAEAEBA4BGBAAAAABAUdYgAAEDEBA8AyAuLAAAUAAVBhAAAIBAAzBGBQMGAABAQFqgAAEBDBAACGBfGMAABAUMZgAAEBEBAzBGBKYcAABANYDhAACHEBA9BGBYQWAABAMgQhAAEAEBAzBGBjwOAABAIrXgAAEEEBABAAAAAAAAkBAU0gAAAACBA4BGBAAAAABAUBagAAEEEBA4BGBAAAAABABoggAAEEEBA4BGBAAAAABAKidgAAEEEBA4BGBAAAAABADU-gAAEEEBA4BGBAAAAABABoggAAEEEBAACGB44QAABADL-gAAEEEBAtBAAvOKAABAMIUgAAEADBAvCGBAAAAABANTDhAACHFAAACGBnlRAABAMYegAAEAEBAQAAAcAAAAUAAl0gAAAIBAAGBAAAxJAABASWogAABHDAAGBAAwUHAABAATvgAADGDAAFCGBAAAAABAKXdgAAEBEBAFCGBAAAAABADQ-gAAEBEBAzBGBcCVAABAA8EhAACTEBAFCGBAAAAABAHH3gAAEBEBAFCGBAAAAABABfagAAEBEBABB3Ag-AAAUAAo5gAAACBAAtBAATJKAABAC4igAAEADBAxBGBAAAAABACPjgAAEAEBAUAKAyAAAAFAAa8gAAAEBAA___________________B__zBGBILHAABAKidgAAECEBAtBAATJKAABALUkgAAEADBA9BGBoYeAABAVlVgAACAEBALB8ANLZAABAMlngAAEAEBAACGBVmJAABAc37gAAEIEBAvBDBqqIAABALojgAAEACAAzBGB2gIAABAJ5XgAAEDEBAoAjAYJAAABAZsUgAACQCAABAAAIDAAA6DACkgAAMABAA9BGBE1XAABAPSFhAACCEBA3AAAIOBAABAA5vgAADCBAA3AAAIOBAABAAyvgAADABAA8AAAEnAAABAACvgAADACAA8AAAEnAAABAAhvgAADCCAAGBAAwUHAABAA6hgAADCDAAACGBFhMAABAHH3gAAEBEBAzBGB2nGAABAcpQhAAEJDBABAAAiTAAA6DA8ygAAMABAABAAAAAAAABAAk1gAAAABBAKCAArGVAABACejgAAEAEBAFCGBAAAAABAB9fgAAEEEBAFCGBAAAAABAKfdgAAEEEBAFCGBAAAAABADF-gAAEEEBAFCGBAAAAABAHL4gAAEEEBAFCGBAAAAABAUdYgAAEEEBAFCGBAAAAABAKfdgAAEEEBAFCGBAAAAABADF-gAAEEEBAFCGBAAAAABAHL4gAAEEEBAeAUALBAAAFAAZ8gAAAEBAA___________________B__zBGBzkxAABAXV2gAAEAEBABAAASCAAAkBAZrgAAMABAABBAAEnAAAUAAXvgAADDCAABBAAQGAAAKAArbgAAHKBAAACGBirHAABAGmWgAAECEAAUAAA6DAAAUAA6ugAADHCAABAAAAAAAAUAA34gAAMABBAzBGBUGIAABAB9fgAAECDBA___________________B__zBGBQcCAABAM0rgAAEADBABAAAAAAAAkBAgNhAAAACBAACGBsMOAABAIEXgAAEDEBAzBGBetHAABAB9fgAAECDBAwBEBCDGAABAcyIhAAEIDBAwBEBbQIAABAIbXgAAECDBAkAfApeCAABAReChAACICAA______________________tBAAILEAABAGkWgAAEBDAApAAA-XBAABAXhpgAAEACBAACGBxlHAABAGRWgAAECEBAACGBsLLAABAJKYgAAEEEBAzBGBvaIAABAKfdgAAEDEBAKCAA5FZAABACHjgAAEAEBAuBGBwCHAABAJ5XgAAECEBAzBGBjwKAABAIEXgAAECEBAzBGBKSKAABAD49gAAECEBAwBEByLQAABAM77gAAEADBAGB8AAAAAABAA-AhAAAIBAAGB8AAAAAABAA-AhAAAIBAA9AyAEnAAAUAA15gAAACBAACB3Ag-AAAUAAf5gAAACBAAFB3Ag-AAAUAAa5gAAACBAABAAAAAAAAUAAtwgAAPABBAuBGBYEHAABAGfWgAAECEBAyAAAAAAAAKAABcgAAHMCAAUAAAAAAAAKAA_bgAAHMCAAeAAAYJAAAUAAHvgAADHCAA8AAAAAAAAKAA9bgAAHMCAAeAAAAAAAAKAAFcgAAHMCAABB3AuLAAAUAAY0gAAAIBAAoAAAAAAAAKAAHcgAAHMCAAKAAAAAAAAKAADcgAAHMCAALBBBQGAAAUAAbugAAAFBBAACGBgtOAABALbkgAAEAEBAGBGBAAAAAIDAMLhAAPAEBAACGBZlQAABABEggAAEEEBAzBGBpUKAABAJ5XgAAEEEBAACGBruKAABAGfWgAAEEEBAFCGBAAAAABAKidgAAECEBAFCGBAAAAABADU-gAAECEBAFCGBAAAAABAHZ4gAAECEBAFCGBAAAAABAUBagAAECEBAFCGBAAAAABABoggAAECEBA___________________B________________________ICGBAAAAABAWAIhAACPEBAICGBAAAAABAWaVgAACAEBAICGBAAAAABAV0GhAACNEBAICGBAAAAABAcBOhAAEIEBAICGBAAAAABAWA9gAAEGEBAICGBAAAAABARcmgAACFEBAICGBAAAAABAWA9gAAEGEBAICGBAAAAABAW0GhAACNEBAICGBAAAAABARUDhAACIEBAICGBAAAAABANMmgAACEEBAICGBAAAAABAKVdgAAEBEBAICGBAAAAABAHH3gAAEBEBA____________________________________________ICGBAAAAABAZqUgAACQEBA______________________ICGBAAAAABANaVgAACAEBA______________________ICGBAAAAABAKVdgAAEBEBAICGBAAAAABAHH3gAAEBEBAICGBAAAAABAUMZgAAEBEBA____________________________________________ICGBAAAAABAWA9gAAEGEBA______________________ICGBAAAAABARcmgAACFEBAICGBAAAAABAUuZgAAECEBAICGBAAAAABAHH3gAAECEBAICGBAAAAABABMggAAECEBA______________________ICGBAAAAABAXqpgAAEAEBAICGBAAAAABAUEagAAEEEBAICGBAAAAABABEggAAEEEBAICGBAAAAABAXqpgAAEAEBAICGBAAAAABAVXmgAACEEBA______________________ICGBAAAAABAKRdgAAEDEBAICGBAAAAABAUZYgAAEDEBAICGBAAAAABAHL4gAAEDEBAICGBAAAAABABVfgAAEDEBAICGBAAAAABAHl4gAAEEEBAICGBAAAAABAKjdgAAEEEBAICGBAAAAABADN-gAAEEEBAICGBAAAAABAUEagAAEEEBAICGBAAAAABABEggAAEEEBAICGBAAAAABAAzFhAACSEBAICGBAAAAABAUuZgAAECEBAICGBAAAAABAKidgAAECEBAACGBNkJAABAGfWgAAEDEBA_B-AbbJAABABfegAAEBEBAGBAAwUHAABAAUvgAADGDAAFCGBAAAAABABoggAAEEEBAFCGBAAAAABABoggAAEEEBAFCGBAAAAABADU-gAAEEEBAFCGBAAAAABAHZ4gAAEEEBAGCGBQ4IAABAZGEhAACQEBAPAAAhAAAAUAAvcgAAHFBAA___________________B__BBAAQGAAAKAAsbgAAHKBAA8AAAQcCAAUAA0IhAAHEDAAACAAAAAAABALUkgAAEAEBAACAAAAAAABALUkgAAEAEBAACAAAAAAABALUkgAAEAEBAICAAAAAAABALUkgAAEAEBAZAAA8AAAAUAAGBhAAHHBAABBAAQGAAAKAApbgAAHKBAALBBBg4EAAFAAV5gAAADBAAEBEBAAAAABAA2vgAAAABBALBAAEnAAAUAAGxgAAHJBAApBGBpiHAABABJggAAEBEAAGBAAwUHAAUAAXigAADEDAApBGBsphAABARRGhAACKEBAzBGBLrkAABARXAhAACKEBAGBAAwUHAABAATvgAADGDAAeAAALBAAAUAAN0gAAHJBAAzBGBnwFAABAKXdgAAEBEBAKCGBp8JAABAQ-pgAAEBEBAACGBYQWAABAMvOhAAEAEBAGCGBPbfAABAVXDhAACHEBAKCGBs3NAABAUyYgAAEBEBAKCGBhNXAABAUKagAAEEEBAACGBrGVAABAC2ygAAEAEBAACGBLsKAABAJKYgAAEEEBAGBAAwUHAABAAEigAADADAA3AAAIOBAABAAyvgAADABAA8AAAEnAAABAACvgAADACAAzBGBo1SAABAW-8gAAEGEBAACGBzkxAABAX_ugAAEAEBA7BGBWckAABAREmgAACFEBAGBAAwUHAABAAUvgAADGDAAGBAAwUHAABAAEigAADADAA3AAAIOBAABAAyvgAADABAA8AAAAAAAABAAxvgAADAEBA8AAAEnAAABAACvgAADACAAACGBkEJAABAcWNhAAEJEBAzBGBL8TAABAUBagAAEEEBAGCGB2yfAABAV9HhAACEEBAGBAAwUHAABAAVigAADBDAA8AAAEnAAABAA_ugAADBCAAGBAAwUHAABAAIigAADDDAA8AAAEnAAABAAWvgAADDCAA___________________B__9BGBB3KAABAKldgAAEEEBABBAAQGAAAKAAnbgAAHKBAAACGBnlRAABAMrpgAAEAEBAzBGBLRLAABAHH3gAAEBEBABBAAEnAAAUAAfvgAADFCAA___________________B__wBAAe_HAABAIlegAAECDAAACGBQaTAABAUCagAAEDEBAACGBerHAABAKidgAAECEBAGBBBIOBAAFAAs6gAAADBAAzBAAIIGAABAcUUgAAEIDBAzBAAhPKAABACNjgAAEADBABB3AWCAAAUAASugAAAFBAAzBGBUKLAABADU-gAAECEBAzBGBgtOAABALRkgAAEAEBATB8AgtOAABALQkgAAEAEBAACGBVpKAABAGkWgAAEEEBAzBGBgtOAABAL2jgAAEAEBAvCGBAAAAABANCIhAACPFAA9BGB-XKAABAGfWgAAEEEBAzBGBQcCAABAMCjgAAEADBAKCGBgtOAABALKkgAAEAEBAzBGBQcCAABAMHngAAEADBAACGBrhQAABAIHXgAAEEEBAzBGBzkxAABAXWvgAAEAEBAzBGBxEjAABARPGhAACKEBAzBGBVRdAABAVtBhAACHEBAuBGBAAAAABABDggAAEEEBA___________________B__GBGBAAAAABAAOSgAAPFEBAGBAAwUHAABAAYigAADEDAA8AAAEnAAABAAMvgAADECAAAAAAAAAAABAAy1gAAAABBABAAAAAAAABAAO0gAAPABBABBAAwUHAAUAAqhgAAHHBAAuBGBAAAAABACdjgAAEAEBAzBGBedfAABAC9igAAEAEBA8AyAEnAAAUAA26gAAACBAAICGBXWpAABARmChAACIEBAzBGBrWIAABABjggAAEBEBA___________________B__zBGBR3IAABAJ5XgAAEDEBA___________________B__ACGBRuNAABADK-gAAEDEBAXASA7gAAABANZHhAACPCAAoAAA6DAAAUAAy2gAAHHBAAyAAAYJAAAUAAlhgAAHHBAABB3AYEAAAUAAjugAAAFBAA4BGBAAAAABAB9fgAAECEBA4BGBAAAAABAKfdgAAECEBA4BGBAAAAABADF-gAAECEBA4BGBAAAAABADF-gAAECEBA4BGBAAAAABAUdYgAAECEBA4BGBAAAAABADF-gAAECEBA4BGBAAAAABAUdYgAAECEBA4BGBAAAAABAKfdgAAECEBA4BGBAAAAABAHL4gAAECEBA4BGBAAAAABAB9fgAAECEBA9BGBYQWAABAMobgAAEAEBANCGBt8hAABAN6HhAACPEBAAAAAAAAAABAAC5gAAAABBABBAAQGAAAKAAobgAAHKBAAGBAAwUHAAUAADigAADADAAGBAAwUHAABAAIigAADDDAA8AAAEnAAABAAWvgAADDCAAzBGBFXHAABAJ5XgAAECEBAKCGB2oIAABAGjWgAAECEBAGBAAwUHAABAAIigAADDEBAGBAAwUHAABAAIigAADDDAA8AAAEnAAABAAWvgAADDCAAGBAAwUHAAUAAKigAADFDAABAAA0HAAAIDAZ_gAAMABAALBBBg4EAAFAAT5gAAADBAAvAAA3FAAAUAAzwgAAHJBAAoAAAoPAAABAAs_gAAHMBAAoAAA0HAAAUAA02gAAHHCAA______________________oAAAxJAAAUAAlxgAAAICAAKCGBXGPAABAILXgAAEDEBA8AAAiTAAAUAAwygAAHGBAA8AAAEnAAABAAevgAADFCAAGBAAwUHAABAALigAADFDAAzBGBuZOAABAUyZgAAECEBAwBEBQcCAABAMaegAAEADBA_________________________________________B__wBEBRQGAABAc9NhAAEIDBAzBGB2iHAABAGgWgAAEEDBAGBAAwUHAABAA6hgAADCDAA9BGBMFJAABAQKqgAAEBEBAACGBTbJAABAJIYgAAEDEBA___________________B_____________________B__KAAAHAAAAKAAStgAAHIBAAGBGBgaYAABAArpgAAJADAA1BFBL6NAABAAsEhAACTCAAoAAA6DAAAUAAw2gAAHHBAAqAlAoDDAABAV1UgAACACAAvAqAddCAABAImXgAAEECAAoAAAQGAAAUAAkhgAAHHBAAuApAT8BAABABRggAAEDCAArAAA6DAAABAATTgAAAGCAAqAlA19BAABAH32gAAEDCAAACGBYQWAABAMTEhAAEAEBAGBAAwUHAABAAIigAADDDAA8AAAEnAAABAAWvgAADDCAAkBGBmDMAABALHkgAAEAEBAGBAAwUHAABAAYigAADEDAABBAAQGAAAKAAlbgAAHKBAAuBGBAAAAABAM2agAAEAEBAGBAAAAAAABAAhlgAAPABBABAAAAAAAABATy9gAAEADBAKCGBJMNAABAD-9gAAECEBA9AAAA0HAABAAK8gAAHMCBAyAAAQGAAAUAAncgAAHFBAA0AAApGAAAUAAxogAAAHBAALB8AQNMAAUAALNhAAAGEAAGBAAwUHAABAAEigAADADAA3AAAIOBAABAAyvgAADABAA8AAAEnAAABAACvgAADACAAGBAAwUHAABAATvgAADGDAAPAAAPAAAAUAADBhAAHHBAAPAFAKAAAAUAAYBhAAAIBAAUAAAKAAAAUAAMBhAAHHBAAPAFAKAAAAUAARBhAAAIBAAACGBAAAAABACPjgAAEAEBAACGBAAAAABALakgAAEAEBAICGBAAAAABAGaWgAAEBEBAACGBAAAAABACPjgAAEAEBAACGBAAAAABALakgAAEAEBAACGBAAAAABALakgAAEAEBA-BGBAAAAABAJ-XgAAECEBAICGBAAAAABAI-WgAAECEBA-BGBAAAAABAJ-XgAAEBEBAICGBAAAAABAGdWgAAEDEBAICGBAAAAABAIrXgAAEDEBA-BGBAAAAABAJHYgAAEDEBAICGBAAAAABAGXWgAAEEEBAICGBAAAAABAIpXgAAEEEBA-BGBAAAAABAJKYgAAEEEBAGBAAwUHAABAAEigAADADAA___________________B__ACGBS2JAABAJGYgAAEDEBAzBAAYhFAABAGZWgAAECDBAZAPA-AAAAFAAZ8gAAAEBAAGBAAwUHAABAAEigAADADAA3AAAIOBAABAAyvgAADABAA8AAAEnAAABAACvgAADACAAACGB0WJAABADQ-gAAEBEBAyAAAIOBAAUAAxvgAADHCAAACGBhTLAABAGWWgAAEEEAAbAWACQAAABAQAqgAAEBCAA9BGBYueAABAV8HhAACPEBALBBBg4EAAFAAS5gAAADBAA8AAAQcCAABAAuvgAADDDAAACGB2iGAABAJEYgAAEBEBA9BGBDDJAABAQ-pgAAEBEBAACGBnlRAABAMzvgAAEAEBABAAAAAAAABAALegAAMABBAzBAAUvKAABAM9LhAAEAEBA______________________ACGBkpHAABAJGYgAAECEBABAAAAAAAABAA2ygAAMABBALBAAYqDAABAAd8gAAJDDBA8AAAEnAAABAAhvgAADCCAAGBAAwUHAABAA6hgAADCDAA_B-AVJOAABABfegAAEDEBABAAAZAAAAUAA0ogAAAHBAAeAAAWCAAAUAApcgAAHFBAABAAAqCAAAUAAnogAAAHBAAAAAAAAAAABAA2ygAAMABBAzBGBgtOAABAL9jgAAEAEBAZAAAQGAAAUAAZvgAADHCAA____________________________________________hAcASRAAABAJ9XgAAEDBAAfAaAatAAABAH52gAAEDCAAkAfAaYBAABAUQYgAAEDDAAiAdAtvAAABABPfgAAEDCAAzBGBHiPAABAIpXgAAEEEBAtAjALBAAAUAAbBhAAAIBAAtAAA6DAAAUAA90gAAHHBAAtAAAIDAAAUAAPBhAAHHBAAtAjALBAAAUAAUBhAAAIBAAzBGBYQWAABAM34gAAEAEBASAAAFAAAAUAAeygAAAFBAAKCGBMbMAABAKadgAAEEEBABBAAEnAAAUAANvgAADECAAjAAA8KAAAUAA2vgAADHCAAGBAAwUHAABAAYigAADEDAA8AAAEnAAABAAMvgAADECAAPAFAlAAAAFAAf8gAAAEBAAeAUALBAAAFAAf8gAAAEBAAGB8AwBAAAFAAf8gAAAEBAABAAAAAAAABAAy1gAAMABBAzBGB-xFAABAKXdgAAEBEBA9BGBHqfAABAVWmgAACEEBANCGB6fjAABAV-HhAACEEBA___________________B__FCGBAAAAABAKXdgAAEBEBAFCGBAAAAABAUMZgAAEBEBAFCGBAAAAABAHH3gAAEBEBAFCGBAAAAABAKXdgAAEBEBAFCGBAAAAABAUMZgAAEBEBAFCGBAAAAABADQ-gAAEBEBAFCGBAAAAABABfagAAEBEBA4BGBAAAAABADQ-gAAEBEBA4BGBAAAAABABfagAAEBEBA4BGBAAAAABABfagAAEBEBAhBAAakDAABAGTWgAAEBDBA8AAAAAAAAUAAQcgAAHMEAAIBDBpuBAABABtfgAAECAAAACGBRvHAABAGiWgAAECEAAACGBGkLAABAIRXgAAECEBAzBGBQEHAABAGfWgAAECEBA1BFBjCHAABAH62gAAEBCAA1BFBQhKAABAH62gAAEDCAAeAUALBAAAFAA74gAAABBAAACGBgtOAABALRkgAAEAEBAKCGBnZRAABAHk3gAAECEBA___________________B__8AAA6DAAAKAArngAAAIBAApBGBYOwAABALRkgAAEAEBA8AAAQcCAAUAAOvgAADHCAA___________________B__uBGBQNMAABAC5igAAEAEBAGBAAwUHAABAAIigAADDEBA___________________B__KCGBxZKAABAQHqgAAEBEBAzBGBQcCAABAMPegAAEADBAzBGBqeGAABAQPqgAAEBDBAzBGBR9IAABAZ3HhAACQEBA3AAAYtBAAUAA0vgAADHCAABBAAEnAAAUAAAvgAADBCAAzBGBjkVAABACNjgAAEAEBAPAAAkBAAAUAAmvgAADHCAA4BGBAAAAABAKXdgAAEBEBA4BGBAAAAABADQ-gAAEBEBAzBGBapGAABAc3IhAAEJDBAGBAAAAAAAUAAVcgAAHMEAAGBAAAAAAABAAWcgAADIEAA4BGBAAAAABABoggAAECEBAwBEBKSQAABAA4EhAACTDBALBAAg4EAAUAAqbgAAHNEBAJB8AAxJAAUAAzngAAAGEAAzBGBg3FAABAGRWgAAEBEBAJB8AAxJAAUAAzngAAAGEAAGBGB8JJAABASWogAALDDAANCGBtVaAABAPIFhAACCEBABB3AWCAAAUAAftgAAAFBAAyBGBuoJAABACNjgAAEADAA9BGB2zdAABAVPDhAACHEBAACGBtvVAABAHZ4gAAEEEBAACGBZaPAABAUHagAAECEBABBAAEnAAAUAADvgAADACAAACGBzzJAABAISXgAAEBEBA___________________B__ACGBBkGAABAGWWgAAEBEAAFCGBAAAAABABkggAAEDEBAFCGBAAAAABAB9fgAAEDEBAFCGBAAAAABAKfdgAAEDEBAFCGBAAAAABADF-gAAEDEBAFCGBAAAAABAB9fgAAEDEBAFCGBAAAAABADF-gAAEDEBAFCGBAAAAABAKfdgAAEDEBAFCGBAAAAABAHL4gAAEDEBAFCGBAAAAABAB9fgAAEDEBABBAAwUHAABASVogAABHCAA___________________B__EB3AAAAAAPAA_5gAAABBAACBAAQcCAABAAb8gAAJEBAA___________________B_____________________B_____________________B_____________________B__LBAAgpOAABAAc8gAAJEEAAGBAAAAAAABAA7vgAAMABBAtAjAvCAAAUAAP7gAAACBBAFCGBAAAAABAB9fgAAECEBAFCGBAAAAABADF-gAAECEBAFCGBAAAAABAB9fgAAECEBAFCGBAAAAABAB9fgAAECEBAGBAAwUHAABAAUvgAADGDAAzBGBgtOAABALxjgAAEAEBAACGBgtOAABALJkgAAEAEBAACGBcMIAABAI7WgAAEBEBAUAAAcXAAABAA3XgAAPCBAAzBGBVBJAABAcD8gAAEHEBA9BAAgtOAABALfkgAAEAEBA-A0AcXAAABAAD5gAAAIBAAUAAAZAAAAUAAlwgAAHJBAAzBGBCxNAABAHu3gAAECEBAwBAAPYGAABAIlegAAEBDAA___________________B________________________GBAAwUHAABAAYigAADEDAA8AAAEnAAABAAMvgAADECAALBBBWCAAAUAAYugAAAFBAAGBAAwUHAABAAUvgAADGDAAGBGBAAAAABAAsSgAAPFEBAzBGBgkGAABAKXdgAAEDDAAzBGBgtOAABALNkgAAEAEBApBGBLiTAABAAFHhAACDEAAKCGBBVKAABAQCqgAAEBEBAKCGBgtOAABALVkgAAEAEBAzBGBY9IAABAQMqgAAEBEBA9BGB3AJAABAQJqgAAEBEBAACGB2JQAABAIpXgAAEEEBAzBGB8tKAABAIrXgAAECEBA9BAAgtOAABALkkgAAEAEBAGCGBhBYAABAA0EhAACTEBAUAAAAAAAABAA_tgAAPADBAuBGBAAAAABACrigAAEAEBAzBGBcoFAABAGMWgAAEBEBA8AAAEnAAABAAevgAADFCAAGBAAwUHAABAALigAADFDAAzBGBAAAAABAMNlgAAEADBAzBGBAAAAABAMNlgAAEADBAzBGBAAAAABAMNlgAAEADBAzBGBAAAAABAMNlgAAEADBAzBGBAAAAABAMNlgAAEADBAzBGBAAAAABAMNlgAAEADBAAAAAAAAAABAMNlgAAEADBABAAAAAAAABAAFWgAAAABBA1BFBS0DAABAGLWgAAEBCAA8AAAkBAAAUAA1ygAAAIBAAuApAqADAABAUJagAAEECAApAoAHEBAABAKhdgAAEECAApAoAClBAABADN-gAAEECAAxBFB-OIAABAI9WgAAECDAAZAPAoAAAAUAAZBhAAAIBAA___________________B__ACGBgtOAABALRkgAAEAEBA______________________ZAAAkBAAAUAANBhAAHHBAAZAPAoAAAAUAASBhAAAIBAAQALATJAAABAR_egAACFBAATAOAaXAAABARQChAACICAAACGBnlRAABAMKxgAAEAEBAGCGBhHnAABARSAhAACKEBAzBGBTUUAABAHm4gAAEEEAAzBGB1QPAABABEggAAEEEAAzBGB1kGAABAKQdgAAEDDBAzBGBZMKAABADO-gAAEDDBAzBGB6SNAABAURYgAAEDDBAzBGBnPMAABAH32gAAEDDBA___________________B_____________________B_____________________B__eAAA0HAAABAAr_gAAHMBAAZAAA0HAAAUAAr2gAAHHCAA______________________eAAAsEAAAUAAnxgAAAICAAlAgAxZAAABAJBYgAAEDBAAUAAA9BAAABAAi_gAAHMBAAKAAALBAAAUAAKBhAAHHCAAuBGBAAAAABAMrHhAAEAEBA8AAAEnAAABATy9gAAEABBA______________________UAAAyAAAAUAAdxgAAAICAAdAYA3tAAABAUOagAAEDDAAJAEAtBAAABAVBVgAACABAAKAAAFAAAAUAAm2gAAHHBAALAGACDAAABANiHhAACPBAALAGAxDAAABARaChAACIBAANAIAlJAAABAR8DhAACBCAAJAEAuBAAABAVfChAACHBAANAIArEAAABAH32gAAEDCAASANAGDAAABAGMWgAAEDBAAMAHAHBAAABAKKdgAAEDBAATAOAhDAAABAJ6XgAAEDBAAHACARAAAABAJ6XgAAEDBAAJAEAqBAAABAVklgAACEBAAJAEADBAAABAH32gAAEDBAALAGA4AAAABAGLWgAAEDBAAJAEAxAAAABAI3WgAAEDBAAKAAAKAAAAUAAghgAAHHBAAACGBLJJAABAQMqgAAEBEBAGBAAwUHAABAAYigAADEDAA8AAAEnAAABAAMvgAADECAABBAAkBAAABAAh0gAAHLBAABBAAkBAAAKAA3tgAAHIBAApBGBbBJAABAKjdgAAEEEAAoAjAYlBAABAUEagAAEDCAArAoA4ABAABABPfgAAEEBAA______________________zBGBNXVAABAA7FhAACSEBAUAAAZAAAAUAAz2gAAHHBAAbAWAFPAAABAKLdgAAEDCAAaAVAlUAAABAI3WgAAEDCAA2BBBDAAAAIDYSngAAGDBAABABADAAAABAVBfgAACOBAAeAAAkBAAAFAAnngAAHBBAA___________________B__JB8AYtBAAFAAm5gAAABBAAeAAAWCAAAUAAs2gAAHHBAAeAAAIDAAAUAAwhgAAHHBAAaAVAbOAAABAQKqgAAEBCAAbAWAvPAAABAJBYgAAEDCAAACGBTvJAABAIbXgAAEBEBAACGBChGAABAGOWgAAEBEAAGBAAwUHAABAAVigAADBDAA8AAAEnAAABAA_ugAADBCAA3AAAIOBAABAAJvgAADBBAABAAAHAAAAUAAmygAAPBBAAGBAAwUHAABAAEigAADADAA___________________B__8AAAEnAAABAAevgAADFCAAGBAAwUHAABAALigAADFDAALBBBg4EAAFAAW5gAAADBAAGBAAwUHAABAAIigAADDEBAzBGB4sIAABAQCqgAAEBEBA9BAAgtOAABALVkgAAEAEBA8A3AQcCAABAZuHhAACQCAA______________________BAAAAAAAABAA1ygAAMABBA1BFBQhKAABAH62gAAEDCAA8AAAEnAAABAAevgAADFCAAGBAAwUHAABAALigAADFDAA8AAAAAAAABAAkvgAADFEBAFAAAAAAAAUAAjUgAAPDBAArBGBE_fAABARDmgAACFEBAACGBLvHAABAJ5XgAAECEBABAAAAAAAABAAMvgAAMABBAzBGBjkVAABACJjgAAEAEBAzBGBYQWAABAMUEhAAEAEBAzBGBZ3IAABAQMqgAAEBEBAuBGBAAAAABAcubgAAEJEBABAAAAAAAABAA9mgAAMABBAzBGB97GAABAKidgAAECEBAZAAAAAAAAUAA5bgAAHMBAAACGBgtOAABAL9jgAAEAEBATB8AbeEAABAJ-XgAAEBEBAzBGBmZWAABANhVgAACADBABAAAAAAAABAAnrgAAMABBA8AAAEnAAAUAAWQhAAHLBAAKAAAAAAAABAA7ugAAPBBBAtAAAoPAAAUAAIvgAADHCAAUAPASWAAABANYHhAACPCAAaAVAdiAAABARZChAACIBAAbAWADmAAABAR_UgAACBBAAZAUAYeAAABAR_egAACFBAAXASA1TAAABAV4UgAACABAAYATAfWAAABAVqBhAACHBAAZAUAnMAAABAJ-XgAAEDCAAZAUA1qAAABAVrlgAACECAAWARAfRAAABAVrlgAACEBAAUAAAyAAAAUAArhgAAHHBAAKCGBnlRAABAMUvgAAEAEBAzBGBsUIAABAISXgAAEBEBA9BAAgtOAABALlkgAAEAEBAICGBkHoAABARFmgAACFEBAkBGBrRpBABAVnBhAACHEBA4BGBAAAAABAKfdgAAEDEBA4BGBAAAAABADF-gAAEDEBA4BGBAAAAABAHL4gAAEDEBA4BGBAAAAABAB9fgAAEDEBA4BGBAAAAABAB9fgAAEDEBAACGBvCOAABAIFXgAAEDEBAzBGB5FZAABAC4igAAEAEBAACGBAaTAABAUIagAAEDEBAGBFBcREAABAMrqgAAEADAAuBGBAAAAABALdogAAEAEBAfBDBAAAAABALakgAAEAEBAfBDBAAAAABALakgAAEAEBAzBGB98JAABAJKYgAAEEEBAGBAAwUHAABAAUvgAADGDAABAAAiCAAAFAAhygAAPAAAA8AAAEnAAABAAevgAADFCAAGBAAwUHAABAALigAADFDAAzBGBAAAAABAD59gAAEBDBAzBGBAAAAABADN-gAAEEDBAzBGBAAAAABAUEagAAEEDBA7BGBAAAAABANMmgAACEEBA7BGBAAAAABABMggAAEBEBA7BGBAAAAABAD59gAAEBEBA7BGBAAAAABAUMZgAAEBEBA7BGBAAAAABAAvEhAACTEBA7BGBAAAAABABMggAAEBEBA7BGBAAAAABAWMmgAACEEBA7BGBAAAAABAKidgAAECEBA7BGBAAAAABAHH3gAAECEBA7BGBAAAAABABMggAAECEBA7BGBAAAAABAHl4gAAEEEBA7BGBAAAAABADN-gAAEEEBA7BGBAAAAABAUEagAAEEEBA7BGBAAAAABAD59gAAEBEBA7BGBAAAAABAWVDhAACHEBA7BGBAAAAABAHl4gAAEEEBA7BGBAAAAABADD-gAAECEBABAAAAAAAAIDAmigAAMABBA8AAAAAAAAUAA2bgAAHMBAA___________________B__LBBBAAAAAUAADbgAAAFBAALBBBAAAAAUAAktgAAAFBAABAeAAAAAABAAp_gAAPFDAALBBBAAAAAUAABtgAAAFBAA___________________B__oAAA6DAAAUAAccgAAHFBAABAAAUFAAAUAA5ogAAAHBAAACGBQ2PAABABPfgAAEEEBAyBGBnZHAABAKjdgAAEEDAAyBGBYxOAABAHa4gAAEEDAA8AAAkfFAAUAAvhgAAHHCAAzBGB-LLAABABEggAAEEDAAjB_AfbTAABARfChAACICAA8AAAA9BAABAAO8gAAHMBAAdB9A0MOAABANyUgAACACAA8AAAoPAAAUAAp2gAAHHBAAmBABzlLAABAUGagAAEECAAgB-AfqOAABANzegAACECAA8AAAQfAAAUAAuhgAAHHBAAjB_AQtJAABAUcYgAAEDCAAdB9AymEAABAKRdgAAEDCAAaB8AjwGAABABRggAAEDCAAgB-AfyEAABAJEYgAAEDCAAgB-AF8KAABAHm4gAAEECAAaB9At8EAABAKJdgAAEECAAaB9ApHFAABAGeWgAAEECAAgB-ALKIAABAIKXgAAEECAABAAAHAAAAUAA86gAAPBBAAGCGBQKgAABAWzGhAACNEBAzBAAgtOAABALCkgAAEAEBAGCGBrxgAABAVzGhAACNEBAACGBC2JAABAQAqgAAEBEBANCGBuDsAABARpChAACIEBAuBGBAAAAABAWG9gAAEGEBAoAAAgMAAAUAAlvgAADHCAABAAAAAAAABAAeigAAPADBABBAAEnAAAUAAivgAADCCAAGBAAwUHAAUAA5hgAADCDAAPAAAEAAAAUAAeygAAHLBAABAAAAAAAABAAlxgAANABAA4BGBNSJAABAQMqgAAEBEAAzBGBiYIAABAQCqgAAEBEBAACGBbdJAABAJ5XgAAEDEBA______________________8A8AAAAAABAAdSgAAPFEBAuBGBWrUAABAA5EhAACTEBA7BGBg3fAABAVOmgAACEEBArBGBo-bAABAVNmgAACEEBAICGBVufAABAVPmgAACEEBALB8AYQWAABAMbpgAAEAEBA9BGBYQWAABAMYpgAAEAEBA1BFBL6NAABAAsEhAACTCAA",
+	["data"] = "______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________8AAAAAAAABAMnigAAEAEBA___________________B_____________________B__BAAAAAAAAUAApKhAAPDBAAzBGBzfSAABAWA9gAAEGEBAGBAAwUHAABAATvgAADGDAAzBGBSXKAABAGkWgAAEEEBAzBGBjkVAABACejgAAEAEBA___________________B__9BGBaQJAABABJggAAEBEBA______________________ACGBgtOAABALFkgAAEAEBA3AAAhvBAABAEu9gAAEABBAFAAANAAAAUAAZcgAAHFBAABAAAIAAAAUAA1ogAAAHBAAACGBAAAAABAM7agAAEAEBAkAfAI-BAABANZHhAACPCAAzBGBdVGAABAcKOhAAEJDBAYBAAyLQAABAMsagAAEADBABAAAAAAAABATr9gAAEACBAACGBeLJAABADQ-gAAEBEBAGCGBTInAABARUAhAACKEBABAAAAAAAABAA-GhAAMABBAGBAAwUHAAUAAUigAADBDAAwBEBUKGAABAQIqgAAEBDBAACGB_4QAABAIoXgAAEEEBA8AAAEnAAABATy9gAAEABBAZAPA-AAAAFAAf8gAAAEBAAzBGBgtOAABALCkgAAEAEBAzBGBrGVAABACcjgAAEAEBAzBGBVdUAABAL9jgAAEADBACCAAAAAAABALckgAAEAEBA9BGB5FZAABACHjgAAEAEBA___________________B_____________________B__bAWAjNAAABAGiWgAAECCAAbAWAqNAAABAJDYgAAECCAA_________________________________________B________________________ACGBgtOAABALHkgAAEAEBAzBGBL-FAABAJEYgAAEBEBAGBAAwUHAABAAEigAADADAA3AAAIOBAABAA5vgAADCBAA8AAAAAAAABAA3vgAADCEBA8AAAEnAAABAAhvgAADCCAAGBAAwUHAABAA6hgAADCDAAGBAAwUHAABAAVigAADBDAA8AAAEnAAABAA_ugAADBCAA3AAAIOBAABAAJvgAADBBAAGBAAEnAAAUAAt2gAAHHCAAGBAAUDDAAUAAnhgAAHHCAAzBGBA2FAABAJEYgAAEBEBAzAuAHyDAABAM2ngAAEADAAzBGBCdOAABAUxZgAAECEBAACGB5FZAABACbjgAAEAEBAzBGB5FZAABACLjgAAEAEBAnAAAkBAAAUAA0sgAAHJBAABAAABAAAABAINXgAAEBBAAkBGBgtOAABALkkgAAEAEAAuBGBQNMAABACLjgAAEAEBAuBGBQNMAABAC3igAAEAEBAzBGBqdUAABAUKagAAEEEAAkBGBoGSAABAHe4gAAEEEAAkBGBcmNAABABSfgAAEEEAApBGBZCIAABAIQXgAAEBEBApBGBhAIAABADQ-gAAEBEBApBGBXwKAABAUpYgAAEBEBA1BFBjCHAABAH62gAAEBCAAvBDBqqIAABALojgAAEACAAxBGBAAAAABACPjgAAEAEBAAAAAAAAAABAAD5gAAAABBAuBGBOWJAABAKidgAAEEEBACCAAAAAAABALckgAAEAEBALBBBQGAAAUAAmtgAAAFBAA___________________B__FABADAAAAUAAXBhAAAIBAAFAAACAAAAUAAABhAAHHBAAKAAAFAAAAUAALBhAAHHBAAFABADAAAAUAAQBhAAAIBAAHACAgAAAABAUQYgAAEDBAAXASAxLAAABAUWYgAAEDBAAWARAUIAAABAD89gAAEDBAAVAQACPAAABAH32gAAEDCAASANAnEAAABAI3WgAAEDBAA___________________B__9BGBqvbAABALzkgAAEAEBAGBGB8JJAABASF0gAALCDAA3AtAoPAAABAAC5gAAAIBAABB3AkfFAAKAAwngAAAGBAAlAAAvCAAAUAAswgAAHJBAABAAAUAAAAUAA4ogAAAHBAAGBAA4uAAAUAA8ogAAAHBAA______________________BAAAfEAAAKAAZcgAAPAAAA6AAAoPAAAUAAyogAAAHBAABAAA5AAAAUAA3ogAAAHBAABAAAQGAAAUAAoogAAAHBAAGB8AM1BAAKAAzngAAAGBAABBAAqhBAAUAA0xgAAHGBAARAMApOAAABAV7DhAACACAA3AAAIOBAABAA5vgAADCBAA8AAAEnAAABAAhvgAADCCAAGBAAwUHAABAA6hgAADCDAAUAPAWCAAABAZY_gAACQCAABAAAgMAAAUAA6ogAAAHBAABBAAg-AAAUAA0bgAAHKCAABBAAg-AAAUAAvbgAAHKCAA______________________BBAAg-AAAUAAubgAAHKCAABBAAg-AAAUAAzbgAAHKCAABBAAg-AAAUAAxbgAAHKCAABBAAg-AAAUAAwbgAAHKCAABBAAg-AAAUAAtbgAAHKCAA8AAAQfAAAUAAMzgAAHGBAABBAAA6DAAUAAybgAAHNDBAzBGBsHHAABAGjWgAAECEBABAAAAAAAAUAAdxgAANABAA9BGB50HAABAGjWgAAECEBAACGBT8HAABAKfdgAAECEBAzBGBvmLAABAUtYgAAEBEBAEBAAuLAAAUAA5wgAAHJBAA1AvAKYCAABAGKWgAAEECAA2AxAOmCAABAJKYgAAEECAA7A2ANJFAABAImXgAAEECAAwBFByDEAABAJBYgAAEBDAABAAAAAAAAkBAV0gAAPACBABAAAAAAAAkBAW0gAAPACBABAAAAAAAABAAl7gAANADBAhBAAIwIAABAHi3gAAECDBAGBAAkfFAABAMoegAAEADAAzBGBMRcAABAVHfgAACEEBApBGBYOwAABAX9ygAAEAEBA___________________B__uBGBAAAAABAMtygAAEAEBAuBGBAAAAABAXAzgAAEAEBA9BGBu6FAABAKVdgAAEBEBAuBGBu3HAABAQIqgAAEBEBAzBGBVdUAABALdkgAAEADBAzBGBgtOAABALtjgAAEAEBALBAAgpOAABAAc8gAAJBEBALBAAgpOAABAAc8gAAJBEAALBAAgpOAABAAc8gAAJBEAAJBAAwUHAABAAb8gAAJBBBALBAAwUHAABAAc8gAAJCEAALBAAwUHAABAAc8gAAJCEBALBAAwUHAABAAc8gAAJCEAALBAAwUHAABAAc8gAAJCEBALBAAgpOAABAAc8gAAJBEAA4BGBhoRAABAUGagAAEDEBAzBGB2gIAABAGMWgAAEDEBAzBGB4iIAABAJDYgAAEDEBAFAAAUAAAAUAArwgAAHJBAAzBGBQcCAABAMj5gAAEADBA___________________B__zBGBSoHAABAI7WgAAEBEBA9BGB8sJAABAQGqgAAEBEBAqAAAuLAAABAM1ygAAEABAAwAAAuLAAABAMKegAAEABBA_B-AUaQAABABfegAAEEEBAzBGBzkxAABAX0vgAAEAEBA9BGBhcWAABAA7EhAACTEBAzBGBzkxAABAXakgAAEAEBAGBAAwUHAABAAVigAADBDAAjAZAoAAAAUAAaBhAAAIBAAjAAAkBAAAUAAEBhAAHHBAAjAAAIDAAAUAAOBhAAHHBAAjAZAoAAAAUAATBhAAAIBAA8AAAEnAAABAA_ugAADBCAA3AAAIOBAABAAJvgAADBBAAzBGBQcCAABAMnngAAEADAA3AAAIOBAABAA5vgAADCBAA8AAAEnAAABAAhvgAADCCAAGBAAwUHAABAA6hgAADCDAAGB8AoPAAAUAAdBhAAAICAApBBBXyUAABARwUgAACBCAAGB8AoPAAAUAAWBhAAAICAABBAAcXAAAUAAh2gAAHHBAABBAA4uAAAUAAohgAAHHBAAGBAAA0HAABAAJ8gAAHMBAAGBAAwUHAABAATvgAADGDAAACGBOJOAABADS-gAAEDEBAACGBgtOAABAL2jgAAEAEBAzBGBsKGAABAc70gAAEHDBAGB8AkfFAABASCogAALDCAAGB8AkfFAABASG0gAALCCAA8AAAiTAAAUAAzxgAAHGBAAaB8Ah7GAABAQRqgAAEBEBABAAAAAAAAUAAdogAAAABAA___________________B__FCGBAAAAABABfagAAEBEBAFCGBAAAAABAKXdgAAEBEBAFCGBAAAAABADQ-gAAEBEBAFCGBAAAAABAHH3gAAEBEBAFCGBAAAAABAUMZgAAEBEBA7BGBAAAAABAQ_pgAAEBEBA7BGBAAAAABAQ_pgAAEBEBABAAAAAAAABATN1gAAEADBA8AAAEnAAABAAevgAADFCAAGBAAwUHAABAALigAADFDAAGBAAwUHAAUAAHigAADDDAAtAAAAAAAAUAA3bgAAHMBAAJBAAiTAAAUAAKxgAAHJBAA___________________B__zBGB_ZRAABAUHagAAEDEBABBAAQGAAAKAAmbgAAHKBAAkBGBjuBCABAR3egAACFEBAzBGB2-OAABAHL4gAAECEBAzBGBIPLAABAHC3gAAECDBAGBAAwUHAAUAARvgAADGDAA8A8AAAAAABAAVSgAAPFEBAtAAAAAAAAUAATcgAAHMDAAZAAAAAAAAUAAMcgAAHMDAAGBAAAAAAAUAARcgAAHMDAAjAAAAAAAAUAAOcgAAHMDAA3AAAAAAAAUAAJcgAAHMDAAACGBWLJAABAB8fgAAEBEBACCAAAAAAABALckgAAEAEBA1BFBS0DAABAGLWgAAEBCAACCAAAAAAABALckgAAEAEBA1BFBjCHAABAH62gAAEBCAAMACAXAAAABAA1ygAAAABBA3AAAYtBAAUAAkvgAADHCAA___________________B__GBAAwUHAAUAASvgAADGDAAzBGBnlRAABAMI5gAAEAEBANCGBFojAABANYmgAACEEBAKCAA5FZAABAC1igAAEAEBAKCGBOlGAABAKXdgAAEBEBAKCGBzCUAABAHb4gAAEDEBAzBGBLgGAABABMggAAEBDBAKAAAAAAAAUAA6bgAAHMBAAwBEBBBEAABAJEYgAAEBDBAzBGBfmPAABAA3EhAACTDBANCGBuHqAABARMAhAACKEBAzBGBQcCAABAMovgAAEADBAzBGBhUFAABAJ_XgAAECDBA4BGBAAAAABAUMZgAAEBEBA9BGBX0TAABAW_8gAAEGEBA4BGBAAAAABABfagAAEBEBABAAAAAAAAkBA8igAAAACBAGBAAwUHAABAAUvgAADGDAA3AAAoPAAABAA0_gAAHMBAAGCGBYNYAABAAKHhAACDEBA______________________3AAAxJAAAUAAixgAAAICAAGBGBAAAAABAAtvgAAPAEBAHAAAPAAAAUAAavgAADHCAABAAABAAAABAEd9gAAEABAAvCGBAAAAABAVYmgAACEFAAACGByYLAABAGlWgAAEEEAAACGBcMIAABAI7WgAAEBEBAzBGBvgIAABAGfWgAAEDEBAuBGBAAAAABAMirgAAEAEBA___________________B__4BGBAAAAABAB9fgAAEEEBA4BGBAAAAABAB9fgAAEEEBA4BGBAAAAABAKfdgAAEEEBA4BGBAAAAABADF-gAAEEEBA4BGBAAAAABAUdYgAAEEEBA4BGBAAAAABAB9fgAAEEEBA7BGBAAAAABAI7WgAAEBEBAxBGBAAAAABAJ-XgAAEBEBA7BGBAAAAABAI7WgAAEBEBA7BGBAAAAABAGaWgAAECEBAxBGBAAAAABAJ-XgAAECEBA7BGBAAAAABAI-WgAAECEBA7BGBAAAAABAIpXgAAEEEBAxBGBAAAAABAJKYgAAEEEBAGBAAwUHAABAAIigAADDDAAuBGBzkFAABAJDYgAAEBEBA___________________B__oAAAAAAAAUAAUcgAAHMDAAUAAAAAAAAUAANcgAAHMDAABBAAAAAAAUAAScgAAHMDAAeAAAAAAAAUAAPcgAAHMDAAyAAAAAAAAUAAKcgAAHMDAABAAASBAAAFAADzgAAHLBAAzBGBGtIAABAQKqgAAEBEBAzBGBtrMAABAIEXgAAEDEBAzBGByLQAABAM67gAAEADBABAAACAAAABABdogAAEBDBA8AAAQcCAAUAAYvgAADHCAAlAgAwvCAABAR_DhAACBCAAuApALOEAABAVylgAACECAABAAAAAAAABAAWWgAAMABBAzBGB3qGAABAQ9pgAAEBDBAzBGBDEKAABAKfdgAAEEEBAzBGBUvKAABAMirgAAEADBAGBAAwUHAABAAIigAADDDAA8AAAEnAAABAAWvgAADDCAA3AAAAAAAAUAA4bgAAHMBAAjAAAAAAAAUAA7bgAAHMBAA8AAAkBAAAUAA1ygAAAIBAA8AAAgMAAAUAAicgAAHFBAA_AAAQcCAABASYogAABACAAABAA7TAAAUAA7ogAAAHBAA___________________B__GBAAwUHAABAATvgAADGDAABBAAwUHAABASQogAABGCAA3AAAAAAAAKAAAcgAAHMCAA___________________B__ZAAAAAAAAKAA-bgAAHMCAABBAAAAAAAKAA8bgAAHMCAA4AuAuLAAAFAAB7gAAABBAAjAAAAAAAAKAAEcgAAHMCAAGB8A4uAAAUAAX0gAAAIBAAtAAAAAAAAKAAGcgAAHMCAAPAAAAAAAAKAACcgAAHMCAA___________________B__LBBBg4EAAFAAU5gAAADBAAACGByhQAABAIrXgAAEEEBA______________________GBGBQNMAABAAhdgAAPAEBAGBGBQNMAABAAN-gAAPAEBAGBGBQNMAABAARYgAAPAEBAGBGBQNMAABAAl4gAAPAEBAGBGBQNMAABAAGggAAPAEBAGBGBQNMAABAAN-gAAPAEBAGBGBQNMAABAARYgAAPAEBAGBGBQNMAABAAl4gAAPAEBAGBGBQNMAABAAGggAAPAEBAGBGBQNMAABAAhdgAAPAEBAGBGBQNMAABAAN-gAAPAEBAGBGBQNMAABAARYgAAPAEBAGBGBQNMAABAAGggAAPAEBAkBGBQNlBABANzDhAACHEBAKCGBgtOAABALBkgAAEAEBA3AAAIOBAABAA5vgAADCBAA8AAAEnAAABAAhvgAADCCAAGBAAwUHAABAA6hgAADCDAAzBGBsULAABADH-gAAEEDAAMB8AnlRAABAMzOhAAEAEBAACGBDLMAABADO-gAAECEBAGBAAiTAAAUAAn2gAAHHCAA______________________zBGB02GAABAJGYgAAECEBAuBGBAAAAABAcE8gAAEHEBAACGBgtOAABALlkgAAEAEBAzBGBagFAABAJEYgAAEBEBAzBGBHXKAABAIrXgAAECEBA___________________B__8AyAuLAAAUAAcBhAAAIBAAACGBYQWAABAMwrgAAEAEBA4BGBAAAAABAUdYgAAEDEBA8AyAuLAAAUAAVBhAAAIBAAzBGBQMGAABAQFqgAAEBDBAACGBfGMAABAUMZgAAEBEBAzBGBKYcAABANYDhAACHEBA9BGBYQWAABAMgQhAAEAEBAzBGBjwOAABAIrXgAAEEEBABAAAAAAAAkBAU0gAAAACBA4BGBAAAAABAUBagAAEEEBA4BGBAAAAABABoggAAEEEBA4BGBAAAAABAKidgAAEEEBA4BGBAAAAABADU-gAAEEEBA4BGBAAAAABABoggAAEEEBAACGB44QAABADL-gAAEEEBAtBAAvOKAABAMIUgAAEADBAvCGBAAAAABANTDhAACHFAAACGBnlRAABAMYegAAEAEBAQAAAcAAAAUAAl0gAAAIBAAGBAAAxJAABASWogAABHDAAGBAAwUHAABAATvgAADGDAAFCGBAAAAABAKXdgAAEBEBAFCGBAAAAABADQ-gAAEBEBAzBGBcCVAABAA8EhAACTEBAFCGBAAAAABAHH3gAAEBEBAFCGBAAAAABAUMZgAAEBEBAFCGBAAAAABABfagAAEBEBAIBDBiYBAABAI_WgAAEBAAABB3Ag-AAAUAAo5gAAACBAAGCGBdbfAABANBIhAACPEBAtBAATJKAABAC4igAAEADBAxBGBAAAAABACPjgAAEAEBAUAKAyAAAAFAAa8gAAAEBAA___________________B__zBGBILHAABAKidgAAECEBAtBAATJKAABALUkgAAEADBA9BGBoYeAABAVlVgAACAEBALB8ANLZAABAMlngAAEAEBAACGBVmJAABAc37gAAEIEBAvBDBqqIAABALojgAAEACAAzBGB2gIAABAJ5XgAAEDEBAoAjAYJAAABAZsUgAACQCAABAAAIDAAA6DACkgAAMABAA9BGBE1XAABAPSFhAACCEBA3AAAIOBAABAA5vgAADCBAA3AAAIOBAABAAyvgAADABAA8AAAEnAAABAACvgAADACAA8AAAEnAAABAAhvgAADCCAAGBAAwUHAABAA6hgAADCDAAACGBFhMAABAHH3gAAEBEBAACGBYFNAABAHJ3gAAEBEBAzBGB2nGAABAcpQhAAEJDBABAAAiTAAA6DA8ygAAMABAABAAAAAAAABAAk1gAAAABBAKCAArGVAABACejgAAEAEBAFCGBAAAAABAB9fgAAEEEBAFCGBAAAAABADF-gAAEEEBAFCGBAAAAABAKfdgAAEEEBAFCGBAAAAABADF-gAAEEEBAFCGBAAAAABAHL4gAAEEEBAFCGBAAAAABAUdYgAAEEEBAFCGBAAAAABAKfdgAAEEEBAFCGBAAAAABADF-gAAEEEBAFCGBAAAAABAHL4gAAEEEBAeAUALBAAAFAAZ8gAAAEBAA___________________B__zBGBzkxAABAXV2gAAEAEBABAAASCAAAkBAZrgAAMABAABBAAEnAAAUAAXvgAADDCAABBAAQGAAAKAArbgAAHKBAAACGBirHAABAGmWgAAECEAAUAAA6DAAAUAA6ugAADHCAABAAAAAAAAUAA34gAAMABBAzBGBUGIAABAB9fgAAECDBA___________________B__zBGBQcCAABAM0rgAAEADBABAAAAAAAAkBAgNhAAAACBAACGBsMOAABAIEXgAAEDEBAzBGBetHAABAB9fgAAECDBAwBEBCDGAABAcyIhAAEIDBAwBEBbQIAABAIbXgAAECDBAkAfApeCAABAReChAACICAA______________________tBAAILEAABAGkWgAAEBDAApAAA-XBAABAXhpgAAEACBAACGBxlHAABAGRWgAAECEBAACGBsLLAABAJKYgAAEEEBAzBGBvaIAABAKfdgAAEDEBAKCAA5FZAABACHjgAAEAEBAuBGBwCHAABAJ5XgAAECEBAzBGBjwKAABAIEXgAAECEBAzBGBKSKAABAD49gAAECEBAwBEByLQAABAM77gAAEADBAGB8AAAAAABAA-AhAAAIBAAGB8AAAAAABAA-AhAAAIBAA9AyAEnAAAUAA15gAAACBAACB3Ag-AAAUAAf5gAAACBAAFB3Ag-AAAUAAa5gAAACBAABAAAAAAAAUAAtwgAAPABBAuBGBYEHAABAGfWgAAECEBAzBGBpCHAABAKfdgAAECEBAyAAAAAAAAKAABcgAAHMCAAUAAAAAAAAKAA_bgAAHMCAAeAAAYJAAAUAAHvgAADHCAA8AAAAAAAAKAA9bgAAHMCAAeAAAAAAAAKAAFcgAAHMCAABB3AuLAAAUAAY0gAAAIBAAoAAAAAAAAKAAHcgAAHMCAAKAAAAAAAAKAADcgAAHMCAALBBBQGAAAUAAbugAAAFBBAACGBgtOAABALbkgAAEAEBAGBGBAAAAABAAE1gAAPFEBAGBGBAAAAAIDAMLhAAPAEBAACGBZlQAABABEggAAEEEBAzBGBpUKAABAJ5XgAAEEEBAACGBruKAABAGfWgAAEEEBAFCGBAAAAABAKidgAAECEBAFCGBAAAAABADU-gAAECEBAFCGBAAAAABAHZ4gAAECEBAFCGBAAAAABAUBagAAECEBAFCGBAAAAABABoggAAECEBA___________________B________________________ICGBAAAAABAWAIhAACPEBAICGBAAAAABAWaVgAACAEBAICGBAAAAABAV0GhAACNEBAICGBAAAAABAcBOhAAEIEBAICGBAAAAABAWA9gAAEGEBAICGBAAAAABARcmgAACFEBAICGBAAAAABAWA9gAAEGEBAICGBAAAAABAW0GhAACNEBAICGBAAAAABARUDhAACIEBAICGBAAAAABANMmgAACEEBAICGBAAAAABAKVdgAAEBEBAICGBAAAAABAHH3gAAEBEBA____________________________________________ICGBAAAAABAZqUgAACQEBA______________________ICGBAAAAABANaVgAACAEBA______________________ICGBAAAAABAKVdgAAEBEBAICGBAAAAABAHH3gAAEBEBAICGBAAAAABAUMZgAAEBEBA____________________________________________ICGBAAAAABAWA9gAAEGEBA______________________ICGBAAAAABARcmgAACFEBAICGBAAAAABAUuZgAAECEBAICGBAAAAABAHH3gAAECEBAICGBAAAAABABMggAAECEBA______________________ICGBAAAAABAXqpgAAEAEBAICGBAAAAABAUEagAAEEEBAICGBAAAAABABEggAAEEEBAICGBAAAAABAXqpgAAEAEBAICGBAAAAABAVXmgAACEEBA______________________ICGBAAAAABAKRdgAAEDEBAICGBAAAAABAUZYgAAEDEBAICGBAAAAABAHL4gAAEDEBAICGBAAAAABABVfgAAEDEBAICGBAAAAABAHl4gAAEEEBAICGBAAAAABAKjdgAAEEEBAICGBAAAAABADN-gAAEEEBAICGBAAAAABAUEagAAEEEBAICGBAAAAABABEggAAEEEBAICGBAAAAABAAzFhAACSEBAICGBAAAAABAUuZgAAECEBAICGBAAAAABAKidgAAECEBAACGBNkJAABAGfWgAAEDEBA_B-AbbJAABABfegAAEBEBAGBAAwUHAABAAUvgAADGDAAFCGBAAAAABABoggAAEEEBAFCGBAAAAABABoggAAEEEBAFCGBAAAAABADU-gAAEEEBAFCGBAAAAABAHZ4gAAEEEBAGCGBQ4IAABAZGEhAACQEBAPAAAhAAAAUAAvcgAAHFBAA___________________B__BBAAQGAAAKAAsbgAAHKBAA8AAAQcCAAUAA0IhAAHEDAAuBGBAAAAABACKjgAAEAEBAACAAAAAAABALUkgAAEAEBAACAAAAAAABALUkgAAEAEBAACAAAAAAABALUkgAAEAEBAICAAAAAAABALUkgAAEAEBA9BGBgtOAABALmjgAAEAEBAZAAA8AAAAUAAGBhAAHHBAAzBGBygIAABAclNhAAEJEBABBAAQGAAAKAApbgAAHKBAALBBBg4EAAFAAV5gAAADBAAEBEBAAAAABAA2vgAAAABBALBAAEnAAAUAAGxgAAHJBAApBGBM9KAABAHQ3gAAEBEAApBGBpiHAABABJggAAEBEAAGBAAwUHAAUAAXigAADEDAApBGBsphAABARRGhAACKEBAzBGBLrkAABARXAhAACKEBAGBAAwUHAABAATvgAADGDAAeAAALBAAAUAAN0gAAHJBAAzBGBnwFAABAKXdgAAEBEBAKCGBp8JAABAQ-pgAAEBEBAACGBYQWAABAMvOhAAEAEBAGCGBPbfAABAVXDhAACHEBAKCGBs3NAABAUyYgAAEBEBAKCGBhNXAABAUKagAAEEEBAACGBrGVAABAC2ygAAEAEBAACGBLsKAABAJKYgAAEEEBAGBAAwUHAABAAEigAADADAA3AAAIOBAABAAyvgAADABAA8AAAEnAAABAACvgAADACAAzBGBo1SAABAW-8gAAEGEBAACGBzkxAABAX_ugAAEAEBA7BGBWckAABAREmgAACFEBAGBAAwUHAABAAUvgAADGDAAGBAAwUHAABAAEigAADADAA3AAAIOBAABAAyvgAADABAA8AAAAAAAABAAxvgAADAEBA8AAAEnAAABAACvgAADACAAACGBkEJAABAcWNhAAEJEBAzBGBL8TAABAUBagAAEEEBAGCGB2yfAABAV9HhAACEEBAGBAAwUHAABAAVigAADBDAA8AAAEnAAABAA_ugAADBCAAGBAAwUHAABAAIigAADDDAA8AAAEnAAABAAWvgAADDCAA___________________B__9BGBB3KAABAKldgAAEEEBABBAAQGAAAKAAnbgAAHKBAAACGBnlRAABAMrpgAAEAEBAzBGBLRLAABAHH3gAAEBEBABBAAEnAAAUAAfvgAADFCAA___________________B__wBAAe_HAABAIlegAAECDAAACGBQaTAABAUCagAAEDEBAACGBerHAABAKidgAAECEBAGBBBIOBAAFAAs6gAAADBAAzBGB6OUAABAHZ4gAAEEEBAzBAAIIGAABAcUUgAAEIDBAzBAAhPKAABACNjgAAEADBABB3AWCAAAUAASugAAAFBAAzBGBUKLAABADU-gAAECEBAzBGBgtOAABALRkgAAEAEBATB8AgtOAABALQkgAAEAEBAACGBVpKAABAGkWgAAEEEBAzBGBgtOAABAL2jgAAEAEBAvCGBAAAAABANCIhAACPFAA9BGB-XKAABAGfWgAAEEEBAzBGBQcCAABAMCjgAAEADBAKCGBgtOAABALKkgAAEAEBAzBGBQcCAABAMHngAAEADBAACGBrhQAABAIHXgAAEEEBAzBGBzkxAABAXWvgAAEAEBAzBGBxEjAABARPGhAACKEBAzBGBVRdAABAVtBhAACHEBAuBGBAAAAABABDggAAEEEBA___________________B__GBGBAAAAABAAOSgAAPFEBAGBAAwUHAABAAYigAADEDAA8AAAEnAAABAAMvgAADECAAAAAAAAAAABAAy1gAAAABBABAAAAAAAABAAO0gAAPABBABBAAwUHAAUAAqhgAAHHBAAuBGBAAAAABACdjgAAEAEBAzBGBedfAABAC9igAAEAEBA8AyAEnAAAUAA26gAAACBAAICGBXWpAABARmChAACIEBAzBGBrWIAABABjggAAEBEBA___________________B__zBGBR3IAABAJ5XgAAEDEBA___________________B__ACGBRuNAABADK-gAAEDEBAXASA7gAAABANZHhAACPCAAoAAA6DAAAUAAy2gAAHHBAAyAAAYJAAAUAAlhgAAHHBAABB3AYEAAAUAAjugAAAFBAA4BGBAAAAABAB9fgAAECEBA4BGBAAAAABAKfdgAAECEBA4BGBAAAAABADF-gAAECEBA4BGBAAAAABADF-gAAECEBA4BGBAAAAABAUdYgAAECEBA4BGBAAAAABADF-gAAECEBA4BGBAAAAABAUdYgAAECEBA4BGBAAAAABAKfdgAAECEBA4BGBAAAAABAHL4gAAECEBA4BGBAAAAABAB9fgAAECEBA9BGBYQWAABAMobgAAEAEBANCGBt8hAABAN6HhAACPEBAAAAAAAAAABAAC5gAAAABBABBAAQGAAAKAAobgAAHKBAAGBAAwUHAAUAADigAADADAAGBAAwUHAABAAIigAADDDAA8AAAEnAAABAAWvgAADDCAAzBGBFXHAABAJ5XgAAECEBAKCGB2oIAABAGjWgAAECEBAGBAAwUHAABAAIigAADDEBAGBAAwUHAABAAIigAADDDAA8AAAEnAAABAAWvgAADDCAAGBAAwUHAAUAAKigAADFDAABAAA0HAAAIDAZ_gAAMABAALBBBg4EAAFAAT5gAAADBAAvAAA3FAAAUAAzwgAAHJBAAoAAAoPAAABAAs_gAAHMBAAoAAA0HAAAUAA02gAAHHCAA______________________oAAAxJAAAUAAlxgAAAICAAKCGBXGPAABAILXgAAEDEBA8AAAiTAAAUAAwygAAHGBAA8AAAEnAAABAAevgAADFCAAGBAAwUHAABAALigAADFDAAzBGBuZOAABAUyZgAAECEBAwBEBQcCAABAMaegAAEADBA_________________________________________B__wBEBRQGAABAc9NhAAEIDBAzBGB2iHAABAGgWgAAEEDBAGBAAwUHAABAA6hgAADCDAA9BGBMFJAABAQKqgAAEBEBAACGBTbJAABAJIYgAAEDEBA___________________B_____________________B__KAAAHAAAAKAAStgAAHIBAAGBGBgaYAABAArpgAAJADAA1BFBL6NAABAAsEhAACTCAAoAAA6DAAAUAAw2gAAHHBAAqAlAoDDAABAV1UgAACACAAvAqAddCAABAImXgAAEECAAoAAAQGAAAUAAkhgAAHHBAAuApAT8BAABABRggAAEDCAArAAA6DAAABAATTgAAAGCAAqAlA19BAABAH32gAAEDCAAACGBYQWAABAMTEhAAEAEBAGBAAwUHAABAAIigAADDDAA8AAAEnAAABAAWvgAADDCAAkBGBmDMAABALHkgAAEAEBAGBAAwUHAABAAYigAADEDAABBAAQGAAAKAAlbgAAHKBAAuBGBAAAAABAM2agAAEAEBAGBAAAAAAABAAhlgAAPABBABAAAAAAAABATy9gAAEADBAKCGBJMNAABAD-9gAAECEBA9AAAA0HAABAAK8gAAHMCBAyAAAQGAAAUAAncgAAHFBAA0AAApGAAAUAAxogAAAHBAALB8AQNMAAUAALNhAAAGEAAGBAAwUHAABAAEigAADADAA3AAAIOBAABAAyvgAADABAA8AAAEnAAABAACvgAADACAAGBAAwUHAABAATvgAADGDAAPAAAPAAAAUAADBhAAHHBAAPAFAKAAAAUAAYBhAAAIBAAUAAAKAAAAUAAMBhAAHHBAAPAFAKAAAAUAARBhAAAIBAAACGBAAAAABACPjgAAEAEBAACGBAAAAABALakgAAEAEBAICGBAAAAABAGaWgAAEBEBAACGBAAAAABACPjgAAEAEBAACGBAAAAABALakgAAEAEBAACGBAAAAABALakgAAEAEBA-BGBAAAAABAJ-XgAAECEBAICGBAAAAABAI-WgAAECEBA-BGBAAAAABAJ-XgAAEBEBAICGBAAAAABAGdWgAAEDEBAICGBAAAAABAIrXgAAEDEBA-BGBAAAAABAJHYgAAEDEBAICGBAAAAABAGXWgAAEEEBAICGBAAAAABAIpXgAAEEEBA-BGBAAAAABAJKYgAAEEEBAGBAAwUHAABAAEigAADADAA___________________B__ACGBS2JAABAJGYgAAEDEBAzBAAYhFAABAGZWgAAECDBAZAPA-AAAAFAAZ8gAAAEBAAGBAAwUHAABAAEigAADADAA3AAAIOBAABAAyvgAADABAA8AAAEnAAABAACvgAADACAAACGB0WJAABADQ-gAAEBEBAyAAAIOBAAUAAxvgAADHCAAACGBhTLAABAGWWgAAEEEAAbAWACQAAABAQAqgAAEBCAA9BGBYueAABAV8HhAACPEBALBBBg4EAAFAAS5gAAADBAA8AAAQcCAABAAuvgAADDDAAACGB2iGAABAJEYgAAEBEBA9BGBDDJAABAQ-pgAAEBEBAACGBnlRAABAMzvgAAEAEBABAAAAAAAABAALegAAMABBAzBAAUvKAABAM9LhAAEAEBA______________________ACGBkpHAABAJGYgAAECEBABAAAAAAAABAA2ygAAMABBALBAAYqDAABAAd8gAAJDDBA8AAAEnAAABAAhvgAADCCAAGBAAwUHAABAA6hgAADCDAA_B-AVJOAABABfegAAEDEBABAAAZAAAAUAA0ogAAAHBAAeAAAWCAAAUAApcgAAHFBAABAAAqCAAAUAAnogAAAHBAAAAAAAAAAABAA2ygAAMABBAzBGBgtOAABAL9jgAAEAEBAZAAAQGAAAUAAZvgAADHCAA____________________________________________hAcASRAAABAJ9XgAAEDBAAfAaAatAAABAH52gAAEDCAAkAfAaYBAABAUQYgAAEDDAAiAdAtvAAABABPfgAAEDCAAzBGBHiPAABAIpXgAAEEEBAtAjALBAAAUAAbBhAAAIBAAtAAA6DAAAUAA90gAAHHBAAtAAAIDAAAUAAPBhAAHHBAAtAjALBAAAUAAUBhAAAIBAAzBGBYQWAABAM34gAAEAEBASAAAFAAAAUAAeygAAAFBAAKCGBMbMAABAKadgAAEEEBABBAAEnAAAUAANvgAADECAAjAAA8KAAAUAA2vgAADHCAAGBAAwUHAABAAYigAADEDAA8AAAEnAAABAAMvgAADECAAPAFAlAAAAFAAf8gAAAEBAAeAUALBAAAFAAf8gAAAEBAAGB8AwBAAAFAAf8gAAAEBAABAAAAAAAABAAy1gAAMABBAzBGB-xFAABAKXdgAAEBEBAuBGBGZIAABAQ-pgAAEBEBA9BGBHqfAABAVWmgAACEEBANCGB6fjAABAV-HhAACEEBA___________________B__FCGBAAAAABAKXdgAAEBEBAFCGBAAAAABAUMZgAAEBEBAFCGBAAAAABAHH3gAAEBEBAFCGBAAAAABAKXdgAAEBEBAFCGBAAAAABAUMZgAAEBEBAFCGBAAAAABADQ-gAAEBEBAFCGBAAAAABABfagAAEBEBA4BGBAAAAABADQ-gAAEBEBA4BGBAAAAABABfagAAEBEBA4BGBAAAAABABfagAAEBEBAhBAAakDAABAGTWgAAEBDBA8AAAAAAAAUAAQcgAAHMEAAIBDBpuBAABABtfgAAECAAAACGBRvHAABAGiWgAAECEAAACGBGkLAABAIRXgAAECEBA9BGB1hLAABAB9fgAAECEBAzBGBQEHAABAGfWgAAECEBA1BFBjCHAABAH62gAAEBCAA1BFBQhKAABAH62gAAEDCAAeAUALBAAAFAA74gAAABBAAACGBgtOAABALRkgAAEAEBAKCGBnZRAABAHk3gAAECEBA___________________B__8AAA6DAAAKAArngAAAIBAABAAAhSAAAUAA1cgAAPAAAApBGBYOwAABALRkgAAEAEBA8AAAQcCAAUAAOvgAADHCAA___________________B__uBGBQNMAABAC5igAAEAEBAzBGB5FZAABACtigAAEAEBAGBAAwUHAABAAIigAADDEBA___________________B__KCGBxZKAABAQHqgAAEBEBAzBGBQcCAABAMPegAAEADBAtBAAuuBAABAC8igAAEADBAzBGBqeGAABAQPqgAAEBDBAzBGBR9IAABAZ3HhAACQEBA3AAAYtBAAUAA0vgAADHCAABBAAEnAAAUAAAvgAADBCAAzBGBjkVAABACNjgAAEAEBAPAAAkBAAAUAAmvgAADHCAA4BGBAAAAABAKXdgAAEBEBA4BGBAAAAABADQ-gAAEBEBAzBGBapGAABAc3IhAAEJDBAGBAAAAAAAUAAVcgAAHMEAAGBAAAAAAABAAWcgAADIEAA4BGBAAAAABABoggAAECEBAwBEBKSQAABAA4EhAACTDBAGCGBoGiAABANhVgAACAEBALBAAg4EAAUAAqbgAAHNEBAJB8AAxJAAUAAzngAAAGEAAzBGBg3FAABAGRWgAAEBEBAJB8AAxJAAUAAzngAAAGEAAGBGB8JJAABASWogAALDDAANCGBtVaAABAPIFhAACCEBABB3AWCAAAUAAftgAAAFBAAyBGBuoJAABACNjgAAEADAA9BGB2zdAABAVPDhAACHEBAACGBtvVAABAHZ4gAAEEEBAACGBZaPAABAUHagAAECEBAzBGBv_aAABARJAhAACKDBABBAAEnAAAUAADvgAADACAAACGBzzJAABAISXgAAEBEBA___________________B__ACGBBkGAABAGWWgAAEBEAAFCGBAAAAABABkggAAEDEBAFCGBAAAAABAB9fgAAEDEBAFCGBAAAAABAKfdgAAEDEBAFCGBAAAAABADF-gAAEDEBAFCGBAAAAABAB9fgAAEDEBAtBAAvwJAABAHC3gAAECDBAFCGBAAAAABADF-gAAEDEBAFCGBAAAAABAKfdgAAEDEBAFCGBAAAAABAHL4gAAEDEBAFCGBAAAAABAB9fgAAEDEBABBAAwUHAABASVogAABHCAA___________________B__BB3AAAAAAPAA85gAAABBAAEB3AAAAAAPAA_5gAAABBAALBAAgpOAABAAc8gAAJEEAACBAAQcCAABAAb8gAAJEBAA___________________B_____________________B_____________________B_____________________B__LBAAgpOAABAAc8gAAJEEAAGBAAAAAAABAA7vgAAMABBAtAjAvCAAAUAAP7gAAACBBAFCGBAAAAABAB9fgAAECEBAFCGBAAAAABADF-gAAECEBAFCGBAAAAABAHL4gAAECEBAFCGBAAAAABAB9fgAAECEBAFCGBAAAAABAUdYgAAECEBAFCGBAAAAABAHL4gAAECEBAFCGBAAAAABAB9fgAAECEBAGBAAwUHAABAAUvgAADGDAAzBGBgtOAABALxjgAAEAEBAACGBgtOAABALJkgAAEAEBAACGBcMIAABAI7WgAAEBEBAUAAAcXAAABAA3XgAAPCBAAEBAAHLbAABAM0igAAEAEBAzBGBVBJAABAcD8gAAEHEBA9BAAgtOAABALfkgAAEAEBA-A0AcXAAABAAD5gAAAIBAAUAAAZAAAAUAAlwgAAHJBAAzBGBCxNAABAHu3gAAECEBAwBAAPYGAABAIlegAAEBDAA___________________B________________________GBAAwUHAABAAYigAADEDAA8AAAEnAAABAAMvgAADECAALBBBWCAAAUAAYugAAAFBAAGBAAwUHAABAAUvgAADGDAAGBGBAAAAABAAsSgAAPFEBAzBGBgkGAABAKXdgAAEDDAAzBGBgtOAABALNkgAAEAEBApBGBLiTAABAAFHhAACDEAAACGBlWMAABAIdXgAAECEBAKCGBBVKAABAQCqgAAEBEBAKCGBgtOAABALVkgAAEAEBAzBGBY9IAABAQMqgAAEBEBA9BGB3AJAABAQJqgAAEBEBAACGB2JQAABAIpXgAAEEEBAzBGB8tKAABAIrXgAAECEBA9BGBh-kAABARJfgAACFEBA9BAAgtOAABALkkgAAEAEBAGCGBhBYAABAA0EhAACTEBAUAAAAAAAABAA_tgAAPADBAuBGBAAAAABACrigAAEAEBAzBGBcoFAABAGMWgAAEBEBA8AAAEnAAABAAevgAADFCAAGBAAwUHAABAALigAADFDAAzBGBAAAAABAMNlgAAEADBAzBGBAAAAABAMNlgAAEADBAzBGBAAAAABAMNlgAAEADBAzBGBAAAAABAMNlgAAEADBAzBGBAAAAABAMNlgAAEADBAzBGBAAAAABAMNlgAAEADBAAAAAAAAAABAMNlgAAEADBABAAAAAAAABAAFWgAAAABBA1BFBS0DAABAGLWgAAEBCAA8AAAkBAAAUAA1ygAAAIBAAuApAqADAABAUJagAAEECAApAoAHEBAABAKhdgAAEECAApAoAClBAABADN-gAAEECAAxBFB-OIAABAI9WgAAECDAAZAPAoAAAAUAAZBhAAAIBAA___________________B__ACGBgtOAABALRkgAAEAEBA______________________ZAAAkBAAAUAANBhAAHHBAAZAPAoAAAAUAASBhAAAIBAAQALATJAAABAR_egAACFBAATAOAaXAAABARQChAACICAAACGBnlRAABAMKxgAAEAEBAGCGBhHnAABARSAhAACKEBAzBGBTUUAABAHm4gAAEEEAAzBGB1QPAABABEggAAEEEAAzBGB1kGAABAKQdgAAEDDBAzBGBZMKAABADO-gAAEDDBAzBGB6SNAABAURYgAAEDDBAzBGBnPMAABAH32gAAEDDBA___________________B_____________________B_____________________B__eAAA0HAAABAAr_gAAHMBAAZAAA0HAAAUAAr2gAAHHCAA______________________eAAAsEAAAUAAnxgAAAICAAlAgAxZAAABAJBYgAAEDBAAzBGBVnCAABALgkgAAEADBAUAAA9BAAABAAi_gAAHMBAAKAAALBAAAUAAKBhAAHHCAAuBGBAAAAABAMrHhAAEAEBA8AAAEnAAABATy9gAAEABBA______________________UAAAyAAAAUAAdxgAAAICAAdAYA3tAAABAUOagAAEDDAAJAEAtBAAABAVBVgAACABAAKAAAFAAAAUAAm2gAAHHBAALAGACDAAABANiHhAACPBAALAGAxDAAABARaChAACIBAANAIAlJAAABAR8DhAACBCAAJAEAuBAAABAVfChAACHBAANAIArEAAABAH32gAAEDCAASANAGDAAABAGMWgAAEDBAAMAHAHBAAABAKKdgAAEDBAATAOAhDAAABAJ6XgAAEDBAAHACARAAAABAJ6XgAAEDBAAJAEAqBAAABAVklgAACEBAAJAEADBAAABAH32gAAEDBAALAGA4AAAABAGLWgAAEDBAAJAEAxAAAABAI3WgAAEDBAAKAAAKAAAAUAAghgAAHHBAAACGBLJJAABAQMqgAAEBEBAGBAAwUHAABAAYigAADEDAA8AAAEnAAABAAMvgAADECAABBAAkBAAABAAh0gAAHLBAABBAAkBAAAKAA3tgAAHIBAApBGBbBJAABAKjdgAAEEEAAoAjAYlBAABAUEagAAEDCAArAoA4ABAABABPfgAAEEBAA______________________zBGBNXVAABAA7FhAACSEBAUAAAZAAAAUAAz2gAAHHBAAbAWAFPAAABAKLdgAAEDCAAaAVAlUAAABAI3WgAAEDCAA2BBBDAAAAIDYSngAAGDBAABABADAAAABAVBfgAACOBAAeAAAkBAAAFAAnngAAHBBAA___________________B__JB8AYtBAAFAAm5gAAABBAAeAAAWCAAAUAAs2gAAHHBAAeAAAIDAAAUAAwhgAAHHBAAaAVAbOAAABAQKqgAAEBCAAbAWAvPAAABAJBYgAAEDCAAACGBTvJAABAIbXgAAEBEBAACGBChGAABAGOWgAAEBEAAGBAAwUHAABAAVigAADBDAA8AAAEnAAABAA_ugAADBCAA3AAAIOBAABAAJvgAADBBAABAAAHAAAAUAAmygAAPBBAAGBAAwUHAABAAEigAADADAA___________________B__8AAAEnAAABAAevgAADFCAAGBAAwUHAABAALigAADFDAALBBBg4EAAFAAW5gAAADBAAGBAAwUHAABAAIigAADDEBAzBGB4sIAABAQCqgAAEBEBA9BAAgtOAABALVkgAAEAEBA8A3AQcCAABAZuHhAACQCAA______________________zBGBUvKAABAMvpgAAEADBABAAAAAAAABAA1ygAAMABBA1BFBQhKAABAH62gAAEDCAA8AAAEnAAABAAevgAADFCAAGBAAwUHAABAALigAADFDAA8AAAAAAAABAAkvgAADFEBAFAAAAAAAAUAAjUgAAPDBAArBGBE_fAABARDmgAACFEBAACGBLvHAABAJ5XgAAECEBABAAAAAAAABAAMvgAAMABBAzBGBjkVAABACJjgAAEAEBAzBGBYQWAABAMUEhAAEAEBAzBGBZ3IAABAQMqgAAEBEBAuBGBAAAAABAcubgAAEJEBABAAAAAAAABAA9mgAAMABBAzBGB97GAABAKidgAAECEBAZAAAAAAAAUAA5bgAAHMBAAACGBgtOAABAL9jgAAEAEBATB8AbeEAABAJ-XgAAEBEBAzBGBmZWAABANhVgAACADBABAAAAAAAABAAnrgAAMABBA8AAAEnAAAUAAWQhAAHLBAAACGBmNJAABAIjXgAAEBEBAKAAAAAAAABAA7ugAAPBBBAtAAAoPAAAUAAIvgAADHCAAUAPASWAAABANYHhAACPCAAaAVAdiAAABARZChAACIBAAbAWADmAAABAR_UgAACBBAAZAUAYeAAABAR_egAACFBAAXASA1TAAABAV4UgAACABAAYATAfWAAABAVqBhAACHBAAZAUAnMAAABAJ-XgAAEDCAAZAUA1qAAABAVrlgAACECAAWARAfRAAABAVrlgAACEBAAUAAAyAAAAUAArhgAAHHBAAKCGBnlRAABAMUvgAAEAEBAzBGBsUIAABAISXgAAEBEBA9BAAgtOAABALlkgAAEAEBAzBGBFLHAABAJ-XgAAECEBAICGBkHoAABARFmgAACFEBAkBGBrRpBABAVnBhAACHEBA4BGBAAAAABAKfdgAAEDEBA4BGBAAAAABAHL4gAAEDEBA4BGBAAAAABAUdYgAAEDEBA4BGBAAAAABAB9fgAAEDEBA4BGBAAAAABAKfdgAAEDEBA4BGBAAAAABADF-gAAEDEBA4BGBAAAAABAHL4gAAEDEBA4BGBAAAAABAB9fgAAEDEBA4BGBAAAAABAB9fgAAEDEBAACGBvCOAABAIFXgAAEDEBAzBGB5FZAABAC4igAAEAEBAACGBAaTAABAUIagAAEDEBAGBFBcREAABAMrqgAAEADAAuBGBAAAAABALdogAAEAEBA9BGBoDIAABAKZdgAAECEBAfBDBAAAAABALakgAAEAEBAfBDBAAAAABALakgAAEAEBAzBGB98JAABAJKYgAAEEEBAGBAAwUHAABAAUvgAADGDAABAAAiCAAAFAAhygAAPAAAA8AAAEnAAABAAevgAADFCAAGBAAwUHAABAALigAADFDAAzBGBAAAAABAD59gAAEBDBAzBGBAAAAABADN-gAAEEDBAzBGBAAAAABAUEagAAEEDBA7BGBAAAAABANMmgAACEEBA7BGBAAAAABABMggAAEBEBA7BGBAAAAABAD59gAAEBEBA7BGBAAAAABAUMZgAAEBEBA7BGBAAAAABAAvEhAACTEBA7BGBAAAAABABMggAAEBEBA7BGBAAAAABAWMmgAACEEBA7BGBAAAAABAKidgAAECEBA7BGBAAAAABAHH3gAAECEBA7BGBAAAAABABMggAAECEBA7BGBAAAAABAHl4gAAEEEBA7BGBAAAAABADN-gAAEEEBA7BGBAAAAABAUEagAAEEEBA7BGBAAAAABAD59gAAEBEBA7BGBAAAAABAWVDhAACHEBA7BGBAAAAABAHl4gAAEEEBA7BGBAAAAABADD-gAAECEBABAAAAAAAAIDAmigAAMABBA8AAAAAAAAUAA2bgAAHMBAA___________________B__ACGBBnGAABAGMWgAAEBEBALBBBAAAAAUAADbgAAAFBAALBBBAAAAAUAAktgAAAFBAABAeAAAAAABAAp_gAAPFDAALBBBAAAAAUAABtgAAAFBAA___________________B__oAAA6DAAAUAAccgAAHFBAABAAAUFAAAUAA5ogAAAHBAAACGBQ2PAABABPfgAAEEEBAyBGBnZHAABAKjdgAAEEDAAyBGBYxOAABAHa4gAAEEDAA8AAAkfFAAUAAvhgAAHHCAAzBGB-LLAABABEggAAEEDAAjB_AfbTAABARfChAACICAA8AAAA9BAABAAO8gAAHMBAAdB9A0MOAABANyUgAACACAA8AAAoPAAAUAAp2gAAHHBAAmBABzlLAABAUGagAAEECAAgB-AfqOAABANzegAACECAA8AAAQfAAAUAAuhgAAHHBAAjB_AQtJAABAUcYgAAEDCAAdB9AymEAABAKRdgAAEDCAAaB8AjwGAABABRggAAEDCAAgB-AfyEAABAJEYgAAEDCAAgB-AF8KAABAHm4gAAEECAAaB9At8EAABAKJdgAAEECAAaB9ApHFAABAGeWgAAEECAAgB-ALKIAABAIKXgAAEECAABAAAHAAAAUAA86gAAPBBAAGCGBQKgAABAWzGhAACNEBAzBAAgtOAABALCkgAAEAEBAGCGBrxgAABAVzGhAACNEBAACGBC2JAABAQAqgAAEBEBANCGBuDsAABARpChAACIEBAuBGBAAAAABAWG9gAAEGEBAoAAAgMAAAUAAlvgAADHCAABAAAAAAAABAAeigAAPADBABBAAEnAAAUAAivgAADCCAAGBAAwUHAAUAA5hgAADCDAAPAAAEAAAAUAAeygAAHLBAABAAAAAAAABAAlxgAANABAA4BGBNSJAABAQMqgAAEBEAAzBGBiYIAABAQCqgAAEBEBAACGBbdJAABAJ5XgAAEDEBA______________________8A8AAAAAABAAdSgAAPFEBAuBGBWrUAABAA5EhAACTEBA7BGBg3fAABAVOmgAACEEBAzBGB30RAABAWG9gAAEGEBArBGBo-bAABAVNmgAACEEBAICGBVufAABAVPmgAACEEBALB8AYQWAABAMbpgAAEAEBA9BGBYQWAABAMYpgAAEAEBAzBGBklMAABADF-gAAEDEBA1BFBL6NAABAAsEhAACTCAA",
 	["build"] = "2.5.2",
 }

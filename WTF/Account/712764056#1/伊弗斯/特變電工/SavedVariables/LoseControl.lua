@@ -156,6 +156,11 @@ LoseControlDB = {
 			["enabled"] = false,
 			["point"] = "TOPLEFT",
 			["size"] = 36,
+			["interruptMiniIconsAlpha"] = 0.8,
+			["alpha"] = 1,
+			["frameLevel"] = 0,
+			["y"] = -485.97412109375,
+			["x"] = 400.6083068847656,
 			["categoriesEnabled"] = {
 				["interrupt"] = {
 					["friendly"] = true,
@@ -189,11 +194,6 @@ LoseControlDB = {
 					},
 				},
 			},
-			["alpha"] = 1,
-			["interruptMiniIconsAlpha"] = 0.8,
-			["y"] = -485.97412109375,
-			["x"] = 400.6083068847656,
-			["frameLevel"] = 0,
 			["relativePoint"] = "TOPLEFT",
 			["anchor"] = "None",
 			["interruptBackgroundVertexColor"] = {
@@ -358,6 +358,11 @@ LoseControlDB = {
 			["enabled"] = true,
 			["point"] = "TOPLEFT",
 			["size"] = 37,
+			["interruptMiniIconsAlpha"] = 0.8,
+			["alpha"] = 1,
+			["frameLevel"] = 0,
+			["y"] = -429.3688354492188,
+			["x"] = 821.4136352539062,
 			["categoriesEnabled"] = {
 				["interrupt"] = {
 					["friendly"] = true,
@@ -416,11 +421,6 @@ LoseControlDB = {
 					},
 				},
 			},
-			["alpha"] = 1,
-			["interruptMiniIconsAlpha"] = 0.8,
-			["y"] = -429.3688354492188,
-			["x"] = 821.4136352539062,
-			["frameLevel"] = 0,
 			["relativePoint"] = "TOPLEFT",
 			["anchor"] = "None",
 			["interruptBackgroundVertexColor"] = {
@@ -435,6 +435,11 @@ LoseControlDB = {
 			["enabled"] = false,
 			["point"] = "TOPLEFT",
 			["size"] = 28,
+			["interruptMiniIconsAlpha"] = 0.8,
+			["alpha"] = 1,
+			["frameLevel"] = 0,
+			["y"] = -272.8931884765625,
+			["x"] = 837.3419799804688,
 			["categoriesEnabled"] = {
 				["interrupt"] = {
 					["enemy"] = true,
@@ -468,11 +473,6 @@ LoseControlDB = {
 					},
 				},
 			},
-			["alpha"] = 1,
-			["interruptMiniIconsAlpha"] = 0.8,
-			["y"] = -272.8931884765625,
-			["x"] = 837.3419799804688,
-			["frameLevel"] = 0,
 			["relativePoint"] = "TOPLEFT",
 			["anchor"] = "None",
 			["interruptBackgroundVertexColor"] = {
@@ -787,6 +787,11 @@ LoseControlDB = {
 			["enabled"] = false,
 			["point"] = "TOPLEFT",
 			["size"] = 36,
+			["interruptMiniIconsAlpha"] = 0.8,
+			["alpha"] = 1,
+			["frameLevel"] = 0,
+			["y"] = -57.67400741577148,
+			["x"] = 53.60944366455078,
 			["categoriesEnabled"] = {
 				["interrupt"] = {
 					["friendly"] = true,
@@ -820,11 +825,6 @@ LoseControlDB = {
 					},
 				},
 			},
-			["alpha"] = 1,
-			["interruptMiniIconsAlpha"] = 0.8,
-			["y"] = -57.67400741577148,
-			["x"] = 53.60944366455078,
-			["frameLevel"] = 0,
 			["relativePoint"] = "TOPLEFT",
 			["anchor"] = "None",
 			["interruptBackgroundVertexColor"] = {
@@ -839,6 +839,11 @@ LoseControlDB = {
 			["enabled"] = false,
 			["point"] = "TOPLEFT",
 			["size"] = 28,
+			["interruptMiniIconsAlpha"] = 0.8,
+			["alpha"] = 1,
+			["frameLevel"] = 0,
+			["y"] = -356.5999755859375,
+			["x"] = 829.51953125,
 			["categoriesEnabled"] = {
 				["interrupt"] = {
 					["enemy"] = true,
@@ -872,11 +877,6 @@ LoseControlDB = {
 					},
 				},
 			},
-			["alpha"] = 1,
-			["interruptMiniIconsAlpha"] = 0.8,
-			["y"] = -356.5999755859375,
-			["x"] = 829.51953125,
-			["frameLevel"] = 0,
 			["relativePoint"] = "TOPLEFT",
 			["anchor"] = "None",
 			["interruptBackgroundVertexColor"] = {
@@ -891,6 +891,11 @@ LoseControlDB = {
 			["enabled"] = false,
 			["point"] = "TOPLEFT",
 			["size"] = 20,
+			["interruptMiniIconsAlpha"] = 0.8,
+			["alpha"] = 1,
+			["frameLevel"] = 0,
+			["y"] = -275.3511962890625,
+			["x"] = 70.0111083984375,
 			["categoriesEnabled"] = {
 				["interrupt"] = {
 					["friendly"] = true,
@@ -924,11 +929,6 @@ LoseControlDB = {
 					},
 				},
 			},
-			["alpha"] = 1,
-			["interruptMiniIconsAlpha"] = 0.8,
-			["y"] = -275.3511962890625,
-			["x"] = 70.0111083984375,
-			["frameLevel"] = 0,
 			["relativePoint"] = "TOPLEFT",
 			["anchor"] = "None",
 			["interruptBackgroundVertexColor"] = {
@@ -943,6 +943,11 @@ LoseControlDB = {
 			["enabled"] = true,
 			["point"] = "TOPLEFT",
 			["size"] = 36,
+			["interruptMiniIconsAlpha"] = 0.8,
+			["alpha"] = 1,
+			["frameLevel"] = 0,
+			["y"] = -436.7558898925781,
+			["x"] = 665.0222778320312,
 			["categoriesEnabled"] = {
 				["interrupt"] = {
 					["friendly"] = false,
@@ -976,11 +981,6 @@ LoseControlDB = {
 					},
 				},
 			},
-			["alpha"] = 1,
-			["interruptMiniIconsAlpha"] = 0.8,
-			["y"] = -436.7558898925781,
-			["x"] = 665.0222778320312,
-			["frameLevel"] = 0,
 			["relativePoint"] = "TOPLEFT",
 			["anchor"] = "None",
 			["interruptBackgroundVertexColor"] = {
@@ -1095,6 +1095,11 @@ LoseControlDB = {
 			["enabled"] = false,
 			["point"] = "TOPLEFT",
 			["size"] = 36,
+			["interruptMiniIconsAlpha"] = 0.8,
+			["alpha"] = 1,
+			["frameLevel"] = 0,
+			["y"] = -396.091796875,
+			["x"] = 400.3572692871094,
 			["categoriesEnabled"] = {
 				["interrupt"] = {
 					["friendly"] = true,
@@ -1128,11 +1133,6 @@ LoseControlDB = {
 					},
 				},
 			},
-			["alpha"] = 1,
-			["interruptMiniIconsAlpha"] = 0.8,
-			["y"] = -396.091796875,
-			["x"] = 400.3572692871094,
-			["frameLevel"] = 0,
 			["relativePoint"] = "TOPLEFT",
 			["anchor"] = "None",
 			["interruptBackgroundVertexColor"] = {
@@ -1397,6 +1397,11 @@ LoseControlDB = {
 			["enabled"] = false,
 			["point"] = "TOPLEFT",
 			["size"] = 28,
+			["interruptMiniIconsAlpha"] = 0.8,
+			["alpha"] = 1,
+			["frameLevel"] = 0,
+			["y"] = -391.5196838378906,
+			["x"] = 835.9198608398438,
 			["categoriesEnabled"] = {
 				["interrupt"] = {
 					["enemy"] = true,
@@ -1430,11 +1435,6 @@ LoseControlDB = {
 					},
 				},
 			},
-			["alpha"] = 1,
-			["interruptMiniIconsAlpha"] = 0.8,
-			["y"] = -391.5196838378906,
-			["x"] = 835.9198608398438,
-			["frameLevel"] = 0,
 			["relativePoint"] = "TOPLEFT",
 			["anchor"] = "None",
 			["interruptBackgroundVertexColor"] = {
@@ -1593,62 +1593,14 @@ LoseControlDB = {
 			["interruptMiniIconsAlpha"] = 0.8,
 			["interruptBackgroundAlpha"] = 0.7,
 		},
-		["arena2"] = {
+		["raid40"] = {
 			["enabled"] = false,
-			["point"] = "TOPLEFT",
-			["size"] = 28,
-			["categoriesEnabled"] = {
-				["interrupt"] = {
-					["enemy"] = true,
-				},
-				["debuff"] = {
-					["enemy"] = {
-						["Other"] = true,
-						["CC"] = true,
-						["Snare"] = true,
-						["Disarm"] = true,
-						["ImmuneSpell"] = true,
-						["PvE"] = true,
-						["Immune"] = true,
-						["ImmunePhysical"] = true,
-						["Silence"] = true,
-						["Root"] = true,
-					},
-				},
-				["buff"] = {
-					["enemy"] = {
-						["Other"] = true,
-						["CC"] = true,
-						["Snare"] = true,
-						["Disarm"] = true,
-						["ImmuneSpell"] = true,
-						["PvE"] = true,
-						["Immune"] = true,
-						["ImmunePhysical"] = true,
-						["Silence"] = true,
-						["Root"] = true,
-					},
-				},
-			},
-			["alpha"] = 1,
-			["interruptMiniIconsAlpha"] = 0.8,
-			["y"] = -318.1244506835938,
-			["x"] = 832.3641357421875,
-			["frameLevel"] = 0,
-			["relativePoint"] = "TOPLEFT",
-			["anchor"] = "None",
-			["interruptBackgroundVertexColor"] = {
-				["r"] = 1,
-				["g"] = 1,
-				["b"] = 1,
-			},
 			["useSpellInsteadSchoolMiniIcon"] = false,
-			["interruptBackgroundAlpha"] = 0.7,
-		},
-		["party4"] = {
-			["enabled"] = false,
-			["point"] = "TOPLEFT",
-			["size"] = 36,
+			["alpha"] = 1,
+			["size"] = 20,
+			["y"] = 1,
+			["x"] = 0,
+			["frameLevel"] = 0,
 			["categoriesEnabled"] = {
 				["interrupt"] = {
 					["friendly"] = true,
@@ -1682,11 +1634,57 @@ LoseControlDB = {
 					},
 				},
 			},
-			["alpha"] = 1,
+			["anchor"] = "BlizzardRaidFrames",
+			["interruptBackgroundVertexColor"] = {
+				["r"] = 1,
+				["g"] = 1,
+				["b"] = 1,
+			},
 			["interruptMiniIconsAlpha"] = 0.8,
+			["interruptBackgroundAlpha"] = 0.7,
+		},
+		["party4"] = {
+			["enabled"] = false,
+			["point"] = "TOPLEFT",
+			["size"] = 36,
+			["interruptMiniIconsAlpha"] = 0.8,
+			["alpha"] = 1,
+			["frameLevel"] = 0,
 			["y"] = -539.4485473632812,
 			["x"] = 401.6229248046875,
-			["frameLevel"] = 0,
+			["categoriesEnabled"] = {
+				["interrupt"] = {
+					["friendly"] = true,
+				},
+				["debuff"] = {
+					["friendly"] = {
+						["Other"] = true,
+						["CC"] = true,
+						["Snare"] = true,
+						["Disarm"] = true,
+						["ImmuneSpell"] = true,
+						["PvE"] = true,
+						["Immune"] = true,
+						["ImmunePhysical"] = true,
+						["Silence"] = true,
+						["Root"] = true,
+					},
+				},
+				["buff"] = {
+					["friendly"] = {
+						["Other"] = false,
+						["CC"] = true,
+						["Snare"] = true,
+						["Disarm"] = true,
+						["ImmuneSpell"] = true,
+						["PvE"] = true,
+						["Immune"] = true,
+						["ImmunePhysical"] = true,
+						["Silence"] = true,
+						["Root"] = true,
+					},
+				},
+			},
 			["relativePoint"] = "TOPLEFT",
 			["anchor"] = "None",
 			["interruptBackgroundVertexColor"] = {
@@ -1697,7 +1695,7 @@ LoseControlDB = {
 			["useSpellInsteadSchoolMiniIcon"] = false,
 			["interruptBackgroundAlpha"] = 0.7,
 		},
-		["raid17"] = {
+		["raid36"] = {
 			["enabled"] = false,
 			["useSpellInsteadSchoolMiniIcon"] = false,
 			["alpha"] = 1,
@@ -1751,6 +1749,11 @@ LoseControlDB = {
 			["enabled"] = false,
 			["point"] = "TOPLEFT",
 			["size"] = 28,
+			["interruptMiniIconsAlpha"] = 0.8,
+			["alpha"] = 1,
+			["frameLevel"] = 0,
+			["y"] = -442.7952575683594,
+			["x"] = 828.453125,
 			["categoriesEnabled"] = {
 				["interrupt"] = {
 					["enemy"] = true,
@@ -1784,11 +1787,6 @@ LoseControlDB = {
 					},
 				},
 			},
-			["alpha"] = 1,
-			["interruptMiniIconsAlpha"] = 0.8,
-			["y"] = -442.7952575683594,
-			["x"] = 828.453125,
-			["frameLevel"] = 0,
 			["relativePoint"] = "TOPLEFT",
 			["anchor"] = "None",
 			["interruptBackgroundVertexColor"] = {
@@ -1799,20 +1797,21 @@ LoseControlDB = {
 			["useSpellInsteadSchoolMiniIcon"] = false,
 			["interruptBackgroundAlpha"] = 0.7,
 		},
-		["raid40"] = {
+		["arena2"] = {
 			["enabled"] = false,
-			["useSpellInsteadSchoolMiniIcon"] = false,
+			["point"] = "TOPLEFT",
+			["size"] = 28,
+			["interruptMiniIconsAlpha"] = 0.8,
 			["alpha"] = 1,
-			["size"] = 20,
-			["y"] = 1,
-			["x"] = 0,
 			["frameLevel"] = 0,
+			["y"] = -318.1244506835938,
+			["x"] = 832.3641357421875,
 			["categoriesEnabled"] = {
 				["interrupt"] = {
-					["friendly"] = true,
+					["enemy"] = true,
 				},
 				["debuff"] = {
-					["friendly"] = {
+					["enemy"] = {
 						["Other"] = true,
 						["CC"] = true,
 						["Snare"] = true,
@@ -1826,8 +1825,8 @@ LoseControlDB = {
 					},
 				},
 				["buff"] = {
-					["friendly"] = {
-						["Other"] = false,
+					["enemy"] = {
+						["Other"] = true,
 						["CC"] = true,
 						["Snare"] = true,
 						["Disarm"] = true,
@@ -1840,19 +1839,25 @@ LoseControlDB = {
 					},
 				},
 			},
-			["anchor"] = "BlizzardRaidFrames",
+			["relativePoint"] = "TOPLEFT",
+			["anchor"] = "None",
 			["interruptBackgroundVertexColor"] = {
 				["r"] = 1,
 				["g"] = 1,
 				["b"] = 1,
 			},
-			["interruptMiniIconsAlpha"] = 0.8,
+			["useSpellInsteadSchoolMiniIcon"] = false,
 			["interruptBackgroundAlpha"] = 0.7,
 		},
 		["focus"] = {
 			["enabled"] = false,
 			["point"] = "TOPLEFT",
 			["size"] = 56,
+			["interruptMiniIconsAlpha"] = 0.8,
+			["alpha"] = 1,
+			["frameLevel"] = 0,
+			["y"] = -144.8844146728516,
+			["x"] = 221.9466705322266,
 			["categoriesEnabled"] = {
 				["interrupt"] = {
 					["friendly"] = true,
@@ -1911,11 +1916,6 @@ LoseControlDB = {
 					},
 				},
 			},
-			["alpha"] = 1,
-			["interruptMiniIconsAlpha"] = 0.8,
-			["y"] = -144.8844146728516,
-			["x"] = 221.9466705322266,
-			["frameLevel"] = 0,
 			["relativePoint"] = "TOPLEFT",
 			["anchor"] = "None",
 			["interruptBackgroundVertexColor"] = {
@@ -2522,7 +2522,7 @@ LoseControlDB = {
 			["interruptMiniIconsAlpha"] = 0.8,
 			["interruptBackgroundAlpha"] = 0.7,
 		},
-		["raid36"] = {
+		["raid17"] = {
 			["enabled"] = false,
 			["useSpellInsteadSchoolMiniIcon"] = false,
 			["alpha"] = 1,
@@ -2826,6 +2826,11 @@ LoseControlDB = {
 			["enabled"] = false,
 			["point"] = "TOPLEFT",
 			["size"] = 36,
+			["interruptMiniIconsAlpha"] = 0.8,
+			["alpha"] = 1,
+			["frameLevel"] = 0,
+			["y"] = -440.3219604492188,
+			["x"] = 400.6606140136719,
 			["categoriesEnabled"] = {
 				["interrupt"] = {
 					["friendly"] = true,
@@ -2859,11 +2864,6 @@ LoseControlDB = {
 					},
 				},
 			},
-			["alpha"] = 1,
-			["interruptMiniIconsAlpha"] = 0.8,
-			["y"] = -440.3219604492188,
-			["x"] = 400.6606140136719,
-			["frameLevel"] = 0,
 			["relativePoint"] = "TOPLEFT",
 			["anchor"] = "None",
 			["interruptBackgroundVertexColor"] = {
@@ -2996,17 +2996,17 @@ LoseControlDB = {
 	["disablePlayerFocusPlayerFocusTarget"] = true,
 	["noBlizzardCooldownCount"] = true,
 	["disableFocusFocusTarget"] = false,
-	["disableFocusDeadFocusTarget"] = true,
-	["disableArenaInBG"] = true,
 	["disablePartyInRaid"] = true,
 	["noCooldownCount"] = false,
+	["disableFocusDeadFocusTarget"] = true,
+	["disableArenaInBG"] = true,
+	["showNPCInterruptsFocusTarget"] = true,
+	["showNPCInterruptsTarget"] = true,
+	["disablePartyInBG"] = true,
+	["version"] = 2.1,
+	["showNPCInterruptsTargetTarget"] = true,
 	["customSpellIds"] = {
 	},
-	["showNPCInterruptsTarget"] = true,
-	["showNPCInterruptsTargetTarget"] = true,
-	["version"] = 2.1,
-	["disablePartyInBG"] = true,
-	["showNPCInterruptsFocusTarget"] = true,
 	["showNPCInterruptsFocus"] = true,
 	["duplicatePlayerPortrait"] = true,
 	["disablePlayerTargetPlayerTargetTarget"] = true,
