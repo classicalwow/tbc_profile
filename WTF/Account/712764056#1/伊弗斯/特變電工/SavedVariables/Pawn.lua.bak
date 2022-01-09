@@ -93,8 +93,8 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:30486::::::::70:::::::::|h[殘忍鬥士鎧甲護軀]|h|r",
 		},
 	},
-	["AutoSelectScales"] = false,
 	["LastPlayerFullName"] = "特變電工-伊弗斯",
+	["AutoSelectScales"] = false,
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

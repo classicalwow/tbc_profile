@@ -14,8 +14,8 @@ AutoBarDB = {
 					["hide"] = true,
 					["enabled"] = true,
 					["columns"] = 10,
-					["frameStrata"] = "LOW",
 					["alpha"] = 1,
+					["frameStrata"] = "LOW",
 					["buttonWidth"] = 36,
 					["buttonKeys"] = {
 						"AutoBarButtonShields", -- [1]
@@ -98,7 +98,7 @@ AutoBarDB = {
 					["enabled"] = true,
 					["columns"] = 10,
 					["HUNTER"] = true,
-					["alpha"] = 1,
+					["frameStrata"] = "LOW",
 					["buttonWidth"] = 36,
 					["buttonKeys"] = {
 						"AutoBarButtonShields", -- [1]
@@ -121,7 +121,7 @@ AutoBarDB = {
 					["popupDirection"] = "1",
 					["padding"] = 0,
 					["dockShiftX"] = 0,
-					["frameStrata"] = "LOW",
+					["alpha"] = 1,
 				},
 			},
 			["buttonList"] = {
@@ -161,13 +161,13 @@ AutoBarDB = {
 					["buttonKey"] = "AutoBarButtonAspect",
 					["square_popups"] = true,
 				},
-				["AutoBarButtonCharge"] = {
+				["AutoBarButtonInterrupt"] = {
 					["barKey"] = "AutoBarClassBarHunter",
-					["buttonClass"] = "AutoBarButtonCharge",
+					["buttonClass"] = "AutoBarButtonInterrupt",
 					["defaultButtonIndex"] = "*",
 					["arrangeOnUse"] = true,
 					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonCharge",
+					["buttonKey"] = "AutoBarButtonInterrupt",
 					["square_popups"] = true,
 				},
 				["AutoBarButtonDebuff"] = {
@@ -186,6 +186,15 @@ AutoBarDB = {
 					["buttonKey"] = "AutoBarButtonClassPet",
 					["square_popups"] = true,
 				},
+				["AutoBarButtonCharge"] = {
+					["barKey"] = "AutoBarClassBarHunter",
+					["buttonClass"] = "AutoBarButtonCharge",
+					["defaultButtonIndex"] = "*",
+					["arrangeOnUse"] = true,
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonCharge",
+					["square_popups"] = true,
+				},
 				["AutoBarButtonTrap"] = {
 					["barKey"] = "AutoBarClassBarHunter",
 					["buttonClass"] = "AutoBarButtonTrap",
@@ -193,15 +202,6 @@ AutoBarDB = {
 					["arrangeOnUse"] = true,
 					["enabled"] = true,
 					["buttonKey"] = "AutoBarButtonTrap",
-					["square_popups"] = true,
-				},
-				["AutoBarButtonInterrupt"] = {
-					["barKey"] = "AutoBarClassBarHunter",
-					["buttonClass"] = "AutoBarButtonInterrupt",
-					["defaultButtonIndex"] = "*",
-					["arrangeOnUse"] = true,
-					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonInterrupt",
 					["square_popups"] = true,
 				},
 				["AutoBarButtonClassPets3"] = {
@@ -295,6 +295,7 @@ AutoBarDB = {
 		},
 	},
 	["account"] = {
+		["dbVersion"] = 1,
 		["barList"] = {
 			["AutoBarClassBarBasic"] = {
 				["popupDirection"] = "1",
@@ -338,11 +339,11 @@ AutoBarDB = {
 				["columns"] = 16,
 				["buttonHeight"] = 36,
 				["PALADIN"] = true,
-				["buttonWidth"] = 36,
-				["frameStrata"] = "LOW",
 				["PRIEST"] = true,
-				["posY"] = 106.6572682788083,
 				["alpha"] = 1,
+				["buttonWidth"] = 36,
+				["posY"] = 106.6572682788083,
+				["frameStrata"] = "LOW",
 				["WARLOCK"] = true,
 				["DEMONHUNTER"] = true,
 				["SHAMAN"] = true,
@@ -381,11 +382,11 @@ AutoBarDB = {
 				["columns"] = 9,
 				["MAGE"] = true,
 				["posY"] = 360,
-				["PRIEST"] = true,
-				["alpha"] = 1,
 				["buttonWidth"] = 36,
-				["HUNTER"] = true,
 				["frameStrata"] = "LOW",
+				["PRIEST"] = true,
+				["HUNTER"] = true,
+				["alpha"] = 1,
 				["WARLOCK"] = true,
 				["DEMONHUNTER"] = true,
 				["ROGUE"] = true,
@@ -394,9 +395,6 @@ AutoBarDB = {
 				["scale"] = 1,
 			},
 		},
-		["ldbIcon"] = {
-		},
-		["dbVersion"] = 1,
 		["buttonList"] = {
 			["AutoBarButtonHeal"] = {
 				["barKey"] = "AutoBarClassBarBasic",
@@ -417,14 +415,14 @@ AutoBarDB = {
 				["square_popups"] = true,
 			},
 			["AutoBarButtonTrinket2"] = {
+				["enabled"] = true,
+				["buttonClass"] = "AutoBarButtonTrinket2",
+				["defaultButtonIndex"] = 27,
+				["equipped"] = 14,
 				["barKey"] = "AutoBarClassBarBasic",
 				["targeted"] = 14,
 				["buttonKey"] = "AutoBarButtonTrinket2",
 				["square_popups"] = true,
-				["buttonClass"] = "AutoBarButtonTrinket2",
-				["enabled"] = true,
-				["equipped"] = 14,
-				["defaultButtonIndex"] = 27,
 			},
 			["AutoBarButtonBuffWeapon1"] = {
 				["barKey"] = "AutoBarClassBarBasic",
@@ -517,15 +515,13 @@ AutoBarDB = {
 				["buttonKey"] = "AutoBarButtonFishing",
 				["square_popups"] = true,
 			},
-			["AutoBarButtonFood"] = {
-				["disableConjure"] = false,
-				["include_combo_basic"] = true,
-				["buttonKey"] = "AutoBarButtonFood",
-				["square_popups"] = true,
-				["buttonClass"] = "AutoBarButtonFood",
-				["enabled"] = true,
-				["defaultButtonIndex"] = 15,
+			["AutoBarButtonBandages"] = {
 				["barKey"] = "AutoBarClassBarBasic",
+				["buttonClass"] = "AutoBarButtonBandages",
+				["defaultButtonIndex"] = 3,
+				["enabled"] = true,
+				["buttonKey"] = "AutoBarButtonBandages",
+				["square_popups"] = true,
 			},
 			["AutoBarButtonBattleStandards"] = {
 				["barKey"] = "AutoBarClassBarExtras",
@@ -566,12 +562,14 @@ AutoBarDB = {
 				["buttonKey"] = "AutoBarButtonFoodBuff",
 				["square_popups"] = true,
 			},
-			["AutoBarButtonBandages"] = {
-				["barKey"] = "AutoBarClassBarBasic",
-				["buttonClass"] = "AutoBarButtonBandages",
-				["defaultButtonIndex"] = 3,
+			["AutoBarButtonFood"] = {
 				["enabled"] = true,
-				["buttonKey"] = "AutoBarButtonBandages",
+				["include_combo_basic"] = true,
+				["defaultButtonIndex"] = 15,
+				["barKey"] = "AutoBarClassBarBasic",
+				["disableConjure"] = false,
+				["buttonClass"] = "AutoBarButtonFood",
+				["buttonKey"] = "AutoBarButtonFood",
 				["square_popups"] = true,
 			},
 			["AutoBarButtonCrafting"] = {
@@ -662,14 +660,14 @@ AutoBarDB = {
 				["square_popups"] = true,
 			},
 			["AutoBarButtonTrinket1"] = {
+				["enabled"] = true,
+				["buttonClass"] = "AutoBarButtonTrinket1",
+				["defaultButtonIndex"] = 26,
+				["equipped"] = 13,
 				["barKey"] = "AutoBarClassBarBasic",
 				["targeted"] = 13,
 				["buttonKey"] = "AutoBarButtonTrinket1",
 				["square_popups"] = true,
-				["buttonClass"] = "AutoBarButtonTrinket1",
-				["enabled"] = true,
-				["equipped"] = 13,
-				["defaultButtonIndex"] = 26,
 			},
 			["AutoBarButtonDrums"] = {
 				["barKey"] = "AutoBarClassBarBasic",
@@ -680,8 +678,10 @@ AutoBarDB = {
 				["square_popups"] = true,
 			},
 		},
-		["keySeed"] = 1,
 		["stupidlog"] = "",
+		["keySeed"] = 1,
+		["ldbIcon"] = {
+		},
 	},
 }
 AutoBarDB2 = {

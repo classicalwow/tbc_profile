@@ -7,12 +7,14 @@ RecountDB = {
 		["特變電工 - 伊弗斯"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -527.5046691894531,
-					["x"] = -476.5026245117188,
-					["w"] = 289.7994079589844,
-					["h"] = 195.3370056152344,
+					["y"] = -526.9219589233398,
+					["x"] = -476.502685546875,
+					["w"] = 289.7994995117188,
+					["h"] = 195.3370666503906,
 				},
 			},
+			["ReportLines"] = 15,
+			["MainWindowHeight"] = 195.3370056152344,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -23,10 +25,9 @@ RecountDB = {
 					},
 				},
 			},
-			["MainWindowWidth"] = 289.7994079589844,
-			["MainWindowHeight"] = 195.3370056152344,
+			["LastInstanceName"] = "風暴要塞",
 			["CurDataSet"] = "OverallData",
-			["LastInstanceName"] = "納葛蘭競技場",
+			["MainWindowWidth"] = 289.7994079589844,
 		},
 	},
 }

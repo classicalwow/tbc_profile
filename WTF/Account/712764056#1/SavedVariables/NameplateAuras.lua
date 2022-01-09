@@ -5,8 +5,8 @@ NameplateAurasAceDB = {
 	},
 	["profiles"] = {
 		["特變電工 - 伊弗斯"] = {
-			["StacksTextXOffset"] = 4,
 			["StacksFontScale"] = 2.2,
+			["DefaultIconSizeHeight"] = 40,
 			["StacksTextYOffset"] = -23,
 			["HidePlayerBlizzardFrame"] = true,
 			["InterruptsGlowType"] = 1,
@@ -14,6 +14,7 @@ NameplateAurasAceDB = {
 			["DBVersion"] = 19,
 			["IconAnchor"] = 3,
 			["ShowAurasOnPlayerNameplate"] = true,
+			["StacksTextXOffset"] = 4,
 			["DefaultSpellsLastSetImported"] = 2,
 			["CustomSpells2"] = {
 				{
@@ -929,7 +930,6 @@ NameplateAurasAceDB = {
 			},
 			["HideBlizzardFrames"] = false,
 			["Additions_DispellableSpells"] = true,
-			["DefaultIconSizeHeight"] = 40,
 			["DefaultIconSizeWidth"] = 40,
 		},
 	},

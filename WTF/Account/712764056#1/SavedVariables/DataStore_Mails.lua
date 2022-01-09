@@ -7,30 +7,20 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1641045214,
+				["lastUpdate"] = 1641643265,
 				["Mails"] = {
 					{
-						["returned"] = false,
-						["sender"] = "部落拍賣場",
-						["itemID"] = 23446,
-						["link"] = "|cffffffff|Hitem:23446::::::::70:::::::::|h[堅鋼錠]|h|r",
-						["lastCheck"] = 1641045214,
-						["count"] = 1,
-						["icon"] = 133224,
-						["daysLeft"] = 22.68799781799316,
-					}, -- [1]
-					{
-						["lastCheck"] = 1641045214,
+						["lastCheck"] = 1641643265,
 						["sender"] = "別逼我擋怪",
 						["subject"] = "[200金幣 0銀幣 0銅幣]",
 						["returned"] = false,
 						["money"] = 0,
 						["text"] = "冰抗補助",
 						["icon"] = 134327,
-						["daysLeft"] = 24.10229110717773,
-					}, -- [2]
+						["daysLeft"] = 17.18030166625977,
+					}, -- [1]
 				},
-				["lastVisitDate"] = "2022/01/01 21:53",
+				["lastVisitDate"] = "2022/01/08 20:01",
 			},
 			["Default.伊弗斯.邁克爾假死"] = {
 				["lastUpdate"] = 1632561473,
