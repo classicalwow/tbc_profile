@@ -6,13 +6,13 @@ DataStore_AuctionsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.伊弗斯.邁克爾假死"] = {
-				["lastUpdate"] = 1632545261,
-				["lastVisitDate"] = "2021/09/25 12:47",
-			},
 			["Default.伊弗斯.特變電工"] = {
 				["lastUpdate"] = 1641643248,
 				["lastVisitDate"] = "2022/01/08 20:00",
+			},
+			["Default.伊弗斯.邁克爾假死"] = {
+				["lastUpdate"] = 1632545261,
+				["lastVisitDate"] = "2021/09/25 12:47",
 			},
 		},
 	},

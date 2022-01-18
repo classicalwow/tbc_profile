@@ -48,22 +48,28 @@ TomTomWaypointsM = {
 					0.651833740831296, -- [2]
 					0.6679706601466993, -- [3]
 					["arrivaldistance"] = 15,
-					["crazy"] = true,
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
 					["persistent"] = true,
-					["desc"] = "哈帕克斯",
-					["silent"] = true,
+					["minimap"] = true,
 					["cleardistance"] = 10,
 					["title"] = "哈帕克斯",
 					["from"] = "?",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["minimap"] = true,
+					["crazy"] = true,
 					["world"] = true,
 				},
 			},

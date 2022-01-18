@@ -1,5 +1,14 @@
 
 alaTalentEmuSV = {
+	["set"] = {
+		["credible"] = false,
+		["talents_in_tip"] = false,
+		["supreme"] = false,
+		["level"] = 70,
+		["minimapPos"] = 185,
+	},
+	["_version"] = 210524,
+	["__upgraded"] = true,
 	["var"] = {
 		["Player-4487-0012ECFA"] = "9ZbcV7:4Iah-VAcc661",
 		["Player-4487-0008386D"] = "2xFDiHk3l61n6PU61",
@@ -10,14 +19,5 @@ alaTalentEmuSV = {
 			["超強PVP- |cff7fbfff武器41|r 狂怒17 防护 3"] = "9iFBW-u7Aw4hwnN:2:G61",
 			["純防戰- 武器 7 狂怒11 |cff7fbfff防护43|r"] = "9Sn3::gg=::QLRH:26dc661",
 		},
-	},
-	["__upgraded"] = true,
-	["_version"] = 210524,
-	["set"] = {
-		["credible"] = false,
-		["talents_in_tip"] = false,
-		["supreme"] = false,
-		["level"] = 70,
-		["minimapPos"] = 185,
 	},
 }
