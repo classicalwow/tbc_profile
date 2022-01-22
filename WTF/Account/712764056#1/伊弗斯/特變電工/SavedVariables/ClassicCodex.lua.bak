@@ -16,18 +16,10 @@ CodexConfig = {
 		["arrivaldistance"] = 15,
 		["callbacks"] = {
 			["distance"] = {
-				[10] = nil --[[ skipped inline function ]],
-				[15] = nil --[[ skipped inline function ]],
-			},
-			["world"] = {
-				["onclick"] = nil --[[ skipped inline function ]],
-				["tooltip_update"] = nil --[[ skipped inline function ]],
-				["tooltip_show"] = nil --[[ skipped inline function ]],
 			},
 			["minimap"] = {
-				["onclick"] = nil --[[ skipped inline function ]],
-				["tooltip_update"] = nil --[[ skipped inline function ]],
-				["tooltip_show"] = nil --[[ skipped inline function ]],
+			},
+			["world"] = {
 			},
 		},
 		["persistent"] = true,
@@ -38,17 +30,17 @@ CodexConfig = {
 		["crazy"] = true,
 		["world"] = true,
 	},
-	["minimapButton"] = true,
-	["autoTurnin"] = false,
+	["continentIcon"] = false,
+	["currentQuestGivers"] = true,
 	["spawnMarkerSize"] = 15,
-	["showFestival"] = false,
+	["colorBySpawn"] = true,
 	["alwaysShowId"] = false,
 	["nameplateIcon"] = false,
 	["zoneMapIcon"] = true,
-	["colorBySpawn"] = true,
+	["showFestival"] = false,
 	["miniMapIcon"] = true,
-	["currentQuestGivers"] = true,
-	["continentIcon"] = false,
+	["autoTurnin"] = false,
+	["minimapButton"] = true,
 	["questMarkerSize"] = 15,
 }
 CodexHiddenQuests = {

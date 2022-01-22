@@ -3,18 +3,19 @@ LootMonitorDB = {
 	["LootLog"] = {
 		{
 			["InstanceID"] = 548,
+			["Player"] = "特變電工",
 			["FirstPlayer"] = "尐沫",
 			["InstanceName"] = "Serpentshrine Cavern",
-			["Class"] = "WARRIOR",
 			["Date"] = "2022-01-08",
 			["FirstClass"] = "HUNTER",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-548-3818-21212-00005978E5",
 					["Time"] = "20:48:18",
-					["Class"] = "WARRIOR",
-					["Date"] = "2022-01-08",
 					["Looter"] = "特變電工",
+					["Date"] = "2022-01-08",
+					["Class"] = "WARRIOR",
 					["Name"] = "瓦許女士",
 					["Loots"] = {
 						"|cffa335ee|Hitem:30183::::::::70:::::::::|h[虛空漩渦]|h|r", -- [1]
@@ -27,9 +28,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-548-3818-21217-0000598958",
 					["Time"] = "20:57:43",
-					["Class"] = "HUNTER",
-					["Date"] = "2022-01-08",
 					["Looter"] = "無懮",
+					["Date"] = "2022-01-08",
+					["Class"] = "HUNTER",
 					["Name"] = "海底潛伏者",
 					["Loots"] = {
 						"|cffa335ee|Hitem:30067::::::::70:::::::::|h[守護者絲絨之靴]|h|r", -- [1]
@@ -39,9 +40,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-548-3818-21229-0000D978E4",
 					["Time"] = "21:04:20",
-					["Class"] = "ROGUE",
-					["Date"] = "2022-01-08",
 					["Looter"] = "背鍋俠",
+					["Date"] = "2022-01-08",
+					["Class"] = "ROGUE",
 					["Name"] = "灰色之心浪潮呼喚者",
 					["Loots"] = {
 						"|cffa335ee|Hitem:30023::::::::70:::::::::|h[漩渦圖騰]|h|r", -- [1]
@@ -50,9 +51,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-548-3818-21216-00005978E4",
 					["Time"] = "21:11:35",
-					["Class"] = "PALADIN",
-					["Date"] = "2022-01-08",
 					["Looter"] = "我叫緋村",
+					["Date"] = "2022-01-08",
+					["Class"] = "PALADIN",
 					["Name"] = "不穩定者海卓司",
 					["Loots"] = {
 						"|cffa335ee|Hitem:33055::::::::70:::::::::|h[惡意侵略指環]|h|r", -- [1]
@@ -62,9 +63,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-548-3818-21213-00005978E4",
 					["Time"] = "21:24:19",
-					["Class"] = "WARRIOR",
-					["Date"] = "2022-01-08",
 					["Looter"] = "特變電工",
+					["Date"] = "2022-01-08",
+					["Class"] = "WARRIOR",
 					["Name"] = "莫洛葛利姆·潮行者",
 					["Loots"] = {
 						"|cffa335ee|Hitem:30080::::::::70:::::::::|h[那魯冷光魔棒]|h|r", -- [1]
@@ -74,9 +75,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-548-3818-21214-00005978E4",
 					["Time"] = "21:36:43",
-					["Class"] = "PALADIN",
-					["Date"] = "2022-01-08",
 					["Looter"] = "我叫緋村",
+					["Date"] = "2022-01-08",
+					["Class"] = "PALADIN",
 					["Name"] = "深淵之王卡拉薩瑞斯",
 					["Loots"] = {
 						"|cffa335ee|Hitem:30245::::::::70:::::::::|h[征服勇士護腿]|h|r", -- [1]
@@ -87,9 +88,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-548-3818-21229-00065978E4",
 					["Time"] = "21:37:44",
-					["Class"] = "DRUID",
-					["Date"] = "2022-01-08",
 					["Looter"] = "Sinanju",
+					["Date"] = "2022-01-08",
+					["Class"] = "DRUID",
 					["Name"] = "灰色之心浪潮呼喚者",
 					["Loots"] = {
 						"|cffa335ee|Hitem:30023::::::::70:::::::::|h[漩渦圖騰]|h|r", -- [1]
@@ -98,9 +99,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-548-3818-21215-00005978E4",
 					["Time"] = "21:48:51",
-					["Class"] = "WARLOCK",
-					["Date"] = "2022-01-08",
 					["Looter"] = "不死夜空",
+					["Date"] = "2022-01-08",
+					["Class"] = "WARLOCK",
 					["Name"] = "『盲目者』李奧薩拉斯",
 					["Loots"] = {
 						"|cffa335ee|Hitem:30241::::::::70:::::::::|h[征服英雄手套]|h|r", -- [1]
@@ -109,22 +110,22 @@ LootMonitorDB = {
 					},
 				}, -- [8]
 			},
-			["Player"] = "特變電工",
 		}, -- [1]
 		{
 			["InstanceID"] = 550,
+			["Player"] = "特變電工",
 			["FirstPlayer"] = "尐沫",
 			["InstanceName"] = "Tempest Keep",
-			["Class"] = "WARRIOR",
 			["Date"] = "2022-01-08",
 			["FirstClass"] = "HUNTER",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-550-20571-20033-0001599707",
 					["Time"] = "22:05:14",
-					["Class"] = "ROGUE",
-					["Date"] = "2022-01-08",
 					["Looter"] = "背鍋俠",
+					["Date"] = "2022-01-08",
+					["Class"] = "ROGUE",
 					["Name"] = "星術師",
 					["Loots"] = {
 						"|cffa335ee|Hitem:30183::::::::70:::::::::|h[虛空漩渦]|h|r", -- [1]
@@ -133,9 +134,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-550-20571-20037-0001D99707",
 					["Time"] = "22:09:09",
-					["Class"] = "DRUID",
-					["Date"] = "2022-01-08",
 					["Looter"] = "Sinanju",
+					["Date"] = "2022-01-08",
+					["Class"] = "DRUID",
 					["Name"] = "風暴要塞-熔爐鷹獵者",
 					["Loots"] = {
 						"|cffa335ee|Hitem:30281::::::::70:::::::::|h[圖樣:長路腰帶]|h|r", -- [1]
@@ -144,9 +145,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-550-20571-19514-0000599707",
 					["Time"] = "22:21:27",
-					["Class"] = "HUNTER",
-					["Date"] = "2022-01-08",
 					["Looter"] = "尐沫",
+					["Date"] = "2022-01-08",
+					["Class"] = "HUNTER",
 					["Name"] = "歐爾",
 					["Loots"] = {
 						"|cffa335ee|Hitem:29948::::::::70:::::::::|h[鳳凰之掌]|h|r", -- [1]
@@ -156,9 +157,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-550-20571-20041-0004D99707",
 					["Time"] = "22:24:25",
-					["Class"] = "DRUID",
-					["Date"] = "2022-01-08",
 					["Looter"] = "Sinanju",
+					["Date"] = "2022-01-08",
+					["Class"] = "DRUID",
 					["Name"] = "水晶之核哨兵",
 					["Loots"] = {
 						"|cffa335ee|Hitem:30024::::::::70:::::::::|h[精靈王披肩]|h|r", -- [1]
@@ -167,9 +168,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-550-20571-20044-0000D99707",
 					["Time"] = "22:25:18",
-					["Class"] = "PALADIN",
-					["Date"] = "2022-01-08",
 					["Looter"] = "终焉誓約",
+					["Date"] = "2022-01-08",
+					["Class"] = "PALADIN",
 					["Name"] = "星術師初學者",
 					["Loots"] = {
 						"|cffa335ee|Hitem:30024::::::::70:::::::::|h[精靈王披肩]|h|r", -- [1]
@@ -178,9 +179,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-550-20571-20031-0000D99708",
 					["Time"] = "22:29:52",
-					["Class"] = "ROGUE",
-					["Date"] = "2022-01-08",
 					["Looter"] = "背鍋俠",
+					["Date"] = "2022-01-08",
+					["Class"] = "ROGUE",
 					["Name"] = "血守衛軍團士兵",
 					["Loots"] = {
 						"|cffa335ee|Hitem:30029::::::::70:::::::::|h[古老智慧的樹皮手套]|h|r", -- [1]
@@ -189,9 +190,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-550-20571-18805-0000599707",
 					["Time"] = "22:35:53",
-					["Class"] = "WARRIOR",
-					["Date"] = "2022-01-08",
 					["Looter"] = "特變電工",
+					["Date"] = "2022-01-08",
+					["Class"] = "WARRIOR",
 					["Name"] = "高階星術師索拉瑞恩",
 					["Loots"] = {
 						"|cffa335ee|Hitem:29976::::::::70:::::::::|h[世界風暴護手]|h|r", -- [1]
@@ -201,9 +202,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-550-20571-20048-0003D99707",
 					["Time"] = "22:56:56",
-					["Class"] = "DRUID",
-					["Date"] = "2022-01-08",
 					["Looter"] = "神經德魯伊",
+					["Date"] = "2022-01-08",
+					["Class"] = "DRUID",
 					["Name"] = "紅手百夫長",
 					["Loots"] = {
 						"|cffa335ee|Hitem:30183::::::::70:::::::::|h[虛空漩渦]|h|r", -- [1]
@@ -212,9 +213,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-550-20571-21268-000059AA12",
 					["Time"] = "23:13:44",
-					["Class"] = "HUNTER",
-					["Date"] = "2022-01-08",
 					["Looter"] = "尐沫",
+					["Date"] = "2022-01-08",
+					["Class"] = "HUNTER",
 					["Name"] = "虛空之絃長弓",
 					["Loots"] = {
 						"|cffff8000|Hitem:30318::::::::70:::::::::|h[虛空之絃長弓]|h|r", -- [1]
@@ -223,9 +224,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-550-20571-21271-000059AA12",
 					["Time"] = "23:14:25",
-					["Class"] = "WARRIOR",
-					["Date"] = "2022-01-08",
 					["Looter"] = "別逼我擋怪",
+					["Date"] = "2022-01-08",
+					["Class"] = "WARRIOR",
 					["Name"] = "無盡之刃",
 					["Loots"] = {
 						"|cffff8000|Hitem:30312::::::::70:::::::::|h[無盡之刃]|h|r", -- [1]
@@ -234,9 +235,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-550-20571-21274-000059AA12",
 					["Time"] = "23:14:32",
-					["Class"] = "PRIEST",
-					["Date"] = "2022-01-08",
 					["Looter"] = "維爾德拉",
+					["Date"] = "2022-01-08",
+					["Class"] = "PRIEST",
 					["Name"] = "瓦解之杖",
 					["Loots"] = {
 						"|cffff8000|Hitem:30313::::::::70:::::::::|h[瓦解之杖]|h|r", -- [1]
@@ -245,9 +246,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-550-20571-21272-000059AA12",
 					["Time"] = "23:14:32",
-					["Class"] = "HUNTER",
-					["Date"] = "2022-01-08",
 					["Looter"] = "一隻倉鼠",
+					["Date"] = "2022-01-08",
+					["Class"] = "HUNTER",
 					["Name"] = "扭曲分割者",
 					["Loots"] = {
 						"|cffff8000|Hitem:30311::::::::70:::::::::|h[扭曲分割者]|h|r", -- [1]
@@ -256,9 +257,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-550-20571-21273-000059AA12",
 					["Time"] = "23:14:34",
-					["Class"] = "SHAMAN",
-					["Date"] = "2022-01-08",
 					["Looter"] = "柒刻",
+					["Date"] = "2022-01-08",
+					["Class"] = "SHAMAN",
 					["Name"] = "相位壁壘",
 					["Loots"] = {
 						"|cffff8000|Hitem:30314::::::::70:::::::::|h[相位壁壘]|h|r", -- [1]
@@ -267,9 +268,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-550-20571-21270-000059AA12",
 					["Time"] = "23:14:38",
-					["Class"] = "PRIEST",
-					["Date"] = "2022-01-08",
 					["Looter"] = "阿梨",
+					["Date"] = "2022-01-08",
+					["Class"] = "PRIEST",
 					["Name"] = "宇宙灌溉者",
 					["Loots"] = {
 						"|cffff8000|Hitem:30317::::::::70:::::::::|h[宇宙灌溉者]|h|r", -- [1]
@@ -278,9 +279,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-550-20571-19622-0000599708",
 					["Time"] = "23:20:18",
-					["Class"] = "WARRIOR",
-					["Date"] = "2022-01-08",
 					["Looter"] = "特變電工",
+					["Date"] = "2022-01-08",
+					["Class"] = "WARRIOR",
 					["Name"] = "凱爾薩斯·逐日者",
 					["Loots"] = {
 						"|cffa335ee|Hitem:30183::::::::70:::::::::|h[虛空漩渦]|h|r", -- [1]
@@ -294,9 +295,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-550-20571-19516-0000599707",
 					["Time"] = "23:25:50",
-					["Class"] = "SHAMAN",
-					["Date"] = "2022-01-08",
 					["Looter"] = "荀攸",
+					["Date"] = "2022-01-08",
+					["Class"] = "SHAMAN",
 					["Name"] = "虛無搶奪者",
 					["Loots"] = {
 						"|cffa335ee|Hitem:30250::::::::70:::::::::|h[征服英雄肩鎧]|h|r", -- [1]
@@ -305,7 +306,6 @@ LootMonitorDB = {
 					},
 				}, -- [16]
 			},
-			["Player"] = "特變電工",
 		}, -- [2]
 	},
 	["Config"] = {

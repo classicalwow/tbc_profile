@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+	["session"] = 608,
 	["lastSanitation"] = 3,
-	["session"] = 607,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\TomTom\\TomTom_Config.lua:40: attempt to call method 'EnableDisablePOIIntegration' (a nil value)",
@@ -74,8 +74,8 @@ BugGrabberDB = {
 		}, -- [9]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\MeetingHorn\\Libs\\tdGUI\\Libs\\LibClass-2.0-10\\LibClass-2.0.xml",
-			["time"] = "2021/06/08 20:55:27",
 			["session"] = 47,
+			["time"] = "2021/06/08 20:55:27",
 			["counter"] = 91,
 		}, -- [10]
 		{
@@ -189,26 +189,26 @@ BugGrabberDB = {
 		}, -- [24]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\alaTalentEmu\\libs\\libs.xml",
-			["session"] = 304,
 			["time"] = "2021/08/08 18:21:56",
+			["session"] = 304,
 			["counter"] = 3,
 		}, -- [25]
 		{
 			["message"] = "Error loading Interface\\AddOns\\ClassicCodex-patch\\objects-questie-tbc.lua",
-			["session"] = 304,
 			["time"] = "2021/08/08 18:21:56",
+			["session"] = 304,
 			["counter"] = 3,
 		}, -- [26]
 		{
 			["message"] = "Error loading Interface\\AddOns\\ClassicCodex-patch\\objects-loc-tbc.lua",
-			["session"] = 304,
 			["time"] = "2021/08/08 18:21:56",
+			["session"] = 304,
 			["counter"] = 3,
 		}, -- [27]
 		{
 			["message"] = "Error loading Interface\\AddOns\\Questie\\Localization\\Translations\\Zones\\Battlegrounds-戰場.lua",
-			["session"] = 304,
 			["time"] = "2021/08/08 18:21:56",
+			["session"] = 304,
 			["counter"] = 1,
 		}, -- [28]
 		{
@@ -292,8 +292,8 @@ BugGrabberDB = {
 		}, -- [38]
 		{
 			["message"] = "Texture <unnamed>: Unable to load atlas entry QuestSharing-Padlock",
-			["time"] = "2021/08/22 00:26:04",
 			["session"] = 333,
+			["time"] = "2021/08/22 00:26:04",
 			["counter"] = 10,
 		}, -- [39]
 		{
@@ -545,14 +545,14 @@ BugGrabberDB = {
 		}, -- [70]
 		{
 			["message"] = "Error loading Interface\\AddOns\\DBM-Core\\modules\\Modules.lua",
-			["session"] = 495,
 			["time"] = "2021/10/17 14:23:42",
+			["session"] = 495,
 			["counter"] = 6,
 		}, -- [71]
 		{
 			["message"] = "Error loading Interface\\AddOns\\DBM-Core\\modules\\Icons.lua",
-			["session"] = 495,
 			["time"] = "2021/10/17 14:23:42",
+			["session"] = 495,
 			["counter"] = 6,
 		}, -- [72]
 		{
@@ -674,14 +674,14 @@ BugGrabberDB = {
 		}, -- [87]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GladiusEx\\libs\\LibCooldownTracker-1.0-10\\cooldowns_bcc_racials.lua",
-			["time"] = "2021/08/22 00:22:49",
 			["session"] = 520,
+			["time"] = "2021/08/22 00:22:49",
 			["counter"] = 470,
 		}, -- [88]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GladiusEx\\libs\\LibCooldownTracker-1.0-10\\cooldowns_bcc_items.lua",
-			["time"] = "2021/08/22 00:22:49",
 			["session"] = 520,
+			["time"] = "2021/08/22 00:22:49",
 			["counter"] = 470,
 		}, -- [89]
 		{
@@ -780,14 +780,14 @@ BugGrabberDB = {
 		}, -- [101]
 		{
 			["message"] = "Binding ALARAIDTOOL_NEWWINDOW is defined more than once in Interface\\AddOns\\TalentEmu\\Bindings.xml",
-			["session"] = 578,
 			["time"] = "2021/12/04 19:36:22",
+			["session"] = 578,
 			["counter"] = 2,
 		}, -- [102]
 		{
 			["message"] = "Binding ALARAIDTOOL_QUERY is defined more than once in Interface\\AddOns\\TalentEmu\\Bindings.xml",
-			["session"] = 578,
 			["time"] = "2021/12/04 19:36:22",
+			["session"] = 578,
 			["counter"] = 2,
 		}, -- [103]
 		{
@@ -815,24 +815,12 @@ BugGrabberDB = {
 			["counter"] = 3,
 		}, -- [106]
 		{
-			["message"] = "Binding ALARAIDTOOL_NEWWINDOW is defined more than once in Interface\\AddOns\\alaTalentEmu\\Bindings.xml",
-			["time"] = "2021/12/05 20:25:25",
-			["session"] = 607,
-			["counter"] = 56,
-		}, -- [107]
-		{
-			["message"] = "Binding ALARAIDTOOL_QUERY is defined more than once in Interface\\AddOns\\alaTalentEmu\\Bindings.xml",
-			["time"] = "2021/12/05 20:25:25",
-			["session"] = 607,
-			["counter"] = 56,
-		}, -- [108]
-		{
 			["message"] = "Interface\\AddOns\\GladiatorlosSA2\\GladiatorlosSA2-TBC-1.1.lua:313: bad argument #1 to 'find' (string expected, got nil)",
 			["time"] = "2022/01/08 19:53:04",
 			["stack"] = "[string \"=[C]\"]: in function `find'\n[string \"@Interface\\AddOns\\GladiatorlosSA2\\GladiatorlosSA2-TBC-1.1.lua\"]:313: in function `?'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:119: in function <...ler\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:29: in function <...ler\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceEvent-3.0\\AceEvent-3.0-4.lua\"]:120: in function <...seAddonController\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>",
 			["session"] = 607,
 			["counter"] = 2,
-		}, -- [109]
+		}, -- [107]
 		{
 			["message"] = "Interface\\AddOns\\LootMonitor\\LootMonitor-3.30.lua:1163: attempt to index field '?' (a nil value)",
 			["time"] = "2021/07/28 16:53:39",
@@ -840,7 +828,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\LootMonitor\\LootMonitor-3.30.lua\"]:1163: in function <Interface\\AddOns\\LootMonitor\\LootMonitor.lua:1143>\n[string \"=(tail call)\"]: ?",
 			["session"] = 607,
 			["counter"] = 15,
-		}, -- [110]
+		}, -- [108]
 		{
 			["message"] = "Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua:1179: Attempt to access forbidden object from code tainted by an AddOn",
 			["time"] = "2021/07/04 00:19:48",
@@ -848,7 +836,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `GetName'\n[string \"@Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua\"]:1179: in function `func'\n[string \"@Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua\"]:905: in function `OnUpdate'\n[string \"*:OnUpdate\"]:1: in function <[string \"*:OnUpdate\"]:1>",
 			["session"] = 607,
 			["counter"] = 118,
-		}, -- [111]
+		}, -- [109]
 		{
 			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
 			["time"] = "2021/07/01 16:18:25",
@@ -856,6 +844,18 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
 			["session"] = 607,
 			["counter"] = 6673,
+		}, -- [110]
+		{
+			["message"] = "Binding ALARAIDTOOL_NEWWINDOW is defined more than once in Interface\\AddOns\\alaTalentEmu\\Bindings.xml",
+			["session"] = 608,
+			["time"] = "2021/12/05 20:25:25",
+			["counter"] = 58,
+		}, -- [111]
+		{
+			["message"] = "Binding ALARAIDTOOL_QUERY is defined more than once in Interface\\AddOns\\alaTalentEmu\\Bindings.xml",
+			["session"] = 608,
+			["time"] = "2021/12/05 20:25:25",
+			["counter"] = 58,
 		}, -- [112]
 	},
 }

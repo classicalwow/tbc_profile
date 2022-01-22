@@ -47,6 +47,8 @@
         "        [string] axisX",
         "        [string] axisY",
         "        [float]  deadzone (2D deadzone applied when normalizing the stick input length)",
+        "        [float]  deadzoneX (X axis deadzone applied when mapping to stick)",
+        "        [float]  deadzoneY (Y axis deadzone applied when mapping to stick)",
         "    }",
         "",
         "Valid values for each type of enumerated field:",
@@ -64,6 +66,8 @@
         "RStickY",
         "GStickX",
         "GStickY",
+        "PStickX",
+        "PStickY",
         "LTrigger",
         "RTrigger",
         "----------------------------------------",
@@ -105,11 +109,13 @@
         "Left",
         "Right",
         "Gyro",
+        "Pad",
         "Movement",
         "Camera",
+        "Look",
         "Cursor"
     ],
-    "configVersion": 2,
+    "configVersion": 3,
     "configs": [
         {
             "separator": "================================================================================",
@@ -130,6 +136,14 @@
                 {
                     "axis": "RStickY",
                     "deadzone": 0.05
+                },
+                {
+                    "axis": "GStickX",
+                    "deadzone": 0.01
+                },
+                {
+                    "axis": "GStickY",
+                    "deadzone": 0.01
                 },
                 {
                     "axis": "LTrigger",
@@ -160,8 +174,12 @@
                 {
                     "stick": "Gyro",
                     "axisX": "GStickX",
-                    "axisY": "GStickY",
-                    "deadzone": 0.1
+                    "axisY": "GStickY"
+                },
+                {
+                    "stick": "Pad",
+                    "axisX": "PStickX",
+                    "axisY": "PStickY"
                 },
                 {
                     "stick": "Movement",
@@ -173,566 +191,21 @@
                     "stick": "Camera",
                     "axisX": "RStickX",
                     "axisY": "RStickY",
+                    "deadzoneX": 0.05,
+                    "deadzoneY": 0.2,
                     "deadzone": 0.25
+                },
+                {
+                    "stick": "Look",
+                    "axisX": "GStickX",
+                    "axisY": "GStickY"
                 },
                 {
                     "stick": "Cursor",
                     "axisX": "RStickX",
-                    "axisY": "RStickY",
-                    "deadzone": 0.25
+                    "axisY": "RStickY"
                 }
             ]
-        },
-        {
-            "separator": "================================================================================",
-            "comment": "Config for DirectInput mode (Use XBox mode for analog triggers)",
-            "name": "Logitech Rumblepad 2",
-            "labelStyle": "Letters",
-            "vendorID": 1133,
-            "productID": 49688,
-            "rawButtonMappings": [
-                {
-                    "rawIndex": 0,
-                    "button": "PAD3"
-                },
-                {
-                    "rawIndex": 1,
-                    "button": "PAD1"
-                },
-                {
-                    "rawIndex": 2,
-                    "button": "PAD2"
-                },
-                {
-                    "rawIndex": 3,
-                    "button": "PAD4"
-                },
-                {
-                    "rawIndex": 4,
-                    "button": "PADLSHOULDER"
-                },
-                {
-                    "rawIndex": 5,
-                    "button": "PADRSHOULDER"
-                },
-                {
-                    "rawIndex": 6,
-                    "button": "PADLTRIGGER",
-                    "axis": "LTrigger",
-                    "axisValue": 1.0
-                },
-                {
-                    "rawIndex": 7,
-                    "button": "PADRTRIGGER",
-                    "axis": "RTrigger",
-                    "axisValue": 1.0
-                },
-                {
-                    "rawIndex": 8,
-                    "button": "PADBACK"
-                },
-                {
-                    "rawIndex": 9,
-                    "button": "PADFORWARD"
-                },
-                {
-                    "rawIndex": 10,
-                    "button": "PADLSTICK"
-                },
-                {
-                    "rawIndex": 11,
-                    "button": "PADRSTICK"
-                }
-            ],
-            "rawAxisMappings": [
-                {
-                    "rawIndex": 0,
-                    "axis": "LStickX"
-                },
-                {
-                    "rawIndex": 1,
-                    "axis": "LStickY"
-                },
-                {
-                    "rawIndex": 2,
-                    "axis": "RStickX"
-                },
-                {
-                    "rawIndex": 3,
-                    "axis": "RStickY"
-                }
-            ],
-            "axisConfigs": [
-                {
-                    "axis": "LStickY",
-                    "scale": -2.0
-                },
-                {
-                    "axis": "RStickY",
-                    "scale": -2.0
-                }
-            ]
-        },
-        {
-            "separator": "================================================================================",
-            "name": "Logitech Precision GamePad",
-            "vendorID": 1133,
-            "productID": 49690,
-            "rawButtonMappings": [
-                {
-                    "rawIndex": 0,
-                    "button": "PAD3",
-                    "comment": "1"
-                },
-                {
-                    "rawIndex": 1,
-                    "button": "PAD1",
-                    "comment": "2"
-                },
-                {
-                    "rawIndex": 2,
-                    "button": "PAD2",
-                    "comment": "3"
-                },
-                {
-                    "rawIndex": 3,
-                    "button": "PAD4",
-                    "comment": "4"
-                },
-                {
-                    "rawIndex": 4,
-                    "button": "PADLSHOULDER",
-                    "comment": "5"
-                },
-                {
-                    "rawIndex": 5,
-                    "button": "PADRSHOULDER",
-                    "comment": "6"
-                },
-                {
-                    "rawIndex": 6,
-                    "button": "PADLTRIGGER",
-                    "axis": "LTrigger",
-                    "axisValue": 1.0,
-                    "comment": "7"
-                },
-                {
-                    "rawIndex": 7,
-                    "button": "PADRTRIGGER",
-                    "axis": "RTrigger",
-                    "axisValue": 1.0,
-                    "comment": "8"
-                },
-                {
-                    "rawIndex": 8,
-                    "button": "PADBACK",
-                    "comment": "9"
-                },
-                {
-                    "rawIndex": 9,
-                    "button": "PADFORWARD",
-                    "comment": "10"
-                }
-            ],
-            "rawAxisMappings": [
-                {
-                    "rawIndex": 0,
-                    "axis": "LStickX",
-                    "comment": "D-Pad L/R"
-                },
-                {
-                    "rawIndex": 1,
-                    "axis": "LStickY",
-                    "comment": "D-Pad U/D"
-                }
-            ],
-            "axisConfigs": [
-                {
-                    "axis": "LStickY",
-                    "scale": -2.0
-                }
-            ]
-        },
-        {
-            "separator": "================================================================================",
-            "name": "PlayStation GamePad",
-            "labelStyle": "Shapes",
-            "vendorID": 1356,
-            "rawButtonMappings": [
-                {
-                    "rawIndex": 0,
-                    "button": "PAD3",
-                    "comment": "Square"
-                },
-                {
-                    "rawIndex": 1,
-                    "button": "PAD1",
-                    "comment": "Cross"
-                },
-                {
-                    "rawIndex": 2,
-                    "button": "PAD2",
-                    "comment": "Circle"
-                },
-                {
-                    "rawIndex": 3,
-                    "button": "PAD4",
-                    "comment": "Triangle"
-                },
-                {
-                    "rawIndex": 4,
-                    "button": "PADLSHOULDER",
-                    "comment": "L1"
-                },
-                {
-                    "rawIndex": 5,
-                    "button": "PADRSHOULDER",
-                    "comment": "R2"
-                },
-                {
-                    "rawIndex": 6,
-                    "button": "None",
-                    "comment": "immediate L2 (disabled so we can control trigger point)"
-                },
-                {
-                    "rawIndex": 7,
-                    "button": "None",
-                    "comment": "immediate R2 (disabled so we can control trigger point)"
-                },
-                {
-                    "rawIndex": 8,
-                    "button": "PADSOCIAL",
-                    "comment": "Share"
-                },
-                {
-                    "rawIndex": 9,
-                    "button": "PADFORWARD",
-                    "comment": "Options"
-                },
-                {
-                    "rawIndex": 10,
-                    "button": "PADLSTICK"
-                },
-                {
-                    "rawIndex": 11,
-                    "button": "PADRSTICK"
-                },
-                {
-                    "rawIndex": 12,
-                    "button": "PADSYSTEM",
-                    "comment": "PS button"
-                },
-                {
-                    "rawIndex": 13,
-                    "button": "PADBACK",
-                    "comment": "Touchpad"
-                }
-            ],
-            "rawAxisMappings": [
-                {
-                    "rawIndex": 0,
-                    "axis": "LStickX"
-                },
-                {
-                    "rawIndex": 1,
-                    "axis": "LStickY"
-                },
-                {
-                    "rawIndex": 2,
-                    "axis": "RStickX"
-                },
-                {
-                    "rawIndex": 3,
-                    "axis": "LTrigger"
-                },
-                {
-                    "rawIndex": 4,
-                    "axis": "RTrigger"
-                },
-                {
-                    "rawIndex": 5,
-                    "axis": "RStickY"
-                }
-            ],
-            "axisConfigs": [
-                {
-                    "axis": "LStickY",
-                    "scale": -2.0
-                },
-                {
-                    "axis": "RStickY",
-                    "scale": -2.0
-                }
-            ]
-        },
-        {
-            "separator": "================================================================================",
-            "name": "PlayStation DualSense",
-            "vendorID": 1356,
-            "productID": 3302,
-            "rawButtonMappings": [
-                {
-                    "rawIndex": 14,
-                    "button": "PAD5",
-                    "comment": "Mute"
-                }
-            ]
-        },
-        {
-            "separator": "================================================================================",
-            "name": "Switch Controller",
-            "labelStyle": "Reverse",
-            "vendorID": 1406
-        },
-        {
-            "separator": "================================================================================",
-            "name": "Switch JoyCon (R)",
-            "vendorID": 1406,
-            "productID": 8199,
-            "rawButtonMappings": [
-                {
-                    "rawIndex": 0,
-                    "button": "PAD2"
-                },
-                {
-                    "rawIndex": 1,
-                    "button": "PAD4"
-                },
-                {
-                    "rawIndex": 2,
-                    "button": "PAD1"
-                },
-                {
-                    "rawIndex": 3,
-                    "button": "PAD3"
-                },
-                {
-                    "rawIndex": 4,
-                    "button": "PADLSHOULDER"
-                },
-                {
-                    "rawIndex": 5,
-                    "button": "PADRSHOULDER"
-                },
-                {
-                    "rawIndex": 9,
-                    "button": "PADFORWARD",
-                    "comment": "plus"
-                },
-                {
-                    "rawIndex": 11,
-                    "button": "PADRSTICK"
-                },
-                {
-                    "rawIndex": 12,
-                    "button": "PADSYSTEM"
-                },
-                {
-                    "rawIndex": 14,
-                    "button": "PADRSHOULDER"
-                },
-                {
-                    "rawIndex": 15,
-                    "button": "PADRTRIGGER",
-                    "axis": "RTrigger",
-                    "axisValue": 1.0
-                },
-                {
-                    "rawIndex": 16,
-                    "button": "PADRSTICKLEFT",
-                    "axis": "RStickX",
-                    "axisValue": -1.0
-                },
-                {
-                    "rawIndex": 17,
-                    "button": "PADRSTICKUP",
-                    "axis": "RStickY",
-                    "axisValue": 1.0
-                },
-                {
-                    "rawIndex": 18,
-                    "button": "PADRSTICKRIGHT",
-                    "axis": "RStickX",
-                    "axisValue": 1.0
-                },
-                {
-                    "rawIndex": 19,
-                    "button": "PADRSTICKDOWN",
-                    "axis": "RStickY",
-                    "axisValue": -1.0
-                }
-            ]
-        },
-        {
-            "separator": "================================================================================",
-            "name": "Switch JoyCon (L)",
-            "vendorID": 1406,
-            "productID": 8198,
-            "rawButtonMappings": [
-                {
-                    "rawIndex": 0,
-                    "button": "PADDLEFT"
-                },
-                {
-                    "rawIndex": 1,
-                    "button": "PADDDOWN"
-                },
-                {
-                    "rawIndex": 2,
-                    "button": "PADDUP"
-                },
-                {
-                    "rawIndex": 3,
-                    "button": "PADDRIGHT"
-                },
-                {
-                    "rawIndex": 4,
-                    "button": "PADLSHOULDER"
-                },
-                {
-                    "rawIndex": 5,
-                    "button": "PADRSHOULDER"
-                },
-                {
-                    "rawIndex": 8,
-                    "button": "PADBACK",
-                    "comment": "minus"
-                },
-                {
-                    "rawIndex": 10,
-                    "button": "PADLSTICK"
-                },
-                {
-                    "rawIndex": 13,
-                    "button": "PADSOCIAL"
-                },
-                {
-                    "rawIndex": 14,
-                    "button": "PADLSHOULDER"
-                },
-                {
-                    "rawIndex": 15,
-                    "button": "PADLTRIGGER",
-                    "axis": "LTrigger",
-                    "axisValue": 1.0
-                },
-                {
-                    "rawIndex": 16,
-                    "button": "PADLSTICKRIGHT",
-                    "axis": "LStickX",
-                    "axisValue": 1.0
-                },
-                {
-                    "rawIndex": 17,
-                    "button": "PADLSTICKDOWN",
-                    "axis": "LStickY",
-                    "axisValue": -1.0
-                },
-                {
-                    "rawIndex": 18,
-                    "button": "PADLSTICKLEFT",
-                    "axis": "LStickX",
-                    "axisValue": -1.0
-                },
-                {
-                    "rawIndex": 19,
-                    "button": "PADLSTICKUP",
-                    "axis": "LStickY",
-                    "axisValue": 1.0
-                }
-            ]
-        },
-        {
-            "separator": "================================================================================",
-            "name": "Switch Pro Controller",
-            "vendorID": 1406,
-            "productID": 8201,
-            "rawButtonMappings": [
-                {
-                    "rawIndex": 0,
-                    "button": "PAD1",
-                    "comment": "B"
-                },
-                {
-                    "rawIndex": 1,
-                    "button": "PAD2",
-                    "comment": "A"
-                },
-                {
-                    "rawIndex": 2,
-                    "button": "PAD3",
-                    "comment": "Y"
-                },
-                {
-                    "rawIndex": 3,
-                    "button": "PAD4",
-                    "comment": "X"
-                },
-                {
-                    "rawIndex": 6,
-                    "axis": "LTrigger",
-                    "axisValue": 1.0,
-                    "comment": "ZL"
-                },
-                {
-                    "rawIndex": 7,
-                    "axis": "RTrigger",
-                    "axisValue": 1.0,
-                    "comment": "ZR"
-                },
-                {
-                    "rawIndex": 12,
-                    "button": "PADSYSTEM",
-                    "comment": "Home"
-                },
-                {
-                    "rawIndex": 13,
-                    "button": "PADSOCIAL",
-                    "comment": "Capture"
-                }
-            ],
-            "rawAxisMappings": [
-                {
-                    "rawIndex": 0,
-                    "axis": "LStickX"
-                },
-                {
-                    "rawIndex": 1,
-                    "axis": "LStickY"
-                },
-                {
-                    "rawIndex": 2,
-                    "axis": "RStickX"
-                },
-                {
-                    "rawIndex": 3,
-                    "axis": "RStickY"
-                }
-            ],
-            "axisConfigs": [
-                {
-                    "axis": "LStickX",
-                    "scale": 2.8
-                },
-                {
-                    "axis": "LStickY",
-                    "scale": -2.8
-                },
-                {
-                    "axis": "RStickX",
-                    "scale": 2.8
-                },
-                {
-                    "axis": "RStickY",
-                    "scale": -2.8
-                }
-            ]
-        },
-        {
-            "separator": "================================================================================",
-            "name": "Xbox GamePad",
-            "labelStyle": "Letters",
-            "vendorID": 1118
         }
     ]
 }
