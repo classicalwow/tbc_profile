@@ -7,20 +7,8 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1641643265,
-				["Mails"] = {
-					{
-						["lastCheck"] = 1641643265,
-						["sender"] = "別逼我擋怪",
-						["subject"] = "[200金幣 0銀幣 0銅幣]",
-						["returned"] = false,
-						["money"] = 0,
-						["text"] = "冰抗補助",
-						["icon"] = 134327,
-						["daysLeft"] = 17.18030166625977,
-					}, -- [1]
-				},
-				["lastVisitDate"] = "2022/01/08 20:01",
+				["lastUpdate"] = 1643216232,
+				["lastVisitDate"] = "2022/01/27 00:57",
 			},
 			["Default.伊弗斯.邁克爾假死"] = {
 				["lastUpdate"] = 1632561473,

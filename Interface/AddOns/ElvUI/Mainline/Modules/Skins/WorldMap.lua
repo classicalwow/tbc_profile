@@ -1,5 +1,6 @@
 local E, L, V, P, G = unpack(ElvUI)
 local S = E:GetModule('Skins')
+local TT = E:GetModule('Tooltip')
 
 local _G = _G
 local hooksecurefunc = hooksecurefunc
@@ -16,6 +17,14 @@ local function SkinHeaders(header)
 		header.HighlightTexture:SetAlpha(0)
 
 		header.IsSkinned = true
+	end
+end
+
+-- The original script here would taint the Quest Objective Tracker Button, so swapping to our own ~Simpy
+function S:WorldMap_QuestMapHide()
+	if self:GetParent() == _G.QuestModelScene:GetParent() then -- variant of QuestFrame_HideQuestPortrait
+		_G.QuestModelScene:SetParent(nil)
+		_G.QuestModelScene:Hide()
 	end
 end
 
@@ -43,7 +52,7 @@ function S:WorldMapFrame()
 	-- Quest Frames
 	local QuestMapFrame = _G.QuestMapFrame
 	QuestMapFrame.VerticalSeparator:Hide()
-	QuestMapFrame:SetScript('OnHide', nil) -- This script would taint the Quest Objective Tracker Button, so unsetting it ~Simpy
+	QuestMapFrame:SetScript('OnHide', S.WorldMap_QuestMapHide)
 
 	if E.private.skins.parchmentRemoverEnable then
 		QuestMapFrame.DetailsFrame:StripTextures(true)
@@ -97,8 +106,7 @@ function S:WorldMapFrame()
 	S:HandleScrollBar(_G.QuestMapFrameScrollBar)
 
 	if E.private.skins.blizzard.tooltip then
-		QuestMapFrame.QuestsFrame.StoryTooltip:SetTemplate('Transparent')
-		--QuestScrollFrame.WarCampaignTooltip:SetTemplate('Transparent')
+		TT:SetStyle(QuestMapFrame.QuestsFrame.StoryTooltip)
 	end
 
 	S:HandleScrollBar(_G.QuestMapDetailsScrollFrame.ScrollBar)

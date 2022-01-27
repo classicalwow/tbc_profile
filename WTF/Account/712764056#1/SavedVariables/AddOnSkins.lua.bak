@@ -8,8 +8,11 @@ AddOnSkinsDB = {
 	["profiles"] = {
 		["Default"] = {
 			["DBMSkinHalf"] = true,
+			["Auctionator"] = false,
 		},
 	},
 }
 AddOnSkinsDS = {
+	[4.58] = {
+	},
 }

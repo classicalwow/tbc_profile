@@ -20,6 +20,14 @@ P.general = {
 	autoTrackReputation = false,
 	autoAcceptInvite = false,
 	topPanel = false,
+	customGlow = {
+		style = 'Pixel Glow',
+		color = { r = 23/255, g = 132/255, b = 209/255, a = 0.9 },
+		useColor = false,
+		speed = 0.3,
+		lines = 8,
+		size = 1,
+	},
 	topPanelSettings = {
 		transparent = true,
 		height = 22,
@@ -52,6 +60,8 @@ P.general = {
 		itemLevelFontOutline = 'OUTLINE',
 	},
 	durabilityScale = 1,
+	lockCameraDistanceMax = true,
+	cameraDistanceMax = E.Retail and 2.6 or 4,
 	afk = true,
 	afkChat = true,
 	numberPrefixStyle = 'ENGLISH',
@@ -75,10 +85,11 @@ P.general = {
 	bordercolor = { r = 0, g = 0, b = 0 }, -- updated in E.Initialize
 	backdropcolor = { r = 0.1, g = 0.1, b = 0.1 },
 	backdropfadecolor = { r = .06, g = .06, b = .06, a = 0.8 },
-	valuecolor = {r = 23/255, g = 132/255, b = 209/255},
+	valuecolor = { r = 23/255, g = 132/255, b = 209/255 },
 	cropIcon = 2,
 	minimap = {
-		size = 176,
+		size = 175,
+		scale = 1,
 		locationText = 'MOUSEOVER',
 		locationFontSize = 12,
 		locationFontOutline = 'OUTLINE',
@@ -96,7 +107,7 @@ P.general = {
 				hide = false,
 			},
 			tracking = {
-				scale = 0.8,
+				scale = 0.65,
 				position = 'BOTTOMLEFT',
 				xOffset = 3,
 				yOffset = 3,
@@ -119,7 +130,7 @@ P.general = {
 				scale = 1,
 				position = 'BOTTOMRIGHT',
 				xOffset = 3,
-				yOffset = 0
+				yOffset = -3
 			},
 			queueStatus = {
 				enable = true,
@@ -129,6 +140,12 @@ P.general = {
 				font = 'Expressway',
 				fontSize = 11,
 				fontOutline = 'OUTLINE',
+			},
+			battlefield = {
+				scale = 1.1,
+				position = 'BOTTOMRIGHT',
+				xOffset = 4,
+				yOffset = -4,
 			},
 			difficulty = {
 				scale = 1,
@@ -141,8 +158,24 @@ P.general = {
 				position = 'TOPLEFT',
 				xOffset = 8,
 				yOffset = -8,
-			},
+			}
 		}
+	},
+	lootRoll = {
+		width = 325,
+		height = 30,
+		spacing = 4,
+		buttonSize = 20,
+		style = 'halfbar',
+		statusBarTexture = 'ElvUI Norm',
+		leftButtons = false,
+		qualityName = false,
+		qualityStatusBar = true,
+		qualityStatusBarBackdrop = true,
+		statusBarColor = { r = 0, g = .4, b = 1 },
+		nameFont = 'Expressway',
+		nameFontSize = 12,
+		nameFontOutline = 'OUTLINE',
 	},
 	objectiveTracker = true,
 	totems = {
@@ -207,6 +240,7 @@ for _, databar in next, {'experience', 'reputation', 'honor', 'threat', 'azerite
 end
 
 P.databars.threat.hideInCombat = nil -- always on in code
+P.databars.threat.tankStatus = true
 
 P.databars.experience.hideAtMaxLevel = true
 P.databars.experience.showLevel = false
@@ -239,12 +273,12 @@ P.bags = {
 	currencyFormat = 'ICON_TEXT_ABBR',
 	moneyFormat = 'SMART',
 	moneyCoins = true,
+	questIcon = true,
 	junkIcon = false,
 	junkDesaturate = false,
 	scrapIcon = false,
 	upgradeIcon = true,
 	newItemGlow = true,
-	auctionToggle = true,
 	ignoredItems = {},
 	itemLevel = true,
 	itemLevelThreshold = 1,
@@ -283,18 +317,19 @@ P.bags = {
 	showAssignedIcon = true,
 	colors = {
 		profession = {
-			quiver = { r = 1, g = 0.69, b = 0.41 },
 			ammoPouch = { r = 1, g = 0.69, b = 0.41 },
-			soulBag = { r = 1, g = 0.69, b = 0.41 },
-			leatherworking = { r = .88, g = .73, b = .29 },
-			inscription = { r = .29, g = .30, b = .88 },
-			herbs = { r = .07, g = .71, b = .13 },
+			cooking = { r = .87, g = .05, b = .25 },
 			enchanting = { r = .76, g = .02, b = .8 },
 			engineering = { r = .91, g = .46, b = .18 },
-			gems = { r = .03, g = .71, b = .81 },
-			mining = { r = .54, g = .40, b = .04 },
 			fishing = { r = .42, g = .59, b = 1 },
-			cooking = { r = .87, g = .05, b = .25 },
+			gems = { r = .03, g = .71, b = .81 },
+			herbs = { r = .07, g = .71, b = .13 },
+			inscription = { r = .29, g = .30, b = .88 },
+			keyring = { r = 1, g = .96, b = .41 },
+			leatherworking = { r = .88, g = .73, b = .29 },
+			mining = { r = .54, g = .40, b = .04 },
+			quiver = { r = 1, g = 0.69, b = 0.41 },
+			soulBag = { r = 1, g = 0.69, b = 0.41 },
 		},
 		assignment = {
 			equipment = { r = 0, g = .50, b = .47 },
@@ -302,8 +337,8 @@ P.bags = {
 			tradegoods = { r = 1, g = .32, b = .66 },
 		},
 		items = {
-			questStarter = {r = 1, g = 1, b = 0},
-			questItem = {r = 1, g = 0.30, b = 0.30},
+			questStarter = { r = 1, g = .96, b = .41 },
+			questItem = { r = 1, g = 0.30, b = 0.30 },
 		}
 	},
 	vendorGrays = {
@@ -330,6 +365,16 @@ P.bags = {
 		bag11 = false,
 	},
 	shownBags = {},
+	autoToggle = {
+		bank = true,
+		mail = true,
+		vendor = true,
+		soulBind = true,
+		auctionHouse = true,
+		professions = false,
+		guildBank = false,
+		trade = false,
+	},
 	bagBar = {
 		growthDirection = 'VERTICAL',
 		sortDirection = 'ASCENDING',
@@ -557,6 +602,8 @@ P.nameplates = {
 	lowHealthThreshold = 0.4,
 	motionType = 'STACKED',
 	nameColoredGlow = false,
+	overlapH = 0.8,
+	overlapV = 1.1,
 	showEnemyCombat = 'DISABLED',
 	showFriendlyCombat = 'DISABLED',
 	smoothbars = false,
@@ -588,6 +635,7 @@ P.nameplates = {
 	},
 	threat = {
 		enable = true,
+		beingTankedByPet = true,
 		beingTankedByTank = true,
 		goodScale = 1,
 		badScale = 1,
@@ -929,6 +977,8 @@ local TopAuras = {
 P.auras = {
 	buffs = CopyTable(TopAuras),
 	debuffs = CopyTable(TopAuras),
+	colorEnchants = true,
+	colorDebuffs = true,
 }
 
 P.auras.debuffs.maxWraps = 1
@@ -1080,6 +1130,7 @@ P.tooltip = {
 	guildRanks = true,
 	itemQuality = false,
 	itemCount = 'BAGS_ONLY',
+	modifierCount = true,
 	showMount = true,
 	modifierID = 'SHOW',
 	role = true,
@@ -1172,6 +1223,7 @@ local UF_AuraBars = {
 	spacing = 0,
 	yOffset = 0,
 	clickThrough = false,
+	reverseFill = false,
 }
 
 local UF_AuraWatch = {
@@ -1206,7 +1258,6 @@ local UF_Castbar = {
 		fontSize = 12,
 		fontStyle = 'OUTLINE'
 	},
-	displayTarget = false,
 	enable = true,
 	format = 'REMAINING',
 	height = 18,
@@ -1893,8 +1944,6 @@ P.unitframe = {
 			growthDirection = 'UP_RIGHT',
 			horizontalSpacing = 0,
 			verticalSpacing = 3,
-			numGroups = 1,
-			groupsPerRowCol = 1,
 			groupBy = 'INDEX',
 			sortDir = 'ASC',
 			sortMethod = 'INDEX',
@@ -1932,6 +1981,7 @@ P.unitframe = {
 			roleIcon = CopyTable(UF_RoleIcon),
 			summonIcon = CopyTable(UF_SummonIcon),
 			targetsGroup = CopyTable(UF_SubGroup),
+			pvpclassificationindicator = CopyTable(UF_PvPClassificationIndicator),
 		},
 		tank = {
 			enable = true,
@@ -1968,6 +2018,8 @@ P.unitframe.units.player.buffs.priority = 'Blacklist,Personal,PlayerBuffs,Whitel
 P.unitframe.units.player.debuffs.enable = true
 P.unitframe.units.player.debuffs.priority = 'Blacklist,Personal,nonPersonal'
 P.unitframe.units.player.castbar.latency = true
+P.unitframe.units.player.castbar.displayTarget = false
+
 P.unitframe.units.player.fader.enable = false
 P.unitframe.units.player.fader.casting = true
 P.unitframe.units.player.fader.combat = true
@@ -2180,6 +2232,7 @@ P.unitframe.units.party.targetsGroup.buffIndicator = nil
 P.unitframe.units.party.targetsGroup.healPrediction = nil
 
 P.unitframe.units.raid = CopyTable(P.unitframe.units.party)
+P.unitframe.units.raid.groupsPerRowCol = 1
 P.unitframe.units.raid.groupBy = 'GROUP'
 P.unitframe.units.raid.buffs.numrows = 1
 P.unitframe.units.raid.buffs.perrow = 3
@@ -2217,7 +2270,9 @@ P.unitframe.units.raid40.power.enable = false
 P.unitframe.units.raid40.roleIcon.enable = false
 
 P.unitframe.units.raidpet = CopyTable(P.unitframe.units.raid)
+P.unitframe.units.raidpet.pvpclassificationindicator = nil
 P.unitframe.units.raidpet.enable = false
+P.unitframe.units.raidpet.raidWideSorting = true
 P.unitframe.units.raidpet.buffs.numrows = 1
 P.unitframe.units.raidpet.buffs.perrow = 3
 P.unitframe.units.raidpet.buffs.priority = 'Blacklist,Personal,Boss,PlayerBuffs,blockNoDuration,nonPersonal'
@@ -2226,7 +2281,7 @@ P.unitframe.units.raidpet.debuffs.perrow = 3
 P.unitframe.units.raidpet.debuffs.priority = 'Blacklist,Personal,Boss,Whitelist,RaidDebuffs,blockNoDuration,nonPersonal'
 P.unitframe.units.raidpet.growthDirection = 'DOWN_RIGHT'
 P.unitframe.units.raidpet.height = 30
-P.unitframe.units.raidpet.numGroups = 2
+P.unitframe.units.raidpet.numGroups = 8
 P.unitframe.units.raidpet.visibility = '[group:raid] show; hide'
 
 P.unitframe.units.tank.buffs.numrows = 1
@@ -2267,6 +2322,7 @@ end
 --Cooldown
 P.cooldown = {
 	threshold = 3,
+	roundTime = true,
 	hideBlizzard = false,
 	useIndicatorColor = false,
 	expiringColor = { r = 1, g = 0, b = 0 },
@@ -2325,6 +2381,8 @@ P.actionbar = {
 	noPowerColor = { r = 0.5, g = 0.5, b = 1 },
 	noRangeColor = { r = 0.8, g = 0.1, b = 0.1 },
 	notUsableColor = { r = 0.4, g = 0.4, b = 0.4 },
+	checkSelfCast = true,
+	checkFocusCast = true,
 	rightClickSelfCast = false,
 	transparent = false,
 	usableColor = { r = 1, g = 1, b = 1 },

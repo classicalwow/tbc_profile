@@ -184,5 +184,4 @@ g_ArgentDawnSPItems = {
 
 CSC_SYMBOL_TAB   = "    "; -- for some reason "\t" doesn't work
 CSC_SYMBOL_SPACE = " ";
---csctbc
                                 

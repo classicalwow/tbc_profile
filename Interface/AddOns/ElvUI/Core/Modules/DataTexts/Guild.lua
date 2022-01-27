@@ -25,7 +25,7 @@ local UnitInRaid = UnitInRaid
 local InCombatLockdown = InCombatLockdown
 local IsAltKeyDown = IsAltKeyDown
 
-local C_PartyInfo_InviteUnit = C_PartyInfo.InviteUnit
+local InviteUnit = C_PartyInfo.InviteUnit or InviteUnit
 local C_PartyInfo_RequestInviteFromUnit = C_PartyInfo.RequestInviteFromUnit
 
 local COMBAT_FACTION_CHANGE = COMBAT_FACTION_CHANGE
@@ -172,14 +172,14 @@ local function inviteClick(_, name, guid)
 	if guid then
 		local inviteType = GetDisplayedInviteType(guid)
 		if inviteType == 'INVITE' or inviteType == 'SUGGEST_INVITE' then
-			C_PartyInfo_InviteUnit(name)
-		elseif inviteType == 'REQUEST_INVITE' then
+			InviteUnit(name)
+		elseif inviteType == 'REQUEST_INVITE' and E.Retail then
 			C_PartyInfo_RequestInviteFromUnit(name)
 		end
 	else
 		-- if for some reason guid isnt here fallback and just try to invite them
 		-- this is unlikely but having a fallback doesnt hurt
-		C_PartyInfo_InviteUnit(name)
+		InviteUnit(name)
 	end
 end
 

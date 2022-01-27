@@ -5,7 +5,7 @@
 ]]
 local E, L, V, P, G = unpack(ElvUI)
 
-G.nameplate.filters = {
+G.nameplates.filters = {
 	ElvUI_Boss = {
 		triggers = {
 			level = true,
@@ -44,7 +44,7 @@ G.nameplate.filters = {
 }
 
 if E.Retail then
-	G.nameplate.filters.ElvUI_Explosives = {
+	G.nameplates.filters.ElvUI_Explosives = {
 		triggers = {
 			priority = 2,
 			nameplateType = {
@@ -261,6 +261,8 @@ E.StyleFilterDefaults = {
 			maxTimeLeft = 0,
 			hasStealable = false,
 			hasNoStealable = false,
+			fromMe = false,
+			fromPet = false,
 			names = {}
 		},
 		debuffs = {
@@ -270,6 +272,8 @@ E.StyleFilterDefaults = {
 			maxTimeLeft = 0,
 			hasDispellable = false,
 			hasNoDispellable = false,
+			fromMe = false,
+			fromPet = false,
 			names = {}
 		},
 		bossMods = {

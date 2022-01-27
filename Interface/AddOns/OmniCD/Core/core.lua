@@ -93,16 +93,25 @@ E.LoadPosition = function(f, key)
 	end
 end
 
-function OmniCD_AnchorOnMouseDown(self)
+function OmniCD_AnchorOnMouseDown(self, button)
 	local bar = self:GetParent()
-	bar:StartMoving()
+	bar = bar == UIParent and self or bar
+	if button == "LeftButton" and not bar.isMoving then
+		bar:StartMoving()
+		bar.isMoving = true
+
+	end
 end
 
-function OmniCD_AnchorOnMouseUp(self)
+function OmniCD_AnchorOnMouseUp(self, button)
 	local bar = self:GetParent()
-	bar:StopMovingOrSizing()
-	SavePosition(bar)
---  E:ACR_NotifyChange() -- if we're adding X/Y coordinates in option
+	bar = bar == UIParent and self or bar
+	if button == "LeftButton" and bar.isMoving then
+		bar:StopMovingOrSizing()
+		bar.isMoving = false
+		SavePosition(bar)
+	end
+--  E:ACR_NotifyChange() -- udpate X/Y coordinates in option
 end
 
 E.SetWidth = function(anchor, padding)
@@ -195,20 +204,27 @@ E.RegisterEvents = function(f, t)
 end
 
 E.UnregisterEvents = function(f, t)
-	if not t then return end
-	f.eventMap = f.eventMap or {}
+	local map = f.eventMap
+	if not map then return end
 
-	if type(t) == "table" then
-		for i = 1, #t do
-			local event = t[i]
-			if f.eventMap[event] then
-				f:UnregisterEvent(event)
-				f.eventMap[event] = nil
+	if t then
+		if type(t) == "table" then
+			for i = 1, #t do
+				local event = t[i]
+				if map[event] then
+					f:UnregisterEvent(event)
+					map[event] = nil
+				end
 			end
+		elseif map[t] then
+			f:UnregisterEvent(t)
+			map[t] = nil
 		end
-	elseif f.eventMap[t] then
-		f:UnregisterEvent(t)
-		f.eventMap[t] = nil
+	else
+		for event in pairs(map) do
+			f:UnregisterEvent(event)
+			map[event] = nil
+		end
 	end
 end
 
@@ -276,4 +292,15 @@ E.SortHashToArray = function(src, db)
 	t = nil
 
 	return sorted
+end
+
+E.GetClassHexColor = function(class)
+	local hex = select(4, GetClassColor(class))
+	return "|c" .. hex
+end
+
+E.borderlessCoords = {0.07, 0.93, 0.07, 0.93}
+
+E.RGBToHex = function(r, g, b)
+	return format("|cff%02x%02x%02x", r*255, g*255, b*255)
 end

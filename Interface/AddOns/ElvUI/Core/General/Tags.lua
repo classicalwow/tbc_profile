@@ -25,7 +25,6 @@ local GetCreatureDifficultyColor = GetCreatureDifficultyColor
 local GetRelativeDifficultyColor = GetRelativeDifficultyColor
 local GetSpecialization = GetSpecialization
 local GetSpecializationInfo = GetSpecializationInfo
-local GetThreatStatusColor = GetThreatStatusColor
 local GetRuneCooldown = GetRuneCooldown
 local GetTime = GetTime
 local GetUnitSpeed = GetUnitSpeed
@@ -65,6 +64,8 @@ local UnitStagger = UnitStagger
 local GetCurrentTitle = GetCurrentTitle
 local GetTitleName = GetTitleName
 local UnitLevel = UnitLevel
+local UnitPVPRank = UnitPVPRank
+local GetPVPRankInfo = GetPVPRankInfo
 
 local GetUnitPowerBarTextureInfo = GetUnitPowerBarTextureInfo
 local C_QuestLog_GetTitleForQuestID = C_QuestLog.GetTitleForQuestID
@@ -645,7 +646,7 @@ end)
 E:AddTag('threatcolor', 'UNIT_THREAT_LIST_UPDATE UNIT_THREAT_SITUATION_UPDATE GROUP_ROSTER_UPDATE', function(unit)
 	local _, status = UnitDetailedThreatSituation('player', unit)
 	if status and (IsInGroup() or UnitExists('pet')) then
-		return Hex(GetThreatStatusColor(status))
+		return Hex(E:GetThreatStatusColor(status, true))
 	end
 end)
 
@@ -1217,16 +1218,16 @@ do
 	local classIcons = {
 		WARRIOR		= '0:64:0:64',
 		MAGE		= '64:128:0:64',
-		ROGUE		= '128:196:0:64',
-		DRUID		= '196:256:0:64',
+		ROGUE		= '128:192:0:64',
+		DRUID		= '192:256:0:64',
 		HUNTER		= '0:64:64:128',
 		SHAMAN		= '64:128:64:128',
-		PRIEST		= '128:196:64:128',
-		WARLOCK		= '196:256:64:128',
-		PALADIN		= '0:64:128:196',
-		DEATHKNIGHT = '64:128:128:196',
-		MONK		= '128:192:128:196',
-		DEMONHUNTER = '192:256:128:196',
+		PRIEST		= '128:192:64:128',
+		WARLOCK		= '192:256:64:128',
+		PALADIN		= '0:64:128:192',
+		DEATHKNIGHT = '64:128:128:192',
+		MONK		= '128:192:128:192',
+		DEMONHUNTER = '192:256:128:192',
 	}
 
 	E:AddTag('class:icon', 'PLAYER_TARGET_CHANGED', function(unit)
@@ -1297,6 +1298,38 @@ if not E.Retail then
 		local hasPetUI, isHunterPet = HasPetUI()
 		if hasPetUI and isHunterPet and UnitIsUnit('pet', unit) then
 			return GetPetFoodTypes()
+		end
+	end)
+
+	E:AddTag('pvp:title', 'UNIT_NAME_UPDATE', function(unit)
+		if UnitIsPlayer(unit) then
+			local rank = UnitPVPRank(unit)
+			local title = GetPVPRankInfo(rank, unit)
+
+			return title
+		end
+	end)
+
+	E:AddTag('pvp:rank', 'UNIT_NAME_UPDATE', function(unit)
+		if UnitIsPlayer(unit) then
+			local rank = UnitPVPRank(unit)
+			local _, num = GetPVPRankInfo(rank, unit)
+
+			if num > 0 then
+				return num
+			end
+		end
+	end)
+
+	local rankIcon = [[|TInterface\PvPRankBadges\PvPRank%02d:12:12:0:0:12:12:0:12:0:12|t]]
+	E:AddTag('pvp:icon', 'UNIT_NAME_UPDATE', function(unit)
+		if UnitIsPlayer(unit) then
+			local rank = UnitPVPRank(unit)
+			local _, num = GetPVPRankInfo(rank, unit)
+
+			if num > 0 then
+				return format(rankIcon, num)
+			end
 		end
 	end)
 end
@@ -1498,6 +1531,9 @@ E.TagInfo = {
 		['faction'] = { category = 'PvP', description = "Displays 'Alliance' or 'Horde'" },
 		['pvp'] = { category = 'PvP', description = "Displays 'PvP' if the unit is pvp flagged" },
 		['pvptimer'] = { category = 'PvP', description = "Displays remaining time on pvp-flagged status" },
+		['pvp:icon'] = { hidden = E.Retail, category = 'PvP', description = "Displays player pvp rank icon" },
+		['pvp:rank'] = { hidden = E.Retail, category = 'PvP', description = "Displays player pvp rank number" },
+		['pvp:title'] = { hidden = E.Retail, category = 'PvP', description = "Displays player pvp title" },
 	-- Quest
 		['quest:info'] = { category = 'Quest', description = "Displays the quest objectives" },
 		['quest:title'] = { category = 'Quest', description = "Displays the quest title" },

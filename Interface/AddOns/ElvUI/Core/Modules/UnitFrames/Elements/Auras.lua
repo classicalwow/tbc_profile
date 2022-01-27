@@ -20,7 +20,8 @@ local UnitIsUnit = UnitIsUnit
 UF.MatchGrowthY = { TOP = 'TOP', BOTTOM = 'BOTTOM' }
 UF.MatchGrowthX = { LEFT = 'LEFT', RIGHT = 'RIGHT' }
 UF.ExcludeStacks = {
-	[113862] = 'Greater Invisibility',
+	[113862] = 'Greater Invisibility', -- Mage
+	[295378] = 'Concentrated Flame', -- Heart of Azeroth
 	[324631] = 'Fleshcraft' -- Necrolord
 }
 
@@ -398,10 +399,6 @@ function UF:PreUpdateAura()
 	wipe(self.stacks)
 
 	self.currentRow = nil
-
-	-- used for StyleFilters
-	self.hasStealable = nil
-	self.hasDispellable = nil
 end
 
 function UF:PostUpdateAura(_, button)
@@ -574,10 +571,6 @@ function UF:AuraFilter(unit, button, name, icon, count, debuffType, duration, ex
 	button.spellID = spellID
 	button.name = name
 	button.priority = 0
-
-	-- used for StyleFilters
-	if isStealable then self.hasStealable = true end
-	if dispel then self.hasDispellable = true end
 
 	if db.stackAuras and not UF.ExcludeStacks[spellID] then
 		local matching = source and castByPlayer and format('%s:%s', source, name) or name

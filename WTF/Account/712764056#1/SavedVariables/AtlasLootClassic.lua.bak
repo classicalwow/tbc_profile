@@ -7,7 +7,7 @@ AtlasLootClassicDB = {
 		["畜生犬隊長 - 伊弗斯"] = "畜生犬隊長 - 伊弗斯",
 	},
 	["global"] = {
-		["__addonrevision"] = 2040000,
+		["__addonrevision"] = 2040001,
 	},
 	["profiles"] = {
 		["路易斯桑拿 - 伊弗斯"] = {
@@ -21,13 +21,13 @@ AtlasLootClassicDB = {
 					nil, -- [1]
 					nil, -- [2]
 					"CENTER", -- [3]
-					138.9470977783203, -- [4]
-					-148.8160247802734, -- [5]
+					-169.9780883789063, -- [4]
+					-138.32421875, -- [5]
 				},
 				["selected"] = {
-					nil, -- [1]
-					"SerpentshrineCavern", -- [2]
-					6, -- [3]
+					"AtlasLootClassic_Crafting", -- [1]
+					"EnchantingBC", -- [2]
+					nil, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},

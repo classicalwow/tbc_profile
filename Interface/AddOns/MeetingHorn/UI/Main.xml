@@ -659,6 +659,25 @@
                             <Anchor point="TOPLEFT" x="60" y="28"/>
                         </Anchors>
                     </Button>
+                    <Button parentKey="LookFall">
+                        <Size x="160" y="16"/>
+                        <Anchors>
+                            <Anchor point="TOPRIGHT" x="-60" y="25"/>
+                        </Anchors>
+                        <NormalTexture parentKey="Icon" alphaMode="ADD" file="Interface\AddOns\MeetingHorn\Media\QRIcon">
+                            <Anchors>
+                                <Anchor point="LEFT"/>
+                            </Anchors>
+                            <Size x="14" y="14"/>
+                            <TexCoords left="0.390625" right="0.8" top="0" bottom="0.78125"/>
+                        </NormalTexture>
+                        
+                        <ButtonText inherits="GameFontNormalLeft">
+                            <Anchors>
+                                <Anchor relativeKey="$parent.Icon" relativePoint="RIGHT" point="LEFT" x="8"/>
+                            </Anchors>
+                        </ButtonText>
+                    </Button>
                     <Button parentKey="ZoneButton" inherits="MeetingHornEncounterDifficultyTemplate">
                         <Anchors>
                             <Anchor point="LEFT" relativeKey="$parent.Title" relativePoint="RIGHT" x="30" y="0"/>

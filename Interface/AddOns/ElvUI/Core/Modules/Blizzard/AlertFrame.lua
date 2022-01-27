@@ -3,7 +3,6 @@ local B = E:GetModule('Blizzard')
 local Misc = E:GetModule('Misc')
 
 local _G = _G
-local pairs = pairs
 local ipairs = ipairs
 local CreateFrame = CreateFrame
 local hooksecurefunc = hooksecurefunc
@@ -31,51 +30,20 @@ function E:PostAlertMove()
 	local AlertFrame = _G.AlertFrame
 	local GroupLootContainer = _G.GroupLootContainer
 
-	local rollBars = Misc.RollBars
-	if E.private.general.lootRoll then
-		local lastframe, lastShownFrame
-		for i, frame in pairs(rollBars) do
-			frame:ClearAllPoints()
-			if i ~= 1 then
-				if POSITION == 'TOP' then
-					frame:Point('TOP', lastframe, 'BOTTOM', 0, -4)
-				else
-					frame:Point('BOTTOM', lastframe, 'TOP', 0, 4)
-				end
-			else
-				if POSITION == 'TOP' then
-					frame:Point('TOP', AlertFrameHolder, 'BOTTOM', 0, -4)
-				else
-					frame:Point('BOTTOM', AlertFrameHolder, 'TOP', 0, 4)
-				end
-			end
-			lastframe = frame
+	AlertFrame:ClearAllPoints()
+	GroupLootContainer:ClearAllPoints()
 
-			if frame:IsShown() then
-				lastShownFrame = frame
-			end
-		end
-
-		AlertFrame:ClearAllPoints()
-		GroupLootContainer:ClearAllPoints()
-		if lastShownFrame then
-			AlertFrame:SetAllPoints(lastShownFrame)
-			GroupLootContainer:Point(POSITION, lastShownFrame, ANCHOR_POINT, 0, YOFFSET)
-		else
-			AlertFrame:SetAllPoints(AlertFrameHolder)
-			GroupLootContainer:Point(POSITION, AlertFrameHolder, ANCHOR_POINT, 0, YOFFSET)
-		end
-		if GroupLootContainer:IsShown() then
-			B.GroupLootContainer_Update(GroupLootContainer)
-		end
+	local lastRollFrame = E.private.general.lootRoll and Misc:UpdateLootRollAnchors(POSITION)
+	if lastRollFrame then
+		AlertFrame:SetAllPoints(lastRollFrame)
+		GroupLootContainer:Point(POSITION, lastRollFrame, ANCHOR_POINT, 0, YOFFSET)
 	else
-		AlertFrame:ClearAllPoints()
 		AlertFrame:SetAllPoints(AlertFrameHolder)
-		GroupLootContainer:ClearAllPoints()
 		GroupLootContainer:Point(POSITION, AlertFrameHolder, ANCHOR_POINT, 0, YOFFSET)
-		if GroupLootContainer:IsShown() then
-			B.GroupLootContainer_Update(GroupLootContainer)
-		end
+	end
+
+	if GroupLootContainer:IsShown() then
+		B.GroupLootContainer_Update(GroupLootContainer)
 	end
 end
 
@@ -170,8 +138,8 @@ function B:AlertMovers()
 		--Queued Alerts:
 		/run AchievementAlertSystem:AddAlert(5192)
 		/run CriteriaAlertSystem:AddAlert(9023, 'Doing great!')
-		/run LootAlertSystem:AddAlert('\124cffa335ee\124Hitem:18832::::::::::\124h[Brutality Blade]\124h\124r', 1, 1, 1, 1, false, false, 0, false, false)
-		/run LootUpgradeAlertSystem:AddAlert('\124cffa335ee\124Hitem:18832::::::::::\124h[Brutality Blade]\124h\124r', 1, 1, 1, nil, nil, false)
+		/run LootAlertSystem:AddAlert('|cffa335ee|Hitem:18832::::::::::|h[Brutality Blade]|h|r', 1, 1, 1, 1, false, false, 0, false, false)
+		/run LootUpgradeAlertSystem:AddAlert('|cffa335ee|Hitem:18832::::::::::|h[Brutality Blade]|h|r', 1, 1, 1, nil, nil, false)
 		/run MoneyWonAlertSystem:AddAlert(81500)
 		/run NewRecipeLearnedAlertSystem:AddAlert(204)
 
@@ -184,7 +152,7 @@ function B:AlertMovers()
 		/run GarrisonFollowerAlertSystem:AddAlert(204, 'Ben Stone', 90, 3, false)
 		/run GarrisonMissionAlertSystem:AddAlert(681) (Requires a mission ID that is in your mission list.)
 		/run GarrisonShipFollowerAlertSystem:AddAlert(592, 'Test', 'Transport', 'GarrBuilding_Barracks_1_H', 3, 2, 1)
-		/run LegendaryItemAlertSystem:AddAlert('\124cffa335ee\124Hitem:18832::::::::::\124h[Brutality Blade]\124h\124r')
+		/run LegendaryItemAlertSystem:AddAlert('|cffa335ee|Hitem:18832::::::::::|h[Brutality Blade]|h|r')
 		/run EntitlementDeliveredAlertSystem:AddAlert('', [[Interface\Icons\Ability_pvp_gladiatormedallion]], TRINKET0SLOT, 214)
 		/run RafRewardDeliveredAlertSystem:AddAlert('', [[Interface\Icons\Ability_pvp_gladiatormedallion]], TRINKET0SLOT, 214)
 		/run DigsiteCompleteAlertSystem:AddAlert('Human')

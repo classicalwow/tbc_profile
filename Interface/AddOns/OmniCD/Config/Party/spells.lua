@@ -88,8 +88,9 @@ local spells = {
 	set = function(info, state) E[info[1]].setSpell(info, state) end,
 	args = {
 		raidDesc = {
-			hidden = isntRaidCDOption,
-			name = L["Assign Raid Cooldowns."],
+--          hidden = isntRaidCDOption,
+--          name = L["Assign Raid Cooldowns."],
+			name = function(info) return isntRaidCDOption(info) and "|cffff2020Ctrl click to edit spell.\n\n" or L["Assign Raid Cooldowns."] end,
 			order = 0,
 			type = "description",
 		},
@@ -125,7 +126,7 @@ local spells = {
 		},
 		]]
 		showForbearanceCounter = {
-			hidden = E.isClassic and true or isntSpellsOption,
+			hidden = E.isClassic or isntSpellsOption,
 			name = L["Show Forbearance CD"],
 			desc = L["Show timer on spells while under the effect of Forbearance or Hypothermia. Spells castable to others will darken instead"],
 			order = 4,
@@ -155,8 +156,29 @@ local spells = {
 	}
 }
 
-local borderlessCoords = {0.07, 0.93, 0.07, 0.93}
-E.borderlessCoords = borderlessCoords
+-- Fix ACCESS_VIOLATION error
+local numOthers = #E.OTHER_SORT_ORDER
+for i = 1, numOthers do
+	local class = E.OTHER_SORT_ORDER[i]
+	local icon = E.ICO[class]
+	local name = E.L_CATAGORY_OTHER[class]
+	spells.args[class] = {
+		icon = icon,
+		iconCoords = E.borderlessCoords,
+		name = name,
+		order = i,
+		type = "group",
+		args = {}
+	}
+end
+
+spells.args.othersHeader = {
+	disabled = true,
+	name = "```", -- myAce: make the group a line break
+	order = 10,
+	type = "group",
+	args = {}
+}
 
 for i = 1, MAX_CLASSES do
 	local class = CLASS_SORT_ORDER[i] -- back to individual class icons for tree grp
@@ -166,31 +188,8 @@ for i = 1, MAX_CLASSES do
 --      icon = E.ICO.CLASS,
 		icon = E.ICO.CLASS .. class,
 --      iconCoords = iconCoords,
-		iconCoords = borderlessCoords,
+		iconCoords = E.borderlessCoords,
 		name = name,
-		type = "group",
-		args = {}
-	}
-end
-
-spells.args.othersHeader = {
-	disabled = true,
-	name = "```", -- myAce: make the group a line break
-	order = 2000,
-	type = "group",
-	args = {}
-}
-
-local numOthers = #E.OTHER_SORT_ORDER
-for i = 1, numOthers do
-	local class = E.OTHER_SORT_ORDER[i]
-	local icon = E.ICO[class]
-	local name = E.L_CATAGORY_OTHER[class]
-	spells.args[class] = {
-		icon = icon,
-		iconCoords = borderlessCoords,
-		name = name,
-		order = 2000 + i,
 		type = "group",
 		args = {}
 	}
@@ -261,11 +260,12 @@ function P:UpdateSpellsOption(id, oldClass, oldType, class, stype, force)
 					t[sId] = {
 						hidden = isRaidOptDisabledID,
 						image =  icon,
-						imageCoords = borderlessCoords,
+						imageCoords = E.borderlessCoords,
 						name = name,
 						desc = link,
 						order = order,
 						type = "toggle",
+						arg = spellID,
 					}
 				end
 
@@ -317,11 +317,12 @@ function P:AddSpellPickerSpells()
 				t[vtype].args[sId] = {
 					hidden = isRaidOptDisabledID,
 					image = icon,
-					imageCoords = borderlessCoords, -- values doesn't matter, just needs to be added to crop
+					imageCoords = E.borderlessCoords, -- myAce: values doesn't matter, just needs to be added to crop
 					name = name,
 					desc = link,
 					order = order,
 					type = "toggle",
+					arg = spellID, -- myAce: number (ctrl click to edit) or function (dnd - nyi)
 				}
 
 				if class == "TRINKET" and v.item then

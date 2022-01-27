@@ -438,17 +438,22 @@ function ns.ApplyLeaderBtnClick(Btn, param)
         if not Btn.QRApplyLeaderTooltip then
             Btn.QRApplyLeaderTooltip = CreateFrame('Frame', nil, Btn, 'MeetingHornActivityTooltipTemplate')
             Btn.QRApplyLeaderTooltip:ClearAllPoints()
-            Btn.QRApplyLeaderTooltip:SetPoint('BOTTOMLEFT', Btn, 'BOTTOMRIGHT', 20, -8)
+            if param.point then
+                Btn.QRApplyLeaderTooltip:SetPoint(unpack(param.point))
+            else
+                Btn.QRApplyLeaderTooltip:SetPoint('BOTTOMLEFT', Btn, 'BOTTOMRIGHT', 20, -8)
+            end
             local qrCode = Btn.QRApplyLeaderTooltip.QRCode:CreateTexture(nil, 'ARTWORK')
             qrCode:SetAllPoints()
             Btn.QRApplyLeaderTooltip.QRCode.texture = qrCode
             Btn.QRApplyLeaderTooltip:Hide()
         end
         Btn.QRApplyLeaderTooltip.Text:SetText(param.tip or '微信扫码 申请星团长')
-        Btn.QRApplyLeaderTooltip.QRCode.texture:SetTexture(param.qrTexture or 'Interface/AddOns/MeetingHorn/Media/ApplyLeaderQR')
+        Btn.QRApplyLeaderTooltip.QRCode.texture:SetTexture(param.qrTexture or
+                                                               'Interface/AddOns/MeetingHorn/Media/ApplyLeaderQR')
         Btn.QRApplyLeaderTooltip:SetHeight(param.height or 215)
         Btn.QRApplyLeaderTooltip:Show()
-        
+
     end
     if param.clickTarget then
         param.clickTarget:SetScript('OnClick', OnBtnClick)

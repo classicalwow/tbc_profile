@@ -100,6 +100,14 @@ mod.TriggerConditions = {
 		[4] = 'legacy25normal',
 		[5] = 'legacy10heroic',
 		[6] = 'legacy25heroic',
+		-- classic / tbc
+		[9] = 'legacy40normal',
+		[148] = 'legacy20normal',
+		[173] = 'normal',
+		[174] = 'heroic',
+		-- wotlk (pretty sure)
+		--[175] = 'legacy10heroic',
+		--[176] = 'legacy25heroic',
 	}
 }
 
@@ -310,37 +318,57 @@ function mod:StyleFilterAuraWait(frame, ticker, timer, timeLeft, mTimeLeft)
 	end
 end
 
-function mod:StyleFilterAuraCheck(frame, names, tickers, filter, mustHaveAll, missing, minTimeLeft, maxTimeLeft)
+function mod:StyleFilterDispelCheck(frame, filter)
+	local index = 1
+	local name, _, _, debuffType, _, _, _, isStealable = UnitAura(frame.unit, index, filter)
+	while name do
+		if filter == 'HELPFUL' then
+			if isStealable then
+				return true
+			end
+		elseif debuffType and E:IsDispellableByMe(debuffType) then
+			return true
+		end
+
+		index = index + 1
+		name, _, _, debuffType, _, _, _, isStealable = UnitAura(frame.unit, index, filter)
+	end
+end
+
+function mod:StyleFilterAuraCheck(frame, names, tickers, filter, mustHaveAll, missing, minTimeLeft, maxTimeLeft, fromMe, fromPet)
 	local total, matches = 0, 0
 	for key, value in pairs(names) do
 		if value then -- only if they are turned on
 			total = total + 1 -- keep track of the names
 
 			local index = 1
-			local name, _, count, _, _, expiration, _, _, _, spellID = UnitAura(frame.unit, index, filter)
+			local name, _, count, _, _, expiration, source, _, _, spellID = UnitAura(frame.unit, index, filter)
 			while name do
 				local spell, stacks, failed = strmatch(key, mod.StyleFilterStackPattern)
 				if stacks ~= '' then failed = not (count and count >= tonumber(stacks)) end
 				if not failed and ((name and name == spell) or (spellID and spellID == tonumber(spell))) then
-					local hasMinTime = minTimeLeft and minTimeLeft ~= 0
-					local hasMaxTime = maxTimeLeft and maxTimeLeft ~= 0
-					local timeLeft = (hasMinTime or hasMaxTime) and expiration and (expiration - GetTime())
-					local minTimeAllow = not hasMinTime or (timeLeft and timeLeft > minTimeLeft)
-					local maxTimeAllow = not hasMaxTime or (timeLeft and timeLeft < maxTimeLeft)
+					local isMe, isPet = source == 'player' or source == 'vehicle', source == 'pet'
+					if fromMe and fromPet and (isMe or isPet) or (fromMe and isMe) or (fromPet and isPet) or (not fromMe and not fromPet) then
+						local hasMinTime = minTimeLeft and minTimeLeft ~= 0
+						local hasMaxTime = maxTimeLeft and maxTimeLeft ~= 0
+						local timeLeft = (hasMinTime or hasMaxTime) and expiration and (expiration - GetTime())
+						local minTimeAllow = not hasMinTime or (timeLeft and timeLeft > minTimeLeft)
+						local maxTimeAllow = not hasMaxTime or (timeLeft and timeLeft < maxTimeLeft)
 
-					if minTimeAllow and maxTimeAllow then
-						matches = matches + 1 -- keep track of how many matches we have
-					end
+						if minTimeAllow and maxTimeAllow then
+							matches = matches + 1 -- keep track of how many matches we have
+						end
 
-					if timeLeft then -- if we use a min/max time setting; we must create a delay timer
-						if not tickers[matches] then tickers[matches] = {} end
-						if hasMinTime then mod:StyleFilterAuraWait(frame, tickers[matches], 'hasMinTimer', timeLeft, minTimeLeft) end
-						if hasMaxTime then mod:StyleFilterAuraWait(frame, tickers[matches], 'hasMaxTimer', timeLeft, maxTimeLeft) end
+						if timeLeft then -- if we use a min/max time setting; we must create a delay timer
+							if not tickers[matches] then tickers[matches] = {} end
+							if hasMinTime then mod:StyleFilterAuraWait(frame, tickers[matches], 'hasMinTimer', timeLeft, minTimeLeft) end
+							if hasMaxTime then mod:StyleFilterAuraWait(frame, tickers[matches], 'hasMaxTimer', timeLeft, maxTimeLeft) end
+						end
 					end
 				end
 
 				index = index + 1
-				name, _, count, _, _, expiration, _, _, _, spellID = UnitAura(frame.unit, index, filter)
+				name, _, count, _, _, expiration, source, _, _, spellID = UnitAura(frame.unit, index, filter)
 			end
 
 			local stale = matches + 1
@@ -696,7 +724,7 @@ function mod:StyleFilterConditionCheck(frame, filter, trigger)
 	end
 
 	-- Quest Boss
-	if trigger.questBoss then
+	if trigger.questBoss and E.Retail then
 		if UnitIsQuestBoss(frame.unit) then passed = true else return end
 	end
 
@@ -806,7 +834,7 @@ function mod:StyleFilterConditionCheck(frame, filter, trigger)
 	end
 
 	-- Unit Role
-	if trigger.unitRole.tank or trigger.unitRole.healer or trigger.unitRole.damager then
+	if E.Retail and (trigger.unitRole.tank or trigger.unitRole.healer or trigger.unitRole.damager) then
 		local role = UnitGroupRolesAssigned(frame.unit)
 		if trigger.unitRole[mod.TriggerConditions.roles[role]] then passed = true else return end
 	end
@@ -915,7 +943,7 @@ function mod:StyleFilterConditionCheck(frame, filter, trigger)
 	end
 
 	-- Talents
-	if trigger.talent.enabled then
+	if trigger.talent.enabled and E.Retail then
 		local pvpTalent = trigger.talent.type == 'pvp'
 		local selected, complete
 
@@ -990,12 +1018,13 @@ function mod:StyleFilterConditionCheck(frame, filter, trigger)
 	if frame.Buffs and trigger.buffs then
 		-- Has Stealable
 		if trigger.buffs.hasStealable or trigger.buffs.hasNoStealable then
-			if (trigger.buffs.hasStealable and frame.Buffs.hasStealable) or (trigger.buffs.hasNoStealable and not frame.Buffs.hasStealable) then passed = true else return end
+			local isStealable = mod:StyleFilterDispelCheck(frame, filter)
+			if (trigger.buffs.hasStealable and isStealable) or (trigger.buffs.hasNoStealable and not isStealable) then passed = true else return end
 		end
 
 		-- Names / Spell IDs
 		if trigger.buffs.names and next(trigger.buffs.names) then
-			local buff = mod:StyleFilterAuraCheck(frame, trigger.buffs.names, frame.Buffs.tickers, 'HELPFUL', trigger.buffs.mustHaveAll, trigger.buffs.missing, trigger.buffs.minTimeLeft, trigger.buffs.maxTimeLeft)
+			local buff = mod:StyleFilterAuraCheck(frame, trigger.buffs.names, frame.Buffs.tickers, 'HELPFUL', trigger.buffs.mustHaveAll, trigger.buffs.missing, trigger.buffs.minTimeLeft, trigger.buffs.maxTimeLeft, trigger.buffs.fromMe, trigger.buffs.fromPet)
 			if buff ~= nil then -- ignore if none are selected
 				if buff then passed = true else return end
 			end
@@ -1006,11 +1035,12 @@ function mod:StyleFilterConditionCheck(frame, filter, trigger)
 	if frame.Debuffs and trigger.debuffs and trigger.debuffs.names and next(trigger.debuffs.names) then
 		-- Has Dispellable
 		if trigger.debuffs.hasDispellable or trigger.debuffs.hasNoDispellable then
-			if (trigger.debuffs.hasDispellable and frame.Debuffs.hasDispellable) or (trigger.debuffs.hasNoDispellable and not frame.Debuffs.hasDispellable) then passed = true else return end
+			local canDispel = mod:StyleFilterDispelCheck(frame, filter)
+			if (trigger.debuffs.hasDispellable and canDispel) or (trigger.debuffs.hasNoDispellable and not canDispel) then passed = true else return end
 		end
 
 		-- Names / Spell IDs
-		local debuff = mod:StyleFilterAuraCheck(frame, trigger.debuffs.names, frame.Debuffs.tickers, 'HARMFUL', trigger.debuffs.mustHaveAll, trigger.debuffs.missing, trigger.debuffs.minTimeLeft, trigger.debuffs.maxTimeLeft)
+		local debuff = mod:StyleFilterAuraCheck(frame, trigger.debuffs.names, frame.Debuffs.tickers, 'HARMFUL', trigger.debuffs.mustHaveAll, trigger.debuffs.missing, trigger.debuffs.minTimeLeft, trigger.debuffs.maxTimeLeft, trigger.debuffs.fromMe, trigger.debuffs.fromPet)
 		if debuff ~= nil then -- ignore if none are selected
 			if debuff then passed = true else return end
 		end
@@ -1221,7 +1251,7 @@ function mod:StyleFilterConfigure()
 	wipe(list)
 
 	if mod.db.filters then
-		for filterName, filter in pairs(E.global.nameplate.filters) do
+		for filterName, filter in pairs(E.global.nameplates.filters) do
 			local t = filter.triggers
 			if t and mod.db.filters[filterName] and mod.db.filters[filterName].triggers and mod.db.filters[filterName].triggers.enable then
 				tinsert(list, {filterName, t.priority or 1})
@@ -1372,7 +1402,7 @@ function mod:StyleFilterUpdate(frame, event)
 	mod:StyleFilterClear(frame)
 
 	for filterNum in ipairs(mod.StyleFilterTriggerList) do
-		local filter = E.global.nameplate.filters[mod.StyleFilterTriggerList[filterNum][1]]
+		local filter = E.global.nameplates.filters[mod.StyleFilterTriggerList[filterNum][1]]
 		if filter then
 			mod:StyleFilterConditionCheck(frame, filter, filter.triggers)
 		end
@@ -1501,14 +1531,14 @@ function mod:StyleFilterRemoveCustomCheck(name)
 end
 
 function mod:PLAYER_LOGOUT()
-	mod:StyleFilterClearDefaults(E.global.nameplate.filters)
+	mod:StyleFilterClearDefaults(E.global.nameplates.filters)
 end
 
 function mod:StyleFilterClearDefaults(tbl)
 	for filterName, filterTable in pairs(tbl) do
-		if G.nameplate.filters[filterName] then
+		if G.nameplates.filters[filterName] then
 			local defaultTable = E:CopyTable({}, E.StyleFilterDefaults)
-			E:CopyTable(defaultTable, G.nameplate.filters[filterName])
+			E:CopyTable(defaultTable, G.nameplates.filters[filterName])
 			E:RemoveDefaults(filterTable, defaultTable)
 		else
 			E:RemoveDefaults(filterTable, E.StyleFilterDefaults)
@@ -1517,11 +1547,11 @@ function mod:StyleFilterClearDefaults(tbl)
 end
 
 function mod:StyleFilterCopyDefaults(tbl)
-	E:CopyDefaults(tbl, E.StyleFilterDefaults)
+	return E:CopyDefaults(tbl or {}, E.StyleFilterDefaults)
 end
 
 function mod:StyleFilterInitialize()
-	for _, filterTable in pairs(E.global.nameplate.filters) do
+	for _, filterTable in pairs(E.global.nameplates.filters) do
 		mod:StyleFilterCopyDefaults(filterTable)
 	end
 end

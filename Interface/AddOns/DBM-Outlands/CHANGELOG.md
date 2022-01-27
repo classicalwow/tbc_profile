@@ -1,30 +1,44 @@
 # <DBM> Outlands
 
-## [2.5.22](https://github.com/DeadlyBossMods/DBM-TBC-Classic/tree/2.5.22) (2021-12-15)
-[Full Changelog](https://github.com/DeadlyBossMods/DBM-TBC-Classic/compare/2.5.21...2.5.22) [Previous Releases](https://github.com/DeadlyBossMods/DBM-TBC-Classic/releases)
+## [2.5.24](https://github.com/DeadlyBossMods/DBM-TBC-Classic/tree/2.5.24) (2022-01-18)
+[Full Changelog](https://github.com/DeadlyBossMods/DBM-TBC-Classic/compare/2.5.23...2.5.24) [Previous Releases](https://github.com/DeadlyBossMods/DBM-TBC-Classic/releases)
 
-- Prep new releases  
-- set KT back to his post nerf timer value  
-- Update and Fix zhCN (#30)  
-- Forgot GetStage api  
-- rename variable because it makes it clearier this way  
-- Internally track how many times SetStage has been called by any given mod and keep track of total, as well as include it in callback. This will allow niche weak aura creation that needs these specific totals to function versus journal phasing numbers.  
-- More import fixes;  
-    - If sound is a number, its a built in sound too, so skip check  
-    - Fixed missing locale for missing voice pack import  
-- Proper validation matching at start of string.  
-- Ignore built in sounds in DBM:ValidateSound  
-- Update localization.tw.lua (#29)  
-- Update koKR (#28)  
-- Update localization.tw.lua (#27)  
-- Option locale somehow got duplicated?  
-- Add new desaturation option for bars;  
-    - This allows grayscaling non-huge bars, making them appear less important  
-    - Feature request ;p  
-- Improve mod debugging/transcriptor logging by adding stage changes to logging  
-- Unify language and termonology on announce and special announce option descriptions  
-- In some cases, especially for end bosses, it may be preferred to disable the auto sorting of announce objects and instead manually sort it at mod level by boss stage. This adds support for core for a single mod to override behaviors easily  
-- Fix numpty  
-- More spacer shortcuts  
-- Unify whispers to use chatPrefixShort  
-- bump alphas for next dev cycle  
+- prep new tags  
+- bump bcc tocs  
+- bump tocs  
+- Update localization.ru.lua (#43) Minor edits and phrase translation.  
+- A fun new \"way\" of pushing some stuff  
+- Update localization.ru.lua (#41)  
+    Co-authored-by: Adam <MysticalOS@users.noreply.github.com>  
+- Update localization.ru.lua (#42)  
+- Update koKR (#39)  
+- Fix ROOM\_EDGE -> EDGE (Matching en locale)  
+    Also clean up some erranous spaces instead of tabs  
+- Update localization.ru.lua (#40)  
+    Few corrections. Also some untranslated phrases.  
+- Add auto localized text for icon options that can be used to label ones that may conflict with other ones  
+- Prune backwards compat. all release versions are updated, if anyone gets lua errors, it's because they need to update old mods.  
+- lua check  
+- Common L update  
+- Fix missed COMMON L update  
+- Support extending in infoframe and announce objects  
+- Update localization.tw.lua (#36)  
+- Update commonlocal.tw.lua (#37)  
+- Update localization.tw.lua (GUI) (#38)  
+- Forgot to push this fix  
+- Tweaks to allow niche icon options that have extended icons but also non extended icons, that way we cn allow icon option to be visible, but just not show the extended ones.  
+- Add a free to use custom RaidTargetingIcons file for the extended icons feature (still requires manual install)  
+- Fix stupid  
+- Leotheras timer sync (#84)  
+    Co-authored-by: Artemis <QartemisT@gmail.com>  
+    Co-authored-by: Adam <MysticalOS@users.noreply.github.com>  
+- Update koKR (#35)  
+- Also update common locals  
+- Kill off short text option and just make it the norm, eliminating a lot of duplication  
+- Fix potential bugs with last  
+- Added support for extending the icon setting api. This allows advaned users to enable usage of up to 16 raid icons if they add a custom texture file to game.  
+    Important Notes:  
+    1. Even if you install custom texture and enable option, others won't SEE icons unless they also install texture (they don't need to enable extended option in DBM if they aren't setting any icons though  
+    2. icons set on players using icons 9-16 will not appear over players or creatures heads. They only appear on nameplates and raid/target/unit frames  
+    3, Icons will not work in SAY messages so they will not be used there.  
+- Prep next alpha cycles  

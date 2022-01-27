@@ -438,6 +438,10 @@ UNIT_POWER, UNIT_AURA PLAYER_TARGET_CHANGED]=]
 	L["Export to Lua table..."] = "Als Lua-Tabelle exportieren.."
 	L["Export to string..."] = "Als Zeichenkette exportieren.."
 	L["External"] = "Extern"
+	--[[Translation missing --]]
+	L["Extra Height"] = "Extra Height"
+	--[[Translation missing --]]
+	L["Extra Width"] = "Extra Width"
 	L["Fade"] = "Verblassen"
 	L["Fade In"] = "Einblenden"
 	L["Fade Out"] = "Ausblenden"
@@ -1115,8 +1119,7 @@ Nur ein Wert kann ausgewählt werden.]=]
 	L["Y Rotation"] = "Y-Rotation"
 	L["Y Scale"] = "Skalierung (Y)"
 	L["Yellow Rune"] = "Gelbe Rune"
-	--[[Translation missing --]]
-	L["Yes"] = "Yes"
+	L["Yes"] = "Ja"
 	--[[Translation missing --]]
 	L["y-Offset"] = "y-Offset"
 	L["Y-Offset"] = "Y-Versatz"
