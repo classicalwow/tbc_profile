@@ -1,6 +1,29 @@
 
 LootMonitorDB = {
 	["LootLog"] = {
+		{
+			["InstanceID"] = 534,
+			["Player"] = "特變電工",
+			["FirstPlayer"] = "未知",
+			["InstanceName"] = "Hyjal Summit",
+			["Date"] = "2022-01-29",
+			["Class"] = "WARRIOR",
+			["FirstClass"] = "UNKNOWN",
+			["LootTable"] = {
+				{
+					["GUID"] = "Creature-0-4490-534-29761-17767-0000753253",
+					["Time"] = "20:29:19",
+					["Looter"] = "筑千黛",
+					["Date"] = "2022-01-29",
+					["Class"] = "MAGE",
+					["Name"] = "瑞齊·凜冬",
+					["Loots"] = {
+						"|cffa335ee|Hitem:30872::::::::70:::::::::|h[黑暗秘密記事]|h|r", -- [1]
+						"|cffa335ee|Hitem:30866::::::::70:::::::::|h[血污肩鎧]|h|r", -- [2]
+					},
+				}, -- [1]
+			},
+		}, -- [1]
 	},
 	["Config"] = {
 		["ShowMinimapIcon"] = true,

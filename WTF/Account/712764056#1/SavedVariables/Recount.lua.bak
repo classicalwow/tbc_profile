@@ -7,10 +7,10 @@ RecountDB = {
 		["特變電工 - 伊弗斯"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -527.0082244873047,
-					["x"] = -476.9999389648438,
-					["w"] = 290.0000305175781,
-					["h"] = 195,
+					["y"] = -532.2540283203125,
+					["x"] = -459.8050842285156,
+					["w"] = 324.3897094726563,
+					["h"] = 205.4917755126953,
 				},
 			},
 			["ReportLines"] = 15,
@@ -35,10 +35,10 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "羅德隆廢墟",
-			["CurDataSet"] = "OverallData",
-			["MainWindowWidth"] = 289.7994079589844,
-			["MainWindowHeight"] = 195.3370056152344,
+			["LastInstanceName"] = "海加爾山戰場",
+			["CurDataSet"] = "Fight1",
+			["MainWindowWidth"] = 324.3896789550781,
+			["MainWindowHeight"] = 205.4917907714844,
 		},
 	},
 }
