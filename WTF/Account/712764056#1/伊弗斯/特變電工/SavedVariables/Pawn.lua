@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0531,
-	["LastPlayerFullName"] = "特變電工-伊弗斯",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 30488,
@@ -15,9 +13,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:33923::::::::70:::::::::|h[復仇者凱旋墜飾]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 30490,
-			["Level"] = 136,
-			["Link"] = "|cffa335ee|Hitem:30490::::::::70:::::::::|h[殘忍鬥士鎧甲護肩]|h|r",
+			["ID"] = 30866,
+			["Level"] = 141,
+			["Link"] = "|cffa335ee|Hitem:30866::::::::70:::::::::|h[血污肩鎧]|h|r",
 		}, -- [3]
 		[13] = {
 			["ID"] = 30629,
@@ -37,9 +35,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:30627::::::::70:::::::::|h[海嘯護符]|h|r",
 		},
 		[15] = {
-			["ID"] = 30098,
-			["Level"] = 128,
-			["Link"] = "|cffa335ee|Hitem:30098::::::::70:::::::::|h[鋒利鱗片戰爭披風]|h|r",
+			["ID"] = 32323,
+			["Level"] = 141,
+			["Link"] = "|cffa335ee|Hitem:32323::::::::70:::::::::|h[影月毀滅者披氅]|h|r",
 		},
 		[8] = {
 			["ID"] = 32793,
@@ -67,10 +65,10 @@ PawnOptions = {
 			["Level"] = 136,
 			["Link"] = "|cffa335ee|Hitem:30487:684:::::::70:::::::::|h[殘忍鬥士鎧甲護手]|h|r",
 		},
-		[5] = {
-			["ID"] = 30486,
-			["Level"] = 136,
-			["Link"] = "|cffa335ee|Hitem:30486::::::::70:::::::::|h[殘忍鬥士鎧甲護軀]|h|r",
+		[9] = {
+			["ID"] = 33813,
+			["Level"] = 141,
+			["Link"] = "|cffa335ee|Hitem:33813::::::::70:::::::::|h[復仇者鎧甲護腕]|h|r",
 		},
 		[11] = {
 			["ID"] = 33919,
@@ -89,12 +87,14 @@ PawnOptions = {
 			["AlsoFitsIn"] = 11,
 			["Link"] = "|cffa335ee|Hitem:33919:2931:::::::70:::::::::|h[復仇者凱旋指環]|h|r",
 		},
-		[9] = {
-			["ID"] = 33813,
-			["Level"] = 141,
-			["Link"] = "|cffa335ee|Hitem:33813::::::::70:::::::::|h[復仇者鎧甲護腕]|h|r",
+		[5] = {
+			["ID"] = 30486,
+			["Level"] = 136,
+			["Link"] = "|cffa335ee|Hitem:30486::::::::70:::::::::|h[殘忍鬥士鎧甲護軀]|h|r",
 		},
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "特變電工-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

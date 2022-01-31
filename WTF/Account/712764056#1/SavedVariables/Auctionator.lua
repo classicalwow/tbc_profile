@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["_200000"] = 1000,
-	["_10000"] = 200,
-	["_1000000"] = 2500,
-	["_5000000"] = 10000,
-	["STARTING_DISCOUNT"] = 5,
-	["_500"] = 5,
 	["LOG_DE_DATA_X"] = true,
+	["_500"] = 5,
+	["_1000000"] = 2500,
+	["_200000"] = 1000,
+	["STARTING_DISCOUNT"] = 5,
+	["_5000000"] = 10000,
+	["_10000"] = 200,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 	["魔鋼頭盔"] = {
@@ -28,11 +28,11 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["is"] = "21877:0:0:0:0",
 		["6836424"] = "1740:3",
 		["6807570"] = "1685:18",
-		["6806154"] = "1430:20",
-		["6834349"] = "1735:20",
-		["6834355"] = "1725:11",
-		["6807569"] = "1670:20",
 		["6856897"] = "1750:7",
+		["6807569"] = "1670:20",
+		["6834355"] = "1725:11",
+		["6834349"] = "1735:20",
+		["6806154"] = "1430:20",
 	},
 }
 AUCTIONATOR_SHOPPING_LISTS = {
@@ -52,8 +52,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 4,
 			["id"] = "23519:0:0:0:0",
 			["H3925"] = 2297500,
-			["mr"] = 1000000,
 			["cc"] = 4,
+			["mr"] = 1000000,
 		},
 		["幽紋布"] = {
 			["mr"] = 1755,
@@ -62,45 +62,38 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H3925"] = 1755,
 			["cc"] = 7,
 		},
-		["生命微粒"] = {
-			["mr"] = 35000,
-			["sc"] = 10,
-			["H3913"] = 35000,
-			["id"] = "22575:0:0:0:0",
-			["cc"] = 7,
-		},
 	},
 }
 AUCTIONATOR_LAST_SCAN_TIME = nil
 AUCTIONATOR_TOONS = {
 	["邁克爾假死"] = {
 		["firstSeen"] = 1622958482,
-		["guid"] = "Player-4487-0008386D",
 		["firstVersion"] = "100.0.11",
+		["guid"] = "Player-4487-0008386D",
 	},
 	["畜生犬隊長"] = {
 		["firstSeen"] = 1623055961,
-		["guid"] = "Player-4487-000B0452",
 		["firstVersion"] = "100.0.11",
+		["guid"] = "Player-4487-000B0452",
 	},
 	["特變電工"] = {
 		["firstSeen"] = 1626022682,
-		["guid"] = "Player-4487-0012ECFA",
 		["firstVersion"] = "100.0.11",
+		["guid"] = "Player-4487-0012ECFA",
 	},
 }
 AUCTIONATOR_STACKING_PREFS = {
 	["克銀錠"] = {
-		["numstacks"] = 0,
 		["stacksize"] = 10,
+		["numstacks"] = 0,
 	},
 	["魔鋼錠"] = {
-		["numstacks"] = 0,
 		["stacksize"] = 1,
+		["numstacks"] = 0,
 	},
 	["魔化武器"] = {
-		["stacksize"] = 1,
 		["numstacks"] = 0,
+		["stacksize"] = 1,
 	},
 }
 AUCTIONATOR_SCAN_MINLEVEL = 1
