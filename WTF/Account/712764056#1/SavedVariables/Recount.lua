@@ -8,8 +8,8 @@ RecountDB = {
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = -532.2540283203125,
-					["x"] = -459.8051147460938,
-					["w"] = 324.3897094726563,
+					["x"] = -459.8049926757813,
+					["w"] = 324.3896789550781,
 					["h"] = 205.4917755126953,
 				},
 			},
@@ -35,8 +35,8 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "羅德隆廢墟",
-			["CurDataSet"] = "LastFightData",
+			["LastInstanceName"] = "盤牙:毒蛇神殿洞穴",
+			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 324.3896789550781,
 			["MainWindowHeight"] = 205.4917907714844,
 		},
