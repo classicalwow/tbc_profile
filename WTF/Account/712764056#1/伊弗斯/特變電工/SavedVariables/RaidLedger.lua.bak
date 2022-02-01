@@ -696,7 +696,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r",
-						["count"] = 18,
+						["count"] = 21,
 					},
 				}, -- [57]
 				{
@@ -984,7 +984,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:32228::::::::70:::::::::|h[蒼穹藍寶石]|h|r",
-						["count"] = 2,
+						["count"] = 3,
 					},
 				}, -- [81]
 				{
@@ -1104,9 +1104,141 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:32230::::::::70:::::::::|h[影歌紫水晶]|h|r",
-						["count"] = 2,
+						["count"] = 3,
 					},
 				}, -- [91]
+				{
+					["beneficiary"] = "终焉誓約",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:32323::::::::70:::::::::|h[影月毀滅者披氅]|h|r",
+						["count"] = 1,
+					},
+				}, -- [92]
+				{
+					["beneficiary"] = "终焉誓約",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:32329::::::::70:::::::::|h[恩慈風帽]|h|r",
+						["count"] = 1,
+					},
+				}, -- [93]
+				{
+					["beneficiary"] = "终焉誓約",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:32231::::::::70:::::::::|h[焚石]|h|r",
+						["count"] = 2,
+					},
+				}, -- [94]
+				{
+					["beneficiary"] = "终焉誓約",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:32749::::::::70:::::::::|h[圖樣:電光反射護肩]|h|r",
+						["count"] = 1,
+					},
+				}, -- [95]
+				{
+					["beneficiary"] = "终焉誓約",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:32754::::::::70:::::::::|h[圖樣:靈機護腕]|h|r",
+						["count"] = 1,
+					},
+				}, -- [96]
+				{
+					["beneficiary"] = "终焉誓約",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:32737::::::::70:::::::::|h[設計圖:迅鋼護肩]|h|r",
+						["count"] = 1,
+					},
+				}, -- [97]
+				{
+					["beneficiary"] = "终焉誓約",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:32606::::::::70:::::::::|h[光明先驅者束腰]|h|r",
+						["count"] = 1,
+					},
+				}, -- [98]
+				{
+					["beneficiary"] = "终焉誓約",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:32335::::::::70:::::::::|h[強勁侵略者指環]|h|r",
+						["count"] = 1,
+					},
+				}, -- [99]
+				{
+					["beneficiary"] = "终焉誓約",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:32339::::::::70:::::::::|h[原始權威腰帶]|h|r",
+						["count"] = 1,
+					},
+				}, -- [100]
+				{
+					["beneficiary"] = "终焉誓約",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:32332::::::::70:::::::::|h[詛咒之錘]|h|r",
+						["count"] = 1,
+					},
+				}, -- [101]
+				{
+					["beneficiary"] = "终焉誓約",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:32350::::::::70:::::::::|h[靈光之觸]|h|r",
+						["count"] = 1,
+					},
+				}, -- [102]
 			},
 		}, -- [1]
 	},

@@ -7,8 +7,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Hyjal Summit",
 			["Date"] = "2022-01-29",
-			["FirstClass"] = "UNKNOWN",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-534-29761-17767-0000753253",
@@ -167,7 +167,10 @@ LootMonitorDB = {
 		{
 			["InstanceID"] = 564,
 			["FirstPlayer"] = "筑千黛",
-			["Player"] = "特變電工",
+			["InstanceName"] = "Black Temple",
+			["Class"] = "WARRIOR",
+			["Date"] = "2022-01-29",
+			["FirstClass"] = "MAGE",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-564-18022-22878-0001F55F60",
@@ -372,11 +375,54 @@ LootMonitorDB = {
 						"|cffa335ee|Hitem:32227::::::::70:::::::::|h[赤紅尖晶石]|h|r", -- [1]
 					},
 				}, -- [18]
+				{
+					["GUID"] = "Creature-0-4491-564-19777-23239-00007676E2",
+					["Time"] = "22:48:18",
+					["Class"] = "DRUID",
+					["Date"] = "2022-01-30",
+					["Looter"] = "程昱",
+					["Name"] = "噬骨者戰士",
+					["Loots"] = {
+						"|cffa335ee|Hitem:32606::::::::70:::::::::|h[光明先驅者束腰]|h|r", -- [1]
+					},
+				}, -- [19]
+				{
+					["GUID"] = "Creature-0-4491-564-19777-22948-00007676E2",
+					["Time"] = "23:50:21",
+					["Class"] = "WARRIOR",
+					["Date"] = "2022-01-30",
+					["Looter"] = "特變電工",
+					["Name"] = "葛塔格·血沸",
+					["Loots"] = {
+						"|cffa335ee|Hitem:32339::::::::70:::::::::|h[原始權威腰帶]|h|r", -- [1]
+						"|cffa335ee|Hitem:32335::::::::70:::::::::|h[強勁侵略者指環]|h|r", -- [2]
+					},
+				}, -- [20]
+				{
+					["GUID"] = "Creature-0-4491-564-19777-23235-00027676E2",
+					["Time"] = "23:54:22",
+					["Class"] = "DRUID",
+					["Date"] = "2022-01-30",
+					["Looter"] = "神經德魯伊",
+					["Name"] = "噬骨劍刃狂怒者",
+					["Loots"] = {
+						"|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r", -- [1]
+					},
+				}, -- [21]
+				{
+					["GUID"] = "Creature-0-4491-564-19777-23420-000076BF24",
+					["Time"] = "00:40:24",
+					["Class"] = "DRUID",
+					["Date"] = "2022-01-31",
+					["Looter"] = "程昱",
+					["Name"] = "憤怒精華",
+					["Loots"] = {
+						"|cffa335ee|Hitem:32332::::::::70:::::::::|h[詛咒之錘]|h|r", -- [1]
+						"|cffa335ee|Hitem:32350::::::::70:::::::::|h[靈光之觸]|h|r", -- [2]
+					},
+				}, -- [22]
 			},
-			["Date"] = "2022-01-29",
-			["FirstClass"] = "MAGE",
-			["Class"] = "WARRIOR",
-			["InstanceName"] = "Black Temple",
+			["Player"] = "特變電工",
 		}, -- [2]
 	},
 	["Config"] = {

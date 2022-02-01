@@ -5,9 +5,9 @@ LootMonitorDB = {
 			["InstanceID"] = 534,
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Hyjal Summit",
-			["FirstClass"] = "UNKNOWN",
-			["Date"] = "2022-01-29",
 			["Class"] = "WARRIOR",
+			["Date"] = "2022-01-29",
+			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-534-29761-17767-0000753253",
@@ -167,11 +167,11 @@ LootMonitorDB = {
 		{
 			["InstanceID"] = 564,
 			["Player"] = "特變電工",
-			["InstanceName"] = "Black Temple",
 			["FirstPlayer"] = "筑千黛",
+			["InstanceName"] = "Black Temple",
 			["Date"] = "2022-01-29",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "MAGE",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-564-18022-22878-0001F55F60",
