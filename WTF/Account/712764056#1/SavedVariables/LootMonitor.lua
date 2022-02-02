@@ -7,8 +7,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Hyjal Summit",
 			["Date"] = "2022-01-29",
-			["FirstClass"] = "UNKNOWN",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-534-29761-17767-0000753253",
@@ -168,9 +168,9 @@ LootMonitorDB = {
 			["InstanceID"] = 564,
 			["FirstPlayer"] = "筑千黛",
 			["InstanceName"] = "Black Temple",
-			["FirstClass"] = "MAGE",
-			["Date"] = "2022-01-29",
 			["Class"] = "WARRIOR",
+			["Date"] = "2022-01-29",
+			["FirstClass"] = "MAGE",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-564-18022-22878-0001F55F60",
@@ -430,8 +430,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "渠運",
 			["InstanceName"] = "Tempest Keep",
 			["Date"] = "2022-02-01",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "PALADIN",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-550-3911-20032-0002F8F3B5",
@@ -524,8 +524,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "楊小妍",
 			["InstanceName"] = "Serpentshrine Cavern",
 			["Date"] = "2022-02-01",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "MAGE",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-548-10299-21212-00007900D7",

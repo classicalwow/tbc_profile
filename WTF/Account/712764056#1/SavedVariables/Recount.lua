@@ -8,8 +8,8 @@ RecountDB = {
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = -532.2540283203125,
-					["x"] = -459.8049926757813,
-					["w"] = 324.3896789550781,
+					["x"] = -459.8050842285156,
+					["w"] = 324.3897094726563,
 					["h"] = 205.4917755126953,
 				},
 			},
@@ -24,6 +24,8 @@ RecountDB = {
 					},
 				},
 			},
+			["DetailWindowY"] = -456.5082092285156,
+			["DetailWindowX"] = 839.1256713867188,
 			["Filters"] = {
 				["Show"] = {
 					["Hostile"] = true,
@@ -35,7 +37,7 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "盤牙:毒蛇神殿洞穴",
+			["LastInstanceName"] = "納葛蘭競技場",
 			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 324.3896789550781,
 			["MainWindowHeight"] = 205.4917907714844,
