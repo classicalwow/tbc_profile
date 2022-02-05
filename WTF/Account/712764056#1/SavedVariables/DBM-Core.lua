@@ -74,17 +74,17 @@ DBM_AllSavedOptions = {
 		["BadTimerAlert"] = false,
 		["AlwaysShowSpeedKillTimer2"] = false,
 		["FilterDispel"] = true,
-		["HideBossEmoteFrame2"] = true,
+		["AutoReplySound"] = true,
 		["ShowGuildMessagesPlus"] = false,
 		["LFDEnhance"] = true,
 		["SpecialWarningFlashDura1"] = 0.4,
 		["DontShowPTNoID"] = false,
 		["HideGarrisonToasts"] = true,
 		["RangeFramePoint"] = "CENTER",
-		["AutoReplySound"] = true,
+		["RLReadyCheckSound"] = true,
 		["SpecialWarningFontShadow"] = false,
 		["EventMusicMythicFilter"] = true,
-		["RLReadyCheckSound"] = true,
+		["HideBossEmoteFrame2"] = true,
 		["SpecialWarningFlashCol1"] = {
 			1, -- [1]
 			1, -- [2]
@@ -210,9 +210,9 @@ DBM_AllSavedOptions = {
 		["BigBrotherAnnounceToRaid"] = false,
 		["ShowEngageMessage"] = true,
 		["CountdownVoice"] = "Corsica",
-		["DontShowUserTimers"] = false,
 		["RecordOnlyBosses"] = false,
 		["CountdownVoice3"] = "Smooth",
+		["DontShowUserTimers"] = false,
 		["SpecialWarningFlashCol4"] = {
 			1, -- [1]
 			0, -- [2]

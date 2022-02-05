@@ -38,7 +38,7 @@ RecountDB = {
 				},
 			},
 			["LastInstanceName"] = "海加爾山戰場",
-			["CurDataSet"] = "CurrentFightData",
+			["CurDataSet"] = "LastFightData",
 			["MainWindowWidth"] = 324.3896789550781,
 			["MainWindowHeight"] = 205.4917907714844,
 		},

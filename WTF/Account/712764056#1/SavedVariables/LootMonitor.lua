@@ -548,6 +548,7 @@ LootMonitorDB = {
 		{
 			["InstanceID"] = 534,
 			["FirstPlayer"] = "未知",
+			["Player"] = "特變電工",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-534-5610-17897-0001FBD582",
@@ -844,7 +845,6 @@ LootMonitorDB = {
 					},
 				}, -- [26]
 			},
-			["Player"] = "特變電工",
 			["Date"] = "2022-02-03",
 			["Class"] = "WARRIOR",
 			["FirstClass"] = "UNKNOWN",
