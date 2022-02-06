@@ -1,13 +1,13 @@
 
 AtlasLootClassicDB = {
+	["global"] = {
+		["__addonrevision"] = 2040001,
+	},
 	["profileKeys"] = {
 		["路易斯桑拿 - 伊弗斯"] = "路易斯桑拿 - 伊弗斯",
 		["特變電工 - 伊弗斯"] = "特變電工 - 伊弗斯",
 		["邁克爾假死 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
 		["畜生犬隊長 - 伊弗斯"] = "畜生犬隊長 - 伊弗斯",
-	},
-	["global"] = {
-		["__addonrevision"] = 2040001,
 	},
 	["profiles"] = {
 		["路易斯桑拿 - 伊弗斯"] = {
@@ -26,14 +26,17 @@ AtlasLootClassicDB = {
 				},
 				["selected"] = {
 					nil, -- [1]
-					"HyjalSummit", -- [2]
-					nil, -- [3]
+					"BlackTemple", -- [2]
+					9, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},
 			},
 		},
 		["邁克爾假死 - 伊弗斯"] = {
+			["minimap"] = {
+				["minimapPos"] = 286.7554949708375,
+			},
 			["GUI"] = {
 				["point"] = {
 					nil, -- [1]
@@ -49,9 +52,6 @@ AtlasLootClassicDB = {
 					1, -- [4]
 					0, -- [5]
 				},
-			},
-			["minimap"] = {
-				["minimapPos"] = 286.7554949708375,
 			},
 		},
 		["畜生犬隊長 - 伊弗斯"] = {

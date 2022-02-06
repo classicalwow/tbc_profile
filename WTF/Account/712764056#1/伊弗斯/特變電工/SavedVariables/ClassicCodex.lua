@@ -10,37 +10,37 @@ CodexConfig = {
 	["minimumDropChance"] = 2,
 	["showLowLevel"] = false,
 	["_tom_waypoint"] = {
-		1946, -- [1]
-		0.523, -- [2]
-		0.36, -- [3]
+		1948, -- [1]
+		0.628, -- [2]
+		0.748, -- [3]
 		["arrivaldistance"] = 15,
 		["callbacks"] = {
 			["distance"] = {
 			},
-			["minimap"] = {
-			},
 			["world"] = {
+			},
+			["minimap"] = {
 			},
 		},
 		["persistent"] = true,
 		["minimap"] = true,
 		["cleardistance"] = 10,
-		["title"] = "观察者杰哈恩",
+		["title"] = "灵翼龙卵",
 		["from"] = "?",
 		["crazy"] = true,
 		["world"] = true,
 	},
-	["continentIcon"] = false,
-	["currentQuestGivers"] = true,
+	["minimapButton"] = true,
+	["autoTurnin"] = false,
 	["spawnMarkerSize"] = 15,
-	["colorBySpawn"] = true,
+	["showFestival"] = false,
 	["alwaysShowId"] = false,
 	["nameplateIcon"] = false,
 	["zoneMapIcon"] = true,
-	["showFestival"] = false,
+	["colorBySpawn"] = true,
 	["miniMapIcon"] = true,
-	["autoTurnin"] = false,
-	["minimapButton"] = true,
+	["currentQuestGivers"] = true,
+	["continentIcon"] = false,
 	["questMarkerSize"] = 15,
 }
 CodexHiddenQuests = {

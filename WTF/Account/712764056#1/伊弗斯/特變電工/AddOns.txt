@@ -154,3 +154,6 @@ gladius: disabled
 omnicd: enabled
 omnibar: enabled
 ElvUI_CustomTags: disabled
+TalentEmu: enabled
+AceBIS: disabled
+DBM-VPVEM: disabled

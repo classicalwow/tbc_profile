@@ -155,3 +155,4 @@ DataStore_Spells: disabled
 DataStore_Talents: disabled
 MaxCam: disabled
 Postal: disabled
+TalentEmu: enabled

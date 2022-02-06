@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0531,
+	["LastPlayerFullName"] = "特變電工-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 30488,
@@ -24,9 +26,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:30629::::::::70:::::::::|h[移位寶石]|h|r",
 		},
 		[7] = {
-			["ID"] = 30489,
-			["Level"] = 136,
-			["Link"] = "|cffa335ee|Hitem:30489::::::::70:::::::::|h[殘忍鬥士鎧甲腿甲]|h|r",
+			["ID"] = 32341,
+			["Level"] = 141,
+			["Link"] = "|cffa335ee|Hitem:32341::::::::70:::::::::|h[神聖懲戒護腿]|h|r",
 		},
 		[14] = {
 			["ID"] = 30627,
@@ -65,10 +67,10 @@ PawnOptions = {
 			["Level"] = 136,
 			["Link"] = "|cffa335ee|Hitem:30487:684:::::::70:::::::::|h[殘忍鬥士鎧甲護手]|h|r",
 		},
-		[9] = {
-			["ID"] = 33813,
-			["Level"] = 141,
-			["Link"] = "|cffa335ee|Hitem:33813::::::::70:::::::::|h[復仇者鎧甲護腕]|h|r",
+		[5] = {
+			["ID"] = 30486,
+			["Level"] = 136,
+			["Link"] = "|cffa335ee|Hitem:30486::::::::70:::::::::|h[殘忍鬥士鎧甲護軀]|h|r",
 		},
 		[11] = {
 			["ID"] = 33919,
@@ -87,14 +89,12 @@ PawnOptions = {
 			["AlsoFitsIn"] = 11,
 			["Link"] = "|cffa335ee|Hitem:33919:2931:::::::70:::::::::|h[復仇者凱旋指環]|h|r",
 		},
-		[5] = {
-			["ID"] = 30486,
-			["Level"] = 136,
-			["Link"] = "|cffa335ee|Hitem:30486::::::::70:::::::::|h[殘忍鬥士鎧甲護軀]|h|r",
+		[9] = {
+			["ID"] = 33813,
+			["Level"] = 141,
+			["Link"] = "|cffa335ee|Hitem:33813::::::::70:::::::::|h[復仇者鎧甲護腕]|h|r",
 		},
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "特變電工-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

@@ -129,3 +129,4 @@ ElvUI_PVPDT: enabled
 AtlasQuest: enabled
 Atlas_ClassicWoW: enabled
 Altoholic: disabled
+TalentEmu: enabled
