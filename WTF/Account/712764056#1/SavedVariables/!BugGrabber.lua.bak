@@ -1,6 +1,6 @@
 
 BugGrabberDB = {
-	["session"] = 646,
+	["session"] = 652,
 	["lastSanitation"] = 3,
 	["errors"] = {
 		{
@@ -912,29 +912,13 @@ BugGrabberDB = {
 			["counter"] = 1,
 		}, -- [119]
 		{
-			["message"] = "...TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua:751: attempt to index local 'color' (a nil value)",
-			["time"] = "2021/10/30 12:28:04",
-			["locals"] = "numBatchAuctions = 26458\ntotalAuctions = 26458\nbutton = BrowseButton2 {\n 0 = <userdata>\n itemCount = 1\n bidAmount = 61750\n buyoutPrice = 65000\n itemIndex = 2\n PriceTooltipFrame = <unnamed> {\n }\n}\nbuttonName = \"BrowseButton2\"\nbuttonHighlight = BrowseButton2Highlight {\n 0 = <userdata>\n PixelSnapDisabled = true\n}\niconTexture = BrowseButton1ItemIconTexture {\n 0 = <userdata>\n PixelSnapDisabled = true\n}\nitemName = BrowseButton2Name {\n SetVertexColor = <function> defined =[C]:-1\n PixelSnapDisabled = true\n 0 = <userdata>\n Hide = <function> defined =[C]:-1\n}\ncolor = nil\nitemCount = BrowseButton1ItemCount {\n 0 = <userdata>\n}\nmoneyFrame = BrowseButton1MoneyFrame {\n 0 = <userdata>\n vadjust = 1\n trialErrorButton = BrowseButton1MoneyFrameTrialErrorButton {\n }\n moneyType = \"AUCTION\"\n info = <table> {\n }\n small = 1\n staticMoney = 47307\n maxDisplayWidth = 146\n}\nyourBidText = BrowseButton1YourBidText {\n 0 = <userdata>\n}\nbuyoutFrame = BrowseButton1BuyoutFrame {\n 0 = <userdata>\n}\nbuyoutMoney = BrowseButton1BuyoutFrameMoney {\n 0 = <userdata>\n vadjust = 1\n trialErrorButton = BrowseButton1BuyoutFrameMoneyTrialErrorButton {\n }\n moneyType = \"AUCTION\"\n info = <table> {\n }\n small = 1\n staticMoney = 49797\n maxDisplayWidth = 146\n}\noffset = 0\nindex = 2\nisLastSlotEmpty = nil\nname = \"\"\ntexture = 134939\ncount = 1\nquality = -1\ncanUse = false\nlevel = -2054777088\nlevelColHeader = nil\nminBid = 75999\nminIncrement = 0\nbuyoutPrice = 79999\nduration = 1\nbidAmount = 0\nhighBidder = false\nbidderFullName = nil\nowner = nil\nownerFullName = nil\nsaleStatus = 0\nitemId = 24316\nhasAllInfo = true\ndisplayedPrice = 47307\nrequiredBid = 47307\n(for index) = 2\n(for limit) = 8\n(for step) = 1\ni = 2\nshouldHide = false\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = BrowseButton2Name {\n SetVertexColor = <function> defined =[C]:-1\n PixelSnapDisabled = true\n 0 = <userdata>\n Hide = <function> defined =[C]:-1\n}\n(*temporary) = \"\"\n(*temporary) = <userdata>\n(*temporary) = false\n(*temporary) = -2054777088\n(*temporary) = nil\n(*temporary) = 75999\n(*temporary) = 0\n(*temporary) = 79999\n(*temporary) = 0\n(*temporary) = false\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 0\n(*temporary) = 24316\n(*temporary) = true\n(*temporary) = \"attempt to index local 'color' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface_TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua\"]:751: in function <...TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua:684>\n[string \"=(tail call)\"]: ?\n[string \"@Interface\\AddOns\\Altoholic\\Altoholic-2.5.007.lua\"]:155: in function `AuctionFrameBrowse_Update'\n[string \"@Interface_TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua\"]:277: in function <...TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua:275>",
-			["session"] = 626,
-			["counter"] = 3,
-		}, -- [120]
-		{
 			["message"] = "...terface\\AddOns\\Blizzard_MacroUI\\Blizzard_MacroUI.lua:258: attempt to perform arithmetic on a nil value",
 			["time"] = "2021/07/16 20:27:22",
 			["locals"] = "self = MacroPopupFrame {\n 0 = <userdata>\n BG = <unnamed> {\n }\n BorderBox = <unnamed> {\n }\n}\n(*temporary) = 1950.476196\n(*temporary) = nil\n(*temporary) = MacroFrame {\n 0 = <userdata>\n TitleText = MacroFrameTitleText {\n }\n portrait = MacroFramePortrait {\n }\n LeftBorder = MacroFrameLeftBorder {\n }\n macroBase = 0\n TopRightCorner = MacroFrameTopRightCorner {\n }\n TopLeftCorner = MacroFrameTopLeftCorner {\n }\n Bg = MacroFrameBg {\n }\n macroMax = 120\n TopBorder = MacroFrameTopBorder {\n }\n OnLoad = <function> defined @Interface\\SharedXML\\SharedUIPanelTemplates.lua:857\n TopTileStreaks = MacroFrameTopTileStreaks {\n }\n TitleBg = MacroFrameTitleBg {\n }\n BottomBorder = MacroFrameBottomBorder {\n }\n backdrop = <unnamed> {\n }\n selectedMacro = 1\n numTabs = 2\n BotRightCorner = MacroFrameBotRightCorner {\n }\n Inset = MacroFrameInset {\n }\n CloseButton = MacroFrameCloseButton {\n }\n BotLeftCorner = MacroFrameBotLeftCorner {\n }\n PortraitFrame = MacroFramePortraitFrame {\n }\n selectedTab = 1\n RightBorder = MacroFrameRightBorder {\n }\n}\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to perform arithmetic on a nil value\"\nMACRO_POPUP_FRAME_MINIMUM_PADDING = 40\n",
 			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_MacroUI\\Blizzard_MacroUI.lua\"]:258: in function `MacroPopupFrame_AdjustAnchors'\n[string \"@Interface\\AddOns\\Blizzard_MacroUI\\Blizzard_MacroUI.lua\"]:283: in function <...terface\\AddOns\\Blizzard_MacroUI\\Blizzard_MacroUI.lua:282>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\AddOns\\ElvUI\\Modules\\Skins\\Blizzard\\Macro-巨集指令.lua\"]:89: in function <...erface\\AddOns\\ElvUI\\Modules\\Skins\\Blizzard\\Macro.lua:10>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\ElvUI\\Modules\\Skins\\Skins.lua\"]:1204: in function `CallLoadedAddon'\n[string \"@Interface\\AddOns\\ElvUI\\Modules\\Skins\\Skins.lua\"]:1145: in function `?'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:119: in function <...ler\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:29: in function <...ler\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceEvent-3.0\\AceEvent-3.0-4.lua\"]:120: in function <...seAddonController\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:358: in function `UIParentLoadAddOn'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:401: in function `MacroFrame_LoadUI'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:495: in function `ShowMacroFrame'\n[string \"*:OnClick\"]:3: in function <[string \"*:OnClick\"]:1>",
 			["session"] = 629,
 			["counter"] = 13,
-		}, -- [121]
-		{
-			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
-			["time"] = "2021/07/01 16:18:25",
-			["locals"] = "GearScore = 2320\nItemLevel = 105\nRed = 0.081600\nBlue = 0.320000\nGreen = 0.840000\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 5\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
-			["session"] = 642,
-			["counter"] = 6895,
-		}, -- [122]
+		}, -- [120]
 		{
 			["message"] = "[string \"PlaySound(\"Chat Blip\")\"]:1: Usage: PlaySound(soundKitID, optional[\"SFX\",\"Music\",\"Ambience\", \"Dialog\" or \"Master\"], [forceNoDuplicates, runFinishCallback])",
 			["time"] = "2022/02/05 15:40:55",
@@ -942,7 +926,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `PlaySound'\n[string \"PlaySound(\"Chat Blip\")\"]:1: in main chunk\n[string \"=[C]\"]: in function `RunScript'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:2156: in function `?'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4829: in function `ChatEdit_ParseText'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4492: in function `ChatEdit_SendText'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4528: in function <Interface\\FrameXML\\ChatFrame.lua:4524>\n[string \"=[C]\"]: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>",
 			["session"] = 643,
 			["counter"] = 3,
-		}, -- [123]
+		}, -- [121]
 		{
 			["message"] = "[string \"playSound(520)\"]:1: attempt to call global 'playSound' (a nil value)",
 			["time"] = "2022/02/05 15:51:49",
@@ -950,7 +934,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"playSound(520)\"]:1: in main chunk\n[string \"=[C]\"]: in function `RunScript'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:2156: in function `?'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4829: in function `ChatEdit_ParseText'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4492: in function `ChatEdit_SendText'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4528: in function <Interface\\FrameXML\\ChatFrame.lua:4524>\n[string \"=[C]\"]: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>",
 			["session"] = 644,
 			["counter"] = 1,
-		}, -- [124]
+		}, -- [122]
 		{
 			["message"] = "[string \"playSound(619)\"]:1: attempt to call global 'playSound' (a nil value)",
 			["time"] = "2022/02/05 15:51:58",
@@ -958,7 +942,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"playSound(619)\"]:1: in main chunk\n[string \"=[C]\"]: in function `RunScript'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:2156: in function `?'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4829: in function `ChatEdit_ParseText'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4492: in function `ChatEdit_SendText'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4528: in function <Interface\\FrameXML\\ChatFrame.lua:4524>\n[string \"=[C]\"]: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>",
 			["session"] = 644,
 			["counter"] = 1,
-		}, -- [125]
+		}, -- [123]
 		{
 			["message"] = "[string \"playsound(619)\"]:1: attempt to call global 'playsound' (a nil value)",
 			["time"] = "2022/02/05 15:52:01",
@@ -966,6 +950,22 @@ BugGrabberDB = {
 			["stack"] = "[string \"playsound(619)\"]:1: in main chunk\n[string \"=[C]\"]: in function `RunScript'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:2156: in function `?'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4829: in function `ChatEdit_ParseText'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4492: in function `ChatEdit_SendText'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4528: in function <Interface\\FrameXML\\ChatFrame.lua:4524>\n[string \"=[C]\"]: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>",
 			["session"] = 644,
 			["counter"] = 5,
+		}, -- [124]
+		{
+			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
+			["time"] = "2021/07/01 16:18:25",
+			["locals"] = "GearScore = 2320\nItemLevel = 105\nRed = 0.081600\nBlue = 0.320000\nGreen = 0.840000\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 5\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
+			["session"] = 647,
+			["counter"] = 6924,
+		}, -- [125]
+		{
+			["message"] = "...TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua:751: attempt to index local 'color' (a nil value)",
+			["time"] = "2021/10/30 12:28:04",
+			["locals"] = "numBatchAuctions = 26458\ntotalAuctions = 26458\nbutton = BrowseButton2 {\n 0 = <userdata>\n itemCount = 1\n bidAmount = 61750\n buyoutPrice = 65000\n itemIndex = 2\n PriceTooltipFrame = <unnamed> {\n }\n}\nbuttonName = \"BrowseButton2\"\nbuttonHighlight = BrowseButton2Highlight {\n 0 = <userdata>\n PixelSnapDisabled = true\n}\niconTexture = BrowseButton1ItemIconTexture {\n 0 = <userdata>\n PixelSnapDisabled = true\n}\nitemName = BrowseButton2Name {\n SetVertexColor = <function> defined =[C]:-1\n PixelSnapDisabled = true\n 0 = <userdata>\n Hide = <function> defined =[C]:-1\n}\ncolor = nil\nitemCount = BrowseButton1ItemCount {\n 0 = <userdata>\n}\nmoneyFrame = BrowseButton1MoneyFrame {\n 0 = <userdata>\n vadjust = 1\n trialErrorButton = BrowseButton1MoneyFrameTrialErrorButton {\n }\n moneyType = \"AUCTION\"\n info = <table> {\n }\n small = 1\n staticMoney = 47307\n maxDisplayWidth = 146\n}\nyourBidText = BrowseButton1YourBidText {\n 0 = <userdata>\n}\nbuyoutFrame = BrowseButton1BuyoutFrame {\n 0 = <userdata>\n}\nbuyoutMoney = BrowseButton1BuyoutFrameMoney {\n 0 = <userdata>\n vadjust = 1\n trialErrorButton = BrowseButton1BuyoutFrameMoneyTrialErrorButton {\n }\n moneyType = \"AUCTION\"\n info = <table> {\n }\n small = 1\n staticMoney = 49797\n maxDisplayWidth = 146\n}\noffset = 0\nindex = 2\nisLastSlotEmpty = nil\nname = \"\"\ntexture = 134939\ncount = 1\nquality = -1\ncanUse = false\nlevel = -2054777088\nlevelColHeader = nil\nminBid = 75999\nminIncrement = 0\nbuyoutPrice = 79999\nduration = 1\nbidAmount = 0\nhighBidder = false\nbidderFullName = nil\nowner = nil\nownerFullName = nil\nsaleStatus = 0\nitemId = 24316\nhasAllInfo = true\ndisplayedPrice = 47307\nrequiredBid = 47307\n(for index) = 2\n(for limit) = 8\n(for step) = 1\ni = 2\nshouldHide = false\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = BrowseButton2Name {\n SetVertexColor = <function> defined =[C]:-1\n PixelSnapDisabled = true\n 0 = <userdata>\n Hide = <function> defined =[C]:-1\n}\n(*temporary) = \"\"\n(*temporary) = <userdata>\n(*temporary) = false\n(*temporary) = -2054777088\n(*temporary) = nil\n(*temporary) = 75999\n(*temporary) = 0\n(*temporary) = 79999\n(*temporary) = 0\n(*temporary) = false\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 0\n(*temporary) = 24316\n(*temporary) = true\n(*temporary) = \"attempt to index local 'color' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface_TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua\"]:751: in function <...TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua:684>\n[string \"=(tail call)\"]: ?\n[string \"@Interface\\AddOns\\Altoholic\\Altoholic-2.5.007.lua\"]:155: in function `AuctionFrameBrowse_Update'\n[string \"@Interface_TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua\"]:277: in function <...TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua:275>",
+			["session"] = 649,
+			["counter"] = 4,
 		}, -- [126]
 	},
 }

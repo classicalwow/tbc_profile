@@ -11,21 +11,21 @@ CodexConfig = {
 	["showLowLevel"] = false,
 	["_tom_waypoint"] = {
 		1948, -- [1]
-		0.628, -- [2]
-		0.748, -- [3]
+		0.755, -- [2]
+		0.713, -- [3]
 		["arrivaldistance"] = 15,
 		["callbacks"] = {
 			["distance"] = {
 			},
-			["world"] = {
-			},
 			["minimap"] = {
+			},
+			["world"] = {
 			},
 		},
 		["persistent"] = true,
 		["minimap"] = true,
 		["cleardistance"] = 10,
-		["title"] = "灵翼龙卵",
+		["title"] = "龙喉传送者",
 		["from"] = "?",
 		["crazy"] = true,
 		["world"] = true,

@@ -7,12 +7,13 @@ AtlasDB = {
 	["profiles"] = {
 		["Default"] = {
 			["dropdowns"] = {
-				["外域副本"] = 17,
+				["外域副本"] = 23,
 			},
 			["options"] = {
 				["autoSelect"] = true,
 				["dropdowns"] = {
-					["zone"] = 12,
+					["module"] = 2,
+					["zone"] = 23,
 				},
 				["checkMissingModules"] = true,
 			},

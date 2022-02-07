@@ -7,7 +7,7 @@ RecountDB = {
 		["特變電工 - 伊弗斯"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -532.0081558227539,
+					["y"] = -532.0082092285156,
 					["x"] = -459.9998779296875,
 					["w"] = 323.9999694824219,
 					["h"] = 205.0000152587891,
@@ -38,7 +38,7 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "黑暗神廟",
+			["LastInstanceName"] = "奧特蘭克山谷",
 			["CurDataSet"] = "CurrentFightData",
 			["MainWindowWidth"] = 324.3896789550781,
 			["MainWindowHeight"] = 205.4917907714844,

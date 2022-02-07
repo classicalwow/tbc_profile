@@ -7,8 +7,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Hyjal Summit",
 			["Date"] = "2022-01-29",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "UNKNOWN",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-534-29761-17767-0000753253",
@@ -168,9 +168,9 @@ LootMonitorDB = {
 			["InstanceID"] = 564,
 			["FirstPlayer"] = "筑千黛",
 			["InstanceName"] = "Black Temple",
-			["Class"] = "WARRIOR",
-			["Date"] = "2022-01-29",
 			["FirstClass"] = "MAGE",
+			["Date"] = "2022-01-29",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-564-18022-22878-0001F55F60",
@@ -430,8 +430,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "渠運",
 			["InstanceName"] = "Tempest Keep",
 			["Date"] = "2022-02-01",
-			["FirstClass"] = "PALADIN",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "PALADIN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-550-3911-20032-0002F8F3B5",
@@ -524,8 +524,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "楊小妍",
 			["InstanceName"] = "Serpentshrine Cavern",
 			["Date"] = "2022-02-01",
-			["FirstClass"] = "MAGE",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "MAGE",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-548-10299-21212-00007900D7",
@@ -844,9 +844,9 @@ LootMonitorDB = {
 					},
 				}, -- [26]
 			},
-			["Class"] = "WARRIOR",
-			["Date"] = "2022-02-03",
 			["FirstClass"] = "UNKNOWN",
+			["Date"] = "2022-02-03",
+			["Class"] = "WARRIOR",
 			["InstanceName"] = "Hyjal Summit",
 			["FirstPlayer"] = "未知",
 		}, -- [5]
@@ -854,9 +854,9 @@ LootMonitorDB = {
 			["InstanceID"] = 565,
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Gruul's Lair",
-			["Class"] = "WARRIOR",
-			["Date"] = "2022-02-05",
 			["FirstClass"] = "UNKNOWN",
+			["Date"] = "2022-02-05",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-565-13441-18831-00007E1F09",
@@ -892,12 +892,7 @@ LootMonitorDB = {
 		}, -- [6]
 		{
 			["InstanceID"] = 564,
-			["Player"] = "特變電工",
-			["InstanceName"] = "Black Temple",
 			["FirstPlayer"] = "未知",
-			["Date"] = "2022-02-05",
-			["Class"] = "WARRIOR",
-			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-22887-00007E63EA",
@@ -1282,7 +1277,104 @@ LootMonitorDB = {
 						"|cffa335ee|Hitem:31101::::::::70:::::::::|h[遺忘征服者肩鎧]|h|r", -- [3]
 					},
 				}, -- [34]
+				{
+					["GUID"] = "Creature-0-5580-564-28479-23400-00017FB28A",
+					["Time"] = "20:22:24",
+					["Looter"] = "程昱",
+					["Date"] = "2022-02-06",
+					["Class"] = "DRUID",
+					["Name"] = "伊利達瑞執政官",
+					["Loots"] = {
+						"|cffa335ee|Hitem:32231::::::::70:::::::::|h[焚石]|h|r", -- [1]
+					},
+				}, -- [35]
+				{
+					["GUID"] = "Creature-0-5580-564-28479-23403-0002FFB28A",
+					["Time"] = "20:28:49",
+					["Looter"] = "我叫緋村",
+					["Date"] = "2022-02-06",
+					["Class"] = "PALADIN",
+					["Name"] = "伊利達瑞刺客",
+					["Loots"] = {
+						"|cffa335ee|Hitem:32249::::::::70:::::::::|h[海泉綠寶石]|h|r", -- [1]
+					},
+				}, -- [36]
+				{
+					["GUID"] = "Creature-0-5580-564-28479-23397-0003FFB28A",
+					["Time"] = "20:28:50",
+					["Looter"] = "背鍋俠",
+					["Date"] = "2022-02-06",
+					["Class"] = "ROGUE",
+					["Name"] = "伊利達瑞血領主",
+					["Loots"] = {
+						"|cffa335ee|Hitem:32230::::::::70:::::::::|h[影歌紫水晶]|h|r", -- [1]
+					},
+				}, -- [37]
+				{
+					["GUID"] = "Creature-0-5580-564-28479-23402-00007FB28A",
+					["Time"] = "20:31:05",
+					["Looter"] = "柒刻",
+					["Date"] = "2022-02-06",
+					["Class"] = "SHAMAN",
+					["Name"] = "伊利達瑞戰場法師",
+					["Loots"] = {
+						"|cffa335ee|Hitem:32229::::::::70:::::::::|h[獅眼石]|h|r", -- [1]
+					},
+				}, -- [38]
+				{
+					["GUID"] = "Creature-0-5580-564-28479-22951-00007FB28A",
+					["Time"] = "21:02:34",
+					["Looter"] = "柒刻",
+					["Date"] = "2022-02-06",
+					["Class"] = "SHAMAN",
+					["Name"] = "瑪蘭黛女士",
+					["Loots"] = {
+						"|cffa335ee|Hitem:31099::::::::70:::::::::|h[遺忘防禦者護腿]|h|r", -- [1]
+					},
+				}, -- [39]
+				{
+					["GUID"] = "Creature-0-5580-564-28479-22952-00007FB28A",
+					["Time"] = "21:02:37",
+					["Looter"] = "终焉誓約",
+					["Date"] = "2022-02-06",
+					["Class"] = "PALADIN",
+					["Name"] = "維拉斯·深影",
+					["Loots"] = {
+						"|cffa335ee|Hitem:31098::::::::70:::::::::|h[遺忘征服者護腿]|h|r", -- [1]
+					},
+				}, -- [40]
+				{
+					["GUID"] = "Creature-0-5580-564-28479-22950-00007FB28A",
+					["Time"] = "21:02:49",
+					["Looter"] = "程昱",
+					["Date"] = "2022-02-06",
+					["Class"] = "DRUID",
+					["Name"] = "高等虛空術師札瑞佛",
+					["Loots"] = {
+						"|cffa335ee|Hitem:32376::::::::70:::::::::|h[森林徘徊者頭盔]|h|r", -- [1]
+					},
+				}, -- [41]
+				{
+					["GUID"] = "Creature-0-5580-564-28479-22917-00007FE58A",
+					["Time"] = "23:35:17",
+					["Looter"] = "莉姆露",
+					["Date"] = "2022-02-06",
+					["Class"] = "SHAMAN",
+					["Name"] = "伊利丹·怒風",
+					["Loots"] = {
+						"|cffa335ee|Hitem:32497::::::::70:::::::::|h[怒風璽戒]|h|r", -- [1]
+						"|cffa335ee|Hitem:32483::::::::70:::::::::|h[古爾丹之顱]|h|r", -- [2]
+						"|cffa335ee|Hitem:31089::::::::70:::::::::|h[遺忘征服者護胸]|h|r", -- [3]
+						"|cffa335ee|Hitem:31090::::::::70:::::::::|h[遺忘防禦者護胸]|h|r", -- [4]
+						"|cffa335ee|Hitem:32747::::::::70:::::::::|h[圖樣:迅擊護肩]|h|r", -- [5]
+					},
+				}, -- [42]
 			},
+			["Player"] = "特變電工",
+			["Date"] = "2022-02-05",
+			["Class"] = "WARRIOR",
+			["FirstClass"] = "UNKNOWN",
+			["InstanceName"] = "Black Temple",
 		}, -- [7]
 	},
 	["Config"] = {
