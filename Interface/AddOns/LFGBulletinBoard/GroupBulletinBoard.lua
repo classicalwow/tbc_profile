@@ -15,7 +15,7 @@ GBB.PastPlayerIcon="Interface\\COMMON\\Indicator-Yellow"
 GBB.TxtEscapePicture="|T%s:0|t"
 --"Interface\\Calendar\\MeetingIcon"
 --"Interface\\Icons\\spell_holy_prayerofshadowprotection"
-GBB.NotifySound=8045
+GBB.NotifySound=1210
 
 
 local PartyChangeEvent={ "GROUP_JOINED", "GROUP_ROSTER_UPDATE", "RAID_ROSTER_UPDATE","GROUP_LEFT","LOADING_SCREEN_DISABLED","PLAYER_ENTERING_WORLD", "PLAYER_REGEN_DISABLED", "PLAYER_ENTERING_WORLD"}

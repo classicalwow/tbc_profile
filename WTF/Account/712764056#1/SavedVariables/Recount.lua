@@ -39,7 +39,7 @@ RecountDB = {
 				},
 			},
 			["LastInstanceName"] = "奧特蘭克山谷",
-			["CurDataSet"] = "CurrentFightData",
+			["CurDataSet"] = "LastFightData",
 			["MainWindowWidth"] = 324.3896789550781,
 			["MainWindowHeight"] = 205.4917907714844,
 		},
