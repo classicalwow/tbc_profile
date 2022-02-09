@@ -42,11 +42,11 @@ TomTomWaypointsM = {
 	},
 	["profiles"] = {
 		["特變電工 - 伊弗斯"] = {
-			[1948] = {
-				["1948:377000000:449000000:魔能野猪"] = {
-					1948, -- [1]
-					0.377, -- [2]
-					0.449, -- [3]
+			[1951] = {
+				["1951:125000000:398000000:死影术士"] = {
+					1951, -- [1]
+					0.125, -- [2]
+					0.398, -- [3]
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
@@ -67,7 +67,7 @@ TomTomWaypointsM = {
 					["persistent"] = true,
 					["minimap"] = true,
 					["cleardistance"] = 10,
-					["title"] = "魔能野猪",
+					["title"] = "死影术士",
 					["from"] = "?",
 					["crazy"] = true,
 					["world"] = true,

@@ -11,36 +11,44 @@ CodexConfig = {
 	["showLowLevel"] = false,
 	["_tom_waypoint"] = {
 		1948, -- [1]
-		0.755, -- [2]
-		0.713, -- [3]
+		0.377, -- [2]
+		0.449, -- [3]
 		["arrivaldistance"] = 15,
 		["callbacks"] = {
 			["distance"] = {
-			},
-			["minimap"] = {
+				[10] = nil --[[ skipped inline function ]],
+				[15] = nil --[[ skipped inline function ]],
 			},
 			["world"] = {
+				["onclick"] = nil --[[ skipped inline function ]],
+				["tooltip_update"] = nil --[[ skipped inline function ]],
+				["tooltip_show"] = nil --[[ skipped inline function ]],
+			},
+			["minimap"] = {
+				["onclick"] = nil --[[ skipped inline function ]],
+				["tooltip_update"] = nil --[[ skipped inline function ]],
+				["tooltip_show"] = nil --[[ skipped inline function ]],
 			},
 		},
 		["persistent"] = true,
 		["minimap"] = true,
 		["cleardistance"] = 10,
-		["title"] = "龙喉传送者",
+		["title"] = "魔能野猪",
 		["from"] = "?",
 		["crazy"] = true,
 		["world"] = true,
 	},
-	["minimapButton"] = true,
-	["autoTurnin"] = false,
+	["continentIcon"] = false,
+	["currentQuestGivers"] = true,
 	["spawnMarkerSize"] = 15,
-	["showFestival"] = false,
+	["colorBySpawn"] = true,
 	["alwaysShowId"] = false,
 	["nameplateIcon"] = false,
 	["zoneMapIcon"] = true,
-	["colorBySpawn"] = true,
+	["showFestival"] = false,
 	["miniMapIcon"] = true,
-	["currentQuestGivers"] = true,
-	["continentIcon"] = false,
+	["autoTurnin"] = false,
+	["minimapButton"] = true,
 	["questMarkerSize"] = 15,
 }
 CodexHiddenQuests = {

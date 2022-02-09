@@ -10,9 +10,9 @@ CodexConfig = {
 	["minimumDropChance"] = 2,
 	["showLowLevel"] = false,
 	["_tom_waypoint"] = {
-		1948, -- [1]
-		0.377, -- [2]
-		0.449, -- [3]
+		1951, -- [1]
+		0.125, -- [2]
+		0.398, -- [3]
 		["arrivaldistance"] = 15,
 		["callbacks"] = {
 			["distance"] = {
@@ -33,22 +33,22 @@ CodexConfig = {
 		["persistent"] = true,
 		["minimap"] = true,
 		["cleardistance"] = 10,
-		["title"] = "魔能野猪",
+		["title"] = "死影术士",
 		["from"] = "?",
 		["crazy"] = true,
 		["world"] = true,
 	},
-	["continentIcon"] = false,
-	["currentQuestGivers"] = true,
+	["minimapButton"] = true,
+	["autoTurnin"] = false,
 	["spawnMarkerSize"] = 15,
-	["colorBySpawn"] = true,
+	["showFestival"] = false,
 	["alwaysShowId"] = false,
 	["nameplateIcon"] = false,
 	["zoneMapIcon"] = true,
-	["showFestival"] = false,
+	["colorBySpawn"] = true,
 	["miniMapIcon"] = true,
-	["autoTurnin"] = false,
-	["minimapButton"] = true,
+	["currentQuestGivers"] = true,
+	["continentIcon"] = false,
 	["questMarkerSize"] = 15,
 }
 CodexHiddenQuests = {
@@ -69,6 +69,11 @@ CodexColors = {
 		0.996078431372549, -- [1]
 		0.2352941176470588, -- [2]
 		0.00784313725490196, -- [3]
+	},
+	["亚恩·诺斯利"] = {
+		0.07450980392156863, -- [1]
+		0.7529411764705882, -- [2]
+		0.8470588235294118, -- [3]
 	},
 	["利维休斯"] = {
 		0.1294117647058824, -- [1]
