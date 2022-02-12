@@ -206,6 +206,18 @@
                             <Anchor point="LEFT" relativeKey="$parent.Quick5" relativePoint="RIGHT" x="5" y="0"/>
                         </Anchors>
                     </Button>
+                     <Button parentKey="Quick7" inherits="MeetingHornQuickTemplate">
+                        <Size x="35" y="22"/>
+                        <Anchors>
+                            <Anchor point="LEFT" relativeKey="$parent.Quick3" relativePoint="RIGHT" x="5" y="0"/>
+                        </Anchors>
+                    </Button>
+                     <Button parentKey="Quick8" inherits="MeetingHornQuickTemplate">
+                        <Size x="35" y="22"/>
+                        <Anchors>
+                            <Anchor point="LEFT" relativeKey="$parent.Quick7" relativePoint="RIGHT" x="5" y="0"/>
+                        </Anchors>
+                    </Button>
                     <Button parentKey="Refresh" inherits="UIPanelButtonTemplate" text="REFRESH">
                         <Size x="60" y="22"/>
                         <Anchors>
