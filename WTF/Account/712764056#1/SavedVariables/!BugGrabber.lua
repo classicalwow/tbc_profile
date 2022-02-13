@@ -1,6 +1,6 @@
 
 BugGrabberDB = {
-	["session"] = 656,
+	["session"] = 660,
 	["lastSanitation"] = 3,
 	["errors"] = {
 		{
@@ -880,29 +880,13 @@ BugGrabberDB = {
 			["counter"] = 251,
 		}, -- [115]
 		{
-			["message"] = "Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:112: attempt to index field 'db' (a nil value)",
-			["time"] = "2021/09/27 23:12:39",
-			["locals"] = "self = <table> {\n GetProfileByName = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:76\n NewProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:118\n IterateProfiles = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:92\n LoadProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:164\n GetProfileByIndex = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:72\n eventFrame = <unnamed> {\n }\n SaveProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:136\n GetProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:84\n EnableOrDisableAddOn = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:182\n GetNumProfiles = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:96\n Show = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:64\n RemoveProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:131\n Initialize = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:46\n CreateFrame = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\ProfilesUI.lua:57\n CreateProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:100\n EditProfileOption = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:125\n BackupSession = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:203\n}\nname = \"登出前\"\nptype = \"auto\"\nprof = <table> {\n config = <table> {\n }\n name = \"登出前\"\n ptype = \"auto\"\n}\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index field 'db' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua\"]:112: in function `CreateProfile'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua\"]:222: in function `BackupSession'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua\"]:253: in function <Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:234>",
-			["session"] = 624,
-			["counter"] = 4,
-		}, -- [116]
-		{
-			["message"] = "Interface\\AddOns\\Gladdy\\Gladdy-5.lua:227: bad argument #1 to 'pairs' (table expected, got nil)",
-			["time"] = "2022/01/30 22:12:59",
-			["locals"] = "(*temporary) = nil\n(*temporary) = \"table expected, got nil\"\n = <function> defined =[C]:-1\n",
-			["stack"] = "[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:227: in function `DeleteUnknownOptions'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:115: in function <Interface\\AddOns\\Gladdy\\Gladdy.lua:106>",
-			["session"] = 624,
-			["counter"] = 1,
-		}, -- [117]
-		{
 			["message"] = "...terface\\AddOns\\Blizzard_MacroUI\\Blizzard_MacroUI.lua:258: attempt to perform arithmetic on a nil value",
 			["time"] = "2021/07/16 20:27:22",
 			["locals"] = "self = MacroPopupFrame {\n 0 = <userdata>\n BG = <unnamed> {\n }\n BorderBox = <unnamed> {\n }\n}\n(*temporary) = 1950.476196\n(*temporary) = nil\n(*temporary) = MacroFrame {\n 0 = <userdata>\n TitleText = MacroFrameTitleText {\n }\n portrait = MacroFramePortrait {\n }\n LeftBorder = MacroFrameLeftBorder {\n }\n macroBase = 0\n TopRightCorner = MacroFrameTopRightCorner {\n }\n TopLeftCorner = MacroFrameTopLeftCorner {\n }\n Bg = MacroFrameBg {\n }\n macroMax = 120\n TopBorder = MacroFrameTopBorder {\n }\n OnLoad = <function> defined @Interface\\SharedXML\\SharedUIPanelTemplates.lua:857\n TopTileStreaks = MacroFrameTopTileStreaks {\n }\n TitleBg = MacroFrameTitleBg {\n }\n BottomBorder = MacroFrameBottomBorder {\n }\n backdrop = <unnamed> {\n }\n selectedMacro = 1\n numTabs = 2\n BotRightCorner = MacroFrameBotRightCorner {\n }\n Inset = MacroFrameInset {\n }\n CloseButton = MacroFrameCloseButton {\n }\n BotLeftCorner = MacroFrameBotLeftCorner {\n }\n PortraitFrame = MacroFramePortraitFrame {\n }\n selectedTab = 1\n RightBorder = MacroFrameRightBorder {\n }\n}\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to perform arithmetic on a nil value\"\nMACRO_POPUP_FRAME_MINIMUM_PADDING = 40\n",
 			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_MacroUI\\Blizzard_MacroUI.lua\"]:258: in function `MacroPopupFrame_AdjustAnchors'\n[string \"@Interface\\AddOns\\Blizzard_MacroUI\\Blizzard_MacroUI.lua\"]:283: in function <...terface\\AddOns\\Blizzard_MacroUI\\Blizzard_MacroUI.lua:282>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\AddOns\\ElvUI\\Modules\\Skins\\Blizzard\\Macro-巨集指令.lua\"]:89: in function <...erface\\AddOns\\ElvUI\\Modules\\Skins\\Blizzard\\Macro.lua:10>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\ElvUI\\Modules\\Skins\\Skins.lua\"]:1204: in function `CallLoadedAddon'\n[string \"@Interface\\AddOns\\ElvUI\\Modules\\Skins\\Skins.lua\"]:1145: in function `?'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:119: in function <...ler\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:29: in function <...ler\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceEvent-3.0\\AceEvent-3.0-4.lua\"]:120: in function <...seAddonController\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:358: in function `UIParentLoadAddOn'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:401: in function `MacroFrame_LoadUI'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:495: in function `ShowMacroFrame'\n[string \"*:OnClick\"]:3: in function <[string \"*:OnClick\"]:1>",
 			["session"] = 629,
 			["counter"] = 13,
-		}, -- [118]
+		}, -- [116]
 		{
 			["message"] = "[string \"PlaySound(\"Chat Blip\")\"]:1: Usage: PlaySound(soundKitID, optional[\"SFX\",\"Music\",\"Ambience\", \"Dialog\" or \"Master\"], [forceNoDuplicates, runFinishCallback])",
 			["time"] = "2022/02/05 15:40:55",
@@ -910,7 +894,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `PlaySound'\n[string \"PlaySound(\"Chat Blip\")\"]:1: in main chunk\n[string \"=[C]\"]: in function `RunScript'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:2156: in function `?'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4829: in function `ChatEdit_ParseText'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4492: in function `ChatEdit_SendText'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4528: in function <Interface\\FrameXML\\ChatFrame.lua:4524>\n[string \"=[C]\"]: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>",
 			["session"] = 643,
 			["counter"] = 3,
-		}, -- [119]
+		}, -- [117]
 		{
 			["message"] = "[string \"playSound(520)\"]:1: attempt to call global 'playSound' (a nil value)",
 			["time"] = "2022/02/05 15:51:49",
@@ -918,7 +902,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"playSound(520)\"]:1: in main chunk\n[string \"=[C]\"]: in function `RunScript'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:2156: in function `?'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4829: in function `ChatEdit_ParseText'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4492: in function `ChatEdit_SendText'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4528: in function <Interface\\FrameXML\\ChatFrame.lua:4524>\n[string \"=[C]\"]: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>",
 			["session"] = 644,
 			["counter"] = 1,
-		}, -- [120]
+		}, -- [118]
 		{
 			["message"] = "[string \"playSound(619)\"]:1: attempt to call global 'playSound' (a nil value)",
 			["time"] = "2022/02/05 15:51:58",
@@ -926,7 +910,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"playSound(619)\"]:1: in main chunk\n[string \"=[C]\"]: in function `RunScript'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:2156: in function `?'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4829: in function `ChatEdit_ParseText'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4492: in function `ChatEdit_SendText'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4528: in function <Interface\\FrameXML\\ChatFrame.lua:4524>\n[string \"=[C]\"]: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>",
 			["session"] = 644,
 			["counter"] = 1,
-		}, -- [121]
+		}, -- [119]
 		{
 			["message"] = "[string \"playsound(619)\"]:1: attempt to call global 'playsound' (a nil value)",
 			["time"] = "2022/02/05 15:52:01",
@@ -934,7 +918,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"playsound(619)\"]:1: in main chunk\n[string \"=[C]\"]: in function `RunScript'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:2156: in function `?'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4829: in function `ChatEdit_ParseText'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4492: in function `ChatEdit_SendText'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4528: in function <Interface\\FrameXML\\ChatFrame.lua:4524>\n[string \"=[C]\"]: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>",
 			["session"] = 644,
 			["counter"] = 5,
-		}, -- [122]
+		}, -- [120]
 		{
 			["message"] = "...TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua:751: attempt to index local 'color' (a nil value)",
 			["time"] = "2021/10/30 12:28:04",
@@ -942,7 +926,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface_TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua\"]:751: in function <...TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua:684>\n[string \"=(tail call)\"]: ?\n[string \"@Interface\\AddOns\\Altoholic\\Altoholic-2.5.007.lua\"]:155: in function `AuctionFrameBrowse_Update'\n[string \"@Interface_TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua\"]:277: in function <...TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua:275>",
 			["session"] = 649,
 			["counter"] = 4,
-		}, -- [123]
+		}, -- [121]
 		{
 			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:235: attempt to compare number with nil",
 			["time"] = "2021/07/02 01:32:29",
@@ -950,7 +934,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:235: in function `GearScore_GetQuality'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:448: in function `GearScore_SetTargetData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:328: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:326>",
 			["session"] = 653,
 			["counter"] = 110,
-		}, -- [124]
+		}, -- [122]
 		{
 			["message"] = "...lizzard_MapCanvas\\MapCanvas_ScrollContainerMixin.lua:428: attempt to index local 'layers' (a nil value)",
 			["time"] = "2022/02/06 23:53:04",
@@ -958,7 +942,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_MapCanvas\\MapCanvas_ScrollContainerMixin.lua\"]:428: in function `CreateZoomLevels'\n[string \"@Interface\\AddOns\\Blizzard_MapCanvas\\MapCanvas_ScrollContainerMixin.lua\"]:415: in function `OnCanvasSizeChanged'\n[string \"@Interface\\AddOns\\Blizzard_MapCanvas\\MapCanvas_ScrollContainerMixin.lua\"]:407: in function `SetMapID'\n[string \"@Interface\\AddOns\\Blizzard_MapCanvas\\Blizzard_MapCanvas.lua\"]:35: in function `SetMapID'\n[string \"@Interface\\AddOns\\ClassicCodex\\map.lua\"]:197: in function `ShowMapId'\n[string \"@Interface\\AddOns\\ClassicCodex\\quest.lua\"]:302: in function `ShowCurrentQuest'\n[string \"@Interface\\AddOns\\ClassicCodex\\quest.lua\"]:330: in function <Interface\\AddOns\\ClassicCodex\\quest.lua:329>",
 			["session"] = 653,
 			["counter"] = 1,
-		}, -- [125]
+		}, -- [123]
 		{
 			["message"] = "Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:466: attempt to index local 'icon' (a nil value)",
 			["time"] = "2022/01/26 22:32:32",
@@ -966,14 +950,30 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua\"]:466: in function `UpdateCooldowns'\n[string \"@Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua\"]:271: in function `?'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:174: in function `Call'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:179: in function `SendMessage'\n[string \"@Interface\\AddOns\\Gladdy\\EventListener.lua\"]:73: in function `SpotEnemy'\n[string \"@Interface\\AddOns\\Gladdy\\EventListener.lua\"]:41: in function `?'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:174: in function `Call'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:179: in function `SendMessage'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:528: in function `JoinedArena'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:423: in function `?'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:120: in function <Interface\\AddOns\\Gladdy\\Gladdy.lua:106>",
 			["session"] = 656,
 			["counter"] = 12,
+		}, -- [124]
+		{
+			["message"] = "Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:112: attempt to index field 'db' (a nil value)",
+			["time"] = "2021/09/27 23:12:39",
+			["locals"] = "self = <table> {\n GetProfileByName = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:76\n NewProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:118\n IterateProfiles = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:92\n LoadProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:164\n GetProfileByIndex = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:72\n eventFrame = <unnamed> {\n }\n SaveProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:136\n GetProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:84\n EnableOrDisableAddOn = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:182\n GetNumProfiles = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:96\n Show = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:64\n RemoveProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:131\n Initialize = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:46\n CreateFrame = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\ProfilesUI.lua:57\n CreateProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:100\n EditProfileOption = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:125\n BackupSession = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:203\n}\nname = \"登出前\"\nptype = \"auto\"\nprof = <table> {\n config = <table> {\n }\n name = \"登出前\"\n ptype = \"auto\"\n}\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index field 'db' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua\"]:112: in function `CreateProfile'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua\"]:222: in function `BackupSession'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua\"]:253: in function <Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:234>",
+			["session"] = 658,
+			["counter"] = 5,
+		}, -- [125]
+		{
+			["message"] = "Interface\\AddOns\\Gladdy\\Gladdy-5.lua:227: bad argument #1 to 'pairs' (table expected, got nil)",
+			["time"] = "2022/01/30 22:12:59",
+			["locals"] = "(*temporary) = nil\n(*temporary) = \"table expected, got nil\"\n = <function> defined =[C]:-1\n",
+			["stack"] = "[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:227: in function `DeleteUnknownOptions'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:115: in function <Interface\\AddOns\\Gladdy\\Gladdy.lua:106>",
+			["session"] = 658,
+			["counter"] = 2,
 		}, -- [126]
 		{
 			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
 			["time"] = "2021/07/01 16:18:25",
 			["locals"] = "GearScore = 2320\nItemLevel = 105\nRed = 0.081600\nBlue = 0.320000\nGreen = 0.840000\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 5\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
-			["session"] = 656,
-			["counter"] = 6994,
+			["session"] = 659,
+			["counter"] = 7044,
 		}, -- [127]
 	},
 }

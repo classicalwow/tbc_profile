@@ -161,13 +161,13 @@ AutoBarDB = {
 					["buttonKey"] = "AutoBarButtonAspect",
 					["square_popups"] = true,
 				},
-				["AutoBarButtonTrap"] = {
+				["AutoBarButtonInterrupt"] = {
 					["barKey"] = "AutoBarClassBarHunter",
-					["buttonClass"] = "AutoBarButtonTrap",
+					["buttonClass"] = "AutoBarButtonInterrupt",
 					["defaultButtonIndex"] = "*",
 					["arrangeOnUse"] = true,
 					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonTrap",
+					["buttonKey"] = "AutoBarButtonInterrupt",
 					["square_popups"] = true,
 				},
 				["AutoBarButtonDebuff"] = {
@@ -186,15 +186,6 @@ AutoBarDB = {
 					["buttonKey"] = "AutoBarButtonClassPet",
 					["square_popups"] = true,
 				},
-				["AutoBarButtonInterrupt"] = {
-					["barKey"] = "AutoBarClassBarHunter",
-					["buttonClass"] = "AutoBarButtonInterrupt",
-					["defaultButtonIndex"] = "*",
-					["arrangeOnUse"] = true,
-					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonInterrupt",
-					["square_popups"] = true,
-				},
 				["AutoBarButtonCharge"] = {
 					["barKey"] = "AutoBarClassBarHunter",
 					["buttonClass"] = "AutoBarButtonCharge",
@@ -202,6 +193,15 @@ AutoBarDB = {
 					["arrangeOnUse"] = true,
 					["enabled"] = true,
 					["buttonKey"] = "AutoBarButtonCharge",
+					["square_popups"] = true,
+				},
+				["AutoBarButtonTrap"] = {
+					["barKey"] = "AutoBarClassBarHunter",
+					["buttonClass"] = "AutoBarButtonTrap",
+					["defaultButtonIndex"] = "*",
+					["arrangeOnUse"] = true,
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonTrap",
 					["square_popups"] = true,
 				},
 				["AutoBarButtonClassPets3"] = {
@@ -245,7 +245,7 @@ AutoBarDB = {
 		["特變電工 - 伊弗斯"] = {
 			["buttonDataList"] = {
 				["AutoBarButtonElixirBattle"] = {
-					["arrangeOnUse"] = 22831,
+					["arrangeOnUse"] = 22824,
 				},
 				["AutoBarButtonBuff"] = {
 					["arrangeOnUse"] = 27500,
@@ -420,14 +420,14 @@ AutoBarDB = {
 				["square_popups"] = true,
 			},
 			["AutoBarButtonTrinket2"] = {
-				["barKey"] = "AutoBarClassBarBasic",
+				["enabled"] = true,
 				["targeted"] = 14,
 				["buttonKey"] = "AutoBarButtonTrinket2",
-				["square_popups"] = true,
-				["buttonClass"] = "AutoBarButtonTrinket2",
-				["enabled"] = true,
-				["equipped"] = 14,
 				["defaultButtonIndex"] = 27,
+				["buttonClass"] = "AutoBarButtonTrinket2",
+				["barKey"] = "AutoBarClassBarBasic",
+				["equipped"] = 14,
+				["square_popups"] = true,
 			},
 			["AutoBarButtonBuffWeapon1"] = {
 				["barKey"] = "AutoBarClassBarBasic",
@@ -521,14 +521,14 @@ AutoBarDB = {
 				["square_popups"] = true,
 			},
 			["AutoBarButtonFood"] = {
-				["disableConjure"] = false,
+				["enabled"] = true,
 				["include_combo_basic"] = true,
 				["buttonKey"] = "AutoBarButtonFood",
-				["square_popups"] = true,
-				["buttonClass"] = "AutoBarButtonFood",
-				["enabled"] = true,
-				["barKey"] = "AutoBarClassBarBasic",
 				["defaultButtonIndex"] = 15,
+				["buttonClass"] = "AutoBarButtonFood",
+				["disableConjure"] = false,
+				["barKey"] = "AutoBarClassBarBasic",
+				["square_popups"] = true,
 			},
 			["AutoBarButtonBattleStandards"] = {
 				["barKey"] = "AutoBarClassBarExtras",
@@ -665,14 +665,14 @@ AutoBarDB = {
 				["square_popups"] = true,
 			},
 			["AutoBarButtonTrinket1"] = {
-				["barKey"] = "AutoBarClassBarBasic",
+				["enabled"] = true,
 				["targeted"] = 13,
 				["buttonKey"] = "AutoBarButtonTrinket1",
-				["square_popups"] = true,
-				["buttonClass"] = "AutoBarButtonTrinket1",
-				["enabled"] = true,
-				["equipped"] = 13,
 				["defaultButtonIndex"] = 26,
+				["buttonClass"] = "AutoBarButtonTrinket1",
+				["barKey"] = "AutoBarClassBarBasic",
+				["equipped"] = 13,
+				["square_popups"] = true,
 			},
 			["AutoBarButtonDrums"] = {
 				["barKey"] = "AutoBarClassBarBasic",

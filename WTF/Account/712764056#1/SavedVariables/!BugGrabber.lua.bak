@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 	["lastSanitation"] = 3,
-	["session"] = 655,
+	["session"] = 659,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\TomTom\\TomTom_Config.lua:40: attempt to call method 'EnableDisablePOIIntegration' (a nil value)",
@@ -832,21 +832,13 @@ BugGrabberDB = {
 			["counter"] = 4,
 		}, -- [109]
 		{
-			["message"] = "Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:466: attempt to index local 'icon' (a nil value)",
-			["time"] = "2022/01/26 22:32:32",
-			["locals"] = "self = <unnamed> {\n 0 = <userdata>\n defaults = <table> {\n }\n messages = <table> {\n }\n ResetUnit = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:430\n RegisterMessage = <function> defined @Interface\\AddOns\\Gladdy\\Gladdy.lua:190\n UnregisterMessage = <function> defined @Interface\\AddOns\\Gladdy\\Gladdy.lua:194\n UpdateCooldowns = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:439\n UNIT_DESTROYED = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:435\n ENEMY_SPOTTED = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:270\n spellTextures = <table> {\n }\n CreateFrame = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:94\n DetectSpec = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:340\n UpdateTestCooldowns = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:249\n cooldownSpellIds = <table> {\n }\n GetCooldownOptions = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:823\n UpdateFrame = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:140\n UnregisterAllMessages = <function> defined @Interface\\AddOns\\Gladdy\\Gladdy.lua:198\n LegacySetPosition = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:915\n GetOptions = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:553\n CooldownUsed = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:494\n CooldownStart = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:278\n name = \"Cooldowns\"\n Initialize = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:74\n Test = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:235\n CooldownReady = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:311\n SPEC_DETECTED = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:274\n priority = 0\n}\nbutton = GladdyButtonFrame5 {\n 0 = <userdata>\n racial = GladdyTrinketButtonarena5 {\n }\n class = \"ROGUE\"\n damaged = 0\n castBar = <unnamed> {\n }\n raceLoc = \"獸人\"\n aura = <unnamed> {\n }\n spellCooldownFrame = <unnamed> {\n }\n powerBar = <unnamed> {\n }\n leaderBorder = <unnamed> {\n }\n healthBar = <unnamed> {\n }\n trinket = GladdyTrinketButtonarena5 {\n }\n targetBorder = <unnamed> {\n }\n secure = GladdyButton5 {\n }\n name = \"千秋樂\"\n lastCooldownSpell = 15\n lastState = 1.500000\n classIcon = <unnamed> {\n }\n interruptFrame = <unnamed> {\n }\n highlight = <unnamed> {\n }\n focusBorder = <unnamed> {\n }\n range = <table> {\n }\n unit = \"arena5\"\n fd = false\n spec = \"戰鬥\"\n drFrame = <unnamed> {\n }\n classLoc = \"盜賊\"\n ciFrame = GladdyCombatindicatorarena5 {\n }\n race = \"Orc\"\n power = 0\n id = 5\n spells = <table> {\n }\n stealthed = false\n pom = false\n healthMax = 0\n powerType = 0\n classColors = <table> {\n }\n ns = false\n nf = false\n click = false\n powerMax = 0\n}\nclass = \"ROGUE\"\nrace = \"Orc\"\n(for generator) = <function> defined =[C]:-1\n(for state) = <table> {\n 36554 = <table> {\n }\n 2094 = <table> {\n }\n 11305 = <table> {\n }\n 31224 = 60\n 14185 = <table> {\n }\n 8643 = 20\n 13877 = <table> {\n }\n 1766 = 10\n 26669 = <table> {\n }\n 13750 = <table> {\n }\n 14177 = <table> {\n }\n 26889 = <table> {\n }\n}\n(for control) = 26669\nk = 26669\nv = <table> {\n cd = 300\n 戰鬥 = 180\n}\nsharedCD = false\nicon = nil\n(*temporary) = \"icon15\"\n(*temporary) = nil\n(*temporary) = \"14\"\n(*temporary) = <function> defined @Interface\\AddOns\\ElvUI\\Core\\General\\Toolkit.lua:34\n(*temporary) = <unnamed> {\n 0 = <userdata>\n PixelSnapDisabled = true\n}\n(*temporary) = true\n(*temporary) = <unnamed> {\n 0 = <userdata>\n PixelSnapDisabled = true\n}\n(*temporary) = false\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index local 'icon' (a nil value)\"\nGladdy = <table> {\n defaults = <table> {\n }\n curUnit = 1\n modules = <table> {\n }\n ToggleFrame = <function> defined @Interface\\AddOns\\Gladdy\\Frame.lua:281\n LegacyPositioning = <function> defined @Interface\\AddOns\\Gladdy\\Frame.lua:468\n UnregisterComm = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:153\n",
-			["stack"] = "[string \"@Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua\"]:466: in function `UpdateCooldowns'\n[string \"@Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua\"]:271: in function `?'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:174: in function `Call'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:179: in function `SendMessage'\n[string \"@Interface\\AddOns\\Gladdy\\EventListener.lua\"]:73: in function `SpotEnemy'\n[string \"@Interface\\AddOns\\Gladdy\\EventListener.lua\"]:41: in function `?'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:174: in function `Call'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:179: in function `SendMessage'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:528: in function `JoinedArena'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:423: in function `?'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:120: in function <Interface\\AddOns\\Gladdy\\Gladdy.lua:106>",
-			["session"] = 610,
-			["counter"] = 9,
-		}, -- [110]
-		{
 			["message"] = "...Master\\LibTSM\\Service\\ItemTooltipClasses\\Builder.lua:228: assertion failed!",
 			["time"] = "2022/01/29 17:32:34",
 			["locals"] = "(*temporary) = false\n",
 			["stack"] = "[string \"=[C]\"]: in function `assert'\n[string \"@Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Service\\ItemTooltipClasses\\Builder.lua\"]:228: in function <...Master\\LibTSM\\Service\\ItemTooltipClasses\\Builder.lua:227>\n[string \"=(tail call)\"]: ?\n[string \"@Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Service\\ItemTooltipClasses\\Wrapper.lua\"]:202: in function `SetTooltipItem'\n[string \"@Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Service\\ItemTooltipClasses\\Wrapper.lua\"]:142: in function <...Master\\LibTSM\\Service\\ItemTooltipClasses\\Wrapper.lua:122>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n...\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Service\\ItemTooltipClasses\\Wrapper.lua\"]:107: in function <...Master\\LibTSM\\Service\\ItemTooltipClasses\\Wrapper.lua:105>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `?'\n[string \"@Interface\\AddOns\\ArkInventory\\ArkInventoryTooltip.lua\"]:1998: in function <...nterface\\AddOns\\ArkInventory\\ArkInventoryTooltip.lua:1946>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?",
 			["session"] = 615,
 			["counter"] = 6,
-		}, -- [111]
+		}, -- [110]
 		{
 			["message"] = "Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua:1946: Usage: SaveBindings(1||2)",
 			["time"] = "2021/06/20 23:23:47",
@@ -854,7 +846,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `SaveBindings'\n[string \"@Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua\"]:1946: in function `SetSetBindings'\n[string \"@Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua\"]:233: in function `?'\n[string \"@Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua\"]:198: in function `OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
 			["session"] = 618,
 			["counter"] = 6,
-		}, -- [112]
+		}, -- [111]
 		{
 			["message"] = "Interface\\AddOns\\DBM-Core\\DBM-Core-28f01ab.lua:8511: attempt to compare nil with number",
 			["time"] = "2022/01/29 21:59:23",
@@ -862,7 +854,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\DBM-Core\\DBM-Core-28f01ab.lua\"]:8511: in function `Play'\n[string \"@Interface\\AddOns\\DBM-Hyjal\\Azgalor.lua\"]:43: in function `handler'\n[string \"@Interface\\AddOns\\DBM-Core\\DBM-Core-28f01ab.lua\"]:842: in function <Interface\\AddOns\\DBM-Core\\DBM-Core.lua:829>\n[string \"=(tail call)\"]: ?\n[string \"@Interface\\AddOns\\DBM-Core\\DBM-Core-28f01ab.lua\"]:842: in function <Interface\\AddOns\\DBM-Core\\DBM-Core.lua:829>",
 			["session"] = 619,
 			["counter"] = 9,
-		}, -- [113]
+		}, -- [112]
 		{
 			["message"] = "...e\\AddOns\\TradeSkillMaster\\Core\\UI\\AuctionUI\\Core.lua:224: assertion failed!",
 			["time"] = "2022/01/29 17:28:51",
@@ -870,7 +862,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `assert'\n[string \"@Interface\\AddOns\\TradeSkillMaster\\Core\\UI\\AuctionUI\\Core.lua\"]:224: in function `callback'\n[string \"@Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\Event.lua\"]:85: in function `ProcessEvent'\n[string \"@Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\Event.lua\"]:101: in function <...erface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\Event.lua:93>\n[string \"=[C]\"]: in function `CloseAuctionHouse'\n[string \"@Interface\\AddOns\\aux-addon\\frame.lua\"]:29: in function <Interface\\AddOns\\aux-addon\\frame.lua:29>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface\\AddOns\\aux-addon\\frame.lua\"]:54: in function <Interface\\AddOns\\aux-addon\\frame.lua:54>",
 			["session"] = 620,
 			["counter"] = 2,
-		}, -- [114]
+		}, -- [113]
 		{
 			["message"] = "...erface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\Event.lua:97: assertion failed!",
 			["time"] = "2021/09/15 00:50:55",
@@ -878,7 +870,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `assert'\n[string \"@Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\Event.lua\"]:97: in function <...erface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\Event.lua:93>",
 			["session"] = 620,
 			["counter"] = 79,
-		}, -- [115]
+		}, -- [114]
 		{
 			["message"] = "...ce\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\TempTable.lua:41: Could not acquire temp table",
 			["time"] = "2022/01/29 17:32:32",
@@ -886,23 +878,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `assert'\n[string \"@Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\TempTable.lua\"]:41: in function `Acquire'\n[string \"@Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\Vararg.lua\"]:34: in function `Iterator'\n[string \"@Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Service\\AuctionHouseWrapper.lua\"]:627: in function `ArgsToStr'\n[string \"@Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Service\\AuctionHouseWrapper.lua\"]:378: in function <...deSkillMaster\\LibTSM\\Service\\AuctionHouseWrapper.lua:377>\n[string \"=[C]\"]: in function `QueryAuctionItems'\n[string \"@Interface\\AddOns\\aux-addon\\core\\scan.lua\"]:133: in function `submit_query'\n[string \"@Interface\\AddOns\\aux-addon\\core\\scan.lua\"]:100: in function `scan'\n[string \"@Interface\\AddOns\\aux-addon\\core\\scan.lua\"]:54: in function <Interface\\AddOns\\aux-addon\\core\\scan.lua:49>",
 			["session"] = 620,
 			["counter"] = 251,
-		}, -- [116]
-		{
-			["message"] = "Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:112: attempt to index field 'db' (a nil value)",
-			["time"] = "2021/09/27 23:12:39",
-			["locals"] = "self = <table> {\n GetProfileByName = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:76\n NewProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:118\n IterateProfiles = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:92\n LoadProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:164\n GetProfileByIndex = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:72\n eventFrame = <unnamed> {\n }\n SaveProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:136\n GetProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:84\n EnableOrDisableAddOn = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:182\n GetNumProfiles = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:96\n Show = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:64\n RemoveProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:131\n Initialize = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:46\n CreateFrame = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\ProfilesUI.lua:57\n CreateProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:100\n EditProfileOption = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:125\n BackupSession = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:203\n}\nname = \"登出前\"\nptype = \"auto\"\nprof = <table> {\n config = <table> {\n }\n name = \"登出前\"\n ptype = \"auto\"\n}\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index field 'db' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua\"]:112: in function `CreateProfile'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua\"]:222: in function `BackupSession'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua\"]:253: in function <Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:234>",
-			["session"] = 624,
-			["counter"] = 4,
-		}, -- [117]
-		{
-			["message"] = "Interface\\AddOns\\Gladdy\\Gladdy-5.lua:227: bad argument #1 to 'pairs' (table expected, got nil)",
-			["time"] = "2022/01/30 22:12:59",
-			["locals"] = "(*temporary) = nil\n(*temporary) = \"table expected, got nil\"\n = <function> defined =[C]:-1\n",
-			["stack"] = "[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:227: in function `DeleteUnknownOptions'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:115: in function <Interface\\AddOns\\Gladdy\\Gladdy.lua:106>",
-			["session"] = 624,
-			["counter"] = 1,
-		}, -- [118]
+		}, -- [115]
 		{
 			["message"] = "...terface\\AddOns\\Blizzard_MacroUI\\Blizzard_MacroUI.lua:258: attempt to perform arithmetic on a nil value",
 			["time"] = "2021/07/16 20:27:22",
@@ -910,7 +886,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_MacroUI\\Blizzard_MacroUI.lua\"]:258: in function `MacroPopupFrame_AdjustAnchors'\n[string \"@Interface\\AddOns\\Blizzard_MacroUI\\Blizzard_MacroUI.lua\"]:283: in function <...terface\\AddOns\\Blizzard_MacroUI\\Blizzard_MacroUI.lua:282>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\AddOns\\ElvUI\\Modules\\Skins\\Blizzard\\Macro-巨集指令.lua\"]:89: in function <...erface\\AddOns\\ElvUI\\Modules\\Skins\\Blizzard\\Macro.lua:10>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\ElvUI\\Modules\\Skins\\Skins.lua\"]:1204: in function `CallLoadedAddon'\n[string \"@Interface\\AddOns\\ElvUI\\Modules\\Skins\\Skins.lua\"]:1145: in function `?'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:119: in function <...ler\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:29: in function <...ler\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceEvent-3.0\\AceEvent-3.0-4.lua\"]:120: in function <...seAddonController\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:358: in function `UIParentLoadAddOn'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:401: in function `MacroFrame_LoadUI'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:495: in function `ShowMacroFrame'\n[string \"*:OnClick\"]:3: in function <[string \"*:OnClick\"]:1>",
 			["session"] = 629,
 			["counter"] = 13,
-		}, -- [119]
+		}, -- [116]
 		{
 			["message"] = "[string \"PlaySound(\"Chat Blip\")\"]:1: Usage: PlaySound(soundKitID, optional[\"SFX\",\"Music\",\"Ambience\", \"Dialog\" or \"Master\"], [forceNoDuplicates, runFinishCallback])",
 			["time"] = "2022/02/05 15:40:55",
@@ -918,7 +894,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `PlaySound'\n[string \"PlaySound(\"Chat Blip\")\"]:1: in main chunk\n[string \"=[C]\"]: in function `RunScript'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:2156: in function `?'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4829: in function `ChatEdit_ParseText'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4492: in function `ChatEdit_SendText'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4528: in function <Interface\\FrameXML\\ChatFrame.lua:4524>\n[string \"=[C]\"]: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>",
 			["session"] = 643,
 			["counter"] = 3,
-		}, -- [120]
+		}, -- [117]
 		{
 			["message"] = "[string \"playSound(520)\"]:1: attempt to call global 'playSound' (a nil value)",
 			["time"] = "2022/02/05 15:51:49",
@@ -926,7 +902,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"playSound(520)\"]:1: in main chunk\n[string \"=[C]\"]: in function `RunScript'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:2156: in function `?'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4829: in function `ChatEdit_ParseText'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4492: in function `ChatEdit_SendText'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4528: in function <Interface\\FrameXML\\ChatFrame.lua:4524>\n[string \"=[C]\"]: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>",
 			["session"] = 644,
 			["counter"] = 1,
-		}, -- [121]
+		}, -- [118]
 		{
 			["message"] = "[string \"playSound(619)\"]:1: attempt to call global 'playSound' (a nil value)",
 			["time"] = "2022/02/05 15:51:58",
@@ -934,7 +910,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"playSound(619)\"]:1: in main chunk\n[string \"=[C]\"]: in function `RunScript'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:2156: in function `?'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4829: in function `ChatEdit_ParseText'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4492: in function `ChatEdit_SendText'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4528: in function <Interface\\FrameXML\\ChatFrame.lua:4524>\n[string \"=[C]\"]: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>",
 			["session"] = 644,
 			["counter"] = 1,
-		}, -- [122]
+		}, -- [119]
 		{
 			["message"] = "[string \"playsound(619)\"]:1: attempt to call global 'playsound' (a nil value)",
 			["time"] = "2022/02/05 15:52:01",
@@ -942,7 +918,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"playsound(619)\"]:1: in main chunk\n[string \"=[C]\"]: in function `RunScript'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:2156: in function `?'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4829: in function `ChatEdit_ParseText'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4492: in function `ChatEdit_SendText'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4528: in function <Interface\\FrameXML\\ChatFrame.lua:4524>\n[string \"=[C]\"]: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>",
 			["session"] = 644,
 			["counter"] = 5,
-		}, -- [123]
+		}, -- [120]
 		{
 			["message"] = "...TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua:751: attempt to index local 'color' (a nil value)",
 			["time"] = "2021/10/30 12:28:04",
@@ -950,7 +926,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface_TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua\"]:751: in function <...TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua:684>\n[string \"=(tail call)\"]: ?\n[string \"@Interface\\AddOns\\Altoholic\\Altoholic-2.5.007.lua\"]:155: in function `AuctionFrameBrowse_Update'\n[string \"@Interface_TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua\"]:277: in function <...TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua:275>",
 			["session"] = 649,
 			["counter"] = 4,
-		}, -- [124]
+		}, -- [121]
 		{
 			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:235: attempt to compare number with nil",
 			["time"] = "2021/07/02 01:32:29",
@@ -958,7 +934,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:235: in function `GearScore_GetQuality'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:448: in function `GearScore_SetTargetData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:328: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:326>",
 			["session"] = 653,
 			["counter"] = 110,
-		}, -- [125]
+		}, -- [122]
 		{
 			["message"] = "...lizzard_MapCanvas\\MapCanvas_ScrollContainerMixin.lua:428: attempt to index local 'layers' (a nil value)",
 			["time"] = "2022/02/06 23:53:04",
@@ -966,14 +942,38 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_MapCanvas\\MapCanvas_ScrollContainerMixin.lua\"]:428: in function `CreateZoomLevels'\n[string \"@Interface\\AddOns\\Blizzard_MapCanvas\\MapCanvas_ScrollContainerMixin.lua\"]:415: in function `OnCanvasSizeChanged'\n[string \"@Interface\\AddOns\\Blizzard_MapCanvas\\MapCanvas_ScrollContainerMixin.lua\"]:407: in function `SetMapID'\n[string \"@Interface\\AddOns\\Blizzard_MapCanvas\\Blizzard_MapCanvas.lua\"]:35: in function `SetMapID'\n[string \"@Interface\\AddOns\\ClassicCodex\\map.lua\"]:197: in function `ShowMapId'\n[string \"@Interface\\AddOns\\ClassicCodex\\quest.lua\"]:302: in function `ShowCurrentQuest'\n[string \"@Interface\\AddOns\\ClassicCodex\\quest.lua\"]:330: in function <Interface\\AddOns\\ClassicCodex\\quest.lua:329>",
 			["session"] = 653,
 			["counter"] = 1,
+		}, -- [123]
+		{
+			["message"] = "Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:466: attempt to index local 'icon' (a nil value)",
+			["time"] = "2022/01/26 22:32:32",
+			["locals"] = "self = <unnamed> {\n 0 = <userdata>\n defaults = <table> {\n }\n messages = <table> {\n }\n ResetUnit = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:430\n RegisterMessage = <function> defined @Interface\\AddOns\\Gladdy\\Gladdy.lua:190\n UnregisterMessage = <function> defined @Interface\\AddOns\\Gladdy\\Gladdy.lua:194\n UpdateCooldowns = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:439\n UNIT_DESTROYED = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:435\n ENEMY_SPOTTED = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:270\n spellTextures = <table> {\n }\n CreateFrame = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:94\n DetectSpec = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:340\n UpdateTestCooldowns = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:249\n cooldownSpellIds = <table> {\n }\n GetCooldownOptions = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:823\n UpdateFrame = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:140\n UnregisterAllMessages = <function> defined @Interface\\AddOns\\Gladdy\\Gladdy.lua:198\n LegacySetPosition = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:915\n GetOptions = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:553\n CooldownUsed = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:494\n CooldownStart = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:278\n name = \"Cooldowns\"\n Initialize = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:74\n Test = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:235\n CooldownReady = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:311\n SPEC_DETECTED = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:274\n priority = 0\n}\nbutton = GladdyButtonFrame5 {\n 0 = <userdata>\n racial = GladdyTrinketButtonarena5 {\n }\n class = \"ROGUE\"\n damaged = 0\n castBar = <unnamed> {\n }\n raceLoc = \"獸人\"\n aura = <unnamed> {\n }\n spellCooldownFrame = <unnamed> {\n }\n powerBar = <unnamed> {\n }\n leaderBorder = <unnamed> {\n }\n healthBar = <unnamed> {\n }\n trinket = GladdyTrinketButtonarena5 {\n }\n targetBorder = <unnamed> {\n }\n secure = GladdyButton5 {\n }\n name = \"千秋樂\"\n lastCooldownSpell = 15\n lastState = 1.500000\n classIcon = <unnamed> {\n }\n interruptFrame = <unnamed> {\n }\n highlight = <unnamed> {\n }\n focusBorder = <unnamed> {\n }\n range = <table> {\n }\n unit = \"arena5\"\n fd = false\n spec = \"戰鬥\"\n drFrame = <unnamed> {\n }\n classLoc = \"盜賊\"\n ciFrame = GladdyCombatindicatorarena5 {\n }\n race = \"Orc\"\n power = 0\n id = 5\n spells = <table> {\n }\n stealthed = false\n pom = false\n healthMax = 0\n powerType = 0\n classColors = <table> {\n }\n ns = false\n nf = false\n click = false\n powerMax = 0\n}\nclass = \"ROGUE\"\nrace = \"Orc\"\n(for generator) = <function> defined =[C]:-1\n(for state) = <table> {\n 36554 = <table> {\n }\n 2094 = <table> {\n }\n 11305 = <table> {\n }\n 31224 = 60\n 14185 = <table> {\n }\n 8643 = 20\n 13877 = <table> {\n }\n 1766 = 10\n 26669 = <table> {\n }\n 13750 = <table> {\n }\n 14177 = <table> {\n }\n 26889 = <table> {\n }\n}\n(for control) = 26669\nk = 26669\nv = <table> {\n cd = 300\n 戰鬥 = 180\n}\nsharedCD = false\nicon = nil\n(*temporary) = \"icon15\"\n(*temporary) = nil\n(*temporary) = \"14\"\n(*temporary) = <function> defined @Interface\\AddOns\\ElvUI\\Core\\General\\Toolkit.lua:34\n(*temporary) = <unnamed> {\n 0 = <userdata>\n PixelSnapDisabled = true\n}\n(*temporary) = true\n(*temporary) = <unnamed> {\n 0 = <userdata>\n PixelSnapDisabled = true\n}\n(*temporary) = false\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index local 'icon' (a nil value)\"\nGladdy = <table> {\n defaults = <table> {\n }\n curUnit = 1\n modules = <table> {\n }\n ToggleFrame = <function> defined @Interface\\AddOns\\Gladdy\\Frame.lua:281\n LegacyPositioning = <function> defined @Interface\\AddOns\\Gladdy\\Frame.lua:468\n UnregisterComm = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:153\n",
+			["stack"] = "[string \"@Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua\"]:466: in function `UpdateCooldowns'\n[string \"@Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua\"]:271: in function `?'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:174: in function `Call'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:179: in function `SendMessage'\n[string \"@Interface\\AddOns\\Gladdy\\EventListener.lua\"]:73: in function `SpotEnemy'\n[string \"@Interface\\AddOns\\Gladdy\\EventListener.lua\"]:41: in function `?'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:174: in function `Call'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:179: in function `SendMessage'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:528: in function `JoinedArena'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:423: in function `?'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:120: in function <Interface\\AddOns\\Gladdy\\Gladdy.lua:106>",
+			["session"] = 656,
+			["counter"] = 12,
+		}, -- [124]
+		{
+			["message"] = "Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:112: attempt to index field 'db' (a nil value)",
+			["time"] = "2021/09/27 23:12:39",
+			["locals"] = "self = <table> {\n GetProfileByName = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:76\n NewProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:118\n IterateProfiles = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:92\n LoadProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:164\n GetProfileByIndex = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:72\n eventFrame = <unnamed> {\n }\n SaveProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:136\n GetProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:84\n EnableOrDisableAddOn = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:182\n GetNumProfiles = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:96\n Show = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:64\n RemoveProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:131\n Initialize = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:46\n CreateFrame = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\ProfilesUI.lua:57\n CreateProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:100\n EditProfileOption = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:125\n BackupSession = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:203\n}\nname = \"登出前\"\nptype = \"auto\"\nprof = <table> {\n config = <table> {\n }\n name = \"登出前\"\n ptype = \"auto\"\n}\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index field 'db' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua\"]:112: in function `CreateProfile'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua\"]:222: in function `BackupSession'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua\"]:253: in function <Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:234>",
+			["session"] = 658,
+			["counter"] = 5,
+		}, -- [125]
+		{
+			["message"] = "Interface\\AddOns\\Gladdy\\Gladdy-5.lua:227: bad argument #1 to 'pairs' (table expected, got nil)",
+			["time"] = "2022/01/30 22:12:59",
+			["locals"] = "(*temporary) = nil\n(*temporary) = \"table expected, got nil\"\n = <function> defined =[C]:-1\n",
+			["stack"] = "[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:227: in function `DeleteUnknownOptions'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:115: in function <Interface\\AddOns\\Gladdy\\Gladdy.lua:106>",
+			["session"] = 658,
+			["counter"] = 2,
 		}, -- [126]
 		{
 			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
 			["time"] = "2021/07/01 16:18:25",
 			["locals"] = "GearScore = 2320\nItemLevel = 105\nRed = 0.081600\nBlue = 0.320000\nGreen = 0.840000\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 5\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
-			["session"] = 653,
-			["counter"] = 6977,
+			["session"] = 659,
+			["counter"] = 7044,
 		}, -- [127]
 	},
 }

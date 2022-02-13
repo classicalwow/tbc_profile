@@ -340,7 +340,7 @@ DataStore_CraftsDB = {
 					},
 				},
 				["Prof2"] = "附魔",
-				["lastUpdate"] = 1644421146,
+				["lastUpdate"] = 1644685538,
 				["Prof1"] = "鍛造",
 			},
 		},
