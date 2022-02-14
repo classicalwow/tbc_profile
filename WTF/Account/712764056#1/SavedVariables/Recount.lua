@@ -39,7 +39,7 @@ RecountDB = {
 				},
 			},
 			["LastInstanceName"] = "黑暗神廟",
-			["CurDataSet"] = "LastFightData",
+			["CurDataSet"] = "CurrentFightData",
 			["MainWindowWidth"] = 324.3896789550781,
 			["MainWindowHeight"] = 205.4917907714844,
 		},

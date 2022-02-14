@@ -21,13 +21,13 @@ AtlasLootClassicDB = {
 					"LEFT", -- [1]
 					nil, -- [2]
 					"LEFT", -- [3]
-					272.4296569824219, -- [4]
-					-89.93848419189453, -- [5]
+					272, -- [4]
+					-90.0000228881836, -- [5]
 				},
 				["selected"] = {
-					"AtlasLootClassic_Crafting", -- [1]
-					"JewelcraftingBC", -- [2]
-					8, -- [3]
+					nil, -- [1]
+					"SunwellPlateau", -- [2]
+					6, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},

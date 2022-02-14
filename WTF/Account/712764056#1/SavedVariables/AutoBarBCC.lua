@@ -161,13 +161,13 @@ AutoBarDB = {
 					["buttonKey"] = "AutoBarButtonAspect",
 					["square_popups"] = true,
 				},
-				["AutoBarButtonInterrupt"] = {
+				["AutoBarButtonCharge"] = {
 					["barKey"] = "AutoBarClassBarHunter",
-					["buttonClass"] = "AutoBarButtonInterrupt",
+					["buttonClass"] = "AutoBarButtonCharge",
 					["defaultButtonIndex"] = "*",
 					["arrangeOnUse"] = true,
 					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonInterrupt",
+					["buttonKey"] = "AutoBarButtonCharge",
 					["square_popups"] = true,
 				},
 				["AutoBarButtonDebuff"] = {
@@ -186,15 +186,6 @@ AutoBarDB = {
 					["buttonKey"] = "AutoBarButtonClassPet",
 					["square_popups"] = true,
 				},
-				["AutoBarButtonCharge"] = {
-					["barKey"] = "AutoBarClassBarHunter",
-					["buttonClass"] = "AutoBarButtonCharge",
-					["defaultButtonIndex"] = "*",
-					["arrangeOnUse"] = true,
-					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonCharge",
-					["square_popups"] = true,
-				},
 				["AutoBarButtonTrap"] = {
 					["barKey"] = "AutoBarClassBarHunter",
 					["buttonClass"] = "AutoBarButtonTrap",
@@ -202,6 +193,15 @@ AutoBarDB = {
 					["arrangeOnUse"] = true,
 					["enabled"] = true,
 					["buttonKey"] = "AutoBarButtonTrap",
+					["square_popups"] = true,
+				},
+				["AutoBarButtonInterrupt"] = {
+					["barKey"] = "AutoBarClassBarHunter",
+					["buttonClass"] = "AutoBarButtonInterrupt",
+					["defaultButtonIndex"] = "*",
+					["arrangeOnUse"] = true,
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonInterrupt",
 					["square_popups"] = true,
 				},
 				["AutoBarButtonClassPets3"] = {
@@ -245,7 +245,7 @@ AutoBarDB = {
 		["特變電工 - 伊弗斯"] = {
 			["buttonDataList"] = {
 				["AutoBarButtonElixirBattle"] = {
-					["arrangeOnUse"] = 22824,
+					["arrangeOnUse"] = 9224,
 				},
 				["AutoBarButtonBuff"] = {
 					["arrangeOnUse"] = 27500,

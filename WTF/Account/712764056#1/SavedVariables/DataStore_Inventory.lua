@@ -31,8 +31,6 @@ DataStore_InventoryDB = {
 				["lastUpdate"] = 1632561001,
 			},
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1644685538,
-				["averageItemLvl"] = 135.6470588235294,
 				["Inventory"] = {
 					"|cffa335ee|Hitem:30120:3003:32409:24067:::::70:::::::::|h[毀滅者戰甲鬥盔]|h|r", -- [1]
 					"|cffa335ee|Hitem:32591::::::::70:::::::::|h[鋸齒之刃頸圈]|h|r", -- [2]
@@ -54,6 +52,8 @@ DataStore_InventoryDB = {
 					"|cffa335ee|Hitem:30105::::::::70:::::::::|h[蛇脊長弓]|h|r", -- [18]
 					"|cff0070dd|Hitem:36941::::::::70:::::::::|h[競賽者外袍]|h|r", -- [19]
 				},
+				["averageItemLvl"] = 135.6470588235294,
+				["lastUpdate"] = 1644764932,
 			},
 		},
 		["Guilds"] = {
@@ -81,13 +81,6 @@ DataStore_InventoryDB = {
 					},
 					["假死釋放靈魂"] = {
 						["averageItemLvl"] = 73,
-					},
-				},
-			},
-			["Default.伊弗斯.光之烙印"] = {
-				["Members"] = {
-					["特變電工"] = {
-						["averageItemLvl"] = 135,
 					},
 				},
 			},

@@ -7,7 +7,7 @@ DataStore_QuestsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.伊弗斯.特變電工"] = {
-				["HistoryLastUpdate"] = 1644677119,
+				["HistoryLastUpdate"] = 1644738640,
 				["QuestHeaders"] = {
 					"影月谷", -- [1]
 					"時光之穴", -- [2]
@@ -131,10 +131,9 @@ DataStore_QuestsDB = {
 				},
 				["Rewards"] = {
 					[7] = "r|29299|1|1",
-					[8] = "r|32757|1|1",
 				},
 				["HistoryBuild"] = "42083",
-				["lastUpdate"] = 1644684595,
+				["lastUpdate"] = 1644738637,
 				["Quests"] = {
 					4589634, -- [1]
 					4589634, -- [2]
