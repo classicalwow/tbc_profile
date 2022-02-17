@@ -48,6 +48,13 @@ TomTomWaypointsM = {
 					0.7114099429502851, -- [2]
 					0.6242868785656072, -- [3]
 					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "龍喉輸送者",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "龍喉輸送者",
+					["from"] = "?",
 					["callbacks"] = {
 						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
@@ -64,12 +71,7 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
-					["persistent"] = true,
 					["minimap"] = true,
-					["cleardistance"] = 10,
-					["title"] = "龍喉輸送者",
-					["from"] = "?",
-					["crazy"] = true,
 					["world"] = true,
 				},
 			},

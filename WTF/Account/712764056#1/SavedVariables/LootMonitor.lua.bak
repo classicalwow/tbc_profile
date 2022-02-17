@@ -3,19 +3,18 @@ LootMonitorDB = {
 	["LootLog"] = {
 		{
 			["InstanceID"] = 550,
-			["Player"] = "特變電工",
 			["FirstPlayer"] = "渠運",
 			["InstanceName"] = "Tempest Keep",
-			["Date"] = "2022-02-01",
 			["FirstClass"] = "PALADIN",
+			["Date"] = "2022-02-01",
 			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-550-3911-20032-0002F8F3B5",
 					["Time"] = "17:09:11",
-					["Looter"] = "幾重言葉",
-					["Date"] = "2022-02-01",
 					["Class"] = "SHAMAN",
+					["Date"] = "2022-02-01",
+					["Looter"] = "幾重言葉",
 					["Name"] = "血守衛復仇者",
 					["Loots"] = {
 						"|cffa335ee|Hitem:30183::::::::70:::::::::|h[虛空漩渦]|h|r", -- [1]
@@ -24,9 +23,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-550-3911-21274-000078FE7E",
 					["Time"] = "17:34:56",
-					["Looter"] = "暗影之月",
-					["Date"] = "2022-02-01",
 					["Class"] = "WARLOCK",
+					["Date"] = "2022-02-01",
+					["Looter"] = "暗影之月",
 					["Name"] = "瓦解之杖",
 					["Loots"] = {
 						"|cffff8000|Hitem:30313::::::::70:::::::::|h[瓦解之杖]|h|r", -- [1]
@@ -35,9 +34,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-550-3911-21273-000078FE7E",
 					["Time"] = "17:35:03",
-					["Looter"] = "田僑仔",
-					["Date"] = "2022-02-01",
 					["Class"] = "PALADIN",
+					["Date"] = "2022-02-01",
+					["Looter"] = "田僑仔",
 					["Name"] = "相位壁壘",
 					["Loots"] = {
 						"|cffff8000|Hitem:30314::::::::70:::::::::|h[相位壁壘]|h|r", -- [1]
@@ -46,9 +45,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-550-3911-21270-000078FE7E",
 					["Time"] = "17:35:07",
-					["Looter"] = "迷仙引夢",
-					["Date"] = "2022-02-01",
 					["Class"] = "PRIEST",
+					["Date"] = "2022-02-01",
+					["Looter"] = "迷仙引夢",
 					["Name"] = "宇宙灌溉者",
 					["Loots"] = {
 						"|cffff8000|Hitem:30317::::::::70:::::::::|h[宇宙灌溉者]|h|r", -- [1]
@@ -57,9 +56,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-550-3911-21272-000078FE7E",
 					["Time"] = "17:35:16",
-					["Looter"] = "沒錢只好",
-					["Date"] = "2022-02-01",
 					["Class"] = "ROGUE",
+					["Date"] = "2022-02-01",
+					["Looter"] = "沒錢只好",
 					["Name"] = "扭曲分割者",
 					["Loots"] = {
 						"|cffff8000|Hitem:30311::::::::70:::::::::|h[扭曲分割者]|h|r", -- [1]
@@ -68,9 +67,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-550-3911-21271-000078FE7E",
 					["Time"] = "17:35:17",
-					["Looter"] = "沒錢只好",
-					["Date"] = "2022-02-01",
 					["Class"] = "ROGUE",
+					["Date"] = "2022-02-01",
+					["Looter"] = "沒錢只好",
 					["Name"] = "無盡之刃",
 					["Loots"] = {
 						"|cffff8000|Hitem:30312::::::::70:::::::::|h[無盡之刃]|h|r", -- [1]
@@ -79,9 +78,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-550-3911-19622-000078F3B5",
 					["Time"] = "17:40:16",
-					["Looter"] = "龍之守護者",
-					["Date"] = "2022-02-01",
 					["Class"] = "SHAMAN",
+					["Date"] = "2022-02-01",
+					["Looter"] = "龍之守護者",
 					["Name"] = "凱爾薩斯·逐日者",
 					["Loots"] = {
 						"|cffa335ee|Hitem:30183::::::::70:::::::::|h[虛空漩渦]|h|r", -- [1]
@@ -94,22 +93,22 @@ LootMonitorDB = {
 					},
 				}, -- [7]
 			},
+			["Player"] = "特變電工",
 		}, -- [1]
 		{
 			["InstanceID"] = 548,
-			["Player"] = "特變電工",
 			["FirstPlayer"] = "楊小妍",
 			["InstanceName"] = "Serpentshrine Cavern",
-			["Date"] = "2022-02-01",
 			["FirstClass"] = "MAGE",
+			["Date"] = "2022-02-01",
 			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-548-10299-21212-00007900D7",
 					["Time"] = "18:08:28",
-					["Looter"] = "龍之守護者",
-					["Date"] = "2022-02-01",
 					["Class"] = "SHAMAN",
+					["Date"] = "2022-02-01",
+					["Looter"] = "龍之守護者",
 					["Name"] = "瓦許女士",
 					["Loots"] = {
 						"|cffa335ee|Hitem:30183::::::::70:::::::::|h[虛空漩渦]|h|r", -- [1]
@@ -121,17 +120,19 @@ LootMonitorDB = {
 					},
 				}, -- [1]
 			},
+			["Player"] = "特變電工",
 		}, -- [2]
 		{
 			["InstanceID"] = 534,
+			["FirstPlayer"] = "未知",
 			["Player"] = "特變電工",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-534-5610-17897-0001FBD582",
 					["Time"] = "21:16:59",
-					["Class"] = "PALADIN",
-					["Date"] = "2022-02-03",
 					["Looter"] = "我叫緋村",
+					["Date"] = "2022-02-03",
+					["Class"] = "PALADIN",
 					["Name"] = "地穴惡魔",
 					["Loots"] = {
 						"|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r", -- [1]
@@ -140,9 +141,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-534-5610-17899-0001FBD616",
 					["Time"] = "21:19:30",
-					["Class"] = "PALADIN",
-					["Date"] = "2022-02-03",
 					["Looter"] = "歐艾丹",
+					["Date"] = "2022-02-03",
+					["Class"] = "PALADIN",
 					["Name"] = "幽暗的死靈法師",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32592::::::::70:::::::::|h[無情暴風護胸]|h|r", -- [1]
@@ -151,9 +152,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-534-5610-17899-00017BD616",
 					["Time"] = "21:19:31",
-					["Class"] = "PALADIN",
-					["Date"] = "2022-02-03",
 					["Looter"] = "歐艾丹",
+					["Date"] = "2022-02-03",
+					["Class"] = "PALADIN",
 					["Name"] = "幽暗的死靈法師",
 					["Loots"] = {
 						"|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r", -- [1]
@@ -162,9 +163,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-534-5610-17895-00017BD616",
 					["Time"] = "21:19:32",
-					["Class"] = "PALADIN",
-					["Date"] = "2022-02-03",
 					["Looter"] = "我叫緋村",
+					["Date"] = "2022-02-03",
+					["Class"] = "PALADIN",
 					["Name"] = "食屍鬼",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32591::::::::70:::::::::|h[鋸齒之刃頸圈]|h|r", -- [1]
@@ -173,9 +174,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-534-5610-17895-0000FBD665",
 					["Time"] = "21:20:55",
-					["Class"] = "PALADIN",
-					["Date"] = "2022-02-03",
 					["Looter"] = "若相依",
+					["Date"] = "2022-02-03",
+					["Class"] = "PALADIN",
 					["Name"] = "食屍鬼",
 					["Loots"] = {
 						"|cff0070dd|Hitem:31297::::::::70:::::::::|h[赤紅指令長袍]|h|r", -- [1]
@@ -184,9 +185,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-534-5610-17767-00007BD6B4",
 					["Time"] = "21:24:24",
-					["Class"] = "WARRIOR",
-					["Date"] = "2022-02-03",
 					["Looter"] = "終焉之戰",
+					["Date"] = "2022-02-03",
+					["Class"] = "WARRIOR",
 					["Name"] = "瑞齊·凜冬",
 					["Loots"] = {
 						"|cffa335ee|Hitem:30868::::::::70:::::::::|h[回春護腕]|h|r", -- [1]
@@ -196,9 +197,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-534-5610-17895-00007BDA03",
 					["Time"] = "21:36:06",
-					["Class"] = "PALADIN",
-					["Date"] = "2022-02-03",
 					["Looter"] = "我叫緋村",
+					["Date"] = "2022-02-03",
+					["Class"] = "PALADIN",
 					["Name"] = "食屍鬼",
 					["Loots"] = {
 						"|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r", -- [1]
@@ -207,9 +208,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-534-5610-17905-00007BDA8C",
 					["Time"] = "21:38:33",
-					["Class"] = "WARRIOR",
-					["Date"] = "2022-02-03",
 					["Looter"] = "特變電工",
+					["Date"] = "2022-02-03",
+					["Class"] = "WARRIOR",
 					["Name"] = "女妖",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32589::::::::70:::::::::|h[地獄火墜飾]|h|r", -- [1]
@@ -218,9 +219,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-534-5610-17898-00007BDAD6",
 					["Time"] = "21:39:36",
-					["Class"] = "SHAMAN",
-					["Date"] = "2022-02-03",
 					["Looter"] = "柒刻",
+					["Date"] = "2022-02-03",
+					["Class"] = "SHAMAN",
 					["Name"] = "憎惡",
 					["Loots"] = {
 						"|cff0070dd|Hitem:29550::::::::70:::::::::|h[秘典:造水術 IX]|h|r", -- [1]
@@ -229,9 +230,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-534-5610-17895-0000FBDB5F",
 					["Time"] = "21:42:06",
-					["Class"] = "PALADIN",
-					["Date"] = "2022-02-03",
 					["Looter"] = "歐艾丹",
+					["Date"] = "2022-02-03",
+					["Class"] = "PALADIN",
 					["Name"] = "食屍鬼",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32592::::::::70:::::::::|h[無情暴風護胸]|h|r", -- [1]
@@ -240,9 +241,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-534-5610-17895-00027BDF13",
 					["Time"] = "21:57:42",
-					["Class"] = "ROGUE",
-					["Date"] = "2022-02-03",
 					["Looter"] = "背鍋俠",
+					["Date"] = "2022-02-03",
+					["Class"] = "ROGUE",
 					["Name"] = "食屍鬼",
 					["Loots"] = {
 						"|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r", -- [1]
@@ -251,9 +252,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-534-5610-17895-00007BDF9C",
 					["Time"] = "22:00:09",
-					["Class"] = "DRUID",
-					["Date"] = "2022-02-03",
 					["Looter"] = "多啦夢",
+					["Date"] = "2022-02-03",
+					["Class"] = "DRUID",
 					["Name"] = "食屍鬼",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32739::::::::70:::::::::|h[設計圖:黎明鋼鐵護肩]|h|r", -- [1]
@@ -262,9 +263,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-534-5610-17895-00017BDF9C",
 					["Time"] = "22:00:17",
-					["Class"] = "HUNTER",
-					["Date"] = "2022-02-03",
 					["Looter"] = "狂牛奔向天",
+					["Date"] = "2022-02-03",
+					["Class"] = "HUNTER",
 					["Name"] = "食屍鬼",
 					["Loots"] = {
 						"|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r", -- [1]
@@ -273,9 +274,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-534-5610-17808-00007BDFEB",
 					["Time"] = "22:03:13",
-					["Class"] = "PALADIN",
-					["Date"] = "2022-02-03",
 					["Looter"] = "我叫緋村",
+					["Date"] = "2022-02-03",
+					["Class"] = "PALADIN",
 					["Name"] = "安納塞隆",
 					["Loots"] = {
 						"|cffa335ee|Hitem:30887::::::::70:::::::::|h[恢復之金色胸扣]|h|r", -- [1]
@@ -285,9 +286,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-534-5610-17895-00027BE242",
 					["Time"] = "22:11:28",
-					["Class"] = "SHAMAN",
-					["Date"] = "2022-02-03",
 					["Looter"] = "小青蛙",
+					["Date"] = "2022-02-03",
+					["Class"] = "SHAMAN",
 					["Name"] = "食屍鬼",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32591::::::::70:::::::::|h[鋸齒之刃頸圈]|h|r", -- [1]
@@ -296,9 +297,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-534-5610-17906-00037BE291",
 					["Time"] = "22:13:30",
-					["Class"] = "PALADIN",
-					["Date"] = "2022-02-03",
 					["Looter"] = "我叫緋村",
+					["Date"] = "2022-02-03",
+					["Class"] = "PALADIN",
 					["Name"] = "石像鬼",
 					["Loots"] = {
 						"|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r", -- [1]
@@ -307,9 +308,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-534-5610-17895-00017BE315",
 					["Time"] = "22:15:03",
-					["Class"] = "DRUID",
-					["Date"] = "2022-02-03",
 					["Looter"] = "神經德魯伊",
+					["Date"] = "2022-02-03",
+					["Class"] = "DRUID",
 					["Name"] = "食屍鬼",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32589::::::::70:::::::::|h[地獄火墜飾]|h|r", -- [1]
@@ -318,9 +319,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-534-5610-17906-00027BE369",
 					["Time"] = "22:17:04",
-					["Class"] = "SHAMAN",
-					["Date"] = "2022-02-03",
 					["Looter"] = "柒刻",
+					["Date"] = "2022-02-03",
+					["Class"] = "SHAMAN",
 					["Name"] = "石像鬼",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32736::::::::70:::::::::|h[設計圖:迅鋼護腕]|h|r", -- [1]
@@ -329,9 +330,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-534-5610-17888-00007BE573",
 					["Time"] = "22:26:54",
-					["Class"] = "ROGUE",
-					["Date"] = "2022-02-03",
 					["Looter"] = "背鍋俠",
+					["Date"] = "2022-02-03",
+					["Class"] = "ROGUE",
 					["Name"] = "卡茲洛加",
 					["Loots"] = {
 						"|cffa335ee|Hitem:30917::::::::70:::::::::|h[尖銳怒氣披肩]|h|r", -- [1]
@@ -341,9 +342,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-534-5610-17906-0000FBE6CE",
 					["Time"] = "22:31:14",
-					["Class"] = "ROGUE",
-					["Date"] = "2022-02-03",
 					["Looter"] = "背鍋俠",
+					["Date"] = "2022-02-03",
+					["Class"] = "ROGUE",
 					["Name"] = "石像鬼",
 					["Loots"] = {
 						"|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r", -- [1]
@@ -352,9 +353,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-534-5610-17906-00017BE6CE",
 					["Time"] = "22:31:44",
-					["Class"] = "MAGE",
-					["Date"] = "2022-02-03",
 					["Looter"] = "熙夏",
+					["Date"] = "2022-02-03",
+					["Class"] = "MAGE",
 					["Name"] = "石像鬼",
 					["Loots"] = {
 						"|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r", -- [1]
@@ -363,9 +364,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-534-5610-17908-00007BE7C9",
 					["Time"] = "22:35:14",
-					["Class"] = "HUNTER",
-					["Date"] = "2022-02-03",
 					["Looter"] = "狂牛奔向天",
+					["Date"] = "2022-02-03",
+					["Class"] = "HUNTER",
 					["Name"] = "巨型地獄火",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32590::::::::70:::::::::|h[虛無披風]|h|r", -- [1]
@@ -374,9 +375,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-534-5610-17908-00007BEB6D",
 					["Time"] = "22:50:02",
-					["Class"] = "WARRIOR",
-					["Date"] = "2022-02-03",
 					["Looter"] = "別逼我擋怪",
+					["Date"] = "2022-02-03",
+					["Class"] = "WARRIOR",
 					["Name"] = "巨型地獄火",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32752::::::::70:::::::::|h[圖樣:速癒裹帶]|h|r", -- [1]
@@ -385,9 +386,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-534-5610-17842-00007BED38",
 					["Time"] = "23:00:46",
-					["Class"] = "DRUID",
-					["Date"] = "2022-02-03",
 					["Looter"] = "神經德魯伊",
+					["Date"] = "2022-02-03",
+					["Class"] = "DRUID",
 					["Name"] = "亞茲加洛",
 					["Loots"] = {
 						"|cffa335ee|Hitem:31092::::::::70:::::::::|h[遺忘征服者手套]|h|r", -- [1]
@@ -398,9 +399,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-534-5610-17895-00067BEEF3",
 					["Time"] = "23:15:50",
-					["Class"] = "DRUID",
-					["Date"] = "2022-02-03",
 					["Looter"] = "多啦夢",
+					["Date"] = "2022-02-03",
+					["Class"] = "DRUID",
 					["Name"] = "食屍鬼",
 					["Loots"] = {
 						"|cffa335ee|Hitem:34009::::::::70:::::::::|h[審判之錘]|h|r", -- [1]
@@ -409,9 +410,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-534-5610-17968-00007BEE1B",
 					["Time"] = "23:23:05",
-					["Class"] = "PALADIN",
-					["Date"] = "2022-02-03",
 					["Looter"] = "歐艾丹",
+					["Date"] = "2022-02-03",
+					["Class"] = "PALADIN",
 					["Name"] = "阿克蒙德",
 					["Loots"] = {
 						"|cffa335ee|Hitem:31097::::::::70:::::::::|h[遺忘征服者頭盔]|h|r", -- [1]
@@ -421,26 +422,26 @@ LootMonitorDB = {
 					},
 				}, -- [26]
 			},
-			["Class"] = "WARRIOR",
 			["Date"] = "2022-02-03",
 			["FirstClass"] = "UNKNOWN",
+			["Class"] = "WARRIOR",
 			["InstanceName"] = "Hyjal Summit",
-			["FirstPlayer"] = "未知",
 		}, -- [3]
 		{
 			["InstanceID"] = 565,
+			["Player"] = "特變電工",
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Gruul's Lair",
-			["Class"] = "WARRIOR",
 			["Date"] = "2022-02-05",
 			["FirstClass"] = "UNKNOWN",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-565-13441-18831-00007E1F09",
 					["Time"] = "15:11:01",
-					["Class"] = "WARRIOR",
-					["Date"] = "2022-02-05",
 					["Looter"] = "特變電工",
+					["Date"] = "2022-02-05",
+					["Class"] = "WARRIOR",
 					["Name"] = "大君王莫卡爾",
 					["Loots"] = {
 						"|cffa335ee|Hitem:29764::::::::70:::::::::|h[逝往防衛者肩鎧]|h|r", -- [1]
@@ -452,9 +453,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-565-13441-19044-00007E1F09",
 					["Time"] = "15:21:29",
-					["Class"] = "DRUID",
-					["Date"] = "2022-02-05",
 					["Looter"] = "黑手紅茶",
+					["Date"] = "2022-02-05",
+					["Class"] = "DRUID",
 					["Name"] = "弒龍者戈魯爾",
 					["Loots"] = {
 						"|cffa335ee|Hitem:29767::::::::70:::::::::|h[逝往防衛者護腿]|h|r", -- [1]
@@ -465,23 +466,21 @@ LootMonitorDB = {
 					},
 				}, -- [2]
 			},
-			["Player"] = "特變電工",
 		}, -- [4]
 		{
 			["InstanceID"] = 564,
-			["Player"] = "特變電工",
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Black Temple",
-			["Date"] = "2022-02-05",
 			["Class"] = "WARRIOR",
+			["Date"] = "2022-02-05",
 			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-22887-00007E63EA",
 					["Time"] = "20:26:56",
-					["Looter"] = "別逼我擋怪",
-					["Date"] = "2022-02-05",
 					["Class"] = "WARRIOR",
+					["Date"] = "2022-02-05",
+					["Looter"] = "別逼我擋怪",
 					["Name"] = "高階督軍納珍塔斯",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32240::::::::70:::::::::|h[潮汐潛伏者面罩]|h|r", -- [1]
@@ -491,9 +490,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-23330-00017E63EA",
 					["Time"] = "20:39:59",
-					["Looter"] = "终焉誓約",
-					["Date"] = "2022-02-05",
 					["Class"] = "PALADIN",
+					["Date"] = "2022-02-05",
+					["Looter"] = "终焉誓約",
 					["Name"] = "龍喉風掠者",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32249::::::::70:::::::::|h[海泉綠寶石]|h|r", -- [1]
@@ -502,9 +501,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-22898-00007E63EA",
 					["Time"] = "20:56:04",
-					["Looter"] = "歿天使",
-					["Date"] = "2022-02-05",
 					["Class"] = "PALADIN",
+					["Date"] = "2022-02-05",
+					["Looter"] = "歿天使",
 					["Name"] = "瑟普莫斯",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32262::::::::70:::::::::|h[納斯雷茲姆虹吸之錘]|h|r", -- [1]
@@ -514,9 +513,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-22869-00037E63EA",
 					["Time"] = "21:03:08",
-					["Looter"] = "Yatsuki",
-					["Date"] = "2022-02-05",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-05",
+					["Looter"] = "Yatsuki",
 					["Name"] = "伊利達瑞切骨者",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32228::::::::70:::::::::|h[蒼穹藍寶石]|h|r", -- [1]
@@ -525,9 +524,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-22853-00027E63EA",
 					["Time"] = "21:03:45",
-					["Looter"] = "背鍋俠",
-					["Date"] = "2022-02-05",
 					["Class"] = "ROGUE",
+					["Date"] = "2022-02-05",
+					["Looter"] = "背鍋俠",
 					["Name"] = "伊利達瑞污染者",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32249::::::::70:::::::::|h[海泉綠寶石]|h|r", -- [1]
@@ -536,9 +535,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-22853-0000FE63EA",
 					["Time"] = "21:10:48",
-					["Looter"] = "翔翔大肆虐",
-					["Date"] = "2022-02-05",
 					["Class"] = "MAGE",
+					["Date"] = "2022-02-05",
+					["Looter"] = "翔翔大肆虐",
 					["Name"] = "伊利達瑞污染者",
 					["Loots"] = {
 						"|cff0070dd|Hitem:24165::::::::70:::::::::|h[設計圖:閃耀的恆金指環]|h|r", -- [1]
@@ -547,9 +546,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-22845-00007E73DF",
 					["Time"] = "21:14:34",
-					["Looter"] = "神經德魯伊",
-					["Date"] = "2022-02-05",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-05",
+					["Looter"] = "神經德魯伊",
 					["Name"] = "灰舌秘法師",
 					["Loots"] = {
 						"|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r", -- [1]
@@ -558,9 +557,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-22844-0001FE73DF",
 					["Time"] = "21:14:40",
-					["Looter"] = "程昱",
-					["Date"] = "2022-02-05",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-05",
+					["Looter"] = "程昱",
 					["Name"] = "灰舌戰鬥領主",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32227::::::::70:::::::::|h[赤紅尖晶石]|h|r", -- [1]
@@ -569,9 +568,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-22841-00007E63EA",
 					["Time"] = "21:20:52",
-					["Looter"] = "Yatsuki",
-					["Date"] = "2022-02-05",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-05",
+					["Looter"] = "Yatsuki",
 					["Name"] = "阿卡瑪的黑暗面",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32275::::::::70:::::::::|h[靈魂行者護手]|h|r", -- [1]
@@ -581,9 +580,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-22880-00007E63EC",
 					["Time"] = "21:25:05",
-					["Looter"] = "魔令古二世",
-					["Date"] = "2022-02-05",
 					["Class"] = "MAGE",
+					["Date"] = "2022-02-05",
+					["Looter"] = "魔令古二世",
 					["Name"] = "影月勇士",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32230::::::::70:::::::::|h[影歌紫水晶]|h|r", -- [1]
@@ -592,9 +591,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-22880-0000FE63EB",
 					["Time"] = "21:30:21",
-					["Looter"] = "程昱",
-					["Date"] = "2022-02-05",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-05",
+					["Looter"] = "程昱",
 					["Name"] = "影月勇士",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32228::::::::70:::::::::|h[蒼穹藍寶石]|h|r", -- [1]
@@ -604,9 +603,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-23018-00007E63EC",
 					["Time"] = "21:33:28",
-					["Looter"] = "Devinfon",
-					["Date"] = "2022-02-05",
 					["Class"] = "WARLOCK",
+					["Date"] = "2022-02-05",
+					["Looter"] = "Devinfon",
 					["Name"] = "影月馴犬者",
 					["Loots"] = {
 						"|cffa335ee|Hitem:34012::::::::70:::::::::|h[最終之刻罩氅]|h|r", -- [1]
@@ -615,9 +614,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-23047-00017E63EB",
 					["Time"] = "21:34:39",
-					["Looter"] = "程昱",
-					["Date"] = "2022-02-05",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-05",
+					["Looter"] = "程昱",
 					["Name"] = "影月士兵",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32228::::::::70:::::::::|h[蒼穹藍寶石]|h|r", -- [1]
@@ -626,9 +625,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-22880-00007E63EA",
 					["Time"] = "21:39:10",
-					["Looter"] = "熙夏",
-					["Date"] = "2022-02-05",
 					["Class"] = "MAGE",
+					["Date"] = "2022-02-05",
+					["Looter"] = "熙夏",
 					["Name"] = "影月勇士",
 					["Loots"] = {
 						"|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r", -- [1]
@@ -637,9 +636,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-22945-00017E63EB",
 					["Time"] = "21:39:11",
-					["Looter"] = "莉姆露",
-					["Date"] = "2022-02-05",
 					["Class"] = "SHAMAN",
+					["Date"] = "2022-02-05",
+					["Looter"] = "莉姆露",
 					["Name"] = "影月血法師",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32230::::::::70:::::::::|h[影歌紫水晶]|h|r", -- [1]
@@ -648,9 +647,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-22945-0002FE63EA",
 					["Time"] = "21:40:58",
-					["Looter"] = "我叫緋村",
-					["Date"] = "2022-02-05",
 					["Class"] = "PALADIN",
+					["Date"] = "2022-02-05",
+					["Looter"] = "我叫緋村",
 					["Name"] = "影月血法師",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32230::::::::70:::::::::|h[影歌紫水晶]|h|r", -- [1]
@@ -659,9 +658,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-23172-00007E63EA",
 					["Time"] = "21:42:48",
-					["Looter"] = "阿梨",
-					["Date"] = "2022-02-05",
 					["Class"] = "PRIEST",
+					["Date"] = "2022-02-05",
+					["Looter"] = "阿梨",
 					["Name"] = "血魔之手",
 					["Loots"] = {
 						"|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r", -- [1]
@@ -670,9 +669,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-22871-00007E63EA",
 					["Time"] = "21:49:51",
-					["Looter"] = "程昱",
-					["Date"] = "2022-02-05",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-05",
+					["Looter"] = "程昱",
 					["Name"] = "泰朗·血魔",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32323::::::::70:::::::::|h[影月毀滅者披氅]|h|r", -- [1]
@@ -682,9 +681,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-22855-0000FE63EA",
 					["Time"] = "21:55:19",
-					["Looter"] = "背鍋俠",
-					["Date"] = "2022-02-05",
 					["Class"] = "ROGUE",
+					["Date"] = "2022-02-05",
+					["Looter"] = "背鍋俠",
 					["Name"] = "伊利達瑞黑夜領主",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32229::::::::70:::::::::|h[獅眼石]|h|r", -- [1]
@@ -693,9 +692,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-23236-0001FE63EA",
 					["Time"] = "21:58:40",
-					["Looter"] = "程昱",
-					["Date"] = "2022-02-05",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-05",
+					["Looter"] = "程昱",
 					["Name"] = "噬骨護盾門徒",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32230::::::::70:::::::::|h[影歌紫水晶]|h|r", -- [1]
@@ -704,9 +703,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-23239-0000FE63EA",
 					["Time"] = "22:07:40",
-					["Looter"] = "终焉誓約",
-					["Date"] = "2022-02-05",
 					["Class"] = "PALADIN",
+					["Date"] = "2022-02-05",
+					["Looter"] = "终焉誓約",
 					["Name"] = "噬骨者戰士",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32230::::::::70:::::::::|h[影歌紫水晶]|h|r", -- [1]
@@ -715,9 +714,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-23223-0000FE63EA",
 					["Time"] = "22:07:54",
-					["Looter"] = "终焉誓約",
-					["Date"] = "2022-02-05",
 					["Class"] = "PALADIN",
+					["Date"] = "2022-02-05",
+					["Looter"] = "终焉誓約",
 					["Name"] = "噬骨看守者",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32231::::::::70:::::::::|h[焚石]|h|r", -- [1]
@@ -726,9 +725,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-22948-00007E63EA",
 					["Time"] = "22:20:33",
-					["Looter"] = "一隻倉鼠",
-					["Date"] = "2022-02-05",
 					["Class"] = "HUNTER",
+					["Date"] = "2022-02-05",
+					["Looter"] = "一隻倉鼠",
 					["Name"] = "葛塔格·血沸",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32341::::::::70:::::::::|h[神聖懲戒護腿]|h|r", -- [1]
@@ -738,9 +737,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-23237-00007E63EA",
 					["Time"] = "22:25:04",
-					["Looter"] = "柒刻",
-					["Date"] = "2022-02-05",
 					["Class"] = "SHAMAN",
+					["Date"] = "2022-02-05",
+					["Looter"] = "柒刻",
 					["Name"] = "噬骨鮮血預言者",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32230::::::::70:::::::::|h[影歌紫水晶]|h|r", -- [1]
@@ -749,9 +748,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-23420-00007E938E",
 					["Time"] = "23:12:30",
-					["Looter"] = "神經德魯伊",
-					["Date"] = "2022-02-05",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-05",
+					["Looter"] = "神經德魯伊",
 					["Name"] = "憤怒精華",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32350::::::::70:::::::::|h[靈光之觸]|h|r", -- [1]
@@ -761,9 +760,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-23337-00007E63EA",
 					["Time"] = "23:17:21",
-					["Looter"] = "程昱",
-					["Date"] = "2022-02-05",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-05",
+					["Looter"] = "程昱",
 					["Name"] = "伊利達瑞百夫長",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32231::::::::70:::::::::|h[焚石]|h|r", -- [1]
@@ -772,9 +771,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-22955-00047E63EA",
 					["Time"] = "23:21:36",
-					["Looter"] = "程昱",
-					["Date"] = "2022-02-05",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-05",
+					["Looter"] = "程昱",
 					["Name"] = "迷人的客人",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32228::::::::70:::::::::|h[蒼穹藍寶石]|h|r", -- [1]
@@ -783,9 +782,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-22965-00007E63EB",
 					["Time"] = "23:22:37",
-					["Looter"] = "程昱",
-					["Date"] = "2022-02-05",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-05",
+					["Looter"] = "程昱",
 					["Name"] = "忠實的管家",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32249::::::::70:::::::::|h[海泉綠寶石]|h|r", -- [1]
@@ -794,9 +793,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-22965-0000FE63EB",
 					["Time"] = "23:26:38",
-					["Looter"] = "熙夏",
-					["Date"] = "2022-02-05",
 					["Class"] = "MAGE",
+					["Date"] = "2022-02-05",
+					["Looter"] = "熙夏",
 					["Name"] = "忠實的管家",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32229::::::::70:::::::::|h[獅眼石]|h|r", -- [1]
@@ -805,9 +804,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-22956-0000FE63EA",
 					["Time"] = "23:29:28",
-					["Looter"] = "终焉誓約",
-					["Date"] = "2022-02-05",
 					["Class"] = "PALADIN",
+					["Date"] = "2022-02-05",
+					["Looter"] = "终焉誓約",
 					["Name"] = "折磨之女祭司",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32231::::::::70:::::::::|h[焚石]|h|r", -- [1]
@@ -816,9 +815,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-22957-0000FE63EA",
 					["Time"] = "23:31:08",
-					["Looter"] = "背鍋俠",
-					["Date"] = "2022-02-05",
 					["Class"] = "ROGUE",
+					["Date"] = "2022-02-05",
+					["Looter"] = "背鍋俠",
 					["Name"] = "癲狂之女",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32228::::::::70:::::::::|h[蒼穹藍寶石]|h|r", -- [1]
@@ -827,9 +826,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-22964-0000FE63EB",
 					["Time"] = "23:34:15",
-					["Looter"] = "背鍋俠",
-					["Date"] = "2022-02-05",
 					["Class"] = "ROGUE",
+					["Date"] = "2022-02-05",
+					["Looter"] = "背鍋俠",
 					["Name"] = "喜樂女祭司",
 					["Loots"] = {
 						"|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r", -- [1]
@@ -838,9 +837,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-22955-000C7E63EA",
 					["Time"] = "23:35:08",
-					["Looter"] = "熙夏",
-					["Date"] = "2022-02-05",
 					["Class"] = "MAGE",
+					["Date"] = "2022-02-05",
+					["Looter"] = "熙夏",
 					["Name"] = "迷人的客人",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32230::::::::70:::::::::|h[影歌紫水晶]|h|r", -- [1]
@@ -849,9 +848,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-564-10396-22947-00007E63EA",
 					["Time"] = "00:47:07",
-					["Looter"] = "神經德魯伊",
-					["Date"] = "2022-02-06",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-06",
+					["Looter"] = "神經德魯伊",
 					["Name"] = "薩拉茲女士",
 					["Loots"] = {
 						"|cffa335ee|Hitem:31103::::::::70:::::::::|h[遺忘保衛者肩鎧]|h|r", -- [1]
@@ -862,9 +861,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-28479-23400-00017FB28A",
 					["Time"] = "20:22:24",
-					["Looter"] = "程昱",
-					["Date"] = "2022-02-06",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-06",
+					["Looter"] = "程昱",
 					["Name"] = "伊利達瑞執政官",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32231::::::::70:::::::::|h[焚石]|h|r", -- [1]
@@ -873,9 +872,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-28479-23403-0002FFB28A",
 					["Time"] = "20:28:49",
-					["Looter"] = "我叫緋村",
-					["Date"] = "2022-02-06",
 					["Class"] = "PALADIN",
+					["Date"] = "2022-02-06",
+					["Looter"] = "我叫緋村",
 					["Name"] = "伊利達瑞刺客",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32249::::::::70:::::::::|h[海泉綠寶石]|h|r", -- [1]
@@ -884,9 +883,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-28479-23397-0003FFB28A",
 					["Time"] = "20:28:50",
-					["Looter"] = "背鍋俠",
-					["Date"] = "2022-02-06",
 					["Class"] = "ROGUE",
+					["Date"] = "2022-02-06",
+					["Looter"] = "背鍋俠",
 					["Name"] = "伊利達瑞血領主",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32230::::::::70:::::::::|h[影歌紫水晶]|h|r", -- [1]
@@ -895,9 +894,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-28479-23402-00007FB28A",
 					["Time"] = "20:31:05",
-					["Looter"] = "柒刻",
-					["Date"] = "2022-02-06",
 					["Class"] = "SHAMAN",
+					["Date"] = "2022-02-06",
+					["Looter"] = "柒刻",
 					["Name"] = "伊利達瑞戰場法師",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32229::::::::70:::::::::|h[獅眼石]|h|r", -- [1]
@@ -906,9 +905,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-28479-22951-00007FB28A",
 					["Time"] = "21:02:34",
-					["Looter"] = "柒刻",
-					["Date"] = "2022-02-06",
 					["Class"] = "SHAMAN",
+					["Date"] = "2022-02-06",
+					["Looter"] = "柒刻",
 					["Name"] = "瑪蘭黛女士",
 					["Loots"] = {
 						"|cffa335ee|Hitem:31099::::::::70:::::::::|h[遺忘防禦者護腿]|h|r", -- [1]
@@ -917,9 +916,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-28479-22952-00007FB28A",
 					["Time"] = "21:02:37",
-					["Looter"] = "终焉誓約",
-					["Date"] = "2022-02-06",
 					["Class"] = "PALADIN",
+					["Date"] = "2022-02-06",
+					["Looter"] = "终焉誓約",
 					["Name"] = "維拉斯·深影",
 					["Loots"] = {
 						"|cffa335ee|Hitem:31098::::::::70:::::::::|h[遺忘征服者護腿]|h|r", -- [1]
@@ -928,9 +927,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-28479-22950-00007FB28A",
 					["Time"] = "21:02:49",
-					["Looter"] = "程昱",
-					["Date"] = "2022-02-06",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-06",
+					["Looter"] = "程昱",
 					["Name"] = "高等虛空術師札瑞佛",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32376::::::::70:::::::::|h[森林徘徊者頭盔]|h|r", -- [1]
@@ -939,9 +938,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-28479-22917-00007FE58A",
 					["Time"] = "23:35:17",
-					["Looter"] = "莉姆露",
-					["Date"] = "2022-02-06",
 					["Class"] = "SHAMAN",
+					["Date"] = "2022-02-06",
+					["Looter"] = "莉姆露",
 					["Name"] = "伊利丹·怒風",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32497::::::::70:::::::::|h[怒風璽戒]|h|r", -- [1]
@@ -954,9 +953,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22878-0001079DD5",
 					["Time"] = "20:18:40",
-					["Looter"] = "程昱",
-					["Date"] = "2022-02-12",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-12",
+					["Looter"] = "程昱",
 					["Name"] = "元水領主",
 					["Loots"] = {
 						"|cffa335ee|Hitem:34012::::::::70:::::::::|h[最終之刻罩氅]|h|r", -- [1]
@@ -965,9 +964,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22887-0000079DD5",
 					["Time"] = "20:32:12",
-					["Looter"] = "魔令古二世",
-					["Date"] = "2022-02-12",
 					["Class"] = "MAGE",
+					["Date"] = "2022-02-12",
+					["Looter"] = "魔令古二世",
 					["Name"] = "高階督軍納珍塔斯",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32240::::::::70:::::::::|h[潮汐潛伏者面罩]|h|r", -- [1]
@@ -977,9 +976,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-23030-0002079DD6",
 					["Time"] = "20:39:54",
-					["Looter"] = "终焉誓約",
-					["Date"] = "2022-02-12",
 					["Class"] = "PALADIN",
+					["Date"] = "2022-02-12",
+					["Looter"] = "终焉誓約",
 					["Name"] = "龍喉空行者",
 					["Loots"] = {
 						"|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r", -- [1]
@@ -988,9 +987,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22963-0000879DD5",
 					["Time"] = "20:44:51",
-					["Looter"] = "终焉誓約",
-					["Date"] = "2022-02-12",
 					["Class"] = "PALADIN",
+					["Date"] = "2022-02-12",
+					["Looter"] = "终焉誓約",
 					["Name"] = "噬骨者勞工",
 					["Loots"] = {
 						"|cff0070dd|Hitem:24300::::::::70:::::::::|h[圖樣:永恆披風]|h|r", -- [1]
@@ -999,9 +998,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22960-0002079DD6",
 					["Time"] = "20:48:37",
-					["Looter"] = "程昱",
-					["Date"] = "2022-02-12",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-12",
+					["Looter"] = "程昱",
 					["Name"] = "龍喉召龍者",
 					["Loots"] = {
 						"|cffa335ee|Hitem:34011::::::::70:::::::::|h[伊利達瑞符文盾]|h|r", -- [1]
@@ -1010,9 +1009,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22954-0000079DD6",
 					["Time"] = "20:51:14",
-					["Looter"] = "背鍋俠",
-					["Date"] = "2022-02-12",
 					["Class"] = "ROGUE",
+					["Date"] = "2022-02-12",
+					["Looter"] = "背鍋俠",
 					["Name"] = "伊利達瑞恐懼者",
 					["Loots"] = {
 						"|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r", -- [1]
@@ -1021,9 +1020,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-23330-0001079DD6",
 					["Time"] = "20:52:06",
-					["Looter"] = "终焉誓約",
-					["Date"] = "2022-02-12",
 					["Class"] = "PALADIN",
+					["Date"] = "2022-02-12",
+					["Looter"] = "终焉誓約",
 					["Name"] = "龍喉風掠者",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32249::::::::70:::::::::|h[海泉綠寶石]|h|r", -- [1]
@@ -1032,9 +1031,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22898-0000079DD5",
 					["Time"] = "21:01:26",
-					["Looter"] = "Devinfon",
-					["Date"] = "2022-02-12",
 					["Class"] = "WARLOCK",
+					["Date"] = "2022-02-12",
+					["Looter"] = "Devinfon",
 					["Name"] = "瑟普莫斯",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32251::::::::70:::::::::|h[精確飛行裹帶]|h|r", -- [1]
@@ -1044,9 +1043,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22869-0002879DD5",
 					["Time"] = "21:05:26",
-					["Looter"] = "程昱",
-					["Date"] = "2022-02-12",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-12",
+					["Looter"] = "程昱",
 					["Name"] = "伊利達瑞切骨者",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32249::::::::70:::::::::|h[海泉綠寶石]|h|r", -- [1]
@@ -1055,9 +1054,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22845-0000079DD6",
 					["Time"] = "21:09:44",
-					["Looter"] = "背鍋俠",
-					["Date"] = "2022-02-12",
 					["Class"] = "ROGUE",
+					["Date"] = "2022-02-12",
+					["Looter"] = "背鍋俠",
 					["Name"] = "灰舌秘法師",
 					["Loots"] = {
 						"|cff0070dd|Hitem:31905::::::::70:::::::::|h[狂怒套卡之七]|h|r", -- [1]
@@ -1066,9 +1065,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22844-000207AFA2",
 					["Time"] = "21:15:14",
-					["Looter"] = "柒刻",
-					["Date"] = "2022-02-12",
 					["Class"] = "SHAMAN",
+					["Date"] = "2022-02-12",
+					["Looter"] = "柒刻",
 					["Name"] = "灰舌戰鬥領主",
 					["Loots"] = {
 						"|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r", -- [1]
@@ -1077,9 +1076,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22847-000107AFA2",
 					["Time"] = "21:15:17",
-					["Looter"] = "背鍋俠",
-					["Date"] = "2022-02-12",
 					["Class"] = "ROGUE",
+					["Date"] = "2022-02-12",
+					["Looter"] = "背鍋俠",
 					["Name"] = "灰舌原獵者",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32231::::::::70:::::::::|h[焚石]|h|r", -- [1]
@@ -1088,9 +1087,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22847-000007AFA2",
 					["Time"] = "21:16:22",
-					["Looter"] = "歐艾丹",
-					["Date"] = "2022-02-12",
 					["Class"] = "PALADIN",
+					["Date"] = "2022-02-12",
+					["Looter"] = "歐艾丹",
 					["Name"] = "灰舌原獵者",
 					["Loots"] = {
 						"|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r", -- [1]
@@ -1099,9 +1098,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22844-000107AFA2",
 					["Time"] = "21:18:13",
-					["Looter"] = "霸氣狂肉包",
-					["Date"] = "2022-02-12",
 					["Class"] = "SHAMAN",
+					["Date"] = "2022-02-12",
+					["Looter"] = "霸氣狂肉包",
 					["Name"] = "灰舌戰鬥領主",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32228::::::::70:::::::::|h[蒼穹藍寶石]|h|r", -- [1]
@@ -1110,9 +1109,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22845-000087AFA2",
 					["Time"] = "21:18:15",
-					["Looter"] = "终焉誓約",
-					["Date"] = "2022-02-12",
 					["Class"] = "PALADIN",
+					["Date"] = "2022-02-12",
+					["Looter"] = "终焉誓約",
 					["Name"] = "灰舌秘法師",
 					["Loots"] = {
 						"|cffa335ee|Hitem:34012::::::::70:::::::::|h[最終之刻罩氅]|h|r", -- [1]
@@ -1121,9 +1120,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22841-0000079DD5",
 					["Time"] = "21:21:57",
-					["Looter"] = "霸氣狂肉包",
-					["Date"] = "2022-02-12",
 					["Class"] = "SHAMAN",
+					["Date"] = "2022-02-12",
+					["Looter"] = "霸氣狂肉包",
 					["Name"] = "阿卡瑪的黑暗面",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32278::::::::70:::::::::|h[寂靜正義手套]|h|r", -- [1]
@@ -1133,9 +1132,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22846-000087AFA2",
 					["Time"] = "21:22:07",
-					["Looter"] = "终焉誓約",
-					["Date"] = "2022-02-12",
 					["Class"] = "PALADIN",
+					["Date"] = "2022-02-12",
+					["Looter"] = "终焉誓約",
 					["Name"] = "灰舌風暴召喚者",
 					["Loots"] = {
 						"|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r", -- [1]
@@ -1144,9 +1143,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22879-0000879DD6",
 					["Time"] = "21:26:24",
-					["Looter"] = "別逼我擋怪",
-					["Date"] = "2022-02-12",
 					["Class"] = "WARRIOR",
+					["Date"] = "2022-02-12",
+					["Looter"] = "別逼我擋怪",
 					["Name"] = "影月搶奪者",
 					["Loots"] = {
 						"|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r", -- [1]
@@ -1155,9 +1154,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22880-0000879DD6",
 					["Time"] = "21:32:55",
-					["Looter"] = "神經德魯伊",
-					["Date"] = "2022-02-12",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-12",
+					["Looter"] = "神經德魯伊",
 					["Name"] = "影月勇士",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32608::::::::70:::::::::|h[掠取者護手]|h|r", -- [1]
@@ -1167,9 +1166,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22880-0000079DD7",
 					["Time"] = "21:36:04",
-					["Looter"] = "背鍋俠",
-					["Date"] = "2022-02-12",
 					["Class"] = "ROGUE",
+					["Date"] = "2022-02-12",
+					["Looter"] = "背鍋俠",
 					["Name"] = "影月勇士",
 					["Loots"] = {
 						"|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r", -- [1]
@@ -1178,9 +1177,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22945-0001879DD7",
 					["Time"] = "21:37:19",
-					["Looter"] = "程昱",
-					["Date"] = "2022-02-12",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-12",
+					["Looter"] = "程昱",
 					["Name"] = "影月血法師",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32230::::::::70:::::::::|h[影歌紫水晶]|h|r", -- [1]
@@ -1189,9 +1188,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-23018-0000079DD6",
 					["Time"] = "21:38:20",
-					["Looter"] = "神經德魯伊",
-					["Date"] = "2022-02-12",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-12",
+					["Looter"] = "神經德魯伊",
 					["Name"] = "影月馴犬者",
 					["Loots"] = {
 						"|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r", -- [1]
@@ -1200,9 +1199,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-23049-0000079DD6",
 					["Time"] = "21:39:23",
-					["Looter"] = "程昱",
-					["Date"] = "2022-02-12",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-12",
+					["Looter"] = "程昱",
 					["Name"] = "影月武器大師",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32228::::::::70:::::::::|h[蒼穹藍寶石]|h|r", -- [1]
@@ -1211,9 +1210,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22879-0001879DD5",
 					["Time"] = "21:40:42",
-					["Looter"] = "终焉誓約",
-					["Date"] = "2022-02-12",
 					["Class"] = "PALADIN",
+					["Date"] = "2022-02-12",
+					["Looter"] = "终焉誓約",
 					["Name"] = "影月搶奪者",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32231::::::::70:::::::::|h[焚石]|h|r", -- [1]
@@ -1222,9 +1221,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-23147-0001079DD6",
 					["Time"] = "21:45:06",
-					["Looter"] = "神經德魯伊",
-					["Date"] = "2022-02-12",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-12",
+					["Looter"] = "神經德魯伊",
 					["Name"] = "影月蠻兵",
 					["Loots"] = {
 						"|cff0070dd|Hitem:31906::::::::70:::::::::|h[狂怒套卡之六]|h|r", -- [1]
@@ -1233,9 +1232,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-23172-0001879DD5",
 					["Time"] = "21:47:26",
-					["Looter"] = "不死夜空",
-					["Date"] = "2022-02-12",
 					["Class"] = "WARLOCK",
+					["Date"] = "2022-02-12",
+					["Looter"] = "不死夜空",
 					["Name"] = "血魔之手",
 					["Loots"] = {
 						"|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r", -- [1]
@@ -1244,9 +1243,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-23172-0000079DD5",
 					["Time"] = "21:48:04",
-					["Looter"] = "程昱",
-					["Date"] = "2022-02-12",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-12",
+					["Looter"] = "程昱",
 					["Name"] = "血魔之手",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32229::::::::70:::::::::|h[獅眼石]|h|r", -- [1]
@@ -1255,9 +1254,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22871-0000079DD5",
 					["Time"] = "21:53:06",
-					["Looter"] = "终焉誓約",
-					["Date"] = "2022-02-12",
 					["Class"] = "PALADIN",
+					["Date"] = "2022-02-12",
+					["Looter"] = "终焉誓約",
 					["Name"] = "泰朗·血魔",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32328::::::::70:::::::::|h[植物學家的生長手套]|h|r", -- [1]
@@ -1267,9 +1266,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22869-0003879DD5",
 					["Time"] = "21:58:20",
-					["Looter"] = "阿梨",
-					["Date"] = "2022-02-12",
 					["Class"] = "PRIEST",
+					["Date"] = "2022-02-12",
+					["Looter"] = "阿梨",
 					["Name"] = "伊利達瑞切骨者",
 					["Loots"] = {
 						"|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r", -- [1]
@@ -1278,9 +1277,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-23235-0000079DD5",
 					["Time"] = "22:05:09",
-					["Looter"] = "程昱",
-					["Date"] = "2022-02-12",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-12",
+					["Looter"] = "程昱",
 					["Name"] = "噬骨劍刃狂怒者",
 					["Loots"] = {
 						"|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r", -- [1]
@@ -1289,9 +1288,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-23196-0000079DD6",
 					["Time"] = "22:08:35",
-					["Looter"] = "神經德魯伊",
-					["Date"] = "2022-02-12",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-12",
+					["Looter"] = "神經德魯伊",
 					["Name"] = "噬骨者巨獸",
 					["Loots"] = {
 						"|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r", -- [1]
@@ -1300,9 +1299,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-23196-0000079DD5",
 					["Time"] = "22:09:50",
-					["Looter"] = "我叫緋村",
-					["Date"] = "2022-02-12",
 					["Class"] = "PALADIN",
+					["Date"] = "2022-02-12",
+					["Looter"] = "我叫緋村",
 					["Name"] = "噬骨者巨獸",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32249::::::::70:::::::::|h[海泉綠寶石]|h|r", -- [1]
@@ -1311,9 +1310,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-23239-0000879DD6",
 					["Time"] = "22:09:53",
-					["Looter"] = "我叫緋村",
-					["Date"] = "2022-02-12",
 					["Class"] = "PALADIN",
+					["Date"] = "2022-02-12",
+					["Looter"] = "我叫緋村",
 					["Name"] = "噬骨者戰士",
 					["Loots"] = {
 						"|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r", -- [1]
@@ -1322,9 +1321,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22948-0000079DD5",
 					["Time"] = "22:26:51",
-					["Looter"] = "程昱",
-					["Date"] = "2022-02-12",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-12",
+					["Looter"] = "程昱",
 					["Name"] = "葛塔格·血沸",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32341::::::::70:::::::::|h[神聖懲戒護腿]|h|r", -- [1]
@@ -1335,9 +1334,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-23237-0001079DD6",
 					["Time"] = "22:30:10",
-					["Looter"] = "程昱",
-					["Date"] = "2022-02-12",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-12",
+					["Looter"] = "程昱",
 					["Name"] = "噬骨鮮血預言者",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32528::::::::70:::::::::|h[卡拉伯爾祝福指環]|h|r", -- [1]
@@ -1346,9 +1345,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-23420-000007CC04",
 					["Time"] = "23:03:41",
-					["Looter"] = "程昱",
-					["Date"] = "2022-02-12",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-12",
+					["Looter"] = "程昱",
 					["Name"] = "憤怒精華",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32352::::::::70:::::::::|h[自然守護足靴]|h|r", -- [1]
@@ -1358,9 +1357,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22939-0002879DD6",
 					["Time"] = "23:11:55",
-					["Looter"] = "背鍋俠",
-					["Date"] = "2022-02-12",
 					["Class"] = "ROGUE",
+					["Date"] = "2022-02-12",
+					["Looter"] = "背鍋俠",
 					["Name"] = "神廟侍僧",
 					["Loots"] = {
 						"|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r", -- [1]
@@ -1369,9 +1368,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22959-0000879DD6",
 					["Time"] = "23:13:21",
-					["Looter"] = "神經德魯伊",
-					["Date"] = "2022-02-12",
 					["Class"] = "DRUID",
+					["Date"] = "2022-02-12",
+					["Looter"] = "神經德魯伊",
 					["Name"] = "熱情招待者",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32228::::::::70:::::::::|h[蒼穹藍寶石]|h|r", -- [1]
@@ -1380,9 +1379,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22955-0009079DD6",
 					["Time"] = "23:16:16",
-					["Looter"] = "歐艾丹",
-					["Date"] = "2022-02-12",
 					["Class"] = "PALADIN",
+					["Date"] = "2022-02-12",
+					["Looter"] = "歐艾丹",
 					["Name"] = "迷人的客人",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32753::::::::70:::::::::|h[圖樣:速癒披肩]|h|r", -- [1]
@@ -1391,9 +1390,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22939-0008879DD6",
 					["Time"] = "23:16:18",
-					["Looter"] = "莉姆露",
-					["Date"] = "2022-02-12",
 					["Class"] = "SHAMAN",
+					["Date"] = "2022-02-12",
+					["Looter"] = "莉姆露",
 					["Name"] = "神廟侍僧",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32943::::::::70:::::::::|h[迅鋼棍棒]|h|r", -- [1]
@@ -1402,9 +1401,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22939-0009879DD6",
 					["Time"] = "23:16:20",
-					["Looter"] = "莉姆露",
-					["Date"] = "2022-02-12",
 					["Class"] = "SHAMAN",
+					["Date"] = "2022-02-12",
+					["Looter"] = "莉姆露",
 					["Name"] = "神廟侍僧",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32231::::::::70:::::::::|h[焚石]|h|r", -- [1]
@@ -1413,9 +1412,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22956-0001879DD5",
 					["Time"] = "23:19:03",
-					["Looter"] = "莉姆露",
-					["Date"] = "2022-02-12",
 					["Class"] = "SHAMAN",
+					["Date"] = "2022-02-12",
+					["Looter"] = "莉姆露",
 					["Name"] = "折磨之女祭司",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32249::::::::70:::::::::|h[海泉綠寶石]|h|r", -- [1]
@@ -1424,9 +1423,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22939-000B079DD5",
 					["Time"] = "23:19:11",
-					["Looter"] = "熙夏",
-					["Date"] = "2022-02-12",
 					["Class"] = "MAGE",
+					["Date"] = "2022-02-12",
+					["Looter"] = "熙夏",
 					["Name"] = "神廟侍僧",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32227::::::::70:::::::::|h[赤紅尖晶石]|h|r", -- [1]
@@ -1435,9 +1434,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22939-000E879DD5",
 					["Time"] = "23:24:53",
-					["Looter"] = "歿天使",
-					["Date"] = "2022-02-12",
 					["Class"] = "PALADIN",
+					["Date"] = "2022-02-12",
+					["Looter"] = "歿天使",
 					["Name"] = "神廟侍僧",
 					["Loots"] = {
 						"|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r", -- [1]
@@ -1446,9 +1445,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22939-000F879DD5",
 					["Time"] = "23:24:56",
-					["Looter"] = "终焉誓約",
-					["Date"] = "2022-02-12",
 					["Class"] = "PALADIN",
+					["Date"] = "2022-02-12",
+					["Looter"] = "终焉誓約",
 					["Name"] = "神廟侍僧",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32737::::::::70:::::::::|h[設計圖:迅鋼護肩]|h|r", -- [1]
@@ -1457,9 +1456,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22962-0000079DD6",
 					["Time"] = "23:27:04",
-					["Looter"] = "熙夏",
-					["Date"] = "2022-02-12",
 					["Class"] = "MAGE",
+					["Date"] = "2022-02-12",
+					["Looter"] = "熙夏",
 					["Name"] = "悲痛之女",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32754::::::::70:::::::::|h[圖樣:靈機護腕]|h|r", -- [1]
@@ -1468,9 +1467,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-22947-0000079DD5",
 					["Time"] = "23:54:03",
-					["Looter"] = "特變電工",
-					["Date"] = "2022-02-12",
 					["Class"] = "WARRIOR",
+					["Date"] = "2022-02-12",
+					["Looter"] = "特變電工",
 					["Name"] = "薩拉茲女士",
 					["Loots"] = {
 						"|cffa335ee|Hitem:31101::::::::70:::::::::|h[遺忘征服者肩鎧]|h|r", -- [1]
@@ -1481,9 +1480,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-23402-0003079DD5",
 					["Time"] = "00:07:23",
-					["Looter"] = "翔翔大肆虐",
-					["Date"] = "2022-02-13",
 					["Class"] = "MAGE",
+					["Date"] = "2022-02-13",
+					["Looter"] = "翔翔大肆虐",
 					["Name"] = "伊利達瑞戰場法師",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32228::::::::70:::::::::|h[蒼穹藍寶石]|h|r", -- [1]
@@ -1492,30 +1491,32 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-564-27193-23400-0000079DD5",
 					["Time"] = "00:09:28",
-					["Looter"] = "背鍋俠",
-					["Date"] = "2022-02-13",
 					["Class"] = "ROGUE",
+					["Date"] = "2022-02-13",
+					["Looter"] = "背鍋俠",
 					["Name"] = "伊利達瑞執政官",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32228::::::::70:::::::::|h[蒼穹藍寶石]|h|r", -- [1]
 					},
 				}, -- [91]
 			},
+			["Player"] = "特變電工",
 		}, -- [5]
 		{
 			["InstanceID"] = 565,
+			["Player"] = "特變電工",
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Gruul's Lair",
-			["Class"] = "WARRIOR",
 			["Date"] = "2022-02-13",
 			["FirstClass"] = "UNKNOWN",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-565-4594-18831-000008B075",
 					["Time"] = "15:34:04",
-					["Class"] = "WARLOCK",
-					["Date"] = "2022-02-13",
 					["Looter"] = "蒔芸",
+					["Date"] = "2022-02-13",
+					["Class"] = "WARLOCK",
 					["Name"] = "大君王莫卡爾",
 					["Loots"] = {
 						"|cffa335ee|Hitem:29763::::::::70:::::::::|h[逝往勇士肩鎧]|h|r", -- [1]
@@ -1527,9 +1528,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-565-4594-19044-000008B075",
 					["Time"] = "15:41:44",
-					["Class"] = "WARRIOR",
-					["Date"] = "2022-02-13",
 					["Looter"] = "特變電工",
+					["Date"] = "2022-02-13",
+					["Class"] = "WARRIOR",
 					["Name"] = "弒龍者戈魯爾",
 					["Loots"] = {
 						"|cffa335ee|Hitem:28827::::::::70:::::::::|h[屠龍者護手]|h|r", -- [1]
@@ -1540,8 +1541,111 @@ LootMonitorDB = {
 					},
 				}, -- [2]
 			},
-			["Player"] = "特變電工",
 		}, -- [6]
+		{
+			["InstanceID"] = 564,
+			["Player"] = "特變電工",
+			["FirstPlayer"] = "未知",
+			["InstanceName"] = "Black Temple",
+			["Date"] = "2022-02-13",
+			["Class"] = "WARRIOR",
+			["FirstClass"] = "UNKNOWN",
+			["LootTable"] = {
+				{
+					["GUID"] = "Creature-0-5580-564-2043-23394-000088ED78",
+					["Time"] = "20:19:08",
+					["Looter"] = "程昱",
+					["Date"] = "2022-02-13",
+					["Class"] = "DRUID",
+					["Name"] = "漫步哨兵",
+					["Loots"] = {
+						"|cffa335ee|Hitem:32230::::::::70:::::::::|h[影歌紫水晶]|h|r", -- [1]
+					},
+				}, -- [1]
+				{
+					["GUID"] = "Creature-0-5580-564-2043-23403-000108ED78",
+					["Time"] = "20:22:13",
+					["Looter"] = "程昱",
+					["Date"] = "2022-02-13",
+					["Class"] = "DRUID",
+					["Name"] = "伊利達瑞刺客",
+					["Loots"] = {
+						"|cff0070dd|Hitem:24299::::::::70:::::::::|h[圖樣:黑色虛無披風]|h|r", -- [1]
+						"|cffa335ee|Hitem:32227::::::::70:::::::::|h[赤紅尖晶石]|h|r", -- [2]
+					},
+				}, -- [2]
+				{
+					["GUID"] = "Creature-0-5580-564-2043-23403-000188ED78",
+					["Time"] = "20:22:17",
+					["Looter"] = "终焉誓約",
+					["Date"] = "2022-02-13",
+					["Class"] = "PALADIN",
+					["Name"] = "伊利達瑞刺客",
+					["Loots"] = {
+						"|cffa335ee|Hitem:32231::::::::70:::::::::|h[焚石]|h|r", -- [1]
+					},
+				}, -- [3]
+				{
+					["GUID"] = "Creature-0-5580-564-2043-23397-000008ED78",
+					["Time"] = "20:24:59",
+					["Looter"] = "终焉誓約",
+					["Date"] = "2022-02-13",
+					["Class"] = "PALADIN",
+					["Name"] = "伊利達瑞血領主",
+					["Loots"] = {
+						"|cffa335ee|Hitem:32249::::::::70:::::::::|h[海泉綠寶石]|h|r", -- [1]
+					},
+				}, -- [4]
+				{
+					["GUID"] = "Creature-0-5580-564-2043-22951-000008ED78",
+					["Time"] = "20:42:42",
+					["Looter"] = "终焉誓約",
+					["Date"] = "2022-02-13",
+					["Class"] = "PALADIN",
+					["Name"] = "瑪蘭黛女士",
+					["Loots"] = {
+						"|cffa335ee|Hitem:31100::::::::70:::::::::|h[遺忘保衛者護腿]|h|r", -- [1]
+					},
+				}, -- [5]
+				{
+					["GUID"] = "Creature-0-5580-564-2043-22952-000008ED78",
+					["Time"] = "20:42:50",
+					["Looter"] = "神經德魯伊",
+					["Date"] = "2022-02-13",
+					["Class"] = "DRUID",
+					["Name"] = "維拉斯·深影",
+					["Loots"] = {
+						"|cffa335ee|Hitem:31100::::::::70:::::::::|h[遺忘保衛者護腿]|h|r", -- [1]
+					},
+				}, -- [6]
+				{
+					["GUID"] = "Creature-0-5580-564-2043-22950-000008ED78",
+					["Time"] = "20:42:56",
+					["Looter"] = "歐艾丹",
+					["Date"] = "2022-02-13",
+					["Class"] = "PALADIN",
+					["Name"] = "高等虛空術師札瑞佛",
+					["Loots"] = {
+						"|cffa335ee|Hitem:32376::::::::70:::::::::|h[森林徘徊者頭盔]|h|r", -- [1]
+					},
+				}, -- [7]
+				{
+					["GUID"] = "Creature-0-5580-564-2043-22917-00000916FE",
+					["Time"] = "22:55:11",
+					["Looter"] = "魔令古二世",
+					["Date"] = "2022-02-13",
+					["Class"] = "MAGE",
+					["Name"] = "伊利丹·怒風",
+					["Loots"] = {
+						"|cffa335ee|Hitem:31090::::::::70:::::::::|h[遺忘防禦者護胸]|h|r", -- [1]
+						"|cffa335ee|Hitem:32235::::::::70:::::::::|h[薩格拉斯的詛咒幻象]|h|r", -- [2]
+						"|cffa335ee|Hitem:32374::::::::70:::::::::|h[札頓姆，吞噬者之杖]|h|r", -- [3]
+						"|cffa335ee|Hitem:31091::::::::70:::::::::|h[遺忘保衛者護胸]|h|r", -- [4]
+						"|cffa335ee|Hitem:32738::::::::70:::::::::|h[設計圖:黎明鋼鐵護腕]|h|r", -- [5]
+					},
+				}, -- [8]
+			},
+		}, -- [7]
 	},
 	["Config"] = {
 		["ShowMinimapIcon"] = true,
