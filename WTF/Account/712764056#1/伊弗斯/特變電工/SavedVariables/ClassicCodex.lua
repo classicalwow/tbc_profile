@@ -10,9 +10,9 @@ CodexConfig = {
 	["minimumDropChance"] = 2,
 	["showLowLevel"] = false,
 	["_tom_waypoint"] = {
-		1948, -- [1]
-		0.6629999999999999, -- [2]
-		0.856, -- [3]
+		1949, -- [1]
+		0.555, -- [2]
+		0.449, -- [3]
 		["arrivaldistance"] = 15,
 		["callbacks"] = {
 			["distance"] = {
@@ -25,7 +25,7 @@ CodexConfig = {
 		["persistent"] = true,
 		["minimap"] = true,
 		["cleardistance"] = 10,
-		["title"] = "莫格霍尔大王",
+		["title"] = "枯瘦的莫戈多格",
 		["from"] = "?",
 		["crazy"] = true,
 		["world"] = true,

@@ -454,8 +454,40 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2021/09/25 17:17",
 			},
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1644736560,
-				["lastVisitDate"] = "2022/02/13 15:16",
+				["lastUpdate"] = 1645023395,
+				["Mails"] = {
+					{
+						["link"] = "|cff1eff00|Hitem:7082::::::::70:::::::::|h[空氣精華]|h|r",
+						["sender"] = "部落拍賣場",
+						["itemID"] = 7082,
+						["returned"] = false,
+						["icon"] = 136022,
+						["count"] = 1,
+						["lastCheck"] = 1645023395,
+						["daysLeft"] = 26.87819480895996,
+					}, -- [1]
+					{
+						["link"] = "|cffffffff|Hitem:22572::::::::70:::::::::|h[空氣微粒]|h|r",
+						["sender"] = "部落拍賣場",
+						["itemID"] = 22572,
+						["returned"] = false,
+						["icon"] = 132837,
+						["count"] = 1,
+						["lastCheck"] = 1645023395,
+						["daysLeft"] = 26.87819480895996,
+					}, -- [2]
+					{
+						["link"] = "|cffa335ee|Hitem:32227::::::::70:::::::::|h[赤紅尖晶石]|h|r",
+						["sender"] = "部落拍賣場",
+						["itemID"] = 32227,
+						["returned"] = false,
+						["icon"] = 133238,
+						["count"] = 1,
+						["lastCheck"] = 1645023395,
+						["daysLeft"] = 26.87848472595215,
+					}, -- [3]
+				},
+				["lastVisitDate"] = "2022/02/16 22:56",
 			},
 		},
 	},
