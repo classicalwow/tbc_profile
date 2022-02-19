@@ -48,6 +48,13 @@ TomTomWaypointsM = {
 					0.555, -- [2]
 					0.449, -- [3]
 					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "枯瘦的莫戈多格",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "枯瘦的莫戈多格",
+					["from"] = "?",
 					["callbacks"] = {
 						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
@@ -64,12 +71,7 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
-					["persistent"] = true,
 					["minimap"] = true,
-					["cleardistance"] = 10,
-					["title"] = "枯瘦的莫戈多格",
-					["from"] = "?",
-					["crazy"] = true,
 					["world"] = true,
 				},
 			},
