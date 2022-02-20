@@ -1028,15 +1028,15 @@ MailLoggerDB = {
 			},
 		}, -- [44]
 		{
-			["TargetName"] = "別逼我擋怪",
 			["Date"] = "2021-12-19",
+			["TargetName"] = "別逼我擋怪",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "00:43:11",
 			["GiveMoney"] = 0,
 			["Location"] = "毒蛇神殿洞穴",
+			["GiveItems"] = {
+			},
 			["PlayerName"] = "特變電工",
-			["Time"] = "00:43:11",
 			["ReceiveItems"] = {
 			},
 		}, -- [45]
@@ -1055,28 +1055,28 @@ MailLoggerDB = {
 			},
 		}, -- [46]
 		{
-			["TargetName"] = "終焉之戰",
 			["Date"] = "2021-12-19",
+			["TargetName"] = "終焉之戰",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "00:46:22",
 			["GiveMoney"] = 0,
 			["Location"] = "毒蛇神殿洞穴",
+			["GiveItems"] = {
+			},
 			["PlayerName"] = "特變電工",
-			["Time"] = "00:46:22",
 			["ReceiveItems"] = {
 			},
 		}, -- [47]
 		{
-			["TargetName"] = "終焉之戰",
 			["Date"] = "2021-12-19",
+			["TargetName"] = "終焉之戰",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "00:46:42",
 			["GiveMoney"] = 0,
 			["Location"] = "毒蛇神殿洞穴",
+			["GiveItems"] = {
+			},
 			["PlayerName"] = "特變電工",
-			["Time"] = "00:46:42",
 			["ReceiveItems"] = {
 			},
 		}, -- [48]
@@ -1275,15 +1275,15 @@ MailLoggerDB = {
 			},
 		}, -- [58]
 		{
-			["TargetName"] = "終焉之戰",
 			["Date"] = "2021-12-25",
+			["TargetName"] = "終焉之戰",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "22:17:01",
 			["GiveMoney"] = 0,
 			["Location"] = "風暴要塞",
+			["GiveItems"] = {
+			},
 			["PlayerName"] = "特變電工",
-			["Time"] = "22:17:01",
 			["ReceiveItems"] = {
 			},
 		}, -- [59]
@@ -1307,15 +1307,15 @@ MailLoggerDB = {
 			},
 		}, -- [60]
 		{
-			["PlayerName"] = "特變電工",
 			["TargetName"] = "終焉之戰",
+			["PlayerName"] = "特變電工",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "20:57:30",
 			["GiveMoney"] = 0,
 			["Location"] = "毒蛇神殿洞穴",
+			["GiveItems"] = {
+			},
 			["Date"] = "2022-01-01",
-			["Time"] = "20:57:30",
 			["ReceiveItems"] = {
 			},
 		}, -- [61]
@@ -1389,15 +1389,15 @@ MailLoggerDB = {
 			},
 		}, -- [65]
 		{
-			["TargetName"] = "终焉誓約",
 			["Date"] = "2022-01-08",
+			["TargetName"] = "终焉誓約",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "21:40:19",
 			["GiveMoney"] = 0,
 			["Location"] = "毒蛇神殿洞穴",
+			["GiveItems"] = {
+			},
 			["PlayerName"] = "特變電工",
-			["Time"] = "21:40:19",
 			["ReceiveItems"] = {
 			},
 		}, -- [66]
@@ -1421,28 +1421,28 @@ MailLoggerDB = {
 			},
 		}, -- [67]
 		{
-			["TargetName"] = "终焉誓約",
 			["Date"] = "2022-01-08",
+			["TargetName"] = "终焉誓約",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "22:26:36",
 			["GiveMoney"] = 0,
 			["Location"] = "風暴要塞",
+			["GiveItems"] = {
+			},
 			["PlayerName"] = "特變電工",
-			["Time"] = "22:26:36",
 			["ReceiveItems"] = {
 			},
 		}, -- [68]
 		{
-			["TargetName"] = "终焉誓約",
 			["Date"] = "2022-01-08",
+			["TargetName"] = "终焉誓約",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "22:26:41",
 			["GiveMoney"] = 0,
 			["Location"] = "風暴要塞",
+			["GiveItems"] = {
+			},
 			["PlayerName"] = "特變電工",
-			["Time"] = "22:26:41",
 			["ReceiveItems"] = {
 			},
 		}, -- [69]
@@ -1555,28 +1555,28 @@ MailLoggerDB = {
 			},
 		}, -- [75]
 		{
-			["Date"] = "2022-01-29",
 			["TargetName"] = "潑屎妹",
+			["Date"] = "2022-01-29",
 			["ReceiveMoney"] = 0,
-			["Time"] = "16:56:51",
-			["GiveMoney"] = 0,
-			["Location"] = "奧格瑪",
 			["GiveItems"] = {
 			},
+			["GiveMoney"] = 0,
+			["Location"] = "奧格瑪",
 			["PlayerName"] = "特變電工",
+			["Time"] = "16:56:51",
 			["ReceiveItems"] = {
 			},
 		}, -- [76]
 		{
-			["Date"] = "2022-01-29",
 			["TargetName"] = "潑屎妹",
+			["Date"] = "2022-01-29",
 			["ReceiveMoney"] = 0,
-			["Time"] = "16:56:54",
-			["GiveMoney"] = 0,
-			["Location"] = "奧格瑪",
 			["GiveItems"] = {
 			},
+			["GiveMoney"] = 0,
+			["Location"] = "奧格瑪",
 			["PlayerName"] = "特變電工",
+			["Time"] = "16:56:54",
 			["ReceiveItems"] = {
 			},
 		}, -- [77]
@@ -1605,15 +1605,15 @@ MailLoggerDB = {
 			},
 		}, -- [78]
 		{
-			["Date"] = "2022-01-29",
 			["TargetName"] = "潑屎妹",
+			["Date"] = "2022-01-29",
 			["ReceiveMoney"] = 0,
-			["Time"] = "16:57:03",
-			["GiveMoney"] = 0,
-			["Location"] = "奧格瑪",
 			["GiveItems"] = {
 			},
+			["GiveMoney"] = 0,
+			["Location"] = "奧格瑪",
 			["PlayerName"] = "特變電工",
+			["Time"] = "16:57:03",
 			["ReceiveItems"] = {
 			},
 		}, -- [79]
@@ -1658,15 +1658,15 @@ MailLoggerDB = {
 			},
 		}, -- [81]
 		{
-			["PlayerName"] = "特變電工",
 			["Date"] = "2022-01-29",
+			["PlayerName"] = "特變電工",
 			["ReceiveMoney"] = 0,
-			["Time"] = "22:07:23",
-			["GiveMoney"] = 0,
-			["Location"] = "海加爾山",
 			["GiveItems"] = {
 			},
+			["GiveMoney"] = 0,
+			["Location"] = "海加爾山",
 			["TargetName"] = "终焉誓約",
+			["Time"] = "22:07:23",
 			["ReceiveItems"] = {
 			},
 		}, -- [82]
@@ -1690,15 +1690,15 @@ MailLoggerDB = {
 			},
 		}, -- [83]
 		{
-			["PlayerName"] = "特變電工",
 			["Date"] = "2022-01-29",
+			["PlayerName"] = "特變電工",
 			["ReceiveMoney"] = 0,
-			["Time"] = "22:29:03",
-			["GiveMoney"] = 0,
-			["Location"] = "海加爾山",
 			["GiveItems"] = {
 			},
+			["GiveMoney"] = 0,
+			["Location"] = "海加爾山",
 			["TargetName"] = "终焉誓約",
+			["Time"] = "22:29:03",
 			["ReceiveItems"] = {
 			},
 		}, -- [84]
@@ -1762,15 +1762,15 @@ MailLoggerDB = {
 			},
 		}, -- [87]
 		{
-			["PlayerName"] = "特變電工",
 			["TargetName"] = "终焉誓約",
+			["PlayerName"] = "特變電工",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "22:40:31",
 			["GiveMoney"] = 0,
 			["Location"] = "黑暗神廟",
+			["GiveItems"] = {
+			},
 			["Date"] = "2022-01-30",
-			["Time"] = "22:40:31",
 			["ReceiveItems"] = {
 			},
 		}, -- [88]
@@ -1794,15 +1794,15 @@ MailLoggerDB = {
 			},
 		}, -- [89]
 		{
-			["PlayerName"] = "特變電工",
 			["TargetName"] = "背鍋俠",
+			["PlayerName"] = "特變電工",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "23:56:13",
 			["GiveMoney"] = 0,
 			["Location"] = "黑暗神廟",
+			["GiveItems"] = {
+			},
 			["Date"] = "2022-01-30",
-			["Time"] = "23:56:13",
 			["ReceiveItems"] = {
 			},
 		}, -- [90]
@@ -1826,28 +1826,28 @@ MailLoggerDB = {
 			},
 		}, -- [91]
 		{
-			["PlayerName"] = "特變電工",
 			["TargetName"] = "终焉誓約",
+			["PlayerName"] = "特變電工",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "00:27:16",
 			["GiveMoney"] = 0,
 			["Location"] = "黑暗神廟",
+			["GiveItems"] = {
+			},
 			["Date"] = "2022-01-31",
-			["Time"] = "00:27:16",
 			["ReceiveItems"] = {
 			},
 		}, -- [92]
 		{
-			["PlayerName"] = "特變電工",
 			["TargetName"] = "终焉誓約",
+			["PlayerName"] = "特變電工",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "00:27:20",
 			["GiveMoney"] = 0,
 			["Location"] = "黑暗神廟",
+			["GiveItems"] = {
+			},
 			["Date"] = "2022-01-31",
-			["Time"] = "00:27:20",
 			["ReceiveItems"] = {
 			},
 		}, -- [93]
@@ -1871,28 +1871,28 @@ MailLoggerDB = {
 			},
 		}, -- [94]
 		{
-			["PlayerName"] = "特變電工",
 			["TargetName"] = "魔令古二世",
+			["PlayerName"] = "特變電工",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "00:50:01",
 			["GiveMoney"] = 0,
 			["Location"] = "黑暗神廟",
+			["GiveItems"] = {
+			},
 			["Date"] = "2022-01-31",
-			["Time"] = "00:50:01",
 			["ReceiveItems"] = {
 			},
 		}, -- [95]
 		{
-			["PlayerName"] = "特變電工",
 			["TargetName"] = "魔令古二世",
+			["PlayerName"] = "特變電工",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "00:50:31",
 			["GiveMoney"] = 0,
 			["Location"] = "黑暗神廟",
+			["GiveItems"] = {
+			},
 			["Date"] = "2022-01-31",
-			["Time"] = "00:50:31",
 			["ReceiveItems"] = {
 			},
 		}, -- [96]
@@ -1946,15 +1946,15 @@ MailLoggerDB = {
 			},
 		}, -- [99]
 		{
-			["Date"] = "2022-02-03",
 			["PlayerName"] = "特變電工",
+			["Date"] = "2022-02-03",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "21:30:18",
 			["GiveMoney"] = 0,
 			["Location"] = "海加爾山",
+			["GiveItems"] = {
+			},
 			["TargetName"] = "阿梨",
-			["Time"] = "21:30:18",
 			["ReceiveItems"] = {
 			},
 		}, -- [100]
@@ -1978,15 +1978,15 @@ MailLoggerDB = {
 			},
 		}, -- [101]
 		{
-			["Date"] = "2022-02-03",
 			["PlayerName"] = "特變電工",
+			["Date"] = "2022-02-03",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "21:32:07",
 			["GiveMoney"] = 0,
 			["Location"] = "海加爾山",
+			["GiveItems"] = {
+			},
 			["TargetName"] = "阿梨",
-			["Time"] = "21:32:07",
 			["ReceiveItems"] = {
 			},
 		}, -- [102]
@@ -2010,15 +2010,15 @@ MailLoggerDB = {
 			},
 		}, -- [103]
 		{
-			["Date"] = "2022-02-03",
 			["PlayerName"] = "特變電工",
+			["Date"] = "2022-02-03",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "23:42:05",
 			["GiveMoney"] = 0,
 			["Location"] = "海加爾山",
+			["GiveItems"] = {
+			},
 			["TargetName"] = "终焉誓約",
-			["Time"] = "23:42:05",
 			["ReceiveItems"] = {
 			},
 		}, -- [104]
@@ -2037,28 +2037,28 @@ MailLoggerDB = {
 			},
 		}, -- [105]
 		{
-			["Date"] = "2022-02-05",
 			["PlayerName"] = "特變電工",
+			["Date"] = "2022-02-05",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "14:10:51",
 			["GiveMoney"] = 0,
 			["Location"] = "奧格瑪",
+			["GiveItems"] = {
+			},
 			["TargetName"] = "Eeh",
-			["Time"] = "14:10:51",
 			["ReceiveItems"] = {
 			},
 		}, -- [106]
 		{
-			["Date"] = "2022-02-05",
 			["PlayerName"] = "特變電工",
+			["Date"] = "2022-02-05",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "14:10:57",
 			["GiveMoney"] = 0,
 			["Location"] = "奧格瑪",
+			["GiveItems"] = {
+			},
 			["TargetName"] = "Eeh",
-			["Time"] = "14:10:57",
 			["ReceiveItems"] = {
 			},
 		}, -- [107]
@@ -2077,15 +2077,15 @@ MailLoggerDB = {
 			},
 		}, -- [108]
 		{
-			["Date"] = "2022-02-05",
 			["PlayerName"] = "特變電工",
+			["Date"] = "2022-02-05",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "14:11:33",
 			["GiveMoney"] = 0,
 			["Location"] = "奧格瑪",
+			["GiveItems"] = {
+			},
 			["TargetName"] = "Eeh",
-			["Time"] = "14:11:33",
 			["ReceiveItems"] = {
 			},
 		}, -- [109]
@@ -2104,28 +2104,28 @@ MailLoggerDB = {
 			},
 		}, -- [110]
 		{
-			["Date"] = "2022-02-05",
 			["PlayerName"] = "特變電工",
+			["Date"] = "2022-02-05",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "14:12:17",
 			["GiveMoney"] = 0,
 			["Location"] = "奧格瑪",
+			["GiveItems"] = {
+			},
 			["TargetName"] = "Eeh",
-			["Time"] = "14:12:17",
 			["ReceiveItems"] = {
 			},
 		}, -- [111]
 		{
-			["Date"] = "2022-02-05",
 			["PlayerName"] = "特變電工",
+			["Date"] = "2022-02-05",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "14:12:28",
 			["GiveMoney"] = 0,
 			["Location"] = "奧格瑪",
+			["GiveItems"] = {
+			},
 			["TargetName"] = "Eeh",
-			["Time"] = "14:12:28",
 			["ReceiveItems"] = {
 			},
 		}, -- [112]
@@ -2144,15 +2144,15 @@ MailLoggerDB = {
 			},
 		}, -- [113]
 		{
-			["Date"] = "2022-02-05",
 			["PlayerName"] = "特變電工",
+			["Date"] = "2022-02-05",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "14:13:31",
 			["GiveMoney"] = 0,
 			["Location"] = "奧格瑪",
+			["GiveItems"] = {
+			},
 			["TargetName"] = "Eeh",
-			["Time"] = "14:13:31",
 			["ReceiveItems"] = {
 			},
 		}, -- [114]
@@ -2171,15 +2171,15 @@ MailLoggerDB = {
 			},
 		}, -- [115]
 		{
-			["TargetName"] = "蜜桃糖",
 			["Date"] = "2022-02-05",
+			["TargetName"] = "蜜桃糖",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "15:26:56",
 			["GiveMoney"] = 0,
 			["Location"] = "戈魯爾之巢",
+			["GiveItems"] = {
+			},
 			["PlayerName"] = "特變電工",
-			["Time"] = "15:26:56",
 			["ReceiveItems"] = {
 			},
 		}, -- [116]
@@ -2198,15 +2198,15 @@ MailLoggerDB = {
 			},
 		}, -- [117]
 		{
-			["TargetName"] = "终焉誓約",
 			["PlayerName"] = "特變電工",
+			["TargetName"] = "终焉誓約",
 			["ReceiveMoney"] = 0,
-			["Time"] = "22:29:20",
-			["GiveMoney"] = 0,
-			["Location"] = "黑暗神廟",
 			["GiveItems"] = {
 			},
+			["GiveMoney"] = 0,
+			["Location"] = "黑暗神廟",
 			["Date"] = "2022-02-05",
+			["Time"] = "22:29:20",
 			["ReceiveItems"] = {
 			},
 		}, -- [118]
@@ -2230,15 +2230,15 @@ MailLoggerDB = {
 			},
 		}, -- [119]
 		{
-			["TargetName"] = "终焉誓約",
 			["PlayerName"] = "特變電工",
+			["TargetName"] = "终焉誓約",
 			["ReceiveMoney"] = 0,
-			["Time"] = "22:30:16",
-			["GiveMoney"] = 0,
-			["Location"] = "黑暗神廟",
 			["GiveItems"] = {
 			},
+			["GiveMoney"] = 0,
+			["Location"] = "黑暗神廟",
 			["Date"] = "2022-02-05",
+			["Time"] = "22:30:16",
 			["ReceiveItems"] = {
 			},
 		}, -- [120]
@@ -2262,28 +2262,28 @@ MailLoggerDB = {
 			},
 		}, -- [121]
 		{
-			["TargetName"] = "術難奉陪",
 			["PlayerName"] = "特變電工",
+			["TargetName"] = "術難奉陪",
 			["ReceiveMoney"] = 0,
-			["Time"] = "22:30:39",
-			["GiveMoney"] = 0,
-			["Location"] = "黑暗神廟",
 			["GiveItems"] = {
 			},
+			["GiveMoney"] = 0,
+			["Location"] = "黑暗神廟",
 			["Date"] = "2022-02-05",
+			["Time"] = "22:30:39",
 			["ReceiveItems"] = {
 			},
 		}, -- [122]
 		{
-			["TargetName"] = "终焉誓約",
 			["PlayerName"] = "特變電工",
+			["TargetName"] = "终焉誓約",
 			["ReceiveMoney"] = 0,
-			["Time"] = "00:55:07",
-			["GiveMoney"] = 0,
-			["Location"] = "黑暗神廟",
 			["GiveItems"] = {
 			},
+			["GiveMoney"] = 0,
+			["Location"] = "黑暗神廟",
 			["Date"] = "2022-02-06",
+			["Time"] = "00:55:07",
 			["ReceiveItems"] = {
 			},
 		}, -- [123]
@@ -2302,15 +2302,15 @@ MailLoggerDB = {
 			},
 		}, -- [124]
 		{
-			["TargetName"] = "阿梨",
 			["PlayerName"] = "特變電工",
+			["TargetName"] = "阿梨",
 			["ReceiveMoney"] = 0,
-			["Time"] = "00:55:25",
-			["GiveMoney"] = 0,
-			["Location"] = "黑暗神廟",
 			["GiveItems"] = {
 			},
+			["GiveMoney"] = 0,
+			["Location"] = "黑暗神廟",
 			["Date"] = "2022-02-06",
+			["Time"] = "00:55:25",
 			["ReceiveItems"] = {
 			},
 		}, -- [125]
@@ -2334,15 +2334,15 @@ MailLoggerDB = {
 			},
 		}, -- [126]
 		{
-			["TargetName"] = "终焉誓約",
 			["PlayerName"] = "特變電工",
+			["TargetName"] = "终焉誓約",
 			["ReceiveMoney"] = 0,
-			["Time"] = "01:01:19",
-			["GiveMoney"] = 0,
-			["Location"] = "黑暗神廟",
 			["GiveItems"] = {
 			},
+			["GiveMoney"] = 0,
+			["Location"] = "黑暗神廟",
 			["Date"] = "2022-02-06",
+			["Time"] = "01:01:19",
 			["ReceiveItems"] = {
 			},
 		}, -- [127]
@@ -2361,15 +2361,15 @@ MailLoggerDB = {
 			},
 		}, -- [128]
 		{
-			["TargetName"] = "魔令古二世",
 			["PlayerName"] = "特變電工",
+			["TargetName"] = "魔令古二世",
 			["ReceiveMoney"] = 0,
-			["Time"] = "01:04:18",
-			["GiveMoney"] = 0,
-			["Location"] = "黑暗神廟",
 			["GiveItems"] = {
 			},
+			["GiveMoney"] = 0,
+			["Location"] = "黑暗神廟",
 			["Date"] = "2022-02-06",
+			["Time"] = "01:04:18",
 			["ReceiveItems"] = {
 			},
 		}, -- [129]
@@ -2408,15 +2408,15 @@ MailLoggerDB = {
 			},
 		}, -- [131]
 		{
-			["TargetName"] = "終焉之戰",
 			["PlayerName"] = "特變電工",
+			["TargetName"] = "終焉之戰",
 			["ReceiveMoney"] = 0,
-			["Time"] = "23:36:38",
-			["GiveMoney"] = 0,
-			["Location"] = "黑暗神廟",
 			["GiveItems"] = {
 			},
+			["GiveMoney"] = 0,
+			["Location"] = "黑暗神廟",
 			["Date"] = "2022-02-06",
+			["Time"] = "23:36:38",
 			["ReceiveItems"] = {
 			},
 		}, -- [132]
@@ -2440,15 +2440,15 @@ MailLoggerDB = {
 			},
 		}, -- [133]
 		{
-			["TargetName"] = "一隻倉鼠",
 			["PlayerName"] = "特變電工",
+			["TargetName"] = "一隻倉鼠",
 			["ReceiveMoney"] = 0,
-			["Time"] = "23:52:07",
-			["GiveMoney"] = 0,
-			["Location"] = "黑暗神廟",
 			["GiveItems"] = {
 			},
+			["GiveMoney"] = 0,
+			["Location"] = "黑暗神廟",
 			["Date"] = "2022-02-06",
+			["Time"] = "23:52:07",
 			["ReceiveItems"] = {
 			},
 		}, -- [134]
@@ -2467,15 +2467,15 @@ MailLoggerDB = {
 			},
 		}, -- [135]
 		{
-			["Date"] = "2022-02-12",
 			["TargetName"] = "终焉誓約",
+			["Date"] = "2022-02-12",
 			["ReceiveMoney"] = 0,
-			["Time"] = "21:35:59",
-			["GiveMoney"] = 0,
-			["Location"] = "黑暗神廟",
 			["GiveItems"] = {
 			},
+			["GiveMoney"] = 0,
+			["Location"] = "黑暗神廟",
 			["PlayerName"] = "特變電工",
+			["Time"] = "21:35:59",
 			["ReceiveItems"] = {
 			},
 		}, -- [136]
@@ -2499,15 +2499,15 @@ MailLoggerDB = {
 			},
 		}, -- [137]
 		{
-			["TargetName"] = "別逼我擋怪",
 			["PlayerName"] = "特變電工",
+			["TargetName"] = "別逼我擋怪",
 			["ReceiveMoney"] = 0,
-			["Time"] = "00:58:40",
-			["GiveMoney"] = 0,
-			["Location"] = "奧格瑪",
 			["GiveItems"] = {
 			},
+			["GiveMoney"] = 0,
+			["Location"] = "奧格瑪",
 			["Date"] = "2022-02-13",
+			["Time"] = "00:58:40",
 			["ReceiveItems"] = {
 			},
 		}, -- [138]
@@ -2531,15 +2531,15 @@ MailLoggerDB = {
 			},
 		}, -- [139]
 		{
-			["TargetName"] = "別逼我擋怪",
 			["PlayerName"] = "特變電工",
+			["TargetName"] = "別逼我擋怪",
 			["ReceiveMoney"] = 0,
-			["Time"] = "00:59:08",
-			["GiveMoney"] = 0,
-			["Location"] = "奧格瑪",
 			["GiveItems"] = {
 			},
+			["GiveMoney"] = 0,
+			["Location"] = "奧格瑪",
 			["Date"] = "2022-02-13",
+			["Time"] = "00:59:08",
 			["ReceiveItems"] = {
 			},
 		}, -- [140]
@@ -2568,15 +2568,15 @@ MailLoggerDB = {
 			},
 		}, -- [141]
 		{
-			["PlayerName"] = "特變電工",
 			["TargetName"] = "睡覺的小咪",
+			["PlayerName"] = "特變電工",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "15:46:55",
 			["GiveMoney"] = 0,
 			["Location"] = "戈魯爾之巢",
+			["GiveItems"] = {
+			},
 			["Date"] = "2022-02-13",
-			["Time"] = "15:46:55",
 			["ReceiveItems"] = {
 			},
 		}, -- [142]
@@ -2595,15 +2595,15 @@ MailLoggerDB = {
 			},
 		}, -- [143]
 		{
-			["Date"] = "2022-02-13",
 			["PlayerName"] = "特變電工",
+			["Date"] = "2022-02-13",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "23:25:15",
 			["GiveMoney"] = 0,
 			["Location"] = "撒塔斯城",
+			["GiveItems"] = {
+			},
 			["TargetName"] = "终焉誓約",
-			["Time"] = "23:25:15",
 			["ReceiveItems"] = {
 			},
 		}, -- [144]
@@ -2622,28 +2622,28 @@ MailLoggerDB = {
 			},
 		}, -- [145]
 		{
-			["TargetName"] = "我叫緋村",
 			["Date"] = "2022-02-17",
+			["TargetName"] = "我叫緋村",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "21:52:20",
 			["GiveMoney"] = 0,
 			["Location"] = "海加爾山",
+			["GiveItems"] = {
+			},
 			["PlayerName"] = "特變電工",
-			["Time"] = "21:52:20",
 			["ReceiveItems"] = {
 			},
 		}, -- [146]
 		{
-			["TargetName"] = "终焉誓約",
 			["Date"] = "2022-02-17",
+			["TargetName"] = "终焉誓約",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "23:14:05",
 			["GiveMoney"] = 0,
 			["Location"] = "海加爾山",
+			["GiveItems"] = {
+			},
 			["PlayerName"] = "特變電工",
-			["Time"] = "23:14:05",
 			["ReceiveItems"] = {
 			},
 		}, -- [147]
@@ -2662,15 +2662,15 @@ MailLoggerDB = {
 			},
 		}, -- [148]
 		{
-			["PlayerName"] = "特變電工",
 			["Date"] = "2022-02-17",
+			["PlayerName"] = "特變電工",
 			["ReceiveMoney"] = 0,
-			["Time"] = "23:46:13",
-			["GiveMoney"] = 0,
-			["Location"] = "撒塔斯城",
 			["GiveItems"] = {
 			},
+			["GiveMoney"] = 0,
+			["Location"] = "撒塔斯城",
 			["TargetName"] = "我叫緋村",
+			["Time"] = "23:46:13",
 			["ReceiveItems"] = {
 			},
 		}, -- [149]
@@ -2689,15 +2689,15 @@ MailLoggerDB = {
 			},
 		}, -- [150]
 		{
-			["PlayerName"] = "特變電工",
 			["Date"] = "2022-02-17",
+			["PlayerName"] = "特變電工",
 			["ReceiveMoney"] = 0,
-			["Time"] = "23:46:35",
-			["GiveMoney"] = 0,
-			["Location"] = "撒塔斯城",
 			["GiveItems"] = {
 			},
+			["GiveMoney"] = 0,
+			["Location"] = "撒塔斯城",
 			["TargetName"] = "小嫩腳",
+			["Time"] = "23:46:35",
 			["ReceiveItems"] = {
 			},
 		}, -- [151]
@@ -2721,15 +2721,15 @@ MailLoggerDB = {
 			},
 		}, -- [152]
 		{
-			["PlayerName"] = "特變電工",
 			["Date"] = "2022-02-17",
+			["PlayerName"] = "特變電工",
 			["ReceiveMoney"] = 0,
-			["Time"] = "23:49:30",
-			["GiveMoney"] = 0,
-			["Location"] = "撒塔斯城",
 			["GiveItems"] = {
 			},
+			["GiveMoney"] = 0,
+			["Location"] = "撒塔斯城",
 			["TargetName"] = "我叫緋村",
+			["Time"] = "23:49:30",
 			["ReceiveItems"] = {
 			},
 		}, -- [153]
@@ -2748,15 +2748,15 @@ MailLoggerDB = {
 			},
 		}, -- [154]
 		{
-			["PlayerName"] = "特變電工",
 			["Date"] = "2022-02-17",
+			["PlayerName"] = "特變電工",
 			["ReceiveMoney"] = 0,
-			["Time"] = "23:49:38",
-			["GiveMoney"] = 0,
-			["Location"] = "撒塔斯城",
 			["GiveItems"] = {
 			},
+			["GiveMoney"] = 0,
+			["Location"] = "撒塔斯城",
 			["TargetName"] = "我叫緋村",
+			["Time"] = "23:49:38",
 			["ReceiveItems"] = {
 			},
 		}, -- [155]
@@ -2775,28 +2775,28 @@ MailLoggerDB = {
 			},
 		}, -- [156]
 		{
-			["Date"] = "2022-02-19",
 			["PlayerName"] = "特變電工",
+			["Date"] = "2022-02-19",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "18:58:11",
 			["GiveMoney"] = 0,
 			["Location"] = "奧格瑪",
+			["GiveItems"] = {
+			},
 			["TargetName"] = "Kga",
-			["Time"] = "18:58:11",
 			["ReceiveItems"] = {
 			},
 		}, -- [157]
 		{
-			["Date"] = "2022-02-19",
 			["PlayerName"] = "特變電工",
+			["Date"] = "2022-02-19",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "18:58:25",
 			["GiveMoney"] = 0,
 			["Location"] = "奧格瑪",
+			["GiveItems"] = {
+			},
 			["TargetName"] = "Kga",
-			["Time"] = "18:58:25",
 			["ReceiveItems"] = {
 			},
 		}, -- [158]
@@ -2815,28 +2815,28 @@ MailLoggerDB = {
 			},
 		}, -- [159]
 		{
-			["Date"] = "2022-02-19",
 			["PlayerName"] = "特變電工",
+			["Date"] = "2022-02-19",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "19:01:54",
 			["GiveMoney"] = 0,
 			["Location"] = "奧格瑪",
+			["GiveItems"] = {
+			},
 			["TargetName"] = "Kga",
-			["Time"] = "19:01:54",
 			["ReceiveItems"] = {
 			},
 		}, -- [160]
 		{
-			["Date"] = "2022-02-19",
 			["PlayerName"] = "特變電工",
+			["Date"] = "2022-02-19",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "19:02:10",
 			["GiveMoney"] = 0,
 			["Location"] = "奧格瑪",
+			["GiveItems"] = {
+			},
 			["TargetName"] = "Kga",
-			["Time"] = "19:02:10",
 			["ReceiveItems"] = {
 			},
 		}, -- [161]

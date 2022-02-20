@@ -2,581 +2,181 @@
 RecountPerCharDB = {
 	["version"] = "1.3",
 	["combatants"] = {
-		["我只會插圖騰"] = {
-			["GUID"] = "Player-4487-0008ABB0",
-			["type"] = "Ungrouped",
-			["GuardianReverseGUIDs"] = {
-				["風懲圖騰"] = {
-					["LatestGuardian"] = 0,
-					["GUIDs"] = {
-						[0] = "Creature-0-4491-1-26-15447-000010CFAC",
-					},
+		["神經德魯伊"] = {
+			["GUID"] = "Player-4487-001366E7",
+			["LastEventHealth"] = {
+				8478, -- [1]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+			},
+			["TimeWindows"] = {
+				["ActiveTime"] = {
+					1.5, -- [1]
 				},
-				["法力之泉圖騰 V"] = {
-					["LatestGuardian"] = 0,
-					["GUIDs"] = {
-						[0] = "Creature-0-4491-1-26-15489-000010CFAB",
-					},
+				["TimeDamage"] = {
+					1.5, -- [1]
 				},
-				["石甲圖騰 VIII"] = {
-					["LatestGuardian"] = 0,
-					["GUIDs"] = {
-						[0] = "Creature-0-4491-1-26-15474-000010CFAD",
-					},
-				},
-				["憤怒圖騰"] = {
-					["LatestGuardian"] = 0,
-					["GUIDs"] = {
-						[0] = "Creature-0-4491-1-26-17539-000010CFAA",
-					},
+				["Damage"] = {
+					618, -- [1]
 				},
 			},
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["LastAbility"] = 25297.972,
+			["enClass"] = "DRUID",
+			["unit"] = true,
+			["level"] = 70,
 			["LastFightIn"] = 0,
-			["Name"] = "我只會插圖騰",
-			["UnitLockout"] = 24731.83,
-			["Pet"] = {
-				"憤怒圖騰 <我只會插圖騰>", -- [1]
-				"法力之泉圖騰 V <我只會插圖騰>", -- [2]
-				"風懲圖騰 <我只會插圖騰>", -- [3]
-				"石甲圖騰 VIII <我只會插圖騰>", -- [4]
+			["type"] = "Grouped",
+			["LastAbility"] = 1031.44,
+			["TimeLast"] = {
+				["ActiveTime"] = 608.345,
+				["OVERALL"] = 608.345,
+				["TimeDamage"] = 608.345,
+				["Damage"] = 608.345,
 			},
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastActive"] = 24749.831,
-		},
-		["悠揚薇海"] = {
-			["GUID"] = "Player-4487-000B971F",
-			["type"] = "Ungrouped",
 			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "悠揚薇海",
-			["LastAbility"] = 25297.972,
-			["UnitLockout"] = 24910.826,
-			["level"] = 1,
-			["Fights"] = {
+			["UnitLockout"] = 608.345,
+			["NextEventNum"] = 2,
+			["LastDamageTime"] = 608.495,
+			["LastEvents"] = {
+				"神經德魯伊 月火術 蟾蜍 Hit -618 (Arcane)", -- [1]
 			},
-			["LastFightIn"] = 0,
-		},
-		["年輕的獸王獵"] = {
-			["GUID"] = "Player-4487-0011312A",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "年輕的獸王獵",
-			["LastAbility"] = 25297.972,
-			["UnitLockout"] = 25015.818,
-			["level"] = 1,
+			["Name"] = "神經德魯伊",
 			["Fights"] = {
+				["CurrentFightData"] = {
+					["TimeSpent"] = {
+						["蟾蜍"] = {
+							["Details"] = {
+								["月火術"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Arcane"] = 0,
+					},
+					["DamagedWho"] = {
+						["蟾蜍"] = {
+							["Details"] = {
+								["月火術"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["蟾蜍"] = {
+							["Details"] = {
+								["月火術"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["Attacks"] = {
+						["月火術"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["Damage"] = 0,
+				},
+				["OverallData"] = {
+					["TimeSpent"] = {
+						["蟾蜍"] = {
+							["Details"] = {
+								["月火術"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["ElementDone"] = {
+						["Arcane"] = 618,
+					},
+					["DamagedWho"] = {
+						["蟾蜍"] = {
+							["Details"] = {
+								["月火術"] = {
+									["count"] = 618,
+								},
+							},
+							["amount"] = 618,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["TimeDamage"] = 1.5,
+					["TimeDamaging"] = {
+						["蟾蜍"] = {
+							["Details"] = {
+								["月火術"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["ActiveTime"] = 1.5,
+					["Attacks"] = {
+						["月火術"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 618,
+									["min"] = 618,
+									["count"] = 1,
+									["amount"] = 618,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 618,
+						},
+					},
+					["Damage"] = 618,
+				},
 			},
-			["LastFightIn"] = 0,
-		},
-		["姊姊有點壞"] = {
-			["GUID"] = "Player-4487-00117671",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["LastAbility"] = 25297.972,
-			["Name"] = "姊姊有點壞",
-			["LastFightIn"] = 0,
-			["UnitLockout"] = 24738.83,
-			["level"] = 1,
-			["Fights"] = {
+			["LastEventTimes"] = {
+				608.495, -- [1]
 			},
-			["LastActive"] = 24746.831,
-		},
-		["陳春豪"] = {
-			["GUID"] = "Player-4487-0013A26C",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "陳春豪",
-			["LastAbility"] = 25297.972,
-			["UnitLockout"] = 24801.818,
-			["level"] = 1,
-			["Fights"] = {
+			["LastEventIncoming"] = {
+				false, -- [1]
 			},
-			["LastFightIn"] = 0,
-		},
-		["烏拉諾媤"] = {
-			["GUID"] = "Player-4487-00143746",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "烏拉諾媤",
-			["LastAbility"] = 25297.972,
-			["UnitLockout"] = 24940.829,
-			["level"] = 1,
-			["Fights"] = {
+			["LastEventHealthMax"] = {
+				8478, -- [1]
 			},
-			["LastFightIn"] = 0,
-		},
-		["朔望"] = {
-			["GUID"] = "Player-4487-0013D047",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["LastAbility"] = 25297.972,
-			["Name"] = "朔望",
-			["LastFightIn"] = 0,
-			["UnitLockout"] = 24766.82,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastActive"] = 24772.816,
-		},
-		["奶焗花椰菜"] = {
-			["GUID"] = "Player-4487-001162E4",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "奶焗花椰菜",
-			["LastAbility"] = 25297.972,
-			["UnitLockout"] = 25096.839,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastFightIn"] = 0,
-		},
-		["逛街寶寶"] = {
-			["GUID"] = "Player-4487-001155AD",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "逛街寶寶",
-			["LastAbility"] = 25297.972,
-			["UnitLockout"] = 24869.823,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastFightIn"] = 0,
-		},
-		["扶搖得意時"] = {
-			["GUID"] = "Player-4487-001222AE",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "扶搖得意時",
-			["LastAbility"] = 25297.972,
-			["UnitLockout"] = 24786.817,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastFightIn"] = 0,
-		},
-		["近我者永生"] = {
-			["GUID"] = "Player-4487-00032735",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "近我者永生",
-			["LastAbility"] = 25297.972,
-			["UnitLockout"] = 25017.818,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastFightIn"] = 0,
-		},
-		["諾倫萊恩"] = {
-			["GUID"] = "Player-4487-000A998D",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["LastAbility"] = 25297.972,
-			["Name"] = "諾倫萊恩",
-			["LastFightIn"] = 0,
-			["UnitLockout"] = 24885.824,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastActive"] = 24975.831,
-		},
-		["天仙貝貝"] = {
-			["GUID"] = "Player-4487-001191B6",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "天仙貝貝",
-			["LastAbility"] = 25297.972,
-			["UnitLockout"] = 24783.817,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastFightIn"] = 0,
-		},
-		["納許"] = {
-			["GUID"] = "Player-4487-001411DB",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "納許",
-			["LastAbility"] = 25297.972,
-			["UnitLockout"] = 24418.822,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastFightIn"] = 0,
-		},
-		["Kmk"] = {
-			["GUID"] = "Player-4487-000E59A3",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["LastAbility"] = 25297.972,
-			["Name"] = "Kmk",
-			["LastFightIn"] = 0,
-			["UnitLockout"] = 24340.833,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastActive"] = 24350.817,
-		},
-		["快來快來約我"] = {
-			["GUID"] = "Player-4487-00138895",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "快來快來約我",
-			["LastAbility"] = 25297.972,
-			["UnitLockout"] = 24948.829,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastFightIn"] = 0,
-		},
-		["火烤甜甜圈"] = {
-			["GUID"] = "Player-4487-000D6266",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["LastAbility"] = 25297.972,
-			["Name"] = "火烤甜甜圈",
-			["LastFightIn"] = 0,
-			["UnitLockout"] = 24734.83,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastActive"] = 24966.831,
-		},
-		["湘羚"] = {
-			["GUID"] = "Player-4487-000B5CAF",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "湘羚",
-			["LastAbility"] = 25297.972,
-			["UnitLockout"] = 24953.83,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastFightIn"] = 0,
-		},
-		["來杯奶"] = {
-			["GUID"] = "Player-4487-00128937",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "來杯奶",
-			["LastAbility"] = 25297.972,
-			["UnitLockout"] = 24807.819,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastFightIn"] = 0,
-		},
-		["誓約勝利之劍"] = {
-			["GUID"] = "Player-4487-00115367",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "誓約勝利之劍",
-			["LastAbility"] = 25297.972,
-			["UnitLockout"] = 24390.82,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastFightIn"] = 0,
-		},
-		["內湖彭于晏"] = {
-			["GUID"] = "Player-4487-0002D884",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["LastAbility"] = 25297.972,
-			["Name"] = "內湖彭于晏",
-			["LastFightIn"] = 0,
-			["UnitLockout"] = 24340.833,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastActive"] = 24350.817,
-		},
-		["山口山德魯伊"] = {
-			["GUID"] = "Player-4487-0008C79F",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "山口山德魯伊",
-			["LastAbility"] = 25297.972,
-			["UnitLockout"] = 25002.971,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastFightIn"] = 0,
-		},
-		["新莊鬼父"] = {
-			["GUID"] = "Player-4487-00024495",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "新莊鬼父",
-			["LastAbility"] = 25297.972,
-			["UnitLockout"] = 25125.839,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastFightIn"] = 0,
-		},
-		["棒棒糖"] = {
-			["GUID"] = "Player-4487-0014E8A4",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["LastAbility"] = 25297.972,
-			["Name"] = "棒棒糖",
-			["LastFightIn"] = 0,
-			["UnitLockout"] = 25073.822,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastActive"] = 25074.822,
-		},
-		["凜雪咿比呀呀"] = {
-			["GUID"] = "Player-4487-0009C69E",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "凜雪咿比呀呀",
-			["LastAbility"] = 25297.972,
-			["UnitLockout"] = 25068.837,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastFightIn"] = 0,
-		},
-		["碧可思拉芙"] = {
-			["GUID"] = "Player-4487-000A9ACC",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "碧可思拉芙",
-			["LastAbility"] = 25297.972,
-			["UnitLockout"] = 24349.817,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastFightIn"] = 0,
-		},
-		["開打"] = {
-			["GUID"] = "Player-4487-0009F390",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "開打",
-			["LastActive"] = 25355.427,
-			["Fights"] = {
-			},
-			["level"] = 1,
-			["UnitLockout"] = 25355.427,
-			["LastFightIn"] = 0,
-		},
-		["陳楓"] = {
-			["GUID"] = "Player-4487-000A07FB",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "陳楓",
-			["LastActive"] = 25363.427,
-			["Fights"] = {
-			},
-			["level"] = 1,
-			["UnitLockout"] = 25312.734,
-			["LastFightIn"] = 0,
-		},
-		["趴拉丁"] = {
-			["GUID"] = "Player-4487-00116817",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "趴拉丁",
-			["LastAbility"] = 25297.972,
-			["UnitLockout"] = 24815.819,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastFightIn"] = 0,
-		},
-		["冷灩"] = {
-			["GUID"] = "Player-4487-000BD7E9",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "冷灩",
-			["LastAbility"] = 25297.972,
-			["UnitLockout"] = 24760.832,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastFightIn"] = 0,
-		},
-		["Joebar"] = {
-			["GUID"] = "Player-4487-00030AD1",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "Joebar",
-			["LastAbility"] = 25297.972,
-			["UnitLockout"] = 24953.83,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastFightIn"] = 0,
-		},
-		["卓杞篤"] = {
-			["GUID"] = "Player-4487-0013C708",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "卓杞篤",
-			["LastAbility"] = 25297.972,
-			["UnitLockout"] = 24399.821,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastFightIn"] = 0,
-		},
-		["踏過我的屍體"] = {
-			["GUID"] = "Player-4487-00012A59",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "踏過我的屍體",
-			["LastAbility"] = 25297.972,
-			["UnitLockout"] = 24802.818,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastFightIn"] = 0,
-		},
-		["布雷克先生"] = {
-			["GUID"] = "Player-4487-0000EF7D",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["LastAbility"] = 25297.972,
-			["Name"] = "布雷克先生",
-			["LastFightIn"] = 0,
-			["UnitLockout"] = 24930.828,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastActive"] = 24940.829,
-		},
-		["宇航員"] = {
-			["GUID"] = "Player-4487-0014C895",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "宇航員",
-			["LastAbility"] = 25297.972,
-			["UnitLockout"] = 24942.829,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastFightIn"] = 0,
-		},
-		["女王的废物"] = {
-			["GUID"] = "Player-4487-0011723E",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "女王的废物",
-			["LastAbility"] = 25297.972,
-			["UnitLockout"] = 25019.818,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastFightIn"] = 0,
-		},
-		["野猪"] = {
-			["GUID"] = "Pet-0-4491-530-3077-5992-0200072799",
-			["type"] = "Nontrivial",
-			["Owner"] = false,
-			["enClass"] = "MOB",
-			["LastAbility"] = 25297.972,
-			["Name"] = "野猪",
-			["LastFightIn"] = 0,
-			["UnitLockout"] = 25279.821,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastActive"] = 25365.428,
-		},
-		["螃蟹粉絲煲"] = {
-			["GUID"] = "Player-4487-0013AF9F",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "螃蟹粉絲煲",
-			["LastAbility"] = 25297.972,
-			["UnitLockout"] = 24812.819,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastFightIn"] = 0,
-		},
-		["Qibotao"] = {
-			["GUID"] = "Player-4487-00143BC8",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["LastAbility"] = 25297.972,
-			["Name"] = "Qibotao",
-			["LastFightIn"] = 0,
-			["UnitLockout"] = 25284.822,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastActive"] = 25365.428,
-		},
-		["一隻倉鼠"] = {
-			["GUID"] = "Player-4487-000B62C5",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "一隻倉鼠",
-			["LastAbility"] = 25297.972,
-			["UnitLockout"] = 25056.837,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastFightIn"] = 0,
-		},
-		["烏索噗"] = {
-			["GUID"] = "Player-4487-00145379",
-			["type"] = "Ungrouped",
-			["Owner"] = false,
-			["enClass"] = "UNGROUPED",
-			["Name"] = "烏索噗",
-			["LastAbility"] = 25297.972,
-			["UnitLockout"] = 24954.83,
-			["level"] = 1,
-			["Fights"] = {
-			},
-			["LastFightIn"] = 0,
+			["LastActive"] = 608.345,
 		},
 	},
 	["FightNum"] = 0,

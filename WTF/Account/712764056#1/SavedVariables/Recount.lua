@@ -13,7 +13,7 @@ RecountDB = {
 					["h"] = 205.0000152587891,
 				},
 			},
-			["ReportLines"] = 7,
+			["ReportLines"] = 14,
 			["SegmentBosses"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -38,8 +38,8 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "戈魯爾之巢",
-			["CurDataSet"] = "OverallData",
+			["LastInstanceName"] = "海加爾山戰場",
+			["CurDataSet"] = "LastFightData",
 			["MainWindowWidth"] = 324.3896789550781,
 			["MainWindowHeight"] = 205.4917907714844,
 		},
