@@ -1,3 +1,7 @@
+-- Thanks Zentarg and his great work, BiSTracker
+-- https://www.curseforge.com/wow/addons/bis-tracker-tbcc-classic
+-- With his permission, I incorporate the paper doll system from BiSTracker to my addon.
+-- In this file, most of the code are copied from BiSTracker/core/{AceGUILayouts.lua,Init.lua,GUI.lua}
 AceBIS.GearWindow = AceBIS.AceGUI:Create("Window")
 AceBIS.GearWindow.EditSlot = AceBIS.AceGUI:Create("Window")
 AceBIS.GearWindow.ConfirmDelete = AceBIS.AceGUI:Create("Window")

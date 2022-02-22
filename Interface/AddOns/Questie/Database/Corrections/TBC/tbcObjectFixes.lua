@@ -598,6 +598,6 @@ function QuestieTBCObjectFixes:Load()
             [objectKeys.name] = "Spend a Talent Point",
             [objectKeys.spawns] = {[zoneIDs.STORMWIND_CITY]={{84,37}}},
             [objectKeys.zoneID] = zoneIDs.STORMWIND_CITY,
-        },
+        }
     }
 end
