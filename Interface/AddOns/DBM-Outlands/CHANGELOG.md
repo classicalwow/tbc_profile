@@ -1,19 +1,20 @@
 # <DBM> Outlands
 
-## [2.5.28](https://github.com/DeadlyBossMods/DBM-TBC-Classic/tree/2.5.28) (2022-02-16)
-[Full Changelog](https://github.com/DeadlyBossMods/DBM-TBC-Classic/compare/2.5.27...2.5.28) [Previous Releases](https://github.com/DeadlyBossMods/DBM-TBC-Classic/releases)
+## [2.5.29](https://github.com/DeadlyBossMods/DBM-TBC-Classic/tree/2.5.29) (2022-02-22)
+[Full Changelog](https://github.com/DeadlyBossMods/DBM-TBC-Classic/compare/2.5.28...2.5.29) [Previous Releases](https://github.com/DeadlyBossMods/DBM-TBC-Classic/releases)
 
-- Fixed a bug where ZG heart world buff would throw lua error and not start a timer or show alert  
-- Prep new Tags  
-- Support showing spell icon next to spell description headers in new GUI (now luacheck friendly)  
-- Flipped spell title and description colors. 1. Fixes. bug where highligthed text in descriptions weren't highlighted (since entire description was) 2. Feels more consistent and cohesive with options that are expanded and overall gui feel.  
-- timer tweaks, closes #26  
-- Improve Shazrah with chat bubbles that have icon, personal warning will now tell you your icon too.  
-- Fixed a bug where interrupt filter didn't work correctly for brewmaster and windwalker monks  
-- Wait 0.1 second before starting air burst scan to make sure the scan doesn't grab wrong target if boss just happens to be looking at a non tank when cast starts initially. we don't want the scan to think that's burst target. This happens with bosses sometimes that look at targets for other abilities too. This is likely a regression from switching to newer faster scanner, sincce old scanner wouldn't have actually run into this problem (since it was slower)  
-- Revert "Remove Wow Interface packaging."  
-- Remove Wow Interface packaging.  
-- Update koKR (#77)  
-- Prep classic for new alpha cycle  
-- Prep classic for release  
-- Prep new alpha tags  
+- prep new tags  
+- bump toc files  
+- changing it back to spellId because that's only way i won't fuck it up  
+- minor sync  
+- Update commonlocal.fr.lua (#78)  
+- Add support for range 6 in TBC, Closes https://github.com/DeadlyBossMods/DBM-TBC-Classic/issues/104 Also fixed a regression that dates back to unified core where TBC and classic would show ranges in drop down that are unavailable.  
+- and one more regression i missed  
+- Fixed regressionn that caused some stage warnings to get grouped funny.  
+- Adds left fix will work better if the adds left object isn't also called \"adds\"  
+- Gui Updates: - Fixed AddsLeft warnings getting filtered (not grouped) with improved object identification - Added ability to group Generic Announce and Special Announce objects with optional spellID argument  
+- Update soul scream timer to match the data from logs (#105)  
+    Co-authored-by: Adam <MysticalOS@users.noreply.github.com>  
+- Updated new GUI parsing to properly handle achievement timer objects, which exist in a lot of wrath and mop content.  
+- Fixed a bug that caused crushed icon description to be missing. While at it, upgradedd object to show used icons, respect global disable, and lastly use better icons so it doesn't mess with icons usually used to. mark mobs.  
+- bump alpha versions  

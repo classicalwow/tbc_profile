@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["_10000"] = 200,
-	["_5000000"] = 10000,
-	["_1000000"] = 2500,
-	["_200000"] = 1000,
-	["LOG_DE_DATA_X"] = true,
-	["STARTING_DISCOUNT"] = 5,
 	["_500"] = 5,
+	["STARTING_DISCOUNT"] = 5,
+	["_1000000"] = 2500,
+	["_10000"] = 200,
+	["LOG_DE_DATA_X"] = true,
+	["_200000"] = 1000,
+	["_5000000"] = 10000,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 }
@@ -30,32 +30,32 @@ AUCTIONATOR_LAST_SCAN_TIME = nil
 AUCTIONATOR_TOONS = {
 	["邁克爾假死"] = {
 		["firstSeen"] = 1622958482,
-		["guid"] = "Player-4487-0008386D",
 		["firstVersion"] = "100.0.11",
+		["guid"] = "Player-4487-0008386D",
 	},
 	["畜生犬隊長"] = {
 		["firstSeen"] = 1623055961,
-		["guid"] = "Player-4487-000B0452",
 		["firstVersion"] = "100.0.11",
+		["guid"] = "Player-4487-000B0452",
 	},
 	["特變電工"] = {
 		["firstSeen"] = 1626022682,
-		["guid"] = "Player-4487-0012ECFA",
 		["firstVersion"] = "100.0.11",
+		["guid"] = "Player-4487-0012ECFA",
 	},
 }
 AUCTIONATOR_STACKING_PREFS = {
 	["克銀錠"] = {
-		["numstacks"] = 0,
 		["stacksize"] = 10,
+		["numstacks"] = 0,
 	},
 	["魔鋼錠"] = {
-		["numstacks"] = 0,
 		["stacksize"] = 1,
+		["numstacks"] = 0,
 	},
 	["魔化武器"] = {
-		["stacksize"] = 1,
 		["numstacks"] = 0,
+		["stacksize"] = 1,
 	},
 }
 AUCTIONATOR_SCAN_MINLEVEL = 1

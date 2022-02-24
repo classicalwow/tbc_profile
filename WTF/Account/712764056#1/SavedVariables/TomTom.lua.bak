@@ -42,37 +42,6 @@ TomTomWaypointsM = {
 	},
 	["profiles"] = {
 		["特變電工 - 伊弗斯"] = {
-			[1446] = {
-				["1446:650611246.94377:503911980.4401:集合石"] = {
-					1446, -- [1]
-					0.6506112469437653, -- [2]
-					0.5039119804400979, -- [3]
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["persistent"] = true,
-					["minimap"] = true,
-					["cleardistance"] = 10,
-					["title"] = "集合石",
-					["from"] = "?",
-					["crazy"] = true,
-					["world"] = true,
-				},
-			},
 			[1949] = {
 				["1949:555000000:449000000:枯瘦的莫戈多格"] = {
 					1949, -- [1]
@@ -103,6 +72,37 @@ TomTomWaypointsM = {
 						},
 					},
 					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+			[1953] = {
+				["1953:651833740.8313:667970660.1467:哈帕克斯"] = {
+					1953, -- [1]
+					0.651833740831296, -- [2]
+					0.6679706601466993, -- [3]
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "哈帕克斯",
+					["from"] = "?",
+					["crazy"] = true,
 					["world"] = true,
 				},
 			},

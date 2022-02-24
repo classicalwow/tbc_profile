@@ -38,7 +38,7 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "風暴要塞",
+			["LastInstanceName"] = "羅德隆廢墟",
 			["CurDataSet"] = "LastFightData",
 			["MainWindowWidth"] = 324.3896789550781,
 			["MainWindowHeight"] = 205.4917907714844,
