@@ -2,7 +2,7 @@
 WeakAurasOptionsSaved = {
 	["locale"] = "zhTW",
 	["needsRebuild"] = false,
-	["version"] = "3.7.9",
+	["version"] = "3.7.11",
 	["magnetAlign"] = false,
 	["spellCache"] = {
 		["召喚瑪格拉姆劫毀者"] = {
