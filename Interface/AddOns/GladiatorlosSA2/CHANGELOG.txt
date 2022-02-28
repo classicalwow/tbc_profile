@@ -1,17 +1,12 @@
 https://www.curseforge.com/wow/addons/gladiatorlossa2
 https://github.com/Rhykes/GladiatorlosSA2
 ===========================================
-GSA uses the following version number scheme: X.Y.Z (ex: 3.7.2)
-X - Increments following significant code rewrites or major spell library updates. This usually happens with a new expansion.
-Y - Increments with any significant code rewrite that includes major bug fixes or features, or any update that adds new sound files.
-Z - Increments with any update that does not follow the above, such as minor bug fixes, new spells using sounds already in the library, etc.
-If you maintain forks or translations of GSA2, any X or Y increment may require your attention.
+- version TBC-1.2 (2.5.3)
 
-Note: I do NOT support ANY version of GSA2 outside of the latest Retail Live and BETA/PTR versions of the addon.
-I do not currently support Classic.
-I am currently working on support for Burning Crusade Classic.
-I will never support older versions for Private Servers.
-Please stop asking. I will not help you.
+General
+* PvP trinkets should now trigger an alert. (Thanks, KyzKangUI!)
+* Drinking alerts should now only trigger by enemies. (Also thanks, KyzKangUI!)
+
 ===========================================
 - version TBC-1.1 (2.5.2)
 

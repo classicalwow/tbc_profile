@@ -1,17 +1,21 @@
-VER 3 0000000000000096 " 5人本提醒" "134400"
-/p 請大家看好自己頭上的標記控怪，打怪時注意仇恨UI
-END
 VER 3 000000000000008E " 5人本提醒" "134400"
 /target 泰
 END
-VER 3 000000000000002B "12" "132112"
-/4 {十字}{十字}{十字} H 18波  {十字}{十字}{十字} 徵 補 DD 原始虛空和沙漏拍金
+VER 3 0000000000000096 " 5人本提醒" "134400"
+/p 請大家看好自己頭上的標記控怪，打怪時注意仇恨UI
+END
+VER 3 000000000000009A " 污染的元素" "132099"
+/target 污染的元素
+/script SetRaidTarget("target",8)
 END
 VER 3 000000000000006F "12" "132112"
 /4 {十字}{十字}{十字} H 奴隸監獄 {十字}{十字}{十字} 徵 坦 補 術~
 END
 VER 3 0000000000000070 "12" "132112"
 /4 {十字}{十字}{十字} PT 破碎ae {十字}{十字}{十字} 徵 補 DD(法術)~
+END
+VER 3 000000000000002B "12" "132112"
+/4 {十字}{十字}{十字} H 18波  {十字}{十字}{十字} 徵 補 DD 原始虛空和沙漏拍金
 END
 VER 3 000000000000008D "22" "132090"
 /1 2v2 戰德衝分隊 招一個補D 280韌+
@@ -25,17 +29,6 @@ VER 3 000000000000008B "55" "132089"
 /1  5v5 2346認真隊找補牧 補騎 電薩/獵人 韌性要求280+ 意者詳聊
 /2 5v5 2346認真隊找補牧 補騎 電薩/獵人 韌性要求280+ 意者詳聊
 END
-VER 3 0000000000000073 "dd" "132112"
-/console cameraDistanceMaxZoomFactor 4
-/console ffxDeath 0
-/script  C_CVar.SetCVar("nameplateMaxDistance",41)
-END
-VER 3 0000000000000072 "dd" "132112"
-/console cameraDistanceMaxZoomFactor 4
-/console ffxDeath 0
-/script C_CVar.SetCVar("nameplateMaxDistance",41)
-/script SetCVar("cameraDistanceMax", 25)
-END
 VER 3 0000000000000075 "dd" "132112"
 /console cameraDistanceMaxZoomFactor 4
 /console ffxDeath 0
@@ -44,6 +37,17 @@ END
 VER 3 0000000000000074 "dd" "132112"
 /console cameraDistanceMaxZoomFactor 4
 /console ffxDeath 0
+END
+VER 3 0000000000000072 "dd" "132112"
+/console cameraDistanceMaxZoomFactor 4
+/console ffxDeath 0
+/script C_CVar.SetCVar("nameplateMaxDistance",41)
+/script SetCVar("cameraDistanceMax", 25)
+END
+VER 3 0000000000000073 "dd" "132112"
+/console cameraDistanceMaxZoomFactor 4
+/console ffxDeath 0
+/script  C_CVar.SetCVar("nameplateMaxDistance",41)
 END
 VER 3 000000000000002D "Decursive" "134400"
 /script DecursiveRootTable.Dcr:Println('沒有可用法術')
@@ -69,9 +73,6 @@ END
 VER 3 000000000000006E "target" "132092"
 /target 幽暗的工人
 /script SetRaidTarget("target",8)
-END
-VER 3 000000000000003C "VuhDoDCShieldNames" "132281"
-N[x]斷風五初夏的Nat給本仙屁縫子韓森蓋魅惑夜民主的[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Dde[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 000000000000006B "VuhDoDCShieldNames" "132281"
 N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Dde[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
@@ -106,12 +107,8 @@ END
 VER 3 0000000000000041 "VuhDoDCShieldNames" "132281"
 N[x]快刀千葉熊信晴毛皮皮術我難卡莉米歪溪騷年嘎了嗲[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Dde[x][x][x][x][x]卡爾利[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
-VER 3 0000000000000046 "假死" "INV_Misc_QuestionMark"
-#showtooltip
-/petpassive
-/stopcasting
-/cleartarget
-/castsequence reset=10 假死,冰凍陷阱
+VER 3 000000000000003C "VuhDoDCShieldNames" "132281"
+N[x]斷風五初夏的Nat給本仙屁縫子韓森蓋魅惑夜民主的[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Dde[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0000000000000045 "假死" "INV_Misc_QuestionMark"
 #showtooltip
@@ -133,6 +130,13 @@ VER 3 0000000000000043 "假死" "INV_Misc_QuestionMark"
 #showtooltip
 /PetPassiveMode
 /petpassive
+/castsequence reset=10 假死,冰凍陷阱
+END
+VER 3 0000000000000046 "假死" "INV_Misc_QuestionMark"
+#showtooltip
+/petpassive
+/stopcasting
+/cleartarget
 /castsequence reset=10 假死,冰凍陷阱
 END
 VER 3 0000000000000047 "假死爆" "INV_Misc_QuestionMark"
@@ -191,9 +195,6 @@ END
 VER 3 0000000000000082 "喊人" "132089"
 /4 戰術德 or 戰二補 33找會玩戰業的術士or補聖補牧
 END
-VER 3 0000000000000077 "喊人" "132089"
-/4 {十字}{十字}{十字} H 18波  {十字}{十字}{十字} 徵 1補 原始虛空和沙漏拍G 4=1
-END
 VER 3 0000000000000083 "喊人" "132089"
 /4 {十字}{十字}{十字} H 18波  {十字}{十字}{十字} 徵 -1 任意DD
 END
@@ -230,6 +231,9 @@ END
 VER 3 0000000000000087 "喊人" "132089"
 /4 {十字}{十字}{十字} H 每日波塔  {十字}{十字}{十字} 徵 -1 DD(法術)
 END
+VER 3 0000000000000077 "喊人" "132089"
+/4 {十字}{十字}{十字} H 18波  {十字}{十字}{十字} 徵 1補 原始虛空和沙漏拍G 4=1
+END
 VER 3 000000000000004E "圖騰" "132136"
 /petattack
 /petattack [target=根基圖騰][target=圖騰]
@@ -263,12 +267,12 @@ VER 3 0000000000000061 "手雷" "135935"
 /petfollow
 /施放 瑟銀手榴彈
 END
-VER 3 0000000000000088 "援護" "132365"
+VER 3 000000000000008A "援護" "132365"
+/target 毛茸茸的玩意
 /cast [stance:1/3] 防禦姿態
 /cast 阻擾
 END
-VER 3 000000000000008A "援護" "132365"
-/target 毛茸茸的玩意
+VER 3 0000000000000088 "援護" "132365"
 /cast [stance:1/3] 防禦姿態
 /cast 阻擾
 END
@@ -301,17 +305,6 @@ VER 3 000000000000008C "王子" "132148"
 /targetenemyplayer
 /castsequence reset=alt/5 破甲攻擊(等級 6),破甲攻擊(等級 6),破甲攻擊(等級 6)
 END
-VER 3 000000000000007F "盾反宏" "132361"
-/cast [stance:1/3] 防禦姿態
-/equip 奧多爾遺產防衛者
-/equip 君王防衛者
-/cast 法術反射
-END
-VER 3 0000000000000079 "盾反宏" "132361"
-/equip 葛洛姆特的斧頭
-/equip 虛空之翼保衛者之盾
-/cast 法術反射
-END
 VER 3 0000000000000078 "盾反宏" "132361"
 /cast [stance:1/3] 防禦姿態
 /equip 葛洛姆特的斧頭
@@ -327,6 +320,22 @@ VER 3 000000000000007B "盾反宏" "132361"
 /cast [stance:1/3] 防禦姿態
 /equip 奧多爾遺產防衛者
 /equip 葛洛姆特的斧頭
+/cast 法術反射
+END
+VER 3 0000000000000079 "盾反宏" "132361"
+/equip 葛洛姆特的斧頭
+/equip 虛空之翼保衛者之盾
+/cast 法術反射
+END
+VER 3 000000000000007F "盾反宏" "132361"
+/cast [stance:1/3] 防禦姿態
+/equip 奧多爾遺產防衛者
+/equip 君王防衛者
+/cast 法術反射
+END
+VER 3 000000000000009B "盾反宏" "132361"
+/equip 葛洛姆特的斧頭
+/equip 奧多爾遺產防衛者
 /cast 法術反射
 END
 VER 3 0000000000000055 "硬砍" "INV_Misc_QuestionMark"
@@ -412,14 +421,14 @@ VER 3 0000000000000062 "開抓" "132187"
 /targetenemy
 / SetCVar("targetNearestDistance", 41)
 END
-VER 3 0000000000000063 "雄鹰" "136076"
-/cast [mod:shift]獵豹守護
-/cast [mod:alt]野性守護
-/cast 雄鷹守護
-END
 VER 3 0000000000000064 "雄鹰" "136076"
 /cast [mod:shift]獵豹守護
 /cast [mod:alt]自然守護
+/cast 雄鷹守護
+END
+VER 3 0000000000000063 "雄鹰" "136076"
+/cast [mod:shift]獵豹守護
+/cast [mod:alt]野性守護
 /cast 雄鷹守護
 END
 VER 3 0000000000000081 "雙手武器" "132090"
@@ -429,19 +438,19 @@ END
 VER 3 0000000000000099 "風怒圖騰" "136039"
 /target 風怒圖騰
 END
-VER 3 0000000000000066 "驅散" "INV_Misc_QuestionMark"
-#showtooltip
-/petpassive
-/petfollow
-/stopcasting
-/施放 驅散射擊
-END
 VER 3 0000000000000065 "驅散" "INV_Misc_QuestionMark"
 #showtooltip 驅散射擊
 /petpassive
 /cast 猛禽一擊
 /cast 驅散射擊
 /stopattack
+END
+VER 3 0000000000000066 "驅散" "INV_Misc_QuestionMark"
+#showtooltip
+/petpassive
+/petfollow
+/stopcasting
+/施放 驅散射擊
 END
 VER 3 0000000000000067 "魔化" "INV_Misc_QuestionMark"
 #showtooltip

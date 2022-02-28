@@ -7,19 +7,18 @@ _weizpvp_chardb = {
 		["Default"] = {
 			["Options"] = {
 				["Database"] = {
-					["LastCleaned"] = 1645858393,
+					["LastCleaned"] = 1645962783,
 					["VERSION"] = 3,
 				},
 				["Addon"] = {
-					["Enabled"] = false,
 					["EnabledInArena"] = true,
 					["DisabledInSanctuary"] = true,
 				},
 				["Frames"] = {
 					["Point"] = "TOPLEFT",
 					["Width"] = 220.5575714111328,
-					["Y"] = 500.8812866210938,
-					["X"] = 1315.717651367188,
+					["Y"] = 356.9100952148438,
+					["X"] = 1782.602661132813,
 					["List"] = {
 						["Height"] = 360.0001220703125,
 					},

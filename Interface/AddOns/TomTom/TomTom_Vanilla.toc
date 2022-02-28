@@ -1,14 +1,13 @@
-## Interface: 20503
+## Interface: 11402
 ## Title: TomTom
-## Author: jnwhiteh, lortiz
-## Version: v3.0.4
+## Author: Cladhaire, Ludovicus
+## Version: v3.0.6
 ## License: All Rights Reserved
 ## Notes: Acts as your portable navigation assistant
 ## Notes-frFR: Agit comme un assistant de navigation portable
 ## Notes-zhCN:一个简单的导航助手。
 ## Notes-ruRU: Удобный портативный навигатор по игровой карте
 ## Notes-deDE: Dient dir als portabler Navigationsassistent.
-## Author: Cladhaire, Ludovicus
 ## SavedVariables: TomTomDB, TomTomWaypoints, TomTomWaypointsM
 ## OptionalDeps: HereBeDragons-2.0
 
@@ -16,6 +15,7 @@
 ## X-CompatibleLocales: enUS, enGB, deDE, frFR, esES, esMX, zhCN, zhTW, koKR, ruRU
 ## X-Curse-Project-ID: 18808
 ## X-WoWI-ID: 7032
+## X-Wago-ID: Rn6VaONd
 
 libs\LibStub\LibStub.lua
 libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
@@ -43,5 +43,7 @@ TomTom.lua
 TomTom_Waypoints.lua
 TomTom_CrazyArrow.lua
 TomTom_Corpse.lua
-
 TomTom_Config.lua
+
+TomTom_POIIntegration.lua
+

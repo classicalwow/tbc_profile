@@ -57,54 +57,36 @@ TomTomWaypointsM = {
 					["from"] = "?",
 					["callbacks"] = {
 						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
 					["world"] = true,
 				},
 			},
-			[1949] = {
-				["1949:555000000:449000000:枯瘦的莫戈多格"] = {
-					1949, -- [1]
-					0.555, -- [2]
-					0.449, -- [3]
+			[1946] = {
+				["1946:523000000:360000000:观察者杰哈恩"] = {
+					1946, -- [1]
+					0.523, -- [2]
+					0.36, -- [3]
 					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "枯瘦的莫戈多格",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "枯瘦的莫戈多格",
-					["from"] = "?",
 					["callbacks"] = {
 						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
+					["persistent"] = true,
 					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "观察者杰哈恩",
+					["from"] = "?",
+					["crazy"] = true,
 					["world"] = true,
 				},
 			},

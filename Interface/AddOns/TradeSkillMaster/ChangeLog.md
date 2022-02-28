@@ -1,5 +1,6 @@
-## v4.11.17 Changes
+## v4.11.21 Changes
 
-* [Classic] Fixed TSM macro not updating properly
+* [Retail] Updated milling and prospecting ratios
+* [Retail] Fixed missing auction notifications
 
 [Known Issues](https://support.tradeskillmaster.com/en_US/known_issues)
