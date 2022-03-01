@@ -13,3 +13,17 @@ X: -245
 Y: -178
 W: 200
 H: 50
+Frame: ThreatClassic2BarFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 301
+Y: -166
+W: 252
+H: 131
+Frame: WIM3_msgFrame2
+FrameLevel: 2
+Anchor: CENTER
+X: -162
+Y: 194
+W: 333
+H: 220

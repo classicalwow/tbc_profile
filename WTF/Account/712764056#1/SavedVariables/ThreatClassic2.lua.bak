@@ -28,10 +28,15 @@ ThreatClassic2DB = {
 			},
 		},
 		["Default"] = {
-			["bar"] = {
-				["count"] = 7,
+			["general"] = {
+				["hideOOC"] = true,
+			},
+			["warnings"] = {
+				["sound"] = true,
+				["flash"] = true,
 			},
 			["frame"] = {
+				["width"] = 249.6908416748047,
 				["height"] = 131.1897583007813,
 				["position"] = {
 					nil, -- [1]
@@ -40,14 +45,9 @@ ThreatClassic2DB = {
 					1239.818969726563, -- [4]
 					-729.718994140625, -- [5]
 				},
-				["width"] = 249.6908416748047,
 			},
-			["general"] = {
-				["hideOOC"] = true,
-			},
-			["warnings"] = {
-				["sound"] = true,
-				["flash"] = true,
+			["bar"] = {
+				["count"] = 7,
 			},
 		},
 	},

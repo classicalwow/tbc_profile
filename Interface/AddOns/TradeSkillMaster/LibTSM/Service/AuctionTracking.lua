@@ -207,12 +207,14 @@ AuctionTracking:OnGameDataLoad(function()
 			ElvUIChatIsEnabled = true
 		end
 	end
-	if ElvUIChatIsEnabled then
-		private.origChatFrameOnEvent = ElvUIChat.ChatFrame_OnEvent
-		ElvUIChat.ChatFrame_OnEvent = private.ChatFrameOnEvent
-	else
-		private.origChatFrameOnEvent = ChatFrame_OnEvent
-		ChatFrame_OnEvent = private.ChatFrameOnEvent
+	if TSM.IsWowClassic() then
+		if ElvUIChatIsEnabled then
+			private.origChatFrameOnEvent = ElvUIChat.ChatFrame_OnEvent
+			ElvUIChat.ChatFrame_OnEvent = private.ChatFrameOnEvent
+		else
+			private.origChatFrameOnEvent = ChatFrame_OnEvent
+			ChatFrame_OnEvent = private.ChatFrameOnEvent
+		end
 	end
 end)
 
@@ -667,8 +669,6 @@ function private.FilterAuctionMsg(_, msg, item)
 		Log.PrintUserRaw(Theme.GetStandardColor("YELLOW"):ColorText(format(ERR_AUCTION_EXPIRED_S, item)))
 	elseif msg == Enum.AuctionHouseNotification.BidPlaced then
 		Log.PrintUserRaw(Theme.GetStandardColor("YELLOW"):ColorText(ERR_AUCTION_BID_PLACED))
-	elseif msg == Enum.AuctionHouseNotification.AuctionRemoved then
-		Log.PrintUserRaw(Theme.GetStandardColor("YELLOW"):ColorText(ERR_AUCTION_REMOVED))
 	end
 end
 

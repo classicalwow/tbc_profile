@@ -267,9 +267,9 @@ LootMonitorDB = {
 					},
 				}, -- [23]
 			},
-			["FirstClass"] = "UNKNOWN",
-			["Date"] = "2022-02-17",
 			["Class"] = "WARRIOR",
+			["Date"] = "2022-02-17",
+			["FirstClass"] = "UNKNOWN",
 			["InstanceName"] = "Hyjal Summit",
 			["FirstPlayer"] = "未知",
 		}, -- [1]
@@ -279,8 +279,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Black Temple",
 			["Date"] = "2022-02-19",
-			["FirstClass"] = "UNKNOWN",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-564-26809-22878-000010D697",
@@ -907,9 +907,9 @@ LootMonitorDB = {
 			["InstanceID"] = 548,
 			["FirstPlayer"] = "Hanbobo",
 			["InstanceName"] = "Serpentshrine Cavern",
-			["Class"] = "WARRIOR",
-			["Date"] = "2022-02-20",
 			["FirstClass"] = "MAGE",
+			["Date"] = "2022-02-20",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-548-1401-21301-0002122D41",
@@ -1056,9 +1056,9 @@ LootMonitorDB = {
 			["InstanceID"] = 550,
 			["FirstPlayer"] = "特變電工",
 			["InstanceName"] = "Tempest Keep",
-			["Class"] = "WARRIOR",
-			["Date"] = "2022-02-20",
 			["FirstClass"] = "WARRIOR",
+			["Date"] = "2022-02-20",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-550-12418-19514-00001248F8",
@@ -1201,9 +1201,9 @@ LootMonitorDB = {
 			["InstanceID"] = 534,
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Hyjal Summit",
-			["Class"] = "WARRIOR",
-			["Date"] = "2022-02-26",
 			["FirstClass"] = "UNKNOWN",
+			["Date"] = "2022-02-26",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-534-29810-17895-00011A18BC",
@@ -1387,9 +1387,9 @@ LootMonitorDB = {
 			["InstanceID"] = 564,
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Black Temple",
-			["FirstClass"] = "UNKNOWN",
-			["Date"] = "2022-02-26",
 			["Class"] = "WARRIOR",
+			["Date"] = "2022-02-26",
+			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-564-19084-23330-00029A2E23",
@@ -1875,8 +1875,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "特變電工",
 			["InstanceName"] = "Tempest Keep",
 			["Date"] = "2022-02-27",
-			["FirstClass"] = "WARRIOR",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-550-3480-20036-00009B8790",
@@ -1958,8 +1958,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "多汁小髮濕",
 			["InstanceName"] = "Serpentshrine Cavern",
 			["Date"] = "2022-02-27",
-			["FirstClass"] = "MAGE",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "MAGE",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-548-5524-21301-00041B9401",
@@ -1990,6 +1990,32 @@ LootMonitorDB = {
 				}, -- [2]
 			},
 		}, -- [8]
+		{
+			["InstanceID"] = 565,
+			["Player"] = "特變電工",
+			["FirstPlayer"] = "未知",
+			["InstanceName"] = "Gruul's Lair",
+			["Date"] = "2022-02-28",
+			["Class"] = "WARRIOR",
+			["FirstClass"] = "UNKNOWN",
+			["LootTable"] = {
+				{
+					["GUID"] = "Creature-0-4491-565-13296-19044-00001CDD1D",
+					["Time"] = "22:49:53",
+					["Looter"] = "特變電工",
+					["Date"] = "2022-02-28",
+					["Class"] = "WARRIOR",
+					["Name"] = "弒龍者戈魯爾",
+					["Loots"] = {
+						"|cffa335ee|Hitem:28830::::::::70:::::::::|h[龍脊戰利品]|h|r", -- [1]
+						"|cffa335ee|Hitem:28810::::::::70:::::::::|h[風剪長靴]|h|r", -- [2]
+						"|cffa335ee|Hitem:29766::::::::70:::::::::|h[逝往勇士護腿]|h|r", -- [3]
+						"|cffa335ee|Hitem:29766::::::::70:::::::::|h[逝往勇士護腿]|h|r", -- [4]
+						"|cffa335ee|Hitem:29766::::::::70:::::::::|h[逝往勇士護腿]|h|r", -- [5]
+					},
+				}, -- [1]
+			},
+		}, -- [9]
 	},
 	["Config"] = {
 		["ShowMinimapIcon"] = true,

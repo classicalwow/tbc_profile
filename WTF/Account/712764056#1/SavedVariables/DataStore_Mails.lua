@@ -7,19 +7,90 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1645979026,
+				["lastUpdate"] = 1646058381,
 				["Mails"] = {
 					{
+						["link"] = "|cff1eff00|Hitem:7082::::::::70:::::::::|h[空氣精華]|h|r",
 						["sender"] = "部落拍賣場",
-						["subject"] = "拍賣成功:幽網蜘蛛絲(2)",
+						["itemID"] = 7082,
 						["returned"] = false,
-						["money"] = 135998,
-						["lastCheck"] = 1645979026,
-						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
-						["daysLeft"] = 29.94524383544922,
+						["icon"] = 136022,
+						["count"] = 1,
+						["lastCheck"] = 1646058381,
+						["daysLeft"] = 29.9830436706543,
 					}, -- [1]
+					{
+						["link"] = "|cffffffff|Hitem:33208::::::::70:::::::::|h[炫彩驚奇精煉藥劑]|h|r",
+						["sender"] = "部落拍賣場",
+						["itemID"] = 33208,
+						["returned"] = false,
+						["icon"] = 134828,
+						["count"] = 1,
+						["lastCheck"] = 1646058381,
+						["daysLeft"] = 29.9831600189209,
+					}, -- [2]
+					{
+						["link"] = "|cffffffff|Hitem:33208::::::::70:::::::::|h[炫彩驚奇精煉藥劑]|h|r",
+						["sender"] = "部落拍賣場",
+						["itemID"] = 33208,
+						["returned"] = false,
+						["icon"] = 134828,
+						["count"] = 1,
+						["lastCheck"] = 1646058381,
+						["daysLeft"] = 29.9831600189209,
+					}, -- [3]
+					{
+						["link"] = "|cffffffff|Hitem:33208::::::::70:::::::::|h[炫彩驚奇精煉藥劑]|h|r",
+						["sender"] = "部落拍賣場",
+						["itemID"] = 33208,
+						["returned"] = false,
+						["icon"] = 134828,
+						["count"] = 1,
+						["lastCheck"] = 1646058381,
+						["daysLeft"] = 29.9831600189209,
+					}, -- [4]
+					{
+						["link"] = "|cffffffff|Hitem:33208::::::::70:::::::::|h[炫彩驚奇精煉藥劑]|h|r",
+						["sender"] = "部落拍賣場",
+						["itemID"] = 33208,
+						["returned"] = false,
+						["icon"] = 134828,
+						["count"] = 1,
+						["lastCheck"] = 1646058381,
+						["daysLeft"] = 29.9831600189209,
+					}, -- [5]
+					{
+						["link"] = "|cffffffff|Hitem:33208::::::::70:::::::::|h[炫彩驚奇精煉藥劑]|h|r",
+						["sender"] = "部落拍賣場",
+						["itemID"] = 33208,
+						["returned"] = false,
+						["icon"] = 134828,
+						["count"] = 1,
+						["lastCheck"] = 1646058381,
+						["daysLeft"] = 29.9831600189209,
+					}, -- [6]
+					{
+						["link"] = "|cffffffff|Hitem:27674::::::::70:::::::::|h[劫毀者肉]|h|r",
+						["sender"] = "部落拍賣場",
+						["itemID"] = 27674,
+						["returned"] = false,
+						["icon"] = 134028,
+						["count"] = 9,
+						["lastCheck"] = 1646058381,
+						["daysLeft"] = 29.9832763671875,
+					}, -- [7]
+					{
+						["link"] = "|cffffffff|Hitem:13455::::::::70:::::::::|h[強效石盾藥水]|h|r",
+						["sender"] = "部落拍賣場",
+						["itemID"] = 13455,
+						["returned"] = false,
+						["icon"] = 134849,
+						["count"] = 3,
+						["lastCheck"] = 1646058381,
+						["daysLeft"] = 29.98339080810547,
+					}, -- [8]
 				},
-				["lastVisitDate"] = "2022/02/28 00:23",
+				["lastVisitDate"] = "2022/02/28 22:26",
 			},
 			["Default.伊弗斯.邁克爾假死"] = {
 				["lastUpdate"] = 1632561473,

@@ -1,6 +1,6 @@
-## v4.11.21 Changes
+## v4.11.22 Changes
 
-* [Retail] Updated milling and prospecting ratios
-* [Retail] Fixed missing auction notifications
+* [Retail] Removed auction created and canceled notifications
+* [Retail] Bonus ID updates
 
 [Known Issues](https://support.tradeskillmaster.com/en_US/known_issues)

@@ -11,6 +11,7 @@ Community:30274313:1 0 6 1
 Community:30826573:1 0 7 1
 Community:30310233:1 0 8 1
 Community:30705513:1 0 9 1
+鏡花水月 1 10 0
 END
 
 ZONECHANNELS 0
@@ -169,6 +170,7 @@ Community:30310233:1
 Community:30705513:1
 大陸老鄉會
 Community:30826573:1
+鏡花水月
 END
 
 ZONECHANNELS 2097153

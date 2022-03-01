@@ -2,6 +2,110 @@
 RecountPerCharDB = {
 	["version"] = "1.3",
 	["combatants"] = {
+		["掃蕩者 <什麼都不給改>"] = {
+			["GUID"] = "Pet-0-4491-565-13296-3475-010006D187",
+			["LastEventHealth"] = {
+				6770, -- [1]
+				6770, -- [2]
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"HEAL", -- [2]
+			},
+			["enClass"] = "PET",
+			["unit"] = "掃蕩者",
+			["level"] = 1,
+			["LastFightIn"] = 0,
+			["type"] = "Pet",
+			["ownerName"] = "什麼都不給改",
+			["NextEventNum"] = 3,
+			["LastEventHealthMax"] = {
+				6770, -- [1]
+				6770, -- [2]
+			},
+			["LastEvents"] = {
+				"掃蕩者 <什麼都不給改> 靈魂聯結 掃蕩者 <什麼都不給改> Tick +135 (135 過量治療)", -- [1]
+				"掃蕩者 <什麼都不給改> 靈魂聯結 什麼都不給改 Tick +183 (183 過量治療)", -- [2]
+			},
+			["Name"] = "掃蕩者",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				false, -- [2]
+			},
+			["LastEventTimes"] = {
+				1806.866, -- [1]
+				1806.866, -- [2]
+			},
+			["Fights"] = {
+			},
+			["UnitLockout"] = 1805.932,
+			["LastActive"] = 1805.932,
+		},
+		["什麼都不給改"] = {
+			["GUID"] = "Player-4487-0013C3F5",
+			["TimeLast"] = {
+				["OVERALL"] = 1805.932,
+				["Healing"] = 1805.932,
+				["Damage"] = 1805.932,
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+			},
+			["TimeWindows"] = {
+				["Healing"] = {
+					0, -- [1]
+				},
+				["Damage"] = {
+					0, -- [1]
+				},
+			},
+			["enClass"] = "HUNTER",
+			["unit"] = "什麼都不給改",
+			["level"] = 70,
+			["LastFightIn"] = 0,
+			["type"] = "Grouped",
+			["GuardianReverseGUIDs"] = {
+				["掃蕩者"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "Pet-0-4491-565-13296-3475-010006D187",
+					},
+				},
+			},
+			["LastEventHealthMax"] = {
+				9143, -- [1]
+			},
+			["Owner"] = false,
+			["Pet"] = {
+				"掃蕩者 <什麼都不給改>", -- [1]
+			},
+			["NextEventNum"] = 2,
+			["LastEventHealth"] = {
+				9143, -- [1]
+			},
+			["LastEvents"] = {
+				"掃蕩者 <什麼都不給改> 靈魂聯結 什麼都不給改 Tick +183 (183 過量治療)", -- [1]
+			},
+			["Name"] = "什麼都不給改",
+			["LastEventIncoming"] = {
+				true, -- [1]
+			},
+			["LastEventTimes"] = {
+				1806.866, -- [1]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["Healing"] = 0,
+					["Damage"] = 0,
+				},
+				["OverallData"] = {
+					["Healing"] = 0,
+					["Damage"] = 0,
+				},
+			},
+			["UnitLockout"] = 1805.932,
+			["LastActive"] = 1805.932,
+		},
 	},
 	["FightNum"] = 0,
 	["CombatTimes"] = {

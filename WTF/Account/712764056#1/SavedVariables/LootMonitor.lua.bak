@@ -269,17 +269,17 @@ LootMonitorDB = {
 				}, -- [23]
 			},
 			["Date"] = "2022-02-17",
-			["FirstClass"] = "UNKNOWN",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "UNKNOWN",
 			["InstanceName"] = "Hyjal Summit",
 		}, -- [1]
 		{
 			["InstanceID"] = 564,
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Black Temple",
-			["Class"] = "WARRIOR",
-			["Date"] = "2022-02-19",
 			["FirstClass"] = "UNKNOWN",
+			["Date"] = "2022-02-19",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-564-26809-22878-000010D697",
@@ -909,8 +909,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "Hanbobo",
 			["InstanceName"] = "Serpentshrine Cavern",
 			["Date"] = "2022-02-20",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "MAGE",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-548-1401-21301-0002122D41",
@@ -1058,8 +1058,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "特變電工",
 			["InstanceName"] = "Tempest Keep",
 			["Date"] = "2022-02-20",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "WARRIOR",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-550-12418-19514-00001248F8",
@@ -1203,8 +1203,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Hyjal Summit",
 			["Date"] = "2022-02-26",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "UNKNOWN",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-534-29810-17895-00011A18BC",
@@ -1389,8 +1389,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Black Temple",
 			["Date"] = "2022-02-26",
-			["FirstClass"] = "UNKNOWN",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-564-19084-23330-00029A2E23",
@@ -1873,9 +1873,9 @@ LootMonitorDB = {
 			["InstanceID"] = 550,
 			["FirstPlayer"] = "特變電工",
 			["InstanceName"] = "Tempest Keep",
-			["Class"] = "WARRIOR",
-			["Date"] = "2022-02-27",
 			["FirstClass"] = "WARRIOR",
+			["Date"] = "2022-02-27",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-550-3480-20036-00009B8790",
@@ -1956,9 +1956,9 @@ LootMonitorDB = {
 			["InstanceID"] = 548,
 			["FirstPlayer"] = "多汁小髮濕",
 			["InstanceName"] = "Serpentshrine Cavern",
-			["Class"] = "WARRIOR",
-			["Date"] = "2022-02-27",
 			["FirstClass"] = "MAGE",
+			["Date"] = "2022-02-27",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-548-5524-21301-00041B9401",
