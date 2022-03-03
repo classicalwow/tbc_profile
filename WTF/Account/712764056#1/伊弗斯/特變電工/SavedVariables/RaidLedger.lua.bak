@@ -1063,6 +1063,126 @@ RaidLedgerDatabase = {
 						["count"] = 1,
 					},
 				}, -- [87]
+				{
+					["beneficiary"] = "術士棒棒",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29763::::::::70:::::::::|h[逝往勇士肩鎧]|h|r",
+						["count"] = 1,
+					},
+				}, -- [88]
+				{
+					["beneficiary"] = "術士棒棒",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:28800::::::::70:::::::::|h[那魯之錘]|h|r",
+						["count"] = 1,
+					},
+				}, -- [89]
+				{
+					["beneficiary"] = "術士棒棒",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29762::::::::70:::::::::|h[逝往英雄肩鎧]|h|r",
+						["count"] = 1,
+					},
+				}, -- [90]
+				{
+					["beneficiary"] = "術士棒棒",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29763::::::::70:::::::::|h[逝往勇士肩鎧]|h|r",
+						["count"] = 1,
+					},
+				}, -- [91]
+				{
+					["beneficiary"] = "術士棒棒",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:22450::::::::70:::::::::|h[虛無水晶]|h|r",
+						["count"] = 1,
+					},
+				}, -- [92]
+				{
+					["beneficiary"] = "術士棒棒",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29766::::::::70:::::::::|h[逝往勇士護腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [93]
+				{
+					["beneficiary"] = "術士棒棒",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29766::::::::70:::::::::|h[逝往勇士護腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [94]
+				{
+					["beneficiary"] = "術士棒棒",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:28810::::::::70:::::::::|h[風剪長靴]|h|r",
+						["count"] = 1,
+					},
+				}, -- [95]
+				{
+					["beneficiary"] = "術士棒棒",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:28830::::::::70:::::::::|h[龍脊戰利品]|h|r",
+						["count"] = 1,
+					},
+				}, -- [96]
+				{
+					["beneficiary"] = "術士棒棒",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29766::::::::70:::::::::|h[逝往勇士護腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [97]
 			},
 		}, -- [1]
 	},

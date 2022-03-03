@@ -21,7 +21,7 @@ GroupBulletinBoardDBChar = {
 	["NormalOnly"] = false,
 	["FilterDungeonARENA"] = false,
 	["FilterDungeonWC"] = false,
-	["FilterDungeonHYJAL"] = false,
+	["FilterDungeonHYJAL"] = true,
 	["FilterDungeonRFC"] = false,
 	["FilterDungeonZA"] = false,
 	["FilterDungeonSTK"] = false,
@@ -50,7 +50,6 @@ GroupBulletinBoardDBChar = {
 	["FilterDungeonSWP"] = false,
 	["FilterDungeonSETH"] = false,
 	["FilterDungeonOHB"] = false,
-	["HeroicOnly"] = true,
 	["channel"] = {
 		true, -- [1]
 		false, -- [2]
@@ -73,6 +72,7 @@ GroupBulletinBoardDBChar = {
 		true, -- [19]
 		true, -- [20]
 	},
+	["HeroicOnly"] = true,
 	["FilterDungeonEOTS"] = false,
 	["FilterDungeonBM"] = false,
 	["FilterDungeonARC"] = false,

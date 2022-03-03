@@ -2,13 +2,14 @@
 AltoholicDB = {
 	["profileKeys"] = {
 		["特變電工 - 伊弗斯"] = "特變電工 - 伊弗斯",
+		["邁克爾假死 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
 	},
 	["global"] = {
 		["options"] = {
 			["UI.Tabs.Summary.CurrentRealms"] = 3,
 			["UI.Tabs.Summary.CurrentMode"] = 4,
 			["UI.Tabs.Characters.ViewBagsRarity"] = 4,
-			["UI.Mail.LastExpiryWarning"] = 1646057965,
+			["UI.Mail.LastExpiryWarning"] = 1646232903,
 		},
 	},
 }

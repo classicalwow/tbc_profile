@@ -21,13 +21,12 @@ DataStoreDB = {
 		},
 		["Version"] = 1,
 		["Characters"] = {
-			["Default.伊弗斯.特變電工"] = {
-				["faction"] = "Horde",
-				["guildName"] = "光之烙印",
-			},
 			["Default.伊弗斯.邁克爾假死"] = {
 				["faction"] = "Horde",
-				["guildName"] = "極限鐵盒",
+			},
+			["Default.伊弗斯.特變電工"] = {
+				["guildName"] = "光之烙印",
+				["faction"] = "Horde",
 			},
 		},
 		["ShortToLongRealmNames"] = {
