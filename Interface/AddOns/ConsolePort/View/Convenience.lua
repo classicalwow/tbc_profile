@@ -94,6 +94,8 @@ function Handler:BAG_UPDATE_DELAYED()
 	-- repeat attempt to auto-sell junk to handle server throttling
 	if self.merchantAvailable then
 		self:MERCHANT_SHOW()
+	elseif self.SortInventory and db('autoSortBags') then
+		self:SortInventory()
 	end
 end
 

@@ -51,6 +51,20 @@ function GamepadAPI:GetDevices()
 	return devices;
 end
 
+function GamepadAPI:GetRawDevices()
+	local rawDevices = {};
+	for _, i in ipairs(C_GamePad.GetAllDeviceIDs()) do
+		local device = C_GamePad.GetDeviceRawState(i)
+		if device then
+			tinsert(rawDevices, {
+				id    = i;
+				state = device;
+			})
+		end
+	end
+	return rawDevices;
+end
+
 function GamepadAPI:EnumerateDevices()
 	return db('table/spairs')(GamepadAPI.Devices)
 end
@@ -94,6 +108,7 @@ end
 
 function GamepadAPI:GAME_PAD_CONNECTED()
 	CPAPI.Log('Gamepad connected.')
+	db:TriggerEvent('OnGamePadConnected')
 end
 
 function GamepadAPI:GAME_PAD_DISCONNECTED()

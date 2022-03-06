@@ -75,8 +75,8 @@ function Cursor:SetEnabled(enable)
 end
 
 function Cursor:Enable()
-	local inCombat, disabled = self:IsObstructed()
-	if disabled then
+	local inCombat, waitingForCombat, disabled = self:IsObstructed()
+	if disabled or waitingForCombat then
 		return
 	elseif inCombat then
 		return self:ShowAfterCombat(true)
@@ -118,7 +118,7 @@ function Cursor:Release()
 end
 
 function Cursor:IsObstructed()
-	return self:InCombat(), not db('UIenableCursor')
+	return self:InCombat(), self.showAfterCombat, not db('UIenableCursor')
 end
 
 function Cursor:IsAnimating()

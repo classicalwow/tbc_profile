@@ -180,16 +180,7 @@ SLASH_FUNCTIONS = {
 		end
 	end;
 	status = function(deviceID)
-		local activeDevices = {};
-		for _, i in ipairs(C_GamePad.GetAllDeviceIDs()) do
-			local device = C_GamePad.GetDeviceRawState(i)
-			if device then
-				tinsert(activeDevices, {
-					id    = i;
-					state = device;
-				})
-			end
-		end
+		local activeDevices = db('Gamepad'):GetRawDevices();
 		if next(activeDevices) then
 			CPAPI.Log('Connected devices:')
 			for _, device in ipairs(activeDevices) do

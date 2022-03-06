@@ -14,9 +14,7 @@ RecountDB = {
 					["h"] = 205.0000152587891,
 				},
 			},
-			["DetailWindowX"] = 839.1256713867188,
-			["LastInstanceName"] = "納葛蘭競技場",
-			["MainWindowHeight"] = 205.4917907714844,
+			["ReportLines"] = 14,
 			["SegmentBosses"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -29,9 +27,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -456.5082092285156,
-			["MainWindowWidth"] = 324.3896789550781,
-			["CurDataSet"] = "LastFightData",
-			["ReportLines"] = 14,
+			["DetailWindowX"] = 839.1256713867188,
 			["Filters"] = {
 				["Show"] = {
 					["Hostile"] = true,
@@ -43,6 +39,10 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
+			["LastInstanceName"] = "黑暗神廟",
+			["CurDataSet"] = "LastFightData",
+			["MainWindowWidth"] = 324.3896789550781,
+			["MainWindowHeight"] = 205.4917907714844,
 		},
 		["邁克爾假死 - 伊弗斯"] = {
 			["MainWindow"] = {
@@ -63,8 +63,8 @@ RecountDB = {
 					},
 				},
 			},
-			["MainWindowWidth"] = 235.5919799804688,
 			["MainWindowHeight"] = 264.6994323730469,
+			["MainWindowWidth"] = 235.5919799804688,
 			["CurDataSet"] = "OverallData",
 		},
 	},
