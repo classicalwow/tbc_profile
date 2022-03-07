@@ -4,6 +4,11 @@ MapsterDB = {
 		["FogClear"] = {
 		},
 		["Coords"] = {
+			["profiles"] = {
+				["Default"] = {
+					["fontSize"] = 16,
+				},
+			},
 		},
 	},
 	["profileKeys"] = {
@@ -13,7 +18,9 @@ MapsterDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["scale"] = 1.171181678771973,
+			["ejScale"] = 0.52,
+			["scale"] = 0.94,
+			["poiScale"] = 0.66,
 			["y"] = 43.92510756545016,
 			["x"] = 23.96064037259748,
 			["point"] = "BOTTOMLEFT",

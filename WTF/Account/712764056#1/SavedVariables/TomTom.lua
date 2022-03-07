@@ -57,18 +57,10 @@ TomTomWaypointsM = {
 					["from"] = "?",
 					["callbacks"] = {
 						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -90,6 +82,26 @@ TomTomWaypointsM = {
 					["from"] = "?",
 					["callbacks"] = {
 						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+		},
+		["邁克爾假死 - 伊弗斯"] = {
+			[1446] = {
+				["1446:650611246.94377:503911980.4401:集合石"] = {
+					1446, -- [1]
+					0.6506112469437653, -- [2]
+					0.5039119804400979, -- [3]
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
 							[15] = nil --[[ skipped inline function ]],
 						},
@@ -104,12 +116,15 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
+					["persistent"] = true,
 					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "集合石",
+					["from"] = "?",
+					["crazy"] = true,
 					["world"] = true,
 				},
 			},
-		},
-		["邁克爾假死 - 伊弗斯"] = {
 		},
 		["畜生犬隊長 - 伊弗斯"] = {
 		},

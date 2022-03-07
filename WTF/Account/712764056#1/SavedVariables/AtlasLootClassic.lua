@@ -13,9 +13,6 @@ AtlasLootClassicDB = {
 		["路易斯桑拿 - 伊弗斯"] = {
 		},
 		["特變電工 - 伊弗斯"] = {
-			["minimap"] = {
-				["minimapPos"] = 228.6882344345748,
-			},
 			["GUI"] = {
 				["point"] = {
 					nil, -- [1]
@@ -32,6 +29,9 @@ AtlasLootClassicDB = {
 					0, -- [5]
 				},
 			},
+			["minimap"] = {
+				["minimapPos"] = 228.6882344345748,
+			},
 		},
 		["邁克爾假死 - 伊弗斯"] = {
 			["minimap"] = {
@@ -47,8 +47,8 @@ AtlasLootClassicDB = {
 				},
 				["selected"] = {
 					nil, -- [1]
-					"SerpentshrineCavern", -- [2]
-					5, -- [3]
+					"TempestKeep", -- [2]
+					4, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},

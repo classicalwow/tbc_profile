@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0531,
-	["LastPlayerFullName"] = "特變電工-伊弗斯",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 32373,
@@ -67,10 +65,10 @@ PawnOptions = {
 			["Level"] = 141,
 			["Link"] = "|cffa335ee|Hitem:32278:684:::::::70:::::::::|h[寂靜正義手套]|h|r",
 		},
-		[5] = {
-			["ID"] = 30975,
-			["Level"] = 146,
-			["Link"] = "|cffa335ee|Hitem:30975::::::::70:::::::::|h[猛擊戰甲胸甲]|h|r",
+		[9] = {
+			["ID"] = 33813,
+			["Level"] = 141,
+			["Link"] = "|cffa335ee|Hitem:33813::::::::70:::::::::|h[復仇者鎧甲護腕]|h|r",
 		},
 		[11] = {
 			["ID"] = 32497,
@@ -89,12 +87,14 @@ PawnOptions = {
 			["AlsoFitsIn"] = 11,
 			["Link"] = "|cffa335ee|Hitem:32497:2931:::::::70:::::::::|h[怒風璽戒]|h|r",
 		},
-		[9] = {
-			["ID"] = 33813,
-			["Level"] = 141,
-			["Link"] = "|cffa335ee|Hitem:33813::::::::70:::::::::|h[復仇者鎧甲護腕]|h|r",
+		[5] = {
+			["ID"] = 30975,
+			["Level"] = 146,
+			["Link"] = "|cffa335ee|Hitem:30975::::::::70:::::::::|h[猛擊戰甲胸甲]|h|r",
 		},
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "特變電工-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

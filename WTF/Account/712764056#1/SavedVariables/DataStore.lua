@@ -26,6 +26,7 @@ DataStoreDB = {
 				["guildName"] = "光之烙印",
 			},
 			["Default.伊弗斯.邁克爾假死"] = {
+				["guildName"] = "光之烙印",
 				["faction"] = "Horde",
 			},
 		},

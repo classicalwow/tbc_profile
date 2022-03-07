@@ -6,16 +6,12 @@ NameplateAurasAceDB = {
 	},
 	["profiles"] = {
 		["特變電工 - 伊弗斯"] = {
-			["StacksFontScale"] = 2.2,
-			["DefaultIconSizeHeight"] = 40,
-			["StacksTextYOffset"] = -23,
-			["HidePlayerBlizzardFrame"] = true,
-			["InterruptsGlowType"] = 1,
-			["AlwaysShowMyAuras"] = true,
-			["DBVersion"] = 19,
-			["IconAnchor"] = 3,
-			["ShowAurasOnPlayerNameplate"] = true,
 			["StacksTextXOffset"] = 4,
+			["DefaultIconSizeWidth"] = 40,
+			["IconAnchor"] = 3,
+			["DefaultIconSizeHeight"] = 40,
+			["Additions_DispellableSpells"] = true,
+			["HideBlizzardFrames"] = false,
 			["DefaultSpellsLastSetImported"] = 2,
 			["CustomSpells2"] = {
 				{
@@ -929,11 +925,20 @@ NameplateAurasAceDB = {
 					["spellName"] = "死亡謊言",
 				}, -- [65]
 			},
-			["HideBlizzardFrames"] = false,
-			["Additions_DispellableSpells"] = true,
-			["DefaultIconSizeWidth"] = 40,
+			["InterruptsGlowType"] = 1,
+			["StacksFontScale"] = 2.2,
+			["DBVersion"] = 19,
+			["StacksTextYOffset"] = -23,
+			["AlwaysShowMyAuras"] = true,
+			["HidePlayerBlizzardFrame"] = true,
+			["ShowAurasOnPlayerNameplate"] = true,
 		},
 		["邁克爾假死 - 伊弗斯"] = {
+			["HidePlayerBlizzardFrame"] = true,
+			["DBVersion"] = 19,
+			["IconAnchor"] = 3,
+			["InterruptsGlowType"] = 1,
+			["DefaultSpellsLastSetImported"] = 2,
 			["CustomSpells2"] = {
 				{
 					["enabledState"] = 2,
@@ -1846,11 +1851,6 @@ NameplateAurasAceDB = {
 					["spellName"] = "死亡謊言",
 				}, -- [65]
 			},
-			["DBVersion"] = 19,
-			["IconAnchor"] = 3,
-			["DefaultSpellsLastSetImported"] = 2,
-			["HidePlayerBlizzardFrame"] = true,
-			["InterruptsGlowType"] = 1,
 		},
 	},
 }

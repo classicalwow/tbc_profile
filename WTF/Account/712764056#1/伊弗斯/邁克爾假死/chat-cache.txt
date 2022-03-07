@@ -14,7 +14,7 @@ CHANNELS
 奧格瑪暗殺協會 1 9 0
 丐幫 1 10 0
 公會 1 11 0
-世界防务 1 12 0
+鏡花水月 1 13 0
 END
 
 ZONECHANNELS 0
@@ -152,6 +152,7 @@ GUILD_ITEM_LOOTED
 END
 
 CHANNELS
+鏡花水月
 END
 
 ZONECHANNELS 2097153
@@ -200,7 +201,6 @@ MESSAGES
 END
 
 CHANNELS
-世界防务
 寻求组队
 尋求組隊
 END
