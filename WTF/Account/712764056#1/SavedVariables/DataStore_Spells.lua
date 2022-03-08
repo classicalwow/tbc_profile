@@ -84,7 +84,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.伊弗斯.邁克爾假死"] = {
-				["lastUpdate"] = 1646584818,
+				["lastUpdate"] = 1646664891,
 				["Spells"] = {
 					["野獸控制"] = {
 						"883|", -- [1]

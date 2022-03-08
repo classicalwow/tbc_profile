@@ -1413,7 +1413,7 @@ LoseControlDB = {
 			["useSpellInsteadSchoolMiniIcon"] = false,
 			["size"] = 28,
 		},
-		["raid36"] = {
+		["raid28"] = {
 			["enabled"] = true,
 			["frameLevel"] = 0,
 			["alpha"] = 1,
@@ -1561,7 +1561,7 @@ LoseControlDB = {
 			["useSpellInsteadSchoolMiniIcon"] = false,
 			["size"] = 36,
 		},
-		["raid28"] = {
+		["raid17"] = {
 			["enabled"] = true,
 			["frameLevel"] = 0,
 			["alpha"] = 1,
@@ -1661,7 +1661,7 @@ LoseControlDB = {
 			["interruptMiniIconsAlpha"] = 0.8,
 			["size"] = 20,
 		},
-		["raid17"] = {
+		["raid36"] = {
 			["enabled"] = true,
 			["frameLevel"] = 0,
 			["alpha"] = 1,
@@ -1761,18 +1761,20 @@ LoseControlDB = {
 			["interruptMiniIconsAlpha"] = 0.8,
 			["size"] = 20,
 		},
-		["arena2"] = {
+		["raid40"] = {
 			["enabled"] = true,
 			["frameLevel"] = 0,
 			["alpha"] = 1,
 			["interruptBackgroundAlpha"] = 0.7,
-			["interruptMiniIconsAlpha"] = 0.8,
+			["y"] = 1,
+			["x"] = 0,
+			["useSpellInsteadSchoolMiniIcon"] = false,
 			["categoriesEnabled"] = {
 				["interrupt"] = {
-					["enemy"] = true,
+					["friendly"] = true,
 				},
 				["debuff"] = {
-					["enemy"] = {
+					["friendly"] = {
 						["Other"] = true,
 						["CC"] = true,
 						["Snare"] = true,
@@ -1786,8 +1788,8 @@ LoseControlDB = {
 					},
 				},
 				["buff"] = {
-					["enemy"] = {
-						["Other"] = true,
+					["friendly"] = {
+						["Other"] = false,
 						["CC"] = true,
 						["Snare"] = true,
 						["Disarm"] = true,
@@ -1800,14 +1802,14 @@ LoseControlDB = {
 					},
 				},
 			},
-			["anchor"] = "Blizzard",
+			["anchor"] = "BlizzardRaidFrames",
 			["interruptBackgroundVertexColor"] = {
 				["b"] = 1,
 				["g"] = 1,
 				["r"] = 1,
 			},
-			["useSpellInsteadSchoolMiniIcon"] = false,
-			["size"] = 28,
+			["interruptMiniIconsAlpha"] = 0.8,
+			["size"] = 20,
 		},
 		["focus"] = {
 			["enabled"] = true,
@@ -2474,20 +2476,18 @@ LoseControlDB = {
 			["useSpellInsteadSchoolMiniIcon"] = false,
 			["size"] = 36,
 		},
-		["raid40"] = {
+		["arena2"] = {
 			["enabled"] = true,
 			["frameLevel"] = 0,
 			["alpha"] = 1,
 			["interruptBackgroundAlpha"] = 0.7,
-			["y"] = 1,
-			["x"] = 0,
-			["useSpellInsteadSchoolMiniIcon"] = false,
+			["interruptMiniIconsAlpha"] = 0.8,
 			["categoriesEnabled"] = {
 				["interrupt"] = {
-					["friendly"] = true,
+					["enemy"] = true,
 				},
 				["debuff"] = {
-					["friendly"] = {
+					["enemy"] = {
 						["Other"] = true,
 						["CC"] = true,
 						["Snare"] = true,
@@ -2501,8 +2501,8 @@ LoseControlDB = {
 					},
 				},
 				["buff"] = {
-					["friendly"] = {
-						["Other"] = false,
+					["enemy"] = {
+						["Other"] = true,
 						["CC"] = true,
 						["Snare"] = true,
 						["Disarm"] = true,
@@ -2515,14 +2515,14 @@ LoseControlDB = {
 					},
 				},
 			},
-			["anchor"] = "BlizzardRaidFrames",
+			["anchor"] = "Blizzard",
 			["interruptBackgroundVertexColor"] = {
 				["b"] = 1,
 				["g"] = 1,
 				["r"] = 1,
 			},
-			["interruptMiniIconsAlpha"] = 0.8,
-			["size"] = 20,
+			["useSpellInsteadSchoolMiniIcon"] = false,
+			["size"] = 28,
 		},
 		["raid8"] = {
 			["enabled"] = true,
@@ -2942,18 +2942,18 @@ LoseControlDB = {
 	["disablePlayerFocusPlayerFocusTarget"] = true,
 	["noBlizzardCooldownCount"] = true,
 	["duplicatePlayerPortrait"] = true,
-	["showNPCInterruptsFocusTarget"] = true,
 	["showNPCInterruptsFocus"] = true,
-	["disableFocusDeadFocusTarget"] = true,
-	["disableArenaInBG"] = true,
 	["customSpellIds"] = {
 	},
-	["disablePartyInBG"] = true,
+	["disablePartyInRaid"] = true,
+	["noCooldownCount"] = false,
+	["showNPCInterruptsFocusTarget"] = true,
 	["showNPCInterruptsTargetTarget"] = true,
+	["disablePartyInBG"] = true,
 	["version"] = 2.1,
 	["showNPCInterruptsTarget"] = true,
-	["noCooldownCount"] = false,
-	["disablePartyInRaid"] = true,
+	["disableArenaInBG"] = true,
+	["disableFocusDeadFocusTarget"] = true,
 	["disableFocusFocusTarget"] = false,
 	["disablePlayerTargetPlayerTargetTarget"] = true,
 }

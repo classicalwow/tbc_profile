@@ -12,7 +12,8 @@ AtlasDB = {
 			["options"] = {
 				["autoSelect"] = true,
 				["dropdowns"] = {
-					["module"] = 3,
+					["module"] = 2,
+					["zone"] = 22,
 				},
 				["checkMissingModules"] = true,
 			},

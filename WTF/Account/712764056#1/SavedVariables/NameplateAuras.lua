@@ -10,9 +10,9 @@ NameplateAurasAceDB = {
 			["DefaultIconSizeWidth"] = 40,
 			["IconAnchor"] = 3,
 			["DefaultIconSizeHeight"] = 40,
-			["Additions_DispellableSpells"] = true,
-			["HideBlizzardFrames"] = false,
 			["DefaultSpellsLastSetImported"] = 2,
+			["DBVersion"] = 19,
+			["InterruptsGlowType"] = 1,
 			["CustomSpells2"] = {
 				{
 					["enabledState"] = 2,
@@ -925,9 +925,9 @@ NameplateAurasAceDB = {
 					["spellName"] = "死亡謊言",
 				}, -- [65]
 			},
-			["InterruptsGlowType"] = 1,
+			["HideBlizzardFrames"] = false,
 			["StacksFontScale"] = 2.2,
-			["DBVersion"] = 19,
+			["Additions_DispellableSpells"] = true,
 			["StacksTextYOffset"] = -23,
 			["AlwaysShowMyAuras"] = true,
 			["HidePlayerBlizzardFrame"] = true,
