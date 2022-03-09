@@ -26,34 +26,11 @@ RecountPerCharDB = {
 			["LastDamageAbility"] = "Falling",
 			["LastFightIn"] = 0,
 			["type"] = "Self",
-			["LastActive"] = 5493.248000000001,
-			["LastEventHealthMax"] = {
-				8268, -- [1]
-				8268, -- [2]
-				8268, -- [3]
-			},
+			["LastAbility"] = 441.717,
+			["UnitLockout"] = 23726.223,
 			["Owner"] = false,
-			["TimeLast"] = {
-				["DamageTaken"] = 5493.248000000001,
-				["OVERALL"] = 5493.248000000001,
-			},
+			["LastDamageTaken"] = 2271,
 			["NextEventNum"] = 4,
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				true, -- [3]
-			},
-			["LastEvents"] = {
-				"Environment Falling 邁克爾假死 Hit -46 (Physical)", -- [1]
-				"Environment Falling 邁克爾假死 Hit -1083 (Physical)", -- [2]
-				"Environment Falling 邁克爾假死 Hit -2271 (Physical)", -- [3]
-			},
-			["Name"] = "邁克爾假死",
-			["LastEventTimes"] = {
-				23727.023, -- [1]
-				23741.54, -- [2]
-				5493.815000000001, -- [3]
-			},
 			["Fights"] = {
 				["CurrentFightData"] = {
 					["PartialResist"] = {
@@ -164,9 +141,32 @@ RecountPerCharDB = {
 					},
 				},
 			},
-			["LastDamageTaken"] = 2271,
-			["UnitLockout"] = 23726.223,
-			["LastAbility"] = 5033.28,
+			["LastEvents"] = {
+				"Environment Falling 邁克爾假死 Hit -46 (Physical)", -- [1]
+				"Environment Falling 邁克爾假死 Hit -1083 (Physical)", -- [2]
+				"Environment Falling 邁克爾假死 Hit -2271 (Physical)", -- [3]
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+			},
+			["LastEventTimes"] = {
+				23727.023, -- [1]
+				23741.54, -- [2]
+				5493.815000000001, -- [3]
+			},
+			["Name"] = "邁克爾假死",
+			["TimeLast"] = {
+				["DamageTaken"] = 5493.248000000001,
+				["OVERALL"] = 5493.248000000001,
+			},
+			["LastEventHealthMax"] = {
+				8268, -- [1]
+				8268, -- [2]
+				8268, -- [3]
+			},
+			["LastActive"] = 5493.248000000001,
 		},
 	},
 	["FightNum"] = 0,

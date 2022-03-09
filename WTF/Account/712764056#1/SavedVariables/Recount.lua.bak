@@ -29,9 +29,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -456.5082092285156,
-			["ReportLines"] = 14,
-			["CurDataSet"] = "LastFightData",
 			["MainWindowWidth"] = 324.3896789550781,
+			["CurDataSet"] = "LastFightData",
+			["ReportLines"] = 14,
 			["Filters"] = {
 				["Show"] = {
 					["Hostile"] = true,
@@ -49,10 +49,11 @@ RecountDB = {
 				["Position"] = {
 					["y"] = -519.5910949707031,
 					["x"] = -453.3807067871094,
-					["w"] = 333.3404846191406,
+					["w"] = 333.3405151367188,
 					["h"] = 253.3423614501953,
 				},
 			},
+			["MainWindowHeight"] = 253.3423614501953,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -64,9 +65,8 @@ RecountDB = {
 				},
 			},
 			["LastInstanceName"] = "開啟黑暗之門",
-			["CurDataSet"] = "LastFightData",
+			["CurDataSet"] = "CurrentFightData",
 			["MainWindowWidth"] = 333.3405151367188,
-			["MainWindowHeight"] = 253.3423614501953,
 		},
 	},
 }
