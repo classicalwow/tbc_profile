@@ -1,11 +1,4 @@
 Version: 1
-Frame: GroupBulletinBoardFrame
-FrameLevel: 1
-Anchor: LEFT
-X: -3
-Y: 57
-W: 441
-H: 777
 Frame: Recount_MainWindow
 FrameLevel: 40
 Anchor: BOTTOM
@@ -41,6 +34,13 @@ X: 166
 Y: 157
 W: 768
 H: 447
+Frame: GroupBulletinBoardFrame
+FrameLevel: 1
+Anchor: LEFT
+X: -3
+Y: 57
+W: 441
+H: 777
 Frame: scanner_button
 FrameLevel: 200
 Anchor: RIGHT

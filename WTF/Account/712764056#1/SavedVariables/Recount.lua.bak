@@ -8,14 +8,14 @@ RecountDB = {
 		["特變電工 - 伊弗斯"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -532.0082092285156,
-					["x"] = -459.9998779296875,
+					["y"] = -532.0081558227539,
+					["x"] = -459.999755859375,
 					["w"] = 323.9999694824219,
 					["h"] = 205.0000152587891,
 				},
 			},
 			["DetailWindowX"] = 839.1256713867188,
-			["LastInstanceName"] = "黑暗神廟",
+			["LastInstanceName"] = "羅德隆廢墟",
 			["MainWindowHeight"] = 205.4917907714844,
 			["SegmentBosses"] = true,
 			["Colors"] = {
@@ -28,9 +28,9 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -456.5082092285156,
+			["DetailWindowY"] = -455.342529296875,
 			["MainWindowWidth"] = 324.3896789550781,
-			["CurDataSet"] = "LastFightData",
+			["CurDataSet"] = "OverallData",
 			["ReportLines"] = 14,
 			["Filters"] = {
 				["Show"] = {
@@ -65,7 +65,7 @@ RecountDB = {
 				},
 			},
 			["LastInstanceName"] = "開啟黑暗之門",
-			["CurDataSet"] = "CurrentFightData",
+			["CurDataSet"] = "LastFightData",
 			["MainWindowWidth"] = 333.3405151367188,
 		},
 	},

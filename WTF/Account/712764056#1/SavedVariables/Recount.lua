@@ -9,14 +9,12 @@ RecountDB = {
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = -532.0082092285156,
-					["x"] = -459.9998779296875,
+					["x"] = -459.9997253417969,
 					["w"] = 323.9999694824219,
 					["h"] = 205.0000152587891,
 				},
 			},
-			["DetailWindowX"] = 839.1256713867188,
-			["LastInstanceName"] = "黑暗神廟",
-			["MainWindowHeight"] = 205.4917907714844,
+			["ReportLines"] = 14,
 			["SegmentBosses"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -28,10 +26,8 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -456.5082092285156,
-			["ReportLines"] = 14,
-			["CurDataSet"] = "LastFightData",
-			["MainWindowWidth"] = 324.3896789550781,
+			["DetailWindowY"] = -455.342529296875,
+			["DetailWindowX"] = 839.1256713867188,
 			["Filters"] = {
 				["Show"] = {
 					["Hostile"] = true,
@@ -43,6 +39,10 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
+			["LastInstanceName"] = "納葛蘭競技場",
+			["CurDataSet"] = "OverallData",
+			["MainWindowWidth"] = 324.3896789550781,
+			["MainWindowHeight"] = 205.4917907714844,
 		},
 		["邁克爾假死 - 伊弗斯"] = {
 			["MainWindow"] = {
@@ -63,10 +63,10 @@ RecountDB = {
 					},
 				},
 			},
-			["LastInstanceName"] = "開啟黑暗之門",
+			["MainWindowHeight"] = 253.3423614501953,
 			["CurDataSet"] = "LastFightData",
 			["MainWindowWidth"] = 333.3405151367188,
-			["MainWindowHeight"] = 253.3423614501953,
+			["LastInstanceName"] = "開啟黑暗之門",
 		},
 	},
 }
