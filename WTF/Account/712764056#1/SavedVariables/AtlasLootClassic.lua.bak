@@ -13,6 +13,9 @@ AtlasLootClassicDB = {
 		["路易斯桑拿 - 伊弗斯"] = {
 		},
 		["特變電工 - 伊弗斯"] = {
+			["minimap"] = {
+				["minimapPos"] = 228.6882344345748,
+			},
 			["GUI"] = {
 				["point"] = {
 					nil, -- [1]
@@ -28,9 +31,6 @@ AtlasLootClassicDB = {
 					1, -- [4]
 					0, -- [5]
 				},
-			},
-			["minimap"] = {
-				["minimapPos"] = 228.6882344345748,
 			},
 		},
 		["邁克爾假死 - 伊弗斯"] = {

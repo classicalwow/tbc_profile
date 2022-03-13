@@ -8,13 +8,13 @@ RecountDB = {
 		["特變電工 - 伊弗斯"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -532.0082092285156,
-					["x"] = -459.9997253417969,
+					["y"] = -530.8423843383789,
+					["x"] = -459.4170532226563,
 					["w"] = 323.9999694824219,
 					["h"] = 205.0000152587891,
 				},
 			},
-			["ReportLines"] = 14,
+			["ReportLines"] = 1,
 			["SegmentBosses"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -39,8 +39,8 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "納葛蘭競技場",
-			["CurDataSet"] = "OverallData",
+			["LastInstanceName"] = "黑暗神廟",
+			["CurDataSet"] = "CurrentFightData",
 			["MainWindowWidth"] = 324.3896789550781,
 			["MainWindowHeight"] = 205.4917907714844,
 		},

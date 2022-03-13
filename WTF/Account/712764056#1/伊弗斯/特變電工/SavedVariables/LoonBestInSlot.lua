@@ -8,6 +8,6 @@ LoonBestInSlotSettings = {
 	["ShowTooltip"] = true,
 	["SelectedSource"] = "All",
 	["SelectedSlot"] = "All",
-	["SelectedSpec"] = "",
-	["SelectedPhase"] = "All",
+	["SelectedSpec"] = "Fury Warrior",
+	["SelectedPhase"] = "BIS",
 }
