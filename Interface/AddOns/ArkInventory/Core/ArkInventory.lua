@@ -2631,6 +2631,7 @@ function ArkInventory.OnInitialize( )
 		{ "ITEM_LOCK_CHANGED", "EVENT_ARKINV_ITEM_LOCK_CHANGED" },
 		{ "PLAYER_AVG_ITEM_LEVEL_UPDATE", "EVENT_ARKINV_AVG_ITEM_LEVEL_UPDATE" },
 		{ "PLAYERBANKSLOTS_CHANGED", "EVENT_ARKINV_BANK_UPDATE" }, -- a bag_update event for the bank (-1)
+		{ "ITEM_DATA_LOAD_RESULT", "EVENT_ARKINV_ITEM_DATA_LOAD_RESULT" },
 		
 		{ "BANKFRAME_CLOSED", "EVENT_ARKINV_BANK_LEAVE" },
 		{ "BANKFRAME_OPENED", "EVENT_ARKINV_BANK_ENTER" },
@@ -8031,8 +8032,8 @@ function ArkInventory.Frame_Item_OnEnter( frame )
 	
 	local loc_id = frame.ARK_Data.loc_id
 	local bag_id = frame.ARK_Data.bag_id
+	local slot_id = frame.ARK_Data.slot_id
 	local i = ArkInventory.Frame_Item_GetDB( frame )
-	
 	
 	-- edit mode tooltip
 	if ArkInventory.Global.Mode.Edit and IsMouseButtonDown( "LeftButton" ) and not GetCursorInfo( ) then
@@ -8142,7 +8143,70 @@ function ArkInventory.Frame_Item_OnEnter( frame )
 			
 		elseif loc_id == ArkInventory.Const.Location.Bag or loc_id == ArkInventory.Const.Location.Bank then
 			
-			ContainerFrameItemButton_OnEnter( frame )
+			ArkInventory.GameTooltipSetPosition( frame )
+			
+			-- from Interface\FrameXML\ContainerFrame.lua - ContainerFrameItemButton_OnEnter
+			
+			local self = frame
+			
+			--GameTooltip:SetOwner(self, "ANCHOR_NONE");
+			
+			C_NewItems.RemoveNewItem( self:GetParent( ):GetID( ), self:GetID( ) )
+			
+			local showSell = nil;
+			local hasCooldown, repairCost, speciesID, level, breedQuality, maxHealth, power, speed, name = GameTooltip:SetBagItem(self:GetParent():GetID(), self:GetID());
+			
+			if(speciesID and speciesID > 0) then
+				ContainerFrameItemButton_CalculateItemTooltipAnchors(self, GameTooltip); -- Battle pet tooltip uses the GameTooltip's anchor
+				BattlePetToolTip_Show(speciesID, level, breedQuality, maxHealth, power, speed, name);
+				return;
+			else
+				if (BattlePetTooltip) then
+					BattlePetTooltip:Hide();
+				end
+			end
+			
+			--ContainerFrameItemButton_CalculateItemTooltipAnchors(self, GameTooltip);
+			
+			if ( (IsModifiedClick("COMPAREITEMS") or GetCVarBool("alwaysCompareItems")) ) then
+				GameTooltip_ShowCompareItem(GameTooltip);
+			end
+			
+			if ( InRepairMode() and (repairCost and repairCost > 0) ) then
+				GameTooltip:AddLine(REPAIR_COST, nil, nil, nil, true);
+				SetTooltipMoney(GameTooltip, repairCost);
+				GameTooltip:Show();
+			elseif ( MerchantFrame:IsShown() and MerchantFrame.selectedTab == 1 ) then
+				showSell = 1;
+			end
+			
+			if ( IsModifiedClick("DRESSUP") and self.hasItem ) then
+				ShowInspectCursor();
+			elseif ( showSell ) then
+				ShowContainerSellCursor(self:GetParent():GetID(),self:GetID());
+			elseif ( self.readable ) then
+				ShowInspectCursor();
+			else
+				ResetCursor();
+			end
+			
+			if ArtifactFrame and self.hasItem then
+				ArtifactFrame:OnInventoryItemMouseEnter(self:GetParent():GetID(), self:GetID());
+			end
+			
+			reset = false
+			
+		elseif loc_id == ArkInventory.Const.Location.Keyring then
+			
+			ArkInventory.GameTooltipSetPosition( frame )
+			
+			-- from Interface\FrameXML\ContainerFrame.lua - ContainerFrameItemButton_OnEnter
+			
+			local self = frame
+			
+			GameTooltip:SetInventoryItem("player", KeyRingButtonIDToInvSlotID(self:GetID()));
+			CursorUpdate(self);
+			
 			reset = false
 			
 		else

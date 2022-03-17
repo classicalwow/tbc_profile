@@ -96,6 +96,7 @@ if not L then return end
 --	L["CATEGORY_CONSUMABLE_SCROLL"] = ""
 --	L["CATEGORY_CONSUMABLE_CHAMPION_EQUIPMENT"] = ""
 --	L["CATEGORY_CONSUMABLE_POWER_SYSTEM_OLD"] = ""
+--	L["CATEGORY_CONSUMABLE_ABILITIES_AND_ACTIONS"] = ""
 	
 	
 --	bag names - used to name the empty slots in the status frame

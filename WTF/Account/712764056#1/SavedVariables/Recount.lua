@@ -8,8 +8,8 @@ RecountDB = {
 		["特變電工 - 伊弗斯"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -530.8423843383789,
-					["x"] = -459.4170532226563,
+					["y"] = -530.8424606323242,
+					["x"] = -459.4170837402344,
 					["w"] = 323.9999694824219,
 					["h"] = 205.0000152587891,
 				},
@@ -26,8 +26,8 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -455.342529296875,
-			["DetailWindowX"] = 839.1256713867188,
+			["DetailWindowY"] = -298.7142333984375,
+			["DetailWindowX"] = 1036.721313476563,
 			["Filters"] = {
 				["Show"] = {
 					["Hostile"] = true,
@@ -39,8 +39,8 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "黑暗神廟",
-			["CurDataSet"] = "CurrentFightData",
+			["LastInstanceName"] = "納葛蘭競技場",
+			["CurDataSet"] = "LastFightData",
 			["MainWindowWidth"] = 324.3896789550781,
 			["MainWindowHeight"] = 205.4917907714844,
 		},
@@ -64,9 +64,9 @@ RecountDB = {
 				},
 			},
 			["MainWindowHeight"] = 253.3423614501953,
-			["CurDataSet"] = "LastFightData",
-			["MainWindowWidth"] = 333.3405151367188,
 			["LastInstanceName"] = "開啟黑暗之門",
+			["MainWindowWidth"] = 333.3405151367188,
+			["CurDataSet"] = "LastFightData",
 		},
 	},
 }

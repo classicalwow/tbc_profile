@@ -1068,6 +1068,7 @@ local ImportCrossRefTable = {
 {179137,{186537,-353456}}, -- Ruby Baubleworm
 {179138,{186536,-353457}}, -- Turquoise Baubleworm
 {179139,{186535,-353458}}, -- Topaz Baubleworm
+{179140,{186553,-353460}}, -- Gurgl
 {179166,{186534,-353525}}, -- Gizmo
 {179169,{186540,-353528}}, -- Rarity
 {179171,{186557,-353529}}, -- Fodder
@@ -1087,6 +1088,39 @@ local ImportCrossRefTable = {
 {179252,{186541,-353664}}, -- Mosscoated Gromit / Mosscoated Hopper
 {179253,{186543,-353665}}, -- Domestic Aunian
 {179255,{186538,-353666}}, -- Gnashtooth
+{179589,{188837,-354743}}, -- Blinky / Blinky Egg
+{181308,{187713,-359559}}, -- Archetype of Focus / Summon Archetype of Focus
+{181335,{187733,-359604}}, -- Resonant Echo / Summon Resonant Echo
+{181336,{187734,-359605}}, -- Omnipotential Core / Summon Omnipotential Core
+{181337,{187735,-359606}}, -- Geordy / Summon Geordy
+{181488,{187795,-359760}}, -- Archetype of Discovery / Summon Archetype of Discovery
+{181547,{187798,-359813}}, -- Tunneling Vombata / Summon Tunneling Vombata
+{181578,{187803,-359863}}, -- Archetype of Motion / Summon Archetype of Motion
+{181615,{189369,-359898}}, -- Archetype of Animation / Summon Archetype of Animation
+{182081,{189382,-360389}}, -- Archetype of Serenity / Summon Archetype of Serenity
+{182183,{189375,-360691}}, -- Archetype of Multiplicity / Summon Archetype of Multiplicity
+{182264,{187928,-360800}}, -- Archetype of Metamorphosis / Summon Archetype of Metamorphosis
+{182393,{189381,-360986}}, -- Archetype of Predation / Summon Archetype of Predation
+{182504,{189364,-361157}}, -- Archetype of Survival / Summon Archetype of Survival
+{182735,{189380,-361400}}, -- Archetype of Cunning / Summon Archetype of Cunning
+{182840,{189383,-361572}}, -- Archetype of Malice / Summon Archetype of Malice
+{183557,{189367,-362640}}, -- Archetype of Satisfaction / Summon Archetype of Satisfaction
+{183772,{188679,-363086}}, -- Lightless Tormentor
+{184183,{189363,-364174}}, -- Ambystan Darter / Summon Ambystan Darter
+{184184,{189365,-364176}}, -- Fierce Scarabid / Summon Fierce Scarabid
+{184189,{189366,-364178}}, -- Violent Poultrid / Summon Violent Poultrid
+{184190,{189368,-364181}}, -- Multichicken / Summon Multichicken
+{184191,{189370,-364182}}, -- Stabilized Geomental / Summon Stabilized Geomental
+{184192,{189372,-364184}}, -- Terror Jelly / Summon Terror Jelly
+{184193,{189373,-364193}}, -- Prototickles / Summon Prototickles
+{184194,{189374,-364251}}, -- Leaping Leporid / Summon Leaping Leporid
+{184195,{189376,-364252}}, -- Microlicid / Summon Microlicid
+{184187,{189377,-364254}}, -- Archetype of Vigilance / Summon Archetype of Vigilance
+{184196,{189378,-364255}}, -- Shelly / Summon Shelly
+{184197,{189379,-364256}}, -- Viperid Menace / Summon Viperid Menace
+{184186,{189371,-364259}}, -- Archetype of Renewal / Summon Archetype of Renewal
+{184923,{189585,-366069}}, -- E'rnee / Summon E'rnee
+{185477,{191039,-367376}}, -- Pocopoc / Pocopoc Traveler
 -- end of live
 
 }

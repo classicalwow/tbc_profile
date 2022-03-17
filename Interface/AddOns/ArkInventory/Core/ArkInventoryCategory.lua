@@ -254,6 +254,10 @@ ArkInventory.Const.Category = {
 				--id = "CONSUMABLE_POWER_LEGION_ARTIFACT",
 				--text = ArkInventory.Localise["ARTIFACT_POWER"],
 			},
+			[461] = {
+				id = "CONSUMABLE_ABILITIES_AND_ACTIONS",
+				text = ArkInventory.Localise["CATEGORY_CONSUMABLE_ABILITIES_AND_ACTIONS"],
+			},
 			[902] = {
 				proj = not ArkInventory.ClientCheck( ArkInventory.Const.BLIZZARD.CLIENT.CODE.RETAIL ),
 				id = "CONSUMABLE_FOOD_PET",
@@ -806,7 +810,7 @@ function ArkInventory.ItemCategoryGetDefaultActual( i )
 	end
 	
 	-- junk
-	if info.q == ArkInventory.Const.BLIZZARD.GLOBAL.ITEMQUALITY.POOR then
+	if info.q == ArkInventory.Const.BLIZZARD.GLOBAL.ITEMQUALITY.POOR or ArkInventory.PT_ItemInSets( i.h, "ArkInventory.System.Junk" ) then
 		return ArkInventory.CategoryGetSystemID( "SYSTEM_JUNK" )
 	end
 	
@@ -954,6 +958,12 @@ function ArkInventory.ItemCategoryGetDefaultActual( i )
 		return ArkInventory.CategoryGetSystemID( "CONSUMABLE_CHAMPION_EQUIPMENT" )
 	end
 	
+	if ArkInventory.PT_ItemInSets( i.h, "ArkInventory.Consumable.Abilities" ) or ArkInventory.PT_ItemInSets( i.h, "ArkInventory.Consumable.Actions" ) then
+		return ArkInventory.CategoryGetSystemID( "CONSUMABLE_ABILITIES_AND_ACTIONS" )
+	end
+	
+	
+	
 	if info.itemtypeid == ArkInventory.Const.ItemClass.CONSUMABLE and not ArkInventory.ClientCheck( ArkInventory.Const.BLIZZARD.CLIENT.CODE.CLASSIC ) then
 		
 		-- classic has no subcategories
@@ -1005,7 +1015,6 @@ function ArkInventory.ItemCategoryGetDefaultActual( i )
 		end
 		
 	end
-	
 	
 	
 	

@@ -1,4 +1,14 @@
-﻿# 3.09.63 (30-NOV-2021)
+﻿# 3.09.64 (23-FEB-2022)
+ - fixed - issue with LibDialog-1.0 (temporarily until the author fixes it)
+ - fixed - (TBC) issue with splitting stacks in the guild bank
+ - added - wago project id
+ - changed - (TBC) toc updated to 20503
+ - changed - (Classic) toc updated to 11402
+ - changed - (Retail) toc updated to 90200
+ - changed - renamed mainline toc files because curse cant handle them and rejects the upload
+ - note - contains new folder structure - do NOT upgrade while the game is running
+
+# 3.09.63 (30-NOV-2021)
  - added - client specific toc files
  - added - config option advanced > ldb > item tracking > show zero - disabling this option will hide the icon for any items you dont have (zero count), they will remain in the tooltip
  - note - contains new files - do NOT upgrade while the game is running

@@ -979,6 +979,8 @@ local ImportCrossRefTable = {
 {348162,{}}, -- Wandering Ancient
 {348769,{186179}}, -- Vicious War Gorm
 {348770,{186178}}, -- Vicious War Gorm
+{349823,{187642}}, -- Vicious Warstalker
+{349824,{187644}}, -- Vicious Warstalker
 {351195,{186642}}, -- Vengeance / Vengeance's Reins
 {352309,{185973}}, -- Hand of Bahmethra / Chain of Bahmethra
 {352441,{186000}}, -- Wild Hunt Legsplitter / Legsplitter War Harness
@@ -996,7 +998,7 @@ local ImportCrossRefTable = {
 {353872,{186476}}, -- Sinfall Gravewing
 {353873,{186477}}, -- Pale Gravewing
 {353875,{186482}}, -- Elysian Aquilon
-{353877,{186483}}, -- Foresworn Aquilon
+{353877,{186483}}, -- Forsworn Aquilon
 {353880,{186485}}, -- Ascendant's Aquilon
 {353883,{186487}}, -- Maldraxxian Corpsefly / Maldraxxian Corpsefly Harness
 {353884,{186488}}, -- Regal Corpsefly / Regal Corpsefly Harness
@@ -1013,8 +1015,47 @@ local ImportCrossRefTable = {
 {354360,{186652}}, -- Garnet Razorwing
 {354361,{186651}}, -- Dusklight Razorwing
 {354362,{186643}}, -- Wandering Arden Doe / Reins of the Wanderer
+{356488,{}}, -- Sarge's Tale
 {356501,{187183}}, -- Rampaging Mauler
+{356802,{}}, -- Holy Lightstrider
 {358319,{187525}}, -- Soultwisted Deathwalker
+{359013,{187595}}, -- Val'sharah Hippogryph / Favor of the Val'sharah Hippogryph
+{359229,{187629}}, -- Heartlight Vombata / Heartlight Stone
+{359230,{187630}}, -- Curious Crystalsniffer
+{359231,{187631}}, -- Darkened Vombata
+{359232,{187632}}, -- Adorned Vombata
+{359276,{187640}}, -- Anointed Protostag / Anointed Protostag Reins
+{359277,{187641}}, -- Sundered Zerethsteed / Reins of the Sundered Zerethsteed
+{359278,{187638}}, -- Deathrunner
+{359317,{}}, -- Wen Lo, the River's Edge
+{359318,{188674}}, -- Soaring Spelltome / Mage-Bound Spelltome
+{359364,{187663}}, -- Bronzewing Vespoid
+{359366,{187665}}, -- Buzz
+{359367,{187664}}, -- Forged Spiteflyer
+{359372,{187667}}, -- Mawdapted Raptora
+{359373,{187668}}, -- Raptora Swooper
+{359376,{187670}}, -- Bronze Helicid
+{359377,{187671}}, -- Unsuccessful Prototype Fleetpod
+{359378,{187672}}, -- Scarlet Helicid
+{359381,{187673}}, -- Cryptic Aurelid
+{359401,{187677}}, -- Genesis Crawler
+{359402,{187678}}, -- Tarachnid Creeper
+{359403,{187679}}, -- Ineffable Skitterer
+{359407,{187682}}, -- Wastewarped Deathwalker
+{359413,{187683}}, -- Goldplate Bufonid
+{359545,{190771}}, -- Carcinized Zerethsteed / Fractal Cypher of the Carcinized Zerethsteed
+{363136,{188696}}, -- Colossal Ebonclaw Mawrat / Sturdy Soulsteel Mawrat Harness
+{363178,{188700}}, -- Colossal Umbrahide Mawrat / Sturdy Silver Mawrat Harness
+{363297,{188736}}, -- Colossal Soulshredder Mawrat / Sturdy Gilded Mawrat Harness
+{363608,{}}, -- Divine Steed
+{363701,{188808}}, -- Patient Bufonid
+{363703,{188809}}, -- Prototype Leaper
+{363706,{188810}}, -- Russet Bufonid
+{365559,{189507}}, -- Cosmic Gladiator's Soul Eater
+{367673,{190580}}, -- Heartbond Lupine
+{368105,{190765}}, -- Colossal Plaguespew Mawrat / Iska's Mawrat Leash
+{368128,{190766}}, -- Colossal Wraithbound Mawrat / Spectral Mawrat's Tail
+{368158,{190768}}, -- Zereth Overseer / Fractal Cypher of the Zereth Overseer
 -- end of live
 
 -- ptr

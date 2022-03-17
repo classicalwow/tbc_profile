@@ -884,6 +884,7 @@ ArkInventory.Const = { -- constants
 			[1643] = 13250, -- Kul Tiras / Battle for Azeroth Pathfinder Part 2
 			[1718] = 13250, -- Nazjatar / Battle for Azeroth Pathfinder Part 2
 --			[0000] = 13250, -- Rustbucket / Battle for Azeroth Pathfinder Part 2
+			[2374] = 15514, -- Shadowlands / Zereth Mortis
 		},
 		Spell = {
 		},

@@ -20,7 +20,7 @@ ArkInventory.Lib.PeriodicTable:AddData( "ArkInventory", "1", {
 	["ArkInventory.System.Item Enhancement.New"] = "",
 	["ArkInventory.System.Item Enhancement.PTBase"] = "",
 	
-	["ArkInventory.System.Equipment.Cosmetic"] = "6833,6835,13544,34086,34087,44731,45067",
+	["ArkInventory.System.Equipment.Cosmetic"] = "6833,6835,13544,34086,34087,44731,45067,186515",
 	
 	["ArkInventory.System.Pet.Parts.LilAbom"] = "186183,186184,186185,186186,186187",
 	["ArkInventory.System.Pet.New"] = "175141,180368,187431,187508",
@@ -37,14 +37,17 @@ ArkInventory.Lib.PeriodicTable:AddData( "ArkInventory", "1", {
 	["ArkInventory.System.Mount.Other"] = "21213,187054",
 	["ArkInventory.System.Mount.PTBase"] = "m,Misc.Mount",
 	
-	["ArkInventory.System.Key.Shadowlands"] = "170463,186718,186731,186984,187612,187613,187614",
+	["ArkInventory.System.Key.Shadowlands"] = "170463,186718,186731,186984,187612,187613,187614,190198",
 	["ArkInventory.System.Key.BFA"] = "169872,173363,174756,174758,174759,174760,174764",
 	["ArkInventory.System.Key.Pandaria"] = "87779",
 	["ArkInventory.System.Key.Other"] = "159826",
 	["ArkInventory.System.Key.PTBase"] = "m,Misc.Key",
 
 	["ArkInventory.System.Quest.Shadowlands.Revendreth.Secret Treasure"] = "180219,180220,180221,180222,180223,180224,180225,180226,180227,180228,180229",
-	["ArkInventory.System.Quest.Shadowlands.Other"] = "172451,173973,183987,184043",
+	["ArkInventory.System.Quest.Shadowlands.Revendreth.Other"] = "183417",
+	["ArkInventory.System.Quest.Shadowlands.Treasure.Bastion"] = "190239",
+	["ArkInventory.System.Quest.Shadowlands.Treasure.Zereth Mortis"] = "190239",
+	["ArkInventory.System.Quest.Shadowlands.Other"] = "172451,173973,183987,184043,187909",
 	["ArkInventory.System.Quest.BFA"] = "160735",
 	["ArkInventory.System.Quest.Legion"] = "152999",
 	["ArkInventory.System.Quest.Draenor"] = "115463",
@@ -61,9 +64,11 @@ ArkInventory.Lib.PeriodicTable:AddData( "ArkInventory", "1", {
 	["ArkInventory.System.Toy.Classic"] = "20402,21175",
 	["ArkInventory.System.Toy.Other"] = "21745,27944,37863,64402,86577,89373,104328,113545,117398,119151,127865,127867,127869,127870,128320,132172,138115,139632,162000,167893,170170",
 	
+	["ArkInventory.System.Junk.Achievement.Shadowlands.Zereth Mortis"] = "187879,187885,187889,187890,187891,187892,187893,187894,189578,190128,190129",
+	
 	-- used for both item to currency mappings (itemid:currencyid), and just knowing what items are currencies
-	["ArkInventory.System.Currency.Shadowlands.Other"] = "184304",
-	["ArkInventory.System.Currency.Shadowlands.Anima"] = "181368:1813,181377:1813,181477:1813,181478:1813,181479:1813,181540:1813,181541:1813,181544:1813,181545:1813,181546:1813,181547:1813,181548:1813,181549:1813,181550:1813,181551:1813,181552:1813,181642:1813,181643:1813,181644:1813,181645:1813,181646:1813,181647:1813,181648:1813,181649:1813,181650:1813,183723:1813,183727:1813,181743:1813,181744:1813,181745:1813,183964:1813,184146:1813,184147:1813,184148:1813,184149:1813,184150:1813,184151:1813,184152:1813,184286:1813,184293:1813,184294:1813,184305:1813,184306:1813,184307:1813,184315:1813,184360:1813,184362:1813,184363:1813,184371:1813,184373:1813,184374:1813,184378:1813,184379:1813,184380:1813,184381:1813,184382:1813,184383:1813,184384:1813,184385:1813,184386:1813,184387:1813,184388:1813,184389:1813,184519:1813,184763:1813,184764:1813,184765:1813,184766:1813,184767:1813,184768:1813,184769:1813,184770:1813,184771:1813,184772:1813,184773:1813,184774:1813,184775:1813,184776:1813,184777:1813,186200:1813,186201:1813,186202:1813,186204:1813,186205:1813,186206:1813,187175:1813,187347:1813,187349:1813",
+	["ArkInventory.System.Currency.Shadowlands.Other"] = "184304,190189",
+	["ArkInventory.System.Currency.Shadowlands.Anima"] = "181368:1813,181377:1813,181477:1813,181478:1813,181479:1813,181540:1813,181541:1813,181544:1813,181545:1813,181546:1813,181547:1813,181548:1813,181549:1813,181550:1813,181551:1813,181552:1813,181642:1813,181643:1813,181644:1813,181645:1813,181646:1813,181647:1813,181648:1813,181649:1813,181650:1813,183723:1813,183727:1813,181743:1813,181744:1813,181745:1813,183964:1813,184146:1813,184147:1813,184148:1813,184149:1813,184150:1813,184151:1813,184152:1813,184286:1813,184293:1813,184294:1813,184305:1813,184306:1813,184307:1813,184315:1813,184360:1813,184362:1813,184363:1813,184371:1813,184373:1813,184374:1813,184378:1813,184379:1813,184380:1813,184381:1813,184382:1813,184383:1813,184384:1813,184385:1813,184386:1813,184387:1813,184388:1813,184389:1813,184519:1813,184763:1813,184764:1813,184765:1813,184766:1813,184767:1813,184768:1813,184769:1813,184770:1813,184771:1813,184772:1813,184773:1813,184774:1813,184775:1813,184776:1813,184777:1813,186200:1813,186201:1813,186202:1813,186204:1813,186205:1813,186206:1813,187175:1813,187347:1813,187349:1813,188198:1813",
 	["ArkInventory.System.Currency.Shadowlands.Stygia"] = "178040:1767,187351:1767",
 	["ArkInventory.System.Currency.BFA.Other"] = "",
 	["ArkInventory.System.Currency.Legion.Ancient Mana"] = "139786:1155,139890:1155,140236:1155,140240:1155,140243:1155,140246:1155,140248:1155,140390:1155,140399:1155,140401:1155,140402:1155,140403:1155,140406:1155,140949:1155,141655:1155",
@@ -80,7 +85,7 @@ ArkInventory.Lib.PeriodicTable:AddData( "ArkInventory", "1", {
 	["ArkInventory.System.Currency.PVP"] = "137642",
 	["ArkInventory.System.Currency.Other"] = "21100:CoinOfAncestry,71083:DarkmoonGameToken,22523:InsigniaOfTheDawn,122618:MisprintedDraenicCoin",
 	
-	["ArkInventory.System.Reputation.Shadowlands.The Enlightened"] = "190941:2478",
+	["ArkInventory.System.Reputation.Shadowlands.The Enlightened"] = "190339:2478,190941:2478",
 	["ArkInventory.System.Reputation.Shadowlands.The Archivists Codex"] = "186685:2472,187311:2472,187322:2472,187323:2472,187324:2472,187325:2472,187326:2472,187327:2472,187328:2472,187329:2472,187330:2472,187331:2472,187332:2472,187333:2472,187334:2472,187335:2472,187336:2472,187350:2472,187457:2472,187458:2472,187459:2472,187460:8,187462:2472,187463:2472,187465:2472,187466:2472,187467:2472,187478:2472",
 	["ArkInventory.System.Reputation.Shadowlands.The Wild Hunt"] = "184122:2465",
 	["ArkInventory.System.Reputation.Shadowlands.Court of Harvesters"] = "184119:2413",
@@ -223,6 +228,10 @@ ArkInventory.Lib.PeriodicTable:AddData( "ArkInventory", "1", {
 	["ArkInventory.Gems.Cogwheel"] = "",
 	["ArkInventory.Gems.Artifact Relic"] = "139249",
 	
+	["ArkInventory.Consumable.Abilities.Buff.Shadowlands.Zereth Mortis.Parts"] = "187728,187789,187790,187791,187908",
+	["ArkInventory.Consumable.Abilities.Buff.Shadowlands.Zereth Mortis.Use"] = "187865,187866,187867",
+	["ArkInventory.Consumable.Abilities.Costume.Shadowlands.Necrolord.Necrotic Acolyte"] = "183394,183397,183399,183401,183690,183691,183692,183693",
+	["ArkInventory.Consumable.Actions.Shadowlands.Outdoors"] = "178602,183602,183718,190739",
 	["ArkInventory.Consumable.Heal.New"] = "89640",
 	["ArkInventory.Consumable.Heal.PTBase"] = "m,Consumable.Potion.Recovery.Healing,Consumable.Warlock.Healthstone",
 	["ArkInventory.Consumable.Mana"] = "m,Consumable.Potion.Recovery.Mana",
@@ -267,7 +276,9 @@ ArkInventory.Lib.PeriodicTable:AddData( "ArkInventory", "1", {
 	["ArkInventory.Consumable.Pet.Heal"] = "86143",
 	["ArkInventory.Consumable.Pet.Size"] = "71153:200,89906:50",
 	["ArkInventory.Consumable.Pet.XP"] = "98112:25,98114:50",
-	["ArkInventory.Consumable.Pet.Costume"] = "103786,103789,103795,103797,116172,116810,116811,116812,128650",
+	["ArkInventory.Consumable.Pet.Costume.Pocopoc"] = "187833,189451,189707,189709,189710,189712,189713,189714,189715,189716,189717,189718,189708,189711,190058,190059,190060,190061,190062,190098,190182",
+	["ArkInventory.Consumable.Pet.Costume.Pepe"] = "127865,127867,127869,127870,161443,161451,170151,186473,186524,186580,186593",
+	["ArkInventory.Consumable.Pet.Costume.Perky Pug"] = "103786,103789,103795,103797,116172,116810,116811,116812,128650,184505",
 	["ArkInventory.Consumable.Pet.Currency"] = "116415,163036",
 	["ArkInventory.Consumable.Pet.Toy"] = "37431,43352,43626,118054",
 	
@@ -342,7 +353,7 @@ ArkInventory.Lib.PeriodicTable:AddData( "ArkInventory", "1", {
 	["ArkInventory.Skill.Engineering.PTBase"] = "m,Tradeskill.Tool.Engineering,Tradeskill.Mat.ByProfession.Engineering,TradeskillResultMats.Reverse.Engineering",
 	["ArkInventory.Skill.First Aid.New"] = "",
 	["ArkInventory.Skill.First Aid.PTBase"] = "m,Tradeskill.Mat.ByProfession.First Aid,TradeskillResultMats.Reverse.First Aid",
-	["ArkInventory.Skill.Fishing.Bait.Shadowlands"] = "173038,173039,173040,173041,173042,173043",
+	["ArkInventory.Skill.Fishing.Bait.Shadowlands"] = "173038,173039,173040,173041,173042,173043,187712",
 	["ArkInventory.Skill.Fishing.Bait.Draenor"] = "110274,110289,110290,110291,110292,110293,110294,128229",
 	["ArkInventory.Skill.Fishing.Bait.Legion"] = "133704,133706,133713,133715,133795,139175",
 	["ArkInventory.Skill.Fishing.PTBase"] = "m,Tradeskill.Tool.Fishing,Tradeskill.Mat.ByType.Fish",
@@ -362,7 +373,8 @@ ArkInventory.Lib.PeriodicTable:AddData( "ArkInventory", "1", {
 	["ArkInventory.Skill.Tailoring.PTBase"] = "m,Tradeskill.Mat.ByProfession.Tailoring,TradeskillResultMats.Reverse.Tailoring,ArkInventory.Tradegoods.Cloth",
 	
 	
-	["ArkInventory.Armor Token.200.Korthian"] = "187187",
+	["ArkInventory.Armor Token.226.Zereth Mortis"] = "191036,191037,190741,190755,190756,190757,190758,190759,190760,190761,190762,190763,190764",
+	["ArkInventory.Armor Token.200.Korthian"] = "187187,188153,188154,188155,188156,188157,188158,188159,188160,188161,188162,188163",
 	["ArkInventory.Armor Token.174-233.CastleNathria"] = "183888,183889,183890,183891,183892,183893,183894,183895,183896,183897,183898,183899",
 	["ArkInventory.Armor Token.120.Black Empire.Cloth"] = "173414,173415,173416,173417,173418,173419,173420,173423",
 	["ArkInventory.Armor Token.120.Black Empire.Leather"] = "173407,173408,173409,173410,173411,173412,173413,173424",

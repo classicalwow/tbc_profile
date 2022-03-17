@@ -61,21 +61,18 @@ local scanning = false
 
 local function QueueAdd( hs )
 	
-	if not Queue[hs] then
-		--ArkInventory.Output( "debug: adding to queue ", hs )
+	if not C_Item.IsItemDataCachedByID( hs ) then
+		--ArkInventory.Output( "requesting [", hs, "]" )
+		C_Item.RequestLoadItemDataByID( hs )
 	end
+	
 	Queue[hs] = true
 	
-	ArkInventory:SendMessage( "EVENT_ARKINV_GETOBJECTINFO_QUEUE_UPDATE_BUCKET", "START" )
+	ArkInventory:SendMessage( "EVENT_ARKINV_GETOBJECTINFO_QUEUE_UPDATE_BUCKET", "QUEUE_ADD" )
 	
 end
 
 local function UpdateObjectInfo( info, thread_id )
-	
-	info.retry = ( info.retry or 0 ) + 1
-	if info.retry > 1 then
-		ArkInventory.OutputDebug( "retry #", info.retry, " for ", info.osd.hs )
-	end
 	
 	local tmp
 	
@@ -107,7 +104,8 @@ local function UpdateObjectInfo( info, thread_id )
 		[17] = craft
 ]]--
 		
-		info.ready = true
+		info.ready = C_Item.IsItemDataCachedByID( info.hs )
+		--ArkInventory.Output( "ready = ", info.ready, " / ", info.osd.id )
 		
 		if info.class == "keystone" then
 			tmp = { GetItemInfo( info.osd.id ) }
@@ -117,7 +115,7 @@ local function UpdateObjectInfo( info, thread_id )
 		
 		for x in pairs( { ArkInventory.Const.BLIZZARD.FUNCTION.GETITEMINFO.TEXTURE, ArkInventory.Const.BLIZZARD.FUNCTION.GETITEMINFO.NAME, ArkInventory.Const.BLIZZARD.FUNCTION.GETITEMINFO.LINK, ArkInventory.Const.BLIZZARD.FUNCTION.GETITEMINFO.QUALITY, ArkInventory.Const.BLIZZARD.FUNCTION.GETITEMINFO.ILVL_BASE } ) do
 			if tmp[x] == nil then
-			--ArkInventory.Output( x, " is nil for ", info.hs, " / ", tmp)
+			--ArkInventory.Output( x, " is nil for ", info.hs, " / ", tmp )
 				info.ready = false
 			end
 		end
@@ -236,20 +234,6 @@ local function UpdateObjectInfo( info, thread_id )
 			
 		end
 		
-		
-		if ArkInventory.db.option.message.object.notfound and not info.ready then
-			if info.retry >= maxRetry then
-				if info.retrywarning then
-					ArkInventory.OutputDebug( "could not retrieve data from server for ", info.h, " / ", info.osd.hs )
-				else
-					-- only output the warning once in normal mode
-					ArkInventory.OutputWarning( "could not retrieve data from server for ", info.h, " / ", info.osd.hs )
-					info.retrywarning = true
-				end
-			end
-		end
-		
-		
 	elseif info.class == "reputation" then
 		
 		info.ready = true
@@ -288,7 +272,6 @@ local function UpdateObjectInfo( info, thread_id )
 		end
 		info.texture = tmp[ArkInventory.Const.BLIZZARD.FUNCTION.GETSPELLINFO.TEXTURE] or ArkInventory.Const.Texture.Missing
 		info.q = ArkInventory.Const.BLIZZARD.GLOBAL.ITEMQUALITY.COMMON
-		
 		
 	elseif info.class == "battlepet" then
 		
@@ -365,11 +348,7 @@ local function Scan_Threaded( thread_id )
 			Queue[hs] = nil
 			clear = true
 		else
-			if info.retry <= maxRetry then
-				redo[hs] = true
-			else
-				Queue[hs] = nil
-			end
+			redo[hs] = true
 		end
 		
 	end
@@ -407,11 +386,14 @@ local function Scan( )
 	
 end
 
-function ArkInventory:EVENT_ARKINV_GETOBJECTINFO_QUEUE_UPDATE_BUCKET( events )
+function ArkInventory:EVENT_ARKINV_GETOBJECTINFO_QUEUE_UPDATE_BUCKET( event_table )
+	
+	--ArkInventory.Output( "events: ", event_table )
 	
 	if not ArkInventory:IsEnabled( ) then return end
 	
 	if ArkInventory.Global.Mode.Combat then
+		-- run after leaving combat
 		return
 	end
 	
@@ -420,7 +402,7 @@ function ArkInventory:EVENT_ARKINV_GETOBJECTINFO_QUEUE_UPDATE_BUCKET( events )
 		Scan( )
 		scanning = false
 	else
-		ArkInventory:SendMessage( "EVENT_ARKINV_GETOBJECTINFO_QUEUE_UPDATE_BUCKET", "RESCAN" )
+		ArkInventory:SendMessage( "EVENT_ARKINV_GETOBJECTINFO_QUEUE_UPDATE_BUCKET", "BUSY" )
 	end
 	
 end
@@ -767,8 +749,6 @@ end
 
 function ArkInventory.GetObjectInfo( h, i )
 	
-	
-	
 	local chs = h and cacheObjectStringStandard[h]
 	local info = chs and cacheGetObjectInfo[chs]
 	if info then
@@ -1008,3 +988,11 @@ function ArkInventory.ObjectIDSearch( h, i )
 	
 end
 
+function ArkInventory:EVENT_ARKINV_ITEM_DATA_LOAD_RESULT( ... )
+	
+	--local event, arg1 = ...
+	--ArkInventory.Output( "[", event, "] [", arg1, "]" )
+	
+	ArkInventory:SendMessage( "EVENT_ARKINV_GETOBJECTINFO_QUEUE_UPDATE_BUCKET", "ITEM_DATA_READY" )
+	
+end
