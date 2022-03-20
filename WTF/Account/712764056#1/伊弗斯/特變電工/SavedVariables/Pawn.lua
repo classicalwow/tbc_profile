@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0533,
+	["LastVersion"] = 2.0534,
 	["ItemLevels"] = {
 		{
 			["ID"] = 33730,

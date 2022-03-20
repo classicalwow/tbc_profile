@@ -78,7 +78,6 @@ local function UpdateObjectInfo( info, thread_id )
 	
 	if info.class == "item" or info.class == "keystone" then
 		
-		
 --[[
 		[01] = name
 		[02] = h
@@ -104,18 +103,29 @@ local function UpdateObjectInfo( info, thread_id )
 		[17] = craft
 ]]--
 		
-		info.ready = C_Item.IsItemDataCachedByID( info.hs )
-		--ArkInventory.Output( "ready = ", info.ready, " / ", info.osd.id )
-		
+		local key = info.hs
 		if info.class == "keystone" then
-			tmp = { GetItemInfo( info.osd.id ) }
-		else
-			tmp = { GetItemInfo( info.hs ) }
+			key = info.osd.id
 		end
+		
+		info.ready = C_Item.IsItemDataCachedByID( key )
+		if not info.ready then
+			--ArkInventory.OutputWarning( "data not cached for ", key, ", adding to queue" )
+			if info.class == "keystone" then
+				ArkInventory.GetObjectInfo( key )
+			else
+				QueueAdd( key )
+			end
+			--C_Item.RequestLoadItemDataByID( key )
+		end
+		
+		tmp = { GetItemInfo( key ) }
+		--ArkInventory.Output( "ready = ", info.ready, " / ", key )
+		
 		
 		for x in pairs( { ArkInventory.Const.BLIZZARD.FUNCTION.GETITEMINFO.TEXTURE, ArkInventory.Const.BLIZZARD.FUNCTION.GETITEMINFO.NAME, ArkInventory.Const.BLIZZARD.FUNCTION.GETITEMINFO.LINK, ArkInventory.Const.BLIZZARD.FUNCTION.GETITEMINFO.QUALITY, ArkInventory.Const.BLIZZARD.FUNCTION.GETITEMINFO.ILVL_BASE } ) do
 			if tmp[x] == nil then
-			--ArkInventory.Output( x, " is nil for ", info.hs, " / ", tmp )
+				--ArkInventory.OutputWarning( x, " is nil for ", key, " / ", info.ready, " / ", tmp )
 				info.ready = false
 			end
 		end
@@ -158,6 +168,7 @@ local function UpdateObjectInfo( info, thread_id )
 		
 		
 		if info.name == ArkInventory.Localise["DATA_NOT_READY"] then
+			--ArkInventory.OutputWarning( "name is nil for ", key, " / ", info.ready )
 			info.ready = false
 		end
 		
@@ -177,36 +188,36 @@ local function UpdateObjectInfo( info, thread_id )
 			if not ArkInventory.TooltipIsReady( ArkInventory.Global.Tooltip.Scan ) then
 				
 				info.ready = false
-				--ArkInventory.Output( "debug: tooltip not ready ", info.h )
+				--ArkInventory.OutputWarning( "scan tooltip is not ready for ", key, " / ", info.ready, " / ", info.h )
 				
 			else
 				
-				local _, txt, ilvl
+				local ignore, txt, ilvl
 				local stock = -1
 				
 				if info.equiploc == "INVTYPE_BAG" then
 					
-					_, _, stock = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, "(%d+)", false, true, true, 0, ArkInventory.Const.Tooltip.Search.Short )
+					ignore, ignore, stock = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, "(%d+)", false, true, true, 0, ArkInventory.Const.Tooltip.Search.Short )
 					stock = ArkInventory.TooltipTextToNumber( stock )
 					
 				elseif info.itemsubtypeid == ArkInventory.Const.ItemClass.GEM_ARTIFACTRELIC then
 					
-					_, _, ilvl = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, ArkInventory.Localise["WOW_TOOLTIP_RELIC_LEVEL"], false, true, true, 0, ArkInventory.Const.Tooltip.Search.Short )
+					ignore, ignore, ilvl = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, ArkInventory.Localise["WOW_TOOLTIP_RELIC_LEVEL"], false, true, true, 0, ArkInventory.Const.Tooltip.Search.Short )
 					ilvl = ArkInventory.TooltipTextToNumber( ilvl )
 					
 				elseif ArkInventory.CrossClient.IsAnimaItemByID( info.id ) or ArkInventory.PT_ItemInSets( info.id, "ArkInventory.Internal.ItemsWithStockValues" ) then
 					
-					_, _, stock = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, TooltipStockCapture1, false, true, false, 0, ArkInventory.Const.Tooltip.Search.Short )
+					ignore, ignore, stock = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, TooltipStockCapture1, false, true, false, 0, ArkInventory.Const.Tooltip.Search.Short )
 					stock = ArkInventory.TooltipTextToNumber( stock )
 					
 					if not stock then
 						
-						_, _, stock = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, TooltipStockCapture2, false, true, false, 0, ArkInventory.Const.Tooltip.Search.Short )
+						ignore, ignore, stock = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, TooltipStockCapture2, false, true, false, 0, ArkInventory.Const.Tooltip.Search.Short )
 						stock = ArkInventory.TooltipTextToNumber( stock )
 						
 						if not stock then
 							
-							_, _, stock = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, TooltipStockCapture3, false, true, false, 0, ArkInventory.Const.Tooltip.Search.Short )
+							ignore, ignore, stock = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, TooltipStockCapture3, false, true, false, 0, ArkInventory.Const.Tooltip.Search.Short )
 							stock = ArkInventory.TooltipTextToNumber( stock )
 							
 						end
@@ -215,12 +226,13 @@ local function UpdateObjectInfo( info, thread_id )
 					
 				else
 					
-					_, _, ilvl = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, ArkInventory.Localise["WOW_TOOLTIP_ITEM_LEVEL"], false, true, true, 4, ArkInventory.Const.Tooltip.Search.Short )
+					ignore, ignore, ilvl = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, ArkInventory.Localise["WOW_TOOLTIP_ITEM_LEVEL"], false, true, true, 4, ArkInventory.Const.Tooltip.Search.Short )
 					ilvl = ArkInventory.TooltipTextToNumber( ilvl )
 					
 				end
 				
 				if not stock then
+					--ArkInventory.OutputWarning( "stock is nil for ", key, " / ", info.ready )
 					info.ready = false
 				elseif stock ~= -1 then
 					--ilvl = ilvl or stock
@@ -804,12 +816,6 @@ function ArkInventory.GetObjectInfo( h, i )
 	
 	UpdateObjectInfo( info )
 	
-	if not info.ready then
-		--ArkInventory.Output( "debug: object not ready ", info.h )
-		QueueAdd( info.osd.hs )
-	end
-	
-	
 	if info.class == "copper" then
 		-- do not cache
 	elseif info.class == "empty" then
@@ -824,6 +830,11 @@ function ArkInventory.GetObjectInfo( h, i )
 		cacheGetObjectInfo[info.osd.h1] = info
 		cacheGetObjectInfo[info.osd.h2] = info
 		
+	end
+	
+	if not info.ready then
+		--ArkInventory.Output( "debug: object not ready ", info.h )
+		QueueAdd( info.osd.hs )
 	end
 	
 	return info

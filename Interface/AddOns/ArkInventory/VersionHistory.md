@@ -1,4 +1,15 @@
-﻿# 3.09.64 (23-FEB-2022)
+﻿# 3.09.65 (16-MAR-2022)
+ - added - category 461 - Consumable > Abilities and Actions
+ - added - item level 200 korthian equipment tokens
+ - added - item level 226 zereth mortis equipment tokens
+ - added - more code around getting item info
+ - changed - itemframe onenter code for bags, bank, and keyring, to allow for tiptac mouse anchoring
+ - updated - achievement to unlock flying in zereth mortis
+ - updated - mount data to 9.2.0
+ - updated - pet data to 9.2.0
+ - updated - recategorised some items
+
+# 3.09.64 (23-FEB-2022)
  - fixed - issue with LibDialog-1.0 (temporarily until the author fixes it)
  - fixed - (TBC) issue with splitting stacks in the guild bank
  - added - wago project id

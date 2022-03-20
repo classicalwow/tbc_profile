@@ -1,6 +1,8 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0531,
+	["LastVersion"] = 2.0534,
+	["LastPlayerFullName"] = "邁克爾假死-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 29081,
@@ -24,9 +26,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:30139::::::::70:::::::::|h[裂隙行者鍊衫]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 27521,
-			["Level"] = 115,
-			["Link"] = "|cff0070dd|Hitem:27521::::::::70::::::::|h[泰拉蕊狩獵束腰]|h|r",
+			["ID"] = 30879,
+			["Level"] = 141,
+			["Link"] = "|cffa335ee|Hitem:30879::::::::70:::::::::|h[阿里漢多先生的金幣腰帶]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 30142,
@@ -44,9 +46,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:30091::::::::70:::::::::|h[精準遠行者手環]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 27474,
-			["Level"] = 115,
-			["Link"] = "|cff0070dd|Hitem:27474::::::::70::::::::|h[野獸之王手甲]|h|r",
+			["ID"] = 31001,
+			["Level"] = 146,
+			["Link"] = "|cffa335ee|Hitem:31001::::::::70:::::::::|h[古羅行者的手套]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 30052,
@@ -78,15 +80,15 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:27878::::::::70::::::::|h[奧奇奈死亡罩氅]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 28263,
-			["Level"] = 115,
+			["ID"] = 30865,
+			["Level"] = 141,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff0070dd|Hitem:28263::::::::70::::::::|h[星斧]|h|r",
+			["Link"] = "|cffa335ee|Hitem:30865::::::::70:::::::::|h[追蹤者之刃]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 27747,
-			["Level"] = 115,
-			["Link"] = "|cff0070dd|Hitem:27747::::::::70::::::::|h[泥沼脊椎指節]|h|r",
+			["ID"] = 32945,
+			["Level"] = 141,
+			["Link"] = "|cffa335ee|Hitem:32945::::::::70:::::::::|h[熔岩狂怒拳套]|h|r",
 		}, -- [17]
 		{
 			["ID"] = 30318,
@@ -94,8 +96,6 @@ PawnOptions = {
 			["Link"] = "|cffff8000|Hitem:30318::::::::70:::::::::|h[虛空之絃長弓]|h|r",
 		}, -- [18]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "邁克爾假死-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
