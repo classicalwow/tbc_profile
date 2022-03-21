@@ -14,7 +14,9 @@ RecountDB = {
 					["h"] = 205.0000152587891,
 				},
 			},
-			["ReportLines"] = 1,
+			["DetailWindowX"] = 1036.721313476563,
+			["LastInstanceName"] = "海加爾山戰場",
+			["MainWindowHeight"] = 205.4917907714844,
 			["SegmentBosses"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -27,7 +29,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -298.7142333984375,
-			["DetailWindowX"] = 1036.721313476563,
+			["MainWindowWidth"] = 324.3896789550781,
+			["CurDataSet"] = "LastFightData",
+			["ReportLines"] = 1,
 			["Filters"] = {
 				["Show"] = {
 					["Hostile"] = true,
@@ -39,10 +43,6 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "海加爾山戰場",
-			["CurDataSet"] = "LastFightData",
-			["MainWindowWidth"] = 324.3896789550781,
-			["MainWindowHeight"] = 205.4917907714844,
 		},
 		["邁克爾假死 - 伊弗斯"] = {
 			["MainWindow"] = {
@@ -63,10 +63,10 @@ RecountDB = {
 					},
 				},
 			},
-			["MainWindowHeight"] = 253.3423614501953,
+			["LastInstanceName"] = "海加爾山戰場",
 			["CurDataSet"] = "CurrentFightData",
 			["MainWindowWidth"] = 333.3405151367188,
-			["LastInstanceName"] = "海加爾山戰場",
+			["MainWindowHeight"] = 253.3423614501953,
 		},
 	},
 }

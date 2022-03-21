@@ -25,9 +25,6 @@ END
 VER 3 0000000001000014 "VuhDoDCShieldData" "132281"
 R8SH1WM1WM1WM1SH2WM2WM[x]2WM3WM3WM4WM4SH5RM6SH7MR7MR8RM8DM8LR8WM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]2HR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__
 END
-VER 3 0000000001000017 "VuhDoDCShieldNames" "Ability_Repair"
-N女妖吸[x]祈福貓AfaAfa阿哪喜毛皮皮美腿多多胖Kaw野術可艾比蓋可以啊[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]邁克爾[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]陳國慶
-END
 VER 3 0000000001000018 "VuhDoDCShieldNames" "Ability_Repair"
 N快刀[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]邁克爾[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
@@ -39,6 +36,9 @@ N[x]狄月狄玥[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][
 END
 VER 3 0000000001000016 "VuhDoDCShieldNames" "Ability_Repair"
 N[x]穿馬靴AxeSan[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]邁克爾[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000001000017 "VuhDoDCShieldNames" "Ability_Repair"
+N女妖吸[x]祈福貓AfaAfa阿哪喜毛皮皮美腿多多胖Kaw野術可艾比蓋可以啊[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]邁克爾[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]陳國慶
 END
 VER 3 000000000100000E "爆發" "136048"
 #showtooltip 急速射擊
