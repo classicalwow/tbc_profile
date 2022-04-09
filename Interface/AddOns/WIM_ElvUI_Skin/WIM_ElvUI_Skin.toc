@@ -1,6 +1,6 @@
-## Interface: 20501
+## Interface: 20504
 ## Title: WIM - ElvUI Skin
-## Version: 20501.01-BBC
+## Version: 20504.01-BBC
 ## Author: fuba
 ## Original Author: Divico / Alleria EU
 ## Notes: A simple skin matching the Design of Elvui

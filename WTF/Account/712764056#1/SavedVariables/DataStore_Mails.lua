@@ -11,8 +11,8 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2022/03/20 22:33",
 			},
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1647703229,
-				["lastVisitDate"] = "2022/03/19 23:20",
+				["lastUpdate"] = 1649342509,
+				["lastVisitDate"] = "2022/04/07 22:41",
 			},
 		},
 	},

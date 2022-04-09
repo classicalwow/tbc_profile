@@ -7,7 +7,7 @@ DataStore_SpellsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1647711954,
+				["lastUpdate"] = 1649345640,
 				["Spells"] = {
 					["武器"] = {
 						"20230|", -- [1]
@@ -84,7 +84,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.伊弗斯.邁克爾假死"] = {
-				["lastUpdate"] = 1647776938,
+				["lastUpdate"] = 1647794568,
 				["Spells"] = {
 					["野獸控制"] = {
 						"883|", -- [1]

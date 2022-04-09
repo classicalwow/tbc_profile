@@ -14,9 +14,7 @@ RecountDB = {
 					["h"] = 205.0000152587891,
 				},
 			},
-			["DetailWindowX"] = 1036.721313476563,
-			["LastInstanceName"] = "海加爾山戰場",
-			["MainWindowHeight"] = 205.4917907714844,
+			["ReportLines"] = 1,
 			["SegmentBosses"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -29,9 +27,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -298.7142333984375,
-			["ReportLines"] = 1,
-			["CurDataSet"] = "LastFightData",
-			["MainWindowWidth"] = 324.3896789550781,
+			["DetailWindowX"] = 1036.721313476563,
 			["Filters"] = {
 				["Show"] = {
 					["Hostile"] = true,
@@ -43,8 +39,13 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
+			["LastInstanceName"] = "戈魯爾之巢",
+			["CurDataSet"] = "LastFightData",
+			["MainWindowWidth"] = 324.3896789550781,
+			["MainWindowHeight"] = 205.4917907714844,
 		},
 		["邁克爾假死 - 伊弗斯"] = {
+			["DetailWindowX"] = 835.6286010742188,
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = -524.08837890625,
@@ -53,7 +54,6 @@ RecountDB = {
 					["h"] = 253,
 				},
 			},
-			["MainWindowHeight"] = 253.3423614501953,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -65,10 +65,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -456.5082092285156,
-			["DetailWindowX"] = 835.6286010742188,
 			["LastInstanceName"] = "怒焰裂谷",
 			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 333.3405151367188,
+			["MainWindowHeight"] = 253.3423614501953,
 		},
 	},
 }

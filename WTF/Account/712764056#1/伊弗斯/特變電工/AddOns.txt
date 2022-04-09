@@ -157,3 +157,4 @@ ElvUI_CustomTags: disabled
 TalentEmu: enabled
 AceBIS: disabled
 DBM-VPVEM: disabled
+kExtraBossFrames: disabled
