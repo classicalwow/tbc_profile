@@ -24,17 +24,17 @@ LootMonitorDB = {
 				}, -- [1]
 			},
 			["Date"] = "2022-04-07",
-			["FirstClass"] = "WARLOCK",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "WARLOCK",
 			["InstanceName"] = "Gruul's Lair",
 		}, -- [1]
 		{
 			["InstanceID"] = 564,
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Black Temple",
-			["Class"] = "WARRIOR",
-			["Date"] = "2022-04-09",
 			["FirstClass"] = "UNKNOWN",
+			["Date"] = "2022-04-09",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-564-23592-22884-0000D16FBB",
@@ -716,9 +716,9 @@ LootMonitorDB = {
 					},
 				}, -- [16]
 			},
-			["Class"] = "WARRIOR",
-			["Date"] = "2022-04-09",
 			["FirstClass"] = "UNKNOWN",
+			["Date"] = "2022-04-09",
+			["Class"] = "WARRIOR",
 			["InstanceName"] = "Hyjal Summit",
 			["FirstPlayer"] = "熙夏",
 		}, -- [3]
@@ -728,8 +728,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "薩難奉陪",
 			["InstanceName"] = "Zul'Aman",
 			["Date"] = "2022-04-11",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "SHAMAN",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-568-28093-23574-000054346E",

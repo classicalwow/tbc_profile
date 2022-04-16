@@ -1648,9 +1648,10 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["type"] = "ITEM",
 						["item"] = "|cff0070dd|Hitem:31284::::::::70:::::::::|h[魯莽護腕]|h|r",
+						["type"] = "ITEM",
 						["count"] = 1,
+						["displayname"] = "",
 					},
 				}, -- [135]
 				{
@@ -3185,7 +3186,7 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["count"] = 3,
+						["count"] = 16,
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
 						["displayname"] = "",
@@ -3302,7 +3303,7 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["count"] = 3,
+						["count"] = 16,
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
 						["displayname"] = "",
@@ -3413,9 +3414,10 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:32750::::::::70:::::::::|h[圖樣:大地生命束腕]|h|r",
+						["type"] = "ITEM",
 						["count"] = 1,
+						["displayname"] = "",
 					},
 				}, -- [279]
 				{
@@ -3425,9 +3427,10 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:32593::::::::70:::::::::|h[獸穴之后足靴]|h|r",
+						["type"] = "ITEM",
 						["count"] = 1,
+						["displayname"] = "",
 					},
 				}, -- [280]
 				{
@@ -3509,9 +3512,10 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:32749::::::::70:::::::::|h[圖樣:電光反射護肩]|h|r",
+						["type"] = "ITEM",
 						["count"] = 1,
+						["displayname"] = "",
 					},
 				}, -- [287]
 				{
@@ -3521,9 +3525,10 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:32744::::::::70:::::::::|h[圖樣:生命再生護腕]|h|r",
+						["type"] = "ITEM",
 						["count"] = 1,
+						["displayname"] = "",
 					},
 				}, -- [288]
 				{
@@ -3750,9 +3755,10 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["type"] = "ITEM",
 						["item"] = "|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r",
+						["type"] = "ITEM",
 						["count"] = 5,
+						["displayname"] = "",
 					},
 				}, -- [307]
 				{
@@ -3762,9 +3768,10 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:32589::::::::70:::::::::|h[地獄火墜飾]|h|r",
+						["type"] = "ITEM",
 						["count"] = 1,
+						["displayname"] = "",
 					},
 				}, -- [308]
 				{
@@ -3798,9 +3805,10 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:32752::::::::70:::::::::|h[圖樣:速癒裹帶]|h|r",
+						["type"] = "ITEM",
 						["count"] = 1,
+						["displayname"] = "",
 					},
 				}, -- [311]
 				{
@@ -3810,9 +3818,10 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:34009::::::::70:::::::::|h[審判之錘]|h|r",
+						["type"] = "ITEM",
 						["count"] = 1,
+						["displayname"] = "",
 					},
 				}, -- [312]
 				{
@@ -3947,6 +3956,283 @@ RaidLedgerDatabase = {
 						["count"] = 1,
 					},
 				}, -- [323]
+				{
+					["beneficiary"] = "熙夏",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 13,
+					},
+				}, -- [324]
+				{
+					["beneficiary"] = "慕之內走步",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 13,
+					},
+				}, -- [325]
+				{
+					["beneficiary"] = "獵艷狂魔",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 13,
+					},
+				}, -- [326]
+				{
+					["beneficiary"] = "巴爹利",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 13,
+					},
+				}, -- [327]
+				{
+					["beneficiary"] = "別逼我變熊",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 13,
+					},
+				}, -- [328]
+				{
+					["beneficiary"] = "薩難奉陪",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 13,
+					},
+				}, -- [329]
+				{
+					["beneficiary"] = "鳳梨冰茶",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 13,
+					},
+				}, -- [330]
+				{
+					["beneficiary"] = "夜空之光",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 13,
+					},
+				}, -- [331]
+				{
+					["beneficiary"] = "夜空之光",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:33283::::::::70:::::::::|h[阿曼尼懲戒之錘]|h|r",
+						["count"] = 1,
+					},
+				}, -- [332]
+				{
+					["beneficiary"] = "巴爹利",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:33285::::::::70:::::::::|h[熊族之怒]|h|r",
+						["count"] = 1,
+					},
+				}, -- [333]
+				{
+					["beneficiary"] = "巴爹利",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:33493::::::::70:::::::::|h[陰影剃刃]|h|r",
+						["count"] = 1,
+					},
+				}, -- [334]
+				{
+					["beneficiary"] = "巴爹利",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:33329::::::::70:::::::::|h[影牙食人妖皮胸衣]|h|r",
+						["count"] = 1,
+					},
+				}, -- [335]
+				{
+					["beneficiary"] = "巴爹利",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:33500::::::::70:::::::::|h[永恆生命的徽記]|h|r",
+						["count"] = 1,
+					},
+				}, -- [336]
+				{
+					["beneficiary"] = "巴爹利",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:33317::::::::70:::::::::|h[過往靈魂之袍]|h|r",
+						["count"] = 1,
+					},
+				}, -- [337]
+				{
+					["beneficiary"] = "巴爹利",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:33809::::::::70:::::::::|h[阿曼尼戰熊]|h|r",
+						["count"] = 1,
+					},
+				}, -- [338]
+				{
+					["beneficiary"] = "巴爹利",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:33591::::::::70:::::::::|h[暗影施法者披氅]|h|r",
+						["count"] = 1,
+					},
+				}, -- [339]
+				{
+					["beneficiary"] = "巴爹利",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:33421::::::::70:::::::::|h[鬥爭牙衛]|h|r",
+						["count"] = 1,
+					},
+				}, -- [340]
+				{
+					["beneficiary"] = "巴爹利",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:33464::::::::70:::::::::|h[妖術領主的巫毒肩鎧]|h|r",
+						["count"] = 1,
+					},
+				}, -- [341]
+				{
+					["beneficiary"] = "夜空之光",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34029::::::::70:::::::::|h[小巫毒面具]|h|r",
+						["count"] = 1,
+					},
+				}, -- [342]
+				{
+					["beneficiary"] = "巴爹利",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:33478::::::::70:::::::::|h[金羅克，偉大的天啟之劍]|h|r",
+						["count"] = 1,
+					},
+				}, -- [343]
+				{
+					["beneficiary"] = "特變電工",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 2100,
+					["outstanding"] = false,
+					["costcache"] = 21000000,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:33474::::::::70:::::::::|h[上古阿曼尼長弓]|h|r",
+						["count"] = 1,
+					},
+				}, -- [344]
+				{
+					["beneficiary"] = "夜空之光",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:22450::::::::70:::::::::|h[虛無水晶]|h|r",
+						["count"] = 9,
+					},
+				}, -- [345]
+				{
+					["beneficiary"] = "薩難奉陪",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:33102::::::::70:::::::::|h[祖爾金之血]|h|r",
+						["count"] = 1,
+					},
+				}, -- [346]
 			},
 		}, -- [1]
 	},

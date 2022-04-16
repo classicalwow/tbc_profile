@@ -21,15 +21,14 @@ AtlasLootClassicDB = {
 					nil, -- [1]
 					nil, -- [2]
 					"CENTER", -- [3]
-					-88, -- [4]
-					32.00001525878906, -- [5]
+					44.31328964233398, -- [4]
+					34.33146667480469, -- [5]
 				},
-				["selectedGameVersion"] = 1,
 				["selected"] = {
-					nil, -- [1]
-					"HyjalSummit", -- [2]
-					5, -- [3]
-					3, -- [4]
+					"AtlasLootClassic_Crafting", -- [1]
+					"EnchantingBC", -- [2]
+					4, -- [3]
+					1, -- [4]
 					0, -- [5]
 				},
 			},
