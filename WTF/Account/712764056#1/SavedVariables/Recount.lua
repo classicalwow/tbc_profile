@@ -3,18 +3,18 @@ RecountDB = {
 	["profileKeys"] = {
 		["特變電工 - 伊弗斯"] = "特變電工 - 伊弗斯",
 		["邁克爾假死 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
+		["路易斯桑拿 - 伊弗斯"] = "路易斯桑拿 - 伊弗斯",
 	},
 	["profiles"] = {
 		["特變電工 - 伊弗斯"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -530.8424606323242,
-					["x"] = -459.4170837402344,
-					["w"] = 323.9999694824219,
-					["h"] = 205.0000152587891,
+					["y"] = -526.6712493896484,
+					["x"] = -461.3767700195313,
+					["w"] = 329.2459411621094,
+					["h"] = 214.3261108398438,
 				},
 			},
-			["ReportLines"] = 5,
 			["SegmentBosses"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -39,19 +39,42 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "羅德隆廢墟",
+			["LastInstanceName"] = "海加爾山戰場",
 			["CurDataSet"] = "LastFightData",
-			["MainWindowWidth"] = 324.3896789550781,
-			["MainWindowHeight"] = 205.4917907714844,
+			["MainWindowWidth"] = 329.2458801269531,
+			["MainWindowHeight"] = 214.3261108398438,
 		},
 		["邁克爾假死 - 伊弗斯"] = {
-			["DetailWindowX"] = 835.6286010742188,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = -524.08837890625,
 					["x"] = -450.0856323242188,
 					["w"] = 333.0000915527344,
 					["h"] = 253,
+				},
+			},
+			["DetailWindowX"] = 835.6286010742188,
+			["DetailWindowY"] = -456.5082092285156,
+			["MainWindowHeight"] = 253.3423614501953,
+			["CurDataSet"] = "OverallData",
+			["MainWindowWidth"] = 333.3405151367188,
+			["LastInstanceName"] = "怒焰裂谷",
+		},
+		["路易斯桑拿 - 伊弗斯"] = {
+			["MainWindowVis"] = false,
+			["MainWindow"] = {
+				["Position"] = {
+					["w"] = 140.0000152587891,
 				},
 			},
 			["Colors"] = {
@@ -64,11 +87,7 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -456.5082092285156,
-			["LastInstanceName"] = "怒焰裂谷",
 			["CurDataSet"] = "OverallData",
-			["MainWindowWidth"] = 333.3405151367188,
-			["MainWindowHeight"] = 253.3423614501953,
 		},
 	},
 }

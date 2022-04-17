@@ -2,6 +2,7 @@
 OmniBarDB = {
 	["profileKeys"] = {
 		["特變電工 - 伊弗斯"] = "Default",
+		["路易斯桑拿 - 伊弗斯"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -13,10 +14,10 @@ OmniBarDB = {
 					["tooltips"] = true,
 					["names"] = false,
 					["multiple"] = true,
-					["locked"] = false,
-					["highlightFocus"] = false,
-					["showUnused"] = false,
 					["swipeAlpha"] = 0.65,
+					["center"] = false,
+					["showUnused"] = false,
+					["locked"] = false,
 					["trackUnit"] = "ENEMY",
 					["size"] = 40,
 					["world"] = false,
@@ -79,7 +80,7 @@ OmniBarDB = {
 					},
 					["growUpward"] = true,
 					["arena"] = true,
-					["center"] = false,
+					["highlightFocus"] = false,
 					["battleground"] = false,
 				},
 			},

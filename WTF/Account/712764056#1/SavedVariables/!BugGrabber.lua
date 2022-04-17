@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-	["session"] = 724,
 	["lastSanitation"] = 3,
+	["session"] = 729,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\TomTom\\TomTom_Config.lua:40: attempt to call method 'EnableDisablePOIIntegration' (a nil value)",
@@ -74,8 +74,8 @@ BugGrabberDB = {
 		}, -- [9]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\MeetingHorn\\Libs\\tdGUI\\Libs\\LibClass-2.0-10\\LibClass-2.0.xml",
-			["session"] = 47,
 			["time"] = "2021/06/08 20:55:27",
+			["session"] = 47,
 			["counter"] = 91,
 		}, -- [10]
 		{
@@ -189,26 +189,26 @@ BugGrabberDB = {
 		}, -- [24]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\alaTalentEmu\\libs\\libs.xml",
-			["time"] = "2021/08/08 18:21:56",
 			["session"] = 304,
+			["time"] = "2021/08/08 18:21:56",
 			["counter"] = 3,
 		}, -- [25]
 		{
 			["message"] = "Error loading Interface\\AddOns\\ClassicCodex-patch\\objects-questie-tbc.lua",
-			["time"] = "2021/08/08 18:21:56",
 			["session"] = 304,
+			["time"] = "2021/08/08 18:21:56",
 			["counter"] = 3,
 		}, -- [26]
 		{
 			["message"] = "Error loading Interface\\AddOns\\ClassicCodex-patch\\objects-loc-tbc.lua",
-			["time"] = "2021/08/08 18:21:56",
 			["session"] = 304,
+			["time"] = "2021/08/08 18:21:56",
 			["counter"] = 3,
 		}, -- [27]
 		{
 			["message"] = "Error loading Interface\\AddOns\\Questie\\Localization\\Translations\\Zones\\Battlegrounds-戰場.lua",
-			["time"] = "2021/08/08 18:21:56",
 			["session"] = 304,
+			["time"] = "2021/08/08 18:21:56",
 			["counter"] = 1,
 		}, -- [28]
 		{
@@ -292,8 +292,8 @@ BugGrabberDB = {
 		}, -- [38]
 		{
 			["message"] = "Texture <unnamed>: Unable to load atlas entry QuestSharing-Padlock",
-			["session"] = 333,
 			["time"] = "2021/08/22 00:26:04",
+			["session"] = 333,
 			["counter"] = 10,
 		}, -- [39]
 		{
@@ -537,14 +537,14 @@ BugGrabberDB = {
 		}, -- [69]
 		{
 			["message"] = "Error loading Interface\\AddOns\\DBM-Core\\modules\\Modules.lua",
-			["time"] = "2021/10/17 14:23:42",
 			["session"] = 495,
+			["time"] = "2021/10/17 14:23:42",
 			["counter"] = 6,
 		}, -- [70]
 		{
 			["message"] = "Error loading Interface\\AddOns\\DBM-Core\\modules\\Icons.lua",
-			["time"] = "2021/10/17 14:23:42",
 			["session"] = 495,
+			["time"] = "2021/10/17 14:23:42",
 			["counter"] = 6,
 		}, -- [71]
 		{
@@ -666,14 +666,14 @@ BugGrabberDB = {
 		}, -- [86]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GladiusEx\\libs\\LibCooldownTracker-1.0-10\\cooldowns_bcc_racials.lua",
-			["session"] = 520,
 			["time"] = "2021/08/22 00:22:49",
+			["session"] = 520,
 			["counter"] = 470,
 		}, -- [87]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GladiusEx\\libs\\LibCooldownTracker-1.0-10\\cooldowns_bcc_items.lua",
-			["session"] = 520,
 			["time"] = "2021/08/22 00:22:49",
+			["session"] = 520,
 			["counter"] = 470,
 		}, -- [88]
 		{
@@ -748,14 +748,14 @@ BugGrabberDB = {
 		}, -- [97]
 		{
 			["message"] = "Binding ALARAIDTOOL_NEWWINDOW is defined more than once in Interface\\AddOns\\TalentEmu\\Bindings.xml",
-			["time"] = "2021/12/04 19:36:22",
 			["session"] = 578,
+			["time"] = "2021/12/04 19:36:22",
 			["counter"] = 2,
 		}, -- [98]
 		{
 			["message"] = "Binding ALARAIDTOOL_QUERY is defined more than once in Interface\\AddOns\\TalentEmu\\Bindings.xml",
-			["time"] = "2021/12/04 19:36:22",
 			["session"] = 578,
+			["time"] = "2021/12/04 19:36:22",
 			["counter"] = 2,
 		}, -- [99]
 		{
@@ -775,14 +775,14 @@ BugGrabberDB = {
 		}, -- [101]
 		{
 			["message"] = "Binding ALARAIDTOOL_NEWWINDOW is defined more than once in Interface\\AddOns\\alaTalentEmu\\Bindings.xml",
-			["session"] = 608,
 			["time"] = "2021/12/05 20:25:25",
+			["session"] = 608,
 			["counter"] = 58,
 		}, -- [102]
 		{
 			["message"] = "Binding ALARAIDTOOL_QUERY is defined more than once in Interface\\AddOns\\alaTalentEmu\\Bindings.xml",
-			["session"] = 608,
 			["time"] = "2021/12/05 20:25:25",
+			["session"] = 608,
 			["counter"] = 58,
 		}, -- [103]
 		{
@@ -921,56 +921,56 @@ BugGrabberDB = {
 		}, -- [120]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-EditBox.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [121]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Heading.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [122]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Icon.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [123]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-InteractiveLabel.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [124]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Keybinding.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [125]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Label.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [126]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-MultiLineEditBox.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [127]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Slider.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [128]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-ColorPicker.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 2,
 		}, -- [129]
 		{
@@ -1022,21 +1022,13 @@ BugGrabberDB = {
 			["counter"] = 17,
 		}, -- [135]
 		{
-			["message"] = "...TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua:751: attempt to index local 'color' (a nil value)",
-			["time"] = "2021/10/30 12:28:04",
-			["locals"] = "numBatchAuctions = 26458\ntotalAuctions = 26458\nbutton = BrowseButton2 {\n 0 = <userdata>\n itemCount = 1\n bidAmount = 61750\n buyoutPrice = 65000\n itemIndex = 2\n PriceTooltipFrame = <unnamed> {\n }\n}\nbuttonName = \"BrowseButton2\"\nbuttonHighlight = BrowseButton2Highlight {\n 0 = <userdata>\n PixelSnapDisabled = true\n}\niconTexture = BrowseButton1ItemIconTexture {\n 0 = <userdata>\n PixelSnapDisabled = true\n}\nitemName = BrowseButton2Name {\n SetVertexColor = <function> defined =[C]:-1\n PixelSnapDisabled = true\n 0 = <userdata>\n Hide = <function> defined =[C]:-1\n}\ncolor = nil\nitemCount = BrowseButton1ItemCount {\n 0 = <userdata>\n}\nmoneyFrame = BrowseButton1MoneyFrame {\n 0 = <userdata>\n vadjust = 1\n trialErrorButton = BrowseButton1MoneyFrameTrialErrorButton {\n }\n moneyType = \"AUCTION\"\n info = <table> {\n }\n small = 1\n staticMoney = 47307\n maxDisplayWidth = 146\n}\nyourBidText = BrowseButton1YourBidText {\n 0 = <userdata>\n}\nbuyoutFrame = BrowseButton1BuyoutFrame {\n 0 = <userdata>\n}\nbuyoutMoney = BrowseButton1BuyoutFrameMoney {\n 0 = <userdata>\n vadjust = 1\n trialErrorButton = BrowseButton1BuyoutFrameMoneyTrialErrorButton {\n }\n moneyType = \"AUCTION\"\n info = <table> {\n }\n small = 1\n staticMoney = 49797\n maxDisplayWidth = 146\n}\noffset = 0\nindex = 2\nisLastSlotEmpty = nil\nname = \"\"\ntexture = 134939\ncount = 1\nquality = -1\ncanUse = false\nlevel = -2054777088\nlevelColHeader = nil\nminBid = 75999\nminIncrement = 0\nbuyoutPrice = 79999\nduration = 1\nbidAmount = 0\nhighBidder = false\nbidderFullName = nil\nowner = nil\nownerFullName = nil\nsaleStatus = 0\nitemId = 24316\nhasAllInfo = true\ndisplayedPrice = 47307\nrequiredBid = 47307\n(for index) = 2\n(for limit) = 8\n(for step) = 1\ni = 2\nshouldHide = false\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = BrowseButton2Name {\n SetVertexColor = <function> defined =[C]:-1\n PixelSnapDisabled = true\n 0 = <userdata>\n Hide = <function> defined =[C]:-1\n}\n(*temporary) = \"\"\n(*temporary) = <userdata>\n(*temporary) = false\n(*temporary) = -2054777088\n(*temporary) = nil\n(*temporary) = 75999\n(*temporary) = 0\n(*temporary) = 79999\n(*temporary) = 0\n(*temporary) = false\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 0\n(*temporary) = 24316\n(*temporary) = true\n(*temporary) = \"attempt to index local 'color' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface_TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua\"]:751: in function <...TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua:684>\n[string \"=(tail call)\"]: ?\n[string \"@Interface\\AddOns\\Altoholic\\Altoholic-2.5.007.lua\"]:155: in function `AuctionFrameBrowse_Update'\n[string \"@Interface_TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua\"]:277: in function <...TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua:275>",
-			["session"] = 699,
-			["counter"] = 6,
-		}, -- [136]
-		{
 			["message"] = "Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:466: attempt to index local 'icon' (a nil value)",
 			["time"] = "2022/01/26 22:32:32",
 			["locals"] = "self = <unnamed> {\n 0 = <userdata>\n defaults = <table> {\n }\n messages = <table> {\n }\n ResetUnit = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:430\n RegisterMessage = <function> defined @Interface\\AddOns\\Gladdy\\Gladdy.lua:190\n UnregisterMessage = <function> defined @Interface\\AddOns\\Gladdy\\Gladdy.lua:194\n UpdateCooldowns = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:439\n UNIT_DESTROYED = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:435\n ENEMY_SPOTTED = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:270\n spellTextures = <table> {\n }\n CreateFrame = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:94\n DetectSpec = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:340\n UpdateTestCooldowns = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:249\n cooldownSpellIds = <table> {\n }\n GetCooldownOptions = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:823\n UpdateFrame = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:140\n UnregisterAllMessages = <function> defined @Interface\\AddOns\\Gladdy\\Gladdy.lua:198\n LegacySetPosition = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:915\n GetOptions = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:553\n CooldownUsed = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:494\n CooldownStart = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:278\n name = \"Cooldowns\"\n Initialize = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:74\n Test = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:235\n CooldownReady = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:311\n SPEC_DETECTED = <function> defined @Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:274\n priority = 0\n}\nbutton = GladdyButtonFrame5 {\n 0 = <userdata>\n racial = GladdyTrinketButtonarena5 {\n }\n class = \"ROGUE\"\n damaged = 0\n castBar = <unnamed> {\n }\n raceLoc = \"獸人\"\n aura = <unnamed> {\n }\n spellCooldownFrame = <unnamed> {\n }\n powerBar = <unnamed> {\n }\n leaderBorder = <unnamed> {\n }\n healthBar = <unnamed> {\n }\n trinket = GladdyTrinketButtonarena5 {\n }\n targetBorder = <unnamed> {\n }\n secure = GladdyButton5 {\n }\n name = \"千秋樂\"\n lastCooldownSpell = 15\n lastState = 1.500000\n classIcon = <unnamed> {\n }\n interruptFrame = <unnamed> {\n }\n highlight = <unnamed> {\n }\n focusBorder = <unnamed> {\n }\n range = <table> {\n }\n unit = \"arena5\"\n fd = false\n spec = \"戰鬥\"\n drFrame = <unnamed> {\n }\n classLoc = \"盜賊\"\n ciFrame = GladdyCombatindicatorarena5 {\n }\n race = \"Orc\"\n power = 0\n id = 5\n spells = <table> {\n }\n stealthed = false\n pom = false\n healthMax = 0\n powerType = 0\n classColors = <table> {\n }\n ns = false\n nf = false\n click = false\n powerMax = 0\n}\nclass = \"ROGUE\"\nrace = \"Orc\"\n(for generator) = <function> defined =[C]:-1\n(for state) = <table> {\n 36554 = <table> {\n }\n 2094 = <table> {\n }\n 11305 = <table> {\n }\n 31224 = 60\n 14185 = <table> {\n }\n 8643 = 20\n 13877 = <table> {\n }\n 1766 = 10\n 26669 = <table> {\n }\n 13750 = <table> {\n }\n 14177 = <table> {\n }\n 26889 = <table> {\n }\n}\n(for control) = 26669\nk = 26669\nv = <table> {\n cd = 300\n 戰鬥 = 180\n}\nsharedCD = false\nicon = nil\n(*temporary) = \"icon15\"\n(*temporary) = nil\n(*temporary) = \"14\"\n(*temporary) = <function> defined @Interface\\AddOns\\ElvUI\\Core\\General\\Toolkit.lua:34\n(*temporary) = <unnamed> {\n 0 = <userdata>\n PixelSnapDisabled = true\n}\n(*temporary) = true\n(*temporary) = <unnamed> {\n 0 = <userdata>\n PixelSnapDisabled = true\n}\n(*temporary) = false\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index local 'icon' (a nil value)\"\nGladdy = <table> {\n defaults = <table> {\n }\n curUnit = 1\n modules = <table> {\n }\n ToggleFrame = <function> defined @Interface\\AddOns\\Gladdy\\Frame.lua:281\n LegacyPositioning = <function> defined @Interface\\AddOns\\Gladdy\\Frame.lua:468\n UnregisterComm = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:153\n",
 			["stack"] = "[string \"@Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua\"]:466: in function `UpdateCooldowns'\n[string \"@Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua\"]:271: in function `?'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:174: in function `Call'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:179: in function `SendMessage'\n[string \"@Interface\\AddOns\\Gladdy\\EventListener.lua\"]:73: in function `SpotEnemy'\n[string \"@Interface\\AddOns\\Gladdy\\EventListener.lua\"]:41: in function `?'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:174: in function `Call'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:179: in function `SendMessage'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:528: in function `JoinedArena'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:423: in function `?'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:120: in function <Interface\\AddOns\\Gladdy\\Gladdy.lua:106>",
 			["session"] = 703,
 			["counter"] = 28,
-		}, -- [137]
+		}, -- [136]
 		{
 			["message"] = "Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua:457: attempt to index local 'icon' (a nil value)",
 			["time"] = "2022/01/26 22:41:14",
@@ -1044,7 +1036,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua\"]:457: in function `UpdateCooldowns'\n[string \"@Interface\\AddOns\\Gladdy\\Modules\\Cooldowns.lua\"]:271: in function `?'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:174: in function `Call'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:179: in function `SendMessage'\n[string \"@Interface\\AddOns\\Gladdy\\EventListener.lua\"]:73: in function `SpotEnemy'\n[string \"@Interface\\AddOns\\Gladdy\\EventListener.lua\"]:41: in function `?'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:174: in function `Call'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:179: in function `SendMessage'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:528: in function `JoinedArena'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:423: in function `?'\n[string \"@Interface\\AddOns\\Gladdy\\Gladdy-5.lua\"]:120: in function <Interface\\AddOns\\Gladdy\\Gladdy.lua:106>",
 			["session"] = 708,
 			["counter"] = 25,
-		}, -- [138]
+		}, -- [137]
 		{
 			["message"] = "...e\\AddOns\\TradeSkillMaster\\Core\\UI\\AuctionUI\\Core.lua:232: assertion failed!",
 			["time"] = "2022/03/20 19:50:57",
@@ -1052,21 +1044,21 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `assert'\n[string \"@Interface\\AddOns\\TradeSkillMaster\\Core\\UI\\AuctionUI\\Core.lua\"]:232: in function `callback'\n[string \"@Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\Event.lua\"]:85: in function `ProcessEvent'\n[string \"@Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\Event.lua\"]:101: in function <...erface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\Event.lua:93>\n[string \"=[C]\"]: in function `CloseAuctionHouse'\n[string \"@Interface\\AddOns\\aux-addon\\frame.lua\"]:29: in function <Interface\\AddOns\\aux-addon\\frame.lua:29>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface\\AddOns\\aux-addon\\frame.lua\"]:54: in function <Interface\\AddOns\\aux-addon\\frame.lua:54>",
 			["session"] = 717,
 			["counter"] = 1,
-		}, -- [139]
+		}, -- [138]
 		{
 			["message"] = "[string \"Error in: main_logic':'initialization\"]:47: attempt to index a nil value",
 			["time"] = "2022/03/20 22:05:34",
 			["stack"] = "[string \"Error in: main_logic\"]:28: in function <[string \"Error in: main_logic\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:611: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:537>\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:775: in function `CreateFakeStates'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.13.lua\"]:3734: in function `UpdateFakeStatesFor'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.13.lua\"]:3710: in function `FakeStatesFor'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.13.lua\"]:2691: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:2577>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.13.lua\"]:2711: in function `Add'\n[string \"@Interface\\AddOns\\WeakAuras\\Transmission.lua\"]:333: in function <Interface\\AddOns\\WeakAuras\\Transmission.lua:324>\n[string \"@Interface\\AddOns\\WeakAuras\\Transmission.lua\"]:519: in function <Interface\\AddOns\\WeakAuras\\Transmission.lua:416>",
 			["session"] = 718,
 			["counter"] = 1,
-		}, -- [140]
+		}, -- [139]
 		{
 			["message"] = "[string \"Error in: range_bar':'custom text\"]:9: attempt to compare nil with number",
 			["time"] = "2022/03/20 22:05:34",
 			["stack"] = "[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.13.lua\"]:4034: in function `RunCustomTextFunc'\n[string \"@Interface\\AddOns\\WeakAuras\\SubRegionTypes\\SubText.lua\"]:288: in function `?'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua\"]:34: in function `Notify'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.13.lua\"]:3800: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3797>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.13.lua\"]:3892: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3854>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.13.lua\"]:3975: in function `UpdatedTriggerState'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.13.lua\"]:3737: in function `UpdateFakeStatesFor'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.13.lua\"]:3710: in function `FakeStatesFor'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.13.lua\"]:2691: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:2577>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-3.7.13.lua\"]:2711: in function `Add'\n[string \"@Interface\\AddOns\\WeakAuras\\Transmission.lua\"]:333: in function <Interface\\AddOns\\WeakAuras\\Transmission.lua:324>\n[string \"@Interface\\AddOns\\WeakAuras\\Transmission.lua\"]:519: in function <Interface\\AddOns\\WeakAuras\\Transmission.lua:416>",
 			["session"] = 718,
 			["counter"] = 1,
-		}, -- [141]
+		}, -- [140]
 		{
 			["message"] = "Interface\\FrameXML\\ChatFrame.lua:1051: bad argument #1 to 'strlower' (string expected, got nil)",
 			["time"] = "2022/03/20 22:57:49",
@@ -1074,30 +1066,38 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `strlower'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:1051: in function <Interface\\FrameXML\\ChatFrame.lua:1046>",
 			["session"] = 718,
 			["counter"] = 3,
-		}, -- [142]
+		}, -- [141]
 		{
 			["message"] = "Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua:1946: Usage: SaveBindings(1||2)",
 			["time"] = "2021/06/20 23:23:47",
 			["locals"] = "(*temporary) = 0\n",
 			["stack"] = "[string \"=[C]\"]: in function `SaveBindings'\n[string \"@Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua\"]:1946: in function `SetSetBindings'\n[string \"@Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua\"]:233: in function `?'\n[string \"@Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua\"]:198: in function `OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
-			["session"] = 719,
-			["counter"] = 9,
-		}, -- [143]
+			["session"] = 725,
+			["counter"] = 10,
+		}, -- [142]
 		{
-			["message"] = "Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua:1179: Attempt to access forbidden object from code tainted by an AddOn",
-			["time"] = "2021/07/04 00:19:48",
-			["locals"] = "(*temporary) = SecureTransferDialog {\n 0 = <userdata>\n Button2 = <unnamed> {\n }\n MoneyLabel = <unnamed> {\n }\n CautionIcon = <unnamed> {\n }\n Text = <unnamed> {\n }\n Border = <unnamed> {\n }\n Button1 = <unnamed> {\n }\n}\n",
-			["stack"] = "[string \"=[C]\"]: in function `GetName'\n[string \"@Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua\"]:1179: in function `func'\n[string \"@Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua\"]:905: in function `OnUpdate'\n[string \"*:OnUpdate\"]:1: in function <[string \"*:OnUpdate\"]:1>",
-			["session"] = 721,
-			["counter"] = 174,
-		}, -- [144]
+			["message"] = "...TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua:751: attempt to index local 'color' (a nil value)",
+			["time"] = "2021/10/30 12:28:04",
+			["locals"] = "numBatchAuctions = 26458\ntotalAuctions = 26458\nbutton = BrowseButton2 {\n 0 = <userdata>\n itemCount = 1\n bidAmount = 61750\n buyoutPrice = 65000\n itemIndex = 2\n PriceTooltipFrame = <unnamed> {\n }\n}\nbuttonName = \"BrowseButton2\"\nbuttonHighlight = BrowseButton2Highlight {\n 0 = <userdata>\n PixelSnapDisabled = true\n}\niconTexture = BrowseButton1ItemIconTexture {\n 0 = <userdata>\n PixelSnapDisabled = true\n}\nitemName = BrowseButton2Name {\n SetVertexColor = <function> defined =[C]:-1\n PixelSnapDisabled = true\n 0 = <userdata>\n Hide = <function> defined =[C]:-1\n}\ncolor = nil\nitemCount = BrowseButton1ItemCount {\n 0 = <userdata>\n}\nmoneyFrame = BrowseButton1MoneyFrame {\n 0 = <userdata>\n vadjust = 1\n trialErrorButton = BrowseButton1MoneyFrameTrialErrorButton {\n }\n moneyType = \"AUCTION\"\n info = <table> {\n }\n small = 1\n staticMoney = 47307\n maxDisplayWidth = 146\n}\nyourBidText = BrowseButton1YourBidText {\n 0 = <userdata>\n}\nbuyoutFrame = BrowseButton1BuyoutFrame {\n 0 = <userdata>\n}\nbuyoutMoney = BrowseButton1BuyoutFrameMoney {\n 0 = <userdata>\n vadjust = 1\n trialErrorButton = BrowseButton1BuyoutFrameMoneyTrialErrorButton {\n }\n moneyType = \"AUCTION\"\n info = <table> {\n }\n small = 1\n staticMoney = 49797\n maxDisplayWidth = 146\n}\noffset = 0\nindex = 2\nisLastSlotEmpty = nil\nname = \"\"\ntexture = 134939\ncount = 1\nquality = -1\ncanUse = false\nlevel = -2054777088\nlevelColHeader = nil\nminBid = 75999\nminIncrement = 0\nbuyoutPrice = 79999\nduration = 1\nbidAmount = 0\nhighBidder = false\nbidderFullName = nil\nowner = nil\nownerFullName = nil\nsaleStatus = 0\nitemId = 24316\nhasAllInfo = true\ndisplayedPrice = 47307\nrequiredBid = 47307\n(for index) = 2\n(for limit) = 8\n(for step) = 1\ni = 2\nshouldHide = false\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = BrowseButton2Name {\n SetVertexColor = <function> defined =[C]:-1\n PixelSnapDisabled = true\n 0 = <userdata>\n Hide = <function> defined =[C]:-1\n}\n(*temporary) = \"\"\n(*temporary) = <userdata>\n(*temporary) = false\n(*temporary) = -2054777088\n(*temporary) = nil\n(*temporary) = 75999\n(*temporary) = 0\n(*temporary) = 79999\n(*temporary) = 0\n(*temporary) = false\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 0\n(*temporary) = 24316\n(*temporary) = true\n(*temporary) = \"attempt to index local 'color' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface_TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua\"]:751: in function <...TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua:684>\n[string \"=(tail call)\"]: ?\n[string \"@Interface\\AddOns\\Altoholic\\Altoholic-2.5.007.lua\"]:155: in function `AuctionFrameBrowse_Update'\n[string \"@Interface_TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua\"]:277: in function <...TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua:275>",
+			["session"] = 727,
+			["counter"] = 7,
+		}, -- [143]
 		{
 			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
 			["time"] = "2021/07/01 16:18:25",
 			["locals"] = "GearScore = 2320\nItemLevel = 105\nRed = 0.081600\nBlue = 0.320000\nGreen = 0.840000\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 5\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
-			["session"] = 723,
-			["counter"] = 7921,
+			["session"] = 727,
+			["counter"] = 7970,
+		}, -- [144]
+		{
+			["message"] = "Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua:1179: Attempt to access forbidden object from code tainted by an AddOn",
+			["time"] = "2021/07/04 00:19:48",
+			["locals"] = "(*temporary) = SecureTransferDialog {\n 0 = <userdata>\n Button2 = <unnamed> {\n }\n MoneyLabel = <unnamed> {\n }\n CautionIcon = <unnamed> {\n }\n Text = <unnamed> {\n }\n Border = <unnamed> {\n }\n Button1 = <unnamed> {\n }\n}\n",
+			["stack"] = "[string \"=[C]\"]: in function `GetName'\n[string \"@Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua\"]:1179: in function `func'\n[string \"@Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua\"]:905: in function `OnUpdate'\n[string \"*:OnUpdate\"]:1: in function <[string \"*:OnUpdate\"]:1>",
+			["session"] = 728,
+			["counter"] = 193,
 		}, -- [145]
 	},
 }

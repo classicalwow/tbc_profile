@@ -2,6 +2,7 @@
 OmniCDDB = {
 	["profileKeys"] = {
 		["特變電工 - 伊弗斯"] = "Default",
+		["路易斯桑拿 - 伊弗斯"] = "Default",
 	},
 	["cooldowns"] = {
 	},
