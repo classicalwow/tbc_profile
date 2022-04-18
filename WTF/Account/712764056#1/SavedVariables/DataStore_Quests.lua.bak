@@ -212,7 +212,7 @@ DataStore_QuestsDB = {
 				["lastUpdate"] = 1647794568,
 			},
 			["Default.伊弗斯.特變電工"] = {
-				["HistoryLastUpdate"] = 1650130984,
+				["HistoryLastUpdate"] = 1650204455,
 				["QuestHeaders"] = {
 					"影月谷", -- [1]
 					"時光之穴", -- [2]
@@ -338,6 +338,9 @@ DataStore_QuestsDB = {
 					[222] = 536871936,
 				},
 				["HistoryBuild"] = "42940",
+				["Rewards"] = {
+					[7] = "r|29299|1|1",
+				},
 				["Money"] = {
 					119900, -- [1]
 					119900, -- [2]
@@ -348,9 +351,6 @@ DataStore_QuestsDB = {
 					94800, -- [7]
 					246000, -- [8]
 					182800, -- [9]
-				},
-				["Rewards"] = {
-					[7] = "r|29299|1|1",
 				},
 				["Quests"] = {
 					4589634, -- [1]
@@ -363,7 +363,7 @@ DataStore_QuestsDB = {
 					4593728, -- [8]
 					4593728, -- [9]
 				},
-				["lastUpdate"] = 1650131212,
+				["lastUpdate"] = 1650204468,
 			},
 		},
 	},

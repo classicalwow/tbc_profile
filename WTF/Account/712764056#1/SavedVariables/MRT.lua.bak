@@ -1079,8 +1079,8 @@ VMRT = {
 			["偷心小貓咪"] = 0,
 			["翔翔大肆虐"] = 0,
 			["房仲陳先生"] = 0,
-			["Vanye"] = 0,
 			["花生湯種夾蛋"] = 0,
+			["Vanye"] = 0,
 			["吃肥皂吐泡泡"] = 0,
 			["妻的牧前進犯"] = 0,
 			["不要點我"] = 0,
@@ -1119,8 +1119,8 @@ VMRT = {
 			["諾多凱蘭崔爾"] = 0,
 			["千斤頂-瑪拉頓"] = 0,
 			["宿醉嘎逼"] = 0,
-			["塗奶油"] = 0,
 			["全憑感覺"] = 0,
+			["塗奶油"] = 0,
 			["戰光之淵"] = 0,
 			["頑劣之徒"] = 0,
 			["柒荷"] = 0,
@@ -1396,11 +1396,11 @@ VMRT = {
 	},
 	["Addon"] = {
 		["Version"] = 4610,
+		["Scale"] = 1,
 		["PreVersion"] = 4610,
-		["IconMiniMapTop"] = -13.09867688054399,
 		["Timer"] = 0.1,
 		["IconMiniMapLeft"] = -80,
-		["Scale"] = 1,
+		["IconMiniMapTop"] = -13.09867688054399,
 	},
 	["WhoPulled"] = {
 	},
@@ -1520,13 +1520,13 @@ VMRT = {
 	},
 	["RaidCheck"] = {
 		["FlaskExp"] = 1,
-		["WeaponEnch"] = {
-		},
+		["ReadyCheckFrameTimerFade"] = 4,
 		["BuffsCheck"] = true,
 		["ReadyCheckFrame"] = true,
-		["ReadyCheckTop"] = 1131.6318359375,
+		["WeaponEnch"] = {
+		},
 		["ReadyCheckLeft"] = 1319.671875,
 		["ReadyCheckFrameOnlyRL"] = true,
-		["ReadyCheckFrameTimerFade"] = 4,
+		["ReadyCheckTop"] = 1131.6318359375,
 	},
 }

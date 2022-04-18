@@ -39,7 +39,7 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "海加爾山戰場",
+			["LastInstanceName"] = "祖阿曼",
 			["CurDataSet"] = "LastFightData",
 			["MainWindowWidth"] = 329.2458801269531,
 			["MainWindowHeight"] = 214.3261108398438,

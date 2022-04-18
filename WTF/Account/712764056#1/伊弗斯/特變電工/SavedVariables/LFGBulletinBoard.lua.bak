@@ -126,52 +126,52 @@ GroupBulletinBoardDBChar = {
 		}, -- [11]
 		{
 			["dungeon"] = "海加爾山戰場",
-			["name"] = "一隻德魯伊",
+			["name"] = "司命",
 			["lastSeen"] = 1650130376,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-000CA381",
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-0011E3CB",
 		}, -- [12]
-		{
-			["dungeon"] = "海加爾山戰場",
-			["name"] = "騎風",
-			["lastSeen"] = 1650130376,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-00152DE8",
-		}, -- [13]
-		{
-			["dungeon"] = "海加爾山戰場",
-			["name"] = "森井冰檸檬",
-			["lastSeen"] = 1650130376,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-000BDB4C",
-		}, -- [14]
-		{
-			["dungeon"] = "海加爾山戰場",
-			["name"] = "叫我女王好萌",
-			["lastSeen"] = 1650130376,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-000BBD2C",
-		}, -- [15]
 		{
 			["dungeon"] = "海加爾山戰場",
 			["name"] = "術難奉陪",
 			["lastSeen"] = 1650130376,
 			["class"] = "WARLOCK",
 			["guid"] = "Player-4487-00005856",
-		}, -- [16]
-		{
-			["dungeon"] = "海加爾山戰場",
-			["name"] = "Devinfon",
-			["lastSeen"] = 1650130376,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-0000A6A1",
-		}, -- [17]
+		}, -- [13]
 		{
 			["dungeon"] = "海加爾山戰場",
 			["name"] = "歿天使",
 			["lastSeen"] = 1650130376,
 			["class"] = "PALADIN",
 			["guid"] = "Player-4487-00117A78",
+		}, -- [14]
+		{
+			["dungeon"] = "海加爾山戰場",
+			["name"] = "騎風",
+			["lastSeen"] = 1650130376,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-00152DE8",
+		}, -- [15]
+		{
+			["dungeon"] = "海加爾山戰場",
+			["name"] = "Devinfon",
+			["lastSeen"] = 1650130376,
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-0000A6A1",
+		}, -- [16]
+		{
+			["dungeon"] = "海加爾山戰場",
+			["name"] = "阿梨的聖騎士",
+			["lastSeen"] = 1650130376,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-00142225",
+		}, -- [17]
+		{
+			["dungeon"] = "海加爾山戰場",
+			["name"] = "一隻德魯伊",
+			["lastSeen"] = 1650130376,
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-000CA381",
 		}, -- [18]
 		{
 			["dungeon"] = "海加爾山戰場",
@@ -182,17 +182,17 @@ GroupBulletinBoardDBChar = {
 		}, -- [19]
 		{
 			["dungeon"] = "海加爾山戰場",
-			["name"] = "小嫩腳",
-			["lastSeen"] = 1650130376,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-00008E36",
-		}, -- [20]
-		{
-			["dungeon"] = "海加爾山戰場",
 			["name"] = "莉姆露",
 			["lastSeen"] = 1650130376,
 			["class"] = "SHAMAN",
 			["guid"] = "Player-4487-00134EBE",
+		}, -- [20]
+		{
+			["dungeon"] = "海加爾山戰場",
+			["name"] = "叫我女王好萌",
+			["lastSeen"] = 1650130376,
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-000BBD2C",
 		}, -- [21]
 		{
 			["dungeon"] = "海加爾山戰場",
@@ -217,45 +217,45 @@ GroupBulletinBoardDBChar = {
 		}, -- [24]
 		{
 			["dungeon"] = "海加爾山戰場",
-			["name"] = "尐沫",
-			["lastSeen"] = 1650130376,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4487-000B2DC0",
-		}, -- [25]
-		{
-			["dungeon"] = "海加爾山戰場",
 			["name"] = "無限天際",
 			["lastSeen"] = 1650130376,
 			["class"] = "SHAMAN",
 			["guid"] = "Player-4487-0014560E",
-		}, -- [26]
-		{
-			["dungeon"] = "海加爾山戰場",
-			["name"] = "阿梨的聖騎士",
-			["lastSeen"] = 1650130376,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-00142225",
-		}, -- [27]
-		{
-			["dungeon"] = "海加爾山戰場",
-			["name"] = "不死夜空",
-			["lastSeen"] = 1650130376,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-0006A4FD",
-		}, -- [28]
+		}, -- [25]
 		{
 			["dungeon"] = "海加爾山戰場",
 			["name"] = "翔翔大肆虐",
 			["lastSeen"] = 1650130376,
 			["class"] = "MAGE",
 			["guid"] = "Player-4487-00088599",
+		}, -- [26]
+		{
+			["dungeon"] = "海加爾山戰場",
+			["name"] = "尐沫",
+			["lastSeen"] = 1650130376,
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-000B2DC0",
+		}, -- [27]
+		{
+			["dungeon"] = "海加爾山戰場",
+			["name"] = "小嫩腳",
+			["lastSeen"] = 1650130376,
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-00008E36",
+		}, -- [28]
+		{
+			["dungeon"] = "海加爾山戰場",
+			["name"] = "森井冰檸檬",
+			["lastSeen"] = 1650130376,
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-000BDB4C",
 		}, -- [29]
 		{
 			["dungeon"] = "海加爾山戰場",
-			["name"] = "司命",
+			["name"] = "不死夜空",
 			["lastSeen"] = 1650130376,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-0011E3CB",
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-0006A4FD",
 		}, -- [30]
 		{
 			["dungeon"] = "海加爾山戰場",
