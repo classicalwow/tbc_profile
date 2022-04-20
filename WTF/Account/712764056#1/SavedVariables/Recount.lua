@@ -45,16 +45,7 @@ RecountDB = {
 			["MainWindowHeight"] = 214.3261108398438,
 		},
 		["邁克爾假死 - 伊弗斯"] = {
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
+			["MainWindowHeight"] = 253.3423614501953,
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = -524.08837890625,
@@ -65,10 +56,19 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 835.6286010742188,
 			["DetailWindowY"] = -456.5082092285156,
-			["MainWindowHeight"] = 253.3423614501953,
+			["LastInstanceName"] = "怒焰裂谷",
 			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 333.3405151367188,
-			["LastInstanceName"] = "怒焰裂谷",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
 		},
 		["路易斯桑拿 - 伊弗斯"] = {
 			["MainWindowVis"] = false,
