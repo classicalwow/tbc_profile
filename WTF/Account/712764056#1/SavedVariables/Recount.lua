@@ -39,12 +39,21 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "納葛蘭競技場",
-			["CurDataSet"] = "LastFightData",
+			["LastInstanceName"] = "祖阿曼",
+			["CurDataSet"] = "CurrentFightData",
 			["MainWindowWidth"] = 329.2458801269531,
 			["MainWindowHeight"] = 214.3261108398438,
 		},
 		["邁克爾假死 - 伊弗斯"] = {
+			["LastInstanceName"] = "怒焰裂谷",
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -524.08837890625,
+					["x"] = -450.0856323242188,
+					["w"] = 333.0000915527344,
+					["h"] = 253,
+				},
+			},
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -55,20 +64,11 @@ RecountDB = {
 					},
 				},
 			},
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = -524.08837890625,
-					["x"] = -450.0856323242188,
-					["w"] = 333.0000915527344,
-					["h"] = 253,
-				},
-			},
-			["DetailWindowX"] = 835.6286010742188,
 			["DetailWindowY"] = -456.5082092285156,
 			["MainWindowHeight"] = 253.3423614501953,
 			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 333.3405151367188,
-			["LastInstanceName"] = "怒焰裂谷",
+			["DetailWindowX"] = 835.6286010742188,
 		},
 		["路易斯桑拿 - 伊弗斯"] = {
 			["MainWindowVis"] = false,
