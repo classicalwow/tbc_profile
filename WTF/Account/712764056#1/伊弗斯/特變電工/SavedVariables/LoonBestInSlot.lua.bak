@@ -1,13 +1,13 @@
 
 LoonBestInSlotSettings = {
-	["minimap"] = {
-		["minimapPos"] = 180,
-		["hide"] = false,
-	},
+	["SelectedPhase"] = "BIS",
 	["SelectedZone"] = "All",
 	["ShowTooltip"] = true,
 	["SelectedSource"] = "All",
 	["SelectedSlot"] = "All",
 	["SelectedSpec"] = "Fury Warrior",
-	["SelectedPhase"] = "BIS",
+	["minimap"] = {
+		["minimapPos"] = 180,
+		["hide"] = false,
+	},
 }

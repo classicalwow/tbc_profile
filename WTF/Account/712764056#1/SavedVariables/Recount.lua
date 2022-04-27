@@ -39,13 +39,13 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "海加爾山戰場",
-			["CurDataSet"] = "CurrentFightData",
+			["LastInstanceName"] = "祖阿曼",
+			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 329.2458801269531,
 			["MainWindowHeight"] = 214.3261108398438,
 		},
 		["邁克爾假死 - 伊弗斯"] = {
-			["LastInstanceName"] = "怒焰裂谷",
+			["DetailWindowX"] = 835.6286010742188,
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = -524.08837890625,
@@ -65,10 +65,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -456.5082092285156,
-			["MainWindowHeight"] = 253.3423614501953,
+			["LastInstanceName"] = "怒焰裂谷",
 			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 333.3405151367188,
-			["DetailWindowX"] = 835.6286010742188,
+			["MainWindowHeight"] = 253.3423614501953,
 		},
 		["路易斯桑拿 - 伊弗斯"] = {
 			["MainWindowVis"] = false,
