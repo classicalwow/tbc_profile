@@ -26,8 +26,8 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -298.7142333984375,
-			["DetailWindowX"] = 1036.721313476563,
+			["DetailWindowY"] = -298.5081176757813,
+			["DetailWindowX"] = 1037.125610351563,
 			["Filters"] = {
 				["Show"] = {
 					["Hostile"] = true,
@@ -39,13 +39,13 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "祖阿曼",
+			["LastInstanceName"] = "納葛蘭競技場",
 			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 329.2458801269531,
 			["MainWindowHeight"] = 214.3261108398438,
 		},
 		["邁克爾假死 - 伊弗斯"] = {
-			["DetailWindowX"] = 835.6286010742188,
+			["MainWindowHeight"] = 253.3423614501953,
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = -524.08837890625,
@@ -54,6 +54,11 @@ RecountDB = {
 					["h"] = 253,
 				},
 			},
+			["DetailWindowX"] = 835.6286010742188,
+			["DetailWindowY"] = -456.5082092285156,
+			["LastInstanceName"] = "怒焰裂谷",
+			["CurDataSet"] = "OverallData",
+			["MainWindowWidth"] = 333.3405151367188,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -64,11 +69,6 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -456.5082092285156,
-			["LastInstanceName"] = "怒焰裂谷",
-			["CurDataSet"] = "OverallData",
-			["MainWindowWidth"] = 333.3405151367188,
-			["MainWindowHeight"] = 253.3423614501953,
 		},
 		["路易斯桑拿 - 伊弗斯"] = {
 			["MainWindowVis"] = false,
