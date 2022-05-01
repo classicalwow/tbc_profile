@@ -7,12 +7,12 @@ DataStore_QuestsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.伊弗斯.特變電工"] = {
-				["HistoryLastUpdate"] = 1650977503,
+				["HistoryLastUpdate"] = 1651320093,
 				["QuestHeaders"] = {
 					"影月谷", -- [1]
 					"時光之穴", -- [2]
 				},
-				["HistorySize"] = 785,
+				["HistorySize"] = 788,
 				["QuestTitles"] = {
 					"雷斯海卓恩的靈魂火砲", -- [1]
 					"勇士的誓約", -- [2]
@@ -115,12 +115,11 @@ DataStore_QuestsDB = {
 					[349] = 2013265920,
 					[58] = 16386,
 				},
+				["lastUpdate"] = 1651323213,
 				["HistoryBuild"] = "42940",
 				["Rewards"] = {
-					nil, -- [1]
-					"r|29299|1|1", -- [2]
+					[2] = "r|29299|1|1",
 				},
-				["lastUpdate"] = 1650984220,
 				["Quests"] = {
 					4589632, -- [1]
 					4591680, -- [2]

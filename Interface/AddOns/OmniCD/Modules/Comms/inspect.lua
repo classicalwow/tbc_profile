@@ -265,6 +265,7 @@ if E.isPreBCC then
 		for i = 1, 3 do
 			for j = 1, 25 do
 
+
 				local name, _,_,_, currentRank = GetTalentInfo(i, j, true, unit)
 				if not name then break end
 				if currentRank > 0 then
@@ -431,6 +432,8 @@ if E.isPreBCC then
 							end
 						end
 					end
+
+					InspectTooltip:ClearLines()
 				elseif i < 3 then
 					if not isDelimiter then
 						c = c + 1
@@ -443,8 +446,6 @@ if E.isPreBCC then
 					tmp[c] = itemID
 				end
 			end
-
-			InspectTooltip:ClearLines()
 		end
 
 		local talentInvSlots = table.concat(tmp, ",")
@@ -571,7 +572,13 @@ else
 											bonusID = tonumber(bonusID)
 											local runeforgeDescID = E.runeforge_bonusToDescID[bonusID]
 											if runeforgeDescID then
-												info.talentData[runeforgeDescID] = "R"
+												if type(runeforgeDescID) == "table" then
+													for _, v in pairs(runeforgeDescID) do
+														info.talentData[v] = "R"
+													end
+												else
+													info.talentData[runeforgeDescID] = "R"
+												end
 												break
 											end
 										end
@@ -782,10 +789,17 @@ else
 										bonusID = tonumber(bonusID)
 										local runeforgeDescID = E.runeforge_bonusToDescID[bonusID]
 										if runeforgeDescID then
-											local spec = E.runeforge_specID[runeforgeDescID]
-											if not spec or spec == specID then
-												info.talentData[runeforgeDescID] = "R"
-												tmp[#tmp + 1] = runeforgeDescID
+											if type(runeforgeDescID) == "table" then
+												for _, v in pairs(runeforgeDescID) do
+													info.talentData[v] = "R"
+													tmp[#tmp + 1] = v
+												end
+											else
+												local spec = E.runeforge_specID[runeforgeDescID]
+												if not spec or spec == specID then
+													info.talentData[runeforgeDescID] = "R"
+													tmp[#tmp + 1] = runeforgeDescID
+												end
 											end
 											break
 										end

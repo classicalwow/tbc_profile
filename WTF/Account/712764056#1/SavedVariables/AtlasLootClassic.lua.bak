@@ -30,7 +30,7 @@ AtlasLootClassicDB = {
 		},
 		["特變電工 - 伊弗斯"] = {
 			["minimap"] = {
-				["minimapPos"] = 228.6882344345748,
+				["minimapPos"] = 232.2005268178225,
 			},
 			["GUI"] = {
 				["point"] = {
@@ -42,8 +42,8 @@ AtlasLootClassicDB = {
 				},
 				["selected"] = {
 					nil, -- [1]
-					"ZulAman", -- [2]
-					nil, -- [3]
+					"BlackTemple", -- [2]
+					3, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},

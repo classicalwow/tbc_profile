@@ -26,8 +26,8 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -298.7142333984375,
-			["DetailWindowX"] = 1036.721313476563,
+			["DetailWindowY"] = -296.1766662597656,
+			["DetailWindowX"] = 1036.542724609375,
 			["Filters"] = {
 				["Show"] = {
 					["Hostile"] = true,
@@ -39,8 +39,8 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "祖阿曼",
-			["CurDataSet"] = "OverallData",
+			["LastInstanceName"] = "黑暗神廟",
+			["CurDataSet"] = "CurrentFightData",
 			["MainWindowWidth"] = 329.2458801269531,
 			["MainWindowHeight"] = 214.3261108398438,
 		},

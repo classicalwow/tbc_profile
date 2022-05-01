@@ -26,8 +26,8 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -298.5081176757813,
-			["DetailWindowX"] = 1037.125610351563,
+			["DetailWindowY"] = -296.1766662597656,
+			["DetailWindowX"] = 1036.542724609375,
 			["Filters"] = {
 				["Show"] = {
 					["Hostile"] = true,
@@ -39,8 +39,8 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "納葛蘭競技場",
-			["CurDataSet"] = "OverallData",
+			["LastInstanceName"] = "海加爾山戰場",
+			["CurDataSet"] = "CurrentFightData",
 			["MainWindowWidth"] = 329.2458801269531,
 			["MainWindowHeight"] = 214.3261108398438,
 		},

@@ -91,7 +91,7 @@ local function GetHolyWordRT(info, guid, reducedTime)
 
 
 	if info.auras.isDivineConversation then
-		reducedTime = reducedTime + 15
+		reducedTime = reducedTime + (P.isPvP and 10 or 15)
 	end
 
 	return reducedTime
@@ -591,7 +591,7 @@ do
 		if info.talentData[334525] then
 			local icon = info.spellIcons[DANCING_RUNE_WEAPON]
 			if icon and icon.active then
-				P:UpdateCooldown(icon, 3 * consumed)
+				P:UpdateCooldown(icon, 5 * consumed)
 			end
 		end
 	end
@@ -1334,7 +1334,7 @@ do
 			if info.auras.isSavedByAD then
 				info.auras.isSavedByAD = nil
 			elseif info.talentData[337838] then
-				P:UpdateCooldown(icon, 45)
+				P:UpdateCooldown(icon, 44.8)
 			end
 			RemoveHighlightByCLEU(info, srcGUID, spellID, destGUID)
 		end
@@ -1883,8 +1883,8 @@ do
 		if icon then
 			if spellID == 323436 then
 				local stacks = icon.Count:GetText()
-				stacks = (tonumber(stacks) or 3) - 1
-				stacks = stacks >= 0 and stacks or 0
+				stacks = tonumber(stacks)
+				stacks = (stacks and stacks > 0 and stacks or 3) - 1
 				icon.Count:SetText(stacks)
 				info.auras.purifySoulStacks = stacks
 			end
@@ -2084,7 +2084,7 @@ do
 	local BLESSING_OF_AUTUMN = 328622
 	local BENEVOLENT_FAERIE = 327710
 	local BENEVOLENT_FAERIE_FERMATA = 345453
-
+	local HAUNTED_MASK = 356968
 	local SYMBOL_OF_HOPE = 265144
 	local EMERALD_SLUMBER = 329042
 
@@ -2187,7 +2187,12 @@ do
 			end
 		elseif spellID == BENEVOLENT_FAERIE then
 			if destInfo.auras.isBenevolent then
-				UpdateIconRR(destInfo, "benevolent", 2)
+				if destInfo.auras.isHauntedCDR then
+					UpdateIconRR(destInfo, "benevolent", 3)
+					destInfo.auras.isHauntedCDR = nil
+				else
+					UpdateIconRR(destInfo, "benevolent", 2)
+				end
 				destInfo.auras.isBenevolent = nil
 			end
 		elseif spellID == BENEVOLENT_FAERIE_FERMATA then
@@ -2195,7 +2200,14 @@ do
 				UpdateIconRR(destInfo, "benevolent", 1.8)
 				destInfo.auras.isFermata = nil
 			end
-
+		elseif spellID == HAUNTED_MASK then
+			if destInfo.auras.isHauntedMask == srcGUID then
+				if destInfo.auras.isHauntedCDR then
+					UpdateIconRR(destInfo, "benevolent", 1.5)
+					destInfo.auras.isHauntedCDR = nil
+				end
+				destInfo.auras.isHauntedMask = nil
+			end
 		elseif spellID == SYMBOL_OF_HOPE then
 			if destInfo.auras["symbol"] then
 				UpdateIconRR(destInfo, "symbol", 1/destInfo.auras["symbol"])
@@ -2235,12 +2247,22 @@ do
 		if spellID == INTIMIDATION_TACTICS then
 			UpdateIconRR(destInfo, "intimidation", 1/3)
 		elseif spellID == BENEVOLENT_FAERIE then
-			UpdateIconRR(destInfo, "benevolent", 0.5)
+			if destInfo.auras.isHauntedMask and not destInfo.auras.isHauntedCDR then
+				destInfo.auras.isHauntedCDR = true
+				UpdateIconRR(destInfo, "benevolent", 1/3)
+			else
+				UpdateIconRR(destInfo, "benevolent", 0.5)
+			end
 			destInfo.auras.isBenevolent = true
 		elseif spellID == BENEVOLENT_FAERIE_FERMATA then
 			UpdateIconRR(destInfo, "benevolent", 1/1.8)
 			destInfo.auras.isFermata = true
-
+		elseif spellID == HAUNTED_MASK then
+			if destInfo.auras.isBenevolent and not destInfo.auras.isHauntedMask and not destInfo.auras.isHauntedCDR then
+				destInfo.auras.isHauntedCDR = true
+				UpdateIconRR(destInfo, "benevolent", 1/1.5)
+			end
+			destInfo.auras.isHauntedMask = srcGUID
 		elseif spellID == SYMBOL_OF_HOPE then
 			local _,_,_, startTimeMS, endTimeMS = UnitChannelInfo(info and info.unit or "player")
 			if startTimeMS and endTimeMS then
@@ -2292,8 +2314,8 @@ do
 	registeredEvents.SPELL_AURA_REMOVED[BENEVOLENT_FAERIE] = RemoveModRate
 	registeredEvents.SPELL_AURA_APPLIED[BENEVOLENT_FAERIE_FERMATA] = UpdateModRate
 	registeredEvents.SPELL_AURA_REMOVED[BENEVOLENT_FAERIE_FERMATA] = RemoveModRate
-
-
+	registeredEvents.SPELL_AURA_APPLIED[HAUNTED_MASK] = UpdateModRate
+	registeredEvents.SPELL_AURA_REMOVED[HAUNTED_MASK] = RemoveModRate
 	registeredEvents.SPELL_AURA_APPLIED[SYMBOL_OF_HOPE] = UpdateModRate
 	registeredEvents.SPELL_AURA_REMOVED[SYMBOL_OF_HOPE] = RemoveModRate
 	registeredEvents.SPELL_AURA_APPLIED[EMERALD_SLUMBER] = UpdateModRate
@@ -2311,10 +2333,35 @@ do
 	registeredUserEvents.SPELL_AURA_REMOVED[BENEVOLENT_FAERIE] = RemoveModRate
 	registeredUserEvents.SPELL_AURA_APPLIED[BENEVOLENT_FAERIE_FERMATA] = UpdateModRate
 	registeredUserEvents.SPELL_AURA_REMOVED[BENEVOLENT_FAERIE_FERMATA] = RemoveModRate
-
-
+	registeredUserEvents.SPELL_AURA_APPLIED[HAUNTED_MASK] = UpdateModRate
+	registeredUserEvents.SPELL_AURA_REMOVED[HAUNTED_MASK] = RemoveModRate
 	registeredUserEvents.SPELL_AURA_APPLIED[SYMBOL_OF_HOPE] = UpdateModRate
 	registeredUserEvents.SPELL_AURA_REMOVED[SYMBOL_OF_HOPE] = RemoveModRate
+
+
+	registeredEvents.SPELL_CAST_SUCCESS[17] = function(_,_,_, destGUID)
+		local destInfo = groupInfo[destGUID];
+		if ( destInfo ) then
+			if ( destInfo.auras.isHauntedMask and destInfo.auras.isHauntedCDR ) then
+				UpdateIconRR(destInfo, "benevolent", 1.5);
+				destInfo.auras.isHauntedCDR = nil;
+			end
+		end
+	end
+	registeredEvents.SPELL_CAST_SUCCESS[186263] = function(_,_,_, destGUID)
+		local destInfo = groupInfo[destGUID];
+		if ( destInfo and destInfo.auras.isBenevolent ) then
+			if ( destInfo.auras.isHauntedMask and not destInfo.auras.isHauntedCDR ) then
+				UpdateIconRR(destInfo, "benevolent", 1/1.5);
+				destInfo.auras.isHauntedCDR = true;
+			end
+		end
+	end
+	registeredEvents.SPELL_CAST_SUCCESS[2061] = registeredEvents.SPELL_CAST_SUCCESS[186263]
+
+	registeredUserEvents.SPELL_CAST_SUCCESS[17] = registeredEvents.SPELL_CAST_SUCCESS[17]
+	registeredUserEvents.SPELL_CAST_SUCCESS[186263] = registeredEvents.SPELL_CAST_SUCCESS[186263]
+	registeredUserEvents.SPELL_CAST_SUCCESS[2061] = registeredEvents.SPELL_CAST_SUCCESS[186263]
 
 
 	registeredHostileEvents.SPELL_AURA_REMOVED[DECRYPTED_URH_CYPHER] = function(destInfo)
@@ -2457,6 +2504,21 @@ registeredHostileEvents.SPELL_ABSORBED.PALADIN = ReduceDivineShieldCD
 
 
 
+
+if ( not E.isPreBCC ) then
+	for k in pairs(E.sync_periodic) do
+		if ( registeredEvents.SPELL_CAST_SUCCESS[k] ) then
+			local func = registeredEvents.SPELL_CAST_SUCCESS[k]
+			registeredEvents.SPELL_CAST_SUCCESS[k] = function(info, srcGUID, spellID, destGUID)
+				func(info, srcGUID, spellID, destGUID)
+				E.Comms.ForceSync()
+			end
+		else
+			registeredEvents.SPELL_CAST_SUCCESS[k] = E.Comms.ForceSync
+		end
+	end
+end
+
 setmetatable(registeredEvents, nil)
 setmetatable(registeredUserEvents, nil)
 setmetatable(registeredHostileEvents, nil)
@@ -2486,6 +2548,9 @@ function P:SetDisabledColorScheme(destInfo)
 end
 
 local function UpdateDeadStatus(destInfo)
+	if ( E.isPreBCC and UnitHealth(destInfo.unit) > 1 ) then
+		return;
+	end
 	P:SetDisabledColorScheme(destInfo)
 	destInfo.isDead = true
 	destInfo.bar:RegisterUnitEvent("UNIT_HEALTH", destInfo.unit)
@@ -2573,7 +2638,7 @@ else
 
 				local mark = E.db.extraBars.interruptBar.showRaidTargetMark and RAID_TARGET_MARKERS[destRaidFlags]
 				if mark then
-					statusBar.CastingBar.Text:SetText(statusBar.name .. mark)
+					statusBar.CastingBar.Text:SetText(format("%s %s", statusBar.name, mark))
 				end
 			end
 		end
@@ -2646,6 +2711,10 @@ else
 			if not info then
 				return
 			end
+
+
+
+
 
 			local func = registeredEvents[event] and registeredEvents[event][spellID]
 			if func then
