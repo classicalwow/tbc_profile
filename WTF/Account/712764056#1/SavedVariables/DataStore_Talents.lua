@@ -7,7 +7,7 @@ DataStore_TalentsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.伊弗斯.邁克爾假死"] = {
-				["lastUpdate"] = 1647794568,
+				["lastUpdate"] = 1651478075,
 				["Class"] = "HUNTER",
 				["TalentTrees"] = {
 					["野獸控制"] = {
@@ -29,8 +29,9 @@ DataStore_TalentsDB = {
 						4, -- [16]
 						3, -- [17]
 						1, -- [18]
-						[20] = 5,
-						[21] = 1,
+						nil, -- [19]
+						5, -- [20]
+						1, -- [21]
 					},
 					["射擊"] = {
 						nil, -- [1]
@@ -48,7 +49,7 @@ DataStore_TalentsDB = {
 				["PointsSpent"] = "41,20,0",
 			},
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1651425931,
+				["lastUpdate"] = 1651471014,
 				["Class"] = "WARRIOR",
 				["TalentTrees"] = {
 					["武器"] = {

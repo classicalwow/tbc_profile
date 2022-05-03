@@ -186,3 +186,4 @@ AceBIS: enabled
 AutoCombatLogger: enabled
 Leatrix_Maps: enabled
 ElvUI_CustomTags: disabled
+kExtraBossFrames: disabled

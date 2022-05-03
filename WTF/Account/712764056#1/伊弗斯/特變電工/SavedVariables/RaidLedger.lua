@@ -61,7 +61,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
-						["count"] = 8,
+						["count"] = 13,
 					},
 				}, -- [5]
 				{
@@ -304,6 +304,414 @@ RaidLedgerDatabase = {
 						["count"] = 10,
 					},
 				}, -- [25]
+				{
+					["beneficiary"] = "陶大師",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 5,
+					},
+				}, -- [26]
+				{
+					["beneficiary"] = "Wooloomooloo",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 5,
+					},
+				}, -- [27]
+				{
+					["beneficiary"] = "匕落花謝",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 5,
+					},
+				}, -- [28]
+				{
+					["beneficiary"] = "浩然之氣",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 5,
+					},
+				}, -- [29]
+				{
+					["beneficiary"] = "Exilescepter",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 5,
+					},
+				}, -- [30]
+				{
+					["beneficiary"] = "Keycho",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 5,
+					},
+				}, -- [31]
+				{
+					["beneficiary"] = "風尋的記憶",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 5,
+					},
+				}, -- [32]
+				{
+					["beneficiary"] = "廢物清理者",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 5,
+					},
+				}, -- [33]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 5,
+					},
+				}, -- [34]
+				{
+					["beneficiary"] = "冰冷聖經",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 5,
+					},
+				}, -- [35]
+				{
+					["beneficiary"] = "莫札特",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 5,
+					},
+				}, -- [36]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:28797::::::::70:::::::::|h[野蠻巨魔僧侶披風]|h|r",
+						["count"] = 1,
+					},
+				}, -- [37]
+				{
+					["beneficiary"] = "四代目",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 5,
+					},
+				}, -- [38]
+				{
+					["beneficiary"] = "夜空之光",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 5,
+					},
+				}, -- [39]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29762::::::::70:::::::::|h[逝往英雄肩鎧]|h|r",
+						["count"] = 1,
+					},
+				}, -- [40]
+				{
+					["beneficiary"] = "強尼帶譜",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 5,
+					},
+				}, -- [41]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29763::::::::70:::::::::|h[逝往勇士肩鎧]|h|r",
+						["count"] = 1,
+					},
+				}, -- [42]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29762::::::::70:::::::::|h[逝往英雄肩鎧]|h|r",
+						["count"] = 1,
+					},
+				}, -- [43]
+				{
+					["beneficiary"] = "術難奉陪",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 5,
+					},
+				}, -- [44]
+				{
+					["beneficiary"] = "晨曦月",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 5,
+					},
+				}, -- [45]
+				{
+					["beneficiary"] = "哈啦不滿",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 5,
+					},
+				}, -- [46]
+				{
+					["beneficiary"] = "一邪天御武一",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 5,
+					},
+				}, -- [47]
+				{
+					["beneficiary"] = "斬殺王",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 5,
+					},
+				}, -- [48]
+				{
+					["beneficiary"] = "四根漲停",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 5,
+					},
+				}, -- [49]
+				{
+					["beneficiary"] = "你點到美男了",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 5,
+					},
+				}, -- [50]
+				{
+					["beneficiary"] = "Ameame",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 5,
+					},
+				}, -- [51]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:31335::::::::70:::::::::|h[成長便褲]|h|r",
+						["count"] = 1,
+					},
+				}, -- [52]
+				{
+					["beneficiary"] = "凱喬美",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 3,
+					},
+				}, -- [53]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29766::::::::70:::::::::|h[逝往勇士護腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [54]
+				{
+					["beneficiary"] = "吃瓜群眾",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 3,
+					},
+				}, -- [55]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:28822::::::::70:::::::::|h[戈魯爾之牙]|h|r",
+						["count"] = 1,
+					},
+				}, -- [56]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:28825::::::::70:::::::::|h[奧多爾遺產防衛者]|h|r",
+						["count"] = 1,
+					},
+				}, -- [57]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29766::::::::70:::::::::|h[逝往勇士護腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [58]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29765::::::::70:::::::::|h[逝往英雄護腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [59]
 			},
 		}, -- [1]
 	},
@@ -315,11 +723,11 @@ RaidLedgerDatabase = {
 		["minimapicons"] = {
 			["hide"] = false,
 		},
-		["debittemplates"] = {
-		},
+		["minimapicon"] = true,
 		["raidbutton"] = true,
 		["filteritems"] = "# 每行一條, 可以是物品名稱或物品ID\n# 以 # 開頭的行自動被忽略\n",
-		["minimapicon"] = true,
+		["debittemplates"] = {
+		},
 		["filterzero"] = false,
 	},
 	["current"] = 1,

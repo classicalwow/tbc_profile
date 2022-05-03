@@ -1,6 +1,6 @@
 
 BugGrabberDB = {
-	["session"] = 752,
+	["session"] = 758,
 	["lastSanitation"] = 3,
 	["errors"] = {
 		{
@@ -1068,21 +1068,13 @@ BugGrabberDB = {
 			["counter"] = 10,
 		}, -- [141]
 		{
-			["message"] = "Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua:1179: Attempt to access forbidden object from code tainted by an AddOn",
-			["time"] = "2021/07/04 00:19:48",
-			["locals"] = "(*temporary) = SecureTransferDialog {\n 0 = <userdata>\n Button2 = <unnamed> {\n }\n MoneyLabel = <unnamed> {\n }\n CautionIcon = <unnamed> {\n }\n Text = <unnamed> {\n }\n Border = <unnamed> {\n }\n Button1 = <unnamed> {\n }\n}\n",
-			["stack"] = "[string \"=[C]\"]: in function `GetName'\n[string \"@Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua\"]:1179: in function `func'\n[string \"@Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua\"]:905: in function `OnUpdate'\n[string \"*:OnUpdate\"]:1: in function <[string \"*:OnUpdate\"]:1>",
-			["session"] = 743,
-			["counter"] = 226,
-		}, -- [142]
-		{
 			["message"] = "Interface\\AddOns\\LFGBulletinBoard\\RequestList.lua:341: invalid order function for sorting",
 			["time"] = "2021/07/28 11:22:59",
 			["locals"] = "(*temporary) = <table> {\n 1 = <table> {\n }\n 2 = <table> {\n }\n 3 = <table> {\n }\n 4 = <table> {\n }\n 5 = <table> {\n }\n 6 = <table> {\n }\n 7 = <table> {\n }\n 8 = <table> {\n }\n 9 = <table> {\n }\n 10 = <table> {\n }\n 11 = <table> {\n }\n 12 = <table> {\n }\n 13 = <table> {\n }\n 14 = <table> {\n }\n 15 = <table> {\n }\n 16 = <table> {\n }\n 17 = <table> {\n }\n 18 = <table> {\n }\n 19 = <table> {\n }\n 20 = <table> {\n }\n 21 = <table> {\n }\n 22 = <table> {\n }\n 23 = <table> {\n }\n 24 = <table> {\n }\n 25 = <table> {\n }\n 26 = <table> {\n }\n 27 = <table> {\n }\n 28 = <table> {\n }\n}\n(*temporary) = <function> defined @Interface\\AddOns\\LFGBulletinBoard\\RequestList.lua:23\n(*temporary) = <table> {\n IsFriend = false\n last = 1627442549\n class = \"PALADIN\"\n IsGuildMember = false\n IsPastPlayer = false\n name = \"Workmen\"\n message = \"KLZ末班車（舞臺劇開始）——坦補DD\"\n start = 1627442481\n IsHeroic = false\n dungeon = \"MISC\"\n IsRaid = false\n}\n(*temporary) = <table> {\n IsFriend = false\n last = 1627442490\n class = \"PALADIN\"\n IsGuildMember = false\n IsPastPlayer = false\n name = \"該天真的日子\"\n message = \"找妹子  魷魚該出場了?\"\n start = 1627442490\n IsHeroic = false\n dungeon = \"MISC\"\n IsRaid = false\n}\n(*temporary) = <table> {\n IsFriend = false\n last = 1627442502\n class = \"SHAMAN\"\n IsGuildMember = false\n IsPastPlayer = false\n name = \"電療晶魔炎\"\n message = \"先噴他搞氣氛就對了\"\n start = 1627442481\n IsHeroic = false\n dungeon = \"MISC\"\n IsRaid = false\n}\n",
 			["stack"] = "[string \"=[C]\"]: in function `sort'\n[string \"@Interface\\AddOns\\LFGBulletinBoard\\RequestList.lua\"]:341: in function `UpdateList'\n[string \"@Interface\\AddOns\\LFGBulletinBoard\\RequestList.lua\"]:732: in function `PhraseMessage'\n[string \"@Interface\\AddOns\\LFGBulletinBoard\\GroupBulletinBoard.lua\"]:666: in function `?'\n[string \"@Interface\\AddOns\\LFGBulletinBoard\\LibGPIToolBox.lua\"]:100: in function <Interface\\AddOns\\LFGBulletinBoard\\LibGPIToolBox.lua:97>",
 			["session"] = 751,
 			["counter"] = 7,
-		}, -- [143]
+		}, -- [142]
 		{
 			["message"] = "...TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua:751: attempt to index local 'color' (a nil value)",
 			["time"] = "2021/10/30 12:28:04",
@@ -1090,14 +1082,38 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface_TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua\"]:751: in function <...TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua:684>\n[string \"=(tail call)\"]: ?\n[string \"@Interface\\AddOns\\Altoholic\\Altoholic-2.5.007.lua\"]:155: in function `AuctionFrameBrowse_Update'\n[string \"@Interface_TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua\"]:277: in function <...TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua:275>",
 			["session"] = 752,
 			["counter"] = 9,
+		}, -- [143]
+		{
+			["message"] = "Interface\\AddOns\\ArkInventory\\Core\\ArkInventory-30966.lua:11464: ...rface\\AddOns\\ArkInventoryRules\\ArkInventoryRules-30966.lua:258: [string \"return( Outfits(pvp) )\"]:1: attempt to call global 'Outfits' (a nil value)",
+			["time"] = "2022/05/02 12:46:02",
+			["locals"] = "(*temporary) = \"...rface\\AddOns\\ArkInventoryRules\\ArkInventoryRules.lua:258: [string \"return( Outfits(pvp) )\"]:1: attempt to call global 'Outfits' (a nil value)\"\n",
+			["stack"] = "[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\ArkInventory\\Core\\ArkInventory-30966.lua\"]:11464: in function `ThreadResume'\n[string \"*:OnUpdate\"]:1: in function <[string \"*:OnUpdate\"]:1>",
+			["session"] = 754,
+			["counter"] = 1,
 		}, -- [144]
+		{
+			["message"] = "...erface\\AddOns\\ArkInventory\\Core\\ArkInventoryMenu.lua:463: attempt to index local 'cat' (a nil value)",
+			["time"] = "2022/05/02 13:09:18",
+			["locals"] = "level = 1\nvalue = nil\ncat = nil\n(*temporary) = <function> defined @Interface\\AddOns\\ArkInventory\\Libs\\ArkDewdrop\\ArkDewdrop.lua:3053\n(*temporary) = <table> {\n Close = <function> defined @Interface\\AddOns\\ArkInventory\\Libs\\ArkDewdrop\\ArkDewdrop.lua:3004\n AddSeparator = <function> defined @Interface\\AddOns\\ArkInventory\\Libs\\ArkDewdrop\\ArkDewdrop.lua:3040\n OnTooltipHide = <function> defined @Interface\\AddOns\\ArkInventory\\Libs\\ArkDewdrop\\ArkDewdrop.lua:3369\n AddLine = <function> defined @Interface\\AddOns\\ArkInventory\\Libs\\ArkDewdrop\\ArkDewdrop.lua:3053\n argCheck = <function> defined @Interface\\AddOns\\ArkInventory\\Libs\\ArkDewdrop\\ArkDewdrop.lua:3491\n error = <function> defined @Interface\\AddOns\\ArkInventory\\Libs\\ArkDewdrop\\ArkDewdrop.lua:3518\n SetStandardFont = <function> defined @Interface\\AddOns\\ArkInventory\\Libs\\ArkDewdrop\\ArkDewdrop.lua:34\n IsOpen = <function> defined @Interface\\AddOns\\ArkInventory\\Libs\\ArkDewdrop\\ArkDewdrop.lua:2727\n GetOpenedParent = <function> defined @Interface\\AddOns\\ArkInventory\\Libs\\ArkDewdrop\\ArkDewdrop.lua:2732\n hookedTooltip = true\n IsRegistered = <function> defined @Interface\\AddOns\\ArkInventory\\Libs\\ArkDewdrop\\ArkDewdrop.lua:2894\n Refresh = <function> defined @Interface\\AddOns\\ArkInventory\\Libs\\ArkDewdrop\\ArkDewdrop.lua:1900\n Open = <function> defined @Interface\\AddOns\\ArkInventory\\Libs\\ArkDewdrop\\ArkDewdrop.lua:2956\n InjectAceOptionsTable = <function> defined @Interface\\AddOns\\ArkInventory\\Libs\\ArkDewdrop\\ArkDewdrop.lua:3305\n FeedTable = <function> defined @Interface\\AddOns\\ArkInventory\\Libs\\ArkDewdrop\\ArkDewdrop.lua:1783\n onceRegistered = <table> {\n }\n registry = <table> {\n }\n FeedAceOptionsTable = <function> defined @Interface\\AddOns\\ArkInventory\\Libs\\ArkDewdrop\\ArkDewdrop.lua:1282\n KEY_BUTTON2 = \"滑鼠右鍵\"\n frame = <unnamed> {\n }\n EncodeKeybinding = <function> defined @Interface\\AddOns\\ArkInventory\\Libs\\ArkDewdrop\\ArkDewdrop.lua:2667\n KEY_BUTTON1 = \"滑鼠左鍵\"\n}\n(*temporary) = \"text\"\n(*temporary) = \"移動: 完成\"\n(*temporary) = \"tooltipTitle\"\n(*temporary) = \"移動: 完成\"\n(*temporary) = \"tooltipText\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = \"Finalises moving %1$s from bar %2$s to here (bar %3$s)\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = \"%s%s%s\"\n(*temporary) = \"|cffffff9a\"\n(*temporary) = \"RIGHT\"\n(*temporary) = <userdata>\n(*temporary) = 1\n(*temporary) = 1\n(*temporary) = 0\n(*temporary) = <userdata>\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 1\n(*temporary) = 0\n(*temporary) = <userdata>\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = true\n(*temporary) = \"hidden\"\n(*temporary) = false\n(*temporary) = \"attempt to index local 'cat' (a nil value)\"\nstring = <table> {\n split = <function> defined =[C]:-1\n match = <function> defined =[C]:-1\n gmatch = <function> defined =[C]:-1\n upper = <function> defined =[C]:-1\n gsub = <function> defined =[C]:-1\n format = <function> defined =[C]:-1\n utf8sub = <function> defined @Interface\\AddOns\\ElvUI\\Libraries\\Core\\UTF8\\utf8.lua:183\n lower = <function> defined =[C]:-1\n sub = <function> defined =[C]:-1\n len = <function> defined =[C]:-1\n utf8lower = <function> defined @Interface\\AddOns\\ElvUI\\Libraries\\Core\\UTF8\\utf8.lua:276\n gfind = <function> defined =[C]:-1\n join = <function> defined =[C]:-1\n rep = <function> defined =[C]:-1\n utf8len = <function> defined @Interface\\AddOns\\ElvUI\\Libraries\\Core\\UTF8\\utf8.lua:158\n char = <function> defined =[C]:-1\n rtgsub = <function> defined @Interface\\FrameXML\\RestrictedInfrastructure.lua:612\n utf8upper = <function> defined @Interface\\AddOns\\ElvUI\\Libraries\\Core\\UTF8\\utf8.lua:266\n reverse = <function> defined =[C]:-1\n byte = <function> defined =[C]:-1\n trim = <function> defined =[C]:-1\n utf8reverse = <function> defined @Interface\\AddOns\\ElvUI\\Libraries\\Core\\UTF8\\utf8.lua:286\n find = <function> defined =[C]:-1\n}\nbar_id = 11\ncodex = <table> {\n toon = <table> {\n }\n workpad = <table> {\n }\n profile_id = 1000\n layout = <table> {\n }\n profile = <table> {\n }\n catset = <table> {\n }\n style = <tabl",
+			["stack"] = "[string \"@Interface\\AddOns\\ArkInventory\\Core\\ArkInventoryMenu.lua\"]:463: in function <...erface\\AddOns\\ArkInventory\\Core\\ArkInventoryMenu.lua:243>\n[string \"@Interface\\AddOns\\ArkInventory\\Libs\\ArkDewdrop\\ArkDewdrop-30110.lua\"]:1893: in function <...e\\AddOns\\ArkInventory\\Libs\\ArkDewdrop\\ArkDewdrop.lua:1842>\n[string \"@Interface\\AddOns\\ArkInventory\\Libs\\ArkDewdrop\\ArkDewdrop-30110.lua\"]:2770: in function <...e\\AddOns\\ArkInventory\\Libs\\ArkDewdrop\\ArkDewdrop.lua:2736>\n[string \"@Interface\\AddOns\\ArkInventory\\Libs\\ArkDewdrop\\ArkDewdrop-30110.lua\"]:2991: in function `Open'\n[string \"@Interface\\AddOns\\ArkInventory\\Core\\ArkInventoryMenu.lua\"]:240: in function `MenuBarOpen'\n[string \"@Interface\\AddOns\\ArkInventory\\Core\\ArkInventory-30966.lua\"]:6485: in function `Frame_Bar_Edit_OnClick'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>",
+			["session"] = 754,
+			["counter"] = 18,
+		}, -- [145]
+		{
+			["message"] = "Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua:1179: Attempt to access forbidden object from code tainted by an AddOn",
+			["time"] = "2021/07/04 00:19:48",
+			["locals"] = "(*temporary) = SecureTransferDialog {\n 0 = <userdata>\n Button2 = <unnamed> {\n }\n MoneyLabel = <unnamed> {\n }\n CautionIcon = <unnamed> {\n }\n Text = <unnamed> {\n }\n Border = <unnamed> {\n }\n Button1 = <unnamed> {\n }\n}\n",
+			["stack"] = "[string \"=[C]\"]: in function `GetName'\n[string \"@Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua\"]:1179: in function `func'\n[string \"@Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua\"]:905: in function `OnUpdate'\n[string \"*:OnUpdate\"]:1: in function <[string \"*:OnUpdate\"]:1>",
+			["session"] = 755,
+			["counter"] = 243,
+		}, -- [146]
 		{
 			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
 			["time"] = "2021/07/01 16:18:25",
 			["locals"] = "GearScore = 2320\nItemLevel = 105\nRed = 0.081600\nBlue = 0.320000\nGreen = 0.840000\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 5\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
-			["session"] = 752,
-			["counter"] = 8312,
-		}, -- [145]
+			["session"] = 758,
+			["counter"] = 8388,
+		}, -- [147]
 	},
 }

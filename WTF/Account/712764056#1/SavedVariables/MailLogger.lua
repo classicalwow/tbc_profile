@@ -6082,5 +6082,103 @@ MailLoggerDB = {
 			["ReceiveItems"] = {
 			},
 		}, -- [354]
+		{
+			["PlayerName"] = "特變電工",
+			["TargetName"] = "部落拍賣場",
+			["Reason"] = 4,
+			["Date"] = "2022-05-02",
+			["ReceiveMoney"] = 11926047,
+			["Time"] = "13:17:02",
+			["GiveMoney"] = 0,
+			["Location"] = "撒塔斯城",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+			},
+		}, -- [355]
+		{
+			["PlayerName"] = "邁克爾假死",
+			["TargetName"] = "你想說話",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "撒塔斯城",
+			["Date"] = "2022-05-02",
+			["Time"] = "13:54:45",
+			["ReceiveItems"] = {
+			},
+		}, -- [356]
+		{
+			["TargetName"] = "你想說話",
+			["PlayerName"] = "邁克爾假死",
+			["Date"] = "2022-05-02",
+			["ReceiveMoney"] = 52120000,
+			["Time"] = "13:54:45",
+			["GiveMoney"] = 0,
+			["Location"] = "撒塔斯城",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [357]
+		{
+			["TargetName"] = "邁克爾假死",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2022-05-02",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 196000000,
+			["Location"] = "撒塔斯城",
+			["Time"] = "13:57:17",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [358]
+		{
+			["PlayerName"] = "邁克爾假死",
+			["TargetName"] = "特變電工",
+			["Reason"] = 1,
+			["Date"] = "2022-05-02",
+			["ReceiveMoney"] = 196000000,
+			["Time"] = "13:59:40",
+			["GiveMoney"] = 0,
+			["Location"] = "撒塔斯城",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+			},
+		}, -- [359]
+		{
+			["TargetName"] = "嚕串吃牛肉",
+			["PlayerName"] = "邁克爾假死",
+			["ReceiveMoney"] = 0,
+			["Time"] = "15:54:19",
+			["GiveMoney"] = 0,
+			["Location"] = "海加爾山",
+			["GiveItems"] = {
+			},
+			["Date"] = "2022-05-02",
+			["ReceiveItems"] = {
+			},
+		}, -- [360]
+		{
+			["TargetName"] = "嚕串吃牛肉",
+			["PlayerName"] = "邁克爾假死",
+			["Date"] = "2022-05-02",
+			["ReceiveMoney"] = 27160000,
+			["Time"] = "15:54:19",
+			["GiveMoney"] = 0,
+			["Location"] = "海加爾山",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [361]
 	},
 }

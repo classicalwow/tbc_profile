@@ -45,11 +45,14 @@ AtlasLootClassicDB = {
 					"ZulAman", -- [2]
 					6, -- [3]
 					1, -- [4]
-					0, -- [5]
+					-0, -- [5]
 				},
 			},
 		},
 		["邁克爾假死 - 伊弗斯"] = {
+			["minimap"] = {
+				["minimapPos"] = 286.7554949708375,
+			},
 			["GUI"] = {
 				["point"] = {
 					nil, -- [1]
@@ -60,14 +63,11 @@ AtlasLootClassicDB = {
 				},
 				["selected"] = {
 					nil, -- [1]
-					"BlackTemple", -- [2]
-					7, -- [3]
+					"HyjalSummit", -- [2]
+					5, -- [3]
 					1, -- [4]
-					-0, -- [5]
+					0, -- [5]
 				},
-			},
-			["minimap"] = {
-				["minimapPos"] = 286.7554949708375,
 			},
 		},
 		["畜生犬隊長 - 伊弗斯"] = {
