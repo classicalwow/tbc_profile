@@ -5,9 +5,9 @@ LootMonitorDB = {
 			["InstanceID"] = 564,
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Black Temple",
-			["Class"] = "WARRIOR",
-			["Date"] = "2022-04-23",
 			["FirstClass"] = "UNKNOWN",
+			["Date"] = "2022-04-23",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-564-29182-22877-000263E4B8",
@@ -910,9 +910,9 @@ LootMonitorDB = {
 					},
 				}, -- [24]
 			},
-			["Class"] = "WARRIOR",
-			["Date"] = "2022-04-23",
 			["FirstClass"] = "WARRIOR",
+			["Date"] = "2022-04-23",
+			["Class"] = "WARRIOR",
 			["InstanceName"] = "Hyjal Summit",
 			["FirstPlayer"] = "特變電工",
 		}, -- [2]
@@ -920,9 +920,9 @@ LootMonitorDB = {
 			["InstanceID"] = 568,
 			["FirstPlayer"] = "別逼我無敵",
 			["InstanceName"] = "Zul'Aman",
-			["FirstClass"] = "PALADIN",
-			["Date"] = "2022-04-26",
 			["Class"] = "WARRIOR",
+			["Date"] = "2022-04-26",
+			["FirstClass"] = "PALADIN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-568-3076-23574-000067ED3B",
@@ -1019,8 +1019,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "特變電工",
 			["InstanceName"] = "Tempest Keep",
 			["Date"] = "2022-04-30",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "WARRIOR",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-550-22044-20032-00016CF166",
@@ -1128,8 +1128,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "開始懂得",
 			["InstanceName"] = "Serpentshrine Cavern",
 			["Date"] = "2022-04-30",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "WARLOCK",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-548-23347-21301-0002ECFFBD",
@@ -1168,8 +1168,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Black Temple",
 			["Date"] = "2022-04-30",
-			["FirstClass"] = "UNKNOWN",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-564-26439-22885-00006D1EDF",
@@ -1832,8 +1832,8 @@ LootMonitorDB = {
 				}, -- [14]
 			},
 			["Date"] = "2022-04-30",
-			["FirstClass"] = "MAGE",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "MAGE",
 			["InstanceName"] = "Hyjal Summit",
 		}, -- [7]
 		{
@@ -1842,8 +1842,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "Harchu",
 			["InstanceName"] = "Zul'Aman",
 			["Date"] = "2022-05-02",
-			["FirstClass"] = "PALADIN",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "PALADIN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-568-30085-23574-00006EAF24",
@@ -1903,8 +1903,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "斬殺王",
 			["InstanceName"] = "Gruul's Lair",
 			["Date"] = "2022-05-02",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "SHAMAN",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-565-16135-18831-00006F61D6",
@@ -1943,9 +1943,9 @@ LootMonitorDB = {
 			["InstanceID"] = 565,
 			["FirstPlayer"] = "邁克爾假死",
 			["InstanceName"] = "Gruul's Lair",
-			["FirstClass"] = "HUNTER",
-			["Date"] = "2022-05-02",
 			["Class"] = "HUNTER",
+			["Date"] = "2022-05-02",
+			["FirstClass"] = "HUNTER",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-565-17406-18831-00006F6D00",
@@ -1984,6 +1984,7 @@ LootMonitorDB = {
 		{
 			["InstanceID"] = 534,
 			["FirstPlayer"] = "未知目標",
+			["Player"] = "邁克爾假死",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-534-18126-17895-00026F7865",
@@ -2159,10 +2160,9 @@ LootMonitorDB = {
 					},
 				}, -- [15]
 			},
-			["Player"] = "邁克爾假死",
 			["Date"] = "2022-05-02",
-			["Class"] = "HUNTER",
 			["FirstClass"] = "UNKNOWN",
+			["Class"] = "HUNTER",
 			["InstanceName"] = "Hyjal Summit",
 		}, -- [11]
 	},

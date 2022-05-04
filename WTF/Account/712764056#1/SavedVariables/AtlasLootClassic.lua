@@ -66,7 +66,7 @@ AtlasLootClassicDB = {
 					"HyjalSummit", -- [2]
 					5, -- [3]
 					1, -- [4]
-					0, -- [5]
+					-0, -- [5]
 				},
 			},
 		},

@@ -13,8 +13,8 @@ ThreatClassic2DB = {
 		},
 		["邁克爾假死 - 伊弗斯"] = {
 			["frame"] = {
-				["width"] = 226.3017578125,
 				["height"] = 103.4762268066406,
+				["width"] = 226.3017578125,
 				["position"] = {
 					nil, -- [1]
 					nil, -- [2]
@@ -28,13 +28,16 @@ ThreatClassic2DB = {
 			},
 		},
 		["Default"] = {
+			["general"] = {
+				["hideOOC"] = true,
+			},
 			["warnings"] = {
 				["sound"] = true,
 				["flash"] = true,
 			},
 			["frame"] = {
-				["height"] = 131.1897583007813,
 				["width"] = 249.6908416748047,
+				["height"] = 131.1897583007813,
 				["position"] = {
 					nil, -- [1]
 					nil, -- [2]
@@ -42,9 +45,6 @@ ThreatClassic2DB = {
 					677.9244995117188, -- [4]
 					-722.7244262695312, -- [5]
 				},
-			},
-			["general"] = {
-				["hideOOC"] = true,
 			},
 			["bar"] = {
 				["count"] = 7,
