@@ -7,8 +7,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Black Temple",
 			["Date"] = "2022-04-23",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "UNKNOWN",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-564-29182-22877-000263E4B8",
@@ -912,8 +912,8 @@ LootMonitorDB = {
 				}, -- [24]
 			},
 			["Date"] = "2022-04-23",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "WARRIOR",
+			["Class"] = "WARRIOR",
 			["InstanceName"] = "Hyjal Summit",
 		}, -- [2]
 		{
@@ -922,8 +922,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "別逼我無敵",
 			["InstanceName"] = "Zul'Aman",
 			["Date"] = "2022-04-26",
-			["FirstClass"] = "PALADIN",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "PALADIN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-568-3076-23574-000067ED3B",
@@ -1017,9 +1017,9 @@ LootMonitorDB = {
 			["InstanceID"] = 550,
 			["FirstPlayer"] = "特變電工",
 			["InstanceName"] = "Tempest Keep",
-			["FirstClass"] = "WARRIOR",
-			["Date"] = "2022-04-30",
 			["Class"] = "WARRIOR",
+			["Date"] = "2022-04-30",
+			["FirstClass"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-550-22044-20032-00016CF166",
@@ -1126,9 +1126,9 @@ LootMonitorDB = {
 			["InstanceID"] = 548,
 			["FirstPlayer"] = "開始懂得",
 			["InstanceName"] = "Serpentshrine Cavern",
-			["FirstClass"] = "WARLOCK",
-			["Date"] = "2022-04-30",
 			["Class"] = "WARRIOR",
+			["Date"] = "2022-04-30",
+			["FirstClass"] = "WARLOCK",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-548-23347-21301-0002ECFFBD",
@@ -1166,9 +1166,9 @@ LootMonitorDB = {
 			["InstanceID"] = 564,
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Black Temple",
-			["Class"] = "WARRIOR",
-			["Date"] = "2022-04-30",
 			["FirstClass"] = "UNKNOWN",
+			["Date"] = "2022-04-30",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-564-26439-22885-00006D1EDF",
@@ -1830,9 +1830,9 @@ LootMonitorDB = {
 					},
 				}, -- [14]
 			},
-			["Class"] = "WARRIOR",
-			["Date"] = "2022-04-30",
 			["FirstClass"] = "MAGE",
+			["Date"] = "2022-04-30",
+			["Class"] = "WARRIOR",
 			["InstanceName"] = "Hyjal Summit",
 			["FirstPlayer"] = "熙夏",
 		}, -- [7]
@@ -1840,9 +1840,9 @@ LootMonitorDB = {
 			["InstanceID"] = 568,
 			["FirstPlayer"] = "Harchu",
 			["InstanceName"] = "Zul'Aman",
-			["Class"] = "WARRIOR",
-			["Date"] = "2022-05-02",
 			["FirstClass"] = "PALADIN",
+			["Date"] = "2022-05-02",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-568-30085-23574-00006EAF24",
@@ -1901,9 +1901,9 @@ LootMonitorDB = {
 			["InstanceID"] = 565,
 			["FirstPlayer"] = "斬殺王",
 			["InstanceName"] = "Gruul's Lair",
-			["FirstClass"] = "SHAMAN",
-			["Date"] = "2022-05-02",
 			["Class"] = "WARRIOR",
+			["Date"] = "2022-05-02",
+			["FirstClass"] = "SHAMAN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-565-16135-18831-00006F61D6",
@@ -1945,8 +1945,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "邁克爾假死",
 			["InstanceName"] = "Gruul's Lair",
 			["Date"] = "2022-05-02",
-			["FirstClass"] = "HUNTER",
 			["Class"] = "HUNTER",
+			["FirstClass"] = "HUNTER",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-565-17406-18831-00006F6D00",
@@ -2159,9 +2159,9 @@ LootMonitorDB = {
 					},
 				}, -- [15]
 			},
-			["FirstClass"] = "UNKNOWN",
-			["Date"] = "2022-05-02",
 			["Class"] = "HUNTER",
+			["Date"] = "2022-05-02",
+			["FirstClass"] = "UNKNOWN",
 			["InstanceName"] = "Hyjal Summit",
 			["FirstPlayer"] = "未知目標",
 		}, -- [11]
@@ -2171,8 +2171,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "菊一文字",
 			["InstanceName"] = "Zul'Aman",
 			["Date"] = "2022-05-04",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "PALADIN",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-568-640-23574-000072783A",
@@ -2252,6 +2252,77 @@ LootMonitorDB = {
 				}, -- [6]
 			},
 		}, -- [12]
+		{
+			["InstanceID"] = 544,
+			["FirstPlayer"] = "Panthergirl",
+			["InstanceName"] = "Magtheridon's Lair",
+			["Class"] = "WARRIOR",
+			["Date"] = "2022-05-06",
+			["FirstClass"] = "PRIEST",
+			["LootTable"] = {
+				{
+					["GUID"] = "Creature-0-5580-544-4490-17257-0000753865",
+					["Time"] = "23:38:18",
+					["Class"] = "WARRIOR",
+					["Date"] = "2022-05-06",
+					["Looter"] = "酒刈太郎",
+					["Name"] = "瑪瑟里頓",
+					["Loots"] = {
+						"|cffa335ee|Hitem:34845::::::::70:::::::::|h[深淵領主的背包]|h|r", -- [1]
+						"|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r", -- [2]
+						"|cffa335ee|Hitem:32386::::::::70:::::::::|h[瑪瑟里頓之首]|h|r", -- [3]
+						"|cffa335ee|Hitem:28789::::::::70:::::::::|h[瑪瑟里頓之眼]|h|r", -- [4]
+						"|cffa335ee|Hitem:29754::::::::70:::::::::|h[逝往勇士護胸]|h|r", -- [5]
+						"|cffa335ee|Hitem:29754::::::::70:::::::::|h[逝往勇士護胸]|h|r", -- [6]
+						"|cffa335ee|Hitem:29754::::::::70:::::::::|h[逝往勇士護胸]|h|r", -- [7]
+						"|cffa335ee|Hitem:28776::::::::70:::::::::|h[騙子的口才手套]|h|r", -- [8]
+					},
+				}, -- [1]
+			},
+			["Player"] = "特變電工",
+		}, -- [13]
+		{
+			["InstanceID"] = 565,
+			["FirstPlayer"] = "特變電工",
+			["LootTable"] = {
+				{
+					["GUID"] = "Creature-0-4490-565-5695-18831-00007541F6",
+					["Time"] = "23:56:12",
+					["Class"] = "WARRIOR",
+					["Date"] = "2022-05-06",
+					["Looter"] = "特變電工",
+					["Name"] = "大君王莫卡爾",
+					["Loots"] = {
+						"|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r", -- [1]
+						"|cffa335ee|Hitem:28796::::::::70:::::::::|h[暗影邪惡面罩]|h|r", -- [2]
+						"|cffa335ee|Hitem:29763::::::::70:::::::::|h[逝往勇士肩鎧]|h|r", -- [3]
+						"|cffa335ee|Hitem:29764::::::::70:::::::::|h[逝往防衛者肩鎧]|h|r", -- [4]
+						"|cffa335ee|Hitem:29764::::::::70:::::::::|h[逝往防衛者肩鎧]|h|r", -- [5]
+					},
+				}, -- [1]
+				{
+					["GUID"] = "Creature-0-4490-565-5695-19044-00007541F6",
+					["Time"] = "00:06:09",
+					["Looter"] = "特變電工",
+					["Date"] = "2022-05-07",
+					["Class"] = "WARRIOR",
+					["Name"] = "弒龍者戈魯爾",
+					["Loots"] = {
+						"|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r", -- [1]
+						"|cffa335ee|Hitem:28810::::::::70:::::::::|h[風剪長靴]|h|r", -- [2]
+						"|cffa335ee|Hitem:28826::::::::70:::::::::|h[否定手裏劍]|h|r", -- [3]
+						"|cffa335ee|Hitem:29767::::::::70:::::::::|h[逝往防衛者護腿]|h|r", -- [4]
+						"|cffa335ee|Hitem:29765::::::::70:::::::::|h[逝往英雄護腿]|h|r", -- [5]
+						"|cffa335ee|Hitem:29765::::::::70:::::::::|h[逝往英雄護腿]|h|r", -- [6]
+					},
+				}, -- [2]
+			},
+			["Player"] = "特變電工",
+			["Date"] = "2022-05-06",
+			["Class"] = "WARRIOR",
+			["FirstClass"] = "WARRIOR",
+			["InstanceName"] = "Gruul's Lair",
+		}, -- [14]
 	},
 	["Config"] = {
 		["ShowMinimapIcon"] = true,
