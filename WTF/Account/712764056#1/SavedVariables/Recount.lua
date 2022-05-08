@@ -39,13 +39,13 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "戈魯爾之巢",
-			["CurDataSet"] = "OverallData",
+			["LastInstanceName"] = "海加爾山戰場",
+			["CurDataSet"] = "CurrentFightData",
 			["MainWindowWidth"] = 329.2458801269531,
 			["MainWindowHeight"] = 214.3261108398438,
 		},
 		["邁克爾假死 - 伊弗斯"] = {
-			["MainWindowHeight"] = 253.3423614501953,
+			["LastInstanceName"] = "海加爾山戰場",
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = -503.6073760986328,
@@ -54,11 +54,6 @@ RecountDB = {
 					["h"] = 253,
 				},
 			},
-			["DetailWindowX"] = 835.6286010742188,
-			["DetailWindowY"] = -456.5082092285156,
-			["LastInstanceName"] = "海加爾山戰場",
-			["CurDataSet"] = "LastFightData",
-			["MainWindowWidth"] = 333.3405151367188,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -69,6 +64,11 @@ RecountDB = {
 					},
 				},
 			},
+			["DetailWindowY"] = -456.5082092285156,
+			["MainWindowHeight"] = 253.3423614501953,
+			["CurDataSet"] = "LastFightData",
+			["MainWindowWidth"] = 333.3405151367188,
+			["DetailWindowX"] = 835.6286010742188,
 		},
 		["路易斯桑拿 - 伊弗斯"] = {
 			["MainWindowVis"] = false,
