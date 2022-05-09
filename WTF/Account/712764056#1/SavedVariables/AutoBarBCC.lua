@@ -161,13 +161,13 @@ AutoBarDB = {
 					["buttonKey"] = "AutoBarButtonTrack",
 					["defaultButtonIndex"] = "*",
 				},
-				["AutoBarButtonCharge"] = {
+				["AutoBarButtonInterrupt"] = {
 					["barKey"] = "AutoBarClassBarHunter",
-					["buttonClass"] = "AutoBarButtonCharge",
+					["buttonClass"] = "AutoBarButtonInterrupt",
 					["square_popups"] = true,
 					["arrangeOnUse"] = true,
 					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonCharge",
+					["buttonKey"] = "AutoBarButtonInterrupt",
 					["defaultButtonIndex"] = "*",
 				},
 				["AutoBarButtonDebuff"] = {
@@ -186,6 +186,15 @@ AutoBarDB = {
 					["buttonKey"] = "AutoBarButtonClassPet",
 					["defaultButtonIndex"] = "*",
 				},
+				["AutoBarButtonCharge"] = {
+					["barKey"] = "AutoBarClassBarHunter",
+					["buttonClass"] = "AutoBarButtonCharge",
+					["square_popups"] = true,
+					["arrangeOnUse"] = true,
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonCharge",
+					["defaultButtonIndex"] = "*",
+				},
 				["AutoBarButtonTrap"] = {
 					["barKey"] = "AutoBarClassBarHunter",
 					["buttonClass"] = "AutoBarButtonTrap",
@@ -193,15 +202,6 @@ AutoBarDB = {
 					["arrangeOnUse"] = true,
 					["enabled"] = true,
 					["buttonKey"] = "AutoBarButtonTrap",
-					["defaultButtonIndex"] = "*",
-				},
-				["AutoBarButtonInterrupt"] = {
-					["barKey"] = "AutoBarClassBarHunter",
-					["buttonClass"] = "AutoBarButtonInterrupt",
-					["square_popups"] = true,
-					["arrangeOnUse"] = true,
-					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonInterrupt",
 					["defaultButtonIndex"] = "*",
 				},
 				["AutoBarButtonClassPets3"] = {
@@ -634,13 +634,13 @@ AutoBarDB = {
 		["特變電工 - 伊弗斯"] = {
 			["buttonDataList"] = {
 				["AutoBarButtonElixirBattle"] = {
-					["arrangeOnUse"] = 22831,
+					["arrangeOnUse"] = 22824,
 				},
 				["AutoBarButtonBuff"] = {
 					["arrangeOnUse"] = 9224,
 				},
 				["AutoBarButtonCrafting"] = {
-					["arrangeOnUse"] = "急救",
+					["arrangeOnUse"] = "附魔",
 				},
 				["AutoBarButtonQuest"] = {
 					["arrangeOnUse"] = 32680,

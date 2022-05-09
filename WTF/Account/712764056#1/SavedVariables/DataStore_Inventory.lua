@@ -29,7 +29,7 @@ DataStore_InventoryDB = {
 					"|cff0070dd|Hitem:36941::::::::70:::::::::|h[競賽者外袍]|h|r", -- [19]
 				},
 				["averageItemLvl"] = 139,
-				["lastUpdate"] = 1651942235,
+				["lastUpdate"] = 1652031203,
 			},
 			["Default.伊弗斯.邁克爾假死"] = {
 				["Inventory"] = {
@@ -88,6 +88,9 @@ DataStore_InventoryDB = {
 				["Members"] = {
 					["邁克爾假死"] = {
 						["averageItemLvl"] = 126,
+					},
+					["特變電工"] = {
+						["averageItemLvl"] = 139,
 					},
 				},
 			},
