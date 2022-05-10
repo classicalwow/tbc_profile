@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 	["lastSanitation"] = 3,
-	["session"] = 777,
+	["session"] = 779,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\TomTom\\TomTom_Config.lua:40: attempt to call method 'EnableDisablePOIIntegration' (a nil value)",

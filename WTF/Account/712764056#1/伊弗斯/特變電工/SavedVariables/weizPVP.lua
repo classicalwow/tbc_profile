@@ -7,11 +7,10 @@ _weizpvp_chardb = {
 		["Default"] = {
 			["Options"] = {
 				["Database"] = {
-					["LastCleaned"] = 1651996121,
+					["LastCleaned"] = 1652106822,
 					["VERSION"] = 3,
 				},
 				["Addon"] = {
-					["Enabled"] = false,
 					["EnabledInArena"] = true,
 					["DisabledInSanctuary"] = true,
 				},
@@ -25,6 +24,9 @@ _weizpvp_chardb = {
 					},
 					["Height"] = 126.0000076293945,
 				},
+			},
+			["KosList"] = {
+				["夜落之雨-伊弗斯"] = true,
 			},
 		},
 	},
