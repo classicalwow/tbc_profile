@@ -9,10 +9,10 @@ RecountDB = {
 		["特變電工 - 伊弗斯"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -526.6712493896484,
-					["x"] = -461.3767700195313,
-					["w"] = 329.2459411621094,
-					["h"] = 214.3261108398438,
+					["y"] = -514.267936706543,
+					["x"] = -458.0855102539063,
+					["w"] = 329,
+					["h"] = 214.0000152587891,
 				},
 			},
 			["SegmentBosses"] = true,
@@ -39,8 +39,8 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "博學者殿堂",
-			["CurDataSet"] = "OverallData",
+			["LastInstanceName"] = "太陽之井",
+			["CurDataSet"] = "CurrentFightData",
 			["MainWindowWidth"] = 329.2458801269531,
 			["MainWindowHeight"] = 214.3261108398438,
 		},

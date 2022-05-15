@@ -39,7 +39,7 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "博學者殿堂",
+			["LastInstanceName"] = "太陽之井",
 			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 329.2458801269531,
 			["MainWindowHeight"] = 214.3261108398438,

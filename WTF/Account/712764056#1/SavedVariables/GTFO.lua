@@ -2,10 +2,10 @@
 GTFOData = {
 	["EnableVibration"] = false,
 	["Active"] = true,
+	["TestMode"] = false,
+	["TrivialDamagePercent"] = 2,
 	["SoundOverrides"] = {
 	},
-	["TrivialDamagePercent"] = 2,
-	["TestMode"] = false,
 	["Sounds"] = {
 		true, -- [1]
 		true, -- [2]

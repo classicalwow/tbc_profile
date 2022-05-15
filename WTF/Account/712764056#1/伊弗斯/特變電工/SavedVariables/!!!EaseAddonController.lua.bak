@@ -185,5 +185,5 @@ U1DB = {
 	["configs"] = {
 	},
 	["sortByName"] = true,
-	["last_logout_time"] = 1652373950,
+	["last_logout_time"] = "reload",
 }

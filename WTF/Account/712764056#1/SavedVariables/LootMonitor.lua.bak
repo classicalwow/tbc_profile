@@ -2180,6 +2180,81 @@ LootMonitorDB = {
 			["InstanceName"] = "Zul'Aman",
 			["FirstPlayer"] = "未知",
 		}, -- [14]
+		{
+			["InstanceID"] = 565,
+			["Player"] = "特變電工",
+			["FirstPlayer"] = "騎風",
+			["InstanceName"] = "Gruul's Lair",
+			["Date"] = "2022-05-14",
+			["FirstClass"] = "SHAMAN",
+			["Class"] = "WARRIOR",
+			["LootTable"] = {
+				{
+					["GUID"] = "Creature-0-4490-565-20519-18831-00007F420A",
+					["Time"] = "13:58:11",
+					["Looter"] = "在袍你家祖墳",
+					["Date"] = "2022-05-14",
+					["Class"] = "WARRIOR",
+					["Name"] = "大君王莫卡爾",
+					["Loots"] = {
+						"|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r", -- [1]
+						"|cffa335ee|Hitem:29764::::::::70:::::::::|h[逝往防衛者肩鎧]|h|r", -- [2]
+						"|cffa335ee|Hitem:29764::::::::70:::::::::|h[逝往防衛者肩鎧]|h|r", -- [3]
+						"|cffa335ee|Hitem:29762::::::::70:::::::::|h[逝往英雄肩鎧]|h|r", -- [4]
+						"|cffa335ee|Hitem:28800::::::::70:::::::::|h[那魯之錘]|h|r", -- [5]
+					},
+				}, -- [1]
+				{
+					["GUID"] = "Creature-0-4490-565-20519-19044-00007F420A",
+					["Time"] = "14:06:27",
+					["Looter"] = "冰心冷刃",
+					["Date"] = "2022-05-14",
+					["Class"] = "ROGUE",
+					["Name"] = "弒龍者戈魯爾",
+					["Loots"] = {
+						"|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r", -- [1]
+						"|cffa335ee|Hitem:28824::::::::70:::::::::|h[火星完美護手]|h|r", -- [2]
+						"|cffa335ee|Hitem:29765::::::::70:::::::::|h[逝往英雄護腿]|h|r", -- [3]
+						"|cffa335ee|Hitem:28804::::::::70:::::::::|h[丘加利頭帶]|h|r", -- [4]
+						"|cffa335ee|Hitem:29767::::::::70:::::::::|h[逝往防衛者護腿]|h|r", -- [5]
+						"|cffa335ee|Hitem:29766::::::::70:::::::::|h[逝往勇士護腿]|h|r", -- [6]
+					},
+				}, -- [2]
+			},
+		}, -- [15]
+		{
+			["InstanceID"] = 580,
+			["Player"] = "特變電工",
+			["FirstPlayer"] = "阿梨的聖騎士",
+			["InstanceName"] = "Sunwell Plateau",
+			["Date"] = "2022-05-14",
+			["Class"] = "WARRIOR",
+			["FirstClass"] = "PALADIN",
+			["LootTable"] = {
+				{
+					["GUID"] = "Creature-0-5580-580-31051-25368-00007F97D6",
+					["Time"] = "20:15:05",
+					["Looter"] = "魔令古二世",
+					["Date"] = "2022-05-14",
+					["Class"] = "MAGE",
+					["Name"] = "日刃殺戮者",
+					["Loots"] = {
+						"|cffa335ee|Hitem:32230::::::::70:::::::::|h[影歌紫水晶]|h|r", -- [1]
+					},
+				}, -- [1]
+				{
+					["GUID"] = "Creature-0-5580-580-31051-25363-0000FF97D7",
+					["Time"] = "20:17:03",
+					["Looter"] = "別逼我擋怪",
+					["Date"] = "2022-05-14",
+					["Class"] = "WARRIOR",
+					["Name"] = "日刃秘術師",
+					["Loots"] = {
+						"|cffa335ee|Hitem:32227::::::::70:::::::::|h[赤紅尖晶石]|h|r", -- [1]
+					},
+				}, -- [2]
+			},
+		}, -- [16]
 	},
 	["Config"] = {
 		["ShowMinimapIcon"] = true,

@@ -34,17 +34,17 @@ AtlasLootClassicDB = {
 			},
 			["GUI"] = {
 				["point"] = {
-					"TOP", -- [1]
+					"RIGHT", -- [1]
 					nil, -- [2]
-					"TOP", -- [3]
-					-204.0000152587891, -- [4]
-					-141.0000305175781, -- [5]
+					"RIGHT", -- [3]
+					-150.3785858154297, -- [4]
+					-46.89443588256836, -- [5]
 				},
 				["selected"] = {
-					nil, -- [1]
-					"MagistersTerrace", -- [2]
-					4, -- [3]
-					6, -- [4]
+					"AtlasLootClassic_Factions", -- [1]
+					"ShatteredSunOffensive", -- [2]
+					nil, -- [3]
+					2, -- [4]
 					0, -- [5]
 				},
 			},
