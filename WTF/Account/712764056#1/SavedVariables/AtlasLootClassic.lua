@@ -1,7 +1,7 @@
 
 AtlasLootClassicDB = {
 	["global"] = {
-		["__addonrevision"] = 2040003,
+		["__addonrevision"] = 2040004,
 	},
 	["profileKeys"] = {
 		["路易斯桑拿 - 伊弗斯"] = "路易斯桑拿 - 伊弗斯",
@@ -34,17 +34,17 @@ AtlasLootClassicDB = {
 			},
 			["GUI"] = {
 				["point"] = {
-					"RIGHT", -- [1]
+					nil, -- [1]
 					nil, -- [2]
-					"RIGHT", -- [3]
-					-150.3785858154297, -- [4]
-					-46.89443588256836, -- [5]
+					"CENTER", -- [3]
+					-283.9704284667969, -- [4]
+					140.4080047607422, -- [5]
 				},
 				["selected"] = {
-					"AtlasLootClassic_Factions", -- [1]
-					"ShatteredSunOffensive", -- [2]
-					nil, -- [3]
-					2, -- [4]
+					nil, -- [1]
+					"SunwellPlateau", -- [2]
+					6, -- [3]
+					1, -- [4]
 					0, -- [5]
 				},
 			},

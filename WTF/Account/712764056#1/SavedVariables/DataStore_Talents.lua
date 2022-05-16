@@ -48,7 +48,7 @@ DataStore_TalentsDB = {
 				["PointsSpent"] = "41,20,0",
 			},
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1652549798,
+				["lastUpdate"] = 1652632275,
 				["Class"] = "WARRIOR",
 				["TalentTrees"] = {
 					["武器"] = {
