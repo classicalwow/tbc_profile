@@ -9,10 +9,10 @@ RecountDB = {
 		["特變電工 - 伊弗斯"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -514.2679595947266,
-					["x"] = -458.0855407714844,
+					["y"] = -522.085563659668,
+					["x"] = -462.6630249023438,
 					["w"] = 329,
-					["h"] = 214.0000305175781,
+					["h"] = 214.0000152587891,
 				},
 			},
 			["SegmentBosses"] = true,
@@ -39,21 +39,12 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "太陽之井",
-			["CurDataSet"] = "LastFightData",
+			["LastInstanceName"] = "羅德隆廢墟",
+			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 329.2458801269531,
 			["MainWindowHeight"] = 214.3261108398438,
 		},
 		["邁克爾假死 - 伊弗斯"] = {
-			["DetailWindowX"] = 835.6286010742188,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = -503.6073760986328,
-					["x"] = -470.4005126953125,
-					["w"] = 333.0000305175781,
-					["h"] = 253,
-				},
-			},
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -64,11 +55,20 @@ RecountDB = {
 					},
 				},
 			},
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -503.6073760986328,
+					["x"] = -470.4005126953125,
+					["w"] = 333.0000305175781,
+					["h"] = 253,
+				},
+			},
+			["DetailWindowX"] = 835.6286010742188,
 			["DetailWindowY"] = -456.5082092285156,
-			["LastInstanceName"] = "海加爾山戰場",
+			["MainWindowHeight"] = 253.3423614501953,
 			["CurDataSet"] = "LastFightData",
 			["MainWindowWidth"] = 333.3405151367188,
-			["MainWindowHeight"] = 253.3423614501953,
+			["LastInstanceName"] = "海加爾山戰場",
 		},
 		["路易斯桑拿 - 伊弗斯"] = {
 			["MainWindowVis"] = false,

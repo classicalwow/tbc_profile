@@ -45,7 +45,7 @@ AtlasLootClassicDB = {
 					"SunwellPlateau", -- [2]
 					6, -- [3]
 					1, -- [4]
-					0, -- [5]
+					-0, -- [5]
 				},
 			},
 		},
