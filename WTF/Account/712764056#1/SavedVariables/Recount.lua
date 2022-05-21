@@ -15,6 +15,8 @@ RecountDB = {
 					["h"] = 214.0000305175781,
 				},
 			},
+			["DetailWindowX"] = 1036.542724609375,
+			["LastInstanceName"] = "黑暗神廟",
 			["SegmentBosses"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -27,7 +29,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -296.1766662597656,
-			["DetailWindowX"] = 1036.542724609375,
+			["MainWindowHeight"] = 214.3261108398438,
+			["CurDataSet"] = "LastFightData",
+			["MainWindowWidth"] = 329.2458801269531,
 			["Filters"] = {
 				["Show"] = {
 					["Hostile"] = true,
@@ -39,13 +43,8 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "黑暗神廟",
-			["CurDataSet"] = "CurrentFightData",
-			["MainWindowWidth"] = 329.2458801269531,
-			["MainWindowHeight"] = 214.3261108398438,
 		},
 		["邁克爾假死 - 伊弗斯"] = {
-			["DetailWindowX"] = 835.6286010742188,
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = -503.6073760986328,
@@ -54,6 +53,7 @@ RecountDB = {
 					["h"] = 253,
 				},
 			},
+			["MainWindowHeight"] = 253.3423614501953,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -65,10 +65,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -456.5082092285156,
-			["LastInstanceName"] = "海加爾山戰場",
-			["CurDataSet"] = "LastFightData",
+			["DetailWindowX"] = 835.6286010742188,
+			["LastInstanceName"] = "黑暗神廟",
+			["CurDataSet"] = "CurrentFightData",
 			["MainWindowWidth"] = 333.3405151367188,
-			["MainWindowHeight"] = 253.3423614501953,
 		},
 		["路易斯桑拿 - 伊弗斯"] = {
 			["MainWindowVis"] = false,

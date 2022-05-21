@@ -6,13 +6,24 @@ DataStore_MailsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1652879810,
-				["lastVisitDate"] = "2022/05/18 21:16",
-			},
 			["Default.伊弗斯.邁克爾假死"] = {
 				["lastUpdate"] = 1651666952,
+				["Mails"] = {
+					{
+						["sender"] = "特變電工",
+						["subject"] = "1",
+						["lastCheck"] = 1653052655,
+						["money"] = 580000000,
+						["text"] = "",
+						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
+						["daysLeft"] = 30,
+					}, -- [1]
+				},
 				["lastVisitDate"] = "2022/05/04 20:22",
+			},
+			["Default.伊弗斯.特變電工"] = {
+				["lastUpdate"] = 1653052656,
+				["lastVisitDate"] = "2022/05/20 21:17",
 			},
 		},
 	},

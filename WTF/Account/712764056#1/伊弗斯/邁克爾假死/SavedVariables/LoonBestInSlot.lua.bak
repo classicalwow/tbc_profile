@@ -1,13 +1,13 @@
 
 LoonBestInSlotSettings = {
-	["SelectedPhase"] = "BIS",
+	["minimap"] = {
+		["minimapPos"] = 180,
+		["hide"] = false,
+	},
 	["SelectedZone"] = "All",
 	["ShowTooltip"] = true,
 	["SelectedSource"] = "All",
 	["SelectedSlot"] = "All",
 	["SelectedSpec"] = "Marks Hunter",
-	["minimap"] = {
-		["minimapPos"] = 180,
-		["hide"] = false,
-	},
+	["SelectedPhase"] = "BIS",
 }
