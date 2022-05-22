@@ -6,8 +6,6 @@ NameplateCooldownsAceDB = {
 	},
 	["profiles"] = {
 		["特變電工 - 伊弗斯"] = {
-			["IconXOffset"] = 113,
-			["IconYOffset"] = -4,
 			["IconSize"] = 20,
 			["SpellCDs"] = {
 				[1513] = {
@@ -831,9 +829,12 @@ NameplateCooldownsAceDB = {
 				},
 			},
 			["MigrationVersion"] = 7,
+			["IconXOffset"] = 113,
 			["IconGrowDirection"] = "left",
+			["IconYOffset"] = -4,
 		},
 		["邁克爾假死 - 伊弗斯"] = {
+			["MigrationVersion"] = 7,
 			["SpellCDs"] = {
 				[1513] = {
 					["enabled"] = true,
@@ -1655,7 +1656,6 @@ NameplateCooldownsAceDB = {
 					["enabled"] = true,
 				},
 			},
-			["MigrationVersion"] = 7,
 		},
 	},
 }

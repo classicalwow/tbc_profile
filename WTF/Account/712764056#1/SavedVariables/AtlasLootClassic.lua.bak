@@ -29,27 +29,30 @@ AtlasLootClassicDB = {
 			},
 		},
 		["特變電工 - 伊弗斯"] = {
-			["minimap"] = {
-				["minimapPos"] = 232.2005268178225,
-			},
 			["GUI"] = {
 				["point"] = {
 					nil, -- [1]
 					nil, -- [2]
 					"CENTER", -- [3]
-					-283.9704284667969, -- [4]
-					140.4080047607422, -- [5]
+					193.3771057128906, -- [4]
+					2.440857887268066, -- [5]
 				},
 				["selected"] = {
-					nil, -- [1]
-					"SunwellPlateau", -- [2]
-					6, -- [3]
+					"AtlasLootClassic_Crafting", -- [1]
+					"JewelcraftingBC", -- [2]
+					10, -- [3]
 					1, -- [4]
 					-0, -- [5]
 				},
 			},
+			["minimap"] = {
+				["minimapPos"] = 232.2005268178225,
+			},
 		},
 		["邁克爾假死 - 伊弗斯"] = {
+			["minimap"] = {
+				["minimapPos"] = 259.6597694701143,
+			},
 			["GUI"] = {
 				["point"] = {
 					nil, -- [1]
@@ -60,14 +63,11 @@ AtlasLootClassicDB = {
 				},
 				["selected"] = {
 					nil, -- [1]
-					"HyjalSummit", -- [2]
-					5, -- [3]
+					"BlackTemple", -- [2]
+					9, -- [3]
 					1, -- [4]
 					-0, -- [5]
 				},
-			},
-			["minimap"] = {
-				["minimapPos"] = 286.7554949708375,
 			},
 		},
 		["畜生犬隊長 - 伊弗斯"] = {

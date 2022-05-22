@@ -143,14 +143,14 @@ AutoBarDB = {
 					["defaultButtonIndex"] = "*",
 				},
 				["AutoBarButtonFoodPet"] = {
+					["barKey"] = "AutoBarClassBarHunter",
+					["buttonClass"] = "AutoBarButtonFoodPet",
+					["defaultButtonIndex"] = "*",
 					["enabled"] = true,
 					["rightClickTargetsPet"] = true,
+					["arrangeOnUse"] = true,
 					["buttonKey"] = "AutoBarButtonFoodPet",
 					["square_popups"] = true,
-					["arrangeOnUse"] = true,
-					["buttonClass"] = "AutoBarButtonFoodPet",
-					["barKey"] = "AutoBarClassBarHunter",
-					["defaultButtonIndex"] = "*",
 				},
 				["AutoBarButtonTrack"] = {
 					["barKey"] = "AutoBarClassBarHunter",
@@ -161,13 +161,13 @@ AutoBarDB = {
 					["buttonKey"] = "AutoBarButtonTrack",
 					["defaultButtonIndex"] = "*",
 				},
-				["AutoBarButtonTrap"] = {
+				["AutoBarButtonInterrupt"] = {
 					["barKey"] = "AutoBarClassBarHunter",
-					["buttonClass"] = "AutoBarButtonTrap",
+					["buttonClass"] = "AutoBarButtonInterrupt",
 					["square_popups"] = true,
 					["arrangeOnUse"] = true,
 					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonTrap",
+					["buttonKey"] = "AutoBarButtonInterrupt",
 					["defaultButtonIndex"] = "*",
 				},
 				["AutoBarButtonDebuff"] = {
@@ -186,15 +186,6 @@ AutoBarDB = {
 					["buttonKey"] = "AutoBarButtonClassPet",
 					["defaultButtonIndex"] = "*",
 				},
-				["AutoBarButtonInterrupt"] = {
-					["barKey"] = "AutoBarClassBarHunter",
-					["buttonClass"] = "AutoBarButtonInterrupt",
-					["square_popups"] = true,
-					["arrangeOnUse"] = true,
-					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonInterrupt",
-					["defaultButtonIndex"] = "*",
-				},
 				["AutoBarButtonCharge"] = {
 					["barKey"] = "AutoBarClassBarHunter",
 					["buttonClass"] = "AutoBarButtonCharge",
@@ -202,6 +193,15 @@ AutoBarDB = {
 					["arrangeOnUse"] = true,
 					["enabled"] = true,
 					["buttonKey"] = "AutoBarButtonCharge",
+					["defaultButtonIndex"] = "*",
+				},
+				["AutoBarButtonTrap"] = {
+					["barKey"] = "AutoBarClassBarHunter",
+					["buttonClass"] = "AutoBarButtonTrap",
+					["square_popups"] = true,
+					["arrangeOnUse"] = true,
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonTrap",
 					["defaultButtonIndex"] = "*",
 				},
 				["AutoBarButtonClassPets3"] = {

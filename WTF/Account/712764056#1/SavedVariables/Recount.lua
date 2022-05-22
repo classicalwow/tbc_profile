@@ -9,14 +9,12 @@ RecountDB = {
 		["特變電工 - 伊弗斯"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -522.0856323242188,
-					["x"] = -462.6630249023438,
+					["y"] = -522.5082473754883,
+					["x"] = -462.9998168945313,
 					["w"] = 329,
 					["h"] = 214.0000305175781,
 				},
 			},
-			["DetailWindowX"] = 1036.542724609375,
-			["LastInstanceName"] = "黑暗神廟",
 			["SegmentBosses"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -29,9 +27,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -296.1766662597656,
-			["MainWindowHeight"] = 214.3261108398438,
-			["CurDataSet"] = "LastFightData",
-			["MainWindowWidth"] = 329.2458801269531,
+			["DetailWindowX"] = 1036.542724609375,
 			["Filters"] = {
 				["Show"] = {
 					["Hostile"] = true,
@@ -43,8 +39,13 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
+			["LastInstanceName"] = "太陽之井",
+			["CurDataSet"] = "OverallData",
+			["MainWindowWidth"] = 329.2458801269531,
+			["MainWindowHeight"] = 214.3261108398438,
 		},
 		["邁克爾假死 - 伊弗斯"] = {
+			["MainWindowVis"] = false,
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = -503.6073760986328,
@@ -53,7 +54,9 @@ RecountDB = {
 					["h"] = 253,
 				},
 			},
+			["DetailWindowX"] = 835.6286010742188,
 			["MainWindowHeight"] = 253.3423614501953,
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -65,10 +68,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -456.5082092285156,
-			["DetailWindowX"] = 835.6286010742188,
-			["LastInstanceName"] = "黑暗神廟",
-			["CurDataSet"] = "CurrentFightData",
 			["MainWindowWidth"] = 333.3405151367188,
+			["LastInstanceName"] = "黑暗神廟",
 		},
 		["路易斯桑拿 - 伊弗斯"] = {
 			["MainWindowVis"] = false,
