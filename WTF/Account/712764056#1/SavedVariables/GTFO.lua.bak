@@ -1,9 +1,9 @@
 
 GTFOData = {
-	["TestMode"] = false,
-	["Active"] = true,
 	["SoundOverrides"] = {
 	},
+	["Active"] = true,
+	["TestMode"] = false,
 	["TrivialDamagePercent"] = 2,
 	["EnableVibration"] = false,
 	["Sounds"] = {

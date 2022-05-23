@@ -3040,6 +3040,18 @@ RaidLedgerDatabase = {
 						["count"] = 1,
 					},
 				}, -- [253]
+				{
+					["beneficiary"] = "一隻德魯伊",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cff0070dd|Hitem:35273::::::::70:::::::::|h[高級熔煉論文]|h|r",
+						["count"] = 1,
+					},
+				}, -- [254]
 			},
 		}, -- [1]
 	},

@@ -11,11 +11,8 @@ DataStore_AuctionsDB = {
 				["lastVisitDate"] = "2022/03/20 22:32",
 			},
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1653153043,
-				["Auctions"] = {
-					"0|32231|1||6449999|6449999|4", -- [1]
-				},
-				["lastVisitDate"] = "2022/05/22 01:10",
+				["lastUpdate"] = 1653220333,
+				["lastVisitDate"] = "2022/05/22 19:52",
 			},
 		},
 	},

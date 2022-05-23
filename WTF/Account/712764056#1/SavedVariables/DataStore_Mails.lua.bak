@@ -11,19 +11,8 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2022/05/21 22:30",
 			},
 			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1653052656,
-				["Mails"] = {
-					{
-						["sender"] = "邁克爾假死",
-						["subject"] = "11",
-						["lastCheck"] = 1653143414,
-						["money"] = 623430000,
-						["text"] = "",
-						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
-						["daysLeft"] = 30,
-					}, -- [1]
-				},
-				["lastVisitDate"] = "2022/05/20 21:17",
+				["lastUpdate"] = 1653220350,
+				["lastVisitDate"] = "2022/05/22 19:52",
 			},
 		},
 	},
