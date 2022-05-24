@@ -26,8 +26,8 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -296.1766662597656,
-			["DetailWindowX"] = 1036.542724609375,
+			["DetailWindowY"] = -295.9252624511719,
+			["DetailWindowX"] = 1036.125732421875,
 			["Filters"] = {
 				["Show"] = {
 					["Hostile"] = true,
@@ -39,8 +39,8 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "太陽之井",
-			["CurDataSet"] = "LastFightData",
+			["LastInstanceName"] = "祖阿曼",
+			["CurDataSet"] = "CurrentFightData",
 			["MainWindowWidth"] = 329.2458801269531,
 			["MainWindowHeight"] = 214.3261108398438,
 		},
