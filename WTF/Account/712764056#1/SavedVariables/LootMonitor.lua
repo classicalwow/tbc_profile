@@ -2,100 +2,13 @@
 LootMonitorDB = {
 	["LootLog"] = {
 		{
-			["InstanceID"] = 568,
-			["Player"] = "特變電工",
-			["LootTable"] = {
-				{
-					["GUID"] = "Creature-0-4491-568-4619-23574-00007A7987",
-					["Time"] = "23:02:38",
-					["Looter"] = "汁哞",
-					["Date"] = "2022-05-10",
-					["Class"] = "DRUID",
-					["Name"] = "阿奇爾森",
-					["Loots"] = {
-						"|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r", -- [1]
-						"|cffa335ee|Hitem:33216::::::::70:::::::::|h[隱匿意圖護胸]|h|r", -- [2]
-					},
-				}, -- [1]
-				{
-					["GUID"] = "Creature-0-4491-568-4619-23576-00007A7987",
-					["Time"] = "23:11:33",
-					["Looter"] = "汁哞",
-					["Date"] = "2022-05-10",
-					["Class"] = "DRUID",
-					["Name"] = "納羅拉克",
-					["Loots"] = {
-						"|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r", -- [1]
-						"|cffa335ee|Hitem:33285::::::::70:::::::::|h[熊族之怒]|h|r", -- [2]
-					},
-				}, -- [2]
-				{
-					["GUID"] = "Creature-0-4491-568-4619-23578-00007A7987",
-					["Time"] = "23:23:56",
-					["Class"] = "DRUID",
-					["Date"] = "2022-05-10",
-					["Looter"] = "汁哞",
-					["Name"] = "賈納雷",
-					["Loots"] = {
-						"|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r", -- [1]
-						"|cffa335ee|Hitem:33329::::::::70:::::::::|h[影牙食人妖皮胸衣]|h|r", -- [2]
-					},
-				}, -- [3]
-				{
-					["GUID"] = "Creature-0-4491-568-4619-23577-00007A7987",
-					["Time"] = "23:35:15",
-					["Class"] = "DRUID",
-					["Date"] = "2022-05-10",
-					["Looter"] = "汁哞",
-					["Name"] = "哈拉齊",
-					["Loots"] = {
-						"|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r", -- [1]
-						"|cffa335ee|Hitem:33299::::::::70:::::::::|h[擁護者肩甲]|h|r", -- [2]
-					},
-				}, -- [4]
-				{
-					["GUID"] = "Creature-0-4491-568-4619-24239-00007A862F",
-					["Time"] = "23:45:47",
-					["Class"] = "DRUID",
-					["Date"] = "2022-05-10",
-					["Looter"] = "汁哞",
-					["Name"] = "妖術領主瑪拉克雷斯",
-					["Loots"] = {
-						"|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r", -- [1]
-						"|cffa335ee|Hitem:33592::::::::70:::::::::|h[遠古儀式披風]|h|r", -- [2]
-						"|cffa335ee|Hitem:33432::::::::70:::::::::|h[叢林獵捕者罩盔]|h|r", -- [3]
-						"|cffa335ee|Hitem:34029::::::::70:::::::::|h[小巫毒面具]|h|r", -- [4]
-					},
-				}, -- [5]
-				{
-					["GUID"] = "Creature-0-4491-568-4619-23863-00007A88A7",
-					["Time"] = "23:51:50",
-					["Class"] = "WARRIOR",
-					["Date"] = "2022-05-10",
-					["Looter"] = "特變電工",
-					["Name"] = "祖爾金",
-					["Loots"] = {
-						"|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r", -- [1]
-						"|cffa335ee|Hitem:33102::::::::70:::::::::|h[祖爾金之血]|h|r", -- [2]
-						"|cffa335ee|Hitem:33466::::::::70:::::::::|h[詛咒骸骨迴圈]|h|r", -- [3]
-						"|cffa335ee|Hitem:33473::::::::70:::::::::|h[督軍護胸]|h|r", -- [4]
-					},
-				}, -- [6]
-			},
-			["FirstClass"] = "UNKNOWN",
-			["Date"] = "2022-05-10",
-			["Class"] = "WARRIOR",
-			["InstanceName"] = "Zul'Aman",
-			["FirstPlayer"] = "未知",
-		}, -- [1]
-		{
 			["InstanceID"] = 565,
 			["Player"] = "特變電工",
 			["FirstPlayer"] = "騎風",
 			["InstanceName"] = "Gruul's Lair",
 			["Date"] = "2022-05-14",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "SHAMAN",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-565-20519-18831-00007F420A",
@@ -129,14 +42,14 @@ LootMonitorDB = {
 					},
 				}, -- [2]
 			},
-		}, -- [2]
+		}, -- [1]
 		{
 			["InstanceID"] = 580,
 			["FirstPlayer"] = "阿梨的聖騎士",
 			["InstanceName"] = "Sunwell Plateau",
-			["Class"] = "WARRIOR",
-			["Date"] = "2022-05-14",
 			["FirstClass"] = "PALADIN",
+			["Date"] = "2022-05-14",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-580-31051-25368-00007F97D6",
@@ -354,15 +267,15 @@ LootMonitorDB = {
 				}, -- [19]
 			},
 			["Player"] = "特變電工",
-		}, -- [3]
+		}, -- [2]
 		{
 			["InstanceID"] = 564,
 			["Player"] = "特變電工",
 			["FirstPlayer"] = "未知目標",
 			["InstanceName"] = "Black Temple",
 			["Date"] = "2022-05-15",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "UNKNOWN",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-564-30100-22877-0000809AD9",
@@ -725,7 +638,7 @@ LootMonitorDB = {
 					},
 				}, -- [31]
 			},
-		}, -- [4]
+		}, -- [3]
 		{
 			["InstanceID"] = 580,
 			["Player"] = "特變電工",
@@ -764,12 +677,12 @@ LootMonitorDB = {
 					},
 				}, -- [3]
 			},
-			["Class"] = "WARRIOR",
-			["Date"] = "2022-05-15",
 			["FirstClass"] = "UNKNOWN",
+			["Date"] = "2022-05-15",
+			["Class"] = "WARRIOR",
 			["InstanceName"] = "Sunwell Plateau",
 			["FirstPlayer"] = "未知",
-		}, -- [5]
+		}, -- [4]
 		{
 			["InstanceID"] = 564,
 			["Player"] = "特變電工",
@@ -1228,20 +1141,20 @@ LootMonitorDB = {
 					},
 				}, -- [39]
 			},
-			["FirstClass"] = "UNKNOWN",
-			["Date"] = "2022-05-19",
 			["Class"] = "WARRIOR",
+			["Date"] = "2022-05-19",
+			["FirstClass"] = "UNKNOWN",
 			["InstanceName"] = "Black Temple",
 			["FirstPlayer"] = "未知",
-		}, -- [6]
+		}, -- [5]
 		{
 			["InstanceID"] = 564,
 			["Player"] = "邁克爾假死",
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Black Temple",
 			["Date"] = "2022-05-20",
-			["FirstClass"] = "UNKNOWN",
 			["Class"] = "HUNTER",
+			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-564-23138-22875-0000878DD6",
@@ -1550,15 +1463,15 @@ LootMonitorDB = {
 					},
 				}, -- [26]
 			},
-		}, -- [7]
+		}, -- [6]
 		{
 			["InstanceID"] = 580,
 			["Player"] = "特變電工",
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Sunwell Plateau",
 			["Date"] = "2022-05-21",
-			["FirstClass"] = "UNKNOWN",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-580-26762-25371-000188CCA1",
@@ -1750,14 +1663,14 @@ LootMonitorDB = {
 					},
 				}, -- [16]
 			},
-		}, -- [8]
+		}, -- [7]
 		{
 			["InstanceID"] = 568,
 			["FirstPlayer"] = "Bigob",
 			["InstanceName"] = "Zul'Aman",
-			["Class"] = "WARRIOR",
-			["Date"] = "2022-05-23",
 			["FirstClass"] = "SHAMAN",
+			["Date"] = "2022-05-23",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-568-20420-23574-00000B8A54",
@@ -1845,7 +1758,7 @@ LootMonitorDB = {
 				}, -- [7]
 			},
 			["Player"] = "特變電工",
-		}, -- [9]
+		}, -- [8]
 	},
 	["Config"] = {
 		["ShowMinimapIcon"] = true,
