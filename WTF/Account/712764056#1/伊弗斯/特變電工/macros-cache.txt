@@ -2,13 +2,6 @@ VER 3 0000000001000001 "target" "132090"
 /target 不服從
 /script SetRaidTarget("target",8)
 END
-VER 3 0000000001000013 "傳核" "132108"
-#show 受污染的核心
-/use 受污染的核心
-/大喊 我把污染之核傳給:%T了!
-/script SendChatMessage("我把污染之核傳給你了，%T","whisper",GetDefaultLanguage("target"),UnitName("target"))
-/script SetRaidTarget("target",2);
-END
 VER 3 0000000001000018 "力量卷軸" "INV_MISC_QUESTIONMARK"
 /use [target=player] 力量卷軸 V
 END
@@ -83,4 +76,9 @@ VER 3 0000000001000014 "順劈斬" "INV_MISC_QUESTIONMARK"
 /cast 順劈斬
 /cast 勝利衝擊
 /startattack
+END
+VER 3 0000000001000013 "龍錘" "132108"
+/cast [stance:2/3] 狂暴姿態
+/equipslot 16 item:28439:3225
+/equipslot 17 item:28439:2673
 END
