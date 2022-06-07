@@ -9,8 +9,8 @@ RecountDB = {
 		["特變電工 - 伊弗斯"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -523.0910720825195,
-					["x"] = -462.9998779296875,
+					["y"] = -517.096321105957,
+					["x"] = -451.3422241210938,
 					["w"] = 329,
 					["h"] = 214.0000152587891,
 				},
@@ -40,7 +40,7 @@ RecountDB = {
 				},
 			},
 			["LastInstanceName"] = "太陽之井",
-			["CurDataSet"] = "OverallData",
+			["CurDataSet"] = "CurrentFightData",
 			["MainWindowWidth"] = 329.2458801269531,
 			["MainWindowHeight"] = 214.3261108398438,
 		},
