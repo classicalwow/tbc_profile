@@ -10,7 +10,6 @@ _G[addonName] = LibStub("AceAddon-3.0"):NewAddon(addonName, "AceConsole-3.0", "A
 
 local addon = _G[addonName]
 
-local THIS_ACCOUNT = "Default"
 local MAX_LOGOUT_TIMESTAMP = 5000000000	-- 5 billion, current values are at ~1.4 billion, in seconds, that leaves us 110+ years, I think we're covered..
 
 -- Replace RAID_CLASS_COLORS which is not always loaded when we need it.
@@ -27,8 +26,10 @@ local classColors = {
 	["DRUID"] = "|cffff7c0a",
 	["MONK"] = "|cff00ff96",
 	["ROGUE"] = "|cfffff468",
+	
+	-- ["EVOKER"] = "|cff33937f",
+	
 }
-
 
 local AddonDB_Defaults = {
 	global = {
@@ -69,6 +70,11 @@ local AddonDB_Defaults = {
 				guildName = nil,		-- nil = not in a guild, as returned by GetGuildInfo("player")
 				guildRankName = nil,
 				guildRankIndex = nil,
+				
+				-- ** Expansion Features / 9.0 - Shadowlands **
+				renownLevel = 1,					-- Covenant Renown Level
+				activeCovenantID = 0,			-- Active Covenant ID (0 = None)
+				activeSoulbindID = 0,			-- Active Soulbind ID (0 = None)
 			}
 		}
 	}
@@ -82,12 +88,23 @@ end
 -- *** Scanning functions ***
 local function ScanPlayerLocation()
 	local character = addon.ThisCharacter
+	
 	character.zone = GetRealZoneText()
 	character.subZone = GetSubZoneText()
 end
 
+local function ScanCovenant()
+	local character = addon.ThisCharacter
+	
+	character.activeCovenantID = C_Covenants.GetActiveCovenantID()
+	character.activeSoulbindID = C_Soulbinds.GetActiveSoulbindID()
+	character.renownLevel = C_CovenantSanctumUI.GetRenownLevel()
+end
+
+
 -- *** Event Handlers ***
 local function OnPlayerGuildUpdate()
+
 	-- at login this event is called between OnEnable and PLAYER_ALIVE, where GetGuildInfo returns a wrong value
 	-- however, the value returned here is correct
 	local character = addon.ThisCharacter
@@ -112,6 +129,10 @@ local function OnPlayerGuildUpdate()
 			addon:SendMessage("DATASTORE_GUILD_LEFT")
 		end
 	end	
+end
+
+local function ScanXPDisabled()
+	addon.ThisCharacter.isXPDisabled = IsXPUserDisabled() or nil
 end
 
 local function OnPlayerUpdateResting()
@@ -147,6 +168,11 @@ local function OnPlayerAlive()
 	OnPlayerXPUpdate()
 	OnPlayerUpdateResting()
 	OnPlayerGuildUpdate()
+	
+	if WOW_PROJECT_ID == WOW_PROJECT_MAINLINE then
+		ScanXPDisabled()
+		ScanCovenant()
+	end
 end
 
 local function OnPlayerLogout()
@@ -166,6 +192,15 @@ local function OnTimePlayedMsg(event, totalTime, currentLevelTime)
 	addon.ThisCharacter.played = totalTime
 	addon.ThisCharacter.playedThisLevel = currentLevelTime
 end
+
+local function OnCovenantChosen()
+	ScanCovenant()
+end
+
+local function OnSanctumRenownLevelChanged()
+	ScanCovenant()
+end
+
 
 -- ** Mixins **
 local function _GetCharacterName(character)
@@ -199,7 +234,7 @@ local function _GetClassColor(class)
 end
 
 local function _GetCharacterFaction(character)
-	return character.faction or ""
+	return character.faction or "", character.localizedFaction or ""
 end
 	
 local function _GetColoredCharacterFaction(character)
@@ -347,6 +382,11 @@ local function _GetRestXPRate(character)
 		end
 	end
 	
+	-- ensure to report that a max level has not earned xp while resting
+	if character.level == MAX_PLAYER_LEVEL then
+		xpEarnedResting = -1
+	end
+	
 	return rate, savedXP, savedRate, rateEarnedResting, xpEarnedResting, maxXP, isFullyRested, timeUntilFullyRested
 end
 
@@ -366,11 +406,17 @@ local function _GetPlayTime(character)
 	return (GetOption("HideRealPlayTime")) and 0 or character.played, character.playedThisLevel
 end
 
+local function _GetRealPlayTime(character)
+	-- return the real play time, not to be displayed, but just for computing (ex: which alt has the highest/lowest played ?)
+	return character.played
+end
+
 local function _GetLocation(character)
 	return character.zone, character.subZone
 end
 
-local PublicMethods = {
+
+local mixins = {
 	GetCharacterName = _GetCharacterName,
 	GetCharacterLevel = _GetCharacterLevel,
 	GetCharacterRace = _GetCharacterRace,
@@ -393,13 +439,31 @@ local PublicMethods = {
 	IsXPDisabled = _IsXPDisabled,
 	GetGuildInfo = _GetGuildInfo,
 	GetPlayTime = _GetPlayTime,
+	GetRealPlayTime = _GetRealPlayTime,
 	GetLocation = _GetLocation,
 }
 
-function addon:OnInitialize()
-	addon.db = LibStub("AceDB-3.0"):New(addonName .. "DB", AddonDB_Defaults)
+if WOW_PROJECT_ID == WOW_PROJECT_MAINLINE then
+	mixins["GetCovenantInfo"] = function(character)
+		return character.activeCovenantID, character.activeSoulbindID, character.renownLevel
+	end
 
-	DataStore:RegisterModule(addonName, addon, PublicMethods)
+	mixins["GetCovenantNameByID"] = function(id)
+		local data = C_Covenants.GetCovenantData(id)
+		return (data) and data.name or ""
+	end
+
+	mixins["GetCovenantName"] = function(character)
+		local id = character.activeCovenantID
+		local data = C_Covenants.GetCovenantData(id)
+		return (data) and data.name or ""	
+	end
+end
+
+function addon:OnInitialize()
+	addon.db = LibStub("AceDB-3.0"):New(format("%sDB", addonName), AddonDB_Defaults)
+
+	DataStore:RegisterModule(addonName, addon, mixins)
 	DataStore:SetCharacterBasedMethod("GetCharacterName")
 	DataStore:SetCharacterBasedMethod("GetCharacterLevel")
 	DataStore:SetCharacterBasedMethod("GetCharacterRace")
@@ -421,7 +485,13 @@ function addon:OnInitialize()
 	DataStore:SetCharacterBasedMethod("IsXPDisabled")
 	DataStore:SetCharacterBasedMethod("GetGuildInfo")
 	DataStore:SetCharacterBasedMethod("GetPlayTime")
+	DataStore:SetCharacterBasedMethod("GetRealPlayTime")
 	DataStore:SetCharacterBasedMethod("GetLocation")
+	
+	if WOW_PROJECT_ID == WOW_PROJECT_MAINLINE then
+		DataStore:SetCharacterBasedMethod("GetCovenantInfo")
+		DataStore:SetCharacterBasedMethod("GetCovenantName")
+	end
 end
 
 function addon:OnEnable()
@@ -438,6 +508,13 @@ function addon:OnEnable()
 	addon:RegisterEvent("ZONE_CHANGED_INDOORS", ScanPlayerLocation)
 	addon:RegisterEvent("TIME_PLAYED_MSG", OnTimePlayedMsg)					-- register the event if RequestTimePlayed is not called afterwards. If another addon calls it, we want to get the data anyway.
 	
+	if WOW_PROJECT_ID == WOW_PROJECT_MAINLINE then
+		addon:RegisterEvent("ENABLE_XP_GAIN", ScanXPDisabled)
+		addon:RegisterEvent("DISABLE_XP_GAIN", ScanXPDisabled)
+		addon:RegisterEvent("COVENANT_CHOSEN", OnCovenantChosen)
+		addon:RegisterEvent("COVENANT_SANCTUM_RENOWN_LEVEL_CHANGED", OnSanctumRenownLevelChanged)
+	end
+	
 	addon:SetupOptions()
 	
 	if GetOption("RequestPlayTime") then
@@ -452,11 +529,16 @@ function addon:OnDisable()
 	addon:UnregisterEvent("PLAYER_MONEY")
 	addon:UnregisterEvent("PLAYER_XP_UPDATE")
 	addon:UnregisterEvent("PLAYER_UPDATE_RESTING")
-	addon:UnregisterEvent("ENABLE_XP_GAIN")
-	addon:UnregisterEvent("DISABLE_XP_GAIN")
 	addon:UnregisterEvent("PLAYER_GUILD_UPDATE")
 	addon:UnregisterEvent("ZONE_CHANGED")
 	addon:UnregisterEvent("ZONE_CHANGED_NEW_AREA")
 	addon:UnregisterEvent("ZONE_CHANGED_INDOORS")
 	addon:UnregisterEvent("TIME_PLAYED_MSG")
+	
+	if WOW_PROJECT_ID == WOW_PROJECT_MAINLINE then
+		addon:UnregisterEvent("ENABLE_XP_GAIN")
+		addon:UnregisterEvent("DISABLE_XP_GAIN")
+		addon:UnregisterEvent("COVENANT_CHOSEN")
+		addon:UnregisterEvent("COVENANT_SANCTUM_RENOWN_LEVEL_CHANGED")
+	end
 end

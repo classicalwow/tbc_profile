@@ -195,9 +195,11 @@ function Bar:OnLoad(cfg, benign)
 
 	-- Tint RGB for background textures	
 	if cfg.tintRGB then
-		env:SetTintColor(unpack(cfg.tintRGB))
+		self.BG:SetGradientAlpha(env:GetColorGradient(unpack(cfg.tintRGB)))
+		self.BottomLine:SetVertexColor(unpack(cfg.tintRGB))
 	else
-		env:SetTintColor(r, g, b, 1)
+		self.BG:SetGradientAlpha(env:GetColorGradient(r, g, b))
+		self.BottomLine:SetVertexColor(r, g, b, 1)
 	end
 
 	-- Show 'the eye'

@@ -5,9 +5,9 @@ LootMonitorDB = {
 			["InstanceID"] = 564,
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Black Temple",
-			["FirstClass"] = "UNKNOWN",
-			["Date"] = "2022-05-27",
 			["Class"] = "WARRIOR",
+			["Date"] = "2022-05-27",
+			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-564-11302-22877-000210BED4",
@@ -398,9 +398,9 @@ LootMonitorDB = {
 			["InstanceID"] = 565,
 			["FirstPlayer"] = "Ikemen",
 			["InstanceName"] = "Gruul's Lair",
-			["FirstClass"] = "MAGE",
-			["Date"] = "2022-05-28",
 			["Class"] = "WARRIOR",
+			["Date"] = "2022-05-28",
+			["FirstClass"] = "MAGE",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-565-14506-18831-000010FBF2",
@@ -440,9 +440,9 @@ LootMonitorDB = {
 			["InstanceID"] = 580,
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Sunwell Plateau",
-			["Class"] = "WARRIOR",
-			["Date"] = "2022-05-28",
 			["FirstClass"] = "UNKNOWN",
+			["Date"] = "2022-05-28",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-580-1098-25367-0002120AAD",

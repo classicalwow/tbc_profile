@@ -22,7 +22,7 @@ local function DeleteGuild_MsgBox_Handler(self, button, guildKey)
 	local guild = addon:GetGuild(guildName, realm, account)
 	wipe(guild)
 	
-	DataStore:DeleteGuild(guildName, realm, account)
+	DataStore:DeleteGuild(guildKey)
 	
 	addon:Print(format( L["Guild %s successfully deleted"], guildName))
 	

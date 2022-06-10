@@ -2,6 +2,12 @@ Altoholic Burning Crusade Classic Changelog (dates in dd/mm/yyyy)
 ===========================================
 
 
+2.5.008 (05/06/2022)
+
+- Fixed item count not being visible in the tooltip for enchanting reagents.
+- Fixed the tooltip backdrop issue.
+(for reference: changed 2x BackdropTemplate to TooltipBackdropTemplate in Altoholic\Templates\DropDownMenu.xml)
+
 2.5.007 (03/10/2021)
 
 - Fixed an issue that made any recipe tooltip with "Requires [reagents](X)" show as learnable (Thanks Solastus75 !)

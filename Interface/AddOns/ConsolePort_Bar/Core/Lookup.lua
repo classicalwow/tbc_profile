@@ -240,21 +240,17 @@ function env:GetDefaultSettings()
 	}
 end
 
-function env:GetColorGradient(r, g, b)
+function env:GetColorGradient(red, green, blue)
 	local gBase = 0.15
 	local gMulti = 1.2
 	local startAlpha = 0.25
 	local endAlpha = 0
-	return
+	local gradient = {
 		'VERTICAL',
-		(r + gBase)     * gMulti,
-		(g + gBase)     * gMulti,
-		(b + gBase)     * gMulti,
-		startAlpha,
-		1 - (r + gBase) * gMulti,
-		1 - (g + gBase) * gMulti,
-		1 - (b + gBase) * gMulti,
-		endAlpha
+		(red + gBase) * gMulti, (green + gBase) * gMulti, (blue + gBase) * gMulti, startAlpha,
+		1 - (red + gBase) * gMulti, 1 - (green + gBase) * gMulti, 1 - (blue + gBase) * gMulti, endAlpha,
+	}
+	return unpack(gradient)
 end
 
 function env:GetBooleanSettings() return {
@@ -429,7 +425,7 @@ function env:SetRainbowScript(on)
 	local f = env.bar
 	if on then
 		local reg, pairs = env.libs.registry, pairs
-		local __cb, __wb = CastingBarFrame, f.WatchBarContainer
+		local __cb, __bg, __bl, __wb = CastingBarFrame, f.BG, f.BottomLine, f.WatchBarContainer
 		local t, i, p, c, w, m = 0, 0, 0, 128, 127, 180
 		local hz = (math.pi*2) / m
 		local r, g, b
@@ -445,7 +441,8 @@ function env:SetRainbowScript(on)
 				end
 				__cb:SetStatusBarColor(r, g, b)
 				__wb:SetMainBarColor(r, g, b)
-				env:SetTintColor(r, g, b, 1)
+				__bg:SetGradientAlpha(env:GetColorGradient(r, g, b))
+				__bl:SetVertexColor(r, g, b)
 				for _, rap in pairs(reg) do
 					rap:SetSwipeColor(r, g, b, 1)
 				end
@@ -480,14 +477,4 @@ function env:SetArtUnderlay(enabled, flashOnProc)
 		bar.CoverArt:Hide()
 	end
 	bar.CoverArt.flashOnProc = flashOnProc
-end
-
-function env:SetTintColor(r, g, b, a)
-	env.bar.BG:SetGradientAlpha(env:GetColorGradient(r, g, b))
-	env.bar.BottomLine:SetVertexColor(r, g, b, a)
-	if C_GamePad.SetLedColor then
-		self.tintColor = self.tintColor or CreateColor()
-		self.tintColor:SetRGBA(r, g, b, a)
-		C_GamePad.SetLedColor(self.tintColor)
-	end
 end

@@ -627,6 +627,15 @@ function addon:InitTooltip()
 			end,
 			nil
 		},
+		-- Required for enchanting
+		SetCraftItem = {
+			function(self, craftIndex, reagentIndex)
+				if craftIndex and reagentIndex then
+					storedLink = GetCraftReagentItemLink(craftIndex, reagentIndex)
+				end
+			end,
+			nil
+		},
 	}
 	-- install all method hooks
 	for m, hooks in pairs(tooltipMethodHooks) do

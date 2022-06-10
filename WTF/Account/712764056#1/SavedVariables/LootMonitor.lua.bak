@@ -2,108 +2,13 @@
 LootMonitorDB = {
 	["LootLog"] = {
 		{
-			["InstanceID"] = 568,
-			["FirstPlayer"] = "Bigob",
-			["InstanceName"] = "Zul'Aman",
-			["FirstClass"] = "SHAMAN",
-			["Date"] = "2022-05-23",
-			["Class"] = "WARRIOR",
-			["LootTable"] = {
-				{
-					["GUID"] = "Creature-0-4490-568-20420-23574-00000B8A54",
-					["Time"] = "21:41:41",
-					["Class"] = "WARRIOR",
-					["Date"] = "2022-05-23",
-					["Looter"] = "特變電工",
-					["Name"] = "阿奇爾森",
-					["Loots"] = {
-						"|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r", -- [1]
-						"|cffa335ee|Hitem:33286::::::::70:::::::::|h[魔精修補者面具]|h|r", -- [2]
-					},
-				}, -- [1]
-				{
-					["GUID"] = "Creature-0-4490-568-20420-23576-00000B8A54",
-					["Time"] = "21:51:46",
-					["Class"] = "SHAMAN",
-					["Date"] = "2022-05-23",
-					["Looter"] = "Kotaro",
-					["Name"] = "納羅拉克",
-					["Loots"] = {
-						"|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r", -- [1]
-						"|cffa335ee|Hitem:33191::::::::70:::::::::|h[叢林踏靴]|h|r", -- [2]
-					},
-				}, -- [2]
-				{
-					["GUID"] = "Creature-0-4490-568-20420-23578-00000B8A54",
-					["Time"] = "22:03:01",
-					["Class"] = "WARRIOR",
-					["Date"] = "2022-05-23",
-					["Looter"] = "特變電工",
-					["Name"] = "賈納雷",
-					["Loots"] = {
-						"|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r", -- [1]
-						"|cffa335ee|Hitem:33357::::::::70:::::::::|h[瘋狂薄靴]|h|r", -- [2]
-					},
-				}, -- [3]
-				{
-					["GUID"] = "Creature-0-4490-568-20420-23577-00000B8A54",
-					["Time"] = "22:15:49",
-					["Class"] = "WARLOCK",
-					["Date"] = "2022-05-23",
-					["Looter"] = "愛老虎尤",
-					["Name"] = "哈拉齊",
-					["Loots"] = {
-						"|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r", -- [1]
-						"|cffa335ee|Hitem:33533::::::::70:::::::::|h[雪崩護腿]|h|r", -- [2]
-					},
-				}, -- [4]
-				{
-					["GUID"] = "Creature-0-4490-568-20420-24549-00000B9716",
-					["Time"] = "22:20:33",
-					["Class"] = "PALADIN",
-					["Date"] = "2022-05-23",
-					["Looter"] = "沙花叉庫洛艾",
-					["Name"] = "阿曼尼希暴怒者",
-					["Loots"] = {
-						"|cff0070dd|Hitem:31501::::::::70:::::::::|h[秘典:造食術 VIII]|h|r", -- [1]
-					},
-				}, -- [5]
-				{
-					["GUID"] = "Creature-0-4490-568-20420-24239-00000B9716",
-					["Time"] = "22:26:47",
-					["Class"] = "SHAMAN",
-					["Date"] = "2022-05-23",
-					["Looter"] = "Kotaro",
-					["Name"] = "妖術領主瑪拉克雷斯",
-					["Loots"] = {
-						"|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r", -- [1]
-					},
-				}, -- [6]
-				{
-					["GUID"] = "Creature-0-4490-568-20420-23863-00000B9993",
-					["Time"] = "22:33:30",
-					["Class"] = "PALADIN",
-					["Date"] = "2022-05-23",
-					["Looter"] = "沙花叉庫洛艾",
-					["Name"] = "祖爾金",
-					["Loots"] = {
-						"|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r", -- [1]
-						"|cffa335ee|Hitem:33102::::::::70:::::::::|h[祖爾金之血]|h|r", -- [2]
-						"|cffa335ee|Hitem:33474::::::::70:::::::::|h[上古阿曼尼長弓]|h|r", -- [3]
-						"|cffa335ee|Hitem:33830::::::::70:::::::::|h[上古亞基神器]|h|r", -- [4]
-					},
-				}, -- [7]
-			},
-			["Player"] = "特變電工",
-		}, -- [1]
-		{
 			["InstanceID"] = 564,
 			["Player"] = "特變電工",
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Black Temple",
 			["Date"] = "2022-05-27",
-			["FirstClass"] = "UNKNOWN",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-564-11302-22877-000210BED4",
@@ -488,15 +393,15 @@ LootMonitorDB = {
 					},
 				}, -- [33]
 			},
-		}, -- [2]
+		}, -- [1]
 		{
 			["InstanceID"] = 565,
 			["Player"] = "特變電工",
 			["FirstPlayer"] = "Ikemen",
 			["InstanceName"] = "Gruul's Lair",
 			["Date"] = "2022-05-28",
-			["FirstClass"] = "MAGE",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "MAGE",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-565-14506-18831-000010FBF2",
@@ -530,15 +435,15 @@ LootMonitorDB = {
 					},
 				}, -- [2]
 			},
-		}, -- [3]
+		}, -- [2]
 		{
 			["InstanceID"] = 580,
 			["Player"] = "特變電工",
-			["InstanceName"] = "Sunwell Plateau",
 			["FirstPlayer"] = "未知",
+			["InstanceName"] = "Sunwell Plateau",
 			["Date"] = "2022-05-28",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "UNKNOWN",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-580-1098-25367-0002120AAD",
@@ -991,7 +896,7 @@ LootMonitorDB = {
 					},
 				}, -- [38]
 			},
-		}, -- [4]
+		}, -- [3]
 	},
 	["Config"] = {
 		["ShowMinimapIcon"] = true,
