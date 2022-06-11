@@ -6,9 +6,6 @@ DataStore_AgendaDB = {
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.伊弗斯.特變電工"] = {
-				["lastUpdate"] = 1654748781,
-			},
 			["Default.伊弗斯.邁克爾假死"] = {
 				["lastUpdate"] = 1653143389,
 				["BossKills"] = {
@@ -24,6 +21,9 @@ DataStore_AgendaDB = {
 						"伊利丹·怒風|1", -- [9]
 					},
 				},
+			},
+			["Default.伊弗斯.特變電工"] = {
+				["lastUpdate"] = 1654779720,
 			},
 		},
 	},
