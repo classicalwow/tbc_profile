@@ -48,6 +48,13 @@ TomTomWaypointsM = {
 					0.6405867970660146, -- [2]
 					0.4110024449877751, -- [3]
 					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "紐卓",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "紐卓",
+					["from"] = "?",
 					["callbacks"] = {
 						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
@@ -64,12 +71,7 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
-					["persistent"] = true,
 					["minimap"] = true,
-					["cleardistance"] = 10,
-					["title"] = "紐卓",
-					["from"] = "?",
-					["crazy"] = true,
 					["world"] = true,
 				},
 			},
@@ -91,9 +93,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,

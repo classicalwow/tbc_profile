@@ -97,7 +97,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
-						["count"] = 111,
+						["count"] = 119,
 					},
 				}, -- [8]
 				{
@@ -277,7 +277,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
-						["count"] = 50,
+						["count"] = 56,
 					},
 				}, -- [23]
 				{
@@ -745,7 +745,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
-						["count"] = 58,
+						["count"] = 66,
 					},
 				}, -- [62]
 				{
@@ -985,7 +985,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cff0070dd|Hitem:34664::::::::70:::::::::|h[太陽微粒]|h|r",
-						["count"] = 13,
+						["count"] = 19,
 					},
 				}, -- [82]
 				{
@@ -1057,7 +1057,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
-						["count"] = 20,
+						["count"] = 28,
 					},
 				}, -- [88]
 				{
@@ -1069,7 +1069,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
-						["count"] = 20,
+						["count"] = 28,
 					},
 				}, -- [89]
 				{
@@ -1081,7 +1081,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
-						["count"] = 37,
+						["count"] = 43,
 					},
 				}, -- [90]
 				{
@@ -1093,7 +1093,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
-						["count"] = 56,
+						["count"] = 64,
 					},
 				}, -- [91]
 				{
@@ -1105,7 +1105,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
-						["count"] = 22,
+						["count"] = 30,
 					},
 				}, -- [92]
 				{
@@ -1129,7 +1129,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
-						["count"] = 56,
+						["count"] = 64,
 					},
 				}, -- [94]
 				{
@@ -1141,7 +1141,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
-						["count"] = 16,
+						["count"] = 24,
 					},
 				}, -- [95]
 				{
@@ -1177,7 +1177,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
-						["count"] = 22,
+						["count"] = 30,
 					},
 				}, -- [98]
 				{
@@ -1213,7 +1213,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
-						["count"] = 22,
+						["count"] = 30,
 					},
 				}, -- [101]
 				{
@@ -1225,7 +1225,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
-						["count"] = 22,
+						["count"] = 30,
 					},
 				}, -- [102]
 				{
@@ -1249,7 +1249,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
-						["count"] = 30,
+						["count"] = 38,
 					},
 				}, -- [104]
 				{
@@ -1261,7 +1261,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
-						["count"] = 20,
+						["count"] = 26,
 					},
 				}, -- [105]
 				{
@@ -1273,7 +1273,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
-						["count"] = 20,
+						["count"] = 26,
 					},
 				}, -- [106]
 				{
@@ -1285,7 +1285,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
-						["count"] = 22,
+						["count"] = 28,
 					},
 				}, -- [107]
 				{
@@ -1297,7 +1297,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
-						["count"] = 22,
+						["count"] = 28,
 					},
 				}, -- [108]
 				{
@@ -2941,7 +2941,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
-						["count"] = 20,
+						["count"] = 28,
 					},
 				}, -- [245]
 				{
@@ -2953,7 +2953,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
-						["count"] = 20,
+						["count"] = 28,
 					},
 				}, -- [246]
 				{
@@ -3683,9 +3683,9 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["item"] = "|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r",
-						["type"] = "ITEM",
 						["count"] = 8,
+						["type"] = "ITEM",
+						["item"] = "|cff0070dd|Hitem:32428::::::::70:::::::::|h[黑暗之心]|h|r",
 						["displayname"] = "",
 					},
 				}, -- [307]
@@ -3830,7 +3830,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:32229::::::::70:::::::::|h[獅眼石]|h|r",
-						["count"] = 2,
+						["count"] = 3,
 					},
 				}, -- [319]
 				{
@@ -3936,9 +3936,9 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["item"] = "|cffa335ee|Hitem:31099::::::::70:::::::::|h[遺忘防禦者護腿]|h|r",
-						["type"] = "ITEM",
 						["count"] = 1,
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:31099::::::::70:::::::::|h[遺忘防禦者護腿]|h|r",
 						["displayname"] = "",
 					},
 				}, -- [328]
@@ -3949,9 +3949,9 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["item"] = "|cffa335ee|Hitem:31099::::::::70:::::::::|h[遺忘防禦者護腿]|h|r",
-						["type"] = "ITEM",
 						["count"] = 1,
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:31099::::::::70:::::::::|h[遺忘防禦者護腿]|h|r",
 						["displayname"] = "",
 					},
 				}, -- [329]
@@ -4274,9 +4274,9 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["item"] = "|cffa335ee|Hitem:29763::::::::70:::::::::|h[逝往勇士肩鎧]|h|r",
-						["type"] = "ITEM",
 						["count"] = 1,
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29763::::::::70:::::::::|h[逝往勇士肩鎧]|h|r",
 						["displayname"] = "",
 					},
 				}, -- [356]
@@ -4371,9 +4371,9 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["item"] = "|cffa335ee|Hitem:29767::::::::70:::::::::|h[逝往防衛者護腿]|h|r",
-						["type"] = "ITEM",
 						["count"] = 1,
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29767::::::::70:::::::::|h[逝往防衛者護腿]|h|r",
 						["displayname"] = "",
 					},
 				}, -- [364]
@@ -4432,9 +4432,9 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["item"] = "|cffa335ee|Hitem:35190::::::::70:::::::::|h[結構圖:超放大月光眼鏡]|h|r",
-						["type"] = "ITEM",
 						["count"] = 1,
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:35190::::::::70:::::::::|h[結構圖:超放大月光眼鏡]|h|r",
 						["displayname"] = "",
 					},
 				}, -- [369]
@@ -4457,9 +4457,9 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["item"] = "|cffa335ee|Hitem:35209::::::::70:::::::::|h[設計圖:特硬克銀戰拳]|h|r",
-						["type"] = "ITEM",
 						["count"] = 1,
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:35209::::::::70:::::::::|h[設計圖:特硬克銀戰拳]|h|r",
 						["displayname"] = "",
 					},
 				}, -- [371]
@@ -4470,9 +4470,9 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["item"] = "|cff0070dd|Hitem:35273::::::::70:::::::::|h[高級熔煉論文]|h|r",
-						["type"] = "ITEM",
 						["count"] = 1,
+						["type"] = "ITEM",
+						["item"] = "|cff0070dd|Hitem:35273::::::::70:::::::::|h[高級熔煉論文]|h|r",
 						["displayname"] = "",
 					},
 				}, -- [372]
@@ -4497,7 +4497,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
-						["count"] = 12,
+						["count"] = 20,
 					},
 				}, -- [374]
 				{
@@ -4569,7 +4569,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
-						["count"] = 14,
+						["count"] = 22,
 					},
 				}, -- [380]
 				{
@@ -4581,7 +4581,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
-						["count"] = 14,
+						["count"] = 22,
 					},
 				}, -- [381]
 				{
@@ -4932,6 +4932,246 @@ RaidLedgerDatabase = {
 						["count"] = 1,
 					},
 				}, -- [410]
+				{
+					["beneficiary"] = "深夜外送茶",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 8,
+					},
+				}, -- [411]
+				{
+					["beneficiary"] = "司命",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34164::::::::70:::::::::|h[龍鱗鑲嵌長刃]|h|r",
+						["count"] = 1,
+					},
+				}, -- [412]
+				{
+					["beneficiary"] = "司命",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34848::::::::70:::::::::|h[遺忘征服者護腕]|h|r",
+						["count"] = 1,
+					},
+				}, -- [413]
+				{
+					["beneficiary"] = "薰衣",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
+						["count"] = 8,
+					},
+				}, -- [414]
+				{
+					["beneficiary"] = "司命",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34851::::::::70:::::::::|h[遺忘保衛者護腕]|h|r",
+						["count"] = 1,
+					},
+				}, -- [415]
+				{
+					["beneficiary"] = "司命",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34852::::::::70:::::::::|h[遺忘防禦者護腕]|h|r",
+						["count"] = 1,
+					},
+				}, -- [416]
+				{
+					["beneficiary"] = "司命",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34181::::::::70:::::::::|h[災禍護腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [417]
+				{
+					["beneficiary"] = "司命",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34853::::::::70:::::::::|h[遺忘征服者腰帶]|h|r",
+						["count"] = 1,
+					},
+				}, -- [418]
+				{
+					["beneficiary"] = "司命",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34853::::::::70:::::::::|h[遺忘征服者腰帶]|h|r",
+						["count"] = 1,
+					},
+				}, -- [419]
+				{
+					["beneficiary"] = "司命",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34854::::::::70:::::::::|h[遺忘保衛者腰帶]|h|r",
+						["count"] = 1,
+					},
+				}, -- [420]
+				{
+					["beneficiary"] = "司命",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34352::::::::70:::::::::|h[邊地要塞之握]|h|r",
+						["count"] = 1,
+					},
+				}, -- [421]
+				{
+					["beneficiary"] = "司命",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34857::::::::70:::::::::|h[遺忘保衛者長靴]|h|r",
+						["count"] = 1,
+					},
+				}, -- [422]
+				{
+					["beneficiary"] = "司命",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34856::::::::70:::::::::|h[遺忘征服者長靴]|h|r",
+						["count"] = 1,
+					},
+				}, -- [423]
+				{
+					["beneficiary"] = "司命",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34856::::::::70:::::::::|h[遺忘征服者長靴]|h|r",
+						["count"] = 1,
+					},
+				}, -- [424]
+				{
+					["beneficiary"] = "司命",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34193::::::::70:::::::::|h[薩拉斯救主肩甲]|h|r",
+						["count"] = 1,
+					},
+				}, -- [425]
+				{
+					["beneficiary"] = "司命",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34202::::::::70:::::::::|h[奇觀披巾]|h|r",
+						["count"] = 1,
+					},
+				}, -- [426]
+				{
+					["beneficiary"] = "司命",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34210::::::::70:::::::::|h[召集者襯肩]|h|r",
+						["count"] = 1,
+					},
+				}, -- [427]
+				{
+					["beneficiary"] = "司命",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34848::::::::70:::::::::|h[遺忘征服者護腕]|h|r",
+						["count"] = 1,
+					},
+				}, -- [428]
+				{
+					["beneficiary"] = "司命",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34189::::::::70:::::::::|h[有害慾望指環]|h|r",
+						["count"] = 1,
+					},
+				}, -- [429]
+				{
+					["beneficiary"] = "司命",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:35291::::::::70:::::::::|h[辛多雷拯救墜飾]|h|r",
+						["count"] = 1,
+					},
+				}, -- [430]
 			},
 		}, -- [1]
 	},
@@ -4943,11 +5183,11 @@ RaidLedgerDatabase = {
 		["minimapicons"] = {
 			["hide"] = false,
 		},
-		["debittemplates"] = {
-		},
+		["minimapicon"] = true,
 		["raidbutton"] = true,
 		["filteritems"] = "# 每行一條, 可以是物品名稱或物品ID\n# 以 # 開頭的行自動被忽略\n",
-		["minimapicon"] = true,
+		["debittemplates"] = {
+		},
 		["filterzero"] = false,
 	},
 	["current"] = 1,

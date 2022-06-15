@@ -9,10 +9,10 @@ RecountDB = {
 		["特變電工 - 伊弗斯"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -517.0963363647461,
-					["x"] = -451.3422241210938,
+					["y"] = -517.5082244873047,
+					["x"] = -451,
 					["w"] = 329,
-					["h"] = 214.0000305175781,
+					["h"] = 214.0000152587891,
 				},
 			},
 			["SegmentBosses"] = true,
@@ -39,8 +39,8 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "劍刃競技場",
-			["CurDataSet"] = "LastFightData",
+			["LastInstanceName"] = "太陽之井",
+			["CurDataSet"] = "CurrentFightData",
 			["MainWindowWidth"] = 329.2458801269531,
 			["MainWindowHeight"] = 214.3261108398438,
 		},
