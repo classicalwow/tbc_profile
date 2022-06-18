@@ -1,4 +1,4 @@
-## Interface: 90200
+## Interface: 90205
 ## Title: Console Port |cff69ccf0Config|r
 ## Notes: Configuration module
 ## RequiredDeps: ConsolePort
@@ -31,4 +31,4 @@ Bindings\Bindings.lua
 Settings\Variables.lua
 Settings\Console.lua
 
-Mapper\Bootloader.lua
+Rings\Manager.lua

@@ -21,11 +21,11 @@ DataStoreDB = {
 		},
 		["Version"] = 1,
 		["Characters"] = {
-			["Default.伊弗斯.邁克爾假死"] = {
+			["Default.伊弗斯.特變電工"] = {
 				["faction"] = "Horde",
 				["guildName"] = "光之烙印",
 			},
-			["Default.伊弗斯.特變電工"] = {
+			["Default.伊弗斯.邁克爾假死"] = {
 				["guildName"] = "光之烙印",
 				["faction"] = "Horde",
 			},

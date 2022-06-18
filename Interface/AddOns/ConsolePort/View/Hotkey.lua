@@ -90,10 +90,12 @@ function HotkeyHandler:GetButtonSlug(device, btnID, modID, split)
 	end
 	local slug = split and {} or '';
 	for i, mod in db.table.ripairs(data.modifier) do
-		if split then
-			slug[#slug + 1] = icon:format(mod)
-		else
-			slug = slug .. icon:format(mod)
+		if mod then
+			if split then
+				slug[#slug + 1] = icon:format(mod)
+			else
+				slug = slug .. icon:format(mod)
+			end
 		end
 	end
 	if split then
