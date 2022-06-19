@@ -3,25 +3,25 @@ LootMonitorDB = {
 	["LootLog"] = {
 		{
 			["InstanceID"] = 580,
-			["Player"] = "特變電工",
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Sunwell Plateau",
-			["Date"] = "2022-06-12",
 			["Class"] = "WARRIOR",
+			["Date"] = "2022-06-12",
 			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-580-29026-25591-000025F7EC",
 					["Time"] = "22:29:19",
-					["Looter"] = "阿梨的聖騎士",
-					["Date"] = "2022-06-12",
 					["Class"] = "PALADIN",
+					["Date"] = "2022-06-12",
+					["Looter"] = "阿梨的聖騎士",
 					["Name"] = "痛苦使者",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32229::::::::70:::::::::|h[獅眼石]|h|r", -- [1]
 					},
 				}, -- [1]
 			},
+			["Player"] = "特變電工",
 		}, -- [1]
 	},
 	["Config"] = {

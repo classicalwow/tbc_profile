@@ -10,11 +10,12 @@ RecountDB = {
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = -517.5082092285156,
-					["x"] = -451.0001220703125,
+					["x"] = -451.0001525878906,
 					["w"] = 329,
 					["h"] = 214.0000305175781,
 				},
 			},
+			["ReportLines"] = 8,
 			["SegmentBosses"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -39,8 +40,8 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "劍刃競技場",
-			["CurDataSet"] = "CurrentFightData",
+			["LastInstanceName"] = "太陽之井",
+			["CurDataSet"] = "LastFightData",
 			["MainWindowWidth"] = 329.2458801269531,
 			["MainWindowHeight"] = 214.3261108398438,
 		},

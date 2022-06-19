@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+	["session"] = 830,
 	["lastSanitation"] = 3,
-	["session"] = 829,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\TomTom\\TomTom_Config.lua:40: attempt to call method 'EnableDisablePOIIntegration' (a nil value)",
@@ -74,8 +74,8 @@ BugGrabberDB = {
 		}, -- [9]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\MeetingHorn\\Libs\\tdGUI\\Libs\\LibClass-2.0-10\\LibClass-2.0.xml",
-			["time"] = "2021/06/08 20:55:27",
 			["session"] = 47,
+			["time"] = "2021/06/08 20:55:27",
 			["counter"] = 91,
 		}, -- [10]
 		{
@@ -189,26 +189,26 @@ BugGrabberDB = {
 		}, -- [24]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\alaTalentEmu\\libs\\libs.xml",
-			["session"] = 304,
 			["time"] = "2021/08/08 18:21:56",
+			["session"] = 304,
 			["counter"] = 3,
 		}, -- [25]
 		{
 			["message"] = "Error loading Interface\\AddOns\\ClassicCodex-patch\\objects-questie-tbc.lua",
-			["session"] = 304,
 			["time"] = "2021/08/08 18:21:56",
+			["session"] = 304,
 			["counter"] = 3,
 		}, -- [26]
 		{
 			["message"] = "Error loading Interface\\AddOns\\ClassicCodex-patch\\objects-loc-tbc.lua",
-			["session"] = 304,
 			["time"] = "2021/08/08 18:21:56",
+			["session"] = 304,
 			["counter"] = 3,
 		}, -- [27]
 		{
 			["message"] = "Error loading Interface\\AddOns\\Questie\\Localization\\Translations\\Zones\\Battlegrounds-戰場.lua",
-			["session"] = 304,
 			["time"] = "2021/08/08 18:21:56",
+			["session"] = 304,
 			["counter"] = 1,
 		}, -- [28]
 		{
@@ -292,8 +292,8 @@ BugGrabberDB = {
 		}, -- [38]
 		{
 			["message"] = "Texture <unnamed>: Unable to load atlas entry QuestSharing-Padlock",
-			["time"] = "2021/08/22 00:26:04",
 			["session"] = 333,
+			["time"] = "2021/08/22 00:26:04",
 			["counter"] = 10,
 		}, -- [39]
 		{
@@ -537,14 +537,14 @@ BugGrabberDB = {
 		}, -- [69]
 		{
 			["message"] = "Error loading Interface\\AddOns\\DBM-Core\\modules\\Modules.lua",
-			["session"] = 495,
 			["time"] = "2021/10/17 14:23:42",
+			["session"] = 495,
 			["counter"] = 6,
 		}, -- [70]
 		{
 			["message"] = "Error loading Interface\\AddOns\\DBM-Core\\modules\\Icons.lua",
-			["session"] = 495,
 			["time"] = "2021/10/17 14:23:42",
+			["session"] = 495,
 			["counter"] = 6,
 		}, -- [71]
 		{
@@ -650,14 +650,14 @@ BugGrabberDB = {
 		}, -- [84]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GladiusEx\\libs\\LibCooldownTracker-1.0-10\\cooldowns_bcc_racials.lua",
-			["time"] = "2021/08/22 00:22:49",
 			["session"] = 520,
+			["time"] = "2021/08/22 00:22:49",
 			["counter"] = 470,
 		}, -- [85]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GladiusEx\\libs\\LibCooldownTracker-1.0-10\\cooldowns_bcc_items.lua",
-			["time"] = "2021/08/22 00:22:49",
 			["session"] = 520,
+			["time"] = "2021/08/22 00:22:49",
 			["counter"] = 470,
 		}, -- [86]
 		{
@@ -732,14 +732,14 @@ BugGrabberDB = {
 		}, -- [95]
 		{
 			["message"] = "Binding ALARAIDTOOL_NEWWINDOW is defined more than once in Interface\\AddOns\\TalentEmu\\Bindings.xml",
-			["session"] = 578,
 			["time"] = "2021/12/04 19:36:22",
+			["session"] = 578,
 			["counter"] = 2,
 		}, -- [96]
 		{
 			["message"] = "Binding ALARAIDTOOL_QUERY is defined more than once in Interface\\AddOns\\TalentEmu\\Bindings.xml",
-			["session"] = 578,
 			["time"] = "2021/12/04 19:36:22",
+			["session"] = 578,
 			["counter"] = 2,
 		}, -- [97]
 		{
@@ -759,14 +759,14 @@ BugGrabberDB = {
 		}, -- [99]
 		{
 			["message"] = "Binding ALARAIDTOOL_NEWWINDOW is defined more than once in Interface\\AddOns\\alaTalentEmu\\Bindings.xml",
-			["time"] = "2021/12/05 20:25:25",
 			["session"] = 608,
+			["time"] = "2021/12/05 20:25:25",
 			["counter"] = 58,
 		}, -- [100]
 		{
 			["message"] = "Binding ALARAIDTOOL_QUERY is defined more than once in Interface\\AddOns\\alaTalentEmu\\Bindings.xml",
-			["time"] = "2021/12/05 20:25:25",
 			["session"] = 608,
+			["time"] = "2021/12/05 20:25:25",
 			["counter"] = 58,
 		}, -- [101]
 		{
@@ -889,56 +889,56 @@ BugGrabberDB = {
 		}, -- [116]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-EditBox.lua",
-			["time"] = "2022/02/23 22:24:56",
 			["session"] = 677,
+			["time"] = "2022/02/23 22:24:56",
 			["counter"] = 1,
 		}, -- [117]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Heading.lua",
-			["time"] = "2022/02/23 22:24:56",
 			["session"] = 677,
+			["time"] = "2022/02/23 22:24:56",
 			["counter"] = 1,
 		}, -- [118]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Icon.lua",
-			["time"] = "2022/02/23 22:24:56",
 			["session"] = 677,
+			["time"] = "2022/02/23 22:24:56",
 			["counter"] = 1,
 		}, -- [119]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-InteractiveLabel.lua",
-			["time"] = "2022/02/23 22:24:56",
 			["session"] = 677,
+			["time"] = "2022/02/23 22:24:56",
 			["counter"] = 1,
 		}, -- [120]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Keybinding.lua",
-			["time"] = "2022/02/23 22:24:56",
 			["session"] = 677,
+			["time"] = "2022/02/23 22:24:56",
 			["counter"] = 1,
 		}, -- [121]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Label.lua",
-			["time"] = "2022/02/23 22:24:56",
 			["session"] = 677,
+			["time"] = "2022/02/23 22:24:56",
 			["counter"] = 1,
 		}, -- [122]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-MultiLineEditBox.lua",
-			["time"] = "2022/02/23 22:24:56",
 			["session"] = 677,
+			["time"] = "2022/02/23 22:24:56",
 			["counter"] = 1,
 		}, -- [123]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Slider.lua",
-			["time"] = "2022/02/23 22:24:56",
 			["session"] = 677,
+			["time"] = "2022/02/23 22:24:56",
 			["counter"] = 1,
 		}, -- [124]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-ColorPicker.lua",
-			["time"] = "2022/02/23 22:24:56",
 			["session"] = 677,
+			["time"] = "2022/02/23 22:24:56",
 			["counter"] = 2,
 		}, -- [125]
 		{
@@ -1139,12 +1139,20 @@ BugGrabberDB = {
 			["counter"] = 17,
 		}, -- [150]
 		{
+			["message"] = "...AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua:655: stack overflow",
+			["time"] = "2022/06/18 22:53:16",
+			["locals"] = "(*temporary) = <function> defined @Interface\\AddOns\\NameplateAuras\\libs\\LibRedDropdown-1.0\\libs\\ForAllIndentsAndPurposes.lua:1139\n(*temporary) = MultiLineEditBox8Edit {\n 0 = <userdata>\n obj = <table> {\n }\n oldMaxBytes = 0\n SetText = <function> defined @Interface\\AddOns\\NameplateAuras\\libs\\LibRedDropdown-1.0\\libs\\ForAllIndentsAndPurposes.lua:1148\n faiap_colorTable = <table> {\n }\n faiap_tabWidth = 4\n GetText = <function> defined @Interface\\AddOns\\NameplateAuras\\libs\\LibRedDropdown-1.0\\libs\\ForAllIndentsAndPurposes.lua:1139\n faiap_old_OnTextChanged = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:128\n oldMaxLetters = 0\n}\n(*temporary) = \"stack overflow\"\neditor = <table> {\n parent = <table> {\n }\n SetText = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:215\n SetMaxLetters = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:223\n combinedText = false\n GetText = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:219\n button = MultiLineEditBox8Button {\n }\n base = <table> {\n }\n scrollBG = <unnamed> {\n }\n numlines = 4\n height = \"fill\"\n GetCursorPosition = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:253\n OnRelease = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:172\n label = <unnamed> {\n }\n SetNumLines = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:207\n SetCursorPosition = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:257\n userdata = <table> {\n }\n scrollFrame = MultiLineEditBox8ScrollFrame {\n }\n width = \"fill\"\n type = \"MultiLineEditBox\"\n OnAcquire = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:162\n HighlightText = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:249\n disablebutton = true\n labelHeight = 10\n AceGUIWidgetVersion = 29\n editBox = MultiLineEditBox8Edit {\n }\n SetFocus = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:242\n DisableButton = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:227\n events = <table> {\n }\n SetDisabled = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:176\n scrollBar = MultiLineEditBox8ScrollFrameScrollBar {\n }\n frame = <unnamed> {\n }\n SetLabel = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:193\n ClearFocus = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:237\n}\neditorError = <unnamed> {\n 0 = <userdata>\n}\nenclose = false\nloadstring = <function> defined =[C]:-1\nvalidator = nil\nurlText = <unnamed> {\n 0 = <userdata>\n}\nurlCopyLabel = <unnamed> {\n 0 = <userdata>\n}\nself = <table> {\n path = <table> {\n }\n OnWidthSet = <function> defined @Interface\\AddOns\\WeakAurasOptions\\AceGUI-Widgets\\AceGUIContainer-WeakAurasInlineGroup.lua:38\n data = <table> {\n }\n OnAcquire = <function> defined @Interface\\AddOns\\WeakAurasOptions\\AceGUI-Widgets\\AceGUIContainer-WeakAurasInlineGroup.lua:20\n userdata = <table> {\n }\n url = \"https://github.com/WeakAuras/WeakAuras2/wiki/Custom-Code-Blocks#custom-trigger\"\n children = <table> {\n }\n reloadOptions = true\n OnHeightSet = <function> defined @Interface\\AddOns\\WeakAurasOptions\\AceGUI-Widgets\\AceGUIContainer-WeakAurasInlineGroup.lua:44\n type = \"WeakAurasInlineGroup\"\n AceGUIWidgetVersion = 1\n oldOnTextChanged = <function> defined @Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua:654\n multipath = ",
+			["stack"] = "[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:655: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n...\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function <...AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua:654>",
+			["session"] = 830,
+			["counter"] = 2,
+		}, -- [151]
+		{
 			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
 			["time"] = "2021/07/01 16:18:25",
 			["locals"] = "GearScore = 2320\nItemLevel = 105\nRed = 0.081600\nBlue = 0.320000\nGreen = 0.840000\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 5\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
-			["session"] = 829,
-			["counter"] = 10132,
-		}, -- [151]
+			["session"] = 830,
+			["counter"] = 10385,
+		}, -- [152]
 	},
 }
