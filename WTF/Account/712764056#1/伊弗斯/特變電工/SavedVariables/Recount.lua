@@ -2,987 +2,120 @@
 RecountPerCharDB = {
 	["version"] = "1.3",
 	["combatants"] = {
-		["特變電工"] = {
-			["GUID"] = "Player-4487-0012ECFA",
-			["TimeLast"] = {
-				["TimeHeal"] = 15104.22,
-				["OVERALL"] = 15114.221,
-				["DamageTaken"] = 15104.22,
-				["RageGain"] = 15092.212,
-				["TimeDamage"] = 15114.221,
-				["HealingTaken"] = 15104.22,
-				["Healing"] = 15104.22,
-				["ActiveTime"] = 15114.221,
-				["Damage"] = 15114.221,
-			},
-			["LastAttackedBy"] = "怒焰穴居人",
-			["LastEventType"] = {
-				"DAMAGE", -- [1]
-				"DAMAGE", -- [2]
-				"DAMAGE", -- [3]
-				"DAMAGE", -- [4]
-				"DAMAGE", -- [5]
-				"HEAL", -- [6]
-				"DAMAGE", -- [7]
-				"DAMAGE", -- [8]
-				"DAMAGE", -- [9]
-				"HEAL", -- [10]
-				"DAMAGE", -- [11]
-				"HEAL", -- [12]
-				"DAMAGE", -- [13]
-				"DAMAGE", -- [14]
-				"DAMAGE", -- [15]
-				"DAMAGE", -- [16]
-				"HEAL", -- [17]
-				"HEAL", -- [18]
-				"DAMAGE", -- [19]
-				"DAMAGE", -- [20]
-				"DAMAGE", -- [21]
-				"DAMAGE", -- [22]
-				"DAMAGE", -- [23]
-				"DAMAGE", -- [24]
-				"DAMAGE", -- [25]
-				"DAMAGE", -- [26]
-				"HEAL", -- [27]
-				"DAMAGE", -- [28]
-				"DAMAGE", -- [29]
-				"DAMAGE", -- [30]
-				"DAMAGE", -- [31]
-				"DAMAGE", -- [32]
-				"HEAL", -- [33]
-				"DAMAGE", -- [34]
-				"HEAL", -- [35]
-				"DAMAGE", -- [36]
-				"DAMAGE", -- [37]
-				"DAMAGE", -- [38]
-				"DAMAGE", -- [39]
-				"HEAL", -- [40]
-				"DAMAGE", -- [41]
-				"DAMAGE", -- [42]
-				"DAMAGE", -- [43]
-				"DAMAGE", -- [44]
-				"DAMAGE", -- [45]
-				"HEAL", -- [46]
-				"DAMAGE", -- [47]
-				"DAMAGE", -- [48]
-			},
-			["TimeWindows"] = {
-				["HealingTaken"] = {
-					300, -- [1]
-				},
-				["RageGain"] = {
-					21, -- [1]
-				},
-				["TimeDamage"] = {
-					15.34, -- [1]
-				},
-				["ActiveTime"] = {
-					25.16, -- [1]
-				},
-				["TimeHeal"] = {
-					9.82, -- [1]
-				},
-				["Healing"] = {
-					300, -- [1]
-				},
-				["DamageTaken"] = {
-					126, -- [1]
-				},
-				["Damage"] = {
-					15732, -- [1]
+		["風箏咻"] = {
+			["GUID"] = "Player-4487-0010C9B5",
+			["type"] = "Ungrouped",
+			["GuardianReverseGUIDs"] = {
+				["修理機器人110G型"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "Creature-0-4491-530-62-24780-000033372D",
+					},
 				},
 			},
-			["enClass"] = "WARRIOR",
-			["unit"] = "特變電工",
-			["level"] = 70,
-			["LastDamageAbility"] = "打擊",
-			["LastFightIn"] = 0,
-			["type"] = "Self",
-			["LastHealTime"] = 15104.587,
-			["LastEventHealth"] = {
-				7601, -- [1]
-				7591, -- [2]
-				7591, -- [3]
-				7591, -- [4]
-				7591, -- [5]
-				7591, -- [6]
-				7621, -- [7]
-				7610, -- [8]
-				7610, -- [9]
-				7610, -- [10]
-				7630, -- [11]
-				7630, -- [12]
-				7660, -- [13]
-				7650, -- [14]
-				7650, -- [15]
-				7650, -- [16]
-				7650, -- [17]
-				7650, -- [18]
-				7710, -- [19]
-				7710, -- [20]
-				7710, -- [21]
-				7699, -- [22]
-				7687, -- [23]
-				7687, -- [24]
-				7687, -- [25]
-				7687, -- [26]
-				7687, -- [27]
-				7707, -- [28]
-				7707, -- [29]
-				7695, -- [30]
-				7695, -- [31]
-				7695, -- [32]
-				7695, -- [33]
-				7725, -- [34]
-				7725, -- [35]
-				7755, -- [36]
-				7746, -- [37]
-				7733, -- [38]
-				7733, -- [39]
-				7733, -- [40]
-				7763, -- [41]
-				7745, -- [42]
-				7745, -- [43]
-				7745, -- [44]
-				7745, -- [45]
-				7745, -- [46]
-				7775, -- [47]
-				7775, -- [48]
-			},
-			["LastDamageTaken"] = 18,
 			["Owner"] = false,
-			["LastEventHealthMax"] = {
-				10641, -- [1]
-				10641, -- [2]
-				10641, -- [3]
-				10641, -- [4]
-				10641, -- [5]
-				10641, -- [6]
-				10641, -- [7]
-				10641, -- [8]
-				10641, -- [9]
-				10641, -- [10]
-				10641, -- [11]
-				10641, -- [12]
-				10641, -- [13]
-				10641, -- [14]
-				10641, -- [15]
-				10641, -- [16]
-				10641, -- [17]
-				10641, -- [18]
-				10641, -- [19]
-				10641, -- [20]
-				10641, -- [21]
-				10641, -- [22]
-				10641, -- [23]
-				10641, -- [24]
-				10641, -- [25]
-				10641, -- [26]
-				10641, -- [27]
-				10641, -- [28]
-				10641, -- [29]
-				10641, -- [30]
-				10641, -- [31]
-				10641, -- [32]
-				10641, -- [33]
-				10641, -- [34]
-				10641, -- [35]
-				10641, -- [36]
-				10641, -- [37]
-				10641, -- [38]
-				10641, -- [39]
-				10641, -- [40]
-				10641, -- [41]
-				10641, -- [42]
-				10641, -- [43]
-				10641, -- [44]
-				10641, -- [45]
-				10641, -- [46]
-				10641, -- [47]
-				10641, -- [48]
-			},
-			["NextEventNum"] = 49,
-			["LastDamageTime"] = 15114.954,
-			["LastEvents"] = {
-				"怒焰穴居人 近戰 特變電工 Hit -10 (Physical)", -- [1]
-				"特變電工 近戰 怒焰穴居人 Hit -745 (Physical)", -- [2]
-				"特變電工 近戰 怒焰穴居人 Hit -297 (Physical)", -- [3]
-				"怒焰穴居人 近戰 特變電工 Parry (1)", -- [4]
-				"特變電工 嗜血 怒焰穴居人 Hit -1150 (Physical)", -- [5]
-				"特變電工 嗜血 特變電工 Hit +30", -- [6]
-				"怒焰穴居人 近戰 特變電工 Hit -11 (Physical)", -- [7]
-				"特變電工 近戰 怒焰穴居人 Hit -741 (Physical)", -- [8]
-				"怒焰穴居人 近戰 特變電工 Hit -10 (Physical)", -- [9]
-				"特變電工 嗜血 特變電工 Hit +30", -- [10]
-				"特變電工 近戰 怒焰穴居人 Hit -286 (Physical)", -- [11]
-				"特變電工 嗜血 特變電工 Hit +30", -- [12]
-				"怒焰穴居人 近戰 特變電工 Hit -10 (Physical)", -- [13]
-				"特變電工 旋風斬 怒焰薩滿 Hit -765 (Physical)", -- [14]
-				"特變電工 旋風斬 怒焰穴居人 Crit -1585 (Physical)", -- [15]
-				"特變電工 旋風斬 怒焰薩滿 Hit -418 (Physical)", -- [16]
-				"特變電工 嗜血 特變電工 Hit +30", -- [17]
-				"特變電工 嗜血 特變電工 Hit +30", -- [18]
-				"特變電工 近戰 怒焰穴居人 Crit -1587 (Physical)", -- [19]
-				"怒焰穴居人 近戰 特變電工 Parry (1)", -- [20]
-				"怒焰穴居人 近戰 特變電工 Hit -11 (Physical)", -- [21]
-				"怒焰穴居人 近戰 特變電工 Hit -12 (Physical)", -- [22]
-				"怒焰薩滿 閃電箭 特變電工 Resist (Nature)", -- [23]
-				"怒焰穴居人 近戰 特變電工 Miss (1)", -- [24]
-				"鑽土蟲 近戰 特變電工 Hit -10 (Physical)", -- [25]
-				"特變電工 嗜血 鑽土蟲 Hit -1271 (Physical)", -- [26]
-				"特變電工 嗜血 特變電工 Hit +30", -- [27]
-				"怒焰薩滿 閃電箭 特變電工 Resist (Nature)", -- [28]
-				"怒焰穴居人 近戰 特變電工 Hit -12 (Physical)", -- [29]
-				"怒焰穴居人 近戰 特變電工 Miss (1)", -- [30]
-				"特變電工 近戰 鑽土蟲 Hit -749 (Physical)", -- [31]
-				"鑽土蟲 近戰 特變電工 Parry (1)", -- [32]
-				"特變電工 嗜血 特變電工 Hit +30", -- [33]
-				"特變電工 近戰 鑽土蟲 Crit -584 (Physical)", -- [34]
-				"特變電工 嗜血 特變電工 Hit +30", -- [35]
-				"怒焰穴居人 近戰 特變電工 Hit -9 (Physical)", -- [36]
-				"怒焰穴居人 近戰 特變電工 Hit -13 (Physical)", -- [37]
-				"特變電工 近戰 熔岩元素 Crit -1605 (Physical)", -- [38]
-				"熔岩元素 近戰 特變電工 Parry (1)", -- [39]
-				"特變電工 嗜血 特變電工 Hit +30", -- [40]
-				"怒焰穴居人 打擊 特變電工 Hit -18 (Physical)", -- [41]
-				"特變電工 旋風斬 怒焰穴居人 Hit -731 (Physical)", -- [42]
-				"特變電工 旋風斬 怒焰穴居人 Hit -733 (Physical)", -- [43]
-				"特變電工 旋風斬 怒焰穴居人 Hit -426 (Physical)", -- [44]
-				"特變電工 旋風斬 怒焰穴居人 Hit -410 (Physical)", -- [45]
-				"特變電工 嗜血 特變電工 Hit +30", -- [46]
-				"特變電工 攔截昏迷 鑽土蟲 Hit -117 (Physical)", -- [47]
-				"特變電工 近戰 鑽土蟲 Crit -1532 (Physical)", -- [48]
-			},
-			["Name"] = "特變電工",
-			["LastEventIncoming"] = {
-				true, -- [1]
-				false, -- [2]
-				false, -- [3]
-				true, -- [4]
-				false, -- [5]
-				true, -- [6]
-				true, -- [7]
-				false, -- [8]
-				true, -- [9]
-				true, -- [10]
-				false, -- [11]
-				true, -- [12]
-				true, -- [13]
-				false, -- [14]
-				false, -- [15]
-				false, -- [16]
-				true, -- [17]
-				true, -- [18]
-				false, -- [19]
-				true, -- [20]
-				true, -- [21]
-				true, -- [22]
-				true, -- [23]
-				true, -- [24]
-				true, -- [25]
-				false, -- [26]
-				true, -- [27]
-				true, -- [28]
-				true, -- [29]
-				true, -- [30]
-				false, -- [31]
-				true, -- [32]
-				true, -- [33]
-				false, -- [34]
-				true, -- [35]
-				true, -- [36]
-				true, -- [37]
-				false, -- [38]
-				true, -- [39]
-				true, -- [40]
-				true, -- [41]
-				false, -- [42]
-				false, -- [43]
-				false, -- [44]
-				false, -- [45]
-				true, -- [46]
-				false, -- [47]
-				false, -- [48]
-			},
-			["LastEventTimes"] = {
-				15086.419, -- [1]
-				15086.586, -- [2]
-				15086.786, -- [3]
-				15088.036, -- [4]
-				15088.069, -- [5]
-				15088.069, -- [6]
-				15090.053, -- [7]
-				15090.086, -- [8]
-				15090.086, -- [9]
-				15090.103, -- [10]
-				15090.303, -- [11]
-				15090.303, -- [12]
-				15092.07, -- [13]
-				15092.12, -- [14]
-				15092.12, -- [15]
-				15092.12, -- [16]
-				15092.12, -- [17]
-				15092.12, -- [18]
-				15093.853, -- [19]
-				15093.853, -- [20]
-				15094.503, -- [21]
-				15096.52, -- [22]
-				15097.637, -- [23]
-				15098.503, -- [24]
-				15099.103, -- [25]
-				15099.103, -- [26]
-				15099.103, -- [27]
-				15099.437, -- [28]
-				15100.504, -- [29]
-				15100.887, -- [30]
-				15101.803, -- [31]
-				15101.803, -- [32]
-				15101.803, -- [33]
-				15101.856, -- [34]
-				15101.87, -- [35]
-				15102.52, -- [36]
-				15103.387, -- [37]
-				15104.02, -- [38]
-				15104.02, -- [39]
-				15104.037, -- [40]
-				15104.52, -- [41]
-				15104.587, -- [42]
-				15104.587, -- [43]
-				15104.587, -- [44]
-				15104.587, -- [45]
-				15104.587, -- [46]
-				15113.937, -- [47]
-				15114.954, -- [48]
+			["enClass"] = "UNGROUPED",
+			["Name"] = "風箏咻",
+			["Pet"] = {
+				"修理機器人110G型 <風箏咻>", -- [1]
 			},
 			["Fights"] = {
-				["LastFightData"] = {
-					["TimeHealing"] = {
-						["特變電工"] = {
-							["Details"] = {
-								["嗜血"] = {
-									["count"] = 9.82,
-								},
-							},
-							["amount"] = 9.82,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 2,
-								},
-								["Parry"] = {
-									["count"] = 4,
-								},
-								["Hit"] = {
-									["count"] = 10,
-								},
-							},
-							["amount"] = 16,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Resist"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["DamageTaken"] = 126,
-					["RageGainedFrom"] = {
-						["特變電工"] = {
-							["Details"] = {
-								["怒不可遏"] = {
-									["count"] = 1,
-								},
-								["血性狂暴"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 21,
-						},
-					},
-					["PartialResist"] = {
-						["閃電箭"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 2,
-						},
-						["打擊"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-						["近戰"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 16,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 16,
-						},
-					},
-					["PartialAbsorb"] = {
-						["閃電箭"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["打擊"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["近戰"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 16,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 16,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 25.16,
-					["ElementTaken"] = {
-						["Melee"] = 108,
-						["Physical"] = 18,
-					},
-					["RageGained"] = {
-						["怒不可遏"] = {
-							["Details"] = {
-								["特變電工"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["血性狂暴"] = {
-							["Details"] = {
-								["特變電工"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 20,
-						},
-					},
-					["Damage"] = 15732,
-					["TimeHeal"] = 9.82,
-					["HealingTaken"] = 300,
-					["WhoHealed"] = {
-						["特變電工"] = {
-							["Details"] = {
-								["嗜血"] = {
-									["count"] = 300,
-								},
-							},
-							["amount"] = 300,
-						},
-					},
-					["HealedWho"] = {
-						["特變電工"] = {
-							["Details"] = {
-								["嗜血"] = {
-									["count"] = 300,
-								},
-							},
-							["amount"] = 300,
-						},
-					},
-					["Healing"] = 300,
-					["Heals"] = {
-						["嗜血"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 30,
-									["min"] = 30,
-									["count"] = 10,
-									["amount"] = 300,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 300,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 4,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 9,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 10,
-						},
-					},
-					["Attacks"] = {
-						["攔截昏迷"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 117,
-									["min"] = 117,
-									["count"] = 1,
-									["amount"] = 117,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 117,
-						},
-						["近戰"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 1605,
-									["min"] = 584,
-									["count"] = 4,
-									["amount"] = 5308,
-								},
-								["Hit"] = {
-									["max"] = 749,
-									["min"] = 286,
-									["count"] = 5,
-									["amount"] = 2818,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 8126,
-						},
-						["嗜血"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1271,
-									["min"] = 1150,
-									["count"] = 2,
-									["amount"] = 2421,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 2421,
-						},
-						["旋風斬"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 1585,
-									["min"] = 1585,
-									["count"] = 1,
-									["amount"] = 1585,
-								},
-								["Hit"] = {
-									["max"] = 765,
-									["min"] = 410,
-									["count"] = 6,
-									["amount"] = 3483,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 5068,
-						},
-					},
-					["RageGain"] = 21,
-					["DamagedWho"] = {
-						["怒焰穴居人"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 3656,
-								},
-								["嗜血"] = {
-									["count"] = 1150,
-								},
-								["旋風斬"] = {
-									["count"] = 3885,
-								},
-							},
-							["amount"] = 8691,
-						},
-						["鑽土蟲"] = {
-							["Details"] = {
-								["攔截昏迷"] = {
-									["count"] = 117,
-								},
-								["近戰"] = {
-									["count"] = 2865,
-								},
-								["嗜血"] = {
-									["count"] = 1271,
-								},
-							},
-							["amount"] = 4253,
-						},
-						["怒焰薩滿"] = {
-							["Details"] = {
-								["旋風斬"] = {
-									["count"] = 1183,
-								},
-							},
-							["amount"] = 1183,
-						},
-						["熔岩元素"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 1605,
-								},
-							},
-							["amount"] = 1605,
-						},
-					},
-					["TimeDamage"] = 15.34,
-					["WhoDamaged"] = {
-						["怒焰穴居人"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 98,
-								},
-								["打擊"] = {
-									["count"] = 18,
-								},
-							},
-							["amount"] = 116,
-						},
-						["鑽土蟲"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 10,
-								},
-							},
-							["amount"] = 10,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 8126,
-						["Physical"] = 7606,
-					},
-					["TimeSpent"] = {
-						["鑽土蟲"] = {
-							["Details"] = {
-								["攔截昏迷"] = {
-									["count"] = 1.5,
-								},
-								["近戰"] = {
-									["count"] = 2.57,
-								},
-								["嗜血"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 5.57,
-						},
-						["怒焰薩滿"] = {
-							["Details"] = {
-								["旋風斬"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["怒焰穴居人"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 4.92,
-								},
-								["嗜血"] = {
-									["count"] = 1.28,
-								},
-								["旋風斬"] = {
-									["count"] = 0.57,
-								},
-							},
-							["amount"] = 6.770000000000001,
-						},
-						["熔岩元素"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["特變電工"] = {
-							["Details"] = {
-								["嗜血"] = {
-									["count"] = 9.82,
-								},
-							},
-							["amount"] = 9.82,
-						},
-					},
-					["TimeDamaging"] = {
-						["怒焰穴居人"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 4.92,
-								},
-								["嗜血"] = {
-									["count"] = 1.28,
-								},
-								["旋風斬"] = {
-									["count"] = 0.57,
-								},
-							},
-							["amount"] = 6.770000000000001,
-						},
-						["鑽土蟲"] = {
-							["Details"] = {
-								["攔截昏迷"] = {
-									["count"] = 1.5,
-								},
-								["近戰"] = {
-									["count"] = 2.57,
-								},
-								["嗜血"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 5.57,
-						},
-						["怒焰薩滿"] = {
-							["Details"] = {
-								["旋風斬"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["熔岩元素"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-					},
+			},
+			["level"] = 1,
+			["UnitLockout"] = 3788.311,
+			["LastFightIn"] = 0,
+		},
+		["恩晴"] = {
+			["GUID"] = "Player-4487-00117E83",
+			["TimeLast"] = {
+				["DamageTaken"] = 3806.325,
+				["OVERALL"] = 3806.325,
+			},
+			["LastAttackedBy"] = "撒塔斯之焰",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+			},
+			["TimeWindows"] = {
+				["DamageTaken"] = {
+					14, -- [1]
 				},
+			},
+			["enClass"] = "HOSTILE",
+			["LastDamageTaken"] = 14,
+			["level"] = 1,
+			["LastDamageAbility"] = "淨化火焰",
+			["LastFightIn"] = 0,
+			["type"] = "Hostile",
+			["Owner"] = false,
+			["NextEventNum"] = 2,
+			["LastEvents"] = {
+				"撒塔斯之焰 淨化火焰 恩晴 Hit -14 (Fire)", -- [1]
+			},
+			["Name"] = "恩晴",
+			["LastEventIncoming"] = {
+				true, -- [1]
+			},
+			["LastEventTimes"] = {
+				3806.425, -- [1]
+			},
+			["Fights"] = {
 				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
+					["PartialResist"] = {
+						["淨化火焰"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
 					},
 					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
+						["淨化火焰"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
 					},
 					["WhoDamaged"] = {
+						["撒塔斯之焰"] = {
+							["Details"] = {
+								["淨化火焰"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
 					},
-					["EnergyGainedFrom"] = {
+					["ElementTaken"] = {
+						["Fire"] = 14,
 					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
+					["DamageTaken"] = 14,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
 					},
 				},
 				["OverallData"] = {
-					["TimeHealing"] = {
-						["特變電工"] = {
-							["Details"] = {
-								["嗜血"] = {
-									["count"] = 9.82,
-								},
-							},
-							["amount"] = 9.82,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 2,
-								},
-								["Parry"] = {
-									["count"] = 4,
-								},
-								["Hit"] = {
-									["count"] = 10,
-								},
-							},
-							["amount"] = 16,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Resist"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["DamageTaken"] = 126,
-					["RageGainedFrom"] = {
-						["特變電工"] = {
-							["Details"] = {
-								["怒不可遏"] = {
-									["count"] = 1,
-								},
-								["血性狂暴"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 21,
-						},
-					},
 					["PartialResist"] = {
-						["閃電箭"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 2,
-						},
-						["打擊"] = {
+						["淨化火焰"] = {
 							["Details"] = {
 								["未被抵抗"] = {
 									["max"] = 0,
@@ -993,34 +126,10 @@ RecountPerCharDB = {
 							},
 							["count"] = 0,
 							["amount"] = 1,
-						},
-						["近戰"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 16,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 16,
 						},
 					},
 					["PartialAbsorb"] = {
-						["閃電箭"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["打擊"] = {
+						["淨化火焰"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
@@ -1032,434 +141,189 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["近戰"] = {
+					},
+					["WhoDamaged"] = {
+						["撒塔斯之焰"] = {
 							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 16,
-									["amount"] = 0,
+								["淨化火焰"] = {
+									["count"] = 14,
 								},
 							},
-							["count"] = 16,
-							["amount"] = 0,
+							["amount"] = 14,
 						},
 					},
-					["ActiveTime"] = 25.16,
 					["ElementTaken"] = {
-						["Melee"] = 108,
-						["Physical"] = 18,
+						["Fire"] = 14,
 					},
-					["RageGained"] = {
-						["怒不可遏"] = {
+					["DamageTaken"] = 14,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
 							["Details"] = {
-								["特變電工"] = {
+								["Hit"] = {
 									["count"] = 1,
 								},
 							},
 							["amount"] = 1,
-						},
-						["血性狂暴"] = {
-							["Details"] = {
-								["特變電工"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 20,
-						},
-					},
-					["Damage"] = 15732,
-					["TimeHeal"] = 9.82,
-					["HealingTaken"] = 300,
-					["WhoHealed"] = {
-						["特變電工"] = {
-							["Details"] = {
-								["嗜血"] = {
-									["count"] = 300,
-								},
-							},
-							["amount"] = 300,
-						},
-					},
-					["HealedWho"] = {
-						["特變電工"] = {
-							["Details"] = {
-								["嗜血"] = {
-									["count"] = 300,
-								},
-							},
-							["amount"] = 300,
-						},
-					},
-					["Healing"] = 300,
-					["Heals"] = {
-						["嗜血"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 30,
-									["min"] = 30,
-									["count"] = 10,
-									["amount"] = 300,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 300,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 4,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 9,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 10,
-						},
-					},
-					["Attacks"] = {
-						["攔截昏迷"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 117,
-									["min"] = 117,
-									["count"] = 1,
-									["amount"] = 117,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 117,
-						},
-						["近戰"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 1605,
-									["min"] = 584,
-									["count"] = 4,
-									["amount"] = 5308,
-								},
-								["Hit"] = {
-									["max"] = 749,
-									["min"] = 286,
-									["count"] = 5,
-									["amount"] = 2818,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 8126,
-						},
-						["嗜血"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1271,
-									["min"] = 1150,
-									["count"] = 2,
-									["amount"] = 2421,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 2421,
-						},
-						["旋風斬"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 1585,
-									["min"] = 1585,
-									["count"] = 1,
-									["amount"] = 1585,
-								},
-								["Hit"] = {
-									["max"] = 765,
-									["min"] = 410,
-									["count"] = 6,
-									["amount"] = 3483,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 5068,
-						},
-					},
-					["RageGain"] = 21,
-					["DamagedWho"] = {
-						["怒焰穴居人"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 3656,
-								},
-								["嗜血"] = {
-									["count"] = 1150,
-								},
-								["旋風斬"] = {
-									["count"] = 3885,
-								},
-							},
-							["amount"] = 8691,
-						},
-						["鑽土蟲"] = {
-							["Details"] = {
-								["攔截昏迷"] = {
-									["count"] = 117,
-								},
-								["近戰"] = {
-									["count"] = 2865,
-								},
-								["嗜血"] = {
-									["count"] = 1271,
-								},
-							},
-							["amount"] = 4253,
-						},
-						["怒焰薩滿"] = {
-							["Details"] = {
-								["旋風斬"] = {
-									["count"] = 1183,
-								},
-							},
-							["amount"] = 1183,
-						},
-						["熔岩元素"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 1605,
-								},
-							},
-							["amount"] = 1605,
-						},
-					},
-					["TimeDamage"] = 15.34,
-					["WhoDamaged"] = {
-						["怒焰穴居人"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 98,
-								},
-								["打擊"] = {
-									["count"] = 18,
-								},
-							},
-							["amount"] = 116,
-						},
-						["鑽土蟲"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 10,
-								},
-							},
-							["amount"] = 10,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 8126,
-						["Physical"] = 7606,
-					},
-					["TimeSpent"] = {
-						["鑽土蟲"] = {
-							["Details"] = {
-								["攔截昏迷"] = {
-									["count"] = 1.5,
-								},
-								["近戰"] = {
-									["count"] = 2.57,
-								},
-								["嗜血"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 5.57,
-						},
-						["怒焰薩滿"] = {
-							["Details"] = {
-								["旋風斬"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["怒焰穴居人"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 4.92,
-								},
-								["嗜血"] = {
-									["count"] = 1.28,
-								},
-								["旋風斬"] = {
-									["count"] = 0.57,
-								},
-							},
-							["amount"] = 6.770000000000001,
-						},
-						["熔岩元素"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["特變電工"] = {
-							["Details"] = {
-								["嗜血"] = {
-									["count"] = 9.82,
-								},
-							},
-							["amount"] = 9.82,
-						},
-					},
-					["TimeDamaging"] = {
-						["怒焰穴居人"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 4.92,
-								},
-								["嗜血"] = {
-									["count"] = 1.28,
-								},
-								["旋風斬"] = {
-									["count"] = 0.57,
-								},
-							},
-							["amount"] = 6.770000000000001,
-						},
-						["鑽土蟲"] = {
-							["Details"] = {
-								["攔截昏迷"] = {
-									["count"] = 1.5,
-								},
-								["近戰"] = {
-									["count"] = 2.57,
-								},
-								["嗜血"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 5.57,
-						},
-						["怒焰薩滿"] = {
-							["Details"] = {
-								["旋風斬"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["熔岩元素"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
 						},
 					},
 				},
 			},
-			["UnitLockout"] = 15086.22,
-			["LastActive"] = 15114.221,
+			["UnitLockout"] = 3806.325,
+			["LastActive"] = 3806.325,
 		},
-		["影子喬"] = {
-			["GUID"] = "Player-4487-00144BE6",
+		["薩到倪"] = {
+			["GUID"] = "Player-4487-0014ED69",
+			["TimeLast"] = {
+				["DamageTaken"] = 3785.306,
+				["OVERALL"] = 3785.306,
+			},
+			["LastAttackedBy"] = "Environment",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+			},
+			["TimeWindows"] = {
+				["DamageTaken"] = {
+					49, -- [1]
+				},
+			},
+			["enClass"] = "HOSTILE",
+			["LastDamageTaken"] = 24,
+			["level"] = 1,
+			["LastDamageAbility"] = "Fire",
+			["LastFightIn"] = 0,
 			["type"] = "Hostile",
+			["Owner"] = false,
+			["NextEventNum"] = 3,
+			["LastEvents"] = {
+				"Environment Fire 薩到倪 Hit -25 (Fire)", -- [1]
+				"Environment Fire 薩到倪 Hit -24 (Fire)", -- [2]
+			},
+			["Name"] = "薩到倪",
 			["LastEventIncoming"] = {
 				true, -- [1]
 				true, -- [2]
-				true, -- [3]
-				true, -- [4]
-				true, -- [5]
 			},
-			["LastEventType"] = {
-				"HEAL", -- [1]
-				"HEAL", -- [2]
-				"HEAL", -- [3]
-				"HEAL", -- [4]
-				"HEAL", -- [5]
-			},
-			["Owner"] = false,
-			["enClass"] = "HOSTILE",
-			["NextEventNum"] = 6,
 			["LastEventTimes"] = {
-				15140.639, -- [1]
-				15144.372, -- [2]
-				15148.423, -- [3]
-				15152.39, -- [4]
-				15156.353, -- [5]
+				3784.552, -- [1]
+				3785.665, -- [2]
 			},
-			["LastEvents"] = {
-				"影子喬 惡魔耐力 影子喬 Tick +250 (250 過量治療)", -- [1]
-				"影子喬 惡魔耐力 影子喬 Tick +250 (250 過量治療)", -- [2]
-				"影子喬 惡魔耐力 影子喬 Tick +250 (250 過量治療)", -- [3]
-				"影子喬 惡魔耐力 影子喬 Tick +250 (250 過量治療)", -- [4]
-				"影子喬 惡魔耐力 影子喬 Tick +251 (251 過量治療)", -- [5]
-			},
-			["Name"] = "影子喬",
-			["LastActive"] = 15156.215,
 			["Fights"] = {
+				["CurrentFightData"] = {
+					["PartialResist"] = {
+						["Fire"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fire"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 49,
+								},
+							},
+							["amount"] = 49,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 49,
+					},
+					["DamageTaken"] = 49,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+				},
+				["OverallData"] = {
+					["PartialResist"] = {
+						["Fire"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Fire"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 49,
+								},
+							},
+							["amount"] = 49,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 49,
+					},
+					["DamageTaken"] = 49,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+				},
 			},
-			["level"] = 1,
-			["UnitLockout"] = 15156.215,
-			["LastFightIn"] = 1,
-		},
-		["抹茶禰豆子"] = {
-			["GUID"] = "Player-4487-0002558A",
-			["type"] = "Hostile",
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				true, -- [3]
-				true, -- [4]
-			},
-			["LastEventType"] = {
-				"HEAL", -- [1]
-				"HEAL", -- [2]
-				"HEAL", -- [3]
-				"HEAL", -- [4]
-			},
-			["Owner"] = false,
-			["enClass"] = "HOSTILE",
-			["NextEventNum"] = 5,
-			["LastEventTimes"] = {
-				15141.689, -- [1]
-				15145.64, -- [2]
-				15149.84, -- [3]
-				15153.964, -- [4]
-			},
-			["LastEvents"] = {
-				"抹茶禰豆子 惡魔耐力 抹茶禰豆子 Tick +272 (272 過量治療)", -- [1]
-				"抹茶禰豆子 惡魔耐力 抹茶禰豆子 Tick +273 (273 過量治療)", -- [2]
-				"抹茶禰豆子 惡魔耐力 抹茶禰豆子 Tick +272 (272 過量治療)", -- [3]
-				"抹茶禰豆子 惡魔耐力 抹茶禰豆子 Tick +273 (273 過量治療)", -- [4]
-			},
-			["Name"] = "抹茶禰豆子",
-			["LastActive"] = 15153.209,
-			["Fights"] = {
-			},
-			["level"] = 1,
-			["UnitLockout"] = 15153.209,
-			["LastFightIn"] = 1,
+			["UnitLockout"] = 3785.306,
+			["LastActive"] = 3785.306,
 		},
 	},
-	["FightNum"] = 1,
+	["FightNum"] = 0,
 	["CombatTimes"] = {
-		{
-			15086.22, -- [1]
-			15123.237, -- [2]
-			"00:05:26", -- [3]
-			"00:06:03", -- [4]
-			"怒焰穴居人", -- [5]
-		}, -- [1]
 	},
 	["FoughtWho"] = {
 	},

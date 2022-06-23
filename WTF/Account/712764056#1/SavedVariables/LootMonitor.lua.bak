@@ -3,14 +3,19 @@ LootMonitorDB = {
 	["LootLog"] = {
 		{
 			["InstanceID"] = 580,
+			["Player"] = "特變電工",
+			["InstanceName"] = "Sunwell Plateau",
 			["FirstPlayer"] = "未知",
+			["Date"] = "2022-06-12",
+			["Class"] = "WARRIOR",
+			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-580-29026-25591-000025F7EC",
 					["Time"] = "22:29:19",
-					["Looter"] = "阿梨的聖騎士",
-					["Date"] = "2022-06-12",
 					["Class"] = "PALADIN",
+					["Date"] = "2022-06-12",
+					["Looter"] = "阿梨的聖騎士",
 					["Name"] = "痛苦使者",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32229::::::::70:::::::::|h[獅眼石]|h|r", -- [1]
@@ -19,9 +24,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-580-12876-24892-00002DC650",
 					["Time"] = "20:39:48",
-					["Looter"] = "小嫩腳",
-					["Date"] = "2022-06-18",
 					["Class"] = "PRIEST",
+					["Date"] = "2022-06-18",
+					["Looter"] = "小嫩腳",
 					["Name"] = "『墮落者』塞斯諾瓦",
 					["Loots"] = {
 						"|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r", -- [1]
@@ -34,9 +39,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-580-12876-24882-00002DB916",
 					["Time"] = "20:59:07",
-					["Looter"] = "騎風",
-					["Date"] = "2022-06-18",
 					["Class"] = "SHAMAN",
+					["Date"] = "2022-06-18",
+					["Looter"] = "騎風",
 					["Name"] = "布魯托魯斯",
 					["Loots"] = {
 						"|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r", -- [1]
@@ -49,9 +54,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-580-12876-25038-00002DCF71",
 					["Time"] = "21:26:27",
-					["Looter"] = "安安缺補嗎",
-					["Date"] = "2022-06-18",
 					["Class"] = "SHAMAN",
+					["Date"] = "2022-06-18",
+					["Looter"] = "安安缺補嗎",
 					["Name"] = "魔龍謎霧",
 					["Loots"] = {
 						"|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r", -- [1]
@@ -64,9 +69,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-580-12876-25166-00002DEBF0",
 					["Time"] = "23:20:10",
-					["Looter"] = "傳說小百",
-					["Date"] = "2022-06-18",
 					["Class"] = "DRUID",
+					["Date"] = "2022-06-18",
+					["Looter"] = "傳說小百",
 					["Name"] = "大術士艾黎瑟絲",
 					["Loots"] = {
 						"|cff0070dd|Hitem:34664::::::::70:::::::::|h[太陽微粒]|h|r", -- [1]
@@ -82,20 +87,26 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-580-12876-25599-0000ADB917",
 					["Time"] = "23:30:34",
-					["Looter"] = "阿梨的聖騎士",
-					["Date"] = "2022-06-18",
 					["Class"] = "PALADIN",
+					["Date"] = "2022-06-18",
+					["Looter"] = "阿梨的聖騎士",
 					["Name"] = "裂地獵犬",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32229::::::::70:::::::::|h[獅眼石]|h|r", -- [1]
 					},
 				}, -- [6]
+				{
+					["GUID"] = "Creature-0-4490-580-18525-25509-0000AF3106",
+					["Time"] = "22:25:50",
+					["Looter"] = "歐艾丹",
+					["Date"] = "2022-06-19",
+					["Class"] = "PALADIN",
+					["Name"] = "折磨之女祭司",
+					["Loots"] = {
+						"|cffa335ee|Hitem:32231::::::::70:::::::::|h[焚石]|h|r", -- [1]
+					},
+				}, -- [7]
 			},
-			["Player"] = "特變電工",
-			["Date"] = "2022-06-12",
-			["Class"] = "WARRIOR",
-			["FirstClass"] = "UNKNOWN",
-			["InstanceName"] = "Sunwell Plateau",
 		}, -- [1]
 	},
 	["Config"] = {
