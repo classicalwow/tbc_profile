@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-	["session"] = 832,
 	["lastSanitation"] = 3,
+	["session"] = 833,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\TomTom\\TomTom_Config.lua:40: attempt to call method 'EnableDisablePOIIntegration' (a nil value)",
@@ -74,8 +74,8 @@ BugGrabberDB = {
 		}, -- [9]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\MeetingHorn\\Libs\\tdGUI\\Libs\\LibClass-2.0-10\\LibClass-2.0.xml",
-			["session"] = 47,
 			["time"] = "2021/06/08 20:55:27",
+			["session"] = 47,
 			["counter"] = 91,
 		}, -- [10]
 		{
@@ -189,26 +189,26 @@ BugGrabberDB = {
 		}, -- [24]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\alaTalentEmu\\libs\\libs.xml",
-			["time"] = "2021/08/08 18:21:56",
 			["session"] = 304,
+			["time"] = "2021/08/08 18:21:56",
 			["counter"] = 3,
 		}, -- [25]
 		{
 			["message"] = "Error loading Interface\\AddOns\\ClassicCodex-patch\\objects-questie-tbc.lua",
-			["time"] = "2021/08/08 18:21:56",
 			["session"] = 304,
+			["time"] = "2021/08/08 18:21:56",
 			["counter"] = 3,
 		}, -- [26]
 		{
 			["message"] = "Error loading Interface\\AddOns\\ClassicCodex-patch\\objects-loc-tbc.lua",
-			["time"] = "2021/08/08 18:21:56",
 			["session"] = 304,
+			["time"] = "2021/08/08 18:21:56",
 			["counter"] = 3,
 		}, -- [27]
 		{
 			["message"] = "Error loading Interface\\AddOns\\Questie\\Localization\\Translations\\Zones\\Battlegrounds-戰場.lua",
-			["time"] = "2021/08/08 18:21:56",
 			["session"] = 304,
+			["time"] = "2021/08/08 18:21:56",
 			["counter"] = 1,
 		}, -- [28]
 		{
@@ -292,8 +292,8 @@ BugGrabberDB = {
 		}, -- [38]
 		{
 			["message"] = "Texture <unnamed>: Unable to load atlas entry QuestSharing-Padlock",
-			["session"] = 333,
 			["time"] = "2021/08/22 00:26:04",
+			["session"] = 333,
 			["counter"] = 10,
 		}, -- [39]
 		{
@@ -537,14 +537,14 @@ BugGrabberDB = {
 		}, -- [69]
 		{
 			["message"] = "Error loading Interface\\AddOns\\DBM-Core\\modules\\Modules.lua",
-			["time"] = "2021/10/17 14:23:42",
 			["session"] = 495,
+			["time"] = "2021/10/17 14:23:42",
 			["counter"] = 6,
 		}, -- [70]
 		{
 			["message"] = "Error loading Interface\\AddOns\\DBM-Core\\modules\\Icons.lua",
-			["time"] = "2021/10/17 14:23:42",
 			["session"] = 495,
+			["time"] = "2021/10/17 14:23:42",
 			["counter"] = 6,
 		}, -- [71]
 		{
@@ -650,14 +650,14 @@ BugGrabberDB = {
 		}, -- [84]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GladiusEx\\libs\\LibCooldownTracker-1.0-10\\cooldowns_bcc_racials.lua",
-			["session"] = 520,
 			["time"] = "2021/08/22 00:22:49",
+			["session"] = 520,
 			["counter"] = 470,
 		}, -- [85]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GladiusEx\\libs\\LibCooldownTracker-1.0-10\\cooldowns_bcc_items.lua",
-			["session"] = 520,
 			["time"] = "2021/08/22 00:22:49",
+			["session"] = 520,
 			["counter"] = 470,
 		}, -- [86]
 		{
@@ -732,14 +732,14 @@ BugGrabberDB = {
 		}, -- [95]
 		{
 			["message"] = "Binding ALARAIDTOOL_NEWWINDOW is defined more than once in Interface\\AddOns\\TalentEmu\\Bindings.xml",
-			["time"] = "2021/12/04 19:36:22",
 			["session"] = 578,
+			["time"] = "2021/12/04 19:36:22",
 			["counter"] = 2,
 		}, -- [96]
 		{
 			["message"] = "Binding ALARAIDTOOL_QUERY is defined more than once in Interface\\AddOns\\TalentEmu\\Bindings.xml",
-			["time"] = "2021/12/04 19:36:22",
 			["session"] = 578,
+			["time"] = "2021/12/04 19:36:22",
 			["counter"] = 2,
 		}, -- [97]
 		{
@@ -759,14 +759,14 @@ BugGrabberDB = {
 		}, -- [99]
 		{
 			["message"] = "Binding ALARAIDTOOL_NEWWINDOW is defined more than once in Interface\\AddOns\\alaTalentEmu\\Bindings.xml",
-			["session"] = 608,
 			["time"] = "2021/12/05 20:25:25",
+			["session"] = 608,
 			["counter"] = 58,
 		}, -- [100]
 		{
 			["message"] = "Binding ALARAIDTOOL_QUERY is defined more than once in Interface\\AddOns\\alaTalentEmu\\Bindings.xml",
-			["session"] = 608,
 			["time"] = "2021/12/05 20:25:25",
+			["session"] = 608,
 			["counter"] = 58,
 		}, -- [101]
 		{
@@ -889,56 +889,56 @@ BugGrabberDB = {
 		}, -- [116]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-EditBox.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [117]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Heading.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [118]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Icon.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [119]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-InteractiveLabel.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [120]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Keybinding.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [121]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Label.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [122]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-MultiLineEditBox.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [123]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Slider.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [124]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-ColorPicker.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 2,
 		}, -- [125]
 		{
@@ -1123,36 +1123,36 @@ BugGrabberDB = {
 			["counter"] = 18,
 		}, -- [148]
 		{
-			["message"] = "[string \"Error in: 04.Conflagration target glow':'co...\"]:1: attempt to index global 'aure_env' (a nil value)",
-			["time"] = "2022/06/11 23:31:01",
-			["locals"] = "Skipped (In Encounter)",
-			["stack"] = "[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua\"]:276: in function `RunCode'\n[string \"Error in: 04.Conflagration target glow':'condition checks\"]:29: in function `?'\n[string \"@Interface\\AddOns\\WeakAuras\\Conditions.lua\"]:722: in function `RunConditions'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-4.0.2.lua\"]:3992: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3953>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-4.0.2.lua\"]:4091: in function `UpdatedTriggerState'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-4.0.2.lua\"]:3865: in function `func'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceTimer-3.0\\AceTimer-3.0-17.lua\"]:57: in function <...seAddonController\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:50>",
-			["session"] = 827,
-			["counter"] = 1,
-		}, -- [149]
-		{
-			["message"] = "...TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua:751: attempt to index local 'color' (a nil value)",
-			["time"] = "2021/10/30 12:28:04",
-			["locals"] = "numBatchAuctions = 26458\ntotalAuctions = 26458\nbutton = BrowseButton2 {\n 0 = <userdata>\n itemCount = 1\n bidAmount = 61750\n buyoutPrice = 65000\n itemIndex = 2\n PriceTooltipFrame = <unnamed> {\n }\n}\nbuttonName = \"BrowseButton2\"\nbuttonHighlight = BrowseButton2Highlight {\n 0 = <userdata>\n PixelSnapDisabled = true\n}\niconTexture = BrowseButton1ItemIconTexture {\n 0 = <userdata>\n PixelSnapDisabled = true\n}\nitemName = BrowseButton2Name {\n SetVertexColor = <function> defined =[C]:-1\n PixelSnapDisabled = true\n 0 = <userdata>\n Hide = <function> defined =[C]:-1\n}\ncolor = nil\nitemCount = BrowseButton1ItemCount {\n 0 = <userdata>\n}\nmoneyFrame = BrowseButton1MoneyFrame {\n 0 = <userdata>\n vadjust = 1\n trialErrorButton = BrowseButton1MoneyFrameTrialErrorButton {\n }\n moneyType = \"AUCTION\"\n info = <table> {\n }\n small = 1\n staticMoney = 47307\n maxDisplayWidth = 146\n}\nyourBidText = BrowseButton1YourBidText {\n 0 = <userdata>\n}\nbuyoutFrame = BrowseButton1BuyoutFrame {\n 0 = <userdata>\n}\nbuyoutMoney = BrowseButton1BuyoutFrameMoney {\n 0 = <userdata>\n vadjust = 1\n trialErrorButton = BrowseButton1BuyoutFrameMoneyTrialErrorButton {\n }\n moneyType = \"AUCTION\"\n info = <table> {\n }\n small = 1\n staticMoney = 49797\n maxDisplayWidth = 146\n}\noffset = 0\nindex = 2\nisLastSlotEmpty = nil\nname = \"\"\ntexture = 134939\ncount = 1\nquality = -1\ncanUse = false\nlevel = -2054777088\nlevelColHeader = nil\nminBid = 75999\nminIncrement = 0\nbuyoutPrice = 79999\nduration = 1\nbidAmount = 0\nhighBidder = false\nbidderFullName = nil\nowner = nil\nownerFullName = nil\nsaleStatus = 0\nitemId = 24316\nhasAllInfo = true\ndisplayedPrice = 47307\nrequiredBid = 47307\n(for index) = 2\n(for limit) = 8\n(for step) = 1\ni = 2\nshouldHide = false\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = BrowseButton2Name {\n SetVertexColor = <function> defined =[C]:-1\n PixelSnapDisabled = true\n 0 = <userdata>\n Hide = <function> defined =[C]:-1\n}\n(*temporary) = \"\"\n(*temporary) = <userdata>\n(*temporary) = false\n(*temporary) = -2054777088\n(*temporary) = nil\n(*temporary) = 75999\n(*temporary) = 0\n(*temporary) = 79999\n(*temporary) = 0\n(*temporary) = false\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 0\n(*temporary) = 24316\n(*temporary) = true\n(*temporary) = \"attempt to index local 'color' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface_TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua\"]:751: in function <...TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua:684>\n[string \"=(tail call)\"]: ?\n[string \"@Interface\\AddOns\\Altoholic\\Altoholic-2.5.007.lua\"]:155: in function `AuctionFrameBrowse_Update'\n[string \"@Interface_TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua\"]:277: in function <...TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua:275>",
-			["session"] = 828,
-			["counter"] = 17,
-		}, -- [150]
-		{
 			["message"] = "...AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua:655: stack overflow",
 			["time"] = "2022/06/18 22:53:16",
 			["locals"] = "(*temporary) = <function> defined @Interface\\AddOns\\NameplateAuras\\libs\\LibRedDropdown-1.0\\libs\\ForAllIndentsAndPurposes.lua:1139\n(*temporary) = MultiLineEditBox8Edit {\n 0 = <userdata>\n obj = <table> {\n }\n oldMaxBytes = 0\n SetText = <function> defined @Interface\\AddOns\\NameplateAuras\\libs\\LibRedDropdown-1.0\\libs\\ForAllIndentsAndPurposes.lua:1148\n faiap_colorTable = <table> {\n }\n faiap_tabWidth = 4\n GetText = <function> defined @Interface\\AddOns\\NameplateAuras\\libs\\LibRedDropdown-1.0\\libs\\ForAllIndentsAndPurposes.lua:1139\n faiap_old_OnTextChanged = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:128\n oldMaxLetters = 0\n}\n(*temporary) = \"stack overflow\"\neditor = <table> {\n parent = <table> {\n }\n SetText = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:215\n SetMaxLetters = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:223\n combinedText = false\n GetText = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:219\n button = MultiLineEditBox8Button {\n }\n base = <table> {\n }\n scrollBG = <unnamed> {\n }\n numlines = 4\n height = \"fill\"\n GetCursorPosition = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:253\n OnRelease = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:172\n label = <unnamed> {\n }\n SetNumLines = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:207\n SetCursorPosition = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:257\n userdata = <table> {\n }\n scrollFrame = MultiLineEditBox8ScrollFrame {\n }\n width = \"fill\"\n type = \"MultiLineEditBox\"\n OnAcquire = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:162\n HighlightText = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:249\n disablebutton = true\n labelHeight = 10\n AceGUIWidgetVersion = 29\n editBox = MultiLineEditBox8Edit {\n }\n SetFocus = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:242\n DisableButton = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:227\n events = <table> {\n }\n SetDisabled = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:176\n scrollBar = MultiLineEditBox8ScrollFrameScrollBar {\n }\n frame = <unnamed> {\n }\n SetLabel = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:193\n ClearFocus = <function> defined @Interface\\AddOns\\Accountant_Classic\\Libs\\AceGUI-3.0\\widgets\\AceGUIWidget-MultiLineEditBox.lua:237\n}\neditorError = <unnamed> {\n 0 = <userdata>\n}\nenclose = false\nloadstring = <function> defined =[C]:-1\nvalidator = nil\nurlText = <unnamed> {\n 0 = <userdata>\n}\nurlCopyLabel = <unnamed> {\n 0 = <userdata>\n}\nself = <table> {\n path = <table> {\n }\n OnWidthSet = <function> defined @Interface\\AddOns\\WeakAurasOptions\\AceGUI-Widgets\\AceGUIContainer-WeakAurasInlineGroup.lua:38\n data = <table> {\n }\n OnAcquire = <function> defined @Interface\\AddOns\\WeakAurasOptions\\AceGUI-Widgets\\AceGUIContainer-WeakAurasInlineGroup.lua:20\n userdata = <table> {\n }\n url = \"https://github.com/WeakAuras/WeakAuras2/wiki/Custom-Code-Blocks#custom-trigger\"\n children = <table> {\n }\n reloadOptions = true\n OnHeightSet = <function> defined @Interface\\AddOns\\WeakAurasOptions\\AceGUI-Widgets\\AceGUIContainer-WeakAurasInlineGroup.lua:44\n type = \"WeakAurasInlineGroup\"\n AceGUIWidgetVersion = 1\n oldOnTextChanged = <function> defined @Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua:654\n multipath = ",
 			["stack"] = "[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:655: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n...\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function `oldOnTextChanged'\n[string \"@Interface\\AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua\"]:683: in function <...AddOns\\WeakAurasOptions\\OptionsFrames\\TextEditor.lua:654>",
 			["session"] = 830,
 			["counter"] = 2,
-		}, -- [151]
+		}, -- [149]
+		{
+			["message"] = "[string \"Error in: 04.Conflagration target glow':'co...\"]:1: attempt to index global 'aure_env' (a nil value)",
+			["time"] = "2022/06/11 23:31:01",
+			["locals"] = "Skipped (In Encounter)",
+			["stack"] = "[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\RegionTypes\\RegionPrototype.lua\"]:276: in function `RunCode'\n[string \"Error in: 04.Conflagration target glow':'condition checks\"]:29: in function `?'\n[string \"@Interface\\AddOns\\WeakAuras\\Conditions.lua\"]:722: in function `RunConditions'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-4.0.2.lua\"]:3992: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3953>\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-4.0.2.lua\"]:4091: in function `UpdatedTriggerState'\n[string \"@Interface\\AddOns\\WeakAuras\\WeakAuras-4.0.2.lua\"]:3865: in function `func'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceTimer-3.0\\AceTimer-3.0-17.lua\"]:57: in function <...seAddonController\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:50>",
+			["session"] = 833,
+			["counter"] = 2,
+		}, -- [150]
 		{
 			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
 			["time"] = "2021/07/01 16:18:25",
 			["locals"] = "GearScore = 2320\nItemLevel = 105\nRed = 0.081600\nBlue = 0.320000\nGreen = 0.840000\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 5\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
-			["session"] = 832,
-			["counter"] = 10493,
+			["session"] = 833,
+			["counter"] = 10812,
+		}, -- [151]
+		{
+			["message"] = "...TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua:751: attempt to index local 'color' (a nil value)",
+			["time"] = "2021/10/30 12:28:04",
+			["locals"] = "numBatchAuctions = 26458\ntotalAuctions = 26458\nbutton = BrowseButton2 {\n 0 = <userdata>\n itemCount = 1\n bidAmount = 61750\n buyoutPrice = 65000\n itemIndex = 2\n PriceTooltipFrame = <unnamed> {\n }\n}\nbuttonName = \"BrowseButton2\"\nbuttonHighlight = BrowseButton2Highlight {\n 0 = <userdata>\n PixelSnapDisabled = true\n}\niconTexture = BrowseButton1ItemIconTexture {\n 0 = <userdata>\n PixelSnapDisabled = true\n}\nitemName = BrowseButton2Name {\n SetVertexColor = <function> defined =[C]:-1\n PixelSnapDisabled = true\n 0 = <userdata>\n Hide = <function> defined =[C]:-1\n}\ncolor = nil\nitemCount = BrowseButton1ItemCount {\n 0 = <userdata>\n}\nmoneyFrame = BrowseButton1MoneyFrame {\n 0 = <userdata>\n vadjust = 1\n trialErrorButton = BrowseButton1MoneyFrameTrialErrorButton {\n }\n moneyType = \"AUCTION\"\n info = <table> {\n }\n small = 1\n staticMoney = 47307\n maxDisplayWidth = 146\n}\nyourBidText = BrowseButton1YourBidText {\n 0 = <userdata>\n}\nbuyoutFrame = BrowseButton1BuyoutFrame {\n 0 = <userdata>\n}\nbuyoutMoney = BrowseButton1BuyoutFrameMoney {\n 0 = <userdata>\n vadjust = 1\n trialErrorButton = BrowseButton1BuyoutFrameMoneyTrialErrorButton {\n }\n moneyType = \"AUCTION\"\n info = <table> {\n }\n small = 1\n staticMoney = 49797\n maxDisplayWidth = 146\n}\noffset = 0\nindex = 2\nisLastSlotEmpty = nil\nname = \"\"\ntexture = 134939\ncount = 1\nquality = -1\ncanUse = false\nlevel = -2054777088\nlevelColHeader = nil\nminBid = 75999\nminIncrement = 0\nbuyoutPrice = 79999\nduration = 1\nbidAmount = 0\nhighBidder = false\nbidderFullName = nil\nowner = nil\nownerFullName = nil\nsaleStatus = 0\nitemId = 24316\nhasAllInfo = true\ndisplayedPrice = 47307\nrequiredBid = 47307\n(for index) = 2\n(for limit) = 8\n(for step) = 1\ni = 2\nshouldHide = false\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = BrowseButton2Name {\n SetVertexColor = <function> defined =[C]:-1\n PixelSnapDisabled = true\n 0 = <userdata>\n Hide = <function> defined =[C]:-1\n}\n(*temporary) = \"\"\n(*temporary) = <userdata>\n(*temporary) = false\n(*temporary) = -2054777088\n(*temporary) = nil\n(*temporary) = 75999\n(*temporary) = 0\n(*temporary) = 79999\n(*temporary) = 0\n(*temporary) = false\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 0\n(*temporary) = 24316\n(*temporary) = true\n(*temporary) = \"attempt to index local 'color' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface_TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua\"]:751: in function <...TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua:684>\n[string \"=(tail call)\"]: ?\n[string \"@Interface\\AddOns\\Altoholic\\Altoholic-2.5.007.lua\"]:155: in function `AuctionFrameBrowse_Update'\n[string \"@Interface_TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua\"]:277: in function <...TBC\\AddOns\\Blizzard_AuctionUI\\Blizzard_AuctionUI.lua:275>",
+			["session"] = 833,
+			["counter"] = 18,
 		}, -- [152]
 	},
 }

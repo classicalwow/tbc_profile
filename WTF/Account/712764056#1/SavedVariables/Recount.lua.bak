@@ -40,7 +40,7 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "怒焰裂谷",
+			["LastInstanceName"] = "劍刃競技場",
 			["CurDataSet"] = "LastFightData",
 			["MainWindowWidth"] = 329.2458801269531,
 			["MainWindowHeight"] = 214.3261108398438,

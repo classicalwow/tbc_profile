@@ -1,66 +1,67 @@
-local spec = LoonBestInSlot:RegisterSpec("Druid", "Balance", "4")
-LoonBestInSlot:AddItem(spec, "31040", "Head", "Thunderheart Headguard", "BIS")
-LoonBestInSlot:AddItem(spec, "31096", "Head", "Helm of the Forgotten Vanquisher", "BIS")
-LoonBestInSlot:AddItem(spec, "33453", "Head", "Hood of Hexing", "Alt")
+local spec = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "4")
 
-LoonBestInSlot:AddItem(spec, "31049", "Shoulders", "Thunderheart Shoulderpads", "BIS")
-LoonBestInSlot:AddItem(spec, "31102", "Shoulders", "Pauldrons of the Forgotten Vanquisher", "BIS")
-LoonBestInSlot:AddItem(spec, "33973", "Shoulders", "Pauldrons of Tribal Fury", "Alt")
+LBIS:AddItem(spec, "31040", LBIS.L["Head"], "BIS") --Thunderheart Headguard
+LBIS:AddItem(spec, "31096", LBIS.L["Head"], "BIS") --Helm of the Forgotten Vanquisher
+LBIS:AddItem(spec, "33453", LBIS.L["Head"], "Alt") --Hood of Hexing
 
-LoonBestInSlot:AddItem(spec, "32524", "Back", "Shroud of the Highborne", "BIS")
-LoonBestInSlot:AddItem(spec, "32331", "Back", "Cloak of the Illidari Council", "BIS")
-LoonBestInSlot:AddItem(spec, "33591", "Back", "Shadowcaster's Drape", "Alt")
+LBIS:AddItem(spec, "31049", LBIS.L["Shoulder"], "BIS") --Thunderheart Shoulderpads
+LBIS:AddItem(spec, "31102", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Vanquisher
+LBIS:AddItem(spec, "33973", LBIS.L["Shoulder"], "Alt") --Pauldrons of Tribal Fury
 
-LoonBestInSlot:AddItem(spec, "31043", "Chest", "Thunderheart Vest", "BIS")
-LoonBestInSlot:AddItem(spec, "31090", "Chest", "Chestguard of the Forgotten Vanquisher", "BIS")
-LoonBestInSlot:AddItem(spec, "33566", "Chest", "Blessed Elunite Coverings", "Alt")
+LBIS:AddItem(spec, "32524", LBIS.L["Back"], "BIS") --Shroud of the Highborne
+LBIS:AddItem(spec, "32331", LBIS.L["Back"], "BIS") --Cloak of the Illidari Council
+LBIS:AddItem(spec, "33591", LBIS.L["Back"], "Alt") --Shadowcaster's Drape
 
-LoonBestInSlot:AddItem(spec, "32586", "Bracers", "Bracers of Nimble Thought", "BIS")
-LoonBestInSlot:AddItem(spec, "33285", "Bracers", "Fury of the Ursine", "Alt")
-LoonBestInSlot:AddItem(spec, "33578", "Bracers", "Armwraps of the Kaldorei Protector", "Alt")
-LoonBestInSlot:AddItem(spec, "33588", "Bracers", "Runed Spell-cuffs", "Alt")
+LBIS:AddItem(spec, "31043", LBIS.L["Chest"], "BIS") --Thunderheart Vest
+LBIS:AddItem(spec, "31090", LBIS.L["Chest"], "BIS") --Chestguard of the Forgotten Vanquisher
+LBIS:AddItem(spec, "33566", LBIS.L["Chest"], "Alt") --Blessed Elunite Coverings
 
-LoonBestInSlot:AddItem(spec, "31035", "Gloves", "Thunderheart Handguards", "BIS")
-LoonBestInSlot:AddItem(spec, "31093", "Gloves", "Gloves of the Forgotten Vanquisher", "BIS")
-LoonBestInSlot:AddItem(spec, "33586", "Gloves", "Studious Wraps", "Alt")
-LoonBestInSlot:AddItem(spec, "33974", "Gloves", "Grasp of the Moonkin", "Alt")
+LBIS:AddItem(spec, "32586", LBIS.L["Wrist"], "BIS") --Bracers of Nimble Thought
+LBIS:AddItem(spec, "33285", LBIS.L["Wrist"], "Alt") --Fury of the Ursine
+LBIS:AddItem(spec, "33578", LBIS.L["Wrist"], "Alt") --Armwraps of the Kaldorei Protector
+LBIS:AddItem(spec, "33588", LBIS.L["Wrist"], "Alt") --Runed Spell-cuffs
 
-LoonBestInSlot:AddItem(spec, "30888", "Belt", "Anetheron's Noose", "BIS")
-LoonBestInSlot:AddItem(spec, "33559", "Belt", "Starfire Waistband", "Alt")
-LoonBestInSlot:AddItem(spec, "33291", "Belt", "Voodoo-woven Belt", "Alt")
+LBIS:AddItem(spec, "31035", LBIS.L["Hands"], "BIS") --Thunderheart Handguards
+LBIS:AddItem(spec, "31093", LBIS.L["Hands"], "BIS") --Gloves of the Forgotten Vanquisher
+LBIS:AddItem(spec, "33586", LBIS.L["Hands"], "Alt") --Studious Wraps
+LBIS:AddItem(spec, "33974", LBIS.L["Hands"], "Alt") --Grasp of the Moonkin
 
-LoonBestInSlot:AddItem(spec, "30916", "Legs", "Leggings of Channeled Elements", "BIS")
-LoonBestInSlot:AddItem(spec, "33971", "Legs", "Elunite Imbued Leggings", "Alt")
-LoonBestInSlot:AddItem(spec, "33584", "Legs", "Pantaloons of Arcane Annihilation", "Alt")
+LBIS:AddItem(spec, "30888", LBIS.L["Waist"], "BIS") --Anetheron's Noose
+LBIS:AddItem(spec, "33559", LBIS.L["Waist"], "Alt") --Starfire Waistband
+LBIS:AddItem(spec, "33291", LBIS.L["Waist"], "Alt") --Voodoo-woven Belt
 
-LoonBestInSlot:AddItem(spec, "32239", "Feet", "Slippers of the Seacaller", "BIS")
-LoonBestInSlot:AddItem(spec, "33357", "Feet", "Footpads of Madness", "Alt")
-LoonBestInSlot:AddItem(spec, "33577", "Feet", "Moon-walkers", "Alt")
+LBIS:AddItem(spec, "30916", LBIS.L["Legs"], "BIS") --Leggings of Channeled Elements
+LBIS:AddItem(spec, "33971", LBIS.L["Legs"], "Alt") --Elunite Imbued Leggings
+LBIS:AddItem(spec, "33584", LBIS.L["Legs"], "Alt") --Pantaloons of Arcane Annihilation
 
-LoonBestInSlot:AddItem(spec, "33281", "Neck", "Brooch of Nature's Mercy", "BIS")
-LoonBestInSlot:AddItem(spec, "33466", "Neck", "Loop of Cursed Bones", "Alt")
-LoonBestInSlot:AddItem(spec, "30015", "Neck", "The Sun King's Talisman", "Alt")
-LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "Alt")
+LBIS:AddItem(spec, "32239", LBIS.L["Feet"], "BIS") --Slippers of the Seacaller
+LBIS:AddItem(spec, "33357", LBIS.L["Feet"], "Alt") --Footpads of Madness
+LBIS:AddItem(spec, "33577", LBIS.L["Feet"], "Alt") --Moon-walkers
 
-LoonBestInSlot:AddItem(spec, "32527", "Ring", "Ring of Ancient Knowledge", "BIS")
-LoonBestInSlot:AddItem(spec, "29305", "Ring", "Band of the Eternal Sage", "BIS")
-LoonBestInSlot:AddItem(spec, "33497", "Ring", "Mana Attuned Band", "BIS")
+LBIS:AddItem(spec, "33281", LBIS.L["Neck"], "BIS") --Brooch of Nature's Mercy
+LBIS:AddItem(spec, "33466", LBIS.L["Neck"], "Alt") --Loop of Cursed Bones
+LBIS:AddItem(spec, "30015", LBIS.L["Neck"], "Alt") --The Sun King's Talisman
+LBIS:AddItem(spec, "32405", LBIS.L["Neck"], "Alt") --Verdant Sphere
 
-LoonBestInSlot:AddItem(spec, "32483", "Trinket", "The Skull of Gul'dan", "BIS")
-LoonBestInSlot:AddItem(spec, "33829", "Trinket", "Hex Shrunken Head", "BIS")
-LoonBestInSlot:AddItem(spec, "32486", "Trinket", "Ashtongue Talisman of Equilibrium", "Alt")
+LBIS:AddItem(spec, "32527", LBIS.L["Ring"], "BIS") --Ring of Ancient Knowledge
+LBIS:AddItem(spec, "29305", LBIS.L["Ring"], "BIS") --Band of the Eternal Sage
+LBIS:AddItem(spec, "33497", LBIS.L["Ring"], "BIS") --Mana Attuned Band
 
-LoonBestInSlot:AddItem(spec, "32237", "MH", "The Maelstrom's Fury", "BIS")
-LoonBestInSlot:AddItem(spec, "34009", "MH", "Hammer of Judgement", "BIS")
-LoonBestInSlot:AddItem(spec, "33354", "MH", "Wub's Cursed Hexblade", "BIS")
-LoonBestInSlot:AddItem(spec, "33283", "MH", "Amani Punisher", "Alt")
+LBIS:AddItem(spec, "32483", LBIS.L["Trinket"], "BIS") --The Skull of Gul'dan
+LBIS:AddItem(spec, "33829", LBIS.L["Trinket"], "BIS") --Hex Shrunken Head
+LBIS:AddItem(spec, "32486", LBIS.L["Trinket"], "Alt") --Ashtongue Talisman of Equilibrium
 
-LoonBestInSlot:AddItem(spec, "32374", "2H", "Zhar'doom, Greatstaff of the Devourer", "BIS")
-LoonBestInSlot:AddItem(spec, "33494", "2H", "Amani Divining Staff", "Alt")
+LBIS:AddItem(spec, "32237", LBIS.L["Main Hand"], "BIS") --The Maelstrom's Fury
+LBIS:AddItem(spec, "34009", LBIS.L["Main Hand"], "BIS") --Hammer of Judgement
+LBIS:AddItem(spec, "33354", LBIS.L["Main Hand"], "BIS") --Wub's Cursed Hexblade
+LBIS:AddItem(spec, "33283", LBIS.L["Main Hand"], "Alt") --Amani Punisher
 
-LoonBestInSlot:AddItem(spec, "30872", "OH", "Chronicle of Dark Secrets", "BIS")
-LoonBestInSlot:AddItem(spec, "33334", "OH", "Fetish of the Primal Gods", "Alt")
+LBIS:AddItem(spec, "32374", LBIS.L["Two-Hand"], "BIS") --Zhar'doom, Greatstaff of the Devourer
+LBIS:AddItem(spec, "33494", LBIS.L["Two-Hand"], "Alt") --Amani Divining Staff
 
-LoonBestInSlot:AddItem(spec, "32387", "Idol", "Idol of the Raven Goddess", "BIS")
-LoonBestInSlot:AddItem(spec, "27518", "Idol", "Ivory Idol of the Moongoddess", "BIS")
-LoonBestInSlot:AddItem(spec, "33510", "Idol", "Idol of the Unseen Moon", "Alt")
+LBIS:AddItem(spec, "30872", LBIS.L["Off Hand"], "BIS") --Chronicle of Dark Secrets
+LBIS:AddItem(spec, "33334", LBIS.L["Off Hand"], "Alt") --Fetish of the Primal Gods
+
+LBIS:AddItem(spec, "32387", LBIS.L["Idol"], "BIS") --Idol of the Raven Goddess
+LBIS:AddItem(spec, "27518", LBIS.L["Idol"], "BIS") --Ivory Idol of the Moongoddess
+LBIS:AddItem(spec, "33510", LBIS.L["Idol"], "Alt") --Idol of the Unseen Moon

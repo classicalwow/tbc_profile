@@ -1,78 +1,79 @@
-local spec = LoonBestInSlot:RegisterSpec("Rogue", "", "0")
-LoonBestInSlot:AddItem(spec, "32478", "Head", "Deathblow X11 Goggles", "BIS")
-LoonBestInSlot:AddItem(spec, "28224", "Head", "Wastewalker Helm", "Alt")
-LoonBestInSlot:AddItem(spec, "32087", "Head", "Mask of the Deceiver", "Alt")
-LoonBestInSlot:AddItem(spec, "28182", "Head", "Helm of the Claw", "Alt")
+local spec = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L[""], "0")
 
-LoonBestInSlot:AddItem(spec, "27797", "Shoulders", "Wastewalker Shoulderpads", "BIS")
-LoonBestInSlot:AddItem(spec, "25790", "Shoulders", "Expedition Scout's Epaulets", "Alt")
-LoonBestInSlot:AddItem(spec, "29148", "Shoulders", "Blackened Leather Spaulders", "Alt")
-LoonBestInSlot:AddItem(spec, "29147", "Shoulders", "Talbuk Hide Spaulders", "Alt")
+LBIS:AddItem(spec, "32478", LBIS.L["Head"], "BIS") --Deathblow X11 Goggles
+LBIS:AddItem(spec, "28224", LBIS.L["Head"], "Alt") --Wastewalker Helm
+LBIS:AddItem(spec, "32087", LBIS.L["Head"], "Alt") --Mask of the Deceiver
+LBIS:AddItem(spec, "28182", LBIS.L["Head"], "Alt") --Helm of the Claw
 
-LoonBestInSlot:AddItem(spec, "24259", "Back", "Vengeance Wrap", "BIS")
-LoonBestInSlot:AddItem(spec, "27878", "Back", "Auchenai Death Shroud", "Alt")
-LoonBestInSlot:AddItem(spec, "29382", "Back", "Blood Knight War Cloak", "Alt")
-LoonBestInSlot:AddItem(spec, "28032", "Back", "Delicate Green Poncho", "Alt")
+LBIS:AddItem(spec, "27797", LBIS.L["Shoulder"], "BIS") --Wastewalker Shoulderpads
+LBIS:AddItem(spec, "25790", LBIS.L["Shoulder"], "Alt") --Expedition Scout's Epaulets
+LBIS:AddItem(spec, "29148", LBIS.L["Shoulder"], "Alt") --Blackened Leather Spaulders
+LBIS:AddItem(spec, "29147", LBIS.L["Shoulder"], "Alt") --Talbuk Hide Spaulders
 
-LoonBestInSlot:AddItem(spec, "28264", "Chest", "Wastewalker Tunic", "BIS")
-LoonBestInSlot:AddItem(spec, "29525", "Chest", "Primalstrike Vest", "BIS")
-LoonBestInSlot:AddItem(spec, "30933", "Chest", "Hauberk of Karabor", "Alt")
+LBIS:AddItem(spec, "24259", LBIS.L["Back"], "BIS") --Vengeance Wrap
+LBIS:AddItem(spec, "27878", LBIS.L["Back"], "Alt") --Auchenai Death Shroud
+LBIS:AddItem(spec, "29382", LBIS.L["Back"], "Alt") --Blood Knight War Cloak
+LBIS:AddItem(spec, "28032", LBIS.L["Back"], "Alt") --Delicate Green Poncho
 
-LoonBestInSlot:AddItem(spec, "32647", "Bracers", "Shard-bound Bracers", "BIS")
-LoonBestInSlot:AddItem(spec, "29246", "Bracers", "Nightfall Wristguards", "Alt")
-LoonBestInSlot:AddItem(spec, "29527", "Bracers", "Primalstrike Bracers", "Alt")
-LoonBestInSlot:AddItem(spec, "28171", "Bracers", "Spymistress's Wristguards", "Alt")
+LBIS:AddItem(spec, "28264", LBIS.L["Chest"], "BIS") --Wastewalker Tunic
+LBIS:AddItem(spec, "29525", LBIS.L["Chest"], "BIS") --Primalstrike Vest
+LBIS:AddItem(spec, "30933", LBIS.L["Chest"], "Alt") --Hauberk of Karabor
 
-LoonBestInSlot:AddItem(spec, "25685", "Gloves", "Fel Leather Gloves", "BIS")
-LoonBestInSlot:AddItem(spec, "27531", "Gloves", "Wastewalker Gloves", "BIS")
-LoonBestInSlot:AddItem(spec, "30003", "Gloves", "Gloves of the Nether-Stalker", "Alt")
+LBIS:AddItem(spec, "32647", LBIS.L["Wrist"], "BIS") --Shard-bound Bracers
+LBIS:AddItem(spec, "29246", LBIS.L["Wrist"], "Alt") --Nightfall Wristguards
+LBIS:AddItem(spec, "29527", LBIS.L["Wrist"], "Alt") --Primalstrike Bracers
+LBIS:AddItem(spec, "28171", LBIS.L["Wrist"], "Alt") --Spymistress's Wristguards
 
-LoonBestInSlot:AddItem(spec, "29247", "Belt", "Girdle of the Deathdealer", "BIS")
-LoonBestInSlot:AddItem(spec, "29526", "Belt", "Primalstrike Belt", "BIS")
-LoonBestInSlot:AddItem(spec, "30372", "Belt", "Socrethar's Girdle", "Alt")
-LoonBestInSlot:AddItem(spec, "31464", "Belt", "Naaru Belt of Precision", "Alt")
+LBIS:AddItem(spec, "25685", LBIS.L["Hands"], "BIS") --Fel Leather Gloves
+LBIS:AddItem(spec, "27531", LBIS.L["Hands"], "BIS") --Wastewalker Gloves
+LBIS:AddItem(spec, "30003", LBIS.L["Hands"], "Alt") --Gloves of the Nether-Stalker
 
-LoonBestInSlot:AddItem(spec, "27837", "Legs", "Wastewalker Leggings", "BIS")
-LoonBestInSlot:AddItem(spec, "25687", "Legs", "Fel Leather Leggings", "Alt")
-LoonBestInSlot:AddItem(spec, "31544", "Legs", "Clefthoof Hide Leggings", "Alt")
+LBIS:AddItem(spec, "29247", LBIS.L["Waist"], "BIS") --Girdle of the Deathdealer
+LBIS:AddItem(spec, "29526", LBIS.L["Waist"], "BIS") --Primalstrike Belt
+LBIS:AddItem(spec, "30372", LBIS.L["Waist"], "Alt") --Socrethar's Girdle
+LBIS:AddItem(spec, "31464", LBIS.L["Waist"], "Alt") --Naaru Belt of Precision
 
-LoonBestInSlot:AddItem(spec, "25686", "Feet", "Fel Leather Boots", "BIS")
-LoonBestInSlot:AddItem(spec, "30939", "Feet", "Felboar Hide Shoes", "Alt")
+LBIS:AddItem(spec, "27837", LBIS.L["Legs"], "BIS") --Wastewalker Leggings
+LBIS:AddItem(spec, "25687", LBIS.L["Legs"], "Alt") --Fel Leather Leggings
+LBIS:AddItem(spec, "31544", LBIS.L["Legs"], "Alt") --Clefthoof Hide Leggings
 
-LoonBestInSlot:AddItem(spec, "29381", "Neck", "Choker of Vile Intent", "BIS")
-LoonBestInSlot:AddItem(spec, "24114", "Neck", "Braided Eternium Chain", "BIS")
-LoonBestInSlot:AddItem(spec, "25562", "Neck", "Earthen Mark of Razing", "Alt")
-LoonBestInSlot:AddItem(spec, "19377", "Neck", "Prestor's Talisman of Connivery", "Alt")
+LBIS:AddItem(spec, "25686", LBIS.L["Feet"], "BIS") --Fel Leather Boots
+LBIS:AddItem(spec, "30939", LBIS.L["Feet"], "Alt") --Felboar Hide Shoes
 
-LoonBestInSlot:AddItem(spec, "31920", "Ring", "Shaffar's Band of Brutality", "BIS")
-LoonBestInSlot:AddItem(spec, "30834", "Ring", "Shapeshifter's Signet", "BIS")
-LoonBestInSlot:AddItem(spec, "31077", "Ring", "Slayer's Mark of the Redemption", "BIS")
-LoonBestInSlot:AddItem(spec, "30860", "Ring", "Kaylaan's Signet", "BIS")
-LoonBestInSlot:AddItem(spec, "30973", "Ring", "Band of Anguish", "Alt")
-LoonBestInSlot:AddItem(spec, "27925", "Ring", "Ravenclaw Band", "Alt")
+LBIS:AddItem(spec, "29381", LBIS.L["Neck"], "BIS") --Choker of Vile Intent
+LBIS:AddItem(spec, "24114", LBIS.L["Neck"], "BIS") --Braided Eternium Chain
+LBIS:AddItem(spec, "25562", LBIS.L["Neck"], "Alt") --Earthen Mark of Razing
+LBIS:AddItem(spec, "19377", LBIS.L["Neck"], "Alt") --Prestor's Talisman of Connivery
 
-LoonBestInSlot:AddItem(spec, "29383", "Trinket", "Bloodlust Brooch", "BIS")
-LoonBestInSlot:AddItem(spec, "28288", "Trinket", "Abacus of Violent Odds", "BIS")
-LoonBestInSlot:AddItem(spec, "23041", "Trinket", "Slayer's Crest", "Alt")
-LoonBestInSlot:AddItem(spec, "22954", "Trinket", "Kiss of the Spider", "Alt")
-LoonBestInSlot:AddItem(spec, "28034", "Trinket", "Hourglass of the Unraveller", "Alt")
-LoonBestInSlot:AddItem(spec, "21670", "Trinket", "Badge of the Swarmguard", "Alt")
+LBIS:AddItem(spec, "31920", LBIS.L["Ring"], "BIS") --Shaffar's Band of Brutality
+LBIS:AddItem(spec, "30834", LBIS.L["Ring"], "BIS") --Shapeshifter's Signet
+LBIS:AddItem(spec, "31077", LBIS.L["Ring"], "BIS") --Slayer's Mark of the Redemption
+LBIS:AddItem(spec, "30860", LBIS.L["Ring"], "BIS") --Kaylaan's Signet
+LBIS:AddItem(spec, "30973", LBIS.L["Ring"], "Alt") --Band of Anguish
+LBIS:AddItem(spec, "27925", LBIS.L["Ring"], "Alt") --Ravenclaw Band
 
-LoonBestInSlot:AddItem(spec, "32052", "MH", "Merciless Gladiator's Slicer", "BIS")
-LoonBestInSlot:AddItem(spec, "28438", "MH", "Dragonmaw", "Alt")
-LoonBestInSlot:AddItem(spec, "28295", "MH", "Gladiator's Slicer", "Alt")
-LoonBestInSlot:AddItem(spec, "31332", "MH", "Blinkstrike", "Alt")
-LoonBestInSlot:AddItem(spec, "29124", "MH", "Vindicator's Brand", "Alt")
-LoonBestInSlot:AddItem(spec, "28312", "MH", "Gladiator's Shanker", "BIS Dagger")
-LoonBestInSlot:AddItem(spec, "31331", "MH", "The Night Blade", "Alt Dagger")
+LBIS:AddItem(spec, "29383", LBIS.L["Trinket"], "BIS") --Bloodlust Brooch
+LBIS:AddItem(spec, "28288", LBIS.L["Trinket"], "BIS") --Abacus of Violent Odds
+LBIS:AddItem(spec, "23041", LBIS.L["Trinket"], "Alt") --Slayer's Crest
+LBIS:AddItem(spec, "22954", LBIS.L["Trinket"], "Alt") --Kiss of the Spider
+LBIS:AddItem(spec, "28034", LBIS.L["Trinket"], "Alt") --Hourglass of the Unraveller
+LBIS:AddItem(spec, "21670", LBIS.L["Trinket"], "Alt") --Badge of the Swarmguard
 
-LoonBestInSlot:AddItem(spec, "32027", "OH", "Merciless Gladiator's Quickblade", "BIS")
-LoonBestInSlot:AddItem(spec, "28307", "OH", "Gladiator's Quickblade", "Alt")
-LoonBestInSlot:AddItem(spec, "28189", "OH", "Latro's Shifting Sword", "Alt")
-LoonBestInSlot:AddItem(spec, "29275", "OH", "Searing Sunblade", "BIS Dagger")
-LoonBestInSlot:AddItem(spec, "28310", "OH", "Gladiator's Shiv", "Alt Dagger")
+LBIS:AddItem(spec, "32052", LBIS.L["Main Hand"], "BIS") --Merciless Gladiator's Slicer
+LBIS:AddItem(spec, "28438", LBIS.L["Main Hand"], "Alt") --Dragonmaw
+LBIS:AddItem(spec, "28295", LBIS.L["Main Hand"], "Alt") --Gladiator's Slicer
+LBIS:AddItem(spec, "31332", LBIS.L["Main Hand"], "Alt") --Blinkstrike
+LBIS:AddItem(spec, "29124", LBIS.L["Main Hand"], "Alt") --Vindicator's Brand
+LBIS:AddItem(spec, "28312", LBIS.L["Main Hand"], "BIS Dagger") --Gladiator's Shanker
+LBIS:AddItem(spec, "31331", LBIS.L["Main Hand"], "Alt Dagger") --The Night Blade
 
-LoonBestInSlot:AddItem(spec, "29151", "Ranged", "Veteran's Musket", "BIS")
-LoonBestInSlot:AddItem(spec, "29152", "Ranged", "Marksman's Bow", "BIS")
-LoonBestInSlot:AddItem(spec, "30279", "Ranged", "Mama's Insurance", "Alt")
-LoonBestInSlot:AddItem(spec, "30227", "Ranged", "Mark V's Throwing Star", "Alt")
+LBIS:AddItem(spec, "32027", LBIS.L["Off Hand"], "BIS") --Merciless Gladiator's Quickblade
+LBIS:AddItem(spec, "28307", LBIS.L["Off Hand"], "Alt") --Gladiator's Quickblade
+LBIS:AddItem(spec, "28189", LBIS.L["Off Hand"], "Alt") --Latro's Shifting Sword
+LBIS:AddItem(spec, "29275", LBIS.L["Off Hand"], "BIS Dagger") --Searing Sunblade
+LBIS:AddItem(spec, "28310", LBIS.L["Off Hand"], "Alt Dagger") --Gladiator's Shiv
+
+LBIS:AddItem(spec, "29151", LBIS.L["Ranged"], "BIS") --Veteran's Musket
+LBIS:AddItem(spec, "29152", LBIS.L["Ranged"], "BIS") --Marksman's Bow
+LBIS:AddItem(spec, "30279", LBIS.L["Ranged"], "Alt") --Mama's Insurance
+LBIS:AddItem(spec, "30227", LBIS.L["Ranged"], "Alt") --Mark V's Throwing Star

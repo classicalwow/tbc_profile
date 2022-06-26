@@ -1,93 +1,95 @@
-local spec = LoonBestInSlot:RegisterSpec("Druid", "Bear", "3")
-LoonBestInSlot:AddItem(spec, "31039", "Head", "Thunderheart Cover", "BIS Mit")
-LoonBestInSlot:AddItem(spec, "31096", "Head", "Helm of the Forgotten Vanquisher", "BIS Mit")
-LoonBestInSlot:AddItem(spec, "33672", "Head", "Vengeful Gladiator's Dragonhide Helm", "BIS Thrt")
-LoonBestInSlot:AddItem(spec, "32235", "Head", "Cursed Vision of Sargeras", "Alt")
-LoonBestInSlot:AddItem(spec, "30228", "Head", "Nordrassil Headdress", "Alt")
-LoonBestInSlot:AddItem(spec, "30243", "Head", "Helm of the Vanquished Defender", "Alt")
+local spec = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "3")
 
-LoonBestInSlot:AddItem(spec, "31048", "Shoulders", "Thunderheart Pauldrons", "BIS")
-LoonBestInSlot:AddItem(spec, "31102", "Shoulders", "Pauldrons of the Forgotten Vanquisher", "BIS")
-LoonBestInSlot:AddItem(spec, "33674", "Shoulders", "Vengeful Gladiator's Dragonhide Spaulders", "Alt")
-LoonBestInSlot:AddItem(spec, "30230", "Shoulders", "Nordrassil Feral-Mantle", "Alt")
-LoonBestInSlot:AddItem(spec, "30249", "Shoulders", "Pauldrons of the Vanquished Defender", "Alt")
-LoonBestInSlot:AddItem(spec, "30917", "Shoulders", "Razorfury Mantle", "Alt")
+LBIS:AddItem(spec, "31039", LBIS.L["Head"], "BIS Mit") --Thunderheart Cover
+LBIS:AddItem(spec, "31096", LBIS.L["Head"], "BIS Mit") --Helm of the Forgotten Vanquisher
+LBIS:AddItem(spec, "33672", LBIS.L["Head"], "BIS Thrt") --Vengeful Gladiator's Dragonhide Helm
+LBIS:AddItem(spec, "32235", LBIS.L["Head"], "Alt") --Cursed Vision of Sargeras
+LBIS:AddItem(spec, "30228", LBIS.L["Head"], "Alt") --Nordrassil Headdress
+LBIS:AddItem(spec, "30243", LBIS.L["Head"], "Alt") --Helm of the Vanquished Defender
 
-LoonBestInSlot:AddItem(spec, "28660", "Back", "Gilded Thorium Cloak", "BIS Mit")
-LoonBestInSlot:AddItem(spec, "29994", "Back", "Thalassian Wildercloak", "BIS Thrt")
-LoonBestInSlot:AddItem(spec, "34010", "Back", "Pepe's Shroud of Pacification", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "32323", "Back", "Shadowmoon Destroyer's Drape", "Alt Thrt")
+LBIS:AddItem(spec, "31048", LBIS.L["Shoulder"], "BIS") --Thunderheart Pauldrons
+LBIS:AddItem(spec, "31102", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Vanquisher
+LBIS:AddItem(spec, "33674", LBIS.L["Shoulder"], "Alt") --Vengeful Gladiator's Dragonhide Spaulders
+LBIS:AddItem(spec, "30230", LBIS.L["Shoulder"], "Alt") --Nordrassil Feral-Mantle
+LBIS:AddItem(spec, "30249", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Vanquished Defender
+LBIS:AddItem(spec, "30917", LBIS.L["Shoulder"], "Alt") --Razorfury Mantle
 
-LoonBestInSlot:AddItem(spec, "31042", "Chest", "Thunderheart Chestguard", "BIS")
-LoonBestInSlot:AddItem(spec, "31090", "Chest", "Chestguard of the Forgotten Vanquisher", "BIS")
-LoonBestInSlot:AddItem(spec, "30222", "Chest", "Nordrassil Chestplate", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "30237", "Chest", "Chestguard of the Vanquished Defender", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "33675", "Chest", "Vengeful Gladiator's Dragonhide Tunic", "Alt Thrt")
-LoonBestInSlot:AddItem(spec, "32252", "Chest", "Nether Shadow Tunic", "Alt")
-LoonBestInSlot:AddItem(spec, "30905", "Chest", "Midnight Chestguard", "Alt")
+LBIS:AddItem(spec, "28660", LBIS.L["Back"], "BIS Mit") --Gilded Thorium Cloak
+LBIS:AddItem(spec, "29994", LBIS.L["Back"], "BIS Thrt") --Thalassian Wildercloak
+LBIS:AddItem(spec, "34010", LBIS.L["Back"], "Alt Mit") --Pepe's Shroud of Pacification
+LBIS:AddItem(spec, "32323", LBIS.L["Back"], "Alt Thrt") --Shadowmoon Destroyer's Drape
 
-LoonBestInSlot:AddItem(spec, "32324", "Bracers", "Insidious Bands", "BIS")
-LoonBestInSlot:AddItem(spec, "33881", "Bracers", "Vindicator's Dragonhide Bracers", "BIS Mit")
-LoonBestInSlot:AddItem(spec, "33893", "Bracers", "Vindicator's Leather Bracers", "Alt")
-LoonBestInSlot:AddItem(spec, "32580", "Bracers", "Swiftstrike Bracers", "Alt")
-LoonBestInSlot:AddItem(spec, "30863", "Bracers", "Deadly Cuffs", "Alt")
+LBIS:AddItem(spec, "31042", LBIS.L["Chest"], "BIS") --Thunderheart Chestguard
+LBIS:AddItem(spec, "31090", LBIS.L["Chest"], "BIS") --Chestguard of the Forgotten Vanquisher
+LBIS:AddItem(spec, "30222", LBIS.L["Chest"], "Alt Mit") --Nordrassil Chestplate
+LBIS:AddItem(spec, "30237", LBIS.L["Chest"], "Alt Mit") --Chestguard of the Vanquished Defender
+LBIS:AddItem(spec, "33675", LBIS.L["Chest"], "Alt Thrt") --Vengeful Gladiator's Dragonhide Tunic
+LBIS:AddItem(spec, "32252", LBIS.L["Chest"], "Alt") --Nether Shadow Tunic
+LBIS:AddItem(spec, "30905", LBIS.L["Chest"], "Alt") --Midnight Chestguard
 
-LoonBestInSlot:AddItem(spec, "31034", "Gloves", "Thunderheart Gauntlets", "BIS")
-LoonBestInSlot:AddItem(spec, "31093", "Gloves", "Gloves of the Forgotten Vanquisher", "BIS")
-LoonBestInSlot:AddItem(spec, "30223", "Gloves", "Nordrassil Handgrips", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "30240", "Gloves", "Gloves of the Vanquished Defender", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "29947", "Gloves", "Gloves of the Searing Grip", "Alt Thrt")
-LoonBestInSlot:AddItem(spec, "33671", "Gloves", "Vengeful Gladiator's Dragonhide Gloves", "Alt Thrt")
+LBIS:AddItem(spec, "32324", LBIS.L["Wrist"], "BIS") --Insidious Bands
+LBIS:AddItem(spec, "33881", LBIS.L["Wrist"], "BIS Mit") --Vindicator's Dragonhide Bracers
+LBIS:AddItem(spec, "33893", LBIS.L["Wrist"], "Alt") --Vindicator's Leather Bracers
+LBIS:AddItem(spec, "32580", LBIS.L["Wrist"], "Alt") --Swiftstrike Bracers
+LBIS:AddItem(spec, "30863", LBIS.L["Wrist"], "Alt") --Deadly Cuffs
 
-LoonBestInSlot:AddItem(spec, "30106", "Belt", "Belt of One-Hundred Deaths", "BIS")
-LoonBestInSlot:AddItem(spec, "30879", "Belt", "Don Alejandro's Money Belt", "Alt Thrt")
-LoonBestInSlot:AddItem(spec, "33879", "Belt", "Vindicator's Dragonhide Belt", "Alt")
+LBIS:AddItem(spec, "31034", LBIS.L["Hands"], "BIS") --Thunderheart Gauntlets
+LBIS:AddItem(spec, "31093", LBIS.L["Hands"], "BIS") --Gloves of the Forgotten Vanquisher
+LBIS:AddItem(spec, "30223", LBIS.L["Hands"], "Alt Mit") --Nordrassil Handgrips
+LBIS:AddItem(spec, "30240", LBIS.L["Hands"], "Alt Mit") --Gloves of the Vanquished Defender
+LBIS:AddItem(spec, "29947", LBIS.L["Hands"], "Alt Thrt") --Gloves of the Searing Grip
+LBIS:AddItem(spec, "33671", LBIS.L["Hands"], "Alt Thrt") --Vengeful Gladiator's Dragonhide Gloves
 
-LoonBestInSlot:AddItem(spec, "31044", "Legs", "Thunderheart Leggings", "BIS")
-LoonBestInSlot:AddItem(spec, "31099", "Legs", "Leggings of the Forgotten Vanquisher", "BIS")
-LoonBestInSlot:AddItem(spec, "30229", "Legs", "Nordrassil Feral-Kilt", "Alt")
-LoonBestInSlot:AddItem(spec, "30246", "Legs", "Leggings of the Vanquished Defender", "Alt")
-LoonBestInSlot:AddItem(spec, "30898", "Legs", "Shady Dealer's Pantaloons", "Alt")
-LoonBestInSlot:AddItem(spec, "33673", "Legs", "Vengeful Gladiator's Dragonhide Legguards", "Alt")
+LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "30879", LBIS.L["Waist"], "Alt Thrt") --Don Alejandro's Money Belt
+LBIS:AddItem(spec, "33879", LBIS.L["Waist"], "Alt") --Vindicator's Dragonhide Belt
 
-LoonBestInSlot:AddItem(spec, "32593", "Feet", "Treads of the Den Mother", "BIS Mit")
-LoonBestInSlot:AddItem(spec, "32366", "Feet", "Shadowmaster's Boots", "BIS Thrt")
-LoonBestInSlot:AddItem(spec, "33880", "Feet", "Vindicator's Dragonhide Boots", "BIS Mit")
-LoonBestInSlot:AddItem(spec, "30041", "Feet", "Boots of Natural Grace", "Alt")
-LoonBestInSlot:AddItem(spec, "33892", "Feet", "Vindicator's Leather Boots", "Alt")
+LBIS:AddItem(spec, "31044", LBIS.L["Legs"], "BIS") --Thunderheart Leggings
+LBIS:AddItem(spec, "31099", LBIS.L["Legs"], "BIS") --Leggings of the Forgotten Vanquisher
+LBIS:AddItem(spec, "30229", LBIS.L["Legs"], "Alt") --Nordrassil Feral-Kilt
+LBIS:AddItem(spec, "30246", LBIS.L["Legs"], "Alt") --Leggings of the Vanquished Defender
+LBIS:AddItem(spec, "30898", LBIS.L["Legs"], "Alt") --Shady Dealer's Pantaloons
+LBIS:AddItem(spec, "33673", LBIS.L["Legs"], "Alt") --Vengeful Gladiator's Dragonhide Legguards
 
-LoonBestInSlot:AddItem(spec, "30017", "Neck", "Telonicus's Pendant of Mayhem", "BIS")
-LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "BIS")
-LoonBestInSlot:AddItem(spec, "33923", "Neck", "Vindicator's Pendant of Triumph", "BIS Mit")
-LoonBestInSlot:AddItem(spec, "32362", "Neck", "Pendant of Titans", "BIS Mit")
+LBIS:AddItem(spec, "32593", LBIS.L["Feet"], "BIS Mit") --Treads of the Den Mother
+LBIS:AddItem(spec, "32366", LBIS.L["Feet"], "BIS Thrt") --Shadowmaster's Boots
+LBIS:AddItem(spec, "33880", LBIS.L["Feet"], "BIS Mit") --Vindicator's Dragonhide Boots
+LBIS:AddItem(spec, "30041", LBIS.L["Feet"], "Alt") --Boots of Natural Grace
+LBIS:AddItem(spec, "33892", LBIS.L["Feet"], "Alt") --Vindicator's Leather Boots
 
-LoonBestInSlot:AddItem(spec, "29279", "Ring", "Violet Signet of the Great Protector", "BIS")
-LoonBestInSlot:AddItem(spec, "32266", "Ring", "Ring of Deceitful Intent", "BIS")
-LoonBestInSlot:AddItem(spec, "29301", "Ring", "Band of the Eternal Champion", "Alt")
-LoonBestInSlot:AddItem(spec, "32497", "Ring", "Stormrage Signet Ring", "Alt Thrt")
-LoonBestInSlot:AddItem(spec, "30834", "Ring", "Shapeshifter's Signet", "Alt Thrt")
-LoonBestInSlot:AddItem(spec, "28792", "Ring", "A'dal's Signet of Defense", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "32385", "Ring", "Magtheridon's Head", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "29300", "Ring", "Band of Eternity", "Alt")
-LoonBestInSlot:AddItem(spec, "30052", "Ring", "Ring of Lethality", "Alt")
+LBIS:AddItem(spec, "30017", LBIS.L["Neck"], "BIS") --Telonicus's Pendant of Mayhem
+LBIS:AddItem(spec, "32405", LBIS.L["Neck"], "BIS") --Verdant Sphere
+LBIS:AddItem(spec, "33923", LBIS.L["Neck"], "BIS Mit") --Vindicator's Pendant of Triumph
+LBIS:AddItem(spec, "32362", LBIS.L["Neck"], "BIS Mit") --Pendant of Titans
 
-LoonBestInSlot:AddItem(spec, "32501", "Trinket", "Shadowmoon Insignia", "BIS")
-LoonBestInSlot:AddItem(spec, "34578", "Trinket", "Battlemaster's Determination", "BIS")
-LoonBestInSlot:AddItem(spec, "29383", "Trinket", "Bloodlust Brooch", "BIS Thrt")
-LoonBestInSlot:AddItem(spec, "38287", "Trinket", "Empty Mug of Direbrew", "BIS Thrt")
-LoonBestInSlot:AddItem(spec, "32505", "Trinket", "Madness of the Betrayer", "BIS Thrt")
-LoonBestInSlot:AddItem(spec, "28830", "Trinket", "Dragonspine Trophy", "BIS Thrt")
-LoonBestInSlot:AddItem(spec, "32658", "Trinket", "Badge of Tenacity", "Alt")
-LoonBestInSlot:AddItem(spec, "30627", "Trinket", "Tsunami Talisman", "Alt")
-LoonBestInSlot:AddItem(spec, "34576", "Trinket", "Battlemaster's Cruelty", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "31858", "Trinket", "Darkmoon Card: Vengeance", "Alt Mit")
+LBIS:AddItem(spec, "29279", LBIS.L["Ring"], "BIS") --Violet Signet of the Great Protector
+LBIS:AddItem(spec, "32266", LBIS.L["Ring"], "BIS") --Ring of Deceitful Intent
+LBIS:AddItem(spec, "29301", LBIS.L["Ring"], "Alt") --Band of the Eternal Champion
+LBIS:AddItem(spec, "32497", LBIS.L["Ring"], "Alt Thrt") --Stormrage Signet Ring
+LBIS:AddItem(spec, "30834", LBIS.L["Ring"], "Alt Thrt") --Shapeshifter's Signet
+LBIS:AddItem(spec, "28792", LBIS.L["Ring"], "Alt Mit") --A'dal's Signet of Defense
+LBIS:AddItem(spec, "32385", LBIS.L["Ring"], "Alt Mit") --Magtheridon's Head
+LBIS:AddItem(spec, "29300", LBIS.L["Ring"], "Alt") --Band of Eternity
+LBIS:AddItem(spec, "30052", LBIS.L["Ring"], "Alt") --Ring of Lethality
 
-LoonBestInSlot:AddItem(spec, "30883", "2H", "Pillar of Ferocity", "BIS")
-LoonBestInSlot:AddItem(spec, "33716", "2H", "Vengeful Gladiator's Staff", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "30021", "2H", "Wildfury Greatstaff", "Alt")
-LoonBestInSlot:AddItem(spec, "32014", "2H", "Merciless Gladiator's Maul", "Alt")
+LBIS:AddItem(spec, "32501", LBIS.L["Trinket"], "BIS") --Shadowmoon Insignia
+LBIS:AddItem(spec, "34578", LBIS.L["Trinket"], "BIS") --Battlemaster's Determination
+LBIS:AddItem(spec, "29383", LBIS.L["Trinket"], "BIS Thrt") --Bloodlust Brooch
+LBIS:AddItem(spec, "38287", LBIS.L["Trinket"], "BIS Thrt") --Empty Mug of Direbrew
+LBIS:AddItem(spec, "32505", LBIS.L["Trinket"], "BIS Thrt") --Madness of the Betrayer
+LBIS:AddItem(spec, "28830", LBIS.L["Trinket"], "BIS Thrt") --Dragonspine Trophy
+LBIS:AddItem(spec, "32658", LBIS.L["Trinket"], "Alt") --Badge of Tenacity
+LBIS:AddItem(spec, "30627", LBIS.L["Trinket"], "Alt") --Tsunami Talisman
+LBIS:AddItem(spec, "34576", LBIS.L["Trinket"], "Alt Mit") --Battlemaster's Cruelty
+LBIS:AddItem(spec, "31858", LBIS.L["Trinket"], "Alt Mit") --Darkmoon Card: Vengeance
+LBIS:AddItem(spec, "28579", LBIS.L["Trinket"], "Alt Thrt") --Romulo's Poison Vial
 
-LoonBestInSlot:AddItem(spec, "32387", "Idol", "Idol of the Raven Goddess", "BIS")
-LoonBestInSlot:AddItem(spec, "32257", "Idol", "Idol of the White Stag", "BIS")
-LoonBestInSlot:AddItem(spec, "23198", "Idol", "Idol of Brutality", "Alt")
-LoonBestInSlot:AddItem(spec, "28064", "Idol", "Idol of the Wild", "Alt")
+LBIS:AddItem(spec, "30883", LBIS.L["Two-Hand"], "BIS") --Pillar of Ferocity
+LBIS:AddItem(spec, "33716", LBIS.L["Two-Hand"], "Alt Mit") --Vengeful Gladiator's Staff
+LBIS:AddItem(spec, "30021", LBIS.L["Two-Hand"], "Alt") --Wildfury Greatstaff
+LBIS:AddItem(spec, "32014", LBIS.L["Two-Hand"], "Alt") --Merciless Gladiator's Maul
+
+LBIS:AddItem(spec, "32387", LBIS.L["Idol"], "BIS") --Idol of the Raven Goddess
+LBIS:AddItem(spec, "32257", LBIS.L["Idol"], "BIS") --Idol of the White Stag
+LBIS:AddItem(spec, "23198", LBIS.L["Idol"], "Alt") --Idol of Brutality
+LBIS:AddItem(spec, "28064", LBIS.L["Idol"], "Alt") --Idol of the Wild

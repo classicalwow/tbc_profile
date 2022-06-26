@@ -1,49 +1,50 @@
-local spec = LoonBestInSlot:RegisterSpec("Warrior", "Fury", "4")
-LoonBestInSlot:AddItem(spec, "32235", "Head", "Cursed Vision of Sargeras", "BIS")
+local spec = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Fury"], "4")
 
-LoonBestInSlot:AddItem(spec, "30979", "Shoulders", "Onslaught Shoulderblades", "BIS")
-LoonBestInSlot:AddItem(spec, "31103", "Shoulders", "Pauldrons of the Forgotten Protector", "BIS")
-LoonBestInSlot:AddItem(spec, "32570", "Shoulders", "Swiftsteel Shoulders", "BIS")
+LBIS:AddItem(spec, "32235", LBIS.L["Head"], "BIS") --Cursed Vision of Sargeras
 
-LoonBestInSlot:AddItem(spec, "32323", "Back", "Shadowmoon Destroyer's Drape", "BIS")
-LoonBestInSlot:AddItem(spec, "33484", "Back", "Dory's Embrace", "BIS")
-LoonBestInSlot:AddItem(spec, "33122", "Back", "Cloak of Darkness", "BIS")
+LBIS:AddItem(spec, "30979", LBIS.L["Shoulder"], "BIS") --Onslaught Shoulderblades
+LBIS:AddItem(spec, "31103", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Protector
+LBIS:AddItem(spec, "32570", LBIS.L["Shoulder"], "BIS") --Swiftsteel Shoulders
 
-LoonBestInSlot:AddItem(spec, "30975", "Chest", "Onslaught Breastplate", "BIS")
-LoonBestInSlot:AddItem(spec, "31091", "Chest", "Chestguard of the Forgotten Protector", "BIS")
+LBIS:AddItem(spec, "32323", LBIS.L["Back"], "BIS") --Shadowmoon Destroyer's Drape
+LBIS:AddItem(spec, "33484", LBIS.L["Back"], "BIS") --Dory's Embrace
+LBIS:AddItem(spec, "33122", LBIS.L["Back"], "BIS") --Cloak of Darkness
 
-LoonBestInSlot:AddItem(spec, "30863", "Bracers", "Deadly Cuffs", "BIS")
-LoonBestInSlot:AddItem(spec, "32574", "Bracers", "Bindings of Lightning Reflexes", "BIS")
-LoonBestInSlot:AddItem(spec, "33540", "Bracers", "Master Assassin Wristwraps", "Alt")
-LoonBestInSlot:AddItem(spec, "33513", "Bracers", "Eternium Rage-shackles", "Alt")
+LBIS:AddItem(spec, "30975", LBIS.L["Chest"], "BIS") --Onslaught Breastplate
+LBIS:AddItem(spec, "31091", LBIS.L["Chest"], "BIS") --Chestguard of the Forgotten Protector
 
-LoonBestInSlot:AddItem(spec, "32278", "Gloves", "Grips of Silent Justice", "BIS")
+LBIS:AddItem(spec, "30863", LBIS.L["Wrist"], "BIS") --Deadly Cuffs
+LBIS:AddItem(spec, "32574", LBIS.L["Wrist"], "BIS") --Bindings of Lightning Reflexes
+LBIS:AddItem(spec, "33540", LBIS.L["Wrist"], "Alt") --Master Assassin Wristwraps
+LBIS:AddItem(spec, "33513", LBIS.L["Wrist"], "Alt") --Eternium Rage-shackles
 
-LoonBestInSlot:AddItem(spec, "30106", "Belt", "Belt of One-Hundred Deaths", "BIS")
-LoonBestInSlot:AddItem(spec, "33211", "Belt", "Bladeangel's Money Belt", "Alt")
-LoonBestInSlot:AddItem(spec, "33331", "Belt", "Chain of Unleashed Rage", "Alt")
+LBIS:AddItem(spec, "32278", LBIS.L["Hands"], "BIS") --Grips of Silent Justice
 
-LoonBestInSlot:AddItem(spec, "32341", "Legs", "Leggings of Divine Retribution", "BIS")
+LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "33211", LBIS.L["Waist"], "Alt") --Bladeangel's Money Belt
+LBIS:AddItem(spec, "33331", LBIS.L["Waist"], "Alt") --Chain of Unleashed Rage
 
-LoonBestInSlot:AddItem(spec, "32345", "Feet", "Dreadboots of the Legion", "BIS")
+LBIS:AddItem(spec, "32341", LBIS.L["Legs"], "BIS") --Leggings of Divine Retribution
 
-LoonBestInSlot:AddItem(spec, "32260", "Neck", "Choker of Endless Nightmares", "BIS")
-LoonBestInSlot:AddItem(spec, "32591", "Neck", "Choker of Serrated Blades", "BIS")
+LBIS:AddItem(spec, "32345", LBIS.L["Feet"], "BIS") --Dreadboots of the Legion
 
-LoonBestInSlot:AddItem(spec, "32497", "Ring", "Stormrage Signet Ring", "BIS")
-LoonBestInSlot:AddItem(spec, "33496", "Ring", "Signet of Primal Wrath", "BIS")
-LoonBestInSlot:AddItem(spec, "32335", "Ring", "Unstoppable Aggressor's Ring", "BIS")
+LBIS:AddItem(spec, "32260", LBIS.L["Neck"], "BIS") --Choker of Endless Nightmares
+LBIS:AddItem(spec, "32591", LBIS.L["Neck"], "BIS") --Choker of Serrated Blades
 
-LoonBestInSlot:AddItem(spec, "28830", "Trinket", "Dragonspine Trophy", "BIS")
-LoonBestInSlot:AddItem(spec, "33831", "Trinket", "Berserker's Call", "BIS")
-LoonBestInSlot:AddItem(spec, "32505", "Trinket", "Madness of the Betrayer", "BIS")
-LoonBestInSlot:AddItem(spec, "30627", "Trinket", "Tsunami Talisman", "BIS")
+LBIS:AddItem(spec, "32497", LBIS.L["Ring"], "BIS") --Stormrage Signet Ring
+LBIS:AddItem(spec, "33496", LBIS.L["Ring"], "BIS") --Signet of Primal Wrath
+LBIS:AddItem(spec, "32335", LBIS.L["Ring"], "BIS") --Unstoppable Aggressor's Ring
 
-LoonBestInSlot:AddItem(spec, "32837", "MH", "Warglaive of Azzinoth", "BIS")
+LBIS:AddItem(spec, "28830", LBIS.L["Trinket"], "BIS") --Dragonspine Trophy
+LBIS:AddItem(spec, "33831", LBIS.L["Trinket"], "BIS") --Berserker's Call
+LBIS:AddItem(spec, "32505", LBIS.L["Trinket"], "BIS") --Madness of the Betrayer
+LBIS:AddItem(spec, "30627", LBIS.L["Trinket"], "BIS") --Tsunami Talisman
 
-LoonBestInSlot:AddItem(spec, "32838", "OH", "Warglaive of Azzinoth", "BIS")
+LBIS:AddItem(spec, "32837", LBIS.L["Main Hand"], "BIS") --Warglaive of Azzinoth
 
-LoonBestInSlot:AddItem(spec, "33474", "Ranged", "Ancient Amani Longbow", "BIS")
-LoonBestInSlot:AddItem(spec, "32326", "Ranged", "Twisted Blades of Zarak", "BIS")
-LoonBestInSlot:AddItem(spec, "30105", "Ranged", "Serpent Spine Longbow", "BIS")
-LoonBestInSlot:AddItem(spec, "30724", "Ranged", "Barrel-Blade Longrifle", "BIS")
+LBIS:AddItem(spec, "32838", LBIS.L["Off Hand"], "BIS") --Warglaive of Azzinoth
+
+LBIS:AddItem(spec, "33474", LBIS.L["Ranged"], "BIS") --Ancient Amani Longbow
+LBIS:AddItem(spec, "32326", LBIS.L["Ranged"], "BIS") --Twisted Blades of Zarak
+LBIS:AddItem(spec, "30105", LBIS.L["Ranged"], "BIS") --Serpent Spine Longbow
+LBIS:AddItem(spec, "30724", LBIS.L["Ranged"], "BIS") --Barrel-Blade Longrifle

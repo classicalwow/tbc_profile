@@ -1,64 +1,65 @@
-local spec = LoonBestInSlot:RegisterSpec("Shaman", "Elemental", "4")
-LoonBestInSlot:AddItem(spec, "31014", "Head", "Skyshatter Headguard", "BIS")
-LoonBestInSlot:AddItem(spec, "31095", "Head", "Helm of the Forgotten Protector", "BIS")
+local spec = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental"], "4")
 
-LoonBestInSlot:AddItem(spec, "31023", "Shoulders", "Skyshatter Mantle", "BIS")
-LoonBestInSlot:AddItem(spec, "31103", "Shoulders", "Pauldrons of the Forgotten Protector", "BIS")
-LoonBestInSlot:AddItem(spec, "33970", "Shoulders", "Pauldrons of the Furious Elements", "Alt")
-LoonBestInSlot:AddItem(spec, "32587", "Shoulders", "Mantle of Nimble Thought", "Alt")
+LBIS:AddItem(spec, "31014", LBIS.L["Head"], "BIS") --Skyshatter Headguard
+LBIS:AddItem(spec, "31095", LBIS.L["Head"], "BIS") --Helm of the Forgotten Protector
 
-LoonBestInSlot:AddItem(spec, "32331", "Back", "Cloak of the Illidari Council", "BIS")
-LoonBestInSlot:AddItem(spec, "33591", "Back", "Shadowcaster's Drape", "Alt")
-LoonBestInSlot:AddItem(spec, "35321", "Back", "Cloak of Arcane Alacrity", "Alt")
+LBIS:AddItem(spec, "31023", LBIS.L["Shoulder"], "BIS") --Skyshatter Mantle
+LBIS:AddItem(spec, "31103", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Forgotten Protector
+LBIS:AddItem(spec, "33970", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Furious Elements
+LBIS:AddItem(spec, "32587", LBIS.L["Shoulder"], "Alt") --Mantle of Nimble Thought
 
-LoonBestInSlot:AddItem(spec, "31017", "Chest", "Skyshatter Breastplate", "BIS")
-LoonBestInSlot:AddItem(spec, "31091", "Chest", "Chestguard of the Forgotten Protector", "BIS")
-LoonBestInSlot:AddItem(spec, "33965", "Chest", "Hauberk of the Furious Elements", "Alt")
+LBIS:AddItem(spec, "32331", LBIS.L["Back"], "BIS") --Cloak of the Illidari Council
+LBIS:AddItem(spec, "33591", LBIS.L["Back"], "Alt") --Shadowcaster's Drape
+LBIS:AddItem(spec, "35321", LBIS.L["Back"], "Alt") --Cloak of Arcane Alacrity
 
-LoonBestInSlot:AddItem(spec, "32586", "Bracers", "Bracers of Nimble Thought", "BIS")
+LBIS:AddItem(spec, "31017", LBIS.L["Chest"], "BIS") --Skyshatter Breastplate
+LBIS:AddItem(spec, "31091", LBIS.L["Chest"], "BIS") --Chestguard of the Forgotten Protector
+LBIS:AddItem(spec, "33965", LBIS.L["Chest"], "Alt") --Hauberk of the Furious Elements
 
-LoonBestInSlot:AddItem(spec, "31008", "Gloves", "Skyshatter Gauntlets", "BIS")
-LoonBestInSlot:AddItem(spec, "31094", "Gloves", "Gloves of the Forgotten Protector", "BIS")
-LoonBestInSlot:AddItem(spec, "33586", "Gloves", "Studious Wraps", "Alt")
+LBIS:AddItem(spec, "32586", LBIS.L["Wrist"], "BIS") --Bracers of Nimble Thought
 
-LoonBestInSlot:AddItem(spec, "32276", "Belt", "Flashfire Girdle", "BIS")
-LoonBestInSlot:AddItem(spec, "30914", "Belt", "Belt of the Crescent Moon", "Alt")
-LoonBestInSlot:AddItem(spec, "33559", "Belt", "Starfire Waistband", "Alt")
+LBIS:AddItem(spec, "31008", LBIS.L["Hands"], "BIS") --Skyshatter Gauntlets
+LBIS:AddItem(spec, "31094", LBIS.L["Hands"], "BIS") --Gloves of the Forgotten Protector
+LBIS:AddItem(spec, "33586", LBIS.L["Hands"], "Alt") --Studious Wraps
 
-LoonBestInSlot:AddItem(spec, "30916", "Legs", "Leggings of Channeled Elements", "BIS")
-LoonBestInSlot:AddItem(spec, "33584", "Legs", "Pantaloons of Arcane Annihilation", "BIS")
-LoonBestInSlot:AddItem(spec, "31020", "Legs", "Skyshatter Legguards", "BIS")
-LoonBestInSlot:AddItem(spec, "31100", "Legs", "Leggings of the Forgotten Protector", "BIS")
-LoonBestInSlot:AddItem(spec, "33533", "Legs", "Avalanche Leggings", "Alt")
+LBIS:AddItem(spec, "32276", LBIS.L["Waist"], "BIS") --Flashfire Girdle
+LBIS:AddItem(spec, "30914", LBIS.L["Waist"], "Alt") --Belt of the Crescent Moon
+LBIS:AddItem(spec, "33559", LBIS.L["Waist"], "Alt") --Starfire Waistband
 
-LoonBestInSlot:AddItem(spec, "32239", "Feet", "Slippers of the Seacaller", "BIS")
-LoonBestInSlot:AddItem(spec, "32352", "Feet", "Naturewarden's Treads", "BIS")
-LoonBestInSlot:AddItem(spec, "33357", "Feet", "Footpads of Madness", "BIS")
-LoonBestInSlot:AddItem(spec, "32242", "Feet", "Boots of Oceanic Fury", "Alt")
-LoonBestInSlot:AddItem(spec, "33537", "Feet", "Treads of Booming Thunder", "Alt")
+LBIS:AddItem(spec, "30916", LBIS.L["Legs"], "BIS") --Leggings of Channeled Elements
+LBIS:AddItem(spec, "33584", LBIS.L["Legs"], "BIS") --Pantaloons of Arcane Annihilation
+LBIS:AddItem(spec, "31020", LBIS.L["Legs"], "BIS") --Skyshatter Legguards
+LBIS:AddItem(spec, "31100", LBIS.L["Legs"], "BIS") --Leggings of the Forgotten Protector
+LBIS:AddItem(spec, "33533", LBIS.L["Legs"], "Alt") --Avalanche Leggings
 
-LoonBestInSlot:AddItem(spec, "33281", "Neck", "Brooch of Nature's Mercy", "BIS")
-LoonBestInSlot:AddItem(spec, "33466", "Neck", "Loop of Cursed Bones", "BIS")
-LoonBestInSlot:AddItem(spec, "30015", "Neck", "The Sun King's Talisman", "Alt")
-LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "Alt")
+LBIS:AddItem(spec, "32239", LBIS.L["Feet"], "BIS") --Slippers of the Seacaller
+LBIS:AddItem(spec, "32352", LBIS.L["Feet"], "BIS") --Naturewarden's Treads
+LBIS:AddItem(spec, "33357", LBIS.L["Feet"], "BIS") --Footpads of Madness
+LBIS:AddItem(spec, "32242", LBIS.L["Feet"], "Alt") --Boots of Oceanic Fury
+LBIS:AddItem(spec, "33537", LBIS.L["Feet"], "Alt") --Treads of Booming Thunder
 
-LoonBestInSlot:AddItem(spec, "32527", "Ring", "Ring of Ancient Knowledge", "BIS")
-LoonBestInSlot:AddItem(spec, "29305", "Ring", "Band of the Eternal Sage", "BIS")
-LoonBestInSlot:AddItem(spec, "33497", "Ring", "Mana Attuned Band", "Alt")
+LBIS:AddItem(spec, "33281", LBIS.L["Neck"], "BIS") --Brooch of Nature's Mercy
+LBIS:AddItem(spec, "33466", LBIS.L["Neck"], "BIS") --Loop of Cursed Bones
+LBIS:AddItem(spec, "30015", LBIS.L["Neck"], "Alt") --The Sun King's Talisman
+LBIS:AddItem(spec, "32405", LBIS.L["Neck"], "Alt") --Verdant Sphere
 
-LoonBestInSlot:AddItem(spec, "32483", "Trinket", "The Skull of Gul'dan", "BIS")
-LoonBestInSlot:AddItem(spec, "28785", "Trinket", "The Lightning Capacitor", "BIS")
-LoonBestInSlot:AddItem(spec, "33829", "Trinket", "Hex Shrunken Head", "BIS")
-LoonBestInSlot:AddItem(spec, "29370", "Trinket", "Icon of the Silver Crescent", "Alt")
-LoonBestInSlot:AddItem(spec, "38290", "Trinket", "Dark Iron Smoking Pipe", "Alt")
+LBIS:AddItem(spec, "32527", LBIS.L["Ring"], "BIS") --Ring of Ancient Knowledge
+LBIS:AddItem(spec, "29305", LBIS.L["Ring"], "BIS") --Band of the Eternal Sage
+LBIS:AddItem(spec, "33497", LBIS.L["Ring"], "Alt") --Mana Attuned Band
 
-LoonBestInSlot:AddItem(spec, "32374", "MH", "Zhar'doom, Greatstaff of the Devourer", "BIS")
-LoonBestInSlot:AddItem(spec, "33354", "MH", "Wub's Cursed Hexblade", "Alt")
-LoonBestInSlot:AddItem(spec, "33494", "MH", "Amani Divining Staff", "Alt")
+LBIS:AddItem(spec, "32483", LBIS.L["Trinket"], "BIS") --The Skull of Gul'dan
+LBIS:AddItem(spec, "28785", LBIS.L["Trinket"], "BIS") --The Lightning Capacitor
+LBIS:AddItem(spec, "33829", LBIS.L["Trinket"], "BIS") --Hex Shrunken Head
+LBIS:AddItem(spec, "29370", LBIS.L["Trinket"], "Alt") --Icon of the Silver Crescent
+LBIS:AddItem(spec, "38290", LBIS.L["Trinket"], "Alt") --Dark Iron Smoking Pipe
 
-LoonBestInSlot:AddItem(spec, "30909", "OH", "Antonidas's Aegis of Rapt Concentration", "BIS")
-LoonBestInSlot:AddItem(spec, "33334", "OH", "Fetish of the Primal Gods", "BIS")
-LoonBestInSlot:AddItem(spec, "30872", "OH", "Chronicle of Dark Secrets", "Alt")
+LBIS:AddItem(spec, "32374", LBIS.L["Main Hand"], "BIS") --Zhar'doom, Greatstaff of the Devourer
+LBIS:AddItem(spec, "33354", LBIS.L["Main Hand"], "Alt") --Wub's Cursed Hexblade
+LBIS:AddItem(spec, "33494", LBIS.L["Main Hand"], "Alt") --Amani Divining Staff
 
-LoonBestInSlot:AddItem(spec, "32330", "Totem", "Totem of Ancestral Guidance", "BIS")
-LoonBestInSlot:AddItem(spec, "33506", "Totem", "Skycall Totem", "BIS")
+LBIS:AddItem(spec, "30909", LBIS.L["Off Hand"], "BIS") --Antonidas's Aegis of Rapt Concentration
+LBIS:AddItem(spec, "33334", LBIS.L["Off Hand"], "BIS") --Fetish of the Primal Gods
+LBIS:AddItem(spec, "30872", LBIS.L["Off Hand"], "Alt") --Chronicle of Dark Secrets
+
+LBIS:AddItem(spec, "32330", LBIS.L["Totem"], "BIS") --Totem of Ancestral Guidance
+LBIS:AddItem(spec, "33506", LBIS.L["Totem"], "BIS") --Skycall Totem

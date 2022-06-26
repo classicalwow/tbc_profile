@@ -2,7 +2,7 @@
 ## Title: Loon BestInSlot
 ## Notes: 
 ## OptionalDeps: LibExtraTip
-## SavedVariablesPerCharacter: LoonBestInSlotSettings
+## SavedVariablesPerCharacter: LBISSettings
 ## Version: 3.1.0
 
 libs\LibStub.lua
@@ -11,6 +11,8 @@ libs\LibDataBroker-1.1.lua
 libs\LibDBIcon-1.0.lua
 
 libs\LibExtraTip\Load.xml
+
+Localization\Localization.xml
 
 LoonBestInSlot.lua
 Common.lua

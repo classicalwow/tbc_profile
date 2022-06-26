@@ -1,82 +1,81 @@
-local spec = LoonBestInSlot:RegisterSpec("Warrior", "Prot", "2")
-LoonBestInSlot:AddItem(spec, "32473", "Head", "Tankatronic Goggles", "BIS Mit")
-LoonBestInSlot:AddItem(spec, "30488", "Head", "Merciless Gladiator's Plate Helm", "BIS Thrt")
-LoonBestInSlot:AddItem(spec, "30115", "Head", "Destroyer Greathelm", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "30243", "Head", "Helm of the Vanquished Defender", "Alt")
-LoonBestInSlot:AddItem(spec, "30120", "Head", "Destroyer Battle-Helm", "Alt Thrt")
+local spec = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "2")
 
-LoonBestInSlot:AddItem(spec, "30117", "Shoulders", "Destroyer Shoulderguards", "BIS")
-LoonBestInSlot:AddItem(spec, "30249", "Shoulders", "Pauldrons of the Vanquished Defender", "BIS")
-LoonBestInSlot:AddItem(spec, "30122", "Shoulders", "Destroyer Shoulderblades", "BIS Thrt")
-LoonBestInSlot:AddItem(spec, "30490", "Shoulders", "Merciless Gladiator's Plate Shoulders", "Alt Thrt")
+LBIS:AddItem(spec, "32473", LBIS.L["Head"], "BIS Mit") --Tankatronic Goggles
+LBIS:AddItem(spec, "30488", LBIS.L["Head"], "BIS Thrt") --Merciless Gladiator's Plate Helm
+LBIS:AddItem(spec, "30115", LBIS.L["Head"], "Alt Mit") --Destroyer Greathelm
+LBIS:AddItem(spec, "30243", LBIS.L["Head"], "Alt Mit") --Helm of the Vanquished Defender
+LBIS:AddItem(spec, "30120", LBIS.L["Head"], "Alt Thrt") --Destroyer Battle-Helm
 
-LoonBestInSlot:AddItem(spec, "28529", "Back", "Royal Cloak of Arathi Kings", "BIS")
-LoonBestInSlot:AddItem(spec, "28672", "Back", "Drape of the Dark Reavers", "Alt")
-LoonBestInSlot:AddItem(spec, "30098", "Back", "Razor-Scale Battlecloak", "Alt")
-LoonBestInSlot:AddItem(spec, "28777", "Back", "Cloak of the Pit Stalker", "Alt")
-LoonBestInSlot:AddItem(spec, "29925", "Back", "Phoenix-Wing Cloak", "BIS Mit")
+LBIS:AddItem(spec, "30117", LBIS.L["Shoulder"], "BIS") --Destroyer Shoulderguards
+LBIS:AddItem(spec, "30249", LBIS.L["Shoulder"], "BIS") --Pauldrons of the Vanquished Defender
+LBIS:AddItem(spec, "30122", LBIS.L["Shoulder"], "BIS Thrt") --Destroyer Shoulderblades
+LBIS:AddItem(spec, "30490", LBIS.L["Shoulder"], "Alt Thrt") --Merciless Gladiator's Plate Shoulders
 
-LoonBestInSlot:AddItem(spec, "30113", "Chest", "Destroyer Chestguard", "BIS")
-LoonBestInSlot:AddItem(spec, "30237", "Chest", "Chestguard of the Vanquished Defender", "BIS")
-LoonBestInSlot:AddItem(spec, "28485", "Chest", "Bulwark of the Ancient Kings", "BIS Thrt")
-LoonBestInSlot:AddItem(spec, "30486", "Chest", "Merciless Gladiator's Plate Chestpiece", "Alt Thrt")
+LBIS:AddItem(spec, "28529", LBIS.L["Back"], "BIS") --Royal Cloak of Arathi Kings
+LBIS:AddItem(spec, "28672", LBIS.L["Back"], "Alt") --Drape of the Dark Reavers
+LBIS:AddItem(spec, "29994", LBIS.L["Back"], "Alt") --Thalassian Wildercloak
+LBIS:AddItem(spec, "30098", LBIS.L["Back"], "Alt") --Razor-Scale Battlecloak
+LBIS:AddItem(spec, "28777", LBIS.L["Back"], "Alt") --Cloak of the Pit Stalker
+LBIS:AddItem(spec, "29925", LBIS.L["Back"], "BIS Mit") --Phoenix-Wing Cloak
 
-LoonBestInSlot:AddItem(spec, "32818", "Bracers", "Veteran's Plate Bracers", "BIS")
-LoonBestInSlot:AddItem(spec, "28996", "Bracers", "Marshal's Plate Bracers", "Alt")
-LoonBestInSlot:AddItem(spec, "30057", "Bracers", "Bracers of Eradication", "Alt")
-LoonBestInSlot:AddItem(spec, "28502", "Bracers", "Vambraces of Courage", "Alt")
-LoonBestInSlot:AddItem(spec, "28795", "Bracers", "Bladespire Warbands", "Alt")
+LBIS:AddItem(spec, "30113", LBIS.L["Chest"], "BIS") --Destroyer Chestguard
+LBIS:AddItem(spec, "30237", LBIS.L["Chest"], "BIS") --Chestguard of the Vanquished Defender
+LBIS:AddItem(spec, "28485", LBIS.L["Chest"], "BIS Thrt") --Bulwark of the Ancient Kings
+LBIS:AddItem(spec, "30486", LBIS.L["Chest"], "Alt Thrt") --Merciless Gladiator's Plate Chestpiece
 
-LoonBestInSlot:AddItem(spec, "30114", "Gloves", "Destroyer Handguards", "BIS")
-LoonBestInSlot:AddItem(spec, "30240", "Gloves", "Gloves of the Vanquished Defender", "BIS")
-LoonBestInSlot:AddItem(spec, "29998", "Gloves", "Royal Gauntlets of Silvermoon", "BIS Mit")
-LoonBestInSlot:AddItem(spec, "29947", "Gloves", "Gloves of the Searing Grip", "BIS Thrt")
-LoonBestInSlot:AddItem(spec, "30644", "Gloves", "Grips of Deftness", "Alt Thrt")
+LBIS:AddItem(spec, "32818", LBIS.L["Wrist"], "BIS") --Veteran's Plate Bracers
+LBIS:AddItem(spec, "28996", LBIS.L["Wrist"], "Alt") --Marshal's Plate Bracers
+LBIS:AddItem(spec, "28502", LBIS.L["Wrist"], "Alt") --Vambraces of Courage
+LBIS:AddItem(spec, "28795", LBIS.L["Wrist"], "Alt") --Bladespire Warbands
 
-LoonBestInSlot:AddItem(spec, "30106", "Belt", "Belt of One-Hundred Deaths", "BIS Thrt")
-LoonBestInSlot:AddItem(spec, "30096", "Belt", "Girdle of the Invulnerable", "BIS Mit")
-LoonBestInSlot:AddItem(spec, "32805", "Belt", "Veteran's Plate Belt", "Alt Thrt")
-LoonBestInSlot:AddItem(spec, "30032", "Belt", "Red Belt of Battle", "Alt")
+LBIS:AddItem(spec, "30114", LBIS.L["Hands"], "BIS") --Destroyer Handguards
+LBIS:AddItem(spec, "30240", LBIS.L["Hands"], "BIS") --Gloves of the Vanquished Defender
+LBIS:AddItem(spec, "29998", LBIS.L["Hands"], "BIS Mit") --Royal Gauntlets of Silvermoon
+LBIS:AddItem(spec, "29947", LBIS.L["Hands"], "BIS Thrt") --Gloves of the Searing Grip
+LBIS:AddItem(spec, "30644", LBIS.L["Hands"], "Alt Thrt") --Grips of Deftness
 
-LoonBestInSlot:AddItem(spec, "30116", "Legs", "Destroyer Legguards", "BIS")
-LoonBestInSlot:AddItem(spec, "30246", "Legs", "Leggings of the Vanquished Defender", "BIS")
-LoonBestInSlot:AddItem(spec, "29950", "Legs", "Greaves of the Bloodwarder", "BIS Thrt")
-LoonBestInSlot:AddItem(spec, "30489", "Legs", "Merciless Gladiator's Plate Legguards", "Alt")
-LoonBestInSlot:AddItem(spec, "30121", "Legs", "Destroyer Greaves", "Alt Thrt")
+LBIS:AddItem(spec, "30106", LBIS.L["Waist"], "BIS Thrt") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec, "30096", LBIS.L["Waist"], "BIS Mit") --Girdle of the Invulnerable
+LBIS:AddItem(spec, "32805", LBIS.L["Waist"], "Alt Thrt") --Veteran's Plate Belt
+LBIS:AddItem(spec, "30032", LBIS.L["Waist"], "Alt") --Red Belt of Battle
 
-LoonBestInSlot:AddItem(spec, "32793", "Feet", "Veteran's Plate Greaves", "BIS")
-LoonBestInSlot:AddItem(spec, "32267", "Feet", "Boots of the Resilient", "BIS Mit")
-LoonBestInSlot:AddItem(spec, "28608", "Feet", "Ironstriders of Urgency", "Alt")
+LBIS:AddItem(spec, "30116", LBIS.L["Legs"], "BIS") --Destroyer Legguards
+LBIS:AddItem(spec, "30246", LBIS.L["Legs"], "BIS") --Leggings of the Vanquished Defender
+LBIS:AddItem(spec, "29950", LBIS.L["Legs"], "BIS Thrt") --Greaves of the Bloodwarder
+LBIS:AddItem(spec, "30489", LBIS.L["Legs"], "Alt") --Merciless Gladiator's Plate Legguards
+LBIS:AddItem(spec, "30121", LBIS.L["Legs"], "Alt Thrt") --Destroyer Greaves
 
-LoonBestInSlot:AddItem(spec, "30099", "Neck", "Frayed Tether of the Drowned", "BIS")
-LoonBestInSlot:AddItem(spec, "33066", "Neck", "Veteran's Pendant of Triumph", "Alt")
-LoonBestInSlot:AddItem(spec, "28674", "Neck", "Saberclaw Talisman", "Alt")
+LBIS:AddItem(spec, "32793", LBIS.L["Feet"], "BIS") --Veteran's Plate Greaves
+LBIS:AddItem(spec, "32267", LBIS.L["Feet"], "BIS Mit") --Boots of the Resilient
+LBIS:AddItem(spec, "28608", LBIS.L["Feet"], "Alt") --Ironstriders of Urgency
 
-LoonBestInSlot:AddItem(spec, "29294", "Ring", "Band of Eternity", "BIS Mit")
-LoonBestInSlot:AddItem(spec, "30834", "Ring", "Shapeshifter's Signet", "BIS Thrt")
-LoonBestInSlot:AddItem(spec, "29279", "Ring", "Violet Signet of the Great Protector", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "29298", "Ring", "Band of Eternity", "Alt")
-LoonBestInSlot:AddItem(spec, "30061", "Ring", "Ancestral Ring of Conquest", "Alt")
-LoonBestInSlot:AddItem(spec, "30083", "Ring", "Ring of Sundered Souls", "Alt Mit")
+LBIS:AddItem(spec, "30099", LBIS.L["Neck"], "BIS") --Frayed Tether of the Drowned
+LBIS:AddItem(spec, "33066", LBIS.L["Neck"], "Alt") --Veteran's Pendant of Triumph
+LBIS:AddItem(spec, "28674", LBIS.L["Neck"], "Alt") --Saberclaw Talisman
 
-LoonBestInSlot:AddItem(spec, "23836", "Trinket", "Goblin Rocket Launcher", "BIS Stam")
-LoonBestInSlot:AddItem(spec, "23835", "Trinket", "Gnomish Poultryizer", "BIS Stam")
-LoonBestInSlot:AddItem(spec, "30620", "Trinket", "Spyglass of the Hidden Fleet", "Alt Stam")
-LoonBestInSlot:AddItem(spec, "28121", "Trinket", "Icon of Unyielding Courage", "Alt Thrt")
+LBIS:AddItem(spec, "29294", LBIS.L["Ring"], "BIS Mit") --Band of Eternity
+LBIS:AddItem(spec, "30834", LBIS.L["Ring"], "BIS Thrt") --Shapeshifter's Signet
+LBIS:AddItem(spec, "29279", LBIS.L["Ring"], "Alt Mit") --Violet Signet of the Great Protector
+LBIS:AddItem(spec, "29298", LBIS.L["Ring"], "Alt") --Band of Eternity
+LBIS:AddItem(spec, "30061", LBIS.L["Ring"], "Alt") --Ancestral Ring of Conquest
 
-LoonBestInSlot:AddItem(spec, "30058", "MH", "Mallet of the Tides", "BIS")
-LoonBestInSlot:AddItem(spec, "30103", "MH", "Fang of Vashj", "Alt")
-LoonBestInSlot:AddItem(spec, "28427", "MH", "Blazefury", "Alt")
-LoonBestInSlot:AddItem(spec, "29165", "MH", "Warbringer", "Alt")
-LoonBestInSlot:AddItem(spec, "28749", "MH", "King's Defender", "Alt")
-LoonBestInSlot:AddItem(spec, "29362", "MH", "The Sun Eater", "BIS Mit")
+LBIS:AddItem(spec, "23836", LBIS.L["Trinket"], "BIS Stam") --Goblin Rocket Launcher
+LBIS:AddItem(spec, "23835", LBIS.L["Trinket"], "BIS Stam") --Gnomish Poultryizer
+LBIS:AddItem(spec, "30620", LBIS.L["Trinket"], "Alt Stam") --Spyglass of the Hidden Fleet
+LBIS:AddItem(spec, "28121", LBIS.L["Trinket"], "Alt Thrt") --Icon of Unyielding Courage
 
-LoonBestInSlot:AddItem(spec, "28825", "Shield", "Aldori Legacy Defender", "BIS")
-LoonBestInSlot:AddItem(spec, "32045", "Shield", "Merciless Gladiator's Shield Wall", "Alt")
+LBIS:AddItem(spec, "30058", LBIS.L["Main Hand"], "BIS") --Mallet of the Tides
+LBIS:AddItem(spec, "30103", LBIS.L["Main Hand"], "Alt") --Fang of Vashj
+LBIS:AddItem(spec, "28427", LBIS.L["Main Hand"], "Alt") --Blazefury
+LBIS:AddItem(spec, "29165", LBIS.L["Main Hand"], "Alt") --Warbringer
+LBIS:AddItem(spec, "28749", LBIS.L["Main Hand"], "Alt") --King's Defender
+LBIS:AddItem(spec, "29362", LBIS.L["Main Hand"], "BIS Mit") --The Sun Eater
 
-LoonBestInSlot:AddItem(spec, "32756", "Ranged", "Gyro-Balanced Khorium Destroyer", "BIS Mit")
-LoonBestInSlot:AddItem(spec, "29949", "Ranged", "Arcanite Steam-Pistol", "BIS Thrt")
-LoonBestInSlot:AddItem(spec, "30724", "Ranged", "Barrel-Blade Longrifle", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "32054", "Ranged", "Merciless Gladiator's War Edge", "Alt")
-LoonBestInSlot:AddItem(spec, "30025", "Ranged", "Serpentshrine Shuriken", "Alt")
-LoonBestInSlot:AddItem(spec, "32645", "Ranged", "Crystalline Crossbow", "Alt")
+LBIS:AddItem(spec, "28825", LBIS.L["Shield"], "BIS") --Aldori Legacy Defender
+LBIS:AddItem(spec, "32045", LBIS.L["Shield"], "Alt") --Merciless Gladiator's Shield Wall
+
+LBIS:AddItem(spec, "32756", LBIS.L["Ranged"], "BIS Mit") --Gyro-Balanced Khorium Destroyer
+LBIS:AddItem(spec, "30724", LBIS.L["Ranged"], "Alt Mit") --Barrel-Blade Longrifle
+LBIS:AddItem(spec, "32054", LBIS.L["Ranged"], "Alt") --Merciless Gladiator's War Edge
+LBIS:AddItem(spec, "30025", LBIS.L["Ranged"], "Alt") --Serpentshrine Shuriken
+LBIS:AddItem(spec, "32645", LBIS.L["Ranged"], "Alt") --Crystalline Crossbow

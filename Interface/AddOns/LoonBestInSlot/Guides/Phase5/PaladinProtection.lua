@@ -1,86 +1,86 @@
-local spec = LoonBestInSlot:RegisterSpec("Paladin", "Prot", "5")
-LoonBestInSlot:AddItem(spec, "34401", "Head", "Helm of Uther's Resolve", "BIS")
-LoonBestInSlot:AddItem(spec, "34243", "Head", "Helm of Burning Righteousness", "Transmute BIS")
-LoonBestInSlot:AddItem(spec, "34400", "Head", "Crown of Dath'Remar", "BIS Mit")
-LoonBestInSlot:AddItem(spec, "34345", "Head", "Crown of Anasterian", "Transmute BIS Mit")
-LoonBestInSlot:AddItem(spec, "32521", "Head", "Faceplate of the Impenetrable", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "30987", "Head", "Lightbringer Faceguard", "Alt")
-LoonBestInSlot:AddItem(spec, "31097", "Head", "Helm of the Forgotten Conqueror", "Alt")
-LoonBestInSlot:AddItem(spec, "34357", "Head", "Hard Khorium Goggles", "Alt")
+local spec = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "5")
 
-LoonBestInSlot:AddItem(spec, "34389", "Shoulders", "Spaulders of the Thalassian Defender", "BIS")
-LoonBestInSlot:AddItem(spec, "34193", "Shoulders", "Spaulders of the Thalassian Savior", "Transmute BIS")
-LoonBestInSlot:AddItem(spec, "34192", "Shoulders", "Pauldrons of Perseverance", "Mit")
-LoonBestInSlot:AddItem(spec, "30998", "Shoulders", "Lightbringer Shoulderguards", "Alt")
-LoonBestInSlot:AddItem(spec, "31101", "Shoulders", "Pauldrons of the Forgotten Conqueror", "Alt")
+LBIS:AddItem(spec, "34401", LBIS.L["Head"], "BIS") --Helm of Uther's Resolve
+LBIS:AddItem(spec, "34243", LBIS.L["Head"], "Transmute BIS") --Helm of Burning Righteousness
+LBIS:AddItem(spec, "34400", LBIS.L["Head"], "BIS Mit") --Crown of Dath'Remar
+LBIS:AddItem(spec, "34345", LBIS.L["Head"], "Transmute BIS Mit") --Crown of Anasterian
+LBIS:AddItem(spec, "32521", LBIS.L["Head"], "Alt Mit") --Faceplate of the Impenetrable
+LBIS:AddItem(spec, "30987", LBIS.L["Head"], "Alt") --Lightbringer Faceguard
+LBIS:AddItem(spec, "31097", LBIS.L["Head"], "Alt") --Helm of the Forgotten Conqueror
+LBIS:AddItem(spec, "34357", LBIS.L["Head"], "Alt") --Hard Khorium Goggles
 
-LoonBestInSlot:AddItem(spec, "34190", "Back", "Crimson Paragon's Cover", "BIS Mit")
-LoonBestInSlot:AddItem(spec, "33593", "Back", "Slikk's Cloak of Placation", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "34242", "Back", "Tattered Cape of Antonidas", "Alt Thrt")
+LBIS:AddItem(spec, "34389", LBIS.L["Shoulder"], "BIS") --Spaulders of the Thalassian Defender
+LBIS:AddItem(spec, "34193", LBIS.L["Shoulder"], "Transmute BIS") --Spaulders of the Thalassian Savior
+LBIS:AddItem(spec, "34192", LBIS.L["Shoulder"], "Alt Mit") --Pauldrons of Perseverance
+LBIS:AddItem(spec, "30998", LBIS.L["Shoulder"], "Alt") --Lightbringer Shoulderguards
+LBIS:AddItem(spec, "31101", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Forgotten Conqueror
 
-LoonBestInSlot:AddItem(spec, "34216", "Chest", "Heroic Judicator's Chestguard", "BIS")
-LoonBestInSlot:AddItem(spec, "30991", "Chest", "Lightbringer Chestguard", "Alt")
-LoonBestInSlot:AddItem(spec, "31089", "Chest", "Chestguard of the Forgotten Conqueror", "Alt")
-LoonBestInSlot:AddItem(spec, "34945", "Chest", "Shattrath Protectorate's Breastplate", "BIS Thrt")
-LoonBestInSlot:AddItem(spec, "34939", "Chest", "Chestplate of Stoicism", "Alt Mit")
+LBIS:AddItem(spec, "34190", LBIS.L["Back"], "BIS Mit") --Crimson Paragon's Cover
+LBIS:AddItem(spec, "33593", LBIS.L["Back"], "Alt Mit") --Slikk's Cloak of Placation
+LBIS:AddItem(spec, "34242", LBIS.L["Back"], "Alt Thrt") --Tattered Cape of Antonidas
 
-LoonBestInSlot:AddItem(spec, "34433", "Bracers", "Lightbringer Wristguards", "BIS")
-LoonBestInSlot:AddItem(spec, "34848", "Bracers", "Bracers of the Forgotten Conqueror", "BIS")
-LoonBestInSlot:AddItem(spec, "32232", "Bracers", "Eternium Shell Bracers", "Alt Mit")
+LBIS:AddItem(spec, "34216", LBIS.L["Chest"], "BIS") --Heroic Judicator's Chestguard
+LBIS:AddItem(spec, "30991", LBIS.L["Chest"], "Alt") --Lightbringer Chestguard
+LBIS:AddItem(spec, "31089", LBIS.L["Chest"], "Alt") --Chestguard of the Forgotten Conqueror
+LBIS:AddItem(spec, "34945", LBIS.L["Chest"], "BIS Thrt") --Shattrath Protectorate's Breastplate
+LBIS:AddItem(spec, "34939", LBIS.L["Chest"], "Alt Mit") --Chestplate of Stoicism
 
-LoonBestInSlot:AddItem(spec, "34352", "Gloves", "Borderland Fortress Grips", "BIS Mit")
-LoonBestInSlot:AddItem(spec, "30985", "Gloves", "Lightbringer Handguards", "BIS")
-LoonBestInSlot:AddItem(spec, "31092", "Gloves", "Gloves of the Forgotten Conqueror", "BIS")
+LBIS:AddItem(spec, "34433", LBIS.L["Wrist"], "BIS") --Lightbringer Wristguards
+LBIS:AddItem(spec, "34848", LBIS.L["Wrist"], "BIS") --Bracers of the Forgotten Conqueror
+LBIS:AddItem(spec, "32232", LBIS.L["Wrist"], "Alt Mit") --Eternium Shell Bracers
 
-LoonBestInSlot:AddItem(spec, "34488", "Belt", "Lightbringer Waistguard", "BIS")
-LoonBestInSlot:AddItem(spec, "32342", "Belt", "Girdle of Mighty Resolve", "Alt")
-LoonBestInSlot:AddItem(spec, "33524", "Belt", "Girdle of the Protector", "Alt Thrt")
+LBIS:AddItem(spec, "34352", LBIS.L["Hands"], "BIS Mit") --Borderland Fortress Grips
+LBIS:AddItem(spec, "30985", LBIS.L["Hands"], "BIS") --Lightbringer Handguards
+LBIS:AddItem(spec, "31092", LBIS.L["Hands"], "BIS") --Gloves of the Forgotten Conqueror
 
-LoonBestInSlot:AddItem(spec, "34382", "Legs", "Judicator's Legguards", "BIS")
-LoonBestInSlot:AddItem(spec, "34167", "Legs", "Legplates of the Holy Juggernaut", "Transmute BIS")
-LoonBestInSlot:AddItem(spec, "30995", "Legs", "Lightbringer Legguards", "Alt")
-LoonBestInSlot:AddItem(spec, "31098", "Legs", "Leggings of the Forgotten Conqueror", "Alt")
-LoonBestInSlot:AddItem(spec, "32263", "Legs", "Praetorian's Legguards", "Alt Mit")
+LBIS:AddItem(spec, "34488", LBIS.L["Waist"], "BIS") --Lightbringer Waistguard
+LBIS:AddItem(spec, "32342", LBIS.L["Waist"], "Alt") --Girdle of Mighty Resolve
+LBIS:AddItem(spec, "33524", LBIS.L["Waist"], "Alt Thrt") --Girdle of the Protector
 
-LoonBestInSlot:AddItem(spec, "34560", "Feet", "Lightbringer Stompers", "BIS")
-LoonBestInSlot:AddItem(spec, "34856", "Feet", "Boots of the Forgotten Conqueror", "BIS")
-LoonBestInSlot:AddItem(spec, "32245", "Feet", "Tide-stomper's Greaves", "Alt")
-LoonBestInSlot:AddItem(spec, "34947", "Feet", "Blue's Greaves of the Righteous Guardian", "Thrt")
+LBIS:AddItem(spec, "34382", LBIS.L["Legs"], "BIS") --Judicator's Legguards
+LBIS:AddItem(spec, "34167", LBIS.L["Legs"], "Transmute BIS") --Legplates of the Holy Juggernaut
+LBIS:AddItem(spec, "30995", LBIS.L["Legs"], "Alt") --Lightbringer Legguards
+LBIS:AddItem(spec, "31098", LBIS.L["Legs"], "Alt") --Leggings of the Forgotten Conqueror
+LBIS:AddItem(spec, "32263", LBIS.L["Legs"], "Alt Mit") --Praetorian's Legguards
 
-LoonBestInSlot:AddItem(spec, "34178", "Neck", "Collar of the Pit Lord", "BIS")
-LoonBestInSlot:AddItem(spec, "30007", "Neck", "The Darkener's Grasp", "BIS Mit")
-LoonBestInSlot:AddItem(spec, "32405", "Neck", "Verdant Sphere", "BIS Mit")
-LoonBestInSlot:AddItem(spec, "32362", "Neck", "Pendant of Titans", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "34680", "Neck", "Shattered Sun Pendant of Resolve", "Alt")
-LoonBestInSlot:AddItem(spec, "34678", "Neck", "Shattered Sun Pendant of Acumen", "BIS Thrt")
-LoonBestInSlot:AddItem(spec, "35133", "Neck", "Guardian's Pendant of Dominance", "BIS Thrt")
-LoonBestInSlot:AddItem(spec, "35290", "Neck", "Sin'dorei Pendant of Conquest", "Alt Thrt")
+LBIS:AddItem(spec, "34560", LBIS.L["Feet"], "BIS") --Lightbringer Stompers
+LBIS:AddItem(spec, "34856", LBIS.L["Feet"], "BIS") --Boots of the Forgotten Conqueror
+LBIS:AddItem(spec, "32245", LBIS.L["Feet"], "Alt") --Tide-stomper's Greaves
+LBIS:AddItem(spec, "34947", LBIS.L["Feet"], "Alt Thrt") --Blue's Greaves of the Righteous Guardian
 
-LoonBestInSlot:AddItem(spec, "34213", "Ring", "Ring of Hardened Resolve", "BIS Mit")
-LoonBestInSlot:AddItem(spec, "34888", "Ring", "Ring of the Stalwart Protector", "BIS Mit")
-LoonBestInSlot:AddItem(spec, "30083", "Ring", "Ring of Sundered Souls", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "34889", "Ring", "Fused Nethergon Band", "BIS Thrt")
-LoonBestInSlot:AddItem(spec, "34362", "Ring", "Loop of Forged Power", "Alt Thrt")
-LoonBestInSlot:AddItem(spec, "29305", "Ring", "Band of the Eternal Sage", "BIS Thrt")
-LoonBestInSlot:AddItem(spec, "35129", "Ring", "Guardian's Band of Dominance", "Alt Thrt")
+LBIS:AddItem(spec, "34178", LBIS.L["Neck"], "BIS") --Collar of the Pit Lord
+LBIS:AddItem(spec, "30007", LBIS.L["Neck"], "BIS Mit") --The Darkener's Grasp
+LBIS:AddItem(spec, "32405", LBIS.L["Neck"], "BIS Mit") --Verdant Sphere
+LBIS:AddItem(spec, "32362", LBIS.L["Neck"], "Alt Mit") --Pendant of Titans
+LBIS:AddItem(spec, "34680", LBIS.L["Neck"], "Alt") --Shattered Sun Pendant of Resolve
+LBIS:AddItem(spec, "34678", LBIS.L["Neck"], "BIS Thrt") --Shattered Sun Pendant of Acumen
+LBIS:AddItem(spec, "35133", LBIS.L["Neck"], "BIS Thrt") --Guardian's Pendant of Dominance
+LBIS:AddItem(spec, "35290", LBIS.L["Neck"], "Alt Thrt") --Sin'dorei Pendant of Conquest
 
-LoonBestInSlot:AddItem(spec, "34473", "Trinket", "Commendation of Kael'thas", "BIS Stam")
-LoonBestInSlot:AddItem(spec, "31858", "Trinket", "Darkmoon Card: Vengeance", "Alt Stam")
-LoonBestInSlot:AddItem(spec, "32501", "Trinket", "Shadowmoon Insignia", "BIS")
-LoonBestInSlot:AddItem(spec, "34428", "Trinket", "Steely Naaru Sliver", "Alt")
-LoonBestInSlot:AddItem(spec, "35700", "Trinket", "Figurine - Crimson Serpent", "Alt")
+LBIS:AddItem(spec, "34213", LBIS.L["Ring"], "BIS Mit") --Ring of Hardened Resolve
+LBIS:AddItem(spec, "34888", LBIS.L["Ring"], "BIS Mit") --Ring of the Stalwart Protector
+LBIS:AddItem(spec, "30083", LBIS.L["Ring"], "Alt Mit") --Ring of Sundered Souls
+LBIS:AddItem(spec, "34889", LBIS.L["Ring"], "BIS Thrt") --Fused Nethergon Band
+LBIS:AddItem(spec, "34362", LBIS.L["Ring"], "Alt Thrt") --Loop of Forged Power
+LBIS:AddItem(spec, "29305", LBIS.L["Ring"], "BIS Thrt") --Band of the Eternal Sage
+LBIS:AddItem(spec, "35129", LBIS.L["Ring"], "Alt Thrt") --Guardian's Band of Dominance
 
-LoonBestInSlot:AddItem(spec, "35014", "MH", "Brutal Gladiator's Gavel", "BIS")
-LoonBestInSlot:AddItem(spec, "30910", "MH", "Tempest of Chaos", "BIS")
-LoonBestInSlot:AddItem(spec, "34176", "MH", "Reign of Misery", "Alt")
-LoonBestInSlot:AddItem(spec, "33687", "MH", "Vengeful Gladiator's Gavel", "Alt")
+LBIS:AddItem(spec, "34473", LBIS.L["Trinket"], "BIS Stam") --Commendation of Kael'thas
+LBIS:AddItem(spec, "31858", LBIS.L["Trinket"], "Alt Stam") --Darkmoon Card: Vengeance
+LBIS:AddItem(spec, "32501", LBIS.L["Trinket"], "BIS") --Shadowmoon Insignia
+LBIS:AddItem(spec, "34428", LBIS.L["Trinket"], "Alt") --Steely Naaru Sliver
 
-LoonBestInSlot:AddItem(spec, "29388", "Libram", "Libram of Repentance", "BIS Mit")
-LoonBestInSlot:AddItem(spec, "32368", "Libram", "Tome of the Lightbringer", "BIS Mit")
-LoonBestInSlot:AddItem(spec, "33504", "Libram", "Libram of Divine Purpose", "BIS Thrt")
+LBIS:AddItem(spec, "35014", LBIS.L["Main Hand"], "BIS") --Brutal Gladiator's Gavel
+LBIS:AddItem(spec, "30910", LBIS.L["Main Hand"], "BIS") --Tempest of Chaos
+LBIS:AddItem(spec, "34176", LBIS.L["Main Hand"], "Alt") --Reign of Misery
+LBIS:AddItem(spec, "33687", LBIS.L["Main Hand"], "Alt") --Vengeful Gladiator's Gavel
 
-LoonBestInSlot:AddItem(spec, "34185", "Shield", "Sword Breaker's Bulwark", "BIS")
-LoonBestInSlot:AddItem(spec, "35094", "Shield", "Brutal Gladiator's Shield Wall", "Alt Mit")
-LoonBestInSlot:AddItem(spec, "34986", "Shield", "Brutal Gladiator's Barrier", "BIS Thrt")
-LoonBestInSlot:AddItem(spec, "32375", "Shield", "Bulwark of Azzinoth", "Alt")
-LoonBestInSlot:AddItem(spec, "30909", "Shield", "Antonidas's Aegis of Rapt Concentration", "Alt Thrt")
+LBIS:AddItem(spec, "29388", LBIS.L["Libram"], "BIS Mit") --Libram of Repentance
+LBIS:AddItem(spec, "32368", LBIS.L["Libram"], "BIS Mit") --Tome of the Lightbringer
+LBIS:AddItem(spec, "33504", LBIS.L["Libram"], "BIS Thrt") --Libram of Divine Purpose
+
+LBIS:AddItem(spec, "34185", LBIS.L["Shield"], "BIS") --Sword Breaker's Bulwark
+LBIS:AddItem(spec, "35094", LBIS.L["Shield"], "Alt Mit") --Brutal Gladiator's Shield Wall
+LBIS:AddItem(spec, "34986", LBIS.L["Shield"], "BIS Thrt") --Brutal Gladiator's Barrier
+LBIS:AddItem(spec, "32375", LBIS.L["Shield"], "Alt") --Bulwark of Azzinoth
+LBIS:AddItem(spec, "30909", LBIS.L["Shield"], "Alt Thrt") --Antonidas's Aegis of Rapt Concentration

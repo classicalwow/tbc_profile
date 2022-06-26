@@ -1,13 +1,11 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0538,
-	["LastPlayerFullName"] = "特變電工-伊弗斯",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 32521,
-			["Level"] = 151,
-			["Link"] = "|cffa335ee|Hitem:32521:2999:32409:24055:::::70:::::::::|h[不破面甲]|h|r",
+			["ID"] = 35068,
+			["Level"] = 159,
+			["Link"] = "|cffa335ee|Hitem:35068::::::::70:::::::::|h[野蠻鬥士鎧甲頭盔]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 33923,
@@ -67,10 +65,10 @@ PawnOptions = {
 			["Level"] = 159,
 			["Link"] = "|cffa335ee|Hitem:34370::::::::70:::::::::|h[不朽之暮手套]|h|r",
 		},
-		[5] = {
-			["ID"] = 30975,
-			["Level"] = 146,
-			["Link"] = "|cffa335ee|Hitem:30975::::::::70:::::::::|h[猛擊戰甲胸甲]|h|r",
+		[9] = {
+			["ID"] = 34441,
+			["Level"] = 154,
+			["Link"] = "|cffa335ee|Hitem:34441::::::::70:::::::::|h[猛擊戰甲護腕]|h|r",
 		},
 		[11] = {
 			["ID"] = 32497,
@@ -79,9 +77,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:32497::::::::70:::::::::|h[怒風璽戒]|h|r",
 		},
 		[6] = {
-			["ID"] = 34546,
-			["Level"] = 154,
-			["Link"] = "|cffa335ee|Hitem:34546::::::::70:::::::::|h[猛擊戰甲腰帶]|h|r",
+			["ID"] = 35161,
+			["Level"] = 159,
+			["Link"] = "|cffa335ee|Hitem:35161::::::::70:::::::::|h[守護者鎧甲腰帶]|h|r",
 		},
 		[12] = {
 			["ID"] = 32497,
@@ -89,12 +87,14 @@ PawnOptions = {
 			["AlsoFitsIn"] = 11,
 			["Link"] = "|cffa335ee|Hitem:32497:2931:::::::70:::::::::|h[怒風璽戒]|h|r",
 		},
-		[9] = {
-			["ID"] = 34441,
-			["Level"] = 154,
-			["Link"] = "|cffa335ee|Hitem:34441::::::::70:::::::::|h[猛擊戰甲護腕]|h|r",
+		[5] = {
+			["ID"] = 30975,
+			["Level"] = 146,
+			["Link"] = "|cffa335ee|Hitem:30975::::::::70:::::::::|h[猛擊戰甲胸甲]|h|r",
 		},
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "特變電工-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
