@@ -40,7 +40,7 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "太陽之井",
+			["LastInstanceName"] = "納葛蘭競技場",
 			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 329.2458801269531,
 			["MainWindowHeight"] = 214.3261108398438,

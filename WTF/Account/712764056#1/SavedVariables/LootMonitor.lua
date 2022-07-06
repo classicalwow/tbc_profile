@@ -3,19 +3,18 @@ LootMonitorDB = {
 	["LootLog"] = {
 		{
 			["InstanceID"] = 580,
-			["Player"] = "特變電工",
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Sunwell Plateau",
-			["Date"] = "2022-07-03",
 			["Class"] = "WARRIOR",
+			["Date"] = "2022-07-03",
 			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-580-20672-25509-0000417FFD",
 					["Time"] = "20:14:40",
-					["Looter"] = "福利貝爾",
-					["Date"] = "2022-07-03",
 					["Class"] = "WARLOCK",
+					["Date"] = "2022-07-03",
+					["Looter"] = "福利貝爾",
 					["Name"] = "折磨之女祭司",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32249::::::::70:::::::::|h[海泉綠寶石]|h|r", -- [1]
@@ -24,9 +23,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-580-20672-25509-000041A451",
 					["Time"] = "22:16:54",
-					["Looter"] = "別逼我擋怪",
-					["Date"] = "2022-07-03",
 					["Class"] = "WARRIOR",
+					["Date"] = "2022-07-03",
+					["Looter"] = "別逼我擋怪",
 					["Name"] = "折磨之女祭司",
 					["Loots"] = {
 						"|cffa335ee|Hitem:34350::::::::70:::::::::|h[上古暗月護手]|h|r", -- [1]
@@ -35,15 +34,16 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-580-20672-25599-000041A4DA",
 					["Time"] = "22:20:36",
-					["Looter"] = "阿梨的聖騎士",
-					["Date"] = "2022-07-03",
 					["Class"] = "PALADIN",
+					["Date"] = "2022-07-03",
+					["Looter"] = "阿梨的聖騎士",
 					["Name"] = "裂地獵犬",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32231::::::::70:::::::::|h[焚石]|h|r", -- [1]
 					},
 				}, -- [3]
 			},
+			["Player"] = "特變電工",
 		}, -- [1]
 	},
 	["Config"] = {
