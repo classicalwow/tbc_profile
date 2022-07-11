@@ -69,13 +69,6 @@ X: -245
 Y: -178
 W: 200
 H: 50
-Frame: Recount_DetailWindow
-FrameLevel: 10
-Anchor: CENTER
-X: -3
-Y: 0
-W: 560
-H: 346
 Frame: Recount_MainWindow
 FrameLevel: 40
 Anchor: BOTTOM
@@ -83,3 +76,10 @@ X: -470
 Y: -1
 W: 333
 H: 253
+Frame: Recount_DetailWindow
+FrameLevel: 10
+Anchor: CENTER
+X: -3
+Y: 0
+W: 560
+H: 346

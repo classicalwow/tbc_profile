@@ -71,9 +71,9 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["count"] = 1,
-						["type"] = "ITEM",
 						["item"] = "|cff0070dd|Hitem:31298::::::::70:::::::::|h[碎手腿甲]|h|r",
+						["type"] = "ITEM",
+						["count"] = 1,
 						["displayname"] = "",
 					},
 				}, -- [6]
@@ -96,9 +96,9 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["count"] = 1,
-						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:30243::::::::70:::::::::|h[征服防衛者頭盔]|h|r",
+						["type"] = "ITEM",
+						["count"] = 1,
 						["displayname"] = "",
 					},
 				}, -- [8]
@@ -193,9 +193,9 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["count"] = 4,
-						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:30183::::::::70:::::::::|h[虛空漩渦]|h|r",
+						["type"] = "ITEM",
+						["count"] = 4,
 						["displayname"] = "",
 					},
 				}, -- [16]
@@ -206,9 +206,9 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["count"] = 1,
-						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:30323::::::::70:::::::::|h[設計圖:保衛者之靴]|h|r",
+						["type"] = "ITEM",
+						["count"] = 1,
 						["displayname"] = "",
 					},
 				}, -- [17]
@@ -255,9 +255,9 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["count"] = 1,
-						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:30324::::::::70:::::::::|h[設計圖:紅色浩劫長靴]|h|r",
+						["type"] = "ITEM",
+						["count"] = 1,
 						["displayname"] = "",
 					},
 				}, -- [21]
@@ -377,9 +377,9 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["count"] = 1,
-						["type"] = "ITEM",
 						["item"] = "|cffffffff|Hitem:27501::::::::70:::::::::|h[精神卷軸 V]|h|r",
+						["type"] = "ITEM",
+						["count"] = 1,
 						["displayname"] = "",
 					},
 				}, -- [31]
@@ -656,9 +656,9 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["count"] = 1,
-						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:30283::::::::70:::::::::|h[圖樣:長路之靴]|h|r",
+						["type"] = "ITEM",
+						["count"] = 1,
 						["displayname"] = "",
 					},
 				}, -- [54]
@@ -670,9 +670,9 @@ RaidLedgerDatabase = {
 					["outstanding"] = false,
 					["costcache"] = 81000000,
 					["detail"] = {
-						["count"] = 1,
-						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:32405::::::::70:::::::::|h[嫩綠球體]|h|r",
+						["type"] = "ITEM",
+						["count"] = 1,
 						["displayname"] = "",
 					},
 				}, -- [55]
@@ -719,9 +719,9 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["count"] = 10,
-						["type"] = "ITEM",
 						["item"] = "|cffffffff|Hitem:22445::::::::70:::::::::|h[魔塵]|h|r",
+						["type"] = "ITEM",
+						["count"] = 10,
 						["displayname"] = "",
 					},
 				}, -- [59]
@@ -936,9 +936,9 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["item"] = "|cff0070dd|Hitem:23437::::::::70:::::::::|h[泰拉寶石]|h|r",
-						["type"] = "ITEM",
 						["count"] = 1,
+						["type"] = "ITEM",
+						["item"] = "|cff0070dd|Hitem:23437::::::::70:::::::::|h[泰拉寶石]|h|r",
 						["displayname"] = "",
 					},
 				}, -- [77]
@@ -1117,9 +1117,9 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["item"] = "|cffa335ee|Hitem:32230::::::::70:::::::::|h[影歌紫水晶]|h|r",
-						["type"] = "ITEM",
 						["count"] = 4,
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:32230::::::::70:::::::::|h[影歌紫水晶]|h|r",
 						["displayname"] = "",
 					},
 				}, -- [92]
@@ -1130,9 +1130,9 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["item"] = "|cff0070dd|Hitem:31303::::::::70:::::::::|h[瓦拉諾斯長弓]|h|r",
-						["type"] = "ITEM",
 						["count"] = 1,
+						["type"] = "ITEM",
+						["item"] = "|cff0070dd|Hitem:31303::::::::70:::::::::|h[瓦拉諾斯長弓]|h|r",
 						["displayname"] = "",
 					},
 				}, -- [93]
@@ -1143,9 +1143,9 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["item"] = "|cffa335ee|Hitem:32227::::::::70:::::::::|h[赤紅尖晶石]|h|r",
-						["type"] = "ITEM",
 						["count"] = 1,
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:32227::::::::70:::::::::|h[赤紅尖晶石]|h|r",
 						["displayname"] = "",
 					},
 				}, -- [94]
@@ -1180,9 +1180,9 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["item"] = "|cffa335ee|Hitem:32228::::::::70:::::::::|h[蒼穹藍寶石]|h|r",
-						["type"] = "ITEM",
 						["count"] = 3,
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:32228::::::::70:::::::::|h[蒼穹藍寶石]|h|r",
 						["displayname"] = "",
 					},
 				}, -- [97]
@@ -1229,9 +1229,9 @@ RaidLedgerDatabase = {
 					["cost"] = 0,
 					["costcache"] = 0,
 					["detail"] = {
-						["item"] = "|cffa335ee|Hitem:32738::::::::70:::::::::|h[設計圖:黎明鋼鐵護腕]|h|r",
-						["type"] = "ITEM",
 						["count"] = 1,
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:32738::::::::70:::::::::|h[設計圖:黎明鋼鐵護腕]|h|r",
 						["displayname"] = "",
 					},
 				}, -- [101]
@@ -2926,11 +2926,11 @@ RaidLedgerDatabase = {
 		["minimapicons"] = {
 			["hide"] = false,
 		},
-		["debittemplates"] = {
-		},
+		["minimapicon"] = true,
 		["raidbutton"] = true,
 		["filteritems"] = "# 每行一條, 可以是物品名稱或物品ID\n# 以 # 開頭的行自動被忽略\n",
-		["minimapicon"] = true,
+		["debittemplates"] = {
+		},
 		["filterzero"] = false,
 	},
 	["current"] = 1,

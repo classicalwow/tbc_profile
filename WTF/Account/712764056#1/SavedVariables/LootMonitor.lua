@@ -4,18 +4,18 @@ LootMonitorDB = {
 		{
 			["InstanceID"] = 580,
 			["Player"] = "特變電工",
-			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Sunwell Plateau",
+			["FirstPlayer"] = "未知",
 			["Date"] = "2022-07-03",
-			["FirstClass"] = "UNKNOWN",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-580-20672-25509-0000417FFD",
 					["Time"] = "20:14:40",
-					["Looter"] = "福利貝爾",
-					["Date"] = "2022-07-03",
 					["Class"] = "WARLOCK",
+					["Date"] = "2022-07-03",
+					["Looter"] = "福利貝爾",
 					["Name"] = "折磨之女祭司",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32249::::::::70:::::::::|h[海泉綠寶石]|h|r", -- [1]
@@ -24,9 +24,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-580-20672-25509-000041A451",
 					["Time"] = "22:16:54",
-					["Looter"] = "別逼我擋怪",
-					["Date"] = "2022-07-03",
 					["Class"] = "WARRIOR",
+					["Date"] = "2022-07-03",
+					["Looter"] = "別逼我擋怪",
 					["Name"] = "折磨之女祭司",
 					["Loots"] = {
 						"|cffa335ee|Hitem:34350::::::::70:::::::::|h[上古暗月護手]|h|r", -- [1]
@@ -35,14 +35,36 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-5580-580-20672-25599-000041A4DA",
 					["Time"] = "22:20:36",
-					["Looter"] = "阿梨的聖騎士",
-					["Date"] = "2022-07-03",
 					["Class"] = "PALADIN",
+					["Date"] = "2022-07-03",
+					["Looter"] = "阿梨的聖騎士",
 					["Name"] = "裂地獵犬",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32231::::::::70:::::::::|h[焚石]|h|r", -- [1]
 					},
 				}, -- [3]
+				{
+					["GUID"] = "Creature-0-4491-580-32293-25599-00004AB934",
+					["Time"] = "20:26:36",
+					["Class"] = "WARRIOR",
+					["Date"] = "2022-07-10",
+					["Looter"] = "特變電工",
+					["Name"] = "裂地獵犬",
+					["Loots"] = {
+						"|cff0070dd|Hitem:34664::::::::70:::::::::|h[太陽微粒]|h|r", -- [1]
+					},
+				}, -- [4]
+				{
+					["GUID"] = "Creature-0-4491-580-32293-25593-0000CAE11F",
+					["Time"] = "22:35:13",
+					["Looter"] = "歐艾丹",
+					["Date"] = "2022-07-10",
+					["Class"] = "PALADIN",
+					["Name"] = "天啟守衛",
+					["Loots"] = {
+						"|cff0070dd|Hitem:34664::::::::70:::::::::|h[太陽微粒]|h|r", -- [1]
+					},
+				}, -- [5]
 			},
 		}, -- [1]
 	},

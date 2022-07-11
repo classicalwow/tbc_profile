@@ -913,7 +913,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:32230::::::::70:::::::::|h[影歌紫水晶]|h|r",
-						["count"] = 10,
+						["count"] = 11,
 					},
 				}, -- [76]
 				{
@@ -1021,7 +1021,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:32229::::::::70:::::::::|h[獅眼石]|h|r",
-						["count"] = 7,
+						["count"] = 8,
 					},
 				}, -- [85]
 				{
@@ -5757,7 +5757,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cff0070dd|Hitem:34664::::::::70:::::::::|h[太陽微粒]|h|r",
-						["count"] = 1,
+						["count"] = 3,
 					},
 				}, -- [478]
 				{

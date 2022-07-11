@@ -40,8 +40,8 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "納葛蘭競技場",
-			["CurDataSet"] = "OverallData",
+			["LastInstanceName"] = "太陽之井",
+			["CurDataSet"] = "CurrentFightData",
 			["MainWindowWidth"] = 329.2458801269531,
 			["MainWindowHeight"] = 214.3261108398438,
 		},
@@ -56,7 +56,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 835.6286010742188,
-			["MainWindowHeight"] = 253.3423614501953,
+			["LastInstanceName"] = "黑暗神廟",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -70,7 +70,7 @@ RecountDB = {
 			},
 			["DetailWindowY"] = -456.5082092285156,
 			["MainWindowWidth"] = 333.3405151367188,
-			["LastInstanceName"] = "黑暗神廟",
+			["MainWindowHeight"] = 253.3423614501953,
 		},
 		["路易斯桑拿 - 伊弗斯"] = {
 			["MainWindowVis"] = false,
