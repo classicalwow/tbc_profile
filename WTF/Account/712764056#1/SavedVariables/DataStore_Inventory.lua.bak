@@ -29,7 +29,7 @@ DataStore_InventoryDB = {
 					"|cffffffff|Hitem:36941::::::::70:::::::::|h[]|h|r", -- [19]
 				},
 				["averageItemLvl"] = 27.17647058823529,
-				["lastUpdate"] = 1657457942,
+				["lastUpdate"] = 1657949773,
 			},
 			["Default.伊弗斯.邁克爾假死"] = {
 				["lastUpdate"] = 1657454197,

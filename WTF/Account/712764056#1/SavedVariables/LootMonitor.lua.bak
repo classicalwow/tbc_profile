@@ -4,7 +4,10 @@ LootMonitorDB = {
 		{
 			["InstanceID"] = 580,
 			["FirstPlayer"] = "未知",
-			["Player"] = "特變電工",
+			["InstanceName"] = "Sunwell Plateau",
+			["Class"] = "WARRIOR",
+			["Date"] = "2022-07-03",
+			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-580-20672-25509-0000417FFD",
@@ -50,11 +53,19 @@ LootMonitorDB = {
 						"|cff0070dd|Hitem:34664::::::::70:::::::::|h[太陽微粒]|h|r", -- [1]
 					},
 				}, -- [4]
+				{
+					["GUID"] = "Creature-0-4491-580-32293-25593-0000CAE11F",
+					["Time"] = "22:35:13",
+					["Class"] = "PALADIN",
+					["Date"] = "2022-07-10",
+					["Looter"] = "歐艾丹",
+					["Name"] = "天啟守衛",
+					["Loots"] = {
+						"|cff0070dd|Hitem:34664::::::::70:::::::::|h[太陽微粒]|h|r", -- [1]
+					},
+				}, -- [5]
 			},
-			["Date"] = "2022-07-03",
-			["FirstClass"] = "UNKNOWN",
-			["Class"] = "WARRIOR",
-			["InstanceName"] = "Sunwell Plateau",
+			["Player"] = "特變電工",
 		}, -- [1]
 	},
 	["Config"] = {

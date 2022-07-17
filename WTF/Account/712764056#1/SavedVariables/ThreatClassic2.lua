@@ -36,8 +36,8 @@ ThreatClassic2DB = {
 				["flash"] = true,
 			},
 			["frame"] = {
-				["width"] = 249.6908416748047,
-				["height"] = 131.1897583007813,
+				["width"] = 233.3703002929688,
+				["height"] = 250.6797180175781,
 				["position"] = {
 					nil, -- [1]
 					nil, -- [2]
@@ -47,7 +47,7 @@ ThreatClassic2DB = {
 				},
 			},
 			["bar"] = {
-				["count"] = 7,
+				["count"] = 13,
 			},
 		},
 	},

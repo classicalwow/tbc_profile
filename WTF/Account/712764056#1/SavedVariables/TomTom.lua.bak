@@ -42,6 +42,37 @@ TomTomWaypointsM = {
 	},
 	["profiles"] = {
 		["特變電工 - 伊弗斯"] = {
+			[1949] = {
+				["1949:676283618.58191:234963325.18337:集合石"] = {
+					1949, -- [1]
+					0.6762836185819071, -- [2]
+					0.2349633251833741, -- [3]
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "集合石",
+					["from"] = "?",
+					["crazy"] = true,
+					["world"] = true,
+				},
+			},
 			[1946] = {
 				["1946:784000000:620000000:伊谢尔·风歌"] = {
 					1946, -- [1]

@@ -4,11 +4,11 @@ LootMonitorDB = {
 		{
 			["InstanceID"] = 580,
 			["Player"] = "特變電工",
-			["InstanceName"] = "Sunwell Plateau",
 			["FirstPlayer"] = "未知",
+			["InstanceName"] = "Sunwell Plateau",
 			["Date"] = "2022-07-03",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "UNKNOWN",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-580-20672-25509-0000417FFD",
@@ -67,6 +67,48 @@ LootMonitorDB = {
 				}, -- [5]
 			},
 		}, -- [1]
+		{
+			["InstanceID"] = 565,
+			["Player"] = "特變電工",
+			["FirstPlayer"] = "未知",
+			["InstanceName"] = "Gruul's Lair",
+			["Date"] = "2022-07-16",
+			["Class"] = "WARRIOR",
+			["FirstClass"] = "UNKNOWN",
+			["LootTable"] = {
+				{
+					["GUID"] = "Creature-0-4491-565-1195-18831-000052503E",
+					["Time"] = "14:09:05",
+					["Looter"] = "特洛克凱奃",
+					["Date"] = "2022-07-16",
+					["Class"] = "WARLOCK",
+					["Name"] = "大君王莫卡爾",
+					["Loots"] = {
+						"|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r", -- [1]
+						"|cffa335ee|Hitem:28795::::::::70:::::::::|h[劍刃氏族戰爭手環]|h|r", -- [2]
+						"|cffa335ee|Hitem:29763::::::::70:::::::::|h[逝往勇士肩鎧]|h|r", -- [3]
+						"|cffa335ee|Hitem:29764::::::::70:::::::::|h[逝往防衛者肩鎧]|h|r", -- [4]
+						"|cffa335ee|Hitem:29764::::::::70:::::::::|h[逝往防衛者肩鎧]|h|r", -- [5]
+					},
+				}, -- [1]
+				{
+					["GUID"] = "Creature-0-4491-565-1195-19044-000052503E",
+					["Time"] = "14:18:56",
+					["Looter"] = "卍邪天御武卍",
+					["Date"] = "2022-07-16",
+					["Class"] = "PALADIN",
+					["Name"] = "弒龍者戈魯爾",
+					["Loots"] = {
+						"|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r", -- [1]
+						"|cffa335ee|Hitem:28830::::::::70:::::::::|h[龍脊戰利品]|h|r", -- [2]
+						"|cffa335ee|Hitem:28810::::::::70:::::::::|h[風剪長靴]|h|r", -- [3]
+						"|cffa335ee|Hitem:29767::::::::70:::::::::|h[逝往防衛者護腿]|h|r", -- [4]
+						"|cffa335ee|Hitem:29767::::::::70:::::::::|h[逝往防衛者護腿]|h|r", -- [5]
+						"|cffa335ee|Hitem:29767::::::::70:::::::::|h[逝往防衛者護腿]|h|r", -- [6]
+					},
+				}, -- [2]
+			},
+		}, -- [2]
 	},
 	["Config"] = {
 		["ShowMinimapIcon"] = true,
