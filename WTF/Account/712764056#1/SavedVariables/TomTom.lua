@@ -75,39 +75,6 @@ TomTomWaypointsM = {
 					["world"] = true,
 				},
 			},
-			[1946] = {
-				["1946:784000000:620000000:伊谢尔·风歌"] = {
-					1946, -- [1]
-					0.784, -- [2]
-					0.62, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "伊谢尔·风歌",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "伊谢尔·风歌",
-					["from"] = "?",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
 		},
 		["邁克爾假死 - 伊弗斯"] = {
 			[1949] = {
@@ -126,9 +93,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
