@@ -1,7 +1,6 @@
 
 Blizzard_Console_SavedVars = {
 	["version"] = 3,
-	["height"] = 300,
 	["messageHistory"] = {
 		{
 			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
@@ -2408,63 +2407,63 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [601]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 14056, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [602]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 14056, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [603]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [604]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [605]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [606]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 14056, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [607]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 14056, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 14056, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [608]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 14056, effect aura: 124, which is wrong", -- [1]
+			"GamePad 1 connected: NVIDIA Virtual Gamepad", -- [1]
 			0, -- [2]
 		}, -- [609]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"GamePad 2 connected: Controller (XBOX 360 For Windows)", -- [1]
 			0, -- [2]
 		}, -- [610]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [611]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [612]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 14056, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [613]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 14056, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [614]
 		{
-			"GamePad 1 connected: NVIDIA Virtual Gamepad", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [615]
 		{
-			"GamePad 2 connected: Controller (XBOX 360 For Windows)", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [616]
 		{
@@ -2480,207 +2479,207 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [619]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 42061, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [620]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [621]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [622]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [623]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 42061, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [624]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [625]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 42061, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [626]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [627]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 42061, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [628]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [629]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 42061, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [630]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [631]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 42061, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [632]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [633]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 42061, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [634]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [635]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 42061, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [636]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [637]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 42061, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [638]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [639]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 42061, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [640]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [641]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 42061, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [642]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [643]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 42061, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [644]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [645]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 42061, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [646]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [647]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 42061, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [648]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [649]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 42061, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [650]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [651]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 42061, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [652]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [653]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 42061, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [654]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [655]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 42061, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [656]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [657]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 42061, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [658]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [659]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 42061, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [660]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [661]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 42061, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [662]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [663]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 42061, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [664]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [665]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 42061, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [666]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [667]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [668]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [669]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 42061, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [670]
 		{
@@ -2696,227 +2695,227 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [673]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [674]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [675]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [676]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [677]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [678]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [679]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [680]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [681]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [682]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [683]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [684]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [685]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [686]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [687]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [688]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [689]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [690]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [691]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [692]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [693]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [694]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [695]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [696]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [697]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [698]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [699]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [700]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [701]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [702]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [703]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [704]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [705]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [706]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [707]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [708]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [709]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [710]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [711]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [712]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [713]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [714]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [715]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [716]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [717]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [718]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [719]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [720]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 124, which is wrong", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [721]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [722]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [723]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [724]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 99, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [725]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15810, effect aura: 124, which is wrong", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [726]
 		{
-			"World transfer pending...", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [727]
 		{
-			"Got new connection 3", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [728]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [729]
 		{
@@ -3976,31 +3975,31 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [993]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"World transfer aborted (reason: 30)", -- [1]
 			0, -- [2]
 		}, -- [994]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [995]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"[GlueLogin] Explicitly disconnecting from realm server", -- [1]
 			0, -- [2]
 		}, -- [996]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 99, which is wrong", -- [1]
+			"Disconnecting for reason 14", -- [1]
 			0, -- [2]
 		}, -- [997]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15806, effect aura: 124, which is wrong", -- [1]
+			"NetClient::HandleDisconnect()\n", -- [1]
 			0, -- [2]
 		}, -- [998]
 		{
-			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 43901, effect aura: 123, which is wrong", -- [1]
+			"[IBN_BackInterface] Session with Battle.net destroyed.", -- [1]
 			0, -- [2]
 		}, -- [999]
 		{
-			"World transfer aborted (reason: 30)", -- [1]
+			"[GlueLogin] Disconnected from WoWpreviouslyConnected=\"false\"", -- [1]
 			0, -- [2]
 		}, -- [1000]
 		{
@@ -4008,28 +4007,217 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1001]
 		{
-			"[GlueLogin] Explicitly disconnecting from realm server", -- [1]
+			"Sorting particles normally.", -- [1]
 			0, -- [2]
 		}, -- [1002]
 		{
-			"Disconnecting for reason 14", -- [1]
+			"Multithreaded rendering enabled.", -- [1]
 			0, -- [2]
 		}, -- [1003]
 		{
-			"NetClient::HandleDisconnect()\n", -- [1]
+			"Multithreaded BeginDraw enabled.", -- [1]
 			0, -- [2]
 		}, -- [1004]
 		{
-			"[IBN_BackInterface] Session with Battle.net destroyed.", -- [1]
+			"Multithread shadows changed to 1.", -- [1]
 			0, -- [2]
 		}, -- [1005]
 		{
-			"[GlueLogin] Disconnected from WoWpreviouslyConnected=\"false\"", -- [1]
+			"Multithreaded prepass enabled.", -- [1]
 			0, -- [2]
 		}, -- [1006]
+		{
+			"Multithreaded opaque pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [1007]
+		{
+			"Multithreaded opaque pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [1008]
+		{
+			"Multithreaded alpha M2 pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [1009]
+		{
+			"Multithreaded opaque WMO pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [1010]
+		{
+			"Multithreaded terrain pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [1011]
+		{
+			"Water detail changed to 3", -- [1]
+			0, -- [2]
+		}, -- [1012]
+		{
+			"Ripple detail changed to 2", -- [1]
+			0, -- [2]
+		}, -- [1013]
+		{
+			"Reflection mode changed to 3", -- [1]
+			0, -- [2]
+		}, -- [1014]
+		{
+			"Reflection downscale changed to 0", -- [1]
+			0, -- [2]
+		}, -- [1015]
+		{
+			"Sunshafts quality changed to 2", -- [1]
+			0, -- [2]
+		}, -- [1016]
+		{
+			"Enabling BSP node cache (first time - starting up)", -- [1]
+			0, -- [2]
+		}, -- [1017]
+		{
+			"Projected textures enabled.", -- [1]
+			0, -- [2]
+		}, -- [1018]
+		{
+			"Spell Clutter set to dynamic", -- [1]
+			0, -- [2]
+		}, -- [1019]
+		{
+			"Shadow mode changed to 4 - 4 band dynamic shadows on units and terrain, 2048", -- [1]
+			0, -- [2]
+		}, -- [1020]
+		{
+			"Shadow texture size changed to 2048.", -- [1]
+			0, -- [2]
+		}, -- [1021]
+		{
+			"Soft shadows changed to 1.", -- [1]
+			0, -- [2]
+		}, -- [1022]
+		{
+			"Shadow RT mode changed to 1 (Fair) - Reduced-resolution directional light shadows", -- [1]
+			0, -- [2]
+		}, -- [1023]
+		{
+			"maxLightCount must be in range 0 to 32.", -- [1]
+			0, -- [2]
+		}, -- [1024]
+		{
+			"CVar 'maxLightCount' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [1025]
+		{
+			"SSAO mode set to 4", -- [1]
+			0, -- [2]
+		}, -- [1026]
+		{
+			"SSAO type set to 0", -- [1]
+			0, -- [2]
+		}, -- [1027]
+		{
+			"SkyCloudLOD set to 0", -- [1]
+			0, -- [2]
+		}, -- [1028]
+		{
+			"Texture filtering mode updated.", -- [1]
+			0, -- [2]
+		}, -- [1029]
+		{
+			"Terrain mip level changed to 0.", -- [1]
+			0, -- [2]
+		}, -- [1030]
+		{
+			"Render scale changed to 1", -- [1]
+			0, -- [2]
+		}, -- [1031]
+		{
+			"Resample quality changed to 1", -- [1]
+			0, -- [2]
+		}, -- [1032]
+		{
+			"MSAA set to 2 color samples, 2 coverage samples", -- [1]
+			0, -- [2]
+		}, -- [1033]
+		{
+			"MSAA for alpha-test enabled.", -- [1]
+			0, -- [2]
+		}, -- [1034]
+		{
+			"lodObjectSizeScale cannot be changed.", -- [1]
+			0, -- [2]
+		}, -- [1035]
+		{
+			"dynamicLod enabled", -- [1]
+			0, -- [2]
+		}, -- [1036]
+		{
+			"World preload object sort enabled.", -- [1]
+			0, -- [2]
+		}, -- [1037]
+		{
+			"World load object sort enabled.", -- [1]
+			0, -- [2]
+		}, -- [1038]
+		{
+			"World preload non critical enabled.", -- [1]
+			0, -- [2]
+		}, -- [1039]
+		{
+			"World preload high res textures enabled.", -- [1]
+			0, -- [2]
+		}, -- [1040]
+		{
+			"FFX: Color Blind Test Mode Disabled", -- [1]
+			0, -- [2]
+		}, -- [1041]
+		{
+			"Full memory crash dump disabled", -- [1]
+			0, -- [2]
+		}, -- [1042]
+		{
+			"Error display disabled", -- [1]
+			0, -- [2]
+		}, -- [1043]
+		{
+			"Error display shown", -- [1]
+			0, -- [2]
+		}, -- [1044]
+		{
+			"Displaying errors through fatal errors", -- [1]
+			0, -- [2]
+		}, -- [1045]
+		{
+			"Displaying errors through fatal errors", -- [1]
+			0, -- [2]
+		}, -- [1046]
+		{
+			"Now filtering: all messages", -- [1]
+			0, -- [2]
+		}, -- [1047]
+		{
+			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [1048]
+		{
+			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [1049]
+		{
+			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [1050]
+		{
+			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [1051]
+		{
+			"GamePad 1 connected: Controller (XBOX 360 For Windows)", -- [1]
+			0, -- [2]
+		}, -- [1052]
+		{
+			"GamePad input enabled.", -- [1]
+			0, -- [2]
+		}, -- [1053]
 	},
-	["isShown"] = false,
+	["height"] = 300,
 	["fontHeight"] = 14,
+	["isShown"] = false,
 	["commandHistory"] = {
 	},
 }
