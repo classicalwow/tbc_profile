@@ -6,7 +6,7 @@ DataStore_SpellsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.加丁.Vscode"] = {
-				["lastUpdate"] = 1657353590,
+				["lastUpdate"] = 1658552335,
 				["Spells"] = {
 					["刺殺"] = {
 						"2098|等級 1", -- [1]

@@ -6,7 +6,7 @@ DataStore_TalentsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.加丁.Vscode"] = {
-				["lastUpdate"] = 1657352990,
+				["lastUpdate"] = 1658552335,
 				["Class"] = "ROGUE",
 			},
 		},

@@ -9,10 +9,10 @@ RecountDB = {
 		["特變電工 - 伊弗斯"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -517.5082092285156,
-					["x"] = -451.0001525878906,
-					["w"] = 329,
-					["h"] = 214.0000305175781,
+					["y"] = -514.5940246582031,
+					["x"] = -467.6119384765625,
+					["w"] = 314.4281921386719,
+					["h"] = 233.8178253173828,
 				},
 			},
 			["ReportLines"] = 8,
@@ -40,10 +40,10 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "黑暗神廟",
+			["LastInstanceName"] = "太陽之井",
 			["CurDataSet"] = "LastFightData",
-			["MainWindowWidth"] = 329.2458801269531,
-			["MainWindowHeight"] = 214.3261108398438,
+			["MainWindowWidth"] = 314.4281921386719,
+			["MainWindowHeight"] = 233.8178253173828,
 		},
 		["邁克爾假死 - 伊弗斯"] = {
 			["MainWindowVis"] = false,

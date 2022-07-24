@@ -1,11 +1,12 @@
 
 ElvDB = {
-	["DisabledAddOns"] = {
-	},
 	["faction"] = {
 		["加丁"] = {
 			["Vscode"] = "Alliance",
 		},
+	},
+	["profileKeys"] = {
+		["Vscode - 加丁"] = "Default",
 	},
 	["global"] = {
 		["nameplates"] = {
@@ -19,10 +20,7 @@ ElvDB = {
 			},
 		},
 	},
-	["gold"] = {
-		["加丁"] = {
-			["Vscode"] = 153,
-		},
+	["DisabledAddOns"] = {
 	},
 	["serverID"] = {
 		[4501] = {
@@ -34,31 +32,33 @@ ElvDB = {
 			["Vscode"] = "ROGUE",
 		},
 	},
-	["profileKeys"] = {
-		["Vscode - 加丁"] = "Default",
+	["gold"] = {
+		["加丁"] = {
+			["Vscode"] = 153,
+		},
 	},
 	["profiles"] = {
 		["Default"] = {
-			["convertPages"] = true,
-			["dbConverted"] = 2.47,
+			["chat"] = {
+				["panelSnapLeftID"] = 1,
+			},
+			["dbConverted"] = 2.48,
 			["actionbar"] = {
 				["bar6"] = {
 					["enabled"] = true,
-					["buttonsPerRow"] = 6,
 					["buttons"] = 6,
+					["buttonsPerRow"] = 6,
 				},
 				["microbar"] = {
 					["buttons"] = 7,
 				},
 				["bar5"] = {
 					["enabled"] = false,
-					["buttonsPerRow"] = 12,
 					["buttons"] = 12,
+					["buttonsPerRow"] = 12,
 				},
 			},
-			["chat"] = {
-				["panelSnapLeftID"] = 1,
-			},
+			["convertPages"] = true,
 		},
 	},
 }

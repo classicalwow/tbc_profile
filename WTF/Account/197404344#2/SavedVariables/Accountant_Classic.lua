@@ -5,15 +5,17 @@ Accountant_ClassicSaveData = {
 			["options"] = {
 				["weekdate"] = "",
 				["weekstart"] = 1,
-				["date"] = "09/07/22",
+				["date"] = "23/07/22",
 				["class"] = "ROGUE",
-				["totalcash"] = 0,
-				["dateweek"] = "07/03/22",
-				["version"] = "v2.12.17",
-				["month"] = "07",
-				["lastsessiondate"] = "09/07/22",
 				["faction"] = "Alliance",
+				["prvday"] = "09/07/22",
+				["dateweek"] = "07/17/22",
+				["version"] = "v2.12.20",
+				["month"] = "07",
+				["totalcash"] = 153,
 				["curryear"] = "2022",
+				["prvdateweek"] = "07/03/22",
+				["lastsessiondate"] = "23/07/22",
 			},
 			["data"] = {
 				["TRAIN"] = {
@@ -25,7 +27,7 @@ Accountant_ClassicSaveData = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
-					["Total"] = {
+					["Year"] = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
@@ -53,7 +55,7 @@ Accountant_ClassicSaveData = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
-					["Year"] = {
+					["Total"] = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
@@ -67,7 +69,7 @@ Accountant_ClassicSaveData = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
-					["Total"] = {
+					["Year"] = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
@@ -95,7 +97,7 @@ Accountant_ClassicSaveData = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
-					["Year"] = {
+					["Total"] = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
@@ -109,7 +111,7 @@ Accountant_ClassicSaveData = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
-					["Total"] = {
+					["Year"] = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
@@ -137,7 +139,7 @@ Accountant_ClassicSaveData = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
-					["Year"] = {
+					["Total"] = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
@@ -151,20 +153,20 @@ Accountant_ClassicSaveData = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
-					["Total"] = {
-						["In"] = 0,
+					["Year"] = {
+						["In"] = 153,
 						["Out"] = 0,
 					},
 					["Week"] = {
-						["In"] = 0,
+						["In"] = 153,
 						["Out"] = 0,
 					},
 					["Day"] = {
-						["In"] = 0,
+						["In"] = 153,
 						["Out"] = 0,
 					},
 					["Month"] = {
-						["In"] = 0,
+						["In"] = 153,
 						["Out"] = 0,
 					},
 					["PrvYear"] = {
@@ -176,11 +178,11 @@ Accountant_ClassicSaveData = {
 						["Out"] = 0,
 					},
 					["Session"] = {
-						["In"] = 0,
+						["In"] = 153,
 						["Out"] = 0,
 					},
-					["Year"] = {
-						["In"] = 0,
+					["Total"] = {
+						["In"] = 153,
 						["Out"] = 0,
 					},
 				},
@@ -193,7 +195,7 @@ Accountant_ClassicSaveData = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
-					["Total"] = {
+					["Year"] = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
@@ -221,7 +223,7 @@ Accountant_ClassicSaveData = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
-					["Year"] = {
+					["Total"] = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
@@ -235,7 +237,7 @@ Accountant_ClassicSaveData = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
-					["Total"] = {
+					["Year"] = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
@@ -263,91 +265,7 @@ Accountant_ClassicSaveData = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
-					["Year"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-				},
-				["MAIL"] = {
-					["PrvWeek"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvDay"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
 					["Total"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Week"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Day"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Month"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvYear"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvMonth"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Session"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Year"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-				},
-				["AH"] = {
-					["PrvWeek"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvDay"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Total"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Week"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Day"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Month"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvYear"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvMonth"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Session"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Year"] = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
@@ -361,7 +279,7 @@ Accountant_ClassicSaveData = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
-					["Total"] = {
+					["Year"] = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
@@ -389,7 +307,91 @@ Accountant_ClassicSaveData = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
+					["Total"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+				},
+				["AH"] = {
+					["PrvWeek"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["PrvDay"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
 					["Year"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Week"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Day"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Month"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["PrvYear"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["PrvMonth"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Session"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Total"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+				},
+				["MAIL"] = {
+					["PrvWeek"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["PrvDay"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Year"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Week"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Day"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Month"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["PrvYear"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["PrvMonth"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Session"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Total"] = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
@@ -403,7 +405,7 @@ Accountant_ClassicSaveData = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
-					["Total"] = {
+					["Year"] = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
@@ -431,7 +433,7 @@ Accountant_ClassicSaveData = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
-					["Year"] = {
+					["Total"] = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
@@ -464,15 +466,15 @@ Accountant_ClassicZoneDB = {
 					},
 					["OTHER"] = {
 					},
-					["AH"] = {
+					["TRAIN"] = {
+					},
+					["MERCH"] = {
 					},
 					["LOOT"] = {
 					},
-					["TRAIN"] = {
-					},
 					["MAIL"] = {
 					},
-					["MERCH"] = {
+					["AH"] = {
 					},
 					["QUEST"] = {
 					},
@@ -484,22 +486,22 @@ Accountant_ClassicZoneDB = {
 					},
 					["TRADE"] = {
 					},
-					["MAIL"] = {
-					},
 					["OTHER"] = {
+					},
+					["TRAIN"] = {
 					},
 					["MERCH"] = {
 					},
 					["LOOT"] = {
 					},
-					["AH"] = {
+					["MAIL"] = {
 					},
-					["TRAIN"] = {
+					["AH"] = {
 					},
 					["QUEST"] = {
 					},
 				},
-				["Total"] = {
+				["Year"] = {
 					["REPAIRS"] = {
 					},
 					["TAXI"] = {
@@ -509,14 +511,18 @@ Accountant_ClassicZoneDB = {
 					["MAIL"] = {
 					},
 					["OTHER"] = {
+						[""] = {
+							["In"] = 153,
+							["Out"] = 0,
+						},
 					},
 					["MERCH"] = {
 					},
-					["LOOT"] = {
+					["TRAIN"] = {
 					},
 					["AH"] = {
 					},
-					["TRAIN"] = {
+					["LOOT"] = {
 					},
 					["QUEST"] = {
 					},
@@ -531,6 +537,10 @@ Accountant_ClassicZoneDB = {
 					["MAIL"] = {
 					},
 					["OTHER"] = {
+						[""] = {
+							["In"] = 153,
+							["Out"] = 0,
+						},
 					},
 					["MERCH"] = {
 					},
@@ -553,6 +563,10 @@ Accountant_ClassicZoneDB = {
 					["MAIL"] = {
 					},
 					["OTHER"] = {
+						[""] = {
+							["In"] = 153,
+							["Out"] = 0,
+						},
 					},
 					["MERCH"] = {
 					},
@@ -575,14 +589,18 @@ Accountant_ClassicZoneDB = {
 					["MAIL"] = {
 					},
 					["OTHER"] = {
+						[""] = {
+							["In"] = 153,
+							["Out"] = 0,
+						},
 					},
 					["MERCH"] = {
 					},
-					["LOOT"] = {
+					["TRAIN"] = {
 					},
 					["AH"] = {
 					},
-					["TRAIN"] = {
+					["LOOT"] = {
 					},
 					["QUEST"] = {
 					},
@@ -600,11 +618,11 @@ Accountant_ClassicZoneDB = {
 					},
 					["MERCH"] = {
 					},
-					["LOOT"] = {
+					["TRAIN"] = {
 					},
 					["AH"] = {
 					},
-					["TRAIN"] = {
+					["LOOT"] = {
 					},
 					["QUEST"] = {
 					},
@@ -622,11 +640,11 @@ Accountant_ClassicZoneDB = {
 					},
 					["MERCH"] = {
 					},
-					["LOOT"] = {
+					["TRAIN"] = {
 					},
 					["AH"] = {
 					},
-					["TRAIN"] = {
+					["LOOT"] = {
 					},
 					["QUEST"] = {
 					},
@@ -641,6 +659,10 @@ Accountant_ClassicZoneDB = {
 					["MAIL"] = {
 					},
 					["OTHER"] = {
+						[""] = {
+							["In"] = 153,
+							["Out"] = 0,
+						},
 					},
 					["MERCH"] = {
 					},
@@ -653,7 +675,7 @@ Accountant_ClassicZoneDB = {
 					["QUEST"] = {
 					},
 				},
-				["Year"] = {
+				["Total"] = {
 					["REPAIRS"] = {
 					},
 					["TAXI"] = {
@@ -663,14 +685,18 @@ Accountant_ClassicZoneDB = {
 					["MAIL"] = {
 					},
 					["OTHER"] = {
+						[""] = {
+							["In"] = 153,
+							["Out"] = 0,
+						},
 					},
 					["MERCH"] = {
 					},
-					["LOOT"] = {
+					["TRAIN"] = {
 					},
 					["AH"] = {
 					},
-					["TRAIN"] = {
+					["LOOT"] = {
 					},
 					["QUEST"] = {
 					},
