@@ -46,6 +46,55 @@ GroupBulletinBoardDBChar = {
 	["FilterDungeonUB"] = false,
 	["FilterDungeonNAX"] = false,
 	["FilterDungeonMISC"] = false,
+	["FilterDungeonEYE"] = false,
+	["FilterDungeonSCH"] = false,
+	["FilterDungeonSWP"] = true,
+	["FilterDungeonOHB"] = false,
+	["FilterDungeonSETH"] = false,
+	["channel"] = {
+		true, -- [1]
+		false, -- [2]
+		true, -- [3]
+		true, -- [4]
+		true, -- [5]
+		true, -- [6]
+		true, -- [7]
+		true, -- [8]
+		true, -- [9]
+		true, -- [10]
+		true, -- [11]
+		true, -- [12]
+		true, -- [13]
+		true, -- [14]
+		true, -- [15]
+		true, -- [16]
+		true, -- [17]
+		true, -- [18]
+		true, -- [19]
+		true, -- [20]
+	},
+	["HeroicOnly"] = true,
+	["FilterDungeonARC"] = false,
+	["FilterDungeonEOTS"] = false,
+	["FilterDungeonBM"] = false,
+	["FilterDungeonCRYPTS"] = false,
+	["FilterDungeonLBRS"] = false,
+	["FilterDungeonMAG"] = false,
+	["FilterDungeonTRADE"] = false,
+	["FilterDungeonDMN"] = false,
+	["FilterDungeonGL"] = true,
+	["FilterDungeonUBRS"] = false,
+	["FilterDungeonBT"] = true,
+	["FilterDungeonDM"] = false,
+	["FilterDungeonDMW"] = false,
+	["FilterDungeonSTR"] = false,
+	["FilterDungeonAB"] = false,
+	["FilterDungeonMC"] = false,
+	["FilterDungeonBREW"] = false,
+	["FilterDungeonZG"] = false,
+	["FilterDungeonBWL"] = false,
+	["FilterDungeonAQ40"] = false,
+	["FilterDungeonSM2"] = false,
 	["GroupList"] = {
 		{
 			["dungeon"] = "黑暗神廟",
@@ -56,10 +105,10 @@ GroupBulletinBoardDBChar = {
 		}, -- [1]
 		{
 			["dungeon"] = "海加爾山戰場",
-			["name"] = "無限天際",
+			["name"] = "尐沫",
 			["lastSeen"] = 1650130376,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-0014560E",
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-000B2DC0",
 		}, -- [2]
 		{
 			["dungeon"] = "海加爾山戰場",
@@ -70,17 +119,17 @@ GroupBulletinBoardDBChar = {
 		}, -- [3]
 		{
 			["dungeon"] = "海加爾山戰場",
+			["name"] = "無限天際",
+			["lastSeen"] = 1650130376,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-0014560E",
+		}, -- [4]
+		{
+			["dungeon"] = "海加爾山戰場",
 			["name"] = "吃貨憨仔",
 			["lastSeen"] = 1650130376,
 			["class"] = "WARRIOR",
 			["guid"] = "Player-4487-00139967",
-		}, -- [4]
-		{
-			["dungeon"] = "海加爾山戰場",
-			["name"] = "尐沫",
-			["lastSeen"] = 1650130376,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4487-000B2DC0",
 		}, -- [5]
 		{
 			["dungeon"] = "戈魯爾之巢",
@@ -140,45 +189,45 @@ GroupBulletinBoardDBChar = {
 		}, -- [13]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "你來你來",
+			["name"] = "甲級貧民",
 			["lastSeen"] = 1650207452,
-			["class"] = "WARRIOR",
-			["guid"] = "Player-4487-0007850A",
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-000CC083",
 		}, -- [14]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "可卡因",
+			["name"] = "吉力",
 			["lastSeen"] = 1650207452,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-000B574C",
+			["class"] = "WARRIOR",
+			["guid"] = "Player-4487-00088882",
 		}, -- [15]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "一名職業玩家",
+			["name"] = "小威",
 			["lastSeen"] = 1650207452,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-0007795D",
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-0006576B",
 		}, -- [16]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "白魚飛",
+			["name"] = "Cherez",
 			["lastSeen"] = 1650207452,
 			["class"] = "HUNTER",
-			["guid"] = "Player-4487-000853E6",
+			["guid"] = "Player-4487-0011767F",
 		}, -- [17]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "樂耀希",
+			["name"] = "無慮",
 			["lastSeen"] = 1650207452,
-			["class"] = "ROGUE",
-			["guid"] = "Player-4487-0005790C",
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-0003E87E",
 		}, -- [18]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "薔薇花開",
+			["name"] = "縱貫小貓",
 			["lastSeen"] = 1650207452,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-0011E831",
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-0011D39C",
 		}, -- [19]
 		{
 			["dungeon"] = "戈魯爾之巢",
@@ -189,115 +238,115 @@ GroupBulletinBoardDBChar = {
 		}, -- [20]
 		{
 			["dungeon"] = "戈魯爾之巢",
+			["name"] = "薔薇花開",
+			["lastSeen"] = 1650207452,
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-0011E831",
+		}, -- [21]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "樂耀希",
+			["lastSeen"] = 1650207452,
+			["class"] = "ROGUE",
+			["guid"] = "Player-4487-0005790C",
+		}, -- [22]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "你來你來",
+			["lastSeen"] = 1650207452,
+			["class"] = "WARRIOR",
+			["guid"] = "Player-4487-0007850A",
+		}, -- [23]
+		{
+			["dungeon"] = "戈魯爾之巢",
 			["name"] = "警嫂防線",
 			["lastSeen"] = 1650207452,
 			["class"] = "WARRIOR",
 			["guid"] = "Player-4487-0003768C",
-		}, -- [21]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "甲級貧民",
-			["lastSeen"] = 1650207452,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-000CC083",
-		}, -- [22]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "吉力",
-			["lastSeen"] = 1650207452,
-			["class"] = "WARRIOR",
-			["guid"] = "Player-4487-00088882",
-		}, -- [23]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "縱貫小貓",
-			["lastSeen"] = 1650207452,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-0011D39C",
 		}, -- [24]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "小威",
+			["name"] = "一名職業玩家",
 			["lastSeen"] = 1650207452,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-0006576B",
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-0007795D",
 		}, -- [25]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "Cherez",
+			["name"] = "可卡因",
 			["lastSeen"] = 1650207452,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4487-0011767F",
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-000B574C",
 		}, -- [26]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "無慮",
+			["name"] = "白魚飛",
 			["lastSeen"] = 1650207452,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-0003E87E",
-		}, -- [27]
-		{
-			["dungeon"] = "祖阿曼",
-			["name"] = "信仰之光",
-			["lastSeen"] = 1650212131,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-000C498F",
-		}, -- [28]
-		{
-			["dungeon"] = "祖阿曼",
-			["name"] = "陸小彤",
-			["lastSeen"] = 1650212131,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-0011A680",
-		}, -- [29]
-		{
-			["dungeon"] = "祖阿曼",
-			["name"] = "我很牛逼",
-			["lastSeen"] = 1650212131,
 			["class"] = "HUNTER",
-			["guid"] = "Player-4487-00066CC2",
-		}, -- [30]
+			["guid"] = "Player-4487-000853E6",
+		}, -- [27]
 		{
 			["dungeon"] = "祖阿曼",
 			["name"] = "麻吉",
 			["lastSeen"] = 1650212131,
 			["class"] = "DRUID",
 			["guid"] = "Player-4487-000CE54F",
-		}, -- [31]
-		{
-			["dungeon"] = "祖阿曼",
-			["name"] = "門糖滾",
-			["lastSeen"] = 1650212131,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-0000C606",
-		}, -- [32]
-		{
-			["dungeon"] = "祖阿曼",
-			["name"] = "如歌",
-			["lastSeen"] = 1650212131,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-0007ACCC",
-		}, -- [33]
-		{
-			["dungeon"] = "祖阿曼",
-			["name"] = "謬謬",
-			["lastSeen"] = 1650212131,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-0014CBF4",
-		}, -- [34]
-		{
-			["dungeon"] = "祖阿曼",
-			["name"] = "白白昀",
-			["lastSeen"] = 1650212131,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-00115F71",
-		}, -- [35]
+		}, -- [28]
 		{
 			["dungeon"] = "祖阿曼",
 			["name"] = "仰視",
 			["lastSeen"] = 1650212131,
 			["class"] = "SHAMAN",
 			["guid"] = "Player-4487-0009ABDF",
+		}, -- [29]
+		{
+			["dungeon"] = "祖阿曼",
+			["name"] = "謬謬",
+			["lastSeen"] = 1650212131,
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-0014CBF4",
+		}, -- [30]
+		{
+			["dungeon"] = "祖阿曼",
+			["name"] = "如歌",
+			["lastSeen"] = 1650212131,
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-0007ACCC",
+		}, -- [31]
+		{
+			["dungeon"] = "祖阿曼",
+			["name"] = "我很牛逼",
+			["lastSeen"] = 1650212131,
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-00066CC2",
+		}, -- [32]
+		{
+			["dungeon"] = "祖阿曼",
+			["name"] = "門糖滾",
+			["lastSeen"] = 1650212131,
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-0000C606",
+		}, -- [33]
+		{
+			["dungeon"] = "祖阿曼",
+			["name"] = "白白昀",
+			["lastSeen"] = 1650212131,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-00115F71",
+		}, -- [34]
+		{
+			["dungeon"] = "祖阿曼",
+			["name"] = "信仰之光",
+			["lastSeen"] = 1650212131,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-000C498F",
+		}, -- [35]
+		{
+			["dungeon"] = "祖阿曼",
+			["name"] = "陸小彤",
+			["lastSeen"] = 1650212131,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-0011A680",
 		}, -- [36]
 		{
 			["dungeon"] = "祖阿曼",
@@ -371,10 +420,10 @@ GroupBulletinBoardDBChar = {
 		}, -- [46]
 		{
 			["dungeon"] = "海加爾山戰場",
-			["name"] = "扒飯喝尿",
+			["name"] = "慕之內走步",
 			["lastSeen"] = 1650732021,
-			["class"] = "ROGUE",
-			["guid"] = "Player-4487-0000CB13",
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-00128F93",
 		}, -- [47]
 		{
 			["dungeon"] = "海加爾山戰場",
@@ -385,10 +434,10 @@ GroupBulletinBoardDBChar = {
 		}, -- [48]
 		{
 			["dungeon"] = "海加爾山戰場",
-			["name"] = "慕之內走步",
+			["name"] = "扒飯喝尿",
 			["lastSeen"] = 1650732021,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-00128F93",
+			["class"] = "ROGUE",
+			["guid"] = "Player-4487-0000CB13",
 		}, -- [49]
 		{
 			["dungeon"] = "祖阿曼",
@@ -427,150 +476,150 @@ GroupBulletinBoardDBChar = {
 		}, -- [54]
 		{
 			["dungeon"] = "盤牙:毒蛇神殿洞穴",
-			["name"] = "念可",
+			["name"] = "板橋許瑋甯",
 			["lastSeen"] = 1651311530,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-00149D5F",
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-0011EA41",
 		}, -- [55]
-		{
-			["dungeon"] = "盤牙:毒蛇神殿洞穴",
-			["name"] = "Lanboman",
-			["lastSeen"] = 1651311530,
-			["class"] = "WARRIOR",
-			["guid"] = "Player-4487-00012A71",
-		}, -- [56]
-		{
-			["dungeon"] = "盤牙:毒蛇神殿洞穴",
-			["name"] = "冰沙的粉絲",
-			["lastSeen"] = 1651311530,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-0014DF75",
-		}, -- [57]
-		{
-			["dungeon"] = "盤牙:毒蛇神殿洞穴",
-			["name"] = "半生如今",
-			["lastSeen"] = 1651311530,
-			["class"] = "ROGUE",
-			["guid"] = "Player-4487-00115484",
-		}, -- [58]
-		{
-			["dungeon"] = "盤牙:毒蛇神殿洞穴",
-			["name"] = "卡噗豆腐",
-			["lastSeen"] = 1651311530,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-001454DD",
-		}, -- [59]
-		{
-			["dungeon"] = "盤牙:毒蛇神殿洞穴",
-			["name"] = "秋葵牛丼",
-			["lastSeen"] = 1651311530,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-001193E8",
-		}, -- [60]
-		{
-			["dungeon"] = "盤牙:毒蛇神殿洞穴",
-			["name"] = "瘋小小",
-			["lastSeen"] = 1651311530,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-0009A678",
-		}, -- [61]
-		{
-			["dungeon"] = "盤牙:毒蛇神殿洞穴",
-			["name"] = "開始懂得",
-			["lastSeen"] = 1651311530,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-0014A31F",
-		}, -- [62]
-		{
-			["dungeon"] = "盤牙:毒蛇神殿洞穴",
-			["name"] = "熟女專業戶",
-			["lastSeen"] = 1651311530,
-			["class"] = "WARRIOR",
-			["guid"] = "Player-4487-001539B7",
-		}, -- [63]
-		{
-			["dungeon"] = "盤牙:毒蛇神殿洞穴",
-			["name"] = "差不多一點",
-			["lastSeen"] = 1651311530,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-0002BCEF",
-		}, -- [64]
-		{
-			["dungeon"] = "盤牙:毒蛇神殿洞穴",
-			["name"] = "前空翻的貓",
-			["lastSeen"] = 1651311530,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-0013585C",
-		}, -- [65]
-		{
-			["dungeon"] = "盤牙:毒蛇神殿洞穴",
-			["name"] = "Ogre",
-			["lastSeen"] = 1651311530,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-00129088",
-		}, -- [66]
-		{
-			["dungeon"] = "盤牙:毒蛇神殿洞穴",
-			["name"] = "綺羅香",
-			["lastSeen"] = 1651311530,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-0002B8E2",
-		}, -- [67]
 		{
 			["dungeon"] = "盤牙:毒蛇神殿洞穴",
 			["name"] = "葛格薩滿",
 			["lastSeen"] = 1651311530,
 			["class"] = "SHAMAN",
 			["guid"] = "Player-4487-0014B5F3",
-		}, -- [68]
+		}, -- [56]
 		{
 			["dungeon"] = "盤牙:毒蛇神殿洞穴",
-			["name"] = "板橋許瑋甯",
+			["name"] = "綺羅香",
 			["lastSeen"] = 1651311530,
 			["class"] = "PRIEST",
-			["guid"] = "Player-4487-0011EA41",
-		}, -- [69]
+			["guid"] = "Player-4487-0002B8E2",
+		}, -- [57]
 		{
 			["dungeon"] = "盤牙:毒蛇神殿洞穴",
 			["name"] = "內褲有點濕",
 			["lastSeen"] = 1651311530,
 			["class"] = "HUNTER",
 			["guid"] = "Player-4487-001260D6",
-		}, -- [70]
+		}, -- [58]
+		{
+			["dungeon"] = "盤牙:毒蛇神殿洞穴",
+			["name"] = "前空翻的貓",
+			["lastSeen"] = 1651311530,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-0013585C",
+		}, -- [59]
 		{
 			["dungeon"] = "盤牙:毒蛇神殿洞穴",
 			["name"] = "Nottoosure",
 			["lastSeen"] = 1651311530,
 			["class"] = "PALADIN",
 			["guid"] = "Player-4487-0012D43B",
-		}, -- [71]
+		}, -- [60]
 		{
 			["dungeon"] = "盤牙:毒蛇神殿洞穴",
-			["name"] = "口卡啦雞腿堡",
+			["name"] = "開始懂得",
 			["lastSeen"] = 1651311530,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-00006D23",
-		}, -- [72]
-		{
-			["dungeon"] = "盤牙:毒蛇神殿洞穴",
-			["name"] = "你懂什麼啦",
-			["lastSeen"] = 1651311530,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-0013427C",
-		}, -- [73]
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-0014A31F",
+		}, -- [61]
 		{
 			["dungeon"] = "盤牙:毒蛇神殿洞穴",
 			["name"] = "田腆舔老師",
 			["lastSeen"] = 1651311530,
 			["class"] = "WARLOCK",
 			["guid"] = "Player-4487-0014F733",
-		}, -- [74]
+		}, -- [62]
+		{
+			["dungeon"] = "盤牙:毒蛇神殿洞穴",
+			["name"] = "Ogre",
+			["lastSeen"] = 1651311530,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-00129088",
+		}, -- [63]
+		{
+			["dungeon"] = "盤牙:毒蛇神殿洞穴",
+			["name"] = "秋葵牛丼",
+			["lastSeen"] = 1651311530,
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-001193E8",
+		}, -- [64]
+		{
+			["dungeon"] = "盤牙:毒蛇神殿洞穴",
+			["name"] = "你懂什麼啦",
+			["lastSeen"] = 1651311530,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-0013427C",
+		}, -- [65]
+		{
+			["dungeon"] = "盤牙:毒蛇神殿洞穴",
+			["name"] = "熟女專業戶",
+			["lastSeen"] = 1651311530,
+			["class"] = "WARRIOR",
+			["guid"] = "Player-4487-001539B7",
+		}, -- [66]
+		{
+			["dungeon"] = "盤牙:毒蛇神殿洞穴",
+			["name"] = "冰沙的粉絲",
+			["lastSeen"] = 1651311530,
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-0014DF75",
+		}, -- [67]
+		{
+			["dungeon"] = "盤牙:毒蛇神殿洞穴",
+			["name"] = "Lanboman",
+			["lastSeen"] = 1651311530,
+			["class"] = "WARRIOR",
+			["guid"] = "Player-4487-00012A71",
+		}, -- [68]
+		{
+			["dungeon"] = "盤牙:毒蛇神殿洞穴",
+			["name"] = "念可",
+			["lastSeen"] = 1651311530,
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-00149D5F",
+		}, -- [69]
+		{
+			["dungeon"] = "盤牙:毒蛇神殿洞穴",
+			["name"] = "半生如今",
+			["lastSeen"] = 1651311530,
+			["class"] = "ROGUE",
+			["guid"] = "Player-4487-00115484",
+		}, -- [70]
 		{
 			["dungeon"] = "盤牙:毒蛇神殿洞穴",
 			["name"] = "Aquabbchan",
 			["lastSeen"] = 1651311530,
 			["class"] = "PRIEST",
 			["guid"] = "Player-4487-00117421",
+		}, -- [71]
+		{
+			["dungeon"] = "盤牙:毒蛇神殿洞穴",
+			["name"] = "卡噗豆腐",
+			["lastSeen"] = 1651311530,
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-001454DD",
+		}, -- [72]
+		{
+			["dungeon"] = "盤牙:毒蛇神殿洞穴",
+			["name"] = "差不多一點",
+			["lastSeen"] = 1651311530,
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-0002BCEF",
+		}, -- [73]
+		{
+			["dungeon"] = "盤牙:毒蛇神殿洞穴",
+			["name"] = "口卡啦雞腿堡",
+			["lastSeen"] = 1651311530,
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-00006D23",
+		}, -- [74]
+		{
+			["dungeon"] = "盤牙:毒蛇神殿洞穴",
+			["name"] = "瘋小小",
+			["lastSeen"] = 1651311530,
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-0009A678",
 		}, -- [75]
 		{
 			["dungeon"] = "海加爾山戰場",
@@ -581,10 +630,10 @@ GroupBulletinBoardDBChar = {
 		}, -- [76]
 		{
 			["dungeon"] = "海加爾山戰場",
-			["name"] = "別逼我變羊",
+			["name"] = "柳七夜",
 			["lastSeen"] = 1651338934,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-00028D4E",
+			["class"] = "WARRIOR",
+			["guid"] = "Player-4487-000A08A4",
 		}, -- [77]
 		{
 			["dungeon"] = "海加爾山戰場",
@@ -595,24 +644,24 @@ GroupBulletinBoardDBChar = {
 		}, -- [78]
 		{
 			["dungeon"] = "海加爾山戰場",
+			["name"] = "別逼我變羊",
+			["lastSeen"] = 1651338934,
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-00028D4E",
+		}, -- [79]
+		{
+			["dungeon"] = "海加爾山戰場",
 			["name"] = "冰郎交出來",
 			["lastSeen"] = 1651338934,
 			["class"] = "MAGE",
 			["guid"] = "Player-4487-000C8DE5",
-		}, -- [79]
-		{
-			["dungeon"] = "海加爾山戰場",
-			["name"] = "柳七夜",
-			["lastSeen"] = 1651338934,
-			["class"] = "WARRIOR",
-			["guid"] = "Player-4487-000A08A4",
 		}, -- [80]
 		{
 			["dungeon"] = "祖阿曼",
-			["name"] = "Harchu",
+			["name"] = "螺旋毒龍鑽",
 			["lastSeen"] = 1651425844,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-0012B97E",
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-000CFA78",
 		}, -- [81]
 		{
 			["dungeon"] = "祖阿曼",
@@ -630,10 +679,10 @@ GroupBulletinBoardDBChar = {
 		}, -- [83]
 		{
 			["dungeon"] = "祖阿曼",
-			["name"] = "螺旋毒龍鑽",
+			["name"] = "Harchu",
 			["lastSeen"] = 1651425844,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-000CFA78",
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-0012B97E",
 		}, -- [84]
 		{
 			["dungeon"] = "戈魯爾之巢",
@@ -651,59 +700,59 @@ GroupBulletinBoardDBChar = {
 		}, -- [86]
 		{
 			["dungeon"] = "戈魯爾之巢",
+			["name"] = "Wooloomooloo",
+			["lastSeen"] = 1651468282,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-00115624",
+		}, -- [87]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "強尼帶譜",
+			["lastSeen"] = 1651468282,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-001174EE",
+		}, -- [88]
+		{
+			["dungeon"] = "戈魯爾之巢",
 			["name"] = "四代目",
 			["lastSeen"] = 1651468282,
 			["class"] = "HUNTER",
 			["guid"] = "Player-4487-0008D6D6",
-		}, -- [87]
+		}, -- [89]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "Exilescepter",
+			["lastSeen"] = 1651468282,
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-00061BF1",
+		}, -- [90]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "晨曦月",
+			["lastSeen"] = 1651468282,
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-000C56CC",
+		}, -- [91]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "Ameame",
+			["lastSeen"] = 1651468282,
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-00153054",
+		}, -- [92]
 		{
 			["dungeon"] = "戈魯爾之巢",
 			["name"] = "莫札特",
 			["lastSeen"] = 1651468282,
 			["class"] = "WARLOCK",
 			["guid"] = "Player-4487-00013408",
-		}, -- [88]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "吃瓜群眾",
-			["lastSeen"] = 1651468282,
-			["class"] = "ROGUE",
-			["guid"] = "Player-4487-00014E9B",
-		}, -- [89]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "匕落花謝",
-			["lastSeen"] = 1651468282,
-			["class"] = "ROGUE",
-			["guid"] = "Player-4487-0008AC21",
-		}, -- [90]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "Keycho",
-			["lastSeen"] = 1651468282,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-0013AF25",
-		}, -- [91]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "廢物清理者",
-			["lastSeen"] = 1651468282,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4487-00084927",
-		}, -- [92]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "Wooloomooloo",
-			["lastSeen"] = 1651468282,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-00115624",
 		}, -- [93]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "冰冷聖經",
+			["name"] = "凱喬美",
 			["lastSeen"] = 1651468282,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-000E7488",
+			["class"] = "WARRIOR",
+			["guid"] = "Player-4487-001514DF",
 		}, -- [94]
 		{
 			["dungeon"] = "戈魯爾之巢",
@@ -714,66 +763,66 @@ GroupBulletinBoardDBChar = {
 		}, -- [95]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "陶大師",
+			["name"] = "吃瓜群眾",
 			["lastSeen"] = 1651468282,
-			["class"] = "WARRIOR",
-			["guid"] = "Player-4487-0000FD7B",
+			["class"] = "ROGUE",
+			["guid"] = "Player-4487-00014E9B",
 		}, -- [96]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "你點到美男了",
-			["lastSeen"] = 1651468282,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-0008E1E2",
-		}, -- [97]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "強尼帶譜",
-			["lastSeen"] = 1651468282,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-001174EE",
-		}, -- [98]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "風尋的記憶",
-			["lastSeen"] = 1651468282,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-00077650",
-		}, -- [99]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "Exilescepter",
-			["lastSeen"] = 1651468282,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-00061BF1",
-		}, -- [100]
 		{
 			["dungeon"] = "戈魯爾之巢",
 			["name"] = "浩然之氣",
 			["lastSeen"] = 1651468282,
 			["class"] = "PALADIN",
 			["guid"] = "Player-4487-0012DA68",
+		}, -- [97]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "風尋的記憶",
+			["lastSeen"] = 1651468282,
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-00077650",
+		}, -- [98]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "你點到美男了",
+			["lastSeen"] = 1651468282,
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-0008E1E2",
+		}, -- [99]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "匕落花謝",
+			["lastSeen"] = 1651468282,
+			["class"] = "ROGUE",
+			["guid"] = "Player-4487-0008AC21",
+		}, -- [100]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "陶大師",
+			["lastSeen"] = 1651468282,
+			["class"] = "WARRIOR",
+			["guid"] = "Player-4487-0000FD7B",
 		}, -- [101]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "Ameame",
+			["name"] = "廢物清理者",
 			["lastSeen"] = 1651468282,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-00153054",
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-00084927",
 		}, -- [102]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "凱喬美",
+			["name"] = "Keycho",
 			["lastSeen"] = 1651468282,
-			["class"] = "WARRIOR",
-			["guid"] = "Player-4487-001514DF",
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-0013AF25",
 		}, -- [103]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "晨曦月",
+			["name"] = "冰冷聖經",
 			["lastSeen"] = 1651468282,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4487-000C56CC",
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-000E7488",
 		}, -- [104]
 		{
 			["dungeon"] = "祖阿曼",
@@ -798,17 +847,17 @@ GroupBulletinBoardDBChar = {
 		}, -- [107]
 		{
 			["dungeon"] = "祖阿曼",
-			["name"] = "小白胖",
+			["name"] = "Nicolass",
 			["lastSeen"] = 1651673772,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-000BEBE1",
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-0014C623",
 		}, -- [108]
 		{
 			["dungeon"] = "祖阿曼",
-			["name"] = "銨新上路",
+			["name"] = "哞咩睏",
 			["lastSeen"] = 1651673772,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-0012BD45",
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-0013AB46",
 		}, -- [109]
 		{
 			["dungeon"] = "祖阿曼",
@@ -819,17 +868,17 @@ GroupBulletinBoardDBChar = {
 		}, -- [110]
 		{
 			["dungeon"] = "祖阿曼",
-			["name"] = "哞咩睏",
+			["name"] = "銨新上路",
 			["lastSeen"] = 1651673772,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-0013AB46",
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-0012BD45",
 		}, -- [111]
 		{
 			["dungeon"] = "祖阿曼",
-			["name"] = "Nicolass",
+			["name"] = "小白胖",
 			["lastSeen"] = 1651673772,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-0014C623",
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-000BEBE1",
 		}, -- [112]
 		{
 			["dungeon"] = "戈魯爾之巢",
@@ -854,59 +903,59 @@ GroupBulletinBoardDBChar = {
 		}, -- [115]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "Panthergirl",
+			["name"] = "老人機",
 			["lastSeen"] = 1651854091,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-00110816",
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-00131A39",
 		}, -- [116]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "爆爆清場",
+			["name"] = "乂鬥魂駭客乂",
 			["lastSeen"] = 1651854091,
 			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-00013166",
+			["guid"] = "Player-4487-0013E71E",
 		}, -- [117]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "一邪天御武一",
+			["name"] = "楪可憐",
 			["lastSeen"] = 1651854091,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-00147F23",
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-00152D13",
 		}, -- [118]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "Jovey",
+			["name"] = "斬斬",
 			["lastSeen"] = 1651854091,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-00151534",
+			["class"] = "WARRIOR",
+			["guid"] = "Player-4487-0011FEFE",
 		}, -- [119]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "酒刈太郎",
+			["name"] = "愛為德法",
 			["lastSeen"] = 1651854091,
-			["class"] = "WARRIOR",
-			["guid"] = "Player-4487-00150B0A",
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-0013D101",
 		}, -- [120]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "雲心無我",
+			["name"] = "餅乾夾土司",
 			["lastSeen"] = 1651854091,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-000822B1",
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-00117526",
 		}, -- [121]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "熊爺爺",
+			["name"] = "李總統",
 			["lastSeen"] = 1651854091,
-			["class"] = "ROGUE",
-			["guid"] = "Player-4487-00024747",
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-000CBEEF",
 		}, -- [122]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "維魯莎多",
+			["name"] = "脆脆玩聖騎",
 			["lastSeen"] = 1651854091,
 			["class"] = "PALADIN",
-			["guid"] = "Player-4487-0014BE36",
+			["guid"] = "Player-4487-00125EC5",
 		}, -- [123]
 		{
 			["dungeon"] = "戈魯爾之巢",
@@ -917,59 +966,59 @@ GroupBulletinBoardDBChar = {
 		}, -- [124]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "脆脆玩聖騎",
+			["name"] = "熊爺爺",
 			["lastSeen"] = 1651854091,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-00125EC5",
+			["class"] = "ROGUE",
+			["guid"] = "Player-4487-00024747",
 		}, -- [125]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "餅乾夾土司",
+			["name"] = "酒刈太郎",
 			["lastSeen"] = 1651854091,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-00117526",
+			["class"] = "WARRIOR",
+			["guid"] = "Player-4487-00150B0A",
 		}, -- [126]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "楪可憐",
+			["name"] = "一邪天御武一",
 			["lastSeen"] = 1651854091,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-00152D13",
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-00147F23",
 		}, -- [127]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "乂鬥魂駭客乂",
+			["name"] = "爆爆清場",
 			["lastSeen"] = 1651854091,
 			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-0013E71E",
+			["guid"] = "Player-4487-00013166",
 		}, -- [128]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "愛為德法",
+			["name"] = "維魯莎多",
 			["lastSeen"] = 1651854091,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-0013D101",
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-0014BE36",
 		}, -- [129]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "斬斬",
+			["name"] = "雲心無我",
 			["lastSeen"] = 1651854091,
-			["class"] = "WARRIOR",
-			["guid"] = "Player-4487-0011FEFE",
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-000822B1",
 		}, -- [130]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "李總統",
+			["name"] = "Panthergirl",
 			["lastSeen"] = 1651854091,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4487-000CBEEF",
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-00110816",
 		}, -- [131]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "老人機",
+			["name"] = "Jovey",
 			["lastSeen"] = 1651854091,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-00131A39",
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-00151534",
 		}, -- [132]
 		{
 			["dungeon"] = "黑暗神廟",
@@ -994,136 +1043,136 @@ GroupBulletinBoardDBChar = {
 		}, -- [135]
 		{
 			["dungeon"] = "海加爾山戰場",
+			["name"] = "歿天使",
+			["lastSeen"] = 1651941755,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-00117A78",
+		}, -- [136]
+		{
+			["dungeon"] = "海加爾山戰場",
 			["name"] = "怪媚妹",
 			["lastSeen"] = 1651941755,
 			["class"] = "PRIEST",
 			["guid"] = "Player-4487-000E9218",
-		}, -- [136]
+		}, -- [137]
 		{
 			["dungeon"] = "海加爾山戰場",
 			["name"] = "獵艷狂魔",
 			["lastSeen"] = 1651941755,
 			["class"] = "HUNTER",
 			["guid"] = "Player-4487-00097568",
-		}, -- [137]
-		{
-			["dungeon"] = "海加爾山戰場",
-			["name"] = "歿天使",
-			["lastSeen"] = 1651941755,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-00117A78",
 		}, -- [138]
-		{
-			["dungeon"] = "祖阿曼",
-			["name"] = "熱血國雄",
-			["lastSeen"] = 1652030460,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4487-00096563",
-		}, -- [139]
-		{
-			["dungeon"] = "祖阿曼",
-			["name"] = "喝奶長大的",
-			["lastSeen"] = 1652030460,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-000685F3",
-		}, -- [140]
-		{
-			["dungeon"] = "祖阿曼",
-			["name"] = "Garchu",
-			["lastSeen"] = 1652030460,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-00115BF7",
-		}, -- [141]
-		{
-			["dungeon"] = "祖阿曼",
-			["name"] = "卡萊姆",
-			["lastSeen"] = 1652030460,
-			["class"] = "WARRIOR",
-			["guid"] = "Player-4487-00035768",
-		}, -- [142]
-		{
-			["dungeon"] = "祖阿曼",
-			["name"] = "人來人往",
-			["lastSeen"] = 1652030460,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-000386D6",
-		}, -- [143]
-		{
-			["dungeon"] = "祖阿曼",
-			["name"] = "哇咩么",
-			["lastSeen"] = 1652030460,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-0013F11C",
-		}, -- [144]
 		{
 			["dungeon"] = "祖阿曼",
 			["name"] = "跑酷提摩",
 			["lastSeen"] = 1652030460,
 			["class"] = "DRUID",
 			["guid"] = "Player-4487-000C48AF",
-		}, -- [145]
-		{
-			["dungeon"] = "祖阿曼",
-			["name"] = "毛茸茸的玩意",
-			["lastSeen"] = 1652030460,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-0012795D",
-		}, -- [146]
+		}, -- [139]
 		{
 			["dungeon"] = "祖阿曼",
 			["name"] = "一寸秋",
 			["lastSeen"] = 1652030460,
 			["class"] = "PALADIN",
 			["guid"] = "Player-4487-00151774",
-		}, -- [147]
+		}, -- [140]
 		{
 			["dungeon"] = "祖阿曼",
-			["name"] = "落塔",
-			["lastSeen"] = 1652197677,
+			["name"] = "哇咩么",
+			["lastSeen"] = 1652030460,
 			["class"] = "PRIEST",
-			["guid"] = "Player-4487-0004978D",
-		}, -- [148]
+			["guid"] = "Player-4487-0013F11C",
+		}, -- [141]
 		{
 			["dungeon"] = "祖阿曼",
-			["name"] = "汁哞",
-			["lastSeen"] = 1652197677,
+			["name"] = "毛茸茸的玩意",
+			["lastSeen"] = 1652030460,
 			["class"] = "DRUID",
-			["guid"] = "Player-4487-000962C2",
-		}, -- [149]
+			["guid"] = "Player-4487-0012795D",
+		}, -- [142]
+		{
+			["dungeon"] = "祖阿曼",
+			["name"] = "卡萊姆",
+			["lastSeen"] = 1652030460,
+			["class"] = "WARRIOR",
+			["guid"] = "Player-4487-00035768",
+		}, -- [143]
+		{
+			["dungeon"] = "祖阿曼",
+			["name"] = "熱血國雄",
+			["lastSeen"] = 1652030460,
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-00096563",
+		}, -- [144]
+		{
+			["dungeon"] = "祖阿曼",
+			["name"] = "喝奶長大的",
+			["lastSeen"] = 1652030460,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-000685F3",
+		}, -- [145]
+		{
+			["dungeon"] = "祖阿曼",
+			["name"] = "人來人往",
+			["lastSeen"] = 1652030460,
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-000386D6",
+		}, -- [146]
+		{
+			["dungeon"] = "祖阿曼",
+			["name"] = "Garchu",
+			["lastSeen"] = 1652030460,
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-00115BF7",
+		}, -- [147]
 		{
 			["dungeon"] = "祖阿曼",
 			["name"] = "雷摩特製造商",
 			["lastSeen"] = 1652197677,
 			["class"] = "MAGE",
 			["guid"] = "Player-4487-000800AD",
-		}, -- [150]
-		{
-			["dungeon"] = "祖阿曼",
-			["name"] = "桂妮薇兒",
-			["lastSeen"] = 1652197677,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-001163A5",
-		}, -- [151]
-		{
-			["dungeon"] = "祖阿曼",
-			["name"] = "咩哞",
-			["lastSeen"] = 1652197677,
-			["class"] = "WARRIOR",
-			["guid"] = "Player-4487-000E85A5",
-		}, -- [152]
-		{
-			["dungeon"] = "祖阿曼",
-			["name"] = "木亟手分手",
-			["lastSeen"] = 1652197677,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-00094CEC",
-		}, -- [153]
+		}, -- [148]
 		{
 			["dungeon"] = "祖阿曼",
 			["name"] = "大肚遙遙",
 			["lastSeen"] = 1652197677,
 			["class"] = "SHAMAN",
 			["guid"] = "Player-4487-000D43F9",
+		}, -- [149]
+		{
+			["dungeon"] = "祖阿曼",
+			["name"] = "咩哞",
+			["lastSeen"] = 1652197677,
+			["class"] = "WARRIOR",
+			["guid"] = "Player-4487-000E85A5",
+		}, -- [150]
+		{
+			["dungeon"] = "祖阿曼",
+			["name"] = "落塔",
+			["lastSeen"] = 1652197677,
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-0004978D",
+		}, -- [151]
+		{
+			["dungeon"] = "祖阿曼",
+			["name"] = "木亟手分手",
+			["lastSeen"] = 1652197677,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-00094CEC",
+		}, -- [152]
+		{
+			["dungeon"] = "祖阿曼",
+			["name"] = "桂妮薇兒",
+			["lastSeen"] = 1652197677,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-001163A5",
+		}, -- [153]
+		{
+			["dungeon"] = "祖阿曼",
+			["name"] = "汁哞",
+			["lastSeen"] = 1652197677,
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-000962C2",
 		}, -- [154]
 		{
 			["dungeon"] = "博學者殿堂",
@@ -1162,157 +1211,157 @@ GroupBulletinBoardDBChar = {
 		}, -- [159]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "紅色蛋糕",
-			["lastSeen"] = 1652508203,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-0012127E",
-		}, -- [160]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "冰心冷刃",
-			["lastSeen"] = 1652508203,
-			["class"] = "ROGUE",
-			["guid"] = "Player-4487-0008293A",
-		}, -- [161]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "哈啦插吸狼",
-			["lastSeen"] = 1652508203,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-000D0845",
-		}, -- [162]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "全憑感覺",
-			["lastSeen"] = 1652508203,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-0008B04A",
-		}, -- [163]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "夜吟風蕭月",
-			["lastSeen"] = 1652508203,
-			["class"] = "WARRIOR",
-			["guid"] = "Player-4487-00029AFC",
-		}, -- [164]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "默兒",
-			["lastSeen"] = 1652508203,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-000426E0",
-		}, -- [165]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "哈雷衛星",
-			["lastSeen"] = 1652508203,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-00044DCB",
-		}, -- [166]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "尬電尬電",
-			["lastSeen"] = 1652508203,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-0013F51E",
-		}, -- [167]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "Pomimi",
-			["lastSeen"] = 1652508203,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-00116231",
-		}, -- [168]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "真導零",
-			["lastSeen"] = 1652508203,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-00063959",
-		}, -- [169]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "馜馜兒",
-			["lastSeen"] = 1652508203,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-0008F7EB",
-		}, -- [170]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "土元素",
-			["lastSeen"] = 1652508203,
-			["class"] = "WARRIOR",
-			["guid"] = "Player-4487-00041A95",
-		}, -- [171]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "潮麥大頭菜",
-			["lastSeen"] = 1652508203,
-			["class"] = "WARRIOR",
-			["guid"] = "Player-4487-000DE653",
-		}, -- [172]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "流弊戰",
-			["lastSeen"] = 1652508203,
-			["class"] = "WARRIOR",
-			["guid"] = "Player-4487-000BEBEB",
-		}, -- [173]
-		{
-			["dungeon"] = "戈魯爾之巢",
 			["name"] = "危機",
 			["lastSeen"] = 1652508203,
 			["class"] = "PALADIN",
 			["guid"] = "Player-4487-001200AC",
-		}, -- [174]
+		}, -- [160]
 		{
 			["dungeon"] = "戈魯爾之巢",
 			["name"] = "惡魔獵手",
 			["lastSeen"] = 1652508203,
 			["class"] = "HUNTER",
 			["guid"] = "Player-4487-00011BF8",
-		}, -- [175]
+		}, -- [161]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "暮鹿",
+			["name"] = "流弊戰",
 			["lastSeen"] = 1652508203,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-0014468A",
-		}, -- [176]
+			["class"] = "WARRIOR",
+			["guid"] = "Player-4487-000BEBEB",
+		}, -- [162]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "伊雷薩",
+			["name"] = "潮麥大頭菜",
 			["lastSeen"] = 1652508203,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-000B16DB",
-		}, -- [177]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "嵨颯颯",
-			["lastSeen"] = 1652508203,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-0014162B",
-		}, -- [178]
+			["class"] = "WARRIOR",
+			["guid"] = "Player-4487-000DE653",
+		}, -- [163]
 		{
 			["dungeon"] = "戈魯爾之巢",
 			["name"] = "搖搖",
 			["lastSeen"] = 1652508203,
 			["class"] = "HUNTER",
 			["guid"] = "Player-4487-00091C2E",
-		}, -- [179]
+		}, -- [164]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "嵨颯颯",
+			["lastSeen"] = 1652508203,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-0014162B",
+		}, -- [165]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "土元素",
+			["lastSeen"] = 1652508203,
+			["class"] = "WARRIOR",
+			["guid"] = "Player-4487-00041A95",
+		}, -- [166]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "伊雷薩",
+			["lastSeen"] = 1652508203,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-000B16DB",
+		}, -- [167]
 		{
 			["dungeon"] = "戈魯爾之巢",
 			["name"] = "骸影",
 			["lastSeen"] = 1652508203,
 			["class"] = "WARLOCK",
 			["guid"] = "Player-4487-0001E58D",
-		}, -- [180]
+		}, -- [168]
 		{
 			["dungeon"] = "戈魯爾之巢",
 			["name"] = "在袍你家祖墳",
 			["lastSeen"] = 1652508203,
 			["class"] = "WARRIOR",
 			["guid"] = "Player-4487-000850CF",
+		}, -- [169]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "暮鹿",
+			["lastSeen"] = 1652508203,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-0014468A",
+		}, -- [170]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "默兒",
+			["lastSeen"] = 1652508203,
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-000426E0",
+		}, -- [171]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "Pomimi",
+			["lastSeen"] = 1652508203,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-00116231",
+		}, -- [172]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "全憑感覺",
+			["lastSeen"] = 1652508203,
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-0008B04A",
+		}, -- [173]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "冰心冷刃",
+			["lastSeen"] = 1652508203,
+			["class"] = "ROGUE",
+			["guid"] = "Player-4487-0008293A",
+		}, -- [174]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "紅色蛋糕",
+			["lastSeen"] = 1652508203,
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-0012127E",
+		}, -- [175]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "真導零",
+			["lastSeen"] = 1652508203,
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-00063959",
+		}, -- [176]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "哈啦插吸狼",
+			["lastSeen"] = 1652508203,
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-000D0845",
+		}, -- [177]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "馜馜兒",
+			["lastSeen"] = 1652508203,
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-0008F7EB",
+		}, -- [178]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "哈雷衛星",
+			["lastSeen"] = 1652508203,
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-00044DCB",
+		}, -- [179]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "尬電尬電",
+			["lastSeen"] = 1652508203,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-0013F51E",
+		}, -- [180]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "夜吟風蕭月",
+			["lastSeen"] = 1652508203,
+			["class"] = "WARRIOR",
+			["guid"] = "Player-4487-00029AFC",
 		}, -- [181]
 		{
 			["dungeon"] = "太陽之井",
@@ -1330,17 +1379,17 @@ GroupBulletinBoardDBChar = {
 		}, -- [183]
 		{
 			["dungeon"] = "太陽之井",
-			["name"] = "米小白",
-			["lastSeen"] = 1652545800,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4487-000B40AE",
-		}, -- [184]
-		{
-			["dungeon"] = "太陽之井",
 			["name"] = "可有可無",
 			["lastSeen"] = 1652545800,
 			["class"] = "SHAMAN",
 			["guid"] = "Player-4487-0014AD95",
+		}, -- [184]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "米小白",
+			["lastSeen"] = 1652545800,
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-000B40AE",
 		}, -- [185]
 		{
 			["dungeon"] = "黑暗神廟",
@@ -1351,171 +1400,171 @@ GroupBulletinBoardDBChar = {
 		}, -- [186]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "得汝液",
+			["name"] = "心態已死",
 			["lastSeen"] = 1652605457,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-000642D1",
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-0011A100",
 		}, -- [187]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "Xn",
-			["lastSeen"] = 1652605457,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-0011544A",
-		}, -- [188]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "德懿",
-			["lastSeen"] = 1652605457,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-0010712D",
-		}, -- [189]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "溫柔秒你",
-			["lastSeen"] = 1652605457,
-			["class"] = "ROGUE",
-			["guid"] = "Player-4487-00144159",
-		}, -- [190]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "錢來",
-			["lastSeen"] = 1652605457,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-000C0822",
-		}, -- [191]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "戰士衝過來啦",
-			["lastSeen"] = 1652605457,
-			["class"] = "WARRIOR",
-			["guid"] = "Player-4487-00037433",
-		}, -- [192]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "巴歐薩喀爾",
-			["lastSeen"] = 1652605457,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-00118F07",
-		}, -- [193]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "小魔女秀燕",
-			["lastSeen"] = 1652605457,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-000728F7",
-		}, -- [194]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "烏拉諾媤",
-			["lastSeen"] = 1652605457,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-00143746",
-		}, -- [195]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "叉你老牧",
-			["lastSeen"] = 1652605457,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-0007198B",
-		}, -- [196]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "冰冰雪靈",
-			["lastSeen"] = 1652605457,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4487-000A5CF6",
-		}, -- [197]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "真神真聖",
-			["lastSeen"] = 1652605457,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-000F2177",
-		}, -- [198]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "厄畢司",
-			["lastSeen"] = 1652605457,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-0006C20D",
-		}, -- [199]
 		{
 			["dungeon"] = "黑暗神廟",
 			["name"] = "Alentmagex",
 			["lastSeen"] = 1652605457,
 			["class"] = "MAGE",
 			["guid"] = "Player-4487-00137BB4",
-		}, -- [200]
+		}, -- [188]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "心態已死",
+			["name"] = "厄畢司",
 			["lastSeen"] = 1652605457,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-0011A100",
-		}, -- [201]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "大心大肉",
-			["lastSeen"] = 1652605457,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-001448E7",
-		}, -- [202]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "超神的",
-			["lastSeen"] = 1652605457,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-00071317",
-		}, -- [203]
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-0006C20D",
+		}, -- [189]
 		{
 			["dungeon"] = "黑暗神廟",
 			["name"] = "Kazapriest",
 			["lastSeen"] = 1652605457,
 			["class"] = "PRIEST",
 			["guid"] = "Player-4487-000DB746",
-		}, -- [204]
+		}, -- [190]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "溫柔秒你",
+			["lastSeen"] = 1652605457,
+			["class"] = "ROGUE",
+			["guid"] = "Player-4487-00144159",
+		}, -- [191]
 		{
 			["dungeon"] = "黑暗神廟",
 			["name"] = "喜歡用槍",
 			["lastSeen"] = 1652605457,
 			["class"] = "HUNTER",
 			["guid"] = "Player-4487-00080ABB",
-		}, -- [205]
+		}, -- [192]
 		{
 			["dungeon"] = "黑暗神廟",
 			["name"] = "餓了嗎",
 			["lastSeen"] = 1652605457,
 			["class"] = "WARLOCK",
 			["guid"] = "Player-4487-00081823",
-		}, -- [206]
+		}, -- [193]
 		{
 			["dungeon"] = "黑暗神廟",
 			["name"] = "Zmeow",
 			["lastSeen"] = 1652605457,
 			["class"] = "PALADIN",
 			["guid"] = "Player-4487-00117D4D",
-		}, -- [207]
+		}, -- [194]
 		{
-			["dungeon"] = "太陽之井",
-			["name"] = "史豔文",
-			["lastSeen"] = 1652632261,
+			["dungeon"] = "黑暗神廟",
+			["name"] = "真神真聖",
+			["lastSeen"] = 1652605457,
 			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-000BF6F9",
-		}, -- [208]
+			["guid"] = "Player-4487-000F2177",
+		}, -- [195]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "超神的",
+			["lastSeen"] = 1652605457,
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-00071317",
+		}, -- [196]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "錢來",
+			["lastSeen"] = 1652605457,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-000C0822",
+		}, -- [197]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "叉你老牧",
+			["lastSeen"] = 1652605457,
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-0007198B",
+		}, -- [198]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "德懿",
+			["lastSeen"] = 1652605457,
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-0010712D",
+		}, -- [199]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "Xn",
+			["lastSeen"] = 1652605457,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-0011544A",
+		}, -- [200]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "得汝液",
+			["lastSeen"] = 1652605457,
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-000642D1",
+		}, -- [201]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "冰冰雪靈",
+			["lastSeen"] = 1652605457,
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-000A5CF6",
+		}, -- [202]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "巴歐薩喀爾",
+			["lastSeen"] = 1652605457,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-00118F07",
+		}, -- [203]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "大心大肉",
+			["lastSeen"] = 1652605457,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-001448E7",
+		}, -- [204]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "小魔女秀燕",
+			["lastSeen"] = 1652605457,
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-000728F7",
+		}, -- [205]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "烏拉諾媤",
+			["lastSeen"] = 1652605457,
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-00143746",
+		}, -- [206]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "戰士衝過來啦",
+			["lastSeen"] = 1652605457,
+			["class"] = "WARRIOR",
+			["guid"] = "Player-4487-00037433",
+		}, -- [207]
 		{
 			["dungeon"] = "太陽之井",
 			["name"] = "Trowa",
 			["lastSeen"] = 1652632261,
 			["class"] = "HUNTER",
 			["guid"] = "Player-4487-00064131",
+		}, -- [208]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "史豔文",
+			["lastSeen"] = 1652632261,
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-000BF6F9",
 		}, -- [209]
 		{
 			["dungeon"] = "太陽之井",
-			["name"] = "小傻妹",
+			["name"] = "白魔后",
 			["lastSeen"] = 1652632261,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-000F96ED",
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-0012225A",
 		}, -- [210]
 		{
 			["dungeon"] = "太陽之井",
@@ -1526,10 +1575,10 @@ GroupBulletinBoardDBChar = {
 		}, -- [211]
 		{
 			["dungeon"] = "太陽之井",
-			["name"] = "白魔后",
+			["name"] = "小傻妹",
 			["lastSeen"] = 1652632261,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-0012225A",
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-000F96ED",
 		}, -- [212]
 		{
 			["dungeon"] = "黑暗神廟",
@@ -1547,73 +1596,73 @@ GroupBulletinBoardDBChar = {
 		}, -- [214]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "Yor",
+			["name"] = "陶大大",
 			["lastSeen"] = 1652978061,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-001563D1",
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-000BCBA3",
 		}, -- [215]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "伍零",
+			["name"] = "淚雨昕",
 			["lastSeen"] = 1652978061,
 			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-00126D03",
+			["guid"] = "Player-4487-000756A3",
 		}, -- [216]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "最峰",
+			["name"] = "職業試玩一",
 			["lastSeen"] = 1652978061,
-			["class"] = "WARRIOR",
-			["guid"] = "Player-4487-000982D2",
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-00085FB2",
 		}, -- [217]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "牧嫦妃",
+			["name"] = "德爺李",
 			["lastSeen"] = 1652978061,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-00060D55",
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-000876B0",
 		}, -- [218]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "Lvy",
+			["name"] = "翠玉青茶",
 			["lastSeen"] = 1652978061,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-0015283D",
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-00115666",
 		}, -- [219]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "我要落跑嚕",
+			["name"] = "合作射老師",
 			["lastSeen"] = 1652978061,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-00134C11",
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-001251B2",
 		}, -- [220]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "林刀休了了",
+			["name"] = "未解之謎",
 			["lastSeen"] = 1652978061,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-0008A71A",
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-00116293",
 		}, -- [221]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "十二月",
+			["name"] = "Gihan",
 			["lastSeen"] = 1652978061,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-000387ED",
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-0002B70D",
 		}, -- [222]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "燹火",
+			["name"] = "武釋",
 			["lastSeen"] = 1652978061,
-			["class"] = "ROGUE",
-			["guid"] = "Player-4487-0012D146",
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-0012C220",
 		}, -- [223]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "吃菜",
+			["name"] = "覆盆子雪芙蕾",
 			["lastSeen"] = 1652978061,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-000BEAF2",
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-0015613B",
 		}, -- [224]
 		{
 			["dungeon"] = "黑暗神廟",
@@ -1631,73 +1680,73 @@ GroupBulletinBoardDBChar = {
 		}, -- [226]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "淚雨昕",
+			["name"] = "吃菜",
 			["lastSeen"] = 1652978061,
 			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-000756A3",
+			["guid"] = "Player-4487-000BEAF2",
 		}, -- [227]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "德爺李",
+			["name"] = "最峰",
 			["lastSeen"] = 1652978061,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-000876B0",
+			["class"] = "WARRIOR",
+			["guid"] = "Player-4487-000982D2",
 		}, -- [228]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "翠玉青茶",
+			["name"] = "牧嫦妃",
 			["lastSeen"] = 1652978061,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-00115666",
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-00060D55",
 		}, -- [229]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "職業試玩一",
+			["name"] = "伍零",
 			["lastSeen"] = 1652978061,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-00085FB2",
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-00126D03",
 		}, -- [230]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "合作射老師",
+			["name"] = "Lvy",
 			["lastSeen"] = 1652978061,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4487-001251B2",
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-0015283D",
 		}, -- [231]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "Gihan",
+			["name"] = "我要落跑嚕",
 			["lastSeen"] = 1652978061,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-0002B70D",
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-00134C11",
 		}, -- [232]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "未解之謎",
+			["name"] = "十二月",
 			["lastSeen"] = 1652978061,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-00116293",
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-000387ED",
 		}, -- [233]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "覆盆子雪芙蕾",
+			["name"] = "林刀休了了",
 			["lastSeen"] = 1652978061,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-0015613B",
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-0008A71A",
 		}, -- [234]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "武釋",
+			["name"] = "燹火",
 			["lastSeen"] = 1652978061,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-0012C220",
+			["class"] = "ROGUE",
+			["guid"] = "Player-4487-0012D146",
 		}, -- [235]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "陶大大",
+			["name"] = "Yor",
 			["lastSeen"] = 1652978061,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-000BCBA3",
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-001563D1",
 		}, -- [236]
 		{
 			["dungeon"] = "太陽之井",
@@ -1722,59 +1771,59 @@ GroupBulletinBoardDBChar = {
 		}, -- [239]
 		{
 			["dungeon"] = "祖阿曼",
-			["name"] = "夏焰",
-			["lastSeen"] = 1653317124,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4487-00119CAA",
-		}, -- [240]
-		{
-			["dungeon"] = "祖阿曼",
-			["name"] = "老目的老目",
-			["lastSeen"] = 1653317124,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-001396D6",
-		}, -- [241]
-		{
-			["dungeon"] = "祖阿曼",
-			["name"] = "砲擊型扎古",
-			["lastSeen"] = 1653317124,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-0014BC0B",
-		}, -- [242]
-		{
-			["dungeon"] = "祖阿曼",
-			["name"] = "Kotaro",
-			["lastSeen"] = 1653317124,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-0007AE08",
-		}, -- [243]
-		{
-			["dungeon"] = "祖阿曼",
-			["name"] = "愛老虎尤",
-			["lastSeen"] = 1653317124,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-00148CDA",
-		}, -- [244]
-		{
-			["dungeon"] = "祖阿曼",
 			["name"] = "沙花叉庫洛艾",
 			["lastSeen"] = 1653317124,
 			["class"] = "PALADIN",
 			["guid"] = "Player-4487-00149026",
-		}, -- [245]
+		}, -- [240]
 		{
 			["dungeon"] = "祖阿曼",
 			["name"] = "馬蚤黍占",
 			["lastSeen"] = 1653317124,
 			["class"] = "SHAMAN",
 			["guid"] = "Player-4487-000AC74E",
-		}, -- [246]
+		}, -- [241]
+		{
+			["dungeon"] = "祖阿曼",
+			["name"] = "愛老虎尤",
+			["lastSeen"] = 1653317124,
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-00148CDA",
+		}, -- [242]
 		{
 			["dungeon"] = "祖阿曼",
 			["name"] = "松偉亞門",
 			["lastSeen"] = 1653317124,
 			["class"] = "PRIEST",
 			["guid"] = "Player-4487-0014F435",
+		}, -- [243]
+		{
+			["dungeon"] = "祖阿曼",
+			["name"] = "Kotaro",
+			["lastSeen"] = 1653317124,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-0007AE08",
+		}, -- [244]
+		{
+			["dungeon"] = "祖阿曼",
+			["name"] = "老目的老目",
+			["lastSeen"] = 1653317124,
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-001396D6",
+		}, -- [245]
+		{
+			["dungeon"] = "祖阿曼",
+			["name"] = "砲擊型扎古",
+			["lastSeen"] = 1653317124,
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-0014BC0B",
+		}, -- [246]
+		{
+			["dungeon"] = "祖阿曼",
+			["name"] = "夏焰",
+			["lastSeen"] = 1653317124,
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-00119CAA",
 		}, -- [247]
 		{
 			["dungeon"] = "祖阿曼",
@@ -1799,10 +1848,10 @@ GroupBulletinBoardDBChar = {
 		}, -- [250]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "縷縷纏綿",
+			["name"] = "神經伊魯德",
 			["lastSeen"] = 1653667863,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4487-0013E7CD",
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-001365F1",
 		}, -- [251]
 		{
 			["dungeon"] = "黑暗神廟",
@@ -1813,66 +1862,66 @@ GroupBulletinBoardDBChar = {
 		}, -- [252]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "打灰狼",
-			["lastSeen"] = 1653667863,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-0011AB0E",
-		}, -- [253]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "全都沒想法",
-			["lastSeen"] = 1653667863,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-0011AD80",
-		}, -- [254]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "電丘",
-			["lastSeen"] = 1653667863,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-00114C59",
-		}, -- [255]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "一隻侏儒兔",
-			["lastSeen"] = 1653667863,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-0009A0E4",
-		}, -- [256]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "希郎",
-			["lastSeen"] = 1653667863,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-001363DD",
-		}, -- [257]
-		{
-			["dungeon"] = "黑暗神廟",
 			["name"] = "補不大",
 			["lastSeen"] = 1653667863,
 			["class"] = "SHAMAN",
 			["guid"] = "Player-4487-00119F93",
-		}, -- [258]
+		}, -- [253]
 		{
 			["dungeon"] = "黑暗神廟",
 			["name"] = "凌小狼",
 			["lastSeen"] = 1653667863,
 			["class"] = "SHAMAN",
 			["guid"] = "Player-4487-00092146",
+		}, -- [254]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "一隻侏儒兔",
+			["lastSeen"] = 1653667863,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-0009A0E4",
+		}, -- [255]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "打灰狼",
+			["lastSeen"] = 1653667863,
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-0011AB0E",
+		}, -- [256]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "電丘",
+			["lastSeen"] = 1653667863,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-00114C59",
+		}, -- [257]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "全都沒想法",
+			["lastSeen"] = 1653667863,
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-0011AD80",
+		}, -- [258]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "縷縷纏綿",
+			["lastSeen"] = 1653667863,
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-0013E7CD",
 		}, -- [259]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "神經伊魯德",
+			["name"] = "希郎",
 			["lastSeen"] = 1653667863,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-001365F1",
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-001363DD",
 		}, -- [260]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "錢來爺",
+			["name"] = "傲嬌吉祥物",
 			["lastSeen"] = 1653669836,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-0015436B",
+			["class"] = "WARRIOR",
+			["guid"] = "Player-4487-0014E71F",
 		}, -- [261]
 		{
 			["dungeon"] = "戈魯爾之巢",
@@ -1883,150 +1932,150 @@ GroupBulletinBoardDBChar = {
 		}, -- [262]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "逍遙人生",
-			["lastSeen"] = 1653669836,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4487-00145601",
-		}, -- [263]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "堯哥兔子窩",
-			["lastSeen"] = 1653669836,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-0014562F",
-		}, -- [264]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "馬英久仰大名",
-			["lastSeen"] = 1653669836,
-			["class"] = "ROGUE",
-			["guid"] = "Player-4487-0013C943",
-		}, -- [265]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "Ikemen",
-			["lastSeen"] = 1653669836,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-0007ADE9",
-		}, -- [266]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "斬殺王",
-			["lastSeen"] = 1653669836,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-0000E158",
-		}, -- [267]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "薩蜜絲",
-			["lastSeen"] = 1653669836,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-0010CD4B",
-		}, -- [268]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "可可牛奶熊",
-			["lastSeen"] = 1653669836,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-00119D6B",
-		}, -- [269]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "踏踏",
-			["lastSeen"] = 1653669836,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-0003E103",
-		}, -- [270]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "傲嬌吉祥物",
-			["lastSeen"] = 1653669836,
-			["class"] = "WARRIOR",
-			["guid"] = "Player-4487-0014E71F",
-		}, -- [271]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "玩累了就睡覺",
-			["lastSeen"] = 1653669836,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-0014B017",
-		}, -- [272]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "韓國瑜肉鄉民",
-			["lastSeen"] = 1653669836,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4487-0013C2C7",
-		}, -- [273]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "你的小尾巴",
-			["lastSeen"] = 1653669836,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-001550FC",
-		}, -- [274]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "倉庫德",
-			["lastSeen"] = 1653669836,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-0009754E",
-		}, -- [275]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "你爸來了",
-			["lastSeen"] = 1653669836,
-			["class"] = "WARRIOR",
-			["guid"] = "Player-4487-0000BEEA",
-		}, -- [276]
-		{
-			["dungeon"] = "戈魯爾之巢",
 			["name"] = "信惡魔得永生",
 			["lastSeen"] = 1653669836,
 			["class"] = "WARLOCK",
 			["guid"] = "Player-4487-0013C19A",
-		}, -- [277]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "十大邪術",
-			["lastSeen"] = 1653669836,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-0006C4D7",
-		}, -- [278]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "休息區",
-			["lastSeen"] = 1653669836,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-0009994C",
-		}, -- [279]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "變得好冰冰",
-			["lastSeen"] = 1653669836,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-000FCB14",
-		}, -- [280]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "小鳥遊黃泉",
-			["lastSeen"] = 1653669836,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-001181C8",
-		}, -- [281]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "牛牛的獵人",
-			["lastSeen"] = 1653669836,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4487-000C71C0",
-		}, -- [282]
+		}, -- [263]
 		{
 			["dungeon"] = "戈魯爾之巢",
 			["name"] = "誠實綠豆椪",
 			["lastSeen"] = 1653669836,
 			["class"] = "SHAMAN",
 			["guid"] = "Player-4487-00157936",
+		}, -- [264]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "逍遙人生",
+			["lastSeen"] = 1653669836,
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-00145601",
+		}, -- [265]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "小鳥遊黃泉",
+			["lastSeen"] = 1653669836,
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-001181C8",
+		}, -- [266]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "玩累了就睡覺",
+			["lastSeen"] = 1653669836,
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-0014B017",
+		}, -- [267]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "牛牛的獵人",
+			["lastSeen"] = 1653669836,
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-000C71C0",
+		}, -- [268]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "十大邪術",
+			["lastSeen"] = 1653669836,
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-0006C4D7",
+		}, -- [269]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "變得好冰冰",
+			["lastSeen"] = 1653669836,
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-000FCB14",
+		}, -- [270]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "錢來爺",
+			["lastSeen"] = 1653669836,
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-0015436B",
+		}, -- [271]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "你爸來了",
+			["lastSeen"] = 1653669836,
+			["class"] = "WARRIOR",
+			["guid"] = "Player-4487-0000BEEA",
+		}, -- [272]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "Ikemen",
+			["lastSeen"] = 1653669836,
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-0007ADE9",
+		}, -- [273]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "倉庫德",
+			["lastSeen"] = 1653669836,
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-0009754E",
+		}, -- [274]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "堯哥兔子窩",
+			["lastSeen"] = 1653669836,
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-0014562F",
+		}, -- [275]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "踏踏",
+			["lastSeen"] = 1653669836,
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-0003E103",
+		}, -- [276]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "你的小尾巴",
+			["lastSeen"] = 1653669836,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-001550FC",
+		}, -- [277]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "休息區",
+			["lastSeen"] = 1653669836,
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-0009994C",
+		}, -- [278]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "韓國瑜肉鄉民",
+			["lastSeen"] = 1653669836,
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-0013C2C7",
+		}, -- [279]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "斬殺王",
+			["lastSeen"] = 1653669836,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-0000E158",
+		}, -- [280]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "可可牛奶熊",
+			["lastSeen"] = 1653669836,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-00119D6B",
+		}, -- [281]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "薩蜜絲",
+			["lastSeen"] = 1653669836,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-0010CD4B",
+		}, -- [282]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "馬英久仰大名",
+			["lastSeen"] = 1653669836,
+			["class"] = "ROGUE",
+			["guid"] = "Player-4487-0013C943",
 		}, -- [283]
 		{
 			["dungeon"] = "太陽之井",
@@ -2051,38 +2100,38 @@ GroupBulletinBoardDBChar = {
 		}, -- [286]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "聖經乂",
+			["name"] = "找蟹大師",
 			["lastSeen"] = 1654271124,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-0013A99F",
+			["class"] = "WARRIOR",
+			["guid"] = "Player-4487-000C82BC",
 		}, -- [287]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "Chocowa",
+			["name"] = "Localsnake",
 			["lastSeen"] = 1654271124,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-0006EB28",
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-00123EA0",
 		}, -- [288]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "熊來了",
+			["name"] = "漫漫喵",
 			["lastSeen"] = 1654271124,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-0008E36B",
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-000B52AF",
 		}, -- [289]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "呆呆笨笨熊",
+			["name"] = "朝朝扯旗",
 			["lastSeen"] = 1654271124,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-0011AED4",
+			["class"] = "WARRIOR",
+			["guid"] = "Player-4487-0005C6C8",
 		}, -- [290]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "酒小獵",
+			["name"] = "阿梨的魔術師",
 			["lastSeen"] = 1654271124,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4487-00135262",
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-00153D10",
 		}, -- [291]
 		{
 			["dungeon"] = "黑暗神廟",
@@ -2093,38 +2142,38 @@ GroupBulletinBoardDBChar = {
 		}, -- [292]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "漫漫喵",
+			["name"] = "呆呆笨笨熊",
 			["lastSeen"] = 1654271124,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-000B52AF",
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-0011AED4",
 		}, -- [293]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "阿梨的魔術師",
+			["name"] = "聖經乂",
 			["lastSeen"] = 1654271124,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-00153D10",
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-0013A99F",
 		}, -- [294]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "Localsnake",
+			["name"] = "熊來了",
 			["lastSeen"] = 1654271124,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-00123EA0",
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-0008E36B",
 		}, -- [295]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "找蟹大師",
+			["name"] = "酒小獵",
 			["lastSeen"] = 1654271124,
-			["class"] = "WARRIOR",
-			["guid"] = "Player-4487-000C82BC",
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-00135262",
 		}, -- [296]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "朝朝扯旗",
+			["name"] = "Chocowa",
 			["lastSeen"] = 1654271124,
-			["class"] = "WARRIOR",
-			["guid"] = "Player-4487-0005C6C8",
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-0006EB28",
 		}, -- [297]
 		{
 			["dungeon"] = "太陽之井",
@@ -2142,31 +2191,31 @@ GroupBulletinBoardDBChar = {
 		}, -- [299]
 		{
 			["dungeon"] = "太陽之井",
-			["name"] = "薰衣",
+			["name"] = "深夜外送茶",
 			["lastSeen"] = 1655049473,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-00080519",
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-00152661",
 		}, -- [300]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "餅乾味的狗",
-			["lastSeen"] = 1655049473,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-00143269",
-		}, -- [301]
 		{
 			["dungeon"] = "太陽之井",
 			["name"] = "以前叫毀刃",
 			["lastSeen"] = 1655049473,
 			["class"] = "HUNTER",
 			["guid"] = "Player-4487-000A7657",
+		}, -- [301]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "餅乾味的狗",
+			["lastSeen"] = 1655049473,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-00143269",
 		}, -- [302]
 		{
 			["dungeon"] = "太陽之井",
-			["name"] = "深夜外送茶",
+			["name"] = "薰衣",
 			["lastSeen"] = 1655049473,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-00152661",
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-00080519",
 		}, -- [303]
 		{
 			["dungeon"] = "太陽之井",
@@ -2184,24 +2233,24 @@ GroupBulletinBoardDBChar = {
 		}, -- [305]
 		{
 			["dungeon"] = "太陽之井",
-			["name"] = "安安缺補嗎",
-			["lastSeen"] = 1655654421,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-0011F986",
-		}, -- [306]
-		{
-			["dungeon"] = "太陽之井",
 			["name"] = "身上沒嗜血",
 			["lastSeen"] = 1655654421,
 			["class"] = "SHAMAN",
 			["guid"] = "Player-4487-0014FAB5",
-		}, -- [307]
+		}, -- [306]
 		{
 			["dungeon"] = "太陽之井",
 			["name"] = "二郎罩杯很大",
 			["lastSeen"] = 1655654421,
 			["class"] = "PRIEST",
 			["guid"] = "Player-4487-0009985C",
+		}, -- [307]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "安安缺補嗎",
+			["lastSeen"] = 1655654421,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-0011F986",
 		}, -- [308]
 		{
 			["dungeon"] = "太陽之井",
@@ -2226,17 +2275,17 @@ GroupBulletinBoardDBChar = {
 		}, -- [311]
 		{
 			["dungeon"] = "太陽之井",
-			["name"] = "神經德魯伊",
+			["name"] = "閻黑天",
 			["lastSeen"] = 1656175513,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-001366E7",
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-0003F002",
 		}, -- [312]
 		{
 			["dungeon"] = "太陽之井",
-			["name"] = "真田信繁",
+			["name"] = "劍起蒼蘭",
 			["lastSeen"] = 1656175513,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-000774C0",
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-00158FE5",
 		}, -- [313]
 		{
 			["dungeon"] = "太陽之井",
@@ -2247,24 +2296,24 @@ GroupBulletinBoardDBChar = {
 		}, -- [314]
 		{
 			["dungeon"] = "太陽之井",
-			["name"] = "劍起蒼蘭",
+			["name"] = "神經德魯伊",
 			["lastSeen"] = 1656175513,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-00158FE5",
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-001366E7",
 		}, -- [315]
 		{
 			["dungeon"] = "太陽之井",
-			["name"] = "閻黑天",
+			["name"] = "真田信繁",
 			["lastSeen"] = 1656175513,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-0003F002",
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-000774C0",
 		}, -- [316]
 		{
 			["dungeon"] = "太陽之井",
-			["name"] = "弗雷爾啄德",
+			["name"] = "一隻倉鼠",
 			["lastSeen"] = 1656863975,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-0014EE39",
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-000B62C5",
 		}, -- [317]
 		{
 			["dungeon"] = "太陽之井",
@@ -2275,241 +2324,241 @@ GroupBulletinBoardDBChar = {
 		}, -- [318]
 		{
 			["dungeon"] = "太陽之井",
-			["name"] = "一隻倉鼠",
-			["lastSeen"] = 1656863975,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4487-000B62C5",
-		}, -- [319]
-		{
-			["dungeon"] = "太陽之井",
 			["name"] = "我叫緋村",
 			["lastSeen"] = 1656863975,
 			["class"] = "PALADIN",
 			["guid"] = "Player-4487-00127E77",
-		}, -- [320]
+		}, -- [319]
 		{
 			["dungeon"] = "太陽之井",
-			["name"] = "雙馬尾小姐姐",
-			["lastSeen"] = 1657468351,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-00145A48",
-		}, -- [321]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "葡萄妹",
-			["lastSeen"] = 1657468351,
+			["name"] = "弗雷爾啄德",
+			["lastSeen"] = 1656863975,
 			["class"] = "DRUID",
-			["guid"] = "Player-4487-000DE6DA",
-		}, -- [322]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "牛肉內牛滿面",
-			["lastSeen"] = 1657468351,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-00025307",
-		}, -- [323]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "淡淡的憂傷",
-			["lastSeen"] = 1657468351,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4487-000C9B30",
-		}, -- [324]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "歐艾丹",
-			["lastSeen"] = 1657468351,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-00118055",
-		}, -- [325]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "安安妳好嗎",
-			["lastSeen"] = 1657468351,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-00064B26",
-		}, -- [326]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "惡魔聖經",
-			["lastSeen"] = 1657468351,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-000D469F",
-		}, -- [327]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "安娜要乖",
-			["lastSeen"] = 1657468351,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4487-000CBC50",
-		}, -- [328]
+			["guid"] = "Player-4487-0014EE39",
+		}, -- [320]
 		{
 			["dungeon"] = "太陽之井",
 			["name"] = "终焉誓約",
 			["lastSeen"] = 1657468351,
 			["class"] = "PALADIN",
 			["guid"] = "Player-4487-00117CAA",
-		}, -- [329]
+		}, -- [321]
 		{
 			["dungeon"] = "太陽之井",
-			["name"] = "昂辜貴",
+			["name"] = "惡魔聖經",
+			["lastSeen"] = 1657468351,
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-000D469F",
+		}, -- [322]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "安安妳好嗎",
 			["lastSeen"] = 1657468351,
 			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-00133F65",
-		}, -- [330]
+			["guid"] = "Player-4487-00064B26",
+		}, -- [323]
 		{
 			["dungeon"] = "太陽之井",
 			["name"] = "小嫩腳",
 			["lastSeen"] = 1657468351,
 			["class"] = "PRIEST",
 			["guid"] = "Player-4487-00008E36",
-		}, -- [331]
+		}, -- [324]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "安娜要乖",
+			["lastSeen"] = 1657468351,
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-000CBC50",
+		}, -- [325]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "歐艾丹",
+			["lastSeen"] = 1657468351,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-00118055",
+		}, -- [326]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "淡淡的憂傷",
+			["lastSeen"] = 1657468351,
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-000C9B30",
+		}, -- [327]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "雙馬尾小姐姐",
+			["lastSeen"] = 1657468351,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-00145A48",
+		}, -- [328]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "葡萄妹",
+			["lastSeen"] = 1657468351,
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-000DE6DA",
+		}, -- [329]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "牛肉內牛滿面",
+			["lastSeen"] = 1657468351,
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-00025307",
+		}, -- [330]
 		{
 			["dungeon"] = "戈魯爾之巢",
 			["name"] = "古物學家里諾",
 			["lastSeen"] = 1657950568,
 			["class"] = "MAGE",
 			["guid"] = "Player-4487-0001E022",
-		}, -- [332]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "洛聆依",
-			["lastSeen"] = 1657952132,
-			["class"] = "ROGUE",
-			["guid"] = "Player-4487-0005AC65",
-		}, -- [333]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "艾米漾",
-			["lastSeen"] = 1657952132,
-			["class"] = "ROGUE",
-			["guid"] = "Player-4487-000221B4",
-		}, -- [334]
+		}, -- [331]
 		{
 			["dungeon"] = "戈魯爾之巢",
 			["name"] = "氣氛大師",
 			["lastSeen"] = 1657952132,
 			["class"] = "MAGE",
 			["guid"] = "Player-4487-00156C07",
-		}, -- [335]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "Uzaa",
-			["lastSeen"] = 1657952132,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4487-00143BDD",
-		}, -- [336]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "Alanpan",
-			["lastSeen"] = 1657952132,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4487-0009D6F9",
-		}, -- [337]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "卍邪天御武卍",
-			["lastSeen"] = 1657952132,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-001496E8",
-		}, -- [338]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "櫻桃小可",
-			["lastSeen"] = 1657952132,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-0015BF81",
-		}, -- [339]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "默契",
-			["lastSeen"] = 1657952132,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-001469BE",
-		}, -- [340]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "小米仔",
-			["lastSeen"] = 1657952132,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-00157209",
-		}, -- [341]
+		}, -- [332]
 		{
 			["dungeon"] = "戈魯爾之巢",
 			["name"] = "消遣",
 			["lastSeen"] = 1657952132,
 			["class"] = "PRIEST",
 			["guid"] = "Player-4487-000824E3",
-		}, -- [342]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "Appledada",
-			["lastSeen"] = 1657952132,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-0011E43C",
-		}, -- [343]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "近我者聖光",
-			["lastSeen"] = 1657952132,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-00115FC3",
-		}, -- [344]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "喵咪後空翻",
-			["lastSeen"] = 1657952132,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-00141722",
-		}, -- [345]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "五線譜",
-			["lastSeen"] = 1657952132,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-001500E2",
-		}, -- [346]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "沐露沾霜",
-			["lastSeen"] = 1657952132,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4487-000EFBF7",
-		}, -- [347]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "特洛克凱奃",
-			["lastSeen"] = 1657952132,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-000ACDE6",
-		}, -- [348]
-		{
-			["dungeon"] = "戈魯爾之巢",
-			["name"] = "驅魔社長智雅",
-			["lastSeen"] = 1657952132,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-0015C80B",
-		}, -- [349]
+		}, -- [333]
 		{
 			["dungeon"] = "戈魯爾之巢",
 			["name"] = "食鬼",
 			["lastSeen"] = 1657952132,
 			["class"] = "ROGUE",
 			["guid"] = "Player-4487-00071FD5",
-		}, -- [350]
+		}, -- [334]
 		{
 			["dungeon"] = "戈魯爾之巢",
 			["name"] = "Graziella",
 			["lastSeen"] = 1657952132,
 			["class"] = "WARLOCK",
 			["guid"] = "Player-4487-00139B1A",
+		}, -- [335]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "約翰小公主",
+			["lastSeen"] = 1657952132,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-0015418F",
+		}, -- [336]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "小米仔",
+			["lastSeen"] = 1657952132,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-00157209",
+		}, -- [337]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "喵咪後空翻",
+			["lastSeen"] = 1657952132,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-00141722",
+		}, -- [338]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "沐露沾霜",
+			["lastSeen"] = 1657952132,
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-000EFBF7",
+		}, -- [339]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "洛聆依",
+			["lastSeen"] = 1657952132,
+			["class"] = "ROGUE",
+			["guid"] = "Player-4487-0005AC65",
+		}, -- [340]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "默契",
+			["lastSeen"] = 1657952132,
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-001469BE",
+		}, -- [341]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "卍邪天御武卍",
+			["lastSeen"] = 1657952132,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-001496E8",
+		}, -- [342]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "近我者聖光",
+			["lastSeen"] = 1657952132,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-00115FC3",
+		}, -- [343]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "Uzaa",
+			["lastSeen"] = 1657952132,
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-00143BDD",
+		}, -- [344]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "Kumamon",
+			["lastSeen"] = 1657952132,
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-000AEA5A",
+		}, -- [345]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "Appledada",
+			["lastSeen"] = 1657952132,
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-0011E43C",
+		}, -- [346]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "艾米漾",
+			["lastSeen"] = 1657952132,
+			["class"] = "ROGUE",
+			["guid"] = "Player-4487-000221B4",
+		}, -- [347]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "五線譜",
+			["lastSeen"] = 1657952132,
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-001500E2",
+		}, -- [348]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "特洛克凱奃",
+			["lastSeen"] = 1657952132,
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-000ACDE6",
+		}, -- [349]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "Alanpan",
+			["lastSeen"] = 1657952132,
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-0009D6F9",
+		}, -- [350]
+		{
+			["dungeon"] = "戈魯爾之巢",
+			["name"] = "驅魔社長智雅",
+			["lastSeen"] = 1657952132,
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-0015C80B",
 		}, -- [351]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "林爸爸",
+			["name"] = "櫻桃小可",
 			["lastSeen"] = 1657952132,
 			["class"] = "PALADIN",
-			["guid"] = "Player-4487-0015A5FF",
+			["guid"] = "Player-4487-0015BF81",
 		}, -- [352]
 		{
 			["dungeon"] = "戈魯爾之巢",
@@ -2520,45 +2569,45 @@ GroupBulletinBoardDBChar = {
 		}, -- [353]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "約翰小公主",
-			["lastSeen"] = 1657952132,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-0015418F",
-		}, -- [354]
-		{
-			["dungeon"] = "戈魯爾之巢",
 			["name"] = "荷靈依",
 			["lastSeen"] = 1657952132,
 			["class"] = "PRIEST",
 			["guid"] = "Player-4487-00119445",
-		}, -- [355]
+		}, -- [354]
 		{
 			["dungeon"] = "戈魯爾之巢",
-			["name"] = "Kumamon",
+			["name"] = "林爸爸",
 			["lastSeen"] = 1657952132,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-000AEA5A",
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-0015A5FF",
+		}, -- [355]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "舞法妍妤",
+			["lastSeen"] = 1658042747,
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-0011AAFA",
 		}, -- [356]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "Hordenopal",
+			["name"] = "美女荷官",
 			["lastSeen"] = 1658042747,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-0000DB97",
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-000EF994",
 		}, -- [357]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "職業千年殺",
+			["name"] = "而我不是狂戰",
 			["lastSeen"] = 1658042747,
-			["class"] = "ROGUE",
-			["guid"] = "Player-4487-000EF93F",
+			["class"] = "WARRIOR",
+			["guid"] = "Player-4487-000D8AB7",
 		}, -- [358]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "獨坐亡靈",
+			["name"] = "寡境盡然",
 			["lastSeen"] = 1658042747,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-0002541C",
+			["class"] = "ROGUE",
+			["guid"] = "Player-4487-0011856A",
 		}, -- [359]
 		{
 			["dungeon"] = "黑暗神廟",
@@ -2569,367 +2618,332 @@ GroupBulletinBoardDBChar = {
 		}, -- [360]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "Allinwin",
-			["lastSeen"] = 1658042747,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-00115533",
-		}, -- [361]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "Lissandra",
-			["lastSeen"] = 1658042747,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-000BE133",
-		}, -- [362]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "皮薩炸雞",
-			["lastSeen"] = 1658042747,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-00117FF4",
-		}, -- [363]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "隨便插插",
-			["lastSeen"] = 1658042747,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-00028A06",
-		}, -- [364]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "起司會牽絲",
-			["lastSeen"] = 1658042747,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-001408E6",
-		}, -- [365]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "陸翼守",
-			["lastSeen"] = 1658042747,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-001173E2",
-		}, -- [366]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "邪惡的香皂",
-			["lastSeen"] = 1658042747,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-00056D5A",
-		}, -- [367]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "美女荷官",
-			["lastSeen"] = 1658042747,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-000EF994",
-		}, -- [368]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "Southwind",
-			["lastSeen"] = 1658042747,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-001233F9",
-		}, -- [369]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "笑容滿分",
-			["lastSeen"] = 1658042747,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-00012B35",
-		}, -- [370]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "寡境盡然",
-			["lastSeen"] = 1658042747,
-			["class"] = "ROGUE",
-			["guid"] = "Player-4487-0011856A",
-		}, -- [371]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "Yves",
-			["lastSeen"] = 1658042747,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-000F41F6",
-		}, -- [372]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "舞法妍妤",
-			["lastSeen"] = 1658042747,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-0011AAFA",
-		}, -- [373]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "靚允",
-			["lastSeen"] = 1658042747,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-001477C2",
-		}, -- [374]
-		{
-			["dungeon"] = "黑暗神廟",
 			["name"] = "檸檬圖騰",
 			["lastSeen"] = 1658042747,
 			["class"] = "SHAMAN",
 			["guid"] = "Player-4487-000B0955",
-		}, -- [375]
-		{
-			["dungeon"] = "黑暗神廟",
-			["name"] = "黑心戰士",
-			["lastSeen"] = 1658042747,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-0011CAC6",
-		}, -- [376]
+		}, -- [361]
 		{
 			["dungeon"] = "黑暗神廟",
 			["name"] = "勇貴他爸",
 			["lastSeen"] = 1658042747,
 			["class"] = "DRUID",
 			["guid"] = "Player-4487-00119450",
-		}, -- [377]
+		}, -- [362]
 		{
 			["dungeon"] = "黑暗神廟",
-			["name"] = "而我不是狂戰",
+			["name"] = "靚允",
 			["lastSeen"] = 1658042747,
-			["class"] = "WARRIOR",
-			["guid"] = "Player-4487-000D8AB7",
-		}, -- [378]
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-001477C2",
+		}, -- [363]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "黑心戰士",
+			["lastSeen"] = 1658042747,
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-0011CAC6",
+		}, -- [364]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "陸翼守",
+			["lastSeen"] = 1658042747,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-001173E2",
+		}, -- [365]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "Hordenopal",
+			["lastSeen"] = 1658042747,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-0000DB97",
+		}, -- [366]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "笑容滿分",
+			["lastSeen"] = 1658042747,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-00012B35",
+		}, -- [367]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "皮薩炸雞",
+			["lastSeen"] = 1658042747,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-00117FF4",
+		}, -- [368]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "獨坐亡靈",
+			["lastSeen"] = 1658042747,
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-0002541C",
+		}, -- [369]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "起司會牽絲",
+			["lastSeen"] = 1658042747,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-001408E6",
+		}, -- [370]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "職業千年殺",
+			["lastSeen"] = 1658042747,
+			["class"] = "ROGUE",
+			["guid"] = "Player-4487-000EF93F",
+		}, -- [371]
 		{
 			["dungeon"] = "黑暗神廟",
 			["name"] = "白雪小公主",
 			["lastSeen"] = 1658042747,
 			["class"] = "SHAMAN",
 			["guid"] = "Player-4487-000BEE9A",
-		}, -- [379]
+		}, -- [372]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "Allinwin",
+			["lastSeen"] = 1658042747,
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-00115533",
+		}, -- [373]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "Yves",
+			["lastSeen"] = 1658042747,
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-000F41F6",
+		}, -- [374]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "邪惡的香皂",
+			["lastSeen"] = 1658042747,
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-00056D5A",
+		}, -- [375]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "隨便插插",
+			["lastSeen"] = 1658042747,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-00028A06",
+		}, -- [376]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "Southwind",
+			["lastSeen"] = 1658042747,
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-001233F9",
+		}, -- [377]
+		{
+			["dungeon"] = "黑暗神廟",
+			["name"] = "Lissandra",
+			["lastSeen"] = 1658042747,
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-000BE133",
+		}, -- [378]
 		{
 			["dungeon"] = "太陽之井",
 			["name"] = "別逼我無敵",
 			["lastSeen"] = 1658578977,
 			["class"] = "PALADIN",
 			["guid"] = "Player-4487-001502E2",
-		}, -- [380]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "熙夏",
-			["lastSeen"] = 1658590837,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-00051D65",
-		}, -- [381]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "真的沒想法",
-			["lastSeen"] = 1658590837,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-0012D010",
-		}, -- [382]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "南雲始",
-			["lastSeen"] = 1658590837,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4487-00017B1E",
-		}, -- [383]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "魔令古二世",
-			["lastSeen"] = 1658590837,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-00029296",
-		}, -- [384]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "风韵",
-			["lastSeen"] = 1658590837,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4487-00016112",
-		}, -- [385]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "回鍋玩家",
-			["lastSeen"] = 1658590837,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-00051109",
-		}, -- [386]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "莉姆露",
-			["lastSeen"] = 1658590837,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-00134EBE",
-		}, -- [387]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "香飄飄奶水",
-			["lastSeen"] = 1658590837,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-00116A6F",
-		}, -- [388]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "Devinfon",
-			["lastSeen"] = 1658590837,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-0000A6A1",
-		}, -- [389]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "葡萄表妹",
-			["lastSeen"] = 1658590837,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-001432C4",
-		}, -- [390]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "術難奉陪",
-			["lastSeen"] = 1658590837,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-00005856",
-		}, -- [391]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "翔翔大肆虐",
-			["lastSeen"] = 1658590837,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-00088599",
-		}, -- [392]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "幸福的子彈",
-			["lastSeen"] = 1658590837,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-00151C24",
-		}, -- [393]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "不死夜空",
-			["lastSeen"] = 1658590837,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-0006A4FD",
-		}, -- [394]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "別逼我擋怪",
-			["lastSeen"] = 1658590837,
-			["class"] = "WARRIOR",
-			["guid"] = "Player-4487-0000B693",
-		}, -- [395]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "阿梨的聖騎士",
-			["lastSeen"] = 1658590837,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-00142225",
-		}, -- [396]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "艾瑞貝斯",
-			["lastSeen"] = 1658590837,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-001576A6",
-		}, -- [397]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "夜空之光",
-			["lastSeen"] = 1658590837,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-0014F8C2",
-		}, -- [398]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "福利貝爾",
-			["lastSeen"] = 1658590837,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-001285D3",
-		}, -- [399]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "司命",
-			["lastSeen"] = 1658590837,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-0011E3CB",
-		}, -- [400]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "聖經",
-			["lastSeen"] = 1658590837,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-000004C6",
-		}, -- [401]
-		{
-			["dungeon"] = "太陽之井",
-			["name"] = "我補會滅團",
-			["lastSeen"] = 1658590837,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-0003F8FE",
-		}, -- [402]
+		}, -- [379]
 		{
 			["dungeon"] = "太陽之井",
 			["name"] = "柒刻",
 			["lastSeen"] = 1658590837,
 			["class"] = "SHAMAN",
 			["guid"] = "Player-4487-0005A3F6",
-		}, -- [403]
+		}, -- [380]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "回鍋玩家",
+			["lastSeen"] = 1658590837,
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-00051109",
+		}, -- [381]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "夜空之光",
+			["lastSeen"] = 1658590837,
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-0014F8C2",
+		}, -- [382]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "聖經",
+			["lastSeen"] = 1658590837,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-000004C6",
+		}, -- [383]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "昂辜貴",
+			["lastSeen"] = 1658678361,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-00133F65",
+		}, -- [384]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "阿梨的聖騎士",
+			["lastSeen"] = 1658678361,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-00142225",
+		}, -- [385]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "艾瑞貝斯",
+			["lastSeen"] = 1658678361,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-001576A6",
+		}, -- [386]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "別逼我擋怪",
+			["lastSeen"] = 1658678361,
+			["class"] = "WARRIOR",
+			["guid"] = "Player-4487-0000B693",
+		}, -- [387]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "幸福的子彈",
+			["lastSeen"] = 1658678361,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-00151C24",
+		}, -- [388]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "獸星女",
+			["lastSeen"] = 1658678361,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-0008AC62",
+		}, -- [389]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "司命",
+			["lastSeen"] = 1658678361,
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-0011E3CB",
+		}, -- [390]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "翔翔大肆虐",
+			["lastSeen"] = 1658678361,
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-00088599",
+		}, -- [391]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "我補會滅團",
+			["lastSeen"] = 1658678361,
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-0003F8FE",
+		}, -- [392]
 		{
 			["dungeon"] = "太陽之井",
 			["name"] = "蜂須賀正勝",
-			["lastSeen"] = 1658590837,
+			["lastSeen"] = 1658678361,
 			["class"] = "DRUID",
 			["guid"] = "Player-4487-00133D4F",
-		}, -- [404]
+		}, -- [393]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "術難奉陪",
+			["lastSeen"] = 1658678361,
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-00005856",
+		}, -- [394]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "不死夜空",
+			["lastSeen"] = 1658678361,
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-0006A4FD",
+		}, -- [395]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "熙夏",
+			["lastSeen"] = 1658678361,
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-00051D65",
+		}, -- [396]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "魔令古二世",
+			["lastSeen"] = 1658678361,
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-00029296",
+		}, -- [397]
 		{
 			["dungeon"] = "太陽之井",
 			["name"] = "Arona",
-			["lastSeen"] = 1658590837,
+			["lastSeen"] = 1658678361,
 			["class"] = "ROGUE",
 			["guid"] = "Player-4487-0000FAC0",
+		}, -- [398]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "香飄飄奶水",
+			["lastSeen"] = 1658678361,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-00116A6F",
+		}, -- [399]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "真的沒想法",
+			["lastSeen"] = 1658678361,
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-0012D010",
+		}, -- [400]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "福利貝爾",
+			["lastSeen"] = 1658678361,
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-001285D3",
+		}, -- [401]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "风韵",
+			["lastSeen"] = 1658678361,
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-00016112",
+		}, -- [402]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "南雲始",
+			["lastSeen"] = 1658678361,
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-00017B1E",
+		}, -- [403]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "葡萄表妹",
+			["lastSeen"] = 1658678361,
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-001432C4",
+		}, -- [404]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "莉姆露",
+			["lastSeen"] = 1658678361,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-00134EBE",
 		}, -- [405]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "Devinfon",
+			["lastSeen"] = 1658678361,
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-0000A6A1",
+		}, -- [406]
+		{
+			["dungeon"] = "太陽之井",
+			["name"] = "Tatami",
+			["lastSeen"] = 1658678361,
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-00142A2F",
+		}, -- [407]
 	},
-	["FilterDungeonSCH"] = false,
-	["FilterDungeonSM2"] = false,
-	["FilterDungeonAQ40"] = false,
-	["FilterDungeonSETH"] = false,
-	["FilterDungeonBWL"] = false,
-	["FilterDungeonZG"] = false,
-	["FilterDungeonBM"] = false,
-	["FilterDungeonEOTS"] = false,
-	["FilterDungeonBREW"] = false,
-	["FilterDungeonMC"] = false,
-	["FilterDungeonAB"] = false,
-	["FilterDungeonSTR"] = false,
-	["FilterDungeonDMW"] = false,
-	["FilterDungeonDMN"] = false,
-	["FilterDungeonGL"] = true,
-	["FilterDungeonUBRS"] = false,
-	["FilterDungeonBT"] = true,
-	["FilterDungeonDM"] = false,
-	["FilterDungeonTRADE"] = false,
-	["FilterDungeonMAG"] = false,
-	["FilterDungeonLBRS"] = false,
-	["FilterDungeonCRYPTS"] = false,
-	["FilterDungeonARC"] = false,
-	["HeroicOnly"] = true,
-	["channel"] = {
-		true, -- [1]
-		false, -- [2]
-		true, -- [3]
-		true, -- [4]
-		true, -- [5]
-		true, -- [6]
-		true, -- [7]
-		true, -- [8]
-		true, -- [9]
-		true, -- [10]
-		true, -- [11]
-		true, -- [12]
-		true, -- [13]
-		true, -- [14]
-		true, -- [15]
-		true, -- [16]
-		true, -- [17]
-		true, -- [18]
-		true, -- [19]
-		true, -- [20]
-	},
-	["FilterDungeonOHB"] = false,
-	["FilterDungeonSWP"] = true,
-	["FilterDungeonEYE"] = false,
 }
