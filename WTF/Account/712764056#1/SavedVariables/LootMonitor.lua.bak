@@ -5,9 +5,9 @@ LootMonitorDB = {
 			["InstanceID"] = 565,
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Gruul's Lair",
-			["Class"] = "WARRIOR",
-			["Date"] = "2022-07-16",
 			["FirstClass"] = "UNKNOWN",
+			["Date"] = "2022-07-16",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-565-1195-18831-000052503E",
@@ -49,8 +49,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "陸翼守",
 			["InstanceName"] = "Black Temple",
 			["Date"] = "2022-07-17",
-			["Class"] = "WARRIOR",
 			["FirstClass"] = "PALADIN",
+			["Class"] = "WARRIOR",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-564-11729-22887-0000539FA3",
@@ -172,8 +172,8 @@ LootMonitorDB = {
 		{
 			["InstanceID"] = 580,
 			["Player"] = "特變電工",
-			["FirstPlayer"] = "未知",
 			["InstanceName"] = "Sunwell Plateau",
+			["FirstPlayer"] = "未知",
 			["Date"] = "2022-07-23",
 			["Class"] = "WARRIOR",
 			["FirstClass"] = "UNKNOWN",
@@ -264,6 +264,54 @@ LootMonitorDB = {
 						"|cffa335ee|Hitem:34203::::::::70:::::::::|h[瑪洛諾斯之握]|h|r", -- [8]
 					},
 				}, -- [6]
+				{
+					["GUID"] = "Creature-0-4490-580-19521-25593-00015D3000",
+					["Time"] = "20:25:01",
+					["Class"] = "PALADIN",
+					["Date"] = "2022-07-24",
+					["Looter"] = "艾瑞貝斯",
+					["Name"] = "天啟守衛",
+					["Loots"] = {
+						"|cff0070dd|Hitem:34664::::::::70:::::::::|h[太陽微粒]|h|r", -- [1]
+					},
+				}, -- [7]
+				{
+					["GUID"] = "Creature-0-4491-580-6305-24892-0000652A6D",
+					["Time"] = "21:02:06",
+					["Looter"] = "Venire",
+					["Date"] = "2022-07-30",
+					["Class"] = "PALADIN",
+					["Name"] = "『墮落者』塞斯諾瓦",
+					["Loots"] = {
+						"|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r", -- [1]
+						"|cffa335ee|Hitem:34167::::::::70:::::::::|h[神聖狂熱腿鎧]|h|r", -- [2]
+						"|cffa335ee|Hitem:34848::::::::70:::::::::|h[遺忘征服者護腕]|h|r", -- [3]
+						"|cffa335ee|Hitem:34848::::::::70:::::::::|h[遺忘征服者護腕]|h|r", -- [4]
+						"|cffa335ee|Hitem:34852::::::::70:::::::::|h[遺忘防禦者護腕]|h|r", -- [5]
+					},
+				}, -- [8]
+				{
+					["GUID"] = "Creature-0-4491-580-6305-25371-0002E51B09",
+					["Time"] = "21:04:36",
+					["Looter"] = "阿梨的聖騎士",
+					["Date"] = "2022-07-30",
+					["Class"] = "PALADIN",
+					["Name"] = "日刃曙光牧師",
+					["Loots"] = {
+						"|cffa335ee|Hitem:34183::::::::70:::::::::|h[粉碎魔脊]|h|r", -- [1]
+					},
+				}, -- [9]
+				{
+					["GUID"] = "Creature-0-4491-580-6305-25367-0002651B09",
+					["Time"] = "21:04:50",
+					["Looter"] = "阿梨的聖騎士",
+					["Date"] = "2022-07-30",
+					["Class"] = "PALADIN",
+					["Name"] = "日刃大法師",
+					["Loots"] = {
+						"|cffa335ee|Hitem:32227::::::::70:::::::::|h[赤紅尖晶石]|h|r", -- [1]
+					},
+				}, -- [10]
 			},
 		}, -- [3]
 	},

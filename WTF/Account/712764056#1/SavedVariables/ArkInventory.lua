@@ -102,8 +102,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 2,
+											["bag_id"] = 1,
 											["slot_id"] = 8,
 										}, -- [8]
 										{
@@ -111,8 +111,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 16,
+											["bag_id"] = 1,
 											["slot_id"] = 9,
 										}, -- [9]
 										{
@@ -120,8 +120,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 30,
+											["bag_id"] = 1,
 											["slot_id"] = 10,
 										}, -- [10]
 										{
@@ -129,8 +129,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 44,
+											["bag_id"] = 1,
 											["slot_id"] = 11,
 										}, -- [11]
 										{
@@ -138,8 +138,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 58,
+											["bag_id"] = 1,
 											["slot_id"] = 12,
 										}, -- [12]
 										{
@@ -147,8 +147,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 72,
+											["bag_id"] = 1,
 											["slot_id"] = 13,
 										}, -- [13]
 										{
@@ -156,8 +156,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 86,
+											["bag_id"] = 1,
 											["slot_id"] = 14,
 										}, -- [14]
 										{
@@ -175,8 +175,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 17,
+											["bag_id"] = 1,
 											["slot_id"] = 16,
 										}, -- [16]
 										{
@@ -184,8 +184,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 31,
+											["bag_id"] = 1,
 											["slot_id"] = 17,
 										}, -- [17]
 										{
@@ -193,8 +193,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 45,
+											["bag_id"] = 1,
 											["slot_id"] = 18,
 										}, -- [18]
 										{
@@ -202,8 +202,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 59,
+											["bag_id"] = 1,
 											["slot_id"] = 19,
 										}, -- [19]
 										{
@@ -211,8 +211,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 73,
+											["bag_id"] = 1,
 											["slot_id"] = 20,
 										}, -- [20]
 										{
@@ -220,8 +220,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 87,
+											["bag_id"] = 1,
 											["slot_id"] = 21,
 										}, -- [21]
 										{
@@ -229,8 +229,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 4,
+											["bag_id"] = 1,
 											["slot_id"] = 22,
 										}, -- [22]
 										{
@@ -238,8 +238,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 18,
+											["bag_id"] = 1,
 											["slot_id"] = 23,
 										}, -- [23]
 										{
@@ -247,8 +247,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 32,
+											["bag_id"] = 1,
 											["slot_id"] = 24,
 										}, -- [24]
 										{
@@ -256,8 +256,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 46,
+											["bag_id"] = 1,
 											["slot_id"] = 25,
 										}, -- [25]
 										{
@@ -266,8 +266,8 @@ ARKINVDB = {
 											["count"] = 1,
 											["sb"] = 0,
 											["slot_id"] = 26,
-											["did"] = 60,
 											["bag_id"] = 1,
+											["did"] = 60,
 										}, -- [26]
 										{
 											["q"] = 1,
@@ -304,8 +304,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 19,
+											["bag_id"] = 1,
 											["slot_id"] = 30,
 										}, -- [30]
 										{
@@ -313,8 +313,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 33,
+											["bag_id"] = 1,
 											["slot_id"] = 31,
 										}, -- [31]
 										{
@@ -322,8 +322,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 47,
+											["bag_id"] = 1,
 											["slot_id"] = 32,
 										}, -- [32]
 										{
@@ -331,8 +331,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 61,
+											["bag_id"] = 1,
 											["slot_id"] = 33,
 										}, -- [33]
 										{
@@ -360,8 +360,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 6,
+											["bag_id"] = 1,
 											["slot_id"] = 36,
 										}, -- [36]
 										{
@@ -369,8 +369,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 20,
+											["bag_id"] = 1,
 											["slot_id"] = 37,
 										}, -- [37]
 										{
@@ -378,8 +378,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 34,
+											["bag_id"] = 1,
 											["slot_id"] = 38,
 										}, -- [38]
 										{
@@ -387,8 +387,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 48,
+											["bag_id"] = 1,
 											["slot_id"] = 39,
 										}, -- [39]
 										{
@@ -396,8 +396,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 62,
+											["bag_id"] = 1,
 											["slot_id"] = 40,
 										}, -- [40]
 										{
@@ -405,8 +405,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 76,
+											["bag_id"] = 1,
 											["slot_id"] = 41,
 										}, -- [41]
 										{
@@ -414,8 +414,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 90,
+											["bag_id"] = 1,
 											["slot_id"] = 42,
 										}, -- [42]
 										{
@@ -433,8 +433,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 21,
+											["bag_id"] = 1,
 											["slot_id"] = 44,
 										}, -- [44]
 										{
@@ -442,8 +442,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 35,
+											["bag_id"] = 1,
 											["slot_id"] = 45,
 										}, -- [45]
 										{
@@ -451,8 +451,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 49,
+											["bag_id"] = 1,
 											["slot_id"] = 46,
 										}, -- [46]
 										{
@@ -460,8 +460,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 63,
+											["bag_id"] = 1,
 											["slot_id"] = 47,
 										}, -- [47]
 										{
@@ -469,8 +469,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 77,
+											["bag_id"] = 1,
 											["slot_id"] = 48,
 										}, -- [48]
 										{
@@ -478,8 +478,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 91,
+											["bag_id"] = 1,
 											["slot_id"] = 49,
 										}, -- [49]
 										{
@@ -497,8 +497,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 22,
+											["bag_id"] = 1,
 											["slot_id"] = 51,
 										}, -- [51]
 										{
@@ -506,8 +506,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 36,
+											["bag_id"] = 1,
 											["slot_id"] = 52,
 										}, -- [52]
 										{
@@ -515,8 +515,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 50,
+											["bag_id"] = 1,
 											["slot_id"] = 53,
 										}, -- [53]
 										{
@@ -524,8 +524,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 64,
+											["bag_id"] = 1,
 											["slot_id"] = 54,
 										}, -- [54]
 										{
@@ -533,8 +533,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 78,
+											["bag_id"] = 1,
 											["slot_id"] = 55,
 										}, -- [55]
 										{
@@ -542,8 +542,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 92,
+											["bag_id"] = 1,
 											["slot_id"] = 56,
 										}, -- [56]
 										{
@@ -591,8 +591,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 65,
+											["bag_id"] = 1,
 											["slot_id"] = 61,
 										}, -- [61]
 										{
@@ -690,8 +690,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 11,
+											["bag_id"] = 1,
 											["slot_id"] = 71,
 										}, -- [71]
 										{
@@ -699,8 +699,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 25,
+											["bag_id"] = 1,
 											["slot_id"] = 72,
 										}, -- [72]
 										{
@@ -708,8 +708,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 39,
+											["bag_id"] = 1,
 											["slot_id"] = 73,
 										}, -- [73]
 										{
@@ -717,8 +717,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 53,
+											["bag_id"] = 1,
 											["slot_id"] = 74,
 										}, -- [74]
 										{
@@ -726,8 +726,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 67,
+											["bag_id"] = 1,
 											["slot_id"] = 75,
 										}, -- [75]
 										{
@@ -735,8 +735,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 81,
+											["bag_id"] = 1,
 											["slot_id"] = 76,
 										}, -- [76]
 										{
@@ -744,8 +744,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 95,
+											["bag_id"] = 1,
 											["slot_id"] = 77,
 										}, -- [77]
 										{
@@ -754,8 +754,8 @@ ARKINVDB = {
 											["count"] = 1,
 											["sb"] = 0,
 											["slot_id"] = 78,
-											["did"] = 12,
 											["bag_id"] = 1,
+											["did"] = 12,
 										}, -- [78]
 										{
 											["q"] = 0,
@@ -763,8 +763,8 @@ ARKINVDB = {
 											["count"] = 1,
 											["sb"] = 0,
 											["slot_id"] = 79,
-											["did"] = 26,
 											["bag_id"] = 1,
+											["did"] = 26,
 										}, -- [79]
 										{
 											["q"] = 0,
@@ -772,8 +772,8 @@ ARKINVDB = {
 											["count"] = 1,
 											["sb"] = 0,
 											["slot_id"] = 80,
-											["did"] = 40,
 											["bag_id"] = 1,
+											["did"] = 40,
 										}, -- [80]
 										{
 											["q"] = 0,
@@ -781,8 +781,8 @@ ARKINVDB = {
 											["count"] = 1,
 											["sb"] = 0,
 											["slot_id"] = 81,
-											["did"] = 54,
 											["bag_id"] = 1,
+											["did"] = 54,
 										}, -- [81]
 										{
 											["q"] = 1,
@@ -799,8 +799,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 82,
+											["bag_id"] = 1,
 											["slot_id"] = 83,
 										}, -- [83]
 										{
@@ -808,8 +808,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 96,
+											["bag_id"] = 1,
 											["slot_id"] = 84,
 										}, -- [84]
 										{
@@ -818,8 +818,8 @@ ARKINVDB = {
 											["count"] = 1,
 											["sb"] = 0,
 											["slot_id"] = 85,
-											["did"] = 13,
 											["bag_id"] = 1,
+											["did"] = 13,
 										}, -- [85]
 										{
 											["q"] = 0,
@@ -827,8 +827,8 @@ ARKINVDB = {
 											["count"] = 1,
 											["sb"] = 0,
 											["slot_id"] = 86,
-											["did"] = 27,
 											["bag_id"] = 1,
+											["did"] = 27,
 										}, -- [86]
 										{
 											["q"] = 0,
@@ -836,16 +836,16 @@ ARKINVDB = {
 											["count"] = 1,
 											["sb"] = 0,
 											["slot_id"] = 87,
-											["did"] = 41,
 											["bag_id"] = 1,
+											["did"] = 41,
 										}, -- [87]
 										{
 											["q"] = 0,
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 55,
+											["bag_id"] = 1,
 											["slot_id"] = 88,
 										}, -- [88]
 										{
@@ -853,8 +853,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 69,
+											["bag_id"] = 1,
 											["slot_id"] = 89,
 										}, -- [89]
 										{
@@ -862,8 +862,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 83,
+											["bag_id"] = 1,
 											["slot_id"] = 90,
 										}, -- [90]
 										{
@@ -871,8 +871,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 1,
 											["did"] = 97,
+											["bag_id"] = 1,
 											["slot_id"] = 91,
 										}, -- [91]
 										{
@@ -881,8 +881,8 @@ ARKINVDB = {
 											["count"] = 1,
 											["sb"] = 0,
 											["slot_id"] = 92,
-											["did"] = 14,
 											["bag_id"] = 1,
+											["did"] = 14,
 										}, -- [92]
 										{
 											["q"] = 0,
@@ -890,8 +890,8 @@ ARKINVDB = {
 											["count"] = 1,
 											["sb"] = 0,
 											["slot_id"] = 93,
-											["did"] = 28,
 											["bag_id"] = 1,
+											["did"] = 28,
 										}, -- [93]
 										{
 											["q"] = 1,
@@ -2223,8 +2223,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 3,
 											["did"] = 88,
+											["bag_id"] = 3,
 											["slot_id"] = 28,
 										}, -- [28]
 										{
@@ -2412,8 +2412,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 3,
 											["did"] = 63,
+											["bag_id"] = 3,
 											["slot_id"] = 47,
 										}, -- [47]
 										{
@@ -2421,8 +2421,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 3,
 											["did"] = 77,
+											["bag_id"] = 3,
 											["slot_id"] = 48,
 										}, -- [48]
 										{
@@ -2470,8 +2470,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 3,
 											["did"] = 50,
+											["bag_id"] = 3,
 											["slot_id"] = 53,
 										}, -- [53]
 										{
@@ -2479,8 +2479,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 3,
 											["did"] = 64,
+											["bag_id"] = 3,
 											["slot_id"] = 54,
 										}, -- [54]
 										{
@@ -2488,8 +2488,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 3,
 											["did"] = 78,
+											["bag_id"] = 3,
 											["slot_id"] = 55,
 										}, -- [55]
 										{
@@ -2547,8 +2547,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 3,
 											["did"] = 65,
+											["bag_id"] = 3,
 											["slot_id"] = 61,
 										}, -- [61]
 										{
@@ -2556,8 +2556,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 3,
 											["did"] = 79,
+											["bag_id"] = 3,
 											["slot_id"] = 62,
 										}, -- [62]
 										{
@@ -2605,8 +2605,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 3,
 											["did"] = 52,
+											["bag_id"] = 3,
 											["slot_id"] = 67,
 										}, -- [67]
 										{
@@ -2614,8 +2614,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 3,
 											["did"] = 66,
+											["bag_id"] = 3,
 											["slot_id"] = 68,
 										}, -- [68]
 										{
@@ -2623,8 +2623,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 3,
 											["did"] = 80,
+											["bag_id"] = 3,
 											["slot_id"] = 69,
 										}, -- [69]
 										{
@@ -2712,8 +2712,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 3,
 											["did"] = 12,
+											["bag_id"] = 3,
 											["slot_id"] = 78,
 										}, -- [78]
 										{
@@ -2881,8 +2881,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 3,
 											["did"] = 56,
+											["bag_id"] = 3,
 											["slot_id"] = 95,
 										}, -- [95]
 										{
@@ -2890,8 +2890,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 3,
 											["did"] = 70,
+											["bag_id"] = 3,
 											["slot_id"] = 96,
 										}, -- [96]
 										{
@@ -2899,8 +2899,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 3,
 											["did"] = 84,
+											["bag_id"] = 3,
 											["slot_id"] = 97,
 										}, -- [97]
 										{
@@ -3002,8 +3002,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 4,
 											["did"] = 2,
+											["bag_id"] = 4,
 											["slot_id"] = 8,
 										}, -- [8]
 										{
@@ -3011,8 +3011,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 4,
 											["did"] = 16,
+											["bag_id"] = 4,
 											["slot_id"] = 9,
 										}, -- [9]
 										{
@@ -3100,8 +3100,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 4,
 											["did"] = 45,
+											["bag_id"] = 4,
 											["slot_id"] = 18,
 										}, -- [18]
 										{
@@ -3199,8 +3199,8 @@ ARKINVDB = {
 											["loc_id"] = 4,
 											["count"] = 1,
 											["sb"] = 0,
-											["bag_id"] = 4,
 											["did"] = 88,
+											["bag_id"] = 4,
 											["slot_id"] = 28,
 										}, -- [28]
 										{
@@ -3957,1327 +3957,6 @@ ARKINVDB = {
 						},
 					},
 				},
-				["路易斯桑拿 - 伊弗斯"] = {
-					["info"] = {
-						["guid"] = "Player-4487-000AC97B",
-						["class"] = "WARRIOR",
-						["player_id"] = "路易斯桑拿 - 伊弗斯",
-						["race"] = "Orc",
-						["proj"] = 5,
-						["realm"] = "伊弗斯",
-						["isplayer"] = true,
-						["money"] = 6909409,
-						["gender"] = 3,
-						["itemlevel"] = 1,
-						["name"] = "路易斯桑拿",
-						["faction"] = "Horde",
-						["race_local"] = "獸人",
-						["class_local"] = "戰士",
-						["level"] = 1,
-						["faction_local"] = "部落",
-					},
-					["location"] = {
-						{
-							["slot_count"] = 80,
-							["bag"] = {
-								{
-									["q"] = 0,
-									["type"] = 1,
-									["slot"] = {
-										{
-											["q"] = 1,
-											["loc_id"] = 1,
-											["count"] = 1,
-											["sb"] = 3,
-											["h"] = "|cffffffff|Hitem:6948::::::::1:::::::::|h[爐石]|h|r",
-											["bag_id"] = 1,
-											["slot_id"] = 1,
-										}, -- [1]
-										{
-											["q"] = 1,
-											["loc_id"] = 1,
-											["count"] = 4,
-											["sb"] = 0,
-											["h"] = "|cffffffff|Hitem:117::::::::1:::::::::|h[硬肉乾]|h|r",
-											["bag_id"] = 1,
-											["slot_id"] = 2,
-										}, -- [2]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 3,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [3]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 4,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [4]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 5,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [5]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 6,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [6]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 7,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [7]
-										{
-											["q"] = 1,
-											["loc_id"] = 1,
-											["count"] = 5,
-											["sb"] = 0,
-											["h"] = "|cffffffff|Hitem:27503::::::::1:::::::::|h[力量卷軸 V]|h|r",
-											["bag_id"] = 1,
-											["slot_id"] = 8,
-										}, -- [8]
-										{
-											["q"] = 1,
-											["loc_id"] = 1,
-											["count"] = 5,
-											["sb"] = 0,
-											["h"] = "|cffffffff|Hitem:27503::::::::1:::::::::|h[力量卷軸 V]|h|r",
-											["bag_id"] = 1,
-											["slot_id"] = 9,
-										}, -- [9]
-										{
-											["q"] = 1,
-											["loc_id"] = 1,
-											["count"] = 5,
-											["sb"] = 0,
-											["h"] = "|cffffffff|Hitem:27503::::::::1:::::::::|h[力量卷軸 V]|h|r",
-											["bag_id"] = 1,
-											["slot_id"] = 10,
-										}, -- [10]
-										{
-											["q"] = 1,
-											["loc_id"] = 1,
-											["count"] = 5,
-											["sb"] = 0,
-											["h"] = "|cffffffff|Hitem:27503::::::::1:::::::::|h[力量卷軸 V]|h|r",
-											["bag_id"] = 1,
-											["slot_id"] = 11,
-										}, -- [11]
-										{
-											["q"] = 1,
-											["loc_id"] = 1,
-											["count"] = 5,
-											["sb"] = 0,
-											["h"] = "|cffffffff|Hitem:27503::::::::1:::::::::|h[力量卷軸 V]|h|r",
-											["bag_id"] = 1,
-											["slot_id"] = 12,
-										}, -- [12]
-										{
-											["q"] = 1,
-											["loc_id"] = 1,
-											["count"] = 5,
-											["sb"] = 0,
-											["h"] = "|cffffffff|Hitem:27503::::::::1:::::::::|h[力量卷軸 V]|h|r",
-											["bag_id"] = 1,
-											["slot_id"] = 13,
-										}, -- [13]
-										{
-											["q"] = 1,
-											["loc_id"] = 1,
-											["count"] = 5,
-											["sb"] = 0,
-											["h"] = "|cffffffff|Hitem:22445::::::::1:::::::::|h[魔塵]|h|r",
-											["bag_id"] = 1,
-											["slot_id"] = 14,
-										}, -- [14]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["count"] = 1,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["slot_id"] = 15,
-										}, -- [15]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["count"] = 1,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["slot_id"] = 16,
-										}, -- [16]
-									},
-									["bag_id"] = 1,
-									["loc_id"] = 1,
-									["count"] = 16,
-									["status"] = -3,
-									["empty"] = 7,
-									["texture"] = "Interface\\Icons\\INV_Misc_Bag_07_Green",
-								}, -- [1]
-								{
-									["q"] = 2,
-									["type"] = 1,
-									["slot"] = {
-										{
-											["q"] = 1,
-											["loc_id"] = 1,
-											["count"] = 1,
-											["sb"] = 0,
-											["h"] = "|cffffffff|Hitem:22445::::::::1:::::::::|h[魔塵]|h|r",
-											["bag_id"] = 2,
-											["slot_id"] = 1,
-										}, -- [1]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["count"] = 1,
-											["sb"] = 0,
-											["bag_id"] = 2,
-											["slot_id"] = 2,
-										}, -- [2]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["count"] = 1,
-											["sb"] = 0,
-											["bag_id"] = 2,
-											["slot_id"] = 3,
-										}, -- [3]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["count"] = 1,
-											["sb"] = 0,
-											["bag_id"] = 2,
-											["slot_id"] = 4,
-										}, -- [4]
-										{
-											["q"] = 2,
-											["loc_id"] = 1,
-											["count"] = 1,
-											["sb"] = 0,
-											["h"] = "|cff1eff00|Hitem:11175::::::::1:::::::::|h[強效虛空精華]|h|r",
-											["bag_id"] = 2,
-											["slot_id"] = 5,
-										}, -- [5]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["count"] = 1,
-											["sb"] = 0,
-											["bag_id"] = 2,
-											["slot_id"] = 6,
-										}, -- [6]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["count"] = 1,
-											["sb"] = 0,
-											["bag_id"] = 2,
-											["slot_id"] = 7,
-										}, -- [7]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["count"] = 1,
-											["sb"] = 0,
-											["bag_id"] = 2,
-											["slot_id"] = 8,
-										}, -- [8]
-										{
-											["q"] = 3,
-											["loc_id"] = 1,
-											["count"] = 6,
-											["sb"] = 0,
-											["h"] = "|cff0070dd|Hitem:22448::::::::1:::::::::|h[小塊稜石裂片]|h|r",
-											["bag_id"] = 2,
-											["slot_id"] = 9,
-										}, -- [9]
-										{
-											["q"] = 2,
-											["loc_id"] = 1,
-											["count"] = 7,
-											["sb"] = 0,
-											["h"] = "|cff1eff00|Hitem:10998::::::::1:::::::::|h[次級星界精華]|h|r",
-											["bag_id"] = 2,
-											["slot_id"] = 10,
-										}, -- [10]
-										{
-											["q"] = 2,
-											["loc_id"] = 1,
-											["count"] = 8,
-											["sb"] = 0,
-											["h"] = "|cff1eff00|Hitem:10939::::::::1:::::::::|h[強效魔法精華]|h|r",
-											["bag_id"] = 2,
-											["slot_id"] = 11,
-										}, -- [11]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["count"] = 1,
-											["sb"] = 0,
-											["bag_id"] = 2,
-											["slot_id"] = 12,
-										}, -- [12]
-										{
-											["q"] = 2,
-											["loc_id"] = 1,
-											["count"] = 4,
-											["sb"] = 0,
-											["h"] = "|cff1eff00|Hitem:11175::::::::1:::::::::|h[強效虛空精華]|h|r",
-											["bag_id"] = 2,
-											["slot_id"] = 13,
-										}, -- [13]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["count"] = 1,
-											["sb"] = 0,
-											["bag_id"] = 2,
-											["slot_id"] = 14,
-										}, -- [14]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["count"] = 1,
-											["sb"] = 0,
-											["bag_id"] = 2,
-											["slot_id"] = 15,
-										}, -- [15]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["count"] = 1,
-											["sb"] = 0,
-											["bag_id"] = 2,
-											["slot_id"] = 16,
-										}, -- [16]
-									},
-									["bag_id"] = 2,
-									["loc_id"] = 1,
-									["count"] = 16,
-									["status"] = -3,
-									["empty"] = 10,
-									["h"] = "|cff1eff00|Hitem:21841::::::::1:::::::::|h[幽紋布包]|h|r",
-									["texture"] = 133656,
-								}, -- [2]
-								{
-									["q"] = 2,
-									["type"] = 1,
-									["slot"] = {
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 1,
-											["sb"] = 0,
-											["bag_id"] = 3,
-											["count"] = 1,
-										}, -- [1]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 2,
-											["sb"] = 0,
-											["bag_id"] = 3,
-											["count"] = 1,
-										}, -- [2]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 3,
-											["sb"] = 0,
-											["bag_id"] = 3,
-											["count"] = 1,
-										}, -- [3]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 4,
-											["sb"] = 0,
-											["bag_id"] = 3,
-											["count"] = 1,
-										}, -- [4]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 5,
-											["sb"] = 0,
-											["bag_id"] = 3,
-											["count"] = 1,
-										}, -- [5]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 6,
-											["sb"] = 0,
-											["bag_id"] = 3,
-											["count"] = 1,
-										}, -- [6]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 7,
-											["sb"] = 0,
-											["bag_id"] = 3,
-											["count"] = 1,
-										}, -- [7]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 8,
-											["sb"] = 0,
-											["bag_id"] = 3,
-											["count"] = 1,
-										}, -- [8]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 9,
-											["sb"] = 0,
-											["bag_id"] = 3,
-											["count"] = 1,
-										}, -- [9]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 10,
-											["sb"] = 0,
-											["bag_id"] = 3,
-											["count"] = 1,
-										}, -- [10]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 11,
-											["sb"] = 0,
-											["bag_id"] = 3,
-											["count"] = 1,
-										}, -- [11]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 12,
-											["sb"] = 0,
-											["bag_id"] = 3,
-											["count"] = 1,
-										}, -- [12]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 13,
-											["sb"] = 0,
-											["bag_id"] = 3,
-											["count"] = 1,
-										}, -- [13]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 14,
-											["sb"] = 0,
-											["bag_id"] = 3,
-											["count"] = 1,
-										}, -- [14]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 15,
-											["sb"] = 0,
-											["bag_id"] = 3,
-											["count"] = 1,
-										}, -- [15]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 16,
-											["sb"] = 0,
-											["bag_id"] = 3,
-											["count"] = 1,
-										}, -- [16]
-									},
-									["bag_id"] = 3,
-									["loc_id"] = 1,
-									["count"] = 16,
-									["status"] = -3,
-									["empty"] = 16,
-									["h"] = "|cff1eff00|Hitem:21841::::::::1:::::::::|h[幽紋布包]|h|r",
-									["texture"] = 133656,
-								}, -- [3]
-								{
-									["q"] = 2,
-									["type"] = 1,
-									["slot"] = {
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 1,
-											["sb"] = 0,
-											["bag_id"] = 4,
-											["count"] = 1,
-										}, -- [1]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 2,
-											["sb"] = 0,
-											["bag_id"] = 4,
-											["count"] = 1,
-										}, -- [2]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 3,
-											["sb"] = 0,
-											["bag_id"] = 4,
-											["count"] = 1,
-										}, -- [3]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 4,
-											["sb"] = 0,
-											["bag_id"] = 4,
-											["count"] = 1,
-										}, -- [4]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 5,
-											["sb"] = 0,
-											["bag_id"] = 4,
-											["count"] = 1,
-										}, -- [5]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 6,
-											["sb"] = 0,
-											["bag_id"] = 4,
-											["count"] = 1,
-										}, -- [6]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 7,
-											["sb"] = 0,
-											["bag_id"] = 4,
-											["count"] = 1,
-										}, -- [7]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 8,
-											["sb"] = 0,
-											["bag_id"] = 4,
-											["count"] = 1,
-										}, -- [8]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 9,
-											["sb"] = 0,
-											["bag_id"] = 4,
-											["count"] = 1,
-										}, -- [9]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 10,
-											["sb"] = 0,
-											["bag_id"] = 4,
-											["count"] = 1,
-										}, -- [10]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 11,
-											["sb"] = 0,
-											["bag_id"] = 4,
-											["count"] = 1,
-										}, -- [11]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 12,
-											["sb"] = 0,
-											["bag_id"] = 4,
-											["count"] = 1,
-										}, -- [12]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 13,
-											["sb"] = 0,
-											["bag_id"] = 4,
-											["count"] = 1,
-										}, -- [13]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 14,
-											["sb"] = 0,
-											["bag_id"] = 4,
-											["count"] = 1,
-										}, -- [14]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 15,
-											["sb"] = 0,
-											["bag_id"] = 4,
-											["count"] = 1,
-										}, -- [15]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 16,
-											["sb"] = 0,
-											["bag_id"] = 4,
-											["count"] = 1,
-										}, -- [16]
-									},
-									["bag_id"] = 4,
-									["loc_id"] = 1,
-									["count"] = 16,
-									["status"] = -3,
-									["empty"] = 16,
-									["h"] = "|cff1eff00|Hitem:21841::::::::1:::::::::|h[幽紋布包]|h|r",
-									["texture"] = 133656,
-								}, -- [4]
-								{
-									["q"] = 2,
-									["type"] = 1,
-									["slot"] = {
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 1,
-											["sb"] = 0,
-											["bag_id"] = 5,
-											["count"] = 1,
-										}, -- [1]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 2,
-											["sb"] = 0,
-											["bag_id"] = 5,
-											["count"] = 1,
-										}, -- [2]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 3,
-											["sb"] = 0,
-											["bag_id"] = 5,
-											["count"] = 1,
-										}, -- [3]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 4,
-											["sb"] = 0,
-											["bag_id"] = 5,
-											["count"] = 1,
-										}, -- [4]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 5,
-											["sb"] = 0,
-											["bag_id"] = 5,
-											["count"] = 1,
-										}, -- [5]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 6,
-											["sb"] = 0,
-											["bag_id"] = 5,
-											["count"] = 1,
-										}, -- [6]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 7,
-											["sb"] = 0,
-											["bag_id"] = 5,
-											["count"] = 1,
-										}, -- [7]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 8,
-											["sb"] = 0,
-											["bag_id"] = 5,
-											["count"] = 1,
-										}, -- [8]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 9,
-											["sb"] = 0,
-											["bag_id"] = 5,
-											["count"] = 1,
-										}, -- [9]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 10,
-											["sb"] = 0,
-											["bag_id"] = 5,
-											["count"] = 1,
-										}, -- [10]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 11,
-											["sb"] = 0,
-											["bag_id"] = 5,
-											["count"] = 1,
-										}, -- [11]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 12,
-											["sb"] = 0,
-											["bag_id"] = 5,
-											["count"] = 1,
-										}, -- [12]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 13,
-											["sb"] = 0,
-											["bag_id"] = 5,
-											["count"] = 1,
-										}, -- [13]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 14,
-											["sb"] = 0,
-											["bag_id"] = 5,
-											["count"] = 1,
-										}, -- [14]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 15,
-											["sb"] = 0,
-											["bag_id"] = 5,
-											["count"] = 1,
-										}, -- [15]
-										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["slot_id"] = 16,
-											["sb"] = 0,
-											["bag_id"] = 5,
-											["count"] = 1,
-										}, -- [16]
-									},
-									["bag_id"] = 5,
-									["loc_id"] = 1,
-									["count"] = 16,
-									["status"] = -3,
-									["empty"] = 16,
-									["h"] = "|cff1eff00|Hitem:21841::::::::1:::::::::|h[幽紋布包]|h|r",
-									["texture"] = 133656,
-								}, -- [5]
-							},
-						}, -- [1]
-						{
-							["slot_count"] = 32,
-							["bag"] = {
-								{
-									["type"] = 3,
-									["count"] = 32,
-									["slot"] = {
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 1,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [1]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 2,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [2]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 3,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [3]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 4,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [4]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 5,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [5]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 6,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [6]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 7,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [7]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 8,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [8]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 9,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [9]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 10,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [10]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 11,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [11]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 12,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [12]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 13,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [13]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 14,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [14]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 15,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [15]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 16,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [16]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 17,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [17]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 18,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [18]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 19,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [19]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 20,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [20]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 21,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [21]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 22,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [22]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 23,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [23]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 24,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [24]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 25,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [25]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 26,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [26]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 27,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [27]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 28,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [28]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 29,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [29]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 30,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [30]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 31,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [31]
-										{
-											["q"] = -1,
-											["loc_id"] = 2,
-											["slot_id"] = 32,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [32]
-									},
-									["status"] = -3,
-									["empty"] = 32,
-									["bag_id"] = 1,
-									["loc_id"] = 2,
-								}, -- [1]
-							},
-						}, -- [2]
-						nil, -- [3]
-						nil, -- [4]
-						{
-							["bag"] = {
-								{
-									["type"] = 15,
-									["count"] = 1,
-									["slot"] = {
-										{
-											["q"] = 0,
-											["loc_id"] = 5,
-											["slot_id"] = 1,
-											["sb"] = 0,
-											["bag_id"] = 1,
-										}, -- [1]
-									},
-									["status"] = -3,
-									["empty"] = 1,
-									["bag_id"] = 1,
-									["loc_id"] = 5,
-								}, -- [1]
-								{
-									["loc_id"] = 5,
-									["status"] = -3,
-									["bag_id"] = 2,
-									["type"] = 15,
-								}, -- [2]
-							},
-							["slot_count"] = 1,
-						}, -- [5]
-						{
-							["slot_count"] = 19,
-							["bag"] = {
-								{
-									["type"] = 14,
-									["count"] = 19,
-									["slot"] = {
-										{
-											["q"] = -1,
-											["loc_id"] = 6,
-											["slot_id"] = 1,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [1]
-										{
-											["q"] = -1,
-											["loc_id"] = 6,
-											["slot_id"] = 2,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [2]
-										{
-											["q"] = -1,
-											["loc_id"] = 6,
-											["slot_id"] = 3,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [3]
-										{
-											["q"] = -1,
-											["loc_id"] = 6,
-											["slot_id"] = 4,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [4]
-										{
-											["q"] = -1,
-											["loc_id"] = 6,
-											["slot_id"] = 5,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [5]
-										{
-											["q"] = 1,
-											["loc_id"] = 6,
-											["slot_id"] = 6,
-											["sb"] = 0,
-											["count"] = 1,
-											["age"] = 27502179,
-											["bag_id"] = 1,
-											["h"] = "|cffffffff|Hitem:6125::::::::1:::::::::|h[打鬥者甲冑]|h|r",
-										}, -- [6]
-										{
-											["q"] = -1,
-											["loc_id"] = 6,
-											["slot_id"] = 7,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [7]
-										{
-											["q"] = -1,
-											["loc_id"] = 6,
-											["slot_id"] = 8,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [8]
-										{
-											["q"] = -1,
-											["loc_id"] = 6,
-											["slot_id"] = 9,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [9]
-										{
-											["q"] = -1,
-											["loc_id"] = 6,
-											["slot_id"] = 10,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [10]
-										{
-											["q"] = 0,
-											["loc_id"] = 6,
-											["slot_id"] = 11,
-											["sb"] = 0,
-											["count"] = 1,
-											["age"] = 27502179,
-											["bag_id"] = 1,
-											["h"] = "|cff9d9d9d|Hitem:139::::::::1:::::::::|h[打鬥者便褲]|h|r",
-										}, -- [11]
-										{
-											["q"] = 1,
-											["loc_id"] = 6,
-											["slot_id"] = 12,
-											["sb"] = 0,
-											["count"] = 1,
-											["age"] = 27502179,
-											["bag_id"] = 1,
-											["h"] = "|cffffffff|Hitem:140::::::::1:::::::::|h[打鬥者的靴子]|h|r",
-										}, -- [12]
-										{
-											["q"] = -1,
-											["loc_id"] = 6,
-											["slot_id"] = 13,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [13]
-										{
-											["q"] = -1,
-											["loc_id"] = 6,
-											["slot_id"] = 14,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [14]
-										{
-											["q"] = -1,
-											["loc_id"] = 6,
-											["slot_id"] = 15,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [15]
-										{
-											["q"] = -1,
-											["loc_id"] = 6,
-											["slot_id"] = 16,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [16]
-										{
-											["q"] = 1,
-											["loc_id"] = 6,
-											["slot_id"] = 17,
-											["sb"] = 0,
-											["count"] = 1,
-											["age"] = 27502179,
-											["bag_id"] = 1,
-											["h"] = "|cffffffff|Hitem:12282::::::::1:::::::::|h[用舊的戰斧]|h|r",
-										}, -- [17]
-										{
-											["q"] = -1,
-											["loc_id"] = 6,
-											["slot_id"] = 18,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [18]
-										{
-											["q"] = -1,
-											["loc_id"] = 6,
-											["slot_id"] = 19,
-											["sb"] = 0,
-											["bag_id"] = 1,
-											["count"] = 1,
-										}, -- [19]
-									},
-									["status"] = -3,
-									["empty"] = 15,
-									["bag_id"] = 1,
-									["loc_id"] = 6,
-								}, -- [1]
-							},
-						}, -- [6]
-						nil, -- [7]
-						nil, -- [8]
-						nil, -- [9]
-						{
-							["bag"] = {
-								{
-									["bag_id"] = 1,
-									["loc_id"] = 10,
-								}, -- [1]
-							},
-						}, -- [10]
-						nil, -- [11]
-						nil, -- [12]
-						nil, -- [13]
-						nil, -- [14]
-						nil, -- [15]
-						{
-							["slot_count"] = 5,
-							["bag"] = {
-								{
-									["type"] = 29,
-									["count"] = 5,
-									["slot"] = {
-										{
-											["q"] = 0,
-											["loc_id"] = 16,
-											["slot_id"] = 1,
-											["sb"] = 3,
-											["count"] = 4000,
-											["bag_id"] = 1,
-											["h"] = "reputation:76:友好:1000:6000:0:0:0",
-										}, -- [1]
-										{
-											["q"] = 0,
-											["loc_id"] = 16,
-											["slot_id"] = 2,
-											["sb"] = 3,
-											["count"] = 500,
-											["bag_id"] = 1,
-											["h"] = "reputation:68:中立:500:3000:0:0:0",
-										}, -- [2]
-										{
-											["q"] = 0,
-											["loc_id"] = 16,
-											["slot_id"] = 3,
-											["sb"] = 3,
-											["count"] = 3100,
-											["bag_id"] = 1,
-											["h"] = "reputation:530:友好:100:6000:0:0:0",
-										}, -- [3]
-										{
-											["q"] = 0,
-											["loc_id"] = 16,
-											["slot_id"] = 4,
-											["sb"] = 3,
-											["count"] = 400,
-											["bag_id"] = 1,
-											["h"] = "reputation:911:中立:400:3000:0:0:0",
-										}, -- [4]
-										{
-											["q"] = 0,
-											["loc_id"] = 16,
-											["slot_id"] = 5,
-											["sb"] = 3,
-											["count"] = 3100,
-											["bag_id"] = 1,
-											["h"] = "reputation:81:友好:100:6000:0:0:0",
-										}, -- [5]
-									},
-									["status"] = -3,
-									["bag_id"] = 1,
-									["loc_id"] = 16,
-								}, -- [1]
-							},
-						}, -- [16]
-					},
-				},
-				["+猛男俱樂部 - 伊弗斯"] = {
-					["option"] = {
-						[4] = {
-							["bag"] = {
-								nil, -- [1]
-								{
-									["display"] = false,
-								}, -- [2]
-								{
-									["display"] = false,
-								}, -- [3]
-								{
-									["display"] = false,
-								}, -- [4]
-								{
-									["display"] = false,
-								}, -- [5]
-								{
-									["display"] = false,
-								}, -- [6]
-							},
-						},
-					},
-				},
 				["特變電工 - 伊弗斯"] = {
 					["info"] = {
 						["guid"] = "Player-4487-0012ECFA",
@@ -5287,7 +3966,7 @@ ARKINVDB = {
 						["proj"] = 5,
 						["realm"] = "伊弗斯",
 						["isplayer"] = true,
-						["money"] = 192108522,
+						["money"] = 219481739,
 						["gender"] = 2,
 						["itemlevel"] = 1,
 						["name"] = "特變電工",
@@ -5405,7 +4084,7 @@ ARKINVDB = {
 											["q"] = 1,
 											["bag_id"] = 1,
 											["h"] = "|cffffffff|Hitem:33092::::::::70:::::::::|h[治療藥水注射器]|h|r",
-											["count"] = 5,
+											["count"] = 1,
 											["sb"] = 0,
 											["slot_id"] = 11,
 											["loc_id"] = 1,
@@ -5452,13 +4131,13 @@ ARKINVDB = {
 										}, -- [15]
 										{
 											["q"] = 1,
+											["age"] = 27653291,
 											["bag_id"] = 1,
-											["h"] = "|cffffffff|Hitem:22103::::::::70:::::::::|h[極強效治療石]|h|r",
-											["count"] = 1,
+											["h"] = "|cffffffff|Hitem:34062::::::::70:::::::::|h[魔法軟餅]|h|r",
+											["count"] = 20,
 											["sb"] = 0,
 											["slot_id"] = 16,
 											["loc_id"] = 1,
-											["age"] = 27644639,
 										}, -- [16]
 									},
 									["bag_id"] = 1,
@@ -5484,22 +4163,22 @@ ARKINVDB = {
 										{
 											["q"] = 1,
 											["bag_id"] = 2,
-											["h"] = "|cffffffff|Hitem:22104::::::::70:::::::::|h[極強效治療石]|h|r",
-											["count"] = 1,
+											["loc_id"] = 1,
+											["count"] = 5,
 											["sb"] = 0,
 											["slot_id"] = 2,
-											["loc_id"] = 1,
-											["age"] = 27644639,
+											["h"] = "|cffffffff|Hitem:27658::::::::70:::::::::|h[燒烤裂蹄肉]|h|r",
+											["age"] = 27653222,
 										}, -- [2]
 										{
 											["q"] = 1,
 											["bag_id"] = 2,
-											["h"] = "|cffffffff|Hitem:22105::::::::70:::::::::|h[極強效治療石]|h|r",
+											["loc_id"] = 1,
 											["slot_id"] = 3,
 											["sb"] = 0,
-											["count"] = 1,
-											["loc_id"] = 1,
-											["age"] = 27644639,
+											["count"] = 20,
+											["h"] = "|cffffffff|Hitem:27658::::::::70:::::::::|h[燒烤裂蹄肉]|h|r",
+											["age"] = 27653222,
 										}, -- [3]
 										{
 											["q"] = 1,
@@ -5580,12 +4259,14 @@ ARKINVDB = {
 											["count"] = 8,
 										}, -- [11]
 										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["count"] = 1,
-											["sb"] = 0,
+											["q"] = 1,
 											["bag_id"] = 2,
+											["loc_id"] = 1,
+											["count"] = 18,
+											["sb"] = 0,
 											["slot_id"] = 12,
+											["h"] = "|cffffffff|Hitem:23446::::::::70:::::::::|h[堅鋼錠]|h|r",
+											["age"] = 27653222,
 										}, -- [12]
 										{
 											["q"] = 1,
@@ -5616,12 +4297,14 @@ ARKINVDB = {
 											["bag_id"] = 2,
 										}, -- [15]
 										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["count"] = 1,
-											["sb"] = 0,
+											["q"] = 1,
 											["bag_id"] = 2,
+											["loc_id"] = 1,
+											["count"] = 20,
+											["sb"] = 0,
 											["slot_id"] = 16,
+											["h"] = "|cffffffff|Hitem:23446::::::::70:::::::::|h[堅鋼錠]|h|r",
+											["age"] = 27653222,
 										}, -- [16]
 										{
 											["q"] = 1,
@@ -5634,18 +4317,20 @@ ARKINVDB = {
 											["age"] = 27633925,
 										}, -- [17]
 										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["count"] = 1,
-											["sb"] = 0,
+											["q"] = 1,
 											["bag_id"] = 2,
+											["loc_id"] = 1,
+											["count"] = 20,
+											["sb"] = 0,
 											["slot_id"] = 18,
+											["h"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
+											["age"] = 27653222,
 										}, -- [18]
 										{
 											["q"] = 4,
 											["age"] = 27582616,
 											["h"] = "|cffa335ee|Hitem:29434::::::::70:::::::::|h[正義徽章]|h|r",
-											["count"] = 62,
+											["count"] = 66,
 											["sb"] = 3,
 											["slot_id"] = 19,
 											["loc_id"] = 1,
@@ -5684,7 +4369,6 @@ ARKINVDB = {
 									["loc_id"] = 1,
 									["count"] = 22,
 									["status"] = -3,
-									["empty"] = 3,
 									["h"] = "|cffa335ee|Hitem:38082::::::::70:::::::::|h[「巨無霸」背包]|h|r",
 									["texture"] = 133660,
 								}, -- [2]
@@ -5756,7 +4440,7 @@ ARKINVDB = {
 											["h"] = "|cffffffff|Hitem:22838::::::::70:::::::::|h[急速藥水]|h|r",
 											["slot_id"] = 7,
 											["sb"] = 0,
-											["count"] = 4,
+											["count"] = 3,
 											["loc_id"] = 1,
 											["age"] = 27390848,
 										}, -- [7]
@@ -5828,18 +4512,18 @@ ARKINVDB = {
 											["bag_id"] = 3,
 										}, -- [14]
 										{
-											["q"] = 0,
-											["loc_id"] = 1,
-											["count"] = 1,
-											["sb"] = 0,
+											["q"] = 1,
 											["bag_id"] = 3,
+											["h"] = "|cffffffff|Hitem:34062::::::::70:::::::::|h[魔法軟餅]|h|r",
+											["count"] = 20,
+											["sb"] = 0,
 											["slot_id"] = 15,
+											["loc_id"] = 1,
+											["age"] = 27653291,
 										}, -- [15]
 										{
-											["q"] = 2,
-											["age"] = 27584163,
-											["h"] = "|cff1eff00|Hitem:23529::::::::70:::::::::|h[堅鋼磨刀石]|h|r",
-											["count"] = 3,
+											["q"] = 0,
+											["count"] = 1,
 											["sb"] = 0,
 											["slot_id"] = 16,
 											["loc_id"] = 1,
@@ -5855,12 +4539,14 @@ ARKINVDB = {
 											["slot_id"] = 17,
 										}, -- [17]
 										{
-											["q"] = 0,
-											["loc_id"] = 1,
+											["q"] = 1,
+											["bag_id"] = 3,
+											["h"] = "|cffffffff|Hitem:22104::::::::70:::::::::|h[極強效治療石]|h|r",
 											["slot_id"] = 18,
 											["sb"] = 0,
-											["bag_id"] = 3,
 											["count"] = 1,
+											["loc_id"] = 1,
+											["age"] = 27653291,
 										}, -- [18]
 										{
 											["q"] = 1,
@@ -5876,7 +4562,7 @@ ARKINVDB = {
 											["q"] = 1,
 											["bag_id"] = 3,
 											["loc_id"] = 1,
-											["count"] = 18,
+											["count"] = 16,
 											["sb"] = 0,
 											["slot_id"] = 20,
 											["h"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[幽紋布]|h|r",
@@ -5907,7 +4593,7 @@ ARKINVDB = {
 									["loc_id"] = 1,
 									["count"] = 22,
 									["status"] = -3,
-									["empty"] = 2,
+									["empty"] = 1,
 									["h"] = "|cffa335ee|Hitem:38082::::::::70:::::::::|h[「巨無霸」背包]|h|r",
 									["texture"] = 133660,
 								}, -- [3]
@@ -6017,7 +4703,7 @@ ARKINVDB = {
 											["h"] = "|cffffffff|Hitem:9224::::::::70:::::::::|h[屠魔藥劑]|h|r",
 											["slot_id"] = 12,
 											["sb"] = 0,
-											["count"] = 15,
+											["count"] = 1,
 											["loc_id"] = 1,
 											["bag_id"] = 4,
 										}, -- [12]
@@ -6137,9 +4823,9 @@ ARKINVDB = {
 										}, -- [1]
 										{
 											["q"] = 2,
-											["age"] = 27522053,
+											["age"] = 27653222,
 											["loc_id"] = 1,
-											["count"] = 16,
+											["count"] = 17,
 											["sb"] = 0,
 											["slot_id"] = 2,
 											["h"] = "|cff1eff00|Hitem:28421::::::::70:::::::::|h[堅鋼平衡石]|h|r",
@@ -6202,7 +4888,7 @@ ARKINVDB = {
 											["q"] = 1,
 											["age"] = 27492076,
 											["h"] = "|cffffffff|Hitem:22831::::::::70:::::::::|h[極效敏捷藥劑]|h|r",
-											["count"] = 5,
+											["count"] = 4,
 											["sb"] = 0,
 											["slot_id"] = 9,
 											["loc_id"] = 1,
@@ -6252,7 +4938,7 @@ ARKINVDB = {
 											["sb"] = 3,
 											["loc_id"] = 1,
 											["bag_id"] = 5,
-											["count"] = 1,
+											["count"] = 4,
 										}, -- [14]
 										{
 											["q"] = 4,
@@ -7996,11 +6682,11 @@ ARKINVDB = {
 										{
 											["q"] = 0,
 											["loc_id"] = 5,
-											["slot_id"] = 1,
-											["sb"] = 0,
 											["msg_id"] = 1,
-											["bag_id"] = 1,
 											["att_id"] = 1,
+											["slot_id"] = 1,
+											["bag_id"] = 1,
+											["sb"] = 0,
 										}, -- [1]
 									},
 									["status"] = -3,
@@ -8551,6 +7237,1327 @@ ARKINVDB = {
 						}, -- [16]
 					},
 				},
+				["+猛男俱樂部 - 伊弗斯"] = {
+					["option"] = {
+						[4] = {
+							["bag"] = {
+								nil, -- [1]
+								{
+									["display"] = false,
+								}, -- [2]
+								{
+									["display"] = false,
+								}, -- [3]
+								{
+									["display"] = false,
+								}, -- [4]
+								{
+									["display"] = false,
+								}, -- [5]
+								{
+									["display"] = false,
+								}, -- [6]
+							},
+						},
+					},
+				},
+				["路易斯桑拿 - 伊弗斯"] = {
+					["info"] = {
+						["guid"] = "Player-4487-000AC97B",
+						["class"] = "WARRIOR",
+						["player_id"] = "路易斯桑拿 - 伊弗斯",
+						["race"] = "Orc",
+						["proj"] = 5,
+						["realm"] = "伊弗斯",
+						["isplayer"] = true,
+						["money"] = 6909409,
+						["gender"] = 3,
+						["itemlevel"] = 1,
+						["name"] = "路易斯桑拿",
+						["faction"] = "Horde",
+						["race_local"] = "獸人",
+						["class_local"] = "戰士",
+						["level"] = 1,
+						["faction_local"] = "部落",
+					},
+					["location"] = {
+						{
+							["slot_count"] = 80,
+							["bag"] = {
+								{
+									["q"] = 0,
+									["type"] = 1,
+									["slot"] = {
+										{
+											["q"] = 1,
+											["loc_id"] = 1,
+											["count"] = 1,
+											["sb"] = 3,
+											["h"] = "|cffffffff|Hitem:6948::::::::1:::::::::|h[爐石]|h|r",
+											["bag_id"] = 1,
+											["slot_id"] = 1,
+										}, -- [1]
+										{
+											["q"] = 1,
+											["loc_id"] = 1,
+											["count"] = 4,
+											["sb"] = 0,
+											["h"] = "|cffffffff|Hitem:117::::::::1:::::::::|h[硬肉乾]|h|r",
+											["bag_id"] = 1,
+											["slot_id"] = 2,
+										}, -- [2]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 3,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [3]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 4,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [4]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 5,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [5]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 6,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [6]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 7,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [7]
+										{
+											["q"] = 1,
+											["loc_id"] = 1,
+											["count"] = 5,
+											["sb"] = 0,
+											["h"] = "|cffffffff|Hitem:27503::::::::1:::::::::|h[力量卷軸 V]|h|r",
+											["bag_id"] = 1,
+											["slot_id"] = 8,
+										}, -- [8]
+										{
+											["q"] = 1,
+											["loc_id"] = 1,
+											["count"] = 5,
+											["sb"] = 0,
+											["h"] = "|cffffffff|Hitem:27503::::::::1:::::::::|h[力量卷軸 V]|h|r",
+											["bag_id"] = 1,
+											["slot_id"] = 9,
+										}, -- [9]
+										{
+											["q"] = 1,
+											["loc_id"] = 1,
+											["count"] = 5,
+											["sb"] = 0,
+											["h"] = "|cffffffff|Hitem:27503::::::::1:::::::::|h[力量卷軸 V]|h|r",
+											["bag_id"] = 1,
+											["slot_id"] = 10,
+										}, -- [10]
+										{
+											["q"] = 1,
+											["loc_id"] = 1,
+											["count"] = 5,
+											["sb"] = 0,
+											["h"] = "|cffffffff|Hitem:27503::::::::1:::::::::|h[力量卷軸 V]|h|r",
+											["bag_id"] = 1,
+											["slot_id"] = 11,
+										}, -- [11]
+										{
+											["q"] = 1,
+											["loc_id"] = 1,
+											["count"] = 5,
+											["sb"] = 0,
+											["h"] = "|cffffffff|Hitem:27503::::::::1:::::::::|h[力量卷軸 V]|h|r",
+											["bag_id"] = 1,
+											["slot_id"] = 12,
+										}, -- [12]
+										{
+											["q"] = 1,
+											["loc_id"] = 1,
+											["count"] = 5,
+											["sb"] = 0,
+											["h"] = "|cffffffff|Hitem:27503::::::::1:::::::::|h[力量卷軸 V]|h|r",
+											["bag_id"] = 1,
+											["slot_id"] = 13,
+										}, -- [13]
+										{
+											["q"] = 1,
+											["loc_id"] = 1,
+											["count"] = 5,
+											["sb"] = 0,
+											["h"] = "|cffffffff|Hitem:22445::::::::1:::::::::|h[魔塵]|h|r",
+											["bag_id"] = 1,
+											["slot_id"] = 14,
+										}, -- [14]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["count"] = 1,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["slot_id"] = 15,
+										}, -- [15]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["count"] = 1,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["slot_id"] = 16,
+										}, -- [16]
+									},
+									["bag_id"] = 1,
+									["loc_id"] = 1,
+									["count"] = 16,
+									["status"] = -3,
+									["empty"] = 7,
+									["texture"] = "Interface\\Icons\\INV_Misc_Bag_07_Green",
+								}, -- [1]
+								{
+									["q"] = 2,
+									["type"] = 1,
+									["slot"] = {
+										{
+											["q"] = 1,
+											["loc_id"] = 1,
+											["count"] = 1,
+											["sb"] = 0,
+											["h"] = "|cffffffff|Hitem:22445::::::::1:::::::::|h[魔塵]|h|r",
+											["bag_id"] = 2,
+											["slot_id"] = 1,
+										}, -- [1]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["count"] = 1,
+											["sb"] = 0,
+											["bag_id"] = 2,
+											["slot_id"] = 2,
+										}, -- [2]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["count"] = 1,
+											["sb"] = 0,
+											["bag_id"] = 2,
+											["slot_id"] = 3,
+										}, -- [3]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["count"] = 1,
+											["sb"] = 0,
+											["bag_id"] = 2,
+											["slot_id"] = 4,
+										}, -- [4]
+										{
+											["q"] = 2,
+											["loc_id"] = 1,
+											["count"] = 1,
+											["sb"] = 0,
+											["h"] = "|cff1eff00|Hitem:11175::::::::1:::::::::|h[強效虛空精華]|h|r",
+											["bag_id"] = 2,
+											["slot_id"] = 5,
+										}, -- [5]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["count"] = 1,
+											["sb"] = 0,
+											["bag_id"] = 2,
+											["slot_id"] = 6,
+										}, -- [6]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["count"] = 1,
+											["sb"] = 0,
+											["bag_id"] = 2,
+											["slot_id"] = 7,
+										}, -- [7]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["count"] = 1,
+											["sb"] = 0,
+											["bag_id"] = 2,
+											["slot_id"] = 8,
+										}, -- [8]
+										{
+											["q"] = 3,
+											["loc_id"] = 1,
+											["count"] = 6,
+											["sb"] = 0,
+											["h"] = "|cff0070dd|Hitem:22448::::::::1:::::::::|h[小塊稜石裂片]|h|r",
+											["bag_id"] = 2,
+											["slot_id"] = 9,
+										}, -- [9]
+										{
+											["q"] = 2,
+											["loc_id"] = 1,
+											["count"] = 7,
+											["sb"] = 0,
+											["h"] = "|cff1eff00|Hitem:10998::::::::1:::::::::|h[次級星界精華]|h|r",
+											["bag_id"] = 2,
+											["slot_id"] = 10,
+										}, -- [10]
+										{
+											["q"] = 2,
+											["loc_id"] = 1,
+											["count"] = 8,
+											["sb"] = 0,
+											["h"] = "|cff1eff00|Hitem:10939::::::::1:::::::::|h[強效魔法精華]|h|r",
+											["bag_id"] = 2,
+											["slot_id"] = 11,
+										}, -- [11]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["count"] = 1,
+											["sb"] = 0,
+											["bag_id"] = 2,
+											["slot_id"] = 12,
+										}, -- [12]
+										{
+											["q"] = 2,
+											["loc_id"] = 1,
+											["count"] = 4,
+											["sb"] = 0,
+											["h"] = "|cff1eff00|Hitem:11175::::::::1:::::::::|h[強效虛空精華]|h|r",
+											["bag_id"] = 2,
+											["slot_id"] = 13,
+										}, -- [13]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["count"] = 1,
+											["sb"] = 0,
+											["bag_id"] = 2,
+											["slot_id"] = 14,
+										}, -- [14]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["count"] = 1,
+											["sb"] = 0,
+											["bag_id"] = 2,
+											["slot_id"] = 15,
+										}, -- [15]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["count"] = 1,
+											["sb"] = 0,
+											["bag_id"] = 2,
+											["slot_id"] = 16,
+										}, -- [16]
+									},
+									["bag_id"] = 2,
+									["loc_id"] = 1,
+									["count"] = 16,
+									["status"] = -3,
+									["empty"] = 10,
+									["h"] = "|cff1eff00|Hitem:21841::::::::1:::::::::|h[幽紋布包]|h|r",
+									["texture"] = 133656,
+								}, -- [2]
+								{
+									["q"] = 2,
+									["type"] = 1,
+									["slot"] = {
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 1,
+											["sb"] = 0,
+											["bag_id"] = 3,
+											["count"] = 1,
+										}, -- [1]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 2,
+											["sb"] = 0,
+											["bag_id"] = 3,
+											["count"] = 1,
+										}, -- [2]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 3,
+											["sb"] = 0,
+											["bag_id"] = 3,
+											["count"] = 1,
+										}, -- [3]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 4,
+											["sb"] = 0,
+											["bag_id"] = 3,
+											["count"] = 1,
+										}, -- [4]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 5,
+											["sb"] = 0,
+											["bag_id"] = 3,
+											["count"] = 1,
+										}, -- [5]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 6,
+											["sb"] = 0,
+											["bag_id"] = 3,
+											["count"] = 1,
+										}, -- [6]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 7,
+											["sb"] = 0,
+											["bag_id"] = 3,
+											["count"] = 1,
+										}, -- [7]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 8,
+											["sb"] = 0,
+											["bag_id"] = 3,
+											["count"] = 1,
+										}, -- [8]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 9,
+											["sb"] = 0,
+											["bag_id"] = 3,
+											["count"] = 1,
+										}, -- [9]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 10,
+											["sb"] = 0,
+											["bag_id"] = 3,
+											["count"] = 1,
+										}, -- [10]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 11,
+											["sb"] = 0,
+											["bag_id"] = 3,
+											["count"] = 1,
+										}, -- [11]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 12,
+											["sb"] = 0,
+											["bag_id"] = 3,
+											["count"] = 1,
+										}, -- [12]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 13,
+											["sb"] = 0,
+											["bag_id"] = 3,
+											["count"] = 1,
+										}, -- [13]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 14,
+											["sb"] = 0,
+											["bag_id"] = 3,
+											["count"] = 1,
+										}, -- [14]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 15,
+											["sb"] = 0,
+											["bag_id"] = 3,
+											["count"] = 1,
+										}, -- [15]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 16,
+											["sb"] = 0,
+											["bag_id"] = 3,
+											["count"] = 1,
+										}, -- [16]
+									},
+									["bag_id"] = 3,
+									["loc_id"] = 1,
+									["count"] = 16,
+									["status"] = -3,
+									["empty"] = 16,
+									["h"] = "|cff1eff00|Hitem:21841::::::::1:::::::::|h[幽紋布包]|h|r",
+									["texture"] = 133656,
+								}, -- [3]
+								{
+									["q"] = 2,
+									["type"] = 1,
+									["slot"] = {
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 1,
+											["sb"] = 0,
+											["bag_id"] = 4,
+											["count"] = 1,
+										}, -- [1]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 2,
+											["sb"] = 0,
+											["bag_id"] = 4,
+											["count"] = 1,
+										}, -- [2]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 3,
+											["sb"] = 0,
+											["bag_id"] = 4,
+											["count"] = 1,
+										}, -- [3]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 4,
+											["sb"] = 0,
+											["bag_id"] = 4,
+											["count"] = 1,
+										}, -- [4]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 5,
+											["sb"] = 0,
+											["bag_id"] = 4,
+											["count"] = 1,
+										}, -- [5]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 6,
+											["sb"] = 0,
+											["bag_id"] = 4,
+											["count"] = 1,
+										}, -- [6]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 7,
+											["sb"] = 0,
+											["bag_id"] = 4,
+											["count"] = 1,
+										}, -- [7]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 8,
+											["sb"] = 0,
+											["bag_id"] = 4,
+											["count"] = 1,
+										}, -- [8]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 9,
+											["sb"] = 0,
+											["bag_id"] = 4,
+											["count"] = 1,
+										}, -- [9]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 10,
+											["sb"] = 0,
+											["bag_id"] = 4,
+											["count"] = 1,
+										}, -- [10]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 11,
+											["sb"] = 0,
+											["bag_id"] = 4,
+											["count"] = 1,
+										}, -- [11]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 12,
+											["sb"] = 0,
+											["bag_id"] = 4,
+											["count"] = 1,
+										}, -- [12]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 13,
+											["sb"] = 0,
+											["bag_id"] = 4,
+											["count"] = 1,
+										}, -- [13]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 14,
+											["sb"] = 0,
+											["bag_id"] = 4,
+											["count"] = 1,
+										}, -- [14]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 15,
+											["sb"] = 0,
+											["bag_id"] = 4,
+											["count"] = 1,
+										}, -- [15]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 16,
+											["sb"] = 0,
+											["bag_id"] = 4,
+											["count"] = 1,
+										}, -- [16]
+									},
+									["bag_id"] = 4,
+									["loc_id"] = 1,
+									["count"] = 16,
+									["status"] = -3,
+									["empty"] = 16,
+									["h"] = "|cff1eff00|Hitem:21841::::::::1:::::::::|h[幽紋布包]|h|r",
+									["texture"] = 133656,
+								}, -- [4]
+								{
+									["q"] = 2,
+									["type"] = 1,
+									["slot"] = {
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 1,
+											["sb"] = 0,
+											["bag_id"] = 5,
+											["count"] = 1,
+										}, -- [1]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 2,
+											["sb"] = 0,
+											["bag_id"] = 5,
+											["count"] = 1,
+										}, -- [2]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 3,
+											["sb"] = 0,
+											["bag_id"] = 5,
+											["count"] = 1,
+										}, -- [3]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 4,
+											["sb"] = 0,
+											["bag_id"] = 5,
+											["count"] = 1,
+										}, -- [4]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 5,
+											["sb"] = 0,
+											["bag_id"] = 5,
+											["count"] = 1,
+										}, -- [5]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 6,
+											["sb"] = 0,
+											["bag_id"] = 5,
+											["count"] = 1,
+										}, -- [6]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 7,
+											["sb"] = 0,
+											["bag_id"] = 5,
+											["count"] = 1,
+										}, -- [7]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 8,
+											["sb"] = 0,
+											["bag_id"] = 5,
+											["count"] = 1,
+										}, -- [8]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 9,
+											["sb"] = 0,
+											["bag_id"] = 5,
+											["count"] = 1,
+										}, -- [9]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 10,
+											["sb"] = 0,
+											["bag_id"] = 5,
+											["count"] = 1,
+										}, -- [10]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 11,
+											["sb"] = 0,
+											["bag_id"] = 5,
+											["count"] = 1,
+										}, -- [11]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 12,
+											["sb"] = 0,
+											["bag_id"] = 5,
+											["count"] = 1,
+										}, -- [12]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 13,
+											["sb"] = 0,
+											["bag_id"] = 5,
+											["count"] = 1,
+										}, -- [13]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 14,
+											["sb"] = 0,
+											["bag_id"] = 5,
+											["count"] = 1,
+										}, -- [14]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 15,
+											["sb"] = 0,
+											["bag_id"] = 5,
+											["count"] = 1,
+										}, -- [15]
+										{
+											["q"] = 0,
+											["loc_id"] = 1,
+											["slot_id"] = 16,
+											["sb"] = 0,
+											["bag_id"] = 5,
+											["count"] = 1,
+										}, -- [16]
+									},
+									["bag_id"] = 5,
+									["loc_id"] = 1,
+									["count"] = 16,
+									["status"] = -3,
+									["empty"] = 16,
+									["h"] = "|cff1eff00|Hitem:21841::::::::1:::::::::|h[幽紋布包]|h|r",
+									["texture"] = 133656,
+								}, -- [5]
+							},
+						}, -- [1]
+						{
+							["slot_count"] = 32,
+							["bag"] = {
+								{
+									["type"] = 3,
+									["count"] = 32,
+									["slot"] = {
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 1,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [1]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 2,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [2]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 3,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [3]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 4,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [4]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 5,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [5]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 6,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [6]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 7,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [7]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 8,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [8]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 9,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [9]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 10,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [10]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 11,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [11]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 12,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [12]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 13,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [13]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 14,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [14]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 15,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [15]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 16,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [16]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 17,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [17]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 18,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [18]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 19,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [19]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 20,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [20]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 21,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [21]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 22,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [22]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 23,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [23]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 24,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [24]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 25,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [25]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 26,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [26]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 27,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [27]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 28,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [28]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 29,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [29]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 30,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [30]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 31,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [31]
+										{
+											["q"] = -1,
+											["loc_id"] = 2,
+											["slot_id"] = 32,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [32]
+									},
+									["status"] = -3,
+									["empty"] = 32,
+									["bag_id"] = 1,
+									["loc_id"] = 2,
+								}, -- [1]
+							},
+						}, -- [2]
+						nil, -- [3]
+						nil, -- [4]
+						{
+							["bag"] = {
+								{
+									["type"] = 15,
+									["count"] = 1,
+									["slot"] = {
+										{
+											["q"] = 0,
+											["loc_id"] = 5,
+											["slot_id"] = 1,
+											["sb"] = 0,
+											["bag_id"] = 1,
+										}, -- [1]
+									},
+									["status"] = -3,
+									["empty"] = 1,
+									["bag_id"] = 1,
+									["loc_id"] = 5,
+								}, -- [1]
+								{
+									["loc_id"] = 5,
+									["status"] = -3,
+									["bag_id"] = 2,
+									["type"] = 15,
+								}, -- [2]
+							},
+							["slot_count"] = 1,
+						}, -- [5]
+						{
+							["slot_count"] = 19,
+							["bag"] = {
+								{
+									["type"] = 14,
+									["count"] = 19,
+									["slot"] = {
+										{
+											["q"] = -1,
+											["loc_id"] = 6,
+											["slot_id"] = 1,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [1]
+										{
+											["q"] = -1,
+											["loc_id"] = 6,
+											["slot_id"] = 2,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [2]
+										{
+											["q"] = -1,
+											["loc_id"] = 6,
+											["slot_id"] = 3,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [3]
+										{
+											["q"] = -1,
+											["loc_id"] = 6,
+											["slot_id"] = 4,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [4]
+										{
+											["q"] = -1,
+											["loc_id"] = 6,
+											["slot_id"] = 5,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [5]
+										{
+											["q"] = 1,
+											["loc_id"] = 6,
+											["slot_id"] = 6,
+											["sb"] = 0,
+											["count"] = 1,
+											["age"] = 27502179,
+											["bag_id"] = 1,
+											["h"] = "|cffffffff|Hitem:6125::::::::1:::::::::|h[打鬥者甲冑]|h|r",
+										}, -- [6]
+										{
+											["q"] = -1,
+											["loc_id"] = 6,
+											["slot_id"] = 7,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [7]
+										{
+											["q"] = -1,
+											["loc_id"] = 6,
+											["slot_id"] = 8,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [8]
+										{
+											["q"] = -1,
+											["loc_id"] = 6,
+											["slot_id"] = 9,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [9]
+										{
+											["q"] = -1,
+											["loc_id"] = 6,
+											["slot_id"] = 10,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [10]
+										{
+											["q"] = 0,
+											["loc_id"] = 6,
+											["slot_id"] = 11,
+											["sb"] = 0,
+											["count"] = 1,
+											["age"] = 27502179,
+											["bag_id"] = 1,
+											["h"] = "|cff9d9d9d|Hitem:139::::::::1:::::::::|h[打鬥者便褲]|h|r",
+										}, -- [11]
+										{
+											["q"] = 1,
+											["loc_id"] = 6,
+											["slot_id"] = 12,
+											["sb"] = 0,
+											["count"] = 1,
+											["age"] = 27502179,
+											["bag_id"] = 1,
+											["h"] = "|cffffffff|Hitem:140::::::::1:::::::::|h[打鬥者的靴子]|h|r",
+										}, -- [12]
+										{
+											["q"] = -1,
+											["loc_id"] = 6,
+											["slot_id"] = 13,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [13]
+										{
+											["q"] = -1,
+											["loc_id"] = 6,
+											["slot_id"] = 14,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [14]
+										{
+											["q"] = -1,
+											["loc_id"] = 6,
+											["slot_id"] = 15,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [15]
+										{
+											["q"] = -1,
+											["loc_id"] = 6,
+											["slot_id"] = 16,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [16]
+										{
+											["q"] = 1,
+											["loc_id"] = 6,
+											["slot_id"] = 17,
+											["sb"] = 0,
+											["count"] = 1,
+											["age"] = 27502179,
+											["bag_id"] = 1,
+											["h"] = "|cffffffff|Hitem:12282::::::::1:::::::::|h[用舊的戰斧]|h|r",
+										}, -- [17]
+										{
+											["q"] = -1,
+											["loc_id"] = 6,
+											["slot_id"] = 18,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [18]
+										{
+											["q"] = -1,
+											["loc_id"] = 6,
+											["slot_id"] = 19,
+											["sb"] = 0,
+											["bag_id"] = 1,
+											["count"] = 1,
+										}, -- [19]
+									},
+									["status"] = -3,
+									["empty"] = 15,
+									["bag_id"] = 1,
+									["loc_id"] = 6,
+								}, -- [1]
+							},
+						}, -- [6]
+						nil, -- [7]
+						nil, -- [8]
+						nil, -- [9]
+						{
+							["bag"] = {
+								{
+									["bag_id"] = 1,
+									["loc_id"] = 10,
+								}, -- [1]
+							},
+						}, -- [10]
+						nil, -- [11]
+						nil, -- [12]
+						nil, -- [13]
+						nil, -- [14]
+						nil, -- [15]
+						{
+							["slot_count"] = 5,
+							["bag"] = {
+								{
+									["type"] = 29,
+									["count"] = 5,
+									["slot"] = {
+										{
+											["q"] = 0,
+											["loc_id"] = 16,
+											["slot_id"] = 1,
+											["sb"] = 3,
+											["count"] = 4000,
+											["bag_id"] = 1,
+											["h"] = "reputation:76:友好:1000:6000:0:0:0",
+										}, -- [1]
+										{
+											["q"] = 0,
+											["loc_id"] = 16,
+											["slot_id"] = 2,
+											["sb"] = 3,
+											["count"] = 500,
+											["bag_id"] = 1,
+											["h"] = "reputation:68:中立:500:3000:0:0:0",
+										}, -- [2]
+										{
+											["q"] = 0,
+											["loc_id"] = 16,
+											["slot_id"] = 3,
+											["sb"] = 3,
+											["count"] = 3100,
+											["bag_id"] = 1,
+											["h"] = "reputation:530:友好:100:6000:0:0:0",
+										}, -- [3]
+										{
+											["q"] = 0,
+											["loc_id"] = 16,
+											["slot_id"] = 4,
+											["sb"] = 3,
+											["count"] = 400,
+											["bag_id"] = 1,
+											["h"] = "reputation:911:中立:400:3000:0:0:0",
+										}, -- [4]
+										{
+											["q"] = 0,
+											["loc_id"] = 16,
+											["slot_id"] = 5,
+											["sb"] = 3,
+											["count"] = 3100,
+											["bag_id"] = 1,
+											["h"] = "reputation:81:友好:100:6000:0:0:0",
+										}, -- [5]
+									},
+									["status"] = -3,
+									["bag_id"] = 1,
+									["loc_id"] = 16,
+								}, -- [1]
+							},
+						}, -- [16]
+					},
+				},
 				["!ACCOUNT - 100"] = {
 					["info"] = {
 						["class"] = "ACCOUNT",
@@ -8559,9 +8566,33 @@ ARKINVDB = {
 						["name"] = "我的帳號",
 						["faction"] = "",
 						["player_id"] = "!ACCOUNT - 100",
-						["level"] = 1,
 						["proj"] = 5,
+						["level"] = 1,
 						["faction_local"] = "",
+					},
+				},
+				["+極限鐵盒 - 伊弗斯"] = {
+					["option"] = {
+						[4] = {
+							["bag"] = {
+								nil, -- [1]
+								{
+									["display"] = false,
+								}, -- [2]
+								{
+									["display"] = false,
+								}, -- [3]
+								{
+									["display"] = false,
+								}, -- [4]
+								{
+									["display"] = false,
+								}, -- [5]
+								{
+									["display"] = false,
+								}, -- [6]
+							},
+						},
 					},
 				},
 				["邁克爾假死 - 伊弗斯"] = {
@@ -11573,30 +11604,6 @@ ARKINVDB = {
 						}, -- [16]
 					},
 				},
-				["+極限鐵盒 - 伊弗斯"] = {
-					["option"] = {
-						[4] = {
-							["bag"] = {
-								nil, -- [1]
-								{
-									["display"] = false,
-								}, -- [2]
-								{
-									["display"] = false,
-								}, -- [3]
-								{
-									["display"] = false,
-								}, -- [4]
-								{
-									["display"] = false,
-								}, -- [5]
-								{
-									["display"] = false,
-								}, -- [6]
-							},
-						},
-					},
-				},
 			},
 			["version"] = 30967,
 		},
@@ -11606,12 +11613,13 @@ ARKINVDB = {
 				["1000:item:29426:0"] = "1!428",
 				["1000:item:35487:1"] = "1!513",
 				["1000:empty:0:1"] = "1!302",
-				["1000:item:22105:0"] = "1!404",
+				["1000:item:33081:0"] = "1!404",
 				["1000:item:22104:0"] = "1!404",
 				["1000:item:33919:1"] = "1!416",
 				["1000:item:28301:1"] = "1!416",
 				["1000:item:30979:1"] = "1!416",
 				["1000:item:21877:0"] = "1!502",
+				["1000:item:23446:0"] = "1!506",
 				["1000:item:27503:0"] = "1!435",
 				["1000:item:32373:1"] = "1!416",
 				["1000:item:22445:0"] = "1!512",
@@ -11634,41 +11642,41 @@ ARKINVDB = {
 				["1000:item:13446:0"] = "1!420",
 				["1000:item:25477:1"] = "1!415",
 				["1000:item:21721:0"] = "1!437",
-				["1000:item:29950:1"] = "1!416",
 				["1000:item:27658:0"] = "1!417",
 				["1000:item:33809:1"] = "1!415",
 				["1000:item:30344:1"] = "1!416",
+				["1000:item:27664:0"] = "1!417",
+				["1000:item:29950:1"] = "1!416",
 				["1000:item:6948:1"] = "1!403",
-				["1000:item:32278:1"] = "1!416",
-				["1000:item:33755:1"] = "1!416",
-				["1000:item:9224:0"] = "1!435",
-				["1000:item:22447:0"] = "1!512",
-				["1000:item:33765:1"] = "1!416",
 				["1000:item:28558:1"] = "1!411",
 				["1000:item:22838:0"] = "1!424",
 				["1000:item:22103:0"] = "1!404",
-				["1000:item:35067:1"] = "1!416",
-				["1000:item:33731:1"] = "1!416",
+				["1000:item:32278:1"] = "1!416",
+				["1000:item:32901:1"] = "1!431",
 				["1000:item:22446:0"] = "1!512",
 				["1000:item:35161:1"] = "1!416",
-				["1000:item:33081:0"] = "1!404",
-				["1000:item:22851:0"] = "1!431",
+				["1000:item:33755:1"] = "1!416",
+				["1000:item:28439:1"] = "1!416",
 				["1000:item:27855:0"] = "1!417",
 				["1000:item:18662:0"] = "1!404",
 				["1000:item:22845:0"] = "1!424",
 				["1000:item:35066:1"] = "1!416",
 				["1000:item:30902:1"] = "1!416",
 				["1000:item:32260:1"] = "1!416",
-				["1000:item:27499:0"] = "1!435",
-				["1000:item:28439:1"] = "1!416",
-				["1000:item:27664:0"] = "1!417",
+				["1000:item:22447:0"] = "1!512",
+				["1000:item:9224:0"] = "1!435",
+				["1000:item:33765:1"] = "1!416",
 				["1000:item:28056:0"] = "1!421",
+				["1000:item:35067:1"] = "1!416",
+				["1000:item:33731:1"] = "1!416",
+				["1000:item:22851:0"] = "1!431",
+				["1000:item:32345:1"] = "1!416",
+				["1000:item:27499:0"] = "1!435",
+				["1000:item:32323:1"] = "1!416",
+				["1000:item:34062:0"] = "1!437",
+				["1000:item:32757:1"] = "1!411",
 				["1000:item:25719:0"] = "1!428",
 				["1000:item:21991:0"] = "1!432",
-				["1000:item:32901:1"] = "1!431",
-				["1000:item:32345:1"] = "1!416",
-				["1000:item:32323:1"] = "1!416",
-				["1000:item:32757:1"] = "1!411",
 				["1000:item:30889:1"] = "1!416",
 				["1000:item:33993:1"] = "1!423",
 				["1000:item:32254:1"] = "1!416",
@@ -12928,17 +12936,17 @@ ARKINVDB = {
 					["w"] = true,
 					["n"] = "奈瑟加德商隊",
 				},
-				[1018] = {
+				[510] = {
+					["r"] = false,
+					["d"] = "污染者想幫部落尋求阿拉希盆地珍稀的資源。",
+					["w"] = false,
+					["n"] = "污染者",
+				},
+				[923] = {
 					["r"] = false,
 					["d"] = "",
 					["w"] = true,
-					["n"] = "李奧薩拉斯惡魔 I",
-				},
-				[1077] = {
-					["r"] = false,
-					["d"] = "撒塔斯城在太陽之井對凱爾薩斯王子計畫的最後一擊。",
-					["w"] = false,
-					["n"] = "破碎之日進攻部隊",
+					["n"] = "遠行者",
 				},
 				[922] = {
 					["r"] = false,
@@ -12958,11 +12966,11 @@ ARKINVDB = {
 					["w"] = true,
 					["n"] = "時光之穴 - 敦霍爾德",
 				},
-				[510] = {
+				[1018] = {
 					["r"] = false,
-					["d"] = "污染者想幫部落尋求阿拉希盆地珍稀的資源。",
-					["w"] = false,
-					["n"] = "污染者",
+					["d"] = "",
+					["w"] = true,
+					["n"] = "李奧薩拉斯惡魔 I",
 				},
 				[669] = {
 					["r"] = false,
@@ -12988,11 +12996,11 @@ ARKINVDB = {
 					["w"] = true,
 					["n"] = "戰場中立方",
 				},
-				[923] = {
+				[1077] = {
 					["r"] = false,
-					["d"] = "",
-					["w"] = true,
-					["n"] = "遠行者",
+					["d"] = "撒塔斯城在太陽之井對凱爾薩斯王子計畫的最後一擊。",
+					["w"] = false,
+					["n"] = "破碎之日進攻部隊",
 				},
 				[955] = {
 					["r"] = false,
@@ -13000,11 +13008,11 @@ ARKINVDB = {
 					["w"] = true,
 					["n"] = "破碎者",
 				},
-				[2402] = {
+				[987] = {
 					["r"] = false,
 					["d"] = "",
 					["w"] = true,
-					["n"] = "奪取旗幟 - 旗幟 - 部落",
+					["n"] = "時光之穴 - 南海鎮衛兵",
 				},
 				[1019] = {
 					["r"] = false,
@@ -13012,11 +13020,11 @@ ARKINVDB = {
 					["w"] = true,
 					["n"] = "李奧薩拉斯惡魔 II",
 				},
-				[1078] = {
+				[2403] = {
 					["r"] = false,
 					["d"] = "",
 					["w"] = true,
-					["n"] = "對戰型普通寵物",
+					["n"] = "奪取旗幟 - 旗幟 - 聯盟",
 				},
 				[573] = {
 					["r"] = false,
@@ -13120,23 +13128,23 @@ ARKINVDB = {
 					["w"] = true,
 					["n"] = "未墮落的熊怪",
 				},
-				[926] = {
-					["r"] = false,
-					["d"] = "",
-					["w"] = true,
-					["n"] = "博學者的公會",
-				},
-				[672] = {
-					["r"] = false,
-					["d"] = "",
-					["w"] = true,
-					["n"] = "鱷魚",
-				},
 				[671] = {
 					["r"] = false,
 					["d"] = "",
 					["w"] = true,
 					["n"] = "螃蟹",
+				},
+				[169] = {
+					["r"] = false,
+					["d"] = "",
+					["w"] = true,
+					["n"] = "熱砂企業",
+				},
+				[926] = {
+					["r"] = false,
+					["d"] = "",
+					["w"] = true,
+					["n"] = "博學者的公會",
 				},
 				[958] = {
 					["r"] = false,
@@ -13180,11 +13188,11 @@ ARKINVDB = {
 					["w"] = true,
 					["n"] = "剝石者",
 				},
-				[169] = {
+				[927] = {
 					["r"] = false,
 					["d"] = "",
 					["w"] = true,
-					["n"] = "熱砂企業",
+					["n"] = "玩家，德萊尼",
 				},
 				[959] = {
 					["r"] = false,
@@ -13228,11 +13236,11 @@ ARKINVDB = {
 					["w"] = true,
 					["n"] = "暗影蛛絲偷獵者",
 				},
-				[1087] = {
+				[928] = {
 					["r"] = false,
 					["d"] = "",
 					["w"] = true,
-					["n"] = "節日怪物",
+					["n"] = "天譴入侵者",
 				},
 				[960] = {
 					["r"] = false,
@@ -13258,17 +13266,17 @@ ARKINVDB = {
 					["w"] = true,
 					["n"] = "贊格沼澤旗幟(中立)",
 				},
-				[929] = {
+				[674] = {
 					["r"] = false,
 					["d"] = "",
 					["w"] = true,
-					["n"] = "血槌氏族",
+					["n"] = "貓頭鷹",
 				},
-				[770] = {
+				[1026] = {
 					["r"] = false,
 					["d"] = "",
 					["w"] = true,
-					["n"] = "吉茲洛克的符咒",
+					["n"] = "影月遮蔽處",
 				},
 				[1025] = {
 					["r"] = false,
@@ -13276,11 +13284,11 @@ ARKINVDB = {
 					["w"] = true,
 					["n"] = "剝皮獵人",
 				},
-				[674] = {
+				[929] = {
 					["r"] = false,
 					["d"] = "",
 					["w"] = true,
-					["n"] = "貓頭鷹",
+					["n"] = "血槌氏族",
 				},
 				[961] = {
 					["r"] = false,
@@ -13294,11 +13302,11 @@ ARKINVDB = {
 					["w"] = true,
 					["n"] = "黑暗之門攻擊者，軍團",
 				},
-				[1026] = {
+				[770] = {
 					["r"] = false,
 					["d"] = "",
 					["w"] = true,
-					["n"] = "影月遮蔽處",
+					["n"] = "吉茲洛克的符咒",
 				},
 				[985] = {
 					["r"] = false,
@@ -13396,17 +13404,17 @@ ARKINVDB = {
 					["w"] = true,
 					["n"] = "黑暗神廟大門 - 伊利達瑞",
 				},
-				[927] = {
+				[672] = {
 					["r"] = false,
 					["d"] = "",
 					["w"] = true,
-					["n"] = "玩家，德萊尼",
+					["n"] = "鱷魚",
 				},
-				[928] = {
+				[1087] = {
 					["r"] = false,
 					["d"] = "",
 					["w"] = true,
-					["n"] = "天譴入侵者",
+					["n"] = "節日怪物",
 				},
 				[976] = {
 					["r"] = false,
@@ -13444,17 +13452,17 @@ ARKINVDB = {
 					["w"] = true,
 					["n"] = "52區",
 				},
-				[2403] = {
+				[1078] = {
 					["r"] = false,
 					["d"] = "",
 					["w"] = true,
-					["n"] = "奪取旗幟 - 旗幟 - 聯盟",
+					["n"] = "對戰型普通寵物",
 				},
-				[987] = {
+				[2402] = {
 					["r"] = false,
 					["d"] = "",
 					["w"] = true,
-					["n"] = "時光之穴 - 南海鎮衛兵",
+					["n"] = "奪取旗幟 - 旗幟 - 部落",
 				},
 				[869] = {
 					["r"] = false,
@@ -13536,6 +13544,7 @@ ARKINVDB = {
 				},
 			},
 			["rule"] = {
+				["1:3:16:0:1000:item:22103:0"] = false,
 				["1:2:6:0:1000:item:22445:0"] = false,
 				["1:3:6:0:1000:item:33081:0"] = false,
 				["1:1:12:3:1000:item:32345:1:2939:32205:32205:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
@@ -13545,32 +13554,35 @@ ARKINVDB = {
 				["1:1:8:3:1000:item:34256:1"] = false,
 				["1:5:15:3:1000:item:29434:1"] = false,
 				["1:5:5:3:1000:item:32591:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
-				["1:2:16:0:1000:empty:0:1"] = false,
+				["1:1:15:0:1000:item:27503:0"] = false,
 				["1:3:14:3:1000:item:33993:1"] = false,
 				["1:2:9:0:1000:item:7082:0"] = false,
 				["1:4:6:3:1000:item:25477:1"] = false,
 				["1:5:22:3:1000:item:33919:1:2931:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
 				["1:4:17:0:1000:empty:0:1"] = false,
+				["1:2:16:0:1000:item:23446:0"] = false,
 				["1:5:17:3:1000:item:29019:1:2984:22459:22459:22459:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = "3!1003",
 				["1:3:3:3:1000:item:33813:1:2647:32226:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
 				["1:4:14:0:1000:item:9224:0"] = false,
-				["1:4:15:0:1000:item:9224:0"] = false,
+				["1:2:18:0:1000:item:21877:0"] = false,
 				["1:4:9:3:1000:item:28439:1:3225:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
 				["1:4:16:0:1000:item:33092:0"] = false,
+				["1:5:1:3:1000:item:32260:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
 				["1:1:9:3:1000:item:28558:1"] = false,
 				["1:1:1:0:1000:item:21991:0"] = false,
-				["1:2:3:0:1000:item:22105:0"] = false,
+				["1:3:15:0:1000:item:34062:0"] = false,
+				["1:1:16:0:1000:item:34062:0"] = false,
 				["1:1:11:0:1000:item:33092:0"] = false,
-				["1:5:16:3:1000:item:30053:1:2998:22459:22459:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
 				["1:5:21:3:1000:item:28301:1:1441:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = "3!1003",
 				["1:1:4:0:1000:item:25719:0"] = false,
+				["1:5:19:3:1000:item:6948:1"] = false,
 				["1:1:13:3:1000:item:33923:1:0:32226:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
 				["1:1:3:0:1000:item:27503:0"] = false,
 				["1:4:21:3:1000:item:33474:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
-				["1:5:19:3:1000:item:6948:1"] = false,
+				["1:5:16:3:1000:item:30053:1:2998:22459:22459:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
 				["1:2:22:0:1000:item:27501:0"] = false,
 				["1:1:10:0:1000:item:27498:0"] = false,
-				["1:2:18:0:1000:empty:0:1"] = false,
+				["1:5:14:3:1000:item:32901:1"] = false,
 				["1:5:13:3:1000:item:33755:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
 				["1:2:1:0:1000:item:30810:0"] = false,
 				["1:3:21:0:1000:item:22447:0"] = false,
@@ -13581,61 +13593,61 @@ ARKINVDB = {
 				["1:4:12:0:1000:item:9224:0"] = false,
 				["1:4:4:0:1000:empty:0:1"] = false,
 				["1:2:13:0:1000:item:33092:0"] = false,
-				["1:5:12:3:1000:item:32757:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = "3!1003",
+				["1:1:16:0:1000:item:22104:0"] = false,
 				["1:4:19:3:1000:item:35161:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
 				["1:2:7:0:1000:item:22446:0"] = false,
-				["1:2:2:0:1000:item:22104:0"] = false,
+				["1:4:2:0:1000:item:27503:0"] = false,
 				["1:2:8:0:1000:item:27499:0"] = false,
 				["1:1:5:0:1000:item:29449:0"] = false,
-				["1:5:11:3:1000:item:30889:1:1071:24051:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
+				["1:1:16:0:1000:empty:0:1"] = false,
 				["1:3:11:3:1000:item:33731:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
+				["1:5:12:3:1000:item:32757:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = "3!1003",
+				["1:5:11:3:1000:item:30889:1:1071:24051:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
+				["1:2:3:0:1000:item:27658:0"] = false,
+				["1:2:2:0:1000:item:27658:0"] = false,
 				["1:5:10:0:1000:item:32062:0"] = false,
-				["1:5:9:0:1000:item:22831:0"] = false,
-				["1:3:8:0:1000:item:21991:0"] = false,
-				["1:3:7:0:1000:item:22838:0"] = false,
-				["1:5:7:3:1000:item:32373:1:3009:32409:22459:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = "3!1003",
 				["1:1:7:3:1000:item:30979:1:2997:32205:32226:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
-				["1:5:14:3:1000:item:32901:1"] = false,
+				["1:2:10:3:1000:item:35487:1"] = false,
+				["1:5:9:0:1000:item:22831:0"] = false,
+				["1:3:15:0:1000:empty:0:1"] = false,
+				["1:5:7:3:1000:item:32373:1:3009:32409:22459:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = "3!1003",
+				["1:3:12:3:1000:item:35067:1:684:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
 				["1:5:6:0:1000:empty:0:1"] = false,
+				["1:4:1:0:1000:empty:0:1"] = false,
 				["1:5:4:3:1000:item:32373:1:3003:32409:32205:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
 				["1:5:3:0:1000:item:9224:0"] = false,
-				["1:3:12:3:1000:item:35067:1:684:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
-				["1:5:1:3:1000:item:32260:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
-				["1:2:18:0:1000:item:27658:0"] = false,
-				["1:4:18:3:1000:item:35066:1:2661:38547:38547:38550:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
-				["1:4:20:0:1000:item:22845:0"] = false,
 				["1:4:22:0:1000:empty:0:1"] = false,
-				["1:4:13:0:1000:item:9224:0"] = false,
+				["1:3:18:0:1000:item:22104:0"] = false,
 				["1:1:6:3:1000:item:18794:1"] = false,
-				["1:4:2:0:1000:item:27503:0"] = false,
+				["1:4:20:0:1000:item:22845:0"] = false,
 				["1:3:5:0:1000:item:18662:0"] = false,
+				["1:4:18:3:1000:item:35066:1:2661:38547:38547:38550:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
+				["1:4:15:0:1000:item:9224:0"] = false,
+				["1:2:17:0:1000:item:27498:0"] = false,
+				["1:4:13:0:1000:item:9224:0"] = false,
 				["1:4:10:0:1000:empty:0:1"] = false,
 				["1:4:8:3:1000:item:32323:1:368:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
-				["1:2:17:0:1000:item:27498:0"] = false,
-				["1:4:7:3:1000:item:30344:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
-				["1:4:5:0:1000:empty:0:1"] = false,
-				["1:4:3:3:1000:item:28439:1:2673:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
 				["1:4:11:3:1000:item:34388:1:2997:32211:32205:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
+				["1:4:7:3:1000:item:30344:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
 				["1:2:5:3:1000:item:33732:1:2997:32217:32205:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
 				["1:2:15:0:1000:item:21721:0"] = false,
-				["1:4:1:0:1000:empty:0:1"] = false,
 				["1:2:20:3:1000:item:33809:1"] = false,
-				["1:3:15:0:1000:empty:0:1"] = false,
-				["1:3:13:3:1000:item:30902:1:3225:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
+				["1:4:5:0:1000:empty:0:1"] = false,
+				["1:4:3:3:1000:item:28439:1:2673:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
 				["1:1:2:0:1000:item:28056:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
 				["1:3:19:0:1000:item:29426:0"] = false,
 				["1:5:8:3:1000:item:32254:1:2673:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = "3!1002",
 				["1:3:18:0:1000:empty:0:1"] = false,
-				["1:1:16:0:1000:item:22103:0"] = false,
+				["1:2:12:0:1000:item:23446:0"] = false,
 				["1:1:14:0:1000:item:27664:0"] = false,
-				["1:3:2:0:1000:item:21877:0"] = false,
-				["1:2:12:0:1000:empty:0:1"] = false,
-				["1:2:21:0:1000:item:27658:0"] = false,
+				["1:3:13:3:1000:item:30902:1:3225:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = false,
+				["1:3:8:0:1000:item:21991:0"] = false,
+				["1:3:7:0:1000:item:22838:0"] = false,
 				["1:3:10:0:1000:item:33081:0"] = false,
-				["1:1:15:0:1000:item:27503:0"] = false,
+				["1:3:2:0:1000:item:21877:0"] = false,
 				["1:3:16:0:1000:item:23529:0"] = false,
+				["1:2:21:0:1000:item:27658:0"] = false,
 				["1:2:11:0:1000:item:22572:0"] = false,
-				["1:2:10:3:1000:item:35487:1"] = false,
 				["1:3:20:0:1000:item:21877:0"] = false,
 				["1:5:20:3:1000:item:29950:1:3012:22459:22459:22459:0:0:0:0:0:0:0:0:0:0:0:0:0:0"] = "3!1003",
 				["1:2:19:3:1000:item:29434:1"] = false,
@@ -14019,10 +14031,10 @@ ARKINVDB = {
 						["location"] = {
 							{
 								["anchor"] = {
-									["b"] = 316.5674133300781,
-									["l"] = 1113.633544921875,
-									["r"] = 1857.633422851563,
-									["t"] = 992.5675048828125,
+									["b"] = 366.6947631835938,
+									["t"] = 1042.69482421875,
+									["r"] = 1762.624389648438,
+									["l"] = 1018.62451171875,
 								},
 								["container"] = {
 									["height"] = 498,
@@ -14032,9 +14044,9 @@ ARKINVDB = {
 							{
 								["anchor"] = {
 									["b"] = 968.0164794921875,
-									["t"] = 1259.016357421875,
-									["r"] = 2238.251220703125,
 									["l"] = 1534.251220703125,
+									["r"] = 2238.251220703125,
+									["t"] = 1259.016357421875,
 								},
 								["container"] = {
 									["height"] = 171,
@@ -14044,9 +14056,9 @@ ARKINVDB = {
 							{
 								["anchor"] = {
 									["b"] = 346.3535766601563,
-									["l"] = 379.271240234375,
-									["r"] = 1143.271240234375,
 									["t"] = 1145.353515625,
+									["r"] = 1143.271240234375,
+									["l"] = 379.271240234375,
 								},
 								["container"] = {
 									["height"] = 621,
@@ -14056,9 +14068,9 @@ ARKINVDB = {
 							{
 								["anchor"] = {
 									["b"] = 467.4007873535156,
-									["l"] = 407.9490356445313,
-									["r"] = 1131.948974609375,
 									["t"] = 980.4008178710938,
+									["r"] = 1131.948974609375,
+									["l"] = 407.9490356445313,
 								},
 								["container"] = {
 									["height"] = 335,
@@ -14069,8 +14081,8 @@ ARKINVDB = {
 							{
 								["anchor"] = {
 									["b"] = 804.608642578125,
-									["t"] = 1034.608520507813,
 									["l"] = 507.8031616210938,
+									["t"] = 1034.608520507813,
 									["r"] = 1211.803100585938,
 								},
 								["container"] = {
@@ -14155,11 +14167,11 @@ ARKINVDB = {
 							["1!512"] = 5,
 							["1!420"] = 4,
 							["3!1002"] = 11,
-							["3!1004"] = 16,
+							["3!1003"] = 12,
 							["1!426"] = 4,
 							["1!430"] = 4,
 							["1!402"] = 8,
-							["3!1003"] = 12,
+							["3!1004"] = 16,
 							["1!428"] = 8,
 							["1!435"] = 6,
 							["1!417"] = 4,

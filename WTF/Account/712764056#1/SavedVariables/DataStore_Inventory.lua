@@ -52,7 +52,7 @@ DataStore_InventoryDB = {
 					"|cff0070dd|Hitem:36941::::::::70:::::::::|h[競賽者外袍]|h|r", -- [19]
 				},
 				["averageItemLvl"] = 147.1764705882353,
-				["lastUpdate"] = 1658678392,
+				["lastUpdate"] = 1659197502,
 			},
 		},
 		["Guilds"] = {

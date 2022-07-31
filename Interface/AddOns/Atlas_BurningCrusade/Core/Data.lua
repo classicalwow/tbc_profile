@@ -1,4 +1,4 @@
--- $Id: Data.lua 65 2022-03-23 15:10:55Z arithmandar $
+-- $Id: Data.lua 69 2022-07-23 14:10:51Z arithmandar $
 --[[
 
 	Atlas, a World of Warcraft instance map browser
@@ -28,14 +28,21 @@
 local _G = getfenv(0)
 local pairs = _G.pairs
 -- Libraries
-local WoWClassicEra, WoWClassicTBC, WoWRetail
-local wowtocversion  = select(4, GetBuildInfo())
-if wowtocversion < 20000 then
+local GetBuildInfo = _G.GetBuildInfo
+
+-- Determine WoW TOC Version
+local WoWClassicEra, WoWClassicTBC, WoWWOTLKC, WoWRetail
+local wowversion  = select(4, GetBuildInfo())
+if wowversion < 20000 then
 	WoWClassicEra = true
-elseif wowtocversion > 19999 and wowtocversion < 90000 then 
+elseif wowversion < 30000 then 
 	WoWClassicTBC = true
-else
+elseif wowversion < 40000 then 
+	WoWWOTLKC = true
+elseif wowversion > 90000 then
 	WoWRetail = true
+else
+	-- n/a
 end
 
 -- ----------------------------------------------------------------------------
