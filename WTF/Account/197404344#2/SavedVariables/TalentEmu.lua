@@ -1,39 +1,41 @@
 
 TalentEmuSV = {
+	["loot"] = {
+	},
 	["_GlobalRef"] = {
 		["emu"] = {
-			["ALASCR"] = 2,
-			["ChatFrame_AddMessageEventFilter"] = 2,
-			["TargetFrame"] = 2,
-			["GetAddOnInfo"] = 6,
-			["IsAddOnLoaded"] = 2,
-			["ALATEMU"] = 17,
-			["GameFontHighlight"] = 2,
+			["LoadAddOn"] = 1,
+			["ChatFrame_AddMessageEventFilter"] = 3,
+			["TargetFrame"] = 3,
+			["GetAddOnInfo"] = 9,
+			["IsAddOnLoaded"] = 3,
+			["ALATEMU"] = 19,
+			["GameFontHighlight"] = 3,
 			["ERR_CHAT_PLAYER_NOT_FOUND_S"] = 20,
 			["EnableAddOn"] = 1,
 			["DisableAddOn"] = 1,
-			["LibStub"] = 6,
-			["LoadAddOn"] = 1,
+			["LibStub"] = 9,
 			["SaveAddOns"] = 1,
-			["UISpecialFrames"] = 2,
-			["alaPopup"] = 24,
-			["SlashCmdList"] = 2,
+			["ALASCR"] = 3,
+			["UISpecialFrames"] = 3,
+			["SlashCmdList"] = 3,
+			["alaPopup"] = 36,
 			["alaTalentEmuSV"] = 1,
-			["StaticPopupDialogs"] = 2,
+			["StaticPopupDialogs"] = 3,
 		},
 	},
 	["set"] = {
 		["credible"] = false,
-		["supreme"] = false,
 		["minimapPos"] = 185,
+		["supreme"] = false,
 	},
 	["var"] = {
+		["Player-4501-04C9101E"] = "630",
 		["savedTalent"] = {
 		},
-		["Player-4501-04C9101E"] = "630",
 	},
+	["_version"] = 220720,
 	["__upgraded"] = true,
-	["_version"] = 220117,
 	["_GlobalAssign"] = {
 		["emu"] = {
 			["alaTalentEmuSV"] = 1,

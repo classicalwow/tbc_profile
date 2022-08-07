@@ -6,7 +6,9 @@ DataStore_QuestsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.加丁.Vscode"] = {
-				["HistoryLastUpdate"] = 1658552337,
+				["HistoryLastUpdate"] = 1659786094,
+				["HistoryBuild"] = "44833",
+				["HistorySize"] = 5,
 				["History"] = {
 					128, -- [1]
 					2, -- [2]
@@ -14,9 +16,7 @@ DataStore_QuestsDB = {
 					[25] = 32768,
 					[97] = 1073741824,
 				},
-				["HistorySize"] = 5,
-				["lastUpdate"] = 1658552335,
-				["HistoryBuild"] = "44400",
+				["lastUpdate"] = 1659786092,
 			},
 		},
 	},

@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-	["session"] = 2,
 	["lastSanitation"] = 3,
+	["session"] = 3,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua:1946: Usage: SaveBindings(1||2)",
@@ -32,16 +32,16 @@ BugGrabberDB = {
 			["time"] = "2022/07/09 15:49:36",
 			["locals"] = "GSA = nil\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index local 'GSA' (a nil value)\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\GladiatorlosSA2_zhCN\\GladiatorlosSA2_zhCN-TBC-1.4.lua\"]:3: in main chunk",
-			["session"] = 2,
-			["counter"] = 2,
+			["session"] = 3,
+			["counter"] = 3,
 		}, -- [4]
 		{
 			["message"] = "Interface\\AddOns\\LoonBestInSlot\\LootBrowser.lua:6: attempt to index global 'AtlasLoot' (a nil value)",
 			["time"] = "2022/07/09 15:49:37",
 			["locals"] = "(*temporary) = nil\n(*temporary) = <table> {\n MaxHeight = 0\n CompareTooltip = <table> {\n }\n}\n(*temporary) = <table> {\n}\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index global 'AtlasLoot' (a nil value)\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\LoonBestInSlot\\LootBrowser.lua\"]:6: in main chunk",
-			["session"] = 2,
-			["counter"] = 2,
+			["session"] = 3,
+			["counter"] = 3,
 		}, -- [5]
 	},
 }

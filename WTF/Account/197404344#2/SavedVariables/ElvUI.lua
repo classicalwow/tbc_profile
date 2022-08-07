@@ -1,13 +1,5 @@
 
 ElvDB = {
-	["faction"] = {
-		["加丁"] = {
-			["Vscode"] = "Alliance",
-		},
-	},
-	["profileKeys"] = {
-		["Vscode - 加丁"] = "Default",
-	},
 	["global"] = {
 		["nameplates"] = {
 			["filters"] = {
@@ -20,7 +12,18 @@ ElvDB = {
 			},
 		},
 	},
-	["DisabledAddOns"] = {
+	["gold"] = {
+		["加丁"] = {
+			["Vscode"] = 153,
+		},
+	},
+	["profileKeys"] = {
+		["Vscode - 加丁"] = "Default",
+	},
+	["faction"] = {
+		["加丁"] = {
+			["Vscode"] = "Alliance",
+		},
 	},
 	["serverID"] = {
 		[4501] = {
@@ -32,10 +35,7 @@ ElvDB = {
 			["Vscode"] = "ROGUE",
 		},
 	},
-	["gold"] = {
-		["加丁"] = {
-			["Vscode"] = 153,
-		},
+	["DisabledAddOns"] = {
 	},
 	["profiles"] = {
 		["Default"] = {

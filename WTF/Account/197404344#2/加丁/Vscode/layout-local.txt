@@ -13,6 +13,13 @@ X: 419
 Y: 16
 W: 168
 H: 199
+Frame: AccountantClassicMoneyInfoFrame
+FrameLevel: 1
+Anchor: TOPLEFT
+X: 10
+Y: -80
+W: 48
+H: 21
 Frame: ColorPickerFrame
 FrameLevel: 1
 Anchor: CENTER

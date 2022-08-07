@@ -110,8 +110,8 @@ RecountPerCharDB = {
 				"DAMAGE", -- [50]
 			},
 			["TimeWindows"] = {
-				["ActiveTime"] = {
-					283.85, -- [1]
+				["Damage"] = {
+					1974, -- [1]
 				},
 				["TimeDamage"] = {
 					283.85, -- [1]
@@ -119,8 +119,8 @@ RecountPerCharDB = {
 				["DamageTaken"] = {
 					231, -- [1]
 				},
-				["Damage"] = {
-					1974, -- [1]
+				["ActiveTime"] = {
+					283.85, -- [1]
 				},
 			},
 			["enClass"] = "ROGUE",
@@ -128,3015 +128,120 @@ RecountPerCharDB = {
 			["level"] = 1,
 			["LastDamageAbility"] = "近戰",
 			["LastFightIn"] = 30,
-			["LastAbility"] = 193.727,
+			["LastActive"] = 3288.964,
 			["type"] = "Self",
 			["FightsSaved"] = 5,
-			["LastDamageTaken"] = 3,
-			["UnitLockout"] = 2715.958,
+			["LastEventHealthMax"] = {
+				89, -- [1]
+				89, -- [2]
+				89, -- [3]
+				89, -- [4]
+				89, -- [5]
+				89, -- [6]
+				89, -- [7]
+				89, -- [8]
+				89, -- [9]
+				89, -- [10]
+				89, -- [11]
+				89, -- [12]
+				89, -- [13]
+				89, -- [14]
+				89, -- [15]
+				89, -- [16]
+				89, -- [17]
+				89, -- [18]
+				89, -- [19]
+				89, -- [20]
+				89, -- [21]
+				89, -- [22]
+				89, -- [23]
+				89, -- [24]
+				89, -- [25]
+				89, -- [26]
+				89, -- [27]
+				89, -- [28]
+				89, -- [29]
+				89, -- [30]
+				89, -- [31]
+				89, -- [32]
+				89, -- [33]
+				89, -- [34]
+				89, -- [35]
+				89, -- [36]
+				89, -- [37]
+				89, -- [38]
+				89, -- [39]
+				89, -- [40]
+				89, -- [41]
+				89, -- [42]
+				89, -- [43]
+				89, -- [44]
+				89, -- [45]
+				89, -- [46]
+				89, -- [47]
+				89, -- [48]
+				89, -- [49]
+				89, -- [50]
+			},
+			["TimeLast"] = {
+				["ActiveTime"] = 3288.964,
+				["TimeDamage"] = 3288.964,
+				["OVERALL"] = 3288.964,
+				["DamageTaken"] = 3288.964,
+				["Damage"] = 3288.964,
+			},
 			["Owner"] = false,
-			["Fights"] = {
-				["OverallData"] = {
-					["ElementDoneBlock"] = {
-						["Melee"] = 3,
-					},
-					["DamagedWho"] = {
-						["森林狼"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 28,
-								},
-								["近戰"] = {
-									["count"] = 86,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 55,
-								},
-							},
-							["amount"] = 169,
-						},
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 212,
-								},
-								["近戰"] = {
-									["count"] = 417,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 276,
-								},
-							},
-							["amount"] = 905,
-						},
-						["幼狼"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 63,
-								},
-								["近戰"] = {
-									["count"] = 137,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 136,
-								},
-							},
-							["amount"] = 336,
-						},
-						["狗頭人歹徒"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 126,
-								},
-								["近戰"] = {
-									["count"] = 259,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 179,
-								},
-							},
-							["amount"] = 564,
-						},
-					},
-					["TimeDamage"] = 283.85,
-					["TimeSpent"] = {
-						["森林狼"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 2.23,
-								},
-								["近戰"] = {
-									["count"] = 17.66,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 6.44,
-								},
-							},
-							["amount"] = 26.33,
-						},
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 12.15,
-								},
-								["近戰"] = {
-									["count"] = 88.74000000000002,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 27.37000000000001,
-								},
-							},
-							["amount"] = 128.26,
-						},
-						["幼狼"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 2.04,
-								},
-								["近戰"] = {
-									["count"] = 25.38,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 16.2,
-								},
-							},
-							["amount"] = 43.62,
-						},
-						["狗頭人歹徒"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 7.82,
-								},
-								["近戰"] = {
-									["count"] = 64.73000000000002,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 13.09,
-								},
-							},
-							["amount"] = 85.63999999999999,
-						},
-					},
-					["WhoDamaged"] = {
-						["森林狼"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 19,
-								},
-							},
-							["amount"] = 19,
-						},
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 133,
-								},
-							},
-							["amount"] = 133,
-						},
-						["幼狼"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 21,
-								},
-							},
-							["amount"] = 21,
-						},
-						["狗頭人歹徒"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 58,
-								},
-							},
-							["amount"] = 58,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 100,
-								},
-								["Dodge"] = {
-									["count"] = 37,
-								},
-								["Miss"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 140,
-						},
-					},
-					["DamageTaken"] = 231,
-					["PartialResist"] = {
-						["近戰"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 140,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 140,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 899,
-						["Physical"] = 1075,
-					},
-					["PartialAbsorb"] = {
-						["近戰"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 140,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 140,
-							["amount"] = 0,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 12,
-								},
-								["Dodge"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 135,
-								},
-								["Miss"] = {
-									["count"] = 2,
-								},
-								["Block"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 20,
-								},
-								["Parry"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 177,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 84,
-								},
-								["Miss"] = {
-									["count"] = 2,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 14,
-								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 102,
-						},
-					},
-					["ActiveTime"] = 283.85,
-					["TimeDamaging"] = {
-						["森林狼"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 2.23,
-								},
-								["近戰"] = {
-									["count"] = 17.66,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 6.44,
-								},
-							},
-							["amount"] = 26.33,
-						},
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 12.15,
-								},
-								["近戰"] = {
-									["count"] = 88.74000000000002,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 27.37000000000001,
-								},
-							},
-							["amount"] = 128.26,
-						},
-						["幼狼"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 2.04,
-								},
-								["近戰"] = {
-									["count"] = 25.38,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 16.2,
-								},
-							},
-							["amount"] = 43.62,
-						},
-						["狗頭人歹徒"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 7.82,
-								},
-								["近戰"] = {
-									["count"] = 64.73000000000002,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 13.09,
-								},
-							},
-							["amount"] = 85.63999999999999,
-						},
-					},
-					["ElementTaken"] = {
-						["Melee"] = 231,
-					},
-					["Attacks"] = {
-						["剔骨"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 33,
-									["min"] = 28,
-									["count"] = 3,
-									["amount"] = 91,
-								},
-								["Hit"] = {
-									["max"] = 21,
-									["min"] = 7,
-									["count"] = 23,
-									["amount"] = 338,
-								},
-							},
-							["count"] = 26,
-							["amount"] = 429,
-						},
-						["近戰"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 5,
-									["min"] = 4,
-									["count"] = 12,
-									["amount"] = 56,
-								},
-								["Dodge"] = {
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 6,
-									["min"] = 4,
-									["count"] = 134,
-									["amount"] = 645,
-								},
-								["Hit (被格擋)"] = {
-									["max"] = 1,
-									["min"] = 1,
-									["count"] = 1,
-									["amount"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 11,
-									["min"] = 8,
-									["count"] = 20,
-									["amount"] = 197,
-								},
-								["Parry"] = {
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 176,
-							["amount"] = 899,
-						},
-						["邪惡攻擊"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 9,
-									["min"] = 7,
-									["count"] = 61,
-									["amount"] = 475,
-								},
-								["Miss"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 17,
-									["min"] = 14,
-									["count"] = 11,
-									["amount"] = 171,
-								},
-								["Parry"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 76,
-							["amount"] = 646,
-						},
-					},
-					["Damage"] = 1974,
-				},
-				["Fight5"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 15,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
-								},
-								["Dodge"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 7,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 15,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 77,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-						["近戰"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 0,
-						},
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 39,
-						["Physical"] = 38,
-					},
-					["CCBroken"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 8,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 4,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoDamaged"] = {
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 15,
-						},
-						["森林狼"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["幼狼"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人歹徒"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 13.38,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-						["近戰"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 7,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 1.5,
-								},
-								["近戰"] = {
-									["count"] = 7.6,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 4.28,
-								},
-							},
-							["amount"] = 13.38,
-						},
-						["森林狼"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["幼狼"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人歹徒"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["Attacks"] = {
-						["剔骨"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 14,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 14,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 14,
-						},
-						["近戰"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit (被格擋)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 6,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 39,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 39,
-						},
-						["邪惡攻擊"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 8,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 24,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 24,
-						},
-					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 14,
-								},
-								["近戰"] = {
-									["count"] = 39,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 24,
-								},
-							},
-							["amount"] = 77,
-						},
-						["森林狼"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["幼狼"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人歹徒"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 13.38,
-					["TimeDamaging"] = {
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 1.5,
-								},
-								["近戰"] = {
-									["count"] = 7.6,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 4.28,
-								},
-							},
-							["amount"] = 13.38,
-						},
-						["森林狼"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["幼狼"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人歹徒"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-						["近戰"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["CCBroken"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoDamaged"] = {
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["幼狼"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人歹徒"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-						["近戰"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["幼狼"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人歹徒"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["Attacks"] = {
-						["剔骨"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["近戰"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["邪惡攻擊"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["幼狼"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人歹徒"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["幼狼"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人歹徒"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight1"] = {
-					["DamagedWho"] = {
-						["森林狼"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 16,
-								},
-								["近戰"] = {
-									["count"] = 36,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 23,
-								},
-							},
-							["amount"] = 75,
-						},
-						["幼狼"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人歹徒"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 9.28,
-					["TimeSpent"] = {
-						["森林狼"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 1.33,
-								},
-								["近戰"] = {
-									["count"] = 6.83,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 1.12,
-								},
-							},
-							["amount"] = 9.28,
-						},
-						["幼狼"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人歹徒"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["森林狼"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 14,
-								},
-							},
-							["amount"] = 14,
-						},
-						["幼狼"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人歹徒"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["DamageTaken"] = 14,
-					["PartialResist"] = {
-						["近戰"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 5,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 36,
-						["Physical"] = 39,
-					},
-					["PartialAbsorb"] = {
-						["近戰"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["ActiveTime"] = 9.28,
-					["TimeDamaging"] = {
-						["森林狼"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 1.33,
-								},
-								["近戰"] = {
-									["count"] = 6.83,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 1.12,
-								},
-							},
-							["amount"] = 9.28,
-						},
-						["幼狼"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人歹徒"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTaken"] = {
-						["Melee"] = 14,
-					},
-					["Attacks"] = {
-						["剔骨"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 16,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 16,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 16,
-						},
-						["近戰"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 11,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 11,
-								},
-								["Hit"] = {
-									["max"] = 5,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 25,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 36,
-						},
-						["邪惡攻擊"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 8,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 23,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 23,
-						},
-					},
-					["Damage"] = 75,
-				},
-				["Fight4"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 9,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 9,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 75,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-						["近戰"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 44,
-						["Physical"] = 31,
-					},
-					["CCBroken"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 4,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 7,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoDamaged"] = {
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-						["幼狼"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人歹徒"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 10.82,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-						["近戰"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 5,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 1.4,
-								},
-								["近戰"] = {
-									["count"] = 8.57,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0.85,
-								},
-							},
-							["amount"] = 10.82,
-						},
-						["幼狼"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人歹徒"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["Attacks"] = {
-						["剔骨"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 16,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 16,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 16,
-						},
-						["近戰"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 5,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 5,
-								},
-								["Hit"] = {
-									["max"] = 6,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 19,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 11,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 20,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 44,
-						},
-						["邪惡攻擊"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 8,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 15,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 15,
-						},
-					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 16,
-								},
-								["近戰"] = {
-									["count"] = 44,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 75,
-						},
-						["幼狼"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人歹徒"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 10.82,
-					["TimeDamaging"] = {
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 1.4,
-								},
-								["近戰"] = {
-									["count"] = 8.57,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0.85,
-								},
-							},
-							["amount"] = 10.82,
-						},
-						["幼狼"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人歹徒"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["LastFightData"] = {
-					["DamagedWho"] = {
-						["森林狼"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 16,
-								},
-								["近戰"] = {
-									["count"] = 36,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 23,
-								},
-							},
-							["amount"] = 75,
-						},
-						["幼狼"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人歹徒"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 9.28,
-					["TimeSpent"] = {
-						["森林狼"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 1.33,
-								},
-								["近戰"] = {
-									["count"] = 6.83,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 1.12,
-								},
-							},
-							["amount"] = 9.28,
-						},
-						["幼狼"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人歹徒"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["森林狼"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 14,
-								},
-							},
-							["amount"] = 14,
-						},
-						["幼狼"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人歹徒"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["DamageTaken"] = 14,
-					["PartialResist"] = {
-						["近戰"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 5,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 36,
-						["Physical"] = 39,
-					},
-					["PartialAbsorb"] = {
-						["近戰"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["ActiveTime"] = 9.28,
-					["TimeDamaging"] = {
-						["森林狼"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 1.33,
-								},
-								["近戰"] = {
-									["count"] = 6.83,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 1.12,
-								},
-							},
-							["amount"] = 9.28,
-						},
-						["幼狼"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人歹徒"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTaken"] = {
-						["Melee"] = 14,
-					},
-					["Attacks"] = {
-						["剔骨"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 16,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 16,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 16,
-						},
-						["近戰"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 11,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 11,
-								},
-								["Hit"] = {
-									["max"] = 5,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 25,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 36,
-						},
-						["邪惡攻擊"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 8,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 23,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 23,
-						},
-					},
-					["Damage"] = 75,
-				},
-				["Fight2"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 12,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 4,
-								},
-								["Dodge"] = {
-									["count"] = 2,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 7,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 12,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 73,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-						["近戰"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 0,
-						},
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 32,
-						["Physical"] = 41,
-					},
-					["CCBroken"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 9,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 4,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoDamaged"] = {
-						["幼狼"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 12,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 13.85,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-						["近戰"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 7,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["幼狼"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 1.45,
-								},
-								["近戰"] = {
-									["count"] = 11.05,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 1.35,
-								},
-							},
-							["amount"] = 13.85,
-						},
-					},
-					["Heals"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["Attacks"] = {
-						["剔骨"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 16,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 16,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 16,
-						},
-						["近戰"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 5,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 9,
-								},
-								["Hit"] = {
-									["max"] = 5,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 23,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 32,
-						},
-						["邪惡攻擊"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 9,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 25,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 25,
-						},
-					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["幼狼"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 16,
-								},
-								["近戰"] = {
-									["count"] = 32,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 25,
-								},
-							},
-							["amount"] = 73,
-						},
-					},
-					["TimeDamage"] = 13.85,
-					["TimeDamaging"] = {
-						["幼狼"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 1.45,
-								},
-								["近戰"] = {
-									["count"] = 11.05,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 1.35,
-								},
-							},
-							["amount"] = 13.85,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight3"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 12,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 4,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 12,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 75,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-						["近戰"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 29,
-						["Physical"] = 46,
-					},
-					["CCBroken"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 4,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 7,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoDamaged"] = {
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 12,
-						},
-						["狗頭人歹徒"] = {
-							["Details"] = {
-								["近戰"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 10.73,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-						["近戰"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 5,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0.12,
-								},
-								["近戰"] = {
-									["count"] = 8.43,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 2.18,
-								},
-							},
-							["amount"] = 10.73,
-						},
-						["狗頭人歹徒"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["Attacks"] = {
-						["剔骨"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 30,
-									["min"] = 30,
-									["count"] = 1,
-									["amount"] = 30,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 30,
-						},
-						["近戰"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 5,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 18,
-								},
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 11,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 11,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 29,
-						},
-						["邪惡攻擊"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 8,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 16,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 16,
-						},
-					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 30,
-								},
-								["近戰"] = {
-									["count"] = 29,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 16,
-								},
-							},
-							["amount"] = 75,
-						},
-						["狗頭人歹徒"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 10.73,
-					["TimeDamaging"] = {
-						["狗頭人勞工"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0.12,
-								},
-								["近戰"] = {
-									["count"] = 8.43,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 2.18,
-								},
-							},
-							["amount"] = 10.73,
-						},
-						["狗頭人歹徒"] = {
-							["Details"] = {
-								["剔骨"] = {
-									["count"] = 0,
-								},
-								["近戰"] = {
-									["count"] = 0,
-								},
-								["邪惡攻擊"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				true, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				true, -- [9]
+				false, -- [10]
+				false, -- [11]
+				true, -- [12]
+				false, -- [13]
+				true, -- [14]
+				false, -- [15]
+				false, -- [16]
+				true, -- [17]
+				false, -- [18]
+				true, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				true, -- [23]
+				false, -- [24]
+				false, -- [25]
+				true, -- [26]
+				false, -- [27]
+				true, -- [28]
+				false, -- [29]
+				true, -- [30]
+				false, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				true, -- [35]
+				false, -- [36]
+				false, -- [37]
+				true, -- [38]
+				false, -- [39]
+				false, -- [40]
+				true, -- [41]
+				false, -- [42]
+				true, -- [43]
+				false, -- [44]
+				false, -- [45]
+				true, -- [46]
+				false, -- [47]
+				false, -- [48]
+				true, -- [49]
+				false, -- [50]
 			},
 			["NextEventNum"] = 19,
 			["LastDamageTime"] = 3289.548,
@@ -3245,118 +350,3013 @@ RecountPerCharDB = {
 				3269.896, -- [49]
 				3271.097, -- [50]
 			},
-			["LastEventIncoming"] = {
-				true, -- [1]
-				false, -- [2]
-				false, -- [3]
-				false, -- [4]
-				true, -- [5]
-				false, -- [6]
-				false, -- [7]
-				false, -- [8]
-				true, -- [9]
-				false, -- [10]
-				false, -- [11]
-				true, -- [12]
-				false, -- [13]
-				true, -- [14]
-				false, -- [15]
-				false, -- [16]
-				true, -- [17]
-				false, -- [18]
-				true, -- [19]
-				false, -- [20]
-				false, -- [21]
-				false, -- [22]
-				true, -- [23]
-				false, -- [24]
-				false, -- [25]
-				true, -- [26]
-				false, -- [27]
-				true, -- [28]
-				false, -- [29]
-				true, -- [30]
-				false, -- [31]
-				false, -- [32]
-				false, -- [33]
-				false, -- [34]
-				true, -- [35]
-				false, -- [36]
-				false, -- [37]
-				true, -- [38]
-				false, -- [39]
-				false, -- [40]
-				true, -- [41]
-				false, -- [42]
-				true, -- [43]
-				false, -- [44]
-				false, -- [45]
-				true, -- [46]
-				false, -- [47]
-				false, -- [48]
-				true, -- [49]
-				false, -- [50]
+			["Fights"] = {
+				["Fight3"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 12,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 12,
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 75,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 30,
+								},
+								["近戰"] = {
+									["count"] = 29,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 16,
+								},
+							},
+							["amount"] = 75,
+						},
+						["狗頭人歹徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 29,
+						["Physical"] = 46,
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+						["狗頭人歹徒"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 10.73,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0.12,
+								},
+								["近戰"] = {
+									["count"] = 8.43,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 2.18,
+								},
+							},
+							["amount"] = 10.73,
+						},
+						["狗頭人歹徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 5,
+						},
+					},
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
+					["Attacks"] = {
+						["剔骨"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 30,
+									["min"] = 30,
+									["count"] = 1,
+									["amount"] = 30,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 30,
+						},
+						["近戰"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 5,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 18,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 11,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 11,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 29,
+						},
+						["邪惡攻擊"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 8,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 16,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 16,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 10.73,
+					["TimeDamaging"] = {
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0.12,
+								},
+								["近戰"] = {
+									["count"] = 8.43,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 2.18,
+								},
+							},
+							["amount"] = 10.73,
+						},
+						["狗頭人歹徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["Fight5"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 15,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 15,
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 77,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 14,
+								},
+								["近戰"] = {
+									["count"] = 39,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 77,
+						},
+						["森林狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["幼狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人歹徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 39,
+						["Physical"] = 38,
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+						["森林狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["幼狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人歹徒"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 13.38,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 1.5,
+								},
+								["近戰"] = {
+									["count"] = 7.6,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 4.28,
+								},
+							},
+							["amount"] = 13.38,
+						},
+						["森林狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["幼狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人歹徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 7,
+						},
+					},
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
+					["Attacks"] = {
+						["剔骨"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 14,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 14,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 14,
+						},
+						["近戰"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (被格擋)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 6,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 39,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 39,
+						},
+						["邪惡攻擊"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 8,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 24,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 24,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 13.38,
+					["TimeDamaging"] = {
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 1.5,
+								},
+								["近戰"] = {
+									["count"] = 7.6,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 4.28,
+								},
+							},
+							["amount"] = 13.38,
+						},
+						["森林狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["幼狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人歹徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["幼狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人歹徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["幼狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人歹徒"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["幼狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人歹徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
+					["Attacks"] = {
+						["剔骨"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["近戰"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["邪惡攻擊"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["幼狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人歹徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 12,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 12,
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 73,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+						["幼狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 16,
+								},
+								["近戰"] = {
+									["count"] = 32,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 25,
+								},
+							},
+							["amount"] = 73,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 32,
+						["Physical"] = 41,
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+						["幼狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 13.85,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["幼狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 1.45,
+								},
+								["近戰"] = {
+									["count"] = 11.05,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 1.35,
+								},
+							},
+							["amount"] = 13.85,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 7,
+						},
+					},
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
+					["Attacks"] = {
+						["剔骨"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 16,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 16,
+						},
+						["近戰"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 5,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 9,
+								},
+								["Hit"] = {
+									["max"] = 5,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 23,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 32,
+						},
+						["邪惡攻擊"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 9,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 25,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 25,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 13.85,
+					["TimeDamaging"] = {
+						["幼狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 1.45,
+								},
+								["近戰"] = {
+									["count"] = 11.05,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 1.35,
+								},
+							},
+							["amount"] = 13.85,
+						},
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 9,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 9,
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 75,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 16,
+								},
+								["近戰"] = {
+									["count"] = 44,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 75,
+						},
+						["幼狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人歹徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 44,
+						["Physical"] = 31,
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+						["幼狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人歹徒"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 10.82,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 1.4,
+								},
+								["近戰"] = {
+									["count"] = 8.57,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0.85,
+								},
+							},
+							["amount"] = 10.82,
+						},
+						["幼狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人歹徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 5,
+						},
+					},
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
+					["Attacks"] = {
+						["剔骨"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 16,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 16,
+						},
+						["近戰"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 5,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 5,
+								},
+								["Hit"] = {
+									["max"] = 6,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 19,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 11,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 20,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 44,
+						},
+						["邪惡攻擊"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 8,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 15,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 15,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 10.82,
+					["TimeDamaging"] = {
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 1.4,
+								},
+								["近戰"] = {
+									["count"] = 8.57,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0.85,
+								},
+							},
+							["amount"] = 10.82,
+						},
+						["幼狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人歹徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["Attacks"] = {
+						["剔骨"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 16,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 16,
+						},
+						["近戰"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 5,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 25,
+								},
+								["Crit"] = {
+									["max"] = 11,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 11,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 36,
+						},
+						["邪惡攻擊"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 8,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 23,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 23,
+						},
+					},
+					["PartialAbsorb"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["TimeDamaging"] = {
+						["森林狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 1.33,
+								},
+								["近戰"] = {
+									["count"] = 6.83,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 1.12,
+								},
+							},
+							["amount"] = 9.28,
+						},
+						["幼狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人歹徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeSpent"] = {
+						["森林狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 1.33,
+								},
+								["近戰"] = {
+									["count"] = 6.83,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 1.12,
+								},
+							},
+							["amount"] = 9.28,
+						},
+						["幼狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人歹徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 14,
+					["ActiveTime"] = 9.28,
+					["PartialResist"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 5,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["DamagedWho"] = {
+						["森林狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 16,
+								},
+								["近戰"] = {
+									["count"] = 36,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 75,
+						},
+						["幼狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人歹徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 9.28,
+					["WhoDamaged"] = {
+						["森林狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+						["幼狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人歹徒"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 14,
+					},
+					["ElementDone"] = {
+						["Melee"] = 36,
+						["Physical"] = 39,
+					},
+					["Damage"] = 75,
+				},
+				["Fight1"] = {
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["Attacks"] = {
+						["剔骨"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 16,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 16,
+						},
+						["近戰"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 5,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 25,
+								},
+								["Crit"] = {
+									["max"] = 11,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 11,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 36,
+						},
+						["邪惡攻擊"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 8,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 23,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 23,
+						},
+					},
+					["PartialAbsorb"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["TimeDamaging"] = {
+						["森林狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 1.33,
+								},
+								["近戰"] = {
+									["count"] = 6.83,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 1.12,
+								},
+							},
+							["amount"] = 9.28,
+						},
+						["幼狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人歹徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeSpent"] = {
+						["森林狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 1.33,
+								},
+								["近戰"] = {
+									["count"] = 6.83,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 1.12,
+								},
+							},
+							["amount"] = 9.28,
+						},
+						["幼狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人歹徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 14,
+					["ActiveTime"] = 9.28,
+					["PartialResist"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 5,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["DamagedWho"] = {
+						["森林狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 16,
+								},
+								["近戰"] = {
+									["count"] = 36,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 75,
+						},
+						["幼狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人歹徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 9.28,
+					["WhoDamaged"] = {
+						["森林狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+						["幼狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人歹徒"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 14,
+					},
+					["ElementDone"] = {
+						["Melee"] = 36,
+						["Physical"] = 39,
+					},
+					["Damage"] = 75,
+				},
+				["OverallData"] = {
+					["ElementDoneBlock"] = {
+						["Melee"] = 3,
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 3,
+								},
+								["Dodge"] = {
+									["count"] = 37,
+								},
+								["Hit"] = {
+									["count"] = 100,
+								},
+							},
+							["amount"] = 140,
+						},
+					},
+					["Attacks"] = {
+						["剔骨"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 33,
+									["min"] = 28,
+									["count"] = 3,
+									["amount"] = 91,
+								},
+								["Hit"] = {
+									["max"] = 21,
+									["min"] = 7,
+									["count"] = 23,
+									["amount"] = 338,
+								},
+							},
+							["count"] = 26,
+							["amount"] = 429,
+						},
+						["近戰"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 5,
+									["min"] = 4,
+									["count"] = 12,
+									["amount"] = 56,
+								},
+								["Hit"] = {
+									["max"] = 6,
+									["min"] = 4,
+									["count"] = 134,
+									["amount"] = 645,
+								},
+								["Dodge"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Hit (被格擋)"] = {
+									["max"] = 1,
+									["min"] = 1,
+									["count"] = 1,
+									["amount"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 11,
+									["min"] = 8,
+									["count"] = 20,
+									["amount"] = 197,
+								},
+								["Parry"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 176,
+							["amount"] = 899,
+						},
+						["邪惡攻擊"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 9,
+									["min"] = 7,
+									["count"] = 61,
+									["amount"] = 475,
+								},
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 17,
+									["min"] = 14,
+									["count"] = 11,
+									["amount"] = 171,
+								},
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 76,
+							["amount"] = 646,
+						},
+					},
+					["PartialAbsorb"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 140,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 140,
+							["amount"] = 0,
+						},
+					},
+					["TimeDamaging"] = {
+						["森林狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 2.23,
+								},
+								["近戰"] = {
+									["count"] = 17.66,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 6.44,
+								},
+							},
+							["amount"] = 26.33,
+						},
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 12.15,
+								},
+								["近戰"] = {
+									["count"] = 88.74000000000002,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 27.37000000000001,
+								},
+							},
+							["amount"] = 128.26,
+						},
+						["幼狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 2.04,
+								},
+								["近戰"] = {
+									["count"] = 25.38,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 16.2,
+								},
+							},
+							["amount"] = 43.62,
+						},
+						["狗頭人歹徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 7.82,
+								},
+								["近戰"] = {
+									["count"] = 64.73000000000002,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 13.09,
+								},
+							},
+							["amount"] = 85.63999999999999,
+						},
+					},
+					["TimeSpent"] = {
+						["森林狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 2.23,
+								},
+								["近戰"] = {
+									["count"] = 17.66,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 6.44,
+								},
+							},
+							["amount"] = 26.33,
+						},
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 12.15,
+								},
+								["近戰"] = {
+									["count"] = 88.74000000000002,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 27.37000000000001,
+								},
+							},
+							["amount"] = 128.26,
+						},
+						["幼狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 2.04,
+								},
+								["近戰"] = {
+									["count"] = 25.38,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 16.2,
+								},
+							},
+							["amount"] = 43.62,
+						},
+						["狗頭人歹徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 7.82,
+								},
+								["近戰"] = {
+									["count"] = 64.73000000000002,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 13.09,
+								},
+							},
+							["amount"] = 85.63999999999999,
+						},
+					},
+					["DamageTaken"] = 231,
+					["ActiveTime"] = 283.85,
+					["PartialResist"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 140,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 140,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 12,
+								},
+								["Hit"] = {
+									["count"] = 135,
+								},
+								["Dodge"] = {
+									["count"] = 3,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Block"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 20,
+								},
+								["Parry"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 177,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 84,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 14,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 102,
+						},
+					},
+					["DamagedWho"] = {
+						["森林狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 28,
+								},
+								["近戰"] = {
+									["count"] = 86,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 55,
+								},
+							},
+							["amount"] = 169,
+						},
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 212,
+								},
+								["近戰"] = {
+									["count"] = 417,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 276,
+								},
+							},
+							["amount"] = 905,
+						},
+						["幼狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 63,
+								},
+								["近戰"] = {
+									["count"] = 137,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 136,
+								},
+							},
+							["amount"] = 336,
+						},
+						["狗頭人歹徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 126,
+								},
+								["近戰"] = {
+									["count"] = 259,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 179,
+								},
+							},
+							["amount"] = 564,
+						},
+					},
+					["TimeDamage"] = 283.85,
+					["WhoDamaged"] = {
+						["森林狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 19,
+								},
+							},
+							["amount"] = 19,
+						},
+						["狗頭人勞工"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 133,
+								},
+							},
+							["amount"] = 133,
+						},
+						["幼狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 21,
+						},
+						["狗頭人歹徒"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 58,
+								},
+							},
+							["amount"] = 58,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 231,
+					},
+					["ElementDone"] = {
+						["Melee"] = 899,
+						["Physical"] = 1075,
+					},
+					["Damage"] = 1974,
+				},
 			},
-			["TimeLast"] = {
-				["ActiveTime"] = 3288.964,
-				["TimeDamage"] = 3288.964,
-				["OVERALL"] = 3288.964,
-				["DamageTaken"] = 3288.964,
-				["Damage"] = 3288.964,
-			},
-			["LastEventHealthMax"] = {
-				89, -- [1]
-				89, -- [2]
-				89, -- [3]
-				89, -- [4]
-				89, -- [5]
-				89, -- [6]
-				89, -- [7]
-				89, -- [8]
-				89, -- [9]
-				89, -- [10]
-				89, -- [11]
-				89, -- [12]
-				89, -- [13]
-				89, -- [14]
-				89, -- [15]
-				89, -- [16]
-				89, -- [17]
-				89, -- [18]
-				89, -- [19]
-				89, -- [20]
-				89, -- [21]
-				89, -- [22]
-				89, -- [23]
-				89, -- [24]
-				89, -- [25]
-				89, -- [26]
-				89, -- [27]
-				89, -- [28]
-				89, -- [29]
-				89, -- [30]
-				89, -- [31]
-				89, -- [32]
-				89, -- [33]
-				89, -- [34]
-				89, -- [35]
-				89, -- [36]
-				89, -- [37]
-				89, -- [38]
-				89, -- [39]
-				89, -- [40]
-				89, -- [41]
-				89, -- [42]
-				89, -- [43]
-				89, -- [44]
-				89, -- [45]
-				89, -- [46]
-				89, -- [47]
-				89, -- [48]
-				89, -- [49]
-				89, -- [50]
-			},
-			["LastActive"] = 3288.964,
+			["LastDamageTaken"] = 3,
+			["UnitLockout"] = 2715.958,
+			["LastAbility"] = 1568.09,
 		},
 	},
 	["FightNum"] = 31,

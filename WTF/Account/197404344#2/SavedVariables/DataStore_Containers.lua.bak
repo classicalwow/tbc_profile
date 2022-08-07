@@ -6,8 +6,14 @@ DataStore_ContainersDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.加丁.Vscode"] = {
-				["lastUpdate"] = 1657353747,
+				["lastUpdate"] = 1658552336,
+				["numFreeBagSlots"] = 13,
 				["Containers"] = {
+					["Bag-2"] = {
+						["freeslots"] = 32,
+						["icon"] = "ICONS\\INV_Misc_Key_04.blp",
+						["size"] = 32,
+					},
 					["Bag0"] = {
 						["ids"] = {
 							2070, -- [1]
@@ -27,21 +33,15 @@ DataStore_ContainersDB = {
 							"|cff9d9d9d|Hitem:2211::::::::3:::::::::|h[扭曲的大盾]|h|r", -- [6]
 							"|cffffffff|Hitem:159::::::::3:::::::::|h[清涼的泉水]|h|r", -- [7]
 						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["size"] = 20,
 						["counts"] = {
 							4, -- [1]
 							[3] = 4,
 						},
 						["freeslots"] = 13,
-					},
-					["Bag-2"] = {
-						["icon"] = "ICONS\\INV_Misc_Key_04.blp",
-						["size"] = 32,
-						["freeslots"] = 32,
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 20,
 					},
 				},
-				["numFreeBagSlots"] = 13,
 				["numBagSlots"] = 20,
 			},
 		},

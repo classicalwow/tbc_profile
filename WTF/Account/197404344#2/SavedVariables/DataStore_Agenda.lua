@@ -6,7 +6,7 @@ DataStore_AgendaDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.加丁.Vscode"] = {
-				["lastUpdate"] = 1658552335,
+				["lastUpdate"] = 1659786093,
 			},
 		},
 	},

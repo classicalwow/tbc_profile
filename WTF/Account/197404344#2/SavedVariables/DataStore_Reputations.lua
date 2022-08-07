@@ -6,7 +6,7 @@ DataStore_ReputationsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.加丁.Vscode"] = {
-				["lastUpdate"] = 1658552335,
+				["lastUpdate"] = 1659786092,
 				["Factions"] = {
 					3100, -- [1]
 					nil, -- [2]

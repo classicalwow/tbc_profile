@@ -45,7 +45,7 @@ dbm-aq20: enabled
 atlaslootclassic_crafting: enabled
 atlaslootclassic_dungeonsandraids: enabled
 dbm-outlands: enabled
-elvui_optionsui: enabled
+elvui_optionsui: disabled
 dbm-bwl: enabled
 dbm-blacktemple: enabled
 dbm-theeye: enabled
@@ -82,3 +82,7 @@ ElvUI_DTBars2: disabled
 ElvUI_QuestXP: disabled
 ElvUI_CustomTags: disabled
 kExtraBossFrames: disabled
+LFGBulletinBoard: disabled
+LoonBestInSlot: disabled
+ElvUI: disabled
+ElvUI_PVPDT: disabled

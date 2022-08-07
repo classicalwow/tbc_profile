@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0538,
-	["LastPlayerFullName"] = "Vscode-加丁",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		[7] = {
 			["ID"] = 1366,
@@ -13,6 +11,17 @@ PawnOptions = {
 			["ID"] = 28979,
 			["Level"] = 3,
 			["Link"] = "|cffffffff|Hitem:28979::::::::1:::::::::|h[輕型飛刀]|h|r",
+		},
+		[17] = {
+			["ID"] = 2092,
+			["Level"] = 2,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cffffffff|Hitem:2092::::::::2:::::::::|h[用舊的匕首]|h|r",
+		},
+		[9] = {
+			["ID"] = 3365,
+			["Level"] = 5,
+			["Link"] = "|cff9d9d9d|Hitem:3365::::::::2:::::::::|h[磨損的護腕]|h|r",
 		},
 		[16] = {
 			["ID"] = 2092,
@@ -25,18 +34,9 @@ PawnOptions = {
 			["Level"] = 4,
 			["Link"] = "|cff9d9d9d|Hitem:1380::::::::1:::::::::|h[磨損的長袍]|h|r",
 		},
-		[9] = {
-			["ID"] = 3365,
-			["Level"] = 5,
-			["Link"] = "|cff9d9d9d|Hitem:3365::::::::2:::::::::|h[磨損的護腕]|h|r",
-		},
-		[17] = {
-			["ID"] = 2092,
-			["Level"] = 2,
-			["AlsoFitsIn"] = 16,
-			["Link"] = "|cffffffff|Hitem:2092::::::::2:::::::::|h[用舊的匕首]|h|r",
-		},
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "Vscode-加丁",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
