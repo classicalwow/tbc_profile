@@ -1,1 +1,1 @@
-- Bug fix
+- Add support for WoTLK Classic
