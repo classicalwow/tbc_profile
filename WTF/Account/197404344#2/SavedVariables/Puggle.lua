@@ -272,9 +272,11 @@ Puggle_dungeonTags = {
 		"arc", -- [1]
 		"arcatraz", -- [2]
 	},
-	["UB"] = {
-		"ub", -- [1]
-		"underbog", -- [2]
+	["SMG"] = {
+		"smgy", -- [1]
+		"smg", -- [2]
+		"gy", -- [3]
+		"graveyard", -- [4]
 	},
 	["MT"] = {
 		"mana-tombs", -- [1]
@@ -303,11 +305,9 @@ Puggle_dungeonTags = {
 		"hyjal", -- [1]
 		"hijal", -- [2]
 	},
-	["SMG"] = {
-		"smgy", -- [1]
-		"smg", -- [2]
-		"gy", -- [3]
-		"graveyard", -- [4]
+	["UB"] = {
+		"ub", -- [1]
+		"underbog", -- [2]
 	},
 	["RFD"] = {
 		"rfd", -- [1]
@@ -387,13 +387,13 @@ Puggle_dungeonNames = {
 	["AV"] = "Alterac Valley",
 	["KZ"] = "Karazhan",
 	["ARC"] = "The Arcatraz",
-	["UB"] = "Underbog",
+	["SMG"] = "Scarlet Monastery: Graveyard",
 	["MT"] = "Mana-Tombs",
 	["BOT"] = "The Botanica",
 	["DMN"] = "Dire Maul: North",
 	["SL"] = "Shadow Labyrinth",
 	["MH"] = "Mount Hyjal",
-	["SMG"] = "Scarlet Monastery: Graveyard",
+	["UB"] = "Underbog",
 	["RFD"] = "Razorfen Downs",
 	["SMC"] = "Scarlet Monastery: Cathedral",
 	["ZA"] = "Zul'Aman",
@@ -416,22 +416,171 @@ Puggle_blacklistTags = {
 Puggle_allowSendWho = true
 Puggle_disableInInstance = true
 Puggle_pastGroups = {
+	[1660228801] = {
+		["party"] = {
+			{
+				["guild"] = "",
+				["dur"] = 13,
+				["time"] = 1660228801,
+				["id"] = 2,
+				["level"] = "NQ==",
+				["star"] = "MA==",
+				["cmt"] = "",
+			}, -- [1]
+			{
+				["guild"] = "",
+				["dur"] = 13,
+				["time"] = 1660228801,
+				["id"] = 4,
+				["level"] = "MA==",
+				["cmt"] = "",
+				["star"] = "MA==",
+			}, -- [2]
+		},
+		["dur"] = 13,
+		["loc"] = "6Im+54i+5paH5qOu5p6X",
+		["cmt"] = "",
+		["exported"] = false,
+		["realm"] = "56WI56aP",
+	},
+	[1660227659] = {
+		["party"] = {
+			{
+				["cmt"] = "",
+				["guild"] = "",
+				["star"] = "MA==",
+				["id"] = 2,
+				["level"] = "NQ==",
+				["time"] = 1660227659,
+				["dur"] = 0,
+			}, -- [1]
+			{
+				["star"] = "MA==",
+				["guild"] = "",
+				["cmt"] = "",
+				["id"] = 4,
+				["level"] = "Mg==",
+				["time"] = 1660227659,
+				["dur"] = 400,
+			}, -- [2]
+		},
+		["dur"] = 503,
+		["loc"] = "6Im+54i+5paH5qOu5p6X",
+		["cmt"] = "",
+		["exported"] = false,
+		["realm"] = "56WI56aP",
+	},
+	[1660228188] = {
+		["party"] = {
+			{
+				["guild"] = "",
+				["dur"] = 518,
+				["time"] = 1660228188,
+				["id"] = 2,
+				["level"] = "NQ==",
+				["star"] = "MA==",
+				["cmt"] = "",
+			}, -- [1]
+			{
+				["guild"] = "",
+				["dur"] = 518,
+				["time"] = 1660228188,
+				["id"] = 4,
+				["level"] = "Mg==",
+				["cmt"] = "",
+				["star"] = "MA==",
+			}, -- [2]
+		},
+		["dur"] = 518,
+		["loc"] = "",
+		["cmt"] = "",
+		["exported"] = false,
+		["realm"] = "56WI56aP",
+	},
+	[1660230792] = {
+		["party"] = {
+			{
+				["guild"] = "UGxheSBmb3IgVWJlcg==",
+				["dur"] = 666,
+				["time"] = 1660230792,
+				["id"] = 2,
+				["level"] = "OA==",
+				["star"] = "MA==",
+				["cmt"] = "",
+			}, -- [1]
+			{
+				["guild"] = "",
+				["dur"] = 666,
+				["time"] = 1660230792,
+				["id"] = 4,
+				["level"] = "Njc=",
+				["cmt"] = "",
+				["star"] = "MA==",
+			}, -- [2]
+		},
+		["dur"] = 666,
+		["loc"] = "6Im+54i+5paH5qOu5p6X",
+		["cmt"] = "",
+		["exported"] = false,
+		["realm"] = "56WI56aP",
+	},
 }
 Puggle_pastPlayers = {
 	{
 		["latestguild"] = "",
 		["latestcmt"] = "",
 		["class"] = "Uk9HVUU=",
-		["player"] = true,
 		["gender"] = "Mg==",
-		["latesttime"] = 1658552323,
 		["race"] = "SHVtYW4=",
-		["latestfrom"] = "",
+		["latesttime"] = 1658552323,
+		["player"] = true,
+		["name"] = "VnNjb2Rl",
 		["faction"] = "QWxsaWFuY2U=",
 		["lateststar"] = "MA==",
-		["name"] = "VnNjb2Rl",
+		["latestfrom"] = "",
 		["latestlevel"] = "MQ==",
 		["realm"] = "5Yqg5LiB",
 	}, -- [1]
+	{
+		["latestguild"] = "",
+		["realm"] = "56WI56aP",
+		["class"] = "Uk9HVUU=",
+		["gender"] = "Mg==",
+		["latestfrom"] = "",
+		["latesttime"] = 1660226825,
+		["race"] = "SHVtYW4=",
+		["name"] = "54m55Y+Y55S15bel",
+		["faction"] = "QWxsaWFuY2U=",
+		["lateststar"] = "MA==",
+		["player"] = true,
+		["latestlevel"] = "MQ==",
+		["latestcmt"] = "",
+	}, -- [2]
+	{
+		["latestguild"] = "",
+		["lateststar"] = "MA==",
+		["latestcmt"] = "",
+		["latestfrom"] = "",
+		["faction"] = "Alliance",
+		["latesttime"] = 1660228182,
+		["name"] = "5pyq55+l55uu5qiZ",
+		["latestlevel"] = "MQ==",
+		["realm"] = "祈福",
+	}, -- [3]
+	{
+		["latestguild"] = "",
+		["latestcmt"] = "",
+		["gender"] = "Mw==",
+		["class"] = "UEFMQURJTg==",
+		["name"] = "6L+e5L2g5o6l5LuW",
+		["lateststar"] = "MA==",
+		["player"] = false,
+		["latestfrom"] = "",
+		["faction"] = "QWxsaWFuY2U=",
+		["race"] = "SHVtYW4=",
+		["latesttime"] = 1660227659,
+		["latestlevel"] = "Njc=",
+		["realm"] = "56WI56aP",
+	}, -- [4]
 }
 Puggle_encoded = true

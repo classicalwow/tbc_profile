@@ -1,0 +1,8925 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["连你接他"] = {
+			["GUID"] = "Player-4778-04DC03E9",
+			["LastEventHealth"] = {
+				5945, -- [1]
+				5945, -- [2]
+				5945, -- [3]
+				5941, -- [4]
+			},
+			["LastAttackedBy"] = "覓食的灰狼",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+			},
+			["TimeWindows"] = {
+				["RageGain"] = {
+					1, -- [1]
+				},
+				["ActiveTime"] = {
+					3.11, -- [1]
+				},
+				["TimeDamage"] = {
+					3.11, -- [1]
+				},
+				["DamageTaken"] = {
+					4, -- [1]
+				},
+				["Damage"] = {
+					619, -- [1]
+				},
+			},
+			["enClass"] = "WARRIOR",
+			["unit"] = "连你接他",
+			["level"] = 67,
+			["LastDamageAbility"] = "近戰",
+			["LastFightIn"] = 48,
+			["LastAbility"] = 51113.779,
+			["type"] = "Ungrouped",
+			["FightsSaved"] = 5,
+			["LastDamageTaken"] = 4,
+			["UnitLockout"] = 49069.895,
+			["Owner"] = false,
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeSpent"] = {
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 3.11,
+								},
+							},
+							["amount"] = 3.11,
+						},
+					},
+					["DamageTaken"] = 4,
+					["RageGainedFrom"] = {
+						["连你接他"] = {
+							["Details"] = {
+								["怒不可遏"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["PartialResist"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["PartialAbsorb"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 3.11,
+					["ElementTaken"] = {
+						["Melee"] = 4,
+					},
+					["RageGained"] = {
+						["怒不可遏"] = {
+							["Details"] = {
+								["连你接他"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["Damage"] = 619,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 619,
+					},
+					["RageGain"] = 1,
+					["DamagedWho"] = {
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 619,
+								},
+							},
+							["amount"] = 619,
+						},
+					},
+					["TimeDamage"] = 3.11,
+					["TimeDamaging"] = {
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 3.11,
+								},
+							},
+							["amount"] = 3.11,
+						},
+					},
+					["WhoDamaged"] = {
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["Attacks"] = {
+						["近戰"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 253,
+									["min"] = 133,
+									["count"] = 3,
+									["amount"] = 619,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 619,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+				},
+			},
+			["NextEventNum"] = 5,
+			["LastDamageTime"] = 49093.628,
+			["LastEvents"] = {
+				"连你接他 近戰 覓食的灰狼 Hit -253 (Physical)", -- [1]
+				"连你接他 近戰 覓食的灰狼 Hit -133 (Physical)", -- [2]
+				"覓食的灰狼 近戰 连你接他 Hit -4 (Physical)", -- [3]
+				"连你接他 近戰 覓食的灰狼 Hit -233 (Physical)", -- [4]
+			},
+			["Name"] = "连你接他",
+			["LastEventTimes"] = {
+				49070.192, -- [1]
+				49093.522, -- [2]
+				49093.628, -- [3]
+				49093.628, -- [4]
+			},
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				true, -- [3]
+				false, -- [4]
+			},
+			["TimeLast"] = {
+				["RageGain"] = 49092.895,
+				["ActiveTime"] = 49092.895,
+				["TimeDamage"] = 49092.895,
+				["OVERALL"] = 49092.895,
+				["DamageTaken"] = 49092.895,
+				["Damage"] = 49092.895,
+			},
+			["LastEventHealthMax"] = {
+				5945, -- [1]
+				5945, -- [2]
+				5945, -- [3]
+				5945, -- [4]
+			},
+			["LastActive"] = 49092.895,
+		},
+		["特变电工"] = {
+			["GUID"] = "Player-4778-04DBFC9E",
+			["LastEventHealth"] = {
+				161, -- [1]
+				161, -- [2]
+				161, -- [3]
+				161, -- [4]
+				161, -- [5]
+				149, -- [6]
+				149, -- [7]
+				149, -- [8]
+				225, -- [9]
+				213, -- [10]
+				213, -- [11]
+				213, -- [12]
+				213, -- [13]
+				200, -- [14]
+				186, -- [15]
+				186, -- [16]
+				186, -- [17]
+				186, -- [18]
+				186, -- [19]
+				186, -- [20]
+				172, -- [21]
+				172, -- [22]
+				172, -- [23]
+				172, -- [24]
+				172, -- [25]
+				159, -- [26]
+				225, -- [27]
+				212, -- [28]
+				195, -- [29]
+				195, -- [30]
+				195, -- [31]
+				218, -- [32]
+				213, -- [33]
+				207, -- [34]
+				225, -- [35]
+				225, -- [36]
+				225, -- [37]
+				210, -- [38]
+				210, -- [39]
+				210, -- [40]
+				210, -- [41]
+				198, -- [42]
+				198, -- [43]
+				198, -- [44]
+				198, -- [45]
+				198, -- [46]
+				175, -- [47]
+				175, -- [48]
+				175, -- [49]
+				161, -- [50]
+			},
+			["LastAttackedBy"] = "小森林熊",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["CCBreak"] = {
+					1, -- [1]
+				},
+				["TimeHeal"] = {
+					1.5, -- [1]
+				},
+				["HealingTaken"] = {
+					144, -- [1]
+				},
+				["TimeDamage"] = {
+					922.2800000000001, -- [1]
+				},
+				["ActiveTime"] = {
+					923.7800000000001, -- [1]
+				},
+				["Healing"] = {
+					144, -- [1]
+				},
+				["DamageTaken"] = {
+					3303, -- [1]
+				},
+				["Damage"] = {
+					9053, -- [1]
+				},
+			},
+			["enClass"] = "ROGUE",
+			["unit"] = "特变电工",
+			["LastHealTime"] = 52207.869,
+			["level"] = 5,
+			["LastDamageAbility"] = "近戰",
+			["LastFightIn"] = 70,
+			["LastAbility"] = 51113.779,
+			["type"] = "Self",
+			["FightsSaved"] = 5,
+			["LastDamageTaken"] = 13,
+			["UnitLockout"] = 46544.892,
+			["Owner"] = false,
+			["Fights"] = {
+				["OverallData"] = {
+					["ElementDoneBlock"] = {
+						["Melee"] = 110,
+						["Physical"] = 19,
+					},
+					["TimeHealing"] = {
+						["特变电工"] = {
+							["Details"] = {
+								["治療藥水"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 99,
+								},
+								["Miss"] = {
+									["count"] = 26,
+								},
+								["Hit"] = {
+									["count"] = 373,
+								},
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Crushing"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 503,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["DamageTaken"] = 3303,
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["猛踢"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
+						["火球術"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+						["冰凍"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["近戰"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 503,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 503,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["猛踢"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["火球術"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["冰凍"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["近戰"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 503,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 503,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 923.7800000000001,
+					["ElementTaken"] = {
+						["Physical"] = 45,
+						["Melee"] = 3209,
+						["Fire"] = 49,
+					},
+					["Damage"] = 9053,
+					["Attacks"] = {
+						["剔骨"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 61,
+									["min"] = 7,
+									["count"] = 49,
+									["amount"] = 1208,
+								},
+								["Hit (被格擋)"] = {
+									["max"] = 45,
+									["min"] = 45,
+									["count"] = 1,
+									["amount"] = 45,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 75,
+									["min"] = 28,
+									["count"] = 6,
+									["amount"] = 274,
+								},
+								["Parry"] = {
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 62,
+							["amount"] = 1527,
+						},
+						["背刺"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 26,
+									["min"] = 20,
+									["count"] = 23,
+									["amount"] = 553,
+								},
+								["Crit"] = {
+									["max"] = 53,
+									["min"] = 50,
+									["count"] = 3,
+									["amount"] = 154,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 27,
+							["amount"] = 707,
+						},
+						["投擲"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 5,
+									["min"] = 3,
+									["count"] = 22,
+									["amount"] = 94,
+								},
+								["Miss"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 25,
+							["amount"] = 94,
+						},
+						["近戰"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 25,
+									["min"] = 2,
+									["count"] = 44,
+									["amount"] = 378,
+								},
+								["Dodge"] = {
+									["count"] = 24,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 28,
+									["min"] = 3,
+									["count"] = 390,
+									["amount"] = 2893,
+								},
+								["Miss"] = {
+									["count"] = 39,
+									["amount"] = 0,
+								},
+								["Hit (被格擋)"] = {
+									["max"] = 5,
+									["min"] = 1,
+									["count"] = 19,
+									["amount"] = 49,
+								},
+								["Block"] = {
+									["count"] = 5,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 19,
+									["min"] = 7,
+									["count"] = 51,
+									["amount"] = 705,
+								},
+								["Parry"] = {
+									["count"] = 24,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 596,
+							["amount"] = 4025,
+						},
+						["鑿擊"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 18,
+									["min"] = 18,
+									["count"] = 2,
+									["amount"] = 36,
+								},
+								["Hit"] = {
+									["max"] = 9,
+									["min"] = 6,
+									["count"] = 20,
+									["amount"] = 165,
+								},
+							},
+							["count"] = 24,
+							["amount"] = 201,
+						},
+						["邪惡攻擊"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 32,
+									["min"] = 9,
+									["count"] = 145,
+									["amount"] = 2044,
+								},
+								["Dodge"] = {
+									["count"] = 7,
+									["amount"] = 0,
+								},
+								["Hit (被格擋)"] = {
+									["max"] = 23,
+									["min"] = 6,
+									["count"] = 3,
+									["amount"] = 37,
+								},
+								["Miss"] = {
+									["count"] = 8,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 49,
+									["min"] = 20,
+									["count"] = 16,
+									["amount"] = 418,
+								},
+								["Parry"] = {
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 184,
+							["amount"] = 2499,
+						},
+					},
+					["TimeHeal"] = 1.5,
+					["CCBreak"] = 1,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 44,
+								},
+								["Hit"] = {
+									["count"] = 409,
+								},
+								["Dodge"] = {
+									["count"] = 24,
+								},
+								["Miss"] = {
+									["count"] = 39,
+								},
+								["Block"] = {
+									["count"] = 29,
+								},
+								["Crit"] = {
+									["count"] = 51,
+								},
+								["Parry"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 620,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 263,
+								},
+								["Miss"] = {
+									["count"] = 14,
+								},
+								["Dodge"] = {
+									["count"] = 8,
+								},
+								["Block"] = {
+									["count"] = 4,
+								},
+								["Crit"] = {
+									["count"] = 27,
+								},
+								["Parry"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 326,
+						},
+					},
+					["WhoHealed"] = {
+						["特变电工"] = {
+							["Details"] = {
+								["治療藥水"] = {
+									["count"] = 144,
+								},
+							},
+							["amount"] = 144,
+						},
+					},
+					["Healing"] = 144,
+					["HealedWho"] = {
+						["特变电工"] = {
+							["Details"] = {
+								["治療藥水"] = {
+									["count"] = 144,
+								},
+							},
+							["amount"] = 144,
+						},
+					},
+					["Heals"] = {
+						["治療藥水"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 144,
+									["min"] = 144,
+									["count"] = 1,
+									["amount"] = 144,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 144,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 4025,
+						["Physical"] = 5028,
+					},
+					["HealingTaken"] = 144,
+					["DamagedWho"] = {
+						["癩皮狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 13,
+								},
+								["背刺"] = {
+									["count"] = 22,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 48,
+						},
+						["麥田魔像"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+						["迪菲亞小偷"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 20,
+								},
+								["近戰"] = {
+									["count"] = 53,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 48,
+								},
+							},
+							["amount"] = 121,
+						},
+						["加瑞克·護足"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 18,
+								},
+								["近戰"] = {
+									["count"] = 59,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 105,
+						},
+						["狗頭人地卜師"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 43,
+								},
+								["近戰"] = {
+									["count"] = 51,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 39,
+								},
+							},
+							["amount"] = 133,
+						},
+						["魚人"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 126,
+								},
+								["近戰"] = {
+									["count"] = 240,
+								},
+								["投擲"] = {
+									["count"] = 18,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 145,
+								},
+							},
+							["amount"] = 529,
+						},
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 246,
+								},
+								["投擲"] = {
+									["count"] = 10,
+								},
+								["背刺"] = {
+									["count"] = 40,
+								},
+								["近戰"] = {
+									["count"] = 412,
+								},
+								["鑿擊"] = {
+									["count"] = 14,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 339,
+								},
+							},
+							["amount"] = 1061,
+						},
+						["迪菲亞強盜"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 15,
+								},
+								["近戰"] = {
+									["count"] = 217,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 272,
+								},
+							},
+							["amount"] = 504,
+						},
+						["隨行小豬"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 29,
+								},
+								["近戰"] = {
+									["count"] = 67,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 41,
+								},
+							},
+							["amount"] = 137,
+						},
+						["公主"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 41,
+								},
+								["近戰"] = {
+									["count"] = 66,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 71,
+								},
+							},
+							["amount"] = 178,
+						},
+						["石牙野豬"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 101,
+								},
+								["背刺"] = {
+									["count"] = 192,
+								},
+								["近戰"] = {
+									["count"] = 421,
+								},
+								["鑿擊"] = {
+									["count"] = 18,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 180,
+								},
+							},
+							["amount"] = 912,
+						},
+						["森林灰狼"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 8,
+						},
+						["迪菲亞碼頭工人"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 16,
+								},
+								["近戰"] = {
+									["count"] = 350,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 179,
+								},
+							},
+							["amount"] = 545,
+						},
+						["小森林熊"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 314,
+								},
+								["投擲"] = {
+									["count"] = 39,
+								},
+								["鑿擊"] = {
+									["count"] = 9,
+								},
+								["近戰"] = {
+									["count"] = 437,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 338,
+								},
+							},
+							["amount"] = 1137,
+						},
+						["迪菲亞保鏢"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 23,
+						},
+						["迪菲亞碼頭主管"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 135,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 69,
+								},
+							},
+							["amount"] = 204,
+						},
+						["狗頭人礦工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 107,
+								},
+								["投擲"] = {
+									["count"] = 4,
+								},
+								["近戰"] = {
+									["count"] = 197,
+								},
+								["鑿擊"] = {
+									["count"] = 24,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 99,
+								},
+							},
+							["amount"] = 431,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 330,
+								},
+								["背刺"] = {
+									["count"] = 328,
+								},
+								["投擲"] = {
+									["count"] = 23,
+								},
+								["近戰"] = {
+									["count"] = 939,
+								},
+								["鑿擊"] = {
+									["count"] = 106,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 453,
+								},
+							},
+							["amount"] = 2179,
+						},
+						["迪菲亞暴徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 61,
+								},
+								["近戰"] = {
+									["count"] = 175,
+								},
+								["背刺"] = {
+									["count"] = 103,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 76,
+								},
+							},
+							["amount"] = 415,
+						},
+						["金牙"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 15,
+								},
+								["近戰"] = {
+									["count"] = 75,
+								},
+								["背刺"] = {
+									["count"] = 22,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 46,
+								},
+							},
+							["amount"] = 158,
+						},
+						["森林蜘蛛"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+						["魚人潛伏者"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 45,
+								},
+								["近戰"] = {
+									["count"] = 95,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 63,
+								},
+							},
+							["amount"] = 203,
+						},
+						["河爪豺狼人前鋒"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["TimeDamage"] = 922.2800000000001,
+					["WhoDamaged"] = {
+						["癩皮狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 34,
+								},
+							},
+							["amount"] = 34,
+						},
+						["麥田魔像"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 80,
+								},
+							},
+							["amount"] = 80,
+						},
+						["迪菲亞小偷"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 48,
+								},
+							},
+							["amount"] = 48,
+						},
+						["加瑞克·護足"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 34,
+								},
+							},
+							["amount"] = 34,
+						},
+						["狗頭人地卜師"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 6,
+								},
+								["火球術"] = {
+									["count"] = 49,
+								},
+							},
+							["amount"] = 55,
+						},
+						["狗頭人礦工"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 193,
+								},
+							},
+							["amount"] = 193,
+						},
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 543,
+								},
+							},
+							["amount"] = 543,
+						},
+						["迪菲亞強盜"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 116,
+								},
+								["猛踢"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 126,
+						},
+						["隨行小豬"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 41,
+								},
+							},
+							["amount"] = 41,
+						},
+						["幼狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["公主"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 64,
+								},
+							},
+							["amount"] = 64,
+						},
+						["石牙野豬"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 248,
+								},
+							},
+							["amount"] = 248,
+						},
+						["森林灰狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 47,
+								},
+							},
+							["amount"] = 47,
+						},
+						["迪菲亞碼頭工人"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 201,
+								},
+								["猛踢"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 225,
+						},
+						["小森林熊"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 458,
+								},
+							},
+							["amount"] = 458,
+						},
+						["迪菲亞保鏢"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 79,
+								},
+							},
+							["amount"] = 79,
+						},
+						["迪菲亞碼頭主管"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 76,
+								},
+							},
+							["amount"] = 76,
+						},
+						["魚人"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 127,
+								},
+							},
+							["amount"] = 127,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 454,
+								},
+							},
+							["amount"] = 454,
+						},
+						["迪菲亞暴徒"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 74,
+								},
+							},
+							["amount"] = 74,
+						},
+						["金牙"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 73,
+								},
+							},
+							["amount"] = 73,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 11,
+						},
+						["魚人潛伏者"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 161,
+								},
+							},
+							["amount"] = 161,
+						},
+						["山狗首領"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 51,
+								},
+							},
+							["amount"] = 51,
+						},
+					},
+					["TimeDamaging"] = {
+						["癩皮狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0.24,
+								},
+								["背刺"] = {
+									["count"] = 1.5,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 1.39,
+								},
+							},
+							["amount"] = 3.129999999999999,
+						},
+						["麥田魔像"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["迪菲亞小偷"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0.96,
+								},
+								["近戰"] = {
+									["count"] = 7.59,
+								},
+								["鑿擊"] = {
+									["count"] = 0.24,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 4.68,
+								},
+							},
+							["amount"] = 13.47,
+						},
+						["加瑞克·護足"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 15.31,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 2.62,
+								},
+							},
+							["amount"] = 17.93,
+						},
+						["狗頭人地卜師"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 1.77,
+								},
+								["近戰"] = {
+									["count"] = 7.15,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 1.7,
+								},
+							},
+							["amount"] = 10.62,
+						},
+						["魚人"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 3.510000000000001,
+								},
+								["近戰"] = {
+									["count"] = 36.49,
+								},
+								["投擲"] = {
+									["count"] = 6,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 6.41,
+								},
+							},
+							["amount"] = 52.41,
+						},
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 3.8,
+								},
+								["投擲"] = {
+									["count"] = 4.5,
+								},
+								["背刺"] = {
+									["count"] = 2.9,
+								},
+								["近戰"] = {
+									["count"] = 90.90999999999997,
+								},
+								["鑿擊"] = {
+									["count"] = 3.2,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 28.07,
+								},
+							},
+							["amount"] = 133.38,
+						},
+						["迪菲亞強盜"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 1.48,
+								},
+								["近戰"] = {
+									["count"] = 29.01,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 5.79,
+								},
+							},
+							["amount"] = 36.28000000000002,
+						},
+						["隨行小豬"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 9.870000000000001,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 1.97,
+								},
+							},
+							["amount"] = 11.84,
+						},
+						["公主"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 14.31,
+								},
+								["背刺"] = {
+									["count"] = 1.5,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 1.76,
+								},
+							},
+							["amount"] = 17.57,
+						},
+						["石牙野豬"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 5.28,
+								},
+								["背刺"] = {
+									["count"] = 12,
+								},
+								["近戰"] = {
+									["count"] = 65.03,
+								},
+								["鑿擊"] = {
+									["count"] = 1.61,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 11.97,
+								},
+							},
+							["amount"] = 95.89,
+						},
+						["森林灰狼"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["迪菲亞碼頭工人"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 1.5,
+								},
+								["近戰"] = {
+									["count"] = 32.57000000000001,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 4.75,
+								},
+							},
+							["amount"] = 38.82000000000001,
+						},
+						["小森林熊"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 5.54,
+								},
+								["投擲"] = {
+									["count"] = 14.71,
+								},
+								["鑿擊"] = {
+									["count"] = 1.5,
+								},
+								["近戰"] = {
+									["count"] = 66.77000000000001,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 16.14,
+								},
+							},
+							["amount"] = 104.66,
+						},
+						["迪菲亞保鏢"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 5.35,
+								},
+							},
+							["amount"] = 5.35,
+						},
+						["迪菲亞碼頭主管"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 10.98,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 2.14,
+								},
+							},
+							["amount"] = 13.12,
+						},
+						["狗頭人礦工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 3.62,
+								},
+								["投擲"] = {
+									["count"] = 3,
+								},
+								["近戰"] = {
+									["count"] = 32.38,
+								},
+								["鑿擊"] = {
+									["count"] = 3.28,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 5.76,
+								},
+							},
+							["amount"] = 48.04,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 14.25,
+								},
+								["背刺"] = {
+									["count"] = 15.76,
+								},
+								["投擲"] = {
+									["count"] = 9,
+								},
+								["近戰"] = {
+									["count"] = 150.96,
+								},
+								["鑿擊"] = {
+									["count"] = 10.58,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 24.65,
+								},
+							},
+							["amount"] = 225.2,
+						},
+						["迪菲亞暴徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 3.1,
+								},
+								["近戰"] = {
+									["count"] = 26.21,
+								},
+								["背刺"] = {
+									["count"] = 4.5,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 5.27,
+								},
+							},
+							["amount"] = 39.08000000000001,
+						},
+						["金牙"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0.66,
+								},
+								["近戰"] = {
+									["count"] = 14.18,
+								},
+								["背刺"] = {
+									["count"] = 1.5,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 1.7,
+								},
+							},
+							["amount"] = 18.04,
+						},
+						["森林蜘蛛"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["魚人潛伏者"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 2.41,
+								},
+								["近戰"] = {
+									["count"] = 25.23,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 3.810000000000001,
+								},
+							},
+							["amount"] = 31.45,
+						},
+						["河爪豺狼人前鋒"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["TimeSpent"] = {
+						["癩皮狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0.24,
+								},
+								["背刺"] = {
+									["count"] = 1.5,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 1.39,
+								},
+							},
+							["amount"] = 3.129999999999999,
+						},
+						["麥田魔像"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["迪菲亞小偷"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0.96,
+								},
+								["近戰"] = {
+									["count"] = 7.59,
+								},
+								["鑿擊"] = {
+									["count"] = 0.24,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 4.68,
+								},
+							},
+							["amount"] = 13.47,
+						},
+						["加瑞克·護足"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 15.31,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 2.62,
+								},
+							},
+							["amount"] = 17.93,
+						},
+						["狗頭人地卜師"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 1.77,
+								},
+								["近戰"] = {
+									["count"] = 7.15,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 1.7,
+								},
+							},
+							["amount"] = 10.62,
+						},
+						["魚人"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 3.510000000000001,
+								},
+								["近戰"] = {
+									["count"] = 36.49,
+								},
+								["投擲"] = {
+									["count"] = 6,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 6.41,
+								},
+							},
+							["amount"] = 52.41,
+						},
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 3.8,
+								},
+								["投擲"] = {
+									["count"] = 4.5,
+								},
+								["背刺"] = {
+									["count"] = 2.9,
+								},
+								["近戰"] = {
+									["count"] = 90.90999999999997,
+								},
+								["鑿擊"] = {
+									["count"] = 3.2,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 28.07,
+								},
+							},
+							["amount"] = 133.38,
+						},
+						["迪菲亞強盜"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 1.48,
+								},
+								["近戰"] = {
+									["count"] = 29.01,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 5.79,
+								},
+							},
+							["amount"] = 36.28000000000002,
+						},
+						["隨行小豬"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 9.870000000000001,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 1.97,
+								},
+							},
+							["amount"] = 11.84,
+						},
+						["公主"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 14.31,
+								},
+								["背刺"] = {
+									["count"] = 1.5,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 1.76,
+								},
+							},
+							["amount"] = 17.57,
+						},
+						["石牙野豬"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 5.28,
+								},
+								["背刺"] = {
+									["count"] = 12,
+								},
+								["近戰"] = {
+									["count"] = 65.03,
+								},
+								["鑿擊"] = {
+									["count"] = 1.61,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 11.97,
+								},
+							},
+							["amount"] = 95.89,
+						},
+						["森林灰狼"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["迪菲亞碼頭工人"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 1.5,
+								},
+								["近戰"] = {
+									["count"] = 32.57000000000001,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 4.75,
+								},
+							},
+							["amount"] = 38.82000000000001,
+						},
+						["迪菲亞保鏢"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 5.35,
+								},
+							},
+							["amount"] = 5.35,
+						},
+						["小森林熊"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 5.54,
+								},
+								["投擲"] = {
+									["count"] = 14.71,
+								},
+								["鑿擊"] = {
+									["count"] = 1.5,
+								},
+								["近戰"] = {
+									["count"] = 66.77000000000001,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 16.14,
+								},
+							},
+							["amount"] = 104.66,
+						},
+						["迪菲亞碼頭主管"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 10.98,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 2.14,
+								},
+							},
+							["amount"] = 13.12,
+						},
+						["特变电工"] = {
+							["Details"] = {
+								["治療藥水"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["狗頭人礦工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 3.62,
+								},
+								["投擲"] = {
+									["count"] = 3,
+								},
+								["近戰"] = {
+									["count"] = 32.38,
+								},
+								["鑿擊"] = {
+									["count"] = 3.28,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 5.76,
+								},
+							},
+							["amount"] = 48.04,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 14.25,
+								},
+								["背刺"] = {
+									["count"] = 15.76,
+								},
+								["投擲"] = {
+									["count"] = 9,
+								},
+								["近戰"] = {
+									["count"] = 150.96,
+								},
+								["鑿擊"] = {
+									["count"] = 10.58,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 24.65,
+								},
+							},
+							["amount"] = 225.2,
+						},
+						["迪菲亞暴徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 3.1,
+								},
+								["近戰"] = {
+									["count"] = 26.21,
+								},
+								["背刺"] = {
+									["count"] = 4.5,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 5.27,
+								},
+							},
+							["amount"] = 39.08000000000001,
+						},
+						["金牙"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0.66,
+								},
+								["近戰"] = {
+									["count"] = 14.18,
+								},
+								["背刺"] = {
+									["count"] = 1.5,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 1.7,
+								},
+							},
+							["amount"] = 18.04,
+						},
+						["森林蜘蛛"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["魚人潛伏者"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 2.41,
+								},
+								["近戰"] = {
+									["count"] = 25.23,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 3.810000000000001,
+								},
+							},
+							["amount"] = 31.45,
+						},
+						["河爪豺狼人前鋒"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["CCBroken"] = {
+						["悶棍 (Melee)"] = {
+							["Details"] = {
+								["迪菲亞碼頭主管"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+				},
+				["Fight5"] = {
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ActiveTime"] = 6.739999999999999,
+					["PartialResist"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+					},
+					["TimeDamaging"] = {
+						["癩皮狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["加瑞克·護足"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小森林熊"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["魚人"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞暴徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞強盜"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 6.329999999999999,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0.41,
+								},
+							},
+							["amount"] = 6.739999999999999,
+						},
+						["河爪豺狼人前鋒"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人礦工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeSpent"] = {
+						["癩皮狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["加瑞克·護足"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小森林熊"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["魚人"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞暴徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞強盜"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 6.329999999999999,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0.41,
+								},
+							},
+							["amount"] = 6.739999999999999,
+						},
+						["河爪豺狼人前鋒"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人礦工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 29,
+					["Attacks"] = {
+						["剔骨"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["背刺"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["投擲"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["近戰"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 28,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 65,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit (被格擋)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 65,
+						},
+						["鑿擊"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["邪惡攻擊"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 30,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 54,
+								},
+								["Hit (被格擋)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 49,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 49,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 103,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 65,
+						["Physical"] = 103,
+					},
+					["PartialAbsorb"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["癩皮狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["加瑞克·護足"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小森林熊"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["魚人"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞暴徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞強盜"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 65,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 103,
+								},
+							},
+							["amount"] = 168,
+						},
+						["河爪豺狼人前鋒"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人礦工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 6.739999999999999,
+					["WhoDamaged"] = {
+						["癩皮狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["加瑞克·護足"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小森林熊"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["魚人"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞暴徒"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞強盜"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 29,
+								},
+							},
+							["amount"] = 29,
+						},
+						["狗頭人礦工"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["幼狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 29,
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["Damage"] = 168,
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Physical"] = 0,
+						["Melee"] = 0,
+						["Fire"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["火球術"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["近戰"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["冰凍"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["石牙野豬"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞小偷"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人地卜師"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["火球術"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人礦工"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞強盜"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["魚人"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["火球術"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["近戰"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["冰凍"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["石牙野豬"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞小偷"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人地卜師"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人礦工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["森林蜘蛛"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞強盜"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["魚人"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["剔骨"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["背刺"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["投擲"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["近戰"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (被格擋)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["鑿擊"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["邪惡攻擊"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["石牙野豬"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞小偷"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人地卜師"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人礦工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["森林蜘蛛"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞強盜"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["魚人"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["石牙野豬"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞小偷"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人地卜師"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人礦工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["森林蜘蛛"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞強盜"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["魚人"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 43,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 43,
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 9,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["猛踢"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 9,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["石牙野豬"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞碼頭工人"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["猛踢"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小森林熊"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 43,
+								},
+							},
+							["amount"] = 43,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞暴徒"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["金牙"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["隨行小豬"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["魚人潛伏者"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["公主"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["TimeHealing"] = {
+						["特变电工"] = {
+							["Details"] = {
+								["治療藥水"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 1.5,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["特变电工"] = {
+							["Details"] = {
+								["治療藥水"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
+						["猛踢"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["石牙野豬"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["特变电工"] = {
+							["Details"] = {
+								["治療藥水"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞碼頭工人"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小森林熊"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["金牙"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["隨行小豬"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["魚人潛伏者"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["公主"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["治療藥水"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["特变电工"] = {
+							["Details"] = {
+								["治療藥水"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["剔骨"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (被格擋)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["背刺"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["投擲"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["近戰"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (被格擋)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["鑿擊"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 9,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 9,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 9,
+						},
+						["邪惡攻擊"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["石牙野豬"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞碼頭工人"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小森林熊"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["金牙"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["隨行小豬"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["魚人潛伏者"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["公主"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 1.5,
+					["TimeDamaging"] = {
+						["石牙野豬"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞碼頭工人"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小森林熊"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["金牙"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["隨行小豬"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["魚人潛伏者"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["公主"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 18,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crushing"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 18,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["石牙野豬"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["癩皮狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 11,
+						},
+						["麥田魔像"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞小偷"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["小森林熊"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人礦工"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞暴徒"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["魚人"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["石牙野豬"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["魚人"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞暴徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人礦工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小森林熊"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["麥田魔像"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["剔骨"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["背刺"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["投擲"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["近戰"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (被格擋)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["鑿擊"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["邪惡攻擊"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["石牙野豬"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["魚人"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞暴徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人礦工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小森林熊"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["麥田魔像"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["石牙野豬"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["魚人"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞暴徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人礦工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小森林熊"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["麥田魔像"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 43,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 43,
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 9,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["猛踢"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 9,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["石牙野豬"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞碼頭工人"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["猛踢"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小森林熊"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 43,
+								},
+							},
+							["amount"] = 43,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞暴徒"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["金牙"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["隨行小豬"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["魚人潛伏者"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["公主"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["TimeHealing"] = {
+						["特变电工"] = {
+							["Details"] = {
+								["治療藥水"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 1.5,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["特变电工"] = {
+							["Details"] = {
+								["治療藥水"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
+						["猛踢"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["石牙野豬"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["特变电工"] = {
+							["Details"] = {
+								["治療藥水"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞碼頭工人"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小森林熊"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["金牙"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["隨行小豬"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["魚人潛伏者"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["公主"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["治療藥水"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["特变电工"] = {
+							["Details"] = {
+								["治療藥水"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["剔骨"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (被格擋)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["背刺"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["投擲"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["近戰"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (被格擋)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["鑿擊"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 9,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 9,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 9,
+						},
+						["邪惡攻擊"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["石牙野豬"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞碼頭工人"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小森林熊"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["金牙"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["隨行小豬"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["魚人潛伏者"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["公主"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 1.5,
+					["TimeDamaging"] = {
+						["石牙野豬"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞碼頭工人"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小森林熊"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["金牙"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["隨行小豬"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["魚人潛伏者"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["公主"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 79,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 7,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 79,
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 23,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 14,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 0,
+						},
+						["猛踢"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 23,
+						["Physical"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Block"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["石牙野豬"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["癩皮狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞保鏢"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 79,
+								},
+							},
+							["amount"] = 79,
+						},
+						["森林灰狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小森林熊"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞強盜"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["猛踢"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞暴徒"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 4,
+						["Physical"] = 0,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 5.35,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 14,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 14,
+						},
+						["猛踢"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["石牙野豬"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞暴徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞保鏢"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 5.35,
+								},
+							},
+							["amount"] = 5.35,
+						},
+						["迪菲亞強盜"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小森林熊"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["剔骨"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["背刺"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["投擲"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["近戰"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 18,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 18,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 5,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 5,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit (被格擋)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Block"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 23,
+						},
+						["鑿擊"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["邪惡攻擊"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (被格擋)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["石牙野豬"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞暴徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞保鏢"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 23,
+						},
+						["迪菲亞強盜"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小森林熊"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 5.35,
+					["TimeDamaging"] = {
+						["石牙野豬"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞暴徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞保鏢"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 5.35,
+								},
+							},
+							["amount"] = 5.35,
+						},
+						["迪菲亞強盜"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小森林熊"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["覓食的灰狼"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 76,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 76,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 204,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 135,
+						["Physical"] = 69,
+					},
+					["CCBroken"] = {
+						["悶棍 (Melee)"] = {
+							["Details"] = {
+								["迪菲亞碼頭主管"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 3,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 15,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Block"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["石牙野豬"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["森林灰狼"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小森林熊"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人礦工"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞暴徒"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞碼頭主管"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 76,
+								},
+							},
+							["amount"] = 76,
+						},
+						["魚人"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["山狗首領"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+						["Physical"] = 5,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 13.12,
+					["CCBreak"] = 1,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+						["近戰"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 6,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["石牙野豬"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["魚人"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞暴徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞碼頭主管"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 10.98,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 2.14,
+								},
+							},
+							["amount"] = 13.12,
+						},
+						["狗頭人礦工"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小森林熊"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["森林灰狼"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["剔骨"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["背刺"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["投擲"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["近戰"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 25,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 50,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 24,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 67,
+								},
+								["Hit (被格擋)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 11,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 18,
+								},
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 135,
+						},
+						["鑿擊"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["邪惡攻擊"] = {
+							["Details"] = {
+								["Hit (被格擋)"] = {
+									["max"] = 23,
+									["min"] = 23,
+									["count"] = 1,
+									["amount"] = 23,
+								},
+								["Hit"] = {
+									["max"] = 23,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 46,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 69,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["石牙野豬"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["魚人"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞暴徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞碼頭主管"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 135,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 69,
+								},
+							},
+							["amount"] = 204,
+						},
+						["狗頭人礦工"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小森林熊"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["森林灰狼"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 13.12,
+					["TimeDamaging"] = {
+						["石牙野豬"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["魚人"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["狗頭人隧道工"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["背刺"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞暴徒"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["迪菲亞碼頭主管"] = {
+							["Details"] = {
+								["近戰"] = {
+									["count"] = 10.98,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 2.14,
+								},
+							},
+							["amount"] = 13.12,
+						},
+						["狗頭人礦工"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小森林熊"] = {
+							["Details"] = {
+								["剔骨"] = {
+									["count"] = 0,
+								},
+								["近戰"] = {
+									["count"] = 0,
+								},
+								["投擲"] = {
+									["count"] = 0,
+								},
+								["邪惡攻擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["森林灰狼"] = {
+							["Details"] = {
+								["鑿擊"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+			},
+			["NextEventNum"] = 32,
+			["LastDamageTime"] = 53206.407,
+			["LastEvents"] = {
+				"特变电工 近戰 迪菲亞碼頭主管 Hit -5 (Physical)", -- [1]
+				"迪菲亞碼頭主管 近戰 特变电工 Miss (1)", -- [2]
+				"特变电工 近戰 迪菲亞碼頭主管 Parry (1)", -- [3]
+				"特变电工 近戰 迪菲亞碼頭主管 Hit -5 (Physical)", -- [4]
+				"迪菲亞碼頭主管 近戰 特变电工 Hit -12 (Physical)", -- [5]
+				"特变电工 邪惡攻擊 迪菲亞碼頭主管 Hit -23 (Physical)", -- [6]
+				"特变电工 近戰 迪菲亞碼頭主管 Crit -7 (Physical)", -- [7]
+				"特变电工 近戰 迪菲亞碼頭主管 Hit -24 (Physical)", -- [8]
+				"迪菲亞保鏢 近戰 特变电工 Hit -12 (Physical)", -- [9]
+				"特变电工 近戰 迪菲亞保鏢 Glancing -18 (Physical)", -- [10]
+				"特变电工 近戰 迪菲亞保鏢 Dodge (1)", -- [11]
+				"迪菲亞保鏢 近戰 特变电工 Dodge (1)", -- [12]
+				"迪菲亞保鏢 近戰 特变电工 Hit -13 (Physical)", -- [13]
+				"迪菲亞保鏢 近戰 特变电工 Hit -14 (Physical)", -- [14]
+				"特变电工 近戰 迪菲亞保鏢 Block (1)", -- [15]
+				"迪菲亞保鏢 近戰 特变电工 Dodge (1)", -- [16]
+				"迪菲亞保鏢 近戰 特变电工 Dodge (1)", -- [17]
+				"迪菲亞保鏢 近戰 特变电工 Miss (1)", -- [18]
+				"特变电工 近戰 迪菲亞保鏢 Hit -5 (Physical)", -- [19]
+				"迪菲亞保鏢 近戰 特变电工 Hit -14 (Physical)", -- [20]
+				"迪菲亞保鏢 近戰 特变电工 Dodge (1)", -- [21]
+				"迪菲亞保鏢 近戰 特变电工 Dodge (1)", -- [22]
+				"迪菲亞保鏢 近戰 特变电工 Dodge (1)", -- [23]
+				"迪菲亞保鏢 近戰 特变电工 Dodge (1)", -- [24]
+				"迪菲亞保鏢 近戰 特变电工 Hit -13 (Physical)", -- [25]
+				"迪菲亞保鏢 近戰 特变电工 Hit -13 (Physical)", -- [26]
+				"小森林熊 近戰 特变电工 Hit -13 (Physical)", -- [27]
+				"小森林熊 近戰 特变电工 Hit -17 (Physical)", -- [28]
+				"小森林熊 近戰 特变电工 Dodge (1)", -- [29]
+				"小森林熊 近戰 特变电工 Hit -13 (Physical)", -- [30]
+				"特变电工 鑿擊 小森林熊 Hit -9 (Physical)", -- [31]
+				"癩皮狼 近戰 特变电工 Hit -5 (Physical)", -- [32]
+				"癩皮狼 近戰 特变电工 Hit -6 (Physical)", -- [33]
+				"癩皮狼 近戰 特变电工 Miss (1)", -- [34]
+				"特变电工 近戰 迪菲亞碼頭主管 Miss (1)", -- [35]
+				"特变电工 近戰 迪菲亞碼頭主管 Crit -11 (Physical)", -- [36]
+				"迪菲亞碼頭主管 近戰 特变电工 Hit -15 (Physical)", -- [37]
+				"特变电工 近戰 迪菲亞碼頭主管 Dodge (1)", -- [38]
+				"特变电工 邪惡攻擊 迪菲亞碼頭主管 Hit -23 (Physical)", -- [39]
+				"特变电工 近戰 迪菲亞碼頭主管 Hit -21 (Physical)", -- [40]
+				"迪菲亞碼頭主管 近戰 特变电工 Hit -12 (Physical)", -- [41]
+				"特变电工 邪惡攻擊 迪菲亞碼頭主管 Hit -23 (Physical)", -- [42]
+				"特变电工 近戰 迪菲亞碼頭主管 Hit -4 (Physical)", -- [43]
+				"特变电工 近戰 迪菲亞碼頭主管 Glancing -25 (Physical)", -- [44]
+				"特变电工 近戰 迪菲亞碼頭主管 Hit -5 (Physical)", -- [45]
+				"迪菲亞碼頭主管 近戰 特变电工 Crit -23 (Physical)", -- [46]
+				"特变电工 近戰 迪菲亞碼頭主管 Glancing -4 (Physical)", -- [47]
+				"特变电工 近戰 迪菲亞碼頭主管 Glancing -21 (Physical)", -- [48]
+				"迪菲亞碼頭主管 近戰 特变电工 Hit -14 (Physical)", -- [49]
+				"特变电工 近戰 迪菲亞碼頭主管 Hit -3 (Physical)", -- [50]
+			},
+			["Name"] = "特变电工",
+			["LastEventTimes"] = {
+				53075.772, -- [1]
+				53076.185, -- [2]
+				53076.30800000001, -- [3]
+				53077.036, -- [4]
+				53077.366, -- [5]
+				53078.066, -- [6]
+				53078.243, -- [7]
+				53078.474, -- [8]
+				53099.301, -- [9]
+				53099.301, -- [10]
+				53100.151, -- [11]
+				53100.898, -- [12]
+				53101.30800000001, -- [13]
+				53101.41600000001, -- [14]
+				53101.653, -- [15]
+				53103.314, -- [16]
+				53103.414, -- [17]
+				53103.414, -- [18]
+				53104.68, -- [19]
+				53105.312, -- [20]
+				53105.424, -- [21]
+				53105.424, -- [22]
+				53107.32, -- [23]
+				53109.324, -- [24]
+				53111.32, -- [25]
+				53113.311, -- [26]
+				53197.249, -- [27]
+				53199.751, -- [28]
+				53202.246, -- [29]
+				53206.261, -- [30]
+				53206.407, -- [31]
+				52917.658, -- [32]
+				52919.374, -- [33]
+				52921, -- [34]
+				53066.856, -- [35]
+				53067.62, -- [36]
+				53068.137, -- [37]
+				53069.113, -- [38]
+				53069.34400000001, -- [39]
+				53069.464, -- [40]
+				53070.145, -- [41]
+				53070.343, -- [42]
+				53070.539, -- [43]
+				53071.964, -- [44]
+				53071.964, -- [45]
+				53072.151, -- [46]
+				53073.261, -- [47]
+				53074.138, -- [48]
+				53074.138, -- [49]
+				53074.531, -- [50]
+			},
+			["LastEventIncoming"] = {
+				false, -- [1]
+				true, -- [2]
+				false, -- [3]
+				false, -- [4]
+				true, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				true, -- [9]
+				false, -- [10]
+				false, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+				false, -- [15]
+				true, -- [16]
+				true, -- [17]
+				true, -- [18]
+				false, -- [19]
+				true, -- [20]
+				true, -- [21]
+				true, -- [22]
+				true, -- [23]
+				true, -- [24]
+				true, -- [25]
+				true, -- [26]
+				true, -- [27]
+				true, -- [28]
+				true, -- [29]
+				true, -- [30]
+				false, -- [31]
+				true, -- [32]
+				true, -- [33]
+				true, -- [34]
+				false, -- [35]
+				false, -- [36]
+				true, -- [37]
+				false, -- [38]
+				false, -- [39]
+				false, -- [40]
+				true, -- [41]
+				false, -- [42]
+				false, -- [43]
+				false, -- [44]
+				false, -- [45]
+				true, -- [46]
+				false, -- [47]
+				false, -- [48]
+				true, -- [49]
+				false, -- [50]
+			},
+			["TimeLast"] = {
+				["TimeHeal"] = 52207.385,
+				["OVERALL"] = 53206.378,
+				["DamageTaken"] = 53205.382,
+				["HealingTaken"] = 52207.385,
+				["TimeDamage"] = 53206.378,
+				["CCBreak"] = 53067.382,
+				["Healing"] = 52207.385,
+				["ActiveTime"] = 53206.378,
+				["Damage"] = 53206.378,
+			},
+			["LastEventHealthMax"] = {
+				225, -- [1]
+				225, -- [2]
+				225, -- [3]
+				225, -- [4]
+				225, -- [5]
+				225, -- [6]
+				225, -- [7]
+				225, -- [8]
+				225, -- [9]
+				225, -- [10]
+				225, -- [11]
+				225, -- [12]
+				225, -- [13]
+				225, -- [14]
+				225, -- [15]
+				225, -- [16]
+				225, -- [17]
+				225, -- [18]
+				225, -- [19]
+				225, -- [20]
+				225, -- [21]
+				225, -- [22]
+				225, -- [23]
+				225, -- [24]
+				225, -- [25]
+				225, -- [26]
+				225, -- [27]
+				225, -- [28]
+				225, -- [29]
+				225, -- [30]
+				225, -- [31]
+				225, -- [32]
+				225, -- [33]
+				225, -- [34]
+				225, -- [35]
+				225, -- [36]
+				225, -- [37]
+				225, -- [38]
+				225, -- [39]
+				225, -- [40]
+				225, -- [41]
+				225, -- [42]
+				225, -- [43]
+				225, -- [44]
+				225, -- [45]
+				225, -- [46]
+				225, -- [47]
+				225, -- [48]
+				225, -- [49]
+				225, -- [50]
+			},
+			["LastActive"] = 53206.378,
+		},
+	},
+	["FightNum"] = 71,
+	["CombatTimes"] = {
+		{
+			46544.892, -- [1]
+			46570.899, -- [2]
+			"22:41:10", -- [3]
+			"22:41:35", -- [4]
+			"迪菲亞暴徒", -- [5]
+		}, -- [1]
+		{
+			46584.9, -- [1]
+			46601.897, -- [2]
+			"22:41:49", -- [3]
+			"22:42:06", -- [4]
+			"迪菲亞暴徒", -- [5]
+		}, -- [2]
+		{
+			46609.906, -- [1]
+			46618.898, -- [2]
+			"22:42:14", -- [3]
+			"22:42:23", -- [4]
+			"迪菲亞暴徒", -- [5]
+		}, -- [3]
+		{
+			46625.903, -- [1]
+			46635.893, -- [2]
+			"22:42:30", -- [3]
+			"22:42:40", -- [4]
+			"迪菲亞暴徒", -- [5]
+		}, -- [4]
+		{
+			46698.899, -- [1]
+			46719.896, -- [2]
+			"22:43:44", -- [3]
+			"22:44:04", -- [4]
+			"迪菲亞暴徒", -- [5]
+		}, -- [5]
+		{
+			46991.899, -- [1]
+			47004.907, -- [2]
+			"22:48:36", -- [3]
+			"22:48:49", -- [4]
+			"迪菲亞小偷", -- [5]
+		}, -- [6]
+		{
+			47014.896, -- [1]
+			47029.896, -- [2]
+			"22:49:00", -- [3]
+			"22:49:14", -- [4]
+			"癩皮狼", -- [5]
+		}, -- [7]
+		{
+			47143.895, -- [1]
+			47154.895, -- [2]
+			"22:51:09", -- [3]
+			"22:51:19", -- [4]
+			"石牙野豬", -- [5]
+		}, -- [8]
+		{
+			47158.903, -- [1]
+			47173.907, -- [2]
+			"22:51:23", -- [3]
+			"22:51:38", -- [4]
+			"石牙野豬", -- [5]
+		}, -- [9]
+		{
+			47177.907, -- [1]
+			47192.894, -- [2]
+			"22:51:43", -- [3]
+			"22:51:57", -- [4]
+			"石牙野豬", -- [5]
+		}, -- [10]
+		{
+			47203.895, -- [1]
+			47221.893, -- [2]
+			"22:52:09", -- [3]
+			"22:52:26", -- [4]
+			"石牙野豬", -- [5]
+		}, -- [11]
+		{
+			47227.899, -- [1]
+			47241.905, -- [2]
+			"22:52:33", -- [3]
+			"22:52:46", -- [4]
+			"石牙野豬", -- [5]
+		}, -- [12]
+		{
+			47300.901, -- [1]
+			47306.902, -- [2]
+			"22:53:46", -- [3]
+			"22:53:51", -- [4]
+			"狗頭人隧道工", -- [5]
+		}, -- [13]
+		{
+			47311.893, -- [1]
+			47326.899, -- [2]
+			"22:53:57", -- [3]
+			"22:54:11", -- [4]
+			"狗頭人隧道工", -- [5]
+		}, -- [14]
+		{
+			47331.899, -- [1]
+			47348.894, -- [2]
+			"22:54:17", -- [3]
+			"22:54:33", -- [4]
+			"狗頭人隧道工", -- [5]
+		}, -- [15]
+		{
+			47352.897, -- [1]
+			47383.898, -- [2]
+			"22:54:38", -- [3]
+			"22:55:08", -- [4]
+			"狗頭人隧道工", -- [5]
+		}, -- [16]
+		{
+			47391.902, -- [1]
+			47402.903, -- [2]
+			"22:55:17", -- [3]
+			"22:55:27", -- [4]
+			"狗頭人隧道工", -- [5]
+		}, -- [17]
+		{
+			47407.897, -- [1]
+			47416.893, -- [2]
+			"22:55:33", -- [3]
+			"22:55:41", -- [4]
+			"狗頭人隧道工", -- [5]
+		}, -- [18]
+		{
+			47424.901, -- [1]
+			47436.903, -- [2]
+			"22:55:50", -- [3]
+			"22:56:01", -- [4]
+			"狗頭人隧道工", -- [5]
+		}, -- [19]
+		{
+			47441.904, -- [1]
+			47455.901, -- [2]
+			"22:56:07", -- [3]
+			"22:56:20", -- [4]
+			"狗頭人隧道工", -- [5]
+		}, -- [20]
+		{
+			47459.899, -- [1]
+			47470.897, -- [2]
+			"22:56:25", -- [3]
+			"22:56:35", -- [4]
+			"狗頭人隧道工", -- [5]
+		}, -- [21]
+		{
+			47476.896, -- [1]
+			47491.902, -- [2]
+			"22:56:42", -- [3]
+			"22:56:56", -- [4]
+			"狗頭人隧道工", -- [5]
+		}, -- [22]
+		{
+			47499.903, -- [1]
+			47512.893, -- [2]
+			"22:57:05", -- [3]
+			"22:57:17", -- [4]
+			"狗頭人隧道工", -- [5]
+		}, -- [23]
+		{
+			47517.894, -- [1]
+			47529.894, -- [2]
+			"22:57:23", -- [3]
+			"22:57:34", -- [4]
+			"狗頭人隧道工", -- [5]
+		}, -- [24]
+		{
+			47536.901, -- [1]
+			47548.901, -- [2]
+			"22:57:42", -- [3]
+			"22:57:53", -- [4]
+			"狗頭人隧道工", -- [5]
+		}, -- [25]
+		{
+			47555.892, -- [1]
+			47567.897, -- [2]
+			"22:58:01", -- [3]
+			"22:58:12", -- [4]
+			"狗頭人隧道工", -- [5]
+		}, -- [26]
+		{
+			47575.921, -- [1]
+			47589.896, -- [2]
+			"22:58:21", -- [3]
+			"22:58:34", -- [4]
+			"狗頭人隧道工", -- [5]
+		}, -- [27]
+		{
+			47597.902, -- [1]
+			47608.904, -- [2]
+			"22:58:43", -- [3]
+			"22:58:53", -- [4]
+			"狗頭人隧道工", -- [5]
+		}, -- [28]
+		{
+			47611.9, -- [1]
+			47626.903, -- [2]
+			"22:58:57", -- [3]
+			"22:59:11", -- [4]
+			"狗頭人隧道工", -- [5]
+		}, -- [29]
+		{
+			47631.903, -- [1]
+			47649.902, -- [2]
+			"22:59:16", -- [3]
+			"22:59:34", -- [4]
+			"狗頭人隧道工", -- [5]
+		}, -- [30]
+		{
+			47661.898, -- [1]
+			47687.895, -- [2]
+			"22:59:47", -- [3]
+			"23:00:12", -- [4]
+			"狗頭人隧道工", -- [5]
+		}, -- [31]
+		{
+			47694.894, -- [1]
+			47706.893, -- [2]
+			"23:00:20", -- [3]
+			"23:00:31", -- [4]
+			"石牙野豬", -- [5]
+		}, -- [32]
+		{
+			47710.899, -- [1]
+			47719.905, -- [2]
+			"23:00:36", -- [3]
+			"23:00:44", -- [4]
+			"石牙野豬", -- [5]
+		}, -- [33]
+		{
+			47724.903, -- [1]
+			47734.899, -- [2]
+			"23:00:50", -- [3]
+			"23:00:59", -- [4]
+			"石牙野豬", -- [5]
+		}, -- [34]
+		{
+			47973.896, -- [1]
+			47991.901, -- [2]
+			"23:04:59", -- [3]
+			"23:05:16", -- [4]
+			"金牙", -- [5]
+		}, -- [35]
+		{
+			48325.903, -- [1]
+			48344.904, -- [2]
+			"23:10:51", -- [3]
+			"23:11:09", -- [4]
+			"魚人", -- [5]
+		}, -- [36]
+		{
+			48354.897, -- [1]
+			48368.906, -- [2]
+			"23:11:20", -- [3]
+			"23:11:33", -- [4]
+			"魚人", -- [5]
+		}, -- [37]
+		{
+			48373.893, -- [1]
+			48385.894, -- [2]
+			"23:11:39", -- [3]
+			"23:11:50", -- [4]
+			"魚人", -- [5]
+		}, -- [38]
+		{
+			48390.893, -- [1]
+			48406.907, -- [2]
+			"23:11:56", -- [3]
+			"23:12:11", -- [4]
+			"魚人", -- [5]
+		}, -- [39]
+		{
+			48436.894, -- [1]
+			48448.9, -- [2]
+			"23:12:42", -- [3]
+			"23:12:53", -- [4]
+			"癩皮狼", -- [5]
+		}, -- [40]
+		{
+			48471.904, -- [1]
+			48484.896, -- [2]
+			"23:13:17", -- [3]
+			"23:13:29", -- [4]
+			"癩皮狼", -- [5]
+		}, -- [41]
+		{
+			48504.893, -- [1]
+			48537.894, -- [2]
+			"23:13:50", -- [3]
+			"23:14:22", -- [4]
+			"狗頭人地卜師", -- [5]
+		}, -- [42]
+		{
+			48569.893, -- [1]
+			48581.899, -- [2]
+			"23:14:55", -- [3]
+			"23:15:06", -- [4]
+			"狗頭人礦工", -- [5]
+		}, -- [43]
+		{
+			48584.893, -- [1]
+			48604.895, -- [2]
+			"23:15:10", -- [3]
+			"23:15:29", -- [4]
+			"狗頭人礦工", -- [5]
+		}, -- [44]
+		{
+			48655.903, -- [1]
+			48705.901, -- [2]
+			"23:16:20", -- [3]
+			"23:17:10", -- [4]
+			"狗頭人礦工", -- [5]
+		}, -- [45]
+		{
+			48762.9, -- [1]
+			48775.897, -- [2]
+			"23:18:08", -- [3]
+			"23:18:20", -- [4]
+			"森林灰狼", -- [5]
+		}, -- [46]
+		{
+			48924.894, -- [1]
+			48958.894, -- [2]
+			"23:20:50", -- [3]
+			"23:21:23", -- [4]
+			"魚人潛伏者", -- [5]
+		}, -- [47]
+		{
+			49057.896, -- [1]
+			49070.895, -- [2]
+			"23:23:02", -- [3]
+			"23:23:15", -- [4]
+			"覓食的灰狼", -- [5]
+		}, -- [48]
+		{
+			49108.893, -- [1]
+			49130.894, -- [2]
+			"23:23:54", -- [3]
+			"23:24:15", -- [4]
+			"覓食的灰狼", -- [5]
+		}, -- [49]
+		{
+			49223.899, -- [1]
+			49243.893, -- [2]
+			"23:25:49", -- [3]
+			"23:26:08", -- [4]
+			"覓食的灰狼", -- [5]
+		}, -- [50]
+		{
+			49277.897, -- [1]
+			49300.898, -- [2]
+			"23:26:43", -- [3]
+			"23:27:05", -- [4]
+			"小森林熊", -- [5]
+		}, -- [51]
+		{
+			49318.893, -- [1]
+			49348.895, -- [2]
+			"23:27:24", -- [3]
+			"23:27:53", -- [4]
+			"覓食的灰狼", -- [5]
+		}, -- [52]
+		{
+			49380.893, -- [1]
+			49406.894, -- [2]
+			"23:28:26", -- [3]
+			"23:28:51", -- [4]
+			"覓食的灰狼", -- [5]
+		}, -- [53]
+		{
+			49436.897, -- [1]
+			49466.898, -- [2]
+			"23:29:22", -- [3]
+			"23:29:51", -- [4]
+			"覓食的灰狼", -- [5]
+		}, -- [54]
+		{
+			49564.903, -- [1]
+			49583.902, -- [2]
+			"23:31:30", -- [3]
+			"23:31:48", -- [4]
+			"小森林熊", -- [5]
+		}, -- [55]
+		{
+			49589.897, -- [1]
+			49604.897, -- [2]
+			"23:31:54", -- [3]
+			"23:32:09", -- [4]
+			"小森林熊", -- [5]
+		}, -- [56]
+		{
+			49617.897, -- [1]
+			49639.901, -- [2]
+			"23:32:23", -- [3]
+			"23:32:44", -- [4]
+			"小森林熊", -- [5]
+		}, -- [57]
+		{
+			49687.903, -- [1]
+			49714.898, -- [2]
+			"23:33:32", -- [3]
+			"23:33:59", -- [4]
+			"小森林熊", -- [5]
+		}, -- [58]
+		{
+			49864.903, -- [1]
+			49893.901, -- [2]
+			"23:36:30", -- [3]
+			"23:36:58", -- [4]
+			"公主", -- [5]
+		}, -- [59]
+		{
+			50178.896, -- [1]
+			50195.904, -- [2]
+			"23:41:44", -- [3]
+			"23:42:00", -- [4]
+			"森林蜘蛛", -- [5]
+		}, -- [60]
+		{
+			50354.896, -- [1]
+			50370.901, -- [2]
+			"23:44:40", -- [3]
+			"23:44:55", -- [4]
+			"河爪豺狼人前鋒", -- [5]
+		}, -- [61]
+		{
+			50519.894, -- [1]
+			50530.893, -- [2]
+			"23:47:25", -- [3]
+			"23:47:35", -- [4]
+			"麥田魔像", -- [5]
+		}, -- [62]
+		{
+			51929.39, -- [1]
+			51952.377, -- [2]
+			"00:10:54", -- [3]
+			"00:11:17", -- [4]
+			"山狗首領", -- [5]
+		}, -- [63]
+		{
+			52110.38000000001, -- [1]
+			52129.381, -- [2]
+			"00:13:55", -- [3]
+			"00:14:14", -- [4]
+			"迪菲亞強盜", -- [5]
+		}, -- [64]
+		{
+			52181.386, -- [1]
+			52222.379, -- [2]
+			"00:15:07", -- [3]
+			"00:15:47", -- [4]
+			"迪菲亞碼頭工人", -- [5]
+		}, -- [65]
+		{
+			52342.388, -- [1]
+			52354.39, -- [2]
+			"00:17:48", -- [3]
+			"00:17:59", -- [4]
+			"迪菲亞強盜", -- [5]
+		}, -- [66]
+		{
+			52382.384, -- [1]
+			52389.383, -- [2]
+			"00:18:27", -- [3]
+			"00:18:34", -- [4]
+			"迪菲亞強盜", -- [5]
+		}, -- [67]
+		{
+			52908.374, -- [1]
+			52929.385, -- [2]
+			"00:27:14", -- [3]
+			"00:27:34", -- [4]
+			"迪菲亞小偷", -- [5]
+		}, -- [68]
+		{
+			53066.375, -- [1]
+			53080.377, -- [2]
+			"00:29:51", -- [3]
+			"00:30:05", -- [4]
+			"迪菲亞碼頭主管", -- [5]
+		}, -- [69]
+		{
+			53098.382, -- [1]
+			53116.388, -- [2]
+			"00:30:24", -- [3]
+			"00:30:41", -- [4]
+			"迪菲亞保鏢", -- [5]
+		}, -- [70]
+		{
+			53196.376, -- [1]
+			53223.38000000001, -- [2]
+			"00:32:02", -- [3]
+			"00:32:28", -- [4]
+			"小森林熊", -- [5]
+		}, -- [71]
+	},
+	["FoughtWho"] = {
+		"小森林熊 00:32:02-00:32:28", -- [1]
+		"迪菲亞保鏢 00:30:24-00:30:41", -- [2]
+		"迪菲亞碼頭主管 00:29:51-00:30:05", -- [3]
+		"迪菲亞小偷 00:27:14-00:27:34", -- [4]
+		"迪菲亞強盜 00:18:27-00:18:34", -- [5]
+	},
+}

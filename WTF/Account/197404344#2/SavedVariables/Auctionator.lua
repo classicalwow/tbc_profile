@@ -25,6 +25,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 	["__dbversion"] = 4,
 	["加丁_Alliance"] = {
 	},
+	["祈福_Alliance"] = {
+	},
 }
 AUCTIONATOR_LAST_SCAN_TIME = nil
 AUCTIONATOR_TOONS = {
@@ -32,6 +34,11 @@ AUCTIONATOR_TOONS = {
 		["firstSeen"] = 1657352992,
 		["guid"] = "Player-4501-04C9101E",
 		["firstVersion"] = "2.5.5-1-g17bf777",
+	},
+	["特变电工"] = {
+		["firstSeen"] = 1660226408,
+		["firstVersion"] = "2.5.5-1-g17bf777",
+		["guid"] = "Player-4778-04DBFC9E",
 	},
 }
 AUCTIONATOR_STACKING_PREFS = {

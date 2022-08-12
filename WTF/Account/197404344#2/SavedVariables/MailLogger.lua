@@ -1,9 +1,11 @@
 
 MailLoggerDB = {
 	["IgnoreItems"] = {
-		["魔法肉桂麵包"] = true,
-		["魔法晶水"] = true,
+		["魔法肉桂面包"] = true,
 		["極效治療石"] = true,
+		["魔法肉桂麵包"] = true,
+		["特效治疗石"] = true,
+		["魔法晶水"] = true,
 	},
 	["Config"] = {
 		["ShowMinimapIcon"] = true,
@@ -23,9 +25,57 @@ MailLoggerDB = {
 		["LogDays"] = 90,
 		["AltList"] = {
 			["Vscode"] = true,
+			["特变电工"] = true,
 		},
 		["LogEverything"] = false,
 	},
 	["TradeLog"] = {
+		{
+			["Date"] = "2022-08-11",
+			["TargetName"] = "连你接他",
+			["ReceiveMoney"] = 0,
+			["Time"] = "23:23:17",
+			["GiveMoney"] = 0,
+			["Location"] = "艾爾文森林",
+			["GiveItems"] = {
+			},
+			["PlayerName"] = "特变电工",
+			["ReceiveItems"] = {
+			},
+		}, -- [1]
+		{
+			["TargetName"] = "连你接他",
+			["PlayerName"] = "特变电工",
+			["Date"] = "2022-08-11",
+			["ReceiveMoney"] = 50000000,
+			["Time"] = "23:23:17",
+			["GiveMoney"] = 0,
+			["Location"] = "艾爾文森林",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff1eff00|Hitem:21841::::::::8:::::::::|h[幽紋布包]|h|r",
+					["Name"] = "幽紋布包",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff1eff00|Hitem:21841::::::::8:::::::::|h[幽紋布包]|h|r",
+					["Name"] = "幽紋布包",
+				}, -- [2]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff1eff00|Hitem:21841::::::::8:::::::::|h[幽紋布包]|h|r",
+					["Name"] = "幽紋布包",
+				}, -- [3]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff1eff00|Hitem:4766::::::::8:::::::::|h[野獸之刃]|h|r",
+					["Name"] = "野獸之刃",
+				}, -- [4]
+			},
+		}, -- [2]
 	},
 }

@@ -10,12 +10,14 @@ PawnCommon = {
 	["Debug"] = false,
 	["ColorTooltipBorder"] = true,
 	["ShowTooltipIcons"] = true,
+	["ShowSpecIcons"] = true,
+	["ShowSocketingAdvisor"] = true,
 	["Scales"] = {
 		["\"Classic\":WARRIOR2"] = {
 			["PerCharacterOptions"] = {
 			},
 			["Color"] = "c69b6d",
-			["LocalizedName"] = "戰士: 狂怒",
+			["LocalizedName"] = "战士: 狂怒",
 			["ClassID"] = 1,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
@@ -29,7 +31,7 @@ PawnCommon = {
 			["PerCharacterOptions"] = {
 			},
 			["Color"] = "3fc6ea",
-			["LocalizedName"] = "法師: 冰霜",
+			["LocalizedName"] = "法师: 冰霜",
 			["ClassID"] = 8,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
@@ -43,7 +45,7 @@ PawnCommon = {
 			["PerCharacterOptions"] = {
 			},
 			["Color"] = "8787ed",
-			["LocalizedName"] = "術士: 惡魔學識",
+			["LocalizedName"] = "术士: 恶魔学识",
 			["ClassID"] = 9,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
@@ -57,7 +59,7 @@ PawnCommon = {
 			["PerCharacterOptions"] = {
 			},
 			["Color"] = "3fc6ea",
-			["LocalizedName"] = "法師: 秘法",
+			["LocalizedName"] = "法师: 奥术",
 			["ClassID"] = 8,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
@@ -71,7 +73,7 @@ PawnCommon = {
 			["PerCharacterOptions"] = {
 			},
 			["Color"] = "3fc6ea",
-			["LocalizedName"] = "法師: 火焰",
+			["LocalizedName"] = "法师: 火焰",
 			["ClassID"] = 8,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
@@ -85,7 +87,7 @@ PawnCommon = {
 			["PerCharacterOptions"] = {
 			},
 			["Color"] = "f48cba",
-			["LocalizedName"] = "聖騎士: 防護",
+			["LocalizedName"] = "圣骑士: 防护",
 			["ClassID"] = 2,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "TANK",
@@ -99,7 +101,7 @@ PawnCommon = {
 			["PerCharacterOptions"] = {
 			},
 			["Color"] = "aad372",
-			["LocalizedName"] = "獵人: 射擊",
+			["LocalizedName"] = "猎人: 射击",
 			["ClassID"] = 3,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
@@ -113,7 +115,7 @@ PawnCommon = {
 			["PerCharacterOptions"] = {
 			},
 			["Color"] = "ffffff",
-			["LocalizedName"] = "牧師: 戒律",
+			["LocalizedName"] = "牧师: 戒律",
 			["ClassID"] = 5,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "HEALER",
@@ -127,7 +129,7 @@ PawnCommon = {
 			["PerCharacterOptions"] = {
 			},
 			["Color"] = "c69b6d",
-			["LocalizedName"] = "戰士: 防護",
+			["LocalizedName"] = "战士: 防护",
 			["ClassID"] = 1,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "TANK",
@@ -141,7 +143,7 @@ PawnCommon = {
 			["PerCharacterOptions"] = {
 			},
 			["Color"] = "8787ed",
-			["LocalizedName"] = "術士: 毀滅",
+			["LocalizedName"] = "术士: 毁灭",
 			["ClassID"] = 9,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
@@ -155,7 +157,7 @@ PawnCommon = {
 			["PerCharacterOptions"] = {
 			},
 			["Color"] = "ffffff",
-			["LocalizedName"] = "牧師: 暗影",
+			["LocalizedName"] = "牧师: 暗影",
 			["ClassID"] = 5,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
@@ -169,7 +171,7 @@ PawnCommon = {
 			["PerCharacterOptions"] = {
 			},
 			["Color"] = "0070dd",
-			["LocalizedName"] = "薩滿: 增強",
+			["LocalizedName"] = "萨满祭司: 增强",
 			["ClassID"] = 7,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
@@ -183,7 +185,7 @@ PawnCommon = {
 			["PerCharacterOptions"] = {
 			},
 			["Color"] = "aad372",
-			["LocalizedName"] = "獵人: 生存",
+			["LocalizedName"] = "猎人: 生存",
 			["ClassID"] = 3,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
@@ -197,7 +199,7 @@ PawnCommon = {
 			["PerCharacterOptions"] = {
 			},
 			["Color"] = "aad372",
-			["LocalizedName"] = "獵人: 野獸控制",
+			["LocalizedName"] = "猎人: 野兽控制",
 			["ClassID"] = 3,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
@@ -211,7 +213,7 @@ PawnCommon = {
 			["PerCharacterOptions"] = {
 			},
 			["Color"] = "c69b6d",
-			["LocalizedName"] = "戰士: 武器",
+			["LocalizedName"] = "战士: 武器",
 			["ClassID"] = 1,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
@@ -226,9 +228,12 @@ PawnCommon = {
 				["Vscode-加丁"] = {
 					["Visible"] = true,
 				},
+				["特变电工-祈福"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "fff468",
-			["LocalizedName"] = "盜賊: 刺殺",
+			["LocalizedName"] = "潜行者: 奇袭",
 			["ClassID"] = 4,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
@@ -242,7 +247,7 @@ PawnCommon = {
 			["PerCharacterOptions"] = {
 			},
 			["Color"] = "0070dd",
-			["LocalizedName"] = "薩滿: 恢復",
+			["LocalizedName"] = "萨满祭司: 恢复",
 			["ClassID"] = 7,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "HEALER",
@@ -256,7 +261,7 @@ PawnCommon = {
 			["PerCharacterOptions"] = {
 			},
 			["Color"] = "f48cba",
-			["LocalizedName"] = "聖騎士: 神聖",
+			["LocalizedName"] = "圣骑士: 神圣",
 			["ClassID"] = 2,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "HEALER",
@@ -273,9 +278,12 @@ PawnCommon = {
 				["Vscode-加丁"] = {
 					["Visible"] = true,
 				},
+				["特变电工-祈福"] = {
+					["Visible"] = true,
+				},
 			},
 			["DoNotShow1HUpgrades"] = false,
-			["LocalizedName"] = "盜賊: 副手",
+			["LocalizedName"] = "潜行者: 副手",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
@@ -286,9 +294,12 @@ PawnCommon = {
 				["Vscode-加丁"] = {
 					["Visible"] = true,
 				},
+				["特变电工-祈福"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "fff468",
-			["LocalizedName"] = "盜賊: 敏銳",
+			["LocalizedName"] = "潜行者: 敏锐",
 			["ClassID"] = 4,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
@@ -303,9 +314,12 @@ PawnCommon = {
 				["Vscode-加丁"] = {
 					["Visible"] = true,
 				},
+				["特变电工-祈福"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "fff468",
-			["LocalizedName"] = "盜賊: 戰鬥",
+			["LocalizedName"] = "潜行者: 战斗",
 			["ClassID"] = 4,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
@@ -319,7 +333,7 @@ PawnCommon = {
 			["PerCharacterOptions"] = {
 			},
 			["Color"] = "8787ed",
-			["LocalizedName"] = "術士: 痛苦",
+			["LocalizedName"] = "术士: 痛苦",
 			["ClassID"] = 9,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
@@ -333,7 +347,7 @@ PawnCommon = {
 			["PerCharacterOptions"] = {
 			},
 			["Color"] = "ff7c0a",
-			["LocalizedName"] = "德魯伊: 恢復",
+			["LocalizedName"] = "德鲁伊: 恢复",
 			["ClassID"] = 11,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "HEALER",
@@ -347,7 +361,7 @@ PawnCommon = {
 			["PerCharacterOptions"] = {
 			},
 			["Color"] = "ff7c0a",
-			["LocalizedName"] = "德魯伊: 野性戰鬥 (傷害輸出)",
+			["LocalizedName"] = "德鲁伊: 野性 (伤害输出)",
 			["ClassID"] = 11,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
@@ -361,7 +375,7 @@ PawnCommon = {
 			["PerCharacterOptions"] = {
 			},
 			["Color"] = "ff7c0a",
-			["LocalizedName"] = "德魯伊: 野性戰鬥 (坦克)",
+			["LocalizedName"] = "德鲁伊: 野性 (坦克)",
 			["ClassID"] = 11,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "TANK",
@@ -375,7 +389,7 @@ PawnCommon = {
 			["PerCharacterOptions"] = {
 			},
 			["Color"] = "ff7c0a",
-			["LocalizedName"] = "德魯伊: 平衡",
+			["LocalizedName"] = "德鲁伊: 平衡",
 			["ClassID"] = 11,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
@@ -389,7 +403,7 @@ PawnCommon = {
 			["PerCharacterOptions"] = {
 			},
 			["Color"] = "f48cba",
-			["LocalizedName"] = "聖騎士: 懲戒",
+			["LocalizedName"] = "圣骑士: 惩戒",
 			["ClassID"] = 2,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
@@ -403,7 +417,7 @@ PawnCommon = {
 			["PerCharacterOptions"] = {
 			},
 			["Color"] = "0070dd",
-			["LocalizedName"] = "薩滿: 元素",
+			["LocalizedName"] = "萨满祭司: 元素",
 			["ClassID"] = 7,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
@@ -417,7 +431,7 @@ PawnCommon = {
 			["PerCharacterOptions"] = {
 			},
 			["Color"] = "ffffff",
-			["LocalizedName"] = "牧師: 神聖",
+			["LocalizedName"] = "牧师: 神圣",
 			["ClassID"] = 5,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "HEALER",
@@ -428,8 +442,6 @@ PawnCommon = {
 			["SpecID"] = 2,
 		},
 	},
-	["ShowSocketingAdvisor"] = true,
-	["ShowSpecIcons"] = true,
 	["IgnoreGemsWhileLeveling"] = true,
 	["ButtonPosition"] = 2,
 	["ShowLootUpgradeAdvisor"] = true,

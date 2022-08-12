@@ -41,19 +41,19 @@ WIM3_Data = {
 				["autofocus"] = false,
 				["onReceive"] = true,
 			},
-			["arena"] = {
-				["keepfocus"] = false,
-				["supress"] = false,
-				["onSend"] = false,
-				["autofocus"] = false,
-				["onReceive"] = false,
-			},
 			["raid"] = {
 				["keepfocus"] = false,
 				["supress"] = true,
 				["onSend"] = true,
 				["autofocus"] = false,
 				["onReceive"] = true,
+			},
+			["arena"] = {
+				["keepfocus"] = false,
+				["supress"] = false,
+				["onSend"] = false,
+				["autofocus"] = false,
+				["onReceive"] = false,
 			},
 			["alwaysOther"] = false,
 		},
@@ -102,14 +102,14 @@ WIM3_Data = {
 				["autofocus"] = false,
 				["onReceive"] = false,
 			},
-			["arena"] = {
+			["raid"] = {
 				["keepfocus"] = false,
 				["supress"] = false,
 				["onSend"] = false,
 				["autofocus"] = false,
 				["onReceive"] = false,
 			},
-			["raid"] = {
+			["arena"] = {
 				["keepfocus"] = false,
 				["supress"] = false,
 				["onSend"] = false,
@@ -200,12 +200,12 @@ WIM3_Data = {
 			["g"] = 0,
 			["b"] = 0,
 		},
+		["useSkin"] = true,
 		["BNwispIn"] = {
 			["r"] = 0,
 			["g"] = 0.4862745098039216,
 			["b"] = 0.6549019607843137,
 		},
-		["useSkin"] = true,
 		["historyOut"] = {
 			["r"] = 0.7058823529411764,
 			["g"] = 0.7058823529411764,
@@ -302,11 +302,11 @@ WIM3_Data = {
 		},
 	},
 	["ignoreArrowKeys"] = true,
+	["coloredNames"] = true,
 	["winLoc"] = {
 		["left"] = 217,
 		["top"] = 664,
 	},
-	["coloredNames"] = true,
 	["clampToScreen"] = true,
 	["stats"] = {
 		["startDate"] = "",
@@ -320,6 +320,21 @@ WIM3_Data = {
 		["selected"] = "WIM Classic",
 		["font"] = "ChatFontNormal",
 		["suggest"] = true,
+	},
+	["ClickControl"] = {
+		["clickSensitivity"] = 0.2,
+	},
+	["tabs"] = {
+		["sortBy"] = 2,
+		["whispers"] = {
+			["enabled"] = false,
+			["guild"] = false,
+			["friends"] = false,
+		},
+		["chat"] = {
+			["enabled"] = false,
+			["aswhisper"] = false,
+		},
 	},
 	["history"] = {
 		["ageLimit"] = true,
@@ -341,21 +356,6 @@ WIM3_Data = {
 			["maxCount"] = 500,
 			["previewCount"] = 25,
 		},
-	},
-	["tabs"] = {
-		["sortBy"] = 2,
-		["whispers"] = {
-			["enabled"] = false,
-			["guild"] = false,
-			["friends"] = false,
-		},
-		["chat"] = {
-			["enabled"] = false,
-			["aswhisper"] = false,
-		},
-	},
-	["ClickControl"] = {
-		["clickSensitivity"] = 0.2,
 	},
 	["chat"] = {
 		["bn"] = {
@@ -424,6 +424,89 @@ WIM3_Cache = {
 			},
 		},
 	},
+	["祈福"] = {
+		["特变电工"] = {
+			["friendList"] = {
+				["|Kq19|k"] = 2,
+				["|Kq16|k"] = 2,
+				["|Kq2|k"] = 2,
+				["|Kq25|k"] = 2,
+				["|Kq26|k"] = 2,
+				["|Kq3|k"] = 2,
+				["|Kq23|k"] = 2,
+				["|Kq1|k"] = 2,
+				["|Kq11|k"] = 2,
+				["|Kq9|k"] = 2,
+				["|Kq17|k"] = 2,
+				["|Kq14|k"] = 2,
+				["|Kq18|k"] = 2,
+				["|Kq8|k"] = 2,
+				["|Kq22|k"] = 2,
+				["|Kq4|k"] = 2,
+				["|Kq21|k"] = 2,
+				["|Kq24|k"] = 2,
+				["|Kq20|k"] = 2,
+				["|Kq13|k"] = 2,
+				["|Kq15|k"] = 2,
+				["|Kq10|k"] = 2,
+				["|Kq7|k"] = 2,
+				["|Kq6|k"] = 2,
+				["|Kq5|k"] = 2,
+				["|Kq12|k"] = 2,
+			},
+			["guildList"] = {
+				["Mozartt"] = 48,
+				["特变电工"] = 11,
+				["璟小源"] = 35,
+				["小小呆萌"] = 30,
+				["蝉鸣丨"] = 2,
+				["带带小魔王"] = 1,
+				["美妙丿音符"] = 20,
+				["临风听秋蝉"] = 8,
+				["缥缈丨孤鸿"] = 7,
+				["双鬓染秋霜"] = 14,
+				["七猫"] = 21,
+				["谢晋元团长"] = 49,
+				["王之道"] = 28,
+				["灬灵魂兽灬"] = 10,
+				["可念不可及"] = 37,
+				["斑鸠丶"] = 38,
+				["夢里啥都有"] = 46,
+				["褪色者妮蔻"] = 17,
+				["啸傲锋辰"] = 3,
+				["旧雨重逢"] = 45,
+				["天天爱吃肉"] = 22,
+				["Bachh"] = 41,
+				["佐玛"] = 23,
+				["佳人"] = 12,
+				["煎饼卷干肠"] = 6,
+				["无邪丨"] = 15,
+				["术影斑驳"] = 9,
+				["暮语无恨"] = 16,
+				["哈呦"] = 39,
+				["靡丽统领"] = 29,
+				["磊子哥跟我玩"] = 47,
+				["无情丶铁手"] = 36,
+				["两个馒头"] = 44,
+				["天上星河转"] = 34,
+				["佩诺西"] = 33,
+				["两生花"] = 32,
+				["铯乛唫"] = 31,
+				["黑龍公紸表妹"] = 40,
+				["天青等烟云"] = 42,
+				["药到命无"] = 4,
+				["相思给予黑夜"] = 27,
+				["空投波塞克"] = 13,
+				["Amae"] = 26,
+				["石釹"] = 25,
+				["紫霞丨苮子"] = 24,
+				["小小酷骑"] = 43,
+				["不见岳"] = 19,
+				["豆丿腐"] = 18,
+				["大宋风华"] = 5,
+			},
+		},
+	},
 }
 WIM3_Filters = {
 	{
@@ -462,6 +545,230 @@ WIM3_Filters = {
 	}, -- [3]
 }
 WIM3_History = {
+	["祈福"] = {
+		["特变电工"] = {
+			["Himalaya#5908"] = {
+				{
+					["type"] = 1,
+					["time"] = 1660229585,
+					["from"] = "Himalaya#5908",
+					["msg"] = "|Hitem:11726::::::::67:::::::::|h[野蠻角鬥士鍊甲]|h",
+					["inbound"] = true,
+					["convo"] = "Himalaya#5908",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1660232812,
+					["from"] = "Himalaya#5908",
+					["msg"] = "这么快就去西部了",
+					["inbound"] = true,
+					["convo"] = "Himalaya#5908",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1660232824,
+					["from"] = "特变电工",
+					["msg"] = "是啊",
+					["inbound"] = false,
+					["convo"] = "Himalaya#5908",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1660232877,
+					["from"] = "Himalaya#5908",
+					["msg"] = "升级太幸苦了 我得去弄个武器",
+					["inbound"] = true,
+					["convo"] = "Himalaya#5908",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1660232882,
+					["from"] = "Himalaya#5908",
+					["msg"] = "|Hitem:13006::::::::67:::::::::|h[瑪克迦文之錘]|h|Hitem:13036::::::::67:::::::::|h[刺殺之刃]|h\\",
+					["inbound"] = true,
+					["convo"] = "Himalaya#5908",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1660232887,
+					["from"] = "特变电工",
+					["msg"] = "。",
+					["inbound"] = false,
+					["convo"] = "Himalaya#5908",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1660234227,
+					["from"] = "特变电工",
+					["msg"] = "擦",
+					["inbound"] = false,
+					["convo"] = "Himalaya#5908",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1660234231,
+					["from"] = "特变电工",
+					["msg"] = "你去挂機了？",
+					["inbound"] = false,
+					["convo"] = "Himalaya#5908",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1660234286,
+					["from"] = "Himalaya#5908",
+					["msg"] = "哈哈 雙倍經驗挂一下",
+					["inbound"] = true,
+					["convo"] = "Himalaya#5908",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1660234296,
+					["from"] = "特变电工",
+					["msg"] = "微信發我",
+					["inbound"] = false,
+					["convo"] = "Himalaya#5908",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1660234316,
+					["from"] = "Himalaya#5908",
+					["msg"] = "什麽微信發你",
+					["inbound"] = true,
+					["convo"] = "Himalaya#5908",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1660234334,
+					["from"] = "Himalaya#5908",
+					["msg"] = "挂機 比臺服便宜多了",
+					["inbound"] = true,
+					["convo"] = "Himalaya#5908",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1660234387,
+					["from"] = "特变电工",
+					["msg"] = "看微信",
+					["inbound"] = false,
+					["convo"] = "Himalaya#5908",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1660234744,
+					["from"] = "Himalaya#5908",
+					["msg"] = "什么发你",
+					["inbound"] = true,
+					["convo"] = "Himalaya#5908",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1660234750,
+					["from"] = "Himalaya#5908",
+					["msg"] = "刚刚在弄插件",
+					["inbound"] = true,
+					["convo"] = "Himalaya#5908",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1660234753,
+					["from"] = "特变电工",
+					["msg"] = "微信",
+					["inbound"] = false,
+					["convo"] = "Himalaya#5908",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1660234755,
+					["from"] = "特变电工",
+					["msg"] = "看",
+					["inbound"] = false,
+					["convo"] = "Himalaya#5908",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1660234763,
+					["from"] = "Himalaya#5908",
+					["msg"] = "我去拿下手机",
+					["inbound"] = true,
+					["convo"] = "Himalaya#5908",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1660234946,
+					["from"] = "Himalaya#5908",
+					["msg"] = "30一个门  150G一轮  暗影迷宫",
+					["inbound"] = true,
+					["convo"] = "Himalaya#5908",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1660234952,
+					["from"] = "Himalaya#5908",
+					["msg"] = "台服1000一轮",
+					["inbound"] = true,
+					["convo"] = "Himalaya#5908",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1660234960,
+					["from"] = "特变电工",
+					["msg"] = "我對挂機沒興趣",
+					["inbound"] = false,
+					["convo"] = "Himalaya#5908",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1660234960,
+					["from"] = "Himalaya#5908",
+					["msg"] = "相差太多",
+					["inbound"] = true,
+					["convo"] = "Himalaya#5908",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1660234977,
+					["from"] = "Himalaya#5908",
+					["msg"] = "我双倍经验挂完去做任务",
+					["inbound"] = true,
+					["convo"] = "Himalaya#5908",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1660234979,
+					["from"] = "Himalaya#5908",
+					["msg"] = "刚刚好",
+					["inbound"] = true,
+					["convo"] = "Himalaya#5908",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1660238391,
+					["from"] = "Himalaya#5908",
+					["msg"] = "你加油",
+					["inbound"] = true,
+					["convo"] = "Himalaya#5908",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1660238396,
+					["from"] = "Himalaya#5908",
+					["msg"] = "我下了",
+					["inbound"] = true,
+					["convo"] = "Himalaya#5908",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1660238405,
+					["from"] = "特变电工",
+					["msg"] = "8",
+					["inbound"] = false,
+					["convo"] = "Himalaya#5908",
+				}, -- [27]
+				["info"] = {
+				},
+			},
+		},
+	},
 }
 WIM3_ChatFilters = {
 }

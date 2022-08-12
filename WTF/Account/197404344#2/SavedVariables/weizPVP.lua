@@ -1,7 +1,17 @@
 
 _weizpvp_globaldb = {
 	["profileKeys"] = {
+		["特变电工 - 祈福"] = "特变电工 - 祈福",
 		["Vscode - 加丁"] = "Vscode - 加丁",
+	},
+	["global"] = {
+		["一私人航空二-祈福"] = {
+			["C"] = "WARLOCK",
+			["RL"] = "DAMAGER",
+			["E"] = true,
+			["L"] = 0,
+			["T"] = 1660232931,
+		},
 	},
 }
 _weizpvp_global_info = {

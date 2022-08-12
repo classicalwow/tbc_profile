@@ -12,7 +12,7 @@ AutoBarDB = {
 					["dockShiftY"] = 0,
 					["alignButtons"] = "3",
 					["posX"] = 300,
-					["hide"] = false,
+					["hide"] = true,
 					["enabled"] = true,
 					["columns"] = 10,
 					["alpha"] = 1,
@@ -69,8 +69,8 @@ AutoBarDB = {
 					["square_popups"] = true,
 					["arrangeOnUse"] = true,
 					["buttonClass"] = "AutoBarButtonPickLock",
-					["defaultButtonIndex"] = "*",
 					["barKey"] = "AutoBarClassBarRogue",
+					["defaultButtonIndex"] = "*",
 				},
 				["AutoBarButtonInterrupt"] = {
 					["barKey"] = "AutoBarClassBarRogue",
@@ -120,12 +120,12 @@ AutoBarDB = {
 			["AutoBarClassBarBasic"] = {
 				["popupDirection"] = "1",
 				["fadeOut"] = false,
-				["PALADIN"] = true,
-				["buttonHeight"] = 36,
+				["SHAMAN"] = true,
+				["MAGE"] = true,
 				["rows"] = 1,
-				["frameStrata"] = "LOW",
+				["PRIEST"] = true,
 				["dockShiftY"] = 0,
-				["alignButtons"] = "3",
+				["WARRIOR"] = true,
 				["buttonKeys"] = {
 					"AutoBarButtonHearth", -- [1]
 					"AutoBarButtonBandages", -- [2]
@@ -147,27 +147,27 @@ AutoBarDB = {
 					"AutoBarButtonTrinket1", -- [18]
 					"AutoBarButtonTrinket2", -- [19]
 				},
-				["posX"] = 300,
-				["enabled"] = true,
+				["posX"] = 549.3960033450421,
+				["alignButtons"] = "3",
 				["DRUID"] = true,
 				["MONK"] = true,
 				["hide"] = false,
 				["DEATHKNIGHT"] = true,
-				["scale"] = 1,
-				["columns"] = 16,
-				["ROGUE"] = true,
-				["MAGE"] = true,
-				["posY"] = 200,
 				["alpha"] = 1,
-				["PRIEST"] = true,
-				["HUNTER"] = true,
+				["columns"] = 16,
+				["scale"] = 1,
+				["enabled"] = true,
+				["buttonHeight"] = 36,
+				["frameStrata"] = "LOW",
 				["buttonWidth"] = 36,
+				["posY"] = 121.634098843766,
+				["PALADIN"] = true,
 				["WARLOCK"] = true,
 				["DEMONHUNTER"] = true,
-				["SHAMAN"] = true,
+				["ROGUE"] = true,
 				["padding"] = 0,
 				["dockShiftX"] = 0,
-				["WARRIOR"] = true,
+				["HUNTER"] = true,
 			},
 			["AutoBarClassBarExtras"] = {
 				["popupDirection"] = "1",
@@ -175,9 +175,8 @@ AutoBarDB = {
 				["PALADIN"] = true,
 				["buttonHeight"] = 36,
 				["rows"] = 1,
-				["frameStrata"] = "LOW",
+				["scale"] = 1,
 				["dockShiftY"] = 0,
-				["alignButtons"] = "3",
 				["buttonKeys"] = {
 					"AutoBarButtonSpeed", -- [1]
 					"AutoBarButtonFreeAction", -- [2]
@@ -190,21 +189,22 @@ AutoBarDB = {
 					"AutoBarButtonMount", -- [9]
 					"AutoBarButtonRaidTarget", -- [10]
 				},
+				["alignButtons"] = "3",
 				["posX"] = 300,
 				["enabled"] = true,
 				["DRUID"] = true,
 				["MONK"] = true,
-				["hide"] = false,
+				["hide"] = true,
 				["DEATHKNIGHT"] = true,
-				["scale"] = 1,
-				["columns"] = 9,
 				["ROGUE"] = true,
+				["columns"] = 9,
 				["MAGE"] = true,
 				["posY"] = 360,
 				["alpha"] = 1,
-				["PRIEST"] = true,
-				["HUNTER"] = true,
+				["frameStrata"] = "LOW",
 				["buttonWidth"] = 36,
+				["HUNTER"] = true,
+				["PRIEST"] = true,
 				["WARLOCK"] = true,
 				["DEMONHUNTER"] = true,
 				["SHAMAN"] = true,
@@ -485,6 +485,14 @@ AutoBarDB = {
 		["stupidlog"] = "",
 	},
 	["chars"] = {
+		["特变电工 - 祈福"] = {
+			["buttonDataList"] = {
+			},
+			["barList"] = {
+			},
+			["buttonList"] = {
+			},
+		},
 		["Vscode - 加丁"] = {
 			["buttonDataList"] = {
 			},

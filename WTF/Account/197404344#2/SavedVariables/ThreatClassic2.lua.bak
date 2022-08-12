@@ -1,10 +1,20 @@
 
 ThreatClassic2DB = {
 	["profileKeys"] = {
+		["特变电工 - 祈福"] = "Default",
 		["Vscode - 加丁"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
+			["frame"] = {
+				["position"] = {
+					nil, -- [1]
+					nil, -- [2]
+					nil, -- [3]
+					567.7777709960938, -- [4]
+					-683.8892211914062, -- [5]
+				},
+			},
 			["bar"] = {
 				["count"] = 8,
 			},

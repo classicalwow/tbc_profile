@@ -1,20 +1,21 @@
 
 DataStore_ContainersDB = {
 	["profileKeys"] = {
+		["特变电工 - 祈福"] = "特变电工 - 祈福",
 		["Vscode - 加丁"] = "Vscode - 加丁",
 	},
 	["global"] = {
 		["Characters"] = {
 			["Default.加丁.Vscode"] = {
-				["lastUpdate"] = 1658552336,
+				["lastUpdate"] = 1659786093,
 				["numFreeBagSlots"] = 13,
 				["Containers"] = {
-					["Bag-2"] = {
-						["freeslots"] = 32,
-						["icon"] = "ICONS\\INV_Misc_Key_04.blp",
-						["size"] = 32,
-					},
 					["Bag0"] = {
+						["counts"] = {
+							4, -- [1]
+							[3] = 4,
+						},
+						["freeslots"] = 13,
 						["ids"] = {
 							2070, -- [1]
 							6948, -- [2]
@@ -24,6 +25,8 @@ DataStore_ContainersDB = {
 							2211, -- [6]
 							159, -- [7]
 						},
+						["size"] = 20,
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["links"] = {
 							"|cffffffff|Hitem:2070::::::::3:::::::::|h[達納蘇斯乳酪]|h|r", -- [1]
 							"|cffffffff|Hitem:6948::::::::3:::::::::|h[爐石]|h|r", -- [2]
@@ -33,16 +36,140 @@ DataStore_ContainersDB = {
 							"|cff9d9d9d|Hitem:2211::::::::3:::::::::|h[扭曲的大盾]|h|r", -- [6]
 							"|cffffffff|Hitem:159::::::::3:::::::::|h[清涼的泉水]|h|r", -- [7]
 						},
-						["counts"] = {
-							4, -- [1]
-							[3] = 4,
-						},
-						["freeslots"] = 13,
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["size"] = 20,
+					},
+					["Bag-2"] = {
+						["freeslots"] = 32,
+						["icon"] = "ICONS\\INV_Misc_Key_04.blp",
+						["size"] = 32,
 					},
 				},
 				["numBagSlots"] = 20,
+			},
+			["Default.祈福.特变电工"] = {
+				["lastUpdate"] = 1660235405,
+				["Containers"] = {
+					["Bag4"] = {
+						["rarity"] = 2,
+						["link"] = "|cffffffff|Hitem:21841::::::::10:::::::::|h[]|h|r",
+						["freeslots"] = 16,
+						["icon"] = 133656,
+						["size"] = 16,
+					},
+					["Bag0"] = {
+						["ids"] = {
+							2070, -- [1]
+							6948, -- [2]
+							2589, -- [3]
+							1191, -- [4]
+							4656, -- [5]
+							1434, -- [6]
+							2454, -- [7]
+							118, -- [8]
+							748, -- [9]
+							858, -- [10]
+							1173, -- [11]
+							2770, -- [12]
+							1399, -- [13]
+							2672, -- [14]
+							2224, -- [15]
+							159, -- [16]
+							4537, -- [17]
+							1019, -- [18]
+							4537, -- [19]
+							858, -- [20]
+						},
+						["links"] = {
+							"|cffffffff|Hitem:2070::::::::11:::::::::|h[達納蘇斯乳酪]|h|r", -- [1]
+							"|cffffffff|Hitem:6948::::::::11:::::::::|h[爐石]|h|r", -- [2]
+							"|cffffffff|Hitem:2589::::::::11:::::::::|h[亞麻布]|h|r", -- [3]
+							"|cffffffff|Hitem:1191::::::::11:::::::::|h[彈子球]|h|r", -- [4]
+							"|cffffffff|Hitem:4656::::::::11:::::::::|h[小南瓜]|h|r", -- [5]
+							"|cffffffff|Hitem:1434::::::::11:::::::::|h[熱蠟棒]|h|r", -- [6]
+							"|cffffffff|Hitem:2454::::::::11:::::::::|h[獅王之力藥劑]|h|r", -- [7]
+							"|cffffffff|Hitem:118::::::::11:::::::::|h[初級治療藥水]|h|r", -- [8]
+							"|cffffffff|Hitem:748::::::::11:::::::::|h[暴風城護甲標記]|h|r", -- [9]
+							"|cffffffff|Hitem:858::::::::11:::::::::|h[次級治療藥水]|h|r", -- [10]
+							"|cffffffff|Hitem:1173::::::::11:::::::::|h[舊靴子]|h|r", -- [11]
+							"|cffffffff|Hitem:2770::::::::11:::::::::|h[銅礦石]|h|r", -- [12]
+							"|cffffffff|Hitem:1399::::::::11:::::::::|h[魔法蠟燭]|h|r", -- [13]
+							"|cffffffff|Hitem:2672::::::::11:::::::::|h[多汁狼肉]|h|r", -- [14]
+							"|cffffffff|Hitem:2224::::::::11:::::::::|h[民兵匕首]|h|r", -- [15]
+							"|cffffffff|Hitem:159::::::::11:::::::::|h[清涼的泉水]|h|r", -- [16]
+							"|cffffffff|Hitem:4537::::::::11:::::::::|h[泰拉比姆香蕉]|h|r", -- [17]
+							"|cffffffff|Hitem:1019::::::::11:::::::::|h[紅色亞麻頭巾]|h|r", -- [18]
+							"|cffffffff|Hitem:4537::::::::11:::::::::|h[泰拉比姆香蕉]|h|r", -- [19]
+							"|cffffffff|Hitem:858::::::::11:::::::::|h[次級治療藥水]|h|r", -- [20]
+						},
+						["size"] = 20,
+						["cooldowns"] = {
+							[2] = "1660232247.37|3600|1",
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["counts"] = {
+							7, -- [1]
+							nil, -- [2]
+							14, -- [3]
+							nil, -- [4]
+							4, -- [5]
+							5, -- [6]
+							2, -- [7]
+							5, -- [8]
+							[20] = 4,
+							[17] = 20,
+							[18] = 2,
+							[12] = 4,
+							[14] = 4,
+							[19] = 5,
+						},
+					},
+					["Bag1"] = {
+						["rarity"] = 2,
+						["ids"] = {
+							858, -- [1]
+							118, -- [2]
+							7675, -- [3]
+						},
+						["links"] = {
+							"|cffffffff|Hitem:858::::::::11:::::::::|h[次級治療藥水]|h|r", -- [1]
+							"|cffffffff|Hitem:118::::::::11:::::::::|h[初級治療藥水]|h|r", -- [2]
+							"|cffffffff|Hitem:7675::::::::11:::::::::|h[迪菲亞船運時間表]|h|r", -- [3]
+						},
+						["counts"] = {
+							5, -- [1]
+						},
+						["link"] = "|cff1eff00|Hitem:21841::::::::11:::::::::|h[幽紋布包]|h|r",
+						["size"] = 16,
+						["icon"] = 133656,
+						["freeslots"] = 13,
+					},
+					["Bag2"] = {
+						["rarity"] = 2,
+						["ids"] = {
+							[3] = 4496,
+						},
+						["links"] = {
+							[3] = "|cffffffff|Hitem:4496::::::::10:::::::::|h[棕色小包]|h|r",
+						},
+						["link"] = "|cff1eff00|Hitem:21841::::::::10:::::::::|h[幽紋布包]|h|r",
+						["freeslots"] = 15,
+						["icon"] = 133656,
+						["size"] = 16,
+					},
+					["Bag3"] = {
+						["rarity"] = 2,
+						["link"] = "|cffffffff|Hitem:21841::::::::10:::::::::|h[]|h|r",
+						["freeslots"] = 16,
+						["icon"] = 133656,
+						["size"] = 16,
+					},
+					["Bag-2"] = {
+						["size"] = 32,
+						["icon"] = "ICONS\\INV_Misc_Key_04.blp",
+						["freeslots"] = 32,
+					},
+				},
+				["numFreeBagSlots"] = 60,
+				["numBagSlots"] = 84,
 			},
 		},
 		["Version"] = 1,

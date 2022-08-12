@@ -8,6 +8,9 @@ __DEJUNK_SAVED_VARIABLES__ = {
 		["Vscode-加丁"] = {
 			["version"] = 3,
 		},
+		["特变电工-祈福"] = {
+			["version"] = 3,
+		},
 	},
 }
 DEJUNK_ADDON_SV = nil

@@ -1,6 +1,7 @@
 
 LS_TOASTS_GLOBAL_CONFIG = {
 	["profileKeys"] = {
+		["特变电工 - 祈福"] = "Default",
 		["Vscode - 加丁"] = "Default",
 	},
 	["profiles"] = {

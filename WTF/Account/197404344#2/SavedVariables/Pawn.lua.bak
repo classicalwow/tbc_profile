@@ -12,12 +12,6 @@ PawnCommon = {
 	["ShowTooltipIcons"] = true,
 	["Digits"] = 1,
 	["ShowSocketingAdvisor"] = true,
-	["ShowSpecIcons"] = true,
-	["LastVersion"] = 2.0538,
-	["ButtonPosition"] = 2,
-	["ShowLootUpgradeAdvisor"] = true,
-	["ShowQuestUpgradeAdvisor"] = true,
-	["IgnoreGemsWhileLeveling"] = true,
 	["Scales"] = {
 		["\"Classic\":WARRIOR2"] = {
 			["PerCharacterOptions"] = {
@@ -229,19 +223,19 @@ PawnCommon = {
 			["UnenchantedColor"] = "947451",
 			["SpecID"] = 1,
 		},
-		["\"Classic\":PALADIN3"] = {
+		["\"Classic\":SHAMAN1"] = {
 			["PerCharacterOptions"] = {
 			},
-			["Color"] = "f48cba",
-			["LocalizedName"] = "聖騎士: 懲戒",
-			["ClassID"] = 2,
+			["Color"] = "0070dd",
+			["LocalizedName"] = "薩滿: 元素",
+			["ClassID"] = 7,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "b7698b",
-			["SpecID"] = 3,
+			["UnenchantedColor"] = "0054a5",
+			["SpecID"] = 1,
 		},
 		["\"Classic\":SHAMAN3"] = {
 			["PerCharacterOptions"] = {
@@ -257,25 +251,28 @@ PawnCommon = {
 			["UnenchantedColor"] = "0054a5",
 			["SpecID"] = 3,
 		},
-		["\"Classic\":SHAMAN1"] = {
+		["\"Classic\":PALADIN3"] = {
 			["PerCharacterOptions"] = {
 			},
-			["Color"] = "0070dd",
-			["LocalizedName"] = "薩滿: 元素",
-			["ClassID"] = 7,
+			["Color"] = "f48cba",
+			["LocalizedName"] = "聖騎士: 懲戒",
+			["ClassID"] = 2,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "0054a5",
-			["SpecID"] = 1,
+			["UnenchantedColor"] = "b7698b",
+			["SpecID"] = 3,
 		},
 		["\"Classic\":ROGUE"] = {
 			["Color"] = "fff468",
 			["LocalizedName"] = "盜賊: 副手",
 			["PerCharacterOptions"] = {
 				["Vscode-加丁"] = {
+					["Visible"] = true,
+				},
+				["特变电工-祈福"] = {
 					["Visible"] = true,
 				},
 			},
@@ -347,6 +344,9 @@ PawnCommon = {
 				["Vscode-加丁"] = {
 					["Visible"] = true,
 				},
+				["特变电工-祈福"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "fff468",
 			["LocalizedName"] = "盜賊: 戰鬥",
@@ -362,6 +362,9 @@ PawnCommon = {
 		["\"Classic\":ROGUE3"] = {
 			["PerCharacterOptions"] = {
 				["Vscode-加丁"] = {
+					["Visible"] = true,
+				},
+				["特变电工-祈福"] = {
 					["Visible"] = true,
 				},
 			},
@@ -409,6 +412,9 @@ PawnCommon = {
 				["Vscode-加丁"] = {
 					["Visible"] = true,
 				},
+				["特变电工-祈福"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "fff468",
 			["LocalizedName"] = "盜賊: 刺殺",
@@ -436,4 +442,10 @@ PawnCommon = {
 			["SpecID"] = 2,
 		},
 	},
+	["LastVersion"] = 2.0538,
+	["ButtonPosition"] = 2,
+	["ShowLootUpgradeAdvisor"] = true,
+	["ShowQuestUpgradeAdvisor"] = true,
+	["IgnoreGemsWhileLeveling"] = true,
+	["ShowSpecIcons"] = true,
 }

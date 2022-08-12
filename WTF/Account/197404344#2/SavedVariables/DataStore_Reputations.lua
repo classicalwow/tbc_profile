@@ -1,6 +1,7 @@
 
 DataStore_ReputationsDB = {
 	["profileKeys"] = {
+		["特变电工 - 祈福"] = "特变电工 - 祈福",
 		["Vscode - 加丁"] = "Vscode - 加丁",
 	},
 	["global"] = {
@@ -12,6 +13,15 @@ DataStore_ReputationsDB = {
 					nil, -- [2]
 					3100, -- [3]
 					4797, -- [4]
+				},
+			},
+			["Default.祈福.特变电工"] = {
+				["lastUpdate"] = 1660238712,
+				["Factions"] = {
+					3120, -- [1]
+					nil, -- [2]
+					3120, -- [3]
+					11722, -- [4]
 				},
 			},
 		},

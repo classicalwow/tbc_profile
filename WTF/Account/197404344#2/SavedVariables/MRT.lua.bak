@@ -45,10 +45,13 @@ VMRT = {
 	},
 	["ProfileKeys"] = {
 		["Vscode-加丁"] = "default",
+		["特变电工-祈福"] = "default",
 	},
 	["Encounter"] = {
 		["list"] = {
 			["Vscode"] = {
+			},
+			["特变电工"] = {
 			},
 		},
 		["names"] = {
@@ -62,6 +65,7 @@ VMRT = {
 		["upd4525"] = true,
 		["gnGUIDs"] = {
 			["Vscode"] = 0,
+			["特变电工"] = 0,
 		},
 		["NoRaid"] = true,
 		["CDECol"] = {

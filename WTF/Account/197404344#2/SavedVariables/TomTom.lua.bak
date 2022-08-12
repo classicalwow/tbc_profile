@@ -1,6 +1,7 @@
 
 TomTomDB = {
 	["profileKeys"] = {
+		["特变电工 - 祈福"] = "Default",
 		["Vscode - 加丁"] = "Default",
 	},
 	["profiles"] = {
@@ -10,8 +11,8 @@ TomTomDB = {
 					"CENTER", -- [1]
 					nil, -- [2]
 					"CENTER", -- [3]
-					0, -- [4]
-					0, -- [5]
+					-3.888844966888428, -- [4]
+					-253.8888397216797, -- [5]
 				},
 			},
 			["block"] = {
@@ -29,9 +30,12 @@ TomTomDB = {
 TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
+		["特变电工 - 祈福"] = "特变电工 - 祈福",
 		["Vscode - 加丁"] = "Vscode - 加丁",
 	},
 	["profiles"] = {
+		["特变电工 - 祈福"] = {
+		},
 		["Vscode - 加丁"] = {
 		},
 	},
