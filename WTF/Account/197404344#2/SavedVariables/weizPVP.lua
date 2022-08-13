@@ -12,6 +12,13 @@ _weizpvp_globaldb = {
 			["L"] = 0,
 			["T"] = 1660232931,
 		},
+		["倾国又双倾城-祈福"] = {
+			["C"] = "MAGE",
+			["RL"] = "DAMAGER",
+			["E"] = true,
+			["L"] = 0,
+			["T"] = 1660329123,
+		},
 	},
 }
 _weizpvp_global_info = {

@@ -18,6 +18,17 @@ MEETINGHORN_DB = {
 					"良心团长", -- [8]
 				},
 			},
+			["cache"] = {
+				["cooldown"] = {
+					["start"] = 1660239098,
+					["duration"] = 50,
+				},
+				["current"] = {
+					["mode"] = "带新",
+					["name"] = "艾尔文森林",
+					["comment"] = "霍格",
+				},
+			},
 		},
 		["Vscode - 加丁"] = {
 			["goodleader"] = {

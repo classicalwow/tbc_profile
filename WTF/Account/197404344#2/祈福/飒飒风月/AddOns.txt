@@ -1,0 +1,2 @@
+ConsolePort: enabled
+ConsolePort_Bar: disabled

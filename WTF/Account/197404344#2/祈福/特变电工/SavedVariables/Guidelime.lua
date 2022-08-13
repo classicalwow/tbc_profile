@@ -10,37 +10,59 @@ GuidelimeDataChar = {
 			[118] = true,
 			[155] = false,
 			[34] = true,
-			[152] = true,
 			[162] = true,
-			[123] = true,
 			[40] = true,
+			[119] = true,
+			[152] = true,
 			[156] = true,
-			[13] = true,
+			[98] = true,
 			[84] = true,
 			[86] = true,
-			[119] = true,
+			[141] = true,
 			[46] = true,
 			[24] = true,
 			[48] = true,
 			[49] = true,
-			[98] = true,
+			[13] = true,
 			[69] = true,
 			[169] = true,
 			[142] = true,
 			[14] = true,
-			[141] = true,
+			[123] = true,
 			[154] = true,
 			[41] = true,
 			[21] = true,
 		},
 		["Hakurai：由Shikushiku製作，中文翻譯版 12-14 洛克莫丹"] = {
+			true, -- [1]
+			true, -- [2]
+			true, -- [3]
+			[7] = true,
+			[10] = true,
+			[33] = true,
+			[19] = true,
+			[24] = true,
+			[34] = true,
 		},
 	},
 	["completedSteps"] = {
+		true, -- [1]
+		true, -- [2]
+		true, -- [3]
+		nil, -- [4]
+		nil, -- [5]
+		nil, -- [6]
+		true, -- [7]
+		true, -- [8]
+		true, -- [9]
+		true, -- [10]
+		[24] = true,
+		[33] = true,
+		[32] = true,
 	},
-	["arrowY"] = -186.9999237060547,
-	["arrowRelative"] = "CENTER",
-	["mainFrameX"] = -55.55567932128906,
+	["arrowY"] = 253.7778472900391,
+	["arrowRelative"] = "BOTTOM",
+	["mainFrameX"] = -43.33351135253906,
 	["mainFrameLocked"] = false,
 	["mainFrameWidth"] = 350,
 	["arrowLocked"] = false,
@@ -50,9 +72,9 @@ GuidelimeDataChar = {
 	["arrowSize"] = 64,
 	["mainFrameAlpha"] = 0.5,
 	["currentGuide"] = "Hakurai：由Shikushiku製作，中文翻譯版 12-14 洛克莫丹",
-	["mainFrameY"] = -160.5555877685547,
-	["arrowX"] = -4.999964237213135,
 	["mainFrameFontSize"] = 14,
+	["arrowX"] = -7.222203254699707,
+	["mainFrameY"] = 168.3333892822266,
 	["mainFrameShowScrollBar"] = true,
 	["showArrow"] = true,
 	["editorFrameRelative"] = "CENTER",
@@ -62,6 +84,6 @@ GuidelimeDataChar = {
 	},
 	["mainFrameShowing"] = true,
 	["version"] = "2.034",
-	["mainFrameRelative"] = "TOPRIGHT",
+	["mainFrameRelative"] = "RIGHT",
 	["editorFrameX"] = 0,
 }

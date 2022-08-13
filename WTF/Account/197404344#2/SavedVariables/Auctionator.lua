@@ -30,15 +30,20 @@ AUCTIONATOR_PRICE_DATABASE = {
 }
 AUCTIONATOR_LAST_SCAN_TIME = nil
 AUCTIONATOR_TOONS = {
+	["特变电工"] = {
+		["firstSeen"] = 1660226408,
+		["firstVersion"] = "2.5.5-1-g17bf777",
+		["guid"] = "Player-4778-04DBFC9E",
+	},
 	["Vscode"] = {
 		["firstSeen"] = 1657352992,
 		["guid"] = "Player-4501-04C9101E",
 		["firstVersion"] = "2.5.5-1-g17bf777",
 	},
-	["特变电工"] = {
-		["firstSeen"] = 1660226408,
+	["特工仓库"] = {
+		["firstSeen"] = 1660322812,
+		["guid"] = "Player-4778-04DCA2D4",
 		["firstVersion"] = "2.5.5-1-g17bf777",
-		["guid"] = "Player-4778-04DBFC9E",
 	},
 }
 AUCTIONATOR_STACKING_PREFS = {

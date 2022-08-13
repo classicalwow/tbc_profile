@@ -8,12 +8,17 @@ MapsterDB = {
 	},
 	["profileKeys"] = {
 		["特变电工 - 祈福"] = "Default",
+		["特工仓库 - 祈福"] = "Default",
 		["Vscode - 加丁"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["poiScale"] = 1.17,
+			["scale"] = 0.8740838766098022,
 			["alpha"] = 0.88,
+			["y"] = -77.20367264044489,
+			["x"] = 24.7535444100613,
+			["point"] = "CENTER",
+			["poiScale"] = 1.17,
 		},
 	},
 }

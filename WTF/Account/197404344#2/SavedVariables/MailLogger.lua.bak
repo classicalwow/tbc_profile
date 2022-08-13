@@ -1,9 +1,11 @@
 
 MailLoggerDB = {
 	["IgnoreItems"] = {
-		["魔法肉桂麵包"] = true,
-		["魔法晶水"] = true,
+		["魔法肉桂面包"] = true,
 		["極效治療石"] = true,
+		["魔法肉桂麵包"] = true,
+		["特效治疗石"] = true,
+		["魔法晶水"] = true,
 	},
 	["Config"] = {
 		["ShowMinimapIcon"] = true,
@@ -22,8 +24,9 @@ MailLoggerDB = {
 		},
 		["LogDays"] = 90,
 		["AltList"] = {
-			["Vscode"] = true,
 			["特变电工"] = true,
+			["Vscode"] = true,
+			["特工仓库"] = true,
 		},
 		["LogEverything"] = false,
 	},
@@ -75,5 +78,78 @@ MailLoggerDB = {
 				}, -- [4]
 			},
 		}, -- [2]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "特变电工",
+			["Date"] = "2022-08-13",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 500,
+			["Location"] = "洛克莫丹",
+			["Time"] = "02:33:45",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [3]
+		{
+			["PlayerName"] = "特工仓库",
+			["TargetName"] = "特变电工",
+			["Reason"] = 1,
+			["Date"] = "2022-08-13",
+			["ReceiveMoney"] = 500,
+			["Time"] = "02:34:24",
+			["GiveMoney"] = 0,
+			["Location"] = "铁炉堡",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+			},
+		}, -- [4]
+		{
+			["PlayerName"] = "特变电工",
+			["TargetName"] = "联盟拍卖行",
+			["Reason"] = 2,
+			["Date"] = "2022-08-13",
+			["ReceiveMoney"] = 9331,
+			["Time"] = "02:34:57",
+			["GiveMoney"] = 0,
+			["Location"] = "洛克莫丹",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+			},
+		}, -- [5]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "特变电工",
+			["Date"] = "2022-08-13",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 5000000,
+			["Location"] = "洛克莫丹",
+			["Time"] = "02:35:11",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [6]
+		{
+			["PlayerName"] = "特工仓库",
+			["TargetName"] = "特变电工",
+			["Reason"] = 1,
+			["Date"] = "2022-08-13",
+			["ReceiveMoney"] = 5000000,
+			["Time"] = "02:35:26",
+			["GiveMoney"] = 0,
+			["Location"] = "铁炉堡",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+			},
+		}, -- [7]
 	},
 }

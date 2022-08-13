@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 	["lastSanitation"] = 3,
-	["session"] = 9,
+	["session"] = 15,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua:1946: Usage: SaveBindings(1||2)",
@@ -52,27 +52,27 @@ BugGrabberDB = {
 			["counter"] = 1,
 		}, -- [6]
 		{
-			["message"] = "...AddOns\\GladiatorlosSA2_zhCN\\GladiatorlosSA2_zhCN-TBC-1.4.lua:3: attempt to index local 'GSA' (a nil value)",
-			["time"] = "2022/07/09 15:49:36",
-			["locals"] = "GSA = nil\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index local 'GSA' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\GladiatorlosSA2_zhCN\\GladiatorlosSA2_zhCN-TBC-1.4.lua\"]:3: in main chunk",
+			["message"] = "...s\\WIM\\Libs\\LibChatHandler-1.0\\LibChatHandler-1.0-18.lua:227: bad argument #1 to 'match' (string expected, got nil)",
+			["time"] = "2022/08/12 00:46:11",
+			["stack"] = "[string \"=[C]\"]: in function `match'\n[string \"@Interface\\AddOns\\WIM\\Libs\\LibChatHandler-1.0\\LibChatHandler-1.0-18.lua\"]:227: in function `filterFunc'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:3249: in function `ChatFrame_MessageEventHandler'\n[string \"@Interface\\AddOns\\MeetingHorn\\UI\\Chat-聊天.lua\"]:48: in function `?'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:119: in function <...ler\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:29: in function <...ler\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceEvent-3.0\\AceEvent-3.0-4.lua\"]:120: in function <...seAddonController\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>",
 			["session"] = 9,
-			["counter"] = 9,
+			["counter"] = 4,
 		}, -- [7]
 		{
 			["message"] = "Interface\\AddOns\\LoonBestInSlot\\LootBrowser.lua:6: attempt to index global 'AtlasLoot' (a nil value)",
 			["time"] = "2022/07/09 15:49:37",
 			["locals"] = "(*temporary) = nil\n(*temporary) = <table> {\n MaxHeight = 0\n CompareTooltip = <table> {\n }\n}\n(*temporary) = <table> {\n}\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index global 'AtlasLoot' (a nil value)\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\LoonBestInSlot\\LootBrowser.lua\"]:6: in main chunk",
-			["session"] = 9,
-			["counter"] = 9,
+			["session"] = 12,
+			["counter"] = 12,
 		}, -- [8]
 		{
-			["message"] = "...s\\WIM\\Libs\\LibChatHandler-1.0\\LibChatHandler-1.0-18.lua:227: bad argument #1 to 'match' (string expected, got nil)",
-			["time"] = "2022/08/12 00:46:11",
-			["stack"] = "[string \"=[C]\"]: in function `match'\n[string \"@Interface\\AddOns\\WIM\\Libs\\LibChatHandler-1.0\\LibChatHandler-1.0-18.lua\"]:227: in function `filterFunc'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:3249: in function `ChatFrame_MessageEventHandler'\n[string \"@Interface\\AddOns\\MeetingHorn\\UI\\Chat-聊天.lua\"]:48: in function `?'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:119: in function <...ler\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:29: in function <...ler\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceEvent-3.0\\AceEvent-3.0-4.lua\"]:120: in function <...seAddonController\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>",
-			["session"] = 9,
-			["counter"] = 4,
+			["message"] = "...AddOns\\GladiatorlosSA2_zhCN\\GladiatorlosSA2_zhCN-TBC-1.4.lua:3: attempt to index local 'GSA' (a nil value)",
+			["time"] = "2022/07/09 15:49:36",
+			["locals"] = "GSA = nil\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index local 'GSA' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\GladiatorlosSA2_zhCN\\GladiatorlosSA2_zhCN-TBC-1.4.lua\"]:3: in main chunk",
+			["session"] = 15,
+			["counter"] = 15,
 		}, -- [9]
 	},
 }

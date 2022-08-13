@@ -5,6 +5,13 @@ _weizpvp_globaldb = {
 		["Vscode - 加丁"] = "Vscode - 加丁",
 	},
 	["global"] = {
+		["倾国又双倾城-祈福"] = {
+			["C"] = "MAGE",
+			["RL"] = "DAMAGER",
+			["E"] = true,
+			["L"] = 0,
+			["T"] = 1660329123,
+		},
 		["一私人航空二-祈福"] = {
 			["C"] = "WARLOCK",
 			["RL"] = "DAMAGER",

@@ -11,8 +11,19 @@ DataStore_TalentsDB = {
 				["Class"] = "ROGUE",
 			},
 			["Default.祈福.特变电工"] = {
-				["lastUpdate"] = 1660238932,
+				["lastUpdate"] = 1660329284,
 				["Class"] = "ROGUE",
+				["TalentTrees"] = {
+					["奇袭"] = {
+						nil, -- [1]
+						2, -- [2]
+					},
+					["战斗"] = {
+						2, -- [1]
+						2, -- [2]
+					},
+				},
+				["PointsSpent"] = "2,4,0",
 			},
 		},
 	},

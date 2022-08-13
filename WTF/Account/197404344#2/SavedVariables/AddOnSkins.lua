@@ -2,6 +2,7 @@
 AddOnSkinsDB = {
 	["profileKeys"] = {
 		["特变电工 - 祈福"] = "Default",
+		["特工仓库 - 祈福"] = "Default",
 		["Vscode - 加丁"] = "Default",
 	},
 	["profiles"] = {

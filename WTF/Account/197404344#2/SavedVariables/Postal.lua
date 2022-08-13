@@ -4,7 +4,7 @@ Postal3DB = {
 		["BlackBook"] = {
 			["alts"] = {
 				"Vscode|加丁|Alliance|3|ROGUE", -- [1]
-				"特变电工|祈福|Alliance|11|ROGUE", -- [2]
+				"特变电工|祈福|Alliance|15|ROGUE", -- [2]
 			},
 		},
 	},
@@ -14,6 +14,11 @@ Postal3DB = {
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"特工仓库|祈福|Alliance", -- [1]
+				},
+			},
 		},
 		["Vscode - 加丁"] = {
 		},
