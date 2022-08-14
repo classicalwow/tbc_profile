@@ -6,6 +6,17 @@ MEETINGHORN_DB = {
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
+			["cache"] = {
+				["cooldown"] = {
+					["start"] = 1660239098,
+					["duration"] = 50,
+				},
+				["current"] = {
+					["mode"] = "带新",
+					["name"] = "艾尔文森林",
+					["comment"] = "霍格",
+				},
+			},
 			["goodleader"] = {
 				["tags"] = {
 					"幽默风趣", -- [1]
@@ -16,17 +27,6 @@ MEETINGHORN_DB = {
 					"段子手", -- [6]
 					"欧皇", -- [7]
 					"良心团长", -- [8]
-				},
-			},
-			["cache"] = {
-				["cooldown"] = {
-					["start"] = 1660239098,
-					["duration"] = 50,
-				},
-				["current"] = {
-					["mode"] = "带新",
-					["name"] = "艾尔文森林",
-					["comment"] = "霍格",
 				},
 			},
 		},

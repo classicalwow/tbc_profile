@@ -1,6 +1,10 @@
 VER 3 0000000000000001 "target" "134328"
-/target 霍格
+/target 夜行织影狼人
+/script SetRaidTarget("target",8)
 END
 VER 3 0000000000000002 "大脚世界频道" "132874"
 /join 大脚世界频道
+END
+VER 3 0000000000000003 "自动攻击" "135325"
+/startattack
 END

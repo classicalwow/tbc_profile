@@ -2,61 +2,61 @@
 RecountPerCharDB = {
 	["version"] = "1.3",
 	["combatants"] = {
-		["若丶无弃"] = {
-			["GUID"] = "Player-4778-04DC6533",
+		["Kosi"] = {
+			["GUID"] = "Player-4778-04DCA68F",
 			["LastEventHealth"] = {
-				345, -- [1]
-				332, -- [2]
-				318, -- [3]
-				306, -- [4]
-				279, -- [5]
-				257, -- [6]
-				238, -- [7]
-				238, -- [8]
-				238, -- [9]
-				216, -- [10]
-				199, -- [11]
-				199, -- [12]
-				199, -- [13]
-				182, -- [14]
-				164, -- [15]
-				164, -- [16]
-				164, -- [17]
-				164, -- [18]
-				148, -- [19]
-				148, -- [20]
-				148, -- [21]
-				148, -- [22]
-				148, -- [23]
-				123, -- [24]
-				311, -- [25]
-				311, -- [26]
-				311, -- [27]
-				311, -- [28]
-				361, -- [29]
-				361, -- [30]
-				346, -- [31]
-				346, -- [32]
-				346, -- [33]
-				331, -- [34]
-				331, -- [35]
-				314, -- [36]
-				314, -- [37]
-				337, -- [38]
-				337, -- [39]
-				330, -- [40]
-				314, -- [41]
-				314, -- [42]
-				314, -- [43]
-				297, -- [44]
-				297, -- [45]
-				297, -- [46]
-				297, -- [47]
-				297, -- [48]
-				297, -- [49]
-				361, -- [50]
+				492, -- [1]
+				492, -- [2]
+				492, -- [3]
+				492, -- [4]
+				492, -- [5]
+				464, -- [6]
+				464, -- [7]
+				464, -- [8]
+				662, -- [9]
+				662, -- [10]
+				662, -- [11]
+				662, -- [12]
+				662, -- [13]
+				628, -- [14]
+				628, -- [15]
+				628, -- [16]
+				628, -- [17]
+				628, -- [18]
+				628, -- [19]
+				628, -- [20]
+				628, -- [21]
+				628, -- [22]
+				628, -- [23]
+				628, -- [24]
+				628, -- [25]
+				628, -- [26]
+				628, -- [27]
+				628, -- [28]
+				628, -- [29]
+				628, -- [30]
+				548, -- [31]
+				548, -- [32]
+				548, -- [33]
+				548, -- [34]
+				548, -- [35]
+				548, -- [36]
+				548, -- [37]
+				548, -- [38]
+				636, -- [39]
+				614, -- [40]
+				584, -- [41]
+				550, -- [42]
+				550, -- [43]
+				550, -- [44]
+				550, -- [45]
+				521, -- [46]
+				521, -- [47]
+				521, -- [48]
+				521, -- [49]
+				521, -- [50]
 			},
-			["LastAttackedBy"] = "碎石穴居人",
+			["LastAttackedBy"] = "黑石猎人",
 			["LastEventType"] = {
 				"DAMAGE", -- [1]
 				"DAMAGE", -- [2]
@@ -81,8 +81,8 @@ RecountPerCharDB = {
 				"DAMAGE", -- [21]
 				"DAMAGE", -- [22]
 				"DAMAGE", -- [23]
-				"HEAL", -- [24]
-				"HEAL", -- [25]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
 				"DAMAGE", -- [26]
 				"DAMAGE", -- [27]
 				"DAMAGE", -- [28]
@@ -91,7 +91,7 @@ RecountPerCharDB = {
 				"DAMAGE", -- [31]
 				"DAMAGE", -- [32]
 				"DAMAGE", -- [33]
-				"DAMAGE", -- [34]
+				"MISC", -- [34]
 				"DAMAGE", -- [35]
 				"DAMAGE", -- [36]
 				"DAMAGE", -- [37]
@@ -110,810 +110,354 @@ RecountPerCharDB = {
 				"DAMAGE", -- [50]
 			},
 			["TimeWindows"] = {
-				["TimeHeal"] = {
-					10.5, -- [1]
-				},
-				["HealingTaken"] = {
-					526, -- [1]
-				},
-				["Overhealing"] = {
-					86, -- [1]
+				["Interrupts"] = {
+					3, -- [1]
 				},
 				["ActiveTime"] = {
-					330.9, -- [1]
+					93.08999999999995, -- [1]
 				},
 				["TimeDamage"] = {
-					320.4, -- [1]
+					93.08999999999995, -- [1]
 				},
-				["Healing"] = {
-					1168, -- [1]
+				["CCBreak"] = {
+					1, -- [1]
 				},
 				["DamageTaken"] = {
-					2501, -- [1]
+					860, -- [1]
 				},
 				["Damage"] = {
-					7096, -- [1]
+					3841, -- [1]
 				},
 			},
-			["enClass"] = "PALADIN",
-			["unit"] = true,
-			["LastAbility"] = 61080.375,
-			["level"] = 15,
+			["enClass"] = "ROGUE",
+			["unit"] = "Kosi",
+			["level"] = 22,
 			["LastDamageAbility"] = "肉搏",
-			["LastFightIn"] = 53,
-			["LastDamageTaken"] = 11,
-			["type"] = "Grouped",
+			["LastFightIn"] = 67,
+			["type"] = "Ungrouped",
 			["FightsSaved"] = 5,
-			["UnitLockout"] = 60523.306,
+			["LastDamageTaken"] = 28,
+			["TimeLast"] = {
+				["Interrupts"] = 55491.849,
+				["CCBreak"] = 55397.84,
+				["ActiveTime"] = 55516.84400000001,
+				["TimeDamage"] = 55516.84400000001,
+				["OVERALL"] = 55516.84400000001,
+				["DamageTaken"] = 55515.847,
+				["Damage"] = 55516.84400000001,
+			},
+			["Owner"] = false,
+			["LastEventHealthMax"] = {
+				725, -- [1]
+				725, -- [2]
+				725, -- [3]
+				725, -- [4]
+				725, -- [5]
+				725, -- [6]
+				725, -- [7]
+				725, -- [8]
+				725, -- [9]
+				725, -- [10]
+				725, -- [11]
+				725, -- [12]
+				725, -- [13]
+				725, -- [14]
+				725, -- [15]
+				725, -- [16]
+				725, -- [17]
+				725, -- [18]
+				725, -- [19]
+				725, -- [20]
+				725, -- [21]
+				725, -- [22]
+				725, -- [23]
+				725, -- [24]
+				725, -- [25]
+				725, -- [26]
+				725, -- [27]
+				725, -- [28]
+				725, -- [29]
+				725, -- [30]
+				725, -- [31]
+				725, -- [32]
+				725, -- [33]
+				725, -- [34]
+				725, -- [35]
+				725, -- [36]
+				725, -- [37]
+				725, -- [38]
+				725, -- [39]
+				725, -- [40]
+				725, -- [41]
+				725, -- [42]
+				725, -- [43]
+				725, -- [44]
+				725, -- [45]
+				725, -- [46]
+				725, -- [47]
+				725, -- [48]
+				725, -- [49]
+				725, -- [50]
+			},
+			["NextEventNum"] = 9,
+			["LastDamageTime"] = 55517.113,
+			["LastEvents"] = {
+				"Kosi 肉搏 黑石猎人 Glancing -11 (Physical)", -- [1]
+				"Kosi 影袭 黑石猎人 Hit -49 (Physical)", -- [2]
+				"Kosi 肉搏 黑石猎人 Hit -34 (Physical)", -- [3]
+				"Kosi 肉搏 黑石猎人 Miss (1)", -- [4]
+				"黑石猎人 肉搏 Kosi Hit -28 (Physical)", -- [5]
+				"Kosi 肉搏 黑石猎人 Hit -31 (Physical)", -- [6]
+				"Kosi 灼热武器 黑石猎人 Hit -40 (Fire)", -- [7]
+				"Kosi 速效药膏 黑石猎人 Hit -20 (Nature)", -- [8]
+				"Kosi 肉搏 黑石哨兵 Miss (1)", -- [9]
+				"Kosi 肉搏 黑石哨兵 Crit -74 (Physical)", -- [10]
+				"Kosi 肉搏 黑石哨兵 Hit -12 (Physical)", -- [11]
+				"Kosi 灼热武器 黑石哨兵 Hit -40 (Fire)", -- [12]
+				"黑石哨兵 肉搏 Kosi Hit -34 (Physical)", -- [13]
+				"Kosi 肉搏 黑石哨兵 Hit -32 (Physical)", -- [14]
+				"Kosi 灼热武器 黑石哨兵 Hit -40 (Fire)", -- [15]
+				"Kosi 影袭 黑石哨兵 Hit -50 (Physical)", -- [16]
+				"Kosi 肉搏 黑石哨兵 Miss (1)", -- [17]
+				"Kosi 肉搏 黑石哨兵 Hit -12 (Physical)", -- [18]
+				"Kosi 肉搏 黑石哨兵 Miss (1)", -- [19]
+				"Kosi 肉搏 黑石哨兵 Miss (1)", -- [20]
+				"Kosi 肉搏 黑石哨兵 Hit -13 (Physical)", -- [21]
+				"Kosi 灼热武器 黑石哨兵 Hit -40 (Fire)", -- [22]
+				"Kosi 影袭 黑石哨兵 Crit -94 (Physical)", -- [23]
+				"Kosi 灼热武器 黑石哨兵 Hit -40 (Fire)", -- [24]
+				"Kosi 肉搏 黑石哨兵 Hit -35 (Physical)", -- [25]
+				"Kosi 肉搏 黑石哨兵 Miss (1)", -- [26]
+				"Kosi 肉搏 黑石哨兵 Hit -30 (Physical)", -- [27]
+				"Kosi 灼热武器 黑石哨兵 Hit -40 (Fire)", -- [28]
+				"Kosi 肉搏 黑石哨兵 Hit -11 (Physical)", -- [29]
+				"黑石暗影法师 暗影箭 Kosi Hit -80 (Shadow)", -- [30]
+				"Kosi 肉搏 黑石暗影法师 Hit -38 (Physical)", -- [31]
+				"Kosi 肉搏 黑石暗影法师 Glancing -11 (Physical)", -- [32]
+				"Kosi 肉搏 黑石暗影法师 Hit -15 (Physical)", -- [33]
+				"Kosi interrupts 黑石暗影法师 暗影箭 (脚踢)", -- [34]
+				"Kosi 脚踢 黑石暗影法师 Hit -12 (Physical)", -- [35]
+				"Kosi 灼热武器 黑石暗影法师 Hit -40 (Fire)", -- [36]
+				"Kosi 肉搏 黑石暗影法师 Miss (1)", -- [37]
+				"Kosi 影袭 黑石暗影法师 Hit -48 (Physical)", -- [38]
+				"黑石暗影法师 肉搏 Kosi Hit -22 (Physical)", -- [39]
+				"黑石猎人 肉搏 Kosi Hit -30 (Physical)", -- [40]
+				"黑石猎人 肉搏 Kosi Hit -34 (Physical)", -- [41]
+				"Kosi 影袭 黑石猎人 Parry (Physical)", -- [42]
+				"Kosi 肉搏 黑石猎人 Glancing -28 (Physical)", -- [43]
+				"Kosi 肉搏 黑石猎人 Hit -11 (Physical)", -- [44]
+				"黑石猎人 肉搏 Kosi Hit -29 (Physical)", -- [45]
+				"Kosi 影袭 黑石猎人 Hit -47 (Physical)", -- [46]
+				"Kosi 肉搏 黑石猎人 Crit -69 (Physical)", -- [47]
+				"Kosi 肉搏 黑石猎人 Crit -24 (Physical)", -- [48]
+				"Kosi 灼热武器 黑石猎人 Hit -40 (Fire)", -- [49]
+				"黑石猎人 肉搏 Kosi Hit -29 (Physical)", -- [50]
+			},
+			["Name"] = "Kosi",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				true, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				true, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				false, -- [25]
+				false, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+				true, -- [30]
+				false, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+				true, -- [39]
+				true, -- [40]
+				true, -- [41]
+				false, -- [42]
+				false, -- [43]
+				false, -- [44]
+				true, -- [45]
+				false, -- [46]
+				false, -- [47]
+				false, -- [48]
+				false, -- [49]
+				true, -- [50]
+			},
+			["LastEventTimes"] = {
+				55515.356, -- [1]
+				55515.553, -- [2]
+				55515.553, -- [3]
+				55516.54, -- [4]
+				55516.756, -- [5]
+				55517.113, -- [6]
+				55517.113, -- [7]
+				55517.113, -- [8]
+				55480.237, -- [9]
+				55480.491, -- [10]
+				55481.43, -- [11]
+				55481.43, -- [12]
+				55481.907, -- [13]
+				55482.069, -- [14]
+				55482.069, -- [15]
+				55482.311, -- [16]
+				55483.593, -- [17]
+				55484.04, -- [18]
+				55485.139, -- [19]
+				55485.259, -- [20]
+				55486.353, -- [21]
+				55486.353, -- [22]
+				55486.353, -- [23]
+				55486.353, -- [24]
+				55486.846, -- [25]
+				55487.509, -- [26]
+				55488.418, -- [27]
+				55488.418, -- [28]
+				55488.74, -- [29]
+				55490.835, -- [30]
+				55491.123, -- [31]
+				55491.123, -- [32]
+				55492.421, -- [33]
+				55492.758, -- [34]
+				55492.758, -- [35]
+				55492.758, -- [36]
+				55492.758, -- [37]
+				55493.676, -- [38]
+				55507.358, -- [39]
+				55509.57, -- [40]
+				55511.488, -- [41]
+				55512.007, -- [42]
+				55512.007, -- [43]
+				55512.625, -- [44]
+				55512.723, -- [45]
+				55512.956, -- [46]
+				55513.911, -- [47]
+				55514.12, -- [48]
+				55514.12, -- [49]
+				55514.745, -- [50]
+			},
 			["Fights"] = {
-				["Fight5"] = {
+				["LastFightData"] = {
 					["DOTs"] = {
 					},
 					["ElementDoneResist"] = {
 					},
 					["Ressed"] = 0,
-					["DamageTaken"] = 195,
+					["DamageTaken"] = 0,
 					["RageGainedFrom"] = {
 					},
 					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 9,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 10,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
+					["ElementHitsDone"] = {
 					},
-					["ManaGain"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["ElementTaken"] = {
-						["Physical"] = 25,
-						["Melee"] = 170,
-						["Fire"] = 0,
 					},
 					["DOT_Time"] = 0,
-					["Damage"] = 361,
-					["ElementDoneAbsorb"] = {
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
 					},
-					["TimeHeal"] = 3,
+					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-						["Falling"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["食肉"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["凿击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 10,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 0,
-						},
+					["ElementTakenResist"] = {
 					},
-					["RageGain"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
 					["FAttacks"] = {
 					},
-					["PartialBlock"] = {
-						["肉搏"] = {
-							["Details"] = {
-								["被格挡"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDone"] = {
-						["Melee"] = 238,
-						["Holy"] = 123,
 					},
-					["CCBroken"] = {
+					["PartialAbsorb"] = {
 					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 10,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 10,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Resist"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 9,
-						},
+					["DamagedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["PartialBlock"] = {
+					},
 					["WhoDamaged"] = {
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["纳什尔"] = {
-							["Details"] = {
-								["食肉"] = {
-									["count"] = 25,
-								},
-							},
-							["amount"] = 25,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 0,
-								},
-								["Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["凿击"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["布劳勒尔"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 126,
-								},
-							},
-							["amount"] = 126,
-						},
-						["格劳姆格"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 44,
-								},
-							},
-							["amount"] = 44,
-						},
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["RunicPowerGainedFrom"] = {
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
-						["若丶无弃"] = {
-							["Details"] = {
-								["圣光术"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["特变电工"] = {
-							["Details"] = {
-								["圣光术"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
 					},
 					["OverHeals"] = {
 					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["ActiveTime"] = 20.69,
-					["CCBreak"] = 0,
+					["HealedWho"] = {
+					},
 					["EnergyGain"] = 0,
-					["WhoHealed"] = {
-						["若丶无弃"] = {
-							["Details"] = {
-								["圣光术"] = {
-									["count"] = 188,
-								},
-							},
-							["amount"] = 188,
-						},
-					},
-					["PartialResist"] = {
-						["Falling"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["食肉"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-						["凿击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 10,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 10,
-						},
-					},
 					["ManaGained"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["FDamage"] = 0,
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
+					["TimeSpent"] = {
 					},
 					["WhoDispelled"] = {
 					},
-					["TimeSpent"] = {
-						["特变电工"] = {
-							["Details"] = {
-								["圣光术"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["纳什尔"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 1.2,
-								},
-								["肉搏"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 10.2,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["布劳勒尔"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0.37,
-								},
-								["肉搏"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3.37,
-						},
-						["若丶无弃"] = {
-							["Details"] = {
-								["圣光术"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["格劳姆格"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 1.5,
-								},
-								["肉搏"] = {
-									["count"] = 2.62,
-								},
-							},
-							["amount"] = 4.12,
-						},
-					},
-					["Heals"] = {
-						["圣光术"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 189,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 377,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 377,
-						},
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-						["若丶无弃"] = {
-							["Details"] = {
-								["圣光术"] = {
-									["count"] = 188,
-								},
-							},
-							["amount"] = 188,
-						},
-						["特变电工"] = {
-							["Details"] = {
-								["圣光术"] = {
-									["count"] = 189,
-								},
-							},
-							["amount"] = 189,
-						},
-					},
-					["Healing"] = 377,
-					["RunicPowerGained"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["Attacks"] = {
-						["正义圣印"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 9,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 49,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 49,
-						},
-						["正义审判"] = {
-							["Details"] = {
-								["Resist"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 38,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 74,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 74,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 27,
-									["min"] = 0,
-									["count"] = 10,
-									["amount"] = 238,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 238,
-						},
-					},
-					["HealingTaken"] = 188,
-					["DamagedWho"] = {
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["正义圣印"] = {
-									["count"] = 0,
-								},
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["正义圣印"] = {
-									["count"] = 0,
-								},
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["纳什尔"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 143,
-								},
-								["正义圣印"] = {
-									["count"] = 33,
-								},
-							},
-							["amount"] = 176,
-						},
-						["格劳姆格"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 38,
-								},
-								["肉搏"] = {
-									["count"] = 45,
-								},
-							},
-							["amount"] = 83,
-						},
-						["布劳勒尔"] = {
-							["Details"] = {
-								["正义圣印"] = {
-									["count"] = 16,
-								},
-								["正义审判"] = {
-									["count"] = 36,
-								},
-								["肉搏"] = {
-									["count"] = 50,
-								},
-							},
-							["amount"] = 102,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["正义圣印"] = {
-									["count"] = 0,
-								},
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["正义圣印"] = {
-									["count"] = 0,
-								},
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 17.69,
-					["TimeDamaging"] = {
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["纳什尔"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 1.2,
-								},
-								["肉搏"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 10.2,
-						},
-						["格劳姆格"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 1.5,
-								},
-								["肉搏"] = {
-									["count"] = 2.62,
-								},
-							},
-							["amount"] = 4.12,
-						},
-						["布劳勒尔"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0.37,
-								},
-								["肉搏"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3.37,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
+					["InterruptData"] = {
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
 					},
 					["DispelledWho"] = {
 					},
@@ -928,143 +472,46 @@ RecountPerCharDB = {
 					["RageGainedFrom"] = {
 					},
 					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
+					["ElementHitsDone"] = {
 					},
-					["ManaGain"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["ElementTaken"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementDoneAbsorb"] = {
+					["ElementTakenBlock"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-						["凿击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
+					["ElementTakenResist"] = {
 					},
-					["RageGain"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
 					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
 					},
 					["PartialBlock"] = {
 					},
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Holy"] = 0,
-					},
-					["CCBroken"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
 					["WhoDamaged"] = {
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["凿击"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["RunicPowerGainedFrom"] = {
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -1072,488 +519,131 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["RageGained"] = {
+					["ManaGainedFrom"] = {
 					},
-					["ActiveTime"] = 0,
+					["RunicPowerGained"] = {
+					},
 					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-						["凿击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
+					["RageGained"] = {
 					},
 					["HealedWho"] = {
 					},
-					["Healing"] = 0,
-					["RunicPowerGained"] = {
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
 					},
-					["ManaGainedFrom"] = {
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
 					},
-					["Attacks"] = {
-						["正义圣印"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["正义审判"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
+					["WhoDispelled"] = {
 					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["正义圣印"] = {
-									["count"] = 0,
-								},
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["正义圣印"] = {
-									["count"] = 0,
-								},
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["正义圣印"] = {
-									["count"] = 0,
-								},
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["正义圣印"] = {
-									["count"] = 0,
-								},
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
+					["InterruptData"] = {
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
 					},
 					["DispelledWho"] = {
 					},
 				},
 				["OverallData"] = {
 					["ElementDoneBlock"] = {
-						["Melee"] = 34,
+						["Melee"] = 12,
 					},
-					["TimeHealing"] = {
-						["若丶无弃"] = {
-							["Details"] = {
-								["圣光术"] = {
-									["count"] = 4.5,
-								},
-							},
-							["amount"] = 4.5,
-						},
-						["特变电工"] = {
-							["Details"] = {
-								["圣光术"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["OverHeals"] = {
-						["圣光术"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 77,
-									["min"] = 9,
-									["count"] = 2,
-									["amount"] = 86,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 86,
-						},
+					["ElementDoneResist"] = {
+						["Nature"] = 5,
 					},
 					["TimeSpent"] = {
-						["特变电工"] = {
+						["黑石暗影法师"] = {
 							["Details"] = {
-								["圣光术"] = {
-									["count"] = 6,
+								["脚踢"] = {
+									["count"] = 0.34,
 								},
-							},
-							["amount"] = 6,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 15.48,
+								["影袭"] = {
+									["count"] = 1.84,
 								},
 								["肉搏"] = {
-									["count"] = 76.60000000000001,
+									["count"] = 4.3,
 								},
 							},
-							["amount"] = 92.08,
+							["amount"] = 6.48,
 						},
-						["纳什尔"] = {
+						["森格"] = {
 							["Details"] = {
-								["正义审判"] = {
-									["count"] = 1.2,
+								["脚踢"] = {
+									["count"] = 0.8300000000000001,
+								},
+								["影袭"] = {
+									["count"] = 2.68,
 								},
 								["肉搏"] = {
-									["count"] = 9,
+									["count"] = 18.13,
 								},
 							},
-							["amount"] = 10.2,
+							["amount"] = 21.64,
 						},
-						["若丶无弃"] = {
+						["黑石哨兵"] = {
 							["Details"] = {
-								["圣光术"] = {
-									["count"] = 4.5,
-								},
-							},
-							["amount"] = 4.5,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 13.51,
+								["影袭"] = {
+									["count"] = 5.23,
 								},
 								["肉搏"] = {
-									["count"] = 58.36,
+									["count"] = 26.46,
 								},
 							},
-							["amount"] = 71.87,
+							["amount"] = 31.69000000000001,
 						},
-						["碎石怪先知"] = {
+						["黑石猎人"] = {
 							["Details"] = {
-								["正义审判"] = {
-									["count"] = 9.680000000000001,
+								["影袭"] = {
+									["count"] = 2.03,
 								},
 								["肉搏"] = {
-									["count"] = 35.94000000000001,
+									["count"] = 9.81,
 								},
 							},
-							["amount"] = 45.62000000000001,
+							["amount"] = 11.84,
 						},
-						["布劳勒尔"] = {
+						["加塞尔佐格"] = {
 							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0.37,
+								["灼热武器"] = {
+									["count"] = 1.31,
+								},
+								["速效药膏"] = {
+									["count"] = 0.23,
+								},
+								["影袭"] = {
+									["count"] = 1.57,
 								},
 								["肉搏"] = {
-									["count"] = 3,
+									["count"] = 18.33,
 								},
 							},
-							["amount"] = 3.37,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 16.12,
-								},
-								["肉搏"] = {
-									["count"] = 77.01999999999998,
-								},
-							},
-							["amount"] = 93.13999999999997,
-						},
-						["格劳姆格"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 1.5,
-								},
-								["肉搏"] = {
-									["count"] = 2.62,
-								},
-							},
-							["amount"] = 4.12,
+							["amount"] = 21.44000000000001,
 						},
 					},
-					["HealedWho"] = {
-						["若丶无弃"] = {
-							["Details"] = {
-								["圣光术"] = {
-									["count"] = 526,
-								},
-							},
-							["amount"] = 526,
-						},
-						["特变电工"] = {
-							["Details"] = {
-								["圣光术"] = {
-									["count"] = 642,
-								},
-							},
-							["amount"] = 642,
-						},
-					},
+					["DamageTaken"] = 860,
 					["PartialResist"] = {
-						["Falling"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-						["打击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 4,
-						},
-						["凿击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 8,
-						},
-						["食肉"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-						["闪电箭"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-						["Fire"] = {
+						["火球术"] = {
 							["Details"] = {
 								["未被抵抗"] = {
 									["max"] = 0,
@@ -1565,93 +655,33 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 2,
 						},
-						["投掷"] = {
+						["暗影箭"] = {
 							["Details"] = {
 								["未被抵抗"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 10,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
 							["count"] = 0,
-							["amount"] = 10,
+							["amount"] = 1,
 						},
 						["肉搏"] = {
 							["Details"] = {
 								["未被抵抗"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 139,
+									["count"] = 25,
 									["amount"] = 0,
 								},
 							},
 							["count"] = 0,
-							["amount"] = 139,
+							["amount"] = 25,
 						},
 					},
 					["PartialAbsorb"] = {
-						["Falling"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["打击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["凿击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 0,
-						},
-						["食肉"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["闪电箭"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Fire"] = {
+						["火球术"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
@@ -1663,16 +693,16 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["投掷"] = {
+						["暗影箭"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 10,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 10,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["肉搏"] = {
@@ -1680,2761 +710,533 @@ RecountPerCharDB = {
 								["未被吸收"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 139,
+									["count"] = 25,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 139,
+							["count"] = 25,
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 330.9,
+					["ActiveTime"] = 93.08999999999995,
 					["ElementTaken"] = {
-						["Physical"] = 340,
-						["Fire"] = 46,
-						["Melee"] = 2062,
-						["Nature"] = 53,
+						["Fire"] = 270,
+						["Melee"] = 510,
+						["Shadow"] = 80,
 					},
-					["TimeHeal"] = 10.5,
-					["Damage"] = 7096,
-					["WhoHealed"] = {
-						["若丶无弃"] = {
+					["Damage"] = 3841,
+					["InterruptData"] = {
+						["黑石暗影法师"] = {
 							["Details"] = {
-								["圣光术"] = {
-									["count"] = 526,
+								["暗影箭 (脚踢)"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 526,
+							["amount"] = 1,
+						},
+						["森格"] = {
+							["Details"] = {
+								["火球术 (脚踢)"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
 						},
 					},
-					["Heals"] = {
-						["圣光术"] = {
+					["Interrupts"] = 3,
+					["DamagedWho"] = {
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 12,
+								},
+								["灼热武器"] = {
+									["count"] = 40,
+								},
+								["影袭"] = {
+									["count"] = 144,
+								},
+								["肉搏"] = {
+									["count"] = 64,
+								},
+							},
+							["amount"] = 260,
+						},
+						["森格"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 36,
+								},
+								["影袭"] = {
+									["count"] = 277,
+								},
+								["灼热武器"] = {
+									["count"] = 120,
+								},
+								["速效药膏"] = {
+									["count"] = 89,
+								},
+								["肉搏"] = {
+									["count"] = 370,
+								},
+							},
+							["amount"] = 892,
+						},
+						["黑石哨兵"] = {
+							["Details"] = {
+								["灼热武器"] = {
+									["count"] = 240,
+								},
+								["速效药膏"] = {
+									["count"] = 112,
+								},
+								["影袭"] = {
+									["count"] = 444,
+								},
+								["肉搏"] = {
+									["count"] = 752,
+								},
+							},
+							["amount"] = 1548,
+						},
+						["黑石猎人"] = {
+							["Details"] = {
+								["灼热武器"] = {
+									["count"] = 80,
+								},
+								["速效药膏"] = {
+									["count"] = 20,
+								},
+								["影袭"] = {
+									["count"] = 142,
+								},
+								["肉搏"] = {
+									["count"] = 317,
+								},
+							},
+							["amount"] = 559,
+						},
+						["加塞尔佐格"] = {
+							["Details"] = {
+								["灼热武器"] = {
+									["count"] = 144,
+								},
+								["速效药膏"] = {
+									["count"] = 33,
+								},
+								["影袭"] = {
+									["count"] = 175,
+								},
+								["肉搏"] = {
+									["count"] = 230,
+								},
+							},
+							["amount"] = 582,
+						},
+					},
+					["CCBreak"] = 1,
+					["ElementDone"] = {
+						["Fire"] = 624,
+						["Physical"] = 1230,
+						["Melee"] = 1733,
+						["Nature"] = 254,
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
 							["Details"] = {
 								["Hit"] = {
-									["max"] = 189,
-									["min"] = 107,
-									["count"] = 7,
-									["amount"] = 1168,
+									["count"] = 2,
 								},
 							},
-							["count"] = 7,
-							["amount"] = 1168,
+							["amount"] = 2,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 8,
+								},
+								["Hit"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 25,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
 						},
 					},
-					["DamageTaken"] = 2501,
-					["WhoDamaged"] = {
-						["碎石怪斥候"] = {
+					["ElementHitsDone"] = {
+						["Fire"] = {
 							["Details"] = {
-								["投掷"] = {
+								["Resist"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 16,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 2,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 25,
+								},
+							},
+							["amount"] = 30,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 27,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 32,
+								},
+								["Hit"] = {
+									["count"] = 35,
+								},
+								["Block"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 16,
+								},
+								["Parry"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 116,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["TimeDamage"] = 93.08999999999995,
+					["TimeDamaging"] = {
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0.34,
+								},
+								["影袭"] = {
+									["count"] = 1.84,
+								},
+								["肉搏"] = {
+									["count"] = 4.3,
+								},
+							},
+							["amount"] = 6.48,
+						},
+						["森格"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0.8300000000000001,
+								},
+								["影袭"] = {
+									["count"] = 2.68,
+								},
+								["肉搏"] = {
+									["count"] = 18.13,
+								},
+							},
+							["amount"] = 21.64,
+						},
+						["黑石哨兵"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 5.23,
+								},
+								["肉搏"] = {
+									["count"] = 26.46,
+								},
+							},
+							["amount"] = 31.69000000000001,
+						},
+						["黑石猎人"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 2.03,
+								},
+								["肉搏"] = {
+									["count"] = 9.81,
+								},
+							},
+							["amount"] = 11.84,
+						},
+						["加塞尔佐格"] = {
+							["Details"] = {
+								["灼热武器"] = {
+									["count"] = 1.31,
+								},
+								["速效药膏"] = {
+									["count"] = 0.23,
+								},
+								["影袭"] = {
+									["count"] = 1.57,
+								},
+								["肉搏"] = {
+									["count"] = 18.33,
+								},
+							},
+							["amount"] = 21.44000000000001,
+						},
+					},
+					["Attacks"] = {
+						["脚踢"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 12,
+									["min"] = 12,
+									["count"] = 4,
+									["amount"] = 48,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 48,
+						},
+						["影袭"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 94,
+									["min"] = 69,
+									["count"] = 2,
+									["amount"] = 163,
+								},
+								["Hit"] = {
+									["max"] = 58,
+									["min"] = 34,
+									["count"] = 21,
+									["amount"] = 1019,
+								},
+							},
+							["count"] = 26,
+							["amount"] = 1182,
+						},
+						["灼热武器"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 40,
+									["min"] = 36,
+									["count"] = 16,
+									["amount"] = 624,
+								},
+							},
+							["count"] = 18,
+							["amount"] = 624,
+						},
+						["速效药膏"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 25,
+									["min"] = 15,
+									["count"] = 12,
+									["amount"] = 254,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 254,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 29,
+									["min"] = 3,
+									["count"] = 27,
+									["amount"] = 269,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 32,
+									["amount"] = 0,
+								},
+								["Hit (被格挡)"] = {
+									["max"] = 2,
+									["min"] = 2,
+									["count"] = 1,
+									["amount"] = 2,
+								},
+								["Hit"] = {
+									["max"] = 38,
+									["min"] = 9,
+									["count"] = 34,
+									["amount"] = 729,
+								},
+								["Crit"] = {
+									["max"] = 74,
+									["min"] = 19,
+									["count"] = 16,
+									["amount"] = 733,
+								},
+								["Parry"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 115,
+							["amount"] = 1733,
+						},
+					},
+					["WhoDamaged"] = {
+						["黑石哨兵"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 128,
+								},
+							},
+							["amount"] = 128,
+						},
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["暗影箭"] = {
+									["count"] = 80,
+								},
+								["肉搏"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 102,
+						},
+						["黑石猎人"] = {
+							["Details"] = {
+								["肉搏"] = {
 									["count"] = 150,
 								},
 							},
 							["amount"] = 150,
 						},
-						["碎石怪断骨者"] = {
+						["森格"] = {
 							["Details"] = {
-								["肉搏"] = {
-									["count"] = 657,
-								},
-								["打击"] = {
-									["count"] = 117,
-								},
-							},
-							["amount"] = 774,
-						},
-						["纳什尔"] = {
-							["Details"] = {
-								["食肉"] = {
-									["count"] = 25,
-								},
-							},
-							["amount"] = 25,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 427,
-								},
-							},
-							["amount"] = 427,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 92,
-								},
-							},
-							["amount"] = 92,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 8,
-								},
-								["Fire"] = {
-									["count"] = 46,
-								},
-							},
-							["amount"] = 54,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["凿击"] = {
-									["count"] = 40,
+								["火球术"] = {
+									["count"] = 270,
 								},
 								["肉搏"] = {
-									["count"] = 635,
+									["count"] = 210,
 								},
 							},
-							["amount"] = 675,
+							["amount"] = 480,
 						},
-						["布劳勒尔"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 126,
-								},
-							},
-							["amount"] = 126,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["闪电箭"] = {
-									["count"] = 53,
-								},
-								["肉搏"] = {
-									["count"] = 81,
-								},
-							},
-							["amount"] = 134,
-						},
-						["格劳姆格"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 44,
-								},
-							},
-							["amount"] = 44,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 21,
-								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 24,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 108,
-								},
-								["Dodge"] = {
-									["count"] = 2,
-								},
-								["Miss"] = {
-									["count"] = 9,
-								},
-								["Block"] = {
-									["count"] = 5,
-								},
-								["Crit"] = {
-									["count"] = 10,
-								},
-								["Parry"] = {
-									["count"] = 10,
-								},
-							},
-							["amount"] = 144,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["Healing"] = 1168,
-					["DamagedWho"] = {
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["正义圣印"] = {
-									["count"] = 200,
-								},
-								["正义审判"] = {
-									["count"] = 517,
-								},
-								["肉搏"] = {
-									["count"] = 1148,
-								},
-							},
-							["amount"] = 1865,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["正义圣印"] = {
-									["count"] = 178,
-								},
-								["正义审判"] = {
-									["count"] = 451,
-								},
-								["肉搏"] = {
-									["count"] = 1363,
-								},
-							},
-							["amount"] = 1992,
-						},
-						["纳什尔"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 143,
-								},
-								["正义圣印"] = {
-									["count"] = 33,
-								},
-							},
-							["amount"] = 176,
-						},
-						["格劳姆格"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 38,
-								},
-								["肉搏"] = {
-									["count"] = 45,
-								},
-							},
-							["amount"] = 83,
-						},
-						["布劳勒尔"] = {
-							["Details"] = {
-								["正义圣印"] = {
-									["count"] = 16,
-								},
-								["正义审判"] = {
-									["count"] = 36,
-								},
-								["肉搏"] = {
-									["count"] = 50,
-								},
-							},
-							["amount"] = 102,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["正义圣印"] = {
-									["count"] = 134,
-								},
-								["正义审判"] = {
-									["count"] = 453,
-								},
-								["肉搏"] = {
-									["count"] = 1065,
-								},
-							},
-							["amount"] = 1652,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["正义圣印"] = {
-									["count"] = 126,
-								},
-								["正义审判"] = {
-									["count"] = 337,
-								},
-								["肉搏"] = {
-									["count"] = 763,
-								},
-							},
-							["amount"] = 1226,
-						},
-					},
-					["Attacks"] = {
-						["正义圣印"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 14,
-									["min"] = 8,
-									["count"] = 75,
-									["amount"] = 687,
-								},
-							},
-							["count"] = 75,
-							["amount"] = 687,
-						},
-						["正义审判"] = {
-							["Details"] = {
-								["Resist"] = {
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 55,
-									["min"] = 52,
-									["count"] = 4,
-									["amount"] = 215,
-								},
-								["Hit"] = {
-									["max"] = 39,
-									["min"] = 34,
-									["count"] = 45,
-									["amount"] = 1617,
-								},
-							},
-							["count"] = 52,
-							["amount"] = 1832,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 32,
-									["min"] = 19,
-									["count"] = 8,
-									["amount"] = 194,
-								},
-								["Parry"] = {
-									["count"] = 6,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 9,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 35,
-									["min"] = 20,
-									["count"] = 160,
-									["amount"] = 4073,
-								},
-								["Miss"] = {
-									["count"] = 7,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 70,
-									["min"] = 44,
-									["count"] = 4,
-									["amount"] = 214,
-								},
-								["Hit (被格挡)"] = {
-									["max"] = 25,
-									["min"] = 16,
-									["count"] = 5,
-									["amount"] = 96,
-								},
-							},
-							["count"] = 199,
-							["amount"] = 4577,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 4577,
-						["Holy"] = 2519,
-					},
-					["HealingTaken"] = 526,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 8,
-								},
-								["Hit"] = {
-									["count"] = 165,
-								},
-								["Dodge"] = {
-									["count"] = 9,
-								},
-								["Miss"] = {
-									["count"] = 7,
-								},
-								["Block"] = {
-									["count"] = 5,
-								},
-								["Crit"] = {
-									["count"] = 4,
-								},
-								["Parry"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 204,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Resist"] = {
-									["count"] = 3,
-								},
-								["Crit"] = {
-									["count"] = 4,
-								},
-								["Hit"] = {
-									["count"] = 120,
-								},
-							},
-							["amount"] = 127,
-						},
-					},
-					["TimeDamage"] = 320.4,
-					["TimeDamaging"] = {
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 15.48,
-								},
-								["肉搏"] = {
-									["count"] = 76.60000000000001,
-								},
-							},
-							["amount"] = 92.08,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 16.12,
-								},
-								["肉搏"] = {
-									["count"] = 77.01999999999998,
-								},
-							},
-							["amount"] = 93.13999999999997,
-						},
-						["纳什尔"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 1.2,
-								},
-								["肉搏"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 10.2,
-						},
-						["格劳姆格"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 1.5,
-								},
-								["肉搏"] = {
-									["count"] = 2.62,
-								},
-							},
-							["amount"] = 4.12,
-						},
-						["布劳勒尔"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0.37,
-								},
-								["肉搏"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3.37,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 13.51,
-								},
-								["肉搏"] = {
-									["count"] = 58.36,
-								},
-							},
-							["amount"] = 71.87,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 9.680000000000001,
-								},
-								["肉搏"] = {
-									["count"] = 35.94000000000001,
-								},
-							},
-							["amount"] = 45.62000000000001,
-						},
-					},
-					["Overhealing"] = 86,
-					["ElementTakenBlock"] = {
-						["Melee"] = 26,
-					},
-					["PartialBlock"] = {
-						["肉搏"] = {
-							["Details"] = {
-								["被格挡"] = {
-									["max"] = 6,
-									["min"] = 5,
-									["count"] = 5,
-									["amount"] = 26,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 26,
-						},
-					},
-				},
-				["Fight1"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 66,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 23,
-						["Physical"] = 43,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-						["凿击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["打击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
-					["PartialBlock"] = {
-						["肉搏"] = {
-							["Details"] = {
-								["被格挡"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Holy"] = 0,
 					},
 					["CCBroken"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
+						["闷棍 (影袭)"] = {
 							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Resist"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoDamaged"] = {
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 43,
-								},
-							},
-							["amount"] = 43,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 23,
-								},
-							},
-							["amount"] = 23,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHealing"] = {
-						["若丶无弃"] = {
-							["Details"] = {
-								["圣光术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
-					["WhoHealed"] = {
-						["若丶无弃"] = {
-							["Details"] = {
-								["圣光术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialResist"] = {
-						["凿击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["打击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 3,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 2,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["若丶无弃"] = {
-							["Details"] = {
-								["圣光术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-						["圣光术"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-						["若丶无弃"] = {
-							["Details"] = {
-								["圣光术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["Attacks"] = {
-						["正义圣印"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["正义审判"] = {
-							["Details"] = {
-								["Resist"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit (被格挡)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["正义圣印"] = {
-									["count"] = 0,
-								},
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["正义圣印"] = {
-									["count"] = 0,
-								},
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["正义圣印"] = {
-									["count"] = 0,
-								},
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["正义圣印"] = {
-									["count"] = 0,
-								},
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 66,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 23,
-						["Physical"] = 43,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-						["凿击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["打击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
-					["PartialBlock"] = {
-						["肉搏"] = {
-							["Details"] = {
-								["被格挡"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Holy"] = 0,
-					},
-					["CCBroken"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Resist"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoDamaged"] = {
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 43,
-								},
-							},
-							["amount"] = 43,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 23,
-								},
-							},
-							["amount"] = 23,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHealing"] = {
-						["若丶无弃"] = {
-							["Details"] = {
-								["圣光术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
-					["WhoHealed"] = {
-						["若丶无弃"] = {
-							["Details"] = {
-								["圣光术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialResist"] = {
-						["凿击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["打击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 3,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 2,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["若丶无弃"] = {
-							["Details"] = {
-								["圣光术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-						["圣光术"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-						["若丶无弃"] = {
-							["Details"] = {
-								["圣光术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["Attacks"] = {
-						["正义圣印"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["正义审判"] = {
-							["Details"] = {
-								["Resist"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit (被格挡)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["正义圣印"] = {
-									["count"] = 0,
-								},
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["正义圣印"] = {
-									["count"] = 0,
-								},
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["正义圣印"] = {
-									["count"] = 0,
-								},
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["正义圣印"] = {
-									["count"] = 0,
-								},
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight2"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 40,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Physical"] = 7,
-						["Melee"] = 33,
-						["Fire"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 169,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-						["打击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["凿击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
-					["PartialBlock"] = {
-						["肉搏"] = {
-							["Details"] = {
-								["被格挡"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 116,
-						["Holy"] = 53,
-					},
-					["CCBroken"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoDamaged"] = {
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-								["打击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["凿击"] = {
-									["count"] = 7,
-								},
-								["肉搏"] = {
-									["count"] = 33,
-								},
-							},
-							["amount"] = 40,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 7,
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 7.6,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-						["打击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["凿击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 3,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["碎石怪先知"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 1.5,
-								},
-								["肉搏"] = {
-									["count"] = 0.1,
-								},
-							},
-							["amount"] = 1.6,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["Heals"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["Attacks"] = {
-						["正义圣印"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 8,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 16,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 16,
-						},
-						["正义审判"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 37,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 37,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 37,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 29,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 99,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit (被格挡)"] = {
-									["max"] = 17,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 17,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 116,
-						},
-					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["碎石怪先知"] = {
-							["Details"] = {
-								["正义圣印"] = {
-									["count"] = 0,
-								},
-								["正义审判"] = {
-									["count"] = 37,
-								},
-								["肉搏"] = {
-									["count"] = 29,
-								},
-							},
-							["amount"] = 66,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["正义圣印"] = {
-									["count"] = 0,
-								},
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["正义圣印"] = {
-									["count"] = 16,
-								},
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 87,
-								},
-							},
-							["amount"] = 103,
-						},
-					},
-					["TimeDamage"] = 7.6,
-					["TimeDamaging"] = {
-						["碎石怪先知"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 1.5,
-								},
-								["肉搏"] = {
-									["count"] = 0.1,
-								},
-							},
-							["amount"] = 1.6,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight3"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 47,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
+								["黑石哨兵"] = {
 									["count"] = 1,
 								},
 							},
 							["amount"] = 1,
 						},
 					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 47,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 125,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-						["凿击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 81,
-						["Holy"] = 44,
-					},
-					["CCBroken"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoDamaged"] = {
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 47,
-								},
-							},
-							["amount"] = 47,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 4.6,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-						["凿击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 3,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 1.5,
-								},
-								["肉搏"] = {
-									["count"] = 3.1,
-								},
-							},
-							["amount"] = 4.6,
-						},
-					},
-					["Heals"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["Attacks"] = {
-						["正义圣印"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 8,
-									["min"] = 8,
-									["count"] = 1,
-									["amount"] = 8,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 8,
-						},
-						["正义审判"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 36,
-									["min"] = 36,
-									["count"] = 1,
-									["amount"] = 36,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 36,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 28,
-									["min"] = 26,
-									["count"] = 3,
-									["amount"] = 81,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 81,
-						},
-					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["正义圣印"] = {
-									["count"] = 8,
-								},
-								["正义审判"] = {
-									["count"] = 36,
-								},
-								["肉搏"] = {
-									["count"] = 81,
-								},
-							},
-							["amount"] = 125,
-						},
-					},
-					["TimeDamage"] = 4.6,
-					["TimeDamaging"] = {
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["正义审判"] = {
-									["count"] = 1.5,
-								},
-								["肉搏"] = {
-									["count"] = 3.1,
-								},
-							},
-							["amount"] = 4.6,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["DispelledWho"] = {
-					},
 				},
 			},
-			["Owner"] = false,
-			["LastEventTimes"] = {
-				60751.894, -- [1]
-				60755.591, -- [2]
-				60758.172, -- [3]
-				60760.125, -- [4]
-				60614.423, -- [5]
-				60615.836, -- [6]
-				60615.836, -- [7]
-				60615.836, -- [8]
-				60616.448, -- [9]
-				60617.848, -- [10]
-				60619.118, -- [11]
-				60619.118, -- [12]
-				60619.621, -- [13]
-				60621.16, -- [14]
-				60621.303, -- [15]
-				60621.303, -- [16]
-				60622.507, -- [17]
-				60622.692, -- [18]
-				60625.46, -- [19]
-				60628.439, -- [20]
-				60630.66600000001, -- [21]
-				60630.66600000001, -- [22]
-				60630.66600000001, -- [23]
-				60634.929, -- [24]
-				60637.471, -- [25]
-				60638.548, -- [26]
-				60639.672, -- [27]
-				60641.825, -- [28]
-				60683.788, -- [29]
-				60683.788, -- [30]
-				60683.89, -- [31]
-				60685.724, -- [32]
-				60686.002, -- [33]
-				60687.735, -- [34]
-				60688.124, -- [35]
-				60688.281, -- [36]
-				60688.281, -- [37]
-				60698.625, -- [38]
-				60698.625, -- [39]
-				60700.643, -- [40]
-				60701.659, -- [41]
-				60701.757, -- [42]
-				60702.619, -- [43]
-				60704.061, -- [44]
-				60706.262, -- [45]
-				60706.262, -- [46]
-				60708.389, -- [47]
-				60708.389, -- [48]
-				60711.125, -- [49]
-				60737.947, -- [50]
-			},
-			["NextEventNum"] = 5,
-			["LastDamageTime"] = 60711.125,
-			["LastEvents"] = {
-				"碎石怪斥候 投掷 若丶无弃 Hit -13 (Physical)", -- [1]
-				"碎石怪斥候 投掷 若丶无弃 Hit -14 (Physical)", -- [2]
-				"碎石穴居人 肉搏 若丶无弃 Hit -12 (Physical)", -- [3]
-				"碎石穴居人 肉搏 若丶无弃 Hit -11 (Physical)", -- [4]
-				"格劳姆格 肉搏 若丶无弃 Hit -22 (Physical)", -- [5]
-				"布劳勒尔 肉搏 若丶无弃 Hit -19 (Physical)", -- [6]
-				"若丶无弃 肉搏 布劳勒尔 Hit -27 (Physical)", -- [7]
-				"若丶无弃 正义圣印 布劳勒尔 Hit -8 (Holy)", -- [8]
-				"格劳姆格 肉搏 若丶无弃 Hit -22 (Physical)", -- [9]
-				"布劳勒尔 肉搏 若丶无弃 Hit -17 (Physical)", -- [10]
-				"若丶无弃 肉搏 纳什尔 Hit -23 (Physical)", -- [11]
-				"若丶无弃 正义圣印 纳什尔 Hit -9 (Holy)", -- [12]
-				"布劳勒尔 肉搏 若丶无弃 Hit -17 (Physical)", -- [13]
-				"布劳勒尔 肉搏 若丶无弃 Hit -18 (Physical)", -- [14]
-				"若丶无弃 肉搏 纳什尔 Hit -26 (Physical)", -- [15]
-				"若丶无弃 正义圣印 纳什尔 Hit -8 (Holy)", -- [16]
-				"若丶无弃 正义审判 纳什尔 Resist (Holy)", -- [17]
-				"布劳勒尔 肉搏 若丶无弃 Hit -16 (Physical)", -- [18]
-				"若丶无弃 肉搏 纳什尔 Hit -24 (Physical)", -- [19]
-				"若丶无弃 肉搏 纳什尔 Hit -23 (Physical)", -- [20]
-				"若丶无弃 肉搏 纳什尔 Hit -25 (Physical)", -- [21]
-				"若丶无弃 正义圣印 纳什尔 Hit -8 (Holy)", -- [22]
-				"纳什尔 食肉 若丶无弃 Hit -25 (Physical)", -- [23]
-				"若丶无弃 圣光术 若丶无弃 Hit +188", -- [24]
-				"若丶无弃 圣光术 特变电工 Hit +189", -- [25]
-				"若丶无弃 正义审判 格劳姆格 Hit -38 (Holy)", -- [26]
-				"若丶无弃 肉搏 格劳姆格 Hit -24 (Physical)", -- [27]
-				"若丶无弃 肉搏 格劳姆格 Hit -21 (Physical)", -- [28]
-				"碎石怪击颅者 肉搏 若丶无弃 Hit -15 (Physical)", -- [29]
-				"若丶无弃 正义审判 碎石怪击颅者 Hit -36 (Holy)", -- [30]
-				"若丶无弃 肉搏 碎石怪击颅者 Hit -28 (Physical)", -- [31]
-				"碎石怪击颅者 肉搏 若丶无弃 Hit -15 (Physical)", -- [32]
-				"若丶无弃 肉搏 碎石怪击颅者 Hit -27 (Physical)", -- [33]
-				"碎石怪击颅者 肉搏 若丶无弃 Hit -17 (Physical)", -- [34]
-				"碎石怪击颅者 凿击 若丶无弃 Miss (Physical)", -- [35]
-				"若丶无弃 肉搏 碎石怪击颅者 Hit -26 (Physical)", -- [36]
-				"若丶无弃 正义圣印 碎石怪击颅者 Hit -8 (Holy)", -- [37]
-				"碎石怪击颅者 肉搏 若丶无弃 Parry (1)", -- [38]
-				"碎石怪击颅者 凿击 若丶无弃 Hit -7 (Physical)", -- [39]
-				"碎石怪击颅者 肉搏 若丶无弃 Hit -16 (Physical)", -- [40]
-				"若丶无弃 正义审判 碎石怪先知 Hit -37 (Holy)", -- [41]
-				"若丶无弃 肉搏 碎石怪先知 Hit -29 (Physical)", -- [42]
-				"碎石怪击颅者 肉搏 若丶无弃 Hit -17 (Physical)", -- [43]
-				"若丶无弃 肉搏 碎石怪击颅者 Hit -27 (Physical)", -- [44]
-				"若丶无弃 肉搏 碎石怪击颅者 Hit -21 (Physical)", -- [45]
-				"若丶无弃 正义圣印 碎石怪击颅者 Hit -8 (Holy)", -- [46]
-				"若丶无弃 肉搏 碎石怪击颅者 Hit -17 (Physical)", -- [47]
-				"若丶无弃 正义圣印 碎石怪击颅者 Hit -8 (Holy)", -- [48]
-				"若丶无弃 肉搏 碎石怪击颅者 Hit -22 (Physical)", -- [49]
-				"碎石怪斥候 投掷 若丶无弃 Hit -16 (Physical)", -- [50]
-			},
-			["Name"] = "若丶无弃",
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				true, -- [3]
-				true, -- [4]
-				true, -- [5]
-				true, -- [6]
-				false, -- [7]
-				false, -- [8]
-				true, -- [9]
-				true, -- [10]
-				false, -- [11]
-				false, -- [12]
-				true, -- [13]
-				true, -- [14]
-				false, -- [15]
-				false, -- [16]
-				false, -- [17]
-				true, -- [18]
-				false, -- [19]
-				false, -- [20]
-				false, -- [21]
-				false, -- [22]
-				true, -- [23]
-				true, -- [24]
-				false, -- [25]
-				false, -- [26]
-				false, -- [27]
-				false, -- [28]
-				true, -- [29]
-				false, -- [30]
-				false, -- [31]
-				true, -- [32]
-				false, -- [33]
-				true, -- [34]
-				true, -- [35]
-				false, -- [36]
-				false, -- [37]
-				true, -- [38]
-				true, -- [39]
-				true, -- [40]
-				false, -- [41]
-				false, -- [42]
-				true, -- [43]
-				false, -- [44]
-				false, -- [45]
-				false, -- [46]
-				false, -- [47]
-				false, -- [48]
-				false, -- [49]
-				true, -- [50]
-			},
-			["LastHealTime"] = 60637.471,
-			["TimeLast"] = {
-				["TimeHeal"] = 60637.305,
-				["OVERALL"] = 60759.304,
-				["DamageTaken"] = 60759.304,
-				["HealingTaken"] = 60634.305,
-				["Overhealing"] = 59812.302,
-				["ActiveTime"] = 60710.311,
-				["Healing"] = 60637.305,
-				["TimeDamage"] = 60710.311,
-				["Damage"] = 60710.311,
-			},
-			["LastEventHealthMax"] = {
-				361, -- [1]
-				361, -- [2]
-				361, -- [3]
-				361, -- [4]
-				361, -- [5]
-				361, -- [6]
-				361, -- [7]
-				361, -- [8]
-				361, -- [9]
-				361, -- [10]
-				361, -- [11]
-				361, -- [12]
-				361, -- [13]
-				361, -- [14]
-				361, -- [15]
-				361, -- [16]
-				361, -- [17]
-				361, -- [18]
-				361, -- [19]
-				361, -- [20]
-				361, -- [21]
-				361, -- [22]
-				361, -- [23]
-				361, -- [24]
-				361, -- [25]
-				361, -- [26]
-				361, -- [27]
-				361, -- [28]
-				361, -- [29]
-				361, -- [30]
-				361, -- [31]
-				361, -- [32]
-				361, -- [33]
-				361, -- [34]
-				361, -- [35]
-				361, -- [36]
-				361, -- [37]
-				361, -- [38]
-				361, -- [39]
-				361, -- [40]
-				361, -- [41]
-				361, -- [42]
-				361, -- [43]
-				361, -- [44]
-				361, -- [45]
-				361, -- [46]
-				361, -- [47]
-				361, -- [48]
-				361, -- [49]
-				361, -- [50]
-			},
-			["LastActive"] = 60759.304,
+			["UnitLockout"] = 55468.846,
+			["LastActive"] = 55516.84400000001,
 		},
 		["特变电工"] = {
 			["GUID"] = "Player-4778-04DBFC9E",
 			["LastEventHealth"] = {
-				292, -- [1]
-				292, -- [2]
-				292, -- [3]
-				292, -- [4]
-				274, -- [5]
-				274, -- [6]
-				274, -- [7]
-				274, -- [8]
-				274, -- [9]
-				274, -- [10]
-				254, -- [11]
-				254, -- [12]
-				254, -- [13]
-				235, -- [14]
-				235, -- [15]
-				235, -- [16]
-				235, -- [17]
-				235, -- [18]
-				235, -- [19]
-				214, -- [20]
-				253, -- [21]
-				253, -- [22]
-				253, -- [23]
-				253, -- [24]
-				237, -- [25]
-				237, -- [26]
-				245, -- [27]
-				245, -- [28]
-				245, -- [29]
-				245, -- [30]
-				245, -- [31]
-				245, -- [32]
-				245, -- [33]
-				245, -- [34]
-				245, -- [35]
-				245, -- [36]
-				258, -- [37]
-				258, -- [38]
-				258, -- [39]
-				258, -- [40]
-				258, -- [41]
-				258, -- [42]
-				258, -- [43]
-				258, -- [44]
-				258, -- [45]
-				309, -- [46]
-				309, -- [47]
-				309, -- [48]
-				309, -- [49]
-				309, -- [50]
+				565, -- [1]
+				565, -- [2]
+				475, -- [3]
+				475, -- [4]
+				475, -- [5]
+				813, -- [6]
+				772, -- [7]
+				772, -- [8]
+				772, -- [9]
+				772, -- [10]
+				828, -- [11]
+				828, -- [12]
+				828, -- [13]
+				791, -- [14]
+				791, -- [15]
+				791, -- [16]
+				791, -- [17]
+				755, -- [18]
+				755, -- [19]
+				755, -- [20]
+				755, -- [21]
+				755, -- [22]
+				755, -- [23]
+				755, -- [24]
+				755, -- [25]
+				713, -- [26]
+				713, -- [27]
+				713, -- [28]
+				713, -- [29]
+				713, -- [30]
+				713, -- [31]
+				713, -- [32]
+				669, -- [33]
+				697, -- [34]
+				697, -- [35]
+				697, -- [36]
+				697, -- [37]
+				697, -- [38]
+				697, -- [39]
+				653, -- [40]
+				653, -- [41]
+				653, -- [42]
+				653, -- [43]
+				653, -- [44]
+				653, -- [45]
+				606, -- [46]
+				606, -- [47]
+				606, -- [48]
+				606, -- [49]
+				565, -- [50]
 			},
-			["LastAttackedBy"] = "碎石怪斥候",
+			["LastAttackedBy"] = "瘟疫食尸鬼",
 			["LastEventType"] = {
 				"DAMAGE", -- [1]
 				"DAMAGE", -- [2]
@@ -4489,377 +1291,428 @@ RecountPerCharDB = {
 			},
 			["TimeWindows"] = {
 				["TimeHeal"] = {
-					1.5, -- [1]
+					12.48, -- [1]
 				},
 				["Healing"] = {
-					83, -- [1]
+					1583, -- [1]
 				},
 				["DamageTaken"] = {
-					3511, -- [1]
-				},
-				["HealingTaken"] = {
-					725, -- [1]
-				},
-				["GTFOEvents"] = {
-					1, -- [1]
-				},
-				["Interrupts"] = {
-					8, -- [1]
-				},
-				["TimeDamage"] = {
-					583.6800000000001, -- [1]
-				},
-				["GTFOEventDamage"] = {
-					20, -- [1]
+					28581, -- [1]
 				},
 				["ActiveTime"] = {
-					585.1800000000001, -- [1]
+					2247.490000000004, -- [1]
+				},
+				["HealingTaken"] = {
+					1583, -- [1]
+				},
+				["HOT_Time"] = {
+					10, -- [1]
+				},
+				["TimeDamage"] = {
+					2235.010000000005, -- [1]
+				},
+				["CCBreak"] = {
+					5, -- [1]
+				},
+				["Interrupts"] = {
+					24, -- [1]
+				},
+				["DOT_Time"] = {
+					3, -- [1]
 				},
 				["Damage"] = {
-					14742, -- [1]
+					142625, -- [1]
 				},
 			},
 			["enClass"] = "ROGUE",
 			["unit"] = "特变电工",
-			["LastAbility"] = 61080.375,
-			["level"] = 14,
-			["LastDamageAbility"] = "投掷",
-			["LastFightIn"] = 53,
-			["LastHealTime"] = 60633.407,
+			["level"] = 28,
+			["LastDamageAbility"] = "肉搏",
+			["LastFightIn"] = 164,
+			["LastHealTime"] = 57993.297,
 			["type"] = "Self",
 			["FightsSaved"] = 5,
-			["UnitLockout"] = 59177.303,
+			["LastEventHealthMax"] = {
+				1208, -- [1]
+				1208, -- [2]
+				1208, -- [3]
+				1208, -- [4]
+				1208, -- [5]
+				1208, -- [6]
+				1208, -- [7]
+				1208, -- [8]
+				1208, -- [9]
+				1208, -- [10]
+				1208, -- [11]
+				1208, -- [12]
+				1208, -- [13]
+				1208, -- [14]
+				1208, -- [15]
+				1208, -- [16]
+				1208, -- [17]
+				1208, -- [18]
+				1208, -- [19]
+				1208, -- [20]
+				1208, -- [21]
+				1208, -- [22]
+				1208, -- [23]
+				1208, -- [24]
+				1208, -- [25]
+				1208, -- [26]
+				1208, -- [27]
+				1208, -- [28]
+				1208, -- [29]
+				1208, -- [30]
+				1208, -- [31]
+				1208, -- [32]
+				1208, -- [33]
+				1208, -- [34]
+				1208, -- [35]
+				1208, -- [36]
+				1208, -- [37]
+				1208, -- [38]
+				1208, -- [39]
+				1208, -- [40]
+				1208, -- [41]
+				1208, -- [42]
+				1208, -- [43]
+				1208, -- [44]
+				1208, -- [45]
+				1208, -- [46]
+				1208, -- [47]
+				1208, -- [48]
+				1208, -- [49]
+				1208, -- [50]
+			},
+			["LastDamageTaken"] = 90,
+			["Owner"] = false,
+			["TimeLast"] = {
+				["TimeHeal"] = 57992.839,
+				["OVERALL"] = 59899.848,
+				["DamageTaken"] = 59897.84400000001,
+				["ActiveTime"] = 59899.848,
+				["CCBreak"] = 58411.847,
+				["HealingTaken"] = 57992.839,
+				["HOT_Time"] = 57992.839,
+				["TimeDamage"] = 59899.848,
+				["Interrupts"] = 59691.84400000001,
+				["Healing"] = 57992.839,
+				["DOT_Time"] = 54819.846,
+				["Damage"] = 59899.848,
+			},
+			["NextEventNum"] = 6,
+			["LastDamageTime"] = 59900.098,
+			["LastEvents"] = {
+				"特变电工 肉搏 瘟疫食尸鬼 Crit -72 (Physical)", -- [1]
+				"瘟疫食尸鬼 肉搏 特变电工 Crit -90 (Physical)", -- [2]
+				"特变电工 影袭 瘟疫食尸鬼 Hit -94 (Physical)", -- [3]
+				"特变电工 肉搏 瘟疫食尸鬼 Crit -52 (Physical)", -- [4]
+				"特变电工 肉搏 瘟疫食尸鬼 Hit -80 (Physical)", -- [5]
+				"瘟疫食尸鬼 肉搏 特变电工 Hit -41 (Physical)", -- [6]
+				"特变电工 还击 瘟疫食尸鬼 Crit -209 (Physical)", -- [7]
+				"特变电工 肉搏 瘟疫食尸鬼 Hit -27 (Physical)", -- [8]
+				"特变电工 速效药膏 II 瘟疫食尸鬼 Hit -37 (Nature)", -- [9]
+				"特变电工 肉搏 瘟疫食尸鬼 Crit -155 (Physical)", -- [10]
+				"特变电工 投掷 瘟疫食尸鬼 Hit -13 (Physical)", -- [11]
+				"特变电工 投掷 瘟疫食尸鬼 Hit -12 (Physical)", -- [12]
+				"瘟疫食尸鬼 肉搏 特变电工 Hit -37 (Physical)", -- [13]
+				"特变电工 影袭 瘟疫食尸鬼 Crit -163 (Physical)", -- [14]
+				"特变电工 肉搏 瘟疫食尸鬼 Hit -17 (Physical)", -- [15]
+				"特变电工 肉搏 瘟疫食尸鬼 Crit -148 (Physical)", -- [16]
+				"瘟疫食尸鬼 肉搏 特变电工 Hit -36 (Physical)", -- [17]
+				"特变电工 肉搏 瘟疫食尸鬼 Miss (1)", -- [18]
+				"特变电工 肉搏 瘟疫食尸鬼 Hit -81 (Physical)", -- [19]
+				"特变电工 影袭 瘟疫食尸鬼 Hit -93 (Physical)", -- [20]
+				"瘟疫食尸鬼 肉搏 特变电工 Dodge (1)", -- [21]
+				"特变电工 肉搏 瘟疫食尸鬼 Hit -36 (Physical)", -- [22]
+				"特变电工 肉搏 瘟疫食尸鬼 Hit -66 (Physical)", -- [23]
+				"特变电工 肉搏 瘟疫食尸鬼 Hit -37 (Physical)", -- [24]
+				"瘟疫食尸鬼 肉搏 特变电工 Hit -42 (Physical)", -- [25]
+				"特变电工 影袭 瘟疫食尸鬼 Hit -83 (Physical)", -- [26]
+				"特变电工 肉搏 瘟疫食尸鬼 Miss (1)", -- [27]
+				"瘟疫食尸鬼 肉搏 特变电工 Miss (1)", -- [28]
+				"特变电工 肉搏 瘟疫食尸鬼 Dodge (1)", -- [29]
+				"特变电工 肉搏 瘟疫食尸鬼 Hit -31 (Physical)", -- [30]
+				"特变电工 速效药膏 II 瘟疫食尸鬼 Hit -34 (Nature)", -- [31]
+				"瘟疫食尸鬼 肉搏 特变电工 Hit -44 (Physical)", -- [32]
+				"特变电工 肉搏 瘟疫食尸鬼 Crit -122 (Physical)", -- [33]
+				"特变电工 肉搏 瘟疫食尸鬼 Hit -88 (Physical)", -- [34]
+				"瘟疫食尸鬼 肉搏 特变电工 Dodge (1)", -- [35]
+				"特变电工 肉搏 瘟疫食尸鬼 Parry (1)", -- [36]
+				"特变电工 影袭 瘟疫食尸鬼 Crit -172 (Physical)", -- [37]
+				"特变电工 速效药膏 II 瘟疫食尸鬼 Hit -37 (Nature)", -- [38]
+				"瘟疫食尸鬼 肉搏 特变电工 Hit -44 (Physical)", -- [39]
+				"特变电工 肉搏 瘟疫食尸鬼 Hit -79 (Physical)", -- [40]
+				"特变电工 速效药膏 II 瘟疫食尸鬼 Hit -32 (Nature)", -- [41]
+				"特变电工 肉搏 瘟疫食尸鬼 Hit -31 (Physical)", -- [42]
+				"特变电工 影袭 瘟疫食尸鬼 Hit -74 (Physical)", -- [43]
+				"特变电工 速效药膏 II 瘟疫食尸鬼 Hit -32 (Nature)", -- [44]
+				"瘟疫食尸鬼 肉搏 特变电工 Hit -47 (Physical)", -- [45]
+				"特变电工 肉搏 瘟疫食尸鬼 Crit -53 (Physical)", -- [46]
+				"特变电工 肉搏 瘟疫食尸鬼 Miss (1)", -- [47]
+				"特变电工 肉搏 瘟疫食尸鬼 Hit -27 (Physical)", -- [48]
+				"瘟疫食尸鬼 肉搏 特变电工 Hit -41 (Physical)", -- [49]
+				"特变电工 肉搏 瘟疫食尸鬼 Miss (1)", -- [50]
+			},
+			["Name"] = "特变电工",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				true, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				true, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				true, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				true, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				true, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				true, -- [25]
+				false, -- [26]
+				false, -- [27]
+				true, -- [28]
+				false, -- [29]
+				false, -- [30]
+				false, -- [31]
+				true, -- [32]
+				false, -- [33]
+				false, -- [34]
+				true, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+				true, -- [39]
+				false, -- [40]
+				false, -- [41]
+				false, -- [42]
+				false, -- [43]
+				false, -- [44]
+				true, -- [45]
+				false, -- [46]
+				false, -- [47]
+				false, -- [48]
+				true, -- [49]
+				false, -- [50]
+			},
+			["LastEventTimes"] = {
+				59897.892, -- [1]
+				59898.685, -- [2]
+				59898.95, -- [3]
+				59899.477, -- [4]
+				59900.098, -- [5]
+				59866.447, -- [6]
+				59866.735, -- [7]
+				59866.835, -- [8]
+				59866.835, -- [9]
+				59867.662, -- [10]
+				59873.31, -- [11]
+				59875.142, -- [12]
+				59875.837, -- [13]
+				59875.837, -- [14]
+				59876.839, -- [15]
+				59876.839, -- [16]
+				59877.745, -- [17]
+				59878.47, -- [18]
+				59879.24, -- [19]
+				59879.364, -- [20]
+				59879.77, -- [21]
+				59880.056, -- [22]
+				59881.567, -- [23]
+				59881.567, -- [24]
+				59881.786, -- [25]
+				59882.689, -- [26]
+				59883.246, -- [27]
+				59883.804, -- [28]
+				59883.903, -- [29]
+				59884.82700000001, -- [30]
+				59884.82700000001, -- [31]
+				59885.806, -- [32]
+				59886.217, -- [33]
+				59890.65, -- [34]
+				59891.454, -- [35]
+				59891.454, -- [36]
+				59891.712, -- [37]
+				59891.712, -- [38]
+				59892.661, -- [39]
+				59893.068, -- [40]
+				59893.068, -- [41]
+				59893.068, -- [42]
+				59894.154, -- [43]
+				59894.154, -- [44]
+				59894.66600000001, -- [45]
+				59894.66600000001, -- [46]
+				59895.41600000001, -- [47]
+				59896.3, -- [48]
+				59896.675, -- [49]
+				59897.756, -- [50]
+			},
 			["Fights"] = {
-				["OverallData"] = {
-					["ElementDoneBlock"] = {
-						["Melee"] = 145,
-						["Physical"] = 85,
+				["Fight5"] = {
+					["DOTs"] = {
 					},
-					["TimeHealing"] = {
-						["特变电工"] = {
-							["Details"] = {
-								["治疗药水"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
+					["ElementDoneResist"] = {
 					},
-					["TimeSpent"] = {
-						["碎石怪斥候"] = {
+					["Ressed"] = 0,
+					["DamageTaken"] = 200,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["影袭"] = {
-									["count"] = 3,
-								},
-								["凿击"] = {
-									["count"] = 6,
-								},
-								["刺骨"] = {
-									["count"] = 1.03,
-								},
-								["投掷"] = {
-									["count"] = 3,
-								},
-								["肉搏"] = {
-									["count"] = 4.6,
+								["Tick"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 17.63,
+							["amount"] = 0,
 						},
-						["特变电工"] = {
+						["Physical"] = {
 							["Details"] = {
-								["治疗药水"] = {
-									["count"] = 1.5,
+								["Resist"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 1.5,
+							["amount"] = 0,
 						},
-						["碎石怪断骨者"] = {
+						["Melee"] = {
 							["Details"] = {
-								["影袭"] = {
-									["count"] = 24.58,
-								},
-								["凿击"] = {
-									["count"] = 1.5,
-								},
-								["刺骨"] = {
-									["count"] = 3.4,
-								},
-								["投掷"] = {
-									["count"] = 3,
-								},
-								["肉搏"] = {
-									["count"] = 95.94,
-								},
-							},
-							["amount"] = 128.42,
-						},
-						["纳什尔"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 1.07,
-								},
-								["肉搏"] = {
+								["Hit"] = {
 									["count"] = 5,
 								},
-							},
-							["amount"] = 6.069999999999999,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["脚踢"] = {
-									["count"] = 0.92,
-								},
-								["影袭"] = {
-									["count"] = 31.69999999999999,
-								},
-								["刺骨"] = {
-									["count"] = 1.17,
-								},
-								["投掷"] = {
-									["count"] = 6,
-								},
-								["肉搏"] = {
-									["count"] = 93.77999999999999,
-								},
-							},
-							["amount"] = 133.57,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["凿击"] = {
-									["count"] = 6,
-								},
-								["刺骨"] = {
-									["count"] = 1.11,
-								},
-								["影袭"] = {
-									["count"] = 2.93,
-								},
-								["肉搏"] = {
-									["count"] = 8.28,
-								},
-							},
-							["amount"] = 18.32,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 33.55,
-								},
-								["投掷"] = {
-									["count"] = 9,
-								},
-								["刺骨"] = {
-									["count"] = 5.18,
-								},
-								["凿击"] = {
-									["count"] = 4.5,
-								},
-								["肉搏"] = {
-									["count"] = 108.09,
-								},
-							},
-							["amount"] = 160.32,
-						},
-						["布劳勒尔"] = {
-							["Details"] = {
-								["凿击"] = {
-									["count"] = 0.14,
-								},
-								["影袭"] = {
-									["count"] = 3.13,
-								},
-								["肉搏"] = {
-									["count"] = 7.42,
-								},
-							},
-							["amount"] = 10.69,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["脚踢"] = {
-									["count"] = 9.3,
-								},
-								["影袭"] = {
-									["count"] = 20.4,
-								},
-								["投掷"] = {
-									["count"] = 3,
-								},
-								["刺骨"] = {
-									["count"] = 0.39,
-								},
-								["凿击"] = {
-									["count"] = 1.5,
-								},
-								["肉搏"] = {
-									["count"] = 61.74999999999999,
-								},
-							},
-							["amount"] = 96.34,
-						},
-						["格劳姆格"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 4.12,
-								},
-								["肉搏"] = {
-									["count"] = 8.2,
-								},
-							},
-							["amount"] = 12.32,
-						},
-					},
-					["DamageTaken"] = 3511,
-					["PartialResist"] = {
-						["Falling"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
+								["Miss"] = {
 									["count"] = 1,
-									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-						["打击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 4,
-						},
-						["凿击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 12,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 12,
-						},
-						["食肉"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-						["闪电箭"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
 							["amount"] = 6,
 						},
 						["Fire"] = {
 							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
+								["Hit"] = {
+									["count"] = 0,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 7,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 217,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 217,
+							["amount"] = 0,
 						},
 					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
 					["ElementHitsDone"] = {
-						["Melee"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Glancing"] = {
-									["count"] = 46,
-								},
-								["Miss"] = {
-									["count"] = 124,
-								},
-								["Dodge"] = {
-									["count"] = 14,
-								},
 								["Hit"] = {
-									["count"] = 293,
-								},
-								["Block"] = {
-									["count"] = 21,
-								},
-								["Crit"] = {
-									["count"] = 38,
-								},
-								["Parry"] = {
-									["count"] = 16,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 552,
+							["amount"] = 0,
 						},
 						["Physical"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 168,
-								},
-								["Dodge"] = {
-									["count"] = 10,
-								},
-								["Miss"] = {
-									["count"] = 15,
+								["Parry"] = {
+									["count"] = 0,
 								},
 								["Block"] = {
-									["count"] = 16,
+									["count"] = 1,
 								},
 								["Crit"] = {
-									["count"] = 24,
+									["count"] = 0,
 								},
-								["Parry"] = {
-									["count"] = 11,
+								["Hit"] = {
+									["count"] = 4,
 								},
 							},
-							["amount"] = 244,
+							["amount"] = 5,
 						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 9,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Block"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 13,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Shadow"] = 0,
+						["Physical"] = 0,
+						["Melee"] = 200,
+						["Fire"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 898,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 0,
+						["Physical"] = 254,
+						["Melee"] = 575,
+						["Nature"] = 69,
 					},
 					["PartialAbsorb"] = {
 						["Falling"] = {
@@ -4867,50 +1720,62 @@ RecountPerCharDB = {
 								["未被吸收"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 0,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 0,
 							["amount"] = 0,
 						},
-						["打击"] = {
+						["火焰箭"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 4,
+									["count"] = 0,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 4,
+							["count"] = 0,
 							["amount"] = 0,
 						},
-						["凿击"] = {
+						["挫志怒吼"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 12,
+									["count"] = 0,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 12,
+							["count"] = 0,
 							["amount"] = 0,
 						},
-						["食肉"] = {
+						["火球术"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 0,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 0,
 							["amount"] = 0,
 						},
-						["闪电箭"] = {
+						["暗言术：痛 (伤害/跳)"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
@@ -4922,789 +1787,481 @@ RecountPerCharDB = {
 							["count"] = 6,
 							["amount"] = 0,
 						},
-						["Fire"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 217,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 217,
-							["amount"] = 0,
-						},
 					},
-					["ActiveTime"] = 585.1800000000001,
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 24,
-								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 25,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 3,
-								},
-								["Miss"] = {
-									["count"] = 9,
-								},
-								["Dodge"] = {
-									["count"] = 49,
-								},
-								["Hit"] = {
-									["count"] = 137,
-								},
-								["Crit"] = {
-									["count"] = 10,
-								},
-								["Parry"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 217,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Resist"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["ElementTaken"] = {
-						["Physical"] = 354,
-						["Fire"] = 20,
-						["Melee"] = 2901,
-						["Nature"] = 236,
-					},
-					["InterruptData"] = {
-						["碎石怪先知"] = {
-							["Details"] = {
-								["闪电箭 (脚踢)"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["治疗波 (脚踢)"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["Damage"] = 14742,
-					["TimeDamaging"] = {
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 3,
-								},
-								["凿击"] = {
-									["count"] = 6,
-								},
-								["刺骨"] = {
-									["count"] = 1.03,
-								},
-								["投掷"] = {
-									["count"] = 3,
-								},
-								["肉搏"] = {
-									["count"] = 4.6,
-								},
-							},
-							["amount"] = 17.63,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 24.58,
-								},
-								["凿击"] = {
-									["count"] = 1.5,
-								},
-								["刺骨"] = {
-									["count"] = 3.4,
-								},
-								["投掷"] = {
-									["count"] = 3,
-								},
-								["肉搏"] = {
-									["count"] = 95.94,
-								},
-							},
-							["amount"] = 128.42,
-						},
-						["纳什尔"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 1.07,
-								},
-								["肉搏"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 6.069999999999999,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["脚踢"] = {
-									["count"] = 0.92,
-								},
-								["影袭"] = {
-									["count"] = 31.69999999999999,
-								},
-								["刺骨"] = {
-									["count"] = 1.17,
-								},
-								["投掷"] = {
-									["count"] = 6,
-								},
-								["肉搏"] = {
-									["count"] = 93.77999999999999,
-								},
-							},
-							["amount"] = 133.57,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["凿击"] = {
-									["count"] = 6,
-								},
-								["刺骨"] = {
-									["count"] = 1.11,
-								},
-								["影袭"] = {
-									["count"] = 2.93,
-								},
-								["肉搏"] = {
-									["count"] = 8.28,
-								},
-							},
-							["amount"] = 18.32,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 33.55,
-								},
-								["投掷"] = {
-									["count"] = 9,
-								},
-								["刺骨"] = {
-									["count"] = 5.18,
-								},
-								["凿击"] = {
-									["count"] = 4.5,
-								},
-								["肉搏"] = {
-									["count"] = 108.09,
-								},
-							},
-							["amount"] = 160.32,
-						},
-						["布劳勒尔"] = {
-							["Details"] = {
-								["凿击"] = {
-									["count"] = 0.14,
-								},
-								["影袭"] = {
-									["count"] = 3.13,
-								},
-								["肉搏"] = {
-									["count"] = 7.42,
-								},
-							},
-							["amount"] = 10.69,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["脚踢"] = {
-									["count"] = 9.3,
-								},
-								["影袭"] = {
-									["count"] = 20.4,
-								},
-								["投掷"] = {
-									["count"] = 3,
-								},
-								["刺骨"] = {
-									["count"] = 0.39,
-								},
-								["凿击"] = {
-									["count"] = 1.5,
-								},
-								["肉搏"] = {
-									["count"] = 61.74999999999999,
-								},
-							},
-							["amount"] = 96.34,
-						},
-						["格劳姆格"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 4.12,
-								},
-								["肉搏"] = {
-									["count"] = 8.2,
-								},
-							},
-							["amount"] = 12.32,
-						},
-					},
-					["Heals"] = {
-						["治疗药水"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 83,
-									["min"] = 83,
-									["count"] = 1,
-									["amount"] = 83,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 83,
-						},
-					},
-					["TimeHeal"] = 1.5,
-					["GTFOEvents"] = 1,
-					["Interrupts"] = 8,
-					["Healing"] = 83,
-					["GTFOEvent"] = {
-						["低"] = {
-							["Details"] = {
-								["环境"] = {
-									["max"] = 20,
-									["min"] = 20,
-									["count"] = 1,
-									["amount"] = 20,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 20,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 8644,
-						["Physical"] = 6098,
-					},
-					["Attacks"] = {
-						["脚踢"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 11,
-									["min"] = 11,
-									["count"] = 8,
-									["amount"] = 88,
-								},
-								["Crit"] = {
-									["max"] = 23,
-									["min"] = 23,
-									["count"] = 1,
-									["amount"] = 23,
-								},
-								["Miss"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 11,
-							["amount"] = 111,
-						},
-						["影袭"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 11,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 9,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 10,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 39,
-									["min"] = 28,
-									["count"] = 113,
-									["amount"] = 3821,
-								},
-								["Crit"] = {
-									["max"] = 76,
-									["min"] = 58,
-									["count"] = 22,
-									["amount"] = 1460,
-								},
-								["Hit (被格挡)"] = {
-									["max"] = 31,
-									["min"] = 23,
-									["count"] = 12,
-									["amount"] = 325,
-								},
-							},
-							["count"] = 177,
-							["amount"] = 5606,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["Block"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 9,
-									["min"] = 7,
-									["count"] = 13,
-									["amount"] = 105,
-								},
-								["Miss"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 16,
-							["amount"] = 105,
-						},
-						["刺骨"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 24,
-									["min"] = 13,
-									["count"] = 11,
-									["amount"] = 181,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 12,
-							["amount"] = 181,
-						},
-						["凿击"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 8,
-									["min"] = 7,
-									["count"] = 11,
-									["amount"] = 81,
-								},
-								["Block"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 14,
-									["min"] = 14,
-									["count"] = 1,
-									["amount"] = 14,
-								},
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 14,
-							["amount"] = 95,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 32,
-									["min"] = 10,
-									["count"] = 46,
-									["amount"] = 828,
-								},
-								["Parry"] = {
-									["count"] = 16,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 14,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 124,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 33,
-									["min"] = 12,
-									["count"] = 272,
-									["amount"] = 5979,
-								},
-								["Crit"] = {
-									["max"] = 67,
-									["min"] = 24,
-									["count"] = 38,
-									["amount"] = 1576,
-								},
-								["Hit (被格挡)"] = {
-									["max"] = 25,
-									["min"] = 3,
-									["count"] = 21,
-									["amount"] = 261,
-								},
-							},
-							["count"] = 531,
-							["amount"] = 8644,
-						},
-					},
-					["HealingTaken"] = 725,
 					["DamagedWho"] = {
-						["碎石怪斥候"] = {
+						["黑石勇士"] = {
 							["Details"] = {
-								["影袭"] = {
-									["count"] = 100,
-								},
-								["凿击"] = {
-									["count"] = 22,
+								["速效药膏"] = {
+									["count"] = 0,
 								},
 								["刺骨"] = {
-									["count"] = 14,
+									["count"] = 0,
 								},
-								["投掷"] = {
-									["count"] = 8,
-								},
-								["肉搏"] = {
-									["count"] = 93,
-								},
-							},
-							["amount"] = 237,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
 								["影袭"] = {
-									["count"] = 1163,
-								},
-								["凿击"] = {
-									["count"] = 14,
-								},
-								["刺骨"] = {
-									["count"] = 49,
-								},
-								["投掷"] = {
-									["count"] = 8,
+									["count"] = 0,
 								},
 								["肉搏"] = {
-									["count"] = 1815,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 3049,
+							["amount"] = 0,
 						},
-						["纳什尔"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 132,
-								},
-								["肉搏"] = {
-									["count"] = 95,
-								},
-							},
-							["amount"] = 227,
-						},
-						["碎石怪萨满祭司"] = {
+						["夜行织影狼人"] = {
 							["Details"] = {
 								["脚踢"] = {
-									["count"] = 11,
+									["count"] = 0,
 								},
 								["影袭"] = {
-									["count"] = 1329,
+									["count"] = 0,
 								},
-								["刺骨"] = {
-									["count"] = 19,
+								["速效药膏 II"] = {
+									["count"] = 0,
 								},
 								["投掷"] = {
-									["count"] = 33,
+									["count"] = 0,
 								},
 								["肉搏"] = {
-									["count"] = 2331,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 3723,
+							["amount"] = 0,
 						},
-						["碎石穴居人"] = {
+						["骸骨魔"] = {
 							["Details"] = {
 								["影袭"] = {
-									["count"] = 106,
+									["count"] = 0,
 								},
-								["刺骨"] = {
-									["count"] = 16,
+								["暗影箭"] = {
+									["count"] = 0,
 								},
-								["凿击"] = {
-									["count"] = 29,
+								["还击"] = {
+									["count"] = 0,
 								},
-								["肉搏"] = {
-									["count"] = 131,
-								},
-							},
-							["amount"] = 282,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 1673,
+								["速效药膏 II"] = {
+									["count"] = 0,
 								},
 								["投掷"] = {
-									["count"] = 39,
-								},
-								["刺骨"] = {
-									["count"] = 69,
-								},
-								["凿击"] = {
-									["count"] = 23,
+									["count"] = 0,
 								},
 								["肉搏"] = {
-									["count"] = 2491,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 4295,
+							["amount"] = 0,
 						},
-						["布劳勒尔"] = {
+						["黑石追踪者"] = {
 							["Details"] = {
 								["影袭"] = {
-									["count"] = 69,
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
 								},
 								["肉搏"] = {
-									["count"] = 193,
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 262,
+							["amount"] = 0,
 						},
-						["碎石怪先知"] = {
+						["黑石猎人"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恶臭的食尸鬼"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石召唤师"] = {
 							["Details"] = {
 								["脚踢"] = {
-									["count"] = 100,
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
 								},
 								["影袭"] = {
-									["count"] = 904,
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0,
 								},
 								["投掷"] = {
-									["count"] = 17,
+									["count"] = 0,
 								},
-								["刺骨"] = {
-									["count"] = 14,
-								},
-								["凿击"] = {
-									["count"] = 7,
+								["影袭"] = {
+									["count"] = 0,
 								},
 								["肉搏"] = {
-									["count"] = 1313,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 2355,
+							["amount"] = 0,
 						},
-						["格劳姆格"] = {
+						["骷髅看守"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["暗皮杀手"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 241,
+								},
+								["速效药膏 II"] = {
+									["count"] = 69,
+								},
+								["投掷"] = {
+									["count"] = 13,
+								},
+								["肉搏"] = {
+									["count"] = 575,
+								},
+							},
+							["amount"] = 898,
+						},
+						["骷髅袭击者"] = {
 							["Details"] = {
 								["影袭"] = {
-									["count"] = 130,
+									["count"] = 0,
+								},
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
 								},
 								["肉搏"] = {
-									["count"] = 182,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 312,
+							["amount"] = 0,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石前锋"] = {
+							["Details"] = {
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石哨兵"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 					},
-					["TimeDamage"] = 583.6800000000001,
+					["PartialBlock"] = {
+					},
 					["WhoDamaged"] = {
-						["碎石怪斥候"] = {
+						["赤脊山突击队员"] = {
 							["Details"] = {
-								["投掷"] = {
-									["count"] = 106,
-								},
 								["肉搏"] = {
-									["count"] = 210,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 316,
+							["amount"] = 0,
 						},
-						["碎石怪断骨者"] = {
+						["夜行织影狼人"] = {
 							["Details"] = {
 								["肉搏"] = {
-									["count"] = 566,
-								},
-								["打击"] = {
-									["count"] = 124,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 690,
+							["amount"] = 0,
 						},
-						["纳什尔"] = {
+						["骸骨魔"] = {
 							["Details"] = {
-								["食肉"] = {
-									["count"] = 27,
-								},
 								["肉搏"] = {
-									["count"] = 150,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 177,
+							["amount"] = 0,
 						},
-						["碎石怪萨满祭司"] = {
+						["黑石追踪者"] = {
 							["Details"] = {
 								["肉搏"] = {
-									["count"] = 723,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 723,
+							["amount"] = 0,
 						},
-						["碎石穴居人"] = {
+						["恶臭的食尸鬼"] = {
 							["Details"] = {
 								["肉搏"] = {
-									["count"] = 88,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 88,
+							["amount"] = 0,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅看守"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["暗皮杀手"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石前锋"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 200,
+								},
+							},
+							["amount"] = 200,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 						["Environment"] = {
 							["Details"] = {
 								["Falling"] = {
-									["count"] = 4,
-								},
-								["Fire"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 24,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["凿击"] = {
-									["count"] = 93,
-								},
-								["肉搏"] = {
-									["count"] = 723,
-								},
-							},
-							["amount"] = 816,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["闪电箭"] = {
-									["count"] = 236,
-								},
-								["肉搏"] = {
-									["count"] = 346,
-								},
-							},
-							["amount"] = 582,
-						},
-						["格劳姆格"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 95,
-								},
-							},
-							["amount"] = 95,
-						},
-					},
-					["GTFOEventDamage"] = 20,
-					["WhoHealed"] = {
-						["若丶无弃"] = {
-							["Details"] = {
-								["圣光术"] = {
-									["count"] = 642,
-								},
-							},
-							["amount"] = 642,
-						},
-						["特变电工"] = {
-							["Details"] = {
-								["治疗药水"] = {
-									["count"] = 83,
-								},
-							},
-							["amount"] = 83,
-						},
-					},
-					["HealedWho"] = {
-						["特变电工"] = {
-							["Details"] = {
-								["治疗药水"] = {
-									["count"] = 83,
-								},
-							},
-							["amount"] = 83,
-						},
-					},
-				},
-				["Fight5"] = {
-					["ElementDoneBlock"] = {
-						["Melee"] = 18,
-						["Physical"] = 0,
-					},
-					["TimeHealing"] = {
-						["特变电工"] = {
-							["Details"] = {
-								["治疗药水"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-					},
-					["TimeSpent"] = {
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["影袭"] = {
 									["count"] = 0,
 								},
-								["凿击"] = {
+							},
+							["amount"] = 0,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["火焰箭"] = {
 									["count"] = 0,
 								},
-								["刺骨"] = {
+							},
+							["amount"] = 0,
+						},
+						["黑石勇士"] = {
+							["Details"] = {
+								["肉搏"] = {
 									["count"] = 0,
 								},
-								["投掷"] = {
+							},
+							["amount"] = 0,
+						},
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["暗言术：痛 (伤害/跳)"] = {
 									["count"] = 0,
 								},
 								["肉搏"] = {
@@ -5713,105 +2270,17 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["特变电工"] = {
+						["被诅咒的水兵"] = {
 							["Details"] = {
-								["治疗药水"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
 								["肉搏"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
-						},
-						["纳什尔"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 1.07,
-								},
-								["肉搏"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 6.069999999999999,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["脚踢"] = {
-									["count"] = 0,
-								},
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["布劳勒尔"] = {
-							["Details"] = {
-								["凿击"] = {
-									["count"] = 0.14,
-								},
-								["影袭"] = {
-									["count"] = 3.13,
-								},
-								["肉搏"] = {
-									["count"] = 7.42,
-								},
-							},
-							["amount"] = 10.69,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["格劳姆格"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 4.12,
-								},
-								["肉搏"] = {
-									["count"] = 8.2,
-								},
-							},
-							["amount"] = 12.32,
 						},
 					},
-					["DamageTaken"] = 272,
+					["EnergyGainedFrom"] = {
+					},
 					["PartialResist"] = {
 						["Falling"] = {
 							["Details"] = {
@@ -5825,7 +2294,7 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["凿击"] = {
+						["火焰箭"] = {
 							["Details"] = {
 								["未被抵抗"] = {
 									["max"] = 0,
@@ -5837,19 +2306,1193 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["食肉"] = {
+						["挫志怒吼"] = {
 							["Details"] = {
 								["未被抵抗"] = {
 									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["火球术"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["暗言术：痛 (伤害/跳)"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 6,
+						},
+					},
+					["CCBroken"] = {
+						["闷棍 (Melee)"] = {
+							["Details"] = {
+								["黑石猎人"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 13,
+						["Physical"] = 13,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["黑石勇士"] = {
+							["Details"] = {
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["夜行织影狼人"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骸骨魔"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石追踪者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石猎人"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恶臭的食尸鬼"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅看守"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["暗皮杀手"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 1.26,
+								},
+								["投掷"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 10.15,
+								},
+							},
+							["amount"] = 12.91,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石前锋"] = {
+							["Details"] = {
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石哨兵"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["暗影箭 (脚踢)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["游荡瘟疫 (脚踢)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["夜行织影狼人"] = {
+							["Details"] = {
+								["暗影箭 (脚踢)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["火球术 (脚踢)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 12.91,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["脚踢"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["影袭"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (被格挡)"] = {
+									["max"] = 74,
 									["min"] = 0,
 									["count"] = 1,
+									["amount"] = 74,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 89,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 167,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 241,
+						},
+						["投掷"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 13,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 13,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 13,
+						},
+						["速效药膏"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
 									["amount"] = 0,
 								},
 							},
 							["count"] = 0,
-							["amount"] = 1,
+							["amount"] = 0,
 						},
-						["闪电箭"] = {
+						["暗影箭"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["还击"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["刺骨"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["速效药膏 II"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 37,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 69,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 69,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 86,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 396,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 155,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 155,
+								},
+								["Hit (被格挡)"] = {
+									["max"] = 24,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 24,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 575,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 12.91,
+					["TimeDamaging"] = {
+						["黑石勇士"] = {
+							["Details"] = {
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["夜行织影狼人"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骸骨魔"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石追踪者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石猎人"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恶臭的食尸鬼"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅看守"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["暗皮杀手"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 1.26,
+								},
+								["投掷"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 10.15,
+								},
+							},
+							["amount"] = 12.91,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石前锋"] = {
+							["Details"] = {
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石哨兵"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["ElementDoneBlock"] = {
+						["Melee"] = 14,
+						["Physical"] = 0,
+					},
+					["TimeSpent"] = {
+						["黑石勇士"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骸骨魔"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石追踪者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石猎人"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石斥候"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["夜行黑暗狼人"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅医师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 1.93,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 3,
+								},
+								["肉搏"] = {
+									["count"] = 8.99,
+								},
+							},
+							["amount"] = 13.92,
+						},
+						["食脑者"] = {
+							["Details"] = {
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石哨兵"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["湿地鳄鱼"] = {
+							["Details"] = {
+								["凿击"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 159,
+					["PartialResist"] = {
+						["Falling"] = {
 							["Details"] = {
 								["未被抵抗"] = {
 									["max"] = 0,
@@ -5861,7 +3504,31 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Fire"] = {
+						["火焰之盾效果 II"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["裂筋"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["火焰箭"] = {
 							["Details"] = {
 								["未被抵抗"] = {
 									["max"] = 0,
@@ -5890,60 +3557,12 @@ RecountPerCharDB = {
 								["未被抵抗"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 19,
+									["count"] = 6,
 									["amount"] = 0,
 								},
 							},
 							["count"] = 0,
-							["amount"] = 19,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 5,
-								},
-								["Miss"] = {
-									["count"] = 5,
-								},
-								["Hit"] = {
-									["count"] = 12,
-								},
-								["Dodge"] = {
-									["count"] = 2,
-								},
-								["Block"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 28,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 8,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 13,
+							["amount"] = 6,
 						},
 					},
 					["PartialAbsorb"] = {
@@ -5959,7 +3578,7 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["凿击"] = {
+						["火焰之盾效果 II"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
@@ -5971,19 +3590,7 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["食肉"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["闪电箭"] = {
+						["裂筋"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
@@ -5995,7 +3602,7 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Fire"] = {
+						["火焰箭"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
@@ -6024,88 +3631,28 @@ RecountPerCharDB = {
 								["未被吸收"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 19,
+									["count"] = 6,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 19,
+							["count"] = 6,
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 30.58000000000001,
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 7,
-								},
-								["Hit"] = {
-									["count"] = 9,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 19,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Resist"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
+					["ActiveTime"] = 13.92,
 					["ElementTaken"] = {
-						["Physical"] = 27,
 						["Fire"] = 0,
-						["Melee"] = 245,
-						["Nature"] = 0,
+						["Melee"] = 159,
+						["Physical"] = 0,
 					},
-					["InterruptData"] = {
-						["碎石怪先知"] = {
-							["Details"] = {
-								["闪电箭 (脚踢)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Damage"] = 801,
+					["Damage"] = 936,
 					["TimeDamaging"] = {
-						["碎石怪斥候"] = {
+						["黑石勇士"] = {
 							["Details"] = {
 								["影袭"] = {
 									["count"] = 0,
 								},
-								["凿击"] = {
+								["还击"] = {
 									["count"] = 0,
 								},
 								["刺骨"] = {
@@ -6120,11 +3667,132 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["碎石怪先知"] = {
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骸骨魔"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石追踪者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石猎人"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石斥候"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石召唤师"] = {
 							["Details"] = {
 								["脚踢"] = {
 									["count"] = 0,
 								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["夜行黑暗狼人"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
 								["刺骨"] = {
 									["count"] = 0,
 								},
@@ -6137,8 +3805,65 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["碎石怪击颅者"] = {
+						["骷髅医师"] = {
 							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 1.93,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 3,
+								},
+								["肉搏"] = {
+									["count"] = 8.99,
+								},
+							},
+							["amount"] = 13.92,
+						},
+						["食脑者"] = {
+							["Details"] = {
+								["暗影箭"] = {
+									["count"] = 0,
+								},
 								["投掷"] = {
 									["count"] = 0,
 								},
@@ -6151,104 +3876,91 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["纳什尔"] = {
+						["小鬼爪牙"] = {
 							["Details"] = {
 								["影袭"] = {
-									["count"] = 1.07,
+									["count"] = 0,
 								},
 								["肉搏"] = {
-									["count"] = 5,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 6.069999999999999,
+							["amount"] = 0,
 						},
-						["格劳姆格"] = {
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石哨兵"] = {
 							["Details"] = {
 								["影袭"] = {
-									["count"] = 4.12,
+									["count"] = 0,
 								},
 								["肉搏"] = {
-									["count"] = 8.2,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 12.32,
+							["amount"] = 0,
 						},
-						["布劳勒尔"] = {
+						["湿地鳄鱼"] = {
 							["Details"] = {
 								["凿击"] = {
-									["count"] = 0.14,
-								},
-								["影袭"] = {
-									["count"] = 3.13,
-								},
-								["肉搏"] = {
-									["count"] = 7.42,
-								},
-							},
-							["amount"] = 10.69,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
 					},
-					["Heals"] = {
-						["治疗药水"] = {
+					["CCBreak"] = 0,
+					["InterruptData"] = {
+						["黑石暗影法师"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 83,
-									["min"] = 83,
-									["count"] = 1,
-									["amount"] = 83,
+								["暗影箭 (脚踢)"] = {
+									["count"] = 0,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 83,
+							["amount"] = 0,
+						},
+						["骷髅医师"] = {
+							["Details"] = {
+								["暗影箭 (脚踢)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["火球术 (脚踢)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 					},
-					["TimeHeal"] = 1.5,
-					["GTFOEvents"] = 0,
 					["Interrupts"] = 0,
-					["Healing"] = 83,
-					["GTFOEvent"] = {
-						["低"] = {
+					["Attacks"] = {
+						["脚踢"] = {
 							["Details"] = {
-								["环境"] = {
+								["Crit"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 0,
 									["amount"] = 0,
 								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 470,
-						["Physical"] = 331,
-					},
-					["Attacks"] = {
-						["脚踢"] = {
-							["Details"] = {
 								["Hit"] = {
 									["max"] = 0,
 									["min"] = 0,
@@ -6261,25 +3973,25 @@ RecountPerCharDB = {
 						},
 						["影袭"] = {
 							["Details"] = {
+								["Hit"] = {
+									["max"] = 93,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 176,
+								},
 								["Dodge"] = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
-								["Miss"] = {
-									["count"] = 2,
+								["Parry"] = {
+									["count"] = 0,
 									["amount"] = 0,
 								},
-								["Hit"] = {
-									["max"] = 37,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 268,
-								},
 								["Crit"] = {
-									["max"] = 63,
+									["max"] = 163,
 									["min"] = 0,
 									["count"] = 1,
-									["amount"] = 63,
+									["amount"] = 163,
 								},
 								["Hit (被格挡)"] = {
 									["max"] = 0,
@@ -6288,10 +4000,32 @@ RecountPerCharDB = {
 									["amount"] = 0,
 								},
 							},
-							["count"] = 11,
-							["amount"] = 331,
+							["count"] = 3,
+							["amount"] = 339,
 						},
 						["投掷"] = {
+							["Details"] = {
+								["Block"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 13,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 25,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 25,
+						},
+						["速效药膏"] = {
 							["Details"] = {
 								["Hit"] = {
 									["max"] = 0,
@@ -6299,7 +4033,55 @@ RecountPerCharDB = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
-								["Miss"] = {
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["暗影箭"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["速效药膏 II"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 34,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 34,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 34,
+						},
+						["还击"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
 									["count"] = 0,
 									["amount"] = 0,
 								},
@@ -6309,6 +4091,12 @@ RecountPerCharDB = {
 						},
 						["刺骨"] = {
 							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
 								["Hit"] = {
 									["max"] = 0,
 									["min"] = 0,
@@ -6327,65 +4115,244 @@ RecountPerCharDB = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
-								["Block"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
 							},
-							["count"] = 1,
+							["count"] = 0,
 							["amount"] = 0,
 						},
 						["肉搏"] = {
 							["Details"] = {
 								["Glancing"] = {
-									["max"] = 20,
+									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 70,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 								["Parry"] = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
-								["Miss"] = {
+								["Hit"] = {
+									["max"] = 81,
+									["min"] = 0,
 									["count"] = 5,
-									["amount"] = 0,
+									["amount"] = 251,
 								},
 								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Miss"] = {
 									["count"] = 2,
 									["amount"] = 0,
 								},
-								["Hit"] = {
-									["max"] = 31,
-									["min"] = 0,
-									["count"] = 10,
-									["amount"] = 254,
-								},
 								["Crit"] = {
-									["max"] = 62,
+									["max"] = 148,
 									["min"] = 0,
 									["count"] = 2,
-									["amount"] = 123,
+									["amount"] = 270,
 								},
 								["Hit (被格挡)"] = {
-									["max"] = 20,
+									["max"] = 17,
 									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 23,
+									["count"] = 1,
+									["amount"] = 17,
 								},
 							},
-							["count"] = 26,
-							["amount"] = 470,
+							["count"] = 11,
+							["amount"] = 538,
 						},
 					},
-					["HealingTaken"] = 272,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Block"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 12,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
 					["DamagedWho"] = {
-						["碎石怪斥候"] = {
+						["黑石勇士"] = {
 							["Details"] = {
 								["影袭"] = {
 									["count"] = 0,
 								},
-								["凿击"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骸骨魔"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石追踪者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石猎人"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石斥候"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
 									["count"] = 0,
 								},
 								["刺骨"] = {
@@ -6400,15 +4367,52 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["碎石怪先知"] = {
+						["黑石召唤师"] = {
 							["Details"] = {
 								["脚踢"] = {
 									["count"] = 0,
 								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["夜行黑暗狼人"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
 								["刺骨"] = {
 									["count"] = 0,
 								},
-								["影袭"] = {
+								["速效药膏 II"] = {
 									["count"] = 0,
 								},
 								["肉搏"] = {
@@ -6417,11 +4421,91 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["碎石怪击颅者"] = {
+						["骷髅医师"] = {
 							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
 								["投掷"] = {
 									["count"] = 0,
 								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 339,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 34,
+								},
+								["投掷"] = {
+									["count"] = 25,
+								},
+								["肉搏"] = {
+									["count"] = 538,
+								},
+							},
+							["amount"] = 936,
+						},
+						["食脑者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0,
+								},
 								["影袭"] = {
 									["count"] = 0,
 								},
@@ -6431,41 +4515,31 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["纳什尔"] = {
+						["恐怖骸骨"] = {
 							["Details"] = {
 								["影袭"] = {
-									["count"] = 132,
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
 								},
 								["肉搏"] = {
-									["count"] = 95,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 227,
+							["amount"] = 0,
 						},
-						["格劳姆格"] = {
+						["黑石哨兵"] = {
 							["Details"] = {
-								["影袭"] = {
-									["count"] = 130,
+								["还击"] = {
+									["count"] = 0,
 								},
-								["肉搏"] = {
-									["count"] = 182,
-								},
-							},
-							["amount"] = 312,
-						},
-						["布劳勒尔"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 69,
-								},
-								["肉搏"] = {
-									["count"] = 193,
-								},
-							},
-							["amount"] = 262,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
 								["影袭"] = {
 									["count"] = 0,
 								},
@@ -6475,21 +4549,50 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["碎石怪断骨者"] = {
+						["湿地鳄鱼"] = {
 							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
+								["凿击"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
 					},
-					["TimeDamage"] = 29.08000000000001,
+					["TimeDamage"] = 13.92,
 					["WhoDamaged"] = {
-						["碎石怪斥候"] = {
+						["黑石勇士"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骸骨魔"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石追踪者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石猎人"] = {
 							["Details"] = {
 								["投掷"] = {
 									["count"] = 0,
@@ -6500,22 +4603,88 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["碎石怪击颅者"] = {
+						["黑石斥候"] = {
 							["Details"] = {
-								["凿击"] = {
-									["count"] = 0,
-								},
 								["肉搏"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["碎石怪先知"] = {
+						["被诅咒的水手"] = {
 							["Details"] = {
-								["闪电箭"] = {
+								["肉搏"] = {
 									["count"] = 0,
 								},
+							},
+							["amount"] = 0,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["夜行黑暗狼人"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["裂拳食人魔"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅医师"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["食脑者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 159,
+								},
+							},
+							["amount"] = 159,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
 								["肉搏"] = {
 									["count"] = 0,
 								},
@@ -6527,32 +4696,10 @@ RecountPerCharDB = {
 								["Falling"] = {
 									["count"] = 0,
 								},
-								["Fire"] = {
-									["count"] = 0,
-								},
 							},
 							["amount"] = 0,
 						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["纳什尔"] = {
-							["Details"] = {
-								["食肉"] = {
-									["count"] = 27,
-								},
-								["肉搏"] = {
-									["count"] = 150,
-								},
-							},
-							["amount"] = 177,
-						},
-						["碎石怪萨满祭司"] = {
+						["湿地鳄鱼"] = {
 							["Details"] = {
 								["肉搏"] = {
 									["count"] = 0,
@@ -6560,42 +4707,89 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["格劳姆格"] = {
+						["森林灰狼"] = {
 							["Details"] = {
 								["肉搏"] = {
-									["count"] = 95,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 95,
+							["amount"] = 0,
+						},
+						["黑石哨兵"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["火焰箭"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 					},
-					["GTFOEventDamage"] = 0,
-					["WhoHealed"] = {
-						["若丶无弃"] = {
+					["ElementDone"] = {
+						["Shadow"] = 0,
+						["Physical"] = 364,
+						["Melee"] = 538,
+						["Nature"] = 34,
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
 							["Details"] = {
-								["圣光术"] = {
-									["count"] = 189,
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 189,
+							["amount"] = 0,
 						},
-						["特变电工"] = {
+						["Melee"] = {
 							["Details"] = {
-								["治疗药水"] = {
-									["count"] = 83,
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 83,
+							["amount"] = 6,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 					},
-					["HealedWho"] = {
-						["特变电工"] = {
+					["CCBroken"] = {
+						["闷棍 (Melee)"] = {
 							["Details"] = {
-								["治疗药水"] = {
-									["count"] = 83,
+								["黑石勇士"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 83,
+							["amount"] = 0,
 						},
 					},
 				},
@@ -6609,11 +4803,50 @@ RecountPerCharDB = {
 					["RageGainedFrom"] = {
 					},
 					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 						["Melee"] = {
 							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
 								["Parry"] = {
 									["count"] = 0,
 								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
 								["Dodge"] = {
 									["count"] = 0,
 								},
@@ -6623,9 +4856,9 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Physical"] = {
+						["Nature"] = {
 							["Details"] = {
-								["Hit"] = {
+								["Resist"] = {
 									["count"] = 0,
 								},
 							},
@@ -6634,23 +4867,108 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 					},
-					["ManaGain"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["ElementTaken"] = {
-						["Melee"] = 0,
 						["Physical"] = 0,
+						["Fire"] = 0,
+						["Melee"] = 0,
+						["Shadow"] = 0,
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementDoneAbsorb"] = {
+					["ElementTakenBlock"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 0,
+						["Physical"] = 0,
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
 					["PartialAbsorb"] = {
-						["打击"] = {
+						["火焰之盾效果 II"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
@@ -6662,7 +4980,91 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["凿击"] = {
+						["火球术"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["暗言术：痛"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["暗影箭"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["减速毒药"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["扫荡"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["破甲攻击"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["暗言术：痛 (伤害/跳)"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
@@ -6687,93 +5089,417 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
+					["DamagedWho"] = {
+						["黑石勇士"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["夜行织影狼人"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骸骨魔"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石追踪者"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["扎克乌尔"] = {
+							["Details"] = {
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恶臭的食尸鬼"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["噬骨者"] = {
+							["Details"] = {
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["纳克罗什酋长"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅医师"] = {
+							["Details"] = {
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["暗皮战士"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅看守"] = {
+							["Details"] = {
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["裂拳好战者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石叛节者"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石哨兵"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["萨瑞尔祖恩"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 					},
 					["PartialBlock"] = {
 					},
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["CCBroken"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
 					["WhoDamaged"] = {
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-								["打击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["凿击"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪萨满祭司"] = {
+						["黑石勇士"] = {
 							["Details"] = {
 								["肉搏"] = {
 									["count"] = 0,
@@ -6781,7 +5507,193 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["碎石怪先知"] = {
+						["夜行织影狼人"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骸骨魔"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石追踪者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["扎克乌尔"] = {
+							["Details"] = {
+								["扫荡"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恶臭的食尸鬼"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["噬骨者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["龙喉百夫长"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["暗皮战士"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅看守"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["裂拳好战者"] = {
+							["Details"] = {
+								["火焰之盾效果 II"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["暗言术：痛 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅医师"] = {
+							["Details"] = {
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石哨兵"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["萨瑞尔祖恩"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水兵"] = {
 							["Details"] = {
 								["肉搏"] = {
 									["count"] = 0,
@@ -6792,27 +5704,8 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["FDamagedWho"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
-					["WhoHealed"] = {
-					},
 					["PartialResist"] = {
-						["打击"] = {
+						["火焰之盾效果 II"] = {
 							["Details"] = {
 								["未被抵抗"] = {
 									["max"] = 0,
@@ -6824,7 +5717,91 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["凿击"] = {
+						["火球术"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["暗言术：痛"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["暗影箭"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["减速毒药"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["扫荡"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["破甲攻击"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["暗言术：痛 (伤害/跳)"] = {
 							["Details"] = {
 								["未被抵抗"] = {
 									["max"] = 0,
@@ -6849,18 +5826,383 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["FDamage"] = 0,
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-						["碎石怪先知"] = {
+					["TimeSpent"] = {
+						["黑石勇士"] = {
 							["Details"] = {
-								["闪电箭 (脚踢)"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["夜行织影狼人"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骸骨魔"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石追踪者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["裂拳奴役者"] = {
+							["Details"] = {
+								["扰乱"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["扎克乌尔"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恶臭的食尸鬼"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["肾击"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["噬骨者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["纳克罗什酋长"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅医师"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["暗皮战士"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅看守"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["裂拳好战者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石叛节者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石哨兵"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["萨瑞尔祖恩"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
 									["count"] = 0,
 								},
 							},
@@ -6869,77 +6211,54 @@ RecountPerCharDB = {
 					},
 					["WhoDispelled"] = {
 					},
-					["TimeSpent"] = {
-						["碎石怪断骨者"] = {
+					["InterruptData"] = {
+						["瘟疫食尸鬼"] = {
 							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
+								["游荡瘟疫 (脚踢)"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["碎石怪击颅者"] = {
+						["夜行织影狼人"] = {
 							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
+								["暗影箭 (脚踢)"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["碎石怪萨满祭司"] = {
+						["黑石召唤师"] = {
 							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
+								["火球术 (脚踢)"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
 					},
+					["RunicPowerGain"] = 0,
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["WhoHealed"] = {
+					},
 					["EnergyGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
 					["Healing"] = 0,
-					["RunicPowerGained"] = {
+					["FDamagedWho"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
+					["Dispelled"] = 0,
 					["Attacks"] = {
 						["脚踢"] = {
 							["Details"] = {
 								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 0,
@@ -6951,21 +6270,11 @@ RecountPerCharDB = {
 						},
 						["影袭"] = {
 							["Details"] = {
-								["Hit (被格挡)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
 								["Dodge"] = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
+								["Hit (被格挡)"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 0,
@@ -6977,7 +6286,97 @@ RecountPerCharDB = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["扰乱"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["投掷"] = {
+							["Details"] = {
+								["Block"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["速效药膏"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["暗影箭"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["肾击"] = {
+							["Details"] = {
 								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["还击"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
 									["count"] = 0,
 									["amount"] = 0,
 								},
@@ -6997,7 +6396,7 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["投掷"] = {
+						["速效药膏 II"] = {
 							["Details"] = {
 								["Hit"] = {
 									["max"] = 0,
@@ -7017,9 +6416,7 @@ RecountPerCharDB = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
-								["Hit (被格挡)"] = {
-									["max"] = 0,
-									["min"] = 0,
+								["Dodge"] = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
@@ -7029,7 +6426,9 @@ RecountPerCharDB = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
-								["Dodge"] = {
+								["Hit (被格挡)"] = {
+									["max"] = 0,
+									["min"] = 0,
 									["count"] = 0,
 									["amount"] = 0,
 								},
@@ -7053,24 +6452,15 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["碎石怪断骨者"] = {
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["黑石勇士"] = {
 							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
 								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["刺骨"] = {
 									["count"] = 0,
 								},
 								["投掷"] = {
@@ -7082,21 +6472,7 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
+						["夜行织影狼人"] = {
 							["Details"] = {
 								["脚踢"] = {
 									["count"] = 0,
@@ -7110,10 +6486,24 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["碎石怪断骨者"] = {
+						["骸骨魔"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石追踪者"] = {
 							["Details"] = {
 								["影袭"] = {
 									["count"] = 0,
@@ -7124,40 +6514,295 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["碎石怪击颅者"] = {
+						["裂拳奴役者"] = {
+							["Details"] = {
+								["扰乱"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["扎克乌尔"] = {
 							["Details"] = {
 								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恶臭的食尸鬼"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["肾击"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["噬骨者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["纳克罗什酋长"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅医师"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["暗皮战士"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅看守"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["裂拳好战者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石叛节者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石哨兵"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["萨瑞尔祖恩"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
 									["count"] = 0,
 								},
 								["刺骨"] = {
 									["count"] = 0,
 								},
-								["投掷"] = {
+								["肉搏"] = {
 									["count"] = 0,
 								},
-								["肉搏"] = {
+								["速效药膏"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["碎石怪萨满祭司"] = {
+						["被诅咒的水兵"] = {
 							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
 								["投掷"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["影袭"] = {
 									["count"] = 0,
 								},
 								["肉搏"] = {
@@ -7167,67 +6812,171 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
+					["ManaGain"] = 0,
+					["HOTs"] = {
 					},
 					["DispelledWho"] = {
 					},
 				},
-				["Fight1"] = {
+				["Fight3"] = {
 					["DOTs"] = {
 					},
 					["ElementDoneResist"] = {
 					},
 					["Ressed"] = 0,
-					["DamageTaken"] = 31,
+					["DamageTaken"] = 84,
 					["RageGainedFrom"] = {
 					},
 					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 						["Melee"] = {
 							["Details"] = {
 								["Hit"] = {
-									["count"] = 1,
+									["count"] = 2,
 								},
 								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
 									["count"] = 0,
 								},
 								["Dodge"] = {
 									["count"] = 1,
 								},
-							},
-							["amount"] = 2,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
 									["count"] = 1,
 								},
 							},
-							["amount"] = 1,
+							["amount"] = 4,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
 					},
-					["ManaGain"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["ElementTaken"] = {
-						["Melee"] = 16,
-						["Physical"] = 15,
+						["Shadow"] = 0,
+						["Fire"] = 0,
+						["Melee"] = 84,
+						["Physical"] = 0,
 					},
 					["DOT_Time"] = 0,
-					["Damage"] = 22,
-					["ElementDoneAbsorb"] = {
+					["Damage"] = 960,
+					["ElementTakenBlock"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 0,
+						["Physical"] = 400,
+						["Melee"] = 457,
+						["Nature"] = 103,
+					},
 					["PartialAbsorb"] = {
-						["凿击"] = {
+						["火焰之盾效果 II"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
@@ -7239,7 +6988,7 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["打击"] = {
+						["裂筋"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
@@ -7251,16 +7000,40 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["投掷"] = {
+						["暗影箭"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 0,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["射击"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["火焰箭"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
 							["amount"] = 0,
 						},
 						["肉搏"] = {
@@ -7268,87 +7041,350 @@ RecountPerCharDB = {
 								["未被吸收"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 4,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 4,
 							["amount"] = 0,
 						},
 					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
+					["DamagedWho"] = {
+						["莫甘斯的爪牙"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["夜行织影狼人"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石追踪者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石猎人"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石斥候"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["莫甘斯"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 179,
+								},
+								["还击"] = {
+									["count"] = 209,
+								},
+								["投掷"] = {
+									["count"] = 12,
+								},
+								["速效药膏 II"] = {
+									["count"] = 103,
+								},
+								["肉搏"] = {
+									["count"] = 457,
+								},
+							},
+							["amount"] = 960,
+						},
+						["黑石勇士"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石叛节者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石哨兵"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 					},
 					["PartialBlock"] = {
 					},
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Physical"] = 22,
-					},
-					["CCBroken"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["Dispelled"] = 0,
 					["WhoDamaged"] = {
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 15,
-						},
-						["碎石怪先知"] = {
+						["莫甘斯的爪牙"] = {
 							["Details"] = {
 								["肉搏"] = {
 									["count"] = 0,
@@ -7356,20 +7392,9 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["碎石怪断骨者"] = {
+						["夜行织影狼人"] = {
 							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-								["打击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["凿击"] = {
+								["暗影箭"] = {
 									["count"] = 0,
 								},
 								["肉搏"] = {
@@ -7378,7 +7403,7 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["碎石怪萨满祭司"] = {
+						["黑石追踪者"] = {
 							["Details"] = {
 								["肉搏"] = {
 									["count"] = 0,
@@ -7386,20 +7411,226 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["碎石穴居人"] = {
+						["黑石猎人"] = {
 							["Details"] = {
 								["肉搏"] = {
-									["count"] = 16,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 16,
+							["amount"] = 0,
+						},
+						["黑石斥候"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["射击"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["莫甘斯"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["火焰之盾效果 II"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["魅魔"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["暗皮巫师"] = {
+							["Details"] = {
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 84,
+								},
+							},
+							["amount"] = 84,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石勇士"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["火焰箭"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石叛节者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石哨兵"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["FDamagedWho"] = {
+					["PartialResist"] = {
+						["火焰之盾效果 II"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["裂筋"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["暗影箭"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["射击"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["火焰箭"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
 					},
-					["RunicPowerGainedFrom"] = {
+					["CCBroken"] = {
+						["闷棍 (影袭)"] = {
+							["Details"] = {
+								["黑石追踪者"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 0,
@@ -7409,93 +7640,87 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["ActiveTime"] = 4.5,
-					["CCBreak"] = 0,
+					["HealedWho"] = {
+					},
 					["EnergyGain"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-						["凿击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["打击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 2,
-						},
-					},
 					["ManaGained"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["FDamage"] = 0,
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-						["碎石怪先知"] = {
+					["TimeSpent"] = {
+						["莫甘斯的爪牙"] = {
 							["Details"] = {
-								["闪电箭 (脚踢)"] = {
+								["肉搏"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["碎石怪斥候"] = {
+						["夜行织影狼人"] = {
 							["Details"] = {
-								["凿击"] = {
-									["count"] = 1.5,
+								["还击"] = {
+									["count"] = 0,
+								},
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 1.5,
+							["amount"] = 0,
 						},
-						["碎石怪先知"] = {
+						["黑石追踪者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石猎人"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石斥候"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["莫甘斯"] = {
 							["Details"] = {
 								["脚踢"] = {
 									["count"] = 0,
@@ -7509,12 +7734,32 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["碎石怪断骨者"] = {
+						["被诅咒的水手"] = {
 							["Details"] = {
-								["凿击"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
 									["count"] = 0,
 								},
 								["刺骨"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
 									["count"] = 0,
 								},
 								["影袭"] = {
@@ -7526,28 +7771,45 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["碎石怪击颅者"] = {
+						["巨型湿地鳄鱼"] = {
 							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["暗影箭"] = {
+									["count"] = 0,
+								},
 								["投掷"] = {
 									["count"] = 0,
 								},
 								["影袭"] = {
 									["count"] = 0,
 								},
-								["凿击"] = {
-									["count"] = 1.5,
-								},
 								["肉搏"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 1.5,
+							["amount"] = 0,
 						},
-						["碎石怪萨满祭司"] = {
+						["黑石暗影法师"] = {
 							["Details"] = {
-								["刺骨"] = {
-									["count"] = 0,
-								},
 								["影袭"] = {
 									["count"] = 0,
 								},
@@ -7557,27 +7819,170 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["碎石穴居人"] = {
+						["瘟疫食尸鬼"] = {
 							["Details"] = {
-								["凿击"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 1.37,
+								},
+								["还击"] = {
+									["count"] = 1.4,
+								},
+								["投掷"] = {
 									["count"] = 1.5,
 								},
+								["肉搏"] = {
+									["count"] = 5.87,
+								},
 							},
-							["amount"] = 1.5,
+							["amount"] = 10.14,
+						},
+						["黑石勇士"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石叛节者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石哨兵"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["游荡瘟疫 (脚踢)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["夜行织影狼人"] = {
+							["Details"] = {
+								["暗影箭 (脚踢)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["莫甘斯"] = {
+							["Details"] = {
+								["火球术 (脚踢)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["火焰箭 (脚踢)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["火球术 (脚踢)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["WhoHealed"] = {
+					},
 					["EnergyGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 10.14,
 					["Healing"] = 0,
-					["RunicPowerGained"] = {
+					["FDamagedWho"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
+					["Dispelled"] = 0,
 					["Attacks"] = {
 						["脚踢"] = {
 							["Details"] = {
@@ -7599,16 +8004,6 @@ RecountPerCharDB = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
 								["Dodge"] = {
 									["count"] = 0,
 									["amount"] = 0,
@@ -7619,15 +8014,17 @@ RecountPerCharDB = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
+								["Hit"] = {
+									["max"] = 93,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 179,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 0,
+							["count"] = 2,
+							["amount"] = 179,
 						},
-						["凿击"] = {
+						["投掷"] = {
 							["Details"] = {
 								["Crit"] = {
 									["max"] = 0,
@@ -7636,51 +8033,63 @@ RecountPerCharDB = {
 									["amount"] = 0,
 								},
 								["Hit"] = {
-									["max"] = 8,
-									["min"] = 7,
-									["count"] = 3,
-									["amount"] = 22,
+									["max"] = 12,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 12,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 22,
+							["count"] = 1,
+							["amount"] = 12,
+						},
+						["速效药膏"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["暗影箭"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["还击"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 209,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 209,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 209,
 						},
 						["刺骨"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["Block"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
 								["Hit (被格挡)"] = {
 									["max"] = 0,
 									["min"] = 0,
@@ -7693,7 +8102,27 @@ RecountPerCharDB = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
-								["Miss"] = {
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["速效药膏 II"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 37,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 103,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 103,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
 									["count"] = 0,
 									["amount"] = 0,
 								},
@@ -7701,113 +8130,106 @@ RecountPerCharDB = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
-								["Crit"] = {
+								["Hit"] = {
+									["max"] = 88,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 302,
+								},
+								["Hit (被格挡)"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 0,
 									["amount"] = 0,
 								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 155,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 155,
+								},
 								["Parry"] = {
-									["count"] = 0,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 0,
+							["count"] = 9,
+							["amount"] = 457,
 						},
 					},
 					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["凿击"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["脚踢"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["凿击"] = {
-									["count"] = 0,
-								},
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["凿击"] = {
-									["count"] = 8,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 8,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["凿击"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-					},
-					["TimeDamage"] = 4.5,
+					["RageGain"] = 0,
+					["TimeDamage"] = 10.14,
 					["TimeDamaging"] = {
-						["碎石怪斥候"] = {
+						["莫甘斯的爪牙"] = {
 							["Details"] = {
-								["凿击"] = {
-									["count"] = 1.5,
+								["肉搏"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 1.5,
+							["amount"] = 0,
 						},
-						["碎石怪先知"] = {
+						["夜行织影狼人"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石追踪者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石猎人"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石斥候"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["莫甘斯"] = {
 							["Details"] = {
 								["脚踢"] = {
 									["count"] = 0,
@@ -7821,12 +8243,32 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["碎石怪断骨者"] = {
+						["被诅咒的水手"] = {
 							["Details"] = {
-								["凿击"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
 									["count"] = 0,
 								},
 								["刺骨"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
 									["count"] = 0,
 								},
 								["影袭"] = {
@@ -7838,28 +8280,45 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["碎石怪击颅者"] = {
+						["巨型湿地鳄鱼"] = {
 							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["暗影箭"] = {
+									["count"] = 0,
+								},
 								["投掷"] = {
 									["count"] = 0,
 								},
 								["影袭"] = {
 									["count"] = 0,
 								},
-								["凿击"] = {
-									["count"] = 1.5,
-								},
 								["肉搏"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 1.5,
+							["amount"] = 0,
 						},
-						["碎石怪萨满祭司"] = {
+						["黑石暗影法师"] = {
 							["Details"] = {
-								["刺骨"] = {
-									["count"] = 0,
-								},
 								["影袭"] = {
 									["count"] = 0,
 								},
@@ -7869,17 +8328,116 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["碎石穴居人"] = {
+						["瘟疫食尸鬼"] = {
 							["Details"] = {
-								["凿击"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 1.37,
+								},
+								["还击"] = {
+									["count"] = 1.4,
+								},
+								["投掷"] = {
 									["count"] = 1.5,
 								},
+								["肉搏"] = {
+									["count"] = 5.87,
+								},
 							},
-							["amount"] = 1.5,
+							["amount"] = 10.14,
+						},
+						["黑石勇士"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石叛节者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石哨兵"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
+					["ManaGain"] = 0,
+					["HOTs"] = {
 					},
 					["DispelledWho"] = {
 					},
@@ -7888,18 +8446,1529 @@ RecountPerCharDB = {
 					["DOTs"] = {
 					},
 					["ElementDoneResist"] = {
+						["Nature"] = 0,
 					},
 					["Ressed"] = 0,
-					["DamageTaken"] = 68,
+					["DamageTaken"] = 180,
 					["RageGainedFrom"] = {
 					},
 					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crushing"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
 						["Physical"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 8,
+								},
+								["Miss"] = {
+									["count"] = 3,
+								},
+								["Block"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 13,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 180,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 797,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Physical"] = 288,
+						["Melee"] = 411,
+						["Nature"] = 98,
+					},
+					["PartialAbsorb"] = {
+						["肉搏"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["黑石勇士"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骸骨魔"] = {
+							["Details"] = {
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石追踪者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["森格"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石叛节者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["食腐独行蛛"] = {
+							["Details"] = {
+								["速效药膏 II"] = {
+									["count"] = 98,
+								},
+								["投掷"] = {
+									["count"] = 25,
+								},
+								["影袭"] = {
+									["count"] = 263,
+								},
+								["肉搏"] = {
+									["count"] = 411,
+								},
+							},
+							["amount"] = 797,
+						},
+						["骷髅看守"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["暗皮杀手"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["凿击"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石前锋"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["夜行织影狼人"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["加塞尔佐格"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["斯塔文·密斯特曼托"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["凿击"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石勇士"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["夜行织影狼人"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骸骨魔"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石追踪者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["加塞尔佐格"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["食腐独行蛛"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 180,
+								},
+							},
+							["amount"] = 180,
+						},
+						["骷髅看守"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["暗皮杀手"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["斯塔文·密斯特曼托"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["肉搏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 6,
+						},
+					},
+					["CCBroken"] = {
+						["闷棍 (影袭)"] = {
+							["Details"] = {
+								["暗皮杀手"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 12,
+						["Physical"] = 0,
+					},
+					["TimeHealing"] = {
+						["特变电工"] = {
+							["Details"] = {
+								["急救"] = {
+									["count"] = 0,
+								},
+								["治疗药水"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["特变电工"] = {
+							["Details"] = {
+								["急救"] = {
+									["count"] = 0,
+								},
+								["治疗药水"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["特变电工"] = {
+							["Details"] = {
+								["急救"] = {
+									["count"] = 0,
+								},
+								["治疗药水"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骸骨魔"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石追踪者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["森格"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石叛节者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["食腐独行蛛"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 3,
+								},
+								["影袭"] = {
+									["count"] = 2.38,
+								},
+								["肉搏"] = {
+									["count"] = 8.77,
+								},
+							},
+							["amount"] = 14.15,
+						},
+						["骷髅看守"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["暗皮杀手"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["凿击"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石前锋"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石勇士"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["夜行织影狼人"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["加塞尔佐格"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["斯塔文·密斯特曼托"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["凿击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+						["夜行织影狼人"] = {
+							["Details"] = {
+								["暗影箭 (脚踢)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["森格"] = {
+							["Details"] = {
+								["烈焰风暴 (脚踢)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["急救"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["治疗药水"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["特变电工"] = {
+							["Details"] = {
+								["急救"] = {
+									["count"] = 0,
+								},
+								["治疗药水"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 14.15,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["脚踢"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["影袭"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 92,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 263,
+								},
+								["Hit (被格挡)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 263,
+						},
+						["投掷"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 13,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 25,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 25,
+						},
+						["速效药膏"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["速效药膏 II"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 34,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 98,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 98,
+						},
+						["还击"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["刺骨"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["凿击"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 84,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 335,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 53,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 53,
+								},
+								["Hit (被格挡)"] = {
+									["max"] = 23,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 23,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 411,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 14.15,
+					["TimeDamaging"] = {
+						["黑石勇士"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骸骨魔"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石追踪者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["森格"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石叛节者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["食腐独行蛛"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 3,
+								},
+								["影袭"] = {
+									["count"] = 2.38,
+								},
+								["肉搏"] = {
+									["count"] = 8.77,
+								},
+							},
+							["amount"] = 14.15,
+						},
+						["骷髅看守"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["暗皮杀手"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["凿击"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石前锋"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["夜行织影狼人"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["加塞尔佐格"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["斯塔文·密斯特曼托"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["凿击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+						["急救"] = {
+							["Details"] = {
+								["特变电工"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+						["锁喉 (伤害/跳)"] = {
+							["Details"] = {
+								["小鬼爪牙"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 222,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
 							["Details"] = {
 								["Hit"] = {
 									["count"] = 0,
 								},
-								["Parry"] = {
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
 							},
@@ -7907,30 +9976,27 @@ RecountPerCharDB = {
 						},
 						["Melee"] = {
 							["Details"] = {
-								["Immune"] = {
-									["count"] = 0,
-								},
 								["Hit"] = {
 									["count"] = 3,
-								},
-								["Dodge"] = {
-									["count"] = 1,
 								},
 								["Miss"] = {
 									["count"] = 0,
 								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
 								["Crit"] = {
-									["count"] = 0,
+									["count"] = 1,
 								},
 								["Parry"] = {
-									["count"] = 1,
+									["count"] = 0,
 								},
 							},
 							["amount"] = 5,
 						},
-						["Nature"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Hit"] = {
+								["Parry"] = {
 									["count"] = 0,
 								},
 							},
@@ -7939,24 +10005,104 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 11,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
 					},
-					["ManaGain"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["ElementTaken"] = {
-						["Physical"] = 0,
-						["Melee"] = 68,
-						["Nature"] = 0,
+						["Fire"] = 0,
+						["Melee"] = 222,
+						["Shadow"] = 0,
 					},
 					["DOT_Time"] = 0,
-					["Damage"] = 323,
-					["ElementDoneAbsorb"] = {
+					["Damage"] = 923,
+					["ElementTakenBlock"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 0,
+						["Physical"] = 340,
+						["Melee"] = 482,
+						["Nature"] = 101,
+					},
 					["PartialAbsorb"] = {
-						["凿击"] = {
+						["火焰之盾效果 II"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
@@ -7968,7 +10114,7 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["闪电箭"] = {
+						["火焰箭"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
@@ -7980,7 +10126,7 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["打击"] = {
+						["火球术"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
@@ -7992,7 +10138,19 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["投掷"] = {
+						["暗影箭"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["盾牌猛击"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
@@ -8017,72 +10175,140 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 199,
-						["Physical"] = 124,
-					},
-					["CCBroken"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
+					["DamagedWho"] = {
+						["黑石勇士"] = {
 							["Details"] = {
-								["Glancing"] = {
+								["影袭"] = {
 									["count"] = 0,
 								},
-								["Hit"] = {
-									["count"] = 9,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 2,
-								},
-								["Block"] = {
+								["还击"] = {
 									["count"] = 0,
 								},
-								["Crit"] = {
+								["肉搏"] = {
 									["count"] = 0,
 								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 13,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
+								["投掷"] = {
 									["count"] = 0,
 								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
+								["速效药膏"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 5,
+							["amount"] = 0,
 						},
-					},
-					["Dispelled"] = 0,
-					["WhoDamaged"] = {
-						["碎石怪斥候"] = {
+						["夜行织影狼人"] = {
 							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["裂拳战士"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骸骨魔"] = {
+							["Details"] = {
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石追踪者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石斥候"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恶臭的食尸鬼"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["凿击"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
 								["投掷"] = {
 									["count"] = 0,
 								},
@@ -8092,26 +10318,284 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["碎石怪先知"] = {
+						["黑石召唤师"] = {
 							["Details"] = {
-								["闪电箭"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["碎石怪击颅者"] = {
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["大副斯涅利格"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅医师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["湿地鳄鱼幼崽"] = {
 							["Details"] = {
 								["凿击"] = {
 									["count"] = 0,
 								},
+							},
+							["amount"] = 0,
+						},
+						["裂拳好战者"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
 								["肉搏"] = {
-									["count"] = 68,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 68,
+							["amount"] = 0,
 						},
-						["碎石怪断骨者"] = {
+						["食脑者"] = {
+							["Details"] = {
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 340,
+								},
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 101,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 482,
+								},
+							},
+							["amount"] = 923,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石哨兵"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["锁喉 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石叛节者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["黑石勇士"] = {
 							["Details"] = {
 								["肉搏"] = {
 									["count"] = 0,
@@ -8119,7 +10603,18 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["碎石怪萨满祭司"] = {
+						["夜行织影狼人"] = {
+							["Details"] = {
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["裂拳战士"] = {
 							["Details"] = {
 								["肉搏"] = {
 									["count"] = 0,
@@ -8127,7 +10622,149 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["碎石穴居人"] = {
+						["骸骨魔"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石追踪者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恶臭的食尸鬼"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 0,
+								},
+								["火焰之盾效果 II"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["大副斯涅利格"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅医师"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["裂拳好战者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["食脑者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 222,
+								},
+							},
+							["amount"] = 222,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["火焰箭"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石叛节者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石哨兵"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水兵"] = {
 							["Details"] = {
 								["肉搏"] = {
 									["count"] = 0,
@@ -8138,35 +10775,8 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["FDamagedWho"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 14.77,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
-					["WhoHealed"] = {
-						["若丶无弃"] = {
-							["Details"] = {
-								["圣光术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
 					["PartialResist"] = {
-						["凿击"] = {
+						["火焰之盾效果 II"] = {
 							["Details"] = {
 								["未被抵抗"] = {
 									["max"] = 0,
@@ -8178,7 +10788,7 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["闪电箭"] = {
+						["火焰箭"] = {
 							["Details"] = {
 								["未被抵抗"] = {
 									["max"] = 0,
@@ -8190,7 +10800,7 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["打击"] = {
+						["火球术"] = {
 							["Details"] = {
 								["未被抵抗"] = {
 									["max"] = 0,
@@ -8202,7 +10812,19 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["投掷"] = {
+						["暗影箭"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["盾牌猛击"] = {
 							["Details"] = {
 								["未被抵抗"] = {
 									["max"] = 0,
@@ -8227,50 +10849,65 @@ RecountPerCharDB = {
 							["amount"] = 5,
 						},
 					},
+					["CCBroken"] = {
+						["闷棍 (Melee)"] = {
+							["Details"] = {
+								["裂拳好战者"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["TimeHealing"] = {
+						["特变电工"] = {
+							["Details"] = {
+								["急救"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["特变电工"] = {
+							["Details"] = {
+								["急救"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["FDamage"] = 0,
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["治疗波 (脚踢)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
 					["TimeSpent"] = {
-						["碎石怪斥候"] = {
+						["特变电工"] = {
 							["Details"] = {
-								["凿击"] = {
+								["急救"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
+						["夜行织影狼人"] = {
 							["Details"] = {
 								["脚踢"] = {
 									["count"] = 0,
@@ -8284,28 +10921,112 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["碎石怪击颅者"] = {
+						["裂拳战士"] = {
 							["Details"] = {
-								["影袭"] = {
-									["count"] = 1.66,
-								},
-								["刺骨"] = {
-									["count"] = 1.5,
-								},
-								["凿击"] = {
-									["count"] = 1.5,
-								},
-								["肉搏"] = {
-									["count"] = 10.11,
-								},
-							},
-							["amount"] = 14.77,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["脚踢"] = {
+								["还击"] = {
 									["count"] = 0,
 								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骸骨魔"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石追踪者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石斥候"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恶臭的食尸鬼"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["凿击"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石叛节者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
 								["影袭"] = {
 									["count"] = 0,
 								},
@@ -8318,12 +11039,215 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["碎石穴居人"] = {
+						["大副斯涅利格"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["减速药膏"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["食脑者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅医师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["湿地鳄鱼幼崽"] = {
 							["Details"] = {
 								["凿击"] = {
 									["count"] = 0,
 								},
-								["刺骨"] = {
+							},
+							["amount"] = 0,
+						},
+						["裂拳好战者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 2.41,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 8.549999999999999,
+								},
+							},
+							["amount"] = 10.96,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石勇士"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["锁喉 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石哨兵"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["投掷"] = {
 									["count"] = 0,
 								},
 								["影袭"] = {
@@ -8336,22 +11260,88 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Heals"] = {
+					["WhoDispelled"] = {
 					},
-					["FDamage"] = 0,
+					["InterruptData"] = {
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["暗影箭 (脚踢)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["游荡瘟疫 (脚踢)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["夜行织影狼人"] = {
+							["Details"] = {
+								["暗影箭 (脚踢)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅医师"] = {
+							["Details"] = {
+								["暗影箭 (脚踢)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["火球术 (脚踢)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["急救"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["特变电工"] = {
+							["Details"] = {
+								["急救"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
 					["EnergyGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 10.96,
 					["Healing"] = 0,
-					["RunicPowerGained"] = {
+					["FDamagedWho"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
+					["Dispelled"] = 0,
 					["Attacks"] = {
 						["脚踢"] = {
 							["Details"] = {
-								["Miss"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
 									["count"] = 0,
 									["amount"] = 0,
 								},
@@ -8371,21 +11361,129 @@ RecountPerCharDB = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
-								["Miss"] = {
+								["Hit (被格挡)"] = {
+									["max"] = 0,
+									["min"] = 0,
 									["count"] = 0,
 									["amount"] = 0,
 								},
+								["Crit"] = {
+									["max"] = 172,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 172,
+								},
+								["Hit"] = {
+									["max"] = 94,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 168,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 340,
+						},
+						["投掷"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["减速药膏"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["锁喉 (伤害/跳)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["速效药膏 II"] = {
+							["Details"] = {
 								["Hit"] = {
 									["max"] = 37,
 									["min"] = 0,
 									["count"] = 3,
 									["amount"] = 101,
 								},
-								["Dodge"] = {
+							},
+							["count"] = 3,
+							["amount"] = 101,
+						},
+						["暗影箭"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["凿击"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["还击"] = {
+							["Details"] = {
+								["Parry"] = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
 								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["刺骨"] = {
+							["Details"] = {
+								["Hit"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 0,
@@ -8397,39 +11495,15 @@ RecountPerCharDB = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
-							},
-							["count"] = 3,
-							["amount"] = 101,
-						},
-						["凿击"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 8,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 8,
-								},
-								["Miss"] = {
+								["Parry"] = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 8,
+							["count"] = 0,
+							["amount"] = 0,
 						},
-						["刺骨"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 15,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 15,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 15,
-						},
-						["投掷"] = {
+						["速效药膏"] = {
 							["Details"] = {
 								["Hit"] = {
 									["max"] = 0,
@@ -8449,25 +11523,1956 @@ RecountPerCharDB = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
-								["Parry"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
 								["Dodge"] = {
-									["count"] = 1,
+									["count"] = 0,
 									["amount"] = 0,
 								},
 								["Hit"] = {
-									["max"] = 31,
+									["max"] = 88,
 									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 199,
+									["count"] = 5,
+									["amount"] = 305,
+								},
+								["Hit (被格挡)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 								["Miss"] = {
 									["count"] = 2,
 									["amount"] = 0,
 								},
 								["Crit"] = {
+									["max"] = 72,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 177,
+								},
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 482,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 10.96,
+					["TimeDamaging"] = {
+						["黑石勇士"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["夜行织影狼人"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["裂拳战士"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骸骨魔"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石追踪者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石斥候"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恶臭的食尸鬼"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["凿击"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["大副斯涅利格"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["减速药膏"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅医师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["湿地鳄鱼幼崽"] = {
+							["Details"] = {
+								["凿击"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["裂拳好战者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["食脑者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 2.41,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 8.549999999999999,
+								},
+							},
+							["amount"] = 10.96,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石哨兵"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["锁喉 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石叛节者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+						["急救"] = {
+							["Details"] = {
+								["特变电工"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+						["锁喉 (伤害/跳)"] = {
+							["Details"] = {
+								["小鬼爪牙"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 222,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 11,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Fire"] = 0,
+						["Melee"] = 222,
+						["Shadow"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 923,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 0,
+						["Physical"] = 340,
+						["Melee"] = 482,
+						["Nature"] = 101,
+					},
+					["PartialAbsorb"] = {
+						["火焰之盾效果 II"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["火焰箭"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["火球术"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["暗影箭"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["盾牌猛击"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["黑石勇士"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["夜行织影狼人"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["裂拳战士"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骸骨魔"] = {
+							["Details"] = {
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石追踪者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石斥候"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恶臭的食尸鬼"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["凿击"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["大副斯涅利格"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅医师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["湿地鳄鱼幼崽"] = {
+							["Details"] = {
+								["凿击"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["裂拳好战者"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["食脑者"] = {
+							["Details"] = {
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 340,
+								},
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 101,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 482,
+								},
+							},
+							["amount"] = 923,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石哨兵"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["锁喉 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石叛节者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["黑石勇士"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["夜行织影狼人"] = {
+							["Details"] = {
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["裂拳战士"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骸骨魔"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石追踪者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恶臭的食尸鬼"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 0,
+								},
+								["火焰之盾效果 II"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["大副斯涅利格"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅医师"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["裂拳好战者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["食脑者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 222,
+								},
+							},
+							["amount"] = 222,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["火焰箭"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石叛节者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石哨兵"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["火焰之盾效果 II"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["火焰箭"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["火球术"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["暗影箭"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["盾牌猛击"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 5,
+						},
+					},
+					["CCBroken"] = {
+						["闷棍 (Melee)"] = {
+							["Details"] = {
+								["裂拳好战者"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["TimeHealing"] = {
+						["特变电工"] = {
+							["Details"] = {
+								["急救"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["特变电工"] = {
+							["Details"] = {
+								["急救"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["特变电工"] = {
+							["Details"] = {
+								["急救"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["夜行织影狼人"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["裂拳战士"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骸骨魔"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石追踪者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石斥候"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恶臭的食尸鬼"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["凿击"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石叛节者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["大副斯涅利格"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["减速药膏"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["食脑者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅医师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["湿地鳄鱼幼崽"] = {
+							["Details"] = {
+								["凿击"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["裂拳好战者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 2.41,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 8.549999999999999,
+								},
+							},
+							["amount"] = 10.96,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石勇士"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["锁喉 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石哨兵"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["暗影箭 (脚踢)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["游荡瘟疫 (脚踢)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["夜行织影狼人"] = {
+							["Details"] = {
+								["暗影箭 (脚踢)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅医师"] = {
+							["Details"] = {
+								["暗影箭 (脚踢)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["火球术 (脚踢)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["急救"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["特变电工"] = {
+							["Details"] = {
+								["急救"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 10.96,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["脚踢"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["影袭"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (被格挡)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 172,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 172,
+								},
+								["Hit"] = {
+									["max"] = 94,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 168,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 340,
+						},
+						["投掷"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["减速药膏"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["锁喉 (伤害/跳)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["速效药膏 II"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 37,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 101,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 101,
+						},
+						["暗影箭"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["凿击"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["还击"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["刺骨"] = {
+							["Details"] = {
+								["Hit"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 0,
@@ -8479,103 +13484,79 @@ RecountPerCharDB = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
 							},
-							["count"] = 13,
-							["amount"] = 199,
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["速效药膏"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 88,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 305,
+								},
+								["Hit (被格挡)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 72,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 177,
+								},
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 482,
 						},
 					},
 					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 101,
-								},
-								["刺骨"] = {
-									["count"] = 15,
-								},
-								["凿击"] = {
-									["count"] = 8,
-								},
-								["肉搏"] = {
-									["count"] = 199,
-								},
-							},
-							["amount"] = 323,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["脚踢"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["凿击"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 14.77,
+					["RageGain"] = 0,
+					["TimeDamage"] = 10.96,
 					["TimeDamaging"] = {
-						["碎石怪斥候"] = {
+						["黑石勇士"] = {
 							["Details"] = {
-								["凿击"] = {
+								["还击"] = {
 									["count"] = 0,
 								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["刺骨"] = {
+								["投掷"] = {
 									["count"] = 0,
 								},
 								["影袭"] = {
@@ -8587,7 +13568,7 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["碎石怪先知"] = {
+						["夜行织影狼人"] = {
 							["Details"] = {
 								["脚踢"] = {
 									["count"] = 0,
@@ -8601,28 +13582,112 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["碎石怪击颅者"] = {
+						["裂拳战士"] = {
 							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
 								["影袭"] = {
-									["count"] = 1.66,
-								},
-								["刺骨"] = {
-									["count"] = 1.5,
-								},
-								["凿击"] = {
-									["count"] = 1.5,
+									["count"] = 0,
 								},
 								["肉搏"] = {
-									["count"] = 10.11,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 14.77,
+							["amount"] = 0,
 						},
-						["碎石怪萨满祭司"] = {
+						["骸骨魔"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石追踪者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石斥候"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恶臭的食尸鬼"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["凿击"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石召唤师"] = {
 							["Details"] = {
 								["脚踢"] = {
 									["count"] = 0,
 								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
 								["影袭"] = {
 									["count"] = 0,
 								},
@@ -8635,12 +13700,198 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["碎石穴居人"] = {
+						["大副斯涅利格"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["刺骨"] = {
+									["count"] = 0,
+								},
+								["减速药膏"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["骷髅医师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["湿地鳄鱼幼崽"] = {
 							["Details"] = {
 								["凿击"] = {
 									["count"] = 0,
 								},
-								["刺骨"] = {
+							},
+							["amount"] = 0,
+						},
+						["裂拳好战者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["食脑者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 2.41,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 8.549999999999999,
+								},
+							},
+							["amount"] = 10.96,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["还击"] = {
+									["count"] = 0,
+								},
+								["暗影箭"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石哨兵"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["锁喉 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["速效药膏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["黑石叛节者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0,
+								},
+								["影袭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["投掷"] = {
 									["count"] = 0,
 								},
 								["影袭"] = {
@@ -8653,91 +13904,1617 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
+					["ManaGain"] = 0,
+					["HOTs"] = {
+						["急救"] = {
+							["Details"] = {
+								["特变电工"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 					},
 					["DispelledWho"] = {
 					},
 				},
-				["LastFightData"] = {
-					["DOTs"] = {
+				["OverallData"] = {
+					["ElementDoneBlock"] = {
+						["Melee"] = 856,
+						["Physical"] = 355,
 					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 31,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
+					["TimeHealing"] = {
+						["特变电工"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
+								["急救"] = {
+									["count"] = 10.98,
 								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 1,
+								["治疗药水"] = {
+									["count"] = 1.5,
 								},
 							},
-							["amount"] = 2,
+							["amount"] = 12.48,
 						},
-						["Physical"] = {
+					},
+					["DOTs"] = {
+						["锁喉 (伤害/跳)"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
+								["小鬼爪牙"] = {
+									["count"] = 3,
 								},
 							},
+							["amount"] = 3,
+						},
+					},
+					["DOT_Time"] = 3,
+					["ElementDoneResist"] = {
+						["Nature"] = 10,
+					},
+					["TimeSpent"] = {
+						["特变电工"] = {
+							["Details"] = {
+								["急救"] = {
+									["count"] = 10.98,
+								},
+								["治疗药水"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 12.48,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 38.92000000000001,
+								},
+								["还击"] = {
+									["count"] = 3.49,
+								},
+								["暗影箭"] = {
+									["count"] = 0.72,
+								},
+								["投掷"] = {
+									["count"] = 21,
+								},
+								["肉搏"] = {
+									["count"] = 105.43,
+								},
+							},
+							["amount"] = 169.5599999999999,
+						},
+						["骸骨魔"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 23.07,
+								},
+								["还击"] = {
+									["count"] = 2.7,
+								},
+								["暗影箭"] = {
+									["count"] = 0.34,
+								},
+								["投掷"] = {
+									["count"] = 16.5,
+								},
+								["肉搏"] = {
+									["count"] = 62.28,
+								},
+							},
+							["amount"] = 104.89,
+						},
+						["黑石追踪者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 28.71,
+								},
+								["还击"] = {
+									["count"] = 5.09,
+								},
+								["刺骨"] = {
+									["count"] = 1.48,
+								},
+								["投掷"] = {
+									["count"] = 3,
+								},
+								["肉搏"] = {
+									["count"] = 100.64,
+								},
+							},
+							["amount"] = 138.92,
+						},
+						["裂拳奴役者"] = {
+							["Details"] = {
+								["扰乱"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["扎克乌尔"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 2.36,
+								},
+								["肉搏"] = {
+									["count"] = 20.23,
+								},
+							},
+							["amount"] = 22.59,
+						},
+						["莫甘斯"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0.55,
+								},
+								["影袭"] = {
+									["count"] = 1.17,
+								},
+								["肉搏"] = {
+									["count"] = 11.61,
+								},
+							},
+							["amount"] = 13.33,
+						},
+						["噬骨者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 1.43,
+								},
+								["投掷"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 8.81,
+								},
+							},
+							["amount"] = 11.74,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 5.339999999999999,
+								},
+								["还击"] = {
+									["count"] = 0.89,
+								},
+								["影袭"] = {
+									["count"] = 11.51,
+								},
+								["肉搏"] = {
+									["count"] = 57.45000000000001,
+								},
+							},
+							["amount"] = 75.19000000000005,
+						},
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 15.14,
+								},
+								["还击"] = {
+									["count"] = 1.84,
+								},
+								["刺骨"] = {
+									["count"] = 0.47,
+								},
+								["投掷"] = {
+									["count"] = 7.5,
+								},
+								["肉搏"] = {
+									["count"] = 71.09000000000002,
+								},
+							},
+							["amount"] = 96.03999999999999,
+						},
+						["食腐独行蛛"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 3,
+								},
+								["影袭"] = {
+									["count"] = 2.38,
+								},
+								["肉搏"] = {
+									["count"] = 8.77,
+								},
+							},
+							["amount"] = 14.15,
+						},
+						["纳克罗什酋长"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 1.92,
+								},
+								["影袭"] = {
+									["count"] = 3.06,
+								},
+								["肉搏"] = {
+									["count"] = 13.76,
+								},
+							},
+							["amount"] = 18.74,
+						},
+						["暗皮战士"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0.14,
+								},
+								["影袭"] = {
+									["count"] = 2.53,
+								},
+								["肉搏"] = {
+									["count"] = 9.899999999999999,
+								},
+							},
+							["amount"] = 12.57,
+						},
+						["湿地鳄鱼幼崽"] = {
+							["Details"] = {
+								["凿击"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["加塞尔佐格"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 1.37,
+								},
+								["影袭"] = {
+									["count"] = 4.19,
+								},
+								["肉搏"] = {
+									["count"] = 27.89,
+								},
+							},
+							["amount"] = 33.45000000000001,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 3.78,
+								},
+								["影袭"] = {
+									["count"] = 49.28999999999999,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0.69,
+								},
+								["还击"] = {
+									["count"] = 3.74,
+								},
+								["暗影箭"] = {
+									["count"] = 0.13,
+								},
+								["投掷"] = {
+									["count"] = 30,
+								},
+								["肉搏"] = {
+									["count"] = 162.1800000000001,
+								},
+							},
+							["amount"] = 249.81,
+						},
+						["黑石哨兵"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 1.5,
+								},
+								["影袭"] = {
+									["count"] = 7.48,
+								},
+								["肉搏"] = {
+									["count"] = 49.32999999999999,
+								},
+							},
+							["amount"] = 58.30999999999999,
+						},
+						["莫甘斯的爪牙"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0.71,
+								},
+							},
+							["amount"] = 0.71,
+						},
+						["夜行织影狼人"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 3.91,
+								},
+								["影袭"] = {
+									["count"] = 13.37,
+								},
+								["还击"] = {
+									["count"] = 1.17,
+								},
+								["投掷"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 45.33,
+								},
+							},
+							["amount"] = 65.27999999999999,
+						},
+						["裂拳战士"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0.78,
+								},
+								["影袭"] = {
+									["count"] = 1.54,
+								},
+								["肉搏"] = {
+									["count"] = 15.99,
+								},
+							},
+							["amount"] = 18.31,
+						},
+						["黑石猎人"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 2.56,
+								},
+								["影袭"] = {
+									["count"] = 6.519999999999999,
+								},
+								["肉搏"] = {
+									["count"] = 18.21,
+								},
+							},
+							["amount"] = 27.29,
+						},
+						["黑石斥候"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0.72,
+								},
+								["影袭"] = {
+									["count"] = 7.76,
+								},
+								["肉搏"] = {
+									["count"] = 13.69,
+								},
+							},
+							["amount"] = 22.17000000000001,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 5,
+								},
+								["影袭"] = {
+									["count"] = 23.45999999999999,
+								},
+								["凿击"] = {
+									["count"] = 0.7,
+								},
+								["还击"] = {
+									["count"] = 3.33,
+								},
+								["刺骨"] = {
+									["count"] = 3.2,
+								},
+								["投掷"] = {
+									["count"] = 10.5,
+								},
+								["肉搏"] = {
+									["count"] = 102.54,
+								},
+							},
+							["amount"] = 148.7299999999999,
+						},
+						["食脑者"] = {
+							["Details"] = {
+								["暗影箭"] = {
+									["count"] = 0.17,
+								},
+								["投掷"] = {
+									["count"] = 3,
+								},
+								["影袭"] = {
+									["count"] = 6.27,
+								},
+								["肉搏"] = {
+									["count"] = 16.67,
+								},
+							},
+							["amount"] = 26.11,
+						},
+						["骷髅看守"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0.18,
+								},
+								["影袭"] = {
+									["count"] = 7.060000000000001,
+								},
+								["投掷"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 27.01,
+								},
+							},
+							["amount"] = 35.74999999999999,
+						},
+						["黑石叛节者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0.86,
+								},
+								["影袭"] = {
+									["count"] = 1.86,
+								},
+								["肉搏"] = {
+									["count"] = 19.54,
+								},
+							},
+							["amount"] = 22.26,
+						},
+						["黑石勇士"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 47.26000000000001,
+								},
+								["还击"] = {
+									["count"] = 8.579999999999998,
+								},
+								["刺骨"] = {
+									["count"] = 5.62,
+								},
+								["投掷"] = {
+									["count"] = 12,
+								},
+								["肉搏"] = {
+									["count"] = 204.5299999999999,
+								},
+							},
+							["amount"] = 277.9899999999998,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 17.79,
+								},
+								["还击"] = {
+									["count"] = 1.33,
+								},
+								["暗影箭"] = {
+									["count"] = 0.34,
+								},
+								["投掷"] = {
+									["count"] = 15,
+								},
+								["肉搏"] = {
+									["count"] = 79.00999999999999,
+								},
+							},
+							["amount"] = 113.47,
+						},
+						["大副斯涅利格"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 5.2,
+								},
+								["还击"] = {
+									["count"] = 0.61,
+								},
+								["刺骨"] = {
+									["count"] = 1.8,
+								},
+								["减速药膏"] = {
+									["count"] = 0.94,
+								},
+								["肉搏"] = {
+									["count"] = 17.12,
+								},
+							},
+							["amount"] = 25.67000000000001,
+						},
+						["夜行黑暗狼人"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0.42,
+								},
+								["刺骨"] = {
+									["count"] = 0.82,
+								},
+								["影袭"] = {
+									["count"] = 3.85,
+								},
+								["肉搏"] = {
+									["count"] = 12.06,
+								},
+							},
+							["amount"] = 17.15,
+						},
+						["骷髅医师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 3,
+								},
+								["影袭"] = {
+									["count"] = 2.97,
+								},
+								["还击"] = {
+									["count"] = 0.38,
+								},
+								["投掷"] = {
+									["count"] = 3,
+								},
+								["肉搏"] = {
+									["count"] = 16.85,
+								},
+							},
+							["amount"] = 26.2,
+						},
+						["裂拳好战者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0.14,
+								},
+								["影袭"] = {
+									["count"] = 3.33,
+								},
+								["肉搏"] = {
+									["count"] = 19.28,
+								},
+							},
+							["amount"] = 22.75,
+						},
+						["斯塔文·密斯特曼托"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 1.89,
+								},
+								["凿击"] = {
+									["count"] = 1.29,
+								},
+								["影袭"] = {
+									["count"] = 7.57,
+								},
+								["肉搏"] = {
+									["count"] = 23.01,
+								},
+							},
+							["amount"] = 33.76,
+						},
+						["恶臭的食尸鬼"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 10.9,
+								},
+								["速效药膏 II"] = {
+									["count"] = 1.5,
+								},
+								["还击"] = {
+									["count"] = 3.16,
+								},
+								["肾击"] = {
+									["count"] = 0.95,
+								},
+								["投掷"] = {
+									["count"] = 3,
+								},
+								["肉搏"] = {
+									["count"] = 44.37000000000001,
+								},
+							},
+							["amount"] = 63.88000000000002,
+						},
+						["黑石前锋"] = {
+							["Details"] = {
+								["刺骨"] = {
+									["count"] = 1.36,
+								},
+								["影袭"] = {
+									["count"] = 5.6,
+								},
+								["肉搏"] = {
+									["count"] = 3.4,
+								},
+							},
+							["amount"] = 10.36,
+						},
+						["森格"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 2.65,
+								},
+								["刺骨"] = {
+									["count"] = 0.48,
+								},
+								["影袭"] = {
+									["count"] = 0.74,
+								},
+								["肉搏"] = {
+									["count"] = 5.76,
+								},
+							},
+							["amount"] = 9.63,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 1.5,
+								},
+								["锁喉 (伤害/跳)"] = {
+									["count"] = 0.49,
+								},
+								["影袭"] = {
+									["count"] = 9.420000000000002,
+								},
+								["肉搏"] = {
+									["count"] = 21.45,
+								},
+							},
+							["amount"] = 32.86,
+						},
+						["暗皮杀手"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 10.76,
+								},
+								["还击"] = {
+									["count"] = 0.21,
+								},
+								["凿击"] = {
+									["count"] = 1.5,
+								},
+								["投掷"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 33.06,
+								},
+							},
+							["amount"] = 47.02999999999999,
+						},
+						["湿地鳄鱼"] = {
+							["Details"] = {
+								["凿击"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 3.39,
+								},
+								["还击"] = {
+									["count"] = 1.77,
+								},
+								["影袭"] = {
+									["count"] = 6.920000000000001,
+								},
+								["肉搏"] = {
+									["count"] = 27.34,
+								},
+							},
+							["amount"] = 39.42,
+						},
+						["萨瑞尔祖恩"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 3.78,
+								},
+								["还击"] = {
+									["count"] = 0.58,
+								},
+								["刺骨"] = {
+									["count"] = 1.35,
+								},
+								["肉搏"] = {
+									["count"] = 22.2,
+								},
+								["速效药膏"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 29.41,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 13.4,
+								},
+								["还击"] = {
+									["count"] = 1,
+								},
+								["速效药膏"] = {
+									["count"] = 2.33,
+								},
+								["投掷"] = {
+									["count"] = 7.5,
+								},
+								["肉搏"] = {
+									["count"] = 70.80000000000004,
+								},
+							},
+							["amount"] = 95.03000000000002,
+						},
+					},
+					["DamageTaken"] = 28581,
+					["TimeDamaging"] = {
+						["黑石勇士"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 47.26000000000001,
+								},
+								["还击"] = {
+									["count"] = 8.579999999999998,
+								},
+								["刺骨"] = {
+									["count"] = 5.62,
+								},
+								["投掷"] = {
+									["count"] = 12,
+								},
+								["肉搏"] = {
+									["count"] = 204.5299999999999,
+								},
+							},
+							["amount"] = 277.9899999999998,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 38.92000000000001,
+								},
+								["还击"] = {
+									["count"] = 3.49,
+								},
+								["暗影箭"] = {
+									["count"] = 0.72,
+								},
+								["投掷"] = {
+									["count"] = 21,
+								},
+								["肉搏"] = {
+									["count"] = 105.43,
+								},
+							},
+							["amount"] = 169.5599999999999,
+						},
+						["骸骨魔"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 23.07,
+								},
+								["还击"] = {
+									["count"] = 2.7,
+								},
+								["暗影箭"] = {
+									["count"] = 0.34,
+								},
+								["投掷"] = {
+									["count"] = 16.5,
+								},
+								["肉搏"] = {
+									["count"] = 62.28,
+								},
+							},
+							["amount"] = 104.89,
+						},
+						["黑石追踪者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 28.71,
+								},
+								["还击"] = {
+									["count"] = 5.09,
+								},
+								["刺骨"] = {
+									["count"] = 1.48,
+								},
+								["投掷"] = {
+									["count"] = 3,
+								},
+								["肉搏"] = {
+									["count"] = 100.64,
+								},
+							},
+							["amount"] = 138.92,
+						},
+						["裂拳奴役者"] = {
+							["Details"] = {
+								["扰乱"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["扎克乌尔"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 2.36,
+								},
+								["肉搏"] = {
+									["count"] = 20.23,
+								},
+							},
+							["amount"] = 22.59,
+						},
+						["莫甘斯"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 0.55,
+								},
+								["影袭"] = {
+									["count"] = 1.17,
+								},
+								["肉搏"] = {
+									["count"] = 11.61,
+								},
+							},
+							["amount"] = 13.33,
+						},
+						["噬骨者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 1.43,
+								},
+								["投掷"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 8.81,
+								},
+							},
+							["amount"] = 11.74,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 5.339999999999999,
+								},
+								["还击"] = {
+									["count"] = 0.89,
+								},
+								["影袭"] = {
+									["count"] = 11.51,
+								},
+								["肉搏"] = {
+									["count"] = 57.45000000000001,
+								},
+							},
+							["amount"] = 75.19000000000005,
+						},
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 15.14,
+								},
+								["还击"] = {
+									["count"] = 1.84,
+								},
+								["刺骨"] = {
+									["count"] = 0.47,
+								},
+								["投掷"] = {
+									["count"] = 7.5,
+								},
+								["肉搏"] = {
+									["count"] = 71.09000000000002,
+								},
+							},
+							["amount"] = 96.03999999999999,
+						},
+						["食腐独行蛛"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 3,
+								},
+								["影袭"] = {
+									["count"] = 2.38,
+								},
+								["肉搏"] = {
+									["count"] = 8.77,
+								},
+							},
+							["amount"] = 14.15,
+						},
+						["纳克罗什酋长"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 1.92,
+								},
+								["影袭"] = {
+									["count"] = 3.06,
+								},
+								["肉搏"] = {
+									["count"] = 13.76,
+								},
+							},
+							["amount"] = 18.74,
+						},
+						["暗皮战士"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0.14,
+								},
+								["影袭"] = {
+									["count"] = 2.53,
+								},
+								["肉搏"] = {
+									["count"] = 9.899999999999999,
+								},
+							},
+							["amount"] = 12.57,
+						},
+						["湿地鳄鱼幼崽"] = {
+							["Details"] = {
+								["凿击"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["加塞尔佐格"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 1.37,
+								},
+								["影袭"] = {
+									["count"] = 4.19,
+								},
+								["肉搏"] = {
+									["count"] = 27.89,
+								},
+							},
+							["amount"] = 33.45000000000001,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 3.78,
+								},
+								["影袭"] = {
+									["count"] = 49.28999999999999,
+								},
+								["速效药膏 II"] = {
+									["count"] = 0.69,
+								},
+								["还击"] = {
+									["count"] = 3.74,
+								},
+								["暗影箭"] = {
+									["count"] = 0.13,
+								},
+								["投掷"] = {
+									["count"] = 30,
+								},
+								["肉搏"] = {
+									["count"] = 162.1800000000001,
+								},
+							},
+							["amount"] = 249.81,
+						},
+						["黑石哨兵"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 1.5,
+								},
+								["影袭"] = {
+									["count"] = 7.48,
+								},
+								["肉搏"] = {
+									["count"] = 49.32999999999999,
+								},
+							},
+							["amount"] = 58.30999999999999,
+						},
+						["莫甘斯的爪牙"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0.71,
+								},
+							},
+							["amount"] = 0.71,
+						},
+						["夜行织影狼人"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 3.91,
+								},
+								["影袭"] = {
+									["count"] = 13.37,
+								},
+								["还击"] = {
+									["count"] = 1.17,
+								},
+								["投掷"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 45.33,
+								},
+							},
+							["amount"] = 65.27999999999999,
+						},
+						["裂拳战士"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0.78,
+								},
+								["影袭"] = {
+									["count"] = 1.54,
+								},
+								["肉搏"] = {
+									["count"] = 15.99,
+								},
+							},
+							["amount"] = 18.31,
+						},
+						["黑石猎人"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 2.56,
+								},
+								["影袭"] = {
+									["count"] = 6.519999999999999,
+								},
+								["肉搏"] = {
+									["count"] = 18.21,
+								},
+							},
+							["amount"] = 27.29,
+						},
+						["黑石斥候"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0.72,
+								},
+								["影袭"] = {
+									["count"] = 7.76,
+								},
+								["肉搏"] = {
+									["count"] = 13.69,
+								},
+							},
+							["amount"] = 22.17000000000001,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 5,
+								},
+								["影袭"] = {
+									["count"] = 23.45999999999999,
+								},
+								["凿击"] = {
+									["count"] = 0.7,
+								},
+								["还击"] = {
+									["count"] = 3.33,
+								},
+								["刺骨"] = {
+									["count"] = 3.2,
+								},
+								["投掷"] = {
+									["count"] = 10.5,
+								},
+								["肉搏"] = {
+									["count"] = 102.54,
+								},
+							},
+							["amount"] = 148.7299999999999,
+						},
+						["食脑者"] = {
+							["Details"] = {
+								["暗影箭"] = {
+									["count"] = 0.17,
+								},
+								["投掷"] = {
+									["count"] = 3,
+								},
+								["影袭"] = {
+									["count"] = 6.27,
+								},
+								["肉搏"] = {
+									["count"] = 16.67,
+								},
+							},
+							["amount"] = 26.11,
+						},
+						["黑石叛节者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0.86,
+								},
+								["影袭"] = {
+									["count"] = 1.86,
+								},
+								["肉搏"] = {
+									["count"] = 19.54,
+								},
+							},
+							["amount"] = 22.26,
+						},
+						["骷髅看守"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0.18,
+								},
+								["影袭"] = {
+									["count"] = 7.060000000000001,
+								},
+								["投掷"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 27.01,
+								},
+							},
+							["amount"] = 35.74999999999999,
+						},
+						["裂拳好战者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0.14,
+								},
+								["影袭"] = {
+									["count"] = 3.33,
+								},
+								["肉搏"] = {
+									["count"] = 19.28,
+								},
+							},
+							["amount"] = 22.75,
+						},
+						["大副斯涅利格"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 5.2,
+								},
+								["还击"] = {
+									["count"] = 0.61,
+								},
+								["刺骨"] = {
+									["count"] = 1.8,
+								},
+								["减速药膏"] = {
+									["count"] = 0.94,
+								},
+								["肉搏"] = {
+									["count"] = 17.12,
+								},
+							},
+							["amount"] = 25.67000000000001,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 17.79,
+								},
+								["还击"] = {
+									["count"] = 1.33,
+								},
+								["暗影箭"] = {
+									["count"] = 0.34,
+								},
+								["投掷"] = {
+									["count"] = 15,
+								},
+								["肉搏"] = {
+									["count"] = 79.00999999999999,
+								},
+							},
+							["amount"] = 113.47,
+						},
+						["骷髅医师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 3,
+								},
+								["影袭"] = {
+									["count"] = 2.97,
+								},
+								["还击"] = {
+									["count"] = 0.38,
+								},
+								["投掷"] = {
+									["count"] = 3,
+								},
+								["肉搏"] = {
+									["count"] = 16.85,
+								},
+							},
+							["amount"] = 26.2,
+						},
+						["夜行黑暗狼人"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 0.42,
+								},
+								["刺骨"] = {
+									["count"] = 0.82,
+								},
+								["影袭"] = {
+									["count"] = 3.85,
+								},
+								["肉搏"] = {
+									["count"] = 12.06,
+								},
+							},
+							["amount"] = 17.15,
+						},
+						["斯塔文·密斯特曼托"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 1.89,
+								},
+								["凿击"] = {
+									["count"] = 1.29,
+								},
+								["影袭"] = {
+									["count"] = 7.57,
+								},
+								["肉搏"] = {
+									["count"] = 23.01,
+								},
+							},
+							["amount"] = 33.76,
+						},
+						["森格"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 2.65,
+								},
+								["刺骨"] = {
+									["count"] = 0.48,
+								},
+								["影袭"] = {
+									["count"] = 0.74,
+								},
+								["肉搏"] = {
+									["count"] = 5.76,
+								},
+							},
+							["amount"] = 9.63,
+						},
+						["黑石前锋"] = {
+							["Details"] = {
+								["刺骨"] = {
+									["count"] = 1.36,
+								},
+								["影袭"] = {
+									["count"] = 5.6,
+								},
+								["肉搏"] = {
+									["count"] = 3.4,
+								},
+							},
+							["amount"] = 10.36,
+						},
+						["恶臭的食尸鬼"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 10.9,
+								},
+								["速效药膏 II"] = {
+									["count"] = 1.5,
+								},
+								["还击"] = {
+									["count"] = 3.16,
+								},
+								["肾击"] = {
+									["count"] = 0.95,
+								},
+								["投掷"] = {
+									["count"] = 3,
+								},
+								["肉搏"] = {
+									["count"] = 44.37000000000001,
+								},
+							},
+							["amount"] = 63.88000000000002,
+						},
+						["暗皮杀手"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 10.76,
+								},
+								["还击"] = {
+									["count"] = 0.21,
+								},
+								["凿击"] = {
+									["count"] = 1.5,
+								},
+								["投掷"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 33.06,
+								},
+							},
+							["amount"] = 47.02999999999999,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 1.5,
+								},
+								["锁喉 (伤害/跳)"] = {
+									["count"] = 0.49,
+								},
+								["影袭"] = {
+									["count"] = 9.420000000000002,
+								},
+								["肉搏"] = {
+									["count"] = 21.45,
+								},
+							},
+							["amount"] = 32.86,
+						},
+						["湿地鳄鱼"] = {
+							["Details"] = {
+								["凿击"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 3.39,
+								},
+								["还击"] = {
+									["count"] = 1.77,
+								},
+								["影袭"] = {
+									["count"] = 6.920000000000001,
+								},
+								["肉搏"] = {
+									["count"] = 27.34,
+								},
+							},
+							["amount"] = 39.42,
+						},
+						["萨瑞尔祖恩"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 3.78,
+								},
+								["还击"] = {
+									["count"] = 0.58,
+								},
+								["刺骨"] = {
+									["count"] = 1.35,
+								},
+								["肉搏"] = {
+									["count"] = 22.2,
+								},
+								["速效药膏"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 29.41,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 13.4,
+								},
+								["还击"] = {
+									["count"] = 1,
+								},
+								["速效药膏"] = {
+									["count"] = 2.33,
+								},
+								["投掷"] = {
+									["count"] = 7.5,
+								},
+								["肉搏"] = {
+									["count"] = 70.80000000000004,
+								},
+							},
+							["amount"] = 95.03000000000002,
+						},
+					},
+					["PartialResist"] = {
+						["减速毒药"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
 							["amount"] = 1,
 						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 16,
-						["Physical"] = 15,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 22,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-						["凿击"] = {
+						["火焰之盾效果 II"] = {
 							["Details"] = {
-								["未被吸收"] = {
+								["未被抵抗"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 0,
+									["count"] = 9,
 									["amount"] = 0,
 								},
 							},
 							["count"] = 0,
-							["amount"] = 0,
+							["amount"] = 9,
 						},
-						["打击"] = {
+						["裂筋"] = {
 							["Details"] = {
-								["未被吸收"] = {
+								["未被抵抗"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 0,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
 							["count"] = 0,
-							["amount"] = 0,
+							["amount"] = 2,
+						},
+						["扫荡"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["盾牌猛击"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["破甲攻击"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
 						},
 						["投掷"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["暗言术：痛"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 5,
+						},
+						["暗影箭"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 9,
+						},
+						["火焰箭"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 8,
+						},
+						["挫志怒吼"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["火球术"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+						["射击"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["暗言术：痛 (伤害/跳)"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 6,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1044,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1044,
+						},
+					},
+					["CCBreak"] = 5,
+					["PartialAbsorb"] = {
+						["减速毒药"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
@@ -8749,7 +15526,19 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["肉搏"] = {
+						["火焰之盾效果 II"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+						["裂筋"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
@@ -8761,717 +15550,3296 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Physical"] = 22,
-					},
-					["CCBroken"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
+						["扫荡"] = {
 							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoDamaged"] = {
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 15,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-								["打击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["凿击"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 16,
-								},
-							},
-							["amount"] = 16,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 4.5,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-						["凿击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["打击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["未被抵抗"] = {
+								["未被吸收"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
 						},
-						["肉搏"] = {
+						["盾牌猛击"] = {
 							["Details"] = {
-								["未被抵抗"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["破甲攻击"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["投掷"] = {
+							["Details"] = {
+								["未被吸收"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 2,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-						["碎石怪先知"] = {
-							["Details"] = {
-								["闪电箭 (脚踢)"] = {
-									["count"] = 0,
-								},
-							},
+							["count"] = 2,
 							["amount"] = 0,
 						},
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["碎石怪斥候"] = {
+						["暗言术：痛"] = {
 							["Details"] = {
-								["凿击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["脚踢"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["凿击"] = {
-									["count"] = 0,
-								},
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["凿击"] = {
-									["count"] = 1.5,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["凿击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-					},
-					["Heals"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["Attacks"] = {
-						["脚踢"] = {
-							["Details"] = {
-								["Hit"] = {
+								["未被吸收"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 0,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 0,
+							["count"] = 1,
 							["amount"] = 0,
 						},
-						["影袭"] = {
+						["Falling"] = {
 							["Details"] = {
-								["Hit (被格挡)"] = {
+								["未被吸收"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 0,
+							["count"] = 5,
 							["amount"] = 0,
 						},
-						["凿击"] = {
+						["暗影箭"] = {
 							["Details"] = {
-								["Crit"] = {
+								["未被吸收"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 0,
+									["count"] = 9,
 									["amount"] = 0,
 								},
-								["Hit"] = {
-									["max"] = 8,
-									["min"] = 7,
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+						["火焰箭"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+						["挫志怒吼"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["火球术"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
 									["count"] = 3,
-									["amount"] = 22,
+									["amount"] = 0,
 								},
 							},
 							["count"] = 3,
-							["amount"] = 22,
+							["amount"] = 0,
 						},
-						["刺骨"] = {
+						["射击"] = {
 							["Details"] = {
-								["Hit"] = {
+								["未被吸收"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 0,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 0,
+							["count"] = 1,
 							["amount"] = 0,
+						},
+						["暗言术：痛 (伤害/跳)"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1044,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1044,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 2247.490000000004,
+					["InterruptData"] = {
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["暗影箭 (脚踢)"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["游荡瘟疫 (脚踢)"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["夜行织影狼人"] = {
+							["Details"] = {
+								["暗影箭 (脚踢)"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+						["森格"] = {
+							["Details"] = {
+								["烈焰风暴 (脚踢)"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["火焰箭 (脚踢)"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["骷髅医师"] = {
+							["Details"] = {
+								["暗影箭 (脚踢)"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["莫甘斯"] = {
+							["Details"] = {
+								["火球术 (脚踢)"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["火球术 (脚踢)"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["ElementTaken"] = {
+						["Shadow"] = 914,
+						["Physical"] = 1870,
+						["Melee"] = 25138,
+						["Fire"] = 659,
+					},
+					["HOTs"] = {
+						["急救"] = {
+							["Details"] = {
+								["特变电工"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["Damage"] = 142625,
+					["Interrupts"] = 24,
+					["TimeHeal"] = 12.48,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 619,
+								},
+								["Dodge"] = {
+									["count"] = 8,
+								},
+								["Block"] = {
+									["count"] = 29,
+								},
+								["Crit"] = {
+									["count"] = 144,
+								},
+								["Parry"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 815,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 67,
+								},
+								["Miss"] = {
+									["count"] = 370,
+								},
+								["Hit"] = {
+									["count"] = 1290,
+								},
+								["Dodge"] = {
+									["count"] = 32,
+								},
+								["Block"] = {
+									["count"] = 66,
+								},
+								["Crit"] = {
+									["count"] = 199,
+								},
+								["Parry"] = {
+									["count"] = 77,
+								},
+							},
+							["amount"] = 2101,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 8,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 328,
+								},
+							},
+							["amount"] = 337,
+						},
+					},
+					["WhoHealed"] = {
+						["特变电工"] = {
+							["Details"] = {
+								["急救"] = {
+									["count"] = 1000,
+								},
+								["治疗药水"] = {
+									["count"] = 583,
+								},
+							},
+							["amount"] = 1583,
+						},
+					},
+					["HealedWho"] = {
+						["特变电工"] = {
+							["Details"] = {
+								["急救"] = {
+									["count"] = 1000,
+								},
+								["治疗药水"] = {
+									["count"] = 583,
+								},
+							},
+							["amount"] = 1583,
+						},
+					},
+					["Healing"] = 1583,
+					["Heals"] = {
+						["急救"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 100,
+									["min"] = 100,
+									["count"] = 10,
+									["amount"] = 1000,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 1000,
+						},
+						["治疗药水"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 583,
+									["min"] = 583,
+									["count"] = 1,
+									["amount"] = 583,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 583,
+						},
+					},
+					["HOT_Time"] = 10,
+					["Attacks"] = {
+						["脚踢"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 52,
+									["min"] = 43,
+									["count"] = 6,
+									["amount"] = 294,
+								},
+								["Hit"] = {
+									["max"] = 27,
+									["min"] = 22,
+									["count"] = 22,
+									["amount"] = 522,
+								},
+							},
+							["count"] = 28,
+							["amount"] = 816,
+						},
+						["影袭"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 110,
+									["min"] = 46,
+									["count"] = 408,
+									["amount"] = 29813,
+								},
+								["Dodge"] = {
+									["count"] = 7,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 8,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 209,
+									["min"] = 88,
+									["count"] = 109,
+									["amount"] = 16009,
+								},
+								["Hit (被格挡)"] = {
+									["max"] = 91,
+									["min"] = 34,
+									["count"] = 23,
+									["amount"] = 1465,
+								},
+							},
+							["count"] = 556,
+							["amount"] = 47287,
+						},
+						["扰乱"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["锁喉 (伤害/跳)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 40,
+									["min"] = 40,
+									["count"] = 1,
+									["amount"] = 40,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 40,
 						},
 						["投掷"] = {
 							["Details"] = {
 								["Block"] = {
-									["count"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 27,
+									["min"] = 13,
+									["count"] = 15,
+									["amount"] = 363,
+								},
+								["Hit"] = {
+									["max"] = 14,
+									["min"] = 6,
+									["count"] = 77,
+									["amount"] = 957,
+								},
+							},
+							["count"] = 94,
+							["amount"] = 1320,
+						},
+						["速效药膏"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 5,
 									["amount"] = 0,
 								},
 								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
+									["max"] = 25,
+									["min"] = 18,
+									["count"] = 166,
+									["amount"] = 3639,
+								},
+							},
+							["count"] = 171,
+							["amount"] = 3639,
+						},
+						["肾击"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 0,
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["速效药膏 II"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 57,
+									["min"] = 57,
+									["count"] = 1,
+									["amount"] = 57,
+								},
+								["Hit"] = {
+									["max"] = 38,
+									["min"] = 29,
+									["count"] = 162,
+									["amount"] = 5473,
+								},
+							},
+							["count"] = 164,
+							["amount"] = 5530,
+						},
+						["暗影箭"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 35,
+									["min"] = 35,
+									["count"] = 10,
+									["amount"] = 350,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 350,
+						},
+						["凿击"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 15,
+									["min"] = 9,
+									["count"] = 5,
+									["amount"] = 66,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 66,
+						},
+						["还击"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 246,
+									["min"] = 111,
+									["count"] = 12,
+									["amount"] = 2217,
+								},
+								["Hit"] = {
+									["max"] = 143,
+									["min"] = 50,
+									["count"] = 66,
+									["amount"] = 5696,
+								},
+							},
+							["count"] = 81,
+							["amount"] = 7913,
+						},
+						["刺骨"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit (被格挡)"] = {
+									["max"] = 44,
+									["min"] = 19,
+									["count"] = 2,
+									["amount"] = 63,
+								},
+								["Crit"] = {
+									["max"] = 100,
+									["min"] = 63,
+									["count"] = 2,
+									["amount"] = 163,
+								},
+								["Hit"] = {
+									["max"] = 74,
+									["min"] = 29,
+									["count"] = 16,
+									["amount"] = 804,
+								},
+							},
+							["count"] = 21,
+							["amount"] = 1030,
+						},
+						["减速药膏"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["肉搏"] = {
 							["Details"] = {
 								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
+									["max"] = 69,
+									["min"] = 1,
+									["count"] = 67,
+									["amount"] = 1209,
 								},
-								["Hit (被格挡)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
+								["Parry"] = {
+									["count"] = 77,
 									["amount"] = 0,
 								},
 								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
+									["max"] = 96,
+									["min"] = 16,
+									["count"] = 1224,
+									["amount"] = 54446,
+								},
+								["Dodge"] = {
+									["count"] = 32,
 									["amount"] = 0,
 								},
 								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
+									["count"] = 370,
 									["amount"] = 0,
 								},
 								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
+									["max"] = 180,
+									["min"] = 33,
+									["count"] = 199,
+									["amount"] = 17320,
+								},
+								["Hit (被格挡)"] = {
+									["max"] = 74,
+									["min"] = 1,
+									["count"] = 66,
+									["amount"] = 1659,
+								},
+							},
+							["count"] = 2035,
+							["amount"] = 74634,
+						},
+					},
+					["HealingTaken"] = 1583,
+					["DamagedWho"] = {
+						["黑石勇士"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 4425,
+								},
+								["肉搏"] = {
+									["count"] = 8687,
+								},
+								["还击"] = {
+									["count"] = 594,
+								},
+								["刺骨"] = {
+									["count"] = 356,
+								},
+								["投掷"] = {
+									["count"] = 117,
+								},
+								["速效药膏"] = {
+									["count"] = 1053,
+								},
+							},
+							["amount"] = 15232,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 4897,
+								},
+								["暗影箭"] = {
+									["count"] = 175,
+								},
+								["还击"] = {
+									["count"] = 864,
+								},
+								["速效药膏 II"] = {
+									["count"] = 1046,
+								},
+								["投掷"] = {
+									["count"] = 231,
+								},
+								["肉搏"] = {
+									["count"] = 6430,
+								},
+							},
+							["amount"] = 13643,
+						},
+						["骸骨魔"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 3123,
+								},
+								["暗影箭"] = {
+									["count"] = 70,
+								},
+								["还击"] = {
+									["count"] = 335,
+								},
+								["速效药膏 II"] = {
+									["count"] = 558,
+								},
+								["投掷"] = {
+									["count"] = 197,
+								},
+								["肉搏"] = {
+									["count"] = 4333,
+								},
+							},
+							["amount"] = 8616,
+						},
+						["黑石追踪者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 3040,
+								},
+								["速效药膏"] = {
+									["count"] = 354,
+								},
+								["还击"] = {
+									["count"] = 600,
+								},
+								["刺骨"] = {
+									["count"] = 141,
+								},
+								["投掷"] = {
+									["count"] = 26,
+								},
+								["肉搏"] = {
+									["count"] = 5004,
+								},
+							},
+							["amount"] = 9165,
+						},
+						["扎克乌尔"] = {
+							["Details"] = {
+								["速效药膏 II"] = {
+									["count"] = 157,
+								},
+								["影袭"] = {
+									["count"] = 399,
+								},
+								["肉搏"] = {
+									["count"] = 572,
+								},
+							},
+							["amount"] = 1128,
+						},
+						["莫甘斯"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 24,
+								},
+								["速效药膏"] = {
+									["count"] = 20,
+								},
+								["影袭"] = {
+									["count"] = 68,
+								},
+								["肉搏"] = {
+									["count"] = 497,
+								},
+							},
+							["amount"] = 609,
+						},
+						["噬骨者"] = {
+							["Details"] = {
+								["速效药膏 II"] = {
+									["count"] = 36,
+								},
+								["影袭"] = {
+									["count"] = 334,
+								},
+								["投掷"] = {
+									["count"] = 12,
+								},
+								["肉搏"] = {
+									["count"] = 418,
+								},
+							},
+							["amount"] = 800,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 279,
+								},
+								["影袭"] = {
+									["count"] = 1472,
+								},
+								["还击"] = {
+									["count"] = 96,
+								},
+								["速效药膏"] = {
+									["count"] = 160,
+								},
+								["肉搏"] = {
+									["count"] = 2983,
+								},
+							},
+							["amount"] = 4990,
+						},
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 1541,
+								},
+								["速效药膏"] = {
+									["count"] = 287,
+								},
+								["还击"] = {
+									["count"] = 224,
+								},
+								["刺骨"] = {
+									["count"] = 37,
+								},
+								["投掷"] = {
+									["count"] = 52,
+								},
+								["肉搏"] = {
+									["count"] = 2512,
+								},
+							},
+							["amount"] = 4653,
+						},
+						["食腐独行蛛"] = {
+							["Details"] = {
+								["速效药膏 II"] = {
+									["count"] = 98,
+								},
+								["投掷"] = {
+									["count"] = 25,
+								},
+								["影袭"] = {
+									["count"] = 263,
+								},
+								["肉搏"] = {
+									["count"] = 411,
+								},
+							},
+							["amount"] = 797,
+						},
+						["纳克罗什酋长"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 123,
+								},
+								["影袭"] = {
+									["count"] = 174,
+								},
+								["肉搏"] = {
+									["count"] = 508,
+								},
+							},
+							["amount"] = 805,
+						},
+						["暗皮战士"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 62,
+								},
+								["速效药膏"] = {
+									["count"] = 41,
+								},
+								["影袭"] = {
+									["count"] = 233,
+								},
+								["肉搏"] = {
+									["count"] = 349,
+								},
+							},
+							["amount"] = 685,
+						},
+						["湿地鳄鱼幼崽"] = {
+							["Details"] = {
+								["凿击"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+						["加塞尔佐格"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 169,
+								},
+								["速效药膏"] = {
+									["count"] = 76,
+								},
+								["影袭"] = {
+									["count"] = 528,
+								},
+								["肉搏"] = {
+									["count"] = 938,
+								},
+							},
+							["amount"] = 1711,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 131,
+								},
+								["影袭"] = {
+									["count"] = 5894,
+								},
+								["暗影箭"] = {
+									["count"] = 35,
+								},
+								["还击"] = {
+									["count"] = 856,
+								},
+								["速效药膏 II"] = {
+									["count"] = 1489,
+								},
+								["投掷"] = {
+									["count"] = 280,
+								},
+								["肉搏"] = {
+									["count"] = 9521,
+								},
+							},
+							["amount"] = 18206,
+						},
+						["黑石哨兵"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 248,
+								},
+								["速效药膏"] = {
+									["count"] = 155,
+								},
+								["影袭"] = {
+									["count"] = 906,
+								},
+								["肉搏"] = {
+									["count"] = 2303,
+								},
+							},
+							["amount"] = 3612,
+						},
+						["莫甘斯的爪牙"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 19,
+								},
+								["肉搏"] = {
+									["count"] = 50,
+								},
+							},
+							["amount"] = 69,
+						},
+						["夜行织影狼人"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 114,
+								},
+								["影袭"] = {
+									["count"] = 1911,
+								},
+								["还击"] = {
+									["count"] = 192,
+								},
+								["投掷"] = {
+									["count"] = 13,
+								},
+								["速效药膏 II"] = {
+									["count"] = 509,
+								},
+								["肉搏"] = {
+									["count"] = 1900,
+								},
+							},
+							["amount"] = 4639,
+						},
+						["裂拳战士"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 128,
+								},
+								["速效药膏 II"] = {
+									["count"] = 73,
+								},
+								["影袭"] = {
+									["count"] = 345,
+								},
+								["肉搏"] = {
+									["count"] = 557,
+								},
+							},
+							["amount"] = 1103,
+						},
+						["黑石猎人"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 326,
+								},
+								["速效药膏"] = {
+									["count"] = 115,
+								},
+								["影袭"] = {
+									["count"] = 554,
+								},
+								["肉搏"] = {
+									["count"] = 1091,
+								},
+							},
+							["amount"] = 2086,
+						},
+						["黑石斥候"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 76,
+								},
+								["速效药膏"] = {
+									["count"] = 89,
+								},
+								["影袭"] = {
+									["count"] = 578,
+								},
+								["肉搏"] = {
+									["count"] = 891,
+								},
+							},
+							["amount"] = 1634,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["凿击"] = {
+									["count"] = 9,
+								},
+								["影袭"] = {
+									["count"] = 2321,
+								},
+								["速效药膏"] = {
+									["count"] = 296,
+								},
+								["还击"] = {
+									["count"] = 492,
+								},
+								["刺骨"] = {
+									["count"] = 226,
+								},
+								["投掷"] = {
+									["count"] = 50,
+								},
+								["肉搏"] = {
+									["count"] = 4123,
+								},
+							},
+							["amount"] = 7517,
+						},
+						["食脑者"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 817,
+								},
+								["暗影箭"] = {
+									["count"] = 35,
+								},
+								["速效药膏 II"] = {
+									["count"] = 66,
+								},
+								["投掷"] = {
+									["count"] = 26,
+								},
+								["肉搏"] = {
+									["count"] = 953,
+								},
+							},
+							["amount"] = 1897,
+						},
+						["黑石叛节者"] = {
+							["Details"] = {
+								["还击"] = {
+									["count"] = 145,
+								},
+								["速效药膏"] = {
+									["count"] = 65,
+								},
+								["影袭"] = {
+									["count"] = 379,
+								},
+								["肉搏"] = {
+									["count"] = 1007,
+								},
+							},
+							["amount"] = 1596,
+						},
+						["骷髅看守"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 960,
+								},
+								["还击"] = {
+									["count"] = 212,
+								},
+								["速效药膏 II"] = {
+									["count"] = 173,
+								},
+								["投掷"] = {
+									["count"] = 13,
+								},
+								["肉搏"] = {
+									["count"] = 978,
+								},
+							},
+							["amount"] = 2336,
+						},
+						["裂拳好战者"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 25,
+								},
+								["影袭"] = {
+									["count"] = 454,
+								},
+								["还击"] = {
+									["count"] = 143,
+								},
+								["速效药膏 II"] = {
+									["count"] = 62,
+								},
+								["肉搏"] = {
+									["count"] = 840,
+								},
+							},
+							["amount"] = 1524,
+						},
+						["大副斯涅利格"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 246,
+								},
+								["还击"] = {
+									["count"] = 60,
+								},
+								["刺骨"] = {
+									["count"] = 19,
+								},
+								["速效药膏"] = {
+									["count"] = 42,
+								},
+								["肉搏"] = {
+									["count"] = 630,
+								},
+							},
+							["amount"] = 997,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 3410,
+								},
+								["暗影箭"] = {
+									["count"] = 35,
+								},
+								["还击"] = {
+									["count"] = 470,
+								},
+								["投掷"] = {
+									["count"] = 144,
+								},
+								["速效药膏 II"] = {
+									["count"] = 718,
+								},
+								["肉搏"] = {
+									["count"] = 4687,
+								},
+							},
+							["amount"] = 9464,
+						},
+						["骷髅医师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 69,
+								},
+								["影袭"] = {
+									["count"] = 723,
+								},
+								["还击"] = {
+									["count"] = 136,
+								},
+								["速效药膏 II"] = {
+									["count"] = 173,
+								},
+								["投掷"] = {
+									["count"] = 26,
+								},
+								["肉搏"] = {
+									["count"] = 1089,
+								},
+							},
+							["amount"] = 2216,
+						},
+						["夜行黑暗狼人"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 314,
+								},
+								["还击"] = {
+									["count"] = 93,
+								},
+								["刺骨"] = {
+									["count"] = 48,
+								},
+								["速效药膏 II"] = {
+									["count"] = 31,
+								},
+								["肉搏"] = {
+									["count"] = 461,
+								},
+							},
+							["amount"] = 947,
+						},
+						["斯塔文·密斯特曼托"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 687,
+								},
+								["还击"] = {
+									["count"] = 112,
+								},
+								["凿击"] = {
+									["count"] = 14,
+								},
+								["速效药膏 II"] = {
+									["count"] = 102,
+								},
+								["肉搏"] = {
+									["count"] = 672,
+								},
+							},
+							["amount"] = 1587,
+						},
+						["森格"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 76,
+								},
+								["影袭"] = {
+									["count"] = 149,
+								},
+								["刺骨"] = {
+									["count"] = 53,
+								},
+								["速效药膏"] = {
+									["count"] = 50,
+								},
+								["肉搏"] = {
+									["count"] = 378,
+								},
+							},
+							["amount"] = 706,
+						},
+						["黑石前锋"] = {
+							["Details"] = {
+								["刺骨"] = {
+									["count"] = 46,
+								},
+								["影袭"] = {
+									["count"] = 380,
+								},
+								["肉搏"] = {
+									["count"] = 346,
+								},
+							},
+							["amount"] = 772,
+						},
+						["恶臭的食尸鬼"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 1551,
+								},
+								["还击"] = {
+									["count"] = 439,
+								},
+								["速效药膏 II"] = {
+									["count"] = 239,
+								},
+								["投掷"] = {
+									["count"] = 25,
+								},
+								["肉搏"] = {
+									["count"] = 779,
+								},
+							},
+							["amount"] = 3033,
+						},
+						["暗皮杀手"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 657,
+								},
+								["肉搏"] = {
+									["count"] = 1449,
+								},
+								["还击"] = {
+									["count"] = 88,
+								},
+								["凿击"] = {
+									["count"] = 14,
+								},
+								["投掷"] = {
+									["count"] = 13,
+								},
+								["速效药膏"] = {
+									["count"] = 83,
+								},
+							},
+							["amount"] = 2304,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 27,
+								},
+								["影袭"] = {
+									["count"] = 980,
+								},
+								["锁喉 (伤害/跳)"] = {
+									["count"] = 40,
+								},
+								["速效药膏"] = {
+									["count"] = 124,
+								},
+								["肉搏"] = {
+									["count"] = 993,
+								},
+							},
+							["amount"] = 2164,
+						},
+						["湿地鳄鱼"] = {
+							["Details"] = {
+								["凿击"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["脚踢"] = {
+									["count"] = 71,
+								},
+								["影袭"] = {
+									["count"] = 785,
+								},
+								["还击"] = {
+									["count"] = 318,
+								},
+								["肉搏"] = {
+									["count"] = 1696,
+								},
+								["速效药膏"] = {
+									["count"] = 198,
+								},
+							},
+							["amount"] = 3068,
+						},
+						["萨瑞尔祖恩"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 392,
+								},
+								["还击"] = {
+									["count"] = 91,
+								},
+								["刺骨"] = {
+									["count"] = 74,
+								},
+								["肉搏"] = {
+									["count"] = 1052,
+								},
+								["速效药膏"] = {
+									["count"] = 132,
+								},
+							},
+							["amount"] = 1741,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 1397,
+								},
+								["肉搏"] = {
+									["count"] = 2546,
+								},
+								["还击"] = {
+									["count"] = 221,
+								},
+								["刺骨"] = {
+									["count"] = 30,
+								},
+								["投掷"] = {
+									["count"] = 70,
+								},
+								["速效药膏"] = {
+									["count"] = 280,
+								},
+							},
+							["amount"] = 4544,
+						},
+					},
+					["TimeDamage"] = 2235.010000000005,
+					["WhoDamaged"] = {
+						["黑石勇士"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 3292,
+								},
+							},
+							["amount"] = 3292,
+						},
+						["骷髅袭击者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 1820,
+								},
+							},
+							["amount"] = 1820,
+						},
+						["骸骨魔"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 1158,
+								},
+							},
+							["amount"] = 1158,
+						},
+						["黑石追踪者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 1182,
+								},
+							},
+							["amount"] = 1182,
+						},
+						["扎克乌尔"] = {
+							["Details"] = {
+								["扫荡"] = {
+									["count"] = 50,
+								},
+								["肉搏"] = {
+									["count"] = 360,
+								},
+							},
+							["amount"] = 410,
+						},
+						["莫甘斯"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 22,
+						},
+						["噬骨者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 146,
+								},
+							},
+							["amount"] = 146,
+						},
+						["黑石召唤师"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 298,
+								},
+								["火焰之盾效果 II"] = {
+									["count"] = 45,
+								},
+								["肉搏"] = {
+									["count"] = 196,
+								},
+							},
+							["amount"] = 539,
+						},
+						["巨型湿地鳄鱼"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 1223,
+								},
+							},
+							["amount"] = 1223,
+						},
+						["食腐独行蛛"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 180,
+								},
+							},
+							["amount"] = 180,
+						},
+						["夜行黑暗狼人"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 252,
+								},
+							},
+							["amount"] = 252,
+						},
+						["森林灰狼"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 11,
+						},
+						["暗皮战士"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+						["骷髅看守"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 506,
+								},
+							},
+							["amount"] = 506,
+						},
+						["加塞尔佐格"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 863,
+								},
+							},
+							["amount"] = 863,
+						},
+						["暗皮巫师"] = {
+							["Details"] = {
+								["暗影箭"] = {
+									["count"] = 381,
+								},
+							},
+							["amount"] = 381,
+						},
+						["瘟疫食尸鬼"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 3230,
+								},
+							},
+							["amount"] = 3230,
+						},
+						["黑石哨兵"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 817,
+								},
+							},
+							["amount"] = 817,
+						},
+						["赤脊山突击队员"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 113,
+								},
+							},
+							["amount"] = 113,
+						},
+						["夜行织影狼人"] = {
+							["Details"] = {
+								["暗影箭"] = {
+									["count"] = 198,
+								},
+								["肉搏"] = {
+									["count"] = 579,
+								},
+							},
+							["amount"] = 777,
+						},
+						["裂拳战士"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 357,
+								},
+							},
+							["amount"] = 357,
+						},
+						["黑石猎人"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 78,
+								},
+								["肉搏"] = {
+									["count"] = 186,
+								},
+							},
+							["amount"] = 264,
+						},
+						["黑石斥候"] = {
+							["Details"] = {
+								["射击"] = {
+									["count"] = 33,
+								},
+								["肉搏"] = {
+									["count"] = 303,
+								},
+							},
+							["amount"] = 336,
+						},
+						["食脑者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 247,
+								},
+							},
+							["amount"] = 247,
+						},
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 1876,
+								},
+							},
+							["amount"] = 1876,
+						},
+						["骷髅医师"] = {
+							["Details"] = {
+								["暗影箭"] = {
+									["count"] = 89,
+								},
+								["肉搏"] = {
+									["count"] = 196,
+								},
+							},
+							["amount"] = 285,
+						},
+						["恐怖骸骨"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 954,
+								},
+							},
+							["amount"] = 954,
+						},
+						["黑石叛节者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 77,
+								},
+							},
+							["amount"] = 77,
+						},
+						["裂拳好战者"] = {
+							["Details"] = {
+								["火焰之盾效果 II"] = {
+									["count"] = 32,
+								},
+								["肉搏"] = {
+									["count"] = 132,
+								},
+							},
+							["amount"] = 164,
+						},
+						["龙喉百夫长"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 33,
+								},
+							},
+							["amount"] = 33,
+						},
+						["大副斯涅利格"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 406,
+								},
+							},
+							["amount"] = 406,
+						},
+						["裂拳食人魔"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 38,
+								},
+							},
+							["amount"] = 38,
+						},
+						["魅魔"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 185,
+								},
+							},
+							["amount"] = 185,
+						},
+						["斯塔文·密斯特曼托"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 1183,
+								},
+							},
+							["amount"] = 1183,
+						},
+						["恶臭的食尸鬼"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 722,
+								},
+							},
+							["amount"] = 722,
+						},
+						["暗皮杀手"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 555,
+								},
+							},
+							["amount"] = 555,
+						},
+						["黑石前锋"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 27,
+								},
+							},
+							["amount"] = 27,
+						},
+						["莫甘斯的爪牙"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 83,
+								},
+							},
+							["amount"] = 83,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["火焰箭"] = {
+									["count"] = 284,
+								},
+							},
+							["amount"] = 284,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 1709,
+								},
+							},
+							["amount"] = 1709,
+						},
+						["湿地鳄鱼"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 74,
+								},
+							},
+							["amount"] = 74,
+						},
+						["黑石暗影法师"] = {
+							["Details"] = {
+								["暗影箭"] = {
+									["count"] = 84,
+								},
+								["暗言术：痛 (伤害/跳)"] = {
+									["count"] = 162,
+								},
+								["肉搏"] = {
+									["count"] = 136,
+								},
+							},
+							["amount"] = 382,
+						},
+						["萨瑞尔祖恩"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 284,
+								},
+							},
+							["amount"] = 284,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 1114,
+								},
+							},
+							["amount"] = 1114,
+						},
+					},
+					["ElementDone"] = {
+						["Shadow"] = 350,
+						["Physical"] = 58472,
+						["Melee"] = 74634,
+						["Nature"] = 9169,
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 9,
 								},
 								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
+									["count"] = 3,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 0,
+							["amount"] = 14,
 						},
-					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["碎石怪斥候"] = {
+						["Melee"] = {
 							["Details"] = {
-								["凿击"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["脚踢"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["凿击"] = {
-									["count"] = 0,
-								},
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["凿击"] = {
+								["Crushing"] = {
 									["count"] = 8,
 								},
-								["肉搏"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 614,
+								},
+								["Dodge"] = {
+									["count"] = 214,
+								},
+								["Miss"] = {
+									["count"] = 63,
+								},
+								["Crit"] = {
+									["count"] = 41,
+								},
+								["Parry"] = {
+									["count"] = 104,
 								},
 							},
-							["amount"] = 8,
+							["amount"] = 1044,
 						},
-						["碎石怪萨满祭司"] = {
+						["Fire"] = {
 							["Details"] = {
-								["刺骨"] = {
-									["count"] = 0,
+								["Resist"] = {
+									["count"] = 5,
 								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 15,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 20,
 						},
-						["碎石穴居人"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["凿击"] = {
-									["count"] = 7,
+								["Resist"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 8,
+								},
+								["Tick"] = {
+									["count"] = 6,
 								},
 							},
-							["amount"] = 7,
+							["amount"] = 16,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
 						},
 					},
-					["TimeDamage"] = 4.5,
-					["TimeDamaging"] = {
-						["碎石怪斥候"] = {
+					["CCBroken"] = {
+						["闷棍 (Melee)"] = {
 							["Details"] = {
-								["凿击"] = {
-									["count"] = 1.5,
+								["黑石勇士"] = {
+									["count"] = 1,
+								},
+								["黑石猎人"] = {
+									["count"] = 1,
+								},
+								["裂拳好战者"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 1.5,
+							["amount"] = 3,
 						},
-						["碎石怪先知"] = {
+						["闷棍 (影袭)"] = {
 							["Details"] = {
-								["脚踢"] = {
-									["count"] = 0,
+								["暗皮杀手"] = {
+									["count"] = 1,
 								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
+								["黑石追踪者"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 2,
 						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["凿击"] = {
-									["count"] = 0,
-								},
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["凿击"] = {
-									["count"] = 1.5,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["凿击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["DispelledWho"] = {
 					},
 				},
-				["Fight2"] = {
+			},
+			["UnitLockout"] = 51683.847,
+			["LastActive"] = 59899.848,
+		},
+		["萨恩高格 <贝丝安>"] = {
+			["GUID"] = "Pet-0-5002-0-119-1860-0701608ADA",
+			["LastEventHealth"] = {
+				1109, -- [1]
+				1109, -- [2]
+				1162, -- [3]
+				1162, -- [4]
+				1138, -- [5]
+				1138, -- [6]
+				1112, -- [7]
+				1112, -- [8]
+				1112, -- [9]
+				1112, -- [10]
+				1112, -- [11]
+				1112, -- [12]
+				1162, -- [13]
+				1162, -- [14]
+				1136, -- [15]
+				1110, -- [16]
+				1085, -- [17]
+				1085, -- [18]
+				1085, -- [19]
+				1085, -- [20]
+				1060, -- [21]
+				1060, -- [22]
+				1036, -- [23]
+				1036, -- [24]
+				978, -- [25]
+				978, -- [26]
+				978, -- [27]
+				918, -- [28]
+				918, -- [29]
+				867, -- [30]
+				867, -- [31]
+				836, -- [32]
+				836, -- [33]
+				836, -- [34]
+				836, -- [35]
+			},
+			["LastAttackedBy"] = "被诅咒的水手",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+			},
+			["TimeWindows"] = {
+				["TimeDamage"] = {
+					31.5, -- [1]
+				},
+				["Damage"] = {
+					400, -- [1]
+				},
+				["DamageTaken"] = {
+					406, -- [1]
+				},
+				["ActiveTime"] = {
+					31.5, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["unit"] = "萨恩高格",
+			["level"] = 1,
+			["LastDamageAbility"] = "肉搏",
+			["LastFightIn"] = 2,
+			["type"] = "Pet",
+			["FightsSaved"] = 5,
+			["ownerName"] = "贝丝安",
+			["LastDamageTaken"] = 30,
+			["TimeLast"] = {
+				["ActiveTime"] = 51764.841,
+				["TimeDamage"] = 51764.841,
+				["OVERALL"] = 51765.846,
+				["DamageTaken"] = 51765.846,
+				["Damage"] = 51764.841,
+			},
+			["LastEventHealthMax"] = {
+				1162, -- [1]
+				1162, -- [2]
+				1162, -- [3]
+				1162, -- [4]
+				1162, -- [5]
+				1162, -- [6]
+				1162, -- [7]
+				1162, -- [8]
+				1162, -- [9]
+				1162, -- [10]
+				1162, -- [11]
+				1162, -- [12]
+				1162, -- [13]
+				1162, -- [14]
+				1162, -- [15]
+				1162, -- [16]
+				1162, -- [17]
+				1162, -- [18]
+				1162, -- [19]
+				1162, -- [20]
+				1162, -- [21]
+				1162, -- [22]
+				1162, -- [23]
+				1162, -- [24]
+				1162, -- [25]
+				1162, -- [26]
+				1162, -- [27]
+				1162, -- [28]
+				1162, -- [29]
+				1162, -- [30]
+				1162, -- [31]
+				1162, -- [32]
+				1162, -- [33]
+				1162, -- [34]
+				1162, -- [35]
+			},
+			["NextEventNum"] = 36,
+			["LastDamageTime"] = 51765.548,
+			["LastEvents"] = {
+				"萨恩高格 <贝丝安> 肉搏 被诅咒的水兵 Hit -23 (Physical)", -- [1]
+				"萨恩高格 <贝丝安> 肉搏 被诅咒的水兵 Hit -20 (Physical)", -- [2]
+				"萨恩高格 <贝丝安> 肉搏 被诅咒的水手 Hit -19 (Physical)", -- [3]
+				"被诅咒的水手 肉搏 萨恩高格 <贝丝安> Hit -24 (Physical)", -- [4]
+				"萨恩高格 <贝丝安> 肉搏 被诅咒的水手 Hit -23 (Physical)", -- [5]
+				"被诅咒的水手 肉搏 萨恩高格 <贝丝安> Hit -26 (Physical)", -- [6]
+				"萨恩高格 <贝丝安> 肉搏 被诅咒的水手 Hit -24 (Physical)", -- [7]
+				"萨恩高格 <贝丝安> 肉搏 被诅咒的水手 Hit -22 (Physical)", -- [8]
+				"萨恩高格 <贝丝安> 肉搏 被诅咒的水手 Hit -21 (Physical)", -- [9]
+				"萨恩高格 <贝丝安> 肉搏 被诅咒的水手 Hit -24 (Physical)", -- [10]
+				"萨恩高格 <贝丝安> 肉搏 被诅咒的水手 Hit -20 (Physical)", -- [11]
+				"萨恩高格 <贝丝安> 肉搏 被诅咒的水手 Hit -24 (Physical)", -- [12]
+				"萨恩高格 <贝丝安> 肉搏 被诅咒的水手 Hit -19 (Physical)", -- [13]
+				"被诅咒的水手 肉搏 萨恩高格 <贝丝安> Hit -26 (Physical)", -- [14]
+				"被诅咒的水手 肉搏 萨恩高格 <贝丝安> Hit -26 (Physical)", -- [15]
+				"被诅咒的水手 肉搏 萨恩高格 <贝丝安> Hit -25 (Physical)", -- [16]
+				"萨恩高格 <贝丝安> 肉搏 被诅咒的水手 Hit -24 (Physical)", -- [17]
+				"被诅咒的水手 肉搏 萨恩高格 <贝丝安> Miss (1)", -- [18]
+				"萨恩高格 <贝丝安> 肉搏 被诅咒的水手 Hit -7 (Physical)", -- [19]
+				"被诅咒的水手 肉搏 萨恩高格 <贝丝安> Hit -25 (Physical)", -- [20]
+				"萨恩高格 <贝丝安> 肉搏 被诅咒的水手 Hit -22 (Physical)", -- [21]
+				"被诅咒的水手 肉搏 萨恩高格 <贝丝安> Hit -24 (Physical)", -- [22]
+				"萨恩高格 <贝丝安> 肉搏 被诅咒的水手 Dodge (1)", -- [23]
+				"被诅咒的水手 肉搏 萨恩高格 <贝丝安> Crit -58 (Physical)", -- [24]
+				"萨恩高格 <贝丝安> 肉搏 被诅咒的水手 Glancing -20 (Physical)", -- [25]
+				"萨恩高格 <贝丝安> 肉搏 被诅咒的水手 Hit -16 (Physical)", -- [26]
+				"被诅咒的水手 肉搏 萨恩高格 <贝丝安> Crit -60 (Physical)", -- [27]
+				"萨恩高格 <贝丝安> 肉搏 被诅咒的水手 Hit -13 (Physical)", -- [28]
+				"被诅咒的水手 肉搏 萨恩高格 <贝丝安> Crit -51 (Physical)", -- [29]
+				"萨恩高格 <贝丝安> 肉搏 被诅咒的水手 Hit -18 (Physical)", -- [30]
+				"被诅咒的水手 肉搏 萨恩高格 <贝丝安> Hit -31 (Physical)", -- [31]
+				"萨恩高格 <贝丝安> 肉搏 被诅咒的水手 Hit -16 (Physical)", -- [32]
+				"被诅咒的水手 肉搏 萨恩高格 <贝丝安> Miss (1)", -- [33]
+				"萨恩高格 <贝丝安> 肉搏 被诅咒的水手 Crit -25 (Physical)", -- [34]
+				"被诅咒的水手 肉搏 萨恩高格 <贝丝安> Hit -30 (Physical)", -- [35]
+			},
+			["Name"] = "萨恩高格",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				true, -- [4]
+				false, -- [5]
+				true, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				false, -- [17]
+				true, -- [18]
+				false, -- [19]
+				true, -- [20]
+				false, -- [21]
+				true, -- [22]
+				false, -- [23]
+				true, -- [24]
+				false, -- [25]
+				false, -- [26]
+				true, -- [27]
+				false, -- [28]
+				true, -- [29]
+				false, -- [30]
+				true, -- [31]
+				false, -- [32]
+				true, -- [33]
+				false, -- [34]
+				true, -- [35]
+			},
+			["LastEventTimes"] = {
+				51661.914, -- [1]
+				51663.924, -- [2]
+				51697.21900000001, -- [3]
+				51697.21900000001, -- [4]
+				51699.204, -- [5]
+				51699.204, -- [6]
+				51701.233, -- [7]
+				51703.246, -- [8]
+				51705.238, -- [9]
+				51707.246, -- [10]
+				51709.243, -- [11]
+				51711.241, -- [12]
+				51743.001, -- [13]
+				51743.001, -- [14]
+				51745.015, -- [15]
+				51747.021, -- [16]
+				51747.531, -- [17]
+				51749.024, -- [18]
+				51749.537, -- [19]
+				51750.935, -- [20]
+				51751.534, -- [21]
+				51753.037, -- [22]
+				51753.532, -- [23]
+				51755.045, -- [24]
+				51755.542, -- [25]
+				51757.553, -- [26]
+				51757.858, -- [27]
+				51759.556, -- [28]
+				51759.863, -- [29]
+				51761.518, -- [30]
+				51761.871, -- [31]
+				51763.53, -- [32]
+				51763.877, -- [33]
+				51765.548, -- [34]
+				51765.882, -- [35]
+			},
+			["Fights"] = {
+				["LastFightData"] = {
 					["DOTs"] = {
 					},
 					["ElementDoneResist"] = {
 					},
 					["Ressed"] = 0,
-					["DamageTaken"] = 95,
+					["DamageTaken"] = 0,
 					["RageGainedFrom"] = {
 					},
 					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
+					["ElementHitsDone"] = {
 					},
-					["ManaGain"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["ElementTaken"] = {
-						["Physical"] = 0,
-						["Melee"] = 95,
-						["Nature"] = 0,
 					},
 					["DOT_Time"] = 0,
-					["Damage"] = 427,
-					["ElementDoneAbsorb"] = {
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
 					["PartialAbsorb"] = {
-						["闪电箭"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["ElementDoneBlock"] = {
+						["Melee"] = 13,
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["PartialAbsorb"] = {
+						["肉搏"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 0,
+									["count"] = 14,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 0,
+							["count"] = 14,
 							["amount"] = 0,
 						},
-						["打击"] = {
+					},
+					["PartialResist"] = {
+						["肉搏"] = {
 							["Details"] = {
-								["未被吸收"] = {
+								["未被抵抗"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 0,
+									["count"] = 14,
 									["amount"] = 0,
 								},
 							},
 							["count"] = 0,
-							["amount"] = 0,
+							["amount"] = 14,
 						},
-						["凿击"] = {
+					},
+					["Attacks"] = {
+						["肉搏"] = {
 							["Details"] = {
-								["未被吸收"] = {
+								["Glancing"] = {
+									["max"] = 20,
+									["min"] = 20,
+									["count"] = 1,
+									["amount"] = 20,
+								},
+								["Hit"] = {
+									["max"] = 24,
+									["min"] = 13,
+									["count"] = 17,
+									["amount"] = 348,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 25,
+									["min"] = 25,
+									["count"] = 1,
+									["amount"] = 25,
+								},
+								["Hit (被格挡)"] = {
+									["max"] = 7,
+									["min"] = 7,
+									["count"] = 1,
+									["amount"] = 7,
+								},
+							},
+							["count"] = 21,
+							["amount"] = 400,
+						},
+					},
+					["TimeSpent"] = {
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 28.5,
+								},
+							},
+							["amount"] = 28.5,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DamageTaken"] = 406,
+					["WhoDamaged"] = {
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 406,
+								},
+							},
+							["amount"] = 406,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 400,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 18,
+								},
+								["Block"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 22,
+						},
+					},
+					["DamagedWho"] = {
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 357,
+								},
+							},
+							["amount"] = 357,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 43,
+								},
+							},
+							["amount"] = 43,
+						},
+					},
+					["TimeDamage"] = 31.5,
+					["TimeDamaging"] = {
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 28.5,
+								},
+							},
+							["amount"] = 28.5,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 406,
+					},
+					["ActiveTime"] = 31.5,
+					["Damage"] = 400,
+				},
+			},
+			["UnitLockout"] = 51661.848,
+			["LastActive"] = 51765.846,
+		},
+		["贝丝安"] = {
+			["GUID"] = "Player-4778-04DA34C4",
+			["LastEventHealth"] = {
+				443, -- [1]
+				443, -- [2]
+				464, -- [3]
+				464, -- [4]
+				464, -- [5]
+				489, -- [6]
+				489, -- [7]
+				489, -- [8]
+				489, -- [9]
+				511, -- [10]
+				511, -- [11]
+				511, -- [12]
+				535, -- [13]
+				535, -- [14]
+				557, -- [15]
+				557, -- [16]
+				557, -- [17]
+				559, -- [18]
+				562, -- [19]
+				562, -- [20]
+				562, -- [21]
+				562, -- [22]
+				562, -- [23]
+				586, -- [24]
+				586, -- [25]
+				607, -- [26]
+				607, -- [27]
+				607, -- [28]
+				628, -- [29]
+				628, -- [30]
+				628, -- [31]
+				628, -- [32]
+				399, -- [33]
+				399, -- [34]
+				420, -- [35]
+				379, -- [36]
+				379, -- [37]
+				379, -- [38]
+				403, -- [39]
+				403, -- [40]
+				365, -- [41]
+				365, -- [42]
+				365, -- [43]
+				368, -- [44]
+				574, -- [45]
+				577, -- [46]
+				577, -- [47]
+				440, -- [48]
+				440, -- [49]
+				440, -- [50]
+			},
+			["LastAttackedBy"] = "被诅咒的水手",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"HEAL", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"HEAL", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"HEAL", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"HEAL", -- [12]
+				"DAMAGE", -- [13]
+				"HEAL", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"HEAL", -- [23]
+				"DAMAGE", -- [24]
+				"HEAL", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"HEAL", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"HEAL", -- [32]
+				"DAMAGE", -- [33]
+				"HEAL", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"HEAL", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["TimeHeal"] = {
+					16.1, -- [1]
+				},
+				["Healing"] = {
+					297, -- [1]
+				},
+				["DamageTaken"] = {
+					264, -- [1]
+				},
+				["HealingTaken"] = {
+					297, -- [1]
+				},
+				["Overhealing"] = {
+					22, -- [1]
+				},
+				["TimeDamage"] = {
+					39.27000000000001, -- [1]
+				},
+				["ActiveTime"] = {
+					55.37, -- [1]
+				},
+				["ManaGain"] = {
+					419, -- [1]
+				},
+				["DOT_Time"] = {
+					113, -- [1]
+				},
+				["Damage"] = {
+					1522, -- [1]
+				},
+			},
+			["enClass"] = "WARLOCK",
+			["unit"] = "贝丝安",
+			["LastHealTime"] = 51765.046,
+			["level"] = 27,
+			["LastDamageAbility"] = "肉搏",
+			["LastFightIn"] = 2,
+			["LastDamageTaken"] = 38,
+			["type"] = "Ungrouped",
+			["FightsSaved"] = 5,
+			["LastEventHealthMax"] = {
+				628, -- [1]
+				628, -- [2]
+				628, -- [3]
+				628, -- [4]
+				628, -- [5]
+				628, -- [6]
+				628, -- [7]
+				628, -- [8]
+				628, -- [9]
+				628, -- [10]
+				628, -- [11]
+				628, -- [12]
+				628, -- [13]
+				628, -- [14]
+				628, -- [15]
+				628, -- [16]
+				628, -- [17]
+				628, -- [18]
+				628, -- [19]
+				628, -- [20]
+				628, -- [21]
+				628, -- [22]
+				628, -- [23]
+				628, -- [24]
+				628, -- [25]
+				628, -- [26]
+				628, -- [27]
+				628, -- [28]
+				628, -- [29]
+				628, -- [30]
+				628, -- [31]
+				628, -- [32]
+				628, -- [33]
+				628, -- [34]
+				628, -- [35]
+				628, -- [36]
+				628, -- [37]
+				628, -- [38]
+				628, -- [39]
+				628, -- [40]
+				628, -- [41]
+				628, -- [42]
+				628, -- [43]
+				628, -- [44]
+				628, -- [45]
+				628, -- [46]
+				628, -- [47]
+				628, -- [48]
+				628, -- [49]
+				628, -- [50]
+			},
+			["TimeLast"] = {
+				["TimeHeal"] = 51764.841,
+				["OVERALL"] = 51766.843,
+				["DamageTaken"] = 51708.839,
+				["TimeDamage"] = 51765.846,
+				["HealingTaken"] = 51764.841,
+				["Overhealing"] = 51765.846,
+				["ActiveTime"] = 51765.846,
+				["Healing"] = 51764.841,
+				["ManaGain"] = 51766.843,
+				["DOT_Time"] = 51765.846,
+				["Damage"] = 51765.846,
+			},
+			["Owner"] = false,
+			["Pet"] = {
+				"萨恩高格 <贝丝安>", -- [1]
+			},
+			["NextEventNum"] = 33,
+			["LastDamageTime"] = 51766.044,
+			["LastEvents"] = {
+				"贝丝安 吸取生命 (伤害/跳) 被诅咒的水手 Tick -21 (Shadow)", -- [1]
+				"贝丝安 吸取生命 贝丝安 Hit +21", -- [2]
+				"贝丝安 痛苦诅咒 (伤害/跳) 被诅咒的水手 Tick -9 (Shadow)", -- [3]
+				"贝丝安 吸取生命 (伤害/跳) 被诅咒的水手 Tick -22 (Shadow)", -- [4]
+				"贝丝安 吸取生命 贝丝安 Hit +22", -- [5]
+				"贝丝安 献祭 (伤害/跳) 被诅咒的水手 Tick -20 (Fire)", -- [6]
+				"贝丝安 腐蚀术 (伤害/跳) 被诅咒的水手 Tick -39 (Shadow)", -- [7]
+				"贝丝安 吸取生命 (伤害/跳) 被诅咒的水手 Tick -22 (Shadow)", -- [8]
+				"贝丝安 吸取生命 贝丝安 Hit +22", -- [9]
+				"贝丝安 痛苦诅咒 (伤害/跳) 被诅咒的水手 Tick -16 (Shadow)", -- [10]
+				"贝丝安 吸取生命 (伤害/跳) 被诅咒的水手 Tick -21 (Shadow)", -- [11]
+				"贝丝安 吸取生命 贝丝安 Hit +21", -- [12]
+				"贝丝安 吸取生命 (伤害/跳) 被诅咒的水手 Tick -22 (Shadow)", -- [13]
+				"贝丝安 吸取生命 贝丝安 Hit +22", -- [14]
+				"贝丝安 痛苦诅咒 (伤害/跳) 被诅咒的水手 Tick -16 (Shadow)", -- [15]
+				"贝丝安 献祭 (伤害/跳) 被诅咒的水手 Tick -19 (Fire)", -- [16]
+				"贝丝安 腐蚀术 (伤害/跳) 被诅咒的水手 Tick -38 (Shadow)", -- [17]
+				"贝丝安 痛苦诅咒 (伤害/跳) 被诅咒的水手 Tick -16 (Shadow)", -- [18]
+				"贝丝安 献祭 (伤害/跳) 被诅咒的水手 Tick -19 (Fire)", -- [19]
+				"贝丝安 腐蚀术 (伤害/跳) 被诅咒的水手 Tick -38 (Shadow)", -- [20]
+				"贝丝安 痛苦诅咒 (伤害/跳) 被诅咒的水手 Tick -16 (Shadow)", -- [21]
+				"贝丝安 吸取生命 (伤害/跳) 被诅咒的水手 Tick -21 (Shadow)", -- [22]
+				"贝丝安 吸取生命 贝丝安 Hit +21", -- [23]
+				"贝丝安 吸取生命 (伤害/跳) 被诅咒的水手 Tick -21 (Shadow)", -- [24]
+				"贝丝安 吸取生命 贝丝安 Hit +21", -- [25]
+				"贝丝安 痛苦诅咒 (伤害/跳) 被诅咒的水手 Tick -23 (Shadow)", -- [26]
+				"贝丝安 吸取生命 (伤害/跳) 被诅咒的水手 Tick -21 (Shadow)", -- [27]
+				"贝丝安 吸取生命 贝丝安 Hit +21", -- [28]
+				"贝丝安 献祭 (伤害/跳) 被诅咒的水手 Tick -20 (Fire)", -- [29]
+				"贝丝安 腐蚀术 (伤害/跳) 被诅咒的水手 Tick -39 (Shadow)", -- [30]
+				"贝丝安 吸取生命 (伤害/跳) 被诅咒的水手 Tick -22 (Shadow)", -- [31]
+				"贝丝安 吸取生命 贝丝安 Hit +22 (22 过量治疗)", -- [32]
+				"贝丝安 吸取生命 (伤害/跳) 被诅咒的水手 Tick -21 (Shadow)", -- [33]
+				"贝丝安 吸取生命 贝丝安 Hit +21", -- [34]
+				"被诅咒的水手 肉搏 贝丝安 Hit -41 (Physical)", -- [35]
+				"贝丝安 痛苦诅咒 (伤害/跳) 被诅咒的水手 Tick -16 (Shadow)", -- [36]
+				"贝丝安 吸取生命 (伤害/跳) 被诅咒的水手 Tick -21 (Shadow)", -- [37]
+				"贝丝安 吸取生命 贝丝安 Hit +21", -- [38]
+				"贝丝安 射击 被诅咒的水手 Hit -40 (Fire)", -- [39]
+				"被诅咒的水手 肉搏 贝丝安 Hit -38 (Physical)", -- [40]
+				"贝丝安 腐蚀术 (伤害/跳) 被诅咒的水手 Tick -38 (Shadow)", -- [41]
+				"贝丝安 献祭 (伤害/跳) 被诅咒的水手 Tick -19 (Fire)", -- [42]
+				"贝丝安 痛苦诅咒 (伤害/跳) 被诅咒的水手 Tick -16 (Shadow)", -- [43]
+				"贝丝安 射击 被诅咒的水手 Hit -33 (Fire)", -- [44]
+				"贝丝安 痛苦诅咒 (伤害/跳) 被诅咒的水手 Tick -8 (Shadow)", -- [45]
+				"贝丝安 献祭 被诅咒的水手 Hit -55 (Fire)", -- [46]
+				"贝丝安 痛苦诅咒 (伤害/跳) 被诅咒的水手 Tick -9 (Shadow)", -- [47]
+				"贝丝安 痛苦诅咒 (伤害/跳) 被诅咒的水手 Tick -8 (Shadow)", -- [48]
+				"贝丝安 献祭 (伤害/跳) 被诅咒的水手 Tick -20 (Fire)", -- [49]
+				"贝丝安 腐蚀术 (伤害/跳) 被诅咒的水手 Tick -39 (Shadow)", -- [50]
+			},
+			["Name"] = "贝丝安",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				true, -- [2]
+				false, -- [3]
+				false, -- [4]
+				true, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				true, -- [9]
+				false, -- [10]
+				false, -- [11]
+				true, -- [12]
+				false, -- [13]
+				true, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				true, -- [23]
+				false, -- [24]
+				true, -- [25]
+				false, -- [26]
+				false, -- [27]
+				true, -- [28]
+				false, -- [29]
+				false, -- [30]
+				false, -- [31]
+				true, -- [32]
+				false, -- [33]
+				true, -- [34]
+				true, -- [35]
+				false, -- [36]
+				false, -- [37]
+				true, -- [38]
+				false, -- [39]
+				true, -- [40]
+				false, -- [41]
+				false, -- [42]
+				false, -- [43]
+				false, -- [44]
+				false, -- [45]
+				false, -- [46]
+				false, -- [47]
+				false, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["LastEventTimes"] = {
+				51754.448, -- [1]
+				51754.448, -- [2]
+				51754.93, -- [3]
+				51755.412, -- [4]
+				51755.412, -- [5]
+				51756.334, -- [6]
+				51756.449, -- [7]
+				51756.449, -- [8]
+				51756.449, -- [9]
+				51756.932, -- [10]
+				51757.454, -- [11]
+				51757.454, -- [12]
+				51758.42, -- [13]
+				51758.42, -- [14]
+				51758.867, -- [15]
+				51759.436, -- [16]
+				51759.436, -- [17]
+				51760.929, -- [18]
+				51762.441, -- [19]
+				51762.441, -- [20]
+				51762.862, -- [21]
+				51762.977, -- [22]
+				51762.977, -- [23]
+				51764.04, -- [24]
+				51764.04, -- [25]
+				51764.944, -- [26]
+				51765.046, -- [27]
+				51765.046, -- [28]
+				51765.445, -- [29]
+				51765.445, -- [30]
+				51766.044, -- [31]
+				51766.044, -- [32]
+				51707.136, -- [33]
+				51707.136, -- [34]
+				51707.668, -- [35]
+				51707.934, -- [36]
+				51708.117, -- [37]
+				51708.117, -- [38]
+				51709.602, -- [39]
+				51709.602, -- [40]
+				51709.741, -- [41]
+				51709.741, -- [42]
+				51709.898, -- [43]
+				51711.493, -- [44]
+				51748.89, -- [45]
+				51750.434, -- [46]
+				51750.935, -- [47]
+				51752.93300000001, -- [48]
+				51753.412, -- [49]
+				51753.412, -- [50]
+			},
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeHealing"] = {
+						["贝丝安"] = {
+							["Details"] = {
+								["吸取生命"] = {
+									["count"] = 16.1,
+								},
+							},
+							["amount"] = 16.1,
+						},
+					},
+					["DOTs"] = {
+						["吸取生命 (伤害/跳)"] = {
+							["Details"] = {
+								["被诅咒的水手"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+						["献祭 (伤害/跳)"] = {
+							["Details"] = {
+								["被诅咒的水手"] = {
+									["count"] = 27,
+								},
+								["被诅咒的水兵"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 30,
+						},
+						["腐蚀术 (伤害/跳)"] = {
+							["Details"] = {
+								["被诅咒的水手"] = {
+									["count"] = 27,
+								},
+								["被诅咒的水兵"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 30,
+						},
+						["痛苦诅咒 (伤害/跳)"] = {
+							["Details"] = {
+								["被诅咒的水手"] = {
+									["count"] = 34,
+								},
+								["被诅咒的水兵"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 38,
+						},
+					},
+					["TimeSpent"] = {
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["献祭"] = {
+									["count"] = 3,
+								},
+								["痛苦诅咒 (伤害/跳)"] = {
+									["count"] = 13.57,
+								},
+								["吸取生命 (伤害/跳)"] = {
+									["count"] = 7.42,
+								},
+								["射击"] = {
+									["count"] = 2.99,
+								},
+								["腐蚀术 (伤害/跳)"] = {
+									["count"] = 1.89,
+								},
+								["献祭 (伤害/跳)"] = {
+									["count"] = 4.87,
+								},
+							},
+							["amount"] = 33.74,
+						},
+						["贝丝安"] = {
+							["Details"] = {
+								["吸取生命"] = {
+									["count"] = 16.1,
+								},
+							},
+							["amount"] = 16.1,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["射击"] = {
+									["count"] = 2.11,
+								},
+								["腐蚀术 (伤害/跳)"] = {
+									["count"] = 0.72,
+								},
+								["痛苦诅咒 (伤害/跳)"] = {
+									["count"] = 2.7,
+								},
+							},
+							["amount"] = 5.53,
+						},
+					},
+					["DamageTaken"] = 264,
+					["OverHeals"] = {
+						["吸取生命"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 22,
+									["min"] = 22,
+									["count"] = 1,
+									["amount"] = 22,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 22,
+						},
+					},
+					["PartialResist"] = {
+						["肉搏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 0,
+									["count"] = 6,
 									["amount"] = 0,
 								},
 							},
 							["count"] = 0,
-							["amount"] = 0,
+							["amount"] = 6,
 						},
+					},
+					["ManaGained"] = {
+						["生命分流"] = {
+							["Details"] = {
+								["贝丝安"] = {
+									["count"] = 419,
+								},
+							},
+							["amount"] = 419,
+						},
+					},
+					["PartialAbsorb"] = {
 						["肉搏"] = {
 							["Details"] = {
 								["未被吸收"] = {
@@ -9485,1757 +18853,1451 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
+					["ActiveTime"] = 55.37,
+					["Overhealing"] = 22,
+					["ElementTaken"] = {
+						["Melee"] = 264,
 					},
-					["PartialBlock"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 322,
-						["Physical"] = 105,
-					},
-					["CCBroken"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 10,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Block"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 3,
-								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 16,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoDamaged"] = {
-						["碎石怪先知"] = {
-							["Details"] = {
-								["闪电箭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 35,
-								},
-							},
-							["amount"] = 35,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-								["打击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["凿击"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 60,
-								},
-							},
-							["amount"] = 60,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 7,
-						["Physical"] = 0,
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 15.12,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-						["闪电箭"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["打击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["凿击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 6,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-						["碎石怪先知"] = {
-							["Details"] = {
-								["闪电箭 (脚踢)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["碎石怪先知"] = {
-							["Details"] = {
-								["脚踢"] = {
-									["count"] = 1.5,
-								},
-								["影袭"] = {
-									["count"] = 1.29,
-								},
-								["肉搏"] = {
-									["count"] = 4.08,
-								},
-							},
-							["amount"] = 6.87,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 0.12,
-								},
-								["凿击"] = {
-									["count"] = 0,
-								},
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 8.13,
-								},
-							},
-							["amount"] = 8.25,
-						},
-					},
-					["Heals"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["Attacks"] = {
-						["脚踢"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["影袭"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 36,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 105,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit (被格挡)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 105,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["刺骨"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["凿击"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 33,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 201,
-								},
-								["Crit"] = {
-									["max"] = 54,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 114,
-								},
-								["Hit (被格挡)"] = {
-									["max"] = 7,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 7,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 322,
-						},
-					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["碎石怪先知"] = {
-							["Details"] = {
-								["脚踢"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 70,
-								},
-								["肉搏"] = {
-									["count"] = 141,
-								},
-							},
-							["amount"] = 211,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 35,
-								},
-								["凿击"] = {
-									["count"] = 0,
-								},
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 181,
-								},
-							},
-							["amount"] = 216,
-						},
-					},
-					["TimeDamage"] = 15.12,
-					["TimeDamaging"] = {
-						["碎石怪先知"] = {
-							["Details"] = {
-								["脚踢"] = {
-									["count"] = 1.5,
-								},
-								["影袭"] = {
-									["count"] = 1.29,
-								},
-								["肉搏"] = {
-									["count"] = 4.08,
-								},
-							},
-							["amount"] = 6.87,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 0.12,
-								},
-								["凿击"] = {
-									["count"] = 0,
-								},
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 8.13,
-								},
-							},
-							["amount"] = 8.25,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight3"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
+					["DOT_Time"] = 113,
+					["Damage"] = 1522,
 					["ElementHitsTaken"] = {
 						["Melee"] = {
 							["Details"] = {
 								["Hit"] = {
-									["count"] = 0,
+									["count"] = 5,
 								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 0,
-						["Nature"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 204,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-						["闪电箭"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 132,
-						["Physical"] = 72,
-					},
-					["CCBroken"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
+								["Crushing"] = {
 									["count"] = 1,
 								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 6,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
 							},
-							["amount"] = 7,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
+							["amount"] = 6,
 						},
 					},
-					["Dispelled"] = 0,
-					["WhoDamaged"] = {
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["闪电箭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 7.28,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
+					["TimeHeal"] = 16.1,
 					["WhoHealed"] = {
-						["若丶无弃"] = {
+						["贝丝安"] = {
 							["Details"] = {
-								["圣光术"] = {
-									["count"] = 0,
+								["吸取生命"] = {
+									["count"] = 297,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 297,
 						},
 					},
-					["PartialResist"] = {
-						["闪电箭"] = {
+					["HealedWho"] = {
+						["贝丝安"] = {
 							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
+								["吸取生命"] = {
+									["count"] = 297,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-						["碎石怪先知"] = {
-							["Details"] = {
-								["闪电箭 (脚踢)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["碎石怪先知"] = {
-							["Details"] = {
-								["脚踢"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["凿击"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 1.63,
-								},
-								["肉搏"] = {
-									["count"] = 5.65,
-								},
-							},
-							["amount"] = 7.28,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["凿击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
+							["amount"] = 297,
 						},
 					},
 					["Heals"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["Attacks"] = {
-						["脚踢"] = {
+						["吸取生命"] = {
 							["Details"] = {
 								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
+									["max"] = 22,
+									["min"] = 21,
+									["count"] = 14,
+									["amount"] = 297,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 0,
+							["count"] = 14,
+							["amount"] = 297,
 						},
-						["影袭"] = {
+					},
+					["Healing"] = 297,
+					["ManaGainedFrom"] = {
+						["贝丝安"] = {
 							["Details"] = {
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
+								["生命分流"] = {
+									["count"] = 419,
 								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
+							},
+							["amount"] = 419,
+						},
+					},
+					["Attacks"] = {
+						["献祭"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 82,
+									["min"] = 82,
+									["count"] = 1,
+									["amount"] = 82,
 								},
 								["Hit"] = {
-									["max"] = 37,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 72,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit (被格挡)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
+									["max"] = 55,
+									["min"] = 55,
+									["count"] = 1,
+									["amount"] = 55,
 								},
 							},
 							["count"] = 2,
-							["amount"] = 72,
+							["amount"] = 137,
 						},
-						["投掷"] = {
+						["痛苦诅咒 (伤害/跳)"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
+								["Tick"] = {
+									["max"] = 24,
+									["min"] = 8,
+									["count"] = 19,
+									["amount"] = 267,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 0,
+							["count"] = 19,
+							["amount"] = 267,
 						},
-						["刺骨"] = {
+						["吸取生命 (伤害/跳)"] = {
 							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
+								["Tick"] = {
+									["max"] = 22,
+									["min"] = 21,
+									["count"] = 15,
+									["amount"] = 319,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 0,
+							["count"] = 15,
+							["amount"] = 319,
 						},
-						["凿击"] = {
+						["射击"] = {
 							["Details"] = {
 								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
+									["max"] = 58,
+									["min"] = 33,
+									["count"] = 5,
+									["amount"] = 219,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 0,
+							["count"] = 5,
+							["amount"] = 219,
 						},
-						["肉搏"] = {
+						["腐蚀术 (伤害/跳)"] = {
 							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
+								["Tick"] = {
+									["max"] = 39,
+									["min"] = 38,
+									["count"] = 10,
+									["amount"] = 385,
 								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
+							},
+							["count"] = 10,
+							["amount"] = 385,
+						},
+						["献祭 (伤害/跳)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 20,
+									["min"] = 19,
+									["count"] = 10,
+									["amount"] = 195,
 								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
+							},
+							["count"] = 10,
+							["amount"] = 195,
+						},
+					},
+					["ElementDone"] = {
+						["Shadow"] = 971,
+						["Fire"] = 551,
+					},
+					["HealingTaken"] = 297,
+					["DamagedWho"] = {
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["献祭"] = {
+									["count"] = 137,
 								},
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
+								["痛苦诅咒 (伤害/跳)"] = {
+									["count"] = 219,
 								},
-								["Hit"] = {
-									["max"] = 33,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 132,
+								["吸取生命 (伤害/跳)"] = {
+									["count"] = 319,
+								},
+								["射击"] = {
+									["count"] = 73,
+								},
+								["腐蚀术 (伤害/跳)"] = {
+									["count"] = 346,
+								},
+								["献祭 (伤害/跳)"] = {
+									["count"] = 176,
+								},
+							},
+							["amount"] = 1270,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["献祭 (伤害/跳)"] = {
+									["count"] = 19,
+								},
+								["射击"] = {
+									["count"] = 146,
+								},
+								["腐蚀术 (伤害/跳)"] = {
+									["count"] = 39,
+								},
+								["痛苦诅咒 (伤害/跳)"] = {
+									["count"] = 48,
+								},
+							},
+							["amount"] = 252,
+						},
+					},
+					["TimeDamage"] = 39.27000000000001,
+					["TimeDamaging"] = {
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["献祭"] = {
+									["count"] = 3,
+								},
+								["痛苦诅咒 (伤害/跳)"] = {
+									["count"] = 13.57,
+								},
+								["吸取生命 (伤害/跳)"] = {
+									["count"] = 7.42,
+								},
+								["射击"] = {
+									["count"] = 2.99,
+								},
+								["腐蚀术 (伤害/跳)"] = {
+									["count"] = 1.89,
+								},
+								["献祭 (伤害/跳)"] = {
+									["count"] = 4.87,
+								},
+							},
+							["amount"] = 33.74,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["射击"] = {
+									["count"] = 2.11,
+								},
+								["腐蚀术 (伤害/跳)"] = {
+									["count"] = 0.72,
+								},
+								["痛苦诅咒 (伤害/跳)"] = {
+									["count"] = 2.7,
+								},
+							},
+							["amount"] = 5.53,
+						},
+					},
+					["ManaGain"] = 419,
+					["WhoDamaged"] = {
+						["被诅咒的水手"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 154,
+								},
+							},
+							["amount"] = 154,
+						},
+						["被诅咒的水兵"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 110,
+								},
+							},
+							["amount"] = 110,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 44,
+								},
+							},
+							["amount"] = 44,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 10,
 								},
 								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
+									["count"] = 1,
 								},
-								["Hit (被格挡)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
+								["Hit"] = {
+									["count"] = 6,
 								},
 							},
-							["count"] = 7,
-							["amount"] = 132,
+							["amount"] = 17,
 						},
-					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["碎石怪先知"] = {
-							["Details"] = {
-								["脚踢"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["凿击"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 72,
-								},
-								["肉搏"] = {
-									["count"] = 132,
-								},
-							},
-							["amount"] = 204,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["凿击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 7.28,
-					["TimeDamaging"] = {
-						["碎石怪先知"] = {
-							["Details"] = {
-								["脚踢"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["凿击"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 1.63,
-								},
-								["肉搏"] = {
-									["count"] = 5.65,
-								},
-							},
-							["amount"] = 7.28,
-						},
-						["碎石怪断骨者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪萨满祭司"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["凿击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["DispelledWho"] = {
 					},
 				},
 			},
-			["Owner"] = false,
-			["LastEventTimes"] = {
-				60699.446, -- [1]
-				60700.233, -- [2]
-				60700.643, -- [3]
-				60701.329, -- [4]
-				60701.659, -- [5]
-				60702.619, -- [6]
-				60703.533, -- [7]
-				60704.444, -- [8]
-				60704.564, -- [9]
-				60704.686, -- [10]
-				60705.366, -- [11]
-				60706.262, -- [12]
-				60706.705, -- [13]
-				60707.208, -- [14]
-				60707.9, -- [15]
-				60708.137, -- [16]
-				60709.042, -- [17]
-				60709.904, -- [18]
-				60709.904, -- [19]
-				60710.875, -- [20]
-				60719.659, -- [21]
-				60731.161, -- [22]
-				60733.464, -- [23]
-				60733.464, -- [24]
-				60744.805, -- [25]
-				60759.706, -- [26]
-				60673.976, -- [27]
-				60674.21900000001, -- [28]
-				60675.191, -- [29]
-				60675.697, -- [30]
-				60675.997, -- [31]
-				60676.796, -- [32]
-				60677.045, -- [33]
-				60678.795, -- [34]
-				60679.154, -- [35]
-				60679.894, -- [36]
-				60683.89, -- [37]
-				60683.89, -- [38]
-				60684.498, -- [39]
-				60686.002, -- [40]
-				60686.51, -- [41]
-				60687.84400000001, -- [42]
-				60688.281, -- [43]
-				60688.414, -- [44]
-				60689.676, -- [45]
-				60697.254, -- [46]
-				60697.254, -- [47]
-				60698.348, -- [48]
-				60698.846, -- [49]
-				60699.284, -- [50]
-			},
-			["NextEventNum"] = 27,
-			["LastDamageTime"] = 60744.805,
-			["LastEvents"] = {
-				"特变电工 肉搏 碎石怪先知 Dodge (1)", -- [1]
-				"特变电工 影袭 碎石怪先知 Hit -34 (Physical)", -- [2]
-				"特变电工 肉搏 碎石怪先知 Hit -14 (Physical)", -- [3]
-				"碎石怪先知 肉搏 特变电工 Hit -18 (Physical)", -- [4]
-				"特变电工 肉搏 碎石怪先知 Hit -27 (Physical)", -- [5]
-				"特变电工 肉搏 碎石怪先知 Hit -16 (Physical)", -- [6]
-				"特变电工 肉搏 碎石怪击颅者 Hit -25 (Physical)", -- [7]
-				"特变电工 肉搏 碎石怪击颅者 Hit -7 (Physical)", -- [8]
-				"特变电工 影袭 碎石怪击颅者 Hit -35 (Physical)", -- [9]
-				"碎石怪击颅者 肉搏 特变电工 Hit -20 (Physical)", -- [10]
-				"特变电工 肉搏 碎石怪击颅者 Hit -30 (Physical)", -- [11]
-				"特变电工 肉搏 碎石怪击颅者 Hit -14 (Physical)", -- [12]
-				"碎石怪击颅者 肉搏 特变电工 Hit -19 (Physical)", -- [13]
-				"特变电工 肉搏 碎石怪击颅者 Parry (1)", -- [14]
-				"碎石怪击颅者 肉搏 特变电工 Dodge (1)", -- [15]
-				"特变电工 肉搏 碎石怪击颅者 Crit -30 (Physical)", -- [16]
-				"特变电工 肉搏 碎石怪击颅者 Hit -28 (Physical)", -- [17]
-				"碎石怪击颅者 肉搏 特变电工 Hit -21 (Physical)", -- [18]
-				"特变电工 肉搏 碎石怪击颅者 Hit -14 (Physical)", -- [19]
-				"特变电工 肉搏 碎石怪击颅者 Hit -33 (Physical)", -- [20]
-				"特变电工 凿击 碎石怪击颅者 Hit -8 (Physical)", -- [21]
-				"碎石怪斥候 肉搏 特变电工 Dodge (1)", -- [22]
-				"碎石穴居人 肉搏 特变电工 Hit -16 (Physical)", -- [23]
-				"特变电工 凿击 碎石穴居人 Hit -7 (Physical)", -- [24]
-				"特变电工 凿击 碎石怪斥候 Hit -7 (Physical)", -- [25]
-				"碎石怪斥候 投掷 特变电工 Hit -15 (Physical)", -- [26]
-				"碎石怪击颅者 肉搏 特变电工 Dodge (1)", -- [27]
-				"特变电工 影袭 碎石怪击颅者 Hit -37 (Physical)", -- [28]
-				"特变电工 肉搏 碎石怪击颅者 Dodge (1)", -- [29]
-				"特变电工 肉搏 碎石怪击颅者 Hit -27 (Physical)", -- [30]
-				"碎石怪击颅者 肉搏 特变电工 Parry (1)", -- [31]
-				"特变电工 肉搏 碎石怪击颅者 Hit -31 (Physical)", -- [32]
-				"特变电工 肉搏 碎石怪击颅者 Hit -14 (Physical)", -- [33]
-				"特变电工 刺骨 碎石怪击颅者 Hit -15 (Physical)", -- [34]
-				"特变电工 肉搏 碎石怪击颅者 Hit -26 (Physical)", -- [35]
-				"特变电工 肉搏 碎石怪击颅者 Hit -17 (Physical)", -- [36]
-				"特变电工 影袭 碎石怪击颅者 Hit -37 (Physical)", -- [37]
-				"特变电工 肉搏 碎石怪击颅者 Miss (1)", -- [38]
-				"特变电工 肉搏 碎石怪击颅者 Hit -15 (Physical)", -- [39]
-				"特变电工 肉搏 碎石怪击颅者 Hit -25 (Physical)", -- [40]
-				"特变电工 肉搏 碎石怪击颅者 Hit -12 (Physical)", -- [41]
-				"特变电工 肉搏 碎石怪击颅者 Hit -32 (Physical)", -- [42]
-				"特变电工 肉搏 碎石怪击颅者 Hit -15 (Physical)", -- [43]
-				"特变电工 影袭 碎石怪击颅者 Hit -35 (Physical)", -- [44]
-				"特变电工 肉搏 碎石怪击颅者 Hit -33 (Physical)", -- [45]
-				"特变电工 脚踢 碎石怪先知 Miss (Physical)", -- [46]
-				"特变电工 肉搏 碎石怪先知 Crit -54 (Physical)", -- [47]
-				"特变电工 肉搏 碎石怪先知 Crit -30 (Physical)", -- [48]
-				"特变电工 影袭 碎石怪先知 Hit -36 (Physical)", -- [49]
-				"碎石怪先知 肉搏 特变电工 Hit -17 (Physical)", -- [50]
-			},
-			["Name"] = "特变电工",
-			["LastEventIncoming"] = {
-				false, -- [1]
-				false, -- [2]
-				false, -- [3]
-				true, -- [4]
-				false, -- [5]
-				false, -- [6]
-				false, -- [7]
-				false, -- [8]
-				false, -- [9]
-				true, -- [10]
-				false, -- [11]
-				false, -- [12]
-				true, -- [13]
-				false, -- [14]
-				true, -- [15]
-				false, -- [16]
-				false, -- [17]
-				true, -- [18]
-				false, -- [19]
-				false, -- [20]
-				false, -- [21]
-				true, -- [22]
-				true, -- [23]
-				false, -- [24]
-				false, -- [25]
-				true, -- [26]
-				true, -- [27]
-				false, -- [28]
-				false, -- [29]
-				false, -- [30]
-				true, -- [31]
-				false, -- [32]
-				false, -- [33]
-				false, -- [34]
-				false, -- [35]
-				false, -- [36]
-				false, -- [37]
-				false, -- [38]
-				false, -- [39]
-				false, -- [40]
-				false, -- [41]
-				false, -- [42]
-				false, -- [43]
-				false, -- [44]
-				false, -- [45]
-				false, -- [46]
-				false, -- [47]
-				false, -- [48]
-				false, -- [49]
-				true, -- [50]
-			},
-			["LastDamageTaken"] = 15,
-			["TimeLast"] = {
-				["TimeHeal"] = 60633.30800000001,
-				["OVERALL"] = 60759.304,
-				["DamageTaken"] = 60759.304,
-				["Healing"] = 60633.30800000001,
-				["HealingTaken"] = 60637.305,
-				["GTFOEvents"] = 60306.306,
-				["TimeDamage"] = 60744.312,
-				["ActiveTime"] = 60744.312,
-				["GTFOEventDamage"] = 60306.306,
-				["Interrupts"] = 60291.307,
-				["Damage"] = 60744.312,
-			},
-			["LastEventHealthMax"] = {
-				313, -- [1]
-				313, -- [2]
-				313, -- [3]
-				313, -- [4]
-				313, -- [5]
-				313, -- [6]
-				313, -- [7]
-				313, -- [8]
-				313, -- [9]
-				313, -- [10]
-				313, -- [11]
-				313, -- [12]
-				313, -- [13]
-				313, -- [14]
-				313, -- [15]
-				313, -- [16]
-				313, -- [17]
-				313, -- [18]
-				313, -- [19]
-				313, -- [20]
-				313, -- [21]
-				313, -- [22]
-				313, -- [23]
-				313, -- [24]
-				313, -- [25]
-				313, -- [26]
-				313, -- [27]
-				313, -- [28]
-				313, -- [29]
-				313, -- [30]
-				313, -- [31]
-				313, -- [32]
-				313, -- [33]
-				313, -- [34]
-				313, -- [35]
-				313, -- [36]
-				313, -- [37]
-				313, -- [38]
-				313, -- [39]
-				313, -- [40]
-				313, -- [41]
-				313, -- [42]
-				313, -- [43]
-				313, -- [44]
-				313, -- [45]
-				313, -- [46]
-				313, -- [47]
-				313, -- [48]
-				313, -- [49]
-				313, -- [50]
-			},
-			["LastActive"] = 60759.304,
+			["UnitLockout"] = 51660.846,
+			["LastActive"] = 51766.843,
 		},
 	},
-	["FightNum"] = 54,
+	["FightNum"] = 165,
 	["CombatTimes"] = {
 		{
-			59155.311, -- [1]
-			59173.304, -- [2]
-			"02:02:24", -- [3]
-			"02:02:42", -- [4]
-			"碎石怪击颅者", -- [5]
+			51659.843, -- [1]
+			51665.84400000001, -- [2]
+			"00:45:15", -- [3]
+			"00:45:21", -- [4]
+			"被诅咒的水兵", -- [5]
 		}, -- [1]
 		{
-			59177.303, -- [1]
-			59202.307, -- [2]
-			"02:02:47", -- [3]
-			"02:03:11", -- [4]
-			"碎石怪击颅者", -- [5]
+			51683.847, -- [1]
+			51712.84400000001, -- [2]
+			"00:45:39", -- [3]
+			"00:46:08", -- [4]
+			"被诅咒的水手", -- [5]
 		}, -- [2]
 		{
-			59207.312, -- [1]
-			59223.309, -- [2]
-			"02:03:17", -- [3]
-			"02:03:32", -- [4]
-			"碎石怪先知", -- [5]
+			51731.847, -- [1]
+			51783.841, -- [2]
+			"00:46:27", -- [3]
+			"00:47:19", -- [4]
+			"大副斯涅利格", -- [5]
 		}, -- [3]
 		{
-			59237.30800000001, -- [1]
-			59265.30800000001, -- [2]
-			"02:03:47", -- [3]
-			"02:04:14", -- [4]
-			"碎石怪先知", -- [5]
+			51801.841, -- [1]
+			51825.851, -- [2]
+			"00:47:37", -- [3]
+			"00:48:01", -- [4]
+			"被诅咒的水兵", -- [5]
 		}, -- [4]
 		{
-			59273.309, -- [1]
-			59287.309, -- [2]
-			"02:04:23", -- [3]
-			"02:04:36", -- [4]
-			"碎石怪先知", -- [5]
+			51864.845, -- [1]
+			51884.84400000001, -- [2]
+			"00:48:40", -- [3]
+			"00:49:00", -- [4]
+			"被诅咒的水兵", -- [5]
 		}, -- [5]
 		{
-			59290.302, -- [1]
-			59299.313, -- [2]
-			"02:04:40", -- [3]
-			"02:04:48", -- [4]
-			"碎石怪先知", -- [5]
+			51885.841, -- [1]
+			51904.842, -- [2]
+			"00:49:02", -- [3]
+			"00:49:20", -- [4]
+			"被诅咒的水兵", -- [5]
 		}, -- [6]
 		{
-			59302.30800000001, -- [1]
-			59313.304, -- [2]
-			"02:04:52", -- [3]
-			"02:05:02", -- [4]
-			"碎石怪击颅者", -- [5]
+			51918.851, -- [1]
+			51940.841, -- [2]
+			"00:49:35", -- [3]
+			"00:49:56", -- [4]
+			"被诅咒的水兵", -- [5]
 		}, -- [7]
 		{
-			59321.311, -- [1]
-			59337.305, -- [2]
-			"02:05:11", -- [3]
-			"02:05:26", -- [4]
-			"碎石怪先知", -- [5]
+			51945.84400000001, -- [1]
+			51959.85, -- [2]
+			"00:50:02", -- [3]
+			"00:50:15", -- [4]
+			"被诅咒的水手", -- [5]
 		}, -- [8]
 		{
-			59340.302, -- [1]
-			59351.304, -- [2]
-			"02:05:29", -- [3]
-			"02:05:40", -- [4]
-			"碎石怪断骨者", -- [5]
+			51964.842, -- [1]
+			52012.84, -- [2]
+			"00:50:21", -- [3]
+			"00:51:08", -- [4]
+			"被诅咒的水兵", -- [5]
 		}, -- [9]
 		{
-			59354.306, -- [1]
-			59367.302, -- [2]
-			"02:05:44", -- [3]
-			"02:05:56", -- [4]
-			"碎石怪断骨者", -- [5]
+			52027.841, -- [1]
+			52052.849, -- [2]
+			"00:51:24", -- [3]
+			"00:51:48", -- [4]
+			"被诅咒的水手", -- [5]
 		}, -- [10]
 		{
-			59380.303, -- [1]
-			59395.307, -- [2]
-			"02:06:10", -- [3]
-			"02:06:24", -- [4]
-			"碎石怪萨满祭司", -- [5]
+			52056.843, -- [1]
+			52073.843, -- [2]
+			"00:51:52", -- [3]
+			"00:52:09", -- [4]
+			"被诅咒的水手", -- [5]
 		}, -- [11]
 		{
-			59417.302, -- [1]
-			59429.309, -- [2]
-			"02:06:47", -- [3]
-			"02:06:58", -- [4]
-			"碎石怪击颅者", -- [5]
+			52078.84, -- [1]
+			52096.845, -- [2]
+			"00:52:14", -- [3]
+			"00:52:32", -- [4]
+			"被诅咒的水手", -- [5]
 		}, -- [12]
 		{
-			59433.304, -- [1]
-			59452.309, -- [2]
-			"02:07:03", -- [3]
-			"02:07:21", -- [4]
-			"碎石怪击颅者", -- [5]
+			52101.841, -- [1]
+			52124.847, -- [2]
+			"00:52:37", -- [3]
+			"00:53:00", -- [4]
+			"被诅咒的水手", -- [5]
 		}, -- [13]
 		{
-			59476.309, -- [1]
-			59515.311, -- [2]
-			"02:07:46", -- [3]
-			"02:08:24", -- [4]
-			"碎石穴居人", -- [5]
+			52152.851, -- [1]
+			52167.843, -- [2]
+			"00:53:28", -- [3]
+			"00:53:43", -- [4]
+			"巨型湿地鳄鱼", -- [5]
 		}, -- [14]
 		{
-			59653.30800000001, -- [1]
-			59706.309, -- [2]
-			"02:10:43", -- [3]
-			"02:11:35", -- [4]
-			"碎石怪斥候", -- [5]
+			52170.845, -- [1]
+			52194.841, -- [2]
+			"00:53:46", -- [3]
+			"00:54:10", -- [4]
+			"巨型湿地鳄鱼", -- [5]
 		}, -- [15]
 		{
-			59711.313, -- [1]
-			59717.306, -- [2]
-			"02:11:41", -- [3]
-			"02:11:46", -- [4]
-			"碎石怪萨满祭司", -- [5]
+			52209.84400000001, -- [1]
+			52227.841, -- [2]
+			"00:54:25", -- [3]
+			"00:54:43", -- [4]
+			"巨型湿地鳄鱼", -- [5]
 		}, -- [16]
 		{
-			59741.30800000001, -- [1]
-			59751.309, -- [2]
-			"02:12:11", -- [3]
-			"02:12:20", -- [4]
-			"碎石怪击颅者", -- [5]
+			52236.842, -- [1]
+			52253.84400000001, -- [2]
+			"00:54:52", -- [3]
+			"00:55:09", -- [4]
+			"巨型湿地鳄鱼", -- [5]
 		}, -- [17]
 		{
-			59760.305, -- [1]
-			59766.304, -- [2]
-			"02:12:30", -- [3]
-			"02:12:35", -- [4]
-			"碎石怪先知", -- [5]
+			52260.845, -- [1]
+			52277.85, -- [2]
+			"00:55:16", -- [3]
+			"00:55:33", -- [4]
+			"巨型湿地鳄鱼", -- [5]
 		}, -- [18]
 		{
-			59771.301, -- [1]
-			59779.301, -- [2]
-			"02:12:41", -- [3]
-			"02:12:48", -- [4]
-			"碎石怪击颅者", -- [5]
+			52298.84, -- [1]
+			52314.852, -- [2]
+			"00:55:54", -- [3]
+			"00:56:10", -- [4]
+			"巨型湿地鳄鱼", -- [5]
 		}, -- [19]
 		{
-			59781.302, -- [1]
-			59789.306, -- [2]
-			"02:12:51", -- [3]
-			"02:12:58", -- [4]
-			"碎石怪击颅者", -- [5]
+			52341.842, -- [1]
+			52363.847, -- [2]
+			"00:56:38", -- [3]
+			"00:56:59", -- [4]
+			"湿地鳄鱼", -- [5]
 		}, -- [20]
 		{
-			59792.305, -- [1]
-			59808.305, -- [2]
-			"02:13:02", -- [3]
-			"02:13:17", -- [4]
-			"碎石怪断骨者", -- [5]
+			52432.842, -- [1]
+			52450.842, -- [2]
+			"00:58:08", -- [3]
+			"00:58:26", -- [4]
+			"湿地鳄鱼幼崽", -- [5]
 		}, -- [21]
 		{
-			59812.302, -- [1]
-			59823.301, -- [2]
-			"02:13:22", -- [3]
-			"02:13:32", -- [4]
-			"碎石怪萨满祭司", -- [5]
+			52636.84, -- [1]
+			52661.848, -- [2]
+			"01:01:32", -- [3]
+			"01:01:57", -- [4]
+			"纳克罗什酋长", -- [5]
 		}, -- [22]
 		{
-			59831.302, -- [1]
-			59849.312, -- [2]
-			"02:13:41", -- [3]
-			"02:13:58", -- [4]
-			"碎石怪断骨者", -- [5]
+			53796.842, -- [1]
+			53805.841, -- [2]
+			"01:20:52", -- [3]
+			"01:21:01", -- [4]
+			"赤脊山突击队员", -- [5]
 		}, -- [23]
 		{
-			59866.305, -- [1]
-			59905.304, -- [2]
-			"02:14:16", -- [3]
-			"02:14:54", -- [4]
-			"碎石怪萨满祭司", -- [5]
+			53916.846, -- [1]
+			53941.843, -- [2]
+			"01:22:52", -- [3]
+			"01:23:17", -- [4]
+			"黑石追踪者", -- [5]
 		}, -- [24]
 		{
-			59921.307, -- [1]
-			59932.306, -- [2]
-			"02:15:10", -- [3]
-			"02:15:21", -- [4]
-			"碎石怪断骨者", -- [5]
+			53977.849, -- [1]
+			54014.841, -- [2]
+			"01:23:53", -- [3]
+			"01:24:30", -- [4]
+			"黑石追踪者", -- [5]
 		}, -- [25]
 		{
-			59936.307, -- [1]
-			59953.307, -- [2]
-			"02:15:26", -- [3]
-			"02:15:42", -- [4]
-			"碎石怪萨满祭司", -- [5]
+			54021.843, -- [1]
+			54035.84, -- [2]
+			"01:24:37", -- [3]
+			"01:24:51", -- [4]
+			"黑石勇士", -- [5]
 		}, -- [26]
 		{
-			59960.306, -- [1]
-			59998.304, -- [2]
-			"02:15:50", -- [3]
-			"02:16:27", -- [4]
-			"碎石怪萨满祭司", -- [5]
+			54036.84, -- [1]
+			54049.839, -- [2]
+			"01:24:53", -- [3]
+			"01:25:05", -- [4]
+			"黑石勇士", -- [5]
 		}, -- [27]
 		{
-			60020.302, -- [1]
-			60030.302, -- [2]
-			"02:16:50", -- [3]
-			"02:16:59", -- [4]
-			"碎石怪断骨者", -- [5]
+			54066.845, -- [1]
+			54078.841, -- [2]
+			"01:25:22", -- [3]
+			"01:25:34", -- [4]
+			"黑石勇士", -- [5]
 		}, -- [28]
 		{
-			60032.31, -- [1]
-			60042.307, -- [2]
-			"02:17:01", -- [3]
-			"02:17:11", -- [4]
-			"碎石怪断骨者", -- [5]
+			54083.841, -- [1]
+			54090.847, -- [2]
+			"01:25:39", -- [3]
+			"01:25:46", -- [4]
+			"黑石追踪者", -- [5]
 		}, -- [29]
 		{
-			60046.309, -- [1]
-			60058.309, -- [2]
-			"02:17:16", -- [3]
-			"02:17:27", -- [4]
-			"碎石怪断骨者", -- [5]
+			54103.842, -- [1]
+			54112.843, -- [2]
+			"01:26:00", -- [3]
+			"01:26:08", -- [4]
+			"黑石追踪者", -- [5]
 		}, -- [30]
 		{
-			60067.301, -- [1]
-			60077.303, -- [2]
-			"02:17:37", -- [3]
-			"02:17:46", -- [4]
-			"碎石怪萨满祭司", -- [5]
+			54114.84, -- [1]
+			54126.846, -- [2]
+			"01:26:11", -- [3]
+			"01:26:22", -- [4]
+			"黑石勇士", -- [5]
 		}, -- [31]
 		{
-			60079.302, -- [1]
-			60090.307, -- [2]
-			"02:17:49", -- [3]
-			"02:17:59", -- [4]
-			"碎石怪断骨者", -- [5]
+			54128.845, -- [1]
+			54140.846, -- [2]
+			"01:26:24", -- [3]
+			"01:26:36", -- [4]
+			"黑石勇士", -- [5]
 		}, -- [32]
 		{
-			60095.305, -- [1]
-			60106.303, -- [2]
-			"02:18:05", -- [3]
-			"02:18:15", -- [4]
-			"碎石怪萨满祭司", -- [5]
+			54142.842, -- [1]
+			54161.846, -- [2]
+			"01:26:38", -- [3]
+			"01:26:57", -- [4]
+			"黑石勇士", -- [5]
 		}, -- [33]
 		{
-			60114.303, -- [1]
-			60128.305, -- [2]
-			"02:18:24", -- [3]
-			"02:18:37", -- [4]
-			"碎石怪先知", -- [5]
+			54162.84400000001, -- [1]
+			54176.846, -- [2]
+			"01:26:58", -- [3]
+			"01:27:12", -- [4]
+			"黑石勇士", -- [5]
 		}, -- [34]
 		{
-			60142.307, -- [1]
-			60151.307, -- [2]
-			"02:18:52", -- [3]
-			"02:19:00", -- [4]
-			"碎石怪击颅者", -- [5]
+			54182.843, -- [1]
+			54211.85, -- [2]
+			"01:27:18", -- [3]
+			"01:27:47", -- [4]
+			"黑石追踪者", -- [5]
 		}, -- [35]
 		{
-			60155.304, -- [1]
-			60167.303, -- [2]
-			"02:19:05", -- [3]
-			"02:19:16", -- [4]
-			"碎石怪击颅者", -- [5]
+			54241.848, -- [1]
+			54249.84400000001, -- [2]
+			"01:28:17", -- [3]
+			"01:28:25", -- [4]
+			"黑石追踪者", -- [5]
 		}, -- [36]
 		{
-			60182.306, -- [1]
-			60188.31, -- [2]
-			"02:19:32", -- [3]
-			"02:19:37", -- [4]
-			"碎石怪击颅者", -- [5]
+			54253.843, -- [1]
+			54265.84, -- [2]
+			"01:28:29", -- [3]
+			"01:28:41", -- [4]
+			"黑石勇士", -- [5]
 		}, -- [37]
 		{
-			60190.307, -- [1]
-			60199.326, -- [2]
-			"02:19:40", -- [3]
-			"02:19:48", -- [4]
-			"碎石怪击颅者", -- [5]
+			54280.841, -- [1]
+			54308.841, -- [2]
+			"01:28:56", -- [3]
+			"01:29:24", -- [4]
+			"黑石召唤师", -- [5]
 		}, -- [38]
 		{
-			60213.302, -- [1]
-			60224.306, -- [2]
-			"02:20:02", -- [3]
-			"02:20:13", -- [4]
-			"碎石怪断骨者", -- [5]
+			54312.839, -- [1]
+			54362.84, -- [2]
+			"01:29:28", -- [3]
+			"01:30:18", -- [4]
+			"黑石勇士", -- [5]
 		}, -- [39]
 		{
-			60228.30800000001, -- [1]
-			60237.306, -- [2]
-			"02:20:18", -- [3]
-			"02:20:26", -- [4]
-			"碎石怪先知", -- [5]
+			54380.845, -- [1]
+			54390.841, -- [2]
+			"01:30:37", -- [3]
+			"01:30:46", -- [4]
+			"小鬼爪牙", -- [5]
 		}, -- [40]
 		{
-			60247.301, -- [1]
-			60260.303, -- [2]
-			"02:20:37", -- [3]
-			"02:20:49", -- [4]
-			"碎石怪击颅者", -- [5]
+			54391.847, -- [1]
+			54409.841, -- [2]
+			"01:30:47", -- [3]
+			"01:31:05", -- [4]
+			"黑石勇士", -- [5]
 		}, -- [41]
 		{
-			60264.302, -- [1]
-			60286.307, -- [2]
-			"02:20:54", -- [3]
-			"02:21:15", -- [4]
-			"碎石怪击颅者", -- [5]
+			54421.846, -- [1]
+			54432.847, -- [2]
+			"01:31:17", -- [3]
+			"01:31:28", -- [4]
+			"黑石勇士", -- [5]
 		}, -- [42]
 		{
-			60291.307, -- [1]
-			60299.31, -- [2]
-			"02:21:20", -- [3]
-			"02:21:28", -- [4]
-			"碎石怪先知", -- [5]
+			54450.841, -- [1]
+			54455.84400000001, -- [2]
+			"01:31:46", -- [3]
+			"01:31:51", -- [4]
+			"小鬼爪牙", -- [5]
 		}, -- [43]
 		{
-			60320.309, -- [1]
-			60349.302, -- [2]
-			"02:21:50", -- [3]
-			"02:22:18", -- [4]
-			"碎石怪斥候", -- [5]
+			54458.843, -- [1]
+			54471.841, -- [2]
+			"01:31:54", -- [3]
+			"01:32:07", -- [4]
+			"黑石勇士", -- [5]
 		}, -- [44]
 		{
-			60486.314, -- [1]
-			60498.303, -- [2]
-			"02:24:35", -- [3]
-			"02:24:47", -- [4]
-			"碎石怪斥候", -- [5]
+			54491.84, -- [1]
+			54510.846, -- [2]
+			"01:32:27", -- [3]
+			"01:32:46", -- [4]
+			"黑石勇士", -- [5]
 		}, -- [45]
 		{
-			60499.306, -- [1]
-			60515.303, -- [2]
-			"02:24:49", -- [3]
-			"02:25:04", -- [4]
-			"碎石穴居人", -- [5]
+			54518.848, -- [1]
+			54528.84400000001, -- [2]
+			"01:32:54", -- [3]
+			"01:33:04", -- [4]
+			"小鬼爪牙", -- [5]
 		}, -- [46]
 		{
-			60538.307, -- [1]
-			60550.305, -- [2]
-			"02:25:28", -- [3]
-			"02:25:39", -- [4]
-			"碎石怪击颅者", -- [5]
+			54530.842, -- [1]
+			54555.84400000001, -- [2]
+			"01:33:06", -- [3]
+			"01:33:31", -- [4]
+			"小鬼爪牙", -- [5]
 		}, -- [47]
 		{
-			60570.301, -- [1]
-			60587.30800000001, -- [2]
-			"02:26:00", -- [3]
-			"02:26:16", -- [4]
-			"碎石怪萨满祭司", -- [5]
+			54559.84, -- [1]
+			54571.84400000001, -- [2]
+			"01:33:35", -- [3]
+			"01:33:47", -- [4]
+			"黑石勇士", -- [5]
 		}, -- [48]
 		{
-			60592.303, -- [1]
-			60601.30800000001, -- [2]
-			"02:26:22", -- [3]
-			"02:26:30", -- [4]
-			"碎石怪萨满祭司", -- [5]
+			54573.842, -- [1]
+			54587.845, -- [2]
+			"01:33:49", -- [3]
+			"01:34:03", -- [4]
+			"黑石勇士", -- [5]
 		}, -- [49]
 		{
-			60611.302, -- [1]
-			60645.31, -- [2]
-			"02:26:40", -- [3]
-			"02:27:14", -- [4]
-			"纳什尔", -- [5]
+			54591.845, -- [1]
+			54606.845, -- [2]
+			"01:34:08", -- [3]
+			"01:34:22", -- [4]
+			"黑石勇士", -- [5]
 		}, -- [50]
 		{
-			60659.301, -- [1]
-			60681.304, -- [2]
-			"02:27:29", -- [3]
-			"02:27:50", -- [4]
-			"碎石怪击颅者", -- [5]
+			54627.843, -- [1]
+			54640.845, -- [2]
+			"01:34:43", -- [3]
+			"01:34:56", -- [4]
+			"黑石召唤师", -- [5]
 		}, -- [51]
 		{
-			60683.309, -- [1]
-			60690.304, -- [2]
-			"02:27:53", -- [3]
-			"02:27:59", -- [4]
-			"碎石怪击颅者", -- [5]
+			54647.843, -- [1]
+			54676.84400000001, -- [2]
+			"01:35:03", -- [3]
+			"01:35:32", -- [4]
+			"小鬼爪牙", -- [5]
 		}, -- [52]
 		{
-			60696.31, -- [1]
-			60712.301, -- [2]
-			"02:28:06", -- [3]
-			"02:28:21", -- [4]
-			"碎石怪先知", -- [5]
+			54683.845, -- [1]
+			54713.845, -- [2]
+			"01:35:40", -- [3]
+			"01:36:09", -- [4]
+			"黑石追踪者", -- [5]
 		}, -- [53]
 		{
-			60719.307, -- [1]
-			60778.303, -- [2]
-			"02:28:29", -- [3]
-			"02:29:27", -- [4]
-			"碎石怪击颅者", -- [5]
+			54746.848, -- [1]
+			54757.846, -- [2]
+			"01:36:43", -- [3]
+			"01:36:53", -- [4]
+			"黑石追踪者", -- [5]
 		}, -- [54]
+		{
+			54768.843, -- [1]
+			54786.842, -- [2]
+			"01:37:05", -- [3]
+			"01:37:22", -- [4]
+			"小鬼爪牙", -- [5]
+		}, -- [55]
+		{
+			54792.841, -- [1]
+			54801.842, -- [2]
+			"01:37:29", -- [3]
+			"01:37:37", -- [4]
+			"黑石追踪者", -- [5]
+		}, -- [56]
+		{
+			54816.849, -- [1]
+			54847.842, -- [2]
+			"01:37:52", -- [3]
+			"01:38:23", -- [4]
+			"小鬼爪牙", -- [5]
+		}, -- [57]
+		{
+			54883.841, -- [1]
+			54888.847, -- [2]
+			"01:38:59", -- [3]
+			"01:39:04", -- [4]
+			"黑石叛节者", -- [5]
+		}, -- [58]
+		{
+			54897.84400000001, -- [1]
+			54903.843, -- [2]
+			"01:39:13", -- [3]
+			"01:39:19", -- [4]
+			"黑石前锋", -- [5]
+		}, -- [59]
+		{
+			54914.842, -- [1]
+			54925.846, -- [2]
+			"01:39:31", -- [3]
+			"01:39:41", -- [4]
+			"黑石前锋", -- [5]
+		}, -- [60]
+		{
+			54933.845, -- [1]
+			54939.842, -- [2]
+			"01:39:50", -- [3]
+			"01:39:55", -- [4]
+			"黑石叛节者", -- [5]
+		}, -- [61]
+		{
+			55302.842, -- [1]
+			55328.848, -- [2]
+			"01:45:58", -- [3]
+			"01:46:24", -- [4]
+			"黑石暗影法师", -- [5]
+		}, -- [62]
+		{
+			55331.845, -- [1]
+			55338.843, -- [2]
+			"01:46:27", -- [3]
+			"01:46:34", -- [4]
+			"黑石暗影法师", -- [5]
+		}, -- [63]
+		{
+			55345.843, -- [1]
+			55359.84400000001, -- [2]
+			"01:46:42", -- [3]
+			"01:46:55", -- [4]
+			"黑石暗影法师", -- [5]
+		}, -- [64]
+		{
+			55389.848, -- [1]
+			55403.84400000001, -- [2]
+			"01:47:26", -- [3]
+			"01:47:39", -- [4]
+			"黑石猎人", -- [5]
+		}, -- [65]
+		{
+			55406.846, -- [1]
+			55452.845, -- [2]
+			"01:47:42", -- [3]
+			"01:48:28", -- [4]
+			"加塞尔佐格", -- [5]
+		}, -- [66]
+		{
+			55465.842, -- [1]
+			55495.847, -- [2]
+			"01:48:41", -- [3]
+			"01:49:11", -- [4]
+			"黑石哨兵", -- [5]
+		}, -- [67]
+		{
+			55506.84400000001, -- [1]
+			55520.845, -- [2]
+			"01:49:22", -- [3]
+			"01:49:36", -- [4]
+			"黑石暗影法师", -- [5]
+		}, -- [68]
+		{
+			55538.842, -- [1]
+			55547.841, -- [2]
+			"01:49:54", -- [3]
+			"01:50:03", -- [4]
+			"黑石哨兵", -- [5]
+		}, -- [69]
+		{
+			55559.843, -- [1]
+			55595.848, -- [2]
+			"01:50:15", -- [3]
+			"01:50:51", -- [4]
+			"萨瑞尔祖恩", -- [5]
+		}, -- [70]
+		{
+			55621.848, -- [1]
+			55628.85, -- [2]
+			"01:51:18", -- [3]
+			"01:51:24", -- [4]
+			"Environment", -- [5]
+		}, -- [71]
+		{
+			55647.846, -- [1]
+			55666.843, -- [2]
+			"01:51:44", -- [3]
+			"01:52:02", -- [4]
+			"暗皮杀手", -- [5]
+		}, -- [72]
+		{
+			55752.847, -- [1]
+			55780.84400000001, -- [2]
+			"01:53:28", -- [3]
+			"01:53:56", -- [4]
+			"黑石哨兵", -- [5]
+		}, -- [73]
+		{
+			55790.842, -- [1]
+			55804.845, -- [2]
+			"01:54:06", -- [3]
+			"01:54:20", -- [4]
+			"黑石斥候", -- [5]
+		}, -- [74]
+		{
+			55809.845, -- [1]
+			55826.842, -- [2]
+			"01:54:25", -- [3]
+			"01:54:42", -- [4]
+			"黑石斥候", -- [5]
+		}, -- [75]
+		{
+			55910.845, -- [1]
+			55923.843, -- [2]
+			"01:56:06", -- [3]
+			"01:56:19", -- [4]
+			"暗皮战士", -- [5]
+		}, -- [76]
+		{
+			55924.84400000001, -- [1]
+			55943.846, -- [2]
+			"01:56:20", -- [3]
+			"01:56:39", -- [4]
+			"暗皮杀手", -- [5]
+		}, -- [77]
+		{
+			55952.848, -- [1]
+			55983.85, -- [2]
+			"01:56:48", -- [3]
+			"01:57:19", -- [4]
+			"暗皮杀手", -- [5]
+		}, -- [78]
+		{
+			56042.845, -- [1]
+			56059.841, -- [2]
+			"01:58:19", -- [3]
+			"01:58:35", -- [4]
+			"莫甘斯", -- [5]
+		}, -- [79]
+		{
+			56485.842, -- [1]
+			56504.851, -- [2]
+			"02:05:42", -- [3]
+			"02:06:00", -- [4]
+			"森林灰狼", -- [5]
+		}, -- [80]
+		{
+			57751.85, -- [1]
+			57775.848, -- [2]
+			"02:26:48", -- [3]
+			"02:27:11", -- [4]
+			"恶臭的食尸鬼", -- [5]
+		}, -- [81]
+		{
+			57855.854, -- [1]
+			57872.853, -- [2]
+			"02:28:31", -- [3]
+			"02:28:48", -- [4]
+			"恶臭的食尸鬼", -- [5]
+		}, -- [82]
+		{
+			57914.846, -- [1]
+			57941.848, -- [2]
+			"02:29:30", -- [3]
+			"02:29:57", -- [4]
+			"恶臭的食尸鬼", -- [5]
+		}, -- [83]
+		{
+			57965.847, -- [1]
+			58012.843, -- [2]
+			"02:30:21", -- [3]
+			"02:31:08", -- [4]
+			"斯塔文·密斯特曼托", -- [5]
+		}, -- [84]
+		{
+			58059.851, -- [1]
+			58073.852, -- [2]
+			"02:31:55", -- [3]
+			"02:32:09", -- [4]
+			"夜行织影狼人", -- [5]
+		}, -- [85]
+		{
+			58077.845, -- [1]
+			58096.846, -- [2]
+			"02:32:14", -- [3]
+			"02:32:32", -- [4]
+			"夜行黑暗狼人", -- [5]
+		}, -- [86]
+		{
+			58182.843, -- [1]
+			58195.845, -- [2]
+			"02:33:58", -- [3]
+			"02:34:11", -- [4]
+			"夜行织影狼人", -- [5]
+		}, -- [87]
+		{
+			58215.853, -- [1]
+			58224.845, -- [2]
+			"02:34:32", -- [3]
+			"02:34:40", -- [4]
+			"夜行织影狼人", -- [5]
+		}, -- [88]
+		{
+			58229.848, -- [1]
+			58241.847, -- [2]
+			"02:34:45", -- [3]
+			"02:34:57", -- [4]
+			"夜行织影狼人", -- [5]
+		}, -- [89]
+		{
+			58253.845, -- [1]
+			58264.849, -- [2]
+			"02:35:10", -- [3]
+			"02:35:20", -- [4]
+			"夜行织影狼人", -- [5]
+		}, -- [90]
+		{
+			58272.852, -- [1]
+			58282.851, -- [2]
+			"02:35:29", -- [3]
+			"02:35:38", -- [4]
+			"夜行织影狼人", -- [5]
+		}, -- [91]
+		{
+			58359.854, -- [1]
+			58369.847, -- [2]
+			"02:36:55", -- [3]
+			"02:37:05", -- [4]
+			"裂拳食人魔", -- [5]
+		}, -- [92]
+		{
+			58411.847, -- [1]
+			58441.842, -- [2]
+			"02:37:47", -- [3]
+			"02:38:17", -- [4]
+			"裂拳好战者", -- [5]
+		}, -- [93]
+		{
+			58456.841, -- [1]
+			58498.842, -- [2]
+			"02:38:32", -- [3]
+			"02:39:14", -- [4]
+			"扎克乌尔", -- [5]
+		}, -- [94]
+		{
+			58607.851, -- [1]
+			58614.846, -- [2]
+			"02:41:03", -- [3]
+			"02:41:10", -- [4]
+			"恐怖骸骨", -- [5]
+		}, -- [95]
+		{
+			58616.847, -- [1]
+			58624.848, -- [2]
+			"02:41:12", -- [3]
+			"02:41:20", -- [4]
+			"恐怖骸骨", -- [5]
+		}, -- [96]
+		{
+			58627.845, -- [1]
+			58638.845, -- [2]
+			"02:41:23", -- [3]
+			"02:41:34", -- [4]
+			"恐怖骸骨", -- [5]
+		}, -- [97]
+		{
+			58639.846, -- [1]
+			58649.851, -- [2]
+			"02:41:36", -- [3]
+			"02:41:45", -- [4]
+			"骸骨魔", -- [5]
+		}, -- [98]
+		{
+			58652.84400000001, -- [1]
+			58661.842, -- [2]
+			"02:41:49", -- [3]
+			"02:41:57", -- [4]
+			"恐怖骸骨", -- [5]
+		}, -- [99]
+		{
+			58663.852, -- [1]
+			58674.846, -- [2]
+			"02:42:00", -- [3]
+			"02:42:10", -- [4]
+			"恐怖骸骨", -- [5]
+		}, -- [100]
+		{
+			58676.84400000001, -- [1]
+			58685.847, -- [2]
+			"02:42:12", -- [3]
+			"02:42:21", -- [4]
+			"骸骨魔", -- [5]
+		}, -- [101]
+		{
+			58696.847, -- [1]
+			58705.855, -- [2]
+			"02:42:33", -- [3]
+			"02:42:41", -- [4]
+			"骸骨魔", -- [5]
+		}, -- [102]
+		{
+			58706.85, -- [1]
+			58716.852, -- [2]
+			"02:42:43", -- [3]
+			"02:42:52", -- [4]
+			"恐怖骸骨", -- [5]
+		}, -- [103]
+		{
+			58717.851, -- [1]
+			58728.847, -- [2]
+			"02:42:54", -- [3]
+			"02:43:04", -- [4]
+			"骸骨魔", -- [5]
+		}, -- [104]
+		{
+			58730.846, -- [1]
+			58739.852, -- [2]
+			"02:43:06", -- [3]
+			"02:43:15", -- [4]
+			"骸骨魔", -- [5]
+		}, -- [105]
+		{
+			58741.85, -- [1]
+			58749.84400000001, -- [2]
+			"02:43:18", -- [3]
+			"02:43:25", -- [4]
+			"恐怖骸骨", -- [5]
+		}, -- [106]
+		{
+			58751.847, -- [1]
+			58763.851, -- [2]
+			"02:43:27", -- [3]
+			"02:43:39", -- [4]
+			"骸骨魔", -- [5]
+		}, -- [107]
+		{
+			58763.851, -- [1]
+			58773.845, -- [2]
+			"02:43:39", -- [3]
+			"02:43:49", -- [4]
+			"骸骨魔", -- [5]
+		}, -- [108]
+		{
+			58793.846, -- [1]
+			58803.84400000001, -- [2]
+			"02:44:09", -- [3]
+			"02:44:19", -- [4]
+			"恐怖骸骨", -- [5]
+		}, -- [109]
+		{
+			58805.852, -- [1]
+			58813.846, -- [2]
+			"02:44:22", -- [3]
+			"02:44:29", -- [4]
+			"恐怖骸骨", -- [5]
+		}, -- [110]
+		{
+			58815.842, -- [1]
+			58821.854, -- [2]
+			"02:44:32", -- [3]
+			"02:44:37", -- [4]
+			"恐怖骸骨", -- [5]
+		}, -- [111]
+		{
+			58851.84, -- [1]
+			58862.849, -- [2]
+			"02:45:08", -- [3]
+			"02:45:18", -- [4]
+			"骸骨魔", -- [5]
+		}, -- [112]
+		{
+			58864.846, -- [1]
+			58870.843, -- [2]
+			"02:45:20", -- [3]
+			"02:45:26", -- [4]
+			"骸骨魔", -- [5]
+		}, -- [113]
+		{
+			58872.841, -- [1]
+			58883.85, -- [2]
+			"02:45:28", -- [3]
+			"02:45:39", -- [4]
+			"骸骨魔", -- [5]
+		}, -- [114]
+		{
+			58884.84, -- [1]
+			58891.845, -- [2]
+			"02:45:41", -- [3]
+			"02:45:47", -- [4]
+			"恐怖骸骨", -- [5]
+		}, -- [115]
+		{
+			58895.851, -- [1]
+			58902.846, -- [2]
+			"02:45:51", -- [3]
+			"02:45:58", -- [4]
+			"恐怖骸骨", -- [5]
+		}, -- [116]
+		{
+			58905.846, -- [1]
+			58912.842, -- [2]
+			"02:46:01", -- [3]
+			"02:46:08", -- [4]
+			"恐怖骸骨", -- [5]
+		}, -- [117]
+		{
+			58914.842, -- [1]
+			58923.842, -- [2]
+			"02:46:10", -- [3]
+			"02:46:19", -- [4]
+			"骸骨魔", -- [5]
+		}, -- [118]
+		{
+			58928.841, -- [1]
+			58936.842, -- [2]
+			"02:46:24", -- [3]
+			"02:46:32", -- [4]
+			"骸骨魔", -- [5]
+		}, -- [119]
+		{
+			58939.849, -- [1]
+			58950.84, -- [2]
+			"02:46:36", -- [3]
+			"02:46:46", -- [4]
+			"恐怖骸骨", -- [5]
+		}, -- [120]
+		{
+			58967.846, -- [1]
+			58974.849, -- [2]
+			"02:47:03", -- [3]
+			"02:47:10", -- [4]
+			"骷髅袭击者", -- [5]
+		}, -- [121]
+		{
+			58978.851, -- [1]
+			58988.843, -- [2]
+			"02:47:14", -- [3]
+			"02:47:24", -- [4]
+			"骷髅医师", -- [5]
+		}, -- [122]
+		{
+			58989.84400000001, -- [1]
+			59000.85, -- [2]
+			"02:47:25", -- [3]
+			"02:47:36", -- [4]
+			"骷髅医师", -- [5]
+		}, -- [123]
+		{
+			59004.84, -- [1]
+			59012.85, -- [2]
+			"02:47:41", -- [3]
+			"02:47:48", -- [4]
+			"骷髅医师", -- [5]
+		}, -- [124]
+		{
+			59015.84, -- [1]
+			59024.846, -- [2]
+			"02:47:51", -- [3]
+			"02:48:00", -- [4]
+			"骷髅袭击者", -- [5]
+		}, -- [125]
+		{
+			59026.84400000001, -- [1]
+			59036.842, -- [2]
+			"02:48:03", -- [3]
+			"02:48:12", -- [4]
+			"骷髅袭击者", -- [5]
+		}, -- [126]
+		{
+			59039.847, -- [1]
+			59054.84, -- [2]
+			"02:48:15", -- [3]
+			"02:48:30", -- [4]
+			"骷髅袭击者", -- [5]
+		}, -- [127]
+		{
+			59059.848, -- [1]
+			59076.84, -- [2]
+			"02:48:35", -- [3]
+			"02:48:52", -- [4]
+			"骷髅袭击者", -- [5]
+		}, -- [128]
+		{
+			59099.84400000001, -- [1]
+			59108.851, -- [2]
+			"02:49:16", -- [3]
+			"02:49:24", -- [4]
+			"骷髅袭击者", -- [5]
+		}, -- [129]
+		{
+			59122.842, -- [1]
+			59134.845, -- [2]
+			"02:49:38", -- [3]
+			"02:49:50", -- [4]
+			"骷髅看守", -- [5]
+		}, -- [130]
+		{
+			59136.847, -- [1]
+			59145.841, -- [2]
+			"02:49:52", -- [3]
+			"02:50:01", -- [4]
+			"骷髅看守", -- [5]
+		}, -- [131]
+		{
+			59150.841, -- [1]
+			59168.84, -- [2]
+			"02:50:06", -- [3]
+			"02:50:24", -- [4]
+			"骷髅看守", -- [5]
+		}, -- [132]
+		{
+			59177.84400000001, -- [1]
+			59191.847, -- [2]
+			"02:50:33", -- [3]
+			"02:50:47", -- [4]
+			"骷髅袭击者", -- [5]
+		}, -- [133]
+		{
+			59214.845, -- [1]
+			59225.852, -- [2]
+			"02:51:10", -- [3]
+			"02:51:21", -- [4]
+			"骷髅袭击者", -- [5]
+		}, -- [134]
+		{
+			59227.843, -- [1]
+			59240.845, -- [2]
+			"02:51:24", -- [3]
+			"02:51:36", -- [4]
+			"骷髅袭击者", -- [5]
+		}, -- [135]
+		{
+			59245.843, -- [1]
+			59257.846, -- [2]
+			"02:51:41", -- [3]
+			"02:51:53", -- [4]
+			"骷髅袭击者", -- [5]
+		}, -- [136]
+		{
+			59262.849, -- [1]
+			59276.84400000001, -- [2]
+			"02:51:58", -- [3]
+			"02:52:12", -- [4]
+			"瘟疫食尸鬼", -- [5]
+		}, -- [137]
+		{
+			59284.849, -- [1]
+			59296.854, -- [2]
+			"02:52:21", -- [3]
+			"02:52:32", -- [4]
+			"骷髅袭击者", -- [5]
+		}, -- [138]
+		{
+			59298.842, -- [1]
+			59316.841, -- [2]
+			"02:52:34", -- [3]
+			"02:52:52", -- [4]
+			"瘟疫食尸鬼", -- [5]
+		}, -- [139]
+		{
+			59318.84, -- [1]
+			59328.848, -- [2]
+			"02:52:54", -- [3]
+			"02:53:04", -- [4]
+			"瘟疫食尸鬼", -- [5]
+		}, -- [140]
+		{
+			59344.847, -- [1]
+			59353.84, -- [2]
+			"02:53:20", -- [3]
+			"02:53:29", -- [4]
+			"骷髅袭击者", -- [5]
+		}, -- [141]
+		{
+			59354.849, -- [1]
+			59371.847, -- [2]
+			"02:53:30", -- [3]
+			"02:53:47", -- [4]
+			"骷髅袭击者", -- [5]
+		}, -- [142]
+		{
+			59377.846, -- [1]
+			59391.848, -- [2]
+			"02:53:54", -- [3]
+			"02:54:07", -- [4]
+			"骷髅袭击者", -- [5]
+		}, -- [143]
+		{
+			59408.84400000001, -- [1]
+			59420.842, -- [2]
+			"02:54:25", -- [3]
+			"02:54:36", -- [4]
+			"瘟疫食尸鬼", -- [5]
+		}, -- [144]
+		{
+			59423.852, -- [1]
+			59437.839, -- [2]
+			"02:54:39", -- [3]
+			"02:54:53", -- [4]
+			"瘟疫食尸鬼", -- [5]
+		}, -- [145]
+		{
+			59438.842, -- [1]
+			59453.847, -- [2]
+			"02:54:55", -- [3]
+			"02:55:09", -- [4]
+			"瘟疫食尸鬼", -- [5]
+		}, -- [146]
+		{
+			59454.841, -- [1]
+			59468.84400000001, -- [2]
+			"02:55:10", -- [3]
+			"02:55:24", -- [4]
+			"瘟疫食尸鬼", -- [5]
+		}, -- [147]
+		{
+			59476.84400000001, -- [1]
+			59488.843, -- [2]
+			"02:55:32", -- [3]
+			"02:55:44", -- [4]
+			"骷髅袭击者", -- [5]
+		}, -- [148]
+		{
+			59566.851, -- [1]
+			59582.847, -- [2]
+			"02:57:02", -- [3]
+			"02:57:18", -- [4]
+			"瘟疫食尸鬼", -- [5]
+		}, -- [149]
+		{
+			59608.852, -- [1]
+			59621.86, -- [2]
+			"02:57:44", -- [3]
+			"02:57:57", -- [4]
+			"瘟疫食尸鬼", -- [5]
+		}, -- [150]
+		{
+			59624.845, -- [1]
+			59639.851, -- [2]
+			"02:58:00", -- [3]
+			"02:58:15", -- [4]
+			"瘟疫食尸鬼", -- [5]
+		}, -- [151]
+		{
+			59642.847, -- [1]
+			59655.846, -- [2]
+			"02:58:18", -- [3]
+			"02:58:31", -- [4]
+			"食脑者", -- [5]
+		}, -- [152]
+		{
+			59662.85, -- [1]
+			59678.847, -- [2]
+			"02:58:39", -- [3]
+			"02:58:54", -- [4]
+			"瘟疫食尸鬼", -- [5]
+		}, -- [153]
+		{
+			59680.843, -- [1]
+			59694.848, -- [2]
+			"02:58:57", -- [3]
+			"02:59:10", -- [4]
+			"瘟疫食尸鬼", -- [5]
+		}, -- [154]
+		{
+			59697.841, -- [1]
+			59710.848, -- [2]
+			"02:59:13", -- [3]
+			"02:59:26", -- [4]
+			"瘟疫食尸鬼", -- [5]
+		}, -- [155]
+		{
+			59727.846, -- [1]
+			59742.842, -- [2]
+			"02:59:43", -- [3]
+			"02:59:58", -- [4]
+			"瘟疫食尸鬼", -- [5]
+		}, -- [156]
+		{
+			59745.848, -- [1]
+			59753.843, -- [2]
+			"03:00:01", -- [3]
+			"03:00:09", -- [4]
+			"瘟疫食尸鬼", -- [5]
+		}, -- [157]
+		{
+			59755.843, -- [1]
+			59767.841, -- [2]
+			"03:00:11", -- [3]
+			"03:00:23", -- [4]
+			"瘟疫食尸鬼", -- [5]
+		}, -- [158]
+		{
+			59771.841, -- [1]
+			59785.849, -- [2]
+			"03:00:27", -- [3]
+			"03:00:41", -- [4]
+			"食脑者", -- [5]
+		}, -- [159]
+		{
+			59798.847, -- [1]
+			59810.846, -- [2]
+			"03:00:55", -- [3]
+			"03:01:06", -- [4]
+			"噬骨者", -- [5]
+		}, -- [160]
+		{
+			59826.843, -- [1]
+			59838.841, -- [2]
+			"03:01:22", -- [3]
+			"03:01:34", -- [4]
+			"瘟疫食尸鬼", -- [5]
+		}, -- [161]
+		{
+			59841.84400000001, -- [1]
+			59856.845, -- [2]
+			"03:01:37", -- [3]
+			"03:01:52", -- [4]
+			"食腐独行蛛", -- [5]
+		}, -- [162]
+		{
+			59857.852, -- [1]
+			59867.852, -- [2]
+			"03:01:53", -- [3]
+			"03:02:03", -- [4]
+			"瘟疫食尸鬼", -- [5]
+		}, -- [163]
+		{
+			59872.848, -- [1]
+			59887.853, -- [2]
+			"03:02:08", -- [3]
+			"03:02:23", -- [4]
+			"瘟疫食尸鬼", -- [5]
+		}, -- [164]
+		{
+			59889.845, -- [1]
+			59901.84, -- [2]
+			"03:02:26", -- [3]
+			"03:02:37", -- [4]
+			"瘟疫食尸鬼", -- [5]
+		}, -- [165]
 	},
 	["FoughtWho"] = {
-		"碎石怪击颅者 02:28:29-02:29:27", -- [1]
-		"碎石怪先知 02:28:06-02:28:21", -- [2]
-		"碎石怪击颅者 02:27:53-02:27:59", -- [3]
-		"碎石怪击颅者 02:27:29-02:27:50", -- [4]
-		"纳什尔 02:26:40-02:27:14", -- [5]
+		"瘟疫食尸鬼 03:02:26-03:02:37", -- [1]
+		"瘟疫食尸鬼 03:02:08-03:02:23", -- [2]
+		"瘟疫食尸鬼 03:01:53-03:02:03", -- [3]
+		"食腐独行蛛 03:01:37-03:01:52", -- [4]
+		"瘟疫食尸鬼 03:01:22-03:01:34", -- [5]
 	},
 }

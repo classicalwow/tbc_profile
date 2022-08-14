@@ -25,6 +25,7 @@ RecountDB = {
 					},
 				},
 			},
+			["LastInstanceName"] = "死亡矿井",
 			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 209.4445648193359,
 		},

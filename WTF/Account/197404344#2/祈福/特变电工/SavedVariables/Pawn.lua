@@ -1,57 +1,84 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0538,
-	["LastPlayerFullName"] = "特变电工-祈福",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		[7] = {
-			["ID"] = 1436,
-			["Level"] = 17,
-			["Link"] = "|cff1eff00|Hitem:1436::::::::15:::::::::|h[戍边长裤]|h|r",
+			["ID"] = 13114,
+			["Level"] = 30,
+			["Link"] = "|cff0070dd|Hitem:13114:3013:::::::27:::::::::|h[巨魔杀手护腿]|h|r",
+		},
+		[3] = {
+			["ID"] = 2913,
+			["Level"] = 28,
+			["Link"] = "|cff1eff00|Hitem:2913::::::::27:::::::::|h[加姆的丝质衬肩]|h|r",
+		},
+		[2] = {
+			["ID"] = 20909,
+			["Level"] = 30,
+			["Link"] = "|cff1eff00|Hitem:20909::::::::27:::::::::|h[野蛮铁项圈]|h|r",
 		},
 		[15] = {
-			["ID"] = 6549,
-			["Level"] = 14,
-			["Link"] = "|cffffffff|Hitem:6549::::::::15:::::::::|h[士兵披风]|h|r",
+			["ID"] = 1733,
+			["Level"] = 15,
+			["Link"] = "|cff9d9d9d|Hitem:1733::::::::15:::::::::|h[旧锁甲披风]|h|r",
+		},
+		[8] = {
+			["ID"] = 9802,
+			["Level"] = 26,
+			["Link"] = "|cff1eff00|Hitem:9802::::::595:183537536:27:::::::::|h[灵猴之超强长靴]|h|r",
 		},
 		[16] = {
-			["ID"] = 2078,
-			["Level"] = 18,
+			["ID"] = 13033,
+			["Level"] = 34,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff1eff00|Hitem:2078::::::23:423642240:13:::::::::|h[力量之北地短剑]|h|r",
+			["Link"] = "|cff0070dd|Hitem:13033::::::::30:::::::::|h[狂热之刃]|h|r",
 		},
 		[9] = {
-			["ID"] = 1504,
-			["Level"] = 11,
-			["Link"] = "|cff9d9d9d|Hitem:1504::::::::14:::::::::|h[皱皮护腕]|h|r",
+			["ID"] = 9777,
+			["Level"] = 19,
+			["Link"] = "|cff1eff00|Hitem:9777::::::95:654225792:21:::::::::|h[精神之歹徒护腕]|h|r",
 		},
 		[5] = {
-			["ID"] = 6085,
-			["Level"] = 13,
-			["Link"] = "|cff1eff00|Hitem:6085::::::::12:::::::::|h[步兵外衣]|h|r",
+			["ID"] = 2317,
+			["Level"] = 20,
+			["Link"] = "|cff1eff00|Hitem:2317::::::::16:::::::::|h[黑皮外套]|h|r",
 		},
 		[10] = {
-			["ID"] = 1359,
-			["Level"] = 8,
-			["Link"] = "|cffffffff|Hitem:1359::::::::7:::::::::|h[獅紋手套]|h|r",
-		},
-		[6] = {
-			["ID"] = 2186,
-			["Level"] = 5,
-			["Link"] = "|cffffffff|Hitem:2186::::::::6:::::::::|h[旅行腰帶]|h|r",
-		},
-		[17] = {
-			["ID"] = 2078,
-			["Level"] = 18,
-			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff1eff00|Hitem:2078::::::23:1748457344:13:::::::::|h[力量之北地短剑]|h|r",
+			["ID"] = 2988,
+			["Level"] = 19,
+			["Link"] = "|cff1eff00|Hitem:2988::::::::16:::::::::|h[铭文皮手套]|h|r",
 		},
 		[18] = {
 			["ID"] = 28979,
 			["Level"] = 3,
 			["Link"] = "|cffffffff|Hitem:28979::::::::1:::::::::|h[輕型飛刀]|h|r",
 		},
+		[11] = {
+			["ID"] = 2043,
+			["Level"] = 35,
+			["AlsoFitsIn"] = 12,
+			["Link"] = "|cff0070dd|Hitem:2043::::::::31:::::::::|h[弃灵之戒]|h|r",
+		},
+		[6] = {
+			["ID"] = 4249,
+			["Level"] = 25,
+			["Link"] = "|cff1eff00|Hitem:4249::::::::27:::::::::|h[黑皮腰带]|h|r",
+		},
+		[12] = {
+			["ID"] = 30420,
+			["Level"] = 29,
+			["AlsoFitsIn"] = 11,
+			["Link"] = "|cff1eff00|Hitem:30420::::::::28:::::::::|h[重型翡翠戒指]|h|r",
+		},
+		[17] = {
+			["ID"] = 13033,
+			["Level"] = 34,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cff0070dd|Hitem:13033::::::::31:::::::::|h[狂热之刃]|h|r",
+		},
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "特变电工-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
