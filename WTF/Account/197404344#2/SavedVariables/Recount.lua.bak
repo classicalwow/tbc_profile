@@ -8,13 +8,12 @@ RecountDB = {
 		["特变电工 - 祈福"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -496.0558624267578,
-					["x"] = -465.83349609375,
-					["w"] = 209,
+					["y"] = -466.4998779296875,
+					["x"] = 489.554931640625,
+					["w"] = 209.0000152587891,
 					["h"] = 191,
 				},
 			},
-			["MainWindowHeight"] = 191.111083984375,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -25,9 +24,10 @@ RecountDB = {
 					},
 				},
 			},
-			["LastInstanceName"] = "死亡矿井",
+			["LastInstanceName"] = "暴风城监狱",
 			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 209.4445648193359,
+			["MainWindowHeight"] = 191.111083984375,
 		},
 		["Vscode - 加丁"] = {
 			["MainWindow"] = {

@@ -9,6 +9,15 @@ __DEJUNK_SAVED_VARIABLES__ = {
 			["version"] = 3,
 		},
 		["特变电工-祈福"] = {
+			["destroy"] = {
+				["autoOpen"] = {
+					["enabled"] = true,
+					["value"] = 16,
+				},
+				["inclusions"] = {
+					["5504"] = true,
+				},
+			},
 			["version"] = 3,
 		},
 	},

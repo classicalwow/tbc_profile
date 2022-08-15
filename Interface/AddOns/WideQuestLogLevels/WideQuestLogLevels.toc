@@ -1,0 +1,5 @@
+## Interface: 20504
+## Title: Wide Quest Log Levels
+## Author: clonevince
+## Notes: Adds Level Badges to the Quest Log Overview
+WideQuestLogLevels.lua

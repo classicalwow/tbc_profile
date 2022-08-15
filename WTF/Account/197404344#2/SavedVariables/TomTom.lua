@@ -35,12 +35,19 @@ TomTomWaypointsM = {
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
-			[1431] = {
-				["1431:350000000:800000000:扎克乌尔"] = {
-					1431, -- [1]
-					0.35, -- [2]
-					0.8, -- [3]
+			[1417] = {
+				["1417:458190709.04645:454523227.38386:奥斯莱特元帅"] = {
+					1417, -- [1]
+					0.4581907090464548, -- [2]
+					0.4545232273838631, -- [3]
 					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "奥斯莱特元帅",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "奥斯莱特元帅",
+					["from"] = "?",
 					["callbacks"] = {
 						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
@@ -57,12 +64,7 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
-					["persistent"] = true,
 					["minimap"] = true,
-					["cleardistance"] = 10,
-					["title"] = "扎克乌尔",
-					["from"] = "?",
-					["crazy"] = true,
 					["world"] = true,
 				},
 			},

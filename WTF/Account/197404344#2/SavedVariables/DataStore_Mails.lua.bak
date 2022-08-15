@@ -7,50 +7,8 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.祈福.特变电工"] = {
-				["lastUpdate"] = 1660395886,
-				["Mails"] = {
-					{
-						["returned"] = false,
-						["sender"] = "特工仓库",
-						["itemID"] = 2459,
-						["link"] = "|cffffffff|Hitem:2459::::::::24:::::::::|h[迅捷药水]|h|r",
-						["count"] = 5,
-						["lastCheck"] = 1660395886,
-						["icon"] = 134875,
-						["daysLeft"] = 30.99688720703125,
-					}, -- [1]
-					{
-						["returned"] = false,
-						["sender"] = "特工仓库",
-						["itemID"] = 2459,
-						["link"] = "|cffffffff|Hitem:2459::::::::24:::::::::|h[迅捷药水]|h|r",
-						["count"] = 5,
-						["lastCheck"] = 1660395886,
-						["icon"] = 134875,
-						["daysLeft"] = 30.99688720703125,
-					}, -- [2]
-					{
-						["returned"] = false,
-						["sender"] = "特工仓库",
-						["itemID"] = 2459,
-						["link"] = "|cffffffff|Hitem:2459::::::::24:::::::::|h[迅捷药水]|h|r",
-						["count"] = 5,
-						["lastCheck"] = 1660395886,
-						["icon"] = 134875,
-						["daysLeft"] = 30.99688720703125,
-					}, -- [3]
-					{
-						["returned"] = false,
-						["sender"] = "特工仓库",
-						["itemID"] = 1710,
-						["link"] = "|cffffffff|Hitem:1710::::::::24:::::::::|h[强效治疗药水]|h|r",
-						["count"] = 3,
-						["lastCheck"] = 1660395886,
-						["icon"] = 134832,
-						["daysLeft"] = 30.99688720703125,
-					}, -- [4]
-				},
-				["lastVisitDate"] = "2022/08/13 21:04",
+				["lastUpdate"] = 1660447899,
+				["lastVisitDate"] = "2022/08/14 11:31",
 			},
 		},
 	},
