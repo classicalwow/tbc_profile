@@ -1,10 +1,10 @@
 
 AtlasLootClassicDB = {
-	["global"] = {
-		["__addonrevision"] = 2040004,
-	},
 	["profileKeys"] = {
 		["特变电工 - 祈福"] = "特变电工 - 祈福",
+	},
+	["global"] = {
+		["__addonrevision"] = 2040004,
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
@@ -12,8 +12,8 @@ AtlasLootClassicDB = {
 				["selectedGameVersion"] = 1,
 				["selected"] = {
 					nil, -- [1]
-					"TheTempleOfAtal'Hakkar", -- [2]
-					nil, -- [3]
+					"RazorfenDowns", -- [2]
+					6, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},

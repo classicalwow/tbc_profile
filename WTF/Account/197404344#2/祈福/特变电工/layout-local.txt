@@ -55,17 +55,3 @@ X: -309
 Y: 127
 W: 87
 H: 32
-Frame: WIM3_msgFrame1
-FrameLevel: 2
-Anchor: TOP
-X: -121
-Y: -194
-W: 333
-H: 220
-Frame: WorldMapFrame
-FrameLevel: 1
-Anchor: CENTER
-X: -12
-Y: -27
-W: 1024
-H: 768

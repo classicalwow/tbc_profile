@@ -1,1197 +1,1198 @@
 
 Blizzard_Console_SavedVars = {
 	["version"] = 3,
+	["height"] = 300,
 	["messageHistory"] = {
-		{
-			"Skill 40 increased from 138 to 139", -- [1]
-			0, -- [2]
-		}, -- [1]
-		{
-			"Skill 40 increased from 139 to 140", -- [1]
-			0, -- [2]
-		}, -- [2]
-		{
-			"Skill 40 increased from 140 to 141", -- [1]
-			0, -- [2]
-		}, -- [3]
-		{
-			"Skill 40 increased from 141 to 142", -- [1]
-			0, -- [2]
-		}, -- [4]
-		{
-			"Skill 40 increased from 142 to 143", -- [1]
-			0, -- [2]
-		}, -- [5]
-		{
-			"Skill 40 increased from 143 to 144", -- [1]
-			0, -- [2]
-		}, -- [6]
-		{
-			"Skill 40 increased from 144 to 145", -- [1]
-			0, -- [2]
-		}, -- [7]
-		{
-			"Skill 40 increased from 145 to 146", -- [1]
-			0, -- [2]
-		}, -- [8]
-		{
-			"Skill 40 increased from 146 to 147", -- [1]
-			0, -- [2]
-		}, -- [9]
-		{
-			"Skill 40 increased from 147 to 148", -- [1]
-			0, -- [2]
-		}, -- [10]
-		{
-			"Skill 40 increased from 148 to 149", -- [1]
-			0, -- [2]
-		}, -- [11]
-		{
-			"Skill 40 increased from 149 to 150", -- [1]
-			0, -- [2]
-		}, -- [12]
-		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
-			0, -- [2]
-		}, -- [13]
-		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
-			0, -- [2]
-		}, -- [14]
-		{
-			"Skill 173 increased from 85 to 86", -- [1]
-			0, -- [2]
-		}, -- [15]
-		{
-			"Skill 173 increased from 86 to 87", -- [1]
-			0, -- [2]
-		}, -- [16]
-		{
-			"Skill 173 increased from 87 to 88", -- [1]
-			0, -- [2]
-		}, -- [17]
-		{
-			"Skill 173 increased from 88 to 89", -- [1]
-			0, -- [2]
-		}, -- [18]
-		{
-			"Skill 173 increased from 89 to 90", -- [1]
-			0, -- [2]
-		}, -- [19]
-		{
-			"Skill 173 increased from 90 to 91", -- [1]
-			0, -- [2]
-		}, -- [20]
-		{
-			"Skill 173 increased from 91 to 92", -- [1]
-			0, -- [2]
-		}, -- [21]
-		{
-			"Skill 95 increased from 142 to 143", -- [1]
-			0, -- [2]
-		}, -- [22]
-		{
-			"Skill 173 increased from 92 to 93", -- [1]
-			0, -- [2]
-		}, -- [23]
-		{
-			"Skill 173 increased from 93 to 94", -- [1]
-			0, -- [2]
-		}, -- [24]
-		{
-			"Skill 176 increased from 138 to 139", -- [1]
-			0, -- [2]
-		}, -- [25]
-		{
-			"Skill 173 increased from 94 to 95", -- [1]
-			0, -- [2]
-		}, -- [26]
-		{
-			"Skill 173 increased from 95 to 96", -- [1]
-			0, -- [2]
-		}, -- [27]
-		{
-			"Skill 173 increased from 96 to 97", -- [1]
-			0, -- [2]
-		}, -- [28]
-		{
-			"Skill 173 increased from 97 to 98", -- [1]
-			0, -- [2]
-		}, -- [29]
-		{
-			"Skill 173 increased from 98 to 99", -- [1]
-			0, -- [2]
-		}, -- [30]
-		{
-			"Skill 173 increased from 99 to 100", -- [1]
-			0, -- [2]
-		}, -- [31]
-		{
-			"Skill 173 increased from 100 to 101", -- [1]
-			0, -- [2]
-		}, -- [32]
-		{
-			"Skill 173 increased from 101 to 102", -- [1]
-			0, -- [2]
-		}, -- [33]
-		{
-			"Skill 43 increased from 145 to 146", -- [1]
-			0, -- [2]
-		}, -- [34]
-		{
-			"Skill 173 increased from 102 to 103", -- [1]
-			0, -- [2]
-		}, -- [35]
-		{
-			"Skill 173 increased from 103 to 104", -- [1]
-			0, -- [2]
-		}, -- [36]
-		{
-			"Skill 173 increased from 104 to 105", -- [1]
-			0, -- [2]
-		}, -- [37]
-		{
-			"Skill 173 increased from 105 to 106", -- [1]
-			0, -- [2]
-		}, -- [38]
-		{
-			"Skill 173 increased from 106 to 107", -- [1]
-			0, -- [2]
-		}, -- [39]
-		{
-			"Skill 43 increased from 146 to 147", -- [1]
-			0, -- [2]
-		}, -- [40]
-		{
-			"Skill 173 increased from 107 to 108", -- [1]
-			0, -- [2]
-		}, -- [41]
-		{
-			"Skill 173 increased from 108 to 109", -- [1]
-			0, -- [2]
-		}, -- [42]
-		{
-			"Skill 173 increased from 109 to 110", -- [1]
-			0, -- [2]
-		}, -- [43]
-		{
-			"Skill 173 increased from 110 to 111", -- [1]
-			0, -- [2]
-		}, -- [44]
-		{
-			"Skill 173 increased from 111 to 112", -- [1]
-			0, -- [2]
-		}, -- [45]
-		{
-			"Skill 173 increased from 112 to 113", -- [1]
-			0, -- [2]
-		}, -- [46]
-		{
-			"Skill 173 increased from 113 to 114", -- [1]
-			0, -- [2]
-		}, -- [47]
-		{
-			"Skill 176 increased from 139 to 140", -- [1]
-			0, -- [2]
-		}, -- [48]
-		{
-			"Skill 173 increased from 114 to 115", -- [1]
-			0, -- [2]
-		}, -- [49]
-		{
-			"Skill 173 increased from 115 to 116", -- [1]
-			0, -- [2]
-		}, -- [50]
-		{
-			"Skill 95 increased from 143 to 144", -- [1]
-			0, -- [2]
-		}, -- [51]
-		{
-			"Skill 173 increased from 116 to 117", -- [1]
-			0, -- [2]
-		}, -- [52]
-		{
-			"Skill 173 increased from 117 to 118", -- [1]
-			0, -- [2]
-		}, -- [53]
-		{
-			"Skill 43 increased from 147 to 148", -- [1]
-			0, -- [2]
-		}, -- [54]
-		{
-			"Skill 173 increased from 118 to 119", -- [1]
-			0, -- [2]
-		}, -- [55]
-		{
-			"Skill 173 increased from 119 to 120", -- [1]
-			0, -- [2]
-		}, -- [56]
-		{
-			"Skill 173 increased from 120 to 121", -- [1]
-			0, -- [2]
-		}, -- [57]
-		{
-			"Skill 173 increased from 121 to 122", -- [1]
-			0, -- [2]
-		}, -- [58]
-		{
-			"Skill 173 increased from 122 to 123", -- [1]
-			0, -- [2]
-		}, -- [59]
-		{
-			"Skill 173 increased from 123 to 124", -- [1]
-			0, -- [2]
-		}, -- [60]
-		{
-			"Skill 173 increased from 124 to 125", -- [1]
-			0, -- [2]
-		}, -- [61]
-		{
-			"Skill 173 increased from 125 to 126", -- [1]
-			0, -- [2]
-		}, -- [62]
-		{
-			"Skill 95 increased from 144 to 145", -- [1]
-			0, -- [2]
-		}, -- [63]
-		{
-			"Skill 43 increased from 148 to 149", -- [1]
-			0, -- [2]
-		}, -- [64]
-		{
-			"Skill 173 increased from 126 to 127", -- [1]
-			0, -- [2]
-		}, -- [65]
-		{
-			"Skill 176 increased from 140 to 141", -- [1]
-			0, -- [2]
-		}, -- [66]
-		{
-			"Skill 173 increased from 127 to 128", -- [1]
-			0, -- [2]
-		}, -- [67]
-		{
-			"Skill 173 increased from 128 to 129", -- [1]
-			0, -- [2]
-		}, -- [68]
-		{
-			"Skill 176 increased from 141 to 142", -- [1]
-			0, -- [2]
-		}, -- [69]
-		{
-			"Skill 173 increased from 129 to 130", -- [1]
-			0, -- [2]
-		}, -- [70]
-		{
-			"Skill 173 increased from 130 to 131", -- [1]
-			0, -- [2]
-		}, -- [71]
-		{
-			"Skill 176 increased from 142 to 143", -- [1]
-			0, -- [2]
-		}, -- [72]
-		{
-			"Skill 173 increased from 131 to 132", -- [1]
-			0, -- [2]
-		}, -- [73]
-		{
-			"Skill 173 increased from 132 to 133", -- [1]
-			0, -- [2]
-		}, -- [74]
-		{
-			"Skill 173 increased from 133 to 134", -- [1]
-			0, -- [2]
-		}, -- [75]
-		{
-			"Skill 176 increased from 143 to 144", -- [1]
-			0, -- [2]
-		}, -- [76]
-		{
-			"Skill 173 increased from 134 to 135", -- [1]
-			0, -- [2]
-		}, -- [77]
-		{
-			"Skill 173 increased from 135 to 136", -- [1]
-			0, -- [2]
-		}, -- [78]
-		{
-			"Skill 176 increased from 144 to 145", -- [1]
-			0, -- [2]
-		}, -- [79]
-		{
-			"Skill 173 increased from 136 to 137", -- [1]
-			0, -- [2]
-		}, -- [80]
-		{
-			"Skill 173 increased from 137 to 138", -- [1]
-			0, -- [2]
-		}, -- [81]
-		{
-			"Skill 95 increased from 145 to 146", -- [1]
-			0, -- [2]
-		}, -- [82]
-		{
-			"Skill 173 increased from 138 to 139", -- [1]
-			0, -- [2]
-		}, -- [83]
-		{
-			"Skill 43 increased from 149 to 150", -- [1]
-			0, -- [2]
-		}, -- [84]
-		{
-			"Skill 173 increased from 139 to 140", -- [1]
-			0, -- [2]
-		}, -- [85]
-		{
-			"Skill 176 increased from 145 to 146", -- [1]
-			0, -- [2]
-		}, -- [86]
-		{
-			"Skill 173 increased from 140 to 141", -- [1]
-			0, -- [2]
-		}, -- [87]
-		{
-			"Skill 173 increased from 141 to 142", -- [1]
-			0, -- [2]
-		}, -- [88]
-		{
-			"Skill 176 increased from 146 to 147", -- [1]
-			0, -- [2]
-		}, -- [89]
-		{
-			"Skill 173 increased from 142 to 143", -- [1]
-			0, -- [2]
-		}, -- [90]
-		{
-			"Skill 95 increased from 146 to 147", -- [1]
-			0, -- [2]
-		}, -- [91]
-		{
-			"Skill 173 increased from 143 to 144", -- [1]
-			0, -- [2]
-		}, -- [92]
-		{
-			"Skill 173 increased from 144 to 145", -- [1]
-			0, -- [2]
-		}, -- [93]
-		{
-			"Skill 176 increased from 147 to 148", -- [1]
-			0, -- [2]
-		}, -- [94]
-		{
-			"Skill 173 increased from 145 to 146", -- [1]
-			0, -- [2]
-		}, -- [95]
-		{
-			"Skill 38 increased from 150 to 155", -- [1]
-			0, -- [2]
-		}, -- [96]
-		{
-			"Skill 39 increased from 150 to 155", -- [1]
-			0, -- [2]
-		}, -- [97]
-		{
-			"Skill 118 increased from 150 to 155", -- [1]
-			0, -- [2]
-		}, -- [98]
-		{
-			"Skill 183 increased from 150 to 155", -- [1]
-			0, -- [2]
-		}, -- [99]
-		{
-			"Skill 253 increased from 150 to 155", -- [1]
-			0, -- [2]
-		}, -- [100]
-		{
-			"Skill 754 increased from 150 to 155", -- [1]
-			0, -- [2]
-		}, -- [101]
-		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
-			0, -- [2]
-		}, -- [102]
-		{
-			"[GlueLogin] Explicitly disconnecting from realm server", -- [1]
-			0, -- [2]
-		}, -- [103]
-		{
-			"Disconnecting for reason 14", -- [1]
-			0, -- [2]
-		}, -- [104]
-		{
-			"NetClient::HandleDisconnect()\n", -- [1]
-			0, -- [2]
-		}, -- [105]
-		{
-			"[IBN_BackInterface] Session with Battle.net destroyed.", -- [1]
-			0, -- [2]
-		}, -- [106]
-		{
-			"[GlueLogin] Disconnected from WoWpreviouslyConnected=\"false\"", -- [1]
-			0, -- [2]
-		}, -- [107]
-		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
-			0, -- [2]
-		}, -- [108]
-		{
-			"Sorting particles normally.", -- [1]
-			0, -- [2]
-		}, -- [109]
-		{
-			"Multithreaded rendering enabled.", -- [1]
-			0, -- [2]
-		}, -- [110]
-		{
-			"Multithreaded BeginDraw enabled.", -- [1]
-			0, -- [2]
-		}, -- [111]
-		{
-			"Multithread shadows changed to 1.", -- [1]
-			0, -- [2]
-		}, -- [112]
-		{
-			"Multithreaded prepass enabled.", -- [1]
-			0, -- [2]
-		}, -- [113]
-		{
-			"Multithreaded opaque pass enabled.", -- [1]
-			0, -- [2]
-		}, -- [114]
-		{
-			"Multithreaded opaque pass enabled.", -- [1]
-			0, -- [2]
-		}, -- [115]
-		{
-			"Multithreaded alpha M2 pass enabled.", -- [1]
-			0, -- [2]
-		}, -- [116]
-		{
-			"Multithreaded opaque WMO pass enabled.", -- [1]
-			0, -- [2]
-		}, -- [117]
-		{
-			"Multithreaded terrain pass enabled.", -- [1]
-			0, -- [2]
-		}, -- [118]
-		{
-			"Water detail changed to 3", -- [1]
-			0, -- [2]
-		}, -- [119]
-		{
-			"Ripple detail changed to 2", -- [1]
-			0, -- [2]
-		}, -- [120]
-		{
-			"Reflection mode changed to 3", -- [1]
-			0, -- [2]
-		}, -- [121]
-		{
-			"Reflection downscale changed to 0", -- [1]
-			0, -- [2]
-		}, -- [122]
-		{
-			"Sunshafts quality changed to 2", -- [1]
-			0, -- [2]
-		}, -- [123]
-		{
-			"Enabling BSP node cache (first time - starting up)", -- [1]
-			0, -- [2]
-		}, -- [124]
-		{
-			"Projected textures enabled.", -- [1]
-			0, -- [2]
-		}, -- [125]
-		{
-			"Spell Clutter set to dynamic", -- [1]
-			0, -- [2]
-		}, -- [126]
-		{
-			"Shadow mode changed to 4 - 4 band dynamic shadows on units and terrain, 2048", -- [1]
-			0, -- [2]
-		}, -- [127]
-		{
-			"Shadow texture size changed to 2048.", -- [1]
-			0, -- [2]
-		}, -- [128]
 		{
 			"Soft shadows changed to 1.", -- [1]
 			0, -- [2]
-		}, -- [129]
+		}, -- [1]
 		{
 			"Shadow RT mode changed to 1 (Fair) - Reduced-resolution directional light shadows", -- [1]
 			0, -- [2]
-		}, -- [130]
+		}, -- [2]
 		{
 			"maxLightCount must be in range 0 to 32.", -- [1]
 			0, -- [2]
-		}, -- [131]
+		}, -- [3]
 		{
 			"CVar 'maxLightCount' failed validation for its initial value.", -- [1]
 			0, -- [2]
-		}, -- [132]
+		}, -- [4]
 		{
 			"SSAO mode set to 4", -- [1]
 			0, -- [2]
-		}, -- [133]
+		}, -- [5]
 		{
 			"SSAO type set to 0", -- [1]
 			0, -- [2]
-		}, -- [134]
+		}, -- [6]
 		{
 			"SkyCloudLOD set to 0", -- [1]
 			0, -- [2]
-		}, -- [135]
+		}, -- [7]
 		{
 			"Texture filtering mode updated.", -- [1]
 			0, -- [2]
-		}, -- [136]
+		}, -- [8]
 		{
 			"Terrain mip level changed to 0.", -- [1]
 			0, -- [2]
-		}, -- [137]
+		}, -- [9]
 		{
 			"Render scale changed to 1", -- [1]
 			0, -- [2]
-		}, -- [138]
+		}, -- [10]
 		{
 			"Resample quality changed to 1", -- [1]
 			0, -- [2]
-		}, -- [139]
+		}, -- [11]
 		{
 			"MSAA set to 2 color samples, 2 coverage samples", -- [1]
 			0, -- [2]
-		}, -- [140]
+		}, -- [12]
 		{
 			"MSAA for alpha-test enabled.", -- [1]
 			0, -- [2]
-		}, -- [141]
+		}, -- [13]
 		{
 			"lodObjectSizeScale cannot be changed.", -- [1]
 			0, -- [2]
-		}, -- [142]
+		}, -- [14]
 		{
 			"dynamicLod enabled", -- [1]
 			0, -- [2]
-		}, -- [143]
+		}, -- [15]
 		{
 			"World preload object sort enabled.", -- [1]
 			0, -- [2]
-		}, -- [144]
+		}, -- [16]
 		{
 			"World load object sort enabled.", -- [1]
 			0, -- [2]
-		}, -- [145]
+		}, -- [17]
 		{
 			"World preload non critical enabled.", -- [1]
 			0, -- [2]
-		}, -- [146]
+		}, -- [18]
 		{
 			"World preload high res textures enabled.", -- [1]
 			0, -- [2]
-		}, -- [147]
+		}, -- [19]
 		{
 			"FFX: Color Blind Test Mode Disabled", -- [1]
 			0, -- [2]
-		}, -- [148]
+		}, -- [20]
 		{
 			"Full memory crash dump disabled", -- [1]
 			0, -- [2]
-		}, -- [149]
+		}, -- [21]
 		{
 			"Error display disabled", -- [1]
 			0, -- [2]
-		}, -- [150]
+		}, -- [22]
 		{
 			"Error display shown", -- [1]
 			0, -- [2]
-		}, -- [151]
+		}, -- [23]
 		{
 			"Displaying errors through fatal errors", -- [1]
 			0, -- [2]
-		}, -- [152]
+		}, -- [24]
 		{
 			"Displaying errors through fatal errors", -- [1]
 			0, -- [2]
-		}, -- [153]
+		}, -- [25]
 		{
 			"Now filtering: all messages", -- [1]
 			0, -- [2]
-		}, -- [154]
+		}, -- [26]
 		{
 			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
-		}, -- [155]
+		}, -- [27]
 		{
 			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
-		}, -- [156]
+		}, -- [28]
 		{
 			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
-		}, -- [157]
+		}, -- [29]
 		{
 			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
-		}, -- [158]
-		{
-			"GamePad input enabled.", -- [1]
-			0, -- [2]
-		}, -- [159]
-		{
-			"[GlueLogin] Starting loginlauncherPortal=\"cn.actual.battle.net\" loginPortal=\"cn.actual.battle.net:1119\"", -- [1]
-			0, -- [2]
-		}, -- [160]
-		{
-			"[GlueLogin] Resetting", -- [1]
-			0, -- [2]
-		}, -- [161]
-		{
-			"[IBN_Login] Initializing", -- [1]
-			0, -- [2]
-		}, -- [162]
-		{
-			"[IBN_Login] Attempting logonhost=\"cn.actual.battle.net\" port=\"1119\"", -- [1]
-			0, -- [2]
-		}, -- [163]
-		{
-			"[GlueLogin] Waiting for server response.", -- [1]
-			0, -- [2]
-		}, -- [164]
-		{
-			"[GlueLogin] Waiting for server response.", -- [1]
-			0, -- [2]
-		}, -- [165]
-		{
-			"[GlueLogin] Waiting for server response.", -- [1]
-			0, -- [2]
-		}, -- [166]
-		{
-			"[GlueLogin] Logon complete.", -- [1]
-			0, -- [2]
-		}, -- [167]
-		{
-			"[GlueLogin] Reconnect token saved; creationTime=\"1660443157\" expirationTime=\"1660457557\"", -- [1]
-			0, -- [2]
-		}, -- [168]
-		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
-			0, -- [2]
-		}, -- [169]
-		{
-			"[IBN_Login] Requesting realm list ticket", -- [1]
-			0, -- [2]
-		}, -- [170]
-		{
-			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
-			0, -- [2]
-		}, -- [171]
-		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
-			0, -- [2]
-		}, -- [172]
-		{
-			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
-			0, -- [2]
-		}, -- [173]
-		{
-			"[IBN_Login] Requesting last played charsnumSubRegions=\"2\"", -- [1]
-			0, -- [2]
-		}, -- [174]
-		{
-			"[GlueLogin] Realm list ready.", -- [1]
-			0, -- [2]
-		}, -- [175]
-		{
-			"[IBN_Login] Joining realmsubRegion=\"45-1-89\" realmAddress=\"45-1-26\"", -- [1]
-			0, -- [2]
-		}, -- [176]
-		{
-			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
-			0, -- [2]
-		}, -- [177]
-		{
-			"NetClient::HandleConnect()\n", -- [1]
-			0, -- [2]
-		}, -- [178]
-		{
-			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
-			0, -- [2]
-		}, -- [179]
-		{
-			"Got new connection 2", -- [1]
-			0, -- [2]
-		}, -- [180]
-		{
-			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
-			0, -- [2]
-		}, -- [181]
-		{
-			"[GlueLogin] Disconnecting from authentication server.", -- [1]
-			0, -- [2]
-		}, -- [182]
-		{
-			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
-			0, -- [2]
-		}, -- [183]
-		{
-			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
-			0, -- [2]
-		}, -- [184]
-		{
-			"[GlueLogin] Disconnected from authentication server.", -- [1]
-			0, -- [2]
-		}, -- [185]
-		{
-			"[WowEntitlements] [BNetAccount-0-00000BC426B8] [WowAccount-0-000004FE320E] Initialized with 2 entitlements.", -- [1]
-			0, -- [2]
-		}, -- [186]
-		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
-			0, -- [2]
-		}, -- [187]
-		{
-			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
-			0, -- [2]
-		}, -- [188]
-		{
-			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
-			0, -- [2]
-		}, -- [189]
-		{
-			"Got new connection 3", -- [1]
-			0, -- [2]
-		}, -- [190]
-		{
-			"Proficiency in item class 2 set to 0x0000000080", -- [1]
-			0, -- [2]
-		}, -- [191]
-		{
-			"Proficiency in item class 2 set to 0x0000008080", -- [1]
-			0, -- [2]
-		}, -- [192]
-		{
-			"Proficiency in item class 2 set to 0x0000018080", -- [1]
-			0, -- [2]
-		}, -- [193]
-		{
-			"Proficiency in item class 4 set to 0x0000000001", -- [1]
-			0, -- [2]
-		}, -- [194]
-		{
-			"Proficiency in item class 2 set to 0x000001c080", -- [1]
-			0, -- [2]
-		}, -- [195]
-		{
-			"Proficiency in item class 2 set to 0x000005c080", -- [1]
-			0, -- [2]
-		}, -- [196]
-		{
-			"Proficiency in item class 4 set to 0x0000000005", -- [1]
-			0, -- [2]
-		}, -- [197]
-		{
-			"Proficiency in item class 4 set to 0x0000000007", -- [1]
-			0, -- [2]
-		}, -- [198]
-		{
-			"Proficiency in item class 2 set to 0x000005c080", -- [1]
-			0, -- [2]
-		}, -- [199]
-		{
-			"Proficiency in item class 4 set to 0x0000000007", -- [1]
-			0, -- [2]
-		}, -- [200]
-		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
-			0, -- [2]
-		}, -- [201]
-		{
-			"Time set to 8/14/2022 (Sun) 10:13", -- [1]
-			0, -- [2]
-		}, -- [202]
-		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
-			0, -- [2]
-		}, -- [203]
-		{
-			"Value out of range (1.000000 - 4.000000)\n", -- [1]
-			0, -- [2]
-		}, -- [204]
-		{
-			"Time played:", -- [1]
-			0, -- [2]
-		}, -- [205]
-		{
-			"Total: 0d 20h 37m 18s", -- [1]
-			0, -- [2]
-		}, -- [206]
-		{
-			"Level: 0d 0h 1m 35s", -- [1]
-			0, -- [2]
-		}, -- [207]
-		{
-			"[GlueLogin] Fatal error while logging inresult=\"( code=\" (325)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
-			0, -- [2]
-		}, -- [208]
-		{
-			"Skill 95 increased from 147 to 148", -- [1]
-			0, -- [2]
-		}, -- [209]
-		{
-			"Skill 43 increased from 150 to 151", -- [1]
-			0, -- [2]
-		}, -- [210]
-		{
-			"Skill 173 increased from 146 to 147", -- [1]
-			0, -- [2]
-		}, -- [211]
-		{
-			"Skill 173 increased from 147 to 148", -- [1]
-			0, -- [2]
-		}, -- [212]
-		{
-			"Skill 176 increased from 148 to 149", -- [1]
-			0, -- [2]
-		}, -- [213]
-		{
-			"Skill 95 increased from 148 to 149", -- [1]
-			0, -- [2]
-		}, -- [214]
-		{
-			"Skill 43 increased from 151 to 152", -- [1]
-			0, -- [2]
-		}, -- [215]
-		{
-			"Skill 173 increased from 148 to 149", -- [1]
-			0, -- [2]
-		}, -- [216]
-		{
-			"Skill 176 increased from 149 to 150", -- [1]
-			0, -- [2]
-		}, -- [217]
-		{
-			"Skill 43 increased from 152 to 153", -- [1]
-			0, -- [2]
-		}, -- [218]
-		{
-			"Skill 173 increased from 149 to 150", -- [1]
-			0, -- [2]
-		}, -- [219]
-		{
-			"Skill 95 increased from 149 to 150", -- [1]
-			0, -- [2]
-		}, -- [220]
-		{
-			"Skill 43 increased from 153 to 154", -- [1]
-			0, -- [2]
-		}, -- [221]
-		{
-			"Skill 173 increased from 150 to 151", -- [1]
-			0, -- [2]
-		}, -- [222]
-		{
-			"Weather changed to 2, intensity 0.500000\n", -- [1]
-			0, -- [2]
-		}, -- [223]
-		{
-			"Got new connection 3", -- [1]
-			0, -- [2]
-		}, -- [224]
-		{
-			"Weather changed to 2, intensity 0.500000\n", -- [1]
-			0, -- [2]
-		}, -- [225]
-		{
-			"World transfer aborted (reason: 30)", -- [1]
-			0, -- [2]
-		}, -- [226]
-		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
-			0, -- [2]
-		}, -- [227]
-		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
-			0, -- [2]
-		}, -- [228]
-		{
-			"World transfer pending...", -- [1]
-			0, -- [2]
-		}, -- [229]
-		{
-			"Got new connection 3", -- [1]
-			0, -- [2]
-		}, -- [230]
-		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
-			0, -- [2]
-		}, -- [231]
+		}, -- [30]
 		{
 			"GamePad 1 connected: Controller (XBOX 360 For Windows)", -- [1]
 			0, -- [2]
-		}, -- [232]
+		}, -- [31]
 		{
-			"Skill 95 increased from 150 to 151", -- [1]
+			"GamePad input enabled.", -- [1]
 			0, -- [2]
-		}, -- [233]
+		}, -- [32]
 		{
-			"Skill 162 increased from 20 to 21", -- [1]
+			"[GlueLogin] Starting loginlauncherPortal=\"cn.actual.battle.net\" loginPortal=\"cn.actual.battle.net:1119\"", -- [1]
 			0, -- [2]
-		}, -- [234]
+		}, -- [33]
 		{
-			"Skill 173 increased from 151 to 152", -- [1]
+			"[GlueLogin] Resetting", -- [1]
 			0, -- [2]
-		}, -- [235]
+		}, -- [34]
 		{
-			"Skill 162 increased from 21 to 22", -- [1]
+			"[IBN_Login] Initializing", -- [1]
 			0, -- [2]
-		}, -- [236]
+		}, -- [35]
 		{
-			"Skill 162 increased from 22 to 23", -- [1]
+			"[IBN_Login] Attempting logonhost=\"cn.actual.battle.net\" port=\"1119\"", -- [1]
 			0, -- [2]
-		}, -- [237]
+		}, -- [36]
 		{
-			"Skill 162 increased from 23 to 24", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
-		}, -- [238]
+		}, -- [37]
 		{
-			"Skill 162 increased from 24 to 25", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
-		}, -- [239]
+		}, -- [38]
 		{
-			"Skill 162 increased from 25 to 26", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
-		}, -- [240]
+		}, -- [39]
 		{
-			"Skill 162 increased from 26 to 27", -- [1]
+			"[GlueLogin] Logon complete.", -- [1]
 			0, -- [2]
-		}, -- [241]
+		}, -- [40]
 		{
-			"Skill 162 increased from 27 to 28", -- [1]
+			"[GlueLogin] Reconnect token saved; creationTime=\"1660474390\" expirationTime=\"1660488790\"", -- [1]
 			0, -- [2]
-		}, -- [242]
+		}, -- [41]
 		{
-			"Skill 162 increased from 28 to 29", -- [1]
+			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
-		}, -- [243]
+		}, -- [42]
 		{
-			"Skill 162 increased from 29 to 30", -- [1]
+			"[IBN_Login] Requesting realm list ticket", -- [1]
 			0, -- [2]
-		}, -- [244]
+		}, -- [43]
 		{
-			"Skill 95 increased from 151 to 152", -- [1]
+			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
-		}, -- [245]
+		}, -- [44]
 		{
-			"Skill 173 increased from 152 to 153", -- [1]
+			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
-		}, -- [246]
+		}, -- [45]
 		{
-			"Skill 173 increased from 153 to 154", -- [1]
+			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
-		}, -- [247]
+		}, -- [46]
 		{
-			"Skill 95 increased from 152 to 153", -- [1]
+			"[IBN_Login] Requesting last played charsnumSubRegions=\"2\"", -- [1]
 			0, -- [2]
-		}, -- [248]
+		}, -- [47]
 		{
-			"Skill 176 increased from 150 to 151", -- [1]
+			"[GlueLogin] Realm list ready.", -- [1]
 			0, -- [2]
-		}, -- [249]
+		}, -- [48]
 		{
-			"World transfer pending...", -- [1]
+			"[IBN_Login] Joining realmsubRegion=\"45-1-89\" realmAddress=\"45-1-26\"", -- [1]
 			0, -- [2]
-		}, -- [250]
+		}, -- [49]
 		{
-			"Got new connection 3", -- [1]
+			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
-		}, -- [251]
+		}, -- [50]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"NetClient::HandleConnect()\n", -- [1]
 			0, -- [2]
-		}, -- [252]
+		}, -- [51]
 		{
-			"World transfer pending...", -- [1]
+			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
-		}, -- [253]
+		}, -- [52]
 		{
-			"Got new connection 3", -- [1]
+			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
 			0, -- [2]
-		}, -- [254]
+		}, -- [53]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[GlueLogin] Disconnecting from authentication server.", -- [1]
 			0, -- [2]
-		}, -- [255]
+		}, -- [54]
 		{
-			"World transfer pending...", -- [1]
+			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
 			0, -- [2]
-		}, -- [256]
+		}, -- [55]
 		{
-			"Got new connection 3", -- [1]
+			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
 			0, -- [2]
-		}, -- [257]
+		}, -- [56]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[GlueLogin] Disconnected from authentication server.", -- [1]
 			0, -- [2]
-		}, -- [258]
+		}, -- [57]
 		{
-			"Skill 38 increased from 155 to 160", -- [1]
+			"[WowEntitlements] [BNetAccount-0-00000BC426B8] [WowAccount-0-000004FE320E] Initialized with 2 entitlements.", -- [1]
 			0, -- [2]
-		}, -- [259]
-		{
-			"Skill 39 increased from 155 to 160", -- [1]
-			0, -- [2]
-		}, -- [260]
-		{
-			"Skill 118 increased from 155 to 160", -- [1]
-			0, -- [2]
-		}, -- [261]
-		{
-			"Skill 183 increased from 155 to 160", -- [1]
-			0, -- [2]
-		}, -- [262]
-		{
-			"Skill 253 increased from 155 to 160", -- [1]
-			0, -- [2]
-		}, -- [263]
-		{
-			"Skill 754 increased from 155 to 160", -- [1]
-			0, -- [2]
-		}, -- [264]
-		{
-			"World transfer pending...", -- [1]
-			0, -- [2]
-		}, -- [265]
-		{
-			"Got new connection 3", -- [1]
-			0, -- [2]
-		}, -- [266]
-		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
-			0, -- [2]
-		}, -- [267]
-		{
-			"Skill 162 increased from 30 to 31", -- [1]
-			0, -- [2]
-		}, -- [268]
-		{
-			"Skill 162 increased from 31 to 32", -- [1]
-			0, -- [2]
-		}, -- [269]
-		{
-			"Skill 162 increased from 32 to 33", -- [1]
-			0, -- [2]
-		}, -- [270]
-		{
-			"Skill 43 increased from 154 to 155", -- [1]
-			0, -- [2]
-		}, -- [271]
-		{
-			"Skill 95 increased from 153 to 154", -- [1]
-			0, -- [2]
-		}, -- [272]
-		{
-			"Skill 173 increased from 154 to 155", -- [1]
-			0, -- [2]
-		}, -- [273]
-		{
-			"Skill 43 increased from 155 to 156", -- [1]
-			0, -- [2]
-		}, -- [274]
-		{
-			"Skill 95 increased from 154 to 155", -- [1]
-			0, -- [2]
-		}, -- [275]
-		{
-			"Skill 43 increased from 156 to 157", -- [1]
-			0, -- [2]
-		}, -- [276]
-		{
-			"Skill 173 increased from 155 to 156", -- [1]
-			0, -- [2]
-		}, -- [277]
-		{
-			"World transfer pending...", -- [1]
-			0, -- [2]
-		}, -- [278]
-		{
-			"Got new connection 3", -- [1]
-			0, -- [2]
-		}, -- [279]
-		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
-			0, -- [2]
-		}, -- [280]
+		}, -- [58]
 		{
 			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
-		}, -- [281]
-		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
-			0, -- [2]
-		}, -- [282]
-		{
-			"Attempted to register existing command: ShowObjUsage\n", -- [1]
-			0, -- [2]
-		}, -- [283]
-		{
-			"Attempted to register existing command: SetDifficulty\n", -- [1]
-			0, -- [2]
-		}, -- [284]
+		}, -- [59]
 		{
 			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
-		}, -- [285]
+		}, -- [60]
 		{
 			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
-		}, -- [286]
+		}, -- [61]
 		{
 			"Got new connection 3", -- [1]
 			0, -- [2]
+		}, -- [62]
+		{
+			"Proficiency in item class 2 set to 0x0000000080", -- [1]
+			0, -- [2]
+		}, -- [63]
+		{
+			"Proficiency in item class 2 set to 0x0000008080", -- [1]
+			0, -- [2]
+		}, -- [64]
+		{
+			"Proficiency in item class 2 set to 0x0000018080", -- [1]
+			0, -- [2]
+		}, -- [65]
+		{
+			"Proficiency in item class 4 set to 0x0000000001", -- [1]
+			0, -- [2]
+		}, -- [66]
+		{
+			"Proficiency in item class 2 set to 0x000001c080", -- [1]
+			0, -- [2]
+		}, -- [67]
+		{
+			"Proficiency in item class 2 set to 0x000005c080", -- [1]
+			0, -- [2]
+		}, -- [68]
+		{
+			"Proficiency in item class 4 set to 0x0000000005", -- [1]
+			0, -- [2]
+		}, -- [69]
+		{
+			"Proficiency in item class 4 set to 0x0000000007", -- [1]
+			0, -- [2]
+		}, -- [70]
+		{
+			"Proficiency in item class 2 set to 0x000005c080", -- [1]
+			0, -- [2]
+		}, -- [71]
+		{
+			"Proficiency in item class 4 set to 0x0000000007", -- [1]
+			0, -- [2]
+		}, -- [72]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [73]
+		{
+			"Time set to 8/14/2022 (Sun) 18:53", -- [1]
+			0, -- [2]
+		}, -- [74]
+		{
+			"Gamespeed set from 0.017 to 0.017", -- [1]
+			0, -- [2]
+		}, -- [75]
+		{
+			"Value out of range (1.000000 - 4.000000)\n", -- [1]
+			0, -- [2]
+		}, -- [76]
+		{
+			"Time played:", -- [1]
+			0, -- [2]
+		}, -- [77]
+		{
+			"Total: 0d 22h 43m 25s", -- [1]
+			0, -- [2]
+		}, -- [78]
+		{
+			"Level: 0d 0h 3m 9s", -- [1]
+			0, -- [2]
+		}, -- [79]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [80]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [81]
+		{
+			"[GlueLogin] Explicitly disconnecting from realm server", -- [1]
+			0, -- [2]
+		}, -- [82]
+		{
+			"Disconnecting for reason 14", -- [1]
+			0, -- [2]
+		}, -- [83]
+		{
+			"NetClient::HandleDisconnect()\n", -- [1]
+			0, -- [2]
+		}, -- [84]
+		{
+			"[IBN_BackInterface] Session with Battle.net destroyed.", -- [1]
+			0, -- [2]
+		}, -- [85]
+		{
+			"[GlueLogin] Disconnected from WoWpreviouslyConnected=\"false\"", -- [1]
+			0, -- [2]
+		}, -- [86]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [87]
+		{
+			"Sorting particles normally.", -- [1]
+			0, -- [2]
+		}, -- [88]
+		{
+			"Multithreaded rendering enabled.", -- [1]
+			0, -- [2]
+		}, -- [89]
+		{
+			"Multithreaded BeginDraw enabled.", -- [1]
+			0, -- [2]
+		}, -- [90]
+		{
+			"Multithread shadows changed to 1.", -- [1]
+			0, -- [2]
+		}, -- [91]
+		{
+			"Multithreaded prepass enabled.", -- [1]
+			0, -- [2]
+		}, -- [92]
+		{
+			"Multithreaded opaque pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [93]
+		{
+			"Multithreaded opaque pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [94]
+		{
+			"Multithreaded alpha M2 pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [95]
+		{
+			"Multithreaded opaque WMO pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [96]
+		{
+			"Multithreaded terrain pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [97]
+		{
+			"Water detail changed to 3", -- [1]
+			0, -- [2]
+		}, -- [98]
+		{
+			"Ripple detail changed to 2", -- [1]
+			0, -- [2]
+		}, -- [99]
+		{
+			"Reflection mode changed to 3", -- [1]
+			0, -- [2]
+		}, -- [100]
+		{
+			"Reflection downscale changed to 0", -- [1]
+			0, -- [2]
+		}, -- [101]
+		{
+			"Sunshafts quality changed to 2", -- [1]
+			0, -- [2]
+		}, -- [102]
+		{
+			"Enabling BSP node cache (first time - starting up)", -- [1]
+			0, -- [2]
+		}, -- [103]
+		{
+			"Projected textures enabled.", -- [1]
+			0, -- [2]
+		}, -- [104]
+		{
+			"Spell Clutter set to dynamic", -- [1]
+			0, -- [2]
+		}, -- [105]
+		{
+			"Shadow mode changed to 4 - 4 band dynamic shadows on units and terrain, 2048", -- [1]
+			0, -- [2]
+		}, -- [106]
+		{
+			"Shadow texture size changed to 2048.", -- [1]
+			0, -- [2]
+		}, -- [107]
+		{
+			"Soft shadows changed to 1.", -- [1]
+			0, -- [2]
+		}, -- [108]
+		{
+			"Shadow RT mode changed to 1 (Fair) - Reduced-resolution directional light shadows", -- [1]
+			0, -- [2]
+		}, -- [109]
+		{
+			"maxLightCount must be in range 0 to 32.", -- [1]
+			0, -- [2]
+		}, -- [110]
+		{
+			"CVar 'maxLightCount' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [111]
+		{
+			"SSAO mode set to 4", -- [1]
+			0, -- [2]
+		}, -- [112]
+		{
+			"SSAO type set to 0", -- [1]
+			0, -- [2]
+		}, -- [113]
+		{
+			"SkyCloudLOD set to 0", -- [1]
+			0, -- [2]
+		}, -- [114]
+		{
+			"Texture filtering mode updated.", -- [1]
+			0, -- [2]
+		}, -- [115]
+		{
+			"Terrain mip level changed to 0.", -- [1]
+			0, -- [2]
+		}, -- [116]
+		{
+			"Render scale changed to 1", -- [1]
+			0, -- [2]
+		}, -- [117]
+		{
+			"Resample quality changed to 1", -- [1]
+			0, -- [2]
+		}, -- [118]
+		{
+			"MSAA set to 2 color samples, 2 coverage samples", -- [1]
+			0, -- [2]
+		}, -- [119]
+		{
+			"MSAA for alpha-test enabled.", -- [1]
+			0, -- [2]
+		}, -- [120]
+		{
+			"lodObjectSizeScale cannot be changed.", -- [1]
+			0, -- [2]
+		}, -- [121]
+		{
+			"dynamicLod enabled", -- [1]
+			0, -- [2]
+		}, -- [122]
+		{
+			"World preload object sort enabled.", -- [1]
+			0, -- [2]
+		}, -- [123]
+		{
+			"World load object sort enabled.", -- [1]
+			0, -- [2]
+		}, -- [124]
+		{
+			"World preload non critical enabled.", -- [1]
+			0, -- [2]
+		}, -- [125]
+		{
+			"World preload high res textures enabled.", -- [1]
+			0, -- [2]
+		}, -- [126]
+		{
+			"FFX: Color Blind Test Mode Disabled", -- [1]
+			0, -- [2]
+		}, -- [127]
+		{
+			"Full memory crash dump disabled", -- [1]
+			0, -- [2]
+		}, -- [128]
+		{
+			"Error display disabled", -- [1]
+			0, -- [2]
+		}, -- [129]
+		{
+			"Error display shown", -- [1]
+			0, -- [2]
+		}, -- [130]
+		{
+			"Displaying errors through fatal errors", -- [1]
+			0, -- [2]
+		}, -- [131]
+		{
+			"Displaying errors through fatal errors", -- [1]
+			0, -- [2]
+		}, -- [132]
+		{
+			"Now filtering: all messages", -- [1]
+			0, -- [2]
+		}, -- [133]
+		{
+			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [134]
+		{
+			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [135]
+		{
+			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [136]
+		{
+			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [137]
+		{
+			"GamePad 1 connected: Controller (XBOX 360 For Windows)", -- [1]
+			0, -- [2]
+		}, -- [138]
+		{
+			"GamePad input enabled.", -- [1]
+			0, -- [2]
+		}, -- [139]
+		{
+			"[GlueLogin] Starting loginlauncherPortal=\"cn.actual.battle.net\" loginPortal=\"cn.actual.battle.net:1119\"", -- [1]
+			0, -- [2]
+		}, -- [140]
+		{
+			"[GlueLogin] Resetting", -- [1]
+			0, -- [2]
+		}, -- [141]
+		{
+			"[IBN_Login] Initializing", -- [1]
+			0, -- [2]
+		}, -- [142]
+		{
+			"[IBN_Login] Attempting logonhost=\"cn.actual.battle.net\" port=\"1119\"", -- [1]
+			0, -- [2]
+		}, -- [143]
+		{
+			"[GlueLogin] Waiting for server response.", -- [1]
+			0, -- [2]
+		}, -- [144]
+		{
+			"[GlueLogin] Waiting for server response.", -- [1]
+			0, -- [2]
+		}, -- [145]
+		{
+			"[GlueLogin] Waiting for server response.", -- [1]
+			0, -- [2]
+		}, -- [146]
+		{
+			"[GlueLogin] Logon complete.", -- [1]
+			0, -- [2]
+		}, -- [147]
+		{
+			"[GlueLogin] Reconnect token saved; creationTime=\"1660474538\" expirationTime=\"1660488938\"", -- [1]
+			0, -- [2]
+		}, -- [148]
+		{
+			"[GlueLogin] Waiting for realm list.", -- [1]
+			0, -- [2]
+		}, -- [149]
+		{
+			"[IBN_Login] Requesting realm list ticket", -- [1]
+			0, -- [2]
+		}, -- [150]
+		{
+			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [151]
+		{
+			"[GlueLogin] Waiting for realm list.", -- [1]
+			0, -- [2]
+		}, -- [152]
+		{
+			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [153]
+		{
+			"[IBN_Login] Requesting last played charsnumSubRegions=\"2\"", -- [1]
+			0, -- [2]
+		}, -- [154]
+		{
+			"[GlueLogin] Realm list ready.", -- [1]
+			0, -- [2]
+		}, -- [155]
+		{
+			"[IBN_Login] Joining realmsubRegion=\"45-1-89\" realmAddress=\"45-1-26\"", -- [1]
+			0, -- [2]
+		}, -- [156]
+		{
+			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [157]
+		{
+			"NetClient::HandleConnect()\n", -- [1]
+			0, -- [2]
+		}, -- [158]
+		{
+			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [159]
+		{
+			"Got new connection 2", -- [1]
+			0, -- [2]
+		}, -- [160]
+		{
+			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
+			0, -- [2]
+		}, -- [161]
+		{
+			"[GlueLogin] Disconnecting from authentication server.", -- [1]
+			0, -- [2]
+		}, -- [162]
+		{
+			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
+			0, -- [2]
+		}, -- [163]
+		{
+			"[WowEntitlements] [BNetAccount-0-00000BC426B8] [WowAccount-0-000004FE320E] Initialized with 2 entitlements.", -- [1]
+			0, -- [2]
+		}, -- [164]
+		{
+			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
+			0, -- [2]
+		}, -- [165]
+		{
+			"[GlueLogin] Disconnected from authentication server.", -- [1]
+			0, -- [2]
+		}, -- [166]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [167]
+		{
+			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
+			0, -- [2]
+		}, -- [168]
+		{
+			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
+			0, -- [2]
+		}, -- [169]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [170]
+		{
+			"Proficiency in item class 2 set to 0x0000000080", -- [1]
+			0, -- [2]
+		}, -- [171]
+		{
+			"Proficiency in item class 2 set to 0x0000008080", -- [1]
+			0, -- [2]
+		}, -- [172]
+		{
+			"Proficiency in item class 2 set to 0x0000018080", -- [1]
+			0, -- [2]
+		}, -- [173]
+		{
+			"Proficiency in item class 4 set to 0x0000000001", -- [1]
+			0, -- [2]
+		}, -- [174]
+		{
+			"Proficiency in item class 2 set to 0x000001c080", -- [1]
+			0, -- [2]
+		}, -- [175]
+		{
+			"Proficiency in item class 2 set to 0x000005c080", -- [1]
+			0, -- [2]
+		}, -- [176]
+		{
+			"Proficiency in item class 4 set to 0x0000000005", -- [1]
+			0, -- [2]
+		}, -- [177]
+		{
+			"Proficiency in item class 4 set to 0x0000000007", -- [1]
+			0, -- [2]
+		}, -- [178]
+		{
+			"Proficiency in item class 2 set to 0x000005c080", -- [1]
+			0, -- [2]
+		}, -- [179]
+		{
+			"Proficiency in item class 4 set to 0x0000000007", -- [1]
+			0, -- [2]
+		}, -- [180]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [181]
+		{
+			"Time set to 8/14/2022 (Sun) 18:56", -- [1]
+			0, -- [2]
+		}, -- [182]
+		{
+			"Gamespeed set from 0.017 to 0.017", -- [1]
+			0, -- [2]
+		}, -- [183]
+		{
+			"Value out of range (1.000000 - 4.000000)\n", -- [1]
+			0, -- [2]
+		}, -- [184]
+		{
+			"Time played:", -- [1]
+			0, -- [2]
+		}, -- [185]
+		{
+			"Total: 0d 22h 44m 15s", -- [1]
+			0, -- [2]
+		}, -- [186]
+		{
+			"Level: 0d 0h 3m 59s", -- [1]
+			0, -- [2]
+		}, -- [187]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [188]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [189]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [190]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [191]
+		{
+			"[GlueLogin] Explicitly disconnecting from realm server", -- [1]
+			0, -- [2]
+		}, -- [192]
+		{
+			"Disconnecting for reason 14", -- [1]
+			0, -- [2]
+		}, -- [193]
+		{
+			"NetClient::HandleDisconnect()\n", -- [1]
+			0, -- [2]
+		}, -- [194]
+		{
+			"[IBN_BackInterface] Session with Battle.net destroyed.", -- [1]
+			0, -- [2]
+		}, -- [195]
+		{
+			"[GlueLogin] Disconnected from WoWpreviouslyConnected=\"false\"", -- [1]
+			0, -- [2]
+		}, -- [196]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [197]
+		{
+			"Sorting particles normally.", -- [1]
+			0, -- [2]
+		}, -- [198]
+		{
+			"Multithreaded rendering enabled.", -- [1]
+			0, -- [2]
+		}, -- [199]
+		{
+			"Multithreaded BeginDraw enabled.", -- [1]
+			0, -- [2]
+		}, -- [200]
+		{
+			"Multithread shadows changed to 1.", -- [1]
+			0, -- [2]
+		}, -- [201]
+		{
+			"Multithreaded prepass enabled.", -- [1]
+			0, -- [2]
+		}, -- [202]
+		{
+			"Multithreaded opaque pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [203]
+		{
+			"Multithreaded opaque pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [204]
+		{
+			"Multithreaded alpha M2 pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [205]
+		{
+			"Multithreaded opaque WMO pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [206]
+		{
+			"Multithreaded terrain pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [207]
+		{
+			"Water detail changed to 3", -- [1]
+			0, -- [2]
+		}, -- [208]
+		{
+			"Ripple detail changed to 2", -- [1]
+			0, -- [2]
+		}, -- [209]
+		{
+			"Reflection mode changed to 3", -- [1]
+			0, -- [2]
+		}, -- [210]
+		{
+			"Reflection downscale changed to 0", -- [1]
+			0, -- [2]
+		}, -- [211]
+		{
+			"Sunshafts quality changed to 2", -- [1]
+			0, -- [2]
+		}, -- [212]
+		{
+			"Enabling BSP node cache (first time - starting up)", -- [1]
+			0, -- [2]
+		}, -- [213]
+		{
+			"Projected textures enabled.", -- [1]
+			0, -- [2]
+		}, -- [214]
+		{
+			"Spell Clutter set to dynamic", -- [1]
+			0, -- [2]
+		}, -- [215]
+		{
+			"Shadow mode changed to 4 - 4 band dynamic shadows on units and terrain, 2048", -- [1]
+			0, -- [2]
+		}, -- [216]
+		{
+			"Shadow texture size changed to 2048.", -- [1]
+			0, -- [2]
+		}, -- [217]
+		{
+			"Soft shadows changed to 1.", -- [1]
+			0, -- [2]
+		}, -- [218]
+		{
+			"Shadow RT mode changed to 1 (Fair) - Reduced-resolution directional light shadows", -- [1]
+			0, -- [2]
+		}, -- [219]
+		{
+			"maxLightCount must be in range 0 to 32.", -- [1]
+			0, -- [2]
+		}, -- [220]
+		{
+			"CVar 'maxLightCount' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [221]
+		{
+			"SSAO mode set to 4", -- [1]
+			0, -- [2]
+		}, -- [222]
+		{
+			"SSAO type set to 0", -- [1]
+			0, -- [2]
+		}, -- [223]
+		{
+			"SkyCloudLOD set to 0", -- [1]
+			0, -- [2]
+		}, -- [224]
+		{
+			"Texture filtering mode updated.", -- [1]
+			0, -- [2]
+		}, -- [225]
+		{
+			"Terrain mip level changed to 0.", -- [1]
+			0, -- [2]
+		}, -- [226]
+		{
+			"Render scale changed to 1", -- [1]
+			0, -- [2]
+		}, -- [227]
+		{
+			"Resample quality changed to 1", -- [1]
+			0, -- [2]
+		}, -- [228]
+		{
+			"MSAA set to 2 color samples, 2 coverage samples", -- [1]
+			0, -- [2]
+		}, -- [229]
+		{
+			"MSAA for alpha-test enabled.", -- [1]
+			0, -- [2]
+		}, -- [230]
+		{
+			"lodObjectSizeScale cannot be changed.", -- [1]
+			0, -- [2]
+		}, -- [231]
+		{
+			"dynamicLod enabled", -- [1]
+			0, -- [2]
+		}, -- [232]
+		{
+			"World preload object sort enabled.", -- [1]
+			0, -- [2]
+		}, -- [233]
+		{
+			"World load object sort enabled.", -- [1]
+			0, -- [2]
+		}, -- [234]
+		{
+			"World preload non critical enabled.", -- [1]
+			0, -- [2]
+		}, -- [235]
+		{
+			"World preload high res textures enabled.", -- [1]
+			0, -- [2]
+		}, -- [236]
+		{
+			"FFX: Color Blind Test Mode Disabled", -- [1]
+			0, -- [2]
+		}, -- [237]
+		{
+			"Full memory crash dump disabled", -- [1]
+			0, -- [2]
+		}, -- [238]
+		{
+			"Error display disabled", -- [1]
+			0, -- [2]
+		}, -- [239]
+		{
+			"Error display shown", -- [1]
+			0, -- [2]
+		}, -- [240]
+		{
+			"Displaying errors through fatal errors", -- [1]
+			0, -- [2]
+		}, -- [241]
+		{
+			"Displaying errors through fatal errors", -- [1]
+			0, -- [2]
+		}, -- [242]
+		{
+			"Now filtering: all messages", -- [1]
+			0, -- [2]
+		}, -- [243]
+		{
+			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [244]
+		{
+			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [245]
+		{
+			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [246]
+		{
+			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [247]
+		{
+			"GamePad 1 connected: Controller (XBOX 360 For Windows)", -- [1]
+			0, -- [2]
+		}, -- [248]
+		{
+			"GamePad input enabled.", -- [1]
+			0, -- [2]
+		}, -- [249]
+		{
+			"[GlueLogin] Starting loginlauncherPortal=\"cn.actual.battle.net\" loginPortal=\"cn.actual.battle.net:1119\"", -- [1]
+			0, -- [2]
+		}, -- [250]
+		{
+			"[GlueLogin] Resetting", -- [1]
+			0, -- [2]
+		}, -- [251]
+		{
+			"[IBN_Login] Initializing", -- [1]
+			0, -- [2]
+		}, -- [252]
+		{
+			"[IBN_Login] Attempting logonhost=\"cn.actual.battle.net\" port=\"1119\"", -- [1]
+			0, -- [2]
+		}, -- [253]
+		{
+			"[GlueLogin] Waiting for server response.", -- [1]
+			0, -- [2]
+		}, -- [254]
+		{
+			"[GlueLogin] Waiting for server response.", -- [1]
+			0, -- [2]
+		}, -- [255]
+		{
+			"[GlueLogin] Waiting for server response.", -- [1]
+			0, -- [2]
+		}, -- [256]
+		{
+			"[GlueLogin] Logon complete.", -- [1]
+			0, -- [2]
+		}, -- [257]
+		{
+			"[GlueLogin] Reconnect token saved; creationTime=\"1660484935\" expirationTime=\"1660499335\"", -- [1]
+			0, -- [2]
+		}, -- [258]
+		{
+			"[GlueLogin] Waiting for realm list.", -- [1]
+			0, -- [2]
+		}, -- [259]
+		{
+			"[IBN_Login] Requesting realm list ticket", -- [1]
+			0, -- [2]
+		}, -- [260]
+		{
+			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [261]
+		{
+			"[GlueLogin] Waiting for realm list.", -- [1]
+			0, -- [2]
+		}, -- [262]
+		{
+			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [263]
+		{
+			"[IBN_Login] Requesting last played charsnumSubRegions=\"2\"", -- [1]
+			0, -- [2]
+		}, -- [264]
+		{
+			"[GlueLogin] Realm list ready.", -- [1]
+			0, -- [2]
+		}, -- [265]
+		{
+			"[IBN_Login] Joining realmsubRegion=\"45-1-89\" realmAddress=\"45-1-26\"", -- [1]
+			0, -- [2]
+		}, -- [266]
+		{
+			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [267]
+		{
+			"NetClient::HandleConnect()\n", -- [1]
+			0, -- [2]
+		}, -- [268]
+		{
+			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [269]
+		{
+			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
+			0, -- [2]
+		}, -- [270]
+		{
+			"[GlueLogin] Disconnecting from authentication server.", -- [1]
+			0, -- [2]
+		}, -- [271]
+		{
+			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
+			0, -- [2]
+		}, -- [272]
+		{
+			"Got new connection 2", -- [1]
+			0, -- [2]
+		}, -- [273]
+		{
+			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
+			0, -- [2]
+		}, -- [274]
+		{
+			"[GlueLogin] Disconnected from authentication server.", -- [1]
+			0, -- [2]
+		}, -- [275]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [276]
+		{
+			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
+			0, -- [2]
+		}, -- [277]
+		{
+			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
+			0, -- [2]
+		}, -- [278]
+		{
+			"[WowEntitlements] [BNetAccount-0-00000BC426B8] [WowAccount-0-000004FE320E] Initialized with 2 entitlements.", -- [1]
+			0, -- [2]
+		}, -- [279]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [280]
+		{
+			"Proficiency in item class 2 set to 0x0000000080", -- [1]
+			0, -- [2]
+		}, -- [281]
+		{
+			"Proficiency in item class 2 set to 0x0000008080", -- [1]
+			0, -- [2]
+		}, -- [282]
+		{
+			"Proficiency in item class 2 set to 0x0000018080", -- [1]
+			0, -- [2]
+		}, -- [283]
+		{
+			"Proficiency in item class 4 set to 0x0000000001", -- [1]
+			0, -- [2]
+		}, -- [284]
+		{
+			"Proficiency in item class 2 set to 0x000001c080", -- [1]
+			0, -- [2]
+		}, -- [285]
+		{
+			"Proficiency in item class 2 set to 0x000005c080", -- [1]
+			0, -- [2]
+		}, -- [286]
+		{
+			"Proficiency in item class 4 set to 0x0000000005", -- [1]
+			0, -- [2]
 		}, -- [287]
 		{
-			"Proficiency in item class 2 set to 0x0000000010", -- [1]
+			"Proficiency in item class 4 set to 0x0000000007", -- [1]
 			0, -- [2]
 		}, -- [288]
 		{
-			"Proficiency in item class 2 set to 0x0000000030", -- [1]
+			"Proficiency in item class 2 set to 0x000005c080", -- [1]
 			0, -- [2]
 		}, -- [289]
 		{
-			"Proficiency in item class 4 set to 0x0000000080", -- [1]
+			"Proficiency in item class 4 set to 0x0000000007", -- [1]
 			0, -- [2]
 		}, -- [290]
 		{
-			"Proficiency in item class 4 set to 0x0000000081", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [291]
 		{
-			"Proficiency in item class 2 set to 0x0000004030", -- [1]
+			"Time set to 8/14/2022 (Sun) 21:50", -- [1]
 			0, -- [2]
 		}, -- [292]
 		{
-			"Proficiency in item class 4 set to 0x0000000089", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [293]
 		{
-			"Proficiency in item class 4 set to 0x000000008d", -- [1]
+			"Value out of range (1.000000 - 4.000000)\n", -- [1]
 			0, -- [2]
 		}, -- [294]
 		{
-			"Proficiency in item class 4 set to 0x000000008f", -- [1]
+			"Time played:", -- [1]
 			0, -- [2]
 		}, -- [295]
 		{
-			"Proficiency in item class 4 set to 0x00000000cf", -- [1]
+			"Total: 0d 22h 51m 8s", -- [1]
 			0, -- [2]
 		}, -- [296]
 		{
-			"Proficiency in item class 2 set to 0x0000004030", -- [1]
+			"Level: 0d 0h 10m 52s", -- [1]
 			0, -- [2]
 		}, -- [297]
 		{
-			"Proficiency in item class 4 set to 0x00000000cf", -- [1]
+			"[GlueLogin] Fatal error while logging inresult=\"( code=\" (325)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
 			0, -- [2]
 		}, -- [298]
 		{
@@ -1199,763 +1200,763 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [299]
 		{
-			"Time set to 8/14/2022 (Sun) 11:29", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [300]
 		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [301]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [302]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [303]
 		{
-			"Attempted to register existing command: ShowObjUsage\n", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [304]
 		{
-			"Attempted to register existing command: SetDifficulty\n", -- [1]
+			"Skill 173 increased from 157 to 158", -- [1]
 			0, -- [2]
 		}, -- [305]
 		{
-			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
+			"Skill 43 increased from 159 to 160", -- [1]
 			0, -- [2]
 		}, -- [306]
 		{
-			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
+			"Skill 176 increased from 153 to 154", -- [1]
 			0, -- [2]
 		}, -- [307]
 		{
-			"Got new connection 3", -- [1]
+			"Skill 173 increased from 158 to 159", -- [1]
 			0, -- [2]
 		}, -- [308]
 		{
-			"Proficiency in item class 2 set to 0x0000000080", -- [1]
+			"Skill 95 increased from 156 to 157", -- [1]
 			0, -- [2]
 		}, -- [309]
 		{
-			"Proficiency in item class 2 set to 0x0000008080", -- [1]
+			"Skill 43 increased from 160 to 161", -- [1]
 			0, -- [2]
 		}, -- [310]
 		{
-			"Proficiency in item class 2 set to 0x0000018080", -- [1]
+			"Skill 173 increased from 159 to 160", -- [1]
 			0, -- [2]
 		}, -- [311]
 		{
-			"Proficiency in item class 4 set to 0x0000000001", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [312]
 		{
-			"Proficiency in item class 2 set to 0x000001c080", -- [1]
+			"Skill 43 increased from 161 to 162", -- [1]
 			0, -- [2]
 		}, -- [313]
 		{
-			"Proficiency in item class 2 set to 0x000005c080", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [314]
 		{
-			"Proficiency in item class 4 set to 0x0000000005", -- [1]
+			"Skill 95 increased from 157 to 158", -- [1]
 			0, -- [2]
 		}, -- [315]
 		{
-			"Proficiency in item class 4 set to 0x0000000007", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [316]
 		{
-			"Proficiency in item class 2 set to 0x000005c080", -- [1]
+			"Sorting particles normally.", -- [1]
 			0, -- [2]
 		}, -- [317]
 		{
-			"Proficiency in item class 4 set to 0x0000000007", -- [1]
+			"Multithreaded rendering enabled.", -- [1]
 			0, -- [2]
 		}, -- [318]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Multithreaded BeginDraw enabled.", -- [1]
 			0, -- [2]
 		}, -- [319]
 		{
-			"Time set to 8/14/2022 (Sun) 11:31", -- [1]
+			"Multithread shadows changed to 1.", -- [1]
 			0, -- [2]
 		}, -- [320]
 		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
+			"Multithreaded prepass enabled.", -- [1]
 			0, -- [2]
 		}, -- [321]
 		{
-			"Value out of range (1.000000 - 4.000000)\n", -- [1]
+			"Multithreaded opaque pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [322]
 		{
-			"Time played:", -- [1]
+			"Multithreaded opaque pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [323]
 		{
-			"Total: 0d 21h 53m 52s", -- [1]
+			"Multithreaded alpha M2 pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [324]
 		{
-			"Level: 0d 0h 21m 1s", -- [1]
+			"Multithreaded opaque WMO pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [325]
 		{
-			"Weather changed to 2, intensity 0.500000\n", -- [1]
+			"Multithreaded terrain pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [326]
 		{
-			"Weather changed to 2, intensity 0.500000\n", -- [1]
+			"Water detail changed to 3", -- [1]
 			0, -- [2]
 		}, -- [327]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Ripple detail changed to 2", -- [1]
 			0, -- [2]
 		}, -- [328]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Reflection mode changed to 3", -- [1]
 			0, -- [2]
 		}, -- [329]
 		{
-			"World transfer aborted (reason: 30)", -- [1]
+			"Reflection downscale changed to 0", -- [1]
 			0, -- [2]
 		}, -- [330]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"Sunshafts quality changed to 2", -- [1]
 			0, -- [2]
 		}, -- [331]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"Enabling BSP node cache (first time - starting up)", -- [1]
 			0, -- [2]
 		}, -- [332]
 		{
-			"Attempted to register existing command: ShowObjUsage\n", -- [1]
+			"Projected textures enabled.", -- [1]
 			0, -- [2]
 		}, -- [333]
 		{
-			"Attempted to register existing command: SetDifficulty\n", -- [1]
+			"Spell Clutter set to dynamic", -- [1]
 			0, -- [2]
 		}, -- [334]
 		{
-			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
+			"Shadow mode changed to 4 - 4 band dynamic shadows on units and terrain, 2048", -- [1]
 			0, -- [2]
 		}, -- [335]
 		{
-			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
+			"Shadow texture size changed to 2048.", -- [1]
 			0, -- [2]
 		}, -- [336]
 		{
-			"Got new connection 3", -- [1]
+			"Soft shadows changed to 1.", -- [1]
 			0, -- [2]
 		}, -- [337]
 		{
-			"Proficiency in item class 2 set to 0x0000000080", -- [1]
+			"Shadow RT mode changed to 1 (Fair) - Reduced-resolution directional light shadows", -- [1]
 			0, -- [2]
 		}, -- [338]
 		{
-			"Proficiency in item class 2 set to 0x0000008080", -- [1]
+			"maxLightCount must be in range 0 to 32.", -- [1]
 			0, -- [2]
 		}, -- [339]
 		{
-			"Proficiency in item class 2 set to 0x0000018080", -- [1]
+			"CVar 'maxLightCount' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [340]
 		{
-			"Proficiency in item class 4 set to 0x0000000001", -- [1]
+			"SSAO mode set to 4", -- [1]
 			0, -- [2]
 		}, -- [341]
 		{
-			"Proficiency in item class 2 set to 0x000001c080", -- [1]
+			"SSAO type set to 0", -- [1]
 			0, -- [2]
 		}, -- [342]
 		{
-			"Proficiency in item class 2 set to 0x000005c080", -- [1]
+			"SkyCloudLOD set to 0", -- [1]
 			0, -- [2]
 		}, -- [343]
 		{
-			"Proficiency in item class 4 set to 0x0000000005", -- [1]
+			"Texture filtering mode updated.", -- [1]
 			0, -- [2]
 		}, -- [344]
 		{
-			"Proficiency in item class 4 set to 0x0000000007", -- [1]
+			"Terrain mip level changed to 0.", -- [1]
 			0, -- [2]
 		}, -- [345]
 		{
-			"Proficiency in item class 2 set to 0x000005c080", -- [1]
+			"Render scale changed to 1", -- [1]
 			0, -- [2]
 		}, -- [346]
 		{
-			"Proficiency in item class 4 set to 0x0000000007", -- [1]
+			"Resample quality changed to 1", -- [1]
 			0, -- [2]
 		}, -- [347]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"MSAA set to 2 color samples, 2 coverage samples", -- [1]
 			0, -- [2]
 		}, -- [348]
 		{
-			"Time set to 8/14/2022 (Sun) 11:59", -- [1]
+			"MSAA for alpha-test enabled.", -- [1]
 			0, -- [2]
 		}, -- [349]
 		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
+			"lodObjectSizeScale cannot be changed.", -- [1]
 			0, -- [2]
 		}, -- [350]
 		{
-			"Value out of range (1.000000 - 4.000000)\n", -- [1]
+			"dynamicLod enabled", -- [1]
 			0, -- [2]
 		}, -- [351]
 		{
-			"Time played:", -- [1]
+			"World preload object sort enabled.", -- [1]
 			0, -- [2]
 		}, -- [352]
 		{
-			"Total: 0d 22h 11m 32s", -- [1]
+			"World load object sort enabled.", -- [1]
 			0, -- [2]
 		}, -- [353]
 		{
-			"Level: 0d 0h 38m 41s", -- [1]
+			"World preload non critical enabled.", -- [1]
 			0, -- [2]
 		}, -- [354]
 		{
-			"World transfer pending...", -- [1]
+			"World preload high res textures enabled.", -- [1]
 			0, -- [2]
 		}, -- [355]
 		{
-			"Got new connection 3", -- [1]
+			"FFX: Color Blind Test Mode Disabled", -- [1]
 			0, -- [2]
 		}, -- [356]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Full memory crash dump disabled", -- [1]
 			0, -- [2]
 		}, -- [357]
 		{
-			"Skill 176 increased from 151 to 152", -- [1]
+			"Error display disabled", -- [1]
 			0, -- [2]
 		}, -- [358]
 		{
-			"Skill 43 increased from 157 to 158", -- [1]
+			"Error display shown", -- [1]
 			0, -- [2]
 		}, -- [359]
 		{
-			"Skill 95 increased from 155 to 156", -- [1]
+			"Displaying errors through fatal errors", -- [1]
 			0, -- [2]
 		}, -- [360]
 		{
-			"Skill 173 increased from 156 to 157", -- [1]
+			"Displaying errors through fatal errors", -- [1]
 			0, -- [2]
 		}, -- [361]
 		{
-			"Skill 176 increased from 152 to 153", -- [1]
+			"Now filtering: all messages", -- [1]
 			0, -- [2]
 		}, -- [362]
 		{
-			"Shadow RT mode changed to 3 (High) - Full-resolution directional & local light shadows", -- [1]
+			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [363]
 		{
-			"Shadow RT mode changed to 1 (Fair) - Reduced-resolution directional light shadows", -- [1]
+			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [364]
 		{
-			"Skill 43 increased from 158 to 159", -- [1]
+			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [365]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [366]
 		{
-			"Sorting particles normally.", -- [1]
+			"GamePad 1 connected: Controller (XBOX 360 For Windows)", -- [1]
 			0, -- [2]
 		}, -- [367]
 		{
-			"Multithreaded rendering enabled.", -- [1]
+			"GamePad input enabled.", -- [1]
 			0, -- [2]
 		}, -- [368]
 		{
-			"Multithreaded BeginDraw enabled.", -- [1]
+			"[GlueLogin] Starting loginlauncherPortal=\"cn.actual.battle.net\" loginPortal=\"cn.actual.battle.net:1119\"", -- [1]
 			0, -- [2]
 		}, -- [369]
 		{
-			"Multithread shadows changed to 1.", -- [1]
+			"[GlueLogin] Resetting", -- [1]
 			0, -- [2]
 		}, -- [370]
 		{
-			"Multithreaded prepass enabled.", -- [1]
+			"[IBN_Login] Initializing", -- [1]
 			0, -- [2]
 		}, -- [371]
 		{
-			"Multithreaded opaque pass enabled.", -- [1]
+			"[IBN_Login] Attempting logonhost=\"cn.actual.battle.net\" port=\"1119\"", -- [1]
 			0, -- [2]
 		}, -- [372]
 		{
-			"Multithreaded opaque pass enabled.", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [373]
 		{
-			"Multithreaded alpha M2 pass enabled.", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [374]
 		{
-			"Multithreaded opaque WMO pass enabled.", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [375]
 		{
-			"Multithreaded terrain pass enabled.", -- [1]
+			"[GlueLogin] Logon complete.", -- [1]
 			0, -- [2]
 		}, -- [376]
 		{
-			"Water detail changed to 3", -- [1]
+			"[GlueLogin] Reconnect token saved; creationTime=\"1660486751\" expirationTime=\"1660501151\"", -- [1]
 			0, -- [2]
 		}, -- [377]
 		{
-			"Ripple detail changed to 2", -- [1]
+			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
 		}, -- [378]
 		{
-			"Reflection mode changed to 3", -- [1]
+			"[IBN_Login] Requesting realm list ticket", -- [1]
 			0, -- [2]
 		}, -- [379]
 		{
-			"Reflection downscale changed to 0", -- [1]
+			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [380]
 		{
-			"Sunshafts quality changed to 2", -- [1]
+			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
 		}, -- [381]
 		{
-			"Enabling BSP node cache (first time - starting up)", -- [1]
+			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [382]
 		{
-			"Projected textures enabled.", -- [1]
+			"[IBN_Login] Requesting last played charsnumSubRegions=\"2\"", -- [1]
 			0, -- [2]
 		}, -- [383]
 		{
-			"Spell Clutter set to dynamic", -- [1]
+			"[GlueLogin] Realm list ready.", -- [1]
 			0, -- [2]
 		}, -- [384]
 		{
-			"Shadow mode changed to 4 - 4 band dynamic shadows on units and terrain, 2048", -- [1]
+			"[IBN_Login] Joining realmsubRegion=\"45-1-89\" realmAddress=\"45-1-26\"", -- [1]
 			0, -- [2]
 		}, -- [385]
 		{
-			"Shadow texture size changed to 2048.", -- [1]
+			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [386]
 		{
-			"Soft shadows changed to 1.", -- [1]
+			"NetClient::HandleConnect()\n", -- [1]
 			0, -- [2]
 		}, -- [387]
 		{
-			"Shadow RT mode changed to 1 (Fair) - Reduced-resolution directional light shadows", -- [1]
+			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [388]
 		{
-			"maxLightCount must be in range 0 to 32.", -- [1]
+			"Got new connection 2", -- [1]
 			0, -- [2]
 		}, -- [389]
 		{
-			"CVar 'maxLightCount' failed validation for its initial value.", -- [1]
+			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
 			0, -- [2]
 		}, -- [390]
 		{
-			"SSAO mode set to 4", -- [1]
+			"[GlueLogin] Disconnecting from authentication server.", -- [1]
 			0, -- [2]
 		}, -- [391]
 		{
-			"SSAO type set to 0", -- [1]
+			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
 			0, -- [2]
 		}, -- [392]
 		{
-			"SkyCloudLOD set to 0", -- [1]
+			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_OK (0)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
 			0, -- [2]
 		}, -- [393]
 		{
-			"Texture filtering mode updated.", -- [1]
+			"[GlueLogin] Disconnected from authentication server.", -- [1]
 			0, -- [2]
 		}, -- [394]
 		{
-			"Terrain mip level changed to 0.", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [395]
 		{
-			"Render scale changed to 1", -- [1]
+			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [396]
 		{
-			"Resample quality changed to 1", -- [1]
+			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [397]
 		{
-			"MSAA set to 2 color samples, 2 coverage samples", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [398]
 		{
-			"MSAA for alpha-test enabled.", -- [1]
+			"Proficiency in item class 2 set to 0x000005c080", -- [1]
 			0, -- [2]
 		}, -- [399]
 		{
-			"lodObjectSizeScale cannot be changed.", -- [1]
+			"Proficiency in item class 4 set to 0x0000000007", -- [1]
 			0, -- [2]
 		}, -- [400]
 		{
-			"dynamicLod enabled", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [401]
 		{
-			"World preload object sort enabled.", -- [1]
+			"Time set to 8/14/2022 (Sun) 22:19", -- [1]
 			0, -- [2]
 		}, -- [402]
 		{
-			"World load object sort enabled.", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [403]
 		{
-			"World preload non critical enabled.", -- [1]
+			"Value out of range (1.000000 - 4.000000)\n", -- [1]
 			0, -- [2]
 		}, -- [404]
 		{
-			"World preload high res textures enabled.", -- [1]
+			"Time played:", -- [1]
 			0, -- [2]
 		}, -- [405]
 		{
-			"FFX: Color Blind Test Mode Disabled", -- [1]
+			"Total: 0d 23h 21m 22s", -- [1]
 			0, -- [2]
 		}, -- [406]
 		{
-			"Full memory crash dump disabled", -- [1]
+			"Level: 0d 0h 41m 6s", -- [1]
 			0, -- [2]
 		}, -- [407]
 		{
-			"Error display disabled", -- [1]
+			"Skill 43 increased from 162 to 163", -- [1]
 			0, -- [2]
 		}, -- [408]
 		{
-			"Error display shown", -- [1]
+			"World transfer aborted (reason: 30)", -- [1]
 			0, -- [2]
 		}, -- [409]
 		{
-			"Displaying errors through fatal errors", -- [1]
+			"Skill 173 increased from 160 to 161", -- [1]
 			0, -- [2]
 		}, -- [410]
 		{
-			"Displaying errors through fatal errors", -- [1]
+			"Skill 95 increased from 158 to 159", -- [1]
 			0, -- [2]
 		}, -- [411]
 		{
-			"Now filtering: all messages", -- [1]
+			"World transfer aborted (reason: 30)", -- [1]
 			0, -- [2]
 		}, -- [412]
 		{
-			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [413]
 		{
-			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [414]
 		{
-			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [415]
 		{
-			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [416]
 		{
-			"GamePad 1 connected: Controller (XBOX 360 For Windows)", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [417]
 		{
-			"GamePad input enabled.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [418]
 		{
-			"[GlueLogin] Starting loginlauncherPortal=\"cn.actual.battle.net\" loginPortal=\"cn.actual.battle.net:1119\"", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [419]
 		{
-			"[GlueLogin] Resetting", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [420]
 		{
-			"[IBN_Login] Initializing", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [421]
 		{
-			"[IBN_Login] Attempting logonhost=\"cn.actual.battle.net\" port=\"1119\"", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [422]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [423]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [424]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [425]
 		{
-			"[GlueLogin] Logon complete.", -- [1]
+			"World transfer aborted (reason: 30)", -- [1]
 			0, -- [2]
 		}, -- [426]
 		{
-			"[GlueLogin] Reconnect token saved; creationTime=\"1660452347\" expirationTime=\"1660466747\"", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [427]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [428]
 		{
-			"[IBN_Login] Requesting realm list ticket", -- [1]
+			"Skill 38 increased from 165 to 170", -- [1]
 			0, -- [2]
 		}, -- [429]
 		{
-			"[GlueLogin] Explicitly disconnecting from realm server", -- [1]
+			"Skill 39 increased from 165 to 170", -- [1]
 			0, -- [2]
 		}, -- [430]
 		{
-			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
+			"Skill 118 increased from 165 to 170", -- [1]
 			0, -- [2]
 		}, -- [431]
 		{
-			"[GlueLogin] Disconnecting from authentication server.", -- [1]
+			"Skill 183 increased from 165 to 170", -- [1]
 			0, -- [2]
 		}, -- [432]
 		{
-			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
+			"Skill 253 increased from 165 to 170", -- [1]
 			0, -- [2]
 		}, -- [433]
 		{
-			"[GlueLogin] Disconnected from authentication server.", -- [1]
+			"Skill 754 increased from 165 to 170", -- [1]
 			0, -- [2]
 		}, -- [434]
 		{
-			"[IBN_Login] DestroyingisInitialized=\"true\"", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [435]
 		{
-			"[GlueLogin] Starting loginlauncherPortal=\"cn.actual.battle.net\" loginPortal=\"cn.actual.battle.net:1119\"", -- [1]
+			"Skill 43 increased from 163 to 164", -- [1]
 			0, -- [2]
 		}, -- [436]
 		{
-			"[GlueLogin] Resetting", -- [1]
+			"Skill 95 increased from 159 to 160", -- [1]
 			0, -- [2]
 		}, -- [437]
 		{
-			"[IBN_Login] Initializing", -- [1]
+			"Skill 173 increased from 161 to 162", -- [1]
 			0, -- [2]
 		}, -- [438]
 		{
-			"[IBN_Login] Attempting logonhost=\"cn.actual.battle.net\" port=\"1119\"", -- [1]
+			"World transfer aborted (reason: 30)", -- [1]
 			0, -- [2]
 		}, -- [439]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Skill 95 increased from 160 to 161", -- [1]
 			0, -- [2]
 		}, -- [440]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Skill 43 increased from 164 to 165", -- [1]
 			0, -- [2]
 		}, -- [441]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Skill 173 increased from 162 to 163", -- [1]
 			0, -- [2]
 		}, -- [442]
 		{
-			"[GlueLogin] Logon complete.", -- [1]
+			"Skill 173 increased from 163 to 164", -- [1]
 			0, -- [2]
 		}, -- [443]
 		{
-			"[GlueLogin] Reconnect token saved; creationTime=\"1660452354\" expirationTime=\"1660466754\"", -- [1]
+			"Skill 43 increased from 165 to 166", -- [1]
 			0, -- [2]
 		}, -- [444]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"Skill 95 increased from 161 to 162", -- [1]
 			0, -- [2]
 		}, -- [445]
 		{
-			"[IBN_Login] Requesting realm list ticket", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [446]
 		{
-			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [447]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [448]
 		{
-			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
+			"Skill 633 increased from 101 to 102", -- [1]
 			0, -- [2]
 		}, -- [449]
 		{
-			"[IBN_Login] Requesting last played charsnumSubRegions=\"2\"", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [450]
 		{
-			"[GlueLogin] Realm list ready.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [451]
 		{
-			"[IBN_Login] Joining realmsubRegion=\"45-1-89\" realmAddress=\"45-1-26\"", -- [1]
+			"Skill 95 increased from 162 to 163", -- [1]
 			0, -- [2]
 		}, -- [452]
 		{
-			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
+			"Skill 43 increased from 166 to 167", -- [1]
 			0, -- [2]
 		}, -- [453]
 		{
-			"NetClient::HandleConnect()\n", -- [1]
+			"Skill 173 increased from 164 to 165", -- [1]
 			0, -- [2]
 		}, -- [454]
 		{
-			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
+			"Skill 95 increased from 163 to 164", -- [1]
 			0, -- [2]
 		}, -- [455]
 		{
-			"[IBN_Login] Front disconnectingconnectionId=\"2\"", -- [1]
+			"Skill 43 increased from 167 to 168", -- [1]
 			0, -- [2]
 		}, -- [456]
 		{
-			"[GlueLogin] Disconnecting from authentication server.", -- [1]
+			"Skill 173 increased from 165 to 166", -- [1]
 			0, -- [2]
 		}, -- [457]
 		{
-			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
+			"Skill 95 increased from 164 to 165", -- [1]
 			0, -- [2]
 		}, -- [458]
 		{
-			"[IBN_Login] Front disconnectedconnectionId=\"2\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
+			"Skill 173 increased from 166 to 167", -- [1]
 			0, -- [2]
 		}, -- [459]
 		{
-			"[GlueLogin] Disconnected from authentication server.", -- [1]
+			"Skill 43 increased from 168 to 169", -- [1]
 			0, -- [2]
 		}, -- [460]
 		{
-			"[WowEntitlements] [BNetAccount-0-00000BC426B8] [WowAccount-0-000004FE320E] Initialized with 2 entitlements.", -- [1]
+			"Skill 173 increased from 167 to 168", -- [1]
 			0, -- [2]
 		}, -- [461]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"Skill 95 increased from 165 to 166", -- [1]
 			0, -- [2]
 		}, -- [462]
 		{
-			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [463]
 		{
-			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [464]
 		{
-			"Got new connection 3", -- [1]
+			"Attempted to register existing command: ShowObjUsage\n", -- [1]
 			0, -- [2]
 		}, -- [465]
 		{
-			"Proficiency in item class 2 set to 0x0000000080", -- [1]
+			"Attempted to register existing command: SetDifficulty\n", -- [1]
 			0, -- [2]
 		}, -- [466]
 		{
-			"Proficiency in item class 2 set to 0x0000008080", -- [1]
+			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [467]
 		{
-			"Proficiency in item class 2 set to 0x0000018080", -- [1]
+			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [468]
 		{
-			"Proficiency in item class 4 set to 0x0000000001", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [469]
 		{
-			"Proficiency in item class 2 set to 0x000001c080", -- [1]
+			"Proficiency in item class 2 set to 0x0000000010", -- [1]
 			0, -- [2]
 		}, -- [470]
 		{
-			"Proficiency in item class 2 set to 0x000005c080", -- [1]
+			"Proficiency in item class 2 set to 0x0000000030", -- [1]
 			0, -- [2]
 		}, -- [471]
 		{
-			"Proficiency in item class 4 set to 0x0000000005", -- [1]
+			"Proficiency in item class 4 set to 0x0000000080", -- [1]
 			0, -- [2]
 		}, -- [472]
 		{
-			"Proficiency in item class 4 set to 0x0000000007", -- [1]
+			"Proficiency in item class 4 set to 0x0000000081", -- [1]
 			0, -- [2]
 		}, -- [473]
 		{
-			"Proficiency in item class 2 set to 0x000005c080", -- [1]
+			"Proficiency in item class 2 set to 0x0000004030", -- [1]
 			0, -- [2]
 		}, -- [474]
 		{
-			"Proficiency in item class 4 set to 0x0000000007", -- [1]
+			"Proficiency in item class 4 set to 0x0000000089", -- [1]
 			0, -- [2]
 		}, -- [475]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 4 set to 0x000000008d", -- [1]
 			0, -- [2]
 		}, -- [476]
 		{
-			"Time set to 8/14/2022 (Sun) 12:46", -- [1]
+			"Proficiency in item class 4 set to 0x000000008f", -- [1]
 			0, -- [2]
 		}, -- [477]
 		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
+			"Proficiency in item class 4 set to 0x00000000cf", -- [1]
 			0, -- [2]
 		}, -- [478]
 		{
-			"Value out of range (1.000000 - 4.000000)\n", -- [1]
+			"Proficiency in item class 2 set to 0x0000004030", -- [1]
 			0, -- [2]
 		}, -- [479]
 		{
-			"Time played:", -- [1]
+			"Proficiency in item class 4 set to 0x00000000cf", -- [1]
 			0, -- [2]
 		}, -- [480]
 		{
-			"Total: 0d 22h 38m 10s", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [481]
 		{
-			"Level: 0d 1h 5m 19s", -- [1]
+			"Time set to 8/14/2022 (Sun) 23:37", -- [1]
 			0, -- [2]
 		}, -- [482]
 		{
-			"Skill 38 increased from 160 to 165", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [483]
 		{
-			"Skill 39 increased from 160 to 165", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [484]
 		{
-			"Skill 118 increased from 160 to 165", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [485]
 		{
-			"Skill 183 increased from 160 to 165", -- [1]
+			"Attempted to register existing command: ShowObjUsage\n", -- [1]
 			0, -- [2]
 		}, -- [486]
 		{
-			"Skill 253 increased from 160 to 165", -- [1]
+			"Attempted to register existing command: SetDifficulty\n", -- [1]
 			0, -- [2]
 		}, -- [487]
 		{
-			"Skill 754 increased from 160 to 165", -- [1]
+			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [488]
 		{
-			"Weather changed to 2, intensity 0.500000\n", -- [1]
+			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [489]
 		{
@@ -1963,699 +1964,699 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [490]
 		{
-			"Weather changed to 2, intensity 0.500000\n", -- [1]
+			"Proficiency in item class 2 set to 0x0000000080", -- [1]
 			0, -- [2]
 		}, -- [491]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"Proficiency in item class 2 set to 0x0000008080", -- [1]
 			0, -- [2]
 		}, -- [492]
 		{
-			"NetClient::HandleDisconnect()\n", -- [1]
+			"Proficiency in item class 2 set to 0x0000018080", -- [1]
 			0, -- [2]
 		}, -- [493]
 		{
-			"[IBN_BackInterface] Session with Battle.net destroyed.", -- [1]
+			"Proficiency in item class 4 set to 0x0000000001", -- [1]
 			0, -- [2]
 		}, -- [494]
 		{
-			"[GlueLogin] Disconnected from WoWpreviouslyConnected=\"true\"", -- [1]
+			"Proficiency in item class 2 set to 0x000001c080", -- [1]
 			0, -- [2]
 		}, -- [495]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"Proficiency in item class 2 set to 0x000005c080", -- [1]
 			0, -- [2]
 		}, -- [496]
 		{
-			"Sorting particles normally.", -- [1]
+			"Proficiency in item class 4 set to 0x0000000005", -- [1]
 			0, -- [2]
 		}, -- [497]
 		{
-			"Multithreaded rendering enabled.", -- [1]
+			"Proficiency in item class 4 set to 0x0000000007", -- [1]
 			0, -- [2]
 		}, -- [498]
 		{
-			"Multithreaded BeginDraw enabled.", -- [1]
+			"Proficiency in item class 2 set to 0x000005c080", -- [1]
 			0, -- [2]
 		}, -- [499]
 		{
-			"Multithread shadows changed to 1.", -- [1]
+			"Proficiency in item class 4 set to 0x0000000007", -- [1]
 			0, -- [2]
 		}, -- [500]
 		{
-			"Multithreaded prepass enabled.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [501]
 		{
-			"Multithreaded opaque pass enabled.", -- [1]
+			"Time set to 8/14/2022 (Sun) 23:39", -- [1]
 			0, -- [2]
 		}, -- [502]
 		{
-			"Multithreaded opaque pass enabled.", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [503]
 		{
-			"Multithreaded alpha M2 pass enabled.", -- [1]
+			"Value out of range (1.000000 - 4.000000)\n", -- [1]
 			0, -- [2]
 		}, -- [504]
 		{
-			"Multithreaded opaque WMO pass enabled.", -- [1]
+			"Time played:", -- [1]
 			0, -- [2]
 		}, -- [505]
 		{
-			"Multithreaded terrain pass enabled.", -- [1]
+			"Total: 1d 0h 39m 24s", -- [1]
 			0, -- [2]
 		}, -- [506]
 		{
-			"Water detail changed to 3", -- [1]
+			"Level: 0d 0h 54m 34s", -- [1]
 			0, -- [2]
 		}, -- [507]
 		{
-			"Ripple detail changed to 2", -- [1]
+			"Skill 176 increased from 154 to 155", -- [1]
 			0, -- [2]
 		}, -- [508]
 		{
-			"Reflection mode changed to 3", -- [1]
+			"World transfer aborted (reason: 30)", -- [1]
 			0, -- [2]
 		}, -- [509]
 		{
-			"Reflection downscale changed to 0", -- [1]
+			"Skill 176 increased from 155 to 156", -- [1]
 			0, -- [2]
 		}, -- [510]
 		{
-			"Sunshafts quality changed to 2", -- [1]
+			"Skill 176 increased from 156 to 157", -- [1]
 			0, -- [2]
 		}, -- [511]
 		{
-			"Enabling BSP node cache (first time - starting up)", -- [1]
+			"World transfer aborted (reason: 30)", -- [1]
 			0, -- [2]
 		}, -- [512]
 		{
-			"Projected textures enabled.", -- [1]
+			"Skill 38 increased from 170 to 175", -- [1]
 			0, -- [2]
 		}, -- [513]
 		{
-			"Spell Clutter set to dynamic", -- [1]
+			"Skill 39 increased from 170 to 175", -- [1]
 			0, -- [2]
 		}, -- [514]
 		{
-			"Shadow mode changed to 4 - 4 band dynamic shadows on units and terrain, 2048", -- [1]
+			"Skill 118 increased from 170 to 175", -- [1]
 			0, -- [2]
 		}, -- [515]
 		{
-			"Shadow texture size changed to 2048.", -- [1]
+			"Skill 183 increased from 170 to 175", -- [1]
 			0, -- [2]
 		}, -- [516]
 		{
-			"Soft shadows changed to 1.", -- [1]
+			"Skill 253 increased from 170 to 175", -- [1]
 			0, -- [2]
 		}, -- [517]
 		{
-			"Shadow RT mode changed to 1 (Fair) - Reduced-resolution directional light shadows", -- [1]
+			"Skill 754 increased from 170 to 175", -- [1]
 			0, -- [2]
 		}, -- [518]
 		{
-			"maxLightCount must be in range 0 to 32.", -- [1]
+			"Skill 43 increased from 169 to 170", -- [1]
 			0, -- [2]
 		}, -- [519]
 		{
-			"CVar 'maxLightCount' failed validation for its initial value.", -- [1]
+			"Skill 173 increased from 168 to 169", -- [1]
 			0, -- [2]
 		}, -- [520]
 		{
-			"SSAO mode set to 4", -- [1]
+			"Skill 43 increased from 170 to 171", -- [1]
 			0, -- [2]
 		}, -- [521]
 		{
-			"SSAO type set to 0", -- [1]
+			"Skill 173 increased from 169 to 170", -- [1]
 			0, -- [2]
 		}, -- [522]
 		{
-			"SkyCloudLOD set to 0", -- [1]
+			"Skill 43 increased from 171 to 172", -- [1]
 			0, -- [2]
 		}, -- [523]
 		{
-			"Texture filtering mode updated.", -- [1]
+			"Skill 95 increased from 166 to 167", -- [1]
 			0, -- [2]
 		}, -- [524]
 		{
-			"Terrain mip level changed to 0.", -- [1]
+			"Skill 176 increased from 157 to 158", -- [1]
 			0, -- [2]
 		}, -- [525]
 		{
-			"Render scale changed to 1", -- [1]
+			"Skill 173 increased from 170 to 171", -- [1]
 			0, -- [2]
 		}, -- [526]
 		{
-			"Resample quality changed to 1", -- [1]
+			"Skill 176 increased from 158 to 159", -- [1]
 			0, -- [2]
 		}, -- [527]
 		{
-			"MSAA set to 2 color samples, 2 coverage samples", -- [1]
+			"Skill 95 increased from 167 to 168", -- [1]
 			0, -- [2]
 		}, -- [528]
 		{
-			"MSAA for alpha-test enabled.", -- [1]
+			"Skill 43 increased from 172 to 173", -- [1]
 			0, -- [2]
 		}, -- [529]
 		{
-			"lodObjectSizeScale cannot be changed.", -- [1]
+			"Skill 173 increased from 171 to 172", -- [1]
 			0, -- [2]
 		}, -- [530]
 		{
-			"dynamicLod enabled", -- [1]
+			"Skill 176 increased from 159 to 160", -- [1]
 			0, -- [2]
 		}, -- [531]
 		{
-			"World preload object sort enabled.", -- [1]
+			"Skill 95 increased from 168 to 169", -- [1]
 			0, -- [2]
 		}, -- [532]
 		{
-			"World load object sort enabled.", -- [1]
+			"Skill 176 increased from 160 to 161", -- [1]
 			0, -- [2]
 		}, -- [533]
 		{
-			"World preload non critical enabled.", -- [1]
+			"Skill 43 increased from 173 to 174", -- [1]
 			0, -- [2]
 		}, -- [534]
 		{
-			"World preload high res textures enabled.", -- [1]
+			"Skill 162 increased from 33 to 34", -- [1]
 			0, -- [2]
 		}, -- [535]
 		{
-			"FFX: Color Blind Test Mode Disabled", -- [1]
+			"Skill 162 increased from 34 to 35", -- [1]
 			0, -- [2]
 		}, -- [536]
 		{
-			"Full memory crash dump disabled", -- [1]
+			"Skill 162 increased from 35 to 36", -- [1]
 			0, -- [2]
 		}, -- [537]
 		{
-			"Error display disabled", -- [1]
+			"Skill 162 increased from 36 to 37", -- [1]
 			0, -- [2]
 		}, -- [538]
 		{
-			"Error display shown", -- [1]
+			"Skill 176 increased from 161 to 162", -- [1]
 			0, -- [2]
 		}, -- [539]
 		{
-			"Displaying errors through fatal errors", -- [1]
+			"Skill 173 increased from 172 to 173", -- [1]
 			0, -- [2]
 		}, -- [540]
 		{
-			"Displaying errors through fatal errors", -- [1]
+			"Skill 95 increased from 169 to 170", -- [1]
 			0, -- [2]
 		}, -- [541]
 		{
-			"Now filtering: all messages", -- [1]
+			"Skill 162 increased from 37 to 38", -- [1]
 			0, -- [2]
 		}, -- [542]
 		{
-			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"Skill 162 increased from 38 to 39", -- [1]
 			0, -- [2]
 		}, -- [543]
 		{
-			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"Skill 162 increased from 39 to 40", -- [1]
 			0, -- [2]
 		}, -- [544]
 		{
-			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"Skill 162 increased from 40 to 41", -- [1]
 			0, -- [2]
 		}, -- [545]
 		{
-			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"Skill 162 increased from 41 to 42", -- [1]
 			0, -- [2]
 		}, -- [546]
 		{
-			"GamePad 1 connected: Controller (XBOX 360 For Windows)", -- [1]
+			"Skill 162 increased from 42 to 43", -- [1]
 			0, -- [2]
 		}, -- [547]
 		{
-			"GamePad input enabled.", -- [1]
+			"Skill 162 increased from 43 to 44", -- [1]
 			0, -- [2]
 		}, -- [548]
 		{
-			"[GlueLogin] Starting loginlauncherPortal=\"cn.actual.battle.net\" loginPortal=\"cn.actual.battle.net:1119\"", -- [1]
+			"Skill 162 increased from 44 to 45", -- [1]
 			0, -- [2]
 		}, -- [549]
 		{
-			"[GlueLogin] Resetting", -- [1]
+			"Skill 176 increased from 162 to 163", -- [1]
 			0, -- [2]
 		}, -- [550]
 		{
-			"[IBN_Login] Initializing", -- [1]
+			"Skill 162 increased from 45 to 46", -- [1]
 			0, -- [2]
 		}, -- [551]
 		{
-			"[IBN_Login] Attempting logonhost=\"cn.actual.battle.net\" port=\"1119\"", -- [1]
+			"Skill 162 increased from 46 to 47", -- [1]
 			0, -- [2]
 		}, -- [552]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Skill 162 increased from 47 to 48", -- [1]
 			0, -- [2]
 		}, -- [553]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Skill 176 increased from 163 to 164", -- [1]
 			0, -- [2]
 		}, -- [554]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Skill 95 increased from 170 to 171", -- [1]
 			0, -- [2]
 		}, -- [555]
 		{
-			"[GlueLogin] Logon complete.", -- [1]
+			"World transfer aborted (reason: 30)", -- [1]
 			0, -- [2]
 		}, -- [556]
 		{
-			"[GlueLogin] Reconnect token saved; creationTime=\"1660474390\" expirationTime=\"1660488790\"", -- [1]
+			"Skill 162 increased from 48 to 49", -- [1]
 			0, -- [2]
 		}, -- [557]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"Skill 162 increased from 49 to 50", -- [1]
 			0, -- [2]
 		}, -- [558]
 		{
-			"[IBN_Login] Requesting realm list ticket", -- [1]
+			"Skill 95 increased from 171 to 172", -- [1]
 			0, -- [2]
 		}, -- [559]
 		{
-			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
+			"Skill 176 increased from 164 to 165", -- [1]
 			0, -- [2]
 		}, -- [560]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"Skill 173 increased from 173 to 174", -- [1]
 			0, -- [2]
 		}, -- [561]
 		{
-			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
+			"World transfer aborted (reason: 30)", -- [1]
 			0, -- [2]
 		}, -- [562]
 		{
-			"[IBN_Login] Requesting last played charsnumSubRegions=\"2\"", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [563]
 		{
-			"[GlueLogin] Realm list ready.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [564]
 		{
-			"[IBN_Login] Joining realmsubRegion=\"45-1-89\" realmAddress=\"45-1-26\"", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [565]
 		{
-			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
+			"Skill 38 increased from 175 to 180", -- [1]
 			0, -- [2]
 		}, -- [566]
 		{
-			"NetClient::HandleConnect()\n", -- [1]
+			"Skill 39 increased from 175 to 180", -- [1]
 			0, -- [2]
 		}, -- [567]
 		{
-			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
+			"Skill 118 increased from 175 to 180", -- [1]
 			0, -- [2]
 		}, -- [568]
 		{
-			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
+			"Skill 183 increased from 175 to 180", -- [1]
 			0, -- [2]
 		}, -- [569]
 		{
-			"[GlueLogin] Disconnecting from authentication server.", -- [1]
+			"Skill 253 increased from 175 to 180", -- [1]
 			0, -- [2]
 		}, -- [570]
 		{
-			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
+			"Skill 754 increased from 175 to 180", -- [1]
 			0, -- [2]
 		}, -- [571]
 		{
-			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [572]
 		{
-			"[GlueLogin] Disconnected from authentication server.", -- [1]
+			"Skill 43 increased from 174 to 175", -- [1]
 			0, -- [2]
 		}, -- [573]
 		{
-			"[WowEntitlements] [BNetAccount-0-00000BC426B8] [WowAccount-0-000004FE320E] Initialized with 2 entitlements.", -- [1]
+			"Skill 95 increased from 172 to 173", -- [1]
 			0, -- [2]
 		}, -- [574]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"Skill 176 increased from 165 to 166", -- [1]
 			0, -- [2]
 		}, -- [575]
 		{
-			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
+			"Skill 43 increased from 175 to 176", -- [1]
 			0, -- [2]
 		}, -- [576]
 		{
-			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
+			"Skill 173 increased from 174 to 175", -- [1]
 			0, -- [2]
 		}, -- [577]
 		{
-			"Got new connection 3", -- [1]
+			"Skill 176 increased from 166 to 167", -- [1]
 			0, -- [2]
 		}, -- [578]
 		{
-			"Proficiency in item class 2 set to 0x0000000080", -- [1]
+			"Skill 176 increased from 167 to 168", -- [1]
 			0, -- [2]
 		}, -- [579]
 		{
-			"Proficiency in item class 2 set to 0x0000008080", -- [1]
+			"Skill 43 increased from 176 to 177", -- [1]
 			0, -- [2]
 		}, -- [580]
 		{
-			"Proficiency in item class 2 set to 0x0000018080", -- [1]
+			"Skill 95 increased from 173 to 174", -- [1]
 			0, -- [2]
 		}, -- [581]
 		{
-			"Proficiency in item class 4 set to 0x0000000001", -- [1]
+			"Skill 173 increased from 175 to 176", -- [1]
 			0, -- [2]
 		}, -- [582]
 		{
-			"Proficiency in item class 2 set to 0x000001c080", -- [1]
+			"Skill 43 increased from 177 to 178", -- [1]
 			0, -- [2]
 		}, -- [583]
 		{
-			"Proficiency in item class 2 set to 0x000005c080", -- [1]
+			"Skill 95 increased from 174 to 175", -- [1]
 			0, -- [2]
 		}, -- [584]
 		{
-			"Proficiency in item class 4 set to 0x0000000005", -- [1]
+			"Skill 173 increased from 176 to 177", -- [1]
 			0, -- [2]
 		}, -- [585]
 		{
-			"Proficiency in item class 4 set to 0x0000000007", -- [1]
+			"Skill 95 increased from 175 to 176", -- [1]
 			0, -- [2]
 		}, -- [586]
 		{
-			"Proficiency in item class 2 set to 0x000005c080", -- [1]
+			"Skill 43 increased from 178 to 179", -- [1]
 			0, -- [2]
 		}, -- [587]
 		{
-			"Proficiency in item class 4 set to 0x0000000007", -- [1]
+			"Skill 173 increased from 177 to 178", -- [1]
 			0, -- [2]
 		}, -- [588]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Time played:", -- [1]
 			0, -- [2]
 		}, -- [589]
 		{
-			"Time set to 8/14/2022 (Sun) 18:53", -- [1]
+			"Total: 1d 2h 27m 21s", -- [1]
 			0, -- [2]
 		}, -- [590]
 		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
+			"Level: 0d 0h 41m 35s", -- [1]
 			0, -- [2]
 		}, -- [591]
 		{
-			"Value out of range (1.000000 - 4.000000)\n", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [592]
 		{
-			"Time played:", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [593]
 		{
-			"Total: 0d 22h 43m 25s", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [594]
 		{
-			"Level: 0d 0h 3m 9s", -- [1]
+			"[GlueLogin] Explicitly disconnecting from realm server", -- [1]
 			0, -- [2]
 		}, -- [595]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Disconnecting for reason 14", -- [1]
 			0, -- [2]
 		}, -- [596]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"NetClient::HandleDisconnect()\n", -- [1]
 			0, -- [2]
 		}, -- [597]
 		{
-			"[GlueLogin] Explicitly disconnecting from realm server", -- [1]
+			"[IBN_BackInterface] Session with Battle.net destroyed.", -- [1]
 			0, -- [2]
 		}, -- [598]
 		{
-			"Disconnecting for reason 14", -- [1]
+			"[GlueLogin] Disconnected from WoWpreviouslyConnected=\"false\"", -- [1]
 			0, -- [2]
 		}, -- [599]
 		{
-			"NetClient::HandleDisconnect()\n", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [600]
 		{
-			"[IBN_BackInterface] Session with Battle.net destroyed.", -- [1]
+			"Sorting particles normally.", -- [1]
 			0, -- [2]
 		}, -- [601]
 		{
-			"[GlueLogin] Disconnected from WoWpreviouslyConnected=\"false\"", -- [1]
+			"Multithreaded rendering enabled.", -- [1]
 			0, -- [2]
 		}, -- [602]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"Multithreaded BeginDraw enabled.", -- [1]
 			0, -- [2]
 		}, -- [603]
 		{
-			"Sorting particles normally.", -- [1]
+			"Multithread shadows changed to 1.", -- [1]
 			0, -- [2]
 		}, -- [604]
 		{
-			"Multithreaded rendering enabled.", -- [1]
+			"Multithreaded prepass enabled.", -- [1]
 			0, -- [2]
 		}, -- [605]
 		{
-			"Multithreaded BeginDraw enabled.", -- [1]
+			"Multithreaded opaque pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [606]
 		{
-			"Multithread shadows changed to 1.", -- [1]
+			"Multithreaded opaque pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [607]
 		{
-			"Multithreaded prepass enabled.", -- [1]
+			"Multithreaded alpha M2 pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [608]
 		{
-			"Multithreaded opaque pass enabled.", -- [1]
+			"Multithreaded opaque WMO pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [609]
 		{
-			"Multithreaded opaque pass enabled.", -- [1]
+			"Multithreaded terrain pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [610]
 		{
-			"Multithreaded alpha M2 pass enabled.", -- [1]
+			"Water detail changed to 3", -- [1]
 			0, -- [2]
 		}, -- [611]
 		{
-			"Multithreaded opaque WMO pass enabled.", -- [1]
+			"Ripple detail changed to 2", -- [1]
 			0, -- [2]
 		}, -- [612]
 		{
-			"Multithreaded terrain pass enabled.", -- [1]
+			"Reflection mode changed to 3", -- [1]
 			0, -- [2]
 		}, -- [613]
 		{
-			"Water detail changed to 3", -- [1]
+			"Reflection downscale changed to 0", -- [1]
 			0, -- [2]
 		}, -- [614]
 		{
-			"Ripple detail changed to 2", -- [1]
+			"Sunshafts quality changed to 2", -- [1]
 			0, -- [2]
 		}, -- [615]
 		{
-			"Reflection mode changed to 3", -- [1]
+			"Enabling BSP node cache (first time - starting up)", -- [1]
 			0, -- [2]
 		}, -- [616]
 		{
-			"Reflection downscale changed to 0", -- [1]
+			"Projected textures enabled.", -- [1]
 			0, -- [2]
 		}, -- [617]
 		{
-			"Sunshafts quality changed to 2", -- [1]
+			"Spell Clutter set to dynamic", -- [1]
 			0, -- [2]
 		}, -- [618]
 		{
-			"Enabling BSP node cache (first time - starting up)", -- [1]
+			"Shadow mode changed to 4 - 4 band dynamic shadows on units and terrain, 2048", -- [1]
 			0, -- [2]
 		}, -- [619]
 		{
-			"Projected textures enabled.", -- [1]
+			"Shadow texture size changed to 2048.", -- [1]
 			0, -- [2]
 		}, -- [620]
 		{
-			"Spell Clutter set to dynamic", -- [1]
+			"Soft shadows changed to 1.", -- [1]
 			0, -- [2]
 		}, -- [621]
 		{
-			"Shadow mode changed to 4 - 4 band dynamic shadows on units and terrain, 2048", -- [1]
+			"Shadow RT mode changed to 1 (Fair) - Reduced-resolution directional light shadows", -- [1]
 			0, -- [2]
 		}, -- [622]
 		{
-			"Shadow texture size changed to 2048.", -- [1]
+			"maxLightCount must be in range 0 to 32.", -- [1]
 			0, -- [2]
 		}, -- [623]
 		{
-			"Soft shadows changed to 1.", -- [1]
+			"CVar 'maxLightCount' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [624]
 		{
-			"Shadow RT mode changed to 1 (Fair) - Reduced-resolution directional light shadows", -- [1]
+			"SSAO mode set to 4", -- [1]
 			0, -- [2]
 		}, -- [625]
 		{
-			"maxLightCount must be in range 0 to 32.", -- [1]
+			"SSAO type set to 0", -- [1]
 			0, -- [2]
 		}, -- [626]
 		{
-			"CVar 'maxLightCount' failed validation for its initial value.", -- [1]
+			"SkyCloudLOD set to 0", -- [1]
 			0, -- [2]
 		}, -- [627]
 		{
-			"SSAO mode set to 4", -- [1]
+			"Texture filtering mode updated.", -- [1]
 			0, -- [2]
 		}, -- [628]
 		{
-			"SSAO type set to 0", -- [1]
+			"Terrain mip level changed to 0.", -- [1]
 			0, -- [2]
 		}, -- [629]
 		{
-			"SkyCloudLOD set to 0", -- [1]
+			"Render scale changed to 1", -- [1]
 			0, -- [2]
 		}, -- [630]
 		{
-			"Texture filtering mode updated.", -- [1]
+			"Resample quality changed to 1", -- [1]
 			0, -- [2]
 		}, -- [631]
 		{
-			"Terrain mip level changed to 0.", -- [1]
+			"MSAA set to 2 color samples, 2 coverage samples", -- [1]
 			0, -- [2]
 		}, -- [632]
 		{
-			"Render scale changed to 1", -- [1]
+			"MSAA for alpha-test enabled.", -- [1]
 			0, -- [2]
 		}, -- [633]
 		{
-			"Resample quality changed to 1", -- [1]
+			"lodObjectSizeScale cannot be changed.", -- [1]
 			0, -- [2]
 		}, -- [634]
 		{
-			"MSAA set to 2 color samples, 2 coverage samples", -- [1]
+			"dynamicLod enabled", -- [1]
 			0, -- [2]
 		}, -- [635]
 		{
-			"MSAA for alpha-test enabled.", -- [1]
+			"World preload object sort enabled.", -- [1]
 			0, -- [2]
 		}, -- [636]
 		{
-			"lodObjectSizeScale cannot be changed.", -- [1]
+			"World load object sort enabled.", -- [1]
 			0, -- [2]
 		}, -- [637]
 		{
-			"dynamicLod enabled", -- [1]
+			"World preload non critical enabled.", -- [1]
 			0, -- [2]
 		}, -- [638]
 		{
-			"World preload object sort enabled.", -- [1]
+			"World preload high res textures enabled.", -- [1]
 			0, -- [2]
 		}, -- [639]
 		{
-			"World load object sort enabled.", -- [1]
+			"FFX: Color Blind Test Mode Disabled", -- [1]
 			0, -- [2]
 		}, -- [640]
 		{
-			"World preload non critical enabled.", -- [1]
+			"Full memory crash dump disabled", -- [1]
 			0, -- [2]
 		}, -- [641]
 		{
-			"World preload high res textures enabled.", -- [1]
+			"Error display disabled", -- [1]
 			0, -- [2]
 		}, -- [642]
 		{
-			"FFX: Color Blind Test Mode Disabled", -- [1]
+			"Error display shown", -- [1]
 			0, -- [2]
 		}, -- [643]
 		{
-			"Full memory crash dump disabled", -- [1]
+			"Displaying errors through fatal errors", -- [1]
 			0, -- [2]
 		}, -- [644]
 		{
-			"Error display disabled", -- [1]
+			"Displaying errors through fatal errors", -- [1]
 			0, -- [2]
 		}, -- [645]
 		{
-			"Error display shown", -- [1]
+			"Now filtering: all messages", -- [1]
 			0, -- [2]
 		}, -- [646]
 		{
-			"Displaying errors through fatal errors", -- [1]
+			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [647]
 		{
-			"Displaying errors through fatal errors", -- [1]
+			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [648]
 		{
-			"Now filtering: all messages", -- [1]
+			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [649]
 		{
-			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [650]
 		{
-			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"GamePad input enabled.", -- [1]
 			0, -- [2]
 		}, -- [651]
 		{
-			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"[GlueLogin] Starting loginlauncherPortal=\"cn.actual.battle.net\" loginPortal=\"cn.actual.battle.net:1119\"", -- [1]
 			0, -- [2]
 		}, -- [652]
 		{
-			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"[GlueLogin] Resetting", -- [1]
 			0, -- [2]
 		}, -- [653]
 		{
-			"GamePad 1 connected: Controller (XBOX 360 For Windows)", -- [1]
+			"[IBN_Login] Initializing", -- [1]
 			0, -- [2]
 		}, -- [654]
 		{
-			"GamePad input enabled.", -- [1]
+			"[IBN_Login] Attempting logonhost=\"cn.actual.battle.net\" port=\"1119\"", -- [1]
 			0, -- [2]
 		}, -- [655]
 		{
-			"[GlueLogin] Starting loginlauncherPortal=\"cn.actual.battle.net\" loginPortal=\"cn.actual.battle.net:1119\"", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [656]
 		{
-			"[GlueLogin] Resetting", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [657]
 		{
-			"[IBN_Login] Initializing", -- [1]
+			"[GlueLogin] Logon queue update.", -- [1]
 			0, -- [2]
 		}, -- [658]
 		{
-			"[IBN_Login] Attempting logonhost=\"cn.actual.battle.net\" port=\"1119\"", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [659]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"[GlueLogin] Logon complete.", -- [1]
 			0, -- [2]
 		}, -- [660]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"[GlueLogin] Reconnect token saved; creationTime=\"1660570298\" expirationTime=\"1660584698\"", -- [1]
 			0, -- [2]
 		}, -- [661]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
 		}, -- [662]
 		{
-			"[GlueLogin] Logon complete.", -- [1]
+			"[IBN_Login] Requesting realm list ticket", -- [1]
 			0, -- [2]
 		}, -- [663]
 		{
-			"[GlueLogin] Reconnect token saved; creationTime=\"1660474538\" expirationTime=\"1660488938\"", -- [1]
+			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [664]
 		{
@@ -2663,155 +2664,155 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [665]
 		{
-			"[IBN_Login] Requesting realm list ticket", -- [1]
+			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [666]
 		{
-			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
+			"[IBN_Login] Requesting last played charsnumSubRegions=\"2\"", -- [1]
 			0, -- [2]
 		}, -- [667]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"[GlueLogin] Realm list ready.", -- [1]
 			0, -- [2]
 		}, -- [668]
 		{
-			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
+			"[IBN_Login] Joining realmsubRegion=\"45-1-89\" realmAddress=\"45-1-26\"", -- [1]
 			0, -- [2]
 		}, -- [669]
 		{
-			"[IBN_Login] Requesting last played charsnumSubRegions=\"2\"", -- [1]
+			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [670]
 		{
-			"[GlueLogin] Realm list ready.", -- [1]
+			"NetClient::HandleConnect()\n", -- [1]
 			0, -- [2]
 		}, -- [671]
 		{
-			"[IBN_Login] Joining realmsubRegion=\"45-1-89\" realmAddress=\"45-1-26\"", -- [1]
+			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [672]
 		{
-			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
+			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
 			0, -- [2]
 		}, -- [673]
 		{
-			"NetClient::HandleConnect()\n", -- [1]
+			"[GlueLogin] Disconnecting from authentication server.", -- [1]
 			0, -- [2]
 		}, -- [674]
 		{
-			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
+			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
 			0, -- [2]
 		}, -- [675]
 		{
-			"Got new connection 2", -- [1]
+			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
 			0, -- [2]
 		}, -- [676]
 		{
-			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
+			"[GlueLogin] Disconnected from authentication server.", -- [1]
 			0, -- [2]
 		}, -- [677]
 		{
-			"[GlueLogin] Disconnecting from authentication server.", -- [1]
+			"[WowEntitlements] [BNetAccount-0-00000BC426B8] [WowAccount-0-000004FE320E] Initialized with 2 entitlements.", -- [1]
 			0, -- [2]
 		}, -- [678]
 		{
-			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [679]
 		{
-			"[WowEntitlements] [BNetAccount-0-00000BC426B8] [WowAccount-0-000004FE320E] Initialized with 2 entitlements.", -- [1]
+			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [680]
 		{
-			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
+			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [681]
 		{
-			"[GlueLogin] Disconnected from authentication server.", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [682]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"Proficiency in item class 2 set to 0x0000000080", -- [1]
 			0, -- [2]
 		}, -- [683]
 		{
-			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
+			"Proficiency in item class 2 set to 0x0000008080", -- [1]
 			0, -- [2]
 		}, -- [684]
 		{
-			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
+			"Proficiency in item class 2 set to 0x0000018080", -- [1]
 			0, -- [2]
 		}, -- [685]
 		{
-			"Got new connection 3", -- [1]
+			"Proficiency in item class 4 set to 0x0000000001", -- [1]
 			0, -- [2]
 		}, -- [686]
 		{
-			"Proficiency in item class 2 set to 0x0000000080", -- [1]
+			"Proficiency in item class 2 set to 0x000001c080", -- [1]
 			0, -- [2]
 		}, -- [687]
 		{
-			"Proficiency in item class 2 set to 0x0000008080", -- [1]
+			"Proficiency in item class 2 set to 0x000005c080", -- [1]
 			0, -- [2]
 		}, -- [688]
 		{
-			"Proficiency in item class 2 set to 0x0000018080", -- [1]
+			"Proficiency in item class 4 set to 0x0000000005", -- [1]
 			0, -- [2]
 		}, -- [689]
 		{
-			"Proficiency in item class 4 set to 0x0000000001", -- [1]
+			"Proficiency in item class 4 set to 0x0000000007", -- [1]
 			0, -- [2]
 		}, -- [690]
 		{
-			"Proficiency in item class 2 set to 0x000001c080", -- [1]
+			"Proficiency in item class 2 set to 0x000005c080", -- [1]
 			0, -- [2]
 		}, -- [691]
 		{
-			"Proficiency in item class 2 set to 0x000005c080", -- [1]
+			"Proficiency in item class 4 set to 0x0000000007", -- [1]
 			0, -- [2]
 		}, -- [692]
 		{
-			"Proficiency in item class 4 set to 0x0000000005", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [693]
 		{
-			"Proficiency in item class 4 set to 0x0000000007", -- [1]
+			"Time set to 8/15/2022 (Mon) 21:33", -- [1]
 			0, -- [2]
 		}, -- [694]
 		{
-			"Proficiency in item class 2 set to 0x000005c080", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [695]
 		{
-			"Proficiency in item class 4 set to 0x0000000007", -- [1]
+			"Value out of range (1.000000 - 4.000000)\n", -- [1]
 			0, -- [2]
 		}, -- [696]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Time played:", -- [1]
 			0, -- [2]
 		}, -- [697]
 		{
-			"Time set to 8/14/2022 (Sun) 18:56", -- [1]
+			"Total: 1d 2h 31m 6s", -- [1]
 			0, -- [2]
 		}, -- [698]
 		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
+			"Level: 0d 0h 45m 20s", -- [1]
 			0, -- [2]
 		}, -- [699]
 		{
-			"Value out of range (1.000000 - 4.000000)\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [700]
 		{
-			"Time played:", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [701]
 		{
-			"Total: 0d 22h 44m 15s", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [702]
 		{
-			"Level: 0d 0h 3m 59s", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [703]
 		{
@@ -2827,927 +2828,927 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [706]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [707]
 		{
-			"[GlueLogin] Explicitly disconnecting from realm server", -- [1]
+			"GamePad 1 connected: Controller (XBOX 360 For Windows)", -- [1]
 			0, -- [2]
 		}, -- [708]
 		{
-			"Disconnecting for reason 14", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [709]
 		{
-			"NetClient::HandleDisconnect()\n", -- [1]
+			"Skill 38 increased from 180 to 185", -- [1]
 			0, -- [2]
 		}, -- [710]
 		{
-			"[IBN_BackInterface] Session with Battle.net destroyed.", -- [1]
+			"Skill 39 increased from 180 to 185", -- [1]
 			0, -- [2]
 		}, -- [711]
 		{
-			"[GlueLogin] Disconnected from WoWpreviouslyConnected=\"false\"", -- [1]
+			"Skill 118 increased from 180 to 185", -- [1]
 			0, -- [2]
 		}, -- [712]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"Skill 183 increased from 180 to 185", -- [1]
 			0, -- [2]
 		}, -- [713]
 		{
-			"Sorting particles normally.", -- [1]
+			"Skill 253 increased from 180 to 185", -- [1]
 			0, -- [2]
 		}, -- [714]
 		{
-			"Multithreaded rendering enabled.", -- [1]
+			"Skill 754 increased from 180 to 185", -- [1]
 			0, -- [2]
 		}, -- [715]
 		{
-			"Multithreaded BeginDraw enabled.", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [716]
 		{
-			"Multithread shadows changed to 1.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [717]
 		{
-			"Multithreaded prepass enabled.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [718]
 		{
-			"Multithreaded opaque pass enabled.", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [719]
 		{
-			"Multithreaded opaque pass enabled.", -- [1]
+			"Weather changed to 2, intensity 0.500000\n", -- [1]
 			0, -- [2]
 		}, -- [720]
 		{
-			"Multithreaded alpha M2 pass enabled.", -- [1]
+			"Weather changed to 2, intensity 0.500000\n", -- [1]
 			0, -- [2]
 		}, -- [721]
 		{
-			"Multithreaded opaque WMO pass enabled.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [722]
 		{
-			"Multithreaded terrain pass enabled.", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [723]
 		{
-			"Water detail changed to 3", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [724]
 		{
-			"Ripple detail changed to 2", -- [1]
+			"Attempted to register existing command: ShowObjUsage\n", -- [1]
 			0, -- [2]
 		}, -- [725]
 		{
-			"Reflection mode changed to 3", -- [1]
+			"Attempted to register existing command: SetDifficulty\n", -- [1]
 			0, -- [2]
 		}, -- [726]
 		{
-			"Reflection downscale changed to 0", -- [1]
+			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [727]
 		{
-			"Sunshafts quality changed to 2", -- [1]
+			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [728]
 		{
-			"Enabling BSP node cache (first time - starting up)", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [729]
 		{
-			"Projected textures enabled.", -- [1]
+			"Proficiency in item class 2 set to 0x0000000010", -- [1]
 			0, -- [2]
 		}, -- [730]
 		{
-			"Spell Clutter set to dynamic", -- [1]
+			"Proficiency in item class 2 set to 0x0000000030", -- [1]
 			0, -- [2]
 		}, -- [731]
 		{
-			"Shadow mode changed to 4 - 4 band dynamic shadows on units and terrain, 2048", -- [1]
+			"Proficiency in item class 4 set to 0x0000000080", -- [1]
 			0, -- [2]
 		}, -- [732]
 		{
-			"Shadow texture size changed to 2048.", -- [1]
+			"Proficiency in item class 4 set to 0x0000000081", -- [1]
 			0, -- [2]
 		}, -- [733]
 		{
-			"Soft shadows changed to 1.", -- [1]
+			"Proficiency in item class 2 set to 0x0000004030", -- [1]
 			0, -- [2]
 		}, -- [734]
 		{
-			"Shadow RT mode changed to 1 (Fair) - Reduced-resolution directional light shadows", -- [1]
+			"Proficiency in item class 4 set to 0x0000000089", -- [1]
 			0, -- [2]
 		}, -- [735]
 		{
-			"maxLightCount must be in range 0 to 32.", -- [1]
+			"Proficiency in item class 4 set to 0x000000008d", -- [1]
 			0, -- [2]
 		}, -- [736]
 		{
-			"CVar 'maxLightCount' failed validation for its initial value.", -- [1]
+			"Proficiency in item class 4 set to 0x000000008f", -- [1]
 			0, -- [2]
 		}, -- [737]
 		{
-			"SSAO mode set to 4", -- [1]
+			"Proficiency in item class 4 set to 0x00000000cf", -- [1]
 			0, -- [2]
 		}, -- [738]
 		{
-			"SSAO type set to 0", -- [1]
+			"Proficiency in item class 2 set to 0x0000004030", -- [1]
 			0, -- [2]
 		}, -- [739]
 		{
-			"SkyCloudLOD set to 0", -- [1]
+			"Proficiency in item class 4 set to 0x00000000cf", -- [1]
 			0, -- [2]
 		}, -- [740]
 		{
-			"Texture filtering mode updated.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [741]
 		{
-			"Terrain mip level changed to 0.", -- [1]
+			"Time set to 8/15/2022 (Mon) 22:07", -- [1]
 			0, -- [2]
 		}, -- [742]
 		{
-			"Render scale changed to 1", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [743]
 		{
-			"Resample quality changed to 1", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [744]
 		{
-			"MSAA set to 2 color samples, 2 coverage samples", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [745]
 		{
-			"MSAA for alpha-test enabled.", -- [1]
+			"Attempted to register existing command: ShowObjUsage\n", -- [1]
 			0, -- [2]
 		}, -- [746]
 		{
-			"lodObjectSizeScale cannot be changed.", -- [1]
+			"Attempted to register existing command: SetDifficulty\n", -- [1]
 			0, -- [2]
 		}, -- [747]
 		{
-			"dynamicLod enabled", -- [1]
+			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [748]
 		{
-			"World preload object sort enabled.", -- [1]
+			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [749]
 		{
-			"World load object sort enabled.", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [750]
 		{
-			"World preload non critical enabled.", -- [1]
+			"Proficiency in item class 2 set to 0x0000000080", -- [1]
 			0, -- [2]
 		}, -- [751]
 		{
-			"World preload high res textures enabled.", -- [1]
+			"Proficiency in item class 2 set to 0x0000008080", -- [1]
 			0, -- [2]
 		}, -- [752]
 		{
-			"FFX: Color Blind Test Mode Disabled", -- [1]
+			"Proficiency in item class 2 set to 0x0000018080", -- [1]
 			0, -- [2]
 		}, -- [753]
 		{
-			"Full memory crash dump disabled", -- [1]
+			"Proficiency in item class 4 set to 0x0000000001", -- [1]
 			0, -- [2]
 		}, -- [754]
 		{
-			"Error display disabled", -- [1]
+			"Proficiency in item class 2 set to 0x000001c080", -- [1]
 			0, -- [2]
 		}, -- [755]
 		{
-			"Error display shown", -- [1]
+			"Proficiency in item class 2 set to 0x000005c080", -- [1]
 			0, -- [2]
 		}, -- [756]
 		{
-			"Displaying errors through fatal errors", -- [1]
+			"Proficiency in item class 4 set to 0x0000000005", -- [1]
 			0, -- [2]
 		}, -- [757]
 		{
-			"Displaying errors through fatal errors", -- [1]
+			"Proficiency in item class 4 set to 0x0000000007", -- [1]
 			0, -- [2]
 		}, -- [758]
 		{
-			"Now filtering: all messages", -- [1]
+			"Proficiency in item class 2 set to 0x000005c080", -- [1]
 			0, -- [2]
 		}, -- [759]
 		{
-			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"Proficiency in item class 4 set to 0x0000000007", -- [1]
 			0, -- [2]
 		}, -- [760]
 		{
-			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [761]
 		{
-			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"Time set to 8/15/2022 (Mon) 22:09", -- [1]
 			0, -- [2]
 		}, -- [762]
 		{
-			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [763]
 		{
-			"GamePad 1 connected: Controller (XBOX 360 For Windows)", -- [1]
+			"Value out of range (1.000000 - 4.000000)\n", -- [1]
 			0, -- [2]
 		}, -- [764]
 		{
-			"GamePad input enabled.", -- [1]
+			"Time played:", -- [1]
 			0, -- [2]
 		}, -- [765]
 		{
-			"[GlueLogin] Starting loginlauncherPortal=\"cn.actual.battle.net\" loginPortal=\"cn.actual.battle.net:1119\"", -- [1]
+			"Total: 1d 3h 6m 23s", -- [1]
 			0, -- [2]
 		}, -- [766]
 		{
-			"[GlueLogin] Resetting", -- [1]
+			"Level: 0d 0h 14m 56s", -- [1]
 			0, -- [2]
 		}, -- [767]
 		{
-			"[IBN_Login] Initializing", -- [1]
+			"Skill 129 increased from 225 to 226", -- [1]
 			0, -- [2]
 		}, -- [768]
 		{
-			"[IBN_Login] Attempting logonhost=\"cn.actual.battle.net\" port=\"1119\"", -- [1]
+			"Skill 129 increased from 226 to 227", -- [1]
 			0, -- [2]
 		}, -- [769]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Skill 129 increased from 227 to 228", -- [1]
 			0, -- [2]
 		}, -- [770]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Skill 129 increased from 228 to 229", -- [1]
 			0, -- [2]
 		}, -- [771]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Skill 129 increased from 229 to 230", -- [1]
 			0, -- [2]
 		}, -- [772]
 		{
-			"[GlueLogin] Logon complete.", -- [1]
+			"Skill 129 increased from 230 to 231", -- [1]
 			0, -- [2]
 		}, -- [773]
 		{
-			"[GlueLogin] Reconnect token saved; creationTime=\"1660484935\" expirationTime=\"1660499335\"", -- [1]
+			"Skill 129 increased from 231 to 232", -- [1]
 			0, -- [2]
 		}, -- [774]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"Skill 129 increased from 232 to 233", -- [1]
 			0, -- [2]
 		}, -- [775]
 		{
-			"[IBN_Login] Requesting realm list ticket", -- [1]
+			"Skill 129 increased from 233 to 234", -- [1]
 			0, -- [2]
 		}, -- [776]
 		{
-			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
+			"Skill 129 increased from 234 to 235", -- [1]
 			0, -- [2]
 		}, -- [777]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"Skill 129 increased from 235 to 236", -- [1]
 			0, -- [2]
 		}, -- [778]
 		{
-			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
+			"Skill 129 increased from 236 to 237", -- [1]
 			0, -- [2]
 		}, -- [779]
 		{
-			"[IBN_Login] Requesting last played charsnumSubRegions=\"2\"", -- [1]
+			"Skill 129 increased from 237 to 238", -- [1]
 			0, -- [2]
 		}, -- [780]
 		{
-			"[GlueLogin] Realm list ready.", -- [1]
+			"Skill 129 increased from 238 to 239", -- [1]
 			0, -- [2]
 		}, -- [781]
 		{
-			"[IBN_Login] Joining realmsubRegion=\"45-1-89\" realmAddress=\"45-1-26\"", -- [1]
+			"Skill 129 increased from 239 to 240", -- [1]
 			0, -- [2]
 		}, -- [782]
 		{
-			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
+			"Weather changed to 2, intensity 0.500000\n", -- [1]
 			0, -- [2]
 		}, -- [783]
 		{
-			"NetClient::HandleConnect()\n", -- [1]
+			"Skill 129 increased from 240 to 241", -- [1]
 			0, -- [2]
 		}, -- [784]
 		{
-			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
+			"Skill 129 increased from 241 to 242", -- [1]
 			0, -- [2]
 		}, -- [785]
 		{
-			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
+			"Skill 129 increased from 242 to 243", -- [1]
 			0, -- [2]
 		}, -- [786]
 		{
-			"[GlueLogin] Disconnecting from authentication server.", -- [1]
+			"Skill 129 increased from 243 to 244", -- [1]
 			0, -- [2]
 		}, -- [787]
 		{
-			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
+			"Skill 129 increased from 244 to 245", -- [1]
 			0, -- [2]
 		}, -- [788]
 		{
-			"Got new connection 2", -- [1]
+			"Skill 129 increased from 245 to 246", -- [1]
 			0, -- [2]
 		}, -- [789]
 		{
-			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
+			"Skill 129 increased from 246 to 247", -- [1]
 			0, -- [2]
 		}, -- [790]
 		{
-			"[GlueLogin] Disconnected from authentication server.", -- [1]
+			"Skill 129 increased from 247 to 248", -- [1]
 			0, -- [2]
 		}, -- [791]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"Skill 129 increased from 248 to 249", -- [1]
 			0, -- [2]
 		}, -- [792]
 		{
-			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
+			"Skill 129 increased from 249 to 250", -- [1]
 			0, -- [2]
 		}, -- [793]
 		{
-			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
+			"Skill 129 increased from 250 to 251", -- [1]
 			0, -- [2]
 		}, -- [794]
 		{
-			"[WowEntitlements] [BNetAccount-0-00000BC426B8] [WowAccount-0-000004FE320E] Initialized with 2 entitlements.", -- [1]
+			"Skill 129 increased from 251 to 252", -- [1]
 			0, -- [2]
 		}, -- [795]
 		{
-			"Got new connection 3", -- [1]
+			"Skill 129 increased from 252 to 253", -- [1]
 			0, -- [2]
 		}, -- [796]
 		{
-			"Proficiency in item class 2 set to 0x0000000080", -- [1]
+			"Skill 129 increased from 253 to 254", -- [1]
 			0, -- [2]
 		}, -- [797]
 		{
-			"Proficiency in item class 2 set to 0x0000008080", -- [1]
+			"Skill 129 increased from 254 to 255", -- [1]
 			0, -- [2]
 		}, -- [798]
 		{
-			"Proficiency in item class 2 set to 0x0000018080", -- [1]
+			"Skill 129 increased from 255 to 256", -- [1]
 			0, -- [2]
 		}, -- [799]
 		{
-			"Proficiency in item class 4 set to 0x0000000001", -- [1]
+			"Skill 129 increased from 256 to 257", -- [1]
 			0, -- [2]
 		}, -- [800]
 		{
-			"Proficiency in item class 2 set to 0x000001c080", -- [1]
+			"Skill 129 increased from 257 to 258", -- [1]
 			0, -- [2]
 		}, -- [801]
 		{
-			"Proficiency in item class 2 set to 0x000005c080", -- [1]
+			"Skill 129 increased from 258 to 259", -- [1]
 			0, -- [2]
 		}, -- [802]
 		{
-			"Proficiency in item class 4 set to 0x0000000005", -- [1]
+			"Skill 129 increased from 259 to 260", -- [1]
 			0, -- [2]
 		}, -- [803]
 		{
-			"Proficiency in item class 4 set to 0x0000000007", -- [1]
+			"Skill 129 increased from 260 to 261", -- [1]
 			0, -- [2]
 		}, -- [804]
 		{
-			"Proficiency in item class 2 set to 0x000005c080", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [805]
 		{
-			"Proficiency in item class 4 set to 0x0000000007", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [806]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [807]
 		{
-			"Time set to 8/14/2022 (Sun) 21:50", -- [1]
+			"Attempted to register existing command: ShowObjUsage\n", -- [1]
 			0, -- [2]
 		}, -- [808]
 		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
+			"Attempted to register existing command: SetDifficulty\n", -- [1]
 			0, -- [2]
 		}, -- [809]
 		{
-			"Value out of range (1.000000 - 4.000000)\n", -- [1]
+			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [810]
 		{
-			"Time played:", -- [1]
+			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [811]
 		{
-			"Total: 0d 22h 51m 8s", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [812]
 		{
-			"Level: 0d 0h 10m 52s", -- [1]
+			"Proficiency in item class 2 set to 0x0000000010", -- [1]
 			0, -- [2]
 		}, -- [813]
 		{
-			"[GlueLogin] Fatal error while logging inresult=\"( code=\" (325)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
+			"Proficiency in item class 2 set to 0x0000000030", -- [1]
 			0, -- [2]
 		}, -- [814]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 4 set to 0x0000000080", -- [1]
 			0, -- [2]
 		}, -- [815]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 4 set to 0x0000000081", -- [1]
 			0, -- [2]
 		}, -- [816]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 2 set to 0x0000004030", -- [1]
 			0, -- [2]
 		}, -- [817]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 4 set to 0x0000000089", -- [1]
 			0, -- [2]
 		}, -- [818]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 4 set to 0x000000008d", -- [1]
 			0, -- [2]
 		}, -- [819]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 4 set to 0x000000008f", -- [1]
 			0, -- [2]
 		}, -- [820]
 		{
-			"Skill 173 increased from 157 to 158", -- [1]
+			"Proficiency in item class 4 set to 0x00000000cf", -- [1]
 			0, -- [2]
 		}, -- [821]
 		{
-			"Skill 43 increased from 159 to 160", -- [1]
+			"Proficiency in item class 2 set to 0x0000004030", -- [1]
 			0, -- [2]
 		}, -- [822]
 		{
-			"Skill 176 increased from 153 to 154", -- [1]
+			"Proficiency in item class 4 set to 0x00000000cf", -- [1]
 			0, -- [2]
 		}, -- [823]
 		{
-			"Skill 173 increased from 158 to 159", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [824]
 		{
-			"Skill 95 increased from 156 to 157", -- [1]
+			"Time set to 8/15/2022 (Mon) 22:14", -- [1]
 			0, -- [2]
 		}, -- [825]
 		{
-			"Skill 43 increased from 160 to 161", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [826]
 		{
-			"Skill 173 increased from 159 to 160", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [827]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [828]
 		{
-			"Skill 43 increased from 161 to 162", -- [1]
+			"Attempted to register existing command: ShowObjUsage\n", -- [1]
 			0, -- [2]
 		}, -- [829]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Attempted to register existing command: SetDifficulty\n", -- [1]
 			0, -- [2]
 		}, -- [830]
 		{
-			"Skill 95 increased from 157 to 158", -- [1]
+			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [831]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [832]
 		{
-			"Sorting particles normally.", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [833]
 		{
-			"Multithreaded rendering enabled.", -- [1]
+			"Proficiency in item class 2 set to 0x0000000080", -- [1]
 			0, -- [2]
 		}, -- [834]
 		{
-			"Multithreaded BeginDraw enabled.", -- [1]
+			"Proficiency in item class 2 set to 0x0000008080", -- [1]
 			0, -- [2]
 		}, -- [835]
 		{
-			"Multithread shadows changed to 1.", -- [1]
+			"Proficiency in item class 2 set to 0x0000018080", -- [1]
 			0, -- [2]
 		}, -- [836]
 		{
-			"Multithreaded prepass enabled.", -- [1]
+			"Proficiency in item class 4 set to 0x0000000001", -- [1]
 			0, -- [2]
 		}, -- [837]
 		{
-			"Multithreaded opaque pass enabled.", -- [1]
+			"Proficiency in item class 2 set to 0x000001c080", -- [1]
 			0, -- [2]
 		}, -- [838]
 		{
-			"Multithreaded opaque pass enabled.", -- [1]
+			"Proficiency in item class 2 set to 0x000005c080", -- [1]
 			0, -- [2]
 		}, -- [839]
 		{
-			"Multithreaded alpha M2 pass enabled.", -- [1]
+			"Proficiency in item class 4 set to 0x0000000005", -- [1]
 			0, -- [2]
 		}, -- [840]
 		{
-			"Multithreaded opaque WMO pass enabled.", -- [1]
+			"Proficiency in item class 4 set to 0x0000000007", -- [1]
 			0, -- [2]
 		}, -- [841]
 		{
-			"Multithreaded terrain pass enabled.", -- [1]
+			"Proficiency in item class 2 set to 0x000005c080", -- [1]
 			0, -- [2]
 		}, -- [842]
 		{
-			"Water detail changed to 3", -- [1]
+			"Proficiency in item class 4 set to 0x0000000007", -- [1]
 			0, -- [2]
 		}, -- [843]
 		{
-			"Ripple detail changed to 2", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [844]
 		{
-			"Reflection mode changed to 3", -- [1]
+			"Time set to 8/15/2022 (Mon) 22:14", -- [1]
 			0, -- [2]
 		}, -- [845]
 		{
-			"Reflection downscale changed to 0", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [846]
 		{
-			"Sunshafts quality changed to 2", -- [1]
+			"Value out of range (1.000000 - 4.000000)\n", -- [1]
 			0, -- [2]
 		}, -- [847]
 		{
-			"Enabling BSP node cache (first time - starting up)", -- [1]
+			"Time played:", -- [1]
 			0, -- [2]
 		}, -- [848]
 		{
-			"Projected textures enabled.", -- [1]
+			"Total: 1d 3h 10m 24s", -- [1]
 			0, -- [2]
 		}, -- [849]
 		{
-			"Spell Clutter set to dynamic", -- [1]
+			"Level: 0d 0h 18m 57s", -- [1]
 			0, -- [2]
 		}, -- [850]
 		{
-			"Shadow mode changed to 4 - 4 band dynamic shadows on units and terrain, 2048", -- [1]
+			"Weather changed to 2, intensity 0.500000\n", -- [1]
 			0, -- [2]
 		}, -- [851]
 		{
-			"Shadow texture size changed to 2048.", -- [1]
+			"Skill 129 increased from 261 to 262", -- [1]
 			0, -- [2]
 		}, -- [852]
 		{
-			"Soft shadows changed to 1.", -- [1]
+			"Skill 129 increased from 262 to 263", -- [1]
 			0, -- [2]
 		}, -- [853]
 		{
-			"Shadow RT mode changed to 1 (Fair) - Reduced-resolution directional light shadows", -- [1]
+			"Skill 129 increased from 263 to 264", -- [1]
 			0, -- [2]
 		}, -- [854]
 		{
-			"maxLightCount must be in range 0 to 32.", -- [1]
+			"Skill 129 increased from 264 to 265", -- [1]
 			0, -- [2]
 		}, -- [855]
 		{
-			"CVar 'maxLightCount' failed validation for its initial value.", -- [1]
+			"Skill 129 increased from 265 to 266", -- [1]
 			0, -- [2]
 		}, -- [856]
 		{
-			"SSAO mode set to 4", -- [1]
+			"Skill 129 increased from 266 to 267", -- [1]
 			0, -- [2]
 		}, -- [857]
 		{
-			"SSAO type set to 0", -- [1]
+			"Skill 129 increased from 267 to 268", -- [1]
 			0, -- [2]
 		}, -- [858]
 		{
-			"SkyCloudLOD set to 0", -- [1]
+			"Skill 129 increased from 268 to 269", -- [1]
 			0, -- [2]
 		}, -- [859]
 		{
-			"Texture filtering mode updated.", -- [1]
+			"Skill 129 increased from 269 to 270", -- [1]
 			0, -- [2]
 		}, -- [860]
 		{
-			"Terrain mip level changed to 0.", -- [1]
+			"Skill 129 increased from 270 to 271", -- [1]
 			0, -- [2]
 		}, -- [861]
 		{
-			"Render scale changed to 1", -- [1]
+			"Skill 129 increased from 271 to 272", -- [1]
 			0, -- [2]
 		}, -- [862]
 		{
-			"Resample quality changed to 1", -- [1]
+			"Skill 129 increased from 272 to 273", -- [1]
 			0, -- [2]
 		}, -- [863]
 		{
-			"MSAA set to 2 color samples, 2 coverage samples", -- [1]
+			"Skill 129 increased from 273 to 274", -- [1]
 			0, -- [2]
 		}, -- [864]
 		{
-			"MSAA for alpha-test enabled.", -- [1]
+			"Skill 129 increased from 274 to 275", -- [1]
 			0, -- [2]
 		}, -- [865]
 		{
-			"lodObjectSizeScale cannot be changed.", -- [1]
+			"Skill 129 increased from 275 to 276", -- [1]
 			0, -- [2]
 		}, -- [866]
 		{
-			"dynamicLod enabled", -- [1]
+			"Skill 129 increased from 276 to 277", -- [1]
 			0, -- [2]
 		}, -- [867]
 		{
-			"World preload object sort enabled.", -- [1]
+			"Skill 129 increased from 277 to 278", -- [1]
 			0, -- [2]
 		}, -- [868]
 		{
-			"World load object sort enabled.", -- [1]
+			"Skill 129 increased from 278 to 279", -- [1]
 			0, -- [2]
 		}, -- [869]
 		{
-			"World preload non critical enabled.", -- [1]
+			"Skill 129 increased from 279 to 280", -- [1]
 			0, -- [2]
 		}, -- [870]
 		{
-			"World preload high res textures enabled.", -- [1]
+			"Skill 129 increased from 280 to 281", -- [1]
 			0, -- [2]
 		}, -- [871]
 		{
-			"FFX: Color Blind Test Mode Disabled", -- [1]
+			"Skill 129 increased from 281 to 282", -- [1]
 			0, -- [2]
 		}, -- [872]
 		{
-			"Full memory crash dump disabled", -- [1]
+			"Skill 129 increased from 282 to 283", -- [1]
 			0, -- [2]
 		}, -- [873]
 		{
-			"Error display disabled", -- [1]
+			"Skill 129 increased from 283 to 284", -- [1]
 			0, -- [2]
 		}, -- [874]
 		{
-			"Error display shown", -- [1]
+			"Skill 129 increased from 284 to 285", -- [1]
 			0, -- [2]
 		}, -- [875]
 		{
-			"Displaying errors through fatal errors", -- [1]
+			"Skill 129 increased from 285 to 286", -- [1]
 			0, -- [2]
 		}, -- [876]
 		{
-			"Displaying errors through fatal errors", -- [1]
+			"Skill 129 increased from 286 to 287", -- [1]
 			0, -- [2]
 		}, -- [877]
 		{
-			"Now filtering: all messages", -- [1]
+			"Skill 129 increased from 287 to 288", -- [1]
 			0, -- [2]
 		}, -- [878]
 		{
-			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"Skill 129 increased from 288 to 289", -- [1]
 			0, -- [2]
 		}, -- [879]
 		{
-			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"Skill 129 increased from 289 to 290", -- [1]
 			0, -- [2]
 		}, -- [880]
 		{
-			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"Skill 129 increased from 290 to 291", -- [1]
 			0, -- [2]
 		}, -- [881]
 		{
-			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"Skill 129 increased from 291 to 292", -- [1]
 			0, -- [2]
 		}, -- [882]
 		{
-			"GamePad 1 connected: Controller (XBOX 360 For Windows)", -- [1]
+			"Skill 129 increased from 292 to 293", -- [1]
 			0, -- [2]
 		}, -- [883]
 		{
-			"GamePad input enabled.", -- [1]
+			"Skill 129 increased from 293 to 294", -- [1]
 			0, -- [2]
 		}, -- [884]
 		{
-			"[GlueLogin] Starting loginlauncherPortal=\"cn.actual.battle.net\" loginPortal=\"cn.actual.battle.net:1119\"", -- [1]
+			"Skill 129 increased from 294 to 295", -- [1]
 			0, -- [2]
 		}, -- [885]
 		{
-			"[GlueLogin] Resetting", -- [1]
+			"Skill 129 increased from 295 to 296", -- [1]
 			0, -- [2]
 		}, -- [886]
 		{
-			"[IBN_Login] Initializing", -- [1]
+			"Skill 129 increased from 296 to 297", -- [1]
 			0, -- [2]
 		}, -- [887]
 		{
-			"[IBN_Login] Attempting logonhost=\"cn.actual.battle.net\" port=\"1119\"", -- [1]
+			"Skill 129 increased from 297 to 298", -- [1]
 			0, -- [2]
 		}, -- [888]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Skill 129 increased from 298 to 299", -- [1]
 			0, -- [2]
 		}, -- [889]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Skill 129 increased from 299 to 300", -- [1]
 			0, -- [2]
 		}, -- [890]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [891]
 		{
-			"[GlueLogin] Logon complete.", -- [1]
+			"Skill 43 increased from 179 to 180", -- [1]
 			0, -- [2]
 		}, -- [892]
 		{
-			"[GlueLogin] Reconnect token saved; creationTime=\"1660486751\" expirationTime=\"1660501151\"", -- [1]
+			"Skill 95 increased from 176 to 177", -- [1]
 			0, -- [2]
 		}, -- [893]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"Skill 43 increased from 180 to 181", -- [1]
 			0, -- [2]
 		}, -- [894]
 		{
-			"[IBN_Login] Requesting realm list ticket", -- [1]
+			"Weather changed to 2, intensity 0.500000\n", -- [1]
 			0, -- [2]
 		}, -- [895]
 		{
-			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [896]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"Skill 176 increased from 168 to 169", -- [1]
 			0, -- [2]
 		}, -- [897]
 		{
-			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
+			"Skill 43 increased from 181 to 182", -- [1]
 			0, -- [2]
 		}, -- [898]
 		{
-			"[IBN_Login] Requesting last played charsnumSubRegions=\"2\"", -- [1]
+			"Skill 176 increased from 169 to 170", -- [1]
 			0, -- [2]
 		}, -- [899]
 		{
-			"[GlueLogin] Realm list ready.", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [900]
 		{
-			"[IBN_Login] Joining realmsubRegion=\"45-1-89\" realmAddress=\"45-1-26\"", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [901]
 		{
-			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
+			"Attempted to register existing command: ShowObjUsage\n", -- [1]
 			0, -- [2]
 		}, -- [902]
 		{
-			"NetClient::HandleConnect()\n", -- [1]
+			"Attempted to register existing command: SetDifficulty\n", -- [1]
 			0, -- [2]
 		}, -- [903]
 		{
-			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
+			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [904]
 		{
-			"Got new connection 2", -- [1]
+			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [905]
 		{
-			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [906]
 		{
-			"[GlueLogin] Disconnecting from authentication server.", -- [1]
+			"Proficiency in item class 2 set to 0x0000000010", -- [1]
 			0, -- [2]
 		}, -- [907]
 		{
-			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
+			"Proficiency in item class 2 set to 0x0000000030", -- [1]
 			0, -- [2]
 		}, -- [908]
 		{
-			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_OK (0)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
+			"Proficiency in item class 4 set to 0x0000000080", -- [1]
 			0, -- [2]
 		}, -- [909]
 		{
-			"[GlueLogin] Disconnected from authentication server.", -- [1]
+			"Proficiency in item class 4 set to 0x0000000081", -- [1]
 			0, -- [2]
 		}, -- [910]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"Proficiency in item class 2 set to 0x0000004030", -- [1]
 			0, -- [2]
 		}, -- [911]
 		{
-			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
+			"Proficiency in item class 4 set to 0x0000000089", -- [1]
 			0, -- [2]
 		}, -- [912]
 		{
-			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
+			"Proficiency in item class 4 set to 0x000000008d", -- [1]
 			0, -- [2]
 		}, -- [913]
 		{
-			"Got new connection 3", -- [1]
+			"Proficiency in item class 4 set to 0x000000008f", -- [1]
 			0, -- [2]
 		}, -- [914]
 		{
-			"Proficiency in item class 2 set to 0x000005c080", -- [1]
+			"Proficiency in item class 4 set to 0x00000000cf", -- [1]
 			0, -- [2]
 		}, -- [915]
 		{
-			"Proficiency in item class 4 set to 0x0000000007", -- [1]
+			"Proficiency in item class 2 set to 0x0000004030", -- [1]
 			0, -- [2]
 		}, -- [916]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 4 set to 0x00000000cf", -- [1]
 			0, -- [2]
 		}, -- [917]
 		{
-			"Time set to 8/14/2022 (Sun) 22:19", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [918]
 		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
+			"Time set to 8/15/2022 (Mon) 22:42", -- [1]
 			0, -- [2]
 		}, -- [919]
 		{
-			"Value out of range (1.000000 - 4.000000)\n", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [920]
 		{
-			"Time played:", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [921]
 		{
-			"Total: 0d 23h 21m 22s", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [922]
 		{
-			"Level: 0d 0h 41m 6s", -- [1]
+			"Attempted to register existing command: ShowObjUsage\n", -- [1]
 			0, -- [2]
 		}, -- [923]
 		{
-			"Skill 43 increased from 162 to 163", -- [1]
+			"Attempted to register existing command: SetDifficulty\n", -- [1]
 			0, -- [2]
 		}, -- [924]
 		{
-			"World transfer aborted (reason: 30)", -- [1]
+			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [925]
 		{
-			"Skill 173 increased from 160 to 161", -- [1]
+			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [926]
 		{
-			"Skill 95 increased from 158 to 159", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [927]
 		{
-			"World transfer aborted (reason: 30)", -- [1]
+			"Proficiency in item class 2 set to 0x0000000080", -- [1]
 			0, -- [2]
 		}, -- [928]
 		{
-			"Got new connection 3", -- [1]
+			"Proficiency in item class 2 set to 0x0000008080", -- [1]
 			0, -- [2]
 		}, -- [929]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 2 set to 0x0000018080", -- [1]
 			0, -- [2]
 		}, -- [930]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 4 set to 0x0000000001", -- [1]
 			0, -- [2]
 		}, -- [931]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 2 set to 0x000001c080", -- [1]
 			0, -- [2]
 		}, -- [932]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 2 set to 0x000005c080", -- [1]
 			0, -- [2]
 		}, -- [933]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 4 set to 0x0000000005", -- [1]
 			0, -- [2]
 		}, -- [934]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 4 set to 0x0000000007", -- [1]
 			0, -- [2]
 		}, -- [935]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 2 set to 0x000005c080", -- [1]
 			0, -- [2]
 		}, -- [936]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 4 set to 0x0000000007", -- [1]
 			0, -- [2]
 		}, -- [937]
 		{
@@ -3755,247 +3756,247 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [938]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Time set to 8/15/2022 (Mon) 22:44", -- [1]
 			0, -- [2]
 		}, -- [939]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [940]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Value out of range (1.000000 - 4.000000)\n", -- [1]
 			0, -- [2]
 		}, -- [941]
 		{
-			"World transfer aborted (reason: 30)", -- [1]
+			"Time played:", -- [1]
 			0, -- [2]
 		}, -- [942]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Total: 1d 3h 37m 38s", -- [1]
 			0, -- [2]
 		}, -- [943]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Level: 0d 0h 46m 11s", -- [1]
 			0, -- [2]
 		}, -- [944]
 		{
-			"Skill 38 increased from 165 to 170", -- [1]
+			"Weather changed to 2, intensity 0.500000\n", -- [1]
 			0, -- [2]
 		}, -- [945]
 		{
-			"Skill 39 increased from 165 to 170", -- [1]
+			"Skill 176 increased from 170 to 171", -- [1]
 			0, -- [2]
 		}, -- [946]
 		{
-			"Skill 118 increased from 165 to 170", -- [1]
+			"Skill 43 increased from 182 to 183", -- [1]
 			0, -- [2]
 		}, -- [947]
 		{
-			"Skill 183 increased from 165 to 170", -- [1]
+			"Skill 95 increased from 177 to 178", -- [1]
 			0, -- [2]
 		}, -- [948]
 		{
-			"Skill 253 increased from 165 to 170", -- [1]
+			"Skill 176 increased from 171 to 172", -- [1]
 			0, -- [2]
 		}, -- [949]
 		{
-			"Skill 754 increased from 165 to 170", -- [1]
+			"Skill 43 increased from 183 to 184", -- [1]
 			0, -- [2]
 		}, -- [950]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Skill 176 increased from 172 to 173", -- [1]
 			0, -- [2]
 		}, -- [951]
 		{
-			"Skill 43 increased from 163 to 164", -- [1]
+			"Skill 95 increased from 178 to 179", -- [1]
 			0, -- [2]
 		}, -- [952]
 		{
-			"Skill 95 increased from 159 to 160", -- [1]
+			"Skill 38 increased from 185 to 190", -- [1]
 			0, -- [2]
 		}, -- [953]
 		{
-			"Skill 173 increased from 161 to 162", -- [1]
+			"Skill 39 increased from 185 to 190", -- [1]
 			0, -- [2]
 		}, -- [954]
 		{
-			"World transfer aborted (reason: 30)", -- [1]
+			"Skill 118 increased from 185 to 190", -- [1]
 			0, -- [2]
 		}, -- [955]
 		{
-			"Skill 95 increased from 160 to 161", -- [1]
+			"Skill 183 increased from 185 to 190", -- [1]
 			0, -- [2]
 		}, -- [956]
 		{
-			"Skill 43 increased from 164 to 165", -- [1]
+			"Skill 253 increased from 185 to 190", -- [1]
 			0, -- [2]
 		}, -- [957]
 		{
-			"Skill 173 increased from 162 to 163", -- [1]
+			"Skill 754 increased from 185 to 190", -- [1]
 			0, -- [2]
 		}, -- [958]
 		{
-			"Skill 173 increased from 163 to 164", -- [1]
+			"Skill 43 increased from 184 to 185", -- [1]
 			0, -- [2]
 		}, -- [959]
 		{
-			"Skill 43 increased from 165 to 166", -- [1]
+			"Skill 95 increased from 179 to 180", -- [1]
 			0, -- [2]
 		}, -- [960]
 		{
-			"Skill 95 increased from 161 to 162", -- [1]
+			"Skill 43 increased from 185 to 186", -- [1]
 			0, -- [2]
 		}, -- [961]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Skill 43 increased from 186 to 187", -- [1]
 			0, -- [2]
 		}, -- [962]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Skill 43 increased from 187 to 188", -- [1]
 			0, -- [2]
 		}, -- [963]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Skill 95 increased from 180 to 181", -- [1]
 			0, -- [2]
 		}, -- [964]
 		{
-			"Skill 633 increased from 101 to 102", -- [1]
+			"Skill 95 increased from 181 to 182", -- [1]
 			0, -- [2]
 		}, -- [965]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Skill 43 increased from 188 to 189", -- [1]
 			0, -- [2]
 		}, -- [966]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Skill 176 increased from 173 to 174", -- [1]
 			0, -- [2]
 		}, -- [967]
 		{
-			"Skill 95 increased from 162 to 163", -- [1]
+			"Skill 176 increased from 174 to 175", -- [1]
 			0, -- [2]
 		}, -- [968]
 		{
-			"Skill 43 increased from 166 to 167", -- [1]
+			"Terrain mip level changed to 1.", -- [1]
 			0, -- [2]
 		}, -- [969]
 		{
-			"Skill 173 increased from 164 to 165", -- [1]
+			"Projected textures disabled.", -- [1]
 			0, -- [2]
 		}, -- [970]
 		{
-			"Skill 95 increased from 163 to 164", -- [1]
+			"Shadow mode changed to 0 - Blob shadows, precomputed terrain shadows", -- [1]
 			0, -- [2]
 		}, -- [971]
 		{
-			"Skill 43 increased from 167 to 168", -- [1]
+			"Shadow texture size changed to 1024.", -- [1]
 			0, -- [2]
 		}, -- [972]
 		{
-			"Skill 173 increased from 165 to 166", -- [1]
+			"Soft shadows changed to 0.", -- [1]
 			0, -- [2]
 		}, -- [973]
 		{
-			"Skill 95 increased from 164 to 165", -- [1]
+			"Water detail changed to 0", -- [1]
 			0, -- [2]
 		}, -- [974]
 		{
-			"Skill 173 increased from 166 to 167", -- [1]
+			"Reflection mode changed to 0", -- [1]
 			0, -- [2]
 		}, -- [975]
 		{
-			"Skill 43 increased from 168 to 169", -- [1]
+			"Ripple detail changed to 0", -- [1]
 			0, -- [2]
 		}, -- [976]
 		{
-			"Skill 173 increased from 167 to 168", -- [1]
+			"Sunshafts quality changed to 0", -- [1]
 			0, -- [2]
 		}, -- [977]
 		{
-			"Skill 95 increased from 165 to 166", -- [1]
+			"SSAO mode set to 0", -- [1]
 			0, -- [2]
 		}, -- [978]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"Time played:", -- [1]
 			0, -- [2]
 		}, -- [979]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"Total: 1d 4h 32m 8s", -- [1]
 			0, -- [2]
 		}, -- [980]
 		{
-			"Attempted to register existing command: ShowObjUsage\n", -- [1]
+			"Level: 0d 0h 40m 32s", -- [1]
 			0, -- [2]
 		}, -- [981]
 		{
-			"Attempted to register existing command: SetDifficulty\n", -- [1]
+			"Skill 95 increased from 182 to 183", -- [1]
 			0, -- [2]
 		}, -- [982]
 		{
-			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
+			"Skill 176 increased from 175 to 176", -- [1]
 			0, -- [2]
 		}, -- [983]
 		{
-			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
+			"Terrain mip level changed to 0.", -- [1]
 			0, -- [2]
 		}, -- [984]
 		{
-			"Got new connection 3", -- [1]
+			"Projected textures enabled.", -- [1]
 			0, -- [2]
 		}, -- [985]
 		{
-			"Proficiency in item class 2 set to 0x0000000010", -- [1]
+			"Shadow mode changed to 4 - 4 band dynamic shadows on units and terrain, 2048", -- [1]
 			0, -- [2]
 		}, -- [986]
 		{
-			"Proficiency in item class 2 set to 0x0000000030", -- [1]
+			"Shadow texture size changed to 2048.", -- [1]
 			0, -- [2]
 		}, -- [987]
 		{
-			"Proficiency in item class 4 set to 0x0000000080", -- [1]
+			"Soft shadows changed to 1.", -- [1]
 			0, -- [2]
 		}, -- [988]
 		{
-			"Proficiency in item class 4 set to 0x0000000081", -- [1]
+			"Water detail changed to 3", -- [1]
 			0, -- [2]
 		}, -- [989]
 		{
-			"Proficiency in item class 2 set to 0x0000004030", -- [1]
+			"Reflection mode changed to 3", -- [1]
 			0, -- [2]
 		}, -- [990]
 		{
-			"Proficiency in item class 4 set to 0x0000000089", -- [1]
+			"Ripple detail changed to 2", -- [1]
 			0, -- [2]
 		}, -- [991]
 		{
-			"Proficiency in item class 4 set to 0x000000008d", -- [1]
+			"Sunshafts quality changed to 2", -- [1]
 			0, -- [2]
 		}, -- [992]
 		{
-			"Proficiency in item class 4 set to 0x000000008f", -- [1]
+			"SSAO mode set to 4", -- [1]
 			0, -- [2]
 		}, -- [993]
 		{
-			"Proficiency in item class 4 set to 0x00000000cf", -- [1]
+			"Skill 38 increased from 190 to 195", -- [1]
 			0, -- [2]
 		}, -- [994]
 		{
-			"Proficiency in item class 2 set to 0x0000004030", -- [1]
+			"Skill 39 increased from 190 to 195", -- [1]
 			0, -- [2]
 		}, -- [995]
 		{
-			"Proficiency in item class 4 set to 0x00000000cf", -- [1]
+			"Skill 118 increased from 190 to 195", -- [1]
 			0, -- [2]
 		}, -- [996]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Skill 183 increased from 190 to 195", -- [1]
 			0, -- [2]
 		}, -- [997]
 		{
-			"Time set to 8/14/2022 (Sun) 23:37", -- [1]
+			"Skill 253 increased from 190 to 195", -- [1]
 			0, -- [2]
 		}, -- [998]
 		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
+			"Skill 754 increased from 190 to 195", -- [1]
 			0, -- [2]
 		}, -- [999]
 		{
@@ -4067,11 +4068,11 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1016]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Weather changed to 2, intensity 0.500000\n", -- [1]
 			0, -- [2]
 		}, -- [1017]
 		{
-			"Time set to 8/14/2022 (Sun) 23:39", -- [1]
+			"Time set to 8/15/2022 (Mon) 23:50", -- [1]
 			0, -- [2]
 		}, -- [1018]
 		{
@@ -4087,235 +4088,235 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1021]
 		{
-			"Total: 1d 0h 39m 24s", -- [1]
+			"Total: 1d 4h 40m 46s", -- [1]
 			0, -- [2]
 		}, -- [1022]
 		{
-			"Level: 0d 0h 54m 34s", -- [1]
+			"Level: 0d 0h 1m 21s", -- [1]
 			0, -- [2]
 		}, -- [1023]
 		{
-			"Skill 176 increased from 154 to 155", -- [1]
+			"World transfer aborted (reason: 30)", -- [1]
 			0, -- [2]
 		}, -- [1024]
 		{
-			"World transfer aborted (reason: 30)", -- [1]
+			"Skill 43 increased from 189 to 190", -- [1]
 			0, -- [2]
 		}, -- [1025]
 		{
-			"Skill 176 increased from 155 to 156", -- [1]
+			"Skill 95 increased from 183 to 184", -- [1]
 			0, -- [2]
 		}, -- [1026]
 		{
-			"Skill 176 increased from 156 to 157", -- [1]
+			"World transfer aborted (reason: 30)", -- [1]
 			0, -- [2]
 		}, -- [1027]
 		{
-			"World transfer aborted (reason: 30)", -- [1]
+			"Skill 43 increased from 190 to 191", -- [1]
 			0, -- [2]
 		}, -- [1028]
 		{
-			"Skill 38 increased from 170 to 175", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1029]
 		{
-			"Skill 39 increased from 170 to 175", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1030]
 		{
-			"Skill 118 increased from 170 to 175", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1031]
 		{
-			"Skill 183 increased from 170 to 175", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1032]
 		{
-			"Skill 253 increased from 170 to 175", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1033]
 		{
-			"Skill 754 increased from 170 to 175", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1034]
 		{
-			"Skill 43 increased from 169 to 170", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1035]
 		{
-			"Skill 173 increased from 168 to 169", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1036]
 		{
-			"Skill 43 increased from 170 to 171", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1037]
 		{
-			"Skill 173 increased from 169 to 170", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1038]
 		{
-			"Skill 43 increased from 171 to 172", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1039]
 		{
-			"Skill 95 increased from 166 to 167", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1040]
 		{
-			"Skill 176 increased from 157 to 158", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1041]
 		{
-			"Skill 173 increased from 170 to 171", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1042]
 		{
-			"Skill 176 increased from 158 to 159", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1043]
 		{
-			"Skill 95 increased from 167 to 168", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1044]
 		{
-			"Skill 43 increased from 172 to 173", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1045]
 		{
-			"Skill 173 increased from 171 to 172", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1046]
 		{
-			"Skill 176 increased from 159 to 160", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1047]
 		{
-			"Skill 95 increased from 168 to 169", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1048]
 		{
-			"Skill 176 increased from 160 to 161", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1049]
 		{
-			"Skill 43 increased from 173 to 174", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1050]
 		{
-			"Skill 162 increased from 33 to 34", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1051]
 		{
-			"Skill 162 increased from 34 to 35", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1052]
 		{
-			"Skill 162 increased from 35 to 36", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1053]
 		{
-			"Skill 162 increased from 36 to 37", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1054]
 		{
-			"Skill 176 increased from 161 to 162", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1055]
 		{
-			"Skill 173 increased from 172 to 173", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1056]
 		{
-			"Skill 95 increased from 169 to 170", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1057]
 		{
-			"Skill 162 increased from 37 to 38", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1058]
 		{
-			"Skill 162 increased from 38 to 39", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1059]
 		{
-			"Skill 162 increased from 39 to 40", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1060]
 		{
-			"Skill 162 increased from 40 to 41", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1061]
 		{
-			"Skill 162 increased from 41 to 42", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1062]
 		{
-			"Skill 162 increased from 42 to 43", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1063]
 		{
-			"Skill 162 increased from 43 to 44", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1064]
 		{
-			"Skill 162 increased from 44 to 45", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1065]
 		{
-			"Skill 176 increased from 162 to 163", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1066]
 		{
-			"Skill 162 increased from 45 to 46", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1067]
 		{
-			"Skill 162 increased from 46 to 47", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 7680, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [1068]
 		{
-			"Skill 162 increased from 47 to 48", -- [1]
+			"Skill 95 increased from 184 to 185", -- [1]
 			0, -- [2]
 		}, -- [1069]
 		{
-			"Skill 176 increased from 163 to 164", -- [1]
+			"Skill 43 increased from 191 to 192", -- [1]
 			0, -- [2]
 		}, -- [1070]
 		{
-			"Skill 95 increased from 170 to 171", -- [1]
+			"Skill 95 increased from 185 to 186", -- [1]
 			0, -- [2]
 		}, -- [1071]
 		{
-			"World transfer aborted (reason: 30)", -- [1]
+			"Skill 95 increased from 186 to 187", -- [1]
 			0, -- [2]
 		}, -- [1072]
 		{
-			"Skill 162 increased from 48 to 49", -- [1]
+			"Skill 43 increased from 192 to 193", -- [1]
 			0, -- [2]
 		}, -- [1073]
 		{
-			"Skill 162 increased from 49 to 50", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1074]
 		{
-			"Skill 95 increased from 171 to 172", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1075]
 		{
-			"Skill 176 increased from 164 to 165", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1076]
 		{
-			"Skill 173 increased from 173 to 174", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1077]
 		{
-			"World transfer aborted (reason: 30)", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1078]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1079]
 		{
@@ -4323,125 +4324,436 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1080]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Weather changed to 2, intensity 0.500000\n", -- [1]
 			0, -- [2]
 		}, -- [1081]
 		{
-			"Skill 38 increased from 175 to 180", -- [1]
+			"Weather changed to 2, intensity 0.500000\n", -- [1]
 			0, -- [2]
 		}, -- [1082]
 		{
-			"Skill 39 increased from 175 to 180", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1083]
 		{
-			"Skill 118 increased from 175 to 180", -- [1]
+			"Weather changed to 2, intensity 0.500000\n", -- [1]
 			0, -- [2]
 		}, -- [1084]
 		{
-			"Skill 183 increased from 175 to 180", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1085]
 		{
-			"Skill 253 increased from 175 to 180", -- [1]
+			"Weather changed to 2, intensity 0.500000\n", -- [1]
 			0, -- [2]
 		}, -- [1086]
 		{
-			"Skill 754 increased from 175 to 180", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1087]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Weather changed to 2, intensity 0.500000\n", -- [1]
 			0, -- [2]
 		}, -- [1088]
 		{
-			"Skill 43 increased from 174 to 175", -- [1]
+			"Time played:", -- [1]
 			0, -- [2]
 		}, -- [1089]
 		{
-			"Skill 95 increased from 172 to 173", -- [1]
+			"Total: 1d 5h 11m 51s", -- [1]
 			0, -- [2]
 		}, -- [1090]
 		{
-			"Skill 176 increased from 165 to 166", -- [1]
+			"Level: 0d 0h 32m 26s", -- [1]
 			0, -- [2]
 		}, -- [1091]
 		{
-			"Skill 43 increased from 175 to 176", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1092]
 		{
-			"Skill 173 increased from 174 to 175", -- [1]
+			"Weather changed to 2, intensity 0.500000\n", -- [1]
 			0, -- [2]
 		}, -- [1093]
 		{
-			"Skill 176 increased from 166 to 167", -- [1]
+			"Weather changed to 2, intensity 0.250000\n", -- [1]
 			0, -- [2]
 		}, -- [1094]
 		{
-			"Skill 176 increased from 167 to 168", -- [1]
+			"Skill 95 increased from 187 to 188", -- [1]
 			0, -- [2]
 		}, -- [1095]
 		{
-			"Skill 43 increased from 176 to 177", -- [1]
+			"Skill 176 increased from 176 to 177", -- [1]
 			0, -- [2]
 		}, -- [1096]
 		{
-			"Skill 95 increased from 173 to 174", -- [1]
+			"Skill 176 increased from 177 to 178", -- [1]
 			0, -- [2]
 		}, -- [1097]
 		{
-			"Skill 173 increased from 175 to 176", -- [1]
+			"Skill 176 increased from 178 to 179", -- [1]
 			0, -- [2]
 		}, -- [1098]
 		{
-			"Skill 43 increased from 177 to 178", -- [1]
+			"Skill 95 increased from 188 to 189", -- [1]
 			0, -- [2]
 		}, -- [1099]
 		{
-			"Skill 95 increased from 174 to 175", -- [1]
+			"Skill 38 increased from 195 to 200", -- [1]
 			0, -- [2]
 		}, -- [1100]
 		{
-			"Skill 173 increased from 176 to 177", -- [1]
+			"Skill 39 increased from 195 to 200", -- [1]
 			0, -- [2]
 		}, -- [1101]
 		{
-			"Skill 95 increased from 175 to 176", -- [1]
+			"Skill 118 increased from 195 to 200", -- [1]
 			0, -- [2]
 		}, -- [1102]
 		{
-			"Skill 43 increased from 178 to 179", -- [1]
+			"Skill 183 increased from 195 to 200", -- [1]
 			0, -- [2]
 		}, -- [1103]
 		{
-			"Skill 173 increased from 177 to 178", -- [1]
+			"Skill 253 increased from 195 to 200", -- [1]
 			0, -- [2]
 		}, -- [1104]
 		{
-			"Time played:", -- [1]
+			"Skill 754 increased from 195 to 200", -- [1]
 			0, -- [2]
 		}, -- [1105]
 		{
-			"Total: 1d 2h 27m 21s", -- [1]
+			"Time played:", -- [1]
 			0, -- [2]
 		}, -- [1106]
 		{
-			"Level: 0d 0h 41m 35s", -- [1]
+			"Total: 1d 5h 25m 15s", -- [1]
 			0, -- [2]
 		}, -- [1107]
 		{
-			"World transfer pending...", -- [1]
+			"Level: 0d 0h 0m 51s", -- [1]
 			0, -- [2]
 		}, -- [1108]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Skill 43 increased from 193 to 194", -- [1]
 			0, -- [2]
 		}, -- [1109]
+		{
+			"Skill 43 increased from 194 to 195", -- [1]
+			0, -- [2]
+		}, -- [1110]
+		{
+			"Skill 176 increased from 179 to 180", -- [1]
+			0, -- [2]
+		}, -- [1111]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [1112]
+		{
+			"Skill 95 increased from 189 to 190", -- [1]
+			0, -- [2]
+		}, -- [1113]
+		{
+			"Skill 176 increased from 180 to 181", -- [1]
+			0, -- [2]
+		}, -- [1114]
+		{
+			"Skill 43 increased from 195 to 196", -- [1]
+			0, -- [2]
+		}, -- [1115]
+		{
+			"Skill 43 increased from 196 to 197", -- [1]
+			0, -- [2]
+		}, -- [1116]
+		{
+			"Skill 176 increased from 181 to 182", -- [1]
+			0, -- [2]
+		}, -- [1117]
+		{
+			"Skill 176 increased from 182 to 183", -- [1]
+			0, -- [2]
+		}, -- [1118]
+		{
+			"Skill 95 increased from 190 to 191", -- [1]
+			0, -- [2]
+		}, -- [1119]
+		{
+			"Skill 43 increased from 197 to 198", -- [1]
+			0, -- [2]
+		}, -- [1120]
+		{
+			"Skill 176 increased from 183 to 184", -- [1]
+			0, -- [2]
+		}, -- [1121]
+		{
+			"Skill 95 increased from 191 to 192", -- [1]
+			0, -- [2]
+		}, -- [1122]
+		{
+			"Skill 43 increased from 198 to 199", -- [1]
+			0, -- [2]
+		}, -- [1123]
+		{
+			"Skill 176 increased from 184 to 185", -- [1]
+			0, -- [2]
+		}, -- [1124]
+		{
+			"Skill 95 increased from 192 to 193", -- [1]
+			0, -- [2]
+		}, -- [1125]
+		{
+			"Time played:", -- [1]
+			0, -- [2]
+		}, -- [1126]
+		{
+			"Total: 1d 5h 45m 40s", -- [1]
+			0, -- [2]
+		}, -- [1127]
+		{
+			"Level: 0d 0h 21m 16s", -- [1]
+			0, -- [2]
+		}, -- [1128]
+		{
+			"Skill 176 increased from 185 to 186", -- [1]
+			0, -- [2]
+		}, -- [1129]
+		{
+			"Skill 176 increased from 186 to 187", -- [1]
+			0, -- [2]
+		}, -- [1130]
+		{
+			"Skill 95 increased from 193 to 194", -- [1]
+			0, -- [2]
+		}, -- [1131]
+		{
+			"Terrain mip level changed to 1.", -- [1]
+			0, -- [2]
+		}, -- [1132]
+		{
+			"Projected textures disabled.", -- [1]
+			0, -- [2]
+		}, -- [1133]
+		{
+			"Shadow mode changed to 0 - Blob shadows, precomputed terrain shadows", -- [1]
+			0, -- [2]
+		}, -- [1134]
+		{
+			"Shadow texture size changed to 1024.", -- [1]
+			0, -- [2]
+		}, -- [1135]
+		{
+			"Soft shadows changed to 0.", -- [1]
+			0, -- [2]
+		}, -- [1136]
+		{
+			"Water detail changed to 0", -- [1]
+			0, -- [2]
+		}, -- [1137]
+		{
+			"Reflection mode changed to 0", -- [1]
+			0, -- [2]
+		}, -- [1138]
+		{
+			"Ripple detail changed to 0", -- [1]
+			0, -- [2]
+		}, -- [1139]
+		{
+			"Sunshafts quality changed to 0", -- [1]
+			0, -- [2]
+		}, -- [1140]
+		{
+			"SSAO mode set to 0", -- [1]
+			0, -- [2]
+		}, -- [1141]
+		{
+			"Terrain mip level changed to 0.", -- [1]
+			0, -- [2]
+		}, -- [1142]
+		{
+			"Projected textures enabled.", -- [1]
+			0, -- [2]
+		}, -- [1143]
+		{
+			"Shadow mode changed to 4 - 4 band dynamic shadows on units and terrain, 2048", -- [1]
+			0, -- [2]
+		}, -- [1144]
+		{
+			"Shadow texture size changed to 2048.", -- [1]
+			0, -- [2]
+		}, -- [1145]
+		{
+			"Soft shadows changed to 1.", -- [1]
+			0, -- [2]
+		}, -- [1146]
+		{
+			"Water detail changed to 3", -- [1]
+			0, -- [2]
+		}, -- [1147]
+		{
+			"Reflection mode changed to 3", -- [1]
+			0, -- [2]
+		}, -- [1148]
+		{
+			"Ripple detail changed to 2", -- [1]
+			0, -- [2]
+		}, -- [1149]
+		{
+			"Sunshafts quality changed to 2", -- [1]
+			0, -- [2]
+		}, -- [1150]
+		{
+			"SSAO mode set to 4", -- [1]
+			0, -- [2]
+		}, -- [1151]
+		{
+			"Terrain mip level changed to 1.", -- [1]
+			0, -- [2]
+		}, -- [1152]
+		{
+			"Shadow mode changed to 0 - Blob shadows, precomputed terrain shadows", -- [1]
+			0, -- [2]
+		}, -- [1153]
+		{
+			"Shadow texture size changed to 1024.", -- [1]
+			0, -- [2]
+		}, -- [1154]
+		{
+			"Soft shadows changed to 0.", -- [1]
+			0, -- [2]
+		}, -- [1155]
+		{
+			"Water detail changed to 0", -- [1]
+			0, -- [2]
+		}, -- [1156]
+		{
+			"Reflection mode changed to 0", -- [1]
+			0, -- [2]
+		}, -- [1157]
+		{
+			"Ripple detail changed to 0", -- [1]
+			0, -- [2]
+		}, -- [1158]
+		{
+			"Terrain mip level changed to 0.", -- [1]
+			0, -- [2]
+		}, -- [1159]
+		{
+			"Projected textures enabled.", -- [1]
+			0, -- [2]
+		}, -- [1160]
+		{
+			"Shadow mode changed to 4 - 4 band dynamic shadows on units and terrain, 2048", -- [1]
+			0, -- [2]
+		}, -- [1161]
+		{
+			"Shadow texture size changed to 2048.", -- [1]
+			0, -- [2]
+		}, -- [1162]
+		{
+			"Soft shadows changed to 1.", -- [1]
+			0, -- [2]
+		}, -- [1163]
+		{
+			"Water detail changed to 3", -- [1]
+			0, -- [2]
+		}, -- [1164]
+		{
+			"Reflection mode changed to 3", -- [1]
+			0, -- [2]
+		}, -- [1165]
+		{
+			"Ripple detail changed to 2", -- [1]
+			0, -- [2]
+		}, -- [1166]
+		{
+			"Sunshafts quality changed to 2", -- [1]
+			0, -- [2]
+		}, -- [1167]
+		{
+			"SSAO mode set to 4", -- [1]
+			0, -- [2]
+		}, -- [1168]
+		{
+			"Skill 43 increased from 199 to 200", -- [1]
+			0, -- [2]
+		}, -- [1169]
+		{
+			"Skill 176 increased from 187 to 188", -- [1]
+			0, -- [2]
+		}, -- [1170]
+		{
+			"Skill 95 increased from 194 to 195", -- [1]
+			0, -- [2]
+		}, -- [1171]
+		{
+			"Skill 38 increased from 200 to 205", -- [1]
+			0, -- [2]
+		}, -- [1172]
+		{
+			"Skill 39 increased from 200 to 205", -- [1]
+			0, -- [2]
+		}, -- [1173]
+		{
+			"Skill 118 increased from 200 to 205", -- [1]
+			0, -- [2]
+		}, -- [1174]
+		{
+			"Skill 183 increased from 200 to 205", -- [1]
+			0, -- [2]
+		}, -- [1175]
+		{
+			"Skill 253 increased from 200 to 205", -- [1]
+			0, -- [2]
+		}, -- [1176]
+		{
+			"Skill 754 increased from 200 to 205", -- [1]
+			0, -- [2]
+		}, -- [1177]
+		{
+			"Skill 95 increased from 195 to 196", -- [1]
+			0, -- [2]
+		}, -- [1178]
+		{
+			"Skill 43 increased from 200 to 201", -- [1]
+			0, -- [2]
+		}, -- [1179]
+		{
+			"Skill 176 increased from 188 to 189", -- [1]
+			0, -- [2]
+		}, -- [1180]
+		{
+			"Skill 43 increased from 201 to 202", -- [1]
+			0, -- [2]
+		}, -- [1181]
+		{
+			"Skill 95 increased from 196 to 197", -- [1]
+			0, -- [2]
+		}, -- [1182]
+		{
+			"Skill 95 increased from 197 to 198", -- [1]
+			0, -- [2]
+		}, -- [1183]
+		{
+			"Skill 43 increased from 202 to 203", -- [1]
+			0, -- [2]
+		}, -- [1184]
+		{
+			"Skill 95 increased from 198 to 199", -- [1]
+			0, -- [2]
+		}, -- [1185]
+		{
+			"Skill 43 increased from 203 to 204", -- [1]
+			0, -- [2]
+		}, -- [1186]
+		{
+			"Weather changed to 2, intensity 0.500000\n", -- [1]
+			0, -- [2]
+		}, -- [1187]
 	},
-	["height"] = 300,
-	["fontHeight"] = 14,
 	["isShown"] = false,
+	["fontHeight"] = 14,
 	["commandHistory"] = {
 	},
 }
