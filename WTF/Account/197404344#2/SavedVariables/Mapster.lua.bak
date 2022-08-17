@@ -14,11 +14,11 @@ MapsterDB = {
 	["profiles"] = {
 		["Default"] = {
 			["scale"] = 0.8415173888206482,
-			["alpha"] = 0.88,
+			["poiScale"] = 1.17,
 			["y"] = 86.60415291543359,
 			["x"] = 218.6351133336193,
 			["point"] = "BOTTOM",
-			["poiScale"] = 1.17,
+			["alpha"] = 0.88,
 		},
 	},
 }

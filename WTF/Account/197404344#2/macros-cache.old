@@ -1,5 +1,5 @@
 VER 3 0000000000000001 "target" "134328"
-/target 大型
+/target 石
 /script SetRaidTarget("target",8)
 END
 VER 3 0000000000000002 "大脚世界频道" "132874"
@@ -7,4 +7,7 @@ VER 3 0000000000000002 "大脚世界频道" "132874"
 END
 VER 3 0000000000000003 "自动攻击" "135325"
 /startattack
+END
+VER 3 0000000000000004 "谢谢" "135805"
+/thanks
 END

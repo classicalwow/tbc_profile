@@ -1,48 +1,47 @@
 
 Accountant_ClassicSaveData = {
-	["加丁"] = {
-		["Vscode"] = {
+	["祈福"] = {
+		["特变电工"] = {
 			["options"] = {
 				["weekdate"] = "",
 				["weekstart"] = 1,
-				["date"] = "15/08/22",
+				["date"] = "16/08/22",
 				["class"] = "ROGUE",
-				["prvmonth"] = "07",
-				["lastsessiondate"] = "06/08/22",
-				["prvday"] = "14/08/22",
+				["totalcash"] = 30675670,
+				["prvday"] = "15/08/22",
 				["dateweek"] = "08/14/22",
 				["version"] = "v2.12.20",
-				["faction"] = "Alliance",
-				["totalcash"] = 153,
+				["month"] = "08",
+				["lastsessiondate"] = "15/08/22",
 				["curryear"] = "2022",
 				["prvdateweek"] = "08/07/22",
-				["month"] = "08",
+				["faction"] = "Alliance",
 			},
 			["data"] = {
 				["TRAIN"] = {
 					["PrvWeek"] = {
 						["In"] = 0,
-						["Out"] = 0,
+						["Out"] = 86290,
 					},
 					["PrvDay"] = {
 						["In"] = 0,
-						["Out"] = 0,
+						["Out"] = 81000,
 					},
 					["Total"] = {
 						["In"] = 0,
-						["Out"] = 0,
+						["Out"] = 571890,
 					},
 					["Week"] = {
 						["In"] = 0,
-						["Out"] = 0,
+						["Out"] = 485600,
 					},
-					["Year"] = {
+					["Day"] = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
 					["Month"] = {
 						["In"] = 0,
-						["Out"] = 0,
+						["Out"] = 571890,
 					},
 					["PrvYear"] = {
 						["In"] = 0,
@@ -56,35 +55,35 @@ Accountant_ClassicSaveData = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
-					["Day"] = {
+					["Year"] = {
 						["In"] = 0,
-						["Out"] = 0,
+						["Out"] = 571890,
 					},
 				},
 				["TAXI"] = {
 					["PrvWeek"] = {
 						["In"] = 0,
-						["Out"] = 0,
+						["Out"] = 3232,
 					},
 					["PrvDay"] = {
 						["In"] = 0,
-						["Out"] = 0,
+						["Out"] = 1335,
 					},
 					["Total"] = {
 						["In"] = 0,
-						["Out"] = 0,
+						["Out"] = 8410,
 					},
 					["Week"] = {
 						["In"] = 0,
-						["Out"] = 0,
+						["Out"] = 5178,
 					},
-					["Year"] = {
+					["Day"] = {
 						["In"] = 0,
-						["Out"] = 0,
+						["Out"] = 657,
 					},
 					["Month"] = {
 						["In"] = 0,
-						["Out"] = 0,
+						["Out"] = 8410,
 					},
 					["PrvYear"] = {
 						["In"] = 0,
@@ -96,11 +95,11 @@ Accountant_ClassicSaveData = {
 					},
 					["Session"] = {
 						["In"] = 0,
-						["Out"] = 0,
+						["Out"] = 657,
 					},
-					["Day"] = {
+					["Year"] = {
 						["In"] = 0,
-						["Out"] = 0,
+						["Out"] = 8410,
 					},
 				},
 				["TRADE"] = {
@@ -120,6 +119,361 @@ Accountant_ClassicSaveData = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
+					["Day"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Month"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["PrvYear"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["PrvMonth"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Session"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Year"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+				},
+				["OTHER"] = {
+					["PrvWeek"] = {
+						["In"] = 50000013,
+						["Out"] = 1,
+					},
+					["PrvDay"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Total"] = {
+						["In"] = 50000013,
+						["Out"] = 1,
+					},
+					["Week"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Day"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Month"] = {
+						["In"] = 50000013,
+						["Out"] = 1,
+					},
+					["PrvYear"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["PrvMonth"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Session"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Year"] = {
+						["In"] = 50000013,
+						["Out"] = 1,
+					},
+				},
+				["REPAIRS"] = {
+					["PrvWeek"] = {
+						["In"] = 168,
+						["Out"] = 1943,
+					},
+					["PrvDay"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Total"] = {
+						["In"] = 1008,
+						["Out"] = 4691,
+					},
+					["Week"] = {
+						["In"] = 840,
+						["Out"] = 2748,
+					},
+					["Day"] = {
+						["In"] = 0,
+						["Out"] = 1718,
+					},
+					["Month"] = {
+						["In"] = 1008,
+						["Out"] = 4691,
+					},
+					["PrvYear"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["PrvMonth"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Session"] = {
+						["In"] = 0,
+						["Out"] = 1718,
+					},
+					["Year"] = {
+						["In"] = 1008,
+						["Out"] = 4691,
+					},
+				},
+				["LOOT"] = {
+					["PrvWeek"] = {
+						["In"] = 24817,
+						["Out"] = 3,
+					},
+					["PrvDay"] = {
+						["In"] = 21120,
+						["Out"] = 0,
+					},
+					["Total"] = {
+						["In"] = 99651,
+						["Out"] = 27,
+					},
+					["Week"] = {
+						["In"] = 74834,
+						["Out"] = 24,
+					},
+					["Day"] = {
+						["In"] = 15599,
+						["Out"] = 0,
+					},
+					["Month"] = {
+						["In"] = 99651,
+						["Out"] = 27,
+					},
+					["PrvYear"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["PrvMonth"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Session"] = {
+						["In"] = 16732,
+						["Out"] = 0,
+					},
+					["Year"] = {
+						["In"] = 99651,
+						["Out"] = 27,
+					},
+				},
+				["MAIL"] = {
+					["PrvWeek"] = {
+						["In"] = 76023,
+						["Out"] = 5000560,
+					},
+					["PrvDay"] = {
+						["In"] = 0,
+						["Out"] = 5000270,
+					},
+					["Total"] = {
+						["In"] = 200118,
+						["Out"] = 10000830,
+					},
+					["Week"] = {
+						["In"] = 124095,
+						["Out"] = 5000270,
+					},
+					["Day"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Month"] = {
+						["In"] = 200118,
+						["Out"] = 10000830,
+					},
+					["PrvYear"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["PrvMonth"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Session"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Year"] = {
+						["In"] = 200118,
+						["Out"] = 10000830,
+					},
+				},
+				["AH"] = {
+					["PrvWeek"] = {
+						["In"] = 42074,
+						["Out"] = 1007040,
+					},
+					["PrvDay"] = {
+						["In"] = 0,
+						["Out"] = 1513000,
+					},
+					["Total"] = {
+						["In"] = 42074,
+						["Out"] = 9662173,
+					},
+					["Week"] = {
+						["In"] = 0,
+						["Out"] = 8655133,
+					},
+					["Day"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Month"] = {
+						["In"] = 42074,
+						["Out"] = 9662173,
+					},
+					["PrvYear"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["PrvMonth"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Session"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Year"] = {
+						["In"] = 42074,
+						["Out"] = 9662173,
+					},
+				},
+				["MERCH"] = {
+					["PrvWeek"] = {
+						["In"] = 81682,
+						["Out"] = 30369,
+					},
+					["PrvDay"] = {
+						["In"] = 137107,
+						["Out"] = 20603,
+					},
+					["Total"] = {
+						["In"] = 452204,
+						["Out"] = 141683,
+					},
+					["Week"] = {
+						["In"] = 370522,
+						["Out"] = 111314,
+					},
+					["Day"] = {
+						["In"] = 93256,
+						["Out"] = 0,
+					},
+					["Month"] = {
+						["In"] = 452204,
+						["Out"] = 141683,
+					},
+					["PrvYear"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["PrvMonth"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Session"] = {
+						["In"] = 93256,
+						["Out"] = 0,
+					},
+					["Year"] = {
+						["In"] = 452204,
+						["Out"] = 141683,
+					},
+				},
+				["QUEST"] = {
+					["PrvWeek"] = {
+						["In"] = 31970,
+						["Out"] = 0,
+					},
+					["PrvDay"] = {
+						["In"] = 89500,
+						["Out"] = 0,
+					},
+					["Total"] = {
+						["In"] = 270316,
+						["Out"] = 8,
+					},
+					["Week"] = {
+						["In"] = 238346,
+						["Out"] = 8,
+					},
+					["Day"] = {
+						["In"] = 78500,
+						["Out"] = 0,
+					},
+					["Month"] = {
+						["In"] = 270316,
+						["Out"] = 8,
+					},
+					["PrvYear"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["PrvMonth"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Session"] = {
+						["In"] = 86500,
+						["Out"] = 0,
+					},
+					["Year"] = {
+						["In"] = 270316,
+						["Out"] = 8,
+					},
+				},
+			},
+		},
+		["特工仓库"] = {
+			["options"] = {
+				["weekdate"] = "",
+				["weekstart"] = 1,
+				["date"] = "16/08/22",
+				["class"] = "PALADIN",
+				["totalcash"] = 2111822,
+				["prvday"] = "15/08/22",
+				["dateweek"] = "08/14/22",
+				["version"] = "v2.12.20",
+				["month"] = "08",
+				["curryear"] = "2022",
+				["lastsessiondate"] = "15/08/22",
+				["prvdateweek"] = "08/07/22",
+				["faction"] = "Alliance",
+			},
+			["data"] = {
+				["TRAIN"] = {
+					["PrvWeek"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["PrvDay"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Day"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Week"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
 					["Year"] = {
 						["In"] = 0,
 						["Out"] = 0,
@@ -140,7 +494,91 @@ Accountant_ClassicSaveData = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
+					["Total"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+				},
+				["TAXI"] = {
+					["PrvWeek"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["PrvDay"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
 					["Day"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Week"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Year"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Month"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["PrvYear"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["PrvMonth"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Session"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Total"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+				},
+				["TRADE"] = {
+					["PrvWeek"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["PrvDay"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Day"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Week"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Year"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Month"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["PrvYear"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["PrvMonth"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Session"] = {
+						["In"] = 0,
+						["Out"] = 0,
+					},
+					["Total"] = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
@@ -154,8 +592,8 @@ Accountant_ClassicSaveData = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
-					["Total"] = {
-						["In"] = 153,
+					["Day"] = {
+						["In"] = 0,
 						["Out"] = 0,
 					},
 					["Week"] = {
@@ -163,7 +601,7 @@ Accountant_ClassicSaveData = {
 						["Out"] = 0,
 					},
 					["Year"] = {
-						["In"] = 153,
+						["In"] = 0,
 						["Out"] = 0,
 					},
 					["Month"] = {
@@ -175,14 +613,14 @@ Accountant_ClassicSaveData = {
 						["Out"] = 0,
 					},
 					["PrvMonth"] = {
-						["In"] = 153,
+						["In"] = 0,
 						["Out"] = 0,
 					},
 					["Session"] = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
-					["Day"] = {
+					["Total"] = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
@@ -196,7 +634,7 @@ Accountant_ClassicSaveData = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
-					["Total"] = {
+					["Day"] = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
@@ -224,7 +662,7 @@ Accountant_ClassicSaveData = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
-					["Day"] = {
+					["Total"] = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
@@ -238,7 +676,7 @@ Accountant_ClassicSaveData = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
-					["Total"] = {
+					["Day"] = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
@@ -266,91 +704,7 @@ Accountant_ClassicSaveData = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
-					["Day"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-				},
-				["MAIL"] = {
-					["PrvWeek"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvDay"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
 					["Total"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Week"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Year"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Month"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvYear"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvMonth"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Session"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Day"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-				},
-				["AH"] = {
-					["PrvWeek"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvDay"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Total"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Week"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Year"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Month"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvYear"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvMonth"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Session"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Day"] = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
@@ -358,13 +712,13 @@ Accountant_ClassicSaveData = {
 				["MERCH"] = {
 					["PrvWeek"] = {
 						["In"] = 0,
-						["Out"] = 0,
+						["Out"] = 95,
 					},
 					["PrvDay"] = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
-					["Total"] = {
+					["Day"] = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
@@ -374,11 +728,11 @@ Accountant_ClassicSaveData = {
 					},
 					["Year"] = {
 						["In"] = 0,
-						["Out"] = 0,
+						["Out"] = 95,
 					},
 					["Month"] = {
 						["In"] = 0,
-						["Out"] = 0,
+						["Out"] = 95,
 					},
 					["PrvYear"] = {
 						["In"] = 0,
@@ -392,366 +746,9 @@ Accountant_ClassicSaveData = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
-					["Day"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-				},
-				["QUEST"] = {
-					["PrvWeek"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvDay"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
 					["Total"] = {
 						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Week"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Year"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Month"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvYear"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvMonth"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Session"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Day"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-				},
-			},
-		},
-	},
-	["祈福"] = {
-		["特工仓库"] = {
-			["options"] = {
-				["weekdate"] = "",
-				["weekstart"] = 1,
-				["date"] = "15/08/22",
-				["class"] = "PALADIN",
-				["month"] = "08",
-				["prvday"] = "14/08/22",
-				["dateweek"] = "08/14/22",
-				["version"] = "v2.12.20",
-				["faction"] = "Alliance",
-				["curryear"] = "2022",
-				["lastsessiondate"] = "15/08/22",
-				["prvdateweek"] = "08/07/22",
-				["totalcash"] = 2111822,
-			},
-			["data"] = {
-				["TRAIN"] = {
-					["PrvWeek"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvDay"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Total"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Week"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Year"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Month"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvYear"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvMonth"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Session"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Day"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-				},
-				["TAXI"] = {
-					["PrvWeek"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvDay"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Total"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Week"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Year"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Month"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvYear"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvMonth"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Session"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Day"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-				},
-				["TRADE"] = {
-					["PrvWeek"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvDay"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Total"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Week"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Year"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Month"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvYear"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvMonth"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Session"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Day"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-				},
-				["OTHER"] = {
-					["PrvWeek"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvDay"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Total"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Week"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Year"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Month"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvYear"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvMonth"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Session"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Day"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-				},
-				["REPAIRS"] = {
-					["PrvWeek"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvDay"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Total"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Week"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Year"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Month"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvYear"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvMonth"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Session"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Day"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-				},
-				["LOOT"] = {
-					["PrvWeek"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvDay"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Total"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Week"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Year"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Month"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvYear"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvMonth"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Session"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Day"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-				},
-				["MAIL"] = {
-					["PrvWeek"] = {
-						["In"] = 5000500,
-						["Out"] = 1050,
-					},
-					["PrvDay"] = {
-						["In"] = 0,
-						["Out"] = 90,
-					},
-					["Total"] = {
-						["In"] = 5000500,
-						["Out"] = 1740,
-					},
-					["Week"] = {
-						["In"] = 0,
-						["Out"] = 690,
-					},
-					["Year"] = {
-						["In"] = 5000500,
-						["Out"] = 1740,
-					},
-					["Month"] = {
-						["In"] = 5000500,
-						["Out"] = 1740,
-					},
-					["PrvYear"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["PrvMonth"] = {
-						["In"] = 0,
-						["Out"] = 0,
-					},
-					["Session"] = {
-						["In"] = 0,
-						["Out"] = 60,
-					},
-					["Day"] = {
-						["In"] = 0,
-						["Out"] = 600,
+						["Out"] = 95,
 					},
 				},
 				["AH"] = {
@@ -761,11 +758,11 @@ Accountant_ClassicSaveData = {
 					},
 					["PrvDay"] = {
 						["In"] = 0,
-						["Out"] = 25624,
+						["Out"] = 1444965,
 					},
-					["Total"] = {
+					["Day"] = {
 						["In"] = 0,
-						["Out"] = 2886843,
+						["Out"] = 0,
 					},
 					["Week"] = {
 						["In"] = 0,
@@ -791,35 +788,35 @@ Accountant_ClassicSaveData = {
 						["In"] = 0,
 						["Out"] = 789185,
 					},
-					["Day"] = {
+					["Total"] = {
 						["In"] = 0,
-						["Out"] = 1444965,
+						["Out"] = 2886843,
 					},
 				},
-				["MERCH"] = {
+				["MAIL"] = {
 					["PrvWeek"] = {
-						["In"] = 0,
-						["Out"] = 95,
+						["In"] = 5000500,
+						["Out"] = 1050,
 					},
 					["PrvDay"] = {
 						["In"] = 0,
-						["Out"] = 0,
+						["Out"] = 600,
 					},
-					["Total"] = {
+					["Day"] = {
 						["In"] = 0,
-						["Out"] = 95,
+						["Out"] = 0,
 					},
 					["Week"] = {
 						["In"] = 0,
-						["Out"] = 0,
+						["Out"] = 690,
 					},
 					["Year"] = {
-						["In"] = 0,
-						["Out"] = 95,
+						["In"] = 5000500,
+						["Out"] = 1740,
 					},
 					["Month"] = {
-						["In"] = 0,
-						["Out"] = 95,
+						["In"] = 5000500,
+						["Out"] = 1740,
 					},
 					["PrvYear"] = {
 						["In"] = 0,
@@ -831,11 +828,11 @@ Accountant_ClassicSaveData = {
 					},
 					["Session"] = {
 						["In"] = 0,
-						["Out"] = 0,
+						["Out"] = 60,
 					},
-					["Day"] = {
-						["In"] = 0,
-						["Out"] = 0,
+					["Total"] = {
+						["In"] = 5000500,
+						["Out"] = 1740,
 					},
 				},
 				["QUEST"] = {
@@ -847,7 +844,7 @@ Accountant_ClassicSaveData = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
-					["Total"] = {
+					["Day"] = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
@@ -875,54 +872,57 @@ Accountant_ClassicSaveData = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
-					["Day"] = {
+					["Total"] = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
 				},
 			},
 		},
-		["特变电工"] = {
+	},
+	["加丁"] = {
+		["Vscode"] = {
 			["options"] = {
 				["weekdate"] = "",
 				["weekstart"] = 1,
-				["date"] = "15/08/22",
+				["date"] = "16/08/22",
 				["class"] = "ROGUE",
 				["month"] = "08",
-				["prvday"] = "14/08/22",
+				["totalcash"] = 153,
+				["prvmonth"] = "07",
 				["dateweek"] = "08/14/22",
 				["version"] = "v2.12.20",
 				["faction"] = "Alliance",
-				["lastsessiondate"] = "15/08/22",
+				["lastsessiondate"] = "06/08/22",
 				["curryear"] = "2022",
 				["prvdateweek"] = "08/07/22",
-				["totalcash"] = 30481557,
+				["prvday"] = "15/08/22",
 			},
 			["data"] = {
 				["TRAIN"] = {
 					["PrvWeek"] = {
 						["In"] = 0,
-						["Out"] = 86290,
+						["Out"] = 0,
 					},
 					["PrvDay"] = {
 						["In"] = 0,
-						["Out"] = 404600,
+						["Out"] = 0,
 					},
 					["Day"] = {
 						["In"] = 0,
-						["Out"] = 81000,
+						["Out"] = 0,
 					},
 					["Week"] = {
 						["In"] = 0,
-						["Out"] = 485600,
+						["Out"] = 0,
 					},
 					["Year"] = {
 						["In"] = 0,
-						["Out"] = 571890,
+						["Out"] = 0,
 					},
 					["Month"] = {
 						["In"] = 0,
-						["Out"] = 571890,
+						["Out"] = 0,
 					},
 					["PrvYear"] = {
 						["In"] = 0,
@@ -938,33 +938,33 @@ Accountant_ClassicSaveData = {
 					},
 					["Total"] = {
 						["In"] = 0,
-						["Out"] = 571890,
+						["Out"] = 0,
 					},
 				},
 				["TAXI"] = {
 					["PrvWeek"] = {
 						["In"] = 0,
-						["Out"] = 3232,
+						["Out"] = 0,
 					},
 					["PrvDay"] = {
 						["In"] = 0,
-						["Out"] = 3186,
+						["Out"] = 0,
 					},
 					["Day"] = {
 						["In"] = 0,
-						["Out"] = 1335,
+						["Out"] = 0,
 					},
 					["Week"] = {
 						["In"] = 0,
-						["Out"] = 4521,
+						["Out"] = 0,
 					},
 					["Year"] = {
 						["In"] = 0,
-						["Out"] = 7753,
+						["Out"] = 0,
 					},
 					["Month"] = {
 						["In"] = 0,
-						["Out"] = 7753,
+						["Out"] = 0,
 					},
 					["PrvYear"] = {
 						["In"] = 0,
@@ -980,7 +980,7 @@ Accountant_ClassicSaveData = {
 					},
 					["Total"] = {
 						["In"] = 0,
-						["Out"] = 7753,
+						["Out"] = 0,
 					},
 				},
 				["TRADE"] = {
@@ -1027,8 +1027,8 @@ Accountant_ClassicSaveData = {
 				},
 				["OTHER"] = {
 					["PrvWeek"] = {
-						["In"] = 50000013,
-						["Out"] = 1,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["PrvDay"] = {
 						["In"] = 0,
@@ -1043,19 +1043,19 @@ Accountant_ClassicSaveData = {
 						["Out"] = 0,
 					},
 					["Year"] = {
-						["In"] = 50000013,
-						["Out"] = 1,
+						["In"] = 153,
+						["Out"] = 0,
 					},
 					["Month"] = {
-						["In"] = 50000013,
-						["Out"] = 1,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["PrvYear"] = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
 					["PrvMonth"] = {
-						["In"] = 0,
+						["In"] = 153,
 						["Out"] = 0,
 					},
 					["Session"] = {
@@ -1063,34 +1063,34 @@ Accountant_ClassicSaveData = {
 						["Out"] = 0,
 					},
 					["Total"] = {
-						["In"] = 50000013,
-						["Out"] = 1,
+						["In"] = 153,
+						["Out"] = 0,
 					},
 				},
 				["REPAIRS"] = {
 					["PrvWeek"] = {
-						["In"] = 168,
-						["Out"] = 1943,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["PrvDay"] = {
-						["In"] = 840,
-						["Out"] = 1030,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["Day"] = {
 						["In"] = 0,
 						["Out"] = 0,
 					},
 					["Week"] = {
-						["In"] = 840,
-						["Out"] = 1030,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["Year"] = {
-						["In"] = 1008,
-						["Out"] = 2973,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["Month"] = {
-						["In"] = 1008,
-						["Out"] = 2973,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["PrvYear"] = {
 						["In"] = 0,
@@ -1105,34 +1105,34 @@ Accountant_ClassicSaveData = {
 						["Out"] = 0,
 					},
 					["Total"] = {
-						["In"] = 1008,
-						["Out"] = 2973,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 				},
 				["LOOT"] = {
 					["PrvWeek"] = {
-						["In"] = 24817,
-						["Out"] = 3,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["PrvDay"] = {
-						["In"] = 38115,
-						["Out"] = 24,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["Day"] = {
-						["In"] = 19987,
+						["In"] = 0,
 						["Out"] = 0,
 					},
 					["Week"] = {
-						["In"] = 58102,
-						["Out"] = 24,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["Year"] = {
-						["In"] = 82919,
-						["Out"] = 27,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["Month"] = {
-						["In"] = 82919,
-						["Out"] = 27,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["PrvYear"] = {
 						["In"] = 0,
@@ -1143,38 +1143,38 @@ Accountant_ClassicSaveData = {
 						["Out"] = 0,
 					},
 					["Session"] = {
-						["In"] = 3441,
+						["In"] = 0,
 						["Out"] = 0,
 					},
 					["Total"] = {
-						["In"] = 82919,
-						["Out"] = 27,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 				},
 				["MERCH"] = {
 					["PrvWeek"] = {
-						["In"] = 81682,
-						["Out"] = 30369,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["PrvDay"] = {
-						["In"] = 140159,
-						["Out"] = 90711,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["Day"] = {
-						["In"] = 137107,
-						["Out"] = 20603,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["Week"] = {
-						["In"] = 277266,
-						["Out"] = 111314,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["Year"] = {
-						["In"] = 358948,
-						["Out"] = 141683,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["Month"] = {
-						["In"] = 358948,
-						["Out"] = 141683,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["PrvYear"] = {
 						["In"] = 0,
@@ -1189,34 +1189,34 @@ Accountant_ClassicSaveData = {
 						["Out"] = 0,
 					},
 					["Total"] = {
-						["In"] = 358948,
-						["Out"] = 141683,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 				},
 				["AH"] = {
 					["PrvWeek"] = {
-						["In"] = 42074,
-						["Out"] = 1007040,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["PrvDay"] = {
 						["In"] = 0,
-						["Out"] = 7142133,
+						["Out"] = 0,
 					},
 					["Day"] = {
 						["In"] = 0,
-						["Out"] = 1513000,
+						["Out"] = 0,
 					},
 					["Week"] = {
 						["In"] = 0,
-						["Out"] = 8655133,
+						["Out"] = 0,
 					},
 					["Year"] = {
-						["In"] = 42074,
-						["Out"] = 9662173,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["Month"] = {
-						["In"] = 42074,
-						["Out"] = 9662173,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["PrvYear"] = {
 						["In"] = 0,
@@ -1231,34 +1231,34 @@ Accountant_ClassicSaveData = {
 						["Out"] = 0,
 					},
 					["Total"] = {
-						["In"] = 42074,
-						["Out"] = 9662173,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 				},
 				["MAIL"] = {
 					["PrvWeek"] = {
-						["In"] = 76023,
-						["Out"] = 5000560,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["PrvDay"] = {
-						["In"] = 124095,
+						["In"] = 0,
 						["Out"] = 0,
 					},
 					["Day"] = {
 						["In"] = 0,
-						["Out"] = 5000270,
+						["Out"] = 0,
 					},
 					["Week"] = {
-						["In"] = 124095,
-						["Out"] = 5000270,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["Year"] = {
-						["In"] = 200118,
-						["Out"] = 10000830,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["Month"] = {
-						["In"] = 200118,
-						["Out"] = 10000830,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["PrvYear"] = {
 						["In"] = 0,
@@ -1270,37 +1270,37 @@ Accountant_ClassicSaveData = {
 					},
 					["Session"] = {
 						["In"] = 0,
-						["Out"] = 5000030,
+						["Out"] = 0,
 					},
 					["Total"] = {
-						["In"] = 200118,
-						["Out"] = 10000830,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 				},
 				["QUEST"] = {
 					["PrvWeek"] = {
-						["In"] = 31970,
+						["In"] = 0,
 						["Out"] = 0,
 					},
 					["PrvDay"] = {
-						["In"] = 70346,
-						["Out"] = 8,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["Day"] = {
-						["In"] = 81500,
+						["In"] = 0,
 						["Out"] = 0,
 					},
 					["Week"] = {
-						["In"] = 151846,
-						["Out"] = 8,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["Year"] = {
-						["In"] = 183816,
-						["Out"] = 8,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["Month"] = {
-						["In"] = 183816,
-						["Out"] = 8,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 					["PrvYear"] = {
 						["In"] = 0,
@@ -1311,12 +1311,12 @@ Accountant_ClassicSaveData = {
 						["Out"] = 0,
 					},
 					["Session"] = {
-						["In"] = 44500,
+						["In"] = 0,
 						["Out"] = 0,
 					},
 					["Total"] = {
-						["In"] = 183816,
-						["Out"] = 8,
+						["In"] = 0,
+						["Out"] = 0,
 					},
 				},
 			},
@@ -1344,549 +1344,7 @@ Accountant_ClassicDB = {
 }
 Accountant_Classic_NewDB = nil
 Accountant_ClassicZoneDB = {
-	["加丁"] = {
-		["Vscode"] = {
-			["data"] = {
-				["PrvWeek"] = {
-					["REPAIRS"] = {
-					},
-					["TAXI"] = {
-					},
-					["TRADE"] = {
-					},
-					["OTHER"] = {
-					},
-					["TRAIN"] = {
-					},
-					["MERCH"] = {
-					},
-					["LOOT"] = {
-					},
-					["MAIL"] = {
-					},
-					["AH"] = {
-					},
-					["QUEST"] = {
-					},
-				},
-				["PrvDay"] = {
-					["REPAIRS"] = {
-					},
-					["TAXI"] = {
-					},
-					["TRADE"] = {
-					},
-					["OTHER"] = {
-					},
-					["TRAIN"] = {
-					},
-					["MERCH"] = {
-					},
-					["AH"] = {
-					},
-					["MAIL"] = {
-					},
-					["LOOT"] = {
-					},
-					["QUEST"] = {
-					},
-				},
-				["Total"] = {
-					["REPAIRS"] = {
-					},
-					["TAXI"] = {
-					},
-					["TRADE"] = {
-					},
-					["MAIL"] = {
-					},
-					["OTHER"] = {
-						[""] = {
-							["In"] = 153,
-							["Out"] = 0,
-						},
-					},
-					["MERCH"] = {
-					},
-					["LOOT"] = {
-					},
-					["AH"] = {
-					},
-					["TRAIN"] = {
-					},
-					["QUEST"] = {
-					},
-				},
-				["Week"] = {
-					["REPAIRS"] = {
-					},
-					["TAXI"] = {
-					},
-					["TRADE"] = {
-					},
-					["MAIL"] = {
-					},
-					["OTHER"] = {
-					},
-					["MERCH"] = {
-					},
-					["LOOT"] = {
-					},
-					["AH"] = {
-					},
-					["TRAIN"] = {
-					},
-					["QUEST"] = {
-					},
-				},
-				["Year"] = {
-					["REPAIRS"] = {
-					},
-					["TAXI"] = {
-					},
-					["TRADE"] = {
-					},
-					["MAIL"] = {
-					},
-					["OTHER"] = {
-						[""] = {
-							["In"] = 153,
-							["Out"] = 0,
-						},
-					},
-					["MERCH"] = {
-					},
-					["LOOT"] = {
-					},
-					["AH"] = {
-					},
-					["TRAIN"] = {
-					},
-					["QUEST"] = {
-					},
-				},
-				["Month"] = {
-					["REPAIRS"] = {
-					},
-					["TAXI"] = {
-					},
-					["TRADE"] = {
-					},
-					["MAIL"] = {
-					},
-					["OTHER"] = {
-					},
-					["MERCH"] = {
-					},
-					["LOOT"] = {
-					},
-					["AH"] = {
-					},
-					["TRAIN"] = {
-					},
-					["QUEST"] = {
-					},
-				},
-				["PrvYear"] = {
-					["REPAIRS"] = {
-					},
-					["TAXI"] = {
-					},
-					["TRADE"] = {
-					},
-					["MAIL"] = {
-					},
-					["OTHER"] = {
-					},
-					["MERCH"] = {
-					},
-					["LOOT"] = {
-					},
-					["AH"] = {
-					},
-					["TRAIN"] = {
-					},
-					["QUEST"] = {
-					},
-				},
-				["PrvMonth"] = {
-					["REPAIRS"] = {
-					},
-					["TAXI"] = {
-					},
-					["TRADE"] = {
-					},
-					["OTHER"] = {
-						[""] = {
-							["In"] = 153,
-							["Out"] = 0,
-						},
-					},
-					["AH"] = {
-					},
-					["LOOT"] = {
-					},
-					["TRAIN"] = {
-					},
-					["MAIL"] = {
-					},
-					["MERCH"] = {
-					},
-					["QUEST"] = {
-					},
-				},
-				["Session"] = {
-					["REPAIRS"] = {
-					},
-					["TAXI"] = {
-					},
-					["TRADE"] = {
-					},
-					["MAIL"] = {
-					},
-					["OTHER"] = {
-					},
-					["MERCH"] = {
-					},
-					["LOOT"] = {
-					},
-					["AH"] = {
-					},
-					["TRAIN"] = {
-					},
-					["QUEST"] = {
-					},
-				},
-				["Day"] = {
-					["REPAIRS"] = {
-					},
-					["TAXI"] = {
-					},
-					["TRADE"] = {
-					},
-					["MAIL"] = {
-					},
-					["OTHER"] = {
-					},
-					["MERCH"] = {
-					},
-					["TRAIN"] = {
-					},
-					["AH"] = {
-					},
-					["LOOT"] = {
-					},
-					["QUEST"] = {
-					},
-				},
-			},
-		},
-	},
 	["祈福"] = {
-		["特工仓库"] = {
-			["data"] = {
-				["PrvWeek"] = {
-					["REPAIRS"] = {
-					},
-					["TAXI"] = {
-					},
-					["TRADE"] = {
-					},
-					["OTHER"] = {
-					},
-					["AH"] = {
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 0,
-							["Out"] = 1416254,
-						},
-					},
-					["LOOT"] = {
-					},
-					["TRAIN"] = {
-					},
-					["MAIL"] = {
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 5000500,
-							["Out"] = 1050,
-						},
-					},
-					["MERCH"] = {
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 0,
-							["Out"] = 95,
-						},
-					},
-					["QUEST"] = {
-					},
-				},
-				["PrvDay"] = {
-					["REPAIRS"] = {
-					},
-					["TAXI"] = {
-					},
-					["TRADE"] = {
-					},
-					["OTHER"] = {
-					},
-					["TRAIN"] = {
-					},
-					["MERCH"] = {
-					},
-					["AH"] = {
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 0,
-							["Out"] = 25624,
-						},
-					},
-					["MAIL"] = {
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 0,
-							["Out"] = 90,
-						},
-					},
-					["LOOT"] = {
-					},
-					["QUEST"] = {
-					},
-				},
-				["Total"] = {
-					["REPAIRS"] = {
-					},
-					["TAXI"] = {
-					},
-					["TRADE"] = {
-					},
-					["MAIL"] = {
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 5000500,
-							["Out"] = 1740,
-						},
-					},
-					["OTHER"] = {
-					},
-					["MERCH"] = {
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 0,
-							["Out"] = 95,
-						},
-					},
-					["LOOT"] = {
-					},
-					["AH"] = {
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 0,
-							["Out"] = 2886843,
-						},
-					},
-					["TRAIN"] = {
-					},
-					["QUEST"] = {
-					},
-				},
-				["Week"] = {
-					["REPAIRS"] = {
-					},
-					["TAXI"] = {
-					},
-					["TRADE"] = {
-					},
-					["MAIL"] = {
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 0,
-							["Out"] = 690,
-						},
-					},
-					["OTHER"] = {
-					},
-					["MERCH"] = {
-					},
-					["LOOT"] = {
-					},
-					["AH"] = {
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 0,
-							["Out"] = 1470589,
-						},
-					},
-					["TRAIN"] = {
-					},
-					["QUEST"] = {
-					},
-				},
-				["Year"] = {
-					["REPAIRS"] = {
-					},
-					["TAXI"] = {
-					},
-					["TRADE"] = {
-					},
-					["MAIL"] = {
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 5000500,
-							["Out"] = 1740,
-						},
-					},
-					["OTHER"] = {
-					},
-					["MERCH"] = {
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 0,
-							["Out"] = 95,
-						},
-					},
-					["LOOT"] = {
-					},
-					["AH"] = {
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 0,
-							["Out"] = 2886843,
-						},
-					},
-					["TRAIN"] = {
-					},
-					["QUEST"] = {
-					},
-				},
-				["Month"] = {
-					["REPAIRS"] = {
-					},
-					["TAXI"] = {
-					},
-					["TRADE"] = {
-					},
-					["MAIL"] = {
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 5000500,
-							["Out"] = 1740,
-						},
-					},
-					["OTHER"] = {
-					},
-					["MERCH"] = {
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 0,
-							["Out"] = 95,
-						},
-					},
-					["LOOT"] = {
-					},
-					["AH"] = {
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 0,
-							["Out"] = 2886843,
-						},
-					},
-					["TRAIN"] = {
-					},
-					["QUEST"] = {
-					},
-				},
-				["PrvYear"] = {
-					["REPAIRS"] = {
-					},
-					["TAXI"] = {
-					},
-					["TRADE"] = {
-					},
-					["MAIL"] = {
-					},
-					["OTHER"] = {
-					},
-					["MERCH"] = {
-					},
-					["LOOT"] = {
-					},
-					["AH"] = {
-					},
-					["TRAIN"] = {
-					},
-					["QUEST"] = {
-					},
-				},
-				["PrvMonth"] = {
-					["REPAIRS"] = {
-					},
-					["TAXI"] = {
-					},
-					["TRADE"] = {
-					},
-					["MAIL"] = {
-					},
-					["OTHER"] = {
-					},
-					["MERCH"] = {
-					},
-					["LOOT"] = {
-					},
-					["AH"] = {
-					},
-					["TRAIN"] = {
-					},
-					["QUEST"] = {
-					},
-				},
-				["Session"] = {
-					["REPAIRS"] = {
-					},
-					["TAXI"] = {
-					},
-					["TRADE"] = {
-					},
-					["MAIL"] = {
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 0,
-							["Out"] = 60,
-						},
-					},
-					["OTHER"] = {
-					},
-					["MERCH"] = {
-					},
-					["TRAIN"] = {
-					},
-					["AH"] = {
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 0,
-							["Out"] = 789185,
-						},
-					},
-					["LOOT"] = {
-					},
-					["QUEST"] = {
-					},
-				},
-				["Day"] = {
-					["REPAIRS"] = {
-					},
-					["TAXI"] = {
-					},
-					["TRADE"] = {
-					},
-					["MAIL"] = {
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 0,
-							["Out"] = 600,
-						},
-					},
-					["OTHER"] = {
-					},
-					["MERCH"] = {
-					},
-					["TRAIN"] = {
-					},
-					["AH"] = {
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 0,
-							["Out"] = 1444965,
-						},
-					},
-					["LOOT"] = {
-					},
-					["QUEST"] = {
-					},
-				},
-			},
-		},
 		["特变电工"] = {
 			["data"] = {
 				["PrvWeek"] = {
@@ -1899,17 +1357,17 @@ Accountant_ClassicZoneDB = {
 							["In"] = 0,
 							["Out"] = 18,
 						},
-						["铁炉堡 - 铁炉堡"] = {
+						["赤脊山 - 湖畔镇"] = {
 							["In"] = 0,
-							["Out"] = 79,
+							["Out"] = 779,
 						},
 						["湿地 - 米奈希尔港"] = {
 							["In"] = 0,
 							["Out"] = 159,
 						},
-						["赤脊山 - 湖畔镇"] = {
+						["铁炉堡 - 铁炉堡"] = {
 							["In"] = 0,
-							["Out"] = 779,
+							["Out"] = 79,
 						},
 					},
 					["TAXI"] = {
@@ -1949,13 +1407,13 @@ Accountant_ClassicZoneDB = {
 					["TRADE"] = {
 					},
 					["OTHER"] = {
-						["死亡矿井"] = {
-							["In"] = 13,
-							["Out"] = 1,
-						},
 						["艾爾文森林 - 東谷伐木場"] = {
 							["In"] = 50000000,
 							["Out"] = 0,
+						},
+						["死亡矿井"] = {
+							["In"] = 13,
+							["Out"] = 1,
 						},
 					},
 					["TRAIN"] = {
@@ -1971,9 +1429,9 @@ Accountant_ClassicZoneDB = {
 							["In"] = 0,
 							["Out"] = 67254,
 						},
-						["暴風城 - 貿易區"] = {
+						["铁炉堡 - 荒弃的洞穴"] = {
 							["In"] = 0,
-							["Out"] = 1800,
+							["Out"] = 8550,
 						},
 						["铁炉堡 - 大锻炉"] = {
 							["In"] = 0,
@@ -1987,9 +1445,9 @@ Accountant_ClassicZoneDB = {
 							["In"] = 0,
 							["Out"] = 390,
 						},
-						["铁炉堡 - 荒弃的洞穴"] = {
+						["暴風城 - 貿易區"] = {
 							["In"] = 0,
-							["Out"] = 8550,
+							["Out"] = 1800,
 						},
 					},
 					["MERCH"] = {
@@ -2049,9 +1507,9 @@ Accountant_ClassicZoneDB = {
 							["In"] = 136,
 							["Out"] = 0,
 						},
-						["赤脊山 - 湖畔镇"] = {
-							["In"] = 7146,
-							["Out"] = 0,
+						["艾爾文森林 - 閃金鎮"] = {
+							["In"] = 0,
+							["Out"] = 382,
 						},
 						["艾尔文森林"] = {
 							["In"] = 4087,
@@ -2065,8 +1523,8 @@ Accountant_ClassicZoneDB = {
 							["In"] = 18571,
 							["Out"] = 0,
 						},
-						["暮色森林"] = {
-							["In"] = 1731,
+						["艾爾文森林 - 北郡山谷"] = {
+							["In"] = 165,
 							["Out"] = 0,
 						},
 						["血鸦旅店"] = {
@@ -2077,13 +1535,45 @@ Accountant_ClassicZoneDB = {
 							["In"] = 0,
 							["Out"] = 1350,
 						},
-						["艾爾文森林 - 北郡山谷"] = {
-							["In"] = 165,
+						["暮色森林"] = {
+							["In"] = 1731,
 							["Out"] = 0,
 						},
-						["艾爾文森林 - 閃金鎮"] = {
+						["赤脊山 - 湖畔镇"] = {
+							["In"] = 7146,
+							["Out"] = 0,
+						},
+					},
+					["AH"] = {
+						["暴風城 - 貿易區"] = {
 							["In"] = 0,
-							["Out"] = 382,
+							["Out"] = 394676,
+						},
+						["洛克莫丹 - 塞尔萨玛"] = {
+							["In"] = 40522,
+							["Out"] = 0,
+						},
+						["暴风城 - 贸易区"] = {
+							["In"] = 0,
+							["Out"] = 103973,
+						},
+						["洛克莫丹 - 烈酒旅店"] = {
+							["In"] = 1552,
+							["Out"] = 0,
+						},
+						["铁炉堡 - 铁炉堡"] = {
+							["In"] = 0,
+							["Out"] = 508391,
+						},
+					},
+					["MAIL"] = {
+						["洛克莫丹 - 烈酒旅店"] = {
+							["In"] = 7779,
+							["Out"] = 5000560,
+						},
+						["洛克莫丹 - 塞尔萨玛"] = {
+							["In"] = 68244,
+							["Out"] = 0,
 						},
 					},
 					["LOOT"] = {
@@ -2119,20 +1609,20 @@ Accountant_ClassicZoneDB = {
 							["In"] = 78,
 							["Out"] = 0,
 						},
-						["赤脊山 - 赤脊峡谷"] = {
-							["In"] = 303,
+						["西部荒野"] = {
+							["In"] = 104,
 							["Out"] = 0,
 						},
 						["西部荒野 - 长滩"] = {
 							["In"] = 1087,
 							["Out"] = 0,
 						},
-						["艾爾文森林 - 回音山礦坑"] = {
-							["In"] = 36,
+						["赤脊山 - 赤脊峡谷"] = {
+							["In"] = 303,
 							["Out"] = 0,
 						},
-						["艾爾文森林 - 法戈第礦坑"] = {
-							["In"] = 118,
+						["西部荒野 - 阿历克斯顿农场"] = {
+							["In"] = 186,
 							["Out"] = 0,
 						},
 						["西部荒野 - 贾森农场"] = {
@@ -2143,16 +1633,16 @@ Accountant_ClassicZoneDB = {
 							["In"] = 27,
 							["Out"] = 0,
 						},
-						["暮色森林 - 约根农场"] = {
-							["In"] = 271,
+						["暮色森林 - 乌鸦岭墓地"] = {
+							["In"] = 3379,
 							["Out"] = 0,
 						},
 						["洛克莫丹 - 银泉矿洞"] = {
 							["In"] = 410,
 							["Out"] = 0,
 						},
-						["暮色森林 - 夜色镇"] = {
-							["In"] = 43,
+						["西部荒野 - 摩尔森农场"] = {
+							["In"] = 4,
 							["Out"] = 0,
 						},
 						["丹莫罗 - 冻石农场"] = {
@@ -2163,12 +1653,12 @@ Accountant_ClassicZoneDB = {
 							["In"] = 168,
 							["Out"] = 0,
 						},
-						["西部荒野 - 摩尔森农场"] = {
-							["In"] = 4,
+						["暮色森林 - 约根农场"] = {
+							["In"] = 271,
 							["Out"] = 0,
 						},
-						["赤脊山 - 止水湖"] = {
-							["In"] = 625,
+						["西部荒野 - 月溪镇"] = {
+							["In"] = 573,
 							["Out"] = 0,
 						},
 						["湿地 - 铁须之墓"] = {
@@ -2183,24 +1673,24 @@ Accountant_ClassicZoneDB = {
 							["In"] = 1258,
 							["Out"] = 0,
 						},
-						["赤脊山 - 三角路口"] = {
-							["In"] = 153,
+						["湿地 - 藓皮沼泽"] = {
+							["In"] = 341,
 							["Out"] = 0,
 						},
-						["艾爾文森林 - 水晶湖"] = {
-							["In"] = 27,
+						["赤脊山 - 石堡要塞"] = {
+							["In"] = 54,
 							["Out"] = 0,
 						},
-						["赤脊山 - 石堡高塔"] = {
-							["In"] = 208,
+						["死亡矿井 - 迪菲亚潜行者巢穴"] = {
+							["In"] = 19,
 							["Out"] = 0,
 						},
-						["西部荒野 - 迪蒙特荒野"] = {
-							["In"] = 86,
+						["艾爾文森林 - 北郡修道院"] = {
+							["In"] = 1,
 							["Out"] = 0,
 						},
-						["赤脊山 - 湖边大道"] = {
-							["In"] = 806,
+						["艾爾文森林 - 北郡農場"] = {
+							["In"] = 13,
 							["Out"] = 0,
 						},
 						["艾尔文森林 - 林边空地"] = {
@@ -2211,8 +1701,8 @@ Accountant_ClassicZoneDB = {
 							["In"] = 273,
 							["Out"] = 0,
 						},
-						["西部荒野 - 月溪镇"] = {
-							["In"] = 573,
+						["洛克莫丹 - 碎石怪之谷"] = {
+							["In"] = 969,
 							["Out"] = 0,
 						},
 						["西部荒野 - 匕首岭"] = {
@@ -2223,76 +1713,76 @@ Accountant_ClassicZoneDB = {
 							["In"] = 4,
 							["Out"] = 0,
 						},
-						["赤脊山"] = {
-							["In"] = 67,
+						["暮色森林 - 静谧花园墓场"] = {
+							["In"] = 707,
 							["Out"] = 0,
 						},
 						["艾尔文森林 - 东谷伐木场"] = {
 							["In"] = 63,
 							["Out"] = 0,
 						},
-						["丹莫罗 - 古博拉采掘场"] = {
-							["In"] = 30,
-							["Out"] = 0,
-						},
-						["艾尔文森林 - 斯通菲尔德农场"] = {
-							["In"] = 20,
-							["Out"] = 0,
-						},
-						["湿地 - 绿带草地"] = {
-							["In"] = 246,
-							["Out"] = 0,
-						},
-						["洛克莫丹 - 巨石水坝"] = {
-							["In"] = 59,
-							["Out"] = 0,
-						},
-						["洛克莫丹 - 碎石怪之谷"] = {
-							["In"] = 969,
-							["Out"] = 0,
-						},
-						["赤脊山 - 湖畔镇"] = {
-							["In"] = 73,
-							["Out"] = 0,
-						},
-						["湿地"] = {
-							["In"] = 2608,
-							["Out"] = 0,
-						},
-						["西部荒野 - 詹戈洛德矿洞"] = {
-							["In"] = 149,
+						["赤脊山 - 三角路口"] = {
+							["In"] = 153,
 							["Out"] = 0,
 						},
 						["西部荒野 - 斯特登的池塘"] = {
 							["In"] = 154,
 							["Out"] = 0,
 						},
-						["暮色森林 - 静谧花园墓场"] = {
-							["In"] = 707,
+						["西部荒野 - 迪蒙特荒野"] = {
+							["In"] = 86,
+							["Out"] = 0,
+						},
+						["赤脊山 - 湖边大道"] = {
+							["In"] = 806,
+							["Out"] = 0,
+						},
+						["赤脊山 - 止水湖"] = {
+							["In"] = 625,
+							["Out"] = 0,
+						},
+						["赤脊山"] = {
+							["In"] = 67,
+							["Out"] = 0,
+						},
+						["西部荒野 - 詹戈洛德矿洞"] = {
+							["In"] = 149,
+							["Out"] = 0,
+						},
+						["湿地"] = {
+							["In"] = 2608,
+							["Out"] = 0,
+						},
+						["赤脊山 - 石堡高塔"] = {
+							["In"] = 208,
+							["Out"] = 0,
+						},
+						["赤脊山 - 湖畔镇"] = {
+							["In"] = 73,
 							["Out"] = 0,
 						},
 						["赤脊山 - 石堡"] = {
 							["In"] = 893,
 							["Out"] = 0,
 						},
-						["艾爾文森林 - 北郡農場"] = {
-							["In"] = 13,
+						["洛克莫丹 - 巨石水坝"] = {
+							["In"] = 59,
 							["Out"] = 0,
 						},
-						["艾爾文森林 - 北郡修道院"] = {
-							["In"] = 1,
+						["湿地 - 绿带草地"] = {
+							["In"] = 246,
 							["Out"] = 0,
 						},
-						["死亡矿井 - 迪菲亚潜行者巢穴"] = {
-							["In"] = 19,
+						["艾尔文森林 - 斯通菲尔德农场"] = {
+							["In"] = 20,
 							["Out"] = 0,
 						},
-						["赤脊山 - 石堡要塞"] = {
-							["In"] = 54,
+						["艾爾文森林 - 水晶湖"] = {
+							["In"] = 27,
 							["Out"] = 0,
 						},
-						["湿地 - 藓皮沼泽"] = {
-							["In"] = 341,
+						["丹莫罗 - 古博拉采掘场"] = {
+							["In"] = 30,
 							["Out"] = 0,
 						},
 						["艾爾文森林 - 玉石礦坑"] = {
@@ -2303,53 +1793,21 @@ Accountant_ClassicZoneDB = {
 							["In"] = 2837,
 							["Out"] = 3,
 						},
-						["暮色森林 - 乌鸦岭墓地"] = {
-							["In"] = 3379,
+						["暮色森林 - 夜色镇"] = {
+							["In"] = 43,
 							["Out"] = 0,
 						},
-						["西部荒野 - 阿历克斯顿农场"] = {
-							["In"] = 186,
+						["艾爾文森林 - 法戈第礦坑"] = {
+							["In"] = 118,
 							["Out"] = 0,
 						},
-						["西部荒野"] = {
-							["In"] = 104,
+						["艾爾文森林 - 回音山礦坑"] = {
+							["In"] = 36,
 							["Out"] = 0,
 						},
 						["洛克莫丹 - 灰爪山"] = {
 							["In"] = 12,
 							["Out"] = 0,
-						},
-					},
-					["MAIL"] = {
-						["洛克莫丹 - 烈酒旅店"] = {
-							["In"] = 7779,
-							["Out"] = 5000560,
-						},
-						["洛克莫丹 - 塞尔萨玛"] = {
-							["In"] = 68244,
-							["Out"] = 0,
-						},
-					},
-					["AH"] = {
-						["暴風城 - 貿易區"] = {
-							["In"] = 0,
-							["Out"] = 394676,
-						},
-						["洛克莫丹 - 塞尔萨玛"] = {
-							["In"] = 40522,
-							["Out"] = 0,
-						},
-						["暴风城 - 贸易区"] = {
-							["In"] = 0,
-							["Out"] = 103973,
-						},
-						["洛克莫丹 - 烈酒旅店"] = {
-							["In"] = 1552,
-							["Out"] = 0,
-						},
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 0,
-							["Out"] = 508391,
 						},
 					},
 					["QUEST"] = {
@@ -2373,8 +1831,8 @@ Accountant_ClassicZoneDB = {
 							["In"] = 1400,
 							["Out"] = 0,
 						},
-						["西部荒野 - 月溪镇"] = {
-							["In"] = 2,
+						["丹莫罗 - 古博拉采掘场"] = {
+							["In"] = 500,
 							["Out"] = 0,
 						},
 						["艾爾文森林 - 北郡修道院"] = {
@@ -2393,8 +1851,8 @@ Accountant_ClassicZoneDB = {
 							["In"] = 1200,
 							["Out"] = 0,
 						},
-						["血鸦旅店"] = {
-							["In"] = 1800,
+						["西部荒野 - 月溪镇"] = {
+							["In"] = 2,
 							["Out"] = 0,
 						},
 						["死亡矿井 - 迪菲亚潜行者巢穴"] = {
@@ -2409,20 +1867,20 @@ Accountant_ClassicZoneDB = {
 							["In"] = 175,
 							["Out"] = 0,
 						},
-						["赤脊山 - 湖畔镇"] = {
-							["In"] = 4000,
+						["暴风城 - 矮人区"] = {
+							["In"] = 600,
 							["Out"] = 0,
 						},
-						["哨兵塔"] = {
+						["洛克莫丹 - 烈酒旅店"] = {
+							["In"] = 400,
+							["Out"] = 0,
+						},
+						["西部荒野 - 西部荒野灯塔"] = {
 							["In"] = 1700,
 							["Out"] = 0,
 						},
-						["暮色森林 - 寂静河岸"] = {
-							["In"] = 800,
-							["Out"] = 0,
-						},
-						["艾尔文森林 - 闪金镇"] = {
-							["In"] = 85,
+						["洛克莫丹 - 奥加兹岗哨"] = {
+							["In"] = 700,
 							["Out"] = 0,
 						},
 						["艾爾文森林 - 閃金鎮"] = {
@@ -2449,347 +1907,29 @@ Accountant_ClassicZoneDB = {
 							["In"] = 2400,
 							["Out"] = 0,
 						},
-						["洛克莫丹 - 奥加兹岗哨"] = {
-							["In"] = 700,
+						["艾尔文森林 - 闪金镇"] = {
+							["In"] = 85,
 							["Out"] = 0,
 						},
-						["西部荒野 - 西部荒野灯塔"] = {
+						["哨兵塔"] = {
 							["In"] = 1700,
 							["Out"] = 0,
 						},
-						["洛克莫丹 - 烈酒旅店"] = {
-							["In"] = 400,
+						["暮色森林 - 寂静河岸"] = {
+							["In"] = 800,
 							["Out"] = 0,
 						},
-						["暴风城 - 矮人区"] = {
-							["In"] = 600,
+						["赤脊山 - 湖畔镇"] = {
+							["In"] = 4000,
 							["Out"] = 0,
 						},
-						["丹莫罗 - 古博拉采掘场"] = {
-							["In"] = 500,
+						["血鸦旅店"] = {
+							["In"] = 1800,
 							["Out"] = 0,
 						},
 					},
 				},
 				["PrvDay"] = {
-					["REPAIRS"] = {
-						["暴风城 - 贸易区"] = {
-							["In"] = 0,
-							["Out"] = 704,
-						},
-						["湿地 - 米奈希尔港"] = {
-							["In"] = 840,
-							["Out"] = 121,
-						},
-						["希尔斯布莱德丘陵 - 南海镇"] = {
-							["In"] = 0,
-							["Out"] = 205,
-						},
-					},
-					["TAXI"] = {
-						["暴风城 - 贸易区"] = {
-							["In"] = 0,
-							["Out"] = 458,
-						},
-						["暮色森林 - 夜色镇"] = {
-							["In"] = 0,
-							["Out"] = 884,
-						},
-						["阿拉希高地 - 避难谷地"] = {
-							["In"] = 0,
-							["Out"] = 280,
-						},
-						["希尔斯布莱德丘陵 - 南海镇"] = {
-							["In"] = 0,
-							["Out"] = 280,
-						},
-						["湿地 - 米奈希尔港"] = {
-							["In"] = 0,
-							["Out"] = 782,
-						},
-						["赤脊山"] = {
-							["In"] = 0,
-							["Out"] = 502,
-						},
-					},
-					["TRADE"] = {
-					},
-					["OTHER"] = {
-					},
-					["TRAIN"] = {
-						["暴风城 - 旧城区"] = {
-							["In"] = 0,
-							["Out"] = 107100,
-						},
-						["艾尔文森林 - 东谷伐木场"] = {
-							["In"] = 0,
-							["Out"] = 297500,
-						},
-					},
-					["MERCH"] = {
-						["暴风城 - 贸易区"] = {
-							["In"] = 25366,
-							["Out"] = 3450,
-						},
-						["暴风城 - 旧城区"] = {
-							["In"] = 5956,
-							["Out"] = 2040,
-						},
-						["湖畔镇旅店"] = {
-							["In"] = 15523,
-							["Out"] = 0,
-						},
-						["阿拉希高地 - 避难谷地"] = {
-							["In"] = 19768,
-							["Out"] = 0,
-						},
-						["暮色森林"] = {
-							["In"] = 1282,
-							["Out"] = 0,
-						},
-						["希尔斯布莱德丘陵 - 南海镇"] = {
-							["In"] = 4852,
-							["Out"] = 221,
-						},
-						["艾尔文森林 - 东谷伐木场"] = {
-							["In"] = 3270,
-							["Out"] = 85000,
-						},
-						["血鸦旅店"] = {
-							["In"] = 17772,
-							["Out"] = 0,
-						},
-						["湿地 - 米奈希尔港"] = {
-							["In"] = 21775,
-							["Out"] = 0,
-						},
-						["湿地 - 深水旅店"] = {
-							["In"] = 24595,
-							["Out"] = 0,
-						},
-					},
-					["AH"] = {
-						["暴风城 - 贸易区"] = {
-							["In"] = 0,
-							["Out"] = 7142133,
-						},
-					},
-					["MAIL"] = {
-						["希尔斯布莱德丘陵 - 南海镇"] = {
-							["In"] = 124095,
-							["Out"] = 0,
-						},
-					},
-					["LOOT"] = {
-						["希尔斯布莱德丘陵 - 达隆山"] = {
-							["In"] = 3864,
-							["Out"] = 0,
-						},
-						["湿地 - 米奈希尔海湾"] = {
-							["In"] = 603,
-							["Out"] = 0,
-						},
-						["湿地 - 怒牙营地"] = {
-							["In"] = 69,
-							["Out"] = 0,
-						},
-						["暮色森林"] = {
-							["In"] = 783,
-							["Out"] = 0,
-						},
-						["暴风城监狱"] = {
-							["In"] = 5558,
-							["Out"] = 0,
-						},
-						["湿地 - 恶铁岭"] = {
-							["In"] = 753,
-							["Out"] = 0,
-						},
-						["暮色森林 - 晨光之林墓穴"] = {
-							["In"] = 2500,
-							["Out"] = 0,
-						},
-						["暮色森林 - 烂果园"] = {
-							["In"] = 919,
-							["Out"] = 0,
-						},
-						["湿地 - 丹莫德"] = {
-							["In"] = 1414,
-							["Out"] = 0,
-						},
-						["暴风城 - 旧城区"] = {
-							["In"] = 152,
-							["Out"] = 0,
-						},
-						["希尔斯布莱德丘陵 - 西部海岸"] = {
-							["In"] = 3487,
-							["Out"] = 0,
-						},
-						["暮色森林 - 乌鸦岭墓地"] = {
-							["In"] = 3259,
-							["Out"] = 0,
-						},
-						["暮色森林 - 腐草农场"] = {
-							["In"] = 46,
-							["Out"] = 0,
-						},
-						["赤脊山 - 伊尔加拉之塔"] = {
-							["In"] = 444,
-							["Out"] = 0,
-						},
-						["暮色森林 - 密斯特曼托庄园"] = {
-							["In"] = 422,
-							["Out"] = 0,
-						},
-						["暮色森林 - 沃古尔食人魔山"] = {
-							["In"] = 383,
-							["Out"] = 0,
-						},
-						["赤脊山 - 撕裂者营地"] = {
-							["In"] = 703,
-							["Out"] = 0,
-						},
-						["暮色森林 - 罗兰之墓"] = {
-							["In"] = 890,
-							["Out"] = 0,
-						},
-						["希尔斯布莱德丘陵 - 南海镇"] = {
-							["In"] = 261,
-							["Out"] = 0,
-						},
-						["阿拉希高地 - 诺斯弗德农场"] = {
-							["In"] = 1885,
-							["Out"] = 0,
-						},
-						["湿地"] = {
-							["In"] = 247,
-							["Out"] = 0,
-						},
-						["湿地 - 萨多尔大桥"] = {
-							["In"] = 128,
-							["Out"] = 0,
-						},
-						["湿地 - 失落的舰队"] = {
-							["In"] = 1489,
-							["Out"] = 0,
-						},
-						["赤脊山 - 石堡"] = {
-							["In"] = 109,
-							["Out"] = 0,
-						},
-						["阿拉希高地"] = {
-							["In"] = 55,
-							["Out"] = 0,
-						},
-						["湿地 - 巴拉丁海湾"] = {
-							["In"] = 1461,
-							["Out"] = 0,
-						},
-						["赤脊山 - 石堡要塞"] = {
-							["In"] = 685,
-							["Out"] = 0,
-						},
-						["暮色森林 - 荒弃鬼屋"] = {
-							["In"] = 1545,
-							["Out"] = 0,
-						},
-						["赤脊山 - 石堡高塔"] = {
-							["In"] = 232,
-							["Out"] = 0,
-						},
-						["阿拉希高地 - 萨多尔大桥"] = {
-							["In"] = 206,
-							["Out"] = 0,
-						},
-						["赤脊山 - 撕裂者之石"] = {
-							["In"] = 2368,
-							["Out"] = 0,
-						},
-						["阿拉希高地 - 水下暗礁"] = {
-							["In"] = 366,
-							["Out"] = 0,
-						},
-						["暮色森林 - 阳光树林"] = {
-							["In"] = 597,
-							["Out"] = 0,
-						},
-						["暴风城 - 暴风要塞"] = {
-							["In"] = 55,
-							["Out"] = 24,
-						},
-						["希尔斯布莱德丘陵 - 东部海滩"] = {
-							["In"] = 177,
-							["Out"] = 0,
-						},
-					},
-					["QUEST"] = {
-						["暴风城 - 暴风要塞"] = {
-							["In"] = 55,
-							["Out"] = 0,
-						},
-						["赤脊山 - 湖畔镇"] = {
-							["In"] = 1500,
-							["Out"] = 0,
-						},
-						["暴风城 - 旧城区"] = {
-							["In"] = 6000,
-							["Out"] = 0,
-						},
-						["湿地 - 丹莫德"] = {
-							["In"] = 2552,
-							["Out"] = 0,
-						},
-						["湿地 - 萨多尔大桥"] = {
-							["In"] = 0,
-							["Out"] = 8,
-						},
-						["暮色森林 - 寂静河岸"] = {
-							["In"] = 1800,
-							["Out"] = 0,
-						},
-						["暮色森林 - 乌鸦岭墓地"] = {
-							["In"] = 5300,
-							["Out"] = 0,
-						},
-						["暴风城监狱"] = {
-							["In"] = 39,
-							["Out"] = 0,
-						},
-						["希尔斯布莱德丘陵 - 南海镇"] = {
-							["In"] = 10600,
-							["Out"] = 0,
-						},
-						["暮色森林 - 夜色镇"] = {
-							["In"] = 10900,
-							["Out"] = 0,
-						},
-						["湖畔镇大厅"] = {
-							["In"] = 4000,
-							["Out"] = 0,
-						},
-						["暴风城"] = {
-							["In"] = 8500,
-							["Out"] = 0,
-						},
-						["湿地 - 维尔加挖掘场"] = {
-							["In"] = 6400,
-							["Out"] = 0,
-						},
-						["湿地 - 米奈希尔城堡"] = {
-							["In"] = 2000,
-							["Out"] = 0,
-						},
-						["湿地 - 米奈希尔港"] = {
-							["In"] = 8900,
-							["Out"] = 0,
-						},
-						["赤脊山"] = {
-							["In"] = 1800,
-							["Out"] = 0,
-						},
-					},
-				},
-				["Day"] = {
 					["REPAIRS"] = {
 					},
 					["TAXI"] = {
@@ -2808,37 +1948,7 @@ Accountant_ClassicZoneDB = {
 					},
 					["TRADE"] = {
 					},
-					["MAIL"] = {
-						["尘泥沼泽 - 塞拉摩岛"] = {
-							["In"] = 0,
-							["Out"] = 5000270,
-						},
-					},
 					["OTHER"] = {
-					},
-					["MERCH"] = {
-						["希尔斯布莱德丘陵 - 南海镇"] = {
-							["In"] = 60632,
-							["Out"] = 20400,
-						},
-						["铁炉堡 - 荒弃的洞穴"] = {
-							["In"] = 0,
-							["Out"] = 203,
-						},
-						["尘泥沼泽 - 塞拉摩岛"] = {
-							["In"] = 69919,
-							["Out"] = 0,
-						},
-						["暴风城 - 贸易区"] = {
-							["In"] = 6556,
-							["Out"] = 0,
-						},
-					},
-					["TRAIN"] = {
-						["铁炉堡 - 荒弃的洞穴"] = {
-							["In"] = 0,
-							["Out"] = 81000,
-						},
 					},
 					["AH"] = {
 						["暴风城 - 贸易区"] = {
@@ -2883,6 +1993,10 @@ Accountant_ClassicZoneDB = {
 							["In"] = 1649,
 							["Out"] = 0,
 						},
+						["尘泥沼泽 - 黑蹄村"] = {
+							["In"] = 1133,
+							["Out"] = 0,
+						},
 						["阿拉希高地 - 格沙克农场"] = {
 							["In"] = 4241,
 							["Out"] = 0,
@@ -2892,17 +2006,47 @@ Accountant_ClassicZoneDB = {
 							["Out"] = 0,
 						},
 					},
+					["TRAIN"] = {
+						["铁炉堡 - 荒弃的洞穴"] = {
+							["In"] = 0,
+							["Out"] = 81000,
+						},
+					},
+					["MAIL"] = {
+						["尘泥沼泽 - 塞拉摩岛"] = {
+							["In"] = 0,
+							["Out"] = 5000270,
+						},
+					},
+					["MERCH"] = {
+						["希尔斯布莱德丘陵 - 南海镇"] = {
+							["In"] = 60632,
+							["Out"] = 20400,
+						},
+						["铁炉堡 - 荒弃的洞穴"] = {
+							["In"] = 0,
+							["Out"] = 203,
+						},
+						["暴风城 - 贸易区"] = {
+							["In"] = 6556,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 塞拉摩岛"] = {
+							["In"] = 69919,
+							["Out"] = 0,
+						},
+					},
 					["QUEST"] = {
 						["希尔斯布莱德丘陵 - 南海镇"] = {
 							["In"] = 7500,
 							["Out"] = 0,
 						},
-						["尘泥沼泽 - 北点哨塔"] = {
+						["尘泥沼泽 - 警戒哨岗"] = {
 							["In"] = 4000,
 							["Out"] = 0,
 						},
-						["尘泥沼泽 - 恐惧海岸"] = {
-							["In"] = 8000,
+						["尘泥沼泽 - 北点哨塔"] = {
+							["In"] = 12000,
 							["Out"] = 0,
 						},
 						["尘泥沼泽"] = {
@@ -2913,16 +2057,910 @@ Accountant_ClassicZoneDB = {
 							["In"] = 22000,
 							["Out"] = 0,
 						},
+						["阿拉希高地 - 避难谷地"] = {
+							["In"] = 7500,
+							["Out"] = 0,
+						},
 						["尘泥沼泽 - 水光庄园"] = {
 							["In"] = 15500,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 恐惧海岸"] = {
+							["In"] = 8000,
+							["Out"] = 0,
+						},
+					},
+				},
+				["Total"] = {
+					["REPAIRS"] = {
+						["暴风城 - 贸易区"] = {
+							["In"] = 168,
+							["Out"] = 1612,
+						},
+						["丹莫罗 - 古博拉采掘场"] = {
+							["In"] = 0,
+							["Out"] = 18,
+						},
+						["希尔斯布莱德丘陵 - 南海镇"] = {
+							["In"] = 0,
+							["Out"] = 205,
+						},
+						["赤脊山 - 湖畔镇"] = {
+							["In"] = 0,
+							["Out"] = 779,
+						},
+						["菲拉斯 - 萨兰纳尔"] = {
+							["In"] = 0,
+							["Out"] = 1718,
+						},
+						["湿地 - 米奈希尔港"] = {
+							["In"] = 840,
+							["Out"] = 280,
+						},
+						["铁炉堡 - 铁炉堡"] = {
+							["In"] = 0,
+							["Out"] = 79,
+						},
+					},
+					["TAXI"] = {
+						["暴风城 - 贸易区"] = {
+							["In"] = 0,
+							["Out"] = 1134,
+						},
+						["西瘟疫之地 - 寒风营地"] = {
+							["In"] = 0,
+							["Out"] = 280,
+						},
+						["阿拉希高地 - 避难谷地"] = {
+							["In"] = 0,
+							["Out"] = 280,
+						},
+						["铁炉堡 - 大锻炉"] = {
+							["In"] = 0,
+							["Out"] = 197,
+						},
+						["暴風城 - 貿易區"] = {
+							["In"] = 0,
+							["Out"] = 99,
+						},
+						["暮色森林 - 夜色镇"] = {
+							["In"] = 0,
+							["Out"] = 1488,
+						},
+						["西部荒野 - 哨兵岭"] = {
+							["In"] = 0,
+							["Out"] = 972,
+						},
+						["希尔斯布莱德丘陵 - 南海镇"] = {
+							["In"] = 0,
+							["Out"] = 1290,
+						},
+						["西部荒野 - 哨兵嶺"] = {
+							["In"] = 0,
+							["Out"] = 99,
+						},
+						["菲拉斯 - 萨兰纳尔"] = {
+							["In"] = 0,
+							["Out"] = 657,
+						},
+						["湿地 - 米奈希尔港"] = {
+							["In"] = 0,
+							["Out"] = 1124,
+						},
+						["赤脊山"] = {
+							["In"] = 0,
+							["Out"] = 790,
+						},
+					},
+					["TRADE"] = {
+					},
+					["MAIL"] = {
+						["希尔斯布莱德丘陵 - 南海镇"] = {
+							["In"] = 124095,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 塞拉摩岛"] = {
+							["In"] = 0,
+							["Out"] = 5000270,
+						},
+						["洛克莫丹 - 烈酒旅店"] = {
+							["In"] = 7779,
+							["Out"] = 5000560,
+						},
+						["洛克莫丹 - 塞尔萨玛"] = {
+							["In"] = 68244,
+							["Out"] = 0,
+						},
+					},
+					["OTHER"] = {
+						["艾爾文森林 - 東谷伐木場"] = {
+							["In"] = 50000000,
+							["Out"] = 0,
+						},
+						["死亡矿井"] = {
+							["In"] = 13,
+							["Out"] = 1,
+						},
+					},
+					["MERCH"] = {
+						["暴风城 - 贸易区"] = {
+							["In"] = 39440,
+							["Out"] = 5652,
+						},
+						["洛克莫丹 - 塞尔萨玛"] = {
+							["In"] = 4239,
+							["Out"] = 50,
+						},
+						["阿拉希高地 - 避难谷地"] = {
+							["In"] = 19768,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 東谷伐木場"] = {
+							["In"] = 79,
+							["Out"] = 0,
+						},
+						["洛克莫丹 - 烈酒旅店"] = {
+							["In"] = 2559,
+							["Out"] = 5700,
+						},
+						["暴风城 - 法师区"] = {
+							["In"] = 0,
+							["Out"] = 180,
+						},
+						["希尔斯布莱德丘陵 - 南海镇"] = {
+							["In"] = 65484,
+							["Out"] = 20621,
+						},
+						["铁炉堡 - 荒弃的洞穴"] = {
+							["In"] = 1108,
+							["Out"] = 203,
+						},
+						["丹莫罗 - 古博拉采掘场"] = {
+							["In"] = 869,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 泥链镇"] = {
+							["In"] = 28740,
+							["Out"] = 0,
+						},
+						["菲拉斯 - 萨兰纳尔"] = {
+							["In"] = 41663,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 斯通菲爾德農場"] = {
+							["In"] = 203,
+							["Out"] = 657,
+						},
+						["湿地 - 米奈希尔港"] = {
+							["In"] = 23538,
+							["Out"] = 0,
+						},
+						["铁炉堡 - 铁炉堡"] = {
+							["In"] = 13677,
+							["Out"] = 33,
+						},
+						["獅王之傲旅店"] = {
+							["In"] = 136,
+							["Out"] = 0,
+						},
+						["湿地"] = {
+							["In"] = 4105,
+							["Out"] = 0,
+						},
+						["暴风城 - 旧城区"] = {
+							["In"] = 10244,
+							["Out"] = 7163,
+						},
+						["湖畔镇旅店"] = {
+							["In"] = 15523,
+							["Out"] = 0,
+						},
+						["暴风城 - 运河"] = {
+							["In"] = 0,
+							["Out"] = 180,
+						},
+						["艾爾文森林 - 閃金鎮"] = {
+							["In"] = 0,
+							["Out"] = 382,
+						},
+						["艾爾文森林 - 北郡山谷"] = {
+							["In"] = 165,
+							["Out"] = 0,
+						},
+						["赤脊山 - 湖畔镇"] = {
+							["In"] = 7146,
+							["Out"] = 0,
+						},
+						["艾尔文森林"] = {
+							["In"] = 4087,
+							["Out"] = 13600,
+						},
+						["暮色森林 - 夜色镇"] = {
+							["In"] = 6139,
+							["Out"] = 912,
+						},
+						["西部荒野 - 哨兵岭"] = {
+							["In"] = 18571,
+							["Out"] = 0,
+						},
+						["血鸦旅店"] = {
+							["In"] = 21071,
+							["Out"] = 0,
+						},
+						["暮色森林"] = {
+							["In"] = 3013,
+							["Out"] = 0,
+						},
+						["湿地 - 深水旅店"] = {
+							["In"] = 24595,
+							["Out"] = 1350,
+						},
+						["艾尔文森林 - 东谷伐木场"] = {
+							["In"] = 3270,
+							["Out"] = 85000,
+						},
+						["尘泥沼泽 - 塞拉摩岛"] = {
+							["In"] = 92772,
+							["Out"] = 0,
+						},
+					},
+					["LOOT"] = {
+						["艾爾文森林 - 法戈第礦坑"] = {
+							["In"] = 118,
+							["Out"] = 0,
+						},
+						["湿地 - 米奈希尔海湾"] = {
+							["In"] = 603,
+							["Out"] = 0,
+						},
+						["暮色森林 - 阳光树林"] = {
+							["In"] = 597,
+							["Out"] = 0,
+						},
+						["阿拉希高地 - 枯木村"] = {
+							["In"] = 4110,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 北郡山谷"] = {
+							["In"] = 116,
+							["Out"] = 0,
+						},
+						["暴风城监狱"] = {
+							["In"] = 5558,
+							["Out"] = 0,
+						},
+						["西部荒野 - 萨丁农场"] = {
+							["In"] = 78,
+							["Out"] = 0,
+						},
+						["暮色森林 - 晨光之林墓穴"] = {
+							["In"] = 2500,
+							["Out"] = 0,
+						},
+						["艾爾文森林"] = {
+							["In"] = 3,
+							["Out"] = 0,
+						},
+						["艾尔文森林 - 布莱克威尔南瓜田"] = {
+							["In"] = 102,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 回音山礦坑"] = {
+							["In"] = 36,
+							["Out"] = 0,
+						},
+						["西部荒野"] = {
+							["In"] = 104,
+							["Out"] = 0,
+						},
+						["西部荒野 - 金海岸矿洞"] = {
+							["In"] = 27,
+							["Out"] = 0,
+						},
+						["西部荒野 - 阿历克斯顿农场"] = {
+							["In"] = 186,
+							["Out"] = 0,
+						},
+						["丹莫罗 - 冻石农场"] = {
+							["In"] = 13,
+							["Out"] = 0,
+						},
+						["艾尔文森林"] = {
+							["In"] = 168,
+							["Out"] = 0,
+						},
+						["暮色森林 - 夜色镇"] = {
+							["In"] = 43,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 石槌废墟"] = {
+							["In"] = 4659,
+							["Out"] = 0,
+						},
+						["湿地 - 铁须之墓"] = {
+							["In"] = 13,
+							["Out"] = 0,
+						},
+						["暮色森林 - 密斯特曼托庄园"] = {
+							["In"] = 422,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 恐角岗哨"] = {
+							["In"] = 2196,
+							["Out"] = 0,
+						},
+						["艾尔文森林 - 林边空地"] = {
+							["In"] = 385,
+							["Out"] = 0,
+						},
+						["赤脊山 - 撕裂者营地"] = {
+							["In"] = 703,
+							["Out"] = 0,
+						},
+						["西部荒野 - 匕首岭"] = {
+							["In"] = 617,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 黑蹄村"] = {
+							["In"] = 1133,
+							["Out"] = 0,
+						},
+						["丹莫罗 - 古博拉采掘场"] = {
+							["In"] = 30,
+							["Out"] = 0,
+						},
+						["湿地 - 绿带草地"] = {
+							["In"] = 246,
+							["Out"] = 0,
+						},
+						["西部荒野 - 月溪镇"] = {
+							["In"] = 573,
+							["Out"] = 0,
+						},
+						["洛克莫丹 - 碎石怪之谷"] = {
+							["In"] = 969,
+							["Out"] = 0,
+						},
+						["赤脊山 - 湖畔镇"] = {
+							["In"] = 73,
+							["Out"] = 0,
+						},
+						["西部荒野 - 詹戈洛德矿洞"] = {
+							["In"] = 149,
+							["Out"] = 0,
+						},
+						["赤脊山 - 石堡高塔"] = {
+							["In"] = 440,
+							["Out"] = 0,
+						},
+						["湿地 - 失落的舰队"] = {
+							["In"] = 1489,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 塞拉摩岛"] = {
+							["In"] = 143,
+							["Out"] = 0,
+						},
+						["赤脊山 - 石堡要塞"] = {
+							["In"] = 739,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 玉石礦坑"] = {
+							["In"] = 28,
+							["Out"] = 0,
+						},
+						["阿拉希高地 - 水下暗礁"] = {
+							["In"] = 366,
+							["Out"] = 0,
+						},
+						["希尔斯布莱德丘陵 - 达隆山"] = {
+							["In"] = 3864,
+							["Out"] = 0,
+						},
+						["湿地 - 怒牙营地"] = {
+							["In"] = 2023,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 火焰洞穴"] = {
+							["In"] = 4944,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 比吉尔的飞艇残骸"] = {
+							["In"] = 1215,
+							["Out"] = 0,
+						},
+						["暮色森林"] = {
+							["In"] = 1729,
+							["Out"] = 0,
+						},
+						["奥特兰克山脉 - 绞刑场"] = {
+							["In"] = 1649,
+							["Out"] = 0,
+						},
+						["奥特兰克山脉 - 索菲亚高地"] = {
+							["In"] = 1416,
+							["Out"] = 0,
+						},
+						["希尔斯布莱德丘陵 - 东部海滩"] = {
+							["In"] = 2281,
+							["Out"] = 0,
+						},
+						["湿地 - 恶铁岭"] = {
+							["In"] = 753,
+							["Out"] = 0,
+						},
+						["暮色森林 - 静谧花园墓场"] = {
+							["In"] = 707,
+							["Out"] = 0,
+						},
+						["奥特兰克山脉 - 破碎岭城堡"] = {
+							["In"] = 720,
+							["Out"] = 0,
+						},
+						["赤脊山 - 三角路口"] = {
+							["In"] = 153,
+							["Out"] = 0,
+						},
+						["阿拉希高地 - 萨多尔大桥"] = {
+							["In"] = 206,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 水晶湖"] = {
+							["In"] = 27,
+							["Out"] = 0,
+						},
+						["西部荒野 - 长滩"] = {
+							["In"] = 1087,
+							["Out"] = 0,
+						},
+						["赤脊山 - 赤脊峡谷"] = {
+							["In"] = 303,
+							["Out"] = 0,
+						},
+						["湿地 - 丹莫德"] = {
+							["In"] = 1414,
+							["Out"] = 0,
+						},
+						["西部荒野 - 贾森农场"] = {
+							["In"] = 13,
+							["Out"] = 0,
+						},
+						["奥特兰克山脉 - 考兰之匕"] = {
+							["In"] = 1561,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 女巫岭"] = {
+							["In"] = 1878,
+							["Out"] = 0,
+						},
+						["洛克莫丹 - 银泉矿洞"] = {
+							["In"] = 410,
+							["Out"] = 0,
+						},
+						["湿地 - 巴拉丁海湾"] = {
+							["In"] = 1461,
+							["Out"] = 0,
+						},
+						["暮色森林 - 乌鸦岭墓地"] = {
+							["In"] = 6638,
+							["Out"] = 0,
+						},
+						["暮色森林 - 腐草农场"] = {
+							["In"] = 46,
+							["Out"] = 0,
+						},
+						["暮色森林 - 约根农场"] = {
+							["In"] = 271,
+							["Out"] = 0,
+						},
+						["暮色森林 - 罗兰之墓"] = {
+							["In"] = 890,
+							["Out"] = 0,
+						},
+						["艾尔文森林 - 斯通菲尔德农场"] = {
+							["In"] = 20,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 傑羅德碼頭"] = {
+							["In"] = 44,
+							["Out"] = 0,
+						},
+						["赤脊山 - 加拉德尔山谷"] = {
+							["In"] = 1258,
+							["Out"] = 0,
+						},
+						["暮色森林 - 沃古尔食人魔山"] = {
+							["In"] = 383,
+							["Out"] = 0,
+						},
+						["湿地 - 萨多尔大桥"] = {
+							["In"] = 128,
+							["Out"] = 0,
+						},
+						["赤脊山 - 撕裂者之石"] = {
+							["In"] = 2368,
+							["Out"] = 0,
+						},
+						["西部荒野 - 法布隆南瓜农场"] = {
+							["In"] = 883,
+							["Out"] = 0,
+						},
+						["湿地"] = {
+							["In"] = 2855,
+							["Out"] = 0,
+						},
+						["赤脊山 - 湖边大道"] = {
+							["In"] = 806,
+							["Out"] = 0,
+						},
+						["湿地 - 蓝腮沼泽"] = {
+							["In"] = 273,
+							["Out"] = 0,
+						},
+						["古博拉矿场"] = {
+							["In"] = 158,
+							["Out"] = 0,
+						},
+						["暮色森林 - 烂果园"] = {
+							["In"] = 919,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 石碑湖"] = {
+							["In"] = 4,
+							["Out"] = 0,
+						},
+						["希尔斯布莱德丘陵 - 南海镇"] = {
+							["In"] = 261,
+							["Out"] = 0,
+						},
+						["艾尔文森林 - 东谷伐木场"] = {
+							["In"] = 63,
+							["Out"] = 0,
+						},
+						["阿拉希高地 - 诺斯弗德农场"] = {
+							["In"] = 1885,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 北郡修道院"] = {
+							["In"] = 1,
+							["Out"] = 0,
+						},
+						["西部荒野 - 迪蒙特荒野"] = {
+							["In"] = 86,
+							["Out"] = 0,
+						},
+						["洛克莫丹 - 巨石水坝"] = {
+							["In"] = 59,
+							["Out"] = 0,
+						},
+						["死亡矿井 - 迪菲亚潜行者巢穴"] = {
+							["In"] = 19,
+							["Out"] = 0,
+						},
+						["赤脊山"] = {
+							["In"] = 67,
+							["Out"] = 0,
+						},
+						["西部荒野 - 斯特登的池塘"] = {
+							["In"] = 154,
+							["Out"] = 0,
+						},
+						["西部荒野 - 摩尔森农场"] = {
+							["In"] = 4,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 恐惧海岸"] = {
+							["In"] = 4148,
+							["Out"] = 0,
+						},
+						["阿拉希高地 - 格沙克农场"] = {
+							["In"] = 4241,
+							["Out"] = 0,
+						},
+						["赤脊山 - 石堡"] = {
+							["In"] = 1002,
+							["Out"] = 0,
+						},
+						["阿拉希高地"] = {
+							["In"] = 657,
+							["Out"] = 0,
+						},
+						["湿地 - 藓皮沼泽"] = {
+							["In"] = 341,
+							["Out"] = 0,
+						},
+						["希尔斯布莱德丘陵 - 西部海岸"] = {
+							["In"] = 3487,
+							["Out"] = 0,
+						},
+						["暮色森林 - 荒弃鬼屋"] = {
+							["In"] = 1545,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 北郡農場"] = {
+							["In"] = 13,
+							["Out"] = 0,
+						},
+						["赤脊山 - 止水湖"] = {
+							["In"] = 625,
+							["Out"] = 0,
+						},
+						["死亡矿井"] = {
+							["In"] = 2837,
+							["Out"] = 3,
+						},
+						["赤脊山 - 伊尔加拉之塔"] = {
+							["In"] = 444,
+							["Out"] = 0,
+						},
+						["暴风城 - 暴风要塞"] = {
+							["In"] = 55,
+							["Out"] = 24,
+						},
+						["暴风城 - 旧城区"] = {
+							["In"] = 152,
+							["Out"] = 0,
+						},
+						["洛克莫丹 - 灰爪山"] = {
+							["In"] = 12,
+							["Out"] = 0,
+						},
+					},
+					["AH"] = {
+						["暴風城 - 貿易區"] = {
+							["In"] = 0,
+							["Out"] = 394676,
+						},
+						["洛克莫丹 - 塞尔萨玛"] = {
+							["In"] = 40522,
+							["Out"] = 0,
+						},
+						["暴风城 - 贸易区"] = {
+							["In"] = 0,
+							["Out"] = 8759106,
+						},
+						["洛克莫丹 - 烈酒旅店"] = {
+							["In"] = 1552,
+							["Out"] = 0,
+						},
+						["铁炉堡 - 铁炉堡"] = {
+							["In"] = 0,
+							["Out"] = 508391,
+						},
+					},
+					["TRAIN"] = {
+						["暴風城 - 舊城區"] = {
+							["In"] = 0,
+							["Out"] = 1080,
+						},
+						["狮王之傲旅店"] = {
+							["In"] = 0,
+							["Out"] = 90,
+						},
+						["暴风城 - 旧城区"] = {
+							["In"] = 0,
+							["Out"] = 174354,
+						},
+						["獅王之傲旅店"] = {
+							["In"] = 0,
+							["Out"] = 380,
+						},
+						["艾爾文森林 - 北郡山谷"] = {
+							["In"] = 0,
+							["Out"] = 390,
+						},
+						["铁炉堡 - 大锻炉"] = {
+							["In"] = 0,
+							["Out"] = 6746,
+						},
+						["铁炉堡 - 荒弃的洞穴"] = {
+							["In"] = 0,
+							["Out"] = 89550,
+						},
+						["暴風城 - 貿易區"] = {
+							["In"] = 0,
+							["Out"] = 1800,
+						},
+						["艾尔文森林 - 东谷伐木场"] = {
+							["In"] = 0,
+							["Out"] = 297500,
+						},
+					},
+					["QUEST"] = {
+						["暴風城 - 軍情七處"] = {
+							["In"] = 85,
 							["Out"] = 0,
 						},
 						["阿拉希高地 - 避难谷地"] = {
 							["In"] = 7500,
 							["Out"] = 0,
 						},
+						["艾爾文森林 - 東谷伐木場"] = {
+							["In"] = 300,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 北郡山谷"] = {
+							["In"] = 1,
+							["Out"] = 0,
+						},
+						["暴风城 - 教堂广场"] = {
+							["In"] = 1400,
+							["Out"] = 0,
+						},
+						["暴风城"] = {
+							["In"] = 8500,
+							["Out"] = 0,
+						},
+						["湖畔镇大厅"] = {
+							["In"] = 9500,
+							["Out"] = 0,
+						},
+						["艾爾文森林"] = {
+							["In"] = 250,
+							["Out"] = 0,
+						},
+						["暴風城 - 舊城區"] = {
+							["In"] = 175,
+							["Out"] = 0,
+						},
+						["暴风城 - 旧城区"] = {
+							["In"] = 6000,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 閃金鎮"] = {
+							["In"] = 1350,
+							["Out"] = 0,
+						},
+						["暮色森林 - 乌鸦岭墓地"] = {
+							["In"] = 6600,
+							["Out"] = 0,
+						},
+						["暴風城 - 貿易區"] = {
+							["In"] = 350,
+							["Out"] = 0,
+						},
+						["暮色森林 - 夜色镇"] = {
+							["In"] = 14775,
+							["Out"] = 0,
+						},
+						["哨兵塔"] = {
+							["In"] = 1700,
+							["Out"] = 0,
+						},
+						["湿地 - 米奈希尔城堡"] = {
+							["In"] = 2000,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 泥链镇"] = {
+							["In"] = 39500,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 比吉尔的飞艇残骸"] = {
+							["In"] = 9500,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 塔贝萨的农场"] = {
+							["In"] = 18000,
+							["Out"] = 0,
+						},
+						["湿地 - 丹莫德"] = {
+							["In"] = 2552,
+							["Out"] = 0,
+						},
+						["洛克莫丹 - 塞尔萨玛"] = {
+							["In"] = 400,
+							["Out"] = 0,
+						},
+						["暴风城 - 暴风要塞"] = {
+							["In"] = 55,
+							["Out"] = 0,
+						},
+						["暴风城监狱"] = {
+							["In"] = 39,
+							["Out"] = 0,
+						},
 						["尘泥沼泽 - 警戒哨岗"] = {
 							["In"] = 4000,
+							["Out"] = 0,
+						},
+						["死亡矿井 - 迪菲亚潜行者巢穴"] = {
+							["In"] = 7,
+							["Out"] = 0,
+						},
+						["希尔斯布莱德丘陵 - 南海镇"] = {
+							["In"] = 18100,
+							["Out"] = 0,
+						},
+						["洛克莫丹 - 奥加兹岗哨"] = {
+							["In"] = 700,
+							["Out"] = 0,
+						},
+						["丹莫罗 - 古博拉采掘场"] = {
+							["In"] = 500,
+							["Out"] = 0,
+						},
+						["艾尔文森林 - 闪金镇"] = {
+							["In"] = 85,
+							["Out"] = 0,
+						},
+						["暮色森林 - 乌鸦岭"] = {
+							["In"] = 1200,
+							["Out"] = 0,
+						},
+						["血鸦旅店"] = {
+							["In"] = 1800,
+							["Out"] = 0,
+						},
+						["湿地 - 米奈希尔港"] = {
+							["In"] = 8900,
+							["Out"] = 0,
+						},
+						["赤脊山 - 湖畔镇"] = {
+							["In"] = 5500,
+							["Out"] = 0,
+						},
+						["赤脊山"] = {
+							["In"] = 2700,
+							["Out"] = 0,
+						},
+						["西部荒野 - 西部荒野灯塔"] = {
+							["In"] = 1700,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 北点哨塔"] = {
+							["In"] = 12000,
+							["Out"] = 0,
+						},
+						["洛克莫丹 - 烈酒旅店"] = {
+							["In"] = 400,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 塞拉摩岛"] = {
+							["In"] = 30000,
+							["Out"] = 0,
+						},
+						["獅王之傲旅店"] = {
+							["In"] = 125,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 北郡修道院"] = {
+							["In"] = 65,
+							["Out"] = 0,
+						},
+						["暴风城 - 矮人区"] = {
+							["In"] = 600,
+							["Out"] = 0,
+						},
+						["西部荒野 - 月溪镇"] = {
+							["In"] = 2,
+							["Out"] = 0,
+						},
+						["湿地 - 萨多尔大桥"] = {
+							["In"] = 0,
+							["Out"] = 8,
+						},
+						["洛克莫丹 - 国王谷"] = {
+							["In"] = 2400,
+							["Out"] = 0,
+						},
+						["湿地 - 维尔加挖掘场"] = {
+							["In"] = 6400,
+							["Out"] = 0,
+						},
+						["暮色森林 - 寂静河岸"] = {
+							["In"] = 2600,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 恐惧海岸"] = {
+							["In"] = 8000,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 水光庄园"] = {
+							["In"] = 19000,
+							["Out"] = 0,
+						},
+						["尘泥沼泽"] = {
+							["In"] = 13000,
 							["Out"] = 0,
 						},
 					},
@@ -2932,6 +2970,10 @@ Accountant_ClassicZoneDB = {
 						["暴风城 - 贸易区"] = {
 							["In"] = 0,
 							["Out"] = 704,
+						},
+						["菲拉斯 - 萨兰纳尔"] = {
+							["In"] = 0,
+							["Out"] = 1718,
 						},
 						["湿地 - 米奈希尔港"] = {
 							["In"] = 840,
@@ -2947,17 +2989,9 @@ Accountant_ClassicZoneDB = {
 							["In"] = 0,
 							["Out"] = 458,
 						},
-						["暮色森林 - 夜色镇"] = {
-							["In"] = 0,
-							["Out"] = 884,
-						},
 						["西瘟疫之地 - 寒风营地"] = {
 							["In"] = 0,
 							["Out"] = 280,
-						},
-						["铁炉堡 - 大锻炉"] = {
-							["In"] = 0,
-							["Out"] = 45,
 						},
 						["阿拉希高地 - 避难谷地"] = {
 							["In"] = 0,
@@ -2966,6 +3000,18 @@ Accountant_ClassicZoneDB = {
 						["希尔斯布莱德丘陵 - 南海镇"] = {
 							["In"] = 0,
 							["Out"] = 1290,
+						},
+						["暮色森林 - 夜色镇"] = {
+							["In"] = 0,
+							["Out"] = 884,
+						},
+						["铁炉堡 - 大锻炉"] = {
+							["In"] = 0,
+							["Out"] = 45,
+						},
+						["菲拉斯 - 萨兰纳尔"] = {
+							["In"] = 0,
+							["Out"] = 657,
 						},
 						["湿地 - 米奈希尔港"] = {
 							["In"] = 0,
@@ -3011,6 +3057,10 @@ Accountant_ClassicZoneDB = {
 							["In"] = 1282,
 							["Out"] = 0,
 						},
+						["尘泥沼泽 - 泥链镇"] = {
+							["In"] = 28740,
+							["Out"] = 0,
+						},
 						["希尔斯布莱德丘陵 - 南海镇"] = {
 							["In"] = 65484,
 							["Out"] = 20621,
@@ -3019,25 +3069,49 @@ Accountant_ClassicZoneDB = {
 							["In"] = 3270,
 							["Out"] = 85000,
 						},
-						["尘泥沼泽 - 塞拉摩岛"] = {
-							["In"] = 69919,
+						["菲拉斯 - 萨兰纳尔"] = {
+							["In"] = 41663,
+							["Out"] = 0,
+						},
+						["铁炉堡 - 荒弃的洞穴"] = {
+							["In"] = 0,
+							["Out"] = 203,
+						},
+						["湿地 - 深水旅店"] = {
+							["In"] = 24595,
 							["Out"] = 0,
 						},
 						["血鸦旅店"] = {
 							["In"] = 17772,
 							["Out"] = 0,
 						},
-						["湿地 - 深水旅店"] = {
-							["In"] = 24595,
-							["Out"] = 0,
-						},
 						["湿地 - 米奈希尔港"] = {
 							["In"] = 21775,
 							["Out"] = 0,
 						},
+						["尘泥沼泽 - 塞拉摩岛"] = {
+							["In"] = 92772,
+							["Out"] = 0,
+						},
+					},
+					["TRAIN"] = {
+						["艾尔文森林 - 东谷伐木场"] = {
+							["In"] = 0,
+							["Out"] = 297500,
+						},
+						["暴风城 - 旧城区"] = {
+							["In"] = 0,
+							["Out"] = 107100,
+						},
 						["铁炉堡 - 荒弃的洞穴"] = {
 							["In"] = 0,
-							["Out"] = 203,
+							["Out"] = 81000,
+						},
+					},
+					["AH"] = {
+						["暴风城 - 贸易区"] = {
+							["In"] = 0,
+							["Out"] = 8655133,
 						},
 					},
 					["LOOT"] = {
@@ -3105,6 +3179,10 @@ Accountant_ClassicZoneDB = {
 							["In"] = 444,
 							["Out"] = 0,
 						},
+						["尘泥沼泽 - 石槌废墟"] = {
+							["In"] = 4659,
+							["Out"] = 0,
+						},
 						["暮色森林 - 密斯特曼托庄园"] = {
 							["In"] = 422,
 							["Out"] = 0,
@@ -3113,68 +3191,88 @@ Accountant_ClassicZoneDB = {
 							["In"] = 383,
 							["Out"] = 0,
 						},
+						["尘泥沼泽 - 恐角岗哨"] = {
+							["In"] = 2196,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 火焰洞穴"] = {
+							["In"] = 4944,
+							["Out"] = 0,
+						},
 						["赤脊山 - 撕裂者营地"] = {
 							["In"] = 703,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 比吉尔的飞艇残骸"] = {
+							["In"] = 1215,
 							["Out"] = 0,
 						},
 						["暮色森林 - 罗兰之墓"] = {
 							["In"] = 890,
 							["Out"] = 0,
 						},
+						["阿拉希高地 - 格沙克农场"] = {
+							["In"] = 4241,
+							["Out"] = 0,
+						},
 						["希尔斯布莱德丘陵 - 南海镇"] = {
 							["In"] = 261,
 							["Out"] = 0,
 						},
-						["尘泥沼泽 - 女巫岭"] = {
-							["In"] = 1466,
+						["尘泥沼泽 - 黑蹄村"] = {
+							["In"] = 1133,
 							["Out"] = 0,
 						},
 						["阿拉希高地 - 诺斯弗德农场"] = {
 							["In"] = 1885,
 							["Out"] = 0,
 						},
-						["尘泥沼泽 - 恐惧海岸"] = {
-							["In"] = 1975,
+						["赤脊山 - 撕裂者之石"] = {
+							["In"] = 2368,
 							["Out"] = 0,
 						},
-						["湿地 - 巴拉丁海湾"] = {
-							["In"] = 1461,
-							["Out"] = 0,
-						},
-						["奥特兰克山脉 - 索菲亚高地"] = {
-							["In"] = 1416,
-							["Out"] = 0,
-						},
-						["湿地"] = {
-							["In"] = 247,
+						["奥特兰克山脉 - 考兰之匕"] = {
+							["In"] = 1561,
 							["Out"] = 0,
 						},
 						["湿地 - 萨多尔大桥"] = {
 							["In"] = 128,
 							["Out"] = 0,
 						},
-						["尘泥沼泽 - 塞拉摩岛"] = {
-							["In"] = 143,
-							["Out"] = 0,
-						},
 						["希尔斯布莱德丘陵 - 东部海滩"] = {
 							["In"] = 2281,
 							["Out"] = 0,
 						},
-						["赤脊山 - 石堡高塔"] = {
-							["In"] = 232,
+						["暴风城 - 暴风要塞"] = {
+							["In"] = 55,
+							["Out"] = 24,
+						},
+						["暮色森林 - 阳光树林"] = {
+							["In"] = 597,
+							["Out"] = 0,
+						},
+						["湿地"] = {
+							["In"] = 247,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 恐惧海岸"] = {
+							["In"] = 4148,
 							["Out"] = 0,
 						},
 						["湿地 - 失落的舰队"] = {
 							["In"] = 1489,
 							["Out"] = 0,
 						},
-						["赤脊山 - 石堡"] = {
-							["In"] = 109,
+						["尘泥沼泽 - 塞拉摩岛"] = {
+							["In"] = 143,
 							["Out"] = 0,
 						},
 						["阿拉希高地"] = {
 							["In"] = 657,
+							["Out"] = 0,
+						},
+						["暮色森林 - 荒弃鬼屋"] = {
+							["In"] = 1545,
 							["Out"] = 0,
 						},
 						["阿拉希高地 - 萨多尔大桥"] = {
@@ -3185,17 +3283,13 @@ Accountant_ClassicZoneDB = {
 							["In"] = 685,
 							["Out"] = 0,
 						},
-						["暮色森林 - 荒弃鬼屋"] = {
-							["In"] = 1545,
+						["赤脊山 - 石堡"] = {
+							["In"] = 109,
 							["Out"] = 0,
 						},
-						["暮色森林 - 阳光树林"] = {
-							["In"] = 597,
+						["赤脊山 - 石堡高塔"] = {
+							["In"] = 232,
 							["Out"] = 0,
-						},
-						["暴风城 - 暴风要塞"] = {
-							["In"] = 55,
-							["Out"] = 24,
 						},
 						["奥特兰克山脉 - 破碎岭城堡"] = {
 							["In"] = 720,
@@ -3205,37 +3299,17 @@ Accountant_ClassicZoneDB = {
 							["In"] = 366,
 							["Out"] = 0,
 						},
-						["奥特兰克山脉 - 考兰之匕"] = {
-							["In"] = 1561,
+						["奥特兰克山脉 - 索菲亚高地"] = {
+							["In"] = 1416,
 							["Out"] = 0,
 						},
-						["赤脊山 - 撕裂者之石"] = {
-							["In"] = 2368,
+						["湿地 - 巴拉丁海湾"] = {
+							["In"] = 1461,
 							["Out"] = 0,
 						},
-						["阿拉希高地 - 格沙克农场"] = {
-							["In"] = 4241,
+						["尘泥沼泽 - 女巫岭"] = {
+							["In"] = 1878,
 							["Out"] = 0,
-						},
-					},
-					["AH"] = {
-						["暴风城 - 贸易区"] = {
-							["In"] = 0,
-							["Out"] = 8655133,
-						},
-					},
-					["TRAIN"] = {
-						["艾尔文森林 - 东谷伐木场"] = {
-							["In"] = 0,
-							["Out"] = 297500,
-						},
-						["暴风城 - 旧城区"] = {
-							["In"] = 0,
-							["Out"] = 107100,
-						},
-						["铁炉堡 - 荒弃的洞穴"] = {
-							["In"] = 0,
-							["Out"] = 81000,
 						},
 					},
 					["QUEST"] = {
@@ -3267,6 +3341,10 @@ Accountant_ClassicZoneDB = {
 							["In"] = 6400,
 							["Out"] = 0,
 						},
+						["赤脊山"] = {
+							["In"] = 1800,
+							["Out"] = 0,
+						},
 						["湿地 - 米奈希尔港"] = {
 							["In"] = 8900,
 							["Out"] = 0,
@@ -3279,20 +3357,28 @@ Accountant_ClassicZoneDB = {
 							["In"] = 2552,
 							["Out"] = 0,
 						},
+						["尘泥沼泽 - 比吉尔的飞艇残骸"] = {
+							["In"] = 9500,
+							["Out"] = 0,
+						},
 						["湿地 - 萨多尔大桥"] = {
 							["In"] = 0,
 							["Out"] = 8,
 						},
+						["尘泥沼泽 - 塔贝萨的农场"] = {
+							["In"] = 18000,
+							["Out"] = 0,
+						},
 						["尘泥沼泽 - 塞拉摩岛"] = {
-							["In"] = 22000,
+							["In"] = 30000,
 							["Out"] = 0,
 						},
-						["尘泥沼泽 - 北点哨塔"] = {
-							["In"] = 4000,
+						["尘泥沼泽 - 泥链镇"] = {
+							["In"] = 39500,
 							["Out"] = 0,
 						},
-						["尘泥沼泽 - 水光庄园"] = {
-							["In"] = 15500,
+						["暴风城 - 旧城区"] = {
+							["In"] = 6000,
 							["Out"] = 0,
 						},
 						["暮色森林 - 乌鸦岭墓地"] = {
@@ -3323,858 +3409,98 @@ Accountant_ClassicZoneDB = {
 							["In"] = 2000,
 							["Out"] = 0,
 						},
-						["暴风城 - 旧城区"] = {
-							["In"] = 6000,
+						["尘泥沼泽 - 水光庄园"] = {
+							["In"] = 19000,
 							["Out"] = 0,
 						},
-						["赤脊山"] = {
-							["In"] = 1800,
+						["尘泥沼泽 - 北点哨塔"] = {
+							["In"] = 12000,
 							["Out"] = 0,
 						},
 					},
 				},
-				["Year"] = {
+				["Day"] = {
 					["REPAIRS"] = {
-						["暴风城 - 贸易区"] = {
-							["In"] = 168,
-							["Out"] = 1612,
-						},
-						["丹莫罗 - 古博拉采掘场"] = {
+						["菲拉斯 - 萨兰纳尔"] = {
 							["In"] = 0,
-							["Out"] = 18,
-						},
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 0,
-							["Out"] = 79,
-						},
-						["希尔斯布莱德丘陵 - 南海镇"] = {
-							["In"] = 0,
-							["Out"] = 205,
-						},
-						["湿地 - 米奈希尔港"] = {
-							["In"] = 840,
-							["Out"] = 280,
-						},
-						["赤脊山 - 湖畔镇"] = {
-							["In"] = 0,
-							["Out"] = 779,
+							["Out"] = 1718,
 						},
 					},
 					["TAXI"] = {
-						["暴风城 - 贸易区"] = {
+						["菲拉斯 - 萨兰纳尔"] = {
 							["In"] = 0,
-							["Out"] = 1134,
-						},
-						["西瘟疫之地 - 寒风营地"] = {
-							["In"] = 0,
-							["Out"] = 280,
-						},
-						["阿拉希高地 - 避难谷地"] = {
-							["In"] = 0,
-							["Out"] = 280,
-						},
-						["暴風城 - 貿易區"] = {
-							["In"] = 0,
-							["Out"] = 99,
-						},
-						["暮色森林 - 夜色镇"] = {
-							["In"] = 0,
-							["Out"] = 1488,
-						},
-						["西部荒野 - 哨兵岭"] = {
-							["In"] = 0,
-							["Out"] = 972,
-						},
-						["希尔斯布莱德丘陵 - 南海镇"] = {
-							["In"] = 0,
-							["Out"] = 1290,
-						},
-						["西部荒野 - 哨兵嶺"] = {
-							["In"] = 0,
-							["Out"] = 99,
-						},
-						["铁炉堡 - 大锻炉"] = {
-							["In"] = 0,
-							["Out"] = 197,
-						},
-						["湿地 - 米奈希尔港"] = {
-							["In"] = 0,
-							["Out"] = 1124,
-						},
-						["赤脊山"] = {
-							["In"] = 0,
-							["Out"] = 790,
+							["Out"] = 657,
 						},
 					},
 					["TRADE"] = {
 					},
 					["MAIL"] = {
-						["希尔斯布莱德丘陵 - 南海镇"] = {
-							["In"] = 124095,
-							["Out"] = 0,
-						},
-						["尘泥沼泽 - 塞拉摩岛"] = {
-							["In"] = 0,
-							["Out"] = 5000270,
-						},
-						["洛克莫丹 - 烈酒旅店"] = {
-							["In"] = 7779,
-							["Out"] = 5000560,
-						},
-						["洛克莫丹 - 塞尔萨玛"] = {
-							["In"] = 68244,
-							["Out"] = 0,
-						},
 					},
 					["OTHER"] = {
-						["死亡矿井"] = {
-							["In"] = 13,
-							["Out"] = 1,
-						},
-						["艾爾文森林 - 東谷伐木場"] = {
-							["In"] = 50000000,
-							["Out"] = 0,
-						},
 					},
 					["MERCH"] = {
-						["暴风城 - 贸易区"] = {
-							["In"] = 39440,
-							["Out"] = 5652,
-						},
-						["洛克莫丹 - 塞尔萨玛"] = {
-							["In"] = 4239,
-							["Out"] = 50,
-						},
-						["阿拉希高地 - 避难谷地"] = {
-							["In"] = 19768,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 東谷伐木場"] = {
-							["In"] = 79,
-							["Out"] = 0,
-						},
-						["洛克莫丹 - 烈酒旅店"] = {
-							["In"] = 2559,
-							["Out"] = 5700,
-						},
-						["暴风城 - 法师区"] = {
-							["In"] = 0,
-							["Out"] = 180,
-						},
-						["希尔斯布莱德丘陵 - 南海镇"] = {
-							["In"] = 65484,
-							["Out"] = 20621,
-						},
-						["铁炉堡 - 荒弃的洞穴"] = {
-							["In"] = 1108,
-							["Out"] = 203,
-						},
-						["丹莫罗 - 古博拉采掘场"] = {
-							["In"] = 869,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 斯通菲爾德農場"] = {
-							["In"] = 203,
-							["Out"] = 657,
-						},
-						["湿地 - 米奈希尔港"] = {
-							["In"] = 23538,
-							["Out"] = 0,
-						},
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 13677,
-							["Out"] = 33,
-						},
-						["暴风城 - 运河"] = {
-							["In"] = 0,
-							["Out"] = 180,
-						},
-						["湿地"] = {
-							["In"] = 4105,
-							["Out"] = 0,
-						},
-						["暴风城 - 旧城区"] = {
-							["In"] = 10244,
-							["Out"] = 7163,
-						},
-						["湖畔镇旅店"] = {
-							["In"] = 15523,
-							["Out"] = 0,
-						},
 						["尘泥沼泽 - 塞拉摩岛"] = {
-							["In"] = 69919,
+							["In"] = 22853,
 							["Out"] = 0,
 						},
-						["艾爾文森林 - 閃金鎮"] = {
-							["In"] = 0,
-							["Out"] = 382,
-						},
-						["艾尔文森林 - 东谷伐木场"] = {
-							["In"] = 3270,
-							["Out"] = 85000,
-						},
-						["赤脊山 - 湖畔镇"] = {
-							["In"] = 7146,
+						["菲拉斯 - 萨兰纳尔"] = {
+							["In"] = 41663,
 							["Out"] = 0,
 						},
-						["艾尔文森林"] = {
-							["In"] = 4087,
-							["Out"] = 13600,
-						},
-						["暮色森林 - 夜色镇"] = {
-							["In"] = 6139,
-							["Out"] = 912,
-						},
-						["西部荒野 - 哨兵岭"] = {
-							["In"] = 18571,
+						["尘泥沼泽 - 泥链镇"] = {
+							["In"] = 28740,
 							["Out"] = 0,
-						},
-						["暮色森林"] = {
-							["In"] = 3013,
-							["Out"] = 0,
-						},
-						["血鸦旅店"] = {
-							["In"] = 21071,
-							["Out"] = 0,
-						},
-						["湿地 - 深水旅店"] = {
-							["In"] = 24595,
-							["Out"] = 1350,
-						},
-						["艾爾文森林 - 北郡山谷"] = {
-							["In"] = 165,
-							["Out"] = 0,
-						},
-						["獅王之傲旅店"] = {
-							["In"] = 136,
-							["Out"] = 0,
-						},
-					},
-					["TRAIN"] = {
-						["暴風城 - 舊城區"] = {
-							["In"] = 0,
-							["Out"] = 1080,
-						},
-						["狮王之傲旅店"] = {
-							["In"] = 0,
-							["Out"] = 90,
-						},
-						["暴风城 - 旧城区"] = {
-							["In"] = 0,
-							["Out"] = 174354,
-						},
-						["獅王之傲旅店"] = {
-							["In"] = 0,
-							["Out"] = 380,
-						},
-						["艾爾文森林 - 北郡山谷"] = {
-							["In"] = 0,
-							["Out"] = 390,
-						},
-						["铁炉堡 - 大锻炉"] = {
-							["In"] = 0,
-							["Out"] = 6746,
-						},
-						["铁炉堡 - 荒弃的洞穴"] = {
-							["In"] = 0,
-							["Out"] = 89550,
-						},
-						["艾尔文森林 - 东谷伐木场"] = {
-							["In"] = 0,
-							["Out"] = 297500,
-						},
-						["暴風城 - 貿易區"] = {
-							["In"] = 0,
-							["Out"] = 1800,
-						},
-					},
-					["AH"] = {
-						["暴風城 - 貿易區"] = {
-							["In"] = 0,
-							["Out"] = 394676,
-						},
-						["洛克莫丹 - 塞尔萨玛"] = {
-							["In"] = 40522,
-							["Out"] = 0,
-						},
-						["暴风城 - 贸易区"] = {
-							["In"] = 0,
-							["Out"] = 8759106,
-						},
-						["洛克莫丹 - 烈酒旅店"] = {
-							["In"] = 1552,
-							["Out"] = 0,
-						},
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 0,
-							["Out"] = 508391,
 						},
 					},
 					["LOOT"] = {
-						["艾爾文森林 - 法戈第礦坑"] = {
-							["In"] = 118,
+						["尘泥沼泽 - 恐角岗哨"] = {
+							["In"] = 2196,
 							["Out"] = 0,
 						},
-						["湿地 - 米奈希尔海湾"] = {
-							["In"] = 603,
-							["Out"] = 0,
-						},
-						["暮色森林 - 阳光树林"] = {
-							["In"] = 597,
-							["Out"] = 0,
-						},
-						["阿拉希高地 - 枯木村"] = {
-							["In"] = 4110,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 北郡山谷"] = {
-							["In"] = 116,
-							["Out"] = 0,
-						},
-						["暴风城监狱"] = {
-							["In"] = 5558,
-							["Out"] = 0,
-						},
-						["西部荒野 - 萨丁农场"] = {
-							["In"] = 78,
-							["Out"] = 0,
-						},
-						["暮色森林 - 晨光之林墓穴"] = {
-							["In"] = 2500,
-							["Out"] = 0,
-						},
-						["艾爾文森林"] = {
-							["In"] = 3,
-							["Out"] = 0,
-						},
-						["艾尔文森林 - 布莱克威尔南瓜田"] = {
-							["In"] = 102,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 回音山礦坑"] = {
-							["In"] = 36,
-							["Out"] = 0,
-						},
-						["西部荒野"] = {
-							["In"] = 104,
-							["Out"] = 0,
-						},
-						["西部荒野 - 金海岸矿洞"] = {
-							["In"] = 27,
-							["Out"] = 0,
-						},
-						["西部荒野 - 阿历克斯顿农场"] = {
-							["In"] = 186,
-							["Out"] = 0,
-						},
-						["丹莫罗 - 冻石农场"] = {
-							["In"] = 13,
-							["Out"] = 0,
-						},
-						["艾尔文森林"] = {
-							["In"] = 168,
-							["Out"] = 0,
-						},
-						["暮色森林 - 夜色镇"] = {
-							["In"] = 43,
-							["Out"] = 0,
-						},
-						["湿地 - 铁须之墓"] = {
-							["In"] = 13,
-							["Out"] = 0,
-						},
-						["暮色森林 - 密斯特曼托庄园"] = {
-							["In"] = 422,
-							["Out"] = 0,
-						},
-						["艾尔文森林 - 林边空地"] = {
-							["In"] = 385,
-							["Out"] = 0,
-						},
-						["赤脊山 - 撕裂者营地"] = {
-							["In"] = 703,
-							["Out"] = 0,
-						},
-						["西部荒野 - 匕首岭"] = {
-							["In"] = 617,
-							["Out"] = 0,
-						},
-						["丹莫罗 - 古博拉采掘场"] = {
-							["In"] = 30,
-							["Out"] = 0,
-						},
-						["湿地 - 绿带草地"] = {
-							["In"] = 246,
-							["Out"] = 0,
-						},
-						["西部荒野 - 月溪镇"] = {
-							["In"] = 573,
-							["Out"] = 0,
-						},
-						["洛克莫丹 - 碎石怪之谷"] = {
-							["In"] = 969,
-							["Out"] = 0,
-						},
-						["赤脊山 - 湖畔镇"] = {
-							["In"] = 73,
-							["Out"] = 0,
-						},
-						["西部荒野 - 詹戈洛德矿洞"] = {
-							["In"] = 149,
-							["Out"] = 0,
-						},
-						["赤脊山 - 石堡高塔"] = {
-							["In"] = 440,
-							["Out"] = 0,
-						},
-						["湿地 - 失落的舰队"] = {
-							["In"] = 1489,
-							["Out"] = 0,
-						},
-						["尘泥沼泽 - 塞拉摩岛"] = {
-							["In"] = 143,
-							["Out"] = 0,
-						},
-						["赤脊山 - 石堡要塞"] = {
-							["In"] = 739,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 玉石礦坑"] = {
-							["In"] = 28,
-							["Out"] = 0,
-						},
-						["阿拉希高地 - 水下暗礁"] = {
-							["In"] = 366,
-							["Out"] = 0,
-						},
-						["希尔斯布莱德丘陵 - 达隆山"] = {
-							["In"] = 3864,
-							["Out"] = 0,
-						},
-						["湿地 - 怒牙营地"] = {
-							["In"] = 2023,
-							["Out"] = 0,
-						},
-						["暮色森林"] = {
-							["In"] = 1729,
+						["尘泥沼泽 - 恐惧海岸"] = {
+							["In"] = 2173,
 							["Out"] = 0,
 						},
 						["尘泥沼泽 - 女巫岭"] = {
-							["In"] = 1466,
+							["In"] = 412,
 							["Out"] = 0,
 						},
-						["尘泥沼泽 - 恐惧海岸"] = {
-							["In"] = 1975,
+						["尘泥沼泽 - 石槌废墟"] = {
+							["In"] = 4659,
 							["Out"] = 0,
 						},
-						["奥特兰克山脉 - 绞刑场"] = {
-							["In"] = 1649,
+						["尘泥沼泽 - 火焰洞穴"] = {
+							["In"] = 4944,
 							["Out"] = 0,
 						},
-						["湿地 - 恶铁岭"] = {
-							["In"] = 753,
-							["Out"] = 0,
-						},
-						["暴风城 - 旧城区"] = {
-							["In"] = 152,
-							["Out"] = 0,
-						},
-						["暴风城 - 暴风要塞"] = {
-							["In"] = 55,
-							["Out"] = 24,
-						},
-						["赤脊山 - 伊尔加拉之塔"] = {
-							["In"] = 444,
-							["Out"] = 0,
-						},
-						["死亡矿井"] = {
-							["In"] = 2837,
-							["Out"] = 3,
-						},
-						["赤脊山 - 止水湖"] = {
-							["In"] = 625,
-							["Out"] = 0,
-						},
-						["西部荒野 - 长滩"] = {
-							["In"] = 1087,
-							["Out"] = 0,
-						},
-						["赤脊山 - 赤脊峡谷"] = {
-							["In"] = 303,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 北郡農場"] = {
-							["In"] = 13,
-							["Out"] = 0,
-						},
-						["西部荒野 - 贾森农场"] = {
-							["In"] = 13,
-							["Out"] = 0,
-						},
-						["暮色森林 - 荒弃鬼屋"] = {
-							["In"] = 1545,
-							["Out"] = 0,
-						},
-						["希尔斯布莱德丘陵 - 西部海岸"] = {
-							["In"] = 3487,
-							["Out"] = 0,
-						},
-						["湿地 - 藓皮沼泽"] = {
-							["In"] = 341,
-							["Out"] = 0,
-						},
-						["洛克莫丹 - 银泉矿洞"] = {
-							["In"] = 410,
-							["Out"] = 0,
-						},
-						["暮色森林 - 乌鸦岭墓地"] = {
-							["In"] = 6638,
-							["Out"] = 0,
-						},
-						["暮色森林 - 腐草农场"] = {
-							["In"] = 46,
-							["Out"] = 0,
-						},
-						["暮色森林 - 约根农场"] = {
-							["In"] = 271,
-							["Out"] = 0,
-						},
-						["湿地 - 巴拉丁海湾"] = {
-							["In"] = 1461,
-							["Out"] = 0,
-						},
-						["暮色森林 - 沃古尔食人魔山"] = {
-							["In"] = 383,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 傑羅德碼頭"] = {
-							["In"] = 44,
-							["Out"] = 0,
-						},
-						["赤脊山 - 加拉德尔山谷"] = {
-							["In"] = 1258,
-							["Out"] = 0,
-						},
-						["阿拉希高地 - 格沙克农场"] = {
-							["In"] = 4241,
-							["Out"] = 0,
-						},
-						["西部荒野 - 摩尔森农场"] = {
-							["In"] = 4,
-							["Out"] = 0,
-						},
-						["西部荒野 - 斯特登的池塘"] = {
-							["In"] = 154,
-							["Out"] = 0,
-						},
-						["西部荒野 - 法布隆南瓜农场"] = {
-							["In"] = 883,
-							["Out"] = 0,
-						},
-						["湿地"] = {
-							["In"] = 2855,
-							["Out"] = 0,
-						},
-						["古博拉矿场"] = {
-							["In"] = 158,
-							["Out"] = 0,
-						},
-						["湿地 - 蓝腮沼泽"] = {
-							["In"] = 273,
-							["Out"] = 0,
-						},
-						["艾尔文森林 - 东谷伐木场"] = {
-							["In"] = 63,
-							["Out"] = 0,
-						},
-						["洛克莫丹 - 巨石水坝"] = {
-							["In"] = 59,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 石碑湖"] = {
-							["In"] = 4,
-							["Out"] = 0,
-						},
-						["希尔斯布莱德丘陵 - 南海镇"] = {
-							["In"] = 261,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 北郡修道院"] = {
-							["In"] = 1,
-							["Out"] = 0,
-						},
-						["阿拉希高地 - 诺斯弗德农场"] = {
-							["In"] = 1885,
-							["Out"] = 0,
-						},
-						["暮色森林 - 烂果园"] = {
-							["In"] = 919,
-							["Out"] = 0,
-						},
-						["西部荒野 - 迪蒙特荒野"] = {
-							["In"] = 86,
-							["Out"] = 0,
-						},
-						["赤脊山 - 湖边大道"] = {
-							["In"] = 806,
-							["Out"] = 0,
-						},
-						["死亡矿井 - 迪菲亚潜行者巢穴"] = {
-							["In"] = 19,
-							["Out"] = 0,
-						},
-						["赤脊山"] = {
-							["In"] = 67,
-							["Out"] = 0,
-						},
-						["赤脊山 - 撕裂者之石"] = {
-							["In"] = 2368,
-							["Out"] = 0,
-						},
-						["湿地 - 萨多尔大桥"] = {
-							["In"] = 128,
-							["Out"] = 0,
-						},
-						["艾尔文森林 - 斯通菲尔德农场"] = {
-							["In"] = 20,
-							["Out"] = 0,
-						},
-						["暮色森林 - 罗兰之墓"] = {
-							["In"] = 890,
-							["Out"] = 0,
-						},
-						["赤脊山 - 石堡"] = {
-							["In"] = 1002,
-							["Out"] = 0,
-						},
-						["阿拉希高地"] = {
-							["In"] = 657,
-							["Out"] = 0,
-						},
-						["奥特兰克山脉 - 考兰之匕"] = {
-							["In"] = 1561,
-							["Out"] = 0,
-						},
-						["湿地 - 丹莫德"] = {
-							["In"] = 1414,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 水晶湖"] = {
-							["In"] = 27,
-							["Out"] = 0,
-						},
-						["阿拉希高地 - 萨多尔大桥"] = {
-							["In"] = 206,
-							["Out"] = 0,
-						},
-						["赤脊山 - 三角路口"] = {
-							["In"] = 153,
-							["Out"] = 0,
-						},
-						["奥特兰克山脉 - 破碎岭城堡"] = {
-							["In"] = 720,
-							["Out"] = 0,
-						},
-						["暮色森林 - 静谧花园墓场"] = {
-							["In"] = 707,
-							["Out"] = 0,
-						},
-						["希尔斯布莱德丘陵 - 东部海滩"] = {
-							["In"] = 2281,
-							["Out"] = 0,
-						},
-						["奥特兰克山脉 - 索菲亚高地"] = {
-							["In"] = 1416,
-							["Out"] = 0,
-						},
-						["洛克莫丹 - 灰爪山"] = {
-							["In"] = 12,
+						["尘泥沼泽 - 比吉尔的飞艇残骸"] = {
+							["In"] = 1215,
 							["Out"] = 0,
 						},
 					},
+					["AH"] = {
+					},
+					["TRAIN"] = {
+					},
 					["QUEST"] = {
-						["暴風城 - 軍情七處"] = {
-							["In"] = 85,
-							["Out"] = 0,
-						},
-						["阿拉希高地 - 避难谷地"] = {
-							["In"] = 7500,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 東谷伐木場"] = {
-							["In"] = 300,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 北郡山谷"] = {
-							["In"] = 1,
-							["Out"] = 0,
-						},
-						["暴风城 - 教堂广场"] = {
-							["In"] = 1400,
-							["Out"] = 0,
-						},
-						["暴风城"] = {
-							["In"] = 8500,
-							["Out"] = 0,
-						},
-						["湖畔镇大厅"] = {
+						["尘泥沼泽 - 比吉尔的飞艇残骸"] = {
 							["In"] = 9500,
 							["Out"] = 0,
 						},
-						["艾爾文森林"] = {
-							["In"] = 250,
-							["Out"] = 0,
-						},
-						["暴風城 - 舊城區"] = {
-							["In"] = 175,
-							["Out"] = 0,
-						},
-						["暴风城 - 旧城区"] = {
-							["In"] = 6000,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 閃金鎮"] = {
-							["In"] = 1350,
-							["Out"] = 0,
-						},
-						["暮色森林 - 乌鸦岭墓地"] = {
-							["In"] = 6600,
-							["Out"] = 0,
-						},
-						["暴風城 - 貿易區"] = {
-							["In"] = 350,
-							["Out"] = 0,
-						},
-						["暮色森林 - 夜色镇"] = {
-							["In"] = 14775,
-							["Out"] = 0,
-						},
-						["哨兵塔"] = {
-							["In"] = 1700,
-							["Out"] = 0,
-						},
-						["湿地 - 米奈希尔城堡"] = {
-							["In"] = 2000,
-							["Out"] = 0,
-						},
-						["尘泥沼泽 - 北点哨塔"] = {
-							["In"] = 4000,
-							["Out"] = 0,
-						},
-						["洛克莫丹 - 塞尔萨玛"] = {
-							["In"] = 400,
-							["Out"] = 0,
-						},
-						["尘泥沼泽"] = {
-							["In"] = 13000,
-							["Out"] = 0,
-						},
-						["尘泥沼泽 - 水光庄园"] = {
-							["In"] = 15500,
-							["Out"] = 0,
-						},
-						["尘泥沼泽 - 恐惧海岸"] = {
-							["In"] = 8000,
-							["Out"] = 0,
-						},
-						["尘泥沼泽 - 警戒哨岗"] = {
-							["In"] = 4000,
-							["Out"] = 0,
-						},
-						["希尔斯布莱德丘陵 - 南海镇"] = {
-							["In"] = 18100,
-							["Out"] = 0,
-						},
-						["洛克莫丹 - 奥加兹岗哨"] = {
-							["In"] = 700,
-							["Out"] = 0,
-						},
-						["丹莫罗 - 古博拉采掘场"] = {
-							["In"] = 500,
-							["Out"] = 0,
-						},
-						["艾尔文森林 - 闪金镇"] = {
-							["In"] = 85,
-							["Out"] = 0,
-						},
-						["暮色森林 - 乌鸦岭"] = {
-							["In"] = 1200,
-							["Out"] = 0,
-						},
-						["血鸦旅店"] = {
-							["In"] = 1800,
-							["Out"] = 0,
-						},
-						["湿地 - 米奈希尔港"] = {
-							["In"] = 8900,
-							["Out"] = 0,
-						},
-						["赤脊山 - 湖畔镇"] = {
-							["In"] = 5500,
-							["Out"] = 0,
-						},
-						["湿地 - 维尔加挖掘场"] = {
-							["In"] = 6400,
-							["Out"] = 0,
-						},
-						["赤脊山"] = {
-							["In"] = 2700,
-							["Out"] = 0,
-						},
-						["湿地 - 萨多尔大桥"] = {
-							["In"] = 0,
-							["Out"] = 8,
-						},
-						["西部荒野 - 月溪镇"] = {
-							["In"] = 2,
+						["尘泥沼泽 - 塔贝萨的农场"] = {
+							["In"] = 18000,
 							["Out"] = 0,
 						},
 						["尘泥沼泽 - 塞拉摩岛"] = {
-							["In"] = 22000,
+							["In"] = 8000,
 							["Out"] = 0,
 						},
-						["獅王之傲旅店"] = {
-							["In"] = 125,
+						["尘泥沼泽 - 泥链镇"] = {
+							["In"] = 39500,
 							["Out"] = 0,
 						},
-						["暴风城 - 矮人区"] = {
-							["In"] = 600,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 北郡修道院"] = {
-							["In"] = 65,
-							["Out"] = 0,
-						},
-						["洛克莫丹 - 烈酒旅店"] = {
-							["In"] = 400,
-							["Out"] = 0,
-						},
-						["西部荒野 - 西部荒野灯塔"] = {
-							["In"] = 1700,
-							["Out"] = 0,
-						},
-						["洛克莫丹 - 国王谷"] = {
-							["In"] = 2400,
-							["Out"] = 0,
-						},
-						["死亡矿井 - 迪菲亚潜行者巢穴"] = {
-							["In"] = 7,
-							["Out"] = 0,
-						},
-						["暮色森林 - 寂静河岸"] = {
-							["In"] = 2600,
-							["Out"] = 0,
-						},
-						["暴风城监狱"] = {
-							["In"] = 39,
-							["Out"] = 0,
-						},
-						["暴风城 - 暴风要塞"] = {
-							["In"] = 55,
-							["Out"] = 0,
-						},
-						["湿地 - 丹莫德"] = {
-							["In"] = 2552,
+						["尘泥沼泽 - 水光庄园"] = {
+							["In"] = 3500,
 							["Out"] = 0,
 						},
 					},
@@ -4189,21 +3515,25 @@ Accountant_ClassicZoneDB = {
 							["In"] = 0,
 							["Out"] = 18,
 						},
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 0,
-							["Out"] = 79,
-						},
 						["希尔斯布莱德丘陵 - 南海镇"] = {
 							["In"] = 0,
 							["Out"] = 205,
+						},
+						["赤脊山 - 湖畔镇"] = {
+							["In"] = 0,
+							["Out"] = 779,
+						},
+						["菲拉斯 - 萨兰纳尔"] = {
+							["In"] = 0,
+							["Out"] = 1718,
 						},
 						["湿地 - 米奈希尔港"] = {
 							["In"] = 840,
 							["Out"] = 280,
 						},
-						["赤脊山 - 湖畔镇"] = {
+						["铁炉堡 - 铁炉堡"] = {
 							["In"] = 0,
-							["Out"] = 779,
+							["Out"] = 79,
 						},
 					},
 					["TAXI"] = {
@@ -4218,6 +3548,10 @@ Accountant_ClassicZoneDB = {
 						["阿拉希高地 - 避难谷地"] = {
 							["In"] = 0,
 							["Out"] = 280,
+						},
+						["铁炉堡 - 大锻炉"] = {
+							["In"] = 0,
+							["Out"] = 197,
 						},
 						["暴風城 - 貿易區"] = {
 							["In"] = 0,
@@ -4239,9 +3573,9 @@ Accountant_ClassicZoneDB = {
 							["In"] = 0,
 							["Out"] = 99,
 						},
-						["铁炉堡 - 大锻炉"] = {
+						["菲拉斯 - 萨兰纳尔"] = {
 							["In"] = 0,
-							["Out"] = 197,
+							["Out"] = 657,
 						},
 						["湿地 - 米奈希尔港"] = {
 							["In"] = 0,
@@ -4273,13 +3607,13 @@ Accountant_ClassicZoneDB = {
 						},
 					},
 					["OTHER"] = {
-						["死亡矿井"] = {
-							["In"] = 13,
-							["Out"] = 1,
-						},
 						["艾爾文森林 - 東谷伐木場"] = {
 							["In"] = 50000000,
 							["Out"] = 0,
+						},
+						["死亡矿井"] = {
+							["In"] = 13,
+							["Out"] = 1,
 						},
 					},
 					["MERCH"] = {
@@ -4319,6 +3653,14 @@ Accountant_ClassicZoneDB = {
 							["In"] = 869,
 							["Out"] = 0,
 						},
+						["尘泥沼泽 - 泥链镇"] = {
+							["In"] = 28740,
+							["Out"] = 0,
+						},
+						["菲拉斯 - 萨兰纳尔"] = {
+							["In"] = 41663,
+							["Out"] = 0,
+						},
 						["艾爾文森林 - 斯通菲爾德農場"] = {
 							["In"] = 203,
 							["Out"] = 657,
@@ -4331,9 +3673,9 @@ Accountant_ClassicZoneDB = {
 							["In"] = 13677,
 							["Out"] = 33,
 						},
-						["暴风城 - 运河"] = {
-							["In"] = 0,
-							["Out"] = 180,
+						["獅王之傲旅店"] = {
+							["In"] = 136,
+							["Out"] = 0,
 						},
 						["湿地"] = {
 							["In"] = 4105,
@@ -4347,17 +3689,17 @@ Accountant_ClassicZoneDB = {
 							["In"] = 15523,
 							["Out"] = 0,
 						},
-						["尘泥沼泽 - 塞拉摩岛"] = {
-							["In"] = 69919,
-							["Out"] = 0,
+						["暴风城 - 运河"] = {
+							["In"] = 0,
+							["Out"] = 180,
 						},
 						["艾爾文森林 - 閃金鎮"] = {
 							["In"] = 0,
 							["Out"] = 382,
 						},
-						["艾尔文森林 - 东谷伐木场"] = {
-							["In"] = 3270,
-							["Out"] = 85000,
+						["艾爾文森林 - 北郡山谷"] = {
+							["In"] = 165,
+							["Out"] = 0,
 						},
 						["赤脊山 - 湖畔镇"] = {
 							["In"] = 7146,
@@ -4375,85 +3717,25 @@ Accountant_ClassicZoneDB = {
 							["In"] = 18571,
 							["Out"] = 0,
 						},
-						["暮色森林"] = {
-							["In"] = 3013,
-							["Out"] = 0,
-						},
 						["血鸦旅店"] = {
 							["In"] = 21071,
+							["Out"] = 0,
+						},
+						["暮色森林"] = {
+							["In"] = 3013,
 							["Out"] = 0,
 						},
 						["湿地 - 深水旅店"] = {
 							["In"] = 24595,
 							["Out"] = 1350,
 						},
-						["艾爾文森林 - 北郡山谷"] = {
-							["In"] = 165,
-							["Out"] = 0,
-						},
-						["獅王之傲旅店"] = {
-							["In"] = 136,
-							["Out"] = 0,
-						},
-					},
-					["TRAIN"] = {
-						["暴風城 - 舊城區"] = {
-							["In"] = 0,
-							["Out"] = 1080,
-						},
-						["狮王之傲旅店"] = {
-							["In"] = 0,
-							["Out"] = 90,
-						},
-						["暴风城 - 旧城区"] = {
-							["In"] = 0,
-							["Out"] = 174354,
-						},
-						["獅王之傲旅店"] = {
-							["In"] = 0,
-							["Out"] = 380,
-						},
-						["艾爾文森林 - 北郡山谷"] = {
-							["In"] = 0,
-							["Out"] = 390,
-						},
-						["铁炉堡 - 大锻炉"] = {
-							["In"] = 0,
-							["Out"] = 6746,
-						},
-						["铁炉堡 - 荒弃的洞穴"] = {
-							["In"] = 0,
-							["Out"] = 89550,
-						},
 						["艾尔文森林 - 东谷伐木场"] = {
-							["In"] = 0,
-							["Out"] = 297500,
+							["In"] = 3270,
+							["Out"] = 85000,
 						},
-						["暴風城 - 貿易區"] = {
-							["In"] = 0,
-							["Out"] = 1800,
-						},
-					},
-					["AH"] = {
-						["暴風城 - 貿易區"] = {
-							["In"] = 0,
-							["Out"] = 394676,
-						},
-						["洛克莫丹 - 塞尔萨玛"] = {
-							["In"] = 40522,
+						["尘泥沼泽 - 塞拉摩岛"] = {
+							["In"] = 92772,
 							["Out"] = 0,
-						},
-						["暴风城 - 贸易区"] = {
-							["In"] = 0,
-							["Out"] = 8759106,
-						},
-						["洛克莫丹 - 烈酒旅店"] = {
-							["In"] = 1552,
-							["Out"] = 0,
-						},
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 0,
-							["Out"] = 508391,
 						},
 					},
 					["LOOT"] = {
@@ -4525,12 +3807,20 @@ Accountant_ClassicZoneDB = {
 							["In"] = 43,
 							["Out"] = 0,
 						},
+						["尘泥沼泽 - 石槌废墟"] = {
+							["In"] = 4659,
+							["Out"] = 0,
+						},
 						["湿地 - 铁须之墓"] = {
 							["In"] = 13,
 							["Out"] = 0,
 						},
 						["暮色森林 - 密斯特曼托庄园"] = {
 							["In"] = 422,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 恐角岗哨"] = {
+							["In"] = 2196,
 							["Out"] = 0,
 						},
 						["艾尔文森林 - 林边空地"] = {
@@ -4543,6 +3833,10 @@ Accountant_ClassicZoneDB = {
 						},
 						["西部荒野 - 匕首岭"] = {
 							["In"] = 617,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 黑蹄村"] = {
+							["In"] = 1133,
 							["Out"] = 0,
 						},
 						["丹莫罗 - 古博拉采掘场"] = {
@@ -4601,44 +3895,52 @@ Accountant_ClassicZoneDB = {
 							["In"] = 2023,
 							["Out"] = 0,
 						},
+						["尘泥沼泽 - 火焰洞穴"] = {
+							["In"] = 4944,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 比吉尔的飞艇残骸"] = {
+							["In"] = 1215,
+							["Out"] = 0,
+						},
 						["暮色森林"] = {
 							["In"] = 1729,
-							["Out"] = 0,
-						},
-						["尘泥沼泽 - 女巫岭"] = {
-							["In"] = 1466,
-							["Out"] = 0,
-						},
-						["尘泥沼泽 - 恐惧海岸"] = {
-							["In"] = 1975,
 							["Out"] = 0,
 						},
 						["奥特兰克山脉 - 绞刑场"] = {
 							["In"] = 1649,
 							["Out"] = 0,
 						},
+						["奥特兰克山脉 - 索菲亚高地"] = {
+							["In"] = 1416,
+							["Out"] = 0,
+						},
+						["希尔斯布莱德丘陵 - 东部海滩"] = {
+							["In"] = 2281,
+							["Out"] = 0,
+						},
 						["湿地 - 恶铁岭"] = {
 							["In"] = 753,
 							["Out"] = 0,
 						},
-						["暴风城 - 旧城区"] = {
-							["In"] = 152,
+						["暮色森林 - 静谧花园墓场"] = {
+							["In"] = 707,
 							["Out"] = 0,
 						},
-						["暴风城 - 暴风要塞"] = {
-							["In"] = 55,
-							["Out"] = 24,
-						},
-						["赤脊山 - 伊尔加拉之塔"] = {
-							["In"] = 444,
+						["奥特兰克山脉 - 破碎岭城堡"] = {
+							["In"] = 720,
 							["Out"] = 0,
 						},
-						["死亡矿井"] = {
-							["In"] = 2837,
-							["Out"] = 3,
+						["赤脊山 - 三角路口"] = {
+							["In"] = 153,
+							["Out"] = 0,
 						},
-						["赤脊山 - 止水湖"] = {
-							["In"] = 625,
+						["阿拉希高地 - 萨多尔大桥"] = {
+							["In"] = 206,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 水晶湖"] = {
+							["In"] = 27,
 							["Out"] = 0,
 						},
 						["西部荒野 - 长滩"] = {
@@ -4649,28 +3951,28 @@ Accountant_ClassicZoneDB = {
 							["In"] = 303,
 							["Out"] = 0,
 						},
-						["艾爾文森林 - 北郡農場"] = {
-							["In"] = 13,
+						["湿地 - 丹莫德"] = {
+							["In"] = 1414,
 							["Out"] = 0,
 						},
 						["西部荒野 - 贾森农场"] = {
 							["In"] = 13,
 							["Out"] = 0,
 						},
-						["暮色森林 - 荒弃鬼屋"] = {
-							["In"] = 1545,
+						["奥特兰克山脉 - 考兰之匕"] = {
+							["In"] = 1561,
 							["Out"] = 0,
 						},
-						["希尔斯布莱德丘陵 - 西部海岸"] = {
-							["In"] = 3487,
-							["Out"] = 0,
-						},
-						["湿地 - 藓皮沼泽"] = {
-							["In"] = 341,
+						["尘泥沼泽 - 女巫岭"] = {
+							["In"] = 1878,
 							["Out"] = 0,
 						},
 						["洛克莫丹 - 银泉矿洞"] = {
 							["In"] = 410,
+							["Out"] = 0,
+						},
+						["湿地 - 巴拉丁海湾"] = {
+							["In"] = 1461,
 							["Out"] = 0,
 						},
 						["暮色森林 - 乌鸦岭墓地"] = {
@@ -4685,12 +3987,12 @@ Accountant_ClassicZoneDB = {
 							["In"] = 271,
 							["Out"] = 0,
 						},
-						["湿地 - 巴拉丁海湾"] = {
-							["In"] = 1461,
+						["暮色森林 - 罗兰之墓"] = {
+							["In"] = 890,
 							["Out"] = 0,
 						},
-						["暮色森林 - 沃古尔食人魔山"] = {
-							["In"] = 383,
+						["艾尔文森林 - 斯通菲尔德农场"] = {
+							["In"] = 20,
 							["Out"] = 0,
 						},
 						["艾爾文森林 - 傑羅德碼頭"] = {
@@ -4701,16 +4003,16 @@ Accountant_ClassicZoneDB = {
 							["In"] = 1258,
 							["Out"] = 0,
 						},
-						["阿拉希高地 - 格沙克农场"] = {
-							["In"] = 4241,
+						["暮色森林 - 沃古尔食人魔山"] = {
+							["In"] = 383,
 							["Out"] = 0,
 						},
-						["西部荒野 - 摩尔森农场"] = {
-							["In"] = 4,
+						["湿地 - 萨多尔大桥"] = {
+							["In"] = 128,
 							["Out"] = 0,
 						},
-						["西部荒野 - 斯特登的池塘"] = {
-							["In"] = 154,
+						["赤脊山 - 撕裂者之石"] = {
+							["In"] = 2368,
 							["Out"] = 0,
 						},
 						["西部荒野 - 法布隆南瓜农场"] = {
@@ -4721,20 +4023,20 @@ Accountant_ClassicZoneDB = {
 							["In"] = 2855,
 							["Out"] = 0,
 						},
-						["古博拉矿场"] = {
-							["In"] = 158,
+						["赤脊山 - 湖边大道"] = {
+							["In"] = 806,
 							["Out"] = 0,
 						},
 						["湿地 - 蓝腮沼泽"] = {
 							["In"] = 273,
 							["Out"] = 0,
 						},
-						["艾尔文森林 - 东谷伐木场"] = {
-							["In"] = 63,
+						["古博拉矿场"] = {
+							["In"] = 158,
 							["Out"] = 0,
 						},
-						["洛克莫丹 - 巨石水坝"] = {
-							["In"] = 59,
+						["暮色森林 - 烂果园"] = {
+							["In"] = 919,
 							["Out"] = 0,
 						},
 						["艾爾文森林 - 石碑湖"] = {
@@ -4745,24 +4047,24 @@ Accountant_ClassicZoneDB = {
 							["In"] = 261,
 							["Out"] = 0,
 						},
-						["艾爾文森林 - 北郡修道院"] = {
-							["In"] = 1,
+						["艾尔文森林 - 东谷伐木场"] = {
+							["In"] = 63,
 							["Out"] = 0,
 						},
 						["阿拉希高地 - 诺斯弗德农场"] = {
 							["In"] = 1885,
 							["Out"] = 0,
 						},
-						["暮色森林 - 烂果园"] = {
-							["In"] = 919,
+						["艾爾文森林 - 北郡修道院"] = {
+							["In"] = 1,
 							["Out"] = 0,
 						},
 						["西部荒野 - 迪蒙特荒野"] = {
 							["In"] = 86,
 							["Out"] = 0,
 						},
-						["赤脊山 - 湖边大道"] = {
-							["In"] = 806,
+						["洛克莫丹 - 巨石水坝"] = {
+							["In"] = 59,
 							["Out"] = 0,
 						},
 						["死亡矿井 - 迪菲亚潜行者巢穴"] = {
@@ -4773,20 +4075,20 @@ Accountant_ClassicZoneDB = {
 							["In"] = 67,
 							["Out"] = 0,
 						},
-						["赤脊山 - 撕裂者之石"] = {
-							["In"] = 2368,
+						["西部荒野 - 斯特登的池塘"] = {
+							["In"] = 154,
 							["Out"] = 0,
 						},
-						["湿地 - 萨多尔大桥"] = {
-							["In"] = 128,
+						["西部荒野 - 摩尔森农场"] = {
+							["In"] = 4,
 							["Out"] = 0,
 						},
-						["艾尔文森林 - 斯通菲尔德农场"] = {
-							["In"] = 20,
+						["尘泥沼泽 - 恐惧海岸"] = {
+							["In"] = 4148,
 							["Out"] = 0,
 						},
-						["暮色森林 - 罗兰之墓"] = {
-							["In"] = 890,
+						["阿拉希高地 - 格沙克农场"] = {
+							["In"] = 4241,
 							["Out"] = 0,
 						},
 						["赤脊山 - 石堡"] = {
@@ -4797,45 +4099,105 @@ Accountant_ClassicZoneDB = {
 							["In"] = 657,
 							["Out"] = 0,
 						},
-						["奥特兰克山脉 - 考兰之匕"] = {
-							["In"] = 1561,
+						["湿地 - 藓皮沼泽"] = {
+							["In"] = 341,
 							["Out"] = 0,
 						},
-						["湿地 - 丹莫德"] = {
-							["In"] = 1414,
+						["希尔斯布莱德丘陵 - 西部海岸"] = {
+							["In"] = 3487,
 							["Out"] = 0,
 						},
-						["艾爾文森林 - 水晶湖"] = {
-							["In"] = 27,
+						["暮色森林 - 荒弃鬼屋"] = {
+							["In"] = 1545,
 							["Out"] = 0,
 						},
-						["阿拉希高地 - 萨多尔大桥"] = {
-							["In"] = 206,
+						["艾爾文森林 - 北郡農場"] = {
+							["In"] = 13,
 							["Out"] = 0,
 						},
-						["赤脊山 - 三角路口"] = {
-							["In"] = 153,
+						["赤脊山 - 止水湖"] = {
+							["In"] = 625,
 							["Out"] = 0,
 						},
-						["奥特兰克山脉 - 破碎岭城堡"] = {
-							["In"] = 720,
+						["死亡矿井"] = {
+							["In"] = 2837,
+							["Out"] = 3,
+						},
+						["赤脊山 - 伊尔加拉之塔"] = {
+							["In"] = 444,
 							["Out"] = 0,
 						},
-						["暮色森林 - 静谧花园墓场"] = {
-							["In"] = 707,
-							["Out"] = 0,
+						["暴风城 - 暴风要塞"] = {
+							["In"] = 55,
+							["Out"] = 24,
 						},
-						["希尔斯布莱德丘陵 - 东部海滩"] = {
-							["In"] = 2281,
-							["Out"] = 0,
-						},
-						["奥特兰克山脉 - 索菲亚高地"] = {
-							["In"] = 1416,
+						["暴风城 - 旧城区"] = {
+							["In"] = 152,
 							["Out"] = 0,
 						},
 						["洛克莫丹 - 灰爪山"] = {
 							["In"] = 12,
 							["Out"] = 0,
+						},
+					},
+					["AH"] = {
+						["暴風城 - 貿易區"] = {
+							["In"] = 0,
+							["Out"] = 394676,
+						},
+						["洛克莫丹 - 塞尔萨玛"] = {
+							["In"] = 40522,
+							["Out"] = 0,
+						},
+						["暴风城 - 贸易区"] = {
+							["In"] = 0,
+							["Out"] = 8759106,
+						},
+						["洛克莫丹 - 烈酒旅店"] = {
+							["In"] = 1552,
+							["Out"] = 0,
+						},
+						["铁炉堡 - 铁炉堡"] = {
+							["In"] = 0,
+							["Out"] = 508391,
+						},
+					},
+					["TRAIN"] = {
+						["暴風城 - 舊城區"] = {
+							["In"] = 0,
+							["Out"] = 1080,
+						},
+						["狮王之傲旅店"] = {
+							["In"] = 0,
+							["Out"] = 90,
+						},
+						["暴风城 - 旧城区"] = {
+							["In"] = 0,
+							["Out"] = 174354,
+						},
+						["獅王之傲旅店"] = {
+							["In"] = 0,
+							["Out"] = 380,
+						},
+						["艾爾文森林 - 北郡山谷"] = {
+							["In"] = 0,
+							["Out"] = 390,
+						},
+						["铁炉堡 - 大锻炉"] = {
+							["In"] = 0,
+							["Out"] = 6746,
+						},
+						["铁炉堡 - 荒弃的洞穴"] = {
+							["In"] = 0,
+							["Out"] = 89550,
+						},
+						["暴風城 - 貿易區"] = {
+							["In"] = 0,
+							["Out"] = 1800,
+						},
+						["艾尔文森林 - 东谷伐木场"] = {
+							["In"] = 0,
+							["Out"] = 297500,
 						},
 					},
 					["QUEST"] = {
@@ -4903,28 +4265,40 @@ Accountant_ClassicZoneDB = {
 							["In"] = 2000,
 							["Out"] = 0,
 						},
-						["尘泥沼泽 - 北点哨塔"] = {
-							["In"] = 4000,
+						["尘泥沼泽 - 泥链镇"] = {
+							["In"] = 39500,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 比吉尔的飞艇残骸"] = {
+							["In"] = 9500,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 塔贝萨的农场"] = {
+							["In"] = 18000,
+							["Out"] = 0,
+						},
+						["湿地 - 丹莫德"] = {
+							["In"] = 2552,
 							["Out"] = 0,
 						},
 						["洛克莫丹 - 塞尔萨玛"] = {
 							["In"] = 400,
 							["Out"] = 0,
 						},
-						["尘泥沼泽"] = {
-							["In"] = 13000,
+						["暴风城 - 暴风要塞"] = {
+							["In"] = 55,
 							["Out"] = 0,
 						},
-						["尘泥沼泽 - 水光庄园"] = {
-							["In"] = 15500,
-							["Out"] = 0,
-						},
-						["尘泥沼泽 - 恐惧海岸"] = {
-							["In"] = 8000,
+						["暴风城监狱"] = {
+							["In"] = 39,
 							["Out"] = 0,
 						},
 						["尘泥沼泽 - 警戒哨岗"] = {
 							["In"] = 4000,
+							["Out"] = 0,
+						},
+						["死亡矿井 - 迪菲亚潜行者巢穴"] = {
+							["In"] = 7,
 							["Out"] = 0,
 						},
 						["希尔斯布莱德丘陵 - 南海镇"] = {
@@ -4959,70 +4333,1290 @@ Accountant_ClassicZoneDB = {
 							["In"] = 5500,
 							["Out"] = 0,
 						},
-						["湿地 - 维尔加挖掘场"] = {
-							["In"] = 6400,
-							["Out"] = 0,
-						},
 						["赤脊山"] = {
 							["In"] = 2700,
-							["Out"] = 0,
-						},
-						["湿地 - 萨多尔大桥"] = {
-							["In"] = 0,
-							["Out"] = 8,
-						},
-						["西部荒野 - 月溪镇"] = {
-							["In"] = 2,
-							["Out"] = 0,
-						},
-						["尘泥沼泽 - 塞拉摩岛"] = {
-							["In"] = 22000,
-							["Out"] = 0,
-						},
-						["獅王之傲旅店"] = {
-							["In"] = 125,
-							["Out"] = 0,
-						},
-						["暴风城 - 矮人区"] = {
-							["In"] = 600,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 北郡修道院"] = {
-							["In"] = 65,
-							["Out"] = 0,
-						},
-						["洛克莫丹 - 烈酒旅店"] = {
-							["In"] = 400,
 							["Out"] = 0,
 						},
 						["西部荒野 - 西部荒野灯塔"] = {
 							["In"] = 1700,
 							["Out"] = 0,
 						},
+						["尘泥沼泽 - 北点哨塔"] = {
+							["In"] = 12000,
+							["Out"] = 0,
+						},
+						["洛克莫丹 - 烈酒旅店"] = {
+							["In"] = 400,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 塞拉摩岛"] = {
+							["In"] = 30000,
+							["Out"] = 0,
+						},
+						["獅王之傲旅店"] = {
+							["In"] = 125,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 北郡修道院"] = {
+							["In"] = 65,
+							["Out"] = 0,
+						},
+						["暴风城 - 矮人区"] = {
+							["In"] = 600,
+							["Out"] = 0,
+						},
+						["西部荒野 - 月溪镇"] = {
+							["In"] = 2,
+							["Out"] = 0,
+						},
+						["湿地 - 萨多尔大桥"] = {
+							["In"] = 0,
+							["Out"] = 8,
+						},
 						["洛克莫丹 - 国王谷"] = {
 							["In"] = 2400,
 							["Out"] = 0,
 						},
-						["死亡矿井 - 迪菲亚潜行者巢穴"] = {
-							["In"] = 7,
+						["湿地 - 维尔加挖掘场"] = {
+							["In"] = 6400,
 							["Out"] = 0,
 						},
 						["暮色森林 - 寂静河岸"] = {
 							["In"] = 2600,
 							["Out"] = 0,
 						},
+						["尘泥沼泽 - 恐惧海岸"] = {
+							["In"] = 8000,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 水光庄园"] = {
+							["In"] = 19000,
+							["Out"] = 0,
+						},
+						["尘泥沼泽"] = {
+							["In"] = 13000,
+							["Out"] = 0,
+						},
+					},
+				},
+				["PrvYear"] = {
+					["REPAIRS"] = {
+					},
+					["TAXI"] = {
+					},
+					["TRADE"] = {
+					},
+					["MAIL"] = {
+					},
+					["OTHER"] = {
+					},
+					["MERCH"] = {
+					},
+					["LOOT"] = {
+					},
+					["AH"] = {
+					},
+					["TRAIN"] = {
+					},
+					["QUEST"] = {
+					},
+				},
+				["PrvMonth"] = {
+					["REPAIRS"] = {
+					},
+					["TAXI"] = {
+					},
+					["TRADE"] = {
+					},
+					["MAIL"] = {
+					},
+					["OTHER"] = {
+					},
+					["MERCH"] = {
+					},
+					["LOOT"] = {
+					},
+					["AH"] = {
+					},
+					["TRAIN"] = {
+					},
+					["QUEST"] = {
+					},
+				},
+				["Session"] = {
+					["REPAIRS"] = {
+						["菲拉斯 - 萨兰纳尔"] = {
+							["In"] = 0,
+							["Out"] = 1718,
+						},
+					},
+					["TAXI"] = {
+						["菲拉斯 - 萨兰纳尔"] = {
+							["In"] = 0,
+							["Out"] = 657,
+						},
+					},
+					["TRADE"] = {
+					},
+					["MAIL"] = {
+					},
+					["OTHER"] = {
+					},
+					["MERCH"] = {
+						["尘泥沼泽 - 塞拉摩岛"] = {
+							["In"] = 22853,
+							["Out"] = 0,
+						},
+						["菲拉斯 - 萨兰纳尔"] = {
+							["In"] = 41663,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 泥链镇"] = {
+							["In"] = 28740,
+							["Out"] = 0,
+						},
+					},
+					["LOOT"] = {
+						["尘泥沼泽 - 恐角岗哨"] = {
+							["In"] = 2196,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 黑蹄村"] = {
+							["In"] = 1133,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 恐惧海岸"] = {
+							["In"] = 2173,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 女巫岭"] = {
+							["In"] = 412,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 石槌废墟"] = {
+							["In"] = 4659,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 火焰洞穴"] = {
+							["In"] = 4944,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 比吉尔的飞艇残骸"] = {
+							["In"] = 1215,
+							["Out"] = 0,
+						},
+					},
+					["AH"] = {
+					},
+					["TRAIN"] = {
+					},
+					["QUEST"] = {
+						["尘泥沼泽 - 比吉尔的飞艇残骸"] = {
+							["In"] = 9500,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 北点哨塔"] = {
+							["In"] = 8000,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 水光庄园"] = {
+							["In"] = 3500,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 泥链镇"] = {
+							["In"] = 39500,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 塞拉摩岛"] = {
+							["In"] = 8000,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 塔贝萨的农场"] = {
+							["In"] = 18000,
+							["Out"] = 0,
+						},
+					},
+				},
+				["Year"] = {
+					["REPAIRS"] = {
+						["暴风城 - 贸易区"] = {
+							["In"] = 168,
+							["Out"] = 1612,
+						},
+						["丹莫罗 - 古博拉采掘场"] = {
+							["In"] = 0,
+							["Out"] = 18,
+						},
+						["希尔斯布莱德丘陵 - 南海镇"] = {
+							["In"] = 0,
+							["Out"] = 205,
+						},
+						["赤脊山 - 湖畔镇"] = {
+							["In"] = 0,
+							["Out"] = 779,
+						},
+						["菲拉斯 - 萨兰纳尔"] = {
+							["In"] = 0,
+							["Out"] = 1718,
+						},
+						["湿地 - 米奈希尔港"] = {
+							["In"] = 840,
+							["Out"] = 280,
+						},
+						["铁炉堡 - 铁炉堡"] = {
+							["In"] = 0,
+							["Out"] = 79,
+						},
+					},
+					["TAXI"] = {
+						["暴风城 - 贸易区"] = {
+							["In"] = 0,
+							["Out"] = 1134,
+						},
+						["西瘟疫之地 - 寒风营地"] = {
+							["In"] = 0,
+							["Out"] = 280,
+						},
+						["阿拉希高地 - 避难谷地"] = {
+							["In"] = 0,
+							["Out"] = 280,
+						},
+						["铁炉堡 - 大锻炉"] = {
+							["In"] = 0,
+							["Out"] = 197,
+						},
+						["暴風城 - 貿易區"] = {
+							["In"] = 0,
+							["Out"] = 99,
+						},
+						["暮色森林 - 夜色镇"] = {
+							["In"] = 0,
+							["Out"] = 1488,
+						},
+						["西部荒野 - 哨兵岭"] = {
+							["In"] = 0,
+							["Out"] = 972,
+						},
+						["希尔斯布莱德丘陵 - 南海镇"] = {
+							["In"] = 0,
+							["Out"] = 1290,
+						},
+						["西部荒野 - 哨兵嶺"] = {
+							["In"] = 0,
+							["Out"] = 99,
+						},
+						["菲拉斯 - 萨兰纳尔"] = {
+							["In"] = 0,
+							["Out"] = 657,
+						},
+						["湿地 - 米奈希尔港"] = {
+							["In"] = 0,
+							["Out"] = 1124,
+						},
+						["赤脊山"] = {
+							["In"] = 0,
+							["Out"] = 790,
+						},
+					},
+					["TRADE"] = {
+					},
+					["MAIL"] = {
+						["希尔斯布莱德丘陵 - 南海镇"] = {
+							["In"] = 124095,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 塞拉摩岛"] = {
+							["In"] = 0,
+							["Out"] = 5000270,
+						},
+						["洛克莫丹 - 烈酒旅店"] = {
+							["In"] = 7779,
+							["Out"] = 5000560,
+						},
+						["洛克莫丹 - 塞尔萨玛"] = {
+							["In"] = 68244,
+							["Out"] = 0,
+						},
+					},
+					["OTHER"] = {
+						["艾爾文森林 - 東谷伐木場"] = {
+							["In"] = 50000000,
+							["Out"] = 0,
+						},
+						["死亡矿井"] = {
+							["In"] = 13,
+							["Out"] = 1,
+						},
+					},
+					["MERCH"] = {
+						["暴风城 - 贸易区"] = {
+							["In"] = 39440,
+							["Out"] = 5652,
+						},
+						["洛克莫丹 - 塞尔萨玛"] = {
+							["In"] = 4239,
+							["Out"] = 50,
+						},
+						["阿拉希高地 - 避难谷地"] = {
+							["In"] = 19768,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 東谷伐木場"] = {
+							["In"] = 79,
+							["Out"] = 0,
+						},
+						["洛克莫丹 - 烈酒旅店"] = {
+							["In"] = 2559,
+							["Out"] = 5700,
+						},
+						["暴风城 - 法师区"] = {
+							["In"] = 0,
+							["Out"] = 180,
+						},
+						["希尔斯布莱德丘陵 - 南海镇"] = {
+							["In"] = 65484,
+							["Out"] = 20621,
+						},
+						["铁炉堡 - 荒弃的洞穴"] = {
+							["In"] = 1108,
+							["Out"] = 203,
+						},
+						["丹莫罗 - 古博拉采掘场"] = {
+							["In"] = 869,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 泥链镇"] = {
+							["In"] = 28740,
+							["Out"] = 0,
+						},
+						["菲拉斯 - 萨兰纳尔"] = {
+							["In"] = 41663,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 斯通菲爾德農場"] = {
+							["In"] = 203,
+							["Out"] = 657,
+						},
+						["湿地 - 米奈希尔港"] = {
+							["In"] = 23538,
+							["Out"] = 0,
+						},
+						["铁炉堡 - 铁炉堡"] = {
+							["In"] = 13677,
+							["Out"] = 33,
+						},
+						["獅王之傲旅店"] = {
+							["In"] = 136,
+							["Out"] = 0,
+						},
+						["湿地"] = {
+							["In"] = 4105,
+							["Out"] = 0,
+						},
+						["暴风城 - 旧城区"] = {
+							["In"] = 10244,
+							["Out"] = 7163,
+						},
+						["湖畔镇旅店"] = {
+							["In"] = 15523,
+							["Out"] = 0,
+						},
+						["暴风城 - 运河"] = {
+							["In"] = 0,
+							["Out"] = 180,
+						},
+						["艾爾文森林 - 閃金鎮"] = {
+							["In"] = 0,
+							["Out"] = 382,
+						},
+						["艾爾文森林 - 北郡山谷"] = {
+							["In"] = 165,
+							["Out"] = 0,
+						},
+						["赤脊山 - 湖畔镇"] = {
+							["In"] = 7146,
+							["Out"] = 0,
+						},
+						["艾尔文森林"] = {
+							["In"] = 4087,
+							["Out"] = 13600,
+						},
+						["暮色森林 - 夜色镇"] = {
+							["In"] = 6139,
+							["Out"] = 912,
+						},
+						["西部荒野 - 哨兵岭"] = {
+							["In"] = 18571,
+							["Out"] = 0,
+						},
+						["血鸦旅店"] = {
+							["In"] = 21071,
+							["Out"] = 0,
+						},
+						["暮色森林"] = {
+							["In"] = 3013,
+							["Out"] = 0,
+						},
+						["湿地 - 深水旅店"] = {
+							["In"] = 24595,
+							["Out"] = 1350,
+						},
+						["艾尔文森林 - 东谷伐木场"] = {
+							["In"] = 3270,
+							["Out"] = 85000,
+						},
+						["尘泥沼泽 - 塞拉摩岛"] = {
+							["In"] = 92772,
+							["Out"] = 0,
+						},
+					},
+					["LOOT"] = {
+						["艾爾文森林 - 法戈第礦坑"] = {
+							["In"] = 118,
+							["Out"] = 0,
+						},
+						["湿地 - 米奈希尔海湾"] = {
+							["In"] = 603,
+							["Out"] = 0,
+						},
+						["暮色森林 - 阳光树林"] = {
+							["In"] = 597,
+							["Out"] = 0,
+						},
+						["阿拉希高地 - 枯木村"] = {
+							["In"] = 4110,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 北郡山谷"] = {
+							["In"] = 116,
+							["Out"] = 0,
+						},
 						["暴风城监狱"] = {
-							["In"] = 39,
+							["In"] = 5558,
+							["Out"] = 0,
+						},
+						["西部荒野 - 萨丁农场"] = {
+							["In"] = 78,
+							["Out"] = 0,
+						},
+						["暮色森林 - 晨光之林墓穴"] = {
+							["In"] = 2500,
+							["Out"] = 0,
+						},
+						["艾爾文森林"] = {
+							["In"] = 3,
+							["Out"] = 0,
+						},
+						["艾尔文森林 - 布莱克威尔南瓜田"] = {
+							["In"] = 102,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 回音山礦坑"] = {
+							["In"] = 36,
+							["Out"] = 0,
+						},
+						["西部荒野"] = {
+							["In"] = 104,
+							["Out"] = 0,
+						},
+						["西部荒野 - 金海岸矿洞"] = {
+							["In"] = 27,
+							["Out"] = 0,
+						},
+						["西部荒野 - 阿历克斯顿农场"] = {
+							["In"] = 186,
+							["Out"] = 0,
+						},
+						["丹莫罗 - 冻石农场"] = {
+							["In"] = 13,
+							["Out"] = 0,
+						},
+						["艾尔文森林"] = {
+							["In"] = 168,
+							["Out"] = 0,
+						},
+						["暮色森林 - 夜色镇"] = {
+							["In"] = 43,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 石槌废墟"] = {
+							["In"] = 4659,
+							["Out"] = 0,
+						},
+						["湿地 - 铁须之墓"] = {
+							["In"] = 13,
+							["Out"] = 0,
+						},
+						["暮色森林 - 密斯特曼托庄园"] = {
+							["In"] = 422,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 恐角岗哨"] = {
+							["In"] = 2196,
+							["Out"] = 0,
+						},
+						["艾尔文森林 - 林边空地"] = {
+							["In"] = 385,
+							["Out"] = 0,
+						},
+						["赤脊山 - 撕裂者营地"] = {
+							["In"] = 703,
+							["Out"] = 0,
+						},
+						["西部荒野 - 匕首岭"] = {
+							["In"] = 617,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 黑蹄村"] = {
+							["In"] = 1133,
+							["Out"] = 0,
+						},
+						["丹莫罗 - 古博拉采掘场"] = {
+							["In"] = 30,
+							["Out"] = 0,
+						},
+						["湿地 - 绿带草地"] = {
+							["In"] = 246,
+							["Out"] = 0,
+						},
+						["西部荒野 - 月溪镇"] = {
+							["In"] = 573,
+							["Out"] = 0,
+						},
+						["洛克莫丹 - 碎石怪之谷"] = {
+							["In"] = 969,
+							["Out"] = 0,
+						},
+						["赤脊山 - 湖畔镇"] = {
+							["In"] = 73,
+							["Out"] = 0,
+						},
+						["西部荒野 - 詹戈洛德矿洞"] = {
+							["In"] = 149,
+							["Out"] = 0,
+						},
+						["赤脊山 - 石堡高塔"] = {
+							["In"] = 440,
+							["Out"] = 0,
+						},
+						["湿地 - 失落的舰队"] = {
+							["In"] = 1489,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 塞拉摩岛"] = {
+							["In"] = 143,
+							["Out"] = 0,
+						},
+						["赤脊山 - 石堡要塞"] = {
+							["In"] = 739,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 玉石礦坑"] = {
+							["In"] = 28,
+							["Out"] = 0,
+						},
+						["阿拉希高地 - 水下暗礁"] = {
+							["In"] = 366,
+							["Out"] = 0,
+						},
+						["希尔斯布莱德丘陵 - 达隆山"] = {
+							["In"] = 3864,
+							["Out"] = 0,
+						},
+						["湿地 - 怒牙营地"] = {
+							["In"] = 2023,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 火焰洞穴"] = {
+							["In"] = 4944,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 比吉尔的飞艇残骸"] = {
+							["In"] = 1215,
+							["Out"] = 0,
+						},
+						["暮色森林"] = {
+							["In"] = 1729,
+							["Out"] = 0,
+						},
+						["奥特兰克山脉 - 绞刑场"] = {
+							["In"] = 1649,
+							["Out"] = 0,
+						},
+						["奥特兰克山脉 - 索菲亚高地"] = {
+							["In"] = 1416,
+							["Out"] = 0,
+						},
+						["希尔斯布莱德丘陵 - 东部海滩"] = {
+							["In"] = 2281,
+							["Out"] = 0,
+						},
+						["湿地 - 恶铁岭"] = {
+							["In"] = 753,
+							["Out"] = 0,
+						},
+						["暮色森林 - 静谧花园墓场"] = {
+							["In"] = 707,
+							["Out"] = 0,
+						},
+						["奥特兰克山脉 - 破碎岭城堡"] = {
+							["In"] = 720,
+							["Out"] = 0,
+						},
+						["赤脊山 - 三角路口"] = {
+							["In"] = 153,
+							["Out"] = 0,
+						},
+						["阿拉希高地 - 萨多尔大桥"] = {
+							["In"] = 206,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 水晶湖"] = {
+							["In"] = 27,
+							["Out"] = 0,
+						},
+						["西部荒野 - 长滩"] = {
+							["In"] = 1087,
+							["Out"] = 0,
+						},
+						["赤脊山 - 赤脊峡谷"] = {
+							["In"] = 303,
+							["Out"] = 0,
+						},
+						["湿地 - 丹莫德"] = {
+							["In"] = 1414,
+							["Out"] = 0,
+						},
+						["西部荒野 - 贾森农场"] = {
+							["In"] = 13,
+							["Out"] = 0,
+						},
+						["奥特兰克山脉 - 考兰之匕"] = {
+							["In"] = 1561,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 女巫岭"] = {
+							["In"] = 1878,
+							["Out"] = 0,
+						},
+						["洛克莫丹 - 银泉矿洞"] = {
+							["In"] = 410,
+							["Out"] = 0,
+						},
+						["湿地 - 巴拉丁海湾"] = {
+							["In"] = 1461,
+							["Out"] = 0,
+						},
+						["暮色森林 - 乌鸦岭墓地"] = {
+							["In"] = 6638,
+							["Out"] = 0,
+						},
+						["暮色森林 - 腐草农场"] = {
+							["In"] = 46,
+							["Out"] = 0,
+						},
+						["暮色森林 - 约根农场"] = {
+							["In"] = 271,
+							["Out"] = 0,
+						},
+						["暮色森林 - 罗兰之墓"] = {
+							["In"] = 890,
+							["Out"] = 0,
+						},
+						["艾尔文森林 - 斯通菲尔德农场"] = {
+							["In"] = 20,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 傑羅德碼頭"] = {
+							["In"] = 44,
+							["Out"] = 0,
+						},
+						["赤脊山 - 加拉德尔山谷"] = {
+							["In"] = 1258,
+							["Out"] = 0,
+						},
+						["暮色森林 - 沃古尔食人魔山"] = {
+							["In"] = 383,
+							["Out"] = 0,
+						},
+						["湿地 - 萨多尔大桥"] = {
+							["In"] = 128,
+							["Out"] = 0,
+						},
+						["赤脊山 - 撕裂者之石"] = {
+							["In"] = 2368,
+							["Out"] = 0,
+						},
+						["西部荒野 - 法布隆南瓜农场"] = {
+							["In"] = 883,
+							["Out"] = 0,
+						},
+						["湿地"] = {
+							["In"] = 2855,
+							["Out"] = 0,
+						},
+						["赤脊山 - 湖边大道"] = {
+							["In"] = 806,
+							["Out"] = 0,
+						},
+						["湿地 - 蓝腮沼泽"] = {
+							["In"] = 273,
+							["Out"] = 0,
+						},
+						["古博拉矿场"] = {
+							["In"] = 158,
+							["Out"] = 0,
+						},
+						["暮色森林 - 烂果园"] = {
+							["In"] = 919,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 石碑湖"] = {
+							["In"] = 4,
+							["Out"] = 0,
+						},
+						["希尔斯布莱德丘陵 - 南海镇"] = {
+							["In"] = 261,
+							["Out"] = 0,
+						},
+						["艾尔文森林 - 东谷伐木场"] = {
+							["In"] = 63,
+							["Out"] = 0,
+						},
+						["阿拉希高地 - 诺斯弗德农场"] = {
+							["In"] = 1885,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 北郡修道院"] = {
+							["In"] = 1,
+							["Out"] = 0,
+						},
+						["西部荒野 - 迪蒙特荒野"] = {
+							["In"] = 86,
+							["Out"] = 0,
+						},
+						["洛克莫丹 - 巨石水坝"] = {
+							["In"] = 59,
+							["Out"] = 0,
+						},
+						["死亡矿井 - 迪菲亚潜行者巢穴"] = {
+							["In"] = 19,
+							["Out"] = 0,
+						},
+						["赤脊山"] = {
+							["In"] = 67,
+							["Out"] = 0,
+						},
+						["西部荒野 - 斯特登的池塘"] = {
+							["In"] = 154,
+							["Out"] = 0,
+						},
+						["西部荒野 - 摩尔森农场"] = {
+							["In"] = 4,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 恐惧海岸"] = {
+							["In"] = 4148,
+							["Out"] = 0,
+						},
+						["阿拉希高地 - 格沙克农场"] = {
+							["In"] = 4241,
+							["Out"] = 0,
+						},
+						["赤脊山 - 石堡"] = {
+							["In"] = 1002,
+							["Out"] = 0,
+						},
+						["阿拉希高地"] = {
+							["In"] = 657,
+							["Out"] = 0,
+						},
+						["湿地 - 藓皮沼泽"] = {
+							["In"] = 341,
+							["Out"] = 0,
+						},
+						["希尔斯布莱德丘陵 - 西部海岸"] = {
+							["In"] = 3487,
+							["Out"] = 0,
+						},
+						["暮色森林 - 荒弃鬼屋"] = {
+							["In"] = 1545,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 北郡農場"] = {
+							["In"] = 13,
+							["Out"] = 0,
+						},
+						["赤脊山 - 止水湖"] = {
+							["In"] = 625,
+							["Out"] = 0,
+						},
+						["死亡矿井"] = {
+							["In"] = 2837,
+							["Out"] = 3,
+						},
+						["赤脊山 - 伊尔加拉之塔"] = {
+							["In"] = 444,
 							["Out"] = 0,
 						},
 						["暴风城 - 暴风要塞"] = {
 							["In"] = 55,
+							["Out"] = 24,
+						},
+						["暴风城 - 旧城区"] = {
+							["In"] = 152,
+							["Out"] = 0,
+						},
+						["洛克莫丹 - 灰爪山"] = {
+							["In"] = 12,
+							["Out"] = 0,
+						},
+					},
+					["AH"] = {
+						["暴風城 - 貿易區"] = {
+							["In"] = 0,
+							["Out"] = 394676,
+						},
+						["洛克莫丹 - 塞尔萨玛"] = {
+							["In"] = 40522,
+							["Out"] = 0,
+						},
+						["暴风城 - 贸易区"] = {
+							["In"] = 0,
+							["Out"] = 8759106,
+						},
+						["洛克莫丹 - 烈酒旅店"] = {
+							["In"] = 1552,
+							["Out"] = 0,
+						},
+						["铁炉堡 - 铁炉堡"] = {
+							["In"] = 0,
+							["Out"] = 508391,
+						},
+					},
+					["TRAIN"] = {
+						["暴風城 - 舊城區"] = {
+							["In"] = 0,
+							["Out"] = 1080,
+						},
+						["狮王之傲旅店"] = {
+							["In"] = 0,
+							["Out"] = 90,
+						},
+						["暴风城 - 旧城区"] = {
+							["In"] = 0,
+							["Out"] = 174354,
+						},
+						["獅王之傲旅店"] = {
+							["In"] = 0,
+							["Out"] = 380,
+						},
+						["艾爾文森林 - 北郡山谷"] = {
+							["In"] = 0,
+							["Out"] = 390,
+						},
+						["铁炉堡 - 大锻炉"] = {
+							["In"] = 0,
+							["Out"] = 6746,
+						},
+						["铁炉堡 - 荒弃的洞穴"] = {
+							["In"] = 0,
+							["Out"] = 89550,
+						},
+						["暴風城 - 貿易區"] = {
+							["In"] = 0,
+							["Out"] = 1800,
+						},
+						["艾尔文森林 - 东谷伐木场"] = {
+							["In"] = 0,
+							["Out"] = 297500,
+						},
+					},
+					["QUEST"] = {
+						["暴風城 - 軍情七處"] = {
+							["In"] = 85,
+							["Out"] = 0,
+						},
+						["阿拉希高地 - 避难谷地"] = {
+							["In"] = 7500,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 東谷伐木場"] = {
+							["In"] = 300,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 北郡山谷"] = {
+							["In"] = 1,
+							["Out"] = 0,
+						},
+						["暴风城 - 教堂广场"] = {
+							["In"] = 1400,
+							["Out"] = 0,
+						},
+						["暴风城"] = {
+							["In"] = 8500,
+							["Out"] = 0,
+						},
+						["湖畔镇大厅"] = {
+							["In"] = 9500,
+							["Out"] = 0,
+						},
+						["艾爾文森林"] = {
+							["In"] = 250,
+							["Out"] = 0,
+						},
+						["暴風城 - 舊城區"] = {
+							["In"] = 175,
+							["Out"] = 0,
+						},
+						["暴风城 - 旧城区"] = {
+							["In"] = 6000,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 閃金鎮"] = {
+							["In"] = 1350,
+							["Out"] = 0,
+						},
+						["暮色森林 - 乌鸦岭墓地"] = {
+							["In"] = 6600,
+							["Out"] = 0,
+						},
+						["暴風城 - 貿易區"] = {
+							["In"] = 350,
+							["Out"] = 0,
+						},
+						["暮色森林 - 夜色镇"] = {
+							["In"] = 14775,
+							["Out"] = 0,
+						},
+						["哨兵塔"] = {
+							["In"] = 1700,
+							["Out"] = 0,
+						},
+						["湿地 - 米奈希尔城堡"] = {
+							["In"] = 2000,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 泥链镇"] = {
+							["In"] = 39500,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 比吉尔的飞艇残骸"] = {
+							["In"] = 9500,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 塔贝萨的农场"] = {
+							["In"] = 18000,
 							["Out"] = 0,
 						},
 						["湿地 - 丹莫德"] = {
 							["In"] = 2552,
 							["Out"] = 0,
 						},
+						["洛克莫丹 - 塞尔萨玛"] = {
+							["In"] = 400,
+							["Out"] = 0,
+						},
+						["暴风城 - 暴风要塞"] = {
+							["In"] = 55,
+							["Out"] = 0,
+						},
+						["暴风城监狱"] = {
+							["In"] = 39,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 警戒哨岗"] = {
+							["In"] = 4000,
+							["Out"] = 0,
+						},
+						["死亡矿井 - 迪菲亚潜行者巢穴"] = {
+							["In"] = 7,
+							["Out"] = 0,
+						},
+						["希尔斯布莱德丘陵 - 南海镇"] = {
+							["In"] = 18100,
+							["Out"] = 0,
+						},
+						["洛克莫丹 - 奥加兹岗哨"] = {
+							["In"] = 700,
+							["Out"] = 0,
+						},
+						["丹莫罗 - 古博拉采掘场"] = {
+							["In"] = 500,
+							["Out"] = 0,
+						},
+						["艾尔文森林 - 闪金镇"] = {
+							["In"] = 85,
+							["Out"] = 0,
+						},
+						["暮色森林 - 乌鸦岭"] = {
+							["In"] = 1200,
+							["Out"] = 0,
+						},
+						["血鸦旅店"] = {
+							["In"] = 1800,
+							["Out"] = 0,
+						},
+						["湿地 - 米奈希尔港"] = {
+							["In"] = 8900,
+							["Out"] = 0,
+						},
+						["赤脊山 - 湖畔镇"] = {
+							["In"] = 5500,
+							["Out"] = 0,
+						},
+						["赤脊山"] = {
+							["In"] = 2700,
+							["Out"] = 0,
+						},
+						["西部荒野 - 西部荒野灯塔"] = {
+							["In"] = 1700,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 北点哨塔"] = {
+							["In"] = 12000,
+							["Out"] = 0,
+						},
+						["洛克莫丹 - 烈酒旅店"] = {
+							["In"] = 400,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 塞拉摩岛"] = {
+							["In"] = 30000,
+							["Out"] = 0,
+						},
+						["獅王之傲旅店"] = {
+							["In"] = 125,
+							["Out"] = 0,
+						},
+						["艾爾文森林 - 北郡修道院"] = {
+							["In"] = 65,
+							["Out"] = 0,
+						},
+						["暴风城 - 矮人区"] = {
+							["In"] = 600,
+							["Out"] = 0,
+						},
+						["西部荒野 - 月溪镇"] = {
+							["In"] = 2,
+							["Out"] = 0,
+						},
+						["湿地 - 萨多尔大桥"] = {
+							["In"] = 0,
+							["Out"] = 8,
+						},
+						["洛克莫丹 - 国王谷"] = {
+							["In"] = 2400,
+							["Out"] = 0,
+						},
+						["湿地 - 维尔加挖掘场"] = {
+							["In"] = 6400,
+							["Out"] = 0,
+						},
+						["暮色森林 - 寂静河岸"] = {
+							["In"] = 2600,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 恐惧海岸"] = {
+							["In"] = 8000,
+							["Out"] = 0,
+						},
+						["尘泥沼泽 - 水光庄园"] = {
+							["In"] = 19000,
+							["Out"] = 0,
+						},
+						["尘泥沼泽"] = {
+							["In"] = 13000,
+							["Out"] = 0,
+						},
+					},
+				},
+			},
+		},
+		["特工仓库"] = {
+			["data"] = {
+				["PrvWeek"] = {
+					["REPAIRS"] = {
+					},
+					["TAXI"] = {
+					},
+					["TRADE"] = {
+					},
+					["OTHER"] = {
+					},
+					["AH"] = {
+						["铁炉堡 - 铁炉堡"] = {
+							["In"] = 0,
+							["Out"] = 1416254,
+						},
+					},
+					["LOOT"] = {
+					},
+					["MERCH"] = {
+						["铁炉堡 - 铁炉堡"] = {
+							["In"] = 0,
+							["Out"] = 95,
+						},
+					},
+					["MAIL"] = {
+						["铁炉堡 - 铁炉堡"] = {
+							["In"] = 5000500,
+							["Out"] = 1050,
+						},
+					},
+					["TRAIN"] = {
+					},
+					["QUEST"] = {
+					},
+				},
+				["PrvDay"] = {
+					["REPAIRS"] = {
+					},
+					["TAXI"] = {
+					},
+					["TRADE"] = {
+					},
+					["OTHER"] = {
+					},
+					["AH"] = {
+						["铁炉堡 - 铁炉堡"] = {
+							["In"] = 0,
+							["Out"] = 1444965,
+						},
+					},
+					["LOOT"] = {
+					},
+					["TRAIN"] = {
+					},
+					["MAIL"] = {
+						["铁炉堡 - 铁炉堡"] = {
+							["In"] = 0,
+							["Out"] = 600,
+						},
+					},
+					["MERCH"] = {
+					},
+					["QUEST"] = {
+					},
+				},
+				["Day"] = {
+					["REPAIRS"] = {
+					},
+					["TAXI"] = {
+					},
+					["TRADE"] = {
+					},
+					["MAIL"] = {
+					},
+					["OTHER"] = {
+					},
+					["MERCH"] = {
+					},
+					["LOOT"] = {
+					},
+					["AH"] = {
+					},
+					["TRAIN"] = {
+					},
+					["QUEST"] = {
+					},
+				},
+				["Week"] = {
+					["REPAIRS"] = {
+					},
+					["TAXI"] = {
+					},
+					["TRADE"] = {
+					},
+					["MAIL"] = {
+						["铁炉堡 - 铁炉堡"] = {
+							["In"] = 0,
+							["Out"] = 690,
+						},
+					},
+					["OTHER"] = {
+					},
+					["MERCH"] = {
+					},
+					["TRAIN"] = {
+					},
+					["AH"] = {
+						["铁炉堡 - 铁炉堡"] = {
+							["In"] = 0,
+							["Out"] = 1470589,
+						},
+					},
+					["LOOT"] = {
+					},
+					["QUEST"] = {
+					},
+				},
+				["Year"] = {
+					["REPAIRS"] = {
+					},
+					["TAXI"] = {
+					},
+					["TRADE"] = {
+					},
+					["MAIL"] = {
+						["铁炉堡 - 铁炉堡"] = {
+							["In"] = 5000500,
+							["Out"] = 1740,
+						},
+					},
+					["OTHER"] = {
+					},
+					["MERCH"] = {
+						["铁炉堡 - 铁炉堡"] = {
+							["In"] = 0,
+							["Out"] = 95,
+						},
+					},
+					["TRAIN"] = {
+					},
+					["AH"] = {
+						["铁炉堡 - 铁炉堡"] = {
+							["In"] = 0,
+							["Out"] = 2886843,
+						},
+					},
+					["LOOT"] = {
+					},
+					["QUEST"] = {
+					},
+				},
+				["Month"] = {
+					["REPAIRS"] = {
+					},
+					["TAXI"] = {
+					},
+					["TRADE"] = {
+					},
+					["MAIL"] = {
+						["铁炉堡 - 铁炉堡"] = {
+							["In"] = 5000500,
+							["Out"] = 1740,
+						},
+					},
+					["OTHER"] = {
+					},
+					["MERCH"] = {
+						["铁炉堡 - 铁炉堡"] = {
+							["In"] = 0,
+							["Out"] = 95,
+						},
+					},
+					["TRAIN"] = {
+					},
+					["AH"] = {
+						["铁炉堡 - 铁炉堡"] = {
+							["In"] = 0,
+							["Out"] = 2886843,
+						},
+					},
+					["LOOT"] = {
+					},
+					["QUEST"] = {
 					},
 				},
 				["PrvYear"] = {
@@ -5077,9 +5671,9 @@ Accountant_ClassicZoneDB = {
 					["TRADE"] = {
 					},
 					["MAIL"] = {
-						["尘泥沼泽 - 塞拉摩岛"] = {
+						["铁炉堡 - 铁炉堡"] = {
 							["In"] = 0,
-							["Out"] = 5000030,
+							["Out"] = 60,
 						},
 					},
 					["OTHER"] = {
@@ -5087,886 +5681,288 @@ Accountant_ClassicZoneDB = {
 					["MERCH"] = {
 					},
 					["LOOT"] = {
-						["尘泥沼泽 - 恐惧海岸"] = {
-							["In"] = 1975,
-							["Out"] = 0,
-						},
-						["尘泥沼泽 - 女巫岭"] = {
-							["In"] = 1466,
-							["Out"] = 0,
-						},
 					},
 					["AH"] = {
+						["铁炉堡 - 铁炉堡"] = {
+							["In"] = 0,
+							["Out"] = 789185,
+						},
 					},
 					["TRAIN"] = {
 					},
 					["QUEST"] = {
-						["尘泥沼泽 - 恐惧海岸"] = {
-							["In"] = 8000,
-							["Out"] = 0,
-						},
-						["尘泥沼泽"] = {
-							["In"] = 13000,
-							["Out"] = 0,
-						},
-						["尘泥沼泽 - 水光庄园"] = {
-							["In"] = 15500,
-							["Out"] = 0,
-						},
-						["尘泥沼泽 - 北点哨塔"] = {
-							["In"] = 4000,
-							["Out"] = 0,
-						},
-						["尘泥沼泽 - 警戒哨岗"] = {
-							["In"] = 4000,
-							["Out"] = 0,
-						},
 					},
 				},
 				["Total"] = {
 					["REPAIRS"] = {
-						["暴风城 - 贸易区"] = {
-							["In"] = 168,
-							["Out"] = 1612,
-						},
-						["丹莫罗 - 古博拉采掘场"] = {
-							["In"] = 0,
-							["Out"] = 18,
-						},
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 0,
-							["Out"] = 79,
-						},
-						["希尔斯布莱德丘陵 - 南海镇"] = {
-							["In"] = 0,
-							["Out"] = 205,
-						},
-						["湿地 - 米奈希尔港"] = {
-							["In"] = 840,
-							["Out"] = 280,
-						},
-						["赤脊山 - 湖畔镇"] = {
-							["In"] = 0,
-							["Out"] = 779,
-						},
 					},
 					["TAXI"] = {
-						["暴风城 - 贸易区"] = {
-							["In"] = 0,
-							["Out"] = 1134,
-						},
-						["西瘟疫之地 - 寒风营地"] = {
-							["In"] = 0,
-							["Out"] = 280,
-						},
-						["阿拉希高地 - 避难谷地"] = {
-							["In"] = 0,
-							["Out"] = 280,
-						},
-						["暴風城 - 貿易區"] = {
-							["In"] = 0,
-							["Out"] = 99,
-						},
-						["暮色森林 - 夜色镇"] = {
-							["In"] = 0,
-							["Out"] = 1488,
-						},
-						["西部荒野 - 哨兵岭"] = {
-							["In"] = 0,
-							["Out"] = 972,
-						},
-						["希尔斯布莱德丘陵 - 南海镇"] = {
-							["In"] = 0,
-							["Out"] = 1290,
-						},
-						["西部荒野 - 哨兵嶺"] = {
-							["In"] = 0,
-							["Out"] = 99,
-						},
-						["铁炉堡 - 大锻炉"] = {
-							["In"] = 0,
-							["Out"] = 197,
-						},
-						["湿地 - 米奈希尔港"] = {
-							["In"] = 0,
-							["Out"] = 1124,
-						},
-						["赤脊山"] = {
-							["In"] = 0,
-							["Out"] = 790,
-						},
 					},
 					["TRADE"] = {
 					},
 					["MAIL"] = {
-						["希尔斯布莱德丘陵 - 南海镇"] = {
-							["In"] = 124095,
-							["Out"] = 0,
-						},
-						["尘泥沼泽 - 塞拉摩岛"] = {
-							["In"] = 0,
-							["Out"] = 5000270,
-						},
-						["洛克莫丹 - 烈酒旅店"] = {
-							["In"] = 7779,
-							["Out"] = 5000560,
-						},
-						["洛克莫丹 - 塞尔萨玛"] = {
-							["In"] = 68244,
-							["Out"] = 0,
+						["铁炉堡 - 铁炉堡"] = {
+							["In"] = 5000500,
+							["Out"] = 1740,
 						},
 					},
 					["OTHER"] = {
-						["死亡矿井"] = {
-							["In"] = 13,
-							["Out"] = 1,
+					},
+					["MERCH"] = {
+						["铁炉堡 - 铁炉堡"] = {
+							["In"] = 0,
+							["Out"] = 95,
 						},
-						["艾爾文森林 - 東谷伐木場"] = {
-							["In"] = 50000000,
+					},
+					["TRAIN"] = {
+					},
+					["AH"] = {
+						["铁炉堡 - 铁炉堡"] = {
+							["In"] = 0,
+							["Out"] = 2886843,
+						},
+					},
+					["LOOT"] = {
+					},
+					["QUEST"] = {
+					},
+				},
+			},
+		},
+	},
+	["加丁"] = {
+		["Vscode"] = {
+			["data"] = {
+				["PrvWeek"] = {
+					["REPAIRS"] = {
+					},
+					["TAXI"] = {
+					},
+					["TRADE"] = {
+					},
+					["OTHER"] = {
+					},
+					["TRAIN"] = {
+					},
+					["MERCH"] = {
+					},
+					["AH"] = {
+					},
+					["MAIL"] = {
+					},
+					["LOOT"] = {
+					},
+					["QUEST"] = {
+					},
+				},
+				["PrvDay"] = {
+					["REPAIRS"] = {
+					},
+					["TAXI"] = {
+					},
+					["TRADE"] = {
+					},
+					["OTHER"] = {
+					},
+					["AH"] = {
+					},
+					["LOOT"] = {
+					},
+					["TRAIN"] = {
+					},
+					["MAIL"] = {
+					},
+					["MERCH"] = {
+					},
+					["QUEST"] = {
+					},
+				},
+				["Day"] = {
+					["REPAIRS"] = {
+					},
+					["TAXI"] = {
+					},
+					["TRADE"] = {
+					},
+					["MAIL"] = {
+					},
+					["OTHER"] = {
+					},
+					["MERCH"] = {
+					},
+					["LOOT"] = {
+					},
+					["AH"] = {
+					},
+					["TRAIN"] = {
+					},
+					["QUEST"] = {
+					},
+				},
+				["Week"] = {
+					["REPAIRS"] = {
+					},
+					["TAXI"] = {
+					},
+					["TRADE"] = {
+					},
+					["MAIL"] = {
+					},
+					["OTHER"] = {
+					},
+					["MERCH"] = {
+					},
+					["TRAIN"] = {
+					},
+					["AH"] = {
+					},
+					["LOOT"] = {
+					},
+					["QUEST"] = {
+					},
+				},
+				["Year"] = {
+					["REPAIRS"] = {
+					},
+					["TAXI"] = {
+					},
+					["TRADE"] = {
+					},
+					["MAIL"] = {
+					},
+					["OTHER"] = {
+						[""] = {
+							["In"] = 153,
 							["Out"] = 0,
 						},
 					},
 					["MERCH"] = {
-						["暴风城 - 贸易区"] = {
-							["In"] = 39440,
-							["Out"] = 5652,
-						},
-						["洛克莫丹 - 塞尔萨玛"] = {
-							["In"] = 4239,
-							["Out"] = 50,
-						},
-						["阿拉希高地 - 避难谷地"] = {
-							["In"] = 19768,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 東谷伐木場"] = {
-							["In"] = 79,
-							["Out"] = 0,
-						},
-						["洛克莫丹 - 烈酒旅店"] = {
-							["In"] = 2559,
-							["Out"] = 5700,
-						},
-						["暴风城 - 法师区"] = {
-							["In"] = 0,
-							["Out"] = 180,
-						},
-						["希尔斯布莱德丘陵 - 南海镇"] = {
-							["In"] = 65484,
-							["Out"] = 20621,
-						},
-						["铁炉堡 - 荒弃的洞穴"] = {
-							["In"] = 1108,
-							["Out"] = 203,
-						},
-						["丹莫罗 - 古博拉采掘场"] = {
-							["In"] = 869,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 斯通菲爾德農場"] = {
-							["In"] = 203,
-							["Out"] = 657,
-						},
-						["湿地 - 米奈希尔港"] = {
-							["In"] = 23538,
-							["Out"] = 0,
-						},
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 13677,
-							["Out"] = 33,
-						},
-						["暴风城 - 运河"] = {
-							["In"] = 0,
-							["Out"] = 180,
-						},
-						["湿地"] = {
-							["In"] = 4105,
-							["Out"] = 0,
-						},
-						["暴风城 - 旧城区"] = {
-							["In"] = 10244,
-							["Out"] = 7163,
-						},
-						["湖畔镇旅店"] = {
-							["In"] = 15523,
-							["Out"] = 0,
-						},
-						["尘泥沼泽 - 塞拉摩岛"] = {
-							["In"] = 69919,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 閃金鎮"] = {
-							["In"] = 0,
-							["Out"] = 382,
-						},
-						["艾尔文森林 - 东谷伐木场"] = {
-							["In"] = 3270,
-							["Out"] = 85000,
-						},
-						["赤脊山 - 湖畔镇"] = {
-							["In"] = 7146,
-							["Out"] = 0,
-						},
-						["艾尔文森林"] = {
-							["In"] = 4087,
-							["Out"] = 13600,
-						},
-						["暮色森林 - 夜色镇"] = {
-							["In"] = 6139,
-							["Out"] = 912,
-						},
-						["西部荒野 - 哨兵岭"] = {
-							["In"] = 18571,
-							["Out"] = 0,
-						},
-						["暮色森林"] = {
-							["In"] = 3013,
-							["Out"] = 0,
-						},
-						["血鸦旅店"] = {
-							["In"] = 21071,
-							["Out"] = 0,
-						},
-						["湿地 - 深水旅店"] = {
-							["In"] = 24595,
-							["Out"] = 1350,
-						},
-						["艾爾文森林 - 北郡山谷"] = {
-							["In"] = 165,
-							["Out"] = 0,
-						},
-						["獅王之傲旅店"] = {
-							["In"] = 136,
-							["Out"] = 0,
-						},
 					},
 					["TRAIN"] = {
-						["暴風城 - 舊城區"] = {
-							["In"] = 0,
-							["Out"] = 1080,
-						},
-						["狮王之傲旅店"] = {
-							["In"] = 0,
-							["Out"] = 90,
-						},
-						["暴风城 - 旧城区"] = {
-							["In"] = 0,
-							["Out"] = 174354,
-						},
-						["獅王之傲旅店"] = {
-							["In"] = 0,
-							["Out"] = 380,
-						},
-						["艾爾文森林 - 北郡山谷"] = {
-							["In"] = 0,
-							["Out"] = 390,
-						},
-						["铁炉堡 - 大锻炉"] = {
-							["In"] = 0,
-							["Out"] = 6746,
-						},
-						["铁炉堡 - 荒弃的洞穴"] = {
-							["In"] = 0,
-							["Out"] = 89550,
-						},
-						["艾尔文森林 - 东谷伐木场"] = {
-							["In"] = 0,
-							["Out"] = 297500,
-						},
-						["暴風城 - 貿易區"] = {
-							["In"] = 0,
-							["Out"] = 1800,
-						},
 					},
 					["AH"] = {
-						["暴風城 - 貿易區"] = {
-							["In"] = 0,
-							["Out"] = 394676,
-						},
-						["洛克莫丹 - 塞尔萨玛"] = {
-							["In"] = 40522,
-							["Out"] = 0,
-						},
-						["暴风城 - 贸易区"] = {
-							["In"] = 0,
-							["Out"] = 8759106,
-						},
-						["洛克莫丹 - 烈酒旅店"] = {
-							["In"] = 1552,
-							["Out"] = 0,
-						},
-						["铁炉堡 - 铁炉堡"] = {
-							["In"] = 0,
-							["Out"] = 508391,
-						},
 					},
 					["LOOT"] = {
-						["艾爾文森林 - 法戈第礦坑"] = {
-							["In"] = 118,
-							["Out"] = 0,
-						},
-						["湿地 - 米奈希尔海湾"] = {
-							["In"] = 603,
-							["Out"] = 0,
-						},
-						["暮色森林 - 阳光树林"] = {
-							["In"] = 597,
-							["Out"] = 0,
-						},
-						["阿拉希高地 - 枯木村"] = {
-							["In"] = 4110,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 北郡山谷"] = {
-							["In"] = 116,
-							["Out"] = 0,
-						},
-						["暴风城监狱"] = {
-							["In"] = 5558,
-							["Out"] = 0,
-						},
-						["西部荒野 - 萨丁农场"] = {
-							["In"] = 78,
-							["Out"] = 0,
-						},
-						["暮色森林 - 晨光之林墓穴"] = {
-							["In"] = 2500,
-							["Out"] = 0,
-						},
-						["艾爾文森林"] = {
-							["In"] = 3,
-							["Out"] = 0,
-						},
-						["艾尔文森林 - 布莱克威尔南瓜田"] = {
-							["In"] = 102,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 回音山礦坑"] = {
-							["In"] = 36,
-							["Out"] = 0,
-						},
-						["西部荒野"] = {
-							["In"] = 104,
-							["Out"] = 0,
-						},
-						["西部荒野 - 金海岸矿洞"] = {
-							["In"] = 27,
-							["Out"] = 0,
-						},
-						["西部荒野 - 阿历克斯顿农场"] = {
-							["In"] = 186,
-							["Out"] = 0,
-						},
-						["丹莫罗 - 冻石农场"] = {
-							["In"] = 13,
-							["Out"] = 0,
-						},
-						["艾尔文森林"] = {
-							["In"] = 168,
-							["Out"] = 0,
-						},
-						["暮色森林 - 夜色镇"] = {
-							["In"] = 43,
-							["Out"] = 0,
-						},
-						["湿地 - 铁须之墓"] = {
-							["In"] = 13,
-							["Out"] = 0,
-						},
-						["暮色森林 - 密斯特曼托庄园"] = {
-							["In"] = 422,
-							["Out"] = 0,
-						},
-						["艾尔文森林 - 林边空地"] = {
-							["In"] = 385,
-							["Out"] = 0,
-						},
-						["赤脊山 - 撕裂者营地"] = {
-							["In"] = 703,
-							["Out"] = 0,
-						},
-						["西部荒野 - 匕首岭"] = {
-							["In"] = 617,
-							["Out"] = 0,
-						},
-						["丹莫罗 - 古博拉采掘场"] = {
-							["In"] = 30,
-							["Out"] = 0,
-						},
-						["湿地 - 绿带草地"] = {
-							["In"] = 246,
-							["Out"] = 0,
-						},
-						["西部荒野 - 月溪镇"] = {
-							["In"] = 573,
-							["Out"] = 0,
-						},
-						["洛克莫丹 - 碎石怪之谷"] = {
-							["In"] = 969,
-							["Out"] = 0,
-						},
-						["赤脊山 - 湖畔镇"] = {
-							["In"] = 73,
-							["Out"] = 0,
-						},
-						["西部荒野 - 詹戈洛德矿洞"] = {
-							["In"] = 149,
-							["Out"] = 0,
-						},
-						["赤脊山 - 石堡高塔"] = {
-							["In"] = 440,
-							["Out"] = 0,
-						},
-						["湿地 - 失落的舰队"] = {
-							["In"] = 1489,
-							["Out"] = 0,
-						},
-						["尘泥沼泽 - 塞拉摩岛"] = {
-							["In"] = 143,
-							["Out"] = 0,
-						},
-						["赤脊山 - 石堡要塞"] = {
-							["In"] = 739,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 玉石礦坑"] = {
-							["In"] = 28,
-							["Out"] = 0,
-						},
-						["阿拉希高地 - 水下暗礁"] = {
-							["In"] = 366,
-							["Out"] = 0,
-						},
-						["希尔斯布莱德丘陵 - 达隆山"] = {
-							["In"] = 3864,
-							["Out"] = 0,
-						},
-						["湿地 - 怒牙营地"] = {
-							["In"] = 2023,
-							["Out"] = 0,
-						},
-						["暮色森林"] = {
-							["In"] = 1729,
-							["Out"] = 0,
-						},
-						["尘泥沼泽 - 女巫岭"] = {
-							["In"] = 1466,
-							["Out"] = 0,
-						},
-						["尘泥沼泽 - 恐惧海岸"] = {
-							["In"] = 1975,
-							["Out"] = 0,
-						},
-						["奥特兰克山脉 - 绞刑场"] = {
-							["In"] = 1649,
-							["Out"] = 0,
-						},
-						["湿地 - 恶铁岭"] = {
-							["In"] = 753,
-							["Out"] = 0,
-						},
-						["暴风城 - 旧城区"] = {
-							["In"] = 152,
-							["Out"] = 0,
-						},
-						["暴风城 - 暴风要塞"] = {
-							["In"] = 55,
-							["Out"] = 24,
-						},
-						["赤脊山 - 伊尔加拉之塔"] = {
-							["In"] = 444,
-							["Out"] = 0,
-						},
-						["死亡矿井"] = {
-							["In"] = 2837,
-							["Out"] = 3,
-						},
-						["赤脊山 - 止水湖"] = {
-							["In"] = 625,
-							["Out"] = 0,
-						},
-						["西部荒野 - 长滩"] = {
-							["In"] = 1087,
-							["Out"] = 0,
-						},
-						["赤脊山 - 赤脊峡谷"] = {
-							["In"] = 303,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 北郡農場"] = {
-							["In"] = 13,
-							["Out"] = 0,
-						},
-						["西部荒野 - 贾森农场"] = {
-							["In"] = 13,
-							["Out"] = 0,
-						},
-						["暮色森林 - 荒弃鬼屋"] = {
-							["In"] = 1545,
-							["Out"] = 0,
-						},
-						["希尔斯布莱德丘陵 - 西部海岸"] = {
-							["In"] = 3487,
-							["Out"] = 0,
-						},
-						["湿地 - 藓皮沼泽"] = {
-							["In"] = 341,
-							["Out"] = 0,
-						},
-						["洛克莫丹 - 银泉矿洞"] = {
-							["In"] = 410,
-							["Out"] = 0,
-						},
-						["暮色森林 - 乌鸦岭墓地"] = {
-							["In"] = 6638,
-							["Out"] = 0,
-						},
-						["暮色森林 - 腐草农场"] = {
-							["In"] = 46,
-							["Out"] = 0,
-						},
-						["暮色森林 - 约根农场"] = {
-							["In"] = 271,
-							["Out"] = 0,
-						},
-						["湿地 - 巴拉丁海湾"] = {
-							["In"] = 1461,
-							["Out"] = 0,
-						},
-						["暮色森林 - 沃古尔食人魔山"] = {
-							["In"] = 383,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 傑羅德碼頭"] = {
-							["In"] = 44,
-							["Out"] = 0,
-						},
-						["赤脊山 - 加拉德尔山谷"] = {
-							["In"] = 1258,
-							["Out"] = 0,
-						},
-						["阿拉希高地 - 格沙克农场"] = {
-							["In"] = 4241,
-							["Out"] = 0,
-						},
-						["西部荒野 - 摩尔森农场"] = {
-							["In"] = 4,
-							["Out"] = 0,
-						},
-						["西部荒野 - 斯特登的池塘"] = {
-							["In"] = 154,
-							["Out"] = 0,
-						},
-						["西部荒野 - 法布隆南瓜农场"] = {
-							["In"] = 883,
-							["Out"] = 0,
-						},
-						["湿地"] = {
-							["In"] = 2855,
-							["Out"] = 0,
-						},
-						["古博拉矿场"] = {
-							["In"] = 158,
-							["Out"] = 0,
-						},
-						["湿地 - 蓝腮沼泽"] = {
-							["In"] = 273,
-							["Out"] = 0,
-						},
-						["艾尔文森林 - 东谷伐木场"] = {
-							["In"] = 63,
-							["Out"] = 0,
-						},
-						["洛克莫丹 - 巨石水坝"] = {
-							["In"] = 59,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 石碑湖"] = {
-							["In"] = 4,
-							["Out"] = 0,
-						},
-						["希尔斯布莱德丘陵 - 南海镇"] = {
-							["In"] = 261,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 北郡修道院"] = {
-							["In"] = 1,
-							["Out"] = 0,
-						},
-						["阿拉希高地 - 诺斯弗德农场"] = {
-							["In"] = 1885,
-							["Out"] = 0,
-						},
-						["暮色森林 - 烂果园"] = {
-							["In"] = 919,
-							["Out"] = 0,
-						},
-						["西部荒野 - 迪蒙特荒野"] = {
-							["In"] = 86,
-							["Out"] = 0,
-						},
-						["赤脊山 - 湖边大道"] = {
-							["In"] = 806,
-							["Out"] = 0,
-						},
-						["死亡矿井 - 迪菲亚潜行者巢穴"] = {
-							["In"] = 19,
-							["Out"] = 0,
-						},
-						["赤脊山"] = {
-							["In"] = 67,
-							["Out"] = 0,
-						},
-						["赤脊山 - 撕裂者之石"] = {
-							["In"] = 2368,
-							["Out"] = 0,
-						},
-						["湿地 - 萨多尔大桥"] = {
-							["In"] = 128,
-							["Out"] = 0,
-						},
-						["艾尔文森林 - 斯通菲尔德农场"] = {
-							["In"] = 20,
-							["Out"] = 0,
-						},
-						["暮色森林 - 罗兰之墓"] = {
-							["In"] = 890,
-							["Out"] = 0,
-						},
-						["赤脊山 - 石堡"] = {
-							["In"] = 1002,
-							["Out"] = 0,
-						},
-						["阿拉希高地"] = {
-							["In"] = 657,
-							["Out"] = 0,
-						},
-						["奥特兰克山脉 - 考兰之匕"] = {
-							["In"] = 1561,
-							["Out"] = 0,
-						},
-						["湿地 - 丹莫德"] = {
-							["In"] = 1414,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 水晶湖"] = {
-							["In"] = 27,
-							["Out"] = 0,
-						},
-						["阿拉希高地 - 萨多尔大桥"] = {
-							["In"] = 206,
-							["Out"] = 0,
-						},
-						["赤脊山 - 三角路口"] = {
+					},
+					["QUEST"] = {
+					},
+				},
+				["Month"] = {
+					["REPAIRS"] = {
+					},
+					["TAXI"] = {
+					},
+					["TRADE"] = {
+					},
+					["MAIL"] = {
+					},
+					["OTHER"] = {
+					},
+					["MERCH"] = {
+					},
+					["TRAIN"] = {
+					},
+					["AH"] = {
+					},
+					["LOOT"] = {
+					},
+					["QUEST"] = {
+					},
+				},
+				["PrvYear"] = {
+					["REPAIRS"] = {
+					},
+					["TAXI"] = {
+					},
+					["TRADE"] = {
+					},
+					["MAIL"] = {
+					},
+					["OTHER"] = {
+					},
+					["MERCH"] = {
+					},
+					["TRAIN"] = {
+					},
+					["AH"] = {
+					},
+					["LOOT"] = {
+					},
+					["QUEST"] = {
+					},
+				},
+				["PrvMonth"] = {
+					["REPAIRS"] = {
+					},
+					["TAXI"] = {
+					},
+					["TRADE"] = {
+					},
+					["OTHER"] = {
+						[""] = {
 							["In"] = 153,
 							["Out"] = 0,
 						},
-						["奥特兰克山脉 - 破碎岭城堡"] = {
-							["In"] = 720,
-							["Out"] = 0,
-						},
-						["暮色森林 - 静谧花园墓场"] = {
-							["In"] = 707,
-							["Out"] = 0,
-						},
-						["希尔斯布莱德丘陵 - 东部海滩"] = {
-							["In"] = 2281,
-							["Out"] = 0,
-						},
-						["奥特兰克山脉 - 索菲亚高地"] = {
-							["In"] = 1416,
-							["Out"] = 0,
-						},
-						["洛克莫丹 - 灰爪山"] = {
-							["In"] = 12,
+					},
+					["AH"] = {
+					},
+					["LOOT"] = {
+					},
+					["MERCH"] = {
+					},
+					["MAIL"] = {
+					},
+					["TRAIN"] = {
+					},
+					["QUEST"] = {
+					},
+				},
+				["Session"] = {
+					["REPAIRS"] = {
+					},
+					["TAXI"] = {
+					},
+					["TRADE"] = {
+					},
+					["MAIL"] = {
+					},
+					["OTHER"] = {
+					},
+					["MERCH"] = {
+					},
+					["TRAIN"] = {
+					},
+					["AH"] = {
+					},
+					["LOOT"] = {
+					},
+					["QUEST"] = {
+					},
+				},
+				["Total"] = {
+					["REPAIRS"] = {
+					},
+					["TAXI"] = {
+					},
+					["TRADE"] = {
+					},
+					["MAIL"] = {
+					},
+					["OTHER"] = {
+						[""] = {
+							["In"] = 153,
 							["Out"] = 0,
 						},
 					},
+					["MERCH"] = {
+					},
+					["TRAIN"] = {
+					},
+					["AH"] = {
+					},
+					["LOOT"] = {
+					},
 					["QUEST"] = {
-						["暴風城 - 軍情七處"] = {
-							["In"] = 85,
-							["Out"] = 0,
-						},
-						["阿拉希高地 - 避难谷地"] = {
-							["In"] = 7500,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 東谷伐木場"] = {
-							["In"] = 300,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 北郡山谷"] = {
-							["In"] = 1,
-							["Out"] = 0,
-						},
-						["暴风城 - 教堂广场"] = {
-							["In"] = 1400,
-							["Out"] = 0,
-						},
-						["暴风城"] = {
-							["In"] = 8500,
-							["Out"] = 0,
-						},
-						["湖畔镇大厅"] = {
-							["In"] = 9500,
-							["Out"] = 0,
-						},
-						["艾爾文森林"] = {
-							["In"] = 250,
-							["Out"] = 0,
-						},
-						["暴風城 - 舊城區"] = {
-							["In"] = 175,
-							["Out"] = 0,
-						},
-						["暴风城 - 旧城区"] = {
-							["In"] = 6000,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 閃金鎮"] = {
-							["In"] = 1350,
-							["Out"] = 0,
-						},
-						["暮色森林 - 乌鸦岭墓地"] = {
-							["In"] = 6600,
-							["Out"] = 0,
-						},
-						["暴風城 - 貿易區"] = {
-							["In"] = 350,
-							["Out"] = 0,
-						},
-						["暮色森林 - 夜色镇"] = {
-							["In"] = 14775,
-							["Out"] = 0,
-						},
-						["哨兵塔"] = {
-							["In"] = 1700,
-							["Out"] = 0,
-						},
-						["湿地 - 米奈希尔城堡"] = {
-							["In"] = 2000,
-							["Out"] = 0,
-						},
-						["尘泥沼泽 - 北点哨塔"] = {
-							["In"] = 4000,
-							["Out"] = 0,
-						},
-						["洛克莫丹 - 塞尔萨玛"] = {
-							["In"] = 400,
-							["Out"] = 0,
-						},
-						["尘泥沼泽"] = {
-							["In"] = 13000,
-							["Out"] = 0,
-						},
-						["尘泥沼泽 - 水光庄园"] = {
-							["In"] = 15500,
-							["Out"] = 0,
-						},
-						["尘泥沼泽 - 恐惧海岸"] = {
-							["In"] = 8000,
-							["Out"] = 0,
-						},
-						["尘泥沼泽 - 警戒哨岗"] = {
-							["In"] = 4000,
-							["Out"] = 0,
-						},
-						["希尔斯布莱德丘陵 - 南海镇"] = {
-							["In"] = 18100,
-							["Out"] = 0,
-						},
-						["洛克莫丹 - 奥加兹岗哨"] = {
-							["In"] = 700,
-							["Out"] = 0,
-						},
-						["丹莫罗 - 古博拉采掘场"] = {
-							["In"] = 500,
-							["Out"] = 0,
-						},
-						["艾尔文森林 - 闪金镇"] = {
-							["In"] = 85,
-							["Out"] = 0,
-						},
-						["暮色森林 - 乌鸦岭"] = {
-							["In"] = 1200,
-							["Out"] = 0,
-						},
-						["血鸦旅店"] = {
-							["In"] = 1800,
-							["Out"] = 0,
-						},
-						["湿地 - 米奈希尔港"] = {
-							["In"] = 8900,
-							["Out"] = 0,
-						},
-						["赤脊山 - 湖畔镇"] = {
-							["In"] = 5500,
-							["Out"] = 0,
-						},
-						["湿地 - 维尔加挖掘场"] = {
-							["In"] = 6400,
-							["Out"] = 0,
-						},
-						["赤脊山"] = {
-							["In"] = 2700,
-							["Out"] = 0,
-						},
-						["湿地 - 萨多尔大桥"] = {
-							["In"] = 0,
-							["Out"] = 8,
-						},
-						["西部荒野 - 月溪镇"] = {
-							["In"] = 2,
-							["Out"] = 0,
-						},
-						["尘泥沼泽 - 塞拉摩岛"] = {
-							["In"] = 22000,
-							["Out"] = 0,
-						},
-						["獅王之傲旅店"] = {
-							["In"] = 125,
-							["Out"] = 0,
-						},
-						["暴风城 - 矮人区"] = {
-							["In"] = 600,
-							["Out"] = 0,
-						},
-						["艾爾文森林 - 北郡修道院"] = {
-							["In"] = 65,
-							["Out"] = 0,
-						},
-						["洛克莫丹 - 烈酒旅店"] = {
-							["In"] = 400,
-							["Out"] = 0,
-						},
-						["西部荒野 - 西部荒野灯塔"] = {
-							["In"] = 1700,
-							["Out"] = 0,
-						},
-						["洛克莫丹 - 国王谷"] = {
-							["In"] = 2400,
-							["Out"] = 0,
-						},
-						["死亡矿井 - 迪菲亚潜行者巢穴"] = {
-							["In"] = 7,
-							["Out"] = 0,
-						},
-						["暮色森林 - 寂静河岸"] = {
-							["In"] = 2600,
-							["Out"] = 0,
-						},
-						["暴风城监狱"] = {
-							["In"] = 39,
-							["Out"] = 0,
-						},
-						["暴风城 - 暴风要塞"] = {
-							["In"] = 55,
-							["Out"] = 0,
-						},
-						["湿地 - 丹莫德"] = {
-							["In"] = 2552,
-							["Out"] = 0,
-						},
 					},
 				},
 			},

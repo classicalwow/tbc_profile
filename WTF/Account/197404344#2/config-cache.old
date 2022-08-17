@@ -3,7 +3,6 @@ SET flaggedTutorials "v11##M##$##%##&##'##:##(##)##8##*##+##;##E##7##6##1##K##,#
 SET actionedAdventureJournalEntries "v"
 SET guildShowOffline "0"
 SET guildMemberNotify "0"
-SET lockActionBars "1"
 SET UnitNameOwn "1"
 SET UnitNameNPC "1"
 SET floatingCombatTextCombatState "1"

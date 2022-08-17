@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0538,
+	["LastPlayerFullName"] = "特变电工-祈福",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 33244,
@@ -33,16 +35,16 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:2276::::::::32:::::::::|h[泥沼长靴]|h|r",
 		},
 		[16] = {
-			["ID"] = 13034,
-			["Level"] = 41,
+			["ID"] = 754,
+			["Level"] = 47,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff0070dd|Hitem:13034::::::::36:::::::::|h[快速钢剑]|h|r",
+			["Link"] = "|cff0070dd|Hitem:754::::::::42:::::::::|h[复仇短剑]|h|r",
 		},
 		[17] = {
-			["ID"] = 13034,
-			["Level"] = 41,
+			["ID"] = 754,
+			["Level"] = 47,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff0070dd|Hitem:13034::::::::37:::::::::|h[快速钢剑]|h|r",
+			["Link"] = "|cff0070dd|Hitem:754::::::::43:::::::::|h[复仇短剑]|h|r",
 		},
 		[5] = {
 			["ID"] = 13110,
@@ -54,10 +56,10 @@ PawnOptions = {
 			["Level"] = 33,
 			["Link"] = "|cff1eff00|Hitem:3754::::::::35:::::::::|h[牧羊人手套]|h|r",
 		},
-		[18] = {
-			["ID"] = 28979,
-			["Level"] = 3,
-			["Link"] = "|cffffffff|Hitem:28979::::::::1:::::::::|h[輕型飛刀]|h|r",
+		[9] = {
+			["ID"] = 18948,
+			["Level"] = 32,
+			["Link"] = "|cff0070dd|Hitem:18948::::::::32:::::::::|h[野人护腕]|h|r",
 		},
 		[11] = {
 			["ID"] = 33263,
@@ -76,14 +78,12 @@ PawnOptions = {
 			["AlsoFitsIn"] = 11,
 			["Link"] = "|cff1eff00|Hitem:33263::::::::41:::::::::|h[迅猛龙眼指环]|h|r",
 		},
-		[9] = {
-			["ID"] = 18948,
-			["Level"] = 32,
-			["Link"] = "|cff0070dd|Hitem:18948::::::::32:::::::::|h[野人护腕]|h|r",
+		[18] = {
+			["ID"] = 33274,
+			["Level"] = 37,
+			["Link"] = "|cff1eff00|Hitem:33274::::::::42:::::::::|h[雇佣兵之弩]|h|r",
 		},
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "特变电工-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

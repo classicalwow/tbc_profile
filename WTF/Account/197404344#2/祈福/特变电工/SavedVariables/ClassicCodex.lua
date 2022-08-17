@@ -10,9 +10,9 @@ CodexConfig = {
 	["minimumDropChance"] = 2,
 	["showLowLevel"] = false,
 	["_tom_waypoint"] = {
-		1445, -- [1]
-		0.419, -- [2]
-		0.74, -- [3]
+		1446, -- [1]
+		0.6709999999999999, -- [2]
+		0.239, -- [3]
 		["arrivaldistance"] = 15,
 		["callbacks"] = {
 			["distance"] = {
@@ -33,22 +33,22 @@ CodexConfig = {
 		["persistent"] = true,
 		["minimap"] = true,
 		["cleardistance"] = 10,
-		["title"] = "布洛格",
+		["title"] = "安全主管吉罗姆·比格维兹",
 		["from"] = "?",
 		["crazy"] = true,
 		["world"] = true,
 	},
-	["minimapButton"] = true,
-	["autoTurnin"] = false,
+	["continentIcon"] = false,
+	["currentQuestGivers"] = true,
 	["spawnMarkerSize"] = 15,
-	["zoneMapIcon"] = true,
+	["showFestival"] = false,
 	["alwaysShowId"] = false,
 	["nameplateIcon"] = false,
 	["colorBySpawn"] = true,
-	["showFestival"] = false,
+	["zoneMapIcon"] = true,
 	["miniMapIcon"] = true,
-	["currentQuestGivers"] = true,
-	["continentIcon"] = false,
+	["autoTurnin"] = false,
+	["minimapButton"] = true,
 	["questMarkerSize"] = 15,
 }
 CodexHiddenQuests = {
@@ -58,20 +58,25 @@ CodexHiddenQuests = {
 	[325] = true,
 	[11771] = true,
 	[1301] = true,
+	[11802] = true,
 	[335] = true,
 	[11804] = true,
+	[9268] = true,
 	[11882] = true,
 	[11828] = true,
 	[344] = true,
 	[92] = true,
+	[11820] = true,
+	[11766] = true,
+	[1453] = true,
 	[11814] = true,
 	[1132] = true,
-	[11822] = true,
+	[6681] = true,
 	[11776] = true,
 	[11815] = true,
 	[522] = true,
 	[11816] = true,
-	[6681] = true,
+	[11822] = true,
 }
 CodexBrowserFavorites = {
 	["objects"] = {
@@ -84,6 +89,21 @@ CodexBrowserFavorites = {
 	},
 }
 CodexColors = {
+	["克拉拉的新鲜苹果"] = {
+		0.2549019607843137, -- [1]
+		0.1019607843137255, -- [2]
+		0.3490196078431372, -- [3]
+	},
+	["克罗姆·粗臂的箱子"] = {
+		0.4823529411764706, -- [1]
+		0.5411764705882353, -- [2]
+		0.6705882352941176, -- [3]
+	},
+	["密探吉尔妮"] = {
+		0.8862745098039215, -- [1]
+		0.3294117647058824, -- [2]
+		0.203921568627451, -- [3]
+	},
 	["科林·玛伦"] = {
 		0.4392156862745098, -- [1]
 		0.807843137254902, -- [2]
@@ -93,15 +113,5 @@ CodexColors = {
 		0.2509803921568627, -- [1]
 		0.984313725490196, -- [2]
 		0.9725490196078431, -- [3]
-	},
-	["克拉拉的新鲜苹果"] = {
-		0.2549019607843137, -- [1]
-		0.1019607843137255, -- [2]
-		0.3490196078431372, -- [3]
-	},
-	["密探吉尔妮"] = {
-		0.8862745098039215, -- [1]
-		0.3294117647058824, -- [2]
-		0.203921568627451, -- [3]
 	},
 }

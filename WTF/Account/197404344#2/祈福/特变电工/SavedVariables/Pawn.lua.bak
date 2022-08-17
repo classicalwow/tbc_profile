@@ -1,13 +1,11 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0538,
-	["LastPlayerFullName"] = "特变电工-祈福",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 7413,
-			["Level"] = 33,
-			["Link"] = "|cff1eff00|Hitem:7413::::::188:806579456:32:::::::::|h[耐力之间谍军帽]|h|r",
+			["ID"] = 33244,
+			["Level"] = 39,
+			["Link"] = "|cff1eff00|Hitem:33244::::::::40:::::::::|h[游荡者罩帽]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 20909,
@@ -25,9 +23,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:13114:3013:::::::27:::::::::|h[巨魔杀手护腿]|h|r",
 		},
 		[15] = {
-			["ID"] = 2805,
-			["Level"] = 34,
-			["Link"] = "|cff1eff00|Hitem:2805::::::::35:::::::::|h[雪人毛皮披风]|h|r",
+			["ID"] = 33261,
+			["Level"] = 39,
+			["Link"] = "|cff1eff00|Hitem:33261::::::::40:::::::::|h[毁灭者披风]|h|r",
 		},
 		[8] = {
 			["ID"] = 2276,
@@ -56,16 +54,16 @@ PawnOptions = {
 			["Level"] = 33,
 			["Link"] = "|cff1eff00|Hitem:3754::::::::35:::::::::|h[牧羊人手套]|h|r",
 		},
-		[9] = {
-			["ID"] = 18948,
-			["Level"] = 32,
-			["Link"] = "|cff0070dd|Hitem:18948::::::::32:::::::::|h[野人护腕]|h|r",
+		[18] = {
+			["ID"] = 28979,
+			["Level"] = 3,
+			["Link"] = "|cffffffff|Hitem:28979::::::::1:::::::::|h[輕型飛刀]|h|r",
 		},
 		[11] = {
-			["ID"] = 2043,
-			["Level"] = 35,
+			["ID"] = 33263,
+			["Level"] = 40,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:2043::::::::31:::::::::|h[弃灵之戒]|h|r",
+			["Link"] = "|cff1eff00|Hitem:33263::::::::40:::::::::|h[迅猛龙眼指环]|h|r",
 		},
 		[6] = {
 			["ID"] = 33245,
@@ -73,17 +71,19 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:33245::::::::38:::::::::|h[格雷斯比的华丽束腰]|h|r",
 		},
 		[12] = {
-			["ID"] = 2043,
-			["Level"] = 35,
+			["ID"] = 33263,
+			["Level"] = 40,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:2043::::::::32:::::::::|h[弃灵之戒]|h|r",
+			["Link"] = "|cff1eff00|Hitem:33263::::::::41:::::::::|h[迅猛龙眼指环]|h|r",
 		},
-		[18] = {
-			["ID"] = 28979,
-			["Level"] = 3,
-			["Link"] = "|cffffffff|Hitem:28979::::::::1:::::::::|h[輕型飛刀]|h|r",
+		[9] = {
+			["ID"] = 18948,
+			["Level"] = 32,
+			["Link"] = "|cff0070dd|Hitem:18948::::::::32:::::::::|h[野人护腕]|h|r",
 		},
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "特变电工-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
