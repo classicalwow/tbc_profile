@@ -33,14 +33,14 @@ MailLoggerDB = {
 	["TradeLog"] = {
 		{
 			["Date"] = "2022-08-11",
-			["TargetName"] = "连你接他",
+			["PlayerName"] = "特变电工",
 			["ReceiveMoney"] = 0,
-			["Time"] = "23:23:17",
-			["GiveMoney"] = 0,
-			["Location"] = "艾爾文森林",
 			["GiveItems"] = {
 			},
-			["PlayerName"] = "特变电工",
+			["GiveMoney"] = 0,
+			["Location"] = "艾爾文森林",
+			["TargetName"] = "连你接他",
+			["Time"] = "23:23:17",
 			["ReceiveItems"] = {
 			},
 		}, -- [1]
@@ -350,15 +350,15 @@ MailLoggerDB = {
 			},
 		}, -- [13]
 		{
-			["TargetName"] = "趴趴小蝶",
+			["PlayerName"] = "特变电工",
 			["Date"] = "2022-08-13",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "10:40:49",
 			["GiveMoney"] = 0,
 			["Location"] = "洛克莫丹",
-			["PlayerName"] = "特变电工",
-			["Time"] = "10:40:49",
+			["GiveItems"] = {
+			},
+			["TargetName"] = "趴趴小蝶",
 			["ReceiveItems"] = {
 			},
 		}, -- [14]
@@ -412,15 +412,15 @@ MailLoggerDB = {
 			},
 		}, -- [16]
 		{
-			["TargetName"] = "匂丶德",
+			["PlayerName"] = "特变电工",
 			["Date"] = "2022-08-13",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "12:04:16",
 			["GiveMoney"] = 0,
 			["Location"] = "西部荒野",
-			["PlayerName"] = "特变电工",
-			["Time"] = "12:04:16",
+			["GiveItems"] = {
+			},
+			["TargetName"] = "匂丶德",
 			["ReceiveItems"] = {
 			},
 		}, -- [17]
@@ -475,27 +475,27 @@ MailLoggerDB = {
 		}, -- [19]
 		{
 			["PlayerName"] = "特变电工",
-			["Date"] = "2022-08-13",
+			["TargetName"] = "久坐不掩柴扉",
 			["ReceiveMoney"] = 0,
-			["Time"] = "15:16:55",
-			["GiveMoney"] = 0,
-			["Location"] = "死亡矿井",
 			["GiveItems"] = {
 			},
-			["TargetName"] = "久坐不掩柴扉",
+			["GiveMoney"] = 0,
+			["Location"] = "死亡矿井",
+			["Date"] = "2022-08-13",
+			["Time"] = "15:16:55",
 			["ReceiveItems"] = {
 			},
 		}, -- [20]
 		{
 			["PlayerName"] = "特变电工",
-			["Date"] = "2022-08-13",
+			["TargetName"] = "久坐不掩柴扉",
 			["ReceiveMoney"] = 0,
-			["Time"] = "15:17:07",
-			["GiveMoney"] = 0,
-			["Location"] = "死亡矿井",
 			["GiveItems"] = {
 			},
-			["TargetName"] = "久坐不掩柴扉",
+			["GiveMoney"] = 0,
+			["Location"] = "死亡矿井",
+			["Date"] = "2022-08-13",
+			["Time"] = "15:17:07",
 			["ReceiveItems"] = {
 			},
 		}, -- [21]
@@ -900,27 +900,27 @@ MailLoggerDB = {
 		}, -- [40]
 		{
 			["Date"] = "2022-08-13",
-			["TargetName"] = "夏沐凉风丶",
+			["PlayerName"] = "特变电工",
 			["ReceiveMoney"] = 0,
-			["Time"] = "23:00:31",
-			["GiveMoney"] = 0,
-			["Location"] = "湿地",
 			["GiveItems"] = {
 			},
-			["PlayerName"] = "特变电工",
+			["GiveMoney"] = 0,
+			["Location"] = "湿地",
+			["TargetName"] = "夏沐凉风丶",
+			["Time"] = "23:00:31",
 			["ReceiveItems"] = {
 			},
 		}, -- [41]
 		{
 			["Date"] = "2022-08-13",
-			["TargetName"] = "叙利亚第一骑",
+			["PlayerName"] = "特变电工",
 			["ReceiveMoney"] = 0,
-			["Time"] = "23:57:15",
-			["GiveMoney"] = 0,
-			["Location"] = "湿地",
 			["GiveItems"] = {
 			},
-			["PlayerName"] = "特变电工",
+			["GiveMoney"] = 0,
+			["Location"] = "湿地",
+			["TargetName"] = "叙利亚第一骑",
+			["Time"] = "23:57:15",
 			["ReceiveItems"] = {
 			},
 		}, -- [42]
@@ -970,14 +970,14 @@ MailLoggerDB = {
 		}, -- [43]
 		{
 			["Date"] = "2022-08-13",
-			["TargetName"] = "叙利亚第一骑",
+			["PlayerName"] = "特变电工",
 			["ReceiveMoney"] = 0,
-			["Time"] = "23:57:21",
-			["GiveMoney"] = 0,
-			["Location"] = "湿地",
 			["GiveItems"] = {
 			},
-			["PlayerName"] = "特变电工",
+			["GiveMoney"] = 0,
+			["Location"] = "湿地",
+			["TargetName"] = "叙利亚第一骑",
+			["Time"] = "23:57:21",
 			["ReceiveItems"] = {
 			},
 		}, -- [44]
@@ -1360,14 +1360,14 @@ MailLoggerDB = {
 		}, -- [60]
 		{
 			["TargetName"] = "阿古斯的勇士",
-			["PlayerName"] = "特变电工",
+			["Date"] = "2022-08-15",
 			["ReceiveMoney"] = 0,
-			["Time"] = "22:09:18",
-			["GiveMoney"] = 0,
-			["Location"] = "尘泥沼泽",
 			["GiveItems"] = {
 			},
-			["Date"] = "2022-08-15",
+			["GiveMoney"] = 0,
+			["Location"] = "尘泥沼泽",
+			["PlayerName"] = "特变电工",
+			["Time"] = "22:09:18",
 			["ReceiveItems"] = {
 			},
 		}, -- [61]
@@ -1594,14 +1594,14 @@ MailLoggerDB = {
 		}, -- [71]
 		{
 			["TargetName"] = "春哥六五",
-			["PlayerName"] = "特变电工",
+			["Date"] = "2022-08-17",
 			["ReceiveMoney"] = 0,
-			["Time"] = "00:44:44",
-			["GiveMoney"] = 0,
-			["Location"] = "塔纳利斯",
 			["GiveItems"] = {
 			},
-			["Date"] = "2022-08-17",
+			["GiveMoney"] = 0,
+			["Location"] = "塔纳利斯",
+			["PlayerName"] = "特变电工",
+			["Time"] = "00:44:44",
 			["ReceiveItems"] = {
 			},
 		}, -- [72]
@@ -1727,5 +1727,105 @@ MailLoggerDB = {
 			["ReceiveItems"] = {
 			},
 		}, -- [77]
+		{
+			["PlayerName"] = "特工仓库",
+			["TargetName"] = "特变电工",
+			["Reason"] = 1,
+			["Date"] = "2022-08-18",
+			["ReceiveMoney"] = 0,
+			["Time"] = "00:58:50",
+			["GiveMoney"] = 0,
+			["Location"] = "铁炉堡",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 5,
+					["ItemLink"] = "|cffffffff|Hitem:9030::::::::1:::::::::|h[滋补药剂]|h|r",
+					["Name"] = "滋补药剂",
+				}, -- [1]
+				{
+					["Number"] = 113,
+					["ItemLink"] = "|cffffffff|Hitem:4338::::::::1:::::::::|h[魔纹布]|h|r",
+					["Name"] = "魔纹布",
+				}, -- [2]
+				[13] = {
+					["Number"] = 10,
+					["ItemLink"] = "|cffffffff|Hitem:929::::::::1:::::::::|h[治疗药水]|h|r",
+					["Name"] = "治疗药水",
+				},
+				[15] = {
+					["Number"] = 2,
+					["ItemLink"] = "|cffffffff|Hitem:3827::::::::1:::::::::|h[法力药水]|h|r",
+					["Name"] = "法力药水",
+				},
+				[18] = {
+					["Number"] = 45,
+					["ItemLink"] = "|cffffffff|Hitem:4306::::::::1:::::::::|h[丝绸]|h|r",
+					["Name"] = "丝绸",
+				},
+				[12] = {
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:6149::::::::1:::::::::|h[强效法力药水]|h|r",
+					["Name"] = "强效法力药水",
+				},
+				[8] = {
+					["Number"] = 18,
+					["ItemLink"] = "|cffffffff|Hitem:1710::::::::1:::::::::|h[强效治疗药水]|h|r",
+					["Name"] = "强效治疗药水",
+				},
+				[16] = {
+					["Number"] = 2,
+					["ItemLink"] = "|cff1eff00|Hitem:2776::::::::1:::::::::|h[金矿石]|h|r",
+					["Name"] = "金矿石",
+				},
+				[17] = {
+					["Number"] = 1,
+					["ItemLink"] = "|cff1eff00|Hitem:1529::::::::1:::::::::|h[翡翠]|h|r",
+					["Name"] = "翡翠",
+				},
+			},
+		}, -- [78]
+		{
+			["PlayerName"] = "特工仓库",
+			["TargetName"] = "联盟拍卖行",
+			["Reason"] = 2,
+			["Date"] = "2022-08-18",
+			["ReceiveMoney"] = 366938,
+			["Time"] = "00:58:52",
+			["GiveMoney"] = 0,
+			["Location"] = "铁炉堡",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:22307::::::::1:::::::::|h[图样：魔化魔纹布包]|h|r",
+					["Name"] = "图样：魔化魔纹布包",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:22307::::::::1:::::::::|h[图样：魔化魔纹布包]|h|r",
+					["Name"] = "图样：魔化魔纹布包",
+				}, -- [2]
+			},
+		}, -- [79]
+		{
+			["PlayerName"] = "特工仓库",
+			["TargetName"] = "特变电工",
+			["Reason"] = 2,
+			["Date"] = "2022-08-18",
+			["ReceiveMoney"] = 5000000,
+			["Time"] = "00:58:52",
+			["GiveMoney"] = 0,
+			["Location"] = "铁炉堡",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+			},
+		}, -- [80]
 	},
 }

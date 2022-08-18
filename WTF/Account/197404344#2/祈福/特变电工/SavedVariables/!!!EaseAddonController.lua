@@ -1,6 +1,5 @@
 
 U1DB = {
-	["enteredWorld"] = true,
 	["selectedTag"] = "ALL",
 	["addons"] = {
 		["maxcam"] = 1,
@@ -166,8 +165,9 @@ U1DB = {
 		["bistracker"] = 1,
 		["classiccodex-patch"] = 1,
 	},
+	["last_logout_time"] = 1660757410,
 	["configs"] = {
 	},
 	["sortByName"] = true,
-	["last_logout_time"] = 1660671384,
+	["enteredWorld"] = true,
 }

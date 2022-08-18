@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 	["lastSanitation"] = 3,
-	["session"] = 41,
+	["session"] = 45,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua:1946: Usage: SaveBindings(1||2)",
@@ -83,20 +83,28 @@ BugGrabberDB = {
 			["counter"] = 13,
 		}, -- [10]
 		{
-			["message"] = "...AddOns\\GladiatorlosSA2_zhCN\\GladiatorlosSA2_zhCN-TBC-1.4.lua:3: attempt to index local 'GSA' (a nil value)",
-			["time"] = "2022/07/09 15:49:36",
-			["locals"] = "GSA = nil\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index local 'GSA' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\GladiatorlosSA2_zhCN\\GladiatorlosSA2_zhCN-TBC-1.4.lua\"]:3: in main chunk",
-			["session"] = 41,
-			["counter"] = 41,
-		}, -- [11]
-		{
 			["message"] = "Interface\\AddOns\\Puggle\\Puggle-216.lua:1346: bad argument #1 to 'gsub' (string expected, got nil)",
 			["time"] = "2022/08/13 14:30:28",
 			["locals"] = "(*temporary) = nil\n(*temporary) = \"[^ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=]\"\n(*temporary) = \"\"\n(*temporary) = \"string expected, got nil\"\n",
 			["stack"] = "[string \"=[C]\"]: in function `gsub'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1346: in function `Puggle_dec'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:889: in function `Puggle_displayGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:693: in function `Puggle_UpdateCurrentGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:526: in function `Puggle_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
-			["session"] = 41,
-			["counter"] = 77,
+			["session"] = 42,
+			["counter"] = 78,
+		}, -- [11]
+		{
+			["message"] = "Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:112: attempt to index field 'db' (a nil value)",
+			["time"] = "2022/08/17 22:43:37",
+			["locals"] = "self = <table> {\n GetProfileByName = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:76\n NewProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:118\n IterateProfiles = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:92\n LoadProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:164\n GetProfileByIndex = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:72\n eventFrame = <unnamed> {\n }\n SaveProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:136\n GetProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:84\n EnableOrDisableAddOn = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:182\n GetNumProfiles = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:96\n Show = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:64\n RemoveProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:131\n Initialize = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:46\n CreateFrame = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\ProfilesUI.lua:57\n CreateProfile = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:100\n EditProfileOption = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:125\n BackupSession = <function> defined @Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:203\n}\nname = \"登出之前\"\nptype = \"auto\"\nprof = <table> {\n config = <table> {\n }\n name = \"登出之前\"\n ptype = \"auto\"\n}\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index field 'db' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua\"]:112: in function `CreateProfile'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua\"]:222: in function `BackupSession'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua\"]:253: in function <Interface\\AddOns\\!!!EaseAddonController\\Profiles.lua:234>",
+			["session"] = 43,
+			["counter"] = 1,
 		}, -- [12]
+		{
+			["message"] = "...AddOns\\GladiatorlosSA2_zhCN\\GladiatorlosSA2_zhCN-TBC-1.4.lua:3: attempt to index local 'GSA' (a nil value)",
+			["time"] = "2022/07/09 15:49:36",
+			["locals"] = "GSA = nil\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index local 'GSA' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\GladiatorlosSA2_zhCN\\GladiatorlosSA2_zhCN-TBC-1.4.lua\"]:3: in main chunk",
+			["session"] = 45,
+			["counter"] = 45,
+		}, -- [13]
 	},
 }

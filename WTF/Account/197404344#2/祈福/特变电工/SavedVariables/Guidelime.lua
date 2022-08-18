@@ -35,7 +35,7 @@ GuidelimeDataChar = {
 			[152] = true,
 			[119] = true,
 			[40] = true,
-			[21] = true,
+			[156] = true,
 			[13] = true,
 			[84] = true,
 			[86] = true,
@@ -51,8 +51,8 @@ GuidelimeDataChar = {
 			[14] = true,
 			[24] = true,
 			[154] = true,
-			[156] = true,
 			[41] = true,
+			[21] = true,
 		},
 		["Hakurai：由Shikushiku製作，中文翻譯版 22-25 赤脊山"] = {
 			[15] = true,
@@ -137,9 +137,7 @@ GuidelimeDataChar = {
 	["mainFrameFontSize"] = 14,
 	["mainFrameShowScrollBar"] = true,
 	["showArrow"] = true,
-	["version"] = "2.034",
 	["editorFrameRelative"] = "CENTER",
-	["mainFrameShowing"] = true,
 	["guideSize"] = {
 		["Hakurai：由Shikushiku製作，中文翻譯版 12-14 洛克莫丹"] = 70,
 		["Hakurai：由Shikushiku製作，中文翻譯版 14-16 黑海岸"] = 83,
@@ -147,6 +145,8 @@ GuidelimeDataChar = {
 		["Hakurai：由Shikushiku製作，中文翻譯版 22-25 赤脊山"] = 156,
 		["Hakurai：由Shikushiku製作，中文翻譯版 25-27 溼地"] = 130,
 	},
+	["mainFrameShowing"] = false,
+	["version"] = "2.034",
 	["mainFrameRelative"] = "BOTTOMRIGHT",
 	["editorFrameX"] = 0,
 }

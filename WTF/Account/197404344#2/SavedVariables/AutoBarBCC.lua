@@ -176,14 +176,14 @@ AutoBarDB = {
 					["defaultButtonIndex"] = 3,
 				},
 				["AutoBarButtonPickLock"] = {
-					["barKey"] = "AutoBarClassBarRogue",
+					["enabled"] = true,
 					["targeted"] = "Lockpicking",
 					["buttonKey"] = "AutoBarButtonPickLock",
-					["square_popups"] = true,
+					["defaultButtonIndex"] = "*",
 					["arrangeOnUse"] = true,
 					["buttonClass"] = "AutoBarButtonPickLock",
-					["enabled"] = true,
-					["defaultButtonIndex"] = "*",
+					["barKey"] = "AutoBarClassBarRogue",
+					["square_popups"] = true,
 				},
 				["AutoBarButtonInterrupt"] = {
 					["barKey"] = "AutoBarClassBarRogue",
@@ -232,13 +232,16 @@ AutoBarDB = {
 		["特变电工 - 祈福"] = {
 			["buttonDataList"] = {
 				["AutoBarButtonBuffWeapon1"] = {
-					["arrangeOnUse"] = 6949,
+					["arrangeOnUse"] = 3775,
 				},
 				["AutoBarButtonBuff"] = {
-					["arrangeOnUse"] = 1180,
+					["arrangeOnUse"] = 2459,
 				},
 				["AutoBarButtonCrafting"] = {
 					["arrangeOnUse"] = "烹饪",
+				},
+				["AutoBarButtonQuest"] = {
+					["arrangeOnUse"] = 18904,
 				},
 			},
 			["barList"] = {
@@ -376,14 +379,14 @@ AutoBarDB = {
 				["defaultButtonIndex"] = 18,
 			},
 			["AutoBarButtonTrinket2"] = {
-				["enabled"] = true,
+				["barKey"] = "AutoBarClassBarBasic",
 				["targeted"] = 14,
 				["buttonKey"] = "AutoBarButtonTrinket2",
-				["square_popups"] = true,
-				["buttonClass"] = "AutoBarButtonTrinket2",
-				["barKey"] = "AutoBarClassBarBasic",
-				["equipped"] = 14,
 				["defaultButtonIndex"] = 27,
+				["buttonClass"] = "AutoBarButtonTrinket2",
+				["enabled"] = true,
+				["equipped"] = 14,
+				["square_popups"] = true,
 			},
 			["AutoBarButtonBuffWeapon1"] = {
 				["barKey"] = "AutoBarClassBarBasic",
@@ -522,14 +525,14 @@ AutoBarDB = {
 				["defaultButtonIndex"] = 24,
 			},
 			["AutoBarButtonFood"] = {
-				["enabled"] = true,
+				["disableConjure"] = false,
 				["include_combo_basic"] = true,
 				["buttonKey"] = "AutoBarButtonFood",
-				["square_popups"] = true,
-				["buttonClass"] = "AutoBarButtonFood",
-				["disableConjure"] = false,
-				["barKey"] = "AutoBarClassBarBasic",
 				["defaultButtonIndex"] = 15,
+				["buttonClass"] = "AutoBarButtonFood",
+				["enabled"] = true,
+				["barKey"] = "AutoBarClassBarBasic",
+				["square_popups"] = true,
 			},
 			["AutoBarButtonSpeed"] = {
 				["barKey"] = "AutoBarClassBarExtras",
@@ -603,14 +606,14 @@ AutoBarDB = {
 				["only_favourite_hearth"] = false,
 			},
 			["AutoBarButtonTrinket1"] = {
-				["enabled"] = true,
+				["barKey"] = "AutoBarClassBarBasic",
 				["targeted"] = 13,
 				["buttonKey"] = "AutoBarButtonTrinket1",
-				["square_popups"] = true,
-				["buttonClass"] = "AutoBarButtonTrinket1",
-				["barKey"] = "AutoBarClassBarBasic",
-				["equipped"] = 13,
 				["defaultButtonIndex"] = 26,
+				["buttonClass"] = "AutoBarButtonTrinket1",
+				["enabled"] = true,
+				["equipped"] = 13,
+				["square_popups"] = true,
 			},
 			["AutoBarButtonDrums"] = {
 				["barKey"] = "AutoBarClassBarBasic",

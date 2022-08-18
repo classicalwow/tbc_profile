@@ -20,7 +20,7 @@ AdvancedInterfaceOptionsSaved = {
 		["guildmembernotify"] = "Interface\\FrameXML\\OptionsPanelTemplates.lua:209",
 		["graphicsenvironmentdetail"] = "Interface\\SharedXML\\VideoOptionsPanels.lua:396",
 		["nameplateshowfriends"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetCVar'\n[string \"FRIENDNAMEPLATES\"]:3: in function <[string \"FRIENDNAMEPLATES\"]:1>\n:(unhandled exception)",
-		["cameradistancemaxzoomfactor"] = "Interface\\FrameXML\\OptionsPanelTemplates.lua:69",
+		["cameradistancemaxzoomfactor"] = "Interface\\AddOns\\MaxCam\\MaxCam.lua:117",
 		["showtoastbroadcast"] = "Interface\\FrameXML\\OptionsPanelTemplates.lua:209",
 		["sound_enablesfx"] = "Interface\\FrameXML\\Sound.lua:22",
 		["shadowrt"] = "Interface\\FrameXML\\OptionsPanelTemplates.lua:209",

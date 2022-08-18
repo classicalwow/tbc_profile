@@ -13,7 +13,7 @@ AtlasLootClassicDB = {
 				["selected"] = {
 					nil, -- [1]
 					"RazorfenDowns", -- [2]
-					6, -- [3]
+					nil, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},

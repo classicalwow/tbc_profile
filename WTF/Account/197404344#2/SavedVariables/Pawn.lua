@@ -273,7 +273,7 @@ PawnCommon = {
 		},
 		["\"Classic\":ROGUE"] = {
 			["Color"] = "fff468",
-			["ClassID"] = 4,
+			["LocalizedName"] = "潜行者: 副手",
 			["PerCharacterOptions"] = {
 				["Vscode-加丁"] = {
 					["Visible"] = true,
@@ -283,7 +283,7 @@ PawnCommon = {
 				},
 			},
 			["DoNotShow1HUpgrades"] = false,
-			["LocalizedName"] = "潜行者: 副手",
+			["ClassID"] = 4,
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
