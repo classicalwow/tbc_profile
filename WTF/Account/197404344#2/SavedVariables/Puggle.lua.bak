@@ -243,63 +243,38 @@ Puggle_dungeonTags = {
 		"mags", -- [1]
 		"magtheridon", -- [2]
 	},
-	["ZF"] = {
-		"zf", -- [1]
-		"zul", -- [2]
-		"farrak", -- [3]
-		"zul'farrak", -- [4]
-		"zulfarrak", -- [5]
-		"zulfarak", -- [6]
+	["STL"] = {
+		"stratlive", -- [1]
+		"live", -- [2]
+		"strat", -- [3]
 	},
-	["ZA"] = {
-		"zulAman", -- [1]
-		"za", -- [2]
+	["BT"] = {
+		"black", -- [1]
+		"temple", -- [2]
+		"bt", -- [3]
 	},
-	["SMC"] = {
-		"smcath", -- [1]
-		"smc", -- [2]
-		"cath", -- [3]
-		"cathedral", -- [4]
+	["SETH"] = {
+		"setthekk", -- [1]
+		"setthek", -- [2]
+		"seth", -- [3]
 	},
 	["AV"] = {
 		"av", -- [1]
 		"alterac", -- [2]
 		"valley", -- [3]
 	},
-	["RFD"] = {
-		"rfd", -- [1]
-		"downs", -- [2]
+	["KZ"] = {
+		"karazhan", -- [1]
+		"kz", -- [2]
+		"kara", -- [3]
 	},
-	["SMG"] = {
-		"smgy", -- [1]
-		"smg", -- [2]
-		"gy", -- [3]
-		"graveyard", -- [4]
+	["ARC"] = {
+		"arc", -- [1]
+		"arcatraz", -- [2]
 	},
 	["UB"] = {
 		"ub", -- [1]
 		"underbog", -- [2]
-	},
-	["MH"] = {
-		"hyjal", -- [1]
-		"hijal", -- [2]
-	},
-	["BOT"] = {
-		"botanica", -- [1]
-		"bot", -- [2]
-		"bota", -- [3]
-		"botanic", -- [4]
-	},
-	["SL"] = {
-		"sl", -- [1]
-		"shadowlabs", -- [2]
-		"labs", -- [3]
-	},
-	["DMN"] = {
-		"dmn", -- [1]
-		"north", -- [2]
-		"tribute", -- [3]
-		"dm:n", -- [4]
 	},
 	["MT"] = {
 		"mana-tombs", -- [1]
@@ -307,29 +282,54 @@ Puggle_dungeonTags = {
 		"manatombs", -- [3]
 		"tombs", -- [4]
 	},
-	["ARC"] = {
-		"arc", -- [1]
-		"arcatraz", -- [2]
+	["BOT"] = {
+		"botanica", -- [1]
+		"bot", -- [2]
+		"bota", -- [3]
+		"botanic", -- [4]
 	},
-	["KZ"] = {
-		"karazhan", -- [1]
-		"kz", -- [2]
-		"kara", -- [3]
+	["DMN"] = {
+		"dmn", -- [1]
+		"north", -- [2]
+		"tribute", -- [3]
+		"dm:n", -- [4]
 	},
-	["SETH"] = {
-		"setthekk", -- [1]
-		"setthek", -- [2]
-		"seth", -- [3]
+	["SL"] = {
+		"sl", -- [1]
+		"shadowlabs", -- [2]
+		"labs", -- [3]
 	},
-	["BT"] = {
-		"black", -- [1]
-		"temple", -- [2]
-		"bt", -- [3]
+	["MH"] = {
+		"hyjal", -- [1]
+		"hijal", -- [2]
 	},
-	["STL"] = {
-		"stratlive", -- [1]
-		"live", -- [2]
-		"strat", -- [3]
+	["SMG"] = {
+		"smgy", -- [1]
+		"smg", -- [2]
+		"gy", -- [3]
+		"graveyard", -- [4]
+	},
+	["RFD"] = {
+		"rfd", -- [1]
+		"downs", -- [2]
+	},
+	["SMC"] = {
+		"smcath", -- [1]
+		"smc", -- [2]
+		"cath", -- [3]
+		"cathedral", -- [4]
+	},
+	["ZA"] = {
+		"zulAman", -- [1]
+		"za", -- [2]
+	},
+	["ZF"] = {
+		"zf", -- [1]
+		"zul", -- [2]
+		"farrak", -- [3]
+		"zul'farrak", -- [4]
+		"zulfarrak", -- [5]
+		"zulfarak", -- [6]
 	},
 }
 Puggle_dungeonNames = {
@@ -381,23 +381,23 @@ Puggle_dungeonNames = {
 	["SV"] = "The Steamvault",
 	["MECH"] = "The Mechanar",
 	["MAG"] = "Magtheridon's Lair",
-	["ZF"] = "Zul'Farrak",
-	["ZA"] = "Zul'Aman",
-	["SMC"] = "Scarlet Monastery: Cathedral",
-	["AV"] = "Alterac Valley",
-	["RFD"] = "Razorfen Downs",
-	["SMG"] = "Scarlet Monastery: Graveyard",
-	["UB"] = "Underbog",
-	["MH"] = "Mount Hyjal",
-	["BOT"] = "The Botanica",
-	["SL"] = "Shadow Labyrinth",
-	["DMN"] = "Dire Maul: North",
-	["MT"] = "Mana-Tombs",
-	["ARC"] = "The Arcatraz",
-	["KZ"] = "Karazhan",
-	["SETH"] = "Sethekk Halls",
-	["BT"] = "Black Temple",
 	["STL"] = "Stratholme: Live",
+	["BT"] = "Black Temple",
+	["SETH"] = "Sethekk Halls",
+	["AV"] = "Alterac Valley",
+	["KZ"] = "Karazhan",
+	["ARC"] = "The Arcatraz",
+	["UB"] = "Underbog",
+	["MT"] = "Mana-Tombs",
+	["BOT"] = "The Botanica",
+	["DMN"] = "Dire Maul: North",
+	["SL"] = "Shadow Labyrinth",
+	["MH"] = "Mount Hyjal",
+	["SMG"] = "Scarlet Monastery: Graveyard",
+	["RFD"] = "Razorfen Downs",
+	["SMC"] = "Scarlet Monastery: Cathedral",
+	["ZA"] = "Zul'Aman",
+	["ZF"] = "Zul'Farrak",
 }
 Puggle_searchTags = {
 	"lfg", -- [1]
@@ -416,56 +416,29 @@ Puggle_blacklistTags = {
 Puggle_allowSendWho = true
 Puggle_disableInInstance = true
 Puggle_pastGroups = {
-	[1660366136] = {
+	[1660228801] = {
 		["party"] = {
 			{
-				["dur"] = 424,
-				["guild"] = "UGxheSBmb3IgVWJlcg==",
-				["time"] = 1660366136,
+				["dur"] = 13,
+				["guild"] = "",
+				["time"] = 1660228801,
 				["id"] = 2,
 				["cmt"] = "",
-				["level"] = "MTg=",
+				["level"] = "NQ==",
 				["star"] = "MA==",
 			}, -- [1]
 			{
-				["dur"] = 424,
+				["dur"] = 13,
 				["guild"] = "",
-				["time"] = 1660366136,
+				["time"] = 1660228801,
 				["id"] = 4,
 				["star"] = "MA==",
-				["level"] = "NzA=",
+				["level"] = "MA==",
 				["cmt"] = "",
 			}, -- [2]
 		},
-		["dur"] = 424,
-		["loc"] = "6KW/6YOo6I2S6YeO",
-		["cmt"] = "",
-		["exported"] = false,
-		["realm"] = "56WI56aP",
-	},
-	[1660402604] = {
-		["party"] = {
-			{
-				["guild"] = "UGxheSBmb3IgVWJlcg==",
-				["dur"] = 437,
-				["time"] = 1660402604,
-				["id"] = 2,
-				["star"] = "MA==",
-				["cmt"] = "",
-				["level"] = "MjY=",
-			}, -- [1]
-			{
-				["guild"] = "5oiR55qE5b+r5LmQ5pe25Luj",
-				["dur"] = 437,
-				["time"] = 1660402604,
-				["id"] = 18,
-				["cmt"] = "",
-				["star"] = "MA==",
-				["level"] = "MjE=",
-			}, -- [2]
-		},
-		["dur"] = 437,
-		["loc"] = "5rm/5Zyw",
+		["dur"] = 13,
+		["loc"] = "6Im+54i+5paH5qOu5p6X",
 		["cmt"] = "",
 		["exported"] = false,
 		["realm"] = "56WI56aP",
@@ -473,22 +446,22 @@ Puggle_pastGroups = {
 	[1660227659] = {
 		["party"] = {
 			{
-				["guild"] = "",
-				["dur"] = 0,
-				["time"] = 1660227659,
-				["id"] = 2,
-				["level"] = "NQ==",
 				["star"] = "MA==",
+				["dur"] = 0,
+				["level"] = "NQ==",
+				["id"] = 2,
 				["cmt"] = "",
+				["time"] = 1660227659,
+				["guild"] = "",
 			}, -- [1]
 			{
-				["guild"] = "",
-				["dur"] = 400,
-				["time"] = 1660227659,
-				["id"] = 4,
-				["level"] = "Mg==",
 				["cmt"] = "",
+				["dur"] = 400,
+				["level"] = "Mg==",
+				["id"] = 4,
 				["star"] = "MA==",
+				["time"] = 1660227659,
+				["guild"] = "",
 			}, -- [2]
 		},
 		["dur"] = 503,
@@ -497,128 +470,164 @@ Puggle_pastGroups = {
 		["exported"] = false,
 		["realm"] = "56WI56aP",
 	},
-	[1660445012] = {
+	[1660740605] = {
 		["party"] = {
 			{
 				["star"] = "MA==",
-				["dur"] = 1474,
-				["level"] = "MzE=",
+				["dur"] = 1174,
+				["level"] = "NDU=",
 				["id"] = 2,
 				["cmt"] = "",
-				["time"] = 1660445012,
+				["time"] = 1660740605,
 				["guild"] = "UGxheSBmb3IgVWJlcg==",
 			}, -- [1]
 			{
 				["cmt"] = "",
-				["dur"] = 1474,
-				["level"] = "MjY=",
-				["id"] = 22,
+				["dur"] = 1174,
+				["level"] = "NDU=",
+				["id"] = 34,
 				["star"] = "MA==",
-				["time"] = 1660445012,
-				["guild"] = "5Lu75Yqh6L6+5Lq6",
+				["time"] = 1660740605,
+				["guild"] = "5aSP5pel5b6u6Jaw",
 			}, -- [2]
 			{
 				["cmt"] = "",
-				["dur"] = 1474,
-				["level"] = "MA==",
-				["id"] = 9,
+				["dur"] = 1174,
+				["level"] = "NDg=",
+				["id"] = 35,
 				["star"] = "MA==",
-				["time"] = 1660445012,
-				["guild"] = "",
+				["time"] = 1660740605,
+				["guild"] = "5aWz55Sf5a6/6IiN",
 			}, -- [3]
 			{
 				["cmt"] = "",
-				["dur"] = 1474,
-				["level"] = "Mjk=",
-				["id"] = 23,
+				["dur"] = 1174,
+				["level"] = "NDQ=",
+				["id"] = 36,
 				["star"] = "MA==",
-				["time"] = 1660445012,
-				["guild"] = "VWx0aW1hIFRodWxl",
+				["time"] = 1660740605,
+				["guild"] = "5pif5LqR",
 			}, -- [4]
 			{
 				["cmt"] = "",
-				["dur"] = 1474,
-				["level"] = "MjU=",
-				["id"] = 24,
+				["dur"] = 1174,
+				["level"] = "NDY=",
+				["id"] = 37,
 				["star"] = "MA==",
-				["time"] = 1660445012,
+				["time"] = 1660740605,
+				["guild"] = "54Of6Iqx5piT5Ya35Li2",
+			}, -- [5]
+		},
+		["dur"] = 1174,
+		["loc"] = "5aGU57qz5Yip5pav",
+		["cmt"] = "",
+		["exported"] = false,
+		["realm"] = "56WI56aP",
+	},
+	[1660578697] = {
+		["party"] = {
+			{
+				["level"] = "Mzk=",
+				["guild"] = "UGxheSBmb3IgVWJlcg==",
+				["cmt"] = "",
+				["id"] = 2,
+				["star"] = "MA==",
+				["time"] = 1660578697,
+				["dur"] = 171,
+			}, -- [1]
+			{
+				["level"] = "Mzg=",
+				["guild"] = "5oqr6I2G5pap5qOY5ru05aeQ5aeQ5Lus",
+				["star"] = "MA==",
+				["id"] = 30,
+				["cmt"] = "",
+				["time"] = 1660578697,
+				["dur"] = 171,
+			}, -- [2]
+		},
+		["dur"] = 171,
+		["loc"] = "5bCY5rOl5rK85rO9",
+		["cmt"] = "",
+		["exported"] = false,
+		["realm"] = "56WI56aP",
+	},
+	[1660372153] = {
+		["party"] = {
+			{
+				["guild"] = "UGxheSBmb3IgVWJlcg==",
+				["dur"] = 4568,
+				["time"] = 1660372153,
+				["id"] = 2,
+				["star"] = "MA==",
+				["cmt"] = "",
+				["level"] = "MjA=",
+			}, -- [1]
+			{
+				["guild"] = "54K46J6D6J+55rm/5Zyw6KW/6YOo6I2S6YeO5LiA5Yiw5LqM5Y2B5LqM5Y2B5LiD5LiA5Yiw5YWt5Y2B55yL5YWs5ZGK",
+				["dur"] = 4568,
+				["time"] = 1660372153,
+				["id"] = 7,
+				["cmt"] = "",
+				["star"] = "MA==",
+				["level"] = "MjE=",
+			}, -- [2]
+			{
 				["guild"] = "",
+				["dur"] = 4568,
+				["time"] = 1660372153,
+				["id"] = 8,
+				["cmt"] = "",
+				["star"] = "MA==",
+				["level"] = "MjE=",
+			}, -- [3]
+			{
+				["guild"] = "",
+				["dur"] = 4568,
+				["time"] = 1660372153,
+				["id"] = 10,
+				["cmt"] = "",
+				["star"] = "MA==",
+				["level"] = "MTU=",
+			}, -- [4]
+			{
+				["guild"] = "",
+				["dur"] = 4568,
+				["time"] = 1660372153,
+				["id"] = 11,
+				["cmt"] = "",
+				["star"] = "MA==",
+				["level"] = "MTk=",
 			}, -- [5]
 			{
-				["cmt"] = "",
-				["dur"] = 1474,
-				["level"] = "MjU=",
-				["id"] = 25,
-				["star"] = "MA==",
-				["time"] = 1660445012,
 				["guild"] = "",
+				["dur"] = 4568,
+				["time"] = 1660372153,
+				["id"] = 9,
+				["cmt"] = "",
+				["star"] = "MA==",
+				["level"] = "MA==",
 			}, -- [6]
-		},
-		["dur"] = 1474,
-		["loc"] = "5pq06aOO5Z+O55uR54ux",
-		["cmt"] = "",
-		["exported"] = false,
-		["realm"] = "56WI56aP",
-	},
-	[1660396221] = {
-		["party"] = {
+			{
+				["guild"] = "54Of6Iqx5piT5Ya35Li2",
+				["dur"] = 4568,
+				["time"] = 1660372153,
+				["id"] = 12,
+				["cmt"] = "",
+				["star"] = "MA==",
+				["level"] = "MjA=",
+			}, -- [7]
 			{
 				["guild"] = "UGxheSBmb3IgVWJlcg==",
-				["dur"] = 302,
-				["time"] = 1660396221,
-				["id"] = 2,
-				["star"] = "MA==",
-				["cmt"] = "",
-				["level"] = "MjQ=",
-			}, -- [1]
-			{
-				["guild"] = "5Y2K6YaJ5Y2K6YaS5Y2K5rWu55Sf",
-				["dur"] = 302,
-				["time"] = 1660396221,
-				["id"] = 16,
+				["dur"] = 4568,
+				["time"] = 1660372153,
+				["id"] = 13,
 				["cmt"] = "",
 				["star"] = "MA==",
-				["level"] = "Mjc=",
-			}, -- [2]
-			{
-				["guild"] = "5Lu75Yqh6L6+5Lq6",
-				["dur"] = 302,
-				["time"] = 1660396221,
-				["id"] = 17,
-				["cmt"] = "",
-				["star"] = "MA==",
-				["level"] = "MjY=",
-			}, -- [3]
+				["level"] = "MjA=",
+			}, -- [8]
 		},
-		["dur"] = 302,
-		["loc"] = "5pqu6Imy5qOu5p6X",
-		["cmt"] = "",
-		["exported"] = false,
-		["realm"] = "56WI56aP",
-	},
-	[1660412796] = {
-		["party"] = {
-			{
-				["guild"] = "UGxheSBmb3IgVWJlcg==",
-				["dur"] = 211,
-				["time"] = 1660412796,
-				["id"] = 2,
-				["star"] = "MA==",
-				["cmt"] = "",
-				["level"] = "Mjk=",
-			}, -- [1]
-			{
-				["guild"] = "5L2g5oCV5ouM5ZOS6ISR5aOz",
-				["dur"] = 211,
-				["time"] = 1660412796,
-				["id"] = 21,
-				["cmt"] = "",
-				["star"] = "MA==",
-				["level"] = "MjM=",
-			}, -- [2]
-		},
-		["dur"] = 211,
-		["loc"] = "6LWk6ISK5bGx",
+		["dur"] = 4568,
+		["loc"] = "5q275Lqh55+/5LqV",
 		["cmt"] = "",
 		["exported"] = false,
 		["realm"] = "56WI56aP",
@@ -626,22 +635,22 @@ Puggle_pastGroups = {
 	[1660363229] = {
 		["party"] = {
 			{
-				["dur"] = 500,
-				["guild"] = "UGxheSBmb3IgVWJlcg==",
-				["time"] = 1660363229,
-				["id"] = 2,
-				["cmt"] = "",
 				["level"] = "MTc=",
+				["guild"] = "UGxheSBmb3IgVWJlcg==",
+				["cmt"] = "",
+				["id"] = 2,
 				["star"] = "MA==",
+				["time"] = 1660363229,
+				["dur"] = 500,
 			}, -- [1]
 			{
-				["dur"] = 500,
-				["guild"] = "",
-				["time"] = 1660363229,
-				["id"] = 6,
-				["star"] = "MA==",
 				["level"] = "MTQ=",
+				["guild"] = "",
+				["star"] = "MA==",
+				["id"] = 6,
 				["cmt"] = "",
+				["time"] = 1660363229,
+				["dur"] = 500,
 			}, -- [2]
 		},
 		["dur"] = 500,
@@ -653,22 +662,22 @@ Puggle_pastGroups = {
 	[1660388312] = {
 		["party"] = {
 			{
-				["dur"] = 470,
-				["guild"] = "UGxheSBmb3IgVWJlcg==",
-				["time"] = 1660388312,
-				["id"] = 2,
-				["star"] = "MA==",
 				["cmt"] = "",
+				["guild"] = "UGxheSBmb3IgVWJlcg==",
+				["star"] = "MA==",
+				["id"] = 2,
 				["level"] = "MjI=",
+				["time"] = 1660388312,
+				["dur"] = 470,
 			}, -- [1]
 			{
-				["dur"] = 470,
-				["guild"] = "5b2p6Jm557OW",
-				["time"] = 1660388312,
-				["id"] = 15,
-				["cmt"] = "",
 				["star"] = "MA==",
+				["guild"] = "5b2p6Jm557OW",
+				["cmt"] = "",
+				["id"] = 15,
 				["level"] = "MjY=",
+				["time"] = 1660388312,
+				["dur"] = 470,
 			}, -- [2]
 		},
 		["dur"] = 470,
@@ -677,520 +686,25 @@ Puggle_pastGroups = {
 		["exported"] = false,
 		["realm"] = "56WI56aP",
 	},
-	[1660228188] = {
-		["party"] = {
-			{
-				["level"] = "NQ==",
-				["dur"] = 518,
-				["cmt"] = "",
-				["id"] = 2,
-				["star"] = "MA==",
-				["time"] = 1660228188,
-				["guild"] = "",
-			}, -- [1]
-			{
-				["level"] = "Mg==",
-				["dur"] = 518,
-				["star"] = "MA==",
-				["id"] = 4,
-				["cmt"] = "",
-				["time"] = 1660228188,
-				["guild"] = "",
-			}, -- [2]
-		},
-		["dur"] = 518,
-		["loc"] = "",
-		["cmt"] = "",
-		["exported"] = false,
-		["realm"] = "56WI56aP",
-	},
-	[1660404002] = {
-		["party"] = {
-			{
-				["guild"] = "UGxheSBmb3IgVWJlcg==",
-				["dur"] = 664,
-				["time"] = 1660404002,
-				["id"] = 2,
-				["star"] = "MA==",
-				["cmt"] = "",
-				["level"] = "Mjc=",
-			}, -- [1]
-			{
-				["guild"] = "",
-				["dur"] = 664,
-				["time"] = 1660404002,
-				["id"] = 19,
-				["cmt"] = "",
-				["star"] = "MA==",
-				["level"] = "MjI=",
-			}, -- [2]
-		},
-		["dur"] = 664,
-		["loc"] = "5rm/5Zyw",
-		["cmt"] = "",
-		["exported"] = false,
-		["realm"] = "56WI56aP",
-	},
-	[1660329284] = {
-		["party"] = {
-			{
-				["star"] = "MA==",
-				["dur"] = 0,
-				["level"] = "MTU=",
-				["id"] = 2,
-				["cmt"] = "",
-				["time"] = 1660329284,
-				["guild"] = "UGxheSBmb3IgVWJlcg==",
-			}, -- [1]
-			{
-				["cmt"] = "",
-				["dur"] = 30,
-				["level"] = "MTY=",
-				["id"] = 5,
-				["star"] = "MA==",
-				["time"] = 1660329284,
-				["guild"] = "",
-			}, -- [2]
-		},
-		["dur"] = 30,
-		["loc"] = "",
-		["cmt"] = "",
-		["exported"] = false,
-		["realm"] = "56WI56aP",
-	},
-	[1660668262] = {
-		["party"] = {
-			{
-				["cmt"] = "",
-				["guild"] = "UGxheSBmb3IgVWJlcg==",
-				["star"] = "MA==",
-				["id"] = 2,
-				["level"] = "NDQ=",
-				["time"] = 1660668262,
-				["dur"] = 31,
-			}, -- [1]
-			{
-				["star"] = "MA==",
-				["guild"] = "",
-				["cmt"] = "",
-				["id"] = 9,
-				["level"] = "MA==",
-				["time"] = 1660668262,
-				["dur"] = 31,
-			}, -- [2]
-			{
-				["star"] = "MA==",
-				["guild"] = "",
-				["cmt"] = "",
-				["id"] = 31,
-				["level"] = "NDA=",
-				["time"] = 1660668262,
-				["dur"] = 31,
-			}, -- [3]
-			{
-				["star"] = "MA==",
-				["guild"] = "",
-				["cmt"] = "",
-				["id"] = 32,
-				["level"] = "NjA=",
-				["time"] = 1660668262,
-				["dur"] = 31,
-			}, -- [4]
-			{
-				["star"] = "MA==",
-				["guild"] = "",
-				["cmt"] = "",
-				["id"] = 33,
-				["level"] = "NDA=",
-				["time"] = 1660668262,
-				["dur"] = 31,
-			}, -- [5]
-		},
-		["dur"] = 31,
-		["loc"] = "5bCY5rOl5rK85rO9",
-		["cmt"] = "",
-		["exported"] = false,
-		["realm"] = "56WI56aP",
-	},
-	[1660744136] = {
-		["party"] = {
-			{
-				["guild"] = "UGxheSBmb3IgVWJlcg==",
-				["dur"] = 210,
-				["time"] = 1660744136,
-				["id"] = 2,
-				["level"] = "NDU=",
-				["star"] = "MA==",
-				["cmt"] = "",
-			}, -- [1]
-			{
-				["guild"] = "5Lio5YWJ6L6J5bKB5pyI5Lio",
-				["dur"] = 210,
-				["time"] = 1660744136,
-				["id"] = 38,
-				["level"] = "NDc=",
-				["cmt"] = "",
-				["star"] = "MA==",
-			}, -- [2]
-		},
-		["dur"] = 210,
-		["loc"] = "5rKZ5bCU5omO6bKB5LmL5bei",
-		["cmt"] = "",
-		["exported"] = false,
-		["realm"] = "56WI56aP",
-	},
-	[1660745133] = {
-		["party"] = {
-			{
-				["guild"] = "UGxheSBmb3IgVWJlcg==",
-				["dur"] = 67,
-				["time"] = 1660745133,
-				["id"] = 2,
-				["level"] = "NDY=",
-				["star"] = "MA==",
-				["cmt"] = "",
-			}, -- [1]
-			{
-				["guild"] = "5b2p6Jm557OW",
-				["dur"] = 67,
-				["time"] = 1660745133,
-				["id"] = 39,
-				["level"] = "NDk=",
-				["cmt"] = "",
-				["star"] = "MA==",
-			}, -- [2]
-		},
-		["dur"] = 67,
-		["loc"] = "6I+y5ouJ5pav",
-		["cmt"] = "",
-		["exported"] = false,
-		["realm"] = "56WI56aP",
-	},
-	[1660740605] = {
-		["party"] = {
-			{
-				["guild"] = "UGxheSBmb3IgVWJlcg==",
-				["dur"] = 1174,
-				["time"] = 1660740605,
-				["id"] = 2,
-				["level"] = "NDU=",
-				["star"] = "MA==",
-				["cmt"] = "",
-			}, -- [1]
-			{
-				["guild"] = "5aSP5pel5b6u6Jaw",
-				["dur"] = 1174,
-				["time"] = 1660740605,
-				["id"] = 34,
-				["level"] = "NDU=",
-				["cmt"] = "",
-				["star"] = "MA==",
-			}, -- [2]
-			{
-				["guild"] = "5aWz55Sf5a6/6IiN",
-				["dur"] = 1174,
-				["time"] = 1660740605,
-				["id"] = 35,
-				["level"] = "NDg=",
-				["cmt"] = "",
-				["star"] = "MA==",
-			}, -- [3]
-			{
-				["guild"] = "5pif5LqR",
-				["dur"] = 1174,
-				["time"] = 1660740605,
-				["id"] = 36,
-				["level"] = "NDQ=",
-				["cmt"] = "",
-				["star"] = "MA==",
-			}, -- [4]
-			{
-				["guild"] = "54Of6Iqx5piT5Ya35Li2",
-				["dur"] = 1174,
-				["time"] = 1660740605,
-				["id"] = 37,
-				["level"] = "NDY=",
-				["cmt"] = "",
-				["star"] = "MA==",
-			}, -- [5]
-		},
-		["dur"] = 1174,
-		["loc"] = "5aGU57qz5Yip5pav",
-		["cmt"] = "",
-		["exported"] = false,
-		["realm"] = "56WI56aP",
-	},
-	[1660406059] = {
-		["party"] = {
-			{
-				["guild"] = "UGxheSBmb3IgVWJlcg==",
-				["dur"] = 241,
-				["time"] = 1660406059,
-				["id"] = 2,
-				["star"] = "MA==",
-				["cmt"] = "",
-				["level"] = "Mjc=",
-			}, -- [1]
-			{
-				["guild"] = "",
-				["dur"] = 241,
-				["time"] = 1660406059,
-				["id"] = 9,
-				["cmt"] = "",
-				["star"] = "MA==",
-				["level"] = "MA==",
-			}, -- [2]
-		},
-		["dur"] = 241,
-		["loc"] = "5rm/5Zyw",
-		["cmt"] = "",
-		["exported"] = false,
-		["realm"] = "56WI56aP",
-	},
-	[1660409115] = {
-		["party"] = {
-			{
-				["guild"] = "UGxheSBmb3IgVWJlcg==",
-				["dur"] = 140,
-				["time"] = 1660409115,
-				["id"] = 2,
-				["star"] = "MA==",
-				["cmt"] = "",
-				["level"] = "Mjg=",
-			}, -- [1]
-			{
-				["guild"] = "",
-				["dur"] = 140,
-				["time"] = 1660409115,
-				["id"] = 20,
-				["cmt"] = "",
-				["star"] = "MA==",
-				["level"] = "Mjc=",
-			}, -- [2]
-		},
-		["dur"] = 140,
-		["loc"] = "5rm/5Zyw",
-		["cmt"] = "",
-		["exported"] = false,
-		["realm"] = "56WI56aP",
-	},
-	[1660578697] = {
-		["party"] = {
-			{
-				["dur"] = 171,
-				["guild"] = "UGxheSBmb3IgVWJlcg==",
-				["time"] = 1660578697,
-				["id"] = 2,
-				["cmt"] = "",
-				["level"] = "Mzk=",
-				["star"] = "MA==",
-			}, -- [1]
-			{
-				["dur"] = 171,
-				["guild"] = "5oqr6I2G5pap5qOY5ru05aeQ5aeQ5Lus",
-				["time"] = 1660578697,
-				["id"] = 30,
-				["star"] = "MA==",
-				["level"] = "Mzg=",
-				["cmt"] = "",
-			}, -- [2]
-		},
-		["dur"] = 171,
-		["loc"] = "5bCY5rOl5rK85rO9",
-		["cmt"] = "",
-		["exported"] = false,
-		["realm"] = "56WI56aP",
-	},
-	[1660487002] = {
-		["party"] = {
-			{
-				["guild"] = "UGxheSBmb3IgVWJlcg==",
-				["dur"] = 1068,
-				["time"] = 1660487002,
-				["id"] = 2,
-				["cmt"] = "",
-				["level"] = "MzM=",
-				["star"] = "MA==",
-			}, -- [1]
-			{
-				["guild"] = "",
-				["dur"] = 1068,
-				["time"] = 1660487002,
-				["id"] = 27,
-				["star"] = "MA==",
-				["level"] = "MzI=",
-				["cmt"] = "",
-			}, -- [2]
-			{
-				["guild"] = "5ouJ5a6M57KR57KR5oqT6LW354yp54yp5pOm5bGB6IKh",
-				["dur"] = 1068,
-				["time"] = 1660487002,
-				["id"] = 28,
-				["star"] = "MA==",
-				["level"] = "MzA=",
-				["cmt"] = "",
-			}, -- [3]
-		},
-		["dur"] = 1068,
-		["loc"] = "5rm/5Zyw",
-		["cmt"] = "",
-		["exported"] = false,
-		["realm"] = "56WI56aP",
-	},
-	[1660494366] = {
-		["party"] = {
-			{
-				["cmt"] = "",
-				["dur"] = 418,
-				["star"] = "MA==",
-				["id"] = 2,
-				["level"] = "MzU=",
-				["time"] = 1660494366,
-				["guild"] = "UGxheSBmb3IgVWJlcg==",
-			}, -- [1]
-			{
-				["star"] = "MA==",
-				["dur"] = 418,
-				["cmt"] = "",
-				["id"] = 29,
-				["level"] = "MzI=",
-				["time"] = 1660494366,
-				["guild"] = "54Of6Iqx5piT5Ya35Li2",
-			}, -- [2]
-		},
-		["dur"] = 418,
-		["loc"] = "5aWl54m55YWw5YWL5bGx6ISJ",
-		["cmt"] = "",
-		["exported"] = false,
-		["realm"] = "56WI56aP",
-	},
-	[1660372153] = {
-		["party"] = {
-			{
-				["cmt"] = "",
-				["guild"] = "UGxheSBmb3IgVWJlcg==",
-				["star"] = "MA==",
-				["id"] = 2,
-				["level"] = "MjA=",
-				["time"] = 1660372153,
-				["dur"] = 4568,
-			}, -- [1]
-			{
-				["star"] = "MA==",
-				["guild"] = "54K46J6D6J+55rm/5Zyw6KW/6YOo6I2S6YeO5LiA5Yiw5LqM5Y2B5LqM5Y2B5LiD5LiA5Yiw5YWt5Y2B55yL5YWs5ZGK",
-				["cmt"] = "",
-				["id"] = 7,
-				["level"] = "MjE=",
-				["time"] = 1660372153,
-				["dur"] = 4568,
-			}, -- [2]
-			{
-				["star"] = "MA==",
-				["guild"] = "",
-				["cmt"] = "",
-				["id"] = 8,
-				["level"] = "MjE=",
-				["time"] = 1660372153,
-				["dur"] = 4568,
-			}, -- [3]
-			{
-				["star"] = "MA==",
-				["guild"] = "",
-				["cmt"] = "",
-				["id"] = 10,
-				["level"] = "MTU=",
-				["time"] = 1660372153,
-				["dur"] = 4568,
-			}, -- [4]
-			{
-				["star"] = "MA==",
-				["guild"] = "",
-				["cmt"] = "",
-				["id"] = 11,
-				["level"] = "MTk=",
-				["time"] = 1660372153,
-				["dur"] = 4568,
-			}, -- [5]
-			{
-				["star"] = "MA==",
-				["guild"] = "",
-				["cmt"] = "",
-				["id"] = 9,
-				["level"] = "MA==",
-				["time"] = 1660372153,
-				["dur"] = 4568,
-			}, -- [6]
-			{
-				["star"] = "MA==",
-				["guild"] = "54Of6Iqx5piT5Ya35Li2",
-				["cmt"] = "",
-				["id"] = 12,
-				["level"] = "MjA=",
-				["time"] = 1660372153,
-				["dur"] = 4568,
-			}, -- [7]
-			{
-				["star"] = "MA==",
-				["guild"] = "UGxheSBmb3IgVWJlcg==",
-				["cmt"] = "",
-				["id"] = 13,
-				["level"] = "MjA=",
-				["time"] = 1660372153,
-				["dur"] = 4568,
-			}, -- [8]
-		},
-		["dur"] = 4568,
-		["loc"] = "5q275Lqh55+/5LqV",
-		["cmt"] = "",
-		["exported"] = false,
-		["realm"] = "56WI56aP",
-	},
-	[1660327343] = {
-		["party"] = {
-			{
-				["guild"] = "UGxheSBmb3IgVWJlcg==",
-				["dur"] = 0,
-				["time"] = 1660327343,
-				["id"] = 2,
-				["star"] = "MA==",
-				["cmt"] = "",
-				["level"] = "MTU=",
-			}, -- [1]
-			{
-				["guild"] = "",
-				["dur"] = 1251,
-				["time"] = 1660327343,
-				["id"] = 5,
-				["cmt"] = "",
-				["star"] = "MA==",
-				["level"] = "MTY=",
-			}, -- [2]
-		},
-		["dur"] = 1900,
-		["loc"] = "5rSb5YWL6I6r5Li5",
-		["cmt"] = "",
-		["exported"] = false,
-		["realm"] = "56WI56aP",
-	},
 	[1660379699] = {
 		["party"] = {
 			{
-				["level"] = "MjE=",
 				["dur"] = 219,
-				["cmt"] = "",
-				["id"] = 2,
-				["star"] = "MA==",
-				["time"] = 1660379699,
 				["guild"] = "UGxheSBmb3IgVWJlcg==",
+				["time"] = 1660379699,
+				["id"] = 2,
+				["cmt"] = "",
+				["level"] = "MjE=",
+				["star"] = "MA==",
 			}, -- [1]
 			{
-				["level"] = "MjI=",
 				["dur"] = 219,
-				["star"] = "MA==",
-				["id"] = 14,
-				["cmt"] = "",
-				["time"] = 1660379699,
 				["guild"] = "5oiR55qE5b+r5LmQ5pe25Luj",
+				["time"] = 1660379699,
+				["id"] = 14,
+				["star"] = "MA==",
+				["level"] = "MjI=",
+				["cmt"] = "",
 			}, -- [2]
 		},
 		["dur"] = 219,
@@ -1199,29 +713,164 @@ Puggle_pastGroups = {
 		["exported"] = false,
 		["realm"] = "56WI56aP",
 	},
-	[1660448776] = {
+	[1660402604] = {
 		["party"] = {
 			{
-				["dur"] = 146,
+				["cmt"] = "",
+				["dur"] = 437,
+				["star"] = "MA==",
+				["id"] = 2,
+				["level"] = "MjY=",
+				["time"] = 1660402604,
 				["guild"] = "UGxheSBmb3IgVWJlcg==",
-				["time"] = 1660448776,
+			}, -- [1]
+			{
+				["star"] = "MA==",
+				["dur"] = 437,
+				["cmt"] = "",
+				["id"] = 18,
+				["level"] = "MjE=",
+				["time"] = 1660402604,
+				["guild"] = "5oiR55qE5b+r5LmQ5pe25Luj",
+			}, -- [2]
+		},
+		["dur"] = 437,
+		["loc"] = "5rm/5Zyw",
+		["cmt"] = "",
+		["exported"] = false,
+		["realm"] = "56WI56aP",
+	},
+	[1660404002] = {
+		["party"] = {
+			{
+				["cmt"] = "",
+				["dur"] = 664,
+				["star"] = "MA==",
+				["id"] = 2,
+				["level"] = "Mjc=",
+				["time"] = 1660404002,
+				["guild"] = "UGxheSBmb3IgVWJlcg==",
+			}, -- [1]
+			{
+				["star"] = "MA==",
+				["dur"] = 664,
+				["cmt"] = "",
+				["id"] = 19,
+				["level"] = "MjI=",
+				["time"] = 1660404002,
+				["guild"] = "",
+			}, -- [2]
+		},
+		["dur"] = 664,
+		["loc"] = "5rm/5Zyw",
+		["cmt"] = "",
+		["exported"] = false,
+		["realm"] = "56WI56aP",
+	},
+	[1660228188] = {
+		["party"] = {
+			{
+				["dur"] = 518,
+				["guild"] = "",
+				["time"] = 1660228188,
 				["id"] = 2,
 				["cmt"] = "",
-				["level"] = "MzI=",
+				["level"] = "NQ==",
 				["star"] = "MA==",
 			}, -- [1]
 			{
-				["dur"] = 146,
-				["guild"] = "54Of6Iqx5piT5Ya35Li2",
-				["time"] = 1660448776,
-				["id"] = 26,
+				["dur"] = 518,
+				["guild"] = "",
+				["time"] = 1660228188,
+				["id"] = 4,
 				["star"] = "MA==",
-				["level"] = "Mjk=",
+				["level"] = "Mg==",
 				["cmt"] = "",
 			}, -- [2]
 		},
-		["dur"] = 146,
-		["loc"] = "5pq06aOO5Z+O",
+		["dur"] = 518,
+		["loc"] = "",
+		["cmt"] = "",
+		["exported"] = false,
+		["realm"] = "56WI56aP",
+	},
+	[1660839534] = {
+		["party"] = {
+			{
+				["dur"] = 13,
+				["guild"] = "UGxheSBmb3IgVWJlcg==",
+				["time"] = 1660839534,
+				["id"] = 2,
+				["star"] = "MA==",
+				["cmt"] = "",
+				["level"] = "NTA=",
+			}, -- [1]
+			{
+				["dur"] = 13,
+				["guild"] = "5oiR55qE5b+r5LmQ5pe25Luj",
+				["time"] = 1660839534,
+				["id"] = 54,
+				["cmt"] = "",
+				["star"] = "MA==",
+				["level"] = "NTA=",
+			}, -- [2]
+		},
+		["dur"] = 13,
+		["loc"] = "6L6b54m55YWw",
+		["cmt"] = "",
+		["exported"] = false,
+		["realm"] = "56WI56aP",
+	},
+	[1660832603] = {
+		["party"] = {
+			{
+				["level"] = "NDg=",
+				["dur"] = 50,
+				["cmt"] = "",
+				["id"] = 2,
+				["star"] = "MA==",
+				["time"] = 1660832603,
+				["guild"] = "UGxheSBmb3IgVWJlcg==",
+			}, -- [1]
+			{
+				["level"] = "MA==",
+				["dur"] = 50,
+				["star"] = "MA==",
+				["id"] = 9,
+				["cmt"] = "",
+				["time"] = 1660832603,
+				["guild"] = "",
+			}, -- [2]
+			{
+				["level"] = "NDA=",
+				["dur"] = 50,
+				["star"] = "MA==",
+				["id"] = 40,
+				["cmt"] = "",
+				["time"] = 1660832603,
+				["guild"] = "5LiA5pil5ZOl5pq06aOO6ZOB54KJ5rOw6L6+5biM5bCU5Z+D57Si6L6+5Li257qz6IuP5pav5rKZ5aGU5pav5Z+O",
+			}, -- [3]
+			{
+				["level"] = "NjA=",
+				["dur"] = 50,
+				["star"] = "MA==",
+				["id"] = 41,
+				["cmt"] = "",
+				["time"] = 1660832603,
+				["guild"] = "5LiA5pil5ZOl5rKZ5aGU5pav5aSq6Ziz5LmL5LqV5pe25YWJ5LmL56m055uY54mZ5rC05bqT5pq06aOO5pq06KaB5aGe",
+			}, -- [4]
+			{
+				["level"] = "NDA=",
+				["dur"] = 50,
+				["star"] = "MA==",
+				["id"] = 42,
+				["cmt"] = "",
+				["time"] = 1660832603,
+				["guild"] = "5LiA5pil5ZOl5pq06aOO6ZOB54KJ5rOw6L6+5biM5bCU5Z+D57Si6L6+5Li257qz6IuP5pav5rKZ5aGU5pav5Z+O",
+			}, -- [5]
+		},
+		["dur"] = 50,
+		["loc"] = "6L6b54m55YWw",
 		["cmt"] = "",
 		["exported"] = false,
 		["realm"] = "56WI56aP",
@@ -1229,22 +878,22 @@ Puggle_pastGroups = {
 	[1660230792] = {
 		["party"] = {
 			{
-				["level"] = "OA==",
 				["dur"] = 666,
-				["cmt"] = "",
-				["id"] = 2,
-				["star"] = "MA==",
-				["time"] = 1660230792,
 				["guild"] = "UGxheSBmb3IgVWJlcg==",
+				["time"] = 1660230792,
+				["id"] = 2,
+				["cmt"] = "",
+				["level"] = "OA==",
+				["star"] = "MA==",
 			}, -- [1]
 			{
-				["level"] = "Njc=",
 				["dur"] = 666,
-				["star"] = "MA==",
-				["id"] = 4,
-				["cmt"] = "",
-				["time"] = 1660230792,
 				["guild"] = "",
+				["time"] = 1660230792,
+				["id"] = 4,
+				["star"] = "MA==",
+				["level"] = "Njc=",
+				["cmt"] = "",
 			}, -- [2]
 		},
 		["dur"] = 666,
@@ -1253,29 +902,317 @@ Puggle_pastGroups = {
 		["exported"] = false,
 		["realm"] = "56WI56aP",
 	},
-	[1660228801] = {
+	[1660396221] = {
 		["party"] = {
 			{
-				["level"] = "NQ==",
-				["dur"] = 13,
 				["cmt"] = "",
-				["id"] = 2,
+				["dur"] = 302,
 				["star"] = "MA==",
-				["time"] = 1660228801,
-				["guild"] = "",
+				["id"] = 2,
+				["level"] = "MjQ=",
+				["time"] = 1660396221,
+				["guild"] = "UGxheSBmb3IgVWJlcg==",
 			}, -- [1]
 			{
-				["level"] = "MA==",
-				["dur"] = 13,
 				["star"] = "MA==",
-				["id"] = 4,
+				["dur"] = 302,
 				["cmt"] = "",
-				["time"] = 1660228801,
+				["id"] = 16,
+				["level"] = "Mjc=",
+				["time"] = 1660396221,
+				["guild"] = "5Y2K6YaJ5Y2K6YaS5Y2K5rWu55Sf",
+			}, -- [2]
+			{
+				["star"] = "MA==",
+				["dur"] = 302,
+				["cmt"] = "",
+				["id"] = 17,
+				["level"] = "MjY=",
+				["time"] = 1660396221,
+				["guild"] = "5Lu75Yqh6L6+5Lq6",
+			}, -- [3]
+		},
+		["dur"] = 302,
+		["loc"] = "5pqu6Imy5qOu5p6X",
+		["cmt"] = "",
+		["exported"] = false,
+		["realm"] = "56WI56aP",
+	},
+	[1660409115] = {
+		["party"] = {
+			{
+				["cmt"] = "",
+				["dur"] = 140,
+				["star"] = "MA==",
+				["id"] = 2,
+				["level"] = "Mjg=",
+				["time"] = 1660409115,
+				["guild"] = "UGxheSBmb3IgVWJlcg==",
+			}, -- [1]
+			{
+				["star"] = "MA==",
+				["dur"] = 140,
+				["cmt"] = "",
+				["id"] = 20,
+				["level"] = "Mjc=",
+				["time"] = 1660409115,
 				["guild"] = "",
 			}, -- [2]
 		},
-		["dur"] = 13,
-		["loc"] = "6Im+54i+5paH5qOu5p6X",
+		["dur"] = 140,
+		["loc"] = "5rm/5Zyw",
+		["cmt"] = "",
+		["exported"] = false,
+		["realm"] = "56WI56aP",
+	},
+	[1660406059] = {
+		["party"] = {
+			{
+				["cmt"] = "",
+				["dur"] = 241,
+				["star"] = "MA==",
+				["id"] = 2,
+				["level"] = "Mjc=",
+				["time"] = 1660406059,
+				["guild"] = "UGxheSBmb3IgVWJlcg==",
+			}, -- [1]
+			{
+				["star"] = "MA==",
+				["dur"] = 241,
+				["cmt"] = "",
+				["id"] = 9,
+				["level"] = "MA==",
+				["time"] = 1660406059,
+				["guild"] = "",
+			}, -- [2]
+		},
+		["dur"] = 241,
+		["loc"] = "5rm/5Zyw",
+		["cmt"] = "",
+		["exported"] = false,
+		["realm"] = "56WI56aP",
+	},
+	[1660445012] = {
+		["party"] = {
+			{
+				["dur"] = 1474,
+				["guild"] = "UGxheSBmb3IgVWJlcg==",
+				["time"] = 1660445012,
+				["id"] = 2,
+				["level"] = "MzE=",
+				["star"] = "MA==",
+				["cmt"] = "",
+			}, -- [1]
+			{
+				["dur"] = 1474,
+				["guild"] = "5Lu75Yqh6L6+5Lq6",
+				["time"] = 1660445012,
+				["id"] = 22,
+				["level"] = "MjY=",
+				["cmt"] = "",
+				["star"] = "MA==",
+			}, -- [2]
+			{
+				["dur"] = 1474,
+				["guild"] = "",
+				["time"] = 1660445012,
+				["id"] = 9,
+				["level"] = "MA==",
+				["cmt"] = "",
+				["star"] = "MA==",
+			}, -- [3]
+			{
+				["dur"] = 1474,
+				["guild"] = "VWx0aW1hIFRodWxl",
+				["time"] = 1660445012,
+				["id"] = 23,
+				["level"] = "Mjk=",
+				["cmt"] = "",
+				["star"] = "MA==",
+			}, -- [4]
+			{
+				["dur"] = 1474,
+				["guild"] = "",
+				["time"] = 1660445012,
+				["id"] = 24,
+				["level"] = "MjU=",
+				["cmt"] = "",
+				["star"] = "MA==",
+			}, -- [5]
+			{
+				["dur"] = 1474,
+				["guild"] = "",
+				["time"] = 1660445012,
+				["id"] = 25,
+				["level"] = "MjU=",
+				["cmt"] = "",
+				["star"] = "MA==",
+			}, -- [6]
+		},
+		["dur"] = 1474,
+		["loc"] = "5pq06aOO5Z+O55uR54ux",
+		["cmt"] = "",
+		["exported"] = false,
+		["realm"] = "56WI56aP",
+	},
+	[1660668262] = {
+		["party"] = {
+			{
+				["guild"] = "UGxheSBmb3IgVWJlcg==",
+				["dur"] = 31,
+				["time"] = 1660668262,
+				["id"] = 2,
+				["star"] = "MA==",
+				["cmt"] = "",
+				["level"] = "NDQ=",
+			}, -- [1]
+			{
+				["guild"] = "",
+				["dur"] = 31,
+				["time"] = 1660668262,
+				["id"] = 9,
+				["cmt"] = "",
+				["star"] = "MA==",
+				["level"] = "MA==",
+			}, -- [2]
+			{
+				["guild"] = "",
+				["dur"] = 31,
+				["time"] = 1660668262,
+				["id"] = 31,
+				["cmt"] = "",
+				["star"] = "MA==",
+				["level"] = "NDA=",
+			}, -- [3]
+			{
+				["guild"] = "",
+				["dur"] = 31,
+				["time"] = 1660668262,
+				["id"] = 32,
+				["cmt"] = "",
+				["star"] = "MA==",
+				["level"] = "NjA=",
+			}, -- [4]
+			{
+				["guild"] = "",
+				["dur"] = 31,
+				["time"] = 1660668262,
+				["id"] = 33,
+				["cmt"] = "",
+				["star"] = "MA==",
+				["level"] = "NDA=",
+			}, -- [5]
+		},
+		["dur"] = 31,
+		["loc"] = "5bCY5rOl5rK85rO9",
+		["cmt"] = "",
+		["exported"] = false,
+		["realm"] = "56WI56aP",
+	},
+	[1660494366] = {
+		["party"] = {
+			{
+				["dur"] = 418,
+				["guild"] = "UGxheSBmb3IgVWJlcg==",
+				["time"] = 1660494366,
+				["id"] = 2,
+				["star"] = "MA==",
+				["cmt"] = "",
+				["level"] = "MzU=",
+			}, -- [1]
+			{
+				["dur"] = 418,
+				["guild"] = "54Of6Iqx5piT5Ya35Li2",
+				["time"] = 1660494366,
+				["id"] = 29,
+				["cmt"] = "",
+				["star"] = "MA==",
+				["level"] = "MzI=",
+			}, -- [2]
+		},
+		["dur"] = 418,
+		["loc"] = "5aWl54m55YWw5YWL5bGx6ISJ",
+		["cmt"] = "",
+		["exported"] = false,
+		["realm"] = "56WI56aP",
+	},
+	[1660744136] = {
+		["party"] = {
+			{
+				["star"] = "MA==",
+				["dur"] = 210,
+				["level"] = "NDU=",
+				["id"] = 2,
+				["cmt"] = "",
+				["time"] = 1660744136,
+				["guild"] = "UGxheSBmb3IgVWJlcg==",
+			}, -- [1]
+			{
+				["cmt"] = "",
+				["dur"] = 210,
+				["level"] = "NDc=",
+				["id"] = 38,
+				["star"] = "MA==",
+				["time"] = 1660744136,
+				["guild"] = "5Lio5YWJ6L6J5bKB5pyI5Lio",
+			}, -- [2]
+		},
+		["dur"] = 210,
+		["loc"] = "5rKZ5bCU5omO6bKB5LmL5bei",
+		["cmt"] = "",
+		["exported"] = false,
+		["realm"] = "56WI56aP",
+	},
+	[1660839563] = {
+		["party"] = {
+			{
+				["dur"] = 24,
+				["guild"] = "UGxheSBmb3IgVWJlcg==",
+				["time"] = 1660839563,
+				["id"] = 2,
+				["star"] = "MA==",
+				["cmt"] = "",
+				["level"] = "NTA=",
+			}, -- [1]
+			{
+				["dur"] = 24,
+				["guild"] = "5oiR55qE5b+r5LmQ5pe25Luj",
+				["time"] = 1660839563,
+				["id"] = 54,
+				["cmt"] = "",
+				["star"] = "MA==",
+				["level"] = "NTA=",
+			}, -- [2]
+		},
+		["dur"] = 24,
+		["loc"] = "6L6b54m55YWw",
+		["cmt"] = "",
+		["exported"] = false,
+		["realm"] = "56WI56aP",
+	},
+	[1660329284] = {
+		["party"] = {
+			{
+				["dur"] = 0,
+				["guild"] = "UGxheSBmb3IgVWJlcg==",
+				["time"] = 1660329284,
+				["id"] = 2,
+				["level"] = "MTU=",
+				["star"] = "MA==",
+				["cmt"] = "",
+			}, -- [1]
+			{
+				["dur"] = 30,
+				["guild"] = "",
+				["time"] = 1660329284,
+				["id"] = 5,
+				["level"] = "MTY=",
+				["cmt"] = "",
+				["star"] = "MA==",
+			}, -- [2]
+		},
+		["dur"] = 30,
+		["loc"] = "",
 		["cmt"] = "",
 		["exported"] = false,
 		["realm"] = "56WI56aP",
@@ -1283,22 +1220,22 @@ Puggle_pastGroups = {
 	[1660491665] = {
 		["party"] = {
 			{
-				["cmt"] = "",
 				["dur"] = 147,
-				["star"] = "MA==",
-				["id"] = 2,
-				["level"] = "MzQ=",
-				["time"] = 1660491665,
 				["guild"] = "UGxheSBmb3IgVWJlcg==",
+				["time"] = 1660491665,
+				["id"] = 2,
+				["star"] = "MA==",
+				["cmt"] = "",
+				["level"] = "MzQ=",
 			}, -- [1]
 			{
-				["star"] = "MA==",
 				["dur"] = 147,
-				["cmt"] = "",
-				["id"] = 29,
-				["level"] = "MzE=",
-				["time"] = 1660491665,
 				["guild"] = "54Of6Iqx5piT5Ya35Li2",
+				["time"] = 1660491665,
+				["id"] = 29,
+				["cmt"] = "",
+				["star"] = "MA==",
+				["level"] = "MzE=",
 			}, -- [2]
 		},
 		["dur"] = 147,
@@ -1307,584 +1244,1192 @@ Puggle_pastGroups = {
 		["exported"] = false,
 		["realm"] = "56WI56aP",
 	},
+	[1660487002] = {
+		["party"] = {
+			{
+				["level"] = "MzM=",
+				["dur"] = 1068,
+				["cmt"] = "",
+				["id"] = 2,
+				["star"] = "MA==",
+				["time"] = 1660487002,
+				["guild"] = "UGxheSBmb3IgVWJlcg==",
+			}, -- [1]
+			{
+				["level"] = "MzI=",
+				["dur"] = 1068,
+				["star"] = "MA==",
+				["id"] = 27,
+				["cmt"] = "",
+				["time"] = 1660487002,
+				["guild"] = "",
+			}, -- [2]
+			{
+				["level"] = "MzA=",
+				["dur"] = 1068,
+				["star"] = "MA==",
+				["id"] = 28,
+				["cmt"] = "",
+				["time"] = 1660487002,
+				["guild"] = "5ouJ5a6M57KR57KR5oqT6LW354yp54yp5pOm5bGB6IKh",
+			}, -- [3]
+		},
+		["dur"] = 1068,
+		["loc"] = "5rm/5Zyw",
+		["cmt"] = "",
+		["exported"] = false,
+		["realm"] = "56WI56aP",
+	},
+	[1660838007] = {
+		["party"] = {
+			{
+				["level"] = "NDk=",
+				["dur"] = 75,
+				["cmt"] = "",
+				["id"] = 2,
+				["star"] = "MA==",
+				["time"] = 1660838007,
+				["guild"] = "UGxheSBmb3IgVWJlcg==",
+			}, -- [1]
+			{
+				["level"] = "MA==",
+				["dur"] = 75,
+				["star"] = "MA==",
+				["id"] = 41,
+				["cmt"] = "",
+				["time"] = 1660838007,
+				["guild"] = "",
+			}, -- [2]
+			{
+				["level"] = "MA==",
+				["dur"] = 75,
+				["star"] = "MA==",
+				["id"] = 42,
+				["cmt"] = "",
+				["time"] = 1660838007,
+				["guild"] = "",
+			}, -- [3]
+			{
+				["level"] = "MA==",
+				["dur"] = 75,
+				["star"] = "MA==",
+				["id"] = 40,
+				["cmt"] = "",
+				["time"] = 1660838007,
+				["guild"] = "",
+			}, -- [4]
+		},
+		["dur"] = 75,
+		["loc"] = "5bCY5rOl5rK85rO9",
+		["cmt"] = "",
+		["exported"] = false,
+		["realm"] = "56WI56aP",
+	},
+	[1660366136] = {
+		["party"] = {
+			{
+				["level"] = "MTg=",
+				["guild"] = "UGxheSBmb3IgVWJlcg==",
+				["cmt"] = "",
+				["id"] = 2,
+				["star"] = "MA==",
+				["time"] = 1660366136,
+				["dur"] = 424,
+			}, -- [1]
+			{
+				["level"] = "NzA=",
+				["guild"] = "",
+				["star"] = "MA==",
+				["id"] = 4,
+				["cmt"] = "",
+				["time"] = 1660366136,
+				["dur"] = 424,
+			}, -- [2]
+		},
+		["dur"] = 424,
+		["loc"] = "6KW/6YOo6I2S6YeO",
+		["cmt"] = "",
+		["exported"] = false,
+		["realm"] = "56WI56aP",
+	},
+	[1660412796] = {
+		["party"] = {
+			{
+				["cmt"] = "",
+				["dur"] = 211,
+				["star"] = "MA==",
+				["id"] = 2,
+				["level"] = "Mjk=",
+				["time"] = 1660412796,
+				["guild"] = "UGxheSBmb3IgVWJlcg==",
+			}, -- [1]
+			{
+				["star"] = "MA==",
+				["dur"] = 211,
+				["cmt"] = "",
+				["id"] = 21,
+				["level"] = "MjM=",
+				["time"] = 1660412796,
+				["guild"] = "5L2g5oCV5ouM5ZOS6ISR5aOz",
+			}, -- [2]
+		},
+		["dur"] = 211,
+		["loc"] = "6LWk6ISK5bGx",
+		["cmt"] = "",
+		["exported"] = false,
+		["realm"] = "56WI56aP",
+	},
+	[1660833159] = {
+		["party"] = {
+			{
+				["level"] = "NDg=",
+				["dur"] = 30,
+				["cmt"] = "",
+				["id"] = 2,
+				["star"] = "MA==",
+				["time"] = 1660833159,
+				["guild"] = "UGxheSBmb3IgVWJlcg==",
+			}, -- [1]
+			{
+				["level"] = "MzE=",
+				["dur"] = 30,
+				["star"] = "MA==",
+				["id"] = 43,
+				["cmt"] = "",
+				["time"] = 1660833159,
+				["guild"] = "5LiA5pil5ZOl5pe25YWJ5aGU57qz5Yip5pav5biM5bCU5pav5rW35bGx5Yqg5Z+65qOu",
+			}, -- [2]
+			{
+				["level"] = "MA==",
+				["dur"] = 30,
+				["star"] = "MA==",
+				["id"] = 9,
+				["cmt"] = "",
+				["time"] = 1660833159,
+				["guild"] = "",
+			}, -- [3]
+			{
+				["level"] = "MzE=",
+				["dur"] = 30,
+				["star"] = "MA==",
+				["id"] = 44,
+				["cmt"] = "",
+				["time"] = 1660833159,
+				["guild"] = "5LiA5pil5ZOl5pe25YWJ5aGU57qz5Yip5pav5biM5bCU5pav5rW35bGx5Yqg5Z+65qOu",
+			}, -- [4]
+		},
+		["dur"] = 30,
+		["loc"] = "6K+F5ZKS5LmL5Zyw",
+		["cmt"] = "",
+		["exported"] = false,
+		["realm"] = "56WI56aP",
+	},
+	[1660745133] = {
+		["party"] = {
+			{
+				["star"] = "MA==",
+				["dur"] = 67,
+				["level"] = "NDY=",
+				["id"] = 2,
+				["cmt"] = "",
+				["time"] = 1660745133,
+				["guild"] = "UGxheSBmb3IgVWJlcg==",
+			}, -- [1]
+			{
+				["cmt"] = "",
+				["dur"] = 67,
+				["level"] = "NDk=",
+				["id"] = 39,
+				["star"] = "MA==",
+				["time"] = 1660745133,
+				["guild"] = "5b2p6Jm557OW",
+			}, -- [2]
+		},
+		["dur"] = 67,
+		["loc"] = "6I+y5ouJ5pav",
+		["cmt"] = "",
+		["exported"] = false,
+		["realm"] = "56WI56aP",
+	},
+	[1660838146] = {
+		["party"] = {
+			{
+				["level"] = "NDk=",
+				["dur"] = 36,
+				["cmt"] = "",
+				["id"] = 2,
+				["star"] = "MA==",
+				["time"] = 1660838146,
+				["guild"] = "UGxheSBmb3IgVWJlcg==",
+			}, -- [1]
+			{
+				["level"] = "MA==",
+				["dur"] = 36,
+				["star"] = "MA==",
+				["id"] = 9,
+				["cmt"] = "",
+				["time"] = 1660838146,
+				["guild"] = "",
+			}, -- [2]
+			{
+				["level"] = "MA==",
+				["dur"] = 36,
+				["star"] = "MA==",
+				["id"] = 50,
+				["cmt"] = "",
+				["time"] = 1660838146,
+				["guild"] = "",
+			}, -- [3]
+			{
+				["level"] = "NDA=",
+				["dur"] = 36,
+				["star"] = "MA==",
+				["id"] = 51,
+				["cmt"] = "",
+				["time"] = 1660838146,
+				["guild"] = "5LiA5pil5ZOl5pq06aOO6ZOB54KJ5rOw6L6+5biM5bCU5Z+D57Si6L6+5Li257qz6IuP5pav5rKZ5aGU5pav5Z+O",
+			}, -- [4]
+			{
+				["level"] = "NjA=",
+				["dur"] = 36,
+				["star"] = "MA==",
+				["id"] = 52,
+				["cmt"] = "",
+				["time"] = 1660838146,
+				["guild"] = "5LiA5pil5ZOl5rKZ5aGU5pav5aSq6Ziz5LmL5LqV5pe25YWJ5LmL56m055uY54mZ5rC05bqT5pq06aOO5pq06KaB5aGe",
+			}, -- [5]
+			{
+				["level"] = "NDA=",
+				["dur"] = 36,
+				["star"] = "MA==",
+				["id"] = 53,
+				["cmt"] = "",
+				["time"] = 1660838146,
+				["guild"] = "5LiA5pil5ZOl5pq06aOO6ZOB54KJ5rOw6L6+5biM5bCU5Z+D57Si6L6+5Li257qz6IuP5pav5rKZ5aGU5pav5Z+O",
+			}, -- [6]
+		},
+		["dur"] = 36,
+		["loc"] = "5bCY5rOl5rK85rO9",
+		["cmt"] = "",
+		["exported"] = false,
+		["realm"] = "56WI56aP",
+	},
+	[1660327343] = {
+		["party"] = {
+			{
+				["cmt"] = "",
+				["dur"] = 0,
+				["star"] = "MA==",
+				["id"] = 2,
+				["level"] = "MTU=",
+				["time"] = 1660327343,
+				["guild"] = "UGxheSBmb3IgVWJlcg==",
+			}, -- [1]
+			{
+				["star"] = "MA==",
+				["dur"] = 1251,
+				["cmt"] = "",
+				["id"] = 5,
+				["level"] = "MTY=",
+				["time"] = 1660327343,
+				["guild"] = "",
+			}, -- [2]
+		},
+		["dur"] = 1900,
+		["loc"] = "5rSb5YWL6I6r5Li5",
+		["cmt"] = "",
+		["exported"] = false,
+		["realm"] = "56WI56aP",
+	},
+	[1660448776] = {
+		["party"] = {
+			{
+				["level"] = "MzI=",
+				["guild"] = "UGxheSBmb3IgVWJlcg==",
+				["cmt"] = "",
+				["id"] = 2,
+				["star"] = "MA==",
+				["time"] = 1660448776,
+				["dur"] = 146,
+			}, -- [1]
+			{
+				["level"] = "Mjk=",
+				["guild"] = "54Of6Iqx5piT5Ya35Li2",
+				["star"] = "MA==",
+				["id"] = 26,
+				["cmt"] = "",
+				["time"] = 1660448776,
+				["dur"] = 146,
+			}, -- [2]
+		},
+		["dur"] = 146,
+		["loc"] = "5pq06aOO5Z+O",
+		["cmt"] = "",
+		["exported"] = false,
+		["realm"] = "56WI56aP",
+	},
+	[1660833623] = {
+		["party"] = {
+			{
+				["level"] = "NDk=",
+				["dur"] = 3528,
+				["cmt"] = "",
+				["id"] = 2,
+				["star"] = "MA==",
+				["time"] = 1660833623,
+				["guild"] = "UGxheSBmb3IgVWJlcg==",
+			}, -- [1]
+			{
+				["level"] = "NDg=",
+				["dur"] = 3528,
+				["star"] = "MA==",
+				["id"] = 45,
+				["cmt"] = "",
+				["time"] = 1660833623,
+				["guild"] = "",
+			}, -- [2]
+			{
+				["level"] = "NDY=",
+				["dur"] = 3528,
+				["star"] = "MA==",
+				["id"] = 46,
+				["cmt"] = "",
+				["time"] = 1660833623,
+				["guild"] = "5L2c6aOO5LyY6Imv",
+			}, -- [3]
+			{
+				["level"] = "NDY=",
+				["dur"] = 3528,
+				["star"] = "MA==",
+				["id"] = 47,
+				["cmt"] = "",
+				["time"] = 1660833623,
+				["guild"] = "5LqR56uv5LmL5LiK",
+			}, -- [4]
+			{
+				["level"] = "NTM=",
+				["dur"] = 3528,
+				["star"] = "MA==",
+				["id"] = 48,
+				["cmt"] = "",
+				["time"] = 1660833623,
+				["guild"] = "5rOb5a6H5a6Z6IGU5ZCI5L+D6L+b5Lya",
+			}, -- [5]
+			{
+				["level"] = "NDk=",
+				["dur"] = 3528,
+				["star"] = "MA==",
+				["id"] = 49,
+				["cmt"] = "",
+				["time"] = 1660833623,
+				["guild"] = "6Im+IOazvSDmi4kg5pavIOaKpCDljasg6Zif",
+			}, -- [6]
+		},
+		["dur"] = 3528,
+		["loc"] = "56WW5bCU5rOV5ouJ5YWL",
+		["cmt"] = "",
+		["exported"] = false,
+		["realm"] = "56WI56aP",
+	},
 }
 Puggle_pastPlayers = {
 	{
 		["latestguild"] = "",
-		["realm"] = "5Yqg5LiB",
+		["latestcmt"] = "",
 		["class"] = "Uk9HVUU=",
 		["gender"] = "Mg==",
-		["name"] = "VnNjb2Rl",
-		["latesttime"] = 1658552323,
 		["player"] = true,
+		["latesttime"] = 1658552323,
+		["race"] = "SHVtYW4=",
 		["latestfrom"] = "",
 		["faction"] = "QWxsaWFuY2U=",
 		["lateststar"] = "MA==",
-		["race"] = "SHVtYW4=",
+		["name"] = "VnNjb2Rl",
 		["latestlevel"] = "MQ==",
-		["latestcmt"] = "",
+		["realm"] = "5Yqg5LiB",
 	}, -- [1]
 	{
 		["latestguild"] = "",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 		["class"] = "Uk9HVUU=",
 		["gender"] = "Mg==",
-		["race"] = "SHVtYW4=",
+		["name"] = "54m55Y+Y55S15bel",
 		["latesttime"] = 1660226825,
 		["player"] = true,
-		["name"] = "54m55Y+Y55S15bel",
+		["latestfrom"] = "",
 		["faction"] = "QWxsaWFuY2U=",
 		["lateststar"] = "MA==",
-		["latestfrom"] = "",
+		["race"] = "SHVtYW4=",
 		["latestlevel"] = "MQ==",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 	}, -- [2]
 	{
 		["latestguild"] = "",
 		["lateststar"] = "MA==",
-		["realm"] = "祈福",
+		["latestcmt"] = "",
 		["latestfrom"] = "",
 		["faction"] = "Alliance",
 		["latesttime"] = 1660228182,
 		["name"] = "5pyq55+l55uu5qiZ",
 		["latestlevel"] = "MQ==",
-		["latestcmt"] = "",
+		["realm"] = "祈福",
 	}, -- [3]
 	{
 		["latestguild"] = "",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 		["gender"] = "Mw==",
 		["class"] = "UEFMQURJTg==",
-		["lateststar"] = "MA==",
+		["latestfrom"] = "",
 		["latesttime"] = 1660227659,
 		["player"] = false,
-		["latestfrom"] = "",
+		["name"] = "6L+e5L2g5o6l5LuW",
 		["faction"] = "QWxsaWFuY2U=",
 		["race"] = "SHVtYW4=",
-		["name"] = "6L+e5L2g5o6l5LuW",
+		["lateststar"] = "MA==",
 		["latestlevel"] = "NzA=",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 	}, -- [4]
 	{
 		["latestguild"] = "",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 		["gender"] = "Mg==",
 		["class"] = "UEFMQURJTg==",
-		["lateststar"] = "MA==",
+		["latestfrom"] = "",
 		["latesttime"] = 1660327343,
 		["player"] = false,
-		["latestfrom"] = "",
+		["name"] = "6Iul5Li25peg5byD",
 		["faction"] = "QWxsaWFuY2U=",
 		["race"] = "RHdhcmY=",
-		["name"] = "6Iul5Li25peg5byD",
+		["lateststar"] = "MA==",
 		["latestlevel"] = "MTY=",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 	}, -- [5]
 	{
 		["latestguild"] = "",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 		["gender"] = "Mw==",
 		["class"] = "RFJVSUQ=",
-		["latesttime"] = 1660363229,
+		["name"] = "5YyC5Li25b63",
 		["lateststar"] = "MA==",
 		["player"] = false,
-		["name"] = "5YyC5Li25b63",
+		["latestfrom"] = "",
 		["faction"] = "QWxsaWFuY2U=",
 		["race"] = "TmlnaHRFbGY=",
-		["latestfrom"] = "",
+		["latesttime"] = 1660363229,
 		["latestlevel"] = "MTQ=",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 	}, -- [6]
 	{
 		["latestguild"] = "54K46J6D6J+55rm/5Zyw6KW/6YOo6I2S6YeO5LiA5Yiw5LqM5Y2B5LqM5Y2B5LiD5LiA5Yiw5YWt5Y2B55yL5YWs5ZGK",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 		["class"] = "Uk9HVUU=",
 		["gender"] = "Mw==",
-		["name"] = "5Li/6Iie5Yqo5Li/",
 		["lateststar"] = "MA==",
+		["latesttime"] = 1660372153,
 		["race"] = "TmlnaHRFbGY=",
 		["latestfrom"] = "",
 		["faction"] = "QWxsaWFuY2U=",
 		["player"] = false,
-		["latesttime"] = 1660372153,
+		["name"] = "5Li/6Iie5Yqo5Li/",
 		["latestlevel"] = "MjE=",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 	}, -- [7]
 	{
 		["latestguild"] = "",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 		["gender"] = "Mw==",
 		["class"] = "UEFMQURJTg==",
-		["name"] = "5Yid54ix5Z2k",
 		["lateststar"] = "MA==",
+		["latesttime"] = 1660372153,
 		["player"] = false,
 		["latestfrom"] = "",
 		["faction"] = "QWxsaWFuY2U=",
 		["race"] = "RHdhcmY=",
-		["latesttime"] = 1660372153,
+		["name"] = "5Yid54ix5Z2k",
 		["latestlevel"] = "MjE=",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 	}, -- [8]
 	{
 		["latestguild"] = "",
 		["lateststar"] = "MA==",
-		["latestcmt"] = "",
+		["realm"] = "祈福",
 		["latestfrom"] = "",
 		["faction"] = "Alliance",
 		["latesttime"] = 1660372153,
 		["name"] = "5pyq55+l55uu5qCH",
 		["latestlevel"] = "MA==",
-		["realm"] = "祈福",
+		["latestcmt"] = "",
 	}, -- [9]
 	{
 		["latestguild"] = "",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 		["gender"] = "Mg==",
 		["class"] = "SFVOVEVS",
-		["name"] = "5LiA54mb5Y+J5Y+J5LiA",
 		["lateststar"] = "MA==",
+		["latesttime"] = 1660372153,
 		["player"] = false,
 		["latestfrom"] = "",
 		["faction"] = "QWxsaWFuY2U=",
 		["race"] = "RHdhcmY=",
-		["latesttime"] = 1660372153,
+		["name"] = "5LiA54mb5Y+J5Y+J5LiA",
 		["latestlevel"] = "MTU=",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 	}, -- [10]
 	{
 		["latestguild"] = "",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 		["gender"] = "Mw==",
 		["class"] = "V0FSTE9DSw==",
-		["name"] = "5Y+B6ZmG5LyN",
 		["lateststar"] = "MA==",
+		["latesttime"] = 1660372153,
 		["player"] = false,
 		["latestfrom"] = "",
 		["faction"] = "QWxsaWFuY2U=",
 		["race"] = "SHVtYW4=",
-		["latesttime"] = 1660372153,
+		["name"] = "5Y+B6ZmG5LyN",
 		["latestlevel"] = "MTk=",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 	}, -- [11]
 	{
 		["latestguild"] = "54Of6Iqx5piT5Ya35Li2",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 		["class"] = "UEFMQURJTg==",
 		["gender"] = "Mg==",
-		["name"] = "5LmF5Z2Q5LiN5o6p5p+05omJ",
 		["lateststar"] = "MA==",
+		["latesttime"] = 1660372153,
 		["race"] = "SHVtYW4=",
 		["latestfrom"] = "",
 		["faction"] = "QWxsaWFuY2U=",
 		["player"] = false,
-		["latesttime"] = 1660372153,
+		["name"] = "5LmF5Z2Q5LiN5o6p5p+05omJ",
 		["latestlevel"] = "MjA=",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 	}, -- [12]
 	{
 		["latestguild"] = "UGxheSBmb3IgVWJlcg==",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 		["class"] = "UEFMQURJTg==",
 		["gender"] = "Mw==",
-		["name"] = "5Y+M6ayT5p+T56eL6Zyc",
 		["lateststar"] = "MA==",
+		["latesttime"] = 1660372153,
 		["race"] = "SHVtYW4=",
 		["latestfrom"] = "",
 		["faction"] = "QWxsaWFuY2U=",
 		["player"] = false,
-		["latesttime"] = 1660372153,
+		["name"] = "5Y+M6ayT5p+T56eL6Zyc",
 		["latestlevel"] = "MjA=",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 	}, -- [13]
 	{
 		["latestguild"] = "5oiR55qE5b+r5LmQ5pe25Luj",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 		["class"] = "UEFMQURJTg==",
 		["gender"] = "Mw==",
-		["latestfrom"] = "",
 		["latesttime"] = 1660379699,
+		["lateststar"] = "MA==",
 		["race"] = "RHJhZW5laQ==",
 		["name"] = "5YWJ6ZO45LmL5Yqb",
 		["faction"] = "QWxsaWFuY2U=",
 		["player"] = false,
-		["lateststar"] = "MA==",
+		["latestfrom"] = "",
 		["latestlevel"] = "MjI=",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 	}, -- [14]
 	{
 		["latestguild"] = "5b2p6Jm557OW",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 		["class"] = "V0FSTE9DSw==",
 		["gender"] = "Mg==",
-		["latesttime"] = 1660388312,
+		["name"] = "VGlhbmd1dQ==",
 		["lateststar"] = "MA==",
 		["race"] = "SHVtYW4=",
-		["name"] = "VGlhbmd1dQ==",
+		["latestfrom"] = "",
 		["faction"] = "QWxsaWFuY2U=",
 		["player"] = false,
-		["latestfrom"] = "",
+		["latesttime"] = 1660388312,
 		["latestlevel"] = "MjY=",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 	}, -- [15]
 	{
 		["latestguild"] = "5Y2K6YaJ5Y2K6YaS5Y2K5rWu55Sf",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 		["class"] = "RFJVSUQ=",
 		["gender"] = "Mw==",
-		["lateststar"] = "MA==",
+		["latestfrom"] = "",
 		["latesttime"] = 1660396221,
 		["race"] = "TmlnaHRFbGY=",
-		["latestfrom"] = "",
+		["name"] = "6Im+6Zyy6JK95LmL5YWJ",
 		["faction"] = "QWxsaWFuY2U=",
 		["player"] = false,
-		["name"] = "6Im+6Zyy6JK95LmL5YWJ",
+		["lateststar"] = "MA==",
 		["latestlevel"] = "Mjc=",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 	}, -- [16]
 	{
 		["latestguild"] = "5Lu75Yqh6L6+5Lq6",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 		["class"] = "SFVOVEVS",
 		["gender"] = "Mg==",
-		["lateststar"] = "MA==",
+		["latestfrom"] = "",
 		["latesttime"] = 1660396221,
 		["race"] = "TmlnaHRFbGY=",
-		["latestfrom"] = "",
+		["name"] = "55av54uC6LSx566t",
 		["faction"] = "QWxsaWFuY2U=",
 		["player"] = false,
-		["name"] = "55av54uC6LSx566t",
+		["lateststar"] = "MA==",
 		["latestlevel"] = "MjY=",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 	}, -- [17]
 	{
 		["latestguild"] = "5oiR55qE5b+r5LmQ5pe25Luj",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 		["class"] = "TUFHRQ==",
 		["gender"] = "Mg==",
-		["lateststar"] = "MA==",
+		["latestfrom"] = "",
 		["latesttime"] = 1660402604,
 		["race"] = "R25vbWU=",
-		["latestfrom"] = "",
+		["name"] = "5aSP5rKQ5YeJ6aOO5Li2",
 		["faction"] = "QWxsaWFuY2U=",
 		["player"] = false,
-		["name"] = "5aSP5rKQ5YeJ6aOO5Li2",
+		["lateststar"] = "MA==",
 		["latestlevel"] = "MjE=",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 	}, -- [18]
 	{
 		["latestguild"] = "",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 		["gender"] = "Mg==",
 		["class"] = "TUFHRQ==",
-		["lateststar"] = "MA==",
+		["latestfrom"] = "",
 		["latesttime"] = 1660404002,
 		["player"] = false,
-		["latestfrom"] = "",
+		["name"] = "6ICB546L5Lya5LiK5aKZ",
 		["faction"] = "QWxsaWFuY2U=",
 		["race"] = "R25vbWU=",
-		["name"] = "6ICB546L5Lya5LiK5aKZ",
+		["lateststar"] = "MA==",
 		["latestlevel"] = "MjI=",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 	}, -- [19]
 	{
 		["latestguild"] = "",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 		["gender"] = "Mw==",
 		["class"] = "V0FSTE9DSw==",
-		["lateststar"] = "MA==",
+		["latestfrom"] = "",
 		["latesttime"] = 1660409115,
 		["player"] = false,
-		["latestfrom"] = "",
+		["name"] = "6LSd5Lid5a6J",
 		["faction"] = "QWxsaWFuY2U=",
 		["race"] = "SHVtYW4=",
-		["name"] = "6LSd5Lid5a6J",
+		["lateststar"] = "MA==",
 		["latestlevel"] = "Mjc=",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 	}, -- [20]
 	{
 		["latestguild"] = "5L2g5oCV5ouM5ZOS6ISR5aOz",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 		["class"] = "Uk9HVUU=",
 		["gender"] = "Mw==",
-		["lateststar"] = "MA==",
+		["latestfrom"] = "",
 		["latesttime"] = 1660412796,
 		["race"] = "R25vbWU=",
-		["latestfrom"] = "",
+		["name"] = "S29zaQ==",
 		["faction"] = "QWxsaWFuY2U=",
 		["player"] = false,
-		["name"] = "S29zaQ==",
+		["lateststar"] = "MA==",
 		["latestlevel"] = "MjM=",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 	}, -- [21]
 	{
 		["latestguild"] = "5Lu75Yqh6L6+5Lq6",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 		["class"] = "U0hBTUFO",
 		["gender"] = "Mw==",
-		["latestfrom"] = "",
 		["latesttime"] = 1660445012,
+		["lateststar"] = "MA==",
 		["race"] = "RHJhZW5laQ==",
 		["name"] = "5bCP5aW26b6Z",
 		["faction"] = "QWxsaWFuY2U=",
 		["player"] = false,
-		["lateststar"] = "MA==",
+		["latestfrom"] = "",
 		["latestlevel"] = "MjY=",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 	}, -- [22]
 	{
 		["latestguild"] = "VWx0aW1hIFRodWxl",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 		["class"] = "Uk9HVUU=",
 		["gender"] = "Mw==",
-		["latestfrom"] = "",
 		["latesttime"] = 1660445012,
+		["lateststar"] = "MA==",
 		["race"] = "SHVtYW4=",
 		["name"] = "5LiL6aWt6LS8",
 		["faction"] = "QWxsaWFuY2U=",
 		["player"] = false,
-		["lateststar"] = "MA==",
+		["latestfrom"] = "",
 		["latestlevel"] = "Mjk=",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 	}, -- [23]
 	{
 		["latestguild"] = "",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 		["gender"] = "Mw==",
 		["class"] = "SFVOVEVS",
-		["latestfrom"] = "",
 		["latesttime"] = 1660445012,
+		["lateststar"] = "MA==",
 		["player"] = false,
 		["name"] = "5ouJ5aiF6ZW/5byT",
 		["faction"] = "QWxsaWFuY2U=",
 		["race"] = "TmlnaHRFbGY=",
-		["lateststar"] = "MA==",
+		["latestfrom"] = "",
 		["latestlevel"] = "MjU=",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 	}, -- [24]
 	{
 		["latestguild"] = "",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 		["gender"] = "Mg==",
 		["class"] = "V0FSTE9DSw==",
-		["latestfrom"] = "",
 		["latesttime"] = 1660445012,
+		["lateststar"] = "MA==",
 		["player"] = false,
 		["name"] = "5bCP6Lqr5p2Q5aSn6IO96YeP",
 		["faction"] = "QWxsaWFuY2U=",
 		["race"] = "R25vbWU=",
-		["lateststar"] = "MA==",
+		["latestfrom"] = "",
 		["latestlevel"] = "MjU=",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 	}, -- [25]
 	{
 		["latestguild"] = "54Of6Iqx5piT5Ya35Li2",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 		["class"] = "V0FSUklPUg==",
 		["gender"] = "Mg==",
-		["latesttime"] = 1660448776,
+		["name"] = "5p2O5rKJ6Iif",
 		["lateststar"] = "MA==",
 		["race"] = "SHVtYW4=",
-		["name"] = "5p2O5rKJ6Iif",
+		["latestfrom"] = "",
 		["faction"] = "QWxsaWFuY2U=",
 		["player"] = false,
-		["latestfrom"] = "",
+		["latesttime"] = 1660448776,
 		["latestlevel"] = "Mjk=",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 	}, -- [26]
 	{
 		["latestguild"] = "",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 		["gender"] = "Mw==",
 		["class"] = "U0hBTUFO",
-		["lateststar"] = "MA==",
+		["latestfrom"] = "",
 		["latesttime"] = 1660487002,
 		["player"] = false,
-		["latestfrom"] = "",
+		["name"] = "5Li/57uI54Gs5puy5Lio",
 		["faction"] = "QWxsaWFuY2U=",
 		["race"] = "RHJhZW5laQ==",
-		["name"] = "5Li/57uI54Gs5puy5Lio",
+		["lateststar"] = "MA==",
 		["latestlevel"] = "MzI=",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 	}, -- [27]
 	{
 		["latestguild"] = "5ouJ5a6M57KR57KR5oqT6LW354yp54yp5pOm5bGB6IKh",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 		["class"] = "U0hBTUFO",
 		["gender"] = "Mw==",
-		["lateststar"] = "MA==",
+		["latestfrom"] = "",
 		["latesttime"] = 1660487002,
 		["race"] = "RHJhZW5laQ==",
-		["latestfrom"] = "",
+		["name"] = "6aOO5oCS5Zyj546L",
 		["faction"] = "QWxsaWFuY2U=",
 		["player"] = false,
-		["name"] = "6aOO5oCS5Zyj546L",
+		["lateststar"] = "MA==",
 		["latestlevel"] = "MzA=",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 	}, -- [28]
 	{
 		["latestguild"] = "54Of6Iqx5piT5Ya35Li2",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 		["class"] = "V0FSTE9DSw==",
 		["gender"] = "Mw==",
-		["latestfrom"] = "",
 		["latesttime"] = 1660491665,
+		["lateststar"] = "MA==",
 		["race"] = "SHVtYW4=",
 		["name"] = "55eb6Ium5qmf6LuK",
 		["faction"] = "QWxsaWFuY2U=",
 		["player"] = false,
-		["lateststar"] = "MA==",
+		["latestfrom"] = "",
 		["latestlevel"] = "MzE=",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 	}, -- [29]
 	{
 		["latestguild"] = "5oqr6I2G5pap5qOY5ru05aeQ5aeQ5Lus",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 		["class"] = "TUFHRQ==",
 		["gender"] = "Mw==",
-		["latesttime"] = 1660578697,
+		["name"] = "5ZCJ5a6J5Y+R",
 		["lateststar"] = "MA==",
 		["race"] = "R25vbWU=",
-		["name"] = "5ZCJ5a6J5Y+R",
+		["latestfrom"] = "",
 		["faction"] = "QWxsaWFuY2U=",
 		["player"] = false,
-		["latestfrom"] = "",
+		["latesttime"] = 1660578697,
 		["latestlevel"] = "Mzg=",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 	}, -- [30]
 	{
 		["latestguild"] = "",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 		["gender"] = "Mw==",
 		["class"] = "V0FSTE9DSw==",
-		["name"] = "5LiA5pil5ZOl5Lmd5Y2B5LiJ",
 		["lateststar"] = "MA==",
+		["latesttime"] = 1660668262,
 		["player"] = false,
 		["latestfrom"] = "",
 		["faction"] = "QWxsaWFuY2U=",
 		["race"] = "R25vbWU=",
-		["latesttime"] = 1660668262,
+		["name"] = "5LiA5pil5ZOl5Lmd5Y2B5LiJ",
 		["latestlevel"] = "NDA=",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 	}, -- [31]
 	{
 		["latestguild"] = "",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 		["gender"] = "Mw==",
 		["class"] = "V0FSTE9DSw==",
-		["name"] = "5pil5ZOl5YWt5LqU",
 		["lateststar"] = "MA==",
+		["latesttime"] = 1660668262,
 		["player"] = false,
 		["latestfrom"] = "",
 		["faction"] = "QWxsaWFuY2U=",
 		["race"] = "SHVtYW4=",
-		["latesttime"] = 1660668262,
+		["name"] = "5pil5ZOl5YWt5LqU",
 		["latestlevel"] = "NjA=",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 	}, -- [32]
 	{
 		["latestguild"] = "",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 		["gender"] = "Mg==",
 		["class"] = "V0FSTE9DSw==",
-		["name"] = "5LiA5pil5ZOl5Lmd5Y2B5Zub",
 		["lateststar"] = "MA==",
+		["latesttime"] = 1660668262,
 		["player"] = false,
 		["latestfrom"] = "",
 		["faction"] = "QWxsaWFuY2U=",
 		["race"] = "R25vbWU=",
-		["latesttime"] = 1660668262,
+		["name"] = "5LiA5pil5ZOl5Lmd5Y2B5Zub",
 		["latestlevel"] = "NDA=",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 	}, -- [33]
 	{
 		["latestguild"] = "5aSP5pel5b6u6Jaw",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 		["class"] = "SFVOVEVS",
-		["lateststar"] = "MA==",
 		["gender"] = "Mw==",
+		["latestfrom"] = "",
 		["latesttime"] = 1660740605,
 		["race"] = "TmlnaHRFbGY=",
-		["latestfrom"] = "",
+		["name"] = "5aW25rK56Iqd5aOr5rGJ5aCh",
 		["faction"] = "QWxsaWFuY2U=",
 		["player"] = false,
-		["name"] = "5aW25rK56Iqd5aOr5rGJ5aCh",
+		["lateststar"] = "MA==",
 		["latestlevel"] = "NDU=",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 	}, -- [34]
 	{
 		["latestguild"] = "5aWz55Sf5a6/6IiN",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 		["class"] = "U0hBTUFO",
-		["lateststar"] = "MA==",
 		["gender"] = "Mw==",
+		["latestfrom"] = "",
 		["latesttime"] = 1660740605,
 		["race"] = "RHJhZW5laQ==",
-		["latestfrom"] = "",
+		["name"] = "5LiA6ZSk5a2Q56C45q27",
 		["faction"] = "QWxsaWFuY2U=",
 		["player"] = false,
-		["name"] = "5LiA6ZSk5a2Q56C45q27",
+		["lateststar"] = "MA==",
 		["latestlevel"] = "NDg=",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 	}, -- [35]
 	{
 		["latestguild"] = "5pif5LqR",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 		["class"] = "RFJVSUQ=",
-		["lateststar"] = "MA==",
 		["gender"] = "Mg==",
+		["latestfrom"] = "",
 		["latesttime"] = 1660740605,
 		["race"] = "TmlnaHRFbGY=",
-		["latestfrom"] = "",
+		["name"] = "6Zu25rCq5aSn54mb54mb",
 		["faction"] = "QWxsaWFuY2U=",
 		["player"] = false,
-		["name"] = "6Zu25rCq5aSn54mb54mb",
+		["lateststar"] = "MA==",
 		["latestlevel"] = "NDQ=",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 	}, -- [36]
 	{
 		["latestguild"] = "54Of6Iqx5piT5Ya35Li2",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 		["class"] = "TUFHRQ==",
-		["lateststar"] = "MA==",
 		["gender"] = "Mg==",
+		["latestfrom"] = "",
 		["latesttime"] = 1660740605,
 		["race"] = "SHVtYW4=",
-		["latestfrom"] = "",
+		["name"] = "56Cz56Cz5rKQ",
 		["faction"] = "QWxsaWFuY2U=",
 		["player"] = false,
-		["name"] = "56Cz56Cz5rKQ",
+		["lateststar"] = "MA==",
 		["latestlevel"] = "NDY=",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 	}, -- [37]
 	{
 		["latestguild"] = "5Lio5YWJ6L6J5bKB5pyI5Lio",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 		["class"] = "TUFHRQ==",
-		["lateststar"] = "MA==",
 		["gender"] = "Mw==",
+		["latestfrom"] = "",
 		["latesttime"] = 1660744136,
 		["race"] = "R25vbWU=",
-		["latestfrom"] = "",
+		["name"] = "6ay86ay85ZCD6IKJ6IKJ",
 		["faction"] = "QWxsaWFuY2U=",
 		["player"] = false,
-		["name"] = "6ay86ay85ZCD6IKJ6IKJ",
+		["lateststar"] = "MA==",
 		["latestlevel"] = "NDc=",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 	}, -- [38]
 	{
 		["latestguild"] = "5b2p6Jm557OW",
-		["realm"] = "56WI56aP",
+		["latestcmt"] = "",
 		["class"] = "UFJJRVNU",
-		["lateststar"] = "MA==",
 		["gender"] = "Mw==",
+		["latestfrom"] = "",
 		["latesttime"] = 1660745133,
 		["race"] = "SHVtYW4=",
-		["latestfrom"] = "",
+		["name"] = "6KGX6KeS6ZmM6Lev",
 		["faction"] = "QWxsaWFuY2U=",
 		["player"] = false,
-		["name"] = "6KGX6KeS6ZmM6Lev",
+		["lateststar"] = "MA==",
 		["latestlevel"] = "NDk=",
-		["latestcmt"] = "",
+		["realm"] = "56WI56aP",
 	}, -- [39]
+	{
+		["latestguild"] = "5LiA5pil5ZOl5pq06aOO6ZOB54KJ5rOw6L6+5biM5bCU5Z+D57Si6L6+5Li257qz6IuP5pav5rKZ5aGU5pav5Z+O",
+		["latestfrom"] = "",
+		["class"] = "V0FSTE9DSw==",
+		["latesttime"] = 1660832603,
+		["latestcmt"] = "",
+		["lateststar"] = "MA==",
+		["race"] = "R25vbWU=",
+		["name"] = "5LiA5pil5ZOl5YWr5Y2B5LqM",
+		["faction"] = "QWxsaWFuY2U=",
+		["player"] = false,
+		["gender"] = "Mw==",
+		["latestlevel"] = "NDA=",
+		["realm"] = "56WI56aP",
+	}, -- [40]
+	{
+		["latestguild"] = "5LiA5pil5ZOl5rKZ5aGU5pav5aSq6Ziz5LmL5LqV5pe25YWJ5LmL56m055uY54mZ5rC05bqT5pq06aOO5pq06KaB5aGe",
+		["latestfrom"] = "",
+		["class"] = "V0FSTE9DSw==",
+		["latesttime"] = 1660832603,
+		["latestcmt"] = "",
+		["lateststar"] = "MA==",
+		["race"] = "SHVtYW4=",
+		["name"] = "5pil5ZOl5YWt5LiJ",
+		["faction"] = "QWxsaWFuY2U=",
+		["player"] = false,
+		["gender"] = "Mg==",
+		["latestlevel"] = "NjA=",
+		["realm"] = "56WI56aP",
+	}, -- [41]
+	{
+		["latestguild"] = "5LiA5pil5ZOl5pq06aOO6ZOB54KJ5rOw6L6+5biM5bCU5Z+D57Si6L6+5Li257qz6IuP5pav5rKZ5aGU5pav5Z+O",
+		["latestfrom"] = "",
+		["class"] = "V0FSTE9DSw==",
+		["latesttime"] = 1660832603,
+		["latestcmt"] = "",
+		["lateststar"] = "MA==",
+		["race"] = "R25vbWU=",
+		["name"] = "5LiA5pil5ZOl5YWr5Y2B5LiA",
+		["faction"] = "QWxsaWFuY2U=",
+		["player"] = false,
+		["gender"] = "Mg==",
+		["latestlevel"] = "NDA=",
+		["realm"] = "56WI56aP",
+	}, -- [42]
+	{
+		["latestguild"] = "5LiA5pil5ZOl5pe25YWJ5aGU57qz5Yip5pav5biM5bCU5pav5rW35bGx5Yqg5Z+65qOu",
+		["latestfrom"] = "",
+		["class"] = "V0FSTE9DSw==",
+		["latesttime"] = 1660833159,
+		["latestcmt"] = "",
+		["lateststar"] = "MA==",
+		["race"] = "R25vbWU=",
+		["name"] = "5Yqg5Z+65qOu5pil5ZOl",
+		["faction"] = "QWxsaWFuY2U=",
+		["player"] = false,
+		["gender"] = "Mw==",
+		["latestlevel"] = "MzE=",
+		["realm"] = "56WI56aP",
+	}, -- [43]
+	{
+		["latestguild"] = "5LiA5pil5ZOl5pe25YWJ5aGU57qz5Yip5pav5biM5bCU5pav5rW35bGx5Yqg5Z+65qOu",
+		["latestfrom"] = "",
+		["class"] = "V0FSTE9DSw==",
+		["latesttime"] = 1660833159,
+		["latestcmt"] = "",
+		["lateststar"] = "MA==",
+		["race"] = "R25vbWU=",
+		["name"] = "56WW5bCU5rOV5ouJ5YWL5pil",
+		["faction"] = "QWxsaWFuY2U=",
+		["player"] = false,
+		["gender"] = "Mg==",
+		["latestlevel"] = "MzE=",
+		["realm"] = "56WI56aP",
+	}, -- [44]
+	{
+		["latestguild"] = "",
+		["latestfrom"] = "",
+		["gender"] = "Mw==",
+		["latesttime"] = 1660833623,
+		["latestcmt"] = "",
+		["lateststar"] = "MA==",
+		["player"] = false,
+		["name"] = "5pGn5p6v5ouJ5py95LmE",
+		["faction"] = "QWxsaWFuY2U=",
+		["race"] = "SHVtYW4=",
+		["class"] = "UEFMQURJTg==",
+		["latestlevel"] = "NDg=",
+		["realm"] = "56WI56aP",
+	}, -- [45]
+	{
+		["latestguild"] = "5L2c6aOO5LyY6Imv",
+		["latestfrom"] = "",
+		["class"] = "Uk9HVUU=",
+		["latesttime"] = 1660833623,
+		["latestcmt"] = "",
+		["lateststar"] = "MA==",
+		["race"] = "SHVtYW4=",
+		["name"] = "6IOh6KaH6KaH",
+		["faction"] = "QWxsaWFuY2U=",
+		["player"] = false,
+		["gender"] = "Mw==",
+		["latestlevel"] = "NDY=",
+		["realm"] = "56WI56aP",
+	}, -- [46]
+	{
+		["latestguild"] = "5LqR56uv5LmL5LiK",
+		["latestfrom"] = "",
+		["class"] = "UEFMQURJTg==",
+		["latesttime"] = 1660833623,
+		["latestcmt"] = "",
+		["lateststar"] = "MA==",
+		["race"] = "SHVtYW4=",
+		["name"] = "5Y2X5oWV5LqR",
+		["faction"] = "QWxsaWFuY2U=",
+		["player"] = false,
+		["gender"] = "Mw==",
+		["latestlevel"] = "NDY=",
+		["realm"] = "56WI56aP",
+	}, -- [47]
+	{
+		["latestguild"] = "5rOb5a6H5a6Z6IGU5ZCI5L+D6L+b5Lya",
+		["latestfrom"] = "",
+		["class"] = "RFJVSUQ=",
+		["latesttime"] = 1660833623,
+		["latestcmt"] = "",
+		["lateststar"] = "MA==",
+		["race"] = "TmlnaHRFbGY=",
+		["name"] = "5bCP5bCP54aK6aW85bmy",
+		["faction"] = "QWxsaWFuY2U=",
+		["player"] = false,
+		["gender"] = "Mg==",
+		["latestlevel"] = "NTM=",
+		["realm"] = "56WI56aP",
+	}, -- [48]
+	{
+		["latestguild"] = "6Im+IOazvSDmi4kg5pavIOaKpCDljasg6Zif",
+		["latestfrom"] = "",
+		["class"] = "UFJJRVNU",
+		["latesttime"] = 1660833623,
+		["latestcmt"] = "",
+		["lateststar"] = "MA==",
+		["race"] = "SHVtYW4=",
+		["name"] = "6JCo5ZOH6JKC5ZKU",
+		["faction"] = "QWxsaWFuY2U=",
+		["player"] = false,
+		["gender"] = "Mw==",
+		["latestlevel"] = "NDk=",
+		["realm"] = "56WI56aP",
+	}, -- [49]
+	{
+		["latestguild"] = "",
+		["latestfrom"] = "",
+		["gender"] = "Mg==",
+		["latesttime"] = 1660838146,
+		["latestcmt"] = "",
+		["lateststar"] = "MA==",
+		["player"] = false,
+		["name"] = "54yc6Zy4",
+		["faction"] = "QWxsaWFuY2U=",
+		["race"] = "RHdhcmY=",
+		["class"] = "Uk9HVUU=",
+		["latestlevel"] = "MA==",
+		["realm"] = "56WI56aP",
+	}, -- [50]
+	{
+		["latestguild"] = "5LiA5pil5ZOl5pq06aOO6ZOB54KJ5rOw6L6+5biM5bCU5Z+D57Si6L6+5Li257qz6IuP5pav5rKZ5aGU5pav5Z+O",
+		["latestfrom"] = "",
+		["class"] = "V0FSTE9DSw==",
+		["latesttime"] = 1660838146,
+		["latestcmt"] = "",
+		["lateststar"] = "MA==",
+		["race"] = "R25vbWU=",
+		["name"] = "5LiA5pil5ZOl5Lmd5Y2B5LqU",
+		["faction"] = "QWxsaWFuY2U=",
+		["player"] = false,
+		["gender"] = "Mg==",
+		["latestlevel"] = "NDA=",
+		["realm"] = "56WI56aP",
+	}, -- [51]
+	{
+		["latestguild"] = "5LiA5pil5ZOl5rKZ5aGU5pav5aSq6Ziz5LmL5LqV5pe25YWJ5LmL56m055uY54mZ5rC05bqT5pq06aOO5pq06KaB5aGe",
+		["latestfrom"] = "",
+		["class"] = "V0FSTE9DSw==",
+		["latesttime"] = 1660838146,
+		["latestcmt"] = "",
+		["lateststar"] = "MA==",
+		["race"] = "SHVtYW4=",
+		["name"] = "5pil5ZOl5Y2B5LqM",
+		["faction"] = "QWxsaWFuY2U=",
+		["player"] = false,
+		["gender"] = "Mw==",
+		["latestlevel"] = "NjA=",
+		["realm"] = "56WI56aP",
+	}, -- [52]
+	{
+		["latestguild"] = "5LiA5pil5ZOl5pq06aOO6ZOB54KJ5rOw6L6+5biM5bCU5Z+D57Si6L6+5Li257qz6IuP5pav5rKZ5aGU5pav5Z+O",
+		["latestfrom"] = "",
+		["class"] = "V0FSTE9DSw==",
+		["latesttime"] = 1660838146,
+		["latestcmt"] = "",
+		["lateststar"] = "MA==",
+		["race"] = "R25vbWU=",
+		["name"] = "5LiA5pil5ZOl5Lmd5Y2B5YWt",
+		["faction"] = "QWxsaWFuY2U=",
+		["player"] = false,
+		["gender"] = "Mg==",
+		["latestlevel"] = "NDA=",
+		["realm"] = "56WI56aP",
+	}, -- [53]
+	{
+		["latestguild"] = "5oiR55qE5b+r5LmQ5pe25Luj",
+		["class"] = "SFVOVEVS",
+		["race"] = "RHdhcmY=",
+		["name"] = "5Z+O5biC5LmE6ayj5Lq6",
+		["faction"] = "QWxsaWFuY2U=",
+		["player"] = false,
+		["gender"] = "Mg==",
+		["latestlevel"] = "NTA=",
+		["realm"] = "56WI56aP",
+	}, -- [54]
 }
 Puggle_encoded = true
