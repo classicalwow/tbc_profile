@@ -6,6 +6,12 @@ MEETINGHORN_DB = {
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
+			["cache"] = {
+				["cooldown"] = {
+					["start"] = 1660833807,
+					["duration"] = 50,
+				},
+			},
 			["goodleader"] = {
 				["tags"] = {
 					"幽默风趣", -- [1]
@@ -16,12 +22,6 @@ MEETINGHORN_DB = {
 					"段子手", -- [6]
 					"欧皇", -- [7]
 					"良心团长", -- [8]
-				},
-			},
-			["cache"] = {
-				["cooldown"] = {
-					["start"] = 1660833807,
-					["duration"] = 50,
 				},
 			},
 		},
