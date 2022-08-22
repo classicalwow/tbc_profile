@@ -23,8 +23,8 @@ H: 631
 Frame: MeetingHornMainPanel
 FrameLevel: 1
 Anchor: RIGHT
-X: -100
-Y: -127
+X: -302
+Y: -117
 W: 838
 H: 424
 Frame: scanner_button
@@ -41,3 +41,10 @@ X: -309
 Y: 127
 W: 87
 H: 32
+Frame: WeakAurasOptions
+FrameLevel: 1
+Anchor: CENTER
+X: 286
+Y: 58
+W: 830
+H: 665

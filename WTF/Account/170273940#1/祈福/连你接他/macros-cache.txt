@@ -1,0 +1,22 @@
+VER 3 0000000001000001 "1" "INV_MISC_QUESTIONMARK"
+/4 代刷法师 梅花舞剑 梅花舞剑 梅花舞剑  是超级大骗子  大家注意  托管偷你G骗你钱删你微信，浪费你时间。
+END
+VER 3 0000000001000005 "Buff'o'mat" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/bom update
+END
+VER 3 0000000001000002 "压制" "132223"
+#showtooltip 壓制(等級 4)
+/cast 戰鬥姿態
+/cast 壓制(等級 4)
+END
+VER 3 0000000001000003 "嗜血" "136012"
+#showtooltip 嗜血
+/cast 嗜血
+/startattack
+END
+VER 3 0000000001000004 "撕裂" "132302"
+#showtooltip 撕裂
+/cast 撕裂
+/startattack
+END

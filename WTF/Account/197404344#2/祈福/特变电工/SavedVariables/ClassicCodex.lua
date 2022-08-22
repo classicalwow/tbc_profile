@@ -10,9 +10,9 @@ CodexConfig = {
 	["minimumDropChance"] = 2,
 	["showLowLevel"] = false,
 	["_tom_waypoint"] = {
-		1446, -- [1]
-		0.56, -- [2]
-		0.7120000000000001, -- [3]
+		1944, -- [1]
+		0.4920000000000001, -- [2]
+		0.748, -- [3]
 		["arrivaldistance"] = 15,
 		["callbacks"] = {
 			["distance"] = {
@@ -33,54 +33,58 @@ CodexConfig = {
 		["persistent"] = true,
 		["minimap"] = true,
 		["cleardistance"] = 10,
-		["title"] = "谢申克的勘探设备",
+		["title"] = "雷加希",
 		["from"] = "?",
 		["crazy"] = true,
 		["world"] = true,
 	},
-	["continentIcon"] = false,
-	["currentQuestGivers"] = true,
+	["minimapButton"] = true,
+	["autoTurnin"] = false,
 	["spawnMarkerSize"] = 15,
-	["showFestival"] = false,
+	["zoneMapIcon"] = true,
 	["alwaysShowId"] = false,
 	["nameplateIcon"] = false,
 	["colorBySpawn"] = true,
-	["zoneMapIcon"] = true,
+	["showFestival"] = false,
 	["miniMapIcon"] = true,
-	["autoTurnin"] = false,
-	["minimapButton"] = true,
+	["currentQuestGivers"] = true,
+	["continentIcon"] = false,
 	["questMarkerSize"] = 15,
 }
 CodexHiddenQuests = {
-	[378] = true,
-	[116] = true,
-	[118] = true,
-	[325] = true,
-	[11771] = true,
-	[1301] = true,
-	[11802] = true,
-	[11826] = true,
-	[9268] = true,
-	[11816] = true,
-	[11773] = true,
-	[335] = true,
-	[11804] = true,
-	[11820] = true,
-	[11882] = true,
-	[11828] = true,
-	[344] = true,
-	[92] = true,
-	[6681] = true,
 	[1132] = true,
-	[1453] = true,
-	[11814] = true,
-	[11822] = true,
+	[92] = true,
+	[11826] = true,
+	[11828] = true,
 	[11766] = true,
-	[11776] = true,
-	[11815] = true,
-	[522] = true,
-	[11817] = true,
+	[8460] = true,
+	[11802] = true,
+	[11771] = true,
+	[11803] = true,
+	[11804] = true,
+	[11773] = true,
+	[11775] = true,
+	[1453] = true,
+	[325] = true,
 	[11808] = true,
+	[522] = true,
+	[116] = true,
+	[335] = true,
+	[11814] = true,
+	[11815] = true,
+	[378] = true,
+	[11816] = true,
+	[6681] = true,
+	[344] = true,
+	[118] = true,
+	[11818] = true,
+	[1301] = true,
+	[11882] = true,
+	[9268] = true,
+	[11820] = true,
+	[11817] = true,
+	[11822] = true,
+	[11776] = true,
 }
 CodexBrowserFavorites = {
 	["objects"] = {
@@ -108,6 +112,11 @@ CodexColors = {
 		0.807843137254902, -- [2]
 		0.1607843137254902, -- [3]
 	},
+	["碧火魔仆"] = {
+		0.6627450980392157, -- [1]
+		0.2352941176470588, -- [2]
+		0.3098039215686275, -- [3]
+	},
 	["基沙恩下士"] = {
 		0.2509803921568627, -- [1]
 		0.984313725490196, -- [2]
@@ -134,8 +143,8 @@ CodexColors = {
 		0.8, -- [3]
 	},
 	["狂怒的翼手龙"] = {
-		0.05490196078431373, -- [1]
-		0.4980392156862745, -- [2]
-		0.2705882352941176, -- [3]
+		0.09019607843137255, -- [1]
+		0.9176470588235294, -- [2]
+		0.5725490196078431, -- [3]
 	},
 }

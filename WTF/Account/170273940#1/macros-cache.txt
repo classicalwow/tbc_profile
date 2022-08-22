@@ -1,0 +1,9 @@
+VER 3 0000000000000001 "1" "INV_MISC_QUESTIONMARK"
+/console SET overrideArchive"0"
+END
+VER 3 0000000000000003 "alaGearMan0" "132293"
+/run AGM_FUNC.takeoffAll()
+END
+VER 3 0000000000000002 "Decursive" "INV_MISC_QUESTIONMARK"
+/script DecursiveRootTable.Dcr:Println('沒有可用法術')
+END

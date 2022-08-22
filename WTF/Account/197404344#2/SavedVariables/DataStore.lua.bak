@@ -15,13 +15,13 @@ DataStoreDB = {
 				["faction"] = "Alliance",
 			},
 			["Default.祈福.特变电工"] = {
-				["faction"] = "Alliance",
 				["guildName"] = "Play for Uber",
+				["faction"] = "Alliance",
 			},
 		},
 		["ShortToLongRealmNames"] = {
-			["祈福"] = "祈福",
 			["加丁"] = "加丁",
+			["祈福"] = "祈福",
 		},
 	},
 }
