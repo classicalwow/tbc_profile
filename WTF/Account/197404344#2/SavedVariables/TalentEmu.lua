@@ -8,7 +8,7 @@ TalentEmuSV = {
 		["minimapPos"] = 185,
 	},
 	["var"] = {
-		["Player-4778-04DBFC9E"] = "6si:0kyn-iDqOCu0Q-G1w0",
+		["Player-4778-04DBFC9E"] = "6sqoA:0kyn-iDqOCu0Q-G1y0",
 		["savedTalent"] = {
 		},
 		["Player-4501-04C9101E"] = "630",

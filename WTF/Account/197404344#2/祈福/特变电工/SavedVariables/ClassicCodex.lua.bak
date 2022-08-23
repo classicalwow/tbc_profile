@@ -6,26 +6,34 @@ CodexConfig = {
 	["showTrackingMethodDropdown"] = true,
 	["autoAccept"] = false,
 	["allQuestGivers"] = true,
-	["trackingMethod"] = 1,
+	["trackingMethod"] = 2,
 	["minimumDropChance"] = 2,
 	["showLowLevel"] = false,
 	["_tom_waypoint"] = {
-		1419, -- [1]
-		0.583, -- [2]
-		0.5589999999999999, -- [3]
+		1944, -- [1]
+		0.16, -- [2]
+		0.516, -- [3]
 		["arrivaldistance"] = 15,
 		["callbacks"] = {
 			["distance"] = {
-			},
-			["minimap"] = {
+				[10] = nil --[[ skipped inline function ]],
+				[15] = nil --[[ skipped inline function ]],
 			},
 			["world"] = {
+				["onclick"] = nil --[[ skipped inline function ]],
+				["tooltip_update"] = nil --[[ skipped inline function ]],
+				["tooltip_show"] = nil --[[ skipped inline function ]],
+			},
+			["minimap"] = {
+				["onclick"] = nil --[[ skipped inline function ]],
+				["tooltip_update"] = nil --[[ skipped inline function ]],
+				["tooltip_show"] = nil --[[ skipped inline function ]],
 			},
 		},
 		["persistent"] = true,
 		["minimap"] = true,
 		["cleardistance"] = 10,
-		["title"] = "守望堡指挥官雷索恩·奈瑟维",
+		["title"] = "缚地者加兰蒂娅·夜风",
 		["from"] = "?",
 		["crazy"] = true,
 		["world"] = true,
@@ -72,9 +80,9 @@ CodexHiddenQuests = {
 	[11818] = true,
 	[11817] = true,
 	[11882] = true,
-	[9268] = true,
-	[11820] = true,
 	[1301] = true,
+	[11820] = true,
+	[9268] = true,
 	[118] = true,
 	[378] = true,
 }

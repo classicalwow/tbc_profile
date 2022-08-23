@@ -7,33 +7,52 @@ ItemRackUser = {
 	["MainScale"] = 1,
 	["SetMenuWrapValue"] = 3,
 	["SetMenuWrap"] = "OFF",
+	["EnablePerSetQueues"] = "OFF",
 	["Sets"] = {
 		["~CombatQueue"] = {
 			["equip"] = {
+				[8] = "28074::::::::61:::::::::",
+				[13] = "25787::::::::61:::::::::",
+			},
+		},
+		["胡萝卜"] = {
+			["equip"] = {
+				[8] = "2276:464:::::::61:::::::::",
+				[13] = "11122::::::::61:::::::::",
+			},
+			["oldset"] = "胡萝卜",
+			["icon"] = 134010,
+			["old"] = {
+				[8] = "28074::::::::62:::::::::",
+				[13] = "25787::::::::62:::::::::",
 			},
 		},
 		["~Unequip"] = {
 			["equip"] = {
+				[8] = "28074::::::::62:::::::::",
+				[13] = "25787::::::::62:::::::::",
 			},
 		},
 	},
 	["EnableQueues"] = "ON",
-	["EnablePerSetQueues"] = "OFF",
-	["Buttons"] = {
+	["Queues"] = {
 	},
+	["Alpha"] = 1,
 	["ItemsUsed"] = {
 	},
 	["Events"] = {
 		["Enabled"] = {
+			["Mounted"] = true,
 		},
 		["Set"] = {
+			["Mounted"] = "胡萝卜",
 		},
 	},
-	["Alpha"] = 1,
 	["Hidden"] = {
 	},
 	["EnableEvents"] = "ON",
-	["MenuScale"] = 0.85,
-	["Queues"] = {
+	["Buttons"] = {
 	},
+	["MenuScale"] = 0.85,
+	["CurrentSet"] = "胡萝卜",
 }

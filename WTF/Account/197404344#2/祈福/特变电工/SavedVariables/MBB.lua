@@ -1,16 +1,18 @@
 
 MBB_Exclude = {
 	"CodexBrowserIcon", -- [1]
+	"WIM3MinimapButton", -- [2]
+	"LibDBIcon10_Questie", -- [3]
 }
 MBB_Options = {
 	["CollapseTimeout"] = 1,
 	["AltExpandDirection"] = 4,
 	["AttachToMinimap"] = 1,
+	["DetachedButtonPos"] = "TOPLEFT",
 	["MaxButtonsPerLine"] = 0,
-	["DetachedButtonPos"] = "CENTER",
 	["ButtonPos"] = {
-		-18, -- [1]
-		-100, -- [2]
+		-17.24755096435547, -- [1]
+		-14.67281913757324, -- [2]
 	},
 	["ExpandDirection"] = 1,
 }

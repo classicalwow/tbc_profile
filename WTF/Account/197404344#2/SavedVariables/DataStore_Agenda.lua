@@ -10,7 +10,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1659786093,
 			},
 			["Default.祈福.特变电工"] = {
-				["lastUpdate"] = 1661097716,
+				["lastUpdate"] = 1661183951,
 			},
 		},
 	},

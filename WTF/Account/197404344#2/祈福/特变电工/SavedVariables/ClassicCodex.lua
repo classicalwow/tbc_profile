@@ -11,29 +11,21 @@ CodexConfig = {
 	["showLowLevel"] = false,
 	["_tom_waypoint"] = {
 		1944, -- [1]
-		0.4920000000000001, -- [2]
-		0.748, -- [3]
+		0.16, -- [2]
+		0.516, -- [3]
 		["arrivaldistance"] = 15,
 		["callbacks"] = {
 			["distance"] = {
-				[10] = nil --[[ skipped inline function ]],
-				[15] = nil --[[ skipped inline function ]],
-			},
-			["world"] = {
-				["onclick"] = nil --[[ skipped inline function ]],
-				["tooltip_update"] = nil --[[ skipped inline function ]],
-				["tooltip_show"] = nil --[[ skipped inline function ]],
 			},
 			["minimap"] = {
-				["onclick"] = nil --[[ skipped inline function ]],
-				["tooltip_update"] = nil --[[ skipped inline function ]],
-				["tooltip_show"] = nil --[[ skipped inline function ]],
+			},
+			["world"] = {
 			},
 		},
 		["persistent"] = true,
 		["minimap"] = true,
 		["cleardistance"] = 10,
-		["title"] = "雷加希",
+		["title"] = "缚地者加兰蒂娅·夜风",
 		["from"] = "?",
 		["crazy"] = true,
 		["world"] = true,
@@ -69,8 +61,11 @@ CodexHiddenQuests = {
 	[11808] = true,
 	[522] = true,
 	[116] = true,
+	[10551] = true,
+	[10552] = true,
 	[335] = true,
 	[11814] = true,
+	[11829] = true,
 	[11815] = true,
 	[378] = true,
 	[11816] = true,
@@ -78,9 +73,9 @@ CodexHiddenQuests = {
 	[344] = true,
 	[118] = true,
 	[11818] = true,
-	[1301] = true,
-	[11882] = true,
 	[9268] = true,
+	[11882] = true,
+	[1301] = true,
 	[11820] = true,
 	[11817] = true,
 	[11822] = true,

@@ -1,5 +1,5 @@
 VER 3 0000000000000001 "target" "134328"
-/target 玛格汉步
+/target 凯
 /script SetRaidTarget("target",8)
 END
 VER 3 0000000000000002 "大脚世界频道" "132874"

@@ -94,9 +94,8 @@ AutoBarDB = {
 				["PALADIN"] = true,
 				["buttonHeight"] = 36,
 				["rows"] = 1,
-				["frameStrata"] = "LOW",
+				["scale"] = 1,
 				["dockShiftY"] = 0,
-				["alignButtons"] = "3",
 				["buttonKeys"] = {
 					"AutoBarButtonHearth", -- [1]
 					"AutoBarButtonBandages", -- [2]
@@ -118,17 +117,18 @@ AutoBarDB = {
 					"AutoBarButtonTrinket1", -- [18]
 					"AutoBarButtonTrinket2", -- [19]
 				},
+				["alignButtons"] = "3",
 				["posX"] = 300,
 				["enabled"] = true,
 				["DRUID"] = true,
 				["MONK"] = true,
 				["hide"] = false,
 				["DEATHKNIGHT"] = true,
-				["scale"] = 1,
-				["columns"] = 16,
 				["ROGUE"] = true,
+				["columns"] = 16,
 				["MAGE"] = true,
 				["posY"] = 200,
+				["frameStrata"] = "LOW",
 				["alpha"] = 1,
 				["PRIEST"] = true,
 				["HUNTER"] = true,
@@ -146,9 +146,8 @@ AutoBarDB = {
 				["PALADIN"] = true,
 				["buttonHeight"] = 36,
 				["rows"] = 1,
-				["frameStrata"] = "LOW",
+				["scale"] = 1,
 				["dockShiftY"] = 0,
-				["alignButtons"] = "3",
 				["buttonKeys"] = {
 					"AutoBarButtonSpeed", -- [1]
 					"AutoBarButtonFreeAction", -- [2]
@@ -161,17 +160,18 @@ AutoBarDB = {
 					"AutoBarButtonMount", -- [9]
 					"AutoBarButtonRaidTarget", -- [10]
 				},
+				["alignButtons"] = "3",
 				["posX"] = 300,
 				["enabled"] = true,
 				["DRUID"] = true,
 				["MONK"] = true,
 				["hide"] = false,
 				["DEATHKNIGHT"] = true,
-				["scale"] = 1,
-				["columns"] = 9,
 				["ROGUE"] = true,
+				["columns"] = 9,
 				["MAGE"] = true,
 				["posY"] = 360,
+				["frameStrata"] = "LOW",
 				["alpha"] = 1,
 				["PRIEST"] = true,
 				["HUNTER"] = true,
