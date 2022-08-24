@@ -32,14 +32,14 @@ MailLoggerDB = {
 	},
 	["TradeLog"] = {
 		{
-			["PlayerName"] = "特变电工",
 			["TargetName"] = "连你接他",
+			["Date"] = "2022-08-11",
 			["ReceiveMoney"] = 0,
 			["GiveItems"] = {
 			},
 			["GiveMoney"] = 0,
 			["Location"] = "艾爾文森林",
-			["Date"] = "2022-08-11",
+			["PlayerName"] = "特变电工",
 			["Time"] = "23:23:17",
 			["ReceiveItems"] = {
 			},
@@ -350,15 +350,15 @@ MailLoggerDB = {
 			},
 		}, -- [13]
 		{
+			["Date"] = "2022-08-13",
 			["TargetName"] = "趴趴小蝶",
-			["PlayerName"] = "特变电工",
 			["ReceiveMoney"] = 0,
 			["Time"] = "10:40:49",
 			["GiveMoney"] = 0,
 			["Location"] = "洛克莫丹",
 			["GiveItems"] = {
 			},
-			["Date"] = "2022-08-13",
+			["PlayerName"] = "特变电工",
 			["ReceiveItems"] = {
 			},
 		}, -- [14]
@@ -412,15 +412,15 @@ MailLoggerDB = {
 			},
 		}, -- [16]
 		{
+			["Date"] = "2022-08-13",
 			["TargetName"] = "匂丶德",
-			["PlayerName"] = "特变电工",
 			["ReceiveMoney"] = 0,
 			["Time"] = "12:04:16",
 			["GiveMoney"] = 0,
 			["Location"] = "西部荒野",
 			["GiveItems"] = {
 			},
-			["Date"] = "2022-08-13",
+			["PlayerName"] = "特变电工",
 			["ReceiveItems"] = {
 			},
 		}, -- [17]
@@ -474,27 +474,27 @@ MailLoggerDB = {
 			},
 		}, -- [19]
 		{
-			["TargetName"] = "久坐不掩柴扉",
 			["Date"] = "2022-08-13",
+			["PlayerName"] = "特变电工",
 			["ReceiveMoney"] = 0,
 			["GiveItems"] = {
 			},
 			["GiveMoney"] = 0,
 			["Location"] = "死亡矿井",
-			["PlayerName"] = "特变电工",
+			["TargetName"] = "久坐不掩柴扉",
 			["Time"] = "15:16:55",
 			["ReceiveItems"] = {
 			},
 		}, -- [20]
 		{
-			["TargetName"] = "久坐不掩柴扉",
 			["Date"] = "2022-08-13",
+			["PlayerName"] = "特变电工",
 			["ReceiveMoney"] = 0,
 			["GiveItems"] = {
 			},
 			["GiveMoney"] = 0,
 			["Location"] = "死亡矿井",
-			["PlayerName"] = "特变电工",
+			["TargetName"] = "久坐不掩柴扉",
 			["Time"] = "15:17:07",
 			["ReceiveItems"] = {
 			},
@@ -899,27 +899,27 @@ MailLoggerDB = {
 			},
 		}, -- [40]
 		{
-			["PlayerName"] = "特变电工",
 			["TargetName"] = "夏沐凉风丶",
+			["Date"] = "2022-08-13",
 			["ReceiveMoney"] = 0,
 			["GiveItems"] = {
 			},
 			["GiveMoney"] = 0,
 			["Location"] = "湿地",
-			["Date"] = "2022-08-13",
+			["PlayerName"] = "特变电工",
 			["Time"] = "23:00:31",
 			["ReceiveItems"] = {
 			},
 		}, -- [41]
 		{
-			["PlayerName"] = "特变电工",
 			["TargetName"] = "叙利亚第一骑",
+			["Date"] = "2022-08-13",
 			["ReceiveMoney"] = 0,
 			["GiveItems"] = {
 			},
 			["GiveMoney"] = 0,
 			["Location"] = "湿地",
-			["Date"] = "2022-08-13",
+			["PlayerName"] = "特变电工",
 			["Time"] = "23:57:15",
 			["ReceiveItems"] = {
 			},
@@ -969,14 +969,14 @@ MailLoggerDB = {
 			},
 		}, -- [43]
 		{
-			["PlayerName"] = "特变电工",
 			["TargetName"] = "叙利亚第一骑",
+			["Date"] = "2022-08-13",
 			["ReceiveMoney"] = 0,
 			["GiveItems"] = {
 			},
 			["GiveMoney"] = 0,
 			["Location"] = "湿地",
-			["Date"] = "2022-08-13",
+			["PlayerName"] = "特变电工",
 			["Time"] = "23:57:21",
 			["ReceiveItems"] = {
 			},
@@ -1359,14 +1359,14 @@ MailLoggerDB = {
 			},
 		}, -- [60]
 		{
-			["Date"] = "2022-08-15",
 			["PlayerName"] = "特变电工",
+			["TargetName"] = "阿古斯的勇士",
 			["ReceiveMoney"] = 0,
 			["GiveItems"] = {
 			},
 			["GiveMoney"] = 0,
 			["Location"] = "尘泥沼泽",
-			["TargetName"] = "阿古斯的勇士",
+			["Date"] = "2022-08-15",
 			["Time"] = "22:09:18",
 			["ReceiveItems"] = {
 			},
@@ -1593,14 +1593,14 @@ MailLoggerDB = {
 			},
 		}, -- [71]
 		{
-			["Date"] = "2022-08-17",
 			["PlayerName"] = "特变电工",
+			["TargetName"] = "春哥六五",
 			["ReceiveMoney"] = 0,
 			["GiveItems"] = {
 			},
 			["GiveMoney"] = 0,
 			["Location"] = "塔纳利斯",
-			["TargetName"] = "春哥六五",
+			["Date"] = "2022-08-17",
 			["Time"] = "00:44:44",
 			["ReceiveItems"] = {
 			},
@@ -1828,14 +1828,14 @@ MailLoggerDB = {
 			},
 		}, -- [80]
 		{
-			["Date"] = "2022-08-18",
 			["PlayerName"] = "特变电工",
+			["TargetName"] = "春哥六三",
 			["ReceiveMoney"] = 0,
 			["GiveItems"] = {
 			},
 			["GiveMoney"] = 0,
 			["Location"] = "暴风城",
-			["TargetName"] = "春哥六三",
+			["Date"] = "2022-08-18",
 			["Time"] = "22:24:05",
 			["ReceiveItems"] = {
 			},
@@ -1855,14 +1855,14 @@ MailLoggerDB = {
 			},
 		}, -- [82]
 		{
-			["Date"] = "2022-08-18",
 			["PlayerName"] = "特变电工",
+			["TargetName"] = "春哥八二",
 			["ReceiveMoney"] = 0,
 			["GiveItems"] = {
 			},
 			["GiveMoney"] = 0,
 			["Location"] = "塔纳利斯",
-			["TargetName"] = "春哥八二",
+			["Date"] = "2022-08-18",
 			["Time"] = "22:33:01",
 			["ReceiveItems"] = {
 			},
@@ -1882,27 +1882,27 @@ MailLoggerDB = {
 			},
 		}, -- [84]
 		{
-			["Date"] = "2022-08-18",
 			["PlayerName"] = "特变电工",
+			["TargetName"] = "春哥十二",
 			["ReceiveMoney"] = 0,
 			["GiveItems"] = {
 			},
 			["GiveMoney"] = 0,
 			["Location"] = "沙塔斯城",
-			["TargetName"] = "春哥十二",
+			["Date"] = "2022-08-18",
 			["Time"] = "23:56:08",
 			["ReceiveItems"] = {
 			},
 		}, -- [85]
 		{
-			["Date"] = "2022-08-18",
 			["PlayerName"] = "特变电工",
+			["TargetName"] = "春哥十二",
 			["ReceiveMoney"] = 0,
 			["GiveItems"] = {
 			},
 			["GiveMoney"] = 0,
 			["Location"] = "沙塔斯城",
-			["TargetName"] = "春哥十二",
+			["Date"] = "2022-08-18",
 			["Time"] = "23:56:15",
 			["ReceiveItems"] = {
 			},
@@ -2065,15 +2065,15 @@ MailLoggerDB = {
 			},
 		}, -- [92]
 		{
+			["TargetName"] = "春哥十二",
 			["PlayerName"] = "特变电工",
-			["Date"] = "2022-08-19",
 			["ReceiveMoney"] = 0,
 			["Time"] = "00:48:34",
 			["GiveMoney"] = 0,
 			["Location"] = "沙塔斯城",
 			["GiveItems"] = {
 			},
-			["TargetName"] = "春哥十二",
+			["Date"] = "2022-08-19",
 			["ReceiveItems"] = {
 			},
 		}, -- [93]
@@ -2092,14 +2092,14 @@ MailLoggerDB = {
 			},
 		}, -- [94]
 		{
-			["PlayerName"] = "特变电工",
 			["TargetName"] = "春哥六一",
+			["Date"] = "2022-08-20",
 			["ReceiveMoney"] = 0,
 			["GiveItems"] = {
 			},
 			["GiveMoney"] = 0,
 			["Location"] = "沙塔斯城",
-			["Date"] = "2022-08-20",
+			["PlayerName"] = "特变电工",
 			["Time"] = "11:28:19",
 			["ReceiveItems"] = {
 			},
@@ -2119,14 +2119,14 @@ MailLoggerDB = {
 			},
 		}, -- [96]
 		{
-			["PlayerName"] = "特变电工",
 			["TargetName"] = "一春哥八十九",
+			["Date"] = "2022-08-20",
 			["ReceiveMoney"] = 0,
 			["GiveItems"] = {
 			},
 			["GiveMoney"] = 0,
 			["Location"] = "塔纳利斯",
-			["Date"] = "2022-08-20",
+			["PlayerName"] = "特变电工",
 			["Time"] = "11:35:15",
 			["ReceiveItems"] = {
 			},
@@ -2146,14 +2146,14 @@ MailLoggerDB = {
 			},
 		}, -- [98]
 		{
-			["Date"] = "2022-08-20",
 			["PlayerName"] = "特变电工",
+			["TargetName"] = "丶春哥只曱",
 			["ReceiveMoney"] = 0,
 			["GiveItems"] = {
 			},
 			["GiveMoney"] = 0,
 			["Location"] = "沙塔斯城",
-			["TargetName"] = "丶春哥只曱",
+			["Date"] = "2022-08-20",
 			["Time"] = "23:58:36",
 			["ReceiveItems"] = {
 			},
@@ -2216,14 +2216,14 @@ MailLoggerDB = {
 			},
 		}, -- [102]
 		{
-			["TargetName"] = "春哥十五",
 			["Date"] = "2022-08-21",
+			["PlayerName"] = "特变电工",
 			["ReceiveMoney"] = 0,
 			["GiveItems"] = {
 			},
 			["GiveMoney"] = 0,
 			["Location"] = "沙塔斯城",
-			["PlayerName"] = "特变电工",
+			["TargetName"] = "春哥十五",
 			["Time"] = "12:44:02",
 			["ReceiveItems"] = {
 			},
@@ -2479,15 +2479,15 @@ MailLoggerDB = {
 			},
 		}, -- [115]
 		{
+			["TargetName"] = "春哥八四",
 			["PlayerName"] = "特变电工",
-			["Date"] = "2022-08-21",
 			["ReceiveMoney"] = 0,
 			["Time"] = "16:41:04",
 			["GiveMoney"] = 0,
 			["Location"] = "沙塔斯城",
 			["GiveItems"] = {
 			},
-			["TargetName"] = "春哥八四",
+			["Date"] = "2022-08-21",
 			["ReceiveItems"] = {
 			},
 		}, -- [116]
@@ -2506,14 +2506,14 @@ MailLoggerDB = {
 			},
 		}, -- [117]
 		{
-			["Date"] = "2022-08-21",
 			["PlayerName"] = "特变电工",
+			["TargetName"] = "春哥八四",
 			["ReceiveMoney"] = 0,
 			["GiveItems"] = {
 			},
 			["GiveMoney"] = 0,
 			["Location"] = "沙塔斯城",
-			["TargetName"] = "春哥八四",
+			["Date"] = "2022-08-21",
 			["Time"] = "19:15:34",
 			["ReceiveItems"] = {
 			},
@@ -2533,14 +2533,14 @@ MailLoggerDB = {
 			},
 		}, -- [119]
 		{
-			["Date"] = "2022-08-21",
 			["PlayerName"] = "特变电工",
+			["TargetName"] = "春哥八三",
 			["ReceiveMoney"] = 0,
 			["GiveItems"] = {
 			},
 			["GiveMoney"] = 0,
 			["Location"] = "暴风城",
-			["TargetName"] = "春哥八三",
+			["Date"] = "2022-08-21",
 			["Time"] = "20:34:32",
 			["ReceiveItems"] = {
 			},
@@ -2585,15 +2585,15 @@ MailLoggerDB = {
 			},
 		}, -- [122]
 		{
+			["Date"] = "2022-08-21",
 			["TargetName"] = "春哥四位",
-			["PlayerName"] = "特变电工",
 			["ReceiveMoney"] = 0,
 			["Time"] = "23:06:18",
 			["GiveMoney"] = 0,
 			["Location"] = "暴风城",
 			["GiveItems"] = {
 			},
-			["Date"] = "2022-08-21",
+			["PlayerName"] = "特变电工",
 			["ReceiveItems"] = {
 			},
 		}, -- [123]
@@ -2951,28 +2951,28 @@ MailLoggerDB = {
 			},
 		}, -- [137]
 		{
+			["Date"] = "2022-08-22",
 			["TargetName"] = "低价附魔师",
-			["PlayerName"] = "特变电工",
 			["ReceiveMoney"] = 0,
 			["Time"] = "23:55:05",
 			["GiveMoney"] = 0,
 			["Location"] = "铁炉堡",
 			["GiveItems"] = {
 			},
-			["Date"] = "2022-08-22",
+			["PlayerName"] = "特变电工",
 			["ReceiveItems"] = {
 			},
 		}, -- [138]
 		{
+			["Date"] = "2022-08-22",
 			["TargetName"] = "周也周也",
-			["PlayerName"] = "特变电工",
 			["ReceiveMoney"] = 0,
 			["Time"] = "23:55:39",
 			["GiveMoney"] = 0,
 			["Location"] = "铁炉堡",
 			["GiveItems"] = {
 			},
-			["Date"] = "2022-08-22",
+			["PlayerName"] = "特变电工",
 			["ReceiveItems"] = {
 			},
 		}, -- [139]
@@ -2997,41 +2997,41 @@ MailLoggerDB = {
 			},
 		}, -- [140]
 		{
+			["Date"] = "2022-08-22",
 			["TargetName"] = "周也周也",
-			["PlayerName"] = "特变电工",
 			["ReceiveMoney"] = 0,
 			["Time"] = "23:55:52",
 			["GiveMoney"] = 0,
 			["Location"] = "铁炉堡",
 			["GiveItems"] = {
 			},
-			["Date"] = "2022-08-22",
+			["PlayerName"] = "特变电工",
 			["ReceiveItems"] = {
 			},
 		}, -- [141]
 		{
+			["Date"] = "2022-08-22",
 			["TargetName"] = "丶华仔丶",
-			["PlayerName"] = "特变电工",
 			["ReceiveMoney"] = 0,
 			["Time"] = "23:55:56",
 			["GiveMoney"] = 0,
 			["Location"] = "铁炉堡",
 			["GiveItems"] = {
 			},
-			["Date"] = "2022-08-22",
+			["PlayerName"] = "特变电工",
 			["ReceiveItems"] = {
 			},
 		}, -- [142]
 		{
+			["Date"] = "2022-08-22",
 			["TargetName"] = "周也周也",
-			["PlayerName"] = "特变电工",
 			["ReceiveMoney"] = 0,
 			["Time"] = "23:56:50",
 			["GiveMoney"] = 0,
 			["Location"] = "铁炉堡",
 			["GiveItems"] = {
 			},
-			["Date"] = "2022-08-22",
+			["PlayerName"] = "特变电工",
 			["ReceiveItems"] = {
 			},
 		}, -- [143]
@@ -3075,5 +3075,20 @@ MailLoggerDB = {
 				}, -- [1]
 			},
 		}, -- [145]
+		{
+			["PlayerName"] = "特变电工",
+			["TargetName"] = "联盟拍卖行",
+			["Reason"] = 6,
+			["Date"] = "2022-08-24",
+			["ReceiveMoney"] = 71747,
+			["Time"] = "00:46:35",
+			["GiveMoney"] = 0,
+			["Location"] = "沙塔斯城",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+			},
+		}, -- [146]
 	},
 }

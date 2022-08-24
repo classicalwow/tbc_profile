@@ -10,22 +10,30 @@ CodexConfig = {
 	["minimumDropChance"] = 2,
 	["showLowLevel"] = false,
 	["_tom_waypoint"] = {
-		1944, -- [1]
-		0.16, -- [2]
-		0.516, -- [3]
+		1946, -- [1]
+		0.169, -- [2]
+		0.135, -- [3]
 		["arrivaldistance"] = 15,
 		["callbacks"] = {
 			["distance"] = {
-			},
-			["minimap"] = {
+				[10] = nil --[[ skipped inline function ]],
+				[15] = nil --[[ skipped inline function ]],
 			},
 			["world"] = {
+				["onclick"] = nil --[[ skipped inline function ]],
+				["tooltip_update"] = nil --[[ skipped inline function ]],
+				["tooltip_show"] = nil --[[ skipped inline function ]],
+			},
+			["minimap"] = {
+				["onclick"] = nil --[[ skipped inline function ]],
+				["tooltip_update"] = nil --[[ skipped inline function ]],
+				["tooltip_show"] = nil --[[ skipped inline function ]],
 			},
 		},
 		["persistent"] = true,
 		["minimap"] = true,
 		["cleardistance"] = 10,
-		["title"] = "缚地者加兰蒂娅·夜风",
+		["title"] = "安葛洛什殴斗者",
 		["from"] = "?",
 		["crazy"] = true,
 		["world"] = true,
@@ -45,6 +53,7 @@ CodexConfig = {
 }
 CodexHiddenQuests = {
 	[1132] = true,
+	[9744] = true,
 	[92] = true,
 	[11826] = true,
 	[11828] = true,
@@ -64,22 +73,24 @@ CodexHiddenQuests = {
 	[10551] = true,
 	[10552] = true,
 	[335] = true,
-	[11814] = true,
 	[11829] = true,
+	[11776] = true,
+	[11814] = true,
+	[118] = true,
 	[11815] = true,
-	[378] = true,
+	[11817] = true,
 	[11816] = true,
 	[6681] = true,
 	[344] = true,
-	[118] = true,
-	[11818] = true,
 	[9268] = true,
+	[11818] = true,
+	[11787] = true,
 	[11882] = true,
 	[1301] = true,
 	[11820] = true,
-	[11817] = true,
 	[11822] = true,
-	[11776] = true,
+	[9742] = true,
+	[378] = true,
 }
 CodexBrowserFavorites = {
 	["objects"] = {

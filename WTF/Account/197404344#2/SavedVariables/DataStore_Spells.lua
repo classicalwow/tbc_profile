@@ -37,7 +37,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.祈福.特变电工"] = {
-				["lastUpdate"] = 1661183951,
+				["lastUpdate"] = 1661266020,
 				["Spells"] = {
 					["刺殺"] = {
 						"5171|等級 1", -- [1]

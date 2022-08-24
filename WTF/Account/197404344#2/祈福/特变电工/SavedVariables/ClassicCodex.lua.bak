@@ -6,13 +6,13 @@ CodexConfig = {
 	["showTrackingMethodDropdown"] = true,
 	["autoAccept"] = false,
 	["allQuestGivers"] = true,
-	["trackingMethod"] = 2,
+	["trackingMethod"] = 1,
 	["minimumDropChance"] = 2,
 	["showLowLevel"] = false,
 	["_tom_waypoint"] = {
-		1944, -- [1]
-		0.16, -- [2]
-		0.516, -- [3]
+		1946, -- [1]
+		0.254, -- [2]
+		0.429, -- [3]
 		["arrivaldistance"] = 15,
 		["callbacks"] = {
 			["distance"] = {
@@ -33,7 +33,7 @@ CodexConfig = {
 		["persistent"] = true,
 		["minimap"] = true,
 		["cleardistance"] = 10,
-		["title"] = "缚地者加兰蒂娅·夜风",
+		["title"] = "Steam Pump Focus",
 		["from"] = "?",
 		["crazy"] = true,
 		["world"] = true,
@@ -53,6 +53,7 @@ CodexConfig = {
 }
 CodexHiddenQuests = {
 	[1132] = true,
+	[9744] = true,
 	[92] = true,
 	[11826] = true,
 	[11828] = true,
@@ -69,22 +70,27 @@ CodexHiddenQuests = {
 	[11808] = true,
 	[522] = true,
 	[116] = true,
+	[10551] = true,
+	[10552] = true,
 	[335] = true,
+	[1301] = true,
+	[378] = true,
 	[11814] = true,
-	[11815] = true,
 	[11776] = true,
+	[11815] = true,
+	[11822] = true,
 	[11816] = true,
 	[6681] = true,
 	[344] = true,
-	[11822] = true,
-	[11818] = true,
 	[11817] = true,
+	[11818] = true,
+	[11787] = true,
 	[11882] = true,
-	[1301] = true,
-	[11820] = true,
 	[9268] = true,
+	[11820] = true,
 	[118] = true,
-	[378] = true,
+	[9742] = true,
+	[11829] = true,
 }
 CodexBrowserFavorites = {
 	["objects"] = {

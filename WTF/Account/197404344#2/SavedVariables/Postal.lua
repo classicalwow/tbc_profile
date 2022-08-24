@@ -8,7 +8,7 @@ Postal3DB = {
 		["BlackBook"] = {
 			["alts"] = {
 				"Vscode|加丁|Alliance|3|ROGUE", -- [1]
-				"特变电工|祈福|Alliance|62|ROGUE", -- [2]
+				"特变电工|祈福|Alliance|63|ROGUE", -- [2]
 			},
 		},
 	},
