@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0538,
+	["LastPlayerFullName"] = "特变电工-祈福",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 25616,
@@ -8,9 +10,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:25616::::::::63:::::::::|h[迪莫斯的可靠头盔]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 25919,
-			["Level"] = 93,
-			["Link"] = "|cff1eff00|Hitem:25919::::::::60:::::::::|h[瑟丹的项链]|h|r",
+			["ID"] = 31727,
+			["Level"] = 94,
+			["Link"] = "|cff0070dd|Hitem:31727::::::::64:::::::::|h[染血羽毛项圈]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 27724,
@@ -18,10 +20,10 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:27724::::::::62:::::::::|h[蛮荒护肩]|h|r",
 		}, -- [3]
 		[13] = {
-			["ID"] = 28041,
-			["Level"] = 88,
+			["ID"] = 31617,
+			["Level"] = 102,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff0070dd|Hitem:28041::::::::60:::::::::|h[刃拳的宽容]|h|r",
+			["Link"] = "|cff1eff00|Hitem:31617::::::::64:::::::::|h[上古德莱尼作战咒符]|h|r",
 		},
 		[7] = {
 			["ID"] = 25507,
@@ -29,10 +31,10 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:25507::::::::61:::::::::|h[塔哈玛特护腿]|h|r",
 		},
 		[14] = {
-			["ID"] = 28041,
-			["Level"] = 88,
+			["ID"] = 31617,
+			["Level"] = 102,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff0070dd|Hitem:28041::::::::61:::::::::|h[刃拳的宽容]|h|r",
+			["Link"] = "|cff1eff00|Hitem:31617::::::::65:::::::::|h[上古德莱尼作战咒符]|h|r",
 		},
 		[15] = {
 			["ID"] = 25618,
@@ -66,16 +68,16 @@ PawnOptions = {
 			["Level"] = 90,
 			["Link"] = "|cff1eff00|Hitem:31788::::::::63:::::::::|h[黑刺手套]|h|r",
 		},
-		[18] = {
-			["ID"] = 28062,
-			["Level"] = 93,
-			["Link"] = "|cff1eff00|Hitem:28062::::::::61:::::::::|h[远征军强弩]|h|r",
+		[9] = {
+			["ID"] = 31661,
+			["Level"] = 96,
+			["Link"] = "|cff1eff00|Hitem:31661::::::::63:::::::::|h[莉萨奥的护腕]|h|r",
 		},
 		[11] = {
-			["ID"] = 25485,
-			["Level"] = 93,
+			["ID"] = 31820,
+			["Level"] = 102,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff1eff00|Hitem:25485::::::::61:::::::::|h[阿曼恩的徽记]|h|r",
+			["Link"] = "|cff1eff00|Hitem:31820::::::::64:::::::::|h[赐福徽记之戒]|h|r",
 		},
 		[6] = {
 			["ID"] = 31660,
@@ -83,19 +85,17 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:31660::::::::63:::::::::|h[蛮沼潜藏者腰带]|h|r",
 		},
 		[12] = {
-			["ID"] = 25485,
-			["Level"] = 93,
+			["ID"] = 31820,
+			["Level"] = 102,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff1eff00|Hitem:25485::::::::62:::::::::|h[阿曼恩的徽记]|h|r",
+			["Link"] = "|cff1eff00|Hitem:31820::::::::65:::::::::|h[赐福徽记之戒]|h|r",
 		},
-		[9] = {
-			["ID"] = 31661,
-			["Level"] = 96,
-			["Link"] = "|cff1eff00|Hitem:31661::::::::63:::::::::|h[莉萨奥的护腕]|h|r",
+		[18] = {
+			["ID"] = 28062,
+			["Level"] = 93,
+			["Link"] = "|cff1eff00|Hitem:28062::::::::61:::::::::|h[远征军强弩]|h|r",
 		},
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "特变电工-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

@@ -14,7 +14,6 @@ RecountDB = {
 					["h"] = 191,
 				},
 			},
-			["MainWindowHeight"] = 191.111083984375,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -28,6 +27,7 @@ RecountDB = {
 			["LastInstanceName"] = "祖尔法拉克",
 			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 209.4445648193359,
+			["MainWindowHeight"] = 191.111083984375,
 		},
 		["Vscode - 加丁"] = {
 			["MainWindow"] = {

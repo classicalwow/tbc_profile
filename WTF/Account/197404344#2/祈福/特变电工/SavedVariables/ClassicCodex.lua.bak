@@ -6,49 +6,41 @@ CodexConfig = {
 	["showTrackingMethodDropdown"] = true,
 	["autoAccept"] = false,
 	["allQuestGivers"] = true,
-	["trackingMethod"] = 1,
+	["trackingMethod"] = 2,
 	["minimumDropChance"] = 2,
 	["showLowLevel"] = false,
 	["_tom_waypoint"] = {
-		1946, -- [1]
-		0.254, -- [2]
-		0.429, -- [3]
+		1952, -- [1]
+		0.398, -- [2]
+		0.472, -- [3]
 		["arrivaldistance"] = 15,
 		["callbacks"] = {
 			["distance"] = {
-				[10] = nil --[[ skipped inline function ]],
-				[15] = nil --[[ skipped inline function ]],
-			},
-			["world"] = {
-				["onclick"] = nil --[[ skipped inline function ]],
-				["tooltip_update"] = nil --[[ skipped inline function ]],
-				["tooltip_show"] = nil --[[ skipped inline function ]],
 			},
 			["minimap"] = {
-				["onclick"] = nil --[[ skipped inline function ]],
-				["tooltip_update"] = nil --[[ skipped inline function ]],
-				["tooltip_show"] = nil --[[ skipped inline function ]],
+			},
+			["world"] = {
 			},
 		},
 		["persistent"] = true,
 		["minimap"] = true,
 		["cleardistance"] = 10,
-		["title"] = "Steam Pump Focus",
+		["title"] = "木螨",
 		["from"] = "?",
 		["crazy"] = true,
 		["world"] = true,
 	},
-	["continentIcon"] = false,
-	["currentQuestGivers"] = true,
+	["minimapButton"] = true,
+	["autoTurnin"] = false,
 	["spawnMarkerSize"] = 15,
-	["showFestival"] = false,
+	["zoneMapIcon"] = true,
 	["alwaysShowId"] = false,
 	["nameplateIcon"] = false,
 	["colorBySpawn"] = true,
-	["zoneMapIcon"] = true,
+	["showFestival"] = false,
 	["miniMapIcon"] = true,
-	["autoTurnin"] = false,
-	["minimapButton"] = true,
+	["currentQuestGivers"] = true,
+	["continentIcon"] = false,
 	["questMarkerSize"] = 15,
 }
 CodexHiddenQuests = {
@@ -71,14 +63,15 @@ CodexHiddenQuests = {
 	[522] = true,
 	[116] = true,
 	[10551] = true,
+	[11829] = true,
 	[10552] = true,
 	[335] = true,
-	[1301] = true,
 	[378] = true,
+	[118] = true,
 	[11814] = true,
-	[11776] = true,
-	[11815] = true,
 	[11822] = true,
+	[11815] = true,
+	[9268] = true,
 	[11816] = true,
 	[6681] = true,
 	[344] = true,
@@ -86,11 +79,11 @@ CodexHiddenQuests = {
 	[11818] = true,
 	[11787] = true,
 	[11882] = true,
-	[9268] = true,
+	[1301] = true,
 	[11820] = true,
-	[118] = true,
+	[11776] = true,
 	[9742] = true,
-	[11829] = true,
+	[11825] = true,
 }
 CodexBrowserFavorites = {
 	["objects"] = {
