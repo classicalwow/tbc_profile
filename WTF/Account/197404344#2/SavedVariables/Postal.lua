@@ -1,5 +1,9 @@
 
 Postal3DB = {
+	["profileKeys"] = {
+		["特变电工 - 祈福"] = "特变电工 - 祈福",
+		["Vscode - 加丁"] = "Vscode - 加丁",
+	},
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
@@ -7,10 +11,6 @@ Postal3DB = {
 				"特变电工|祈福|Alliance|65|ROGUE", -- [2]
 			},
 		},
-	},
-	["profileKeys"] = {
-		["特变电工 - 祈福"] = "特变电工 - 祈福",
-		["Vscode - 加丁"] = "Vscode - 加丁",
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {

@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+	["session"] = 76,
 	["lastSanitation"] = 3,
-	["session"] = 73,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua:1946: Usage: SaveBindings(1||2)",
@@ -103,16 +103,16 @@ BugGrabberDB = {
 			["time"] = "2022/08/13 19:33:28",
 			["locals"] = "GearScore = 57\nItemLevel = 20\nRed = 0.575650\nBlue = 0.575650\nGreen = 0.575650\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 4\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
-			["session"] = 71,
-			["counter"] = 38,
+			["session"] = 74,
+			["counter"] = 43,
 		}, -- [13]
 		{
 			["message"] = "...AddOns\\GladiatorlosSA2_zhCN\\GladiatorlosSA2_zhCN-TBC-1.4.lua:3: attempt to index local 'GSA' (a nil value)",
 			["time"] = "2022/07/09 15:49:36",
 			["locals"] = "GSA = nil\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index local 'GSA' (a nil value)\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\GladiatorlosSA2_zhCN\\GladiatorlosSA2_zhCN-TBC-1.4.lua\"]:3: in main chunk",
-			["session"] = 73,
-			["counter"] = 73,
+			["session"] = 76,
+			["counter"] = 76,
 		}, -- [14]
 	},
 }

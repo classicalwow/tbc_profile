@@ -7,7 +7,6 @@ DataStore_InventoryDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.加丁.Vscode"] = {
-				["lastUpdate"] = 1659786092,
 				["Inventory"] = {
 					[7] = "|cffffffff|Hitem:1366::::::::3:::::::::|h[]|h|r",
 					[8] = "|cffffffff|Hitem:47::::::::3:::::::::|h[]|h|r",
@@ -17,6 +16,7 @@ DataStore_InventoryDB = {
 					[5] = "|cffffffff|Hitem:1380::::::::3:::::::::|h[]|h|r",
 					[16] = "|cffffffff|Hitem:2092::::::::3:::::::::|h[]|h|r",
 				},
+				["lastUpdate"] = 1659786092,
 			},
 			["Default.祈福.特变电工"] = {
 				["Inventory"] = {
@@ -40,14 +40,14 @@ DataStore_InventoryDB = {
 					"|cff1eff00|Hitem:28062::::::::65:::::::::|h[远征军强弩]|h|r", -- [18]
 				},
 				["averageItemLvl"] = 93.70588235294117,
-				["lastUpdate"] = 1661362288,
+				["lastUpdate"] = 1661444711,
 			},
 		},
 		["Guilds"] = {
 			["Default.祈福.Play for Uber"] = {
 				["Members"] = {
 					["特变电工"] = {
-						["averageItemLvl"] = 93,
+						["averageItemLvl"] = 90,
 					},
 				},
 			},

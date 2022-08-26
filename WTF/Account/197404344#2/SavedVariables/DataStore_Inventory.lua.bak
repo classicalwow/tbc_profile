@@ -7,6 +7,7 @@ DataStore_InventoryDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.加丁.Vscode"] = {
+				["lastUpdate"] = 1659786092,
 				["Inventory"] = {
 					[7] = "|cffffffff|Hitem:1366::::::::3:::::::::|h[]|h|r",
 					[8] = "|cffffffff|Hitem:47::::::::3:::::::::|h[]|h|r",
@@ -16,7 +17,6 @@ DataStore_InventoryDB = {
 					[16] = "|cffffffff|Hitem:2092::::::::3:::::::::|h[]|h|r",
 					[9] = "|cffffffff|Hitem:6070::::::::3:::::::::|h[]|h|r",
 				},
-				["lastUpdate"] = 1659786092,
 			},
 			["Default.祈福.特变电工"] = {
 				["Inventory"] = {
@@ -32,24 +32,15 @@ DataStore_InventoryDB = {
 					"|cff1eff00|Hitem:31788::::::::65:::::::::|h[黑刺手套]|h|r", -- [10]
 					"|cff1eff00|Hitem:31820::::::::65:::::::::|h[赐福徽记之戒]|h|r", -- [11]
 					"|cff1eff00|Hitem:31729::::::::65:::::::::|h[世传勇气徽记]|h|r", -- [12]
-					"|cff1eff00|Hitem:31617::::::::65:::::::::|h[上古德莱尼作战咒符]|h|r", -- [13]
+					"|cff1eff00|Hitem:11122::::::::65:::::::::|h[棍子上的胡萝卜]|h|r", -- [13]
 					"|cff0070dd|Hitem:28041::::::::65:::::::::|h[刃拳的宽容]|h|r", -- [14]
 					"|cff1eff00|Hitem:25965::::::::65:::::::::|h[锐爪披风]|h|r", -- [15]
 					"|cff0070dd|Hitem:25825:2673:::::::65:::::::::|h[步兵长剑]|h|r", -- [16]
 					"|cff0070dd|Hitem:25825:2673:::::::65:::::::::|h[步兵长剑]|h|r", -- [17]
 					"|cff1eff00|Hitem:28062::::::::65:::::::::|h[远征军强弩]|h|r", -- [18]
 				},
-				["averageItemLvl"] = 93.70588235294117,
-				["lastUpdate"] = 1661362186,
-			},
-		},
-		["Guilds"] = {
-			["Default.祈福.Play for Uber"] = {
-				["Members"] = {
-					["特变电工"] = {
-						["averageItemLvl"] = 93,
-					},
-				},
+				["averageItemLvl"] = 90.6470588235294,
+				["lastUpdate"] = 1661441731,
 			},
 		},
 	},
