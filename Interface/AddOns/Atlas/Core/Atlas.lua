@@ -1,4 +1,4 @@
--- $Id: Atlas.lua 400 2022-07-23 10:38:27Z arithmandar $
+-- $Id: Atlas.lua 408 2022-08-22 15:01:42Z arithmandar $
 --[[
 
 	Atlas, a World of Warcraft instance map browser
@@ -39,6 +39,7 @@ local strtrim = strtrim
 local floor, fmod = math.floor, math.fmod
 local getn, tinsert, tsort = table.getn, table.insert, table.sort
 local GetAddOnInfo, GetAddOnEnableState, UnitLevel, GetBuildInfo = _G.GetAddOnInfo, _G.GetAddOnEnableState, _G.UnitLevel, _G.GetBuildInfo
+local GetLFGDungeonInfo = _G.GetLFGDungeonInfo
 local hooksecurefunc = hooksecurefunc
 
 -- Determine WoW TOC Version
@@ -439,6 +440,7 @@ function Atlas_ScrollBar_Update()
 					local id = ATLAS_SCROLL_ID[lineplusoffset][1]
 					bossButtonUpdate(button, ATLAS_SCROLL_ID[lineplusoffset][1], ATLAS_SCROLL_ID[lineplusoffset][2], false, base.Module or base.ALModule)
 				elseif (type(ATLAS_SCROLL_ID[lineplusoffset][1]) == "string") then
+					-- handling achievement
 					local spos, epos = strfind(ATLAS_SCROLL_ID[lineplusoffset][1], "ac=")
 					if (spos) then
 						local achievementID = strsub(ATLAS_SCROLL_ID[lineplusoffset][1], epos+1)
@@ -786,6 +788,10 @@ end
 
 -- Add boss / NPC button here so that we can add GameTooltip
 function addon:MapAddNPCButton()
+	if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC) then 
+		return
+	end
+	
 	local zoneID = ATLAS_DROPDOWNS[profile.options.dropdowns.module][profile.options.dropdowns.zone]
 	local t = AtlasMaps_NPC_DB[zoneID]
 	local data = AtlasMaps
@@ -926,6 +932,10 @@ function addon:MapAddNPCButton()
 end
 
 function addon:MapAddNPCButtonLarge()
+	if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC) then 
+		return
+	end
+	
 	local zoneID = ATLAS_DROPDOWNS[profile.options.dropdowns.module][profile.options.dropdowns.zone]
 	local t = AtlasMaps_NPC_DB[zoneID]
 	local data = AtlasMaps

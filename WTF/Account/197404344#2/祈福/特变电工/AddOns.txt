@@ -143,7 +143,7 @@ DataStore_Reputations: enabled
 DataStore_Spells: enabled
 DataStore_Talents: enabled
 Dejunk: enabled
-Guidelime: enabled
+Guidelime: disabled
 Guidelime_ShikuTW: enabled
 ItemRack: enabled
 WeakAurasCompanion: enabled

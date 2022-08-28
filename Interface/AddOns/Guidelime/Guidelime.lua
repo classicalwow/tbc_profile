@@ -1195,7 +1195,7 @@ local function updateFirstActiveIndex()
 	return oldFirstActiveIndex ~= addon.currentGuide.firstActiveIndex
 end
 
-local function getQuestActiveObjectives(id, objective)
+function addon.getQuestActiveObjectives(id, objective)
 	local objectiveList = addon.getQuestObjectives(id)
 	if objectiveList == nil then return {} end
 	local objectives
@@ -1242,7 +1242,8 @@ function addon.updateStepsMapIcons()
 					not element.completed and element.specialLocation == nil and (element.attached == nil or not element.attached.completed) then
 					local found = true
 					if element.objectives ~= nil and element.attached ~= nil and element.attached.questId ~= nil then
-						local objectives = getQuestActiveObjectives(element.attached.questId, element.attached.objective)
+						--if addon.debugging then print("LIME: GOTO for quest objective", element.attached.questId, element.t, element.index, step.index, element.objectives) end
+						local objectives = addon.getQuestActiveObjectives(element.attached.questId, element.attached.objective)
 						found = false
 						for _, o in ipairs(element.objectives) do
 							if addon.contains(objectives, o) then found = true; break; end

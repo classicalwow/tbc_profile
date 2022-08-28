@@ -8,7 +8,7 @@ MEETINGHORN_DB = {
 		["特变电工 - 祈福"] = {
 			["cache"] = {
 				["cooldown"] = {
-					["start"] = 1660833807,
+					["start"] = 1661576346,
 					["duration"] = 50,
 				},
 			},

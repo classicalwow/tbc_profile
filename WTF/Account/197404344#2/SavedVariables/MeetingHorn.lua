@@ -27,7 +27,7 @@ MEETINGHORN_DB = {
 			},
 			["cache"] = {
 				["cooldown"] = {
-					["start"] = 1660833807,
+					["start"] = 1661576346,
 					["duration"] = 50,
 				},
 			},

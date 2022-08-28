@@ -6,13 +6,13 @@ CodexConfig = {
 	["showTrackingMethodDropdown"] = true,
 	["autoAccept"] = false,
 	["allQuestGivers"] = true,
-	["trackingMethod"] = 2,
+	["trackingMethod"] = 1,
 	["minimumDropChance"] = 2,
 	["showLowLevel"] = false,
 	["_tom_waypoint"] = {
 		1952, -- [1]
-		0.398, -- [2]
-		0.472, -- [3]
+		0.275, -- [2]
+		0.564, -- [3]
 		["arrivaldistance"] = 15,
 		["callbacks"] = {
 			["distance"] = {
@@ -25,7 +25,7 @@ CodexConfig = {
 		["persistent"] = true,
 		["minimap"] = true,
 		["cleardistance"] = 10,
-		["title"] = "木螨",
+		["title"] = "托古斯",
 		["from"] = "?",
 		["crazy"] = true,
 		["world"] = true,
@@ -48,43 +48,50 @@ CodexHiddenQuests = {
 	[9744] = true,
 	[92] = true,
 	[11826] = true,
+	[11040] = true,
 	[11828] = true,
 	[11766] = true,
+	[11767] = true,
 	[8460] = true,
 	[11802] = true,
 	[11771] = true,
 	[11803] = true,
 	[11804] = true,
 	[11773] = true,
+	[11043] = true,
+	[11830] = true,
+	[11776] = true,
 	[11775] = true,
 	[1453] = true,
 	[325] = true,
 	[11808] = true,
+	[11807] = true,
 	[522] = true,
+	[9268] = true,
 	[116] = true,
-	[11829] = true,
-	[10551] = true,
 	[11825] = true,
+	[10551] = true,
+	[11829] = true,
 	[10552] = true,
 	[335] = true,
-	[118] = true,
+	[378] = true,
 	[11782] = true,
-	[11814] = true,
-	[11822] = true,
+	[118] = true,
+	[11817] = true,
 	[11815] = true,
-	[9268] = true,
+	[11822] = true,
 	[11816] = true,
 	[6681] = true,
 	[344] = true,
-	[11817] = true,
+	[11814] = true,
 	[11818] = true,
 	[11787] = true,
 	[11882] = true,
 	[1301] = true,
 	[11820] = true,
-	[378] = true,
+	[10821] = true,
 	[9742] = true,
-	[11776] = true,
+	[11799] = true,
 }
 CodexBrowserFavorites = {
 	["objects"] = {
@@ -136,6 +143,11 @@ CodexColors = {
 		0.196078431372549, -- [1]
 		0.4196078431372549, -- [2]
 		0.4901960784313725, -- [3]
+	},
+	["赫米特·奈辛瓦里二世"] = {
+		0.7294117647058823, -- [1]
+		0.7607843137254902, -- [2]
+		0.6705882352941176, -- [3]
 	},
 	["萨迪斯·格希德"] = {
 		0.9490196078431372, -- [1]

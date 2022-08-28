@@ -459,7 +459,7 @@ AutoBarDB = {
 		["连你接他 - 祈福"] = {
 			["buttonDataList"] = {
 				["AutoBarButtonMount"] = {
-					["arrangeOnUse"] = 25472,
+					["arrangeOnUse"] = 18778,
 				},
 			},
 			["barList"] = {

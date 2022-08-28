@@ -1,1 +1,4 @@
 Myslot: enabled
+ElvUI_OptionsUI: enabled
+ElvUI: enabled
+ElvUI_PVPDT: enabled

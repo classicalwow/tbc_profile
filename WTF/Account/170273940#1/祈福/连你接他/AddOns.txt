@@ -76,8 +76,8 @@ GTFO: disabled
 Guidelime: disabled
 Guidelime_ShikuTW: disabled
 GuideLime_TUGs_TBC: disabled
-ItemRack: disabled
-ItemRackOptions: disabled
+ItemRack: enabled
+ItemRackOptions: enabled
 Leatrix_Maps: disabled
 LFGBulletinBoard: disabled
 LoonBestInSlot: disabled
@@ -107,7 +107,7 @@ RepHelper_Classic: disabled
 SafeQueue: disabled
 SpellReplay: disabled
 ThreatClassic2: disabled
-TomTom: disabled
+TomTom: enabled
 TradeShout: disabled
 tullaRange: disabled
 tullaRange_Config: disabled
@@ -127,9 +127,9 @@ CharacterStatsTBC: disabled
 TradeSkillMaster: disabled
 Accountant_Classic: disabled
 AddOnSkins: disabled
-ElvUI_PVPDT: disabled
-ElvUI_OptionsUI: disabled
-ElvUI: disabled
+ElvUI_PVPDT: enabled
+ElvUI_OptionsUI: enabled
+ElvUI: enabled
 TalentEmu: disabled
 alaTalentEmu: disabled
 Altoholic: disabled
@@ -161,3 +161,13 @@ DBM-BlackTemple: disabled
 DBM-BWL: disabled
 MeetingHorn: disabled
 HeyboxPlayerInfo: disabled
+ElvUI_VisualAuraTimers: disabled
+ElvUI_ExtraActionBars: disabled
+ElvUI_CastBarOverlay: disabled
+ElvUI_EverySecondCounts: disabled
+ElvUI_AuraBarsMovers: disabled
+ElvUI_CustomTweaks: disabled
+ElvUI_DTBars2: disabled
+ElvUI_QuestXP: disabled
+ElvUI_CustomTags: disabled
+kExtraBossFrames: disabled

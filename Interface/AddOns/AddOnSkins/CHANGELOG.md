@@ -1,42 +1,56 @@
 # AddOnSkins
 
-## [4.58](https://github.com/Azilroka/AddOnSkins/tree/4.58) (2022-01-01)
-[Full Changelog](https://github.com/Azilroka/AddOnSkins/compare/4.57...4.58) [Previous Releases](https://github.com/Azilroka/AddOnSkins/releases)
+## [4.59](https://github.com/Azilroka/AddOnSkins/tree/4.59) (2022-08-24)
+[Full Changelog](https://github.com/Azilroka/AddOnSkins/compare/4.58...4.59) [Previous Releases](https://github.com/Azilroka/AddOnSkins/releases)
 
-- 4.58  
-- Fix some coloring in core. Fixes #11  
-- WorldMap Skin Retail - Fixes #27  
-- Outfitter - Fixes #26  
-- Fixed Issue #21  
-- Solves #15  
-- Curseforge requires at least regular toc file.  
-- Update Release Workflow  
-- TrinketMenu skin  
-- TrinketMenu Skin (the other 20%)  
-- Add TrinketMenu Skin (80% done)  
-- Merge pull request #24 from marknl/patch-1  
-    Skin for BuffOMatClassicTBC  
-- Merge pull request #22 from robnadin/character-titles-font  
-    Fix unstyled character pane fonts  
-- Merge pull request #18 from Hollicsh/patch-1  
+- 4.59  
+- Merge pull request #47 from Hollicsh/patch-3  
+    Update Global.lua  
+- Merge pull request #46 from Hollicsh/patch-2  
     Update Russian.lua  
-- Update ECS  
-- Remove DBM Options Skin.  
-- Remove unused functions  
-- Update Load\_Skins.xml  
-- Skin for BuffOMatClassicTBC  
-- Auctionator Classic  
-- Auctionator Skin (Fix errors in Classic/TBC)  
-- Update ECS again  
-- Update ECS  
-- Add ExtendedCharacterStats skin  
-- Update git links  
-- Same as previous  
-- Updated Auctionator Skin thx @kodewdle  
-- Bump Classic TOC  
-- Fix unstyled character pane fonts  
-- Testing  
-- Going to start fixing this up better.  
-- Update Raider.IO  
+- Merge pull request #43 from robnadin/solo-shuffle  
+    Skin solo shuffle button  
+- Merge pull request #45 from Hollicsh/patch-1  
+    Update Options.lua  
+- Merge remote-tracking branch 'origin/main'  
+- Bandaid Acutionator stuff  
+- Whoops  
+- Altoholic | Immersion  
+- Remove MoveAnything Skin  
+- Same as prev  
+- Additional changes from #41  
+- Merge pull request #41 from fxpw/main  
+    wim + auctionator (full) skin  
+- Bandaid fixes for Communities & EncounterJournal Skins  
+- Fix Eventtrace Skin  
+- Nothing  
+- Bump all TOCs  
+- Revert "AS.Retail => _G.AddOnSkins.Retail"  
+- Revert "Revert "This is supposed to be on the AddOn table.""  
+- Revert "This is supposed to be on the AddOn table."  
+- This is supposed to be on the AddOn table.  
+- AS.Retail => _G.AddOnSkins.Retail  
+- Update Global.lua  
+    Adding phrases.  
 - Update Russian.lua  
-    A minor typo was found.  
+    Translation of missing phrases.  
+- Update Options.lua  
+    Allow translation into other languages.  
+- Merge pull request #44 from QartemisT/patch-5  
+    Offset DBM icon  
+- Offset DBM icon  
+    Offset should be 1, not 2. As you only need to adjust for one side of the border.  
+    See attached image: https://media.discordapp.net/attachments/225365755212988416/968235579261198396/unknown.png  
+- Skin solo shuffle button  
+- fix auctionator  
+- wim skin  
+- Update Libraries  
+- Update gitmodules  
+- Update Libraries Skins  
+- Change this back for now  
+- Cleaning  
+- Mainline: PVE Skin Update  
+- Embed OoC Stuff  
+- Small Tweaks  
+- Fix Templates  
+- ItemRack  

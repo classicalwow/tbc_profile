@@ -11,6 +11,7 @@ ItemRackUser = {
 	["Sets"] = {
 		["~CombatQueue"] = {
 			["equip"] = {
+				[13] = "31617::::::::69:::::::::",
 			},
 		},
 		["胡萝卜"] = {
@@ -20,16 +21,16 @@ ItemRackUser = {
 			["oldset"] = "胡萝卜",
 			["icon"] = 134010,
 			["old"] = {
-				[13] = "31617::::::::65:::::::::",
+				[13] = "31617::::::::70:::::::::",
 			},
 		},
 		["~Unequip"] = {
 			["equip"] = {
-				[13] = "31617::::::::65:::::::::",
+				[13] = "31617::::::::70:::::::::",
 			},
 		},
 	},
-	["EnableQueues"] = "ON",
+	["EnablePerSetQueues"] = "OFF",
 	["Queues"] = {
 	},
 	["Buttons"] = {
@@ -49,5 +50,5 @@ ItemRackUser = {
 	},
 	["Alpha"] = 1,
 	["MenuScale"] = 0.85,
-	["EnablePerSetQueues"] = "OFF",
+	["EnableQueues"] = "ON",
 }
