@@ -5,9 +5,6 @@ __DEJUNK_SAVED_VARIABLES__ = {
 		["version"] = 1,
 	},
 	["Profiles"] = {
-		["Vscode-加丁"] = {
-			["version"] = 3,
-		},
 		["特变电工-祈福"] = {
 			["destroy"] = {
 				["autoOpen"] = {
@@ -18,6 +15,12 @@ __DEJUNK_SAVED_VARIABLES__ = {
 					["5504"] = true,
 				},
 			},
+			["version"] = 3,
+		},
+		["Vscode-加丁"] = {
+			["version"] = 3,
+		},
+		["新特能源-祈福"] = {
 			["version"] = 3,
 		},
 	},

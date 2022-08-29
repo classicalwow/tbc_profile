@@ -2,6 +2,7 @@
 DataStoreDB = {
 	["profileKeys"] = {
 		["特变电工 - 祈福"] = "特变电工 - 祈福",
+		["新特能源 - 祈福"] = "新特能源 - 祈福",
 		["Vscode - 加丁"] = "Vscode - 加丁",
 	},
 	["global"] = {
@@ -9,19 +10,26 @@ DataStoreDB = {
 			["Default.祈福.Play for Uber"] = {
 				["faction"] = "Alliance",
 			},
+			["Default.祈福.傲视天地"] = {
+				["faction"] = "Alliance",
+			},
 		},
 		["Characters"] = {
+			["Default.祈福.新特能源"] = {
+				["guildName"] = "傲视天地",
+				["faction"] = "Alliance",
+			},
 			["Default.加丁.Vscode"] = {
 				["faction"] = "Alliance",
 			},
 			["Default.祈福.特变电工"] = {
-				["faction"] = "Alliance",
 				["guildName"] = "Play for Uber",
+				["faction"] = "Alliance",
 			},
 		},
 		["ShortToLongRealmNames"] = {
-			["祈福"] = "祈福",
 			["加丁"] = "加丁",
+			["祈福"] = "祈福",
 		},
 	},
 }

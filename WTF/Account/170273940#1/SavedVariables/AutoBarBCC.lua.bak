@@ -85,6 +85,119 @@ AutoBarDB = {
 				},
 			},
 		},
+		["潜行者"] = {
+			["barList"] = {
+				["AutoBarClassBarRogue"] = {
+					["share"] = "2",
+					["fadeOut"] = false,
+					["ROGUE"] = true,
+					["buttonHeight"] = 36,
+					["rows"] = 1,
+					["dockShiftY"] = 0,
+					["alignButtons"] = "3",
+					["posX"] = 300,
+					["hide"] = false,
+					["enabled"] = true,
+					["columns"] = 10,
+					["alpha"] = 1,
+					["buttonWidth"] = 36,
+					["buttonKeys"] = {
+						"AutoBarButtonShields", -- [1]
+						"AutoBarButtonStealth", -- [2]
+						"AutoBarButtonPoisonLethal", -- [3]
+						"AutoBarButtonPoisonNonlethal", -- [4]
+						"AutoBarButtonInterrupt", -- [5]
+						"AutoBarButtonCharge", -- [6]
+						"AutoBarButtonER", -- [7]
+						"AutoBarButtonTrap", -- [8]
+						"AutoBarButtonPickLock", -- [9]
+					},
+					["scale"] = 1,
+					["posY"] = 280,
+					["DEMONHUNTER"] = true,
+					["popupDirection"] = "1",
+					["padding"] = 0,
+					["dockShiftX"] = 0,
+					["frameStrata"] = "LOW",
+				},
+			},
+			["buttonList"] = {
+				["AutoBarButtonShields"] = {
+					["barKey"] = "AutoBarClassBarRogue",
+					["buttonClass"] = "AutoBarButtonShields",
+					["square_popups"] = true,
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonShields",
+					["defaultButtonIndex"] = 1,
+				},
+				["AutoBarButtonStealth"] = {
+					["barKey"] = "AutoBarClassBarRogue",
+					["buttonClass"] = "AutoBarButtonStealth",
+					["square_popups"] = true,
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonStealth",
+					["defaultButtonIndex"] = 2,
+				},
+				["AutoBarButtonPoisonLethal"] = {
+					["barKey"] = "AutoBarClassBarRogue",
+					["buttonClass"] = "AutoBarButtonPoisonLethal",
+					["square_popups"] = true,
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonPoisonLethal",
+					["defaultButtonIndex"] = 3,
+				},
+				["AutoBarButtonPickLock"] = {
+					["arrangeOnUse"] = true,
+					["buttonClass"] = "AutoBarButtonPickLock",
+					["square_popups"] = true,
+					["barKey"] = "AutoBarClassBarRogue",
+					["enabled"] = true,
+					["targeted"] = "Lockpicking",
+					["buttonKey"] = "AutoBarButtonPickLock",
+					["defaultButtonIndex"] = "*",
+				},
+				["AutoBarButtonInterrupt"] = {
+					["barKey"] = "AutoBarClassBarRogue",
+					["buttonClass"] = "AutoBarButtonInterrupt",
+					["square_popups"] = true,
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonInterrupt",
+					["defaultButtonIndex"] = 5,
+				},
+				["AutoBarButtonTrap"] = {
+					["barKey"] = "AutoBarClassBarRogue",
+					["buttonClass"] = "AutoBarButtonTrap",
+					["square_popups"] = true,
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonTrap",
+					["defaultButtonIndex"] = 9,
+				},
+				["AutoBarButtonPoisonNonlethal"] = {
+					["barKey"] = "AutoBarClassBarRogue",
+					["buttonClass"] = "AutoBarButtonPoisonNonlethal",
+					["square_popups"] = true,
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonPoisonNonlethal",
+					["defaultButtonIndex"] = 4,
+				},
+				["AutoBarButtonER"] = {
+					["barKey"] = "AutoBarClassBarRogue",
+					["buttonClass"] = "AutoBarButtonER",
+					["square_popups"] = true,
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonER",
+					["defaultButtonIndex"] = 7,
+				},
+				["AutoBarButtonCharge"] = {
+					["barKey"] = "AutoBarClassBarRogue",
+					["buttonClass"] = "AutoBarButtonCharge",
+					["square_popups"] = true,
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonCharge",
+					["defaultButtonIndex"] = 6,
+				},
+			},
+		},
 	},
 	["chars"] = {
 		["连你接他 - 祈福"] = {
@@ -92,6 +205,14 @@ AutoBarDB = {
 				["AutoBarButtonMount"] = {
 					["arrangeOnUse"] = 18778,
 				},
+			},
+			["barList"] = {
+			},
+			["buttonList"] = {
+			},
+		},
+		["别看不起农民 - 祈福"] = {
+			["buttonDataList"] = {
 			},
 			["barList"] = {
 			},

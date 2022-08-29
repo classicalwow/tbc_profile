@@ -1,10 +1,11 @@
 
 AtlasLootClassicDB = {
-	["global"] = {
-		["__addonrevision"] = 2040004,
-	},
 	["profileKeys"] = {
 		["特变电工 - 祈福"] = "特变电工 - 祈福",
+		["新特能源 - 祈福"] = "新特能源 - 祈福",
+	},
+	["global"] = {
+		["__addonrevision"] = 2040004,
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
@@ -21,6 +22,17 @@ AtlasLootClassicDB = {
 					"EnchantingBC", -- [2]
 					nil, -- [3]
 					1, -- [4]
+					0, -- [5]
+				},
+			},
+		},
+		["新特能源 - 祈福"] = {
+			["GUI"] = {
+				["selected"] = {
+					"AtlasLootClassic_Factions", -- [1]
+					"HonorHold", -- [2]
+					3, -- [3]
+					2, -- [4]
 					0, -- [5]
 				},
 			},

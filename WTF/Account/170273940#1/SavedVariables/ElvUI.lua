@@ -2,10 +2,12 @@
 ElvDB = {
 	["profileKeys"] = {
 		["连你接他 - 祈福"] = "my profile",
+		["别看不起农民 - 祈福"] = "Default",
 	},
-	["faction"] = {
+	["gold"] = {
 		["祈福"] = {
-			["连你接他"] = "Alliance",
+			["连你接他"] = 19879977,
+			["别看不起农民"] = 0,
 		},
 	},
 	["global"] = {
@@ -20,10 +22,7 @@ ElvDB = {
 			},
 		},
 	},
-	["gold"] = {
-		["祈福"] = {
-			["连你接他"] = 19877096,
-		},
+	["DisabledAddOns"] = {
 	},
 	["serverID"] = {
 		[4778] = {
@@ -33,17 +32,19 @@ ElvDB = {
 	["class"] = {
 		["祈福"] = {
 			["连你接他"] = "WARRIOR",
+			["别看不起农民"] = "ROGUE",
 		},
 	},
-	["DisabledAddOns"] = {
+	["faction"] = {
+		["祈福"] = {
+			["连你接他"] = "Alliance",
+			["别看不起农民"] = "Horde",
+		},
 	},
 	["profiles"] = {
 		["Default"] = {
 			["convertPages"] = true,
 			["dbConverted"] = 2.48,
-			["chat"] = {
-				["panelSnapLeftID"] = 1,
-			},
 			["actionbar"] = {
 				["bar6"] = {
 					["enabled"] = true,
@@ -51,13 +52,16 @@ ElvDB = {
 					["buttons"] = 6,
 				},
 				["microbar"] = {
-					["buttons"] = 8,
+					["buttons"] = 7,
 				},
 				["bar5"] = {
 					["enabled"] = false,
 					["buttonsPerRow"] = 12,
 					["buttons"] = 12,
 				},
+			},
+			["chat"] = {
+				["panelSnapLeftID"] = 1,
 			},
 		},
 		["my profile"] = {
@@ -72,11 +76,11 @@ ElvDB = {
 				},
 				["experience"] = {
 					["hideAtMaxLevel"] = false,
-					["orientation"] = "VERTICAL",
+					["height"] = 223,
 					["questCompletedOnly"] = true,
 					["width"] = 10,
 					["font"] = "2002",
-					["height"] = 223,
+					["orientation"] = "VERTICAL",
 				},
 				["transparent"] = false,
 			},
@@ -118,8 +122,8 @@ ElvDB = {
 				["bagWidth"] = 474,
 				["countFont"] = "Expressway",
 				["vendorGrays"] = {
-					["enable"] = true,
 					["details"] = true,
+					["enable"] = true,
 				},
 				["countFontOutline"] = "THICKOUTLINE",
 				["bagBar"] = {
@@ -127,12 +131,19 @@ ElvDB = {
 				},
 				["bankWidth"] = 474,
 			},
-			["chat"] = {
-				["panelWidth"] = 472,
-				["emotionIcons"] = false,
-				["panelHeight"] = 200,
-				["throttleInterval"] = 0,
-				["panelSnapLeftID"] = 1,
+			["auras"] = {
+				["debuffs"] = {
+					["horizontalSpacing"] = 1,
+					["size"] = 28,
+					["verticalSpacing"] = 20,
+					["maxWraps"] = 2,
+				},
+				["buffs"] = {
+					["horizontalSpacing"] = 1,
+					["size"] = 28,
+					["verticalSpacing"] = 20,
+					["maxWraps"] = 2,
+				},
 			},
 			["dbConverted"] = 2.48,
 			["convertPages"] = true,
@@ -182,15 +193,15 @@ ElvDB = {
 				["ElvAB_1"] = "BOTTOM,ElvUIParent,BOTTOM,0,-1",
 				["ElvAB_2"] = "TOP,ElvUIParent,TOP,-346,-309",
 				["BelowMinimapContainerMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-4,-236",
-				["TalkingHeadFrameMover"] = "BOTTOM,ElvUIParent,BOTTOM,-1,373",
 				["ElvAB_4"] = "BOTTOM,ElvUIParent,BOTTOM,0,38",
+				["QuestTimerFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-135,-300",
 				["ReputationBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,484,4",
 				["AzeriteBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-3,-245",
 				["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,339,0",
 				["ElvAB_5"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,294",
 				["VehicleLeaveButton"] = "BOTTOM,UIParent,BOTTOM,-149,416",
 				["AltPowerBarMover"] = "TOP,ElvUIParent,TOP,-1,-36",
-				["QuestTimerFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-135,-300",
+				["TalkingHeadFrameMover"] = "BOTTOM,ElvUIParent,BOTTOM,-1,373",
 				["ObjectiveFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-163,-325",
 				["BNETMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-273",
 				["VOICECHAT"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-150",
@@ -383,7 +394,7 @@ ElvDB = {
 						["threatStyle"] = "NONE",
 					},
 				},
-				["smoothbars"] = true,
+				["font"] = "Expressway",
 				["colors"] = {
 					["healthclass"] = true,
 					["auraBarBuff"] = {
@@ -404,7 +415,7 @@ ElvDB = {
 					},
 				},
 				["fontOutline"] = "OUTLINE",
-				["font"] = "Expressway",
+				["smoothbars"] = true,
 			},
 			["datatexts"] = {
 				["panels"] = {
@@ -553,10 +564,10 @@ ElvDB = {
 					["buttonSpacing"] = 1,
 					["macroFontOutline"] = "OUTLINE",
 					["countFont"] = "Expressway",
-					["buttonSize"] = 35,
+					["buttons"] = 12,
 					["countFontOutline"] = "OUTLINE",
 					["hotkeyFontOutline"] = "OUTLINE",
-					["buttons"] = 12,
+					["buttonSize"] = 35,
 					["macrotext"] = true,
 				},
 				["lockActionBars"] = false,
@@ -567,7 +578,7 @@ ElvDB = {
 					["override"] = false,
 				},
 				["bar4"] = {
-					["hotkeyFontOutline"] = "OUTLINE",
+					["hotkeyFont"] = "Expressway",
 					["macroFont"] = "Expressway",
 					["macroTextPosition"] = "BOTTOMRIGHT",
 					["buttonsPerRow"] = 12,
@@ -577,7 +588,7 @@ ElvDB = {
 					["countFont"] = "Expressway",
 					["buttonSize"] = 35,
 					["countFontOutline"] = "OUTLINE",
-					["hotkeyFont"] = "Expressway",
+					["hotkeyFontOutline"] = "OUTLINE",
 					["macrotext"] = true,
 				},
 			},
@@ -639,19 +650,12 @@ ElvDB = {
 					},
 				},
 			},
-			["auras"] = {
-				["debuffs"] = {
-					["horizontalSpacing"] = 1,
-					["size"] = 28,
-					["verticalSpacing"] = 20,
-					["maxWraps"] = 2,
-				},
-				["buffs"] = {
-					["horizontalSpacing"] = 1,
-					["size"] = 28,
-					["verticalSpacing"] = 20,
-					["maxWraps"] = 2,
-				},
+			["chat"] = {
+				["panelWidth"] = 472,
+				["emotionIcons"] = false,
+				["panelHeight"] = 200,
+				["throttleInterval"] = 0,
+				["panelSnapLeftID"] = 1,
 			},
 		},
 	},
@@ -659,9 +663,13 @@ ElvDB = {
 ElvPrivateDB = {
 	["profileKeys"] = {
 		["连你接他 - 祈福"] = "连你接他 - 祈福",
+		["别看不起农民 - 祈福"] = "别看不起农民 - 祈福",
 	},
 	["profiles"] = {
 		["连你接他 - 祈福"] = {
+			["install_complete"] = 2.48,
+		},
+		["别看不起农民 - 祈福"] = {
 			["install_complete"] = 2.48,
 		},
 	},

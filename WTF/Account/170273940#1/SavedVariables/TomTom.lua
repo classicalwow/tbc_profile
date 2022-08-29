@@ -2,6 +2,7 @@
 TomTomDB = {
 	["profileKeys"] = {
 		["连你接他 - 祈福"] = "Default",
+		["别看不起农民 - 祈福"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -30,9 +31,76 @@ TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
 		["连你接他 - 祈福"] = "连你接他 - 祈福",
+		["别看不起农民 - 祈福"] = "别看不起农民 - 祈福",
 	},
 	["profiles"] = {
 		["连你接他 - 祈福"] = {
+			[1944] = {
+				["1944:412471253.70116:323981745.90111:TomTom 路径点"] = {
+					1944, -- [1]
+					0.412471253701156, -- [2]
+					0.3239817459011053, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "TomTom 路径点",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "TomTom 路径点",
+					["from"] = "TomTom/wm",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["1944:153039530.66349:461188922.91696:TomTom 路径点"] = {
+					1944, -- [1]
+					0.1530395306634902, -- [2]
+					0.4611889229169566, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "TomTom 路径点",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "TomTom 路径点",
+					["from"] = "TomTom/wm",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+		},
+		["别看不起农民 - 祈福"] = {
 		},
 	},
 }

@@ -2,6 +2,7 @@
 TomTomDB = {
 	["profileKeys"] = {
 		["特变电工 - 祈福"] = "Default",
+		["新特能源 - 祈福"] = "Default",
 		["Vscode - 加丁"] = "Default",
 	},
 	["profiles"] = {
@@ -31,6 +32,7 @@ TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
 		["特变电工 - 祈福"] = "特变电工 - 祈福",
+		["新特能源 - 祈福"] = "新特能源 - 祈福",
 		["Vscode - 加丁"] = "Vscode - 加丁",
 	},
 	["profiles"] = {
@@ -50,24 +52,43 @@ TomTomWaypointsM = {
 					["from"] = "TomTom/wm",
 					["callbacks"] = {
 						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
 					["world"] = true,
 				},
 			},
+			[1424] = {
+				["1424:765464179.84741:417951893.16464:TomTom 路径点"] = {
+					1424, -- [1]
+					0.7654641798474069, -- [2]
+					0.4179518931646392, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "TomTom 路径点",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "TomTom 路径点",
+					["from"] = "TomTom/wm",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+		},
+		["新特能源 - 祈福"] = {
 		},
 		["Vscode - 加丁"] = {
 		},

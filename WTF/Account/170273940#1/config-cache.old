@@ -1,5 +1,4 @@
 SET deselectOnClick "1"
-SET autoClearAFK "0"
 SET lootUnderMouse "1"
 SET alwaysCompareItems "1"
 SET interactOnLeftClick "1"

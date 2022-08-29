@@ -44,14 +44,17 @@ VMRT = {
 		["timeToKillAnalyze"] = 15,
 	},
 	["ProfileKeys"] = {
-		["Vscode-加丁"] = "default",
 		["特变电工-祈福"] = "default",
+		["Vscode-加丁"] = "default",
+		["新特能源-祈福"] = "default",
 	},
 	["Encounter"] = {
 		["list"] = {
+			["特变电工"] = {
+			},
 			["Vscode"] = {
 			},
-			["特变电工"] = {
+			["新特能源"] = {
 			},
 		},
 		["names"] = {
@@ -67,6 +70,11 @@ VMRT = {
 			["伤害总能暴击"] = 0,
 			["特变电工"] = 0,
 			["Vscode"] = 0,
+			["新特能源"] = 0,
+			["连你接他"] = 0,
+			["秋月矿业"] = 0,
+			["月落日升"] = 0,
+			["哈哈鸡"] = 0,
 		},
 		["NoRaid"] = true,
 		["CDECol"] = {
