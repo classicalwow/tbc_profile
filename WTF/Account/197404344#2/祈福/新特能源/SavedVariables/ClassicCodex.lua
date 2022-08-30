@@ -6,7 +6,7 @@ CodexConfig = {
 	["showTrackingMethodDropdown"] = true,
 	["autoAccept"] = false,
 	["allQuestGivers"] = true,
-	["trackingMethod"] = 1,
+	["trackingMethod"] = 2,
 	["minimumDropChance"] = 2,
 	["showLowLevel"] = false,
 	["_tom_waypoint"] = {
@@ -17,9 +17,9 @@ CodexConfig = {
 		["callbacks"] = {
 			["distance"] = {
 			},
-			["minimap"] = {
-			},
 			["world"] = {
+			},
+			["minimap"] = {
 			},
 		},
 		["persistent"] = true,
@@ -30,27 +30,29 @@ CodexConfig = {
 		["crazy"] = true,
 		["world"] = true,
 	},
-	["continentIcon"] = false,
-	["currentQuestGivers"] = true,
+	["minimapButton"] = true,
+	["autoTurnin"] = false,
 	["spawnMarkerSize"] = 15,
-	["colorBySpawn"] = true,
+	["showFestival"] = false,
 	["alwaysShowId"] = false,
 	["nameplateIcon"] = false,
 	["zoneMapIcon"] = true,
-	["showFestival"] = false,
+	["colorBySpawn"] = true,
 	["miniMapIcon"] = true,
-	["autoTurnin"] = false,
-	["minimapButton"] = true,
+	["currentQuestGivers"] = true,
+	["continentIcon"] = false,
 	["questMarkerSize"] = 15,
 }
 CodexHiddenQuests = {
-	[11818] = true,
-	[11829] = true,
-	[11882] = true,
-	[9744] = true,
 	[11775] = true,
-	[9742] = true,
+	[11882] = true,
+	[9784] = true,
 	[11787] = true,
+	[9742] = true,
+	[9744] = true,
+	[11829] = true,
+	[11818] = true,
+	[11782] = true,
 }
 CodexBrowserFavorites = {
 	["objects"] = {

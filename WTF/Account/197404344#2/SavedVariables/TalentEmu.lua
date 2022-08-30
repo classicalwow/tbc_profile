@@ -4,16 +4,16 @@ TalentEmuSV = {
 	},
 	["set"] = {
 		["credible"] = false,
-		["minimapPos"] = 185,
 		["supreme"] = false,
+		["minimapPos"] = 185,
 	},
 	["var"] = {
-		["Player-4778-04F3EDE6"] = "5y=pA:::0EH1G032o6REa8y0",
+		["Player-4778-04F3EDE6"] = "5yDDH:::0EH1G032o6REa8z0",
 		["savedTalent"] = {
 		},
 		["Player-4778-04F3E689"] = "110",
-		["Player-4501-04C9101E"] = "630",
 		["Player-4778-04DBFC9E"] = "6cWCU:0kyn-qEqOCu0Q-G161",
+		["Player-4501-04C9101E"] = "630",
 	},
 	["_version"] = 220801,
 	["_GlobalAssign"] = {

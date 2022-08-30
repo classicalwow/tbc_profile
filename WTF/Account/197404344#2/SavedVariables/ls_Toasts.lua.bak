@@ -2,8 +2,8 @@
 LS_TOASTS_GLOBAL_CONFIG = {
 	["profileKeys"] = {
 		["特变电工 - 祈福"] = "Default",
-		["Vscode - 加丁"] = "Default",
 		["新特能源 - 祈福"] = "Default",
+		["Vscode - 加丁"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -22,9 +22,9 @@ LS_TOASTS_GLOBAL_CONFIG = {
 					["dnd"] = false,
 					["sfx"] = true,
 					["anchor"] = 1,
-					["threshold"] = 1,
-					["quest"] = false,
 					["ilvl"] = true,
+					["quest"] = false,
+					["threshold"] = 1,
 				},
 			},
 		},

@@ -2,18 +2,18 @@
 TomTomDB = {
 	["profileKeys"] = {
 		["特变电工 - 祈福"] = "Default",
-		["Vscode - 加丁"] = "Default",
 		["新特能源 - 祈福"] = "Default",
+		["Vscode - 加丁"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["arrow"] = {
 				["position"] = {
-					"BOTTOM", -- [1]
+					"CENTER", -- [1]
 					nil, -- [2]
-					"BOTTOM", -- [3]
-					13.88877391815186, -- [4]
-					281.2221984863281, -- [5]
+					"CENTER", -- [3]
+					0, -- [4]
+					-234.9996185302734, -- [5]
 				},
 			},
 			["block"] = {
@@ -32,8 +32,8 @@ TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
 		["特变电工 - 祈福"] = "特变电工 - 祈福",
-		["Vscode - 加丁"] = "Vscode - 加丁",
 		["新特能源 - 祈福"] = "新特能源 - 祈福",
+		["Vscode - 加丁"] = "Vscode - 加丁",
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
@@ -53,9 +53,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -78,9 +78,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -88,9 +88,9 @@ TomTomWaypointsM = {
 				},
 			},
 		},
-		["Vscode - 加丁"] = {
-		},
 		["新特能源 - 祈福"] = {
+		},
+		["Vscode - 加丁"] = {
 		},
 	},
 }

@@ -1,5 +1,5 @@
 VER 3 0000000000000001 "target" "134328"
-/target 沼牙切
+/target 西诺巫师
 /script SetRaidTarget("target",8)
 END
 VER 3 0000000000000002 "大脚世界频道" "132874"

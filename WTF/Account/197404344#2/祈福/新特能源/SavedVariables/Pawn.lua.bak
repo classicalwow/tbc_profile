@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0538,
+	["LastPlayerFullName"] = "新特能源-祈福",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 23587,
@@ -39,14 +41,14 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:24614::::::-39:1901133856:61:::::::::|h[祈灵之守备官长靴]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 186024,
-			["Level"] = 52,
-			["Link"] = "|cff1eff00|Hitem:186024::::::::58:::::::::|h[共济护腕]|h|r",
+			["ID"] = 31770,
+			["Level"] = 96,
+			["Link"] = "|cff1eff00|Hitem:31770::::::::63:::::::::|h[沼泽护腕]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 186025,
-			["Level"] = 52,
-			["Link"] = "|cff1eff00|Hitem:186025::::::::58:::::::::|h[共济手套]|h|r",
+			["ID"] = 25613,
+			["Level"] = 96,
+			["Link"] = "|cff1eff00|Hitem:25613::::::::63:::::::::|h[蛮沼秘法师裹手]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 25921,
@@ -73,9 +75,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:28040::::::::61:::::::::|h[伊利达雷的复仇]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 186046,
-			["Level"] = 52,
-			["Link"] = "|cff1eff00|Hitem:186046::::::::58:::::::::|h[共济斗篷]|h|r",
+			["ID"] = 28026,
+			["Level"] = 96,
+			["Link"] = "|cff1eff00|Hitem:28026::::::::63:::::::::|h[疯狂塞纳里奥披风]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 25985,
@@ -93,8 +95,6 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:29915::::::::59:::::::::|h[荒凉魔棒]|h|r",
 		}, -- [18]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "新特能源-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
