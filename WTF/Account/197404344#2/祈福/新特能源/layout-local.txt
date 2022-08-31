@@ -2,8 +2,8 @@ Version: 1
 Frame: MeetingHornDataBroker
 FrameLevel: 1
 Anchor: TOP
-X: -17
-Y: -18
+X: 11
+Y: 0
 W: 171
 H: 43
 Frame: ReplayFrame

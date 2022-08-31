@@ -2,8 +2,8 @@
 RecountDB = {
 	["profileKeys"] = {
 		["特变电工 - 祈福"] = "特变电工 - 祈福",
-		["Vscode - 加丁"] = "Vscode - 加丁",
 		["新特能源 - 祈福"] = "新特能源 - 祈福",
+		["Vscode - 加丁"] = "Vscode - 加丁",
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
@@ -26,32 +26,9 @@ RecountDB = {
 				},
 			},
 			["MainWindowHeight"] = 191.111083984375,
-			["LastInstanceName"] = "祖尔法拉克",
+			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 209.4445648193359,
-			["CurDataSet"] = "OverallData",
-		},
-		["Vscode - 加丁"] = {
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = -484.4445114135742,
-					["x"] = -563.8890228271484,
-					["w"] = 167.7777862548828,
-					["h"] = 198.8888702392578,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["MainWindowHeight"] = 198.8888702392578,
-			["MainWindowWidth"] = 167.7777862548828,
-			["CurDataSet"] = "OverallData",
+			["LastInstanceName"] = "祖尔法拉克",
 		},
 		["新特能源 - 祈福"] = {
 			["MainWindow"] = {
@@ -75,6 +52,29 @@ RecountDB = {
 			},
 			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 231.6667785644531,
+		},
+		["Vscode - 加丁"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -484.4445114135742,
+					["x"] = -563.8890228271484,
+					["w"] = 167.7777862548828,
+					["h"] = 198.8888702392578,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["MainWindowHeight"] = 198.8888702392578,
+			["MainWindowWidth"] = 167.7777862548828,
+			["CurDataSet"] = "OverallData",
 		},
 	},
 }

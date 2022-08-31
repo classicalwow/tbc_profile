@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0538,
+	["LastPlayerFullName"] = "新特能源-祈福",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 23587,
@@ -24,9 +26,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:31717::::::::61:::::::::|h[暗影施法外套]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 25480,
-			["Level"] = 93,
-			["Link"] = "|cff1eff00|Hitem:25480::::::::61:::::::::|h[废土行者腰带]|h|r",
+			["ID"] = 31725,
+			["Level"] = 99,
+			["Link"] = "|cff1eff00|Hitem:31725::::::::64:::::::::|h[受难腰带]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 29928,
@@ -49,28 +51,28 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:25613::::::::63:::::::::|h[蛮沼秘法师裹手]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 25921,
-			["Level"] = 93,
+			["ID"] = 31728,
+			["Level"] = 99,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff1eff00|Hitem:25921::::::::60:::::::::|h[瑟丹的戒指]|h|r",
+			["Link"] = "|cff1eff00|Hitem:31728::::::::63:::::::::|h[世传意志徽记]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 25921,
-			["Level"] = 93,
+			["ID"] = 31728,
+			["Level"] = 99,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff1eff00|Hitem:25921::::::::61:::::::::|h[瑟丹的戒指]|h|r",
+			["Link"] = "|cff1eff00|Hitem:31728::::::::64:::::::::|h[世传意志徽记]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 28040,
-			["Level"] = 88,
+			["ID"] = 31615,
+			["Level"] = 102,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff0070dd|Hitem:28040::::::::60:::::::::|h[伊利达雷的复仇]|h|r",
+			["Link"] = "|cff1eff00|Hitem:31615::::::::63:::::::::|h[上古德莱尼奥术神器]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 28040,
-			["Level"] = 88,
+			["ID"] = 31615,
+			["Level"] = 102,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff0070dd|Hitem:28040::::::::61:::::::::|h[伊利达雷的复仇]|h|r",
+			["Link"] = "|cff1eff00|Hitem:31615::::::::64:::::::::|h[上古德莱尼奥术神器]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 28026,
@@ -83,18 +85,16 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:25985::::::::61:::::::::|h[塞纳里奥博学者法杖]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 186049,
-			["Level"] = 52,
-			["Link"] = "|cff1eff00|Hitem:186049::::::::58:::::::::|h[共济玫瑰]|h|r",
+			["ID"] = 31731,
+			["Level"] = 99,
+			["Link"] = "|cff1eff00|Hitem:31731::::::::63:::::::::|h[米克达的礼物]|h|r",
 		}, -- [17]
 		{
-			["ID"] = 29915,
-			["Level"] = 81,
-			["Link"] = "|cff1eff00|Hitem:29915::::::::59:::::::::|h[荒凉魔棒]|h|r",
+			["ID"] = 31724,
+			["Level"] = 99,
+			["Link"] = "|cff1eff00|Hitem:31724::::::::64:::::::::|h[鸦人占卜魔杖]|h|r",
 		}, -- [18]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "新特能源-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
