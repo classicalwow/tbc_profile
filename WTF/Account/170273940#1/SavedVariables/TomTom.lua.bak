@@ -100,14 +100,15 @@ TomTomWaypointsM = {
 				},
 			},
 			[1952] = {
-				["1952:396306074.85079:542803345.16461:TomTom 路径点"] = {
+				["1952:527599067.02029:730280314.74025:TomTom 路径点"] = {
 					1952, -- [1]
-					0.3963060748507885, -- [2]
-					0.5428033451646106, -- [3]
+					0.5275990670202858, -- [2]
+					0.7302803147402472, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["minimap"] = true,
+					["desc"] = "TomTom 路径点",
+					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "TomTom 路径点",
 					["from"] = "TomTom/wm",
@@ -127,6 +128,7 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
+					["minimap"] = true,
 					["world"] = true,
 				},
 			},

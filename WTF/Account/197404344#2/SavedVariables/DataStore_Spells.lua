@@ -8,7 +8,7 @@ DataStore_SpellsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.祈福.新特能源"] = {
-				["lastUpdate"] = 1661873961,
+				["lastUpdate"] = 1661956645,
 				["Spells"] = {
 					["综合"] = {
 						"20598|被动种族特长", -- [1]

@@ -98,7 +98,7 @@ DataStore_CraftsDB = {
 				["lastUpdate"] = 1659786092,
 			},
 			["Default.祈福.新特能源"] = {
-				["lastUpdate"] = 1661793883,
+				["lastUpdate"] = 1661951275,
 				["Professions"] = {
 					["骑术"] = {
 						["isSecondary"] = true,

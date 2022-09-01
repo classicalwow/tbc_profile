@@ -8,7 +8,7 @@ DataStore_AgendaDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.祈福.新特能源"] = {
-				["lastUpdate"] = 1661873961,
+				["lastUpdate"] = 1661956646,
 			},
 			["Default.加丁.Vscode"] = {
 				["lastUpdate"] = 1659786093,

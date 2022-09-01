@@ -15,7 +15,7 @@ DataStore_CraftsDB = {
 						["Rank"] = 150,
 					},
 				},
-				["lastUpdate"] = 1661873961,
+				["lastUpdate"] = 1661956645,
 			},
 			["Default.加丁.Vscode"] = {
 				["lastUpdate"] = 1659786092,

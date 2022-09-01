@@ -3,29 +3,16 @@ GuidelimeDataChar = {
 	["mainFrameHeight"] = 400,
 	["showUnavailableSteps"] = true,
 	["guideSkip"] = {
-		["TUGs The Ultimate (Leveling) Guides 62-63 Zangarmarsh"] = {
+		["TUGs The Ultimate (Leveling) Guides 63-64 Terokkar Forest Part I"] = {
 			true, -- [1]
 			true, -- [2]
-			[33] = false,
-			[78] = true,
+			[17] = true,
 			[21] = true,
-			[42] = true,
-			[43] = true,
-			[168] = true,
-			[45] = true,
-			[12] = true,
-			[47] = true,
-			[13] = true,
-			[29] = true,
-			[50] = true,
-			[26] = true,
-			[169] = true,
-			[46] = true,
-			[150] = true,
-			[77] = true,
-			[56] = true,
-			[81] = true,
-			[82] = true,
+			[10] = true,
+			[61] = true,
+			[116] = true,
+			[23] = true,
+			[49] = true,
 		},
 		["TUGs The Ultimate (Leveling) Guides 60-61 Hellfire Peninsula Part I"] = {
 			true, -- [1]
@@ -43,17 +30,9 @@ GuidelimeDataChar = {
 			[146] = true,
 			[119] = false,
 			[42] = true,
-			[95] = true,
 			[6] = true,
+			[95] = true,
 			[45] = true,
-		},
-		["TUGs The Ultimate (Leveling) Guides 63-64 Terokkar Forest Part I"] = {
-			true, -- [1]
-			true, -- [2]
-			[21] = true,
-			[10] = true,
-			[17] = true,
-			[23] = true,
 		},
 		["TUGs The Ultimate (Leveling) Guides 61-62 Hellfire Peninsula Part II"] = {
 			true, -- [1]
@@ -84,6 +63,34 @@ GuidelimeDataChar = {
 			[29] = true,
 			[15] = true,
 		},
+		["TUGs The Ultimate (Leveling) Guides 64-64 Terokkar Forest Part II"] = {
+			true, -- [1]
+			true, -- [2]
+		},
+		["TUGs The Ultimate (Leveling) Guides 62-63 Zangarmarsh"] = {
+			true, -- [1]
+			true, -- [2]
+			[33] = false,
+			[78] = true,
+			[21] = true,
+			[42] = true,
+			[43] = true,
+			[168] = true,
+			[45] = true,
+			[12] = true,
+			[47] = true,
+			[50] = true,
+			[29] = true,
+			[13] = true,
+			[26] = true,
+			[169] = true,
+			[46] = true,
+			[150] = true,
+			[77] = true,
+			[56] = true,
+			[81] = true,
+			[82] = true,
+		},
 	},
 	["completedSteps"] = {
 	},
@@ -98,21 +105,22 @@ GuidelimeDataChar = {
 	["arrowAlpha"] = 0.8,
 	["editorFrameX"] = 0,
 	["mainFrameAlpha"] = 0.5,
-	["currentGuide"] = "TUGs The Ultimate (Leveling) Guides 63-64 Terokkar Forest Part I",
-	["mainFrameY"] = -100.5552825927734,
-	["arrowX"] = 4.444331645965576,
+	["currentGuide"] = "TUGs The Ultimate (Leveling) Guides 64-64 Terokkar Forest Part II",
 	["mainFrameFontSize"] = 14,
+	["arrowX"] = 4.444331645965576,
+	["mainFrameY"] = -100.5552825927734,
 	["mainFrameShowScrollBar"] = true,
 	["showArrow"] = true,
-	["guideSize"] = {
-		["TUGs The Ultimate (Leveling) Guides 62-63 Zangarmarsh"] = 177,
-		["TUGs The Ultimate (Leveling) Guides 60-61 Hellfire Peninsula Part I"] = 160,
-		["TUGs The Ultimate (Leveling) Guides 63-64 Terokkar Forest Part I"] = 131,
-		["TUGs The Ultimate (Leveling) Guides 61-62 Hellfire Peninsula Part II"] = 94,
-	},
-	["version"] = "2.036",
-	["mainFrameShowing"] = true,
 	["editorFrameRelative"] = "CENTER",
+	["guideSize"] = {
+		["TUGs The Ultimate (Leveling) Guides 63-64 Terokkar Forest Part I"] = 131,
+		["TUGs The Ultimate (Leveling) Guides 60-61 Hellfire Peninsula Part I"] = 160,
+		["TUGs The Ultimate (Leveling) Guides 61-62 Hellfire Peninsula Part II"] = 94,
+		["TUGs The Ultimate (Leveling) Guides 64-64 Terokkar Forest Part II"] = 67,
+		["TUGs The Ultimate (Leveling) Guides 62-63 Zangarmarsh"] = 177,
+	},
+	["mainFrameShowing"] = true,
+	["version"] = "2.036",
 	["mainFrameRelative"] = "LEFT",
 	["arrowSize"] = 48,
 }
