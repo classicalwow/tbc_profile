@@ -10,37 +10,45 @@ CodexConfig = {
 	["minimumDropChance"] = 2,
 	["showLowLevel"] = false,
 	["_tom_waypoint"] = {
-		1944, -- [1]
-		0.334, -- [2]
-		0.591, -- [3]
+		1951, -- [1]
+		0.715, -- [2]
+		0.408, -- [3]
 		["arrivaldistance"] = 15,
 		["callbacks"] = {
 			["distance"] = {
-			},
-			["minimap"] = {
+				[10] = nil --[[ skipped inline function ]],
+				[15] = nil --[[ skipped inline function ]],
 			},
 			["world"] = {
+				["onclick"] = nil --[[ skipped inline function ]],
+				["tooltip_update"] = nil --[[ skipped inline function ]],
+				["tooltip_show"] = nil --[[ skipped inline function ]],
+			},
+			["minimap"] = {
+				["onclick"] = nil --[[ skipped inline function ]],
+				["tooltip_update"] = nil --[[ skipped inline function ]],
+				["tooltip_show"] = nil --[[ skipped inline function ]],
 			},
 		},
 		["persistent"] = true,
 		["minimap"] = true,
 		["cleardistance"] = 10,
-		["title"] = "石镰幼崽",
+		["title"] = "赫米特·奈辛瓦里二世",
 		["from"] = "?",
 		["crazy"] = true,
 		["world"] = true,
 	},
-	["continentIcon"] = false,
-	["currentQuestGivers"] = true,
+	["minimapButton"] = true,
+	["autoTurnin"] = false,
 	["spawnMarkerSize"] = 15,
-	["colorBySpawn"] = true,
+	["showFestival"] = false,
 	["alwaysShowId"] = false,
 	["nameplateIcon"] = false,
 	["zoneMapIcon"] = true,
-	["showFestival"] = false,
+	["colorBySpawn"] = true,
 	["miniMapIcon"] = true,
-	["autoTurnin"] = false,
-	["minimapButton"] = true,
+	["currentQuestGivers"] = true,
+	["continentIcon"] = false,
 	["questMarkerSize"] = 15,
 }
 CodexHiddenQuests = {
@@ -48,13 +56,14 @@ CodexHiddenQuests = {
 	[11882] = true,
 	[9784] = true,
 	[11787] = true,
+	[10077] = true,
 	[10923] = true,
 	[11825] = true,
 	[9742] = true,
 	[9744] = true,
-	[11782] = true,
-	[11818] = true,
 	[11829] = true,
+	[11818] = true,
+	[11782] = true,
 }
 CodexBrowserFavorites = {
 	["objects"] = {

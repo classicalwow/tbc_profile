@@ -1,8 +1,10 @@
 local _, env = ...; local db = env.db;
 local Config = CPAPI.EventHandler(ConsolePortConfig, {
 	'PLAYER_REGEN_ENABLED',
-	'PLAYER_REGEN_DISABLED'
+	'PLAYER_REGEN_DISABLED',
+	'UI_SCALE_CHANGED'
 }); env.Config = Config;
+local CONFIG_HEIGHT = 800;
 
 function Config:OnActiveDeviceChanged()
 	self.hasActiveDevice = db('Gamepad/Active') and true or false;
@@ -13,13 +15,16 @@ function Config:OnActiveDeviceChanged()
 	end
 end
 
-function Config:OnUIScaleChanged()
+function Config:UI_SCALE_CHANGED()
 	self:SetScale(db('UIscale'))
+	local relScale = UIParent:GetEffectiveScale() / self:GetEffectiveScale();
+	local maxHeight = relScale * UIParent:GetHeight();
+	self:SetHeight(Clamp(CONFIG_HEIGHT, CONFIG_HEIGHT, maxHeight))
 end
 
 function Config:OnDataLoaded()
 	db:TriggerEvent('OnConfigLoaded', self, env)
-	self:OnUIScaleChanged()
+	self:UI_SCALE_CHANGED()
 end
 
 function Config:Hide()
@@ -87,4 +92,4 @@ end
 Config:HookScript('OnShow', Config.OnShow)
 Config:SetScript('OnGamePadButtonDown', Config.OnGamePadButtonDown)
 db:RegisterCallback('Gamepad/Active', Config.OnActiveDeviceChanged, Config)
-db:RegisterCallback('Settings/UIscale', Config.OnUIScaleChanged, Config)
+db:RegisterCallback('Settings/UIscale', Config.UI_SCALE_CHANGED, Config)

@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0538,
+	["LastPlayerFullName"] = "新特能源-祈福",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 31766,
@@ -29,9 +31,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:31725::::::::64:::::::::|h[受难腰带]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 29928,
-			["Level"] = 81,
-			["Link"] = "|cff1eff00|Hitem:29928::::::::60:::::::::|h[游荡者的长裤]|h|r",
+			["ID"] = 31783,
+			["Level"] = 99,
+			["Link"] = "|cff1eff00|Hitem:31783::::::::64:::::::::|h[血火护腿]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 24614,
@@ -93,8 +95,6 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:31724::::::::64:::::::::|h[鸦人占卜魔杖]|h|r",
 		}, -- [18]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "新特能源-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

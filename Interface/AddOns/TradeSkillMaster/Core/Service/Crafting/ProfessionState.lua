@@ -39,7 +39,7 @@ function ProfessionState.GetIsClosed()
 end
 
 function ProfessionState.IsClassicCrafting()
-	return TSM.IsWowClassic() and private.craftOpen
+	return TSM.IsWowVanillaClassic() and private.craftOpen
 end
 
 function ProfessionState.SetCraftOpen(open)

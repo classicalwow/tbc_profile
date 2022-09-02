@@ -83,3 +83,10 @@ ElvUI_QuestXP: disabled
 ElvUI_CustomTags: disabled
 kExtraBossFrames: disabled
 WeakAurasCompanion: enabled
+dbm-eyeofeternity: enabled
+dbm-voa: enabled
+dbm-party-wotlk: enabled
+dbm-coliseum: enabled
+dbm-icecrown: enabled
+dbm-ulduar: enabled
+dbm-chamberofaspects: enabled

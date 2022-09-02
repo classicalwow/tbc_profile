@@ -8605,7 +8605,7 @@ L["Gold"] = "Or"
 L["Great Deals Search"] = "Recherche d'offres exceptionnelles"
 L["Group already exists."] = "Le groupe existe déjà."
 L["Group Management"] = "Gestion des groupes"
-L["Group name"] = "Nom de groupe"
+L["Group name"] = "Nom du groupe"
 L["Group Search"] = "Recherche groupe"
 L["Grouped Items"] = "Objets groupés"
 L["Groups"] = "Groupes"
@@ -8926,7 +8926,7 @@ L["Post cap"] = "Post cap"
 --[[Translation missing --]]
 L["Post cap to bags"] = "Post cap to bags"
 L["Post from Shopping Scan"] = "Créer une enchère à partir de l'analyse d'achat"
-L["Post Items from Bags"] = "mise au enchère des objets des sacs"
+L["Post Items from Bags"] = "Mise aux enchères des objets des sacs"
 L["Post Quantity"] = "Quantité de mise en vente"
 L["Post Scan"] = "Poster le scan"
 L["Post Selected"] = "Enchère sélectionné"
@@ -9062,7 +9062,7 @@ L["Restocking with no min profit."] = "Réapprovisionnement sans profit min."
 L["Restore bags"] = "Restaurer les sacs"
 L["Resuming Scan..."] = "Reprise de l'analyse..."
 L["Retrying %d auction(s) which failed."] = "Nouvelle tentative de %d enchères qui a échoué."
-L["Revenue"] = "Revenue"
+L["Revenue"] = "Revenus"
 L["Right-Click to reset the window size, scale, and position to their defaults."] = "Cliquez avec le bouton droit de la souris pour réinitialiser la taille, l'échelle et la position de la fenêtre à leurs valeurs par défaut."
 L["Run Advanced Item Search"] = "Lancer la recherche avancée d'objet"
 L["Run Bid Sniper"] = "Scan d'OFFRES \"Sniper\""
@@ -9374,7 +9374,7 @@ L["Usable Only"] = "Utilisable uniquement"
 L["Usage: /tsm price <Item Link> <Custom String>"] = "Utilisation : /tsm price <liens d'objet> <Chaîne personnalisée>"
 L["Use the settings below to control which lines are shown in tooltips."] = "Utilisez les paramètres ci-dessous pour contrôler les lignes affichées dans les info-bulles."
 L["Use this list to manage what cooldowns you'd like TSM to ignore from crafting."] = "Utilisez cette liste pour gérer les temps de recharge que vous souhaitez que TSM ignore lors de la fabrication."
-L["Use this list to manage what items you'd like TSM to ignore from destroying."] = "Utilisez cette liste pour gérer les objet que vous souhaitez que TSM ignore lors de la destruction."
+L["Use this list to manage what items you'd like TSM to ignore from destroying."] = "Utilisez cette liste pour gérer les objets que vous souhaitez que TSM ignore lors de la destruction."
 L["Value"] = "Valeur"
 L["Value must be between %d and %d."] = "La valeur doit être comprise entre %d et %d."
 L["Value Price Source"] = "Source de prix de valeur"
@@ -9386,7 +9386,7 @@ L["Vendor Buy Price"] = "Prix d'achat au marchand"
 L["Vendor buy price"] = "Prix d'achat au marchand"
 L["Vendor Search"] = "Recherche de vendeurs"
 L["Vendor Sell"] = "Vendre au marchant"
-L["Vendor Sell Price"] = "Prix de vente au marchant"
+L["Vendor Sell Price"] = "Prix de vente au marchand"
 L["Vendor sell price"] = "Prix de vente au marchand"
 L["Vendoring"] = "Vente"
 L["Vendoring %s button"] = "Bouton %s de vente"
@@ -17677,7 +17677,7 @@ L["%d Items"] = "%d 物品"
 L["%d of %d"] = "發佈 %d 堆，每堆 %d 個"
 L["%d Operations"] = "%d 作業"
 L["%d Players"] = "%d 玩家"
-L["%d Posted Auctions"] = "%d 個發佈的拍賣"
+L["%d Posted Auctions"] = "%d 個拍賣發佈"
 L["%d Professions"] = "%d 個專業技能"
 --[[Translation missing --]]
 L["%d Rarities"] = "%d Rarities"
@@ -17723,10 +17723,8 @@ L["%s Items Total"] = "%s 所有物品"
 L["%s operation"] = "%s 作業"
 L["%s operations"] = "%s 作業"
 L["%s Operations"] = "%s 作業"
---[[Translation missing --]]
-L["%s Posted Auctions"] = "%s Posted Auctions"
---[[Translation missing --]]
-L["%s Posted Auctions (Filtered)"] = "%s Posted Auctions (Filtered)"
+L["%s Posted Auctions"] = "%s 個拍賣發佈"
+L["%s Posted Auctions (Filtered)"] = "%s 個拍賣發佈（已篩選）"
 --[[Translation missing --]]
 L["%s previously had the max number of operations, so removed %s."] = "%s previously had the max number of operations, so removed %s."
 L["%s removed."] = "%s 移除."
@@ -17764,7 +17762,7 @@ L["1 Group"] = "1 群組"
 L["1 Item"] = "1 物品"
 L["1D"] = "天"
 L["1M"] = "月"
-L["1W"] = "周"
+L["1W"] = "週"
 L["1Y"] = "年"
 L["2Y"] = "兩"
 L["3M"] = "季"
@@ -17786,8 +17784,7 @@ L["Above max price. Posting at max."] = "Above max price. Posting at max."
 L["Above max price. Posting at min."] = "Above max price. Posting at min."
 --[[Translation missing --]]
 L["Above max price. Posting at normal."] = "Above max price. Posting at normal."
---[[Translation missing --]]
-L["Accept COD?"] = "Accept COD?"
+L["Accept COD?"] = "接受貨到付款？"
 L["Accepting this item will cost: %s"] = "接受該物品將花費：%s"
 L["Account sync removed. Please delete the account sync from the other account as well."] = "帳戶同步已刪除。 請同時從另一個帳戶中刪除該帳戶同步。"
 L["Account Syncing"] = "帳戶同步"
@@ -17806,8 +17803,7 @@ L["Add More Operations"] = "增加更多作業"
 L["Add Operation"] = "增加作業"
 L["Add operation to groups"] = "增加作業到群組"
 L["Add Optional Reagents"] = "加入額外材料"
---[[Translation missing --]]
-L["Add Reagent(s)"] = "Add Reagent(s)"
+L["Add Reagent(s)"] = "加入材料"
 L["Add subject & description (optional)"] = "添加主題 & 說明 (可選)"
 L["Add Subject / Description"] = "添加主題 / 說明"
 --[[Translation missing --]]
@@ -17826,7 +17822,7 @@ L["Adjust how TSM values crafted items when calculating profit."] = "Adjust how 
 L["Adjust some general settings."] = "Adjust some general settings."
 L["Adjust the settings below to set how groups attached to this operation will be auctioned."] = "調整以下設置以設置如何拍賣與該操作關聯的群組。"
 L["Adjust the settings below to set how groups attached to this operation will be cancelled."] = "調整以下設置以設置如何取消此操作的群組。"
-L["Adjust the settings below to set how groups attached to this operation will be priced."] = "調整以下設置以設置該操作附加群組的定價方式。"
+L["Adjust the settings below to set how groups attached to this operation will be priced."] = "調整下列設定來制定附加在此作業的群組如何定價。"
 L["Advanced Item Search"] = "進階物品搜尋"
 L["AH"] = "拍賣場"
 --[[Translation missing --]]
@@ -17913,7 +17909,7 @@ L["Auctionator - Auction Value"] = "Auctionator - 拍賣價格"
 L["AuctionDB"] = "AuctionDB"
 --[[Translation missing --]]
 L["AuctionDB - Historical Price (via TSM App)"] = "AuctionDB - Historical Price (via TSM App)"
-L["AuctionDB - Market Value"] = "AuctionDB-市場價值"
+L["AuctionDB - Market Value"] = "AuctionDB - 市值"
 --[[Translation missing --]]
 L["AuctionDB - Minimum Buyout"] = "AuctionDB - Minimum Buyout"
 --[[Translation missing --]]
@@ -17933,7 +17929,7 @@ L["AuctionDB Realm Data is %s Old"] = "AuctionDB Realm Data is %s Old"
 --[[Translation missing --]]
 L["AuctionDB Region Data is %s Old"] = "AuctionDB Region Data is %s Old"
 L["Auctioneer - Appraiser"] = "Auctioneer - 出價"
-L["Auctioneer - Market Value"] = "Auctioneer - 市場價格"
+L["Auctioneer - Market Value"] = "Auctioneer - 市值"
 L["Auctioneer - Minimum Buyout"] = "Auctioneer - 最小直購價"
 L["Auctioning"] = "拍賣"
 --[[Translation missing --]]
@@ -18209,7 +18205,7 @@ L["Dalaran"] = "Dalaran"
 L["Dashboard"] = "儀錶板"
 --[[Translation missing --]]
 L["Default craft value method"] = "Default craft value method"
-L["Default material cost method"] = "默認材料成本方案"
+L["Default material cost method"] = "預設材料成本方案"
 --[[Translation missing --]]
 L["Default Price"] = "Default Price"
 L["Default price configuration"] = "預設價格配置"
@@ -18399,7 +18395,7 @@ L["Expired Auctions"] = "到期拍賣"
 L["Expired information"] = "Expired information"
 --[[Translation missing --]]
 L["Expired Since Last Sale"] = "Expired Since Last Sale"
-L["Expires"] = "信件退回時間"
+L["Expires"] = "信件保留時間"
 --[[Translation missing --]]
 L["Expires Since Last Sale"] = "Expires Since Last Sale"
 --[[Translation missing --]]
@@ -18542,10 +18538,8 @@ L["Hold SHIFT to not continue after the inbox refreshes"] = "Hold SHIFT to not c
 --[[Translation missing --]]
 L["Hold SHIFT to not continue after the inbox refreshes and CTRL to not open mail with money attached."] = "Hold SHIFT to not continue after the inbox refreshes and CTRL to not open mail with money attached."
 L["Hold SHIFT while dragging to scale the window instead."] = "拖曳時按住SHIFT鍵來調整視窗尺寸與字體大小."
---[[Translation missing --]]
-L["Hr"] = "Hr"
---[[Translation missing --]]
-L["Hrs"] = "Hrs"
+L["Hr"] = "小時"
+L["Hrs"] = "小時"
 --[[Translation missing --]]
 L["If you have multiple profiles set up with operations, enabling this will cause all but the current profile's operations to be irreversibly lost."] = "If you have multiple profiles set up with operations, enabling this will cause all but the current profile's operations to be irreversibly lost."
 L["Ignore Auctions Below Min"] = "忽略最低價以下的拍賣"
@@ -18639,8 +18633,7 @@ L["Item Slot"] = "Item Slot"
 --[[Translation missing --]]
 L["Item Subclass"] = "Item Subclass"
 L["Item Value"] = "物品價值"
---[[Translation missing --]]
-L["Item/Group is invalid (see chat)."] = "Item/Group is invalid (see chat)."
+L["Item/Group is invalid (see chat)."] = "物品/群組無效（見對話視窗）。"
 L["Items"] = "物品"
 --[[Translation missing --]]
 L["Items Using"] = "Items Using"
@@ -18717,8 +18710,8 @@ L["Management Options"] = "管理選項"
 L["Many commonly-used actions in TSM can be added to a macro and bound to your scroll wheel. Use the options below to setup this macro and scroll wheel binding."] = "Many commonly-used actions in TSM can be added to a macro and bound to your scroll wheel. Use the options below to setup this macro and scroll wheel binding."
 --[[Translation missing --]]
 L["Map Ping"] = "Map Ping"
-L["Market Value"] = "市場價格"
-L["Market value"] = "市場價格"
+L["Market Value"] = "市值"
+L["Market value"] = "市值"
 L["Market value price source"] = "市值價格來源"
 L["Market Value Price Source"] = "市值價格來源"
 L["Mat cost"] = "原材料成本"
@@ -18727,7 +18720,7 @@ L["Mat Price"] = "Mat Price"
 --[[Translation missing --]]
 L["Match stack size"] = "Match stack size"
 L["Match whitelisted players"] = "符合白名單玩家"
-L["Material Cost"] = "原材料成本"
+L["Material Cost"] = "材料成本"
 --[[Translation missing --]]
 L["Material Price"] = "Material Price"
 L["Materials"] = "材料"
@@ -18740,8 +18733,7 @@ L["Max Buy Price"] = "最高進價"
 L["Max destroy value (Enter '0c' to disable)"] = "Max destroy value (Enter '0c' to disable)"
 --[[Translation missing --]]
 L["Max expires to bank"] = "Max expires to bank"
---[[Translation missing --]]
-L["Max market value (Enter '0c' to disable)"] = "Max market value (Enter '0c' to disable)"
+L["Max market value (Enter '0c' to disable)"] = "最高市值（輸入'0c'為關閉）"
 --[[Translation missing --]]
 L["Max Price"] = "Max Price"
 --[[Translation missing --]]
@@ -18774,8 +18766,7 @@ L["Midnight"] = "Midnight"
 L["Mill value"] = "Mill value"
 --[[Translation missing --]]
 L["Mill Value"] = "Mill Value"
---[[Translation missing --]]
-L["Min"] = "Min"
+L["Min"] = "分鐘"
 L["Min 0 - Max 20"] = "最少 0 - 最多 20"
 --[[Translation missing --]]
 L["Min 0.5 - Max 10"] = "Min 0.5 - Max 10"
@@ -18838,7 +18829,7 @@ L["My Auctions"] = "我的拍賣"
 --[[Translation missing --]]
 L["My Auctions %s button"] = "My Auctions %s button"
 L["Name"] = "名稱"
-L["NEED MATS"] = "需要原料"
+L["NEED MATS"] = "需要材料"
 --[[Translation missing --]]
 L["New Base Group search."] = "New Base Group search."
 L["New Group"] = "新群組"
@@ -19003,7 +18994,7 @@ L["Postage"] = "郵資"
 --[[Translation missing --]]
 L["Posted at whitelisted player's price."] = "Posted at whitelisted player's price."
 L["Posted:"] = "發佈:"
-L["Posting"] = "發佈中"
+L["Posting"] = "發佈"
 --[[Translation missing --]]
 L["Posting %d / %d"] = "Posting %d / %d"
 --[[Translation missing --]]
@@ -19316,12 +19307,11 @@ L["Send"] = "發件箱"
 L["Send Disenchantables"] = "Send Disenchantables"
 --[[Translation missing --]]
 L["Send Excess Gold to Banker"] = "Send Excess Gold to Banker"
---[[Translation missing --]]
-L["Send Gold"] = "Send Gold"
+L["Send Gold"] = "寄送金額"
 --[[Translation missing --]]
 L["Send grouped items individually"] = "Send grouped items individually"
 L["Send Mail"] = "發送郵件"
-L["Send Money"] = "寄送金額"
+L["Send Money"] = "寄送金錢"
 --[[Translation missing --]]
 L["Send your active profile to this synced account"] = "Send your active profile to this synced account"
 --[[Translation missing --]]
@@ -19668,11 +19658,10 @@ L["TSM Shopping"] = "TSM Shopping"
 --[[Translation missing --]]
 L["TSM Sniper"] = "TSM Sniper"
 L["TSM TASK LIST"] = "TSM 任務清單"
-L["TSM Version Info:"] = "TSM 版本資訊:"
-L["TSM will not undercut any players you add to your whitelist."] = "TSM將不會對你加入白名單的任何玩家削價競爭."
+L["TSM Version Info:"] = "TSM 版本資訊："
+L["TSM will not undercut any players you add to your whitelist."] = "TSM將不會對你白名單中的玩家做削價。"
 --[[Translation missing --]]
 L["TSM_Accounting detected that you just traded %s %s in return for %s. Would you like Accounting to store a record of this trade?"] = "TSM_Accounting detected that you just traded %s %s in return for %s. Would you like Accounting to store a record of this trade?"
---[[Translation missing --]]
 L["TSM4"] = "TSM4"
 --[[Translation missing --]]
 L["TUJ 14-Day Price"] = "TUJ 14-Day Price"
@@ -19686,12 +19675,12 @@ L["Type"] = "類型"
 L["Unbalanced parentheses."] = "缺少括弧。"
 --[[Translation missing --]]
 L["Uncollected Only"] = "Uncollected Only"
-L["Undercut amount"] = "每次降價幅度"
+L["Undercut amount"] = "削價幅度"
 --[[Translation missing --]]
 L["Undercut by whitelisted player."] = "Undercut by whitelisted player."
 --[[Translation missing --]]
 L["Undercutting blacklisted player."] = "Undercutting blacklisted player."
-L["Undercutting competition."] = "降價出售"
+L["Undercutting competition."] = "削價競爭"
 L["Ungrouped Items"] = "未被群組的物品"
 L["Ungrouped Items in Bags"] = "背包裡未被群組的物品"
 L["Unit Price"] = "單價"
@@ -19716,8 +19705,7 @@ L["Upgrades Only"] = "Upgrades Only"
 L["Usable Only"] = "Usable Only"
 --[[Translation missing --]]
 L["Usage: /tsm price <Item Link> <Custom String>"] = "Usage: /tsm price <Item Link> <Custom String>"
---[[Translation missing --]]
-L["Use the settings below to control which lines are shown in tooltips."] = "Use the settings below to control which lines are shown in tooltips."
+L["Use the settings below to control which lines are shown in tooltips."] = "使用下列設定決定提示框裡顯示的資訊。"
 --[[Translation missing --]]
 L["Use this list to manage what cooldowns you'd like TSM to ignore from crafting."] = "Use this list to manage what cooldowns you'd like TSM to ignore from crafting."
 --[[Translation missing --]]
@@ -19743,7 +19731,7 @@ L["Vendoring %s button"] = "Vendoring %s button"
 L["Vendoring operation"] = "供應商作業"
 --[[Translation missing --]]
 L["Vendoring operations control selling to and buying from a vendor."] = "Vendoring operations control selling to and buying from a vendor."
-L["Warehousing"] = "庫存"
+L["Warehousing"] = "倉儲"
 L["Warehousing operation"] = "倉儲作業"
 --[[Translation missing --]]
 L["Warehousing operations control moving in and out of the bank."] = "Warehousing operations control moving in and out of the bank."

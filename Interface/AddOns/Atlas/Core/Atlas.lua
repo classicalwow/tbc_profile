@@ -1,4 +1,4 @@
--- $Id: Atlas.lua 408 2022-08-22 15:01:42Z arithmandar $
+-- $Id: Atlas.lua 412 2022-08-30 17:55:24Z arithmandar $
 --[[
 
 	Atlas, a World of Warcraft instance map browser
@@ -581,9 +581,14 @@ local function process_Deprecated()
 	for k, v in pairs(Deprecated_List) do
 		if ( addon:CheckAddonStatus(GetAddOnInfo(v[1])) ) then
 			local outdated = false
+			local compatibleVer
 			local currVer = GetAddOnMetadata(v[1], "Version")
-			if (v[3] and (strsub(currVer, 1, 1) == "r") and currVer < v[3]) then
-				outdated = true
+			if (v[3] and (strsub(currVer, 1, 1) == "r")) then
+				compatibleVer = tonumber(string.sub(v[3], 2))
+				currVer = tonumber(string.sub(currVer, 2))
+				if (currVer < compatibleVer) then
+					outdated = true
+				end
 			elseif (v[2] and (strsub(currVer, 1, 1) ~= "r") and currVer < v[2]) then
 				outdated = true
 			end
@@ -788,10 +793,6 @@ end
 
 -- Add boss / NPC button here so that we can add GameTooltip
 function addon:MapAddNPCButton()
-	if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC) then 
-		return
-	end
-	
 	local zoneID = ATLAS_DROPDOWNS[profile.options.dropdowns.module][profile.options.dropdowns.zone]
 	local t = AtlasMaps_NPC_DB[zoneID]
 	local data = AtlasMaps
@@ -814,7 +815,7 @@ function addon:MapAddNPCButton()
 			if (info_x == nil) then info_x = -18; end
 			if (info_y == nil) then info_y = -18; end
 
-			if (info_id < 10000 and profile.options.frames.showBossPotrait) then
+			if (WoWRetail and info_id < 10000 and profile.options.frames.showBossPotrait) then
 				bossbutton = _G["AtlasMapBossButton"..bossindex]
 				if (not bossbutton) then
 					bossbutton = CreateFrame("Button", "AtlasMapBossButton"..bossindex, AtlasFrame, "AtlasFrameBossButtonTemplate")
@@ -932,10 +933,6 @@ function addon:MapAddNPCButton()
 end
 
 function addon:MapAddNPCButtonLarge()
-	if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC) then 
-		return
-	end
-	
 	local zoneID = ATLAS_DROPDOWNS[profile.options.dropdowns.module][profile.options.dropdowns.zone]
 	local t = AtlasMaps_NPC_DB[zoneID]
 	local data = AtlasMaps
@@ -953,7 +950,7 @@ function addon:MapAddNPCButtonLarge()
 			local info_y 		= t[i][6]
 			local info_colortag	= t[i][7]
 
-			if (info_id < 10000 and info_x and info_y and profile.options.frames.showBossPotrait) then
+			if (WoWRetail and info_id < 10000 and info_x and info_y and profile.options.frames.showBossPotrait) then
 				bossbutton = _G["AtlasMapBossButtonL"..bossindex]
 				if (not bossbutton) then
 					bossbutton = CreateFrame("Button", "AtlasMapBossButtonL"..bossindex, AtlasFrameLarge, "AtlasFrameBossButtonTemplate")

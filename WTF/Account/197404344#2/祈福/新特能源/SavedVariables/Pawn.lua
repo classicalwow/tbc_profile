@@ -1,8 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0538,
-	["LastPlayerFullName"] = "新特能源-祈福",
-	["AutoSelectScales"] = false,
+	["LastVersion"] = 2.06,
 	["ItemLevels"] = {
 		{
 			["ID"] = 31766,
@@ -31,9 +29,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:31725::::::::64:::::::::|h[受难腰带]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 31783,
-			["Level"] = 99,
-			["Link"] = "|cff1eff00|Hitem:31783::::::::64:::::::::|h[血火护腿]|h|r",
+			["ID"] = 25577,
+			["Level"] = 105,
+			["Link"] = "|cff1eff00|Hitem:25577::::::::66:::::::::|h[绿血长裤]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 24614,
@@ -75,14 +73,14 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:31615::::::::64:::::::::|h[上古德莱尼奥术神器]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 28026,
-			["Level"] = 96,
-			["Link"] = "|cff1eff00|Hitem:28026::::::::63:::::::::|h[疯狂塞纳里奥披风]|h|r",
+			["ID"] = 28030,
+			["Level"] = 97,
+			["Link"] = "|cff0070dd|Hitem:28030::::::::66:::::::::|h[施法者的防护]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 25985,
-			["Level"] = 93,
-			["Link"] = "|cff1eff00|Hitem:25985::::::::61:::::::::|h[塞纳里奥博学者法杖]|h|r",
+			["ID"] = 25760,
+			["Level"] = 103,
+			["Link"] = "|cff0070dd|Hitem:25760::::::::66:::::::::|h[战斗法师的权杖]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 31731,
@@ -95,6 +93,8 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:31724::::::::64:::::::::|h[鸦人占卜魔杖]|h|r",
 		}, -- [18]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "新特能源-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
