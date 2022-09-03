@@ -2,6 +2,8 @@
 TomTomDB = {
 	["profileKeys"] = {
 		["特变电工 - 祈福"] = "Default",
+		["张坤 - 祈福"] = "Default",
+		["码农巴菲特 - 祈福"] = "Default",
 		["Vscode - 加丁"] = "Default",
 		["新特能源 - 祈福"] = "Default",
 	},
@@ -32,6 +34,8 @@ TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
 		["特变电工 - 祈福"] = "特变电工 - 祈福",
+		["张坤 - 祈福"] = "张坤 - 祈福",
+		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
 		["Vscode - 加丁"] = "Vscode - 加丁",
 		["新特能源 - 祈福"] = "新特能源 - 祈福",
 	},
@@ -87,6 +91,10 @@ TomTomWaypointsM = {
 					["world"] = true,
 				},
 			},
+		},
+		["张坤 - 祈福"] = {
+		},
+		["码农巴菲特 - 祈福"] = {
 		},
 		["Vscode - 加丁"] = {
 		},

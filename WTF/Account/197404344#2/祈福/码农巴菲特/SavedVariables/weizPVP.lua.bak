@@ -1,0 +1,26 @@
+
+_weizpvp_chardb = {
+	["profileKeys"] = {
+		["码农巴菲特 - 祈福"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["Options"] = {
+				["Database"] = {
+					["LastCleaned"] = 1662142738,
+					["VERSION"] = 3,
+				},
+				["Frames"] = {
+					["Point"] = "TOPLEFT",
+					["X"] = 1810.054931640625,
+					["Y"] = 389.611328125,
+					["Width"] = 251.0000915527344,
+					["List"] = {
+						["Height"] = 360.0000305175781,
+					},
+					["Height"] = 216.0000457763672,
+				},
+			},
+		},
+	},
+}

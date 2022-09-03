@@ -11,29 +11,21 @@ CodexConfig = {
 	["showLowLevel"] = false,
 	["_tom_waypoint"] = {
 		1951, -- [1]
-		0.715, -- [2]
-		0.408, -- [3]
+		0.392, -- [2]
+		0.276, -- [3]
 		["arrivaldistance"] = 15,
 		["callbacks"] = {
 			["distance"] = {
-				[10] = nil --[[ skipped inline function ]],
-				[15] = nil --[[ skipped inline function ]],
-			},
-			["world"] = {
-				["onclick"] = nil --[[ skipped inline function ]],
-				["tooltip_update"] = nil --[[ skipped inline function ]],
-				["tooltip_show"] = nil --[[ skipped inline function ]],
 			},
 			["minimap"] = {
-				["onclick"] = nil --[[ skipped inline function ]],
-				["tooltip_update"] = nil --[[ skipped inline function ]],
-				["tooltip_show"] = nil --[[ skipped inline function ]],
+			},
+			["world"] = {
 			},
 		},
 		["persistent"] = true,
 		["minimap"] = true,
 		["cleardistance"] = 10,
-		["title"] = "赫米特·奈辛瓦里二世",
+		["title"] = "石拳法师",
 		["from"] = "?",
 		["crazy"] = true,
 		["world"] = true,
@@ -57,13 +49,14 @@ CodexHiddenQuests = {
 	[9784] = true,
 	[11787] = true,
 	[10077] = true,
+	[11821] = true,
 	[10923] = true,
 	[11825] = true,
-	[9742] = true,
+	[11782] = true,
 	[9744] = true,
 	[11829] = true,
 	[11818] = true,
-	[11782] = true,
+	[9742] = true,
 }
 CodexBrowserFavorites = {
 	["objects"] = {

@@ -2,6 +2,8 @@
 Postal3DB = {
 	["profileKeys"] = {
 		["特变电工 - 祈福"] = "特变电工 - 祈福",
+		["张坤 - 祈福"] = "张坤 - 祈福",
+		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
 		["Vscode - 加丁"] = "Vscode - 加丁",
 		["新特能源 - 祈福"] = "新特能源 - 祈福",
 	},
@@ -9,8 +11,10 @@ Postal3DB = {
 		["BlackBook"] = {
 			["alts"] = {
 				"Vscode|加丁|Alliance|3|ROGUE", -- [1]
-				"新特能源|祈福|Alliance|64|PRIEST", -- [2]
-				"特变电工|祈福|Alliance|70|ROGUE", -- [3]
+				"张坤|祈福|Alliance|55|DEATHKNIGHT", -- [2]
+				"新特能源|祈福|Alliance|67|PRIEST", -- [3]
+				"特变电工|祈福|Alliance|70|ROGUE", -- [4]
+				"码农巴菲特|祈福|Alliance|55|DEATHKNIGHT", -- [5]
 			},
 		},
 	},
@@ -22,6 +26,10 @@ Postal3DB = {
 					"特工仓库|祈福|Alliance", -- [2]
 				},
 			},
+		},
+		["张坤 - 祈福"] = {
+		},
+		["码农巴菲特 - 祈福"] = {
 		},
 		["Vscode - 加丁"] = {
 		},

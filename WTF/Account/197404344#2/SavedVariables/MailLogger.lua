@@ -24,10 +24,12 @@ MailLoggerDB = {
 		},
 		["LogDays"] = 90,
 		["AltList"] = {
-			["特工仓库"] = true,
 			["特变电工"] = true,
 			["Vscode"] = true,
+			["特工仓库"] = true,
+			["码农巴菲特"] = true,
 			["新特能源"] = true,
+			["张坤"] = true,
 		},
 		["LogEverything"] = false,
 	},

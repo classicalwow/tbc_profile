@@ -28,8 +28,8 @@ GuidelimeDataChar = {
 			[60] = true,
 			[34] = true,
 			[45] = true,
-			[95] = true,
 			[6] = true,
+			[95] = true,
 			[42] = true,
 			[119] = false,
 			[146] = true,
@@ -66,9 +66,24 @@ GuidelimeDataChar = {
 		["TUGs The Ultimate (Leveling) Guides 64-64 Terokkar Forest Part II"] = {
 			true, -- [1]
 			true, -- [2]
+			[58] = true,
 			[24] = true,
 			[54] = true,
+			[62] = true,
+			[63] = true,
 			[56] = true,
+		},
+		["TUGs The Ultimate (Leveling) Guides 65-66 Nagrand Part II"] = {
+			true, -- [1]
+			true, -- [2]
+			[14] = true,
+			[12] = true,
+		},
+		["TUGs The Ultimate (Leveling) Guides 64-65 Nagrand Part I"] = {
+			true, -- [1]
+			true, -- [2]
+			[6] = true,
+			[27] = true,
 		},
 		["TUGs The Ultimate (Leveling) Guides 62-63 Zangarmarsh"] = {
 			true, -- [1]
@@ -84,7 +99,7 @@ GuidelimeDataChar = {
 			[47] = true,
 			[82] = true,
 			[81] = true,
-			[50] = true,
+			[13] = true,
 			[26] = true,
 			[169] = true,
 			[46] = true,
@@ -92,14 +107,15 @@ GuidelimeDataChar = {
 			[150] = true,
 			[56] = true,
 			[29] = true,
-			[13] = true,
+			[50] = true,
 		},
 	},
 	["completedSteps"] = {
+		[18] = true,
 	},
 	["arrowY"] = 257.5557250976563,
 	["arrowRelative"] = "BOTTOM",
-	["mainFrameX"] = -4.999747753143311,
+	["mainFrameX"] = -8.88863468170166,
 	["mainFrameLocked"] = false,
 	["mainFrameWidth"] = 350,
 	["arrowLocked"] = false,
@@ -108,22 +124,24 @@ GuidelimeDataChar = {
 	["arrowSize"] = 48,
 	["editorFrameX"] = 0,
 	["mainFrameAlpha"] = 0.5,
-	["currentGuide"] = "TUGs The Ultimate (Leveling) Guides 64-64 Terokkar Forest Part II",
-	["version"] = "2.036",
-	["arrowX"] = 4.444331645965576,
-	["mainFrameFontSize"] = 14,
-	["mainFrameShowing"] = true,
+	["currentGuide"] = "TUGs The Ultimate (Leveling) Guides 65-66 Nagrand Part II",
 	["guideSize"] = {
 		["TUGs The Ultimate (Leveling) Guides 63-64 Terokkar Forest Part I"] = 131,
 		["TUGs The Ultimate (Leveling) Guides 60-61 Hellfire Peninsula Part I"] = 160,
 		["TUGs The Ultimate (Leveling) Guides 61-62 Hellfire Peninsula Part II"] = 94,
 		["TUGs The Ultimate (Leveling) Guides 64-64 Terokkar Forest Part II"] = 67,
+		["TUGs The Ultimate (Leveling) Guides 65-66 Nagrand Part II"] = 95,
+		["TUGs The Ultimate (Leveling) Guides 64-65 Nagrand Part I"] = 45,
 		["TUGs The Ultimate (Leveling) Guides 62-63 Zangarmarsh"] = 177,
 	},
+	["arrowX"] = 4.444331645965576,
+	["mainFrameY"] = -63.33307647705078,
+	["mainFrameShowing"] = false,
 	["editorFrameRelative"] = "CENTER",
+	["version"] = "2.036",
 	["showArrow"] = true,
 	["mainFrameShowScrollBar"] = true,
-	["mainFrameY"] = -100.5552825927734,
+	["mainFrameFontSize"] = 14,
 	["mainFrameRelative"] = "LEFT",
 	["arrowAlpha"] = 0.8,
 }

@@ -24,10 +24,12 @@ MailLoggerDB = {
 		},
 		["LogDays"] = 90,
 		["AltList"] = {
-			["新特能源"] = true,
 			["特变电工"] = true,
 			["Vscode"] = true,
 			["特工仓库"] = true,
+			["码农巴菲特"] = true,
+			["新特能源"] = true,
+			["张坤"] = true,
 		},
 		["LogEverything"] = false,
 	},
@@ -4903,5 +4905,177 @@ MailLoggerDB = {
 				}, -- [1]
 			},
 		}, -- [211]
+		{
+			["PlayerName"] = "新特能源",
+			["TargetName"] = "联盟拍卖行",
+			["Reason"] = 3,
+			["Date"] = "2022-09-01",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:10:36",
+			["GiveMoney"] = 0,
+			["Location"] = "暴风城",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:42415::::::::64:::::::::|h[精神鞭笞雕文]|h|r",
+					["Name"] = "精神鞭笞雕文",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:42406::::::::64:::::::::|h[暗言术：痛雕文]|h|r",
+					["Name"] = "暗言术：痛雕文",
+				}, -- [2]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:43371::::::::64:::::::::|h[坚韧雕文]|h|r",
+					["Name"] = "坚韧雕文",
+				}, -- [3]
+			},
+		}, -- [212]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "新特能源",
+			["Date"] = "2022-09-01",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 91,
+					["ItemLink"] = "|cffffffff|Hitem:21877::::::::64:::::::::|h[灵纹布]|h|r",
+					["Name"] = "灵纹布",
+				}, -- [1]
+				[6] = {
+					["Number"] = 33,
+					["ItemLink"] = "|cffffffff|Hitem:14047::::::::64:::::::::|h[符文布]|h|r",
+					["Name"] = "符文布",
+				},
+				[8] = {
+					["Number"] = 14,
+					["ItemLink"] = "|cffffffff|Hitem:29426::::::::64:::::::::|h[火翼徽记]|h|r",
+					["Name"] = "火翼徽记",
+				},
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "暴风城",
+			["Time"] = "22:12:07",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [213]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "新特能源",
+			["Date"] = "2022-09-01",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff1eff00|Hitem:5760::::::::64:::::::::|h[恒金宝箱]|h|r",
+					["Name"] = "恒金宝箱",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:25802::::::::64:::::::::|h[巨牙毒囊]|h|r",
+					["Name"] = "巨牙毒囊",
+				}, -- [2]
+				{
+					["Number"] = 13,
+					["ItemLink"] = "|cffffffff|Hitem:29425::::::::64:::::::::|h[基尔加丹印记]|h|r",
+					["Name"] = "基尔加丹印记",
+				}, -- [3]
+				{
+					["Number"] = 13,
+					["ItemLink"] = "|cffffffff|Hitem:25719::::::::64:::::::::|h[鸦人的羽毛]|h|r",
+					["Name"] = "鸦人的羽毛",
+				}, -- [4]
+				{
+					["Number"] = 3,
+					["ItemLink"] = "|cffffffff|Hitem:17056::::::::64:::::::::|h[轻羽毛]|h|r",
+					["Name"] = "轻羽毛",
+				}, -- [5]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "暴风城",
+			["Time"] = "22:12:21",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [214]
+		{
+			["PlayerName"] = "新特能源",
+			["TargetName"] = "联盟拍卖行",
+			["Reason"] = 7,
+			["Date"] = "2022-09-02",
+			["ReceiveMoney"] = 0,
+			["Time"] = "01:25:26",
+			["GiveMoney"] = 0,
+			["Location"] = "纳格兰",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 12,
+					["ItemLink"] = "|cffffffff|Hitem:27499::::::::66:::::::::|h[智力卷轴 V]|h|r",
+					["Name"] = "智力卷轴 V",
+				}, -- [1]
+				[6] = {
+					["Number"] = 20,
+					["ItemLink"] = "|cffffffff|Hitem:27665::::::::66:::::::::|h[水煮蓝鱼]|h|r",
+					["Name"] = "水煮蓝鱼",
+				},
+			},
+		}, -- [215]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "新特能源",
+			["Date"] = "2022-09-02",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:27501::::::::66:::::::::|h[精神卷轴 V]|h|r",
+					["Name"] = "精神卷轴 V",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:27503::::::::66:::::::::|h[力量卷轴 V]|h|r",
+					["Name"] = "力量卷轴 V",
+				}, -- [2]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:24245::::::::66:::::::::|h[亮顶蘑菇]|h|r",
+					["Name"] = "亮顶蘑菇",
+				}, -- [3]
+				{
+					["Number"] = 2,
+					["ItemLink"] = "|cffffffff|Hitem:22573::::::::66:::::::::|h[土之微粒]|h|r",
+					["Name"] = "土之微粒",
+				}, -- [4]
+				{
+					["Number"] = 10,
+					["ItemLink"] = "|cffffffff|Hitem:24401::::::::66:::::::::|h[未鉴定过的植物]|h|r",
+					["Name"] = "未鉴定过的植物",
+				}, -- [5]
+				{
+					["Number"] = 8,
+					["ItemLink"] = "|cffffffff|Hitem:22578::::::::66:::::::::|h[水之微粒]|h|r",
+					["Name"] = "水之微粒",
+				}, -- [6]
+				{
+					["Number"] = 5,
+					["ItemLink"] = "|cffffffff|Hitem:22572::::::::66:::::::::|h[空气微粒]|h|r",
+					["Name"] = "空气微粒",
+				}, -- [7]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "纳格兰",
+			["Time"] = "01:25:53",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [216]
 	},
 }

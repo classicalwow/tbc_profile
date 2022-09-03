@@ -20,7 +20,13 @@ __DEJUNK_SAVED_VARIABLES__ = {
 		["Vscode-加丁"] = {
 			["version"] = 3,
 		},
+		["张坤-祈福"] = {
+			["version"] = 3,
+		},
 		["新特能源-祈福"] = {
+			["version"] = 3,
+		},
+		["码农巴菲特-祈福"] = {
 			["version"] = 3,
 		},
 	},

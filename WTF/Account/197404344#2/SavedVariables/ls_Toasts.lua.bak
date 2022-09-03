@@ -2,12 +2,14 @@
 LS_TOASTS_GLOBAL_CONFIG = {
 	["profileKeys"] = {
 		["特变电工 - 祈福"] = "Default",
+		["张坤 - 祈福"] = "Default",
+		["码农巴菲特 - 祈福"] = "Default",
 		["新特能源 - 祈福"] = "Default",
 		["Vscode - 加丁"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["version"] = 2050301,
+			["version"] = 1140201,
 			["types"] = {
 				["loot_gold"] = {
 					["enabled"] = true,

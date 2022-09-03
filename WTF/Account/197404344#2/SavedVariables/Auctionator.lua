@@ -30,11 +30,6 @@ AUCTIONATOR_PRICE_DATABASE = {
 }
 AUCTIONATOR_LAST_SCAN_TIME = nil
 AUCTIONATOR_TOONS = {
-	["新特能源"] = {
-		["firstSeen"] = 1661658425,
-		["guid"] = "Player-4778-04F3EDE6",
-		["firstVersion"] = "2.5.5-1-g17bf777",
-	},
 	["特变电工"] = {
 		["firstSeen"] = 1660226408,
 		["guid"] = "Player-4778-04DBFC9E",
@@ -49,6 +44,21 @@ AUCTIONATOR_TOONS = {
 		["firstSeen"] = 1660322812,
 		["firstVersion"] = "2.5.5-1-g17bf777",
 		["guid"] = "Player-4778-04DCA2D4",
+	},
+	["码农巴菲特"] = {
+		["firstSeen"] = 1662142740,
+		["firstVersion"] = "2.5.5-1-g17bf777",
+		["guid"] = "Player-4778-0505CE58",
+	},
+	["新特能源"] = {
+		["firstSeen"] = 1661658425,
+		["guid"] = "Player-4778-04F3EDE6",
+		["firstVersion"] = "2.5.5-1-g17bf777",
+	},
+	["张坤"] = {
+		["firstSeen"] = 1662142600,
+		["guid"] = "Player-4778-0505CE04",
+		["firstVersion"] = "2.5.5-1-g17bf777",
 	},
 }
 AUCTIONATOR_STACKING_PREFS = {

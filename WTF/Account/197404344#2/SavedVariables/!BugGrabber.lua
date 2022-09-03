@@ -1,6 +1,6 @@
 
 BugGrabberDB = {
-	["session"] = 116,
+	["session"] = 122,
 	["lastSanitation"] = 3,
 	["errors"] = {
 		{
@@ -75,82 +75,13 @@ BugGrabberDB = {
 			["counter"] = 3,
 		}, -- [9]
 		{
-			["message"] = "Interface\\AddOns\\Puggle\\Puggle-216.lua:1346: bad argument #1 to 'gsub' (string expected, got nil)",
-			["time"] = "2022/08/13 14:30:28",
-			["locals"] = "(*temporary) = nil\n(*temporary) = \"[^ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=]\"\n(*temporary) = \"\"\n(*temporary) = \"string expected, got nil\"\n",
-			["stack"] = "[string \"=[C]\"]: in function `gsub'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1346: in function `Puggle_dec'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:889: in function `Puggle_displayGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:693: in function `Puggle_UpdateCurrentGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:526: in function `Puggle_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
-			["session"] = 98,
-			["counter"] = 159,
-		}, -- [10]
-		{
-			["message"] = "Interface\\AddOns\\SpellReplay\\SpellReplay.lua:89: attempt to index field '?' (a nil value)",
-			["time"] = "2022/07/09 15:49:57",
-			["locals"] = "(for index) = 32\n(for limit) = 50\n(for step) = 1\ni = 32\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"32\"\n(*temporary) = nil\n(*temporary) = \"attempt to index field '?' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\SpellReplay\\SpellReplay.lua\"]:89: in function <Interface\\AddOns\\SpellReplay\\SpellReplay.lua:87>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2064: in function `SetUIPanel'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2138: in function `HideUIPanel'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:1826: in function <Interface_TBC\\FrameXML\\UIParent.lua:1818>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2616: in function `HideUIPanel'\n[string \"@Interface\\FrameXML\\CinematicFrame.lua\"]:51: in function <Interface\\FrameXML\\CinematicFrame.lua:39>",
-			["session"] = 100,
-			["counter"] = 9,
-		}, -- [11]
-		{
-			["message"] = "Interface\\AddOns\\SpellReplay\\SpellReplay.lua:67: attempt to index field '?' (a nil value)",
-			["time"] = "2022/07/09 15:49:57",
-			["locals"] = "(for index) = 32\n(for limit) = 50\n(for step) = 1\ni = 32\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"32\"\n(*temporary) = nil\n(*temporary) = \"attempt to index field '?' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\SpellReplay\\SpellReplay.lua\"]:67: in function <Interface\\AddOns\\SpellReplay\\SpellReplay.lua:65>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2064: in function `SetUIPanel'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2138: in function `HideUIPanel'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:1826: in function <Interface_TBC\\FrameXML\\UIParent.lua:1818>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2616: in function `HideUIPanel'\n[string \"@Interface\\FrameXML\\CinematicFrame.lua\"]:51: in function <Interface\\FrameXML\\CinematicFrame.lua:39>",
-			["session"] = 100,
-			["counter"] = 9,
-		}, -- [12]
-		{
-			["message"] = "Interface\\AddOns\\LoonBestInSlot\\LootBrowser.lua:6: attempt to index global 'AtlasLoot' (a nil value)",
-			["time"] = "2022/07/09 15:49:37",
-			["locals"] = "(*temporary) = nil\n(*temporary) = <table> {\n MaxHeight = 0\n CompareTooltip = <table> {\n }\n}\n(*temporary) = <table> {\n}\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index global 'AtlasLoot' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\LoonBestInSlot\\LootBrowser.lua\"]:6: in main chunk",
-			["session"] = 103,
-			["counter"] = 24,
-		}, -- [13]
-		{
-			["message"] = "Interface\\AddOns\\ClassicCodex\\quest.lua:321: attempt to index local 'dockTitle' (a nil value)",
-			["time"] = "2022/09/01 21:55:44",
-			["locals"] = "self = <unnamed> {\n 0 = <userdata>\n questLogTemp = <table> {\n }\n updateNodes = false\n HideNameplate = <function> defined @Interface\\AddOns\\ClassicCodex\\quest.lua:473\n IsExcludeQuest = <function> defined @Interface\\AddOns\\ClassicCodex\\quest.lua:31\n questLog = <table> {\n }\n AddWorldMapIntegration = <function> defined @Interface\\AddOns\\ClassicCodex\\quest.lua:362\n queue = <table> {\n }\n UpdateAllNameplates = <function> defined @Interface\\AddOns\\ClassicCodex\\quest.lua:479\n UpdateNameplate = <function> defined @Interface\\AddOns\\ClassicCodex\\quest.lua:431\n UpdateQuestLog = <function> defined @Interface\\AddOns\\ClassicCodex\\quest.lua:192\n AddQuestLogIntegration = <function> defined @Interface\\AddOns\\ClassicCodex\\quest.lua:317\n HideCurrentQuest = <function> defined @Interface\\AddOns\\ClassicCodex\\quest.lua:307\n pauseAutoAccept = false\n ShowCurrentQuest = <function> defined @Interface\\AddOns\\ClassicCodex\\quest.lua:295\n ResetAll = <function> defined @Interface\\AddOns\\ClassicCodex\\quest.lua:285\n}\ndockFrame = QuestLogDetailScrollChildFrame {\n 0 = <userdata>\n}\ndockTitle = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index local 'dockTitle' (a nil value)\"\nL = <table> {\n Show quest name in mouseover tooltip of units = \"在任务目标的鼠标指向提示中显示任务名称\"\n Show markers on the third and subsequent levels of the world map = \"在世界地图的第三层和后续层级上显示图标\"\n and %d others = \"以及%d个其他结果\"\n If selected, markers' colors will be set per spawn type or per quest if not selected = \"选中后，不同任务怪的地图标记颜色不同。如果未选中，则一个任务的所有任务怪都是同一个颜色。\"\n Show markers on the top two levels of the world map = \"在世界地图的顶层和次顶层显示图标\"\n |cff33ffcc/codex|cffffffff quest <questName> |cffcccccc - Show specific quest giver = \"|cff33ffcc/codex|cffffffff quest <questName> |cffcccccc - 搜索任务给予者\"\n |cff33ffcc/codex|cffffffff object <gameObject> |cffcccccc - Search objects = \"|cff33ffcc/codex|cffffffff object <gameObject> |cffcccccc - 搜索物体、目标\"\n All Questgivers = \"显示所有可接任务\"\n Auto-Accept Quests = \"自动接任务\"\n Left-Click = \"左键\"\n [ClassicCodex] The object #%s is missing. = \"[ClassicCodex 任务助手] 对象 #%s 数据遗失。\"\n ClassicCodex: You have no manually hidden quests. You can hold the shift key and click on the quest icon on the minimap or world map to hide it. = \"ClassicCodex: 您没有手动隐藏过任何任务，按住Shift并点击小地图或世界地图上的任务图标可以隐藏任务\"\n Toggle quest icon on top of enemy nameplates = \"在任务怪姓名板上方显示任务感叹号\"\n Show a button on the edge of the minimap, click to open Codex browser = \"在小地图边缘显示一个按钮，点击可打开 ClassicCodex 全能数据库\"\n Looted from = \"拾取自\"\n |cff33ffcc/codex|cffffffff quests |cffcccccc - Show all quests on the map = \"|cff33ffcc/codex|cffffffff quests |cffcccccc - 在地图上显示所有任务\"\n The {locale} locale text of the profession #{id} is missing. = \"专业 #{id} 的简体中文文本遗失。\"\n The {locale} locale text of the zone #{id} is missing. = \"区域 #{id} 的简体中文文本遗失。\"\n Search = \"搜索\"\n If selected, current quest-ender npcs/objects will be displayed on the map for active quests = \"选中后，可交付当前任务的NPC或物体会显示在地图上\"\n Location = \"地点\"\n Quests = \"任务\"\n Buy = \"购买\"\n Hide Quests = \"不显示任务\"\n Failed to load ClassicCodex core, ClassicCodex cannot be launched = \"加载ClassicCodex核心失败，任务助手无法启动\"\n ClassicCodex: %d hidden quests will be able to show again. = \"ClassicCodex: %d个隐藏任务已重新显示\"\n Show Markers on Zone Maps = \"在区域地图上显示图标\"\n Clean Map = \"清除\"\n Quest End = \"任务结束\"\n If selected, quests with a level requirement of your level + 3 will be shown on the ma",
-			["stack"] = "[string \"@Interface\\AddOns\\ClassicCodex\\quest.lua\"]:321: in function `AddQuestLogIntegration'\n[string \"@Interface\\AddOns\\ClassicCodex\\quest.lua\"]:48: in function <Interface\\AddOns\\ClassicCodex\\quest.lua:44>\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface\\AddOns\\ClassicCodex-loader\\loader.lua\"]:11: in function `tryLoad'\n[string \"@Interface\\AddOns\\ClassicCodex-loader\\loader.lua\"]:33: in main chunk",
-			["session"] = 116,
-			["counter"] = 1,
-		}, -- [14]
-		{
-			["message"] = "Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua:8: attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)",
-			["time"] = "2022/09/01 21:55:45",
-			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:67: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:53>",
-			["session"] = 116,
-			["counter"] = 1,
-		}, -- [15]
-		{
-			["message"] = "...AddOns\\GladiatorlosSA2_zhCN\\GladiatorlosSA2_zhCN-TBC-1.4.lua:3: attempt to index local 'GSA' (a nil value)",
-			["time"] = "2022/07/09 15:49:36",
-			["locals"] = "GSA = nil\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index local 'GSA' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\GladiatorlosSA2_zhCN\\GladiatorlosSA2_zhCN-TBC-1.4.lua\"]:3: in main chunk",
-			["session"] = 116,
-			["counter"] = 116,
-		}, -- [16]
-		{
-			["message"] = "Interface\\AddOns\\WideQuestLog\\WideQuestLog.lua:27: attempt to index local 'questLogTitle' (a nil value)",
-			["time"] = "2022/09/01 21:56:01",
-			["stack"] = "[string \"@Interface\\AddOns\\WideQuestLog\\WideQuestLog.lua\"]:27: in function <Interface\\AddOns\\WideQuestLog\\WideQuestLog.lua:24>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\ElvUI\\Core\\Modules\\Skins\\Skins.lua\"]:1665: in function <Interface\\AddOns\\ElvUI\\Core\\Modules\\Skins\\Skins.lua:1660>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\ElvUI\\Core\\General\\Core.lua\"]:1766: in function `CallLoadFunc'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\General\\Core.lua\"]:1781: in function `CallLoadedModule'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\General\\Core.lua\"]:1807: in function `InitializeModules'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\General\\Core.lua\"]:1916: in function `Initialize'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\init.lua\"]:225: in function <Interface\\AddOns\\ElvUI\\Core\\init.lua:224>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:70: in function <...seAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:630: in function <...seAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>",
-			["session"] = 116,
-			["counter"] = 1,
-		}, -- [17]
-		{
-			["message"] = "Error loading Interface\\AddOns\\GuideLime_TUGs_WOTLK\\TUGs\\Horde\\62-63 Part.lua",
-			["time"] = "2022/09/01 21:56:03",
-			["session"] = 116,
-			["counter"] = 3,
-		}, -- [18]
-		{
 			["message"] = "Interface\\FrameXML\\UnitPopupSharedButtonMixins.lua:2455: bad argument #1 to 'IsPlayerUsingVoice' (Usage: local isUsingVoice = C_VoiceChat.IsPlayerUsingVoice(playerLocation))",
 			["time"] = "2022/09/02 00:10:56",
 			["locals"] = "(*temporary) = <table> {\n GetWhoIndex = <function> defined @Interface\\FrameXML\\ObjectAPI\\PlayerLocation.lua:135\n IsBattleNetGUID = <function> defined @Interface\\FrameXML\\ObjectAPI\\PlayerLocation.lua:69\n SetGUID = <function> defined @Interface\\FrameXML\\ObjectAPI\\PlayerLocation.lua:53\n unit = \"targettarget\"\n IsCommunityData = <function> defined @Interface\\FrameXML\\ObjectAPI\\PlayerLocation.lua:147\n IsBattlefieldScoreIndex = <function> defined @Interface\\FrameXML\\ObjectAPI\\PlayerLocation.lua:105\n SetCommunityInvitation = <function> defined @Interface\\FrameXML\\ObjectAPI\\PlayerLocation.lua:151\n IsGUID = <function> defined @Interface\\FrameXML\\ObjectAPI\\PlayerLocation.lua:65\n SetVoiceID = <function> defined @Interface\\FrameXML\\ObjectAPI\\PlayerLocation.lua:113\n IsChatLineID = <function> defined @Interface\\FrameXML\\ObjectAPI\\PlayerLocation.lua:93\n GetBattlefieldScoreIndex = <function> defined @Interface\\FrameXML\\ObjectAPI\\PlayerLocation.lua:109\n SetBattlefieldScoreIndex = <function> defined @Interface\\FrameXML\\ObjectAPI\\PlayerLocation.lua:101\n IsValid = <function> defined @Interface\\FrameXML\\ObjectAPI\\PlayerLocation.lua:57\n IsWhoIndex = <function> defined @Interface\\FrameXML\\ObjectAPI\\PlayerLocation.lua:131\n IsVoiceID = <function> defined @Interface\\FrameXML\\ObjectAPI\\PlayerLocation.lua:119\n SetWhoIndex = <function> defined @Interface\\FrameXML\\ObjectAPI\\PlayerLocation.lua:127\n IsUnit = <function> defined @Interface\\FrameXML\\ObjectAPI\\PlayerLocation.lua:81\n GetGUID = <function> defined @Interface\\FrameXML\\ObjectAPI\\PlayerLocation.lua:73\n GetVoiceID = <function> defined @Interface\\FrameXML\\ObjectAPI\\PlayerLocation.lua:123\n IsCommunityInvitation = <function> defined @Interface\\FrameXML\\ObjectAPI\\PlayerLocation.lua:157\n GetChatLineID = <function> defined @Interface\\FrameXML\\ObjectAPI\\PlayerLocation.lua:97\n ClearAndSetField = <function> defined @Interface\\FrameXML\\ObjectAPI\\PlayerLocation.lua:176\n SetUnit = <function> defined @Interface\\FrameXML\\ObjectAPI\\PlayerLocation.lua:77\n GetUnit = <function> defined @Interface\\FrameXML\\ObjectAPI\\PlayerLocation.lua:85\n SetChatLineID = <function> defined @Interface\\FrameXML\\ObjectAPI\\PlayerLocation.lua:89\n Clear = <function> defined @Interface\\FrameXML\\ObjectAPI\\PlayerLocation.lua:162\n SetCommunityData = <function> defined @Interface\\FrameXML\\ObjectAPI\\PlayerLocation.lua:139\n}\n",
 			["stack"] = "[string \"=[C]\"]: in function `IsPlayerUsingVoice'\n[string \"@Interface\\FrameXML\\UnitPopupSharedButtonMixins.lua\"]:2455: in function `CanShow'\n[string \"@Interface\\FrameXML\\UnitPopupShared.lua\"]:246: in function `OnUpdate'\n[string \"@Interface\\FrameXML\\UnitPopupShared.lua\"]:272: in function `UnitPopup_OnUpdate'\n[string \"*:OnUpdate\"]:3: in function <[string \"*:OnUpdate\"]:1>",
 			["session"] = 116,
 			["counter"] = 11,
-		}, -- [19]
+		}, -- [10]
 		{
 			["message"] = "...erface\\AddOns\\Guidelime\\Guidelime_QuestLog_wrath.lua:50: attempt to index local 'questLogTitle' (a nil value)",
 			["time"] = "2022/09/02 00:13:28",
@@ -158,15 +89,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\Guidelime\\Guidelime_QuestLog_wrath.lua\"]:50: in function <...erface\\AddOns\\Guidelime\\Guidelime_QuestLog_wrath.lua:5>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?",
 			["session"] = 116,
 			["counter"] = 624,
-		}, -- [20]
-		{
-			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
-			["time"] = "2022/08/13 19:33:28",
-			["locals"] = "GearScore = 57\nItemLevel = 20\nRed = 0.575650\nBlue = 0.575650\nGreen = 0.575650\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 4\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
-			["session"] = 116,
-			["counter"] = 161,
-		}, -- [21]
+		}, -- [11]
 		{
 			["message"] = "...ace\\AddOns\\WideQuestLogLevels\\WideQuestLogLevels.lua:17: attempt to index local 'questLogTitle' (a nil value)",
 			["time"] = "2022/09/02 00:26:26",
@@ -174,7 +97,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\WideQuestLogLevels\\WideQuestLogLevels.lua\"]:17: in function <...ace\\AddOns\\WideQuestLogLevels\\WideQuestLogLevels.lua:1>\n[string \"=[C]\"]: ?",
 			["session"] = 116,
 			["counter"] = 7842,
-		}, -- [22]
+		}, -- [12]
 		{
 			["message"] = "Interface\\SharedXML\\HybridScrollFrame.lua:67: bad argument #1 to 'min' (number expected, got nil)",
 			["time"] = "2022/09/02 00:26:25",
@@ -182,30 +105,153 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `min'\n[string \"@Interface\\SharedXML\\HybridScrollFrame.lua\"]:67: in function `HybridScrollFrame_OnMouseWheel'\n[string \"@Interface\\SharedXML\\HybridScrollFrame.lua\"]:90: in function <Interface\\SharedXML\\HybridScrollFrame.lua:84>",
 			["session"] = 116,
 			["counter"] = 5,
-		}, -- [23]
+		}, -- [13]
 		{
-			["message"] = "Interface_Wrath\\FrameXML\\QuestLogFrame.lua:210: attempt to index local 'questLogTitle' (a nil value)",
-			["time"] = "2022/09/02 00:13:28",
-			["locals"] = "self = nil\nnumEntries = 25\nnumQuests = 21\nquestLogSelection = 2\nscrollOffset = 0\nbuttons = <table> {\n 1 = QuestLogListScrollFrameButton1 {\n }\n 2 = QuestLogListScrollFrameButton2 {\n }\n 3 = QuestLogListScrollFrameButton3 {\n }\n 4 = QuestLogListScrollFrameButton4 {\n }\n 5 = QuestLogListScrollFrameButton5 {\n }\n 6 = QuestLogListScrollFrameButton6 {\n }\n 7 = QuestLogListScrollFrameButton7 {\n }\n 8 = QuestLogListScrollFrameButton8 {\n }\n 9 = QuestLogListScrollFrameButton9 {\n }\n 10 = QuestLogListScrollFrameButton10 {\n }\n 11 = QuestLogListScrollFrameButton11 {\n }\n 12 = QuestLogListScrollFrameButton12 {\n }\n 13 = QuestLogListScrollFrameButton13 {\n }\n 14 = QuestLogListScrollFrameButton14 {\n }\n 15 = QuestLogListScrollFrameButton15 {\n }\n 16 = QuestLogListScrollFrameButton16 {\n }\n 17 = QuestLogListScrollFrameButton17 {\n }\n 18 = QuestLogListScrollFrameButton18 {\n }\n 19 = QuestLogListScrollFrameButton19 {\n }\n 20 = QuestLogListScrollFrameButton20 {\n }\n 21 = QuestLogListScrollFrameButton21 {\n }\n 22 = QuestLogListScrollFrameButton22 {\n }\n}\nbuttonHeight = 15.999988\ndisplayedHeight = 351.999727\nquestIndex = 23\nquestLogTitle = nil\nquestTitleTag = QuestLogListScrollFrameButton22Tag {\n 0 = <userdata>\n}\nquestNumGroupMates = QuestLogListScrollFrameButton22GroupMates {\n 0 = <userdata>\n}\nquestNormalText = QuestLogListScrollFrameButton22NormalText {\n 0 = <userdata>\n}\nquestHighlight = nil\nquestCheck = QuestLogListScrollFrameButton22Check {\n 0 = <userdata>\n}\nquestLogTitleText = \"狩猎裂蹄牛\"\nlevel = 67\nquestTag = \"完成\"\nisHeader = false\nisCollapsed = false\nisComplete = 1\ncolor = <table> {\n b = 0\n font = \"QuestDifficulty_Difficult\"\n g = 1\n r = 1\n}\nnumPartyMembers = nil\npartyMembersOnQuest = 1\ntempWidth = 218.333328\ntextWidth = 85.555542\n(for index) = 23\n(for limit) = 40\n(for step) = 1\ni = 23\n(*temporary) = <function> defined @Interface_Wrath\\FrameXML\\QuestLogFrame.lua:391\n(*temporary) = nil\n(*temporary) = QuestLogListScrollFrameButton22NormalText {\n 0 = <userdata>\n}\n(*temporary) = QuestLogListScrollFrameButton22Tag {\n 0 = <userdata>\n}\n(*temporary) = QuestLogListScrollFrameButton22Check {\n 0 = <userdata>\n}\n(*temporary) = 254.333364\n(*temporary) = 85.555557\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = QuestLogListScrollFrameButton22NormalText {\n 0 = <userdata>\n}\n(*temporary) = 85.555557\n(*temporary) = <userdata>\n(*temporary) = false\n(*temporary) = false\n(*temporary) = false\n(*temporary) = false\n(*temporary) = false\n(*temporary) = false\n(*temporary) = \"attempt to index local 'questLogTitle' (a nil value)\"\n_QuestLog_HighlightQuest = <function> defined @Interface_Wrath\\FrameXML\\QuestLogFrame.lua:17\n",
-			["stack"] = "[string \"@Interface_Wrath\\FrameXML\\QuestLogFrame.lua\"]:210: in function <Interface_Wrath\\FrameXML\\QuestLogFrame.lua:167>\n[string \"=[C]\"]: in function `QuestLog_Update'\n[string \"@Interface_Wrath\\FrameXML\\QuestLogFrame.lua\"]:145: in function <Interface_Wrath\\FrameXML\\QuestLogFrame.lua:135>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface_Wrath\\FrameXML\\UIParent.lua\"]:2215: in function `SetUIPanel'\n[string \"@Interface_Wrath\\FrameXML\\UIParent.lua\"]:2060: in function `ShowUIPanel'\n[string \"@Interface_Wrath\\FrameXML\\UIParent.lua\"]:1928: in function <Interface_Wrath\\FrameXML\\UIParent.lua:1924>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface_Wrath\\FrameXML\\UIParent.lua\"]:2717: in function <Interface_Wrath\\FrameXML\\UIParent.lua:2696>\n[string \"=[C]\"]: in function `ShowUIPanel'\n[string \"@Interface_Wrath\\FrameXML\\QuestLogFrame.lua\"]:48: in function `ToggleQuestLog'\n[string \"TOGGLEQUESTLOG\"]:1: in function <[string \"TOGGLEQUESTLOG\"]:1>",
-			["session"] = 116,
-			["counter"] = 144,
-		}, -- [24]
+			["message"] = "Interface\\AddOns\\Puggle\\Puggle-216.lua:1346: bad argument #1 to 'gsub' (string expected, got nil)",
+			["time"] = "2022/08/13 14:30:28",
+			["locals"] = "(*temporary) = nil\n(*temporary) = \"[^ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=]\"\n(*temporary) = \"\"\n(*temporary) = \"string expected, got nil\"\n",
+			["stack"] = "[string \"=[C]\"]: in function `gsub'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1346: in function `Puggle_dec'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:889: in function `Puggle_displayGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:693: in function `Puggle_UpdateCurrentGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:526: in function `Puggle_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
+			["session"] = 117,
+			["counter"] = 161,
+		}, -- [14]
 		{
-			["message"] = "...ace\\AddOns\\WideQuestLogLevels\\WideQuestLogLevels.lua:22: attempt to index local 'questCheck' (a nil value)",
-			["time"] = "2022/09/02 00:13:28",
-			["locals"] = "self = QuestLogFrame {\n 0 = <userdata>\n SetWidth = <function> defined =[C]:-1\n backdrop = <unnamed> {\n }\n selectedButtonID = 2\n SetHeight = <function> defined =[C]:-1\n SetPoint = <function> defined =[C]:-1\n PixelSnapDisabled = true\n}\nnumEntries = 25\nnumQuests = 21\nquestIndex = 1\nquestLogTitle = nil\ntitle = \"地狱火堡垒\"\nlevel = 0\n_ = nil\nisHeader = true\nquestTextFormatted = nil\nquestCheck = nil\n(for index) = 1\n(for limit) = 40\n(for step) = 1\ni = 1\n(*temporary) = \"地狱火堡垒\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = true\n(*temporary) = nil\n(*temporary) = true\n(*temporary) = false\n(*temporary) = \"attempt to index local 'questCheck' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\WideQuestLogLevels\\WideQuestLogLevels.lua\"]:22: in function <...ace\\AddOns\\WideQuestLogLevels\\WideQuestLogLevels.lua:1>\n[string \"=[C]\"]: ?",
-			["session"] = 116,
-			["counter"] = 225,
-		}, -- [25]
+			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
+			["time"] = "2022/08/13 19:33:28",
+			["locals"] = "GearScore = 57\nItemLevel = 20\nRed = 0.575650\nBlue = 0.575650\nGreen = 0.575650\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 4\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
+			["session"] = 117,
+			["counter"] = 163,
+		}, -- [15]
 		{
 			["message"] = "Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:3518: attempt to index local 'factionHeader' (a nil value)",
 			["time"] = "2022/09/01 21:55:59",
 			["locals"] = "self = <table> {\n Update_Tooltip = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:1810\n SupressNone = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:1780\n About = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:739\n GetTabardFaction = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:923\n GetReadyReputation = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:2874\n OriginalRepOrder = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:3510\n DumpTable = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:254\n has_value = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:711\n InitFactionMap = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:977\n Rep_Detail_Frame = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:3107\n GetWords = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:668\n InitMobName = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:810\n ExtractSkills = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:3227\n Quest_Items = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:2399\n SortByStanding = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:3385\n ListByStanding = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:3188\n InitFactor = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:939\n Print = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:623\n DumpReputationChangesToChat = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:2617\n BoolToEnabled = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:700\n StandingSort = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:2993\n ToggleDetailWindow = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:2793\n InitMapName = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:780\n Quest_Names = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:870\n InitItemName = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:848\n Status = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:760\n ClearSessionGain = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:2717\n ShowUpdateEntry = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:2482\n InitFaction = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:970\n Debug = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:654\n Init = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:288\n UpdateEntrySuppress = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:1755\n GetUpdateListSize = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:2465\n PrintSlash = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:649\n Printtest = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:645\n BuildUpdateList = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:1817\n Help = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:725\n Concat = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:684\n InitVariable = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:270\n ToggleConfigWindow = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:2771\n TableSize = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:659\n Content = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:997\n RGBToColour_perc = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:707\n}\ni = 1\nfactionIndex = 1\nfactionBar = ReputationBar1 {\n 0 = <userdata>\n}\nfactionHeader = nil\nfactionCheck = nil\nfactionName = ReputationBar1FactionName {\n 0 = <userdata>\n}\nfactionStanding = nil\nfactionAtWarIndicator = nil\nfactionRig",
 			["stack"] = "[string \"@Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua\"]:3518: in function `OriginalRepOrder'\n[string \"@Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua\"]:1447: in function `ReputationFrame_Update'\n[string \"*:OnEvent\"]:4: in function <[string \"*:OnEvent\"]:1>",
-			["session"] = 116,
-			["counter"] = 87,
+			["session"] = 119,
+			["counter"] = 164,
+		}, -- [16]
+		{
+			["message"] = "Interface\\AddOns\\ClassicCodex\\quest.lua:321: attempt to index local 'dockTitle' (a nil value)",
+			["time"] = "2022/09/01 21:55:44",
+			["locals"] = "self = <unnamed> {\n 0 = <userdata>\n questLogTemp = <table> {\n }\n updateNodes = false\n HideNameplate = <function> defined @Interface\\AddOns\\ClassicCodex\\quest.lua:473\n IsExcludeQuest = <function> defined @Interface\\AddOns\\ClassicCodex\\quest.lua:31\n questLog = <table> {\n }\n AddWorldMapIntegration = <function> defined @Interface\\AddOns\\ClassicCodex\\quest.lua:362\n queue = <table> {\n }\n UpdateAllNameplates = <function> defined @Interface\\AddOns\\ClassicCodex\\quest.lua:479\n UpdateNameplate = <function> defined @Interface\\AddOns\\ClassicCodex\\quest.lua:431\n UpdateQuestLog = <function> defined @Interface\\AddOns\\ClassicCodex\\quest.lua:192\n AddQuestLogIntegration = <function> defined @Interface\\AddOns\\ClassicCodex\\quest.lua:317\n HideCurrentQuest = <function> defined @Interface\\AddOns\\ClassicCodex\\quest.lua:307\n pauseAutoAccept = false\n ShowCurrentQuest = <function> defined @Interface\\AddOns\\ClassicCodex\\quest.lua:295\n ResetAll = <function> defined @Interface\\AddOns\\ClassicCodex\\quest.lua:285\n}\ndockFrame = QuestLogDetailScrollChildFrame {\n 0 = <userdata>\n}\ndockTitle = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index local 'dockTitle' (a nil value)\"\nL = <table> {\n Show quest name in mouseover tooltip of units = \"在任务目标的鼠标指向提示中显示任务名称\"\n Show markers on the third and subsequent levels of the world map = \"在世界地图的第三层和后续层级上显示图标\"\n and %d others = \"以及%d个其他结果\"\n If selected, markers' colors will be set per spawn type or per quest if not selected = \"选中后，不同任务怪的地图标记颜色不同。如果未选中，则一个任务的所有任务怪都是同一个颜色。\"\n Show markers on the top two levels of the world map = \"在世界地图的顶层和次顶层显示图标\"\n |cff33ffcc/codex|cffffffff quest <questName> |cffcccccc - Show specific quest giver = \"|cff33ffcc/codex|cffffffff quest <questName> |cffcccccc - 搜索任务给予者\"\n |cff33ffcc/codex|cffffffff object <gameObject> |cffcccccc - Search objects = \"|cff33ffcc/codex|cffffffff object <gameObject> |cffcccccc - 搜索物体、目标\"\n All Questgivers = \"显示所有可接任务\"\n Auto-Accept Quests = \"自动接任务\"\n Left-Click = \"左键\"\n [ClassicCodex] The object #%s is missing. = \"[ClassicCodex 任务助手] 对象 #%s 数据遗失。\"\n ClassicCodex: You have no manually hidden quests. You can hold the shift key and click on the quest icon on the minimap or world map to hide it. = \"ClassicCodex: 您没有手动隐藏过任何任务，按住Shift并点击小地图或世界地图上的任务图标可以隐藏任务\"\n Toggle quest icon on top of enemy nameplates = \"在任务怪姓名板上方显示任务感叹号\"\n Show a button on the edge of the minimap, click to open Codex browser = \"在小地图边缘显示一个按钮，点击可打开 ClassicCodex 全能数据库\"\n Looted from = \"拾取自\"\n |cff33ffcc/codex|cffffffff quests |cffcccccc - Show all quests on the map = \"|cff33ffcc/codex|cffffffff quests |cffcccccc - 在地图上显示所有任务\"\n The {locale} locale text of the profession #{id} is missing. = \"专业 #{id} 的简体中文文本遗失。\"\n The {locale} locale text of the zone #{id} is missing. = \"区域 #{id} 的简体中文文本遗失。\"\n Search = \"搜索\"\n If selected, current quest-ender npcs/objects will be displayed on the map for active quests = \"选中后，可交付当前任务的NPC或物体会显示在地图上\"\n Location = \"地点\"\n Quests = \"任务\"\n Buy = \"购买\"\n Hide Quests = \"不显示任务\"\n Failed to load ClassicCodex core, ClassicCodex cannot be launched = \"加载ClassicCodex核心失败，任务助手无法启动\"\n ClassicCodex: %d hidden quests will be able to show again. = \"ClassicCodex: %d个隐藏任务已重新显示\"\n Show Markers on Zone Maps = \"在区域地图上显示图标\"\n Clean Map = \"清除\"\n Quest End = \"任务结束\"\n If selected, quests with a level requirement of your level + 3 will be shown on the ma",
+			["stack"] = "[string \"@Interface\\AddOns\\ClassicCodex\\quest.lua\"]:321: in function `AddQuestLogIntegration'\n[string \"@Interface\\AddOns\\ClassicCodex\\quest.lua\"]:48: in function <Interface\\AddOns\\ClassicCodex\\quest.lua:44>\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface\\AddOns\\ClassicCodex-loader\\loader.lua\"]:11: in function `tryLoad'\n[string \"@Interface\\AddOns\\ClassicCodex-loader\\loader.lua\"]:33: in main chunk",
+			["session"] = 121,
+			["counter"] = 6,
+		}, -- [17]
+		{
+			["message"] = "Interface\\AddOns\\SpellReplay\\SpellReplay.lua:89: attempt to index field '?' (a nil value)",
+			["time"] = "2022/07/09 15:49:57",
+			["locals"] = "(for index) = 32\n(for limit) = 50\n(for step) = 1\ni = 32\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"32\"\n(*temporary) = nil\n(*temporary) = \"attempt to index field '?' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\SpellReplay\\SpellReplay.lua\"]:89: in function <Interface\\AddOns\\SpellReplay\\SpellReplay.lua:87>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2064: in function `SetUIPanel'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2138: in function `HideUIPanel'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:1826: in function <Interface_TBC\\FrameXML\\UIParent.lua:1818>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2616: in function `HideUIPanel'\n[string \"@Interface\\FrameXML\\CinematicFrame.lua\"]:51: in function <Interface\\FrameXML\\CinematicFrame.lua:39>",
+			["session"] = 121,
+			["counter"] = 11,
+		}, -- [18]
+		{
+			["message"] = "Interface\\AddOns\\SpellReplay\\SpellReplay.lua:67: attempt to index field '?' (a nil value)",
+			["time"] = "2022/07/09 15:49:57",
+			["locals"] = "(for index) = 32\n(for limit) = 50\n(for step) = 1\ni = 32\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"32\"\n(*temporary) = nil\n(*temporary) = \"attempt to index field '?' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\SpellReplay\\SpellReplay.lua\"]:67: in function <Interface\\AddOns\\SpellReplay\\SpellReplay.lua:65>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2064: in function `SetUIPanel'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2138: in function `HideUIPanel'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:1826: in function <Interface_TBC\\FrameXML\\UIParent.lua:1818>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2616: in function `HideUIPanel'\n[string \"@Interface\\FrameXML\\CinematicFrame.lua\"]:51: in function <Interface\\FrameXML\\CinematicFrame.lua:39>",
+			["session"] = 121,
+			["counter"] = 11,
+		}, -- [19]
+		{
+			["message"] = "Interface\\AddOns\\ClassicCodex\\database.lua:901: bad argument #2 to 'band' (number expected, got nil)",
+			["time"] = "2022/09/03 02:16:44",
+			["locals"] = "(*temporary) = 1\n(*temporary) = nil\n(*temporary) = \"number expected, got nil\"\n",
+			["stack"] = "[string \"=[C]\"]: in function `band'\n[string \"@Interface\\AddOns\\ClassicCodex\\database.lua\"]:901: in function `SearchQuests'\n[string \"@Interface\\AddOns\\ClassicCodex\\quest.lua\"]:179: in function <Interface\\AddOns\\ClassicCodex\\quest.lua:168>",
+			["session"] = 121,
+			["counter"] = 626,
+		}, -- [20]
+		{
+			["message"] = "Interface\\AddOns\\BiSTracker\\core\\GUI.lua:633: bad argument #1 to 'next' (table expected, got nil)",
+			["time"] = "2022/09/03 02:16:33",
+			["stack"] = "[string \"=[C]\"]: in function `next'\n[string \"@Interface\\AddOns\\BiSTracker\\core\\GUI.lua\"]:633: in function <Interface\\AddOns\\BiSTracker\\core\\GUI.lua:602>\n[string \"@Interface\\AddOns\\BiSTracker\\core\\GUI.lua\"]:1079: in function `InitUI'\n[string \"@Interface\\AddOns\\BiSTracker\\core\\Init.lua\"]:274: in function <Interface\\AddOns\\BiSTracker\\core\\Init.lua:267>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:70: in function <...seAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:498: in function `InitializeAddon'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:623: in function <...seAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>",
+			["session"] = 122,
+			["counter"] = 4,
+		}, -- [21]
+		{
+			["message"] = "Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua:8: attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)",
+			["time"] = "2022/09/01 21:55:45",
+			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:67: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:53>",
+			["session"] = 122,
+			["counter"] = 7,
+		}, -- [22]
+		{
+			["message"] = "...AddOns\\GladiatorlosSA2_zhCN\\GladiatorlosSA2_zhCN-TBC-1.4.lua:3: attempt to index local 'GSA' (a nil value)",
+			["time"] = "2022/07/09 15:49:36",
+			["locals"] = "GSA = nil\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index local 'GSA' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\GladiatorlosSA2_zhCN\\GladiatorlosSA2_zhCN-TBC-1.4.lua\"]:3: in main chunk",
+			["session"] = 122,
+			["counter"] = 122,
+		}, -- [23]
+		{
+			["message"] = "Interface\\AddOns\\LoonBestInSlot\\LootBrowser.lua:6: attempt to index global 'AtlasLoot' (a nil value)",
+			["time"] = "2022/07/09 15:49:37",
+			["locals"] = "(*temporary) = nil\n(*temporary) = <table> {\n MaxHeight = 0\n CompareTooltip = <table> {\n }\n}\n(*temporary) = <table> {\n}\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index global 'AtlasLoot' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\LoonBestInSlot\\LootBrowser.lua\"]:6: in main chunk",
+			["session"] = 122,
+			["counter"] = 28,
+		}, -- [24]
+		{
+			["message"] = "Interface\\AddOns\\MeetingHorn\\ActivityBuilder.lua:122: attempt to call field 'GetActivityInfo' (a nil value)",
+			["time"] = "2022/09/03 02:20:01",
+			["locals"] = "categories = <table> {\n 1 = 2\n 2 = 116\n 3 = 118\n 4 = 120\n}\n(for generator) = <function> defined =[C]:-1\n(for state) = <table> {\n 1 = 2\n 2 = 116\n 3 = 118\n 4 = 120\n}\n(for control) = 1\nk = 1\nv = 2\nactivities = <table> {\n 1 = 797\n 2 = 810\n 3 = 811\n 4 = 812\n 5 = 813\n 6 = 814\n 7 = 815\n 8 = 816\n}\ncategory = <table> {\n categoryId = 2\n activities = <table> {\n }\n}\n(for generator) = <function> defined =[C]:-1\n(for state) = <table> {\n 1 = 797\n 2 = 810\n 3 = 811\n 4 = 812\n 5 = 813\n 6 = 814\n 7 = 815\n 8 = 816\n}\n(for control) = 1\nk1 = 1\nv1 = 797\n(*temporary) = nil\n(*temporary) = 797\n(*temporary) = \"attempt to call field 'GetActivityInfo' (a nil value)\"\nAVAILABLE_ACTIVITY = <table> {\n}\n",
+			["stack"] = "[string \"@Interface\\AddOns\\MeetingHorn\\ActivityBuilder.lua\"]:122: in function `InitAvailableActivity'\n[string \"@Interface\\AddOns\\MeetingHorn\\ActivityBuilder.lua\"]:326: in function `End'\n[string \"@Interface\\AddOns\\MeetingHorn\\Activities.lua\"]:199: in main chunk",
+			["session"] = 122,
+			["counter"] = 1,
+		}, -- [25]
+		{
+			["message"] = "Interface\\AddOns\\AceBIS\\GearWindow.lua:580: bad argument #1 to 'next' (table expected, got nil)",
+			["time"] = "2022/09/03 02:16:40",
+			["stack"] = "[string \"=[C]\"]: in function `next'\n[string \"@Interface\\AddOns\\AceBIS\\GearWindow.lua\"]:580: in function <Interface\\AddOns\\AceBIS\\GearWindow.lua:556>\n[string \"@Interface\\AddOns\\AceBIS\\GearWindow.lua\"]:969: in function `InitUI'\n[string \"@Interface\\AddOns\\AceBIS\\AceBIS-3.1.3.lua\"]:430: in function <Interface\\AddOns\\AceBIS\\AceBIS.lua:415>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:70: in function <...seAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:630: in function <...seAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>",
+			["session"] = 122,
+			["counter"] = 4,
 		}, -- [26]
+		{
+			["message"] = "Interface\\AddOns\\WideQuestLog\\WideQuestLog.lua:27: attempt to index local 'questLogTitle' (a nil value)",
+			["time"] = "2022/09/01 21:56:01",
+			["stack"] = "[string \"@Interface\\AddOns\\WideQuestLog\\WideQuestLog.lua\"]:27: in function <Interface\\AddOns\\WideQuestLog\\WideQuestLog.lua:24>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\ElvUI\\Core\\Modules\\Skins\\Skins.lua\"]:1665: in function <Interface\\AddOns\\ElvUI\\Core\\Modules\\Skins\\Skins.lua:1660>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\ElvUI\\Core\\General\\Core.lua\"]:1766: in function `CallLoadFunc'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\General\\Core.lua\"]:1781: in function `CallLoadedModule'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\General\\Core.lua\"]:1807: in function `InitializeModules'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\General\\Core.lua\"]:1916: in function `Initialize'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\init.lua\"]:225: in function <Interface\\AddOns\\ElvUI\\Core\\init.lua:224>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:70: in function <...seAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:630: in function <...seAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>",
+			["session"] = 122,
+			["counter"] = 7,
+		}, -- [27]
+		{
+			["message"] = "Error loading Interface\\AddOns\\GuideLime_TUGs_WOTLK\\TUGs\\Horde\\62-63 Part.lua",
+			["time"] = "2022/09/01 21:56:03",
+			["session"] = 122,
+			["counter"] = 21,
+		}, -- [28]
+		{
+			["message"] = "Interface_Wrath\\FrameXML\\QuestLogFrame.lua:210: attempt to index local 'questLogTitle' (a nil value)",
+			["time"] = "2022/09/02 00:13:28",
+			["locals"] = "self = nil\nnumEntries = 25\nnumQuests = 21\nquestLogSelection = 2\nscrollOffset = 0\nbuttons = <table> {\n 1 = QuestLogListScrollFrameButton1 {\n }\n 2 = QuestLogListScrollFrameButton2 {\n }\n 3 = QuestLogListScrollFrameButton3 {\n }\n 4 = QuestLogListScrollFrameButton4 {\n }\n 5 = QuestLogListScrollFrameButton5 {\n }\n 6 = QuestLogListScrollFrameButton6 {\n }\n 7 = QuestLogListScrollFrameButton7 {\n }\n 8 = QuestLogListScrollFrameButton8 {\n }\n 9 = QuestLogListScrollFrameButton9 {\n }\n 10 = QuestLogListScrollFrameButton10 {\n }\n 11 = QuestLogListScrollFrameButton11 {\n }\n 12 = QuestLogListScrollFrameButton12 {\n }\n 13 = QuestLogListScrollFrameButton13 {\n }\n 14 = QuestLogListScrollFrameButton14 {\n }\n 15 = QuestLogListScrollFrameButton15 {\n }\n 16 = QuestLogListScrollFrameButton16 {\n }\n 17 = QuestLogListScrollFrameButton17 {\n }\n 18 = QuestLogListScrollFrameButton18 {\n }\n 19 = QuestLogListScrollFrameButton19 {\n }\n 20 = QuestLogListScrollFrameButton20 {\n }\n 21 = QuestLogListScrollFrameButton21 {\n }\n 22 = QuestLogListScrollFrameButton22 {\n }\n}\nbuttonHeight = 15.999988\ndisplayedHeight = 351.999727\nquestIndex = 23\nquestLogTitle = nil\nquestTitleTag = QuestLogListScrollFrameButton22Tag {\n 0 = <userdata>\n}\nquestNumGroupMates = QuestLogListScrollFrameButton22GroupMates {\n 0 = <userdata>\n}\nquestNormalText = QuestLogListScrollFrameButton22NormalText {\n 0 = <userdata>\n}\nquestHighlight = nil\nquestCheck = QuestLogListScrollFrameButton22Check {\n 0 = <userdata>\n}\nquestLogTitleText = \"狩猎裂蹄牛\"\nlevel = 67\nquestTag = \"完成\"\nisHeader = false\nisCollapsed = false\nisComplete = 1\ncolor = <table> {\n b = 0\n font = \"QuestDifficulty_Difficult\"\n g = 1\n r = 1\n}\nnumPartyMembers = nil\npartyMembersOnQuest = 1\ntempWidth = 218.333328\ntextWidth = 85.555542\n(for index) = 23\n(for limit) = 40\n(for step) = 1\ni = 23\n(*temporary) = <function> defined @Interface_Wrath\\FrameXML\\QuestLogFrame.lua:391\n(*temporary) = nil\n(*temporary) = QuestLogListScrollFrameButton22NormalText {\n 0 = <userdata>\n}\n(*temporary) = QuestLogListScrollFrameButton22Tag {\n 0 = <userdata>\n}\n(*temporary) = QuestLogListScrollFrameButton22Check {\n 0 = <userdata>\n}\n(*temporary) = 254.333364\n(*temporary) = 85.555557\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = QuestLogListScrollFrameButton22NormalText {\n 0 = <userdata>\n}\n(*temporary) = 85.555557\n(*temporary) = <userdata>\n(*temporary) = false\n(*temporary) = false\n(*temporary) = false\n(*temporary) = false\n(*temporary) = false\n(*temporary) = false\n(*temporary) = \"attempt to index local 'questLogTitle' (a nil value)\"\n_QuestLog_HighlightQuest = <function> defined @Interface_Wrath\\FrameXML\\QuestLogFrame.lua:17\n",
+			["stack"] = "[string \"@Interface_Wrath\\FrameXML\\QuestLogFrame.lua\"]:210: in function <Interface_Wrath\\FrameXML\\QuestLogFrame.lua:167>\n[string \"=[C]\"]: in function `QuestLog_Update'\n[string \"@Interface_Wrath\\FrameXML\\QuestLogFrame.lua\"]:145: in function <Interface_Wrath\\FrameXML\\QuestLogFrame.lua:135>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface_Wrath\\FrameXML\\UIParent.lua\"]:2215: in function `SetUIPanel'\n[string \"@Interface_Wrath\\FrameXML\\UIParent.lua\"]:2060: in function `ShowUIPanel'\n[string \"@Interface_Wrath\\FrameXML\\UIParent.lua\"]:1928: in function <Interface_Wrath\\FrameXML\\UIParent.lua:1924>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface_Wrath\\FrameXML\\UIParent.lua\"]:2717: in function <Interface_Wrath\\FrameXML\\UIParent.lua:2696>\n[string \"=[C]\"]: in function `ShowUIPanel'\n[string \"@Interface_Wrath\\FrameXML\\QuestLogFrame.lua\"]:48: in function `ToggleQuestLog'\n[string \"TOGGLEQUESTLOG\"]:1: in function <[string \"TOGGLEQUESTLOG\"]:1>",
+			["session"] = 122,
+			["counter"] = 165,
+		}, -- [29]
+		{
+			["message"] = "...ace\\AddOns\\WideQuestLogLevels\\WideQuestLogLevels.lua:22: attempt to index local 'questCheck' (a nil value)",
+			["time"] = "2022/09/02 00:13:28",
+			["locals"] = "self = QuestLogFrame {\n 0 = <userdata>\n SetWidth = <function> defined =[C]:-1\n backdrop = <unnamed> {\n }\n selectedButtonID = 2\n SetHeight = <function> defined =[C]:-1\n SetPoint = <function> defined =[C]:-1\n PixelSnapDisabled = true\n}\nnumEntries = 25\nnumQuests = 21\nquestIndex = 1\nquestLogTitle = nil\ntitle = \"地狱火堡垒\"\nlevel = 0\n_ = nil\nisHeader = true\nquestTextFormatted = nil\nquestCheck = nil\n(for index) = 1\n(for limit) = 40\n(for step) = 1\ni = 1\n(*temporary) = \"地狱火堡垒\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = true\n(*temporary) = nil\n(*temporary) = true\n(*temporary) = false\n(*temporary) = \"attempt to index local 'questCheck' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\WideQuestLogLevels\\WideQuestLogLevels.lua\"]:22: in function <...ace\\AddOns\\WideQuestLogLevels\\WideQuestLogLevels.lua:1>\n[string \"=[C]\"]: ?",
+			["session"] = 122,
+			["counter"] = 2228,
+		}, -- [30]
+		{
+			["message"] = "...Ons\\CharacterStatsTBC\\CharacterStatsTbcCallbacks.lua:165: bad argument #5 to 'format' (number expected, got no value)",
+			["time"] = "2022/09/03 02:22:34",
+			["locals"] = "(*temporary) = \"使你的近战攻击命中%d级目标的几率提高%.2f%%\n\n护甲穿透等级提高%d（敌人的护甲值降低最多%.2f%%）。\"\n(*temporary) = 55\n(*temporary) = 1.438298\n(*temporary) = 0\n(*temporary) = \"number expected, got no value\"\n",
+			["stack"] = "[string \"=[C]\"]: in function `format'\n[string \"@Interface\\AddOns\\CharacterStatsTBC\\CharacterStatsTbcCallbacks.lua\"]:165: in function <...Ons\\CharacterStatsTBC\\CharacterStatsTbcCallbacks.lua:150>",
+			["session"] = 122,
+			["counter"] = 1,
+		}, -- [31]
+		{
+			["message"] = "Interface\\AddOns\\GTFO\\GTFO-4.66.6.lua:1581: attempt to call global 'GetSpecialization' (a nil value)",
+			["time"] = "2022/09/03 02:16:40",
+			["locals"] = "x = \"死亡骑士\"\nclass = \"DEATHKNIGHT\"\n(*temporary) = nil\n(*temporary) = \"attempt to call global 'GetSpecialization' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\GTFO\\GTFO-4.66.6.lua\"]:1581: in function `GTFO_CheckTankMode'\n[string \"@Interface\\AddOns\\GTFO\\GTFO-4.66.6.lua\"]:269: in function `GTFO_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
+			["session"] = 122,
+			["counter"] = 271,
+		}, -- [32]
 	},
 }

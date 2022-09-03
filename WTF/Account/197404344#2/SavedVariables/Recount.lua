@@ -2,6 +2,8 @@
 RecountDB = {
 	["profileKeys"] = {
 		["特变电工 - 祈福"] = "特变电工 - 祈福",
+		["张坤 - 祈福"] = "张坤 - 祈福",
+		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
 		["Vscode - 加丁"] = "Vscode - 加丁",
 		["新特能源 - 祈福"] = "新特能源 - 祈福",
 	},
@@ -28,6 +30,47 @@ RecountDB = {
 			["MainWindowHeight"] = 191.111083984375,
 			["LastInstanceName"] = "祖尔法拉克",
 			["MainWindowWidth"] = 209.4445648193359,
+			["CurDataSet"] = "OverallData",
+		},
+		["张坤 - 祈福"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -188.8888244628906,
+					["x"] = -709.4443283081055,
+					["w"] = 140.0000305175781,
+					["h"] = 199.9999542236328,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["CurDataSet"] = "OverallData",
+		},
+		["码农巴菲特 - 祈福"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -213.8885650634766,
+					["x"] = -949.9998626708984,
+					["w"] = 140.0000305175781,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
 			["CurDataSet"] = "OverallData",
 		},
 		["Vscode - 加丁"] = {
@@ -62,7 +105,6 @@ RecountDB = {
 					["h"] = 187.7778015136719,
 				},
 			},
-			["MainWindowHeight"] = 187.77783203125,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -73,8 +115,9 @@ RecountDB = {
 					},
 				},
 			},
-			["CurDataSet"] = "OverallData",
+			["MainWindowHeight"] = 187.77783203125,
 			["MainWindowWidth"] = 231.6667785644531,
+			["CurDataSet"] = "OverallData",
 		},
 	},
 }

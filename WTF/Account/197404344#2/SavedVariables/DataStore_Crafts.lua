@@ -2,11 +2,66 @@
 DataStore_CraftsDB = {
 	["profileKeys"] = {
 		["特变电工 - 祈福"] = "特变电工 - 祈福",
+		["张坤 - 祈福"] = "张坤 - 祈福",
+		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
 		["Vscode - 加丁"] = "Vscode - 加丁",
 		["新特能源 - 祈福"] = "新特能源 - 祈福",
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.祈福.张坤"] = {
+				["lastUpdate"] = 1662142671,
+				["Professions"] = {
+					["急救"] = {
+						["isSecondary"] = true,
+						["MaxRank"] = 300,
+						["Rank"] = 270,
+					},
+					["骑术"] = {
+						["isSecondary"] = true,
+						["MaxRank"] = 150,
+						["Rank"] = 150,
+					},
+				},
+			},
+			["Default.祈福.新特能源"] = {
+				["lastUpdate"] = 1662142636,
+				["Professions"] = {
+					["骑术"] = {
+						["isSecondary"] = true,
+						["MaxRank"] = 225,
+						["Rank"] = 225,
+					},
+				},
+			},
+			["Default.祈福.码农巴菲特"] = {
+				["lastUpdate"] = 1662142950,
+				["Professions"] = {
+					["急救"] = {
+						["isSecondary"] = true,
+						["MaxRank"] = 300,
+						["Rank"] = 270,
+					},
+					["骑术"] = {
+						["isSecondary"] = true,
+						["MaxRank"] = 150,
+						["Rank"] = 150,
+					},
+					["符文熔铸"] = {
+						["Categories"] = {
+							"铭刻", -- [1]
+						},
+						["Crafts"] = {
+							"0|铭刻", -- [1]
+							"1|", -- [2]
+							"1|", -- [3]
+						},
+					},
+				},
+			},
+			["Default.加丁.Vscode"] = {
+				["lastUpdate"] = 1659786092,
+			},
 			["Default.祈福.特变电工"] = {
 				["lastUpdate"] = 1661661704,
 				["Professions"] = {
@@ -94,25 +149,14 @@ DataStore_CraftsDB = {
 					},
 				},
 			},
-			["Default.加丁.Vscode"] = {
-				["lastUpdate"] = 1659786092,
-			},
-			["Default.祈福.新特能源"] = {
-				["lastUpdate"] = 1662041673,
-				["Professions"] = {
-					["骑术"] = {
-						["isSecondary"] = true,
-						["MaxRank"] = 150,
-						["Rank"] = 150,
-					},
-				},
-			},
 		},
 	},
 }
 DataStore_CraftsRefDB = {
 	["profileKeys"] = {
 		["特变电工 - 祈福"] = "特变电工 - 祈福",
+		["张坤 - 祈福"] = "张坤 - 祈福",
+		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
 		["Vscode - 加丁"] = "Vscode - 加丁",
 		["新特能源 - 祈福"] = "新特能源 - 祈福",
 	},

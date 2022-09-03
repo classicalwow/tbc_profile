@@ -12,6 +12,12 @@ PawnCommon = {
 	["ShowTooltipIcons"] = true,
 	["Digits"] = 1,
 	["ShowSocketingAdvisor"] = true,
+	["ShowSpecIcons"] = true,
+	["LastVersion"] = 2.06,
+	["ButtonPosition"] = 2,
+	["ShowLootUpgradeAdvisor"] = true,
+	["ShowQuestUpgradeAdvisor"] = true,
+	["IgnoreGemsWhileLeveling"] = true,
 	["Scales"] = {
 		["\"Classic\":WARRIOR2"] = {
 			["PerCharacterOptions"] = {
@@ -83,6 +89,26 @@ PawnCommon = {
 			["UnenchantedColor"] = "2f94af",
 			["SpecID"] = 2,
 		},
+		["\"Classic\":DEATHKNIGHT2"] = {
+			["PerCharacterOptions"] = {
+				["码农巴菲特-祈福"] = {
+					["Visible"] = true,
+				},
+				["张坤-祈福"] = {
+					["Visible"] = true,
+				},
+			},
+			["Color"] = "ff4d6b",
+			["LocalizedName"] = "死亡骑士: 冰霜",
+			["ClassID"] = 6,
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "DAMAGER",
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = false,
+			["Provider"] = "Classic",
+			["UnenchantedColor"] = "bf3950",
+			["SpecID"] = 2,
+		},
 		["\"Classic\":ROGUE"] = {
 			["Color"] = "fff468",
 			["ClassID"] = 4,
@@ -100,20 +126,6 @@ PawnCommon = {
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
 			["UnenchantedColor"] = "bfb74e",
-		},
-		["\"Classic\":DEATHKNIGHT2"] = {
-			["PerCharacterOptions"] = {
-			},
-			["DoNotShow2HUpgrades"] = false,
-			["Color"] = "ff4d6b",
-			["LocalizedName"] = "死亡骑士: 冰霜",
-			["ClassID"] = 6,
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "DAMAGER",
-			["UpgradesFollowSpecialization"] = false,
-			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bf3950",
-			["SpecID"] = 2,
 		},
 		["\"Classic\":PALADIN2"] = {
 			["PerCharacterOptions"] = {
@@ -188,19 +200,19 @@ PawnCommon = {
 			["UnenchantedColor"] = "6565b1",
 			["SpecID"] = 3,
 		},
-		["\"Classic\":DEATHKNIGHT1"] = {
+		["\"Classic\":PALADIN3"] = {
 			["PerCharacterOptions"] = {
 			},
-			["DoNotShow2HUpgrades"] = false,
-			["Color"] = "ff4d6b",
-			["LocalizedName"] = "死亡骑士: 鲜血",
-			["ClassID"] = 6,
+			["Color"] = "f48cba",
+			["LocalizedName"] = "圣骑士: 惩戒",
+			["ClassID"] = 2,
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "TANK",
+			["Role"] = "DAMAGER",
+			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bf3950",
-			["SpecID"] = 1,
+			["UnenchantedColor"] = "b7698b",
+			["SpecID"] = 3,
 		},
 		["\"Classic\":PRIEST3"] = {
 			["PerCharacterOptions"] = {
@@ -233,19 +245,25 @@ PawnCommon = {
 			["UnenchantedColor"] = "0054a5",
 			["SpecID"] = 2,
 		},
-		["\"Classic\":HUNTER3"] = {
+		["\"Classic\":ROGUE1"] = {
 			["PerCharacterOptions"] = {
+				["特变电工-祈福"] = {
+					["Visible"] = true,
+				},
+				["Vscode-加丁"] = {
+					["Visible"] = true,
+				},
 			},
-			["Color"] = "aad372",
-			["LocalizedName"] = "猎人: 生存",
-			["ClassID"] = 3,
+			["Color"] = "fff468",
+			["LocalizedName"] = "潜行者: 奇袭",
+			["ClassID"] = 4,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "7f9e55",
-			["SpecID"] = 3,
+			["UnenchantedColor"] = "bfb74e",
+			["SpecID"] = 1,
 		},
 		["\"Classic\":HUNTER1"] = {
 			["PerCharacterOptions"] = {
@@ -303,29 +321,41 @@ PawnCommon = {
 			["UnenchantedColor"] = "0054a5",
 			["SpecID"] = 3,
 		},
-		["\"Classic\":PALADIN3"] = {
+		["\"Classic\":DEATHKNIGHT1"] = {
 			["PerCharacterOptions"] = {
+				["码农巴菲特-祈福"] = {
+					["Visible"] = true,
+				},
+				["张坤-祈福"] = {
+					["Visible"] = true,
+				},
 			},
-			["Color"] = "f48cba",
-			["LocalizedName"] = "圣骑士: 惩戒",
-			["ClassID"] = 2,
+			["Color"] = "ff4d6b",
+			["LocalizedName"] = "死亡骑士: 鲜血",
+			["ClassID"] = 6,
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "DAMAGER",
+			["Role"] = "TANK",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "b7698b",
-			["SpecID"] = 3,
+			["UnenchantedColor"] = "bf3950",
+			["SpecID"] = 1,
 		},
 		["\"Classic\":DEATHKNIGHT3"] = {
 			["PerCharacterOptions"] = {
+				["码农巴菲特-祈福"] = {
+					["Visible"] = true,
+				},
+				["张坤-祈福"] = {
+					["Visible"] = true,
+				},
 			},
-			["DoNotShow2HUpgrades"] = false,
 			["Color"] = "ff4d6b",
 			["LocalizedName"] = "死亡骑士: 邪恶",
 			["ClassID"] = 6,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
+			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
 			["UnenchantedColor"] = "bf3950",
@@ -455,25 +485,19 @@ PawnCommon = {
 			["UnenchantedColor"] = "b7698b",
 			["SpecID"] = 1,
 		},
-		["\"Classic\":ROGUE1"] = {
+		["\"Classic\":HUNTER3"] = {
 			["PerCharacterOptions"] = {
-				["特变电工-祈福"] = {
-					["Visible"] = true,
-				},
-				["Vscode-加丁"] = {
-					["Visible"] = true,
-				},
 			},
-			["Color"] = "fff468",
-			["LocalizedName"] = "潜行者: 奇袭",
-			["ClassID"] = 4,
+			["Color"] = "aad372",
+			["LocalizedName"] = "猎人: 生存",
+			["ClassID"] = 3,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bfb74e",
-			["SpecID"] = 1,
+			["UnenchantedColor"] = "7f9e55",
+			["SpecID"] = 3,
 		},
 		["\"Classic\":PRIEST2"] = {
 			["PerCharacterOptions"] = {
@@ -493,10 +517,4 @@ PawnCommon = {
 			["SpecID"] = 2,
 		},
 	},
-	["LastVersion"] = 2.06,
-	["ButtonPosition"] = 2,
-	["ShowLootUpgradeAdvisor"] = true,
-	["ShowQuestUpgradeAdvisor"] = true,
-	["IgnoreGemsWhileLeveling"] = true,
-	["ShowSpecIcons"] = true,
 }
