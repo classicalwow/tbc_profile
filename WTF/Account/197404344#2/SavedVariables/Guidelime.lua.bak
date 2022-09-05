@@ -1,6 +1,6 @@
 
 GuidelimeData = {
-	["mapMarkerSizeGOTO"] = 16,
+	["mapMarkerSizeGOTO"] = 11,
 	["autoAddCoordinates"] = true,
 	["fontColorSKIP"] = "|cFF59C4F1",
 	["showQuestLevels"] = false,

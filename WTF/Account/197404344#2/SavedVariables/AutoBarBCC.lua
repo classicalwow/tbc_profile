@@ -148,6 +148,84 @@ AutoBarDB = {
 				},
 			},
 		},
+		["圣骑士"] = {
+			["barList"] = {
+				["AutoBarClassBarPaladin"] = {
+					["share"] = "2",
+					["fadeOut"] = false,
+					["PALADIN"] = true,
+					["buttonHeight"] = 36,
+					["rows"] = 1,
+					["dockShiftY"] = 0,
+					["alignButtons"] = "3",
+					["posX"] = 300,
+					["hide"] = false,
+					["enabled"] = true,
+					["columns"] = 10,
+					["alpha"] = 1,
+					["buttonWidth"] = 36,
+					["buttonKeys"] = {
+						"AutoBarButtonShields", -- [1]
+						"AutoBarButtonClassBuff", -- [2]
+						"AutoBarButtonDebuff", -- [3]
+						"AutoBarButtonInterrupt", -- [4]
+						"AutoBarButtonER", -- [5]
+						"AutoBarButtonStance", -- [6]
+					},
+					["scale"] = 1,
+					["posY"] = 280,
+					["DEMONHUNTER"] = true,
+					["popupDirection"] = "1",
+					["padding"] = 0,
+					["dockShiftX"] = 0,
+					["frameStrata"] = "LOW",
+				},
+			},
+			["buttonList"] = {
+				["AutoBarButtonDebuff"] = {
+					["barKey"] = "AutoBarClassBarPaladin",
+					["buttonClass"] = "AutoBarButtonDebuff",
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonDebuff",
+					["defaultButtonIndex"] = 3,
+				},
+				["AutoBarButtonStance"] = {
+					["barKey"] = "AutoBarClassBarPaladin",
+					["buttonClass"] = "AutoBarButtonStance",
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonStance",
+					["defaultButtonIndex"] = 6,
+				},
+				["AutoBarButtonShields"] = {
+					["barKey"] = "AutoBarClassBarPaladin",
+					["buttonClass"] = "AutoBarButtonShields",
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonShields",
+					["defaultButtonIndex"] = 1,
+				},
+				["AutoBarButtonInterrupt"] = {
+					["barKey"] = "AutoBarClassBarPaladin",
+					["buttonClass"] = "AutoBarButtonInterrupt",
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonInterrupt",
+					["defaultButtonIndex"] = 4,
+				},
+				["AutoBarButtonER"] = {
+					["barKey"] = "AutoBarClassBarPaladin",
+					["buttonClass"] = "AutoBarButtonER",
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonER",
+					["defaultButtonIndex"] = 5,
+				},
+				["AutoBarButtonClassBuff"] = {
+					["barKey"] = "AutoBarClassBarPaladin",
+					["buttonClass"] = "AutoBarButtonClassBuff",
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonClassBuff",
+					["defaultButtonIndex"] = 2,
+				},
+			},
+		},
 		["死亡骑士"] = {
 			["barList"] = {
 				["AutoBarClassBarDeathKnight"] = {
@@ -649,6 +727,7 @@ AutoBarDB = {
 		},
 		["ldbIcon"] = {
 		},
+		["showEmptyButtons"] = true,
 		["dbVersion"] = 1,
 		["buttonList"] = {
 			["AutoBarButtonHeal"] = {
@@ -965,6 +1044,14 @@ AutoBarDB = {
 			["buttonList"] = {
 			},
 		},
+		["Vscode - 加丁"] = {
+			["buttonDataList"] = {
+			},
+			["barList"] = {
+			},
+			["buttonList"] = {
+			},
+		},
 		["码农巴菲特 - 祈福"] = {
 			["buttonDataList"] = {
 			},
@@ -973,7 +1060,7 @@ AutoBarDB = {
 			["buttonList"] = {
 			},
 		},
-		["Vscode - 加丁"] = {
+		["特工仓库 - 祈福"] = {
 			["buttonDataList"] = {
 			},
 			["barList"] = {

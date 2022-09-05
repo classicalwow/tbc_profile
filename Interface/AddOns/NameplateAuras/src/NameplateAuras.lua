@@ -4,13 +4,13 @@
 -- luacheck: globals UnitIsPlayer C_Timer strsplit CombatLogGetCurrentEventInfo max min GetNumAddOns GetAddOnInfo
 -- luacheck: globals IsAddOnLoaded InterfaceOptionsFrameCancel GetSpellTexture CreateFrame UIParent COMBATLOG_OBJECT_TYPE_PLAYER
 -- luacheck: globals GetNumGroupMembers IsPartyLFG GetNumSubgroupMembers IsPartyLFG UnitDetailedThreatSituation PlaySound
--- luacheck: globals IsInInstance
+-- luacheck: globals IsInInstance PlaySoundFile bit loadstring setfenv GetInstanceInfo
 
 local _, addonTable = ...;
 
 local buildTimestamp = "DEVELOPER COPY";
 --@non-debug@
-buildTimestamp = "20501.1-release";
+buildTimestamp = "30400.2-release";
 --@end-non-debug@
 
 local LBG_ShowOverlayGlow, LBG_HideOverlayGlow = NAuras_LibButtonGlow.ShowOverlayGlow, NAuras_LibButtonGlow.HideOverlayGlow;
@@ -25,8 +25,8 @@ local 	_G, pairs, string_find,string_format, 	GetTime, math_ceil, math_floor, wi
 			UnitReaction, UnitGUID,  table_sort, CTimerAfter,	bit_band, CTimerNewTimer,   strsplit, CombatLogGetCurrentEventInfo, math_max, math_min =
 		_G, pairs, 			strfind, 	format,			GetTime, ceil,		floor,		wipe, C_NamePlate.GetNamePlateForUnit, UnitBuff, UnitDebuff, UnitIsPlayer,
 			UnitReaction, UnitGUID,  table.sort, C_Timer.After,	bit.band, C_Timer.NewTimer, strsplit, CombatLogGetCurrentEventInfo, max,	  min;
-local GetNumGroupMembers, IsPartyLFG, GetNumSubgroupMembers, PlaySound = GetNumGroupMembers, IsPartyLFG, GetNumSubgroupMembers, PlaySound;
-local UnitDetailedThreatSituation, IsInInstance = UnitDetailedThreatSituation, IsInInstance;
+local GetNumGroupMembers, IsPartyLFG, GetNumSubgroupMembers, PlaySound, PlaySoundFile = GetNumGroupMembers, IsPartyLFG, GetNumSubgroupMembers, PlaySound, PlaySoundFile;
+local UnitDetailedThreatSituation, IsInInstance, GetInstanceInfo = UnitDetailedThreatSituation, IsInInstance, GetInstanceInfo;
 
 -- // variables
 local AurasPerNameplate, InterruptsPerUnitGUID, Nameplates, NameplatesVisible, DRResetTime, InstanceType;
@@ -207,16 +207,20 @@ do
 				ShowOnlyOnTarget = false,
 				UseTargetAlphaIfNotTargetSelected = false,
 				AffixSpiteful = true,
+				AffixSpitefulSound = 5274,
 				EnabledZoneTypes = {
-					[addonTable.INSTANCE_TYPE_NONE] =		true,
-					[addonTable.INSTANCE_TYPE_UNKNOWN] = 	true,
-					[addonTable.INSTANCE_TYPE_PVP] = 		true,
-					[addonTable.INSTANCE_TYPE_ARENA] = 		true,
-					[addonTable.INSTANCE_TYPE_PARTY] = 		true,
-					[addonTable.INSTANCE_TYPE_RAID] = 		true,
-					[addonTable.INSTANCE_TYPE_SCENARIO] =	true,
+					[addonTable.INSTANCE_TYPE_NONE] =			true,
+					[addonTable.INSTANCE_TYPE_UNKNOWN] = 		true,
+					[addonTable.INSTANCE_TYPE_PVP] = 			true,
+					[addonTable.INSTANCE_TYPE_PVP_BG_40PPL] = 	true,
+					[addonTable.INSTANCE_TYPE_ARENA] = 			true,
+					[addonTable.INSTANCE_TYPE_PARTY] = 			true,
+					[addonTable.INSTANCE_TYPE_RAID] = 			true,
+					[addonTable.INSTANCE_TYPE_SCENARIO] =		true,
 				},
 				MaxAuras = nil,
+				ShowAurasOnTargetEvenInDisabledAreas = false,
+				AlwaysShowMyAurasBlacklist = {},
 			},
 		};
 
@@ -278,6 +282,8 @@ do
 				addonTable.UpdateAllNameplates();
 				Print("'max-auras' is set to " .. (db.MaxAuras or "'disabled'"));
 			end
+		elseif (msg == "import-default-spells") then
+			addonTable.ImportNewSpells(true);
 		else
 			addonTable.ShowGUI();
 		end
@@ -325,6 +331,7 @@ do
 		end
 		addonTable.UpdateAllNameplates(true);
 	end
+	addonTable.ReloadDB = ReloadDB;
 
 end
 
@@ -475,6 +482,9 @@ do
 
 	function SetAlphaScaleForNameplate(nameplate)
 		if (nameplate ~= nil and nameplate.NAurasFrame ~= nil) then
+			local frameLevel = nameplate:GetFrameLevel();
+			nameplate.NAurasFrame:SetFrameLevel((frameLevel or 1)*10);
+
 			local unitID = NameplatesVisible[nameplate];
 			if (unitID ~= nil) then
 				local unitGUID = UnitGUID(unitID);
@@ -848,7 +858,7 @@ do
 			end
 		end
 		if (not foundInDB) then
-			if (db.AlwaysShowMyAuras and auraCaster == "player") then
+			if (db.AlwaysShowMyAuras and auraCaster == "player" and not db.AlwaysShowMyAurasBlacklist[auraName]) then
 				AurasPerNameplate[frame][tSize+1] = {
 					["duration"] = auraDuration,
 					["expires"] = auraExpires,
@@ -886,7 +896,7 @@ do
 		local unitIsFriend = (UnitReaction("player", unitID) or 0) > 4; -- 4 = neutral
 		local unitIsPlayer = UnitIsPlayer(unitID);
 		local unitGUID = UnitGUID(unitID);
-		if (db.EnabledZoneTypes[InstanceType]) then
+		if (db.EnabledZoneTypes[InstanceType] or (db.ShowAurasOnTargetEvenInDisabledAreas and unitGUID == TargetGUID)) then
 			if ((LocalPlayerGUID ~= unitGUID or db.ShowAurasOnPlayerNameplate) and (db.ShowAboveFriendlyUnits or not unitIsFriend) and (not db.ShowOnlyOnTarget or unitGUID == TargetGUID)) then
 				for i = 1, 40 do
 					local buffName, _, buffStack, _, buffDuration, buffExpires, buffCaster, buffIsStealable, _, buffSpellID = UnitBuff(unitID, i);
@@ -915,22 +925,39 @@ do
 		UpdateNameplate(frame, unitGUID);
 	end
 
-	local function UpdateNameplate_SetBorder(icon, spellInfo)
-		if (db.ShowBuffBorders and spellInfo.type == AURA_TYPE_BUFF) then
-			if (icon.borderState ~= spellInfo.type) then
-				local color = db.BuffBordersColor;
-				icon.border:SetVertexColor(color[1], color[2], color[3], color[4]);
-				icon.border:Show();
-				icon.borderState = spellInfo.type;
+	local function UpdateNameplate_SetBorderTextureAndColor(icon, borderType, preciseType, borderSize, texturePath, color)
+		if (icon.borderState ~= preciseType) then
+			if (borderType == addonTable.BORDER_TYPE_BUILTIN) then
+				icon.border:SetTexture(BORDER_TEXTURES[borderSize]);
+			elseif (borderType == addonTable.BORDER_TYPE_CUSTOM) then
+				icon.border:SetTexture(texturePath);
 			end
+			icon.border:SetVertexColor(color[1], color[2], color[3], color[4]);
+			icon.border:Show();
+			icon.borderState = preciseType;
+		end
+	end
+
+	local function UpdateNameplate_SetBorder(icon, spellInfo)
+		local dbEntry = spellInfo.dbEntry;
+		if (dbEntry ~= nil and dbEntry.customBorderType ~= nil and dbEntry.customBorderType ~= addonTable.BORDER_TYPE_DISABLED) then
+			local borderType = dbEntry.customBorderType;
+			local borderColor = dbEntry.customBorderColor;
+			local preciseType = string_format("%s%s%s%s%s%s",
+				borderType,
+				borderColor[1],
+				borderColor[2],
+				borderColor[3],
+				borderColor[4],
+				borderType == addonTable.BORDER_TYPE_BUILTIN and dbEntry.customBorderSize or (dbEntry.customBorderPath or "")
+			);
+			UpdateNameplate_SetBorderTextureAndColor(icon, borderType, preciseType, dbEntry.customBorderSize, dbEntry.customBorderPath, borderColor);
+		elseif (db.ShowBuffBorders and spellInfo.type == AURA_TYPE_BUFF) then
+			UpdateNameplate_SetBorderTextureAndColor(icon, db.BorderType, spellInfo.type, db.BorderThickness, db.BorderFilePath, db.BuffBordersColor);
 		elseif (db.ShowDebuffBorders and spellInfo.type == AURA_TYPE_DEBUFF) then
 			local preciseType = spellInfo.type .. (spellInfo.dispelType or "OTHER");
-			if (icon.borderState ~= preciseType) then
-				local color = db["DebuffBorders" .. (spellInfo.dispelType or "Other") .. "Color"];
-				icon.border:SetVertexColor(color[1], color[2], color[3], color[4]);
-				icon.border:Show();
-				icon.borderState = preciseType;
-			end
+			local color = db["DebuffBorders" .. (spellInfo.dispelType or "Other") .. "Color"];
+			UpdateNameplate_SetBorderTextureAndColor(icon, db.BorderType, preciseType, db.BorderThickness, db.BorderFilePath, color);
 		else
 			if (icon.borderState ~= nil) then
 				icon.border:Hide();
@@ -943,24 +970,28 @@ do
 		[GLOW_TYPE_NONE] = function(icon) HideGlow(icon); end,
 		[GLOW_TYPE_ACTIONBUTTON] = function(icon, iconResized)
 			if (icon.glowType ~= GLOW_TYPE_ACTIONBUTTON) then
+				HideGlow(icon);
 				LBG_ShowOverlayGlow(icon, iconResized, false);
 				icon.glowType = GLOW_TYPE_ACTIONBUTTON;
 			end
 		end,
 		[GLOW_TYPE_AUTOUSE] = function(icon)
 			if (icon.glowType ~= GLOW_TYPE_AUTOUSE) then
+				HideGlow(icon);
 				LibCustomGlow.AutoCastGlow_Start(icon, nil, nil, 0.2, 1.5);
 				icon.glowType = GLOW_TYPE_AUTOUSE;
 			end
 		end,
 		[GLOW_TYPE_PIXEL] = function(icon)
 			if (icon.glowType ~= GLOW_TYPE_PIXEL) then
+				HideGlow(icon);
 				LibCustomGlow.PixelGlow_Start(icon, nil, nil, nil, nil, 2);
 				icon.glowType = GLOW_TYPE_PIXEL;
 			end
 		end,
 		[GLOW_TYPE_ACTIONBUTTON_DIM] = function(icon, iconResized)
 			if (icon.glowType ~= GLOW_TYPE_ACTIONBUTTON_DIM) then
+				HideGlow(icon);
 				LBG_ShowOverlayGlow(icon, iconResized, true);
 				icon.glowType = GLOW_TYPE_ACTIONBUTTON_DIM;
 			end
@@ -1202,6 +1233,32 @@ do
 	EventFrame:SetScript("OnEvent", function(self, event, ...) self[event](...); end);
 	addonTable.EventFrame = EventFrame;
 
+	-- we do polling because 'GetInstanceInfo' works unstable
+	local function UpdateZoneType()
+		local newInstanceType;
+		local inInstance, instanceType = IsInInstance();
+		if (not inInstance) then
+			newInstanceType = instanceType;
+		elseif (inInstance and instanceType == "none") then
+			newInstanceType = addonTable.INSTANCE_TYPE_UNKNOWN;
+		elseif (inInstance and instanceType == "pvp") then
+			local maxInstanceGroup = select(5, GetInstanceInfo());
+			if (maxInstanceGroup == 40) then
+				newInstanceType = addonTable.INSTANCE_TYPE_PVP_BG_40PPL;
+			else
+				newInstanceType = instanceType;
+			end
+		else
+			newInstanceType = instanceType;
+		end
+		if (newInstanceType ~= InstanceType) then
+			InstanceType = newInstanceType;
+			addonTable.UpdateAllNameplates(false);
+		end
+		CTimerAfter(2, UpdateZoneType);
+	end
+	CTimerAfter(2, UpdateZoneType);
+
 	function EventFrame.PLAYER_ENTERING_WORLD()
 		if (addonTable.OnStartup) then
 			addonTable.OnStartup();
@@ -1210,14 +1267,6 @@ do
 			wipe(AurasPerNameplate[nameplate]);
 		end
 		wipe(SpitefulMobs);
-		local inInstance, instanceType = IsInInstance();
-		if (not inInstance) then
-			InstanceType = instanceType;
-		elseif (inInstance and instanceType == "none") then
-			InstanceType = addonTable.INSTANCE_TYPE_UNKNOWN;
-		else
-			InstanceType = instanceType;
-		end
 	end
 
 	function EventFrame.NAME_PLATE_UNIT_ADDED(unitID)
@@ -1272,7 +1321,11 @@ do
 				if (not SpitefulMobs[unitGUID] and npcID == addonTable.SPITEFUL_NPC_ID_STRING) then
 					local _, _, threatPct = UnitDetailedThreatSituation("player", unitID);
 					if (threatPct == 100) then
-						PlaySound(5274, "Master");
+						if (type(db.AffixSpitefulSound) == "number") then
+							PlaySound(db.AffixSpitefulSound, "Master");
+						else
+							PlaySoundFile(SML:Fetch(SML.MediaType.SOUND, db.AffixSpitefulSound), "Master");
+						end
 						SpitefulMobs[unitGUID] = true;
 						EventFrame.UNIT_AURA(unitID);
 					end
@@ -1411,9 +1464,9 @@ do
 					["duration"] = intervalBetweenRefreshes*20,
 					["expires"] = spellsLastTimeUpdated + intervalBetweenRefreshes*20,
 					["stacks"] = 1,
-					["spellID"] = 215336,
+					["spellID"] = 48441,
 					["type"] = AURA_TYPE_BUFF,
-					["spellName"] = SpellNameByID[215336],
+					["spellName"] = SpellNameByID[48441],
 					["dbEntry"] = {
 						["iconSizeWidth"] = 30,
 						["iconSizeHeight"] = 30,
@@ -1423,10 +1476,10 @@ do
 					["duration"] = intervalBetweenRefreshes*2,
 					["expires"] = spellsLastTimeUpdated + intervalBetweenRefreshes*2,
 					["stacks"] = 3,
-					["spellID"] = 188389,
+					["spellID"] = 25457,
 					["type"] = AURA_TYPE_DEBUFF,
 					["dispelType"] = "Magic",
-					["spellName"] = SpellNameByID[188389],
+					["spellName"] = SpellNameByID[25457],
 					["dbEntry"] = {
 						["iconSizeWidth"] = 30,
 						["iconSizeHeight"] = 30,
@@ -1436,10 +1489,10 @@ do
 					["duration"] = 0,
 					["expires"] = 0,
 					["stacks"] = 10,
-					["spellID"] = 100407,
+					["spellID"] = 66843,
 					["type"] = AURA_TYPE_DEBUFF,
 					["dispelType"] = "Curse",
-					["spellName"] = SpellNameByID[100407],
+					["spellName"] = SpellNameByID[66843],
 					["dbEntry"] = {
 						["iconSizeWidth"] = db.DefaultIconSizeWidth,
 						["iconSizeHeight"] = db.DefaultIconSizeHeight,

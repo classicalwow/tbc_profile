@@ -1,6 +1,6 @@
 
 GuidelimeData = {
-	["mapMarkerSizeGOTO"] = 16,
+	["mapMarkerSizeGOTO"] = 11,
 	["skipCutscenes"] = true,
 	["fontColorSKIP"] = "|cFF59C4F1",
 	["showQuestLevels"] = false,

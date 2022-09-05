@@ -58,6 +58,8 @@ L["instance-type:party"] = "5ppl dungeons"
 --[[Translation missing --]]
 L["instance-type:pvp"] = "Battlegrounds"
 --[[Translation missing --]]
+L["instance-type:pvp_bg_40ppl"] = "40ppl Battlegrounds"
+--[[Translation missing --]]
 L["instance-type:raid"] = "Raid dungeons"
 --[[Translation missing --]]
 L["instance-type:scenario"] = "Scenarios"
@@ -80,6 +82,8 @@ L["options:apps:dr:pvp"] = "JcJ"
 L["options:apps:explosive-orbs:tooltip"] = [=[Show special aura above Fel Explosive's nameplates (M+ Explosive Affix)
 This aura have a bright glow and default size]=]
 L["options:apps:spiteful"] = "Resaltar Rencorosa (Afijo M+)"
+--[[Translation missing --]]
+L["options:apps:spiteful:sound"] = "Sound"
 L["options:auras:enabled-state:tooltip"] = [=[Activar/desactivar aura
 
 %s: el aura no se mostrará
@@ -103,17 +107,25 @@ L["options:category:interrupts"] = "Interrupciones"
 L["options:category:size-and-position"] = "Tamaño y posición"
 L["options:general:always-show-my-auras:tooltip"] = "Este filtro tiene máxima prioridad. Si activas esta opción, tus auras se mostrarán siempre, sin tener en cuenta los demás filtros."
 --[[Translation missing --]]
-L["options:general:full-opacity-always"] = ""
+L["options:general:always-show-my-auras-blacklist:button"] = "-> Blacklist"
+--[[Translation missing --]]
+L["options:general:always-show-my-auras-blacklist:button:tooltip"] = "Pay attention! If spell is added to `Spells` list AND this blacklist, it WILL be shown on nameplates"
+--[[Translation missing --]]
+L["options:general:export-profile"] = "Export profile"
 L["options:general:hide-blizz-frames"] = "Ocultar los marcos de aura de Blizzard (es necesario recargar la UI)"
 --[[Translation missing --]]
 L["options:general:hide-player-blizz-frame"] = "Hide Blizzard's aura frames on player"
 L["options:general:icon-grow-direction"] = "Dirección de crecimiento de los iconos"
+--[[Translation missing --]]
+L["options:general:import-profile"] = "Import profile"
 --[[Translation missing --]]
 L["options:general:instance-types"] = [=[Set the visibility of the cooldowns
 in different types of locations]=]
 L["options:general:show-aura-tooltip"] = "Mostrar el nombre del aura al pasar el ratón sobre su icono"
 L["options:general:show-cooldown-animation"] = "Mostrar animación de tiempo de enfriamiento"
 L["options:general:show-cooldown-text"] = "Mostrar el tiempo restante del aura"
+--[[Translation missing --]]
+L["options:general:show-on-target-even-in-disabled-area-types"] = "Show auras on target's nameplate even in disabled types of zones"
 L["options:general:show-on-target-only"] = "Solamente mostrar auras en las placas de nombre del objetivo"
 --[[Translation missing --]]
 L["options:general:show-stacks"] = "Show aura's stacks"
@@ -176,7 +188,10 @@ L["options:size-and-position:non-target-strata"] = "Layer of icons on non-target
 L["options:size-and-position:scale-target"] = "Scale of the icons on the nameplate of your target"
 --[[Translation missing --]]
 L["options:size-and-position:target-strata"] = "Layer of icons on target nameplate"
-L["options:spells:add-new-spell"] = "Click para añadir un nuevo hechizo"
+--[[Translation missing --]]
+L["options:spells:add-import-new-spell"] = "Add/import aura"
+--[[Translation missing --]]
+L["options:spells:add-new-spell"] = "Spell name/link/id or import string..."
 --[[Translation missing --]]
 L["options:spells:animation-relative:tooltip"] = [=[This option changes the meaning of slider on the left.
 
@@ -186,11 +201,13 @@ If this option is unchecked, animation will start when aura's remaining duration
 --[[Translation missing --]]
 L["options:spells:animation-type"] = "Animation type"
 --[[Translation missing --]]
-L["options:spells:appropriate-spell-ids"] = "Appropriate spell IDs:"
+L["options:spells:appropriate-spell-ids"] = "Appropriate aura IDs:"
 --[[Translation missing --]]
 L["options:spells:disable-all-spells"] = "Disable all spells"
 --[[Translation missing --]]
 L["options:spells:enable-all-spells"] = "Enable all spells"
+--[[Translation missing --]]
+L["options:spells:export-spell"] = "Export aura"
 --[[Translation missing --]]
 L["options:spells:glow-relative"] = "Use relative time"
 --[[Translation missing --]]
@@ -204,6 +221,12 @@ L["options:spells:icon-animation"] = "Icon animation"
 --[[Translation missing --]]
 L["options:spells:icon-animation-always"] = "Show animation all the time"
 L["options:spells:icon-animation-threshold"] = "Mostrar animación si el tiempo restante del aura es inferior a"
+--[[Translation missing --]]
+L["options:spells:icon-border:builtin"] = "Border: Built-in"
+--[[Translation missing --]]
+L["options:spells:icon-border:custom"] = "Border: Custom"
+--[[Translation missing --]]
+L["options:spells:icon-border:disabled"] = "Border: Disabled"
 --[[Translation missing --]]
 L["options:spells:icon-glow"] = "Show glow"
 --[[Translation missing --]]

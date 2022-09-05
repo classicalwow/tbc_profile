@@ -709,6 +709,7 @@ AutoBarDB = {
 		},
 		["ldbIcon"] = {
 		},
+		["showEmptyButtons"] = true,
 		["dbVersion"] = 1,
 		["buttonList"] = {
 			["AutoBarButtonHeal"] = {

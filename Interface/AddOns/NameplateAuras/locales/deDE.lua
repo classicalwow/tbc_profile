@@ -48,22 +48,16 @@ L["icon-sort-mode:by-aura-type+by-expire-time"] = "Nach Auratyp und nach Ablaufz
 L["icon-sort-mode:by-expire-time"] = "Nach Ablaufzeit"
 L["icon-sort-mode:by-icon-size"] = "Nach Symbolgröße"
 L["icon-sort-mode:custom"] = "Benutzerdefiniert"
+L["icon-sort-mode:none"] = "Ohne Sortierung"
+L["instance-type:arena"] = "Arenen"
+L["instance-type:none"] = "Offene Welt"
+L["instance-type:party"] = "5-Spieler-Dungeons"
+L["instance-type:pvp"] = "Schlachtfelder"
 --[[Translation missing --]]
-L["icon-sort-mode:none"] = "Without sorting"
---[[Translation missing --]]
-L["instance-type:arena"] = "Arenas"
---[[Translation missing --]]
-L["instance-type:none"] = "Open World"
---[[Translation missing --]]
-L["instance-type:party"] = "5ppl dungeons"
---[[Translation missing --]]
-L["instance-type:pvp"] = "Battlegrounds"
---[[Translation missing --]]
-L["instance-type:raid"] = "Raid dungeons"
---[[Translation missing --]]
-L["instance-type:scenario"] = "Scenarios"
---[[Translation missing --]]
-L["instance-type:unknown"] = "Unknown dungeons (some quest scenarios)"
+L["instance-type:pvp_bg_40ppl"] = "40ppl Battlegrounds"
+L["instance-type:raid"] = "Schlachtzüge"
+L["instance-type:scenario"] = "Szenarien"
+L["instance-type:unknown"] = "Unbekannte Dungeons (Manche Questszenarien)"
 L["Magic"] = "Magie"
 L["Options are not available in combat!"] = "Optionen sind im Kampf nicht verfügbar!"
 L["options:alpha:alpha"] = "Deckkraft der Symbole (außer der Namensplakette deines Ziels)"
@@ -73,8 +67,7 @@ L["options:alpha:use-target-alpha-if-not-target-selected"] = "Display auras with
 L["options:animation-type:ICON_ANIMATION_TYPE_ALPHA"] = "Deckkraft"
 L["options:apps:dispellable-spells"] = "Bannbare/stehlbare Auras auf Namensplaketten von Feinden"
 L["options:apps:dispellable-spells:black-list-button"] = "Ausschlussliste öffnen"
---[[Translation missing --]]
-L["options:apps:dispellable-spells:tooltip"] = "Show dispellable/stealable auras on nameplates of enemies. These auras have a dim glow and default size"
+L["options:apps:dispellable-spells:tooltip"] = "Zeit bannbare/stehlbare Auren auf Namensplaketten von Gegnern. Diese Auren haben ein schwachtes Leuchten und Standardgröße"
 --[[Translation missing --]]
 L["options:apps:dr"] = "Enable display of diminishing return (beta)"
 L["options:apps:dr:pve"] = "PvE (nur betäuben)"
@@ -84,6 +77,8 @@ L["options:apps:explosive-orbs:tooltip"] = [=[Show special aura above Fel Explos
 This aura have a bright glow and default size]=]
 --[[Translation missing --]]
 L["options:apps:spiteful"] = "Highlight Spiteful Shade (Spiteful M+ affix)"
+--[[Translation missing --]]
+L["options:apps:spiteful:sound"] = "Sound"
 L["options:auras:enabled-state:tooltip"] = [=[Aktiviert/Deaktiviert die Aura
 
 %s: Aura wird nicht gezeigt
@@ -94,33 +89,39 @@ L["options:auras:enabled-state-mineonly"] = "Aktiviert, nur meine Auren zeigen"
 L["options:auras:show-on-npcs"] = "Diese Aura nur auf NSCs anzeigen"
 L["options:auras:show-on-npcs-and-players"] = "Diese Aura auf Spielern und NSCs anzeigen"
 L["options:auras:show-on-players"] = "Diese Aura nur auf Spielern anzeigen"
---[[Translation missing --]]
-L["options:borders:BORDER_TYPE_BUILTIN"] = "Built-in"
+L["options:borders:BORDER_TYPE_BUILTIN"] = "Eingebaut"
 L["options:borders:BORDER_TYPE_CUSTOM"] = "Benutzerdefiniert"
 L["options:borders:border-file-path"] = "Speicherort der Rahmentextur (beginnt mit 'Interface\\')"
 L["options:borders:border-type"] = "Rahmenart"
 L["options:category:alpha"] = "Deckkraft"
 L["options:category:apps"] = "Erweiterungen"
---[[Translation missing --]]
-L["options:category:dispel"] = "Purge/steal"
+L["options:category:dispel"] = "Reinigen/stehlen"
 L["options:category:interrupts"] = "Unterbrechungen"
 L["options:category:size-and-position"] = "Größe & Position"
 L["options:general:always-show-my-auras:tooltip"] = [=[Dies ist ein Filter höchster Priorität. Falls du diese
  Funktion aktivierst, werden Auren, die du gewirkt hast,
  unabhängig von anderen Filtern gezeigt]=]
 --[[Translation missing --]]
-L["options:general:full-opacity-always"] = ""
+L["options:general:always-show-my-auras-blacklist:button"] = "-> Blacklist"
+--[[Translation missing --]]
+L["options:general:always-show-my-auras-blacklist:button:tooltip"] = "Pay attention! If spell is added to `Spells` list AND this blacklist, it WILL be shown on nameplates"
+--[[Translation missing --]]
+L["options:general:export-profile"] = "Export profile"
 L["options:general:hide-blizz-frames"] = "Blizzards Auraelemente ausblenden (UI-Neuladen erforderlich)"
 --[[Translation missing --]]
 L["options:general:hide-player-blizz-frame"] = "Hide Blizzard's aura frames on player"
 --[[Translation missing --]]
 L["options:general:icon-grow-direction"] = "Icon growing direction"
 --[[Translation missing --]]
+L["options:general:import-profile"] = "Import profile"
+--[[Translation missing --]]
 L["options:general:instance-types"] = [=[Set the visibility of the cooldowns
 in different types of locations]=]
 L["options:general:show-aura-tooltip"] = "Zeigt den Namen der Aura, wenn die Maus sich auf dem Aurasymbol befindet."
 L["options:general:show-cooldown-animation"] = "Abklingzeitanimation anzeigen"
 L["options:general:show-cooldown-text"] = "Die verbleibende Zeit der Aura anzeigen"
+--[[Translation missing --]]
+L["options:general:show-on-target-even-in-disabled-area-types"] = "Show auras on target's nameplate even in disabled types of zones"
 L["options:general:show-on-target-only"] = "Auren nur auf der Namensplakette des Ziels anzeigen"
 L["options:general:show-stacks"] = "Aurastapel anzeigen"
 L["options:general:test-mode"] = "Testmodus"
@@ -172,7 +173,10 @@ L["options:size-and-position:keep-aspect-ratio:tooltip"] = "Fall diese Option ak
 L["options:size-and-position:non-target-strata"] = "Schicht der Symbole auf Nicht-Ziel-Namensplaketten"
 L["options:size-and-position:scale-target"] = "Skalierung der Symbole auf der Namensplakette deines Ziels"
 L["options:size-and-position:target-strata"] = "Schicht der Symbole auf der Ziel-Namensplakette"
-L["options:spells:add-new-spell"] = "Klicke, um neuen Zauber hinzuzufügen"
+--[[Translation missing --]]
+L["options:spells:add-import-new-spell"] = "Add/import aura"
+--[[Translation missing --]]
+L["options:spells:add-new-spell"] = "Spell name/link/id or import string..."
 --[[Translation missing --]]
 L["options:spells:animation-relative:tooltip"] = [=[This option changes the meaning of slider on the left.
 
@@ -183,6 +187,8 @@ L["options:spells:animation-type"] = "Animationsart"
 L["options:spells:appropriate-spell-ids"] = "Passende Zauber-IDs:"
 L["options:spells:disable-all-spells"] = "Alle Zauber deaktivieren"
 L["options:spells:enable-all-spells"] = "Alle Zauber aktivieren"
+--[[Translation missing --]]
+L["options:spells:export-spell"] = "Export aura"
 L["options:spells:glow-relative"] = "Relative Zeit verwenden"
 --[[Translation missing --]]
 L["options:spells:glow-relative:tooltip"] = [=[This option changes the meaning of slider on the left.
@@ -193,6 +199,12 @@ If this option is unchecked, glow will appear when aura's remaining duration is 
 L["options:spells:icon-animation"] = "Symbolanimation"
 L["options:spells:icon-animation-always"] = "Immer eine Animation anzeigen"
 L["options:spells:icon-animation-threshold"] = "Eine Animation anzeigen, falls die verbleibende Dauer der Aura geringer ist als"
+--[[Translation missing --]]
+L["options:spells:icon-border:builtin"] = "Border: Built-in"
+--[[Translation missing --]]
+L["options:spells:icon-border:custom"] = "Border: Custom"
+--[[Translation missing --]]
+L["options:spells:icon-border:disabled"] = "Border: Disabled"
 L["options:spells:icon-glow"] = "Leuchten zeigen"
 L["options:spells:icon-glow-always"] = "Leuchten dauerhaft anzeigen"
 L["options:spells:icon-glow-threshold"] = "Leuchten anzeigen, wenn verbleibende Zeit der Aura kleiner ist als"

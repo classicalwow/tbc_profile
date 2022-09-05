@@ -1,1 +1,1 @@
-- Add support for WoTLK Classic
+- Update retail compatibility

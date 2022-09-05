@@ -41,4 +41,7 @@ Accept: [QA12199]
 Do: [QC12199]
 TurnIn: [QT12199]
 If you havent found a group for the elite quests I recommend aborting them now as we go into Zul Drak.
+Accept: [QA12763]
+Talk to Makki Wintergale <Wind Rider Master>[G64.8, 46.8Grizzly Hills] and take the flight to Zul'Drak.
+TODO: Figure out when to turn the flight quest in.
 ]], "TUGs The Ultimate (Leveling) Guides")

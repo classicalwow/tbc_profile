@@ -32,7 +32,7 @@ L["Disease"] = "Maladie"
 L["Display auras on nameplates of friendly units"] = "Afficher les auras sur les barres d'identification des alliés"
 L["Display auras on player's nameplate"] = "Afficher les auras sur les barres d'identification des joueurs"
 L["Do you really want to delete ALL spells?"] = "Voulez-vous vraiment supprimer TOUS les sorts ?"
-L["Font"] = "Font"
+L["Font"] = "Police"
 L["Font scale"] = "Échelle de la font"
 L["Font size"] = "Taille de la font"
 L["General"] = "Général"
@@ -48,14 +48,12 @@ L["icon-sort-mode:by-expire-time"] = "Par temps avant expiration"
 L["icon-sort-mode:by-icon-size"] = "Par taille d'icône"
 L["icon-sort-mode:custom"] = "Personnalisé"
 L["icon-sort-mode:none"] = "Sans classement"
+L["instance-type:arena"] = "Type d'instance : Arène"
+L["instance-type:none"] = "Type d'instance : Aucune"
+L["instance-type:party"] = "Type d'instance : Groupe"
+L["instance-type:pvp"] = "Type d'instance : JvJ"
 --[[Translation missing --]]
-L["instance-type:arena"] = "Arenas"
---[[Translation missing --]]
-L["instance-type:none"] = "Open World"
---[[Translation missing --]]
-L["instance-type:party"] = "5ppl dungeons"
---[[Translation missing --]]
-L["instance-type:pvp"] = "Battlegrounds"
+L["instance-type:pvp_bg_40ppl"] = "40ppl Battlegrounds"
 --[[Translation missing --]]
 L["instance-type:raid"] = "Raid dungeons"
 --[[Translation missing --]]
@@ -81,6 +79,8 @@ L["options:apps:dr:pvp"] = "PvP"
 L["options:apps:explosive-orbs:tooltip"] = "Afficher une aura spéciale au dessus des barres d'identification avec Explosif (M+ Affixe Explosif). Cette aura apparait en surbrillance et a une taille par défaut"
 --[[Translation missing --]]
 L["options:apps:spiteful"] = "Highlight Spiteful Shade (Spiteful M+ affix)"
+--[[Translation missing --]]
+L["options:apps:spiteful:sound"] = "Sound"
 L["options:auras:enabled-state:tooltip"] = [=[%s : l'aura ne sera pas affichée
 %s : l'aura sera affichée si vous la lancez
 %s : afficher toutes les auras]=]
@@ -103,16 +103,24 @@ L["options:category:interrupts"] = "Interruptions"
 L["options:category:size-and-position"] = "Taille & positionnement"
 L["options:general:always-show-my-auras:tooltip"] = "Il s'agit d'un filtre prioritaire. Si vous activez cette fonction, vos auras seront affichées indépendamment des autres filtres"
 --[[Translation missing --]]
-L["options:general:full-opacity-always"] = ""
+L["options:general:always-show-my-auras-blacklist:button"] = "-> Blacklist"
+--[[Translation missing --]]
+L["options:general:always-show-my-auras-blacklist:button:tooltip"] = "Pay attention! If spell is added to `Spells` list AND this blacklist, it WILL be shown on nameplates"
+--[[Translation missing --]]
+L["options:general:export-profile"] = "Export profile"
 L["options:general:hide-blizz-frames"] = "Masquer les cadres d'auras par défaut de Blizzard (sauf pour les joueurs) "
 L["options:general:hide-player-blizz-frame"] = "Masquer les cadres d'auras de Blizzard sur les joueurs"
 L["options:general:icon-grow-direction"] = "Sens d'ajout des icônes"
+--[[Translation missing --]]
+L["options:general:import-profile"] = "Import profile"
 --[[Translation missing --]]
 L["options:general:instance-types"] = [=[Set the visibility of the cooldowns
 in different types of locations]=]
 L["options:general:show-aura-tooltip"] = "Afficher le nom de l'aura lorsque la souris passe au dessus son icône"
 L["options:general:show-cooldown-animation"] = "Afficher l'animation de rechargement"
 L["options:general:show-cooldown-text"] = "Afficher le temps restant avant expiration des auras"
+--[[Translation missing --]]
+L["options:general:show-on-target-even-in-disabled-area-types"] = "Show auras on target's nameplate even in disabled types of zones"
 --[[Translation missing --]]
 L["options:general:show-on-target-only"] = "Show auras on target's nameplate only"
 L["options:general:show-stacks"] = "Afficher la valeur des piles des auras"
@@ -144,17 +152,28 @@ L["options:size-and-position:keep-aspect-ratio:tooltip"] = "If this option is ch
 L["options:size-and-position:non-target-strata"] = "Couche d'icônes sur les barres d'identification de ce que vous ne ciblez pas"
 L["options:size-and-position:scale-target"] = "Échelle des icônes sur la barre d'identification de vôtre cible"
 L["options:size-and-position:target-strata"] = "Couche d'icônes sur les barres d'identification de vôtre cible"
-L["options:spells:add-new-spell"] = "Cliquer pour ajouter un nouveau sort"
+--[[Translation missing --]]
+L["options:spells:add-import-new-spell"] = "Add/import aura"
+--[[Translation missing --]]
+L["options:spells:add-new-spell"] = "Spell name/link/id or import string..."
 L["options:spells:animation-relative:tooltip"] = "Cette option change la signification de la barre de défilement sur la gauche. Si cette option est activée, l'animation débutera lorsque le temps restant sur cette aura sera inférieur au pourcentage du temps maximum sélectionné pour cette aura. C'est utile, par exemple, lorsque vous voulez savoir quand réappliquer vos DOT sans risquer de les perdre. Si cette option est désactivée, l'animation commencera lorsque la durée avant expiration de l'aura sera inférieure à la valeur absolue de la barre de défilement (en secondes)"
 L["options:spells:animation-type"] = "Type d'animation"
 L["options:spells:appropriate-spell-ids"] = "ID de sort appropriée(s) :"
 L["options:spells:disable-all-spells"] = "Désactiver tous les sorts"
 L["options:spells:enable-all-spells"] = "Activer tous les sorts"
+--[[Translation missing --]]
+L["options:spells:export-spell"] = "Export aura"
 L["options:spells:glow-relative"] = "Utiliser le temps relatif"
 L["options:spells:glow-relative:tooltip"] = "Cette option change la signification de la barre de défilement sur la gauche. Si cette option est activée, la surbrillance apparaîtra lorsque le temps restant sur cette aura sera inférieur au pourcentage du temps maximum sélectionné pour cette aura. C'est utile, par exemple, lorsque vous voulez savoir quand réappliquer vos DOT sans risquer de les perdre. Si cette option est désactivée, la surbrillance apparaîtra lorsque la durée avant expiration de l'aura sera inférieure à la valeur absolue de la barre de défilement (en secondes)"
 L["options:spells:icon-animation"] = "Animation d'icône"
 L["options:spells:icon-animation-always"] = "Afficher l'animation en permanence"
 L["options:spells:icon-animation-threshold"] = "Afficher l'animation si la durée restante sur l'aura est inférieure à"
+--[[Translation missing --]]
+L["options:spells:icon-border:builtin"] = "Border: Built-in"
+--[[Translation missing --]]
+L["options:spells:icon-border:custom"] = "Border: Custom"
+--[[Translation missing --]]
+L["options:spells:icon-border:disabled"] = "Border: Disabled"
 L["options:spells:icon-glow"] = "Afficher en surbrillance"
 L["options:spells:icon-glow-always"] = "Afficher en surbrillance en permanence"
 L["options:spells:icon-glow-threshold"] = "Afficher en surbrillance si la durée restante sur l'aura est inférieure à"

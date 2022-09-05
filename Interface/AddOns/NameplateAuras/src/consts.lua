@@ -1,4 +1,3 @@
--- // enums as variables: it's done for better performance
 local _, addonTable = ...;
 
 addonTable.CONST_SPELL_MODE_DISABLED = 1;
@@ -56,6 +55,7 @@ addonTable.ICON_ANIMATION_DISPLAY_MODE_THRESHOLD = 3;
 
 addonTable.BORDER_TYPE_BUILTIN = 1;
 addonTable.BORDER_TYPE_CUSTOM = 2;
+addonTable.BORDER_TYPE_DISABLED = 3;
 
 addonTable.DR_TEXTURES = {
 	["disorient"] = [[Interface\AddOns\NameplateAuras\media\square-violet.tga]],
@@ -77,6 +77,7 @@ addonTable.SPITEFUL_SPELL_ID = 69861;
 addonTable.INSTANCE_TYPE_NONE = "none";
 addonTable.INSTANCE_TYPE_UNKNOWN = "unknown";
 addonTable.INSTANCE_TYPE_PVP = "pvp";
+addonTable.INSTANCE_TYPE_PVP_BG_40PPL = "pvp_bg_40ppl";
 addonTable.INSTANCE_TYPE_ARENA = "arena";
 addonTable.INSTANCE_TYPE_PARTY = "party";
 addonTable.INSTANCE_TYPE_RAID = "raid";

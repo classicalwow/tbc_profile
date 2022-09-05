@@ -16,18 +16,10 @@ CodexConfig = {
 		["arrivaldistance"] = 15,
 		["callbacks"] = {
 			["distance"] = {
-				[10] = nil --[[ skipped inline function ]],
-				[15] = nil --[[ skipped inline function ]],
 			},
 			["world"] = {
-				["onclick"] = nil --[[ skipped inline function ]],
-				["tooltip_update"] = nil --[[ skipped inline function ]],
-				["tooltip_show"] = nil --[[ skipped inline function ]],
 			},
 			["minimap"] = {
-				["onclick"] = nil --[[ skipped inline function ]],
-				["tooltip_update"] = nil --[[ skipped inline function ]],
-				["tooltip_show"] = nil --[[ skipped inline function ]],
 			},
 		},
 		["persistent"] = true,
@@ -55,16 +47,19 @@ CodexHiddenQuests = {
 	[11775] = true,
 	[11882] = true,
 	[9784] = true,
+	[11040] = true,
 	[11787] = true,
 	[11782] = true,
+	[10077] = true,
+	[9744] = true,
 	[11821] = true,
 	[10923] = true,
 	[11825] = true,
-	[9742] = true,
-	[9744] = true,
+	[11767] = true,
 	[11829] = true,
+	[9742] = true,
 	[11818] = true,
-	[10077] = true,
+	[11807] = true,
 }
 CodexBrowserFavorites = {
 	["objects"] = {

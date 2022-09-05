@@ -7,12 +7,12 @@ Altoholic_Grids: disabled
 Altoholic_Guild: disabled
 Altoholic_Search: disabled
 Altoholic_Summary: disabled
-ArkInventoryRules_Profession: enabled
-ArkInventoryRules_Example: enabled
-ArkInventory: enabled
-ArkInventoryConfig: enabled
-ArkInventoryRules: enabled
-ArkInventorySearch: enabled
+ArkInventoryRules_Profession: disabled
+ArkInventoryRules_Example: disabled
+ArkInventory: disabled
+ArkInventoryConfig: disabled
+ArkInventoryRules: disabled
+ArkInventorySearch: disabled
 Atlas: disabled
 Atlas_BurningCrusade: disabled
 Atlas_ClassicWoW: disabled
@@ -133,7 +133,7 @@ alaTalentEmu: disabled
 Altoholic: enabled
 DBM-Core: disabled
 DBM-StatusBarTimers: disabled
-DBM-GUI: disabled
+DBM-GUI: enabled
 DBM-CountPack-Overwatch: disabled
 DBM-PvP: disabled
 DBM-VPVEM: disabled
@@ -169,3 +169,4 @@ ElvUI_DTBars2: disabled
 ElvUI_QuestXP: disabled
 ElvUI_CustomTags: disabled
 kExtraBossFrames: disabled
+WideQuestLogLevels: disabled

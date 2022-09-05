@@ -98,15 +98,15 @@ function _QuestieQuest:ShowQuestIcons()
 
     local trackerHiddenQuests = Questie.db.char.TrackerHiddenQuests
     for questId, frameList in pairs(QuestieMap.questIdFrames) do
-        if (trackerHiddenQuests == nil) or (trackerHiddenQuests[questId] == nil) then -- Skip quests which are completly hidden from the Tracker menu
+        if (not trackerHiddenQuests) or (not trackerHiddenQuests[questId]) then -- Skip quests which are completly hidden from the Tracker menu
             for _, frameName in pairs(frameList) do -- this may seem a bit expensive, but its actually really fast due to the order things are checked
                 ---@type IconFrame
                 local icon = _G[frameName];
-                if icon.data == nil then
+                if not icon.data then
                     error("Desync! Icon has not been removed correctly, but has already been resetted. Skipping frame \"" .. frameName .. "\" for quest " .. questId)
                 else
                     local objectiveString = tostring(questId) .. " " .. tostring(icon.data.ObjectiveIndex)
-                    if (Questie.db.char.TrackerHiddenObjectives == nil) or (Questie.db.char.TrackerHiddenObjectives[objectiveString] == nil) then
+                    if (not Questie.db.char.TrackerHiddenObjectives) or (not Questie.db.char.TrackerHiddenObjectives[objectiveString]) then
                         if icon ~= nil and icon.hidden and (not icon:ShouldBeHidden()) then
                             icon:FakeShow()
 
@@ -340,7 +340,7 @@ end
 
 ---@param questId number
 function QuestieQuest:AcceptQuest(questId)
-    if(QuestiePlayer.currentQuestlog[questId] == nil) then
+    if not QuestiePlayer.currentQuestlog[questId] then
         Questie:Debug(Questie.DEBUG_INFO, "[QuestieQuest] Accepted Quest:", questId)
 
         local quest = QuestieDB:GetQuest(questId)
@@ -353,7 +353,6 @@ function QuestieQuest:AcceptQuest(questId)
             function() if Questie.db.char.collapsedQuests then Questie.db.char.collapsedQuests[questId] = nil end end,  -- re-accepted quest can be collapsed. expand it. specially dailies.
             function() QuestieQuest:PopulateQuestLogInfo(quest) end,
             function() QuestieQuest:PopulateObjectiveNotes(quest) end,
-            function() QuestieTracker:ResetLinesForChange() end,
             function() QuestieTracker:Update() end,
             QuestieQuest.CalculateAndDrawAvailableQuestsIterative
         )
@@ -368,11 +367,9 @@ end
 ---@param questId number
 function QuestieQuest:CompleteQuest(questId)
     QuestiePlayer.currentQuestlog[questId] = nil;
-    local specialFlags = QuestieDB.QueryQuestSingle(questId, "specialFlags")
-    local isRepeatable = specialFlags and mod(specialFlags, 2) == 1
     -- Only quests that are daily quests or aren't repeatable should be marked complete,
     -- otherwise objectives for repeatable quests won't track correctly - #1433
-    Questie.db.char.complete[questId] = QuestieDB:IsDailyQuest(questId) or (not isRepeatable);
+    Questie.db.char.complete[questId] = QuestieDB:IsDailyQuest(questId) or (not QuestieDB:IsRepeatable(questId));
 
     QuestieMap:UnloadQuestFrames(questId)
     if (QuestieMap.questIdFrames[questId]) then
@@ -382,7 +379,6 @@ function QuestieQuest:CompleteQuest(questId)
     QuestieTooltips:RemoveQuest(questId)
     QuestieTracker:RemoveQuest(questId)
     QuestieCombatQueue:Queue(function()
-        QuestieTracker:ResetLinesForChange()
         QuestieTracker:Update()
     end)
 
@@ -427,7 +423,6 @@ function QuestieQuest:AbandonedQuest(questId)
         QuestieTracker:RemoveQuest(questId)
         QuestieTooltips:RemoveQuest(questId)
         QuestieCombatQueue:Queue(function()
-            QuestieTracker:ResetLinesForChange()
             QuestieTracker:Update()
         end)
 
@@ -462,7 +457,6 @@ function QuestieQuest:UpdateQuest(questId)
             _QuestieQuest:DrawAvailableQuest(quest)
         end
         QuestieCombatQueue:Queue(function()
-            QuestieTracker:ResetLinesForChange()
             QuestieTracker:Update()
         end)
 
@@ -510,7 +504,6 @@ function QuestieQuest:GetAllQuestIds()
         end
     end
     QuestieCombatQueue:Queue(function()
-        QuestieTracker:ResetLinesForChange()
         QuestieTracker:Update()
     end)
 end
@@ -1041,7 +1034,7 @@ function QuestieQuest:PopulateQuestLogInfo(quest)
             if (not quest.ObjectiveData) or (not quest.ObjectiveData[objectiveIndex]) then
                 Questie:Error("Missing objective data for quest " .. quest.Id .. " and objective " .. objective.text)
             else
-                if quest.Objectives[objectiveIndex] == nil then
+                if not quest.Objectives[objectiveIndex] then
                     quest.Objectives[objectiveIndex] = {
                         Id = quest.ObjectiveData[objectiveIndex].Id,
                         Index = objectiveIndex,
@@ -1290,7 +1283,7 @@ function QuestieQuest:CalculateAndDrawAvailableQuestsIterative(callback)
                     (showRaidQuests or (not QuestieDB:IsRaidQuest(questId))) and  -- Show Raid quests only with the option enabled
                     (showPvPQuests or (not QuestieDB:IsPvPQuest(questId))) and -- Show PvP quests only with the option enabled
                     (showAQWarEffortQuests or (not QuestieQuestBlacklist.AQWarEffortQuests[questId])) and -- Don't show AQ War Effort quests with the option enabled
-                    ((not Questie.IsTBC) or (not IsleOfQuelDanas.quests[Questie.db.global.isleOfQuelDanasPhase][questId]))
+                    ((not Questie.IsWotlk) or (not IsleOfQuelDanas.quests[Questie.db.global.isleOfQuelDanasPhase][questId]))
                 ) then
 
                     if QuestieDB:IsLevelRequirementsFulfilled(questId, minLevel, maxLevel) and QuestieDB:IsDoable(questId) then

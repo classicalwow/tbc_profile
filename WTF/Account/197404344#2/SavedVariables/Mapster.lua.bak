@@ -9,19 +9,19 @@ MapsterDB = {
 	["profileKeys"] = {
 		["特变电工 - 祈福"] = "Default",
 		["张坤 - 祈福"] = "Default",
-		["Vscode - 加丁"] = "Default",
+		["新特能源 - 祈福"] = "Default",
 		["码农巴菲特 - 祈福"] = "Default",
 		["特工仓库 - 祈福"] = "Default",
-		["新特能源 - 祈福"] = "Default",
+		["Vscode - 加丁"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["scale"] = 0.9183153510093689,
-			["alpha"] = 0.88,
-			["y"] = -64.18689080052218,
-			["x"] = 55.17744499338551,
-			["point"] = "CENTER",
+			["scale"] = 0.7659502029418945,
 			["poiScale"] = 1.17,
+			["y"] = -16.2343066202011,
+			["x"] = 82.72149715482374,
+			["point"] = "CENTER",
+			["alpha"] = 0.88,
 		},
 	},
 }

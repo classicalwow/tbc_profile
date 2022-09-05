@@ -1,18 +1,16 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.06,
-	["LastPlayerFullName"] = "新特能源-祈福",
-	["AutoSelectScales"] = false,
+	["LastVersion"] = 2.0601,
 	["ItemLevels"] = {
 		{
-			["ID"] = 31766,
-			["Level"] = 99,
-			["Link"] = "|cff1eff00|Hitem:31766::::::::64:::::::::|h[天巫之帽]|h|r",
+			["ID"] = 31509,
+			["Level"] = 108,
+			["Link"] = "|cff1eff00|Hitem:31509::::::::69:::::::::|h[拜龙教徒兜帽]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 31726,
-			["Level"] = 94,
-			["Link"] = "|cff0070dd|Hitem:31726::::::::64:::::::::|h[染血羽毛项链]|h|r",
+			["ID"] = 31692,
+			["Level"] = 103,
+			["Link"] = "|cff0070dd|Hitem:31692::::::::69:::::::::|h[娜塔莎的灰烬项链]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 28075,
@@ -26,9 +24,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:31717::::::::61:::::::::|h[暗影施法外套]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 31725,
-			["Level"] = 99,
-			["Link"] = "|cff1eff00|Hitem:31725::::::::64:::::::::|h[受难腰带]|h|r",
+			["ID"] = 31425,
+			["Level"] = 102,
+			["Link"] = "|cff1eff00|Hitem:31425::::::::68:::::::::|h[食人魔征服者腰带]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 25577,
@@ -36,19 +34,19 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:25577::::::::66:::::::::|h[绿血长裤]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 24614,
-			["Level"] = 93,
-			["Link"] = "|cff1eff00|Hitem:24614::::::-39:1901133856:61:::::::::|h[祈灵之守备官长靴]|h|r",
+			["ID"] = 31456,
+			["Level"] = 108,
+			["Link"] = "|cff1eff00|Hitem:31456::::::::68:::::::::|h[侏儒施法靴]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 31770,
-			["Level"] = 96,
-			["Link"] = "|cff1eff00|Hitem:31770::::::::63:::::::::|h[沼泽护腕]|h|r",
+			["ID"] = 25778,
+			["Level"] = 105,
+			["Link"] = "|cff1eff00|Hitem:25778::::::::67:::::::::|h[记忆镣铐]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 25613,
-			["Level"] = 96,
-			["Link"] = "|cff1eff00|Hitem:25613::::::::63:::::::::|h[蛮沼秘法师裹手]|h|r",
+			["ID"] = 31418,
+			["Level"] = 102,
+			["Link"] = "|cff1eff00|Hitem:31418::::::::68:::::::::|h[希尔瓦纳手套]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 31728,
@@ -75,9 +73,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:31615::::::::64:::::::::|h[上古德莱尼奥术神器]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 28030,
-			["Level"] = 97,
-			["Link"] = "|cff0070dd|Hitem:28030::::::::66:::::::::|h[施法者的防护]|h|r",
+			["ID"] = 25777,
+			["Level"] = 100,
+			["Link"] = "|cff0070dd|Hitem:25777::::::::67:::::::::|h[食人魔杀手披风]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 25760,
@@ -95,6 +93,8 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:25640::::::::67:::::::::|h[奈辛瓦里狩猎队魔棒]|h|r",
 		}, -- [18]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "新特能源-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

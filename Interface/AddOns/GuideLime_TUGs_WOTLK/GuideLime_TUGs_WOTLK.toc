@@ -1,6 +1,6 @@
 ## Title: Guidelime_TUGs
 ## Author: TUGs | The Unprofessional Gamer
-## Version: 3.31
+## Version: 3.37
 ## Interface: 30400
 ## Dependencies: Guidelime
 ## Notes: The Ultimate (Leveling) Guide
@@ -35,7 +35,7 @@ TUGs\Horde\1-6Tauren.lua
 TUGs\Horde\6-12Tauren.lua
 TUGs\Horde\12-16The Barrens.lua
 TUGs\Horde\16-21The Barrens.lua
-TUGs\Horde\21-25Hillsbrad Foothills.lua
+TUGs\Horde\21-25 Part.lua
 TUGs\Horde\25-31 Part.lua
 TUGs\Horde\31-33 Part.lua
 TUGs\Horde\33-36 Part.lua
@@ -71,8 +71,7 @@ TUGs\Alliance\69-70Shadowmoon Valley.lua
 TUGs\Horde\1-13Bloodelf.lua
 TUGs\Horde\13-20Bloodelf.lua
 TUGs\Horde\60-61 Part.lua
-TUGs\Horde\61-62 Part.lua
-TUGs\Horde\62-63 Part.lua
+TUGs\Horde\61-63 Part.lua
 TUGs\Horde\63-64 Part.lua
 TUGs\Horde\64-65 Part.lua
 TUGs\Horde\65-66 Part.lua

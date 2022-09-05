@@ -28,8 +28,8 @@ L["Check spell ID"] = [=[Check spell IDs
 L["Click to select spell"] = "Click to select spell"
 L["Curse"] = "Curse"
 L["Debuff"] = "Debuff"
-L["Delete all spells"] = "Delete all spells"
-L["Delete spell"] = "Delete spell"
+L["Delete all spells"] = "Delete all auras"
+L["Delete spell"] = "Delete aura"
 L["Disabled"] = "Disabled"
 L["Disease"] = "Disease"
 L["Display auras on nameplates of friendly units"] = "Display auras on nameplates of friendly units"
@@ -55,6 +55,7 @@ L["instance-type:arena"] = "Arenas"
 L["instance-type:none"] = "Open World"
 L["instance-type:party"] = "5ppl dungeons"
 L["instance-type:pvp"] = "Battlegrounds"
+L["instance-type:pvp_bg_40ppl"] = "40ppl Battlegrounds"
 L["instance-type:raid"] = "Raid dungeons"
 L["instance-type:scenario"] = "Scenarios"
 L["instance-type:unknown"] = "Unknown dungeons (some quest scenarios)"
@@ -73,6 +74,7 @@ L["options:apps:dr:pvp"] = "PvP"
 L["options:apps:explosive-orbs:tooltip"] = [=[Show special aura above Fel Explosive's nameplates (M+ Explosive Affix)
 This aura have a bright glow and default size]=]
 L["options:apps:spiteful"] = "Highlight Spiteful Shade (Spiteful M+ affix)"
+L["options:apps:spiteful:sound"] = "Sound"
 L["options:auras:enabled-state:tooltip"] = [=[%s: aura will not be shown
 
 %s: aura will be shown if you've cast it
@@ -93,16 +95,19 @@ L["options:category:dispel"] = "Purge/steal"
 L["options:category:interrupts"] = "Interrupts"
 L["options:category:size-and-position"] = "Size & position"
 L["options:general:always-show-my-auras:tooltip"] = "This is top priority filter. If you enable this feature, your auras will be shown regardless of other filters"
---[[Translation missing --]]
-L["options:general:full-opacity-always"] = ""
+L["options:general:always-show-my-auras-blacklist:button"] = "-> Blacklist"
+L["options:general:always-show-my-auras-blacklist:button:tooltip"] = "Pay attention! If spell is added to `Spells` list AND this blacklist, it WILL be shown on nameplates"
+L["options:general:export-profile"] = "Export profile"
 L["options:general:hide-blizz-frames"] = "Hide Blizzard's aura frames (except player)"
 L["options:general:hide-player-blizz-frame"] = "Hide Blizzard's aura frames on player"
 L["options:general:icon-grow-direction"] = "Icon growing direction"
+L["options:general:import-profile"] = "Import profile"
 L["options:general:instance-types"] = [=[Set the visibility of the cooldowns
 in different types of locations]=]
 L["options:general:show-aura-tooltip"] = "Show aura name when mouse is over auras icon"
 L["options:general:show-cooldown-animation"] = "Show cooldown animation"
 L["options:general:show-cooldown-text"] = "Show aura's remaining time"
+L["options:general:show-on-target-even-in-disabled-area-types"] = "Show auras on target's nameplate even in disabled types of zones"
 L["options:general:show-on-target-only"] = "Show auras on target's nameplate only"
 L["options:general:show-stacks"] = "Show aura's stacks"
 L["options:general:test-mode"] = "Test mode"
@@ -148,16 +153,18 @@ L["options:size-and-position:keep-aspect-ratio:tooltip"] = "If this option is ch
 L["options:size-and-position:non-target-strata"] = "Layer of icons on non-target nameplates"
 L["options:size-and-position:scale-target"] = "Scale of the icons on the nameplate of your target"
 L["options:size-and-position:target-strata"] = "Layer of icons on target nameplate"
-L["options:spells:add-new-spell"] = "Click to add new spell"
+L["options:spells:add-import-new-spell"] = "Add/import aura"
+L["options:spells:add-new-spell"] = "Spell name/link/id or import string..."
 L["options:spells:animation-relative:tooltip"] = [=[This option changes the meaning of slider on the left.
 
 If this option is checked, animation will start when aura's remaining duration is less than the selected percent of maximum duration of this aura. It is useful, for example, if you want to know when you can safely re-apply your DoT spell without losing it's duration.
 
 If this option is unchecked, animation will start when aura's remaining duration is less than absolute value of slider (in seconds)]=]
 L["options:spells:animation-type"] = "Animation type"
-L["options:spells:appropriate-spell-ids"] = "Appropriate spell IDs:"
+L["options:spells:appropriate-spell-ids"] = "Appropriate aura IDs:"
 L["options:spells:disable-all-spells"] = "Disable all spells"
 L["options:spells:enable-all-spells"] = "Enable all spells"
+L["options:spells:export-spell"] = "Export aura"
 L["options:spells:glow-relative"] = "Use relative time"
 L["options:spells:glow-relative:tooltip"] = [=[This option changes the meaning of slider on the left.
 
@@ -167,6 +174,9 @@ If this option is unchecked, glow will appear when aura's remaining duration is 
 L["options:spells:icon-animation"] = "Icon animation"
 L["options:spells:icon-animation-always"] = "Show animation all the time"
 L["options:spells:icon-animation-threshold"] = "Show animation if aura's remaining time is less than"
+L["options:spells:icon-border:builtin"] = "Border: Built-in"
+L["options:spells:icon-border:custom"] = "Border: Custom"
+L["options:spells:icon-border:disabled"] = "Border: Disabled"
 L["options:spells:icon-glow"] = "Show glow"
 L["options:spells:icon-glow-always"] = "Show glow all the time"
 L["options:spells:icon-glow-threshold"] = "Show glow if aura's remaining time is less than"
@@ -200,12 +210,12 @@ L["X offset"] = "X offset"
 L["Y offset"] = "Y offset"
 
 --@end-non-debug@
---[===[@debug@
+--[==[@debug@
 L = L or {}
 L["< 1min"] = "< 1min"
 L["< 5sec"] = "< 5sec"
 L["> 1min"] = "> 1min"
-L["options:spells:add-new-spell"] = "Click to add new spell"
+L["options:spells:add-new-spell"] = "Spell name/link/id or import string..."
 L["Add spell"] = "Add spell"
 L["Always show auras cast by myself"] = "Always show auras cast by myself"
 L["Anchor point"] = "Anchor point"
@@ -219,8 +229,8 @@ L["Check spell ID"] = [=[Check spell IDs
 L["Click to select spell"] = "Click to select spell"
 L["Curse"] = "Curse"
 L["Debuff"] = "Debuff"
-L["Delete all spells"] = "Delete all spells"
-L["Delete spell"] = "Delete spell"
+L["Delete all spells"] = "Delete all auras"
+L["Delete spell"] = "Delete aura"
 L["Disabled"] = "Disabled"
 L["Disease"] = "Disease"
 L["Display auras on nameplates of friendly units"] = "Display auras on nameplates of friendly units"
@@ -254,7 +264,7 @@ L["options:general:show-aura-tooltip"] = "Show aura name when mouse is over aura
 L["options:interrupts:enable-interrupts"] = "Enable interrupt tracking"
 L["options:interrupts:enable-only-during-pvp-battles"] = "Enable during PvP battles only"
 L["options:interrupts:use-shared-icon-texture"] = "Use the same texture for all interrupt spells"
-L["options:spells:appropriate-spell-ids"] = "Appropriate spell IDs:"
+L["options:spells:appropriate-spell-ids"] = "Appropriate aura IDs:"
 L["options:spells:disable-all-spells"] = "Disable all spells"
 L["options:spells:enable-all-spells"] = "Enable all spells"
 L["options:spells:icon-glow"] = "Show glow"
@@ -394,10 +404,22 @@ L["instance-type:arena"] = "Arenas"
 L["instance-type:none"] = "Open World"
 L["instance-type:party"] = "5ppl dungeons"
 L["instance-type:pvp"] = "Battlegrounds"
+L["instance-type:pvp_bg_40ppl"] = "40ppl Battlegrounds"
 L["instance-type:raid"] = "Raid dungeons"
 L["instance-type:scenario"] = "Scenarios"
 L["instance-type:unknown"] = "Unknown dungeons (some quest scenarios)"
 L["options:general:instance-types"] = [=[Set the visibility of the cooldowns
 in different types of locations]=]
+L["options:apps:spiteful:sound"] = "Sound"
+L["options:spells:icon-border:custom"] = "Border: Custom"
+L["options:spells:icon-border:builtin"] = "Border: Built-in"
+L["options:spells:icon-border:disabled"] = "Border: Disabled"
+L["options:general:show-on-target-even-in-disabled-area-types"] = "Show auras on target's nameplate even in disabled types of zones"
+L["options:spells:add-import-new-spell"] = "Add/import aura"
+L["options:spells:export-spell"] = "Export aura"
+L["options:general:import-profile"] = "Import profile"
+L["options:general:export-profile"] = "Export profile"
+L["options:general:always-show-my-auras-blacklist:button"] = "-> Blacklist"
+L["options:general:always-show-my-auras-blacklist:button:tooltip"] = "Pay attention! If spell is added to `Spells` list AND this blacklist, it WILL be shown on nameplates"
 
---@end-debug@]===]
+--@end-debug@]==]

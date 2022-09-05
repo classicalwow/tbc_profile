@@ -4,8 +4,8 @@ DataStore_AgendaDB = {
 		["特变电工 - 祈福"] = "特变电工 - 祈福",
 		["张坤 - 祈福"] = "张坤 - 祈福",
 		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
-		["新特能源 - 祈福"] = "新特能源 - 祈福",
 		["Vscode - 加丁"] = "Vscode - 加丁",
+		["新特能源 - 祈福"] = "新特能源 - 祈福",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -13,10 +13,10 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1662142671,
 			},
 			["Default.祈福.新特能源"] = {
-				["lastUpdate"] = 1662142637,
+				["lastUpdate"] = 1662167869,
 			},
 			["Default.祈福.码农巴菲特"] = {
-				["lastUpdate"] = 1662142744,
+				["lastUpdate"] = 1662199147,
 			},
 			["Default.加丁.Vscode"] = {
 				["lastUpdate"] = 1659786093,

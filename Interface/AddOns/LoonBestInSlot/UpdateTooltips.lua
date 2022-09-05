@@ -13,10 +13,8 @@ local function buildExtraTip(tooltip, entry)
 	LibExtraTip:AddLine(tooltip,LBIS.L["# Gear best for:"],r,g,b,true)
 
 	local combinedTooltip = {};
-	local mageCount = 0;
-	local warriorDpsCount = 0;
-	local warlockCount = 0;
-	local hunterCount = 0;
+	local mageCount, warriorDpsCount, warlockCount = 0, 0, 0;
+	local hunterCount, dkCount, rogueCount = 0, 0, 0;
 
 	for k, v in pairs(entry) do
 		local classSpec = LBIS.ClassSpec[k]
@@ -35,6 +33,14 @@ local function buildExtraTip(tooltip, entry)
 		if classSpec.Class == LBIS.L["Hunter"] then
 			hunterCount = hunterCount + 1;
 		end
+
+		if classSpec.Class == LBIS.L["Death Knight"] then
+			dkCount = dkCount + 1;
+		end
+		
+		if classSpec.Class == LBIS.L["Rogue"] then
+			rogueCount = rogueCount + 1;
+		end
 	end
 
 	for k, v in pairs(entry) do
@@ -45,7 +51,9 @@ local function buildExtraTip(tooltip, entry)
 			if (ttItem.Class == LBIS.L["Warrior"] and warriorDpsCount == 2) or 
 			   (ttItem.Class == LBIS.L["Warlock"] and warlockCount == 3) or 
 			   (ttItem.Class == LBIS.L["Mage"] and mageCount == 3) or
-			   (ttItem.Class == LBIS.L["Hunter"] and hunterCount == 3) then
+			   (ttItem.Class == LBIS.L["Hunter"] and hunterCount == 3) or
+			   (ttItem.Class == LBIS.L["Death Knight"] and dkCount == 3) or
+			   (ttItem.Class == LBIS.L["Rogue"] and rogueCount == 3) then
 				if classSpec.Class == ttItem.Class and v.Bis == ttItem.Bis and v.Phase == ttItem.Phase then
 					foundMatch = true;
 					if ttItem.Class == LBIS.L["Warrior"] and (ttItem.Spec == LBIS.L["Fury"] or ttItem.Spec == LBIS.L["Arms"]) then

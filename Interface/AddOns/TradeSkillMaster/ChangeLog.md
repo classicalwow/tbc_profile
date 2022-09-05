@@ -1,5 +1,5 @@
-## v4.11.41 Changes
+## v4.11.44 Changes
 
-* [Retail] Fixed error from last version
+* [Retail] Fixed errors from preview version
 
 [Known Issues](https://support.tradeskillmaster.com/en_US/known_issues)

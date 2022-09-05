@@ -1,8 +1,10 @@
-## Interface: 20501
-## Title: NameplateAuras [TBC]
+## Interface: 30400
+## Title: NameplateAuras [WotLK]
 ## Notes: Displays people's buffs/debuffs above their nameplates
 ## SavedVariables: NameplateAurasAceDB
-## Version: 20501.1-release
+## Version: 30400.2-release
+## X-Curse-Project-ID: 101192
+## X-Wago-ID: lQNl536e
 
 src\consts.lua
 embeds.xml

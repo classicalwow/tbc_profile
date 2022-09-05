@@ -1,79 +1,100 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental"], "0")
 
-LBIS:AddItem(spec, "32476", LBIS.L["Head"], "BIS") --Gadgetstorm Goggles
-LBIS:AddItem(spec, "32086", LBIS.L["Head"], "Alt") --Storm Master's Helmet
-LBIS:AddItem(spec, "28415", LBIS.L["Head"], "Alt") --Hood of Oblivion
-LBIS:AddItem(spec, "28278", LBIS.L["Head"], "Alt") --Incanter's Cowl
-LBIS:AddItem(spec, "24266", LBIS.L["Head"], "Alt") --Spellstrike Hood
-LBIS:AddItem(spec, "31330", LBIS.L["Head"], "Alt") --Lightning Crown
-LBIS:AddItem(spec, "31107", LBIS.L["Head"], "Alt") --Shamanistic Helmet of Second Sight
+LBIS:AddItem(spec, "42555", LBIS.L["Head"], "BIS") --Electroflux Sight Enhancers
+LBIS:AddItem(spec, "34332", LBIS.L["Head"], "Alt") --Cowl of Gul'dan
+LBIS:AddItem(spec, "37180", LBIS.L["Head"], "Alt") --Battlemap Hide Helm
+LBIS:AddItem(spec, "37592", LBIS.L["Head"], "Alt") --Brood Plague Helmet
 
-LBIS:AddItem(spec, "32078", LBIS.L["Shoulder"], "BIS") --Pauldrons of Wild Magic
-LBIS:AddItem(spec, "30925", LBIS.L["Shoulder"], "Alt") --Spaulders of the Torn-heart
-LBIS:AddItem(spec, "27796", LBIS.L["Shoulder"], "Alt") --Mana-Etched Spaulders
+LBIS:AddItem(spec, "34390", LBIS.L["Shoulder"], "BIS") --Erupting Epaulets
+LBIS:AddItem(spec, "34208", LBIS.L["Shoulder"], "Transmute BIS") --Equilibrium Epaulets
+LBIS:AddItem(spec, "37875", LBIS.L["Shoulder"], "BIS") --Spaulders of the Violet Hold
+LBIS:AddItem(spec, "37673", LBIS.L["Shoulder"], "BIS") --Dark Runic Mantle
+LBIS:AddItem(spec, "31023", LBIS.L["Shoulder"], "Alt") --Skyshatter Mantle
+LBIS:AddItem(spec, "31103", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Forgotten Protector
+LBIS:AddItem(spec, "37398", LBIS.L["Shoulder"], "Alt") --Mantle of Discarded Ways
 
-LBIS:AddItem(spec, "29369", LBIS.L["Back"], "BIS") --Shawl of Shifting Probabilities
-LBIS:AddItem(spec, "27981", LBIS.L["Back"], "Alt") --Sethekk Oracle Cloak
+LBIS:AddItem(spec, "41610", LBIS.L["Back"], "BIS") --Deathchill Cloak
+LBIS:AddItem(spec, "37291", LBIS.L["Back"], "Alt") --Ancient Dragon Spirit Cape
+LBIS:AddItem(spec, "34242", LBIS.L["Back"], "Alt") --Tattered Cape of Antonidas
+LBIS:AddItem(spec, "44167", LBIS.L["Back"], "Alt") --Shroud of Dedicated Research
 
-LBIS:AddItem(spec, "29519", LBIS.L["Chest"], "BIS") --Netherstrike Breastplate
-LBIS:AddItem(spec, "29522", LBIS.L["Chest"], "BIS") --Windhawk Hauberk
-LBIS:AddItem(spec, "28191", LBIS.L["Chest"], "Alt") --Mana-Etched Vestments
-LBIS:AddItem(spec, "31340", LBIS.L["Chest"], "Alt") --Will of Edward the Odd
+LBIS:AddItem(spec, "39592", LBIS.L["Chest"], "BIS") --Heroes' Earthshatter Hauberk
+LBIS:AddItem(spec, "40611", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Protector
+LBIS:AddItem(spec, "43461", LBIS.L["Chest"], "Alt") --Revenant's Breastplate
+LBIS:AddItem(spec, "43410", LBIS.L["Chest"], "Alt") --Moragg's Chestguard
+LBIS:AddItem(spec, "37256", LBIS.L["Chest"], "Alt") --Scaled Armor of Drakos
+LBIS:AddItem(spec, "34396", LBIS.L["Chest"], "Alt") --Garments of Crashing Shores
+LBIS:AddItem(spec, "34229", LBIS.L["Chest"], "Transmute Alt") --Garments of Serene Shores
+LBIS:AddItem(spec, "31017", LBIS.L["Chest"], "Alt") --Skyshatter Breastplate
+LBIS:AddItem(spec, "31091", LBIS.L["Chest"], "Alt") --Chestguard of the Forgotten Protector
 
-LBIS:AddItem(spec, "29521", LBIS.L["Wrist"], "BIS") --Netherstrike Bracers
-LBIS:AddItem(spec, "29523", LBIS.L["Wrist"], "BIS") --Windhawk Bracers
-LBIS:AddItem(spec, "24250", LBIS.L["Wrist"], "Alt") --Bracers of Havok
+LBIS:AddItem(spec, "37788", LBIS.L["Wrist"], "BIS") --Limb Regeneration Bracers
+LBIS:AddItem(spec, "37884", LBIS.L["Wrist"], "BIS") --Azure Cloth Bindings
+LBIS:AddItem(spec, "34437", LBIS.L["Wrist"], "Alt") --Skyshatter Bands
+LBIS:AddItem(spec, "34851", LBIS.L["Wrist"], "Alt") --Bracers of the Forgotten Protector
+LBIS:AddItem(spec, "37725", LBIS.L["Wrist"], "Alt") --Savage Wound Wrap
+LBIS:AddItem(spec, "32586", LBIS.L["Wrist"], "Alt") --Bracers of Nimble Thought
 
-LBIS:AddItem(spec, "27465", LBIS.L["Hands"], "BIS") --Mana-Etched Gloves
-LBIS:AddItem(spec, "27793", LBIS.L["Hands"], "BIS") --Earth Mantle Handwraps
-LBIS:AddItem(spec, "31149", LBIS.L["Hands"], "Alt") --Gloves of Pandemonium
-LBIS:AddItem(spec, "31280", LBIS.L["Hands"], "Alt") --Thundercaller's Gauntlets
-LBIS:AddItem(spec, "30930", LBIS.L["Hands"], "Alt") --Grips of the Void
+LBIS:AddItem(spec, "39593", LBIS.L["Hands"], "BIS") --Heroes' Earthshatter Gloves
+LBIS:AddItem(spec, "40614", LBIS.L["Hands"], "BIS") --Gloves of the Lost Protector
+LBIS:AddItem(spec, "37623", LBIS.L["Hands"], "Alt") --Fiery Obelisk Handguards
+LBIS:AddItem(spec, "42113", LBIS.L["Hands"], "Alt") --Spellweave Gloves
+LBIS:AddItem(spec, "34344", LBIS.L["Hands"], "Alt") --Handguards of Defiled Worlds
+LBIS:AddItem(spec, "34350", LBIS.L["Hands"], "Alt") --Gauntlets of the Ancient Shadowmoon
 
-LBIS:AddItem(spec, "29520", LBIS.L["Waist"], "BIS") --Netherstrike Belt
-LBIS:AddItem(spec, "24256", LBIS.L["Waist"], "BIS") --Girdle of Ruination
-LBIS:AddItem(spec, "29524", LBIS.L["Waist"], "BIS") --Windhawk Belt
-LBIS:AddItem(spec, "31283", LBIS.L["Waist"], "Alt") --Sash of Sealed Fate
+LBIS:AddItem(spec, "40696", LBIS.L["Waist"], "BIS") --Plush Sash of Guzbah
+LBIS:AddItem(spec, "44181", LBIS.L["Waist"], "Alt") --Ghostflicker Waistband
+LBIS:AddItem(spec, "37643", LBIS.L["Waist"], "Alt") --Sash of Blood Removal
+LBIS:AddItem(spec, "34542", LBIS.L["Waist"], "Alt") --Skyshatter Cord
+LBIS:AddItem(spec, "34854", LBIS.L["Waist"], "Alt") --Belt of the Forgotten Protector
+LBIS:AddItem(spec, "30038", LBIS.L["Waist"], "Alt") --Belt of Blasting
 
-LBIS:AddItem(spec, "24262", LBIS.L["Legs"], "BIS") --Spellstrike Pants
-LBIS:AddItem(spec, "30541", LBIS.L["Legs"], "Alt") --Stormsong Kilt
-LBIS:AddItem(spec, "29142", LBIS.L["Legs"], "Alt") --Kurenai Kilt
-LBIS:AddItem(spec, "29141", LBIS.L["Legs"], "Alt") --Tempest Leggings
-LBIS:AddItem(spec, "30709", LBIS.L["Legs"], "Alt") --Pantaloons of Flaming Wrath
+LBIS:AddItem(spec, "37695", LBIS.L["Legs"], "BIS") --Legguards of Nature's Power
+LBIS:AddItem(spec, "37791", LBIS.L["Legs"], "BIS") --Leggings of the Winged Serpent
+LBIS:AddItem(spec, "44931", LBIS.L["Legs"], "BIS") --Windripper Leggings
+LBIS:AddItem(spec, "34186", LBIS.L["Legs"], "Alt") --Chain Links of the Tumultuous Storm
 
-LBIS:AddItem(spec, "28406", LBIS.L["Feet"], "BIS") --Sigil-Laced Boots
-LBIS:AddItem(spec, "28179", LBIS.L["Feet"], "Alt") --Shattrath Jumpers
+LBIS:AddItem(spec, "43469", LBIS.L["Feet"], "BIS") --Revenant's Treads
+LBIS:AddItem(spec, "44202", LBIS.L["Feet"], "BIS") --Sandals of Crimson Fury
+LBIS:AddItem(spec, "44930", LBIS.L["Feet"], "BIS") --Windripper Boots
+LBIS:AddItem(spec, "37654", LBIS.L["Feet"], "Alt") --Sabatons of the Ages
+LBIS:AddItem(spec, "34566", LBIS.L["Feet"], "Alt") --Skyshatter Treads
+LBIS:AddItem(spec, "34857", LBIS.L["Feet"], "Alt") --Boots of the Forgotten Protector
 
-LBIS:AddItem(spec, "28134", LBIS.L["Neck"], "BIS") --Brooch of Heightened Potential
-LBIS:AddItem(spec, "31692", LBIS.L["Neck"], "Alt") --Natasha's Ember Necklace
-LBIS:AddItem(spec, "29333", LBIS.L["Neck"], "Alt") --Torc of the Sethekk Prophet
+LBIS:AddItem(spec, "42647", LBIS.L["Neck"], "BIS") --Titanium Spellshock Necklace
+LBIS:AddItem(spec, "34359", LBIS.L["Neck"], "Alt") --Pendant of Sunfire
+LBIS:AddItem(spec, "40681", LBIS.L["Neck"], "Alt") --Lattice Choker of Light
+LBIS:AddItem(spec, "37595", LBIS.L["Neck"], "Alt") --Necklace of Taldaram
+LBIS:AddItem(spec, "43285", LBIS.L["Neck"], "Alt") --Amulet of the Spell Flinger
 
-LBIS:AddItem(spec, "29126", LBIS.L["Ring"], "BIS") --Seer's Signet
-LBIS:AddItem(spec, "29367", LBIS.L["Ring"], "BIS") --Ring of Cryptic Dreams
-LBIS:AddItem(spec, "29352", LBIS.L["Ring"], "BIS") --Cobalt Band of Tyrigosa
-LBIS:AddItem(spec, "31290", LBIS.L["Ring"], "BIS") --Band of Dominion
-LBIS:AddItem(spec, "29172", LBIS.L["Ring"], "Alt") --Ashyen's Gift
-LBIS:AddItem(spec, "28227", LBIS.L["Ring"], "Alt") --Sparking Arcanite Ring
+LBIS:AddItem(spec, "40585", LBIS.L["Ring"], "BIS") --Signet of the Kirin Tor
+LBIS:AddItem(spec, "42644", LBIS.L["Ring"], "BIS") --Titanium Spellshock Ring
+LBIS:AddItem(spec, "43253", LBIS.L["Ring"], "BIS") --Ring of Northern Tears
+LBIS:AddItem(spec, "37694", LBIS.L["Ring"], "Alt") --Band of Guile
+LBIS:AddItem(spec, "37192", LBIS.L["Ring"], "Alt") --Annhylde's Ring
+LBIS:AddItem(spec, "34230", LBIS.L["Ring"], "Alt") --Ring of Omnipotence
+LBIS:AddItem(spec, "34362", LBIS.L["Ring"], "Alt") --Loop of Forged Power
 
-LBIS:AddItem(spec, "29370", LBIS.L["Trinket"], "BIS") --Icon of the Silver Crescent
-LBIS:AddItem(spec, "38290", LBIS.L["Trinket"], "BIS") --Dark Iron Smoking Pipe
-LBIS:AddItem(spec, "27683", LBIS.L["Trinket"], "BIS") --Quagmirran's Eye
-LBIS:AddItem(spec, "29179", LBIS.L["Trinket"], "Alt") --Xi'ri's Gift
-LBIS:AddItem(spec, "29132", LBIS.L["Trinket"], "Alt") --Scryer's Bloodgem
-LBIS:AddItem(spec, "28418", LBIS.L["Trinket"], "Alt") --Shiffar's Nexus-Horn
-LBIS:AddItem(spec, "19379", LBIS.L["Trinket"], "Alt") --Neltharion's Tear
+LBIS:AddItem(spec, "40682", LBIS.L["Trinket"], "BIS") --Sundial of the Exiled
+LBIS:AddItem(spec, "37873", LBIS.L["Trinket"], "BIS") --Mark of the War Prisoner
+LBIS:AddItem(spec, "42395", LBIS.L["Trinket"], "BIS") --Figurine - Twilight Serpent
+LBIS:AddItem(spec, "37660", LBIS.L["Trinket"], "Alt") --Forge Ember
+LBIS:AddItem(spec, "32483", LBIS.L["Trinket"], "Alt") --The Skull of Gul'dan
+LBIS:AddItem(spec, "34429", LBIS.L["Trinket"], "Alt") --Shifting Naaru Sliver
 
-LBIS:AddItem(spec, "32450", LBIS.L["Main Hand"], "BIS") --Gladiator's Gavel
-LBIS:AddItem(spec, "23554", LBIS.L["Main Hand"], "Alt") --Eternium Runed Blade
-LBIS:AddItem(spec, "30832", LBIS.L["Main Hand"], "Alt") --Gavel of Unearthed Secrets
-LBIS:AddItem(spec, "27868", LBIS.L["Main Hand"], "Alt") --Runesong Dagger
+LBIS:AddItem(spec, "41384", LBIS.L["Main Hand"], "BIS") --Titansteel Guardian
+LBIS:AddItem(spec, "45085", LBIS.L["Main Hand"], "BIS") --Titansteel Spellblade
+LBIS:AddItem(spec, "44173", LBIS.L["Main Hand"], "Alt") --Flameheart Spell Scalpel
+LBIS:AddItem(spec, "37169", LBIS.L["Main Hand"], "Alt") --War Mace of Unrequited Love
+LBIS:AddItem(spec, "44199", LBIS.L["Main Hand"], "Alt") --Gavel of the Brewing Storm
+LBIS:AddItem(spec, "34336", LBIS.L["Main Hand"], "Alt") --Sunflare
 
-LBIS:AddItem(spec, "29273", LBIS.L["Off Hand"], "BIS") --Khadgar's Knapsack
-LBIS:AddItem(spec, "29268", LBIS.L["Off Hand"], "BIS") --Mazthoril Honor Shield
-LBIS:AddItem(spec, "31287", LBIS.L["Off Hand"], "Alt") --Draenei Honor Guard Shield
-LBIS:AddItem(spec, "23049", LBIS.L["Off Hand"], "Alt") --Sapphiron's Left Eye
-LBIS:AddItem(spec, "28412", LBIS.L["Off Hand"], "Alt") --Lamp of Peaceful Radiance
+LBIS:AddItem(spec, "40698", LBIS.L["Off Hand"], "BIS") --Ward of the Violet Citadel
+LBIS:AddItem(spec, "40700", LBIS.L["Off Hand"], "BIS") --Protective Barricade of the Light
+LBIS:AddItem(spec, "38322", LBIS.L["Off Hand"], "Alt") --Iron-bound Tome
+LBIS:AddItem(spec, "37061", LBIS.L["Off Hand"], "Alt") --Tor's Crest
+LBIS:AddItem(spec, "30872", LBIS.L["Off Hand"], "Alt") --Chronicle of Dark Secrets
+LBIS:AddItem(spec, "34179", LBIS.L["Off Hand"], "Alt") --Heart of the Pit
 
-LBIS:AddItem(spec, "28248", LBIS.L["Totem"], "BIS") --Totem of the Void
-LBIS:AddItem(spec, "23199", LBIS.L["Totem"], "Alt") --Totem of the Storm
-LBIS:AddItem(spec, "29389", LBIS.L["Totem"], "Alt") --Totem of the Pulsing Earth
+LBIS:AddItem(spec, "40708", LBIS.L["Totem"], "BIS") --Totem of the Elemental Plane
+LBIS:AddItem(spec, "32330", LBIS.L["Totem"], "Alt") --Totem of Ancestral Guidance

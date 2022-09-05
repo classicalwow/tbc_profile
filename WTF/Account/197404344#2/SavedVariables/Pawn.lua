@@ -13,7 +13,7 @@ PawnCommon = {
 	["Digits"] = 1,
 	["ShowSocketingAdvisor"] = true,
 	["ShowSpecIcons"] = true,
-	["LastVersion"] = 2.06,
+	["LastVersion"] = 2.0602,
 	["ButtonPosition"] = 2,
 	["ShowLootUpgradeAdvisor"] = true,
 	["ShowQuestUpgradeAdvisor"] = true,
@@ -30,8 +30,8 @@ PawnCommon = {
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "947451",
 			["SpecID"] = 2,
+			["UnenchantedColor"] = "947451",
 		},
 		["\"Classic\":MAGE3"] = {
 			["PerCharacterOptions"] = {
@@ -44,8 +44,8 @@ PawnCommon = {
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "2f94af",
 			["SpecID"] = 3,
+			["UnenchantedColor"] = "2f94af",
 		},
 		["\"Classic\":WARLOCK2"] = {
 			["PerCharacterOptions"] = {
@@ -58,8 +58,8 @@ PawnCommon = {
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "6565b1",
 			["SpecID"] = 2,
+			["UnenchantedColor"] = "6565b1",
 		},
 		["\"Classic\":MAGE1"] = {
 			["PerCharacterOptions"] = {
@@ -72,8 +72,8 @@ PawnCommon = {
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "2f94af",
 			["SpecID"] = 1,
+			["UnenchantedColor"] = "2f94af",
 		},
 		["\"Classic\":MAGE2"] = {
 			["PerCharacterOptions"] = {
@@ -86,8 +86,8 @@ PawnCommon = {
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "2f94af",
 			["SpecID"] = 2,
+			["UnenchantedColor"] = "2f94af",
 		},
 		["\"Classic\":DEATHKNIGHT2"] = {
 			["PerCharacterOptions"] = {
@@ -99,19 +99,19 @@ PawnCommon = {
 				},
 			},
 			["Color"] = "ff4d6b",
-			["LocalizedName"] = "死亡骑士: 冰霜",
+			["LocalizedName"] = "死亡骑士: 冰霜 坦克",
 			["ClassID"] = 6,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bf3950",
 			["SpecID"] = 2,
+			["UnenchantedColor"] = "bf3950",
 		},
 		["\"Classic\":ROGUE"] = {
 			["Color"] = "fff468",
-			["ClassID"] = 4,
+			["LocalizedName"] = "潜行者: 副手",
 			["PerCharacterOptions"] = {
 				["特变电工-祈福"] = {
 					["Visible"] = true,
@@ -121,7 +121,7 @@ PawnCommon = {
 				},
 			},
 			["DoNotShow1HUpgrades"] = false,
-			["LocalizedName"] = "潜行者: 副手",
+			["ClassID"] = 4,
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
@@ -138,8 +138,8 @@ PawnCommon = {
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "b7698b",
 			["SpecID"] = 2,
+			["UnenchantedColor"] = "b7698b",
 		},
 		["\"Classic\":HUNTER2"] = {
 			["PerCharacterOptions"] = {
@@ -152,8 +152,8 @@ PawnCommon = {
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "7f9e55",
 			["SpecID"] = 2,
+			["UnenchantedColor"] = "7f9e55",
 		},
 		["\"Classic\":PRIEST1"] = {
 			["PerCharacterOptions"] = {
@@ -169,8 +169,8 @@ PawnCommon = {
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bfbfbf",
 			["SpecID"] = 1,
+			["UnenchantedColor"] = "bfbfbf",
 		},
 		["\"Classic\":WARRIOR3"] = {
 			["PerCharacterOptions"] = {
@@ -183,8 +183,8 @@ PawnCommon = {
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "947451",
 			["SpecID"] = 3,
+			["UnenchantedColor"] = "947451",
 		},
 		["\"Classic\":WARLOCK3"] = {
 			["PerCharacterOptions"] = {
@@ -197,8 +197,8 @@ PawnCommon = {
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "6565b1",
 			["SpecID"] = 3,
+			["UnenchantedColor"] = "6565b1",
 		},
 		["\"Classic\":PALADIN3"] = {
 			["PerCharacterOptions"] = {
@@ -211,8 +211,8 @@ PawnCommon = {
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "b7698b",
 			["SpecID"] = 3,
+			["UnenchantedColor"] = "b7698b",
 		},
 		["\"Classic\":PRIEST3"] = {
 			["PerCharacterOptions"] = {
@@ -228,8 +228,8 @@ PawnCommon = {
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bfbfbf",
 			["SpecID"] = 3,
+			["UnenchantedColor"] = "bfbfbf",
 		},
 		["\"Classic\":SHAMAN2"] = {
 			["PerCharacterOptions"] = {
@@ -242,8 +242,8 @@ PawnCommon = {
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "0054a5",
 			["SpecID"] = 2,
+			["UnenchantedColor"] = "0054a5",
 		},
 		["\"Classic\":ROGUE1"] = {
 			["PerCharacterOptions"] = {
@@ -262,8 +262,8 @@ PawnCommon = {
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bfb74e",
 			["SpecID"] = 1,
+			["UnenchantedColor"] = "bfb74e",
 		},
 		["\"Classic\":HUNTER1"] = {
 			["PerCharacterOptions"] = {
@@ -276,8 +276,8 @@ PawnCommon = {
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "7f9e55",
 			["SpecID"] = 1,
+			["UnenchantedColor"] = "7f9e55",
 		},
 		["\"Classic\":WARRIOR1"] = {
 			["PerCharacterOptions"] = {
@@ -290,8 +290,8 @@ PawnCommon = {
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "947451",
 			["SpecID"] = 1,
+			["UnenchantedColor"] = "947451",
 		},
 		["\"Classic\":SHAMAN1"] = {
 			["PerCharacterOptions"] = {
@@ -304,8 +304,8 @@ PawnCommon = {
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "0054a5",
 			["SpecID"] = 1,
+			["UnenchantedColor"] = "0054a5",
 		},
 		["\"Classic\":SHAMAN3"] = {
 			["PerCharacterOptions"] = {
@@ -318,8 +318,8 @@ PawnCommon = {
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "0054a5",
 			["SpecID"] = 3,
+			["UnenchantedColor"] = "0054a5",
 		},
 		["\"Classic\":DEATHKNIGHT1"] = {
 			["PerCharacterOptions"] = {
@@ -331,15 +331,15 @@ PawnCommon = {
 				},
 			},
 			["Color"] = "ff4d6b",
-			["LocalizedName"] = "死亡骑士: 鲜血",
+			["LocalizedName"] = "死亡骑士: 鲜血 伤害输出",
 			["ClassID"] = 6,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "TANK",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bf3950",
 			["SpecID"] = 1,
+			["UnenchantedColor"] = "bf3950",
 		},
 		["\"Classic\":DEATHKNIGHT3"] = {
 			["PerCharacterOptions"] = {
@@ -351,15 +351,15 @@ PawnCommon = {
 				},
 			},
 			["Color"] = "ff4d6b",
-			["LocalizedName"] = "死亡骑士: 邪恶",
+			["LocalizedName"] = "死亡骑士: 邪恶 伤害输出",
 			["ClassID"] = 6,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bf3950",
 			["SpecID"] = 3,
+			["UnenchantedColor"] = "bf3950",
 		},
 		["\"Classic\":DRUID3"] = {
 			["PerCharacterOptions"] = {
@@ -372,8 +372,8 @@ PawnCommon = {
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bf5d07",
 			["SpecID"] = 3,
+			["UnenchantedColor"] = "bf5d07",
 		},
 		["\"Classic\":DRUID2"] = {
 			["PerCharacterOptions"] = {
@@ -386,8 +386,8 @@ PawnCommon = {
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bf5d07",
 			["SpecID"] = 2,
+			["UnenchantedColor"] = "bf5d07",
 		},
 		["\"Classic\":WARLOCK1"] = {
 			["PerCharacterOptions"] = {
@@ -400,8 +400,8 @@ PawnCommon = {
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "6565b1",
 			["SpecID"] = 1,
+			["UnenchantedColor"] = "6565b1",
 		},
 		["\"Classic\":DRUID4"] = {
 			["PerCharacterOptions"] = {
@@ -414,8 +414,8 @@ PawnCommon = {
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bf5d07",
 			["SpecID"] = 4,
+			["UnenchantedColor"] = "bf5d07",
 		},
 		["\"Classic\":ROGUE2"] = {
 			["PerCharacterOptions"] = {
@@ -434,8 +434,8 @@ PawnCommon = {
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bfb74e",
 			["SpecID"] = 2,
+			["UnenchantedColor"] = "bfb74e",
 		},
 		["\"Classic\":ROGUE3"] = {
 			["PerCharacterOptions"] = {
@@ -454,8 +454,8 @@ PawnCommon = {
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bfb74e",
 			["SpecID"] = 3,
+			["UnenchantedColor"] = "bfb74e",
 		},
 		["\"Classic\":DRUID1"] = {
 			["PerCharacterOptions"] = {
@@ -468,8 +468,8 @@ PawnCommon = {
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bf5d07",
 			["SpecID"] = 1,
+			["UnenchantedColor"] = "bf5d07",
 		},
 		["\"Classic\":PALADIN1"] = {
 			["PerCharacterOptions"] = {
@@ -482,8 +482,8 @@ PawnCommon = {
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "b7698b",
 			["SpecID"] = 1,
+			["UnenchantedColor"] = "b7698b",
 		},
 		["\"Classic\":HUNTER3"] = {
 			["PerCharacterOptions"] = {
@@ -496,8 +496,8 @@ PawnCommon = {
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "7f9e55",
 			["SpecID"] = 3,
+			["UnenchantedColor"] = "7f9e55",
 		},
 		["\"Classic\":PRIEST2"] = {
 			["PerCharacterOptions"] = {
@@ -513,8 +513,8 @@ PawnCommon = {
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bfbfbf",
 			["SpecID"] = 2,
+			["UnenchantedColor"] = "bfbfbf",
 		},
 	},
 }
