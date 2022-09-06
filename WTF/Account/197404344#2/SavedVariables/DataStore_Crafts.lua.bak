@@ -2,6 +2,7 @@
 DataStore_CraftsDB = {
 	["profileKeys"] = {
 		["特变电工 - 祈福"] = "特变电工 - 祈福",
+		["沈南鹏 - 祈福"] = "沈南鹏 - 祈福",
 		["张坤 - 祈福"] = "张坤 - 祈福",
 		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
 		["Vscode - 加丁"] = "Vscode - 加丁",
@@ -24,6 +25,9 @@ DataStore_CraftsDB = {
 					},
 				},
 			},
+			["Default.祈福.沈南鹏"] = {
+				["lastUpdate"] = 1662377990,
+			},
 			["Default.祈福.新特能源"] = {
 				["Professions"] = {
 					["骑术"] = {
@@ -35,6 +39,7 @@ DataStore_CraftsDB = {
 				["lastUpdate"] = 1662167869,
 			},
 			["Default.祈福.码农巴菲特"] = {
+				["lastUpdate"] = 1662199200,
 				["Professions"] = {
 					["急救"] = {
 						["isSecondary"] = true,
@@ -57,7 +62,6 @@ DataStore_CraftsDB = {
 						},
 					},
 				},
-				["lastUpdate"] = 1662199147,
 			},
 			["Default.加丁.Vscode"] = {
 				["lastUpdate"] = 1659786092,
@@ -155,6 +159,7 @@ DataStore_CraftsDB = {
 DataStore_CraftsRefDB = {
 	["profileKeys"] = {
 		["特变电工 - 祈福"] = "特变电工 - 祈福",
+		["沈南鹏 - 祈福"] = "沈南鹏 - 祈福",
 		["张坤 - 祈福"] = "张坤 - 祈福",
 		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
 		["Vscode - 加丁"] = "Vscode - 加丁",

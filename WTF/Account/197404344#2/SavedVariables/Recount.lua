@@ -2,6 +2,7 @@
 RecountDB = {
 	["profileKeys"] = {
 		["特变电工 - 祈福"] = "特变电工 - 祈福",
+		["沈南鹏 - 祈福"] = "沈南鹏 - 祈福",
 		["张坤 - 祈福"] = "张坤 - 祈福",
 		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
 		["Vscode - 加丁"] = "Vscode - 加丁",
@@ -30,6 +31,27 @@ RecountDB = {
 			["MainWindowHeight"] = 191.111083984375,
 			["LastInstanceName"] = "祖尔法拉克",
 			["MainWindowWidth"] = 209.4445648193359,
+			["CurDataSet"] = "OverallData",
+		},
+		["沈南鹏 - 祈福"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -208.3331604003906,
+					["x"] = -898.3332214355469,
+					["w"] = 140.0000305175781,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["MainWindowVis"] = false,
 			["CurDataSet"] = "OverallData",
 		},
 		["张坤 - 祈福"] = {
@@ -62,7 +84,6 @@ RecountDB = {
 					["h"] = 143.1111755371094,
 				},
 			},
-			["MainWindowHeight"] = 143.1111450195313,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -73,8 +94,9 @@ RecountDB = {
 					},
 				},
 			},
-			["CurDataSet"] = "OverallData",
+			["MainWindowHeight"] = 143.1111450195313,
 			["MainWindowWidth"] = 225.8888549804688,
+			["CurDataSet"] = "OverallData",
 		},
 		["Vscode - 加丁"] = {
 			["MainWindow"] = {

@@ -29,6 +29,9 @@ __DEJUNK_SAVED_VARIABLES__ = {
 		["码农巴菲特-祈福"] = {
 			["version"] = 3,
 		},
+		["沈南鹏-祈福"] = {
+			["version"] = 3,
+		},
 	},
 }
 DEJUNK_ADDON_SV = nil

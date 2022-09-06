@@ -7,10 +7,6 @@ local type = _G.type
 local error = _G.error
 local table = _G.table
 
--- stuff to look at later? maybe
--- BattlePetTooltipTemplate_AddTextLine
-
-
 local MissingFunctions = { }
 
 local supportedHyperlinkClass = {

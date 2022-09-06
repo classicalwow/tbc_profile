@@ -25,10 +25,10 @@ AtlasLootClassic: disabled
 AtlasLootClassic_Options: disabled
 AtlasLootClassic_Data: disabled
 AtlasQuest: disabled
-Auctionator: enabled
+Auctionator: disabled
 AutoCombatLogger: disabled
 AutoBarBCC: disabled
-aux-addon: enabled
+aux-addon: disabled
 BattlegroundSpiritReleaser: disabled
 BattleInfo: disabled
 BiSTracker: disabled
@@ -170,3 +170,4 @@ ElvUI_QuestXP: disabled
 ElvUI_CustomTags: disabled
 kExtraBossFrames: disabled
 WideQuestLogLevels: disabled
+EZQuest: disabled

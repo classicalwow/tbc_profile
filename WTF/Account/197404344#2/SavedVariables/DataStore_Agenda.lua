@@ -2,6 +2,7 @@
 DataStore_AgendaDB = {
 	["profileKeys"] = {
 		["特变电工 - 祈福"] = "特变电工 - 祈福",
+		["沈南鹏 - 祈福"] = "沈南鹏 - 祈福",
 		["张坤 - 祈福"] = "张坤 - 祈福",
 		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
 		["新特能源 - 祈福"] = "新特能源 - 祈福",
@@ -11,6 +12,9 @@ DataStore_AgendaDB = {
 		["Characters"] = {
 			["Default.祈福.张坤"] = {
 				["lastUpdate"] = 1662142671,
+			},
+			["Default.祈福.沈南鹏"] = {
+				["lastUpdate"] = 1662378292,
 			},
 			["Default.祈福.新特能源"] = {
 				["lastUpdate"] = 1662167869,

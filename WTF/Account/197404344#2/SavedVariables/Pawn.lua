@@ -13,7 +13,7 @@ PawnCommon = {
 	["Digits"] = 1,
 	["ShowSocketingAdvisor"] = true,
 	["ShowSpecIcons"] = true,
-	["LastVersion"] = 2.0602,
+	["LastVersion"] = 2.0604,
 	["ButtonPosition"] = 2,
 	["ShowLootUpgradeAdvisor"] = true,
 	["ShowQuestUpgradeAdvisor"] = true,
@@ -129,6 +129,9 @@ PawnCommon = {
 		},
 		["\"Classic\":PALADIN2"] = {
 			["PerCharacterOptions"] = {
+				["沈南鹏-祈福"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "f48cba",
 			["LocalizedName"] = "圣骑士: 防护",
@@ -202,6 +205,9 @@ PawnCommon = {
 		},
 		["\"Classic\":PALADIN3"] = {
 			["PerCharacterOptions"] = {
+				["沈南鹏-祈福"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "f48cba",
 			["LocalizedName"] = "圣骑士: 惩戒",
@@ -473,6 +479,9 @@ PawnCommon = {
 		},
 		["\"Classic\":PALADIN1"] = {
 			["PerCharacterOptions"] = {
+				["沈南鹏-祈福"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "f48cba",
 			["LocalizedName"] = "圣骑士: 神圣",

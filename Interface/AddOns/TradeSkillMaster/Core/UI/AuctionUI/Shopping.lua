@@ -2375,7 +2375,7 @@ function private.FSMCreate()
 				context.progressText = progressText
 				context.progressPaused = false
 				context.postDisabled = not canPost
-				if numCanBuy == 0 or isAltPlayer or (not TSM.IsWowClassic() and numConfirming > 0) then
+				if numCanBuy == 0 or isAltPlayer or numConfirming > 0 then
 					context.bidDisabled = true
 					context.buyoutDisabled = true
 					context.cancelShown = isPlayer and not TSM.IsWowClassic()

@@ -1,15 +1,19 @@
 
 AtlasQuest_Options = {
-	["Version"] = "4.12.83",
 	["特变电工"] = {
 		["ShownSide"] = "Left",
 		["AtlasAutoShow"] = 1,
 	},
-	["码农巴菲特"] = {
+	["Version"] = "4.13.01",
+	["新特能源"] = {
 		["ShownSide"] = "Left",
 		["AtlasAutoShow"] = 1,
 	},
-	["新特能源"] = {
+	["沈南鹏"] = {
+		["ShownSide"] = "Left",
+		["AtlasAutoShow"] = 1,
+	},
+	["码农巴菲特"] = {
 		["ShownSide"] = "Left",
 		["AtlasAutoShow"] = 1,
 	},

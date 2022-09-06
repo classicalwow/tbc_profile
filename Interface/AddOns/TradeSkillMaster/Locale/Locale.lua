@@ -17733,10 +17733,8 @@ L["%s sent you %s and %s"] = "%s 發送給你 %s 和 %s"
 --[[Translation missing --]]
 L["%s sent you a COD of %s for %s"] = "%s sent you a COD of %s for %s"
 L["%s sent you a message: %s"] = "%s 發訊息給你: %s"
---[[Translation missing --]]
-L["%s Sold Auctions"] = "%s Sold Auctions"
---[[Translation missing --]]
-L["%s Sold Auctions (Filtered)"] = "%s Sold Auctions (Filtered)"
+L["%s Sold Auctions"] = "%s 個售出的拍賣"
+L["%s Sold Auctions (Filtered)"] = "%s 個售出的拍賣（已篩選）"
 L["%s Total"] = "%s 總值"
 L["%s total"] = "%s 全部"
 --[[Translation missing --]]
@@ -17838,20 +17836,16 @@ L["Alarm Clock"] = "警示鐘"
 --[[Translation missing --]]
 L["All"] = "All"
 L["All Auctions"] = "所有拍賣"
---[[Translation missing --]]
-L["All Bought"] = "All Bought"
---[[Translation missing --]]
-L["All Cancelled"] = "All Cancelled"
+L["All Bought"] = "購入的拍賣"
+L["All Cancelled"] = "撤銷的拍賣"
 L["All Characters"] = "所有角色"
---[[Translation missing --]]
-L["All Expired"] = "All Expired"
+L["All Expired"] = "期滿的拍賣"
 --[[Translation missing --]]
 L["All Faction-Realms"] = "All Faction-Realms"
 --[[Translation missing --]]
 L["All Guilds"] = "All Guilds"
 L["All Item Classes"] = "所有物品類別"
---[[Translation missing --]]
-L["All Other"] = "All Other"
+L["All Other"] = "其他"
 L["All Players"] = "所有玩家"
 L["All Professions"] = "所有專業技能"
 L["All Rarites"] = "所有物品品質"
@@ -17860,8 +17854,7 @@ L["All Rarities"] = "所有物品品質"
 L["All Selected"] = "All Selected"
 --[[Translation missing --]]
 L["All Slots"] = "All Slots"
---[[Translation missing --]]
-L["All Sold"] = "All Sold"
+L["All Sold"] = "售出的拍賣"
 --[[Translation missing --]]
 L["All Sources"] = "All Sources"
 L["All Subclasses"] = "所有子分類"
@@ -18924,8 +18917,7 @@ L["On Cooldown"] = "冷卻中"
 L["Only show craftable"] = "只顯示可製造物品"
 --[[Translation missing --]]
 L["Only show items with disenchant values above this price"] = "Only show items with disenchant values above this price"
---[[Translation missing --]]
-L["Only show sold auctions"] = "Only show sold auctions"
+L["Only show sold auctions"] = "只顯示已出售的拍賣"
 L["OPEN"] = "開啟"
 L["Open All Mail"] = "開啟全部郵件"
 --[[Translation missing --]]
@@ -18991,8 +18983,7 @@ L["Postage"] = "郵資"
 L["Posted at whitelisted player's price."] = "Posted at whitelisted player's price."
 L["Posted:"] = "公告："
 L["Posting"] = "公告"
---[[Translation missing --]]
-L["Posting %d / %d"] = "Posting %d / %d"
+L["Posting %d / %d"] = "公告中 %d / %d"
 --[[Translation missing --]]
 L["Posting %d items for %s hours."] = "Posting %d items for %s hours."
 --[[Translation missing --]]
@@ -19425,8 +19416,7 @@ L["Sold (Min/Avg/Max Price)"] = "Sold (Min/Avg/Max Price)"
 --[[Translation missing --]]
 L["Sold (Total Price)"] = "Sold (Total Price)"
 L["Sold [%s]x%d for %s to %s"] = "販售 [%s] x %d 共 %s 給 %s"
---[[Translation missing --]]
-L["Sold for:"] = "Sold for:"
+L["Sold for:"] = "售出共："
 L["Some general Accounting options are below."] = "下列是一些一般會計選項."
 L["Some general appearance options are below."] = "下列是一些一般外觀選項."
 L["Some general Auctioning options are below."] = "下列是一些一般拍賣選項."
@@ -19791,7 +19781,7 @@ L["You can import custom themes by pasting an import string into the box below."
 L["You can import groups by pasting an import string into the box below. Group import strings can be found at: https://tradeskillmaster.com/group-maker/all"] = "You can import groups by pasting an import string into the box below. Group import strings can be found at: https://tradeskillmaster.com/group-maker/all"
 --[[Translation missing --]]
 L["You can use the export string below to share this custom theme with others."] = "You can use the export string below to share this custom theme with others."
-L["You can use the export string below to share this group with others."] = "你可以使用下列的匯出字串來分享這個群組給其他群組."
+L["You can use the export string below to share this group with others."] = "你可以使用下列的匯出字串來分享這個群組給其他群組。"
 L["You cannot use %s as part of this custom price."] = "你不能使用%s作為自定義價格的一部份。"
 --[[Translation missing --]]
 L["You cannot use %s within convert() as part of this custom price."] = "You cannot use %s within convert() as part of this custom price."
@@ -19807,7 +19797,7 @@ L["You won an auction for %sx%d for %s"] = "你贏得了 %s x %d 拍賣, 共 %s.
 L["Your auction has not been undercut."] = "此項商品是市場最低價格"
 --[[Translation missing --]]
 L["Your auction of %s expired"] = "Your auction of %s expired"
-L["Your auction of %s has sold for %s!"] = "你拍賣的 %s 已經售出共 %s !"
+L["Your auction of %s has sold for %s!"] = "你拍賣的 %s 以 %s 售出！"
 L["Your Buyout"] = "你的直購價"
 --[[Translation missing --]]
 L["Your craft value method for '%s' was invalid so it has been returned to the default. Details: %s"] = "Your craft value method for '%s' was invalid so it has been returned to the default. Details: %s"

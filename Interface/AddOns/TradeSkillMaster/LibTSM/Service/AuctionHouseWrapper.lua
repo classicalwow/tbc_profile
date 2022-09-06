@@ -48,7 +48,7 @@ local SILENT_EVENTS = {
 }
 local GENERIC_EVENTS = {
 	CHAT_MSG_SYSTEM = 1,
-	UI_ERROR_MESSAGE = 2,
+	UI_ERROR_MESSAGE = TSM.IsWowClassic() and 1 or 2,
 }
 local GENERIC_EVENT_SEP = "/"
 local DUMMY_BROWSE_QUERY = {

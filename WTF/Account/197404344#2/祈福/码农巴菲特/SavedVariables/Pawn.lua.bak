@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0602,
-	["LastPlayerFullName"] = "码农巴菲特-祈福",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 38661,
@@ -10,14 +8,14 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:38661::::::::59:::::::::|h[天灾勇士的巨盔]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 25993,
-			["Level"] = 87,
-			["Link"] = "|cff1eff00|Hitem:25993::::::::61:::::::::|h[精铸项圈]|h|r",
+			["ID"] = 31694,
+			["Level"] = 103,
+			["Link"] = "|cff0070dd|Hitem:31694::::::::70:::::::::|h[娜塔莎的捆扎绳]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 38663,
-			["Level"] = 70,
-			["Link"] = "|cff0070dd|Hitem:38663::::::::58:::::::::|h[浸血的萨隆邪铁肩铠]|h|r",
+			["ID"] = 31436,
+			["Level"] = 108,
+			["Link"] = "|cff1eff00|Hitem:31436::::::::69:::::::::|h[希尔瓦纳勇士护肩]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -41,26 +39,26 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:28069::::::::62:::::::::|h[金色塞纳里奥胫甲]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 38666,
-			["Level"] = 70,
-			["Link"] = "|cff0070dd|Hitem:38666::::::::56:::::::::|h[萨隆邪铁板甲护腕]|h|r",
+			["ID"] = 31421,
+			["Level"] = 102,
+			["Link"] = "|cff1eff00|Hitem:31421::::::::68:::::::::|h[哨兵臂甲]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 25478,
-			["Level"] = 93,
-			["Link"] = "|cff1eff00|Hitem:25478::::::::63:::::::::|h[防御者的护手]|h|r",
+			["ID"] = 31534,
+			["Level"] = 108,
+			["Link"] = "|cff1eff00|Hitem:31534::::::::69:::::::::|h[白色指节护手]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 25485,
-			["Level"] = 93,
+			["ID"] = 31527,
+			["Level"] = 108,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff1eff00|Hitem:25485::::::::63:::::::::|h[阿曼恩的徽记]|h|r",
+			["Link"] = "|cff1eff00|Hitem:31527::::::::69:::::::::|h[叶须指环]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 25485,
-			["Level"] = 93,
+			["ID"] = 31527,
+			["Level"] = 108,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff1eff00|Hitem:25485::::::::64:::::::::|h[阿曼恩的徽记]|h|r",
+			["Link"] = "|cff1eff00|Hitem:31527::::::::70:::::::::|h[叶须指环]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 28041,
@@ -91,6 +89,8 @@ PawnOptions = {
 			["Link"] = "|cffffffff|Hitem:39371::::::::57:::::::::|h[凯雷塞斯的说服者]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "码农巴菲特-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["_200000"] = 1000,
-	["_10000"] = 200,
-	["_1000000"] = 2500,
 	["_5000000"] = 10000,
-	["STARTING_DISCOUNT"] = 5,
+	["_200000"] = 1000,
+	["_1000000"] = 2500,
+	["_10000"] = 200,
 	["_500"] = 5,
 	["LOG_DE_DATA_X"] = true,
+	["STARTING_DISCOUNT"] = 5,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 }
@@ -45,15 +45,20 @@ AUCTIONATOR_TOONS = {
 		["guid"] = "Player-4778-04DCA2D4",
 		["firstVersion"] = "2.5.5-1-g17bf777",
 	},
+	["新特能源"] = {
+		["firstSeen"] = 1661658425,
+		["firstVersion"] = "2.5.5-1-g17bf777",
+		["guid"] = "Player-4778-04F3EDE6",
+	},
 	["码农巴菲特"] = {
 		["firstSeen"] = 1662142740,
 		["guid"] = "Player-4778-0505CE58",
 		["firstVersion"] = "2.5.5-1-g17bf777",
 	},
-	["新特能源"] = {
-		["firstSeen"] = 1661658425,
+	["沈南鹏"] = {
+		["firstSeen"] = 1662377987,
 		["firstVersion"] = "2.5.5-1-g17bf777",
-		["guid"] = "Player-4778-04F3EDE6",
+		["guid"] = "Player-4778-050B37B0",
 	},
 	["张坤"] = {
 		["firstSeen"] = 1662142600,

@@ -60,9 +60,6 @@ ArkInventory.Const = { -- constants
 				TBC = "TBC",
 				TBC_PTR = "TBC>PTR",
 				TBC_BETA = "TBC>PTR>BETA",
-				WRATH = "WRATH",
-				WRATH_PTR = "WRATH>PTR",
-				WRATH_BETA = "WRATH>PTR>BETA",
 			},
 		},
 		
@@ -1263,7 +1260,7 @@ end
 
 -- item_openable = right click to open
 --[[
-local z = "while in combat"
+local z = "protoform"
 ArkInventory.Output( "search=", z )
 for k, v in pairs (_G) do
 	if type( k ) == "string" and type( v ) == "string" then

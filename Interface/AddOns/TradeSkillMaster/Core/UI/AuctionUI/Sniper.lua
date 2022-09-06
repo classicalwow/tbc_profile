@@ -647,7 +647,7 @@ function private.FSMCreate()
 				end
 				context.progress = context.numConfirmed / context.numFound
 				context.progressText = L["Scan Paused"].." - "..progressText
-				if numCanAction == 0 or isPlayer or (not TSM.IsWowClassic() and numConfirming > 0) then
+				if numCanAction == 0 or isPlayer or numConfirming > 0 then
 					context.buttonsDisabled = true
 				else
 					if context.searchContext:IsBuyoutScan() then

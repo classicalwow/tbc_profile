@@ -2,6 +2,7 @@
 DataStore_InventoryDB = {
 	["profileKeys"] = {
 		["特变电工 - 祈福"] = "特变电工 - 祈福",
+		["沈南鹏 - 祈福"] = "沈南鹏 - 祈福",
 		["张坤 - 祈福"] = "张坤 - 祈福",
 		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
 		["新特能源 - 祈福"] = "新特能源 - 祈福",
@@ -25,6 +26,15 @@ DataStore_InventoryDB = {
 					"|cffffffff|Hitem:34658::::::::55:::::::::|h[]|h|r", -- [11]
 					"|cffffffff|Hitem:38147::::::::55:::::::::|h[]|h|r", -- [12]
 					[15] = "|cffffffff|Hitem:34659::::::::55:::::::::|h[]|h|r",
+				},
+			},
+			["Default.祈福.沈南鹏"] = {
+				["lastUpdate"] = 1662377990,
+				["Inventory"] = {
+					[8] = "|cffffffff|Hitem:43::::::::1:::::::::|h[]|h|r",
+					[16] = "|cffffffff|Hitem:2361::::::::1:::::::::|h[]|h|r",
+					[7] = "|cffffffff|Hitem:44::::::::1:::::::::|h[]|h|r",
+					[4] = "|cffffffff|Hitem:45::::::::1:::::::::|h[]|h|r",
 				},
 			},
 			["Default.祈福.新特能源"] = {
@@ -78,10 +88,10 @@ DataStore_InventoryDB = {
 					[7] = "|cffffffff|Hitem:1366::::::::3:::::::::|h[]|h|r",
 					[8] = "|cffffffff|Hitem:47::::::::3:::::::::|h[]|h|r",
 					[18] = "|cffffffff|Hitem:28979::::::::3:::::::::|h[]|h|r",
-					[16] = "|cffffffff|Hitem:2092::::::::3:::::::::|h[]|h|r",
-					[4] = "|cffffffff|Hitem:49::::::::3:::::::::|h[]|h|r",
 					[9] = "|cffffffff|Hitem:6070::::::::3:::::::::|h[]|h|r",
+					[4] = "|cffffffff|Hitem:49::::::::3:::::::::|h[]|h|r",
 					[5] = "|cffffffff|Hitem:1380::::::::3:::::::::|h[]|h|r",
+					[16] = "|cffffffff|Hitem:2092::::::::3:::::::::|h[]|h|r",
 				},
 			},
 			["Default.祈福.特变电工"] = {
