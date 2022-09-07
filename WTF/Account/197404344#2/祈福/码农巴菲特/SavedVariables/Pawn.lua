@@ -1,8 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0604,
-	["LastPlayerFullName"] = "码农巴菲特-祈福",
-	["AutoSelectScales"] = false,
+	["LastVersion"] = 2.0605,
 	["ItemLevels"] = {
 		{
 			["ID"] = 38661,
@@ -91,9 +89,11 @@ PawnOptions = {
 			["Link"] = "|cffffffff|Hitem:39371::::::::57:::::::::|h[凯雷塞斯的说服者]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "码农巴菲特-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
 	["LastClass"] = "DEATHKNIGHT",
-	["LastAdded"] = 2,
+	["LastAdded"] = 3,
 }

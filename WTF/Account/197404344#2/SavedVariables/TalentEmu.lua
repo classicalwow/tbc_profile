@@ -564,13 +564,13 @@ TalentEmuSV = {
 	["var"] = {
 		["Player-4778-04DBFC9E"] = "6cWCU:0kyn-qEqOCu0Q-G161",
 		["Player-4778-04F3EDE6"] = "!T3256121GS:::::3O3a8L5ZWADZB6Eo8=AcmJA8G3",
-		["Player-4778-0505CE58"] = "!T32-6111IAT8A26v1C1r:::ENt1GA",
+		["Player-4778-0505CE58"] = "!T32-6111IAT8A26v1C1r:::ENt1GA!G3211e+9:7IC:51u+-:EIC:41u+-:cgC:F1u+9:VIC:91u++!E320+^+5Q9:861:9+Cj7:861:9+Af7:861:9+^+cj7:861:9+xD6:861:9+lD6:861:9+Zq6:861:9+xe7:861:9+ig7:861:9+jG6:861:9+bg7:861:9+9q6:861:9+GQ9:861:9+zp6:861:9+3K6:1do:761:9+^+cY9:861:9+^",
 		["savedTalent"] = {
 		},
 		["Player-4778-0505CE04"] = "!T32-r0110",
 		["Player-4778-04F3E689"] = "110",
 		["Player-4501-04C9101E"] = "630",
-		["Player-4778-050B37B0"] = "!T324E011-::::0w6U11",
+		["Player-4778-050B37B0"] = "!T324I011=::::0QPh8HI!G32116++++++!E320+^+^+^+^+Dc:8I:9+Sl:8I:9+2G:8I:9+lg:8I:9+ji:1DC:7I:9+Bm:8I:9+cK:1TC:7I:9+^+^+^+^+rq:8I:9+wl:1XA:5t7:10w8vB:1I:9+^+^+^",
 	},
 	["_version"] = 220811,
 	["_GlobalAssign"] = {
