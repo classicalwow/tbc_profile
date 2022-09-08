@@ -6,7 +6,7 @@ Postal3DB = {
 				"Vscode|加丁|Alliance|3|ROGUE", -- [1]
 				"张坤|祈福|Alliance|55|DEATHKNIGHT", -- [2]
 				"新特能源|祈福|Alliance|70|PRIEST", -- [3]
-				"沈南鹏|祈福|Alliance|16|PALADIN", -- [4]
+				"沈南鹏|祈福|Alliance|23|PALADIN", -- [4]
 				"特变电工|祈福|Alliance|70|ROGUE", -- [5]
 				"码农巴菲特|祈福|Alliance|70|DEATHKNIGHT", -- [6]
 			},
@@ -32,7 +32,8 @@ Postal3DB = {
 		["沈南鹏 - 祈福"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"码农巴菲特|祈福|Alliance", -- [1]
+					"连你接他|祈福|Alliance", -- [1]
+					"码农巴菲特|祈福|Alliance", -- [2]
 				},
 			},
 		},

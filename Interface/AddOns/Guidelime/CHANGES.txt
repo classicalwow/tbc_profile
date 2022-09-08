@@ -1,10 +1,10 @@
-lightweight tag 0c7cae9678a027e09a218fc7fcb8a05786944df2 v2.038
+lightweight tag 9057c5657d81fc14615678c834deeee820b1a11e v2.039
 Author:	max-ri <51713394+max-ri@users.noreply.github.com>
-Date:	Wed Aug 31 16:54:31 2022 +0200
+Date:	Tue Sep 6 19:01:26 2022 +0200
 
-commit 0c7cae9678a027e09a218fc7fcb8a05786944df2
+commit 9057c5657d81fc14615678c834deeee820b1a11e
 Author: max-ri <51713394+max-ri@users.noreply.github.com>
-Date:   Wed Aug 31 16:54:31 2022 +0200
+Date:   Tue Sep 6 19:01:26 2022 +0200
 
-    v2.038(WOTLK)
+    v2.039(WOTLK)
 

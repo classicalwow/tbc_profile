@@ -52,6 +52,7 @@ RecountDB = {
 				},
 			},
 			["MainWindowVis"] = false,
+			["LastInstanceName"] = "死亡矿井",
 			["CurDataSet"] = "OverallData",
 		},
 		["张坤 - 祈福"] = {

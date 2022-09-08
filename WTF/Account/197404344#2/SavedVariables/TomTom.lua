@@ -95,15 +95,16 @@ TomTomWaypointsM = {
 			},
 		},
 		["沈南鹏 - 祈福"] = {
-			[1433] = {
-				["1433:32191625.876453:727212223.87657:TomTom 路径点"] = {
-					1433, -- [1]
-					0.03219162587645266, -- [2]
-					0.7272122238765704, -- [3]
+			[1429] = {
+				["1429:493822808.70607:586486218.7644:TomTom 路径点"] = {
+					1429, -- [1]
+					0.4938228087060651, -- [2]
+					0.5864862187643958, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["minimap"] = true,
+					["desc"] = "TomTom 路径点",
+					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "TomTom 路径点",
 					["from"] = "TomTom/wm",
@@ -123,6 +124,7 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
+					["minimap"] = true,
 					["world"] = true,
 				},
 			},

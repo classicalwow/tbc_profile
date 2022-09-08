@@ -30,6 +30,16 @@ AtlasLootClassicDB = {
 			},
 		},
 		["沈南鹏 - 祈福"] = {
+			["GUI"] = {
+				["selectedGameVersion"] = 1,
+				["selected"] = {
+					nil, -- [1]
+					"TheDeadmines", -- [2]
+					7, -- [3]
+					1, -- [4]
+					0, -- [5]
+				},
+			},
 		},
 		["码农巴菲特 - 祈福"] = {
 		},
