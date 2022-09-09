@@ -36,9 +36,10 @@ RecountDB = {
 		["沈南鹏 - 祈福"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -208.3331604003906,
-					["x"] = -898.3332214355469,
-					["w"] = 140.0000305175781,
+					["y"] = -268.2775573730469,
+					["x"] = -917.000244140625,
+					["w"] = 296.6665649414063,
+					["h"] = 199.4443817138672,
 				},
 			},
 			["Colors"] = {
@@ -51,9 +52,10 @@ RecountDB = {
 					},
 				},
 			},
-			["MainWindowVis"] = false,
-			["LastInstanceName"] = "死亡矿井",
+			["LastInstanceName"] = "暴风城监狱",
 			["CurDataSet"] = "OverallData",
+			["MainWindowWidth"] = 296.6665649414063,
+			["MainWindowHeight"] = 199.4443817138672,
 		},
 		["张坤 - 祈福"] = {
 			["MainWindow"] = {

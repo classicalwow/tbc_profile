@@ -35,7 +35,7 @@ AtlasLootClassicDB = {
 				["selected"] = {
 					nil, -- [1]
 					"TheDeadmines", -- [2]
-					7, -- [3]
+					nil, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},
@@ -45,13 +45,6 @@ AtlasLootClassicDB = {
 		},
 		["特工仓库 - 祈福"] = {
 			["GUI"] = {
-				["point"] = {
-					"RIGHT", -- [1]
-					nil, -- [2]
-					"RIGHT", -- [3]
-					-301.3339538574219, -- [4]
-					-61.66657638549805, -- [5]
-				},
 				["selectedGameVersion"] = 1,
 				["selected"] = {
 					"AtlasLootClassic_Crafting", -- [1]
@@ -59,6 +52,13 @@ AtlasLootClassicDB = {
 					11, -- [3]
 					1, -- [4]
 					0, -- [5]
+				},
+				["point"] = {
+					"RIGHT", -- [1]
+					nil, -- [2]
+					"RIGHT", -- [3]
+					-301.3339538574219, -- [4]
+					-61.66657638549805, -- [5]
 				},
 			},
 		},

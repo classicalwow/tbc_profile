@@ -1,6 +1,6 @@
 ## Title: Guidelime_TUGs
 ## Author: TUGs | The Unprofessional Gamer
-## Version: 3.38
+## Version: 3.39
 ## Interface: 30400
 ## Dependencies: Guidelime
 ## Notes: The Ultimate (Leveling) Guide
@@ -119,6 +119,7 @@ TUGs\Horde\70a1 Borean Tundra.lua
 TUGs\Horde\70a2 Borean Tundra.lua
 TUGs\Horde\70a3 Borean Tundra.lua
 TUGs\Horde\70a4 Borean Tundra.lua
+TUGs\Horde\70a Howling Fjord.lua
 TUGs\Horde\71a Borean Tundra.lua
 TUGs\Horde\71b Borean Tundra.lua
 TUGs\Horde\71c Borean Tundra.lua

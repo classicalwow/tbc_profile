@@ -14,7 +14,7 @@ Postal3DB = {
 				"Vscode|加丁|Alliance|3|ROGUE", -- [1]
 				"张坤|祈福|Alliance|55|DEATHKNIGHT", -- [2]
 				"新特能源|祈福|Alliance|70|PRIEST", -- [3]
-				"沈南鹏|祈福|Alliance|25|PALADIN", -- [4]
+				"沈南鹏|祈福|Alliance|28|PALADIN", -- [4]
 				"特变电工|祈福|Alliance|70|ROGUE", -- [5]
 				"码农巴菲特|祈福|Alliance|70|DEATHKNIGHT", -- [6]
 			},
