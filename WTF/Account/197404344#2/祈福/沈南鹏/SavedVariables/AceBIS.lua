@@ -1,5 +1,5 @@
 
 AceBISGears = {
-	["P1"] = true,
 	["SurvivalHunter"] = true,
+	["P1"] = true,
 }

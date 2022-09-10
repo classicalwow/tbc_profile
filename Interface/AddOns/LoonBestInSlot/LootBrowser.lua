@@ -64,7 +64,7 @@ function LBIS.BrowserWindow:CreateItemRow(specItem, specItemSource, point, rowFu
         l:SetEndPoint("BOTTOMRIGHT",-5, 0);
     end
     -- even if we are reusing, it may not be in the same order
-    f:SetSize(window.ScrollFrame:GetWidth(), 42);
+    f:SetSize(window.ScrollFrame:GetWidth(), 46);
     f:ClearAllPoints();
     f:SetPoint("TOPLEFT", window.Container, 0, point);
     
@@ -213,7 +213,7 @@ function createDropDowns(window)
         ['name']='slot',
         ['parent']=window,
         ['title']='Slot:',
-        ['items']= { LBIS.L["All"], LBIS.L["Head"], LBIS.L["Shoulder"], LBIS.L["Back"], LBIS.L["Chest"], LBIS.L["Wrist"], LBIS.L["Hands"], LBIS.L["Waist"], LBIS.L["Legs"], LBIS.L["Feet"], LBIS.L["Neck"], LBIS.L["Ring"], LBIS.L["Trinket"], LBIS.L["Main Hand"], LBIS.L["Off Hand"], LBIS.L["Two Hand"], LBIS.L["Shield"], LBIS.L["Ranged"], LBIS.L["Wand"], LBIS.L["Totem"], LBIS.L["Idol"], LBIS.L["Libram"], LBIS.L["Relic"]},        
+        ['items']= { LBIS.L["All"], LBIS.L["Head"], LBIS.L["Shoulder"], LBIS.L["Back"], LBIS.L["Chest"], LBIS.L["Wrist"], LBIS.L["Hands"], LBIS.L["Waist"], LBIS.L["Legs"], LBIS.L["Feet"], LBIS.L["Neck"], LBIS.L["Ring"], LBIS.L["Trinket"], LBIS.L["Main Hand"], LBIS.L["Off Hand"], LBIS.L["Two Hand"], LBIS.L["Shield"], LBIS.L["Ranged"], LBIS.L["Wand"], LBIS.L["Totem"], LBIS.L["Idol"], LBIS.L["Libram"], LBIS.L["Relic"] },        
         ['defaultVal']=LBISSettings.SelectedSlot,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LBISSettings.SelectedSlot = dropdown_val;
@@ -315,7 +315,7 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
     scrollframe:SetPoint("BOTTOMRIGHT", -25, 28);
 
     scrollbar:SetPoint("TOPLEFT", window, "TOPRIGHT", -22, -78);
-    scrollbar:SetPoint("BOTTOMLEFT", window, "BOTTOMRIGHT", 22, 42);
+    scrollbar:SetPoint("BOTTOMLEFT", window, "BOTTOMRIGHT", 22, 46);
     scrollbar:SetMinMaxValues(0,0);
     scrollbar:SetWidth(16);
     scrollbar:SetValue(0);

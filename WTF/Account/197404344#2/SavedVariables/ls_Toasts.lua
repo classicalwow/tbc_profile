@@ -5,13 +5,27 @@ LS_TOASTS_GLOBAL_CONFIG = {
 		["沈南鹏 - 祈福"] = "Default",
 		["张坤 - 祈福"] = "Default",
 		["码农巴菲特 - 祈福"] = "Default",
-		["Vscode - 加丁"] = "Default",
 		["新特能源 - 祈福"] = "Default",
+		["Vscode - 加丁"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["version"] = 1140201,
+			["version"] = 3040001,
 			["types"] = {
+				["loot_items"] = {
+					["enabled"] = true,
+					["dnd"] = false,
+					["sfx"] = true,
+					["anchor"] = 1,
+					["ilvl"] = true,
+					["quest"] = false,
+					["threshold"] = 1,
+				},
+				["achievement"] = {
+					["enabled"] = true,
+					["dnd"] = false,
+					["anchor"] = 1,
+				},
 				["loot_gold"] = {
 					["enabled"] = true,
 					["dnd"] = false,
@@ -20,14 +34,14 @@ LS_TOASTS_GLOBAL_CONFIG = {
 					["track_loss"] = false,
 					["threshold"] = 1,
 				},
-				["loot_items"] = {
+				["loot_currency"] = {
 					["enabled"] = true,
 					["dnd"] = false,
 					["sfx"] = true,
 					["anchor"] = 1,
-					["threshold"] = 1,
-					["quest"] = false,
-					["ilvl"] = true,
+					["track_loss"] = false,
+					["filters"] = {
+					},
 				},
 			},
 		},

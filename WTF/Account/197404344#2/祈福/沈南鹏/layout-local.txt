@@ -15,9 +15,9 @@ W: 297
 H: 199
 Frame: InterfaceOptionsFrame
 FrameLevel: 1
-Anchor: CENTER
-X: 249
-Y: -75
+Anchor: RIGHT
+X: -274
+Y: -104
 W: 858
 H: 660
 Frame: ColorPickerFrame
@@ -34,6 +34,13 @@ X: -69
 Y: 62
 W: 1023
 H: 631
+Frame: aux_frame
+FrameLevel: 1
+Anchor: BOTTOM
+X: 72
+Y: 161
+W: 768
+H: 447
 Frame: scanner_button
 FrameLevel: 200
 Anchor: BOTTOM
@@ -48,10 +55,3 @@ X: -315
 Y: 132
 W: 87
 H: 32
-Frame: aux_frame
-FrameLevel: 1
-Anchor: BOTTOM
-X: 72
-Y: 161
-W: 768
-H: 447

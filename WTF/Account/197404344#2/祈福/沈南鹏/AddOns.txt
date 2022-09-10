@@ -1,6 +1,6 @@
 DBM-Core: disabled
 ElvUI_OptionsUI: enabled
-ArkInventory: disabled
+ArkInventory: enabled
 !!!EaseAddonController: disabled
 AceBIS: enabled
 AddonProfiles: enabled
@@ -11,7 +11,7 @@ Altoholic_Grids: enabled
 Altoholic_Guild: enabled
 Altoholic_Search: enabled
 Altoholic_Summary: enabled
-ArkInventoryRules_Profession: disabled
+ArkInventoryRules_Profession: enabled
 ArkInventoryConfig: enabled
 ArkInventoryRules: enabled
 ArkInventoryRules_Example: enabled
