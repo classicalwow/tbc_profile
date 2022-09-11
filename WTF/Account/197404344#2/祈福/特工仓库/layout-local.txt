@@ -16,7 +16,7 @@ H: 600
 Frame: aux_frame
 FrameLevel: 1
 Anchor: LEFT
-X: 95
-Y: -98
+X: 45
+Y: -106
 W: 768
 H: 447

@@ -4,7 +4,7 @@ AtlasQuest_Options = {
 		["ShownSide"] = "Left",
 		["AtlasAutoShow"] = 1,
 	},
-	["Version"] = "4.13.01",
+	["Version"] = "4.13.02",
 	["新特能源"] = {
 		["ShownSide"] = "Left",
 		["AtlasAutoShow"] = 1,

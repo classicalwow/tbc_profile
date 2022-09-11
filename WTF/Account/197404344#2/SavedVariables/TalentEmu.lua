@@ -562,7 +562,7 @@ TalentEmuSV = {
 		["supreme"] = false,
 	},
 	["var"] = {
-		["Player-4778-050B37B0"] = "!T324U011C::::0QPh8=2ME4!G32116++++++!E320+^+^+K75:8U:9+5b1:6cG:10uH4I:1U:9+Dc:8U:9+dj:8U:9+3j1:8U:9+7T1:8U:9+ji:1E7:7U:9+3Y1:8U:9+cK:1TC:7U:9+P75:8U:9+ph:8U:9+^+^+M61:8U:9+Gi3:1XA:568:10sjSW:1U:9+^+^+^",
+		["Player-4778-050B37B0"] = "!T324m011G::::0QPh8Lu4e53bq6!G3211V+9:EOB:91u+-:a9C:=1u++9:BOB:A1u++!E320+^+mv1:8m:9+l78:8m:9+jK2:8m:9+Dc:8m:9+L78:8m:9+Gb2:8m:9+e78:8m:9+ZK2:8m:9+K01:8m:9+sK2:8m:9+Zd1:8m:9+ph:8m:9+^+^+h78:8m:9+Si3:1fd:5zC:10G668:1m:9+^+^+^",
 		["Player-4778-04F3EDE6"] = "!T3256121GS:::::3O3a8L5ZWADZB6Eo8=AcmJA8G3",
 		["Player-4501-04C9101E"] = "630",
 		["savedTalent"] = {
