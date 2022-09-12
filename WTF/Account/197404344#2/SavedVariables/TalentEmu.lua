@@ -562,7 +562,7 @@ TalentEmuSV = {
 		["supreme"] = false,
 	},
 	["var"] = {
-		["Player-4778-050B37B0"] = "!T324m011G::::0QPh8Lu4e53bq6!G3211V+9:EOB:91u+-:a9C:=1u++9:BOB:A1u++!E320+^+mv1:8m:9+l78:8m:9+jK2:8m:9+Dc:8m:9+L78:8m:9+Gb2:8m:9+e78:8m:9+ZK2:8m:9+K01:8m:9+sK2:8m:9+Zd1:8m:9+ph:8m:9+^+^+h78:8m:9+Si3:1fd:5zC:10G668:1m:9+^+^+^",
+		["Player-4778-050B37B0"] = "!T3243111L::UT9::0QPh8LLek53VLlA1!G3211e+9:DOB:01u+-:a9C:=1u+-:P9C:H1u+9:BOB:A1u++!E320+^+uC6:831:9+zI6:831:9+Bl6:831:9+Dc:831:9+cj7:1nQ:731:9+xD6:831:9+tH7:831:9+Zq6:831:9+LE6:831:9+6C6:831:9+M76:6^c:1M00HK:131:9+BC6:831:9+9q6:831:9+VE6:831:9+zp6:831:9+WG6:831:9+^+Vq6:831:9+^",
 		["Player-4778-04F3EDE6"] = "!T3256121GS:::::3O3a8L5ZWADZB6Eo8=AcmJA8G3",
 		["Player-4501-04C9101E"] = "630",
 		["savedTalent"] = {

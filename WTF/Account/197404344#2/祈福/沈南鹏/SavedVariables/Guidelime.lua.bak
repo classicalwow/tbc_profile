@@ -3,15 +3,42 @@ GuidelimeDataChar = {
 	["mainFrameHeight"] = 400,
 	["showUnavailableSteps"] = true,
 	["guideSkip"] = {
-		["Hakurai - by Shikushiku 51-53 Un'Goro Crater"] = {
-		},
-		["Hakurai：由Shikushiku製作，中文翻譯版 25-27 溼地"] = {
-		},
 		["TUGs The Ultimate (Leveling) Guides 9-11 Dun Morogh, Loch Modan"] = {
 			true, -- [1]
 			true, -- [2]
 			[31] = true,
 			[35] = true,
+		},
+		["Hakurai：由Shikushiku製作，中文翻譯版 33-36 荊棘谷"] = {
+		},
+		["TUGs The Ultimate (Leveling) Guides 1-9 Human TUGs Leveling Guide"] = {
+			true, -- [1]
+			true, -- [2]
+			[58] = true,
+			[89] = true,
+			[61] = true,
+			[34] = true,
+			[30] = true,
+			[80] = true,
+		},
+		["TUGs The Ultimate (Leveling) Guides 62-63 Zangarmarsh"] = {
+			true, -- [1]
+			true, -- [2]
+			[46] = true,
+			[77] = true,
+			[26] = true,
+			[81] = true,
+			[29] = true,
+			[82] = true,
+			[45] = true,
+			[47] = true,
+			[78] = true,
+			[7] = true,
+			[50] = true,
+			[56] = true,
+			[42] = true,
+			[12] = true,
+			[43] = true,
 		},
 		["Hakurai - by Shikushiku 55-56 Winterspring"] = {
 		},
@@ -60,26 +87,21 @@ GuidelimeDataChar = {
 			[23] = true,
 			[35] = true,
 		},
+		["Hakurai - by Shikushiku 51-53 Un'Goro Crater"] = {
+		},
+		["Hakurai：由Shikushiku製作，中文翻譯版 25-27 溼地"] = {
+		},
 		["Hakurai：由Shikushiku製作，中文翻譯版 1-12 艾爾文森林"] = {
-		},
-		["Hakurai：由Shikushiku製作，中文翻譯版 33-36 荊棘谷"] = {
-		},
-		["TUGs The Ultimate (Leveling) Guides 1-9 Human TUGs Leveling Guide"] = {
-			true, -- [1]
-			true, -- [2]
-			[58] = true,
-			[89] = true,
-			[61] = true,
-			[34] = true,
-			[30] = true,
-			[80] = true,
 		},
 	},
 	["completedSteps"] = {
+		[110] = true,
+		[126] = true,
+		[140] = true,
 	},
-	["arrowY"] = -260.0557556152344,
-	["arrowRelative"] = "LEFT",
-	["mainFrameX"] = 11.66722393035889,
+	["arrowY"] = 229.4999847412109,
+	["arrowRelative"] = "BOTTOM",
+	["mainFrameX"] = 0.0005587693303823471,
 	["mainFrameLocked"] = false,
 	["mainFrameWidth"] = 350,
 	["arrowLocked"] = false,
@@ -88,25 +110,26 @@ GuidelimeDataChar = {
 	["arrowAlpha"] = 0.8,
 	["arrowSize"] = 42,
 	["mainFrameAlpha"] = 0.5,
-	["currentGuide"] = "Hakurai - by Shikushiku 55-56 Winterspring",
+	["currentGuide"] = "TUGs The Ultimate (Leveling) Guides 62-63 Zangarmarsh",
+	["mainFrameY"] = -163.8891754150391,
+	["arrowX"] = 34.99974822998047,
 	["mainFrameFontSize"] = 14,
-	["arrowX"] = 9.00048828125,
-	["mainFrameY"] = 72.77726745605469,
 	["mainFrameShowScrollBar"] = true,
 	["showArrow"] = true,
+	["version"] = "2.038",
 	["editorFrameRelative"] = "CENTER",
+	["mainFrameShowing"] = true,
 	["guideSize"] = {
-		["Hakurai - by Shikushiku 51-53 Un'Goro Crater"] = 142,
-		["Hakurai：由Shikushiku製作，中文翻譯版 25-27 溼地"] = 130,
 		["TUGs The Ultimate (Leveling) Guides 9-11 Dun Morogh, Loch Modan"] = 51,
-		["Hakurai - by Shikushiku 55-56 Winterspring"] = 138,
-		["Hakurai：由Shikushiku製作，中文翻譯版 30-33 多地"] = 211,
-		["Hakurai：由Shikushiku製作，中文翻譯版 1-12 艾爾文森林"] = 231,
 		["Hakurai：由Shikushiku製作，中文翻譯版 33-36 荊棘谷"] = 209,
 		["TUGs The Ultimate (Leveling) Guides 1-9 Human TUGs Leveling Guide"] = 97,
+		["TUGs The Ultimate (Leveling) Guides 62-63 Zangarmarsh"] = 177,
+		["Hakurai - by Shikushiku 55-56 Winterspring"] = 138,
+		["Hakurai：由Shikushiku製作，中文翻譯版 30-33 多地"] = 211,
+		["Hakurai - by Shikushiku 51-53 Un'Goro Crater"] = 142,
+		["Hakurai：由Shikushiku製作，中文翻譯版 25-27 溼地"] = 130,
+		["Hakurai：由Shikushiku製作，中文翻譯版 1-12 艾爾文森林"] = 231,
 	},
-	["mainFrameShowing"] = false,
-	["version"] = "2.038",
 	["mainFrameRelative"] = "LEFT",
 	["editorFrameX"] = 0,
 }

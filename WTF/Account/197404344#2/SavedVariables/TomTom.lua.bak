@@ -15,8 +15,8 @@ TomTomDB = {
 					"BOTTOM", -- [1]
 					nil, -- [2]
 					"BOTTOM", -- [3]
-					7.777835845947266, -- [4]
-					227.88916015625, -- [5]
+					15.55559825897217, -- [4]
+					190.6666564941406, -- [5]
 				},
 			},
 			["block"] = {
@@ -125,6 +125,37 @@ TomTomWaypointsM = {
 						},
 					},
 					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+			[1946] = {
+				["1946:415892420.5379:272616136.91932:玛克图"] = {
+					1946, -- [1]
+					0.4158924205378973, -- [2]
+					0.2726161369193154, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "玛克图",
+					["from"] = "Questie",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
 					["world"] = true,
 				},
 			},

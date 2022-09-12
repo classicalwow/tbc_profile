@@ -1,5 +1,5 @@
-## v4.11.45 Changes
+## v4.11.47 Changes
 
-* [Classic] Fixed error while buying auctions
+* [Retail] Fixed error when opening JC
 
 [Known Issues](https://support.tradeskillmaster.com/en_US/known_issues)

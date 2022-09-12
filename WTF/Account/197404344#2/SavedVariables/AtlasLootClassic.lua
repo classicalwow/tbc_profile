@@ -1,14 +1,14 @@
 
 AtlasLootClassicDB = {
-	["global"] = {
-		["__addonrevision"] = 3000000,
-	},
 	["profileKeys"] = {
 		["特变电工 - 祈福"] = "特变电工 - 祈福",
 		["沈南鹏 - 祈福"] = "沈南鹏 - 祈福",
 		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
 		["特工仓库 - 祈福"] = "特工仓库 - 祈福",
 		["新特能源 - 祈福"] = "新特能源 - 祈福",
+	},
+	["global"] = {
+		["__addonrevision"] = 3000000,
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
@@ -31,12 +31,12 @@ AtlasLootClassicDB = {
 		},
 		["沈南鹏 - 祈福"] = {
 			["GUI"] = {
-				["selectedGameVersion"] = 1,
+				["selectedGameVersion"] = 2,
 				["selected"] = {
-					nil, -- [1]
-					"Zul'Farrak", -- [2]
-					7, -- [3]
-					1, -- [4]
+					"AtlasLootClassic_Factions", -- [1]
+					"HonorHold", -- [2]
+					2, -- [3]
+					2, -- [4]
 					0, -- [5]
 				},
 			},
