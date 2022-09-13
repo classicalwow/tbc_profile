@@ -9,6 +9,26 @@ GuidelimeDataChar = {
 			[31] = true,
 			[35] = true,
 		},
+		["TUGs The Ultimate (Leveling) Guides 67-68 Blade's Edge Mountains Part II"] = {
+			true, -- [1]
+			true, -- [2]
+			[20] = true,
+			[8] = true,
+			[22] = true,
+			[23] = true,
+			[28] = true,
+		},
+		["TUGs The Ultimate (Leveling) Guides 65-66 Nagrand Part II"] = {
+			true, -- [1]
+			true, -- [2]
+			[50] = true,
+			[68] = true,
+			[18] = true,
+			[12] = true,
+			[14] = true,
+			[90] = true,
+			[85] = true,
+		},
 		["Hakurai：由Shikushiku製作，中文翻譯版 33-36 荊棘谷"] = {
 		},
 		["TUGs The Ultimate (Leveling) Guides 1-9 Human TUGs Leveling Guide"] = {
@@ -31,23 +51,17 @@ GuidelimeDataChar = {
 			[45] = true,
 			[12] = true,
 			[47] = true,
-			[77] = true,
 			[46] = true,
+			[29] = true,
 			[50] = true,
 			[26] = true,
 			[169] = true,
 			[7] = true,
-			[29] = true,
+			[77] = true,
 			[150] = true,
 			[56] = true,
 			[81] = true,
 			[82] = true,
-		},
-		["TUGs The Ultimate (Leveling) Guides 64-65 Nagrand Part I"] = {
-			true, -- [1]
-			true, -- [2]
-			[6] = true,
-			[27] = true,
 		},
 		["Hakurai - by Shikushiku 55-56 Winterspring"] = {
 		},
@@ -96,11 +110,32 @@ GuidelimeDataChar = {
 			[90] = true,
 			[113] = true,
 		},
+		["TUGs The Ultimate (Leveling) Guides 66-67 Blade's Edge Mountains Part I"] = {
+			true, -- [1]
+			true, -- [2]
+			[103] = true,
+			[13] = true,
+			[14] = true,
+			[86] = true,
+			[62] = true,
+			[71] = true,
+			[129] = true,
+			[91] = true,
+			[125] = true,
+			[23] = true,
+			[45] = true,
+		},
 		["Hakurai：由Shikushiku製作，中文翻譯版 1-12 艾爾文森林"] = {
+		},
+		["Hakurai - by Shikushiku 51-53 Un'Goro Crater"] = {
 		},
 		["Hakurai：由Shikushiku製作，中文翻譯版 25-27 溼地"] = {
 		},
-		["Hakurai - by Shikushiku 51-53 Un'Goro Crater"] = {
+		["TUGs The Ultimate (Leveling) Guides 64-65 Nagrand Part I"] = {
+			true, -- [1]
+			true, -- [2]
+			[6] = true,
+			[27] = true,
 		},
 	},
 	["completedSteps"] = {
@@ -116,27 +151,30 @@ GuidelimeDataChar = {
 	["editorFrameX"] = 0,
 	["arrowSize"] = 42,
 	["mainFrameAlpha"] = 0.5,
-	["currentGuide"] = "TUGs The Ultimate (Leveling) Guides 64-65 Nagrand Part I",
+	["currentGuide"] = "TUGs The Ultimate (Leveling) Guides 67-68 Blade's Edge Mountains Part II",
 	["guideSize"] = {
 		["TUGs The Ultimate (Leveling) Guides 9-11 Dun Morogh, Loch Modan"] = 51,
+		["TUGs The Ultimate (Leveling) Guides 67-68 Blade's Edge Mountains Part II"] = 53,
+		["TUGs The Ultimate (Leveling) Guides 65-66 Nagrand Part II"] = 95,
 		["Hakurai：由Shikushiku製作，中文翻譯版 33-36 荊棘谷"] = 209,
 		["TUGs The Ultimate (Leveling) Guides 1-9 Human TUGs Leveling Guide"] = 97,
 		["TUGs The Ultimate (Leveling) Guides 62-63 Zangarmarsh"] = 177,
-		["TUGs The Ultimate (Leveling) Guides 64-65 Nagrand Part I"] = 45,
 		["Hakurai - by Shikushiku 55-56 Winterspring"] = 138,
 		["Hakurai：由Shikushiku製作，中文翻譯版 30-33 多地"] = 211,
+		["TUGs The Ultimate (Leveling) Guides 66-67 Blade's Edge Mountains Part I"] = 143,
 		["Hakurai：由Shikushiku製作，中文翻譯版 1-12 艾爾文森林"] = 231,
-		["Hakurai：由Shikushiku製作，中文翻譯版 25-27 溼地"] = 130,
 		["Hakurai - by Shikushiku 51-53 Un'Goro Crater"] = 142,
+		["Hakurai：由Shikushiku製作，中文翻譯版 25-27 溼地"] = 130,
+		["TUGs The Ultimate (Leveling) Guides 64-65 Nagrand Part I"] = 45,
 	},
 	["arrowX"] = 34.99974822998047,
-	["mainFrameY"] = -163.8891754150391,
-	["mainFrameShowing"] = true,
+	["mainFrameFontSize"] = 14,
+	["mainFrameShowing"] = false,
 	["editorFrameRelative"] = "CENTER",
 	["version"] = "2.038",
 	["showArrow"] = true,
 	["mainFrameShowScrollBar"] = true,
-	["mainFrameFontSize"] = 14,
+	["mainFrameY"] = -163.8891754150391,
 	["mainFrameRelative"] = "LEFT",
 	["arrowAlpha"] = 0.8,
 }

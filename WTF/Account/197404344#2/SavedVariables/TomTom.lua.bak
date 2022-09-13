@@ -4,6 +4,7 @@ TomTomDB = {
 		["特变电工 - 祈福"] = "Default",
 		["沈南鹏 - 祈福"] = "Default",
 		["张坤 - 祈福"] = "Default",
+		["查尔斯三世 - 祈福"] = "Default",
 		["码农巴菲特 - 祈福"] = "Default",
 		["Vscode - 加丁"] = "Default",
 		["新特能源 - 祈福"] = "Default",
@@ -15,8 +16,8 @@ TomTomDB = {
 					"BOTTOM", -- [1]
 					nil, -- [2]
 					"BOTTOM", -- [3]
-					15.55559825897217, -- [4]
-					190.6666564941406, -- [5]
+					21.11112213134766, -- [4]
+					231.7778015136719, -- [5]
 				},
 			},
 			["block"] = {
@@ -37,6 +38,7 @@ TomTomWaypointsM = {
 		["特变电工 - 祈福"] = "特变电工 - 祈福",
 		["沈南鹏 - 祈福"] = "沈南鹏 - 祈福",
 		["张坤 - 祈福"] = "张坤 - 祈福",
+		["查尔斯三世 - 祈福"] = "查尔斯三世 - 祈福",
 		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
 		["Vscode - 加丁"] = "Vscode - 加丁",
 		["新特能源 - 祈福"] = "新特能源 - 祈福",
@@ -110,57 +112,20 @@ TomTomWaypointsM = {
 					["from"] = "TomTom/wm",
 					["callbacks"] = {
 						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["minimap"] = true,
-					["world"] = true,
-				},
-			},
-			[1946] = {
-				["1946:415892420.5379:272616136.91932:玛克图"] = {
-					1946, -- [1]
-					0.4158924205378973, -- [2]
-					0.2726161369193154, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["minimap"] = true,
-					["cleardistance"] = 10,
-					["title"] = "玛克图",
-					["from"] = "Questie",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
 					["world"] = true,
 				},
 			},
 		},
 		["张坤 - 祈福"] = {
+		},
+		["查尔斯三世 - 祈福"] = {
 		},
 		["码农巴菲特 - 祈福"] = {
 		},

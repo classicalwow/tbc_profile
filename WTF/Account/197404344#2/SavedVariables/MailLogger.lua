@@ -24,11 +24,12 @@ MailLoggerDB = {
 		},
 		["LogDays"] = 90,
 		["AltList"] = {
+			["码农巴菲特"] = true,
 			["特变电工"] = true,
 			["Vscode"] = true,
 			["特工仓库"] = true,
 			["新特能源"] = true,
-			["码农巴菲特"] = true,
+			["查尔斯三世"] = true,
 			["沈南鹏"] = true,
 			["张坤"] = true,
 		},
@@ -5512,15 +5513,15 @@ MailLoggerDB = {
 					["ItemLink"] = "|cffffffff|Hitem:24449::::::::1:::::::::|h[成熟的孢子]|h|r",
 					["Name"] = "成熟的孢子",
 				},
-				[29] = {
-					["Number"] = 5,
-					["ItemLink"] = "|cffffffff|Hitem:22577::::::::1:::::::::|h[暗影微粒]|h|r",
-					["Name"] = "暗影微粒",
-				},
 				[57] = {
 					["Number"] = 33,
 					["ItemLink"] = "|cffffffff|Hitem:14047::::::::1:::::::::|h[符文布]|h|r",
 					["Name"] = "符文布",
+				},
+				[29] = {
+					["Number"] = 5,
+					["ItemLink"] = "|cffffffff|Hitem:22577::::::::1:::::::::|h[暗影微粒]|h|r",
+					["Name"] = "暗影微粒",
 				},
 			},
 		}, -- [228]
@@ -7624,5 +7625,375 @@ MailLoggerDB = {
 			["ReceiveItems"] = {
 			},
 		}, -- [320]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "沈南鹏",
+			["Date"] = "2022-09-12",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 118,
+					["ItemLink"] = "|cffffffff|Hitem:21877::::::::68:::::::::|h[灵纹布]|h|r",
+					["Name"] = "灵纹布",
+				}, -- [1]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "赞加沼泽",
+			["Time"] = "11:57:43",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [321]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "沈南鹏",
+			["Date"] = "2022-09-12",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 5,
+					["ItemLink"] = "|cffffffff|Hitem:23424::::::::68:::::::::|h[魔铁矿石]|h|r",
+					["Name"] = "魔铁矿石",
+				}, -- [1]
+				{
+					["Number"] = 2,
+					["ItemLink"] = "|cff1eff00|Hitem:21886::::::::68:::::::::|h[源生生命]|h|r",
+					["Name"] = "源生生命",
+				}, -- [2]
+				{
+					["Number"] = 5,
+					["ItemLink"] = "|cffffffff|Hitem:22578::::::::68:::::::::|h[水之微粒]|h|r",
+					["Name"] = "水之微粒",
+				}, -- [3]
+				{
+					["Number"] = 4,
+					["ItemLink"] = "|cffffffff|Hitem:22577::::::::68:::::::::|h[暗影微粒]|h|r",
+					["Name"] = "暗影微粒",
+				}, -- [4]
+				{
+					["Number"] = 15,
+					["ItemLink"] = "|cffffffff|Hitem:27676::::::::68:::::::::|h[奇怪的孢子]|h|r",
+					["Name"] = "奇怪的孢子",
+				}, -- [5]
+				{
+					["Number"] = 5,
+					["ItemLink"] = "|cffffffff|Hitem:29425::::::::68:::::::::|h[基尔加丹印记]|h|r",
+					["Name"] = "基尔加丹印记",
+				}, -- [6]
+				{
+					["Number"] = 3,
+					["ItemLink"] = "|cffffffff|Hitem:22572::::::::68:::::::::|h[空气微粒]|h|r",
+					["Name"] = "空气微粒",
+				}, -- [7]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "赞加沼泽",
+			["Time"] = "11:58:00",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [322]
+		{
+			["PlayerName"] = "沈南鹏",
+			["TargetName"] = "联盟拍卖行",
+			["Reason"] = 4,
+			["Date"] = "2022-09-12",
+			["ReceiveMoney"] = 0,
+			["Time"] = "12:56:41",
+			["GiveMoney"] = 0,
+			["Location"] = "暴风城",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 17,
+					["ItemLink"] = "|cffffffff|Hitem:22831::::::::68:::::::::|h[特效敏捷药剂]|h|r",
+					["Name"] = "特效敏捷药剂",
+				}, -- [1]
+			},
+		}, -- [323]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "沈南鹏",
+			["Date"] = "2022-09-12",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 69,
+					["ItemLink"] = "|cffffffff|Hitem:21877::::::::69:::::::::|h[灵纹布]|h|r",
+					["Name"] = "灵纹布",
+				}, -- [1]
+				[5] = {
+					["Number"] = 10,
+					["ItemLink"] = "|cffffffff|Hitem:22832::::::::69:::::::::|h[超级法力药水]|h|r",
+					["Name"] = "超级法力药水",
+				},
+				[6] = {
+					["Number"] = 3,
+					["ItemLink"] = "|cffffffff|Hitem:22573::::::::69:::::::::|h[土之微粒]|h|r",
+					["Name"] = "土之微粒",
+				},
+				[7] = {
+					["Number"] = 1,
+					["ItemLink"] = "|cff1eff00|Hitem:31952::::::::69:::::::::|h[氪金宝箱]|h|r",
+					["Name"] = "氪金宝箱",
+				},
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "刀锋山",
+			["Time"] = "13:33:23",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [324]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "沈南鹏",
+			["Date"] = "2022-09-12",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 70,
+					["ItemLink"] = "|cffffffff|Hitem:21877::::::::69:::::::::|h[灵纹布]|h|r",
+					["Name"] = "灵纹布",
+				}, -- [1]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "刀锋山",
+			["Time"] = "14:04:57",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [325]
+		{
+			["PlayerName"] = "沈南鹏",
+			["TargetName"] = "联盟拍卖行",
+			["Reason"] = 4,
+			["Date"] = "2022-09-12",
+			["ReceiveMoney"] = 0,
+			["Time"] = "15:34:50",
+			["GiveMoney"] = 0,
+			["Location"] = "暴风城",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 4,
+					["ItemLink"] = "|cff1eff00|Hitem:21841::::::::70:::::::::|h[灵纹布包]|h|r",
+					["Name"] = "灵纹布包",
+				}, -- [1]
+			},
+		}, -- [326]
+		{
+			["TargetName"] = "查尔斯三世",
+			["PlayerName"] = "沈南鹏",
+			["Date"] = "2022-09-12",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 4,
+					["ItemLink"] = "|cff1eff00|Hitem:21841::::::::70:::::::::|h[灵纹布包]|h|r",
+					["Name"] = "灵纹布包",
+				}, -- [1]
+			},
+			["GiveMoney"] = 20000000,
+			["Location"] = "暴风城",
+			["Time"] = "15:35:02",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [327]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "沈南鹏",
+			["Date"] = "2022-09-12",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 40,
+					["ItemLink"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[灵纹布]|h|r",
+					["Name"] = "灵纹布",
+				}, -- [1]
+			},
+			["GiveMoney"] = 5000000,
+			["Location"] = "暴风城",
+			["Time"] = "15:35:25",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [328]
+		{
+			["PlayerName"] = "查尔斯三世",
+			["TargetName"] = "沈南鹏",
+			["Reason"] = 1,
+			["Date"] = "2022-09-12",
+			["ReceiveMoney"] = 20000000,
+			["Time"] = "15:37:26",
+			["GiveMoney"] = 0,
+			["Location"] = "丹莫罗",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 4,
+					["ItemLink"] = "|cff1eff00|Hitem:21841::::::::6:::::::::|h[灵纹布包]|h|r",
+					["Name"] = "灵纹布包",
+				}, -- [1]
+			},
+		}, -- [329]
+		{
+			["TargetName"] = "查尔斯三世",
+			["PlayerName"] = "特工仓库",
+			["Date"] = "2022-09-12",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:38865::::::::1:::::::::|h[卷轴：附魔胸甲 - 强效属性]|h|r",
+					["Name"] = "卷轴：附魔胸甲 - 强效属性",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:38882::::::::1:::::::::|h[卷轴：附魔护腕 - 治疗能力]|h|r",
+					["Name"] = "卷轴：附魔护腕 - 治疗能力",
+				}, -- [2]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:38889::::::::1:::::::::|h[卷轴：附魔手套 - 治疗能量]|h|r",
+					["Name"] = "卷轴：附魔手套 - 治疗能量",
+				}, -- [3]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff0070dd|Hitem:38878::::::::1:::::::::|h[卷轴：附魔武器 - 治疗能量]|h|r",
+					["Name"] = "卷轴：附魔武器 - 治疗能量",
+				}, -- [4]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "铁炉堡",
+			["Time"] = "17:19:03",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [330]
+		{
+			["PlayerName"] = "查尔斯三世",
+			["TargetName"] = "特工仓库",
+			["Reason"] = 1,
+			["Date"] = "2022-09-12",
+			["ReceiveMoney"] = 0,
+			["Time"] = "17:19:34",
+			["GiveMoney"] = 0,
+			["Location"] = "丹莫罗",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff0070dd|Hitem:38878::::::::8:::::::::|h[卷轴：附魔武器 - 治疗能量]|h|r",
+					["Name"] = "卷轴：附魔武器 - 治疗能量",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:38889::::::::8:::::::::|h[卷轴：附魔手套 - 治疗能量]|h|r",
+					["Name"] = "卷轴：附魔手套 - 治疗能量",
+				}, -- [2]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:38882::::::::8:::::::::|h[卷轴：附魔护腕 - 治疗能力]|h|r",
+					["Name"] = "卷轴：附魔护腕 - 治疗能力",
+				}, -- [3]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:38865::::::::8:::::::::|h[卷轴：附魔胸甲 - 强效属性]|h|r",
+					["Name"] = "卷轴：附魔胸甲 - 强效属性",
+				}, -- [4]
+			},
+		}, -- [331]
+		{
+			["TargetName"] = "丶春哥大哥",
+			["PlayerName"] = "查尔斯三世",
+			["ReceiveMoney"] = 0,
+			["Time"] = "23:28:12",
+			["GiveMoney"] = 0,
+			["Location"] = "铁炉堡",
+			["GiveItems"] = {
+			},
+			["Date"] = "2022-09-12",
+			["ReceiveItems"] = {
+			},
+		}, -- [332]
+		{
+			["TargetName"] = "丶春哥大哥",
+			["PlayerName"] = "查尔斯三世",
+			["Date"] = "2022-09-12",
+			["ReceiveMoney"] = 0,
+			["Time"] = "23:28:12",
+			["GiveMoney"] = 50000,
+			["Location"] = "铁炉堡",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [333]
+		{
+			["PlayerName"] = "查尔斯三世",
+			["TargetName"] = "联盟拍卖行",
+			["Reason"] = 4,
+			["Date"] = "2022-09-12",
+			["ReceiveMoney"] = 0,
+			["Time"] = "23:38:59",
+			["GiveMoney"] = 0,
+			["Location"] = "铁炉堡",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:42741::::::::20:::::::::|h[冰霜新星雕文]|h|r",
+					["Name"] = "冰霜新星雕文",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:43364::::::::20:::::::::|h[缓落雕文]|h|r",
+					["Name"] = "缓落雕文",
+				}, -- [2]
+				{
+					["Number"] = 20,
+					["ItemLink"] = "|cffffffff|Hitem:33093::::::::20:::::::::|h[法力药水注射器]|h|r",
+					["Name"] = "法力药水注射器",
+				}, -- [3]
+				{
+					["Number"] = 5,
+					["ItemLink"] = "|cffffffff|Hitem:3385::::::::20:::::::::|h[次级法力药水]|h|r",
+					["Name"] = "次级法力药水",
+				}, -- [4]
+			},
+		}, -- [334]
+		{
+			["PlayerName"] = "查尔斯三世",
+			["TargetName"] = "联盟拍卖行",
+			["Reason"] = 1,
+			["Date"] = "2022-09-12",
+			["ReceiveMoney"] = 0,
+			["Time"] = "23:40:19",
+			["GiveMoney"] = 0,
+			["Location"] = "铁炉堡",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 20,
+					["ItemLink"] = "|cffffffff|Hitem:858::::::::20:::::::::|h[次级治疗药水]|h|r",
+					["Name"] = "次级治疗药水",
+				}, -- [1]
+			},
+		}, -- [335]
 	},
 }

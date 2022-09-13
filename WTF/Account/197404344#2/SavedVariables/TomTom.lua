@@ -4,6 +4,7 @@ TomTomDB = {
 		["特变电工 - 祈福"] = "Default",
 		["沈南鹏 - 祈福"] = "Default",
 		["张坤 - 祈福"] = "Default",
+		["查尔斯三世 - 祈福"] = "Default",
 		["码农巴菲特 - 祈福"] = "Default",
 		["新特能源 - 祈福"] = "Default",
 		["Vscode - 加丁"] = "Default",
@@ -15,8 +16,8 @@ TomTomDB = {
 					"BOTTOM", -- [1]
 					nil, -- [2]
 					"BOTTOM", -- [3]
-					15.55559825897217, -- [4]
-					190.6666564941406, -- [5]
+					21.11112213134766, -- [4]
+					231.7778015136719, -- [5]
 				},
 			},
 			["block"] = {
@@ -37,6 +38,7 @@ TomTomWaypointsM = {
 		["特变电工 - 祈福"] = "特变电工 - 祈福",
 		["沈南鹏 - 祈福"] = "沈南鹏 - 祈福",
 		["张坤 - 祈福"] = "张坤 - 祈福",
+		["查尔斯三世 - 祈福"] = "查尔斯三世 - 祈福",
 		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
 		["新特能源 - 祈福"] = "新特能源 - 祈福",
 		["Vscode - 加丁"] = "Vscode - 加丁",
@@ -110,6 +112,34 @@ TomTomWaypointsM = {
 					["from"] = "TomTom/wm",
 					["callbacks"] = {
 						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+		},
+		["张坤 - 祈福"] = {
+		},
+		["查尔斯三世 - 祈福"] = {
+			[1439] = {
+				["1439:395441464.6508:851849821.42805:TomTom 路径点"] = {
+					1439, -- [1]
+					0.395441464650802, -- [2]
+					0.8518498214280513, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "TomTom 路径点",
+					["from"] = "TomTom/wm",
+					["callbacks"] = {
+						["distance"] = {
 							[10] = nil --[[ skipped inline function ]],
 							[15] = nil --[[ skipped inline function ]],
 						},
@@ -124,12 +154,9 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
-					["minimap"] = true,
 					["world"] = true,
 				},
 			},
-		},
-		["张坤 - 祈福"] = {
 		},
 		["码农巴菲特 - 祈福"] = {
 		},

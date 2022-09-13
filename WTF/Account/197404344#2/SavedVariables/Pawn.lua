@@ -29,6 +29,9 @@ PawnCommon = {
 		},
 		["\"Classic\":MAGE3"] = {
 			["PerCharacterOptions"] = {
+				["查尔斯三世-祈福"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "3fc6ea",
 			["LocalizedName"] = "法师: 冰霜",
@@ -57,6 +60,9 @@ PawnCommon = {
 		},
 		["\"Classic\":MAGE1"] = {
 			["PerCharacterOptions"] = {
+				["查尔斯三世-祈福"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "3fc6ea",
 			["LocalizedName"] = "法师: 奥术",
@@ -71,6 +77,9 @@ PawnCommon = {
 		},
 		["\"Classic\":MAGE2"] = {
 			["PerCharacterOptions"] = {
+				["查尔斯三世-祈福"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "3fc6ea",
 			["LocalizedName"] = "法师: 火焰",

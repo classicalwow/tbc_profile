@@ -5,6 +5,9 @@ __DEJUNK_SAVED_VARIABLES__ = {
 		["version"] = 1,
 	},
 	["Profiles"] = {
+		["查尔斯三世-祈福"] = {
+			["version"] = 3,
+		},
 		["特变电工-祈福"] = {
 			["destroy"] = {
 				["autoOpen"] = {

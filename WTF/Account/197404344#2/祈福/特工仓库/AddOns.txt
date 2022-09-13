@@ -28,7 +28,7 @@ AtlasQuest: disabled
 Auctionator: disabled
 AutoCombatLogger: disabled
 AutoBarBCC: disabled
-aux-addon: disabled
+aux-addon: enabled
 BattlegroundSpiritReleaser: disabled
 BattleInfo: disabled
 BiSTracker: disabled
@@ -83,7 +83,7 @@ LoonBestInSlot: disabled
 LootMonitor: disabled
 LoseControl: disabled
 ls_Toasts: disabled
-MailLogger: disabled
+MailLogger: enabled
 Mapster: disabled
 MaxCam: disabled
 MRT: disabled
@@ -122,12 +122,12 @@ WIM: disabled
 WIM_ElvUI_Skin: disabled
 xanSoundAlerts: disabled
 CharacterStatsTBC: disabled
-TradeSkillMaster: disabled
+TradeSkillMaster: enabled
 Accountant_Classic: disabled
 AddOnSkins: disabled
-ElvUI_PVPDT: disabled
-ElvUI_OptionsUI: disabled
-ElvUI: disabled
+ElvUI_PVPDT: enabled
+ElvUI_OptionsUI: enabled
+ElvUI: enabled
 TalentEmu: disabled
 alaTalentEmu: disabled
 Altoholic: disabled
@@ -171,7 +171,7 @@ ElvUI_CustomTags: disabled
 kExtraBossFrames: disabled
 WideQuestLogLevels: disabled
 EZQuest: disabled
-AddonProfiles: disabled
+AddonProfiles: enabled
 GuideLime_TUGs_WOTLK: disabled
 DBM-ChamberOfAspects: disabled
 DBM-Ulduar: disabled

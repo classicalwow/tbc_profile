@@ -9,6 +9,10 @@ AtlasQuest_Options = {
 		["ShownSide"] = "Left",
 		["AtlasAutoShow"] = 1,
 	},
+	["查尔斯三世"] = {
+		["ShownSide"] = "Left",
+		["AtlasAutoShow"] = 1,
+	},
 	["沈南鹏"] = {
 		["ShownSide"] = "Left",
 		["AtlasAutoShow"] = 1,
