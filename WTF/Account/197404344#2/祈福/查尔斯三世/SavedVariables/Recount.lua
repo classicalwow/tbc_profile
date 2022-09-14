@@ -2,61 +2,937 @@
 RecountPerCharDB = {
 	["version"] = "1.3",
 	["combatants"] = {
+		["流星剑雨"] = {
+			["GUID"] = "Player-4778-051542EF",
+			["TimeLast"] = {
+				["DOT_Time"] = 1930.523,
+				["TimeDamage"] = 1930.523,
+				["ActiveTime"] = 1930.523,
+				["Healing"] = 1921.523,
+				["OVERALL"] = 1938.52,
+				["DamageTaken"] = 1938.52,
+				["Damage"] = 1930.523,
+			},
+			["LastAttackedBy"] = "萨巴克希斯",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+			},
+			["TimeWindows"] = {
+				["DOT_Time"] = {
+					3, -- [1]
+				},
+				["ActiveTime"] = {
+					5.54, -- [1]
+				},
+				["TimeDamage"] = {
+					5.54, -- [1]
+				},
+				["Healing"] = {
+					0, -- [1]
+				},
+				["DamageTaken"] = {
+					142, -- [1]
+				},
+				["Damage"] = {
+					134, -- [1]
+				},
+			},
+			["enClass"] = "HUNTER",
+			["unit"] = "流星剑雨",
+			["level"] = 14,
+			["LastDamageAbility"] = "暗言术：痛 (伤害/跳)",
+			["LastFightIn"] = 567,
+			["LastEventHealth"] = {
+				278, -- [1]
+				255, -- [2]
+				255, -- [3]
+				255, -- [4]
+				231, -- [5]
+				231, -- [6]
+				207, -- [7]
+				207, -- [8]
+				207, -- [9]
+				202, -- [10]
+				187, -- [11]
+			},
+			["type"] = "Ungrouped",
+			["FightsSaved"] = 5,
+			["LastDamageTaken"] = 23,
+			["LastEventHealthMax"] = {
+				278, -- [1]
+				278, -- [2]
+				278, -- [3]
+				278, -- [4]
+				278, -- [5]
+				278, -- [6]
+				278, -- [7]
+				278, -- [8]
+				278, -- [9]
+				278, -- [10]
+				278, -- [11]
+			},
+			["Owner"] = false,
+			["Pet"] = {
+				"熊 <流星剑雨>", -- [1]
+			},
+			["NextEventNum"] = 12,
+			["LastDamageTime"] = 1930.935,
+			["LastEvents"] = {
+				"萨巴克希斯 暗言术：痛 (伤害/跳) 流星剑雨 Tick -23 (Shadow)", -- [1]
+				"流星剑雨 奥术射击 萨巴克希斯 Hit -16 (Arcane)", -- [2]
+				"流星剑雨 自动射击 萨巴克希斯 Hit -38 (Physical)", -- [3]
+				"萨巴克希斯 暗言术：痛 (伤害/跳) 流星剑雨 Tick -24 (Shadow)", -- [4]
+				"流星剑雨 自动射击 萨巴克希斯 Hit -35 (Physical)", -- [5]
+				"萨巴克希斯 暗言术：痛 (伤害/跳) 流星剑雨 Tick -24 (Shadow)", -- [6]
+				"流星剑雨 自动射击 萨巴克希斯 Hit -34 (Physical)", -- [7]
+				"流星剑雨 毒蛇钉刺 (伤害/跳) 萨巴克希斯 Tick -11 (Nature)", -- [8]
+				"萨巴克希斯 暗言术：痛 (伤害/跳) 流星剑雨 Tick -24 (Shadow)", -- [9]
+				"萨巴克希斯 暗言术：痛 (伤害/跳) 流星剑雨 Tick -24 (Shadow)", -- [10]
+				"萨巴克希斯 暗言术：痛 (伤害/跳) 流星剑雨 Tick -23 (Shadow)", -- [11]
+			},
+			["Name"] = "流星剑雨",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				false, -- [2]
+				false, -- [3]
+				true, -- [4]
+				false, -- [5]
+				true, -- [6]
+				false, -- [7]
+				false, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+			},
+			["LastEventTimes"] = {
+				1923.891, -- [1]
+				1924.579, -- [2]
+				1925.318, -- [3]
+				1926.98, -- [4]
+				1928.086, -- [5]
+				1929.952, -- [6]
+				1930.639, -- [7]
+				1930.935, -- [8]
+				1932.905, -- [9]
+				1935.943, -- [10]
+				1938.913, -- [11]
+			},
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["ElementDoneBlock"] = {
+						["Arcane"] = 10,
+					},
+					["DOTs"] = {
+						["毒蛇钉刺 (伤害/跳)"] = {
+							["Details"] = {
+								["萨巴克希斯"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["DamageTaken"] = 142,
+					["PartialResist"] = {
+						["暗言术：痛 (伤害/跳)"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 6,
+						},
+					},
+					["PartialAbsorb"] = {
+						["暗言术：痛 (伤害/跳)"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 5.54,
+					["ElementTaken"] = {
+						["Shadow"] = 142,
+					},
+					["DOT_Time"] = 3,
+					["Damage"] = 134,
+					["Healing"] = 0,
+					["Attacks"] = {
+						["毒蛇钉刺 (伤害/跳)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 11,
+									["min"] = 11,
+									["count"] = 1,
+									["amount"] = 11,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 11,
+						},
+						["奥术射击"] = {
+							["Details"] = {
+								["Hit (被格挡)"] = {
+									["max"] = 16,
+									["min"] = 16,
+									["count"] = 1,
+									["amount"] = 16,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 16,
+						},
+						["自动射击"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 38,
+									["min"] = 34,
+									["count"] = 3,
+									["amount"] = 107,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 107,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Block"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DamagedWho"] = {
+						["萨巴克希斯"] = {
+							["Details"] = {
+								["毒蛇钉刺 (伤害/跳)"] = {
+									["count"] = 11,
+								},
+								["奥术射击"] = {
+									["count"] = 16,
+								},
+								["自动射击"] = {
+									["count"] = 107,
+								},
+							},
+							["amount"] = 134,
+						},
+					},
+					["TimeDamage"] = 5.54,
+					["WhoDamaged"] = {
+						["萨巴克希斯"] = {
+							["Details"] = {
+								["暗言术：痛 (伤害/跳)"] = {
+									["count"] = 142,
+								},
+							},
+							["amount"] = 142,
+						},
+					},
+					["ElementDone"] = {
+						["Physical"] = 107,
+						["Nature"] = 11,
+						["Arcane"] = 16,
+					},
+					["TimeDamaging"] = {
+						["萨巴克希斯"] = {
+							["Details"] = {
+								["毒蛇钉刺 (伤害/跳)"] = {
+									["count"] = 0.3,
+								},
+								["奥术射击"] = {
+									["count"] = 1.5,
+								},
+								["自动射击"] = {
+									["count"] = 3.74,
+								},
+							},
+							["amount"] = 5.54,
+						},
+					},
+					["TimeSpent"] = {
+						["萨巴克希斯"] = {
+							["Details"] = {
+								["毒蛇钉刺 (伤害/跳)"] = {
+									["count"] = 0.3,
+								},
+								["奥术射击"] = {
+									["count"] = 1.5,
+								},
+								["自动射击"] = {
+									["count"] = 3.74,
+								},
+							},
+							["amount"] = 5.54,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 1923.522,
+			["LastActive"] = 1938.52,
+		},
+		["迦顿男爵"] = {
+			["GUID"] = "Creature-0-4537-409-14129-12056-000020715C",
+			["TimeLast"] = {
+				["ActiveTime"] = 707.549,
+				["TimeDamage"] = 707.549,
+				["OVERALL"] = 707.549,
+				["DOT_Time"] = 707.549,
+				["Damage"] = 707.549,
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+			},
+			["TimeWindows"] = {
+				["Damage"] = {
+					188, -- [1]
+				},
+				["TimeDamage"] = {
+					9, -- [1]
+				},
+				["DOT_Time"] = {
+					18, -- [1]
+				},
+				["ActiveTime"] = {
+					9, -- [1]
+				},
+			},
+			["enClass"] = "MOB",
+			["level"] = -1,
+			["LastFightIn"] = 556,
+			["type"] = "Boss",
+			["FightsSaved"] = 5,
+			["Owner"] = false,
+			["NextEventNum"] = 7,
+			["LastDamageTime"] = 708.3820000000001,
+			["LastEvents"] = {
+				"迦顿男爵 点燃法力 (伤害/跳) 晨曦微暖 Tick -42 (Fire)", -- [1]
+				"迦顿男爵 点燃法力 (伤害/跳) 晨曦微暖 Tick -20 (Fire)", -- [2]
+				"迦顿男爵 点燃法力 (伤害/跳) 晨曦微暖 Tick -43 (Fire)", -- [3]
+				"迦顿男爵 点燃法力 (伤害/跳) 晨曦微暖 Tick -20 (Fire)", -- [4]
+				"迦顿男爵 点燃法力 (伤害/跳) 晨曦微暖 Tick -42 (Fire)", -- [5]
+				"迦顿男爵 点燃法力 (伤害/跳) 晨曦微暖 Tick -21 (Fire)", -- [6]
+			},
+			["Name"] = "迦顿男爵",
+			["LastEventTimes"] = {
+				693.303, -- [1]
+				696.35, -- [2]
+				699.374, -- [3]
+				702.34, -- [4]
+				705.4540000000001, -- [5]
+				708.3820000000001, -- [6]
+			},
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+			},
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["DOTs"] = {
+						["点燃法力 (伤害/跳)"] = {
+							["Details"] = {
+								["晨曦微暖"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+					},
+					["TimeSpent"] = {
+						["晨曦微暖"] = {
+							["Details"] = {
+								["点燃法力 (伤害/跳)"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["Attacks"] = {
+						["点燃法力 (伤害/跳)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 43,
+									["min"] = 20,
+									["count"] = 6,
+									["amount"] = 188,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 188,
+						},
+					},
+					["ElementDone"] = {
+						["Fire"] = 188,
+					},
+					["DamagedWho"] = {
+						["晨曦微暖"] = {
+							["Details"] = {
+								["点燃法力 (伤害/跳)"] = {
+									["count"] = 188,
+								},
+							},
+							["amount"] = 188,
+						},
+					},
+					["ActiveTime"] = 9,
+					["TimeDamaging"] = {
+						["晨曦微暖"] = {
+							["Details"] = {
+								["点燃法力 (伤害/跳)"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["TimeDamage"] = 9,
+					["DOT_Time"] = 18,
+					["Damage"] = 188,
+				},
+			},
+			["UnitLockout"] = 707.549,
+			["LastActive"] = 707.549,
+		},
 		["查尔斯三世"] = {
 			["GUID"] = "Player-4778-0516167D",
 			["LastEventHealth"] = {
-				220, -- [1]
-				220, -- [2]
-				392, -- [3]
-				367, -- [4]
-				367, -- [5]
-				367, -- [6]
-				392, -- [7]
-				392, -- [8]
-				371, -- [9]
-				371, -- [10]
-				371, -- [11]
-				371, -- [12]
-				371, -- [13]
-				371, -- [14]
-				371, -- [15]
-				371, -- [16]
-				347, -- [17]
-				347, -- [18]
-				347, -- [19]
-				347, -- [20]
-				320, -- [21]
-				320, -- [22]
-				320, -- [23]
-				320, -- [24]
-				392, -- [25]
-				392, -- [26]
-				392, -- [27]
-				392, -- [28]
-				392, -- [29]
-				392, -- [30]
-				392, -- [31]
-				392, -- [32]
-				392, -- [33]
-				370, -- [34]
-				370, -- [35]
-				283, -- [36]
-				283, -- [37]
-				182, -- [38]
-				182, -- [39]
-				94, -- [40]
-				179, -- [41]
-				392, -- [42]
-				392, -- [43]
-				382, -- [44]
-				397, -- [45]
-				277, -- [46]
-				277, -- [47]
-				250, -- [48]
-				250, -- [49]
-				250, -- [50]
+				174, -- [1]
+				174, -- [2]
+				412, -- [3]
+				412, -- [4]
+				412, -- [5]
+				412, -- [6]
+				412, -- [7]
+				412, -- [8]
+				412, -- [9]
+				412, -- [10]
+				412, -- [11]
+				412, -- [12]
+				412, -- [13]
+				400, -- [14]
+				400, -- [15]
+				412, -- [16]
+				412, -- [17]
+				412, -- [18]
+				412, -- [19]
+				412, -- [20]
+				412, -- [21]
+				412, -- [22]
+				412, -- [23]
+				412, -- [24]
+				412, -- [25]
+				412, -- [26]
+				412, -- [27]
+				380, -- [28]
+				381, -- [29]
+				381, -- [30]
+				381, -- [31]
+				363, -- [32]
+				363, -- [33]
+				363, -- [34]
+				392, -- [35]
+				375, -- [36]
+				375, -- [37]
+				341, -- [38]
+				302, -- [39]
+				412, -- [40]
+				412, -- [41]
+				412, -- [42]
+				379, -- [43]
+				291, -- [44]
+				257, -- [45]
+				257, -- [46]
+				257, -- [47]
+				257, -- [48]
+				174, -- [49]
+				174, -- [50]
 			},
-			["LastAttackedBy"] = "Environment",
+			["LastAttackedBy"] = "暗滩祭司",
 			["LastEventType"] = {
 				"DAMAGE", -- [1]
 				"DAMAGE", -- [2]
@@ -85,19 +961,19 @@ RecountPerCharDB = {
 				"DAMAGE", -- [25]
 				"DAMAGE", -- [26]
 				"DAMAGE", -- [27]
-				"DAMAGE", -- [28]
+				"HEAL", -- [28]
 				"DAMAGE", -- [29]
 				"DAMAGE", -- [30]
 				"DAMAGE", -- [31]
 				"DAMAGE", -- [32]
 				"DAMAGE", -- [33]
-				"DAMAGE", -- [34]
+				"HEAL", -- [34]
 				"DAMAGE", -- [35]
 				"DAMAGE", -- [36]
 				"DAMAGE", -- [37]
 				"DAMAGE", -- [38]
 				"DAMAGE", -- [39]
-				"HEAL", -- [40]
+				"DAMAGE", -- [40]
 				"DAMAGE", -- [41]
 				"DAMAGE", -- [42]
 				"DAMAGE", -- [43]
@@ -111,43 +987,7201 @@ RecountPerCharDB = {
 			},
 			["TimeWindows"] = {
 				["TimeHeal"] = {
-					3, -- [1]
+					25, -- [1]
 				},
 				["Healing"] = {
-					158, -- [1]
+					322, -- [1]
 				},
 				["DamageTaken"] = {
-					15664, -- [1]
+					18409, -- [1]
+				},
+				["Absorbs"] = {
+					504, -- [1]
 				},
 				["DeathCount"] = {
 					4, -- [1]
 				},
+				["ActiveTime"] = {
+					3939.549999999998, -- [1]
+				},
 				["TimeDamage"] = {
-					3659.579999999997, -- [1]
+					3914.549999999998, -- [1]
 				},
 				["HealingTaken"] = {
-					158, -- [1]
+					1050, -- [1]
 				},
-				["ActiveTime"] = {
-					3662.579999999997, -- [1]
+				["ManaGain"] = {
+					350, -- [1]
 				},
 				["DOT_Time"] = {
 					1154, -- [1]
 				},
 				["Damage"] = {
-					143381, -- [1]
+					163645, -- [1]
 				},
 			},
 			["enClass"] = "MAGE",
-			["unit"] = "查尔斯三世",
-			["LastHealTime"] = 47957.651,
-			["LastAbility"] = 42257.753,
+			["unit"] = true,
+			["LastActive"] = 11707.526,
+			["LastEventHealthMax"] = {
+				412, -- [1]
+				412, -- [2]
+				412, -- [3]
+				412, -- [4]
+				412, -- [5]
+				412, -- [6]
+				412, -- [7]
+				412, -- [8]
+				412, -- [9]
+				412, -- [10]
+				412, -- [11]
+				412, -- [12]
+				412, -- [13]
+				412, -- [14]
+				412, -- [15]
+				412, -- [16]
+				412, -- [17]
+				412, -- [18]
+				412, -- [19]
+				412, -- [20]
+				412, -- [21]
+				412, -- [22]
+				412, -- [23]
+				412, -- [24]
+				412, -- [25]
+				412, -- [26]
+				412, -- [27]
+				412, -- [28]
+				412, -- [29]
+				412, -- [30]
+				412, -- [31]
+				412, -- [32]
+				412, -- [33]
+				412, -- [34]
+				412, -- [35]
+				412, -- [36]
+				412, -- [37]
+				412, -- [38]
+				412, -- [39]
+				412, -- [40]
+				412, -- [41]
+				412, -- [42]
+				412, -- [43]
+				412, -- [44]
+				412, -- [45]
+				412, -- [46]
+				412, -- [47]
+				412, -- [48]
+				412, -- [49]
+				412, -- [50]
+			},
 			["level"] = 1,
-			["LastDamageAbility"] = "Fire",
-			["LastFightIn"] = 556,
-			["UnitLockout"] = 18315.966,
-			["type"] = "Self",
+			["LastDamageAbility"] = "腐蚀术 (伤害/跳)",
+			["LastFightIn"] = 727,
+			["TimeLast"] = {
+				["TimeHeal"] = 5171.525000000001,
+				["OVERALL"] = 5260.523,
+				["DamageTaken"] = 5171.525000000001,
+				["TimeDamage"] = 5260.523,
+				["Absorbs"] = 5171.525000000001,
+				["DeathCount"] = 46565.002,
+				["HealingTaken"] = 5171.525000000001,
+				["ActiveTime"] = 5260.523,
+				["Healing"] = 4839.522,
+				["ManaGain"] = 1628.526,
+				["DOT_Time"] = 47948.011,
+				["Damage"] = 5260.523,
+			},
+			["type"] = "Ungrouped",
 			["FightsSaved"] = 5,
+			["LastEventTimes"] = {
+				5133.603, -- [1]
+				5136.208000000001, -- [2]
+				5157.228, -- [3]
+				5159.34, -- [4]
+				5160.249, -- [5]
+				5161.451, -- [6]
+				5163.178, -- [7]
+				5166.248000000001, -- [8]
+				5169.238, -- [9]
+				5170.195, -- [10]
+				5172.101, -- [11]
+				5172.252, -- [12]
+				5172.252, -- [13]
+				5174.004, -- [14]
+				5175.769, -- [15]
+				5185.871, -- [16]
+				5187.894, -- [17]
+				5189.791, -- [18]
+				5191.566, -- [19]
+				5198.357, -- [20]
+				5200.787, -- [21]
+				5202.612, -- [22]
+				5204.474, -- [23]
+				5253.654, -- [24]
+				5255.817, -- [25]
+				5257.756, -- [26]
+				5260.74, -- [27]
+				4856.848, -- [28]
+				4857.650000000001, -- [29]
+				4857.650000000001, -- [30]
+				4858.748000000001, -- [31]
+				4859.155, -- [32]
+				4859.155, -- [33]
+				4859.916, -- [34]
+				4862.26, -- [35]
+				4863.692, -- [36]
+				4866.296, -- [37]
+				4868.203, -- [38]
+				4869.096000000001, -- [39]
+				5118.921, -- [40]
+				5120.739000000001, -- [41]
+				5122.416, -- [42]
+				5123.785, -- [43]
+				5124.613, -- [44]
+				5124.717000000001, -- [45]
+				5124.717000000001, -- [46]
+				5126.678, -- [47]
+				5126.678, -- [48]
+				5126.823, -- [49]
+				5132.301, -- [50]
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				true, -- [5]
+				false, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				false, -- [10]
+				false, -- [11]
+				true, -- [12]
+				true, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				false, -- [25]
+				false, -- [26]
+				false, -- [27]
+				true, -- [28]
+				false, -- [29]
+				false, -- [30]
+				true, -- [31]
+				false, -- [32]
+				false, -- [33]
+				true, -- [34]
+				true, -- [35]
+				false, -- [36]
+				true, -- [37]
+				true, -- [38]
+				false, -- [39]
+				false, -- [40]
+				false, -- [41]
+				true, -- [42]
+				true, -- [43]
+				true, -- [44]
+				false, -- [45]
+				false, -- [46]
+				true, -- [47]
+				true, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["Owner"] = false,
+			["Fights"] = {
+				["Fight5"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["DOTs"] = {
+						["火球术 (伤害/跳)"] = {
+							["Details"] = {
+								["雪怪"] = {
+									["count"] = 18,
+								},
+								["黑木图腾师"] = {
+									["count"] = 6,
+								},
+								["坑道鼠征粮官"] = {
+									["count"] = 4,
+								},
+								["碎石怪击颅者"] = {
+									["count"] = 60,
+								},
+								["被诅咒的贵族"] = {
+									["count"] = 18,
+								},
+								["冬狼"] = {
+									["count"] = 10,
+								},
+								["黑木探路者"] = {
+									["count"] = 16,
+								},
+								["霜鬃暗法师"] = {
+									["count"] = 2,
+								},
+								["莫克迪普"] = {
+									["count"] = 14,
+								},
+								["坑道鼠歹徒"] = {
+									["count"] = 8,
+								},
+								["灰斑蓟熊"] = {
+									["count"] = 26,
+								},
+								["霜鬃雪行者"] = {
+									["count"] = 8,
+								},
+								["坑道鼠狗头人"] = {
+									["count"] = 4,
+								},
+								["暗礁蟹"] = {
+									["count"] = 30,
+								},
+								["小潮行蟹"] = {
+									["count"] = 16,
+								},
+								["霜鬃剥皮者"] = {
+									["count"] = 6,
+								},
+								["老年深海蛇颈龙"] = {
+									["count"] = 4,
+								},
+								["石腭断骨者"] = {
+									["count"] = 18,
+								},
+								["石腭击颅者"] = {
+									["count"] = 24,
+								},
+								["石腭穴居人"] = {
+									["count"] = 4,
+								},
+								["坑道鼠掘地工"] = {
+									["count"] = 18,
+								},
+								["麻疯侏儒"] = {
+									["count"] = 28,
+								},
+								["黑海岸蛇颈龙"] = {
+									["count"] = 22,
+								},
+								["小型峭壁野猪"] = {
+									["count"] = 6,
+								},
+								["石腭袭击者"] = {
+									["count"] = 2,
+								},
+								["灰雾智者"] = {
+									["count"] = 22,
+								},
+								["霜鬃先知"] = {
+									["count"] = 2,
+								},
+								["雪狼"] = {
+									["count"] = 2,
+								},
+								["灰雾滩行者"] = {
+									["count"] = 18,
+								},
+								["灰雾潮行者"] = {
+									["count"] = 18,
+								},
+								["峭壁野猪"] = {
+									["count"] = 24,
+								},
+								["蓬毛幼狼"] = {
+									["count"] = 2,
+								},
+								["碎石怪先知"] = {
+									["count"] = 32,
+								},
+								["老黑熊"] = {
+									["count"] = 18,
+								},
+								["黑熊幼崽"] = {
+									["count"] = 2,
+								},
+								["山猪"] = {
+									["count"] = 12,
+								},
+								["霜鬃猎头者"] = {
+									["count"] = 20,
+								},
+								["硬壳潮行蟹"] = {
+									["count"] = 12,
+								},
+								["黑幕追踪者"] = {
+									["count"] = 4,
+								},
+								["暮光信徒"] = {
+									["count"] = 12,
+								},
+								["哀嚎的贵族"] = {
+									["count"] = 4,
+								},
+								["冰须"] = {
+									["count"] = 6,
+								},
+								["砂石地占师"] = {
+									["count"] = 14,
+								},
+								["霜鬃巨魔"] = {
+									["count"] = 6,
+								},
+								["砂石斥候"] = {
+									["count"] = 12,
+								},
+								["霜鬃巨魔幼崽"] = {
+									["count"] = 16,
+								},
+								["碎石怪斥候"] = {
+									["count"] = 42,
+								},
+								["癞爪"] = {
+									["count"] = 4,
+								},
+								["戴瑟雷萨特"] = {
+									["count"] = 2,
+								},
+								["坑道鼠地卜师"] = {
+									["count"] = 4,
+								},
+								["冰爪熊"] = {
+									["count"] = 26,
+								},
+								["黑木风语者"] = {
+									["count"] = 4,
+								},
+								["雪怪幼崽"] = {
+									["count"] = 6,
+								},
+								["碎石穴居人"] = {
+									["count"] = 38,
+								},
+								["大峭壁野猪"] = {
+									["count"] = 10,
+								},
+								["恶灵劣魔"] = {
+									["count"] = 22,
+								},
+								["冷酷的格瑞克尼尔"] = {
+									["count"] = 2,
+								},
+								["老峭壁野猪"] = {
+									["count"] = 6,
+								},
+								["月夜猛虎"] = {
+									["count"] = 20,
+								},
+								["雷鳞御浪者"] = {
+									["count"] = 12,
+								},
+								["野生劣魔"] = {
+									["count"] = 24,
+								},
+								["坑道鼠斥候"] = {
+									["count"] = 4,
+								},
+								["挣扎的贵族"] = {
+									["count"] = 26,
+								},
+								["狂暴的月夜枭兽"] = {
+									["count"] = 12,
+								},
+								["森林潜伏者"] = {
+									["count"] = 18,
+								},
+								["壮实的石腭穴居人"] = {
+									["count"] = 2,
+								},
+								["灰雾战士"] = {
+									["count"] = 16,
+								},
+								["石巨兽"] = {
+									["count"] = 16,
+								},
+								["灰雾撒网者"] = {
+									["count"] = 2,
+								},
+								["灰雾先知"] = {
+									["count"] = 6,
+								},
+								["灰雾猎人"] = {
+									["count"] = 16,
+								},
+								["破损的傀儡"] = {
+									["count"] = 8,
+								},
+								["雪豹"] = {
+									["count"] = 22,
+								},
+								["暗滩狂热者"] = {
+									["count"] = 36,
+								},
+								["雷鳞海妖"] = {
+									["count"] = 26,
+								},
+								["狂暴蓟熊"] = {
+									["count"] = 58,
+								},
+								["暮光暴徒"] = {
+									["count"] = 26,
+								},
+								["暗滩精兵"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 1154,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 241,
+						["Fire"] = 10,
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 1,
+								},
+								["Absorb"] = {
+									["count"] = 7,
+								},
+								["Hit"] = {
+									["count"] = 9,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 19,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 9,
+								},
+								["Hit"] = {
+									["count"] = 524,
+								},
+								["Dodge"] = {
+									["count"] = 13,
+								},
+								["Crit"] = {
+									["count"] = 30,
+								},
+								["Miss"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 604,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 95,
+								},
+							},
+							["amount"] = 101,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+								},
+								["Miss"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 41,
+								},
+							},
+							["amount"] = 47,
+						},
+					},
+					["HealedWho"] = {
+						["查尔斯三世"] = {
+							["Details"] = {
+								["法力护盾"] = {
+									["count"] = 504,
+								},
+								["治疗药水"] = {
+									["count"] = 322,
+								},
+							},
+							["amount"] = 826,
+						},
+					},
+					["Absorbs"] = 504,
+					["DeathCount"] = 4,
+					["ElementTaken"] = {
+						["Shadow"] = 931,
+						["Melee"] = 11696,
+						["Holy"] = 358,
+						["Frost"] = 10,
+						["Fire"] = 711,
+						["Physical"] = 2928,
+						["Nature"] = 1775,
+					},
+					["DOT_Time"] = 1154,
+					["Damage"] = 163645,
+					["TimeHeal"] = 25,
+					["ShieldedWho"] = {
+						["查尔斯三世"] = {
+							["Details"] = {
+								["法力护盾"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementDone"] = {
+						["Shadow"] = 2972,
+						["Melee"] = 62,
+						["Arcane"] = 2019,
+						["Fire"] = 138575,
+						["Frost"] = 19999,
+						["Nature"] = 18,
+					},
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 336,
+								},
+								["Crit"] = {
+									["count"] = 8,
+								},
+								["Miss"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 370,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 10,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 20,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 40,
+								},
+							},
+							["amount"] = 45,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 10,
+								},
+								["Hit"] = {
+									["count"] = 206,
+								},
+							},
+							["amount"] = 216,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 54,
+								},
+								["Tick"] = {
+									["count"] = 577,
+								},
+								["Hit"] = {
+									["count"] = 1861,
+								},
+								["Crit"] = {
+									["count"] = 114,
+								},
+								["Evade"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2608,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 43,
+								},
+							},
+							["amount"] = 43,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["WhoDamaged"] = {
+						["雪怪"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 80,
+								},
+							},
+							["amount"] = 80,
+						},
+						["黑木战士"] = {
+							["Details"] = {
+								["雷霆一击"] = {
+									["count"] = 209,
+								},
+								["肉搏"] = {
+									["count"] = 541,
+								},
+							},
+							["amount"] = 750,
+						},
+						["黑木图腾师"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 435,
+								},
+							},
+							["amount"] = 435,
+						},
+						["月夜枭兽"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 165,
+								},
+							},
+							["amount"] = 165,
+						},
+						["山猪"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 141,
+								},
+							},
+							["amount"] = 141,
+						},
+						["被诅咒的贵族"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 61,
+								},
+							},
+							["amount"] = 61,
+						},
+						["冬狼"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 102,
+								},
+							},
+							["amount"] = 102,
+						},
+						["黑木探路者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 101,
+								},
+							},
+							["amount"] = 101,
+						},
+						["霜鬃暗法师"] = {
+							["Details"] = {
+								["暗影箭"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 28,
+						},
+						["莫克迪普"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 106,
+								},
+							},
+							["amount"] = 106,
+						},
+						["坑道鼠歹徒"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 59,
+								},
+							},
+							["amount"] = 59,
+						},
+						["灰斑蓟熊"] = {
+							["Details"] = {
+								["毁灭"] = {
+									["count"] = 66,
+								},
+								["肉搏"] = {
+									["count"] = 324,
+								},
+							},
+							["amount"] = 390,
+						},
+						["砂石地占师"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 512,
+								},
+							},
+							["amount"] = 512,
+						},
+						["坑道鼠狗头人"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+						["暗礁蟹"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 463,
+								},
+							},
+							["amount"] = 463,
+						},
+						["戴瑟雷萨特"] = {
+							["Details"] = {
+								["射击"] = {
+									["count"] = 36,
+								},
+							},
+							["amount"] = 36,
+						},
+						["霜鬃剥皮者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 33,
+								},
+							},
+							["amount"] = 33,
+						},
+						["老年深海蛇颈龙"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 69,
+								},
+							},
+							["amount"] = 69,
+						},
+						["石腭断骨者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 165,
+								},
+							},
+							["amount"] = 165,
+						},
+						["石腭击颅者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 118,
+								},
+							},
+							["amount"] = 118,
+						},
+						["石腭穴居人"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["坑道鼠掘地工"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 216,
+								},
+							},
+							["amount"] = 216,
+						},
+						["壮实的石腭穴居人"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["黑海岸蛇颈龙"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 149,
+								},
+							},
+							["amount"] = 149,
+						},
+						["小型峭壁野猪"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+						["石腭袭击者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["蓟熊"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 138,
+								},
+							},
+							["amount"] = 138,
+						},
+						["耕田小生"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 650,
+								},
+							},
+							["amount"] = 650,
+						},
+						["森林陆行鸟"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 40,
+								},
+							},
+							["amount"] = 40,
+						},
+						["霜鬃先知"] = {
+							["Details"] = {
+								["闪电箭"] = {
+									["count"] = 111,
+								},
+							},
+							["amount"] = 111,
+						},
+						["雪狼"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 40,
+								},
+							},
+							["amount"] = 40,
+						},
+						["灰雾滩行者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 490,
+								},
+							},
+							["amount"] = 490,
+						},
+						["灰雾潮行者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 229,
+								},
+							},
+							["amount"] = 229,
+						},
+						["峭壁野猪"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 105,
+								},
+							},
+							["amount"] = 105,
+						},
+						["蓬毛幼狼"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["雪怪幼崽"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 22,
+						},
+						["老黑熊"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 277,
+								},
+							},
+							["amount"] = 277,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["火焰箭"] = {
+									["count"] = 67,
+								},
+							},
+							["amount"] = 67,
+						},
+						["黑熊幼崽"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 28,
+						},
+						["暗滩执行者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 312,
+								},
+							},
+							["amount"] = 312,
+						},
+						["霜鬃巨魔幼崽"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 32,
+								},
+							},
+							["amount"] = 32,
+						},
+						["黑木巨熊怪"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 24,
+						},
+						["碎石怪先知"] = {
+							["Details"] = {
+								["闪电箭"] = {
+									["count"] = 1007,
+								},
+							},
+							["amount"] = 1007,
+						},
+						["硬壳潮行蟹"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 224,
+								},
+							},
+							["amount"] = 224,
+						},
+						["霜鬃猎头者"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 153,
+								},
+							},
+							["amount"] = 153,
+						},
+						["黑幕追踪者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 194,
+								},
+							},
+							["amount"] = 194,
+						},
+						["暗滩精兵"] = {
+							["Details"] = {
+								["暗影箭"] = {
+									["count"] = 474,
+								},
+								["肉搏"] = {
+									["count"] = 80,
+								},
+							},
+							["amount"] = 554,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 1558,
+								},
+								["Fire"] = {
+									["count"] = 71,
+								},
+							},
+							["amount"] = 1629,
+						},
+						["哀嚎的贵族"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 32,
+								},
+							},
+							["amount"] = 32,
+						},
+						["冰须"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 153,
+								},
+							},
+							["amount"] = 153,
+						},
+						["霜鬃巨魔"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 49,
+								},
+							},
+							["amount"] = 49,
+						},
+						["癞爪"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 13,
+						},
+						["砂石斥候"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 310,
+								},
+							},
+							["amount"] = 310,
+						},
+						["虚空行者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 94,
+								},
+							},
+							["amount"] = 94,
+						},
+						["碎石怪斥候"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 648,
+								},
+							},
+							["amount"] = 648,
+						},
+						["灰雾猎人"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 439,
+								},
+							},
+							["amount"] = 439,
+						},
+						["小潮行蟹"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 29,
+								},
+							},
+							["amount"] = 29,
+						},
+						["坑道鼠地卜师"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 88,
+								},
+								["火焰之盾效果"] = {
+									["count"] = 6,
+								},
+								["火焰冲击"] = {
+									["count"] = 55,
+								},
+							},
+							["amount"] = 149,
+						},
+						["砂石断骨者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 165,
+								},
+							},
+							["amount"] = 165,
+						},
+						["黑木风语者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 24,
+						},
+						["坑道鼠斥候"] = {
+							["Details"] = {
+								["射击"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 28,
+						},
+						["冰爪熊"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 61,
+								},
+							},
+							["amount"] = 61,
+						},
+						["大峭壁野猪"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 76,
+								},
+							},
+							["amount"] = 76,
+						},
+						["坑道鼠征粮官"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+						["冷酷的格瑞克尼尔"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 17,
+								},
+								["冰霜震击"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 27,
+						},
+						["碎石怪击颅者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 437,
+								},
+							},
+							["amount"] = 437,
+						},
+						["月夜猛虎"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 300,
+								},
+							},
+							["amount"] = 300,
+						},
+						["雷鳞御浪者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 71,
+								},
+							},
+							["amount"] = 71,
+						},
+						["野生劣魔"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 133,
+								},
+							},
+							["amount"] = 133,
+						},
+						["暮光信徒"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 133,
+								},
+							},
+							["amount"] = 133,
+						},
+						["挣扎的贵族"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 141,
+								},
+							},
+							["amount"] = 141,
+						},
+						["狂暴的月夜枭兽"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 319,
+								},
+							},
+							["amount"] = 319,
+						},
+						["森林潜伏者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 97,
+								},
+							},
+							["amount"] = 97,
+						},
+						["碎石穴居人"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 298,
+								},
+							},
+							["amount"] = 298,
+						},
+						["灰雾战士"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 259,
+								},
+							},
+							["amount"] = 259,
+						},
+						["石巨兽"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 183,
+								},
+							},
+							["amount"] = 183,
+						},
+						["麻疯侏儒"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 37,
+								},
+							},
+							["amount"] = 37,
+						},
+						["灰雾先知"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 49,
+								},
+							},
+							["amount"] = 49,
+						},
+						["灰雾智者"] = {
+							["Details"] = {
+								["闪电箭"] = {
+									["count"] = 448,
+								},
+							},
+							["amount"] = 448,
+						},
+						["破损的傀儡"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 142,
+								},
+							},
+							["amount"] = 142,
+						},
+						["雪豹"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 120,
+								},
+							},
+							["amount"] = 120,
+						},
+						["暗滩狂热者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 363,
+								},
+							},
+							["amount"] = 363,
+						},
+						["雷鳞海妖"] = {
+							["Details"] = {
+								["神圣惩击"] = {
+									["count"] = 358,
+								},
+							},
+							["amount"] = 358,
+						},
+						["狂暴蓟熊"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 632,
+								},
+							},
+							["amount"] = 632,
+						},
+						["暮光暴徒"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 606,
+								},
+							},
+							["amount"] = 606,
+						},
+						["暗滩祭司"] = {
+							["Details"] = {
+								["暗影箭"] = {
+									["count"] = 339,
+								},
+								["腐蚀术 (伤害/跳)"] = {
+									["count"] = 90,
+								},
+							},
+							["amount"] = 429,
+						},
+					},
+					["Absorbed"] = {
+						["法力护盾"] = {
+							["Details"] = {
+								["查尔斯三世"] = {
+									["max"] = 90,
+									["min"] = 6,
+									["count"] = 18,
+									["amount"] = 504,
+								},
+							},
+							["count"] = 18,
+							["amount"] = 504,
+						},
+					},
+					["TimeHealing"] = {
+						["查尔斯三世"] = {
+							["Details"] = {
+								["法力护盾"] = {
+									["count"] = 20.5,
+								},
+								["治疗药水"] = {
+									["count"] = 4.5,
+								},
+							},
+							["amount"] = 25,
+						},
+					},
+					["PartialResist"] = {
+						["火球术"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 5,
+						},
+						["投掷"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 71,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 71,
+						},
+						["火焰箭"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["射击"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
+						["雷霆一击"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 12,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 12,
+						},
+						["腐蚀术 (伤害/跳)"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 6,
+						},
+						["闪电箭"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 33,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 33,
+						},
+						["腐蚀术"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["火焰之盾效果"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 604,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 604,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 24,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 24,
+						},
+						["神圣惩击"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 9,
+						},
+						["暗影箭"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 12,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 12,
+						},
+						["精灵之火"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["冰霜震击"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 5,
+						},
+						["毁灭"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["火焰冲击"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+					},
+					["ManaGained"] = {
+						["恢复法力"] = {
+							["Details"] = {
+								["查尔斯三世"] = {
+									["count"] = 350,
+								},
+							},
+							["amount"] = 350,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Shadow"] = 245,
+						["Melee"] = 231,
+						["Nature"] = 28,
+					},
+					["ActiveTime"] = 3939.549999999998,
+					["Heals"] = {
+						["法力护盾"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 90,
+									["min"] = 6,
+									["count"] = 18,
+									["amount"] = 504,
+								},
+							},
+							["count"] = 18,
+							["amount"] = 504,
+						},
+						["治疗药水"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 164,
+									["min"] = 73,
+									["count"] = 3,
+									["amount"] = 322,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 322,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["查尔斯三世"] = {
+							["Details"] = {
+								["恢复法力"] = {
+									["count"] = 350,
+								},
+							},
+							["amount"] = 350,
+						},
+					},
+					["Healing"] = 322,
+					["TimeSpent"] = {
+						["雪怪"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 11.18,
+								},
+								["火球术"] = {
+									["count"] = 67.11,
+								},
+								["冰冻"] = {
+									["count"] = 3.14,
+								},
+								["火焰冲击"] = {
+									["count"] = 2.81,
+								},
+							},
+							["amount"] = 84.24000000000001,
+						},
+						["月夜猛虎幼崽"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["黑木图腾师"] = {
+							["Details"] = {
+								["暴风雪"] = {
+									["count"] = 35.48,
+								},
+								["魔爆术"] = {
+									["count"] = 7.48,
+								},
+								["冰冻"] = {
+									["count"] = 1.5,
+								},
+								["冰霜新星"] = {
+									["count"] = 9.28,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 4.5,
+								},
+								["寒冰箭"] = {
+									["count"] = 18,
+								},
+								["火球术"] = {
+									["count"] = 5.41,
+								},
+								["火焰冲击"] = {
+									["count"] = 5.01,
+								},
+							},
+							["amount"] = 86.66000000000001,
+						},
+						["月夜枭兽"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["山猪"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 6.59,
+								},
+								["射击"] = {
+									["count"] = 6.859999999999999,
+								},
+								["火球术"] = {
+									["count"] = 39.20999999999999,
+								},
+							},
+							["amount"] = 52.66,
+						},
+						["被诅咒的贵族"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 25.5,
+								},
+								["射击"] = {
+									["count"] = 10.65,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 7.3,
+								},
+								["寒冰箭"] = {
+									["count"] = 1.66,
+								},
+							},
+							["amount"] = 45.10999999999999,
+						},
+						["老峭壁野猪"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 28.39,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 4.5,
+								},
+							},
+							["amount"] = 32.89,
+						},
+						["黑木探路者"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 10.18,
+								},
+								["寒冰箭"] = {
+									["count"] = 0.91,
+								},
+								["火球术"] = {
+									["count"] = 27.1,
+								},
+								["射击"] = {
+									["count"] = 5.45,
+								},
+							},
+							["amount"] = 43.64,
+						},
+						["霜鬃暗法师"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 4.5,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 6,
+						},
+						["莫克迪普"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 5.37,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.94,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 9.74,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.27,
+								},
+							},
+							["amount"] = 18.32,
+						},
+						["坑道鼠歹徒"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 4.93,
+								},
+								["射击"] = {
+									["count"] = 0.17,
+								},
+								["火球术"] = {
+									["count"] = 22.88,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 29.48,
+						},
+						["灰斑蓟熊"] = {
+							["Details"] = {
+								["荆棘术"] = {
+									["count"] = 1.5,
+								},
+								["寒冰箭"] = {
+									["count"] = 4.5,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.03,
+								},
+								["火球术"] = {
+									["count"] = 36.57000000000001,
+								},
+								["射击"] = {
+									["count"] = 5.73,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 17.96,
+								},
+								["火焰冲击"] = {
+									["count"] = 2.81,
+								},
+							},
+							["amount"] = 70.1,
+						},
+						["霜鬃雪行者"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 23.19,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 29.19,
+						},
+						["坑道鼠狗头人"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 10.22,
+								},
+								["射击"] = {
+									["count"] = 3.6,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.13,
+								},
+							},
+							["amount"] = 14.95,
+						},
+						["暗礁蟹"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 20.44,
+								},
+								["射击"] = {
+									["count"] = 9.2,
+								},
+								["冰冻"] = {
+									["count"] = 0.25,
+								},
+								["火球术"] = {
+									["count"] = 85.55000000000001,
+								},
+							},
+							["amount"] = 115.44,
+						},
+						["小潮行蟹"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 12,
+								},
+								["射击"] = {
+									["count"] = 5.390000000000001,
+								},
+								["火球术"] = {
+									["count"] = 42.21000000000001,
+								},
+							},
+							["amount"] = 59.6,
+						},
+						["霜鬃剥皮者"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 9.97,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 4.5,
+								},
+							},
+							["amount"] = 14.47,
+						},
+						["老年深海蛇颈龙"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.67,
+								},
+								["射击"] = {
+									["count"] = 2.75,
+								},
+								["火球术"] = {
+									["count"] = 4.88,
+								},
+							},
+							["amount"] = 9.3,
+						},
+						["石腭断骨者"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+								["火球术"] = {
+									["count"] = 44.12000000000001,
+								},
+								["寒冰箭"] = {
+									["count"] = 1.13,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 13.06,
+								},
+								["火焰冲击"] = {
+									["count"] = 2.05,
+								},
+							},
+							["amount"] = 61.86,
+						},
+						["石腭击颅者"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 15.54,
+								},
+								["寒冰箭"] = {
+									["count"] = 3.51,
+								},
+								["火球术"] = {
+									["count"] = 62.13,
+								},
+								["火焰冲击"] = {
+									["count"] = 3.29,
+								},
+							},
+							["amount"] = 84.47,
+						},
+						["石腭穴居人"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 23.46,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.75,
+								},
+							},
+							["amount"] = 25.21,
+						},
+						["坑道鼠掘地工"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 9.91,
+								},
+								["射击"] = {
+									["count"] = 6.07,
+								},
+								["火球术"] = {
+									["count"] = 25.72,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 43.2,
+						},
+						["壮实的石腭穴居人"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.5,
+								},
+								["火球术"] = {
+									["count"] = 24.75,
+								},
+								["肉搏"] = {
+									["count"] = 1.77,
+								},
+							},
+							["amount"] = 28.02,
+						},
+						["暗滩挖掘者"] = {
+							["Details"] = {
+								["寒冰箭"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["魔爆术"] = {
+									["count"] = 1.5,
+								},
+								["寒冰箭"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 3,
+						},
+						["雪怪幼崽"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 4.5,
+								},
+								["冰冻"] = {
+									["count"] = 1.5,
+								},
+								["火球术"] = {
+									["count"] = 24.09,
+								},
+							},
+							["amount"] = 30.09,
+						},
+						["暗滩执行者"] = {
+							["Details"] = {
+								["寒冰箭"] = {
+									["count"] = 13.5,
+								},
+								["火焰冲击"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 16.5,
+						},
+						["萨巴克希斯"] = {
+							["Details"] = {
+								["寒冰箭"] = {
+									["count"] = 3,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 6,
+						},
+						["暗滩精兵"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 3,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+								["魔爆术"] = {
+									["count"] = 3,
+								},
+								["寒冰箭"] = {
+									["count"] = 3,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 4.65,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 16.65,
+						},
+						["黑海岸蛇颈龙"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 31.45,
+								},
+								["射击"] = {
+									["count"] = 10.81,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 12.11,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.45,
+								},
+							},
+							["amount"] = 55.82000000000001,
+						},
+						["小型峭壁野猪"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 43.48,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 3.45,
+								},
+							},
+							["amount"] = 46.93,
+						},
+						["石腭袭击者"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 25.24000000000001,
+								},
+								["火焰冲击"] = {
+									["count"] = 4.4,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 1.22,
+								},
+							},
+							["amount"] = 32.36,
+						},
+						["黑木战士"] = {
+							["Details"] = {
+								["火焰冲击"] = {
+									["count"] = 3,
+								},
+								["寒冰箭"] = {
+									["count"] = 21,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+								["暴风雪"] = {
+									["count"] = 12.45,
+								},
+							},
+							["amount"] = 37.95,
+						},
+						["癞爪"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 3.65,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 2.82,
+								},
+								["火焰冲击"] = {
+									["count"] = 0.68,
+								},
+							},
+							["amount"] = 7.15,
+						},
+						["硬壳潮行蟹"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 5.76,
+								},
+								["射击"] = {
+									["count"] = 5.34,
+								},
+								["火球术"] = {
+									["count"] = 9.09,
+								},
+								["寒冰箭"] = {
+									["count"] = 0.95,
+								},
+							},
+							["amount"] = 21.14,
+						},
+						["黑木巨熊怪"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 3,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.5,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.42,
+								},
+							},
+							["amount"] = 5.92,
+						},
+						["蓟熊"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+						["耕田小生"] = {
+							["Details"] = {
+								["冰冻"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["森林陆行鸟"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 2.3,
+								},
+								["暴风雪"] = {
+									["count"] = 7.95,
+								},
+							},
+							["amount"] = 10.25,
+						},
+						["冬狼"] = {
+							["Details"] = {
+								["冰冻"] = {
+									["count"] = 1.38,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 5.71,
+								},
+								["寒冰箭"] = {
+									["count"] = 3,
+								},
+								["火球术"] = {
+									["count"] = 13.31,
+								},
+							},
+							["amount"] = 24.9,
+						},
+						["霜鬃先知"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 25.88,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 27.38,
+						},
+						["雪狼"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.5,
+								},
+								["火球术"] = {
+									["count"] = 6.460000000000001,
+								},
+								["火焰冲击"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 8.96,
+						},
+						["灰雾滩行者"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 22.22,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 13.5,
+								},
+								["冰冻"] = {
+									["count"] = 1.5,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+								["魔爆术"] = {
+									["count"] = 1.8,
+								},
+								["寒冰箭"] = {
+									["count"] = 1.21,
+								},
+								["射击"] = {
+									["count"] = 1.8,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 45.03,
+						},
+						["灰雾潮行者"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 11.57,
+								},
+								["射击"] = {
+									["count"] = 4.76,
+								},
+								["火球术"] = {
+									["count"] = 31.32,
+								},
+							},
+							["amount"] = 47.65,
+						},
+						["霜鬃巨魔"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 10.58,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 4.5,
+								},
+							},
+							["amount"] = 15.08,
+						},
+						["峭壁野猪"] = {
+							["Details"] = {
+								["冰冻"] = {
+									["count"] = 0.4,
+								},
+								["肉搏"] = {
+									["count"] = 1.07,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 15.38,
+								},
+								["寒冰箭"] = {
+									["count"] = 6.14,
+								},
+								["火球术"] = {
+									["count"] = 89.88000000000001,
+								},
+								["火焰冲击"] = {
+									["count"] = 6.779999999999999,
+								},
+							},
+							["amount"] = 119.65,
+						},
+						["黑幕追踪者"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 1.48,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 3,
+								},
+								["火球术"] = {
+									["count"] = 8.02,
+								},
+								["魔爆术"] = {
+									["count"] = 5.48,
+								},
+								["火焰冲击"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 20.98,
+						},
+						["蓬毛幼狼"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 26.97,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 28.47,
+						},
+						["鹿"] = {
+							["Details"] = {
+								["火焰冲击"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["戴瑟雷萨特"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 8.469999999999999,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 9.969999999999999,
+						},
+						["老黑熊"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 9,
+								},
+								["射击"] = {
+									["count"] = 14.55,
+								},
+								["火球术"] = {
+									["count"] = 59.71,
+								},
+							},
+							["amount"] = 83.26000000000002,
+						},
+						["砂石地占师"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 9.52,
+								},
+								["寒冰箭"] = {
+									["count"] = 4.5,
+								},
+								["火球术"] = {
+									["count"] = 4.66,
+								},
+								["火焰冲击"] = {
+									["count"] = 2.18,
+								},
+							},
+							["amount"] = 20.86,
+						},
+						["暮光信徒"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 9,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.21,
+								},
+								["火球术"] = {
+									["count"] = 13.62,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.08,
+								},
+							},
+							["amount"] = 24.91,
+						},
+						["瓦加什"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 5.42,
+								},
+							},
+							["amount"] = 5.42,
+						},
+						["冰须"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 4.5,
+								},
+								["寒冰箭"] = {
+									["count"] = 4.16,
+								},
+								["冰冻"] = {
+									["count"] = 4.5,
+								},
+								["火球术"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 16.16,
+						},
+						["黑木风语者"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 22.22,
+								},
+								["射击"] = {
+									["count"] = 4.08,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.81,
+								},
+							},
+							["amount"] = 28.11,
+						},
+						["破损的傀儡"] = {
+							["Details"] = {
+								["射击"] = {
+									["count"] = 2.38,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+								["火球术"] = {
+									["count"] = 14.59,
+								},
+								["寒冰箭"] = {
+									["count"] = 24,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 4.529999999999999,
+								},
+								["荆棘术"] = {
+									["count"] = 0.33,
+								},
+							},
+							["amount"] = 47.33,
+						},
+						["灰雾智者"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 16.62,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 16.5,
+								},
+							},
+							["amount"] = 33.12,
+						},
+						["霜鬃猎头者"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 15,
+								},
+								["火球术"] = {
+									["count"] = 35.51,
+								},
+								["火焰冲击"] = {
+									["count"] = 3.55,
+								},
+							},
+							["amount"] = 54.06,
+						},
+						["查尔斯三世"] = {
+							["Details"] = {
+								["法力护盾"] = {
+									["count"] = 20.5,
+								},
+								["治疗药水"] = {
+									["count"] = 4.5,
+								},
+							},
+							["amount"] = 25,
+						},
+						["灰雾猎人"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 20.28,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 32.28,
+						},
+						["灰雾撒网者"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.5,
+								},
+								["射击"] = {
+									["count"] = 1.38,
+								},
+								["火球术"] = {
+									["count"] = 4.34,
+								},
+							},
+							["amount"] = 7.22,
+						},
+						["哀嚎的贵族"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 3,
+								},
+								["火球术"] = {
+									["count"] = 22.23,
+								},
+								["火焰冲击"] = {
+									["count"] = 2.48,
+								},
+							},
+							["amount"] = 27.71,
+						},
+						["蓬毛森林狼"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 4.11,
+								},
+							},
+							["amount"] = 4.11,
+						},
+						["坑道鼠斥候"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.77,
+								},
+								["射击"] = {
+									["count"] = 2.73,
+								},
+								["火球术"] = {
+									["count"] = 3.12,
+								},
+							},
+							["amount"] = 7.620000000000001,
+						},
+						["麻疯侏儒"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 17.88,
+								},
+								["火焰冲击"] = {
+									["count"] = 0.86,
+								},
+								["火球术"] = {
+									["count"] = 85.63999999999999,
+								},
+								["肉搏"] = {
+									["count"] = 9.58,
+								},
+							},
+							["amount"] = 113.96,
+						},
+						["砂石斥候"] = {
+							["Details"] = {
+								["荆棘术"] = {
+									["count"] = 1.5,
+								},
+								["冰冻"] = {
+									["count"] = 1.5,
+								},
+								["冰霜新星"] = {
+									["count"] = 2.45,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 8.01,
+								},
+								["寒冰箭"] = {
+									["count"] = 9,
+								},
+								["火球术"] = {
+									["count"] = 10,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 33.96,
+						},
+						["虚空行者"] = {
+							["Details"] = {
+								["魔爆术"] = {
+									["count"] = 4.5,
+								},
+								["寒冰箭"] = {
+									["count"] = 1.5,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 7.5,
+						},
+						["碎石怪斥候"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 87.00999999999999,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 31.5,
+								},
+							},
+							["amount"] = 118.51,
+						},
+						["月夜猛虎"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 10.42,
+								},
+								["射击"] = {
+									["count"] = 16.67,
+								},
+								["火球术"] = {
+									["count"] = 50.92000000000001,
+								},
+							},
+							["amount"] = 78.01,
+						},
+						["坑道鼠征粮官"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 19.54,
+								},
+								["射击"] = {
+									["count"] = 2.99,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 2.97,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.52,
+								},
+							},
+							["amount"] = 27.02,
+						},
+						["坑道鼠地卜师"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 42.69000000000001,
+								},
+								["射击"] = {
+									["count"] = 4.5,
+								},
+								["冰冻"] = {
+									["count"] = 0.95,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 2.02,
+								},
+							},
+							["amount"] = 50.16000000000001,
+						},
+						["安娜雅·晨路"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 5.83,
+								},
+							},
+							["amount"] = 5.83,
+						},
+						["碎石怪击颅者"] = {
+							["Details"] = {
+								["冰冻"] = {
+									["count"] = 0.79,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+								["火球术"] = {
+									["count"] = 61.68000000000002,
+								},
+								["射击"] = {
+									["count"] = 44.76,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 36.79999999999999,
+								},
+								["火焰冲击"] = {
+									["count"] = 0.25,
+								},
+							},
+							["amount"] = 145.7799999999999,
+						},
+						["碎石穴居人"] = {
+							["Details"] = {
+								["冰冻"] = {
+									["count"] = 0.64,
+								},
+								["冰霜新星"] = {
+									["count"] = 0.77,
+								},
+								["火球术"] = {
+									["count"] = 77.17999999999999,
+								},
+								["寒冰箭"] = {
+									["count"] = 1.88,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 26.11,
+								},
+								["肉搏"] = {
+									["count"] = 2.77,
+								},
+							},
+							["amount"] = 109.35,
+						},
+						["冰爪熊"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 1.5,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 17.33,
+								},
+								["寒冰箭"] = {
+									["count"] = 1.64,
+								},
+								["火球术"] = {
+									["count"] = 45.96,
+								},
+								["火焰冲击"] = {
+									["count"] = 3.93,
+								},
+							},
+							["amount"] = 70.36,
+						},
+						["大峭壁野猪"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 33.45999999999999,
+								},
+								["寒冰箭"] = {
+									["count"] = 2.02,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 7.5,
+								},
+								["火焰冲击"] = {
+									["count"] = 4.13,
+								},
+							},
+							["amount"] = 47.11000000000001,
+						},
+						["恶灵劣魔"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 47.14,
+								},
+								["射击"] = {
+									["count"] = 20.42,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 11.89,
+								},
+							},
+							["amount"] = 79.45000000000002,
+						},
+						["冷酷的格瑞克尼尔"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 7.449999999999999,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 8.95,
+						},
+						["碎石怪先知"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 21.64,
+								},
+								["射击"] = {
+									["count"] = 3.27,
+								},
+								["火球术"] = {
+									["count"] = 61.79,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 88.19999999999997,
+						},
+						["幽爪奔跑者"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["雷鳞御浪者"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 9,
+								},
+								["寒冰箭"] = {
+									["count"] = 0.96,
+								},
+								["火球术"] = {
+									["count"] = 22.59,
+								},
+							},
+							["amount"] = 32.55,
+						},
+						["野生劣魔"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 25.89,
+								},
+								["射击"] = {
+									["count"] = 16.14,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 10.5,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 54.03,
+						},
+						["霜鬃巨魔幼崽"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 9.370000000000001,
+								},
+								["火球术"] = {
+									["count"] = 53.75000000000001,
+								},
+								["冰冻"] = {
+									["count"] = 1.08,
+								},
+								["肉搏"] = {
+									["count"] = 2.7,
+								},
+							},
+							["amount"] = 66.9,
+						},
+						["挣扎的贵族"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 7.84,
+								},
+								["寒冰箭"] = {
+									["count"] = 1.5,
+								},
+								["射击"] = {
+									["count"] = 17.37,
+								},
+								["火球术"] = {
+									["count"] = 21.86,
+								},
+							},
+							["amount"] = 50.07,
+						},
+						["狂暴的月夜枭兽"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+								["火球术"] = {
+									["count"] = 6.88,
+								},
+								["射击"] = {
+									["count"] = 2.3,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 7.96,
+								},
+								["火焰冲击"] = {
+									["count"] = 0.88,
+								},
+							},
+							["amount"] = 19.52,
+						},
+						["森林潜伏者"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 10.79,
+								},
+								["射击"] = {
+									["count"] = 6.12,
+								},
+								["火球术"] = {
+									["count"] = 78.36000000000001,
+								},
+								["火焰冲击"] = {
+									["count"] = 0.81,
+								},
+							},
+							["amount"] = 96.08000000000001,
+						},
+						["玛洛什"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 5.89,
+								},
+							},
+							["amount"] = 5.89,
+						},
+						["灰雾战士"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+								["火球术"] = {
+									["count"] = 40.10000000000001,
+								},
+								["射击"] = {
+									["count"] = 3.85,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 9.65,
+								},
+								["魔爆术"] = {
+									["count"] = 2.91,
+								},
+							},
+							["amount"] = 58.01000000000001,
+						},
+						["石巨兽"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 10.59,
+								},
+								["寒冰箭"] = {
+									["count"] = 7.5,
+								},
+								["火球术"] = {
+									["count"] = 27.89,
+								},
+								["火焰冲击"] = {
+									["count"] = 3.92,
+								},
+							},
+							["amount"] = 49.9,
+						},
+						["砂石断骨者"] = {
+							["Details"] = {
+								["寒冰箭"] = {
+									["count"] = 3,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.5,
+								},
+								["冰霜新星"] = {
+									["count"] = 0.14,
+								},
+							},
+							["amount"] = 4.64,
+						},
+						["灰雾先知"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 4.5,
+								},
+								["射击"] = {
+									["count"] = 1.44,
+								},
+								["火球术"] = {
+									["count"] = 16.12,
+								},
+							},
+							["amount"] = 22.06,
+						},
+						["黑熊幼崽"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 19.32,
+								},
+								["寒冰箭"] = {
+									["count"] = 3,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.5,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.15,
+								},
+							},
+							["amount"] = 24.97,
+						},
+						["暮光暴徒"] = {
+							["Details"] = {
+								["冰冻"] = {
+									["count"] = 1.1,
+								},
+								["冰霜新星"] = {
+									["count"] = 2.29,
+								},
+								["火球术"] = {
+									["count"] = 40.17,
+								},
+								["射击"] = {
+									["count"] = 6.48,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 17.04,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 68.58,
+						},
+						["雪豹"] = {
+							["Details"] = {
+								["冰冻"] = {
+									["count"] = 0.53,
+								},
+								["肉搏"] = {
+									["count"] = 0.83,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 15.28,
+								},
+								["寒冰箭"] = {
+									["count"] = 0.69,
+								},
+								["火球术"] = {
+									["count"] = 38.98,
+								},
+								["火焰冲击"] = {
+									["count"] = 4.66,
+								},
+							},
+							["amount"] = 60.96999999999999,
+						},
+						["暗滩狂热者"] = {
+							["Details"] = {
+								["冰冻"] = {
+									["count"] = 1.24,
+								},
+								["冰霜新星"] = {
+									["count"] = 0.9,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 17.21,
+								},
+								["射击"] = {
+									["count"] = 7.06,
+								},
+								["火球术"] = {
+									["count"] = 61.06,
+								},
+							},
+							["amount"] = 87.46999999999996,
+						},
+						["雷鳞海妖"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 19.5,
+								},
+								["寒冰箭"] = {
+									["count"] = 0.67,
+								},
+								["火球术"] = {
+									["count"] = 21.07,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.11,
+								},
+							},
+							["amount"] = 42.34999999999999,
+						},
+						["狂暴蓟熊"] = {
+							["Details"] = {
+								["射击"] = {
+									["count"] = 9.28,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+								["火球术"] = {
+									["count"] = 103.37,
+								},
+								["寒冰箭"] = {
+									["count"] = 1.93,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 37.45,
+								},
+								["火焰冲击"] = {
+									["count"] = 2.53,
+								},
+							},
+							["amount"] = 156.06,
+						},
+						["治疗结界"] = {
+							["Details"] = {
+								["射击"] = {
+									["count"] = 6,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 7.5,
+						},
+						["暗滩祭司"] = {
+							["Details"] = {
+								["魔爆术"] = {
+									["count"] = 1.5,
+								},
+								["寒冰箭"] = {
+									["count"] = 6,
+								},
+								["火焰冲击"] = {
+									["count"] = 3.54,
+								},
+							},
+							["amount"] = 11.04,
+						},
+					},
+					["DamageTaken"] = 18409,
+					["Attacks"] = {
+						["冰霜新星"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 25,
+									["min"] = 20,
+									["count"] = 76,
+									["amount"] = 1776,
+								},
+								["Crit"] = {
+									["max"] = 37,
+									["min"] = 37,
+									["count"] = 1,
+									["amount"] = 37,
+								},
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 79,
+							["amount"] = 1813,
+						},
+						["火球术"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 52,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 107,
+									["min"] = 14,
+									["count"] = 1775,
+									["amount"] = 121710,
+								},
+								["Crit"] = {
+									["max"] = 159,
+									["min"] = 26,
+									["count"] = 108,
+									["amount"] = 10383,
+								},
+								["Evade"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1936,
+							["amount"] = 132093,
+						},
+						["暴风雪"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 67,
+									["min"] = 66,
+									["count"] = 5,
+									["amount"] = 334,
+								},
+								["Hit"] = {
+									["max"] = 45,
+									["min"] = 44,
+									["count"] = 139,
+									["amount"] = 6206,
+								},
+							},
+							["count"] = 144,
+							["amount"] = 6540,
+						},
+						["荆棘术"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 6,
+									["min"] = 6,
+									["count"] = 3,
+									["amount"] = 18,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 18,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 3,
+									["min"] = 1,
+									["count"] = 10,
+									["amount"] = 16,
+								},
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 11,
+									["min"] = 4,
+									["count"] = 7,
+									["amount"] = 46,
+								},
+							},
+							["count"] = 20,
+							["amount"] = 62,
+						},
+						["冰冻"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 19,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 22,
+							["amount"] = 0,
+						},
+						["火球术 (伤害/跳)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 2,
+									["min"] = 1,
+									["count"] = 577,
+									["amount"] = 881,
+								},
+							},
+							["count"] = 577,
+							["amount"] = 881,
+						},
+						["魔爆术"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 70,
+									["min"] = 66,
+									["count"] = 3,
+									["amount"] = 204,
+								},
+								["Hit"] = {
+									["max"] = 48,
+									["min"] = 43,
+									["count"] = 40,
+									["amount"] = 1815,
+								},
+							},
+							["count"] = 45,
+							["amount"] = 2019,
+						},
+						["寒冰箭"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 184,
+									["min"] = 180,
+									["count"] = 2,
+									["amount"] = 364,
+								},
+								["Hit"] = {
+									["max"] = 128,
+									["min"] = 19,
+									["count"] = 121,
+									["amount"] = 11282,
+								},
+							},
+							["count"] = 125,
+							["amount"] = 11646,
+						},
+						["射击"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 43,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 24,
+									["min"] = 10,
+									["count"] = 10,
+									["amount"] = 187,
+								},
+								["Hit"] = {
+									["max"] = 19,
+									["min"] = 4,
+									["count"] = 206,
+									["amount"] = 2785,
+								},
+							},
+							["count"] = 259,
+							["amount"] = 2972,
+						},
+						["火焰冲击"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 96,
+									["min"] = 24,
+									["count"] = 86,
+									["amount"] = 5159,
+								},
+								["Crit"] = {
+									["max"] = 132,
+									["min"] = 37,
+									["count"] = 6,
+									["amount"] = 442,
+								},
+								["Evade"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 95,
+							["amount"] = 5601,
+						},
+					},
+					["HealingTaken"] = 1050,
+					["WhoHealed"] = {
+						["凛寒"] = {
+							["Details"] = {
+								["回春术"] = {
+									["count"] = 86,
+								},
+								["治疗之触"] = {
+									["count"] = 138,
+								},
+							},
+							["amount"] = 224,
+						},
+						["查尔斯三世"] = {
+							["Details"] = {
+								["法力护盾"] = {
+									["count"] = 504,
+								},
+								["治疗药水"] = {
+									["count"] = 322,
+								},
+							},
+							["amount"] = 826,
+						},
+					},
+					["TimeDamage"] = 3914.549999999998,
+					["TimeDamaging"] = {
+						["雪怪"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 11.18,
+								},
+								["火球术"] = {
+									["count"] = 67.11,
+								},
+								["冰冻"] = {
+									["count"] = 3.14,
+								},
+								["火焰冲击"] = {
+									["count"] = 2.81,
+								},
+							},
+							["amount"] = 84.24000000000001,
+						},
+						["月夜猛虎幼崽"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["黑木图腾师"] = {
+							["Details"] = {
+								["暴风雪"] = {
+									["count"] = 35.48,
+								},
+								["魔爆术"] = {
+									["count"] = 7.48,
+								},
+								["冰冻"] = {
+									["count"] = 1.5,
+								},
+								["冰霜新星"] = {
+									["count"] = 9.28,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 4.5,
+								},
+								["寒冰箭"] = {
+									["count"] = 18,
+								},
+								["火球术"] = {
+									["count"] = 5.41,
+								},
+								["火焰冲击"] = {
+									["count"] = 5.01,
+								},
+							},
+							["amount"] = 86.66000000000001,
+						},
+						["月夜枭兽"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["山猪"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 6.59,
+								},
+								["射击"] = {
+									["count"] = 6.859999999999999,
+								},
+								["火球术"] = {
+									["count"] = 39.20999999999999,
+								},
+							},
+							["amount"] = 52.66,
+						},
+						["被诅咒的贵族"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 25.5,
+								},
+								["射击"] = {
+									["count"] = 10.65,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 7.3,
+								},
+								["寒冰箭"] = {
+									["count"] = 1.66,
+								},
+							},
+							["amount"] = 45.10999999999999,
+						},
+						["老峭壁野猪"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 28.39,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 4.5,
+								},
+							},
+							["amount"] = 32.89,
+						},
+						["黑木探路者"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 10.18,
+								},
+								["寒冰箭"] = {
+									["count"] = 0.91,
+								},
+								["火球术"] = {
+									["count"] = 27.1,
+								},
+								["射击"] = {
+									["count"] = 5.45,
+								},
+							},
+							["amount"] = 43.64,
+						},
+						["霜鬃暗法师"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 4.5,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 6,
+						},
+						["莫克迪普"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 5.37,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.94,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 9.74,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.27,
+								},
+							},
+							["amount"] = 18.32,
+						},
+						["坑道鼠歹徒"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 4.93,
+								},
+								["射击"] = {
+									["count"] = 0.17,
+								},
+								["火球术"] = {
+									["count"] = 22.88,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 29.48,
+						},
+						["灰斑蓟熊"] = {
+							["Details"] = {
+								["荆棘术"] = {
+									["count"] = 1.5,
+								},
+								["寒冰箭"] = {
+									["count"] = 4.5,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.03,
+								},
+								["火球术"] = {
+									["count"] = 36.57000000000001,
+								},
+								["射击"] = {
+									["count"] = 5.73,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 17.96,
+								},
+								["火焰冲击"] = {
+									["count"] = 2.81,
+								},
+							},
+							["amount"] = 70.1,
+						},
+						["霜鬃雪行者"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 23.19,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 29.19,
+						},
+						["坑道鼠狗头人"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 10.22,
+								},
+								["射击"] = {
+									["count"] = 3.6,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.13,
+								},
+							},
+							["amount"] = 14.95,
+						},
+						["暗礁蟹"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 20.44,
+								},
+								["射击"] = {
+									["count"] = 9.2,
+								},
+								["冰冻"] = {
+									["count"] = 0.25,
+								},
+								["火球术"] = {
+									["count"] = 85.55000000000001,
+								},
+							},
+							["amount"] = 115.44,
+						},
+						["小潮行蟹"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 12,
+								},
+								["射击"] = {
+									["count"] = 5.390000000000001,
+								},
+								["火球术"] = {
+									["count"] = 42.21000000000001,
+								},
+							},
+							["amount"] = 59.6,
+						},
+						["霜鬃剥皮者"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 9.97,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 4.5,
+								},
+							},
+							["amount"] = 14.47,
+						},
+						["老年深海蛇颈龙"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.67,
+								},
+								["射击"] = {
+									["count"] = 2.75,
+								},
+								["火球术"] = {
+									["count"] = 4.88,
+								},
+							},
+							["amount"] = 9.3,
+						},
+						["石腭断骨者"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+								["火球术"] = {
+									["count"] = 44.12000000000001,
+								},
+								["寒冰箭"] = {
+									["count"] = 1.13,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 13.06,
+								},
+								["火焰冲击"] = {
+									["count"] = 2.05,
+								},
+							},
+							["amount"] = 61.86,
+						},
+						["石腭击颅者"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 15.54,
+								},
+								["寒冰箭"] = {
+									["count"] = 3.51,
+								},
+								["火球术"] = {
+									["count"] = 62.13,
+								},
+								["火焰冲击"] = {
+									["count"] = 3.29,
+								},
+							},
+							["amount"] = 84.47,
+						},
+						["石腭穴居人"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 23.46,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.75,
+								},
+							},
+							["amount"] = 25.21,
+						},
+						["坑道鼠掘地工"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 9.91,
+								},
+								["射击"] = {
+									["count"] = 6.07,
+								},
+								["火球术"] = {
+									["count"] = 25.72,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 43.2,
+						},
+						["壮实的石腭穴居人"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.5,
+								},
+								["火球术"] = {
+									["count"] = 24.75,
+								},
+								["肉搏"] = {
+									["count"] = 1.77,
+								},
+							},
+							["amount"] = 28.02,
+						},
+						["暗滩挖掘者"] = {
+							["Details"] = {
+								["寒冰箭"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["魔爆术"] = {
+									["count"] = 1.5,
+								},
+								["寒冰箭"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 3,
+						},
+						["雪怪幼崽"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 4.5,
+								},
+								["冰冻"] = {
+									["count"] = 1.5,
+								},
+								["火球术"] = {
+									["count"] = 24.09,
+								},
+							},
+							["amount"] = 30.09,
+						},
+						["暗滩执行者"] = {
+							["Details"] = {
+								["寒冰箭"] = {
+									["count"] = 13.5,
+								},
+								["火焰冲击"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 16.5,
+						},
+						["萨巴克希斯"] = {
+							["Details"] = {
+								["寒冰箭"] = {
+									["count"] = 3,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 6,
+						},
+						["黑海岸蛇颈龙"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 31.45,
+								},
+								["射击"] = {
+									["count"] = 10.81,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 12.11,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.45,
+								},
+							},
+							["amount"] = 55.82000000000001,
+						},
+						["小型峭壁野猪"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 43.48,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 3.45,
+								},
+							},
+							["amount"] = 46.93,
+						},
+						["石腭袭击者"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 25.24000000000001,
+								},
+								["火焰冲击"] = {
+									["count"] = 4.4,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 1.22,
+								},
+							},
+							["amount"] = 32.36,
+						},
+						["黑木巨熊怪"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 3,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.5,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.42,
+								},
+							},
+							["amount"] = 5.92,
+						},
+						["黑木战士"] = {
+							["Details"] = {
+								["火焰冲击"] = {
+									["count"] = 3,
+								},
+								["寒冰箭"] = {
+									["count"] = 21,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+								["暴风雪"] = {
+									["count"] = 12.45,
+								},
+							},
+							["amount"] = 37.95,
+						},
+						["癞爪"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 3.65,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 2.82,
+								},
+								["火焰冲击"] = {
+									["count"] = 0.68,
+								},
+							},
+							["amount"] = 7.15,
+						},
+						["硬壳潮行蟹"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 5.76,
+								},
+								["射击"] = {
+									["count"] = 5.34,
+								},
+								["火球术"] = {
+									["count"] = 9.09,
+								},
+								["寒冰箭"] = {
+									["count"] = 0.95,
+								},
+							},
+							["amount"] = 21.14,
+						},
+						["蓟熊"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+						["耕田小生"] = {
+							["Details"] = {
+								["冰冻"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["森林陆行鸟"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 2.3,
+								},
+								["暴风雪"] = {
+									["count"] = 7.95,
+								},
+							},
+							["amount"] = 10.25,
+						},
+						["暗滩精兵"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 3,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+								["魔爆术"] = {
+									["count"] = 3,
+								},
+								["寒冰箭"] = {
+									["count"] = 3,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 4.65,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 16.65,
+						},
+						["霜鬃先知"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 25.88,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 27.38,
+						},
+						["雪狼"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.5,
+								},
+								["火球术"] = {
+									["count"] = 6.460000000000001,
+								},
+								["火焰冲击"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 8.96,
+						},
+						["灰雾滩行者"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 22.22,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 13.5,
+								},
+								["冰冻"] = {
+									["count"] = 1.5,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+								["魔爆术"] = {
+									["count"] = 1.8,
+								},
+								["寒冰箭"] = {
+									["count"] = 1.21,
+								},
+								["射击"] = {
+									["count"] = 1.8,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 45.03,
+						},
+						["灰雾潮行者"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 11.57,
+								},
+								["射击"] = {
+									["count"] = 4.76,
+								},
+								["火球术"] = {
+									["count"] = 31.32,
+								},
+							},
+							["amount"] = 47.65,
+						},
+						["冬狼"] = {
+							["Details"] = {
+								["冰冻"] = {
+									["count"] = 1.38,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 5.71,
+								},
+								["寒冰箭"] = {
+									["count"] = 3,
+								},
+								["火球术"] = {
+									["count"] = 13.31,
+								},
+							},
+							["amount"] = 24.9,
+						},
+						["峭壁野猪"] = {
+							["Details"] = {
+								["冰冻"] = {
+									["count"] = 0.4,
+								},
+								["肉搏"] = {
+									["count"] = 1.07,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 15.38,
+								},
+								["寒冰箭"] = {
+									["count"] = 6.14,
+								},
+								["火球术"] = {
+									["count"] = 89.88000000000001,
+								},
+								["火焰冲击"] = {
+									["count"] = 6.779999999999999,
+								},
+							},
+							["amount"] = 119.65,
+						},
+						["霜鬃巨魔"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 10.58,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 4.5,
+								},
+							},
+							["amount"] = 15.08,
+						},
+						["蓬毛幼狼"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 26.97,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 28.47,
+						},
+						["鹿"] = {
+							["Details"] = {
+								["火焰冲击"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["黑幕追踪者"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 1.48,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 3,
+								},
+								["火球术"] = {
+									["count"] = 8.02,
+								},
+								["魔爆术"] = {
+									["count"] = 5.48,
+								},
+								["火焰冲击"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 20.98,
+						},
+						["老黑熊"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 9,
+								},
+								["射击"] = {
+									["count"] = 14.55,
+								},
+								["火球术"] = {
+									["count"] = 59.71,
+								},
+							},
+							["amount"] = 83.26000000000002,
+						},
+						["戴瑟雷萨特"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 8.469999999999999,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 9.969999999999999,
+						},
+						["黑熊幼崽"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 19.32,
+								},
+								["寒冰箭"] = {
+									["count"] = 3,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.5,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.15,
+								},
+							},
+							["amount"] = 24.97,
+						},
+						["瓦加什"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 5.42,
+								},
+							},
+							["amount"] = 5.42,
+						},
+						["砂石地占师"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 9.52,
+								},
+								["寒冰箭"] = {
+									["count"] = 4.5,
+								},
+								["火球术"] = {
+									["count"] = 4.66,
+								},
+								["火焰冲击"] = {
+									["count"] = 2.18,
+								},
+							},
+							["amount"] = 20.86,
+						},
+						["冰须"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 4.5,
+								},
+								["寒冰箭"] = {
+									["count"] = 4.16,
+								},
+								["冰冻"] = {
+									["count"] = 4.5,
+								},
+								["火球术"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 16.16,
+						},
+						["黑木风语者"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 22.22,
+								},
+								["射击"] = {
+									["count"] = 4.08,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.81,
+								},
+							},
+							["amount"] = 28.11,
+						},
+						["破损的傀儡"] = {
+							["Details"] = {
+								["射击"] = {
+									["count"] = 2.38,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+								["火球术"] = {
+									["count"] = 14.59,
+								},
+								["寒冰箭"] = {
+									["count"] = 24,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 4.529999999999999,
+								},
+								["荆棘术"] = {
+									["count"] = 0.33,
+								},
+							},
+							["amount"] = 47.33,
+						},
+						["霜鬃猎头者"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 15,
+								},
+								["火球术"] = {
+									["count"] = 35.51,
+								},
+								["火焰冲击"] = {
+									["count"] = 3.55,
+								},
+							},
+							["amount"] = 54.06,
+						},
+						["灰雾智者"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 16.62,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 16.5,
+								},
+							},
+							["amount"] = 33.12,
+						},
+						["灰雾猎人"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 20.28,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 32.28,
+						},
+						["灰雾撒网者"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.5,
+								},
+								["射击"] = {
+									["count"] = 1.38,
+								},
+								["火球术"] = {
+									["count"] = 4.34,
+								},
+							},
+							["amount"] = 7.22,
+						},
+						["哀嚎的贵族"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 3,
+								},
+								["火球术"] = {
+									["count"] = 22.23,
+								},
+								["火焰冲击"] = {
+									["count"] = 2.48,
+								},
+							},
+							["amount"] = 27.71,
+						},
+						["蓬毛森林狼"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 4.11,
+								},
+							},
+							["amount"] = 4.11,
+						},
+						["霜鬃巨魔幼崽"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 9.370000000000001,
+								},
+								["火球术"] = {
+									["count"] = 53.75000000000001,
+								},
+								["冰冻"] = {
+									["count"] = 1.08,
+								},
+								["肉搏"] = {
+									["count"] = 2.7,
+								},
+							},
+							["amount"] = 66.9,
+						},
+						["坑道鼠斥候"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.77,
+								},
+								["射击"] = {
+									["count"] = 2.73,
+								},
+								["火球术"] = {
+									["count"] = 3.12,
+								},
+							},
+							["amount"] = 7.620000000000001,
+						},
+						["砂石斥候"] = {
+							["Details"] = {
+								["荆棘术"] = {
+									["count"] = 1.5,
+								},
+								["冰冻"] = {
+									["count"] = 1.5,
+								},
+								["冰霜新星"] = {
+									["count"] = 2.45,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 8.01,
+								},
+								["寒冰箭"] = {
+									["count"] = 9,
+								},
+								["火球术"] = {
+									["count"] = 10,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 33.96,
+						},
+						["虚空行者"] = {
+							["Details"] = {
+								["魔爆术"] = {
+									["count"] = 4.5,
+								},
+								["寒冰箭"] = {
+									["count"] = 1.5,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 7.5,
+						},
+						["碎石怪斥候"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 87.00999999999999,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 31.5,
+								},
+							},
+							["amount"] = 118.51,
+						},
+						["碎石怪先知"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 21.64,
+								},
+								["射击"] = {
+									["count"] = 3.27,
+								},
+								["火球术"] = {
+									["count"] = 61.79,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 88.19999999999997,
+						},
+						["月夜猛虎"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 10.42,
+								},
+								["射击"] = {
+									["count"] = 16.67,
+								},
+								["火球术"] = {
+									["count"] = 50.92000000000001,
+								},
+							},
+							["amount"] = 78.01,
+						},
+						["坑道鼠地卜师"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 42.69000000000001,
+								},
+								["射击"] = {
+									["count"] = 4.5,
+								},
+								["冰冻"] = {
+									["count"] = 0.95,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 2.02,
+								},
+							},
+							["amount"] = 50.16000000000001,
+						},
+						["坑道鼠征粮官"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 19.54,
+								},
+								["射击"] = {
+									["count"] = 2.99,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 2.97,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.52,
+								},
+							},
+							["amount"] = 27.02,
+						},
+						["碎石怪击颅者"] = {
+							["Details"] = {
+								["冰冻"] = {
+									["count"] = 0.79,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+								["火球术"] = {
+									["count"] = 61.68000000000002,
+								},
+								["射击"] = {
+									["count"] = 44.76,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 36.79999999999999,
+								},
+								["火焰冲击"] = {
+									["count"] = 0.25,
+								},
+							},
+							["amount"] = 145.7799999999999,
+						},
+						["碎石穴居人"] = {
+							["Details"] = {
+								["冰冻"] = {
+									["count"] = 0.64,
+								},
+								["冰霜新星"] = {
+									["count"] = 0.77,
+								},
+								["火球术"] = {
+									["count"] = 77.17999999999999,
+								},
+								["寒冰箭"] = {
+									["count"] = 1.88,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 26.11,
+								},
+								["肉搏"] = {
+									["count"] = 2.77,
+								},
+							},
+							["amount"] = 109.35,
+						},
+						["冰爪熊"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 1.5,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 17.33,
+								},
+								["寒冰箭"] = {
+									["count"] = 1.64,
+								},
+								["火球术"] = {
+									["count"] = 45.96,
+								},
+								["火焰冲击"] = {
+									["count"] = 3.93,
+								},
+							},
+							["amount"] = 70.36,
+						},
+						["大峭壁野猪"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 33.45999999999999,
+								},
+								["寒冰箭"] = {
+									["count"] = 2.02,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 7.5,
+								},
+								["火焰冲击"] = {
+									["count"] = 4.13,
+								},
+							},
+							["amount"] = 47.11000000000001,
+						},
+						["恶灵劣魔"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 47.14,
+								},
+								["射击"] = {
+									["count"] = 20.42,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 11.89,
+								},
+							},
+							["amount"] = 79.45000000000002,
+						},
+						["冷酷的格瑞克尼尔"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 7.449999999999999,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 8.95,
+						},
+						["安娜雅·晨路"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 5.83,
+								},
+							},
+							["amount"] = 5.83,
+						},
+						["幽爪奔跑者"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["雷鳞御浪者"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 9,
+								},
+								["寒冰箭"] = {
+									["count"] = 0.96,
+								},
+								["火球术"] = {
+									["count"] = 22.59,
+								},
+							},
+							["amount"] = 32.55,
+						},
+						["野生劣魔"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 25.89,
+								},
+								["射击"] = {
+									["count"] = 16.14,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 10.5,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 54.03,
+						},
+						["麻疯侏儒"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 17.88,
+								},
+								["火焰冲击"] = {
+									["count"] = 0.86,
+								},
+								["火球术"] = {
+									["count"] = 85.63999999999999,
+								},
+								["肉搏"] = {
+									["count"] = 9.58,
+								},
+							},
+							["amount"] = 113.96,
+						},
+						["挣扎的贵族"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 7.84,
+								},
+								["寒冰箭"] = {
+									["count"] = 1.5,
+								},
+								["射击"] = {
+									["count"] = 17.37,
+								},
+								["火球术"] = {
+									["count"] = 21.86,
+								},
+							},
+							["amount"] = 50.07,
+						},
+						["狂暴的月夜枭兽"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+								["火球术"] = {
+									["count"] = 6.88,
+								},
+								["射击"] = {
+									["count"] = 2.3,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 7.96,
+								},
+								["火焰冲击"] = {
+									["count"] = 0.88,
+								},
+							},
+							["amount"] = 19.52,
+						},
+						["森林潜伏者"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 10.79,
+								},
+								["射击"] = {
+									["count"] = 6.12,
+								},
+								["火球术"] = {
+									["count"] = 78.36000000000001,
+								},
+								["火焰冲击"] = {
+									["count"] = 0.81,
+								},
+							},
+							["amount"] = 96.08000000000001,
+						},
+						["玛洛什"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 5.89,
+								},
+							},
+							["amount"] = 5.89,
+						},
+						["灰雾战士"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+								["火球术"] = {
+									["count"] = 40.10000000000001,
+								},
+								["射击"] = {
+									["count"] = 3.85,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 9.65,
+								},
+								["魔爆术"] = {
+									["count"] = 2.91,
+								},
+							},
+							["amount"] = 58.01000000000001,
+						},
+						["石巨兽"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 10.59,
+								},
+								["寒冰箭"] = {
+									["count"] = 7.5,
+								},
+								["火球术"] = {
+									["count"] = 27.89,
+								},
+								["火焰冲击"] = {
+									["count"] = 3.92,
+								},
+							},
+							["amount"] = 49.9,
+						},
+						["砂石断骨者"] = {
+							["Details"] = {
+								["寒冰箭"] = {
+									["count"] = 3,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.5,
+								},
+								["冰霜新星"] = {
+									["count"] = 0.14,
+								},
+							},
+							["amount"] = 4.64,
+						},
+						["灰雾先知"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 4.5,
+								},
+								["射击"] = {
+									["count"] = 1.44,
+								},
+								["火球术"] = {
+									["count"] = 16.12,
+								},
+							},
+							["amount"] = 22.06,
+						},
+						["暮光信徒"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 9,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.21,
+								},
+								["火球术"] = {
+									["count"] = 13.62,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.08,
+								},
+							},
+							["amount"] = 24.91,
+						},
+						["暮光暴徒"] = {
+							["Details"] = {
+								["冰冻"] = {
+									["count"] = 1.1,
+								},
+								["冰霜新星"] = {
+									["count"] = 2.29,
+								},
+								["火球术"] = {
+									["count"] = 40.17,
+								},
+								["射击"] = {
+									["count"] = 6.48,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 17.04,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 68.58,
+						},
+						["雪豹"] = {
+							["Details"] = {
+								["冰冻"] = {
+									["count"] = 0.53,
+								},
+								["肉搏"] = {
+									["count"] = 0.83,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 15.28,
+								},
+								["寒冰箭"] = {
+									["count"] = 0.69,
+								},
+								["火球术"] = {
+									["count"] = 38.98,
+								},
+								["火焰冲击"] = {
+									["count"] = 4.66,
+								},
+							},
+							["amount"] = 60.96999999999999,
+						},
+						["暗滩狂热者"] = {
+							["Details"] = {
+								["冰冻"] = {
+									["count"] = 1.24,
+								},
+								["冰霜新星"] = {
+									["count"] = 0.9,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 17.21,
+								},
+								["射击"] = {
+									["count"] = 7.06,
+								},
+								["火球术"] = {
+									["count"] = 61.06,
+								},
+							},
+							["amount"] = 87.46999999999996,
+						},
+						["雷鳞海妖"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 19.5,
+								},
+								["寒冰箭"] = {
+									["count"] = 0.67,
+								},
+								["火球术"] = {
+									["count"] = 21.07,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.11,
+								},
+							},
+							["amount"] = 42.34999999999999,
+						},
+						["狂暴蓟熊"] = {
+							["Details"] = {
+								["射击"] = {
+									["count"] = 9.28,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+								["火球术"] = {
+									["count"] = 103.37,
+								},
+								["寒冰箭"] = {
+									["count"] = 1.93,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 37.45,
+								},
+								["火焰冲击"] = {
+									["count"] = 2.53,
+								},
+							},
+							["amount"] = 156.06,
+						},
+						["治疗结界"] = {
+							["Details"] = {
+								["射击"] = {
+									["count"] = 6,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 7.5,
+						},
+						["暗滩祭司"] = {
+							["Details"] = {
+								["魔爆术"] = {
+									["count"] = 1.5,
+								},
+								["寒冰箭"] = {
+									["count"] = 6,
+								},
+								["火焰冲击"] = {
+									["count"] = 3.54,
+								},
+							},
+							["amount"] = 11.04,
+						},
+					},
+					["ManaGain"] = 350,
+					["PartialAbsorb"] = {
+						["火球术"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["投掷"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 71,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 71,
+							["amount"] = 0,
+						},
+						["火焰箭"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["射击"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["雷霆一击"] = {
+							["Details"] = {
+								["被吸收"] = {
+									["max"] = 16,
+									["min"] = 12,
+									["count"] = 2,
+									["amount"] = 28,
+								},
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 28,
+						},
+						["腐蚀术 (伤害/跳)"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["被吸收"] = {
+									["max"] = 18,
+									["min"] = 6,
+									["count"] = 5,
+									["amount"] = 78,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 78,
+						},
+						["闪电箭"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 33,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 33,
+							["amount"] = 0,
+						},
+						["腐蚀术"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["火焰之盾效果"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["被吸收"] = {
+									["max"] = 34,
+									["min"] = 21,
+									["count"] = 9,
+									["amount"] = 231,
+								},
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 595,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 604,
+							["amount"] = 231,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 24,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 24,
+							["amount"] = 0,
+						},
+						["神圣惩击"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+						["暗影箭"] = {
+							["Details"] = {
+								["被吸收"] = {
+									["max"] = 90,
+									["min"] = 77,
+									["count"] = 2,
+									["amount"] = 167,
+								},
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 167,
+						},
+						["精灵之火"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["冰霜震击"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["毁灭"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["火焰冲击"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["雪怪"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 9,
+								},
+								["火球术"] = {
+									["count"] = 1863,
+								},
+								["火焰冲击"] = {
+									["count"] = 117,
+								},
+							},
+							["amount"] = 1989,
+						},
+						["月夜猛虎幼崽"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 213,
+								},
+							},
+							["amount"] = 213,
+						},
+						["黑木图腾师"] = {
+							["Details"] = {
+								["魔爆术"] = {
+									["count"] = 413,
+								},
+								["暴风雪"] = {
+									["count"] = 2528,
+								},
+								["冰霜新星"] = {
+									["count"] = 284,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 6,
+								},
+								["寒冰箭"] = {
+									["count"] = 1169,
+								},
+								["火球术"] = {
+									["count"] = 576,
+								},
+								["火焰冲击"] = {
+									["count"] = 406,
+								},
+							},
+							["amount"] = 5382,
+						},
+						["月夜枭兽"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 47,
+								},
+							},
+							["amount"] = 47,
+						},
+						["山猪"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 6,
+								},
+								["射击"] = {
+									["count"] = 84,
+								},
+								["火球术"] = {
+									["count"] = 1946,
+								},
+								["火焰冲击"] = {
+									["count"] = 43,
+								},
+							},
+							["amount"] = 2079,
+						},
+						["被诅咒的贵族"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 1829,
+								},
+								["射击"] = {
+									["count"] = 100,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 18,
+								},
+								["寒冰箭"] = {
+									["count"] = 56,
+								},
+							},
+							["amount"] = 2003,
+						},
+						["老峭壁野猪"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 1306,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 1309,
+						},
+						["黑木探路者"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 16,
+								},
+								["寒冰箭"] = {
+									["count"] = 180,
+								},
+								["火球术"] = {
+									["count"] = 1975,
+								},
+								["射击"] = {
+									["count"] = 61,
+								},
+							},
+							["amount"] = 2232,
+						},
+						["霜鬃暗法师"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 184,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 185,
+						},
+						["莫克迪普"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 378,
+								},
+								["火焰冲击"] = {
+									["count"] = 177,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 14,
+								},
+								["冰霜新星"] = {
+									["count"] = 25,
+								},
+							},
+							["amount"] = 594,
+						},
+						["坑道鼠歹徒"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 4,
+								},
+								["射击"] = {
+									["count"] = 32,
+								},
+								["火球术"] = {
+									["count"] = 1140,
+								},
+								["冰霜新星"] = {
+									["count"] = 45,
+								},
+							},
+							["amount"] = 1221,
+						},
+						["灰斑蓟熊"] = {
+							["Details"] = {
+								["荆棘术"] = {
+									["count"] = 6,
+								},
+								["寒冰箭"] = {
+									["count"] = 374,
+								},
+								["冰霜新星"] = {
+									["count"] = 25,
+								},
+								["火球术"] = {
+									["count"] = 2927,
+								},
+								["射击"] = {
+									["count"] = 62,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 26,
+								},
+								["火焰冲击"] = {
+									["count"] = 355,
+								},
+							},
+							["amount"] = 3775,
+						},
+						["霜鬃雪行者"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 1118,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 1122,
+						},
+						["坑道鼠狗头人"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 481,
+								},
+								["射击"] = {
+									["count"] = 41,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 524,
+						},
+						["暗礁蟹"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 30,
+								},
+								["射击"] = {
+									["count"] = 113,
+								},
+								["火球术"] = {
+									["count"] = 6954,
+								},
+							},
+							["amount"] = 7097,
+						},
+						["小潮行蟹"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 16,
+								},
+								["射击"] = {
+									["count"] = 96,
+								},
+								["火球术"] = {
+									["count"] = 3134,
+								},
+							},
+							["amount"] = 3246,
+						},
+						["霜鬃剥皮者"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 412,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 415,
+						},
+						["老年深海蛇颈龙"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 4,
+								},
+								["射击"] = {
+									["count"] = 28,
+								},
+								["火球术"] = {
+									["count"] = 394,
+								},
+							},
+							["amount"] = 426,
+						},
+						["石腭断骨者"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 45,
+								},
+								["火球术"] = {
+									["count"] = 1902,
+								},
+								["寒冰箭"] = {
+									["count"] = 63,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 9,
+								},
+								["火焰冲击"] = {
+									["count"] = 92,
+								},
+							},
+							["amount"] = 2111,
+						},
+						["石腭击颅者"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 21,
+								},
+								["火球术"] = {
+									["count"] = 2650,
+								},
+								["寒冰箭"] = {
+									["count"] = 114,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 12,
+								},
+								["火焰冲击"] = {
+									["count"] = 128,
+								},
+							},
+							["amount"] = 2925,
+						},
+						["石腭穴居人"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 350,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 352,
+						},
+						["坑道鼠掘地工"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 9,
+								},
+								["射击"] = {
+									["count"] = 67,
+								},
+								["火球术"] = {
+									["count"] = 1268,
+								},
+								["火焰冲击"] = {
+									["count"] = 36,
+								},
+							},
+							["amount"] = 1380,
+						},
+						["壮实的石腭穴居人"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1,
+								},
+								["火球术"] = {
+									["count"] = 339,
+								},
+								["肉搏"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 350,
+						},
+						["暗滩挖掘者"] = {
+							["Details"] = {
+								["寒冰箭"] = {
+									["count"] = 1004,
+								},
+							},
+							["amount"] = 1004,
+						},
+						["小鬼爪牙"] = {
+							["Details"] = {
+								["魔爆术"] = {
+									["count"] = 47,
+								},
+								["寒冰箭"] = {
+									["count"] = 123,
+								},
+							},
+							["amount"] = 170,
+						},
+						["雪怪幼崽"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 768,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 771,
+						},
+						["暗滩执行者"] = {
+							["Details"] = {
+								["魔爆术"] = {
+									["count"] = 134,
+								},
+								["寒冰箭"] = {
+									["count"] = 1126,
+								},
+								["冰霜新星"] = {
+									["count"] = 60,
+								},
+								["火焰冲击"] = {
+									["count"] = 187,
+								},
+							},
+							["amount"] = 1507,
+						},
+						["黑海岸蛇颈龙"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 2270,
+								},
+								["射击"] = {
+									["count"] = 161,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 22,
+								},
+								["火焰冲击"] = {
+									["count"] = 90,
+								},
+							},
+							["amount"] = 2543,
+						},
+						["小型峭壁野猪"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 619,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 622,
+						},
+						["石腭袭击者"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 408,
+								},
+								["火焰冲击"] = {
+									["count"] = 195,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1,
+								},
+								["肉搏"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 615,
+						},
+						["萨巴克希斯"] = {
+							["Details"] = {
+								["寒冰箭"] = {
+									["count"] = 118,
+								},
+								["冰霜新星"] = {
+									["count"] = 25,
+								},
+								["火焰冲击"] = {
+									["count"] = 93,
+								},
+							},
+							["amount"] = 236,
+						},
+						["治疗结界"] = {
+							["Details"] = {
+								["射击"] = {
+									["count"] = 49,
+								},
+							},
+							["amount"] = 49,
+						},
+						["癞爪"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 174,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 2,
+								},
+								["火焰冲击"] = {
+									["count"] = 47,
+								},
+							},
+							["amount"] = 223,
+						},
+						["黑木战士"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 301,
+								},
+								["魔爆术"] = {
+									["count"] = 231,
+								},
+								["寒冰箭"] = {
+									["count"] = 1552,
+								},
+								["火焰冲击"] = {
+									["count"] = 182,
+								},
+								["暴风雪"] = {
+									["count"] = 3655,
+								},
+							},
+							["amount"] = 5921,
+						},
+						["蓟熊"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 98,
+								},
+							},
+							["amount"] = 98,
+						},
+						["灰雾智者"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 1981,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 2003,
+						},
+						["森林陆行鸟"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 46,
+								},
+								["暴风雪"] = {
+									["count"] = 312,
+								},
+							},
+							["amount"] = 358,
+						},
+						["硬壳潮行蟹"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 12,
+								},
+								["射击"] = {
+									["count"] = 47,
+								},
+								["火球术"] = {
+									["count"] = 771,
+								},
+								["寒冰箭"] = {
+									["count"] = 84,
+								},
+							},
+							["amount"] = 914,
+						},
+						["霜鬃先知"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 1066,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1067,
+						},
+						["雪狼"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1,
+								},
+								["火球术"] = {
+									["count"] = 293,
+								},
+								["火焰冲击"] = {
+									["count"] = 43,
+								},
+							},
+							["amount"] = 337,
+						},
+						["灰雾滩行者"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 1938,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 18,
+								},
+								["冰霜新星"] = {
+									["count"] = 48,
+								},
+								["魔爆术"] = {
+									["count"] = 175,
+								},
+								["寒冰箭"] = {
+									["count"] = 86,
+								},
+								["射击"] = {
+									["count"] = 47,
+								},
+								["火焰冲击"] = {
+									["count"] = 89,
+								},
+							},
+							["amount"] = 2401,
+						},
+						["灰雾潮行者"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 18,
+								},
+								["射击"] = {
+									["count"] = 61,
+								},
+								["火球术"] = {
+									["count"] = 2109,
+								},
+							},
+							["amount"] = 2188,
+						},
+						["黑木巨熊怪"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 44,
+								},
+								["魔爆术"] = {
+									["count"] = 44,
+								},
+								["暴风雪"] = {
+									["count"] = 45,
+								},
+								["火球术"] = {
+									["count"] = 184,
+								},
+								["火焰冲击"] = {
+									["count"] = 87,
+								},
+							},
+							["amount"] = 404,
+						},
+						["峭壁野猪"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 10,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 12,
+								},
+								["寒冰箭"] = {
+									["count"] = 102,
+								},
+								["火球术"] = {
+									["count"] = 2480,
+								},
+								["火焰冲击"] = {
+									["count"] = 226,
+								},
+							},
+							["amount"] = 2830,
+						},
+						["冬狼"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 5,
+								},
+								["寒冰箭"] = {
+									["count"] = 40,
+								},
+								["火球术"] = {
+									["count"] = 469,
+								},
+								["冰霜新星"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 534,
+						},
+						["蓬毛幼狼"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 394,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 395,
+						},
+						["鹿"] = {
+							["Details"] = {
+								["火焰冲击"] = {
+									["count"] = 81,
+								},
+							},
+							["amount"] = 81,
+						},
+						["黑幕追踪者"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 45,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 4,
+								},
+								["火球术"] = {
+									["count"] = 648,
+								},
+								["魔爆术"] = {
+									["count"] = 366,
+								},
+								["火焰冲击"] = {
+									["count"] = 177,
+								},
+							},
+							["amount"] = 1240,
+						},
+						["老黑熊"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 9,
+								},
+								["射击"] = {
+									["count"] = 196,
+								},
+								["火球术"] = {
+									["count"] = 2667,
+								},
+							},
+							["amount"] = 2872,
+						},
+						["霜鬃巨魔"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 510,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 513,
+						},
+						["黑熊幼崽"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 578,
+								},
+								["寒冰箭"] = {
+									["count"] = 41,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1,
+								},
+								["火焰冲击"] = {
+									["count"] = 56,
+								},
+							},
+							["amount"] = 676,
+						},
+						["瓦加什"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 225,
+								},
+							},
+							["amount"] = 225,
+						},
+						["霜鬃巨魔幼崽"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 8,
+								},
+								["火球术"] = {
+									["count"] = 770,
+								},
+								["肉搏"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 786,
+						},
+						["暗滩精兵"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 191,
+								},
+								["冰霜新星"] = {
+									["count"] = 24,
+								},
+								["魔爆术"] = {
+									["count"] = 116,
+								},
+								["寒冰箭"] = {
+									["count"] = 251,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 8,
+								},
+								["火焰冲击"] = {
+									["count"] = 86,
+								},
+							},
+							["amount"] = 676,
+						},
+						["砂石断骨者"] = {
+							["Details"] = {
+								["寒冰箭"] = {
+									["count"] = 249,
+								},
+								["火焰冲击"] = {
+									["count"] = 83,
+								},
+							},
+							["amount"] = 332,
+						},
+						["戴瑟雷萨特"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 572,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 574,
+						},
+						["霜鬃猎头者"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 10,
+								},
+								["火球术"] = {
+									["count"] = 1787,
+								},
+								["火焰冲击"] = {
+									["count"] = 126,
+								},
+							},
+							["amount"] = 1923,
+						},
+						["破损的傀儡"] = {
+							["Details"] = {
+								["荆棘术"] = {
+									["count"] = 6,
+								},
+								["寒冰箭"] = {
+									["count"] = 2024,
+								},
+								["冰霜新星"] = {
+									["count"] = 24,
+								},
+								["火球术"] = {
+									["count"] = 882,
+								},
+								["射击"] = {
+									["count"] = 32,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 8,
+								},
+								["火焰冲击"] = {
+									["count"] = 94,
+								},
+							},
+							["amount"] = 3070,
+						},
+						["灰雾猎人"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 1984,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 16,
+								},
+							},
+							["amount"] = 2000,
+						},
+						["灰雾撒网者"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 2,
+								},
+								["射击"] = {
+									["count"] = 21,
+								},
+								["火球术"] = {
+									["count"] = 285,
+								},
+							},
+							["amount"] = 308,
+						},
+						["哀嚎的贵族"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 4,
+								},
+								["火球术"] = {
+									["count"] = 1545,
+								},
+								["火焰冲击"] = {
+									["count"] = 160,
+								},
+							},
+							["amount"] = 1709,
+						},
+						["冰须"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 3,
+								},
+								["寒冰箭"] = {
+									["count"] = 96,
+								},
+								["火球术"] = {
+									["count"] = 113,
+								},
+							},
+							["amount"] = 212,
+						},
+						["麻疯侏儒"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 14,
+								},
+								["火焰冲击"] = {
+									["count"] = 38,
+								},
+								["火球术"] = {
+									["count"] = 3533,
+								},
+								["肉搏"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 3606,
+						},
+						["碎石怪先知"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 16,
+								},
+								["火球术"] = {
+									["count"] = 2846,
+								},
+								["火焰冲击"] = {
+									["count"] = 67,
+								},
+							},
+							["amount"] = 2929,
+						},
+						["砂石斥候"] = {
+							["Details"] = {
+								["荆棘术"] = {
+									["count"] = 6,
+								},
+								["冰霜新星"] = {
+									["count"] = 46,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 12,
+								},
+								["寒冰箭"] = {
+									["count"] = 741,
+								},
+								["火球术"] = {
+									["count"] = 1124,
+								},
+								["火焰冲击"] = {
+									["count"] = 174,
+								},
+							},
+							["amount"] = 2103,
+						},
+						["虚空行者"] = {
+							["Details"] = {
+								["魔爆术"] = {
+									["count"] = 157,
+								},
+								["寒冰箭"] = {
+									["count"] = 125,
+								},
+								["冰霜新星"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 306,
+						},
+						["碎石怪斥候"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 4317,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 4338,
+						},
+						["坑道鼠斥候"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 2,
+								},
+								["射击"] = {
+									["count"] = 30,
+								},
+								["火球术"] = {
+									["count"] = 169,
+								},
+							},
+							["amount"] = 201,
+						},
+						["安娜雅·晨路"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 399,
+								},
+							},
+							["amount"] = 399,
+						},
+						["坑道鼠地卜师"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 2,
+								},
+								["射击"] = {
+									["count"] = 45,
+								},
+								["火球术"] = {
+									["count"] = 1895,
+								},
+							},
+							["amount"] = 1942,
+						},
+						["碎石怪击颅者"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 66,
+								},
+								["火球术"] = {
+									["count"] = 2788,
+								},
+								["射击"] = {
+									["count"] = 114,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 30,
+								},
+								["火焰冲击"] = {
+									["count"] = 39,
+								},
+							},
+							["amount"] = 3037,
+						},
+						["月夜猛虎"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 20,
+								},
+								["射击"] = {
+									["count"] = 219,
+								},
+								["火球术"] = {
+									["count"] = 3642,
+								},
+								["冰霜新星"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 3904,
+						},
+						["坑道鼠征粮官"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 862,
+								},
+								["射击"] = {
+									["count"] = 27,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 2,
+								},
+								["冰霜新星"] = {
+									["count"] = 49,
+								},
+							},
+							["amount"] = 940,
+						},
+						["冰爪熊"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 13,
+								},
+								["寒冰箭"] = {
+									["count"] = 43,
+								},
+								["火球术"] = {
+									["count"] = 1752,
+								},
+								["火焰冲击"] = {
+									["count"] = 166,
+								},
+							},
+							["amount"] = 1974,
+						},
+						["大峭壁野猪"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 962,
+								},
+								["寒冰箭"] = {
+									["count"] = 39,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 5,
+								},
+								["火焰冲击"] = {
+									["count"] = 121,
+								},
+							},
+							["amount"] = 1127,
+						},
+						["恶灵劣魔"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 3421,
+								},
+								["射击"] = {
+									["count"] = 274,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 3717,
+						},
+						["冷酷的格瑞克尼尔"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 116,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 117,
+						},
+						["碎石穴居人"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 44,
+								},
+								["火球术"] = {
+									["count"] = 3684,
+								},
+								["寒冰箭"] = {
+									["count"] = 90,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 19,
+								},
+								["肉搏"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3839,
+						},
+						["幽爪奔跑者"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 23,
+						},
+						["雷鳞御浪者"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 12,
+								},
+								["寒冰箭"] = {
+									["count"] = 84,
+								},
+								["火球术"] = {
+									["count"] = 1784,
+								},
+							},
+							["amount"] = 1880,
+						},
+						["野生劣魔"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 1927,
+								},
+								["射击"] = {
+									["count"] = 268,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 24,
+								},
+								["冰霜新星"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 2243,
+						},
+						["蓬毛森林狼"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 58,
+								},
+							},
+							["amount"] = 58,
+						},
+						["挣扎的贵族"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 24,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 26,
+								},
+								["寒冰箭"] = {
+									["count"] = 27,
+								},
+								["射击"] = {
+									["count"] = 156,
+								},
+								["火球术"] = {
+									["count"] = 1543,
+								},
+							},
+							["amount"] = 1776,
+						},
+						["狂暴的月夜枭兽"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 47,
+								},
+								["火球术"] = {
+									["count"] = 471,
+								},
+								["射击"] = {
+									["count"] = 28,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 12,
+								},
+								["火焰冲击"] = {
+									["count"] = 90,
+								},
+							},
+							["amount"] = 648,
+						},
+						["森林潜伏者"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 9,
+								},
+								["射击"] = {
+									["count"] = 100,
+								},
+								["火球术"] = {
+									["count"] = 3486,
+								},
+								["火焰冲击"] = {
+									["count"] = 45,
+								},
+							},
+							["amount"] = 3640,
+						},
+						["玛洛什"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 366,
+								},
+							},
+							["amount"] = 366,
+						},
+						["灰雾战士"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 48,
+								},
+								["火球术"] = {
+									["count"] = 2908,
+								},
+								["射击"] = {
+									["count"] = 46,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 16,
+								},
+								["魔爆术"] = {
+									["count"] = 270,
+								},
+							},
+							["amount"] = 3288,
+						},
+						["石巨兽"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 16,
+								},
+								["寒冰箭"] = {
+									["count"] = 616,
+								},
+								["火球术"] = {
+									["count"] = 2286,
+								},
+								["火焰冲击"] = {
+									["count"] = 265,
+								},
+							},
+							["amount"] = 3183,
+						},
+						["黑木风语者"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 1413,
+								},
+								["射击"] = {
+									["count"] = 67,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 1484,
+						},
+						["灰雾先知"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 6,
+								},
+								["射击"] = {
+									["count"] = 17,
+								},
+								["火球术"] = {
+									["count"] = 1113,
+								},
+							},
+							["amount"] = 1136,
+						},
+						["砂石地占师"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 14,
+								},
+								["寒冰箭"] = {
+									["count"] = 310,
+								},
+								["火球术"] = {
+									["count"] = 418,
+								},
+								["火焰冲击"] = {
+									["count"] = 184,
+								},
+							},
+							["amount"] = 926,
+						},
+						["暮光信徒"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 12,
+								},
+								["火焰冲击"] = {
+									["count"] = 178,
+								},
+								["火球术"] = {
+									["count"] = 1350,
+								},
+								["冰霜新星"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 1563,
+						},
+						["雪豹"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 1675,
+								},
+								["寒冰箭"] = {
+									["count"] = 20,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 11,
+								},
+								["火焰冲击"] = {
+									["count"] = 131,
+								},
+							},
+							["amount"] = 1837,
+						},
+						["暗滩狂热者"] = {
+							["Details"] = {
+								["火球术"] = {
+									["count"] = 4080,
+								},
+								["射击"] = {
+									["count"] = 64,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 36,
+								},
+								["冰霜新星"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 4204,
+						},
+						["雷鳞海妖"] = {
+							["Details"] = {
+								["火球术 (伤害/跳)"] = {
+									["count"] = 26,
+								},
+								["寒冰箭"] = {
+									["count"] = 84,
+								},
+								["火球术"] = {
+									["count"] = 2082,
+								},
+								["火焰冲击"] = {
+									["count"] = 86,
+								},
+							},
+							["amount"] = 2278,
+						},
+						["狂暴蓟熊"] = {
+							["Details"] = {
+								["射击"] = {
+									["count"] = 135,
+								},
+								["冰霜新星"] = {
+									["count"] = 48,
+								},
+								["火球术"] = {
+									["count"] = 8147,
+								},
+								["寒冰箭"] = {
+									["count"] = 118,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 58,
+								},
+								["火焰冲击"] = {
+									["count"] = 175,
+								},
+							},
+							["amount"] = 8681,
+						},
+						["暮光暴徒"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 73,
+								},
+								["火球术"] = {
+									["count"] = 3456,
+								},
+								["射击"] = {
+									["count"] = 84,
+								},
+								["火球术 (伤害/跳)"] = {
+									["count"] = 26,
+								},
+								["火焰冲击"] = {
+									["count"] = 85,
+								},
+							},
+							["amount"] = 3724,
+						},
+						["暗滩祭司"] = {
+							["Details"] = {
+								["魔爆术"] = {
+									["count"] = 66,
+								},
+								["寒冰箭"] = {
+									["count"] = 497,
+								},
+								["火焰冲击"] = {
+									["count"] = 301,
+								},
+							},
+							["amount"] = 864,
+						},
+					},
+				},
+			},
+			["NextEventNum"] = 28,
+			["LastDamageTime"] = 5260.74,
+			["LastEvents"] = {
+				"暗滩祭司 暗影箭 查尔斯三世 Absorb -90 (90 被吸收) (Shadow)", -- [1]
+				"查尔斯三世 火焰冲击 暗滩祭司 Crit -132 (Fire)", -- [2]
+				"查尔斯三世 寒冰箭 暗滩祭司 Hit -128 (Frost)", -- [3]
+				"查尔斯三世 寒冰箭 暗滩祭司 Hit -123 (Frost)", -- [4]
+				"暗滩祭司 腐蚀术 (伤害/跳) 查尔斯三世 Absorb -18 (18 被吸收) (Shadow)", -- [5]
+				"查尔斯三世 寒冰箭 暗滩祭司 Hit -124 (Frost)", -- [6]
+				"暗滩祭司 腐蚀术 (伤害/跳) 查尔斯三世 Absorb -18 (18 被吸收) (Shadow)", -- [7]
+				"暗滩祭司 腐蚀术 (伤害/跳) 查尔斯三世 Absorb -18 (18 被吸收) (Shadow)", -- [8]
+				"暗滩祭司 腐蚀术 (伤害/跳) 查尔斯三世 Absorb -18 (18 被吸收) (Shadow)", -- [9]
+				"查尔斯三世 寒冰箭 暗滩执行者 Hit -125 (Frost)", -- [10]
+				"查尔斯三世 寒冰箭 暗滩执行者 Hit -126 (Frost)", -- [11]
+				"暗滩祭司 腐蚀术 (伤害/跳) 查尔斯三世 Absorb -6 (Shadow)", -- [12]
+				"暗滩祭司 腐蚀术 (伤害/跳) 查尔斯三世 Tick -12 (6 被吸收) (Shadow)", -- [13]
+				"查尔斯三世 寒冰箭 暗滩执行者 Hit -121 (Frost)", -- [14]
+				"查尔斯三世 寒冰箭 暗滩执行者 Hit -123 (Frost)", -- [15]
+				"查尔斯三世 寒冰箭 暗滩执行者 Hit -127 (Frost)", -- [16]
+				"查尔斯三世 寒冰箭 暗滩执行者 Hit -125 (Frost)", -- [17]
+				"查尔斯三世 寒冰箭 暗滩执行者 Hit -128 (Frost)", -- [18]
+				"查尔斯三世 寒冰箭 暗滩执行者 Hit -128 (Frost)", -- [19]
+				"查尔斯三世 寒冰箭 暗滩挖掘者 Hit -128 (Frost)", -- [20]
+				"查尔斯三世 寒冰箭 暗滩挖掘者 Hit -128 (Frost)", -- [21]
+				"查尔斯三世 寒冰箭 暗滩挖掘者 Hit -127 (Frost)", -- [22]
+				"查尔斯三世 寒冰箭 暗滩挖掘者 Hit -128 (Frost)", -- [23]
+				"查尔斯三世 寒冰箭 暗滩挖掘者 Hit -122 (Frost)", -- [24]
+				"查尔斯三世 寒冰箭 暗滩挖掘者 Hit -127 (Frost)", -- [25]
+				"查尔斯三世 寒冰箭 暗滩挖掘者 Hit -120 (Frost)", -- [26]
+				"查尔斯三世 寒冰箭 暗滩挖掘者 Hit -124 (Frost)", -- [27]
+				"凛寒 回春术 查尔斯三世 Tick +29", -- [28]
+				"查尔斯三世 魔爆术 暗滩精兵 Miss (Arcane)", -- [29]
+				"查尔斯三世 魔爆术 暗滩执行者 Hit -45 (Arcane)", -- [30]
+				"暗滩精兵 肉搏 查尔斯三世 Hit -18 (Physical)", -- [31]
+				"查尔斯三世 冰霜新星 暗滩精兵 Hit -24 (Frost)", -- [32]
+				"查尔斯三世 冰霜新星 暗滩执行者 Crit -37 (Frost)", -- [33]
+				"凛寒 回春术 查尔斯三世 Tick +29", -- [34]
+				"暗滩精兵 肉搏 查尔斯三世 Hit -17 (Physical)", -- [35]
+				"查尔斯三世 火焰冲击 暗滩精兵 Hit -86 (Fire)", -- [36]
+				"暗滩执行者 肉搏 查尔斯三世 Hit -34 (Physical)", -- [37]
+				"暗滩执行者 肉搏 查尔斯三世 Hit -39 (Physical)", -- [38]
+				"查尔斯三世 寒冰箭 暗滩执行者 Hit -123 (Frost)", -- [39]
+				"查尔斯三世 寒冰箭 小鬼爪牙 Hit -123 (Frost)", -- [40]
+				"查尔斯三世 火焰冲击 暗滩祭司 Hit -85 (Fire)", -- [41]
+				"小鬼爪牙 火焰箭 查尔斯三世 Hit -33 (Fire)", -- [42]
+				"暗滩祭司 暗影箭 查尔斯三世 Hit -88 (Shadow)", -- [43]
+				"小鬼爪牙 火焰箭 查尔斯三世 Hit -34 (Fire)", -- [44]
+				"查尔斯三世 魔爆术 小鬼爪牙 Hit -47 (Arcane)", -- [45]
+				"查尔斯三世 魔爆术 暗滩祭司 Crit -66 (Arcane)", -- [46]
+				"暗滩祭司 暗影箭 查尔斯三世 Hit -83 (Shadow)", -- [47]
+				"暗滩祭司 腐蚀术 查尔斯三世 Miss (Shadow)", -- [48]
+				"查尔斯三世 魔爆术 暗滩祭司 Miss (Arcane)", -- [49]
+				"查尔斯三世 寒冰箭 暗滩祭司 Hit -122 (Frost)", -- [50]
+			},
+			["Name"] = "查尔斯三世",
+			["LastDamageTaken"] = 12,
 			["DeathLogs"] = {
 				{
 					["MessageIncoming"] = {
@@ -495,27071 +8529,279 @@ RecountPerCharDB = {
 					},
 				}, -- [4]
 			},
-			["LastDamageTaken"] = 10,
+			["LastHealTime"] = 11871.812,
+			["UnitLockout"] = 5118.517,
+			["LastAbility"] = 585.208,
+		},
+		["凛寒"] = {
+			["GUID"] = "Player-4778-050CF3DB",
+			["LastEventHealth"] = {
+				404, -- [1]
+				404, -- [2]
+				404, -- [3]
+				404, -- [4]
+				404, -- [5]
+				404, -- [6]
+				404, -- [7]
+				404, -- [8]
+				404, -- [9]
+				404, -- [10]
+				404, -- [11]
+				404, -- [12]
+				404, -- [13]
+				404, -- [14]
+				404, -- [15]
+				404, -- [16]
+				404, -- [17]
+				404, -- [18]
+				404, -- [19]
+				404, -- [20]
+				404, -- [21]
+				404, -- [22]
+				404, -- [23]
+				404, -- [24]
+				404, -- [25]
+				404, -- [26]
+				404, -- [27]
+				404, -- [28]
+				404, -- [29]
+				404, -- [30]
+				404, -- [31]
+				404, -- [32]
+				404, -- [33]
+				404, -- [34]
+				404, -- [35]
+				404, -- [36]
+				404, -- [37]
+				404, -- [38]
+				404, -- [39]
+				404, -- [40]
+				404, -- [41]
+				404, -- [42]
+				404, -- [43]
+				404, -- [44]
+				404, -- [45]
+				404, -- [46]
+				404, -- [47]
+				404, -- [48]
+				404, -- [49]
+				404, -- [50]
+			},
+			["LastAttackedBy"] = "破损的傀儡",
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+				"HEAL", -- [4]
+				"HEAL", -- [5]
+				"HEAL", -- [6]
+				"HEAL", -- [7]
+				"HEAL", -- [8]
+				"HEAL", -- [9]
+				"HEAL", -- [10]
+				"HEAL", -- [11]
+				"HEAL", -- [12]
+				"HEAL", -- [13]
+				"HEAL", -- [14]
+				"HEAL", -- [15]
+				"HEAL", -- [16]
+				"HEAL", -- [17]
+				"HEAL", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"HEAL", -- [21]
+				"DAMAGE", -- [22]
+				"HEAL", -- [23]
+				"HEAL", -- [24]
+				"HEAL", -- [25]
+				"HEAL", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"HEAL", -- [29]
+				"HEAL", -- [30]
+				"HEAL", -- [31]
+				"HEAL", -- [32]
+				"HEAL", -- [33]
+				"HEAL", -- [34]
+				"HEAL", -- [35]
+				"DAMAGE", -- [36]
+				"HEAL", -- [37]
+				"HEAL", -- [38]
+				"DAMAGE", -- [39]
+				"HEAL", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"HEAL", -- [43]
+				"DAMAGE", -- [44]
+				"HEAL", -- [45]
+				"HEAL", -- [46]
+				"HEAL", -- [47]
+				"HEAL", -- [48]
+				"HEAL", -- [49]
+				"HEAL", -- [50]
+			},
+			["TimeWindows"] = {
+				["TimeHeal"] = {
+					16.5, -- [1]
+				},
+				["Healing"] = {
+					368, -- [1]
+				},
+				["DamageTaken"] = {
+					576, -- [1]
+				},
+				["HealingTaken"] = {
+					144, -- [1]
+				},
+				["Overhealing"] = {
+					382, -- [1]
+				},
+				["TimeDamage"] = {
+					118.48, -- [1]
+				},
+				["ActiveTime"] = {
+					134.98, -- [1]
+				},
+				["HOT_Time"] = {
+					60, -- [1]
+				},
+				["DOT_Time"] = {
+					18, -- [1]
+				},
+				["Damage"] = {
+					3754, -- [1]
+				},
+			},
+			["enClass"] = "DRUID",
+			["unit"] = true,
+			["level"] = 18,
+			["LastDamageAbility"] = "肉搏",
+			["LastFightIn"] = 617,
+			["LastHealTime"] = 4859.916,
+			["type"] = "Ungrouped",
+			["FightsSaved"] = 5,
+			["LastEventHealthMax"] = {
+				404, -- [1]
+				404, -- [2]
+				404, -- [3]
+				404, -- [4]
+				404, -- [5]
+				404, -- [6]
+				404, -- [7]
+				404, -- [8]
+				404, -- [9]
+				404, -- [10]
+				404, -- [11]
+				404, -- [12]
+				404, -- [13]
+				404, -- [14]
+				404, -- [15]
+				404, -- [16]
+				404, -- [17]
+				404, -- [18]
+				404, -- [19]
+				404, -- [20]
+				404, -- [21]
+				404, -- [22]
+				404, -- [23]
+				404, -- [24]
+				404, -- [25]
+				404, -- [26]
+				404, -- [27]
+				404, -- [28]
+				404, -- [29]
+				404, -- [30]
+				404, -- [31]
+				404, -- [32]
+				404, -- [33]
+				404, -- [34]
+				404, -- [35]
+				404, -- [36]
+				404, -- [37]
+				404, -- [38]
+				404, -- [39]
+				404, -- [40]
+				404, -- [41]
+				404, -- [42]
+				404, -- [43]
+				404, -- [44]
+				404, -- [45]
+				404, -- [46]
+				404, -- [47]
+				404, -- [48]
+				404, -- [49]
+				404, -- [50]
+			},
+			["LastDamageTaken"] = 26,
 			["Owner"] = false,
-			["Fights"] = {
-				["OverallData"] = {
-					["TimeHealing"] = {
-						["查尔斯三世"] = {
-							["Details"] = {
-								["治疗药水"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["DOTs"] = {
-						["火球术 (伤害/跳)"] = {
-							["Details"] = {
-								["雪怪"] = {
-									["count"] = 18,
-								},
-								["黑木图腾师"] = {
-									["count"] = 6,
-								},
-								["坑道鼠征粮官"] = {
-									["count"] = 4,
-								},
-								["碎石怪击颅者"] = {
-									["count"] = 60,
-								},
-								["被诅咒的贵族"] = {
-									["count"] = 18,
-								},
-								["冬狼"] = {
-									["count"] = 10,
-								},
-								["黑木探路者"] = {
-									["count"] = 16,
-								},
-								["霜鬃暗法师"] = {
-									["count"] = 2,
-								},
-								["莫克迪普"] = {
-									["count"] = 14,
-								},
-								["坑道鼠歹徒"] = {
-									["count"] = 8,
-								},
-								["灰斑蓟熊"] = {
-									["count"] = 26,
-								},
-								["霜鬃雪行者"] = {
-									["count"] = 8,
-								},
-								["坑道鼠狗头人"] = {
-									["count"] = 4,
-								},
-								["暗礁蟹"] = {
-									["count"] = 30,
-								},
-								["小潮行蟹"] = {
-									["count"] = 16,
-								},
-								["霜鬃剥皮者"] = {
-									["count"] = 6,
-								},
-								["老年深海蛇颈龙"] = {
-									["count"] = 4,
-								},
-								["石腭断骨者"] = {
-									["count"] = 18,
-								},
-								["石腭击颅者"] = {
-									["count"] = 24,
-								},
-								["石腭穴居人"] = {
-									["count"] = 4,
-								},
-								["坑道鼠掘地工"] = {
-									["count"] = 18,
-								},
-								["麻疯侏儒"] = {
-									["count"] = 28,
-								},
-								["黑海岸蛇颈龙"] = {
-									["count"] = 22,
-								},
-								["小型峭壁野猪"] = {
-									["count"] = 6,
-								},
-								["石腭袭击者"] = {
-									["count"] = 2,
-								},
-								["灰雾智者"] = {
-									["count"] = 22,
-								},
-								["霜鬃先知"] = {
-									["count"] = 2,
-								},
-								["雪狼"] = {
-									["count"] = 2,
-								},
-								["灰雾滩行者"] = {
-									["count"] = 18,
-								},
-								["灰雾潮行者"] = {
-									["count"] = 18,
-								},
-								["峭壁野猪"] = {
-									["count"] = 24,
-								},
-								["蓬毛幼狼"] = {
-									["count"] = 2,
-								},
-								["碎石怪先知"] = {
-									["count"] = 32,
-								},
-								["老黑熊"] = {
-									["count"] = 18,
-								},
-								["黑熊幼崽"] = {
-									["count"] = 2,
-								},
-								["暗滩精兵"] = {
-									["count"] = 8,
-								},
-								["霜鬃猎头者"] = {
-									["count"] = 20,
-								},
-								["黑幕追踪者"] = {
-									["count"] = 4,
-								},
-								["暮光暴徒"] = {
-									["count"] = 26,
-								},
-								["暮光信徒"] = {
-									["count"] = 12,
-								},
-								["哀嚎的贵族"] = {
-									["count"] = 4,
-								},
-								["冰须"] = {
-									["count"] = 6,
-								},
-								["砂石地占师"] = {
-									["count"] = 14,
-								},
-								["戴瑟雷萨特"] = {
-									["count"] = 2,
-								},
-								["砂石斥候"] = {
-									["count"] = 12,
-								},
-								["破损的傀儡"] = {
-									["count"] = 8,
-								},
-								["碎石怪斥候"] = {
-									["count"] = 42,
-								},
-								["灰雾猎人"] = {
-									["count"] = 16,
-								},
-								["雪豹"] = {
-									["count"] = 22,
-								},
-								["坑道鼠地卜师"] = {
-									["count"] = 4,
-								},
-								["灰雾撒网者"] = {
-									["count"] = 2,
-								},
-								["黑木风语者"] = {
-									["count"] = 4,
-								},
-								["雪怪幼崽"] = {
-									["count"] = 6,
-								},
-								["碎石穴居人"] = {
-									["count"] = 38,
-								},
-								["大峭壁野猪"] = {
-									["count"] = 10,
-								},
-								["恶灵劣魔"] = {
-									["count"] = 22,
-								},
-								["冷酷的格瑞克尼尔"] = {
-									["count"] = 2,
-								},
-								["壮实的石腭穴居人"] = {
-									["count"] = 2,
-								},
-								["月夜猛虎"] = {
-									["count"] = 20,
-								},
-								["雷鳞御浪者"] = {
-									["count"] = 12,
-								},
-								["野生劣魔"] = {
-									["count"] = 24,
-								},
-								["坑道鼠斥候"] = {
-									["count"] = 4,
-								},
-								["挣扎的贵族"] = {
-									["count"] = 26,
-								},
-								["狂暴的月夜枭兽"] = {
-									["count"] = 12,
-								},
-								["森林潜伏者"] = {
-									["count"] = 18,
-								},
-								["老峭壁野猪"] = {
-									["count"] = 6,
-								},
-								["灰雾战士"] = {
-									["count"] = 16,
-								},
-								["石巨兽"] = {
-									["count"] = 16,
-								},
-								["冰爪熊"] = {
-									["count"] = 26,
-								},
-								["灰雾先知"] = {
-									["count"] = 6,
-								},
-								["癞爪"] = {
-									["count"] = 4,
-								},
-								["霜鬃巨魔幼崽"] = {
-									["count"] = 16,
-								},
-								["霜鬃巨魔"] = {
-									["count"] = 6,
-								},
-								["暗滩狂热者"] = {
-									["count"] = 36,
-								},
-								["雷鳞海妖"] = {
-									["count"] = 26,
-								},
-								["狂暴蓟熊"] = {
-									["count"] = 58,
-								},
-								["硬壳潮行蟹"] = {
-									["count"] = 12,
-								},
-								["山猪"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 1154,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 10,
-						["Shadow"] = 241,
-					},
-					["TimeSpent"] = {
-						["雪怪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 11.18,
-								},
-								["火球术"] = {
-									["count"] = 67.11,
-								},
-								["冰冻"] = {
-									["count"] = 3.14,
-								},
-								["火焰冲击"] = {
-									["count"] = 2.81,
-								},
-							},
-							["amount"] = 84.24000000000001,
-						},
-						["月夜猛虎幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["黑木图腾师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 5.41,
-								},
-								["火焰冲击"] = {
-									["count"] = 2.01,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 13.42,
-						},
-						["月夜枭兽"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 6.59,
-								},
-								["射击"] = {
-									["count"] = 6.859999999999999,
-								},
-								["火球术"] = {
-									["count"] = 39.20999999999999,
-								},
-							},
-							["amount"] = 52.66,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 25.5,
-								},
-								["射击"] = {
-									["count"] = 10.65,
-								},
-								["寒冰箭"] = {
-									["count"] = 1.66,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 7.3,
-								},
-							},
-							["amount"] = 45.10999999999999,
-						},
-						["老峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 28.39,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-							},
-							["amount"] = 32.89,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 10.18,
-								},
-								["寒冰箭"] = {
-									["count"] = 0.91,
-								},
-								["射击"] = {
-									["count"] = 5.45,
-								},
-								["火球术"] = {
-									["count"] = 27.1,
-								},
-							},
-							["amount"] = 43.64,
-						},
-						["霜鬃暗法师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 4.5,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 6,
-						},
-						["莫克迪普"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 5.37,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.27,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9.74,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.94,
-								},
-							},
-							["amount"] = 18.32,
-						},
-						["坑道鼠歹徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.93,
-								},
-								["射击"] = {
-									["count"] = 0.17,
-								},
-								["火球术"] = {
-									["count"] = 22.88,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 29.48,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.03,
-								},
-								["火球术"] = {
-									["count"] = 36.57000000000001,
-								},
-								["射击"] = {
-									["count"] = 5.73,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 17.96,
-								},
-								["火焰冲击"] = {
-									["count"] = 2.81,
-								},
-							},
-							["amount"] = 64.1,
-						},
-						["霜鬃雪行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 23.19,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 29.19,
-						},
-						["坑道鼠狗头人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 10.22,
-								},
-								["射击"] = {
-									["count"] = 3.6,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.13,
-								},
-							},
-							["amount"] = 14.95,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 20.44,
-								},
-								["射击"] = {
-									["count"] = 9.2,
-								},
-								["冰冻"] = {
-									["count"] = 0.25,
-								},
-								["火球术"] = {
-									["count"] = 85.55000000000001,
-								},
-							},
-							["amount"] = 115.44,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 12,
-								},
-								["射击"] = {
-									["count"] = 5.390000000000001,
-								},
-								["火球术"] = {
-									["count"] = 42.21000000000001,
-								},
-							},
-							["amount"] = 59.6,
-						},
-						["霜鬃剥皮者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 9.97,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-							},
-							["amount"] = 14.47,
-						},
-						["老年深海蛇颈龙"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.67,
-								},
-								["射击"] = {
-									["count"] = 2.75,
-								},
-								["火球术"] = {
-									["count"] = 4.88,
-								},
-							},
-							["amount"] = 9.3,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 44.12000000000001,
-								},
-								["寒冰箭"] = {
-									["count"] = 1.13,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 13.06,
-								},
-								["火焰冲击"] = {
-									["count"] = 2.05,
-								},
-							},
-							["amount"] = 61.86,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 15.54,
-								},
-								["寒冰箭"] = {
-									["count"] = 3.51,
-								},
-								["火球术"] = {
-									["count"] = 62.13,
-								},
-								["火焰冲击"] = {
-									["count"] = 3.29,
-								},
-							},
-							["amount"] = 84.47,
-						},
-						["石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 23.46,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.75,
-								},
-							},
-							["amount"] = 25.21,
-						},
-						["坑道鼠掘地工"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9.91,
-								},
-								["射击"] = {
-									["count"] = 6.07,
-								},
-								["火球术"] = {
-									["count"] = 25.72,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 43.2,
-						},
-						["壮实的石腭穴居人"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 24.75,
-								},
-								["肉搏"] = {
-									["count"] = 1.77,
-								},
-							},
-							["amount"] = 28.02,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 31.45,
-								},
-								["射击"] = {
-									["count"] = 10.81,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 12.11,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.45,
-								},
-							},
-							["amount"] = 55.82000000000001,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 43.48,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 3.45,
-								},
-							},
-							["amount"] = 46.93,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 25.24000000000001,
-								},
-								["肉搏"] = {
-									["count"] = 1.22,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-								["火焰冲击"] = {
-									["count"] = 4.4,
-								},
-							},
-							["amount"] = 32.36,
-						},
-						["幽爪奔跑者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["暗滩祭司"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 0.54,
-								},
-							},
-							["amount"] = 0.54,
-						},
-						["暗滩精兵"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.65,
-								},
-								["魔爆术"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 9.15,
-						},
-						["蓟熊"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-						["耕田小生"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["黑木巨熊怪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 3,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.42,
-								},
-							},
-							["amount"] = 4.42,
-						},
-						["治疗结界"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 25.88,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 27.38,
-						},
-						["雪狼"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 6.460000000000001,
-								},
-								["火焰冲击"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 8.96,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["寒冰箭"] = {
-									["count"] = 1.21,
-								},
-								["魔爆术"] = {
-									["count"] = 1.8,
-								},
-								["冰冻"] = {
-									["count"] = 1.5,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 22.22,
-								},
-								["射击"] = {
-									["count"] = 1.8,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 13.5,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 45.03,
-						},
-						["灰雾潮行者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 11.57,
-								},
-								["射击"] = {
-									["count"] = 4.76,
-								},
-								["火球术"] = {
-									["count"] = 31.32,
-								},
-							},
-							["amount"] = 47.65,
-						},
-						["冬狼"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 1.38,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 5.71,
-								},
-								["寒冰箭"] = {
-									["count"] = 3,
-								},
-								["火球术"] = {
-									["count"] = 13.31,
-								},
-							},
-							["amount"] = 24.9,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0.4,
-								},
-								["火焰冲击"] = {
-									["count"] = 6.779999999999999,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 15.38,
-								},
-								["寒冰箭"] = {
-									["count"] = 6.14,
-								},
-								["火球术"] = {
-									["count"] = 89.88000000000001,
-								},
-								["肉搏"] = {
-									["count"] = 1.07,
-								},
-							},
-							["amount"] = 119.65,
-						},
-						["黑幕追踪者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.48,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 3,
-								},
-								["火球术"] = {
-									["count"] = 8.02,
-								},
-								["魔爆术"] = {
-									["count"] = 5.48,
-								},
-								["火焰冲击"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 20.98,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 26.97,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 28.47,
-						},
-						["鹿"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 1.1,
-								},
-								["冰霜新星"] = {
-									["count"] = 2.29,
-								},
-								["火球术"] = {
-									["count"] = 40.17,
-								},
-								["射击"] = {
-									["count"] = 6.48,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 17.04,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 68.58,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9,
-								},
-								["射击"] = {
-									["count"] = 14.55,
-								},
-								["火球术"] = {
-									["count"] = 59.71,
-								},
-							},
-							["amount"] = 83.26000000000002,
-						},
-						["暮光信徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.08,
-								},
-								["火球术"] = {
-									["count"] = 13.62,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.21,
-								},
-							},
-							["amount"] = 24.91,
-						},
-						["黑熊幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 19.32,
-								},
-								["寒冰箭"] = {
-									["count"] = 3,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.15,
-								},
-							},
-							["amount"] = 24.97,
-						},
-						["瓦加什"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 5.42,
-								},
-							},
-							["amount"] = 5.42,
-						},
-						["砂石地占师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 4.66,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9.52,
-								},
-							},
-							["amount"] = 14.18,
-						},
-						["砂石断骨者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0.14,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.64,
-						},
-						["黑木风语者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 22.22,
-								},
-								["射击"] = {
-									["count"] = 4.08,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.81,
-								},
-							},
-							["amount"] = 28.11,
-						},
-						["冰爪熊"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 3.93,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 17.33,
-								},
-								["寒冰箭"] = {
-									["count"] = 1.64,
-								},
-								["火球术"] = {
-									["count"] = 45.96,
-								},
-								["肉搏"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 70.36,
-						},
-						["霜鬃猎头者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 15,
-								},
-								["火球术"] = {
-									["count"] = 35.51,
-								},
-								["火焰冲击"] = {
-									["count"] = 3.55,
-								},
-							},
-							["amount"] = 54.06,
-						},
-						["破损的傀儡"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.529999999999999,
-								},
-								["射击"] = {
-									["count"] = 2.38,
-								},
-								["火球术"] = {
-									["count"] = 14.59,
-								},
-							},
-							["amount"] = 21.5,
-						},
-						["灰雾智者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 16.62,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 16.5,
-								},
-							},
-							["amount"] = 33.12,
-						},
-						["查尔斯三世"] = {
-							["Details"] = {
-								["治疗药水"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["哀嚎的贵族"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 3,
-								},
-								["火球术"] = {
-									["count"] = 22.23,
-								},
-								["火焰冲击"] = {
-									["count"] = 2.48,
-								},
-							},
-							["amount"] = 27.71,
-						},
-						["蓬毛森林狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 4.11,
-								},
-							},
-							["amount"] = 4.11,
-						},
-						["灰雾猎人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 20.28,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 32.28,
-						},
-						["灰雾撒网者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-								["射击"] = {
-									["count"] = 1.38,
-								},
-								["火球术"] = {
-									["count"] = 4.34,
-								},
-							},
-							["amount"] = 7.22,
-						},
-						["砂石斥候"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 1.5,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 8.01,
-								},
-								["火球术"] = {
-									["count"] = 10,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 22.51,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9.370000000000001,
-								},
-								["火球术"] = {
-									["count"] = 53.75000000000001,
-								},
-								["冰冻"] = {
-									["count"] = 1.08,
-								},
-								["肉搏"] = {
-									["count"] = 2.7,
-								},
-							},
-							["amount"] = 66.9,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 87.00999999999999,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 31.5,
-								},
-							},
-							["amount"] = 118.51,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 17.88,
-								},
-								["肉搏"] = {
-									["count"] = 9.58,
-								},
-								["火球术"] = {
-									["count"] = 85.63999999999999,
-								},
-								["火焰冲击"] = {
-									["count"] = 0.86,
-								},
-							},
-							["amount"] = 113.96,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-								["冰冻"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 24.09,
-								},
-							},
-							["amount"] = 30.09,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 42.69000000000001,
-								},
-								["射击"] = {
-									["count"] = 4.5,
-								},
-								["冰冻"] = {
-									["count"] = 0.95,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 2.02,
-								},
-							},
-							["amount"] = 50.16000000000001,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 21.64,
-								},
-								["射击"] = {
-									["count"] = 3.27,
-								},
-								["火球术"] = {
-									["count"] = 61.79,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 88.19999999999997,
-						},
-						["安娜雅·晨路"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 5.83,
-								},
-							},
-							["amount"] = 5.83,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0.79,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 61.68000000000002,
-								},
-								["射击"] = {
-									["count"] = 44.76,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 36.79999999999999,
-								},
-								["火焰冲击"] = {
-									["count"] = 0.25,
-								},
-							},
-							["amount"] = 145.7799999999999,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0.64,
-								},
-								["冰霜新星"] = {
-									["count"] = 0.77,
-								},
-								["火球术"] = {
-									["count"] = 77.17999999999999,
-								},
-								["寒冰箭"] = {
-									["count"] = 1.88,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 26.11,
-								},
-								["肉搏"] = {
-									["count"] = 2.77,
-								},
-							},
-							["amount"] = 109.35,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 33.45999999999999,
-								},
-								["寒冰箭"] = {
-									["count"] = 2.02,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 7.5,
-								},
-								["火焰冲击"] = {
-									["count"] = 4.13,
-								},
-							},
-							["amount"] = 47.11000000000001,
-						},
-						["恶灵劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 47.14,
-								},
-								["射击"] = {
-									["count"] = 20.42,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 11.89,
-								},
-							},
-							["amount"] = 79.45000000000002,
-						},
-						["冷酷的格瑞克尼尔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 7.449999999999999,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 8.95,
-						},
-						["坑道鼠征粮官"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 19.54,
-								},
-								["射击"] = {
-									["count"] = 2.99,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 2.97,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.52,
-								},
-							},
-							["amount"] = 27.02,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 10.42,
-								},
-								["射击"] = {
-									["count"] = 16.67,
-								},
-								["火球术"] = {
-									["count"] = 50.92000000000001,
-								},
-							},
-							["amount"] = 78.01,
-						},
-						["雷鳞御浪者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9,
-								},
-								["寒冰箭"] = {
-									["count"] = 0.96,
-								},
-								["火球术"] = {
-									["count"] = 22.59,
-								},
-							},
-							["amount"] = 32.55,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 25.89,
-								},
-								["射击"] = {
-									["count"] = 16.14,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 10.5,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 54.03,
-						},
-						["坑道鼠斥候"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.77,
-								},
-								["射击"] = {
-									["count"] = 2.73,
-								},
-								["火球术"] = {
-									["count"] = 3.12,
-								},
-							},
-							["amount"] = 7.620000000000001,
-						},
-						["挣扎的贵族"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 7.84,
-								},
-								["寒冰箭"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 21.86,
-								},
-								["射击"] = {
-									["count"] = 17.37,
-								},
-							},
-							["amount"] = 50.07,
-						},
-						["狂暴的月夜枭兽"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 6.88,
-								},
-								["射击"] = {
-									["count"] = 2.3,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 7.96,
-								},
-								["火焰冲击"] = {
-									["count"] = 0.88,
-								},
-							},
-							["amount"] = 19.52,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 10.79,
-								},
-								["射击"] = {
-									["count"] = 6.12,
-								},
-								["火球术"] = {
-									["count"] = 78.36000000000001,
-								},
-								["火焰冲击"] = {
-									["count"] = 0.81,
-								},
-							},
-							["amount"] = 96.08000000000001,
-						},
-						["玛洛什"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 5.89,
-								},
-							},
-							["amount"] = 5.89,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 40.10000000000001,
-								},
-								["射击"] = {
-									["count"] = 3.85,
-								},
-								["魔爆术"] = {
-									["count"] = 2.91,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9.65,
-								},
-							},
-							["amount"] = 58.01000000000001,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 10.59,
-								},
-								["火球术"] = {
-									["count"] = 27.89,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.35,
-								},
-							},
-							["amount"] = 39.83,
-						},
-						["冰须"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-								["寒冰箭"] = {
-									["count"] = 4.16,
-								},
-								["冰冻"] = {
-									["count"] = 4.5,
-								},
-								["火球术"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 16.16,
-						},
-						["灰雾先知"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-								["射击"] = {
-									["count"] = 1.44,
-								},
-								["火球术"] = {
-									["count"] = 16.12,
-								},
-							},
-							["amount"] = 22.06,
-						},
-						["戴瑟雷萨特"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 8.469999999999999,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 9.969999999999999,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0.53,
-								},
-								["火焰冲击"] = {
-									["count"] = 4.66,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 15.28,
-								},
-								["寒冰箭"] = {
-									["count"] = 0.69,
-								},
-								["火球术"] = {
-									["count"] = 38.98,
-								},
-								["肉搏"] = {
-									["count"] = 0.83,
-								},
-							},
-							["amount"] = 60.96999999999999,
-						},
-						["霜鬃巨魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 10.58,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-							},
-							["amount"] = 15.08,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 1.24,
-								},
-								["冰霜新星"] = {
-									["count"] = 0.9,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 17.21,
-								},
-								["射击"] = {
-									["count"] = 7.06,
-								},
-								["火球术"] = {
-									["count"] = 61.06,
-								},
-							},
-							["amount"] = 87.46999999999996,
-						},
-						["雷鳞海妖"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 19.5,
-								},
-								["寒冰箭"] = {
-									["count"] = 0.67,
-								},
-								["火球术"] = {
-									["count"] = 21.07,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.11,
-								},
-							},
-							["amount"] = 42.34999999999999,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["寒冰箭"] = {
-									["count"] = 1.93,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 103.37,
-								},
-								["射击"] = {
-									["count"] = 9.28,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 37.45,
-								},
-								["火焰冲击"] = {
-									["count"] = 2.53,
-								},
-							},
-							["amount"] = 156.06,
-						},
-						["硬壳潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 5.76,
-								},
-								["射击"] = {
-									["count"] = 5.34,
-								},
-								["寒冰箭"] = {
-									["count"] = 0.95,
-								},
-								["火球术"] = {
-									["count"] = 9.09,
-								},
-							},
-							["amount"] = 21.14,
-						},
-						["癞爪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 3.65,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 2.82,
-								},
-								["火焰冲击"] = {
-									["count"] = 0.68,
-								},
-							},
-							["amount"] = 7.15,
-						},
-					},
-					["DamageTaken"] = 15664,
-					["PartialResist"] = {
-						["精灵之火"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 2,
-						},
-						["火球术"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 3,
-						},
-						["闪电箭"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 33,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 33,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 5,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 71,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 71,
-						},
-						["神圣惩击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 9,
-						},
-						["Falling"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 22,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 22,
-						},
-						["火焰冲击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 2,
-						},
-						["暗影箭"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 6,
-						},
-						["冰霜震击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-						["火焰之盾效果"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-						["射击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 4,
-						},
-						["毁灭"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 2,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 540,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 540,
-						},
-					},
-					["DeathCount"] = 4,
-					["PartialAbsorb"] = {
-						["精灵之火"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["火球术"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["闪电箭"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 33,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 33,
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 71,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 71,
-							["amount"] = 0,
-						},
-						["神圣惩击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 0,
-						},
-						["Falling"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 22,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 22,
-							["amount"] = 0,
-						},
-						["火焰冲击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["暗影箭"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["冰霜震击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["火焰之盾效果"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["射击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["毁灭"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 540,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 540,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 3662.579999999997,
-					["ElementTaken"] = {
-						["Shadow"] = 355,
-						["Melee"] = 10198,
-						["Holy"] = 358,
-						["Physical"] = 2741,
-						["Fire"] = 436,
-						["Frost"] = 10,
-						["Nature"] = 1566,
-					},
-					["DOT_Time"] = 1154,
-					["Damage"] = 143381,
-					["TimeHeal"] = 3,
-					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Resist"] = {
-									["count"] = 3,
-								},
-								["Miss"] = {
-									["count"] = 19,
-								},
-								["Hit"] = {
-									["count"] = 79,
-								},
-							},
-							["amount"] = 101,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 10,
-								},
-								["Hit"] = {
-									["count"] = 7,
-								},
-								["Miss"] = {
-									["count"] = 2,
-								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 20,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 18,
-								},
-							},
-							["amount"] = 19,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 54,
-								},
-								["Tick"] = {
-									["count"] = 577,
-								},
-								["Hit"] = {
-									["count"] = 1848,
-								},
-								["Crit"] = {
-									["count"] = 112,
-								},
-								["Evade"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2593,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 10,
-								},
-								["Hit"] = {
-									["count"] = 202,
-								},
-							},
-							["amount"] = 212,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 43,
-								},
-							},
-							["amount"] = 43,
-						},
-					},
-					["WhoHealed"] = {
-						["查尔斯三世"] = {
-							["Details"] = {
-								["治疗药水"] = {
-									["count"] = 158,
-								},
-							},
-							["amount"] = 158,
-						},
-					},
-					["Healing"] = 158,
-					["HealedWho"] = {
-						["查尔斯三世"] = {
-							["Details"] = {
-								["治疗药水"] = {
-									["count"] = 158,
-								},
-							},
-							["amount"] = 158,
-						},
-					},
-					["Heals"] = {
-						["治疗药水"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 85,
-									["min"] = 73,
-									["count"] = 2,
-									["amount"] = 158,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 158,
-						},
-					},
-					["ElementDone"] = {
-						["Shadow"] = 2923,
-						["Melee"] = 62,
-						["Arcane"] = 881,
-						["Fire"] = 137143,
-						["Frost"] = 2372,
-					},
-					["HealingTaken"] = 158,
-					["DamagedWho"] = {
-						["雪怪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9,
-								},
-								["火球术"] = {
-									["count"] = 1863,
-								},
-								["火焰冲击"] = {
-									["count"] = 117,
-								},
-							},
-							["amount"] = 1989,
-						},
-						["月夜猛虎幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 213,
-								},
-							},
-							["amount"] = 213,
-						},
-						["黑木图腾师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 576,
-								},
-								["火焰冲击"] = {
-									["count"] = 188,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 6,
-								},
-								["冰霜新星"] = {
-									["count"] = 48,
-								},
-							},
-							["amount"] = 818,
-						},
-						["月夜枭兽"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 47,
-								},
-							},
-							["amount"] = 47,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 6,
-								},
-								["射击"] = {
-									["count"] = 84,
-								},
-								["火球术"] = {
-									["count"] = 1946,
-								},
-								["火焰冲击"] = {
-									["count"] = 43,
-								},
-							},
-							["amount"] = 2079,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 1829,
-								},
-								["射击"] = {
-									["count"] = 100,
-								},
-								["寒冰箭"] = {
-									["count"] = 56,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 18,
-								},
-							},
-							["amount"] = 2003,
-						},
-						["老峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 1306,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 1309,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 16,
-								},
-								["寒冰箭"] = {
-									["count"] = 180,
-								},
-								["射击"] = {
-									["count"] = 61,
-								},
-								["火球术"] = {
-									["count"] = 1975,
-								},
-							},
-							["amount"] = 2232,
-						},
-						["霜鬃暗法师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 184,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 185,
-						},
-						["莫克迪普"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 378,
-								},
-								["冰霜新星"] = {
-									["count"] = 25,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 14,
-								},
-								["火焰冲击"] = {
-									["count"] = 177,
-								},
-							},
-							["amount"] = 594,
-						},
-						["坑道鼠歹徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4,
-								},
-								["射击"] = {
-									["count"] = 32,
-								},
-								["火球术"] = {
-									["count"] = 1140,
-								},
-								["冰霜新星"] = {
-									["count"] = 45,
-								},
-							},
-							["amount"] = 1221,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 25,
-								},
-								["火球术"] = {
-									["count"] = 2927,
-								},
-								["射击"] = {
-									["count"] = 62,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 26,
-								},
-								["火焰冲击"] = {
-									["count"] = 355,
-								},
-							},
-							["amount"] = 3395,
-						},
-						["霜鬃雪行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 1118,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 1122,
-						},
-						["坑道鼠狗头人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 481,
-								},
-								["射击"] = {
-									["count"] = 41,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 524,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 30,
-								},
-								["射击"] = {
-									["count"] = 113,
-								},
-								["火球术"] = {
-									["count"] = 6954,
-								},
-							},
-							["amount"] = 7097,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 16,
-								},
-								["射击"] = {
-									["count"] = 96,
-								},
-								["火球术"] = {
-									["count"] = 3134,
-								},
-							},
-							["amount"] = 3246,
-						},
-						["霜鬃剥皮者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 412,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 415,
-						},
-						["老年深海蛇颈龙"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4,
-								},
-								["射击"] = {
-									["count"] = 28,
-								},
-								["火球术"] = {
-									["count"] = 394,
-								},
-							},
-							["amount"] = 426,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 45,
-								},
-								["火球术"] = {
-									["count"] = 1902,
-								},
-								["寒冰箭"] = {
-									["count"] = 63,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9,
-								},
-								["火焰冲击"] = {
-									["count"] = 92,
-								},
-							},
-							["amount"] = 2111,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 21,
-								},
-								["火球术"] = {
-									["count"] = 2650,
-								},
-								["寒冰箭"] = {
-									["count"] = 114,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 12,
-								},
-								["火焰冲击"] = {
-									["count"] = 128,
-								},
-							},
-							["amount"] = 2925,
-						},
-						["石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 350,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 352,
-						},
-						["坑道鼠掘地工"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9,
-								},
-								["射击"] = {
-									["count"] = 67,
-								},
-								["火球术"] = {
-									["count"] = 1268,
-								},
-								["火焰冲击"] = {
-									["count"] = 36,
-								},
-							},
-							["amount"] = 1380,
-						},
-						["壮实的石腭穴居人"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1,
-								},
-								["火球术"] = {
-									["count"] = 339,
-								},
-								["肉搏"] = {
-									["count"] = 10,
-								},
-							},
-							["amount"] = 350,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 2270,
-								},
-								["射击"] = {
-									["count"] = 161,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 22,
-								},
-								["火焰冲击"] = {
-									["count"] = 90,
-								},
-							},
-							["amount"] = 2543,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 619,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 622,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 408,
-								},
-								["肉搏"] = {
-									["count"] = 11,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1,
-								},
-								["火焰冲击"] = {
-									["count"] = 195,
-								},
-							},
-							["amount"] = 615,
-						},
-						["蓟熊"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 98,
-								},
-							},
-							["amount"] = 98,
-						},
-						["灰雾智者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 1981,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 22,
-								},
-							},
-							["amount"] = 2003,
-						},
-						["幽爪奔跑者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 23,
-								},
-							},
-							["amount"] = 23,
-						},
-						["暗滩祭司"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 84,
-								},
-							},
-							["amount"] = 84,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 1066,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1067,
-						},
-						["雪狼"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1,
-								},
-								["火球术"] = {
-									["count"] = 293,
-								},
-								["火焰冲击"] = {
-									["count"] = 43,
-								},
-							},
-							["amount"] = 337,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["寒冰箭"] = {
-									["count"] = 86,
-								},
-								["魔爆术"] = {
-									["count"] = 175,
-								},
-								["冰霜新星"] = {
-									["count"] = 48,
-								},
-								["火球术"] = {
-									["count"] = 1938,
-								},
-								["射击"] = {
-									["count"] = 47,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 18,
-								},
-								["火焰冲击"] = {
-									["count"] = 89,
-								},
-							},
-							["amount"] = 2401,
-						},
-						["灰雾潮行者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 18,
-								},
-								["射击"] = {
-									["count"] = 61,
-								},
-								["火球术"] = {
-									["count"] = 2109,
-								},
-							},
-							["amount"] = 2188,
-						},
-						["暗滩精兵"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 8,
-								},
-								["魔爆术"] = {
-									["count"] = 70,
-								},
-								["火球术"] = {
-									["count"] = 191,
-								},
-							},
-							["amount"] = 269,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 226,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 12,
-								},
-								["寒冰箭"] = {
-									["count"] = 102,
-								},
-								["火球术"] = {
-									["count"] = 2480,
-								},
-								["肉搏"] = {
-									["count"] = 10,
-								},
-							},
-							["amount"] = 2830,
-						},
-						["黑木巨熊怪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 184,
-								},
-								["冰霜新星"] = {
-									["count"] = 22,
-								},
-							},
-							["amount"] = 206,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 394,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 395,
-						},
-						["鹿"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 81,
-								},
-							},
-							["amount"] = 81,
-						},
-						["冬狼"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 5,
-								},
-								["寒冰箭"] = {
-									["count"] = 40,
-								},
-								["火球术"] = {
-									["count"] = 469,
-								},
-								["冰霜新星"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 534,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9,
-								},
-								["射击"] = {
-									["count"] = 196,
-								},
-								["火球术"] = {
-									["count"] = 2667,
-								},
-							},
-							["amount"] = 2872,
-						},
-						["黑幕追踪者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 45,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4,
-								},
-								["火球术"] = {
-									["count"] = 648,
-								},
-								["魔爆术"] = {
-									["count"] = 366,
-								},
-								["火焰冲击"] = {
-									["count"] = 177,
-								},
-							},
-							["amount"] = 1240,
-						},
-						["黑熊幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 578,
-								},
-								["寒冰箭"] = {
-									["count"] = 41,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1,
-								},
-								["火焰冲击"] = {
-									["count"] = 56,
-								},
-							},
-							["amount"] = 676,
-						},
-						["瓦加什"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 225,
-								},
-							},
-							["amount"] = 225,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 73,
-								},
-								["火球术"] = {
-									["count"] = 3456,
-								},
-								["射击"] = {
-									["count"] = 84,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 26,
-								},
-								["火焰冲击"] = {
-									["count"] = 85,
-								},
-							},
-							["amount"] = 3724,
-						},
-						["暮光信徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 12,
-								},
-								["冰霜新星"] = {
-									["count"] = 23,
-								},
-								["火球术"] = {
-									["count"] = 1350,
-								},
-								["火焰冲击"] = {
-									["count"] = 178,
-								},
-							},
-							["amount"] = 1563,
-						},
-						["砂石地占师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 418,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 14,
-								},
-							},
-							["amount"] = 432,
-						},
-						["砂石断骨者"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 83,
-								},
-							},
-							["amount"] = 83,
-						},
-						["霜鬃猎头者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 10,
-								},
-								["火球术"] = {
-									["count"] = 1787,
-								},
-								["火焰冲击"] = {
-									["count"] = 126,
-								},
-							},
-							["amount"] = 1923,
-						},
-						["黑木风语者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 1413,
-								},
-								["射击"] = {
-									["count"] = 67,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 1484,
-						},
-						["冰爪熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 13,
-								},
-								["寒冰箭"] = {
-									["count"] = 43,
-								},
-								["火球术"] = {
-									["count"] = 1752,
-								},
-								["火焰冲击"] = {
-									["count"] = 166,
-								},
-							},
-							["amount"] = 1974,
-						},
-						["破损的傀儡"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 8,
-								},
-								["射击"] = {
-									["count"] = 32,
-								},
-								["火球术"] = {
-									["count"] = 882,
-								},
-								["火焰冲击"] = {
-									["count"] = 94,
-								},
-							},
-							["amount"] = 1016,
-						},
-						["哀嚎的贵族"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4,
-								},
-								["火球术"] = {
-									["count"] = 1545,
-								},
-								["火焰冲击"] = {
-									["count"] = 160,
-								},
-							},
-							["amount"] = 1709,
-						},
-						["冰须"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 3,
-								},
-								["寒冰箭"] = {
-									["count"] = 96,
-								},
-								["火球术"] = {
-									["count"] = 113,
-								},
-							},
-							["amount"] = 212,
-						},
-						["灰雾猎人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 1984,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 16,
-								},
-							},
-							["amount"] = 2000,
-						},
-						["灰雾撒网者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 2,
-								},
-								["射击"] = {
-									["count"] = 21,
-								},
-								["火球术"] = {
-									["count"] = 285,
-								},
-							},
-							["amount"] = 308,
-						},
-						["砂石斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 1124,
-								},
-								["火焰冲击"] = {
-									["count"] = 174,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 12,
-								},
-								["冰霜新星"] = {
-									["count"] = 23,
-								},
-							},
-							["amount"] = 1333,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 14,
-								},
-								["肉搏"] = {
-									["count"] = 21,
-								},
-								["火球术"] = {
-									["count"] = 3533,
-								},
-								["火焰冲击"] = {
-									["count"] = 38,
-								},
-							},
-							["amount"] = 3606,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 4317,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 21,
-								},
-							},
-							["amount"] = 4338,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 16,
-								},
-								["火球术"] = {
-									["count"] = 2846,
-								},
-								["火焰冲击"] = {
-									["count"] = 67,
-								},
-							},
-							["amount"] = 2929,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 768,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 771,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 2,
-								},
-								["射击"] = {
-									["count"] = 45,
-								},
-								["火球术"] = {
-									["count"] = 1895,
-								},
-							},
-							["amount"] = 1942,
-						},
-						["蓬毛森林狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 58,
-								},
-							},
-							["amount"] = 58,
-						},
-						["安娜雅·晨路"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 399,
-								},
-							},
-							["amount"] = 399,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 66,
-								},
-								["火球术"] = {
-									["count"] = 2788,
-								},
-								["射击"] = {
-									["count"] = 114,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 30,
-								},
-								["火焰冲击"] = {
-									["count"] = 39,
-								},
-							},
-							["amount"] = 3037,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 44,
-								},
-								["火球术"] = {
-									["count"] = 3684,
-								},
-								["寒冰箭"] = {
-									["count"] = 90,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 19,
-								},
-								["肉搏"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 3839,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 962,
-								},
-								["寒冰箭"] = {
-									["count"] = 39,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 5,
-								},
-								["火焰冲击"] = {
-									["count"] = 121,
-								},
-							},
-							["amount"] = 1127,
-						},
-						["恶灵劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 3421,
-								},
-								["射击"] = {
-									["count"] = 274,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 22,
-								},
-							},
-							["amount"] = 3717,
-						},
-						["冷酷的格瑞克尼尔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 116,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 117,
-						},
-						["坑道鼠征粮官"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 862,
-								},
-								["射击"] = {
-									["count"] = 27,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 2,
-								},
-								["冰霜新星"] = {
-									["count"] = 49,
-								},
-							},
-							["amount"] = 940,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 20,
-								},
-								["射击"] = {
-									["count"] = 219,
-								},
-								["火球术"] = {
-									["count"] = 3642,
-								},
-							},
-							["amount"] = 3881,
-						},
-						["雷鳞御浪者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 12,
-								},
-								["寒冰箭"] = {
-									["count"] = 84,
-								},
-								["火球术"] = {
-									["count"] = 1784,
-								},
-							},
-							["amount"] = 1880,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 1927,
-								},
-								["射击"] = {
-									["count"] = 268,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 24,
-								},
-								["冰霜新星"] = {
-									["count"] = 24,
-								},
-							},
-							["amount"] = 2243,
-						},
-						["坑道鼠斥候"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 2,
-								},
-								["射击"] = {
-									["count"] = 30,
-								},
-								["火球术"] = {
-									["count"] = 169,
-								},
-							},
-							["amount"] = 201,
-						},
-						["挣扎的贵族"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 24,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 26,
-								},
-								["寒冰箭"] = {
-									["count"] = 27,
-								},
-								["火球术"] = {
-									["count"] = 1543,
-								},
-								["射击"] = {
-									["count"] = 156,
-								},
-							},
-							["amount"] = 1776,
-						},
-						["狂暴的月夜枭兽"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 47,
-								},
-								["火球术"] = {
-									["count"] = 471,
-								},
-								["射击"] = {
-									["count"] = 28,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 12,
-								},
-								["火焰冲击"] = {
-									["count"] = 90,
-								},
-							},
-							["amount"] = 648,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9,
-								},
-								["射击"] = {
-									["count"] = 100,
-								},
-								["火球术"] = {
-									["count"] = 3486,
-								},
-								["火焰冲击"] = {
-									["count"] = 45,
-								},
-							},
-							["amount"] = 3640,
-						},
-						["玛洛什"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 366,
-								},
-							},
-							["amount"] = 366,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 48,
-								},
-								["火球术"] = {
-									["count"] = 2908,
-								},
-								["射击"] = {
-									["count"] = 46,
-								},
-								["魔爆术"] = {
-									["count"] = 270,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 16,
-								},
-							},
-							["amount"] = 3288,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 16,
-								},
-								["火球术"] = {
-									["count"] = 2286,
-								},
-								["火焰冲击"] = {
-									["count"] = 87,
-								},
-							},
-							["amount"] = 2389,
-						},
-						["戴瑟雷萨特"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 572,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 574,
-						},
-						["灰雾先知"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 6,
-								},
-								["射击"] = {
-									["count"] = 17,
-								},
-								["火球术"] = {
-									["count"] = 1113,
-								},
-							},
-							["amount"] = 1136,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 1675,
-								},
-								["寒冰箭"] = {
-									["count"] = 20,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 11,
-								},
-								["火焰冲击"] = {
-									["count"] = 131,
-								},
-							},
-							["amount"] = 1837,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 8,
-								},
-								["火球术"] = {
-									["count"] = 770,
-								},
-								["肉搏"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 786,
-						},
-						["霜鬃巨魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 510,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 513,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 4080,
-								},
-								["射击"] = {
-									["count"] = 64,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 36,
-								},
-								["冰霜新星"] = {
-									["count"] = 24,
-								},
-							},
-							["amount"] = 4204,
-						},
-						["雷鳞海妖"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 26,
-								},
-								["寒冰箭"] = {
-									["count"] = 84,
-								},
-								["火球术"] = {
-									["count"] = 2082,
-								},
-								["火焰冲击"] = {
-									["count"] = 86,
-								},
-							},
-							["amount"] = 2278,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["寒冰箭"] = {
-									["count"] = 118,
-								},
-								["冰霜新星"] = {
-									["count"] = 48,
-								},
-								["火球术"] = {
-									["count"] = 8147,
-								},
-								["射击"] = {
-									["count"] = 135,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 58,
-								},
-								["火焰冲击"] = {
-									["count"] = 175,
-								},
-							},
-							["amount"] = 8681,
-						},
-						["硬壳潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 12,
-								},
-								["射击"] = {
-									["count"] = 47,
-								},
-								["寒冰箭"] = {
-									["count"] = 84,
-								},
-								["火球术"] = {
-									["count"] = 771,
-								},
-							},
-							["amount"] = 914,
-						},
-						["癞爪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 174,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 2,
-								},
-								["火焰冲击"] = {
-									["count"] = 47,
-								},
-							},
-							["amount"] = 223,
-						},
-					},
-					["TimeDamage"] = 3659.579999999997,
-					["TimeDamaging"] = {
-						["雪怪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 11.18,
-								},
-								["火球术"] = {
-									["count"] = 67.11,
-								},
-								["冰冻"] = {
-									["count"] = 3.14,
-								},
-								["火焰冲击"] = {
-									["count"] = 2.81,
-								},
-							},
-							["amount"] = 84.24000000000001,
-						},
-						["月夜猛虎幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["黑木图腾师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 5.41,
-								},
-								["火焰冲击"] = {
-									["count"] = 2.01,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 13.42,
-						},
-						["月夜枭兽"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 6.59,
-								},
-								["射击"] = {
-									["count"] = 6.859999999999999,
-								},
-								["火球术"] = {
-									["count"] = 39.20999999999999,
-								},
-							},
-							["amount"] = 52.66,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 25.5,
-								},
-								["射击"] = {
-									["count"] = 10.65,
-								},
-								["寒冰箭"] = {
-									["count"] = 1.66,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 7.3,
-								},
-							},
-							["amount"] = 45.10999999999999,
-						},
-						["老峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 28.39,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-							},
-							["amount"] = 32.89,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 10.18,
-								},
-								["寒冰箭"] = {
-									["count"] = 0.91,
-								},
-								["射击"] = {
-									["count"] = 5.45,
-								},
-								["火球术"] = {
-									["count"] = 27.1,
-								},
-							},
-							["amount"] = 43.64,
-						},
-						["霜鬃暗法师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 4.5,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 6,
-						},
-						["莫克迪普"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 5.37,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.27,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9.74,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.94,
-								},
-							},
-							["amount"] = 18.32,
-						},
-						["坑道鼠歹徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.93,
-								},
-								["射击"] = {
-									["count"] = 0.17,
-								},
-								["火球术"] = {
-									["count"] = 22.88,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 29.48,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.03,
-								},
-								["火球术"] = {
-									["count"] = 36.57000000000001,
-								},
-								["射击"] = {
-									["count"] = 5.73,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 17.96,
-								},
-								["火焰冲击"] = {
-									["count"] = 2.81,
-								},
-							},
-							["amount"] = 64.1,
-						},
-						["霜鬃雪行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 23.19,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 29.19,
-						},
-						["坑道鼠狗头人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 10.22,
-								},
-								["射击"] = {
-									["count"] = 3.6,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.13,
-								},
-							},
-							["amount"] = 14.95,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 20.44,
-								},
-								["射击"] = {
-									["count"] = 9.2,
-								},
-								["冰冻"] = {
-									["count"] = 0.25,
-								},
-								["火球术"] = {
-									["count"] = 85.55000000000001,
-								},
-							},
-							["amount"] = 115.44,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 12,
-								},
-								["射击"] = {
-									["count"] = 5.390000000000001,
-								},
-								["火球术"] = {
-									["count"] = 42.21000000000001,
-								},
-							},
-							["amount"] = 59.6,
-						},
-						["霜鬃剥皮者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 9.97,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-							},
-							["amount"] = 14.47,
-						},
-						["老年深海蛇颈龙"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.67,
-								},
-								["射击"] = {
-									["count"] = 2.75,
-								},
-								["火球术"] = {
-									["count"] = 4.88,
-								},
-							},
-							["amount"] = 9.3,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 44.12000000000001,
-								},
-								["寒冰箭"] = {
-									["count"] = 1.13,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 13.06,
-								},
-								["火焰冲击"] = {
-									["count"] = 2.05,
-								},
-							},
-							["amount"] = 61.86,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 15.54,
-								},
-								["寒冰箭"] = {
-									["count"] = 3.51,
-								},
-								["火球术"] = {
-									["count"] = 62.13,
-								},
-								["火焰冲击"] = {
-									["count"] = 3.29,
-								},
-							},
-							["amount"] = 84.47,
-						},
-						["石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 23.46,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.75,
-								},
-							},
-							["amount"] = 25.21,
-						},
-						["坑道鼠掘地工"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9.91,
-								},
-								["射击"] = {
-									["count"] = 6.07,
-								},
-								["火球术"] = {
-									["count"] = 25.72,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 43.2,
-						},
-						["壮实的石腭穴居人"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 24.75,
-								},
-								["肉搏"] = {
-									["count"] = 1.77,
-								},
-							},
-							["amount"] = 28.02,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 31.45,
-								},
-								["射击"] = {
-									["count"] = 10.81,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 12.11,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.45,
-								},
-							},
-							["amount"] = 55.82000000000001,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 43.48,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 3.45,
-								},
-							},
-							["amount"] = 46.93,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 25.24000000000001,
-								},
-								["肉搏"] = {
-									["count"] = 1.22,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-								["火焰冲击"] = {
-									["count"] = 4.4,
-								},
-							},
-							["amount"] = 32.36,
-						},
-						["幽爪奔跑者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["暗滩祭司"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 0.54,
-								},
-							},
-							["amount"] = 0.54,
-						},
-						["蓟熊"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-						["耕田小生"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["暗滩精兵"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.65,
-								},
-								["魔爆术"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 9.15,
-						},
-						["黑木巨熊怪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 3,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.42,
-								},
-							},
-							["amount"] = 4.42,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 25.88,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 27.38,
-						},
-						["雪狼"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 6.460000000000001,
-								},
-								["火焰冲击"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 8.96,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["寒冰箭"] = {
-									["count"] = 1.21,
-								},
-								["魔爆术"] = {
-									["count"] = 1.8,
-								},
-								["冰冻"] = {
-									["count"] = 1.5,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 22.22,
-								},
-								["射击"] = {
-									["count"] = 1.8,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 13.5,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 45.03,
-						},
-						["灰雾潮行者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 11.57,
-								},
-								["射击"] = {
-									["count"] = 4.76,
-								},
-								["火球术"] = {
-									["count"] = 31.32,
-								},
-							},
-							["amount"] = 47.65,
-						},
-						["治疗结界"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0.4,
-								},
-								["火焰冲击"] = {
-									["count"] = 6.779999999999999,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 15.38,
-								},
-								["寒冰箭"] = {
-									["count"] = 6.14,
-								},
-								["火球术"] = {
-									["count"] = 89.88000000000001,
-								},
-								["肉搏"] = {
-									["count"] = 1.07,
-								},
-							},
-							["amount"] = 119.65,
-						},
-						["冬狼"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 1.38,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 5.71,
-								},
-								["寒冰箭"] = {
-									["count"] = 3,
-								},
-								["火球术"] = {
-									["count"] = 13.31,
-								},
-							},
-							["amount"] = 24.9,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 26.97,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 28.47,
-						},
-						["鹿"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["黑幕追踪者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.48,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 3,
-								},
-								["火球术"] = {
-									["count"] = 8.02,
-								},
-								["魔爆术"] = {
-									["count"] = 5.48,
-								},
-								["火焰冲击"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 20.98,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9,
-								},
-								["射击"] = {
-									["count"] = 14.55,
-								},
-								["火球术"] = {
-									["count"] = 59.71,
-								},
-							},
-							["amount"] = 83.26000000000002,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 1.1,
-								},
-								["冰霜新星"] = {
-									["count"] = 2.29,
-								},
-								["火球术"] = {
-									["count"] = 40.17,
-								},
-								["射击"] = {
-									["count"] = 6.48,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 17.04,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 68.58,
-						},
-						["黑熊幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 19.32,
-								},
-								["寒冰箭"] = {
-									["count"] = 3,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.15,
-								},
-							},
-							["amount"] = 24.97,
-						},
-						["瓦加什"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 5.42,
-								},
-							},
-							["amount"] = 5.42,
-						},
-						["暮光信徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.08,
-								},
-								["火球术"] = {
-									["count"] = 13.62,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.21,
-								},
-							},
-							["amount"] = 24.91,
-						},
-						["砂石地占师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 4.66,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9.52,
-								},
-							},
-							["amount"] = 14.18,
-						},
-						["砂石断骨者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0.14,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.64,
-						},
-						["黑木风语者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 22.22,
-								},
-								["射击"] = {
-									["count"] = 4.08,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.81,
-								},
-							},
-							["amount"] = 28.11,
-						},
-						["霜鬃猎头者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 15,
-								},
-								["火球术"] = {
-									["count"] = 35.51,
-								},
-								["火焰冲击"] = {
-									["count"] = 3.55,
-								},
-							},
-							["amount"] = 54.06,
-						},
-						["冰爪熊"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 3.93,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 17.33,
-								},
-								["寒冰箭"] = {
-									["count"] = 1.64,
-								},
-								["火球术"] = {
-									["count"] = 45.96,
-								},
-								["肉搏"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 70.36,
-						},
-						["破损的傀儡"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.529999999999999,
-								},
-								["射击"] = {
-									["count"] = 2.38,
-								},
-								["火球术"] = {
-									["count"] = 14.59,
-								},
-							},
-							["amount"] = 21.5,
-						},
-						["灰雾智者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 16.62,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 16.5,
-								},
-							},
-							["amount"] = 33.12,
-						},
-						["哀嚎的贵族"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 3,
-								},
-								["火球术"] = {
-									["count"] = 22.23,
-								},
-								["火焰冲击"] = {
-									["count"] = 2.48,
-								},
-							},
-							["amount"] = 27.71,
-						},
-						["蓬毛森林狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 4.11,
-								},
-							},
-							["amount"] = 4.11,
-						},
-						["灰雾猎人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 20.28,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 32.28,
-						},
-						["灰雾撒网者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-								["射击"] = {
-									["count"] = 1.38,
-								},
-								["火球术"] = {
-									["count"] = 4.34,
-								},
-							},
-							["amount"] = 7.22,
-						},
-						["砂石斥候"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 1.5,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 8.01,
-								},
-								["火球术"] = {
-									["count"] = 10,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 22.51,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9.370000000000001,
-								},
-								["火球术"] = {
-									["count"] = 53.75000000000001,
-								},
-								["冰冻"] = {
-									["count"] = 1.08,
-								},
-								["肉搏"] = {
-									["count"] = 2.7,
-								},
-							},
-							["amount"] = 66.9,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 87.00999999999999,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 31.5,
-								},
-							},
-							["amount"] = 118.51,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 17.88,
-								},
-								["肉搏"] = {
-									["count"] = 9.58,
-								},
-								["火球术"] = {
-									["count"] = 85.63999999999999,
-								},
-								["火焰冲击"] = {
-									["count"] = 0.86,
-								},
-							},
-							["amount"] = 113.96,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-								["冰冻"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 24.09,
-								},
-							},
-							["amount"] = 30.09,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 42.69000000000001,
-								},
-								["射击"] = {
-									["count"] = 4.5,
-								},
-								["冰冻"] = {
-									["count"] = 0.95,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 2.02,
-								},
-							},
-							["amount"] = 50.16000000000001,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 21.64,
-								},
-								["射击"] = {
-									["count"] = 3.27,
-								},
-								["火球术"] = {
-									["count"] = 61.79,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 88.19999999999997,
-						},
-						["安娜雅·晨路"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 5.83,
-								},
-							},
-							["amount"] = 5.83,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0.79,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 61.68000000000002,
-								},
-								["射击"] = {
-									["count"] = 44.76,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 36.79999999999999,
-								},
-								["火焰冲击"] = {
-									["count"] = 0.25,
-								},
-							},
-							["amount"] = 145.7799999999999,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0.64,
-								},
-								["冰霜新星"] = {
-									["count"] = 0.77,
-								},
-								["火球术"] = {
-									["count"] = 77.17999999999999,
-								},
-								["寒冰箭"] = {
-									["count"] = 1.88,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 26.11,
-								},
-								["肉搏"] = {
-									["count"] = 2.77,
-								},
-							},
-							["amount"] = 109.35,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 33.45999999999999,
-								},
-								["寒冰箭"] = {
-									["count"] = 2.02,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 7.5,
-								},
-								["火焰冲击"] = {
-									["count"] = 4.13,
-								},
-							},
-							["amount"] = 47.11000000000001,
-						},
-						["恶灵劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 47.14,
-								},
-								["射击"] = {
-									["count"] = 20.42,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 11.89,
-								},
-							},
-							["amount"] = 79.45000000000002,
-						},
-						["冷酷的格瑞克尼尔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 7.449999999999999,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 8.95,
-						},
-						["坑道鼠征粮官"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 19.54,
-								},
-								["射击"] = {
-									["count"] = 2.99,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 2.97,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.52,
-								},
-							},
-							["amount"] = 27.02,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 10.42,
-								},
-								["射击"] = {
-									["count"] = 16.67,
-								},
-								["火球术"] = {
-									["count"] = 50.92000000000001,
-								},
-							},
-							["amount"] = 78.01,
-						},
-						["雷鳞御浪者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9,
-								},
-								["寒冰箭"] = {
-									["count"] = 0.96,
-								},
-								["火球术"] = {
-									["count"] = 22.59,
-								},
-							},
-							["amount"] = 32.55,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 25.89,
-								},
-								["射击"] = {
-									["count"] = 16.14,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 10.5,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 54.03,
-						},
-						["坑道鼠斥候"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.77,
-								},
-								["射击"] = {
-									["count"] = 2.73,
-								},
-								["火球术"] = {
-									["count"] = 3.12,
-								},
-							},
-							["amount"] = 7.620000000000001,
-						},
-						["挣扎的贵族"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 7.84,
-								},
-								["寒冰箭"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 21.86,
-								},
-								["射击"] = {
-									["count"] = 17.37,
-								},
-							},
-							["amount"] = 50.07,
-						},
-						["狂暴的月夜枭兽"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 6.88,
-								},
-								["射击"] = {
-									["count"] = 2.3,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 7.96,
-								},
-								["火焰冲击"] = {
-									["count"] = 0.88,
-								},
-							},
-							["amount"] = 19.52,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 10.79,
-								},
-								["射击"] = {
-									["count"] = 6.12,
-								},
-								["火球术"] = {
-									["count"] = 78.36000000000001,
-								},
-								["火焰冲击"] = {
-									["count"] = 0.81,
-								},
-							},
-							["amount"] = 96.08000000000001,
-						},
-						["玛洛什"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 5.89,
-								},
-							},
-							["amount"] = 5.89,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 40.10000000000001,
-								},
-								["射击"] = {
-									["count"] = 3.85,
-								},
-								["魔爆术"] = {
-									["count"] = 2.91,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9.65,
-								},
-							},
-							["amount"] = 58.01000000000001,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 10.59,
-								},
-								["火球术"] = {
-									["count"] = 27.89,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.35,
-								},
-							},
-							["amount"] = 39.83,
-						},
-						["冰须"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-								["寒冰箭"] = {
-									["count"] = 4.16,
-								},
-								["冰冻"] = {
-									["count"] = 4.5,
-								},
-								["火球术"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 16.16,
-						},
-						["灰雾先知"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-								["射击"] = {
-									["count"] = 1.44,
-								},
-								["火球术"] = {
-									["count"] = 16.12,
-								},
-							},
-							["amount"] = 22.06,
-						},
-						["戴瑟雷萨特"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 8.469999999999999,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 9.969999999999999,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0.53,
-								},
-								["火焰冲击"] = {
-									["count"] = 4.66,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 15.28,
-								},
-								["寒冰箭"] = {
-									["count"] = 0.69,
-								},
-								["火球术"] = {
-									["count"] = 38.98,
-								},
-								["肉搏"] = {
-									["count"] = 0.83,
-								},
-							},
-							["amount"] = 60.96999999999999,
-						},
-						["霜鬃巨魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 10.58,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-							},
-							["amount"] = 15.08,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 1.24,
-								},
-								["冰霜新星"] = {
-									["count"] = 0.9,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 17.21,
-								},
-								["射击"] = {
-									["count"] = 7.06,
-								},
-								["火球术"] = {
-									["count"] = 61.06,
-								},
-							},
-							["amount"] = 87.46999999999996,
-						},
-						["雷鳞海妖"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 19.5,
-								},
-								["寒冰箭"] = {
-									["count"] = 0.67,
-								},
-								["火球术"] = {
-									["count"] = 21.07,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.11,
-								},
-							},
-							["amount"] = 42.34999999999999,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["寒冰箭"] = {
-									["count"] = 1.93,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 103.37,
-								},
-								["射击"] = {
-									["count"] = 9.28,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 37.45,
-								},
-								["火焰冲击"] = {
-									["count"] = 2.53,
-								},
-							},
-							["amount"] = 156.06,
-						},
-						["硬壳潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 5.76,
-								},
-								["射击"] = {
-									["count"] = 5.34,
-								},
-								["寒冰箭"] = {
-									["count"] = 0.95,
-								},
-								["火球术"] = {
-									["count"] = 9.09,
-								},
-							},
-							["amount"] = 21.14,
-						},
-						["癞爪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 3.65,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 2.82,
-								},
-								["火焰冲击"] = {
-									["count"] = 0.68,
-								},
-							},
-							["amount"] = 7.15,
-						},
-					},
-					["WhoDamaged"] = {
-						["雪怪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 80,
-								},
-							},
-							["amount"] = 80,
-						},
-						["黑木图腾师"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 72,
-								},
-							},
-							["amount"] = 72,
-						},
-						["月夜枭兽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 165,
-								},
-							},
-							["amount"] = 165,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 141,
-								},
-							},
-							["amount"] = 141,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 61,
-								},
-							},
-							["amount"] = 61,
-						},
-						["冬狼"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 102,
-								},
-							},
-							["amount"] = 102,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 101,
-								},
-							},
-							["amount"] = 101,
-						},
-						["霜鬃暗法师"] = {
-							["Details"] = {
-								["暗影箭"] = {
-									["count"] = 28,
-								},
-							},
-							["amount"] = 28,
-						},
-						["莫克迪普"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 106,
-								},
-							},
-							["amount"] = 106,
-						},
-						["坑道鼠歹徒"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 59,
-								},
-							},
-							["amount"] = 59,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["毁灭"] = {
-									["count"] = 66,
-								},
-								["肉搏"] = {
-									["count"] = 303,
-								},
-							},
-							["amount"] = 369,
-						},
-						["砂石地占师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 304,
-								},
-							},
-							["amount"] = 304,
-						},
-						["坑道鼠狗头人"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 18,
-								},
-							},
-							["amount"] = 18,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 463,
-								},
-							},
-							["amount"] = 463,
-						},
-						["戴瑟雷萨特"] = {
-							["Details"] = {
-								["射击"] = {
-									["count"] = 36,
-								},
-							},
-							["amount"] = 36,
-						},
-						["霜鬃剥皮者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 33,
-								},
-							},
-							["amount"] = 33,
-						},
-						["老年深海蛇颈龙"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 69,
-								},
-							},
-							["amount"] = 69,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 165,
-								},
-							},
-							["amount"] = 165,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 118,
-								},
-							},
-							["amount"] = 118,
-						},
-						["石腭穴居人"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["坑道鼠掘地工"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 216,
-								},
-							},
-							["amount"] = 216,
-						},
-						["壮实的石腭穴居人"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 149,
-								},
-							},
-							["amount"] = 149,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-						["蓟熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 138,
-								},
-							},
-							["amount"] = 138,
-						},
-						["耕田小生"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 650,
-								},
-							},
-							["amount"] = 650,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["闪电箭"] = {
-									["count"] = 111,
-								},
-							},
-							["amount"] = 111,
-						},
-						["雪狼"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 40,
-								},
-							},
-							["amount"] = 40,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 490,
-								},
-							},
-							["amount"] = 490,
-						},
-						["灰雾潮行者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 229,
-								},
-							},
-							["amount"] = 229,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 105,
-								},
-							},
-							["amount"] = 105,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 22,
-								},
-							},
-							["amount"] = 22,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 277,
-								},
-							},
-							["amount"] = 277,
-						},
-						["黑熊幼崽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 28,
-								},
-							},
-							["amount"] = 28,
-						},
-						["暗滩祭司"] = {
-							["Details"] = {
-								["暗影箭"] = {
-									["count"] = 78,
-								},
-							},
-							["amount"] = 78,
-						},
-						["暗滩精兵"] = {
-							["Details"] = {
-								["暗影箭"] = {
-									["count"] = 249,
-								},
-								["肉搏"] = {
-									["count"] = 45,
-								},
-							},
-							["amount"] = 294,
-						},
-						["霜鬃猎头者"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 153,
-								},
-							},
-							["amount"] = 153,
-						},
-						["黑幕追踪者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 194,
-								},
-							},
-							["amount"] = 194,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 606,
-								},
-							},
-							["amount"] = 606,
-						},
-						["暮光信徒"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 133,
-								},
-							},
-							["amount"] = 133,
-						},
-						["哀嚎的贵族"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 32,
-								},
-							},
-							["amount"] = 32,
-						},
-						["冰须"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 153,
-								},
-							},
-							["amount"] = 153,
-						},
-						["砂石断骨者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 165,
-								},
-							},
-							["amount"] = 165,
-						},
-						["冰爪熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 61,
-								},
-							},
-							["amount"] = 61,
-						},
-						["砂石斥候"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 282,
-								},
-							},
-							["amount"] = 282,
-						},
-						["破损的傀儡"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 117,
-								},
-							},
-							["amount"] = 117,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 648,
-								},
-							},
-							["amount"] = 648,
-						},
-						["灰雾智者"] = {
-							["Details"] = {
-								["闪电箭"] = {
-									["count"] = 448,
-								},
-							},
-							["amount"] = 448,
-						},
-						["灰雾猎人"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 439,
-								},
-							},
-							["amount"] = 439,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 55,
-								},
-								["火焰之盾效果"] = {
-									["count"] = 6,
-								},
-								["肉搏"] = {
-									["count"] = 88,
-								},
-							},
-							["amount"] = 149,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 37,
-								},
-							},
-							["amount"] = 37,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 120,
-								},
-							},
-							["amount"] = 120,
-						},
-						["黑木风语者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 24,
-								},
-							},
-							["amount"] = 24,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 298,
-								},
-							},
-							["amount"] = 298,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 76,
-								},
-							},
-							["amount"] = 76,
-						},
-						["坑道鼠征粮官"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 15,
-						},
-						["冷酷的格瑞克尼尔"] = {
-							["Details"] = {
-								["冰霜震击"] = {
-									["count"] = 10,
-								},
-								["肉搏"] = {
-									["count"] = 17,
-								},
-							},
-							["amount"] = 27,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 437,
-								},
-							},
-							["amount"] = 437,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 285,
-								},
-							},
-							["amount"] = 285,
-						},
-						["雷鳞御浪者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 71,
-								},
-							},
-							["amount"] = 71,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 133,
-								},
-							},
-							["amount"] = 133,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 363,
-								},
-							},
-							["amount"] = 363,
-						},
-						["挣扎的贵族"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 141,
-								},
-							},
-							["amount"] = 141,
-						},
-						["狂暴的月夜枭兽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 319,
-								},
-							},
-							["amount"] = 319,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 97,
-								},
-							},
-							["amount"] = 97,
-						},
-						["坑道鼠斥候"] = {
-							["Details"] = {
-								["射击"] = {
-									["count"] = 28,
-								},
-							},
-							["amount"] = 28,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 259,
-								},
-							},
-							["amount"] = 259,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 183,
-								},
-							},
-							["amount"] = 183,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 29,
-								},
-							},
-							["amount"] = 29,
-						},
-						["灰雾先知"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 49,
-								},
-							},
-							["amount"] = 49,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 32,
-								},
-							},
-							["amount"] = 32,
-						},
-						["癞爪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 13,
-								},
-							},
-							["amount"] = 13,
-						},
-						["霜鬃巨魔"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 49,
-								},
-							},
-							["amount"] = 49,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 1371,
-								},
-								["Fire"] = {
-									["count"] = 71,
-								},
-							},
-							["amount"] = 1442,
-						},
-						["雷鳞海妖"] = {
-							["Details"] = {
-								["神圣惩击"] = {
-									["count"] = 358,
-								},
-							},
-							["amount"] = 358,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 632,
-								},
-							},
-							["amount"] = 632,
-						},
-						["硬壳潮行蟹"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 224,
-								},
-							},
-							["amount"] = 224,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["闪电箭"] = {
-									["count"] = 1007,
-								},
-							},
-							["amount"] = 1007,
-						},
-					},
-					["Attacks"] = {
-						["冰霜新星"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 25,
-									["min"] = 20,
-									["count"] = 43,
-									["amount"] = 1005,
-								},
-							},
-							["count"] = 44,
-							["amount"] = 1005,
-						},
-						["火球术"] = {
-							["Details"] = {
-								["Evade"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 107,
-									["min"] = 14,
-									["count"] = 1775,
-									["amount"] = 121710,
-								},
-								["Crit"] = {
-									["max"] = 159,
-									["min"] = 26,
-									["count"] = 108,
-									["amount"] = 10383,
-								},
-								["Miss"] = {
-									["count"] = 52,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1936,
-							["amount"] = 132093,
-						},
-						["寒冰箭"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 90,
-									["min"] = 19,
-									["count"] = 36,
-									["amount"] = 1367,
-								},
-							},
-							["count"] = 36,
-							["amount"] = 1367,
-						},
-						["冰冻"] = {
-							["Details"] = {
-								["Resist"] = {
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 18,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 21,
-							["amount"] = 0,
-						},
-						["火焰冲击"] = {
-							["Details"] = {
-								["Evade"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 96,
-									["min"] = 24,
-									["count"] = 73,
-									["amount"] = 3987,
-								},
-								["Crit"] = {
-									["max"] = 67,
-									["min"] = 37,
-									["count"] = 4,
-									["amount"] = 182,
-								},
-								["Miss"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 80,
-							["amount"] = 4169,
-						},
-						["魔爆术"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 70,
-									["min"] = 70,
-									["count"] = 1,
-									["amount"] = 70,
-								},
-								["Hit"] = {
-									["max"] = 47,
-									["min"] = 43,
-									["count"] = 18,
-									["amount"] = 811,
-								},
-							},
-							["count"] = 19,
-							["amount"] = 881,
-						},
-						["射击"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 19,
-									["min"] = 4,
-									["count"] = 202,
-									["amount"] = 2736,
-								},
-								["Crit"] = {
-									["max"] = 24,
-									["min"] = 10,
-									["count"] = 10,
-									["amount"] = 187,
-								},
-								["Miss"] = {
-									["count"] = 43,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 255,
-							["amount"] = 2923,
-						},
-						["火球术 (伤害/跳)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 2,
-									["min"] = 1,
-									["count"] = 577,
-									["amount"] = 881,
-								},
-							},
-							["count"] = 577,
-							["amount"] = 881,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 3,
-									["min"] = 1,
-									["count"] = 10,
-									["amount"] = 16,
-								},
-								["Hit"] = {
-									["max"] = 11,
-									["min"] = 4,
-									["count"] = 7,
-									["amount"] = 46,
-								},
-								["Miss"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 20,
-							["amount"] = 62,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 473,
-								},
-								["Miss"] = {
-									["count"] = 26,
-								},
-								["Crit"] = {
-									["count"] = 29,
-								},
-								["Dodge"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 540,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 8,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 9,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 93,
-								},
-								["Miss"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 99,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 11,
-								},
-							},
-							["amount"] = 11,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 31,
-								},
-								["Miss"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 35,
-						},
-					},
-				},
-				["Fight5"] = {
-					["DOTs"] = {
-						["火球术 (伤害/跳)"] = {
-							["Details"] = {
-								["雪狼"] = {
-									["count"] = 0,
-								},
-								["灰雾潮行者"] = {
-									["count"] = 0,
-								},
-								["破损的傀儡"] = {
-									["count"] = 0,
-								},
-								["碎石怪先知"] = {
-									["count"] = 0,
-								},
-								["老黑熊"] = {
-									["count"] = 0,
-								},
-								["被诅咒的贵族"] = {
-									["count"] = 0,
-								},
-								["暮光信徒"] = {
-									["count"] = 4,
-								},
-								["黑木探路者"] = {
-									["count"] = 0,
-								},
-								["霜鬃猎头者"] = {
-									["count"] = 0,
-								},
-								["暗礁蟹"] = {
-									["count"] = 0,
-								},
-								["碎石怪斥候"] = {
-									["count"] = 0,
-								},
-								["石腭断骨者"] = {
-									["count"] = 0,
-								},
-								["石腭穴居人"] = {
-									["count"] = 0,
-								},
-								["碎石穴居人"] = {
-									["count"] = 0,
-								},
-								["大峭壁野猪"] = {
-									["count"] = 0,
-								},
-								["恶灵劣魔"] = {
-									["count"] = 0,
-								},
-								["暮光暴徒"] = {
-									["count"] = 2,
-								},
-								["冰爪熊"] = {
-									["count"] = 0,
-								},
-								["月夜猛虎"] = {
-									["count"] = 0,
-								},
-								["雷鳞御浪者"] = {
-									["count"] = 0,
-								},
-								["野生劣魔"] = {
-									["count"] = 0,
-								},
-								["灰雾猎人"] = {
-									["count"] = 0,
-								},
-								["霜鬃巨魔幼崽"] = {
-									["count"] = 0,
-								},
-								["狂暴的月夜枭兽"] = {
-									["count"] = 0,
-								},
-								["森林潜伏者"] = {
-									["count"] = 0,
-								},
-								["坑道鼠斥候"] = {
-									["count"] = 0,
-								},
-								["灰雾战士"] = {
-									["count"] = 0,
-								},
-								["石巨兽"] = {
-									["count"] = 0,
-								},
-								["碎石怪击颅者"] = {
-									["count"] = 0,
-								},
-								["小型峭壁野猪"] = {
-									["count"] = 0,
-								},
-								["坑道鼠掘地工"] = {
-									["count"] = 0,
-								},
-								["黑海岸蛇颈龙"] = {
-									["count"] = 0,
-								},
-								["雪豹"] = {
-									["count"] = 0,
-								},
-								["暗滩狂热者"] = {
-									["count"] = 0,
-								},
-								["雷鳞海妖"] = {
-									["count"] = 0,
-								},
-								["狂暴蓟熊"] = {
-									["count"] = 0,
-								},
-								["硬壳潮行蟹"] = {
-									["count"] = 0,
-								},
-								["麻疯侏儒"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Shadow"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 114,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Holy"] = 0,
-						["Physical"] = 0,
-						["Melee"] = 114,
-						["Nature"] = 0,
-					},
-					["DOT_Time"] = 6,
-					["Damage"] = 806,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 783,
-						["Frost"] = 23,
-						["Melee"] = 0,
-						["Shadow"] = 0,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 8,
-								},
-								["Tick"] = {
-									["count"] = 3,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 11,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RageGained"] = {
-					},
-					["WhoDamaged"] = {
-						["耕田小生"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["闪电箭"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪狼"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾潮行者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜枭兽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["破损的傀儡"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光信徒"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 85,
-								},
-							},
-							["amount"] = 85,
-						},
-						["冬狼"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃猎头者"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠斥候"] = {
-							["Details"] = {
-								["射击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭穴居人"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠掘地工"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴的月夜枭兽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 29,
-								},
-							},
-							["amount"] = 29,
-						},
-						["灰雾猎人"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["闪电箭"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞海妖"] = {
-							["Details"] = {
-								["神圣惩击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["硬壳潮行蟹"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["Dispelled"] = 0,
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Falling"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["神圣惩击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["闪电箭"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["射击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 14.06,
-					["PartialResist"] = {
-						["Falling"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["神圣惩击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["闪电箭"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["射击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 4,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["雪怪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪狼"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["安娜雅·晨路"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾潮行者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木图腾师"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜枭兽"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光信徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 3,
-								},
-								["火球术"] = {
-									["count"] = 3.94,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.08,
-								},
-							},
-							["amount"] = 8.02,
-						},
-						["冬狼"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃猎头者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠歹徒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃雪行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["哀嚎的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 4.54,
-								},
-							},
-							["amount"] = 6.04,
-						},
-						["狂暴的月夜枭兽"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["破损的傀儡"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾猎人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠斥候"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冰爪熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["恶灵劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠掘地工"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞御浪者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["壮实的石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞海妖"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["硬壳潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["火焰冲击"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["寒冰箭"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["冰冻"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["冰霜新星"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 23,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 23,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 23,
-						},
-						["火球术 (伤害/跳)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 2,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 6,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 6,
-						},
-						["射击"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["火球术"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 104,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 777,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 777,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["雪怪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪狼"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["安娜雅·晨路"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾潮行者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木图腾师"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜枭兽"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光信徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4,
-								},
-								["火球术"] = {
-									["count"] = 391,
-								},
-								["冰霜新星"] = {
-									["count"] = 23,
-								},
-							},
-							["amount"] = 418,
-						},
-						["冬狼"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃猎头者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠歹徒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃雪行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["哀嚎的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 2,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 386,
-								},
-							},
-							["amount"] = 388,
-						},
-						["狂暴的月夜枭兽"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["破损的傀儡"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾猎人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠斥候"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冰爪熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["恶灵劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠掘地工"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞御浪者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["壮实的石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞海妖"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["硬壳潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 14.06,
-					["TimeDamaging"] = {
-						["雪怪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪狼"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["安娜雅·晨路"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾潮行者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木图腾师"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜枭兽"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光信徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 3,
-								},
-								["火球术"] = {
-									["count"] = 3.94,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.08,
-								},
-							},
-							["amount"] = 8.02,
-						},
-						["冬狼"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃猎头者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠歹徒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃雪行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["哀嚎的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 4.54,
-								},
-							},
-							["amount"] = 6.04,
-						},
-						["狂暴的月夜枭兽"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["破损的傀儡"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾猎人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠斥候"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冰爪熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["恶灵劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠掘地工"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞御浪者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["壮实的石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞海妖"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["硬壳潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-						["火球术 (伤害/跳)"] = {
-							["Details"] = {
-								["雪怪"] = {
-									["count"] = 0,
-								},
-								["灰雾潮行者"] = {
-									["count"] = 0,
-								},
-								["黑木风语者"] = {
-									["count"] = 0,
-								},
-								["山猪"] = {
-									["count"] = 0,
-								},
-								["老黑熊"] = {
-									["count"] = 0,
-								},
-								["被诅咒的贵族"] = {
-									["count"] = 0,
-								},
-								["老峭壁野猪"] = {
-									["count"] = 0,
-								},
-								["莫克迪普"] = {
-									["count"] = 0,
-								},
-								["霜鬃猎头者"] = {
-									["count"] = 0,
-								},
-								["坑道鼠歹徒"] = {
-									["count"] = 0,
-								},
-								["灰斑蓟熊"] = {
-									["count"] = 0,
-								},
-								["砂石地占师"] = {
-									["count"] = 0,
-								},
-								["暗礁蟹"] = {
-									["count"] = 0,
-								},
-								["砂石斥候"] = {
-									["count"] = 0,
-								},
-								["小潮行蟹"] = {
-									["count"] = 0,
-								},
-								["霜鬃剥皮者"] = {
-									["count"] = 0,
-								},
-								["石腭断骨者"] = {
-									["count"] = 0,
-								},
-								["石腭击颅者"] = {
-									["count"] = 0,
-								},
-								["冰爪熊"] = {
-									["count"] = 0,
-								},
-								["恶灵劣魔"] = {
-									["count"] = 0,
-								},
-								["月夜猛虎"] = {
-									["count"] = 0,
-								},
-								["坑道鼠掘地工"] = {
-									["count"] = 0,
-								},
-								["野生劣魔"] = {
-									["count"] = 0,
-								},
-								["挣扎的贵族"] = {
-									["count"] = 0,
-								},
-								["麻疯侏儒"] = {
-									["count"] = 0,
-								},
-								["森林潜伏者"] = {
-									["count"] = 0,
-								},
-								["灰雾战士"] = {
-									["count"] = 0,
-								},
-								["碎石怪击颅者"] = {
-									["count"] = 0,
-								},
-								["碎石怪先知"] = {
-									["count"] = 0,
-								},
-								["雷鳞御浪者"] = {
-									["count"] = 0,
-								},
-								["霜鬃巨魔幼崽"] = {
-									["count"] = 0,
-								},
-								["黑海岸蛇颈龙"] = {
-									["count"] = 0,
-								},
-								["雪豹"] = {
-									["count"] = 0,
-								},
-								["暗滩狂热者"] = {
-									["count"] = 0,
-								},
-								["碎石穴居人"] = {
-									["count"] = 0,
-								},
-								["狂暴蓟熊"] = {
-									["count"] = 0,
-								},
-								["暮光暴徒"] = {
-									["count"] = 0,
-								},
-								["狂暴的月夜枭兽"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 0,
-						["Shadow"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Fire"] = 0,
-						["Physical"] = 0,
-						["Melee"] = 0,
-						["Nature"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 0,
-						["Frost"] = 0,
-						["Melee"] = 0,
-						["Shadow"] = 0,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Resist"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Evade"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RageGained"] = {
-					},
-					["WhoDamaged"] = {
-						["蓟熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["耕田小生"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["闪电箭"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾潮行者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜枭兽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["闪电箭"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["莫克迪普"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃猎头者"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["毁灭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["砂石地占师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冰须"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["砂石斥候"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃剥皮者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠掘地工"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["砂石断骨者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["挣扎的贵族"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴的月夜枭兽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞御浪者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冰爪熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾猎人"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["戴瑟雷萨特"] = {
-							["Details"] = {
-								["射击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 0,
-								},
-								["Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["Dispelled"] = 0,
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["查尔斯三世"] = {
-							["Details"] = {
-								["治疗药水"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-					},
-					["WhoHealed"] = {
-						["查尔斯三世"] = {
-							["Details"] = {
-								["治疗药水"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Falling"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["火球术"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["毁灭"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["闪电箭"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["射击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 0,
-					["PartialResist"] = {
-						["Falling"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["火球术"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["毁灭"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["闪电箭"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["射击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["蓟熊"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["耕田小生"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴的月夜枭兽"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾潮行者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木风语者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["查尔斯三世"] = {
-							["Details"] = {
-								["治疗药水"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑熊幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冬狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["砂石断骨者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["戴瑟雷萨特"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["莫克迪普"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃猎头者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠歹徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["砂石地占师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["鹿"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冰须"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["砂石斥候"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞御浪者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃剥皮者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["恶灵劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠掘地工"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["挣扎的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["玛洛什"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冰爪熊"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["壮实的石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-						["治疗药水"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-						["查尔斯三世"] = {
-							["Details"] = {
-								["治疗药水"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["火焰冲击"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["寒冰箭"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["冰冻"] = {
-							["Details"] = {
-								["Resist"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["冰霜新星"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["火球术"] = {
-							["Details"] = {
-								["Evade"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["射击"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["火球术 (伤害/跳)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["蓟熊"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["砂石断骨者"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾潮行者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木风语者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴的月夜枭兽"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑熊幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冬狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["戴瑟雷萨特"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["莫克迪普"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃猎头者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠歹徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["砂石地占师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["鹿"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冰须"] = {
-							["Details"] = {
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["砂石斥候"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞御浪者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃剥皮者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["恶灵劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠掘地工"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["挣扎的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["玛洛什"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冰爪熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["壮实的石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["蓟熊"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["耕田小生"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾潮行者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴的月夜枭兽"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木风语者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑熊幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冬狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["戴瑟雷萨特"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["砂石断骨者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["莫克迪普"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃猎头者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠歹徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["砂石地占师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["鹿"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冰须"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["砂石斥候"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞御浪者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃剥皮者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["恶灵劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠掘地工"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["挣扎的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["玛洛什"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冰爪熊"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["壮实的石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight1"] = {
-					["DOTs"] = {
-						["火球术 (伤害/跳)"] = {
-							["Details"] = {
-								["灰雾智者"] = {
-									["count"] = 0,
-								},
-								["灰雾滩行者"] = {
-									["count"] = 0,
-								},
-								["灰雾潮行者"] = {
-									["count"] = 0,
-								},
-								["峭壁野猪"] = {
-									["count"] = 0,
-								},
-								["黑木风语者"] = {
-									["count"] = 0,
-								},
-								["山猪"] = {
-									["count"] = 0,
-								},
-								["老黑熊"] = {
-									["count"] = 0,
-								},
-								["黑木探路者"] = {
-									["count"] = 0,
-								},
-								["灰斑蓟熊"] = {
-									["count"] = 0,
-								},
-								["霜鬃雪行者"] = {
-									["count"] = 0,
-								},
-								["冰须"] = {
-									["count"] = 0,
-								},
-								["坑道鼠狗头人"] = {
-									["count"] = 0,
-								},
-								["暗礁蟹"] = {
-									["count"] = 0,
-								},
-								["砂石斥候"] = {
-									["count"] = 0,
-								},
-								["小潮行蟹"] = {
-									["count"] = 0,
-								},
-								["碎石怪斥候"] = {
-									["count"] = 0,
-								},
-								["坑道鼠地卜师"] = {
-									["count"] = 0,
-								},
-								["石腭断骨者"] = {
-									["count"] = 0,
-								},
-								["石腭击颅者"] = {
-									["count"] = 0,
-								},
-								["霜鬃巨魔幼崽"] = {
-									["count"] = 0,
-								},
-								["恶灵劣魔"] = {
-									["count"] = 0,
-								},
-								["月夜猛虎"] = {
-									["count"] = 0,
-								},
-								["野生劣魔"] = {
-									["count"] = 0,
-								},
-								["挣扎的贵族"] = {
-									["count"] = 0,
-								},
-								["麻疯侏儒"] = {
-									["count"] = 0,
-								},
-								["森林潜伏者"] = {
-									["count"] = 0,
-								},
-								["黑幕追踪者"] = {
-									["count"] = 0,
-								},
-								["灰雾战士"] = {
-									["count"] = 0,
-								},
-								["灰雾猎人"] = {
-									["count"] = 0,
-								},
-								["碎石怪先知"] = {
-									["count"] = 0,
-								},
-								["碎石怪击颅者"] = {
-									["count"] = 0,
-								},
-								["碎石穴居人"] = {
-									["count"] = 0,
-								},
-								["黑海岸蛇颈龙"] = {
-									["count"] = 0,
-								},
-								["小型峭壁野猪"] = {
-									["count"] = 0,
-								},
-								["暗滩狂热者"] = {
-									["count"] = 0,
-								},
-								["雷鳞海妖"] = {
-									["count"] = 0,
-								},
-								["狂暴蓟熊"] = {
-									["count"] = 0,
-								},
-								["戴瑟雷萨特"] = {
-									["count"] = 0,
-								},
-								["霜鬃巨魔"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Shadow"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Physical"] = 0,
-						["Melee"] = 0,
-						["Fire"] = 0,
-						["Holy"] = 0,
-						["Nature"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 23,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Shadow"] = 0,
-						["Melee"] = 0,
-						["Arcane"] = 0,
-						["Fire"] = 0,
-						["Frost"] = 23,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RageGained"] = {
-					},
-					["WhoDamaged"] = {
-						["蓟熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾智者"] = {
-							["Details"] = {
-								["闪电箭"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["闪电箭"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑熊幼崽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["毁灭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠狗头人"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["砂石斥候"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["戴瑟雷萨特"] = {
-							["Details"] = {
-								["射击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["挣扎的贵族"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑幕追踪者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["闪电箭"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾先知"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾猎人"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞海妖"] = {
-							["Details"] = {
-								["神圣惩击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["Dispelled"] = 0,
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Falling"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["毁灭"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["神圣惩击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["火焰冲击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["闪电箭"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["射击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 1.5,
-					["PartialResist"] = {
-						["Falling"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["毁灭"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["神圣惩击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["火焰冲击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["闪电箭"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["射击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["蓟熊"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾智者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾潮行者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木风语者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑熊幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["幽爪奔跑者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["黑幕追踪者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-								["魔爆术"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冰须"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃雪行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["哀嚎的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["蓬毛森林狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠狗头人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["砂石斥候"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾猎人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃剥皮者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冬狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["恶灵劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["戴瑟雷萨特"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["挣扎的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["魔爆术"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["壮实的石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞海妖"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["冰霜新星"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 23,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 23,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 23,
-						},
-						["火球术"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["寒冰箭"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["冰冻"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["火焰冲击"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["魔爆术"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["射击"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["火球术 (伤害/跳)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["蓟熊"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾智者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾潮行者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木风语者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑熊幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["幽爪奔跑者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 23,
-								},
-							},
-							["amount"] = 23,
-						},
-						["黑幕追踪者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-								["魔爆术"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冰须"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃雪行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["哀嚎的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["蓬毛森林狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠狗头人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["砂石斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾猎人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃剥皮者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冬狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["恶灵劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["戴瑟雷萨特"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["挣扎的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["魔爆术"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["壮实的石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞海妖"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 1.5,
-					["TimeDamaging"] = {
-						["蓟熊"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾智者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾潮行者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木风语者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑熊幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["幽爪奔跑者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["黑幕追踪者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-								["魔爆术"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冰须"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃雪行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["哀嚎的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["蓬毛森林狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠狗头人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["砂石斥候"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾猎人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃剥皮者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冬狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["恶灵劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["戴瑟雷萨特"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["挣扎的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["魔爆术"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["壮实的石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞海妖"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight4"] = {
-					["DOTs"] = {
-						["火球术 (伤害/跳)"] = {
-							["Details"] = {
-								["灰雾智者"] = {
-									["count"] = 0,
-								},
-								["雪怪"] = {
-									["count"] = 0,
-								},
-								["霜鬃先知"] = {
-									["count"] = 0,
-								},
-								["灰雾滩行者"] = {
-									["count"] = 0,
-								},
-								["峭壁野猪"] = {
-									["count"] = 0,
-								},
-								["坑道鼠征粮官"] = {
-									["count"] = 0,
-								},
-								["蓬毛幼狼"] = {
-									["count"] = 0,
-								},
-								["碎石怪先知"] = {
-									["count"] = 0,
-								},
-								["被诅咒的贵族"] = {
-									["count"] = 0,
-								},
-								["黑木探路者"] = {
-									["count"] = 0,
-								},
-								["霜鬃猎头者"] = {
-									["count"] = 0,
-								},
-								["坑道鼠歹徒"] = {
-									["count"] = 0,
-								},
-								["霜鬃雪行者"] = {
-									["count"] = 0,
-								},
-								["暗礁蟹"] = {
-									["count"] = 0,
-								},
-								["小潮行蟹"] = {
-									["count"] = 0,
-								},
-								["碎石怪斥候"] = {
-									["count"] = 0,
-								},
-								["石腭断骨者"] = {
-									["count"] = 0,
-								},
-								["碎石穴居人"] = {
-									["count"] = 0,
-								},
-								["恶灵劣魔"] = {
-									["count"] = 0,
-								},
-								["野生劣魔"] = {
-									["count"] = 0,
-								},
-								["挣扎的贵族"] = {
-									["count"] = 0,
-								},
-								["癞爪"] = {
-									["count"] = 0,
-								},
-								["森林潜伏者"] = {
-									["count"] = 0,
-								},
-								["雪怪幼崽"] = {
-									["count"] = 0,
-								},
-								["灰雾猎人"] = {
-									["count"] = 0,
-								},
-								["石巨兽"] = {
-									["count"] = 0,
-								},
-								["麻疯侏儒"] = {
-									["count"] = 0,
-								},
-								["霜鬃巨魔幼崽"] = {
-									["count"] = 0,
-								},
-								["碎石怪击颅者"] = {
-									["count"] = 0,
-								},
-								["黑海岸蛇颈龙"] = {
-									["count"] = 0,
-								},
-								["雪豹"] = {
-									["count"] = 0,
-								},
-								["暗滩狂热者"] = {
-									["count"] = 0,
-								},
-								["雷鳞海妖"] = {
-									["count"] = 0,
-								},
-								["狂暴蓟熊"] = {
-									["count"] = 0,
-								},
-								["暮光暴徒"] = {
-									["count"] = 0,
-								},
-								["霜鬃巨魔"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Shadow"] = 0,
-					},
-					["TimeSpent"] = {
-						["灰雾智者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠征粮官"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑熊幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["瓦加什"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃猎头者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠歹徒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃雪行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["治疗结界"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光信徒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["破损的傀儡"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾猎人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["恶灵劣魔"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木风语者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠掘地工"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["癞爪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["挣扎的贵族"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴的月夜枭兽"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冰爪熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞海妖"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DamageTaken"] = 54,
-					["PartialResist"] = {
-						["Falling"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["闪电箭"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["神圣惩击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 2,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Falling"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["闪电箭"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["神圣惩击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 1.5,
-					["ElementTaken"] = {
-						["Holy"] = 0,
-						["Physical"] = 0,
-						["Melee"] = 54,
-						["Nature"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 48,
-					["ElementDone"] = {
-						["Frost"] = 48,
-						["Fire"] = 0,
-						["Melee"] = 0,
-						["Shadow"] = 0,
-					},
-					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Resist"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Evade"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["灰雾智者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠征粮官"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑熊幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["瓦加什"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃猎头者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠歹徒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃雪行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光信徒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["破损的傀儡"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾猎人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木风语者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["恶灵劣魔"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冰爪熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠掘地工"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜枭兽"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["挣扎的贵族"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴的月夜枭兽"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["癞爪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞海妖"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 48,
-								},
-							},
-							["amount"] = 48,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 1.5,
-					["TimeDamaging"] = {
-						["灰雾智者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠征粮官"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑熊幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["瓦加什"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃猎头者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠歹徒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃雪行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["治疗结界"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光信徒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["破损的傀儡"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾猎人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["恶灵劣魔"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木风语者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠掘地工"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["癞爪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["挣扎的贵族"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴的月夜枭兽"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冰爪熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞海妖"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["灰雾智者"] = {
-							["Details"] = {
-								["闪电箭"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["闪电箭"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪狼"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜枭兽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑熊幼崽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃猎头者"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠掘地工"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["癞爪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["挣扎的贵族"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴的月夜枭兽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木风语者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["闪电箭"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠征粮官"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞海妖"] = {
-							["Details"] = {
-								["神圣惩击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 54,
-								},
-							},
-							["amount"] = 54,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Attacks"] = {
-						["肉搏"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["寒冰箭"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["冰冻"] = {
-							["Details"] = {
-								["Resist"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["冰霜新星"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 24,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 48,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 48,
-						},
-						["火球术 (伤害/跳)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["射击"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["火球术"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["火焰冲击"] = {
-							["Details"] = {
-								["Evade"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-						["火球术 (伤害/跳)"] = {
-							["Details"] = {
-								["灰雾智者"] = {
-									["count"] = 0,
-								},
-								["灰雾滩行者"] = {
-									["count"] = 0,
-								},
-								["灰雾潮行者"] = {
-									["count"] = 0,
-								},
-								["峭壁野猪"] = {
-									["count"] = 0,
-								},
-								["黑木风语者"] = {
-									["count"] = 0,
-								},
-								["山猪"] = {
-									["count"] = 0,
-								},
-								["老黑熊"] = {
-									["count"] = 0,
-								},
-								["黑木探路者"] = {
-									["count"] = 0,
-								},
-								["灰斑蓟熊"] = {
-									["count"] = 0,
-								},
-								["霜鬃雪行者"] = {
-									["count"] = 0,
-								},
-								["冰须"] = {
-									["count"] = 0,
-								},
-								["坑道鼠狗头人"] = {
-									["count"] = 0,
-								},
-								["暗礁蟹"] = {
-									["count"] = 0,
-								},
-								["砂石斥候"] = {
-									["count"] = 0,
-								},
-								["小潮行蟹"] = {
-									["count"] = 0,
-								},
-								["碎石怪斥候"] = {
-									["count"] = 0,
-								},
-								["坑道鼠地卜师"] = {
-									["count"] = 0,
-								},
-								["石腭断骨者"] = {
-									["count"] = 0,
-								},
-								["石腭击颅者"] = {
-									["count"] = 0,
-								},
-								["霜鬃巨魔幼崽"] = {
-									["count"] = 0,
-								},
-								["恶灵劣魔"] = {
-									["count"] = 0,
-								},
-								["月夜猛虎"] = {
-									["count"] = 0,
-								},
-								["野生劣魔"] = {
-									["count"] = 0,
-								},
-								["挣扎的贵族"] = {
-									["count"] = 0,
-								},
-								["麻疯侏儒"] = {
-									["count"] = 0,
-								},
-								["森林潜伏者"] = {
-									["count"] = 0,
-								},
-								["黑幕追踪者"] = {
-									["count"] = 0,
-								},
-								["灰雾战士"] = {
-									["count"] = 0,
-								},
-								["灰雾猎人"] = {
-									["count"] = 0,
-								},
-								["碎石怪先知"] = {
-									["count"] = 0,
-								},
-								["碎石怪击颅者"] = {
-									["count"] = 0,
-								},
-								["碎石穴居人"] = {
-									["count"] = 0,
-								},
-								["黑海岸蛇颈龙"] = {
-									["count"] = 0,
-								},
-								["小型峭壁野猪"] = {
-									["count"] = 0,
-								},
-								["暗滩狂热者"] = {
-									["count"] = 0,
-								},
-								["雷鳞海妖"] = {
-									["count"] = 0,
-								},
-								["狂暴蓟熊"] = {
-									["count"] = 0,
-								},
-								["戴瑟雷萨特"] = {
-									["count"] = 0,
-								},
-								["霜鬃巨魔"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Shadow"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Physical"] = 0,
-						["Melee"] = 0,
-						["Fire"] = 0,
-						["Holy"] = 0,
-						["Nature"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 23,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Shadow"] = 0,
-						["Melee"] = 0,
-						["Arcane"] = 0,
-						["Fire"] = 0,
-						["Frost"] = 23,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RageGained"] = {
-					},
-					["WhoDamaged"] = {
-						["蓟熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾智者"] = {
-							["Details"] = {
-								["闪电箭"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["闪电箭"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑熊幼崽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["毁灭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠狗头人"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["砂石斥候"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["戴瑟雷萨特"] = {
-							["Details"] = {
-								["射击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["挣扎的贵族"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑幕追踪者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["闪电箭"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾先知"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾猎人"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞海妖"] = {
-							["Details"] = {
-								["神圣惩击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["Dispelled"] = 0,
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Falling"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["毁灭"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["神圣惩击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["火焰冲击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["闪电箭"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["射击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 1.5,
-					["PartialResist"] = {
-						["Falling"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["毁灭"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["神圣惩击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["火焰冲击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["闪电箭"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["射击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["蓟熊"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾智者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾潮行者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木风语者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑熊幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["幽爪奔跑者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["黑幕追踪者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-								["魔爆术"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冰须"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃雪行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["哀嚎的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["蓬毛森林狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠狗头人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["砂石斥候"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾猎人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃剥皮者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冬狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["恶灵劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["戴瑟雷萨特"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["挣扎的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["魔爆术"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["壮实的石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞海妖"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["冰霜新星"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 23,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 23,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 23,
-						},
-						["火球术"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["寒冰箭"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["冰冻"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["火焰冲击"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["魔爆术"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["射击"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["火球术 (伤害/跳)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["蓟熊"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾智者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾潮行者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木风语者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑熊幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["幽爪奔跑者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 23,
-								},
-							},
-							["amount"] = 23,
-						},
-						["黑幕追踪者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-								["魔爆术"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冰须"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃雪行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["哀嚎的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["蓬毛森林狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠狗头人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["砂石斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾猎人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃剥皮者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冬狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["恶灵劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["戴瑟雷萨特"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["挣扎的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["魔爆术"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["壮实的石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞海妖"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 1.5,
-					["TimeDamaging"] = {
-						["蓟熊"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾智者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾潮行者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木风语者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑熊幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["幽爪奔跑者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["黑幕追踪者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-								["魔爆术"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冰须"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃雪行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["哀嚎的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["蓬毛森林狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠狗头人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["砂石斥候"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾猎人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃剥皮者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冬狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["恶灵劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["戴瑟雷萨特"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["挣扎的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["魔爆术"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["壮实的石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞海妖"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight2"] = {
-					["DOTs"] = {
-						["火球术 (伤害/跳)"] = {
-							["Details"] = {
-								["灰雾智者"] = {
-									["count"] = 0,
-								},
-								["雪怪"] = {
-									["count"] = 0,
-								},
-								["灰雾滩行者"] = {
-									["count"] = 0,
-								},
-								["峭壁野猪"] = {
-									["count"] = 0,
-								},
-								["山猪"] = {
-									["count"] = 0,
-								},
-								["老黑熊"] = {
-									["count"] = 0,
-								},
-								["被诅咒的贵族"] = {
-									["count"] = 0,
-								},
-								["黑熊幼崽"] = {
-									["count"] = 0,
-								},
-								["黑木探路者"] = {
-									["count"] = 0,
-								},
-								["霜鬃猎头者"] = {
-									["count"] = 0,
-								},
-								["灰雾撒网者"] = {
-									["count"] = 0,
-								},
-								["暗礁蟹"] = {
-									["count"] = 0,
-								},
-								["小潮行蟹"] = {
-									["count"] = 0,
-								},
-								["碎石怪斥候"] = {
-									["count"] = 0,
-								},
-								["坑道鼠地卜师"] = {
-									["count"] = 0,
-								},
-								["石腭断骨者"] = {
-									["count"] = 0,
-								},
-								["石腭击颅者"] = {
-									["count"] = 0,
-								},
-								["霜鬃巨魔幼崽"] = {
-									["count"] = 0,
-								},
-								["大峭壁野猪"] = {
-									["count"] = 0,
-								},
-								["恶灵劣魔"] = {
-									["count"] = 0,
-								},
-								["月夜猛虎"] = {
-									["count"] = 0,
-								},
-								["野生劣魔"] = {
-									["count"] = 0,
-								},
-								["暗滩精兵"] = {
-									["count"] = 8,
-								},
-								["麻疯侏儒"] = {
-									["count"] = 0,
-								},
-								["森林潜伏者"] = {
-									["count"] = 0,
-								},
-								["黑幕追踪者"] = {
-									["count"] = 0,
-								},
-								["灰雾战士"] = {
-									["count"] = 0,
-								},
-								["石巨兽"] = {
-									["count"] = 0,
-								},
-								["碎石怪击颅者"] = {
-									["count"] = 0,
-								},
-								["冰爪熊"] = {
-									["count"] = 0,
-								},
-								["暗滩狂热者"] = {
-									["count"] = 0,
-								},
-								["黑海岸蛇颈龙"] = {
-									["count"] = 0,
-								},
-								["雪豹"] = {
-									["count"] = 0,
-								},
-								["石腭袭击者"] = {
-									["count"] = 0,
-								},
-								["碎石怪先知"] = {
-									["count"] = 0,
-								},
-								["狂暴蓟熊"] = {
-									["count"] = 0,
-								},
-								["暮光暴徒"] = {
-									["count"] = 0,
-								},
-								["碎石穴居人"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 8,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Shadow"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 372,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Physical"] = 0,
-						["Melee"] = 45,
-						["Fire"] = 0,
-						["Shadow"] = 327,
-						["Nature"] = 0,
-					},
-					["DOT_Time"] = 8,
-					["Damage"] = 353,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 1.5,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Shadow"] = 0,
-						["Melee"] = 0,
-						["Arcane"] = 70,
-						["Fire"] = 283,
-						["Frost"] = 0,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Tick"] = {
-									["count"] = 4,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 8,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RageGained"] = {
-					},
-					["WhoDamaged"] = {
-						["灰雾智者"] = {
-							["Details"] = {
-								["闪电箭"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪狼"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩祭司"] = {
-							["Details"] = {
-								["暗影箭"] = {
-									["count"] = 78,
-								},
-							},
-							["amount"] = 78,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑熊幼崽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃猎头者"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠歹徒"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["火焰之盾效果"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞御浪者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩精兵"] = {
-							["Details"] = {
-								["暗影箭"] = {
-									["count"] = 249,
-								},
-								["肉搏"] = {
-									["count"] = 45,
-								},
-							},
-							["amount"] = 294,
-						},
-						["黑幕追踪者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["壮实的石腭穴居人"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冰爪熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 0,
-								},
-								["Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["闪电箭"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["Dispelled"] = 0,
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["查尔斯三世"] = {
-							["Details"] = {
-								["治疗药水"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-					},
-					["OverHeals"] = {
-					},
-					["WhoHealed"] = {
-						["查尔斯三世"] = {
-							["Details"] = {
-								["治疗药水"] = {
-									["count"] = 85,
-								},
-							},
-							["amount"] = 85,
-						},
-					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Falling"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["火焰之盾效果"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["暗影箭"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["精灵之火"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["闪电箭"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 11.19,
-					["PartialResist"] = {
-						["Falling"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["火焰之盾效果"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["暗影箭"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 5,
-						},
-						["精灵之火"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["闪电箭"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 2,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["灰雾智者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木风语者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑熊幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃猎头者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠歹徒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾撒网者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["哀嚎的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["查尔斯三世"] = {
-							["Details"] = {
-								["治疗药水"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["暗滩祭司"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 0.54,
-								},
-							},
-							["amount"] = 0.54,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冰爪熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["恶灵劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩精兵"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.65,
-								},
-								["魔爆术"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 9.15,
-						},
-						["黑幕追踪者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞御浪者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["壮实的石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-						["治疗药水"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 85,
-									["min"] = 85,
-									["count"] = 1,
-									["amount"] = 85,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 85,
-						},
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-						["查尔斯三世"] = {
-							["Details"] = {
-								["治疗药水"] = {
-									["count"] = 85,
-								},
-							},
-							["amount"] = 85,
-						},
-					},
-					["Healing"] = 85,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["冰霜新星"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["火球术 (伤害/跳)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 2,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 8,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 8,
-						},
-						["寒冰箭"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["冰冻"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["火焰冲击"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 84,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 84,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 84,
-						},
-						["魔爆术"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 70,
-									["min"] = 70,
-									["count"] = 1,
-									["amount"] = 70,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 70,
-						},
-						["射击"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["火球术"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 105,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 191,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 191,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 85,
-					["DamagedWho"] = {
-						["灰雾智者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木风语者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑熊幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃猎头者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠歹徒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾撒网者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["哀嚎的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩祭司"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 84,
-								},
-							},
-							["amount"] = 84,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冰爪熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["恶灵劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩精兵"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 8,
-								},
-								["魔爆术"] = {
-									["count"] = 70,
-								},
-								["火球术"] = {
-									["count"] = 191,
-								},
-							},
-							["amount"] = 269,
-						},
-						["黑幕追踪者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞御浪者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["壮实的石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 9.69,
-					["TimeDamaging"] = {
-						["灰雾智者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木风语者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑熊幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃猎头者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠歹徒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾撒网者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["哀嚎的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩祭司"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 0.54,
-								},
-							},
-							["amount"] = 0.54,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冰爪熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["恶灵劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩精兵"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.65,
-								},
-								["魔爆术"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 9.15,
-						},
-						["黑幕追踪者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞御浪者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["壮实的石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight3"] = {
-					["DOTs"] = {
-						["火球术 (伤害/跳)"] = {
-							["Details"] = {
-								["雪怪"] = {
-									["count"] = 0,
-								},
-								["灰雾滩行者"] = {
-									["count"] = 0,
-								},
-								["灰雾潮行者"] = {
-									["count"] = 0,
-								},
-								["黑木图腾师"] = {
-									["count"] = 6,
-								},
-								["峭壁野猪"] = {
-									["count"] = 0,
-								},
-								["破损的傀儡"] = {
-									["count"] = 0,
-								},
-								["碎石怪击颅者"] = {
-									["count"] = 0,
-								},
-								["暮光信徒"] = {
-									["count"] = 0,
-								},
-								["冬狼"] = {
-									["count"] = 0,
-								},
-								["霜鬃暗法师"] = {
-									["count"] = 0,
-								},
-								["霜鬃猎头者"] = {
-									["count"] = 0,
-								},
-								["灰斑蓟熊"] = {
-									["count"] = 0,
-								},
-								["霜鬃雪行者"] = {
-									["count"] = 0,
-								},
-								["哀嚎的贵族"] = {
-									["count"] = 0,
-								},
-								["暗礁蟹"] = {
-									["count"] = 0,
-								},
-								["小潮行蟹"] = {
-									["count"] = 0,
-								},
-								["碎石怪斥候"] = {
-									["count"] = 0,
-								},
-								["老年深海蛇颈龙"] = {
-									["count"] = 0,
-								},
-								["石腭击颅者"] = {
-									["count"] = 0,
-								},
-								["暮光暴徒"] = {
-									["count"] = 0,
-								},
-								["碎石穴居人"] = {
-									["count"] = 0,
-								},
-								["大峭壁野猪"] = {
-									["count"] = 0,
-								},
-								["恶灵劣魔"] = {
-									["count"] = 0,
-								},
-								["冷酷的格瑞克尼尔"] = {
-									["count"] = 0,
-								},
-								["雪怪幼崽"] = {
-									["count"] = 0,
-								},
-								["月夜猛虎"] = {
-									["count"] = 0,
-								},
-								["坑道鼠掘地工"] = {
-									["count"] = 0,
-								},
-								["灰雾猎人"] = {
-									["count"] = 0,
-								},
-								["山猪"] = {
-									["count"] = 0,
-								},
-								["挣扎的贵族"] = {
-									["count"] = 0,
-								},
-								["壮实的石腭穴居人"] = {
-									["count"] = 0,
-								},
-								["森林潜伏者"] = {
-									["count"] = 0,
-								},
-								["碎石怪先知"] = {
-									["count"] = 0,
-								},
-								["老峭壁野猪"] = {
-									["count"] = 0,
-								},
-								["石巨兽"] = {
-									["count"] = 0,
-								},
-								["冰爪熊"] = {
-									["count"] = 0,
-								},
-								["灰雾先知"] = {
-									["count"] = 0,
-								},
-								["麻疯侏儒"] = {
-									["count"] = 0,
-								},
-								["黑海岸蛇颈龙"] = {
-									["count"] = 0,
-								},
-								["小型峭壁野猪"] = {
-									["count"] = 0,
-								},
-								["暗滩狂热者"] = {
-									["count"] = 0,
-								},
-								["雷鳞海妖"] = {
-									["count"] = 0,
-								},
-								["狂暴蓟熊"] = {
-									["count"] = 0,
-								},
-								["硬壳潮行蟹"] = {
-									["count"] = 0,
-								},
-								["雪豹"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Shadow"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 72,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Physical"] = 0,
-						["Melee"] = 72,
-						["Frost"] = 0,
-						["Holy"] = 0,
-						["Fire"] = 0,
-						["Shadow"] = 0,
-						["Nature"] = 0,
-					},
-					["DOT_Time"] = 6,
-					["Damage"] = 1001,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Shadow"] = 0,
-						["Melee"] = 0,
-						["Arcane"] = 0,
-						["Fire"] = 954,
-						["Frost"] = 47,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Resist"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 10,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 13,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RageGained"] = {
-					},
-					["WhoDamaged"] = {
-						["蓟熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾潮行者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木图腾师"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 72,
-								},
-							},
-							["amount"] = 72,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["破损的傀儡"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["闪电箭"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冬狼"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃暗法师"] = {
-							["Details"] = {
-								["暗影箭"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃猎头者"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠歹徒"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["哀嚎的贵族"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老年深海蛇颈龙"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冷酷的格瑞克尼尔"] = {
-							["Details"] = {
-								["冰霜震击"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠掘地工"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["挣扎的贵族"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾猎人"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冰爪熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾先知"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 0,
-								},
-								["Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞海妖"] = {
-							["Details"] = {
-								["神圣惩击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["硬壳潮行蟹"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["Dispelled"] = 0,
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-						["Falling"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["暗影箭"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["冰霜震击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["闪电箭"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["神圣惩击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 16.34,
-					["PartialResist"] = {
-						["Falling"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["暗影箭"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["冰霜震击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["闪电箭"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["神圣惩击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["投掷"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 3,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["蓟熊"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["魔爆术"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾潮行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木图腾师"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-								["火球术"] = {
-									["count"] = 5.41,
-								},
-								["火焰冲击"] = {
-									["count"] = 2.01,
-								},
-							},
-							["amount"] = 11.92,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠征粮官"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木巨熊怪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 3,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.42,
-								},
-							},
-							["amount"] = 4.42,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光信徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["破损的傀儡"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃暗法师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃猎头者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠歹徒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃雪行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["哀嚎的贵族"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾猎人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木风语者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老年深海蛇颈龙"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["恶灵劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冷酷的格瑞克尼尔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠掘地工"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冬狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["挣扎的贵族"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["壮实的石腭穴居人"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冰爪熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾先知"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞海妖"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["硬壳潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["冰霜新星"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 25,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 47,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 47,
-						},
-						["火球术 (伤害/跳)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 2,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 6,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 6,
-						},
-						["寒冰箭"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["冰冻"] = {
-							["Details"] = {
-								["Resist"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["火焰冲击"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 96,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 188,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 188,
-						},
-						["魔爆术"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["射击"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["火球术"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 106,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 760,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 760,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["蓟熊"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["魔爆术"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾潮行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木图腾师"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 6,
-								},
-								["冰霜新星"] = {
-									["count"] = 25,
-								},
-								["火球术"] = {
-									["count"] = 576,
-								},
-								["火焰冲击"] = {
-									["count"] = 188,
-								},
-							},
-							["amount"] = 795,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠征粮官"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木巨熊怪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 184,
-								},
-								["冰霜新星"] = {
-									["count"] = 22,
-								},
-							},
-							["amount"] = 206,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光信徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["破损的傀儡"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃暗法师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃猎头者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠歹徒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃雪行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["哀嚎的贵族"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾猎人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木风语者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老年深海蛇颈龙"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["恶灵劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冷酷的格瑞克尼尔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠掘地工"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冬狼"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["挣扎的贵族"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["壮实的石腭穴居人"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冰爪熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾先知"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞海妖"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["硬壳潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 16.34,
-					["TimeDamaging"] = {
-						["蓟熊"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["魔爆术"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾潮行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木图腾师"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-								["火球术"] = {
-									["count"] = 5.41,
-								},
-								["火焰冲击"] = {
-									["count"] = 2.01,
-								},
-							},
-							["amount"] = 11.92,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠征粮官"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木巨熊怪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 3,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.42,
-								},
-							},
-							["amount"] = 4.42,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光信徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["破损的傀儡"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃暗法师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃猎头者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠歹徒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃雪行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["哀嚎的贵族"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["冰霜新星"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾猎人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑木风语者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["老年深海蛇颈龙"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["恶灵劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冷酷的格瑞克尼尔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["坑道鼠掘地工"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冬狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["冰冻"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["挣扎的贵族"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["壮实的石腭穴居人"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["冰爪熊"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["灰雾先知"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["雷鳞海妖"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火焰冲击"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["寒冰箭"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["硬壳潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-								["射击"] = {
-									["count"] = 0,
-								},
-								["火球术"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 0,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
+			["TimeLast"] = {
+				["TimeHeal"] = 4859.526,
+				["OVERALL"] = 4860.526,
+				["DamageTaken"] = 4107.518,
+				["Healing"] = 4859.526,
+				["HealingTaken"] = 4414.518,
+				["HOT_Time"] = 4859.526,
+				["TimeDamage"] = 4860.526,
+				["ActiveTime"] = 4860.526,
+				["Overhealing"] = 4853.525000000001,
+				["DOT_Time"] = 4109.528,
+				["Damage"] = 4858.519,
 			},
-			["NextEventNum"] = 46,
-			["LastDamageTime"] = 48150.678,
+			["NextEventNum"] = 13,
+			["LastDamageTime"] = 4860.767,
 			["LastEvents"] = {
-				"查尔斯三世 火球术 (伤害/跳) 暮光信徒 Tick -2 (Fire)", -- [1]
-				"查尔斯三世 火球术 暮光信徒 Hit -92 (Fire)", -- [2]
-				"暮光暴徒 肉搏 查尔斯三世 Hit -25 (Physical)", -- [3]
-				"查尔斯三世 冰霜新星 暮光暴徒 Hit -24 (Frost)", -- [4]
-				"查尔斯三世 冰霜新星 暮光暴徒 Hit -24 (Frost)", -- [5]
-				"暮光暴徒 肉搏 查尔斯三世 Hit -29 (Physical)", -- [6]
-				"查尔斯三世 火球术 黑木图腾师 Hit -103 (Fire)", -- [7]
-				"黑木图腾师 肉搏 查尔斯三世 Hit -21 (Physical)", -- [8]
-				"查尔斯三世 火球术 黑木图腾师 Hit -86 (Fire)", -- [9]
-				"查尔斯三世 火球术 (伤害/跳) 黑木图腾师 Tick -2 (Fire)", -- [10]
-				"查尔斯三世 火球术 黑木图腾师 Hit -88 (Fire)", -- [11]
-				"查尔斯三世 火焰冲击 黑木图腾师 Hit -92 (Fire)", -- [12]
-				"查尔斯三世 冰霜新星 黑木巨熊怪 Hit -22 (Frost)", -- [13]
-				"查尔斯三世 冰霜新星 黑木图腾师 Hit -25 (Frost)", -- [14]
-				"查尔斯三世 火球术 黑木图腾师 Hit -106 (Fire)", -- [15]
-				"黑木图腾师 肉搏 查尔斯三世 Hit -24 (Physical)", -- [16]
-				"查尔斯三世 火球术 (伤害/跳) 黑木图腾师 Tick -2 (Fire)", -- [17]
-				"查尔斯三世 火球术 黑木图腾师 Hit -92 (Fire)", -- [18]
-				"黑木图腾师 肉搏 查尔斯三世 Hit -27 (Physical)", -- [19]
-				"查尔斯三世 火球术 (伤害/跳) 黑木图腾师 Tick -2 (Fire)", -- [20]
-				"查尔斯三世 火球术 黑木图腾师 Hit -101 (Fire)", -- [21]
-				"查尔斯三世 火焰冲击 黑木图腾师 Hit -96 (Fire)", -- [22]
-				"查尔斯三世 火球术 黑木巨熊怪 Hit -94 (Fire)", -- [23]
-				"查尔斯三世 火球术 黑木巨熊怪 Hit -90 (Fire)", -- [24]
-				"查尔斯三世 火球术 暗滩精兵 Miss (Fire)", -- [25]
-				"查尔斯三世 火球术 暗滩精兵 Hit -105 (Fire)", -- [26]
-				"查尔斯三世 火球术 (伤害/跳) 暗滩精兵 Tick -2 (Fire)", -- [27]
-				"查尔斯三世 火球术 暗滩精兵 Hit -86 (Fire)", -- [28]
-				"查尔斯三世 火焰冲击 暗滩祭司 Hit -84 (Fire)", -- [29]
-				"查尔斯三世 火球术 (伤害/跳) 暗滩精兵 Tick -2 (Fire)", -- [30]
-				"查尔斯三世 魔爆术 暗滩精兵 Crit -70 (Arcane)", -- [31]
-				"查尔斯三世 火球术 (伤害/跳) 暗滩精兵 Tick -2 (Fire)", -- [32]
-				"暗滩精兵 肉搏 查尔斯三世 Hit -22 (Physical)", -- [33]
-				"查尔斯三世 火球术 (伤害/跳) 暗滩精兵 Tick -2 (Fire)", -- [34]
-				"暗滩精兵 暗影箭 查尔斯三世 Hit -87 (Shadow)", -- [35]
-				"暗滩精兵 肉搏 查尔斯三世 Hit -23 (Physical)", -- [36]
-				"暗滩祭司 暗影箭 查尔斯三世 Hit -78 (Shadow)", -- [37]
-				"暗滩精兵 暗影箭 查尔斯三世 Miss (Shadow)", -- [38]
-				"暗滩精兵 暗影箭 查尔斯三世 Hit -88 (Shadow)", -- [39]
-				"查尔斯三世 治疗药水 查尔斯三世 Hit +85", -- [40]
-				"暗滩精兵 暗影箭 查尔斯三世 Hit -74 (Shadow)", -- [41]
-				"幽爪奔跑者 肉搏 查尔斯三世 Dodge (1)", -- [42]
-				"查尔斯三世 冰霜新星 幽爪奔跑者 Hit -23 (Frost)", -- [43]
-				"Environment Fire 查尔斯三世 Hit -15 (Fire)", -- [44]
-				"Environment Fire 查尔斯三世 Hit -10 (Fire)", -- [45]
-				"查尔斯三世 火球术 暮光信徒 Hit -100 (Fire)", -- [46]
-				"暮光信徒 肉搏 查尔斯三世 Hit -27 (Physical)", -- [47]
-				"查尔斯三世 火球术 (伤害/跳) 暮光信徒 Tick -2 (Fire)", -- [48]
-				"查尔斯三世 火球术 暮光信徒 Hit -104 (Fire)", -- [49]
-				"暮光信徒 肉搏 查尔斯三世 Hit -30 (Physical)", -- [50]
+				"凛寒 回春术 克罗尼亚·恒影 Tick +29 (29 过量治疗)", -- [1]
+				"凛寒 愈合 克罗尼亚·恒影 Tick +14 (14 过量治疗)", -- [2]
+				"凛寒 回春术 凛寒 Tick +29 (29 过量治疗)", -- [3]
+				"凛寒 回春术 克罗尼亚·恒影 Tick +29 (29 过量治疗)", -- [4]
+				"凛寒 愈合 克罗尼亚·恒影 Tick +14 (14 过量治疗)", -- [5]
+				"凛寒 回春术 凛寒 Tick +29 (29 过量治疗)", -- [6]
+				"凛寒 愈合 克罗尼亚·恒影 Tick +14 (14 过量治疗)", -- [7]
+				"凛寒 回春术 凛寒 Tick +29 (29 过量治疗)", -- [8]
+				"凛寒 愈合 克罗尼亚·恒影 Tick +14 (14 过量治疗)", -- [9]
+				"凛寒 回春术 凛寒 Tick +29 (29 过量治疗)", -- [10]
+				"凛寒 愈合 克罗尼亚·恒影 Tick +14 (14 过量治疗)", -- [11]
+				"凛寒 回春术 凛寒 Tick +29 (29 过量治疗)", -- [12]
+				"凛寒 愈合 克罗尼亚·恒影 Tick +14 (14 过量治疗)", -- [13]
+				"凛寒 回春术 克罗尼亚·恒影 Tick +29 (29 过量治疗)", -- [14]
+				"凛寒 愈合 克罗尼亚·恒影 Tick +14 (14 过量治疗)", -- [15]
+				"凛寒 回春术 克罗尼亚·恒影 Tick +29 (29 过量治疗)", -- [16]
+				"凛寒 回春术 克罗尼亚·恒影 Tick +29 (29 过量治疗)", -- [17]
+				"凛寒 回春术 克罗尼亚·恒影 Tick +29 (29 过量治疗)", -- [18]
+				"凛寒 愤怒 黑木巨熊怪 Hit -58 (Nature)", -- [19]
+				"凛寒 愤怒 黑木巨熊怪 Hit -54 (Nature)", -- [20]
+				"凛寒 回春术 克罗尼亚·恒影 Tick +29", -- [21]
+				"凛寒 愤怒 黑木图腾师 Hit -57 (Nature)", -- [22]
+				"凛寒 回春术 克罗尼亚·恒影 Tick +29 (17 过量治疗)", -- [23]
+				"凛寒 回春术 克罗尼亚·恒影 Tick +29 (29 过量治疗)", -- [24]
+				"凛寒 回春术 克罗尼亚·恒影 Tick +29 (29 过量治疗)", -- [25]
+				"凛寒 回春术 克罗尼亚·恒影 Tick +29 (29 过量治疗)", -- [26]
+				"凛寒 愤怒 暗滩精兵 Hit -53 (Nature)", -- [27]
+				"凛寒 愤怒 暗滩精兵 Hit -59 (Nature)", -- [28]
+				"凛寒 回春术 凛寒 Tick +29 (29 过量治疗)", -- [29]
+				"凛寒 治疗之触 查尔斯三世 Hit +230 (92 过量治疗)", -- [30]
+				"凛寒 回春术 凛寒 Tick +29 (29 过量治疗)", -- [31]
+				"凛寒 回春术 查尔斯三世 Tick +29 (27 过量治疗)", -- [32]
+				"凛寒 回春术 凛寒 Tick +29 (29 过量治疗)", -- [33]
+				"凛寒 回春术 查尔斯三世 Tick +29 (3 过量治疗)", -- [34]
+				"凛寒 回春术 凛寒 Tick +29 (29 过量治疗)", -- [35]
+				"凛寒 愤怒 暗滩执行者 Hit -53 (Nature)", -- [36]
+				"凛寒 回春术 查尔斯三世 Tick +29 (29 过量治疗)", -- [37]
+				"凛寒 回春术 凛寒 Tick +29 (29 过量治疗)", -- [38]
+				"凛寒 愤怒 暗滩执行者 Miss (Nature)", -- [39]
+				"凛寒 回春术 查尔斯三世 Tick +29", -- [40]
+				"凛寒 愤怒 暗滩执行者 Miss (Nature)", -- [41]
+				"凛寒 愤怒 暗滩执行者 Hit -58 (Nature)", -- [42]
+				"凛寒 回春术 查尔斯三世 Tick +29", -- [43]
+				"凛寒 愤怒 暗滩执行者 Miss (Nature)", -- [44]
+				"凛寒 回春术 克罗尼亚·恒影 Tick +29", -- [45]
+				"凛寒 愈合 克罗尼亚·恒影 Hit +100", -- [46]
+				"凛寒 回春术 克罗尼亚·恒影 Tick +29 (29 过量治疗)", -- [47]
+				"凛寒 愈合 克罗尼亚·恒影 Tick +14 (14 过量治疗)", -- [48]
+				"凛寒 回春术 克罗尼亚·恒影 Tick +29 (29 过量治疗)", -- [49]
+				"凛寒 愈合 克罗尼亚·恒影 Tick +14 (14 过量治疗)", -- [50]
 			},
-			["Name"] = "查尔斯三世",
+			["Name"] = "凛寒",
 			["LastEventIncoming"] = {
 				false, -- [1]
 				false, -- [2]
@@ -27570,16 +8812,16 @@ RecountPerCharDB = {
 				false, -- [7]
 				true, -- [8]
 				false, -- [9]
-				false, -- [10]
+				true, -- [10]
 				false, -- [11]
-				false, -- [12]
+				true, -- [12]
 				false, -- [13]
 				false, -- [14]
 				false, -- [15]
-				true, -- [16]
+				false, -- [16]
 				false, -- [17]
 				false, -- [18]
-				true, -- [19]
+				false, -- [19]
 				false, -- [20]
 				false, -- [21]
 				false, -- [22]
@@ -27589,149 +8831,1629 @@ RecountPerCharDB = {
 				false, -- [26]
 				false, -- [27]
 				false, -- [28]
-				false, -- [29]
+				true, -- [29]
 				false, -- [30]
-				false, -- [31]
+				true, -- [31]
 				false, -- [32]
 				true, -- [33]
 				false, -- [34]
 				true, -- [35]
-				true, -- [36]
-				true, -- [37]
+				false, -- [36]
+				false, -- [37]
 				true, -- [38]
-				true, -- [39]
-				true, -- [40]
-				true, -- [41]
-				true, -- [42]
+				false, -- [39]
+				false, -- [40]
+				false, -- [41]
+				false, -- [42]
 				false, -- [43]
-				true, -- [44]
-				true, -- [45]
+				false, -- [44]
+				false, -- [45]
 				false, -- [46]
-				true, -- [47]
+				false, -- [47]
 				false, -- [48]
 				false, -- [49]
-				true, -- [50]
+				false, -- [50]
 			},
 			["LastEventTimes"] = {
-				47481.875, -- [1]
-				47482.467, -- [2]
-				47511.774, -- [3]
-				47513.801, -- [4]
-				47513.801, -- [5]
-				47514.198, -- [6]
-				47734.393, -- [7]
-				47736.116, -- [8]
-				47736.346, -- [9]
-				47738.347, -- [10]
-				47738.347, -- [11]
-				47739.62, -- [12]
-				47741.039, -- [13]
-				47741.039, -- [14]
-				47744.889, -- [15]
-				47746.496, -- [16]
-				47746.904, -- [17]
-				47747.29, -- [18]
-				47748.953, -- [19]
-				47749.288, -- [20]
-				47749.806, -- [21]
-				47750.545, -- [22]
-				47754.515, -- [23]
-				47756.522, -- [24]
-				47939.319, -- [25]
-				47940.839, -- [26]
-				47942.857, -- [27]
-				47942.857, -- [28]
-				47943.393, -- [29]
-				47944.771, -- [30]
-				47946.597, -- [31]
-				47946.865, -- [32]
-				47948.177, -- [33]
-				47948.854, -- [34]
-				47949.62, -- [35]
-				47950.696, -- [36]
-				47951.101, -- [37]
-				47953.794, -- [38]
-				47955.406, -- [39]
-				47957.651, -- [40]
-				47959.588, -- [41]
-				48150.412, -- [42]
-				48150.678, -- [43]
-				49115.471, -- [44]
-				49148.306, -- [45]
-				47477.583, -- [46]
-				47478.606, -- [47]
-				47479.6, -- [48]
-				47479.946, -- [49]
-				47481.074, -- [50]
+				4872.302, -- [1]
+				4873.134, -- [2]
+				4873.351, -- [3]
+				4875.244, -- [4]
+				4876.125, -- [5]
+				4876.338, -- [6]
+				4879.125, -- [7]
+				4879.343, -- [8]
+				4882.126, -- [9]
+				4882.344, -- [10]
+				4885.124, -- [11]
+				4885.353, -- [12]
+				4591.381, -- [13]
+				4592.951, -- [14]
+				4594.437, -- [15]
+				4595.959, -- [16]
+				4598.975, -- [17]
+				4601.961, -- [18]
+				4633.536, -- [19]
+				4635.046, -- [20]
+				4639.994, -- [21]
+				4640.552, -- [22]
+				4642.912, -- [23]
+				4645.985, -- [24]
+				4648.949000000001, -- [25]
+				4651.985, -- [26]
+				4838.04, -- [27]
+				4839.549, -- [28]
+				4842.282, -- [29]
+				4843.352, -- [30]
+				4845.305, -- [31]
+				4847.924, -- [32]
+				4848.29, -- [33]
+				4850.89, -- [34]
+				4851.286, -- [35]
+				4853.17, -- [36]
+				4853.854, -- [37]
+				4854.243, -- [38]
+				4855.706, -- [39]
+				4856.848, -- [40]
+				4857.389, -- [41]
+				4858.611, -- [42]
+				4859.916, -- [43]
+				4860.767, -- [44]
+				4863.287, -- [45]
+				4864.084, -- [46]
+				4866.296, -- [47]
+				4867.123000000001, -- [48]
+				4869.207, -- [49]
+				4870.113, -- [50]
 			},
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeHealing"] = {
+						["凛寒"] = {
+							["Details"] = {
+								["回春术"] = {
+									["count"] = 6,
+								},
+								["愈合"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 9,
+						},
+						["查尔斯三世"] = {
+							["Details"] = {
+								["回春术"] = {
+									["count"] = 6,
+								},
+								["治疗之触"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 7.5,
+						},
+					},
+					["OverHeals"] = {
+						["回春术"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 29,
+									["min"] = 3,
+									["count"] = 10,
+									["amount"] = 262,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 262,
+						},
+						["治疗之触"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 92,
+									["min"] = 92,
+									["count"] = 1,
+									["amount"] = 92,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 92,
+						},
+						["愈合"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 14,
+									["min"] = 14,
+									["count"] = 2,
+									["amount"] = 28,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 28,
+						},
+					},
+					["TimeSpent"] = {
+						["砂石断骨者"] = {
+							["Details"] = {
+								["荆棘术"] = {
+									["count"] = 7.08,
+								},
+								["愤怒"] = {
+									["count"] = 5.79,
+								},
+							},
+							["amount"] = 12.87,
+						},
+						["凛寒"] = {
+							["Details"] = {
+								["回春术"] = {
+									["count"] = 6,
+								},
+								["愈合"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 9,
+						},
+						["石巨兽"] = {
+							["Details"] = {
+								["荆棘术"] = {
+									["count"] = 1.33,
+								},
+								["月火术"] = {
+									["count"] = 0.39,
+								},
+								["愤怒"] = {
+									["count"] = 17.24,
+								},
+							},
+							["amount"] = 18.96,
+						},
+						["暗滩执行者"] = {
+							["Details"] = {
+								["愤怒"] = {
+									["count"] = 7.22,
+								},
+							},
+							["amount"] = 7.22,
+						},
+						["灰斑蓟熊"] = {
+							["Details"] = {
+								["愤怒"] = {
+									["count"] = 3,
+								},
+								["荆棘术"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 4.5,
+						},
+						["查尔斯三世"] = {
+							["Details"] = {
+								["回春术"] = {
+									["count"] = 6,
+								},
+								["治疗之触"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 7.5,
+						},
+						["暗滩精兵"] = {
+							["Details"] = {
+								["愤怒"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["破损的傀儡"] = {
+							["Details"] = {
+								["荆棘术"] = {
+									["count"] = 4.890000000000001,
+								},
+								["肉搏"] = {
+									["count"] = 1.5,
+								},
+								["月火术 (伤害/跳)"] = {
+									["count"] = 5.6,
+								},
+								["月火术"] = {
+									["count"] = 4.76,
+								},
+								["愤怒"] = {
+									["count"] = 23.6,
+								},
+							},
+							["amount"] = 40.34999999999999,
+						},
+						["黑木巨熊怪"] = {
+							["Details"] = {
+								["愤怒"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["月夜雄虎"] = {
+							["Details"] = {
+								["荆棘术"] = {
+									["count"] = 0.62,
+								},
+								["肉搏"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15.62,
+						},
+						["砂石斥候"] = {
+							["Details"] = {
+								["荆棘术"] = {
+									["count"] = 0.74,
+								},
+								["月火术 (伤害/跳)"] = {
+									["count"] = 1.5,
+								},
+								["月火术"] = {
+									["count"] = 2.2,
+								},
+								["愤怒"] = {
+									["count"] = 7.020000000000001,
+								},
+							},
+							["amount"] = 11.46,
+						},
+						["黑木图腾师"] = {
+							["Details"] = {
+								["愤怒"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["DamageTaken"] = 576,
+					["PartialResist"] = {
+						["肉搏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 20,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 20,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 6,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 13,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 11,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 3,
+								},
+								["Miss"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 67,
+								},
+							},
+							["amount"] = 75,
+						},
+					},
+					["PartialAbsorb"] = {
+						["肉搏"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 20,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 20,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 134.98,
+					["WhoHealed"] = {
+						["凛寒"] = {
+							["Details"] = {
+								["回春术"] = {
+									["count"] = 116,
+								},
+								["愈合"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 144,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 576,
+					},
+					["HOTs"] = {
+						["回春术"] = {
+							["Details"] = {
+								["凛寒"] = {
+									["count"] = 33,
+								},
+								["查尔斯三世"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 48,
+						},
+						["愈合"] = {
+							["Details"] = {
+								["凛寒"] = {
+									["count"] = 6,
+								},
+								["查尔斯三世"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["Damage"] = 3754,
+					["HealedWho"] = {
+						["凛寒"] = {
+							["Details"] = {
+								["回春术"] = {
+									["count"] = 116,
+								},
+								["愈合"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 144,
+						},
+						["查尔斯三世"] = {
+							["Details"] = {
+								["回春术"] = {
+									["count"] = 86,
+								},
+								["治疗之触"] = {
+									["count"] = 138,
+								},
+							},
+							["amount"] = 224,
+						},
+					},
+					["TimeHeal"] = 16.5,
+					["Heals"] = {
+						["回春术"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 29,
+									["min"] = 2,
+									["count"] = 8,
+									["amount"] = 202,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 202,
+						},
+						["治疗之触"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 138,
+									["min"] = 138,
+									["count"] = 1,
+									["amount"] = 138,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 138,
+						},
+						["愈合"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 14,
+									["min"] = 14,
+									["count"] = 2,
+									["amount"] = 28,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 28,
+						},
+					},
+					["DOT_Time"] = 18,
+					["DOTs"] = {
+						["月火术 (伤害/跳)"] = {
+							["Details"] = {
+								["砂石斥候"] = {
+									["count"] = 3,
+								},
+								["破损的傀儡"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 18,
+						},
+					},
+					["Healing"] = 368,
+					["Overhealing"] = 382,
+					["HOT_Time"] = 60,
+					["Attacks"] = {
+						["肉搏"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 74,
+									["min"] = 74,
+									["count"] = 1,
+									["amount"] = 74,
+								},
+								["Hit"] = {
+									["max"] = 34,
+									["min"] = 27,
+									["count"] = 9,
+									["amount"] = 286,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 360,
+						},
+						["月火术 (伤害/跳)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 15,
+									["min"] = 14,
+									["count"] = 6,
+									["amount"] = 87,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 87,
+						},
+						["愤怒"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 88,
+									["min"] = 80,
+									["count"] = 2,
+									["amount"] = 168,
+								},
+								["Hit"] = {
+									["max"] = 61,
+									["min"] = 52,
+									["count"] = 50,
+									["amount"] = 2833,
+								},
+							},
+							["count"] = 55,
+							["amount"] = 3001,
+						},
+						["月火术"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 36,
+									["min"] = 31,
+									["count"] = 6,
+									["amount"] = 204,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 204,
+						},
+						["荆棘术"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 6,
+									["min"] = 6,
+									["count"] = 17,
+									["amount"] = 102,
+								},
+							},
+							["count"] = 20,
+							["amount"] = 102,
+						},
+					},
+					["HealingTaken"] = 144,
+					["DamagedWho"] = {
+						["砂石断骨者"] = {
+							["Details"] = {
+								["荆棘术"] = {
+									["count"] = 30,
+								},
+								["愤怒"] = {
+									["count"] = 259,
+								},
+							},
+							["amount"] = 289,
+						},
+						["石巨兽"] = {
+							["Details"] = {
+								["荆棘术"] = {
+									["count"] = 30,
+								},
+								["月火术"] = {
+									["count"] = 31,
+								},
+								["愤怒"] = {
+									["count"] = 740,
+								},
+							},
+							["amount"] = 801,
+						},
+						["黑木图腾师"] = {
+							["Details"] = {
+								["愤怒"] = {
+									["count"] = 57,
+								},
+							},
+							["amount"] = 57,
+						},
+						["暗滩执行者"] = {
+							["Details"] = {
+								["愤怒"] = {
+									["count"] = 111,
+								},
+							},
+							["amount"] = 111,
+						},
+						["暗滩精兵"] = {
+							["Details"] = {
+								["愤怒"] = {
+									["count"] = 112,
+								},
+							},
+							["amount"] = 112,
+						},
+						["破损的傀儡"] = {
+							["Details"] = {
+								["荆棘术"] = {
+									["count"] = 30,
+								},
+								["肉搏"] = {
+									["count"] = 27,
+								},
+								["月火术 (伤害/跳)"] = {
+									["count"] = 73,
+								},
+								["月火术"] = {
+									["count"] = 102,
+								},
+								["愤怒"] = {
+									["count"] = 1065,
+								},
+							},
+							["amount"] = 1297,
+						},
+						["黑木巨熊怪"] = {
+							["Details"] = {
+								["愤怒"] = {
+									["count"] = 112,
+								},
+							},
+							["amount"] = 112,
+						},
+						["月夜雄虎"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 333,
+								},
+							},
+							["amount"] = 333,
+						},
+						["砂石斥候"] = {
+							["Details"] = {
+								["荆棘术"] = {
+									["count"] = 6,
+								},
+								["月火术 (伤害/跳)"] = {
+									["count"] = 14,
+								},
+								["月火术"] = {
+									["count"] = 71,
+								},
+								["愤怒"] = {
+									["count"] = 426,
+								},
+							},
+							["amount"] = 517,
+						},
+						["灰斑蓟熊"] = {
+							["Details"] = {
+								["愤怒"] = {
+									["count"] = 119,
+								},
+								["荆棘术"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 125,
+						},
+					},
+					["TimeDamage"] = 118.48,
+					["WhoDamaged"] = {
+						["灰斑蓟熊"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 26,
+								},
+							},
+							["amount"] = 26,
+						},
+						["砂石断骨者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 269,
+								},
+							},
+							["amount"] = 269,
+						},
+						["破损的傀儡"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 127,
+								},
+							},
+							["amount"] = 127,
+						},
+						["石巨兽"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 131,
+								},
+							},
+							["amount"] = 131,
+						},
+						["砂石斥候"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 23,
+						},
+					},
+					["ElementDone"] = {
+						["Arcane"] = 291,
+						["Melee"] = 360,
+						["Nature"] = 3103,
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 17,
+								},
+							},
+							["amount"] = 20,
+						},
+					},
+					["TimeDamaging"] = {
+						["砂石断骨者"] = {
+							["Details"] = {
+								["荆棘术"] = {
+									["count"] = 7.08,
+								},
+								["愤怒"] = {
+									["count"] = 5.79,
+								},
+							},
+							["amount"] = 12.87,
+						},
+						["石巨兽"] = {
+							["Details"] = {
+								["荆棘术"] = {
+									["count"] = 1.33,
+								},
+								["月火术"] = {
+									["count"] = 0.39,
+								},
+								["愤怒"] = {
+									["count"] = 17.24,
+								},
+							},
+							["amount"] = 18.96,
+						},
+						["黑木图腾师"] = {
+							["Details"] = {
+								["愤怒"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["暗滩执行者"] = {
+							["Details"] = {
+								["愤怒"] = {
+									["count"] = 7.22,
+								},
+							},
+							["amount"] = 7.22,
+						},
+						["暗滩精兵"] = {
+							["Details"] = {
+								["愤怒"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["破损的傀儡"] = {
+							["Details"] = {
+								["荆棘术"] = {
+									["count"] = 4.890000000000001,
+								},
+								["肉搏"] = {
+									["count"] = 1.5,
+								},
+								["月火术 (伤害/跳)"] = {
+									["count"] = 5.6,
+								},
+								["月火术"] = {
+									["count"] = 4.76,
+								},
+								["愤怒"] = {
+									["count"] = 23.6,
+								},
+							},
+							["amount"] = 40.34999999999999,
+						},
+						["黑木巨熊怪"] = {
+							["Details"] = {
+								["愤怒"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["月夜雄虎"] = {
+							["Details"] = {
+								["荆棘术"] = {
+									["count"] = 0.62,
+								},
+								["肉搏"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15.62,
+						},
+						["砂石斥候"] = {
+							["Details"] = {
+								["荆棘术"] = {
+									["count"] = 0.74,
+								},
+								["月火术 (伤害/跳)"] = {
+									["count"] = 1.5,
+								},
+								["月火术"] = {
+									["count"] = 2.2,
+								},
+								["愤怒"] = {
+									["count"] = 7.020000000000001,
+								},
+							},
+							["amount"] = 11.46,
+						},
+						["灰斑蓟熊"] = {
+							["Details"] = {
+								["愤怒"] = {
+									["count"] = 3,
+								},
+								["荆棘术"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 4.5,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 4571.518,
+			["LastActive"] = 4884.517,
+		},
+		["熊 <流星剑雨>"] = {
+			["GUID"] = "Pet-0-4505-1-11184-2163-06016CABC0",
+			["LastEventHealth"] = {
+				462, -- [1]
+				462, -- [2]
+				462, -- [3]
+				441, -- [4]
+				441, -- [5]
+				441, -- [6]
+				420, -- [7]
+				420, -- [8]
+				420, -- [9]
+				420, -- [10]
+				388, -- [11]
+				388, -- [12]
+				360, -- [13]
+				360, -- [14]
+				360, -- [15]
+				360, -- [16]
+			},
+			["LastAttackedBy"] = "萨巴克希斯",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+			},
+			["TimeWindows"] = {
+				["TimeDamage"] = {
+					9.680000000000001, -- [1]
+				},
+				["Damage"] = {
+					34, -- [1]
+				},
+				["DamageTaken"] = {
+					102, -- [1]
+				},
+				["ActiveTime"] = {
+					9.680000000000001, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["unit"] = "熊",
+			["level"] = 1,
+			["LastDamageAbility"] = "肉搏",
+			["LastFightIn"] = 566,
+			["type"] = "Pet",
+			["FightsSaved"] = 5,
+			["ownerName"] = "流星剑雨",
+			["LastDamageTaken"] = 28,
 			["TimeLast"] = {
-				["TimeHeal"] = 47957.001,
-				["OVERALL"] = 49148.003,
-				["DamageTaken"] = 49148.003,
-				["DeathCount"] = 46565.002,
-				["HealingTaken"] = 47957.001,
-				["ActiveTime"] = 48150.002,
-				["Healing"] = 47957.001,
-				["TimeDamage"] = 48150.002,
-				["DOT_Time"] = 47948.011,
-				["Damage"] = 48150.002,
+				["ActiveTime"] = 1929.529,
+				["TimeDamage"] = 1929.529,
+				["OVERALL"] = 1929.529,
+				["DamageTaken"] = 1927.519,
+				["Damage"] = 1927.519,
 			},
 			["LastEventHealthMax"] = {
-				392, -- [1]
-				392, -- [2]
-				392, -- [3]
-				392, -- [4]
-				392, -- [5]
-				392, -- [6]
-				392, -- [7]
-				392, -- [8]
-				392, -- [9]
-				392, -- [10]
-				392, -- [11]
-				392, -- [12]
-				392, -- [13]
-				392, -- [14]
-				392, -- [15]
-				392, -- [16]
-				392, -- [17]
-				392, -- [18]
-				392, -- [19]
-				392, -- [20]
-				392, -- [21]
-				392, -- [22]
-				392, -- [23]
-				392, -- [24]
-				392, -- [25]
-				392, -- [26]
-				392, -- [27]
-				392, -- [28]
-				392, -- [29]
-				392, -- [30]
-				392, -- [31]
-				392, -- [32]
-				392, -- [33]
-				392, -- [34]
-				392, -- [35]
-				392, -- [36]
-				392, -- [37]
-				392, -- [38]
-				392, -- [39]
-				392, -- [40]
-				392, -- [41]
-				392, -- [42]
-				392, -- [43]
-				397, -- [44]
-				397, -- [45]
-				392, -- [46]
-				392, -- [47]
-				392, -- [48]
-				392, -- [49]
-				392, -- [50]
+				462, -- [1]
+				462, -- [2]
+				462, -- [3]
+				462, -- [4]
+				462, -- [5]
+				462, -- [6]
+				462, -- [7]
+				462, -- [8]
+				462, -- [9]
+				462, -- [10]
+				462, -- [11]
+				462, -- [12]
+				462, -- [13]
+				462, -- [14]
+				462, -- [15]
+				462, -- [16]
 			},
-			["LastActive"] = 49148.003,
+			["NextEventNum"] = 17,
+			["LastDamageTime"] = 1930.227,
+			["LastEvents"] = {
+				"熊 <流星剑雨> 肉搏 萨巴克希斯 Glancing -8 (Physical)", -- [1]
+				"熊 <流星剑雨> 爪击 萨巴克希斯 Miss (Physical)", -- [2]
+				"萨巴克希斯 肉搏 熊 <流星剑雨> Hit -21 (Physical)", -- [3]
+				"熊 <流星剑雨> 横扫 萨巴克希斯 Hit -11 (Physical)", -- [4]
+				"熊 <流星剑雨> 肉搏 萨巴克希斯 Glancing -5 (Physical)", -- [5]
+				"萨巴克希斯 肉搏 熊 <流星剑雨> Hit -21 (Physical)", -- [6]
+				"熊 <流星剑雨> 爪击 萨巴克希斯 Dodge (Physical)", -- [7]
+				"熊 <流星剑雨> 肉搏 萨巴克希斯 Glancing -7 (Physical)", -- [8]
+				"萨巴克希斯 肉搏 熊 <流星剑雨> Crushing -32 (Physical)", -- [9]
+				"熊 <流星剑雨> 爪击 萨巴克希斯 Parry (Physical)", -- [10]
+				"熊 <流星剑雨> 肉搏 萨巴克希斯 Glancing -3 (Physical)", -- [11]
+				"萨巴克希斯 肉搏 熊 <流星剑雨> Hit -28 (Physical)", -- [12]
+				"熊 <流星剑雨> 爪击 萨巴克希斯 Parry (Physical)", -- [13]
+				"萨巴克希斯 肉搏 熊 <流星剑雨> Miss (1)", -- [14]
+				"熊 <流星剑雨> 肉搏 萨巴克希斯 Miss (1)", -- [15]
+				"熊 <流星剑雨> 爪击 萨巴克希斯 Parry (Physical)", -- [16]
+			},
+			["Name"] = "熊",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				true, -- [3]
+				false, -- [4]
+				false, -- [5]
+				true, -- [6]
+				false, -- [7]
+				false, -- [8]
+				true, -- [9]
+				false, -- [10]
+				false, -- [11]
+				true, -- [12]
+				false, -- [13]
+				true, -- [14]
+				false, -- [15]
+				false, -- [16]
+			},
+			["LastEventTimes"] = {
+				1921.89, -- [1]
+				1922.173, -- [2]
+				1922.978, -- [3]
+				1923.79, -- [4]
+				1923.891, -- [5]
+				1924.989, -- [6]
+				1925.421, -- [7]
+				1925.815, -- [8]
+				1926.98, -- [9]
+				1926.98, -- [10]
+				1927.898, -- [11]
+				1927.898, -- [12]
+				1928.584, -- [13]
+				1928.974, -- [14]
+				1929.838, -- [15]
+				1930.227, -- [16]
+			},
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crushing"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["PartialAbsorb"] = {
+						["肉搏"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["肉搏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 5,
+						},
+					},
+					["Attacks"] = {
+						["横扫"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 11,
+									["min"] = 11,
+									["count"] = 1,
+									["amount"] = 11,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 11,
+						},
+						["爪击"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 8,
+									["min"] = 3,
+									["count"] = 4,
+									["amount"] = 23,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 23,
+						},
+					},
+					["TimeSpent"] = {
+						["萨巴克希斯"] = {
+							["Details"] = {
+								["横扫"] = {
+									["count"] = 1.5,
+								},
+								["爪击"] = {
+									["count"] = 4.02,
+								},
+								["肉搏"] = {
+									["count"] = 4.16,
+								},
+							},
+							["amount"] = 9.680000000000001,
+						},
+					},
+					["DamageTaken"] = 102,
+					["WhoDamaged"] = {
+						["萨巴克希斯"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 102,
+								},
+							},
+							["amount"] = 102,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 23,
+						["Physical"] = 11,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 4,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 3,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["DamagedWho"] = {
+						["萨巴克希斯"] = {
+							["Details"] = {
+								["横扫"] = {
+									["count"] = 11,
+								},
+								["肉搏"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 34,
+						},
+					},
+					["TimeDamage"] = 9.680000000000001,
+					["TimeDamaging"] = {
+						["萨巴克希斯"] = {
+							["Details"] = {
+								["横扫"] = {
+									["count"] = 1.5,
+								},
+								["爪击"] = {
+									["count"] = 4.02,
+								},
+								["肉搏"] = {
+									["count"] = 4.16,
+								},
+							},
+							["amount"] = 9.680000000000001,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 102,
+					},
+					["ActiveTime"] = 9.680000000000001,
+					["Damage"] = 34,
+				},
+			},
+			["UnitLockout"] = 1921.523,
+			["LastActive"] = 1929.529,
 		},
 	},
-	["FightNum"] = 556,
+	["FightNum"] = 728,
 	["CombatTimes"] = {
 		{
 			18315.966, -- [1]
@@ -31625,12 +14347,1216 @@ RecountPerCharDB = {
 			"23:24:47", -- [4]
 			"幽爪奔跑者", -- [5]
 		}, -- [556]
+		{
+			1287.53, -- [1]
+			1293.522, -- [2]
+			"20:35:41", -- [3]
+			"20:35:46", -- [4]
+			"黑木战士", -- [5]
+		}, -- [557]
+		{
+			1306.526, -- [1]
+			1360.518, -- [2]
+			"20:35:59", -- [3]
+			"20:36:53", -- [4]
+			"黑木战士", -- [5]
+		}, -- [558]
+		{
+			1463.52, -- [1]
+			1469.525, -- [2]
+			"20:38:36", -- [3]
+			"20:38:42", -- [4]
+			"黑木战士", -- [5]
+		}, -- [559]
+		{
+			1504.524, -- [1]
+			1510.522, -- [2]
+			"20:39:18", -- [3]
+			"20:39:23", -- [4]
+			"黑木图腾师", -- [5]
+		}, -- [560]
+		{
+			1519.518, -- [1]
+			1539.518, -- [2]
+			"20:39:33", -- [3]
+			"20:39:52", -- [4]
+			"黑木战士", -- [5]
+		}, -- [561]
+		{
+			1596.523, -- [1]
+			1636.518, -- [2]
+			"20:40:50", -- [3]
+			"20:41:29", -- [4]
+			"黑木战士", -- [5]
+		}, -- [562]
+		{
+			1659.526, -- [1]
+			1692.518, -- [2]
+			"20:41:53", -- [3]
+			"20:42:25", -- [4]
+			"黑木战士", -- [5]
+		}, -- [563]
+		{
+			1726.519, -- [1]
+			1795.518, -- [2]
+			"20:43:00", -- [3]
+			"20:44:08", -- [4]
+			"黑木图腾师", -- [5]
+		}, -- [564]
+		{
+			1870.518, -- [1]
+			1876.518, -- [2]
+			"20:45:23", -- [3]
+			"20:45:29", -- [4]
+			"黑木战士", -- [5]
+		}, -- [565]
+		{
+			1883.518, -- [1]
+			1889.52, -- [2]
+			"20:45:37", -- [3]
+			"20:45:42", -- [4]
+			"黑木图腾师", -- [5]
+		}, -- [566]
+		{
+			1921.523, -- [1]
+			1932.524, -- [2]
+			"20:46:14", -- [3]
+			"20:46:25", -- [4]
+			"萨巴克希斯", -- [5]
+		}, -- [567]
+		{
+			2000.525, -- [1]
+			2038.519, -- [2]
+			"20:47:33", -- [3]
+			"20:48:11", -- [4]
+			"蓟熊幼崽", -- [5]
+		}, -- [568]
+		{
+			2051.517, -- [1]
+			2063.53, -- [2]
+			"20:48:25", -- [3]
+			"20:48:36", -- [4]
+			"月夜猛虎", -- [5]
+		}, -- [569]
+		{
+			2129.524, -- [1]
+			2177.527, -- [2]
+			"20:49:42", -- [3]
+			"20:50:30", -- [4]
+			"雷鳞侍从", -- [5]
+		}, -- [570]
+		{
+			2186.521, -- [1]
+			2195.519, -- [2]
+			"20:50:40", -- [3]
+			"20:50:48", -- [4]
+			"雷鳞侍从", -- [5]
+		}, -- [571]
+		{
+			2212.523, -- [1]
+			2217.521, -- [2]
+			"20:51:05", -- [3]
+			"20:51:10", -- [4]
+			"雷鳞巫师", -- [5]
+		}, -- [572]
+		{
+			2234.522, -- [1]
+			2243.524, -- [2]
+			"20:51:28", -- [3]
+			"20:51:36", -- [4]
+			"雷鳞侍从", -- [5]
+		}, -- [573]
+		{
+			2253.524, -- [1]
+			2261.521, -- [2]
+			"20:51:46", -- [3]
+			"20:51:54", -- [4]
+			"雷鳞侍从", -- [5]
+		}, -- [574]
+		{
+			2266.522, -- [1]
+			2275.52, -- [2]
+			"20:52:00", -- [3]
+			"20:52:08", -- [4]
+			"雷鳞巫师", -- [5]
+		}, -- [575]
+		{
+			2291.521, -- [1]
+			2300.526, -- [2]
+			"20:52:24", -- [3]
+			"20:52:33", -- [4]
+			"雷鳞巫师", -- [5]
+		}, -- [576]
+		{
+			2314.521, -- [1]
+			2321.525, -- [2]
+			"20:52:48", -- [3]
+			"20:52:54", -- [4]
+			"雷鳞侍从", -- [5]
+		}, -- [577]
+		{
+			2351.526, -- [1]
+			2373.524, -- [2]
+			"20:53:25", -- [3]
+			"20:53:46", -- [4]
+			"雷鳞侍从", -- [5]
+		}, -- [578]
+		{
+			2426.524, -- [1]
+			2436.518, -- [2]
+			"20:54:39", -- [3]
+			"20:54:49", -- [4]
+			"狂暴暗礁蟹", -- [5]
+		}, -- [579]
+		{
+			2439.521, -- [1]
+			2447.521, -- [2]
+			"20:54:53", -- [3]
+			"20:55:00", -- [4]
+			"狂暴暗礁蟹", -- [5]
+		}, -- [580]
+		{
+			2469.523, -- [1]
+			2477.52, -- [2]
+			"20:55:23", -- [3]
+			"20:55:30", -- [4]
+			"凶猛的森林陆行鸟", -- [5]
+		}, -- [581]
+		{
+			2491.524, -- [1]
+			2509.526, -- [2]
+			"20:55:45", -- [3]
+			"20:56:02", -- [4]
+			"月夜雌虎", -- [5]
+		}, -- [582]
+		{
+			2522.524, -- [1]
+			2539.528, -- [2]
+			"20:56:16", -- [3]
+			"20:56:32", -- [4]
+			"月夜雌虎", -- [5]
+		}, -- [583]
+		{
+			2567.52, -- [1]
+			2585.52, -- [2]
+			"20:57:00", -- [3]
+			"20:57:18", -- [4]
+			"月夜雌虎", -- [5]
+		}, -- [584]
+		{
+			2609.527, -- [1]
+			2628.528, -- [2]
+			"20:57:43", -- [3]
+			"20:58:01", -- [4]
+			"月夜雌虎", -- [5]
+		}, -- [585]
+		{
+			2638.524, -- [1]
+			2646.528, -- [2]
+			"20:58:12", -- [3]
+			"20:58:19", -- [4]
+			"月夜雄虎", -- [5]
+		}, -- [586]
+		{
+			2662.527, -- [1]
+			2697.525, -- [2]
+			"20:58:36", -- [3]
+			"20:59:10", -- [4]
+			"月夜雌虎", -- [5]
+		}, -- [587]
+		{
+			2706.523, -- [1]
+			2723.518, -- [2]
+			"20:59:19", -- [3]
+			"20:59:36", -- [4]
+			"月夜雌虎", -- [5]
+		}, -- [588]
+		{
+			2733.519, -- [1]
+			2741.519, -- [2]
+			"20:59:47", -- [3]
+			"20:59:54", -- [4]
+			"凶猛的森林陆行鸟", -- [5]
+		}, -- [589]
+		{
+			2807.522, -- [1]
+			2815.527, -- [2]
+			"21:01:01", -- [3]
+			"21:01:08", -- [4]
+			"狂暴暗礁蟹", -- [5]
+		}, -- [590]
+		{
+			2830.524, -- [1]
+			2840.52, -- [2]
+			"21:01:24", -- [3]
+			"21:01:33", -- [4]
+			"狂暴暗礁蟹", -- [5]
+		}, -- [591]
+		{
+			2881.52, -- [1]
+			2891.526, -- [2]
+			"21:02:15", -- [3]
+			"21:02:24", -- [4]
+			"灰雾智者", -- [5]
+		}, -- [592]
+		{
+			2903.518, -- [1]
+			2910.527, -- [2]
+			"21:02:36", -- [3]
+			"21:02:43", -- [4]
+			"灰雾潮行者", -- [5]
+		}, -- [593]
+		{
+			3001.52, -- [1]
+			3008.522, -- [2]
+			"21:04:14", -- [3]
+			"21:04:21", -- [4]
+			"机械打手4100型", -- [5]
+		}, -- [594]
+		{
+			3590.521, -- [1]
+			3599.519, -- [2]
+			"21:14:03", -- [3]
+			"21:14:12", -- [4]
+			"黑木萨满祭司", -- [5]
+		}, -- [595]
+		{
+			3602.518, -- [1]
+			3610.527, -- [2]
+			"21:14:16", -- [3]
+			"21:14:23", -- [4]
+			"黑木萨满祭司", -- [5]
+		}, -- [596]
+		{
+			3612.528, -- [1]
+			3618.53, -- [2]
+			"21:14:26", -- [3]
+			"21:14:31", -- [4]
+			"黑木巨熊怪", -- [5]
+		}, -- [597]
+		{
+			3633.527, -- [1]
+			3639.518, -- [2]
+			"21:14:46", -- [3]
+			"21:14:52", -- [4]
+			"黑木巨熊怪", -- [5]
+		}, -- [598]
+		{
+			3757.518, -- [1]
+			3764.526, -- [2]
+			"21:16:51", -- [3]
+			"21:16:57", -- [4]
+			"灰斑蓟熊", -- [5]
+		}, -- [599]
+		{
+			3770.525, -- [1]
+			3775.523, -- [2]
+			"21:17:04", -- [3]
+			"21:17:08", -- [4]
+			"破损的傀儡", -- [5]
+		}, -- [600]
+		{
+			3780.52, -- [1]
+			3787.519, -- [2]
+			"21:17:13", -- [3]
+			"21:17:20", -- [4]
+			"破损的傀儡", -- [5]
+		}, -- [601]
+		{
+			3792.524, -- [1]
+			3811.527, -- [2]
+			"21:17:25", -- [3]
+			"21:17:44", -- [4]
+			"石巨兽", -- [5]
+		}, -- [602]
+		{
+			3833.524, -- [1]
+			3842.528, -- [2]
+			"21:18:06", -- [3]
+			"21:18:15", -- [4]
+			"砂石斥候", -- [5]
+		}, -- [603]
+		{
+			3882.523, -- [1]
+			3892.519, -- [2]
+			"21:18:56", -- [3]
+			"21:19:05", -- [4]
+			"砂石斥候", -- [5]
+		}, -- [604]
+		{
+			3918.521, -- [1]
+			3923.517, -- [2]
+			"21:19:31", -- [3]
+			"21:19:36", -- [4]
+			"破损的傀儡", -- [5]
+		}, -- [605]
+		{
+			3931.517, -- [1]
+			3937.518, -- [2]
+			"21:19:45", -- [3]
+			"21:19:50", -- [4]
+			"破损的傀儡", -- [5]
+		}, -- [606]
+		{
+			3941.521, -- [1]
+			3944.528, -- [2]
+			"21:19:54", -- [3]
+			"21:19:57", -- [4]
+			"石巨兽", -- [5]
+		}, -- [607]
+		{
+			3949.523, -- [1]
+			3962.517, -- [2]
+			"21:20:03", -- [3]
+			"21:20:15", -- [4]
+			"石巨兽", -- [5]
+		}, -- [608]
+		{
+			4024.517, -- [1]
+			4043.524, -- [2]
+			"21:21:17", -- [3]
+			"21:21:36", -- [4]
+			"砂石地占师", -- [5]
+		}, -- [609]
+		{
+			4057.519, -- [1]
+			4062.526, -- [2]
+			"21:21:50", -- [3]
+			"21:21:55", -- [4]
+			"破损的傀儡", -- [5]
+		}, -- [610]
+		{
+			4072.525, -- [1]
+			4081.517, -- [2]
+			"21:22:06", -- [3]
+			"21:22:14", -- [4]
+			"破损的傀儡", -- [5]
+		}, -- [611]
+		{
+			4089.52, -- [1]
+			4094.519, -- [2]
+			"21:22:23", -- [3]
+			"21:22:27", -- [4]
+			"破损的傀儡", -- [5]
+		}, -- [612]
+		{
+			4105.523, -- [1]
+			4114.529, -- [2]
+			"21:22:38", -- [3]
+			"21:22:47", -- [4]
+			"破损的傀儡", -- [5]
+		}, -- [613]
+		{
+			4210.539, -- [1]
+			4215.525, -- [2]
+			"21:24:24", -- [3]
+			"21:24:28", -- [4]
+			"灰斑蓟熊", -- [5]
+		}, -- [614]
+		{
+			4244.518, -- [1]
+			4265.529, -- [2]
+			"21:24:58", -- [3]
+			"21:25:18", -- [4]
+			"月夜雄虎", -- [5]
+		}, -- [615]
+		{
+			4404.518, -- [1]
+			4415.524, -- [2]
+			"21:27:38", -- [3]
+			"21:27:48", -- [4]
+			"月夜雄虎", -- [5]
+		}, -- [616]
+		{
+			4628.525000000001, -- [1]
+			4663.527, -- [2]
+			"21:31:22", -- [3]
+			"21:31:56", -- [4]
+			"黑木巨熊怪", -- [5]
+		}, -- [617]
+		{
+			4825.519, -- [1]
+			4869.52, -- [2]
+			"21:34:38", -- [3]
+			"21:35:22", -- [4]
+			"暗滩执行者", -- [5]
+		}, -- [618]
+		{
+			5118.517, -- [1]
+			5136.527, -- [2]
+			"21:39:32", -- [3]
+			"21:39:49", -- [4]
+			"小鬼爪牙", -- [5]
+		}, -- [619]
+		{
+			5156.526, -- [1]
+			5162.522, -- [2]
+			"21:40:10", -- [3]
+			"21:40:15", -- [4]
+			"暗滩祭司", -- [5]
+		}, -- [620]
+		{
+			5168.522, -- [1]
+			5177.523, -- [2]
+			"21:40:22", -- [3]
+			"21:40:30", -- [4]
+			"暗滩祭司", -- [5]
+		}, -- [621]
+		{
+			5185.523, -- [1]
+			5193.524, -- [2]
+			"21:40:38", -- [3]
+			"21:40:46", -- [4]
+			"暗滩执行者", -- [5]
+		}, -- [622]
+		{
+			5197.528, -- [1]
+			5206.52, -- [2]
+			"21:40:51", -- [3]
+			"21:40:59", -- [4]
+			"暗滩挖掘者", -- [5]
+		}, -- [623]
+		{
+			5253.525000000001, -- [1]
+			5262.518, -- [2]
+			"21:41:46", -- [3]
+			"21:41:55", -- [4]
+			"暗滩挖掘者", -- [5]
+		}, -- [624]
+		{
+			5266.53, -- [1]
+			5274.517, -- [2]
+			"21:41:59", -- [3]
+			"21:42:07", -- [4]
+			"暗滩执行者", -- [5]
+		}, -- [625]
+		{
+			5278.525000000001, -- [1]
+			5289.522, -- [2]
+			"21:42:12", -- [3]
+			"21:42:22", -- [4]
+			"暗滩执行者", -- [5]
+		}, -- [626]
+		{
+			5294.52, -- [1]
+			5304.526, -- [2]
+			"21:42:28", -- [3]
+			"21:42:37", -- [4]
+			"暗滩祭司", -- [5]
+		}, -- [627]
+		{
+			5314.523, -- [1]
+			5328.522, -- [2]
+			"21:42:48", -- [3]
+			"21:43:01", -- [4]
+			"暗滩祭司", -- [5]
+		}, -- [628]
+		{
+			5348.517, -- [1]
+			5365.521, -- [2]
+			"21:43:22", -- [3]
+			"21:43:38", -- [4]
+			"虚空行者", -- [5]
+		}, -- [629]
+		{
+			5373.522, -- [1]
+			5387.52, -- [2]
+			"21:43:47", -- [3]
+			"21:44:00", -- [4]
+			"暗滩祭司", -- [5]
+		}, -- [630]
+		{
+			5439.526, -- [1]
+			5465.525000000001, -- [2]
+			"21:44:53", -- [3]
+			"21:45:18", -- [4]
+			"亡灵搜寻者", -- [5]
+		}, -- [631]
+		{
+			5472.521, -- [1]
+			5480.528, -- [2]
+			"21:45:26", -- [3]
+			"21:45:33", -- [4]
+			"亡灵搜寻者", -- [5]
+		}, -- [632]
+		{
+			5482.523, -- [1]
+			5487.518, -- [2]
+			"21:45:36", -- [3]
+			"21:45:40", -- [4]
+			"亡灵草药师", -- [5]
+		}, -- [633]
+		{
+			5507.518, -- [1]
+			5515.527, -- [2]
+			"21:46:01", -- [3]
+			"21:46:08", -- [4]
+			"亡灵搜寻者", -- [5]
+		}, -- [634]
+		{
+			5724.519, -- [1]
+			5734.523, -- [2]
+			"21:49:37", -- [3]
+			"21:49:47", -- [4]
+			"盐沫泥浆鱼人", -- [5]
+		}, -- [635]
+		{
+			5752.52, -- [1]
+			5764.522, -- [2]
+			"21:50:06", -- [3]
+			"21:50:17", -- [4]
+			"盐沫泥浆鱼人", -- [5]
+		}, -- [636]
+		{
+			5772.523, -- [1]
+			5781.519, -- [2]
+			"21:50:25", -- [3]
+			"21:50:34", -- [4]
+			"盐沫泥浆鱼人", -- [5]
+		}, -- [637]
+		{
+			5794.523, -- [1]
+			5801.523, -- [2]
+			"21:50:47", -- [3]
+			"21:50:54", -- [4]
+			"盐沫智者", -- [5]
+		}, -- [638]
+		{
+			5805.52, -- [1]
+			5815.529, -- [2]
+			"21:50:59", -- [3]
+			"21:51:08", -- [4]
+			"盐沫泥浆鱼人", -- [5]
+		}, -- [639]
+		{
+			7170.519, -- [1]
+			7176.522, -- [2]
+			"22:13:44", -- [3]
+			"22:13:49", -- [4]
+			"怒尾御浪者", -- [5]
+		}, -- [640]
+		{
+			7187.519, -- [1]
+			7192.525000000001, -- [2]
+			"22:14:01", -- [3]
+			"22:14:05", -- [4]
+			"怒尾巫师", -- [5]
+		}, -- [641]
+		{
+			7198.525000000001, -- [1]
+			7206.519, -- [2]
+			"22:14:12", -- [3]
+			"22:14:19", -- [4]
+			"怒尾巫师", -- [5]
+		}, -- [642]
+		{
+			7212.522, -- [1]
+			7218.524, -- [2]
+			"22:14:26", -- [3]
+			"22:14:31", -- [4]
+			"怒尾巫师", -- [5]
+		}, -- [643]
+		{
+			7252.526, -- [1]
+			7258.523, -- [2]
+			"22:15:06", -- [3]
+			"22:15:11", -- [4]
+			"怒尾巫师", -- [5]
+		}, -- [644]
+		{
+			7269.521, -- [1]
+			7275.522, -- [2]
+			"22:15:23", -- [3]
+			"22:15:28", -- [4]
+			"怒尾巫师", -- [5]
+		}, -- [645]
+		{
+			7288.521, -- [1]
+			7293.522, -- [2]
+			"22:15:41", -- [3]
+			"22:15:46", -- [4]
+			"怒尾巫师", -- [5]
+		}, -- [646]
+		{
+			7310.526, -- [1]
+			7321.524, -- [2]
+			"22:16:03", -- [3]
+			"22:16:14", -- [4]
+			"怒尾巫师", -- [5]
+		}, -- [647]
+		{
+			7328.52, -- [1]
+			7334.52, -- [2]
+			"22:16:22", -- [3]
+			"22:16:27", -- [4]
+			"怒尾巫师", -- [5]
+		}, -- [648]
+		{
+			7337.521, -- [1]
+			7344.526, -- [2]
+			"22:16:31", -- [3]
+			"22:16:37", -- [4]
+			"怒尾御浪者", -- [5]
+		}, -- [649]
+		{
+			7516.526, -- [1]
+			7524.525000000001, -- [2]
+			"22:19:30", -- [3]
+			"22:19:37", -- [4]
+			"怒尾侍从", -- [5]
+		}, -- [650]
+		{
+			7543.522, -- [1]
+			7551.526, -- [2]
+			"22:19:57", -- [3]
+			"22:20:04", -- [4]
+			"怒尾侍从", -- [5]
+		}, -- [651]
+		{
+			7560.52, -- [1]
+			7587.522, -- [2]
+			"22:20:14", -- [3]
+			"22:20:40", -- [4]
+			"卢泽尔", -- [5]
+		}, -- [652]
+		{
+			7614.517, -- [1]
+			7621.52, -- [2]
+			"22:21:07", -- [3]
+			"22:21:14", -- [4]
+			"怒尾女祭司", -- [5]
+		}, -- [653]
+		{
+			7628.521, -- [1]
+			7635.523, -- [2]
+			"22:21:22", -- [3]
+			"22:21:28", -- [4]
+			"怒尾女祭司", -- [5]
+		}, -- [654]
+		{
+			7648.522, -- [1]
+			7672.521, -- [2]
+			"22:21:42", -- [3]
+			"22:22:05", -- [4]
+			"怒尾侍从", -- [5]
+		}, -- [655]
+		{
+			7675.522, -- [1]
+			7683.525000000001, -- [2]
+			"22:22:09", -- [3]
+			"22:22:16", -- [4]
+			"怒尾侍从", -- [5]
+		}, -- [656]
+		{
+			7720.519, -- [1]
+			7742.522, -- [2]
+			"22:22:54", -- [3]
+			"22:23:15", -- [4]
+			"怒尾纳迦", -- [5]
+		}, -- [657]
+		{
+			8361.528, -- [1]
+			8373.523000000001, -- [2]
+			"22:33:34", -- [3]
+			"22:33:46", -- [4]
+			"鱼人士兵", -- [5]
+		}, -- [658]
+		{
+			8521.529, -- [1]
+			8533.529, -- [2]
+			"22:36:15", -- [3]
+			"22:36:26", -- [4]
+			"觅食的灰狼", -- [5]
+		}, -- [659]
+		{
+			8684.521, -- [1]
+			8702.523000000001, -- [2]
+			"22:38:57", -- [3]
+			"22:39:15", -- [4]
+			"贝利格拉布", -- [5]
+		}, -- [660]
+		{
+			8708.529, -- [1]
+			8715.519, -- [2]
+			"22:39:21", -- [3]
+			"22:39:28", -- [4]
+			"巨型血牙野猪", -- [5]
+		}, -- [661]
+		{
+			9799.522, -- [1]
+			9806.52, -- [2]
+			"22:57:32", -- [3]
+			"22:57:39", -- [4]
+			"赤脊山蛮兵", -- [5]
+		}, -- [662]
+		{
+			9816.52, -- [1]
+			9821.519, -- [2]
+			"22:57:49", -- [3]
+			"22:57:54", -- [4]
+			"黑龙雏龙", -- [5]
+		}, -- [663]
+		{
+			9828.52, -- [1]
+			9839.528, -- [2]
+			"22:58:01", -- [3]
+			"22:58:12", -- [4]
+			"赤脊山蛮兵", -- [5]
+		}, -- [664]
+		{
+			9847.517, -- [1]
+			9854.519, -- [2]
+			"22:58:21", -- [3]
+			"22:58:27", -- [4]
+			"黑龙雏龙", -- [5]
+		}, -- [665]
+		{
+			9871.525, -- [1]
+			9879.525, -- [2]
+			"22:58:45", -- [3]
+			"22:58:52", -- [4]
+			"赤脊山秘法师", -- [5]
+		}, -- [666]
+		{
+			9886.517, -- [1]
+			9909.527, -- [2]
+			"22:59:00", -- [3]
+			"22:59:22", -- [4]
+			"赤脊山秘法师", -- [5]
+		}, -- [667]
+		{
+			9970.525, -- [1]
+			9977.523000000001, -- [2]
+			"23:00:23", -- [3]
+			"23:00:30", -- [4]
+			"赤脊山秘法师", -- [5]
+		}, -- [668]
+		{
+			9988.517, -- [1]
+			10003.521, -- [2]
+			"23:00:41", -- [3]
+			"23:00:56", -- [4]
+			"赤脊山猛击者", -- [5]
+		}, -- [669]
+		{
+			10036.524, -- [1]
+			10081.523, -- [2]
+			"23:01:29", -- [3]
+			"23:02:14", -- [4]
+			"赤脊山蛮兵", -- [5]
+		}, -- [670]
+		{
+			10091.517, -- [1]
+			10108.519, -- [2]
+			"23:02:25", -- [3]
+			"23:02:41", -- [4]
+			"赤脊山秘法师", -- [5]
+		}, -- [671]
+		{
+			10143.522, -- [1]
+			10151.523, -- [2]
+			"23:03:17", -- [3]
+			"23:03:24", -- [4]
+			"赤脊山秘法师", -- [5]
+		}, -- [672]
+		{
+			10155.527, -- [1]
+			10212.52, -- [2]
+			"23:03:28", -- [3]
+			"23:04:25", -- [4]
+			"赤脊山秘法师", -- [5]
+		}, -- [673]
+		{
+			10234.522, -- [1]
+			10240.517, -- [2]
+			"23:04:48", -- [3]
+			"23:04:53", -- [4]
+			"赤脊山蛮兵", -- [5]
+		}, -- [674]
+		{
+			10242.518, -- [1]
+			10250.521, -- [2]
+			"23:04:56", -- [3]
+			"23:05:03", -- [4]
+			"赤脊山蛮兵", -- [5]
+		}, -- [675]
+		{
+			10265.527, -- [1]
+			10272.518, -- [2]
+			"23:05:19", -- [3]
+			"23:05:25", -- [4]
+			"黑龙雏龙", -- [5]
+		}, -- [676]
+		{
+			10279.523, -- [1]
+			10285.524, -- [2]
+			"23:05:33", -- [3]
+			"23:05:38", -- [4]
+			"赤脊山秘法师", -- [5]
+		}, -- [677]
+		{
+			10343.525, -- [1]
+			10349.525, -- [2]
+			"23:06:37", -- [3]
+			"23:06:42", -- [4]
+			"黑龙雏龙", -- [5]
+		}, -- [678]
+		{
+			10368.518, -- [1]
+			10376.525, -- [2]
+			"23:07:02", -- [3]
+			"23:07:09", -- [4]
+			"黑龙雏龙", -- [5]
+		}, -- [679]
+		{
+			10378.52, -- [1]
+			10383.524, -- [2]
+			"23:07:11", -- [3]
+			"23:07:16", -- [4]
+			"黑龙雏龙", -- [5]
+		}, -- [680]
+		{
+			10393.524, -- [1]
+			10402.517, -- [2]
+			"23:07:26", -- [3]
+			"23:07:35", -- [4]
+			"黑龙雏龙", -- [5]
+		}, -- [681]
+		{
+			10420.53, -- [1]
+			10432.529, -- [2]
+			"23:07:54", -- [3]
+			"23:08:05", -- [4]
+			"黑龙雏龙", -- [5]
+		}, -- [682]
+		{
+			10445.523, -- [1]
+			10451.527, -- [2]
+			"23:08:19", -- [3]
+			"23:08:24", -- [4]
+			"鱼人小招潮者", -- [5]
+		}, -- [683]
+		{
+			10463.523, -- [1]
+			10469.526, -- [2]
+			"23:08:36", -- [3]
+			"23:08:42", -- [4]
+			"鱼人巡滩者", -- [5]
+		}, -- [684]
+		{
+			10473.521, -- [1]
+			10479.526, -- [2]
+			"23:08:47", -- [3]
+			"23:08:52", -- [4]
+			"鱼人小招潮者", -- [5]
+		}, -- [685]
+		{
+			10482.521, -- [1]
+			10489.524, -- [2]
+			"23:08:56", -- [3]
+			"23:09:02", -- [4]
+			"鱼人小招潮者", -- [5]
+		}, -- [686]
+		{
+			10493.525, -- [1]
+			10502.521, -- [2]
+			"23:09:07", -- [3]
+			"23:09:15", -- [4]
+			"鱼人食腐者", -- [5]
+		}, -- [687]
+		{
+			10520.518, -- [1]
+			10526.529, -- [2]
+			"23:09:33", -- [3]
+			"23:09:39", -- [4]
+			"鱼人巡滩者", -- [5]
+		}, -- [688]
+		{
+			10532.528, -- [1]
+			10537.521, -- [2]
+			"23:09:45", -- [3]
+			"23:09:50", -- [4]
+			"鱼人小招潮者", -- [5]
+		}, -- [689]
+		{
+			10555.517, -- [1]
+			10563.527, -- [2]
+			"23:10:09", -- [3]
+			"23:10:16", -- [4]
+			"鱼人食腐者", -- [5]
+		}, -- [690]
+		{
+			10566.525, -- [1]
+			10574.524, -- [2]
+			"23:10:20", -- [3]
+			"23:10:27", -- [4]
+			"鱼人食腐者", -- [5]
+		}, -- [691]
+		{
+			10583.526, -- [1]
+			10590.517, -- [2]
+			"23:10:37", -- [3]
+			"23:10:43", -- [4]
+			"鱼人小招潮者", -- [5]
+		}, -- [692]
+		{
+			10598.526, -- [1]
+			10604.517, -- [2]
+			"23:10:51", -- [3]
+			"23:10:57", -- [4]
+			"鱼人小招潮者", -- [5]
+		}, -- [693]
+		{
+			10609.526, -- [1]
+			10617.52, -- [2]
+			"23:11:03", -- [3]
+			"23:11:10", -- [4]
+			"鱼人食腐者", -- [5]
+		}, -- [694]
+		{
+			10624.526, -- [1]
+			10631.518, -- [2]
+			"23:11:18", -- [3]
+			"23:11:24", -- [4]
+			"鱼人巡滩者", -- [5]
+		}, -- [695]
+		{
+			10641.523, -- [1]
+			10649.522, -- [2]
+			"23:11:34", -- [3]
+			"23:11:42", -- [4]
+			"鱼人食腐者", -- [5]
+		}, -- [696]
+		{
+			10677.526, -- [1]
+			10691.523, -- [2]
+			"23:12:10", -- [3]
+			"23:12:24", -- [4]
+			"鱼人小招潮者", -- [5]
+		}, -- [697]
+		{
+			10696.526, -- [1]
+			10702.522, -- [2]
+			"23:12:29", -- [3]
+			"23:12:35", -- [4]
+			"鱼人小招潮者", -- [5]
+		}, -- [698]
+		{
+			10703.518, -- [1]
+			10709.525, -- [2]
+			"23:12:36", -- [3]
+			"23:12:42", -- [4]
+			"鱼人巡滩者", -- [5]
+		}, -- [699]
+		{
+			10721.524, -- [1]
+			10727.525, -- [2]
+			"23:12:55", -- [3]
+			"23:13:00", -- [4]
+			"鱼人小招潮者", -- [5]
+		}, -- [700]
+		{
+			10889.52, -- [1]
+			10910.518, -- [2]
+			"23:15:42", -- [3]
+			"23:16:03", -- [4]
+			"赤脊山蛮兵", -- [5]
+		}, -- [701]
+		{
+			10925.519, -- [1]
+			10934.518, -- [2]
+			"23:16:19", -- [3]
+			"23:16:27", -- [4]
+			"赤脊山苦工", -- [5]
+		}, -- [702]
+		{
+			10948.526, -- [1]
+			10954.518, -- [2]
+			"23:16:42", -- [3]
+			"23:16:47", -- [4]
+			"赤脊山苦工", -- [5]
+		}, -- [703]
+		{
+			10957.524, -- [1]
+			10963.523, -- [2]
+			"23:16:51", -- [3]
+			"23:16:56", -- [4]
+			"赤脊山猛击者", -- [5]
+		}, -- [704]
+		{
+			10969.52, -- [1]
+			10977.519, -- [2]
+			"23:17:02", -- [3]
+			"23:17:10", -- [4]
+			"赤脊山苦工", -- [5]
+		}, -- [705]
+		{
+			10983.522, -- [1]
+			10990.523, -- [2]
+			"23:17:17", -- [3]
+			"23:17:23", -- [4]
+			"赤脊山苦工", -- [5]
+		}, -- [706]
+		{
+			11000.522, -- [1]
+			11008.521, -- [2]
+			"23:17:34", -- [3]
+			"23:17:41", -- [4]
+			"赤脊山苦工", -- [5]
+		}, -- [707]
+		{
+			11040.52, -- [1]
+			11062.519, -- [2]
+			"23:18:13", -- [3]
+			"23:18:35", -- [4]
+			"赤脊山苦工", -- [5]
+		}, -- [708]
+		{
+			11071.524, -- [1]
+			11078.521, -- [2]
+			"23:18:44", -- [3]
+			"23:18:51", -- [4]
+			"赤脊山猛击者", -- [5]
+		}, -- [709]
+		{
+			11104.517, -- [1]
+			11112.518, -- [2]
+			"23:19:18", -- [3]
+			"23:19:25", -- [4]
+			"赤脊山苦工", -- [5]
+		}, -- [710]
+		{
+			11120.518, -- [1]
+			11128.521, -- [2]
+			"23:19:33", -- [3]
+			"23:19:41", -- [4]
+			"赤脊山苦工", -- [5]
+		}, -- [711]
+		{
+			11135.521, -- [1]
+			11144.521, -- [2]
+			"23:19:49", -- [3]
+			"23:19:57", -- [4]
+			"赤脊山苦工", -- [5]
+		}, -- [712]
+		{
+			11164.522, -- [1]
+			11173.539, -- [2]
+			"23:20:18", -- [3]
+			"23:20:26", -- [4]
+			"赤脊山苦工", -- [5]
+		}, -- [713]
+		{
+			11187.521, -- [1]
+			11196.521, -- [2]
+			"23:20:40", -- [3]
+			"23:20:49", -- [4]
+			"赤脊山猛击者", -- [5]
+		}, -- [714]
+		{
+			11202.52, -- [1]
+			11211.52, -- [2]
+			"23:20:56", -- [3]
+			"23:21:04", -- [4]
+			"赤脊山苦工", -- [5]
+		}, -- [715]
+		{
+			11333.526, -- [1]
+			11349.525, -- [2]
+			"23:23:07", -- [3]
+			"23:23:22", -- [4]
+			"赤脊山秘法师", -- [5]
+		}, -- [716]
+		{
+			11369.523, -- [1]
+			11407.518, -- [2]
+			"23:23:43", -- [3]
+			"23:24:20", -- [4]
+			"犹勒", -- [5]
+		}, -- [717]
+		{
+			11424.521, -- [1]
+			11431.518, -- [2]
+			"23:24:37", -- [3]
+			"23:24:44", -- [4]
+			"赤脊山突击队员", -- [5]
+		}, -- [718]
+		{
+			11435.523, -- [1]
+			11442.526, -- [2]
+			"23:24:48", -- [3]
+			"23:24:55", -- [4]
+			"赤脊山突击队员", -- [5]
+		}, -- [719]
+		{
+			11481.519, -- [1]
+			11493.524, -- [2]
+			"23:25:35", -- [3]
+			"23:25:46", -- [4]
+			"赤脊山秘法师", -- [5]
+		}, -- [720]
+		{
+			11520.517, -- [1]
+			11562.524, -- [2]
+			"23:26:13", -- [3]
+			"23:26:55", -- [4]
+			"黑石前锋", -- [5]
+		}, -- [721]
+		{
+			11587.523, -- [1]
+			11609.522, -- [2]
+			"23:27:21", -- [3]
+			"23:27:42", -- [4]
+			"黑石追踪者", -- [5]
+		}, -- [722]
+		{
+			11624.52, -- [1]
+			11634.522, -- [2]
+			"23:27:58", -- [3]
+			"23:28:07", -- [4]
+			"黑石追踪者", -- [5]
+		}, -- [723]
+		{
+			11682.522, -- [1]
+			11718.527, -- [2]
+			"23:28:56", -- [3]
+			"23:29:31", -- [4]
+			"小鬼爪牙", -- [5]
+		}, -- [724]
+		{
+			11733.52, -- [1]
+			11744.525, -- [2]
+			"23:29:47", -- [3]
+			"23:29:57", -- [4]
+			"黑石勇士", -- [5]
+		}, -- [725]
+		{
+			11775.523, -- [1]
+			11791.528, -- [2]
+			"23:30:28", -- [3]
+			"23:30:44", -- [4]
+			"黑石勇士", -- [5]
+		}, -- [726]
+		{
+			11804.521, -- [1]
+			11825.524, -- [2]
+			"23:30:58", -- [3]
+			"23:31:18", -- [4]
+			"黑石追踪者", -- [5]
+		}, -- [727]
+		{
+			11856.522, -- [1]
+			11873.52, -- [2]
+			"23:31:49", -- [3]
+			"23:32:06", -- [4]
+			"黑石勇士", -- [5]
+		}, -- [728]
 	},
 	["FoughtWho"] = {
-		"幽爪奔跑者 23:24:26-23:24:47", -- [1]
-		"暗滩精兵 23:20:55-23:21:24", -- [2]
-		"黑木图腾师 23:17:30-23:18:02", -- [3]
-		"暮光暴徒 23:13:47-23:14:11", -- [4]
-		"暮光暴徒 23:13:01-23:13:19", -- [5]
+		"黑石勇士 23:31:49-23:32:06", -- [1]
+		"黑石追踪者 23:30:58-23:31:18", -- [2]
+		"黑石勇士 23:30:28-23:30:44", -- [3]
+		"黑石勇士 23:29:47-23:29:57", -- [4]
+		"小鬼爪牙 23:28:56-23:29:31", -- [5]
 	},
 }

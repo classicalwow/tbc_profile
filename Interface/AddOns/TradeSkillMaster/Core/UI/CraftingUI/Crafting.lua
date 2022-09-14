@@ -1249,13 +1249,8 @@ function private.FSMCreate()
 				:SetText(L["Craft"])
 			buttonFrame:GetElement("queueBtn")
 				:SetDisabled(false)
-			if isEnchant then
-				buttonFrame:GetElement("craftInput")
-					:Hide()
-			else
-				buttonFrame:GetElement("craftInput")
-					:Show()
-			end
+			buttonFrame:GetElement("craftInput")
+				:Show()
 		end
 		if TSM.Crafting.HasOptionalMats(context.selectedCraftString) then
 			detailsFrame:GetElement("left.optional")
@@ -1414,13 +1409,6 @@ function private.FSMCreate()
 				:SetDisabled(not resultItemString or not canCraft or context.recipeString)
 				:Draw()
 			local craftString = context.recipeString and CraftString.FromRecipeString(context.recipeString)
-			if isEnchant then
-				detailsFrame:GetElement("__parent.__parent.buttons.craftInput")
-					:Hide()
-			else
-				detailsFrame:GetElement("__parent.__parent.buttons.craftInput")
-					:Show()
-			end
 			if craftString and context.craftingQuantity and craftString == context.selectedCraftString then
 				detailsFrame:GetElement("__parent.__parent.buttons.craftInput")
 					:SetValue(context.craftingQuantity)

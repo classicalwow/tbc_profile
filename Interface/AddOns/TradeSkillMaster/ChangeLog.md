@@ -1,5 +1,6 @@
-## v4.11.47 Changes
+## v4.11.48 Changes
 
-* [Retail] Fixed error when opening JC
+* [Retail] Fixed missing quantity input for enchants
+* [Classic] Fixed vellum issue with shield enchants
 
 [Known Issues](https://support.tradeskillmaster.com/en_US/known_issues)

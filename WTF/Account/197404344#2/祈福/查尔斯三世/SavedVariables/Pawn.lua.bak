@@ -1,16 +1,18 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0606,
+	["LastPlayerFullName"] = "查尔斯三世-祈福",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		[7] = {
-			["ID"] = 10549,
-			["Level"] = 12,
-			["Link"] = "|cff1eff00|Hitem:10549::::::::11:::::::::|h[牧民长裤]|h|r",
+			["ID"] = 14097,
+			["Level"] = 14,
+			["Link"] = "|cff1eff00|Hitem:14097::::::28:1637137408:20:::::::::|h[精神之天然短裤]|h|r",
 		},
 		[15] = {
-			["ID"] = 2905,
-			["Level"] = 10,
-			["Link"] = "|cffffffff|Hitem:2905::::::::12:::::::::|h[羊毛披风]|h|r",
+			["ID"] = 5610,
+			["Level"] = 15,
+			["Link"] = "|cff1eff00|Hitem:5610::::::::18:::::::::|h[荒原披风]|h|r",
 		},
 		[8] = {
 			["ID"] = 15398,
@@ -48,8 +50,6 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:5071::::::::12:::::::::|h[暗影魔杖]|h|r",
 		},
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "查尔斯三世-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

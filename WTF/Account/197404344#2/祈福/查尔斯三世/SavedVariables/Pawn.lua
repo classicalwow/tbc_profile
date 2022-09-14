@@ -1,18 +1,16 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0606,
-	["LastPlayerFullName"] = "查尔斯三世-祈福",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		[7] = {
-			["ID"] = 14097,
-			["Level"] = 14,
-			["Link"] = "|cff1eff00|Hitem:14097::::::28:1637137408:20:::::::::|h[精神之天然短裤]|h|r",
+			["ID"] = 6659,
+			["Level"] = 20,
+			["Link"] = "|cff1eff00|Hitem:6659::::::::23:::::::::|h[甲虫长裤]|h|r",
 		},
 		[15] = {
-			["ID"] = 5610,
-			["Level"] = 15,
-			["Link"] = "|cff1eff00|Hitem:5610::::::::18:::::::::|h[荒原披风]|h|r",
+			["ID"] = 7739,
+			["Level"] = 18,
+			["Link"] = "|cff1eff00|Hitem:7739::::::::21:::::::::|h[林木斗篷]|h|r",
 		},
 		[8] = {
 			["ID"] = 15398,
@@ -39,17 +37,31 @@ PawnOptions = {
 			["Level"] = 5,
 			["Link"] = "|cffffffff|Hitem:719::::::::2:::::::::|h[驯兔手套]|h|r",
 		},
+		[11] = {
+			["ID"] = 11965,
+			["Level"] = 20,
+			["AlsoFitsIn"] = 12,
+			["Link"] = "|cff1eff00|Hitem:11965::::::1310:2126684800:22:::::::::|h[奥术抗性之石英戒指]|h|r",
+		},
 		[6] = {
-			["ID"] = 3363,
-			["Level"] = 3,
-			["Link"] = "|cff9d9d9d|Hitem:3363::::::::3:::::::::|h[磨损的腰带]|h|r",
+			["ID"] = 11936,
+			["Level"] = 20,
+			["Link"] = "|cff1eff00|Hitem:11936::::::::22:::::::::|h[古物猎手腰带]|h|r",
+		},
+		[12] = {
+			["ID"] = 11965,
+			["Level"] = 20,
+			["AlsoFitsIn"] = 11,
+			["Link"] = "|cff1eff00|Hitem:11965::::::1310:2126684800:23:::::::::|h[奥术抗性之石英戒指]|h|r",
 		},
 		[18] = {
-			["ID"] = 5071,
-			["Level"] = 14,
-			["Link"] = "|cff1eff00|Hitem:5071::::::::12:::::::::|h[暗影魔杖]|h|r",
+			["ID"] = 15204,
+			["Level"] = 18,
+			["Link"] = "|cff1eff00|Hitem:15204::::::::21:::::::::|h[月石魔杖]|h|r",
 		},
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "查尔斯三世-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
