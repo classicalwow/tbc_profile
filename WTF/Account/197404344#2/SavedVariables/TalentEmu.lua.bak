@@ -759,7 +759,7 @@ TalentEmuSV = {
 		["savedTalent"] = {
 			["|cfff48cba圣骑士|r- 神圣 0 防护 0 |cff7fbfff惩戒53|r"] = "!T324E111I::::0MWB-L=Pk5nRMlA1",
 		},
-		["Player-4778-0516167D"] = "!T323I011-:::::kNQn1!G3211M+9:skB:D1u+-:59C:A1u++++!E320+^+^+^+^+ET1:8I:9+NK:1XR:7I:9+Xo:8I:9+FQ3:6Q:10k=ZV1:1I:9+ak3:8I:9+ho:1Od:7I:9+D=:1tc:7I:9+^+^+^+^+eL1:8I:9+BL1:19b:7I:9+^+DD1:8I:9+^",
+		["Player-4778-0516167D"] = "!T323Q011A:::::kNQn1bx!G3211M+9:skB:D1u+-:59C:A1u++++!E320+^+^+^+OG1:8Q:9+ET1:8Q:9+NK:1XR:7Q:9+Uu2:8Q:9+3c1:8Q:9+DT1:8Q:9+ho:1Od:7Q:9+D=:1tc:7Q:9+xu2:6SI:10-eky1:1Q:9+bI:8Q:9+^+^+hX1:8Q:9+BL1:19b:7Q:9+^+Yh3:8Q:9+^",
 		["Player-4778-0505CE04"] = "!T32-r0110",
 		["Player-4778-04DBFC9E"] = "6cWCU:0kyn-qEqOCu0Q-G161",
 		["Player-4501-04C9101E"] = "630",

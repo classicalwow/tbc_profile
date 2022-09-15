@@ -9,7 +9,7 @@ AtlasLootClassicDB = {
 		["新特能源 - 祈福"] = "新特能源 - 祈福",
 	},
 	["global"] = {
-		["__addonrevision"] = 3000000,
+		["__addonrevision"] = 3000002,
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {

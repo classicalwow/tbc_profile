@@ -7,8 +7,11 @@ _weizpvp_chardb = {
 		["Default"] = {
 			["Options"] = {
 				["Database"] = {
-					["LastCleaned"] = 1663071849,
+					["LastCleaned"] = 1663163973,
 					["VERSION"] = 3,
+				},
+				["Window"] = {
+					["Pinned"] = true,
 				},
 				["Frames"] = {
 					["Point"] = "TOPLEFT",
