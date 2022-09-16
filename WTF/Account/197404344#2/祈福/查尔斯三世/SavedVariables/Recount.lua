@@ -2,2382 +2,61 @@
 RecountPerCharDB = {
 	["version"] = "1.3",
 	["combatants"] = {
-		["梵高的素描"] = {
-			["GUID"] = "Player-4778-05181F13",
+		["得撸艺"] = {
+			["GUID"] = "Player-4778-03DB43EC",
 			["LastEventHealth"] = {
-				835, -- [1]
-				835, -- [2]
-				835, -- [3]
-				835, -- [4]
-				835, -- [5]
-				835, -- [6]
-				793, -- [7]
-				793, -- [8]
-				793, -- [9]
-				759, -- [10]
-				759, -- [11]
-				727, -- [12]
-				727, -- [13]
-				727, -- [14]
-				686, -- [15]
-				653, -- [16]
-				611, -- [17]
-				566, -- [18]
-				566, -- [19]
-				523, -- [20]
-				483, -- [21]
-				442, -- [22]
-				442, -- [23]
-				442, -- [24]
-				442, -- [25]
-				442, -- [26]
-				442, -- [27]
-				442, -- [28]
-				442, -- [29]
-				442, -- [30]
-				442, -- [31]
-				442, -- [32]
-				442, -- [33]
-				442, -- [34]
-				442, -- [35]
-				442, -- [36]
-				442, -- [37]
-				442, -- [38]
-				442, -- [39]
-				442, -- [40]
-				535, -- [41]
-				722, -- [42]
-				722, -- [43]
-				722, -- [44]
-				722, -- [45]
-				835, -- [46]
-				835, -- [47]
-				835, -- [48]
-				835, -- [49]
-				835, -- [50]
+				1078, -- [1]
+				1078, -- [2]
+				1078, -- [3]
+				1078, -- [4]
+				1078, -- [5]
+				1078, -- [6]
+				1078, -- [7]
+				1078, -- [8]
+				1078, -- [9]
+				1078, -- [10]
+				1078, -- [11]
+				1078, -- [12]
+				1078, -- [13]
+				1078, -- [14]
+				1078, -- [15]
+				1078, -- [16]
+				1078, -- [17]
+				1078, -- [18]
+				1078, -- [19]
+				1078, -- [20]
+				1078, -- [21]
+				1078, -- [22]
+				1078, -- [23]
+				1078, -- [24]
+				1078, -- [25]
+				1078, -- [26]
+				1078, -- [27]
+				1078, -- [28]
+				1078, -- [29]
+				1078, -- [30]
+				1078, -- [31]
+				1078, -- [32]
+				1078, -- [33]
+				1078, -- [34]
+				1078, -- [35]
+				1078, -- [36]
+				1078, -- [37]
+				1078, -- [38]
+				1078, -- [39]
+				1078, -- [40]
+				1078, -- [41]
+				1078, -- [42]
+				1078, -- [43]
+				1078, -- [44]
+				1078, -- [45]
+				1078, -- [46]
+				1078, -- [47]
+				1078, -- [48]
+				1078, -- [49]
+				1078, -- [50]
 			},
-			["LastAttackedBy"] = "天灾食尸鬼",
-			["LastEventType"] = {
-				"DAMAGE", -- [1]
-				"DAMAGE", -- [2]
-				"DAMAGE", -- [3]
-				"DAMAGE", -- [4]
-				"DAMAGE", -- [5]
-				"DAMAGE", -- [6]
-				"DAMAGE", -- [7]
-				"DAMAGE", -- [8]
-				"DAMAGE", -- [9]
-				"DAMAGE", -- [10]
-				"DAMAGE", -- [11]
-				"DAMAGE", -- [12]
-				"DAMAGE", -- [13]
-				"DAMAGE", -- [14]
-				"DAMAGE", -- [15]
-				"DAMAGE", -- [16]
-				"DAMAGE", -- [17]
-				"DAMAGE", -- [18]
-				"DAMAGE", -- [19]
-				"DAMAGE", -- [20]
-				"DAMAGE", -- [21]
-				"DAMAGE", -- [22]
-				"DAMAGE", -- [23]
-				"DAMAGE", -- [24]
-				"DAMAGE", -- [25]
-				"DAMAGE", -- [26]
-				"DAMAGE", -- [27]
-				"DAMAGE", -- [28]
-				"DAMAGE", -- [29]
-				"DAMAGE", -- [30]
-				"DAMAGE", -- [31]
-				"DAMAGE", -- [32]
-				"DAMAGE", -- [33]
-				"DAMAGE", -- [34]
-				"DAMAGE", -- [35]
-				"DAMAGE", -- [36]
-				"DAMAGE", -- [37]
-				"DAMAGE", -- [38]
-				"DAMAGE", -- [39]
-				"DAMAGE", -- [40]
-				"DAMAGE", -- [41]
-				"DAMAGE", -- [42]
-				"DAMAGE", -- [43]
-				"DAMAGE", -- [44]
-				"DAMAGE", -- [45]
-				"DAMAGE", -- [46]
-				"DAMAGE", -- [47]
-				"DAMAGE", -- [48]
-				"DAMAGE", -- [49]
-				"DAMAGE", -- [50]
-			},
-			["TimeWindows"] = {
-				["TimeHeal"] = {
-					8.93, -- [1]
-				},
-				["Healing"] = {
-					340, -- [1]
-				},
-				["DamageTaken"] = {
-					1913, -- [1]
-				},
-				["HealingTaken"] = {
-					340, -- [1]
-				},
-				["HOT_Time"] = {
-					8, -- [1]
-				},
-				["TimeDamage"] = {
-					152.33, -- [1]
-				},
-				["Overhealing"] = {
-					4, -- [1]
-				},
-				["ActiveTime"] = {
-					161.2600000000001, -- [1]
-				},
-				["Damage"] = {
-					8895, -- [1]
-				},
-			},
-			["enClass"] = "ROGUE",
-			["unit"] = "梵高的素描",
-			["level"] = 28,
-			["LastDamageAbility"] = "肉搏",
-			["LastFightIn"] = 947,
-			["LastHealTime"] = 55790.799,
-			["type"] = "Ungrouped",
-			["FightsSaved"] = 5,
-			["LastDamageTaken"] = 41,
-			["TimeLast"] = {
-				["TimeHeal"] = 55790.601,
-				["OVERALL"] = 55881.6,
-				["DamageTaken"] = 55870.595,
-				["HealingTaken"] = 55790.601,
-				["HOT_Time"] = 55790.601,
-				["TimeDamage"] = 55881.6,
-				["Overhealing"] = 55547.602,
-				["Healing"] = 55790.601,
-				["ActiveTime"] = 55881.6,
-				["Damage"] = 55881.6,
-			},
-			["Owner"] = false,
-			["LastEventHealthMax"] = {
-				835, -- [1]
-				835, -- [2]
-				835, -- [3]
-				835, -- [4]
-				835, -- [5]
-				835, -- [6]
-				835, -- [7]
-				835, -- [8]
-				835, -- [9]
-				835, -- [10]
-				835, -- [11]
-				835, -- [12]
-				835, -- [13]
-				835, -- [14]
-				835, -- [15]
-				835, -- [16]
-				805, -- [17]
-				805, -- [18]
-				805, -- [19]
-				805, -- [20]
-				805, -- [21]
-				805, -- [22]
-				805, -- [23]
-				805, -- [24]
-				805, -- [25]
-				805, -- [26]
-				805, -- [27]
-				805, -- [28]
-				805, -- [29]
-				805, -- [30]
-				805, -- [31]
-				805, -- [32]
-				805, -- [33]
-				805, -- [34]
-				805, -- [35]
-				805, -- [36]
-				805, -- [37]
-				805, -- [38]
-				805, -- [39]
-				805, -- [40]
-				805, -- [41]
-				835, -- [42]
-				835, -- [43]
-				835, -- [44]
-				835, -- [45]
-				835, -- [46]
-				835, -- [47]
-				835, -- [48]
-				835, -- [49]
-				835, -- [50]
-			},
-			["NextEventNum"] = 42,
-			["LastDamageTime"] = 55882.415,
-			["LastEvents"] = {
-				"梵高的素描 肉搏 天灾食尸鬼 Crit -99 (Physical)", -- [1]
-				"梵高的素描 影袭 天灾食尸鬼 Dodge (Physical)", -- [2]
-				"梵高的素描 刺骨 天灾食尸鬼 Hit -80 (Physical)", -- [3]
-				"梵高的素描 肉搏 食脑者 Glancing -40 (Physical)", -- [4]
-				"梵高的素描 影袭 食脑者 Hit -66 (Physical)", -- [5]
-				"食脑者 肉搏 梵高的素描 Hit -42 (Physical)", -- [6]
-				"梵高的素描 肉搏 食脑者 Hit -31 (Physical)", -- [7]
-				"天灾食尸鬼 肉搏 梵高的素描 Hit -34 (Physical)", -- [8]
-				"梵高的素描 影袭 天灾食尸鬼 Hit -66 (Physical)", -- [9]
-				"梵高的素描 肉搏 天灾食尸鬼 Hit -55 (Physical)", -- [10]
-				"天灾食尸鬼 肉搏 梵高的素描 Hit -32 (Physical)", -- [11]
-				"梵高的素描 肉搏 天灾食尸鬼 Hit -42 (Physical)", -- [12]
-				"梵高的素描 影袭 天灾食尸鬼 Hit -55 (Physical)", -- [13]
-				"食脑者 肉搏 梵高的素描 Hit -41 (Physical)", -- [14]
-				"天灾食尸鬼 肉搏 梵高的素描 Hit -33 (Physical)", -- [15]
-				"食脑者 肉搏 梵高的素描 Hit -42 (Physical)", -- [16]
-				"天灾食尸鬼 肉搏 梵高的素描 Hit -45 (Physical)", -- [17]
-				"天灾食尸鬼 肉搏 梵高的素描 Miss (1)", -- [18]
-				"食脑者 肉搏 梵高的素描 Hit -43 (Physical)", -- [19]
-				"天灾食尸鬼 肉搏 梵高的素描 Hit -40 (Physical)", -- [20]
-				"天灾食尸鬼 肉搏 梵高的素描 Hit -41 (Physical)", -- [21]
-				"食脑者 肉搏 梵高的素描 Dodge (1)", -- [22]
-				"梵高的素描 肉搏 食脑者 Glancing -46 (Physical)", -- [23]
-				"梵高的素描 影袭 食脑者 Hit -53 (Physical)", -- [24]
-				"梵高的素描 影袭 天灾食尸鬼 Hit -60 (Physical)", -- [25]
-				"梵高的素描 肉搏 天灾食尸鬼 Crit -59 (Physical)", -- [26]
-				"梵高的素描 影袭 天灾食尸鬼 Hit -64 (Physical)", -- [27]
-				"梵高的素描 肉搏 天灾食尸鬼 Hit -49 (Physical)", -- [28]
-				"梵高的素描 肉搏 天灾食尸鬼 Hit -35 (Physical)", -- [29]
-				"食脑者 肉搏 梵高的素描 Parry (1)", -- [30]
-				"天灾食尸鬼 肉搏 梵高的素描 Dodge (1)", -- [31]
-				"梵高的素描 肉搏 天灾食尸鬼 Miss (1)", -- [32]
-				"梵高的素描 肉搏 天灾食尸鬼 Dodge (1)", -- [33]
-				"天灾食尸鬼 肉搏 梵高的素描 Dodge (1)", -- [34]
-				"梵高的素描 影袭 天灾食尸鬼 Hit -62 (Physical)", -- [35]
-				"梵高的素描 肉搏 天灾食尸鬼 Hit -36 (Physical)", -- [36]
-				"食脑者 肉搏 梵高的素描 Dodge (1)", -- [37]
-				"天灾食尸鬼 肉搏 梵高的素描 Dodge (1)", -- [38]
-				"梵高的素描 肉搏 天灾食尸鬼 Miss (1)", -- [39]
-				"梵高的素描 肉搏 天灾食尸鬼 Hit -27 (Physical)", -- [40]
-				"噬骨者 肉搏 梵高的素描 Dodge (1)", -- [41]
-				"梵高的素描 肉搏 天灾食尸鬼 Hit -54 (Physical)", -- [42]
-				"天灾食尸鬼 肉搏 梵高的素描 Parry (1)", -- [43]
-				"梵高的素描 肉搏 天灾食尸鬼 Dodge (1)", -- [44]
-				"梵高的素描 肉搏 天灾食尸鬼 Hit -44 (Physical)", -- [45]
-				"梵高的素描 肉搏 天灾食尸鬼 Hit -51 (Physical)", -- [46]
-				"梵高的素描 影袭 天灾食尸鬼 Hit -67 (Physical)", -- [47]
-				"梵高的素描 肉搏 天灾食尸鬼 Miss (1)", -- [48]
-				"梵高的素描 影袭 天灾食尸鬼 Hit -62 (Physical)", -- [49]
-				"梵高的素描 肉搏 天灾食尸鬼 Miss (1)", -- [50]
-			},
-			["Name"] = "梵高的素描",
-			["LastEventIncoming"] = {
-				false, -- [1]
-				false, -- [2]
-				false, -- [3]
-				false, -- [4]
-				false, -- [5]
-				true, -- [6]
-				false, -- [7]
-				true, -- [8]
-				false, -- [9]
-				false, -- [10]
-				true, -- [11]
-				false, -- [12]
-				false, -- [13]
-				true, -- [14]
-				true, -- [15]
-				true, -- [16]
-				true, -- [17]
-				true, -- [18]
-				true, -- [19]
-				true, -- [20]
-				true, -- [21]
-				true, -- [22]
-				false, -- [23]
-				false, -- [24]
-				false, -- [25]
-				false, -- [26]
-				false, -- [27]
-				false, -- [28]
-				false, -- [29]
-				true, -- [30]
-				true, -- [31]
-				false, -- [32]
-				false, -- [33]
-				true, -- [34]
-				false, -- [35]
-				false, -- [36]
-				true, -- [37]
-				true, -- [38]
-				false, -- [39]
-				false, -- [40]
-				true, -- [41]
-				false, -- [42]
-				true, -- [43]
-				false, -- [44]
-				false, -- [45]
-				false, -- [46]
-				false, -- [47]
-				false, -- [48]
-				false, -- [49]
-				false, -- [50]
-			},
-			["LastEventTimes"] = {
-				55849.234, -- [1]
-				55849.39, -- [2]
-				55850.395, -- [3]
-				55856.337, -- [4]
-				55856.629, -- [5]
-				55857.015, -- [6]
-				55857.199, -- [7]
-				55858.627, -- [8]
-				55858.627, -- [9]
-				55858.956, -- [10]
-				55863.857, -- [11]
-				55865.394, -- [12]
-				55865.519, -- [13]
-				55865.519, -- [14]
-				55866.312, -- [15]
-				55867.524, -- [16]
-				55868.312, -- [17]
-				55869.488, -- [18]
-				55869.627, -- [19]
-				55870.328, -- [20]
-				55871.531, -- [21]
-				55871.531, -- [22]
-				55873.05800000001, -- [23]
-				55873.05800000001, -- [24]
-				55874.008, -- [25]
-				55874.619, -- [26]
-				55876.175, -- [27]
-				55876.175, -- [28]
-				55876.324, -- [29]
-				55878.453, -- [30]
-				55878.453, -- [31]
-				55878.937, -- [32]
-				55878.937, -- [33]
-				55879.286, -- [34]
-				55879.533, -- [35]
-				55880.61, -- [36]
-				55880.869, -- [37]
-				55880.869, -- [38]
-				55881.128, -- [39]
-				55882.415, -- [40]
-				55900.621, -- [41]
-				55823.659, -- [42]
-				55823.913, -- [43]
-				55824.751, -- [44]
-				55824.97, -- [45]
-				55846.54, -- [46]
-				55846.784, -- [47]
-				55846.895, -- [48]
-				55847.758, -- [49]
-				55849.123, -- [50]
-			},
-			["Fights"] = {
-				["Fight5"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Melee"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["PartialAbsorb"] = {
-						["肉搏"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["天灾食尸鬼"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["食脑者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["天灾食尸鬼"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["食脑者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["肉搏"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["天灾食尸鬼"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["食脑者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["投掷"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["刺骨"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit (被格挡)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["影袭"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit (被格挡)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["天灾食尸鬼"] = {
-							["amount"] = 0,
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-						},
-						["食脑者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["肉搏"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["PartialResist"] = {
-						["肉搏"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["Attacks"] = {
-						["刺骨"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["影袭"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit (被格挡)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["TimeSpent"] = {
-						["天灾食尸鬼"] = {
-							["Details"] = {
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["食脑者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DamageTaken"] = 0,
-					["WhoDamaged"] = {
-						["天灾食尸鬼"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["食脑者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["天灾食尸鬼"] = {
-							["Details"] = {
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["食脑者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["天灾食尸鬼"] = {
-							["Details"] = {
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["食脑者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTaken"] = {
-						["Melee"] = 0,
-					},
-					["ActiveTime"] = 0,
-					["Damage"] = 0,
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Melee"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["PartialAbsorb"] = {
-						["肉搏"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["天灾食尸鬼"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["天灾食尸鬼"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["肉搏"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["天灾食尸鬼"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["投掷"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["刺骨"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["影袭"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit (被格挡)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["天灾食尸鬼"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 0,
-								},
-								["刺骨"] = {
-									["count"] = 0,
-								},
-								["影袭"] = {
-									["count"] = 0,
-								},
-								["肉搏"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["ElementDoneBlock"] = {
-						["Melee"] = 95,
-						["Physical"] = 13,
-					},
-					["TimeHealing"] = {
-						["梵高的素描"] = {
-							["Details"] = {
-								["急救"] = {
-									["count"] = 8.93,
-								},
-							},
-							["amount"] = 8.93,
-						},
-					},
-					["OverHeals"] = {
-						["急救"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 4,
-									["min"] = 4,
-									["count"] = 1,
-									["amount"] = 4,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 4,
-						},
-					},
-					["TimeSpent"] = {
-						["天灾食尸鬼"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 4.5,
-								},
-								["刺骨"] = {
-									["count"] = 4.45,
-								},
-								["影袭"] = {
-									["count"] = 28.17,
-								},
-								["肉搏"] = {
-									["count"] = 77.84,
-								},
-							},
-							["amount"] = 114.96,
-						},
-						["食脑者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 4.36,
-								},
-								["刺骨"] = {
-									["count"] = 2.63,
-								},
-								["投掷"] = {
-									["count"] = 1.5,
-								},
-								["肉搏"] = {
-									["count"] = 28.88,
-								},
-							},
-							["amount"] = 37.37,
-						},
-						["梵高的素描"] = {
-							["Details"] = {
-								["急救"] = {
-									["count"] = 8.93,
-								},
-							},
-							["amount"] = 8.93,
-						},
-					},
-					["DamageTaken"] = 1913,
-					["PartialResist"] = {
-						["肉搏"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 75,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 75,
-						},
-					},
-					["PartialAbsorb"] = {
-						["肉搏"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 75,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 75,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 161.2600000000001,
-					["ElementTaken"] = {
-						["Melee"] = 1913,
-					},
-					["HOTs"] = {
-						["急救"] = {
-							["Details"] = {
-								["梵高的素描"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 8,
-						},
-					},
-					["Damage"] = 8895,
-					["Overhealing"] = 4,
-					["TimeHeal"] = 8.93,
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 45,
-								},
-								["Dodge"] = {
-									["count"] = 15,
-								},
-								["Miss"] = {
-									["count"] = 7,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Parry"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 75,
-						},
-					},
-					["WhoHealed"] = {
-						["梵高的素描"] = {
-							["Details"] = {
-								["急救"] = {
-									["count"] = 340,
-								},
-							},
-							["amount"] = 340,
-						},
-					},
-					["HealedWho"] = {
-						["梵高的素描"] = {
-							["Details"] = {
-								["急救"] = {
-									["count"] = 340,
-								},
-							},
-							["amount"] = 340,
-						},
-					},
-					["Healing"] = 340,
-					["Heals"] = {
-						["急救"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 43,
-									["min"] = 39,
-									["count"] = 8,
-									["amount"] = 340,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 340,
-						},
-					},
-					["HOT_Time"] = 8,
-					["ElementDone"] = {
-						["Melee"] = 4958,
-						["Physical"] = 3937,
-					},
-					["HealingTaken"] = 340,
-					["DamagedWho"] = {
-						["天灾食尸鬼"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 35,
-								},
-								["刺骨"] = {
-									["count"] = 840,
-								},
-								["影袭"] = {
-									["count"] = 2209,
-								},
-								["肉搏"] = {
-									["count"] = 3661,
-								},
-							},
-							["amount"] = 6745,
-						},
-						["食脑者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 590,
-								},
-								["刺骨"] = {
-									["count"] = 251,
-								},
-								["投掷"] = {
-									["count"] = 12,
-								},
-								["肉搏"] = {
-									["count"] = 1297,
-								},
-							},
-							["amount"] = 2150,
-						},
-					},
-					["TimeDamage"] = 152.33,
-					["TimeDamaging"] = {
-						["天灾食尸鬼"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 4.5,
-								},
-								["刺骨"] = {
-									["count"] = 4.45,
-								},
-								["影袭"] = {
-									["count"] = 28.17,
-								},
-								["肉搏"] = {
-									["count"] = 77.84,
-								},
-							},
-							["amount"] = 114.96,
-						},
-						["食脑者"] = {
-							["Details"] = {
-								["影袭"] = {
-									["count"] = 4.36,
-								},
-								["刺骨"] = {
-									["count"] = 2.63,
-								},
-								["投掷"] = {
-									["count"] = 1.5,
-								},
-								["肉搏"] = {
-									["count"] = 28.88,
-								},
-							},
-							["amount"] = 37.37,
-						},
-					},
-					["Attacks"] = {
-						["投掷"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 12,
-									["min"] = 11,
-									["count"] = 4,
-									["amount"] = 47,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 47,
-						},
-						["刺骨"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit (被格挡)"] = {
-									["max"] = 96,
-									["min"] = 96,
-									["count"] = 1,
-									["amount"] = 96,
-								},
-								["Crit"] = {
-									["max"] = 234,
-									["min"] = 173,
-									["count"] = 2,
-									["amount"] = 407,
-								},
-								["Hit"] = {
-									["max"] = 141,
-									["min"] = 52,
-									["count"] = 6,
-									["amount"] = 588,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 1091,
-						},
-						["影袭"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 136,
-									["min"] = 136,
-									["count"] = 1,
-									["amount"] = 136,
-								},
-								["Hit"] = {
-									["max"] = 69,
-									["min"] = 53,
-									["count"] = 44,
-									["amount"] = 2663,
-								},
-							},
-							["count"] = 50,
-							["amount"] = 2799,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 48,
-									["min"] = 27,
-									["count"] = 8,
-									["amount"] = 297,
-								},
-								["Hit (被格挡)"] = {
-									["max"] = 42,
-									["min"] = 15,
-									["count"] = 7,
-									["amount"] = 193,
-								},
-								["Hit"] = {
-									["max"] = 56,
-									["min"] = 26,
-									["count"] = 83,
-									["amount"] = 3398,
-								},
-								["Dodge"] = {
-									["count"] = 7,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 19,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 112,
-									["min"] = 58,
-									["count"] = 13,
-									["amount"] = 1070,
-								},
-								["Parry"] = {
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 140,
-							["amount"] = 4958,
-						},
-					},
-					["WhoDamaged"] = {
-						["天灾食尸鬼"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 1482,
-								},
-							},
-							["amount"] = 1482,
-						},
-						["食脑者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 431,
-								},
-							},
-							["amount"] = 431,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 8,
-								},
-								["Miss"] = {
-									["count"] = 19,
-								},
-								["Hit"] = {
-									["count"] = 90,
-								},
-								["Dodge"] = {
-									["count"] = 7,
-								},
-								["Block"] = {
-									["count"] = 7,
-								},
-								["Crit"] = {
-									["count"] = 13,
-								},
-								["Parry"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 147,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 55,
-								},
-								["Dodge"] = {
-									["count"] = 2,
-								},
-								["Block"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 3,
-								},
-								["Parry"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 65,
-						},
-					},
-				},
-			},
-			["UnitLockout"] = 55845.6,
-			["LastActive"] = 55900.601,
-		},
-		["流星剑雨"] = {
-			["GUID"] = "Player-4778-051542EF",
-			["TimeLast"] = {
-				["TimeDamage"] = 1930.523,
-				["DOT_Time"] = 1930.523,
-				["ActiveTime"] = 1930.523,
-				["Healing"] = 1921.523,
-				["OVERALL"] = 1938.52,
-				["DamageTaken"] = 1938.52,
-				["Damage"] = 1930.523,
-			},
-			["LastAttackedBy"] = "萨巴克希斯",
-			["LastEventType"] = {
-				"DAMAGE", -- [1]
-				"DAMAGE", -- [2]
-				"DAMAGE", -- [3]
-				"DAMAGE", -- [4]
-				"DAMAGE", -- [5]
-				"DAMAGE", -- [6]
-				"DAMAGE", -- [7]
-				"DAMAGE", -- [8]
-				"DAMAGE", -- [9]
-				"DAMAGE", -- [10]
-				"DAMAGE", -- [11]
-			},
-			["TimeWindows"] = {
-				["ActiveTime"] = {
-					5.54, -- [1]
-				},
-				["TimeDamage"] = {
-					5.54, -- [1]
-				},
-				["DOT_Time"] = {
-					3, -- [1]
-				},
-				["Healing"] = {
-					0, -- [1]
-				},
-				["DamageTaken"] = {
-					142, -- [1]
-				},
-				["Damage"] = {
-					134, -- [1]
-				},
-			},
-			["enClass"] = "HUNTER",
-			["unit"] = "流星剑雨",
-			["LastActive"] = 1938.52,
-			["level"] = 14,
-			["LastDamageAbility"] = "暗言术：痛 (伤害/跳)",
-			["LastFightIn"] = 567,
-			["LastEventHealthMax"] = {
-				278, -- [1]
-				278, -- [2]
-				278, -- [3]
-				278, -- [4]
-				278, -- [5]
-				278, -- [6]
-				278, -- [7]
-				278, -- [8]
-				278, -- [9]
-				278, -- [10]
-				278, -- [11]
-			},
-			["type"] = "Ungrouped",
-			["FightsSaved"] = 5,
-			["LastDamageTaken"] = 23,
-			["Name"] = "流星剑雨",
-			["Owner"] = false,
-			["Pet"] = {
-				"熊 <流星剑雨>", -- [1]
-			},
-			["NextEventNum"] = 12,
-			["LastDamageTime"] = 1930.935,
-			["LastEvents"] = {
-				"萨巴克希斯 暗言术：痛 (伤害/跳) 流星剑雨 Tick -23 (Shadow)", -- [1]
-				"流星剑雨 奥术射击 萨巴克希斯 Hit -16 (Arcane)", -- [2]
-				"流星剑雨 自动射击 萨巴克希斯 Hit -38 (Physical)", -- [3]
-				"萨巴克希斯 暗言术：痛 (伤害/跳) 流星剑雨 Tick -24 (Shadow)", -- [4]
-				"流星剑雨 自动射击 萨巴克希斯 Hit -35 (Physical)", -- [5]
-				"萨巴克希斯 暗言术：痛 (伤害/跳) 流星剑雨 Tick -24 (Shadow)", -- [6]
-				"流星剑雨 自动射击 萨巴克希斯 Hit -34 (Physical)", -- [7]
-				"流星剑雨 毒蛇钉刺 (伤害/跳) 萨巴克希斯 Tick -11 (Nature)", -- [8]
-				"萨巴克希斯 暗言术：痛 (伤害/跳) 流星剑雨 Tick -24 (Shadow)", -- [9]
-				"萨巴克希斯 暗言术：痛 (伤害/跳) 流星剑雨 Tick -24 (Shadow)", -- [10]
-				"萨巴克希斯 暗言术：痛 (伤害/跳) 流星剑雨 Tick -23 (Shadow)", -- [11]
-			},
-			["LastEventIncoming"] = {
-				true, -- [1]
-				false, -- [2]
-				false, -- [3]
-				true, -- [4]
-				false, -- [5]
-				true, -- [6]
-				false, -- [7]
-				false, -- [8]
-				true, -- [9]
-				true, -- [10]
-				true, -- [11]
-			},
-			["LastEventTimes"] = {
-				1923.891, -- [1]
-				1924.579, -- [2]
-				1925.318, -- [3]
-				1926.98, -- [4]
-				1928.086, -- [5]
-				1929.952, -- [6]
-				1930.639, -- [7]
-				1930.935, -- [8]
-				1932.905, -- [9]
-				1935.943, -- [10]
-				1938.913, -- [11]
-			},
-			["Fights"] = {
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["ElementDoneBlock"] = {
-						["Arcane"] = 10,
-					},
-					["DOTs"] = {
-						["毒蛇钉刺 (伤害/跳)"] = {
-							["Details"] = {
-								["萨巴克希斯"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["DamageTaken"] = 142,
-					["PartialResist"] = {
-						["暗言术：痛 (伤害/跳)"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 6,
-						},
-					},
-					["PartialAbsorb"] = {
-						["暗言术：痛 (伤害/跳)"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 5.54,
-					["ElementTaken"] = {
-						["Shadow"] = 142,
-					},
-					["DOT_Time"] = 3,
-					["Damage"] = 134,
-					["Healing"] = 0,
-					["Attacks"] = {
-						["毒蛇钉刺 (伤害/跳)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 11,
-									["min"] = 11,
-									["count"] = 1,
-									["amount"] = 11,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 11,
-						},
-						["奥术射击"] = {
-							["Details"] = {
-								["Hit (被格挡)"] = {
-									["max"] = 16,
-									["min"] = 16,
-									["count"] = 1,
-									["amount"] = 16,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 16,
-						},
-						["自动射击"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 38,
-									["min"] = 34,
-									["count"] = 3,
-									["amount"] = 107,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 107,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Block"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["DamagedWho"] = {
-						["萨巴克希斯"] = {
-							["Details"] = {
-								["毒蛇钉刺 (伤害/跳)"] = {
-									["count"] = 11,
-								},
-								["奥术射击"] = {
-									["count"] = 16,
-								},
-								["自动射击"] = {
-									["count"] = 107,
-								},
-							},
-							["amount"] = 134,
-						},
-					},
-					["TimeDamage"] = 5.54,
-					["WhoDamaged"] = {
-						["萨巴克希斯"] = {
-							["Details"] = {
-								["暗言术：痛 (伤害/跳)"] = {
-									["count"] = 142,
-								},
-							},
-							["amount"] = 142,
-						},
-					},
-					["ElementDone"] = {
-						["Physical"] = 107,
-						["Nature"] = 11,
-						["Arcane"] = 16,
-					},
-					["TimeDamaging"] = {
-						["萨巴克希斯"] = {
-							["Details"] = {
-								["毒蛇钉刺 (伤害/跳)"] = {
-									["count"] = 0.3,
-								},
-								["奥术射击"] = {
-									["count"] = 1.5,
-								},
-								["自动射击"] = {
-									["count"] = 3.74,
-								},
-							},
-							["amount"] = 5.54,
-						},
-					},
-					["TimeSpent"] = {
-						["萨巴克希斯"] = {
-							["Details"] = {
-								["毒蛇钉刺 (伤害/跳)"] = {
-									["count"] = 0.3,
-								},
-								["奥术射击"] = {
-									["count"] = 1.5,
-								},
-								["自动射击"] = {
-									["count"] = 3.74,
-								},
-							},
-							["amount"] = 5.54,
-						},
-					},
-				},
-			},
-			["LastEventHealth"] = {
-				278, -- [1]
-				255, -- [2]
-				255, -- [3]
-				255, -- [4]
-				231, -- [5]
-				231, -- [6]
-				207, -- [7]
-				207, -- [8]
-				207, -- [9]
-				202, -- [10]
-				187, -- [11]
-			},
-			["UnitLockout"] = 1923.522,
-			["LastAbility"] = 54308.047,
-		},
-		["凛寒"] = {
-			["GUID"] = "Player-4778-050CF3DB",
-			["LastEventHealth"] = {
-				404, -- [1]
-				404, -- [2]
-				404, -- [3]
-				404, -- [4]
-				404, -- [5]
-				404, -- [6]
-				404, -- [7]
-				404, -- [8]
-				404, -- [9]
-				404, -- [10]
-				404, -- [11]
-				404, -- [12]
-				404, -- [13]
-				404, -- [14]
-				404, -- [15]
-				404, -- [16]
-				404, -- [17]
-				404, -- [18]
-				404, -- [19]
-				404, -- [20]
-				404, -- [21]
-				404, -- [22]
-				404, -- [23]
-				404, -- [24]
-				404, -- [25]
-				404, -- [26]
-				404, -- [27]
-				404, -- [28]
-				404, -- [29]
-				404, -- [30]
-				404, -- [31]
-				404, -- [32]
-				404, -- [33]
-				404, -- [34]
-				404, -- [35]
-				404, -- [36]
-				404, -- [37]
-				404, -- [38]
-				404, -- [39]
-				404, -- [40]
-				404, -- [41]
-				404, -- [42]
-				404, -- [43]
-				404, -- [44]
-				404, -- [45]
-				404, -- [46]
-				404, -- [47]
-				404, -- [48]
-				404, -- [49]
-				404, -- [50]
-			},
-			["LastAttackedBy"] = "破损的傀儡",
+			["LastAttackedBy"] = "哈姆霍克",
 			["LastEventType"] = {
 				"HEAL", -- [1]
 				"HEAL", -- [2]
@@ -2397,16 +76,16 @@ RecountPerCharDB = {
 				"HEAL", -- [16]
 				"HEAL", -- [17]
 				"HEAL", -- [18]
-				"DAMAGE", -- [19]
-				"DAMAGE", -- [20]
+				"HEAL", -- [19]
+				"HEAL", -- [20]
 				"HEAL", -- [21]
-				"DAMAGE", -- [22]
+				"HEAL", -- [22]
 				"HEAL", -- [23]
 				"HEAL", -- [24]
 				"HEAL", -- [25]
 				"HEAL", -- [26]
-				"DAMAGE", -- [27]
-				"DAMAGE", -- [28]
+				"HEAL", -- [27]
+				"HEAL", -- [28]
 				"HEAL", -- [29]
 				"HEAL", -- [30]
 				"HEAL", -- [31]
@@ -2414,15 +93,15 @@ RecountPerCharDB = {
 				"HEAL", -- [33]
 				"HEAL", -- [34]
 				"HEAL", -- [35]
-				"DAMAGE", -- [36]
+				"HEAL", -- [36]
 				"HEAL", -- [37]
 				"HEAL", -- [38]
-				"DAMAGE", -- [39]
+				"HEAL", -- [39]
 				"HEAL", -- [40]
-				"DAMAGE", -- [41]
-				"DAMAGE", -- [42]
+				"HEAL", -- [41]
+				"HEAL", -- [42]
 				"HEAL", -- [43]
-				"DAMAGE", -- [44]
+				"HEAL", -- [44]
 				"HEAL", -- [45]
 				"HEAL", -- [46]
 				"HEAL", -- [47]
@@ -2432,179 +111,132 @@ RecountPerCharDB = {
 			},
 			["TimeWindows"] = {
 				["TimeHeal"] = {
-					16.5, -- [1]
+					262.01, -- [1]
 				},
 				["Healing"] = {
-					368, -- [1]
+					22615, -- [1]
 				},
 				["DamageTaken"] = {
-					576, -- [1]
-				},
-				["HealingTaken"] = {
-					144, -- [1]
+					412, -- [1]
 				},
 				["Overhealing"] = {
-					382, -- [1]
-				},
-				["TimeDamage"] = {
-					118.48, -- [1]
+					6000, -- [1]
 				},
 				["ActiveTime"] = {
-					134.98, -- [1]
+					291.48, -- [1]
+				},
+				["HealingTaken"] = {
+					244, -- [1]
 				},
 				["HOT_Time"] = {
-					60, -- [1]
+					819, -- [1]
+				},
+				["TimeDamage"] = {
+					29.47, -- [1]
+				},
+				["Ressed"] = {
+					1, -- [1]
+				},
+				["ManaGain"] = {
+					24, -- [1]
 				},
 				["DOT_Time"] = {
-					18, -- [1]
+					12, -- [1]
 				},
 				["Damage"] = {
-					3754, -- [1]
+					261, -- [1]
 				},
 			},
 			["enClass"] = "DRUID",
-			["unit"] = true,
-			["LastActive"] = 4884.517,
-			["level"] = 18,
-			["LastDamageAbility"] = "肉搏",
-			["LastFightIn"] = 617,
+			["unit"] = "得撸艺",
+			["LastActive"] = 45631.191,
+			["level"] = 29,
+			["LastDamageAbility"] = "闪电链",
+			["LastFightIn"] = 19,
 			["LastEventHealthMax"] = {
-				404, -- [1]
-				404, -- [2]
-				404, -- [3]
-				404, -- [4]
-				404, -- [5]
-				404, -- [6]
-				404, -- [7]
-				404, -- [8]
-				404, -- [9]
-				404, -- [10]
-				404, -- [11]
-				404, -- [12]
-				404, -- [13]
-				404, -- [14]
-				404, -- [15]
-				404, -- [16]
-				404, -- [17]
-				404, -- [18]
-				404, -- [19]
-				404, -- [20]
-				404, -- [21]
-				404, -- [22]
-				404, -- [23]
-				404, -- [24]
-				404, -- [25]
-				404, -- [26]
-				404, -- [27]
-				404, -- [28]
-				404, -- [29]
-				404, -- [30]
-				404, -- [31]
-				404, -- [32]
-				404, -- [33]
-				404, -- [34]
-				404, -- [35]
-				404, -- [36]
-				404, -- [37]
-				404, -- [38]
-				404, -- [39]
-				404, -- [40]
-				404, -- [41]
-				404, -- [42]
-				404, -- [43]
-				404, -- [44]
-				404, -- [45]
-				404, -- [46]
-				404, -- [47]
-				404, -- [48]
-				404, -- [49]
-				404, -- [50]
+				1078, -- [1]
+				1078, -- [2]
+				1078, -- [3]
+				1078, -- [4]
+				1078, -- [5]
+				1078, -- [6]
+				1078, -- [7]
+				1078, -- [8]
+				1078, -- [9]
+				1078, -- [10]
+				1078, -- [11]
+				1078, -- [12]
+				1078, -- [13]
+				1078, -- [14]
+				1078, -- [15]
+				1078, -- [16]
+				1078, -- [17]
+				1078, -- [18]
+				1078, -- [19]
+				1078, -- [20]
+				1078, -- [21]
+				1078, -- [22]
+				1078, -- [23]
+				1078, -- [24]
+				1078, -- [25]
+				1078, -- [26]
+				1078, -- [27]
+				1078, -- [28]
+				1078, -- [29]
+				1078, -- [30]
+				1078, -- [31]
+				1078, -- [32]
+				1078, -- [33]
+				1078, -- [34]
+				1078, -- [35]
+				1078, -- [36]
+				1078, -- [37]
+				1078, -- [38]
+				1078, -- [39]
+				1078, -- [40]
+				1078, -- [41]
+				1078, -- [42]
+				1078, -- [43]
+				1078, -- [44]
+				1078, -- [45]
+				1078, -- [46]
+				1078, -- [47]
+				1078, -- [48]
+				1078, -- [49]
+				1078, -- [50]
 			},
 			["type"] = "Ungrouped",
 			["FightsSaved"] = 5,
-			["LastDamageTaken"] = 26,
+			["LastHealTime"] = 45610.931,
 			["TimeLast"] = {
-				["TimeHeal"] = 4859.526,
-				["OVERALL"] = 4860.526,
-				["DamageTaken"] = 4107.518,
-				["Healing"] = 4859.526,
-				["HealingTaken"] = 4414.518,
-				["HOT_Time"] = 4859.526,
-				["TimeDamage"] = 4860.526,
-				["ActiveTime"] = 4860.526,
-				["Overhealing"] = 4853.525000000001,
-				["DOT_Time"] = 4109.528,
-				["Damage"] = 4858.519,
+				["TimeHeal"] = 45610.197,
+				["Ressed"] = 44926.195,
+				["Healing"] = 45610.197,
+				["DamageTaken"] = 45508.193,
+				["OVERALL"] = 45610.197,
+				["ActiveTime"] = 45610.197,
+				["HealingTaken"] = 45192.191,
+				["HOT_Time"] = 45610.197,
+				["TimeDamage"] = 45189.195,
+				["Overhealing"] = 45604.192,
+				["ManaGain"] = 45131.197,
+				["DOT_Time"] = 45165.192,
+				["Damage"] = 45175.192,
 			},
 			["Owner"] = false,
-			["Name"] = "凛寒",
-			["NextEventNum"] = 13,
-			["LastDamageTime"] = 4860.767,
-			["LastEvents"] = {
-				"凛寒 回春术 克罗尼亚·恒影 Tick +29 (29 过量治疗)", -- [1]
-				"凛寒 愈合 克罗尼亚·恒影 Tick +14 (14 过量治疗)", -- [2]
-				"凛寒 回春术 凛寒 Tick +29 (29 过量治疗)", -- [3]
-				"凛寒 回春术 克罗尼亚·恒影 Tick +29 (29 过量治疗)", -- [4]
-				"凛寒 愈合 克罗尼亚·恒影 Tick +14 (14 过量治疗)", -- [5]
-				"凛寒 回春术 凛寒 Tick +29 (29 过量治疗)", -- [6]
-				"凛寒 愈合 克罗尼亚·恒影 Tick +14 (14 过量治疗)", -- [7]
-				"凛寒 回春术 凛寒 Tick +29 (29 过量治疗)", -- [8]
-				"凛寒 愈合 克罗尼亚·恒影 Tick +14 (14 过量治疗)", -- [9]
-				"凛寒 回春术 凛寒 Tick +29 (29 过量治疗)", -- [10]
-				"凛寒 愈合 克罗尼亚·恒影 Tick +14 (14 过量治疗)", -- [11]
-				"凛寒 回春术 凛寒 Tick +29 (29 过量治疗)", -- [12]
-				"凛寒 愈合 克罗尼亚·恒影 Tick +14 (14 过量治疗)", -- [13]
-				"凛寒 回春术 克罗尼亚·恒影 Tick +29 (29 过量治疗)", -- [14]
-				"凛寒 愈合 克罗尼亚·恒影 Tick +14 (14 过量治疗)", -- [15]
-				"凛寒 回春术 克罗尼亚·恒影 Tick +29 (29 过量治疗)", -- [16]
-				"凛寒 回春术 克罗尼亚·恒影 Tick +29 (29 过量治疗)", -- [17]
-				"凛寒 回春术 克罗尼亚·恒影 Tick +29 (29 过量治疗)", -- [18]
-				"凛寒 愤怒 黑木巨熊怪 Hit -58 (Nature)", -- [19]
-				"凛寒 愤怒 黑木巨熊怪 Hit -54 (Nature)", -- [20]
-				"凛寒 回春术 克罗尼亚·恒影 Tick +29", -- [21]
-				"凛寒 愤怒 黑木图腾师 Hit -57 (Nature)", -- [22]
-				"凛寒 回春术 克罗尼亚·恒影 Tick +29 (17 过量治疗)", -- [23]
-				"凛寒 回春术 克罗尼亚·恒影 Tick +29 (29 过量治疗)", -- [24]
-				"凛寒 回春术 克罗尼亚·恒影 Tick +29 (29 过量治疗)", -- [25]
-				"凛寒 回春术 克罗尼亚·恒影 Tick +29 (29 过量治疗)", -- [26]
-				"凛寒 愤怒 暗滩精兵 Hit -53 (Nature)", -- [27]
-				"凛寒 愤怒 暗滩精兵 Hit -59 (Nature)", -- [28]
-				"凛寒 回春术 凛寒 Tick +29 (29 过量治疗)", -- [29]
-				"凛寒 治疗之触 查尔斯三世 Hit +230 (92 过量治疗)", -- [30]
-				"凛寒 回春术 凛寒 Tick +29 (29 过量治疗)", -- [31]
-				"凛寒 回春术 查尔斯三世 Tick +29 (27 过量治疗)", -- [32]
-				"凛寒 回春术 凛寒 Tick +29 (29 过量治疗)", -- [33]
-				"凛寒 回春术 查尔斯三世 Tick +29 (3 过量治疗)", -- [34]
-				"凛寒 回春术 凛寒 Tick +29 (29 过量治疗)", -- [35]
-				"凛寒 愤怒 暗滩执行者 Hit -53 (Nature)", -- [36]
-				"凛寒 回春术 查尔斯三世 Tick +29 (29 过量治疗)", -- [37]
-				"凛寒 回春术 凛寒 Tick +29 (29 过量治疗)", -- [38]
-				"凛寒 愤怒 暗滩执行者 Miss (Nature)", -- [39]
-				"凛寒 回春术 查尔斯三世 Tick +29", -- [40]
-				"凛寒 愤怒 暗滩执行者 Miss (Nature)", -- [41]
-				"凛寒 愤怒 暗滩执行者 Hit -58 (Nature)", -- [42]
-				"凛寒 回春术 查尔斯三世 Tick +29", -- [43]
-				"凛寒 愤怒 暗滩执行者 Miss (Nature)", -- [44]
-				"凛寒 回春术 克罗尼亚·恒影 Tick +29", -- [45]
-				"凛寒 愈合 克罗尼亚·恒影 Hit +100", -- [46]
-				"凛寒 回春术 克罗尼亚·恒影 Tick +29 (29 过量治疗)", -- [47]
-				"凛寒 愈合 克罗尼亚·恒影 Tick +14 (14 过量治疗)", -- [48]
-				"凛寒 回春术 克罗尼亚·恒影 Tick +29 (29 过量治疗)", -- [49]
-				"凛寒 愈合 克罗尼亚·恒影 Tick +14 (14 过量治疗)", -- [50]
-			},
 			["LastEventIncoming"] = {
 				false, -- [1]
 				false, -- [2]
-				true, -- [3]
+				false, -- [3]
 				false, -- [4]
 				false, -- [5]
-				true, -- [6]
+				false, -- [6]
 				false, -- [7]
-				true, -- [8]
+				false, -- [8]
 				false, -- [9]
-				true, -- [10]
+				false, -- [10]
 				false, -- [11]
-				true, -- [12]
+				false, -- [12]
 				false, -- [13]
 				false, -- [14]
 				false, -- [15]
@@ -2621,16 +253,16 @@ RecountPerCharDB = {
 				false, -- [26]
 				false, -- [27]
 				false, -- [28]
-				true, -- [29]
+				false, -- [29]
 				false, -- [30]
-				true, -- [31]
+				false, -- [31]
 				false, -- [32]
-				true, -- [33]
+				false, -- [33]
 				false, -- [34]
-				true, -- [35]
+				false, -- [35]
 				false, -- [36]
 				false, -- [37]
-				true, -- [38]
+				false, -- [38]
 				false, -- [39]
 				false, -- [40]
 				false, -- [41]
@@ -2644,57 +276,112 @@ RecountPerCharDB = {
 				false, -- [49]
 				false, -- [50]
 			},
+			["NextEventNum"] = 47,
+			["LastDamageTime"] = 45189.529,
+			["LastEvents"] = {
+				"得撸艺 回春术 南宫浮生 Tick +55 (54 过量治疗)", -- [1]
+				"得撸艺 回春术 查尔斯三世 Tick +55", -- [2]
+				"得撸艺 愈合 南宫浮生 Tick +39 (39 过量治疗)", -- [3]
+				"得撸艺 回春术 查尔斯三世 Tick +56 (52 过量治疗)", -- [4]
+				"得撸艺 愈合 南宫浮生 Tick +39 (39 过量治疗)", -- [5]
+				"得撸艺 回春术 查尔斯三世 Tick +55 (55 过量治疗)", -- [6]
+				"得撸艺 愈合 南宫浮生 Tick +39 (39 过量治疗)", -- [7]
+				"得撸艺 回春术 查尔斯三世 Tick +55 (55 过量治疗)", -- [8]
+				"得撸艺 愈合 南宫浮生 Tick +38", -- [9]
+				"得撸艺 回春术 查尔斯三世 Tick +56 (56 过量治疗)", -- [10]
+				"得撸艺 回春术 南宫浮生 Tick +56", -- [11]
+				"得撸艺 愈合 南宫浮生 Tick +38", -- [12]
+				"得撸艺 愈合 南宫浮生 Hit +263", -- [13]
+				"得撸艺 回春术 南宫浮生 Tick +55", -- [14]
+				"得撸艺 愈合 南宫浮生 Crit +414 (265 过量治疗)", -- [15]
+				"得撸艺 回春术 南宫浮生 Tick +55", -- [16]
+				"得撸艺 愈合 南宫浮生 Tick +39", -- [17]
+				"得撸艺 回春术 南宫浮生 Tick +55", -- [18]
+				"得撸艺 愈合 南宫浮生 Tick +39", -- [19]
+				"得撸艺 治疗之触 南宫浮生 Hit +260", -- [20]
+				"得撸艺 回春术 南宫浮生 Tick +56", -- [21]
+				"得撸艺 愈合 南宫浮生 Tick +39", -- [22]
+				"得撸艺 治疗之触 南宫浮生 Hit +279", -- [23]
+				"得撸艺 愈合 南宫浮生 Tick +39", -- [24]
+				"得撸艺 愈合 南宫浮生 Tick +39 (20 过量治疗)", -- [25]
+				"得撸艺 愈合 南宫浮生 Tick +39 (39 过量治疗)", -- [26]
+				"得撸艺 愈合 南宫浮生 Tick +39 (39 过量治疗)", -- [27]
+				"得撸艺 回春术 南宫浮生 Tick +56", -- [28]
+				"得撸艺 愈合 南宫浮生 Crit +419", -- [29]
+				"得撸艺 回春术 南宫浮生 Tick +56", -- [30]
+				"得撸艺 愈合 南宫浮生 Tick +39", -- [31]
+				"得撸艺 治疗之触 南宫浮生 Hit +271", -- [32]
+				"得撸艺 回春术 南宫浮生 Tick +55 (16 过量治疗)", -- [33]
+				"得撸艺 愈合 南宫浮生 Tick +39 (39 过量治疗)", -- [34]
+				"得撸艺 回春术 南宫浮生 Tick +56", -- [35]
+				"得撸艺 愈合 南宫浮生 Tick +39", -- [36]
+				"得撸艺 回春术 南宫浮生 Tick +55", -- [37]
+				"得撸艺 愈合 南宫浮生 Tick +39", -- [38]
+				"得撸艺 愈合 南宫浮生 Tick +38", -- [39]
+				"得撸艺 愈合 南宫浮生 Tick +39 (39 过量治疗)", -- [40]
+				"得撸艺 愈合 南宫浮生 Tick +39 (39 过量治疗)", -- [41]
+				"得撸艺 回春术 三自四有 Tick +56 (29 过量治疗)", -- [42]
+				"得撸艺 回春术 三自四有 Tick +55 (55 过量治疗)", -- [43]
+				"得撸艺 回春术 三自四有 Tick +55 (55 过量治疗)", -- [44]
+				"得撸艺 回春术 三自四有 Tick +55 (55 过量治疗)", -- [45]
+				"得撸艺 回春术 三自四有 Tick +55 (55 过量治疗)", -- [46]
+				"得撸艺 回春术 南宫浮生 Tick +55", -- [47]
+				"得撸艺 愈合 南宫浮生 Tick +38", -- [48]
+				"得撸艺 回春术 南宫浮生 Tick +55", -- [49]
+				"得撸艺 愈合 南宫浮生 Tick +39", -- [50]
+			},
+			["Name"] = "得撸艺",
 			["LastEventTimes"] = {
-				4872.302, -- [1]
-				4873.134, -- [2]
-				4873.351, -- [3]
-				4875.244, -- [4]
-				4876.125, -- [5]
-				4876.338, -- [6]
-				4879.125, -- [7]
-				4879.343, -- [8]
-				4882.126, -- [9]
-				4882.344, -- [10]
-				4885.124, -- [11]
-				4885.353, -- [12]
-				4591.381, -- [13]
-				4592.951, -- [14]
-				4594.437, -- [15]
-				4595.959, -- [16]
-				4598.975, -- [17]
-				4601.961, -- [18]
-				4633.536, -- [19]
-				4635.046, -- [20]
-				4639.994, -- [21]
-				4640.552, -- [22]
-				4642.912, -- [23]
-				4645.985, -- [24]
-				4648.949000000001, -- [25]
-				4651.985, -- [26]
-				4838.04, -- [27]
-				4839.549, -- [28]
-				4842.282, -- [29]
-				4843.352, -- [30]
-				4845.305, -- [31]
-				4847.924, -- [32]
-				4848.29, -- [33]
-				4850.89, -- [34]
-				4851.286, -- [35]
-				4853.17, -- [36]
-				4853.854, -- [37]
-				4854.243, -- [38]
-				4855.706, -- [39]
-				4856.848, -- [40]
-				4857.389, -- [41]
-				4858.611, -- [42]
-				4859.916, -- [43]
-				4860.767, -- [44]
-				4863.287, -- [45]
-				4864.084, -- [46]
-				4866.296, -- [47]
-				4867.123000000001, -- [48]
-				4869.207, -- [49]
-				4870.113, -- [50]
+				45551.747, -- [1]
+				45552.392, -- [2]
+				45553.523, -- [3]
+				45555.394, -- [4]
+				45556.521, -- [5]
+				45558.394, -- [6]
+				45559.537, -- [7]
+				45561.392, -- [8]
+				45562.536, -- [9]
+				45564.391, -- [10]
+				45564.717, -- [11]
+				45565.527, -- [12]
+				45565.929, -- [13]
+				45567.725, -- [14]
+				45567.926, -- [15]
+				45570.725, -- [16]
+				45570.938, -- [17]
+				45573.722, -- [18]
+				45573.934, -- [19]
+				45575.835, -- [20]
+				45576.724, -- [21]
+				45576.93, -- [22]
+				45578.287, -- [23]
+				45579.938, -- [24]
+				45582.932, -- [25]
+				45585.932, -- [26]
+				45588.928, -- [27]
+				45598.069, -- [28]
+				45598.921, -- [29]
+				45601.072, -- [30]
+				45601.918, -- [31]
+				45603.83, -- [32]
+				45604.072, -- [33]
+				45604.934, -- [34]
+				45607.076, -- [35]
+				45607.926, -- [36]
+				45610.072, -- [37]
+				45610.931, -- [38]
+				45613.92, -- [39]
+				45616.93, -- [40]
+				45619.932, -- [41]
+				45620.121, -- [42]
+				45623.111, -- [43]
+				45626.115, -- [44]
+				45629.11, -- [45]
+				45632.114, -- [46]
+				45545.744, -- [47]
+				45547.537, -- [48]
+				45548.747, -- [49]
+				45550.551, -- [50]
 			},
 			["Fights"] = {
 				["LastFightData"] = {
@@ -2904,1397 +591,269 @@ RecountPerCharDB = {
 					},
 				},
 				["OverallData"] = {
-					["TimeHealing"] = {
-						["凛寒"] = {
-							["Details"] = {
-								["回春术"] = {
-									["count"] = 6,
-								},
-								["愈合"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 9,
-						},
-						["查尔斯三世"] = {
-							["Details"] = {
-								["回春术"] = {
-									["count"] = 6,
-								},
-								["治疗之触"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 7.5,
-						},
-					},
-					["OverHeals"] = {
-						["回春术"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 29,
-									["min"] = 3,
-									["count"] = 10,
-									["amount"] = 262,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 262,
-						},
-						["治疗之触"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 92,
-									["min"] = 92,
-									["count"] = 1,
-									["amount"] = 92,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 92,
-						},
-						["愈合"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 14,
-									["min"] = 14,
-									["count"] = 2,
-									["amount"] = 28,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 28,
-						},
-					},
-					["TimeSpent"] = {
-						["砂石断骨者"] = {
-							["Details"] = {
-								["荆棘术"] = {
-									["count"] = 7.08,
-								},
-								["愤怒"] = {
-									["count"] = 5.79,
-								},
-							},
-							["amount"] = 12.87,
-						},
-						["凛寒"] = {
-							["Details"] = {
-								["回春术"] = {
-									["count"] = 6,
-								},
-								["愈合"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 9,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["荆棘术"] = {
-									["count"] = 1.33,
-								},
-								["月火术"] = {
-									["count"] = 0.39,
-								},
-								["愤怒"] = {
-									["count"] = 17.24,
-								},
-							},
-							["amount"] = 18.96,
-						},
-						["暗滩执行者"] = {
-							["Details"] = {
-								["愤怒"] = {
-									["count"] = 7.22,
-								},
-							},
-							["amount"] = 7.22,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["愤怒"] = {
-									["count"] = 3,
-								},
-								["荆棘术"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 4.5,
-						},
-						["查尔斯三世"] = {
-							["Details"] = {
-								["回春术"] = {
-									["count"] = 6,
-								},
-								["治疗之触"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 7.5,
-						},
-						["暗滩精兵"] = {
-							["Details"] = {
-								["愤怒"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["破损的傀儡"] = {
-							["Details"] = {
-								["荆棘术"] = {
-									["count"] = 4.890000000000001,
-								},
-								["肉搏"] = {
-									["count"] = 1.5,
-								},
-								["月火术 (伤害/跳)"] = {
-									["count"] = 5.6,
-								},
-								["月火术"] = {
-									["count"] = 4.76,
-								},
-								["愤怒"] = {
-									["count"] = 23.6,
-								},
-							},
-							["amount"] = 40.34999999999999,
-						},
-						["黑木巨熊怪"] = {
-							["Details"] = {
-								["愤怒"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["月夜雄虎"] = {
-							["Details"] = {
-								["荆棘术"] = {
-									["count"] = 0.62,
-								},
-								["肉搏"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 15.62,
-						},
-						["砂石斥候"] = {
-							["Details"] = {
-								["荆棘术"] = {
-									["count"] = 0.74,
-								},
-								["月火术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-								["月火术"] = {
-									["count"] = 2.2,
-								},
-								["愤怒"] = {
-									["count"] = 7.020000000000001,
-								},
-							},
-							["amount"] = 11.46,
-						},
-						["黑木图腾师"] = {
-							["Details"] = {
-								["愤怒"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-					},
-					["DamageTaken"] = 576,
-					["PartialResist"] = {
-						["肉搏"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 20,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 20,
-						},
-					},
-					["WhoHealed"] = {
-						["凛寒"] = {
-							["Details"] = {
-								["回春术"] = {
-									["count"] = 116,
-								},
-								["愈合"] = {
-									["count"] = 28,
-								},
-							},
-							["amount"] = 144,
-						},
-					},
-					["PartialAbsorb"] = {
-						["肉搏"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 20,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 20,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 134.98,
-					["HealedWho"] = {
-						["凛寒"] = {
-							["Details"] = {
-								["回春术"] = {
-									["count"] = 116,
-								},
-								["愈合"] = {
-									["count"] = 28,
-								},
-							},
-							["amount"] = 144,
-						},
-						["查尔斯三世"] = {
-							["Details"] = {
-								["回春术"] = {
-									["count"] = 86,
-								},
-								["治疗之触"] = {
-									["count"] = 138,
-								},
-							},
-							["amount"] = 224,
-						},
-					},
-					["ElementTaken"] = {
-						["Melee"] = 576,
-					},
-					["DOT_Time"] = 18,
-					["Damage"] = 3754,
-					["TimeHeal"] = 16.5,
-					["Heals"] = {
-						["回春术"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 29,
-									["min"] = 2,
-									["count"] = 8,
-									["amount"] = 202,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 202,
-						},
-						["治疗之触"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 138,
-									["min"] = 138,
-									["count"] = 1,
-									["amount"] = 138,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 138,
-						},
-						["愈合"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 14,
-									["min"] = 14,
-									["count"] = 2,
-									["amount"] = 28,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 28,
-						},
-					},
-					["WhoDamaged"] = {
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 26,
-								},
-							},
-							["amount"] = 26,
-						},
-						["砂石断骨者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 269,
-								},
-							},
-							["amount"] = 269,
-						},
-						["破损的傀儡"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 127,
-								},
-							},
-							["amount"] = 127,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 131,
-								},
-							},
-							["amount"] = 131,
-						},
-						["砂石斥候"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 23,
-								},
-							},
-							["amount"] = 23,
-						},
-					},
-					["Overhealing"] = 382,
-					["ElementHitsDone"] = {
-						["Arcane"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 6,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 13,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 11,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Resist"] = {
-									["count"] = 3,
-								},
-								["Miss"] = {
-									["count"] = 3,
-								},
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 67,
-								},
-							},
-							["amount"] = 75,
-						},
-					},
-					["Healing"] = 368,
-					["HOT_Time"] = 60,
-					["Attacks"] = {
-						["肉搏"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 74,
-									["min"] = 74,
-									["count"] = 1,
-									["amount"] = 74,
-								},
-								["Hit"] = {
-									["max"] = 34,
-									["min"] = 27,
-									["count"] = 9,
-									["amount"] = 286,
-								},
-							},
-							["count"] = 11,
-							["amount"] = 360,
-						},
-						["月火术 (伤害/跳)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 15,
-									["min"] = 14,
-									["count"] = 6,
-									["amount"] = 87,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 87,
-						},
-						["愤怒"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 88,
-									["min"] = 80,
-									["count"] = 2,
-									["amount"] = 168,
-								},
-								["Hit"] = {
-									["max"] = 61,
-									["min"] = 52,
-									["count"] = 50,
-									["amount"] = 2833,
-								},
-							},
-							["count"] = 55,
-							["amount"] = 3001,
-						},
-						["月火术"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 36,
-									["min"] = 31,
-									["count"] = 6,
-									["amount"] = 204,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 204,
-						},
-						["荆棘术"] = {
-							["Details"] = {
-								["Resist"] = {
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 6,
-									["min"] = 6,
-									["count"] = 17,
-									["amount"] = 102,
-								},
-							},
-							["count"] = 20,
-							["amount"] = 102,
-						},
-					},
-					["ElementDone"] = {
-						["Arcane"] = 291,
-						["Melee"] = 360,
-						["Nature"] = 3103,
-					},
-					["HealingTaken"] = 144,
-					["DamagedWho"] = {
-						["砂石断骨者"] = {
-							["Details"] = {
-								["荆棘术"] = {
-									["count"] = 30,
-								},
-								["愤怒"] = {
-									["count"] = 259,
-								},
-							},
-							["amount"] = 289,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["荆棘术"] = {
-									["count"] = 30,
-								},
-								["月火术"] = {
-									["count"] = 31,
-								},
-								["愤怒"] = {
-									["count"] = 740,
-								},
-							},
-							["amount"] = 801,
-						},
-						["黑木图腾师"] = {
-							["Details"] = {
-								["愤怒"] = {
-									["count"] = 57,
-								},
-							},
-							["amount"] = 57,
-						},
-						["暗滩执行者"] = {
-							["Details"] = {
-								["愤怒"] = {
-									["count"] = 111,
-								},
-							},
-							["amount"] = 111,
-						},
-						["暗滩精兵"] = {
-							["Details"] = {
-								["愤怒"] = {
-									["count"] = 112,
-								},
-							},
-							["amount"] = 112,
-						},
-						["破损的傀儡"] = {
-							["Details"] = {
-								["荆棘术"] = {
-									["count"] = 30,
-								},
-								["肉搏"] = {
-									["count"] = 27,
-								},
-								["月火术 (伤害/跳)"] = {
-									["count"] = 73,
-								},
-								["月火术"] = {
-									["count"] = 102,
-								},
-								["愤怒"] = {
-									["count"] = 1065,
-								},
-							},
-							["amount"] = 1297,
-						},
-						["黑木巨熊怪"] = {
-							["Details"] = {
-								["愤怒"] = {
-									["count"] = 112,
-								},
-							},
-							["amount"] = 112,
-						},
-						["月夜雄虎"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 333,
-								},
-							},
-							["amount"] = 333,
-						},
-						["砂石斥候"] = {
-							["Details"] = {
-								["荆棘术"] = {
-									["count"] = 6,
-								},
-								["月火术 (伤害/跳)"] = {
-									["count"] = 14,
-								},
-								["月火术"] = {
-									["count"] = 71,
-								},
-								["愤怒"] = {
-									["count"] = 426,
-								},
-							},
-							["amount"] = 517,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["愤怒"] = {
-									["count"] = 119,
-								},
-								["荆棘术"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 125,
-						},
-					},
-					["TimeDamage"] = 118.48,
-					["TimeDamaging"] = {
-						["砂石断骨者"] = {
-							["Details"] = {
-								["荆棘术"] = {
-									["count"] = 7.08,
-								},
-								["愤怒"] = {
-									["count"] = 5.79,
-								},
-							},
-							["amount"] = 12.87,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["荆棘术"] = {
-									["count"] = 1.33,
-								},
-								["月火术"] = {
-									["count"] = 0.39,
-								},
-								["愤怒"] = {
-									["count"] = 17.24,
-								},
-							},
-							["amount"] = 18.96,
-						},
-						["黑木图腾师"] = {
-							["Details"] = {
-								["愤怒"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["暗滩执行者"] = {
-							["Details"] = {
-								["愤怒"] = {
-									["count"] = 7.22,
-								},
-							},
-							["amount"] = 7.22,
-						},
-						["暗滩精兵"] = {
-							["Details"] = {
-								["愤怒"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["破损的傀儡"] = {
-							["Details"] = {
-								["荆棘术"] = {
-									["count"] = 4.890000000000001,
-								},
-								["肉搏"] = {
-									["count"] = 1.5,
-								},
-								["月火术 (伤害/跳)"] = {
-									["count"] = 5.6,
-								},
-								["月火术"] = {
-									["count"] = 4.76,
-								},
-								["愤怒"] = {
-									["count"] = 23.6,
-								},
-							},
-							["amount"] = 40.34999999999999,
-						},
-						["黑木巨熊怪"] = {
-							["Details"] = {
-								["愤怒"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["月夜雄虎"] = {
-							["Details"] = {
-								["荆棘术"] = {
-									["count"] = 0.62,
-								},
-								["肉搏"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 15.62,
-						},
-						["砂石斥候"] = {
-							["Details"] = {
-								["荆棘术"] = {
-									["count"] = 0.74,
-								},
-								["月火术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-								["月火术"] = {
-									["count"] = 2.2,
-								},
-								["愤怒"] = {
-									["count"] = 7.020000000000001,
-								},
-							},
-							["amount"] = 11.46,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["愤怒"] = {
-									["count"] = 3,
-								},
-								["荆棘术"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 4.5,
-						},
-					},
 					["DOTs"] = {
 						["月火术 (伤害/跳)"] = {
 							["Details"] = {
-								["砂石斥候"] = {
-									["count"] = 3,
-								},
-								["破损的傀儡"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 18,
-						},
-					},
-					["HOTs"] = {
-						["回春术"] = {
-							["Details"] = {
-								["凛寒"] = {
-									["count"] = 33,
-								},
-								["查尔斯三世"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 48,
-						},
-						["愈合"] = {
-							["Details"] = {
-								["凛寒"] = {
-									["count"] = 6,
-								},
-								["查尔斯三世"] = {
-									["count"] = 6,
+								["迪菲亚狱友"] = {
+									["count"] = 12,
 								},
 							},
 							["amount"] = 12,
 						},
 					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
+					["Ressed"] = 1,
+					["DamageTaken"] = 412,
+					["HOT_Time"] = 819,
+					["ElementTaken"] = {
+						["Physical"] = 56,
+						["Melee"] = 259,
+						["Nature"] = 97,
+					},
+					["HOTs"] = {
+						["回春术"] = {
 							["Details"] = {
-								["Miss"] = {
+								["得撸艺"] = {
+									["count"] = 15,
+								},
+								["南宫浮生"] = {
+									["count"] = 306,
+								},
+								["三自四有"] = {
+									["count"] = 72,
+								},
+								["查尔斯三世"] = {
+									["count"] = 69,
+								},
+								["祝雨来"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 477,
+						},
+						["愈合"] = {
+							["Details"] = {
+								["查尔斯三世"] = {
+									["count"] = 21,
+								},
+								["南宫浮生"] = {
+									["count"] = 282,
+								},
+								["三自四有"] = {
+									["count"] = 27,
+								},
+								["祝雨来"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 342,
+						},
+					},
+					["Damage"] = 261,
+					["TimeHeal"] = 262.01,
+					["RessedWho"] = {
+						["南宫浮生"] = {
+							["Details"] = {
+								["复生"] = {
 									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementDone"] = {
+						["Holy"] = 91,
+						["Melee"] = 34,
+						["Arcane"] = 136,
+					},
+					["DamagedWho"] = {
+						["迪菲亚狱友"] = {
+							["Details"] = {
+								["月火术 (伤害/跳)"] = {
+									["count"] = 85,
+								},
+								["惩戒光环"] = {
+									["count"] = 55,
+								},
+								["月火术"] = {
+									["count"] = 51,
+								},
+								["肉搏"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 199,
+						},
+						["迪菲亚囚徒"] = {
+							["Details"] = {
+								["惩戒光环"] = {
+									["count"] = 36,
+								},
+								["肉搏"] = {
+									["count"] = 26,
+								},
+							},
+							["amount"] = 62,
+						},
+					},
+					["WhoDamaged"] = {
+						["迪菲亚狱友"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 157,
+								},
+								["撕裂 (伤害/跳)"] = {
+									["count"] = 56,
+								},
+							},
+							["amount"] = 213,
+						},
+						["迪菲亚囚徒"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 102,
+								},
+							},
+							["amount"] = 102,
+						},
+						["哈姆霍克"] = {
+							["Details"] = {
+								["闪电链"] = {
+									["count"] = 97,
+								},
+							},
+							["amount"] = 97,
+						},
+					},
+					["TimeHealing"] = {
+						["得撸艺"] = {
+							["Details"] = {
+								["回春术"] = {
+									["count"] = 4.62,
+								},
+							},
+							["amount"] = 4.62,
+						},
+						["南宫浮生"] = {
+							["Details"] = {
+								["回春术"] = {
+									["count"] = 113.98,
+								},
+								["治疗之触"] = {
+									["count"] = 18.98,
+								},
+								["愈合"] = {
+									["count"] = 85.53999999999996,
+								},
+							},
+							["amount"] = 218.4999999999999,
+						},
+						["三自四有"] = {
+							["Details"] = {
+								["回春术"] = {
+									["count"] = 17.1,
+								},
+								["治疗之触"] = {
+									["count"] = 1.5,
+								},
+								["愈合"] = {
+									["count"] = 4.47,
+								},
+							},
+							["amount"] = 23.07,
+						},
+						["查尔斯三世"] = {
+							["Details"] = {
+								["回春术"] = {
+									["count"] = 12.22,
+								},
+								["治疗之触"] = {
+									["count"] = 0.02,
+								},
+								["愈合"] = {
+									["count"] = 2.86,
+								},
+							},
+							["amount"] = 15.1,
+						},
+						["祝雨来"] = {
+							["Details"] = {
+								["回春术"] = {
+									["count"] = 0.72,
+								},
+							},
+							["amount"] = 0.72,
+						},
+					},
+					["OverHeals"] = {
+						["回春术"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 56,
+									["min"] = 3,
+									["count"] = 48,
+									["amount"] = 2167,
+								},
+							},
+							["count"] = 48,
+							["amount"] = 2167,
+						},
+						["治疗之触"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 401,
+									["min"] = 27,
+									["count"] = 6,
+									["amount"] = 1291,
+								},
+								["Hit"] = {
+									["max"] = 164,
+									["min"] = 12,
+									["count"] = 4,
+									["amount"] = 330,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 1621,
+						},
+						["愈合"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 133,
+									["min"] = 19,
+									["count"] = 4,
+									["amount"] = 336,
 								},
 								["Crit"] = {
-									["count"] = 2,
+									["max"] = 265,
+									["min"] = 93,
+									["count"] = 3,
+									["amount"] = 600,
 								},
-								["Hit"] = {
-									["count"] = 17,
+								["Tick"] = {
+									["max"] = 39,
+									["min"] = 3,
+									["count"] = 37,
+									["amount"] = 1276,
 								},
 							},
-							["amount"] = 20,
+							["count"] = 44,
+							["amount"] = 2212,
 						},
-					},
-				},
-			},
-			["LastHealTime"] = 4859.916,
-			["UnitLockout"] = 4571.518,
-			["LastAbility"] = 54308.047,
-		},
-		["叙利亚第一骑"] = {
-			["GUID"] = "Player-4778-04310F1E",
-			["LastEventHealth"] = {
-				5602, -- [1]
-				5602, -- [2]
-				5901, -- [3]
-				5892, -- [4]
-				6058, -- [5]
-				6058, -- [6]
-				6058, -- [7]
-				6703, -- [8]
-				6703, -- [9]
-				6925, -- [10]
-				6925, -- [11]
-				6925, -- [12]
-				6925, -- [13]
-				6925, -- [14]
-				8442, -- [15]
-				8442, -- [16]
-				8442, -- [17]
-				8442, -- [18]
-				8442, -- [19]
-				8469, -- [20]
-				8469, -- [21]
-				8469, -- [22]
-				8469, -- [23]
-				8469, -- [24]
-				8460, -- [25]
-				10098, -- [26]
-				10127, -- [27]
-				10127, -- [28]
-				10127, -- [29]
-				10127, -- [30]
-				10127, -- [31]
-				10127, -- [32]
-				10127, -- [33]
-				10127, -- [34]
-				10127, -- [35]
-				10127, -- [36]
-				10127, -- [37]
-				10127, -- [38]
-				10127, -- [39]
-				10127, -- [40]
-				10127, -- [41]
-				10127, -- [42]
-				10127, -- [43]
-				10127, -- [44]
-				10127, -- [45]
-				10127, -- [46]
-				10127, -- [47]
-				10116, -- [48]
-				10127, -- [49]
-				5602, -- [50]
-			},
-			["LastAttackedBy"] = "Environment",
-			["LastEventType"] = {
-				"DAMAGE", -- [1]
-				"HEAL", -- [2]
-				"DAMAGE", -- [3]
-				"DAMAGE", -- [4]
-				"DAMAGE", -- [5]
-				"DAMAGE", -- [6]
-				"HEAL", -- [7]
-				"DAMAGE", -- [8]
-				"DAMAGE", -- [9]
-				"DAMAGE", -- [10]
-				"DAMAGE", -- [11]
-				"DAMAGE", -- [12]
-				"DAMAGE", -- [13]
-				"HEAL", -- [14]
-				"DAMAGE", -- [15]
-				"DAMAGE", -- [16]
-				"DAMAGE", -- [17]
-				"DAMAGE", -- [18]
-				"DAMAGE", -- [19]
-				"DAMAGE", -- [20]
-				"DAMAGE", -- [21]
-				"DAMAGE", -- [22]
-				"DAMAGE", -- [23]
-				"DAMAGE", -- [24]
-				"HEAL", -- [25]
-				"DAMAGE", -- [26]
-				"DAMAGE", -- [27]
-				"DAMAGE", -- [28]
-				"DAMAGE", -- [29]
-				"DAMAGE", -- [30]
-				"DAMAGE", -- [31]
-				"DAMAGE", -- [32]
-				"DAMAGE", -- [33]
-				"DAMAGE", -- [34]
-				"DAMAGE", -- [35]
-				"DAMAGE", -- [36]
-				"DAMAGE", -- [37]
-				"DAMAGE", -- [38]
-				"DAMAGE", -- [39]
-				"DAMAGE", -- [40]
-				"DAMAGE", -- [41]
-				"HEAL", -- [42]
-				"DAMAGE", -- [43]
-				"DAMAGE", -- [44]
-				"DAMAGE", -- [45]
-				"DAMAGE", -- [46]
-				"DAMAGE", -- [47]
-				"DAMAGE", -- [48]
-				"DAMAGE", -- [49]
-				"HEAL", -- [50]
-			},
-			["TimeWindows"] = {
-				["TimeHeal"] = {
-					11.53, -- [1]
-				},
-				["Healing"] = {
-					5450, -- [1]
-				},
-				["DamageTaken"] = {
-					7341, -- [1]
-				},
-				["HealingTaken"] = {
-					4999, -- [1]
-				},
-				["HOT_Time"] = {
-					21, -- [1]
-				},
-				["ActiveTime"] = {
-					54.2, -- [1]
-				},
-				["Overhealing"] = {
-					933, -- [1]
-				},
-				["ManaGain"] = {
-					5860, -- [1]
-				},
-				["TimeDamage"] = {
-					42.67, -- [1]
-				},
-				["Damage"] = {
-					78336, -- [1]
-				},
-			},
-			["enClass"] = "PALADIN",
-			["unit"] = "叙利亚第一骑",
-			["LastAbility"] = 54308.047,
-			["level"] = 70,
-			["LastDamageAbility"] = "Falling",
-			["LastFightIn"] = 795,
-			["UnitLockout"] = 47022.257,
-			["type"] = "Ungrouped",
-			["FightsSaved"] = 5,
-			["LastDamageTaken"] = 2367,
-			["Fights"] = {
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
 					},
 					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["TimeHealing"] = {
-						["叙利亚第一骑"] = {
-							["Details"] = {
-								["神圣风暴"] = {
-									["count"] = 8.530000000000001,
-								},
-							},
-							["amount"] = 8.530000000000001,
-						},
-						["查尔斯三世"] = {
-							["Details"] = {
-								["神圣风暴"] = {
-									["count"] = 1.5,
-								},
-								["圣光闪现"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["OverHeals"] = {
-						["圣光闪现"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 933,
-									["min"] = 933,
-									["count"] = 1,
-									["amount"] = 933,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 933,
-						},
-					},
-					["TimeSpent"] = {
-						["黑石猎人"] = {
-							["Details"] = {
-								["驱邪术"] = {
-									["count"] = 1.5,
-								},
-								["神圣风暴"] = {
-									["count"] = 1.5,
-								},
-								["命令审判"] = {
-									["count"] = 1.5,
-								},
-								["肉搏"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 6,
-						},
-						["暗皮刺客"] = {
-							["Details"] = {
-								["驱邪术"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["萨瑞尔祖恩"] = {
-							["Details"] = {
-								["驱邪术"] = {
-									["count"] = 1.5,
-								},
-								["肉搏"] = {
-									["count"] = 1.3,
-								},
-							},
-							["amount"] = 2.8,
-						},
-						["暗皮杀手"] = {
-							["Details"] = {
-								["神圣风暴"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["暗皮战士"] = {
-							["Details"] = {
-								["神圣风暴"] = {
-									["count"] = 1.5,
-								},
-								["十字军打击"] = {
-									["count"] = 1.36,
-								},
-							},
-							["amount"] = 2.86,
-						},
-						["查尔斯三世"] = {
-							["Details"] = {
-								["神圣风暴"] = {
-									["count"] = 1.5,
-								},
-								["圣光闪现"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 3,
-						},
-						["加塞尔佐格"] = {
-							["Details"] = {
-								["神圣风暴"] = {
-									["count"] = 1.5,
-								},
-								["肉搏"] = {
-									["count"] = 1.01,
-								},
-							},
-							["amount"] = 2.51,
-						},
-						["莫甘斯"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["黑石暗影法师"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["黑石斥候"] = {
-							["Details"] = {
-								["命令审判"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["森格"] = {
-							["Details"] = {
-								["命令审判"] = {
-									["count"] = 1.18,
-								},
-							},
-							["amount"] = 1.18,
-						},
-						["叙利亚第一骑"] = {
-							["Details"] = {
-								["神圣风暴"] = {
-									["count"] = 8.530000000000001,
-								},
-							},
-							["amount"] = 8.530000000000001,
-						},
-						["黑石哨兵"] = {
-							["Details"] = {
-								["命令审判"] = {
-									["count"] = 1.5,
-								},
-								["命令圣印"] = {
-									["count"] = 1.5,
-								},
-								["驱邪术"] = {
-									["count"] = 1.5,
-								},
-								["神圣风暴"] = {
-									["count"] = 1.74,
-								},
-								["肉搏"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 9.24,
-						},
-						["暗皮巫师"] = {
-							["Details"] = {
-								["命令审判"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["暗皮蛮兵"] = {
-							["Details"] = {
-								["命令审判"] = {
-									["count"] = 1.5,
-								},
-								["肉搏"] = {
-									["count"] = 0.14,
-								},
-							},
-							["amount"] = 1.64,
-						},
-						["伊尔加拉的仆从"] = {
-							["Details"] = {
-								["十字军打击"] = {
-									["count"] = 1.44,
-								},
-								["神圣风暴"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 4.44,
-						},
-					},
-					["HealedWho"] = {
-						["叙利亚第一骑"] = {
-							["Details"] = {
-								["神圣风暴"] = {
-									["count"] = 4999,
-								},
-							},
-							["amount"] = 4999,
-						},
-						["查尔斯三世"] = {
-							["Details"] = {
-								["神圣风暴"] = {
-									["count"] = 113,
-								},
-								["圣光闪现"] = {
-									["count"] = 338,
-								},
-							},
-							["amount"] = 451,
-						},
-					},
-					["DamageTaken"] = 7341,
-					["PartialResist"] = {
-						["Falling"] = {
+						["撕裂 (伤害/跳)"] = {
 							["Details"] = {
 								["未被抵抗"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
 							["count"] = 0,
-							["amount"] = 2,
+							["amount"] = 5,
 						},
-						["射击"] = {
+						["撕裂"] = {
 							["Details"] = {
 								["未被抵抗"] = {
 									["max"] = 0,
@@ -4306,7 +865,19 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 1,
 						},
-						["暗言术：痛"] = {
+						["闪电链"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["挫志怒吼"] = {
 							["Details"] = {
 								["未被抵抗"] = {
 									["max"] = 0,
@@ -4323,54 +894,38 @@ RecountPerCharDB = {
 								["未被抵抗"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 13,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
 							["count"] = 0,
-							["amount"] = 13,
+							["amount"] = 5,
 						},
 					},
 					["ManaGained"] = {
 						["智慧审判"] = {
 							["Details"] = {
-								["叙利亚第一骑"] = {
-									["count"] = 0,
+								["三自四有"] = {
+									["count"] = 24,
 								},
 							},
-							["amount"] = 0,
-						},
-						["恢复"] = {
-							["Details"] = {
-								["叙利亚第一骑"] = {
-									["count"] = 953,
-								},
-							},
-							["amount"] = 953,
-						},
-						["智者审判"] = {
-							["Details"] = {
-								["叙利亚第一骑"] = {
-									["count"] = 4907,
-								},
-							},
-							["amount"] = 4907,
+							["amount"] = 24,
 						},
 					},
 					["PartialAbsorb"] = {
-						["Falling"] = {
+						["撕裂 (伤害/跳)"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 5,
 							["amount"] = 0,
 						},
-						["射击"] = {
+						["撕裂"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
@@ -4382,7 +937,19 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["暗言术：痛"] = {
+						["闪电链"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["挫志怒吼"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
@@ -4399,1323 +966,482 @@ RecountPerCharDB = {
 								["未被吸收"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 13,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 291.48,
+					["Heals"] = {
+						["回春术"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 56,
+									["min"] = 1,
+									["count"] = 132,
+									["amount"] = 6655,
+								},
+							},
+							["count"] = 132,
+							["amount"] = 6655,
+						},
+						["治疗之触"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 427,
+									["min"] = 124,
+									["count"] = 9,
+									["amount"] = 2868,
+								},
+								["Hit"] = {
+									["max"] = 299,
+									["min"] = 128,
+									["count"] = 14,
+									["amount"] = 3580,
+								},
+							},
+							["count"] = 23,
+							["amount"] = 6448,
+						},
+						["愈合"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 291,
+									["min"] = 133,
+									["count"] = 16,
+									["amount"] = 4035,
+								},
+								["Crit"] = {
+									["max"] = 441,
+									["min"] = 149,
+									["count"] = 7,
+									["amount"] = 2341,
+								},
+								["Tick"] = {
+									["max"] = 39,
+									["min"] = 9,
+									["count"] = 83,
+									["amount"] = 3136,
+								},
+							},
+							["count"] = 106,
+							["amount"] = 9512,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["WhoHealed"] = {
+						["得撸艺"] = {
+							["Details"] = {
+								["回春术"] = {
+									["count"] = 244,
+								},
+							},
+							["amount"] = 244,
+						},
+					},
+					["DOT_Time"] = 12,
+					["Healing"] = 22615,
+					["TimeSpent"] = {
+						["迪菲亚狱友"] = {
+							["Details"] = {
+								["月火术 (伤害/跳)"] = {
+									["count"] = 5.2,
+								},
+								["惩戒光环"] = {
+									["count"] = 1.77,
+								},
+								["月火术"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 20.47,
+						},
+						["迪菲亚囚徒"] = {
+							["Details"] = {
+								["惩戒光环"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 7.5,
+								},
+							},
+							["amount"] = 9,
+						},
+						["三自四有"] = {
+							["Details"] = {
+								["回春术"] = {
+									["count"] = 17.1,
+								},
+								["治疗之触"] = {
+									["count"] = 1.5,
+								},
+								["愈合"] = {
+									["count"] = 4.47,
+								},
+							},
+							["amount"] = 23.07,
+						},
+						["南宫浮生"] = {
+							["Details"] = {
+								["回春术"] = {
+									["count"] = 113.98,
+								},
+								["治疗之触"] = {
+									["count"] = 18.98,
+								},
+								["愈合"] = {
+									["count"] = 85.53999999999996,
+								},
+							},
+							["amount"] = 218.4999999999999,
+						},
+						["查尔斯三世"] = {
+							["Details"] = {
+								["回春术"] = {
+									["count"] = 12.22,
+								},
+								["治疗之触"] = {
+									["count"] = 0.02,
+								},
+								["愈合"] = {
+									["count"] = 2.86,
+								},
+							},
+							["amount"] = 15.1,
+						},
+						["得撸艺"] = {
+							["Details"] = {
+								["回春术"] = {
+									["count"] = 4.62,
+								},
+							},
+							["amount"] = 4.62,
+						},
+						["祝雨来"] = {
+							["Details"] = {
+								["回春术"] = {
+									["count"] = 0.72,
+								},
+							},
+							["amount"] = 0.72,
+						},
+					},
+					["HealedWho"] = {
+						["得撸艺"] = {
+							["Details"] = {
+								["回春术"] = {
+									["count"] = 244,
+								},
+							},
+							["amount"] = 244,
+						},
+						["南宫浮生"] = {
+							["Details"] = {
+								["回春术"] = {
+									["count"] = 4905,
+								},
+								["治疗之触"] = {
+									["count"] = 5894,
+								},
+								["愈合"] = {
+									["count"] = 8655,
+								},
+							},
+							["amount"] = 19454,
+						},
+						["三自四有"] = {
+							["Details"] = {
+								["回春术"] = {
+									["count"] = 691,
+								},
+								["治疗之触"] = {
+									["count"] = 145,
+								},
+								["愈合"] = {
+									["count"] = 472,
+								},
+							},
+							["amount"] = 1308,
+						},
+						["查尔斯三世"] = {
+							["Details"] = {
+								["回春术"] = {
+									["count"] = 712,
+								},
+								["治疗之触"] = {
+									["count"] = 409,
+								},
+								["愈合"] = {
+									["count"] = 385,
+								},
+							},
+							["amount"] = 1506,
+						},
+						["祝雨来"] = {
+							["Details"] = {
+								["回春术"] = {
+									["count"] = 103,
+								},
+							},
+							["amount"] = 103,
+						},
+					},
+					["Attacks"] = {
+						["月火术 (伤害/跳)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 22,
+									["min"] = 21,
+									["count"] = 4,
+									["amount"] = 85,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 85,
+						},
+						["惩戒光环"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 19,
+									["min"] = 18,
+									["count"] = 5,
+									["amount"] = 91,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 91,
+						},
+						["月火术"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 51,
+									["min"] = 51,
+									["count"] = 1,
+									["amount"] = 51,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 51,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 12,
+									["min"] = 3,
+									["count"] = 5,
+									["amount"] = 34,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 3,
 									["amount"] = 0,
 								},
 							},
 							["count"] = 13,
-							["amount"] = 0,
+							["amount"] = 34,
 						},
 					},
-					["ActiveTime"] = 54.2,
-					["HOT_Time"] = 21,
-					["ElementTaken"] = {
-						["Melee"] = 49,
-						["Physical"] = 7292,
-					},
-					["HOTs"] = {
-						["神圣风暴"] = {
-							["Details"] = {
-								["叙利亚第一骑"] = {
-									["count"] = 18,
-								},
-								["查尔斯三世"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 21,
-						},
-					},
-					["Damage"] = 78336,
-					["WhoHealed"] = {
-						["叙利亚第一骑"] = {
-							["Details"] = {
-								["神圣风暴"] = {
-									["count"] = 4999,
-								},
-							},
-							["amount"] = 4999,
-						},
-					},
-					["TimeHeal"] = 11.53,
+					["HealingTaken"] = 244,
+					["Overhealing"] = 6000,
+					["TimeDamage"] = 29.47,
 					["TimeDamaging"] = {
-						["伊尔加拉的仆从"] = {
+						["迪菲亚狱友"] = {
 							["Details"] = {
-								["十字军打击"] = {
-									["count"] = 1.44,
+								["月火术 (伤害/跳)"] = {
+									["count"] = 5.2,
 								},
-								["神圣风暴"] = {
-									["count"] = 3,
+								["惩戒光环"] = {
+									["count"] = 1.77,
 								},
-							},
-							["amount"] = 4.44,
-						},
-						["黑石猎人"] = {
-							["Details"] = {
-								["驱邪术"] = {
-									["count"] = 1.5,
-								},
-								["神圣风暴"] = {
-									["count"] = 1.5,
-								},
-								["命令审判"] = {
+								["月火术"] = {
 									["count"] = 1.5,
 								},
 								["肉搏"] = {
-									["count"] = 1.5,
+									["count"] = 12,
 								},
 							},
-							["amount"] = 6,
+							["amount"] = 20.47,
 						},
-						["暗皮战士"] = {
+						["迪菲亚囚徒"] = {
 							["Details"] = {
-								["神圣风暴"] = {
-									["count"] = 1.5,
-								},
-								["十字军打击"] = {
-									["count"] = 1.36,
-								},
-							},
-							["amount"] = 2.86,
-						},
-						["萨瑞尔祖恩"] = {
-							["Details"] = {
-								["驱邪术"] = {
+								["惩戒光环"] = {
 									["count"] = 1.5,
 								},
 								["肉搏"] = {
-									["count"] = 1.3,
+									["count"] = 7.5,
 								},
 							},
-							["amount"] = 2.8,
-						},
-						["加塞尔佐格"] = {
-							["Details"] = {
-								["神圣风暴"] = {
-									["count"] = 1.5,
-								},
-								["肉搏"] = {
-									["count"] = 1.01,
-								},
-							},
-							["amount"] = 2.51,
-						},
-						["暗皮巫师"] = {
-							["Details"] = {
-								["命令审判"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["黑石暗影法师"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["黑石斥候"] = {
-							["Details"] = {
-								["命令审判"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["森格"] = {
-							["Details"] = {
-								["命令审判"] = {
-									["count"] = 1.18,
-								},
-							},
-							["amount"] = 1.18,
-						},
-						["莫甘斯"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["黑石哨兵"] = {
-							["Details"] = {
-								["命令审判"] = {
-									["count"] = 1.5,
-								},
-								["命令圣印"] = {
-									["count"] = 1.5,
-								},
-								["驱邪术"] = {
-									["count"] = 1.5,
-								},
-								["神圣风暴"] = {
-									["count"] = 1.74,
-								},
-								["肉搏"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 9.24,
-						},
-						["暗皮杀手"] = {
-							["Details"] = {
-								["神圣风暴"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["暗皮蛮兵"] = {
-							["Details"] = {
-								["命令审判"] = {
-									["count"] = 1.5,
-								},
-								["肉搏"] = {
-									["count"] = 0.14,
-								},
-							},
-							["amount"] = 1.64,
-						},
-						["暗皮刺客"] = {
-							["Details"] = {
-								["驱邪术"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
+							["amount"] = 9,
 						},
 					},
+					["ManaGain"] = 24,
 					["ManaGainedFrom"] = {
-						["叙利亚第一骑"] = {
+						["三自四有"] = {
 							["Details"] = {
 								["智慧审判"] = {
-									["count"] = 0,
-								},
-								["恢复"] = {
-									["count"] = 953,
-								},
-								["智者审判"] = {
-									["count"] = 4907,
+									["count"] = 24,
 								},
 							},
-							["amount"] = 5860,
+							["amount"] = 24,
 						},
 					},
 					["ElementHitsDone"] = {
 						["Holy"] = {
 							["Details"] = {
 								["Hit"] = {
-									["count"] = 9,
-								},
-								["Crit"] = {
-									["count"] = 11,
-								},
-								["Evade"] = {
-									["count"] = 1,
+									["count"] = 5,
 								},
 							},
-							["amount"] = 21,
+							["amount"] = 5,
 						},
 						["Melee"] = {
 							["Details"] = {
-								["Crit"] = {
+								["Glancing"] = {
 									["count"] = 5,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 8,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 11,
-								},
-								["Hit"] = {
-									["count"] = 11,
-								},
-							},
-							["amount"] = 22,
-						},
-					},
-					["Healing"] = 5450,
-					["Heals"] = {
-						["神圣风暴"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 1499,
-									["min"] = 113,
-									["count"] = 7,
-									["amount"] = 5112,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 5112,
-						},
-						["圣光闪现"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 338,
-									["min"] = 338,
-									["count"] = 1,
-									["amount"] = 338,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 338,
-						},
-					},
-					["ElementDone"] = {
-						["Holy"] = 20919,
-						["Melee"] = 15111,
-						["Physical"] = 42306,
-					},
-					["Attacks"] = {
-						["命令审判"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 1252,
-									["min"] = 1093,
-									["count"] = 4,
-									["amount"] = 4797,
-								},
-								["Hit"] = {
-									["max"] = 630,
-									["min"] = 582,
-									["count"] = 3,
-									["amount"] = 1806,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 6603,
-						},
-						["十字军打击"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 2371,
-									["min"] = 2007,
-									["count"] = 4,
-									["amount"] = 8855,
-								},
-								["Hit"] = {
-									["max"] = 1003,
-									["min"] = 1003,
-									["count"] = 1,
-									["amount"] = 1003,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 9858,
-						},
-						["命令圣印"] = {
-							["Details"] = {
-								["Evade"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 996,
-									["min"] = 883,
-									["count"] = 4,
-									["amount"] = 3760,
-								},
-								["Hit"] = {
-									["max"] = 437,
-									["min"] = 407,
-									["count"] = 5,
-									["amount"] = 2115,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 5875,
-						},
-						["驱邪术"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 2389,
-									["min"] = 2221,
-									["count"] = 3,
-									["amount"] = 6948,
-								},
-								["Hit"] = {
-									["max"] = 1493,
-									["min"] = 1493,
-									["count"] = 1,
-									["amount"] = 1493,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 8441,
-						},
-						["神圣风暴"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 3015,
-									["min"] = 2365,
-									["count"] = 7,
-									["amount"] = 19044,
-								},
-								["Hit"] = {
-									["max"] = 1557,
-									["min"] = 1160,
-									["count"] = 10,
-									["amount"] = 13404,
-								},
-							},
-							["count"] = 17,
-							["amount"] = 32448,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 2513,
-									["min"] = 2104,
-									["count"] = 5,
-									["amount"] = 11598,
-								},
-								["Hit"] = {
-									["max"] = 1264,
-									["min"] = 1052,
-									["count"] = 3,
-									["amount"] = 3513,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 15111,
-						},
-					},
-					["HealingTaken"] = 4999,
-					["DamagedWho"] = {
-						["伊尔加拉的仆从"] = {
-							["Details"] = {
-								["十字军打击"] = {
-									["count"] = 1003,
-								},
-								["神圣风暴"] = {
-									["count"] = 7375,
-								},
-							},
-							["amount"] = 8378,
-						},
-						["暗皮刺客"] = {
-							["Details"] = {
-								["驱邪术"] = {
-									["count"] = 2221,
-								},
-							},
-							["amount"] = 2221,
-						},
-						["萨瑞尔祖恩"] = {
-							["Details"] = {
-								["驱邪术"] = {
-									["count"] = 1493,
-								},
-								["肉搏"] = {
-									["count"] = 2325,
-								},
-							},
-							["amount"] = 3818,
-						},
-						["暗皮战士"] = {
-							["Details"] = {
-								["神圣风暴"] = {
-									["count"] = 1160,
-								},
-								["命令圣印"] = {
-									["count"] = 407,
-								},
-								["十字军打击"] = {
-									["count"] = 2007,
-								},
-							},
-							["amount"] = 3574,
-						},
-						["黑石猎人"] = {
-							["Details"] = {
-								["命令审判"] = {
-									["count"] = 630,
-								},
-								["命令圣印"] = {
-									["count"] = 1879,
-								},
-								["驱邪术"] = {
-									["count"] = 2338,
-								},
-								["神圣风暴"] = {
-									["count"] = 1421,
-								},
-								["肉搏"] = {
-									["count"] = 1197,
-								},
-							},
-							["amount"] = 7465,
-						},
-						["加塞尔佐格"] = {
-							["Details"] = {
-								["神圣风暴"] = {
-									["count"] = 1394,
-								},
-								["命令圣印"] = {
-									["count"] = 423,
-								},
-								["肉搏"] = {
-									["count"] = 2361,
-								},
-							},
-							["amount"] = 4178,
-						},
-						["暗皮巫师"] = {
-							["Details"] = {
-								["命令审判"] = {
-									["count"] = 2345,
-								},
-								["神圣风暴"] = {
-									["count"] = 5614,
-								},
-								["命令圣印"] = {
-									["count"] = 958,
-								},
-							},
-							["amount"] = 8917,
-						},
-						["黑石暗影法师"] = {
-							["Details"] = {
-								["神圣风暴"] = {
-									["count"] = 2818,
-								},
-								["肉搏"] = {
-									["count"] = 2513,
-								},
-							},
-							["amount"] = 5331,
-						},
-						["黑石斥候"] = {
-							["Details"] = {
-								["命令圣印"] = {
-									["count"] = 432,
-								},
-								["命令审判"] = {
-									["count"] = 582,
-								},
-							},
-							["amount"] = 1014,
-						},
-						["森格"] = {
-							["Details"] = {
-								["命令圣印"] = {
-									["count"] = 416,
-								},
-								["命令审判"] = {
-									["count"] = 1213,
-								},
-							},
-							["amount"] = 1629,
-						},
-						["莫甘斯"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 1052,
-								},
-								["十字军打击"] = {
-									["count"] = 2371,
-								},
-							},
-							["amount"] = 3423,
-						},
-						["黑石哨兵"] = {
-							["Details"] = {
-								["命令审判"] = {
-									["count"] = 1239,
-								},
-								["十字军打击"] = {
-									["count"] = 4477,
-								},
-								["命令圣印"] = {
-									["count"] = 437,
-								},
-								["驱邪术"] = {
-									["count"] = 2389,
-								},
-								["神圣风暴"] = {
-									["count"] = 5357,
-								},
-								["肉搏"] = {
-									["count"] = 4399,
-								},
-							},
-							["amount"] = 18298,
-						},
-						["暗皮杀手"] = {
-							["Details"] = {
-								["神圣风暴"] = {
-									["count"] = 2408,
-								},
-							},
-							["amount"] = 2408,
-						},
-						["暗皮蛮兵"] = {
-							["Details"] = {
-								["命令审判"] = {
-									["count"] = 594,
-								},
-								["神圣风暴"] = {
-									["count"] = 4901,
-								},
-								["肉搏"] = {
-									["count"] = 1264,
-								},
-							},
-							["amount"] = 6759,
-						},
-						["魅魔"] = {
-							["Details"] = {
-								["命令圣印"] = {
-									["count"] = 923,
-								},
-							},
-							["amount"] = 923,
-						},
-					},
-					["TimeDamage"] = 42.67,
-					["WhoDamaged"] = {
-						["黑石斥候"] = {
-							["Details"] = {
-								["射击"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 12,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 7280,
-								},
-							},
-							["amount"] = 7280,
-						},
-						["暗皮战士"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 11,
-								},
-							},
-							["amount"] = 11,
-						},
-						["黑石哨兵"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-						["黑石猎人"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 11,
-								},
-							},
-							["amount"] = 11,
-						},
-						["伊尔加拉的仆从"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 18,
-								},
-							},
-							["amount"] = 18,
-						},
-					},
-					["ManaGain"] = 5860,
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-								["Miss"] = {
-									["count"] = 4,
 								},
 								["Dodge"] = {
 									["count"] = 1,
 								},
+								["Parry"] = {
+									["count"] = 4,
+								},
+								["Miss"] = {
+									["count"] = 3,
+								},
 							},
 							["amount"] = 13,
 						},
-						["Shadow"] = {
+						["Arcane"] = {
 							["Details"] = {
-								["Miss"] = {
+								["Tick"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
 									["count"] = 1,
 								},
 							},
-							["amount"] = 1,
+							["amount"] = 5,
 						},
 					},
-					["Overhealing"] = 933,
 				},
 			},
-			["Owner"] = false,
-			["LastEventTimes"] = {
-				47050.811, -- [1]
-				47050.811, -- [2]
-				47051.988, -- [3]
-				47052.25, -- [4]
-				47066.853, -- [5]
-				47066.853, -- [6]
-				47066.965, -- [7]
-				47071.485, -- [8]
-				47074.297, -- [9]
-				47093.863, -- [10]
-				47093.863, -- [11]
-				47093.863, -- [12]
-				47093.863, -- [13]
-				47093.863, -- [14]
-				47101.391, -- [15]
-				47101.391, -- [16]
-				47101.391, -- [17]
-				47101.391, -- [18]
-				47103.317, -- [19]
-				47106.785, -- [20]
-				47106.785, -- [21]
-				47106.785, -- [22]
-				47106.785, -- [23]
-				47106.785, -- [24]
-				47106.785, -- [25]
-				47119.81, -- [26]
-				45867.854, -- [27]
-				45867.854, -- [28]
-				45867.854, -- [29]
-				45867.854, -- [30]
-				45869.32, -- [31]
-				45872.471, -- [32]
-				45872.471, -- [33]
-				45873.485, -- [34]
-				45873.485, -- [35]
-				45874.66, -- [36]
-				45913.667, -- [37]
-				45947.546, -- [38]
-				45947.546, -- [39]
-				45947.546, -- [40]
-				45947.546, -- [41]
-				45947.546, -- [42]
-				45949.755, -- [43]
-				45949.755, -- [44]
-				45949.895, -- [45]
-				45949.895, -- [46]
-				45949.895, -- [47]
-				45951.254, -- [48]
-				47022.544, -- [49]
-				47049.78, -- [50]
-			},
-			["NextEventNum"] = 27,
-			["LastDamageTime"] = 47106.785,
-			["LastEvents"] = {
-				"叙利亚第一骑 神圣风暴 暗皮杀手 Hit -1197 (Physical)", -- [1]
-				"叙利亚第一骑 神圣风暴 叙利亚第一骑 Tick +299", -- [2]
-				"伊尔加拉的仆从 肉搏 叙利亚第一骑 Hit -9 (Physical)", -- [3]
-				"叙利亚第一骑 十字军打击 伊尔加拉的仆从 Hit -1003 (Physical)", -- [4]
-				"叙利亚第一骑 神圣风暴 暗皮杀手 Hit -1211 (Physical)", -- [5]
-				"叙利亚第一骑 神圣风暴 暗皮巫师 Hit -1256 (Physical)", -- [6]
-				"叙利亚第一骑 神圣风暴 叙利亚第一骑 Tick +617", -- [7]
-				"叙利亚第一骑 命令审判 暗皮巫师 Crit -1093 (Holy)", -- [8]
-				"叙利亚第一骑 驱邪术 暗皮刺客 Crit -2221 (Holy)", -- [9]
-				"叙利亚第一骑 神圣风暴 伊尔加拉的仆从 Crit -2953 (Physical)", -- [10]
-				"伊尔加拉的仆从 肉搏 叙利亚第一骑 Dodge (1)", -- [11]
-				"叙利亚第一骑 神圣风暴 伊尔加拉的仆从 Hit -1439 (Physical)", -- [12]
-				"叙利亚第一骑 神圣风暴 暗皮巫师 Hit -1343 (Physical)", -- [13]
-				"叙利亚第一骑 神圣风暴 叙利亚第一骑 Tick +1434", -- [14]
-				"叙利亚第一骑 肉搏 莫甘斯 Hit -1052 (Physical)", -- [15]
-				"叙利亚第一骑 十字军打击 莫甘斯 Crit -2371 (Physical)", -- [16]
-				"叙利亚第一骑 命令圣印 暗皮巫师 Crit -958 (Holy)", -- [17]
-				"叙利亚第一骑 命令圣印 魅魔 Crit -923 (Holy)", -- [18]
-				"叙利亚第一骑 命令审判 暗皮巫师 Crit -1252 (Holy)", -- [19]
-				"叙利亚第一骑 神圣风暴 伊尔加拉的仆从 Hit -1557 (Physical)", -- [20]
-				"伊尔加拉的仆从 肉搏 叙利亚第一骑 Hit -9 (Physical)", -- [21]
-				"叙利亚第一骑 神圣风暴 伊尔加拉的仆从 Hit -1426 (Physical)", -- [22]
-				"暗皮巫师 肉搏 叙利亚第一骑 Parry (1)", -- [23]
-				"叙利亚第一骑 神圣风暴 暗皮巫师 Crit -3015 (Physical)", -- [24]
-				"叙利亚第一骑 神圣风暴 叙利亚第一骑 Tick +1499", -- [25]
-				"Environment Falling 叙利亚第一骑 Hit -2367 (Physical)", -- [26]
-				"叙利亚第一骑 肉搏 黑石暗影法师 Crit -2513 (Physical)", -- [27]
-				"黑石暗影法师 肉搏 叙利亚第一骑 Miss (1)", -- [28]
-				"黑石暗影法师 暗言术：痛 叙利亚第一骑 Miss (Shadow)", -- [29]
-				"叙利亚第一骑 命令圣印 黑石哨兵 Hit -437 (Holy)", -- [30]
-				"黑石哨兵 肉搏 叙利亚第一骑 Miss (1)", -- [31]
-				"叙利亚第一骑 神圣风暴 加塞尔佐格 Hit -1394 (Physical)", -- [32]
-				"叙利亚第一骑 命令圣印 加塞尔佐格 Hit -423 (Holy)", -- [33]
-				"叙利亚第一骑 肉搏 加塞尔佐格 Crit -2361 (Physical)", -- [34]
-				"叙利亚第一骑 命令圣印 森格 Hit -416 (Holy)", -- [35]
-				"叙利亚第一骑 命令审判 森格 Crit -1213 (Holy)", -- [36]
-				"叙利亚第一骑 神圣风暴 黑石哨兵 Crit -2455 (Physical)", -- [37]
-				"叙利亚第一骑 神圣风暴 暗皮战士 Hit -1160 (Physical)", -- [38]
-				"叙利亚第一骑 神圣风暴 暗皮蛮兵 Crit -2536 (Physical)", -- [39]
-				"暗皮蛮兵 肉搏 叙利亚第一骑 Miss (1)", -- [40]
-				"叙利亚第一骑 神圣风暴 暗皮蛮兵 Crit -2365 (Physical)", -- [41]
-				"叙利亚第一骑 神圣风暴 查尔斯三世 Tick +113", -- [42]
-				"叙利亚第一骑 命令审判 暗皮蛮兵 Hit -594 (Holy)", -- [43]
-				"暗皮蛮兵 肉搏 叙利亚第一骑 Miss (1)", -- [44]
-				"叙利亚第一骑 肉搏 暗皮蛮兵 Hit -1264 (Physical)", -- [45]
-				"叙利亚第一骑 命令圣印 暗皮战士 Hit -407 (Holy)", -- [46]
-				"暗皮战士 肉搏 叙利亚第一骑 Hit -11 (Physical)", -- [47]
-				"叙利亚第一骑 十字军打击 暗皮战士 Crit -2007 (Physical)", -- [48]
-				"Environment Falling 叙利亚第一骑 Hit -4913 (Physical)", -- [49]
-				"叙利亚第一骑 圣光闪现 查尔斯三世 Hit +1271 (933 过量治疗)", -- [50]
-			},
-			["LastEventIncoming"] = {
-				false, -- [1]
-				true, -- [2]
-				true, -- [3]
-				false, -- [4]
-				false, -- [5]
-				false, -- [6]
-				true, -- [7]
-				false, -- [8]
-				false, -- [9]
-				false, -- [10]
-				true, -- [11]
-				false, -- [12]
-				false, -- [13]
-				true, -- [14]
-				false, -- [15]
-				false, -- [16]
-				false, -- [17]
-				false, -- [18]
-				false, -- [19]
-				false, -- [20]
-				true, -- [21]
-				false, -- [22]
-				true, -- [23]
-				false, -- [24]
-				true, -- [25]
-				true, -- [26]
-				false, -- [27]
-				true, -- [28]
-				true, -- [29]
-				false, -- [30]
-				true, -- [31]
-				false, -- [32]
-				false, -- [33]
-				false, -- [34]
-				false, -- [35]
-				false, -- [36]
-				false, -- [37]
-				false, -- [38]
-				false, -- [39]
-				true, -- [40]
-				false, -- [41]
-				false, -- [42]
-				false, -- [43]
-				true, -- [44]
-				false, -- [45]
-				false, -- [46]
-				true, -- [47]
-				false, -- [48]
-				true, -- [49]
-				false, -- [50]
-			},
-			["Name"] = "叙利亚第一骑",
-			["LastHealTime"] = 47106.785,
-			["TimeLast"] = {
-				["TimeHeal"] = 47106.246,
-				["OVERALL"] = 47119.249,
-				["DamageTaken"] = 47119.249,
-				["HOT_Time"] = 47106.246,
-				["HealingTaken"] = 47106.246,
-				["Overhealing"] = 47049.249,
-				["TimeDamage"] = 47106.246,
-				["Healing"] = 47106.246,
-				["ManaGain"] = 47118.249,
-				["ActiveTime"] = 47106.246,
-				["Damage"] = 47106.246,
-			},
-			["LastEventHealthMax"] = {
-				10127, -- [1]
-				10127, -- [2]
-				10127, -- [3]
-				10127, -- [4]
-				10127, -- [5]
-				10127, -- [6]
-				10127, -- [7]
-				10127, -- [8]
-				10127, -- [9]
-				10127, -- [10]
-				10127, -- [11]
-				10127, -- [12]
-				10127, -- [13]
-				10127, -- [14]
-				10127, -- [15]
-				10127, -- [16]
-				10127, -- [17]
-				10127, -- [18]
-				10127, -- [19]
-				10127, -- [20]
-				10127, -- [21]
-				10127, -- [22]
-				10127, -- [23]
-				10127, -- [24]
-				10127, -- [25]
-				10127, -- [26]
-				10127, -- [27]
-				10127, -- [28]
-				10127, -- [29]
-				10127, -- [30]
-				10127, -- [31]
-				10127, -- [32]
-				10127, -- [33]
-				10127, -- [34]
-				10127, -- [35]
-				10127, -- [36]
-				10127, -- [37]
-				10127, -- [38]
-				10127, -- [39]
-				10127, -- [40]
-				10127, -- [41]
-				10127, -- [42]
-				10127, -- [43]
-				10127, -- [44]
-				10127, -- [45]
-				10127, -- [46]
-				10127, -- [47]
-				10127, -- [48]
-				10127, -- [49]
-				10127, -- [50]
-			},
-			["LastActive"] = 47119.249,
+			["LastDamageTaken"] = 97,
+			["UnitLockout"] = 45191.193,
+			["LastAbility"] = 52289.367,
 		},
-		["迦顿男爵"] = {
-			["GUID"] = "Creature-0-4537-409-14129-12056-000020715C",
-			["TimeLast"] = {
-				["ActiveTime"] = 707.549,
-				["TimeDamage"] = 707.549,
-				["OVERALL"] = 707.549,
-				["DOT_Time"] = 707.549,
-				["Damage"] = 707.549,
-			},
-			["LastEventType"] = {
-				"DAMAGE", -- [1]
-				"DAMAGE", -- [2]
-				"DAMAGE", -- [3]
-				"DAMAGE", -- [4]
-				"DAMAGE", -- [5]
-				"DAMAGE", -- [6]
-			},
-			["TimeWindows"] = {
-				["Damage"] = {
-					188, -- [1]
-				},
-				["TimeDamage"] = {
-					9, -- [1]
-				},
-				["DOT_Time"] = {
-					18, -- [1]
-				},
-				["ActiveTime"] = {
-					9, -- [1]
-				},
-			},
-			["enClass"] = "MOB",
-			["level"] = -1,
-			["LastFightIn"] = 556,
-			["type"] = "Boss",
-			["FightsSaved"] = 5,
-			["Owner"] = false,
-			["LastActive"] = 707.549,
-			["NextEventNum"] = 7,
-			["LastDamageTime"] = 708.3820000000001,
-			["LastEvents"] = {
-				"迦顿男爵 点燃法力 (伤害/跳) 晨曦微暖 Tick -42 (Fire)", -- [1]
-				"迦顿男爵 点燃法力 (伤害/跳) 晨曦微暖 Tick -20 (Fire)", -- [2]
-				"迦顿男爵 点燃法力 (伤害/跳) 晨曦微暖 Tick -43 (Fire)", -- [3]
-				"迦顿男爵 点燃法力 (伤害/跳) 晨曦微暖 Tick -20 (Fire)", -- [4]
-				"迦顿男爵 点燃法力 (伤害/跳) 晨曦微暖 Tick -42 (Fire)", -- [5]
-				"迦顿男爵 点燃法力 (伤害/跳) 晨曦微暖 Tick -21 (Fire)", -- [6]
-			},
-			["Name"] = "迦顿男爵",
-			["LastEventTimes"] = {
-				693.303, -- [1]
-				696.35, -- [2]
-				699.374, -- [3]
-				702.34, -- [4]
-				705.4540000000001, -- [5]
-				708.3820000000001, -- [6]
-			},
-			["Fights"] = {
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["DOTs"] = {
-						["点燃法力 (伤害/跳)"] = {
-							["Details"] = {
-								["晨曦微暖"] = {
-									["count"] = 18,
-								},
-							},
-							["amount"] = 18,
-						},
-					},
-					["TimeSpent"] = {
-						["晨曦微暖"] = {
-							["Details"] = {
-								["点燃法力 (伤害/跳)"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-					},
-					["Attacks"] = {
-						["点燃法力 (伤害/跳)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 43,
-									["min"] = 20,
-									["count"] = 6,
-									["amount"] = 188,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 188,
-						},
-					},
-					["ElementDone"] = {
-						["Fire"] = 188,
-					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["DamagedWho"] = {
-						["晨曦微暖"] = {
-							["Details"] = {
-								["点燃法力 (伤害/跳)"] = {
-									["count"] = 188,
-								},
-							},
-							["amount"] = 188,
-						},
-					},
-					["ActiveTime"] = 9,
-					["TimeDamaging"] = {
-						["晨曦微暖"] = {
-							["Details"] = {
-								["点燃法力 (伤害/跳)"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-					},
-					["TimeDamage"] = 9,
-					["DOT_Time"] = 18,
-					["Damage"] = 188,
-				},
-			},
-			["LastEventIncoming"] = {
-				false, -- [1]
-				false, -- [2]
-				false, -- [3]
-				false, -- [4]
-				false, -- [5]
-				false, -- [6]
-			},
-			["UnitLockout"] = 707.549,
-			["LastAbility"] = 54308.047,
-		},
-		["查尔斯三世"] = {
-			["GUID"] = "Player-4778-0516167D",
+		["南宫浮生"] = {
+			["GUID"] = "Player-4778-0517DA02",
 			["LastEventHealth"] = {
-				174, -- [1]
-				174, -- [2]
-				412, -- [3]
-				412, -- [4]
-				412, -- [5]
-				412, -- [6]
-				412, -- [7]
-				412, -- [8]
-				412, -- [9]
-				412, -- [10]
-				412, -- [11]
-				412, -- [12]
-				412, -- [13]
-				400, -- [14]
-				400, -- [15]
-				412, -- [16]
-				412, -- [17]
-				412, -- [18]
-				412, -- [19]
-				412, -- [20]
-				412, -- [21]
-				412, -- [22]
-				412, -- [23]
-				412, -- [24]
-				412, -- [25]
-				412, -- [26]
-				412, -- [27]
-				380, -- [28]
-				381, -- [29]
-				381, -- [30]
-				381, -- [31]
-				363, -- [32]
-				363, -- [33]
-				363, -- [34]
-				392, -- [35]
-				375, -- [36]
-				375, -- [37]
-				341, -- [38]
-				302, -- [39]
-				412, -- [40]
-				412, -- [41]
-				412, -- [42]
-				379, -- [43]
-				291, -- [44]
-				257, -- [45]
-				257, -- [46]
-				257, -- [47]
-				257, -- [48]
-				174, -- [49]
-				174, -- [50]
+				958, -- [1]
+				958, -- [2]
+				958, -- [3]
+				997, -- [4]
+				1072, -- [5]
+				1072, -- [6]
+				1067, -- [7]
+				1067, -- [8]
+				1067, -- [9]
+				1067, -- [10]
+				1067, -- [11]
+				1072, -- [12]
+				1072, -- [13]
+				1072, -- [14]
+				1072, -- [15]
+				1072, -- [16]
+				1072, -- [17]
+				1072, -- [18]
+				1072, -- [19]
+				1072, -- [20]
+				982, -- [21]
+				982, -- [22]
+				982, -- [23]
+				982, -- [24]
+				982, -- [25]
+				982, -- [26]
+				982, -- [27]
+				982, -- [28]
+				982, -- [29]
+				982, -- [30]
+				982, -- [31]
+				982, -- [32]
+				982, -- [33]
+				808, -- [34]
+				864, -- [35]
+				864, -- [36]
+				864, -- [37]
+				864, -- [38]
+				864, -- [39]
+				864, -- [40]
+				864, -- [41]
+				864, -- [42]
+				864, -- [43]
+				864, -- [44]
+				903, -- [45]
+				903, -- [46]
+				903, -- [47]
+				903, -- [48]
+				903, -- [49]
+				903, -- [50]
 			},
-			["LastAttackedBy"] = "暗滩祭司",
+			["LastAttackedBy"] = "迪菲亚罪犯",
 			["LastEventType"] = {
-				"DAMAGE", -- [1]
+				"HEAL", -- [1]
 				"DAMAGE", -- [2]
 				"DAMAGE", -- [3]
-				"DAMAGE", -- [4]
-				"DAMAGE", -- [5]
-				"DAMAGE", -- [6]
+				"HEAL", -- [4]
+				"HEAL", -- [5]
+				"HEAL", -- [6]
 				"DAMAGE", -- [7]
 				"DAMAGE", -- [8]
 				"DAMAGE", -- [9]
 				"DAMAGE", -- [10]
 				"DAMAGE", -- [11]
 				"DAMAGE", -- [12]
-				"DAMAGE", -- [13]
+				"HEAL", -- [13]
 				"DAMAGE", -- [14]
 				"DAMAGE", -- [15]
 				"DAMAGE", -- [16]
@@ -5730,7 +1456,7 @@ RecountPerCharDB = {
 				"DAMAGE", -- [25]
 				"DAMAGE", -- [26]
 				"DAMAGE", -- [27]
-				"HEAL", -- [28]
+				"DAMAGE", -- [28]
 				"DAMAGE", -- [29]
 				"DAMAGE", -- [30]
 				"DAMAGE", -- [31]
@@ -5746,174 +1472,296 @@ RecountPerCharDB = {
 				"DAMAGE", -- [41]
 				"DAMAGE", -- [42]
 				"DAMAGE", -- [43]
-				"DAMAGE", -- [44]
+				"HEAL", -- [44]
 				"DAMAGE", -- [45]
 				"DAMAGE", -- [46]
 				"DAMAGE", -- [47]
 				"DAMAGE", -- [48]
 				"DAMAGE", -- [49]
-				"DAMAGE", -- [50]
+				"HEAL", -- [50]
 			},
 			["TimeWindows"] = {
 				["TimeHeal"] = {
-					25, -- [1]
+					94.15, -- [1]
+				},
+				["Dispelled"] = {
+					2, -- [1]
+				},
+				["Dispels"] = {
+					2, -- [1]
 				},
 				["Healing"] = {
-					322, -- [1]
+					2030, -- [1]
 				},
 				["DamageTaken"] = {
-					18409, -- [1]
-				},
-				["Absorbs"] = {
-					504, -- [1]
+					23350, -- [1]
 				},
 				["DeathCount"] = {
-					4, -- [1]
+					1, -- [1]
 				},
-				["ActiveTime"] = {
-					3939.549999999998, -- [1]
-				},
-				["TimeDamage"] = {
-					3914.549999999998, -- [1]
+				["Overhealing"] = {
+					1131, -- [1]
 				},
 				["HealingTaken"] = {
-					1050, -- [1]
+					21713, -- [1]
+				},
+				["HOT_Time"] = {
+					483, -- [1]
+				},
+				["TimeDamage"] = {
+					459.1399999999999, -- [1]
+				},
+				["ActiveTime"] = {
+					553.2899999999993, -- [1]
 				},
 				["ManaGain"] = {
-					350, -- [1]
+					3586, -- [1]
 				},
 				["DOT_Time"] = {
-					1154, -- [1]
+					2526, -- [1]
 				},
 				["Damage"] = {
-					163645, -- [1]
+					53987, -- [1]
 				},
 			},
-			["enClass"] = "MAGE",
-			["unit"] = true,
-			["LastActive"] = 55876.598,
+			["enClass"] = "PALADIN",
+			["unit"] = "南宫浮生",
+			["LastActive"] = 45619.194,
 			["LastEventHealthMax"] = {
-				412, -- [1]
-				412, -- [2]
-				412, -- [3]
-				412, -- [4]
-				412, -- [5]
-				412, -- [6]
-				412, -- [7]
-				412, -- [8]
-				412, -- [9]
-				412, -- [10]
-				412, -- [11]
-				412, -- [12]
-				412, -- [13]
-				412, -- [14]
-				412, -- [15]
-				412, -- [16]
-				412, -- [17]
-				412, -- [18]
-				412, -- [19]
-				412, -- [20]
-				412, -- [21]
-				412, -- [22]
-				412, -- [23]
-				412, -- [24]
-				412, -- [25]
-				412, -- [26]
-				412, -- [27]
-				412, -- [28]
-				412, -- [29]
-				412, -- [30]
-				412, -- [31]
-				412, -- [32]
-				412, -- [33]
-				412, -- [34]
-				412, -- [35]
-				412, -- [36]
-				412, -- [37]
-				412, -- [38]
-				412, -- [39]
-				412, -- [40]
-				412, -- [41]
-				412, -- [42]
-				412, -- [43]
-				412, -- [44]
-				412, -- [45]
-				412, -- [46]
-				412, -- [47]
-				412, -- [48]
-				412, -- [49]
-				412, -- [50]
+				1072, -- [1]
+				1072, -- [2]
+				1072, -- [3]
+				1072, -- [4]
+				1072, -- [5]
+				1072, -- [6]
+				1072, -- [7]
+				1072, -- [8]
+				1072, -- [9]
+				1072, -- [10]
+				1072, -- [11]
+				1072, -- [12]
+				1072, -- [13]
+				1072, -- [14]
+				1072, -- [15]
+				1072, -- [16]
+				1072, -- [17]
+				1072, -- [18]
+				1072, -- [19]
+				1072, -- [20]
+				1072, -- [21]
+				1072, -- [22]
+				1072, -- [23]
+				1072, -- [24]
+				1072, -- [25]
+				1072, -- [26]
+				1072, -- [27]
+				1072, -- [28]
+				1072, -- [29]
+				1072, -- [30]
+				1072, -- [31]
+				1072, -- [32]
+				1072, -- [33]
+				1072, -- [34]
+				1072, -- [35]
+				1072, -- [36]
+				1072, -- [37]
+				1072, -- [38]
+				1072, -- [39]
+				1072, -- [40]
+				1072, -- [41]
+				1072, -- [42]
+				1072, -- [43]
+				1072, -- [44]
+				1072, -- [45]
+				1072, -- [46]
+				1072, -- [47]
+				1072, -- [48]
+				1072, -- [49]
+				1072, -- [50]
 			},
-			["level"] = 1,
-			["LastDamageAbility"] = "腐蚀术 (伤害/跳)",
-			["LastFightIn"] = 908,
-			["TimeLast"] = {
-				["TimeHeal"] = 5171.525000000001,
-				["OVERALL"] = 5260.523,
-				["DamageTaken"] = 5171.525000000001,
-				["DeathCount"] = 46565.002,
-				["Absorbs"] = 5171.525000000001,
-				["HealingTaken"] = 5171.525000000001,
-				["TimeDamage"] = 5260.523,
-				["ActiveTime"] = 5260.523,
-				["Healing"] = 4839.522,
-				["ManaGain"] = 1628.526,
-				["DOT_Time"] = 47948.011,
-				["Damage"] = 5260.523,
-			},
+			["level"] = 27,
+			["LastDamageAbility"] = "肉搏",
+			["LastFightIn"] = 19,
+			["LastHealTime"] = 45326.765,
 			["type"] = "Ungrouped",
 			["FightsSaved"] = 5,
+			["LastDamageTaken"] = 62,
+			["TimeLast"] = {
+				["TimeHeal"] = 45326.192,
+				["Dispelled"] = 45080.198,
+				["Dispels"] = 45080.198,
+				["DeathCount"] = 44922.195,
+				["OVERALL"] = 45610.197,
+				["DamageTaken"] = 45606.197,
+				["Overhealing"] = 45329.192,
+				["ActiveTime"] = 45610.197,
+				["HealingTaken"] = 45610.197,
+				["HOT_Time"] = 45329.192,
+				["TimeDamage"] = 45610.197,
+				["Healing"] = 45326.192,
+				["ManaGain"] = 45610.197,
+				["DOT_Time"] = 45607.194,
+				["Damage"] = 45610.197,
+			},
+			["Owner"] = false,
+			["Name"] = "南宫浮生",
+			["NextEventNum"] = 7,
+			["LastDamageTime"] = 45610.991,
+			["LastEvents"] = {
+				"得撸艺 愈合 南宫浮生 Tick +39", -- [1]
+				"南宫浮生 肉搏 迪菲亚叛军 Hit -84 (Physical)", -- [2]
+				"南宫浮生 命令圣印 迪菲亚叛军 Hit -41 (Holy)", -- [3]
+				"得撸艺 愈合 南宫浮生 Tick +38", -- [4]
+				"得撸艺 愈合 南宫浮生 Tick +39 (39 过量治疗)", -- [5]
+				"得撸艺 愈合 南宫浮生 Tick +39 (39 过量治疗)", -- [6]
+				"南宫浮生 奉献 (伤害/跳) 迪菲亚叛军 Tick -18 (Holy)", -- [7]
+				"南宫浮生 奉献 (伤害/跳) 迪菲亚叛军 Tick -18 (Holy)", -- [8]
+				"南宫浮生 奉献 (伤害/跳) 迪菲亚罪犯 Tick -18 (Holy)", -- [9]
+				"南宫浮生 奉献 (伤害/跳) 迪菲亚叛军 Tick -18 (Holy)", -- [10]
+				"迪菲亚罪犯 肉搏 南宫浮生 Miss (1)", -- [11]
+				"迪菲亚叛军 肉搏 南宫浮生 Dodge (1)", -- [12]
+				"得撸艺 愈合 南宫浮生 Tick +39 (39 过量治疗)", -- [13]
+				"南宫浮生 奉献 (伤害/跳) 迪菲亚叛军 Tick -18 (Holy)", -- [14]
+				"南宫浮生 奉献 (伤害/跳) 迪菲亚叛军 Tick -18 (Holy)", -- [15]
+				"南宫浮生 奉献 (伤害/跳) 迪菲亚罪犯 Tick -18 (Holy)", -- [16]
+				"南宫浮生 奉献 (伤害/跳) 迪菲亚叛军 Tick -18 (Holy)", -- [17]
+				"迪菲亚叛军 肉搏 南宫浮生 Hit -90 (Physical)", -- [18]
+				"南宫浮生 荆棘术 迪菲亚叛军 Hit -9 (Nature)", -- [19]
+				"南宫浮生 惩戒光环 迪菲亚叛军 Hit -18 (Holy)", -- [20]
+				"迪菲亚罪犯 肉搏 南宫浮生 Hit -29 (Physical)", -- [21]
+				"南宫浮生 荆棘术 迪菲亚罪犯 Hit -9 (Nature)", -- [22]
+				"南宫浮生 惩戒光环 迪菲亚罪犯 Resist (Holy)", -- [23]
+				"迪菲亚叛军 肉搏 南宫浮生 Hit -83 (Physical)", -- [24]
+				"南宫浮生 荆棘术 迪菲亚叛军 Hit -10 (Nature)", -- [25]
+				"南宫浮生 惩戒光环 迪菲亚叛军 Hit -18 (Holy)", -- [26]
+				"南宫浮生 奉献 (伤害/跳) 迪菲亚叛军 Tick -18 (Holy)", -- [27]
+				"南宫浮生 奉献 (伤害/跳) 迪菲亚叛军 Tick -18 (Holy)", -- [28]
+				"南宫浮生 奉献 (伤害/跳) 迪菲亚罪犯 Tick -17 (Holy)", -- [29]
+				"南宫浮生 奉献 (伤害/跳) 迪菲亚叛军 Tick -18 (Holy)", -- [30]
+				"迪菲亚罪犯 肉搏 南宫浮生 Hit -62 (Physical)", -- [31]
+				"南宫浮生 荆棘术 迪菲亚罪犯 Hit -9 (Nature)", -- [32]
+				"南宫浮生 惩戒光环 迪菲亚罪犯 Hit -18 (Holy)", -- [33]
+				"得撸艺 回春术 南宫浮生 Tick +56", -- [34]
+				"南宫浮生 奉献 (伤害/跳) 迪菲亚叛军 Tick -18 (Holy)", -- [35]
+				"南宫浮生 奉献 (伤害/跳) 迪菲亚叛军 Tick -18 (Holy)", -- [36]
+				"南宫浮生 奉献 (伤害/跳) 迪菲亚叛军 Tick -17 (Holy)", -- [37]
+				"南宫浮生 奉献 (伤害/跳) 迪菲亚罪犯 Tick -18 (Holy)", -- [38]
+				"迪菲亚叛军 肉搏 南宫浮生 Miss (1)", -- [39]
+				"南宫浮生 肉搏 迪菲亚罪犯 Hit -83 (Physical)", -- [40]
+				"南宫浮生 命令圣印 迪菲亚叛军 Hit -45 (Holy)", -- [41]
+				"南宫浮生 命令圣印 迪菲亚叛军 Hit -41 (Holy)", -- [42]
+				"南宫浮生 命令圣印 迪菲亚罪犯 Hit -47 (Holy)", -- [43]
+				"得撸艺 愈合 南宫浮生 Tick +39", -- [44]
+				"南宫浮生 奉献 (伤害/跳) 迪菲亚叛军 Tick -18 (Holy)", -- [45]
+				"南宫浮生 奉献 (伤害/跳) 迪菲亚叛军 Tick -18 (Holy)", -- [46]
+				"南宫浮生 奉献 (伤害/跳) 迪菲亚叛军 Tick -18 (Holy)", -- [47]
+				"迪菲亚叛军 肉搏 南宫浮生 Miss (1)", -- [48]
+				"南宫浮生 命令审判 迪菲亚叛军 Hit -39 (Holy)", -- [49]
+				"得撸艺 回春术 南宫浮生 Tick +55", -- [50]
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				false, -- [2]
+				false, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				true, -- [18]
+				false, -- [19]
+				false, -- [20]
+				true, -- [21]
+				false, -- [22]
+				false, -- [23]
+				true, -- [24]
+				false, -- [25]
+				false, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+				false, -- [30]
+				true, -- [31]
+				false, -- [32]
+				false, -- [33]
+				true, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+				true, -- [39]
+				false, -- [40]
+				false, -- [41]
+				false, -- [42]
+				false, -- [43]
+				true, -- [44]
+				false, -- [45]
+				false, -- [46]
+				false, -- [47]
+				true, -- [48]
+				false, -- [49]
+				true, -- [50]
+			},
 			["LastEventTimes"] = {
-				5133.603, -- [1]
-				5136.208000000001, -- [2]
-				5157.228, -- [3]
-				5159.34, -- [4]
-				5160.249, -- [5]
-				5161.451, -- [6]
-				5163.178, -- [7]
-				5166.248000000001, -- [8]
-				5169.238, -- [9]
-				5170.195, -- [10]
-				5172.101, -- [11]
-				5172.252, -- [12]
-				5172.252, -- [13]
-				5174.004, -- [14]
-				5175.769, -- [15]
-				5185.871, -- [16]
-				5187.894, -- [17]
-				5189.791, -- [18]
-				5191.566, -- [19]
-				5198.357, -- [20]
-				5200.787, -- [21]
-				5202.612, -- [22]
-				5204.474, -- [23]
-				5253.654, -- [24]
-				5255.817, -- [25]
-				5257.756, -- [26]
-				5260.74, -- [27]
-				4856.848, -- [28]
-				4857.650000000001, -- [29]
-				4857.650000000001, -- [30]
-				4858.748000000001, -- [31]
-				4859.155, -- [32]
-				4859.155, -- [33]
-				4859.916, -- [34]
-				4862.26, -- [35]
-				4863.692, -- [36]
-				4866.296, -- [37]
-				4868.203, -- [38]
-				4869.096000000001, -- [39]
-				5118.921, -- [40]
-				5120.739000000001, -- [41]
-				5122.416, -- [42]
-				5123.785, -- [43]
-				5124.613, -- [44]
-				5124.717000000001, -- [45]
-				5124.717000000001, -- [46]
-				5126.678, -- [47]
-				5126.678, -- [48]
-				5126.823, -- [49]
-				5132.301, -- [50]
+				45610.931, -- [1]
+				45610.991, -- [2]
+				45610.991, -- [3]
+				45613.92, -- [4]
+				45616.93, -- [5]
+				45619.932, -- [6]
+				45604.192, -- [7]
+				45604.192, -- [8]
+				45604.192, -- [9]
+				45604.192, -- [10]
+				45604.25, -- [11]
+				45604.746, -- [12]
+				45604.934, -- [13]
+				45605.194, -- [14]
+				45605.194, -- [15]
+				45605.194, -- [16]
+				45605.194, -- [17]
+				45605.658, -- [18]
+				45605.665, -- [19]
+				45605.665, -- [20]
+				45606.06, -- [21]
+				45606.073, -- [22]
+				45606.073, -- [23]
+				45606.131, -- [24]
+				45606.138, -- [25]
+				45606.138, -- [26]
+				45606.182, -- [27]
+				45606.182, -- [28]
+				45606.189, -- [29]
+				45606.189, -- [30]
+				45606.261, -- [31]
+				45606.276, -- [32]
+				45606.276, -- [33]
+				45607.076, -- [34]
+				45607.194, -- [35]
+				45607.194, -- [36]
+				45607.194, -- [37]
+				45607.194, -- [38]
+				45607.34, -- [39]
+				45607.383, -- [40]
+				45607.383, -- [41]
+				45607.383, -- [42]
+				45607.383, -- [43]
+				45607.926, -- [44]
+				45608.19, -- [45]
+				45608.19, -- [46]
+				45608.19, -- [47]
+				45608.735, -- [48]
+				45609.922, -- [49]
+				45610.072, -- [50]
 			},
 			["Fights"] = {
 				["LastFightData"] = {
@@ -6124,300 +1972,81 @@ RecountPerCharDB = {
 				},
 				["OverallData"] = {
 					["DOTs"] = {
-						["火球术 (伤害/跳)"] = {
+						["奉献 (伤害/跳)"] = {
 							["Details"] = {
-								["雪怪"] = {
-									["count"] = 18,
+								["迪菲亚狱友"] = {
+									["count"] = 927,
 								},
-								["黑木图腾师"] = {
-									["count"] = 6,
+								["迪菲亚囚徒"] = {
+									["count"] = 441,
 								},
-								["坑道鼠征粮官"] = {
-									["count"] = 4,
-								},
-								["碎石怪击颅者"] = {
-									["count"] = 60,
-								},
-								["被诅咒的贵族"] = {
-									["count"] = 18,
-								},
-								["冬狼"] = {
-									["count"] = 10,
-								},
-								["黑木探路者"] = {
-									["count"] = 16,
-								},
-								["霜鬃暗法师"] = {
-									["count"] = 2,
-								},
-								["莫克迪普"] = {
-									["count"] = 14,
-								},
-								["坑道鼠歹徒"] = {
-									["count"] = 8,
-								},
-								["灰斑蓟熊"] = {
-									["count"] = 26,
-								},
-								["霜鬃雪行者"] = {
-									["count"] = 8,
-								},
-								["坑道鼠狗头人"] = {
-									["count"] = 4,
-								},
-								["暗礁蟹"] = {
-									["count"] = 30,
-								},
-								["小潮行蟹"] = {
-									["count"] = 16,
-								},
-								["霜鬃剥皮者"] = {
-									["count"] = 6,
-								},
-								["老年深海蛇颈龙"] = {
-									["count"] = 4,
-								},
-								["石腭断骨者"] = {
-									["count"] = 18,
-								},
-								["石腭击颅者"] = {
-									["count"] = 24,
-								},
-								["石腭穴居人"] = {
-									["count"] = 4,
-								},
-								["坑道鼠掘地工"] = {
-									["count"] = 18,
-								},
-								["麻疯侏儒"] = {
-									["count"] = 28,
-								},
-								["黑海岸蛇颈龙"] = {
-									["count"] = 22,
-								},
-								["小型峭壁野猪"] = {
-									["count"] = 6,
-								},
-								["石腭袭击者"] = {
-									["count"] = 2,
-								},
-								["灰雾智者"] = {
-									["count"] = 22,
-								},
-								["霜鬃先知"] = {
-									["count"] = 2,
-								},
-								["雪狼"] = {
-									["count"] = 2,
-								},
-								["灰雾滩行者"] = {
-									["count"] = 18,
-								},
-								["灰雾潮行者"] = {
-									["count"] = 18,
-								},
-								["峭壁野猪"] = {
-									["count"] = 24,
-								},
-								["蓬毛幼狼"] = {
-									["count"] = 2,
-								},
-								["碎石怪先知"] = {
-									["count"] = 32,
-								},
-								["老黑熊"] = {
-									["count"] = 18,
-								},
-								["黑熊幼崽"] = {
-									["count"] = 2,
-								},
-								["山猪"] = {
-									["count"] = 12,
-								},
-								["霜鬃猎头者"] = {
-									["count"] = 20,
-								},
-								["硬壳潮行蟹"] = {
-									["count"] = 12,
-								},
-								["黑幕追踪者"] = {
-									["count"] = 4,
-								},
-								["暮光信徒"] = {
-									["count"] = 12,
-								},
-								["哀嚎的贵族"] = {
-									["count"] = 4,
-								},
-								["冰须"] = {
-									["count"] = 6,
-								},
-								["砂石地占师"] = {
-									["count"] = 14,
-								},
-								["霜鬃巨魔"] = {
-									["count"] = 6,
-								},
-								["砂石斥候"] = {
-									["count"] = 12,
-								},
-								["戴瑟雷萨特"] = {
-									["count"] = 2,
-								},
-								["碎石怪斥候"] = {
-									["count"] = 42,
-								},
-								["黑木风语者"] = {
-									["count"] = 4,
-								},
-								["雪怪幼崽"] = {
-									["count"] = 6,
-								},
-								["坑道鼠地卜师"] = {
-									["count"] = 4,
-								},
-								["老峭壁野猪"] = {
-									["count"] = 6,
-								},
-								["碎石穴居人"] = {
-									["count"] = 38,
-								},
-								["冰爪熊"] = {
-									["count"] = 26,
-								},
-								["霜鬃巨魔幼崽"] = {
-									["count"] = 16,
-								},
-								["大峭壁野猪"] = {
-									["count"] = 10,
-								},
-								["恶灵劣魔"] = {
-									["count"] = 22,
-								},
-								["冷酷的格瑞克尼尔"] = {
-									["count"] = 2,
-								},
-								["坑道鼠斥候"] = {
-									["count"] = 4,
-								},
-								["月夜猛虎"] = {
-									["count"] = 20,
-								},
-								["雷鳞御浪者"] = {
-									["count"] = 12,
-								},
-								["野生劣魔"] = {
-									["count"] = 24,
-								},
-								["癞爪"] = {
-									["count"] = 4,
-								},
-								["挣扎的贵族"] = {
-									["count"] = 26,
-								},
-								["狂暴的月夜枭兽"] = {
-									["count"] = 12,
-								},
-								["森林潜伏者"] = {
-									["count"] = 18,
-								},
-								["壮实的石腭穴居人"] = {
-									["count"] = 2,
-								},
-								["灰雾战士"] = {
-									["count"] = 16,
-								},
-								["石巨兽"] = {
-									["count"] = 16,
-								},
-								["灰雾撒网者"] = {
-									["count"] = 2,
-								},
-								["灰雾先知"] = {
-									["count"] = 6,
-								},
-								["灰雾猎人"] = {
-									["count"] = 16,
-								},
-								["破损的傀儡"] = {
-									["count"] = 8,
-								},
-								["雪豹"] = {
-									["count"] = 22,
-								},
-								["暗滩狂热者"] = {
+								["哈姆霍克"] = {
 									["count"] = 36,
 								},
-								["雷鳞海妖"] = {
-									["count"] = 26,
+								["巴基尔·斯瑞德"] = {
+									["count"] = 24,
 								},
-								["狂暴蓟熊"] = {
-									["count"] = 58,
+								["迪菲亚叛军"] = {
+									["count"] = 522,
 								},
-								["暮光暴徒"] = {
-									["count"] = 26,
+								["迪克斯特·瓦德"] = {
+									["count"] = 18,
 								},
-								["暗滩精兵"] = {
-									["count"] = 8,
+								["卡姆·深怒"] = {
+									["count"] = 15,
+								},
+								["迪菲亚俘虏"] = {
+									["count"] = 333,
+								},
+								["迪菲亚罪犯"] = {
+									["count"] = 210,
 								},
 							},
-							["amount"] = 1154,
+							["amount"] = 2526,
 						},
 					},
-					["ElementDoneResist"] = {
-						["Shadow"] = 241,
-						["Fire"] = 10,
-					},
 					["ElementHitsTaken"] = {
-						["Shadow"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Tick"] = {
+								["Hit"] = {
+									["count"] = 6,
+								},
+								["Dodge"] = {
 									["count"] = 1,
 								},
-								["Absorb"] = {
-									["count"] = 7,
-								},
-								["Hit"] = {
-									["count"] = 9,
+								["Tick"] = {
+									["count"] = 65,
 								},
 								["Miss"] = {
-									["count"] = 2,
+									["count"] = 6,
+								},
+								["Parry"] = {
+									["count"] = 4,
 								},
 							},
-							["amount"] = 19,
+							["amount"] = 82,
 						},
 						["Melee"] = {
 							["Details"] = {
-								["Absorb"] = {
-									["count"] = 9,
-								},
 								["Hit"] = {
-									["count"] = 524,
+									["count"] = 449,
+								},
+								["Miss"] = {
+									["count"] = 44,
 								},
 								["Dodge"] = {
-									["count"] = 13,
+									["count"] = 48,
 								},
 								["Crit"] = {
-									["count"] = 30,
+									["count"] = 20,
 								},
-								["Miss"] = {
-									["count"] = 28,
-								},
-							},
-							["amount"] = 604,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 8,
+								["Parry"] = {
+									["count"] = 36,
 								},
 							},
-							["amount"] = 9,
+							["amount"] = 597,
 						},
-						["Frost"] = {
+						["Nature"] = {
 							["Details"] = {
 								["Hit"] = {
 									["count"] = 1,
@@ -6425,925 +2054,428 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1,
 						},
-						["Fire"] = {
+					},
+					["WhoHealed"] = {
+						["得撸艺"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 15,
+								["回春术"] = {
+									["count"] = 4905,
+								},
+								["治疗之触"] = {
+									["count"] = 5894,
+								},
+								["愈合"] = {
+									["count"] = 8655,
 								},
 							},
-							["amount"] = 15,
+							["amount"] = 19454,
 						},
-						["Physical"] = {
+						["南宫浮生"] = {
 							["Details"] = {
-								["Miss"] = {
-									["count"] = 6,
-								},
-								["Hit"] = {
-									["count"] = 95,
+								["圣光审判"] = {
+									["count"] = 1766,
 								},
 							},
-							["amount"] = 101,
+							["amount"] = 1766,
 						},
-						["Nature"] = {
+						["三自四有"] = {
 							["Details"] = {
-								["Absorb"] = {
-									["count"] = 2,
+								["圣光审判"] = {
+									["count"] = 42,
 								},
-								["Miss"] = {
-									["count"] = 4,
+								["圣光闪现"] = {
+									["count"] = 181,
 								},
-								["Hit"] = {
-									["count"] = 41,
+								["圣光术"] = {
+									["count"] = 270,
 								},
 							},
-							["amount"] = 47,
+							["amount"] = 493,
 						},
 					},
-					["HealedWho"] = {
-						["查尔斯三世"] = {
-							["Details"] = {
-								["法力护盾"] = {
-									["count"] = 504,
-								},
-								["治疗药水"] = {
-									["count"] = 322,
-								},
-							},
-							["amount"] = 826,
-						},
-					},
-					["Absorbs"] = 504,
-					["DeathCount"] = 4,
+					["DeathCount"] = 1,
+					["HOT_Time"] = 483,
 					["ElementTaken"] = {
-						["Shadow"] = 931,
-						["Melee"] = 11696,
-						["Holy"] = 358,
-						["Frost"] = 10,
-						["Fire"] = 711,
-						["Physical"] = 2928,
-						["Nature"] = 1775,
+						["Physical"] = 1003,
+						["Melee"] = 22243,
+						["Nature"] = 104,
 					},
-					["DOT_Time"] = 1154,
-					["Damage"] = 163645,
-					["TimeHeal"] = 25,
-					["ShieldedWho"] = {
-						["查尔斯三世"] = {
+					["HOTs"] = {
+						["圣光审判"] = {
 							["Details"] = {
-								["法力护盾"] = {
-									["count"] = 3,
+								["得撸艺"] = {
+									["count"] = 12,
+								},
+								["南宫浮生"] = {
+									["count"] = 285,
+								},
+								["三自四有"] = {
+									["count"] = 75,
+								},
+								["查尔斯三世"] = {
+									["count"] = 24,
+								},
+								["祝雨来"] = {
+									["count"] = 87,
 								},
 							},
-							["amount"] = 3,
+							["amount"] = 483,
 						},
 					},
+					["Damage"] = 53987,
+					["TimeHeal"] = 94.15,
+					["Dispels"] = 2,
 					["ElementDone"] = {
-						["Shadow"] = 2972,
-						["Melee"] = 62,
-						["Arcane"] = 2019,
-						["Fire"] = 138575,
-						["Frost"] = 19999,
-						["Nature"] = 18,
+						["Holy"] = 38228,
+						["Melee"] = 11436,
+						["Nature"] = 4323,
 					},
-					["ElementHitsDone"] = {
-						["Frost"] = {
+					["DamagedWho"] = {
+						["迪菲亚狱友"] = {
 							["Details"] = {
-								["Resist"] = {
-									["count"] = 3,
+								["命令审判"] = {
+									["count"] = 791,
 								},
-								["Hit"] = {
-									["count"] = 336,
+								["奉献 (伤害/跳)"] = {
+									["count"] = 5776,
 								},
-								["Crit"] = {
-									["count"] = 8,
+								["命令圣印"] = {
+									["count"] = 4114,
 								},
-								["Miss"] = {
-									["count"] = 23,
+								["惩戒光环"] = {
+									["count"] = 2916,
 								},
-							},
-							["amount"] = 370,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 10,
-								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 20,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 40,
-								},
-							},
-							["amount"] = 45,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 10,
-								},
-								["Hit"] = {
-									["count"] = 206,
-								},
-							},
-							["amount"] = 216,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 54,
-								},
-								["Tick"] = {
-									["count"] = 577,
-								},
-								["Hit"] = {
-									["count"] = 1861,
-								},
-								["Crit"] = {
-									["count"] = 114,
-								},
-								["Evade"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2608,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 43,
-								},
-							},
-							["amount"] = 43,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["WhoDamaged"] = {
-						["雪怪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 80,
-								},
-							},
-							["amount"] = 80,
-						},
-						["黑木战士"] = {
-							["Details"] = {
-								["雷霆一击"] = {
-									["count"] = 209,
+								["荆棘术"] = {
+									["count"] = 1577,
 								},
 								["肉搏"] = {
-									["count"] = 541,
+									["count"] = 3687,
 								},
 							},
-							["amount"] = 750,
+							["amount"] = 18861,
 						},
-						["黑木图腾师"] = {
+						["迪菲亚囚徒"] = {
 							["Details"] = {
-								["肉搏"] = {
-									["count"] = 435,
+								["命令审判"] = {
+									["count"] = 669,
 								},
-							},
-							["amount"] = 435,
-						},
-						["月夜枭兽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 165,
+								["奉献 (伤害/跳)"] = {
+									["count"] = 2824,
 								},
-							},
-							["amount"] = 165,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 141,
+								["命令圣印"] = {
+									["count"] = 2136,
 								},
-							},
-							["amount"] = 141,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 61,
-								},
-							},
-							["amount"] = 61,
-						},
-						["冬狼"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 102,
-								},
-							},
-							["amount"] = 102,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 101,
-								},
-							},
-							["amount"] = 101,
-						},
-						["霜鬃暗法师"] = {
-							["Details"] = {
-								["暗影箭"] = {
-									["count"] = 28,
-								},
-							},
-							["amount"] = 28,
-						},
-						["莫克迪普"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 106,
-								},
-							},
-							["amount"] = 106,
-						},
-						["坑道鼠歹徒"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 59,
-								},
-							},
-							["amount"] = 59,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["毁灭"] = {
-									["count"] = 66,
+								["惩戒光环"] = {
+									["count"] = 1116,
 								},
 								["肉搏"] = {
-									["count"] = 324,
+									["count"] = 2497,
+								},
+								["荆棘术"] = {
+									["count"] = 776,
 								},
 							},
-							["amount"] = 390,
+							["amount"] = 10018,
 						},
-						["砂石地占师"] = {
+						["哈姆霍克"] = {
 							["Details"] = {
-								["火球术"] = {
-									["count"] = 512,
+								["奉献 (伤害/跳)"] = {
+									["count"] = 237,
 								},
-							},
-							["amount"] = 512,
-						},
-						["坑道鼠狗头人"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 18,
+								["命令圣印"] = {
+									["count"] = 200,
 								},
-							},
-							["amount"] = 18,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 463,
-								},
-							},
-							["amount"] = 463,
-						},
-						["戴瑟雷萨特"] = {
-							["Details"] = {
-								["射击"] = {
-									["count"] = 36,
-								},
-							},
-							["amount"] = 36,
-						},
-						["霜鬃剥皮者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 33,
-								},
-							},
-							["amount"] = 33,
-						},
-						["老年深海蛇颈龙"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 69,
-								},
-							},
-							["amount"] = 69,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 165,
-								},
-							},
-							["amount"] = 165,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 118,
-								},
-							},
-							["amount"] = 118,
-						},
-						["石腭穴居人"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["坑道鼠掘地工"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 216,
-								},
-							},
-							["amount"] = 216,
-						},
-						["壮实的石腭穴居人"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 149,
-								},
-							},
-							["amount"] = 149,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-						["蓟熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 138,
-								},
-							},
-							["amount"] = 138,
-						},
-						["耕田小生"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 650,
-								},
-							},
-							["amount"] = 650,
-						},
-						["森林陆行鸟"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 40,
-								},
-							},
-							["amount"] = 40,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["闪电箭"] = {
-									["count"] = 111,
-								},
-							},
-							["amount"] = 111,
-						},
-						["雪狼"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 40,
-								},
-							},
-							["amount"] = 40,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 490,
-								},
-							},
-							["amount"] = 490,
-						},
-						["灰雾潮行者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 229,
-								},
-							},
-							["amount"] = 229,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 105,
-								},
-							},
-							["amount"] = 105,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 22,
-								},
-							},
-							["amount"] = 22,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 277,
-								},
-							},
-							["amount"] = 277,
-						},
-						["小鬼爪牙"] = {
-							["Details"] = {
-								["火焰箭"] = {
-									["count"] = 67,
-								},
-							},
-							["amount"] = 67,
-						},
-						["黑熊幼崽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 28,
-								},
-							},
-							["amount"] = 28,
-						},
-						["暗滩执行者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 312,
-								},
-							},
-							["amount"] = 312,
-						},
-						["硬壳潮行蟹"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 224,
-								},
-							},
-							["amount"] = 224,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["闪电箭"] = {
-									["count"] = 1007,
-								},
-							},
-							["amount"] = 1007,
-						},
-						["黑幕追踪者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 194,
-								},
-							},
-							["amount"] = 194,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 1558,
-								},
-								["Fire"] = {
-									["count"] = 71,
-								},
-							},
-							["amount"] = 1629,
-						},
-						["霜鬃猎头者"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 153,
-								},
-							},
-							["amount"] = 153,
-						},
-						["霜鬃巨魔"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 49,
-								},
-							},
-							["amount"] = 49,
-						},
-						["暗滩精兵"] = {
-							["Details"] = {
-								["暗影箭"] = {
-									["count"] = 474,
+								["惩戒光环"] = {
+									["count"] = 90,
 								},
 								["肉搏"] = {
-									["count"] = 80,
+									["count"] = 203,
+								},
+								["荆棘术"] = {
+									["count"] = 46,
 								},
 							},
-							["amount"] = 554,
+							["amount"] = 776,
 						},
-						["灰雾猎人"] = {
+						["巴基尔·斯瑞德"] = {
 							["Details"] = {
-								["投掷"] = {
-									["count"] = 439,
-								},
-							},
-							["amount"] = 439,
-						},
-						["哀嚎的贵族"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 32,
-								},
-							},
-							["amount"] = 32,
-						},
-						["冰须"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 153,
-								},
-							},
-							["amount"] = 153,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 29,
-								},
-							},
-							["amount"] = 29,
-						},
-						["砂石断骨者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 165,
-								},
-							},
-							["amount"] = 165,
-						},
-						["砂石斥候"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 310,
-								},
-							},
-							["amount"] = 310,
-						},
-						["虚空行者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 94,
-								},
-							},
-							["amount"] = 94,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["投掷"] = {
-									["count"] = 648,
-								},
-							},
-							["amount"] = 648,
-						},
-						["黑木风语者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 24,
-								},
-							},
-							["amount"] = 24,
-						},
-						["坑道鼠斥候"] = {
-							["Details"] = {
-								["射击"] = {
-									["count"] = 28,
-								},
-							},
-							["amount"] = 28,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 88,
-								},
-								["火焰之盾效果"] = {
-									["count"] = 6,
-								},
-								["火焰冲击"] = {
-									["count"] = 55,
-								},
-							},
-							["amount"] = 149,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 32,
-								},
-							},
-							["amount"] = 32,
-						},
-						["冰爪熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 61,
-								},
-							},
-							["amount"] = 61,
-						},
-						["癞爪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 13,
-								},
-							},
-							["amount"] = 13,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 298,
-								},
-							},
-							["amount"] = 298,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 76,
-								},
-							},
-							["amount"] = 76,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 437,
-								},
-							},
-							["amount"] = 437,
-						},
-						["冷酷的格瑞克尼尔"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 17,
-								},
-								["冰霜震击"] = {
-									["count"] = 10,
-								},
-							},
-							["amount"] = 27,
-						},
-						["黑木巨熊怪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 24,
-								},
-							},
-							["amount"] = 24,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 300,
-								},
-							},
-							["amount"] = 300,
-						},
-						["雷鳞御浪者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 71,
-								},
-							},
-							["amount"] = 71,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 133,
-								},
-							},
-							["amount"] = 133,
-						},
-						["暮光信徒"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 133,
-								},
-							},
-							["amount"] = 133,
-						},
-						["挣扎的贵族"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 141,
-								},
-							},
-							["amount"] = 141,
-						},
-						["狂暴的月夜枭兽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 319,
-								},
-							},
-							["amount"] = 319,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["肉搏"] = {
+								["命令审判"] = {
 									["count"] = 97,
 								},
-							},
-							["amount"] = 97,
-						},
-						["坑道鼠征粮官"] = {
-							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 156,
+								},
+								["命令圣印"] = {
+									["count"] = 244,
+								},
+								["惩戒光环"] = {
+									["count"] = 162,
+								},
+								["荆棘术"] = {
+									["count"] = 93,
+								},
 								["肉搏"] = {
-									["count"] = 15,
+									["count"] = 199,
 								},
 							},
-							["amount"] = 15,
+							["amount"] = 951,
 						},
-						["灰雾战士"] = {
+						["迪菲亚叛军"] = {
 							["Details"] = {
+								["命令审判"] = {
+									["count"] = 489,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 3260,
+								},
+								["命令圣印"] = {
+									["count"] = 2479,
+								},
+								["清算之手"] = {
+									["count"] = 134,
+								},
+								["惩戒光环"] = {
+									["count"] = 1134,
+								},
 								["肉搏"] = {
-									["count"] = 259,
+									["count"] = 2644,
 								},
-							},
-							["amount"] = 259,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 183,
-								},
-							},
-							["amount"] = 183,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 37,
-								},
-							},
-							["amount"] = 37,
-						},
-						["灰雾先知"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 49,
-								},
-							},
-							["amount"] = 49,
-						},
-						["灰雾智者"] = {
-							["Details"] = {
-								["闪电箭"] = {
-									["count"] = 448,
-								},
-							},
-							["amount"] = 448,
-						},
-						["破损的傀儡"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 142,
-								},
-							},
-							["amount"] = 142,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 120,
-								},
-							},
-							["amount"] = 120,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 363,
-								},
-							},
-							["amount"] = 363,
-						},
-						["雷鳞海妖"] = {
-							["Details"] = {
-								["神圣惩击"] = {
-									["count"] = 358,
-								},
-							},
-							["amount"] = 358,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 632,
-								},
-							},
-							["amount"] = 632,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["肉搏"] = {
+								["荆棘术"] = {
 									["count"] = 606,
 								},
 							},
-							["amount"] = 606,
+							["amount"] = 10746,
 						},
-						["暗滩祭司"] = {
+						["迪克斯特·瓦德"] = {
 							["Details"] = {
-								["暗影箭"] = {
-									["count"] = 339,
+								["命令审判"] = {
+									["count"] = 86,
 								},
-								["腐蚀术 (伤害/跳)"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 113,
+								},
+								["命令圣印"] = {
+									["count"] = 188,
+								},
+								["惩戒光环"] = {
+									["count"] = 54,
+								},
+								["荆棘术"] = {
+									["count"] = 28,
+								},
+								["肉搏"] = {
+									["count"] = 271,
+								},
+							},
+							["amount"] = 740,
+						},
+						["卡姆·深怒"] = {
+							["Details"] = {
+								["惩戒光环"] = {
+									["count"] = 88,
+								},
+								["奉献 (伤害/跳)"] = {
 									["count"] = 90,
 								},
-							},
-							["amount"] = 429,
-						},
-					},
-					["Absorbed"] = {
-						["法力护盾"] = {
-							["Details"] = {
-								["查尔斯三世"] = {
-									["max"] = 90,
-									["min"] = 6,
-									["count"] = 18,
-									["amount"] = 504,
+								["命令圣印"] = {
+									["count"] = 144,
+								},
+								["荆棘术"] = {
+									["count"] = 53,
 								},
 							},
-							["count"] = 18,
-							["amount"] = 504,
+							["amount"] = 375,
 						},
+						["迪菲亚俘虏"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 116,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 2171,
+								},
+								["命令圣印"] = {
+									["count"] = 1363,
+								},
+								["清算之手"] = {
+									["count"] = 249,
+								},
+								["惩戒光环"] = {
+									["count"] = 522,
+								},
+								["肉搏"] = {
+									["count"] = 566,
+								},
+								["荆棘术"] = {
+									["count"] = 550,
+								},
+							},
+							["amount"] = 5537,
+						},
+						["迪菲亚罪犯"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 346,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 1304,
+								},
+								["命令圣印"] = {
+									["count"] = 1236,
+								},
+								["惩戒光环"] = {
+									["count"] = 1134,
+								},
+								["肉搏"] = {
+									["count"] = 1369,
+								},
+								["荆棘术"] = {
+									["count"] = 594,
+								},
+							},
+							["amount"] = 5983,
+						},
+					},
+					["WhoDamaged"] = {
+						["迪菲亚狱友"] = {
+							["Details"] = {
+								["撕裂 (伤害/跳)"] = {
+									["count"] = 655,
+								},
+								["肉搏"] = {
+									["count"] = 8029,
+								},
+							},
+							["amount"] = 8684,
+						},
+						["迪菲亚囚徒"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 3904,
+								},
+							},
+							["amount"] = 3904,
+						},
+						["哈姆霍克"] = {
+							["Details"] = {
+								["闪电链"] = {
+									["count"] = 104,
+								},
+								["肉搏"] = {
+									["count"] = 268,
+								},
+							},
+							["amount"] = 372,
+						},
+						["巴基尔·斯瑞德"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 666,
+								},
+							},
+							["amount"] = 666,
+						},
+						["迪菲亚叛军"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 4140,
+								},
+							},
+							["amount"] = 4140,
+						},
+						["迪克斯特·瓦德"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 178,
+								},
+							},
+							["amount"] = 178,
+						},
+						["卡姆·深怒"] = {
+							["Details"] = {
+								["盾牌猛击"] = {
+									["count"] = 24,
+								},
+								["肉搏"] = {
+									["count"] = 285,
+								},
+							},
+							["amount"] = 309,
+						},
+						["迪菲亚俘虏"] = {
+							["Details"] = {
+								["背刺"] = {
+									["count"] = 324,
+								},
+								["肉搏"] = {
+									["count"] = 2285,
+								},
+							},
+							["amount"] = 2609,
+						},
+						["迪菲亚罪犯"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 2488,
+								},
+							},
+							["amount"] = 2488,
+						},
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 34,
+						["Holy"] = 69,
 					},
 					["TimeHealing"] = {
 						["查尔斯三世"] = {
 							["Details"] = {
-								["法力护盾"] = {
-									["count"] = 20.5,
-								},
-								["治疗药水"] = {
-									["count"] = 4.5,
+								["圣光审判"] = {
+									["count"] = 1.3,
 								},
 							},
-							["amount"] = 25,
+							["amount"] = 1.3,
+						},
+						["南宫浮生"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 80.88000000000004,
+								},
+							},
+							["amount"] = 80.88000000000004,
+						},
+						["三自四有"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 7.89,
+								},
+							},
+							["amount"] = 7.89,
+						},
+						["祝雨来"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 4.08,
+								},
+							},
+							["amount"] = 4.08,
+						},
+					},
+					["OverHeals"] = {
+						["圣光审判"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 23,
+									["min"] = 2,
+									["count"] = 63,
+									["amount"] = 1131,
+								},
+							},
+							["count"] = 63,
+							["amount"] = 1131,
 						},
 					},
 					["PartialResist"] = {
-						["火球术"] = {
+						["背刺"] = {
 							["Details"] = {
 								["未被抵抗"] = {
 									["max"] = 0,
@@ -7355,19 +2487,43 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 5,
 						},
-						["投掷"] = {
+						["撕裂 (伤害/跳)"] = {
 							["Details"] = {
 								["未被抵抗"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 71,
+									["count"] = 65,
 									["amount"] = 0,
 								},
 							},
 							["count"] = 0,
-							["amount"] = 71,
+							["amount"] = 65,
 						},
-						["火焰箭"] = {
+						["盾牌猛击"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["反手一击"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["缴械"] = {
 							["Details"] = {
 								["未被抵抗"] = {
 									["max"] = 0,
@@ -7379,7 +2535,7 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 2,
 						},
-						["射击"] = {
+						["挫志怒吼"] = {
 							["Details"] = {
 								["未被抵抗"] = {
 									["max"] = 0,
@@ -7391,3552 +2547,66 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 4,
 						},
-						["雷霆一击"] = {
+						["闪电链"] = {
 							["Details"] = {
 								["未被抵抗"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 12,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
 							["count"] = 0,
-							["amount"] = 12,
+							["amount"] = 1,
+						},
+						["撕裂"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
 						},
 						["肉搏"] = {
 							["Details"] = {
 								["未被抵抗"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 604,
+									["count"] = 597,
 									["amount"] = 0,
 								},
 							},
 							["count"] = 0,
-							["amount"] = 604,
-						},
-						["闪电箭"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 33,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 33,
-						},
-						["腐蚀术 (伤害/跳)"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 6,
-						},
-						["腐蚀术"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-						["火焰之盾效果"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-						["Falling"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 24,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 24,
-						},
-						["神圣惩击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 9,
-						},
-						["暗影箭"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 12,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 12,
-						},
-						["精灵之火"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 2,
-						},
-						["冰霜震击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 5,
-						},
-						["毁灭"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 2,
-						},
-						["火焰冲击"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 2,
+							["amount"] = 597,
 						},
 					},
 					["ManaGained"] = {
-						["恢复法力"] = {
+						["命令圣印雕文"] = {
 							["Details"] = {
-								["查尔斯三世"] = {
-									["count"] = 350,
+								["南宫浮生"] = {
+									["count"] = 2677,
 								},
 							},
-							["amount"] = 350,
+							["amount"] = 2677,
+						},
+						["智慧审判"] = {
+							["Details"] = {
+								["三自四有"] = {
+									["count"] = 506,
+								},
+								["南宫浮生"] = {
+									["count"] = 403,
+								},
+							},
+							["amount"] = 909,
 						},
 					},
-					["ElementTakenAbsorb"] = {
-						["Shadow"] = 245,
-						["Melee"] = 231,
-						["Nature"] = 28,
-					},
-					["ActiveTime"] = 3939.549999999998,
-					["Heals"] = {
-						["法力护盾"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["max"] = 90,
-									["min"] = 6,
-									["count"] = 18,
-									["amount"] = 504,
-								},
-							},
-							["count"] = 18,
-							["amount"] = 504,
-						},
-						["治疗药水"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 164,
-									["min"] = 73,
-									["count"] = 3,
-									["amount"] = 322,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 322,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["查尔斯三世"] = {
-							["Details"] = {
-								["恢复法力"] = {
-									["count"] = 350,
-								},
-							},
-							["amount"] = 350,
-						},
-						["叙利亚第一骑"] = {
-							["Details"] = {
-								["恢复"] = {
-									["count"] = 183,
-								},
-							},
-							["amount"] = 183,
-						},
-					},
-					["Healing"] = 322,
-					["TimeSpent"] = {
-						["雪怪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 11.18,
-								},
-								["火球术"] = {
-									["count"] = 67.11,
-								},
-								["冰冻"] = {
-									["count"] = 3.14,
-								},
-								["火焰冲击"] = {
-									["count"] = 2.81,
-								},
-							},
-							["amount"] = 84.24000000000001,
-						},
-						["月夜猛虎幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["黑木图腾师"] = {
-							["Details"] = {
-								["暴风雪"] = {
-									["count"] = 35.48,
-								},
-								["火球术"] = {
-									["count"] = 5.41,
-								},
-								["冰冻"] = {
-									["count"] = 1.5,
-								},
-								["冰霜新星"] = {
-									["count"] = 9.28,
-								},
-								["魔爆术"] = {
-									["count"] = 7.48,
-								},
-								["寒冰箭"] = {
-									["count"] = 18,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-								["火焰冲击"] = {
-									["count"] = 5.01,
-								},
-							},
-							["amount"] = 86.66000000000001,
-						},
-						["月夜枭兽"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 6.59,
-								},
-								["射击"] = {
-									["count"] = 6.859999999999999,
-								},
-								["火球术"] = {
-									["count"] = 39.20999999999999,
-								},
-							},
-							["amount"] = 52.66,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 25.5,
-								},
-								["射击"] = {
-									["count"] = 10.65,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 7.3,
-								},
-								["寒冰箭"] = {
-									["count"] = 1.66,
-								},
-							},
-							["amount"] = 45.10999999999999,
-						},
-						["老峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 28.39,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-							},
-							["amount"] = 32.89,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 10.18,
-								},
-								["寒冰箭"] = {
-									["count"] = 0.91,
-								},
-								["火球术"] = {
-									["count"] = 27.1,
-								},
-								["射击"] = {
-									["count"] = 5.45,
-								},
-							},
-							["amount"] = 43.64,
-						},
-						["霜鬃暗法师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 4.5,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 6,
-						},
-						["莫克迪普"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 5.37,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.94,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9.74,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.27,
-								},
-							},
-							["amount"] = 18.32,
-						},
-						["坑道鼠歹徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.93,
-								},
-								["射击"] = {
-									["count"] = 0.17,
-								},
-								["火球术"] = {
-									["count"] = 22.88,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 29.48,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["荆棘术"] = {
-									["count"] = 1.5,
-								},
-								["寒冰箭"] = {
-									["count"] = 4.5,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.03,
-								},
-								["火球术"] = {
-									["count"] = 36.57000000000001,
-								},
-								["射击"] = {
-									["count"] = 5.73,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 17.96,
-								},
-								["火焰冲击"] = {
-									["count"] = 2.81,
-								},
-							},
-							["amount"] = 70.1,
-						},
-						["霜鬃雪行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 23.19,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 29.19,
-						},
-						["坑道鼠狗头人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 10.22,
-								},
-								["射击"] = {
-									["count"] = 3.6,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.13,
-								},
-							},
-							["amount"] = 14.95,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 20.44,
-								},
-								["射击"] = {
-									["count"] = 9.2,
-								},
-								["冰冻"] = {
-									["count"] = 0.25,
-								},
-								["火球术"] = {
-									["count"] = 85.55000000000001,
-								},
-							},
-							["amount"] = 115.44,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 12,
-								},
-								["射击"] = {
-									["count"] = 5.390000000000001,
-								},
-								["火球术"] = {
-									["count"] = 42.21000000000001,
-								},
-							},
-							["amount"] = 59.6,
-						},
-						["霜鬃剥皮者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 9.97,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-							},
-							["amount"] = 14.47,
-						},
-						["老年深海蛇颈龙"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.67,
-								},
-								["射击"] = {
-									["count"] = 2.75,
-								},
-								["火球术"] = {
-									["count"] = 4.88,
-								},
-							},
-							["amount"] = 9.3,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 44.12000000000001,
-								},
-								["寒冰箭"] = {
-									["count"] = 1.13,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 13.06,
-								},
-								["火焰冲击"] = {
-									["count"] = 2.05,
-								},
-							},
-							["amount"] = 61.86,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 15.54,
-								},
-								["寒冰箭"] = {
-									["count"] = 3.51,
-								},
-								["火球术"] = {
-									["count"] = 62.13,
-								},
-								["火焰冲击"] = {
-									["count"] = 3.29,
-								},
-							},
-							["amount"] = 84.47,
-						},
-						["石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 23.46,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.75,
-								},
-							},
-							["amount"] = 25.21,
-						},
-						["坑道鼠掘地工"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9.91,
-								},
-								["射击"] = {
-									["count"] = 6.07,
-								},
-								["火球术"] = {
-									["count"] = 25.72,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 43.2,
-						},
-						["壮实的石腭穴居人"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 24.75,
-								},
-								["肉搏"] = {
-									["count"] = 1.77,
-								},
-							},
-							["amount"] = 28.02,
-						},
-						["小鬼爪牙"] = {
-							["Details"] = {
-								["魔爆术"] = {
-									["count"] = 1.5,
-								},
-								["寒冰箭"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 3,
-						},
-						["硬壳潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 5.76,
-								},
-								["射击"] = {
-									["count"] = 5.34,
-								},
-								["火球术"] = {
-									["count"] = 9.09,
-								},
-								["寒冰箭"] = {
-									["count"] = 0.95,
-								},
-							},
-							["amount"] = 21.14,
-						},
-						["黑木战士"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 3,
-								},
-								["寒冰箭"] = {
-									["count"] = 21,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["暴风雪"] = {
-									["count"] = 12.45,
-								},
-							},
-							["amount"] = 37.95,
-						},
-						["暗滩精兵"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 3,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["魔爆术"] = {
-									["count"] = 3,
-								},
-								["寒冰箭"] = {
-									["count"] = 3,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.65,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 16.65,
-						},
-						["暗滩挖掘者"] = {
-							["Details"] = {
-								["寒冰箭"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 12,
-						},
-						["霜鬃巨魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 10.58,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-							},
-							["amount"] = 15.08,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 31.45,
-								},
-								["射击"] = {
-									["count"] = 10.81,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 12.11,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.45,
-								},
-							},
-							["amount"] = 55.82000000000001,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 43.48,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 3.45,
-								},
-							},
-							["amount"] = 46.93,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 25.24000000000001,
-								},
-								["火焰冲击"] = {
-									["count"] = 4.4,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-								["肉搏"] = {
-									["count"] = 1.22,
-								},
-							},
-							["amount"] = 32.36,
-						},
-						["冬狼"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 1.38,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 5.71,
-								},
-								["寒冰箭"] = {
-									["count"] = 3,
-								},
-								["火球术"] = {
-									["count"] = 13.31,
-								},
-							},
-							["amount"] = 24.9,
-						},
-						["砂石地占师"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9.52,
-								},
-								["寒冰箭"] = {
-									["count"] = 4.5,
-								},
-								["火球术"] = {
-									["count"] = 4.66,
-								},
-								["火焰冲击"] = {
-									["count"] = 2.18,
-								},
-							},
-							["amount"] = 20.86,
-						},
-						["砂石断骨者"] = {
-							["Details"] = {
-								["寒冰箭"] = {
-									["count"] = 3,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-								["冰霜新星"] = {
-									["count"] = 0.14,
-								},
-							},
-							["amount"] = 4.64,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 22.22,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 13.5,
-								},
-								["冰冻"] = {
-									["count"] = 1.5,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["魔爆术"] = {
-									["count"] = 1.8,
-								},
-								["寒冰箭"] = {
-									["count"] = 1.21,
-								},
-								["射击"] = {
-									["count"] = 1.8,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 45.03,
-						},
-						["蓟熊"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-						["耕田小生"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["森林陆行鸟"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 2.3,
-								},
-								["暴风雪"] = {
-									["count"] = 7.95,
-								},
-							},
-							["amount"] = 10.25,
-						},
-						["黑熊幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 19.32,
-								},
-								["寒冰箭"] = {
-									["count"] = 3,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.15,
-								},
-							},
-							["amount"] = 24.97,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 25.88,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 27.38,
-						},
-						["雪狼"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 6.460000000000001,
-								},
-								["火焰冲击"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 8.96,
-						},
-						["黑幕追踪者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.48,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 3,
-								},
-								["火球术"] = {
-									["count"] = 8.02,
-								},
-								["魔爆术"] = {
-									["count"] = 5.48,
-								},
-								["火焰冲击"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 20.98,
-						},
-						["灰雾潮行者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 11.57,
-								},
-								["射击"] = {
-									["count"] = 4.76,
-								},
-								["火球术"] = {
-									["count"] = 31.32,
-								},
-							},
-							["amount"] = 47.65,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-								["冰冻"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 24.09,
-								},
-							},
-							["amount"] = 30.09,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0.4,
-								},
-								["肉搏"] = {
-									["count"] = 1.07,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 15.38,
-								},
-								["寒冰箭"] = {
-									["count"] = 6.14,
-								},
-								["火球术"] = {
-									["count"] = 89.88000000000001,
-								},
-								["火焰冲击"] = {
-									["count"] = 6.779999999999999,
-								},
-							},
-							["amount"] = 119.65,
-						},
-						["萨巴克希斯"] = {
-							["Details"] = {
-								["寒冰箭"] = {
-									["count"] = 3,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 6,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 26.97,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 28.47,
-						},
-						["鹿"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["暗滩执行者"] = {
-							["Details"] = {
-								["寒冰箭"] = {
-									["count"] = 13.5,
-								},
-								["火焰冲击"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 16.5,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9,
-								},
-								["射击"] = {
-									["count"] = 14.55,
-								},
-								["火球术"] = {
-									["count"] = 59.71,
-								},
-							},
-							["amount"] = 83.26000000000002,
-						},
-						["癞爪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 3.65,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 2.82,
-								},
-								["火焰冲击"] = {
-									["count"] = 0.68,
-								},
-							},
-							["amount"] = 7.15,
-						},
-						["暮光信徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.21,
-								},
-								["火球术"] = {
-									["count"] = 13.62,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.08,
-								},
-							},
-							["amount"] = 24.91,
-						},
-						["瓦加什"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 5.42,
-								},
-							},
-							["amount"] = 5.42,
-						},
-						["破损的傀儡"] = {
-							["Details"] = {
-								["射击"] = {
-									["count"] = 2.38,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 14.59,
-								},
-								["寒冰箭"] = {
-									["count"] = 24,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.529999999999999,
-								},
-								["荆棘术"] = {
-									["count"] = 0.33,
-								},
-							},
-							["amount"] = 47.33,
-						},
-						["灰雾智者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 16.62,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 16.5,
-								},
-							},
-							["amount"] = 33.12,
-						},
-						["灰雾猎人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 20.28,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 32.28,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 21.64,
-								},
-								["射击"] = {
-									["count"] = 3.27,
-								},
-								["火球术"] = {
-									["count"] = 61.79,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 88.19999999999997,
-						},
-						["霜鬃猎头者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 15,
-								},
-								["火球术"] = {
-									["count"] = 35.51,
-								},
-								["火焰冲击"] = {
-									["count"] = 3.55,
-								},
-							},
-							["amount"] = 54.06,
-						},
-						["黑木巨熊怪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 3,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.42,
-								},
-							},
-							["amount"] = 5.92,
-						},
-						["灰雾撒网者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-								["射击"] = {
-									["count"] = 1.38,
-								},
-								["火球术"] = {
-									["count"] = 4.34,
-								},
-							},
-							["amount"] = 7.22,
-						},
-						["蓬毛森林狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 4.11,
-								},
-							},
-							["amount"] = 4.11,
-						},
-						["哀嚎的贵族"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 3,
-								},
-								["火球术"] = {
-									["count"] = 22.23,
-								},
-								["火焰冲击"] = {
-									["count"] = 2.48,
-								},
-							},
-							["amount"] = 27.71,
-						},
-						["冰须"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-								["寒冰箭"] = {
-									["count"] = 4.16,
-								},
-								["冰冻"] = {
-									["count"] = 4.5,
-								},
-								["火球术"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 16.16,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 17.88,
-								},
-								["火焰冲击"] = {
-									["count"] = 0.86,
-								},
-								["火球术"] = {
-									["count"] = 85.63999999999999,
-								},
-								["肉搏"] = {
-									["count"] = 9.58,
-								},
-							},
-							["amount"] = 113.96,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9.370000000000001,
-								},
-								["火球术"] = {
-									["count"] = 53.75000000000001,
-								},
-								["冰冻"] = {
-									["count"] = 1.08,
-								},
-								["肉搏"] = {
-									["count"] = 2.7,
-								},
-							},
-							["amount"] = 66.9,
-						},
-						["砂石斥候"] = {
-							["Details"] = {
-								["荆棘术"] = {
-									["count"] = 1.5,
-								},
-								["冰冻"] = {
-									["count"] = 1.5,
-								},
-								["冰霜新星"] = {
-									["count"] = 2.45,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 8.01,
-								},
-								["寒冰箭"] = {
-									["count"] = 9,
-								},
-								["火球术"] = {
-									["count"] = 10,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 33.96,
-						},
-						["虚空行者"] = {
-							["Details"] = {
-								["魔爆术"] = {
-									["count"] = 4.5,
-								},
-								["寒冰箭"] = {
-									["count"] = 1.5,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 7.5,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 87.00999999999999,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 31.5,
-								},
-							},
-							["amount"] = 118.51,
-						},
-						["冰爪熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 1.5,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 17.33,
-								},
-								["寒冰箭"] = {
-									["count"] = 1.64,
-								},
-								["火球术"] = {
-									["count"] = 45.96,
-								},
-								["火焰冲击"] = {
-									["count"] = 3.93,
-								},
-							},
-							["amount"] = 70.36,
-						},
-						["坑道鼠征粮官"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 19.54,
-								},
-								["射击"] = {
-									["count"] = 2.99,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 2.97,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.52,
-								},
-							},
-							["amount"] = 27.02,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 42.69000000000001,
-								},
-								["射击"] = {
-									["count"] = 4.5,
-								},
-								["冰冻"] = {
-									["count"] = 0.95,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 2.02,
-								},
-							},
-							["amount"] = 50.16000000000001,
-						},
-						["安娜雅·晨路"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 5.83,
-								},
-							},
-							["amount"] = 5.83,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0.79,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 61.68000000000002,
-								},
-								["射击"] = {
-									["count"] = 44.76,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 36.79999999999999,
-								},
-								["火焰冲击"] = {
-									["count"] = 0.25,
-								},
-							},
-							["amount"] = 145.7799999999999,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 10.42,
-								},
-								["射击"] = {
-									["count"] = 16.67,
-								},
-								["火球术"] = {
-									["count"] = 50.92000000000001,
-								},
-							},
-							["amount"] = 78.01,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0.64,
-								},
-								["冰霜新星"] = {
-									["count"] = 0.77,
-								},
-								["火球术"] = {
-									["count"] = 77.17999999999999,
-								},
-								["寒冰箭"] = {
-									["count"] = 1.88,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 26.11,
-								},
-								["肉搏"] = {
-									["count"] = 2.77,
-								},
-							},
-							["amount"] = 109.35,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 33.45999999999999,
-								},
-								["寒冰箭"] = {
-									["count"] = 2.02,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 7.5,
-								},
-								["火焰冲击"] = {
-									["count"] = 4.13,
-								},
-							},
-							["amount"] = 47.11000000000001,
-						},
-						["恶灵劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 47.14,
-								},
-								["射击"] = {
-									["count"] = 20.42,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 11.89,
-								},
-							},
-							["amount"] = 79.45000000000002,
-						},
-						["冷酷的格瑞克尼尔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 7.449999999999999,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 8.95,
-						},
-						["坑道鼠斥候"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.77,
-								},
-								["射击"] = {
-									["count"] = 2.73,
-								},
-								["火球术"] = {
-									["count"] = 3.12,
-								},
-							},
-							["amount"] = 7.620000000000001,
-						},
-						["幽爪奔跑者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["雷鳞御浪者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9,
-								},
-								["寒冰箭"] = {
-									["count"] = 0.96,
-								},
-								["火球术"] = {
-									["count"] = 22.59,
-								},
-							},
-							["amount"] = 32.55,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 25.89,
-								},
-								["射击"] = {
-									["count"] = 16.14,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 10.5,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 54.03,
-						},
-						["查尔斯三世"] = {
-							["Details"] = {
-								["法力护盾"] = {
-									["count"] = 20.5,
-								},
-								["治疗药水"] = {
-									["count"] = 4.5,
-								},
-							},
-							["amount"] = 25,
-						},
-						["挣扎的贵族"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 7.84,
-								},
-								["寒冰箭"] = {
-									["count"] = 1.5,
-								},
-								["射击"] = {
-									["count"] = 17.37,
-								},
-								["火球术"] = {
-									["count"] = 21.86,
-								},
-							},
-							["amount"] = 50.07,
-						},
-						["狂暴的月夜枭兽"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 6.88,
-								},
-								["射击"] = {
-									["count"] = 2.3,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 7.96,
-								},
-								["火焰冲击"] = {
-									["count"] = 0.88,
-								},
-							},
-							["amount"] = 19.52,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 10.79,
-								},
-								["射击"] = {
-									["count"] = 6.12,
-								},
-								["火球术"] = {
-									["count"] = 78.36000000000001,
-								},
-								["火焰冲击"] = {
-									["count"] = 0.81,
-								},
-							},
-							["amount"] = 96.08000000000001,
-						},
-						["玛洛什"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 5.89,
-								},
-							},
-							["amount"] = 5.89,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 40.10000000000001,
-								},
-								["射击"] = {
-									["count"] = 3.85,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9.65,
-								},
-								["魔爆术"] = {
-									["count"] = 2.91,
-								},
-							},
-							["amount"] = 58.01000000000001,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 10.59,
-								},
-								["寒冰箭"] = {
-									["count"] = 7.5,
-								},
-								["火球术"] = {
-									["count"] = 27.89,
-								},
-								["火焰冲击"] = {
-									["count"] = 3.92,
-								},
-							},
-							["amount"] = 49.9,
-						},
-						["黑木风语者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 22.22,
-								},
-								["射击"] = {
-									["count"] = 4.08,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.81,
-								},
-							},
-							["amount"] = 28.11,
-						},
-						["灰雾先知"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-								["射击"] = {
-									["count"] = 1.44,
-								},
-								["火球术"] = {
-									["count"] = 16.12,
-								},
-							},
-							["amount"] = 22.06,
-						},
-						["戴瑟雷萨特"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 8.469999999999999,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 9.969999999999999,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 1.1,
-								},
-								["冰霜新星"] = {
-									["count"] = 2.29,
-								},
-								["火球术"] = {
-									["count"] = 40.17,
-								},
-								["射击"] = {
-									["count"] = 6.48,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 17.04,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 68.58,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0.53,
-								},
-								["肉搏"] = {
-									["count"] = 0.83,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 15.28,
-								},
-								["寒冰箭"] = {
-									["count"] = 0.69,
-								},
-								["火球术"] = {
-									["count"] = 38.98,
-								},
-								["火焰冲击"] = {
-									["count"] = 4.66,
-								},
-							},
-							["amount"] = 60.96999999999999,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 1.24,
-								},
-								["冰霜新星"] = {
-									["count"] = 0.9,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 17.21,
-								},
-								["射击"] = {
-									["count"] = 7.06,
-								},
-								["火球术"] = {
-									["count"] = 61.06,
-								},
-							},
-							["amount"] = 87.46999999999996,
-						},
-						["雷鳞海妖"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 19.5,
-								},
-								["寒冰箭"] = {
-									["count"] = 0.67,
-								},
-								["火球术"] = {
-									["count"] = 21.07,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.11,
-								},
-							},
-							["amount"] = 42.34999999999999,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["射击"] = {
-									["count"] = 9.28,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 103.37,
-								},
-								["寒冰箭"] = {
-									["count"] = 1.93,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 37.45,
-								},
-								["火焰冲击"] = {
-									["count"] = 2.53,
-								},
-							},
-							["amount"] = 156.06,
-						},
-						["治疗结界"] = {
-							["Details"] = {
-								["射击"] = {
-									["count"] = 6,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 7.5,
-						},
-						["暗滩祭司"] = {
-							["Details"] = {
-								["魔爆术"] = {
-									["count"] = 1.5,
-								},
-								["寒冰箭"] = {
-									["count"] = 6,
-								},
-								["火焰冲击"] = {
-									["count"] = 3.54,
-								},
-							},
-							["amount"] = 11.04,
-						},
-					},
-					["DamageTaken"] = 18409,
-					["Attacks"] = {
-						["冰霜新星"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 25,
-									["min"] = 20,
-									["count"] = 76,
-									["amount"] = 1776,
-								},
-								["Crit"] = {
-									["max"] = 37,
-									["min"] = 37,
-									["count"] = 1,
-									["amount"] = 37,
-								},
-								["Miss"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 79,
-							["amount"] = 1813,
-						},
-						["火球术"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 52,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 107,
-									["min"] = 14,
-									["count"] = 1775,
-									["amount"] = 121710,
-								},
-								["Crit"] = {
-									["max"] = 159,
-									["min"] = 26,
-									["count"] = 108,
-									["amount"] = 10383,
-								},
-								["Evade"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1936,
-							["amount"] = 132093,
-						},
-						["暴风雪"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 67,
-									["min"] = 66,
-									["count"] = 5,
-									["amount"] = 334,
-								},
-								["Hit"] = {
-									["max"] = 45,
-									["min"] = 44,
-									["count"] = 139,
-									["amount"] = 6206,
-								},
-							},
-							["count"] = 144,
-							["amount"] = 6540,
-						},
-						["荆棘术"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 6,
-									["min"] = 6,
-									["count"] = 3,
-									["amount"] = 18,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 18,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 3,
-									["min"] = 1,
-									["count"] = 10,
-									["amount"] = 16,
-								},
-								["Parry"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 11,
-									["min"] = 4,
-									["count"] = 7,
-									["amount"] = 46,
-								},
-							},
-							["count"] = 20,
-							["amount"] = 62,
-						},
-						["冰冻"] = {
-							["Details"] = {
-								["Resist"] = {
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 19,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 22,
-							["amount"] = 0,
-						},
-						["寒冰箭"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 184,
-									["min"] = 180,
-									["count"] = 2,
-									["amount"] = 364,
-								},
-								["Hit"] = {
-									["max"] = 128,
-									["min"] = 19,
-									["count"] = 121,
-									["amount"] = 11282,
-								},
-							},
-							["count"] = 125,
-							["amount"] = 11646,
-						},
-						["魔爆术"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 70,
-									["min"] = 66,
-									["count"] = 3,
-									["amount"] = 204,
-								},
-								["Hit"] = {
-									["max"] = 48,
-									["min"] = 43,
-									["count"] = 40,
-									["amount"] = 1815,
-								},
-							},
-							["count"] = 45,
-							["amount"] = 2019,
-						},
-						["射击"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 43,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 24,
-									["min"] = 10,
-									["count"] = 10,
-									["amount"] = 187,
-								},
-								["Hit"] = {
-									["max"] = 19,
-									["min"] = 4,
-									["count"] = 206,
-									["amount"] = 2785,
-								},
-							},
-							["count"] = 259,
-							["amount"] = 2972,
-						},
-						["火球术 (伤害/跳)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 2,
-									["min"] = 1,
-									["count"] = 577,
-									["amount"] = 881,
-								},
-							},
-							["count"] = 577,
-							["amount"] = 881,
-						},
-						["火焰冲击"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 96,
-									["min"] = 24,
-									["count"] = 86,
-									["amount"] = 5159,
-								},
-								["Crit"] = {
-									["max"] = 132,
-									["min"] = 37,
-									["count"] = 6,
-									["amount"] = 442,
-								},
-								["Evade"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 95,
-							["amount"] = 5601,
-						},
-					},
-					["HealingTaken"] = 1050,
-					["WhoHealed"] = {
-						["凛寒"] = {
-							["Details"] = {
-								["回春术"] = {
-									["count"] = 86,
-								},
-								["治疗之触"] = {
-									["count"] = 138,
-								},
-							},
-							["amount"] = 224,
-						},
-						["查尔斯三世"] = {
-							["Details"] = {
-								["法力护盾"] = {
-									["count"] = 504,
-								},
-								["治疗药水"] = {
-									["count"] = 322,
-								},
-							},
-							["amount"] = 826,
-						},
-						["叙利亚第一骑"] = {
-							["Details"] = {
-								["神圣风暴"] = {
-									["count"] = 113,
-								},
-								["圣光闪现"] = {
-									["count"] = 338,
-								},
-							},
-							["amount"] = 451,
-						},
-					},
-					["TimeDamage"] = 3914.549999999998,
-					["TimeDamaging"] = {
-						["雪怪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 11.18,
-								},
-								["火球术"] = {
-									["count"] = 67.11,
-								},
-								["冰冻"] = {
-									["count"] = 3.14,
-								},
-								["火焰冲击"] = {
-									["count"] = 2.81,
-								},
-							},
-							["amount"] = 84.24000000000001,
-						},
-						["月夜猛虎幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["黑木图腾师"] = {
-							["Details"] = {
-								["暴风雪"] = {
-									["count"] = 35.48,
-								},
-								["火球术"] = {
-									["count"] = 5.41,
-								},
-								["冰冻"] = {
-									["count"] = 1.5,
-								},
-								["冰霜新星"] = {
-									["count"] = 9.28,
-								},
-								["魔爆术"] = {
-									["count"] = 7.48,
-								},
-								["寒冰箭"] = {
-									["count"] = 18,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-								["火焰冲击"] = {
-									["count"] = 5.01,
-								},
-							},
-							["amount"] = 86.66000000000001,
-						},
-						["月夜枭兽"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 6.59,
-								},
-								["射击"] = {
-									["count"] = 6.859999999999999,
-								},
-								["火球术"] = {
-									["count"] = 39.20999999999999,
-								},
-							},
-							["amount"] = 52.66,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 25.5,
-								},
-								["射击"] = {
-									["count"] = 10.65,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 7.3,
-								},
-								["寒冰箭"] = {
-									["count"] = 1.66,
-								},
-							},
-							["amount"] = 45.10999999999999,
-						},
-						["老峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 28.39,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-							},
-							["amount"] = 32.89,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 10.18,
-								},
-								["寒冰箭"] = {
-									["count"] = 0.91,
-								},
-								["火球术"] = {
-									["count"] = 27.1,
-								},
-								["射击"] = {
-									["count"] = 5.45,
-								},
-							},
-							["amount"] = 43.64,
-						},
-						["霜鬃暗法师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 4.5,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 6,
-						},
-						["莫克迪普"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 5.37,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.94,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9.74,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.27,
-								},
-							},
-							["amount"] = 18.32,
-						},
-						["坑道鼠歹徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.93,
-								},
-								["射击"] = {
-									["count"] = 0.17,
-								},
-								["火球术"] = {
-									["count"] = 22.88,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 29.48,
-						},
-						["灰斑蓟熊"] = {
-							["Details"] = {
-								["荆棘术"] = {
-									["count"] = 1.5,
-								},
-								["寒冰箭"] = {
-									["count"] = 4.5,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.03,
-								},
-								["火球术"] = {
-									["count"] = 36.57000000000001,
-								},
-								["射击"] = {
-									["count"] = 5.73,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 17.96,
-								},
-								["火焰冲击"] = {
-									["count"] = 2.81,
-								},
-							},
-							["amount"] = 70.1,
-						},
-						["霜鬃雪行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 23.19,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 29.19,
-						},
-						["坑道鼠狗头人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 10.22,
-								},
-								["射击"] = {
-									["count"] = 3.6,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.13,
-								},
-							},
-							["amount"] = 14.95,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 20.44,
-								},
-								["射击"] = {
-									["count"] = 9.2,
-								},
-								["冰冻"] = {
-									["count"] = 0.25,
-								},
-								["火球术"] = {
-									["count"] = 85.55000000000001,
-								},
-							},
-							["amount"] = 115.44,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 12,
-								},
-								["射击"] = {
-									["count"] = 5.390000000000001,
-								},
-								["火球术"] = {
-									["count"] = 42.21000000000001,
-								},
-							},
-							["amount"] = 59.6,
-						},
-						["霜鬃剥皮者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 9.97,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-							},
-							["amount"] = 14.47,
-						},
-						["老年深海蛇颈龙"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.67,
-								},
-								["射击"] = {
-									["count"] = 2.75,
-								},
-								["火球术"] = {
-									["count"] = 4.88,
-								},
-							},
-							["amount"] = 9.3,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 44.12000000000001,
-								},
-								["寒冰箭"] = {
-									["count"] = 1.13,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 13.06,
-								},
-								["火焰冲击"] = {
-									["count"] = 2.05,
-								},
-							},
-							["amount"] = 61.86,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 15.54,
-								},
-								["寒冰箭"] = {
-									["count"] = 3.51,
-								},
-								["火球术"] = {
-									["count"] = 62.13,
-								},
-								["火焰冲击"] = {
-									["count"] = 3.29,
-								},
-							},
-							["amount"] = 84.47,
-						},
-						["石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 23.46,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.75,
-								},
-							},
-							["amount"] = 25.21,
-						},
-						["坑道鼠掘地工"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9.91,
-								},
-								["射击"] = {
-									["count"] = 6.07,
-								},
-								["火球术"] = {
-									["count"] = 25.72,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 43.2,
-						},
-						["壮实的石腭穴居人"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 24.75,
-								},
-								["肉搏"] = {
-									["count"] = 1.77,
-								},
-							},
-							["amount"] = 28.02,
-						},
-						["小鬼爪牙"] = {
-							["Details"] = {
-								["魔爆术"] = {
-									["count"] = 1.5,
-								},
-								["寒冰箭"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 3,
-						},
-						["硬壳潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 5.76,
-								},
-								["射击"] = {
-									["count"] = 5.34,
-								},
-								["火球术"] = {
-									["count"] = 9.09,
-								},
-								["寒冰箭"] = {
-									["count"] = 0.95,
-								},
-							},
-							["amount"] = 21.14,
-						},
-						["黑木战士"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 3,
-								},
-								["寒冰箭"] = {
-									["count"] = 21,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["暴风雪"] = {
-									["count"] = 12.45,
-								},
-							},
-							["amount"] = 37.95,
-						},
-						["暗滩精兵"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 3,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["魔爆术"] = {
-									["count"] = 3,
-								},
-								["寒冰箭"] = {
-									["count"] = 3,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.65,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 16.65,
-						},
-						["暗滩挖掘者"] = {
-							["Details"] = {
-								["寒冰箭"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 12,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 31.45,
-								},
-								["射击"] = {
-									["count"] = 10.81,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 12.11,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.45,
-								},
-							},
-							["amount"] = 55.82000000000001,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 43.48,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 3.45,
-								},
-							},
-							["amount"] = 46.93,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 25.24000000000001,
-								},
-								["火焰冲击"] = {
-									["count"] = 4.4,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-								["肉搏"] = {
-									["count"] = 1.22,
-								},
-							},
-							["amount"] = 32.36,
-						},
-						["霜鬃巨魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 10.58,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-							},
-							["amount"] = 15.08,
-						},
-						["冬狼"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 1.38,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 5.71,
-								},
-								["寒冰箭"] = {
-									["count"] = 3,
-								},
-								["火球术"] = {
-									["count"] = 13.31,
-								},
-							},
-							["amount"] = 24.9,
-						},
-						["戴瑟雷萨特"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 8.469999999999999,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 9.969999999999999,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 22.22,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 13.5,
-								},
-								["冰冻"] = {
-									["count"] = 1.5,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["魔爆术"] = {
-									["count"] = 1.8,
-								},
-								["寒冰箭"] = {
-									["count"] = 1.21,
-								},
-								["射击"] = {
-									["count"] = 1.8,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 45.03,
-						},
-						["蓟熊"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-						["砂石断骨者"] = {
-							["Details"] = {
-								["寒冰箭"] = {
-									["count"] = 3,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-								["冰霜新星"] = {
-									["count"] = 0.14,
-								},
-							},
-							["amount"] = 4.64,
-						},
-						["森林陆行鸟"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 2.3,
-								},
-								["暴风雪"] = {
-									["count"] = 7.95,
-								},
-							},
-							["amount"] = 10.25,
-						},
-						["砂石地占师"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9.52,
-								},
-								["寒冰箭"] = {
-									["count"] = 4.5,
-								},
-								["火球术"] = {
-									["count"] = 4.66,
-								},
-								["火焰冲击"] = {
-									["count"] = 2.18,
-								},
-							},
-							["amount"] = 20.86,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 25.88,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 27.38,
-						},
-						["雪狼"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 6.460000000000001,
-								},
-								["火焰冲击"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 8.96,
-						},
-						["黑幕追踪者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.48,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 3,
-								},
-								["火球术"] = {
-									["count"] = 8.02,
-								},
-								["魔爆术"] = {
-									["count"] = 5.48,
-								},
-								["火焰冲击"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 20.98,
-						},
-						["灰雾潮行者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 11.57,
-								},
-								["射击"] = {
-									["count"] = 4.76,
-								},
-								["火球术"] = {
-									["count"] = 31.32,
-								},
-							},
-							["amount"] = 47.65,
-						},
-						["鹿"] = {
-							["Details"] = {
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0.4,
-								},
-								["肉搏"] = {
-									["count"] = 1.07,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 15.38,
-								},
-								["寒冰箭"] = {
-									["count"] = 6.14,
-								},
-								["火球术"] = {
-									["count"] = 89.88000000000001,
-								},
-								["火焰冲击"] = {
-									["count"] = 6.779999999999999,
-								},
-							},
-							["amount"] = 119.65,
-						},
-						["暮光信徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.21,
-								},
-								["火球术"] = {
-									["count"] = 13.62,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.08,
-								},
-							},
-							["amount"] = 24.91,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 26.97,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 28.47,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-								["冰冻"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 24.09,
-								},
-							},
-							["amount"] = 30.09,
-						},
-						["萨巴克希斯"] = {
-							["Details"] = {
-								["寒冰箭"] = {
-									["count"] = 3,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 6,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9,
-								},
-								["射击"] = {
-									["count"] = 14.55,
-								},
-								["火球术"] = {
-									["count"] = 59.71,
-								},
-							},
-							["amount"] = 83.26000000000002,
-						},
-						["暗滩执行者"] = {
-							["Details"] = {
-								["寒冰箭"] = {
-									["count"] = 13.5,
-								},
-								["火焰冲击"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 16.5,
-						},
-						["黑熊幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 19.32,
-								},
-								["寒冰箭"] = {
-									["count"] = 3,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.15,
-								},
-							},
-							["amount"] = 24.97,
-						},
-						["瓦加什"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 5.42,
-								},
-							},
-							["amount"] = 5.42,
-						},
-						["癞爪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 3.65,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 2.82,
-								},
-								["火焰冲击"] = {
-									["count"] = 0.68,
-								},
-							},
-							["amount"] = 7.15,
-						},
-						["破损的傀儡"] = {
-							["Details"] = {
-								["射击"] = {
-									["count"] = 2.38,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 14.59,
-								},
-								["寒冰箭"] = {
-									["count"] = 24,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.529999999999999,
-								},
-								["荆棘术"] = {
-									["count"] = 0.33,
-								},
-							},
-							["amount"] = 47.33,
-						},
-						["灰雾智者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 16.62,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 16.5,
-								},
-							},
-							["amount"] = 33.12,
-						},
-						["灰雾猎人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 20.28,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 32.28,
-						},
-						["霜鬃猎头者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 15,
-								},
-								["火球术"] = {
-									["count"] = 35.51,
-								},
-								["火焰冲击"] = {
-									["count"] = 3.55,
-								},
-							},
-							["amount"] = 54.06,
-						},
-						["灰雾撒网者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-								["射击"] = {
-									["count"] = 1.38,
-								},
-								["火球术"] = {
-									["count"] = 4.34,
-								},
-							},
-							["amount"] = 7.22,
-						},
-						["黑木巨熊怪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 3,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.42,
-								},
-							},
-							["amount"] = 5.92,
-						},
-						["冰须"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-								["寒冰箭"] = {
-									["count"] = 4.16,
-								},
-								["冰冻"] = {
-									["count"] = 4.5,
-								},
-								["火球术"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 16.16,
-						},
-						["哀嚎的贵族"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 3,
-								},
-								["火球术"] = {
-									["count"] = 22.23,
-								},
-								["火焰冲击"] = {
-									["count"] = 2.48,
-								},
-							},
-							["amount"] = 27.71,
-						},
-						["蓬毛森林狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 4.11,
-								},
-							},
-							["amount"] = 4.11,
-						},
-						["坑道鼠斥候"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.77,
-								},
-								["射击"] = {
-									["count"] = 2.73,
-								},
-								["火球术"] = {
-									["count"] = 3.12,
-								},
-							},
-							["amount"] = 7.620000000000001,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 21.64,
-								},
-								["射击"] = {
-									["count"] = 3.27,
-								},
-								["火球术"] = {
-									["count"] = 61.79,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 88.19999999999997,
-						},
-						["砂石斥候"] = {
-							["Details"] = {
-								["荆棘术"] = {
-									["count"] = 1.5,
-								},
-								["冰冻"] = {
-									["count"] = 1.5,
-								},
-								["冰霜新星"] = {
-									["count"] = 2.45,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 8.01,
-								},
-								["寒冰箭"] = {
-									["count"] = 9,
-								},
-								["火球术"] = {
-									["count"] = 10,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 33.96,
-						},
-						["虚空行者"] = {
-							["Details"] = {
-								["魔爆术"] = {
-									["count"] = 4.5,
-								},
-								["寒冰箭"] = {
-									["count"] = 1.5,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 7.5,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 87.00999999999999,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 31.5,
-								},
-							},
-							["amount"] = 118.51,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 10.42,
-								},
-								["射击"] = {
-									["count"] = 16.67,
-								},
-								["火球术"] = {
-									["count"] = 50.92000000000001,
-								},
-							},
-							["amount"] = 78.01,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9.370000000000001,
-								},
-								["火球术"] = {
-									["count"] = 53.75000000000001,
-								},
-								["冰冻"] = {
-									["count"] = 1.08,
-								},
-								["肉搏"] = {
-									["count"] = 2.7,
-								},
-							},
-							["amount"] = 66.9,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 42.69000000000001,
-								},
-								["射击"] = {
-									["count"] = 4.5,
-								},
-								["冰冻"] = {
-									["count"] = 0.95,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 2.02,
-								},
-							},
-							["amount"] = 50.16000000000001,
-						},
-						["坑道鼠征粮官"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 19.54,
-								},
-								["射击"] = {
-									["count"] = 2.99,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 2.97,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.52,
-								},
-							},
-							["amount"] = 27.02,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0.79,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 61.68000000000002,
-								},
-								["射击"] = {
-									["count"] = 44.76,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 36.79999999999999,
-								},
-								["火焰冲击"] = {
-									["count"] = 0.25,
-								},
-							},
-							["amount"] = 145.7799999999999,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0.64,
-								},
-								["冰霜新星"] = {
-									["count"] = 0.77,
-								},
-								["火球术"] = {
-									["count"] = 77.17999999999999,
-								},
-								["寒冰箭"] = {
-									["count"] = 1.88,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 26.11,
-								},
-								["肉搏"] = {
-									["count"] = 2.77,
-								},
-							},
-							["amount"] = 109.35,
-						},
-						["冰爪熊"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 1.5,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 17.33,
-								},
-								["寒冰箭"] = {
-									["count"] = 1.64,
-								},
-								["火球术"] = {
-									["count"] = 45.96,
-								},
-								["火焰冲击"] = {
-									["count"] = 3.93,
-								},
-							},
-							["amount"] = 70.36,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 33.45999999999999,
-								},
-								["寒冰箭"] = {
-									["count"] = 2.02,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 7.5,
-								},
-								["火焰冲击"] = {
-									["count"] = 4.13,
-								},
-							},
-							["amount"] = 47.11000000000001,
-						},
-						["恶灵劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 47.14,
-								},
-								["射击"] = {
-									["count"] = 20.42,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 11.89,
-								},
-							},
-							["amount"] = 79.45000000000002,
-						},
-						["冷酷的格瑞克尼尔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 7.449999999999999,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 8.95,
-						},
-						["安娜雅·晨路"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 5.83,
-								},
-							},
-							["amount"] = 5.83,
-						},
-						["幽爪奔跑者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["雷鳞御浪者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9,
-								},
-								["寒冰箭"] = {
-									["count"] = 0.96,
-								},
-								["火球术"] = {
-									["count"] = 22.59,
-								},
-							},
-							["amount"] = 32.55,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 25.89,
-								},
-								["射击"] = {
-									["count"] = 16.14,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 10.5,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 54.03,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 17.88,
-								},
-								["火焰冲击"] = {
-									["count"] = 0.86,
-								},
-								["火球术"] = {
-									["count"] = 85.63999999999999,
-								},
-								["肉搏"] = {
-									["count"] = 9.58,
-								},
-							},
-							["amount"] = 113.96,
-						},
-						["挣扎的贵族"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 7.84,
-								},
-								["寒冰箭"] = {
-									["count"] = 1.5,
-								},
-								["射击"] = {
-									["count"] = 17.37,
-								},
-								["火球术"] = {
-									["count"] = 21.86,
-								},
-							},
-							["amount"] = 50.07,
-						},
-						["狂暴的月夜枭兽"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 6.88,
-								},
-								["射击"] = {
-									["count"] = 2.3,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 7.96,
-								},
-								["火焰冲击"] = {
-									["count"] = 0.88,
-								},
-							},
-							["amount"] = 19.52,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 10.79,
-								},
-								["射击"] = {
-									["count"] = 6.12,
-								},
-								["火球术"] = {
-									["count"] = 78.36000000000001,
-								},
-								["火焰冲击"] = {
-									["count"] = 0.81,
-								},
-							},
-							["amount"] = 96.08000000000001,
-						},
-						["玛洛什"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 5.89,
-								},
-							},
-							["amount"] = 5.89,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 40.10000000000001,
-								},
-								["射击"] = {
-									["count"] = 3.85,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9.65,
-								},
-								["魔爆术"] = {
-									["count"] = 2.91,
-								},
-							},
-							["amount"] = 58.01000000000001,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 10.59,
-								},
-								["寒冰箭"] = {
-									["count"] = 7.5,
-								},
-								["火球术"] = {
-									["count"] = 27.89,
-								},
-								["火焰冲击"] = {
-									["count"] = 3.92,
-								},
-							},
-							["amount"] = 49.9,
-						},
-						["黑木风语者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 22.22,
-								},
-								["射击"] = {
-									["count"] = 4.08,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1.81,
-								},
-							},
-							["amount"] = 28.11,
-						},
-						["灰雾先知"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4.5,
-								},
-								["射击"] = {
-									["count"] = 1.44,
-								},
-								["火球术"] = {
-									["count"] = 16.12,
-								},
-							},
-							["amount"] = 22.06,
-						},
-						["耕田小生"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 1.1,
-								},
-								["冰霜新星"] = {
-									["count"] = 2.29,
-								},
-								["火球术"] = {
-									["count"] = 40.17,
-								},
-								["射击"] = {
-									["count"] = 6.48,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 17.04,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 68.58,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 0.53,
-								},
-								["肉搏"] = {
-									["count"] = 0.83,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 15.28,
-								},
-								["寒冰箭"] = {
-									["count"] = 0.69,
-								},
-								["火球术"] = {
-									["count"] = 38.98,
-								},
-								["火焰冲击"] = {
-									["count"] = 4.66,
-								},
-							},
-							["amount"] = 60.96999999999999,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["冰冻"] = {
-									["count"] = 1.24,
-								},
-								["冰霜新星"] = {
-									["count"] = 0.9,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 17.21,
-								},
-								["射击"] = {
-									["count"] = 7.06,
-								},
-								["火球术"] = {
-									["count"] = 61.06,
-								},
-							},
-							["amount"] = 87.46999999999996,
-						},
-						["雷鳞海妖"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 19.5,
-								},
-								["寒冰箭"] = {
-									["count"] = 0.67,
-								},
-								["火球术"] = {
-									["count"] = 21.07,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.11,
-								},
-							},
-							["amount"] = 42.34999999999999,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["射击"] = {
-									["count"] = 9.28,
-								},
-								["冰霜新星"] = {
-									["count"] = 1.5,
-								},
-								["火球术"] = {
-									["count"] = 103.37,
-								},
-								["寒冰箭"] = {
-									["count"] = 1.93,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 37.45,
-								},
-								["火焰冲击"] = {
-									["count"] = 2.53,
-								},
-							},
-							["amount"] = 156.06,
-						},
-						["治疗结界"] = {
-							["Details"] = {
-								["射击"] = {
-									["count"] = 6,
-								},
-								["火焰冲击"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 7.5,
-						},
-						["暗滩祭司"] = {
-							["Details"] = {
-								["魔爆术"] = {
-									["count"] = 1.5,
-								},
-								["寒冰箭"] = {
-									["count"] = 6,
-								},
-								["火焰冲击"] = {
-									["count"] = 3.54,
-								},
-							},
-							["amount"] = 11.04,
-						},
-					},
-					["ManaGain"] = 350,
 					["PartialAbsorb"] = {
-						["火球术"] = {
+						["背刺"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
@@ -10948,19 +2618,43 @@ RecountPerCharDB = {
 							["count"] = 5,
 							["amount"] = 0,
 						},
-						["投掷"] = {
+						["撕裂 (伤害/跳)"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 71,
+									["count"] = 65,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 71,
+							["count"] = 65,
 							["amount"] = 0,
 						},
-						["火焰箭"] = {
+						["盾牌猛击"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["反手一击"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["缴械"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
@@ -10972,7 +2666,7 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["射击"] = {
+						["挫志怒吼"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
@@ -10984,1835 +2678,856 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 0,
 						},
-						["雷霆一击"] = {
+						["闪电链"] = {
 							["Details"] = {
-								["被吸收"] = {
-									["max"] = 16,
-									["min"] = 12,
-									["count"] = 2,
-									["amount"] = 28,
-								},
 								["未被吸收"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 10,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 12,
-							["amount"] = 28,
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["撕裂"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
 						},
 						["肉搏"] = {
 							["Details"] = {
-								["被吸收"] = {
-									["max"] = 34,
-									["min"] = 21,
-									["count"] = 9,
-									["amount"] = 231,
-								},
 								["未被吸收"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 595,
+									["count"] = 597,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 604,
-							["amount"] = 231,
-						},
-						["闪电箭"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 33,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 33,
-							["amount"] = 0,
-						},
-						["腐蚀术 (伤害/跳)"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["被吸收"] = {
-									["max"] = 18,
-									["min"] = 6,
-									["count"] = 5,
-									["amount"] = 78,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 78,
-						},
-						["腐蚀术"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["火焰之盾效果"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Falling"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 24,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 24,
-							["amount"] = 0,
-						},
-						["神圣惩击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 0,
-						},
-						["暗影箭"] = {
-							["Details"] = {
-								["被吸收"] = {
-									["max"] = 90,
-									["min"] = 77,
-									["count"] = 2,
-									["amount"] = 167,
-								},
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 10,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 12,
-							["amount"] = 167,
-						},
-						["精灵之火"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["冰霜震击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["毁灭"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["火焰冲击"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
+							["count"] = 597,
 							["amount"] = 0,
 						},
 					},
-					["DamagedWho"] = {
-						["雪怪"] = {
+					["ActiveTime"] = 553.2899999999993,
+					["WhoDispelled"] = {
+						["南宫浮生"] = {
 							["Details"] = {
-								["火球术 (伤害/跳)"] = {
+								["感染之伤 (纯净术)"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["Dispelled"] = 2,
+					["Heals"] = {
+						["圣光审判"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 22,
+									["min"] = 5,
+									["count"] = 104,
+									["amount"] = 2030,
+								},
+							},
+							["count"] = 104,
+							["amount"] = 2030,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 5,
+								},
+								["Tick"] = {
+									["count"] = 842,
+								},
+								["Dodge"] = {
+									["count"] = 7,
+								},
+								["Hit"] = {
+									["count"] = 655,
+								},
+								["Miss"] = {
+									["count"] = 10,
+								},
+								["Block"] = {
+									["count"] = 6,
+								},
+								["Crit"] = {
+									["count"] = 37,
+								},
+								["Parry"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 1564,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
 									["count"] = 9,
 								},
-								["火球术"] = {
-									["count"] = 1863,
+								["Hit"] = {
+									["count"] = 93,
 								},
-								["火焰冲击"] = {
-									["count"] = 117,
+								["Dodge"] = {
+									["count"] = 9,
 								},
-							},
-							["amount"] = 1989,
-						},
-						["月夜猛虎幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 213,
-								},
-							},
-							["amount"] = 213,
-						},
-						["黑木图腾师"] = {
-							["Details"] = {
-								["暴风雪"] = {
-									["count"] = 2528,
-								},
-								["火球术"] = {
-									["count"] = 576,
-								},
-								["冰霜新星"] = {
-									["count"] = 284,
-								},
-								["魔爆术"] = {
-									["count"] = 413,
-								},
-								["寒冰箭"] = {
-									["count"] = 1169,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 6,
-								},
-								["火焰冲击"] = {
-									["count"] = 406,
-								},
-							},
-							["amount"] = 5382,
-						},
-						["月夜枭兽"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 47,
-								},
-							},
-							["amount"] = 47,
-						},
-						["山猪"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 6,
-								},
-								["射击"] = {
-									["count"] = 84,
-								},
-								["火球术"] = {
-									["count"] = 1946,
-								},
-								["火焰冲击"] = {
-									["count"] = 43,
-								},
-							},
-							["amount"] = 2079,
-						},
-						["被诅咒的贵族"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 1829,
-								},
-								["射击"] = {
-									["count"] = 100,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 18,
-								},
-								["寒冰箭"] = {
-									["count"] = 56,
-								},
-							},
-							["amount"] = 2003,
-						},
-						["老峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 1306,
-								},
-								["火球术 (伤害/跳)"] = {
+								["Block"] = {
 									["count"] = 3,
 								},
-							},
-							["amount"] = 1309,
-						},
-						["黑木探路者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 16,
-								},
-								["寒冰箭"] = {
-									["count"] = 180,
-								},
-								["火球术"] = {
-									["count"] = 1975,
-								},
-								["射击"] = {
-									["count"] = 61,
-								},
-							},
-							["amount"] = 2232,
-						},
-						["霜鬃暗法师"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 184,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 185,
-						},
-						["莫克迪普"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 378,
-								},
-								["火焰冲击"] = {
-									["count"] = 177,
-								},
-								["火球术 (伤害/跳)"] = {
+								["Crit"] = {
 									["count"] = 14,
 								},
-								["冰霜新星"] = {
-									["count"] = 25,
+								["Parry"] = {
+									["count"] = 8,
 								},
 							},
-							["amount"] = 594,
+							["amount"] = 136,
 						},
-						["坑道鼠歹徒"] = {
+						["Nature"] = {
 							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4,
+								["Hit"] = {
+									["count"] = 466,
 								},
-								["射击"] = {
+							},
+							["amount"] = 466,
+						},
+					},
+					["Overhealing"] = 1131,
+					["TimeSpent"] = {
+						["迪菲亚狱友"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 11.23,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 48.88000000000001,
+								},
+								["命令圣印"] = {
+									["count"] = 1.97,
+								},
+								["惩戒光环"] = {
+									["count"] = 0.02,
+								},
+								["荆棘术"] = {
+									["count"] = 74.05,
+								},
+								["肉搏"] = {
+									["count"] = 23.12,
+								},
+							},
+							["amount"] = 159.2699999999998,
+						},
+						["迪菲亚囚徒"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 10.23,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 24.28,
+								},
+								["命令圣印"] = {
+									["count"] = 0.06000000000000001,
+								},
+								["惩戒光环"] = {
+									["count"] = 11.34,
+								},
+								["肉搏"] = {
+									["count"] = 14.9,
+								},
+								["荆棘术"] = {
+									["count"] = 39.47,
+								},
+							},
+							["amount"] = 100.28,
+						},
+						["迪菲亚俘虏"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 1.89,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 16.8,
+								},
+								["命令圣印"] = {
+									["count"] = 1.25,
+								},
+								["清算之手"] = {
+									["count"] = 0.48,
+								},
+								["惩戒光环"] = {
+									["count"] = 3.14,
+								},
+								["肉搏"] = {
+									["count"] = 3.01,
+								},
+								["荆棘术"] = {
+									["count"] = 16.79,
+								},
+							},
+							["amount"] = 43.35999999999999,
+						},
+						["巴基尔·斯瑞德"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0.85,
+								},
+								["荆棘术"] = {
+									["count"] = 5.52,
+								},
+								["肉搏"] = {
+									["count"] = 1.31,
+								},
+							},
+							["amount"] = 7.68,
+						},
+						["查尔斯三世"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 1.3,
+								},
+							},
+							["amount"] = 1.3,
+						},
+						["祝雨来"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 4.08,
+								},
+							},
+							["amount"] = 4.08,
+						},
+						["迪菲亚叛军"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 4.19,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 37.39000000000001,
+								},
+								["命令圣印"] = {
+									["count"] = 2.09,
+								},
+								["清算之手"] = {
+									["count"] = 1.45,
+								},
+								["智慧审判"] = {
+									["count"] = 0.1,
+								},
+								["肉搏"] = {
+									["count"] = 9.280000000000001,
+								},
+								["荆棘术"] = {
+									["count"] = 26.18999999999999,
+								},
+							},
+							["amount"] = 80.69000000000001,
+						},
+						["哈姆霍克"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 1.4,
+								},
+								["智慧审判"] = {
+									["count"] = 0.03,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 1.19,
+								},
+								["荆棘术"] = {
+									["count"] = 2.38,
+								},
+							},
+							["amount"] = 5,
+						},
+						["三自四有"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 7.89,
+								},
+							},
+							["amount"] = 7.89,
+						},
+						["迪克斯特·瓦德"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 1.83,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 3.89,
+								},
+								["荆棘术"] = {
+									["count"] = 2.810000000000001,
+								},
+								["肉搏"] = {
+									["count"] = 0.7200000000000001,
+								},
+							},
+							["amount"] = 9.25,
+						},
+						["卡姆·深怒"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0.62,
+								},
+								["命令圣印"] = {
+									["count"] = 1.5,
+								},
+								["荆棘术"] = {
+									["count"] = 3.95,
+								},
+							},
+							["amount"] = 6.07,
+						},
+						["南宫浮生"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 80.88000000000004,
+								},
+							},
+							["amount"] = 80.88000000000004,
+						},
+						["迪菲亚罪犯"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 3.51,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 11.54,
+								},
+								["肉搏"] = {
+									["count"] = 8.299999999999997,
+								},
+								["荆棘术"] = {
+									["count"] = 24.19000000000001,
+								},
+							},
+							["amount"] = 47.53999999999999,
+						},
+					},
+					["Healing"] = 2030,
+					["DamageTaken"] = 23350,
+					["ManaGainedFrom"] = {
+						["三自四有"] = {
+							["Details"] = {
+								["智慧审判"] = {
+									["count"] = 506,
+								},
+							},
+							["amount"] = 506,
+						},
+						["南宫浮生"] = {
+							["Details"] = {
+								["命令圣印雕文"] = {
+									["count"] = 2677,
+								},
+								["智慧审判"] = {
+									["count"] = 403,
+								},
+							},
+							["amount"] = 3080,
+						},
+					},
+					["Attacks"] = {
+						["命令审判"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 97,
+									["min"] = 84,
+									["count"] = 4,
+									["amount"] = 367,
+								},
+								["Hit"] = {
+									["max"] = 50,
+									["min"] = 26,
+									["count"] = 51,
+									["amount"] = 2227,
+								},
+							},
+							["count"] = 55,
+							["amount"] = 2594,
+						},
+						["奉献 (伤害/跳)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 20,
+									["min"] = 17,
+									["count"] = 842,
+									["amount"] = 15931,
+								},
+							},
+							["count"] = 842,
+							["amount"] = 15931,
+						},
+						["命令圣印"] = {
+							["Details"] = {
+								["Hit (被格挡)"] = {
+									["max"] = 39,
+									["min"] = 27,
+									["count"] = 6,
+									["amount"] = 210,
+								},
+								["Dodge"] = {
+									["count"] = 7,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 8,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 53,
+									["min"] = 16,
+									["count"] = 193,
+									["amount"] = 8893,
+								},
+								["Crit"] = {
+									["max"] = 104,
+									["min"] = 37,
+									["count"] = 33,
+									["amount"] = 3001,
+								},
+								["Parry"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 249,
+							["amount"] = 12104,
+						},
+						["清算之手"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 134,
+									["min"] = 124,
+									["count"] = 3,
+									["amount"] = 383,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 383,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 8,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 110,
+									["min"] = 82,
+									["count"] = 90,
+									["amount"] = 8585,
+								},
+								["Dodge"] = {
+									["count"] = 9,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 9,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 205,
+									["min"] = 159,
+									["count"] = 14,
+									["amount"] = 2586,
+								},
+								["Hit (被格挡)"] = {
+									["max"] = 91,
+									["min"] = 84,
+									["count"] = 3,
+									["amount"] = 265,
+								},
+							},
+							["count"] = 133,
+							["amount"] = 11436,
+						},
+						["智慧审判"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["惩戒光环"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 5,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 18,
+									["min"] = 7,
+									["count"] = 402,
+									["amount"] = 7216,
+								},
+							},
+							["count"] = 407,
+							["amount"] = 7216,
+						},
+						["荆棘术"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 10,
+									["min"] = 4,
+									["count"] = 466,
+									["amount"] = 4323,
+								},
+							},
+							["count"] = 466,
+							["amount"] = 4323,
+						},
+					},
+					["HealingTaken"] = 21713,
+					["DOT_Time"] = 2526,
+					["TimeDamage"] = 459.1399999999999,
+					["TimeDamaging"] = {
+						["迪菲亚狱友"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 11.23,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 48.88000000000001,
+								},
+								["命令圣印"] = {
+									["count"] = 1.97,
+								},
+								["惩戒光环"] = {
+									["count"] = 0.02,
+								},
+								["荆棘术"] = {
+									["count"] = 74.05,
+								},
+								["肉搏"] = {
+									["count"] = 23.12,
+								},
+							},
+							["amount"] = 159.2699999999998,
+						},
+						["迪菲亚囚徒"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 10.23,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 24.28,
+								},
+								["命令圣印"] = {
+									["count"] = 0.06000000000000001,
+								},
+								["惩戒光环"] = {
+									["count"] = 11.34,
+								},
+								["肉搏"] = {
+									["count"] = 14.9,
+								},
+								["荆棘术"] = {
+									["count"] = 39.47,
+								},
+							},
+							["amount"] = 100.28,
+						},
+						["哈姆霍克"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 1.4,
+								},
+								["智慧审判"] = {
+									["count"] = 0.03,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 1.19,
+								},
+								["荆棘术"] = {
+									["count"] = 2.38,
+								},
+							},
+							["amount"] = 5,
+						},
+						["巴基尔·斯瑞德"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0.85,
+								},
+								["荆棘术"] = {
+									["count"] = 5.52,
+								},
+								["肉搏"] = {
+									["count"] = 1.31,
+								},
+							},
+							["amount"] = 7.68,
+						},
+						["迪菲亚叛军"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 4.19,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 37.39000000000001,
+								},
+								["命令圣印"] = {
+									["count"] = 2.09,
+								},
+								["清算之手"] = {
+									["count"] = 1.45,
+								},
+								["智慧审判"] = {
+									["count"] = 0.1,
+								},
+								["肉搏"] = {
+									["count"] = 9.280000000000001,
+								},
+								["荆棘术"] = {
+									["count"] = 26.18999999999999,
+								},
+							},
+							["amount"] = 80.69000000000001,
+						},
+						["迪克斯特·瓦德"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 1.83,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 3.89,
+								},
+								["荆棘术"] = {
+									["count"] = 2.810000000000001,
+								},
+								["肉搏"] = {
+									["count"] = 0.7200000000000001,
+								},
+							},
+							["amount"] = 9.25,
+						},
+						["卡姆·深怒"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0.62,
+								},
+								["命令圣印"] = {
+									["count"] = 1.5,
+								},
+								["荆棘术"] = {
+									["count"] = 3.95,
+								},
+							},
+							["amount"] = 6.07,
+						},
+						["迪菲亚俘虏"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 1.89,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 16.8,
+								},
+								["命令圣印"] = {
+									["count"] = 1.25,
+								},
+								["清算之手"] = {
+									["count"] = 0.48,
+								},
+								["惩戒光环"] = {
+									["count"] = 3.14,
+								},
+								["肉搏"] = {
+									["count"] = 3.01,
+								},
+								["荆棘术"] = {
+									["count"] = 16.79,
+								},
+							},
+							["amount"] = 43.35999999999999,
+						},
+						["迪菲亚罪犯"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 3.51,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 11.54,
+								},
+								["肉搏"] = {
+									["count"] = 8.299999999999997,
+								},
+								["荆棘术"] = {
+									["count"] = 24.19000000000001,
+								},
+							},
+							["amount"] = 47.53999999999999,
+						},
+					},
+					["ManaGain"] = 3586,
+					["HealedWho"] = {
+						["查尔斯三世"] = {
+							["Details"] = {
+								["圣光审判"] = {
 									["count"] = 32,
 								},
-								["火球术"] = {
-									["count"] = 1140,
-								},
-								["冰霜新星"] = {
-									["count"] = 45,
+							},
+							["amount"] = 32,
+						},
+						["南宫浮生"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 1766,
 								},
 							},
-							["amount"] = 1221,
+							["amount"] = 1766,
 						},
-						["灰斑蓟熊"] = {
+						["三自四有"] = {
 							["Details"] = {
-								["荆棘术"] = {
-									["count"] = 6,
-								},
-								["寒冰箭"] = {
-									["count"] = 374,
-								},
-								["冰霜新星"] = {
-									["count"] = 25,
-								},
-								["火球术"] = {
-									["count"] = 2927,
-								},
-								["射击"] = {
-									["count"] = 62,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 26,
-								},
-								["火焰冲击"] = {
-									["count"] = 355,
+								["圣光审判"] = {
+									["count"] = 151,
 								},
 							},
-							["amount"] = 3775,
+							["amount"] = 151,
 						},
-						["霜鬃雪行者"] = {
+						["祝雨来"] = {
 							["Details"] = {
-								["火球术"] = {
-									["count"] = 1118,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 1122,
-						},
-						["坑道鼠狗头人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 481,
-								},
-								["射击"] = {
-									["count"] = 41,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 524,
-						},
-						["暗礁蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 30,
-								},
-								["射击"] = {
-									["count"] = 113,
-								},
-								["火球术"] = {
-									["count"] = 6954,
-								},
-							},
-							["amount"] = 7097,
-						},
-						["小潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 16,
-								},
-								["射击"] = {
-									["count"] = 96,
-								},
-								["火球术"] = {
-									["count"] = 3134,
-								},
-							},
-							["amount"] = 3246,
-						},
-						["霜鬃剥皮者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 412,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 415,
-						},
-						["老年深海蛇颈龙"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4,
-								},
-								["射击"] = {
-									["count"] = 28,
-								},
-								["火球术"] = {
-									["count"] = 394,
-								},
-							},
-							["amount"] = 426,
-						},
-						["石腭断骨者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 45,
-								},
-								["火球术"] = {
-									["count"] = 1902,
-								},
-								["寒冰箭"] = {
-									["count"] = 63,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9,
-								},
-								["火焰冲击"] = {
-									["count"] = 92,
-								},
-							},
-							["amount"] = 2111,
-						},
-						["石腭击颅者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 21,
-								},
-								["火球术"] = {
-									["count"] = 2650,
-								},
-								["寒冰箭"] = {
-									["count"] = 114,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 12,
-								},
-								["火焰冲击"] = {
-									["count"] = 128,
-								},
-							},
-							["amount"] = 2925,
-						},
-						["石腭穴居人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 350,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 352,
-						},
-						["坑道鼠掘地工"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9,
-								},
-								["射击"] = {
-									["count"] = 67,
-								},
-								["火球术"] = {
-									["count"] = 1268,
-								},
-								["火焰冲击"] = {
-									["count"] = 36,
-								},
-							},
-							["amount"] = 1380,
-						},
-						["壮实的石腭穴居人"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1,
-								},
-								["火球术"] = {
-									["count"] = 339,
-								},
-								["肉搏"] = {
-									["count"] = 10,
-								},
-							},
-							["amount"] = 350,
-						},
-						["小鬼爪牙"] = {
-							["Details"] = {
-								["魔爆术"] = {
-									["count"] = 47,
-								},
-								["寒冰箭"] = {
-									["count"] = 123,
-								},
-							},
-							["amount"] = 170,
-						},
-						["治疗结界"] = {
-							["Details"] = {
-								["射击"] = {
-									["count"] = 49,
-								},
-							},
-							["amount"] = 49,
-						},
-						["黑木战士"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 301,
-								},
-								["魔爆术"] = {
-									["count"] = 231,
-								},
-								["寒冰箭"] = {
-									["count"] = 1552,
-								},
-								["火焰冲击"] = {
-									["count"] = 182,
-								},
-								["暴风雪"] = {
-									["count"] = 3655,
-								},
-							},
-							["amount"] = 5921,
-						},
-						["暗滩挖掘者"] = {
-							["Details"] = {
-								["寒冰箭"] = {
-									["count"] = 1004,
-								},
-							},
-							["amount"] = 1004,
-						},
-						["黑海岸蛇颈龙"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 2270,
-								},
-								["射击"] = {
-									["count"] = 161,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 22,
-								},
-								["火焰冲击"] = {
-									["count"] = 90,
-								},
-							},
-							["amount"] = 2543,
-						},
-						["小型峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 619,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 622,
-						},
-						["石腭袭击者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 408,
-								},
-								["火焰冲击"] = {
-									["count"] = 195,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1,
-								},
-								["肉搏"] = {
-									["count"] = 11,
-								},
-							},
-							["amount"] = 615,
-						},
-						["硬壳潮行蟹"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 12,
-								},
-								["射击"] = {
-									["count"] = 47,
-								},
-								["火球术"] = {
-									["count"] = 771,
-								},
-								["寒冰箭"] = {
-									["count"] = 84,
-								},
-							},
-							["amount"] = 914,
-						},
-						["霜鬃巨魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 510,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 513,
-						},
-						["黑木风语者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 1413,
-								},
-								["射击"] = {
-									["count"] = 67,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 1484,
-						},
-						["灰雾滩行者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 1938,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 18,
-								},
-								["冰霜新星"] = {
-									["count"] = 48,
-								},
-								["魔爆术"] = {
-									["count"] = 175,
-								},
-								["寒冰箭"] = {
-									["count"] = 86,
-								},
-								["射击"] = {
-									["count"] = 47,
-								},
-								["火焰冲击"] = {
-									["count"] = 89,
-								},
-							},
-							["amount"] = 2401,
-						},
-						["蓟熊"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 98,
-								},
-							},
-							["amount"] = 98,
-						},
-						["灰雾智者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 1981,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 22,
-								},
-							},
-							["amount"] = 2003,
-						},
-						["森林陆行鸟"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 46,
-								},
-								["暴风雪"] = {
-									["count"] = 312,
-								},
-							},
-							["amount"] = 358,
-						},
-						["砂石断骨者"] = {
-							["Details"] = {
-								["寒冰箭"] = {
-									["count"] = 249,
-								},
-								["火焰冲击"] = {
-									["count"] = 83,
-								},
-							},
-							["amount"] = 332,
-						},
-						["霜鬃先知"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 1066,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1067,
-						},
-						["雪狼"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1,
-								},
-								["火球术"] = {
-									["count"] = 293,
-								},
-								["火焰冲击"] = {
-									["count"] = 43,
-								},
-							},
-							["amount"] = 337,
-						},
-						["黑幕追踪者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 45,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4,
-								},
-								["火球术"] = {
-									["count"] = 648,
-								},
-								["魔爆术"] = {
-									["count"] = 366,
-								},
-								["火焰冲击"] = {
-									["count"] = 177,
-								},
-							},
-							["amount"] = 1240,
-						},
-						["灰雾潮行者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 18,
-								},
-								["射击"] = {
-									["count"] = 61,
-								},
-								["火球术"] = {
-									["count"] = 2109,
-								},
-							},
-							["amount"] = 2188,
-						},
-						["雪怪幼崽"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 768,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 771,
-						},
-						["峭壁野猪"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 10,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 12,
-								},
-								["寒冰箭"] = {
-									["count"] = 102,
-								},
-								["火球术"] = {
-									["count"] = 2480,
-								},
-								["火焰冲击"] = {
-									["count"] = 226,
-								},
-							},
-							["amount"] = 2830,
-						},
-						["暮光信徒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 12,
-								},
-								["火焰冲击"] = {
-									["count"] = 178,
-								},
-								["火球术"] = {
-									["count"] = 1350,
-								},
-								["冰霜新星"] = {
-									["count"] = 23,
-								},
-							},
-							["amount"] = 1563,
-						},
-						["蓬毛幼狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 394,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 395,
-						},
-						["鹿"] = {
-							["Details"] = {
-								["火焰冲击"] = {
+								["圣光审判"] = {
 									["count"] = 81,
 								},
 							},
 							["amount"] = 81,
 						},
-						["黑熊幼崽"] = {
+					},
+					["DispelledWho"] = {
+						["南宫浮生"] = {
 							["Details"] = {
-								["火球术"] = {
-									["count"] = 578,
-								},
-								["寒冰箭"] = {
-									["count"] = 41,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1,
-								},
-								["火焰冲击"] = {
-									["count"] = 56,
-								},
-							},
-							["amount"] = 676,
-						},
-						["老黑熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9,
-								},
-								["射击"] = {
-									["count"] = 196,
-								},
-								["火球术"] = {
-									["count"] = 2667,
-								},
-							},
-							["amount"] = 2872,
-						},
-						["暗滩执行者"] = {
-							["Details"] = {
-								["魔爆术"] = {
-									["count"] = 134,
-								},
-								["寒冰箭"] = {
-									["count"] = 1126,
-								},
-								["冰霜新星"] = {
-									["count"] = 60,
-								},
-								["火焰冲击"] = {
-									["count"] = 187,
-								},
-							},
-							["amount"] = 1507,
-						},
-						["萨巴克希斯"] = {
-							["Details"] = {
-								["寒冰箭"] = {
-									["count"] = 118,
-								},
-								["冰霜新星"] = {
-									["count"] = 25,
-								},
-								["火焰冲击"] = {
-									["count"] = 93,
-								},
-							},
-							["amount"] = 236,
-						},
-						["瓦加什"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 225,
-								},
-							},
-							["amount"] = 225,
-						},
-						["戴瑟雷萨特"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 572,
-								},
-								["火球术 (伤害/跳)"] = {
+								["感染之伤 (纯净术)"] = {
 									["count"] = 2,
 								},
 							},
-							["amount"] = 574,
-						},
-						["癞爪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 174,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 2,
-								},
-								["火焰冲击"] = {
-									["count"] = 47,
-								},
-							},
-							["amount"] = 223,
-						},
-						["破损的傀儡"] = {
-							["Details"] = {
-								["荆棘术"] = {
-									["count"] = 6,
-								},
-								["寒冰箭"] = {
-									["count"] = 2024,
-								},
-								["冰霜新星"] = {
-									["count"] = 24,
-								},
-								["火球术"] = {
-									["count"] = 882,
-								},
-								["射击"] = {
-									["count"] = 32,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 8,
-								},
-								["火焰冲击"] = {
-									["count"] = 94,
-								},
-							},
-							["amount"] = 3070,
-						},
-						["灰雾猎人"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 1984,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 16,
-								},
-							},
-							["amount"] = 2000,
-						},
-						["霜鬃猎头者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 10,
-								},
-								["火球术"] = {
-									["count"] = 1787,
-								},
-								["火焰冲击"] = {
-									["count"] = 126,
-								},
-							},
-							["amount"] = 1923,
-						},
-						["麻疯侏儒"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 14,
-								},
-								["火焰冲击"] = {
-									["count"] = 38,
-								},
-								["火球术"] = {
-									["count"] = 3533,
-								},
-								["肉搏"] = {
-									["count"] = 21,
-								},
-							},
-							["amount"] = 3606,
-						},
-						["冰须"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 3,
-								},
-								["寒冰箭"] = {
-									["count"] = 96,
-								},
-								["火球术"] = {
-									["count"] = 113,
-								},
-							},
-							["amount"] = 212,
-						},
-						["黑木巨熊怪"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 44,
-								},
-								["魔爆术"] = {
-									["count"] = 44,
-								},
-								["暴风雪"] = {
-									["count"] = 45,
-								},
-								["火球术"] = {
-									["count"] = 184,
-								},
-								["火焰冲击"] = {
-									["count"] = 87,
-								},
-							},
-							["amount"] = 404,
-						},
-						["哀嚎的贵族"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 4,
-								},
-								["火球术"] = {
-									["count"] = 1545,
-								},
-								["火焰冲击"] = {
-									["count"] = 160,
-								},
-							},
-							["amount"] = 1709,
-						},
-						["蓬毛森林狼"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 58,
-								},
-							},
-							["amount"] = 58,
-						},
-						["碎石怪先知"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 16,
-								},
-								["火球术"] = {
-									["count"] = 2846,
-								},
-								["火焰冲击"] = {
-									["count"] = 67,
-								},
-							},
-							["amount"] = 2929,
-						},
-						["安娜雅·晨路"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 399,
-								},
-							},
-							["amount"] = 399,
-						},
-						["砂石斥候"] = {
-							["Details"] = {
-								["荆棘术"] = {
-									["count"] = 6,
-								},
-								["冰霜新星"] = {
-									["count"] = 46,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 12,
-								},
-								["寒冰箭"] = {
-									["count"] = 741,
-								},
-								["火球术"] = {
-									["count"] = 1124,
-								},
-								["火焰冲击"] = {
-									["count"] = 174,
-								},
-							},
-							["amount"] = 2103,
-						},
-						["虚空行者"] = {
-							["Details"] = {
-								["魔爆术"] = {
-									["count"] = 157,
-								},
-								["寒冰箭"] = {
-									["count"] = 125,
-								},
-								["冰霜新星"] = {
-									["count"] = 24,
-								},
-							},
-							["amount"] = 306,
-						},
-						["碎石怪斥候"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 4317,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 21,
-								},
-							},
-							["amount"] = 4338,
-						},
-						["碎石怪击颅者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 66,
-								},
-								["火球术"] = {
-									["count"] = 2788,
-								},
-								["射击"] = {
-									["count"] = 114,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 30,
-								},
-								["火焰冲击"] = {
-									["count"] = 39,
-								},
-							},
-							["amount"] = 3037,
-						},
-						["碎石穴居人"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 44,
-								},
-								["火球术"] = {
-									["count"] = 3684,
-								},
-								["寒冰箭"] = {
-									["count"] = 90,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 19,
-								},
-								["肉搏"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 3839,
-						},
-						["坑道鼠地卜师"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 2,
-								},
-								["射击"] = {
-									["count"] = 45,
-								},
-								["火球术"] = {
-									["count"] = 1895,
-								},
-							},
-							["amount"] = 1942,
-						},
-						["冰爪熊"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 13,
-								},
-								["寒冰箭"] = {
-									["count"] = 43,
-								},
-								["火球术"] = {
-									["count"] = 1752,
-								},
-								["火焰冲击"] = {
-									["count"] = 166,
-								},
-							},
-							["amount"] = 1974,
-						},
-						["月夜猛虎"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 20,
-								},
-								["射击"] = {
-									["count"] = 219,
-								},
-								["火球术"] = {
-									["count"] = 3642,
-								},
-								["冰霜新星"] = {
-									["count"] = 23,
-								},
-							},
-							["amount"] = 3904,
-						},
-						["坑道鼠征粮官"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 862,
-								},
-								["射击"] = {
-									["count"] = 27,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 2,
-								},
-								["冰霜新星"] = {
-									["count"] = 49,
-								},
-							},
-							["amount"] = 940,
-						},
-						["霜鬃巨魔幼崽"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 8,
-								},
-								["火球术"] = {
-									["count"] = 770,
-								},
-								["肉搏"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 786,
-						},
-						["大峭壁野猪"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 962,
-								},
-								["寒冰箭"] = {
-									["count"] = 39,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 5,
-								},
-								["火焰冲击"] = {
-									["count"] = 121,
-								},
-							},
-							["amount"] = 1127,
-						},
-						["恶灵劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 3421,
-								},
-								["射击"] = {
-									["count"] = 274,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 22,
-								},
-							},
-							["amount"] = 3717,
-						},
-						["冷酷的格瑞克尼尔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 116,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 117,
-						},
-						["坑道鼠斥候"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 2,
-								},
-								["射击"] = {
-									["count"] = 30,
-								},
-								["火球术"] = {
-									["count"] = 169,
-								},
-							},
-							["amount"] = 201,
-						},
-						["幽爪奔跑者"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 23,
-								},
-							},
-							["amount"] = 23,
-						},
-						["雷鳞御浪者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 12,
-								},
-								["寒冰箭"] = {
-									["count"] = 84,
-								},
-								["火球术"] = {
-									["count"] = 1784,
-								},
-							},
-							["amount"] = 1880,
-						},
-						["野生劣魔"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 1927,
-								},
-								["射击"] = {
-									["count"] = 268,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 24,
-								},
-								["冰霜新星"] = {
-									["count"] = 24,
-								},
-							},
-							["amount"] = 2243,
-						},
-						["灰雾撒网者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 2,
-								},
-								["射击"] = {
-									["count"] = 21,
-								},
-								["火球术"] = {
-									["count"] = 285,
-								},
-							},
-							["amount"] = 308,
-						},
-						["挣扎的贵族"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 24,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 26,
-								},
-								["寒冰箭"] = {
-									["count"] = 27,
-								},
-								["射击"] = {
-									["count"] = 156,
-								},
-								["火球术"] = {
-									["count"] = 1543,
-								},
-							},
-							["amount"] = 1776,
-						},
-						["狂暴的月夜枭兽"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 47,
-								},
-								["火球术"] = {
-									["count"] = 471,
-								},
-								["射击"] = {
-									["count"] = 28,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 12,
-								},
-								["火焰冲击"] = {
-									["count"] = 90,
-								},
-							},
-							["amount"] = 648,
-						},
-						["森林潜伏者"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 9,
-								},
-								["射击"] = {
-									["count"] = 100,
-								},
-								["火球术"] = {
-									["count"] = 3486,
-								},
-								["火焰冲击"] = {
-									["count"] = 45,
-								},
-							},
-							["amount"] = 3640,
-						},
-						["玛洛什"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 366,
-								},
-							},
-							["amount"] = 366,
-						},
-						["灰雾战士"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 48,
-								},
-								["火球术"] = {
-									["count"] = 2908,
-								},
-								["射击"] = {
-									["count"] = 46,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 16,
-								},
-								["魔爆术"] = {
-									["count"] = 270,
-								},
-							},
-							["amount"] = 3288,
-						},
-						["石巨兽"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 16,
-								},
-								["寒冰箭"] = {
-									["count"] = 616,
-								},
-								["火球术"] = {
-									["count"] = 2286,
-								},
-								["火焰冲击"] = {
-									["count"] = 265,
-								},
-							},
-							["amount"] = 3183,
-						},
-						["暗滩精兵"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 191,
-								},
-								["冰霜新星"] = {
-									["count"] = 24,
-								},
-								["魔爆术"] = {
-									["count"] = 116,
-								},
-								["寒冰箭"] = {
-									["count"] = 251,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 8,
-								},
-								["火焰冲击"] = {
-									["count"] = 86,
-								},
-							},
-							["amount"] = 676,
-						},
-						["灰雾先知"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 6,
-								},
-								["射击"] = {
-									["count"] = 17,
-								},
-								["火球术"] = {
-									["count"] = 1113,
-								},
-							},
-							["amount"] = 1136,
-						},
-						["冬狼"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 5,
-								},
-								["寒冰箭"] = {
-									["count"] = 40,
-								},
-								["火球术"] = {
-									["count"] = 469,
-								},
-								["冰霜新星"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 534,
-						},
-						["砂石地占师"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 14,
-								},
-								["寒冰箭"] = {
-									["count"] = 310,
-								},
-								["火球术"] = {
-									["count"] = 418,
-								},
-								["火焰冲击"] = {
-									["count"] = 184,
-								},
-							},
-							["amount"] = 926,
-						},
-						["雪豹"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 1675,
-								},
-								["寒冰箭"] = {
-									["count"] = 20,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 11,
-								},
-								["火焰冲击"] = {
-									["count"] = 131,
-								},
-							},
-							["amount"] = 1837,
-						},
-						["暗滩狂热者"] = {
-							["Details"] = {
-								["火球术"] = {
-									["count"] = 4080,
-								},
-								["射击"] = {
-									["count"] = 64,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 36,
-								},
-								["冰霜新星"] = {
-									["count"] = 24,
-								},
-							},
-							["amount"] = 4204,
-						},
-						["雷鳞海妖"] = {
-							["Details"] = {
-								["火球术 (伤害/跳)"] = {
-									["count"] = 26,
-								},
-								["寒冰箭"] = {
-									["count"] = 84,
-								},
-								["火球术"] = {
-									["count"] = 2082,
-								},
-								["火焰冲击"] = {
-									["count"] = 86,
-								},
-							},
-							["amount"] = 2278,
-						},
-						["狂暴蓟熊"] = {
-							["Details"] = {
-								["射击"] = {
-									["count"] = 135,
-								},
-								["冰霜新星"] = {
-									["count"] = 48,
-								},
-								["火球术"] = {
-									["count"] = 8147,
-								},
-								["寒冰箭"] = {
-									["count"] = 118,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 58,
-								},
-								["火焰冲击"] = {
-									["count"] = 175,
-								},
-							},
-							["amount"] = 8681,
-						},
-						["暮光暴徒"] = {
-							["Details"] = {
-								["冰霜新星"] = {
-									["count"] = 73,
-								},
-								["火球术"] = {
-									["count"] = 3456,
-								},
-								["射击"] = {
-									["count"] = 84,
-								},
-								["火球术 (伤害/跳)"] = {
-									["count"] = 26,
-								},
-								["火焰冲击"] = {
-									["count"] = 85,
-								},
-							},
-							["amount"] = 3724,
-						},
-						["暗滩祭司"] = {
-							["Details"] = {
-								["魔爆术"] = {
-									["count"] = 66,
-								},
-								["寒冰箭"] = {
-									["count"] = 497,
-								},
-								["火焰冲击"] = {
-									["count"] = 301,
-								},
-							},
-							["amount"] = 864,
+							["amount"] = 2,
 						},
 					},
 				},
 			},
-			["Owner"] = false,
-			["LastEventIncoming"] = {
-				true, -- [1]
-				false, -- [2]
-				false, -- [3]
-				false, -- [4]
-				true, -- [5]
-				false, -- [6]
-				true, -- [7]
-				true, -- [8]
-				true, -- [9]
-				false, -- [10]
-				false, -- [11]
-				true, -- [12]
-				true, -- [13]
-				false, -- [14]
-				false, -- [15]
-				false, -- [16]
-				false, -- [17]
-				false, -- [18]
-				false, -- [19]
-				false, -- [20]
-				false, -- [21]
-				false, -- [22]
-				false, -- [23]
-				false, -- [24]
-				false, -- [25]
-				false, -- [26]
-				false, -- [27]
-				true, -- [28]
-				false, -- [29]
-				false, -- [30]
-				true, -- [31]
-				false, -- [32]
-				false, -- [33]
-				true, -- [34]
-				true, -- [35]
-				false, -- [36]
-				true, -- [37]
-				true, -- [38]
-				false, -- [39]
-				false, -- [40]
-				false, -- [41]
-				true, -- [42]
-				true, -- [43]
-				true, -- [44]
-				false, -- [45]
-				false, -- [46]
-				true, -- [47]
-				true, -- [48]
-				false, -- [49]
-				false, -- [50]
-			},
-			["NextEventNum"] = 28,
-			["LastDamageTime"] = 5260.74,
-			["LastEvents"] = {
-				"暗滩祭司 暗影箭 查尔斯三世 Absorb -90 (90 被吸收) (Shadow)", -- [1]
-				"查尔斯三世 火焰冲击 暗滩祭司 Crit -132 (Fire)", -- [2]
-				"查尔斯三世 寒冰箭 暗滩祭司 Hit -128 (Frost)", -- [3]
-				"查尔斯三世 寒冰箭 暗滩祭司 Hit -123 (Frost)", -- [4]
-				"暗滩祭司 腐蚀术 (伤害/跳) 查尔斯三世 Absorb -18 (18 被吸收) (Shadow)", -- [5]
-				"查尔斯三世 寒冰箭 暗滩祭司 Hit -124 (Frost)", -- [6]
-				"暗滩祭司 腐蚀术 (伤害/跳) 查尔斯三世 Absorb -18 (18 被吸收) (Shadow)", -- [7]
-				"暗滩祭司 腐蚀术 (伤害/跳) 查尔斯三世 Absorb -18 (18 被吸收) (Shadow)", -- [8]
-				"暗滩祭司 腐蚀术 (伤害/跳) 查尔斯三世 Absorb -18 (18 被吸收) (Shadow)", -- [9]
-				"查尔斯三世 寒冰箭 暗滩执行者 Hit -125 (Frost)", -- [10]
-				"查尔斯三世 寒冰箭 暗滩执行者 Hit -126 (Frost)", -- [11]
-				"暗滩祭司 腐蚀术 (伤害/跳) 查尔斯三世 Absorb -6 (Shadow)", -- [12]
-				"暗滩祭司 腐蚀术 (伤害/跳) 查尔斯三世 Tick -12 (6 被吸收) (Shadow)", -- [13]
-				"查尔斯三世 寒冰箭 暗滩执行者 Hit -121 (Frost)", -- [14]
-				"查尔斯三世 寒冰箭 暗滩执行者 Hit -123 (Frost)", -- [15]
-				"查尔斯三世 寒冰箭 暗滩执行者 Hit -127 (Frost)", -- [16]
-				"查尔斯三世 寒冰箭 暗滩执行者 Hit -125 (Frost)", -- [17]
-				"查尔斯三世 寒冰箭 暗滩执行者 Hit -128 (Frost)", -- [18]
-				"查尔斯三世 寒冰箭 暗滩执行者 Hit -128 (Frost)", -- [19]
-				"查尔斯三世 寒冰箭 暗滩挖掘者 Hit -128 (Frost)", -- [20]
-				"查尔斯三世 寒冰箭 暗滩挖掘者 Hit -128 (Frost)", -- [21]
-				"查尔斯三世 寒冰箭 暗滩挖掘者 Hit -127 (Frost)", -- [22]
-				"查尔斯三世 寒冰箭 暗滩挖掘者 Hit -128 (Frost)", -- [23]
-				"查尔斯三世 寒冰箭 暗滩挖掘者 Hit -122 (Frost)", -- [24]
-				"查尔斯三世 寒冰箭 暗滩挖掘者 Hit -127 (Frost)", -- [25]
-				"查尔斯三世 寒冰箭 暗滩挖掘者 Hit -120 (Frost)", -- [26]
-				"查尔斯三世 寒冰箭 暗滩挖掘者 Hit -124 (Frost)", -- [27]
-				"凛寒 回春术 查尔斯三世 Tick +29", -- [28]
-				"查尔斯三世 魔爆术 暗滩精兵 Miss (Arcane)", -- [29]
-				"查尔斯三世 魔爆术 暗滩执行者 Hit -45 (Arcane)", -- [30]
-				"暗滩精兵 肉搏 查尔斯三世 Hit -18 (Physical)", -- [31]
-				"查尔斯三世 冰霜新星 暗滩精兵 Hit -24 (Frost)", -- [32]
-				"查尔斯三世 冰霜新星 暗滩执行者 Crit -37 (Frost)", -- [33]
-				"凛寒 回春术 查尔斯三世 Tick +29", -- [34]
-				"暗滩精兵 肉搏 查尔斯三世 Hit -17 (Physical)", -- [35]
-				"查尔斯三世 火焰冲击 暗滩精兵 Hit -86 (Fire)", -- [36]
-				"暗滩执行者 肉搏 查尔斯三世 Hit -34 (Physical)", -- [37]
-				"暗滩执行者 肉搏 查尔斯三世 Hit -39 (Physical)", -- [38]
-				"查尔斯三世 寒冰箭 暗滩执行者 Hit -123 (Frost)", -- [39]
-				"查尔斯三世 寒冰箭 小鬼爪牙 Hit -123 (Frost)", -- [40]
-				"查尔斯三世 火焰冲击 暗滩祭司 Hit -85 (Fire)", -- [41]
-				"小鬼爪牙 火焰箭 查尔斯三世 Hit -33 (Fire)", -- [42]
-				"暗滩祭司 暗影箭 查尔斯三世 Hit -88 (Shadow)", -- [43]
-				"小鬼爪牙 火焰箭 查尔斯三世 Hit -34 (Fire)", -- [44]
-				"查尔斯三世 魔爆术 小鬼爪牙 Hit -47 (Arcane)", -- [45]
-				"查尔斯三世 魔爆术 暗滩祭司 Crit -66 (Arcane)", -- [46]
-				"暗滩祭司 暗影箭 查尔斯三世 Hit -83 (Shadow)", -- [47]
-				"暗滩祭司 腐蚀术 查尔斯三世 Miss (Shadow)", -- [48]
-				"查尔斯三世 魔爆术 暗滩祭司 Miss (Arcane)", -- [49]
-				"查尔斯三世 寒冰箭 暗滩祭司 Hit -122 (Frost)", -- [50]
-			},
-			["Name"] = "查尔斯三世",
-			["LastDamageTaken"] = 12,
 			["DeathLogs"] = {
 				{
 					["MessageIncoming"] = {
 						false, -- [1]
-						true, -- [2]
+						false, -- [2]
 						false, -- [3]
 						false, -- [4]
 						true, -- [5]
-						false, -- [6]
-						true, -- [7]
+						true, -- [6]
+						false, -- [7]
 						false, -- [8]
 						true, -- [9]
 						false, -- [10]
 						false, -- [11]
-						false, -- [12]
-						false, -- [13]
-						true, -- [14]
+						true, -- [12]
+						true, -- [13]
+						false, -- [14]
 						false, -- [15]
-						true, -- [16]
-						true, -- [17]
-						false, -- [18]
+						false, -- [16]
+						false, -- [17]
+						true, -- [18]
 						false, -- [19]
-						true, -- [20]
+						false, -- [20]
 						true, -- [21]
+						false, -- [22]
+						false, -- [23]
+						true, -- [24]
+						false, -- [25]
+						false, -- [26]
+						true, -- [27]
+						true, -- [28]
+						false, -- [29]
+						false, -- [30]
+						false, -- [31]
+						false, -- [32]
+						true, -- [33]
+						false, -- [34]
+						false, -- [35]
+						false, -- [36]
+						false, -- [37]
+						false, -- [38]
+						false, -- [39]
+						true, -- [40]
+						false, -- [41]
+						false, -- [42]
+						true, -- [43]
+						false, -- [44]
+						false, -- [45]
+						true, -- [46]
+						true, -- [47]
+						false, -- [48]
+						false, -- [49]
+						true, -- [50]
 					},
 					["Messages"] = {
-						"查尔斯三世 火球术 (伤害/跳) 砂石地占师 Tick -2 (Fire)", -- [1]
-						"砂石断骨者 肉搏 查尔斯三世 Hit -32 (Physical)", -- [2]
-						"查尔斯三世 火球术 (伤害/跳) 砂石地占师 Tick -2 (Fire)", -- [3]
-						"查尔斯三世 火球术 砂石地占师 Hit -90 (Fire)", -- [4]
-						"砂石断骨者 肉搏 查尔斯三世 Hit -26 (Physical)", -- [5]
-						"查尔斯三世 火球术 (伤害/跳) 砂石地占师 Tick -2 (Fire)", -- [6]
-						"砂石地占师 火球术 查尔斯三世 Hit -92 (Fire)", -- [7]
-						"查尔斯三世 火球术 砂石地占师 Hit -95 (Fire)", -- [8]
-						"砂石断骨者 肉搏 查尔斯三世 Hit -32 (Physical)", -- [9]
-						"查尔斯三世 火球术 (伤害/跳) 砂石地占师 Tick -2 (Fire)", -- [10]
-						"查尔斯三世 冰霜新星 砂石断骨者 Miss (Frost)", -- [11]
-						"查尔斯三世 火球术 砂石地占师 Miss (Fire)", -- [12]
-						"查尔斯三世 火球术 (伤害/跳) 砂石地占师 Tick -2 (Fire)", -- [13]
-						"砂石断骨者 肉搏 查尔斯三世 Crit -50 (Physical)", -- [14]
-						"查尔斯三世 火球术 (伤害/跳) 砂石地占师 Tick -2 (Fire)", -- [15]
-						"砂石地占师 火球术 查尔斯三世 Hit -101 (Fire)", -- [16]
-						"砂石断骨者 肉搏 查尔斯三世 Hit -25 (Physical)", -- [17]
-						"查尔斯三世 火球术 砂石地占师 Hit -87 (10 被抵抗) (Fire)", -- [18]
-						"查尔斯三世 火球术 (伤害/跳) 砂石地占师 Tick -2 (Fire)", -- [19]
-						"砂石地占师 火球术 查尔斯三世 Hit -111 (Fire)", -- [20]
-						"查尔斯三世死亡。", -- [21]
+						"南宫浮生 肉搏 迪菲亚囚徒 Crit -191 (Physical)", -- [1]
+						"南宫浮生 命令圣印 迪菲亚俘虏 Hit -47 (Holy)", -- [2]
+						"南宫浮生 命令圣印 迪菲亚囚徒 Hit -46 (Holy)", -- [3]
+						"南宫浮生 命令圣印 迪菲亚囚徒 Hit -48 (Holy)", -- [4]
+						"迪菲亚囚徒 肉搏 南宫浮生 Dodge (1)", -- [5]
+						"迪菲亚囚徒 肉搏 南宫浮生 Hit -46 (Physical)", -- [6]
+						"南宫浮生 惩戒光环 迪菲亚囚徒 Hit -18 (Holy)", -- [7]
+						"南宫浮生 荆棘术 迪菲亚囚徒 Hit -10 (Nature)", -- [8]
+						"迪菲亚俘虏 肉搏 南宫浮生 Hit -48 (Physical)", -- [9]
+						"南宫浮生 惩戒光环 迪菲亚俘虏 Hit -18 (Holy)", -- [10]
+						"南宫浮生 荆棘术 迪菲亚俘虏 Hit -10 (Nature)", -- [11]
+						"迪菲亚囚徒 肉搏 南宫浮生 Hit -41 (Physical)", -- [12]
+						"迪菲亚俘虏 肉搏 南宫浮生 Hit -40 (Physical)", -- [13]
+						"南宫浮生 惩戒光环 迪菲亚囚徒 Hit -18 (Holy)", -- [14]
+						"南宫浮生 荆棘术 迪菲亚囚徒 Hit -10 (Nature)", -- [15]
+						"南宫浮生 惩戒光环 迪菲亚俘虏 Hit -18 (Holy)", -- [16]
+						"南宫浮生 荆棘术 迪菲亚俘虏 Hit -9 (Nature)", -- [17]
+						"迪菲亚囚徒 肉搏 南宫浮生 Hit -51 (Physical)", -- [18]
+						"南宫浮生 惩戒光环 迪菲亚囚徒 Hit -18 (Holy)", -- [19]
+						"南宫浮生 荆棘术 迪菲亚囚徒 Hit -10 (Nature)", -- [20]
+						"迪菲亚囚徒 肉搏 南宫浮生 Hit -42 (Physical)", -- [21]
+						"南宫浮生 惩戒光环 迪菲亚囚徒 Hit -18 (Holy)", -- [22]
+						"南宫浮生 荆棘术 迪菲亚囚徒 Hit -9 (Nature)", -- [23]
+						"迪菲亚俘虏 肉搏 南宫浮生 Hit -47 (Physical)", -- [24]
+						"南宫浮生 惩戒光环 迪菲亚俘虏 Hit -18 (Holy)", -- [25]
+						"南宫浮生 荆棘术 迪菲亚俘虏 Hit -9 (Nature)", -- [26]
+						"迪菲亚囚徒 肉搏 南宫浮生 Hit -42 (Physical)", -- [27]
+						"迪菲亚俘虏 肉搏 南宫浮生 Hit -41 (Physical)", -- [28]
+						"南宫浮生 惩戒光环 迪菲亚囚徒 Hit -18 (Holy)", -- [29]
+						"南宫浮生 荆棘术 迪菲亚囚徒 Hit -9 (Nature)", -- [30]
+						"南宫浮生 惩戒光环 迪菲亚俘虏 Hit -18 (Holy)", -- [31]
+						"南宫浮生 荆棘术 迪菲亚俘虏 Hit -10 (Nature)", -- [32]
+						"迪菲亚囚徒 肉搏 南宫浮生 Hit -46 (Physical)", -- [33]
+						"南宫浮生 惩戒光环 迪菲亚囚徒 Hit -18 (Holy)", -- [34]
+						"南宫浮生 荆棘术 迪菲亚囚徒 Hit -9 (Nature)", -- [35]
+						"南宫浮生 肉搏 迪菲亚狱友 Hit -95 (Physical)", -- [36]
+						"南宫浮生 命令圣印 迪菲亚囚徒 Hit -51 (Holy)", -- [37]
+						"南宫浮生 命令圣印 迪菲亚俘虏 Crit -99 (Holy)", -- [38]
+						"南宫浮生 命令圣印 迪菲亚狱友 Hit -52 (Holy)", -- [39]
+						"迪菲亚囚徒 肉搏 南宫浮生 Hit -50 (Physical)", -- [40]
+						"南宫浮生 惩戒光环 迪菲亚囚徒 Hit -18 (Holy)", -- [41]
+						"南宫浮生 荆棘术 迪菲亚囚徒 Hit -10 (Nature)", -- [42]
+						"迪菲亚俘虏 肉搏 南宫浮生 Hit -43 (Physical)", -- [43]
+						"南宫浮生 惩戒光环 迪菲亚俘虏 Hit -18 (Holy)", -- [44]
+						"南宫浮生 荆棘术 迪菲亚俘虏 Hit -10 (Nature)", -- [45]
+						"迪菲亚囚徒 肉搏 南宫浮生 Hit -40 (Physical)", -- [46]
+						"迪菲亚俘虏 肉搏 南宫浮生 Hit -41 (Physical)", -- [47]
+						"南宫浮生 惩戒光环 迪菲亚囚徒 Hit -18 (Holy)", -- [48]
+						"南宫浮生 荆棘术 迪菲亚囚徒 Hit -10 (Nature)", -- [49]
+						"南宫浮生死亡。", -- [50]
 					},
-					["DeathAt"] = 46567.002,
+					["DeathAt"] = 44924.191,
 					["EventNum"] = {
 						0, -- [1]
 						0, -- [2]
@@ -12835,77 +3550,193 @@ RecountPerCharDB = {
 						0, -- [19]
 						0, -- [20]
 						0, -- [21]
+						0, -- [22]
+						0, -- [23]
+						0, -- [24]
+						0, -- [25]
+						0, -- [26]
+						0, -- [27]
+						0, -- [28]
+						0, -- [29]
+						0, -- [30]
+						0, -- [31]
+						0, -- [32]
+						0, -- [33]
+						0, -- [34]
+						0, -- [35]
+						0, -- [36]
+						0, -- [37]
+						0, -- [38]
+						0, -- [39]
+						0, -- [40]
+						0, -- [41]
+						0, -- [42]
+						0, -- [43]
+						0, -- [44]
+						0, -- [45]
+						0, -- [46]
+						0, -- [47]
+						0, -- [48]
+						0, -- [49]
+						0, -- [50]
 					},
 					["MessageTimes"] = {
-						-14.85199999999895, -- [1]
-						-14.27900000000227, -- [2]
-						-12.8660000000018, -- [3]
-						-12.09999999999855, -- [4]
-						-11.76699999999983, -- [5]
-						-10.10300000000279, -- [6]
-						-9.959000000002561, -- [7]
-						-9.610000000000582, -- [8]
-						-9.199000000000524, -- [9]
-						-7.597999999998137, -- [10]
-						-7.455999999998312, -- [11]
-						-6.127999999996973, -- [12]
-						-5.605000000003201, -- [13]
-						-5.175999999999476, -- [14]
-						-3.60899999999674, -- [15]
-						-3.283000000003085, -- [16]
-						-2.680000000000291, -- [17]
-						-2.063000000001921, -- [18]
-						0, -- [19]
-						0, -- [20]
-						0, -- [21]
+						-5.953000000001339, -- [1]
+						-5.953000000001339, -- [2]
+						-5.953000000001339, -- [3]
+						-5.953000000001339, -- [4]
+						-5.050999999999476, -- [5]
+						-4.419999999998254, -- [6]
+						-4.402000000001863, -- [7]
+						-4.402000000001863, -- [8]
+						-4.32499999999709, -- [9]
+						-4.317999999999302, -- [10]
+						-4.317999999999302, -- [11]
+						-4.040000000000873, -- [12]
+						-4.040000000000873, -- [13]
+						-4.027999999998428, -- [14]
+						-4.027999999998428, -- [15]
+						-4.027999999998428, -- [16]
+						-4.027999999998428, -- [17]
+						-3.048000000002503, -- [18]
+						-3.029999999998836, -- [19]
+						-3.029999999998836, -- [20]
+						-2.411000000000058, -- [21]
+						-2.398999999997614, -- [22]
+						-2.398999999997614, -- [23]
+						-2.332999999998719, -- [24]
+						-2.320999999996275, -- [25]
+						-2.320999999996275, -- [26]
+						-2.040999999997439, -- [27]
+						-2.040999999997439, -- [28]
+						-2.027999999998428, -- [29]
+						-2.027999999998428, -- [30]
+						-2.027999999998428, -- [31]
+						-2.027999999998428, -- [32]
+						-1.036999999996624, -- [33]
+						-1.029999999998836, -- [34]
+						-1.029999999998836, -- [35]
+						-0.830999999998312, -- [36]
+						-0.830999999998312, -- [37]
+						-0.830999999998312, -- [38]
+						-0.830999999998312, -- [39]
+						-0.4009999999980209, -- [40]
+						-0.3940000000002328, -- [41]
+						-0.3940000000002328, -- [42]
+						-0.3119999999980792, -- [43]
+						-0.3119999999980792, -- [44]
+						-0.3119999999980792, -- [45]
+						-0.04200000000128057, -- [46]
+						-0.04200000000128057, -- [47]
+						-0.02300000000104774, -- [48]
+						-0.02300000000104774, -- [49]
+						0, -- [50]
 					},
 					["HealthMax"] = {
-						392, -- [1]
-						392, -- [2]
-						392, -- [3]
-						392, -- [4]
-						392, -- [5]
-						392, -- [6]
-						392, -- [7]
-						392, -- [8]
-						392, -- [9]
-						352, -- [10]
-						352, -- [11]
-						352, -- [12]
-						352, -- [13]
-						352, -- [14]
-						352, -- [15]
-						352, -- [16]
-						352, -- [17]
-						352, -- [18]
-						352, -- [19]
-						352, -- [20]
-						392, -- [21]
+						1072, -- [1]
+						1072, -- [2]
+						1072, -- [3]
+						1072, -- [4]
+						1072, -- [5]
+						1072, -- [6]
+						1072, -- [7]
+						1072, -- [8]
+						1072, -- [9]
+						1072, -- [10]
+						1072, -- [11]
+						1072, -- [12]
+						1072, -- [13]
+						1072, -- [14]
+						1072, -- [15]
+						1072, -- [16]
+						1072, -- [17]
+						1072, -- [18]
+						1072, -- [19]
+						1072, -- [20]
+						1072, -- [21]
+						1072, -- [22]
+						1072, -- [23]
+						1072, -- [24]
+						1072, -- [25]
+						1072, -- [26]
+						1072, -- [27]
+						1072, -- [28]
+						1072, -- [29]
+						1072, -- [30]
+						1072, -- [31]
+						1072, -- [32]
+						1072, -- [33]
+						1072, -- [34]
+						1072, -- [35]
+						1072, -- [36]
+						1072, -- [37]
+						1072, -- [38]
+						1072, -- [39]
+						1072, -- [40]
+						1072, -- [41]
+						1072, -- [42]
+						1072, -- [43]
+						1072, -- [44]
+						1072, -- [45]
+						1072, -- [46]
+						1072, -- [47]
+						1072, -- [48]
+						1072, -- [49]
+						942, -- [50]
 					},
 					["Health"] = {
-						392, -- [1]
-						392, -- [2]
-						360, -- [3]
-						360, -- [4]
-						360, -- [5]
-						334, -- [6]
-						334, -- [7]
-						242, -- [8]
-						242, -- [9]
-						210, -- [10]
-						210, -- [11]
-						210, -- [12]
-						210, -- [13]
-						210, -- [14]
-						160, -- [15]
-						160, -- [16]
-						59, -- [17]
-						34, -- [18]
-						34, -- [19]
-						34, -- [20]
-						0, -- [21]
+						553, -- [1]
+						553, -- [2]
+						553, -- [3]
+						553, -- [4]
+						553, -- [5]
+						553, -- [6]
+						507, -- [7]
+						507, -- [8]
+						507, -- [9]
+						507, -- [10]
+						507, -- [11]
+						507, -- [12]
+						507, -- [13]
+						507, -- [14]
+						507, -- [15]
+						507, -- [16]
+						507, -- [17]
+						378, -- [18]
+						378, -- [19]
+						378, -- [20]
+						327, -- [21]
+						327, -- [22]
+						327, -- [23]
+						285, -- [24]
+						285, -- [25]
+						285, -- [26]
+						285, -- [27]
+						285, -- [28]
+						285, -- [29]
+						285, -- [30]
+						285, -- [31]
+						285, -- [32]
+						155, -- [33]
+						155, -- [34]
+						155, -- [35]
+						155, -- [36]
+						109, -- [37]
+						109, -- [38]
+						109, -- [39]
+						109, -- [40]
+						109, -- [41]
+						109, -- [42]
+						59, -- [43]
+						59, -- [44]
+						59, -- [45]
+						59, -- [46]
+						59, -- [47]
+						59, -- [48]
+						59, -- [49]
+						0, -- [50]
 					},
-					["KilledBy"] = "砂石地占师",
+					["KilledBy"] = "迪菲亚俘虏",
 					["MessageType"] = {
 						"DAMAGE", -- [1]
 						"DAMAGE", -- [2]
@@ -12927,298 +3758,418 @@ RecountPerCharDB = {
 						"DAMAGE", -- [18]
 						"DAMAGE", -- [19]
 						"DAMAGE", -- [20]
-						"MISC", -- [21]
+						"DAMAGE", -- [21]
+						"DAMAGE", -- [22]
+						"DAMAGE", -- [23]
+						"DAMAGE", -- [24]
+						"DAMAGE", -- [25]
+						"DAMAGE", -- [26]
+						"DAMAGE", -- [27]
+						"DAMAGE", -- [28]
+						"DAMAGE", -- [29]
+						"DAMAGE", -- [30]
+						"DAMAGE", -- [31]
+						"DAMAGE", -- [32]
+						"DAMAGE", -- [33]
+						"DAMAGE", -- [34]
+						"DAMAGE", -- [35]
+						"DAMAGE", -- [36]
+						"DAMAGE", -- [37]
+						"DAMAGE", -- [38]
+						"DAMAGE", -- [39]
+						"DAMAGE", -- [40]
+						"DAMAGE", -- [41]
+						"DAMAGE", -- [42]
+						"DAMAGE", -- [43]
+						"DAMAGE", -- [44]
+						"DAMAGE", -- [45]
+						"DAMAGE", -- [46]
+						"DAMAGE", -- [47]
+						"DAMAGE", -- [48]
+						"DAMAGE", -- [49]
+						"MISC", -- [50]
 					},
 				}, -- [1]
-				{
-					["MessageIncoming"] = {
-						true, -- [1]
-						false, -- [2]
-						false, -- [3]
-						false, -- [4]
-						false, -- [5]
-						false, -- [6]
-						true, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-						true, -- [11]
-						true, -- [12]
-					},
-					["Messages"] = {
-						"灰雾猎人 投掷 查尔斯三世 Hit -28 (Physical)", -- [1]
-						"查尔斯三世 火球术 (伤害/跳) 莫克迪普 Tick -2 (Fire)", -- [2]
-						"查尔斯三世 火球术 (伤害/跳) 莫克迪普 Tick -2 (Fire)", -- [3]
-						"查尔斯三世 火球术 莫克迪普 Hit -98 (Fire)", -- [4]
-						"查尔斯三世 火球术 (伤害/跳) 莫克迪普 Tick -2 (Fire)", -- [5]
-						"查尔斯三世 火球术 (伤害/跳) 莫克迪普 Tick -2 (Fire)", -- [6]
-						"灰雾猎人 投掷 查尔斯三世 Hit -30 (Physical)", -- [7]
-						"查尔斯三世 火球术 (伤害/跳) 莫克迪普 Tick -2 (Fire)", -- [8]
-						"查尔斯三世 火球术 莫克迪普 Hit -102 (Fire)", -- [9]
-						"查尔斯三世 火焰冲击 莫克迪普 Hit -90 (Fire)", -- [10]
-						"灰雾猎人 投掷 查尔斯三世 Hit -33 (Physical)", -- [11]
-						"查尔斯三世死亡。", -- [12]
-					},
-					["DeathAt"] = 45674.01,
-					["EventNum"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						0, -- [6]
-						0, -- [7]
-						0, -- [8]
-						0, -- [9]
-						0, -- [10]
-						0, -- [11]
-						0, -- [12]
-					},
-					["MessageTimes"] = {
-						-14.50400000000082, -- [1]
-						-13.00600000000122, -- [2]
-						-10.99700000000303, -- [3]
-						-9.24199999999837, -- [4]
-						-7.254000000000815, -- [5]
-						-5.240000000005239, -- [6]
-						-5.240000000005239, -- [7]
-						-3.240000000005239, -- [8]
-						-0.5400000000008731, -- [9]
-						-0.103000000002794, -- [10]
-						0, -- [11]
-						0, -- [12]
-					},
-					["HealthMax"] = {
-						377, -- [1]
-						377, -- [2]
-						377, -- [3]
-						377, -- [4]
-						377, -- [5]
-						377, -- [6]
-						377, -- [7]
-						377, -- [8]
-						377, -- [9]
-						377, -- [10]
-						377, -- [11]
-						377, -- [12]
-					},
-					["Health"] = {
-						89, -- [1]
-						61, -- [2]
-						61, -- [3]
-						61, -- [4]
-						61, -- [5]
-						61, -- [6]
-						61, -- [7]
-						31, -- [8]
-						31, -- [9]
-						31, -- [10]
-						31, -- [11]
-						0, -- [12]
-					},
-					["KilledBy"] = "灰雾猎人",
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"DAMAGE", -- [4]
-						"DAMAGE", -- [5]
-						"DAMAGE", -- [6]
-						"DAMAGE", -- [7]
-						"DAMAGE", -- [8]
-						"DAMAGE", -- [9]
-						"DAMAGE", -- [10]
-						"DAMAGE", -- [11]
-						"MISC", -- [12]
-					},
-				}, -- [2]
-				{
-					["MessageIncoming"] = {
-						true, -- [1]
-						true, -- [2]
-						true, -- [3]
-					},
-					["Messages"] = {
-						"Environment Falling 查尔斯三世 Hit -24 (Physical)", -- [1]
-						"Environment Falling 查尔斯三世 Hit -227 (Physical)", -- [2]
-						"查尔斯三世死亡。", -- [3]
-					},
-					["DeathAt"] = 29186.436,
-					["EventNum"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-					},
-					["MessageTimes"] = {
-						-6.333999999998923, -- [1]
-						0, -- [2]
-						0, -- [3]
-					},
-					["HealthMax"] = {
-						227, -- [1]
-						227, -- [2]
-						227, -- [3]
-					},
-					["Health"] = {
-						227, -- [1]
-						227, -- [2]
-						0, -- [3]
-					},
-					["KilledBy"] = "Environment",
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"MISC", -- [3]
-					},
-				}, -- [3]
-				{
-					["MessageIncoming"] = {
-						true, -- [1]
-						true, -- [2]
-						true, -- [3]
-					},
-					["Messages"] = {
-						"Environment Falling 查尔斯三世 Hit -205 (Physical)", -- [1]
-						"Environment Falling 查尔斯三世 Hit -223 (Physical)", -- [2]
-						"查尔斯三世死亡。", -- [3]
-					},
-					["DeathAt"] = 29050.43,
-					["EventNum"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-					},
-					["MessageTimes"] = {
-						-2.688999999998487, -- [1]
-						0, -- [2]
-						0, -- [3]
-					},
-					["HealthMax"] = {
-						227, -- [1]
-						227, -- [2]
-						227, -- [3]
-					},
-					["Health"] = {
-						227, -- [1]
-						31, -- [2]
-						0, -- [3]
-					},
-					["KilledBy"] = "Environment",
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"MISC", -- [3]
-					},
-				}, -- [4]
 			},
-			["LastHealTime"] = 55777.863,
-			["UnitLockout"] = 5118.517,
-			["LastAbility"] = 54308.047,
+			["UnitLockout"] = 45190.196,
+			["LastAbility"] = 52289.367,
 		},
-		["好风"] = {
-			["GUID"] = "Player-4778-0512C3E2",
+		["三自四有"] = {
+			["GUID"] = "Player-4778-0516D7F4",
 			["LastEventHealth"] = {
-				5660, -- [1]
-				5660, -- [2]
-				5660, -- [3]
-				5660, -- [4]
-				5660, -- [5]
-				5660, -- [6]
-				5660, -- [7]
-				5660, -- [8]
-				5660, -- [9]
-				5660, -- [10]
+				816, -- [1]
+				816, -- [2]
+				816, -- [3]
+				735, -- [4]
+				735, -- [5]
+				789, -- [6]
+				816, -- [7]
+				816, -- [8]
+				816, -- [9]
+				816, -- [10]
+				816, -- [11]
+				816, -- [12]
+				816, -- [13]
+				816, -- [14]
+				816, -- [15]
+				816, -- [16]
+				816, -- [17]
+				816, -- [18]
+				816, -- [19]
+				816, -- [20]
+				816, -- [21]
+				816, -- [22]
+				816, -- [23]
+				816, -- [24]
+				816, -- [25]
+				816, -- [26]
+				816, -- [27]
+				816, -- [28]
+				816, -- [29]
+				816, -- [30]
+				816, -- [31]
+				816, -- [32]
+				816, -- [33]
+				816, -- [34]
+				816, -- [35]
+				816, -- [36]
+				816, -- [37]
+				816, -- [38]
+				816, -- [39]
+				816, -- [40]
+				816, -- [41]
+				816, -- [42]
+				816, -- [43]
+				816, -- [44]
+				816, -- [45]
+				816, -- [46]
+				816, -- [47]
+				816, -- [48]
+				816, -- [49]
+				816, -- [50]
 			},
+			["LastAttackedBy"] = "迪菲亚叛军",
 			["LastEventType"] = {
 				"DAMAGE", -- [1]
 				"DAMAGE", -- [2]
 				"DAMAGE", -- [3]
 				"DAMAGE", -- [4]
 				"DAMAGE", -- [5]
-				"DAMAGE", -- [6]
-				"DAMAGE", -- [7]
-				"DAMAGE", -- [8]
-				"DAMAGE", -- [9]
-				"DAMAGE", -- [10]
+				"HEAL", -- [6]
+				"HEAL", -- [7]
+				"HEAL", -- [8]
+				"HEAL", -- [9]
+				"HEAL", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
 			},
 			["TimeWindows"] = {
-				["Damage"] = {
-					3603, -- [1]
+				["TimeHeal"] = {
+					9, -- [1]
 				},
-				["ManaGain"] = {
-					551, -- [1]
+				["Healing"] = {
+					508, -- [1]
 				},
-				["TimeDamage"] = {
-					3.46, -- [1]
+				["DamageTaken"] = {
+					1609, -- [1]
 				},
 				["ActiveTime"] = {
-					3.46, -- [1]
+					349.8000000000001, -- [1]
+				},
+				["HealingTaken"] = {
+					1459, -- [1]
+				},
+				["HOT_Time"] = {
+					39, -- [1]
+				},
+				["TimeDamage"] = {
+					340.8, -- [1]
+				},
+				["Overhealing"] = {
+					348, -- [1]
+				},
+				["ManaGain"] = {
+					627, -- [1]
+				},
+				["DOT_Time"] = {
+					2124, -- [1]
+				},
+				["Damage"] = {
+					25230, -- [1]
 				},
 			},
-			["enClass"] = "SHAMAN",
-			["unit"] = "好风",
-			["level"] = 70,
-			["LastFightIn"] = 912,
+			["enClass"] = "PALADIN",
+			["unit"] = "三自四有",
+			["LastActive"] = 45631.191,
+			["level"] = 25,
+			["LastDamageAbility"] = "肉搏",
+			["LastFightIn"] = 19,
+			["LastEventHealthMax"] = {
+				816, -- [1]
+				816, -- [2]
+				816, -- [3]
+				816, -- [4]
+				816, -- [5]
+				816, -- [6]
+				816, -- [7]
+				816, -- [8]
+				816, -- [9]
+				816, -- [10]
+				816, -- [11]
+				816, -- [12]
+				816, -- [13]
+				816, -- [14]
+				816, -- [15]
+				816, -- [16]
+				816, -- [17]
+				816, -- [18]
+				816, -- [19]
+				816, -- [20]
+				816, -- [21]
+				816, -- [22]
+				816, -- [23]
+				816, -- [24]
+				816, -- [25]
+				816, -- [26]
+				816, -- [27]
+				816, -- [28]
+				816, -- [29]
+				816, -- [30]
+				816, -- [31]
+				816, -- [32]
+				816, -- [33]
+				816, -- [34]
+				816, -- [35]
+				816, -- [36]
+				816, -- [37]
+				816, -- [38]
+				816, -- [39]
+				816, -- [40]
+				816, -- [41]
+				816, -- [42]
+				816, -- [43]
+				816, -- [44]
+				816, -- [45]
+				816, -- [46]
+				816, -- [47]
+				816, -- [48]
+				816, -- [49]
+				816, -- [50]
+			},
 			["type"] = "Ungrouped",
 			["FightsSaved"] = 5,
 			["TimeLast"] = {
-				["ActiveTime"] = 54591.601,
-				["ManaGain"] = 54589.6,
-				["OVERALL"] = 54591.601,
-				["TimeDamage"] = 54591.601,
-				["Damage"] = 54591.601,
+				["TimeHeal"] = 45433.193,
+				["OVERALL"] = 45610.197,
+				["DamageTaken"] = 45609.197,
+				["HOT_Time"] = 45433.193,
+				["ActiveTime"] = 45610.197,
+				["HealingTaken"] = 45513.195,
+				["Overhealing"] = 45175.192,
+				["TimeDamage"] = 45610.197,
+				["Healing"] = 45433.193,
+				["ManaGain"] = 45609.197,
+				["DOT_Time"] = 45610.197,
+				["Damage"] = 45610.197,
 			},
+			["LastHealTime"] = 45434.201,
 			["Owner"] = false,
-			["LastEventHealthMax"] = {
-				5660, -- [1]
-				5660, -- [2]
-				5660, -- [3]
-				5660, -- [4]
-				5660, -- [5]
-				5660, -- [6]
-				5660, -- [7]
-				5660, -- [8]
-				5660, -- [9]
-				5660, -- [10]
-			},
-			["NextEventNum"] = 11,
-			["LastDamageTime"] = 54591.814,
-			["LastEvents"] = {
-				"好风 肉搏 摩拉迪姆 Crit -1002 (Physical)", -- [1]
-				"摩拉迪姆 肉搏 好风 Dodge (1)", -- [2]
-				"好风 风暴打击 摩拉迪姆 Hit -421 (Physical)", -- [3]
-				"好风 风暴打击 摩拉迪姆 Hit -236 (Physical)", -- [4]
-				"好风 火舌攻击 摩拉迪姆 Crit -205 (Fire)", -- [5]
-				"好风 肉搏 摩拉迪姆 Hit -248 (Physical)", -- [6]
-				"好风 火舌攻击 摩拉迪姆 Hit -137 (Fire)", -- [7]
-				"好风 熔岩猛击 摩拉迪姆 Hit -353 (Fire)", -- [8]
-				"好风 火舌攻击 摩拉迪姆 Hit -136 (Fire)", -- [9]
-				"好风 肉搏 摩拉迪姆 Crit -865 (Physical)", -- [10]
-			},
-			["Name"] = "好风",
 			["LastEventIncoming"] = {
 				false, -- [1]
 				true, -- [2]
 				false, -- [3]
 				false, -- [4]
 				false, -- [5]
-				false, -- [6]
-				false, -- [7]
-				false, -- [8]
-				false, -- [9]
-				false, -- [10]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				false, -- [25]
+				false, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+				false, -- [30]
+				false, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+				false, -- [39]
+				false, -- [40]
+				false, -- [41]
+				false, -- [42]
+				false, -- [43]
+				false, -- [44]
+				false, -- [45]
+				false, -- [46]
+				false, -- [47]
+				false, -- [48]
+				false, -- [49]
+				false, -- [50]
 			},
+			["NextEventNum"] = 11,
+			["LastDamageTime"] = 45610.713,
+			["LastEvents"] = {
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -15 (Holy)", -- [1]
+				"迪菲亚叛军 肉搏 三自四有 Hit -81 (Physical)", -- [2]
+				"三自四有 惩戒光环 迪菲亚叛军 Hit -18 (Holy)", -- [3]
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -16 (Holy)", -- [4]
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -16 (Holy)", -- [5]
+				"得撸艺 回春术 三自四有 Tick +56 (29 过量治疗)", -- [6]
+				"得撸艺 回春术 三自四有 Tick +55 (55 过量治疗)", -- [7]
+				"得撸艺 回春术 三自四有 Tick +55 (55 过量治疗)", -- [8]
+				"得撸艺 回春术 三自四有 Tick +55 (55 过量治疗)", -- [9]
+				"得撸艺 回春术 三自四有 Tick +55 (55 过量治疗)", -- [10]
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -15 (Holy)", -- [11]
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -15 (Holy)", -- [12]
+				"三自四有 奉献 (伤害/跳) 迪菲亚罪犯 Tick -15 (Holy)", -- [13]
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -15 (Holy)", -- [14]
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -15 (Holy)", -- [15]
+				"三自四有 奉献 (伤害/跳) 迪菲亚罪犯 Tick -15 (Holy)", -- [16]
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -15 (Holy)", -- [17]
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -16 (Holy)", -- [18]
+				"三自四有 肉搏 迪菲亚罪犯 Hit -58 (Physical)", -- [19]
+				"三自四有 正义圣印 迪菲亚罪犯 Hit -11 (Holy)", -- [20]
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -15 (Holy)", -- [21]
+				"三自四有 奉献 (伤害/跳) 迪菲亚罪犯 Tick -16 (Holy)", -- [22]
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -15 (Holy)", -- [23]
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -16 (Holy)", -- [24]
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -15 (Holy)", -- [25]
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -15 (Holy)", -- [26]
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -15 (Holy)", -- [27]
+				"三自四有 奉献 (伤害/跳) 迪菲亚罪犯 Tick -15 (Holy)", -- [28]
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -15 (Holy)", -- [29]
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -15 (Holy)", -- [30]
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -16 (Holy)", -- [31]
+				"三自四有 肉搏 迪菲亚罪犯 Hit -54 (Physical)", -- [32]
+				"三自四有 正义圣印 迪菲亚罪犯 Hit -10 (Holy)", -- [33]
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -16 (Holy)", -- [34]
+				"三自四有 奉献 (伤害/跳) 迪菲亚罪犯 Tick -16 (Holy)", -- [35]
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -15 (Holy)", -- [36]
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -15 (Holy)", -- [37]
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -15 (Holy)", -- [38]
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -15 (Holy)", -- [39]
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -15 (Holy)", -- [40]
+				"三自四有 清算之手 迪菲亚叛军 Crit -119 (Holy)", -- [41]
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -16 (Holy)", -- [42]
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -16 (Holy)", -- [43]
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -15 (Holy)", -- [44]
+				"三自四有 正义圣印 迪菲亚叛军 Hit -10 (Holy)", -- [45]
+				"三自四有 正义审判 迪菲亚叛军 Hit -34 (Holy)", -- [46]
+				"三自四有 肉搏 迪菲亚叛军 Glancing -44 (Physical)", -- [47]
+				"三自四有 正义圣印 迪菲亚叛军 Hit -11 (Holy)", -- [48]
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -15 (Holy)", -- [49]
+				"三自四有 奉献 (伤害/跳) 迪菲亚叛军 Tick -15 (Holy)", -- [50]
+			},
+			["Name"] = "三自四有",
 			["LastEventTimes"] = {
-				54589.856, -- [1]
-				54589.856, -- [2]
-				54589.856, -- [3]
-				54589.856, -- [4]
-				54589.856, -- [5]
-				54591.029, -- [6]
-				54591.029, -- [7]
-				54591.377, -- [8]
-				54591.377, -- [9]
-				54591.814, -- [10]
+				45609.705, -- [1]
+				45609.952, -- [2]
+				45609.964, -- [3]
+				45610.713, -- [4]
+				45610.713, -- [5]
+				45620.121, -- [6]
+				45623.111, -- [7]
+				45626.115, -- [8]
+				45629.11, -- [9]
+				45632.114, -- [10]
+				45601.523, -- [11]
+				45601.523, -- [12]
+				45601.523, -- [13]
+				45601.523, -- [14]
+				45602.53, -- [15]
+				45602.53, -- [16]
+				45602.53, -- [17]
+				45602.53, -- [18]
+				45603.152, -- [19]
+				45603.152, -- [20]
+				45603.704, -- [21]
+				45603.704, -- [22]
+				45603.704, -- [23]
+				45603.704, -- [24]
+				45604.703, -- [25]
+				45604.703, -- [26]
+				45604.703, -- [27]
+				45605.713, -- [28]
+				45605.713, -- [29]
+				45605.713, -- [30]
+				45605.713, -- [31]
+				45605.944, -- [32]
+				45605.962, -- [33]
+				45606.712, -- [34]
+				45606.712, -- [35]
+				45606.712, -- [36]
+				45606.712, -- [37]
+				45607.715, -- [38]
+				45607.715, -- [39]
+				45607.715, -- [40]
+				45608.199, -- [41]
+				45608.714, -- [42]
+				45608.714, -- [43]
+				45608.714, -- [44]
+				45609.211, -- [45]
+				45609.211, -- [46]
+				45609.251, -- [47]
+				45609.251, -- [48]
+				45609.705, -- [49]
+				45609.705, -- [50]
 			},
 			["Fights"] = {
 				["LastFightData"] = {
@@ -13428,114 +4379,125 @@ RecountPerCharDB = {
 					},
 				},
 				["OverallData"] = {
-					["ManaGainedFrom"] = {
-						["好风"] = {
-							["Details"] = {
-								["强化风暴打击"] = {
-									["count"] = 551,
-								},
-							},
-							["amount"] = 551,
-						},
+					["ElementDoneBlock"] = {
+						["Melee"] = 23,
 					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
+					["TimeHealing"] = {
+						["查尔斯三世"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
+								["圣光审判"] = {
+									["count"] = 1.5,
 								},
 							},
-							["amount"] = 2,
+							["amount"] = 1.5,
 						},
-						["Melee"] = {
+						["南宫浮生"] = {
 							["Details"] = {
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
+								["圣光审判"] = {
 									["count"] = 3,
 								},
+								["圣光闪现"] = {
+									["count"] = 3,
+								},
+								["圣光术"] = {
+									["count"] = 1.5,
+								},
 							},
-							["amount"] = 4,
+							["amount"] = 7.5,
 						},
 					},
-					["Attacks"] = {
-						["火舌攻击"] = {
+					["OverHeals"] = {
+						["圣光审判"] = {
 							["Details"] = {
-								["Crit"] = {
-									["max"] = 205,
-									["min"] = 205,
-									["count"] = 1,
-									["amount"] = 205,
-								},
-								["Hit"] = {
-									["max"] = 137,
-									["min"] = 136,
-									["count"] = 2,
-									["amount"] = 273,
+								["Tick"] = {
+									["max"] = 20,
+									["min"] = 18,
+									["count"] = 10,
+									["amount"] = 191,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 478,
+							["count"] = 10,
+							["amount"] = 191,
 						},
-						["熔岩猛击"] = {
+						["圣光术"] = {
 							["Details"] = {
 								["Hit"] = {
-									["max"] = 353,
-									["min"] = 353,
+									["max"] = 157,
+									["min"] = 157,
 									["count"] = 1,
-									["amount"] = 353,
+									["amount"] = 157,
 								},
 							},
 							["count"] = 1,
-							["amount"] = 353,
+							["amount"] = 157,
 						},
-						["风暴打击"] = {
+					},
+					["DOTs"] = {
+						["奉献 (伤害/跳)"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 421,
-									["min"] = 236,
-									["count"] = 2,
-									["amount"] = 657,
+								["迪菲亚狱友"] = {
+									["count"] = 855,
+								},
+								["迪菲亚囚徒"] = {
+									["count"] = 306,
+								},
+								["哈姆霍克"] = {
+									["count"] = 21,
+								},
+								["巴基尔·斯瑞德"] = {
+									["count"] = 33,
+								},
+								["迪菲亚叛军"] = {
+									["count"] = 492,
+								},
+								["迪克斯特·瓦德"] = {
+									["count"] = 12,
+								},
+								["卡姆·深怒"] = {
+									["count"] = 24,
+								},
+								["迪菲亚俘虏"] = {
+									["count"] = 186,
+								},
+								["迪菲亚罪犯"] = {
+									["count"] = 195,
 								},
 							},
-							["count"] = 2,
-							["amount"] = 657,
-						},
-						["肉搏"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 1002,
-									["min"] = 865,
-									["count"] = 2,
-									["amount"] = 1867,
-								},
-								["Hit"] = {
-									["max"] = 248,
-									["min"] = 248,
-									["count"] = 1,
-									["amount"] = 248,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 2115,
+							["amount"] = 2124,
 						},
 					},
 					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 20,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 21,
+						},
 						["Melee"] = {
 							["Details"] = {
-								["Dodge"] = {
+								["Parry"] = {
+									["count"] = 3,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 26,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
 									["count"] = 1,
 								},
 							},
@@ -13543,34 +4505,274 @@ RecountPerCharDB = {
 						},
 					},
 					["TimeSpent"] = {
-						["摩拉迪姆"] = {
+						["迪菲亚狱友"] = {
 							["Details"] = {
-								["熔岩猛击"] = {
-									["count"] = 0.35,
+								["奉献 (伤害/跳)"] = {
+									["count"] = 83.87,
+								},
+								["奉献"] = {
+									["count"] = 2.29,
+								},
+								["惩戒光环"] = {
+									["count"] = 3.27,
+								},
+								["驱邪术"] = {
+									["count"] = 2.14,
+								},
+								["正义圣印"] = {
+									["count"] = 16.13,
+								},
+								["正义审判"] = {
+									["count"] = 0.02,
 								},
 								["肉搏"] = {
-									["count"] = 3.11,
+									["count"] = 23.56,
 								},
 							},
-							["amount"] = 3.46,
+							["amount"] = 131.2799999999999,
+						},
+						["迪菲亚囚徒"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 29.27,
+								},
+								["驱邪术"] = {
+									["count"] = 2.01,
+								},
+								["圣光审判"] = {
+									["count"] = 1.5,
+								},
+								["正义圣印"] = {
+									["count"] = 4.79,
+								},
+								["惩戒光环"] = {
+									["count"] = 1.93,
+								},
+								["肉搏"] = {
+									["count"] = 12.91,
+								},
+							},
+							["amount"] = 52.41,
+						},
+						["迪菲亚俘虏"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 23.08000000000001,
+								},
+								["肉搏"] = {
+									["count"] = 0.35,
+								},
+								["驱邪术"] = {
+									["count"] = 0.33,
+								},
+								["惩戒光环"] = {
+									["count"] = 3.25,
+								},
+								["正义圣印"] = {
+									["count"] = 2.55,
+								},
+								["奉献"] = {
+									["count"] = 0.6,
+								},
+							},
+							["amount"] = 30.16000000000001,
+						},
+						["巴基尔·斯瑞德"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 2.01,
+								},
+							},
+							["amount"] = 2.01,
+						},
+						["查尔斯三世"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["迪菲亚叛军"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 46.53999999999999,
+								},
+								["制裁之锤"] = {
+									["count"] = 0.67,
+								},
+								["清算之手"] = {
+									["count"] = 0.48,
+								},
+								["驱邪术"] = {
+									["count"] = 2.19,
+								},
+								["正义圣印"] = {
+									["count"] = 10.75,
+								},
+								["惩戒光环"] = {
+									["count"] = 6.93,
+								},
+								["肉搏"] = {
+									["count"] = 14.6,
+								},
+							},
+							["amount"] = 82.16000000000004,
+						},
+						["哈姆霍克"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 1.82,
+								},
+							},
+							["amount"] = 1.82,
+						},
+						["迪克斯特·瓦德"] = {
+							["Details"] = {
+								["驱邪术"] = {
+									["count"] = 1.5,
+								},
+								["正义圣印"] = {
+									["count"] = 1.5,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 4.15,
+								},
+								["肉搏"] = {
+									["count"] = 0.63,
+								},
+							},
+							["amount"] = 7.779999999999999,
+						},
+						["卡姆·深怒"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 2.57,
+								},
+							},
+							["amount"] = 2.57,
+						},
+						["南宫浮生"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 3,
+								},
+								["圣光闪现"] = {
+									["count"] = 3,
+								},
+								["圣光术"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 7.5,
+						},
+						["迪菲亚罪犯"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 9.22,
+								},
+								["清算之手"] = {
+									["count"] = 2.28,
+								},
+								["驱邪术"] = {
+									["count"] = 1.51,
+								},
+								["正义圣印"] = {
+									["count"] = 7.94,
+								},
+								["惩戒光环"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 8.16,
+								},
+							},
+							["amount"] = 30.61,
 						},
 					},
-					["PartialAbsorb"] = {
-						["肉搏"] = {
+					["WhoHealed"] = {
+						["得撸艺"] = {
 							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
+								["回春术"] = {
+									["count"] = 691,
+								},
+								["治疗之触"] = {
+									["count"] = 145,
+								},
+								["愈合"] = {
+									["count"] = 472,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 0,
+							["amount"] = 1308,
+						},
+						["南宫浮生"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 151,
+								},
+							},
+							["amount"] = 151,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 3,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 64,
+								},
+								["Dodge"] = {
+									["count"] = 5,
+								},
+								["Block"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 12,
+								},
+								["Parry"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 90,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 214,
+								},
+								["Tick"] = {
+									["count"] = 708,
+								},
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Miss"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 931,
 						},
 					},
 					["PartialResist"] = {
-						["肉搏"] = {
+						["撕裂 (伤害/跳)"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 20,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 20,
+						},
+						["闪电链"] = {
 							["Details"] = {
 								["未被抵抗"] = {
 									["max"] = 0,
@@ -13582,84 +4784,777 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 1,
 						},
-					},
-					["ElementDone"] = {
-						["Physical"] = 657,
-						["Melee"] = 2115,
-						["Fire"] = 831,
+						["撕裂"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 26,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 26,
+						},
 					},
 					["ManaGained"] = {
-						["强化风暴打击"] = {
+						["智慧审判"] = {
 							["Details"] = {
-								["好风"] = {
-									["count"] = 551,
+								["三自四有"] = {
+									["count"] = 506,
+								},
+								["南宫浮生"] = {
+									["count"] = 121,
 								},
 							},
-							["amount"] = 551,
+							["amount"] = 627,
 						},
 					},
-					["DamagedWho"] = {
-						["摩拉迪姆"] = {
+					["PartialAbsorb"] = {
+						["撕裂 (伤害/跳)"] = {
 							["Details"] = {
-								["火舌攻击"] = {
-									["count"] = 478,
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 20,
+									["amount"] = 0,
 								},
-								["熔岩猛击"] = {
-									["count"] = 353,
+							},
+							["count"] = 20,
+							["amount"] = 0,
+						},
+						["闪电链"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
 								},
-								["风暴打击"] = {
-									["count"] = 657,
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["撕裂"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 26,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 26,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 349.8000000000001,
+					["WhoDamaged"] = {
+						["迪菲亚狱友"] = {
+							["Details"] = {
+								["撕裂 (伤害/跳)"] = {
+									["count"] = 216,
 								},
 								["肉搏"] = {
-									["count"] = 2115,
+									["count"] = 290,
 								},
 							},
-							["amount"] = 3603,
+							["amount"] = 506,
+						},
+						["迪菲亚叛军"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 559,
+								},
+							},
+							["amount"] = 559,
+						},
+						["迪菲亚俘虏"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 144,
+								},
+							},
+							["amount"] = 144,
+						},
+						["哈姆霍克"] = {
+							["Details"] = {
+								["闪电链"] = {
+									["count"] = 145,
+								},
+							},
+							["amount"] = 145,
+						},
+						["迪菲亚囚徒"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 208,
+								},
+							},
+							["amount"] = 208,
+						},
+						["迪菲亚罪犯"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 47,
+								},
+							},
+							["amount"] = 47,
 						},
 					},
-					["TimeDamage"] = 3.46,
-					["TimeDamaging"] = {
-						["摩拉迪姆"] = {
+					["ElementTaken"] = {
+						["Physical"] = 216,
+						["Melee"] = 1248,
+						["Nature"] = 145,
+					},
+					["DOT_Time"] = 2124,
+					["Damage"] = 25230,
+					["DamageTaken"] = 1609,
+					["TimeHeal"] = 9,
+					["ManaGainedFrom"] = {
+						["三自四有"] = {
 							["Details"] = {
-								["熔岩猛击"] = {
+								["智慧审判"] = {
+									["count"] = 506,
+								},
+							},
+							["amount"] = 506,
+						},
+						["南宫浮生"] = {
+							["Details"] = {
+								["智慧审判"] = {
+									["count"] = 121,
+								},
+							},
+							["amount"] = 121,
+						},
+					},
+					["Overhealing"] = 348,
+					["Attacks"] = {
+						["清算之手"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 119,
+									["min"] = 119,
+									["count"] = 1,
+									["amount"] = 119,
+								},
+								["Hit"] = {
+									["max"] = 104,
+									["min"] = 80,
+									["count"] = 2,
+									["amount"] = 184,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 303,
+						},
+						["圣光审判"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["惩戒光环"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 18,
+									["min"] = 18,
+									["count"] = 22,
+									["amount"] = 396,
+								},
+							},
+							["count"] = 22,
+							["amount"] = 396,
+						},
+						["正义审判"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 90,
+									["min"] = 89,
+									["count"] = 2,
+									["amount"] = 179,
+								},
+								["Hit"] = {
+									["max"] = 45,
+									["min"] = 31,
+									["count"] = 46,
+									["amount"] = 1924,
+								},
+							},
+							["count"] = 48,
+							["amount"] = 2103,
+						},
+						["制裁之锤"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["奉献 (伤害/跳)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 18,
+									["min"] = 13,
+									["count"] = 708,
+									["amount"] = 11749,
+								},
+							},
+							["count"] = 708,
+							["amount"] = 11749,
+						},
+						["奉献"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["正义圣印"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 10,
+									["count"] = 125,
+									["amount"] = 1762,
+								},
+							},
+							["count"] = 125,
+							["amount"] = 1762,
+						},
+						["驱邪术"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 218,
+									["min"] = 218,
+									["count"] = 1,
+									["amount"] = 218,
+								},
+								["Hit"] = {
+									["max"] = 145,
+									["min"] = 127,
+									["count"] = 19,
+									["amount"] = 2598,
+								},
+							},
+							["count"] = 20,
+							["amount"] = 2816,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 62,
+									["min"] = 44,
+									["count"] = 3,
+									["amount"] = 167,
+								},
+								["Hit (被格挡)"] = {
+									["max"] = 58,
+									["min"] = 43,
+									["count"] = 2,
+									["amount"] = 101,
+								},
+								["Hit"] = {
+									["max"] = 83,
+									["min"] = 46,
+									["count"] = 62,
+									["amount"] = 4195,
+								},
+								["Dodge"] = {
+									["count"] = 5,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 153,
+									["min"] = 104,
+									["count"] = 12,
+									["amount"] = 1638,
+								},
+								["Parry"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 88,
+							["amount"] = 6101,
+						},
+					},
+					["Healing"] = 508,
+					["HealedWho"] = {
+						["查尔斯三世"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+						["南宫浮生"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 42,
+								},
+								["圣光闪现"] = {
+									["count"] = 181,
+								},
+								["圣光术"] = {
+									["count"] = 270,
+								},
+							},
+							["amount"] = 493,
+						},
+					},
+					["Heals"] = {
+						["圣光审判"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 21,
+									["min"] = 15,
+									["count"] = 3,
+									["amount"] = 57,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 57,
+						},
+						["圣光闪现"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 93,
+									["min"] = 88,
+									["count"] = 2,
+									["amount"] = 181,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 181,
+						},
+						["圣光术"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 270,
+									["min"] = 270,
+									["count"] = 1,
+									["amount"] = 270,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 270,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 6101,
+						["Holy"] = 19129,
+					},
+					["HealingTaken"] = 1459,
+					["DamagedWho"] = {
+						["迪菲亚狱友"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 4773,
+								},
+								["惩戒光环"] = {
+									["count"] = 108,
+								},
+								["驱邪术"] = {
+									["count"] = 682,
+								},
+								["正义圣印"] = {
+									["count"] = 768,
+								},
+								["正义审判"] = {
+									["count"] = 787,
+								},
+								["肉搏"] = {
+									["count"] = 2665,
+								},
+							},
+							["amount"] = 9783,
+						},
+						["迪菲亚囚徒"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 1771,
+								},
+								["惩戒光环"] = {
+									["count"] = 72,
+								},
+								["驱邪术"] = {
+									["count"] = 561,
+								},
+								["正义圣印"] = {
+									["count"] = 216,
+								},
+								["正义审判"] = {
+									["count"] = 225,
+								},
+								["肉搏"] = {
+									["count"] = 883,
+								},
+							},
+							["amount"] = 3728,
+						},
+						["哈姆霍克"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 121,
+								},
+							},
+							["amount"] = 121,
+						},
+						["巴基尔·斯瑞德"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 179,
+								},
+							},
+							["amount"] = 179,
+						},
+						["迪菲亚叛军"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 2610,
+								},
+								["惩戒光环"] = {
+									["count"] = 144,
+								},
+								["清算之手"] = {
+									["count"] = 119,
+								},
+								["驱邪术"] = {
+									["count"] = 818,
+								},
+								["正义圣印"] = {
+									["count"] = 422,
+								},
+								["正义审判"] = {
+									["count"] = 565,
+								},
+								["肉搏"] = {
+									["count"] = 1359,
+								},
+							},
+							["amount"] = 6037,
+						},
+						["迪克斯特·瓦德"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 66,
+								},
+								["驱邪术"] = {
+									["count"] = 135,
+								},
+								["正义圣印"] = {
+									["count"] = 32,
+								},
+								["正义审判"] = {
+									["count"] = 45,
+								},
+								["肉搏"] = {
+									["count"] = 133,
+								},
+							},
+							["amount"] = 411,
+						},
+						["卡姆·深怒"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 115,
+								},
+							},
+							["amount"] = 115,
+						},
+						["迪菲亚俘虏"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 1076,
+								},
+								["正义圣印"] = {
+									["count"] = 112,
+								},
+								["驱邪术"] = {
+									["count"] = 218,
+								},
+								["惩戒光环"] = {
+									["count"] = 54,
+								},
+								["正义审判"] = {
+									["count"] = 180,
+								},
+								["肉搏"] = {
+									["count"] = 294,
+								},
+							},
+							["amount"] = 1934,
+						},
+						["迪菲亚罪犯"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 1038,
+								},
+								["惩戒光环"] = {
+									["count"] = 18,
+								},
+								["清算之手"] = {
+									["count"] = 184,
+								},
+								["驱邪术"] = {
+									["count"] = 402,
+								},
+								["正义圣印"] = {
+									["count"] = 212,
+								},
+								["正义审判"] = {
+									["count"] = 301,
+								},
+								["肉搏"] = {
+									["count"] = 767,
+								},
+							},
+							["amount"] = 2922,
+						},
+					},
+					["TimeDamage"] = 340.8,
+					["TimeDamaging"] = {
+						["迪菲亚狱友"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 83.87,
+								},
+								["奉献"] = {
+									["count"] = 2.29,
+								},
+								["惩戒光环"] = {
+									["count"] = 3.27,
+								},
+								["驱邪术"] = {
+									["count"] = 2.14,
+								},
+								["正义圣印"] = {
+									["count"] = 16.13,
+								},
+								["正义审判"] = {
+									["count"] = 0.02,
+								},
+								["肉搏"] = {
+									["count"] = 23.56,
+								},
+							},
+							["amount"] = 131.2799999999999,
+						},
+						["迪菲亚囚徒"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 29.27,
+								},
+								["驱邪术"] = {
+									["count"] = 2.01,
+								},
+								["圣光审判"] = {
+									["count"] = 1.5,
+								},
+								["正义圣印"] = {
+									["count"] = 4.79,
+								},
+								["惩戒光环"] = {
+									["count"] = 1.93,
+								},
+								["肉搏"] = {
+									["count"] = 12.91,
+								},
+							},
+							["amount"] = 52.41,
+						},
+						["哈姆霍克"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 1.82,
+								},
+							},
+							["amount"] = 1.82,
+						},
+						["巴基尔·斯瑞德"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 2.01,
+								},
+							},
+							["amount"] = 2.01,
+						},
+						["迪菲亚叛军"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 46.53999999999999,
+								},
+								["制裁之锤"] = {
+									["count"] = 0.67,
+								},
+								["清算之手"] = {
+									["count"] = 0.48,
+								},
+								["驱邪术"] = {
+									["count"] = 2.19,
+								},
+								["正义圣印"] = {
+									["count"] = 10.75,
+								},
+								["惩戒光环"] = {
+									["count"] = 6.93,
+								},
+								["肉搏"] = {
+									["count"] = 14.6,
+								},
+							},
+							["amount"] = 82.16000000000004,
+						},
+						["迪克斯特·瓦德"] = {
+							["Details"] = {
+								["驱邪术"] = {
+									["count"] = 1.5,
+								},
+								["正义圣印"] = {
+									["count"] = 1.5,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 4.15,
+								},
+								["肉搏"] = {
+									["count"] = 0.63,
+								},
+							},
+							["amount"] = 7.779999999999999,
+						},
+						["卡姆·深怒"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 2.57,
+								},
+							},
+							["amount"] = 2.57,
+						},
+						["迪菲亚俘虏"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 23.08000000000001,
+								},
+								["肉搏"] = {
 									["count"] = 0.35,
 								},
-								["肉搏"] = {
-									["count"] = 3.11,
+								["驱邪术"] = {
+									["count"] = 0.33,
+								},
+								["惩戒光环"] = {
+									["count"] = 3.25,
+								},
+								["正义圣印"] = {
+									["count"] = 2.55,
+								},
+								["奉献"] = {
+									["count"] = 0.6,
 								},
 							},
-							["amount"] = 3.46,
+							["amount"] = 30.16000000000001,
+						},
+						["迪菲亚罪犯"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 9.22,
+								},
+								["清算之手"] = {
+									["count"] = 2.28,
+								},
+								["驱邪术"] = {
+									["count"] = 1.51,
+								},
+								["正义圣印"] = {
+									["count"] = 7.94,
+								},
+								["惩戒光环"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 8.16,
+								},
+							},
+							["amount"] = 30.61,
 						},
 					},
-					["ManaGain"] = 551,
-					["ActiveTime"] = 3.46,
-					["Damage"] = 3603,
+					["ManaGain"] = 627,
+					["HOTs"] = {
+						["圣光审判"] = {
+							["Details"] = {
+								["查尔斯三世"] = {
+									["count"] = 3,
+								},
+								["南宫浮生"] = {
+									["count"] = 6,
+								},
+								["三自四有"] = {
+									["count"] = 12,
+								},
+								["祝雨来"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 39,
+						},
+					},
+					["HOT_Time"] = 39,
 				},
 			},
-			["UnitLockout"] = 54589.6,
-			["LastActive"] = 54591.601,
+			["LastDamageTaken"] = 81,
+			["UnitLockout"] = 45191.193,
+			["LastAbility"] = 52289.367,
 		},
-		["熊 <流星剑雨>"] = {
-			["GUID"] = "Pet-0-4505-1-11184-2163-06016CABC0",
-			["LastEventHealth"] = {
-				462, -- [1]
-				462, -- [2]
-				462, -- [3]
-				441, -- [4]
-				441, -- [5]
-				441, -- [6]
-				420, -- [7]
-				420, -- [8]
-				420, -- [9]
-				420, -- [10]
-				388, -- [11]
-				388, -- [12]
-				360, -- [13]
-				360, -- [14]
-				360, -- [15]
-				360, -- [16]
+		["巴基尔·斯瑞德"] = {
+			["GUID"] = "Creature-0-4515-34-7881-1716-00002335C6",
+			["TimeLast"] = {
+				["DeathCount"] = 45578.191,
+				["ActiveTime"] = 45575.191,
+				["TimeDamage"] = 45575.191,
+				["OVERALL"] = 45578.191,
+				["DamageTaken"] = 45578.191,
+				["Damage"] = 45575.191,
 			},
-			["LastAttackedBy"] = "萨巴克希斯",
 			["LastEventType"] = {
 				"DAMAGE", -- [1]
 				"DAMAGE", -- [2]
@@ -13677,111 +5572,327 @@ RecountPerCharDB = {
 				"DAMAGE", -- [14]
 				"DAMAGE", -- [15]
 				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"MISC", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
 			},
 			["TimeWindows"] = {
-				["TimeDamage"] = {
-					9.680000000000001, -- [1]
-				},
-				["Damage"] = {
-					34, -- [1]
-				},
-				["DamageTaken"] = {
-					102, -- [1]
+				["DeathCount"] = {
+					1, -- [1]
 				},
 				["ActiveTime"] = {
-					9.680000000000001, -- [1]
+					17.55, -- [1]
+				},
+				["TimeDamage"] = {
+					17.55, -- [1]
+				},
+				["DamageTaken"] = {
+					2137, -- [1]
+				},
+				["Damage"] = {
+					666, -- [1]
 				},
 			},
-			["enClass"] = "PET",
-			["unit"] = "熊",
-			["level"] = 1,
-			["LastDamageAbility"] = "肉搏",
-			["LastFightIn"] = 566,
-			["LastActive"] = 1929.529,
-			["type"] = "Pet",
+			["enClass"] = "MOB",
+			["LastDamageTaken"] = 79,
+			["level"] = -1,
+			["LastDamageAbility"] = "魔爆术",
+			["LastFightIn"] = 18,
+			["LastActive"] = 45578.191,
+			["type"] = "Boss",
 			["FightsSaved"] = 5,
-			["ownerName"] = "流星剑雨",
 			["LastEventHealthMax"] = {
-				462, -- [1]
-				462, -- [2]
-				462, -- [3]
-				462, -- [4]
-				462, -- [5]
-				462, -- [6]
-				462, -- [7]
-				462, -- [8]
-				462, -- [9]
-				462, -- [10]
-				462, -- [11]
-				462, -- [12]
-				462, -- [13]
-				462, -- [14]
-				462, -- [15]
-				462, -- [16]
+				nil, -- [1]
+				nil, -- [2]
+				nil, -- [3]
+				2097, -- [4]
+				2097, -- [5]
+				2097, -- [6]
+				2097, -- [7]
+				2097, -- [8]
+				2097, -- [9]
+				2097, -- [10]
+				2097, -- [11]
+				2097, -- [12]
+				2097, -- [13]
+				2097, -- [14]
+				2097, -- [15]
+				2097, -- [16]
+				2097, -- [17]
+				2097, -- [18]
+				2097, -- [19]
+				2097, -- [20]
+				2097, -- [21]
+				2097, -- [22]
+				2097, -- [23]
+				2097, -- [24]
+				2097, -- [25]
+				2097, -- [26]
+				2097, -- [27]
+				2097, -- [28]
+				2097, -- [29]
+				2097, -- [30]
+				2097, -- [31]
+				2097, -- [32]
+				2097, -- [33]
+				2097, -- [34]
+				2097, -- [35]
+				2097, -- [36]
+				2097, -- [37]
+				2097, -- [38]
+				2097, -- [39]
+				2097, -- [40]
+				2097, -- [41]
+				2097, -- [42]
+				2097, -- [43]
+				2097, -- [44]
+				2097, -- [45]
+				2097, -- [46]
+				2097, -- [47]
+				2097, -- [48]
+				2097, -- [49]
 			},
-			["TimeLast"] = {
-				["ActiveTime"] = 1929.529,
-				["TimeDamage"] = 1929.529,
-				["OVERALL"] = 1929.529,
-				["DamageTaken"] = 1927.519,
-				["Damage"] = 1927.519,
+			["LastEventHealth"] = {
+				nil, -- [1]
+				nil, -- [2]
+				nil, -- [3]
+				1889, -- [4]
+				1889, -- [5]
+				1889, -- [6]
+				1889, -- [7]
+				1842, -- [8]
+				1842, -- [9]
+				1823, -- [10]
+				1823, -- [11]
+				1823, -- [12]
+				1823, -- [13]
+				1775, -- [14]
+				1758, -- [15]
+				1758, -- [16]
+				1758, -- [17]
+				1739, -- [18]
+				1722, -- [19]
+				1625, -- [20]
+				1625, -- [21]
+				1606, -- [22]
+				1606, -- [23]
+				1606, -- [24]
+				1606, -- [25]
+				1559, -- [26]
+				1542, -- [27]
+				1433, -- [28]
+				1433, -- [29]
+				1433, -- [30]
+				1396, -- [31]
+				1396, -- [32]
+				1208, -- [33]
+				1136, -- [34]
+				1136, -- [35]
+				1117, -- [36]
+				1100, -- [37]
+				1028, -- [38]
+				1028, -- [39]
+				1011, -- [40]
+				939, -- [41]
+				939, -- [42]
+				939, -- [43]
+				912, -- [44]
+				896, -- [45]
+				823, -- [46]
+				823, -- [47]
+				823, -- [48]
+				795, -- [49]
 			},
-			["Name"] = "熊",
-			["NextEventNum"] = 17,
-			["LastDamageTime"] = 1930.227,
+			["Owner"] = false,
+			["LastEventTimes"] = {
+				45571.71, -- [1]
+				45571.71, -- [2]
+				45572.332, -- [3]
+				45572.714, -- [4]
+				45572.726, -- [5]
+				45572.726, -- [6]
+				45573.342, -- [7]
+				45573.697, -- [8]
+				45573.711, -- [9]
+				45573.711, -- [10]
+				45573.826, -- [11]
+				45574.714, -- [12]
+				45574.728, -- [13]
+				45574.728, -- [14]
+				45575.004, -- [15]
+				45575.334, -- [16]
+				45575.71, -- [17]
+				45575.724, -- [18]
+				45575.724, -- [19]
+				45576.013, -- [20]
+				45576.836, -- [21]
+				45577.007, -- [22]
+				45578.001, -- [23]
+				45578.173, -- [24]
+				45578.341, -- [25]
+				45578.341, -- [26]
+				45566.342, -- [27]
+				45566.689, -- [28]
+				45566.713, -- [29]
+				45566.928, -- [30]
+				45567.291, -- [31]
+				45567.291, -- [32]
+				45567.348, -- [33]
+				45567.698, -- [34]
+				45567.704, -- [35]
+				45567.934, -- [36]
+				45568.351, -- [37]
+				45568.705, -- [38]
+				45568.936, -- [39]
+				45569.34, -- [40]
+				45569.698, -- [41]
+				45569.705, -- [42]
+				45569.705, -- [43]
+				45569.939, -- [44]
+				45570.338, -- [45]
+				45570.711, -- [46]
+				45570.725, -- [47]
+				45570.725, -- [48]
+				45571.333, -- [49]
+				45571.698, -- [50]
+			},
+			["NextEventNum"] = 27,
+			["LastDamageTime"] = 45575.71,
 			["LastEvents"] = {
-				"熊 <流星剑雨> 肉搏 萨巴克希斯 Glancing -8 (Physical)", -- [1]
-				"熊 <流星剑雨> 爪击 萨巴克希斯 Miss (Physical)", -- [2]
-				"萨巴克希斯 肉搏 熊 <流星剑雨> Hit -21 (Physical)", -- [3]
-				"熊 <流星剑雨> 横扫 萨巴克希斯 Hit -11 (Physical)", -- [4]
-				"熊 <流星剑雨> 肉搏 萨巴克希斯 Glancing -5 (Physical)", -- [5]
-				"萨巴克希斯 肉搏 熊 <流星剑雨> Hit -21 (Physical)", -- [6]
-				"熊 <流星剑雨> 爪击 萨巴克希斯 Dodge (Physical)", -- [7]
-				"熊 <流星剑雨> 肉搏 萨巴克希斯 Glancing -7 (Physical)", -- [8]
-				"萨巴克希斯 肉搏 熊 <流星剑雨> Crushing -32 (Physical)", -- [9]
-				"熊 <流星剑雨> 爪击 萨巴克希斯 Parry (Physical)", -- [10]
-				"熊 <流星剑雨> 肉搏 萨巴克希斯 Glancing -3 (Physical)", -- [11]
-				"萨巴克希斯 肉搏 熊 <流星剑雨> Hit -28 (Physical)", -- [12]
-				"熊 <流星剑雨> 爪击 萨巴克希斯 Parry (Physical)", -- [13]
-				"萨巴克希斯 肉搏 熊 <流星剑雨> Miss (1)", -- [14]
-				"熊 <流星剑雨> 肉搏 萨巴克希斯 Miss (1)", -- [15]
-				"熊 <流星剑雨> 爪击 萨巴克希斯 Parry (Physical)", -- [16]
+				"南宫浮生 荆棘术 巴基尔·斯瑞德 Hit -9 (Nature)", -- [1]
+				"南宫浮生 惩戒光环 巴基尔·斯瑞德 Hit -18 (Holy)", -- [2]
+				"查尔斯三世 暴风雪 巴基尔·斯瑞德 Crit -108 (Frost)", -- [3]
+				"巴基尔·斯瑞德 肉搏 南宫浮生 Hit -49 (Physical)", -- [4]
+				"南宫浮生 荆棘术 巴基尔·斯瑞德 Hit -9 (Nature)", -- [5]
+				"南宫浮生 惩戒光环 巴基尔·斯瑞德 Resist (Holy)", -- [6]
+				"查尔斯三世 暴风雪 巴基尔·斯瑞德 Hit -72 (Frost)", -- [7]
+				"巴基尔·斯瑞德 肉搏 南宫浮生 Hit -102 (Physical)", -- [8]
+				"南宫浮生 荆棘术 巴基尔·斯瑞德 Hit -9 (Nature)", -- [9]
+				"南宫浮生 惩戒光环 巴基尔·斯瑞德 Hit -18 (Holy)", -- [10]
+				"查尔斯三世 冰霜新星 巴基尔·斯瑞德 Hit -23 (Frost)", -- [11]
+				"巴基尔·斯瑞德 肉搏 南宫浮生 Hit -52 (Physical)", -- [12]
+				"南宫浮生 荆棘术 巴基尔·斯瑞德 Hit -10 (Nature)", -- [13]
+				"南宫浮生 惩戒光环 巴基尔·斯瑞德 Hit -18 (Holy)", -- [14]
+				"三自四有 奉献 (伤害/跳) 巴基尔·斯瑞德 Tick -16 (Holy)", -- [15]
+				"查尔斯三世 冰锥术 巴基尔·斯瑞德 Crit -176 (Frost)", -- [16]
+				"巴基尔·斯瑞德 肉搏 南宫浮生 Hit -90 (Physical)", -- [17]
+				"南宫浮生 荆棘术 巴基尔·斯瑞德 Hit -9 (Nature)", -- [18]
+				"南宫浮生 惩戒光环 巴基尔·斯瑞德 Hit -18 (Holy)", -- [19]
+				"三自四有 奉献 (伤害/跳) 巴基尔·斯瑞德 Tick -15 (Holy)", -- [20]
+				"查尔斯三世 魔爆术 巴基尔·斯瑞德 Hit -79 (Arcane)", -- [21]
+				"三自四有 奉献 (伤害/跳) 巴基尔·斯瑞德 Tick -15 (Holy)", -- [22]
+				"三自四有 奉献 (伤害/跳) 巴基尔·斯瑞德 Tick -15 (Holy)", -- [23]
+				"南宫浮生 命令圣印 巴基尔·斯瑞德 Hit -47 (Holy)", -- [24]
+				"查尔斯三世 魔爆术 巴基尔·斯瑞德 Hit -79 (Arcane)", -- [25]
+				"巴基尔·斯瑞德死亡。", -- [26]
+				"查尔斯三世 暴风雪 巴基尔·斯瑞德 Crit -109 (Frost)", -- [27]
+				"巴基尔·斯瑞德 肉搏 南宫浮生 Parry (1)", -- [28]
+				"南宫浮生 奉献 (伤害/跳) 巴基尔·斯瑞德 Tick -20 (Holy)", -- [29]
+				"三自四有 奉献 (伤害/跳) 巴基尔·斯瑞德 Tick -17 (Holy)", -- [30]
+				"南宫浮生 肉搏 巴基尔·斯瑞德 Hit -95 (Physical)", -- [31]
+				"南宫浮生 命令圣印 巴基尔·斯瑞德 Crit -93 (Holy)", -- [32]
+				"查尔斯三世 暴风雪 巴基尔·斯瑞德 Hit -72 (Frost)", -- [33]
+				"巴基尔·斯瑞德 肉搏 南宫浮生 Miss (1)", -- [34]
+				"南宫浮生 奉献 (伤害/跳) 巴基尔·斯瑞德 Tick -19 (Holy)", -- [35]
+				"三自四有 奉献 (伤害/跳) 巴基尔·斯瑞德 Tick -17 (Holy)", -- [36]
+				"查尔斯三世 暴风雪 巴基尔·斯瑞德 Hit -72 (Frost)", -- [37]
+				"巴基尔·斯瑞德 肉搏 南宫浮生 Miss (1)", -- [38]
+				"三自四有 奉献 (伤害/跳) 巴基尔·斯瑞德 Tick -17 (Holy)", -- [39]
+				"查尔斯三世 暴风雪 巴基尔·斯瑞德 Hit -72 (Frost)", -- [40]
+				"巴基尔·斯瑞德 肉搏 南宫浮生 Hit -97 (Physical)", -- [41]
+				"南宫浮生 荆棘术 巴基尔·斯瑞德 Hit -9 (Nature)", -- [42]
+				"南宫浮生 惩戒光环 巴基尔·斯瑞德 Hit -18 (Holy)", -- [43]
+				"三自四有 奉献 (伤害/跳) 巴基尔·斯瑞德 Tick -16 (Holy)", -- [44]
+				"查尔斯三世 暴风雪 巴基尔·斯瑞德 Hit -73 (Frost)", -- [45]
+				"巴基尔·斯瑞德 肉搏 南宫浮生 Hit -42 (Physical)", -- [46]
+				"南宫浮生 荆棘术 巴基尔·斯瑞德 Hit -10 (Nature)", -- [47]
+				"南宫浮生 惩戒光环 巴基尔·斯瑞德 Hit -18 (Holy)", -- [48]
+				"查尔斯三世 暴风雪 巴基尔·斯瑞德 Hit -72 (Frost)", -- [49]
+				"巴基尔·斯瑞德 肉搏 南宫浮生 Hit -88 (Physical)", -- [50]
 			},
+			["Name"] = "巴基尔·斯瑞德",
 			["LastEventIncoming"] = {
-				false, -- [1]
-				false, -- [2]
+				true, -- [1]
+				true, -- [2]
 				true, -- [3]
 				false, -- [4]
-				false, -- [5]
+				true, -- [5]
 				true, -- [6]
-				false, -- [7]
+				true, -- [7]
 				false, -- [8]
 				true, -- [9]
-				false, -- [10]
-				false, -- [11]
-				true, -- [12]
-				false, -- [13]
+				true, -- [10]
+				true, -- [11]
+				false, -- [12]
+				true, -- [13]
 				true, -- [14]
-				false, -- [15]
-				false, -- [16]
-			},
-			["LastEventTimes"] = {
-				1921.89, -- [1]
-				1922.173, -- [2]
-				1922.978, -- [3]
-				1923.79, -- [4]
-				1923.891, -- [5]
-				1924.989, -- [6]
-				1925.421, -- [7]
-				1925.815, -- [8]
-				1926.98, -- [9]
-				1926.98, -- [10]
-				1927.898, -- [11]
-				1927.898, -- [12]
-				1928.584, -- [13]
-				1928.974, -- [14]
-				1929.838, -- [15]
-				1930.227, -- [16]
+				true, -- [15]
+				true, -- [16]
+				false, -- [17]
+				true, -- [18]
+				true, -- [19]
+				true, -- [20]
+				true, -- [21]
+				true, -- [22]
+				true, -- [23]
+				true, -- [24]
+				true, -- [25]
+				true, -- [26]
+				true, -- [27]
+				false, -- [28]
+				true, -- [29]
+				true, -- [30]
+				true, -- [31]
+				true, -- [32]
+				true, -- [33]
+				false, -- [34]
+				true, -- [35]
+				true, -- [36]
+				true, -- [37]
+				false, -- [38]
+				true, -- [39]
+				true, -- [40]
+				false, -- [41]
+				true, -- [42]
+				true, -- [43]
+				true, -- [44]
+				true, -- [45]
+				false, -- [46]
+				true, -- [47]
+				true, -- [48]
+				true, -- [49]
+				false, -- [50]
 			},
 			["Fights"] = {
 				["LastFightData"] = {
@@ -13991,92 +6102,7340 @@ RecountPerCharDB = {
 					},
 				},
 				["OverallData"] = {
-					["TimeSpent"] = {
-						["萨巴克希斯"] = {
-							["Details"] = {
-								["横扫"] = {
-									["count"] = 1.5,
-								},
-								["爪击"] = {
-									["count"] = 4.02,
-								},
-								["肉搏"] = {
-									["count"] = 4.16,
-								},
-							},
-							["amount"] = 9.680000000000001,
-						},
-					},
 					["Attacks"] = {
-						["横扫"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 11,
-									["min"] = 11,
-									["count"] = 1,
-									["amount"] = 11,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 11,
-						},
-						["爪击"] = {
+						["肉搏"] = {
 							["Details"] = {
 								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 102,
+									["min"] = 32,
+									["count"] = 10,
+									["amount"] = 666,
+								},
+								["Miss"] = {
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 17,
+							["amount"] = 666,
+						},
+					},
+					["TimeSpent"] = {
+						["南宫浮生"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 17.55,
+								},
+							},
+							["amount"] = 17.55,
+						},
+					},
+					["PartialResist"] = {
+						["命令审判"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["冰霜新星"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["惩戒光环"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 10,
+						},
+						["暴风雪"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 8,
+						},
+						["奉献 (伤害/跳)"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 19,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 19,
+						},
+						["命令圣印"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
 									["count"] = 3,
 									["amount"] = 0,
 								},
-								["Dodge"] = {
-									["count"] = 1,
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+						["魔爆术"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
 									["amount"] = 0,
 								},
-								["Miss"] = {
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["冰锥术"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
 									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["荆棘术"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 10,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+					},
+					["TimeDamaging"] = {
+						["南宫浮生"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 17.55,
+								},
+							},
+							["amount"] = 17.55,
+						},
+					},
+					["ActiveTime"] = 17.55,
+					["ElementHitsTaken"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 19,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 33,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["DamageTaken"] = 2137,
+					["DamagedWho"] = {
+						["南宫浮生"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 666,
+								},
+							},
+							["amount"] = 666,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 666,
+					},
+					["DeathCount"] = 1,
+					["PartialAbsorb"] = {
+						["命令审判"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["冰霜新星"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["惩戒光环"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 0,
+						},
+						["暴风雪"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+						["奉献 (伤害/跳)"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 19,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 19,
+							["amount"] = 0,
+						},
+						["命令圣印"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["魔爆术"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["冰锥术"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["荆棘术"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 10,
 							["amount"] = 0,
 						},
 						["肉搏"] = {
 							["Details"] = {
-								["Glancing"] = {
-									["max"] = 8,
-									["min"] = 3,
-									["count"] = 4,
-									["amount"] = 23,
-								},
-								["Miss"] = {
-									["count"] = 1,
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
-							["amount"] = 23,
+							["count"] = 3,
+							["amount"] = 0,
 						},
+					},
+					["TimeDamage"] = 17.55,
+					["WhoDamaged"] = {
+						["南宫浮生"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 97,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 156,
+								},
+								["命令圣印"] = {
+									["count"] = 244,
+								},
+								["惩戒光环"] = {
+									["count"] = 162,
+								},
+								["荆棘术"] = {
+									["count"] = 93,
+								},
+								["肉搏"] = {
+									["count"] = 199,
+								},
+							},
+							["amount"] = 951,
+						},
+						["三自四有"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 179,
+								},
+							},
+							["amount"] = 179,
+						},
+						["查尔斯三世"] = {
+							["Details"] = {
+								["魔爆术"] = {
+									["count"] = 158,
+								},
+								["冰锥术"] = {
+									["count"] = 176,
+								},
+								["冰霜新星"] = {
+									["count"] = 23,
+								},
+								["暴风雪"] = {
+									["count"] = 650,
+								},
+							},
+							["amount"] = 1007,
+						},
+					},
+					["ElementTaken"] = {
+						["Holy"] = 838,
+						["Melee"] = 199,
+						["Arcane"] = 158,
+						["Frost"] = 849,
+						["Nature"] = 93,
 					},
 					["ElementHitsDone"] = {
 						["Melee"] = {
 							["Details"] = {
-								["Glancing"] = {
-									["count"] = 4,
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 10,
 								},
 								["Miss"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 17,
+						},
+					},
+					["Damage"] = 666,
+				},
+			},
+			["DeathLogs"] = {
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						false, -- [2]
+						true, -- [3]
+						true, -- [4]
+						true, -- [5]
+						true, -- [6]
+						true, -- [7]
+						false, -- [8]
+						true, -- [9]
+						true, -- [10]
+						true, -- [11]
+						false, -- [12]
+						true, -- [13]
+						true, -- [14]
+						false, -- [15]
+						true, -- [16]
+						true, -- [17]
+						true, -- [18]
+						true, -- [19]
+						false, -- [20]
+						true, -- [21]
+						true, -- [22]
+						true, -- [23]
+						false, -- [24]
+						true, -- [25]
+						true, -- [26]
+						true, -- [27]
+						false, -- [28]
+						true, -- [29]
+						true, -- [30]
+						true, -- [31]
+						false, -- [32]
+						true, -- [33]
+						true, -- [34]
+						true, -- [35]
+						false, -- [36]
+						true, -- [37]
+						true, -- [38]
+						true, -- [39]
+						true, -- [40]
+						false, -- [41]
+						true, -- [42]
+						true, -- [43]
+						true, -- [44]
+						true, -- [45]
+						true, -- [46]
+						true, -- [47]
+						true, -- [48]
+						true, -- [49]
+						true, -- [50]
+					},
+					["Messages"] = {
+						"查尔斯三世 暴风雪 巴基尔·斯瑞德 Crit -109 (Frost)", -- [1]
+						"巴基尔·斯瑞德 肉搏 南宫浮生 Parry (1)", -- [2]
+						"南宫浮生 奉献 (伤害/跳) 巴基尔·斯瑞德 Tick -20 (Holy)", -- [3]
+						"三自四有 奉献 (伤害/跳) 巴基尔·斯瑞德 Tick -17 (Holy)", -- [4]
+						"南宫浮生 肉搏 巴基尔·斯瑞德 Hit -95 (Physical)", -- [5]
+						"南宫浮生 命令圣印 巴基尔·斯瑞德 Crit -93 (Holy)", -- [6]
+						"查尔斯三世 暴风雪 巴基尔·斯瑞德 Hit -72 (Frost)", -- [7]
+						"巴基尔·斯瑞德 肉搏 南宫浮生 Miss (1)", -- [8]
+						"南宫浮生 奉献 (伤害/跳) 巴基尔·斯瑞德 Tick -19 (Holy)", -- [9]
+						"三自四有 奉献 (伤害/跳) 巴基尔·斯瑞德 Tick -17 (Holy)", -- [10]
+						"查尔斯三世 暴风雪 巴基尔·斯瑞德 Hit -72 (Frost)", -- [11]
+						"巴基尔·斯瑞德 肉搏 南宫浮生 Miss (1)", -- [12]
+						"三自四有 奉献 (伤害/跳) 巴基尔·斯瑞德 Tick -17 (Holy)", -- [13]
+						"查尔斯三世 暴风雪 巴基尔·斯瑞德 Hit -72 (Frost)", -- [14]
+						"巴基尔·斯瑞德 肉搏 南宫浮生 Hit -97 (Physical)", -- [15]
+						"南宫浮生 荆棘术 巴基尔·斯瑞德 Hit -9 (Nature)", -- [16]
+						"南宫浮生 惩戒光环 巴基尔·斯瑞德 Hit -18 (Holy)", -- [17]
+						"三自四有 奉献 (伤害/跳) 巴基尔·斯瑞德 Tick -16 (Holy)", -- [18]
+						"查尔斯三世 暴风雪 巴基尔·斯瑞德 Hit -73 (Frost)", -- [19]
+						"巴基尔·斯瑞德 肉搏 南宫浮生 Hit -42 (Physical)", -- [20]
+						"南宫浮生 荆棘术 巴基尔·斯瑞德 Hit -10 (Nature)", -- [21]
+						"南宫浮生 惩戒光环 巴基尔·斯瑞德 Hit -18 (Holy)", -- [22]
+						"查尔斯三世 暴风雪 巴基尔·斯瑞德 Hit -72 (Frost)", -- [23]
+						"巴基尔·斯瑞德 肉搏 南宫浮生 Hit -88 (Physical)", -- [24]
+						"南宫浮生 荆棘术 巴基尔·斯瑞德 Hit -9 (Nature)", -- [25]
+						"南宫浮生 惩戒光环 巴基尔·斯瑞德 Hit -18 (Holy)", -- [26]
+						"查尔斯三世 暴风雪 巴基尔·斯瑞德 Crit -108 (Frost)", -- [27]
+						"巴基尔·斯瑞德 肉搏 南宫浮生 Hit -49 (Physical)", -- [28]
+						"南宫浮生 荆棘术 巴基尔·斯瑞德 Hit -9 (Nature)", -- [29]
+						"南宫浮生 惩戒光环 巴基尔·斯瑞德 Resist (Holy)", -- [30]
+						"查尔斯三世 暴风雪 巴基尔·斯瑞德 Hit -72 (Frost)", -- [31]
+						"巴基尔·斯瑞德 肉搏 南宫浮生 Hit -102 (Physical)", -- [32]
+						"南宫浮生 荆棘术 巴基尔·斯瑞德 Hit -9 (Nature)", -- [33]
+						"南宫浮生 惩戒光环 巴基尔·斯瑞德 Hit -18 (Holy)", -- [34]
+						"查尔斯三世 冰霜新星 巴基尔·斯瑞德 Hit -23 (Frost)", -- [35]
+						"巴基尔·斯瑞德 肉搏 南宫浮生 Hit -52 (Physical)", -- [36]
+						"南宫浮生 荆棘术 巴基尔·斯瑞德 Hit -10 (Nature)", -- [37]
+						"南宫浮生 惩戒光环 巴基尔·斯瑞德 Hit -18 (Holy)", -- [38]
+						"三自四有 奉献 (伤害/跳) 巴基尔·斯瑞德 Tick -16 (Holy)", -- [39]
+						"查尔斯三世 冰锥术 巴基尔·斯瑞德 Crit -176 (Frost)", -- [40]
+						"巴基尔·斯瑞德 肉搏 南宫浮生 Hit -90 (Physical)", -- [41]
+						"南宫浮生 荆棘术 巴基尔·斯瑞德 Hit -9 (Nature)", -- [42]
+						"南宫浮生 惩戒光环 巴基尔·斯瑞德 Hit -18 (Holy)", -- [43]
+						"三自四有 奉献 (伤害/跳) 巴基尔·斯瑞德 Tick -15 (Holy)", -- [44]
+						"查尔斯三世 魔爆术 巴基尔·斯瑞德 Hit -79 (Arcane)", -- [45]
+						"三自四有 奉献 (伤害/跳) 巴基尔·斯瑞德 Tick -15 (Holy)", -- [46]
+						"三自四有 奉献 (伤害/跳) 巴基尔·斯瑞德 Tick -15 (Holy)", -- [47]
+						"南宫浮生 命令圣印 巴基尔·斯瑞德 Hit -47 (Holy)", -- [48]
+						"查尔斯三世 魔爆术 巴基尔·斯瑞德 Hit -79 (Arcane)", -- [49]
+						"巴基尔·斯瑞德死亡。", -- [50]
+					},
+					["DeathAt"] = 45580.195,
+					["EventNum"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						0, -- [15]
+						0, -- [16]
+						0, -- [17]
+						0, -- [18]
+						0, -- [19]
+						0, -- [20]
+						0, -- [21]
+						0, -- [22]
+						0, -- [23]
+						0, -- [24]
+						0, -- [25]
+						0, -- [26]
+						0, -- [27]
+						0, -- [28]
+						0, -- [29]
+						0, -- [30]
+						0, -- [31]
+						0, -- [32]
+						0, -- [33]
+						0, -- [34]
+						0, -- [35]
+						0, -- [36]
+						0, -- [37]
+						0, -- [38]
+						0, -- [39]
+						0, -- [40]
+						0, -- [41]
+						0, -- [42]
+						0, -- [43]
+						0, -- [44]
+						0, -- [45]
+						0, -- [46]
+						0, -- [47]
+						0, -- [48]
+						0, -- [49]
+						0, -- [50]
+					},
+					["MessageTimes"] = {
+						-11.99899999999616, -- [1]
+						-11.65200000000186, -- [2]
+						-11.62799999999697, -- [3]
+						-11.41300000000047, -- [4]
+						-11.05000000000291, -- [5]
+						-11.05000000000291, -- [6]
+						-10.99300000000221, -- [7]
+						-10.64299999999639, -- [8]
+						-10.63700000000245, -- [9]
+						-10.40699999999924, -- [10]
+						-9.989999999997963, -- [11]
+						-9.635999999998603, -- [12]
+						-9.404999999998836, -- [13]
+						-9.000999999996566, -- [14]
+						-8.642999999996391, -- [15]
+						-8.635999999998603, -- [16]
+						-8.635999999998603, -- [17]
+						-8.402000000001863, -- [18]
+						-8.002999999996973, -- [19]
+						-7.629999999997381, -- [20]
+						-7.616000000001804, -- [21]
+						-7.616000000001804, -- [22]
+						-7.00800000000163, -- [23]
+						-6.642999999996391, -- [24]
+						-6.631000000001222, -- [25]
+						-6.631000000001222, -- [26]
+						-6.008999999998196, -- [27]
+						-5.627000000000408, -- [28]
+						-5.614999999997963, -- [29]
+						-5.614999999997963, -- [30]
+						-4.998999999996158, -- [31]
+						-4.644000000000233, -- [32]
+						-4.629999999997381, -- [33]
+						-4.629999999997381, -- [34]
+						-4.514999999999418, -- [35]
+						-3.627000000000408, -- [36]
+						-3.612999999997555, -- [37]
+						-3.612999999997555, -- [38]
+						-3.336999999999534, -- [39]
+						-3.006999999997788, -- [40]
+						-2.631000000001222, -- [41]
+						-2.61699999999837, -- [42]
+						-2.61699999999837, -- [43]
+						-2.328000000001339, -- [44]
+						-1.504999999997381, -- [45]
+						-1.334000000002561, -- [46]
+						-0.3399999999965075, -- [47]
+						-0.1679999999978463, -- [48]
+						0, -- [49]
+						0, -- [50]
+					},
+					["HealthMax"] = {
+						2097, -- [1]
+						2097, -- [2]
+						2097, -- [3]
+						2097, -- [4]
+						2097, -- [5]
+						2097, -- [6]
+						2097, -- [7]
+						2097, -- [8]
+						2097, -- [9]
+						2097, -- [10]
+						2097, -- [11]
+						2097, -- [12]
+						2097, -- [13]
+						2097, -- [14]
+						2097, -- [15]
+						2097, -- [16]
+						2097, -- [17]
+						2097, -- [18]
+						2097, -- [19]
+						2097, -- [20]
+						2097, -- [21]
+						2097, -- [22]
+						2097, -- [23]
+						[30] = 2097,
+						[31] = 2097,
+						[32] = 2097,
+						[33] = 2097,
+						[34] = 2097,
+						[35] = 2097,
+						[36] = 2097,
+						[37] = 2097,
+						[38] = 2097,
+						[39] = 2097,
+						[40] = 2097,
+						[41] = 2097,
+						[42] = 2097,
+						[43] = 2097,
+						[44] = 2097,
+						[45] = 2097,
+						[46] = 2097,
+						[47] = 2097,
+						[48] = 2097,
+						[49] = 2097,
+						[50] = 2097,
+						[28] = 2097,
+						[29] = 2097,
+					},
+					["Health"] = {
+						1542, -- [1]
+						1433, -- [2]
+						1433, -- [3]
+						1433, -- [4]
+						1396, -- [5]
+						1396, -- [6]
+						1208, -- [7]
+						1136, -- [8]
+						1136, -- [9]
+						1117, -- [10]
+						1100, -- [11]
+						1028, -- [12]
+						1028, -- [13]
+						1011, -- [14]
+						939, -- [15]
+						939, -- [16]
+						939, -- [17]
+						912, -- [18]
+						896, -- [19]
+						823, -- [20]
+						823, -- [21]
+						823, -- [22]
+						795, -- [23]
+						[30] = 1889,
+						[31] = 1889,
+						[32] = 1842,
+						[33] = 1842,
+						[34] = 1823,
+						[35] = 1823,
+						[36] = 1823,
+						[37] = 1823,
+						[38] = 1775,
+						[39] = 1758,
+						[40] = 1758,
+						[41] = 1758,
+						[42] = 1739,
+						[43] = 1722,
+						[44] = 1625,
+						[45] = 1625,
+						[46] = 1606,
+						[47] = 1606,
+						[48] = 1606,
+						[49] = 1606,
+						[50] = 1559,
+						[28] = 1889,
+						[29] = 1889,
+					},
+					["KilledBy"] = "查尔斯三世",
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"DAMAGE", -- [8]
+						"DAMAGE", -- [9]
+						"DAMAGE", -- [10]
+						"DAMAGE", -- [11]
+						"DAMAGE", -- [12]
+						"DAMAGE", -- [13]
+						"DAMAGE", -- [14]
+						"DAMAGE", -- [15]
+						"DAMAGE", -- [16]
+						"DAMAGE", -- [17]
+						"DAMAGE", -- [18]
+						"DAMAGE", -- [19]
+						"DAMAGE", -- [20]
+						"DAMAGE", -- [21]
+						"DAMAGE", -- [22]
+						"DAMAGE", -- [23]
+						"DAMAGE", -- [24]
+						"DAMAGE", -- [25]
+						"DAMAGE", -- [26]
+						"DAMAGE", -- [27]
+						"DAMAGE", -- [28]
+						"DAMAGE", -- [29]
+						"DAMAGE", -- [30]
+						"DAMAGE", -- [31]
+						"DAMAGE", -- [32]
+						"DAMAGE", -- [33]
+						"DAMAGE", -- [34]
+						"DAMAGE", -- [35]
+						"DAMAGE", -- [36]
+						"DAMAGE", -- [37]
+						"DAMAGE", -- [38]
+						"DAMAGE", -- [39]
+						"DAMAGE", -- [40]
+						"DAMAGE", -- [41]
+						"DAMAGE", -- [42]
+						"DAMAGE", -- [43]
+						"DAMAGE", -- [44]
+						"DAMAGE", -- [45]
+						"DAMAGE", -- [46]
+						"DAMAGE", -- [47]
+						"DAMAGE", -- [48]
+						"DAMAGE", -- [49]
+						"MISC", -- [50]
+					},
+				}, -- [1]
+			},
+			["UnitLockout"] = 45578.191,
+			["LastAbility"] = 52289.367,
+		},
+		["查尔斯三世"] = {
+			["GUID"] = "Player-4778-0516167D",
+			["LastEventHealth"] = {
+				765, -- [1]
+				765, -- [2]
+				765, -- [3]
+				765, -- [4]
+				765, -- [5]
+				765, -- [6]
+				765, -- [7]
+				765, -- [8]
+				765, -- [9]
+				765, -- [10]
+				765, -- [11]
+				765, -- [12]
+				765, -- [13]
+				765, -- [14]
+				765, -- [15]
+				765, -- [16]
+				765, -- [17]
+				765, -- [18]
+				765, -- [19]
+				765, -- [20]
+				765, -- [21]
+				765, -- [22]
+				765, -- [23]
+				765, -- [24]
+				765, -- [25]
+				765, -- [26]
+				765, -- [27]
+				765, -- [28]
+				765, -- [29]
+				765, -- [30]
+				765, -- [31]
+				765, -- [32]
+				765, -- [33]
+				765, -- [34]
+				765, -- [35]
+				765, -- [36]
+				765, -- [37]
+				765, -- [38]
+				765, -- [39]
+				765, -- [40]
+				765, -- [41]
+				765, -- [42]
+				765, -- [43]
+				765, -- [44]
+				765, -- [45]
+				765, -- [46]
+				765, -- [47]
+				765, -- [48]
+				765, -- [49]
+				765, -- [50]
+			},
+			["LastAttackedBy"] = "迪菲亚叛军",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["HealingTaken"] = {
+					1442, -- [1]
+				},
+				["ActiveTime"] = {
+					207.3100000000001, -- [1]
+				},
+				["TimeDamage"] = {
+					207.3100000000001, -- [1]
+				},
+				["ManaGain"] = {
+					2592, -- [1]
+				},
+				["DamageTaken"] = {
+					1583, -- [1]
+				},
+				["Damage"] = {
+					45968, -- [1]
+				},
+			},
+			["enClass"] = "MAGE",
+			["unit"] = "查尔斯三世",
+			["LastActive"] = 54597.04100000001,
+			["level"] = 29,
+			["LastDamageAbility"] = "肉搏",
+			["LastFightIn"] = 107,
+			["LastEventHealthMax"] = {
+				765, -- [1]
+				765, -- [2]
+				765, -- [3]
+				765, -- [4]
+				765, -- [5]
+				765, -- [6]
+				765, -- [7]
+				765, -- [8]
+				765, -- [9]
+				765, -- [10]
+				765, -- [11]
+				765, -- [12]
+				765, -- [13]
+				765, -- [14]
+				765, -- [15]
+				765, -- [16]
+				765, -- [17]
+				765, -- [18]
+				765, -- [19]
+				765, -- [20]
+				765, -- [21]
+				765, -- [22]
+				765, -- [23]
+				765, -- [24]
+				765, -- [25]
+				765, -- [26]
+				765, -- [27]
+				765, -- [28]
+				765, -- [29]
+				765, -- [30]
+				765, -- [31]
+				765, -- [32]
+				765, -- [33]
+				765, -- [34]
+				765, -- [35]
+				765, -- [36]
+				765, -- [37]
+				765, -- [38]
+				765, -- [39]
+				765, -- [40]
+				765, -- [41]
+				765, -- [42]
+				765, -- [43]
+				765, -- [44]
+				765, -- [45]
+				765, -- [46]
+				765, -- [47]
+				765, -- [48]
+				765, -- [49]
+				765, -- [50]
+			},
+			["type"] = "Ungrouped",
+			["FightsSaved"] = 5,
+			["TimeLast"] = {
+				["HealingTaken"] = 45451.196,
+				["ActiveTime"] = 45609.197,
+				["TimeDamage"] = 45609.197,
+				["ManaGain"] = 45609.197,
+				["OVERALL"] = 45609.197,
+				["DamageTaken"] = 45542.191,
+				["Damage"] = 45609.197,
+			},
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				false, -- [25]
+				false, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+				false, -- [30]
+				false, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+				false, -- [39]
+				false, -- [40]
+				false, -- [41]
+				false, -- [42]
+				false, -- [43]
+				false, -- [44]
+				false, -- [45]
+				false, -- [46]
+				false, -- [47]
+				false, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["Owner"] = false,
+			["LastEventTimes"] = {
+				45599.314, -- [1]
+				45601.934, -- [2]
+				45601.934, -- [3]
+				45601.934, -- [4]
+				45601.934, -- [5]
+				45602.934, -- [6]
+				45602.934, -- [7]
+				45602.934, -- [8]
+				45602.934, -- [9]
+				45603.922, -- [10]
+				45603.922, -- [11]
+				45603.922, -- [12]
+				45603.922, -- [13]
+				45604.934, -- [14]
+				45604.934, -- [15]
+				45604.934, -- [16]
+				45604.934, -- [17]
+				45605.93, -- [18]
+				45605.93, -- [19]
+				45605.93, -- [20]
+				45605.93, -- [21]
+				45606.926, -- [22]
+				45606.926, -- [23]
+				45606.926, -- [24]
+				45606.926, -- [25]
+				45607.926, -- [26]
+				45607.926, -- [27]
+				45607.926, -- [28]
+				45608.926, -- [29]
+				45608.926, -- [30]
+				45608.926, -- [31]
+				45610.093, -- [32]
+				45610.093, -- [33]
+				45610.093, -- [34]
+				45573.342, -- [35]
+				45573.342, -- [36]
+				45573.826, -- [37]
+				45573.836, -- [38]
+				45573.836, -- [39]
+				45575.334, -- [40]
+				45575.334, -- [41]
+				45575.334, -- [42]
+				45576.836, -- [43]
+				45576.836, -- [44]
+				45576.836, -- [45]
+				45578.341, -- [46]
+				45578.341, -- [47]
+				45599.306, -- [48]
+				45599.314, -- [49]
+				45599.314, -- [50]
+			},
+			["NextEventNum"] = 35,
+			["LastDamageTime"] = 45610.093,
+			["LastEvents"] = {
+				"查尔斯三世 冰霜新星 迪菲亚罪犯 Hit -23 (Frost)", -- [1]
+				"查尔斯三世 暴风雪 迪菲亚叛军 Hit -72 (Frost)", -- [2]
+				"查尔斯三世 暴风雪 迪菲亚叛军 Hit -73 (Frost)", -- [3]
+				"查尔斯三世 暴风雪 迪菲亚叛军 Crit -108 (Frost)", -- [4]
+				"查尔斯三世 暴风雪 迪菲亚罪犯 Hit -72 (Frost)", -- [5]
+				"查尔斯三世 暴风雪 迪菲亚叛军 Hit -72 (Frost)", -- [6]
+				"查尔斯三世 暴风雪 迪菲亚叛军 Crit -108 (Frost)", -- [7]
+				"查尔斯三世 暴风雪 迪菲亚叛军 Hit -72 (Frost)", -- [8]
+				"查尔斯三世 暴风雪 迪菲亚罪犯 Hit -72 (Frost)", -- [9]
+				"查尔斯三世 暴风雪 迪菲亚叛军 Hit -72 (Frost)", -- [10]
+				"查尔斯三世 暴风雪 迪菲亚叛军 Crit -108 (Frost)", -- [11]
+				"查尔斯三世 暴风雪 迪菲亚叛军 Hit -73 (Frost)", -- [12]
+				"查尔斯三世 暴风雪 迪菲亚罪犯 Hit -72 (Frost)", -- [13]
+				"查尔斯三世 暴风雪 迪菲亚叛军 Hit -72 (Frost)", -- [14]
+				"查尔斯三世 暴风雪 迪菲亚叛军 Hit -72 (Frost)", -- [15]
+				"查尔斯三世 暴风雪 迪菲亚叛军 Hit -72 (Frost)", -- [16]
+				"查尔斯三世 暴风雪 迪菲亚罪犯 Hit -73 (Frost)", -- [17]
+				"查尔斯三世 暴风雪 迪菲亚叛军 Hit -72 (Frost)", -- [18]
+				"查尔斯三世 暴风雪 迪菲亚叛军 Hit -73 (Frost)", -- [19]
+				"查尔斯三世 暴风雪 迪菲亚叛军 Hit -72 (Frost)", -- [20]
+				"查尔斯三世 暴风雪 迪菲亚罪犯 Hit -72 (Frost)", -- [21]
+				"查尔斯三世 暴风雪 迪菲亚叛军 Hit -72 (Frost)", -- [22]
+				"查尔斯三世 暴风雪 迪菲亚叛军 Hit -72 (Frost)", -- [23]
+				"查尔斯三世 暴风雪 迪菲亚叛军 Hit -72 (Frost)", -- [24]
+				"查尔斯三世 暴风雪 迪菲亚罪犯 Hit -73 (Frost)", -- [25]
+				"查尔斯三世 暴风雪 迪菲亚叛军 Hit -72 (Frost)", -- [26]
+				"查尔斯三世 暴风雪 迪菲亚叛军 Hit -72 (Frost)", -- [27]
+				"查尔斯三世 暴风雪 迪菲亚叛军 Crit -109 (Frost)", -- [28]
+				"查尔斯三世 暴风雪 迪菲亚叛军 Hit -73 (Frost)", -- [29]
+				"查尔斯三世 暴风雪 迪菲亚叛军 Hit -72 (Frost)", -- [30]
+				"查尔斯三世 暴风雪 迪菲亚叛军 Hit -72 (Frost)", -- [31]
+				"查尔斯三世 冰锥术 迪菲亚叛军 Hit -120 (Frost)", -- [32]
+				"查尔斯三世 冰锥术 迪菲亚叛军 Hit -117 (Frost)", -- [33]
+				"查尔斯三世 冰锥术 迪菲亚叛军 Hit -121 (Frost)", -- [34]
+				"查尔斯三世 暴风雪 迪菲亚叛军 Hit -72 (Frost)", -- [35]
+				"查尔斯三世 暴风雪 迪菲亚罪犯 Hit -72 (Frost)", -- [36]
+				"查尔斯三世 冰霜新星 巴基尔·斯瑞德 Hit -23 (Frost)", -- [37]
+				"查尔斯三世 冰霜新星 迪菲亚叛军 Hit -22 (Frost)", -- [38]
+				"查尔斯三世 冰霜新星 迪菲亚罪犯 Crit -33 (Frost)", -- [39]
+				"查尔斯三世 冰锥术 巴基尔·斯瑞德 Crit -176 (Frost)", -- [40]
+				"查尔斯三世 冰锥术 迪菲亚叛军 Crit -181 (Frost)", -- [41]
+				"查尔斯三世 冰锥术 迪菲亚罪犯 Hit -123 (Frost)", -- [42]
+				"查尔斯三世 魔爆术 巴基尔·斯瑞德 Hit -79 (Arcane)", -- [43]
+				"查尔斯三世 魔爆术 迪菲亚叛军 Hit -73 (Arcane)", -- [44]
+				"查尔斯三世 魔爆术 迪菲亚罪犯 Crit -115 (Arcane)", -- [45]
+				"查尔斯三世 魔爆术 巴基尔·斯瑞德 Hit -79 (Arcane)", -- [46]
+				"查尔斯三世 魔爆术 迪菲亚叛军 Hit -73 (Arcane)", -- [47]
+				"查尔斯三世 冰霜新星 迪菲亚叛军 Hit -23 (Frost)", -- [48]
+				"查尔斯三世 冰霜新星 迪菲亚叛军 Crit -33 (Frost)", -- [49]
+				"查尔斯三世 冰霜新星 迪菲亚叛军 Hit -23 (Frost)", -- [50]
+			},
+			["Name"] = "查尔斯三世",
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeSpent"] = {
+						["迪菲亚狱友"] = {
+							["Details"] = {
+								["冰锥术"] = {
+									["count"] = 2.76,
+								},
+								["惩戒光环"] = {
+									["count"] = 1.53,
+								},
+								["冰霜新星"] = {
+									["count"] = 4.5,
+								},
+								["魔爆术"] = {
+									["count"] = 4.35,
+								},
+								["寒冰箭"] = {
+									["count"] = 6,
+								},
+								["火焰冲击"] = {
+									["count"] = 4.5,
+								},
+								["暴风雪"] = {
+									["count"] = 45.03,
+								},
+							},
+							["amount"] = 68.66999999999999,
+						},
+						["迪菲亚囚徒"] = {
+							["Details"] = {
+								["暴风雪"] = {
+									["count"] = 0.02,
+								},
+								["魔爆术"] = {
+									["count"] = 0.01,
+								},
+								["惩戒光环"] = {
+									["count"] = 1.01,
+								},
+								["寒冰箭"] = {
+									["count"] = 4.5,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 7.039999999999999,
+						},
+						["哈姆霍克"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 1.02,
+								},
+								["暴风雪"] = {
+									["count"] = 8.48,
+								},
+							},
+							["amount"] = 9.5,
+						},
+						["巴基尔·斯瑞德"] = {
+							["Details"] = {
+								["魔爆术"] = {
+									["count"] = 3,
+								},
+								["冰锥术"] = {
+									["count"] = 1.5,
+								},
+								["冰霜新星"] = {
+									["count"] = 0.48,
+								},
+								["暴风雪"] = {
+									["count"] = 8.49,
+								},
+							},
+							["amount"] = 13.47,
+						},
+						["迪菲亚叛军"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 3.91,
+								},
+								["魔爆术"] = {
+									["count"] = 1.59,
+								},
+								["惩戒光环"] = {
+									["count"] = 2.11,
+								},
+								["冰锥术"] = {
+									["count"] = 3.52,
+								},
+								["暴风雪"] = {
+									["count"] = 46.03999999999999,
+								},
+							},
+							["amount"] = 57.16999999999999,
+						},
+						["迪克斯特·瓦德"] = {
+							["Details"] = {
+								["寒冰箭"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+						["卡姆·深怒"] = {
+							["Details"] = {
+								["暴风雪"] = {
+									["count"] = 0.01,
+								},
+								["惩戒光环"] = {
+									["count"] = 0.16,
+								},
+							},
+							["amount"] = 0.17,
+						},
+						["迪菲亚俘虏"] = {
+							["Details"] = {
+								["火焰冲击"] = {
+									["count"] = 1.5,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+								["魔爆术"] = {
+									["count"] = 1.5,
+								},
+								["惩戒光环"] = {
+									["count"] = 3.46,
+								},
+								["冰锥术"] = {
+									["count"] = 0.61,
+								},
+								["暴风雪"] = {
+									["count"] = 15.49,
+								},
+							},
+							["amount"] = 24.06000000000001,
+						},
+						["迪菲亚罪犯"] = {
+							["Details"] = {
+								["冰锥术"] = {
+									["count"] = 1.52,
+								},
+								["冰霜新星"] = {
+									["count"] = 0.53,
+								},
+								["魔爆术"] = {
+									["count"] = 1.5,
+								},
+								["惩戒光环"] = {
+									["count"] = 2.51,
+								},
+								["寒冰箭"] = {
+									["count"] = 3,
+								},
+								["暴风雪"] = {
+									["count"] = 12.17,
+								},
+							},
+							["amount"] = 21.23,
+						},
+					},
+					["DamageTaken"] = 1583,
+					["PartialResist"] = {
+						["撕裂 (伤害/跳)"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 15,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 15,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 27,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 27,
+						},
+					},
+					["ManaGained"] = {
+						["智慧审判"] = {
+							["Details"] = {
+								["三自四有"] = {
+									["count"] = 122,
+								},
+								["南宫浮生"] = {
+									["count"] = 62,
+								},
+							},
+							["amount"] = 184,
+						},
+						["唤醒"] = {
+							["Details"] = {
+								["查尔斯三世"] = {
+									["count"] = 2408,
+								},
+							},
+							["amount"] = 2408,
+						},
+					},
+					["PartialAbsorb"] = {
+						["撕裂 (伤害/跳)"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 15,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 27,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 27,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 207.3100000000001,
+					["ElementTaken"] = {
+						["Melee"] = 1420,
+						["Physical"] = 163,
+					},
+					["Damage"] = 45968,
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 4,
+								},
+								["Crit"] = {
 									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 27,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["WhoHealed"] = {
+						["得撸艺"] = {
+							["Details"] = {
+								["回春术"] = {
+									["count"] = 712,
+								},
+								["治疗之触"] = {
+									["count"] = 409,
+								},
+								["愈合"] = {
+									["count"] = 385,
+								},
+							},
+							["amount"] = 1506,
+						},
+						["南宫浮生"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 32,
+								},
+							},
+							["amount"] = 32,
+						},
+						["三自四有"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+						["野妹"] = {
+							["Details"] = {
+								["圣光术"] = {
+									["count"] = 631,
+								},
+							},
+							["amount"] = 631,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["智慧审判"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+						["查尔斯三世"] = {
+							["Details"] = {
+								["唤醒"] = {
+									["count"] = 2408,
+								},
+							},
+							["amount"] = 2408,
+						},
+						["三自四有"] = {
+							["Details"] = {
+								["智慧审判"] = {
+									["count"] = 122,
+								},
+							},
+							["amount"] = 122,
+						},
+						["南宫浮生"] = {
+							["Details"] = {
+								["智慧审判"] = {
+									["count"] = 62,
+								},
+							},
+							["amount"] = 62,
+						},
+					},
+					["TimeDamaging"] = {
+						["迪菲亚狱友"] = {
+							["Details"] = {
+								["冰锥术"] = {
+									["count"] = 2.76,
+								},
+								["惩戒光环"] = {
+									["count"] = 1.53,
+								},
+								["冰霜新星"] = {
+									["count"] = 4.5,
+								},
+								["魔爆术"] = {
+									["count"] = 4.35,
+								},
+								["寒冰箭"] = {
+									["count"] = 6,
+								},
+								["火焰冲击"] = {
+									["count"] = 4.5,
+								},
+								["暴风雪"] = {
+									["count"] = 45.03,
+								},
+							},
+							["amount"] = 68.66999999999999,
+						},
+						["迪菲亚囚徒"] = {
+							["Details"] = {
+								["暴风雪"] = {
+									["count"] = 0.02,
+								},
+								["魔爆术"] = {
+									["count"] = 0.01,
+								},
+								["惩戒光环"] = {
+									["count"] = 1.01,
+								},
+								["寒冰箭"] = {
+									["count"] = 4.5,
+								},
+								["火焰冲击"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 7.039999999999999,
+						},
+						["哈姆霍克"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 1.02,
+								},
+								["暴风雪"] = {
+									["count"] = 8.48,
+								},
+							},
+							["amount"] = 9.5,
+						},
+						["巴基尔·斯瑞德"] = {
+							["Details"] = {
+								["魔爆术"] = {
+									["count"] = 3,
+								},
+								["冰锥术"] = {
+									["count"] = 1.5,
+								},
+								["冰霜新星"] = {
+									["count"] = 0.48,
+								},
+								["暴风雪"] = {
+									["count"] = 8.49,
+								},
+							},
+							["amount"] = 13.47,
+						},
+						["迪菲亚叛军"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 3.91,
+								},
+								["魔爆术"] = {
+									["count"] = 1.59,
+								},
+								["惩戒光环"] = {
+									["count"] = 2.11,
+								},
+								["冰锥术"] = {
+									["count"] = 3.52,
+								},
+								["暴风雪"] = {
+									["count"] = 46.03999999999999,
+								},
+							},
+							["amount"] = 57.16999999999999,
+						},
+						["迪克斯特·瓦德"] = {
+							["Details"] = {
+								["寒冰箭"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+						["卡姆·深怒"] = {
+							["Details"] = {
+								["暴风雪"] = {
+									["count"] = 0.01,
+								},
+								["惩戒光环"] = {
+									["count"] = 0.16,
+								},
+							},
+							["amount"] = 0.17,
+						},
+						["迪菲亚俘虏"] = {
+							["Details"] = {
+								["火焰冲击"] = {
+									["count"] = 1.5,
+								},
+								["冰霜新星"] = {
+									["count"] = 1.5,
+								},
+								["魔爆术"] = {
+									["count"] = 1.5,
+								},
+								["惩戒光环"] = {
+									["count"] = 3.46,
+								},
+								["冰锥术"] = {
+									["count"] = 0.61,
+								},
+								["暴风雪"] = {
+									["count"] = 15.49,
+								},
+							},
+							["amount"] = 24.06000000000001,
+						},
+						["迪菲亚罪犯"] = {
+							["Details"] = {
+								["冰锥术"] = {
+									["count"] = 1.52,
+								},
+								["冰霜新星"] = {
+									["count"] = 0.53,
+								},
+								["魔爆术"] = {
+									["count"] = 1.5,
+								},
+								["惩戒光环"] = {
+									["count"] = 2.51,
+								},
+								["寒冰箭"] = {
+									["count"] = 3,
+								},
+								["暴风雪"] = {
+									["count"] = 12.17,
+								},
+							},
+							["amount"] = 21.23,
+						},
+					},
+					["ElementDone"] = {
+						["Holy"] = 358,
+						["Frost"] = 42373,
+						["Fire"] = 751,
+						["Arcane"] = 2486,
+					},
+					["HealingTaken"] = 1442,
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 72,
+								},
+								["Hit"] = {
+									["count"] = 471,
+								},
+							},
+							["amount"] = 543,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 27,
+								},
+							},
+							["amount"] = 31,
+						},
+					},
+					["TimeDamage"] = 207.3100000000001,
+					["WhoDamaged"] = {
+						["迪菲亚狱友"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 99,
+								},
+								["撕裂 (伤害/跳)"] = {
+									["count"] = 163,
+								},
+							},
+							["amount"] = 262,
+						},
+						["迪菲亚囚徒"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 416,
+								},
+							},
+							["amount"] = 416,
+						},
+						["迪菲亚俘虏"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 311,
+								},
+							},
+							["amount"] = 311,
+						},
+						["卡姆·深怒"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 62,
+								},
+							},
+							["amount"] = 62,
+						},
+						["迪菲亚叛军"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 377,
+								},
+							},
+							["amount"] = 377,
+						},
+						["迪菲亚罪犯"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 155,
+								},
+							},
+							["amount"] = 155,
+						},
+					},
+					["ManaGain"] = 2592,
+					["Attacks"] = {
+						["火焰冲击"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 160,
+									["min"] = 146,
+									["count"] = 5,
+									["amount"] = 751,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 751,
+						},
+						["寒冰箭"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 282,
+									["min"] = 282,
+									["count"] = 1,
+									["amount"] = 282,
+								},
+								["Hit"] = {
+									["max"] = 197,
+									["min"] = 185,
+									["count"] = 12,
+									["amount"] = 2297,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 2579,
+						},
+						["冰霜新星"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 34,
+									["min"] = 33,
+									["count"] = 5,
+									["amount"] = 166,
+								},
+								["Hit"] = {
+									["max"] = 24,
+									["min"] = 8,
+									["count"] = 38,
+									["amount"] = 854,
+								},
+							},
+							["count"] = 43,
+							["amount"] = 1020,
+						},
+						["魔爆术"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 115,
+									["min"] = 109,
+									["count"] = 4,
+									["amount"] = 449,
+								},
+								["Hit"] = {
+									["max"] = 79,
+									["min"] = 65,
+									["count"] = 27,
+									["amount"] = 2037,
+								},
+							},
+							["count"] = 31,
+							["amount"] = 2486,
+						},
+						["惩戒光环"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 20,
+									["min"] = 18,
+									["count"] = 18,
+									["amount"] = 358,
+								},
+							},
+							["count"] = 18,
+							["amount"] = 358,
+						},
+						["冰锥术"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 187,
+									["min"] = 175,
+									["count"] = 9,
+									["amount"] = 1615,
+								},
+								["Hit"] = {
+									["max"] = 123,
+									["min"] = 111,
+									["count"] = 20,
+									["amount"] = 2388,
+								},
+							},
+							["count"] = 29,
+							["amount"] = 4003,
+						},
+						["暴风雪"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 109,
+									["min"] = 39,
+									["count"] = 57,
+									["amount"] = 5962,
+								},
+								["Hit"] = {
+									["max"] = 73,
+									["min"] = 26,
+									["count"] = 401,
+									["amount"] = 28809,
+								},
+							},
+							["count"] = 458,
+							["amount"] = 34771,
+						},
+					},
+					["DamagedWho"] = {
+						["迪菲亚狱友"] = {
+							["Details"] = {
+								["冰锥术"] = {
+									["count"] = 893,
+								},
+								["惩戒光环"] = {
+									["count"] = 40,
+								},
+								["冰霜新星"] = {
+									["count"] = 209,
+								},
+								["魔爆术"] = {
+									["count"] = 421,
+								},
+								["寒冰箭"] = {
+									["count"] = 766,
+								},
+								["火焰冲击"] = {
+									["count"] = 459,
+								},
+								["暴风雪"] = {
+									["count"] = 9990,
+								},
+							},
+							["amount"] = 12778,
+						},
+						["迪菲亚囚徒"] = {
+							["Details"] = {
+								["火焰冲击"] = {
+									["count"] = 146,
+								},
+								["寒冰箭"] = {
+									["count"] = 570,
+								},
+								["冰霜新星"] = {
+									["count"] = 203,
+								},
+								["魔爆术"] = {
+									["count"] = 543,
+								},
+								["惩戒光环"] = {
+									["count"] = 80,
+								},
+								["冰锥术"] = {
+									["count"] = 721,
+								},
+								["暴风雪"] = {
+									["count"] = 5808,
+								},
+							},
+							["amount"] = 8071,
+						},
+						["哈姆霍克"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 23,
+								},
+								["暴风雪"] = {
+									["count"] = 581,
+								},
+							},
+							["amount"] = 604,
+						},
+						["巴基尔·斯瑞德"] = {
+							["Details"] = {
+								["魔爆术"] = {
+									["count"] = 158,
+								},
+								["冰锥术"] = {
+									["count"] = 176,
+								},
+								["冰霜新星"] = {
+									["count"] = 23,
+								},
+								["暴风雪"] = {
+									["count"] = 650,
+								},
+							},
+							["amount"] = 1007,
+						},
+						["迪菲亚叛军"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 297,
+								},
+								["魔爆术"] = {
+									["count"] = 663,
+								},
+								["惩戒光环"] = {
+									["count"] = 80,
+								},
+								["冰锥术"] = {
+									["count"] = 1382,
+								},
+								["暴风雪"] = {
+									["count"] = 8632,
+								},
+							},
+							["amount"] = 11054,
+						},
+						["迪克斯特·瓦德"] = {
+							["Details"] = {
+								["寒冰箭"] = {
+									["count"] = 868,
+								},
+							},
+							["amount"] = 868,
+						},
+						["卡姆·深怒"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 8,
+								},
+								["魔爆术"] = {
+									["count"] = 135,
+								},
+								["惩戒光环"] = {
+									["count"] = 18,
+								},
+								["冰锥术"] = {
+									["count"] = 111,
+								},
+								["暴风雪"] = {
+									["count"] = 625,
+								},
+							},
+							["amount"] = 897,
+						},
+						["迪菲亚俘虏"] = {
+							["Details"] = {
+								["火焰冲击"] = {
+									["count"] = 146,
+								},
+								["冰霜新星"] = {
+									["count"] = 155,
+								},
+								["魔爆术"] = {
+									["count"] = 184,
+								},
+								["惩戒光环"] = {
+									["count"] = 80,
+								},
+								["冰锥术"] = {
+									["count"] = 239,
+								},
+								["暴风雪"] = {
+									["count"] = 4871,
+								},
+							},
+							["amount"] = 5675,
+						},
+						["迪菲亚罪犯"] = {
+							["Details"] = {
+								["冰锥术"] = {
+									["count"] = 481,
+								},
+								["冰霜新星"] = {
+									["count"] = 102,
+								},
+								["魔爆术"] = {
+									["count"] = 382,
+								},
+								["惩戒光环"] = {
+									["count"] = 60,
+								},
+								["寒冰箭"] = {
+									["count"] = 375,
+								},
+								["暴风雪"] = {
+									["count"] = 3614,
+								},
+							},
+							["amount"] = 5014,
+						},
+					},
+				},
+			},
+			["LastHealTime"] = 54229.974,
+			["LastDamageTaken"] = 91,
+			["UnitLockout"] = 45191.193,
+			["LastAbility"] = 52289.367,
+		},
+		["祝雨来"] = {
+			["GUID"] = "Player-4778-04EF543D",
+			["LastEventHealth"] = {
+				898, -- [1]
+				898, -- [2]
+				898, -- [3]
+				898, -- [4]
+				898, -- [5]
+				898, -- [6]
+				898, -- [7]
+				898, -- [8]
+				898, -- [9]
+				898, -- [10]
+				898, -- [11]
+				898, -- [12]
+				898, -- [13]
+				898, -- [14]
+				898, -- [15]
+				898, -- [16]
+				898, -- [17]
+				898, -- [18]
+				898, -- [19]
+				898, -- [20]
+				898, -- [21]
+				898, -- [22]
+				898, -- [23]
+				898, -- [24]
+				898, -- [25]
+				898, -- [26]
+				898, -- [27]
+				898, -- [28]
+				898, -- [29]
+				898, -- [30]
+				898, -- [31]
+				898, -- [32]
+				898, -- [33]
+				898, -- [34]
+				898, -- [35]
+				898, -- [36]
+				898, -- [37]
+				898, -- [38]
+				898, -- [39]
+				898, -- [40]
+				898, -- [41]
+				898, -- [42]
+				887, -- [43]
+				887, -- [44]
+				887, -- [45]
+				887, -- [46]
+				876, -- [47]
+				876, -- [48]
+				876, -- [49]
+				898, -- [50]
+			},
+			["LastAttackedBy"] = "迪菲亚狱友",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"HEAL", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["TimeHeal"] = {
+					1.5, -- [1]
+				},
+				["Healing"] = {
+					22, -- [1]
+				},
+				["DamageTaken"] = {
+					507, -- [1]
+				},
+				["HealingTaken"] = {
+					206, -- [1]
+				},
+				["Overhealing"] = {
+					649, -- [1]
+				},
+				["TimeDamage"] = {
+					272.8400000000002, -- [1]
+				},
+				["ActiveTime"] = {
+					274.3400000000002, -- [1]
+				},
+				["DOT_Time"] = {
+					12, -- [1]
+				},
+				["Damage"] = {
+					19088, -- [1]
+				},
+			},
+			["enClass"] = "ROGUE",
+			["unit"] = "祝雨来",
+			["LastActive"] = 45611.194,
+			["level"] = 25,
+			["LastDamageAbility"] = "撕裂 (伤害/跳)",
+			["LastFightIn"] = 19,
+			["LastEventHealthMax"] = {
+				898, -- [1]
+				898, -- [2]
+				898, -- [3]
+				898, -- [4]
+				898, -- [5]
+				898, -- [6]
+				898, -- [7]
+				898, -- [8]
+				898, -- [9]
+				898, -- [10]
+				898, -- [11]
+				898, -- [12]
+				898, -- [13]
+				898, -- [14]
+				898, -- [15]
+				898, -- [16]
+				898, -- [17]
+				898, -- [18]
+				898, -- [19]
+				898, -- [20]
+				898, -- [21]
+				898, -- [22]
+				898, -- [23]
+				898, -- [24]
+				898, -- [25]
+				898, -- [26]
+				898, -- [27]
+				898, -- [28]
+				898, -- [29]
+				898, -- [30]
+				898, -- [31]
+				898, -- [32]
+				898, -- [33]
+				898, -- [34]
+				898, -- [35]
+				898, -- [36]
+				898, -- [37]
+				898, -- [38]
+				898, -- [39]
+				898, -- [40]
+				898, -- [41]
+				898, -- [42]
+				898, -- [43]
+				898, -- [44]
+				898, -- [45]
+				898, -- [46]
+				898, -- [47]
+				898, -- [48]
+				898, -- [49]
+				898, -- [50]
+			},
+			["type"] = "Ungrouped",
+			["FightsSaved"] = 5,
+			["TimeLast"] = {
+				["TimeHeal"] = 45189.195,
+				["OVERALL"] = 45611.194,
+				["DamageTaken"] = 45557.191,
+				["HealingTaken"] = 45425.192,
+				["Overhealing"] = 45537.195,
+				["TimeDamage"] = 45611.194,
+				["Healing"] = 45189.195,
+				["ActiveTime"] = 45611.194,
+				["DOT_Time"] = 45157.206,
+				["Damage"] = 45611.194,
+			},
+			["LastDamageTaken"] = 11,
+			["Owner"] = false,
+			["LastEventIncoming"] = {
+				true, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				false, -- [25]
+				false, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+				false, -- [30]
+				false, -- [31]
+				false, -- [32]
+				false, -- [33]
+				true, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+				false, -- [39]
+				false, -- [40]
+				false, -- [41]
+				true, -- [42]
+				false, -- [43]
+				false, -- [44]
+				false, -- [45]
+				true, -- [46]
+				false, -- [47]
+				false, -- [48]
+				true, -- [49]
+				true, -- [50]
+			},
+			["NextEventNum"] = 30,
+			["LastDamageTime"] = 45611.411,
+			["LastEvents"] = {
+				"迪菲亚狱友 撕裂 (伤害/跳) 祝雨来 Tick -11 (Physical)", -- [1]
+				"祝雨来 背刺 迪菲亚叛军 Hit -101 (Physical)", -- [2]
+				"祝雨来 速效药膏 迪菲亚叛军 Hit -37 (Nature)", -- [3]
+				"祝雨来 肉搏 迪菲亚叛军 Miss (1)", -- [4]
+				"祝雨来 肉搏 迪菲亚叛军 Miss (1)", -- [5]
+				"祝雨来 影袭 迪菲亚叛军 Hit -41 (Physical)", -- [6]
+				"祝雨来 肉搏 迪菲亚叛军 Miss (1)", -- [7]
+				"祝雨来 肉搏 迪菲亚叛军 Hit -28 (Physical)", -- [8]
+				"祝雨来 速效药膏 迪菲亚叛军 Hit -31 (Nature)", -- [9]
+				"祝雨来 肉搏 迪菲亚叛军 Miss (1)", -- [10]
+				"祝雨来 肉搏 迪菲亚叛军 Hit -25 (Physical)", -- [11]
+				"祝雨来 肉搏 迪菲亚叛军 Miss (1)", -- [12]
+				"祝雨来 肉搏 迪菲亚叛军 Hit -30 (Physical)", -- [13]
+				"祝雨来 肉搏 迪菲亚叛军 Hit -28 (Physical)", -- [14]
+				"祝雨来 肉搏 迪菲亚叛军 Hit -38 (Physical)", -- [15]
+				"祝雨来 速效药膏 迪菲亚叛军 Hit -34 (Nature)", -- [16]
+				"祝雨来 肉搏 迪菲亚叛军 Miss (1)", -- [17]
+				"祝雨来 肉搏 迪菲亚叛军 Hit -29 (Physical)", -- [18]
+				"祝雨来 肉搏 迪菲亚叛军 Hit -25 (Physical)", -- [19]
+				"祝雨来 影袭 迪菲亚叛军 Miss (Physical)", -- [20]
+				"祝雨来 肉搏 迪菲亚叛军 Miss (1)", -- [21]
+				"祝雨来 肉搏 迪菲亚叛军 Dodge (1)", -- [22]
+				"祝雨来 肉搏 迪菲亚叛军 Hit -37 (Physical)", -- [23]
+				"祝雨来 速效药膏 迪菲亚叛军 Hit -31 (Nature)", -- [24]
+				"祝雨来 影袭 迪菲亚叛军 Hit -44 (Physical)", -- [25]
+				"祝雨来 速效药膏 迪菲亚叛军 Hit -33 (Nature)", -- [26]
+				"祝雨来 肉搏 迪菲亚叛军 Hit -29 (Physical)", -- [27]
+				"祝雨来 肉搏 迪菲亚叛军 Miss (1)", -- [28]
+				"祝雨来 影袭 迪菲亚叛军 Hit -42 (Physical)", -- [29]
+				"祝雨来 割裂 迪菲亚叛军 Dodge (Physical)", -- [30]
+				"祝雨来 肉搏 迪菲亚叛军 Hit -36 (Physical)", -- [31]
+				"祝雨来 肉搏 迪菲亚叛军 Miss (1)", -- [32]
+				"祝雨来 肉搏 迪菲亚叛军 Hit -30 (Physical)", -- [33]
+				"祝雨来 神圣力量 祝雨来 Hit +106 (106 过量治疗)", -- [34]
+				"祝雨来 影袭 迪菲亚叛军 Hit -50 (Physical)", -- [35]
+				"祝雨来 肉搏 迪菲亚叛军 Hit -37 (Physical)", -- [36]
+				"祝雨来 肉搏 迪菲亚叛军 Hit -30 (Physical)", -- [37]
+				"祝雨来 肉搏 迪菲亚叛军 Hit -42 (Physical)", -- [38]
+				"祝雨来 影袭 迪菲亚叛军 Hit -54 (Physical)", -- [39]
+				"祝雨来 肉搏 迪菲亚叛军 Miss (1)", -- [40]
+				"祝雨来 肉搏 迪菲亚叛军 Miss (1)", -- [41]
+				"迪菲亚狱友 撕裂 (伤害/跳) 祝雨来 Tick -11 (Physical)", -- [42]
+				"祝雨来 肉搏 迪菲亚罪犯 Miss (1)", -- [43]
+				"祝雨来 影袭 迪菲亚罪犯 Hit -62 (Physical)", -- [44]
+				"祝雨来 速效药膏 迪菲亚罪犯 Hit -46 (Nature)", -- [45]
+				"迪菲亚狱友 撕裂 (伤害/跳) 祝雨来 Tick -11 (Physical)", -- [46]
+				"祝雨来 肉搏 迪菲亚罪犯 Hit -39 (Physical)", -- [47]
+				"祝雨来 速效药膏 迪菲亚罪犯 Hit -47 (Nature)", -- [48]
+				"迪菲亚狱友 撕裂 (伤害/跳) 祝雨来 Tick -10 (Physical)", -- [49]
+				"迪菲亚狱友 撕裂 (伤害/跳) 祝雨来 Tick -10 (Physical)", -- [50]
+			},
+			["Name"] = "祝雨来",
+			["LastEventTimes"] = {
+				45557.217, -- [1]
+				45598.999, -- [2]
+				45598.999, -- [3]
+				45599.054, -- [4]
+				45599.905, -- [5]
+				45600.006, -- [6]
+				45600.549, -- [7]
+				45601.625, -- [8]
+				45601.625, -- [9]
+				45602.067, -- [10]
+				45603.117, -- [11]
+				45603.316, -- [12]
+				45604.527, -- [13]
+				45604.576, -- [14]
+				45605.827, -- [15]
+				45605.827, -- [16]
+				45605.954, -- [17]
+				45607.082, -- [18]
+				45607.377, -- [19]
+				45607.785, -- [20]
+				45608.337, -- [21]
+				45608.806, -- [22]
+				45609.591, -- [23]
+				45609.591, -- [24]
+				45609.718, -- [25]
+				45609.718, -- [26]
+				45610.223, -- [27]
+				45611.411, -- [28]
+				45611.411, -- [29]
+				45535.542, -- [30]
+				45535.555, -- [31]
+				45536.595, -- [32]
+				45537.052, -- [33]
+				45537.284, -- [34]
+				45537.284, -- [35]
+				45538.311, -- [36]
+				45540.916, -- [37]
+				45541.085, -- [38]
+				45541.768, -- [39]
+				45542.344, -- [40]
+				45542.344, -- [41]
+				45545.223, -- [42]
+				45547.885, -- [43]
+				45547.885, -- [44]
+				45547.885, -- [45]
+				45548.231, -- [46]
+				45548.604, -- [47]
+				45548.604, -- [48]
+				45551.231, -- [49]
+				45554.214, -- [50]
+			},
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["ElementDoneBlock"] = {
+						["Melee"] = 72,
+					},
+					["TimeHealing"] = {
+						["祝雨来"] = {
+							["Details"] = {
+								["神圣力量"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["OverHeals"] = {
+						["神圣力量"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 122,
+									["min"] = 92,
+									["count"] = 6,
+									["amount"] = 649,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 649,
+						},
+					},
+					["TimeSpent"] = {
+						["迪菲亚狱友"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0.18,
+								},
+								["影袭"] = {
+									["count"] = 10.42,
+								},
+								["背刺"] = {
+									["count"] = 3.97,
+								},
+								["刺骨"] = {
+									["count"] = 0.46,
+								},
+								["惩戒光环"] = {
+									["count"] = 0.32,
+								},
+								["伏击"] = {
+									["count"] = 3,
+								},
+								["肉搏"] = {
+									["count"] = 70.08999999999999,
+								},
+							},
+							["amount"] = 88.44000000000001,
+						},
+						["迪菲亚囚徒"] = {
+							["Details"] = {
+								["背刺"] = {
+									["count"] = 4.8,
+								},
+								["速效药膏"] = {
+									["count"] = 0.01,
+								},
+								["影袭"] = {
+									["count"] = 5.459999999999999,
+								},
+								["锁喉 (伤害/跳)"] = {
+									["count"] = 2.17,
+								},
+								["伏击"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 46.59000000000001,
+								},
+							},
+							["amount"] = 60.53,
+						},
+						["迪菲亚俘虏"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0.01,
+								},
+								["背刺"] = {
+									["count"] = 1.5,
+								},
+								["影袭"] = {
+									["count"] = 1.73,
+								},
+								["肉搏"] = {
+									["count"] = 15.08,
+								},
+							},
+							["amount"] = 18.32,
+						},
+						["祝雨来"] = {
+							["Details"] = {
+								["神圣力量"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["迪菲亚叛军"] = {
+							["Details"] = {
+								["割裂"] = {
+									["count"] = 0.65,
+								},
+								["速效药膏"] = {
+									["count"] = 0.02,
+								},
+								["背刺"] = {
+									["count"] = 3.15,
+								},
+								["影袭"] = {
+									["count"] = 4.31,
+								},
+								["刺骨"] = {
+									["count"] = 0.17,
+								},
+								["惩戒光环"] = {
+									["count"] = 0.02,
+								},
+								["伏击"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 49.67999999999999,
+								},
+							},
+							["amount"] = 59.49999999999999,
+						},
+						["迪克斯特·瓦德"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0.07,
+								},
+								["背刺"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 1.54,
+								},
+							},
+							["amount"] = 3.11,
+						},
+						["卡姆·深怒"] = {
+							["Details"] = {
+								["惩戒光环"] = {
+									["count"] = 0.23,
+								},
+								["影袭"] = {
+									["count"] = 2.48,
+								},
+								["肉搏"] = {
+									["count"] = 15.53,
+								},
+							},
+							["amount"] = 18.24,
+						},
+						["哈姆霍克"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0.87,
+								},
+								["背刺"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 1.91,
+								},
+							},
+							["amount"] = 4.28,
+						},
+						["迪菲亚罪犯"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0.15,
+								},
+								["影袭"] = {
+									["count"] = 2.27,
+								},
+								["背刺"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 16.5,
+								},
+							},
+							["amount"] = 20.42,
+						},
+					},
+					["DamageTaken"] = 507,
+					["PartialResist"] = {
+						["撕裂 (伤害/跳)"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 15,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 15,
+						},
+						["撕裂"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 10,
+						},
+					},
+					["Overhealing"] = 649,
+					["ActiveTime"] = 274.3400000000002,
+					["ElementTaken"] = {
+						["Melee"] = 345,
+						["Physical"] = 162,
+					},
+					["DOT_Time"] = 12,
+					["Damage"] = 19088,
+					["HealedWho"] = {
+						["祝雨来"] = {
+							["Details"] = {
+								["神圣力量"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 22,
+						},
+					},
+					["TimeHeal"] = 1.5,
+					["Heals"] = {
+						["神圣力量"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 22,
+									["min"] = 22,
+									["count"] = 1,
+									["amount"] = 22,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 22,
+						},
+					},
+					["PartialAbsorb"] = {
+						["撕裂 (伤害/跳)"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 15,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 0,
+						},
+						["撕裂"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 0,
+						},
+					},
+					["TimeDamaging"] = {
+						["迪菲亚狱友"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0.18,
+								},
+								["影袭"] = {
+									["count"] = 10.42,
+								},
+								["背刺"] = {
+									["count"] = 3.97,
+								},
+								["刺骨"] = {
+									["count"] = 0.46,
+								},
+								["惩戒光环"] = {
+									["count"] = 0.32,
+								},
+								["伏击"] = {
+									["count"] = 3,
+								},
+								["肉搏"] = {
+									["count"] = 70.08999999999999,
+								},
+							},
+							["amount"] = 88.44000000000001,
+						},
+						["迪菲亚叛军"] = {
+							["Details"] = {
+								["割裂"] = {
+									["count"] = 0.65,
+								},
+								["速效药膏"] = {
+									["count"] = 0.02,
+								},
+								["背刺"] = {
+									["count"] = 3.15,
+								},
+								["影袭"] = {
+									["count"] = 4.31,
+								},
+								["刺骨"] = {
+									["count"] = 0.17,
+								},
+								["惩戒光环"] = {
+									["count"] = 0.02,
+								},
+								["伏击"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 49.67999999999999,
+								},
+							},
+							["amount"] = 59.49999999999999,
+						},
+						["迪菲亚俘虏"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0.01,
+								},
+								["背刺"] = {
+									["count"] = 1.5,
+								},
+								["影袭"] = {
+									["count"] = 1.73,
+								},
+								["肉搏"] = {
+									["count"] = 15.08,
+								},
+							},
+							["amount"] = 18.32,
+						},
+						["哈姆霍克"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0.87,
+								},
+								["背刺"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 1.91,
+								},
+							},
+							["amount"] = 4.28,
+						},
+						["迪克斯特·瓦德"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 0.07,
+								},
+								["背刺"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 1.54,
+								},
+							},
+							["amount"] = 3.11,
+						},
+						["卡姆·深怒"] = {
+							["Details"] = {
+								["惩戒光环"] = {
+									["count"] = 0.23,
+								},
+								["影袭"] = {
+									["count"] = 2.48,
+								},
+								["肉搏"] = {
+									["count"] = 15.53,
+								},
+							},
+							["amount"] = 18.24,
+						},
+						["迪菲亚囚徒"] = {
+							["Details"] = {
+								["背刺"] = {
+									["count"] = 4.8,
+								},
+								["速效药膏"] = {
+									["count"] = 0.01,
+								},
+								["影袭"] = {
+									["count"] = 5.459999999999999,
+								},
+								["锁喉 (伤害/跳)"] = {
+									["count"] = 2.17,
+								},
+								["伏击"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 46.59000000000001,
+								},
+							},
+							["amount"] = 60.53,
+						},
+						["迪菲亚罪犯"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 0.15,
+								},
+								["影袭"] = {
+									["count"] = 2.27,
+								},
+								["背刺"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 16.5,
+								},
+							},
+							["amount"] = 20.42,
+						},
+					},
+					["Healing"] = 22,
+					["ElementDone"] = {
+						["Holy"] = 89,
+						["Physical"] = 6440,
+						["Melee"] = 9798,
+						["Nature"] = 2761,
+					},
+					["DamagedWho"] = {
+						["迪菲亚狱友"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 3377,
+								},
+								["影袭"] = {
+									["count"] = 1230,
+								},
+								["背刺"] = {
+									["count"] = 307,
+								},
+								["刺骨"] = {
+									["count"] = 88,
+								},
+								["惩戒光环"] = {
+									["count"] = 54,
+								},
+								["伏击"] = {
+									["count"] = 533,
+								},
+								["速效药膏"] = {
+									["count"] = 917,
+								},
+							},
+							["amount"] = 6506,
+						},
+						["迪菲亚叛军"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 2058,
+								},
+								["背刺"] = {
+									["count"] = 309,
+								},
+								["影袭"] = {
+									["count"] = 757,
+								},
+								["刺骨"] = {
+									["count"] = 80,
+								},
+								["惩戒光环"] = {
+									["count"] = 18,
+								},
+								["伏击"] = {
+									["count"] = 180,
+								},
+								["速效药膏"] = {
+									["count"] = 492,
+								},
+							},
+							["amount"] = 3894,
+						},
+						["迪菲亚俘虏"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 242,
+								},
+								["背刺"] = {
+									["count"] = 113,
+								},
+								["影袭"] = {
+									["count"] = 300,
+								},
+								["肉搏"] = {
+									["count"] = 810,
+								},
+							},
+							["amount"] = 1465,
+						},
+						["哈姆霍克"] = {
+							["Details"] = {
+								["背刺"] = {
+									["count"] = 190,
+								},
+								["肉搏"] = {
+									["count"] = 151,
+								},
+							},
+							["amount"] = 341,
+						},
+						["迪克斯特·瓦德"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 47,
+								},
+								["背刺"] = {
+									["count"] = 106,
+								},
+								["肉搏"] = {
+									["count"] = 100,
+								},
+							},
+							["amount"] = 253,
+						},
+						["卡姆·深怒"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 207,
+								},
+								["惩戒光环"] = {
+									["count"] = 17,
+								},
+								["影袭"] = {
+									["count"] = 118,
+								},
+								["肉搏"] = {
+									["count"] = 382,
+								},
+							},
+							["amount"] = 724,
+						},
+						["迪菲亚囚徒"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 822,
+								},
+								["速效药膏"] = {
+									["count"] = 558,
+								},
+								["背刺"] = {
+									["count"] = 405,
+								},
+								["锁喉 (伤害/跳)"] = {
+									["count"] = 199,
+								},
+								["伏击"] = {
+									["count"] = 353,
+								},
+								["肉搏"] = {
+									["count"] = 2224,
+								},
+							},
+							["amount"] = 4561,
+						},
+						["迪菲亚罪犯"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 345,
+								},
+								["影袭"] = {
+									["count"] = 303,
+								},
+								["肉搏"] = {
+									["count"] = 696,
+								},
+							},
+							["amount"] = 1344,
+						},
+					},
+					["Attacks"] = {
+						["割裂"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["背刺"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 190,
+									["min"] = 190,
+									["count"] = 1,
+									["amount"] = 190,
+								},
+								["Hit"] = {
+									["max"] = 113,
+									["min"] = 93,
+									["count"] = 12,
+									["amount"] = 1240,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 1430,
+						},
+						["惩戒光环"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 18,
+									["min"] = 17,
+									["count"] = 5,
+									["amount"] = 89,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 89,
+						},
+						["速效药膏"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 61,
+									["min"] = 43,
+									["count"] = 5,
+									["amount"] = 269,
+								},
+								["Hit"] = {
+									["max"] = 49,
+									["min"] = 15,
+									["count"] = 71,
+									["amount"] = 2492,
+								},
+							},
+							["count"] = 77,
+							["amount"] = 2761,
+						},
+						["影袭"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 116,
+									["min"] = 86,
+									["count"] = 10,
+									["amount"] = 1013,
+								},
+								["Hit"] = {
+									["max"] = 62,
+									["min"] = 15,
+									["count"] = 54,
+									["amount"] = 2564,
+								},
+							},
+							["count"] = 68,
+							["amount"] = 3577,
+						},
+						["锁喉 (伤害/跳)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 50,
+									["min"] = 49,
+									["count"] = 4,
+									["amount"] = 199,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 199,
+						},
+						["刺骨"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 88,
+									["min"] = 80,
+									["count"] = 2,
+									["amount"] = 168,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 168,
+						},
+						["伏击"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 360,
+									["min"] = 353,
+									["count"] = 2,
+									["amount"] = 713,
+								},
+								["Hit"] = {
+									["max"] = 180,
+									["min"] = 173,
+									["count"] = 2,
+									["amount"] = 353,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 1066,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 36,
+									["min"] = 25,
+									["count"] = 2,
+									["amount"] = 61,
+								},
+								["Hit (被格挡)"] = {
+									["max"] = 24,
+									["min"] = 12,
+									["count"] = 6,
+									["amount"] = 101,
+								},
+								["Dodge"] = {
+									["count"] = 11,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 48,
+									["min"] = 11,
+									["count"] = 193,
+									["amount"] = 6301,
+								},
+								["Miss"] = {
+									["count"] = 58,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 102,
+									["min"] = 27,
+									["count"] = 50,
+									["amount"] = 3335,
+								},
+								["Parry"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 322,
+							["amount"] = 9798,
+						},
+					},
+					["HealingTaken"] = 206,
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
 								},
 							},
 							["amount"] = 5,
 						},
 						["Physical"] = {
 							["Details"] = {
-								["Parry"] = {
-									["count"] = 3,
+								["Hit"] = {
+									["count"] = 70,
 								},
 								["Dodge"] = {
 									["count"] = 1,
 								},
+								["Tick"] = {
+									["count"] = 4,
+								},
+								["Crit"] = {
+									["count"] = 13,
+								},
+								["Miss"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 93,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 2,
+								},
+								["Dodge"] = {
+									["count"] = 11,
+								},
+								["Hit"] = {
+									["count"] = 199,
+								},
+								["Miss"] = {
+									["count"] = 58,
+								},
+								["Block"] = {
+									["count"] = 6,
+								},
+								["Crit"] = {
+									["count"] = 50,
+								},
+								["Parry"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 328,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 71,
+								},
+							},
+							["amount"] = 77,
+						},
+					},
+					["TimeDamage"] = 272.8400000000002,
+					["WhoDamaged"] = {
+						["迪菲亚狱友"] = {
+							["Details"] = {
+								["撕裂 (伤害/跳)"] = {
+									["count"] = 162,
+								},
+								["肉搏"] = {
+									["count"] = 242,
+								},
+							},
+							["amount"] = 404,
+						},
+						["迪菲亚叛军"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 59,
+								},
+							},
+							["amount"] = 59,
+						},
+						["卡姆·深怒"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 44,
+								},
+							},
+							["amount"] = 44,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 15,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 18,
+						},
+					},
+					["WhoHealed"] = {
+						["得撸艺"] = {
+							["Details"] = {
+								["回春术"] = {
+									["count"] = 103,
+								},
+							},
+							["amount"] = 103,
+						},
+						["南宫浮生"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 81,
+								},
+							},
+							["amount"] = 81,
+						},
+						["祝雨来"] = {
+							["Details"] = {
+								["神圣力量"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 22,
+						},
+					},
+					["DOTs"] = {
+						["锁喉 (伤害/跳)"] = {
+							["Details"] = {
+								["迪菲亚囚徒"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+				},
+			},
+			["LastHealTime"] = 45189.982,
+			["UnitLockout"] = 45192.191,
+			["LastAbility"] = 52289.367,
+		},
+		["辛德蕾拉"] = {
+			["GUID"] = "Player-4778-02EC5996",
+			["LastEventHealth"] = {
+				960, -- [1]
+				960, -- [2]
+				960, -- [3]
+				1023, -- [4]
+				1023, -- [5]
+				993, -- [6]
+				1056, -- [7]
+				1056, -- [8]
+				1009, -- [9]
+				995, -- [10]
+				982, -- [11]
+				982, -- [12]
+				982, -- [13]
+				1028, -- [14]
+				1035, -- [15]
+				1000, -- [16]
+				1000, -- [17]
+				960, -- [18]
+				960, -- [19]
+				960, -- [20]
+				1023, -- [21]
+				1023, -- [22]
+				1023, -- [23]
+				1023, -- [24]
+				1023, -- [25]
+				1069, -- [26]
+				1016, -- [27]
+				1016, -- [28]
+				1016, -- [29]
+				1039, -- [30]
+				1039, -- [31]
+				1039, -- [32]
+				999, -- [33]
+				1020, -- [34]
+				1020, -- [35]
+				1020, -- [36]
+				1020, -- [37]
+				986, -- [38]
+				986, -- [39]
+				986, -- [40]
+				986, -- [41]
+				1032, -- [42]
+				1004, -- [43]
+				1004, -- [44]
+				1004, -- [45]
+				1004, -- [46]
+				1004, -- [47]
+				1027, -- [48]
+				1027, -- [49]
+				994, -- [50]
+			},
+			["LastAttackedBy"] = "刺脊捕猎者",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"HEAL", -- [12]
+				"HEAL", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"HEAL", -- [24]
+				"HEAL", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"HEAL", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"HEAL", -- [40]
+				"HEAL", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"HEAL", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["TimeHeal"] = {
+					39.41, -- [1]
+				},
+				["Dispelled"] = {
+					8, -- [1]
+				},
+				["Interrupts"] = {
+					1, -- [1]
+				},
+				["Healing"] = {
+					5136, -- [1]
+				},
+				["DamageTaken"] = {
+					7644, -- [1]
+				},
+				["DeathCount"] = {
+					1, -- [1]
+				},
+				["HOT_Time"] = {
+					69, -- [1]
+				},
+				["HealingTaken"] = {
+					6471, -- [1]
+				},
+				["Overhealing"] = {
+					2629, -- [1]
+				},
+				["ActiveTime"] = {
+					351.84, -- [1]
+				},
+				["TimeDamage"] = {
+					312.43, -- [1]
+				},
+				["ManaGain"] = {
+					3611, -- [1]
+				},
+				["DOT_Time"] = {
+					825, -- [1]
+				},
+				["Damage"] = {
+					44091, -- [1]
+				},
+			},
+			["enClass"] = "PALADIN",
+			["unit"] = "辛德蕾拉",
+			["DeathLogs"] = {
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						true, -- [2]
+						false, -- [3]
+						false, -- [4]
+						true, -- [5]
+						false, -- [6]
+						true, -- [7]
+						true, -- [8]
+						true, -- [9]
+					},
+					["Messages"] = {
+						"碎鳍滩行鱼人 投掷 辛德蕾拉 Hit -52 (Physical)", -- [1]
+						"碎鳍泥浆鱼人 dispels 辛德蕾拉 军马 (眩晕)", -- [2]
+						"辛德蕾拉 命令圣印 碎鳍泥浆鱼人 Dodge (Holy)", -- [3]
+						"辛德蕾拉 肉搏 碎鳍泥浆鱼人 Hit -140 (Physical)", -- [4]
+						"碎鳍滩行鱼人 投掷 辛德蕾拉 Hit -44 (Physical)", -- [5]
+						"辛德蕾拉 肉搏 碎鳍泥浆鱼人 Hit -134 (Physical)", -- [6]
+						"碎鳍滩行鱼人 投掷 辛德蕾拉 Hit -43 (Physical)", -- [7]
+						"碎鳍滩行鱼人 投掷 辛德蕾拉 Hit -54 (Physical)", -- [8]
+						"辛德蕾拉死亡。", -- [9]
+					},
+					["DeathAt"] = 53993.038,
+					["EventNum"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+					},
+					["MessageTimes"] = {
+						-14.08200000000215, -- [1]
+						-13.98099999999977, -- [2]
+						-8.69999999999709, -- [3]
+						-8.69999999999709, -- [4]
+						-7.171999999998661, -- [5]
+						-5.377999999996973, -- [6]
+						-3.980999999999767, -- [7]
+						-0.6549999999988358, -- [8]
+						0, -- [9]
+					},
+					["HealthMax"] = {
+						1154, -- [1]
+						1154, -- [2]
+						1154, -- [3]
+						1154, -- [4]
+						1154, -- [5]
+						1154, -- [6]
+						1154, -- [7]
+						1154, -- [8]
+						1154, -- [9]
+					},
+					["Health"] = {
+						1082, -- [1]
+						1030, -- [2]
+						656, -- [3]
+						656, -- [4]
+						591, -- [5]
+						411, -- [6]
+						308, -- [7]
+						84, -- [8]
+						0, -- [9]
+					},
+					["KilledBy"] = "碎鳍滩行鱼人",
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"MISC", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"DAMAGE", -- [8]
+						"MISC", -- [9]
+					},
+				}, -- [1]
+			},
+			["level"] = 33,
+			["LastDamageAbility"] = "拳击",
+			["LastFightIn"] = 116,
+			["LastHealTime"] = 54623.331,
+			["type"] = "Grouped",
+			["FightsSaved"] = 5,
+			["LastDamageTaken"] = 11,
+			["LastEventHealthMax"] = {
+				1154, -- [1]
+				1154, -- [2]
+				1154, -- [3]
+				1154, -- [4]
+				1154, -- [5]
+				1154, -- [6]
+				1154, -- [7]
+				1154, -- [8]
+				1154, -- [9]
+				1154, -- [10]
+				1154, -- [11]
+				1154, -- [12]
+				1154, -- [13]
+				1154, -- [14]
+				1154, -- [15]
+				1154, -- [16]
+				1154, -- [17]
+				1154, -- [18]
+				1154, -- [19]
+				1154, -- [20]
+				1154, -- [21]
+				1154, -- [22]
+				1154, -- [23]
+				1154, -- [24]
+				1154, -- [25]
+				1154, -- [26]
+				1154, -- [27]
+				1154, -- [28]
+				1154, -- [29]
+				1154, -- [30]
+				1154, -- [31]
+				1154, -- [32]
+				1154, -- [33]
+				1154, -- [34]
+				1154, -- [35]
+				1154, -- [36]
+				1154, -- [37]
+				1154, -- [38]
+				1154, -- [39]
+				1154, -- [40]
+				1154, -- [41]
+				1154, -- [42]
+				1154, -- [43]
+				1154, -- [44]
+				1154, -- [45]
+				1154, -- [46]
+				1154, -- [47]
+				1154, -- [48]
+				1154, -- [49]
+				1154, -- [50]
+			},
+			["Owner"] = false,
+			["TimeLast"] = {
+				["TimeHeal"] = 54623.037,
+				["Dispelled"] = 54176.047,
+				["Interrupts"] = 54578.039,
+				["DeathCount"] = 53991.045,
+				["OVERALL"] = 54652.044,
+				["DamageTaken"] = 54649.047,
+				["HOT_Time"] = 54623.037,
+				["Healing"] = 54623.037,
+				["HealingTaken"] = 54623.037,
+				["Overhealing"] = 54550.045,
+				["TimeDamage"] = 54652.044,
+				["ActiveTime"] = 54652.044,
+				["ManaGain"] = 54649.047,
+				["DOT_Time"] = 54140.038,
+				["Damage"] = 54652.044,
+			},
+			["NextEventNum"] = 10,
+			["LastDamageTime"] = 54652.752,
+			["LastEvents"] = {
+				"辛德蕾拉 惩戒光环 刺脊捕猎者 Hit -25 (Holy)", -- [1]
+				"辛德蕾拉 肉搏 刺脊捕猎者 Hit -120 (Physical)", -- [2]
+				"辛德蕾拉 命令圣印 刺脊捕猎者 Hit -65 (Holy)", -- [3]
+				"辛德蕾拉 清算之手 刺脊捕猎者 Hit -210 (Holy)", -- [4]
+				"辛德蕾拉 肉搏 刺脊捕猎者 Crit -306 (Physical)", -- [5]
+				"辛德蕾拉 肉搏 刺脊捕猎者 Crit -307 (Physical)", -- [6]
+				"辛德蕾拉 肉搏 刺脊捕猎者 Hit -119 (Physical)", -- [7]
+				"刺脊捕猎者 拳击 辛德蕾拉 Hit -11 (Physical)", -- [8]
+				"辛德蕾拉 肉搏 刺脊捕猎者 Hit -122 (Physical)", -- [9]
+				"刺脊海妖 暗言术：痛 (伤害/跳) 辛德蕾拉 Tick -35 (Shadow)", -- [10]
+				"辛德蕾拉 命令审判 刺脊滩行者 Hit -72 (Holy)", -- [11]
+				"野妹 圣光审判 辛德蕾拉 Tick +23", -- [12]
+				"野妹 圣光审判 辛德蕾拉 Tick +23", -- [13]
+				"刺脊海妖 暗言术：痛 (伤害/跳) 辛德蕾拉 Tick -35 (Shadow)", -- [14]
+				"刺脊海妖 暗言术：痛 (伤害/跳) 辛德蕾拉 Tick -35 (Shadow)", -- [15]
+				"辛德蕾拉 清算之手 刺脊滩行者 Hit -209 (Holy)", -- [16]
+				"刺脊滩行者 投掷 辛德蕾拉 Hit -40 (Physical)", -- [17]
+				"辛德蕾拉 命令审判 刺脊滩行者 Crit -144 (Holy)", -- [18]
+				"辛德蕾拉 肉搏 刺脊滩行者 Hit -151 (Physical)", -- [19]
+				"辛德蕾拉 命令圣印 刺脊滩行者 Hit -67 (Holy)", -- [20]
+				"辛德蕾拉 驱邪术 刺脊滩行者 Hit -298 (Holy)", -- [21]
+				"辛德蕾拉 清算之手 刺脊滩行者 Hit -209 (Holy)", -- [22]
+				"辛德蕾拉 命令审判 刺脊滩行者 Hit -73 (Holy)", -- [23]
+				"辛德蕾拉 圣光审判 辛德蕾拉 Tick +23", -- [24]
+				"辛德蕾拉 圣光审判 辛德蕾拉 Tick +23", -- [25]
+				"刺脊滩行者 投掷 辛德蕾拉 Hit -53 (Physical)", -- [26]
+				"辛德蕾拉 肉搏 刺脊滩行者 Hit -139 (Physical)", -- [27]
+				"辛德蕾拉 命令圣印 刺脊滩行者 Hit -74 (Holy)", -- [28]
+				"辛德蕾拉 圣光审判 辛德蕾拉 Tick +23", -- [29]
+				"刺脊滩行者 肉搏 辛德蕾拉 Miss (1)", -- [30]
+				"刺脊滩行者 肉搏 辛德蕾拉 Hit -40 (Physical)", -- [31]
+				"辛德蕾拉 惩戒光环 刺脊滩行者 Hit -28 (Holy)", -- [32]
+				"辛德蕾拉 肉搏 刺脊滩行者 Crit -297 (Physical)", -- [33]
+				"辛德蕾拉 清算之手 刺脊捕猎者 Hit -210 (Holy)", -- [34]
+				"辛德蕾拉 命令审判 刺脊捕猎者 Hit -68 (Holy)", -- [35]
+				"刺脊捕猎者 肉搏 辛德蕾拉 Hit -34 (Physical)", -- [36]
+				"辛德蕾拉 惩戒光环 刺脊捕猎者 Resist (Holy)", -- [37]
+				"辛德蕾拉 肉搏 刺脊捕猎者 Hit -138 (Physical)", -- [38]
+				"辛德蕾拉 命令圣印 刺脊捕猎者 Hit -64 (Holy)", -- [39]
+				"辛德蕾拉 圣光审判 辛德蕾拉 Tick +23", -- [40]
+				"辛德蕾拉 圣光审判 辛德蕾拉 Tick +23", -- [41]
+				"刺脊捕猎者 肉搏 辛德蕾拉 Hit -28 (Physical)", -- [42]
+				"辛德蕾拉 惩戒光环 刺脊捕猎者 Hit -26 (Holy)", -- [43]
+				"辛德蕾拉 肉搏 刺脊捕猎者 Hit -134 (Physical)", -- [44]
+				"辛德蕾拉 命令圣印 刺脊捕猎者 Hit -57 (Holy)", -- [45]
+				"辛德蕾拉 奥术冲击 刺脊捕猎者 Hit -80 (Arcane)", -- [46]
+				"辛德蕾拉 圣光审判 辛德蕾拉 Tick +23", -- [47]
+				"刺脊捕猎者 肉搏 辛德蕾拉 Hit -33 (Physical)", -- [48]
+				"辛德蕾拉 惩戒光环 刺脊捕猎者 Hit -25 (Holy)", -- [49]
+				"刺脊捕猎者 肉搏 辛德蕾拉 Hit -34 (Physical)", -- [50]
+			},
+			["Name"] = "辛德蕾拉",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				true, -- [8]
+				false, -- [9]
+				true, -- [10]
+				false, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+				true, -- [15]
+				false, -- [16]
+				true, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+				true, -- [24]
+				true, -- [25]
+				true, -- [26]
+				false, -- [27]
+				false, -- [28]
+				true, -- [29]
+				true, -- [30]
+				true, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				false, -- [35]
+				true, -- [36]
+				false, -- [37]
+				false, -- [38]
+				false, -- [39]
+				true, -- [40]
+				true, -- [41]
+				true, -- [42]
+				false, -- [43]
+				false, -- [44]
+				false, -- [45]
+				false, -- [46]
+				true, -- [47]
+				true, -- [48]
+				false, -- [49]
+				true, -- [50]
+			},
+			["LastEventTimes"] = {
+				54625.795, -- [1]
+				54626.624, -- [2]
+				54626.624, -- [3]
+				54634.41, -- [4]
+				54635.882, -- [5]
+				54639.18300000001, -- [6]
+				54649.429, -- [7]
+				54649.714, -- [8]
+				54652.752, -- [9]
+				54586.796, -- [10]
+				54588.682, -- [11]
+				54588.682, -- [12]
+				54588.682, -- [13]
+				54589.8, -- [14]
+				54592.888, -- [15]
+				54593.428, -- [16]
+				54595.49, -- [17]
+				54596.694, -- [18]
+				54596.975, -- [19]
+				54596.975, -- [20]
+				54606.941, -- [21]
+				54606.941, -- [22]
+				54608.734, -- [23]
+				54608.734, -- [24]
+				54608.734, -- [25]
+				54608.864, -- [26]
+				54610.29, -- [27]
+				54610.29, -- [28]
+				54610.29, -- [29]
+				54610.498, -- [30]
+				54612.465, -- [31]
+				54612.465, -- [32]
+				54613.591, -- [33]
+				54617.995, -- [34]
+				54619.356, -- [35]
+				54619.713, -- [36]
+				54619.713, -- [37]
+				54619.935, -- [38]
+				54619.935, -- [39]
+				54620.04100000001, -- [40]
+				54620.04100000001, -- [41]
+				54621.793, -- [42]
+				54621.793, -- [43]
+				54623.331, -- [44]
+				54623.331, -- [45]
+				54623.331, -- [46]
+				54623.331, -- [47]
+				54623.793, -- [48]
+				54623.793, -- [49]
+				54625.795, -- [50]
+			},
+			["Fights"] = {
+				["Fight3"] = {
+					["DOTs"] = {
+						["奉献 (伤害/跳)"] = {
+							["Details"] = {
+								["碎鳍智者"] = {
+									["count"] = 0,
+								},
+								["碎鳍泥浆鱼人"] = {
+									["count"] = 0,
+								},
+								["碎鳍滩行鱼人"] = {
+									["count"] = 0,
+								},
+								["碎鳍潮行鱼人"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+								},
 								["Hit"] = {
 									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Frost"] = 0,
+						["Melee"] = 0,
+						["Physical"] = 0,
+						["Shadow"] = 0,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 823,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 613,
+						["Holy"] = 210,
+					},
+					["PartialAbsorb"] = {
+						["冰霜新星"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["闪电箭"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["投掷"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["暗言术：痛 (伤害/跳)"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["刺脊捕猎者"] = {
+							["amount"] = 823,
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 613,
+								},
+								["清算之手"] = {
+									["count"] = 210,
+								},
+							},
+						},
+						["碎鳍滩行鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍泥浆鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["驱邪术"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["驱邪术"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍潮行鱼人"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍智者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["碎鳍滩行鱼人"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍潮行鱼人"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["暗言术：痛 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["闪电箭"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍泥浆鱼人"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍智者"] = {
+							["Details"] = {
+								["闪电箭"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["冰霜新星"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["闪电箭"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["投掷"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["暗言术：痛 (伤害/跳)"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 0,
+								},
+								["圣光闪现"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["野妹"] = {
+							["Details"] = {
+								["圣光术"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["圣光闪现"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["圣光术"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["命令圣印雕文"] = {
+									["count"] = 50,
+								},
+								["智慧审判"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 50,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 0,
+								},
+								["圣光闪现"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["野妹"] = {
+							["Details"] = {
+								["圣光术"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["命令圣印雕文"] = {
+							["Details"] = {
+								["辛德蕾拉"] = {
+									["count"] = 50,
+								},
+							},
+							["amount"] = 50,
+						},
+						["智慧审判"] = {
+							["Details"] = {
+								["辛德蕾拉"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["刺脊捕猎者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 2.97,
+								},
+								["清算之手"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 4.47,
+						},
+						["野妹"] = {
+							["Details"] = {
+								["圣光术"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍潮行鱼人"] = {
+							["Details"] = {
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["驱邪术"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍滩行鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍泥浆鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["驱邪术"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["智慧审判"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 0,
+								},
+								["圣光闪现"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍智者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+						["碎鳍泥浆鱼人"] = {
+							["Details"] = {
+								["军马 (眩晕)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["圣光审判"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["圣光闪现"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["圣光术"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 0,
+								},
+								["圣光闪现"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["野妹"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 4.47,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["命令审判"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["奉献 (伤害/跳)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["命令圣印"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["清算之手"] = {
+							["count"] = 1,
+							["amount"] = 210,
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 210,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 210,
+								},
+							},
+						},
+						["驱邪术"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["惩戒光环"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["智慧审判"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 307,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 613,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 613,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 4.47,
+					["TimeDamaging"] = {
+						["刺脊捕猎者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 2.97,
+								},
+								["清算之手"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 4.47,
+						},
+						["碎鳍滩行鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍泥浆鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["驱邪术"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["智慧审判"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["驱邪术"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍潮行鱼人"] = {
+							["Details"] = {
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍智者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 50,
+					["HOTs"] = {
+						["圣光审判"] = {
+							["amount"] = 0,
+							["Details"] = {
+								["辛德蕾拉"] = {
+									["count"] = 0,
+								},
+							},
+						},
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 11,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Physical"] = 11,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 241,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 241,
+						["Holy"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["拳击"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["刺脊捕猎者"] = {
+							["amount"] = 241,
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 241,
+								},
+							},
+						},
+						["老食苔蛛"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["刺脊捕猎者"] = {
+							["Details"] = {
+								["拳击"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 11,
+						},
+						["老食苔蛛"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["拳击"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光术"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["圣光术"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["命令圣印雕文"] = {
+									["count"] = 64,
+								},
+								["智慧审判"] = {
+									["count"] = 32,
+								},
+							},
+							["amount"] = 96,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光术"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["命令圣印雕文"] = {
+							["Details"] = {
+								["辛德蕾拉"] = {
+									["count"] = 64,
+								},
+							},
+							["amount"] = 64,
+						},
+						["智慧审判"] = {
+							["Details"] = {
+								["辛德蕾拉"] = {
+									["count"] = 32,
+								},
+							},
+							["amount"] = 32,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["刺脊捕猎者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["老食苔蛛"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光术"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["圣光术"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光术"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 3,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["命令审判"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["命令圣印"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["清算之手"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["惩戒光环"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 122,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 241,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 241,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 3,
+					["TimeDamaging"] = {
+						["刺脊捕猎者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["老食苔蛛"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 96,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+						["奉献 (伤害/跳)"] = {
+							["Details"] = {
+								["碎鳍智者"] = {
+									["count"] = 0,
+								},
+								["碎鳍泥浆鱼人"] = {
+									["count"] = 0,
+								},
+								["碎鳍滩行鱼人"] = {
+									["count"] = 0,
+								},
+								["碎鳍潮行鱼人"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Frost"] = 0,
+						["Melee"] = 0,
+						["Shadow"] = 0,
+						["Physical"] = 0,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Holy"] = 0,
+						["Melee"] = 0,
+						["Arcane"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["暗言术：痛 (伤害/跳)"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["冰霜新星"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["闪电箭"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["暗言术：痛"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["投掷"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["碎鳍滩行鱼人"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["驱邪术"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["奥术冲击"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍潮行鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["奥术冲击"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["驱邪术"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍泥浆鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["奥术冲击"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍智者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["碎鳍滩行鱼人"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍潮行鱼人"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["暗言术：痛 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍泥浆鱼人"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍智者"] = {
+							["Details"] = {
+								["闪电箭"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["暗言术：痛 (伤害/跳)"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["冰霜新星"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["闪电箭"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["暗言术：痛"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["投掷"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+						["Holy"] = 0,
+					},
+					["TimeHealing"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 0,
+								},
+								["圣疗术"] = {
+									["count"] = 0,
+								},
+								["圣光术"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["圣光审判"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["圣疗术"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["圣光术"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["智慧审判"] = {
+									["count"] = 0,
+								},
+								["命令圣印雕文"] = {
+									["count"] = 0,
+								},
+								["圣疗术"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 0,
+								},
+								["圣疗术"] = {
+									["count"] = 0,
+								},
+								["圣光术"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["智慧审判"] = {
+							["Details"] = {
+								["辛德蕾拉"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["命令圣印雕文"] = {
+							["Details"] = {
+								["辛德蕾拉"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["圣疗术"] = {
+							["Details"] = {
+								["辛德蕾拉"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍滩行鱼人"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["圣光审判"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["驱邪术"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍潮行鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["驱邪术"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 0,
+								},
+								["圣疗术"] = {
+									["count"] = 0,
+								},
+								["圣光术"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍泥浆鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍智者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+						["碎鳍滩行鱼人"] = {
+							["Details"] = {
+								["军马 (眩晕)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍潮行鱼人"] = {
+							["Details"] = {
+								["军马 (眩晕)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["InterruptData"] = {
+						["刺脊海妖"] = {
+							["Details"] = {
+								["闪电箭 (打断)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["圣光审判"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["圣疗术"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["圣光术"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 0,
+								},
+								["圣疗术"] = {
+									["count"] = 0,
+								},
+								["圣光术"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["野妹"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["命令审判"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["清算之手"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["圣光审判"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["惩戒光环"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["奥术冲击"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["命令圣印"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (被格挡)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["驱邪术"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["奉献 (伤害/跳)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (被格挡)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["碎鳍滩行鱼人"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["圣光审判"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["驱邪术"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍潮行鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["驱邪术"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍泥浆鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍智者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+						["圣光审判"] = {
+							["Details"] = {
+								["辛德蕾拉"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight5"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 40,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Physical"] = 40,
+						["Shadow"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 571,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 151,
+						["Holy"] = 420,
+					},
+					["PartialAbsorb"] = {
+						["暗言术：痛 (伤害/跳)"] = {
+							["count"] = 0,
+							["amount"] = 0,
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+						},
+						["投掷"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 144,
+								},
+								["肉搏"] = {
+									["count"] = 151,
+								},
+								["命令圣印"] = {
+									["count"] = 67,
+								},
+								["清算之手"] = {
+									["count"] = 209,
+								},
+							},
+							["amount"] = 571,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 40,
+								},
+							},
+							["amount"] = 40,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["暗言术：痛 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["暗言术：痛 (伤害/跳)"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["投掷"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["命令圣印雕文"] = {
+									["count"] = 46,
+								},
+								["智慧审判"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 46,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["命令圣印雕文"] = {
+							["Details"] = {
+								["辛德蕾拉"] = {
+									["count"] = 46,
+								},
+							},
+							["amount"] = 46,
+						},
+						["智慧审判"] = {
+							["Details"] = {
+								["辛德蕾拉"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 0.28,
+								},
+								["清算之手"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 3.28,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 3.28,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["命令审判"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 144,
+									["min"] = 144,
+									["count"] = 1,
+									["amount"] = 144,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 144,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 151,
+									["min"] = 151,
+									["count"] = 1,
+									["amount"] = 151,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 151,
+						},
+						["命令圣印"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 67,
+									["min"] = 67,
+									["count"] = 1,
+									["amount"] = 67,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 67,
+						},
+						["清算之手"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 209,
+									["min"] = 209,
+									["count"] = 1,
+									["amount"] = 209,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 209,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 3.28,
+					["TimeDamaging"] = {
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 0.28,
+								},
+								["清算之手"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 3.28,
+						},
+					},
+					["ManaGain"] = 46,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 222,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
 								},
 								["Miss"] = {
 									["count"] = 1,
@@ -14084,16 +13443,6784 @@ RecountPerCharDB = {
 							},
 							["amount"] = 6,
 						},
-					},
-					["WhoDamaged"] = {
-						["萨巴克希斯"] = {
+						["Physical"] = {
 							["Details"] = {
-								["肉搏"] = {
-									["count"] = 102,
+								["Hit"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 102,
+							["amount"] = 1,
 						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 18,
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 169,
+						["Physical"] = 53,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 2130,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 6,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Holy"] = 1222,
+						["Melee"] = 828,
+						["Arcane"] = 80,
+					},
+					["PartialAbsorb"] = {
+						["投掷"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 73,
+								},
+								["命令圣印"] = {
+									["count"] = 74,
+								},
+								["清算之手"] = {
+									["count"] = 209,
+								},
+								["驱邪术"] = {
+									["count"] = 298,
+								},
+								["惩戒光环"] = {
+									["count"] = 28,
+								},
+								["肉搏"] = {
+									["count"] = 436,
+								},
+							},
+							["amount"] = 1118,
+						},
+						["刺脊捕猎者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 68,
+								},
+								["奥术冲击"] = {
+									["count"] = 80,
+								},
+								["命令圣印"] = {
+									["count"] = 186,
+								},
+								["清算之手"] = {
+									["count"] = 210,
+								},
+								["惩戒光环"] = {
+									["count"] = 76,
+								},
+								["肉搏"] = {
+									["count"] = 392,
+								},
+							},
+							["amount"] = 1012,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 53,
+								},
+								["肉搏"] = {
+									["count"] = 40,
+								},
+							},
+							["amount"] = 93,
+						},
+						["刺脊捕猎者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 129,
+								},
+							},
+							["amount"] = 129,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["投掷"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 6,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["命令圣印雕文"] = {
+									["count"] = 116,
+								},
+							},
+							["amount"] = 116,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 138,
+								},
+							},
+							["amount"] = 138,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["命令圣印雕文"] = {
+							["Details"] = {
+								["辛德蕾拉"] = {
+									["count"] = 116,
+								},
+							},
+							["amount"] = 116,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["刺脊捕猎者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 1.36,
+								},
+								["惩戒光环"] = {
+									["count"] = 3.82,
+								},
+								["肉搏"] = {
+									["count"] = 2.55,
+								},
+								["清算之手"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 9.23,
+						},
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 1.5,
+								},
+								["惩戒光环"] = {
+									["count"] = 1.5,
+								},
+								["驱邪术"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 2.63,
+								},
+							},
+							["amount"] = 7.13,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["圣光审判"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 23,
+									["min"] = 23,
+									["count"] = 6,
+									["amount"] = 138,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 138,
+						},
+					},
+					["WhoHealed"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 138,
+								},
+							},
+							["amount"] = 138,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 22.36,
+					["Healing"] = 138,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["命令审判"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 73,
+									["min"] = 68,
+									["count"] = 2,
+									["amount"] = 141,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 141,
+						},
+						["奥术冲击"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 80,
+									["min"] = 80,
+									["count"] = 1,
+									["amount"] = 80,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 80,
+						},
+						["命令圣印"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 74,
+									["min"] = 57,
+									["count"] = 4,
+									["amount"] = 260,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 260,
+						},
+						["清算之手"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 210,
+									["min"] = 209,
+									["count"] = 2,
+									["amount"] = 419,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 419,
+						},
+						["驱邪术"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 298,
+									["min"] = 298,
+									["count"] = 1,
+									["amount"] = 298,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 298,
+						},
+						["惩戒光环"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 28,
+									["min"] = 25,
+									["count"] = 4,
+									["amount"] = 104,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 104,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 297,
+									["min"] = 297,
+									["count"] = 1,
+									["amount"] = 297,
+								},
+								["Hit"] = {
+									["max"] = 139,
+									["min"] = 120,
+									["count"] = 4,
+									["amount"] = 531,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 828,
+						},
+					},
+					["HealingTaken"] = 138,
+					["RageGain"] = 0,
+					["TimeDamage"] = 16.36,
+					["TimeDamaging"] = {
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 1.5,
+								},
+								["惩戒光环"] = {
+									["count"] = 1.5,
+								},
+								["驱邪术"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 2.63,
+								},
+							},
+							["amount"] = 7.13,
+						},
+						["刺脊捕猎者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 1.36,
+								},
+								["惩戒光环"] = {
+									["count"] = 3.82,
+								},
+								["肉搏"] = {
+									["count"] = 2.55,
+								},
+								["清算之手"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 9.23,
+						},
+					},
+					["ManaGain"] = 116,
+					["HOTs"] = {
+						["圣光审判"] = {
+							["Details"] = {
+								["辛德蕾拉"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Shadow"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Holy"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["暗言术：痛 (伤害/跳)"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["刺脊海妖"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["驱邪术"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["刺脊海妖"] = {
+							["Details"] = {
+								["暗言术：痛 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["暗言术：痛 (伤害/跳)"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+						["圣光审判"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["命令圣印雕文"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["命令圣印雕文"] = {
+							["Details"] = {
+								["辛德蕾拉"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["刺脊海妖"] = {
+							["Details"] = {
+								["驱邪术"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+						["野妹"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["命令审判"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["命令圣印"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["清算之手"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["驱邪术"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["刺脊海妖"] = {
+							["Details"] = {
+								["驱邪术"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+						["圣光审判"] = {
+							["Details"] = {
+								["辛德蕾拉"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["DOTs"] = {
+						["奉献 (伤害/跳)"] = {
+							["Details"] = {
+								["碎鳍潮行鱼人"] = {
+									["count"] = 216,
+								},
+								["碎鳍泥浆鱼人"] = {
+									["count"] = 249,
+								},
+								["碎鳍滩行鱼人"] = {
+									["count"] = 303,
+								},
+								["碎鳍智者"] = {
+									["count"] = 57,
+								},
+							},
+							["amount"] = 825,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 9,
+								},
+								["Dodge"] = {
+									["count"] = 7,
+								},
+								["Hit"] = {
+									["count"] = 137,
+								},
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Parry"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 164,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 19,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 31,
+								},
+							},
+							["amount"] = 31,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 8,
+						},
+					},
+					["HealedWho"] = {
+						["野妹"] = {
+							["Details"] = {
+								["圣光术"] = {
+									["count"] = 522,
+								},
+							},
+							["amount"] = 522,
+						},
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 459,
+								},
+								["圣光闪现"] = {
+									["count"] = 160,
+								},
+								["圣疗术"] = {
+									["count"] = 912,
+								},
+								["圣光术"] = {
+									["count"] = 3083,
+								},
+							},
+							["amount"] = 4614,
+						},
+					},
+					["DeathCount"] = 1,
+					["Overhealing"] = 2629,
+					["ElementTaken"] = {
+						["Frost"] = 76,
+						["Melee"] = 4761,
+						["Shadow"] = 630,
+						["Physical"] = 1239,
+						["Nature"] = 938,
+					},
+					["DOT_Time"] = 825,
+					["Damage"] = 44091,
+					["TimeHeal"] = 39.41,
+					["ElementDone"] = {
+						["Holy"] = 30304,
+						["Melee"] = 13260,
+						["Arcane"] = 527,
+					},
+					["DamagedWho"] = {
+						["刺脊捕猎者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 68,
+								},
+								["奥术冲击"] = {
+									["count"] = 80,
+								},
+								["命令圣印"] = {
+									["count"] = 186,
+								},
+								["清算之手"] = {
+									["count"] = 420,
+								},
+								["惩戒光环"] = {
+									["count"] = 76,
+								},
+								["肉搏"] = {
+									["count"] = 1246,
+								},
+							},
+							["amount"] = 2076,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 582,
+								},
+								["奥术冲击"] = {
+									["count"] = 89,
+								},
+								["命令圣印"] = {
+									["count"] = 483,
+								},
+								["清算之手"] = {
+									["count"] = 944,
+								},
+								["驱邪术"] = {
+									["count"] = 1084,
+								},
+								["惩戒光环"] = {
+									["count"] = 28,
+								},
+								["肉搏"] = {
+									["count"] = 1509,
+								},
+							},
+							["amount"] = 4719,
+						},
+						["碎鳍滩行鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 495,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 3490,
+								},
+								["命令圣印"] = {
+									["count"] = 1436,
+								},
+								["清算之手"] = {
+									["count"] = 1257,
+								},
+								["驱邪术"] = {
+									["count"] = 295,
+								},
+								["惩戒光环"] = {
+									["count"] = 1224,
+								},
+								["奥术冲击"] = {
+									["count"] = 89,
+								},
+								["肉搏"] = {
+									["count"] = 3991,
+								},
+							},
+							["amount"] = 12277,
+						},
+						["碎鳍潮行鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 147,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 2485,
+								},
+								["命令圣印"] = {
+									["count"] = 780,
+								},
+								["清算之手"] = {
+									["count"] = 315,
+								},
+								["惩戒光环"] = {
+									["count"] = 1188,
+								},
+								["肉搏"] = {
+									["count"] = 694,
+								},
+							},
+							["amount"] = 5609,
+						},
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 361,
+								},
+								["命令圣印"] = {
+									["count"] = 361,
+								},
+								["清算之手"] = {
+									["count"] = 628,
+								},
+								["驱邪术"] = {
+									["count"] = 298,
+								},
+								["惩戒光环"] = {
+									["count"] = 115,
+								},
+								["肉搏"] = {
+									["count"] = 1153,
+								},
+							},
+							["amount"] = 2916,
+						},
+						["老食苔蛛"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 70,
+								},
+								["命令圣印"] = {
+									["count"] = 201,
+								},
+								["清算之手"] = {
+									["count"] = 208,
+								},
+								["惩戒光环"] = {
+									["count"] = 56,
+								},
+								["肉搏"] = {
+									["count"] = 286,
+								},
+							},
+							["amount"] = 821,
+						},
+						["碎鳍泥浆鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 645,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 2863,
+								},
+								["命令圣印"] = {
+									["count"] = 1980,
+								},
+								["清算之手"] = {
+									["count"] = 945,
+								},
+								["驱邪术"] = {
+									["count"] = 594,
+								},
+								["惩戒光环"] = {
+									["count"] = 1023,
+								},
+								["奥术冲击"] = {
+									["count"] = 179,
+								},
+								["肉搏"] = {
+									["count"] = 3020,
+								},
+							},
+							["amount"] = 11249,
+						},
+						["碎鳍智者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 424,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 660,
+								},
+								["命令圣印"] = {
+									["count"] = 497,
+								},
+								["清算之手"] = {
+									["count"] = 943,
+								},
+								["驱邪术"] = {
+									["count"] = 308,
+								},
+								["惩戒光环"] = {
+									["count"] = 141,
+								},
+								["奥术冲击"] = {
+									["count"] = 90,
+								},
+								["肉搏"] = {
+									["count"] = 1361,
+								},
+							},
+							["amount"] = 4424,
+						},
+					},
+					["WhoDamaged"] = {
+						["刺脊捕猎者"] = {
+							["Details"] = {
+								["拳击"] = {
+									["count"] = 11,
+								},
+								["肉搏"] = {
+									["count"] = 129,
+								},
+							},
+							["amount"] = 140,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["闪电箭"] = {
+									["count"] = 116,
+								},
+								["暗言术：痛 (伤害/跳)"] = {
+									["count"] = 630,
+								},
+								["肉搏"] = {
+									["count"] = 35,
+								},
+							},
+							["amount"] = 781,
+						},
+						["碎鳍滩行鱼人"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 1089,
+								},
+								["肉搏"] = {
+									["count"] = 1546,
+								},
+							},
+							["amount"] = 2635,
+						},
+						["碎鳍潮行鱼人"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 76,
+								},
+								["肉搏"] = {
+									["count"] = 1481,
+								},
+							},
+							["amount"] = 1557,
+						},
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 139,
+								},
+								["肉搏"] = {
+									["count"] = 160,
+								},
+							},
+							["amount"] = 299,
+						},
+						["老食苔蛛"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 51,
+								},
+							},
+							["amount"] = 51,
+						},
+						["碎鳍泥浆鱼人"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 1192,
+								},
+							},
+							["amount"] = 1192,
+						},
+						["碎鳍智者"] = {
+							["Details"] = {
+								["闪电箭"] = {
+									["count"] = 822,
+								},
+								["肉搏"] = {
+									["count"] = 167,
+								},
+							},
+							["amount"] = 989,
+						},
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 30,
+						["Holy"] = 33,
+					},
+					["TimeHealing"] = {
+						["野妹"] = {
+							["Details"] = {
+								["圣光术"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 22.91,
+								},
+								["圣光闪现"] = {
+									["count"] = 3,
+								},
+								["圣疗术"] = {
+									["count"] = 1.5,
+								},
+								["圣光术"] = {
+									["count"] = 10.5,
+								},
+							},
+							["amount"] = 37.91,
+						},
+					},
+					["OverHeals"] = {
+						["圣光审判"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 23,
+									["min"] = 2,
+									["count"] = 4,
+									["amount"] = 71,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 71,
+						},
+						["圣光闪现"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 203,
+									["min"] = 203,
+									["count"] = 1,
+									["amount"] = 203,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 203,
+						},
+						["圣疗术"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 242,
+									["min"] = 242,
+									["count"] = 1,
+									["amount"] = 242,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 242,
+						},
+						["圣光术"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 841,
+									["min"] = 841,
+									["count"] = 1,
+									["amount"] = 841,
+								},
+								["Hit"] = {
+									["max"] = 388,
+									["min"] = 73,
+									["count"] = 5,
+									["amount"] = 1272,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 2113,
+						},
+					},
+					["PartialResist"] = {
+						["暗言术：痛 (伤害/跳)"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 18,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 18,
+						},
+						["暗言术：痛"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["冰霜新星"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["闪电箭"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 8,
+						},
+						["拳击"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["投掷"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 30,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 30,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 164,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 164,
+						},
+					},
+					["ManaGained"] = {
+						["智慧审判"] = {
+							["Details"] = {
+								["辛德蕾拉"] = {
+									["count"] = 503,
+								},
+							},
+							["amount"] = 503,
+						},
+						["命令圣印雕文"] = {
+							["Details"] = {
+								["辛德蕾拉"] = {
+									["count"] = 2858,
+								},
+							},
+							["amount"] = 2858,
+						},
+						["圣疗术"] = {
+							["Details"] = {
+								["辛德蕾拉"] = {
+									["count"] = 250,
+								},
+							},
+							["amount"] = 250,
+						},
+					},
+					["PartialAbsorb"] = {
+						["暗言术：痛 (伤害/跳)"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 18,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 18,
+							["amount"] = 0,
+						},
+						["暗言术：痛"] = {
+							["count"] = 1,
+							["amount"] = 0,
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+						},
+						["冰霜新星"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["闪电箭"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+						["拳击"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["投掷"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 30,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 30,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 164,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 164,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 351.84,
+					["InterruptData"] = {
+						["刺脊海妖"] = {
+							["Details"] = {
+								["闪电箭 (打断)"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["WhoDispelled"] = {
+						["碎鳍泥浆鱼人"] = {
+							["Details"] = {
+								["军马 (眩晕)"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["碎鳍滩行鱼人"] = {
+							["Details"] = {
+								["军马 (眩晕)"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["碎鳍潮行鱼人"] = {
+							["Details"] = {
+								["军马 (眩晕)"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["Interrupts"] = 1,
+					["Heals"] = {
+						["圣光审判"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 24,
+									["min"] = 21,
+									["count"] = 20,
+									["amount"] = 459,
+								},
+							},
+							["count"] = 20,
+							["amount"] = 459,
+						},
+						["圣光闪现"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 17,
+									["min"] = 17,
+									["count"] = 1,
+									["amount"] = 17,
+								},
+								["Hit"] = {
+									["max"] = 143,
+									["min"] = 143,
+									["count"] = 1,
+									["amount"] = 143,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 160,
+						},
+						["圣疗术"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 912,
+									["min"] = 912,
+									["count"] = 1,
+									["amount"] = 912,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 912,
+						},
+						["圣光术"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 159,
+									["min"] = 159,
+									["count"] = 1,
+									["amount"] = 159,
+								},
+								["Hit"] = {
+									["max"] = 705,
+									["min"] = 283,
+									["count"] = 7,
+									["amount"] = 3446,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 3605,
+						},
+					},
+					["HOTs"] = {
+						["圣光审判"] = {
+							["Details"] = {
+								["辛德蕾拉"] = {
+									["count"] = 69,
+								},
+							},
+							["amount"] = 69,
+						},
+					},
+					["HOT_Time"] = 69,
+					["Dispelled"] = 8,
+					["Healing"] = 5136,
+					["TimeSpent"] = {
+						["刺脊捕猎者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 1.36,
+								},
+								["惩戒光环"] = {
+									["count"] = 3.82,
+								},
+								["肉搏"] = {
+									["count"] = 8.52,
+								},
+								["清算之手"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 16.7,
+						},
+						["野妹"] = {
+							["Details"] = {
+								["圣光术"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["碎鳍潮行鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0.48,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 17.33,
+								},
+								["命令圣印"] = {
+									["count"] = 1.06,
+								},
+								["清算之手"] = {
+									["count"] = 0.13,
+								},
+								["惩戒光环"] = {
+									["count"] = 28.90999999999999,
+								},
+								["肉搏"] = {
+									["count"] = 1.95,
+								},
+							},
+							["amount"] = 49.85999999999999,
+						},
+						["老食苔蛛"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 1.5,
+								},
+								["惩戒光环"] = {
+									["count"] = 2.02,
+								},
+								["肉搏"] = {
+									["count"] = 2.17,
+								},
+								["清算之手"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 7.19,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 6.92,
+								},
+								["清算之手"] = {
+									["count"] = 6,
+								},
+								["驱邪术"] = {
+									["count"] = 3.97,
+								},
+								["惩戒光环"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 7.449999999999999,
+								},
+							},
+							["amount"] = 25.84,
+						},
+						["碎鳍滩行鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 4.27,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 20.99,
+								},
+								["命令圣印"] = {
+									["count"] = 6.75,
+								},
+								["清算之手"] = {
+									["count"] = 6.97,
+								},
+								["圣光审判"] = {
+									["count"] = 1.5,
+								},
+								["惩戒光环"] = {
+									["count"] = 38.02,
+								},
+								["驱邪术"] = {
+									["count"] = 0.83,
+								},
+								["肉搏"] = {
+									["count"] = 19.18,
+								},
+							},
+							["amount"] = 98.51,
+						},
+						["碎鳍泥浆鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 2.34,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 19.97,
+								},
+								["命令圣印"] = {
+									["count"] = 2.7,
+								},
+								["清算之手"] = {
+									["count"] = 1.79,
+								},
+								["驱邪术"] = {
+									["count"] = 1.28,
+								},
+								["惩戒光环"] = {
+									["count"] = 24.92,
+								},
+								["智慧审判"] = {
+									["count"] = 0.52,
+								},
+								["肉搏"] = {
+									["count"] = 16.87,
+								},
+							},
+							["amount"] = 70.39,
+						},
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 22.91,
+								},
+								["圣光闪现"] = {
+									["count"] = 3,
+								},
+								["圣疗术"] = {
+									["count"] = 1.5,
+								},
+								["圣光术"] = {
+									["count"] = 10.5,
+								},
+							},
+							["amount"] = 37.91,
+						},
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 5.03,
+								},
+								["清算之手"] = {
+									["count"] = 3,
+								},
+								["驱邪术"] = {
+									["count"] = 1.5,
+								},
+								["惩戒光环"] = {
+									["count"] = 4.66,
+								},
+								["肉搏"] = {
+									["count"] = 6.73,
+								},
+							},
+							["amount"] = 20.92,
+						},
+						["碎鳍智者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 5.59,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 3.57,
+								},
+								["清算之手"] = {
+									["count"] = 4.87,
+								},
+								["驱邪术"] = {
+									["count"] = 1.36,
+								},
+								["惩戒光环"] = {
+									["count"] = 1.97,
+								},
+								["肉搏"] = {
+									["count"] = 5.66,
+								},
+							},
+							["amount"] = 23.02,
+						},
+					},
+					["DamageTaken"] = 7644,
+					["Attacks"] = {
+						["命令审判"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 150,
+									["min"] = 138,
+									["count"] = 7,
+									["amount"] = 1006,
+								},
+								["Hit"] = {
+									["max"] = 75,
+									["min"] = 68,
+									["count"] = 25,
+									["amount"] = 1786,
+								},
+							},
+							["count"] = 32,
+							["amount"] = 2792,
+						},
+						["清算之手"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 315,
+									["min"] = 314,
+									["count"] = 4,
+									["amount"] = 1259,
+								},
+								["Hit"] = {
+									["max"] = 210,
+									["min"] = 208,
+									["count"] = 21,
+									["amount"] = 4401,
+								},
+							},
+							["count"] = 25,
+							["amount"] = 5660,
+						},
+						["驱邪术"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 459,
+									["min"] = 459,
+									["count"] = 1,
+									["amount"] = 459,
+								},
+								["Hit"] = {
+									["max"] = 313,
+									["min"] = 290,
+									["count"] = 7,
+									["amount"] = 2120,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 2579,
+						},
+						["惩戒光环"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 12,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 29,
+									["min"] = 25,
+									["count"] = 136,
+									["amount"] = 3851,
+								},
+							},
+							["count"] = 148,
+							["amount"] = 3851,
+						},
+						["奥术冲击"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 90,
+									["min"] = 80,
+									["count"] = 6,
+									["amount"] = 527,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 527,
+						},
+						["命令圣印"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 76,
+									["min"] = 57,
+									["count"] = 61,
+									["amount"] = 4259,
+								},
+								["Miss"] = {
+									["count"] = 6,
+									["amount"] = 0,
+								},
+								["Hit (被格挡)"] = {
+									["max"] = 56,
+									["min"] = 55,
+									["count"] = 2,
+									["amount"] = 111,
+								},
+								["Crit"] = {
+									["max"] = 151,
+									["min"] = 126,
+									["count"] = 11,
+									["amount"] = 1554,
+								},
+								["Parry"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 87,
+							["amount"] = 5924,
+						},
+						["圣光审判"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["智慧审判"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["奉献 (伤害/跳)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 35,
+									["min"] = 34,
+									["count"] = 275,
+									["amount"] = 9498,
+								},
+							},
+							["count"] = 275,
+							["amount"] = 9498,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 152,
+									["min"] = 119,
+									["count"] = 50,
+									["amount"] = 6987,
+								},
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 310,
+									["min"] = 260,
+									["count"] = 21,
+									["amount"] = 6002,
+								},
+								["Hit (被格挡)"] = {
+									["max"] = 139,
+									["min"] = 132,
+									["count"] = 2,
+									["amount"] = 271,
+								},
+							},
+							["count"] = 77,
+							["amount"] = 13260,
+						},
+					},
+					["HealingTaken"] = 6471,
+					["WhoHealed"] = {
+						["野妹"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 369,
+								},
+								["圣光术"] = {
+									["count"] = 1488,
+								},
+							},
+							["amount"] = 1857,
+						},
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 459,
+								},
+								["圣光闪现"] = {
+									["count"] = 160,
+								},
+								["圣疗术"] = {
+									["count"] = 912,
+								},
+								["圣光术"] = {
+									["count"] = 3083,
+								},
+							},
+							["amount"] = 4614,
+						},
+					},
+					["TimeDamage"] = 312.43,
+					["TimeDamaging"] = {
+						["刺脊捕猎者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 1.36,
+								},
+								["惩戒光环"] = {
+									["count"] = 3.82,
+								},
+								["肉搏"] = {
+									["count"] = 8.52,
+								},
+								["清算之手"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 16.7,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 6.92,
+								},
+								["清算之手"] = {
+									["count"] = 6,
+								},
+								["驱邪术"] = {
+									["count"] = 3.97,
+								},
+								["惩戒光环"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 7.449999999999999,
+								},
+							},
+							["amount"] = 25.84,
+						},
+						["碎鳍滩行鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 4.27,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 20.99,
+								},
+								["命令圣印"] = {
+									["count"] = 6.75,
+								},
+								["清算之手"] = {
+									["count"] = 6.97,
+								},
+								["圣光审判"] = {
+									["count"] = 1.5,
+								},
+								["惩戒光环"] = {
+									["count"] = 38.02,
+								},
+								["驱邪术"] = {
+									["count"] = 0.83,
+								},
+								["肉搏"] = {
+									["count"] = 19.18,
+								},
+							},
+							["amount"] = 98.51,
+						},
+						["碎鳍潮行鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0.48,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 17.33,
+								},
+								["命令圣印"] = {
+									["count"] = 1.06,
+								},
+								["清算之手"] = {
+									["count"] = 0.13,
+								},
+								["惩戒光环"] = {
+									["count"] = 28.90999999999999,
+								},
+								["肉搏"] = {
+									["count"] = 1.95,
+								},
+							},
+							["amount"] = 49.85999999999999,
+						},
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 5.03,
+								},
+								["清算之手"] = {
+									["count"] = 3,
+								},
+								["驱邪术"] = {
+									["count"] = 1.5,
+								},
+								["惩戒光环"] = {
+									["count"] = 4.66,
+								},
+								["肉搏"] = {
+									["count"] = 6.73,
+								},
+							},
+							["amount"] = 20.92,
+						},
+						["老食苔蛛"] = {
+							["amount"] = 7.19,
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 1.5,
+								},
+								["惩戒光环"] = {
+									["count"] = 2.02,
+								},
+								["肉搏"] = {
+									["count"] = 2.17,
+								},
+								["清算之手"] = {
+									["count"] = 1.5,
+								},
+							},
+						},
+						["碎鳍泥浆鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 2.34,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 19.97,
+								},
+								["命令圣印"] = {
+									["count"] = 2.7,
+								},
+								["清算之手"] = {
+									["count"] = 1.79,
+								},
+								["驱邪术"] = {
+									["count"] = 1.28,
+								},
+								["惩戒光环"] = {
+									["count"] = 24.92,
+								},
+								["智慧审判"] = {
+									["count"] = 0.52,
+								},
+								["肉搏"] = {
+									["count"] = 16.87,
+								},
+							},
+							["amount"] = 70.39,
+						},
+						["碎鳍智者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 5.59,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 3.57,
+								},
+								["清算之手"] = {
+									["count"] = 4.87,
+								},
+								["驱邪术"] = {
+									["count"] = 1.36,
+								},
+								["惩戒光环"] = {
+									["count"] = 1.97,
+								},
+								["肉搏"] = {
+									["count"] = 5.66,
+								},
+							},
+							["amount"] = 23.02,
+						},
+					},
+					["ManaGain"] = 3611,
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 12,
+								},
+								["Dodge"] = {
+									["count"] = 3,
+								},
+								["Miss"] = {
+									["count"] = 8,
+								},
+								["Hit"] = {
+									["count"] = 252,
+								},
+								["Tick"] = {
+									["count"] = 275,
+								},
+								["Block"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 23,
+								},
+								["Parry"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 579,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 52,
+								},
+								["Miss"] = {
+									["count"] = 3,
+								},
+								["Block"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 21,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 79,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["智慧审判"] = {
+									["count"] = 503,
+								},
+								["命令圣印雕文"] = {
+									["count"] = 2858,
+								},
+								["圣疗术"] = {
+									["count"] = 250,
+								},
+							},
+							["amount"] = 3611,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 53982.042,
+			["LastActive"] = 54652.044,
+		},
+		["迪克斯特·瓦德"] = {
+			["GUID"] = "Creature-0-4515-34-7881-1663-00002335C6",
+			["LastEventHealth"] = {
+				2097, -- [1]
+				2097, -- [2]
+				2055, -- [3]
+				1913, -- [4]
+				1913, -- [5]
+				1913, -- [6]
+				1852, -- [7]
+				1852, -- [8]
+				1852, -- [9]
+				1627, -- [10]
+				1627, -- [11]
+				1478, -- [12]
+				1478, -- [13]
+				1478, -- [14]
+				1451, -- [15]
+				1451, -- [16]
+				1451, -- [17]
+				1302, -- [18]
+				1107, -- [19]
+				972, -- [20]
+				954, -- [21]
+				937, -- [22]
+				937, -- [23]
+				937, -- [24]
+				937, -- [25]
+				891, -- [26]
+				875, -- [27]
+				593, -- [28]
+				487, -- [29]
+				487, -- [30]
+				432, -- [31]
+				432, -- [32]
+				432, -- [33]
+				432, -- [34]
+				228, -- [35]
+				197, -- [36]
+				178, -- [37]
+				134, -- [38]
+				134, -- [39]
+				54, -- [40]
+				38, -- [41]
+				19, -- [42]
+				0, -- [43]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"MISC", -- [43]
+			},
+			["TimeWindows"] = {
+				["DeathCount"] = {
+					1, -- [1]
+				},
+				["ActiveTime"] = {
+					4.5, -- [1]
+				},
+				["TimeDamage"] = {
+					4.5, -- [1]
+				},
+				["DamageTaken"] = {
+					2272, -- [1]
+				},
+				["Damage"] = {
+					178, -- [1]
+				},
+			},
+			["enClass"] = "MOB",
+			["unit"] = "party1target",
+			["LastActive"] = 45284.195,
+			["level"] = -1,
+			["LastDamageAbility"] = "寒冰箭",
+			["LastFightIn"] = 11,
+			["LastEventHealthMax"] = {
+				2097, -- [1]
+				2097, -- [2]
+				2097, -- [3]
+				2097, -- [4]
+				2097, -- [5]
+				2097, -- [6]
+				2097, -- [7]
+				2097, -- [8]
+				2097, -- [9]
+				2097, -- [10]
+				2097, -- [11]
+				2097, -- [12]
+				2097, -- [13]
+				2097, -- [14]
+				2097, -- [15]
+				2097, -- [16]
+				2097, -- [17]
+				2097, -- [18]
+				2097, -- [19]
+				2097, -- [20]
+				2097, -- [21]
+				2097, -- [22]
+				2097, -- [23]
+				2097, -- [24]
+				2097, -- [25]
+				2097, -- [26]
+				2097, -- [27]
+				2097, -- [28]
+				2097, -- [29]
+				2097, -- [30]
+				2097, -- [31]
+				2097, -- [32]
+				2097, -- [33]
+				2097, -- [34]
+				2097, -- [35]
+				2097, -- [36]
+				2097, -- [37]
+				2097, -- [38]
+				2097, -- [39]
+				2097, -- [40]
+				2097, -- [41]
+				2097, -- [42]
+				2097, -- [43]
+			},
+			["type"] = "Boss",
+			["FightsSaved"] = 5,
+			["LastDamageTaken"] = 194,
+			["TimeLast"] = {
+				["DeathCount"] = 45284.195,
+				["ActiveTime"] = 45281.194,
+				["TimeDamage"] = 45281.194,
+				["OVERALL"] = 45284.195,
+				["DamageTaken"] = 45284.195,
+				["Damage"] = 45281.194,
+			},
+			["Owner"] = false,
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				false, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				false, -- [12]
+				true, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				true, -- [17]
+				true, -- [18]
+				true, -- [19]
+				true, -- [20]
+				true, -- [21]
+				true, -- [22]
+				false, -- [23]
+				true, -- [24]
+				true, -- [25]
+				true, -- [26]
+				true, -- [27]
+				true, -- [28]
+				true, -- [29]
+				true, -- [30]
+				true, -- [31]
+				true, -- [32]
+				true, -- [33]
+				true, -- [34]
+				true, -- [35]
+				true, -- [36]
+				true, -- [37]
+				true, -- [38]
+				true, -- [39]
+				true, -- [40]
+				true, -- [41]
+				true, -- [42]
+				true, -- [43]
+			},
+			["NextEventNum"] = 44,
+			["LastDamageTime"] = 45282.042,
+			["LastEvents"] = {
+				"南宫浮生 命令审判 迪克斯特·瓦德 Hit -42 (Holy)", -- [1]
+				"南宫浮生 肉搏 迪克斯特·瓦德 Hit -93 (Physical)", -- [2]
+				"南宫浮生 命令圣印 迪克斯特·瓦德 Hit -49 (Holy)", -- [3]
+				"三自四有 正义圣印 迪克斯特·瓦德 Hit -16 (Holy)", -- [4]
+				"三自四有 正义审判 迪克斯特·瓦德 Hit -45 (Holy)", -- [5]
+				"迪克斯特·瓦德 肉搏 南宫浮生 Hit -67 (Physical)", -- [6]
+				"南宫浮生 荆棘术 迪克斯特·瓦德 Hit -10 (Nature)", -- [7]
+				"南宫浮生 惩戒光环 迪克斯特·瓦德 Hit -18 (Holy)", -- [8]
+				"查尔斯三世 寒冰箭 迪克斯特·瓦德 Hit -197 (Frost)", -- [9]
+				"三自四有 肉搏 迪克斯特·瓦德 Crit -133 (Physical)", -- [10]
+				"三自四有 正义圣印 迪克斯特·瓦德 Hit -16 (Holy)", -- [11]
+				"迪克斯特·瓦德 肉搏 南宫浮生 Hit -53 (Physical)", -- [12]
+				"南宫浮生 荆棘术 迪克斯特·瓦德 Hit -9 (Nature)", -- [13]
+				"南宫浮生 惩戒光环 迪克斯特·瓦德 Hit -18 (Holy)", -- [14]
+				"南宫浮生 肉搏 迪克斯特·瓦德 Hit -85 (Physical)", -- [15]
+				"南宫浮生 命令圣印 迪克斯特·瓦德 Hit -45 (Holy)", -- [16]
+				"南宫浮生 奉献 (伤害/跳) 迪克斯特·瓦德 Tick -19 (Holy)", -- [17]
+				"查尔斯三世 寒冰箭 迪克斯特·瓦德 Hit -195 (Frost)", -- [18]
+				"三自四有 驱邪术 迪克斯特·瓦德 Hit -135 (Holy)", -- [19]
+				"南宫浮生 奉献 (伤害/跳) 迪克斯特·瓦德 Tick -18 (Holy)", -- [20]
+				"三自四有 奉献 (伤害/跳) 迪克斯特·瓦德 Tick -17 (Holy)", -- [21]
+				"南宫浮生 奉献 (伤害/跳) 迪克斯特·瓦德 Tick -19 (Holy)", -- [22]
+				"迪克斯特·瓦德 肉搏 南宫浮生 Hit -58 (Physical)", -- [23]
+				"南宫浮生 荆棘术 迪克斯特·瓦德 Hit -9 (Nature)", -- [24]
+				"南宫浮生 惩戒光环 迪克斯特·瓦德 Hit -18 (Holy)", -- [25]
+				"三自四有 奉献 (伤害/跳) 迪克斯特·瓦德 Tick -16 (Holy)", -- [26]
+				"查尔斯三世 寒冰箭 迪克斯特·瓦德 Crit -282 (Frost)", -- [27]
+				"祝雨来 背刺 迪克斯特·瓦德 Hit -106 (Physical)", -- [28]
+				"祝雨来 肉搏 迪克斯特·瓦德 Glancing -36 (Physical)", -- [29]
+				"南宫浮生 奉献 (伤害/跳) 迪克斯特·瓦德 Tick -19 (Holy)", -- [30]
+				"三自四有 奉献 (伤害/跳) 迪克斯特·瓦德 Tick -17 (Holy)", -- [31]
+				"南宫浮生 肉搏 迪克斯特·瓦德 Hit -93 (Physical)", -- [32]
+				"南宫浮生 命令圣印 迪克斯特·瓦德 Crit -94 (Holy)", -- [33]
+				"三自四有 肉搏 迪克斯特·瓦德 Dodge (1)", -- [34]
+				"祝雨来 肉搏 迪克斯特·瓦德 Hit -31 (Physical)", -- [35]
+				"南宫浮生 奉献 (伤害/跳) 迪克斯特·瓦德 Tick -19 (Holy)", -- [36]
+				"南宫浮生 命令审判 迪克斯特·瓦德 Hit -44 (Holy)", -- [37]
+				"祝雨来 肉搏 迪克斯特·瓦德 Hit -33 (Physical)", -- [38]
+				"祝雨来 影袭 迪克斯特·瓦德 Hit -47 (Physical)", -- [39]
+				"三自四有 奉献 (伤害/跳) 迪克斯特·瓦德 Tick -16 (Holy)", -- [40]
+				"南宫浮生 奉献 (伤害/跳) 迪克斯特·瓦德 Tick -19 (Holy)", -- [41]
+				"查尔斯三世 寒冰箭 迪克斯特·瓦德 Hit -194 (Frost)", -- [42]
+				"迪克斯特·瓦德死亡。", -- [43]
+			},
+			["Name"] = "迪克斯特·瓦德",
+			["LastEventTimes"] = {
+				45276.149, -- [1]
+				45276.18, -- [2]
+				45276.18, -- [3]
+				45277.158, -- [4]
+				45277.158, -- [5]
+				45277.232, -- [6]
+				45277.245, -- [7]
+				45277.245, -- [8]
+				45277.613, -- [9]
+				45277.708, -- [10]
+				45277.708, -- [11]
+				45279.644, -- [12]
+				45279.659, -- [13]
+				45279.659, -- [14]
+				45279.789, -- [15]
+				45279.789, -- [16]
+				45279.829, -- [17]
+				45280.034, -- [18]
+				45280.147, -- [19]
+				45280.81, -- [20]
+				45281.364, -- [21]
+				45281.82, -- [22]
+				45282.042, -- [23]
+				45282.056, -- [24]
+				45282.056, -- [25]
+				45282.358, -- [26]
+				45282.537, -- [27]
+				45282.69, -- [28]
+				45282.731, -- [29]
+				45282.826, -- [30]
+				45283.359, -- [31]
+				45283.389, -- [32]
+				45283.389, -- [33]
+				45283.435, -- [34]
+				45283.577, -- [35]
+				45283.827, -- [36]
+				45284.157, -- [37]
+				45284.226, -- [38]
+				45284.301, -- [39]
+				45284.371, -- [40]
+				45284.811, -- [41]
+				45285.044, -- [42]
+				45285.044, -- [43]
+			},
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["ElementHitsTaken"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 10,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 22,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["Attacks"] = {
+						["肉搏"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 67,
+									["min"] = 53,
+									["count"] = 3,
+									["amount"] = 178,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 178,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 178,
+					},
+					["TimeDamaging"] = {
+						["南宫浮生"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 4.5,
+								},
+							},
+							["amount"] = 4.5,
+						},
+					},
+					["ActiveTime"] = 4.5,
+					["TimeSpent"] = {
+						["南宫浮生"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 4.5,
+								},
+							},
+							["amount"] = 4.5,
+						},
+					},
+					["DamageTaken"] = 2272,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["PartialResist"] = {
+						["命令审判"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["背刺"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["驱邪术"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["惩戒光环"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+						["正义审判"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["奉献 (伤害/跳)"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 10,
+						},
+						["命令圣印"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+						["荆棘术"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+						["正义圣印"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["寒冰箭"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
+						["影袭"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 8,
+						},
+					},
+					["DeathCount"] = 1,
+					["DamagedWho"] = {
+						["南宫浮生"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 178,
+								},
+							},
+							["amount"] = 178,
+						},
+					},
+					["TimeDamage"] = 4.5,
+					["WhoDamaged"] = {
+						["查尔斯三世"] = {
+							["Details"] = {
+								["寒冰箭"] = {
+									["count"] = 868,
+								},
+							},
+							["amount"] = 868,
+						},
+						["南宫浮生"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 86,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 113,
+								},
+								["命令圣印"] = {
+									["count"] = 188,
+								},
+								["惩戒光环"] = {
+									["count"] = 54,
+								},
+								["荆棘术"] = {
+									["count"] = 28,
+								},
+								["肉搏"] = {
+									["count"] = 271,
+								},
+							},
+							["amount"] = 740,
+						},
+						["三自四有"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 66,
+								},
+								["驱邪术"] = {
+									["count"] = 135,
+								},
+								["正义圣印"] = {
+									["count"] = 32,
+								},
+								["正义审判"] = {
+									["count"] = 45,
+								},
+								["肉搏"] = {
+									["count"] = 133,
+								},
+							},
+							["amount"] = 411,
+						},
+						["祝雨来"] = {
+							["Details"] = {
+								["影袭"] = {
+									["count"] = 47,
+								},
+								["背刺"] = {
+									["count"] = 106,
+								},
+								["肉搏"] = {
+									["count"] = 100,
+								},
+							},
+							["amount"] = 253,
+						},
+					},
+					["ElementTaken"] = {
+						["Holy"] = 719,
+						["Melee"] = 504,
+						["Physical"] = 153,
+						["Frost"] = 868,
+						["Nature"] = 28,
+					},
+					["PartialAbsorb"] = {
+						["命令审判"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["背刺"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["驱邪术"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["惩戒光环"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["正义审判"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["奉献 (伤害/跳)"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 0,
+						},
+						["命令圣印"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["荆棘术"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["正义圣印"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["寒冰箭"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["影袭"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+					},
+					["Damage"] = 178,
+				},
+			},
+			["DeathLogs"] = {
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						true, -- [2]
+						true, -- [3]
+						true, -- [4]
+						true, -- [5]
+						false, -- [6]
+						true, -- [7]
+						true, -- [8]
+						true, -- [9]
+						true, -- [10]
+						true, -- [11]
+						false, -- [12]
+						true, -- [13]
+						true, -- [14]
+						true, -- [15]
+						true, -- [16]
+						true, -- [17]
+						true, -- [18]
+						true, -- [19]
+						true, -- [20]
+						true, -- [21]
+						true, -- [22]
+						false, -- [23]
+						true, -- [24]
+						true, -- [25]
+						true, -- [26]
+						true, -- [27]
+						true, -- [28]
+						true, -- [29]
+						true, -- [30]
+						true, -- [31]
+						true, -- [32]
+						true, -- [33]
+						true, -- [34]
+						true, -- [35]
+						true, -- [36]
+						true, -- [37]
+						true, -- [38]
+						true, -- [39]
+						true, -- [40]
+						true, -- [41]
+						true, -- [42]
+						true, -- [43]
+					},
+					["Messages"] = {
+						"南宫浮生 命令审判 迪克斯特·瓦德 Hit -42 (Holy)", -- [1]
+						"南宫浮生 肉搏 迪克斯特·瓦德 Hit -93 (Physical)", -- [2]
+						"南宫浮生 命令圣印 迪克斯特·瓦德 Hit -49 (Holy)", -- [3]
+						"三自四有 正义圣印 迪克斯特·瓦德 Hit -16 (Holy)", -- [4]
+						"三自四有 正义审判 迪克斯特·瓦德 Hit -45 (Holy)", -- [5]
+						"迪克斯特·瓦德 肉搏 南宫浮生 Hit -67 (Physical)", -- [6]
+						"南宫浮生 荆棘术 迪克斯特·瓦德 Hit -10 (Nature)", -- [7]
+						"南宫浮生 惩戒光环 迪克斯特·瓦德 Hit -18 (Holy)", -- [8]
+						"查尔斯三世 寒冰箭 迪克斯特·瓦德 Hit -197 (Frost)", -- [9]
+						"三自四有 肉搏 迪克斯特·瓦德 Crit -133 (Physical)", -- [10]
+						"三自四有 正义圣印 迪克斯特·瓦德 Hit -16 (Holy)", -- [11]
+						"迪克斯特·瓦德 肉搏 南宫浮生 Hit -53 (Physical)", -- [12]
+						"南宫浮生 荆棘术 迪克斯特·瓦德 Hit -9 (Nature)", -- [13]
+						"南宫浮生 惩戒光环 迪克斯特·瓦德 Hit -18 (Holy)", -- [14]
+						"南宫浮生 肉搏 迪克斯特·瓦德 Hit -85 (Physical)", -- [15]
+						"南宫浮生 命令圣印 迪克斯特·瓦德 Hit -45 (Holy)", -- [16]
+						"南宫浮生 奉献 (伤害/跳) 迪克斯特·瓦德 Tick -19 (Holy)", -- [17]
+						"查尔斯三世 寒冰箭 迪克斯特·瓦德 Hit -195 (Frost)", -- [18]
+						"三自四有 驱邪术 迪克斯特·瓦德 Hit -135 (Holy)", -- [19]
+						"南宫浮生 奉献 (伤害/跳) 迪克斯特·瓦德 Tick -18 (Holy)", -- [20]
+						"三自四有 奉献 (伤害/跳) 迪克斯特·瓦德 Tick -17 (Holy)", -- [21]
+						"南宫浮生 奉献 (伤害/跳) 迪克斯特·瓦德 Tick -19 (Holy)", -- [22]
+						"迪克斯特·瓦德 肉搏 南宫浮生 Hit -58 (Physical)", -- [23]
+						"南宫浮生 荆棘术 迪克斯特·瓦德 Hit -9 (Nature)", -- [24]
+						"南宫浮生 惩戒光环 迪克斯特·瓦德 Hit -18 (Holy)", -- [25]
+						"三自四有 奉献 (伤害/跳) 迪克斯特·瓦德 Tick -16 (Holy)", -- [26]
+						"查尔斯三世 寒冰箭 迪克斯特·瓦德 Crit -282 (Frost)", -- [27]
+						"祝雨来 背刺 迪克斯特·瓦德 Hit -106 (Physical)", -- [28]
+						"祝雨来 肉搏 迪克斯特·瓦德 Glancing -36 (Physical)", -- [29]
+						"南宫浮生 奉献 (伤害/跳) 迪克斯特·瓦德 Tick -19 (Holy)", -- [30]
+						"三自四有 奉献 (伤害/跳) 迪克斯特·瓦德 Tick -17 (Holy)", -- [31]
+						"南宫浮生 肉搏 迪克斯特·瓦德 Hit -93 (Physical)", -- [32]
+						"南宫浮生 命令圣印 迪克斯特·瓦德 Crit -94 (Holy)", -- [33]
+						"三自四有 肉搏 迪克斯特·瓦德 Dodge (1)", -- [34]
+						"祝雨来 肉搏 迪克斯特·瓦德 Hit -31 (Physical)", -- [35]
+						"南宫浮生 奉献 (伤害/跳) 迪克斯特·瓦德 Tick -19 (Holy)", -- [36]
+						"南宫浮生 命令审判 迪克斯特·瓦德 Hit -44 (Holy)", -- [37]
+						"祝雨来 肉搏 迪克斯特·瓦德 Hit -33 (Physical)", -- [38]
+						"祝雨来 影袭 迪克斯特·瓦德 Hit -47 (Physical)", -- [39]
+						"三自四有 奉献 (伤害/跳) 迪克斯特·瓦德 Tick -16 (Holy)", -- [40]
+						"南宫浮生 奉献 (伤害/跳) 迪克斯特·瓦德 Tick -19 (Holy)", -- [41]
+						"查尔斯三世 寒冰箭 迪克斯特·瓦德 Hit -194 (Frost)", -- [42]
+						"迪克斯特·瓦德死亡。", -- [43]
+					},
+					["DeathAt"] = 45286.191,
+					["EventNum"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						0, -- [15]
+						0, -- [16]
+						0, -- [17]
+						0, -- [18]
+						0, -- [19]
+						0, -- [20]
+						0, -- [21]
+						0, -- [22]
+						0, -- [23]
+						0, -- [24]
+						0, -- [25]
+						0, -- [26]
+						0, -- [27]
+						0, -- [28]
+						0, -- [29]
+						0, -- [30]
+						0, -- [31]
+						0, -- [32]
+						0, -- [33]
+						0, -- [34]
+						0, -- [35]
+						0, -- [36]
+						0, -- [37]
+						0, -- [38]
+						0, -- [39]
+						0, -- [40]
+						0, -- [41]
+						0, -- [42]
+						0, -- [43]
+					},
+					["MessageTimes"] = {
+						-8.895000000004075, -- [1]
+						-8.864000000001397, -- [2]
+						-8.864000000001397, -- [3]
+						-7.885999999998603, -- [4]
+						-7.885999999998603, -- [5]
+						-7.811999999998079, -- [6]
+						-7.798999999999069, -- [7]
+						-7.798999999999069, -- [8]
+						-7.431000000004133, -- [9]
+						-7.336000000002969, -- [10]
+						-7.336000000002969, -- [11]
+						-5.400000000001455, -- [12]
+						-5.385000000002037, -- [13]
+						-5.385000000002037, -- [14]
+						-5.254999999997381, -- [15]
+						-5.254999999997381, -- [16]
+						-5.215000000003784, -- [17]
+						-5.010000000002037, -- [18]
+						-4.896999999997206, -- [19]
+						-4.234000000004016, -- [20]
+						-3.680000000000291, -- [21]
+						-3.224000000001979, -- [22]
+						-3.002000000000408, -- [23]
+						-2.987999999997555, -- [24]
+						-2.987999999997555, -- [25]
+						-2.686000000001513, -- [26]
+						-2.506999999997788, -- [27]
+						-2.35399999999936, -- [28]
+						-2.313000000001921, -- [29]
+						-2.218000000000757, -- [30]
+						-1.684999999997672, -- [31]
+						-1.654999999998836, -- [32]
+						-1.654999999998836, -- [33]
+						-1.609000000004016, -- [34]
+						-1.467000000004191, -- [35]
+						-1.217000000004191, -- [36]
+						-0.8870000000024447, -- [37]
+						-0.8179999999993015, -- [38]
+						-0.7430000000022119, -- [39]
+						-0.6730000000025029, -- [40]
+						-0.2330000000001746, -- [41]
+						0, -- [42]
+						0, -- [43]
+					},
+					["HealthMax"] = {
+						2097, -- [1]
+						2097, -- [2]
+						2097, -- [3]
+						2097, -- [4]
+						2097, -- [5]
+						2097, -- [6]
+						2097, -- [7]
+						2097, -- [8]
+						2097, -- [9]
+						2097, -- [10]
+						2097, -- [11]
+						2097, -- [12]
+						2097, -- [13]
+						2097, -- [14]
+						2097, -- [15]
+						2097, -- [16]
+						2097, -- [17]
+						2097, -- [18]
+						2097, -- [19]
+						2097, -- [20]
+						2097, -- [21]
+						2097, -- [22]
+						2097, -- [23]
+						2097, -- [24]
+						2097, -- [25]
+						2097, -- [26]
+						2097, -- [27]
+						2097, -- [28]
+						2097, -- [29]
+						2097, -- [30]
+						2097, -- [31]
+						2097, -- [32]
+						2097, -- [33]
+						2097, -- [34]
+						2097, -- [35]
+						2097, -- [36]
+						2097, -- [37]
+						2097, -- [38]
+						2097, -- [39]
+						2097, -- [40]
+						2097, -- [41]
+						2097, -- [42]
+						2097, -- [43]
+					},
+					["Health"] = {
+						2097, -- [1]
+						2097, -- [2]
+						2055, -- [3]
+						1913, -- [4]
+						1913, -- [5]
+						1913, -- [6]
+						1852, -- [7]
+						1852, -- [8]
+						1852, -- [9]
+						1627, -- [10]
+						1627, -- [11]
+						1478, -- [12]
+						1478, -- [13]
+						1478, -- [14]
+						1451, -- [15]
+						1451, -- [16]
+						1451, -- [17]
+						1302, -- [18]
+						1107, -- [19]
+						972, -- [20]
+						954, -- [21]
+						937, -- [22]
+						937, -- [23]
+						937, -- [24]
+						937, -- [25]
+						891, -- [26]
+						875, -- [27]
+						593, -- [28]
+						487, -- [29]
+						487, -- [30]
+						432, -- [31]
+						432, -- [32]
+						432, -- [33]
+						432, -- [34]
+						228, -- [35]
+						197, -- [36]
+						178, -- [37]
+						134, -- [38]
+						134, -- [39]
+						54, -- [40]
+						38, -- [41]
+						19, -- [42]
+						0, -- [43]
+					},
+					["KilledBy"] = "查尔斯三世",
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"DAMAGE", -- [8]
+						"DAMAGE", -- [9]
+						"DAMAGE", -- [10]
+						"DAMAGE", -- [11]
+						"DAMAGE", -- [12]
+						"DAMAGE", -- [13]
+						"DAMAGE", -- [14]
+						"DAMAGE", -- [15]
+						"DAMAGE", -- [16]
+						"DAMAGE", -- [17]
+						"DAMAGE", -- [18]
+						"DAMAGE", -- [19]
+						"DAMAGE", -- [20]
+						"DAMAGE", -- [21]
+						"DAMAGE", -- [22]
+						"DAMAGE", -- [23]
+						"DAMAGE", -- [24]
+						"DAMAGE", -- [25]
+						"DAMAGE", -- [26]
+						"DAMAGE", -- [27]
+						"DAMAGE", -- [28]
+						"DAMAGE", -- [29]
+						"DAMAGE", -- [30]
+						"DAMAGE", -- [31]
+						"DAMAGE", -- [32]
+						"DAMAGE", -- [33]
+						"DAMAGE", -- [34]
+						"DAMAGE", -- [35]
+						"DAMAGE", -- [36]
+						"DAMAGE", -- [37]
+						"DAMAGE", -- [38]
+						"DAMAGE", -- [39]
+						"DAMAGE", -- [40]
+						"DAMAGE", -- [41]
+						"DAMAGE", -- [42]
+						"MISC", -- [43]
+					},
+				}, -- [1]
+			},
+			["UnitLockout"] = 45275.194,
+			["LastAbility"] = 52289.367,
+		},
+		["卡姆·深怒"] = {
+			["GUID"] = "Creature-0-4515-34-7881-1666-00002335C6",
+			["TimeLast"] = {
+				["DeathCount"] = 45447.195,
+				["ActiveTime"] = 45438.197,
+				["TimeDamage"] = 45438.197,
+				["OVERALL"] = 45447.195,
+				["DamageTaken"] = 45447.195,
+				["Damage"] = 45438.197,
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"MISC", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["DeathCount"] = {
+					1, -- [1]
+				},
+				["ActiveTime"] = {
+					14.9, -- [1]
+				},
+				["TimeDamage"] = {
+					14.9, -- [1]
+				},
+				["DamageTaken"] = {
+					2111, -- [1]
+				},
+				["Damage"] = {
+					415, -- [1]
+				},
+			},
+			["enClass"] = "MOB",
+			["LastDamageTaken"] = 39,
+			["LastActive"] = 45447.195,
+			["level"] = -1,
+			["LastDamageAbility"] = "暴风雪",
+			["LastFightIn"] = 15,
+			["LastEventHealthMax"] = {
+				2097, -- [1]
+				2097, -- [2]
+				2097, -- [3]
+				2097, -- [4]
+				2097, -- [5]
+				2097, -- [6]
+				2097, -- [7]
+				2097, -- [8]
+				2097, -- [9]
+				2097, -- [10]
+				2097, -- [11]
+				2097, -- [12]
+				2097, -- [13]
+				2097, -- [14]
+				2097, -- [15]
+				2097, -- [16]
+				2097, -- [17]
+				2097, -- [18]
+				2097, -- [19]
+				2097, -- [20]
+				2097, -- [21]
+				2097, -- [22]
+				2097, -- [23]
+				2097, -- [24]
+				2097, -- [25]
+				2097, -- [26]
+				2097, -- [27]
+				2097, -- [28]
+				1072, -- [29]
+				1072, -- [30]
+				1072, -- [31]
+				1072, -- [32]
+				1072, -- [33]
+				2097, -- [34]
+				2097, -- [35]
+				2097, -- [36]
+				2097, -- [37]
+				2097, -- [38]
+				2097, -- [39]
+				2097, -- [40]
+				2097, -- [41]
+				2097, -- [42]
+				2097, -- [43]
+				2097, -- [44]
+				2097, -- [45]
+				2097, -- [46]
+				2097, -- [47]
+				2097, -- [48]
+				2097, -- [49]
+				2097, -- [50]
+			},
+			["type"] = "Boss",
+			["FightsSaved"] = 5,
+			["LastEventHealth"] = {
+				967, -- [1]
+				870, -- [2]
+				759, -- [3]
+				759, -- [4]
+				759, -- [5]
+				720, -- [6]
+				720, -- [7]
+				655, -- [8]
+				655, -- [9]
+				637, -- [10]
+				624, -- [11]
+				604, -- [12]
+				534, -- [13]
+				534, -- [14]
+				489, -- [15]
+				489, -- [16]
+				489, -- [17]
+				465, -- [18]
+				439, -- [19]
+				439, -- [20]
+				439, -- [21]
+				439, -- [22]
+				383, -- [23]
+				368, -- [24]
+				357, -- [25]
+				357, -- [26]
+				357, -- [27]
+				357, -- [28]
+				832, -- [29]
+				832, -- [30]
+				832, -- [31]
+				832, -- [32]
+				721, -- [33]
+				246, -- [34]
+				204, -- [35]
+				185, -- [36]
+				159, -- [37]
+				146, -- [38]
+				120, -- [39]
+				120, -- [40]
+				81, -- [41]
+				81, -- [42]
+				54, -- [43]
+				25, -- [44]
+				0, -- [45]
+				1121, -- [46]
+				1097, -- [47]
+				1097, -- [48]
+				1032, -- [49]
+				967, -- [50]
+			},
+			["unit"] = "party3target",
+			["Owner"] = false,
+			["LastEventTimes"] = {
+				45431.059, -- [1]
+				45431.155, -- [2]
+				45431.414, -- [3]
+				45431.731, -- [4]
+				45431.789, -- [5]
+				45432.553, -- [6]
+				45432.66, -- [7]
+				45432.809, -- [8]
+				45432.818, -- [9]
+				45433.127, -- [10]
+				45434.056, -- [11]
+				45434.175, -- [12]
+				45434.835, -- [13]
+				45434.835, -- [14]
+				45435.315, -- [15]
+				45435.322, -- [16]
+				45435.322, -- [17]
+				45435.561, -- [18]
+				45436.533, -- [19]
+				45436.862, -- [20]
+				45437.067, -- [21]
+				45437.067, -- [22]
+				45438.023, -- [23]
+				45438.243, -- [24]
+				45438.567, -- [25]
+				45438.822, -- [26]
+				45438.837, -- [27]
+				45438.837, -- [28]
+				45440.267, -- [29]
+				45441.066, -- [30]
+				45443.623, -- [31]
+				45443.89, -- [32]
+				45444.157, -- [33]
+				45444.157, -- [34]
+				45444.457, -- [35]
+				45444.59, -- [36]
+				45444.99, -- [37]
+				45445.584, -- [38]
+				45445.643, -- [39]
+				45446.575, -- [40]
+				45446.707, -- [41]
+				45446.707, -- [42]
+				45447.138, -- [43]
+				45447.58, -- [44]
+				45447.592, -- [45]
+				45429.603, -- [46]
+				45429.619, -- [47]
+				45429.71, -- [48]
+				45430.318, -- [49]
+				45431.059, -- [50]
+			},
+			["NextEventNum"] = 46,
+			["LastDamageTime"] = 45438.822,
+			["LastEvents"] = {
+				"祝雨来 速效药膏 卡姆·深怒 Hit -31 (Nature)", -- [1]
+				"查尔斯三世 冰锥术 卡姆·深怒 Hit -111 (Frost)", -- [2]
+				"祝雨来 肉搏 卡姆·深怒 Miss (1)", -- [3]
+				"南宫浮生 命令圣印 卡姆·深怒 Parry (Holy)", -- [4]
+				"祝雨来 影袭 卡姆·深怒 Hit -39 (Physical)", -- [5]
+				"祝雨来 肉搏 卡姆·深怒 Miss (1)", -- [6]
+				"查尔斯三世 魔爆术 卡姆·深怒 Hit -65 (Arcane)", -- [7]
+				"卡姆·深怒 肉搏 查尔斯三世 Hit -62 (Physical)", -- [8]
+				"查尔斯三世 惩戒光环 卡姆·深怒 Hit -18 (Holy)", -- [9]
+				"祝雨来 肉搏 卡姆·深怒 Hit -13 (Physical)", -- [10]
+				"祝雨来 肉搏 卡姆·深怒 Hit -20 (Physical)", -- [11]
+				"查尔斯三世 魔爆术 卡姆·深怒 Hit -70 (Arcane)", -- [12]
+				"祝雨来 肉搏 卡姆·深怒 Hit -14 (Physical)", -- [13]
+				"祝雨来 速效药膏 卡姆·深怒 Hit -31 (Nature)", -- [14]
+				"卡姆·深怒 肉搏 南宫浮生 Hit -44 (Physical)", -- [15]
+				"南宫浮生 荆棘术 卡姆·深怒 Hit -8 (Nature)", -- [16]
+				"南宫浮生 惩戒光环 卡姆·深怒 Hit -16 (Holy)", -- [17]
+				"祝雨来 肉搏 卡姆·深怒 Hit -26 (Physical)", -- [18]
+				"祝雨来 肉搏 卡姆·深怒 Dodge (1)", -- [19]
+				"祝雨来 影袭 卡姆·深怒 Miss (Physical)", -- [20]
+				"祝雨来 肉搏 卡姆·深怒 Hit -28 (Physical)", -- [21]
+				"祝雨来 速效药膏 卡姆·深怒 Hit -28 (Nature)", -- [22]
+				"祝雨来 影袭 卡姆·深怒 Hit -15 (Physical)", -- [23]
+				"祝雨来 肉搏 卡姆·深怒 Hit -11 (Physical)", -- [24]
+				"祝雨来 肉搏 卡姆·深怒 Miss (1)", -- [25]
+				"卡姆·深怒 肉搏 南宫浮生 Hit -49 (Physical)", -- [26]
+				"南宫浮生 荆棘术 卡姆·深怒 Hit -4 (Nature)", -- [27]
+				"南宫浮生 惩戒光环 卡姆·深怒 Hit -7 (Holy)", -- [28]
+				"南宫浮生 命令圣印 卡姆·深怒 Crit -37 (Holy)", -- [29]
+				"查尔斯三世 冰霜新星 卡姆·深怒 Hit -8 (Frost)", -- [30]
+				"查尔斯三世 暴风雪 卡姆·深怒 Crit -39 (Frost)", -- [31]
+				"南宫浮生 命令圣印 卡姆·深怒 Hit -16 (Holy)", -- [32]
+				"祝雨来 肉搏 卡姆·深怒 Crit -27 (Physical)", -- [33]
+				"祝雨来 速效药膏 卡姆·深怒 Hit -15 (Nature)", -- [34]
+				"祝雨来 影袭 卡姆·深怒 Hit -19 (Physical)", -- [35]
+				"查尔斯三世 暴风雪 卡姆·深怒 Hit -26 (Frost)", -- [36]
+				"祝雨来 肉搏 卡姆·深怒 Hit -13 (Physical)", -- [37]
+				"查尔斯三世 暴风雪 卡姆·深怒 Hit -26 (Frost)", -- [38]
+				"祝雨来 肉搏 卡姆·深怒 Miss (1)", -- [39]
+				"查尔斯三世 暴风雪 卡姆·深怒 Crit -39 (Frost)", -- [40]
+				"祝雨来 肉搏 卡姆·深怒 Hit -12 (Physical)", -- [41]
+				"祝雨来 速效药膏 卡姆·深怒 Hit -15 (Nature)", -- [42]
+				"祝雨来 肉搏 卡姆·深怒 Crit -29 (Physical)", -- [43]
+				"查尔斯三世 暴风雪 卡姆·深怒 Crit -39 (Frost)", -- [44]
+				"卡姆·深怒死亡。", -- [45]
+				"南宫浮生 惩戒光环 卡姆·深怒 Hit -16 (Holy)", -- [46]
+				"查尔斯三世 暴风雪 卡姆·深怒 Hit -65 (Frost)", -- [47]
+				"祝雨来 肉搏 卡姆·深怒 Miss (1)", -- [48]
+				"查尔斯三世 暴风雪 卡姆·深怒 Hit -65 (Frost)", -- [49]
+				"祝雨来 肉搏 卡姆·深怒 Crit -66 (Physical)", -- [50]
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				false, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+				false, -- [15]
+				true, -- [16]
+				true, -- [17]
+				true, -- [18]
+				true, -- [19]
+				true, -- [20]
+				true, -- [21]
+				true, -- [22]
+				true, -- [23]
+				true, -- [24]
+				true, -- [25]
+				false, -- [26]
+				true, -- [27]
+				true, -- [28]
+				true, -- [29]
+				true, -- [30]
+				true, -- [31]
+				true, -- [32]
+				true, -- [33]
+				true, -- [34]
+				true, -- [35]
+				true, -- [36]
+				true, -- [37]
+				true, -- [38]
+				true, -- [39]
+				true, -- [40]
+				true, -- [41]
+				true, -- [42]
+				true, -- [43]
+				true, -- [44]
+				true, -- [45]
+				true, -- [46]
+				true, -- [47]
+				true, -- [48]
+				true, -- [49]
+				true, -- [50]
+			},
+			["Name"] = "卡姆·深怒",
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["PartialBlock"] = {
+						["肉搏"] = {
+							["Details"] = {
+								["被格挡"] = {
+									["max"] = 12,
+									["min"] = 12,
+									["count"] = 3,
+									["amount"] = 36,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 36,
+						},
+					},
+					["TimeSpent"] = {
+						["南宫浮生"] = {
+							["Details"] = {
+								["盾牌猛击"] = {
+									["count"] = 1.4,
+								},
+								["肉搏"] = {
+									["count"] = 10.5,
+								},
+							},
+							["amount"] = 11.9,
+						},
+						["查尔斯三世"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["祝雨来"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["DamageTaken"] = 2111,
+					["PartialResist"] = {
+						["影袭"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 5,
+						},
+						["冰霜新星"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["惩戒光环"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 9,
+						},
+						["暴风雪"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 12,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 12,
+						},
+						["奉献 (伤害/跳)"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 13,
+						},
+						["命令圣印"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
+						["冰锥术"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["魔爆术"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["速效药膏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 8,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 22,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 22,
+						},
+						["荆棘术"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 7,
+						},
+					},
+					["DeathCount"] = 1,
+					["PartialAbsorb"] = {
+						["影袭"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["冰霜新星"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["惩戒光环"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+						["暴风雪"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 12,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 0,
+						},
+						["奉献 (伤害/跳)"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 0,
+						},
+						["命令圣印"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["冰锥术"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["魔爆术"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["速效药膏"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 22,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 22,
+							["amount"] = 0,
+						},
+						["荆棘术"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 14.9,
+					["ElementTaken"] = {
+						["Holy"] = 472,
+						["Melee"] = 382,
+						["Arcane"] = 135,
+						["Physical"] = 118,
+						["Frost"] = 744,
+						["Nature"] = 260,
+					},
+					["Damage"] = 415,
+					["ElementTakenBlock"] = {
+						["Melee"] = 36,
+					},
+					["ElementDone"] = {
+						["Melee"] = 391,
+						["Physical"] = 24,
+					},
+					["ElementHitsTaken"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 9,
+								},
+								["Tick"] = {
+									["count"] = 13,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 26,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 10,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Block"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Miss"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 25,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["TimeDamage"] = 14.9,
+					["WhoDamaged"] = {
+						["查尔斯三世"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 8,
+								},
+								["魔爆术"] = {
+									["count"] = 135,
+								},
+								["惩戒光环"] = {
+									["count"] = 18,
+								},
+								["冰锥术"] = {
+									["count"] = 111,
+								},
+								["暴风雪"] = {
+									["count"] = 625,
+								},
+							},
+							["amount"] = 897,
+						},
+						["南宫浮生"] = {
+							["Details"] = {
+								["惩戒光环"] = {
+									["count"] = 88,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 90,
+								},
+								["命令圣印"] = {
+									["count"] = 144,
+								},
+								["荆棘术"] = {
+									["count"] = 53,
+								},
+							},
+							["amount"] = 375,
+						},
+						["三自四有"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 115,
+								},
+							},
+							["amount"] = 115,
+						},
+						["祝雨来"] = {
+							["Details"] = {
+								["速效药膏"] = {
+									["count"] = 207,
+								},
+								["惩戒光环"] = {
+									["count"] = 17,
+								},
+								["影袭"] = {
+									["count"] = 118,
+								},
+								["肉搏"] = {
+									["count"] = 382,
+								},
+							},
+							["amount"] = 724,
+						},
+					},
+					["Attacks"] = {
+						["盾牌猛击"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 24,
+									["min"] = 24,
+									["count"] = 1,
+									["amount"] = 24,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 24,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 62,
+									["min"] = 42,
+									["count"] = 8,
+									["amount"] = 391,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 391,
+						},
+					},
+					["TimeDamaging"] = {
+						["南宫浮生"] = {
+							["Details"] = {
+								["盾牌猛击"] = {
+									["count"] = 1.4,
+								},
+								["肉搏"] = {
+									["count"] = 10.5,
+								},
+							},
+							["amount"] = 11.9,
+						},
+						["查尔斯三世"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["祝雨来"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["DamagedWho"] = {
+						["南宫浮生"] = {
+							["Details"] = {
+								["盾牌猛击"] = {
+									["count"] = 24,
+								},
+								["肉搏"] = {
+									["count"] = 285,
+								},
+							},
+							["amount"] = 309,
+						},
+						["查尔斯三世"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 62,
+								},
+							},
+							["amount"] = 62,
+						},
+						["祝雨来"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 44,
+								},
+							},
+							["amount"] = 44,
+						},
+					},
+				},
+			},
+			["DeathLogs"] = {
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						false, -- [2]
+						true, -- [3]
+						true, -- [4]
+						true, -- [5]
+						true, -- [6]
+						true, -- [7]
+						true, -- [8]
+						false, -- [9]
+						true, -- [10]
+						true, -- [11]
+						true, -- [12]
+						true, -- [13]
+						true, -- [14]
+						true, -- [15]
+						true, -- [16]
+						true, -- [17]
+						true, -- [18]
+						true, -- [19]
+						false, -- [20]
+						true, -- [21]
+						true, -- [22]
+						true, -- [23]
+						true, -- [24]
+						true, -- [25]
+						true, -- [26]
+						true, -- [27]
+						true, -- [28]
+						true, -- [29]
+						true, -- [30]
+						true, -- [31]
+						true, -- [32]
+						true, -- [33]
+						true, -- [34]
+						true, -- [35]
+						true, -- [36]
+						true, -- [37]
+						true, -- [38]
+						true, -- [39]
+					},
+					["Messages"] = {
+						"查尔斯三世 魔爆术 卡姆·深怒 Hit -65 (Arcane)", -- [1]
+						"卡姆·深怒 肉搏 查尔斯三世 Hit -62 (Physical)", -- [2]
+						"查尔斯三世 惩戒光环 卡姆·深怒 Hit -18 (Holy)", -- [3]
+						"祝雨来 肉搏 卡姆·深怒 Hit -13 (Physical)", -- [4]
+						"祝雨来 肉搏 卡姆·深怒 Hit -20 (Physical)", -- [5]
+						"查尔斯三世 魔爆术 卡姆·深怒 Hit -70 (Arcane)", -- [6]
+						"祝雨来 肉搏 卡姆·深怒 Hit -14 (Physical)", -- [7]
+						"祝雨来 速效药膏 卡姆·深怒 Hit -31 (Nature)", -- [8]
+						"卡姆·深怒 肉搏 南宫浮生 Hit -44 (Physical)", -- [9]
+						"南宫浮生 荆棘术 卡姆·深怒 Hit -8 (Nature)", -- [10]
+						"南宫浮生 惩戒光环 卡姆·深怒 Hit -16 (Holy)", -- [11]
+						"祝雨来 肉搏 卡姆·深怒 Hit -26 (Physical)", -- [12]
+						"祝雨来 肉搏 卡姆·深怒 Dodge (1)", -- [13]
+						"祝雨来 影袭 卡姆·深怒 Miss (Physical)", -- [14]
+						"祝雨来 肉搏 卡姆·深怒 Hit -28 (Physical)", -- [15]
+						"祝雨来 速效药膏 卡姆·深怒 Hit -28 (Nature)", -- [16]
+						"祝雨来 影袭 卡姆·深怒 Hit -15 (Physical)", -- [17]
+						"祝雨来 肉搏 卡姆·深怒 Hit -11 (Physical)", -- [18]
+						"祝雨来 肉搏 卡姆·深怒 Miss (1)", -- [19]
+						"卡姆·深怒 肉搏 南宫浮生 Hit -49 (Physical)", -- [20]
+						"南宫浮生 荆棘术 卡姆·深怒 Hit -4 (Nature)", -- [21]
+						"南宫浮生 惩戒光环 卡姆·深怒 Hit -7 (Holy)", -- [22]
+						"南宫浮生 命令圣印 卡姆·深怒 Crit -37 (Holy)", -- [23]
+						"查尔斯三世 冰霜新星 卡姆·深怒 Hit -8 (Frost)", -- [24]
+						"查尔斯三世 暴风雪 卡姆·深怒 Crit -39 (Frost)", -- [25]
+						"南宫浮生 命令圣印 卡姆·深怒 Hit -16 (Holy)", -- [26]
+						"祝雨来 肉搏 卡姆·深怒 Crit -27 (Physical)", -- [27]
+						"祝雨来 速效药膏 卡姆·深怒 Hit -15 (Nature)", -- [28]
+						"祝雨来 影袭 卡姆·深怒 Hit -19 (Physical)", -- [29]
+						"查尔斯三世 暴风雪 卡姆·深怒 Hit -26 (Frost)", -- [30]
+						"祝雨来 肉搏 卡姆·深怒 Hit -13 (Physical)", -- [31]
+						"查尔斯三世 暴风雪 卡姆·深怒 Hit -26 (Frost)", -- [32]
+						"祝雨来 肉搏 卡姆·深怒 Miss (1)", -- [33]
+						"查尔斯三世 暴风雪 卡姆·深怒 Crit -39 (Frost)", -- [34]
+						"祝雨来 肉搏 卡姆·深怒 Hit -12 (Physical)", -- [35]
+						"祝雨来 速效药膏 卡姆·深怒 Hit -15 (Nature)", -- [36]
+						"祝雨来 肉搏 卡姆·深怒 Crit -29 (Physical)", -- [37]
+						"查尔斯三世 暴风雪 卡姆·深怒 Crit -39 (Frost)", -- [38]
+						"卡姆·深怒死亡。", -- [39]
+					},
+					["DeathAt"] = 45449.192,
+					["EventNum"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						0, -- [15]
+						0, -- [16]
+						0, -- [17]
+						0, -- [18]
+						0, -- [19]
+						0, -- [20]
+						0, -- [21]
+						0, -- [22]
+						0, -- [23]
+						0, -- [24]
+						0, -- [25]
+						0, -- [26]
+						0, -- [27]
+						0, -- [28]
+						0, -- [29]
+						0, -- [30]
+						0, -- [31]
+						0, -- [32]
+						0, -- [33]
+						0, -- [34]
+						0, -- [35]
+						0, -- [36]
+						0, -- [37]
+						0, -- [38]
+						0, -- [39]
+					},
+					["MessageTimes"] = {
+						-14.9320000000007, -- [1]
+						-14.78300000000309, -- [2]
+						-14.77400000000489, -- [3]
+						-14.46500000000378, -- [4]
+						-13.53600000000006, -- [5]
+						-13.41700000000128, -- [6]
+						-12.75700000000506, -- [7]
+						-12.75700000000506, -- [8]
+						-12.27700000000186, -- [9]
+						-12.27000000000408, -- [10]
+						-12.27000000000408, -- [11]
+						-12.03100000000268, -- [12]
+						-11.05900000000111, -- [13]
+						-10.7300000000032, -- [14]
+						-10.52500000000146, -- [15]
+						-10.52500000000146, -- [16]
+						-9.569000000003143, -- [17]
+						-9.349000000001979, -- [18]
+						-9.025000000001455, -- [19]
+						-8.770000000004075, -- [20]
+						-8.755000000004657, -- [21]
+						-8.755000000004657, -- [22]
+						-7.325000000004366, -- [23]
+						-6.526000000005297, -- [24]
+						-3.969000000004598, -- [25]
+						-3.702000000004773, -- [26]
+						-3.435000000004948, -- [27]
+						-3.435000000004948, -- [28]
+						-3.135000000002037, -- [29]
+						-3.002000000000408, -- [30]
+						-2.602000000006228, -- [31]
+						-2.00800000000163, -- [32]
+						-1.949000000000524, -- [33]
+						-1.016999999999825, -- [34]
+						-0.8850000000020373, -- [35]
+						-0.8850000000020373, -- [36]
+						-0.4540000000051805, -- [37]
+						-0.01200000000244472, -- [38]
+						0, -- [39]
+					},
+					["HealthMax"] = {
+						2097, -- [1]
+						2097, -- [2]
+						2097, -- [3]
+						2097, -- [4]
+						2097, -- [5]
+						2097, -- [6]
+						2097, -- [7]
+						2097, -- [8]
+						2097, -- [9]
+						2097, -- [10]
+						2097, -- [11]
+						2097, -- [12]
+						2097, -- [13]
+						2097, -- [14]
+						2097, -- [15]
+						2097, -- [16]
+						2097, -- [17]
+						2097, -- [18]
+						2097, -- [19]
+						2097, -- [20]
+						2097, -- [21]
+						2097, -- [22]
+						1072, -- [23]
+						1072, -- [24]
+						1072, -- [25]
+						1072, -- [26]
+						1072, -- [27]
+						2097, -- [28]
+						2097, -- [29]
+						2097, -- [30]
+						2097, -- [31]
+						2097, -- [32]
+						2097, -- [33]
+						2097, -- [34]
+						2097, -- [35]
+						2097, -- [36]
+						2097, -- [37]
+						2097, -- [38]
+						2097, -- [39]
+					},
+					["Health"] = {
+						720, -- [1]
+						655, -- [2]
+						655, -- [3]
+						637, -- [4]
+						624, -- [5]
+						604, -- [6]
+						534, -- [7]
+						534, -- [8]
+						489, -- [9]
+						489, -- [10]
+						489, -- [11]
+						465, -- [12]
+						439, -- [13]
+						439, -- [14]
+						439, -- [15]
+						439, -- [16]
+						383, -- [17]
+						368, -- [18]
+						357, -- [19]
+						357, -- [20]
+						357, -- [21]
+						357, -- [22]
+						832, -- [23]
+						832, -- [24]
+						832, -- [25]
+						832, -- [26]
+						721, -- [27]
+						246, -- [28]
+						204, -- [29]
+						185, -- [30]
+						159, -- [31]
+						146, -- [32]
+						120, -- [33]
+						120, -- [34]
+						81, -- [35]
+						81, -- [36]
+						54, -- [37]
+						25, -- [38]
+						0, -- [39]
+					},
+					["KilledBy"] = "查尔斯三世",
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"DAMAGE", -- [8]
+						"DAMAGE", -- [9]
+						"DAMAGE", -- [10]
+						"DAMAGE", -- [11]
+						"DAMAGE", -- [12]
+						"DAMAGE", -- [13]
+						"DAMAGE", -- [14]
+						"DAMAGE", -- [15]
+						"DAMAGE", -- [16]
+						"DAMAGE", -- [17]
+						"DAMAGE", -- [18]
+						"DAMAGE", -- [19]
+						"DAMAGE", -- [20]
+						"DAMAGE", -- [21]
+						"DAMAGE", -- [22]
+						"DAMAGE", -- [23]
+						"DAMAGE", -- [24]
+						"DAMAGE", -- [25]
+						"DAMAGE", -- [26]
+						"DAMAGE", -- [27]
+						"DAMAGE", -- [28]
+						"DAMAGE", -- [29]
+						"DAMAGE", -- [30]
+						"DAMAGE", -- [31]
+						"DAMAGE", -- [32]
+						"DAMAGE", -- [33]
+						"DAMAGE", -- [34]
+						"DAMAGE", -- [35]
+						"DAMAGE", -- [36]
+						"DAMAGE", -- [37]
+						"DAMAGE", -- [38]
+						"MISC", -- [39]
+					},
+				}, -- [1]
+			},
+			["UnitLockout"] = 45443.196,
+			["LastAbility"] = 52289.367,
+		},
+		["野妹"] = {
+			["GUID"] = "Player-4778-051837E0",
+			["LastEventHealth"] = {
+				1033, -- [1]
+				1033, -- [2]
+				1033, -- [3]
+				1033, -- [4]
+				1000, -- [5]
+				1000, -- [6]
+				1000, -- [7]
+				1000, -- [8]
+				1000, -- [9]
+				1000, -- [10]
+				1282, -- [11]
+				1246, -- [12]
+				1211, -- [13]
+				1174, -- [14]
+				1174, -- [15]
+				1226, -- [16]
+				1226, -- [17]
+				1183, -- [18]
+				1117, -- [19]
+				1117, -- [20]
+				1142, -- [21]
+				1001, -- [22]
+				936, -- [23]
+				936, -- [24]
+				961, -- [25]
+				890, -- [26]
+				890, -- [27]
+				874, -- [28]
+				1182, -- [29]
+				1182, -- [30]
+				1145, -- [31]
+				1145, -- [32]
+				1145, -- [33]
+				1183, -- [34]
+				1183, -- [35]
+				1183, -- [36]
+				1141, -- [37]
+				1141, -- [38]
+				1141, -- [39]
+				1095, -- [40]
+				1053, -- [41]
+				1008, -- [42]
+				1008, -- [43]
+				981, -- [44]
+				981, -- [45]
+				1007, -- [46]
+				1007, -- [47]
+				1033, -- [48]
+				1033, -- [49]
+				1033, -- [50]
+			},
+			["LastAttackedBy"] = "刺脊海妖",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"HEAL", -- [14]
+				"HEAL", -- [15]
+				"DAMAGE", -- [16]
+				"HEAL", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"HEAL", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"HEAL", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"HEAL", -- [32]
+				"HEAL", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"HEAL", -- [45]
+				"DAMAGE", -- [46]
+				"HEAL", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["TimeHeal"] = {
+					142.15, -- [1]
+				},
+				["Dispelled"] = {
+					1, -- [1]
+				},
+				["CCBreak"] = {
+					1, -- [1]
+				},
+				["Ressed"] = {
+					1, -- [1]
+				},
+				["Healing"] = {
+					9683, -- [1]
+				},
+				["DamageTaken"] = {
+					8147, -- [1]
+				},
+				["ActiveTime"] = {
+					440.8799999999999, -- [1]
+				},
+				["Absorbs"] = {
+					60, -- [1]
+				},
+				["HealingTaken"] = {
+					7777, -- [1]
+				},
+				["HOT_Time"] = {
+					429, -- [1]
+				},
+				["TimeDamage"] = {
+					298.7299999999998, -- [1]
+				},
+				["Overhealing"] = {
+					1453, -- [1]
+				},
+				["ManaGain"] = {
+					3702, -- [1]
+				},
+				["DOT_Time"] = {
+					684, -- [1]
+				},
+				["Damage"] = {
+					40833, -- [1]
+				},
+			},
+			["enClass"] = "PALADIN",
+			["unit"] = "野妹",
+			["level"] = 34,
+			["LastDamageAbility"] = "暗言术：痛 (伤害/跳)",
+			["LastFightIn"] = 118,
+			["LastHealTime"] = 54668.946,
+			["type"] = "Grouped",
+			["FightsSaved"] = 5,
+			["LastDamageTaken"] = 35,
+			["TimeLast"] = {
+				["CCBreak"] = 54147.037,
+				["TimeHeal"] = 54668.046,
+				["Dispelled"] = 53441.036,
+				["Ressed"] = 54040.042,
+				["Overhealing"] = 54536.039,
+				["OVERALL"] = 54675.042,
+				["DamageTaken"] = 54675.042,
+				["ActiveTime"] = 54670.042,
+				["Absorbs"] = 54219.036,
+				["HealingTaken"] = 54668.046,
+				["HOT_Time"] = 54668.046,
+				["TimeDamage"] = 54670.042,
+				["Healing"] = 54668.046,
+				["ManaGain"] = 54668.046,
+				["DOT_Time"] = 54624.037,
+				["Damage"] = 54670.042,
+			},
+			["Owner"] = false,
+			["LastEventHealthMax"] = {
+				1282, -- [1]
+				1282, -- [2]
+				1282, -- [3]
+				1282, -- [4]
+				1282, -- [5]
+				1282, -- [6]
+				1282, -- [7]
+				1282, -- [8]
+				1282, -- [9]
+				1282, -- [10]
+				1282, -- [11]
+				1282, -- [12]
+				1282, -- [13]
+				1282, -- [14]
+				1282, -- [15]
+				1282, -- [16]
+				1282, -- [17]
+				1282, -- [18]
+				1282, -- [19]
+				1282, -- [20]
+				1282, -- [21]
+				1282, -- [22]
+				1282, -- [23]
+				1282, -- [24]
+				1282, -- [25]
+				1282, -- [26]
+				1282, -- [27]
+				1282, -- [28]
+				1282, -- [29]
+				1282, -- [30]
+				1282, -- [31]
+				1282, -- [32]
+				1282, -- [33]
+				1282, -- [34]
+				1282, -- [35]
+				1282, -- [36]
+				1282, -- [37]
+				1282, -- [38]
+				1282, -- [39]
+				1282, -- [40]
+				1282, -- [41]
+				1282, -- [42]
+				1282, -- [43]
+				1282, -- [44]
+				1282, -- [45]
+				1282, -- [46]
+				1282, -- [47]
+				1282, -- [48]
+				1282, -- [49]
+				1282, -- [50]
+			},
+			["NextEventNum"] = 29,
+			["LastDamageTime"] = 54670.989,
+			["LastEvents"] = {
+				"野妹 命令圣印 刺脊捕猎者 Hit -59 (Holy)", -- [1]
+				"野妹 奥术冲击 刺脊捕猎者 Hit -79 (Arcane)", -- [2]
+				"野妹 奉献 (伤害/跳) 刺脊捕猎者 Tick -31 (Holy)", -- [3]
+				"刺脊捕猎者 肉搏 野妹 Hit -33 (Physical)", -- [4]
+				"野妹 惩戒光环 刺脊捕猎者 Hit -25 (Holy)", -- [5]
+				"野妹 奉献 (伤害/跳) 刺脊捕猎者 Tick -31 (Holy)", -- [6]
+				"野妹 奉献 (伤害/跳) 刺脊捕猎者 Tick -31 (Holy)", -- [7]
+				"刺脊捕猎者 肉搏 野妹 Miss (1)", -- [8]
+				"野妹 奉献 (伤害/跳) 刺脊捕猎者 Tick -31 (Holy)", -- [9]
+				"野妹 清算之手 刺脊捕猎者 Hit -191 (Holy)", -- [10]
+				"刺脊滩行者 投掷 野妹 Hit -36 (Physical)", -- [11]
+				"刺脊海妖 暗言术：痛 (伤害/跳) 野妹 Tick -35 (Shadow)", -- [12]
+				"刺脊滩行者 投掷 野妹 Hit -37 (Physical)", -- [13]
+				"野妹 圣光审判 野妹 Tick +26", -- [14]
+				"野妹 圣光审判 野妹 Tick +26", -- [15]
+				"野妹 肉搏 刺脊海妖 Hit -131 (Physical)", -- [16]
+				"野妹 圣光审判 野妹 Tick +26", -- [17]
+				"刺脊海妖 暗言术：痛 (伤害/跳) 野妹 Tick -35 (Shadow)", -- [18]
+				"野妹 肉搏 刺脊海妖 Hit -141 (Physical)", -- [19]
+				"野妹 圣光审判 野妹 Tick +25", -- [20]
+				"刺脊海妖 闪电箭 野妹 Hit -107 (Nature)", -- [21]
+				"刺脊海妖 暗言术：痛 (伤害/跳) 野妹 Tick -35 (Shadow)", -- [22]
+				"野妹 肉搏 刺脊海妖 Hit -144 (Physical)", -- [23]
+				"野妹 圣光审判 野妹 Tick +25", -- [24]
+				"刺脊海妖 暗言术：痛 (伤害/跳) 野妹 Tick -35 (Shadow)", -- [25]
+				"野妹 肉搏 刺脊滩行者 Hit -135 (Physical)", -- [26]
+				"刺脊海妖 暗言术：痛 (伤害/跳) 野妹 Tick -35 (Shadow)", -- [27]
+				"刺脊海妖 暗言术：痛 (伤害/跳) 野妹 Tick -35 (Shadow)", -- [28]
+				"刺脊滩行者 肉搏 野妹 Hit -37 (Physical)", -- [29]
+				"野妹 惩戒光环 刺脊滩行者 Hit -28 (Holy)", -- [30]
+				"野妹 肉搏 刺脊滩行者 Miss (1)", -- [31]
+				"野妹 圣光审判 辛德蕾拉 Tick +23", -- [32]
+				"野妹 圣光审判 辛德蕾拉 Tick +23", -- [33]
+				"野妹 清算之手 刺脊滩行者 Hit -212 (Holy)", -- [34]
+				"野妹 圣光审判 刺脊滩行者 Miss (Holy)", -- [35]
+				"刺脊滩行者 投掷 野妹 Hit -42 (Physical)", -- [36]
+				"野妹 肉搏 刺脊滩行者 Hit -132 (Physical)", -- [37]
+				"野妹 清算之手 刺脊滩行者 Crit -319 (Holy)", -- [38]
+				"刺脊滩行者 投掷 野妹 Hit -46 (Physical)", -- [39]
+				"刺脊滩行者 投掷 野妹 Hit -42 (Physical)", -- [40]
+				"刺脊滩行者 投掷 野妹 Hit -45 (Physical)", -- [41]
+				"野妹 清算之手 刺脊捕猎者 Hit -206 (Holy)", -- [42]
+				"刺脊捕猎者 肉搏 野妹 Hit -27 (Physical)", -- [43]
+				"野妹 命令审判 刺脊捕猎者 Hit -71 (Holy)", -- [44]
+				"野妹 圣光审判 野妹 Tick +26", -- [45]
+				"野妹 肉搏 刺脊捕猎者 Dodge (1)", -- [46]
+				"野妹 圣光审判 野妹 Tick +26", -- [47]
+				"刺脊捕猎者 肉搏 野妹 Dodge (1)", -- [48]
+				"野妹 奉献 (伤害/跳) 刺脊捕猎者 Tick -31 (Holy)", -- [49]
+				"野妹 肉搏 刺脊捕猎者 Crit -249 (Physical)", -- [50]
+			},
+			["Name"] = "野妹",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				true, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				true, -- [8]
+				false, -- [9]
+				false, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+				true, -- [15]
+				false, -- [16]
+				true, -- [17]
+				true, -- [18]
+				false, -- [19]
+				true, -- [20]
+				true, -- [21]
+				true, -- [22]
+				false, -- [23]
+				true, -- [24]
+				true, -- [25]
+				false, -- [26]
+				true, -- [27]
+				true, -- [28]
+				true, -- [29]
+				false, -- [30]
+				false, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				false, -- [35]
+				true, -- [36]
+				false, -- [37]
+				false, -- [38]
+				true, -- [39]
+				true, -- [40]
+				true, -- [41]
+				false, -- [42]
+				true, -- [43]
+				false, -- [44]
+				true, -- [45]
+				false, -- [46]
+				true, -- [47]
+				true, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["LastEventTimes"] = {
+				54621.112, -- [1]
+				54621.112, -- [2]
+				54621.112, -- [3]
+				54621.336, -- [4]
+				54621.336, -- [5]
+				54622.157, -- [6]
+				54623.172, -- [7]
+				54623.331, -- [8]
+				54624.16, -- [9]
+				54624.721, -- [10]
+				54657.943, -- [11]
+				54660.385, -- [12]
+				54660.861, -- [13]
+				54660.958, -- [14]
+				54660.958, -- [15]
+				54661.082, -- [16]
+				54661.18, -- [17]
+				54663.338, -- [18]
+				54664.375, -- [19]
+				54664.482, -- [20]
+				54665.424, -- [21]
+				54666.354, -- [22]
+				54667.767, -- [23]
+				54668.946, -- [24]
+				54669.434, -- [25]
+				54670.989, -- [26]
+				54672.377, -- [27]
+				54675.338, -- [28]
+				54584.588, -- [29]
+				54584.588, -- [30]
+				54587.819, -- [31]
+				54588.682, -- [32]
+				54588.682, -- [33]
+				54594.09, -- [34]
+				54597.26, -- [35]
+				54597.785, -- [36]
+				54599.641, -- [37]
+				54602.508, -- [38]
+				54604.628, -- [39]
+				54608.864, -- [40]
+				54611.517, -- [41]
+				54615.855, -- [42]
+				54617.346, -- [43]
+				54617.474, -- [44]
+				54617.474, -- [45]
+				54617.745, -- [46]
+				54619.156, -- [47]
+				54619.356, -- [48]
+				54620.146, -- [49]
+				54621.112, -- [50]
+			},
+			["Fights"] = {
+				["Fight5"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 42,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Physical"] = 42,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 344,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 132,
+						["Holy"] = 212,
+					},
+					["PartialAbsorb"] = {
+						["投掷"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 132,
+								},
+								["清算之手"] = {
+									["count"] = 212,
+								},
+							},
+							["amount"] = 344,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 42,
+								},
+							},
+							["amount"] = 42,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["投掷"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 1.5,
+								},
+								["清算之手"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 4.5,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 4.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["圣光审判"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 132,
+									["min"] = 132,
+									["count"] = 1,
+									["amount"] = 132,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 132,
+						},
+						["清算之手"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 212,
+									["min"] = 212,
+									["count"] = 1,
+									["amount"] = 212,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 212,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 4.5,
+					["TimeDamaging"] = {
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 1.5,
+								},
+								["肉搏"] = {
+									["count"] = 1.5,
+								},
+								["清算之手"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 4.5,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["Absorbed"] = {
+						["初级吸收"] = {
+							["Details"] = {
+								["野妹"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DOTs"] = {
+						["奉献 (伤害/跳)"] = {
+							["Details"] = {
+								["碎鳍泥浆鱼人"] = {
+									["count"] = 0,
+								},
+								["碎鳍智者"] = {
+									["count"] = 0,
+								},
+								["碎鳍滩行鱼人"] = {
+									["count"] = 0,
+								},
+								["碎鳍潮行鱼人"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["Absorbs"] = 0,
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 0,
+					},
+					["ElementTaken"] = {
+						["Shadow"] = 0,
+						["Physical"] = 0,
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Holy"] = 0,
+						["Melee"] = 0,
+						["Arcane"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["冰霜新星"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["闪电箭"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["暗言术：痛 (伤害/跳)"] = {
+							["count"] = 0,
+							["amount"] = 0,
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+						},
+						["投掷"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["count"] = 0,
+							["amount"] = 0,
+							["Details"] = {
+								["被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+						},
+					},
+					["DamagedWho"] = {
+						["碎鳍滩行鱼人"] = {
+							["amount"] = 0,
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["奥术冲击"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+						},
+						["碎鳍潮行鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍泥浆鱼人"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍智者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["碎鳍滩行鱼人"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍潮行鱼人"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["暗言术：痛 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍智者"] = {
+							["Details"] = {
+								["闪电箭"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["冰霜新星"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["闪电箭"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["暗言术：痛 (伤害/跳)"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["投掷"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["野妹"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 0,
+								},
+								["初级吸收"] = {
+									["count"] = 0,
+								},
+								["圣光术"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["圣光审判"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["圣光术"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["智慧审判"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["野妹"] = {
+							["Details"] = {
+								["命令圣印雕文"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["野妹"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 0,
+								},
+								["初级吸收"] = {
+									["count"] = 0,
+								},
+								["圣光术"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["命令圣印雕文"] = {
+							["Details"] = {
+								["野妹"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["智慧审判"] = {
+							["Details"] = {
+								["辛德蕾拉"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["野妹"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 0,
+								},
+								["初级吸收"] = {
+									["count"] = 0,
+								},
+								["圣光术"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍滩行鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍潮行鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍泥浆鱼人"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍智者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+						["碎鳍智者"] = {
+							["Details"] = {
+								["军马 (眩晕)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["圣光审判"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["初级吸收"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["圣光术"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["野妹"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 0,
+								},
+								["初级吸收"] = {
+									["count"] = 0,
+								},
+								["圣光术"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["命令审判"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["奉献 (伤害/跳)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["命令圣印"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["清算之手"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["惩戒光环"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["奥术冲击"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["碎鳍滩行鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍潮行鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍泥浆鱼人"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["碎鳍智者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+								["惩戒光环"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+						["圣光审判"] = {
+							["Details"] = {
+								["辛德蕾拉"] = {
+									["count"] = 0,
+								},
+								["查尔斯三世"] = {
+									["count"] = 0,
+								},
+								["野妹"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+						["奉献 (伤害/跳)"] = {
+							["Details"] = {
+								["刺脊捕猎者"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 193,
+					["RageGainedFrom"] = {
 					},
 					["ElementHitsTaken"] = {
 						["Melee"] = {
@@ -14101,20 +20228,3668 @@ RecountPerCharDB = {
 								["Miss"] = {
 									["count"] = 1,
 								},
-								["Crushing"] = {
+								["Dodge"] = {
 									["count"] = 1,
 								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Physical"] = {
+							["Details"] = {
 								["Hit"] = {
 									["count"] = 3,
 								},
 							},
-							["amount"] = 5,
+							["amount"] = 3,
 						},
 					},
-					["DamageTaken"] = 102,
-					["TimeDamage"] = 9.680000000000001,
-					["PartialResist"] = {
+					["DeathCount"] = 0,
+					["HOT_Time"] = 6,
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 5,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 11,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 60,
+						["Physical"] = 133,
+					},
+					["DOT_Time"] = 15,
+					["Damage"] = 1354,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 3,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Holy"] = 1026,
+						["Melee"] = 249,
+						["Arcane"] = 79,
+					},
+					["PartialAbsorb"] = {
+						["投掷"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
 						["肉搏"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["清算之手"] = {
+									["count"] = 319,
+								},
+							},
+							["amount"] = 319,
+						},
+						["刺脊捕猎者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 71,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 155,
+								},
+								["命令圣印"] = {
+									["count"] = 59,
+								},
+								["清算之手"] = {
+									["count"] = 397,
+								},
+								["惩戒光环"] = {
+									["count"] = 25,
+								},
+								["奥术冲击"] = {
+									["count"] = 79,
+								},
+								["肉搏"] = {
+									["count"] = 249,
+								},
+							},
+							["amount"] = 1035,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 133,
+								},
+							},
+							["amount"] = 133,
+						},
+						["刺脊捕猎者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 60,
+								},
+							},
+							["amount"] = 60,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["投掷"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["野妹"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+						["野妹"] = {
+							["Details"] = {
+								["命令圣印雕文"] = {
+									["count"] = 66,
+								},
+							},
+							["amount"] = 66,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["野妹"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 52,
+								},
+							},
+							["amount"] = 52,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["命令圣印雕文"] = {
+							["Details"] = {
+								["野妹"] = {
+									["count"] = 66,
+								},
+							},
+							["amount"] = 66,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["刺脊捕猎者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 1.5,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 4.32,
+								},
+								["清算之手"] = {
+									["count"] = 2.06,
+								},
+								["惩戒光环"] = {
+									["count"] = 0.22,
+								},
+								["肉搏"] = {
+									["count"] = 1.24,
+								},
+							},
+							["amount"] = 9.34,
+						},
+						["野妹"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["清算之手"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["圣光审判"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 26,
+									["min"] = 26,
+									["count"] = 2,
+									["amount"] = 52,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 52,
+						},
+					},
+					["WhoHealed"] = {
+						["野妹"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 52,
+								},
+							},
+							["amount"] = 52,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 13.84,
+					["Healing"] = 52,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["命令审判"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 71,
+									["min"] = 71,
+									["count"] = 1,
+									["amount"] = 71,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 71,
+						},
+						["奉献 (伤害/跳)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 31,
+									["min"] = 31,
+									["count"] = 5,
+									["amount"] = 155,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 155,
+						},
+						["命令圣印"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 59,
+									["min"] = 59,
+									["count"] = 1,
+									["amount"] = 59,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 59,
+						},
+						["清算之手"] = {
+							["count"] = 3,
+							["amount"] = 716,
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 319,
+									["min"] = 319,
+									["count"] = 1,
+									["amount"] = 319,
+								},
+								["Hit"] = {
+									["max"] = 206,
+									["min"] = 191,
+									["count"] = 2,
+									["amount"] = 397,
+								},
+							},
+						},
+						["惩戒光环"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 25,
+									["min"] = 25,
+									["count"] = 1,
+									["amount"] = 25,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 25,
+						},
+						["奥术冲击"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 79,
+									["min"] = 79,
+									["count"] = 1,
+									["amount"] = 79,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 79,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 249,
+									["min"] = 249,
+									["count"] = 1,
+									["amount"] = 249,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 249,
+						},
+					},
+					["HealingTaken"] = 52,
+					["RageGain"] = 0,
+					["TimeDamage"] = 10.84,
+					["TimeDamaging"] = {
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["清算之手"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["刺脊捕猎者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 1.5,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 4.32,
+								},
+								["清算之手"] = {
+									["count"] = 2.06,
+								},
+								["惩戒光环"] = {
+									["count"] = 0.22,
+								},
+								["肉搏"] = {
+									["count"] = 1.24,
+								},
+							},
+							["amount"] = 9.34,
+						},
+					},
+					["ManaGain"] = 66,
+					["HOTs"] = {
+						["圣光审判"] = {
+							["Details"] = {
+								["野妹"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 320,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 15,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Shadow"] = 140,
+						["Physical"] = 73,
+						["Nature"] = 107,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 551,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 4.72,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 551,
+						["Holy"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["闪电箭"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["投掷"] = {
+							["count"] = 2,
+							["amount"] = 0,
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+						},
+						["暗言术：痛"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["暗言术：痛 (伤害/跳)"] = {
+							["count"] = 4,
+							["amount"] = 0,
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+						},
+					},
+					["DamagedWho"] = {
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 135,
+								},
+							},
+							["amount"] = 135,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 416,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 416,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 73,
+								},
+							},
+							["amount"] = 73,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["暗言术：痛 (伤害/跳)"] = {
+									["count"] = 140,
+								},
+								["闪电箭"] = {
+									["count"] = 107,
+								},
+							},
+							["amount"] = 247,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["闪电箭"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["投掷"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["暗言术：痛"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["暗言术：痛 (伤害/跳)"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["野妹"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 4.72,
+								},
+							},
+							["amount"] = 4.72,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["智慧审判"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["野妹"] = {
+							["Details"] = {
+								["命令圣印雕文"] = {
+									["count"] = 132,
+								},
+							},
+							["amount"] = 132,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["野妹"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 128,
+								},
+							},
+							["amount"] = 128,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["命令圣印雕文"] = {
+							["Details"] = {
+								["野妹"] = {
+									["count"] = 132,
+								},
+							},
+							["amount"] = 132,
+						},
+						["智慧审判"] = {
+							["Details"] = {
+								["辛德蕾拉"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["野妹"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 4.72,
+								},
+							},
+							["amount"] = 4.72,
+						},
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 4.5,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4.5,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["圣光审判"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 26,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 128,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 128,
+						},
+					},
+					["WhoHealed"] = {
+						["野妹"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 128,
+								},
+							},
+							["amount"] = 128,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 10.72,
+					["Healing"] = 128,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["命令审判"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 144,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 551,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 551,
+						},
+						["命令圣印"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["清算之手"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 128,
+					["RageGain"] = 0,
+					["TimeDamage"] = 6,
+					["TimeDamaging"] = {
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 4.5,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4.5,
+						},
+					},
+					["ManaGain"] = 132,
+					["HOTs"] = {
+						["圣光审判"] = {
+							["Details"] = {
+								["辛德蕾拉"] = {
+									["count"] = 0,
+								},
+								["野妹"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 320,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 15,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Shadow"] = 140,
+						["Physical"] = 73,
+						["Nature"] = 107,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 551,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 4.72,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 551,
+						["Holy"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["闪电箭"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["投掷"] = {
+							["count"] = 2,
+							["amount"] = 0,
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+						},
+						["暗言术：痛"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["暗言术：痛 (伤害/跳)"] = {
+							["count"] = 4,
+							["amount"] = 0,
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+						},
+					},
+					["DamagedWho"] = {
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 135,
+								},
+							},
+							["amount"] = 135,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 416,
+								},
+								["命令圣印"] = {
+									["count"] = 0,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 416,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 73,
+								},
+							},
+							["amount"] = 73,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["暗言术：痛 (伤害/跳)"] = {
+									["count"] = 140,
+								},
+								["闪电箭"] = {
+									["count"] = 107,
+								},
+							},
+							["amount"] = 247,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["闪电箭"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["投掷"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["暗言术：痛"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["暗言术：痛 (伤害/跳)"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["野妹"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 4.72,
+								},
+							},
+							["amount"] = 4.72,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["智慧审判"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["野妹"] = {
+							["Details"] = {
+								["命令圣印雕文"] = {
+									["count"] = 132,
+								},
+							},
+							["amount"] = 132,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["野妹"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 128,
+								},
+							},
+							["amount"] = 128,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["命令圣印雕文"] = {
+							["Details"] = {
+								["野妹"] = {
+									["count"] = 132,
+								},
+							},
+							["amount"] = 132,
+						},
+						["智慧审判"] = {
+							["Details"] = {
+								["辛德蕾拉"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["野妹"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 4.72,
+								},
+							},
+							["amount"] = 4.72,
+						},
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 4.5,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4.5,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["圣光审判"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 26,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 128,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 128,
+						},
+					},
+					["WhoHealed"] = {
+						["野妹"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 128,
+								},
+							},
+							["amount"] = 128,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 10.72,
+					["Healing"] = 128,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["命令审判"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 144,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 551,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 551,
+						},
+						["命令圣印"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["清算之手"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 128,
+					["RageGain"] = 0,
+					["TimeDamage"] = 6,
+					["TimeDamaging"] = {
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 0,
+								},
+								["肉搏"] = {
+									["count"] = 4.5,
+								},
+								["清算之手"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4.5,
+						},
+					},
+					["ManaGain"] = 132,
+					["HOTs"] = {
+						["圣光审判"] = {
+							["Details"] = {
+								["辛德蕾拉"] = {
+									["count"] = 0,
+								},
+								["野妹"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["DOTs"] = {
+						["奉献 (伤害/跳)"] = {
+							["Details"] = {
+								["刺脊捕猎者"] = {
+									["count"] = 15,
+								},
+								["碎鳍滩行鱼人"] = {
+									["count"] = 282,
+								},
+								["碎鳍潮行鱼人"] = {
+									["count"] = 168,
+								},
+								["刺脊海妖"] = {
+									["count"] = 36,
+								},
+								["碎鳍泥浆鱼人"] = {
+									["count"] = 147,
+								},
+								["碎鳍智者"] = {
+									["count"] = 36,
+								},
+							},
+							["amount"] = 684,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 93,
+								},
+								["Miss"] = {
+									["count"] = 7,
+								},
+								["Dodge"] = {
+									["count"] = 9,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Parry"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 118,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 19,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 54,
+								},
+							},
+							["amount"] = 57,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 24,
+						},
+					},
+					["HealedWho"] = {
+						["野妹"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 2488,
+								},
+								["初级吸收"] = {
+									["count"] = 60,
+								},
+								["圣光术"] = {
+									["count"] = 4707,
+								},
+							},
+							["amount"] = 7255,
+						},
+						["查尔斯三世"] = {
+							["Details"] = {
+								["圣光术"] = {
+									["count"] = 631,
+								},
+							},
+							["amount"] = 631,
+						},
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 369,
+								},
+								["圣光术"] = {
+									["count"] = 1488,
+								},
+							},
+							["amount"] = 1857,
+						},
+					},
+					["Absorbs"] = 60,
+					["HOT_Time"] = 429,
+					["ElementTaken"] = {
+						["Frost"] = 39,
+						["Melee"] = 3040,
+						["Shadow"] = 630,
+						["Physical"] = 2068,
+						["Nature"] = 2370,
+					},
+					["HOTs"] = {
+						["圣光审判"] = {
+							["Details"] = {
+								["野妹"] = {
+									["count"] = 348,
+								},
+								["查尔斯三世"] = {
+									["count"] = 9,
+								},
+								["辛德蕾拉"] = {
+									["count"] = 72,
+								},
+							},
+							["amount"] = 429,
+						},
+					},
+					["Damage"] = 40833,
+					["TimeHeal"] = 142.15,
+					["RessedWho"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["救赎"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementDone"] = {
+						["Holy"] = 25698,
+						["Melee"] = 14883,
+						["Arcane"] = 252,
+					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 4,
+								},
+								["Miss"] = {
+									["count"] = 6,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 184,
+								},
+								["Tick"] = {
+									["count"] = 228,
+								},
+								["Block"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 23,
+								},
+								["Parry"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 450,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 81,
+								},
+								["Miss"] = {
+									["count"] = 3,
+								},
+								["Block"] = {
+									["count"] = 6,
+								},
+								["Crit"] = {
+									["count"] = 13,
+								},
+								["Parry"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 106,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["WhoDamaged"] = {
+						["刺脊捕猎者"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 60,
+								},
+							},
+							["amount"] = 60,
+						},
+						["碎鳍滩行鱼人"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 1773,
+								},
+								["肉搏"] = {
+									["count"] = 1810,
+								},
+							},
+							["amount"] = 3583,
+						},
+						["碎鳍潮行鱼人"] = {
+							["Details"] = {
+								["冰霜新星"] = {
+									["count"] = 39,
+								},
+								["肉搏"] = {
+									["count"] = 383,
+								},
+							},
+							["amount"] = 422,
+						},
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["投掷"] = {
+									["count"] = 295,
+								},
+								["肉搏"] = {
+									["count"] = 110,
+								},
+							},
+							["amount"] = 405,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["闪电箭"] = {
+									["count"] = 958,
+								},
+								["暗言术：痛 (伤害/跳)"] = {
+									["count"] = 630,
+								},
+								["肉搏"] = {
+									["count"] = 90,
+								},
+							},
+							["amount"] = 1678,
+						},
+						["碎鳍泥浆鱼人"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 430,
+								},
+							},
+							["amount"] = 430,
+						},
+						["碎鳍智者"] = {
+							["Details"] = {
+								["闪电箭"] = {
+									["count"] = 1412,
+								},
+								["肉搏"] = {
+									["count"] = 157,
+								},
+							},
+							["amount"] = 1569,
+						},
+					},
+					["Absorbed"] = {
+						["初级吸收"] = {
+							["Details"] = {
+								["野妹"] = {
+									["max"] = 10,
+									["min"] = 10,
+									["count"] = 6,
+									["amount"] = 60,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 60,
+						},
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 92,
+						["Holy"] = 32,
+					},
+					["TimeHealing"] = {
+						["野妹"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 103.03,
+								},
+								["初级吸收"] = {
+									["count"] = 9,
+								},
+								["圣光术"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 121.03,
+						},
+						["查尔斯三世"] = {
+							["Details"] = {
+								["圣光术"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 15.12,
+								},
+								["圣光术"] = {
+									["count"] = 4.5,
+								},
+							},
+							["amount"] = 19.62,
+						},
+					},
+					["OverHeals"] = {
+						["圣光审判"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 26,
+									["min"] = 14,
+									["count"] = 31,
+									["amount"] = 717,
+								},
+							},
+							["count"] = 31,
+							["amount"] = 717,
+						},
+						["圣光术"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 32,
+									["min"] = 32,
+									["count"] = 1,
+									["amount"] = 32,
+								},
+								["Hit"] = {
+									["max"] = 297,
+									["min"] = 31,
+									["count"] = 4,
+									["amount"] = 704,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 736,
+						},
+					},
+					["CCBreak"] = 1,
+					["PartialResist"] = {
+						["暗言术：痛"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["冰霜新星"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["闪电箭"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 24,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 24,
+						},
+						["暗言术：痛 (伤害/跳)"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 18,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 18,
+						},
+						["投掷"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 57,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 57,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 118,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 118,
+						},
+					},
+					["ManaGained"] = {
+						["命令圣印雕文"] = {
+							["Details"] = {
+								["野妹"] = {
+									["count"] = 3523,
+								},
+							},
+							["amount"] = 3523,
+						},
+						["智慧审判"] = {
+							["Details"] = {
+								["辛德蕾拉"] = {
+									["count"] = 179,
+								},
+							},
+							["amount"] = 179,
+						},
+					},
+					["PartialAbsorb"] = {
+						["暗言术：痛"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["冰霜新星"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["闪电箭"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 24,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 24,
+							["amount"] = 0,
+						},
+						["暗言术：痛 (伤害/跳)"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 18,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 18,
+							["amount"] = 0,
+						},
+						["投掷"] = {
+							["Details"] = {
+								["被吸收"] = {
+									["max"] = 10,
+									["min"] = 10,
+									["count"] = 2,
+									["amount"] = 20,
+								},
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 55,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 57,
+							["amount"] = 20,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["被吸收"] = {
+									["max"] = 10,
+									["min"] = 10,
+									["count"] = 2,
+									["amount"] = 20,
+								},
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 116,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 118,
+							["amount"] = 20,
+						},
+					},
+					["ActiveTime"] = 440.8799999999999,
+					["CCBroken"] = {
+						["变形术 (命令审判)"] = {
+							["Details"] = {
+								["碎鳍滩行鱼人"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["Ressed"] = 1,
+					["WhoDispelled"] = {
+						["碎鳍智者"] = {
+							["Details"] = {
+								["军马 (眩晕)"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 20,
+						["Physical"] = 20,
+					},
+					["Heals"] = {
+						["圣光审判"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 26,
+									["min"] = 5,
+									["count"] = 116,
+									["amount"] = 2857,
+								},
+							},
+							["count"] = 116,
+							["amount"] = 2857,
+						},
+						["初级吸收"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 10,
+									["min"] = 10,
+									["count"] = 6,
+									["amount"] = 60,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 60,
+						},
+						["圣光术"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 1047,
+									["min"] = 1018,
+									["count"] = 2,
+									["amount"] = 2065,
+								},
+								["Hit"] = {
+									["max"] = 692,
+									["min"] = 383,
+									["count"] = 8,
+									["amount"] = 4761,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 6826,
+						},
+					},
+					["Dispelled"] = 1,
+					["DOT_Time"] = 684,
+					["TimeSpent"] = {
+						["刺脊捕猎者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 1.5,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 4.32,
+								},
+								["清算之手"] = {
+									["count"] = 2.06,
+								},
+								["惩戒光环"] = {
+									["count"] = 0.22,
+								},
+								["肉搏"] = {
+									["count"] = 1.24,
+								},
+							},
+							["amount"] = 9.34,
+						},
+						["野妹"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 103.03,
+								},
+								["初级吸收"] = {
+									["count"] = 9,
+								},
+								["圣光术"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 121.03,
+						},
+						["碎鳍潮行鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 2.32,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 15.99,
+								},
+								["命令圣印"] = {
+									["count"] = 1.07,
+								},
+								["清算之手"] = {
+									["count"] = 3.5,
+								},
+								["惩戒光环"] = {
+									["count"] = 5.319999999999999,
+								},
+								["肉搏"] = {
+									["count"] = 3.38,
+								},
+							},
+							["amount"] = 31.58000000000001,
+						},
+						["查尔斯三世"] = {
+							["Details"] = {
+								["圣光术"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 9.61,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 6.92,
+								},
+								["清算之手"] = {
+									["count"] = 4.5,
+								},
+								["驱邪术"] = {
+									["count"] = 3,
+								},
+								["惩戒光环"] = {
+									["count"] = 1.54,
+								},
+								["肉搏"] = {
+									["count"] = 12.32,
+								},
+							},
+							["amount"] = 37.89,
+						},
+						["碎鳍滩行鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 14.69,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 25.62000000000001,
+								},
+								["命令圣印"] = {
+									["count"] = 1.9,
+								},
+								["清算之手"] = {
+									["count"] = 9.49,
+								},
+								["惩戒光环"] = {
+									["count"] = 25.33,
+								},
+								["肉搏"] = {
+									["count"] = 54.24,
+								},
+							},
+							["amount"] = 131.27,
+						},
+						["碎鳍泥浆鱼人"] = {
+							["amount"] = 48.32,
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 1.05,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 16.95,
+								},
+								["命令圣印"] = {
+									["count"] = 3,
+								},
+								["清算之手"] = {
+									["count"] = 2.49,
+								},
+								["惩戒光环"] = {
+									["count"] = 8.93,
+								},
+								["肉搏"] = {
+									["count"] = 15.9,
+								},
+							},
+						},
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 15.12,
+								},
+								["圣光术"] = {
+									["count"] = 4.5,
+								},
+							},
+							["amount"] = 19.62,
+						},
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 1.5,
+								},
+								["清算之手"] = {
+									["count"] = 4.5,
+								},
+								["圣光审判"] = {
+									["count"] = 1.5,
+								},
+								["惩戒光环"] = {
+									["count"] = 2.44,
+								},
+								["肉搏"] = {
+									["count"] = 5.96,
+								},
+							},
+							["amount"] = 15.9,
+						},
+						["碎鳍智者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 7.270000000000001,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 1.81,
+								},
+								["清算之手"] = {
+									["count"] = 4.44,
+								},
+								["驱邪术"] = {
+									["count"] = 1.5,
+								},
+								["惩戒光环"] = {
+									["count"] = 2.82,
+								},
+								["肉搏"] = {
+									["count"] = 6.59,
+								},
+							},
+							["amount"] = 24.43,
+						},
+					},
+					["Healing"] = 9683,
+					["DamageTaken"] = 8147,
+					["Overhealing"] = 1453,
+					["Attacks"] = {
+						["命令审判"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 149,
+									["min"] = 143,
+									["count"] = 5,
+									["amount"] = 731,
+								},
+								["Hit"] = {
+									["max"] = 76,
+									["min"] = 69,
+									["count"] = 31,
+									["amount"] = 2216,
+								},
+							},
+							["count"] = 36,
+							["amount"] = 2947,
+						},
+						["清算之手"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 319,
+									["min"] = 318,
+									["count"] = 3,
+									["amount"] = 955,
+								},
+								["Hit"] = {
+									["max"] = 213,
+									["min"] = 191,
+									["count"] = 22,
+									["amount"] = 4609,
+								},
+							},
+							["count"] = 25,
+							["amount"] = 5564,
+						},
+						["驱邪术"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 281,
+									["min"] = 276,
+									["count"] = 3,
+									["amount"] = 838,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 838,
+						},
+						["惩戒光环"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 28,
+									["min"] = 25,
+									["count"] = 54,
+									["amount"] = 1501,
+								},
+							},
+							["count"] = 58,
+							["amount"] = 1501,
+						},
+						["奥术冲击"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 88,
+									["min"] = 79,
+									["count"] = 3,
+									["amount"] = 252,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 252,
+						},
+						["命令圣印"] = {
+							["Details"] = {
+								["Hit (被格挡)"] = {
+									["max"] = 56,
+									["min"] = 47,
+									["count"] = 2,
+									["amount"] = 103,
+								},
+								["Hit"] = {
+									["max"] = 75,
+									["min"] = 59,
+									["count"] = 72,
+									["amount"] = 4922,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 5,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 146,
+									["min"] = 126,
+									["count"] = 15,
+									["amount"] = 2036,
+								},
+								["Parry"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 97,
+							["amount"] = 7061,
+						},
+						["圣光审判"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["奉献 (伤害/跳)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 35,
+									["min"] = 31,
+									["count"] = 228,
+									["amount"] = 7787,
+								},
+							},
+							["count"] = 228,
+							["amount"] = 7787,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 155,
+									["min"] = 126,
+									["count"] = 75,
+									["amount"] = 10472,
+								},
+								["Miss"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 307,
+									["min"] = 249,
+									["count"] = 13,
+									["amount"] = 3653,
+								},
+								["Hit (被格挡)"] = {
+									["max"] = 139,
+									["min"] = 116,
+									["count"] = 6,
+									["amount"] = 758,
+								},
+							},
+							["count"] = 100,
+							["amount"] = 14883,
+						},
+					},
+					["HealingTaken"] = 7777,
+					["ManaGainedFrom"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["智慧审判"] = {
+									["count"] = 179,
+								},
+							},
+							["amount"] = 179,
+						},
+						["野妹"] = {
+							["Details"] = {
+								["命令圣印雕文"] = {
+									["count"] = 3523,
+								},
+							},
+							["amount"] = 3523,
+						},
+					},
+					["TimeDamage"] = 298.7299999999998,
+					["TimeDamaging"] = {
+						["刺脊捕猎者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 1.5,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 4.32,
+								},
+								["清算之手"] = {
+									["count"] = 2.06,
+								},
+								["惩戒光环"] = {
+									["count"] = 0.22,
+								},
+								["肉搏"] = {
+									["count"] = 1.24,
+								},
+							},
+							["amount"] = 9.34,
+						},
+						["碎鳍滩行鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 14.69,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 25.62000000000001,
+								},
+								["命令圣印"] = {
+									["count"] = 1.9,
+								},
+								["清算之手"] = {
+									["count"] = 9.49,
+								},
+								["惩戒光环"] = {
+									["count"] = 25.33,
+								},
+								["肉搏"] = {
+									["count"] = 54.24,
+								},
+							},
+							["amount"] = 131.27,
+						},
+						["碎鳍潮行鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 2.32,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 15.99,
+								},
+								["命令圣印"] = {
+									["count"] = 1.07,
+								},
+								["清算之手"] = {
+									["count"] = 3.5,
+								},
+								["惩戒光环"] = {
+									["count"] = 5.319999999999999,
+								},
+								["肉搏"] = {
+									["count"] = 3.38,
+								},
+							},
+							["amount"] = 31.58000000000001,
+						},
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 1.5,
+								},
+								["清算之手"] = {
+									["count"] = 4.5,
+								},
+								["圣光审判"] = {
+									["count"] = 1.5,
+								},
+								["惩戒光环"] = {
+									["count"] = 2.44,
+								},
+								["肉搏"] = {
+									["count"] = 5.96,
+								},
+							},
+							["amount"] = 15.9,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 9.61,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 6.92,
+								},
+								["清算之手"] = {
+									["count"] = 4.5,
+								},
+								["驱邪术"] = {
+									["count"] = 3,
+								},
+								["惩戒光环"] = {
+									["count"] = 1.54,
+								},
+								["肉搏"] = {
+									["count"] = 12.32,
+								},
+							},
+							["amount"] = 37.89,
+						},
+						["碎鳍泥浆鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 1.05,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 16.95,
+								},
+								["命令圣印"] = {
+									["count"] = 3,
+								},
+								["清算之手"] = {
+									["count"] = 2.49,
+								},
+								["惩戒光环"] = {
+									["count"] = 8.93,
+								},
+								["肉搏"] = {
+									["count"] = 15.9,
+								},
+							},
+							["amount"] = 48.32,
+						},
+						["碎鳍智者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 7.270000000000001,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 1.81,
+								},
+								["清算之手"] = {
+									["count"] = 4.44,
+								},
+								["驱邪术"] = {
+									["count"] = 1.5,
+								},
+								["惩戒光环"] = {
+									["count"] = 2.82,
+								},
+								["肉搏"] = {
+									["count"] = 6.59,
+								},
+							},
+							["amount"] = 24.43,
+						},
+					},
+					["ManaGain"] = 3702,
+					["WhoHealed"] = {
+						["辛德蕾拉"] = {
+							["Details"] = {
+								["圣光术"] = {
+									["count"] = 522,
+								},
+							},
+							["amount"] = 522,
+						},
+						["野妹"] = {
+							["Details"] = {
+								["圣光审判"] = {
+									["count"] = 2488,
+								},
+								["初级吸收"] = {
+									["count"] = 60,
+								},
+								["圣光术"] = {
+									["count"] = 4707,
+								},
+							},
+							["amount"] = 7255,
+						},
+					},
+					["DamagedWho"] = {
+						["刺脊捕猎者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 71,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 155,
+								},
+								["命令圣印"] = {
+									["count"] = 59,
+								},
+								["清算之手"] = {
+									["count"] = 397,
+								},
+								["惩戒光环"] = {
+									["count"] = 25,
+								},
+								["奥术冲击"] = {
+									["count"] = 79,
+								},
+								["肉搏"] = {
+									["count"] = 249,
+								},
+							},
+							["amount"] = 1035,
+						},
+						["碎鳍滩行鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 1161,
+								},
+								["奥术冲击"] = {
+									["count"] = 173,
+								},
+								["命令圣印"] = {
+									["count"] = 3229,
+								},
+								["清算之手"] = {
+									["count"] = 1468,
+								},
+								["惩戒光环"] = {
+									["count"] = 669,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 3197,
+								},
+								["肉搏"] = {
+									["count"] = 7954,
+								},
+							},
+							["amount"] = 17851,
+						},
+						["碎鳍潮行鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 212,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 1926,
+								},
+								["命令圣印"] = {
+									["count"] = 761,
+								},
+								["清算之手"] = {
+									["count"] = 630,
+								},
+								["惩戒光环"] = {
+									["count"] = 251,
+								},
+								["肉搏"] = {
+									["count"] = 824,
+								},
+							},
+							["amount"] = 4604,
+						},
+						["刺脊滩行者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 71,
+								},
+								["命令圣印"] = {
+									["count"] = 132,
+								},
+								["清算之手"] = {
+									["count"] = 849,
+								},
+								["惩戒光环"] = {
+									["count"] = 84,
+								},
+								["肉搏"] = {
+									["count"] = 546,
+								},
+							},
+							["amount"] = 1682,
+						},
+						["刺脊海妖"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 498,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 415,
+								},
+								["命令圣印"] = {
+									["count"] = 753,
+								},
+								["清算之手"] = {
+									["count"] = 742,
+								},
+								["驱邪术"] = {
+									["count"] = 557,
+								},
+								["惩戒光环"] = {
+									["count"] = 84,
+								},
+								["肉搏"] = {
+									["count"] = 1793,
+								},
+							},
+							["amount"] = 4842,
+						},
+						["碎鳍泥浆鱼人"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 359,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 1681,
+								},
+								["命令圣印"] = {
+									["count"] = 1437,
+								},
+								["清算之手"] = {
+									["count"] = 630,
+								},
+								["惩戒光环"] = {
+									["count"] = 332,
+								},
+								["肉搏"] = {
+									["count"] = 2542,
+								},
+							},
+							["amount"] = 6981,
+						},
+						["碎鳍智者"] = {
+							["Details"] = {
+								["命令审判"] = {
+									["count"] = 575,
+								},
+								["奉献 (伤害/跳)"] = {
+									["count"] = 413,
+								},
+								["命令圣印"] = {
+									["count"] = 690,
+								},
+								["清算之手"] = {
+									["count"] = 848,
+								},
+								["驱邪术"] = {
+									["count"] = 281,
+								},
+								["惩戒光环"] = {
+									["count"] = 56,
+								},
+								["肉搏"] = {
+									["count"] = 975,
+								},
+							},
+							["amount"] = 3838,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 53981.042,
+			["LastActive"] = 54675.042,
+		},
+		["哈姆霍克"] = {
+			["GUID"] = "Creature-0-4515-34-7881-1717-00002335C6",
+			["TimeLast"] = {
+				["DeathCount"] = 45515.192,
+				["ActiveTime"] = 45514.196,
+				["TimeDamage"] = 45514.196,
+				["OVERALL"] = 45515.192,
+				["DamageTaken"] = 45515.192,
+				["Damage"] = 45514.196,
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"MISC", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["DeathCount"] = {
+					1, -- [1]
+				},
+				["ActiveTime"] = {
+					10.5, -- [1]
+				},
+				["TimeDamage"] = {
+					10.5, -- [1]
+				},
+				["DamageTaken"] = {
+					1842, -- [1]
+				},
+				["Damage"] = {
+					614, -- [1]
+				},
+			},
+			["enClass"] = "MOB",
+			["LastDamageTaken"] = 20,
+			["LastActive"] = 45515.192,
+			["level"] = -1,
+			["LastDamageAbility"] = "奉献 (伤害/跳)",
+			["LastFightIn"] = 16,
+			["LastEventHealthMax"] = {
+				1830, -- [1]
+				1830, -- [2]
+				1830, -- [3]
+				1830, -- [4]
+				1830, -- [5]
+				1830, -- [6]
+				1830, -- [7]
+				1830, -- [8]
+				1830, -- [9]
+				1830, -- [10]
+				1830, -- [11]
+				1830, -- [12]
+				1830, -- [13]
+				1830, -- [14]
+				1830, -- [15]
+				1830, -- [16]
+				1830, -- [17]
+				1830, -- [18]
+				1830, -- [19]
+				1830, -- [20]
+				1830, -- [21]
+				1830, -- [22]
+				1830, -- [23]
+				1830, -- [24]
+				1830, -- [25]
+				1830, -- [26]
+				1830, -- [27]
+				1830, -- [28]
+				1830, -- [29]
+				1830, -- [30]
+				1830, -- [31]
+				1830, -- [32]
+				1830, -- [33]
+				1830, -- [34]
+				1830, -- [35]
+				1830, -- [36]
+				1830, -- [37]
+				1830, -- [38]
+				1830, -- [39]
+				1830, -- [40]
+				1830, -- [41]
+				1830, -- [42]
+				1830, -- [43]
+				1830, -- [44]
+				1830, -- [45]
+				1830, -- [46]
+				1830, -- [47]
+				1830, -- [48]
+				1830, -- [49]
+				1830, -- [50]
+			},
+			["type"] = "Boss",
+			["FightsSaved"] = 5,
+			["LastEventHealth"] = {
+				267, -- [1]
+				194, -- [2]
+				154, -- [3]
+				154, -- [4]
+				116, -- [5]
+				93, -- [6]
+				93, -- [7]
+				93, -- [8]
+				66, -- [9]
+				40, -- [10]
+				8, -- [11]
+				0, -- [12]
+				1743, -- [13]
+				1506, -- [14]
+				1486, -- [15]
+				1467, -- [16]
+				1467, -- [17]
+				1395, -- [18]
+				1323, -- [19]
+				1323, -- [20]
+				1323, -- [21]
+				1214, -- [22]
+				1214, -- [23]
+				1214, -- [24]
+				1214, -- [25]
+				1214, -- [26]
+				1064, -- [27]
+				1064, -- [28]
+				1027, -- [29]
+				954, -- [30]
+				954, -- [31]
+				954, -- [32]
+				845, -- [33]
+				845, -- [34]
+				845, -- [35]
+				818, -- [36]
+				818, -- [37]
+				781, -- [38]
+				708, -- [39]
+				664, -- [40]
+				474, -- [41]
+				474, -- [42]
+				474, -- [43]
+				474, -- [44]
+				364, -- [45]
+				364, -- [46]
+				364, -- [47]
+				337, -- [48]
+				337, -- [49]
+				284, -- [50]
+			},
+			["unit"] = "party3target",
+			["Owner"] = false,
+			["LastEventTimes"] = {
+				45513.823, -- [1]
+				45514.142, -- [2]
+				45514.723, -- [3]
+				45514.738, -- [4]
+				45514.846, -- [5]
+				45514.956, -- [6]
+				45514.963, -- [7]
+				45514.963, -- [8]
+				45515.021, -- [9]
+				45515.4, -- [10]
+				45515.749, -- [11]
+				45515.765, -- [12]
+				45505.297, -- [13]
+				45505.688, -- [14]
+				45506.691, -- [15]
+				45506.833, -- [16]
+				45506.905, -- [17]
+				45507.826, -- [18]
+				45508.689, -- [19]
+				45508.724, -- [20]
+				45508.826, -- [21]
+				45508.904, -- [22]
+				45508.904, -- [23]
+				45508.935, -- [24]
+				45508.935, -- [25]
+				45508.935, -- [26]
+				45509.691, -- [27]
+				45509.719, -- [28]
+				45509.83, -- [29]
+				45510.737, -- [30]
+				45510.744, -- [31]
+				45510.83, -- [32]
+				45510.945, -- [33]
+				45510.959, -- [34]
+				45510.959, -- [35]
+				45511.733, -- [36]
+				45511.74, -- [37]
+				45511.823, -- [38]
+				45512.503, -- [39]
+				45512.625, -- [40]
+				45512.675, -- [41]
+				45512.73, -- [42]
+				45512.737, -- [43]
+				45512.818, -- [44]
+				45512.947, -- [45]
+				45512.955, -- [46]
+				45512.955, -- [47]
+				45513.544, -- [48]
+				45513.544, -- [49]
+				45513.729, -- [50]
+			},
+			["NextEventNum"] = 13,
+			["LastDamageTime"] = 45514.956,
+			["LastEvents"] = {
+				"查尔斯三世 暴风雪 哈姆霍克 Hit -73 (Frost)", -- [1]
+				"祝雨来 肉搏 哈姆霍克 Hit -40 (Physical)", -- [2]
+				"三自四有 奉献 (伤害/跳) 哈姆霍克 Tick -18 (Holy)", -- [3]
+				"南宫浮生 奉献 (伤害/跳) 哈姆霍克 Tick -20 (Holy)", -- [4]
+				"查尔斯三世 冰霜新星 哈姆霍克 Hit -23 (Frost)", -- [5]
+				"哈姆霍克 肉搏 南宫浮生 Hit -36 (Physical)", -- [6]
+				"南宫浮生 荆棘术 哈姆霍克 Hit -9 (Nature)", -- [7]
+				"南宫浮生 惩戒光环 哈姆霍克 Hit -18 (Holy)", -- [8]
+				"祝雨来 肉搏 哈姆霍克 Hit -26 (Physical)", -- [9]
+				"祝雨来 肉搏 哈姆霍克 Hit -32 (Physical)", -- [10]
+				"南宫浮生 奉献 (伤害/跳) 哈姆霍克 Tick -20 (Holy)", -- [11]
+				"哈姆霍克死亡。", -- [12]
+				"南宫浮生 命令圣印 哈姆霍克 Crit -104 (Holy)", -- [13]
+				"南宫浮生 奉献 (伤害/跳) 哈姆霍克 Tick -20 (Holy)", -- [14]
+				"南宫浮生 奉献 (伤害/跳) 哈姆霍克 Tick -19 (Holy)", -- [15]
+				"查尔斯三世 暴风雪 哈姆霍克 Hit -72 (Frost)", -- [16]
+				"南宫浮生 智慧审判 哈姆霍克 Miss (Holy)", -- [17]
+				"查尔斯三世 暴风雪 哈姆霍克 Hit -72 (Frost)", -- [18]
+				"南宫浮生 奉献 (伤害/跳) 哈姆霍克 Tick -19 (Holy)", -- [19]
+				"三自四有 奉献 (伤害/跳) 哈姆霍克 Tick -17 (Holy)", -- [20]
+				"查尔斯三世 暴风雪 哈姆霍克 Hit -73 (Frost)", -- [21]
+				"南宫浮生 肉搏 哈姆霍克 Hit -98 (Physical)", -- [22]
+				"南宫浮生 命令圣印 哈姆霍克 Hit -52 (Holy)", -- [23]
+				"哈姆霍克 闪电链 得撸艺 Hit -97 (Nature)", -- [24]
+				"哈姆霍克 闪电链 三自四有 Hit -145 (Nature)", -- [25]
+				"哈姆霍克 闪电链 南宫浮生 Hit -104 (Nature)", -- [26]
+				"南宫浮生 奉献 (伤害/跳) 哈姆霍克 Tick -20 (Holy)", -- [27]
+				"三自四有 奉献 (伤害/跳) 哈姆霍克 Tick -17 (Holy)", -- [28]
+				"查尔斯三世 暴风雪 哈姆霍克 Hit -73 (Frost)", -- [29]
+				"三自四有 奉献 (伤害/跳) 哈姆霍克 Tick -17 (Holy)", -- [30]
+				"南宫浮生 奉献 (伤害/跳) 哈姆霍克 Tick -19 (Holy)", -- [31]
+				"查尔斯三世 暴风雪 哈姆霍克 Hit -73 (Frost)", -- [32]
+				"哈姆霍克 肉搏 南宫浮生 Hit -31 (Physical)", -- [33]
+				"南宫浮生 荆棘术 哈姆霍克 Hit -9 (Nature)", -- [34]
+				"南宫浮生 惩戒光环 哈姆霍克 Hit -18 (Holy)", -- [35]
+				"三自四有 奉献 (伤害/跳) 哈姆霍克 Tick -17 (Holy)", -- [36]
+				"南宫浮生 奉献 (伤害/跳) 哈姆霍克 Tick -20 (Holy)", -- [37]
+				"查尔斯三世 暴风雪 哈姆霍克 Hit -73 (Frost)", -- [38]
+				"南宫浮生 命令圣印 哈姆霍克 Hit -44 (Holy)", -- [39]
+				"祝雨来 背刺 哈姆霍克 Crit -190 (Physical)", -- [40]
+				"祝雨来 肉搏 哈姆霍克 Dodge (1)", -- [41]
+				"三自四有 奉献 (伤害/跳) 哈姆霍克 Tick -18 (Holy)", -- [42]
+				"南宫浮生 奉献 (伤害/跳) 哈姆霍克 Tick -20 (Holy)", -- [43]
+				"查尔斯三世 暴风雪 哈姆霍克 Hit -72 (Frost)", -- [44]
+				"哈姆霍克 肉搏 南宫浮生 Crit -66 (Physical)", -- [45]
+				"南宫浮生 荆棘术 哈姆霍克 Hit -9 (Nature)", -- [46]
+				"南宫浮生 惩戒光环 哈姆霍克 Hit -18 (Holy)", -- [47]
+				"祝雨来 速效药膏 哈姆霍克 Miss (Nature)", -- [48]
+				"祝雨来 肉搏 哈姆霍克 Crit -53 (Physical)", -- [49]
+				"三自四有 奉献 (伤害/跳) 哈姆霍克 Tick -17 (Holy)", -- [50]
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				false, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				true, -- [17]
+				true, -- [18]
+				true, -- [19]
+				true, -- [20]
+				true, -- [21]
+				true, -- [22]
+				true, -- [23]
+				false, -- [24]
+				false, -- [25]
+				false, -- [26]
+				true, -- [27]
+				true, -- [28]
+				true, -- [29]
+				true, -- [30]
+				true, -- [31]
+				true, -- [32]
+				false, -- [33]
+				true, -- [34]
+				true, -- [35]
+				true, -- [36]
+				true, -- [37]
+				true, -- [38]
+				true, -- [39]
+				true, -- [40]
+				true, -- [41]
+				true, -- [42]
+				true, -- [43]
+				true, -- [44]
+				false, -- [45]
+				true, -- [46]
+				true, -- [47]
+				true, -- [48]
+				true, -- [49]
+				true, -- [50]
+			},
+			["Name"] = "哈姆霍克",
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["ElementHitsTaken"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 19,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 28,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["Attacks"] = {
+						["闪电链"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 145,
+									["min"] = 97,
+									["count"] = 3,
+									["amount"] = 346,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 346,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 66,
+									["min"] = 66,
+									["count"] = 1,
+									["amount"] = 66,
+								},
+								["Hit"] = {
+									["max"] = 68,
+									["min"] = 31,
+									["count"] = 4,
+									["amount"] = 202,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 268,
+						},
+					},
+					["PartialResist"] = {
+						["背刺"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["冰霜新星"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["惩戒光环"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 5,
+						},
+						["暴风雪"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 8,
+						},
+						["奉献 (伤害/跳)"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 19,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 19,
+						},
+						["命令圣印"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+						["肉搏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 8,
+						},
+						["智慧审判"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["速效药膏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["荆棘术"] = {
 							["Details"] = {
 								["未被抵抗"] = {
 									["max"] = 0,
@@ -14127,21 +23902,217 @@ RecountPerCharDB = {
 							["amount"] = 5,
 						},
 					},
-					["DamagedWho"] = {
-						["萨巴克希斯"] = {
+					["WhoDamaged"] = {
+						["查尔斯三世"] = {
 							["Details"] = {
-								["横扫"] = {
-									["count"] = 11,
-								},
-								["肉搏"] = {
+								["冰霜新星"] = {
 									["count"] = 23,
 								},
+								["暴风雪"] = {
+									["count"] = 581,
+								},
 							},
-							["amount"] = 34,
+							["amount"] = 604,
+						},
+						["南宫浮生"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 237,
+								},
+								["命令圣印"] = {
+									["count"] = 200,
+								},
+								["惩戒光环"] = {
+									["count"] = 90,
+								},
+								["肉搏"] = {
+									["count"] = 203,
+								},
+								["荆棘术"] = {
+									["count"] = 46,
+								},
+							},
+							["amount"] = 776,
+						},
+						["三自四有"] = {
+							["Details"] = {
+								["奉献 (伤害/跳)"] = {
+									["count"] = 121,
+								},
+							},
+							["amount"] = 121,
+						},
+						["祝雨来"] = {
+							["Details"] = {
+								["背刺"] = {
+									["count"] = 190,
+								},
+								["肉搏"] = {
+									["count"] = 151,
+								},
+							},
+							["amount"] = 341,
 						},
 					},
+					["TimeDamage"] = 10.5,
+					["TimeSpent"] = {
+						["得撸艺"] = {
+							["Details"] = {
+								["闪电链"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["南宫浮生"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["DamageTaken"] = 1842,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 268,
+						["Nature"] = 346,
+					},
+					["DeathCount"] = 1,
 					["PartialAbsorb"] = {
+						["背刺"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["冰霜新星"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["惩戒光环"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["暴风雪"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+						["奉献 (伤害/跳)"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 19,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 19,
+							["amount"] = 0,
+						},
+						["命令圣印"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
 						["肉搏"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+						["智慧审判"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["速效药膏"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["荆棘术"] = {
 							["Details"] = {
 								["未被吸收"] = {
 									["max"] = 0,
@@ -14154,6710 +24125,1272 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 9.680000000000001,
+					["ActiveTime"] = 10.5,
 					["TimeDamaging"] = {
-						["萨巴克希斯"] = {
+						["得撸艺"] = {
 							["Details"] = {
-								["横扫"] = {
+								["闪电链"] = {
 									["count"] = 1.5,
 								},
-								["爪击"] = {
-									["count"] = 4.02,
-								},
+							},
+							["amount"] = 1.5,
+						},
+						["南宫浮生"] = {
+							["Details"] = {
 								["肉搏"] = {
-									["count"] = 4.16,
+									["count"] = 9,
 								},
 							},
-							["amount"] = 9.680000000000001,
+							["amount"] = 9,
 						},
 					},
 					["ElementTaken"] = {
-						["Melee"] = 102,
+						["Holy"] = 648,
+						["Melee"] = 354,
+						["Physical"] = 190,
+						["Frost"] = 604,
+						["Nature"] = 46,
 					},
-					["ElementDone"] = {
-						["Melee"] = 23,
-						["Physical"] = 11,
+					["DamagedWho"] = {
+						["得撸艺"] = {
+							["Details"] = {
+								["闪电链"] = {
+									["count"] = 97,
+								},
+							},
+							["amount"] = 97,
+						},
+						["南宫浮生"] = {
+							["Details"] = {
+								["闪电链"] = {
+									["count"] = 104,
+								},
+								["肉搏"] = {
+									["count"] = 268,
+								},
+							},
+							["amount"] = 372,
+						},
+						["三自四有"] = {
+							["Details"] = {
+								["闪电链"] = {
+									["count"] = 145,
+								},
+							},
+							["amount"] = 145,
+						},
 					},
-					["Damage"] = 34,
+					["Damage"] = 614,
 				},
 			},
-			["LastDamageTaken"] = 28,
-			["UnitLockout"] = 1921.523,
-			["LastAbility"] = 54308.047,
+			["DeathLogs"] = {
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						true, -- [2]
+						true, -- [3]
+						true, -- [4]
+						true, -- [5]
+						true, -- [6]
+						true, -- [7]
+						true, -- [8]
+						true, -- [9]
+						true, -- [10]
+						true, -- [11]
+						false, -- [12]
+						false, -- [13]
+						false, -- [14]
+						true, -- [15]
+						true, -- [16]
+						true, -- [17]
+						true, -- [18]
+						true, -- [19]
+						true, -- [20]
+						false, -- [21]
+						true, -- [22]
+						true, -- [23]
+						true, -- [24]
+						true, -- [25]
+						true, -- [26]
+						true, -- [27]
+						true, -- [28]
+						true, -- [29]
+						true, -- [30]
+						true, -- [31]
+						true, -- [32]
+						false, -- [33]
+						true, -- [34]
+						true, -- [35]
+						true, -- [36]
+						true, -- [37]
+						true, -- [38]
+						true, -- [39]
+						true, -- [40]
+						true, -- [41]
+						true, -- [42]
+						true, -- [43]
+						false, -- [44]
+						true, -- [45]
+						true, -- [46]
+						true, -- [47]
+						true, -- [48]
+						true, -- [49]
+						true, -- [50]
+					},
+					["Messages"] = {
+						"南宫浮生 命令圣印 哈姆霍克 Crit -104 (Holy)", -- [1]
+						"南宫浮生 奉献 (伤害/跳) 哈姆霍克 Tick -20 (Holy)", -- [2]
+						"南宫浮生 奉献 (伤害/跳) 哈姆霍克 Tick -19 (Holy)", -- [3]
+						"查尔斯三世 暴风雪 哈姆霍克 Hit -72 (Frost)", -- [4]
+						"南宫浮生 智慧审判 哈姆霍克 Miss (Holy)", -- [5]
+						"查尔斯三世 暴风雪 哈姆霍克 Hit -72 (Frost)", -- [6]
+						"南宫浮生 奉献 (伤害/跳) 哈姆霍克 Tick -19 (Holy)", -- [7]
+						"三自四有 奉献 (伤害/跳) 哈姆霍克 Tick -17 (Holy)", -- [8]
+						"查尔斯三世 暴风雪 哈姆霍克 Hit -73 (Frost)", -- [9]
+						"南宫浮生 肉搏 哈姆霍克 Hit -98 (Physical)", -- [10]
+						"南宫浮生 命令圣印 哈姆霍克 Hit -52 (Holy)", -- [11]
+						"哈姆霍克 闪电链 得撸艺 Hit -97 (Nature)", -- [12]
+						"哈姆霍克 闪电链 三自四有 Hit -145 (Nature)", -- [13]
+						"哈姆霍克 闪电链 南宫浮生 Hit -104 (Nature)", -- [14]
+						"南宫浮生 奉献 (伤害/跳) 哈姆霍克 Tick -20 (Holy)", -- [15]
+						"三自四有 奉献 (伤害/跳) 哈姆霍克 Tick -17 (Holy)", -- [16]
+						"查尔斯三世 暴风雪 哈姆霍克 Hit -73 (Frost)", -- [17]
+						"三自四有 奉献 (伤害/跳) 哈姆霍克 Tick -17 (Holy)", -- [18]
+						"南宫浮生 奉献 (伤害/跳) 哈姆霍克 Tick -19 (Holy)", -- [19]
+						"查尔斯三世 暴风雪 哈姆霍克 Hit -73 (Frost)", -- [20]
+						"哈姆霍克 肉搏 南宫浮生 Hit -31 (Physical)", -- [21]
+						"南宫浮生 荆棘术 哈姆霍克 Hit -9 (Nature)", -- [22]
+						"南宫浮生 惩戒光环 哈姆霍克 Hit -18 (Holy)", -- [23]
+						"三自四有 奉献 (伤害/跳) 哈姆霍克 Tick -17 (Holy)", -- [24]
+						"南宫浮生 奉献 (伤害/跳) 哈姆霍克 Tick -20 (Holy)", -- [25]
+						"查尔斯三世 暴风雪 哈姆霍克 Hit -73 (Frost)", -- [26]
+						"南宫浮生 命令圣印 哈姆霍克 Hit -44 (Holy)", -- [27]
+						"祝雨来 背刺 哈姆霍克 Crit -190 (Physical)", -- [28]
+						"祝雨来 肉搏 哈姆霍克 Dodge (1)", -- [29]
+						"三自四有 奉献 (伤害/跳) 哈姆霍克 Tick -18 (Holy)", -- [30]
+						"南宫浮生 奉献 (伤害/跳) 哈姆霍克 Tick -20 (Holy)", -- [31]
+						"查尔斯三世 暴风雪 哈姆霍克 Hit -72 (Frost)", -- [32]
+						"哈姆霍克 肉搏 南宫浮生 Crit -66 (Physical)", -- [33]
+						"南宫浮生 荆棘术 哈姆霍克 Hit -9 (Nature)", -- [34]
+						"南宫浮生 惩戒光环 哈姆霍克 Hit -18 (Holy)", -- [35]
+						"祝雨来 速效药膏 哈姆霍克 Miss (Nature)", -- [36]
+						"祝雨来 肉搏 哈姆霍克 Crit -53 (Physical)", -- [37]
+						"三自四有 奉献 (伤害/跳) 哈姆霍克 Tick -17 (Holy)", -- [38]
+						"查尔斯三世 暴风雪 哈姆霍克 Hit -73 (Frost)", -- [39]
+						"祝雨来 肉搏 哈姆霍克 Hit -40 (Physical)", -- [40]
+						"三自四有 奉献 (伤害/跳) 哈姆霍克 Tick -18 (Holy)", -- [41]
+						"南宫浮生 奉献 (伤害/跳) 哈姆霍克 Tick -20 (Holy)", -- [42]
+						"查尔斯三世 冰霜新星 哈姆霍克 Hit -23 (Frost)", -- [43]
+						"哈姆霍克 肉搏 南宫浮生 Hit -36 (Physical)", -- [44]
+						"南宫浮生 荆棘术 哈姆霍克 Hit -9 (Nature)", -- [45]
+						"南宫浮生 惩戒光环 哈姆霍克 Hit -18 (Holy)", -- [46]
+						"祝雨来 肉搏 哈姆霍克 Hit -26 (Physical)", -- [47]
+						"祝雨来 肉搏 哈姆霍克 Hit -32 (Physical)", -- [48]
+						"南宫浮生 奉献 (伤害/跳) 哈姆霍克 Tick -20 (Holy)", -- [49]
+						"哈姆霍克死亡。", -- [50]
+					},
+					["DeathAt"] = 45517.191,
+					["EventNum"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						0, -- [15]
+						0, -- [16]
+						0, -- [17]
+						0, -- [18]
+						0, -- [19]
+						0, -- [20]
+						0, -- [21]
+						0, -- [22]
+						0, -- [23]
+						0, -- [24]
+						0, -- [25]
+						0, -- [26]
+						0, -- [27]
+						0, -- [28]
+						0, -- [29]
+						0, -- [30]
+						0, -- [31]
+						0, -- [32]
+						0, -- [33]
+						0, -- [34]
+						0, -- [35]
+						0, -- [36]
+						0, -- [37]
+						0, -- [38]
+						0, -- [39]
+						0, -- [40]
+						0, -- [41]
+						0, -- [42]
+						0, -- [43]
+						0, -- [44]
+						0, -- [45]
+						0, -- [46]
+						0, -- [47]
+						0, -- [48]
+						0, -- [49]
+						0, -- [50]
+					},
+					["MessageTimes"] = {
+						-10.46800000000076, -- [1]
+						-10.0769999999975, -- [2]
+						-9.074000000000524, -- [3]
+						-8.932000000000698, -- [4]
+						-8.860000000000582, -- [5]
+						-7.938999999998487, -- [6]
+						-7.076000000000931, -- [7]
+						-7.040999999997439, -- [8]
+						-6.938999999998487, -- [9]
+						-6.860999999997148, -- [10]
+						-6.860999999997148, -- [11]
+						-6.830000000001746, -- [12]
+						-6.830000000001746, -- [13]
+						-6.830000000001746, -- [14]
+						-6.074000000000524, -- [15]
+						-6.046000000002096, -- [16]
+						-5.934999999997672, -- [17]
+						-5.027999999998428, -- [18]
+						-5.02100000000064, -- [19]
+						-4.934999999997672, -- [20]
+						-4.819999999999709, -- [21]
+						-4.805999999996857, -- [22]
+						-4.805999999996857, -- [23]
+						-4.031999999999243, -- [24]
+						-4.025000000001455, -- [25]
+						-3.94199999999546, -- [26]
+						-3.261999999995169, -- [27]
+						-3.139999999999418, -- [28]
+						-3.089999999996508, -- [29]
+						-3.034999999996217, -- [30]
+						-3.027999999998428, -- [31]
+						-2.947000000000116, -- [32]
+						-2.817999999999302, -- [33]
+						-2.809999999997672, -- [34]
+						-2.809999999997672, -- [35]
+						-2.22099999999773, -- [36]
+						-2.22099999999773, -- [37]
+						-2.036000000000058, -- [38]
+						-1.94199999999546, -- [39]
+						-1.622999999999593, -- [40]
+						-1.042000000001281, -- [41]
+						-1.027000000001863, -- [42]
+						-0.919000000001688, -- [43]
+						-0.809000000001106, -- [44]
+						-0.8019999999960419, -- [45]
+						-0.8019999999960419, -- [46]
+						-0.7439999999987776, -- [47]
+						-0.3649999999979627, -- [48]
+						-0.01599999999598367, -- [49]
+						0, -- [50]
+					},
+					["HealthMax"] = {
+						1830, -- [1]
+						1830, -- [2]
+						1830, -- [3]
+						1830, -- [4]
+						1830, -- [5]
+						1830, -- [6]
+						1830, -- [7]
+						1830, -- [8]
+						1830, -- [9]
+						1830, -- [10]
+						1830, -- [11]
+						1830, -- [12]
+						1830, -- [13]
+						1830, -- [14]
+						1830, -- [15]
+						1830, -- [16]
+						1830, -- [17]
+						1830, -- [18]
+						1830, -- [19]
+						1830, -- [20]
+						1830, -- [21]
+						1830, -- [22]
+						1830, -- [23]
+						1830, -- [24]
+						1830, -- [25]
+						1830, -- [26]
+						1830, -- [27]
+						1830, -- [28]
+						1830, -- [29]
+						1830, -- [30]
+						1830, -- [31]
+						1830, -- [32]
+						1830, -- [33]
+						1830, -- [34]
+						1830, -- [35]
+						1830, -- [36]
+						1830, -- [37]
+						1830, -- [38]
+						1830, -- [39]
+						1830, -- [40]
+						1830, -- [41]
+						1830, -- [42]
+						1830, -- [43]
+						1830, -- [44]
+						1830, -- [45]
+						1830, -- [46]
+						1830, -- [47]
+						1830, -- [48]
+						1830, -- [49]
+						1830, -- [50]
+					},
+					["Health"] = {
+						1743, -- [1]
+						1506, -- [2]
+						1486, -- [3]
+						1467, -- [4]
+						1467, -- [5]
+						1395, -- [6]
+						1323, -- [7]
+						1323, -- [8]
+						1323, -- [9]
+						1214, -- [10]
+						1214, -- [11]
+						1214, -- [12]
+						1214, -- [13]
+						1214, -- [14]
+						1064, -- [15]
+						1064, -- [16]
+						1027, -- [17]
+						954, -- [18]
+						954, -- [19]
+						954, -- [20]
+						845, -- [21]
+						845, -- [22]
+						845, -- [23]
+						818, -- [24]
+						818, -- [25]
+						781, -- [26]
+						708, -- [27]
+						664, -- [28]
+						474, -- [29]
+						474, -- [30]
+						474, -- [31]
+						474, -- [32]
+						364, -- [33]
+						364, -- [34]
+						364, -- [35]
+						337, -- [36]
+						337, -- [37]
+						284, -- [38]
+						267, -- [39]
+						194, -- [40]
+						154, -- [41]
+						154, -- [42]
+						116, -- [43]
+						93, -- [44]
+						93, -- [45]
+						93, -- [46]
+						66, -- [47]
+						40, -- [48]
+						8, -- [49]
+						0, -- [50]
+					},
+					["KilledBy"] = "南宫浮生",
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"DAMAGE", -- [8]
+						"DAMAGE", -- [9]
+						"DAMAGE", -- [10]
+						"DAMAGE", -- [11]
+						"DAMAGE", -- [12]
+						"DAMAGE", -- [13]
+						"DAMAGE", -- [14]
+						"DAMAGE", -- [15]
+						"DAMAGE", -- [16]
+						"DAMAGE", -- [17]
+						"DAMAGE", -- [18]
+						"DAMAGE", -- [19]
+						"DAMAGE", -- [20]
+						"DAMAGE", -- [21]
+						"DAMAGE", -- [22]
+						"DAMAGE", -- [23]
+						"DAMAGE", -- [24]
+						"DAMAGE", -- [25]
+						"DAMAGE", -- [26]
+						"DAMAGE", -- [27]
+						"DAMAGE", -- [28]
+						"DAMAGE", -- [29]
+						"DAMAGE", -- [30]
+						"DAMAGE", -- [31]
+						"DAMAGE", -- [32]
+						"DAMAGE", -- [33]
+						"DAMAGE", -- [34]
+						"DAMAGE", -- [35]
+						"DAMAGE", -- [36]
+						"DAMAGE", -- [37]
+						"DAMAGE", -- [38]
+						"DAMAGE", -- [39]
+						"DAMAGE", -- [40]
+						"DAMAGE", -- [41]
+						"DAMAGE", -- [42]
+						"DAMAGE", -- [43]
+						"DAMAGE", -- [44]
+						"DAMAGE", -- [45]
+						"DAMAGE", -- [46]
+						"DAMAGE", -- [47]
+						"DAMAGE", -- [48]
+						"DAMAGE", -- [49]
+						"MISC", -- [50]
+					},
+				}, -- [1]
+			},
+			["UnitLockout"] = 45511.194,
+			["LastAbility"] = 52289.367,
 		},
 	},
-	["FightNum"] = 952,
+	["FightNum"] = 118,
 	["CombatTimes"] = {
 		{
-			18315.966, -- [1]
-			18321.971, -- [2]
-			"15:07:12", -- [3]
-			"15:07:18", -- [4]
-			"蓬毛幼狼", -- [5]
+			44787.196, -- [1]
+			44836.192, -- [2]
+			"22:27:12", -- [3]
+			"22:28:01", -- [4]
+			"可怕的塔格尔", -- [5]
 		}, -- [1]
 		{
-			18325.963, -- [1]
-			18330.971, -- [2]
-			"15:07:22", -- [3]
-			"15:07:27", -- [4]
-			"蓬毛幼狼", -- [5]
+			44839.195, -- [1]
+			44874.195, -- [2]
+			"22:28:04", -- [3]
+			"22:28:39", -- [4]
+			"迪菲亚俘虏", -- [5]
 		}, -- [2]
 		{
-			18345.97, -- [1]
-			18350.966, -- [2]
-			"15:07:43", -- [3]
-			"15:07:47", -- [4]
-			"蓬毛幼狼", -- [5]
+			44890.191, -- [1]
+			44903.195, -- [2]
+			"22:28:56", -- [3]
+			"22:29:08", -- [4]
+			"迪菲亚狱友", -- [5]
 		}, -- [3]
 		{
-			18362.968, -- [1]
-			18366.966, -- [2]
-			"15:07:59", -- [3]
-			"15:08:03", -- [4]
-			"蓬毛森林狼", -- [5]
+			44910.204, -- [1]
+			44950.192, -- [2]
+			"22:29:15", -- [3]
+			"22:29:55", -- [4]
+			"迪菲亚狱友", -- [5]
 		}, -- [4]
 		{
-			18376.968, -- [1]
-			18380.968, -- [2]
-			"15:08:13", -- [3]
-			"15:08:17", -- [4]
-			"蓬毛幼狼", -- [5]
+			44961.195, -- [1]
+			44989.194, -- [2]
+			"22:30:06", -- [3]
+			"22:30:34", -- [4]
+			"迪菲亚狱友", -- [5]
 		}, -- [5]
 		{
-			18385.969, -- [1]
-			18389.97, -- [2]
-			"15:08:22", -- [3]
-			"15:08:26", -- [4]
-			"蓬毛幼狼", -- [5]
+			45052.194, -- [1]
+			45079.198, -- [2]
+			"22:31:37", -- [3]
+			"22:32:04", -- [4]
+			"迪菲亚狱友", -- [5]
 		}, -- [6]
 		{
-			18397.969, -- [1]
-			18401.971, -- [2]
-			"15:08:34", -- [3]
-			"15:08:38", -- [4]
-			"蓬毛幼狼", -- [5]
+			45090.217, -- [1]
+			45116.191, -- [2]
+			"22:32:15", -- [3]
+			"22:32:41", -- [4]
+			"迪菲亚狱友", -- [5]
 		}, -- [7]
 		{
-			18477.966, -- [1]
-			18481.97, -- [2]
-			"15:09:54", -- [3]
-			"15:09:58", -- [4]
-			"石腭穴居人", -- [5]
+			45123.206, -- [1]
+			45132.196, -- [2]
+			"22:32:48", -- [3]
+			"22:32:57", -- [4]
+			"迪菲亚囚徒", -- [5]
 		}, -- [8]
 		{
-			18483.972, -- [1]
-			18487.965, -- [2]
-			"15:10:00", -- [3]
-			"15:10:04", -- [4]
-			"石腭穴居人", -- [5]
+			45135.191, -- [1]
+			45195.193, -- [2]
+			"22:33:00", -- [3]
+			"22:34:00", -- [4]
+			"迪菲亚囚徒", -- [5]
 		}, -- [9]
 		{
-			18492.968, -- [1]
-			18496.968, -- [2]
-			"15:10:09", -- [3]
-			"15:10:13", -- [4]
-			"壮实的石腭穴居人", -- [5]
+			45195.193, -- [1]
+			45199.191, -- [2]
+			"22:34:00", -- [3]
+			"22:34:04", -- [4]
+			"迪菲亚囚徒", -- [5]
 		}, -- [10]
 		{
-			18504.965, -- [1]
-			18508.967, -- [2]
-			"15:10:21", -- [3]
-			"15:10:25", -- [4]
-			"壮实的石腭穴居人", -- [5]
+			45225.196, -- [1]
+			45270.196, -- [2]
+			"22:34:31", -- [3]
+			"22:35:15", -- [4]
+			"迪菲亚囚徒", -- [5]
 		}, -- [11]
 		{
-			18513.966, -- [1]
-			18519.969, -- [2]
-			"15:10:30", -- [3]
-			"15:10:36", -- [4]
-			"石腭穴居人", -- [5]
+			45275.194, -- [1]
+			45286.191, -- [2]
+			"22:35:21", -- [3]
+			"22:35:31", -- [4]
+			"迪克斯特·瓦德", -- [5]
 		}, -- [12]
 		{
-			18522.965, -- [1]
-			18526.966, -- [2]
-			"15:10:39", -- [3]
-			"15:10:43", -- [4]
-			"石腭穴居人", -- [5]
+			45314.191, -- [1]
+			45331.191, -- [2]
+			"22:36:00", -- [3]
+			"22:36:16", -- [4]
+			"迪菲亚罪犯", -- [5]
 		}, -- [13]
 		{
-			18530.965, -- [1]
-			18536.965, -- [2]
-			"15:10:47", -- [3]
-			"15:10:53", -- [4]
-			"壮实的石腭穴居人", -- [5]
+			45337.195, -- [1]
+			45359.195, -- [2]
+			"22:36:23", -- [3]
+			"22:36:44", -- [4]
+			"迪菲亚狱友", -- [5]
 		}, -- [14]
 		{
-			18540.966, -- [1]
-			18546.969, -- [2]
-			"15:10:57", -- [3]
-			"15:11:03", -- [4]
-			"壮实的石腭穴居人", -- [5]
+			45364.198, -- [1]
+			45386.191, -- [2]
+			"22:36:49", -- [3]
+			"22:37:11", -- [4]
+			"迪菲亚罪犯", -- [5]
 		}, -- [15]
 		{
-			18550.963, -- [1]
-			18554.964, -- [2]
-			"15:11:07", -- [3]
-			"15:11:11", -- [4]
-			"壮实的石腭穴居人", -- [5]
+			45395.193, -- [1]
+			45462.197, -- [2]
+			"22:37:20", -- [3]
+			"22:38:27", -- [4]
+			"卡姆·深怒", -- [5]
 		}, -- [16]
 		{
-			18557.964, -- [1]
-			18561.963, -- [2]
-			"15:11:14", -- [3]
-			"15:11:18", -- [4]
-			"石腭穴居人", -- [5]
+			45498.193, -- [1]
+			45520.193, -- [2]
+			"22:39:03", -- [3]
+			"22:39:25", -- [4]
+			"哈姆霍克", -- [5]
 		}, -- [17]
 		{
-			18567.969, -- [1]
-			18571.964, -- [2]
-			"15:11:24", -- [3]
-			"15:11:28", -- [4]
-			"壮实的石腭穴居人", -- [5]
+			45530.193, -- [1]
+			45551.192, -- [2]
+			"22:39:36", -- [3]
+			"22:39:56", -- [4]
+			"迪菲亚狱友", -- [5]
 		}, -- [18]
 		{
-			18576.967, -- [1]
-			18580.968, -- [2]
-			"15:11:33", -- [3]
-			"15:11:37", -- [4]
-			"石腭穴居人", -- [5]
+			45557.191, -- [1]
+			45579.191, -- [2]
+			"22:40:02", -- [3]
+			"22:40:24", -- [4]
+			"巴基尔·斯瑞德", -- [5]
 		}, -- [19]
 		{
-			18661.97, -- [1]
-			18668.97, -- [2]
-			"15:12:58", -- [3]
-			"15:13:05", -- [4]
-			"小型峭壁野猪", -- [5]
+			45590.195, -- [1]
+			45613.192, -- [2]
+			"22:40:35", -- [3]
+			"22:40:58", -- [4]
+			"迪菲亚叛军", -- [5]
 		}, -- [20]
 		{
-			18672.972, -- [1]
-			18677.964, -- [2]
-			"15:13:09", -- [3]
-			"15:13:14", -- [4]
-			"小型峭壁野猪", -- [5]
+			45700.197, -- [1]
+			45725.191, -- [2]
+			"22:42:25", -- [3]
+			"22:42:50", -- [4]
+			"弃灵", -- [5]
 		}, -- [21]
 		{
-			18682.972, -- [1]
-			18690.971, -- [2]
-			"15:13:19", -- [3]
-			"15:13:27", -- [4]
-			"小型峭壁野猪", -- [5]
+			47766.17, -- [1]
+			47787.17, -- [2]
+			"23:16:51", -- [3]
+			"23:17:12", -- [4]
+			"暗皮杀手", -- [5]
 		}, -- [22]
 		{
-			18693.97, -- [1]
-			18699.968, -- [2]
-			"15:13:30", -- [3]
-			"15:13:36", -- [4]
-			"小型峭壁野猪", -- [5]
+			47794.175, -- [1]
+			47803.171, -- [2]
+			"23:17:19", -- [3]
+			"23:17:28", -- [4]
+			"暗皮巫师", -- [5]
 		}, -- [23]
 		{
-			18708.964, -- [1]
-			18714.963, -- [2]
-			"15:13:45", -- [3]
-			"15:13:51", -- [4]
-			"小型峭壁野猪", -- [5]
+			47815.176, -- [1]
+			47827.17, -- [2]
+			"23:17:40", -- [3]
+			"23:17:52", -- [4]
+			"伊尔加拉的仆从", -- [5]
 		}, -- [24]
 		{
-			18720.968, -- [1]
-			18726.969, -- [2]
-			"15:13:57", -- [3]
-			"15:14:03", -- [4]
-			"小型峭壁野猪", -- [5]
+			47844.174, -- [1]
+			47863.176, -- [2]
+			"23:18:10", -- [3]
+			"23:18:28", -- [4]
+			"伊尔加拉的仆从", -- [5]
 		}, -- [25]
 		{
-			18729.97, -- [1]
-			18735.971, -- [2]
-			"15:14:06", -- [3]
-			"15:14:12", -- [4]
-			"小型峭壁野猪", -- [5]
+			47887.173, -- [1]
+			47896.172, -- [2]
+			"23:18:52", -- [3]
+			"23:19:01", -- [4]
+			"暗皮巫师", -- [5]
 		}, -- [26]
 		{
-			18746.964, -- [1]
-			18752.974, -- [2]
-			"15:14:23", -- [3]
-			"15:14:29", -- [4]
-			"小型峭壁野猪", -- [5]
+			47901.172, -- [1]
+			47932.177, -- [2]
+			"23:19:06", -- [3]
+			"23:19:37", -- [4]
+			"暗皮杀手", -- [5]
 		}, -- [27]
 		{
-			18806.963, -- [1]
-			18813.965, -- [2]
-			"15:15:23", -- [3]
-			"15:15:30", -- [4]
-			"霜鬃巨魔幼崽", -- [5]
+			47963.173, -- [1]
+			47977.174, -- [2]
+			"23:20:08", -- [3]
+			"23:20:22", -- [4]
+			"伊尔加拉的仆从", -- [5]
 		}, -- [28]
 		{
-			18815.967, -- [1]
-			18824.967, -- [2]
-			"15:15:32", -- [3]
-			"15:15:41", -- [4]
-			"霜鬃巨魔幼崽", -- [5]
+			48161.176, -- [1]
+			48183.182, -- [2]
+			"23:23:26", -- [3]
+			"23:23:48", -- [4]
+			"弃灵", -- [5]
 		}, -- [29]
 		{
-			18828.964, -- [1]
-			18836.967, -- [2]
-			"15:15:45", -- [3]
-			"15:15:53", -- [4]
-			"霜鬃巨魔幼崽", -- [5]
+			48192.17, -- [1]
+			48204.18, -- [2]
+			"23:23:57", -- [3]
+			"23:24:09", -- [4]
+			"觅食的灰狼", -- [5]
 		}, -- [30]
 		{
-			18839.967, -- [1]
-			18845.97, -- [2]
-			"15:15:56", -- [3]
-			"15:16:02", -- [4]
-			"霜鬃巨魔幼崽", -- [5]
+			48363.175, -- [1]
+			48385.178, -- [2]
+			"23:26:48", -- [3]
+			"23:27:10", -- [4]
+			"斯塔文·密斯特曼托", -- [5]
 		}, -- [31]
 		{
-			18848.963, -- [1]
-			18854.972, -- [2]
-			"15:16:05", -- [3]
-			"15:16:11", -- [4]
-			"霜鬃巨魔幼崽", -- [5]
+			48613.178, -- [1]
+			48636.177, -- [2]
+			"23:30:58", -- [3]
+			"23:31:21", -- [4]
+			"迪菲亚附魔师", -- [5]
 		}, -- [32]
 		{
-			18858.971, -- [1]
-			18869.971, -- [2]
-			"15:16:15", -- [3]
-			"15:16:26", -- [4]
-			"霜鬃巨魔幼崽", -- [5]
+			48662.181, -- [1]
+			48668.182, -- [2]
+			"23:31:48", -- [3]
+			"23:31:53", -- [4]
+			"迪菲亚夜贼", -- [5]
 		}, -- [33]
 		{
-			18874.968, -- [1]
-			18881.966, -- [2]
-			"15:16:31", -- [3]
-			"15:16:38", -- [4]
-			"霜鬃巨魔幼崽", -- [5]
+			48696.172, -- [1]
+			48707.176, -- [2]
+			"23:32:21", -- [3]
+			"23:32:32", -- [4]
+			"黑色破坏者幼崽", -- [5]
 		}, -- [34]
 		{
-			18958.965, -- [1]
-			18965.972, -- [2]
-			"15:17:55", -- [3]
-			"15:18:02", -- [4]
-			"霜鬃巨魔幼崽", -- [5]
+			48708.18, -- [1]
+			48719.174, -- [2]
+			"23:32:33", -- [3]
+			"23:32:44", -- [4]
+			"黑色破坏者幼崽", -- [5]
 		}, -- [35]
 		{
-			19004.07, -- [1]
-			19010.069, -- [2]
-			"15:18:40", -- [3]
-			"15:18:46", -- [4]
-			"霜鬃巨魔幼崽", -- [5]
+			48814.179, -- [1]
+			48841.18, -- [2]
+			"23:34:19", -- [3]
+			"23:34:46", -- [4]
+			"缝合怪", -- [5]
 		}, -- [36]
 		{
-			19012.071, -- [1]
-			19018.066, -- [2]
-			"15:18:48", -- [3]
-			"15:18:54", -- [4]
-			"霜鬃巨魔幼崽", -- [5]
+			49096.177, -- [1]
+			49114.173, -- [2]
+			"23:39:01", -- [3]
+			"23:39:19", -- [4]
+			"旧城区暴徒", -- [5]
 		}, -- [37]
 		{
-			19117.065, -- [1]
-			19127.07, -- [2]
-			"15:20:33", -- [3]
-			"15:20:43", -- [4]
-			"冷酷的格瑞克尼尔", -- [5]
+			49784.176, -- [1]
+			49804.174, -- [2]
+			"23:50:29", -- [3]
+			"23:50:49", -- [4]
+			"\"干柴\"塔伯克·贾恩", -- [5]
 		}, -- [38]
 		{
-			19656.068, -- [1]
-			19662.069, -- [2]
-			"15:29:33", -- [3]
-			"15:29:38", -- [4]
-			"石腭袭击者", -- [5]
+			49878.172, -- [1]
+			49937.178, -- [2]
+			"23:52:04", -- [3]
+			"23:53:02", -- [4]
+			"蓝腮袭击者", -- [5]
 		}, -- [39]
 		{
-			19667.066, -- [1]
-			19673.067, -- [2]
-			"15:29:44", -- [3]
-			"15:29:49", -- [4]
-			"石腭袭击者", -- [5]
+			49943.175, -- [1]
+			49957.177, -- [2]
+			"23:53:08", -- [3]
+			"23:53:22", -- [4]
+			"蓝腮袭击者", -- [5]
 		}, -- [40]
 		{
-			19677.066, -- [1]
-			19683.065, -- [2]
-			"15:29:53", -- [3]
-			"15:29:59", -- [4]
-			"石腭袭击者", -- [5]
+			49978.171, -- [1]
+			49987.17, -- [2]
+			"23:53:43", -- [3]
+			"23:53:52", -- [4]
+			"蓝腮袭击者", -- [5]
 		}, -- [41]
 		{
-			19689.069, -- [1]
-			19694.071, -- [2]
-			"15:30:05", -- [3]
-			"15:30:10", -- [4]
-			"石腭袭击者", -- [5]
+			49996.178, -- [1]
+			50008.178, -- [2]
+			"23:54:01", -- [3]
+			"23:54:13", -- [4]
+			"蓝腮袭击者", -- [5]
 		}, -- [42]
 		{
-			19704.068, -- [1]
-			19709.067, -- [2]
-			"15:30:21", -- [3]
-			"15:30:25", -- [4]
-			"石腭袭击者", -- [5]
+			50038.175, -- [1]
+			50047.179, -- [2]
+			"23:54:43", -- [3]
+			"23:54:52", -- [4]
+			"蓝腮袭击者", -- [5]
 		}, -- [43]
 		{
-			19718.068, -- [1]
-			19722.067, -- [2]
-			"15:30:34", -- [3]
-			"15:30:38", -- [4]
-			"石腭袭击者", -- [5]
+			50076.177, -- [1]
+			50091.177, -- [2]
+			"23:55:21", -- [3]
+			"23:55:36", -- [4]
+			"蓝腮袭击者", -- [5]
 		}, -- [44]
 		{
-			20215.605, -- [1]
-			20224.611, -- [2]
-			"15:38:52", -- [3]
-			"15:39:00", -- [4]
-			"黑熊幼崽", -- [5]
+			50095.178, -- [1]
+			50103.177, -- [2]
+			"23:55:41", -- [3]
+			"23:55:48", -- [4]
+			"蓝腮袭击者", -- [5]
 		}, -- [45]
 		{
-			20228.602, -- [1]
-			20235.608, -- [2]
-			"15:39:05", -- [3]
-			"15:39:11", -- [4]
-			"峭壁野猪", -- [5]
+			50113.176, -- [1]
+			50122.171, -- [2]
+			"23:55:59", -- [3]
+			"23:56:07", -- [4]
+			"蓝腮袭击者", -- [5]
 		}, -- [46]
 		{
-			20247.609, -- [1]
-			20255.607, -- [2]
-			"15:39:24", -- [3]
-			"15:39:31", -- [4]
-			"大峭壁野猪", -- [5]
+			50153.177, -- [1]
+			50161.173, -- [2]
+			"23:56:38", -- [3]
+			"23:56:46", -- [4]
+			"蓝腮袭击者", -- [5]
 		}, -- [47]
 		{
-			20297.605, -- [1]
-			20304.607, -- [2]
-			"15:40:14", -- [3]
-			"15:40:20", -- [4]
-			"峭壁野猪", -- [5]
+			50181.202, -- [1]
+			50193.175, -- [2]
+			"23:57:06", -- [3]
+			"23:57:18", -- [4]
+			"蓝腮袭击者", -- [5]
 		}, -- [48]
 		{
-			20310.607, -- [1]
-			20320.606, -- [2]
-			"15:40:27", -- [3]
-			"15:40:36", -- [4]
-			"黑熊幼崽", -- [5]
+			50230.173, -- [1]
+			50239.178, -- [2]
+			"23:57:55", -- [3]
+			"23:58:04", -- [4]
+			"蓝腮袭击者", -- [5]
 		}, -- [49]
 		{
-			20323.603, -- [1]
-			20328.606, -- [2]
-			"15:40:39", -- [3]
-			"15:40:44", -- [4]
-			"峭壁野猪", -- [5]
+			50251.188, -- [1]
+			50260.18, -- [2]
+			"23:58:16", -- [3]
+			"23:58:25", -- [4]
+			"蓝腮袭击者", -- [5]
 		}, -- [50]
 		{
-			20337.607, -- [1]
-			20348.607, -- [2]
-			"15:40:54", -- [3]
-			"15:41:04", -- [4]
-			"峭壁野猪", -- [5]
+			50271.181, -- [1]
+			50283.176, -- [2]
+			"23:58:36", -- [3]
+			"23:58:48", -- [4]
+			"蓝腮袭击者", -- [5]
 		}, -- [51]
 		{
-			20352.612, -- [1]
-			20360.612, -- [2]
-			"15:41:09", -- [3]
-			"15:41:16", -- [4]
-			"黑熊幼崽", -- [5]
+			50295.18, -- [1]
+			50306.174, -- [2]
+			"23:59:01", -- [3]
+			"23:59:11", -- [4]
+			"蓝腮袭击者", -- [5]
 		}, -- [52]
 		{
-			20377.605, -- [1]
-			20385.603, -- [2]
-			"15:41:34", -- [3]
-			"15:41:41", -- [4]
-			"大峭壁野猪", -- [5]
+			50378.174, -- [1]
+			50388.178, -- [2]
+			"00:00:23", -- [3]
+			"00:00:33", -- [4]
+			"蓝腮袭击者", -- [5]
 		}, -- [53]
 		{
-			20391.604, -- [1]
-			20397.603, -- [2]
-			"15:41:48", -- [3]
-			"15:41:53", -- [4]
-			"峭壁野猪", -- [5]
+			50711.18, -- [1]
+			50724.181, -- [2]
+			"00:05:57", -- [3]
+			"00:06:09", -- [4]
+			"藓皮蛮兵", -- [5]
 		}, -- [54]
 		{
-			20407.61, -- [1]
-			20413.61, -- [2]
-			"15:42:04", -- [3]
-			"15:42:09", -- [4]
-			"峭壁野猪", -- [5]
+			50943.17, -- [1]
+			50952.178, -- [2]
+			"00:09:48", -- [3]
+			"00:09:57", -- [4]
+			"黑铁破坏者", -- [5]
 		}, -- [55]
 		{
-			20419.605, -- [1]
-			20461.602, -- [2]
-			"15:42:15", -- [3]
-			"15:42:57", -- [4]
-			"冰爪熊", -- [5]
+			50956.17, -- [1]
+			50975.177, -- [2]
+			"00:10:01", -- [3]
+			"00:10:20", -- [4]
+			"黑铁爆破手", -- [5]
 		}, -- [56]
 		{
-			20472.605, -- [1]
-			20478.61, -- [2]
-			"15:43:09", -- [3]
-			"15:43:14", -- [4]
-			"大峭壁野猪", -- [5]
+			50993.175, -- [1]
+			51018.171, -- [2]
+			"00:10:39", -- [3]
+			"00:11:03", -- [4]
+			"虚空行者", -- [5]
 		}, -- [57]
 		{
-			20485.608, -- [1]
-			20490.612, -- [2]
-			"15:43:22", -- [3]
-			"15:43:26", -- [4]
-			"峭壁野猪", -- [5]
+			51045.172, -- [1]
+			51057.178, -- [2]
+			"00:11:30", -- [3]
+			"00:11:42", -- [4]
+			"黑铁隧道工", -- [5]
 		}, -- [58]
 		{
-			20507.607, -- [1]
-			20514.605, -- [2]
-			"15:43:43", -- [3]
-			"15:43:50", -- [4]
-			"大峭壁野猪", -- [5]
+			51077.178, -- [1]
+			51119.171, -- [2]
+			"00:12:03", -- [3]
+			"00:12:44", -- [4]
+			"黑铁爆破手", -- [5]
 		}, -- [59]
 		{
-			20527.602, -- [1]
-			20533.607, -- [2]
-			"15:44:03", -- [3]
-			"15:44:09", -- [4]
-			"峭壁野猪", -- [5]
+			51221.171, -- [1]
+			51258.173, -- [2]
+			"00:14:26", -- [3]
+			"00:15:03", -- [4]
+			"黑铁爆破手", -- [5]
 		}, -- [60]
 		{
-			20536.61, -- [1]
-			20541.608, -- [2]
-			"15:44:12", -- [3]
-			"15:44:17", -- [4]
-			"峭壁野猪", -- [5]
+			51294.175, -- [1]
+			51334.17, -- [2]
+			"00:15:40", -- [3]
+			"00:16:19", -- [4]
+			"黑铁隧道工", -- [5]
 		}, -- [61]
 		{
-			20549.603, -- [1]
-			20554.612, -- [2]
-			"15:44:25", -- [3]
-			"15:44:30", -- [4]
-			"大峭壁野猪", -- [5]
+			51387.172, -- [1]
+			51420.17, -- [2]
+			"00:17:12", -- [3]
+			"00:17:45", -- [4]
+			"黑铁破坏者", -- [5]
 		}, -- [62]
 		{
-			20560.611, -- [1]
-			20569.606, -- [2]
-			"15:44:37", -- [3]
-			"15:44:45", -- [4]
-			"峭壁野猪", -- [5]
+			51453.171, -- [1]
+			51462.17, -- [2]
+			"00:18:18", -- [3]
+			"00:18:27", -- [4]
+			"黑铁矮人", -- [5]
 		}, -- [63]
 		{
-			20597.603, -- [1]
-			20602.608, -- [2]
-			"15:45:13", -- [3]
-			"15:45:18", -- [4]
-			"大峭壁野猪", -- [5]
+			51485.171, -- [1]
+			51494.178, -- [2]
+			"00:18:50", -- [3]
+			"00:18:59", -- [4]
+			"黑铁矮人", -- [5]
 		}, -- [64]
 		{
-			20606.607, -- [1]
-			20620.612, -- [2]
-			"15:45:23", -- [3]
-			"15:45:36", -- [4]
-			"冰爪熊", -- [5]
+			51499.175, -- [1]
+			51509.174, -- [2]
+			"00:19:05", -- [3]
+			"00:19:14", -- [4]
+			"黑铁矮人", -- [5]
 		}, -- [65]
 		{
-			20630.605, -- [1]
-			20636.605, -- [2]
-			"15:45:47", -- [3]
-			"15:45:52", -- [4]
-			"峭壁野猪", -- [5]
+			51596.17, -- [1]
+			51626.174, -- [2]
+			"00:20:41", -- [3]
+			"00:21:11", -- [4]
+			"黑铁矮人", -- [5]
 		}, -- [66]
 		{
-			20661.606, -- [1]
-			20667.608, -- [2]
-			"15:46:17", -- [3]
-			"15:46:23", -- [4]
-			"峭壁野猪", -- [5]
+			51898.176, -- [1]
+			51911.178, -- [2]
+			"00:25:44", -- [3]
+			"00:25:56", -- [4]
+			"黑铁投弹手", -- [5]
 		}, -- [67]
 		{
-			20673.611, -- [1]
-			20679.614, -- [2]
-			"15:46:30", -- [3]
-			"15:46:35", -- [4]
-			"大峭壁野猪", -- [5]
+			52469.038, -- [1]
+			52485.06, -- [2]
+			"00:35:14", -- [3]
+			"00:35:30", -- [4]
+			"辛迪加路霸", -- [5]
 		}, -- [68]
 		{
-			20686.602, -- [1]
-			20696.603, -- [2]
-			"15:46:43", -- [3]
-			"15:46:52", -- [4]
-			"冰爪熊", -- [5]
+			52491.043, -- [1]
+			52505.042, -- [2]
+			"00:35:36", -- [3]
+			"00:35:50", -- [4]
+			"辛迪加路霸", -- [5]
 		}, -- [69]
 		{
-			20700.603, -- [1]
-			20706.609, -- [2]
-			"15:46:57", -- [3]
-			"15:47:02", -- [4]
-			"峭壁野猪", -- [5]
+			52515.038, -- [1]
+			52532.045, -- [2]
+			"00:36:00", -- [3]
+			"00:36:17", -- [4]
+			"辛迪加路霸", -- [5]
 		}, -- [70]
 		{
-			20738.61, -- [1]
-			20744.605, -- [2]
-			"15:47:35", -- [3]
-			"15:47:40", -- [4]
-			"峭壁野猪", -- [5]
+			52552.044, -- [1]
+			52584.037, -- [2]
+			"00:36:37", -- [3]
+			"00:37:09", -- [4]
+			"辛迪加路霸", -- [5]
 		}, -- [71]
 		{
-			20754.606, -- [1]
-			20786.605, -- [2]
-			"15:47:51", -- [3]
-			"15:48:22", -- [4]
-			"大峭壁野猪", -- [5]
+			52608.039, -- [1]
+			52628.037, -- [2]
+			"00:37:33", -- [3]
+			"00:37:53", -- [4]
+			"辛迪加路霸", -- [5]
 		}, -- [72]
 		{
-			20805.611, -- [1]
-			20809.602, -- [2]
-			"15:48:41", -- [3]
-			"15:48:45", -- [4]
-			"峭壁野猪", -- [5]
+			52639.035, -- [1]
+			52658.038, -- [2]
+			"00:38:04", -- [3]
+			"00:38:23", -- [4]
+			"辛迪加路霸", -- [5]
 		}, -- [73]
 		{
-			20830.61, -- [1]
-			20837.609, -- [2]
-			"15:49:06", -- [3]
-			"15:49:13", -- [4]
-			"峭壁野猪", -- [5]
+			52669.038, -- [1]
+			52682.036, -- [2]
+			"00:38:34", -- [3]
+			"00:38:47", -- [4]
+			"辛迪加路霸", -- [5]
 		}, -- [74]
 		{
-			20847.61, -- [1]
-			20855.602, -- [2]
-			"15:49:24", -- [3]
-			"15:49:31", -- [4]
-			"峭壁野猪", -- [5]
+			52712.036, -- [1]
+			52726.044, -- [2]
+			"00:39:17", -- [3]
+			"00:39:31", -- [4]
+			"辛迪加路霸", -- [5]
 		}, -- [75]
 		{
-			20865.602, -- [1]
-			20872.603, -- [2]
-			"15:49:42", -- [3]
-			"15:49:48", -- [4]
-			"峭壁野猪", -- [5]
+			52735.04100000001, -- [1]
+			52749.045, -- [2]
+			"00:39:41", -- [3]
+			"00:39:54", -- [4]
+			"辛迪加路霸", -- [5]
 		}, -- [76]
 		{
-			20886.603, -- [1]
-			20891.604, -- [2]
-			"15:50:03", -- [3]
-			"15:50:07", -- [4]
-			"峭壁野猪", -- [5]
+			52786.036, -- [1]
+			52861.044, -- [2]
+			"00:40:31", -- [3]
+			"00:41:46", -- [4]
+			"辛迪加雇佣兵", -- [5]
 		}, -- [77]
 		{
-			20899.609, -- [1]
-			20903.603, -- [2]
-			"15:50:16", -- [3]
-			"15:50:19", -- [4]
-			"峭壁野猪", -- [5]
+			52954.039, -- [1]
+			52987.036, -- [2]
+			"00:43:19", -- [3]
+			"00:43:52", -- [4]
+			"辛迪加雇佣兵", -- [5]
 		}, -- [78]
 		{
-			20924.608, -- [1]
-			20932.609, -- [2]
-			"15:50:41", -- [3]
-			"15:50:48", -- [4]
-			"雪怪幼崽", -- [5]
+			53094.037, -- [1]
+			53106.038, -- [2]
+			"00:45:39", -- [3]
+			"00:45:51", -- [4]
+			"巨型食苔蛛", -- [5]
 		}, -- [79]
 		{
-			20935.608, -- [1]
-			20941.609, -- [2]
-			"15:50:52", -- [3]
-			"15:50:57", -- [4]
-			"雪怪幼崽", -- [5]
+			53288.04, -- [1]
+			53359.04, -- [2]
+			"00:48:53", -- [3]
+			"00:50:04", -- [4]
+			"碎鳍潮行鱼人", -- [5]
 		}, -- [80]
 		{
-			20945.606, -- [1]
-			20951.609, -- [2]
-			"15:51:02", -- [3]
-			"15:51:07", -- [4]
-			"雪怪幼崽", -- [5]
+			53383.036, -- [1]
+			53395.044, -- [2]
+			"00:50:28", -- [3]
+			"00:50:40", -- [4]
+			"碎鳍潮行鱼人", -- [5]
 		}, -- [81]
 		{
-			20955.608, -- [1]
-			20961.607, -- [2]
-			"15:51:12", -- [3]
-			"15:51:17", -- [4]
-			"雪怪幼崽", -- [5]
+			53401.036, -- [1]
+			53428.04100000001, -- [2]
+			"00:50:46", -- [3]
+			"00:51:13", -- [4]
+			"碎鳍智者", -- [5]
 		}, -- [82]
 		{
-			20966.607, -- [1]
-			20972.609, -- [2]
-			"15:51:22", -- [3]
-			"15:51:28", -- [4]
-			"雪怪幼崽", -- [5]
+			53436.04100000001, -- [1]
+			53469.038, -- [2]
+			"00:51:21", -- [3]
+			"00:51:54", -- [4]
+			"碎鳍智者", -- [5]
 		}, -- [83]
 		{
-			20995.603, -- [1]
-			20999.603, -- [2]
-			"15:51:51", -- [3]
-			"15:51:55", -- [4]
-			"雪怪幼崽", -- [5]
+			53480.044, -- [1]
+			53491.044, -- [2]
+			"00:52:05", -- [3]
+			"00:52:16", -- [4]
+			"碎鳍智者", -- [5]
 		}, -- [84]
 		{
-			21005.606, -- [1]
-			21010.61, -- [2]
-			"15:52:01", -- [3]
-			"15:52:06", -- [4]
-			"雪怪", -- [5]
+			53509.042, -- [1]
+			53518.037, -- [2]
+			"00:52:34", -- [3]
+			"00:52:43", -- [4]
+			"碎鳍智者", -- [5]
 		}, -- [85]
 		{
-			21016.608, -- [1]
-			21026.605, -- [2]
-			"15:52:13", -- [3]
-			"15:52:22", -- [4]
-			"雪怪", -- [5]
+			53519.039, -- [1]
+			53531.037, -- [2]
+			"00:52:44", -- [3]
+			"00:52:56", -- [4]
+			"碎鳍智者", -- [5]
 		}, -- [86]
 		{
-			21030.61, -- [1]
-			21036.602, -- [2]
-			"15:52:27", -- [3]
-			"15:52:32", -- [4]
-			"雪怪", -- [5]
+			53557.044, -- [1]
+			53578.038, -- [2]
+			"00:53:23", -- [3]
+			"00:53:43", -- [4]
+			"碎鳍智者", -- [5]
 		}, -- [87]
 		{
-			21042.605, -- [1]
-			21048.607, -- [2]
-			"15:52:38", -- [3]
-			"15:52:44", -- [4]
-			"雪怪", -- [5]
+			53637.036, -- [1]
+			53648.043, -- [2]
+			"00:54:42", -- [3]
+			"00:54:53", -- [4]
+			"碎鳍智者", -- [5]
 		}, -- [88]
 		{
-			21069.604, -- [1]
-			21075.602, -- [2]
-			"15:53:06", -- [3]
-			"15:53:11", -- [4]
-			"雪怪", -- [5]
+			53649.042, -- [1]
+			53666.045, -- [2]
+			"00:54:54", -- [3]
+			"00:55:11", -- [4]
+			"碎鳍潮行鱼人", -- [5]
 		}, -- [89]
 		{
-			21082.61, -- [1]
-			21088.605, -- [2]
-			"15:53:19", -- [3]
-			"15:53:24", -- [4]
-			"雪怪", -- [5]
+			53672.037, -- [1]
+			53708.04, -- [2]
+			"00:55:17", -- [3]
+			"00:55:53", -- [4]
+			"碎鳍智者", -- [5]
 		}, -- [90]
 		{
-			21091.605, -- [1]
-			21097.602, -- [2]
-			"15:53:28", -- [3]
-			"15:53:33", -- [4]
-			"雪怪", -- [5]
+			53715.037, -- [1]
+			53719.043, -- [2]
+			"00:56:00", -- [3]
+			"00:56:04", -- [4]
+			"碎鳍滩行鱼人", -- [5]
 		}, -- [91]
 		{
-			21103.61, -- [1]
-			21109.606, -- [2]
-			"15:53:40", -- [3]
-			"15:53:45", -- [4]
-			"雪怪", -- [5]
+			53726.04100000001, -- [1]
+			53742.04100000001, -- [2]
+			"00:56:11", -- [3]
+			"00:56:27", -- [4]
+			"碎鳍泥浆鱼人", -- [5]
 		}, -- [92]
 		{
-			21120.605, -- [1]
-			21126.613, -- [2]
-			"15:53:57", -- [3]
-			"15:54:02", -- [4]
-			"雪怪", -- [5]
+			53755.035, -- [1]
+			53796.04100000001, -- [2]
+			"00:56:40", -- [3]
+			"00:57:21", -- [4]
+			"碎鳍滩行鱼人", -- [5]
 		}, -- [93]
 		{
-			21131.605, -- [1]
-			21137.604, -- [2]
-			"15:54:08", -- [3]
-			"15:54:13", -- [4]
-			"雪怪", -- [5]
+			53803.042, -- [1]
+			53809.043, -- [2]
+			"00:57:28", -- [3]
+			"00:57:34", -- [4]
+			"碎鳍滩行鱼人", -- [5]
 		}, -- [94]
 		{
-			21157.604, -- [1]
-			21180.606, -- [2]
-			"15:54:34", -- [3]
-			"15:54:56", -- [4]
-			"雪怪", -- [5]
+			53814.038, -- [1]
+			53915.042, -- [2]
+			"00:57:39", -- [3]
+			"00:59:20", -- [4]
+			"碎鳍滩行鱼人", -- [5]
 		}, -- [95]
 		{
-			21187.609, -- [1]
-			21193.602, -- [2]
-			"15:55:04", -- [3]
-			"15:55:09", -- [4]
-			"雪怪", -- [5]
+			53923.04, -- [1]
+			53942.035, -- [2]
+			"00:59:28", -- [3]
+			"00:59:47", -- [4]
+			"碎鳍滩行鱼人", -- [5]
 		}, -- [96]
 		{
-			21231.606, -- [1]
-			21266.608, -- [2]
-			"15:55:47", -- [3]
-			"15:56:22", -- [4]
-			"雪怪", -- [5]
+			53952.042, -- [1]
+			54030.04, -- [2]
+			"00:59:57", -- [3]
+			"01:01:15", -- [4]
+			"碎鳍滩行鱼人", -- [5]
 		}, -- [97]
 		{
-			21272.603, -- [1]
-			21279.608, -- [2]
-			"15:56:29", -- [3]
-			"15:56:35", -- [4]
-			"峭壁野猪", -- [5]
+			54061.039, -- [1]
+			54153.048, -- [2]
+			"01:01:47", -- [3]
+			"01:03:18", -- [4]
+			"碎鳍泥浆鱼人", -- [5]
 		}, -- [98]
 		{
-			21283.61, -- [1]
-			21289.602, -- [2]
-			"15:56:40", -- [3]
-			"15:56:45", -- [4]
-			"峭壁野猪", -- [5]
+			54176.047, -- [1]
+			54192.044, -- [2]
+			"01:03:41", -- [3]
+			"01:03:57", -- [4]
+			"碎鳍滩行鱼人", -- [5]
 		}, -- [99]
 		{
-			27131.999, -- [1]
-			27136.999, -- [2]
-			"17:34:08", -- [3]
-			"17:34:13", -- [4]
-			"冬狼", -- [5]
+			54194.04100000001, -- [1]
+			54250.037, -- [2]
+			"01:03:59", -- [3]
+			"01:04:55", -- [4]
+			"碎鳍滩行鱼人", -- [5]
 		}, -- [100]
 		{
-			27149.998, -- [1]
-			27155, -- [2]
-			"17:34:26", -- [3]
-			"17:34:31", -- [4]
-			"黑熊幼崽", -- [5]
+			54257.038, -- [1]
+			54263.039, -- [2]
+			"01:05:02", -- [3]
+			"01:05:08", -- [4]
+			"碎鳍泥浆鱼人", -- [5]
 		}, -- [101]
 		{
-			27158.003, -- [1]
-			27163.999, -- [2]
-			"17:34:34", -- [3]
-			"17:34:40", -- [4]
-			"雪狼", -- [5]
+			54269.042, -- [1]
+			54281.043, -- [2]
+			"01:05:15", -- [3]
+			"01:05:26", -- [4]
+			"碎鳍滩行鱼人", -- [5]
 		}, -- [102]
 		{
-			27174.999, -- [1]
-			27189.003, -- [2]
-			"17:34:51", -- [3]
-			"17:35:05", -- [4]
-			"雪狼", -- [5]
+			54290.038, -- [1]
+			54296.038, -- [2]
+			"01:05:35", -- [3]
+			"01:05:41", -- [4]
+			"碎鳍泥浆鱼人", -- [5]
 		}, -- [103]
 		{
-			27227.993, -- [1]
-			27233.996, -- [2]
-			"17:35:44", -- [3]
-			"17:35:50", -- [4]
-			"冰爪熊", -- [5]
+			54310.035, -- [1]
+			54326.039, -- [2]
+			"01:05:55", -- [3]
+			"01:06:11", -- [4]
+			"碎鳍泥浆鱼人", -- [5]
 		}, -- [104]
 		{
-			27253.996, -- [1]
-			27266.001, -- [2]
-			"17:36:10", -- [3]
-			"17:36:22", -- [4]
-			"雪豹", -- [5]
+			54330.036, -- [1]
+			54343.045, -- [2]
+			"01:06:15", -- [3]
+			"01:06:28", -- [4]
+			"刺脊滩行者", -- [5]
 		}, -- [105]
 		{
-			27393.002, -- [1]
-			27406.994, -- [2]
-			"17:38:29", -- [3]
-			"17:38:43", -- [4]
-			"冰须", -- [5]
+			54354.037, -- [1]
+			54366.042, -- [2]
+			"01:06:39", -- [3]
+			"01:06:51", -- [4]
+			"刺脊滩行者", -- [5]
 		}, -- [106]
 		{
-			27441.995, -- [1]
-			27484.999, -- [2]
-			"17:39:18", -- [3]
-			"17:40:01", -- [4]
-			"冰须", -- [5]
+			54370.037, -- [1]
+			54399.043, -- [2]
+			"01:06:55", -- [3]
+			"01:07:24", -- [4]
+			"刺脊海妖", -- [5]
 		}, -- [107]
 		{
-			27584.999, -- [1]
-			27589.993, -- [2]
-			"17:41:41", -- [3]
-			"17:41:46", -- [4]
-			"老峭壁野猪", -- [5]
+			54417.045, -- [1]
+			54430.043, -- [2]
+			"01:07:42", -- [3]
+			"01:07:55", -- [4]
+			"刺脊海妖", -- [5]
 		}, -- [108]
 		{
-			27594.994, -- [1]
-			27599.001, -- [2]
-			"17:41:51", -- [3]
-			"17:41:55", -- [4]
-			"雪豹", -- [5]
+			54436.04100000001, -- [1]
+			54451.04, -- [2]
+			"01:08:01", -- [3]
+			"01:08:16", -- [4]
+			"刺脊海妖", -- [5]
 		}, -- [109]
 		{
-			27602.997, -- [1]
-			27607, -- [2]
-			"17:41:59", -- [3]
-			"17:42:03", -- [4]
-			"冰爪熊", -- [5]
+			54474.044, -- [1]
+			54514.038, -- [2]
+			"01:08:39", -- [3]
+			"01:09:19", -- [4]
+			"刺脊滩行者", -- [5]
 		}, -- [110]
 		{
-			27613.994, -- [1]
-			27619.003, -- [2]
-			"17:42:10", -- [3]
-			"17:42:15", -- [4]
-			"冰爪熊", -- [5]
+			54517.042, -- [1]
+			54542.037, -- [2]
+			"01:09:22", -- [3]
+			"01:09:47", -- [4]
+			"刺脊海妖", -- [5]
 		}, -- [111]
 		{
-			27624.997, -- [1]
-			27630.002, -- [2]
-			"17:42:21", -- [3]
-			"17:42:26", -- [4]
-			"老峭壁野猪", -- [5]
+			54543.035, -- [1]
+			54567.038, -- [2]
+			"01:09:48", -- [3]
+			"01:10:12", -- [4]
+			"刺脊海妖", -- [5]
 		}, -- [112]
 		{
-			27643.993, -- [1]
-			27648.995, -- [2]
-			"17:42:40", -- [3]
-			"17:42:45", -- [4]
-			"老峭壁野猪", -- [5]
+			54573.036, -- [1]
+			54589.045, -- [2]
+			"01:10:18", -- [3]
+			"01:10:34", -- [4]
+			"刺脊海妖", -- [5]
 		}, -- [113]
 		{
-			27655.993, -- [1]
-			27660.994, -- [2]
-			"17:42:52", -- [3]
-			"17:42:57", -- [4]
-			"冰爪熊", -- [5]
+			54593.042, -- [1]
+			54602.04100000001, -- [2]
+			"01:10:38", -- [3]
+			"01:10:47", -- [4]
+			"刺脊滩行者", -- [5]
 		}, -- [114]
 		{
-			27667.996, -- [1]
-			27674.002, -- [2]
-			"17:43:04", -- [3]
-			"17:43:10", -- [4]
-			"冰爪熊", -- [5]
+			54602.04100000001, -- [1]
+			54628.037, -- [2]
+			"01:10:47", -- [3]
+			"01:11:13", -- [4]
+			"刺脊滩行者", -- [5]
 		}, -- [115]
 		{
-			27680.003, -- [1]
-			27685.995, -- [2]
-			"17:43:16", -- [3]
-			"17:43:22", -- [4]
-			"老峭壁野猪", -- [5]
+			54634.042, -- [1]
+			54640.044, -- [2]
+			"01:11:19", -- [3]
+			"01:11:25", -- [4]
+			"刺脊捕猎者", -- [5]
 		}, -- [116]
 		{
-			27689.999, -- [1]
-			27695.004, -- [2]
-			"17:43:26", -- [3]
-			"17:43:31", -- [4]
-			"雪豹", -- [5]
+			54649.047, -- [1]
+			54653.039, -- [2]
+			"01:11:34", -- [3]
+			"01:11:38", -- [4]
+			"刺脊捕猎者", -- [5]
 		}, -- [117]
 		{
-			27704.003, -- [1]
-			27709.993, -- [2]
-			"17:43:41", -- [3]
-			"17:43:46", -- [4]
-			"雪豹", -- [5]
+			54657.038, -- [1]
+			54672.039, -- [2]
+			"01:11:43", -- [3]
+			"01:11:57", -- [4]
+			"刺脊滩行者", -- [5]
 		}, -- [118]
-		{
-			27718.996, -- [1]
-			27724.998, -- [2]
-			"17:43:55", -- [3]
-			"17:44:01", -- [4]
-			"雪豹", -- [5]
-		}, -- [119]
-		{
-			27753.993, -- [1]
-			27757.993, -- [2]
-			"17:44:30", -- [3]
-			"17:44:34", -- [4]
-			"老峭壁野猪", -- [5]
-		}, -- [120]
-		{
-			27764.998, -- [1]
-			27768.996, -- [2]
-			"17:44:41", -- [3]
-			"17:44:45", -- [4]
-			"雪豹", -- [5]
-		}, -- [121]
-		{
-			27786.995, -- [1]
-			27791.996, -- [2]
-			"17:45:03", -- [3]
-			"17:45:08", -- [4]
-			"雪豹", -- [5]
-		}, -- [122]
-		{
-			27799.995, -- [1]
-			27805.995, -- [2]
-			"17:45:16", -- [3]
-			"17:45:22", -- [4]
-			"老峭壁野猪", -- [5]
-		}, -- [123]
-		{
-			27821.997, -- [1]
-			27828.999, -- [2]
-			"17:45:38", -- [3]
-			"17:45:45", -- [4]
-			"麻疯侏儒", -- [5]
-		}, -- [124]
-		{
-			27836, -- [1]
-			27843.997, -- [2]
-			"17:45:52", -- [3]
-			"17:46:00", -- [4]
-			"麻疯侏儒", -- [5]
-		}, -- [125]
-		{
-			27864.998, -- [1]
-			27870.996, -- [2]
-			"17:46:21", -- [3]
-			"17:46:27", -- [4]
-			"麻疯侏儒", -- [5]
-		}, -- [126]
-		{
-			27874.997, -- [1]
-			27880.994, -- [2]
-			"17:46:31", -- [3]
-			"17:46:37", -- [4]
-			"麻疯侏儒", -- [5]
-		}, -- [127]
-		{
-			27891.002, -- [1]
-			27896.002, -- [2]
-			"17:46:47", -- [3]
-			"17:46:52", -- [4]
-			"麻疯侏儒", -- [5]
-		}, -- [128]
-		{
-			27899.999, -- [1]
-			27905.994, -- [2]
-			"17:46:56", -- [3]
-			"17:47:02", -- [4]
-			"麻疯侏儒", -- [5]
-		}, -- [129]
-		{
-			27909.001, -- [1]
-			27915.995, -- [2]
-			"17:47:06", -- [3]
-			"17:47:12", -- [4]
-			"麻疯侏儒", -- [5]
-		}, -- [130]
-		{
-			27918.994, -- [1]
-			27924.998, -- [2]
-			"17:47:15", -- [3]
-			"17:47:21", -- [4]
-			"老峭壁野猪", -- [5]
-		}, -- [131]
-		{
-			27930.002, -- [1]
-			27936.995, -- [2]
-			"17:47:26", -- [3]
-			"17:47:33", -- [4]
-			"麻疯侏儒", -- [5]
-		}, -- [132]
-		{
-			27942.001, -- [1]
-			27947.996, -- [2]
-			"17:47:38", -- [3]
-			"17:47:44", -- [4]
-			"麻疯侏儒", -- [5]
-		}, -- [133]
-		{
-			27971.995, -- [1]
-			27977.993, -- [2]
-			"17:48:08", -- [3]
-			"17:48:14", -- [4]
-			"麻疯侏儒", -- [5]
-		}, -- [134]
-		{
-			27983.997, -- [1]
-			27988.996, -- [2]
-			"17:48:20", -- [3]
-			"17:48:25", -- [4]
-			"麻疯侏儒", -- [5]
-		}, -- [135]
-		{
-			27995.994, -- [1]
-			28013, -- [2]
-			"17:48:32", -- [3]
-			"17:48:49", -- [4]
-			"麻疯侏儒", -- [5]
-		}, -- [136]
-		{
-			28027, -- [1]
-			28032.003, -- [2]
-			"17:49:03", -- [3]
-			"17:49:08", -- [4]
-			"老峭壁野猪", -- [5]
-		}, -- [137]
-		{
-			28036.995, -- [1]
-			28041.993, -- [2]
-			"17:49:13", -- [3]
-			"17:49:18", -- [4]
-			"麻疯侏儒", -- [5]
-		}, -- [138]
-		{
-			28048, -- [1]
-			28057, -- [2]
-			"17:49:24", -- [3]
-			"17:49:33", -- [4]
-			"麻疯侏儒", -- [5]
-		}, -- [139]
-		{
-			28068.999, -- [1]
-			28075.994, -- [2]
-			"17:49:45", -- [3]
-			"17:49:52", -- [4]
-			"麻疯侏儒", -- [5]
-		}, -- [140]
-		{
-			28080.004, -- [1]
-			28093.996, -- [2]
-			"17:49:56", -- [3]
-			"17:50:10", -- [4]
-			"麻疯侏儒", -- [5]
-		}, -- [141]
-		{
-			28099.996, -- [1]
-			28105.995, -- [2]
-			"17:50:16", -- [3]
-			"17:50:22", -- [4]
-			"麻疯侏儒", -- [5]
-		}, -- [142]
-		{
-			28111.998, -- [1]
-			28120.998, -- [2]
-			"17:50:28", -- [3]
-			"17:50:37", -- [4]
-			"麻疯侏儒", -- [5]
-		}, -- [143]
-		{
-			28173.993, -- [1]
-			28181.997, -- [2]
-			"17:51:31", -- [3]
-			"17:51:38", -- [4]
-			"冰爪熊", -- [5]
-		}, -- [144]
-		{
-			28246, -- [1]
-			28252.002, -- [2]
-			"17:52:42", -- [3]
-			"17:52:48", -- [4]
-			"雪豹", -- [5]
-		}, -- [145]
-		{
-			28271, -- [1]
-			28278.003, -- [2]
-			"17:53:07", -- [3]
-			"17:53:14", -- [4]
-			"冰爪熊", -- [5]
-		}, -- [146]
-		{
-			28288.999, -- [1]
-			28293.994, -- [2]
-			"17:53:26", -- [3]
-			"17:53:30", -- [4]
-			"雪豹", -- [5]
-		}, -- [147]
-		{
-			28312.998, -- [1]
-			28318.996, -- [2]
-			"17:53:49", -- [3]
-			"17:53:55", -- [4]
-			"霜鬃巨魔", -- [5]
-		}, -- [148]
-		{
-			28324, -- [1]
-			28330.001, -- [2]
-			"17:54:00", -- [3]
-			"17:54:06", -- [4]
-			"霜鬃巨魔", -- [5]
-		}, -- [149]
-		{
-			28330.998, -- [1]
-			28336.995, -- [2]
-			"17:54:08", -- [3]
-			"17:54:13", -- [4]
-			"霜鬃雪行者", -- [5]
-		}, -- [150]
-		{
-			28354.999, -- [1]
-			28382.002, -- [2]
-			"17:54:31", -- [3]
-			"17:54:58", -- [4]
-			"霜鬃雪行者", -- [5]
-		}, -- [151]
-		{
-			28396.996, -- [1]
-			28402.999, -- [2]
-			"17:55:13", -- [3]
-			"17:55:19", -- [4]
-			"霜鬃猎头者", -- [5]
-		}, -- [152]
-		{
-			28408.999, -- [1]
-			28415.994, -- [2]
-			"17:55:25", -- [3]
-			"17:55:32", -- [4]
-			"霜鬃猎头者", -- [5]
-		}, -- [153]
-		{
-			28418.997, -- [1]
-			28424.995, -- [2]
-			"17:55:36", -- [3]
-			"17:55:41", -- [4]
-			"霜鬃雪行者", -- [5]
-		}, -- [154]
-		{
-			28433.995, -- [1]
-			28439.998, -- [2]
-			"17:55:50", -- [3]
-			"17:55:56", -- [4]
-			"霜鬃猎头者", -- [5]
-		}, -- [155]
-		{
-			28447.999, -- [1]
-			28453.996, -- [2]
-			"17:56:05", -- [3]
-			"17:56:10", -- [4]
-			"霜鬃猎头者", -- [5]
-		}, -- [156]
-		{
-			28467.994, -- [1]
-			28473.998, -- [2]
-			"17:56:24", -- [3]
-			"17:56:30", -- [4]
-			"霜鬃雪行者", -- [5]
-		}, -- [157]
-		{
-			28476.998, -- [1]
-			28484.997, -- [2]
-			"17:56:33", -- [3]
-			"17:56:41", -- [4]
-			"霜鬃暗法师", -- [5]
-		}, -- [158]
-		{
-			28489.997, -- [1]
-			28494.994, -- [2]
-			"17:56:46", -- [3]
-			"17:56:51", -- [4]
-			"霜鬃猎头者", -- [5]
-		}, -- [159]
-		{
-			28516.999, -- [1]
-			28522.995, -- [2]
-			"17:57:13", -- [3]
-			"17:57:19", -- [4]
-			"霜鬃剥皮者", -- [5]
-		}, -- [160]
-		{
-			28527.995, -- [1]
-			28539.998, -- [2]
-			"17:57:24", -- [3]
-			"17:57:36", -- [4]
-			"霜鬃剥皮者", -- [5]
-		}, -- [161]
-		{
-			28545.994, -- [1]
-			28552.994, -- [2]
-			"17:57:42", -- [3]
-			"17:57:49", -- [4]
-			"霜鬃猎头者", -- [5]
-		}, -- [162]
-		{
-			28581.993, -- [1]
-			28590.993, -- [2]
-			"17:58:18", -- [3]
-			"17:58:27", -- [4]
-			"霜鬃猎头者", -- [5]
-		}, -- [163]
-		{
-			28596.999, -- [1]
-			28608.997, -- [2]
-			"17:58:34", -- [3]
-			"17:58:45", -- [4]
-			"霜鬃猎头者", -- [5]
-		}, -- [164]
-		{
-			29878.095, -- [1]
-			29900.1, -- [2]
-			"18:19:54", -- [3]
-			"18:20:16", -- [4]
-			"雪狼", -- [5]
-		}, -- [165]
-		{
-			29923.092, -- [1]
-			29929.091, -- [2]
-			"18:20:39", -- [3]
-			"18:20:45", -- [4]
-			"霜鬃先知", -- [5]
-		}, -- [166]
-		{
-			29935.089, -- [1]
-			29941.092, -- [2]
-			"18:20:51", -- [3]
-			"18:20:57", -- [4]
-			"霜鬃先知", -- [5]
-		}, -- [167]
-		{
-			29946.097, -- [1]
-			29952.092, -- [2]
-			"18:21:03", -- [3]
-			"18:21:08", -- [4]
-			"霜鬃先知", -- [5]
-		}, -- [168]
-		{
-			29959.095, -- [1]
-			29979.094, -- [2]
-			"18:21:15", -- [3]
-			"18:21:35", -- [4]
-			"霜鬃先知", -- [5]
-		}, -- [169]
-		{
-			29982.09, -- [1]
-			29989.095, -- [2]
-			"18:21:38", -- [3]
-			"18:21:45", -- [4]
-			"霜鬃雪行者", -- [5]
-		}, -- [170]
-		{
-			30005.094, -- [1]
-			30011.1, -- [2]
-			"18:22:02", -- [3]
-			"18:22:07", -- [4]
-			"霜鬃先知", -- [5]
-		}, -- [171]
-		{
-			30221.096, -- [1]
-			30226.099, -- [2]
-			"18:25:37", -- [3]
-			"18:25:42", -- [4]
-			"雪狼", -- [5]
-		}, -- [172]
-		{
-			30233.091, -- [1]
-			30238.099, -- [2]
-			"18:25:49", -- [3]
-			"18:25:54", -- [4]
-			"冬狼", -- [5]
-		}, -- [173]
-		{
-			30282.099, -- [1]
-			30303.095, -- [2]
-			"18:26:38", -- [3]
-			"18:26:59", -- [4]
-			"冬狼", -- [5]
-		}, -- [174]
-		{
-			30406.089, -- [1]
-			30412.09, -- [2]
-			"18:28:42", -- [3]
-			"18:28:48", -- [4]
-			"瓦加什", -- [5]
-		}, -- [175]
-		{
-			30522.096, -- [1]
-			30529.097, -- [2]
-			"18:30:39", -- [3]
-			"18:30:45", -- [4]
-			"石腭击颅者", -- [5]
-		}, -- [176]
-		{
-			30534.089, -- [1]
-			30542.091, -- [2]
-			"18:30:50", -- [3]
-			"18:30:58", -- [4]
-			"石腭击颅者", -- [5]
-		}, -- [177]
-		{
-			30544.09, -- [1]
-			30563.096, -- [2]
-			"18:31:01", -- [3]
-			"18:31:19", -- [4]
-			"石腭击颅者", -- [5]
-		}, -- [178]
-		{
-			30567.1, -- [1]
-			30573.098, -- [2]
-			"18:31:23", -- [3]
-			"18:31:29", -- [4]
-			"石腭击颅者", -- [5]
-		}, -- [179]
-		{
-			30576.094, -- [1]
-			30580.099, -- [2]
-			"18:31:32", -- [3]
-			"18:31:36", -- [4]
-			"石腭击颅者", -- [5]
-		}, -- [180]
-		{
-			30590.089, -- [1]
-			30597.097, -- [2]
-			"18:31:46", -- [3]
-			"18:31:53", -- [4]
-			"石腭断骨者", -- [5]
-		}, -- [181]
-		{
-			30603.094, -- [1]
-			30608.097, -- [2]
-			"18:32:00", -- [3]
-			"18:32:04", -- [4]
-			"石腭击颅者", -- [5]
-		}, -- [182]
-		{
-			30617.095, -- [1]
-			30623.096, -- [2]
-			"18:32:13", -- [3]
-			"18:32:19", -- [4]
-			"石腭击颅者", -- [5]
-		}, -- [183]
-		{
-			33441.077, -- [1]
-			33482.427, -- [2]
-			"19:19:21", -- [3]
-			"19:19:58", -- [4]
-			"石腭断骨者", -- [5]
-		}, -- [184]
-		{
-			33509.428, -- [1]
-			33518.426, -- [2]
-			"19:20:25", -- [3]
-			"19:20:34", -- [4]
-			"石腭断骨者", -- [5]
-		}, -- [185]
-		{
-			33522.43, -- [1]
-			33526.43, -- [2]
-			"19:20:38", -- [3]
-			"19:20:42", -- [4]
-			"石腭断骨者", -- [5]
-		}, -- [186]
-		{
-			33532.426, -- [1]
-			33536.431, -- [2]
-			"19:20:48", -- [3]
-			"19:20:52", -- [4]
-			"石腭击颅者", -- [5]
-		}, -- [187]
-		{
-			33540.425, -- [1]
-			33546.426, -- [2]
-			"19:20:57", -- [3]
-			"19:21:02", -- [4]
-			"石腭断骨者", -- [5]
-		}, -- [188]
-		{
-			33554.424, -- [1]
-			33561.428, -- [2]
-			"19:21:10", -- [3]
-			"19:21:17", -- [4]
-			"石腭断骨者", -- [5]
-		}, -- [189]
-		{
-			33579.422, -- [1]
-			33585.423, -- [2]
-			"19:21:36", -- [3]
-			"19:21:41", -- [4]
-			"石腭断骨者", -- [5]
-		}, -- [190]
-		{
-			33590.427, -- [1]
-			33597.429, -- [2]
-			"19:21:46", -- [3]
-			"19:21:53", -- [4]
-			"石腭击颅者", -- [5]
-		}, -- [191]
-		{
-			33605.426, -- [1]
-			33611.426, -- [2]
-			"19:22:02", -- [3]
-			"19:22:07", -- [4]
-			"石腭击颅者", -- [5]
-		}, -- [192]
-		{
-			33615.425, -- [1]
-			33619.422, -- [2]
-			"19:22:11", -- [3]
-			"19:22:15", -- [4]
-			"石腭断骨者", -- [5]
-		}, -- [193]
-		{
-			33622.427, -- [1]
-			33627.422, -- [2]
-			"19:22:19", -- [3]
-			"19:22:23", -- [4]
-			"石腭击颅者", -- [5]
-		}, -- [194]
-		{
-			33629.428, -- [1]
-			33633.426, -- [2]
-			"19:22:25", -- [3]
-			"19:22:29", -- [4]
-			"石腭击颅者", -- [5]
-		}, -- [195]
-		{
-			33656.426, -- [1]
-			33663.426, -- [2]
-			"19:22:52", -- [3]
-			"19:22:59", -- [4]
-			"石腭断骨者", -- [5]
-		}, -- [196]
-		{
-			33666.423, -- [1]
-			33678.424, -- [2]
-			"19:23:02", -- [3]
-			"19:23:14", -- [4]
-			"石腭断骨者", -- [5]
-		}, -- [197]
-		{
-			33689.425, -- [1]
-			33709.427, -- [2]
-			"19:23:25", -- [3]
-			"19:23:45", -- [4]
-			"石腭断骨者", -- [5]
-		}, -- [198]
-		{
-			33959.424, -- [1]
-			33967.428, -- [2]
-			"19:27:56", -- [3]
-			"19:28:03", -- [4]
-			"癞爪", -- [5]
-		}, -- [199]
-		{
-			33990.425, -- [1]
-			33996.429, -- [2]
-			"19:28:27", -- [3]
-			"19:28:32", -- [4]
-			"雪豹", -- [5]
-		}, -- [200]
-		{
-			34304.427, -- [1]
-			34310.423, -- [2]
-			"19:33:40", -- [3]
-			"19:33:46", -- [4]
-			"碎石怪斥候", -- [5]
-		}, -- [201]
-		{
-			34313.423, -- [1]
-			34322.429, -- [2]
-			"19:33:49", -- [3]
-			"19:33:58", -- [4]
-			"碎石怪斥候", -- [5]
-		}, -- [202]
-		{
-			34328.43, -- [1]
-			34339.425, -- [2]
-			"19:34:05", -- [3]
-			"19:34:15", -- [4]
-			"碎石穴居人", -- [5]
-		}, -- [203]
-		{
-			34344.426, -- [1]
-			34355.429, -- [2]
-			"19:34:21", -- [3]
-			"19:34:31", -- [4]
-			"碎石怪斥候", -- [5]
-		}, -- [204]
-		{
-			34358.428, -- [1]
-			34367.425, -- [2]
-			"19:34:34", -- [3]
-			"19:34:43", -- [4]
-			"碎石怪斥候", -- [5]
-		}, -- [205]
-		{
-			34390.427, -- [1]
-			34399.427, -- [2]
-			"19:35:07", -- [3]
-			"19:35:15", -- [4]
-			"碎石怪斥候", -- [5]
-		}, -- [206]
-		{
-			34401.423, -- [1]
-			34408.429, -- [2]
-			"19:35:17", -- [3]
-			"19:35:24", -- [4]
-			"碎石怪斥候", -- [5]
-		}, -- [207]
-		{
-			34422.428, -- [1]
-			34431.432, -- [2]
-			"19:35:38", -- [3]
-			"19:35:47", -- [4]
-			"碎石穴居人", -- [5]
-		}, -- [208]
-		{
-			34439.423, -- [1]
-			34445.431, -- [2]
-			"19:35:55", -- [3]
-			"19:36:01", -- [4]
-			"碎石穴居人", -- [5]
-		}, -- [209]
-		{
-			34450.423, -- [1]
-			34461.425, -- [2]
-			"19:36:07", -- [3]
-			"19:36:17", -- [4]
-			"碎石穴居人", -- [5]
-		}, -- [210]
-		{
-			34486.429, -- [1]
-			34496.423, -- [2]
-			"19:36:42", -- [3]
-			"19:36:52", -- [4]
-			"碎石穴居人", -- [5]
-		}, -- [211]
-		{
-			34502.424, -- [1]
-			34511.425, -- [2]
-			"19:36:58", -- [3]
-			"19:37:07", -- [4]
-			"碎石怪斥候", -- [5]
-		}, -- [212]
-		{
-			34515.423, -- [1]
-			34523.426, -- [2]
-			"19:37:12", -- [3]
-			"19:37:19", -- [4]
-			"碎石穴居人", -- [5]
-		}, -- [213]
-		{
-			34536.425, -- [1]
-			34546.426, -- [2]
-			"19:37:33", -- [3]
-			"19:37:42", -- [4]
-			"碎石怪斥候", -- [5]
-		}, -- [214]
-		{
-			34548.423, -- [1]
-			34555.43, -- [2]
-			"19:37:45", -- [3]
-			"19:37:51", -- [4]
-			"碎石穴居人", -- [5]
-		}, -- [215]
-		{
-			34561.423, -- [1]
-			34569.426, -- [2]
-			"19:37:57", -- [3]
-			"19:38:05", -- [4]
-			"碎石怪斥候", -- [5]
-		}, -- [216]
-		{
-			34571.43, -- [1]
-			34579.437, -- [2]
-			"19:38:08", -- [3]
-			"19:38:15", -- [4]
-			"碎石怪斥候", -- [5]
-		}, -- [217]
-		{
-			34601.43, -- [1]
-			34624.429, -- [2]
-			"19:38:37", -- [3]
-			"19:39:00", -- [4]
-			"碎石怪斥候", -- [5]
-		}, -- [218]
-		{
-			34639.422, -- [1]
-			34654.425, -- [2]
-			"19:39:16", -- [3]
-			"19:39:30", -- [4]
-			"碎石穴居人", -- [5]
-		}, -- [219]
-		{
-			34660.422, -- [1]
-			34669.429, -- [2]
-			"19:39:37", -- [3]
-			"19:39:45", -- [4]
-			"碎石穴居人", -- [5]
-		}, -- [220]
-		{
-			34682.429, -- [1]
-			34691.425, -- [2]
-			"19:39:58", -- [3]
-			"19:40:07", -- [4]
-			"碎石怪斥候", -- [5]
-		}, -- [221]
-		{
-			34701.43, -- [1]
-			34708.425, -- [2]
-			"19:40:18", -- [3]
-			"19:40:24", -- [4]
-			"碎石怪斥候", -- [5]
-		}, -- [222]
-		{
-			34715.429, -- [1]
-			34721.432, -- [2]
-			"19:40:32", -- [3]
-			"19:40:37", -- [4]
-			"碎石穴居人", -- [5]
-		}, -- [223]
-		{
-			34754.425, -- [1]
-			34772.428, -- [2]
-			"19:41:10", -- [3]
-			"19:41:28", -- [4]
-			"碎石穴居人", -- [5]
-		}, -- [224]
-		{
-			34780.43, -- [1]
-			34799.422, -- [2]
-			"19:41:36", -- [3]
-			"19:41:55", -- [4]
-			"碎石穴居人", -- [5]
-		}, -- [225]
-		{
-			34822.432, -- [1]
-			34838.429, -- [2]
-			"19:42:19", -- [3]
-			"19:42:34", -- [4]
-			"碎石怪斥候", -- [5]
-		}, -- [226]
-		{
-			35058.429, -- [1]
-			35122.426, -- [2]
-			"19:46:14", -- [3]
-			"19:47:18", -- [4]
-			"碎石怪击颅者", -- [5]
-		}, -- [227]
-		{
-			35138.432, -- [1]
-			35149.422, -- [2]
-			"19:47:34", -- [3]
-			"19:47:45", -- [4]
-			"碎石怪先知", -- [5]
-		}, -- [228]
-		{
-			35155.428, -- [1]
-			35171.426, -- [2]
-			"19:47:52", -- [3]
-			"19:48:07", -- [4]
-			"碎石怪击颅者", -- [5]
-		}, -- [229]
-		{
-			35182.426, -- [1]
-			35197.425, -- [2]
-			"19:48:19", -- [3]
-			"19:48:33", -- [4]
-			"碎石怪击颅者", -- [5]
-		}, -- [230]
-		{
-			35205.423, -- [1]
-			35232.432, -- [2]
-			"19:48:41", -- [3]
-			"19:49:08", -- [4]
-			"碎石怪先知", -- [5]
-		}, -- [231]
-		{
-			35262.432, -- [1]
-			35272.43, -- [2]
-			"19:49:39", -- [3]
-			"19:49:48", -- [4]
-			"碎石怪先知", -- [5]
-		}, -- [232]
-		{
-			35273.429, -- [1]
-			35282.432, -- [2]
-			"19:49:50", -- [3]
-			"19:49:58", -- [4]
-			"碎石怪先知", -- [5]
-		}, -- [233]
-		{
-			35295.43, -- [1]
-			35314.427, -- [2]
-			"19:50:11", -- [3]
-			"19:50:30", -- [4]
-			"碎石怪击颅者", -- [5]
-		}, -- [234]
-		{
-			35332.427, -- [1]
-			35348.424, -- [2]
-			"19:50:49", -- [3]
-			"19:51:04", -- [4]
-			"碎石怪击颅者", -- [5]
-		}, -- [235]
-		{
-			35350.426, -- [1]
-			35362.423, -- [2]
-			"19:51:06", -- [3]
-			"19:51:18", -- [4]
-			"碎石怪先知", -- [5]
-		}, -- [236]
-		{
-			35389.427, -- [1]
-			35399.428, -- [2]
-			"19:51:46", -- [3]
-			"19:51:55", -- [4]
-			"碎石怪先知", -- [5]
-		}, -- [237]
-		{
-			35413.423, -- [1]
-			35422.429, -- [2]
-			"19:52:10", -- [3]
-			"19:52:18", -- [4]
-			"碎石怪先知", -- [5]
-		}, -- [238]
-		{
-			35428.423, -- [1]
-			35437.423, -- [2]
-			"19:52:24", -- [3]
-			"19:52:33", -- [4]
-			"碎石怪先知", -- [5]
-		}, -- [239]
-		{
-			35453.423, -- [1]
-			35462.424, -- [2]
-			"19:52:49", -- [3]
-			"19:52:58", -- [4]
-			"碎石怪击颅者", -- [5]
-		}, -- [240]
-		{
-			35473.425, -- [1]
-			35489.429, -- [2]
-			"19:53:10", -- [3]
-			"19:53:25", -- [4]
-			"碎石怪先知", -- [5]
-		}, -- [241]
-		{
-			35497.426, -- [1]
-			35506.425, -- [2]
-			"19:53:33", -- [3]
-			"19:53:42", -- [4]
-			"碎石怪先知", -- [5]
-		}, -- [242]
-		{
-			35523.425, -- [1]
-			35537.427, -- [2]
-			"19:54:00", -- [3]
-			"19:54:13", -- [4]
-			"碎石怪击颅者", -- [5]
-		}, -- [243]
-		{
-			35541.423, -- [1]
-			35561.425, -- [2]
-			"19:54:18", -- [3]
-			"19:54:37", -- [4]
-			"碎石怪击颅者", -- [5]
-		}, -- [244]
-		{
-			35589.427, -- [1]
-			35595.429, -- [2]
-			"19:55:06", -- [3]
-			"19:55:11", -- [4]
-			"碎石穴居人", -- [5]
-		}, -- [245]
-		{
-			35603.425, -- [1]
-			35625.427, -- [2]
-			"19:55:20", -- [3]
-			"19:55:41", -- [4]
-			"碎石穴居人", -- [5]
-		}, -- [246]
-		{
-			35839.425, -- [1]
-			35845.423, -- [2]
-			"19:59:15", -- [3]
-			"19:59:21", -- [4]
-			"森林潜伏者", -- [5]
-		}, -- [247]
-		{
-			35852.432, -- [1]
-			35857.43, -- [2]
-			"19:59:28", -- [3]
-			"19:59:33", -- [4]
-			"森林潜伏者", -- [5]
-		}, -- [248]
-		{
-			35866.426, -- [1]
-			35875.422, -- [2]
-			"19:59:42", -- [3]
-			"19:59:51", -- [4]
-			"老黑熊", -- [5]
-		}, -- [249]
-		{
-			35880.43, -- [1]
-			35887.428, -- [2]
-			"19:59:56", -- [3]
-			"20:00:03", -- [4]
-			"森林潜伏者", -- [5]
-		}, -- [250]
-		{
-			35894.426, -- [1]
-			35902.429, -- [2]
-			"20:00:11", -- [3]
-			"20:00:18", -- [4]
-			"森林潜伏者", -- [5]
-		}, -- [251]
-		{
-			35922.427, -- [1]
-			35927.431, -- [2]
-			"20:00:38", -- [3]
-			"20:00:43", -- [4]
-			"森林潜伏者", -- [5]
-		}, -- [252]
-		{
-			35937.425, -- [1]
-			35943.426, -- [2]
-			"20:00:54", -- [3]
-			"20:00:59", -- [4]
-			"山猪", -- [5]
-		}, -- [253]
-		{
-			35963.424, -- [1]
-			35970.423, -- [2]
-			"20:01:19", -- [3]
-			"20:01:26", -- [4]
-			"老黑熊", -- [5]
-		}, -- [254]
-		{
-			35974.422, -- [1]
-			35987.429, -- [2]
-			"20:01:30", -- [3]
-			"20:01:43", -- [4]
-			"老黑熊", -- [5]
-		}, -- [255]
-		{
-			36029.422, -- [1]
-			36038.425, -- [2]
-			"20:02:26", -- [3]
-			"20:02:34", -- [4]
-			"老黑熊", -- [5]
-		}, -- [256]
-		{
-			36048.424, -- [1]
-			36054.43, -- [2]
-			"20:02:44", -- [3]
-			"20:02:50", -- [4]
-			"山猪", -- [5]
-		}, -- [257]
-		{
-			36061.425, -- [1]
-			36067.423, -- [2]
-			"20:02:57", -- [3]
-			"20:03:03", -- [4]
-			"森林潜伏者", -- [5]
-		}, -- [258]
-		{
-			36078.431, -- [1]
-			36086.428, -- [2]
-			"20:03:15", -- [3]
-			"20:03:22", -- [4]
-			"森林潜伏者", -- [5]
-		}, -- [259]
-		{
-			36104.431, -- [1]
-			36111.429, -- [2]
-			"20:03:40", -- [3]
-			"20:03:47", -- [4]
-			"森林潜伏者", -- [5]
-		}, -- [260]
-		{
-			36126.428, -- [1]
-			36134.43, -- [2]
-			"20:04:03", -- [3]
-			"20:04:10", -- [4]
-			"山猪", -- [5]
-		}, -- [261]
-		{
-			36184.429, -- [1]
-			36195.428, -- [2]
-			"20:05:01", -- [3]
-			"20:05:11", -- [4]
-			"老黑熊", -- [5]
-		}, -- [262]
-		{
-			36204.43, -- [1]
-			36213.429, -- [2]
-			"20:05:21", -- [3]
-			"20:05:29", -- [4]
-			"老黑熊", -- [5]
-		}, -- [263]
-		{
-			36221.428, -- [1]
-			36230.429, -- [2]
-			"20:05:38", -- [3]
-			"20:05:46", -- [4]
-			"老黑熊", -- [5]
-		}, -- [264]
-		{
-			36255.432, -- [1]
-			36262.427, -- [2]
-			"20:06:11", -- [3]
-			"20:06:18", -- [4]
-			"老黑熊", -- [5]
-		}, -- [265]
-		{
-			36271.43, -- [1]
-			36276.427, -- [2]
-			"20:06:27", -- [3]
-			"20:06:32", -- [4]
-			"山猪", -- [5]
-		}, -- [266]
-		{
-			36283.423, -- [1]
-			36288.43, -- [2]
-			"20:06:39", -- [3]
-			"20:06:44", -- [4]
-			"森林潜伏者", -- [5]
-		}, -- [267]
-		{
-			36314.426, -- [1]
-			36320.429, -- [2]
-			"20:07:11", -- [3]
-			"20:07:16", -- [4]
-			"坑道鼠狗头人", -- [5]
-		}, -- [268]
-		{
-			36325.431, -- [1]
-			36330.43, -- [2]
-			"20:07:21", -- [3]
-			"20:07:26", -- [4]
-			"坑道鼠地卜师", -- [5]
-		}, -- [269]
-		{
-			36332.427, -- [1]
-			36341.422, -- [2]
-			"20:07:28", -- [3]
-			"20:07:37", -- [4]
-			"坑道鼠斥候", -- [5]
-		}, -- [270]
-		{
-			36381.426, -- [1]
-			36387.422, -- [2]
-			"20:08:18", -- [3]
-			"20:08:23", -- [4]
-			"坑道鼠地卜师", -- [5]
-		}, -- [271]
-		{
-			36389.423, -- [1]
-			36403.429, -- [2]
-			"20:08:26", -- [3]
-			"20:08:39", -- [4]
-			"坑道鼠掘地工", -- [5]
-		}, -- [272]
-		{
-			36408.426, -- [1]
-			36414.426, -- [2]
-			"20:08:44", -- [3]
-			"20:08:50", -- [4]
-			"坑道鼠地卜师", -- [5]
-		}, -- [273]
-		{
-			36418.423, -- [1]
-			36425.426, -- [2]
-			"20:08:55", -- [3]
-			"20:09:01", -- [4]
-			"坑道鼠地卜师", -- [5]
-		}, -- [274]
-		{
-			36437.431, -- [1]
-			36448.423, -- [2]
-			"20:09:14", -- [3]
-			"20:09:24", -- [4]
-			"坑道鼠掘地工", -- [5]
-		}, -- [275]
-		{
-			36474.425, -- [1]
-			36485.425, -- [2]
-			"20:09:51", -- [3]
-			"20:10:01", -- [4]
-			"坑道鼠掘地工", -- [5]
-		}, -- [276]
-		{
-			36489.425, -- [1]
-			36497.423, -- [2]
-			"20:10:05", -- [3]
-			"20:10:13", -- [4]
-			"坑道鼠掘地工", -- [5]
-		}, -- [277]
-		{
-			36501.426, -- [1]
-			36510.426, -- [2]
-			"20:10:17", -- [3]
-			"20:10:26", -- [4]
-			"坑道鼠掘地工", -- [5]
-		}, -- [278]
-		{
-			36529.43, -- [1]
-			36538.432, -- [2]
-			"20:10:46", -- [3]
-			"20:10:54", -- [4]
-			"坑道鼠地卜师", -- [5]
-		}, -- [279]
-		{
-			36545.426, -- [1]
-			36551.424, -- [2]
-			"20:11:01", -- [3]
-			"20:11:07", -- [4]
-			"坑道鼠地卜师", -- [5]
-		}, -- [280]
-		{
-			36555.427, -- [1]
-			36562.429, -- [2]
-			"20:11:11", -- [3]
-			"20:11:18", -- [4]
-			"坑道鼠地卜师", -- [5]
-		}, -- [281]
-		{
-			36573.422, -- [1]
-			36578.423, -- [2]
-			"20:11:29", -- [3]
-			"20:11:34", -- [4]
-			"坑道鼠地卜师", -- [5]
-		}, -- [282]
-		{
-			36599.429, -- [1]
-			36615.429, -- [2]
-			"20:11:56", -- [3]
-			"20:12:11", -- [4]
-			"坑道鼠征粮官", -- [5]
-		}, -- [283]
-		{
-			36622.426, -- [1]
-			36630.425, -- [2]
-			"20:12:19", -- [3]
-			"20:12:26", -- [4]
-			"坑道鼠歹徒", -- [5]
-		}, -- [284]
-		{
-			36635.425, -- [1]
-			36641.424, -- [2]
-			"20:12:31", -- [3]
-			"20:12:37", -- [4]
-			"坑道鼠歹徒", -- [5]
-		}, -- [285]
-		{
-			36643.424, -- [1]
-			36654.429, -- [2]
-			"20:12:40", -- [3]
-			"20:12:50", -- [4]
-			"坑道鼠狗头人", -- [5]
-		}, -- [286]
-		{
-			36658.431, -- [1]
-			36667.425, -- [2]
-			"20:12:55", -- [3]
-			"20:13:03", -- [4]
-			"坑道鼠歹徒", -- [5]
-		}, -- [287]
-		{
-			36692.432, -- [1]
-			36698.424, -- [2]
-			"20:13:29", -- [3]
-			"20:13:34", -- [4]
-			"坑道鼠歹徒", -- [5]
-		}, -- [288]
-		{
-			36703.43, -- [1]
-			36709.422, -- [2]
-			"20:13:40", -- [3]
-			"20:13:45", -- [4]
-			"坑道鼠歹徒", -- [5]
-		}, -- [289]
-		{
-			36715.43, -- [1]
-			36731.424, -- [2]
-			"20:13:52", -- [3]
-			"20:14:07", -- [4]
-			"坑道鼠征粮官", -- [5]
-		}, -- [290]
-		{
-			36749.429, -- [1]
-			36774.426, -- [2]
-			"20:14:25", -- [3]
-			"20:14:50", -- [4]
-			"坑道鼠歹徒", -- [5]
-		}, -- [291]
-		{
-			36784.43, -- [1]
-			36789.422, -- [2]
-			"20:15:00", -- [3]
-			"20:15:05", -- [4]
-			"森林潜伏者", -- [5]
-		}, -- [292]
-		{
-			36810.428, -- [1]
-			36816.423, -- [2]
-			"20:15:26", -- [3]
-			"20:15:32", -- [4]
-			"山猪", -- [5]
-		}, -- [293]
-		{
-			36836.432, -- [1]
-			36845.431, -- [2]
-			"20:15:52", -- [3]
-			"20:16:01", -- [4]
-			"老黑熊", -- [5]
-		}, -- [294]
-		{
-			36850.429, -- [1]
-			36857.428, -- [2]
-			"20:16:07", -- [3]
-			"20:16:13", -- [4]
-			"森林潜伏者", -- [5]
-		}, -- [295]
-		{
-			36869.431, -- [1]
-			36879.431, -- [2]
-			"20:16:26", -- [3]
-			"20:16:35", -- [4]
-			"山猪", -- [5]
-		}, -- [296]
-		{
-			36897.426, -- [1]
-			36904.426, -- [2]
-			"20:16:54", -- [3]
-			"20:17:00", -- [4]
-			"森林潜伏者", -- [5]
-		}, -- [297]
-		{
-			36910.43, -- [1]
-			36916.43, -- [2]
-			"20:17:07", -- [3]
-			"20:17:12", -- [4]
-			"山猪", -- [5]
-		}, -- [298]
-		{
-			36920.428, -- [1]
-			36926.424, -- [2]
-			"20:17:17", -- [3]
-			"20:17:22", -- [4]
-			"森林潜伏者", -- [5]
-		}, -- [299]
-		{
-			36934.423, -- [1]
-			36941.423, -- [2]
-			"20:17:31", -- [3]
-			"20:17:37", -- [4]
-			"森林潜伏者", -- [5]
-		}, -- [300]
-		{
-			36949.427, -- [1]
-			36955.43, -- [2]
-			"20:17:46", -- [3]
-			"20:17:51", -- [4]
-			"森林潜伏者", -- [5]
-		}, -- [301]
-		{
-			36964.429, -- [1]
-			36968.428, -- [2]
-			"20:18:00", -- [3]
-			"20:18:04", -- [4]
-			"山猪", -- [5]
-		}, -- [302]
-		{
-			37011.424, -- [1]
-			37018.425, -- [2]
-			"20:18:48", -- [3]
-			"20:18:54", -- [4]
-			"老黑熊", -- [5]
-		}, -- [303]
-		{
-			37059.428, -- [1]
-			37067.429, -- [2]
-			"20:19:35", -- [3]
-			"20:19:43", -- [4]
-			"山猪", -- [5]
-		}, -- [304]
-		{
-			37981.429, -- [1]
-			37987.428, -- [2]
-			"20:34:57", -- [3]
-			"20:35:03", -- [4]
-			"耕田小生", -- [5]
-		}, -- [305]
-		{
-			38132.426, -- [1]
-			38139.428, -- [2]
-			"20:37:29", -- [3]
-			"20:37:35", -- [4]
-			"耕田小生", -- [5]
-		}, -- [306]
-		{
-			39576.425, -- [1]
-			39582.43, -- [2]
-			"21:01:32", -- [3]
-			"21:01:38", -- [4]
-			"小潮行蟹", -- [5]
-		}, -- [307]
-		{
-			39584.432, -- [1]
-			39589.43, -- [2]
-			"21:01:41", -- [3]
-			"21:01:45", -- [4]
-			"小潮行蟹", -- [5]
-		}, -- [308]
-		{
-			39592.422, -- [1]
-			39596.432, -- [2]
-			"21:01:49", -- [3]
-			"21:01:52", -- [4]
-			"小潮行蟹", -- [5]
-		}, -- [309]
-		{
-			39601.424, -- [1]
-			39605.422, -- [2]
-			"21:01:58", -- [3]
-			"21:02:01", -- [4]
-			"小潮行蟹", -- [5]
-		}, -- [310]
-		{
-			39613.429, -- [1]
-			39619.423, -- [2]
-			"21:02:10", -- [3]
-			"21:02:15", -- [4]
-			"小潮行蟹", -- [5]
-		}, -- [311]
-		{
-			39623.43, -- [1]
-			39628.428, -- [2]
-			"21:02:20", -- [3]
-			"21:02:24", -- [4]
-			"小潮行蟹", -- [5]
-		}, -- [312]
-		{
-			39629.43, -- [1]
-			39633.425, -- [2]
-			"21:02:26", -- [3]
-			"21:02:29", -- [4]
-			"小潮行蟹", -- [5]
-		}, -- [313]
-		{
-			39641.423, -- [1]
-			39647.431, -- [2]
-			"21:02:37", -- [3]
-			"21:02:43", -- [4]
-			"小潮行蟹", -- [5]
-		}, -- [314]
-		{
-			39653.427, -- [1]
-			39657.433, -- [2]
-			"21:02:50", -- [3]
-			"21:02:53", -- [4]
-			"小潮行蟹", -- [5]
-		}, -- [315]
-		{
-			39682.425, -- [1]
-			39686.432, -- [2]
-			"21:03:19", -- [3]
-			"21:03:22", -- [4]
-			"小潮行蟹", -- [5]
-		}, -- [316]
-		{
-			39687.429, -- [1]
-			39694.425, -- [2]
-			"21:03:24", -- [3]
-			"21:03:30", -- [4]
-			"小潮行蟹", -- [5]
-		}, -- [317]
-		{
-			39710.43, -- [1]
-			39714.43, -- [2]
-			"21:03:46", -- [3]
-			"21:03:50", -- [4]
-			"小潮行蟹", -- [5]
-		}, -- [318]
-		{
-			39733.425, -- [1]
-			39738.423, -- [2]
-			"21:04:10", -- [3]
-			"21:04:14", -- [4]
-			"小潮行蟹", -- [5]
-		}, -- [319]
-		{
-			39741.424, -- [1]
-			39748.427, -- [2]
-			"21:04:18", -- [3]
-			"21:04:24", -- [4]
-			"小潮行蟹", -- [5]
-		}, -- [320]
-		{
-			39753.432, -- [1]
-			39757.428, -- [2]
-			"21:04:30", -- [3]
-			"21:04:33", -- [4]
-			"小潮行蟹", -- [5]
-		}, -- [321]
-		{
-			39762.429, -- [1]
-			39766.424, -- [2]
-			"21:04:39", -- [3]
-			"21:04:42", -- [4]
-			"小潮行蟹", -- [5]
-		}, -- [322]
-		{
-			39926.431, -- [1]
-			39931.431, -- [2]
-			"21:07:23", -- [3]
-			"21:07:27", -- [4]
-			"狂暴的月夜枭兽", -- [5]
-		}, -- [323]
-		{
-			39942.424, -- [1]
-			39957.427, -- [2]
-			"21:07:39", -- [3]
-			"21:07:53", -- [4]
-			"狂暴的月夜枭兽", -- [5]
-		}, -- [324]
-		{
-			40005.433, -- [1]
-			40017.428, -- [2]
-			"21:08:41", -- [3]
-			"21:08:53", -- [4]
-			"狂暴的月夜枭兽", -- [5]
-		}, -- [325]
-		{
-			40024.429, -- [1]
-			40046.432, -- [2]
-			"21:09:00", -- [3]
-			"21:09:22", -- [4]
-			"蓟熊", -- [5]
-		}, -- [326]
-		{
-			40057.432, -- [1]
-			40063.433, -- [2]
-			"21:09:34", -- [3]
-			"21:09:39", -- [4]
-			"恶灵劣魔", -- [5]
-		}, -- [327]
-		{
-			40069.429, -- [1]
-			40073.433, -- [2]
-			"21:09:46", -- [3]
-			"21:09:49", -- [4]
-			"恶灵劣魔", -- [5]
-		}, -- [328]
-		{
-			40080.431, -- [1]
-			40083.434, -- [2]
-			"21:09:57", -- [3]
-			"21:09:59", -- [4]
-			"恶灵劣魔", -- [5]
-		}, -- [329]
-		{
-			40088.429, -- [1]
-			40094.422, -- [2]
-			"21:10:05", -- [3]
-			"21:10:10", -- [4]
-			"恶灵劣魔", -- [5]
-		}, -- [330]
-		{
-			40103.425, -- [1]
-			40107.428, -- [2]
-			"21:10:20", -- [3]
-			"21:10:23", -- [4]
-			"恶灵劣魔", -- [5]
-		}, -- [331]
-		{
-			40121.424, -- [1]
-			40127.423, -- [2]
-			"21:10:38", -- [3]
-			"21:10:43", -- [4]
-			"恶灵劣魔", -- [5]
-		}, -- [332]
-		{
-			40130.43, -- [1]
-			40134.427, -- [2]
-			"21:10:47", -- [3]
-			"21:10:50", -- [4]
-			"恶灵劣魔", -- [5]
-		}, -- [333]
-		{
-			40141.425, -- [1]
-			40148.424, -- [2]
-			"21:10:58", -- [3]
-			"21:11:04", -- [4]
-			"恶灵劣魔", -- [5]
-		}, -- [334]
-		{
-			40153.43, -- [1]
-			40157.428, -- [2]
-			"21:11:10", -- [3]
-			"21:11:13", -- [4]
-			"恶灵劣魔", -- [5]
-		}, -- [335]
-		{
-			40160.432, -- [1]
-			40168.426, -- [2]
-			"21:11:17", -- [3]
-			"21:11:24", -- [4]
-			"恶灵劣魔", -- [5]
-		}, -- [336]
-		{
-			40175.432, -- [1]
-			40181.426, -- [2]
-			"21:11:32", -- [3]
-			"21:11:37", -- [4]
-			"野生劣魔", -- [5]
-		}, -- [337]
-		{
-			40202.424, -- [1]
-			40206.422, -- [2]
-			"21:11:59", -- [3]
-			"21:12:02", -- [4]
-			"恶灵劣魔", -- [5]
-		}, -- [338]
-		{
-			40213.425, -- [1]
-			40219.429, -- [2]
-			"21:12:10", -- [3]
-			"21:12:15", -- [4]
-			"恶灵劣魔", -- [5]
-		}, -- [339]
-		{
-			40223.425, -- [1]
-			40232.432, -- [2]
-			"21:12:19", -- [3]
-			"21:12:28", -- [4]
-			"恶灵劣魔", -- [5]
-		}, -- [340]
-		{
-			40237.432, -- [1]
-			40243.433, -- [2]
-			"21:12:34", -- [3]
-			"21:12:39", -- [4]
-			"恶灵劣魔", -- [5]
-		}, -- [341]
-		{
-			40247.423, -- [1]
-			40253.433, -- [2]
-			"21:12:44", -- [3]
-			"21:12:49", -- [4]
-			"野生劣魔", -- [5]
-		}, -- [342]
-		{
-			40260.429, -- [1]
-			40266.428, -- [2]
-			"21:12:56", -- [3]
-			"21:13:02", -- [4]
-			"恶灵劣魔", -- [5]
-		}, -- [343]
-		{
-			40271.425, -- [1]
-			40279.429, -- [2]
-			"21:13:07", -- [3]
-			"21:13:15", -- [4]
-			"恶灵劣魔", -- [5]
-		}, -- [344]
-		{
-			40285.429, -- [1]
-			40294.425, -- [2]
-			"21:13:22", -- [3]
-			"21:13:30", -- [4]
-			"野生劣魔", -- [5]
-		}, -- [345]
-		{
-			40298.426, -- [1]
-			40306.431, -- [2]
-			"21:13:35", -- [3]
-			"21:13:42", -- [4]
-			"野生劣魔", -- [5]
-		}, -- [346]
-		{
-			40309.425, -- [1]
-			40317.432, -- [2]
-			"21:13:46", -- [3]
-			"21:13:53", -- [4]
-			"野生劣魔", -- [5]
-		}, -- [347]
-		{
-			40321.425, -- [1]
-			40327.423, -- [2]
-			"21:13:57", -- [3]
-			"21:14:03", -- [4]
-			"野生劣魔", -- [5]
-		}, -- [348]
-		{
-			40331.425, -- [1]
-			40337.429, -- [2]
-			"21:14:07", -- [3]
-			"21:14:13", -- [4]
-			"野生劣魔", -- [5]
-		}, -- [349]
-		{
-			40359.424, -- [1]
-			40365.429, -- [2]
-			"21:14:36", -- [3]
-			"21:14:41", -- [4]
-			"野生劣魔", -- [5]
-		}, -- [350]
-		{
-			40436.428, -- [1]
-			40445.433, -- [2]
-			"21:15:52", -- [3]
-			"21:16:01", -- [4]
-			"野生劣魔", -- [5]
-		}, -- [351]
-		{
-			40451.427, -- [1]
-			40457.427, -- [2]
-			"21:16:07", -- [3]
-			"21:16:13", -- [4]
-			"戴瑟雷萨特", -- [5]
-		}, -- [352]
-		{
-			40481.429, -- [1]
-			40499.425, -- [2]
-			"21:16:37", -- [3]
-			"21:16:55", -- [4]
-			"戴瑟雷萨特", -- [5]
-		}, -- [353]
-		{
-			40506.423, -- [1]
-			40512.429, -- [2]
-			"21:17:02", -- [3]
-			"21:17:08", -- [4]
-			"恶灵劣魔", -- [5]
-		}, -- [354]
-		{
-			40574.431, -- [1]
-			40583.431, -- [2]
-			"21:18:10", -- [3]
-			"21:18:19", -- [4]
-			"狂暴蓟熊", -- [5]
-		}, -- [355]
-		{
-			40746.428, -- [1]
-			40753.423, -- [2]
-			"21:21:02", -- [3]
-			"21:21:09", -- [4]
-			"黑海岸蛇颈龙", -- [5]
-		}, -- [356]
-		{
-			40795.425, -- [1]
-			40804.428, -- [2]
-			"21:21:51", -- [3]
-			"21:22:00", -- [4]
-			"黑海岸蛇颈龙", -- [5]
-		}, -- [357]
-		{
-			40823.424, -- [1]
-			40829.431, -- [2]
-			"21:22:20", -- [3]
-			"21:22:25", -- [4]
-			"黑海岸蛇颈龙", -- [5]
-		}, -- [358]
-		{
-			40849.428, -- [1]
-			40859.438, -- [2]
-			"21:22:45", -- [3]
-			"21:22:55", -- [4]
-			"黑海岸蛇颈龙", -- [5]
-		}, -- [359]
-		{
-			40880.423, -- [1]
-			40885.423, -- [2]
-			"21:23:16", -- [3]
-			"21:23:21", -- [4]
-			"黑海岸蛇颈龙", -- [5]
-		}, -- [360]
-		{
-			40896.425, -- [1]
-			40903.429, -- [2]
-			"21:23:32", -- [3]
-			"21:23:39", -- [4]
-			"黑海岸蛇颈龙", -- [5]
-		}, -- [361]
-		{
-			40927.432, -- [1]
-			40933.425, -- [2]
-			"21:24:04", -- [3]
-			"21:24:09", -- [4]
-			"黑海岸蛇颈龙", -- [5]
-		}, -- [362]
-		{
-			40945.431, -- [1]
-			40954.423, -- [2]
-			"21:24:21", -- [3]
-			"21:24:30", -- [4]
-			"黑海岸蛇颈龙", -- [5]
-		}, -- [363]
-		{
-			41053.423, -- [1]
-			41076.434, -- [2]
-			"21:26:09", -- [3]
-			"21:26:32", -- [4]
-			"蓟熊", -- [5]
-		}, -- [364]
-		{
-			41093.43, -- [1]
-			41122.431, -- [2]
-			"21:26:50", -- [3]
-			"21:27:18", -- [4]
-			"蓟熊", -- [5]
-		}, -- [365]
-		{
-			41128.426, -- [1]
-			41149.429, -- [2]
-			"21:27:24", -- [3]
-			"21:27:45", -- [4]
-			"月夜枭兽", -- [5]
-		}, -- [366]
-		{
-			41191.431, -- [1]
-			41222.429, -- [2]
-			"21:28:27", -- [3]
-			"21:28:58", -- [4]
-			"狂暴的月夜枭兽", -- [5]
-		}, -- [367]
-		{
-			41245.426, -- [1]
-			41270.427, -- [2]
-			"21:29:21", -- [3]
-			"21:29:46", -- [4]
-			"蓟熊", -- [5]
-		}, -- [368]
-		{
-			41274.427, -- [1]
-			41278.426, -- [2]
-			"21:29:50", -- [3]
-			"21:29:54", -- [4]
-			"被诅咒的贵族", -- [5]
-		}, -- [369]
-		{
-			41283.425, -- [1]
-			41287.423, -- [2]
-			"21:29:59", -- [3]
-			"21:30:03", -- [4]
-			"被诅咒的贵族", -- [5]
-		}, -- [370]
-		{
-			41289.425, -- [1]
-			41298.429, -- [2]
-			"21:30:06", -- [3]
-			"21:30:14", -- [4]
-			"挣扎的贵族", -- [5]
-		}, -- [371]
-		{
-			41304.432, -- [1]
-			41309.425, -- [2]
-			"21:30:20", -- [3]
-			"21:30:25", -- [4]
-			"安娜雅·晨路", -- [5]
-		}, -- [372]
-		{
-			41315.429, -- [1]
-			41323.43, -- [2]
-			"21:30:31", -- [3]
-			"21:30:39", -- [4]
-			"被诅咒的贵族", -- [5]
-		}, -- [373]
-		{
-			41332.432, -- [1]
-			41344.426, -- [2]
-			"21:30:48", -- [3]
-			"21:31:00", -- [4]
-			"挣扎的贵族", -- [5]
-		}, -- [374]
-		{
-			41350.429, -- [1]
-			41360.432, -- [2]
-			"21:31:06", -- [3]
-			"21:31:16", -- [4]
-			"被诅咒的贵族", -- [5]
-		}, -- [375]
-		{
-			41365.425, -- [1]
-			41373.432, -- [2]
-			"21:31:22", -- [3]
-			"21:31:29", -- [4]
-			"挣扎的贵族", -- [5]
-		}, -- [376]
-		{
-			41377.423, -- [1]
-			41383.43, -- [2]
-			"21:31:34", -- [3]
-			"21:31:39", -- [4]
-			"被诅咒的贵族", -- [5]
-		}, -- [377]
-		{
-			41388.432, -- [1]
-			41395.432, -- [2]
-			"21:31:45", -- [3]
-			"21:31:51", -- [4]
-			"被诅咒的贵族", -- [5]
-		}, -- [378]
-		{
-			41403.423, -- [1]
-			41412.432, -- [2]
-			"21:31:59", -- [3]
-			"21:32:08", -- [4]
-			"挣扎的贵族", -- [5]
-		}, -- [379]
-		{
-			41417.43, -- [1]
-			41421.428, -- [2]
-			"21:32:13", -- [3]
-			"21:32:17", -- [4]
-			"哀嚎的贵族", -- [5]
-		}, -- [380]
-		{
-			41428.431, -- [1]
-			41432.424, -- [2]
-			"21:32:24", -- [3]
-			"21:32:28", -- [4]
-			"被诅咒的贵族", -- [5]
-		}, -- [381]
-		{
-			41438.429, -- [1]
-			41448.432, -- [2]
-			"21:32:35", -- [3]
-			"21:32:44", -- [4]
-			"挣扎的贵族", -- [5]
-		}, -- [382]
-		{
-			41453.425, -- [1]
-			41458.432, -- [2]
-			"21:32:49", -- [3]
-			"21:32:54", -- [4]
-			"挣扎的贵族", -- [5]
-		}, -- [383]
-		{
-			41481.427, -- [1]
-			41487.429, -- [2]
-			"21:33:17", -- [3]
-			"21:33:23", -- [4]
-			"哀嚎的贵族", -- [5]
-		}, -- [384]
-		{
-			41493.429, -- [1]
-			41499.425, -- [2]
-			"21:33:29", -- [3]
-			"21:33:35", -- [4]
-			"被诅咒的贵族", -- [5]
-		}, -- [385]
-		{
-			41557.433, -- [1]
-			41565.434, -- [2]
-			"21:34:34", -- [3]
-			"21:34:41", -- [4]
-			"哀嚎的贵族", -- [5]
-		}, -- [386]
-		{
-			41570.425, -- [1]
-			41575.432, -- [2]
-			"21:34:47", -- [3]
-			"21:34:51", -- [4]
-			"哀嚎的贵族", -- [5]
-		}, -- [387]
-		{
-			41579.43, -- [1]
-			41585.433, -- [2]
-			"21:34:55", -- [3]
-			"21:35:01", -- [4]
-			"哀嚎的贵族", -- [5]
-		}, -- [388]
-		{
-			41604.426, -- [1]
-			41611.427, -- [2]
-			"21:35:20", -- [3]
-			"21:35:27", -- [4]
-			"挣扎的贵族", -- [5]
-		}, -- [389]
-		{
-			41621.424, -- [1]
-			41626.422, -- [2]
-			"21:35:38", -- [3]
-			"21:35:42", -- [4]
-			"哀嚎的贵族", -- [5]
-		}, -- [390]
-		{
-			41659.431, -- [1]
-			41683.426, -- [2]
-			"21:36:16", -- [3]
-			"21:36:39", -- [4]
-			"挣扎的贵族", -- [5]
-		}, -- [391]
-		{
-			41698.425, -- [1]
-			41708.426, -- [2]
-			"21:36:55", -- [3]
-			"21:37:04", -- [4]
-			"狂暴蓟熊", -- [5]
-		}, -- [392]
-		{
-			42365.007, -- [1]
-			42370.002, -- [2]
-			"21:48:01", -- [3]
-			"21:48:06", -- [4]
-			"灰雾滩行者", -- [5]
-		}, -- [393]
-		{
-			42373.007, -- [1]
-			42379.011, -- [2]
-			"21:48:09", -- [3]
-			"21:48:15", -- [4]
-			"灰雾先知", -- [5]
-		}, -- [394]
-		{
-			42382.007, -- [1]
-			42388.067, -- [2]
-			"21:48:18", -- [3]
-			"21:48:24", -- [4]
-			"灰雾先知", -- [5]
-		}, -- [395]
-		{
-			42436.003, -- [1]
-			42442.007, -- [2]
-			"21:49:13", -- [3]
-			"21:49:18", -- [4]
-			"黑海岸蛇颈龙", -- [5]
-		}, -- [396]
-		{
-			42457.004, -- [1]
-			42467.008, -- [2]
-			"21:49:33", -- [3]
-			"21:49:43", -- [4]
-			"灰雾滩行者", -- [5]
-		}, -- [397]
-		{
-			42493.002, -- [1]
-			42502.004, -- [2]
-			"21:50:09", -- [3]
-			"21:50:18", -- [4]
-			"灰雾先知", -- [5]
-		}, -- [398]
-		{
-			42546.008, -- [1]
-			42558.011, -- [2]
-			"21:51:02", -- [3]
-			"21:51:14", -- [4]
-			"灰雾滩行者", -- [5]
-		}, -- [399]
-		{
-			42566.004, -- [1]
-			42583.002, -- [2]
-			"21:51:22", -- [3]
-			"21:51:39", -- [4]
-			"灰雾滩行者", -- [5]
-		}, -- [400]
-		{
-			42596.003, -- [1]
-			42630.006, -- [2]
-			"21:51:53", -- [3]
-			"21:52:26", -- [4]
-			"灰雾滩行者", -- [5]
-		}, -- [401]
-		{
-			42696.001, -- [1]
-			42705.001, -- [2]
-			"21:53:32", -- [3]
-			"21:53:41", -- [4]
-			"月夜猛虎", -- [5]
-		}, -- [402]
-		{
-			42714.007, -- [1]
-			42718.007, -- [2]
-			"21:53:50", -- [3]
-			"21:53:54", -- [4]
-			"月夜猛虎幼崽", -- [5]
-		}, -- [403]
-		{
-			42729.002, -- [1]
-			42737.01, -- [2]
-			"21:54:05", -- [3]
-			"21:54:13", -- [4]
-			"灰雾战士", -- [5]
-		}, -- [404]
-		{
-			42740.006, -- [1]
-			42747.003, -- [2]
-			"21:54:16", -- [3]
-			"21:54:23", -- [4]
-			"灰雾战士", -- [5]
-		}, -- [405]
-		{
-			42754.008, -- [1]
-			42762.01, -- [2]
-			"21:54:30", -- [3]
-			"21:54:38", -- [4]
-			"灰雾战士", -- [5]
-		}, -- [406]
-		{
-			42790.001, -- [1]
-			42797.005, -- [2]
-			"21:55:06", -- [3]
-			"21:55:13", -- [4]
-			"暗礁蟹", -- [5]
-		}, -- [407]
-		{
-			42805.002, -- [1]
-			42811.007, -- [2]
-			"21:55:21", -- [3]
-			"21:55:27", -- [4]
-			"暗礁蟹", -- [5]
-		}, -- [408]
-		{
-			42818.01, -- [1]
-			42823.011, -- [2]
-			"21:55:34", -- [3]
-			"21:55:39", -- [4]
-			"暗礁蟹", -- [5]
-		}, -- [409]
-		{
-			42829.008, -- [1]
-			42838.005, -- [2]
-			"21:55:45", -- [3]
-			"21:55:54", -- [4]
-			"暗礁蟹", -- [5]
-		}, -- [410]
-		{
-			42862.015, -- [1]
-			42871.009, -- [2]
-			"21:56:18", -- [3]
-			"21:56:27", -- [4]
-			"暗礁蟹", -- [5]
-		}, -- [411]
-		{
-			42878.009, -- [1]
-			42885.007, -- [2]
-			"21:56:34", -- [3]
-			"21:56:41", -- [4]
-			"暗礁蟹", -- [5]
-		}, -- [412]
-		{
-			42892.009, -- [1]
-			42901.006, -- [2]
-			"21:56:48", -- [3]
-			"21:56:57", -- [4]
-			"暗礁蟹", -- [5]
-		}, -- [413]
-		{
-			42906.005, -- [1]
-			42914.003, -- [2]
-			"21:57:03", -- [3]
-			"21:57:10", -- [4]
-			"暗礁蟹", -- [5]
-		}, -- [414]
-		{
-			42935.001, -- [1]
-			42941.007, -- [2]
-			"21:57:31", -- [3]
-			"21:57:37", -- [4]
-			"暗礁蟹", -- [5]
-		}, -- [415]
-		{
-			42948.008, -- [1]
-			42952.006, -- [2]
-			"21:57:44", -- [3]
-			"21:57:48", -- [4]
-			"暗礁蟹", -- [5]
-		}, -- [416]
-		{
-			42965.001, -- [1]
-			42970.004, -- [2]
-			"21:58:01", -- [3]
-			"21:58:06", -- [4]
-			"暗礁蟹", -- [5]
-		}, -- [417]
-		{
-			42976.01, -- [1]
-			42980.018, -- [2]
-			"21:58:12", -- [3]
-			"21:58:16", -- [4]
-			"暗礁蟹", -- [5]
-		}, -- [418]
-		{
-			42989.005, -- [1]
-			42996.007, -- [2]
-			"21:58:25", -- [3]
-			"21:58:32", -- [4]
-			"暗礁蟹", -- [5]
-		}, -- [419]
-		{
-			43000.001, -- [1]
-			43011.007, -- [2]
-			"21:58:37", -- [3]
-			"21:58:47", -- [4]
-			"暗礁蟹", -- [5]
-		}, -- [420]
-		{
-			43023.007, -- [1]
-			43027.008, -- [2]
-			"21:58:59", -- [3]
-			"21:59:03", -- [4]
-			"暗礁蟹", -- [5]
-		}, -- [421]
-		{
-			43036.002, -- [1]
-			43050.003, -- [2]
-			"21:59:12", -- [3]
-			"21:59:26", -- [4]
-			"硬壳潮行蟹", -- [5]
-		}, -- [422]
-		{
-			43080.009, -- [1]
-			43088.013, -- [2]
-			"21:59:56", -- [3]
-			"22:00:04", -- [4]
-			"月夜猛虎", -- [5]
-		}, -- [423]
-		{
-			43098.002, -- [1]
-			43105.004, -- [2]
-			"22:00:14", -- [3]
-			"22:00:21", -- [4]
-			"月夜猛虎", -- [5]
-		}, -- [424]
-		{
-			43111.012, -- [1]
-			43118.005, -- [2]
-			"22:00:27", -- [3]
-			"22:00:34", -- [4]
-			"狂暴蓟熊", -- [5]
-		}, -- [425]
-		{
-			43147.009, -- [1]
-			43155.006, -- [2]
-			"22:01:04", -- [3]
-			"22:01:11", -- [4]
-			"狂暴蓟熊", -- [5]
-		}, -- [426]
-		{
-			43160.001, -- [1]
-			43168.004, -- [2]
-			"22:01:16", -- [3]
-			"22:01:24", -- [4]
-			"狂暴蓟熊", -- [5]
-		}, -- [427]
-		{
-			43179.002, -- [1]
-			43185.013, -- [2]
-			"22:01:35", -- [3]
-			"22:01:41", -- [4]
-			"月夜猛虎", -- [5]
-		}, -- [428]
-		{
-			43228.007, -- [1]
-			43237.012, -- [2]
-			"22:02:24", -- [3]
-			"22:02:33", -- [4]
-			"月夜猛虎", -- [5]
-		}, -- [429]
-		{
-			43244.006, -- [1]
-			43253.003, -- [2]
-			"22:02:40", -- [3]
-			"22:02:49", -- [4]
-			"月夜猛虎", -- [5]
-		}, -- [430]
-		{
-			43257.007, -- [1]
-			43265.005, -- [2]
-			"22:02:53", -- [3]
-			"22:03:01", -- [4]
-			"狂暴蓟熊", -- [5]
-		}, -- [431]
-		{
-			43295.008, -- [1]
-			43303.012, -- [2]
-			"22:03:32", -- [3]
-			"22:03:39", -- [4]
-			"狂暴蓟熊", -- [5]
-		}, -- [432]
-		{
-			43326.011, -- [1]
-			43332.016, -- [2]
-			"22:04:02", -- [3]
-			"22:04:08", -- [4]
-			"月夜猛虎", -- [5]
-		}, -- [433]
-		{
-			43354.006, -- [1]
-			43360.011, -- [2]
-			"22:04:31", -- [3]
-			"22:04:36", -- [4]
-			"月夜猛虎", -- [5]
-		}, -- [434]
-		{
-			43381.006, -- [1]
-			43388.007, -- [2]
-			"22:04:57", -- [3]
-			"22:05:04", -- [4]
-			"雷鳞御浪者", -- [5]
-		}, -- [435]
-		{
-			43394.013, -- [1]
-			43400.013, -- [2]
-			"22:05:10", -- [3]
-			"22:05:16", -- [4]
-			"雷鳞海妖", -- [5]
-		}, -- [436]
-		{
-			43412.004, -- [1]
-			43421.005, -- [2]
-			"22:05:29", -- [3]
-			"22:05:37", -- [4]
-			"雷鳞御浪者", -- [5]
-		}, -- [437]
-		{
-			43440.001, -- [1]
-			43448.003, -- [2]
-			"22:05:56", -- [3]
-			"22:06:04", -- [4]
-			"雷鳞御浪者", -- [5]
-		}, -- [438]
-		{
-			43449.005, -- [1]
-			43460.002, -- [2]
-			"22:06:05", -- [3]
-			"22:06:16", -- [4]
-			"雷鳞海妖", -- [5]
-		}, -- [439]
-		{
-			43468.006, -- [1]
-			43477.009, -- [2]
-			"22:06:24", -- [3]
-			"22:06:33", -- [4]
-			"雷鳞海妖", -- [5]
-		}, -- [440]
-		{
-			43500.005, -- [1]
-			43504.002, -- [2]
-			"22:06:56", -- [3]
-			"22:07:00", -- [4]
-			"雷鳞御浪者", -- [5]
-		}, -- [441]
-		{
-			43510.008, -- [1]
-			43518.004, -- [2]
-			"22:07:07", -- [3]
-			"22:07:14", -- [4]
-			"雷鳞海妖", -- [5]
-		}, -- [442]
-		{
-			43523.003, -- [1]
-			43535.001, -- [2]
-			"22:07:19", -- [3]
-			"22:07:31", -- [4]
-			"雷鳞御浪者", -- [5]
-		}, -- [443]
-		{
-			43540.005, -- [1]
-			43549.003, -- [2]
-			"22:07:36", -- [3]
-			"22:07:45", -- [4]
-			"雷鳞海妖", -- [5]
-		}, -- [444]
-		{
-			43582.001, -- [1]
-			43592.003, -- [2]
-			"22:08:18", -- [3]
-			"22:08:28", -- [4]
-			"雷鳞海妖", -- [5]
-		}, -- [445]
-		{
-			43633.012, -- [1]
-			43645.004, -- [2]
-			"22:09:09", -- [3]
-			"22:09:21", -- [4]
-			"狂暴蓟熊", -- [5]
-		}, -- [446]
-		{
-			43679.008, -- [1]
-			43690.01, -- [2]
-			"22:09:55", -- [3]
-			"22:10:06", -- [4]
-			"月夜猛虎", -- [5]
-		}, -- [447]
-		{
-			43720.004, -- [1]
-			43726.014, -- [2]
-			"22:10:37", -- [3]
-			"22:10:42", -- [4]
-			"月夜猛虎", -- [5]
-		}, -- [448]
-		{
-			43732.004, -- [1]
-			43741.002, -- [2]
-			"22:10:48", -- [3]
-			"22:10:57", -- [4]
-			"月夜猛虎", -- [5]
-		}, -- [449]
-		{
-			43801.003, -- [1]
-			43811.011, -- [2]
-			"22:11:57", -- [3]
-			"22:12:07", -- [4]
-			"硬壳潮行蟹", -- [5]
-		}, -- [450]
-		{
-			43836.004, -- [1]
-			43845.006, -- [2]
-			"22:12:32", -- [3]
-			"22:12:41", -- [4]
-			"暗礁蟹", -- [5]
-		}, -- [451]
-		{
-			43866.005, -- [1]
-			43874.01, -- [2]
-			"22:13:02", -- [3]
-			"22:13:10", -- [4]
-			"暗礁蟹", -- [5]
-		}, -- [452]
-		{
-			43880.003, -- [1]
-			43888.01, -- [2]
-			"22:13:16", -- [3]
-			"22:13:24", -- [4]
-			"暗礁蟹", -- [5]
-		}, -- [453]
-		{
-			43901.002, -- [1]
-			43909.002, -- [2]
-			"22:13:37", -- [3]
-			"22:13:45", -- [4]
-			"暗礁蟹", -- [5]
-		}, -- [454]
-		{
-			43998.002, -- [1]
-			44005.013, -- [2]
-			"22:15:14", -- [3]
-			"22:15:21", -- [4]
-			"狂暴蓟熊", -- [5]
-		}, -- [455]
-		{
-			44012.011, -- [1]
-			44023.003, -- [2]
-			"22:15:28", -- [3]
-			"22:15:39", -- [4]
-			"狂暴蓟熊", -- [5]
-		}, -- [456]
-		{
-			44031.004, -- [1]
-			44038.001, -- [2]
-			"22:15:47", -- [3]
-			"22:15:54", -- [4]
-			"狂暴蓟熊", -- [5]
-		}, -- [457]
-		{
-			44043.002, -- [1]
-			44049.009, -- [2]
-			"22:15:59", -- [3]
-			"22:16:05", -- [4]
-			"狂暴蓟熊", -- [5]
-		}, -- [458]
-		{
-			44075.005, -- [1]
-			44081.008, -- [2]
-			"22:16:31", -- [3]
-			"22:16:37", -- [4]
-			"月夜猛虎", -- [5]
-		}, -- [459]
-		{
-			44107.014, -- [1]
-			44129.006, -- [2]
-			"22:17:03", -- [3]
-			"22:17:25", -- [4]
-			"暗滩狂热者", -- [5]
-		}, -- [460]
-		{
-			44141.001, -- [1]
-			44148.003, -- [2]
-			"22:17:37", -- [3]
-			"22:17:44", -- [4]
-			"暗滩狂热者", -- [5]
-		}, -- [461]
-		{
-			44154.001, -- [1]
-			44164.009, -- [2]
-			"22:17:51", -- [3]
-			"22:18:00", -- [4]
-			"暗滩狂热者", -- [5]
-		}, -- [462]
-		{
-			44183.007, -- [1]
-			44192.005, -- [2]
-			"22:18:19", -- [3]
-			"22:18:28", -- [4]
-			"暗滩狂热者", -- [5]
-		}, -- [463]
-		{
-			44197.003, -- [1]
-			44203.005, -- [2]
-			"22:18:33", -- [3]
-			"22:18:39", -- [4]
-			"暗滩狂热者", -- [5]
-		}, -- [464]
-		{
-			44224.005, -- [1]
-			44235.008, -- [2]
-			"22:19:00", -- [3]
-			"22:19:11", -- [4]
-			"暗滩狂热者", -- [5]
-		}, -- [465]
-		{
-			44239.005, -- [1]
-			44250.012, -- [2]
-			"22:19:16", -- [3]
-			"22:19:26", -- [4]
-			"暗滩狂热者", -- [5]
-		}, -- [466]
-		{
-			44253.001, -- [1]
-			44262.011, -- [2]
-			"22:19:29", -- [3]
-			"22:19:38", -- [4]
-			"暗滩狂热者", -- [5]
-		}, -- [467]
-		{
-			44282.011, -- [1]
-			44289.004, -- [2]
-			"22:19:58", -- [3]
-			"22:20:05", -- [4]
-			"暗滩狂热者", -- [5]
-		}, -- [468]
-		{
-			44295.01, -- [1]
-			44307.01, -- [2]
-			"22:20:11", -- [3]
-			"22:20:23", -- [4]
-			"暗滩狂热者", -- [5]
-		}, -- [469]
-		{
-			44352.006, -- [1]
-			44361.007, -- [2]
-			"22:21:08", -- [3]
-			"22:21:17", -- [4]
-			"狂暴蓟熊", -- [5]
-		}, -- [470]
-		{
-			44381.013, -- [1]
-			44388.006, -- [2]
-			"22:21:37", -- [3]
-			"22:21:44", -- [4]
-			"狂暴蓟熊", -- [5]
-		}, -- [471]
-		{
-			44410.002, -- [1]
-			44417.011, -- [2]
-			"22:22:06", -- [3]
-			"22:22:13", -- [4]
-			"狂暴蓟熊", -- [5]
-		}, -- [472]
-		{
-			44435.002, -- [1]
-			44452.007, -- [2]
-			"22:22:31", -- [3]
-			"22:22:48", -- [4]
-			"狂暴蓟熊", -- [5]
-		}, -- [473]
-		{
-			44466.006, -- [1]
-			44473.008, -- [2]
-			"22:23:02", -- [3]
-			"22:23:09", -- [4]
-			"狂暴蓟熊", -- [5]
-		}, -- [474]
-		{
-			44479.001, -- [1]
-			44487.003, -- [2]
-			"22:23:15", -- [3]
-			"22:23:23", -- [4]
-			"狂暴蓟熊", -- [5]
-		}, -- [475]
-		{
-			44516.004, -- [1]
-			44523.004, -- [2]
-			"22:23:52", -- [3]
-			"22:23:59", -- [4]
-			"狂暴蓟熊", -- [5]
-		}, -- [476]
-		{
-			44540.01, -- [1]
-			44546.011, -- [2]
-			"22:24:16", -- [3]
-			"22:24:22", -- [4]
-			"狂暴蓟熊", -- [5]
-		}, -- [477]
-		{
-			44562.008, -- [1]
-			44569.002, -- [2]
-			"22:24:38", -- [3]
-			"22:24:45", -- [4]
-			"狂暴蓟熊", -- [5]
-		}, -- [478]
-		{
-			44878.012, -- [1]
-			44892.001, -- [2]
-			"22:29:54", -- [3]
-			"22:30:08", -- [4]
-			"狂暴蓟熊", -- [5]
-		}, -- [479]
-		{
-			44901.001, -- [1]
-			44909.006, -- [2]
-			"22:30:17", -- [3]
-			"22:30:25", -- [4]
-			"黑木探路者", -- [5]
-		}, -- [480]
-		{
-			44912.004, -- [1]
-			44919.006, -- [2]
-			"22:30:28", -- [3]
-			"22:30:35", -- [4]
-			"黑木风语者", -- [5]
-		}, -- [481]
-		{
-			44923.003, -- [1]
-			44927.001, -- [2]
-			"22:30:39", -- [3]
-			"22:30:43", -- [4]
-			"黑木探路者", -- [5]
-		}, -- [482]
-		{
-			44936.008, -- [1]
-			44941.013, -- [2]
-			"22:30:52", -- [3]
-			"22:30:57", -- [4]
-			"黑木风语者", -- [5]
-		}, -- [483]
-		{
-			44966.007, -- [1]
-			44974.005, -- [2]
-			"22:31:23", -- [3]
-			"22:31:30", -- [4]
-			"黑木风语者", -- [5]
-		}, -- [484]
-		{
-			44983.006, -- [1]
-			44990.009, -- [2]
-			"22:31:39", -- [3]
-			"22:31:46", -- [4]
-			"黑木风语者", -- [5]
-		}, -- [485]
-		{
-			44997.007, -- [1]
-			45003.013, -- [2]
-			"22:31:53", -- [3]
-			"22:31:59", -- [4]
-			"黑木探路者", -- [5]
-		}, -- [486]
-		{
-			45005.001, -- [1]
-			45015.005, -- [2]
-			"22:32:01", -- [3]
-			"22:32:11", -- [4]
-			"黑木探路者", -- [5]
-		}, -- [487]
-		{
-			45020.012, -- [1]
-			45025.01, -- [2]
-			"22:32:16", -- [3]
-			"22:32:21", -- [4]
-			"黑木风语者", -- [5]
-		}, -- [488]
-		{
-			45029.006, -- [1]
-			45035.009, -- [2]
-			"22:32:25", -- [3]
-			"22:32:31", -- [4]
-			"黑木探路者", -- [5]
-		}, -- [489]
-		{
-			45047.01, -- [1]
-			45054.001, -- [2]
-			"22:32:44", -- [3]
-			"22:32:50", -- [4]
-			"黑木探路者", -- [5]
-		}, -- [490]
-		{
-			45080.004, -- [1]
-			45086.005, -- [2]
-			"22:33:16", -- [3]
-			"22:33:22", -- [4]
-			"黑木探路者", -- [5]
-		}, -- [491]
-		{
-			45094.009, -- [1]
-			45099.012, -- [2]
-			"22:33:30", -- [3]
-			"22:33:35", -- [4]
-			"黑木探路者", -- [5]
-		}, -- [492]
-		{
-			45157.003, -- [1]
-			45161.004, -- [2]
-			"22:34:33", -- [3]
-			"22:34:37", -- [4]
-			"灰雾滩行者", -- [5]
-		}, -- [493]
-		{
-			45167.006, -- [1]
-			45173.004, -- [2]
-			"22:34:43", -- [3]
-			"22:34:49", -- [4]
-			"灰雾先知", -- [5]
-		}, -- [494]
-		{
-			45241.001, -- [1]
-			45248.008, -- [2]
-			"22:35:57", -- [3]
-			"22:36:04", -- [4]
-			"灰雾撒网者", -- [5]
-		}, -- [495]
-		{
-			45283.01, -- [1]
-			45308.001, -- [2]
-			"22:36:39", -- [3]
-			"22:37:04", -- [4]
-			"灰斑蓟熊", -- [5]
-		}, -- [496]
-		{
-			45337.007, -- [1]
-			45356.01, -- [2]
-			"22:37:33", -- [3]
-			"22:37:52", -- [4]
-			"灰斑蓟熊", -- [5]
-		}, -- [497]
-		{
-			45371.008, -- [1]
-			45379.003, -- [2]
-			"22:38:07", -- [3]
-			"22:38:15", -- [4]
-			"灰斑蓟熊", -- [5]
-		}, -- [498]
-		{
-			45428.012, -- [1]
-			45436.012, -- [2]
-			"22:39:04", -- [3]
-			"22:39:12", -- [4]
-			"灰斑蓟熊", -- [5]
-		}, -- [499]
-		{
-			45474.007, -- [1]
-			45482.001, -- [2]
-			"22:39:50", -- [3]
-			"22:39:58", -- [4]
-			"灰雾猎人", -- [5]
-		}, -- [500]
-		{
-			45486.008, -- [1]
-			45494.005, -- [2]
-			"22:40:02", -- [3]
-			"22:40:10", -- [4]
-			"灰雾战士", -- [5]
-		}, -- [501]
-		{
-			45496.003, -- [1]
-			45504.011, -- [2]
-			"22:40:12", -- [3]
-			"22:40:20", -- [4]
-			"灰雾猎人", -- [5]
-		}, -- [502]
-		{
-			45518.007, -- [1]
-			45525.009, -- [2]
-			"22:40:34", -- [3]
-			"22:40:41", -- [4]
-			"灰雾战士", -- [5]
-		}, -- [503]
-		{
-			45528.01, -- [1]
-			45539.007, -- [2]
-			"22:40:45", -- [3]
-			"22:40:55", -- [4]
-			"灰雾战士", -- [5]
-		}, -- [504]
-		{
-			45541.001, -- [1]
-			45547.009, -- [2]
-			"22:40:57", -- [3]
-			"22:41:03", -- [4]
-			"灰雾战士", -- [5]
-		}, -- [505]
-		{
-			45586.001, -- [1]
-			45601.002, -- [2]
-			"22:41:43", -- [3]
-			"22:41:57", -- [4]
-			"灰雾滩行者", -- [5]
-		}, -- [506]
-		{
-			45609.002, -- [1]
-			45615.011, -- [2]
-			"22:42:05", -- [3]
-			"22:42:11", -- [4]
-			"灰雾滩行者", -- [5]
-		}, -- [507]
-		{
-			45622.004, -- [1]
-			45644.007, -- [2]
-			"22:42:18", -- [3]
-			"22:42:40", -- [4]
-			"灰雾战士", -- [5]
-		}, -- [508]
-		{
-			45647.007, -- [1]
-			45673.001, -- [2]
-			"22:42:43", -- [3]
-			"22:43:09", -- [4]
-			"莫克迪普", -- [5]
-		}, -- [509]
-		{
-			45825.007, -- [1]
-			45842.004, -- [2]
-			"22:45:41", -- [3]
-			"22:45:58", -- [4]
-			"灰雾猎人", -- [5]
-		}, -- [510]
-		{
-			45848.005, -- [1]
-			45855.004, -- [2]
-			"22:46:04", -- [3]
-			"22:46:11", -- [4]
-			"灰雾猎人", -- [5]
-		}, -- [511]
-		{
-			45896.011, -- [1]
-			45905.007, -- [2]
-			"22:46:52", -- [3]
-			"22:47:01", -- [4]
-			"灰雾潮行者", -- [5]
-		}, -- [512]
-		{
-			45909.009, -- [1]
-			45919, -- [2]
-			"22:47:05", -- [3]
-			"22:47:15", -- [4]
-			"灰雾智者", -- [5]
-		}, -- [513]
-		{
-			45921.002, -- [1]
-			45930.001, -- [2]
-			"22:47:17", -- [3]
-			"22:47:26", -- [4]
-			"灰雾潮行者", -- [5]
-		}, -- [514]
-		{
-			45971.006, -- [1]
-			45988.001, -- [2]
-			"22:48:07", -- [3]
-			"22:48:24", -- [4]
-			"灰雾潮行者", -- [5]
-		}, -- [515]
-		{
-			45991.002, -- [1]
-			46004.007, -- [2]
-			"22:48:27", -- [3]
-			"22:48:40", -- [4]
-			"灰雾潮行者", -- [5]
-		}, -- [516]
-		{
-			46012.007, -- [1]
-			46022.005, -- [2]
-			"22:48:49", -- [3]
-			"22:48:58", -- [4]
-			"灰雾智者", -- [5]
-		}, -- [517]
-		{
-			46061.005, -- [1]
-			46072.006, -- [2]
-			"22:49:37", -- [3]
-			"22:49:48", -- [4]
-			"老年深海蛇颈龙", -- [5]
-		}, -- [518]
-		{
-			46079.006, -- [1]
-			46087.012, -- [2]
-			"22:49:56", -- [3]
-			"22:50:03", -- [4]
-			"灰雾智者", -- [5]
-		}, -- [519]
-		{
-			46095.001, -- [1]
-			46111.006, -- [2]
-			"22:50:11", -- [3]
-			"22:50:27", -- [4]
-			"灰雾智者", -- [5]
-		}, -- [520]
-		{
-			46129.002, -- [1]
-			46138.001, -- [2]
-			"22:50:45", -- [3]
-			"22:50:54", -- [4]
-			"灰雾潮行者", -- [5]
-		}, -- [521]
-		{
-			46216.005, -- [1]
-			46226.008, -- [2]
-			"22:52:12", -- [3]
-			"22:52:22", -- [4]
-			"破损的傀儡", -- [5]
-		}, -- [522]
-		{
-			46247.01, -- [1]
-			46254.013, -- [2]
-			"22:52:43", -- [3]
-			"22:52:50", -- [4]
-			"破损的傀儡", -- [5]
-		}, -- [523]
-		{
-			46260.002, -- [1]
-			46266.01, -- [2]
-			"22:52:56", -- [3]
-			"22:53:02", -- [4]
-			"石巨兽", -- [5]
-		}, -- [524]
-		{
-			46272.001, -- [1]
-			46278.013, -- [2]
-			"22:53:08", -- [3]
-			"22:53:14", -- [4]
-			"石巨兽", -- [5]
-		}, -- [525]
-		{
-			46297.012, -- [1]
-			46315.004, -- [2]
-			"22:53:33", -- [3]
-			"22:53:51", -- [4]
-			"砂石斥候", -- [5]
-		}, -- [526]
-		{
-			46348.009, -- [1]
-			46365.008, -- [2]
-			"22:54:24", -- [3]
-			"22:54:41", -- [4]
-			"砂石斥候", -- [5]
-		}, -- [527]
-		{
-			46386.007, -- [1]
-			46395.012, -- [2]
-			"22:55:03", -- [3]
-			"22:55:11", -- [4]
-			"石巨兽", -- [5]
-		}, -- [528]
-		{
-			46405.004, -- [1]
-			46417.001, -- [2]
-			"22:55:21", -- [3]
-			"22:55:33", -- [4]
-			"石巨兽", -- [5]
-		}, -- [529]
-		{
-			46431.001, -- [1]
-			46440.012, -- [2]
-			"22:55:48", -- [3]
-			"22:55:56", -- [4]
-			"破损的傀儡", -- [5]
-		}, -- [530]
-		{
-			46456.012, -- [1]
-			46464.003, -- [2]
-			"22:56:12", -- [3]
-			"22:56:20", -- [4]
-			"石巨兽", -- [5]
-		}, -- [531]
-		{
-			46473.011, -- [1]
-			46480.011, -- [2]
-			"22:56:29", -- [3]
-			"22:56:36", -- [4]
-			"石巨兽", -- [5]
-		}, -- [532]
-		{
-			46547.005, -- [1]
-			46566.007, -- [2]
-			"22:57:43", -- [3]
-			"22:58:02", -- [4]
-			"砂石断骨者", -- [5]
-		}, -- [533]
-		{
-			46675.011, -- [1]
-			46685.01, -- [2]
-			"22:59:51", -- [3]
-			"23:00:01", -- [4]
-			"暮光信徒", -- [5]
-		}, -- [534]
-		{
-			46691.013, -- [1]
-			46710.001, -- [2]
-			"23:00:07", -- [3]
-			"23:00:26", -- [4]
-			"暮光暴徒", -- [5]
-		}, -- [535]
-		{
-			46758.003, -- [1]
-			46772.004, -- [2]
-			"23:01:14", -- [3]
-			"23:01:28", -- [4]
-			"暮光暴徒", -- [5]
-		}, -- [536]
-		{
-			46788.004, -- [1]
-			46798.001, -- [2]
-			"23:01:44", -- [3]
-			"23:01:54", -- [4]
-			"暮光暴徒", -- [5]
-		}, -- [537]
-		{
-			46817.008, -- [1]
-			46824.011, -- [2]
-			"23:02:13", -- [3]
-			"23:02:20", -- [4]
-			"暮光暴徒", -- [5]
-		}, -- [538]
-		{
-			46841.006, -- [1]
-			46849.004, -- [2]
-			"23:02:38", -- [3]
-			"23:02:45", -- [4]
-			"暮光暴徒", -- [5]
-		}, -- [539]
-		{
-			46860.006, -- [1]
-			46870.001, -- [2]
-			"23:02:56", -- [3]
-			"23:03:06", -- [4]
-			"暮光暴徒", -- [5]
-		}, -- [540]
-		{
-			46884.001, -- [1]
-			46891.003, -- [2]
-			"23:03:20", -- [3]
-			"23:03:27", -- [4]
-			"暮光信徒", -- [5]
-		}, -- [541]
-		{
-			46907.004, -- [1]
-			46912.02, -- [2]
-			"23:03:43", -- [3]
-			"23:03:48", -- [4]
-			"暮光信徒", -- [5]
-		}, -- [542]
-		{
-			47054.002, -- [1]
-			47068.011, -- [2]
-			"23:06:11", -- [3]
-			"23:06:24", -- [4]
-			"黑幕追踪者", -- [5]
-		}, -- [543]
-		{
-			47100.003, -- [1]
-			47114.008, -- [2]
-			"23:06:56", -- [3]
-			"23:07:10", -- [4]
-			"黑幕追踪者", -- [5]
-		}, -- [544]
-		{
-			47146.01, -- [1]
-			47152.011, -- [2]
-			"23:07:42", -- [3]
-			"23:07:48", -- [4]
-			"玛洛什", -- [5]
-		}, -- [545]
-		{
-			47166.005, -- [1]
-			47189.004, -- [2]
-			"23:08:02", -- [3]
-			"23:08:25", -- [4]
-			"黑木图腾师", -- [5]
-		}, -- [546]
-		{
-			47203.006, -- [1]
-			47211.013, -- [2]
-			"23:08:39", -- [3]
-			"23:08:47", -- [4]
-			"治疗结界", -- [5]
-		}, -- [547]
-		{
-			47219.011, -- [1]
-			47227.009, -- [2]
-			"23:08:55", -- [3]
-			"23:09:03", -- [4]
-			"灰斑蓟熊", -- [5]
-		}, -- [548]
-		{
-			47235.011, -- [1]
-			47242.007, -- [2]
-			"23:09:11", -- [3]
-			"23:09:18", -- [4]
-			"灰斑蓟熊", -- [5]
-		}, -- [549]
-		{
-			47252.004, -- [1]
-			47261.001, -- [2]
-			"23:09:28", -- [3]
-			"23:09:37", -- [4]
-			"灰斑蓟熊", -- [5]
-		}, -- [550]
-		{
-			47449.011, -- [1]
-			47457.009, -- [2]
-			"23:12:45", -- [3]
-			"23:12:53", -- [4]
-			"暮光暴徒", -- [5]
-		}, -- [551]
-		{
-			47465.015, -- [1]
-			47483.001, -- [2]
-			"23:13:01", -- [3]
-			"23:13:19", -- [4]
-			"暮光暴徒", -- [5]
-		}, -- [552]
-		{
-			47511.008, -- [1]
-			47535.012, -- [2]
-			"23:13:47", -- [3]
-			"23:14:11", -- [4]
-			"暮光暴徒", -- [5]
-		}, -- [553]
-		{
-			47734.002, -- [1]
-			47766.009, -- [2]
-			"23:17:30", -- [3]
-			"23:18:02", -- [4]
-			"黑木图腾师", -- [5]
-		}, -- [554]
-		{
-			47939.003, -- [1]
-			47968.013, -- [2]
-			"23:20:55", -- [3]
-			"23:21:24", -- [4]
-			"暗滩精兵", -- [5]
-		}, -- [555]
-		{
-			48150.002, -- [1]
-			48171.007, -- [2]
-			"23:24:26", -- [3]
-			"23:24:47", -- [4]
-			"幽爪奔跑者", -- [5]
-		}, -- [556]
-		{
-			1287.53, -- [1]
-			1293.522, -- [2]
-			"20:35:41", -- [3]
-			"20:35:46", -- [4]
-			"黑木战士", -- [5]
-		}, -- [557]
-		{
-			1306.526, -- [1]
-			1360.518, -- [2]
-			"20:35:59", -- [3]
-			"20:36:53", -- [4]
-			"黑木战士", -- [5]
-		}, -- [558]
-		{
-			1463.52, -- [1]
-			1469.525, -- [2]
-			"20:38:36", -- [3]
-			"20:38:42", -- [4]
-			"黑木战士", -- [5]
-		}, -- [559]
-		{
-			1504.524, -- [1]
-			1510.522, -- [2]
-			"20:39:18", -- [3]
-			"20:39:23", -- [4]
-			"黑木图腾师", -- [5]
-		}, -- [560]
-		{
-			1519.518, -- [1]
-			1539.518, -- [2]
-			"20:39:33", -- [3]
-			"20:39:52", -- [4]
-			"黑木战士", -- [5]
-		}, -- [561]
-		{
-			1596.523, -- [1]
-			1636.518, -- [2]
-			"20:40:50", -- [3]
-			"20:41:29", -- [4]
-			"黑木战士", -- [5]
-		}, -- [562]
-		{
-			1659.526, -- [1]
-			1692.518, -- [2]
-			"20:41:53", -- [3]
-			"20:42:25", -- [4]
-			"黑木战士", -- [5]
-		}, -- [563]
-		{
-			1726.519, -- [1]
-			1795.518, -- [2]
-			"20:43:00", -- [3]
-			"20:44:08", -- [4]
-			"黑木图腾师", -- [5]
-		}, -- [564]
-		{
-			1870.518, -- [1]
-			1876.518, -- [2]
-			"20:45:23", -- [3]
-			"20:45:29", -- [4]
-			"黑木战士", -- [5]
-		}, -- [565]
-		{
-			1883.518, -- [1]
-			1889.52, -- [2]
-			"20:45:37", -- [3]
-			"20:45:42", -- [4]
-			"黑木图腾师", -- [5]
-		}, -- [566]
-		{
-			1921.523, -- [1]
-			1932.524, -- [2]
-			"20:46:14", -- [3]
-			"20:46:25", -- [4]
-			"萨巴克希斯", -- [5]
-		}, -- [567]
-		{
-			2000.525, -- [1]
-			2038.519, -- [2]
-			"20:47:33", -- [3]
-			"20:48:11", -- [4]
-			"蓟熊幼崽", -- [5]
-		}, -- [568]
-		{
-			2051.517, -- [1]
-			2063.53, -- [2]
-			"20:48:25", -- [3]
-			"20:48:36", -- [4]
-			"月夜猛虎", -- [5]
-		}, -- [569]
-		{
-			2129.524, -- [1]
-			2177.527, -- [2]
-			"20:49:42", -- [3]
-			"20:50:30", -- [4]
-			"雷鳞侍从", -- [5]
-		}, -- [570]
-		{
-			2186.521, -- [1]
-			2195.519, -- [2]
-			"20:50:40", -- [3]
-			"20:50:48", -- [4]
-			"雷鳞侍从", -- [5]
-		}, -- [571]
-		{
-			2212.523, -- [1]
-			2217.521, -- [2]
-			"20:51:05", -- [3]
-			"20:51:10", -- [4]
-			"雷鳞巫师", -- [5]
-		}, -- [572]
-		{
-			2234.522, -- [1]
-			2243.524, -- [2]
-			"20:51:28", -- [3]
-			"20:51:36", -- [4]
-			"雷鳞侍从", -- [5]
-		}, -- [573]
-		{
-			2253.524, -- [1]
-			2261.521, -- [2]
-			"20:51:46", -- [3]
-			"20:51:54", -- [4]
-			"雷鳞侍从", -- [5]
-		}, -- [574]
-		{
-			2266.522, -- [1]
-			2275.52, -- [2]
-			"20:52:00", -- [3]
-			"20:52:08", -- [4]
-			"雷鳞巫师", -- [5]
-		}, -- [575]
-		{
-			2291.521, -- [1]
-			2300.526, -- [2]
-			"20:52:24", -- [3]
-			"20:52:33", -- [4]
-			"雷鳞巫师", -- [5]
-		}, -- [576]
-		{
-			2314.521, -- [1]
-			2321.525, -- [2]
-			"20:52:48", -- [3]
-			"20:52:54", -- [4]
-			"雷鳞侍从", -- [5]
-		}, -- [577]
-		{
-			2351.526, -- [1]
-			2373.524, -- [2]
-			"20:53:25", -- [3]
-			"20:53:46", -- [4]
-			"雷鳞侍从", -- [5]
-		}, -- [578]
-		{
-			2426.524, -- [1]
-			2436.518, -- [2]
-			"20:54:39", -- [3]
-			"20:54:49", -- [4]
-			"狂暴暗礁蟹", -- [5]
-		}, -- [579]
-		{
-			2439.521, -- [1]
-			2447.521, -- [2]
-			"20:54:53", -- [3]
-			"20:55:00", -- [4]
-			"狂暴暗礁蟹", -- [5]
-		}, -- [580]
-		{
-			2469.523, -- [1]
-			2477.52, -- [2]
-			"20:55:23", -- [3]
-			"20:55:30", -- [4]
-			"凶猛的森林陆行鸟", -- [5]
-		}, -- [581]
-		{
-			2491.524, -- [1]
-			2509.526, -- [2]
-			"20:55:45", -- [3]
-			"20:56:02", -- [4]
-			"月夜雌虎", -- [5]
-		}, -- [582]
-		{
-			2522.524, -- [1]
-			2539.528, -- [2]
-			"20:56:16", -- [3]
-			"20:56:32", -- [4]
-			"月夜雌虎", -- [5]
-		}, -- [583]
-		{
-			2567.52, -- [1]
-			2585.52, -- [2]
-			"20:57:00", -- [3]
-			"20:57:18", -- [4]
-			"月夜雌虎", -- [5]
-		}, -- [584]
-		{
-			2609.527, -- [1]
-			2628.528, -- [2]
-			"20:57:43", -- [3]
-			"20:58:01", -- [4]
-			"月夜雌虎", -- [5]
-		}, -- [585]
-		{
-			2638.524, -- [1]
-			2646.528, -- [2]
-			"20:58:12", -- [3]
-			"20:58:19", -- [4]
-			"月夜雄虎", -- [5]
-		}, -- [586]
-		{
-			2662.527, -- [1]
-			2697.525, -- [2]
-			"20:58:36", -- [3]
-			"20:59:10", -- [4]
-			"月夜雌虎", -- [5]
-		}, -- [587]
-		{
-			2706.523, -- [1]
-			2723.518, -- [2]
-			"20:59:19", -- [3]
-			"20:59:36", -- [4]
-			"月夜雌虎", -- [5]
-		}, -- [588]
-		{
-			2733.519, -- [1]
-			2741.519, -- [2]
-			"20:59:47", -- [3]
-			"20:59:54", -- [4]
-			"凶猛的森林陆行鸟", -- [5]
-		}, -- [589]
-		{
-			2807.522, -- [1]
-			2815.527, -- [2]
-			"21:01:01", -- [3]
-			"21:01:08", -- [4]
-			"狂暴暗礁蟹", -- [5]
-		}, -- [590]
-		{
-			2830.524, -- [1]
-			2840.52, -- [2]
-			"21:01:24", -- [3]
-			"21:01:33", -- [4]
-			"狂暴暗礁蟹", -- [5]
-		}, -- [591]
-		{
-			2881.52, -- [1]
-			2891.526, -- [2]
-			"21:02:15", -- [3]
-			"21:02:24", -- [4]
-			"灰雾智者", -- [5]
-		}, -- [592]
-		{
-			2903.518, -- [1]
-			2910.527, -- [2]
-			"21:02:36", -- [3]
-			"21:02:43", -- [4]
-			"灰雾潮行者", -- [5]
-		}, -- [593]
-		{
-			3001.52, -- [1]
-			3008.522, -- [2]
-			"21:04:14", -- [3]
-			"21:04:21", -- [4]
-			"机械打手4100型", -- [5]
-		}, -- [594]
-		{
-			3590.521, -- [1]
-			3599.519, -- [2]
-			"21:14:03", -- [3]
-			"21:14:12", -- [4]
-			"黑木萨满祭司", -- [5]
-		}, -- [595]
-		{
-			3602.518, -- [1]
-			3610.527, -- [2]
-			"21:14:16", -- [3]
-			"21:14:23", -- [4]
-			"黑木萨满祭司", -- [5]
-		}, -- [596]
-		{
-			3612.528, -- [1]
-			3618.53, -- [2]
-			"21:14:26", -- [3]
-			"21:14:31", -- [4]
-			"黑木巨熊怪", -- [5]
-		}, -- [597]
-		{
-			3633.527, -- [1]
-			3639.518, -- [2]
-			"21:14:46", -- [3]
-			"21:14:52", -- [4]
-			"黑木巨熊怪", -- [5]
-		}, -- [598]
-		{
-			3757.518, -- [1]
-			3764.526, -- [2]
-			"21:16:51", -- [3]
-			"21:16:57", -- [4]
-			"灰斑蓟熊", -- [5]
-		}, -- [599]
-		{
-			3770.525, -- [1]
-			3775.523, -- [2]
-			"21:17:04", -- [3]
-			"21:17:08", -- [4]
-			"破损的傀儡", -- [5]
-		}, -- [600]
-		{
-			3780.52, -- [1]
-			3787.519, -- [2]
-			"21:17:13", -- [3]
-			"21:17:20", -- [4]
-			"破损的傀儡", -- [5]
-		}, -- [601]
-		{
-			3792.524, -- [1]
-			3811.527, -- [2]
-			"21:17:25", -- [3]
-			"21:17:44", -- [4]
-			"石巨兽", -- [5]
-		}, -- [602]
-		{
-			3833.524, -- [1]
-			3842.528, -- [2]
-			"21:18:06", -- [3]
-			"21:18:15", -- [4]
-			"砂石斥候", -- [5]
-		}, -- [603]
-		{
-			3882.523, -- [1]
-			3892.519, -- [2]
-			"21:18:56", -- [3]
-			"21:19:05", -- [4]
-			"砂石斥候", -- [5]
-		}, -- [604]
-		{
-			3918.521, -- [1]
-			3923.517, -- [2]
-			"21:19:31", -- [3]
-			"21:19:36", -- [4]
-			"破损的傀儡", -- [5]
-		}, -- [605]
-		{
-			3931.517, -- [1]
-			3937.518, -- [2]
-			"21:19:45", -- [3]
-			"21:19:50", -- [4]
-			"破损的傀儡", -- [5]
-		}, -- [606]
-		{
-			3941.521, -- [1]
-			3944.528, -- [2]
-			"21:19:54", -- [3]
-			"21:19:57", -- [4]
-			"石巨兽", -- [5]
-		}, -- [607]
-		{
-			3949.523, -- [1]
-			3962.517, -- [2]
-			"21:20:03", -- [3]
-			"21:20:15", -- [4]
-			"石巨兽", -- [5]
-		}, -- [608]
-		{
-			4024.517, -- [1]
-			4043.524, -- [2]
-			"21:21:17", -- [3]
-			"21:21:36", -- [4]
-			"砂石地占师", -- [5]
-		}, -- [609]
-		{
-			4057.519, -- [1]
-			4062.526, -- [2]
-			"21:21:50", -- [3]
-			"21:21:55", -- [4]
-			"破损的傀儡", -- [5]
-		}, -- [610]
-		{
-			4072.525, -- [1]
-			4081.517, -- [2]
-			"21:22:06", -- [3]
-			"21:22:14", -- [4]
-			"破损的傀儡", -- [5]
-		}, -- [611]
-		{
-			4089.52, -- [1]
-			4094.519, -- [2]
-			"21:22:23", -- [3]
-			"21:22:27", -- [4]
-			"破损的傀儡", -- [5]
-		}, -- [612]
-		{
-			4105.523, -- [1]
-			4114.529, -- [2]
-			"21:22:38", -- [3]
-			"21:22:47", -- [4]
-			"破损的傀儡", -- [5]
-		}, -- [613]
-		{
-			4210.539, -- [1]
-			4215.525, -- [2]
-			"21:24:24", -- [3]
-			"21:24:28", -- [4]
-			"灰斑蓟熊", -- [5]
-		}, -- [614]
-		{
-			4244.518, -- [1]
-			4265.529, -- [2]
-			"21:24:58", -- [3]
-			"21:25:18", -- [4]
-			"月夜雄虎", -- [5]
-		}, -- [615]
-		{
-			4404.518, -- [1]
-			4415.524, -- [2]
-			"21:27:38", -- [3]
-			"21:27:48", -- [4]
-			"月夜雄虎", -- [5]
-		}, -- [616]
-		{
-			4628.525000000001, -- [1]
-			4663.527, -- [2]
-			"21:31:22", -- [3]
-			"21:31:56", -- [4]
-			"黑木巨熊怪", -- [5]
-		}, -- [617]
-		{
-			4825.519, -- [1]
-			4869.52, -- [2]
-			"21:34:38", -- [3]
-			"21:35:22", -- [4]
-			"暗滩执行者", -- [5]
-		}, -- [618]
-		{
-			5118.517, -- [1]
-			5136.527, -- [2]
-			"21:39:32", -- [3]
-			"21:39:49", -- [4]
-			"小鬼爪牙", -- [5]
-		}, -- [619]
-		{
-			5156.526, -- [1]
-			5162.522, -- [2]
-			"21:40:10", -- [3]
-			"21:40:15", -- [4]
-			"暗滩祭司", -- [5]
-		}, -- [620]
-		{
-			5168.522, -- [1]
-			5177.523, -- [2]
-			"21:40:22", -- [3]
-			"21:40:30", -- [4]
-			"暗滩祭司", -- [5]
-		}, -- [621]
-		{
-			5185.523, -- [1]
-			5193.524, -- [2]
-			"21:40:38", -- [3]
-			"21:40:46", -- [4]
-			"暗滩执行者", -- [5]
-		}, -- [622]
-		{
-			5197.528, -- [1]
-			5206.52, -- [2]
-			"21:40:51", -- [3]
-			"21:40:59", -- [4]
-			"暗滩挖掘者", -- [5]
-		}, -- [623]
-		{
-			5253.525000000001, -- [1]
-			5262.518, -- [2]
-			"21:41:46", -- [3]
-			"21:41:55", -- [4]
-			"暗滩挖掘者", -- [5]
-		}, -- [624]
-		{
-			5266.53, -- [1]
-			5274.517, -- [2]
-			"21:41:59", -- [3]
-			"21:42:07", -- [4]
-			"暗滩执行者", -- [5]
-		}, -- [625]
-		{
-			5278.525000000001, -- [1]
-			5289.522, -- [2]
-			"21:42:12", -- [3]
-			"21:42:22", -- [4]
-			"暗滩执行者", -- [5]
-		}, -- [626]
-		{
-			5294.52, -- [1]
-			5304.526, -- [2]
-			"21:42:28", -- [3]
-			"21:42:37", -- [4]
-			"暗滩祭司", -- [5]
-		}, -- [627]
-		{
-			5314.523, -- [1]
-			5328.522, -- [2]
-			"21:42:48", -- [3]
-			"21:43:01", -- [4]
-			"暗滩祭司", -- [5]
-		}, -- [628]
-		{
-			5348.517, -- [1]
-			5365.521, -- [2]
-			"21:43:22", -- [3]
-			"21:43:38", -- [4]
-			"虚空行者", -- [5]
-		}, -- [629]
-		{
-			5373.522, -- [1]
-			5387.52, -- [2]
-			"21:43:47", -- [3]
-			"21:44:00", -- [4]
-			"暗滩祭司", -- [5]
-		}, -- [630]
-		{
-			5439.526, -- [1]
-			5465.525000000001, -- [2]
-			"21:44:53", -- [3]
-			"21:45:18", -- [4]
-			"亡灵搜寻者", -- [5]
-		}, -- [631]
-		{
-			5472.521, -- [1]
-			5480.528, -- [2]
-			"21:45:26", -- [3]
-			"21:45:33", -- [4]
-			"亡灵搜寻者", -- [5]
-		}, -- [632]
-		{
-			5482.523, -- [1]
-			5487.518, -- [2]
-			"21:45:36", -- [3]
-			"21:45:40", -- [4]
-			"亡灵草药师", -- [5]
-		}, -- [633]
-		{
-			5507.518, -- [1]
-			5515.527, -- [2]
-			"21:46:01", -- [3]
-			"21:46:08", -- [4]
-			"亡灵搜寻者", -- [5]
-		}, -- [634]
-		{
-			5724.519, -- [1]
-			5734.523, -- [2]
-			"21:49:37", -- [3]
-			"21:49:47", -- [4]
-			"盐沫泥浆鱼人", -- [5]
-		}, -- [635]
-		{
-			5752.52, -- [1]
-			5764.522, -- [2]
-			"21:50:06", -- [3]
-			"21:50:17", -- [4]
-			"盐沫泥浆鱼人", -- [5]
-		}, -- [636]
-		{
-			5772.523, -- [1]
-			5781.519, -- [2]
-			"21:50:25", -- [3]
-			"21:50:34", -- [4]
-			"盐沫泥浆鱼人", -- [5]
-		}, -- [637]
-		{
-			5794.523, -- [1]
-			5801.523, -- [2]
-			"21:50:47", -- [3]
-			"21:50:54", -- [4]
-			"盐沫智者", -- [5]
-		}, -- [638]
-		{
-			5805.52, -- [1]
-			5815.529, -- [2]
-			"21:50:59", -- [3]
-			"21:51:08", -- [4]
-			"盐沫泥浆鱼人", -- [5]
-		}, -- [639]
-		{
-			7170.519, -- [1]
-			7176.522, -- [2]
-			"22:13:44", -- [3]
-			"22:13:49", -- [4]
-			"怒尾御浪者", -- [5]
-		}, -- [640]
-		{
-			7187.519, -- [1]
-			7192.525000000001, -- [2]
-			"22:14:01", -- [3]
-			"22:14:05", -- [4]
-			"怒尾巫师", -- [5]
-		}, -- [641]
-		{
-			7198.525000000001, -- [1]
-			7206.519, -- [2]
-			"22:14:12", -- [3]
-			"22:14:19", -- [4]
-			"怒尾巫师", -- [5]
-		}, -- [642]
-		{
-			7212.522, -- [1]
-			7218.524, -- [2]
-			"22:14:26", -- [3]
-			"22:14:31", -- [4]
-			"怒尾巫师", -- [5]
-		}, -- [643]
-		{
-			7252.526, -- [1]
-			7258.523, -- [2]
-			"22:15:06", -- [3]
-			"22:15:11", -- [4]
-			"怒尾巫师", -- [5]
-		}, -- [644]
-		{
-			7269.521, -- [1]
-			7275.522, -- [2]
-			"22:15:23", -- [3]
-			"22:15:28", -- [4]
-			"怒尾巫师", -- [5]
-		}, -- [645]
-		{
-			7288.521, -- [1]
-			7293.522, -- [2]
-			"22:15:41", -- [3]
-			"22:15:46", -- [4]
-			"怒尾巫师", -- [5]
-		}, -- [646]
-		{
-			7310.526, -- [1]
-			7321.524, -- [2]
-			"22:16:03", -- [3]
-			"22:16:14", -- [4]
-			"怒尾巫师", -- [5]
-		}, -- [647]
-		{
-			7328.52, -- [1]
-			7334.52, -- [2]
-			"22:16:22", -- [3]
-			"22:16:27", -- [4]
-			"怒尾巫师", -- [5]
-		}, -- [648]
-		{
-			7337.521, -- [1]
-			7344.526, -- [2]
-			"22:16:31", -- [3]
-			"22:16:37", -- [4]
-			"怒尾御浪者", -- [5]
-		}, -- [649]
-		{
-			7516.526, -- [1]
-			7524.525000000001, -- [2]
-			"22:19:30", -- [3]
-			"22:19:37", -- [4]
-			"怒尾侍从", -- [5]
-		}, -- [650]
-		{
-			7543.522, -- [1]
-			7551.526, -- [2]
-			"22:19:57", -- [3]
-			"22:20:04", -- [4]
-			"怒尾侍从", -- [5]
-		}, -- [651]
-		{
-			7560.52, -- [1]
-			7587.522, -- [2]
-			"22:20:14", -- [3]
-			"22:20:40", -- [4]
-			"卢泽尔", -- [5]
-		}, -- [652]
-		{
-			7614.517, -- [1]
-			7621.52, -- [2]
-			"22:21:07", -- [3]
-			"22:21:14", -- [4]
-			"怒尾女祭司", -- [5]
-		}, -- [653]
-		{
-			7628.521, -- [1]
-			7635.523, -- [2]
-			"22:21:22", -- [3]
-			"22:21:28", -- [4]
-			"怒尾女祭司", -- [5]
-		}, -- [654]
-		{
-			7648.522, -- [1]
-			7672.521, -- [2]
-			"22:21:42", -- [3]
-			"22:22:05", -- [4]
-			"怒尾侍从", -- [5]
-		}, -- [655]
-		{
-			7675.522, -- [1]
-			7683.525000000001, -- [2]
-			"22:22:09", -- [3]
-			"22:22:16", -- [4]
-			"怒尾侍从", -- [5]
-		}, -- [656]
-		{
-			7720.519, -- [1]
-			7742.522, -- [2]
-			"22:22:54", -- [3]
-			"22:23:15", -- [4]
-			"怒尾纳迦", -- [5]
-		}, -- [657]
-		{
-			8361.528, -- [1]
-			8373.523000000001, -- [2]
-			"22:33:34", -- [3]
-			"22:33:46", -- [4]
-			"鱼人士兵", -- [5]
-		}, -- [658]
-		{
-			8521.529, -- [1]
-			8533.529, -- [2]
-			"22:36:15", -- [3]
-			"22:36:26", -- [4]
-			"觅食的灰狼", -- [5]
-		}, -- [659]
-		{
-			8684.521, -- [1]
-			8702.523000000001, -- [2]
-			"22:38:57", -- [3]
-			"22:39:15", -- [4]
-			"贝利格拉布", -- [5]
-		}, -- [660]
-		{
-			8708.529, -- [1]
-			8715.519, -- [2]
-			"22:39:21", -- [3]
-			"22:39:28", -- [4]
-			"巨型血牙野猪", -- [5]
-		}, -- [661]
-		{
-			9799.522, -- [1]
-			9806.52, -- [2]
-			"22:57:32", -- [3]
-			"22:57:39", -- [4]
-			"赤脊山蛮兵", -- [5]
-		}, -- [662]
-		{
-			9816.52, -- [1]
-			9821.519, -- [2]
-			"22:57:49", -- [3]
-			"22:57:54", -- [4]
-			"黑龙雏龙", -- [5]
-		}, -- [663]
-		{
-			9828.52, -- [1]
-			9839.528, -- [2]
-			"22:58:01", -- [3]
-			"22:58:12", -- [4]
-			"赤脊山蛮兵", -- [5]
-		}, -- [664]
-		{
-			9847.517, -- [1]
-			9854.519, -- [2]
-			"22:58:21", -- [3]
-			"22:58:27", -- [4]
-			"黑龙雏龙", -- [5]
-		}, -- [665]
-		{
-			9871.525, -- [1]
-			9879.525, -- [2]
-			"22:58:45", -- [3]
-			"22:58:52", -- [4]
-			"赤脊山秘法师", -- [5]
-		}, -- [666]
-		{
-			9886.517, -- [1]
-			9909.527, -- [2]
-			"22:59:00", -- [3]
-			"22:59:22", -- [4]
-			"赤脊山秘法师", -- [5]
-		}, -- [667]
-		{
-			9970.525, -- [1]
-			9977.523000000001, -- [2]
-			"23:00:23", -- [3]
-			"23:00:30", -- [4]
-			"赤脊山秘法师", -- [5]
-		}, -- [668]
-		{
-			9988.517, -- [1]
-			10003.521, -- [2]
-			"23:00:41", -- [3]
-			"23:00:56", -- [4]
-			"赤脊山猛击者", -- [5]
-		}, -- [669]
-		{
-			10036.524, -- [1]
-			10081.523, -- [2]
-			"23:01:29", -- [3]
-			"23:02:14", -- [4]
-			"赤脊山蛮兵", -- [5]
-		}, -- [670]
-		{
-			10091.517, -- [1]
-			10108.519, -- [2]
-			"23:02:25", -- [3]
-			"23:02:41", -- [4]
-			"赤脊山秘法师", -- [5]
-		}, -- [671]
-		{
-			10143.522, -- [1]
-			10151.523, -- [2]
-			"23:03:17", -- [3]
-			"23:03:24", -- [4]
-			"赤脊山秘法师", -- [5]
-		}, -- [672]
-		{
-			10155.527, -- [1]
-			10212.52, -- [2]
-			"23:03:28", -- [3]
-			"23:04:25", -- [4]
-			"赤脊山秘法师", -- [5]
-		}, -- [673]
-		{
-			10234.522, -- [1]
-			10240.517, -- [2]
-			"23:04:48", -- [3]
-			"23:04:53", -- [4]
-			"赤脊山蛮兵", -- [5]
-		}, -- [674]
-		{
-			10242.518, -- [1]
-			10250.521, -- [2]
-			"23:04:56", -- [3]
-			"23:05:03", -- [4]
-			"赤脊山蛮兵", -- [5]
-		}, -- [675]
-		{
-			10265.527, -- [1]
-			10272.518, -- [2]
-			"23:05:19", -- [3]
-			"23:05:25", -- [4]
-			"黑龙雏龙", -- [5]
-		}, -- [676]
-		{
-			10279.523, -- [1]
-			10285.524, -- [2]
-			"23:05:33", -- [3]
-			"23:05:38", -- [4]
-			"赤脊山秘法师", -- [5]
-		}, -- [677]
-		{
-			10343.525, -- [1]
-			10349.525, -- [2]
-			"23:06:37", -- [3]
-			"23:06:42", -- [4]
-			"黑龙雏龙", -- [5]
-		}, -- [678]
-		{
-			10368.518, -- [1]
-			10376.525, -- [2]
-			"23:07:02", -- [3]
-			"23:07:09", -- [4]
-			"黑龙雏龙", -- [5]
-		}, -- [679]
-		{
-			10378.52, -- [1]
-			10383.524, -- [2]
-			"23:07:11", -- [3]
-			"23:07:16", -- [4]
-			"黑龙雏龙", -- [5]
-		}, -- [680]
-		{
-			10393.524, -- [1]
-			10402.517, -- [2]
-			"23:07:26", -- [3]
-			"23:07:35", -- [4]
-			"黑龙雏龙", -- [5]
-		}, -- [681]
-		{
-			10420.53, -- [1]
-			10432.529, -- [2]
-			"23:07:54", -- [3]
-			"23:08:05", -- [4]
-			"黑龙雏龙", -- [5]
-		}, -- [682]
-		{
-			10445.523, -- [1]
-			10451.527, -- [2]
-			"23:08:19", -- [3]
-			"23:08:24", -- [4]
-			"鱼人小招潮者", -- [5]
-		}, -- [683]
-		{
-			10463.523, -- [1]
-			10469.526, -- [2]
-			"23:08:36", -- [3]
-			"23:08:42", -- [4]
-			"鱼人巡滩者", -- [5]
-		}, -- [684]
-		{
-			10473.521, -- [1]
-			10479.526, -- [2]
-			"23:08:47", -- [3]
-			"23:08:52", -- [4]
-			"鱼人小招潮者", -- [5]
-		}, -- [685]
-		{
-			10482.521, -- [1]
-			10489.524, -- [2]
-			"23:08:56", -- [3]
-			"23:09:02", -- [4]
-			"鱼人小招潮者", -- [5]
-		}, -- [686]
-		{
-			10493.525, -- [1]
-			10502.521, -- [2]
-			"23:09:07", -- [3]
-			"23:09:15", -- [4]
-			"鱼人食腐者", -- [5]
-		}, -- [687]
-		{
-			10520.518, -- [1]
-			10526.529, -- [2]
-			"23:09:33", -- [3]
-			"23:09:39", -- [4]
-			"鱼人巡滩者", -- [5]
-		}, -- [688]
-		{
-			10532.528, -- [1]
-			10537.521, -- [2]
-			"23:09:45", -- [3]
-			"23:09:50", -- [4]
-			"鱼人小招潮者", -- [5]
-		}, -- [689]
-		{
-			10555.517, -- [1]
-			10563.527, -- [2]
-			"23:10:09", -- [3]
-			"23:10:16", -- [4]
-			"鱼人食腐者", -- [5]
-		}, -- [690]
-		{
-			10566.525, -- [1]
-			10574.524, -- [2]
-			"23:10:20", -- [3]
-			"23:10:27", -- [4]
-			"鱼人食腐者", -- [5]
-		}, -- [691]
-		{
-			10583.526, -- [1]
-			10590.517, -- [2]
-			"23:10:37", -- [3]
-			"23:10:43", -- [4]
-			"鱼人小招潮者", -- [5]
-		}, -- [692]
-		{
-			10598.526, -- [1]
-			10604.517, -- [2]
-			"23:10:51", -- [3]
-			"23:10:57", -- [4]
-			"鱼人小招潮者", -- [5]
-		}, -- [693]
-		{
-			10609.526, -- [1]
-			10617.52, -- [2]
-			"23:11:03", -- [3]
-			"23:11:10", -- [4]
-			"鱼人食腐者", -- [5]
-		}, -- [694]
-		{
-			10624.526, -- [1]
-			10631.518, -- [2]
-			"23:11:18", -- [3]
-			"23:11:24", -- [4]
-			"鱼人巡滩者", -- [5]
-		}, -- [695]
-		{
-			10641.523, -- [1]
-			10649.522, -- [2]
-			"23:11:34", -- [3]
-			"23:11:42", -- [4]
-			"鱼人食腐者", -- [5]
-		}, -- [696]
-		{
-			10677.526, -- [1]
-			10691.523, -- [2]
-			"23:12:10", -- [3]
-			"23:12:24", -- [4]
-			"鱼人小招潮者", -- [5]
-		}, -- [697]
-		{
-			10696.526, -- [1]
-			10702.522, -- [2]
-			"23:12:29", -- [3]
-			"23:12:35", -- [4]
-			"鱼人小招潮者", -- [5]
-		}, -- [698]
-		{
-			10703.518, -- [1]
-			10709.525, -- [2]
-			"23:12:36", -- [3]
-			"23:12:42", -- [4]
-			"鱼人巡滩者", -- [5]
-		}, -- [699]
-		{
-			10721.524, -- [1]
-			10727.525, -- [2]
-			"23:12:55", -- [3]
-			"23:13:00", -- [4]
-			"鱼人小招潮者", -- [5]
-		}, -- [700]
-		{
-			10889.52, -- [1]
-			10910.518, -- [2]
-			"23:15:42", -- [3]
-			"23:16:03", -- [4]
-			"赤脊山蛮兵", -- [5]
-		}, -- [701]
-		{
-			10925.519, -- [1]
-			10934.518, -- [2]
-			"23:16:19", -- [3]
-			"23:16:27", -- [4]
-			"赤脊山苦工", -- [5]
-		}, -- [702]
-		{
-			10948.526, -- [1]
-			10954.518, -- [2]
-			"23:16:42", -- [3]
-			"23:16:47", -- [4]
-			"赤脊山苦工", -- [5]
-		}, -- [703]
-		{
-			10957.524, -- [1]
-			10963.523, -- [2]
-			"23:16:51", -- [3]
-			"23:16:56", -- [4]
-			"赤脊山猛击者", -- [5]
-		}, -- [704]
-		{
-			10969.52, -- [1]
-			10977.519, -- [2]
-			"23:17:02", -- [3]
-			"23:17:10", -- [4]
-			"赤脊山苦工", -- [5]
-		}, -- [705]
-		{
-			10983.522, -- [1]
-			10990.523, -- [2]
-			"23:17:17", -- [3]
-			"23:17:23", -- [4]
-			"赤脊山苦工", -- [5]
-		}, -- [706]
-		{
-			11000.522, -- [1]
-			11008.521, -- [2]
-			"23:17:34", -- [3]
-			"23:17:41", -- [4]
-			"赤脊山苦工", -- [5]
-		}, -- [707]
-		{
-			11040.52, -- [1]
-			11062.519, -- [2]
-			"23:18:13", -- [3]
-			"23:18:35", -- [4]
-			"赤脊山苦工", -- [5]
-		}, -- [708]
-		{
-			11071.524, -- [1]
-			11078.521, -- [2]
-			"23:18:44", -- [3]
-			"23:18:51", -- [4]
-			"赤脊山猛击者", -- [5]
-		}, -- [709]
-		{
-			11104.517, -- [1]
-			11112.518, -- [2]
-			"23:19:18", -- [3]
-			"23:19:25", -- [4]
-			"赤脊山苦工", -- [5]
-		}, -- [710]
-		{
-			11120.518, -- [1]
-			11128.521, -- [2]
-			"23:19:33", -- [3]
-			"23:19:41", -- [4]
-			"赤脊山苦工", -- [5]
-		}, -- [711]
-		{
-			11135.521, -- [1]
-			11144.521, -- [2]
-			"23:19:49", -- [3]
-			"23:19:57", -- [4]
-			"赤脊山苦工", -- [5]
-		}, -- [712]
-		{
-			11164.522, -- [1]
-			11173.539, -- [2]
-			"23:20:18", -- [3]
-			"23:20:26", -- [4]
-			"赤脊山苦工", -- [5]
-		}, -- [713]
-		{
-			11187.521, -- [1]
-			11196.521, -- [2]
-			"23:20:40", -- [3]
-			"23:20:49", -- [4]
-			"赤脊山猛击者", -- [5]
-		}, -- [714]
-		{
-			11202.52, -- [1]
-			11211.52, -- [2]
-			"23:20:56", -- [3]
-			"23:21:04", -- [4]
-			"赤脊山苦工", -- [5]
-		}, -- [715]
-		{
-			11333.526, -- [1]
-			11349.525, -- [2]
-			"23:23:07", -- [3]
-			"23:23:22", -- [4]
-			"赤脊山秘法师", -- [5]
-		}, -- [716]
-		{
-			11369.523, -- [1]
-			11407.518, -- [2]
-			"23:23:43", -- [3]
-			"23:24:20", -- [4]
-			"犹勒", -- [5]
-		}, -- [717]
-		{
-			11424.521, -- [1]
-			11431.518, -- [2]
-			"23:24:37", -- [3]
-			"23:24:44", -- [4]
-			"赤脊山突击队员", -- [5]
-		}, -- [718]
-		{
-			11435.523, -- [1]
-			11442.526, -- [2]
-			"23:24:48", -- [3]
-			"23:24:55", -- [4]
-			"赤脊山突击队员", -- [5]
-		}, -- [719]
-		{
-			11481.519, -- [1]
-			11493.524, -- [2]
-			"23:25:35", -- [3]
-			"23:25:46", -- [4]
-			"赤脊山秘法师", -- [5]
-		}, -- [720]
-		{
-			11520.517, -- [1]
-			11562.524, -- [2]
-			"23:26:13", -- [3]
-			"23:26:55", -- [4]
-			"黑石前锋", -- [5]
-		}, -- [721]
-		{
-			11587.523, -- [1]
-			11609.522, -- [2]
-			"23:27:21", -- [3]
-			"23:27:42", -- [4]
-			"黑石追踪者", -- [5]
-		}, -- [722]
-		{
-			11624.52, -- [1]
-			11634.522, -- [2]
-			"23:27:58", -- [3]
-			"23:28:07", -- [4]
-			"黑石追踪者", -- [5]
-		}, -- [723]
-		{
-			11682.522, -- [1]
-			11718.527, -- [2]
-			"23:28:56", -- [3]
-			"23:29:31", -- [4]
-			"小鬼爪牙", -- [5]
-		}, -- [724]
-		{
-			11733.52, -- [1]
-			11744.525, -- [2]
-			"23:29:47", -- [3]
-			"23:29:57", -- [4]
-			"黑石勇士", -- [5]
-		}, -- [725]
-		{
-			11775.523, -- [1]
-			11791.528, -- [2]
-			"23:30:28", -- [3]
-			"23:30:44", -- [4]
-			"黑石勇士", -- [5]
-		}, -- [726]
-		{
-			11804.521, -- [1]
-			11825.524, -- [2]
-			"23:30:58", -- [3]
-			"23:31:18", -- [4]
-			"黑石追踪者", -- [5]
-		}, -- [727]
-		{
-			11856.522, -- [1]
-			11873.52, -- [2]
-			"23:31:49", -- [3]
-			"23:32:06", -- [4]
-			"黑石勇士", -- [5]
-		}, -- [728]
-		{
-			44005.248, -- [1]
-			44018.251, -- [2]
-			"22:00:54", -- [3]
-			"22:01:06", -- [4]
-			"黑石勇士", -- [5]
-		}, -- [729]
-		{
-			44028.251, -- [1]
-			44043.25, -- [2]
-			"22:01:17", -- [3]
-			"22:01:31", -- [4]
-			"黑石勇士", -- [5]
-		}, -- [730]
-		{
-			44067.247, -- [1]
-			44109.252, -- [2]
-			"22:01:56", -- [3]
-			"22:02:37", -- [4]
-			"小鬼爪牙", -- [5]
-		}, -- [731]
-		{
-			44138.252, -- [1]
-			44147.248, -- [2]
-			"22:03:07", -- [3]
-			"22:03:15", -- [4]
-			"黑石勇士", -- [5]
-		}, -- [732]
-		{
-			44153.25, -- [1]
-			44163.254, -- [2]
-			"22:03:22", -- [3]
-			"22:03:31", -- [4]
-			"黑石勇士", -- [5]
-		}, -- [733]
-		{
-			44179.25, -- [1]
-			44196.25, -- [2]
-			"22:03:48", -- [3]
-			"22:04:04", -- [4]
-			"黑石勇士", -- [5]
-		}, -- [734]
-		{
-			44233.25, -- [1]
-			44247.251, -- [2]
-			"22:04:41", -- [3]
-			"22:04:55", -- [4]
-			"黑石勇士", -- [5]
-		}, -- [735]
-		{
-			44315.249, -- [1]
-			44324.252, -- [2]
-			"22:06:04", -- [3]
-			"22:06:12", -- [4]
-			"小鬼爪牙", -- [5]
-		}, -- [736]
-		{
-			44339.247, -- [1]
-			44350.249, -- [2]
-			"22:06:28", -- [3]
-			"22:06:38", -- [4]
-			"黑石勇士", -- [5]
-		}, -- [737]
-		{
-			44369.247, -- [1]
-			44379.251, -- [2]
-			"22:06:58", -- [3]
-			"22:07:07", -- [4]
-			"黑石勇士", -- [5]
-		}, -- [738]
-		{
-			44389.247, -- [1]
-			44434.249, -- [2]
-			"22:07:18", -- [3]
-			"22:08:02", -- [4]
-			"黑石勇士", -- [5]
-		}, -- [739]
-		{
-			44439.25, -- [1]
-			44453.25, -- [2]
-			"22:08:08", -- [3]
-			"22:08:21", -- [4]
-			"黑石勇士", -- [5]
-		}, -- [740]
-		{
-			44468.253, -- [1]
-			44502.251, -- [2]
-			"22:08:37", -- [3]
-			"22:09:10", -- [4]
-			"黑石召唤师", -- [5]
-		}, -- [741]
-		{
-			44528.247, -- [1]
-			44549.253, -- [2]
-			"22:09:37", -- [3]
-			"22:09:57", -- [4]
-			"黑石勇士", -- [5]
-		}, -- [742]
-		{
-			44587.251, -- [1]
-			44597.246, -- [2]
-			"22:10:36", -- [3]
-			"22:10:45", -- [4]
-			"黑石追踪者", -- [5]
-		}, -- [743]
-		{
-			44620.255, -- [1]
-			44634.249, -- [2]
-			"22:11:09", -- [3]
-			"22:11:22", -- [4]
-			"黑石勇士", -- [5]
-		}, -- [744]
-		{
-			44655.251, -- [1]
-			44688.254, -- [2]
-			"22:11:44", -- [3]
-			"22:12:16", -- [4]
-			"黑石追踪者", -- [5]
-		}, -- [745]
-		{
-			44754.253, -- [1]
-			44769.253, -- [2]
-			"22:13:23", -- [3]
-			"22:13:37", -- [4]
-			"黑石追踪者", -- [5]
-		}, -- [746]
-		{
-			44820.25, -- [1]
-			44840.251, -- [2]
-			"22:14:29", -- [3]
-			"22:14:48", -- [4]
-			"黑石叛节者", -- [5]
-		}, -- [747]
-		{
-			44870.247, -- [1]
-			44876.254, -- [2]
-			"22:15:19", -- [3]
-			"22:15:24", -- [4]
-			"黑石叛节者", -- [5]
-		}, -- [748]
-		{
-			45242.252, -- [1]
-			45250.249, -- [2]
-			"22:21:31", -- [3]
-			"22:21:38", -- [4]
-			"黑石暗影法师", -- [5]
-		}, -- [749]
-		{
-			45253.247, -- [1]
-			45260.252, -- [2]
-			"22:21:42", -- [3]
-			"22:21:48", -- [4]
-			"黑石哨兵", -- [5]
-		}, -- [750]
-		{
-			45278.25, -- [1]
-			45306.251, -- [2]
-			"22:22:07", -- [3]
-			"22:22:34", -- [4]
-			"黑石暗影法师", -- [5]
-		}, -- [751]
-		{
-			45348.251, -- [1]
-			45357.249, -- [2]
-			"22:23:17", -- [3]
-			"22:23:25", -- [4]
-			"黑石暗影法师", -- [5]
-		}, -- [752]
-		{
-			45372.251, -- [1]
-			45390.25, -- [2]
-			"22:23:40", -- [3]
-			"22:23:58", -- [4]
-			"黑石哨兵", -- [5]
-		}, -- [753]
-		{
-			45405.265, -- [1]
-			45422.249, -- [2]
-			"22:24:14", -- [3]
-			"22:24:30", -- [4]
-			"黑石哨兵", -- [5]
-		}, -- [754]
-		{
-			45426.254, -- [1]
-			45441.255, -- [2]
-			"22:24:35", -- [3]
-			"22:24:49", -- [4]
-			"黑石哨兵", -- [5]
-		}, -- [755]
-		{
-			45471.251, -- [1]
-			45481.255, -- [2]
-			"22:25:20", -- [3]
-			"22:25:29", -- [4]
-			"黑石哨兵", -- [5]
-		}, -- [756]
-		{
-			45500.249, -- [1]
-			45614.254, -- [2]
-			"22:25:49", -- [3]
-			"22:27:42", -- [4]
-			"黑石暗影法师", -- [5]
-		}, -- [757]
-		{
-			45697.254, -- [1]
-			45706.253, -- [2]
-			"22:29:06", -- [3]
-			"22:29:14", -- [4]
-			"黑石暗影法师", -- [5]
-		}, -- [758]
-		{
-			45737.25, -- [1]
-			45754.247, -- [2]
-			"22:29:46", -- [3]
-			"22:30:02", -- [4]
-			"黑石猎人", -- [5]
-		}, -- [759]
-		{
-			45815.248, -- [1]
-			45827.257, -- [2]
-			"22:31:04", -- [3]
-			"22:31:15", -- [4]
-			"黑石哨兵", -- [5]
-		}, -- [760]
-		{
-			45848.248, -- [1]
-			45857.248, -- [2]
-			"22:31:37", -- [3]
-			"22:31:45", -- [4]
-			"黑石猎人", -- [5]
-		}, -- [761]
-		{
-			45857.248, -- [1]
-			45864.253, -- [2]
-			"22:31:46", -- [3]
-			"22:31:52", -- [4]
-			"黑石猎人", -- [5]
-		}, -- [762]
-		{
-			45867.253, -- [1]
-			45871.25, -- [2]
-			"22:31:56", -- [3]
-			"22:31:59", -- [4]
-			"黑石暗影法师", -- [5]
-		}, -- [763]
-		{
-			45872.254, -- [1]
-			45876.25, -- [2]
-			"22:32:01", -- [3]
-			"22:32:04", -- [4]
-			"加塞尔佐格", -- [5]
-		}, -- [764]
-		{
-			45943.256, -- [1]
-			45952.248, -- [2]
-			"22:33:12", -- [3]
-			"22:33:20", -- [4]
-			"暗皮蛮兵", -- [5]
-		}, -- [765]
-		{
-			45972.248, -- [1]
-			46003.251, -- [2]
-			"22:33:41", -- [3]
-			"22:34:11", -- [4]
-			"暗皮战士", -- [5]
-		}, -- [766]
-		{
-			46036.255, -- [1]
-			46060.248, -- [2]
-			"22:34:45", -- [3]
-			"22:35:08", -- [4]
-			"范高雷中尉", -- [5]
-		}, -- [767]
-		{
-			46131.249, -- [1]
-			46141.25, -- [2]
-			"22:36:19", -- [3]
-			"22:36:29", -- [4]
-			"疯狂的暗皮豺狼人", -- [5]
-		}, -- [768]
-		{
-			46164.25, -- [1]
-			46182.254, -- [2]
-			"22:36:53", -- [3]
-			"22:37:10", -- [4]
-			"黑石斥候", -- [5]
-		}, -- [769]
-		{
-			46188.247, -- [1]
-			46196.25, -- [2]
-			"22:37:17", -- [3]
-			"22:37:24", -- [4]
-			"黑石哨兵", -- [5]
-		}, -- [770]
-		{
-			46211.254, -- [1]
-			46234.256, -- [2]
-			"22:37:40", -- [3]
-			"22:38:02", -- [4]
-			"黑石哨兵", -- [5]
-		}, -- [771]
-		{
-			46260.25, -- [1]
-			46270.248, -- [2]
-			"22:38:29", -- [3]
-			"22:38:38", -- [4]
-			"黑石哨兵", -- [5]
-		}, -- [772]
-		{
-			46276.249, -- [1]
-			46318.252, -- [2]
-			"22:38:45", -- [3]
-			"22:39:26", -- [4]
-			"黑石哨兵", -- [5]
-		}, -- [773]
-		{
-			46353.252, -- [1]
-			46362.249, -- [2]
-			"22:40:02", -- [3]
-			"22:40:10", -- [4]
-			"黑石斥候", -- [5]
-		}, -- [774]
-		{
-			46366.249, -- [1]
-			46375.249, -- [2]
-			"22:40:15", -- [3]
-			"22:40:23", -- [4]
-			"黑石斥候", -- [5]
-		}, -- [775]
-		{
-			46387.246, -- [1]
-			46402.252, -- [2]
-			"22:40:36", -- [3]
-			"22:40:50", -- [4]
-			"黑石斥候", -- [5]
-		}, -- [776]
-		{
-			46406.247, -- [1]
-			46432.249, -- [2]
-			"22:40:55", -- [3]
-			"22:41:20", -- [4]
-			"黑石哨兵", -- [5]
-		}, -- [777]
-		{
-			46467.252, -- [1]
-			46478.253, -- [2]
-			"22:41:56", -- [3]
-			"22:42:06", -- [4]
-			"暗皮巫师", -- [5]
-		}, -- [778]
-		{
-			46492.259, -- [1]
-			46502.252, -- [2]
-			"22:42:21", -- [3]
-			"22:42:30", -- [4]
-			"暗皮巫师", -- [5]
-		}, -- [779]
-		{
-			46512.256, -- [1]
-			46533.253, -- [2]
-			"22:42:41", -- [3]
-			"22:43:01", -- [4]
-			"暗皮战士", -- [5]
-		}, -- [780]
-		{
-			46562.255, -- [1]
-			46605.249, -- [2]
-			"22:43:30", -- [3]
-			"22:44:13", -- [4]
-			"暗皮杀手", -- [5]
-		}, -- [781]
-		{
-			46620.25, -- [1]
-			46636.249, -- [2]
-			"22:44:29", -- [3]
-			"22:44:44", -- [4]
-			"暗皮巫师", -- [5]
-		}, -- [782]
-		{
-			46649.252, -- [1]
-			46685.254, -- [2]
-			"22:44:58", -- [3]
-			"22:45:33", -- [4]
-			"暗皮刺客", -- [5]
-		}, -- [783]
-		{
-			46700.251, -- [1]
-			46717.249, -- [2]
-			"22:45:49", -- [3]
-			"22:46:05", -- [4]
-			"伊尔加拉的仆从", -- [5]
-		}, -- [784]
-		{
-			46750.248, -- [1]
-			46795.248, -- [2]
-			"22:46:39", -- [3]
-			"22:47:23", -- [4]
-			"伊尔加拉的仆从", -- [5]
-		}, -- [785]
-		{
-			46830.252, -- [1]
-			46846.25, -- [2]
-			"22:47:59", -- [3]
-			"22:48:14", -- [4]
-			"暗皮杀手", -- [5]
-		}, -- [786]
-		{
-			46865.25, -- [1]
-			46878.249, -- [2]
-			"22:48:34", -- [3]
-			"22:48:46", -- [4]
-			"伊尔加拉的仆从", -- [5]
-		}, -- [787]
-		{
-			46893.247, -- [1]
-			46904.252, -- [2]
-			"22:49:02", -- [3]
-			"22:49:12", -- [4]
-			"暗皮巫师", -- [5]
-		}, -- [788]
-		{
-			46920.248, -- [1]
-			46935.248, -- [2]
-			"22:49:29", -- [3]
-			"22:49:43", -- [4]
-			"暗皮杀手", -- [5]
-		}, -- [789]
-		{
-			46943.247, -- [1]
-			46953.25, -- [2]
-			"22:49:52", -- [3]
-			"22:50:01", -- [4]
-			"伊尔加拉的仆从", -- [5]
-		}, -- [790]
-		{
-			46972.254, -- [1]
-			46982.252, -- [2]
-			"22:50:21", -- [3]
-			"22:50:30", -- [4]
-			"伊尔加拉的仆从", -- [5]
-		}, -- [791]
-		{
-			47003.247, -- [1]
-			47054.25, -- [2]
-			"22:50:52", -- [3]
-			"22:51:42", -- [4]
-			"伊尔加拉的仆从", -- [5]
-		}, -- [792]
-		{
-			47071.25, -- [1]
-			47076.254, -- [2]
-			"22:52:00", -- [3]
-			"22:52:04", -- [4]
-			"暗皮刺客", -- [5]
-		}, -- [793]
-		{
-			47101.252, -- [1]
-			47105.251, -- [2]
-			"22:52:30", -- [3]
-			"22:52:33", -- [4]
-			"莫甘斯", -- [5]
-		}, -- [794]
-		{
-			47106.246, -- [1]
-			47109.249, -- [2]
-			"22:52:35", -- [3]
-			"22:52:37", -- [4]
-			"伊尔加拉的仆从", -- [5]
-		}, -- [795]
-		{
-			49096.626, -- [1]
-			49105.624, -- [2]
-			"23:25:46", -- [3]
-			"23:25:54", -- [4]
-			"恐怖骸骨", -- [5]
-		}, -- [796]
-		{
-			49138.627, -- [1]
-			49145.627, -- [2]
-			"23:26:27", -- [3]
-			"23:26:34", -- [4]
-			"骷髅战士", -- [5]
-		}, -- [797]
-		{
-			49158.621, -- [1]
-			49163.621, -- [2]
-			"23:26:47", -- [3]
-			"23:26:52", -- [4]
-			"骷髅战士", -- [5]
-		}, -- [798]
-		{
-			49170.618, -- [1]
-			49178.621, -- [2]
-			"23:27:00", -- [3]
-			"23:27:07", -- [4]
-			"骷髅法师", -- [5]
-		}, -- [799]
-		{
-			49182.626, -- [1]
-			49188.62, -- [2]
-			"23:27:11", -- [3]
-			"23:27:17", -- [4]
-			"骷髅战士", -- [5]
-		}, -- [800]
-		{
-			49197.618, -- [1]
-			49203.625, -- [2]
-			"23:27:26", -- [3]
-			"23:27:32", -- [4]
-			"骷髅法师", -- [5]
-		}, -- [801]
-		{
-			49207.624, -- [1]
-			49213.618, -- [2]
-			"23:27:37", -- [3]
-			"23:27:42", -- [4]
-			"骷髅法师", -- [5]
-		}, -- [802]
-		{
-			49247.627, -- [1]
-			49255.617, -- [2]
-			"23:28:16", -- [3]
-			"23:28:24", -- [4]
-			"骷髅战士", -- [5]
-		}, -- [803]
-		{
-			49273.623, -- [1]
-			49280.627, -- [2]
-			"23:28:42", -- [3]
-			"23:28:49", -- [4]
-			"骷髅战士", -- [5]
-		}, -- [804]
-		{
-			49286.629, -- [1]
-			49292.623, -- [2]
-			"23:28:55", -- [3]
-			"23:29:01", -- [4]
-			"骷髅战士", -- [5]
-		}, -- [805]
-		{
-			49296.622, -- [1]
-			49302.623, -- [2]
-			"23:29:05", -- [3]
-			"23:29:11", -- [4]
-			"骷髅战士", -- [5]
-		}, -- [806]
-		{
-			49315.627, -- [1]
-			49323.621, -- [2]
-			"23:29:25", -- [3]
-			"23:29:32", -- [4]
-			"疯狂的食尸鬼", -- [5]
-		}, -- [807]
-		{
-			49329.627, -- [1]
-			49336.619, -- [2]
-			"23:29:38", -- [3]
-			"23:29:45", -- [4]
-			"骷髅战士", -- [5]
-		}, -- [808]
-		{
-			49349.628, -- [1]
-			49354.628, -- [2]
-			"23:29:58", -- [3]
-			"23:30:03", -- [4]
-			"骷髅法师", -- [5]
-		}, -- [809]
-		{
-			49356.625, -- [1]
-			49362.62, -- [2]
-			"23:30:05", -- [3]
-			"23:30:11", -- [4]
-			"骷髅法师", -- [5]
-		}, -- [810]
-		{
-			49381.62, -- [1]
-			49387.627, -- [2]
-			"23:30:30", -- [3]
-			"23:30:36", -- [4]
-			"骷髅法师", -- [5]
-		}, -- [811]
-		{
-			49458.617, -- [1]
-			49475.63000000001, -- [2]
-			"23:31:47", -- [3]
-			"23:32:04", -- [4]
-			"夜行织影狼人", -- [5]
-		}, -- [812]
-		{
-			49497.627, -- [1]
-			49508.629, -- [2]
-			"23:32:27", -- [3]
-			"23:32:37", -- [4]
-			"夜行织影狼人", -- [5]
-		}, -- [813]
-		{
-			49514.621, -- [1]
-			49522.623, -- [2]
-			"23:32:43", -- [3]
-			"23:32:51", -- [4]
-			"夜行织影狼人", -- [5]
-		}, -- [814]
-		{
-			49525.622, -- [1]
-			49534.628, -- [2]
-			"23:32:55", -- [3]
-			"23:33:03", -- [4]
-			"夜行织影狼人", -- [5]
-		}, -- [815]
-		{
-			49558.617, -- [1]
-			49568.625, -- [2]
-			"23:33:27", -- [3]
-			"23:33:37", -- [4]
-			"夜行织影狼人", -- [5]
-		}, -- [816]
-		{
-			49576.627, -- [1]
-			49592.621, -- [2]
-			"23:33:45", -- [3]
-			"23:34:01", -- [4]
-			"夜行织影狼人", -- [5]
-		}, -- [817]
-		{
-			49621.622, -- [1]
-			49632.624, -- [2]
-			"23:34:31", -- [3]
-			"23:34:41", -- [4]
-			"夜行织影狼人", -- [5]
-		}, -- [818]
-		{
-			49796.622, -- [1]
-			49802.617, -- [2]
-			"23:37:26", -- [3]
-			"23:37:31", -- [4]
-			"小型结网毒蜘蛛", -- [5]
-		}, -- [819]
-		{
-			49829.624, -- [1]
-			49834.619, -- [2]
-			"23:37:59", -- [3]
-			"23:38:03", -- [4]
-			"小型结网毒蜘蛛", -- [5]
-		}, -- [820]
-		{
-			49847.629, -- [1]
-			49851.618, -- [2]
-			"23:38:16", -- [3]
-			"23:38:20", -- [4]
-			"小型结网毒蜘蛛", -- [5]
-		}, -- [821]
-		{
-			49862.62, -- [1]
-			49866.625, -- [2]
-			"23:38:31", -- [3]
-			"23:38:35", -- [4]
-			"小型结网毒蜘蛛", -- [5]
-		}, -- [822]
-		{
-			49875.619, -- [1]
-			49879.617, -- [2]
-			"23:38:44", -- [3]
-			"23:38:48", -- [4]
-			"小型结网毒蜘蛛", -- [5]
-		}, -- [823]
-		{
-			49888.618, -- [1]
-			49894.623, -- [2]
-			"23:38:57", -- [3]
-			"23:39:03", -- [4]
-			"小型结网毒蜘蛛", -- [5]
-		}, -- [824]
-		{
-			49900.63000000001, -- [1]
-			49904.618, -- [2]
-			"23:39:10", -- [3]
-			"23:39:13", -- [4]
-			"小型结网毒蜘蛛", -- [5]
-		}, -- [825]
-		{
-			49914.628, -- [1]
-			49918.618, -- [2]
-			"23:39:23", -- [3]
-			"23:39:27", -- [4]
-			"小型结网毒蜘蛛", -- [5]
-		}, -- [826]
-		{
-			49966.627, -- [1]
-			49975.618, -- [2]
-			"23:40:15", -- [3]
-			"23:40:24", -- [4]
-			"饥饿的恐狼", -- [5]
-		}, -- [827]
-		{
-			49982.618, -- [1]
-			50016.618, -- [2]
-			"23:40:31", -- [3]
-			"23:41:05", -- [4]
-			"饥饿的恐狼", -- [5]
-		}, -- [828]
-		{
-			50048.625, -- [1]
-			50054.622, -- [2]
-			"23:41:37", -- [3]
-			"23:41:43", -- [4]
-			"小型结网毒蜘蛛", -- [5]
-		}, -- [829]
-		{
-			50063.628, -- [1]
-			50069.619, -- [2]
-			"23:41:53", -- [3]
-			"23:41:58", -- [4]
-			"小型结网毒蜘蛛", -- [5]
-		}, -- [830]
-		{
-			50085.625, -- [1]
-			50120.629, -- [2]
-			"23:42:14", -- [3]
-			"23:42:49", -- [4]
-			"小型结网毒蜘蛛", -- [5]
-		}, -- [831]
-		{
-			50165.619, -- [1]
-			50201.626, -- [2]
-			"23:43:34", -- [3]
-			"23:44:10", -- [4]
-			"疯狂的恐狼", -- [5]
-		}, -- [832]
-		{
-			50231.624, -- [1]
-			50238.624, -- [2]
-			"23:44:41", -- [3]
-			"23:44:47", -- [4]
-			"饥饿的恐狼", -- [5]
-		}, -- [833]
-		{
-			50247.628, -- [1]
-			50253.623, -- [2]
-			"23:44:57", -- [3]
-			"23:45:02", -- [4]
-			"饥饿的恐狼", -- [5]
-		}, -- [834]
-		{
-			50263.624, -- [1]
-			50270.627, -- [2]
-			"23:45:12", -- [3]
-			"23:45:19", -- [4]
-			"疯狂的恐狼", -- [5]
-		}, -- [835]
-		{
-			50278.619, -- [1]
-			50298.629, -- [2]
-			"23:45:27", -- [3]
-			"23:45:47", -- [4]
-			"疯狂的恐狼", -- [5]
-		}, -- [836]
-		{
-			50329.617, -- [1]
-			50333.621, -- [2]
-			"23:46:18", -- [3]
-			"23:46:22", -- [4]
-			"小型结网毒蜘蛛", -- [5]
-		}, -- [837]
-		{
-			50341.628, -- [1]
-			50345.626, -- [2]
-			"23:46:30", -- [3]
-			"23:46:34", -- [4]
-			"小型结网毒蜘蛛", -- [5]
-		}, -- [838]
-		{
-			50352.619, -- [1]
-			50356.629, -- [2]
-			"23:46:41", -- [3]
-			"23:46:45", -- [4]
-			"饥饿的恐狼", -- [5]
-		}, -- [839]
-		{
-			50365.627, -- [1]
-			50369.627, -- [2]
-			"23:46:54", -- [3]
-			"23:46:58", -- [4]
-			"饥饿的恐狼", -- [5]
-		}, -- [840]
-		{
-			50379.631, -- [1]
-			50383.628, -- [2]
-			"23:47:09", -- [3]
-			"23:47:12", -- [4]
-			"饥饿的恐狼", -- [5]
-		}, -- [841]
-		{
-			50576.62, -- [1]
-			50580.626, -- [2]
-			"23:50:25", -- [3]
-			"23:50:29", -- [4]
-			"小型结网毒蜘蛛", -- [5]
-		}, -- [842]
-		{
-			50592.617, -- [1]
-			50598.624, -- [2]
-			"23:50:42", -- [3]
-			"23:50:47", -- [4]
-			"小型结网毒蜘蛛", -- [5]
-		}, -- [843]
-		{
-			50670.627, -- [1]
-			50690.618, -- [2]
-			"23:52:00", -- [3]
-			"23:52:19", -- [4]
-			"河爪蛮兵", -- [5]
-		}, -- [844]
-		{
-			51138.624, -- [1]
-			51148.617, -- [2]
-			"23:59:47", -- [3]
-			"23:59:57", -- [4]
-			"小型黑寡妇蜘蛛", -- [5]
-		}, -- [845]
-		{
-			51170.623, -- [1]
-			51182.618, -- [2]
-			"00:00:19", -- [3]
-			"00:00:31", -- [4]
-			"小型黑寡妇蜘蛛", -- [5]
-		}, -- [846]
-		{
-			51289.624, -- [1]
-			51303.622, -- [2]
-			"00:02:18", -- [3]
-			"00:02:32", -- [4]
-			"夜行黑暗狼人", -- [5]
-		}, -- [847]
-		{
-			51332.618, -- [1]
-			51375.63000000001, -- [2]
-			"00:03:01", -- [3]
-			"00:03:44", -- [4]
-			"夜行黑暗狼人", -- [5]
-		}, -- [848]
-		{
-			51408.622, -- [1]
-			51448.618, -- [2]
-			"00:04:17", -- [3]
-			"00:04:57", -- [4]
-			"夜行黑暗狼人", -- [5]
-		}, -- [849]
-		{
-			51469.618, -- [1]
-			51481.618, -- [2]
-			"00:05:19", -- [3]
-			"00:05:30", -- [4]
-			"夜行黑暗狼人", -- [5]
-		}, -- [850]
-		{
-			51490.627, -- [1]
-			51510.617, -- [2]
-			"00:05:39", -- [3]
-			"00:05:59", -- [4]
-			"夜行黑暗狼人", -- [5]
-		}, -- [851]
-		{
-			51517.618, -- [1]
-			51528.617, -- [2]
-			"00:06:06", -- [3]
-			"00:06:17", -- [4]
-			"夜行黑暗狼人", -- [5]
-		}, -- [852]
-		{
-			51555.619, -- [1]
-			51571.632, -- [2]
-			"00:06:45", -- [3]
-			"00:07:00", -- [4]
-			"夜行黑暗狼人", -- [5]
-		}, -- [853]
-		{
-			51575.621, -- [1]
-			51588.619, -- [2]
-			"00:07:05", -- [3]
-			"00:07:17", -- [4]
-			"夜行黑暗狼人", -- [5]
-		}, -- [854]
-		{
-			51593.629, -- [1]
-			51607.624, -- [2]
-			"00:07:22", -- [3]
-			"00:07:36", -- [4]
-			"夜行黑暗狼人", -- [5]
-		}, -- [855]
-		{
-			51643.626, -- [1]
-			51652.619, -- [2]
-			"00:08:12", -- [3]
-			"00:08:21", -- [4]
-			"夜行织影狼人", -- [5]
-		}, -- [856]
-		{
-			51660.63000000001, -- [1]
-			51705.622, -- [2]
-			"00:08:29", -- [3]
-			"00:09:14", -- [4]
-			"夜行黑暗狼人", -- [5]
-		}, -- [857]
-		{
-			51736.625, -- [1]
-			51792.625, -- [2]
-			"00:09:45", -- [3]
-			"00:10:41", -- [4]
-			"夜行黑暗狼人", -- [5]
-		}, -- [858]
-		{
-			51818.626, -- [1]
-			51830.627, -- [2]
-			"00:11:07", -- [3]
-			"00:11:19", -- [4]
-			"夜行黑暗狼人", -- [5]
-		}, -- [859]
-		{
-			51872.621, -- [1]
-			51881.626, -- [2]
-			"00:12:01", -- [3]
-			"00:12:10", -- [4]
-			"迪菲亚夜贼", -- [5]
-		}, -- [860]
-		{
-			51911.627, -- [1]
-			51923.618, -- [2]
-			"00:12:41", -- [3]
-			"00:12:52", -- [4]
-			"迪菲亚夜行者", -- [5]
-		}, -- [861]
-		{
-			52013.62, -- [1]
-			52046.626, -- [2]
-			"00:14:22", -- [3]
-			"00:14:55", -- [4]
-			"骸骨魔", -- [5]
-		}, -- [862]
-		{
-			52096.622, -- [1]
-			52130.626, -- [2]
-			"00:15:45", -- [3]
-			"00:16:19", -- [4]
-			"恐怖骸骨", -- [5]
-		}, -- [863]
-		{
-			52157.621, -- [1]
-			52168.623, -- [2]
-			"00:16:47", -- [3]
-			"00:16:57", -- [4]
-			"恐怖骸骨", -- [5]
-		}, -- [864]
-		{
-			52171.617, -- [1]
-			52178.628, -- [2]
-			"00:17:00", -- [3]
-			"00:17:07", -- [4]
-			"骸骨魔", -- [5]
-		}, -- [865]
-		{
-			52183.617, -- [1]
-			52193.62, -- [2]
-			"00:17:12", -- [3]
-			"00:17:22", -- [4]
-			"恐怖骸骨", -- [5]
-		}, -- [866]
-		{
-			52197.621, -- [1]
-			52206.621, -- [2]
-			"00:17:26", -- [3]
-			"00:17:35", -- [4]
-			"恐怖骸骨", -- [5]
-		}, -- [867]
-		{
-			52215.62, -- [1]
-			52224.623, -- [2]
-			"00:17:44", -- [3]
-			"00:17:53", -- [4]
-			"恐怖骸骨", -- [5]
-		}, -- [868]
-		{
-			52228.619, -- [1]
-			52235.625, -- [2]
-			"00:17:57", -- [3]
-			"00:18:04", -- [4]
-			"恐怖骸骨", -- [5]
-		}, -- [869]
-		{
-			52281.619, -- [1]
-			52289.626, -- [2]
-			"00:18:51", -- [3]
-			"00:18:58", -- [4]
-			"恐怖骸骨", -- [5]
-		}, -- [870]
-		{
-			52309.625, -- [1]
-			52343.627, -- [2]
-			"00:19:19", -- [3]
-			"00:19:52", -- [4]
-			"骸骨魔", -- [5]
-		}, -- [871]
-		{
-			52370.63000000001, -- [1]
-			52375.618, -- [2]
-			"00:20:19", -- [3]
-			"00:20:24", -- [4]
-			"恐怖骸骨", -- [5]
-		}, -- [872]
-		{
-			52383.617, -- [1]
-			52390.618, -- [2]
-			"00:20:32", -- [3]
-			"00:20:39", -- [4]
-			"骸骨魔", -- [5]
-		}, -- [873]
-		{
-			52396.619, -- [1]
-			52401.619, -- [2]
-			"00:20:45", -- [3]
-			"00:20:50", -- [4]
-			"恐怖骸骨", -- [5]
-		}, -- [874]
-		{
-			52415.62, -- [1]
-			52423.626, -- [2]
-			"00:21:04", -- [3]
-			"00:21:12", -- [4]
-			"骸骨魔", -- [5]
-		}, -- [875]
-		{
-			52440.629, -- [1]
-			52449.621, -- [2]
-			"00:21:30", -- [3]
-			"00:21:38", -- [4]
-			"骸骨魔", -- [5]
-		}, -- [876]
-		{
-			52474.62, -- [1]
-			52500.627, -- [2]
-			"00:22:03", -- [3]
-			"00:22:29", -- [4]
-			"骸骨魔", -- [5]
-		}, -- [877]
-		{
-			52510.622, -- [1]
-			52519.627, -- [2]
-			"00:22:40", -- [3]
-			"00:22:48", -- [4]
-			"骸骨魔", -- [5]
-		}, -- [878]
-		{
-			52530.627, -- [1]
-			52537.627, -- [2]
-			"00:23:00", -- [3]
-			"00:23:06", -- [4]
-			"骸骨魔", -- [5]
-		}, -- [879]
-		{
-			53032.626, -- [1]
-			53046.625, -- [2]
-			"00:31:22", -- [3]
-			"00:31:35", -- [4]
-			"夜行邪齿狼人", -- [5]
-		}, -- [880]
-		{
-			53049.625, -- [1]
-			53062.621, -- [2]
-			"00:31:39", -- [3]
-			"00:31:51", -- [4]
-			"夜行邪齿狼人", -- [5]
-		}, -- [881]
-		{
-			53068.622, -- [1]
-			53083.617, -- [2]
-			"00:31:57", -- [3]
-			"00:32:12", -- [4]
-			"夜行邪齿狼人", -- [5]
-		}, -- [882]
-		{
-			53099.617, -- [1]
-			53114.622, -- [2]
-			"00:32:28", -- [3]
-			"00:32:43", -- [4]
-			"夜行邪齿狼人", -- [5]
-		}, -- [883]
-		{
-			53136.626, -- [1]
-			53171.62, -- [2]
-			"00:33:06", -- [3]
-			"00:33:40", -- [4]
-			"夜行邪齿狼人", -- [5]
-		}, -- [884]
-		{
-			53195.627, -- [1]
-			53211.617, -- [2]
-			"00:34:04", -- [3]
-			"00:34:20", -- [4]
-			"夜行邪齿狼人", -- [5]
-		}, -- [885]
-		{
-			53250.624, -- [1]
-			53268.621, -- [2]
-			"00:34:59", -- [3]
-			"00:35:17", -- [4]
-			"夜行堕落狼人", -- [5]
-		}, -- [886]
-		{
-			53298.626, -- [1]
-			53313.627, -- [2]
-			"00:35:47", -- [3]
-			"00:36:02", -- [4]
-			"夜行堕落狼人", -- [5]
-		}, -- [887]
-		{
-			53337.626, -- [1]
-			53361.618, -- [2]
-			"00:36:27", -- [3]
-			"00:36:50", -- [4]
-			"加特斯比尔", -- [5]
-		}, -- [888]
-		{
-			53370.623, -- [1]
-			53384.619, -- [2]
-			"00:37:00", -- [3]
-			"00:37:13", -- [4]
-			"夜行堕落狼人", -- [5]
-		}, -- [889]
-		{
-			53401.618, -- [1]
-			53418.619, -- [2]
-			"00:37:30", -- [3]
-			"00:37:47", -- [4]
-			"夜行堕落狼人", -- [5]
-		}, -- [890]
-		{
-			53423.621, -- [1]
-			53436.621, -- [2]
-			"00:37:52", -- [3]
-			"00:38:05", -- [4]
-			"夜行堕落狼人", -- [5]
-		}, -- [891]
-		{
-			53458.617, -- [1]
-			53478.62, -- [2]
-			"00:38:27", -- [3]
-			"00:38:47", -- [4]
-			"夜行堕落狼人", -- [5]
-		}, -- [892]
-		{
-			53507.617, -- [1]
-			53520.62, -- [2]
-			"00:39:16", -- [3]
-			"00:39:29", -- [4]
-			"夜行堕落狼人", -- [5]
-		}, -- [893]
-		{
-			53525.618, -- [1]
-			53535.619, -- [2]
-			"00:39:34", -- [3]
-			"00:39:44", -- [4]
-			"夜行堕落狼人", -- [5]
-		}, -- [894]
-		{
-			53555.62, -- [1]
-			53572.621, -- [2]
-			"00:40:04", -- [3]
-			"00:40:21", -- [4]
-			"夜行邪齿狼人", -- [5]
-		}, -- [895]
-		{
-			53628.622, -- [1]
-			53638.62, -- [2]
-			"00:41:17", -- [3]
-			"00:41:27", -- [4]
-			"黑色破坏者幼崽", -- [5]
-		}, -- [896]
-		{
-			53678.618, -- [1]
-			53688.626, -- [2]
-			"00:42:07", -- [3]
-			"00:42:17", -- [4]
-			"裂拳战士", -- [5]
-		}, -- [897]
-		{
-			53693.619, -- [1]
-			53707.626, -- [2]
-			"00:42:23", -- [3]
-			"00:42:36", -- [4]
-			"裂拳战士", -- [5]
-		}, -- [898]
-		{
-			53722.618, -- [1]
-			53740.626, -- [2]
-			"00:42:51", -- [3]
-			"00:43:09", -- [4]
-			"裂拳战士", -- [5]
-		}, -- [899]
-		{
-			53751.618, -- [1]
-			53764.619, -- [2]
-			"00:43:20", -- [3]
-			"00:43:33", -- [4]
-			"裂拳战士", -- [5]
-		}, -- [900]
-		{
-			53788.619, -- [1]
-			53796.624, -- [2]
-			"00:43:58", -- [3]
-			"00:44:05", -- [4]
-			"裂拳好战者", -- [5]
-		}, -- [901]
-		{
-			53803.618, -- [1]
-			53815.62, -- [2]
-			"00:44:12", -- [3]
-			"00:44:24", -- [4]
-			"裂拳战士", -- [5]
-		}, -- [902]
-		{
-			53824.62, -- [1]
-			53838.622, -- [2]
-			"00:44:34", -- [3]
-			"00:44:47", -- [4]
-			"裂拳好战者", -- [5]
-		}, -- [903]
-		{
-			53861.62, -- [1]
-			53874.621, -- [2]
-			"00:45:10", -- [3]
-			"00:45:23", -- [4]
-			"扎克乌尔", -- [5]
-		}, -- [904]
-		{
-			53928.627, -- [1]
-			53942.621, -- [2]
-			"00:46:17", -- [3]
-			"00:46:31", -- [4]
-			"黑色破坏者幼崽", -- [5]
-		}, -- [905]
-		{
-			54353.601, -- [1]
-			54361.599, -- [2]
-			"00:53:23", -- [3]
-			"00:53:30", -- [4]
-			"骷髅医师", -- [5]
-		}, -- [906]
-		{
-			54368.59400000001, -- [1]
-			54378.603, -- [2]
-			"00:53:38", -- [3]
-			"00:53:47", -- [4]
-			"骷髅医师", -- [5]
-		}, -- [907]
-		{
-			54388.601, -- [1]
-			54397.59400000001, -- [2]
-			"00:53:57", -- [3]
-			"00:54:06", -- [4]
-			"骷髅医师", -- [5]
-		}, -- [908]
-		{
-			54438.6, -- [1]
-			54486.602, -- [2]
-			"00:54:47", -- [3]
-			"00:55:35", -- [4]
-			"天灾食尸鬼", -- [5]
-		}, -- [909]
-		{
-			54524.6, -- [1]
-			54534.602, -- [2]
-			"00:56:13", -- [3]
-			"00:56:23", -- [4]
-			"骷髅袭击者", -- [5]
-		}, -- [910]
-		{
-			54540.604, -- [1]
-			54556.605, -- [2]
-			"00:56:30", -- [3]
-			"00:56:45", -- [4]
-			"骷髅袭击者", -- [5]
-		}, -- [911]
-		{
-			54569.595, -- [1]
-			54579.596, -- [2]
-			"00:56:58", -- [3]
-			"00:57:08", -- [4]
-			"骷髅袭击者", -- [5]
-		}, -- [912]
-		{
-			54589.6, -- [1]
-			54593.606, -- [2]
-			"00:57:18", -- [3]
-			"00:57:22", -- [4]
-			"摩拉迪姆", -- [5]
-		}, -- [913]
-		{
-			54612.604, -- [1]
-			54623.604, -- [2]
-			"00:57:42", -- [3]
-			"00:57:52", -- [4]
-			"骷髅袭击者", -- [5]
-		}, -- [914]
-		{
-			54634.602, -- [1]
-			54644.607, -- [2]
-			"00:58:04", -- [3]
-			"00:58:13", -- [4]
-			"骷髅袭击者", -- [5]
-		}, -- [915]
-		{
-			54655.596, -- [1]
-			54669.59400000001, -- [2]
-			"00:58:25", -- [3]
-			"00:58:38", -- [4]
-			"骷髅袭击者", -- [5]
-		}, -- [916]
-		{
-			54676.603, -- [1]
-			54685.605, -- [2]
-			"00:58:45", -- [3]
-			"00:58:54", -- [4]
-			"骷髅袭击者", -- [5]
-		}, -- [917]
-		{
-			54696.597, -- [1]
-			54710.602, -- [2]
-			"00:59:06", -- [3]
-			"00:59:19", -- [4]
-			"骷髅袭击者", -- [5]
-		}, -- [918]
-		{
-			54733.598, -- [1]
-			54755.595, -- [2]
-			"00:59:42", -- [3]
-			"01:00:04", -- [4]
-			"骷髅看守", -- [5]
-		}, -- [919]
-		{
-			54782.602, -- [1]
-			54817.601, -- [2]
-			"01:00:31", -- [3]
-			"01:01:06", -- [4]
-			"骷髅袭击者", -- [5]
-		}, -- [920]
-		{
-			54827.595, -- [1]
-			54862.595, -- [2]
-			"01:01:16", -- [3]
-			"01:01:51", -- [4]
-			"骷髅看守", -- [5]
-		}, -- [921]
-		{
-			54894.6, -- [1]
-			54912.601, -- [2]
-			"01:02:24", -- [3]
-			"01:02:41", -- [4]
-			"骷髅看守", -- [5]
-		}, -- [922]
-		{
-			54929.596, -- [1]
-			54940.6, -- [2]
-			"01:02:58", -- [3]
-			"01:03:09", -- [4]
-			"骷髅袭击者", -- [5]
-		}, -- [923]
-		{
-			54949.596, -- [1]
-			54963.599, -- [2]
-			"01:03:18", -- [3]
-			"01:03:32", -- [4]
-			"骷髅袭击者", -- [5]
-		}, -- [924]
-		{
-			54986.597, -- [1]
-			54995.604, -- [2]
-			"01:03:55", -- [3]
-			"01:04:04", -- [4]
-			"骷髅袭击者", -- [5]
-		}, -- [925]
-		{
-			55000.605, -- [1]
-			55009.604, -- [2]
-			"01:04:09", -- [3]
-			"01:04:18", -- [4]
-			"骷髅袭击者", -- [5]
-		}, -- [926]
-		{
-			55019.604, -- [1]
-			55030.597, -- [2]
-			"01:04:28", -- [3]
-			"01:04:39", -- [4]
-			"骷髅袭击者", -- [5]
-		}, -- [927]
-		{
-			55114.603, -- [1]
-			55152.595, -- [2]
-			"01:06:03", -- [3]
-			"01:06:41", -- [4]
-			"骸骨魔", -- [5]
-		}, -- [928]
-		{
-			55185.599, -- [1]
-			55211.6, -- [2]
-			"01:07:14", -- [3]
-			"01:07:40", -- [4]
-			"骸骨魔", -- [5]
-		}, -- [929]
-		{
-			55243.603, -- [1]
-			55269.605, -- [2]
-			"01:08:12", -- [3]
-			"01:08:38", -- [4]
-			"骸骨魔", -- [5]
-		}, -- [930]
-		{
-			55314.603, -- [1]
-			55340.59400000001, -- [2]
-			"01:09:23", -- [3]
-			"01:09:49", -- [4]
-			"骸骨魔", -- [5]
-		}, -- [931]
-		{
-			55350.595, -- [1]
-			55356.6, -- [2]
-			"01:09:59", -- [3]
-			"01:10:05", -- [4]
-			"骸骨魔", -- [5]
-		}, -- [932]
-		{
-			55364.596, -- [1]
-			55371.6, -- [2]
-			"01:10:13", -- [3]
-			"01:10:20", -- [4]
-			"恐怖骸骨", -- [5]
-		}, -- [933]
-		{
-			55430.601, -- [1]
-			55465.605, -- [2]
-			"01:11:19", -- [3]
-			"01:11:54", -- [4]
-			"腐烂者", -- [5]
-		}, -- [934]
-		{
-			55497.599, -- [1]
-			55517.595, -- [2]
-			"01:12:26", -- [3]
-			"01:12:46", -- [4]
-			"天灾食尸鬼", -- [5]
-		}, -- [935]
-		{
-			55520.595, -- [1]
-			55539.6, -- [2]
-			"01:12:49", -- [3]
-			"01:13:08", -- [4]
-			"天灾食尸鬼", -- [5]
-		}, -- [936]
-		{
-			55545.6, -- [1]
-			55554.6, -- [2]
-			"01:13:14", -- [3]
-			"01:13:23", -- [4]
-			"天灾食尸鬼", -- [5]
-		}, -- [937]
-		{
-			55575.598, -- [1]
-			55584.595, -- [2]
-			"01:13:44", -- [3]
-			"01:13:53", -- [4]
-			"食脑者", -- [5]
-		}, -- [938]
-		{
-			55593.6, -- [1]
-			55606.6, -- [2]
-			"01:14:03", -- [3]
-			"01:14:15", -- [4]
-			"天灾食尸鬼", -- [5]
-		}, -- [939]
-		{
-			55607.602, -- [1]
-			55625.598, -- [2]
-			"01:14:16", -- [3]
-			"01:14:34", -- [4]
-			"天灾食尸鬼", -- [5]
-		}, -- [940]
-		{
-			55655.597, -- [1]
-			55673.606, -- [2]
-			"01:15:04", -- [3]
-			"01:15:22", -- [4]
-			"天灾食尸鬼", -- [5]
-		}, -- [941]
-		{
-			55701.595, -- [1]
-			55737.595, -- [2]
-			"01:15:50", -- [3]
-			"01:16:26", -- [4]
-			"食脑者", -- [5]
-		}, -- [942]
-		{
-			55762.596, -- [1]
-			55794.602, -- [2]
-			"01:16:51", -- [3]
-			"01:17:23", -- [4]
-			"天灾食尸鬼", -- [5]
-		}, -- [943]
-		{
-			55794.602, -- [1]
-			55802.605, -- [2]
-			"01:17:23", -- [3]
-			"01:17:31", -- [4]
-			"天灾食尸鬼", -- [5]
-		}, -- [944]
-		{
-			55818.595, -- [1]
-			55826.596, -- [2]
-			"01:17:47", -- [3]
-			"01:17:55", -- [4]
-			"天灾食尸鬼", -- [5]
-		}, -- [945]
-		{
-			55831.595, -- [1]
-			55853.6, -- [2]
-			"01:18:01", -- [3]
-			"01:18:22", -- [4]
-			"食脑者", -- [5]
-		}, -- [946]
-		{
-			55855.599, -- [1]
-			55883.597, -- [2]
-			"01:18:25", -- [3]
-			"01:18:52", -- [4]
-			"食脑者", -- [5]
-		}, -- [947]
-		{
-			55923.596, -- [1]
-			55935.6, -- [2]
-			"01:19:32", -- [3]
-			"01:19:44", -- [4]
-			"天灾食尸鬼", -- [5]
-		}, -- [948]
-		{
-			55944.597, -- [1]
-			55962.596, -- [2]
-			"01:19:54", -- [3]
-			"01:20:11", -- [4]
-			"天灾食尸鬼", -- [5]
-		}, -- [949]
-		{
-			56161.599, -- [1]
-			56173.608, -- [2]
-			"01:23:31", -- [3]
-			"01:23:42", -- [4]
-			"疯狂的恐狼", -- [5]
-		}, -- [950]
-		{
-			56197.601, -- [1]
-			56208.6, -- [2]
-			"01:24:06", -- [3]
-			"01:24:17", -- [4]
-			"结网毒蜘蛛", -- [5]
-		}, -- [951]
-		{
-			56363.599, -- [1]
-			56375.597, -- [2]
-			"01:26:52", -- [3]
-			"01:27:04", -- [4]
-			"森林蜘蛛", -- [5]
-		}, -- [952]
 	},
 	["FoughtWho"] = {
-		"森林蜘蛛 01:26:52-01:27:04", -- [1]
-		"结网毒蜘蛛 01:24:06-01:24:17", -- [2]
-		"疯狂的恐狼 01:23:31-01:23:42", -- [3]
-		"天灾食尸鬼 01:19:54-01:20:11", -- [4]
-		"天灾食尸鬼 01:19:32-01:19:44", -- [5]
+		"刺脊滩行者 01:11:43-01:11:57", -- [1]
+		"刺脊捕猎者 01:11:34-01:11:38", -- [2]
+		"刺脊捕猎者 01:11:19-01:11:25", -- [3]
+		"刺脊滩行者 01:10:47-01:11:13", -- [4]
+		"刺脊滩行者 01:10:38-01:10:47", -- [5]
 	},
 }

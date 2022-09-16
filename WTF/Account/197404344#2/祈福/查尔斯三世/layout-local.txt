@@ -20,6 +20,13 @@ X: 0
 Y: 0
 W: 365
 H: 240
+Frame: AtlasFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 130
+Y: -38
+W: 1023
+H: 631
 Frame: scanner_button
 FrameLevel: 200
 Anchor: BOTTOM
@@ -34,10 +41,3 @@ X: 319
 Y: 120
 W: 87
 H: 32
-Frame: WorldMapFrame
-FrameLevel: 1
-Anchor: RIGHT
-X: 30
-Y: -51
-W: 1024
-H: 768

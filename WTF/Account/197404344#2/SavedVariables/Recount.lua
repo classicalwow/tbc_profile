@@ -6,8 +6,8 @@ RecountDB = {
 		["张坤 - 祈福"] = "张坤 - 祈福",
 		["查尔斯三世 - 祈福"] = "查尔斯三世 - 祈福",
 		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
-		["Vscode - 加丁"] = "Vscode - 加丁",
 		["新特能源 - 祈福"] = "新特能源 - 祈福",
+		["Vscode - 加丁"] = "Vscode - 加丁",
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
@@ -30,9 +30,9 @@ RecountDB = {
 				},
 			},
 			["MainWindowHeight"] = 191.111083984375,
-			["LastInstanceName"] = "祖尔法拉克",
-			["MainWindowWidth"] = 209.4445648193359,
 			["CurDataSet"] = "OverallData",
+			["MainWindowWidth"] = 209.4445648193359,
+			["LastInstanceName"] = "祖尔法拉克",
 		},
 		["沈南鹏 - 祈福"] = {
 			["MainWindow"] = {
@@ -54,9 +54,9 @@ RecountDB = {
 				},
 			},
 			["MainWindowHeight"] = 199.4443817138672,
-			["LastInstanceName"] = "祖尔法拉克",
-			["MainWindowWidth"] = 296.6665649414063,
 			["CurDataSet"] = "OverallData",
+			["MainWindowWidth"] = 296.6665649414063,
+			["LastInstanceName"] = "祖尔法拉克",
 		},
 		["张坤 - 祈福"] = {
 			["MainWindow"] = {
@@ -99,6 +99,7 @@ RecountDB = {
 					},
 				},
 			},
+			["LastInstanceName"] = "暴风城监狱",
 			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 202.7777557373047,
 		},
@@ -125,29 +126,6 @@ RecountDB = {
 			["MainWindowWidth"] = 225.8888549804688,
 			["CurDataSet"] = "OverallData",
 		},
-		["Vscode - 加丁"] = {
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = -484.4445114135742,
-					["x"] = -563.8890228271484,
-					["w"] = 167.7777862548828,
-					["h"] = 198.8888702392578,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["MainWindowHeight"] = 198.8888702392578,
-			["MainWindowWidth"] = 167.7777862548828,
-			["CurDataSet"] = "OverallData",
-		},
 		["新特能源 - 祈福"] = {
 			["MainWindow"] = {
 				["Position"] = {
@@ -169,6 +147,29 @@ RecountDB = {
 			},
 			["MainWindowHeight"] = 187.77783203125,
 			["MainWindowWidth"] = 231.6667785644531,
+			["CurDataSet"] = "OverallData",
+		},
+		["Vscode - 加丁"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -484.4445114135742,
+					["x"] = -563.8890228271484,
+					["w"] = 167.7777862548828,
+					["h"] = 198.8888702392578,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["MainWindowHeight"] = 198.8888702392578,
+			["MainWindowWidth"] = 167.7777862548828,
 			["CurDataSet"] = "OverallData",
 		},
 	},
