@@ -1,6 +1,6 @@
 ## Title: Guidelime_TUGs
 ## Author: TUGs | The Unprofessional Gamer
-## Version: 3.39
+## Version: 3.40
 ## Interface: 30400
 ## Dependencies: Guidelime
 ## Notes: The Ultimate (Leveling) Guide

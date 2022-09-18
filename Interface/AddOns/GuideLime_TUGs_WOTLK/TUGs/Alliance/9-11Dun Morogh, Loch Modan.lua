@@ -45,10 +45,6 @@ TurnIn: [QT6391][A Dwarf, Gnome]
 Accept: [QA6388][A Dwarf, Gnome]
 Learn new spells
 Set your [H] to Ironforge at [G18.6,51.6Ironforge]
-Run to [G30.9,36.5Dun Morogh][A Human]
-Run to [G31.1,31.2Dun Morogh][A Human]
-Run further north into wetlands [A Human]
-TurnIn: [QT6388][A Dwarf, Gnome]
-Fly to [F Wetlands][A Dwarf, Gnome]
+Get to the Stormwind Harbour(Get the flightpath as Dwarf/Gnome)
 Take the ship to Darkshore
 ]], "TUGs The Ultimate (Leveling) Guides")

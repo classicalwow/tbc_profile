@@ -10,4 +10,14 @@ Get the [P] flightpath at: [G79.0, 29.6Howling Fjord]
 Accept: [QA11227]
 Accept: [QA11167]
 Accept: [QA11270]
+Use your Plaguehound Cage to summon a Plaguehound pet.
+Use your Plaguehound's ability to bring Fjord Crows to the ground. Feed Crow Meat to your Plaguehound.
+Do: [QC11270]
+Do: [QC11167]
+TurnIn: [QT11227]
+Accept: [QA11253]
+TurnIn: [QT11167]
+Accept: [QA11168]
+TurnIn: [QT11270]
+Accept: [QA11221]
 ]], "TUGs The Ultimate (Leveling) Guides")

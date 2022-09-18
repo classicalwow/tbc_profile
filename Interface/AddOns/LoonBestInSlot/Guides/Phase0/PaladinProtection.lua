@@ -6,14 +6,14 @@ LBIS:AddItem(spec, "37633", LBIS.L["Head"], "BIS") --Ground Tremor Helm
 LBIS:AddItem(spec, "37135", LBIS.L["Head"], "Alt") --Arcane-Shielded Helm
 LBIS:AddItem(spec, "36969", LBIS.L["Head"], "Alt") --Helm of the Ley-Guardian
 LBIS:AddItem(spec, "34401", LBIS.L["Head"], "Alt") --Helm of Uther's Resolve
-LBIS:AddItem(spec, "34243", LBIS.L["Head"], "Transmute BIS") --Helm of Burning Righteousness
+LBIS:AddItem(spec, "34243", LBIS.L["Head"], "Transmute Alt") --Helm of Burning Righteousness
 LBIS:AddItem(spec, "44040", LBIS.L["Head"], "Alt") --The Crusader's Resolution
 LBIS:AddItem(spec, "40673", LBIS.L["Head"], "Alt") --Tempered Saronite Helm
 
-LBIS:AddItem(spec, "34192", LBIS.L["Shoulder"], "BIS") --Pauldrons of Perseverance
+LBIS:AddItem(spec, "34192", LBIS.L["Shoulder"], "Alt") --Pauldrons of Perseverance
 LBIS:AddItem(spec, "37635", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Colossus
 LBIS:AddItem(spec, "37814", LBIS.L["Shoulder"], "Alt") --Iron Dwarf Smith Pauldrons
-LBIS:AddItem(spec, "40675", LBIS.L["Shoulder"], "Alt") --Tempered Saronite Shoulders
+LBIS:AddItem(spec, "40675", LBIS.L["Shoulder"], "BIS") --Tempered Saronite Shoulders
 LBIS:AddItem(spec, "44373", LBIS.L["Shoulder"], "Alt") --Pauldrons of Reconnaissance
 
 LBIS:AddItem(spec, "43565", LBIS.L["Back"], "Alt") --Durable Nerubhide Cape
@@ -49,9 +49,9 @@ LBIS:AddItem(spec, "37801", LBIS.L["Waist"], "Alt") --Waistguard of the Risen Kn
 
 LBIS:AddItem(spec, "43500", LBIS.L["Legs"], "BIS") --Bolstered Legplates
 LBIS:AddItem(spec, "37292", LBIS.L["Legs"], "Alt") --Ley-Guardian's Legguards
-LBIS:AddItem(spec, "44240", LBIS.L["Legs"], "Alt") --Special Issue Legplates
+LBIS:AddItem(spec, "44240", LBIS.L["Legs"], "BIS") --Special Issue Legplates
 LBIS:AddItem(spec, "34382", LBIS.L["Legs"], "Alt") --Judicator's Legguards
-LBIS:AddItem(spec, "34167", LBIS.L["Legs"], "Transmute BIS") --Legplates of the Holy Juggernaut
+LBIS:AddItem(spec, "34167", LBIS.L["Legs"], "Transmute Alt") --Legplates of the Holy Juggernaut
 LBIS:AddItem(spec, "37688", LBIS.L["Legs"], "Alt") --Legplates of the Infinite Drakonid
 
 LBIS:AddItem(spec, "44243", LBIS.L["Feet"], "BIS") --Toxin-Tempered Sabatons
