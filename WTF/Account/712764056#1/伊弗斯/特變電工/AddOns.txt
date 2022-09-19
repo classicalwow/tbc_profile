@@ -7,7 +7,7 @@ BiSTracker: disabled
 BattleGroundEnemies: disabled
 ElvUI_KlixUI_TBC_Classic: disabled
 exrt: enabled
-gladiatorlossa2: enabled
+gladiatorlossa2: disabled
 weakauras: enabled
 immersion: enabled
 details: enabled
@@ -50,7 +50,7 @@ dbm-azeroth: enabled
 dbm-naxx: enabled
 dbm-mc: enabled
 dbm-aq40: enabled
-classiccodex: enabled
+classiccodex: disabled
 dbm-karazhan: enabled
 dbm-zulaman: enabled
 classiccodex-db-ruru: disabled
@@ -100,7 +100,7 @@ AutoBarBCC: enabled
 Dejunk: enabled
 Details_Streamer: enabled
 Details_TinyThreat: enabled
-GladiatorlosSA2_zhCN: enabled
+GladiatorlosSA2_zhCN: disabled
 GTFO: enabled
 Guidelime_Flymolo's Outland Leveling Guide: enabled
 Guidelime: enabled
@@ -158,3 +158,12 @@ TalentEmu: enabled
 AceBIS: disabled
 DBM-VPVEM: disabled
 kExtraBossFrames: disabled
+dbm-eyeofeternity: enabled
+dbm-voa: enabled
+dbm-party-wotlk: enabled
+dbm-coliseum: enabled
+dbm-icecrown: enabled
+dbm-ulduar: enabled
+dbm-chamberofaspects: enabled
+DataStore: disabled
+Gladdy: disabled

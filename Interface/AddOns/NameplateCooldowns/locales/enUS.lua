@@ -68,6 +68,8 @@ change accordingly to nameplate scale
 L["options:general:inverse-logic"] = "Inverse logic"
 L["options:general:inverse-logic:tooltip"] = "Display icon if player IS ABLE to cast certain spell"
 L["options:general:show-cd-on-allies"] = "Show cooldowns on nameplates of allies"
+L["options:general:show-cooldown-animation"] = "Enable cooldown animation"
+L["options:general:show-cooldown-animation:tooltip"] = "Enables spin animation on cooldown icons"
 L["options:general:show-cooldown-tooltip"] = "Show cooldown tooltip"
 L["options:general:show-inactive-cd"] = "Show inactive cooldowns"
 L["options:general:show-inactive-cd:tooltip"] = [=[Pay attention: you will NOT be able to see all available cooldowns!
@@ -214,4 +216,6 @@ L["options:general:test-mode"] = "Test mode"
 L["options:profiles"] = "Profiles"
 L["options:general:inverse-logic"] = "Inverse logic"
 L["options:general:inverse-logic:tooltip"] = "Display icon if player IS ABLE to cast certain spell"
+L["options:general:show-cooldown-animation"] = "Enable cooldown animation"
+L["options:general:show-cooldown-animation:tooltip"] = "Enables spin animation on cooldown icons"
 --@end-debug@]==]

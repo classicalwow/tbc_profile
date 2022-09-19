@@ -114,6 +114,10 @@ L["options:general:inverse-logic:tooltip"] = "Display icon if player IS ABLE to 
 --[[Translation missing --]]
 L["options:general:show-cd-on-allies"] = "Show cooldowns on nameplates of allies"
 --[[Translation missing --]]
+L["options:general:show-cooldown-animation"] = "Enable cooldown animation"
+--[[Translation missing --]]
+L["options:general:show-cooldown-animation:tooltip"] = "Enables spin animation on cooldown icons"
+--[[Translation missing --]]
 L["options:general:show-cooldown-tooltip"] = "Show cooldown tooltip"
 --[[Translation missing --]]
 L["options:general:show-inactive-cd"] = "Show inactive cooldowns"

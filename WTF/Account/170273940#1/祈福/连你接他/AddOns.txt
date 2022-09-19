@@ -76,8 +76,8 @@ GTFO: disabled
 Guidelime: disabled
 Guidelime_ShikuTW: disabled
 GuideLime_TUGs_TBC: disabled
-ItemRack: enabled
-ItemRackOptions: enabled
+ItemRack: disabled
+ItemRackOptions: disabled
 Leatrix_Maps: disabled
 LFGBulletinBoard: disabled
 LoonBestInSlot: disabled
@@ -171,3 +171,4 @@ ElvUI_DTBars2: disabled
 ElvUI_QuestXP: disabled
 ElvUI_CustomTags: disabled
 kExtraBossFrames: disabled
+FFLU: disabled

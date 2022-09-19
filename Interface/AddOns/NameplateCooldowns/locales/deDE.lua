@@ -69,6 +69,10 @@ L["options:general:inverse-logic"] = "Inverse logic"
 --[[Translation missing --]]
 L["options:general:inverse-logic:tooltip"] = "Display icon if player IS ABLE to cast certain spell"
 L["options:general:show-cd-on-allies"] = "Abklingzeiten auf Namensplaketten von Verbündeten anzeigen"
+--[[Translation missing --]]
+L["options:general:show-cooldown-animation"] = "Enable cooldown animation"
+--[[Translation missing --]]
+L["options:general:show-cooldown-animation:tooltip"] = "Enables spin animation on cooldown icons"
 L["options:general:show-cooldown-tooltip"] = "Abklingzeittooltip anzeigen"
 L["options:general:show-inactive-cd"] = "Inaktive Abklingzeiten anzeigen"
 L["options:general:show-inactive-cd:tooltip"] = [=[Beachte: Du wirst NICHT all verfügbaren Abklingzauber sehen!

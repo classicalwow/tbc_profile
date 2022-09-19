@@ -1,8 +1,8 @@
-## Interface: 20501
-## Title: NameplateCooldowns [TBC]
+## Interface: 30400
+## Title: NameplateCooldowns [WotLK]
 ## Notes: Shows the cooldowns of enemy players above their nameplates
 ## SavedVariables: NameplateCooldownsAceDB
-## Version: 20501.12-release
+## Version: 30400.1-release
 ## X-Curse-Project-ID: 66866
 ## X-Wago-ID: 0mNwjlGo
 

@@ -6,8 +6,8 @@ TomTomDB = {
 		["张坤 - 祈福"] = "Default",
 		["查尔斯三世 - 祈福"] = "Default",
 		["码农巴菲特 - 祈福"] = "Default",
-		["新特能源 - 祈福"] = "Default",
 		["Vscode - 加丁"] = "Default",
+		["新特能源 - 祈福"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -16,8 +16,8 @@ TomTomDB = {
 					"BOTTOM", -- [1]
 					nil, -- [2]
 					"BOTTOM", -- [3]
-					21.11112213134766, -- [4]
-					231.7778015136719, -- [5]
+					9.999855041503906, -- [4]
+					276.2223510742188, -- [5]
 				},
 			},
 			["block"] = {
@@ -40,8 +40,8 @@ TomTomWaypointsM = {
 		["张坤 - 祈福"] = "张坤 - 祈福",
 		["查尔斯三世 - 祈福"] = "查尔斯三世 - 祈福",
 		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
-		["新特能源 - 祈福"] = "新特能源 - 祈福",
 		["Vscode - 加丁"] = "Vscode - 加丁",
+		["新特能源 - 祈福"] = "新特能源 - 祈福",
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
@@ -61,9 +61,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -86,9 +86,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -113,9 +113,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -126,12 +126,43 @@ TomTomWaypointsM = {
 		["张坤 - 祈福"] = {
 		},
 		["查尔斯三世 - 祈福"] = {
+			[1944] = {
+				["1944:511002444.98778:602933985.33007:达姆菲"] = {
+					1944, -- [1]
+					0.511002444987775, -- [2]
+					0.6029339853300734, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "达姆菲",
+					["from"] = "Questie",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["world"] = true,
+				},
+			},
 		},
 		["码农巴菲特 - 祈福"] = {
 		},
-		["新特能源 - 祈福"] = {
-		},
 		["Vscode - 加丁"] = {
+		},
+		["新特能源 - 祈福"] = {
 		},
 	},
 }

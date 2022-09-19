@@ -69,6 +69,10 @@ L["options:general:inverse-logic"] = "Inverse logic"
 L["options:general:inverse-logic:tooltip"] = "Display icon if player IS ABLE to cast certain spell"
 L["options:general:show-cd-on-allies"] = "Показывать КД на полосках ХП союзников"
 --[[Translation missing --]]
+L["options:general:show-cooldown-animation"] = "Enable cooldown animation"
+--[[Translation missing --]]
+L["options:general:show-cooldown-animation:tooltip"] = "Enables spin animation on cooldown icons"
+--[[Translation missing --]]
 L["options:general:show-cooldown-tooltip"] = "Show cooldown tooltip"
 L["options:general:show-inactive-cd"] = "Показывать неактивные кулдауны"
 L["options:general:show-inactive-cd:tooltip"] = [=[Обратите внимание: вы не будете видеть все доступные кулдауны!

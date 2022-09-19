@@ -4,7 +4,7 @@
 -- luacheck: globals unpack InCombatLockdown ColorPickerFrame BackdropTemplateMixin UIDropDownMenu_SetWidth UIDropDownMenu_AddButton GameFontNormal
 -- luacheck: globals InterfaceOptionsFrame_OpenToCategory GetSpellInfo GameFontHighlightSmall hooksecurefunc ALL GameTooltip FillLocalizedClassList
 -- luacheck: globals OTHER PlaySound SOUNDKIT COMBATLOG_OBJECT_REACTION_HOSTILE CombatLogGetCurrentEventInfo IsInInstance strsplit UnitName GetRealmName
--- luacheck: globals UnitReaction
+-- luacheck: globals UnitReaction UnitAura
 
 local _, addonTable = ...;
 local Interrupts = addonTable.Interrupts;
@@ -12,7 +12,7 @@ local Trinkets = addonTable.Trinkets;
 local Reductions = addonTable.Reductions;
 
 --@non-debug@
-local buildTimestamp = "20501.12-release";
+local buildTimestamp = "30400.1-release";
 --@end-non-debug@
 
 -- Libraries
@@ -28,6 +28,7 @@ end
 -- Consts
 local SPELL_PVPADAPTATION, SPELL_PVPTRINKET, ICON_GROW_DIRECTION_RIGHT, ICON_GROW_DIRECTION_LEFT, ICON_GROW_DIRECTION_UP, ICON_GROW_DIRECTION_DOWN, SORT_MODE_NONE;
 local SORT_MODE_TRINKET_INTERRUPT_OTHER, SORT_MODE_INTERRUPT_TRINKET_OTHER, SORT_MODE_TRINKET_OTHER, SORT_MODE_INTERRUPT_OTHER, GLOW_TIME_INFINITE, INSTANCE_TYPE_UNKNOWN;
+local HUNTER_FEIGN_DEATH;
 do
 	SPELL_PVPADAPTATION, SPELL_PVPTRINKET = addonTable.SPELL_PVPADAPTATION, addonTable.SPELL_PVPTRINKET;
 	ICON_GROW_DIRECTION_RIGHT, ICON_GROW_DIRECTION_LEFT, ICON_GROW_DIRECTION_UP, ICON_GROW_DIRECTION_DOWN =
@@ -36,6 +37,7 @@ do
 		addonTable.SORT_MODE_NONE, addonTable.SORT_MODE_TRINKET_INTERRUPT_OTHER, addonTable.SORT_MODE_INTERRUPT_TRINKET_OTHER, addonTable.SORT_MODE_TRINKET_OTHER, addonTable.SORT_MODE_INTERRUPT_OTHER;
 	GLOW_TIME_INFINITE = addonTable.GLOW_TIME_INFINITE;
 	INSTANCE_TYPE_UNKNOWN = addonTable.INSTANCE_TYPE_UNKNOWN;
+	HUNTER_FEIGN_DEATH = addonTable.HUNTER_FEIGN_DEATH;
 end
 
 -- Utilities
@@ -52,10 +54,11 @@ local NameplatesVisible = {};
 local InstanceType = "none";
 local AllCooldowns = { };
 local GUIFrame, EventFrame, TestFrame, db, aceDB, ProfileOptionsFrame, LocalPlayerGUID;
+local FeignDeathGUIDs = {};
 
 local _G, pairs, UIParent, string_gsub, string_find, bit_band, GetTime, math_ceil, table_insert, table_sort, C_Timer_After, string_format, C_Timer_NewTimer, math_max, C_NamePlate_GetNamePlateForUnit, UnitGUID =
 	  _G, pairs, UIParent, string.gsub,	string.find, bit.band, GetTime, math.ceil, table.insert, table.sort, C_Timer.After, string.format, C_Timer.NewTimer, math.max, C_NamePlate.GetNamePlateForUnit, UnitGUID;
-local wipe, IsInGroup, unpack, tinsert, GetSpellInfo, UnitReaction = wipe, IsInGroup, unpack, table.insert, GetSpellInfo, UnitReaction;
+local wipe, IsInGroup, unpack, tinsert, GetSpellInfo, UnitReaction, UnitAura = wipe, IsInGroup, unpack, table.insert, GetSpellInfo, UnitReaction, UnitAura;
 
 local OnStartup, InitializeDB, GetDefaultDBEntryForSpell;
 local AllocateIcon, ReallocateAllIcons, UpdateOnlyOneNameplate, HideCDIcon, ShowCDIcon;
@@ -98,11 +101,9 @@ do
 		db = aceDB.profile;
 		if (db.AddonEnabled) then
 			EventFrame:UnregisterEvent("COMBAT_LOG_EVENT_UNFILTERED");
-			EventFrame:UnregisterEvent("UNIT_SPELLCAST_SUCCEEDED");
 			wipe(SpellsPerPlayerGUID);
 		else
 			EventFrame:RegisterEvent("COMBAT_LOG_EVENT_UNFILTERED");
-			EventFrame:RegisterEvent("UNIT_SPELLCAST_SUCCEEDED");
 		end
 		if (TestFrame and TestFrame:GetScript("OnUpdate") ~= nil) then
 			addonTable.DisableTestMode();
@@ -162,6 +163,7 @@ do
 				IgnoreNameplateScale = false,
 				ShowCooldownTooltip = false,
 				InverseLogic = false,
+				ShowCooldownAnimation = false,
 			},
 		};
 		aceDB = LibStub("AceDB-3.0"):New("NameplateCooldownsAceDB", aceDBDefaults);
@@ -217,7 +219,6 @@ do
 		-- // starting listening for events
 		if (db.AddonEnabled) then
 			EventFrame:RegisterEvent("COMBAT_LOG_EVENT_UNFILTERED");
-			EventFrame:RegisterEvent("UNIT_SPELLCAST_SUCCEEDED");
 		else
 			addonTable.Print(L["chat:addon-is-disabled-note"]);
 		end
@@ -227,6 +228,7 @@ do
 		end
 		EventFrame:RegisterEvent("NAME_PLATE_UNIT_ADDED");
 		EventFrame:RegisterEvent("NAME_PLATE_UNIT_REMOVED");
+		EventFrame:RegisterEvent("UNIT_AURA");
 		SLASH_NAMEPLATECOOLDOWNS1 = '/nc';
 		SlashCmdList["NAMEPLATECOOLDOWNS"] = function(msg)
 			if (msg == "t" or msg == "ver") then
@@ -344,6 +346,13 @@ do
 		icon:SetHeight(db.IconSize);
 		AllocateIcon_SetIconPlace(frame, icon);
 		icon:Hide();
+
+		icon.cooldownFrame = CreateFrame("Cooldown", nil, icon, "CooldownFrameTemplate");
+		icon.cooldownFrame:SetAllPoints(icon);
+		icon.cooldownFrame:SetReverse(true);
+		icon.cooldownFrame:SetHideCountdownNumbers(true);
+		icon.cooldownFrame.noCooldownCount = true; -- refuse OmniCC
+
 		icon.texture = icon:CreateTexture(nil, "BORDER");
 		icon.texture:SetAllPoints(icon);
 		if (not db.ShowOldBlizzardBorderAroundIcons) then
@@ -545,21 +554,33 @@ do
 		end
 	end
 
-	local function Nameplate_SetCooldown(icon, remain, isActive)
-		if (isActive) then
-			local text;
-			if (db.InverseLogic) then
-				text = "";
-			else
-				text = (remain >= 60) and (math_ceil(remain/60).."m") or math_ceil(remain);
-			end
+	local function Nameplate_SetCooldown(icon, remain, started, cooldownLength, isActive)
+		if (remain > 0 and (isActive or db.InverseLogic)) then
+			local text = (remain >= 60) and (math_ceil(remain/60).."m") or math_ceil(remain);
 			if (icon.text ~= text) then
 				icon.cooldownText:SetText(text);
 				icon.text = text;
+				if (not db.ShowCooldownAnimation or not isActive or db.InverseLogic) then
+					icon.cooldownText:SetParent(icon);
+				else
+					icon.cooldownText:SetParent(icon.cooldownFrame);
+				end
 			end
 		elseif (icon.text ~= "") then
 			icon.cooldownText:SetText("");
 			icon.text = "";
+		end
+
+		-- cooldown animation
+		if (db.ShowCooldownAnimation and isActive and not db.InverseLogic) then
+			if (started ~= icon.cooldownStarted or cooldownLength ~= icon.cooldownLength) then
+				icon.cooldownFrame:SetCooldown(started, cooldownLength);
+				icon.cooldownFrame:Show();
+				icon.cooldownStarted = started;
+				icon.cooldownLength = cooldownLength;
+			end
+		else
+			icon.cooldownFrame:Hide();
 		end
 	end
 
@@ -596,7 +617,8 @@ do
 						UpdateOnlyOneNameplate_SetTexture(icon, spellInfo.texture, isActiveCD);
 						local remain = spellInfo.expires - currentTime;
 						UpdateNameplate_SetGlow(icon, dbInfo.glow, remain, isActiveCD);
-						Nameplate_SetCooldown(icon, remain, isActiveCD);
+						local cooldown = AllCooldowns[spellID];
+						Nameplate_SetCooldown(icon, remain, spellInfo.started, cooldown, isActiveCD);
 						Nameplate_SetBorder(icon, spellID, isActiveCD);
 						SetCooldownTooltip(icon, spellID);
 						if (not icon.shown) then
@@ -656,21 +678,21 @@ do
 	local _spellCDs;
 	local _spellIDs = {
 		[2139] 		= 24,
-		[28730] 	= 45,
-		[100] 		= 17,
+		[108194] 	= 45,
+		[100] 		= -17,
 	};
 
 	local function refreshCDs()
 		local cTime = GetTime();
 		for _, unitGUID in pairs(NameplatesVisible) do
 			if (not SpellsPerPlayerGUID[unitGUID]) then SpellsPerPlayerGUID[unitGUID] = { }; end
-			SpellsPerPlayerGUID[unitGUID][SPELL_PVPTRINKET] = { ["spellID"] = SPELL_PVPTRINKET, ["expires"] = cTime + 120, ["texture"] = SpellTextureByID[SPELL_PVPTRINKET] }; -- // 2m test
+			SpellsPerPlayerGUID[unitGUID][SPELL_PVPTRINKET] = { ["spellID"] = SPELL_PVPTRINKET, ["expires"] = cTime + 120, ["texture"] = SpellTextureByID[SPELL_PVPTRINKET], ["started"] = cTime }; -- // 2m test
 			for spellID, cd in pairs(_spellIDs) do
 				if (not SpellsPerPlayerGUID[unitGUID][spellID]) then
-					SpellsPerPlayerGUID[unitGUID][spellID] = { ["spellID"] = spellID, ["expires"] = cTime + cd, ["texture"] = SpellTextureByID[spellID] };
+					SpellsPerPlayerGUID[unitGUID][spellID] = { ["spellID"] = spellID, ["expires"] = cTime + cd, ["texture"] = SpellTextureByID[spellID], ["started"] = cTime };
 				else
 					if (cTime - SpellsPerPlayerGUID[unitGUID][spellID]["expires"] > 0) then
-						SpellsPerPlayerGUID[unitGUID][spellID] = { ["spellID"] = spellID, ["expires"] = cTime + cd, ["texture"] = SpellTextureByID[spellID] };
+						SpellsPerPlayerGUID[unitGUID][spellID] = { ["spellID"] = spellID, ["expires"] = cTime + cd, ["texture"] = SpellTextureByID[spellID], ["started"] = cTime };
 					end
 				end
 			end
@@ -1306,7 +1328,7 @@ do
 
 	function InitializeGUI()
 		GUIFrame = CreateFrame("Frame", "NC_GUIFrame", UIParent, BackdropTemplateMixin and "BackdropTemplate");
-		GUIFrame:SetHeight(540);
+		GUIFrame:SetHeight(560);
 		GUIFrame:SetWidth(540);
 		GUIFrame:SetPoint("CENTER", UIParent, "CENTER", 0, 80);
 		GUIFrame:SetBackdrop({
@@ -1827,6 +1849,22 @@ do
 			table_insert(GUIFrame.OnDBChangedHandlers, function() checkboxInverseLogic:SetChecked(db.InverseLogic); end);
 		end
 
+		local checkboxCooldown;
+		do
+			checkboxCooldown = LRD.CreateCheckBox();
+			checkboxCooldown:SetText(L["options:general:show-cooldown-animation"]);
+			LRD.SetTooltip(checkboxCooldown, L["options:general:show-cooldown-animation:tooltip"]);
+			checkboxCooldown:SetOnClickHandler(function(this)
+				db.ShowCooldownAnimation = this:GetChecked();
+				OnUpdate();
+			end);
+			checkboxCooldown:SetChecked(db.ShowCooldownAnimation);
+			checkboxCooldown:SetParent(GUIFrame.outline);
+			checkboxCooldown:SetPoint("TOPLEFT", checkboxInverseLogic, "BOTTOMLEFT", 0, 0);
+			table_insert(GUIFrame.Categories[index], checkboxCooldown);
+			table_insert(GUIFrame.OnDBChangedHandlers, function() checkboxCooldown:SetChecked(db.ShowCooldownAnimation); end);
+		end
+
 	end
 
 	function GUICategory_Other(index)
@@ -2064,13 +2102,7 @@ do
 					end
 				end
 			end
-			table_sort(t, function(item1, item2)
-				if (item1.text == item2.text) then
-					return item1.info < item2.info;
-				else
-					return item1.text < item2.text;
-				end
-			end);
+			table_sort(t, function(item1, item2) return item1.text < item2.text; end);
 			return t;
 		end
 
@@ -2396,7 +2428,7 @@ do
 				if (eventType == "SPELL_CAST_SUCCESS" or eventType == "SPELL_AURA_APPLIED" or eventType == "SPELL_MISSED" or eventType == "SPELL_SUMMON") then
 					if (not SpellsPerPlayerGUID[srcGUID]) then SpellsPerPlayerGUID[srcGUID] = { }; end
 					local expires = cTime + cooldown;
-					SpellsPerPlayerGUID[srcGUID][spellID] = { ["spellID"] = spellID, ["expires"] = expires, ["texture"] = SpellTextureByID[spellID] };
+					SpellsPerPlayerGUID[srcGUID][spellID] = { ["spellID"] = spellID, ["expires"] = expires, ["texture"] = SpellTextureByID[spellID], ["started"] = cTime };
 					for frame, unitGUID in pairs(NameplatesVisible) do
 						if (unitGUID == srcGUID) then
 							UpdateOnlyOneNameplate(frame, unitGUID);
@@ -2423,7 +2455,7 @@ do
 			-- // pvptier 1/2 used, correcting cd of PvP trinket
 			elseif (spellID == SPELL_PVPADAPTATION and db.SpellCDs[SPELL_PVPTRINKET] ~= nil and db.SpellCDs[SPELL_PVPTRINKET].enabled and eventType == "SPELL_AURA_APPLIED") then
 				if (SpellsPerPlayerGUID[srcGUID]) then
-					SpellsPerPlayerGUID[srcGUID][SPELL_PVPTRINKET] = { ["spellID"] = SPELL_PVPTRINKET, ["expires"] = cTime + 60, ["texture"] = SpellTextureByID[SPELL_PVPTRINKET] };
+					SpellsPerPlayerGUID[srcGUID][SPELL_PVPTRINKET] = { ["spellID"] = SPELL_PVPTRINKET, ["expires"] = cTime + 60, ["texture"] = SpellTextureByID[SPELL_PVPTRINKET], ["started"] = cTime };
 					for frame, unitGUID in pairs(NameplatesVisible) do
 						if (unitGUID == srcGUID) then
 							UpdateOnlyOneNameplate(frame, unitGUID);
@@ -2435,24 +2467,38 @@ do
 		end
 	end
 
-	EventFrame.UNIT_SPELLCAST_SUCCEEDED = function(unitId, _, spellId)
-		if (addonTable.Trinkets[spellId]) then
-			local unitIsFriend = (UnitReaction("player", unitId) or 0) > 4; -- 4 = neutral
-			if (not unitIsFriend or (db.ShowCDOnAllies == true and UnitGUID(unitId) ~= LocalPlayerGUID)) then
-				local entry = db.SpellCDs[spellId];
-				local cooldown = AllCooldowns[spellId];
-				if (cooldown ~= nil and entry and entry.enabled) then
+	EventFrame.UNIT_AURA = function(_unitID)
+		local feignDeath = db.SpellCDs[HUNTER_FEIGN_DEATH];
+		local cooldown = AllCooldowns[HUNTER_FEIGN_DEATH];
+		if (cooldown ~= nil and feignDeath and feignDeath.enabled) then
+			local unitIsFriend = (UnitReaction("player", _unitID) or 0) > 4; -- 4 = neutral
+			local unitGUID = UnitGUID(_unitID);
+			if (not unitIsFriend or (db.ShowCDOnAllies == true and unitGUID ~= LocalPlayerGUID)) then
+				local feignDeathFound = false;
+				for auraIndex = 1, 40 do
+					local spellName, _, _, _, _, _, _, _, _, spellId = UnitAura(_unitID, auraIndex);
+					if (spellName == nil) then
+						break;
+					end
+					if (spellId == HUNTER_FEIGN_DEATH) then
+						feignDeathFound = true;
+						break;
+					end
+				end
+				if (FeignDeathGUIDs[unitGUID] and not feignDeathFound) then
 					local cTime = GetTime();
-					local srcGuid = UnitGUID(unitId);
-					if (not SpellsPerPlayerGUID[srcGuid]) then SpellsPerPlayerGUID[srcGuid] = { }; end
+					if (not SpellsPerPlayerGUID[unitGUID]) then SpellsPerPlayerGUID[unitGUID] = { }; end
 					local expires = cTime + cooldown;
-					SpellsPerPlayerGUID[srcGuid][spellId] = { ["spellID"] = spellId, ["expires"] = expires, ["texture"] = SpellTextureByID[spellId] };
-					for frame, unitGUID in pairs(NameplatesVisible) do
-						if (unitGUID == srcGuid) then
+					SpellsPerPlayerGUID[unitGUID][HUNTER_FEIGN_DEATH] = { ["spellID"] = HUNTER_FEIGN_DEATH, ["expires"] = expires, ["texture"] = SpellTextureByID[HUNTER_FEIGN_DEATH], ["started"] = cTime };
+					for frame, plateUnitGUID in pairs(NameplatesVisible) do
+						if (unitGUID == plateUnitGUID) then
 							UpdateOnlyOneNameplate(frame, unitGUID);
 							break;
 						end
 					end
+					FeignDeathGUIDs[unitGUID] = nil;
+				elseif (not FeignDeathGUIDs[unitGUID] and feignDeathFound) then
+					FeignDeathGUIDs[unitGUID] = true;
 				end
 			end
 		end

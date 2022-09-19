@@ -8372,5 +8372,286 @@ MailLoggerDB = {
 			["ReceiveItems"] = {
 			},
 		}, -- [352]
+		{
+			["TargetName"] = "春哥八三",
+			["Date"] = "2022-09-18",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "塔纳利斯",
+			["PlayerName"] = "查尔斯三世",
+			["Time"] = "00:23:22",
+			["ReceiveItems"] = {
+			},
+		}, -- [353]
+		{
+			["TargetName"] = "春哥八三",
+			["PlayerName"] = "查尔斯三世",
+			["Date"] = "2022-09-18",
+			["ReceiveMoney"] = 0,
+			["Time"] = "00:23:22",
+			["GiveMoney"] = 50000,
+			["Location"] = "塔纳利斯",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [354]
+		{
+			["TargetName"] = "春哥八三",
+			["Date"] = "2022-09-18",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "塔纳利斯",
+			["PlayerName"] = "查尔斯三世",
+			["Time"] = "01:12:30",
+			["ReceiveItems"] = {
+			},
+		}, -- [355]
+		{
+			["TargetName"] = "春哥八三",
+			["PlayerName"] = "查尔斯三世",
+			["Date"] = "2022-09-18",
+			["ReceiveMoney"] = 0,
+			["Time"] = "01:12:30",
+			["GiveMoney"] = 50000,
+			["Location"] = "塔纳利斯",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [356]
+		{
+			["TargetName"] = "春哥六三",
+			["Date"] = "2022-09-18",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "沙塔斯城",
+			["PlayerName"] = "查尔斯三世",
+			["Time"] = "02:55:10",
+			["ReceiveItems"] = {
+			},
+		}, -- [357]
+		{
+			["TargetName"] = "春哥六三",
+			["PlayerName"] = "查尔斯三世",
+			["Date"] = "2022-09-18",
+			["ReceiveMoney"] = 0,
+			["Time"] = "02:55:10",
+			["GiveMoney"] = 50000,
+			["Location"] = "沙塔斯城",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [358]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "查尔斯三世",
+			["Date"] = "2022-09-18",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 100,
+					["ItemLink"] = "|cffffffff|Hitem:4338::::::::48:::::::::|h[魔纹布]|h|r",
+					["Name"] = "魔纹布",
+				}, -- [1]
+				[6] = {
+					["Number"] = 44,
+					["ItemLink"] = "|cffffffff|Hitem:4306::::::::48:::::::::|h[丝绸]|h|r",
+					["Name"] = "丝绸",
+				},
+				[9] = {
+					["Number"] = 4,
+					["ItemLink"] = "|cffffffff|Hitem:3827::::::::48:::::::::|h[法力药水]|h|r",
+					["Name"] = "法力药水",
+				},
+				[10] = {
+					["Number"] = 23,
+					["ItemLink"] = "|cffffffff|Hitem:858::::::::48:::::::::|h[次级治疗药水]|h|r",
+					["Name"] = "次级治疗药水",
+				},
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "辛特兰",
+			["Time"] = "10:54:41",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [359]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "查尔斯三世",
+			["Date"] = "2022-09-18",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff1eff00|Hitem:7909::::::::48:::::::::|h[青绿石]|h|r",
+					["Name"] = "青绿石",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff1eff00|Hitem:7910::::::::48:::::::::|h[红宝石]|h|r",
+					["Name"] = "红宝石",
+				}, -- [2]
+				{
+					["Number"] = 18,
+					["ItemLink"] = "|cffffffff|Hitem:7973::::::::48:::::::::|h[巨型蚌壳]|h|r",
+					["Name"] = "巨型蚌壳",
+				}, -- [3]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "辛特兰",
+			["Time"] = "10:54:51",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [360]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "查尔斯三世",
+			["Date"] = "2022-09-18",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 53,
+					["ItemLink"] = "|cffffffff|Hitem:4338::::::::51:::::::::|h[魔纹布]|h|r",
+					["Name"] = "魔纹布",
+				}, -- [1]
+				[4] = {
+					["Number"] = 2,
+					["ItemLink"] = "|cffffffff|Hitem:4306::::::::51:::::::::|h[丝绸]|h|r",
+					["Name"] = "丝绸",
+				},
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "暴风城",
+			["Time"] = "14:17:31",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [361]
+		{
+			["PlayerName"] = "查尔斯三世",
+			["TargetName"] = "联盟拍卖行",
+			["Reason"] = 1,
+			["Date"] = "2022-09-18",
+			["ReceiveMoney"] = 0,
+			["Time"] = "14:17:33",
+			["GiveMoney"] = 0,
+			["Location"] = "暴风城",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:10561::::::::51:::::::::|h[秘银外壳]|h|r",
+					["Name"] = "秘银外壳",
+				}, -- [1]
+			},
+		}, -- [362]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "查尔斯三世",
+			["Date"] = "2022-09-18",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 55,
+					["ItemLink"] = "|cffffffff|Hitem:4338::::::::53:::::::::|h[魔纹布]|h|r",
+					["Name"] = "魔纹布",
+				}, -- [1]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "塔纳利斯",
+			["Time"] = "15:57:05",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [363]
+		{
+			["PlayerName"] = "查尔斯三世",
+			["TargetName"] = "联盟拍卖行",
+			["Reason"] = 2,
+			["Date"] = "2022-09-18",
+			["ReceiveMoney"] = 0,
+			["Time"] = "17:46:59",
+			["GiveMoney"] = 0,
+			["Location"] = "达纳苏斯",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:50045::::::::56:::::::::|h[永恒之水雕文]|h|r",
+					["Name"] = "永恒之水雕文",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:43339::::::::56:::::::::|h[奥术智慧雕文]|h|r",
+					["Name"] = "奥术智慧雕文",
+				}, -- [2]
+			},
+		}, -- [364]
+		{
+			["PlayerName"] = "查尔斯三世",
+			["TargetName"] = "联盟拍卖行",
+			["Reason"] = 2,
+			["Date"] = "2022-09-18",
+			["ReceiveMoney"] = 0,
+			["Time"] = "19:35:21",
+			["GiveMoney"] = 0,
+			["Location"] = "暴风城",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 20,
+					["ItemLink"] = "|cffffffff|Hitem:33093::::::::58:::::::::|h[法力药水注射器]|h|r",
+					["Name"] = "法力药水注射器",
+				}, -- [1]
+				{
+					["Number"] = 20,
+					["ItemLink"] = "|cffffffff|Hitem:33092::::::::58:::::::::|h[治疗药水注射器]|h|r",
+					["Name"] = "治疗药水注射器",
+				}, -- [2]
+			},
+		}, -- [365]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "查尔斯三世",
+			["Date"] = "2022-09-18",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 36,
+					["ItemLink"] = "|cffffffff|Hitem:4338::::::::58:::::::::|h[魔纹布]|h|r",
+					["Name"] = "魔纹布",
+				}, -- [1]
+				[3] = {
+					["Number"] = 30,
+					["ItemLink"] = "|cffffffff|Hitem:14047::::::::58:::::::::|h[符文布]|h|r",
+					["Name"] = "符文布",
+				},
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "暴风城",
+			["Time"] = "19:35:34",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [366]
 	},
 }

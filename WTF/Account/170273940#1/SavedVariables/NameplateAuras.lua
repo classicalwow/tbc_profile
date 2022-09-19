@@ -1,15 +1,1883 @@
 
 NameplateAurasAceDB = {
 	["profileKeys"] = {
+		["佰鳥朝鳳 - 祈福"] = "佰鳥朝鳳 - 祈福",
 		["别看不起农民 - 祈福"] = "别看不起农民 - 祈福",
 	},
 	["profiles"] = {
-		["别看不起农民 - 祈福"] = {
+		["佰鳥朝鳳 - 祈福"] = {
 			["HidePlayerBlizzardFrame"] = true,
-			["DBVersion"] = 19,
+			["DBVersion"] = 21,
 			["IconAnchor"] = 3,
-			["DefaultSpellsLastSetImported"] = 2,
+			["DefaultSpellsLastSetImported"] = 3,
 			["InterruptsGlowType"] = 1,
+			["CustomSpells2"] = {
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "盾墙",
+				}, -- [1]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "复仇者之盾",
+				}, -- [2]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "铜墙铁壁",
+				}, -- [3]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "寒冰屏障",
+				}, -- [4]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "痛苦压制",
+				}, -- [5]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "激活",
+				}, -- [6]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "变形术",
+				}, -- [7]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "战歌军旗",
+				}, -- [8]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "生存本能",
+				}, -- [9]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "忏悔",
+				}, -- [10]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "虚空风暴旗帜",
+				}, -- [11]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "肾击",
+				}, -- [12]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "致盲",
+				}, -- [13]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "牺牲咆哮",
+				}, -- [14]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "龙息术",
+				}, -- [15]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "猛击",
+				}, -- [16]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "反魔法护罩",
+				}, -- [17]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "挫志咆哮",
+				}, -- [18]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "树皮术",
+				}, -- [19]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "恐惧嚎叫",
+				}, -- [20]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "冰冷血脉",
+				}, -- [21]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "闷棍",
+				}, -- [22]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "暗影之怒",
+				}, -- [23]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "光环掌握",
+				}, -- [24]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "法术反射",
+				}, -- [25]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "撕扯",
+				}, -- [26]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "死亡缠绕",
+				}, -- [27]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "偷袭",
+				}, -- [28]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "翼龙钉刺",
+				}, -- [29]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "消散",
+				}, -- [30]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "束缚亡灵",
+				}, -- [31]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "恐惧",
+				}, -- [32]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "妖术",
+				}, -- [33]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "闪避",
+				}, -- [34]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "跳跃",
+				}, -- [35]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "凿击",
+				}, -- [36]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "锁喉沉默",
+				}, -- [37]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "银翼军旗",
+				}, -- [38]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "威慑",
+				}, -- [39]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "主人的召唤",
+				}, -- [40]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "杀戮盛筵",
+				}, -- [41]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "能量灌注",
+				}, -- [42]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "大地之握",
+				}, -- [43]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "自由之手",
+				}, -- [44]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "破胆怒吼",
+				}, -- [45]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "掠食者的迅捷",
+				}, -- [46]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "急速射击",
+				}, -- [47]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "冰冻陷阱效果",
+				}, -- [48]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "鲁莽",
+				}, -- [49]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "神启",
+				}, -- [50]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "心灵尖啸",
+				}, -- [51]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "痛苦无常",
+				}, -- [52]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "保护之手",
+				}, -- [53]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "纠缠根须",
+				}, -- [54]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "精神控制",
+				}, -- [55]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "诱惑",
+				}, -- [56]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "圣盾术",
+				}, -- [57]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "奥术强化",
+				}, -- [58]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "绞袭",
+				}, -- [59]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "炽热防御者",
+				}, -- [60]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "旋风",
+				}, -- [61]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "沉默",
+				}, -- [62]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "狂暴之怒",
+				}, -- [63]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "利刃风暴",
+				}, -- [64]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "冲动",
+				}, -- [65]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "吸血鬼的拥抱",
+				}, -- [66]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "制裁之锤",
+				}, -- [67]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "暗影斗篷",
+				}, -- [68]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "冰冻术",
+				}, -- [69]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "冲锋击昏",
+				}, -- [70]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "根基图腾效果",
+				}, -- [71]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "驱散射击",
+				}, -- [72]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "元素掌握",
+				}, -- [73]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "割碎",
+				}, -- [74]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "放逐术",
+				}, -- [75]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "嗜血",
+				}, -- [76]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "冰封之韧",
+				}, -- [77]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "冰霜新星",
+				}, -- [78]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "守护之魂",
+				}, -- [79]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 3,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "牺牲之手",
+				}, -- [80]
+				{
+					["iconSizeHeight"] = 45,
+					["customBorderColor"] = {
+						1, -- [1]
+						0.1, -- [2]
+						0.1, -- [3]
+						1, -- [4]
+					},
+					["enabledState"] = 2,
+					["auraType"] = 1,
+					["showOnEnemies"] = true,
+					["animationDisplayMode"] = 1,
+					["showOnFriends"] = true,
+					["customBorderType"] = 3,
+					["customBorderSize"] = 2,
+					["animationTimer"] = 10,
+					["animationType"] = 2,
+					["iconSizeWidth"] = 45,
+					["glowType"] = 3,
+					["playerNpcMode"] = 1,
+					["customBorderPath"] = "",
+					["spellName"] = "装死",
+				}, -- [81]
+			},
+		},
+		["别看不起农民 - 祈福"] = {
 			["CustomSpells2"] = {
 				{
 					["enabledState"] = 2,
@@ -17,12 +1885,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "盾墙",
 				}, -- [1]
 				{
@@ -31,12 +1899,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "复仇者之盾",
 				}, -- [2]
 				{
@@ -45,12 +1913,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "寒冰屏障",
 				}, -- [3]
 				{
@@ -59,12 +1927,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "痛苦压制",
 				}, -- [4]
 				{
@@ -73,12 +1941,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "激活",
 				}, -- [5]
 				{
@@ -87,12 +1955,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "变形术",
 				}, -- [6]
 				{
@@ -101,12 +1969,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "战歌军旗",
 				}, -- [7]
 				{
@@ -115,12 +1983,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "忏悔",
 				}, -- [8]
 				{
@@ -129,12 +1997,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "虚空风暴旗帜",
 				}, -- [9]
 				{
@@ -143,12 +2011,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "肾击",
 				}, -- [10]
 				{
@@ -157,12 +2025,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "致盲",
 				}, -- [11]
 				{
@@ -171,12 +2039,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "龙息术",
 				}, -- [12]
 				{
@@ -185,12 +2053,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "猛击",
 				}, -- [13]
 				{
@@ -199,12 +2067,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "挫志咆哮",
 				}, -- [14]
 				{
@@ -213,12 +2081,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "树皮术",
 				}, -- [15]
 				{
@@ -227,12 +2095,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "恐惧嚎叫",
 				}, -- [16]
 				{
@@ -241,12 +2109,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "冰冷血脉",
 				}, -- [17]
 				{
@@ -255,12 +2123,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "闷棍",
 				}, -- [18]
 				{
@@ -269,12 +2137,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "暗影之怒",
 				}, -- [19]
 				{
@@ -283,12 +2151,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "光环掌握",
 				}, -- [20]
 				{
@@ -297,12 +2165,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "法术反射",
 				}, -- [21]
 				{
@@ -311,12 +2179,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "死亡缠绕",
 				}, -- [22]
 				{
@@ -325,12 +2193,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "偷袭",
 				}, -- [23]
 				{
@@ -339,12 +2207,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "翼龙钉刺",
 				}, -- [24]
 				{
@@ -353,12 +2221,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "束缚亡灵",
 				}, -- [25]
 				{
@@ -367,12 +2235,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "恐惧",
 				}, -- [26]
 				{
@@ -381,12 +2249,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "闪避",
 				}, -- [27]
 				{
@@ -395,12 +2263,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "凿击",
 				}, -- [28]
 				{
@@ -409,12 +2277,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "锁喉沉默",
 				}, -- [29]
 				{
@@ -423,12 +2291,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "银翼军旗",
 				}, -- [30]
 				{
@@ -437,12 +2305,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "威慑",
 				}, -- [31]
 				{
@@ -451,12 +2319,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "能量灌注",
 				}, -- [32]
 				{
@@ -465,12 +2333,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "自由祝福",
 				}, -- [33]
 				{
@@ -479,12 +2347,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "破胆怒吼",
 				}, -- [34]
 				{
@@ -493,12 +2361,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "急速射击",
 				}, -- [35]
 				{
@@ -507,12 +2375,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "冰冻陷阱效果",
 				}, -- [36]
 				{
@@ -521,12 +2389,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "鲁莽",
 				}, -- [37]
 				{
@@ -535,12 +2403,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "神启",
 				}, -- [38]
 				{
@@ -549,12 +2417,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "心灵尖啸",
 				}, -- [39]
 				{
@@ -563,12 +2431,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "痛苦无常",
 				}, -- [40]
 				{
@@ -577,12 +2445,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "保护祝福",
 				}, -- [41]
 				{
@@ -591,12 +2459,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "纠缠根须",
 				}, -- [42]
 				{
@@ -605,12 +2473,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "精神控制",
 				}, -- [43]
 				{
@@ -619,12 +2487,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "诱惑",
 				}, -- [44]
 				{
@@ -633,12 +2501,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "圣盾术",
 				}, -- [45]
 				{
@@ -647,12 +2515,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "奥术强化",
 				}, -- [46]
 				{
@@ -661,12 +2529,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "炽热防御者",
 				}, -- [47]
 				{
@@ -675,12 +2543,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "飓风术",
 				}, -- [48]
 				{
@@ -689,12 +2557,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "沉默",
 				}, -- [49]
 				{
@@ -703,12 +2571,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "狂暴之怒",
 				}, -- [50]
 				{
@@ -717,12 +2585,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "冲动",
 				}, -- [51]
 				{
@@ -731,12 +2599,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "吸血鬼的拥抱",
 				}, -- [52]
 				{
@@ -745,12 +2613,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "制裁之锤",
 				}, -- [53]
 				{
@@ -759,12 +2627,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "暗影斗篷",
 				}, -- [54]
 				{
@@ -773,12 +2641,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "冰冻术",
 				}, -- [55]
 				{
@@ -787,12 +2655,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "冲锋击昏",
 				}, -- [56]
 				{
@@ -801,12 +2669,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "根基图腾效果",
 				}, -- [57]
 				{
@@ -815,12 +2683,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "驱散射击",
 				}, -- [58]
 				{
@@ -829,12 +2697,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "元素掌握",
 				}, -- [59]
 				{
@@ -843,12 +2711,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "割碎",
 				}, -- [60]
 				{
@@ -857,12 +2725,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "放逐术",
 				}, -- [61]
 				{
@@ -871,12 +2739,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "嗜血",
 				}, -- [62]
 				{
@@ -885,12 +2753,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "冰霜新星",
 				}, -- [63]
 				{
@@ -899,12 +2767,12 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "牺牲祝福",
 				}, -- [64]
 				{
@@ -913,15 +2781,20 @@ NameplateAurasAceDB = {
 					["showOnEnemies"] = true,
 					["animationDisplayMode"] = 1,
 					["showOnFriends"] = true,
-					["animationTimer"] = 10,
 					["animationType"] = 2,
+					["animationTimer"] = 10,
 					["iconSizeWidth"] = 45,
-					["glowType"] = 3,
-					["playerNpcMode"] = 1,
 					["iconSizeHeight"] = 45,
+					["playerNpcMode"] = 1,
+					["glowType"] = 3,
 					["spellName"] = "装死",
 				}, -- [65]
 			},
+			["DBVersion"] = 19,
+			["IconAnchor"] = 3,
+			["InterruptsGlowType"] = 1,
+			["HidePlayerBlizzardFrame"] = true,
+			["DefaultSpellsLastSetImported"] = 2,
 		},
 	},
 }

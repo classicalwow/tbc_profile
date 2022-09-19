@@ -78,7 +78,9 @@ function addonTable.msgWithQuestion(text, funcOnAccept, funcOnCancel)
 end
 
 addonTable.SpellTextureByID = setmetatable({
-	[addonTable.SPELL_PVPTRINKET] =	133452,
+	[addonTable.SPELL_PVPTRINKET] =	1322720,
+    [42292] =                       1322720,
+	[200166] =				        1247262,
 }, {
 	__index = function(t, key)
 		local texture = GetSpellTexture(key);

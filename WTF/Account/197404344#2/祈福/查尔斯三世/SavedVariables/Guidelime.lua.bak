@@ -109,10 +109,9 @@ GuidelimeDataChar = {
 	["arrowLocked"] = false,
 	["editorFrameY"] = 0,
 	["showCompletedSteps"] = false,
+	["editorFrameX"] = 0,
 	["arrowAlpha"] = 0.8,
-	["arrowSize"] = 64,
 	["mainFrameAlpha"] = 0.5,
-	["currentGuide"] = "Hakurai - by Shikushiku 53-55 Felwood",
 	["mainFrameY"] = 45.0000114440918,
 	["arrowX"] = 11.66646194458008,
 	["mainFrameFontSize"] = 14,
@@ -130,5 +129,5 @@ GuidelimeDataChar = {
 		["TUGs The Ultimate (Leveling) Guides 1-9 Dwarf&Gnome"] = 81,
 	},
 	["mainFrameRelative"] = "LEFT",
-	["editorFrameX"] = 0,
+	["arrowSize"] = 64,
 }
