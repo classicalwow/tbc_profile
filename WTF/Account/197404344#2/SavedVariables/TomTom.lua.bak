@@ -16,8 +16,8 @@ TomTomDB = {
 					"BOTTOM", -- [1]
 					nil, -- [2]
 					"BOTTOM", -- [3]
-					14.44425964355469, -- [4]
-					246.7779235839844, -- [5]
+					9.999855041503906, -- [4]
+					276.2223510742188, -- [5]
 				},
 			},
 			["block"] = {
@@ -126,6 +126,37 @@ TomTomWaypointsM = {
 		["张坤 - 祈福"] = {
 		},
 		["查尔斯三世 - 祈福"] = {
+			[1944] = {
+				["1944:167970660.1467:561613691.93154:伊利达雷监工"] = {
+					1944, -- [1]
+					0.1679706601466993, -- [2]
+					0.5616136919315404, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "伊利达雷监工",
+					["from"] = "Questie",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["world"] = true,
+				},
+			},
 		},
 		["码农巴菲特 - 祈福"] = {
 		},

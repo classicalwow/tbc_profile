@@ -10,7 +10,6 @@ ItemRackUser = {
 	["Sets"] = {
 		["~CombatQueue"] = {
 			["equip"] = {
-				[12] = "25785::::::::60:::::::::",
 			},
 		},
 		["~Unequip"] = {

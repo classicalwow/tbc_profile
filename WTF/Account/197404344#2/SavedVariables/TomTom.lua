@@ -126,37 +126,6 @@ TomTomWaypointsM = {
 		["张坤 - 祈福"] = {
 		},
 		["查尔斯三世 - 祈福"] = {
-			[1944] = {
-				["1944:511002444.98778:602933985.33007:达姆菲"] = {
-					1944, -- [1]
-					0.511002444987775, -- [2]
-					0.6029339853300734, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["minimap"] = true,
-					["cleardistance"] = 10,
-					["title"] = "达姆菲",
-					["from"] = "Questie",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["world"] = true,
-				},
-			},
 		},
 		["码农巴菲特 - 祈福"] = {
 		},
