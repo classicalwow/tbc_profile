@@ -1,10 +1,10 @@
-lightweight tag 962925424c06c28a3eb1d1f9377aa01cc7aed9d2 v3.0.1
+lightweight tag ff53bafb55011584644669024f705c70efc2c2dd v3.0.3
 Author:	Simon Hirsig <simon.hirsig@gmail.com>
-Date:	Sat Sep 10 10:28:24 2022 +0200
+Date:	Tue Sep 20 12:08:32 2022 +0200
 
-commit 962925424c06c28a3eb1d1f9377aa01cc7aed9d2
+commit ff53bafb55011584644669024f705c70efc2c2dd
 Author: Simon Hirsig <simon.hirsig@gmail.com>
-Date:   Sat Sep 10 10:28:24 2022 +0200
+Date:   Tue Sep 20 12:08:32 2022 +0200
 
-    adding timeout to posting
+    keep auction in searchtab on buy timeout
 

@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0607,
-	["LastPlayerFullName"] = "查尔斯三世-祈福",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 23587,
@@ -37,9 +35,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:28040::::::::62:::::::::|h[伊利达雷的复仇]|h|r",
 		},
 		[15] = {
-			["ID"] = 4113,
-			["Level"] = 45,
-			["Link"] = "|cff1eff00|Hitem:4113::::::::45:::::::::|h[医用毛毯]|h|r",
+			["ID"] = 28030,
+			["Level"] = 97,
+			["Link"] = "|cff0070dd|Hitem:28030::::::::65:::::::::|h[施法者的防护]|h|r",
 		},
 		[8] = {
 			["ID"] = 27728,
@@ -52,9 +50,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:25985::::::::62:::::::::|h[塞纳里奥博学者法杖]|h|r",
 		},
 		[9] = {
-			["ID"] = 11917,
-			["Level"] = 55,
-			["Link"] = "|cff1eff00|Hitem:11917::::::::55:::::::::|h[希兹尔的管道清洁器]|h|r",
+			["ID"] = 31770,
+			["Level"] = 96,
+			["Link"] = "|cff1eff00|Hitem:31770::::::::65:::::::::|h[沼泽护腕]|h|r",
 		},
 		[5] = {
 			["ID"] = 31717,
@@ -62,9 +60,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:31717::::::::61:::::::::|h[暗影施法外套]|h|r",
 		},
 		[10] = {
-			["ID"] = 34416,
-			["Level"] = 46,
-			["Link"] = "|cff0070dd|Hitem:34416::::::::48:::::::::|h[沙丘手套]|h|r",
+			["ID"] = 25613,
+			["Level"] = 96,
+			["Link"] = "|cff1eff00|Hitem:25613::::::::65:::::::::|h[蛮沼秘法师裹手]|h|r",
 		},
 		[11] = {
 			["ID"] = 25488,
@@ -89,6 +87,8 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:29915::::::::58:::::::::|h[荒凉魔棒]|h|r",
 		},
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "查尔斯三世-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

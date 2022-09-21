@@ -104,7 +104,7 @@ Questie: enabled
 RaidLedger: disabled
 RareScanner: enabled
 Recount: enabled
-RepHelper_Classic: enabled
+RepHelper_Classic: disabled
 SafeQueue: enabled
 SpellReplay: enabled
 ThreatClassic2: enabled

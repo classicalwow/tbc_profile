@@ -10,6 +10,7 @@ RPH_Data = {
 	["WriteChatMessage_inited"] = true,
 	["ShowPreviewRep_inited"] = true,
 	["WriteChatMessage"] = true,
+	["ShowItems_inited"] = true,
 	["ShowGeneral"] = true,
 	["ExtendDetails"] = true,
 	["ShowInstances_inited"] = true,
@@ -25,5 +26,5 @@ RPH_Data = {
 	["ShowGeneral_inited"] = true,
 	["ShowPreviewRep"] = true,
 	["ChatFrame"] = 0,
-	["ShowItems_inited"] = true,
+	["SortByStanding"] = true,
 }
