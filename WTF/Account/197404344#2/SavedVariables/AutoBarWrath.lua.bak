@@ -14,8 +14,8 @@ AutoBarDB = {
 					["hide"] = true,
 					["enabled"] = true,
 					["columns"] = 10,
-					["frameStrata"] = "LOW",
 					["alpha"] = 1,
+					["frameStrata"] = "LOW",
 					["buttonWidth"] = 36,
 					["buttonKeys"] = {
 						"AutoBarButtonShields", -- [1]
@@ -99,7 +99,7 @@ AutoBarDB = {
 					["enabled"] = true,
 					["columns"] = 10,
 					["MAGE"] = true,
-					["frameStrata"] = "LOW",
+					["alpha"] = 1,
 					["buttonWidth"] = 36,
 					["buttonKeys"] = {
 						"AutoBarButtonShields", -- [1]
@@ -115,7 +115,7 @@ AutoBarDB = {
 					["popupDirection"] = "1",
 					["padding"] = 0,
 					["dockShiftX"] = 0,
-					["alpha"] = 1,
+					["frameStrata"] = "LOW",
 				},
 			},
 			["buttonList"] = {
@@ -183,7 +183,7 @@ AutoBarDB = {
 					["enabled"] = true,
 					["columns"] = 10,
 					["DEATHKNIGHT"] = true,
-					["alpha"] = 1,
+					["frameStrata"] = "LOW",
 					["buttonWidth"] = 36,
 					["buttonKeys"] = {
 						"AutoBarButtonShields", -- [1]
@@ -200,7 +200,7 @@ AutoBarDB = {
 					["popupDirection"] = "1",
 					["padding"] = 0,
 					["dockShiftX"] = 0,
-					["frameStrata"] = "LOW",
+					["alpha"] = 1,
 				},
 			},
 			["buttonList"] = {
@@ -395,11 +395,11 @@ AutoBarDB = {
 				["columns"] = 16,
 				["MAGE"] = true,
 				["SHAMAN"] = true,
-				["buttonWidth"] = 36,
-				["alpha"] = 1,
 				["PRIEST"] = true,
-				["posY"] = 122.9189035025484,
 				["frameStrata"] = "LOW",
+				["buttonWidth"] = 36,
+				["posY"] = 122.9189035025484,
+				["alpha"] = 1,
 				["WARLOCK"] = true,
 				["DEMONHUNTER"] = true,
 				["PALADIN"] = true,
@@ -438,11 +438,11 @@ AutoBarDB = {
 				["columns"] = 9,
 				["MAGE"] = true,
 				["posY"] = 360,
-				["frameStrata"] = "LOW",
 				["alpha"] = 1,
-				["PRIEST"] = true,
-				["HUNTER"] = true,
+				["frameStrata"] = "LOW",
 				["buttonWidth"] = 36,
+				["HUNTER"] = true,
+				["PRIEST"] = true,
 				["WARLOCK"] = true,
 				["DEMONHUNTER"] = true,
 				["SHAMAN"] = true,
