@@ -9,6 +9,7 @@ local cache_timer_start = debugprofilestop();
 ABGCS.CacheSpellData(58984, "Shadowmeld");
 
 
+
 --Druid
 ABGCS.CacheSpellData(22812, "Barkskin");
 ABGCS.CacheSpellData(99, "Disorienting Roar");
@@ -28,6 +29,27 @@ ABGCS.CacheSpellData(783, "Travel Form");
 ABGCS.CacheSpellData(33943, "Flight Form");
 ABGCS.CacheSpellData(40120, "Swift Flight Form");
 ABGCS.CacheSpellData(18960, "Teleport: Moonglade");
+
+--#region DeathKnight
+ABGCS.CacheSpellData(48265, "Unholy Presence");
+ABGCS.CacheSpellData(48263, "Frost Presence");
+ABGCS.CacheSpellData(48266, "Blood Presence");
+ABGCS.CacheSpellData(48707, "Anti-Magic Shell");
+ABGCS.CacheSpellData(51052, "Anti-Magic Zone");
+ABGCS.CacheSpellData(3714, "Path of Frost");
+ABGCS.CacheSpellData(57330, "Horn of Winter");
+ABGCS.CacheSpellData(56222, "Dark Command");
+ABGCS.CacheSpellData(45529, "Blood Tap");
+ABGCS.CacheSpellData(48792, "Icebound Fortitude");
+ABGCS.CacheSpellData(49576, "Death Grip");
+ABGCS.CacheSpellData(48982, "Rune Tap");
+ABGCS.CacheSpellData(55233, "Vampiric Blood");
+ABGCS.CacheSpellData(47476, "Strangulate");
+ABGCS.CacheSpellData(47528, "Mind Freeze");
+ABGCS.CacheSpellData(46584, "Raise Dead");
+ABGCS.CacheSpellData(49206, "Summon Gargoyle");
+ABGCS.CacheSpellData(50977, "Death Gate");
+--endregion
 
 
 --#region Hunter
@@ -87,17 +109,12 @@ ABGCS.CacheSpellData(604, "Dampen Magic");
 ABGCS.CacheSpellData(5504, "Conjure Water");
 ABGCS.CacheSpellData(587, "Conjure Food");
 
-ABGCS.CacheSpellData(759, "Conjure Mana Agate");
-ABGCS.CacheSpellData(10054, "Conjure Mana Ruby");
-ABGCS.CacheSpellData(3552, "Conjure Mana Jade");
-ABGCS.CacheSpellData(10053, "Conjure Mana Citrine");
-ABGCS.CacheSpellData(27101, "Conjure Mana Emerald");
+ABGCS.CacheSpellData(759, "Conjure Mana Gem");
+
+ABGCS.CacheSpellData(43987, "Ritual of Refreshment");
 
 ABGCS.CacheSpellData(31687, "Summon Water Elemental");
 
---ABGCS.CacheSpellData(42955, "Conjure Refreshment");
---ABGCS.CacheSpellData(43987, "Conjure Refreshment Table");
-ABGCS.CacheSpellData(7870, "Lesser Invisibility");
 ABGCS.CacheSpellData(66, "Invisibility");
 
 ABGCS.CacheSpellData(11418, "Portal: Undercity");
@@ -129,16 +146,23 @@ ABGCS.CacheSpellData(35715, "Teleport: Shattrath - Horde");
 --#region Paladin
 ABGCS.CacheSpellData(498, "Divine Protection");
 ABGCS.CacheSpellData(642, "Divine Shield");
-ABGCS.CacheSpellData(1044, "Blessing of Freedom");
-ABGCS.CacheSpellData(1022, "Blessing of Protection");
-ABGCS.CacheSpellData(6940, "Blessing of Sacrifice");
-ABGCS.CacheSpellData(1038, "Blessing of Salvation");
-ABGCS.CacheSpellData(25898, "Greater Blessing of Kings");
-ABGCS.CacheSpellData(19742, "Blessing of Wisdom");
-ABGCS.CacheSpellData(25894, "Greater Blessing of Wisdom");
-ABGCS.CacheSpellData(633, "Lay on Hands");
+-- ABGCS.CacheSpellData(64205, "Divine Sacrifice"); -- Prot, Not sure where to put it
 
 ABGCS.CacheSpellData(19740, "Blessing of Might");
+ABGCS.CacheSpellData(25782, "Greater Blessing of Might");
+ABGCS.CacheSpellData(19742, "Blessing of Wisdom");
+ABGCS.CacheSpellData(25894, "Greater Blessing of Wisdom");
+ABGCS.CacheSpellData(20217, "Blessing of Kings");
+ABGCS.CacheSpellData(25898, "Greater Blessing of Kings");
+ABGCS.CacheSpellData(20911, "Blessing of Sanctuary");
+ABGCS.CacheSpellData(25899, "Greater Blessing of Sanctuary");
+
+ABGCS.CacheSpellData(633, "Lay on Hands");
+
+ABGCS.CacheSpellData(1044, "Hand of Freedom");
+ABGCS.CacheSpellData(1022, "Hand of Protection");
+ABGCS.CacheSpellData(6940, "Hand of Sacrifice");
+ABGCS.CacheSpellData(1038, "Hand of Salvation");
 
 ABGCS.CacheSpellData(32223, "Crusader Aura");
 ABGCS.CacheSpellData(465, "Devotion Aura");
@@ -150,12 +174,13 @@ ABGCS.CacheSpellData(19876, "Shadow Resistance Aura");
 
 ABGCS.CacheSpellData(5502, "Sense Undead");
 
-ABGCS.CacheSpellData(20375, "Seal of Command");
+ABGCS.CacheSpellData(20375, "Seal of Command"); -- Ret
 ABGCS.CacheSpellData(20164, "Seal of Justice");
 ABGCS.CacheSpellData(20165, "Seal of Light");
 ABGCS.CacheSpellData(20154, "Seal of Righteousness");
-ABGCS.CacheSpellData(348700, "Seal of the Martyr");
 ABGCS.CacheSpellData(20166, "Seal of Wisdom");
+ABGCS.CacheSpellData(31801, "Seal of Vengeance"); -- Alliance
+ABGCS.CacheSpellData(53736, "Seal of Corruption"); -- Horde
 --#endregion
 
 --#region Priest

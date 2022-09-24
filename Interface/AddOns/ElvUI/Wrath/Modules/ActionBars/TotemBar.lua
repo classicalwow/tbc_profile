@@ -3,8 +3,8 @@ local AB = E:GetModule('ActionBars')
 local LSM = E.Libs.LSM
 
 local _G = _G
-local unpack, ipairs, pairs = unpack, ipairs, pairs
-local gsub, strmatch = gsub, strmatch
+local ipairs, pairs = ipairs, pairs
+local unpack, gsub = unpack, gsub
 
 local CreateFrame = CreateFrame
 local InCombatLockdown = InCombatLockdown
@@ -34,7 +34,7 @@ function AB:MultiCastFlyoutFrameOpenButton_Show(button, which, parent)
 	button:SetBackdropBorderColor(color.r, color.g, color.b)
 
 	button:ClearAllPoints()
-	if E.db.general.totems.flyoutDirection == 'UP' then
+	if AB.db.totemBar.flyoutDirection == 'UP' then
 		button:Point('BOTTOM', parent, 'TOP')
 	else
 		button:Point('TOP', parent, 'BOTTOM')
@@ -103,19 +103,19 @@ function AB:MultiCastFlyoutFrame_ToggleFlyout(frame, which, parent)
 
 		if button:IsShown() then
 			numButtons = numButtons + 1
-			button:Size(E.db.general.totems.flyoutSize)
+			button:Size(AB.db.totemBar.flyoutSize)
 			button:ClearAllPoints()
 
-			if E.db.general.totems.flyoutDirection == 'UP' then
-				button:Point('BOTTOM', i == 1 and parent or frame.buttons[i - 1], 'TOP', 0, E.db.general.totems.flyoutSpacing)
+			if AB.db.totemBar.flyoutDirection == 'UP' then
+				button:Point('BOTTOM', i == 1 and parent or frame.buttons[i - 1], 'TOP', 0, AB.db.totemBar.flyoutSpacing)
 			else
-				button:Point('TOP', i == 1 and parent or frame.buttons[i - 1], 'BOTTOM', 0, -E.db.general.totems.flyoutSpacing)
+				button:Point('TOP', i == 1 and parent or frame.buttons[i - 1], 'BOTTOM', 0, -AB.db.totemBar.flyoutSpacing)
 			end
 
 			button:SetBackdropBorderColor(color.r, color.g, color.b)
 
 			button.icon:SetTexCoord(unpack(E.TexCoords))
-			totalHeight = totalHeight + button:GetHeight() + E.db.general.totems.flyoutSpacing
+			totalHeight = totalHeight + button:GetHeight() + AB.db.totemBar.flyoutSpacing
 		end
 	end
 
@@ -130,7 +130,7 @@ function AB:MultiCastFlyoutFrame_ToggleFlyout(frame, which, parent)
 
 	frame:ClearAllPoints()
 	closeButton:ClearAllPoints()
-	if E.db.general.totems.flyoutDirection == 'UP' then
+	if AB.db.totemBar.flyoutDirection == 'UP' then
 		frame:Point('BOTTOM', parent, 'TOP')
 		closeButton:Point('TOP', frame, 'TOP')
 	else
@@ -155,7 +155,7 @@ function AB:TotemButton_OnLeave()
 end
 
 function AB:TotemBar_OnEnter()
-	return bar.mouseover and E:UIFrameFadeIn(bar, 0.2, bar:GetAlpha(), E.db.general.totems.alpha)
+	return bar.mouseover and E:UIFrameFadeIn(bar, 0.2, bar:GetAlpha(), AB.db.totemBar.alpha)
 end
 
 function AB:TotemBar_OnLeave()
@@ -171,8 +171,8 @@ function AB:PositionAndSizeTotemBar()
 
 	local barFrame = _G.MultiCastActionBarFrame
 	local numActiveSlots = barFrame.numActiveSlots
-	local buttonSpacing = E.db.general.totems.spacing
-	local size = E.db.general.totems.buttonSize
+	local buttonSpacing = AB.db.totemBar.spacing
+	local size = AB.db.totemBar.buttonSize
 
 	local mainSize = (size * (2 + numActiveSlots)) + (buttonSpacing * (2 + numActiveSlots - 1))
 	bar:Width(mainSize)
@@ -180,25 +180,32 @@ function AB:PositionAndSizeTotemBar()
 	bar:Height(size + 2)
 	barFrame:Height(size + 2)
 
-	bar.mouseover = E.db.general.totems.mouseover
-	bar:SetAlpha(bar.mouseover and 0 or E.db.general.totems.alpha)
+	local _, barFrameAnchor = barFrame:GetPoint()
+	if barFrameAnchor ~= bar then
+		barFrame:SetPoint('TOP', bar)
+		barFrame:SetPoint('BOTTOMLEFT', bar)
+		barFrame:SetPoint('BOTTOM', barFrameAnchor)
+	end -- this is Simpy voodoo, dont change it
 
-	local visibility = E.db.general.totems.visibility
+	bar.mouseover = AB.db.totemBar.mouseover
+	bar:SetAlpha(bar.mouseover and 0 or AB.db.totemBar.alpha)
+
+	local visibility = AB.db.totemBar.visibility
 	visibility = gsub(visibility, '[\n\r]','')
 
 	RegisterStateDriver(bar, 'visibility', visibility)
 
 	local summonButton = _G.MultiCastSummonSpellButton
 	summonButton:ClearAllPoints()
+	summonButton:Point('BOTTOMLEFT')
 	summonButton:Size(size)
-	summonButton:Point('BOTTOMLEFT', E.Border*2, E.Border*2)
 
 	for i = 1, numActiveSlots do
 		local button = _G['MultiCastSlotButton'..i]
 		local lastButton = _G['MultiCastSlotButton'..i - 1]
 
-		button:ClearAllPoints()
 		button:Size(size)
+		button:ClearAllPoints()
 
 		if i == 1 then
 			button:Point('LEFT', summonButton, 'RIGHT', buttonSpacing, 0)
@@ -215,8 +222,8 @@ function AB:PositionAndSizeTotemBar()
 end
 
 function AB:UpdateTotemBindings()
-	local font = LSM:Fetch('font', E.db.general.totems.font)
-	local size, outline = E.db.general.totems.fontSize, E.db.general.totems.fontOutline
+	local font = LSM:Fetch('font', AB.db.totemBar.font)
+	local size, outline = AB.db.totemBar.fontSize, AB.db.totemBar.fontOutline
 
 	_G.MultiCastSummonSpellButtonHotKey:SetTextColor(1, 1, 1)
 	_G.MultiCastSummonSpellButtonHotKey:FontTemplate(font, size, outline)
@@ -253,18 +260,15 @@ end
 function AB:CreateTotemBar()
 	AB.TotemBar = bar -- Initialized
 
-	bar:Point('BOTTOM', E.UIParent, 'BOTTOM', 0, 250)
+	bar:Size(200, 30)
+	bar:Point('BOTTOM', E.UIParent, 0, 250)
 	bar.buttons = {}
 
 	local barFrame = _G.MultiCastActionBarFrame
-	barFrame:SetParent(bar)
-	barFrame:ClearAllPoints()
-	barFrame:SetPoint('BOTTOMLEFT', bar, 'BOTTOMLEFT', -E.Border, -E.Border)
 	barFrame:SetScript('OnUpdate', nil)
 	barFrame:SetScript('OnShow', nil)
 	barFrame:SetScript('OnHide', nil)
-	barFrame.SetParent = E.noop
-	barFrame.SetPoint = E.noop
+	barFrame:SetParent(bar)
 
 	local closeButton = _G.MultiCastFlyoutFrameCloseButton
 	closeButton:SetTemplate()
@@ -305,6 +309,7 @@ function AB:CreateTotemBar()
 		bar.buttons[button] = true
 	end
 
+	local isShaman = E.myclass == 'SHAMAN'
 	for i = 1, 12 do
 		local button = _G['MultiCastActionButton'..i]
 		local icon = _G['MultiCastActionButton'..i..'Icon']
@@ -313,17 +318,18 @@ function AB:CreateTotemBar()
 		local cooldown = _G['MultiCastActionButton'..i..'Cooldown']
 		local overlay = _G['MultiCastActionButton'..i].overlayTex
 
-		button:SetAttribute('type2', 'destroytotem')
-		button:SetAttribute('*totem-slot*', i == 1 and 2 or i == 2 and 1 or i) -- because blizzard doesn't know their own order
+		if isShaman then
+			button:SetAttribute('type2', 'destroytotem')
+			button:SetAttribute('*totem-slot*', _G.SHAMAN_TOTEM_PRIORITIES[i])
+		end
+
 		button:StyleButton()
+		normal:SetTexture('')
+		overlay:Hide()
 
 		icon:SetTexCoord(unpack(E.TexCoords))
 		icon:SetDrawLayer('ARTWORK')
 		icon:SetInside()
-
-		normal:SetTexture('')
-
-		overlay:Hide()
 
 		hotkey.SetVertexColor = E.noop
 		button.commandName = button.buttonType .. button.buttonIndex -- hotkey support
@@ -349,14 +355,12 @@ function AB:CreateTotemBar()
 	end
 
 	hooksecurefunc(spellButton, 'SetPoint', function(button, point, attachTo, anchorPoint, xOffset, yOffset)
-		if xOffset ~= E.db.general.totems.spacing then
-			if InCombatLockdown() then
-				AB.NeedsRecallButtonUpdate = true
-				AB:RegisterEvent('PLAYER_REGEN_ENABLED')
-			else
-				button:ClearAllPoints()
-				button:SetPoint(point, attachTo, anchorPoint, E.db.general.totems.spacing, yOffset)
-			end
+		if InCombatLockdown() then
+			AB.NeedsRecallButtonUpdate = true
+			AB:RegisterEvent('PLAYER_REGEN_ENABLED')
+		elseif xOffset ~= AB.db.totemBar.spacing or button:GetPoint(2) then
+			button:ClearAllPoints()
+			button:SetPoint(point, attachTo, anchorPoint, AB.db.totemBar.spacing, yOffset)
 		end
 	end)
 
@@ -368,7 +372,6 @@ function AB:CreateTotemBar()
 	AB:SecureHook('MultiCastActionButton_Update')
 	AB:SecureHook('MultiCastFlyoutFrame_ToggleFlyout')
 	AB:SecureHook('MultiCastSlotButton_Update', 'StyleTotemSlotButton')
-	AB:SecureHook('ShowMultiCastActionBar', 'PositionAndSizeTotemBar')
 
 	AB:HookScript(_G.MultiCastActionBarFrame, 'OnEnter', 'TotemBar_OnEnter')
 	AB:HookScript(_G.MultiCastActionBarFrame, 'OnLeave', 'TotemBar_OnLeave')
@@ -376,5 +379,5 @@ function AB:CreateTotemBar()
 	AB:HookScript(_G.MultiCastFlyoutFrame, 'OnEnter', 'TotemBar_OnEnter')
 	AB:HookScript(_G.MultiCastFlyoutFrame, 'OnLeave', 'TotemBar_OnLeave')
 
-	E:CreateMover(bar, 'TotemBarMover', L["Class Totems"], nil, nil, nil, nil, nil, 'general,totems')
+	E:CreateMover(bar, 'TotemBarMover', L["Totem Bar"], nil, nil, nil, nil, nil, 'actionbar,totemBar')
 end

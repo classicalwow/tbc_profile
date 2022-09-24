@@ -12,6 +12,9 @@ v2.5.4.2722
 Previous changes can be found in the CHANGELOG file.
 ]=]
 elseif E.isWOTLKC then E.changelog = [=[
+v3.4.0.2723
+	The correct talents will show for whichever spec your group member has active on inital inspection.
+
 v3.4.0.2722
 
 	Wrath of the Lich King Classic release. (Build 45435)

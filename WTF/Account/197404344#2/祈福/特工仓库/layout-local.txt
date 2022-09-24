@@ -1,4 +1,11 @@
 Version: 1
+Frame: MailLoggerMinimapIcon
+FrameLevel: 8
+Anchor: TOPRIGHT
+X: -168
+Y: -58
+W: 31
+H: 31
 Frame: ColorPickerFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -9,7 +16,7 @@ H: 240
 Frame: aux_frame
 FrameLevel: 1
 Anchor: CENTER
-X: -281
-Y: -97
+X: 310
+Y: -14
 W: 768
 H: 447

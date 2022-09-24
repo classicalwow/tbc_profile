@@ -1,8 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0601,
-	["LastPlayerFullName"] = "新特能源-祈福",
-	["AutoSelectScales"] = false,
+	["LastVersion"] = 2.0607,
 	["ItemLevels"] = {
 		{
 			["ID"] = 31509,
@@ -95,9 +93,11 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:25640::::::::67:::::::::|h[奈辛瓦里狩猎队魔棒]|h|r",
 		}, -- [18]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "新特能源-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
 	["LastClass"] = "PRIEST",
-	["LastAdded"] = 2,
+	["LastAdded"] = 3,
 }

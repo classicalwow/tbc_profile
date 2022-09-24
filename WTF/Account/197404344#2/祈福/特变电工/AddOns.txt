@@ -147,3 +147,10 @@ Guidelime: disabled
 Guidelime_ShikuTW: enabled
 ItemRack: enabled
 WeakAurasCompanion: enabled
+dbm-eyeofeternity: enabled
+dbm-voa: enabled
+dbm-party-wotlk: enabled
+dbm-coliseum: enabled
+dbm-icecrown: enabled
+dbm-ulduar: enabled
+dbm-chamberofaspects: enabled

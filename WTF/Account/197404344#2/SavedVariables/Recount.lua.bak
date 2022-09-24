@@ -29,8 +29,8 @@ RecountDB = {
 					},
 				},
 			},
-			["MainWindowHeight"] = 191.111083984375,
 			["LastInstanceName"] = "祖尔法拉克",
+			["MainWindowHeight"] = 191.111083984375,
 			["MainWindowWidth"] = 209.4445648193359,
 			["CurDataSet"] = "OverallData",
 		},
@@ -88,7 +88,6 @@ RecountDB = {
 					["h"] = 195.0000152587891,
 				},
 			},
-			["MainWindowHeight"] = 195,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -102,6 +101,7 @@ RecountDB = {
 			["LastInstanceName"] = "祖尔法拉克",
 			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 202.7777557373047,
+			["MainWindowHeight"] = 195,
 		},
 		["码农巴菲特 - 祈福"] = {
 			["MainWindow"] = {

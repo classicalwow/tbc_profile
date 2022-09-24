@@ -41,10 +41,3 @@ X: 0
 Y: 128
 W: 200
 H: 50
-Frame: BattlefieldMapTab
-FrameLevel: 1
-Anchor: BOTTOMLEFT
-X: 319
-Y: 120
-W: 87
-H: 32

@@ -1,11 +1,4 @@
 Version: 1
-Frame: MeetingHornDataBroker
-FrameLevel: 1
-Anchor: TOP
-X: 12
-Y: -50
-W: 171
-H: 43
 Frame: ReplayFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -48,10 +41,3 @@ X: 0
 Y: 128
 W: 200
 H: 50
-Frame: BattlefieldMapTab
-FrameLevel: 1
-Anchor: BOTTOM
-X: -309
-Y: 127
-W: 87
-H: 32

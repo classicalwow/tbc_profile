@@ -29,10 +29,10 @@ RecountDB = {
 					},
 				},
 			},
-			["MainWindowHeight"] = 191.111083984375,
+			["LastInstanceName"] = "祖尔法拉克",
 			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 209.4445648193359,
-			["LastInstanceName"] = "祖尔法拉克",
+			["MainWindowHeight"] = 191.111083984375,
 		},
 		["沈南鹏 - 祈福"] = {
 			["MainWindow"] = {
@@ -99,9 +99,9 @@ RecountDB = {
 				},
 			},
 			["LastInstanceName"] = "祖尔法拉克",
-			["CurDataSet"] = "OverallData",
-			["MainWindowWidth"] = 202.7777557373047,
 			["MainWindowHeight"] = 195,
+			["MainWindowWidth"] = 202.7777557373047,
+			["CurDataSet"] = "OverallData",
 		},
 		["码农巴菲特 - 祈福"] = {
 			["MainWindow"] = {
@@ -135,6 +135,7 @@ RecountDB = {
 					["h"] = 187.7778015136719,
 				},
 			},
+			["MainWindowHeight"] = 187.77783203125,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -145,9 +146,8 @@ RecountDB = {
 					},
 				},
 			},
-			["MainWindowHeight"] = 187.77783203125,
-			["MainWindowWidth"] = 231.6667785644531,
 			["CurDataSet"] = "OverallData",
+			["MainWindowWidth"] = 231.6667785644531,
 		},
 		["Vscode - 加丁"] = {
 			["MainWindow"] = {
