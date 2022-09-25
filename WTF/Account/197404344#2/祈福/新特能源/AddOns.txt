@@ -113,8 +113,8 @@ Gladdy: disabled
 MRT: disabled
 ArkInventoryRules_Example: enabled
 AddonProfiles: enabled
-ArkInventoryRules_Profession: disabled
-ArkInventory: disabled
+ArkInventoryRules_Profession: enabled
+ArkInventory: enabled
 WideQuestLog: disabled
 WideQuestLogLevels: disabled
 DBM-Core: disabled

@@ -165,6 +165,7 @@ GuidelimeDataChar = {
 	["mainFrameFontSize"] = 14,
 	["mainFrameShowScrollBar"] = true,
 	["showArrow"] = true,
+	["editorFrameRelative"] = "CENTER",
 	["guideSize"] = {
 		["TUGs The Ultimate (Leveling) Guides 61-62 Hellfire Peninsula Part II"] = 94,
 		["TUGs The Ultimate (Leveling) Guides 64-64 Terokkar Forest Part II"] = 67,
@@ -177,9 +178,8 @@ GuidelimeDataChar = {
 		["TUGs The Ultimate (Leveling) Guides 67-68 Blade's Edge Mountains Part II"] = 53,
 		["TUGs The Ultimate (Leveling) Guides 63-64 Terokkar Forest Part I"] = 131,
 	},
-	["version"] = "2.036",
 	["mainFrameShowing"] = false,
-	["editorFrameRelative"] = "CENTER",
+	["version"] = "2.036",
 	["mainFrameRelative"] = "LEFT",
 	["arrowSize"] = 60,
 }

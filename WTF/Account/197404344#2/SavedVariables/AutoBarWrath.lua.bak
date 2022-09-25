@@ -14,8 +14,8 @@ AutoBarDB = {
 					["hide"] = false,
 					["enabled"] = true,
 					["columns"] = 10,
-					["frameStrata"] = "LOW",
 					["alpha"] = 1,
+					["frameStrata"] = "LOW",
 					["buttonWidth"] = 36,
 					["buttonKeys"] = {
 						"AutoBarButtonShields", -- [1]
@@ -200,8 +200,8 @@ AutoBarDB = {
 					["hide"] = false,
 					["enabled"] = true,
 					["columns"] = 10,
-					["alpha"] = 1,
 					["frameStrata"] = "LOW",
+					["alpha"] = 1,
 					["buttonWidth"] = 36,
 					["buttonKeys"] = {
 						"AutoBarButtonShields", -- [1]
@@ -411,7 +411,7 @@ AutoBarDB = {
 					["enabled"] = true,
 					["columns"] = 10,
 					["MAGE"] = true,
-					["alpha"] = 1,
+					["frameStrata"] = "LOW",
 					["buttonWidth"] = 36,
 					["buttonKeys"] = {
 						"AutoBarButtonShields", -- [1]
@@ -427,7 +427,7 @@ AutoBarDB = {
 					["popupDirection"] = "1",
 					["padding"] = 0,
 					["dockShiftX"] = 0,
-					["frameStrata"] = "LOW",
+					["alpha"] = 1,
 				},
 			},
 			["buttonList"] = {
@@ -481,8 +481,93 @@ AutoBarDB = {
 				},
 			},
 		},
+		["牧师"] = {
+			["barList"] = {
+				["AutoBarClassBarPriest"] = {
+					["share"] = "2",
+					["fadeOut"] = false,
+					["buttonHeight"] = 36,
+					["rows"] = 1,
+					["dockShiftY"] = 0,
+					["alignButtons"] = "3",
+					["posX"] = 300,
+					["hide"] = false,
+					["enabled"] = true,
+					["columns"] = 10,
+					["frameStrata"] = "LOW",
+					["alpha"] = 1,
+					["PRIEST"] = true,
+					["buttonKeys"] = {
+						"AutoBarButtonShields", -- [1]
+						"AutoBarButtonER", -- [2]
+						"AutoBarButtonClassBuff", -- [3]
+						"AutoBarButtonClassPet", -- [4]
+						"AutoBarButtonInterrupt", -- [5]
+					},
+					["scale"] = 1,
+					["popupDirection"] = "1",
+					["DEMONHUNTER"] = true,
+					["posY"] = 280,
+					["padding"] = 0,
+					["dockShiftX"] = 0,
+					["buttonWidth"] = 36,
+				},
+			},
+			["buttonList"] = {
+				["AutoBarButtonClassPet"] = {
+					["barKey"] = "AutoBarClassBarPriest",
+					["buttonClass"] = "AutoBarButtonClassPet",
+					["defaultButtonIndex"] = 4,
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonClassPet",
+					["square_popups"] = true,
+				},
+				["AutoBarButtonShields"] = {
+					["barKey"] = "AutoBarClassBarPriest",
+					["buttonClass"] = "AutoBarButtonShields",
+					["defaultButtonIndex"] = 1,
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonShields",
+					["square_popups"] = true,
+				},
+				["AutoBarButtonInterrupt"] = {
+					["barKey"] = "AutoBarClassBarPriest",
+					["buttonClass"] = "AutoBarButtonInterrupt",
+					["defaultButtonIndex"] = 5,
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonInterrupt",
+					["square_popups"] = true,
+				},
+				["AutoBarButtonER"] = {
+					["barKey"] = "AutoBarClassBarPriest",
+					["buttonClass"] = "AutoBarButtonER",
+					["defaultButtonIndex"] = 2,
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonER",
+					["square_popups"] = true,
+				},
+				["AutoBarButtonClassBuff"] = {
+					["barKey"] = "AutoBarClassBarPriest",
+					["buttonClass"] = "AutoBarButtonClassBuff",
+					["defaultButtonIndex"] = 3,
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonClassBuff",
+					["square_popups"] = true,
+				},
+			},
+		},
 	},
 	["chars"] = {
+		["特变电工 - 祈福"] = {
+			["buttonDataList"] = {
+				["AutoBarButtonMount"] = {
+				},
+			},
+			["barList"] = {
+			},
+			["buttonList"] = {
+			},
+		},
 		["查尔斯三世 - 祈福"] = {
 			["buttonDataList"] = {
 				["AutoBarButtonQuest"] = {
@@ -519,7 +604,7 @@ AutoBarDB = {
 			["buttonList"] = {
 			},
 		},
-		["特变电工 - 祈福"] = {
+		["新特能源 - 祈福"] = {
 			["buttonDataList"] = {
 				["AutoBarButtonMount"] = {
 				},
@@ -574,11 +659,11 @@ AutoBarDB = {
 				["columns"] = 16,
 				["MAGE"] = true,
 				["SHAMAN"] = true,
-				["alpha"] = 1,
 				["frameStrata"] = "LOW",
-				["PRIEST"] = true,
-				["posY"] = 122.9189035025484,
+				["alpha"] = 1,
 				["buttonWidth"] = 36,
+				["posY"] = 122.9189035025484,
+				["PRIEST"] = true,
 				["WARLOCK"] = true,
 				["DEMONHUNTER"] = true,
 				["enabled"] = true,
@@ -617,11 +702,11 @@ AutoBarDB = {
 				["columns"] = 9,
 				["MAGE"] = true,
 				["posY"] = 360,
-				["PRIEST"] = true,
-				["alpha"] = 1,
 				["buttonWidth"] = 36,
-				["HUNTER"] = true,
 				["frameStrata"] = "LOW",
+				["PRIEST"] = true,
+				["HUNTER"] = true,
+				["alpha"] = 1,
 				["WARLOCK"] = true,
 				["DEMONHUNTER"] = true,
 				["ROGUE"] = true,

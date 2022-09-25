@@ -42,6 +42,7 @@ LS_TOASTS_GLOBAL_CONFIG = {
 					["anchor"] = 1,
 					["track_loss"] = false,
 					["filters"] = {
+						[1901] = 0,
 					},
 				},
 			},

@@ -61,8 +61,8 @@ Postal3DB = {
 		["新特能源 - 祈福"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"码农巴菲特|祈福|Alliance", -- [1]
-					"特工仓库|祈福|Alliance", -- [2]
+					"特工仓库|祈福|Alliance", -- [1]
+					"码农巴菲特|祈福|Alliance", -- [2]
 				},
 			},
 		},
