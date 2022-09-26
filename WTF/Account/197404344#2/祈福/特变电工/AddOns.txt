@@ -154,3 +154,4 @@ dbm-coliseum: enabled
 dbm-icecrown: enabled
 dbm-ulduar: enabled
 dbm-chamberofaspects: enabled
+vuhdo: disabled

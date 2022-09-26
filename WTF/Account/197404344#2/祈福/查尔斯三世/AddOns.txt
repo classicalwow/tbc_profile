@@ -182,3 +182,5 @@ ElvUI_QuestXP: disabled
 ElvUI_CustomTags: disabled
 kExtraBossFrames: disabled
 WeakAurasCompanion: enabled
+VuhDo: disabled
+VuhDoOptions: disabled

@@ -1,11 +1,13 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0607,
+	["LastPlayerFullName"] = "新特能源-祈福",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 31509,
-			["Level"] = 108,
-			["Link"] = "|cff1eff00|Hitem:31509::::::::69:::::::::|h[拜龙教徒兜帽]|h|r",
+			["ID"] = 28804,
+			["Level"] = 125,
+			["Link"] = "|cffa335ee|Hitem:28804::::::::70:::::::::|h[古加尔的项圈]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 31692,
@@ -13,15 +15,15 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:31692::::::::69:::::::::|h[娜塔莎的灰烬项链]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 28075,
-			["Level"] = 91,
-			["Link"] = "|cff0070dd|Hitem:28075::::::::61:::::::::|h[毁灭者的衬肩]|h|r",
+			["ID"] = 29060,
+			["Level"] = 120,
+			["Link"] = "|cffa335ee|Hitem:29060::::::::70:::::::::|h[化身灵魂护肩]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 31717,
-			["Level"] = 88,
-			["Link"] = "|cff0070dd|Hitem:31717::::::::61:::::::::|h[暗影施法外套]|h|r",
+			["ID"] = 29056,
+			["Level"] = 120,
+			["Link"] = "|cffa335ee|Hitem:29056::::::::70:::::::::|h[化身外衣]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 31425,
@@ -29,9 +31,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:31425::::::::68:::::::::|h[食人魔征服者腰带]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 25577,
-			["Level"] = 105,
-			["Link"] = "|cff1eff00|Hitem:25577::::::::66:::::::::|h[绿血长裤]|h|r",
+			["ID"] = 29059,
+			["Level"] = 120,
+			["Link"] = "|cffa335ee|Hitem:29059::::::::70:::::::::|h[化身护腿]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 31456,
@@ -93,8 +95,6 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:25640::::::::67:::::::::|h[奈辛瓦里狩猎队魔棒]|h|r",
 		}, -- [18]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "新特能源-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

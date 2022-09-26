@@ -112,7 +112,7 @@ MBB: enabled
 Myslot: enabled
 Parrot: enabled
 Pawn: enabled
-weizPVP: enabled
+weizPVP: disabled
 SafeQueue: enabled
 WideQuestLog: enabled
 AddOnSkins: enabled
@@ -167,3 +167,4 @@ dbm-ulduar: enabled
 dbm-chamberofaspects: enabled
 DataStore: disabled
 Gladdy: disabled
+vuhdo: disabled

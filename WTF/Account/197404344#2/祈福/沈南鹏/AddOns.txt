@@ -39,7 +39,7 @@ BlizzMove: enabled
 BlizzMove_Debug: enabled
 !BugGrabber: enabled
 BugSack: enabled
-ClassicCodex: enabled
+ClassicCodex: disabled
 ClassicCodex-db-ruRU: disabled
 ClassicCodex-loader: disabled
 ClassicCodex-db-esMX: enabled

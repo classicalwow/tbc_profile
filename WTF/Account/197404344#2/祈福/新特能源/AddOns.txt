@@ -1,6 +1,6 @@
 exrt: disabled
 gladiatorlossa2: disabled
-consoleport: disabled
+consoleport: enabled
 consoleport_keyboard: enabled
 blizzmove: enabled
 weakauras: enabled
@@ -118,3 +118,10 @@ ArkInventory: enabled
 WideQuestLog: disabled
 WideQuestLogLevels: disabled
 DBM-Core: disabled
+ConsolePort_Bar: enabled
+ConsolePortAdvanced: disabled
+ConsolePortBar: disabled
+ConsolePortHelp: disabled
+ConsolePortLoader: disabled
+ConsolePortUI_Loot: disabled
+ConsolePortUI_Menu: disabled

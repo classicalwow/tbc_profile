@@ -1,5 +1,8 @@
 
 AtlasLootClassicDB = {
+	["global"] = {
+		["__addonrevision"] = 3000002,
+	},
 	["profileKeys"] = {
 		["特变电工 - 祈福"] = "特变电工 - 祈福",
 		["沈南鹏 - 祈福"] = "沈南鹏 - 祈福",
@@ -7,9 +10,6 @@ AtlasLootClassicDB = {
 		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
 		["特工仓库 - 祈福"] = "特工仓库 - 祈福",
 		["新特能源 - 祈福"] = "新特能源 - 祈福",
-	},
-	["global"] = {
-		["__addonrevision"] = 3000002,
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
@@ -67,11 +67,19 @@ AtlasLootClassicDB = {
 		},
 		["新特能源 - 祈福"] = {
 			["GUI"] = {
+				["point"] = {
+					nil, -- [1]
+					nil, -- [2]
+					"CENTER", -- [3]
+					-7.294639362953603e-05, -- [4]
+					-0.5554502606391907, -- [5]
+				},
+				["selectedGameVersion"] = 1,
 				["selected"] = {
-					"AtlasLootClassic_Factions", -- [1]
-					"HonorHold", -- [2]
-					3, -- [3]
-					2, -- [4]
+					nil, -- [1]
+					"BlackrockDepths", -- [2]
+					23, -- [3]
+					1, -- [4]
 					0, -- [5]
 				},
 			},

@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0607,
+	["LastPlayerFullName"] = "特变电工-祈福",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 31457,
@@ -66,10 +68,10 @@ PawnOptions = {
 			["Level"] = 105,
 			["Link"] = "|cff1eff00|Hitem:31439::::::::68:::::::::|h[敏捷精准手套]|h|r",
 		},
-		[18] = {
-			["ID"] = 29211,
-			["Level"] = 103,
-			["Link"] = "|cff0070dd|Hitem:29211::::::::67:::::::::|h[沙度飞斧]|h|r",
+		[9] = {
+			["ID"] = 31426,
+			["Level"] = 102,
+			["Link"] = "|cff1eff00|Hitem:31426::::::::68:::::::::|h[轻盈的山地护腕]|h|r",
 		},
 		[11] = {
 			["ID"] = 31527,
@@ -88,14 +90,12 @@ PawnOptions = {
 			["AlsoFitsIn"] = 11,
 			["Link"] = "|cff1eff00|Hitem:31527::::::::70:::::::::|h[叶须指环]|h|r",
 		},
-		[9] = {
-			["ID"] = 31426,
-			["Level"] = 102,
-			["Link"] = "|cff1eff00|Hitem:31426::::::::68:::::::::|h[轻盈的山地护腕]|h|r",
+		[18] = {
+			["ID"] = 29211,
+			["Level"] = 103,
+			["Link"] = "|cff0070dd|Hitem:29211::::::::67:::::::::|h[沙度飞斧]|h|r",
 		},
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "特变电工-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

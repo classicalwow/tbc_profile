@@ -6,6 +6,7 @@ Guidelime.registerGuide(
 [D This guide was written by TUGs and is totally free, but if you want to support my work use: https://www.youtube.com/user/HydroxXTV]
 This guide was written by TUGs and is totally free, but if you want to support my work use: https://www.youtube.com/user/HydroxXTV
 I am leaving out EVERY Elite quest and most dungeons in this guide. especially on release YOU SHOULD NOT!!! You'll easily find groups for elite quests and dungeons. Do them as often as you can and at least once for their quests!
+DO NOT USE THIS GUIDE YET. GO TO BOREAN TUNDRA!
 Get the [P] flightpath at: [G79.0, 29.6Howling Fjord]
 Accept: [QA11227]
 Accept: [QA11167]
@@ -31,4 +32,8 @@ Run to Bat Handler Camille next to the flight master. Tell her to send you on th
 Do: [QC11170]
 TurnIn: [QT11170]
 Accept: [QA11304]
+Do: [QC11221,1]
+Do: [QC11221,2]
+TurnIn: [QT11221]
+Accept: [QA11229]
 ]], "TUGs The Ultimate (Leveling) Guides")

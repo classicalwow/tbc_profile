@@ -41,7 +41,7 @@ RecountDB = {
 				},
 			},
 			["LastInstanceName"] = "太陽之井",
-			["CurDataSet"] = "CurrentFightData",
+			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 314.4281921386719,
 			["MainWindowHeight"] = 233.8178253173828,
 		},

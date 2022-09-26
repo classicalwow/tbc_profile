@@ -5,7 +5,7 @@ Guidelime.registerGuide(
 [NX63-64Terokkar Forest Part I]
 [D This guide was written by TUGs and is totally free, but if you want to support my work use: https://www.youtube.com/user/HydroxXTV]
 This guide was written by TUGs and is totally free, but if you want to support my work use: https://www.youtube.com/user/HydroxXTV
-I am leaving out EVERY Elite quest and most dungeons in this guide. especially on release YOU SHOULD NOT!!! You'll easily find groups for elite quests and dungeons. Do them as often as you can and at least once for their quests!
+I am marking EVERY Elite quest and dungeons as optional in this guide. Especially on release you should do them!!! You'll easily find groups for elite quests and dungeons.
 Accept: [QA9747]
 Accept: [QA9802]
 Accept: [QA9728]
@@ -15,7 +15,7 @@ TurnIn: [QT9912]
 Accept: [QA9716]
 Do: [QC9895]
 Do: [QC9747]
-Make sure you get 10 fertile Spores now from the mobs around here.
+Make sure you get 10 Unidentified Plant Parts now from the mobs around here.
 Accept: [QA9752]
 TurnIn: [QT9747]
 Accept: [QA9788]
@@ -153,7 +153,7 @@ TurnIn: [QT9902]
 Do: [QC9905]
 TurnIn: [QT9709]
 TurnIn: [QT9905]
-Fly to Telredor
+Fly to [F Telredor]
 TurnIn: [QT9786]
 Accept: [QA9787]
 TurnIn: [QT9896]
