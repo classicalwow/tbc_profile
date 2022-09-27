@@ -12,11 +12,11 @@ HEYBOX_SAVED_PLAYER_INFOS = {
 	["张坤-祈福"] = {
 		["class"] = "DEATHKNIGHT",
 	},
-	["新特能源-祈福"] = {
-		["class"] = "PRIEST",
-	},
 	["码农巴菲特-祈福"] = {
 		["class"] = "DEATHKNIGHT",
+	},
+	["新特能源-祈福"] = {
+		["class"] = "PRIEST",
 	},
 	["沈南鹏-祈福"] = {
 		["class"] = "PALADIN",

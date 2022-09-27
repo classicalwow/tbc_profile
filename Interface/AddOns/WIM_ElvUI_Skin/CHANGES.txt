@@ -1,10 +1,11 @@
-tag 8f31d2f4da2dc469b336c77fd235fae585944605 20504.01-BBC
+tag 6b5653915ddfb8704ed8ad4ad2f15d8854e7f406 90207.01-Release
 Author:	fuba <q3fuba@gmail.com>
-Date:	Fri Mar 25 22:39:59 2022 +0100
+Date:	Sun Sep 25 11:00:57 2022 +0200
 
-commit 40890bb89b05b1ee7c5e7505007128a2c3d700b7
+commit 900b7dbf0279d597c9f64f299ac0eab820101932
 Author: fuba <q3fuba@gmail.com>
-Date:   Fri Mar 25 22:39:47 2022 +0100
+Date:   Sun Sep 25 10:59:51 2022 +0200
 
-    TOC Update TBC
+    TOC Update & test with multiple TOC files...
+    Hopefully Works now with Curseforge!
 

@@ -1,6 +1,6 @@
 exrt: disabled
 gladiatorlossa2: disabled
-consoleport: enabled
+consoleport: disabled
 consoleport_keyboard: enabled
 blizzmove: enabled
 weakauras: enabled
@@ -125,3 +125,4 @@ ConsolePortHelp: disabled
 ConsolePortLoader: disabled
 ConsolePortUI_Loot: disabled
 ConsolePortUI_Menu: disabled
+weizPVP: disabled

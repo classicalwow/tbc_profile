@@ -5084,15 +5084,15 @@ MailLoggerDB = {
 					["ItemLink"] = "|cffffffff|Hitem:24449::::::::1:::::::::|h[成熟的孢子]|h|r",
 					["Name"] = "成熟的孢子",
 				},
-				[57] = {
-					["Number"] = 33,
-					["ItemLink"] = "|cffffffff|Hitem:14047::::::::1:::::::::|h[符文布]|h|r",
-					["Name"] = "符文布",
-				},
 				[29] = {
 					["Number"] = 5,
 					["ItemLink"] = "|cffffffff|Hitem:22577::::::::1:::::::::|h[暗影微粒]|h|r",
 					["Name"] = "暗影微粒",
+				},
+				[57] = {
+					["Number"] = 33,
+					["ItemLink"] = "|cffffffff|Hitem:14047::::::::1:::::::::|h[符文布]|h|r",
+					["Name"] = "符文布",
 				},
 			},
 		}, -- [195]
@@ -8728,15 +8728,15 @@ MailLoggerDB = {
 			},
 		}, -- [347]
 		{
+			["TargetName"] = "邪龍",
 			["PlayerName"] = "新特能源",
-			["Date"] = "2022-09-25",
 			["ReceiveMoney"] = 0,
 			["Time"] = "15:51:00",
 			["GiveMoney"] = 0,
 			["Location"] = "格鲁尔的巢穴",
 			["GiveItems"] = {
 			},
-			["TargetName"] = "邪龍",
+			["Date"] = "2022-09-25",
 			["ReceiveItems"] = {
 			},
 		}, -- [348]
@@ -8775,15 +8775,15 @@ MailLoggerDB = {
 			},
 		}, -- [349]
 		{
+			["TargetName"] = "天泽一",
 			["PlayerName"] = "新特能源",
-			["Date"] = "2022-09-25",
 			["ReceiveMoney"] = 0,
 			["Time"] = "15:52:36",
 			["GiveMoney"] = 0,
 			["Location"] = "格鲁尔的巢穴",
 			["GiveItems"] = {
 			},
-			["TargetName"] = "天泽一",
+			["Date"] = "2022-09-25",
 			["ReceiveItems"] = {
 			},
 		}, -- [350]
@@ -8802,15 +8802,15 @@ MailLoggerDB = {
 			},
 		}, -- [351]
 		{
+			["TargetName"] = "春哥八六",
 			["PlayerName"] = "新特能源",
-			["Date"] = "2022-09-25",
 			["ReceiveMoney"] = 0,
 			["Time"] = "15:57:22",
 			["GiveMoney"] = 0,
 			["Location"] = "东瘟疫之地",
 			["GiveItems"] = {
 			},
-			["TargetName"] = "春哥八六",
+			["Date"] = "2022-09-25",
 			["ReceiveItems"] = {
 			},
 		}, -- [352]

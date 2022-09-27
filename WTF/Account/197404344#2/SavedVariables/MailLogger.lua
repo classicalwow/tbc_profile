@@ -5079,15 +5079,15 @@ MailLoggerDB = {
 					["ItemLink"] = "|cffffffff|Hitem:22578::::::::1:::::::::|h[水之微粒]|h|r",
 					["Name"] = "水之微粒",
 				},
-				[57] = {
-					["Number"] = 33,
-					["ItemLink"] = "|cffffffff|Hitem:14047::::::::1:::::::::|h[符文布]|h|r",
-					["Name"] = "符文布",
-				},
 				[29] = {
 					["Number"] = 5,
 					["ItemLink"] = "|cffffffff|Hitem:22577::::::::1:::::::::|h[暗影微粒]|h|r",
 					["Name"] = "暗影微粒",
+				},
+				[57] = {
+					["Number"] = 33,
+					["ItemLink"] = "|cffffffff|Hitem:14047::::::::1:::::::::|h[符文布]|h|r",
+					["Name"] = "符文布",
 				},
 				[24] = {
 					["Number"] = 5,
@@ -8728,14 +8728,14 @@ MailLoggerDB = {
 			},
 		}, -- [347]
 		{
-			["TargetName"] = "邪龍",
 			["Date"] = "2022-09-25",
+			["PlayerName"] = "新特能源",
 			["ReceiveMoney"] = 0,
 			["GiveItems"] = {
 			},
 			["GiveMoney"] = 0,
 			["Location"] = "格鲁尔的巢穴",
-			["PlayerName"] = "新特能源",
+			["TargetName"] = "邪龍",
 			["Time"] = "15:51:00",
 			["ReceiveItems"] = {
 			},
@@ -8775,14 +8775,14 @@ MailLoggerDB = {
 			},
 		}, -- [349]
 		{
-			["TargetName"] = "天泽一",
 			["Date"] = "2022-09-25",
+			["PlayerName"] = "新特能源",
 			["ReceiveMoney"] = 0,
 			["GiveItems"] = {
 			},
 			["GiveMoney"] = 0,
 			["Location"] = "格鲁尔的巢穴",
-			["PlayerName"] = "新特能源",
+			["TargetName"] = "天泽一",
 			["Time"] = "15:52:36",
 			["ReceiveItems"] = {
 			},
@@ -8802,14 +8802,14 @@ MailLoggerDB = {
 			},
 		}, -- [351]
 		{
-			["TargetName"] = "春哥八六",
 			["Date"] = "2022-09-25",
+			["PlayerName"] = "新特能源",
 			["ReceiveMoney"] = 0,
 			["GiveItems"] = {
 			},
 			["GiveMoney"] = 0,
 			["Location"] = "东瘟疫之地",
-			["PlayerName"] = "新特能源",
+			["TargetName"] = "春哥八六",
 			["Time"] = "15:57:22",
 			["ReceiveItems"] = {
 			},
@@ -8828,5 +8828,25 @@ MailLoggerDB = {
 			["ReceiveItems"] = {
 			},
 		}, -- [353]
+		{
+			["PlayerName"] = "新特能源",
+			["TargetName"] = "联盟拍卖行",
+			["Reason"] = 2,
+			["Date"] = "2022-09-26",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:34:37",
+			["GiveMoney"] = 0,
+			["Location"] = "暴风城",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 10,
+					["ItemLink"] = "|cffffffff|Hitem:28103::::::::70:::::::::|h[法能药剂]|h|r",
+					["Name"] = "法能药剂",
+				}, -- [1]
+			},
+		}, -- [354]
 	},
 }

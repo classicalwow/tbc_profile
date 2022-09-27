@@ -7,8 +7,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "馄饨骑士馅骑",
 			["InstanceName"] = "玛瑟里顿的巢穴",
 			["Date"] = "2022-09-25",
-			["Class"] = "PRIEST",
 			["FirstClass"] = "PALADIN",
+			["Class"] = "PRIEST",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4996-544-6619-17257-0000300043",
@@ -36,8 +36,8 @@ LootMonitorDB = {
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "格鲁尔的巢穴",
 			["Date"] = "2022-09-25",
-			["Class"] = "PRIEST",
 			["FirstClass"] = "UNKNOWN",
+			["Class"] = "PRIEST",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4527-565-18498-18831-000030042B",
