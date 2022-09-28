@@ -16,7 +16,7 @@ AtlasDB = {
 			},
 			["options"] = {
 				["dropdowns"] = {
-					["zone"] = 9,
+					["module"] = 4,
 				},
 			},
 		},

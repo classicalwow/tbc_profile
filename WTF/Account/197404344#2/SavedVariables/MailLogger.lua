@@ -5079,15 +5079,15 @@ MailLoggerDB = {
 					["ItemLink"] = "|cffffffff|Hitem:22578::::::::1:::::::::|h[水之微粒]|h|r",
 					["Name"] = "水之微粒",
 				},
-				[29] = {
-					["Number"] = 5,
-					["ItemLink"] = "|cffffffff|Hitem:22577::::::::1:::::::::|h[暗影微粒]|h|r",
-					["Name"] = "暗影微粒",
-				},
 				[57] = {
 					["Number"] = 33,
 					["ItemLink"] = "|cffffffff|Hitem:14047::::::::1:::::::::|h[符文布]|h|r",
 					["Name"] = "符文布",
+				},
+				[29] = {
+					["Number"] = 5,
+					["ItemLink"] = "|cffffffff|Hitem:22577::::::::1:::::::::|h[暗影微粒]|h|r",
+					["Name"] = "暗影微粒",
 				},
 				[24] = {
 					["Number"] = 5,
@@ -8728,14 +8728,14 @@ MailLoggerDB = {
 			},
 		}, -- [347]
 		{
-			["Date"] = "2022-09-25",
 			["PlayerName"] = "新特能源",
+			["TargetName"] = "邪龍",
 			["ReceiveMoney"] = 0,
 			["GiveItems"] = {
 			},
 			["GiveMoney"] = 0,
 			["Location"] = "格鲁尔的巢穴",
-			["TargetName"] = "邪龍",
+			["Date"] = "2022-09-25",
 			["Time"] = "15:51:00",
 			["ReceiveItems"] = {
 			},
@@ -8775,14 +8775,14 @@ MailLoggerDB = {
 			},
 		}, -- [349]
 		{
-			["Date"] = "2022-09-25",
 			["PlayerName"] = "新特能源",
+			["TargetName"] = "天泽一",
 			["ReceiveMoney"] = 0,
 			["GiveItems"] = {
 			},
 			["GiveMoney"] = 0,
 			["Location"] = "格鲁尔的巢穴",
-			["TargetName"] = "天泽一",
+			["Date"] = "2022-09-25",
 			["Time"] = "15:52:36",
 			["ReceiveItems"] = {
 			},
@@ -8802,14 +8802,14 @@ MailLoggerDB = {
 			},
 		}, -- [351]
 		{
-			["Date"] = "2022-09-25",
 			["PlayerName"] = "新特能源",
+			["TargetName"] = "春哥八六",
 			["ReceiveMoney"] = 0,
 			["GiveItems"] = {
 			},
 			["GiveMoney"] = 0,
 			["Location"] = "东瘟疫之地",
-			["TargetName"] = "春哥八六",
+			["Date"] = "2022-09-25",
 			["Time"] = "15:57:22",
 			["ReceiveItems"] = {
 			},
@@ -8848,5 +8848,362 @@ MailLoggerDB = {
 				}, -- [1]
 			},
 		}, -- [354]
+		{
+			["PlayerName"] = "新特能源",
+			["TargetName"] = "牧丶糸",
+			["Reason"] = 1,
+			["Date"] = "2022-09-27",
+			["ReceiveMoney"] = 0,
+			["Time"] = "21:17:45",
+			["GiveMoney"] = 0,
+			["Location"] = "北风苔原",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 19,
+					["ItemLink"] = "|cffffffff|Hitem:27657::::::::70:::::::::|h[烟熏蜥蜴]|h|r",
+					["Name"] = "烟熏蜥蜴",
+				}, -- [1]
+				{
+					["Number"] = 2,
+					["ItemLink"] = "|cffffffff|Hitem:22522::::::::70:::::::::|h[超级巫师之油]|h|r",
+					["Name"] = "超级巫师之油",
+				}, -- [2]
+				nil, -- [3]
+				{
+					["Number"] = 8,
+					["ItemLink"] = "|cffffffff|Hitem:32067::::::::70:::::::::|h[德莱尼智慧药剂]|h|r",
+					["Name"] = "德莱尼智慧药剂",
+				}, -- [4]
+				{
+					["Number"] = 17,
+					["ItemLink"] = "|cffffffff|Hitem:22825::::::::70:::::::::|h[治疗能量药剂]|h|r",
+					["Name"] = "治疗能量药剂",
+				}, -- [5]
+			},
+		}, -- [355]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "新特能源",
+			["Date"] = "2022-09-27",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:44328::::::::70:::::::::|h[极效防御药剂]|h|r",
+					["Name"] = "极效防御药剂",
+				}, -- [1]
+				{
+					["Number"] = 4,
+					["ItemLink"] = "|cffffffff|Hitem:44330::::::::70:::::::::|h[护甲穿透药剂]|h|r",
+					["Name"] = "护甲穿透药剂",
+				}, -- [2]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:44329::::::::70:::::::::|h[精准药剂]|h|r",
+					["Name"] = "精准药剂",
+				}, -- [3]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "北风苔原",
+			["Time"] = "23:39:47",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [356]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "新特能源",
+			["Date"] = "2022-09-27",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:43467::::::::70:::::::::|h[保护卷轴 VII]|h|r",
+					["Name"] = "保护卷轴 VII",
+				}, -- [1]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "北风苔原",
+			["Time"] = "23:39:54",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [357]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "新特能源",
+			["Date"] = "2022-09-27",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 2,
+					["ItemLink"] = "|cffffffff|Hitem:40068::::::::70:::::::::|h[怒火药剂]|h|r",
+					["Name"] = "怒火药剂",
+				}, -- [1]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "北风苔原",
+			["Time"] = "23:39:57",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [358]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "新特能源",
+			["Date"] = "2022-09-27",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:39666::::::::70:::::::::|h[极效敏捷药剂]|h|r",
+					["Name"] = "极效敏捷药剂",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:40078::::::::70:::::::::|h[极效坚韧药剂]|h|r",
+					["Name"] = "极效坚韧药剂",
+				}, -- [2]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "北风苔原",
+			["Time"] = "23:40:03",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [359]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "新特能源",
+			["Date"] = "2022-09-28",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 2,
+					["ItemLink"] = "|cffffffff|Hitem:39666::::::::71:::::::::|h[极效敏捷药剂]|h|r",
+					["Name"] = "极效敏捷药剂",
+				}, -- [1]
+				{
+					["Number"] = 5,
+					["ItemLink"] = "|cffffffff|Hitem:40078::::::::71:::::::::|h[极效坚韧药剂]|h|r",
+					["Name"] = "极效坚韧药剂",
+				}, -- [2]
+				{
+					["Number"] = 3,
+					["ItemLink"] = "|cffffffff|Hitem:40097::::::::71:::::::::|h[防护药剂]|h|r",
+					["Name"] = "防护药剂",
+				}, -- [3]
+				{
+					["Number"] = 3,
+					["ItemLink"] = "|cffffffff|Hitem:44331::::::::71:::::::::|h[闪电疾速药剂]|h|r",
+					["Name"] = "闪电疾速药剂",
+				}, -- [4]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "北风苔原",
+			["Time"] = "02:00:35",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [360]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "新特能源",
+			["Date"] = "2022-09-28",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 4,
+					["ItemLink"] = "|cffffffff|Hitem:43465::::::::71:::::::::|h[力量卷轴 VII]|h|r",
+					["Name"] = "力量卷轴 VII",
+				}, -- [1]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "北风苔原",
+			["Time"] = "02:00:38",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [361]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "新特能源",
+			["Date"] = "2022-09-28",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 2,
+					["ItemLink"] = "|cffffffff|Hitem:43463::::::::71:::::::::|h[敏捷卷轴 VII]|h|r",
+					["Name"] = "敏捷卷轴 VII",
+				}, -- [1]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "北风苔原",
+			["Time"] = "02:00:40",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [362]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "新特能源",
+			["Date"] = "2022-09-28",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 10,
+					["ItemLink"] = "|cffffffff|Hitem:33470::::::::71:::::::::|h[霜纹布]|h|r",
+					["Name"] = "霜纹布",
+				}, -- [1]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "北风苔原",
+			["Time"] = "02:00:44",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [363]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "新特能源",
+			["Date"] = "2022-09-28",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:40078::::::::71:::::::::|h[极效坚韧药剂]|h|r",
+					["Name"] = "极效坚韧药剂",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:40073::::::::71:::::::::|h[极效力量药剂]|h|r",
+					["Name"] = "极效力量药剂",
+				}, -- [2]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:44329::::::::71:::::::::|h[精准药剂]|h|r",
+					["Name"] = "精准药剂",
+				}, -- [3]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:44331::::::::71:::::::::|h[闪电疾速药剂]|h|r",
+					["Name"] = "闪电疾速药剂",
+				}, -- [4]
+				{
+					["Number"] = 5,
+					["ItemLink"] = "|cffffffff|Hitem:40097::::::::71:::::::::|h[防护药剂]|h|r",
+					["Name"] = "防护药剂",
+				}, -- [5]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "北风苔原",
+			["Time"] = "02:32:38",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [364]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "新特能源",
+			["Date"] = "2022-09-28",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 2,
+					["ItemLink"] = "|cffffffff|Hitem:43463::::::::71:::::::::|h[敏捷卷轴 VII]|h|r",
+					["Name"] = "敏捷卷轴 VII",
+				}, -- [1]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "北风苔原",
+			["Time"] = "02:32:42",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [365]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "新特能源",
+			["Date"] = "2022-09-28",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 2,
+					["ItemLink"] = "|cffffffff|Hitem:40068::::::::71:::::::::|h[怒火药剂]|h|r",
+					["Name"] = "怒火药剂",
+				}, -- [1]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "北风苔原",
+			["Time"] = "02:32:49",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [366]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "新特能源",
+			["Date"] = "2022-09-28",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 8,
+					["ItemLink"] = "|cffffffff|Hitem:32067::::::::71:::::::::|h[德莱尼智慧药剂]|h|r",
+					["Name"] = "德莱尼智慧药剂",
+				}, -- [1]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "北风苔原",
+			["Time"] = "02:32:52",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [367]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "新特能源",
+			["Date"] = "2022-09-28",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 24,
+					["ItemLink"] = "|cffffffff|Hitem:33447::::::::71:::::::::|h[符文治疗药水]|h|r",
+					["Name"] = "符文治疗药水",
+				}, -- [1]
+				[3] = {
+					["Number"] = 5,
+					["ItemLink"] = "|cffffffff|Hitem:33448::::::::71:::::::::|h[符文法力药水]|h|r",
+					["Name"] = "符文法力药水",
+				},
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "北风苔原",
+			["Time"] = "02:33:02",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [368]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "新特能源",
+			["Date"] = "2022-09-28",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:44330::::::::71:::::::::|h[护甲穿透药剂]|h|r",
+					["Name"] = "护甲穿透药剂",
+				}, -- [1]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "北风苔原",
+			["Time"] = "02:33:08",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [369]
 	},
 }
