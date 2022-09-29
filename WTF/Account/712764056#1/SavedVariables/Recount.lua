@@ -40,7 +40,7 @@ RecountDB = {
 					["Hostile"] = true,
 				},
 			},
-			["LastInstanceName"] = "太陽之井",
+			["LastInstanceName"] = "太阳之井",
 			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 314.4281921386719,
 			["MainWindowHeight"] = 233.8178253173828,

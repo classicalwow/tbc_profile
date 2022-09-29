@@ -1,8 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.07,
-	["LastPlayerFullName"] = "新特能源-祈福",
-	["AutoSelectScales"] = false,
+	["LastVersion"] = 2.0701,
 	["ItemLevels"] = {
 		{
 			["ID"] = 28804,
@@ -15,15 +13,15 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:38227::::::::70:::::::::|h[光明之不屈项圈]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 37205,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:37205::::::::70:::::::::|h[横贯平原衬肩]|h|r",
+			["ID"] = 43181,
+			["Level"] = 155,
+			["Link"] = "|cff0070dd|Hitem:43181::::::::71:::::::::|h[北地光芒护肩]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 29056,
-			["Level"] = 120,
-			["Link"] = "|cffa335ee|Hitem:29056::::::::70:::::::::|h[化身外衣]|h|r",
+			["ID"] = 37953,
+			["Level"] = 146,
+			["Link"] = "|cff1eff00|Hitem:37953::::::::72:::::::::|h[废土之风外衣]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 37224,
@@ -31,30 +29,30 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:37224::::::::71:::::::::|h[酷热腰带]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 29059,
-			["Level"] = 120,
-			["Link"] = "|cffa335ee|Hitem:29059::::::::70:::::::::|h[化身护腿]|h|r",
+			["ID"] = 37214,
+			["Level"] = 138,
+			["Link"] = "|cff1eff00|Hitem:37214::::::::71:::::::::|h[酷热护腿]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 37207,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:37207::::::::70:::::::::|h[航海长靴]|h|r",
+			["ID"] = 35596,
+			["Level"] = 159,
+			["Link"] = "|cff0070dd|Hitem:35596::::::::71:::::::::|h[水晶纹路长靴]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 37208,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:37208::::::::70:::::::::|h[横贯平原护腕]|h|r",
+			["ID"] = 37950,
+			["Level"] = 146,
+			["Link"] = "|cff1eff00|Hitem:37950::::::::72:::::::::|h[公海裹腕]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 37223,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:37223::::::::70:::::::::|h[酷热裹手]|h|r",
+			["ID"] = 42758,
+			["Level"] = 155,
+			["Link"] = "|cff0070dd|Hitem:42758::::::::71:::::::::|h[时间扭曲裹手]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 37528,
-			["Level"] = 138,
+			["ID"] = 38284,
+			["Level"] = 146,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff1eff00|Hitem:37528::::::::70:::::::::|h[旱土之环]|h|r",
+			["Link"] = "|cff1eff00|Hitem:38284::::::::72:::::::::|h[攻城大师的火炬环]|h|r",
 		}, -- [11]
 		{
 			["ID"] = 37528,
@@ -75,9 +73,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:37559::::::::71:::::::::|h[塞尔拉之星]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 25777,
-			["Level"] = 100,
-			["Link"] = "|cff0070dd|Hitem:25777::::::::67:::::::::|h[食人魔杀手披风]|h|r",
+			["ID"] = 38222,
+			["Level"] = 159,
+			["Link"] = "|cff0070dd|Hitem:38222::::::::71:::::::::|h[克莉斯塔萨衬肩]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 37026,
@@ -95,6 +93,8 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:37015::::::::70:::::::::|h[探寻魔杖]|h|r",
 		}, -- [18]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "新特能源-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

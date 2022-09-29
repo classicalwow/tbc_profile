@@ -1,6 +1,6 @@
 # Console Port
 
-## [2.4.3](https://github.com/seblindfors/ConsolePort/tree/2.4.3) (2022-09-05)
-[Full Changelog](https://github.com/seblindfors/ConsolePort/compare/2.4.2...2.4.3) [Previous Releases](https://github.com/seblindfors/ConsolePort/releases)
+## [2.4.6](https://github.com/seblindfors/ConsolePort/tree/2.4.6) (2022-09-27)
+[Full Changelog](https://github.com/seblindfors/ConsolePort/compare/2.4.5...2.4.6) [Previous Releases](https://github.com/seblindfors/ConsolePort/releases)
 
-- Fix API wrapper on Classic  
+- Fix compat with retail  

@@ -1,40 +1,17 @@
 
-__DEJUNK_SAVED_VARIABLES__ = {
-	["DDBL_Version"] = "2.0.2",
-	["Global"] = {
-		["version"] = 1,
+__DEJUNK_ADDON_GLOBAL_SAVED_VARIABLES__ = {
+	["merchantButton"] = true,
+	["exclusions"] = {
 	},
-	["Profiles"] = {
-		["查尔斯三世-祈福"] = {
-			["version"] = 3,
-		},
-		["特变电工-祈福"] = {
-			["destroy"] = {
-				["autoOpen"] = {
-					["enabled"] = true,
-					["value"] = 16,
-				},
-				["inclusions"] = {
-					["5504"] = true,
-				},
-			},
-			["version"] = 3,
-		},
-		["Vscode-加丁"] = {
-			["version"] = 3,
-		},
-		["张坤-祈福"] = {
-			["version"] = 3,
-		},
-		["沈南鹏-祈福"] = {
-			["version"] = 3,
-		},
-		["码农巴菲特-祈福"] = {
-			["version"] = 3,
-		},
-		["新特能源-祈福"] = {
-			["version"] = 3,
-		},
+	["autoRepair"] = false,
+	["inclusions"] = {
+	},
+	["safeMode"] = false,
+	["itemTooltips"] = true,
+	["includePoorItems"] = true,
+	["chatMessages"] = true,
+	["autoSell"] = false,
+	["minimapIcon"] = {
+		["hide"] = false,
 	},
 }
-DEJUNK_ADDON_SV = nil

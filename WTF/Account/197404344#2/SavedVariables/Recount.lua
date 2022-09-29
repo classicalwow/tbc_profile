@@ -6,8 +6,8 @@ RecountDB = {
 		["张坤 - 祈福"] = "张坤 - 祈福",
 		["查尔斯三世 - 祈福"] = "查尔斯三世 - 祈福",
 		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
-		["Vscode - 加丁"] = "Vscode - 加丁",
 		["新特能源 - 祈福"] = "新特能源 - 祈福",
+		["Vscode - 加丁"] = "Vscode - 加丁",
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
@@ -30,9 +30,9 @@ RecountDB = {
 				},
 			},
 			["MainWindowHeight"] = 191.111083984375,
-			["LastInstanceName"] = "祖尔法拉克",
-			["MainWindowWidth"] = 209.4445648193359,
 			["CurDataSet"] = "OverallData",
+			["MainWindowWidth"] = 209.4445648193359,
+			["LastInstanceName"] = "祖尔法拉克",
 		},
 		["沈南鹏 - 祈福"] = {
 			["MainWindow"] = {
@@ -54,9 +54,9 @@ RecountDB = {
 				},
 			},
 			["MainWindowHeight"] = 199.4443817138672,
-			["LastInstanceName"] = "祖尔法拉克",
-			["MainWindowWidth"] = 296.6665649414063,
 			["CurDataSet"] = "OverallData",
+			["MainWindowWidth"] = 296.6665649414063,
+			["LastInstanceName"] = "祖尔法拉克",
 		},
 		["张坤 - 祈福"] = {
 			["MainWindow"] = {
@@ -99,9 +99,9 @@ RecountDB = {
 				},
 			},
 			["MainWindowHeight"] = 195,
-			["CurDataSet"] = "OverallData",
-			["MainWindowWidth"] = 202.7777557373047,
 			["LastInstanceName"] = "祖尔法拉克",
+			["MainWindowWidth"] = 202.7777557373047,
+			["CurDataSet"] = "OverallData",
 		},
 		["码农巴菲特 - 祈福"] = {
 			["MainWindow"] = {
@@ -126,6 +126,31 @@ RecountDB = {
 			["MainWindowWidth"] = 225.8888549804688,
 			["CurDataSet"] = "OverallData",
 		},
+		["新特能源 - 祈福"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -265.0000610351563,
+					["x"] = -577.0554046630859,
+					["w"] = 250.9998931884766,
+					["h"] = 174.0000915527344,
+				},
+			},
+			["MainWindowMode"] = 5,
+			["MainWindowHeight"] = 173.8889770507813,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["LastInstanceName"] = "魔枢",
+			["CurDataSet"] = "OverallData",
+			["MainWindowWidth"] = 251.1110992431641,
+		},
 		["Vscode - 加丁"] = {
 			["MainWindow"] = {
 				["Position"] = {
@@ -148,31 +173,6 @@ RecountDB = {
 			["MainWindowHeight"] = 198.8888702392578,
 			["MainWindowWidth"] = 167.7777862548828,
 			["CurDataSet"] = "OverallData",
-		},
-		["新特能源 - 祈福"] = {
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = -88.66729736328125,
-					["x"] = -554.0557556152344,
-					["w"] = 251.0001068115234,
-					["h"] = 174.0000762939453,
-				},
-			},
-			["MainWindowMode"] = 5,
-			["MainWindowHeight"] = 173.8889770507813,
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["LastInstanceName"] = "斯坦索姆",
-			["CurDataSet"] = "OverallData",
-			["MainWindowWidth"] = 251.1110992431641,
 		},
 	},
 }

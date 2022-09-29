@@ -7629,7 +7629,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:32231::::::::70:::::::::|h[焚石]|h|r",
-						["count"] = 3,
+						["count"] = 4,
 					},
 				}, -- [634]
 				{
@@ -8025,7 +8025,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:32228::::::::70:::::::::|h[蒼穹藍寶石]|h|r",
-						["count"] = 1,
+						["count"] = 3,
 					},
 				}, -- [667]
 				{
@@ -8304,6 +8304,138 @@ RaidLedgerDatabase = {
 						["count"] = 1,
 					},
 				}, -- [690]
+				{
+					["beneficiary"] = "Promisel",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cff0070dd|Hitem:34664::::::::70:::::::::|h[太陽微粒]|h|r",
+						["count"] = 1,
+					},
+				}, -- [691]
+				{
+					["beneficiary"] = "终焉誓約",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34213::::::::70:::::::::|h[堅定決心之戒]|h|r",
+						["count"] = 1,
+					},
+				}, -- [692]
+				{
+					["beneficiary"] = "终焉誓約",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34230::::::::70:::::::::|h[全能之戒]|h|r",
+						["count"] = 1,
+					},
+				}, -- [693]
+				{
+					["beneficiary"] = "终焉誓約",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34211::::::::70:::::::::|h[肉體本能背心]|h|r",
+						["count"] = 1,
+					},
+				}, -- [694]
+				{
+					["beneficiary"] = "终焉誓約",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:35284::::::::70:::::::::|h[辛多雷凱旋指環]|h|r",
+						["count"] = 1,
+					},
+				}, -- [695]
+				{
+					["beneficiary"] = "二筒姐姐",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:32229::::::::70:::::::::|h[獅眼石]|h|r",
+						["count"] = 1,
+					},
+				}, -- [696]
+				{
+					["beneficiary"] = "聖經爻",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cff0070dd|Hitem:34664::::::::70:::::::::|h[太陽微粒]|h|r",
+						["count"] = 3,
+					},
+				}, -- [697]
+				{
+					["beneficiary"] = "终焉誓約",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34342::::::::70:::::::::|h[黎明手甲]|h|r",
+						["count"] = 1,
+					},
+				}, -- [698]
+				{
+					["beneficiary"] = "终焉誓約",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34244::::::::70:::::::::|h[欺瞞偽裝]|h|r",
+						["count"] = 1,
+					},
+				}, -- [699]
+				{
+					["beneficiary"] = "终焉誓約",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34333::::::::70:::::::::|h[艾蘭里亞罩盔]|h|r",
+						["count"] = 1,
+					},
+				}, -- [700]
+				{
+					["beneficiary"] = "终焉誓約",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34337::::::::70:::::::::|h[辛多雷黃金之杖]|h|r",
+						["count"] = 1,
+					},
+				}, -- [701]
 			},
 		}, -- [1]
 	},

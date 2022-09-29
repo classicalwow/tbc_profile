@@ -24,7 +24,7 @@
 -- f:AddChild(btn)
 -- @class file
 -- @name AceGUI-3.0
--- @release $Id: AceGUI-3.0.lua 1286 2022-09-25 09:15:49Z nevcairiel $
+-- @release $Id: AceGUI-3.0.lua 1288 2022-09-25 14:19:00Z funkehdude $
 local ACEGUI_MAJOR, ACEGUI_MINOR = "AceGUI-3.0", 41
 local AceGUI, oldminor = LibStub:NewLibrary(ACEGUI_MAJOR, ACEGUI_MINOR)
 
@@ -116,7 +116,7 @@ do
 		if not objPools[widgetType] then
 			objPools[widgetType] = {}
 		end
-		if objPools[type][obj] then
+		if objPools[widgetType][obj] then
 			error("Attempt to Release Widget that is already released", 2)
 		end
 		objPools[widgetType][obj] = true

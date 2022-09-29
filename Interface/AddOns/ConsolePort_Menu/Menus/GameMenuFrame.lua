@@ -8,6 +8,7 @@ do	-- Initiate frame
 	local PLAYER_CLASS    = select(2, UnitClass('player'))
 	local IsRetailVersion = CPAPI.IsRetailVersion;
 	local IsClassicVersion = not CPAPI.IsRetailVersion or nil;
+	local TYPE_ATTRIBUTE = CPAPI.IsWoW10Version and 'typerelease' or 'type';
 
 	LibStub('Carpenter')(Menu, {
 		Character = {
@@ -230,10 +231,13 @@ do	-- Initiate frame
 							_Type  = 'Frame';
 							_Size  = {28, 28};
 							_Point = {'RIGHT', -10, 0};
-							_Hide  = not EJMicroButton.NewAdventureNotice:IsShown();
 							_OnLoad = function(self)
+								self.borderTextureRef = EJMicroButton.NewAdventureNotice or EJMicroButton.FlashBorder;
+								if not self.borderTextureRef then return self:Hide() end
+
+								self:SetShown(self.borderTextureRef:IsShown())
 								hooksecurefunc(EJMicroButton, 'UpdateNewAdventureNotice', function()
-									if EJMicroButton.NewAdventureNotice:IsShown() then
+									if self.borderTextureRef:IsShown() then
 										self:Show()
 									end
 								end)
@@ -252,24 +256,38 @@ do	-- Initiate frame
 						};
 					};
 				};
-				Finder = IsRetailVersion and {
+				Finder = {
 					_ID    = 3;
 					_Type  = 'Button';
 					_Setup = baseTemplates;
 					_Point = {'TOP', IsRetailVersion and '$parent.Guide' or '$parent.WorldMap', 'BOTTOM', 0, 0};
 					_Text  = DUNGEONS_BUTTON;
-					_RefTo = LFDMicroButton;
+					_RefTo = LFDMicroButton or LFGMicroButton;
 					_Attributes = hideMenuHook;
 					_OnLoad = function(self)
 						CPMenuButtonMixin.OnLoad(self)
 						self.Icon:SetTexture([[Interface\LFGFRAME\UI-LFG-PORTRAIT]])
 					end;
 				};
-				Achievements = IsRetailVersion and {
-					_ID    = 4,
+				PvP = IsClassicVersion and {
+					_ID    = 4;
 					_Type  = 'Button';
 					_Setup = baseTemplates;
-					_Point = {'TOP', '$parent.Finder', 'BOTTOM', 0, -16};
+					_Point = {'TOP', IsRetailVersion and '$parent.Guide' or '$parent.Finder', 'BOTTOM', 0, 0};
+					_Text  = PLAYER_V_PLAYER;
+					_Attributes = hideMenuHook;	
+					_Image = ('Achievement_PVP_%1$s_%1$s'):format(UnitFactionGroup('player'):sub(1,1));
+					_Hooks = {
+						OnClick = function()
+							PVPParentFrame:Show() -- hack because this micro button is using OnMouseDown/OnMouseUp for some reason
+						end;
+					};
+				};
+				Achievements = {
+					_ID    = IsClassicVersion and 5 or 4,
+					_Type  = 'Button';
+					_Setup = baseTemplates;
+					_Point = {'TOP', IsRetailVersion and '$parent.Finder' or '$parent.PvP', 'BOTTOM', 0, -16};
 					_Text  = ACHIEVEMENTS;
 					_Image = 'ACHIEVEMENT_WIN_WINTERGRASP';
 					_RefTo = AchievementMicroButton;
@@ -285,10 +303,10 @@ do	-- Initiate frame
 					_Image = 'WoW_Token01';
 				};
 				Shop = {
-					_ID    = IsRetailVersion and 6 or 3;
+					_ID    = IsRetailVersion and 6 or 5;
 					_Type  = 'Button';
 					_Setup = baseTemplates;
-					_Point = {'TOP', IsRetailVersion and '$parent.WhatsNew' or '$parent.WorldMap', 'BOTTOM', 0, 0};
+					_Point = {'TOP', IsRetailVersion and '$parent.WhatsNew' or '$parent.Achievements', 'BOTTOM', 0, 0};
 					_Text  = BLIZZARD_STORE;
 					_RefTo = GameMenuButtonStore;
 					_Image = IsRetailVersion and 'WoW_Store';
@@ -590,7 +608,7 @@ do	-- Initiate frame
 							_Texture = CPAPI.GetAsset([[Textures\Menu\Gradient]]);
 							_OnLoad = function(self)
 								local r, g, b = CPAPI.GetClassColor()
-								self:SetGradientAlpha('VERTICAL', r, g, b, 0.75, r, g, b, 1)
+								CPAPI.SetGradient(self, 'VERTICAL', r, g, b, 0.75, r, g, b, 1)
 							end;
 						};
 						Rollover2 = {
@@ -599,7 +617,7 @@ do	-- Initiate frame
 							_Texture = CPAPI.GetAsset([[Textures\Menu\Gradient]]);
 							_OnLoad = function(self)
 								local r, g, b = CPAPI.GetClassColor()
-								self:SetGradientAlpha('VERTICAL', r, g, b, 0, r, g, b, 1)
+								CPAPI.SetGradient(self, 'VERTICAL', r, g, b, 0, r, g, b, 1)
 							end;
 						};
 					};
@@ -667,15 +685,16 @@ do	-- Initiate frame
 		for i, button in ipairs({header:GetChildren()}) do
 			if button:IsObjectType('Button') then
 				if button:GetAttribute('hidemenu') then
-					button:SetAttribute('type', 'macro')
+					button:SetAttribute(TYPE_ATTRIBUTE, 'macro')
 					button:SetAttribute('macrotext', '/click GameMenuButtonContinue')
 				end
 				if button.RefTo then
 					local macrotext = button:GetAttribute('macrotext')
 					local prefix = (macrotext and macrotext .. '\n') or ''
 					button:SetAttribute('macrotext', prefix .. '/click ' .. button.RefTo:GetName())
-					button:SetAttribute('type', 'macro')
+					button:SetAttribute(TYPE_ATTRIBUTE, 'macro')
 				end
+				button:SetAttribute('pressAndHoldAction', true)
 				button:Hide()
 				header:SetFrameRef(tostring(button:GetID()), button)
 			end
@@ -774,7 +793,7 @@ do	-- Initiate frame
 	Menu.Background:SetAllPoints()
 	Menu.Background:SetVertexColor(r/5, g/5, b/5, 0.5)
 	r, g, b = r / 10, g / 10, b / 10;
-	Menu.Rollover:SetGradientAlpha('VERTICAL', r, g, b, 1, r, g, b, 0)
+	CPAPI.SetGradient(Menu.Rollover, 'VERTICAL', r, g, b, 1, r, g, b, 0)
 
 	---------------------------------------------------------------
 	-- Initialize splash button
