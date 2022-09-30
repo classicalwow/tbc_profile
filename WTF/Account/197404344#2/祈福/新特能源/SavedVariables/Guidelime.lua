@@ -13,11 +13,11 @@ GuidelimeDataChar = {
 			true, -- [1]
 			true, -- [2]
 			[58] = true,
-			[63] = true,
+			[24] = true,
 			[54] = true,
 			[62] = true,
 			[56] = true,
-			[24] = true,
+			[63] = true,
 		},
 		["TUGs The Ultimate (Leveling) Guides 65-66 Nagrand Part II"] = {
 			true, -- [1]
@@ -41,17 +41,17 @@ GuidelimeDataChar = {
 			[45] = true,
 			[12] = true,
 			[47] = true,
-			[13] = true,
-			[29] = true,
+			[82] = true,
+			[81] = true,
 			[50] = true,
 			[26] = true,
 			[169] = true,
 			[46] = true,
-			[150] = true,
 			[77] = true,
+			[150] = true,
 			[56] = true,
-			[81] = true,
-			[82] = true,
+			[29] = true,
+			[13] = true,
 		},
 		["TUGs The Ultimate (Leveling) Guides 72- a Dragonblight - Alliance"] = {
 			true, -- [1]
@@ -70,6 +70,21 @@ GuidelimeDataChar = {
 			[16] = true,
 			[42] = true,
 		},
+		["TUGs The Ultimate (Leveling) Guides 70- b5 Borean Tundra - Alliance"] = {
+			true, -- [1]
+			true, -- [2]
+			[77] = true,
+			[89] = true,
+			[58] = true,
+			[90] = true,
+			[94] = true,
+			[36] = true,
+			[38] = true,
+			[40] = true,
+			[65] = true,
+			[92] = true,
+			[95] = true,
+		},
 		["TUGs The Ultimate (Leveling) Guides 67-68 Blade's Edge Mountains Part II"] = {
 			true, -- [1]
 			true, -- [2]
@@ -78,13 +93,14 @@ GuidelimeDataChar = {
 			[28] = true,
 			[46] = true,
 			[22] = true,
-			[30] = true,
-			[49] = true,
 			[8] = true,
+			[49] = true,
+			[30] = true,
 		},
-		["TUGs The Ultimate (Leveling) Guides 72- c Dragonblight - Alliance"] = {
+		["TUGs The Ultimate (Leveling) Guides 70- b1 Borean Tundra - Alliance"] = {
 			true, -- [1]
 			true, -- [2]
+			true, -- [3]
 		},
 		["TUGs The Ultimate (Leveling) Guides 64-65 Nagrand Part I"] = {
 			true, -- [1]
@@ -92,16 +108,11 @@ GuidelimeDataChar = {
 			[6] = true,
 			[27] = true,
 		},
-		["TUGs The Ultimate (Leveling) Guides 70- b4 Borean Tundra - Alliance"] = {
+		["TUGs The Ultimate (Leveling) Guides 70- b2 Borean Tundra - Alliance"] = {
 			true, -- [1]
 			true, -- [2]
-			[58] = true,
-			[15] = true,
-			[32] = true,
-			[38] = true,
-			[35] = true,
-			[9] = true,
-			[30] = true,
+			[25] = true,
+			[40] = true,
 		},
 		["TUGs The Ultimate (Leveling) Guides 63-64 Terokkar Forest Part I"] = {
 			true, -- [1]
@@ -127,38 +138,12 @@ GuidelimeDataChar = {
 			[58] = true,
 			[60] = true,
 			[34] = true,
-			[146] = true,
-			[119] = false,
-			[42] = true,
+			[45] = true,
 			[95] = true,
 			[6] = true,
-			[45] = true,
-		},
-		["TUGs The Ultimate (Leveling) Guides 70- b3 Borean Tundra - Alliance"] = {
-			true, -- [1]
-			true, -- [2]
-			nil, -- [3]
-			true, -- [4]
-			[91] = true,
-			[60] = true,
-			[121] = true,
-			[25] = true,
-		},
-		["TUGs The Ultimate (Leveling) Guides 66-67 Blade's Edge Mountains Part I"] = {
-			true, -- [1]
-			true, -- [2]
-			[103] = true,
-			[92] = true,
-			[104] = true,
-			[86] = true,
-			[62] = true,
-			[45] = true,
-			[71] = true,
-			[91] = true,
-			[129] = true,
-			[125] = true,
-			[23] = true,
-			[13] = true,
+			[42] = true,
+			[119] = false,
+			[146] = true,
 		},
 		["TUGs The Ultimate (Leveling) Guides 61-62 Hellfire Peninsula Part II"] = {
 			true, -- [1]
@@ -170,73 +155,109 @@ GuidelimeDataChar = {
 			[17] = true,
 			[35] = true,
 			[38] = true,
-			[8] = true,
-			[84] = true,
+			[15] = true,
 			[22] = true,
+			[84] = true,
 			[62] = true,
 			[23] = true,
-			[52] = true,
+			[71] = true,
 			[24] = true,
 			[48] = true,
 			[25] = true,
 			[67] = true,
-			[14] = true,
-			[71] = true,
-			[53] = true,
 			[54] = true,
+			[52] = true,
+			[53] = true,
+			[14] = true,
 			[55] = true,
 			[56] = true,
 			[29] = true,
-			[15] = true,
+			[8] = true,
 		},
-		["TUGs The Ultimate (Leveling) Guides 70- b2 Borean Tundra - Alliance"] = {
+		["TUGs The Ultimate (Leveling) Guides 66-67 Blade's Edge Mountains Part I"] = {
 			true, -- [1]
 			true, -- [2]
-			[25] = true,
-			[40] = true,
-		},
-		["TUGs The Ultimate (Leveling) Guides 70- b5 Borean Tundra - Alliance"] = {
-			true, -- [1]
-			true, -- [2]
-			[77] = true,
-			[89] = true,
-			[58] = true,
-			[90] = true,
-			[94] = true,
-			[36] = true,
-			[38] = true,
-			[40] = true,
-			[65] = true,
-			[95] = true,
+			[103] = true,
 			[92] = true,
+			[104] = true,
+			[86] = true,
+			[62] = true,
+			[13] = true,
+			[71] = true,
+			[129] = true,
+			[91] = true,
+			[125] = true,
+			[23] = true,
+			[45] = true,
 		},
-		["TUGs The Ultimate (Leveling) Guides 70- b1 Borean Tundra - Alliance"] = {
+		["TUGs The Ultimate (Leveling) Guides 70- b3 Borean Tundra - Alliance"] = {
 			true, -- [1]
 			true, -- [2]
-			true, -- [3]
+			nil, -- [3]
+			true, -- [4]
+			[91] = true,
+			[60] = true,
+			[25] = true,
+			[121] = true,
+		},
+		["TUGs The Ultimate (Leveling) Guides 72- c Dragonblight - Alliance"] = {
+			true, -- [1]
+			true, -- [2]
+			[41] = true,
+			[44] = true,
+		},
+		["TUGs The Ultimate (Leveling) Guides 70- b4 Borean Tundra - Alliance"] = {
+			true, -- [1]
+			true, -- [2]
+			[58] = true,
+			[15] = true,
+			[32] = true,
+			[9] = true,
+			[30] = true,
+			[35] = true,
+			[38] = true,
+		},
+		["TUGs The Ultimate (Leveling) Guides 73- a Dragonblight - Alliance"] = {
+			true, -- [1]
+			true, -- [2]
+			[11] = true,
+			[17] = true,
+			[28] = true,
+			[25] = true,
+			[47] = true,
+			[19] = true,
+			[35] = true,
+			[48] = true,
 		},
 	},
 	["completedSteps"] = {
+		[36] = true,
 		[7] = true,
+		[39] = true,
+		[6] = true,
+		[34] = true,
+		[41] = true,
+		[11] = false,
 	},
-	["arrowY"] = 249.9992523193359,
+	["arrowY"] = 236.1103363037109,
 	["arrowRelative"] = "BOTTOM",
-	["mainFrameX"] = 1.111397862434387,
+	["mainFrameX"] = 1.111405730247498,
 	["mainFrameLocked"] = false,
 	["mainFrameWidth"] = 350,
-	["arrowAlpha"] = 0.6800000071525574,
+	["arrowSize"] = 60,
 	["arrowLocked"] = false,
 	["editorFrameX"] = 0,
 	["editorFrameY"] = 0,
 	["showCompletedSteps"] = false,
-	["showUseItemButtons"] = "LEFT",
-	["mainFrameShowScrollBar"] = true,
 	["showArrow"] = true,
-	["currentGuide"] = "TUGs The Ultimate (Leveling) Guides 72- c Dragonblight - Alliance",
+	["mainFrameShowing"] = true,
+	["mainFrameAlpha"] = 0.5,
+	["currentGuide"] = "TUGs The Ultimate (Leveling) Guides 73- a Dragonblight - Alliance",
 	["showTitle"] = true,
-	["arrowX"] = 10.00014781951904,
+	["arrowX"] = -7.777689933776856,
 	["mainFrameFontSize"] = 14,
-	["mainFrameY"] = -163.8885040283203,
+	["editorFrameRelative"] = "CENTER",
+	["version"] = "2.036",
 	["guideSize"] = {
 		["TUGs The Ultimate (Leveling) Guides 70- a1 Howling Fjord - Alliance"] = 56,
 		["TUGs The Ultimate (Leveling) Guides 67-68 Netherstorm I"] = 279,
@@ -245,23 +266,23 @@ GuidelimeDataChar = {
 		["TUGs The Ultimate (Leveling) Guides 62-63 Zangarmarsh"] = 177,
 		["TUGs The Ultimate (Leveling) Guides 72- a Dragonblight - Alliance"] = 91,
 		["TUGs The Ultimate (Leveling) Guides 72- b Dragonblight - Alliance"] = 56,
+		["TUGs The Ultimate (Leveling) Guides 70- b5 Borean Tundra - Alliance"] = 99,
 		["TUGs The Ultimate (Leveling) Guides 67-68 Blade's Edge Mountains Part II"] = 53,
-		["TUGs The Ultimate (Leveling) Guides 72- c Dragonblight - Alliance"] = 48,
+		["TUGs The Ultimate (Leveling) Guides 70- b1 Borean Tundra - Alliance"] = 78,
 		["TUGs The Ultimate (Leveling) Guides 64-65 Nagrand Part I"] = 45,
-		["TUGs The Ultimate (Leveling) Guides 70- b4 Borean Tundra - Alliance"] = 62,
+		["TUGs The Ultimate (Leveling) Guides 70- b2 Borean Tundra - Alliance"] = 92,
 		["TUGs The Ultimate (Leveling) Guides 63-64 Terokkar Forest Part I"] = 131,
 		["TUGs The Ultimate (Leveling) Guides 60-61 Hellfire Peninsula Part I"] = 160,
-		["TUGs The Ultimate (Leveling) Guides 70- b3 Borean Tundra - Alliance"] = 129,
-		["TUGs The Ultimate (Leveling) Guides 66-67 Blade's Edge Mountains Part I"] = 143,
 		["TUGs The Ultimate (Leveling) Guides 61-62 Hellfire Peninsula Part II"] = 94,
-		["TUGs The Ultimate (Leveling) Guides 70- b2 Borean Tundra - Alliance"] = 92,
-		["TUGs The Ultimate (Leveling) Guides 70- b5 Borean Tundra - Alliance"] = 99,
-		["TUGs The Ultimate (Leveling) Guides 70- b1 Borean Tundra - Alliance"] = 78,
+		["TUGs The Ultimate (Leveling) Guides 66-67 Blade's Edge Mountains Part I"] = 143,
+		["TUGs The Ultimate (Leveling) Guides 70- b3 Borean Tundra - Alliance"] = 129,
+		["TUGs The Ultimate (Leveling) Guides 72- c Dragonblight - Alliance"] = 48,
+		["TUGs The Ultimate (Leveling) Guides 70- b4 Borean Tundra - Alliance"] = 62,
+		["TUGs The Ultimate (Leveling) Guides 73- a Dragonblight - Alliance"] = 72,
 	},
-	["editorFrameRelative"] = "CENTER",
-	["version"] = "2.036",
-	["mainFrameShowing"] = true,
-	["mainFrameAlpha"] = 0.5,
+	["mainFrameY"] = -163.3329315185547,
+	["mainFrameShowScrollBar"] = true,
+	["showUseItemButtons"] = "LEFT",
 	["mainFrameRelative"] = "LEFT",
-	["arrowSize"] = 60,
+	["arrowAlpha"] = 0.6800000071525574,
 }

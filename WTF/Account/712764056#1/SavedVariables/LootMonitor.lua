@@ -3,14 +3,15 @@ LootMonitorDB = {
 	["LootLog"] = {
 		{
 			["InstanceID"] = 580,
+			["FirstPlayer"] = "未知目標",
 			["Player"] = "特變電工",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-580-25686-25367-000527081F",
 					["Time"] = "20:31:24",
-					["Class"] = "DEATHKNIGHT",
-					["Date"] = "2022-09-18",
 					["Looter"] = "Demonsroots",
+					["Date"] = "2022-09-18",
+					["Class"] = "DEATHKNIGHT",
 					["Name"] = "日刃大法師",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32228::::::::70:::::::::|h[蒼穹藍寶石]|h|r", -- [1]
@@ -19,9 +20,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-580-25686-25369-000127081F",
 					["Time"] = "20:34:28",
-					["Class"] = "PALADIN",
-					["Date"] = "2022-09-18",
 					["Looter"] = "狠壞",
+					["Date"] = "2022-09-18",
+					["Class"] = "PALADIN",
 					["Name"] = "日刃復仇者",
 					["Loots"] = {
 						"|cff0070dd|Hitem:34664::::::::70:::::::::|h[太陽微粒]|h|r", -- [1]
@@ -30,9 +31,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-580-25686-25363-000027081F",
 					["Time"] = "20:36:34",
-					["Class"] = "WARLOCK",
-					["Date"] = "2022-09-18",
 					["Looter"] = "晝臨",
+					["Date"] = "2022-09-18",
+					["Class"] = "WARLOCK",
 					["Name"] = "日刃秘術師",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32231::::::::70:::::::::|h[焚石]|h|r", -- [1]
@@ -41,9 +42,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-580-25686-24892-000027081F",
 					["Time"] = "20:42:26",
-					["Class"] = "MAGE",
-					["Date"] = "2022-09-18",
 					["Looter"] = "浪神",
+					["Date"] = "2022-09-18",
+					["Class"] = "MAGE",
 					["Name"] = "『墮落者』塞斯諾瓦",
 					["Loots"] = {
 						"|cffa335ee|Hitem:34852::::::::70:::::::::|h[遺忘鎮壓者護腕]|h|r", -- [1]
@@ -55,9 +56,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-580-25686-24882-000027081F",
 					["Time"] = "20:49:48",
-					["Class"] = "MAGE",
-					["Date"] = "2022-09-18",
 					["Looter"] = "浪神",
+					["Date"] = "2022-09-18",
+					["Class"] = "MAGE",
 					["Name"] = "布魯托魯斯",
 					["Loots"] = {
 						"|cffa335ee|Hitem:34177::::::::70:::::::::|h[終歿之攫]|h|r", -- [1]
@@ -70,9 +71,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-580-25686-25038-0000271423",
 					["Time"] = "20:58:45",
-					["Class"] = "ROGUE",
-					["Date"] = "2022-09-18",
 					["Looter"] = "二筒姐姐",
+					["Date"] = "2022-09-18",
+					["Class"] = "ROGUE",
 					["Name"] = "魔龍謎霧",
 					["Loots"] = {
 						"|cffa335ee|Hitem:34352::::::::70:::::::::|h[邊地要塞之握]|h|r", -- [1]
@@ -85,9 +86,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-580-25686-25166-0000271871",
 					["Time"] = "21:10:51",
-					["Class"] = "DEATHKNIGHT",
-					["Date"] = "2022-09-18",
 					["Looter"] = "Demonsroots",
+					["Date"] = "2022-09-18",
+					["Class"] = "DEATHKNIGHT",
 					["Name"] = "大術士艾黎瑟絲",
 					["Loots"] = {
 						"|cff0070dd|Hitem:34664::::::::70:::::::::|h[太陽微粒]|h|r", -- [1]
@@ -104,9 +105,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-580-25686-25597-0000A7081F",
 					["Time"] = "21:12:43",
-					["Class"] = "WARRIOR",
-					["Date"] = "2022-09-18",
 					["Looter"] = "巴撒卡",
+					["Date"] = "2022-09-18",
+					["Class"] = "WARRIOR",
 					["Name"] = "消亡法師",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32231::::::::70:::::::::|h[焚石]|h|r", -- [1]
@@ -115,9 +116,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-580-25686-25597-000127081F",
 					["Time"] = "21:12:44",
-					["Class"] = "WARRIOR",
-					["Date"] = "2022-09-18",
 					["Looter"] = "朝朝扯旗",
+					["Date"] = "2022-09-18",
+					["Class"] = "WARRIOR",
 					["Name"] = "消亡法師",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32230::::::::70:::::::::|h[影歌紫水晶]|h|r", -- [1]
@@ -126,9 +127,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-580-25686-25593-000027081F",
 					["Time"] = "21:13:20",
-					["Class"] = "MAGE",
-					["Date"] = "2022-09-18",
 					["Looter"] = "浪神",
+					["Date"] = "2022-09-18",
+					["Class"] = "MAGE",
 					["Name"] = "天啟守衛",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32227::::::::70:::::::::|h[赤紅尖晶石]|h|r", -- [1]
@@ -137,9 +138,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-580-25686-25840-0000271A7C",
 					["Time"] = "21:19:01",
-					["Class"] = "MAGE",
-					["Date"] = "2022-09-18",
 					["Looter"] = "浪神",
+					["Date"] = "2022-09-18",
+					["Class"] = "MAGE",
 					["Name"] = "安卓普斯",
 					["Loots"] = {
 						"|cffa335ee|Hitem:34427::::::::70:::::::::|h[黑染的那魯稜片]|h|r", -- [1]
@@ -152,9 +153,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4490-580-25686-25315-0000271BB2",
 					["Time"] = "21:27:28",
-					["Class"] = "WARRIOR",
-					["Date"] = "2022-09-18",
 					["Looter"] = "朝朝扯旗",
+					["Date"] = "2022-09-18",
+					["Class"] = "WARRIOR",
 					["Name"] = "基爾加丹",
 					["Loots"] = {
 						"|cffa335ee|Hitem:34242::::::::70:::::::::|h[安東尼達斯的破斗篷]|h|r", -- [1]
@@ -167,9 +168,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-580-2956-25367-00003042A6",
 					["Time"] = "20:33:24",
-					["Looter"] = "特變電工",
-					["Date"] = "2022-09-25",
 					["Class"] = "WARRIOR",
+					["Date"] = "2022-09-25",
+					["Looter"] = "特變電工",
 					["Name"] = "日刃大法師",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32228::::::::70:::::::::|h[蒼穹藍寶石]|h|r", -- [1]
@@ -178,9 +179,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-580-2956-24892-00003042A6",
 					["Time"] = "20:39:48",
-					["Looter"] = "淡淡的憂傷",
-					["Date"] = "2022-09-25",
 					["Class"] = "HUNTER",
+					["Date"] = "2022-09-25",
+					["Looter"] = "淡淡的憂傷",
 					["Name"] = "『墮落者』塞斯諾瓦",
 					["Loots"] = {
 						"|cffa335ee|Hitem:34848::::::::70:::::::::|h[遺忘征服者護腕]|h|r", -- [1]
@@ -192,9 +193,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-580-2956-24882-00003042A6",
 					["Time"] = "20:45:44",
-					["Looter"] = "誤入狼圈的羊",
-					["Date"] = "2022-09-25",
 					["Class"] = "DEATHKNIGHT",
+					["Date"] = "2022-09-25",
+					["Looter"] = "誤入狼圈的羊",
 					["Name"] = "布魯托魯斯",
 					["Loots"] = {
 						"|cffa335ee|Hitem:34180::::::::70:::::::::|h[魔怒腿鎧]|h|r", -- [1]
@@ -207,9 +208,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-580-2956-25038-0000304DB5",
 					["Time"] = "20:50:32",
-					["Looter"] = "別逼我變熊",
-					["Date"] = "2022-09-25",
 					["Class"] = "DRUID",
+					["Date"] = "2022-09-25",
+					["Looter"] = "別逼我變熊",
 					["Name"] = "魔龍謎霧",
 					["Loots"] = {
 						"|cffa335ee|Hitem:34186::::::::70:::::::::|h[劇烈風暴連結鎖鍊]|h|r", -- [1]
@@ -221,9 +222,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-580-2956-25599-00003042A7",
 					["Time"] = "21:04:58",
-					["Class"] = "DEATHKNIGHT",
-					["Date"] = "2022-09-25",
 					["Looter"] = "聖經爻",
+					["Date"] = "2022-09-25",
+					["Class"] = "DEATHKNIGHT",
 					["Name"] = "裂地獵犬",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32228::::::::70:::::::::|h[蒼穹藍寶石]|h|r", -- [1]
@@ -232,9 +233,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-580-2956-25599-0000B042A7",
 					["Time"] = "21:05:36",
-					["Class"] = "WARRIOR",
-					["Date"] = "2022-09-25",
 					["Looter"] = "巴撒卡",
+					["Date"] = "2022-09-25",
+					["Class"] = "WARRIOR",
 					["Name"] = "裂地獵犬",
 					["Loots"] = {
 						"|cffa335ee|Hitem:32231::::::::70:::::::::|h[焚石]|h|r", -- [1]
@@ -243,9 +244,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-580-2956-25840-0000305313",
 					["Time"] = "21:10:49",
-					["Class"] = "PALADIN",
-					["Date"] = "2022-09-25",
 					["Looter"] = "狠壞",
+					["Date"] = "2022-09-25",
+					["Class"] = "PALADIN",
 					["Name"] = "安卓普斯",
 					["Loots"] = {
 						"|cffa335ee|Hitem:34211::::::::70:::::::::|h[肉體本能背心]|h|r", -- [1]
@@ -258,9 +259,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4491-580-2956-25315-0000305456",
 					["Time"] = "21:19:10",
-					["Class"] = "PALADIN",
-					["Date"] = "2022-09-25",
 					["Looter"] = "若相依",
+					["Date"] = "2022-09-25",
+					["Class"] = "PALADIN",
 					["Name"] = "基爾加丹",
 					["Loots"] = {
 						"|cffa335ee|Hitem:34244::::::::70:::::::::|h[欺瞞偽裝]|h|r", -- [1]
@@ -271,11 +272,10 @@ LootMonitorDB = {
 					},
 				}, -- [20]
 			},
-			["FirstClass"] = "UNKNOWN",
 			["Date"] = "2022-09-18",
 			["Class"] = "WARRIOR",
+			["FirstClass"] = "UNKNOWN",
 			["InstanceName"] = "Sunwell Plateau",
-			["FirstPlayer"] = "未知目標",
 		}, -- [1]
 	},
 	["Config"] = {

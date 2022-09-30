@@ -3,19 +3,18 @@ LootMonitorDB = {
 	["LootLog"] = {
 		{
 			["InstanceID"] = 544,
-			["Player"] = "新特能源",
 			["FirstPlayer"] = "馄饨骑士馅骑",
 			["InstanceName"] = "玛瑟里顿的巢穴",
+			["FirstClass"] = "PALADIN",
 			["Date"] = "2022-09-25",
 			["Class"] = "PRIEST",
-			["FirstClass"] = "PALADIN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4996-544-6619-17257-0000300043",
 					["Time"] = "15:28:05",
-					["Looter"] = "人如若初见丶",
-					["Date"] = "2022-09-25",
 					["Class"] = "DRUID",
+					["Date"] = "2022-09-25",
+					["Looter"] = "人如若初见丶",
 					["Name"] = "玛瑟里顿",
 					["Loots"] = {
 						"|cffa335ee|Hitem:34845::::::::70:::::::::|h[深渊领主的口袋]|h|r", -- [1]
@@ -29,22 +28,22 @@ LootMonitorDB = {
 					},
 				}, -- [1]
 			},
+			["Player"] = "新特能源",
 		}, -- [1]
 		{
 			["InstanceID"] = 565,
-			["Player"] = "新特能源",
 			["FirstPlayer"] = "未知",
 			["InstanceName"] = "格鲁尔的巢穴",
+			["FirstClass"] = "UNKNOWN",
 			["Date"] = "2022-09-25",
 			["Class"] = "PRIEST",
-			["FirstClass"] = "UNKNOWN",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4527-565-18498-18831-000030042B",
 					["Time"] = "15:38:18",
-					["Looter"] = "夜色诡盗",
-					["Date"] = "2022-09-25",
 					["Class"] = "ROGUE",
+					["Date"] = "2022-09-25",
+					["Looter"] = "夜色诡盗",
 					["Name"] = "莫加尔大王",
 					["Loots"] = {
 						"|cffa335ee|Hitem:28801::::::::70:::::::::|h[莫加尔的战盔]|h|r", -- [1]
@@ -57,9 +56,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4527-565-18498-19044-000030042B",
 					["Time"] = "15:41:50",
-					["Looter"] = "夜色诡盗",
-					["Date"] = "2022-09-25",
 					["Class"] = "ROGUE",
+					["Date"] = "2022-09-25",
+					["Looter"] = "夜色诡盗",
 					["Name"] = "屠龙者格鲁尔",
 					["Loots"] = {
 						"|cffa335ee|Hcurrency:42:3|h[公正徽章]|h|r", -- [1]
@@ -71,6 +70,7 @@ LootMonitorDB = {
 					},
 				}, -- [2]
 			},
+			["Player"] = "新特能源",
 		}, -- [2]
 	},
 	["Config"] = {

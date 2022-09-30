@@ -1,8 +1,5 @@
 
 AtlasLootClassicDB = {
-	["global"] = {
-		["__addonrevision"] = 3000002,
-	},
 	["profileKeys"] = {
 		["特变电工 - 祈福"] = "特变电工 - 祈福",
 		["沈南鹏 - 祈福"] = "沈南鹏 - 祈福",
@@ -10,6 +7,9 @@ AtlasLootClassicDB = {
 		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
 		["特工仓库 - 祈福"] = "特工仓库 - 祈福",
 		["新特能源 - 祈福"] = "新特能源 - 祈福",
+	},
+	["global"] = {
+		["__addonrevision"] = 3000002,
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
@@ -78,7 +78,7 @@ AtlasLootClassicDB = {
 				["selected"] = {
 					nil, -- [1]
 					"BlackrockDepths", -- [2]
-					23, -- [3]
+					nil, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},

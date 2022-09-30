@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0701,
+	["LastPlayerFullName"] = "新特能源-祈福",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 28804,
@@ -24,14 +26,14 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:37953::::::::72:::::::::|h[废土之风外衣]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 37224,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:37224::::::::71:::::::::|h[酷热腰带]|h|r",
+			["ID"] = 37947,
+			["Level"] = 146,
+			["Link"] = "|cff1eff00|Hitem:37947::::::::73:::::::::|h[神奇的保暖腰带]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 37214,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:37214::::::::71:::::::::|h[酷热护腿]|h|r",
+			["ID"] = 37945,
+			["Level"] = 146,
+			["Link"] = "|cff1eff00|Hitem:37945::::::::73:::::::::|h[轻薄冰虫护腿]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 35596,
@@ -55,10 +57,10 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:38284::::::::72:::::::::|h[攻城大师的火炬环]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 37528,
-			["Level"] = 138,
+			["ID"] = 38284,
+			["Level"] = 146,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff1eff00|Hitem:37528::::::::71:::::::::|h[旱土之环]|h|r",
+			["Link"] = "|cff1eff00|Hitem:38284::::::::73:::::::::|h[攻城大师的火炬环]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 38213,
@@ -88,13 +90,11 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:31731::::::::63:::::::::|h[米克达的礼物]|h|r",
 		}, -- [17]
 		{
-			["ID"] = 37015,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:37015::::::::70:::::::::|h[探寻魔杖]|h|r",
+			["ID"] = 38202,
+			["Level"] = 146,
+			["Link"] = "|cff1eff00|Hitem:38202::::::::73:::::::::|h[欢乐记忆嫩枝]|h|r",
 		}, -- [18]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "新特能源-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
