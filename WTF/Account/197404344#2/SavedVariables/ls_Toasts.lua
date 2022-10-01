@@ -6,8 +6,8 @@ LS_TOASTS_GLOBAL_CONFIG = {
 		["张坤 - 祈福"] = "Default",
 		["查尔斯三世 - 祈福"] = "Default",
 		["码农巴菲特 - 祈福"] = "Default",
-		["Vscode - 加丁"] = "Default",
 		["新特能源 - 祈福"] = "Default",
+		["Vscode - 加丁"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -18,9 +18,9 @@ LS_TOASTS_GLOBAL_CONFIG = {
 					["dnd"] = false,
 					["sfx"] = true,
 					["anchor"] = 1,
-					["threshold"] = 1,
-					["quest"] = false,
 					["ilvl"] = true,
+					["quest"] = false,
+					["threshold"] = 1,
 				},
 				["achievement"] = {
 					["enabled"] = true,
@@ -42,6 +42,8 @@ LS_TOASTS_GLOBAL_CONFIG = {
 					["anchor"] = 1,
 					["track_loss"] = false,
 					["filters"] = {
+						[101] = 0,
+						[201] = 0,
 						[42] = 0,
 						[1901] = 0,
 					},

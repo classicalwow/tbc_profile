@@ -9276,5 +9276,52 @@ MailLoggerDB = {
 			["ReceiveItems"] = {
 			},
 		}, -- [372]
+		{
+			["TargetName"] = "春哥六拾",
+			["PlayerName"] = "新特能源",
+			["ReceiveMoney"] = 0,
+			["Time"] = "01:57:49",
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["GiveItems"] = {
+			},
+			["Date"] = "2022-10-01",
+			["ReceiveItems"] = {
+			},
+		}, -- [373]
+		{
+			["TargetName"] = "春哥六拾",
+			["PlayerName"] = "新特能源",
+			["Date"] = "2022-10-01",
+			["ReceiveMoney"] = 0,
+			["Time"] = "01:57:49",
+			["GiveMoney"] = 80000,
+			["Location"] = "达拉然",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [374]
+		{
+			["PlayerName"] = "新特能源",
+			["TargetName"] = "联盟拍卖行",
+			["Reason"] = 4,
+			["Date"] = "2022-10-01",
+			["ReceiveMoney"] = 0,
+			["Time"] = "01:59:42",
+			["GiveMoney"] = 0,
+			["Location"] = "暴风城",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 4,
+					["ItemLink"] = "|cff1eff00|Hitem:41599::::::::74:::::::::|h[霜纹包]|h|r",
+					["Name"] = "霜纹包",
+				}, -- [1]
+			},
+		}, -- [375]
 	},
 }

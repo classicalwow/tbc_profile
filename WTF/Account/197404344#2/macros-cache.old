@@ -1,5 +1,8 @@
+VER 3 0000000000000006 "RXPTargeting" "Ability_eyeoftheowl"
+//RestedXP Guides - current step has no configured targets
+END
 VER 3 0000000000000001 "target" "134328"
-/target 纳
+/target 白肩鹰
 /script SetRaidTarget("target", 2)
 END
 VER 3 0000000000000002 "大脚世界频道" "132874"

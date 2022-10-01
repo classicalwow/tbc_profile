@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-	["session"] = 310,
 	["lastSanitation"] = 3,
+	["session"] = 321,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\ItemRack\\ItemRack-3.68.nil.lua:1946: Usage: SaveBindings(1||2)",
@@ -139,8 +139,8 @@ BugGrabberDB = {
 		}, -- [17]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GuideLime_TUGs_WOTLK\\TUGs\\Horde\\62-63 Part.lua",
-			["time"] = "2022/09/01 21:56:03",
 			["session"] = 146,
+			["time"] = "2022/09/01 21:56:03",
 			["counter"] = 89,
 		}, -- [18]
 		{
@@ -568,31 +568,31 @@ BugGrabberDB = {
 			["time"] = "2022/09/01 21:55:45",
 			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:67: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:53>",
-			["session"] = 310,
-			["counter"] = 188,
+			["session"] = 321,
+			["counter"] = 199,
 		}, -- [73]
-		{
-			["message"] = "...ace\\AddOns\\ElvUI\\Wrath\\Modules\\Skins\\Battlefield.lua:30: attempt to index local 'WintergraspTimer' (a nil value)",
-			["time"] = "2022/09/24 15:39:16",
-			["stack"] = "[string \"@Interface\\AddOns\\ElvUI\\Wrath\\Modules\\Skins\\Battlefield.lua\"]:30: in function <...ace\\AddOns\\ElvUI\\Wrath\\Modules\\Skins\\Battlefield.lua:9>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\ElvUI\\Core\\Modules\\Skins\\Skins.lua\"]:1672: in function <Interface\\AddOns\\ElvUI\\Core\\Modules\\Skins\\Skins.lua:1667>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\ElvUI\\Core\\General\\Core.lua\"]:1786: in function `CallLoadFunc'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\General\\Core.lua\"]:1801: in function `CallLoadedModule'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\General\\Core.lua\"]:1827: in function `InitializeModules'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\General\\Core.lua\"]:1936: in function `Initialize'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\init.lua\"]:220: in function <Interface\\AddOns\\ElvUI\\Core\\init.lua:219>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Accountant_Classic\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:70: in function <...ccountant_Classic\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\Accountant_Classic\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Accountant_Classic\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:630: in function <...ccountant_Classic\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>",
-			["session"] = 310,
-			["counter"] = 33,
-		}, -- [74]
 		{
 			["message"] = "Interface\\AddOns\\Puggle\\Puggle-216.lua:1346: bad argument #1 to 'gsub' (string expected, got nil)",
 			["time"] = "2022/08/13 14:30:28",
 			["locals"] = "(*temporary) = nil\n(*temporary) = \"[^ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=]\"\n(*temporary) = \"\"\n(*temporary) = \"string expected, got nil\"\n",
 			["stack"] = "[string \"=[C]\"]: in function `gsub'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1346: in function `Puggle_dec'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:889: in function `Puggle_displayGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:693: in function `Puggle_UpdateCurrentGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:526: in function `Puggle_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
-			["session"] = 310,
-			["counter"] = 520,
+			["session"] = 321,
+			["counter"] = 537,
+		}, -- [74]
+		{
+			["message"] = "...ace\\AddOns\\ElvUI\\Wrath\\Modules\\Skins\\Battlefield.lua:30: attempt to index local 'WintergraspTimer' (a nil value)",
+			["time"] = "2022/09/24 15:39:16",
+			["stack"] = "[string \"@Interface\\AddOns\\ElvUI\\Wrath\\Modules\\Skins\\Battlefield.lua\"]:30: in function <...ace\\AddOns\\ElvUI\\Wrath\\Modules\\Skins\\Battlefield.lua:9>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\ElvUI\\Core\\Modules\\Skins\\Skins.lua\"]:1672: in function <Interface\\AddOns\\ElvUI\\Core\\Modules\\Skins\\Skins.lua:1667>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\ElvUI\\Core\\General\\Core.lua\"]:1786: in function `CallLoadFunc'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\General\\Core.lua\"]:1801: in function `CallLoadedModule'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\General\\Core.lua\"]:1827: in function `InitializeModules'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\General\\Core.lua\"]:1936: in function `Initialize'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\init.lua\"]:220: in function <Interface\\AddOns\\ElvUI\\Core\\init.lua:219>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Accountant_Classic\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:70: in function <...ccountant_Classic\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\Accountant_Classic\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Accountant_Classic\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:630: in function <...ccountant_Classic\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>",
+			["session"] = 321,
+			["counter"] = 44,
 		}, -- [75]
 		{
 			["message"] = "Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:3518: attempt to index local 'factionHeader' (a nil value)",
 			["time"] = "2022/09/01 21:55:59",
 			["locals"] = "self = <table> {\n Update_Tooltip = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:1810\n SupressNone = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:1780\n About = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:739\n GetTabardFaction = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:923\n GetReadyReputation = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:2874\n OriginalRepOrder = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:3510\n DumpTable = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:254\n has_value = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:711\n InitFactionMap = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:977\n Rep_Detail_Frame = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:3107\n GetWords = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:668\n InitMobName = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:810\n ExtractSkills = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:3227\n Quest_Items = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:2399\n SortByStanding = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:3385\n ListByStanding = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:3188\n InitFactor = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:939\n Print = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:623\n DumpReputationChangesToChat = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:2617\n BoolToEnabled = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:700\n StandingSort = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:2993\n ToggleDetailWindow = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:2793\n InitMapName = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:780\n Quest_Names = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:870\n InitItemName = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:848\n Status = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:760\n ClearSessionGain = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:2717\n ShowUpdateEntry = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:2482\n InitFaction = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:970\n Debug = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:654\n Init = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:288\n UpdateEntrySuppress = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:1755\n GetUpdateListSize = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:2465\n PrintSlash = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:649\n Printtest = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:645\n BuildUpdateList = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:1817\n Help = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:725\n Concat = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:684\n InitVariable = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:270\n ToggleConfigWindow = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:2771\n TableSize = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:659\n Content = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:997\n RGBToColour_perc = <function> defined @Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:707\n}\ni = 1\nfactionIndex = 1\nfactionBar = ReputationBar1 {\n 0 = <userdata>\n}\nfactionHeader = nil\nfactionCheck = nil\nfactionName = ReputationBar1FactionName {\n 0 = <userdata>\n}\nfactionStanding = nil\nfactionAtWarIndicator = nil\nfactionRig",
 			["stack"] = "[string \"@Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua\"]:3518: in function `OriginalRepOrder'\n[string \"@Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua\"]:1447: in function `ReputationFrame_Update'\n[string \"*:OnEvent\"]:4: in function <[string \"*:OnEvent\"]:1>",
-			["session"] = 310,
-			["counter"] = 6373,
+			["session"] = 321,
+			["counter"] = 6462,
 		}, -- [76]
 	},
 }

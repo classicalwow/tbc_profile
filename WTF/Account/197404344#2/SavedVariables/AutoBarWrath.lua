@@ -491,7 +491,7 @@ AutoBarDB = {
 					["dockShiftY"] = 0,
 					["alignButtons"] = "3",
 					["posX"] = 300,
-					["hide"] = false,
+					["hide"] = true,
 					["enabled"] = true,
 					["columns"] = 10,
 					["alpha"] = 1,
@@ -612,7 +612,7 @@ AutoBarDB = {
 				["AutoBarButtonMount"] = {
 				},
 				["AutoBarButtonQuest"] = {
-					["arrangeOnUse"] = 38302,
+					["arrangeOnUse"] = 35797,
 				},
 				["AutoBarButtonBuff"] = {
 					["arrangeOnUse"] = 2459,
@@ -1031,5 +1031,5 @@ AutoBarDB2 = {
 	["performance_threshold"] = 100,
 	["custom_categories"] = {
 	},
-	["whatsnew_version"] = "3.00.4.04",
+	["whatsnew_version"] = "3.00.4.05",
 }

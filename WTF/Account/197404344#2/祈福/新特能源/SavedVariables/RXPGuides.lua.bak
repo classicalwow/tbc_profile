@@ -1,0 +1,161 @@
+
+RXPCData = {
+	["GA"] = false,
+	["completedWaypoints"] = {
+		[85] = {
+		},
+		[84] = {
+		},
+	},
+	["currentStep"] = 85,
+	["currentGuideName"] = "74-75 灰熊丘陵",
+	["stepSkip"] = {
+		[58] = true,
+		[59] = true,
+		[4] = true,
+		[61] = true,
+		[16] = true,
+		[9] = true,
+		[37] = true,
+		[38] = true,
+		[76] = true,
+		[43] = true,
+		[23] = true,
+		[67] = true,
+		[79] = true,
+		[13] = true,
+		[34] = true,
+		[52] = true,
+		[53] = true,
+		[73] = true,
+		[28] = true,
+		[56] = true,
+		[27] = true,
+	},
+	["flightPaths"] = {
+	},
+	["currentGuideGroup"] = "RestedXP 联盟 70-80",
+}
+RXPCTrackingData = {
+	["profileKeys"] = {
+		["新特能源 - 祈福"] = "新特能源 - 祈福",
+	},
+	["profiles"] = {
+		["新特能源 - 祈福"] = {
+			["levels"] = {
+				[73] = {
+					["groupExperience"] = 0,
+					["deaths"] = 0,
+					["mobs"] = {
+						["灰熊丘陵"] = {
+							["xp"] = 179896,
+							["count"] = 33,
+						},
+					},
+					["timestamp"] = {
+						["dateFinished"] = {
+							["monthDay"] = 1,
+							["day"] = 0,
+							["month"] = 10,
+							["weekday"] = 7,
+							["year"] = 2022,
+							["hour"] = 0,
+							["minute"] = 58,
+						},
+						["finished"] = 198770,
+					},
+					["quests"] = {
+						["灰熊丘陵"] = {
+							[12294] = 5200,
+							[12292] = 20750,
+							[12212] = 20750,
+							[12215] = 15550,
+							[12226] = 20500,
+							[12216] = 20750,
+							[12293] = 5200,
+							[12217] = 20750,
+						},
+					},
+				},
+				[74] = {
+					["groupExperience"] = 0,
+					["deaths"] = 0,
+					["mobs"] = {
+						["灰熊丘陵"] = {
+							["xp"] = 449335,
+							["count"] = 99,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 1,
+							["day"] = 0,
+							["month"] = 10,
+							["weekday"] = 7,
+							["year"] = 2022,
+							["hour"] = 0,
+							["minute"] = 58,
+						},
+						["started"] = 198771,
+					},
+					["quests"] = {
+						["灰熊丘陵"] = {
+							[12227] = 15400,
+							[12483] = 20950,
+							[12314] = 20750,
+							[12105] = 10400,
+							[12299] = 20750,
+							[12307] = 20750,
+							[12222] = 20750,
+							[12323] = 20750,
+							[12300] = 15550,
+							[12029] = 20750,
+							[12223] = 20750,
+							[12007] = 20750,
+							[12302] = 15550,
+							[12310] = 20750,
+							[12295] = 10400,
+							[12308] = 20750,
+							[12443] = 20750,
+							[12255] = 20750,
+							[12316] = 20750,
+						},
+					},
+				},
+			},
+		},
+	},
+}
+RXPCComms = {
+	["profileKeys"] = {
+		["新特能源 - 祈福"] = "新特能源 - 祈福",
+	},
+	["profiles"] = {
+		["新特能源 - 祈福"] = {
+			["announcements"] = {
+				["74-75 灰熊丘陵"] = {
+					["collect"] = {
+					},
+					["complete"] = {
+					},
+				},
+			},
+		},
+	},
+}
+RXPCSettings = {
+	["profileKeys"] = {
+		["新特能源 - 祈福"] = "新特能源 - 祈福",
+	},
+	["profiles"] = {
+		["新特能源 - 祈福"] = {
+			["windowScale"] = 1.35,
+			["anchorOrientation"] = "bottom",
+			["lockFrames"] = false,
+			["guideFontSize"] = 11,
+			["xprate"] = 1,
+			["frameHeight"] = 28.0000114440918,
+			["hardcore"] = false,
+		},
+	},
+}

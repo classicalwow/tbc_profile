@@ -1,13 +1,11 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0701,
-	["LastPlayerFullName"] = "新特能源-祈福",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 28804,
-			["Level"] = 125,
-			["Link"] = "|cffa335ee|Hitem:28804::::::::70:::::::::|h[古加尔的项圈]|h|r",
+			["ID"] = 38716,
+			["Level"] = 154,
+			["Link"] = "|cff1eff00|Hitem:38716::::::::73:::::::::|h[轻灵兜帽]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 38227,
@@ -21,14 +19,14 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 37953,
-			["Level"] = 146,
-			["Link"] = "|cff1eff00|Hitem:37953::::::::72:::::::::|h[废土之风外衣]|h|r",
+			["ID"] = 38733,
+			["Level"] = 154,
+			["Link"] = "|cff1eff00|Hitem:38733::::::::74:::::::::|h[笼中困兽外套]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 37947,
-			["Level"] = 146,
-			["Link"] = "|cff1eff00|Hitem:37947::::::::73:::::::::|h[神奇的保暖腰带]|h|r",
+			["ID"] = 38727,
+			["Level"] = 154,
+			["Link"] = "|cff1eff00|Hitem:38727::::::::74:::::::::|h[先知的束带]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 37945,
@@ -63,16 +61,16 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:38284::::::::73:::::::::|h[攻城大师的火炬环]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 38213,
-			["Level"] = 138,
+			["ID"] = 44597,
+			["Level"] = 146,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff1eff00|Hitem:38213::::::::70:::::::::|h[先驱者之怒]|h|r",
+			["Link"] = "|cff0070dd|Hitem:44597::::::::73:::::::::|h[英雄勋章]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 37559,
-			["Level"] = 138,
+			["ID"] = 44597,
+			["Level"] = 146,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff1eff00|Hitem:37559::::::::71:::::::::|h[塞尔拉之星]|h|r",
+			["Link"] = "|cff0070dd|Hitem:44597::::::::74:::::::::|h[英雄勋章]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 38222,
@@ -95,6 +93,8 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:38202::::::::73:::::::::|h[欢乐记忆嫩枝]|h|r",
 		}, -- [18]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "新特能源-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
