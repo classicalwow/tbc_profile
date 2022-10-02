@@ -6,6 +6,6 @@ N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][
 END
 VER 3 0000000001000003 "坐骑" "INV_MISC_QUESTIONMARK"
 #showtooltip 金色狮鹫
-/use 金色狮鹫
+/use 迅捷紫色狮鹫
 /use 迅捷白马
 END
