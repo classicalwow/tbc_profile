@@ -1,8 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0701,
-	["LastPlayerFullName"] = "新特能源-祈福",
-	["AutoSelectScales"] = false,
+	["LastVersion"] = 2.0702,
 	["ItemLevels"] = {
 		{
 			["ID"] = 40758,
@@ -10,9 +8,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:40758::::::::75:::::::::|h[诱导兜帽]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 39653,
-			["Level"] = 171,
-			["Link"] = "|cff0070dd|Hitem:39653::::::::76:::::::::|h[背叛者的法术项圈]|h|r",
+			["ID"] = 44034,
+			["Level"] = 174,
+			["Link"] = "|cff0070dd|Hitem:44034::::::::79:::::::::|h[北伐军护符]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 44350,
@@ -31,14 +29,14 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:42785::::::::77:::::::::|h[猛犸肌腱腰带]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 43160,
-			["Level"] = 158,
-			["Link"] = "|cff0070dd|Hitem:43160::::::::75:::::::::|h[苛求护腿]|h|r",
+			["ID"] = 43200,
+			["Level"] = 174,
+			["Link"] = "|cff0070dd|Hitem:43200::::::::78:::::::::|h[雪流长裤]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 35596,
-			["Level"] = 159,
-			["Link"] = "|cff0070dd|Hitem:35596::::::::71:::::::::|h[水晶纹路长靴]|h|r",
+			["ID"] = 44021,
+			["Level"] = 174,
+			["Link"] = "|cff0070dd|Hitem:44021::::::::78:::::::::|h[暗语者的足垫]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 42787,
@@ -57,10 +55,10 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:42845::::::::77:::::::::|h[布伦希尔达符文之戒]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 39792,
-			["Level"] = 158,
+			["ID"] = 42845,
+			["Level"] = 174,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff1eff00|Hitem:39792::::::::77:::::::::|h[光明仪祭指环]|h|r",
+			["Link"] = "|cff1eff00|Hitem:42845::::::::78:::::::::|h[布伦希尔达符文之戒]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 44013,
@@ -69,10 +67,10 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:44013::::::::77:::::::::|h[炮兵的点火器]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 44597,
-			["Level"] = 146,
+			["ID"] = 44013,
+			["Level"] = 174,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff0070dd|Hitem:44597::::::::74:::::::::|h[英雄勋章]|h|r",
+			["Link"] = "|cff0070dd|Hitem:44013::::::::78:::::::::|h[炮兵的点火器]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 38222,
@@ -95,6 +93,8 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:43828::::::::77:::::::::|h[圣光之触]|h|r",
 		}, -- [18]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "新特能源-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
