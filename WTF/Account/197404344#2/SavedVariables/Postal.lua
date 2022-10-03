@@ -5,7 +5,7 @@ Postal3DB = {
 			["alts"] = {
 				"Vscode|加丁|Alliance|3|ROGUE", -- [1]
 				"张坤|祈福|Alliance|55|DEATHKNIGHT", -- [2]
-				"新特能源|祈福|Alliance|77|PRIEST", -- [3]
+				"新特能源|祈福|Alliance|80|PRIEST", -- [3]
 				"查尔斯三世|祈福|Alliance|70|MAGE", -- [4]
 				"沈南鹏|祈福|Alliance|70|PALADIN", -- [5]
 				"特变电工|祈福|Alliance|70|ROGUE", -- [6]

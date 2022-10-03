@@ -939,7 +939,7 @@ TalentEmuSV = {
 		["Player-4778-0505CE58"] = "!T32-6111IAT8A26v1C1r:::ENt1GA!G3211e+9:7IC:51u+-:EIC:41u+-:cgC:F1u+9:VIC:91u++!E320+^+5Q9:861:9+Cj7:861:9+Af7:861:9+^+cj7:861:9+xD6:861:9+lD6:861:9+Zq6:861:9+xe7:861:9+ig7:861:9+jG6:861:9+bg7:861:9+9q6:861:9+GQ9:861:9+zp6:861:9+3K6:1do:761:9+^+cY9:861:9+^",
 		["Player-4778-04F3E689"] = "110",
 		["Player-4778-050B37B0"] = "!T3246111MG::UT9::0MWB-L=Pk5nRMlA1!G3211e+9:DOB:01u+-:a9C:=1u+-:P9C:H1u+9:BOB:A1u++!E320+^+pD6:861:9+OD6:861:9+Af7:861:9+Dc:861:9+cj7:1nQ:761:9+xD6:861:9+Tg7:861:9+Zq6:861:9+og7:861:9+ig7:861:9+jG6:861:9+BC6:861:9+9q6:861:9+VE6:861:9+zp6:861:9+WG6:861:9+^+Vq6:861:9+^",
-		["Player-4778-04F3EDE6"] = "!T325D121JK0f1:::::3O3a8L5ZWADZCe7o8=AcmJAMJSX!G3221e+9:1aB:G1u++-:N-C:81u+9:7aB:=1u+-:3-C:B1u+e+9:uZB:01u++-:3-C:B1u+9:sZB:D1u+-:N-C:81u+!E320+^+qw9:8D1:9+2k-:8D1:9+yo-:8D1:9+^+kg8:8D1:9+VQ-:8D1:9+0X-:8D1:9+pj-:8D1:9+XQ-:8D1:9+Bp-:8D1:9+Wh-:8D1:9+RR-:8D1:9+ps-:8D1:9+hj-:8D1:9+CJ9:8D1:9+lg8:8D1:9+^+lW-:8D1:9+HW-:8D1:9",
+		["Player-4778-04F3EDE6"] = "!T325E122JK0f1:::::3O3a8L5ZWAnZFe7o8=AcmJAMidX:h1!G3222w+9:1aB:G1u+-:oBC:91u+-:N-C:81u+9:7aB:=1u+-:3-C:B1u+9:9aB:41uw+9:zZB:51u+-:T-C:I1u+-:3-C:B1u+9:sZB:D1u+-:N-C:81u+9:3QD:51u!E320+^+O=9:8E1:9+2k-:2Pr6:6E1:9+Gp-:8E1:9+^+a59:8E1:9+mj-:8E1:9+559:8E1:9+pj-:8E1:9+kj-:8E1:9+Td9:1im:1yk9:6E1:9+v79:8E1:9+Wh-:8E1:9+hj-:8E1:9+NA9:8E1:9+CJ9:8E1:9+lA9:8E1:9+qj-:8E1:9+lW-:8E1:9+JW-:8E1:9",
 		["savedTalent"] = {
 			["|cffffffff牧师|r- |cff7fbfff戒律57|r 神圣 4 暗影 0"] = "!T325E111Ce7o8=AcmJAMqfN",
 			["|cfff48cba圣骑士|r- 神圣 0 防护 0 |cff7fbfff惩戒53|r"] = "!T324E111I::::0MWB-L=Pk5nRMlA1",

@@ -148,7 +148,7 @@ RecountDB = {
 				},
 			},
 			["MainWindowVis"] = false,
-			["LastInstanceName"] = "达克萨隆要塞",
+			["LastInstanceName"] = "净化斯坦索姆",
 			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 251.1110992431641,
 		},

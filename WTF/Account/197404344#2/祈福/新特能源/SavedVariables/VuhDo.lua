@@ -942,7 +942,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["54769"] = {
+			["29306"] = {
 				["animate"] = true,
 				["isColor"] = false,
 				["isOthers"] = true,
@@ -964,7 +964,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["27825"] = {
+			["54769"] = {
 				["animate"] = true,
 				["isColor"] = false,
 				["isOthers"] = true,
@@ -975,7 +975,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["29306"] = {
+			["27825"] = {
 				["animate"] = true,
 				["isColor"] = false,
 				["isOthers"] = true,
@@ -1406,14 +1406,14 @@ VUHDO_PANEL_SETUP = {
 			["xAdjust"] = 0,
 		},
 		["POSITION"] = {
-			["y"] = 176.5544128417969,
-			["x"] = -492.0002136230469,
-			["orientation"] = "BOTTOMRIGHT",
-			["relativePoint"] = "BOTTOMRIGHT",
+			["y"] = 339.5531921386719,
+			["x"] = 1354.667236328125,
+			["orientation"] = "TOPLEFT",
+			["relativePoint"] = "BOTTOMLEFT",
 			["scale"] = 1,
-			["height"] = 83.00000762939453,
+			["height"] = 53.00000381469727,
 			["growth"] = "TOPLEFT",
-			["width"] = 114.0000381469727,
+			["width"] = 57.99996948242188,
 		},
 		["RAID_ICON"] = {
 			["show"] = true,
@@ -1424,8 +1424,6 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "MEDIUM",
 		["MODEL"] = {
-			["ordering"] = 0,
-			["sort"] = 0,
 			["groups"] = {
 				1, -- [1]
 				2, -- [2]
@@ -1437,6 +1435,8 @@ VUHDO_PANEL_SETUP = {
 				8, -- [8]
 				40, -- [9]
 			},
+			["ordering"] = 0,
+			["sort"] = 0,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -1552,7 +1552,7 @@ VUHDO_PANEL_SETUP = {
 		},
 		["ID_TEXT"] = {
 			["showTags"] = true,
-			["_spacing"] = 17.99995994567871,
+			["_spacing"] = 17.99999618530273,
 			["showNickname"] = false,
 			["showClass"] = false,
 			["showName"] = true,
@@ -1579,8 +1579,8 @@ VUHDO_PANEL_SETUP = {
 			["xAdjust"] = 0,
 		},
 		["POSITION"] = {
-			["y"] = 427.7785034179688,
-			["x"] = 1757.21923828125,
+			["y"] = 242.2229309082031,
+			["x"] = 2050.55224609375,
 			["orientation"] = "TOPLEFT",
 			["relativePoint"] = "BOTTOMLEFT",
 			["scale"] = 1,
@@ -1597,12 +1597,12 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "MEDIUM",
 		["MODEL"] = {
-			["ordering"] = 0,
-			["sort"] = 0,
 			["groups"] = {
 				42, -- [1]
 				44, -- [2]
 			},
+			["ordering"] = 0,
+			["sort"] = 0,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -1718,7 +1718,7 @@ VUHDO_PANEL_SETUP = {
 		},
 		["ID_TEXT"] = {
 			["showTags"] = true,
-			["_spacing"] = 17.99999618530273,
+			["_spacing"] = 18.00001525878906,
 			["showNickname"] = false,
 			["showClass"] = false,
 			["showName"] = true,
@@ -3883,7 +3883,7 @@ VUHDO_SPELL_ASSIGNMENTS = {
 	["ctrl2"] = {
 		"ctrl-", -- [1]
 		"2", -- [2]
-		"群体驱散", -- [3]
+		"愈合祷言", -- [3]
 	},
 	["shift2"] = {
 		"shift-", -- [1]
@@ -3925,15 +3925,15 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"3", -- [2]
 		"恢复", -- [3]
 	},
-	["ctrl4"] = {
-		"ctrl-", -- [1]
-		"4", -- [2]
-		"愈合祷言", -- [3]
+	["2"] = {
+		"", -- [1]
+		"2", -- [2]
+		"真言术：盾", -- [3]
 	},
-	["shift1"] = {
-		"SHIFT-", -- [1]
-		"1", -- [2]
-		"痛苦压制", -- [3]
+	["ctrlshift2"] = {
+		"CTRL-SHIFT-", -- [1]
+		"2", -- [2]
+		"苦修", -- [3]
 	},
 	["4"] = {
 		"", -- [1]
@@ -3950,30 +3950,35 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"3", -- [2]
 		"真言术：盾", -- [3]
 	},
+	["5"] = {
+		"", -- [1]
+		"5", -- [2]
+		"联结治疗", -- [3]
+	},
 	["alt2"] = {
 		"alt-", -- [1]
 		"2", -- [2]
 		"focus", -- [3]
 	},
-	["ctrlshift2"] = {
-		"CTRL-SHIFT-", -- [1]
-		"2", -- [2]
-		"苦修", -- [3]
+	["ctrl3"] = {
+		"CTRL-", -- [1]
+		"3", -- [2]
+		"群体驱散", -- [3]
+	},
+	["shift1"] = {
+		"SHIFT-", -- [1]
+		"1", -- [2]
+		"痛苦压制", -- [3]
+	},
+	["ctrl4"] = {
+		"ctrl-", -- [1]
+		"4", -- [2]
+		"愈合祷言", -- [3]
 	},
 	["alt1"] = {
 		"alt-", -- [1]
 		"1", -- [2]
 		"target", -- [3]
-	},
-	["2"] = {
-		"", -- [1]
-		"2", -- [2]
-		"真言术：盾", -- [3]
-	},
-	["5"] = {
-		"", -- [1]
-		"5", -- [2]
-		"联结治疗", -- [3]
 	},
 }
 VUHDO_HOSTILE_SPELL_ASSIGNMENTS = {
@@ -4436,9 +4441,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -4446,9 +4451,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -4501,9 +4506,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w9", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 	},
@@ -4530,9 +4535,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -4540,9 +4545,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -4595,9 +4600,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w9", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 	},
@@ -4646,14 +4651,14 @@ VUHDO_SPEC_LAYOUTS = {
 VUHDO_GROUP_SIZE = 1
 VUHDO_RAID = {
 	["player"] = {
-		["zone"] = "冰冠冰川",
+		["zone"] = "达拉然",
 		["baseRange"] = true,
 		["class"] = "PRIEST",
-		["role"] = 60,
-		["sortMaxHp"] = 10337,
-		["map"] = "冰冠冰川",
+		["role"] = 63,
+		["sortMaxHp"] = 14180,
+		["map"] = "达拉然",
 		["threat"] = 0,
-		["powermax"] = 12204,
+		["powermax"] = 16558,
 		["threatPerc"] = 0,
 		["isPet"] = false,
 		["name"] = "新特能源",
@@ -4664,17 +4669,17 @@ VUHDO_RAID = {
 		["range"] = true,
 		["unit"] = "player",
 		["debuff"] = 0,
-		["healthmax"] = 10337,
-		["loghealth"] = 7360,
+		["healthmax"] = 14180,
+		["loghealth"] = 14180,
 		["dead"] = false,
 		["charmed"] = false,
 		["fullName"] = "新特能源",
-		["power"] = 12204,
+		["power"] = 16558,
 		["aggro"] = false,
 		["targetUnit"] = "target",
 		["isAltPower"] = false,
 		["visible"] = true,
-		["health"] = 10337,
+		["health"] = 14180,
 		["className"] = "牧师",
 		["afk"] = false,
 		["powertype"] = 0,
@@ -4693,9 +4698,9 @@ VUHDO_INDICATOR_CONFIG = {
 		["INCOMING_BAR"] = "",
 		["SWIFTMEND_INDICATOR"] = "角色 & 召唤状态图标",
 		["THREAT_MARK"] = "",
+		["MANA_BAR"] = "法力条: 只有法力值",
 		["BAR_BORDER"] = "边框: 多边 + 仇恨",
 		["SIDE_RIGHT"] = "",
-		["MANA_BAR"] = "法力条: 只有法力值",
 		["HEALTH_BAR"] = "血量: (通用, 职业颜色)",
 		["CLUSTER_BORDER"] = "",
 		["HEALTH_BAR_PANEL"] = {

@@ -8728,15 +8728,15 @@ MailLoggerDB = {
 			},
 		}, -- [347]
 		{
+			["PlayerName"] = "新特能源",
 			["Date"] = "2022-09-25",
-			["TargetName"] = "邪龍",
 			["ReceiveMoney"] = 0,
 			["Time"] = "15:51:00",
 			["GiveMoney"] = 0,
 			["Location"] = "格鲁尔的巢穴",
 			["GiveItems"] = {
 			},
-			["PlayerName"] = "新特能源",
+			["TargetName"] = "邪龍",
 			["ReceiveItems"] = {
 			},
 		}, -- [348]
@@ -8775,15 +8775,15 @@ MailLoggerDB = {
 			},
 		}, -- [349]
 		{
+			["PlayerName"] = "新特能源",
 			["Date"] = "2022-09-25",
-			["TargetName"] = "天泽一",
 			["ReceiveMoney"] = 0,
 			["Time"] = "15:52:36",
 			["GiveMoney"] = 0,
 			["Location"] = "格鲁尔的巢穴",
 			["GiveItems"] = {
 			},
-			["PlayerName"] = "新特能源",
+			["TargetName"] = "天泽一",
 			["ReceiveItems"] = {
 			},
 		}, -- [350]
@@ -8802,15 +8802,15 @@ MailLoggerDB = {
 			},
 		}, -- [351]
 		{
+			["PlayerName"] = "新特能源",
 			["Date"] = "2022-09-25",
-			["TargetName"] = "春哥八六",
 			["ReceiveMoney"] = 0,
 			["Time"] = "15:57:22",
 			["GiveMoney"] = 0,
 			["Location"] = "东瘟疫之地",
 			["GiveItems"] = {
 			},
-			["PlayerName"] = "新特能源",
+			["TargetName"] = "春哥八六",
 			["ReceiveItems"] = {
 			},
 		}, -- [352]
@@ -9206,15 +9206,15 @@ MailLoggerDB = {
 			},
 		}, -- [369]
 		{
+			["TargetName"] = "春哥六三",
 			["PlayerName"] = "新特能源",
-			["Date"] = "2022-09-28",
 			["ReceiveMoney"] = 0,
 			["Time"] = "22:26:21",
 			["GiveMoney"] = 0,
 			["Location"] = "铁炉堡",
 			["GiveItems"] = {
 			},
-			["TargetName"] = "春哥六三",
+			["Date"] = "2022-09-28",
 			["ReceiveItems"] = {
 			},
 		}, -- [370]
@@ -9277,15 +9277,15 @@ MailLoggerDB = {
 			},
 		}, -- [372]
 		{
+			["Date"] = "2022-10-01",
 			["TargetName"] = "春哥六拾",
-			["PlayerName"] = "新特能源",
 			["ReceiveMoney"] = 0,
 			["Time"] = "01:57:49",
 			["GiveMoney"] = 0,
 			["Location"] = "达拉然",
 			["GiveItems"] = {
 			},
-			["Date"] = "2022-10-01",
+			["PlayerName"] = "新特能源",
 			["ReceiveItems"] = {
 			},
 		}, -- [373]
@@ -9324,14 +9324,14 @@ MailLoggerDB = {
 			},
 		}, -- [375]
 		{
-			["PlayerName"] = "新特能源",
 			["TargetName"] = "Haruno",
+			["Date"] = "2022-10-01",
 			["ReceiveMoney"] = 0,
 			["GiveItems"] = {
 			},
 			["GiveMoney"] = 0,
 			["Location"] = "达克萨隆要塞",
-			["Date"] = "2022-10-01",
+			["PlayerName"] = "新特能源",
 			["Time"] = "16:00:20",
 			["ReceiveItems"] = {
 			},
@@ -9636,5 +9636,487 @@ MailLoggerDB = {
 			["ReceiveItems"] = {
 			},
 		}, -- [386]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "新特能源",
+			["Date"] = "2022-10-02",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 3,
+					["ItemLink"] = "|cffffffff|Hitem:42253::::::::77:::::::::|h[冰网蛛丝]|h|r",
+					["Name"] = "冰网蛛丝",
+				}, -- [1]
+				{
+					["Number"] = 20,
+					["ItemLink"] = "|cffffffff|Hitem:33470::::::::77:::::::::|h[霜纹布]|h|r",
+					["Name"] = "霜纹布",
+				}, -- [2]
+				{
+					["Number"] = 2,
+					["ItemLink"] = "|cffffffff|Hitem:40097::::::::77:::::::::|h[防护药剂]|h|r",
+					["Name"] = "防护药剂",
+				}, -- [3]
+				{
+					["Number"] = 4,
+					["ItemLink"] = "|cffffffff|Hitem:36909::::::::77:::::::::|h[钴矿石]|h|r",
+					["Name"] = "钴矿石",
+				}, -- [4]
+				{
+					["Number"] = 2,
+					["ItemLink"] = "|cff1eff00|Hitem:36917::::::::77:::::::::|h[血石]|h|r",
+					["Name"] = "血石",
+				}, -- [5]
+				{
+					["Number"] = 2,
+					["ItemLink"] = "|cffffffff|Hitem:36907::::::::77:::::::::|h[塔兰德拉的玫瑰]|h|r",
+					["Name"] = "塔兰德拉的玫瑰",
+				}, -- [6]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:33568::::::::77:::::::::|h[北地皮]|h|r",
+					["Name"] = "北地皮",
+				}, -- [7]
+				{
+					["Number"] = 20,
+					["ItemLink"] = "|cffffffff|Hitem:34722::::::::77:::::::::|h[厚霜纹布绷带]|h|r",
+					["Name"] = "厚霜纹布绷带",
+				}, -- [8]
+				{
+					["Number"] = 4,
+					["ItemLink"] = "|cffffffff|Hitem:44328::::::::77:::::::::|h[极效防御药剂]|h|r",
+					["Name"] = "极效防御药剂",
+				}, -- [9]
+				{
+					["Number"] = 6,
+					["ItemLink"] = "|cffffffff|Hitem:43465::::::::77:::::::::|h[力量卷轴 VII]|h|r",
+					["Name"] = "力量卷轴 VII",
+				}, -- [10]
+				{
+					["Number"] = 2,
+					["ItemLink"] = "|cffffffff|Hitem:36906::::::::77:::::::::|h[冰棘草]|h|r",
+					["Name"] = "冰棘草",
+				}, -- [11]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff0070dd|Hitem:36921::::::::77:::::::::|h[秋色石]|h|r",
+					["Name"] = "秋色石",
+				}, -- [12]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "风暴峭壁",
+			["Time"] = "11:55:27",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [387]
+		{
+			["TargetName"] = "特工仓库",
+			["PlayerName"] = "新特能源",
+			["Date"] = "2022-10-02",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 20,
+					["ItemLink"] = "|cffffffff|Hitem:33470::::::::77:::::::::|h[霜纹布]|h|r",
+					["Name"] = "霜纹布",
+				}, -- [1]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "风暴峭壁",
+			["Time"] = "11:55:30",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [388]
+		{
+			["PlayerName"] = "新特能源",
+			["TargetName"] = "罗宁",
+			["Reason"] = 3,
+			["Date"] = "2022-10-02",
+			["ReceiveMoney"] = 0,
+			["Time"] = "21:48:24",
+			["GiveMoney"] = 0,
+			["Location"] = "铁炉堡",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:41426::::::::80:::::::::|h[魔法包装的礼物]|h|r",
+					["Name"] = "魔法包装的礼物",
+				}, -- [1]
+			},
+		}, -- [389]
+		{
+			["PlayerName"] = "新特能源",
+			["TargetName"] = "联盟拍卖行",
+			["Reason"] = 2,
+			["Date"] = "2022-10-02",
+			["ReceiveMoney"] = 0,
+			["Time"] = "21:48:31",
+			["GiveMoney"] = 0,
+			["Location"] = "铁炉堡",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:42407::::::::80:::::::::|h[暗影雕文]|h|r",
+					["Name"] = "暗影雕文",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:43374::::::::80:::::::::|h[暗影魔雕文]|h|r",
+					["Name"] = "暗影魔雕文",
+				}, -- [2]
+			},
+		}, -- [390]
+		{
+			["PlayerName"] = "新特能源",
+			["TargetName"] = "联盟拍卖行",
+			["Reason"] = 3,
+			["Date"] = "2022-10-02",
+			["ReceiveMoney"] = 0,
+			["Time"] = "21:51:12",
+			["GiveMoney"] = 0,
+			["Location"] = "铁炉堡",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:45756::::::::80:::::::::|h[苦修雕文]|h|r",
+					["Name"] = "苦修雕文",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:42400::::::::80:::::::::|h[快速治疗雕文]|h|r",
+					["Name"] = "快速治疗雕文",
+				}, -- [2]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:43372::::::::80:::::::::|h[防护暗影雕文]|h|r",
+					["Name"] = "防护暗影雕文",
+				}, -- [3]
+			},
+		}, -- [391]
+		{
+			["Date"] = "2022-10-02",
+			["TargetName"] = "牧丶糸",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:07:18",
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["GiveItems"] = {
+			},
+			["PlayerName"] = "新特能源",
+			["ReceiveItems"] = {
+			},
+		}, -- [392]
+		{
+			["TargetName"] = "牧丶糸",
+			["PlayerName"] = "新特能源",
+			["Date"] = "2022-10-02",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:07:18",
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28118::::::::80:::::::::|h[符文红绚石]|h|r",
+					["Name"] = "符文红绚石",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28118::::::::80:::::::::|h[符文红绚石]|h|r",
+					["Name"] = "符文红绚石",
+				}, -- [2]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28118::::::::80:::::::::|h[符文红绚石]|h|r",
+					["Name"] = "符文红绚石",
+				}, -- [3]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28118::::::::80:::::::::|h[符文红绚石]|h|r",
+					["Name"] = "符文红绚石",
+				}, -- [4]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28118::::::::80:::::::::|h[符文红绚石]|h|r",
+					["Name"] = "符文红绚石",
+				}, -- [5]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28118::::::::80:::::::::|h[符文红绚石]|h|r",
+					["Name"] = "符文红绚石",
+				}, -- [6]
+			},
+		}, -- [393]
+		{
+			["Date"] = "2022-10-02",
+			["TargetName"] = "牧丶糸",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:07:41",
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["GiveItems"] = {
+			},
+			["PlayerName"] = "新特能源",
+			["ReceiveItems"] = {
+			},
+		}, -- [394]
+		{
+			["TargetName"] = "牧丶糸",
+			["PlayerName"] = "新特能源",
+			["Date"] = "2022-10-02",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:07:41",
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28123::::::::80:::::::::|h[高能精致黄宝石]|h|r",
+					["Name"] = "高能精致黄宝石",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28123::::::::80:::::::::|h[高能精致黄宝石]|h|r",
+					["Name"] = "高能精致黄宝石",
+				}, -- [2]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28123::::::::80:::::::::|h[高能精致黄宝石]|h|r",
+					["Name"] = "高能精致黄宝石",
+				}, -- [3]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28123::::::::80:::::::::|h[高能精致黄宝石]|h|r",
+					["Name"] = "高能精致黄宝石",
+				}, -- [4]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28123::::::::80:::::::::|h[高能精致黄宝石]|h|r",
+					["Name"] = "高能精致黄宝石",
+				}, -- [5]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28123::::::::80:::::::::|h[高能精致黄宝石]|h|r",
+					["Name"] = "高能精致黄宝石",
+				}, -- [6]
+			},
+		}, -- [395]
+		{
+			["Date"] = "2022-10-02",
+			["TargetName"] = "牧丶糸",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:07:49",
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["GiveItems"] = {
+			},
+			["PlayerName"] = "新特能源",
+			["ReceiveItems"] = {
+			},
+		}, -- [396]
+		{
+			["TargetName"] = "牧丶糸",
+			["PlayerName"] = "新特能源",
+			["Date"] = "2022-10-02",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:07:49",
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28118::::::::80:::::::::|h[符文红绚石]|h|r",
+					["Name"] = "符文红绚石",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28118::::::::80:::::::::|h[符文红绚石]|h|r",
+					["Name"] = "符文红绚石",
+				}, -- [2]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28118::::::::80:::::::::|h[符文红绚石]|h|r",
+					["Name"] = "符文红绚石",
+				}, -- [3]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28118::::::::80:::::::::|h[符文红绚石]|h|r",
+					["Name"] = "符文红绚石",
+				}, -- [4]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28118::::::::80:::::::::|h[符文红绚石]|h|r",
+					["Name"] = "符文红绚石",
+				}, -- [5]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28118::::::::80:::::::::|h[符文红绚石]|h|r",
+					["Name"] = "符文红绚石",
+				}, -- [6]
+			},
+		}, -- [397]
+		{
+			["Date"] = "2022-10-02",
+			["TargetName"] = "牧丶糸",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:07:58",
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["GiveItems"] = {
+			},
+			["PlayerName"] = "新特能源",
+			["ReceiveItems"] = {
+			},
+		}, -- [398]
+		{
+			["TargetName"] = "牧丶糸",
+			["PlayerName"] = "新特能源",
+			["Date"] = "2022-10-02",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:07:58",
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28123::::::::80:::::::::|h[高能精致黄宝石]|h|r",
+					["Name"] = "高能精致黄宝石",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28123::::::::80:::::::::|h[高能精致黄宝石]|h|r",
+					["Name"] = "高能精致黄宝石",
+				}, -- [2]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28123::::::::80:::::::::|h[高能精致黄宝石]|h|r",
+					["Name"] = "高能精致黄宝石",
+				}, -- [3]
+			},
+		}, -- [399]
+		{
+			["Date"] = "2022-10-02",
+			["TargetName"] = "战复丶德",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:17:07",
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["GiveItems"] = {
+			},
+			["PlayerName"] = "新特能源",
+			["ReceiveItems"] = {
+			},
+		}, -- [400]
+		{
+			["TargetName"] = "战复丶德",
+			["PlayerName"] = "新特能源",
+			["Date"] = "2022-10-02",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:17:07",
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:38979::::::::80:::::::::|h[卷轴：附魔手套 - 优异法术能量]|h|r",
+					["Name"] = "卷轴：附魔手套 - 优异法术能量",
+				}, -- [1]
+			},
+		}, -- [401]
+		{
+			["Date"] = "2022-10-02",
+			["TargetName"] = "战复丶德",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:19:33",
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["GiveItems"] = {
+			},
+			["PlayerName"] = "新特能源",
+			["ReceiveItems"] = {
+			},
+		}, -- [402]
+		{
+			["TargetName"] = "战复丶德",
+			["PlayerName"] = "新特能源",
+			["Date"] = "2022-10-02",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:19:33",
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff0070dd|Hitem:39998::::::::80:::::::::|h[符文血玉石]|h|r",
+					["Name"] = "符文血玉石",
+				}, -- [1]
+			},
+		}, -- [403]
+		{
+			["Date"] = "2022-10-02",
+			["TargetName"] = "战复丶德",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:26:25",
+			["GiveMoney"] = 0,
+			["Location"] = "艾卓-尼鲁布",
+			["GiveItems"] = {
+			},
+			["PlayerName"] = "新特能源",
+			["ReceiveItems"] = {
+			},
+		}, -- [404]
+		{
+			["TargetName"] = "战复丶德",
+			["PlayerName"] = "新特能源",
+			["Date"] = "2022-10-02",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:26:25",
+			["GiveMoney"] = 0,
+			["Location"] = "艾卓-尼鲁布",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 20,
+					["ItemLink"] = "|cffffffff|Hitem:33445::::::::80:::::::::|h[薄荷蜜茶]|h|r",
+					["Name"] = "薄荷蜜茶",
+				}, -- [1]
+				{
+					["Number"] = 20,
+					["ItemLink"] = "|cffffffff|Hitem:33445::::::::80:::::::::|h[薄荷蜜茶]|h|r",
+					["Name"] = "薄荷蜜茶",
+				}, -- [2]
+			},
+		}, -- [405]
 	},
 }

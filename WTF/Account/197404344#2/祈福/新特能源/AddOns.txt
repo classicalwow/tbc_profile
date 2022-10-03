@@ -26,7 +26,7 @@ weakaurasarchive: enabled
 dbm-pvp: enabled
 classiccodex-db-zhcn: disabled
 dbm-sunwell: enabled
-blizzmove_debug: enabled
+blizzmove_debug: disabled
 classiccodex: disabled
 atlaslootclassic_collections: enabled
 dbm-worldevents: enabled

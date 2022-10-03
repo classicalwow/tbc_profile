@@ -10,6 +10,53 @@ AtlasLootClassicDB = {
 	},
 	["global"] = {
 		["__addonrevision"] = 3000004,
+		["VendorPrice"] = {
+			[40610] = "EmblemOfHeroism:80",
+			[40738] = "EmblemOfValor:60",
+			[41937] = "EmblemOfHeroism:30",
+			[40679] = "EmblemOfHeroism:25",
+			[40681] = "EmblemOfHeroism:25",
+			[40683] = "EmblemOfHeroism:40",
+			[40685] = "EmblemOfHeroism:40",
+			[40750] = "EmblemOfValor:40",
+			[40689] = "EmblemOfHeroism:40",
+			[40691] = "EmblemOfHeroism:40",
+			[40693] = "EmblemOfHeroism:40",
+			[40695] = "EmblemOfHeroism:40",
+			[40697] = "EmblemOfHeroism:40",
+			[40699] = "EmblemOfHeroism:25",
+			[40701] = "EmblemOfHeroism:35",
+			[40703] = "EmblemOfHeroism:50",
+			[41847] = "EmblemOfHeroism:30",
+			[41849] = "EmblemOfHeroism:45",
+			[41851] = "EmblemOfHeroism:45",
+			[41918] = "EmblemOfHeroism:45",
+			[41924] = "EmblemOfHeroism:45",
+			[41930] = "EmblemOfHeroism:30",
+			[41912] = "EmblemOfHeroism:45",
+			[40613] = "EmblemOfHeroism:60",
+			[40678] = "EmblemOfHeroism:25",
+			[40680] = "EmblemOfHeroism:25",
+			[40682] = "EmblemOfHeroism:40",
+			[40684] = "EmblemOfHeroism:40",
+			[40749] = "EmblemOfValor:40",
+			[40688] = "EmblemOfHeroism:40",
+			[40716] = "EmblemOfHeroism:15",
+			[40692] = "EmblemOfHeroism:40",
+			[40694] = "EmblemOfHeroism:40",
+			[40696] = "EmblemOfHeroism:40",
+			[40698] = "EmblemOfHeroism:25",
+			[40700] = "EmblemOfHeroism:35",
+			[40702] = "EmblemOfHeroism:50",
+			[40704] = "EmblemOfHeroism:50",
+			[40751] = "EmblemOfValor:40",
+			[43102] = "EmblemOfHeroism:10",
+			[40748] = "EmblemOfValor:40",
+			[40740] = "EmblemOfValor:60",
+			[41848] = "EmblemOfHeroism:45",
+			[41850] = "EmblemOfHeroism:30",
+			[40739] = "EmblemOfValor:60",
+		},
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
@@ -71,15 +118,14 @@ AtlasLootClassicDB = {
 					nil, -- [1]
 					nil, -- [2]
 					"CENTER", -- [3]
-					-7.294639362953603e-05, -- [4]
-					-0.5554502606391907, -- [5]
+					-98.33348846435547, -- [4]
+					-2.778053760528565, -- [5]
 				},
-				["selectedGameVersion"] = 1,
 				["selected"] = {
 					nil, -- [1]
-					"BlackrockDepths", -- [2]
-					nil, -- [3]
-					1, -- [4]
+					"TheCullingOfStratholme", -- [2]
+					4, -- [3]
+					6, -- [4]
 					0, -- [5]
 				},
 			},

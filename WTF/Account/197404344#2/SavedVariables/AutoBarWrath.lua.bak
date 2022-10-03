@@ -1009,13 +1009,13 @@ AutoBarDB = {
 		["新特能源 - 祈福"] = {
 			["buttonDataList"] = {
 				["AutoBarButtonElixirBattle"] = {
-					["arrangeOnUse"] = 44327,
+					["arrangeOnUse"] = 40070,
 				},
 				["AutoBarButtonBuff"] = {
-					["arrangeOnUse"] = 37093,
+					["arrangeOnUse"] = 37091,
 				},
 				["AutoBarButtonQuest"] = {
-					["arrangeOnUse"] = 38699,
+					["arrangeOnUse"] = 43494,
 				},
 				["AutoBarButtonMount"] = {
 				},
