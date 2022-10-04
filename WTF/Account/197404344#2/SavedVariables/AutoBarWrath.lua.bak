@@ -198,7 +198,7 @@ AutoBarDB = {
 					["dockShiftY"] = 0,
 					["alignButtons"] = "3",
 					["posX"] = 300,
-					["hide"] = false,
+					["hide"] = true,
 					["enabled"] = true,
 					["columns"] = 10,
 					["alpha"] = 1,
@@ -249,14 +249,14 @@ AutoBarDB = {
 					["square_popups"] = true,
 				},
 				["AutoBarButtonPickLock"] = {
-					["enabled"] = true,
-					["buttonClass"] = "AutoBarButtonPickLock",
-					["square_popups"] = true,
 					["barKey"] = "AutoBarClassBarRogue",
+					["buttonClass"] = "AutoBarButtonPickLock",
+					["defaultButtonIndex"] = "*",
+					["enabled"] = true,
 					["arrangeOnUse"] = true,
 					["targeted"] = "Lockpicking",
 					["buttonKey"] = "AutoBarButtonPickLock",
-					["defaultButtonIndex"] = "*",
+					["square_popups"] = true,
 				},
 				["AutoBarButtonInterrupt"] = {
 					["barKey"] = "AutoBarClassBarRogue",
@@ -962,7 +962,16 @@ AutoBarDB = {
 	["chars"] = {
 		["特变电工 - 祈福"] = {
 			["buttonDataList"] = {
+				["AutoBarButtonCrafting"] = {
+					["arrangeOnUse"] = "急救",
+				},
 				["AutoBarButtonMount"] = {
+				},
+				["AutoBarButtonBuffWeapon1"] = {
+					["arrangeOnUse"] = 21927,
+				},
+				["AutoBarButtonBuff"] = {
+					["arrangeOnUse"] = 27498,
 				},
 			},
 			["barList"] = {
@@ -1015,7 +1024,7 @@ AutoBarDB = {
 					["arrangeOnUse"] = 37091,
 				},
 				["AutoBarButtonQuest"] = {
-					["arrangeOnUse"] = 43494,
+					["arrangeOnUse"] = 42246,
 				},
 				["AutoBarButtonMount"] = {
 				},

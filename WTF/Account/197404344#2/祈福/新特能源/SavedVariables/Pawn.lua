@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0702,
+	["LastPlayerFullName"] = "新特能源-祈福",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 37594,
@@ -93,8 +95,6 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:43828::::::::77:::::::::|h[圣光之触]|h|r",
 		}, -- [18]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "新特能源-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

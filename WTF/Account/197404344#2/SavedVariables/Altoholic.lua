@@ -8,4 +8,9 @@ AltoholicDB = {
 		["新特能源 - 祈福"] = "新特能源 - 祈福",
 		["Vscode - 加丁"] = "Vscode - 加丁",
 	},
+	["global"] = {
+		["options"] = {
+			["UI.Mail.LastExpiryWarning"] = 1664815149,
+		},
+	},
 }

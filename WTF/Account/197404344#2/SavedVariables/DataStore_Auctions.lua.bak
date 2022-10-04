@@ -15,8 +15,8 @@ DataStore_AuctionsDB = {
 				["lastVisitDate"] = "2022/09/01 22:14",
 			},
 			["Default.祈福.特变电工"] = {
-				["lastUpdate"] = 1661580408,
-				["lastVisitDate"] = "2022/08/27 14:06",
+				["lastUpdate"] = 1664785688,
+				["lastVisitDate"] = "2022/10/03 16:28",
 			},
 		},
 	},

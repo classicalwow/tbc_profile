@@ -25,7 +25,6 @@ ItemRackUser = {
 		},
 		["~Unequip"] = {
 			["equip"] = {
-				[13] = "31617::::::::70:::::::::",
 			},
 		},
 	},
@@ -37,7 +36,6 @@ ItemRackUser = {
 	},
 	["Events"] = {
 		["Enabled"] = {
-			["Mounted"] = true,
 		},
 		["Set"] = {
 			["Mounted"] = "胡萝卜",

@@ -295,7 +295,7 @@ AutoBarDB = {
 					["dockShiftY"] = 0,
 					["alignButtons"] = "3",
 					["posX"] = 300,
-					["hide"] = false,
+					["hide"] = true,
 					["enabled"] = true,
 					["columns"] = 10,
 					["alpha"] = 1,
@@ -347,12 +347,12 @@ AutoBarDB = {
 				},
 				["AutoBarButtonPickLock"] = {
 					["enabled"] = true,
-					["buttonClass"] = "AutoBarButtonPickLock",
-					["defaultButtonIndex"] = "*",
-					["barKey"] = "AutoBarClassBarRogue",
-					["arrangeOnUse"] = true,
 					["targeted"] = "Lockpicking",
 					["buttonKey"] = "AutoBarButtonPickLock",
+					["defaultButtonIndex"] = "*",
+					["arrangeOnUse"] = true,
+					["buttonClass"] = "AutoBarButtonPickLock",
+					["barKey"] = "AutoBarClassBarRogue",
 					["square_popups"] = true,
 				},
 				["AutoBarButtonInterrupt"] = {
@@ -560,6 +560,18 @@ AutoBarDB = {
 	["chars"] = {
 		["特变电工 - 祈福"] = {
 			["buttonDataList"] = {
+				["AutoBarButtonElixirBattle"] = {
+					["arrangeOnUse"] = 22831,
+				},
+				["AutoBarButtonBuff"] = {
+					["arrangeOnUse"] = 27498,
+				},
+				["AutoBarButtonBuffWeapon1"] = {
+					["arrangeOnUse"] = 21927,
+				},
+				["AutoBarButtonCrafting"] = {
+					["arrangeOnUse"] = "急救",
+				},
 				["AutoBarButtonMount"] = {
 				},
 			},
@@ -613,7 +625,7 @@ AutoBarDB = {
 					["arrangeOnUse"] = 37091,
 				},
 				["AutoBarButtonQuest"] = {
-					["arrangeOnUse"] = 43494,
+					["arrangeOnUse"] = 42246,
 				},
 				["AutoBarButtonElixirGuardian"] = {
 					["arrangeOnUse"] = 44332,

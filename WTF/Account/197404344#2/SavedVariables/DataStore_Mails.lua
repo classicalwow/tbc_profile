@@ -23,12 +23,48 @@ DataStore_MailsDB = {
 						["lastCheck"] = 1662053162,
 						["daysLeft"] = 29.86773109436035,
 					}, -- [1]
+					{
+						["sender"] = "特变电工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[灵纹布]|h|r",
+						["count"] = 20,
+						["icon"] = 132898,
+						["lastCheck"] = 1664785065,
+						["daysLeft"] = 30,
+					}, -- [2]
+					{
+						["sender"] = "特变电工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[灵纹布]|h|r",
+						["count"] = 20,
+						["icon"] = 132898,
+						["lastCheck"] = 1664785065,
+						["daysLeft"] = 30,
+					}, -- [3]
+					{
+						["sender"] = "特变电工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[灵纹布]|h|r",
+						["count"] = 17,
+						["icon"] = 132898,
+						["lastCheck"] = 1664785065,
+						["daysLeft"] = 30,
+					}, -- [4]
+					{
+						["sender"] = "特变电工",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[灵纹布]|h|r",
+						["count"] = 20,
+						["icon"] = 132898,
+						["lastCheck"] = 1664785065,
+						["daysLeft"] = 30,
+					}, -- [5]
 				},
 				["lastVisitDate"] = "2022/09/02 01:26",
 			},
 			["Default.祈福.特变电工"] = {
-				["lastUpdate"] = 1661661726,
-				["lastVisitDate"] = "2022/08/28 12:42",
+				["lastUpdate"] = 1664820752,
+				["lastVisitDate"] = "2022/10/04 02:12",
 			},
 		},
 	},

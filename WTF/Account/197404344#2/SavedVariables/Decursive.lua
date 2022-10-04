@@ -1,7 +1,9 @@
 
 DecursiveDB = {
-	["global"] = {
-		["LastVersionAnnounce"] = 1664734321,
+	["profileKeys"] = {
+		["特变电工 - 祈福"] = "Default",
+		["特工仓库 - 祈福"] = "Default",
+		["新特能源 - 祈福"] = "Default",
 	},
 	["class"] = {
 		["PRIEST"] = {
@@ -15,9 +17,31 @@ DecursiveDB = {
 				[32] = -16,
 			},
 		},
+		["PALADIN"] = {
+			["CureOrder"] = {
+				-11, -- [1]
+				-15, -- [2]
+				nil, -- [3]
+				-12, -- [4]
+				[8] = -13,
+				[16] = -14,
+				[32] = -16,
+			},
+		},
+		["ROGUE"] = {
+			["CureOrder"] = {
+				-11, -- [1]
+				-15, -- [2]
+				nil, -- [3]
+				-12, -- [4]
+				[8] = -13,
+				[16] = -14,
+				[32] = -16,
+			},
+		},
 	},
-	["profileKeys"] = {
-		["新特能源 - 祈福"] = "Default",
+	["global"] = {
+		["LastVersionAnnounce"] = 1664819600,
 	},
 	["profiles"] = {
 		["Default"] = {
