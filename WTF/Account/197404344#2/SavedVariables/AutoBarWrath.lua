@@ -346,14 +346,14 @@ AutoBarDB = {
 					["defaultButtonIndex"] = 3,
 				},
 				["AutoBarButtonPickLock"] = {
+					["barKey"] = "AutoBarClassBarRogue",
+					["buttonClass"] = "AutoBarButtonPickLock",
+					["square_popups"] = true,
 					["enabled"] = true,
+					["arrangeOnUse"] = true,
 					["targeted"] = "Lockpicking",
 					["buttonKey"] = "AutoBarButtonPickLock",
 					["defaultButtonIndex"] = "*",
-					["arrangeOnUse"] = true,
-					["buttonClass"] = "AutoBarButtonPickLock",
-					["barKey"] = "AutoBarClassBarRogue",
-					["square_popups"] = true,
 				},
 				["AutoBarButtonInterrupt"] = {
 					["barKey"] = "AutoBarClassBarRogue",
@@ -564,10 +564,13 @@ AutoBarDB = {
 					["arrangeOnUse"] = 22831,
 				},
 				["AutoBarButtonBuff"] = {
-					["arrangeOnUse"] = 27498,
+					["arrangeOnUse"] = 2459,
 				},
 				["AutoBarButtonBuffWeapon1"] = {
 					["arrangeOnUse"] = 21927,
+				},
+				["AutoBarButtonQuest"] = {
+					["arrangeOnUse"] = 37465,
 				},
 				["AutoBarButtonCrafting"] = {
 					["arrangeOnUse"] = "急救",

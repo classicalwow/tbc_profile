@@ -8,7 +8,6 @@ CHANNELS
 Community:867382605:1 0 4 1
 寻求组队 1 5 0
 综合频道 1 6 0
-大脚世界频道 1 7 0
 END
 
 ZONECHANNELS 0
@@ -253,7 +252,6 @@ BN_WHISPER
 END
 
 CHANNELS
-大脚世界频道
 END
 
 ZONECHANNELS 0

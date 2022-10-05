@@ -962,16 +962,22 @@ AutoBarDB = {
 	["chars"] = {
 		["特变电工 - 祈福"] = {
 			["buttonDataList"] = {
-				["AutoBarButtonCrafting"] = {
-					["arrangeOnUse"] = "急救",
+				["AutoBarButtonElixirBattle"] = {
+					["arrangeOnUse"] = 22831,
 				},
-				["AutoBarButtonMount"] = {
+				["AutoBarButtonBuff"] = {
+					["arrangeOnUse"] = 2459,
 				},
 				["AutoBarButtonBuffWeapon1"] = {
 					["arrangeOnUse"] = 21927,
 				},
-				["AutoBarButtonBuff"] = {
-					["arrangeOnUse"] = 27498,
+				["AutoBarButtonMount"] = {
+				},
+				["AutoBarButtonCrafting"] = {
+					["arrangeOnUse"] = "急救",
+				},
+				["AutoBarButtonQuest"] = {
+					["arrangeOnUse"] = 37465,
 				},
 			},
 			["barList"] = {

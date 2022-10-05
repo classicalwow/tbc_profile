@@ -942,7 +942,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["27825"] = {
+			["54769"] = {
 				["animate"] = true,
 				["isColor"] = false,
 				["isOthers"] = true,
@@ -964,7 +964,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["29306"] = {
+			["27825"] = {
 				["animate"] = true,
 				["isColor"] = false,
 				["isOthers"] = true,
@@ -975,7 +975,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["54769"] = {
+			["29306"] = {
 				["animate"] = true,
 				["isColor"] = false,
 				["isOthers"] = true,
@@ -1406,8 +1406,8 @@ VUHDO_PANEL_SETUP = {
 			["xAdjust"] = 0,
 		},
 		["POSITION"] = {
-			["y"] = 339.5531921386719,
-			["x"] = 1354.667236328125,
+			["y"] = 507.8856811523438,
+			["x"] = 1053.555908203125,
 			["orientation"] = "TOPLEFT",
 			["relativePoint"] = "BOTTOMLEFT",
 			["scale"] = 1,
@@ -1424,6 +1424,7 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "MEDIUM",
 		["MODEL"] = {
+			["ordering"] = 0,
 			["sort"] = 0,
 			["groups"] = {
 				1, -- [1]
@@ -1436,7 +1437,6 @@ VUHDO_PANEL_SETUP = {
 				8, -- [8]
 				40, -- [9]
 			},
-			["ordering"] = 0,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -1552,7 +1552,7 @@ VUHDO_PANEL_SETUP = {
 		},
 		["ID_TEXT"] = {
 			["showTags"] = true,
-			["_spacing"] = 17.99999618530273,
+			["_spacing"] = 17.99995994567871,
 			["showNickname"] = false,
 			["showClass"] = false,
 			["showName"] = true,
@@ -1579,8 +1579,8 @@ VUHDO_PANEL_SETUP = {
 			["xAdjust"] = 0,
 		},
 		["POSITION"] = {
-			["y"] = 416.6680297851563,
-			["x"] = 2017.7744140625,
+			["y"] = 473.3345642089844,
+			["x"] = 1815.552368164063,
 			["orientation"] = "TOPLEFT",
 			["relativePoint"] = "BOTTOMLEFT",
 			["scale"] = 1,
@@ -1597,12 +1597,12 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "MEDIUM",
 		["MODEL"] = {
+			["ordering"] = 0,
 			["sort"] = 0,
 			["groups"] = {
 				42, -- [1]
 				44, -- [2]
 			},
-			["ordering"] = 0,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -1718,7 +1718,7 @@ VUHDO_PANEL_SETUP = {
 		},
 		["ID_TEXT"] = {
 			["showTags"] = true,
-			["_spacing"] = 17.99999618530273,
+			["_spacing"] = 17.99995994567871,
 			["showNickname"] = false,
 			["showClass"] = false,
 			["showName"] = true,
@@ -4128,8 +4128,8 @@ VUHDO_BUFF_SETTINGS = {
 		["REBUFF_AT_PERCENT"] = 25,
 		["PANEL_MAX_BUFFS"] = 5,
 		["POSITION"] = {
-			["y"] = 108.777473449707,
-			["x"] = -503.1661376953125,
+			["y"] = 48.22197341918945,
+			["x"] = -452.05517578125,
 			["point"] = "CENTER",
 			["relativePoint"] = "CENTER",
 		},
@@ -4441,9 +4441,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -4451,9 +4451,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -4506,9 +4506,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w5", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 	},
@@ -4535,9 +4535,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -4545,9 +4545,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -4600,9 +4600,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w5", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 	},
@@ -4654,11 +4654,11 @@ VUHDO_RAID = {
 		["zone"] = "达拉然",
 		["baseRange"] = true,
 		["class"] = "PRIEST",
-		["role"] = 60,
-		["sortMaxHp"] = 14180,
+		["role"] = 63,
+		["sortMaxHp"] = 12650,
 		["map"] = "达拉然",
 		["threat"] = 0,
-		["powermax"] = 14878,
+		["powermax"] = 16933,
 		["threatPerc"] = 0,
 		["isPet"] = false,
 		["name"] = "新特能源",
@@ -4669,17 +4669,17 @@ VUHDO_RAID = {
 		["range"] = true,
 		["unit"] = "player",
 		["debuff"] = 0,
-		["healthmax"] = 14180,
-		["loghealth"] = 14052,
+		["healthmax"] = 12650,
+		["loghealth"] = 10197,
 		["dead"] = false,
 		["charmed"] = false,
 		["fullName"] = "新特能源",
-		["power"] = 14878,
+		["power"] = 16933,
 		["aggro"] = false,
 		["targetUnit"] = "target",
 		["isAltPower"] = false,
 		["visible"] = true,
-		["health"] = 14180,
+		["health"] = 11278,
 		["className"] = "牧师",
 		["afk"] = false,
 		["powertype"] = 0,
@@ -4709,9 +4709,9 @@ VUHDO_INDICATOR_CONFIG = {
 		},
 		["CLUSTER_BORDER"] = "",
 		["THREAT_MARK"] = "",
+		["BAR_BORDER"] = "边框: 多边 + 仇恨",
 		["SIDE_RIGHT"] = "",
 		["MANA_BAR"] = "法力条: 只有法力值",
-		["BAR_BORDER"] = "边框: 多边 + 仇恨",
 		["HEALTH_BAR"] = "血量: (通用, 职业颜色)",
 		["DAMAGE_FLASH_BAR"] = "",
 		["INCOMING_BAR"] = "",

@@ -1,12 +1,11 @@
 VER 3 0000000000000007 "Decursive" "INV_MISC_QUESTIONMARK"
-/stopcasting
-/cast [@mouseover,nomod,exists] 驱散魔法;  [@mouseover,exists,mod:ctrl] 驱除疾病; [@mouseover,exists,mod:shift] 驱散魔法
+/script DecursiveRootTable.Dcr:Println('没有相关技能')
 END
 VER 3 0000000000000006 "RXPTargeting" "Ability_eyeoftheowl"
 //RestedXP Guides - current step has no configured targets
 END
 VER 3 0000000000000001 "target" "134328"
-/target 大个子
+/target 商人
 /script SetRaidTarget("target", 2)
 END
 VER 3 0000000000000002 "大脚世界频道" "132874"
