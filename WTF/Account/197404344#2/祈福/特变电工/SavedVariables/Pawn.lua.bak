@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0702,
-	["LastPlayerFullName"] = "特变电工-祈福",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 37007,
@@ -47,10 +45,10 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:42762::::::::72:::::::::|h[破碎未来之靴]|h|r",
 		},
 		[16] = {
-			["ID"] = 36879,
-			["Level"] = 138,
+			["ID"] = 38154,
+			["Level"] = 146,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff1eff00|Hitem:36879::::::::70:::::::::|h[士兵的尖刺钉锤]|h|r",
+			["Link"] = "|cff1eff00|Hitem:38154::::::::75:::::::::|h[天生牙]|h|r",
 		},
 		[17] = {
 			["ID"] = 37022,
@@ -68,10 +66,10 @@ PawnOptions = {
 			["Level"] = 155,
 			["Link"] = "|cff0070dd|Hitem:42761::::::::72:::::::::|h[时间停止手套]|h|r",
 		},
-		[9] = {
-			["ID"] = 35579,
-			["Level"] = 155,
-			["Link"] = "|cff0070dd|Hitem:35579::::::::70:::::::::|h[维库镣铐]|h|r",
+		[18] = {
+			["ID"] = 35845,
+			["Level"] = 138,
+			["Link"] = "|cff1eff00|Hitem:35845::::::::71:::::::::|h[水晶之星]|h|r",
 		},
 		[11] = {
 			["ID"] = 37982,
@@ -90,12 +88,14 @@ PawnOptions = {
 			["AlsoFitsIn"] = 11,
 			["Link"] = "|cff1eff00|Hitem:37982::::::::74:::::::::|h[微光齿环]|h|r",
 		},
-		[18] = {
-			["ID"] = 35845,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:35845::::::::71:::::::::|h[水晶之星]|h|r",
+		[9] = {
+			["ID"] = 35579,
+			["Level"] = 155,
+			["Link"] = "|cff0070dd|Hitem:35579::::::::70:::::::::|h[维库镣铐]|h|r",
 		},
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "特变电工-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0607,
+	["LastPlayerFullName"] = "查尔斯三世-祈福",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 25558,
@@ -87,8 +89,6 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:25640::::::::68:::::::::|h[奈辛瓦里狩猎队魔棒]|h|r",
 		},
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "查尔斯三世-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

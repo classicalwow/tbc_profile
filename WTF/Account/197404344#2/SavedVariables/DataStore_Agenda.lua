@@ -5,8 +5,8 @@ DataStore_AgendaDB = {
 		["沈南鹏 - 祈福"] = "沈南鹏 - 祈福",
 		["张坤 - 祈福"] = "张坤 - 祈福",
 		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
-		["Vscode - 加丁"] = "Vscode - 加丁",
 		["新特能源 - 祈福"] = "新特能源 - 祈福",
+		["Vscode - 加丁"] = "Vscode - 加丁",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -26,7 +26,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1659786093,
 			},
 			["Default.祈福.特变电工"] = {
-				["lastUpdate"] = 1664893513,
+				["lastUpdate"] = 1664985697,
 			},
 		},
 	},

@@ -1,11 +1,13 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0702,
+	["LastPlayerFullName"] = "特变电工-祈福",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 37007,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:37007::::::::70:::::::::|h[虚伪皮帽]|h|r",
+			["ID"] = 41829,
+			["Level"] = 158,
+			["Link"] = "|cff0070dd|Hitem:41829::::::::75:::::::::|h[闪电恐惧之角]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 37543,
@@ -45,16 +47,16 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:42762::::::::72:::::::::|h[破碎未来之靴]|h|r",
 		},
 		[16] = {
-			["ID"] = 36879,
-			["Level"] = 138,
+			["ID"] = 44736,
+			["Level"] = 175,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff1eff00|Hitem:36879::::::::70:::::::::|h[士兵的尖刺钉锤]|h|r",
+			["Link"] = "|cff0070dd|Hitem:44736::::::::75:::::::::|h[痛心杀戮之剑]|h|r",
 		},
 		[17] = {
-			["ID"] = 37022,
-			["Level"] = 138,
+			["ID"] = 39806,
+			["Level"] = 158,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff1eff00|Hitem:37022::::::::70:::::::::|h[刺鲨匕首]|h|r",
+			["Link"] = "|cff1eff00|Hitem:39806::::::::75:::::::::|h[勤勉之刃]|h|r",
 		},
 		[5] = {
 			["ID"] = 37980,
@@ -66,10 +68,10 @@ PawnOptions = {
 			["Level"] = 155,
 			["Link"] = "|cff0070dd|Hitem:42761::::::::72:::::::::|h[时间停止手套]|h|r",
 		},
-		[18] = {
-			["ID"] = 35845,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:35845::::::::71:::::::::|h[水晶之星]|h|r",
+		[9] = {
+			["ID"] = 35579,
+			["Level"] = 155,
+			["Link"] = "|cff0070dd|Hitem:35579::::::::70:::::::::|h[维库镣铐]|h|r",
 		},
 		[11] = {
 			["ID"] = 37982,
@@ -88,14 +90,12 @@ PawnOptions = {
 			["AlsoFitsIn"] = 11,
 			["Link"] = "|cff1eff00|Hitem:37982::::::::74:::::::::|h[微光齿环]|h|r",
 		},
-		[9] = {
-			["ID"] = 35579,
-			["Level"] = 155,
-			["Link"] = "|cff0070dd|Hitem:35579::::::::70:::::::::|h[维库镣铐]|h|r",
+		[18] = {
+			["ID"] = 35845,
+			["Level"] = 138,
+			["Link"] = "|cff1eff00|Hitem:35845::::::::71:::::::::|h[水晶之星]|h|r",
 		},
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "特变电工-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

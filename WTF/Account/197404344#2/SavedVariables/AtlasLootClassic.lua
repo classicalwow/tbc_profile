@@ -1,7 +1,15 @@
 
 AtlasLootClassicDB = {
+	["profileKeys"] = {
+		["特变电工 - 祈福"] = "特变电工 - 祈福",
+		["沈南鹏 - 祈福"] = "沈南鹏 - 祈福",
+		["查尔斯三世 - 祈福"] = "查尔斯三世 - 祈福",
+		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
+		["特工仓库 - 祈福"] = "特工仓库 - 祈福",
+		["新特能源 - 祈福"] = "新特能源 - 祈福",
+	},
 	["global"] = {
-		["__addonrevision"] = 3000004,
+		["__addonrevision"] = 3000005,
 		["VendorPrice"] = {
 			[41872] = "EmblemOfValor:30",
 			[40733] = "EmblemOfValor:60",
@@ -57,47 +65,39 @@ AtlasLootClassicDB = {
 			[40716] = "EmblemOfHeroism:15",
 			[40720] = "EmblemOfValor:25",
 			[40724] = "EmblemOfValor:25",
-			[31775] = "glowcap:10",
-			[32828] = "ApexisS:10",
+			[41847] = "EmblemOfHeroism:30",
+			[40721] = "EmblemOfValor:25",
 			[40736] = "EmblemOfValor:60",
 			[40740] = "EmblemOfValor:60",
-			[50357] = "EmblemOfFrost:60",
-			[40748] = "EmblemOfValor:40",
 			[50358] = "EmblemOfFrost:60",
-			[50355] = "EmblemOfFrost:60",
+			[40748] = "EmblemOfValor:40",
+			[40613] = "EmblemOfHeroism:60",
 			[50356] = "EmblemOfFrost:60",
+			[41848] = "EmblemOfHeroism:45",
 			[40637] = "EmblemOfValor:60",
-			[48722] = "EmblemOfTriumph:50",
+			[32828] = "ApexisS:10",
 			[48724] = "EmblemOfTriumph:50",
 			[41919] = "EmblemOfValor:45",
 			[47734] = "EmblemOfTriumph:50",
-			[47735] = "EmblemOfTriumph:50",
+			[43102] = "EmblemOfHeroism:10",
 			[41931] = "EmblemOfValor:30",
 			[41867] = "EmblemOfValor:30",
 			[41862] = "EmblemOfValor:45",
+			[47735] = "EmblemOfTriumph:50",
 			[40610] = "EmblemOfHeroism:80",
-			[40689] = "EmblemOfHeroism:40",
 			[40681] = "EmblemOfHeroism:25",
 			[40685] = "EmblemOfHeroism:40",
-			[43102] = "EmblemOfHeroism:10",
+			[40689] = "EmblemOfHeroism:40",
 			[40693] = "EmblemOfHeroism:40",
 			[40697] = "EmblemOfHeroism:40",
 			[40701] = "EmblemOfHeroism:35",
-			[41848] = "EmblemOfHeroism:45",
+			[50357] = "EmblemOfFrost:60",
 			[41852] = "EmblemOfValor:45",
-			[40613] = "EmblemOfHeroism:60",
+			[50355] = "EmblemOfFrost:60",
 			[40717] = "EmblemOfValor:25",
-			[40721] = "EmblemOfValor:25",
-			[41847] = "EmblemOfHeroism:30",
+			[48722] = "EmblemOfTriumph:50",
+			[31775] = "glowcap:10",
 		},
-	},
-	["profileKeys"] = {
-		["特变电工 - 祈福"] = "特变电工 - 祈福",
-		["沈南鹏 - 祈福"] = "沈南鹏 - 祈福",
-		["查尔斯三世 - 祈福"] = "查尔斯三世 - 祈福",
-		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
-		["特工仓库 - 祈福"] = "特工仓库 - 祈福",
-		["新特能源 - 祈福"] = "新特能源 - 祈福",
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
@@ -136,20 +136,19 @@ AtlasLootClassicDB = {
 		},
 		["特工仓库 - 祈福"] = {
 			["GUI"] = {
-				["selectedGameVersion"] = 1,
-				["selected"] = {
-					"AtlasLootClassic_Crafting", -- [1]
-					"Enchanting", -- [2]
-					11, -- [3]
-					1, -- [4]
-					0, -- [5]
-				},
 				["point"] = {
 					"RIGHT", -- [1]
 					nil, -- [2]
 					"RIGHT", -- [3]
 					-301.3339538574219, -- [4]
 					-61.66657638549805, -- [5]
+				},
+				["selected"] = {
+					"AtlasLootClassic_Factions", -- [1]
+					"TheSonsofHodir", -- [2]
+					nil, -- [3]
+					2, -- [4]
+					0, -- [5]
 				},
 			},
 		},
@@ -159,12 +158,12 @@ AtlasLootClassicDB = {
 					nil, -- [1]
 					nil, -- [2]
 					"CENTER", -- [3]
-					-169.7774047851563, -- [4]
-					22.66674041748047, -- [5]
+					171.6671295166016, -- [4]
+					-113.3335647583008, -- [5]
 				},
 				["selected"] = {
 					nil, -- [1]
-					"Gundrak", -- [2]
+					"VioletHold", -- [2]
 					5, -- [3]
 					6, -- [4]
 					0, -- [5]

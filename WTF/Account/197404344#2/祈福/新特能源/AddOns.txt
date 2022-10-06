@@ -117,7 +117,7 @@ ArkInventoryRules_Profession: enabled
 ArkInventory: enabled
 WideQuestLog: disabled
 WideQuestLogLevels: disabled
-DBM-Core: disabled
+DBM-Core: enabled
 ConsolePort_Bar: enabled
 ConsolePortAdvanced: disabled
 ConsolePortBar: disabled

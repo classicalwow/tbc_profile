@@ -1,10 +1,10 @@
-lightweight tag aa64785ad4bdfa6b9d2da66a0e95676d8734ab08 v3.1.1
+lightweight tag 0821c00f85edde84aa3119a1f21bf144b55357be v3.1.3
 Author:	Simon Hirsig <simon.hirsig@gmail.com>
-Date:	Sun Oct 2 10:06:39 2022 +0200
+Date:	Sun Oct 2 20:29:10 2022 +0200
 
-commit aa64785ad4bdfa6b9d2da66a0e95676d8734ab08
+commit 0821c00f85edde84aa3119a1f21bf144b55357be
 Author: Simon Hirsig <simon.hirsig@gmail.com>
-Date:   Sun Oct 2 10:06:39 2022 +0200
+Date:   Sun Oct 2 20:29:10 2022 +0200
 
-    bugfix
+    text fix
 

@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0702,
-	["LastPlayerFullName"] = "新特能源-祈福",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 37594,
@@ -10,14 +8,14 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:37594::::::::80:::::::::|h[长者头饰]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 44034,
-			["Level"] = 174,
-			["Link"] = "|cff0070dd|Hitem:44034::::::::79:::::::::|h[北伐军护符]|h|r",
+			["ID"] = 40681,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:40681::::::::80:::::::::|h[圣光珠串项链]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 44370,
-			["Level"] = 175,
-			["Link"] = "|cff0070dd|Hitem:44370::::::::80:::::::::|h[无畏探索者衬肩]|h|r",
+			["ID"] = 37196,
+			["Level"] = 200,
+			["Link"] = "|cff0070dd|Hitem:37196::::::::80:::::::::|h[符文法师衬肩]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -41,9 +39,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:37218::::::::80:::::::::|h[磨石裹足]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 42787,
-			["Level"] = 174,
-			["Link"] = "|cff1eff00|Hitem:42787::::::::77:::::::::|h[铁毛护腕]|h|r",
+			["ID"] = 37361,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:37361::::::::80:::::::::|h[巨翼护腕]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 39519,
@@ -69,10 +67,10 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:37657::::::::80:::::::::|h[生命的火花]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 44013,
-			["Level"] = 174,
+			["ID"] = 37844,
+			["Level"] = 200,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff0070dd|Hitem:44013::::::::78:::::::::|h[炮兵的点火器]|h|r",
+			["Link"] = "|cff0070dd|Hitem:37844::::::::80:::::::::|h[展翼护符]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 37630,
@@ -95,6 +93,8 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:37626::::::::80:::::::::|h[西莱图斯魔杖]|h|r",
 		}, -- [18]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "新特能源-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
