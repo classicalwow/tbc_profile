@@ -821,7 +821,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["29306"] = {
+			["54769"] = {
 				["animate"] = true,
 				["isColor"] = false,
 				["isIconGlow"] = false,
@@ -843,7 +843,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["54769"] = {
+			["27825"] = {
 				["animate"] = true,
 				["isColor"] = false,
 				["isIconGlow"] = false,
@@ -854,7 +854,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["27825"] = {
+			["29306"] = {
 				["animate"] = true,
 				["isColor"] = false,
 				["isIconGlow"] = false,
@@ -1406,8 +1406,8 @@ VUHDO_PANEL_SETUP = {
 			["xAdjust"] = 0,
 		},
 		["POSITION"] = {
-			["y"] = -177.5023498535156,
-			["x"] = 3.556865930557251,
+			["y"] = -175.8356781005859,
+			["x"] = 15.22347354888916,
 			["scale"] = 1,
 			["relativePoint"] = "CENTER",
 			["orientation"] = "CENTER",
@@ -1424,6 +1424,8 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "MEDIUM",
 		["MODEL"] = {
+			["ordering"] = 0,
+			["sort"] = 0,
 			["groups"] = {
 				1, -- [1]
 				2, -- [2]
@@ -1435,8 +1437,6 @@ VUHDO_PANEL_SETUP = {
 				8, -- [8]
 				40, -- [9]
 			},
-			["ordering"] = 0,
-			["sort"] = 0,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -1597,12 +1597,12 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "MEDIUM",
 		["MODEL"] = {
+			["ordering"] = 0,
+			["sort"] = 0,
 			["groups"] = {
 				42, -- [1]
 				44, -- [2]
 			},
-			["ordering"] = 0,
-			["sort"] = 0,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -4441,9 +4441,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -4451,9 +4451,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -4506,9 +4506,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w1", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 	},
@@ -4538,9 +4538,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -4548,9 +4548,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -4603,9 +4603,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w1", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 	},
@@ -4650,88 +4650,49 @@ VUHDO_SPEC_LAYOUTS = {
 }
 VUHDO_GROUP_SIZE = 5
 VUHDO_RAID = {
-	["party3"] = {
-		["zone"] = "古达克",
-		["baseRange"] = true,
-		["class"] = "PALADIN",
-		["role"] = 60,
-		["sortMaxHp"] = 25104,
-		["map"] = "古达克",
-		["threat"] = 3,
-		["powermax"] = 5899,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "我房里有好康",
-		["visible"] = true,
-		["targetUnit"] = "party3target",
-		["group"] = 1,
-		["afk"] = false,
-		["range"] = true,
-		["unit"] = "party3",
-		["powertype"] = 0,
-		["healthmax"] = 25104,
-		["loghealth"] = 21810,
-		["dead"] = false,
-		["connected"] = true,
-		["fullName"] = "我房里有好康",
-		["power"] = 3517,
-		["petUnit"] = "partypet3",
-		["debuff"] = 0,
-		["isAltPower"] = false,
-		["number"] = 3,
-		["isVehicle"] = false,
-		["health"] = 21810,
-		["className"] = "圣骑士",
-		["raidIcon"] = 6,
-		["charmed"] = false,
-		["aggro"] = true,
-		["classId"] = 23,
-	},
-	["party2"] = {
-		["zone"] = "古达克",
-		["baseRange"] = true,
-		["class"] = "DEATHKNIGHT",
-		["role"] = 61,
-		["sortMaxHp"] = 21471,
-		["map"] = "古达克",
+	["partypet4"] = {
+		["zone"] = "净化斯坦索姆",
+		["baseRange"] = false,
+		["class"] = "WARRIOR",
+		["sortMaxHp"] = 17964,
+		["map"] = "净化斯坦索姆",
 		["threat"] = 0,
-		["powermax"] = 130,
+		["powermax"] = 0,
 		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "噬血狂暴",
-		["number"] = 2,
+		["isPet"] = true,
+		["name"] = "踏火",
+		["number"] = 4,
 		["isVehicle"] = false,
-		["group"] = 1,
-		["classId"] = 29,
-		["range"] = true,
-		["unit"] = "party2",
-		["debuff"] = 0,
-		["healthmax"] = 21471,
-		["loghealth"] = 21471,
+		["group"] = 0,
+		["classId"] = 40,
+		["unit"] = "partypet4",
+		["powertype"] = 0,
+		["healthmax"] = 17964,
+		["loghealth"] = 17964,
 		["dead"] = false,
 		["charmed"] = false,
-		["fullName"] = "噬血狂暴",
-		["power"] = 59,
+		["fullName"] = "踏火",
+		["power"] = 0,
 		["aggro"] = false,
-		["targetUnit"] = "party2target",
+		["targetUnit"] = "partypet4target",
+		["visible"] = false,
 		["isAltPower"] = false,
-		["visible"] = true,
-		["health"] = 21471,
-		["className"] = "死亡骑士",
+		["health"] = 17964,
+		["className"] = "野兽",
 		["afk"] = false,
-		["powertype"] = 6,
+		["ownerUnit"] = "party4",
+		["debuff"] = 0,
 		["connected"] = true,
-		["petUnit"] = "partypet2",
 	},
 	["player"] = {
-		["zone"] = "古达克",
+		["zone"] = "风暴峭壁",
 		["baseRange"] = true,
 		["class"] = "PRIEST",
 		["role"] = 60,
-		["sortMaxHp"] = 16300,
-		["map"] = "古达克",
+		["sortMaxHp"] = 17000,
+		["map"] = "风暴峭壁",
 		["threat"] = 0,
-		["powermax"] = 19183,
+		["powermax"] = 20083,
 		["threatPerc"] = 0,
 		["isPet"] = false,
 		["name"] = "新特能源",
@@ -4742,104 +4703,105 @@ VUHDO_RAID = {
 		["range"] = true,
 		["unit"] = "player",
 		["powertype"] = 0,
-		["healthmax"] = 16300,
-		["loghealth"] = 15062,
+		["healthmax"] = 17000,
+		["loghealth"] = 15845,
 		["dead"] = false,
 		["connected"] = true,
 		["fullName"] = "新特能源",
-		["power"] = 12012,
+		["power"] = 20083,
 		["petUnit"] = "pet",
 		["debuff"] = 0,
 		["isAltPower"] = false,
 		["number"] = 1,
 		["isVehicle"] = false,
-		["health"] = 15062,
+		["health"] = 17000,
 		["className"] = "牧师",
 		["raidIcon"] = 5,
 		["charmed"] = false,
 		["aggro"] = false,
 		["classId"] = 28,
 	},
-	["partypet2"] = {
-		["zone"] = "古达克",
-		["baseRange"] = true,
-		["class"] = "ROGUE",
-		["sortMaxHp"] = 19572,
-		["map"] = "古达克",
-		["threat"] = 0,
-		["powermax"] = 100,
-		["threatPerc"] = 0,
-		["isPet"] = true,
-		["name"] = "骨髓粉碎者",
-		["number"] = 2,
-		["isVehicle"] = false,
-		["group"] = 0,
-		["classId"] = 40,
-		["range"] = true,
-		["unit"] = "partypet2",
-		["powertype"] = 3,
-		["healthmax"] = 19572,
-		["loghealth"] = 19572,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "骨髓粉碎者",
-		["power"] = 59,
-		["aggro"] = false,
-		["targetUnit"] = "partypet2target",
-		["visible"] = true,
-		["isAltPower"] = false,
-		["health"] = 19572,
-		["className"] = "亡灵",
-		["afk"] = false,
-		["ownerUnit"] = "party2",
-		["debuff"] = 0,
-		["connected"] = true,
-	},
-	["party4"] = {
-		["zone"] = "古达克",
-		["baseRange"] = true,
-		["class"] = "ROGUE",
+	["party3"] = {
+		["zone"] = "时光之穴",
+		["baseRange"] = false,
+		["class"] = "PALADIN",
 		["role"] = 61,
-		["sortMaxHp"] = 18944,
-		["map"] = "古达克",
+		["sortMaxHp"] = 24524,
+		["map"] = "塔纳利斯",
 		["threat"] = 0,
-		["powermax"] = 110,
+		["powermax"] = 6349,
 		["threatPerc"] = 0,
 		["isPet"] = false,
-		["name"] = "追星逐梦",
-		["number"] = 4,
-		["isVehicle"] = false,
+		["name"] = "Oneonone",
+		["visible"] = false,
+		["targetUnit"] = "party3target",
 		["group"] = 1,
-		["classId"] = 21,
-		["range"] = true,
-		["unit"] = "party4",
-		["debuff"] = 0,
-		["healthmax"] = 18944,
-		["loghealth"] = 18944,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "追星逐梦",
-		["power"] = 29,
-		["aggro"] = false,
-		["targetUnit"] = "party4target",
-		["isAltPower"] = false,
-		["visible"] = true,
-		["health"] = 18944,
-		["className"] = "潜行者",
 		["afk"] = false,
-		["powertype"] = 3,
+		["unit"] = "party3",
+		["powertype"] = 0,
+		["healthmax"] = 24524,
+		["loghealth"] = 22793,
+		["dead"] = false,
 		["connected"] = true,
-		["petUnit"] = "partypet4",
+		["fullName"] = "Oneonone",
+		["power"] = 4708,
+		["petUnit"] = "partypet3",
+		["debuff"] = 0,
+		["isAltPower"] = false,
+		["number"] = 3,
+		["isVehicle"] = false,
+		["health"] = 24524,
+		["className"] = "圣骑士",
+		["raidIcon"] = 6,
+		["charmed"] = false,
+		["aggro"] = false,
+		["classId"] = 23,
 	},
-	["party1"] = {
-		["zone"] = "古达克",
+	["party2"] = {
+		["zone"] = "风暴峭壁",
 		["baseRange"] = true,
 		["class"] = "DRUID",
 		["role"] = 62,
-		["sortMaxHp"] = 17827,
-		["map"] = "古达克",
+		["sortMaxHp"] = 18807,
+		["map"] = "风暴峭壁",
 		["threat"] = 0,
-		["powermax"] = 16611,
+		["powermax"] = 17256,
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["name"] = "战复丶德",
+		["number"] = 2,
+		["isVehicle"] = false,
+		["group"] = 1,
+		["classId"] = 27,
+		["range"] = true,
+		["unit"] = "party2",
+		["debuff"] = 0,
+		["healthmax"] = 18807,
+		["loghealth"] = 18807,
+		["dead"] = false,
+		["charmed"] = false,
+		["fullName"] = "战复丶德",
+		["power"] = 17256,
+		["aggro"] = false,
+		["targetUnit"] = "party2target",
+		["isAltPower"] = false,
+		["visible"] = true,
+		["health"] = 18807,
+		["className"] = "德鲁伊",
+		["afk"] = false,
+		["powertype"] = 0,
+		["connected"] = true,
+		["petUnit"] = "partypet2",
+	},
+	["party1"] = {
+		["zone"] = "风暴峭壁",
+		["baseRange"] = false,
+		["class"] = "DRUID",
+		["role"] = 62,
+		["sortMaxHp"] = 18407,
+		["map"] = "风暴峭壁",
+		["threat"] = 0,
+		["powermax"] = 15891,
 		["threatPerc"] = 0,
 		["isPet"] = false,
 		["name"] = "骑风",
@@ -4847,25 +4809,59 @@ VUHDO_RAID = {
 		["isVehicle"] = false,
 		["group"] = 1,
 		["classId"] = 27,
-		["range"] = true,
 		["unit"] = "party1",
 		["debuff"] = 0,
-		["healthmax"] = 17827,
-		["loghealth"] = 17827,
+		["healthmax"] = 18407,
+		["loghealth"] = 18407,
 		["dead"] = false,
 		["charmed"] = false,
 		["fullName"] = "骑风",
-		["power"] = 6607,
+		["power"] = 15891,
 		["aggro"] = false,
 		["targetUnit"] = "party1target",
 		["isAltPower"] = false,
 		["visible"] = true,
-		["health"] = 17827,
+		["health"] = 18407,
 		["className"] = "德鲁伊",
 		["afk"] = false,
 		["powertype"] = 0,
 		["connected"] = true,
 		["petUnit"] = "partypet1",
+	},
+	["party4"] = {
+		["zone"] = "净化斯坦索姆",
+		["baseRange"] = false,
+		["class"] = "HUNTER",
+		["role"] = 60,
+		["sortMaxHp"] = 22694,
+		["map"] = "净化斯坦索姆",
+		["threat"] = 0,
+		["powermax"] = 10346,
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["name"] = "米萧月音之女",
+		["number"] = 4,
+		["isVehicle"] = false,
+		["group"] = 1,
+		["classId"] = 22,
+		["unit"] = "party4",
+		["debuff"] = 0,
+		["healthmax"] = 22694,
+		["loghealth"] = 22694,
+		["dead"] = false,
+		["charmed"] = false,
+		["fullName"] = "米萧月音之女",
+		["power"] = 10346,
+		["aggro"] = false,
+		["targetUnit"] = "party4target",
+		["isAltPower"] = false,
+		["visible"] = false,
+		["health"] = 22694,
+		["className"] = "猎人",
+		["afk"] = false,
+		["powertype"] = 0,
+		["connected"] = true,
+		["petUnit"] = "partypet4",
 	},
 }
 VUHDO_INDICATOR_CONFIG = {
@@ -4886,16 +4882,16 @@ VUHDO_INDICATOR_CONFIG = {
 			"", -- [9]
 			"", -- [10]
 		},
-		["SIDE_LEFT"] = "",
+		["CLUSTER_BORDER"] = "",
 		["INCOMING_BAR"] = "",
-		["SWIFTMEND_INDICATOR"] = "角色 & 召唤状态图标",
+		["DAMAGE_FLASH_BAR"] = "",
 		["THREAT_MARK"] = "",
-		["MANA_BAR"] = "法力条: 只有法力值",
 		["BAR_BORDER"] = "边框: 多边 + 仇恨",
 		["SIDE_RIGHT"] = "",
+		["MANA_BAR"] = "法力条: 只有法力值",
 		["HEALTH_BAR"] = "血量: (通用, 职业颜色)",
-		["DAMAGE_FLASH_BAR"] = "",
-		["CLUSTER_BORDER"] = "",
+		["SWIFTMEND_INDICATOR"] = "角色 & 召唤状态图标",
+		["SIDE_LEFT"] = "",
 	},
 	["CUSTOM"] = {
 		["THREAT_BAR"] = {

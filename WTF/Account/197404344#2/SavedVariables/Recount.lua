@@ -6,20 +6,19 @@ RecountDB = {
 		["张坤 - 祈福"] = "张坤 - 祈福",
 		["查尔斯三世 - 祈福"] = "查尔斯三世 - 祈福",
 		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
-		["Vscode - 加丁"] = "Vscode - 加丁",
 		["新特能源 - 祈福"] = "新特能源 - 祈福",
+		["Vscode - 加丁"] = "Vscode - 加丁",
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -495.2783432006836,
-					["x"] = -442.3873901367188,
-					["w"] = 209.0000152587891,
-					["h"] = 191,
+					["y"] = 151.1107788085938,
+					["x"] = -949.1667327880859,
+					["w"] = 209,
+					["h"] = 191.0000610351563,
 				},
 			},
-			["MainWindowHeight"] = 191.111083984375,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -31,8 +30,9 @@ RecountDB = {
 				},
 			},
 			["LastInstanceName"] = "魔枢",
-			["CurDataSet"] = "CurrentFightData",
+			["CurDataSet"] = "LastFightData",
 			["MainWindowWidth"] = 209.4445648193359,
+			["MainWindowHeight"] = 191.111083984375,
 		},
 		["沈南鹏 - 祈福"] = {
 			["MainWindow"] = {
@@ -54,9 +54,9 @@ RecountDB = {
 				},
 			},
 			["MainWindowHeight"] = 199.4443817138672,
-			["LastInstanceName"] = "祖尔法拉克",
-			["MainWindowWidth"] = 296.6665649414063,
 			["CurDataSet"] = "OverallData",
+			["MainWindowWidth"] = 296.6665649414063,
+			["LastInstanceName"] = "祖尔法拉克",
 		},
 		["张坤 - 祈福"] = {
 			["MainWindow"] = {
@@ -99,9 +99,9 @@ RecountDB = {
 				},
 			},
 			["LastInstanceName"] = "祖尔法拉克",
-			["MainWindowHeight"] = 195,
-			["MainWindowWidth"] = 202.7777557373047,
 			["CurDataSet"] = "OverallData",
+			["MainWindowWidth"] = 202.7777557373047,
+			["MainWindowHeight"] = 195,
 		},
 		["码农巴菲特 - 祈福"] = {
 			["MainWindow"] = {
@@ -126,6 +126,30 @@ RecountDB = {
 			["MainWindowWidth"] = 225.8888549804688,
 			["CurDataSet"] = "OverallData",
 		},
+		["新特能源 - 祈福"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -483.4997978210449,
+					["x"] = -396.7779235839844,
+					["w"] = 341.8888854980469,
+					["h"] = 232.7776489257813,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["LastInstanceName"] = "净化斯坦索姆",
+			["MainWindowHeight"] = 232.7776489257813,
+			["MainWindowWidth"] = 341.8888244628906,
+			["CurDataSet"] = "LastFightData",
+		},
 		["Vscode - 加丁"] = {
 			["MainWindow"] = {
 				["Position"] = {
@@ -148,30 +172,6 @@ RecountDB = {
 			["MainWindowHeight"] = 198.8888702392578,
 			["MainWindowWidth"] = 167.7777862548828,
 			["CurDataSet"] = "OverallData",
-		},
-		["新特能源 - 祈福"] = {
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = -483.4997978210449,
-					["x"] = -396.7779235839844,
-					["w"] = 341.8888854980469,
-					["h"] = 232.7776489257813,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["LastInstanceName"] = "紫罗兰监狱",
-			["MainWindowHeight"] = 232.7776489257813,
-			["MainWindowWidth"] = 341.8888244628906,
-			["CurDataSet"] = "CurrentFightData",
 		},
 	},
 }

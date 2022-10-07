@@ -6,8 +6,8 @@ ThreatClassic2DB = {
 		["张坤 - 祈福"] = "Default",
 		["查尔斯三世 - 祈福"] = "Default",
 		["码农巴菲特 - 祈福"] = "Default",
-		["Vscode - 加丁"] = "Default",
 		["新特能源 - 祈福"] = "Default",
+		["Vscode - 加丁"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -18,8 +18,8 @@ ThreatClassic2DB = {
 					nil, -- [1]
 					nil, -- [2]
 					nil, -- [3]
-					485.000732421875, -- [4]
-					-883.3330688476562, -- [5]
+					493.8895874023438, -- [4]
+					-946.6668090820312, -- [5]
 				},
 			},
 			["bar"] = {

@@ -1,13 +1,5 @@
 
 AtlasLootClassicDB = {
-	["profileKeys"] = {
-		["特变电工 - 祈福"] = "特变电工 - 祈福",
-		["沈南鹏 - 祈福"] = "沈南鹏 - 祈福",
-		["查尔斯三世 - 祈福"] = "查尔斯三世 - 祈福",
-		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
-		["特工仓库 - 祈福"] = "特工仓库 - 祈福",
-		["新特能源 - 祈福"] = "新特能源 - 祈福",
-	},
 	["global"] = {
 		["__addonrevision"] = 3000005,
 		["VendorPrice"] = {
@@ -65,39 +57,47 @@ AtlasLootClassicDB = {
 			[40716] = "EmblemOfHeroism:15",
 			[40720] = "EmblemOfValor:25",
 			[40724] = "EmblemOfValor:25",
-			[41847] = "EmblemOfHeroism:30",
-			[40721] = "EmblemOfValor:25",
+			[31775] = "glowcap:10",
+			[48722] = "EmblemOfTriumph:50",
 			[40736] = "EmblemOfValor:60",
 			[40740] = "EmblemOfValor:60",
 			[50358] = "EmblemOfFrost:60",
 			[40748] = "EmblemOfValor:40",
-			[40613] = "EmblemOfHeroism:60",
+			[50355] = "EmblemOfFrost:60",
 			[50356] = "EmblemOfFrost:60",
-			[41848] = "EmblemOfHeroism:45",
+			[50357] = "EmblemOfFrost:60",
 			[40637] = "EmblemOfValor:60",
 			[32828] = "ApexisS:10",
 			[48724] = "EmblemOfTriumph:50",
 			[41919] = "EmblemOfValor:45",
 			[47734] = "EmblemOfTriumph:50",
-			[43102] = "EmblemOfHeroism:10",
+			[40689] = "EmblemOfHeroism:40",
 			[41931] = "EmblemOfValor:30",
 			[41867] = "EmblemOfValor:30",
 			[41862] = "EmblemOfValor:45",
-			[47735] = "EmblemOfTriumph:50",
 			[40610] = "EmblemOfHeroism:80",
+			[47735] = "EmblemOfTriumph:50",
 			[40681] = "EmblemOfHeroism:25",
 			[40685] = "EmblemOfHeroism:40",
-			[40689] = "EmblemOfHeroism:40",
+			[43102] = "EmblemOfHeroism:10",
 			[40693] = "EmblemOfHeroism:40",
 			[40697] = "EmblemOfHeroism:40",
 			[40701] = "EmblemOfHeroism:35",
-			[50357] = "EmblemOfFrost:60",
+			[41848] = "EmblemOfHeroism:45",
 			[41852] = "EmblemOfValor:45",
-			[50355] = "EmblemOfFrost:60",
+			[40613] = "EmblemOfHeroism:60",
 			[40717] = "EmblemOfValor:25",
-			[48722] = "EmblemOfTriumph:50",
-			[31775] = "glowcap:10",
+			[40721] = "EmblemOfValor:25",
+			[41847] = "EmblemOfHeroism:30",
 		},
+	},
+	["profileKeys"] = {
+		["特变电工 - 祈福"] = "特变电工 - 祈福",
+		["沈南鹏 - 祈福"] = "沈南鹏 - 祈福",
+		["查尔斯三世 - 祈福"] = "查尔斯三世 - 祈福",
+		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
+		["特工仓库 - 祈福"] = "特工仓库 - 祈福",
+		["新特能源 - 祈福"] = "新特能源 - 祈福",
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
@@ -163,9 +163,9 @@ AtlasLootClassicDB = {
 				},
 				["selected"] = {
 					nil, -- [1]
-					"VioletHold", -- [2]
-					5, -- [3]
-					6, -- [4]
+					"UtgardeKeep", -- [2]
+					nil, -- [3]
+					1, -- [4]
 					0, -- [5]
 				},
 			},

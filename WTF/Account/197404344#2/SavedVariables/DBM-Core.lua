@@ -128,8 +128,8 @@ DBM_AllSavedOptions = {
 			0, -- [3]
 		},
 		["SpecialWarningSound4"] = 9278,
-		["DontShowBossAnnounces"] = false,
 		["WarningX"] = 0,
+		["InfoFrameLines"] = 0,
 		["DisableSFX"] = false,
 		["AutologBosses"] = false,
 		["LogCurrentHeroic"] = false,
@@ -246,7 +246,7 @@ DBM_AllSavedOptions = {
 		["SpecialWarningFlashCount5"] = 3,
 		["SpecialWarningVibrate5"] = true,
 		["WorldBossNearAlert"] = false,
-		["InfoFrameLines"] = 0,
+		["DontShowBossAnnounces"] = false,
 		["BadIDAlert"] = false,
 		["ArrowPoint"] = "TOP",
 		["AutoAcceptFriendInvite"] = false,
