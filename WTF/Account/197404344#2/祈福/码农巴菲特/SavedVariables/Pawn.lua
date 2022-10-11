@@ -1,6 +1,7 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0606,
+	["LastVersion"] = 2.0702,
+	["LastPlayerFullName"] = "码农巴菲特-祈福",
 	["ItemLevels"] = {
 		{
 			["ID"] = 38661,
@@ -90,7 +91,6 @@ PawnOptions = {
 		}, -- [17]
 	},
 	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "码农巴菲特-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

@@ -105,7 +105,7 @@ CharacterStatsTBC: enabled
 MeetingHorn: enabled
 HeyboxPlayerInfo: enabled
 TalentEmu: enabled
-DBM-Core: disabled
+DBM-Core: enabled
 DBM-StatusBarTimers: enabled
 DBM-CountPack-Overwatch: enabled
 DBM-VPVEM: enabled
@@ -156,3 +156,4 @@ dbm-ulduar: enabled
 dbm-chamberofaspects: enabled
 vuhdo: disabled
 ChatFilter: disabled
+RXPGuides: disabled

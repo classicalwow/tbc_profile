@@ -1,0 +1,11 @@
+
+BisTooltipDB = {
+	["profileKeys"] = {
+		["特变电工 - 祈福"] = "Default",
+	},
+	["char"] = {
+		["特变电工 - 祈福"] = {
+			["version"] = 6.1,
+		},
+	},
+}

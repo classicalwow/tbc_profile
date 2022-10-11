@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0702,
+	["LastPlayerFullName"] = "新特能源-祈福",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 37594,
@@ -49,10 +51,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:39519::::::::80:::::::::|h[英雄的信仰手套]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 37371,
-			["Level"] = 200,
+			["ID"] = 40108,
+			["Level"] = 213,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:37371::::::::80:::::::::|h[疯狂狼獾人之戒]|h|r",
+			["Link"] = "|cffa335ee|Hitem:40108::::::::80:::::::::|h[美貌之戒]|h|r",
 		}, -- [11]
 		{
 			["ID"] = 37232,
@@ -73,9 +75,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:37844::::::::80:::::::::|h[展翼护符]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 37630,
-			["Level"] = 200,
-			["Link"] = "|cff0070dd|Hitem:37630::::::::80:::::::::|h[莫拉比斗篷]|h|r",
+			["ID"] = 40251,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:40251::::::::80:::::::::|h[光辉斗篷]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 37681,
@@ -88,13 +90,11 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:44022::::::::80:::::::::|h[巫术魔典]|h|r",
 		}, -- [17]
 		{
-			["ID"] = 37626,
-			["Level"] = 200,
-			["Link"] = "|cff0070dd|Hitem:37626::::::::80:::::::::|h[西莱图斯魔杖]|h|r",
+			["ID"] = 40245,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:40245::::::::80:::::::::|h[消逝之光]|h|r",
 		}, -- [18]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "新特能源-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
