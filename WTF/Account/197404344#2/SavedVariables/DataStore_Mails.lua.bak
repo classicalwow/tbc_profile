@@ -10,10 +10,6 @@ DataStore_MailsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.祈福.特变电工"] = {
-				["lastUpdate"] = 1665420054,
-				["lastVisitDate"] = "2022/10/11 00:40",
-			},
 			["Default.祈福.新特能源"] = {
 				["lastUpdate"] = 1662053162,
 				["Mails"] = {
@@ -31,34 +27,34 @@ DataStore_MailsDB = {
 						["sender"] = "特变电工",
 						["itemID"] = 21877,
 						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[灵纹布]|h|r",
-						["count"] = 20,
+						["count"] = 17,
 						["lastCheck"] = 1664785065,
 						["icon"] = 132898,
 						["daysLeft"] = 30,
 					}, -- [2]
 					{
 						["sender"] = "特变电工",
-						["subject"] = "1",
-						["lastCheck"] = 1664893538,
-						["money"] = 20000000,
-						["text"] = "",
-						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
-						["daysLeft"] = 30,
-					}, -- [3]
-					{
-						["sender"] = "特变电工",
 						["itemID"] = 21877,
 						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[灵纹布]|h|r",
 						["count"] = 20,
 						["lastCheck"] = 1664785065,
 						["icon"] = 132898,
 						["daysLeft"] = 30,
+					}, -- [3]
+					{
+						["sender"] = "特变电工",
+						["subject"] = "1",
+						["lastCheck"] = 1665419536,
+						["money"] = 10000000,
+						["text"] = "",
+						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
+						["daysLeft"] = 30,
 					}, -- [4]
 					{
 						["sender"] = "特变电工",
 						["itemID"] = 21877,
 						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[灵纹布]|h|r",
-						["count"] = 17,
+						["count"] = 20,
 						["lastCheck"] = 1664785065,
 						["icon"] = 132898,
 						["daysLeft"] = 30,
@@ -75,14 +71,27 @@ DataStore_MailsDB = {
 					{
 						["sender"] = "特变电工",
 						["subject"] = "1",
-						["lastCheck"] = 1665419536,
-						["money"] = 10000000,
+						["lastCheck"] = 1664893538,
+						["money"] = 20000000,
 						["text"] = "",
 						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
 						["daysLeft"] = 30,
 					}, -- [7]
+					{
+						["sender"] = "特变电工",
+						["subject"] = "1",
+						["lastCheck"] = 1665510340,
+						["money"] = 10000000,
+						["text"] = "",
+						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
+						["daysLeft"] = 30,
+					}, -- [8]
 				},
 				["lastVisitDate"] = "2022/09/02 01:26",
+			},
+			["Default.祈福.特变电工"] = {
+				["lastUpdate"] = 1665510340,
+				["lastVisitDate"] = "2022/10/12 01:45",
 			},
 		},
 	},

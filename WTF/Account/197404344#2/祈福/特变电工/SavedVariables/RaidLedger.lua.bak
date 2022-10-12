@@ -16,6 +16,426 @@ RaidLedgerDatabase = {
 						["count"] = 2,
 					},
 				}, -- [1]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39141::::::::80:::::::::|h[偏斜指环]|h|r",
+						["count"] = 1,
+					},
+				}, -- [2]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39189::::::::80:::::::::|h[坚持之靴]|h|r",
+						["count"] = 1,
+					},
+				}, -- [3]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39194::::::::80:::::::::|h[锈蚀尖刺护手]|h|r",
+						["count"] = 1,
+					},
+				}, -- [4]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39199::::::::80:::::::::|h[凝视之眼]|h|r",
+						["count"] = 1,
+					},
+				}, -- [5]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39229::::::::80:::::::::|h[蜘蛛的拥抱]|h|r",
+						["count"] = 1,
+					},
+				}, -- [6]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39228::::::::80:::::::::|h[蛛茧之握]|h|r",
+						["count"] = 1,
+					},
+				}, -- [7]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39272::::::::80:::::::::|h[外科手术披风]|h|r",
+						["count"] = 1,
+					},
+				}, -- [8]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39262::::::::80:::::::::|h[缝合力量护手]|h|r",
+						["count"] = 1,
+					},
+				}, -- [9]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39280::::::::80:::::::::|h[千钩腿甲]|h|r",
+						["count"] = 1,
+					},
+				}, -- [10]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39284::::::::80:::::::::|h[腐臭衬肩]|h|r",
+						["count"] = 1,
+					},
+				}, -- [11]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40610::::::::80:::::::::|h[失落征服者的护胸]|h|r",
+						["count"] = 1,
+					},
+				}, -- [12]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39389::::::::80:::::::::|h[恶意徽记之戒]|h|r",
+						["count"] = 1,
+					},
+				}, -- [13]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39294::::::::80:::::::::|h[电弧灼烧头盔]|h|r",
+						["count"] = 1,
+					},
+				}, -- [14]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40620::::::::80:::::::::|h[失落保卫者的护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [15]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39236::::::::80:::::::::|h[侵犯者之靴]|h|r",
+						["count"] = 1,
+					},
+				}, -- [16]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39242::::::::80:::::::::|h[嘶哑气息之袍]|h|r",
+						["count"] = 1,
+					},
+				}, -- [17]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39467::::::::80:::::::::|h[爪牙护腕]|h|r",
+						["count"] = 1,
+					},
+				}, -- [18]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39245::::::::80:::::::::|h[帝陨]|h|r",
+						["count"] = 1,
+					},
+				}, -- [19]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39255::::::::80:::::::::|h[天灾野兽法杖]|h|r",
+						["count"] = 1,
+					},
+				}, -- [20]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40622::::::::80:::::::::|h[失落征服者的护肩]|h|r",
+						["count"] = 1,
+					},
+				}, -- [21]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39258::::::::80:::::::::|h[必然死亡腿铠]|h|r",
+						["count"] = 1,
+					},
+				}, -- [22]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39311::::::::80:::::::::|h[低语幽魂权杖]|h|r",
+						["count"] = 1,
+					},
+				}, -- [23]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39299::::::::80:::::::::|h[急速攻击手套]|h|r",
+						["count"] = 1,
+					},
+				}, -- [24]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39344::::::::80:::::::::|h[亡灵杀手]|h|r",
+						["count"] = 1,
+					},
+				}, -- [25]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39388::::::::80:::::::::|h[灵魂世界之镜]|h|r",
+						["count"] = 1,
+					},
+				}, -- [26]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39394::::::::80:::::::::|h[迷离烛台]|h|r",
+						["count"] = 1,
+					},
+				}, -- [27]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40610::::::::80:::::::::|h[失落征服者的护胸]|h|r",
+						["count"] = 1,
+					},
+				}, -- [28]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39408::::::::80:::::::::|h[萨菲隆护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [29]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39399::::::::80:::::::::|h[亡灵军团头盔]|h|r",
+						["count"] = 1,
+					},
+				}, -- [30]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:44569::::::::80:::::::::|h[聚焦之虹的钥匙]|h|r",
+						["count"] = 1,
+					},
+				}, -- [31]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40618::::::::80:::::::::|h[失落胜利者的头盔]|h|r",
+						["count"] = 1,
+					},
+				}, -- [32]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39425::::::::80:::::::::|h[濒死披风]|h|r",
+						["count"] = 1,
+					},
+				}, -- [33]
+				{
+					["beneficiary"] = "天灾打击",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39417::::::::80:::::::::|h[死亡之咬]|h|r",
+						["count"] = 1,
+					},
+				}, -- [34]
+				{
+					["beneficiary"] = "你",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39399::::::::80:::::::::|h[亡灵军团头盔]|h|r",
+						["count"] = 1,
+					},
+				}, -- [35]
+				{
+					["beneficiary"] = "猪脚",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34057::::::::80:::::::::|h[深渊水晶]|h|r",
+						["count"] = 4,
+					},
+				}, -- [36]
 			},
 		}, -- [1]
 	},

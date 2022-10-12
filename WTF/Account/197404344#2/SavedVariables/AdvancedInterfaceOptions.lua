@@ -28,6 +28,7 @@ AdvancedInterfaceOptionsSaved = {
 		["camerayawsmoothspeed"] = "Interface\\FrameXML\\OptionsPanelTemplates.lua:475",
 		["lfgnewplayerfriendly"] = "Interface\\AddOns\\Blizzard_LookingForGroupUI\\Blizzard_LFGListing.lua:531",
 		["camerayawmovespeed"] = "Interface\\FrameXML\\OptionsPanelTemplates.lua:475",
+		["sound_enablemusic"] = "Interface\\FrameXML\\Sound.lua:11",
 		["nameplateshowfriendlytotems"] = "Interface\\AddOns\\Gladdy\\Modules\\TotemPlates.lua:240",
 		["gxadapter"] = "Interface\\SharedXML\\GraphicsQualityLevels.lua:1015",
 		["blocktrades"] = "Interface\\AddOns\\Postal\\Modules\\TradeBlock.lua:30",

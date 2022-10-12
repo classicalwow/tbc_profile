@@ -347,12 +347,12 @@ AutoBarDB = {
 				},
 				["AutoBarButtonPickLock"] = {
 					["barKey"] = "AutoBarClassBarRogue",
+					["buttonClass"] = "AutoBarButtonPickLock",
+					["square_popups"] = true,
+					["enabled"] = true,
+					["arrangeOnUse"] = true,
 					["targeted"] = "Lockpicking",
 					["buttonKey"] = "AutoBarButtonPickLock",
-					["square_popups"] = true,
-					["arrangeOnUse"] = true,
-					["buttonClass"] = "AutoBarButtonPickLock",
-					["enabled"] = true,
 					["defaultButtonIndex"] = "*",
 				},
 				["AutoBarButtonInterrupt"] = {
@@ -566,19 +566,19 @@ AutoBarDB = {
 				["AutoBarButtonBuff"] = {
 					["arrangeOnUse"] = 37093,
 				},
-				["AutoBarButtonQuest"] = {
-					["arrangeOnUse"] = 42203,
-				},
 				["AutoBarButtonElixirGuardian"] = {
 					["arrangeOnUse"] = 40097,
+				},
+				["AutoBarButtonBuffWeapon1"] = {
+					["arrangeOnUse"] = 43230,
 				},
 				["AutoBarButtonCrafting"] = {
 					["arrangeOnUse"] = "急救",
 				},
 				["AutoBarButtonMount"] = {
 				},
-				["AutoBarButtonBuffWeapon1"] = {
-					["arrangeOnUse"] = 43232,
+				["AutoBarButtonQuest"] = {
+					["arrangeOnUse"] = 42203,
 				},
 			},
 			["barList"] = {
@@ -1052,5 +1052,5 @@ AutoBarDB2 = {
 	["performance_threshold"] = 100,
 	["custom_categories"] = {
 	},
-	["whatsnew_version"] = "3.00.4.06",
+	["whatsnew_version"] = "3.00.4.07",
 }

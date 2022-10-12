@@ -1,7 +1,7 @@
 
 AtlasLootClassicDB = {
 	["global"] = {
-		["__addonrevision"] = 3000005,
+		["__addonrevision"] = 3000006,
 		["VendorPrice"] = {
 			[41872] = "EmblemOfValor:30",
 			[40733] = "EmblemOfValor:60",
@@ -118,9 +118,9 @@ AtlasLootClassicDB = {
 				},
 				["selected"] = {
 					nil, -- [1]
-					"VioletHold", -- [2]
-					nil, -- [3]
-					6, -- [4]
+					"NaxxramasWrath", -- [2]
+					15, -- [3]
+					3, -- [4]
 					0, -- [5]
 				},
 			},
@@ -169,10 +169,10 @@ AtlasLootClassicDB = {
 					-113.3335647583008, -- [5]
 				},
 				["selected"] = {
-					nil, -- [1]
-					"UtgardeKeep", -- [2]
-					nil, -- [3]
-					1, -- [4]
+					"AtlasLootClassic_Factions", -- [1]
+					"KnightsoftheEbonBlade", -- [2]
+					2, -- [3]
+					2, -- [4]
 					0, -- [5]
 				},
 			},

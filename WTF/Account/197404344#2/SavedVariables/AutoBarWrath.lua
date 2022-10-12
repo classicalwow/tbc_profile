@@ -968,19 +968,19 @@ AutoBarDB = {
 				["AutoBarButtonBuff"] = {
 					["arrangeOnUse"] = 37093,
 				},
-				["AutoBarButtonBuffWeapon1"] = {
-					["arrangeOnUse"] = 43232,
-				},
 				["AutoBarButtonQuest"] = {
 					["arrangeOnUse"] = 42203,
+				},
+				["AutoBarButtonElixirGuardian"] = {
+					["arrangeOnUse"] = 40097,
 				},
 				["AutoBarButtonMount"] = {
 				},
 				["AutoBarButtonCrafting"] = {
 					["arrangeOnUse"] = "急救",
 				},
-				["AutoBarButtonElixirGuardian"] = {
-					["arrangeOnUse"] = 40097,
+				["AutoBarButtonBuffWeapon1"] = {
+					["arrangeOnUse"] = 43230,
 				},
 			},
 			["barList"] = {
@@ -1052,5 +1052,5 @@ AutoBarDB2 = {
 	["performance_threshold"] = 100,
 	["custom_categories"] = {
 	},
-	["whatsnew_version"] = "3.00.4.06",
+	["whatsnew_version"] = "3.00.4.07",
 }

@@ -157,3 +157,4 @@ dbm-chamberofaspects: enabled
 vuhdo: disabled
 ChatFilter: disabled
 RXPGuides: disabled
+details_datastorage: enabled

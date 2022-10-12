@@ -1,0 +1,5 @@
+VER 3 0000000001000001 "坐骑" "INV_MISC_QUESTIONMARK"
+#showtooltip 迅捷绿色狮鹫
+/use 迅捷绿色狮鹫
+/use 迅捷棕马
+END

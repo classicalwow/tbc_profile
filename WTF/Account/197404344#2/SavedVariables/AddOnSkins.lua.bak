@@ -12,11 +12,11 @@ AddOnSkinsDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["ItemRack"] = false,
 			["WIM"] = false,
-			["Auctionator"] = false,
 			["Altoholic"] = false,
+			["Auctionator"] = false,
 			["BugSack"] = false,
+			["ItemRack"] = false,
 		},
 	},
 }
