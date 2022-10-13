@@ -20,34 +20,34 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["friendlyfire_total"] = 49336247,
-							["last_dps"] = 125630.7194444445,
-							["aID"] = "",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.002789,
-							["tipo"] = 1,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1665496040,
-							["classe"] = "MAGE",
-							["damage_taken"] = 18072900,
-							["nome"] = "Antonidas",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
+							["aID"] = "",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.002789,
+							["damage_taken"] = 18072900,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1665496040,
+							["classe"] = "MAGE",
+							["last_dps"] = 125630.7194444445,
+							["nome"] = "Antonidas",
+							["spec"] = 63,
 							["grupo"] = true,
 							["total"] = 45227059,
+							["tipo"] = 1,
 							["custom"] = 0,
-							["spec"] = 63,
 							["colocacao"] = 1,
 							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1665496040,
 							["serial"] = "0x0000-0000-0000",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = "0x514",
@@ -59,34 +59,34 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["friendlyfire_total"] = 15019028,
-							["last_dps"] = 95599.36666666667,
-							["aID"] = "",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.00379,
-							["tipo"] = 1,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1665496040,
-							["classe"] = "MAGE",
-							["damage_taken"] = 35100393,
-							["nome"] = "Spiro",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
+							["aID"] = "",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.00379,
+							["damage_taken"] = 35100393,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1665496040,
+							["classe"] = "MAGE",
+							["last_dps"] = 95599.36666666667,
+							["nome"] = "Spiro",
+							["spec"] = 63,
 							["grupo"] = true,
 							["total"] = 34415772,
+							["tipo"] = 1,
 							["custom"] = 0,
-							["spec"] = 63,
 							["colocacao"] = 2,
 							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1665496040,
 							["serial"] = "0x0000-0000-0000",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [2]
 						{
 							["flag_original"] = "0x514",
@@ -98,34 +98,34 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["friendlyfire_total"] = 50143907,
-							["last_dps"] = 90569.90833333334,
-							["aID"] = "",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.002967,
-							["tipo"] = 1,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1665496040,
-							["classe"] = "MAGE",
-							["damage_taken"] = 24116613,
-							["nome"] = "Sargeras",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
+							["aID"] = "",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.002967,
+							["damage_taken"] = 24116613,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1665496040,
+							["classe"] = "MAGE",
+							["last_dps"] = 90569.90833333334,
+							["nome"] = "Sargeras",
+							["spec"] = 63,
 							["grupo"] = true,
 							["total"] = 32605167,
+							["tipo"] = 1,
 							["custom"] = 0,
-							["spec"] = 63,
 							["colocacao"] = 3,
 							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1665496040,
 							["serial"] = "0x0000-0000-0000",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [3]
 						{
 							["flag_original"] = "0x514",
@@ -137,34 +137,34 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["friendlyfire_total"] = 39718456,
-							["last_dps"] = 82257.48611111111,
-							["aID"] = "",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.006019,
-							["tipo"] = 1,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1665496040,
-							["classe"] = "MAGE",
-							["damage_taken"] = 55891794,
-							["nome"] = "Fritz Fizzlesprocket",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
+							["aID"] = "",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.006019,
+							["damage_taken"] = 55891794,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1665496040,
+							["classe"] = "MAGE",
+							["last_dps"] = 82257.48611111111,
+							["nome"] = "Fritz Fizzlesprocket",
+							["spec"] = 63,
 							["grupo"] = true,
 							["total"] = 29612695,
+							["tipo"] = 1,
 							["custom"] = 0,
-							["spec"] = 63,
 							["colocacao"] = 4,
 							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1665496040,
 							["serial"] = "0x0000-0000-0000",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [4]
 						{
 							["flag_original"] = "0x514",
@@ -176,34 +176,34 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["friendlyfire_total"] = 14821262,
-							["last_dps"] = 57302.725,
-							["aID"] = "",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.005247,
-							["tipo"] = 1,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1665496040,
-							["classe"] = "MAGE",
-							["damage_taken"] = 53330717,
-							["nome"] = "Your Internet Girlfriend",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
+							["aID"] = "",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.005247,
+							["damage_taken"] = 53330717,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1665496040,
+							["classe"] = "MAGE",
+							["last_dps"] = 57302.725,
+							["nome"] = "Your Internet Girlfriend",
+							["spec"] = 63,
 							["grupo"] = true,
 							["total"] = 20628981,
+							["tipo"] = 1,
 							["custom"] = 0,
-							["spec"] = 63,
 							["colocacao"] = 5,
 							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1665496040,
 							["serial"] = "0x0000-0000-0000",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [5]
 						{
 							["flag_original"] = "0x514",
@@ -215,39 +215,38 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["friendlyfire_total"] = 22717412,
-							["last_dps"] = 30087.72777777778,
-							["aID"] = "",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.003557,
-							["tipo"] = 1,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1665496040,
-							["classe"] = "MAGE",
-							["damage_taken"] = 44959897,
-							["nome"] = "Roland",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
+							["aID"] = "",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.003557,
+							["damage_taken"] = 44959897,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1665496040,
+							["classe"] = "MAGE",
+							["last_dps"] = 30087.72777777778,
+							["nome"] = "Roland",
+							["spec"] = 63,
 							["grupo"] = true,
 							["total"] = 10831582,
+							["tipo"] = 1,
 							["custom"] = 0,
-							["spec"] = 63,
 							["colocacao"] = 6,
 							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1665496040,
 							["serial"] = "0x0000-0000-0000",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [6]
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.007145,
-							["spec"] = 256,
 							["damage_from"] = {
 								["环境伤害 (坠落)"] = true,
 							},
@@ -255,32 +254,33 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["tipo"] = 1,
+							["aID"] = "4778-04F3EDE6",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007145,
-							["aID"] = "4778-04F3EDE6",
+							["serial"] = "Player-4778-04F3EDE6",
 							["dps_started"] = false,
 							["total"] = 0.007145,
 							["classe"] = "PRIEST",
-							["serial"] = "Player-4778-04F3EDE6",
+							["friendlyfire"] = {
+							},
 							["nome"] = "新特能源",
+							["spec"] = 256,
+							["grupo"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
+							["last_event"] = 0,
 							["damage_taken"] = 2427.007145,
 							["start_time"] = 0,
 							["delay"] = 0,
-							["last_event"] = 0,
+							["friendlyfire_total"] = 0,
 						}, -- [7]
 					},
 				}, -- [1]
@@ -299,7 +299,8 @@ _detalhes_database = {
 							["totalover"] = 26596888,
 							["total_without_pet"] = 0.004974,
 							["total"] = 59490031,
-							["spec"] = 63,
+							["targets_absorbs"] = {
+							},
 							["heal_enemy"] = {
 							},
 							["colocacao"] = 1,
@@ -312,9 +313,9 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.004974,
 							["healing_taken"] = 18186075,
 							["end_time"] = 1665496040,
-							["last_event"] = 0,
 							["targets_overheal"] = {
 							},
+							["tipo"] = 2,
 							["nome"] = "Elune",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -325,12 +326,11 @@ _detalhes_database = {
 							["aID"] = "",
 							["totaldenied"] = 0.004974,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 0,
 							["classe"] = "MAGE",
 							["start_time"] = 1665496040,
 							["delay"] = 0,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 63,
 						}, -- [1]
 						{
 							["flag_original"] = 276,
@@ -343,7 +343,8 @@ _detalhes_database = {
 							["totalover"] = 23023731,
 							["total_without_pet"] = 0.006288,
 							["total"] = 41419337,
-							["spec"] = 63,
+							["targets_absorbs"] = {
+							},
 							["heal_enemy"] = {
 							},
 							["colocacao"] = 2,
@@ -356,9 +357,9 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.006288,
 							["healing_taken"] = 18307367,
 							["end_time"] = 1665496040,
-							["last_event"] = 0,
 							["targets_overheal"] = {
 							},
+							["tipo"] = 2,
 							["nome"] = "A PvP Player",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -369,12 +370,11 @@ _detalhes_database = {
 							["aID"] = "",
 							["totaldenied"] = 0.006288,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 0,
 							["classe"] = "MAGE",
 							["start_time"] = 1665496040,
 							["delay"] = 0,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 63,
 						}, -- [2]
 						{
 							["flag_original"] = 276,
@@ -387,7 +387,8 @@ _detalhes_database = {
 							["totalover"] = 29725204,
 							["total_without_pet"] = 0.003521,
 							["total"] = 39081564,
-							["spec"] = 63,
+							["targets_absorbs"] = {
+							},
 							["heal_enemy"] = {
 							},
 							["colocacao"] = 3,
@@ -400,9 +401,9 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.003521,
 							["healing_taken"] = 26314148,
 							["end_time"] = 1665496040,
-							["last_event"] = 0,
 							["targets_overheal"] = {
 							},
+							["tipo"] = 2,
 							["nome"] = "King Djoffrey",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -413,12 +414,11 @@ _detalhes_database = {
 							["aID"] = "",
 							["totaldenied"] = 0.003521,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 0,
 							["classe"] = "MAGE",
 							["start_time"] = 1665496040,
 							["delay"] = 0,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 63,
 						}, -- [3]
 						{
 							["flag_original"] = 276,
@@ -431,7 +431,8 @@ _detalhes_database = {
 							["totalover"] = 52987644,
 							["total_without_pet"] = 0.007167,
 							["total"] = 38790252,
-							["spec"] = 63,
+							["targets_absorbs"] = {
+							},
 							["heal_enemy"] = {
 							},
 							["colocacao"] = 4,
@@ -444,9 +445,9 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.007167,
 							["healing_taken"] = 22612359,
 							["end_time"] = 1665496040,
-							["last_event"] = 0,
 							["targets_overheal"] = {
 							},
+							["tipo"] = 2,
 							["nome"] = "Arthas",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -457,12 +458,11 @@ _detalhes_database = {
 							["aID"] = "",
 							["totaldenied"] = 0.007167,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 0,
 							["classe"] = "MAGE",
 							["start_time"] = 1665496040,
 							["delay"] = 0,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 63,
 						}, -- [4]
 						{
 							["flag_original"] = 276,
@@ -475,7 +475,8 @@ _detalhes_database = {
 							["totalover"] = 29912006,
 							["total_without_pet"] = 0.007424,
 							["total"] = 34901290,
-							["spec"] = 63,
+							["targets_absorbs"] = {
+							},
 							["heal_enemy"] = {
 							},
 							["colocacao"] = 5,
@@ -488,9 +489,9 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.007424,
 							["healing_taken"] = 57907694,
 							["end_time"] = 1665496040,
-							["last_event"] = 0,
 							["targets_overheal"] = {
 							},
+							["tipo"] = 2,
 							["nome"] = "Borivar",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -501,12 +502,11 @@ _detalhes_database = {
 							["aID"] = "",
 							["totaldenied"] = 0.007424,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 0,
 							["classe"] = "MAGE",
 							["start_time"] = 1665496040,
 							["delay"] = 0,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 63,
 						}, -- [5]
 						{
 							["flag_original"] = 276,
@@ -519,7 +519,8 @@ _detalhes_database = {
 							["totalover"] = 19819860,
 							["total_without_pet"] = 0.001452,
 							["total"] = 32097492,
-							["spec"] = 63,
+							["targets_absorbs"] = {
+							},
 							["heal_enemy"] = {
 							},
 							["colocacao"] = 6,
@@ -532,9 +533,9 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.001452,
 							["healing_taken"] = 10694235,
 							["end_time"] = 1665496040,
-							["last_event"] = 0,
 							["targets_overheal"] = {
 							},
+							["tipo"] = 2,
 							["nome"] = "Footman Malakai",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -545,12 +546,11 @@ _detalhes_database = {
 							["aID"] = "",
 							["totaldenied"] = 0.001452,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 0,
 							["classe"] = "MAGE",
 							["start_time"] = 1665496040,
 							["delay"] = 0,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 63,
 						}, -- [6]
 						{
 							["flag_original"] = 276,
@@ -563,7 +563,8 @@ _detalhes_database = {
 							["totalover"] = 23746541,
 							["total_without_pet"] = 0.007123,
 							["total"] = 31313078,
-							["spec"] = 63,
+							["targets_absorbs"] = {
+							},
 							["heal_enemy"] = {
 							},
 							["colocacao"] = 7,
@@ -576,9 +577,9 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.007123,
 							["healing_taken"] = 46900520,
 							["end_time"] = 1665496040,
-							["last_event"] = 0,
 							["targets_overheal"] = {
 							},
+							["tipo"] = 2,
 							["nome"] = "Fritz Fizzlesprocket",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -589,12 +590,11 @@ _detalhes_database = {
 							["aID"] = "",
 							["totaldenied"] = 0.007123,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 0,
 							["classe"] = "MAGE",
 							["start_time"] = 1665496040,
 							["delay"] = 0,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 63,
 						}, -- [7]
 						{
 							["flag_original"] = 276,
@@ -603,7 +603,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "MAGE",
 							["totalover"] = 35298737,
 							["total_without_pet"] = 0.004844,
 							["total"] = 20465227,
@@ -619,7 +619,7 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.004844,
 							["healing_taken"] = 14720215,
 							["end_time"] = 1665496040,
-							["last_event"] = 0,
+							["tipo"] = 2,
 							["targets_overheal"] = {
 							},
 							["nome"] = "Stormwind Guard",
@@ -629,11 +629,11 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["aID"] = "",
+							["heal_enemy_amt"] = 0,
 							["totaldenied"] = 0.004844,
 							["custom"] = 0,
-							["tipo"] = 2,
-							["classe"] = "MAGE",
+							["last_event"] = 0,
+							["aID"] = "",
 							["start_time"] = 1665496040,
 							["delay"] = 0,
 							["targets_absorbs"] = {
@@ -646,7 +646,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "MAGE",
 							["totalover"] = 50955890,
 							["total_without_pet"] = 0.001618,
 							["total"] = 20408443,
@@ -662,7 +662,7 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.001618,
 							["healing_taken"] = 42094414,
 							["end_time"] = 1665496040,
-							["last_event"] = 0,
+							["tipo"] = 2,
 							["targets_overheal"] = {
 							},
 							["nome"] = "Priestess MacDonnell",
@@ -672,11 +672,11 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["aID"] = "",
+							["heal_enemy_amt"] = 0,
 							["totaldenied"] = 0.001618,
 							["custom"] = 0,
-							["tipo"] = 2,
-							["classe"] = "MAGE",
+							["last_event"] = 0,
+							["aID"] = "",
 							["start_time"] = 1665496040,
 							["delay"] = 0,
 							["targets_absorbs"] = {
@@ -689,7 +689,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "MAGE",
 							["totalover"] = 51705777,
 							["total_without_pet"] = 0.004866,
 							["total"] = 19701937,
@@ -705,7 +705,7 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.004866,
 							["healing_taken"] = 58298789,
 							["end_time"] = 1665496040,
-							["last_event"] = 0,
+							["tipo"] = 2,
 							["targets_overheal"] = {
 							},
 							["nome"] = "Bolvar Fordragon",
@@ -715,11 +715,11 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["aID"] = "",
+							["heal_enemy_amt"] = 0,
 							["totaldenied"] = 0.004866,
 							["custom"] = 0,
-							["tipo"] = 2,
-							["classe"] = "MAGE",
+							["last_event"] = 0,
+							["aID"] = "",
 							["start_time"] = 1665496040,
 							["delay"] = 0,
 							["targets_absorbs"] = {
@@ -727,17 +727,34 @@ _detalhes_database = {
 						}, -- [10]
 						{
 							["flag_original"] = 1297,
-							["totalabsorb"] = 0.006745,
-							["last_hps"] = 0,
 							["healing_from"] = {
 							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = true,
+							["classe"] = "PRIEST",
+							["totalover"] = 1593.006745,
+							["total_without_pet"] = 0.006745,
+							["total"] = 0.006745,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = true,
+							["serial"] = "Player-4778-04F3EDE6",
+							["totalabsorb"] = 0.006745,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.006745,
+							["healing_taken"] = 0.006745,
+							["last_event"] = 1665510731,
 							["targets_overheal"] = {
 								["女公爵麦恩克丝"] = 1593,
 							},
-							["targets"] = {
-							},
+							["timeMachine"] = 5,
+							["nome"] = "新特能源",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[56160] = {
 										["c_amt"] = 1,
@@ -759,40 +776,23 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 0,
 										["totaldenied"] = 0,
 										["n_amt"] = 0,
+										["n_curado"] = 0,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["pets"] = {
-							},
-							["totalover_without_pet"] = 0.006745,
-							["iniciar_hps"] = true,
-							["healing_taken"] = 0.006745,
-							["totalover"] = 1593.006745,
-							["total_without_pet"] = 0.006745,
-							["heal_enemy_amt"] = 0,
-							["aID"] = "4778-04F3EDE6",
-							["classe"] = "PRIEST",
-							["total"] = 0.006745,
-							["timeMachine"] = 5,
-							["start_time"] = 1665510731,
-							["nome"] = "新特能源",
-							["spec"] = 256,
 							["grupo"] = true,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["serial"] = "Player-4778-04F3EDE6",
+							["start_time"] = 1665510731,
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1665510731,
-							["on_hold"] = true,
+							["tipo"] = 2,
+							["aID"] = "4778-04F3EDE6",
 							["totaldenied"] = 0.006745,
 							["delay"] = 1665510731,
-							["tipo"] = 2,
+							["spec"] = 256,
 						}, -- [11]
 					},
 				}, -- [2]
@@ -832,23 +832,23 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[57822] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 57822,
-										["uptime"] = 0,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
 									[48168] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
 										["refreshamt"] = 0,
 										["id"] = 48168,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[57822] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 57822,
 										["uptime"] = 0,
 										["targets"] = {
 										},
@@ -885,16 +885,15 @@ _detalhes_database = {
 				["raid_roster_indexed"] = {
 					"新特能源", -- [1]
 				},
-				["data_inicio"] = "21:47:20",
+				["frags"] = {
+				},
 				["overall_added"] = true,
 				["cleu_timeline"] = {
 				},
 				["alternate_power"] = {
 				},
 				["enemy"] = "Illidan Stormrage",
-				["cleu_events"] = {
-					["n"] = 1,
-				},
+				["combat_counter"] = 6,
 				["totals"] = {
 					334468935.99139, -- [1]
 					337668650.9640151, -- [2]
@@ -944,6 +943,8 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
+				["data_inicio"] = "21:47:20",
+				["end_time"] = 43847.351,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -962,15 +963,11 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["end_time"] = 43847.351,
 				["instance_type"] = "none",
+				["tempo_start"] = 1665496040,
 				["combat_id"] = 1,
-				["spells_cast_timeline"] = {
-				},
-				["last_events_tables"] = {
-				},
 				["hasSaved"] = true,
-				["frags"] = {
+				["spells_cast_timeline"] = {
 				},
 				["data_fim"] = "21:47:20",
 				["player_last_events"] = {
@@ -1054,11 +1051,14 @@ _detalhes_database = {
 				},
 				["CombatSkillCache"] = {
 				},
-				["combat_counter"] = 6,
+				["last_events_tables"] = {
+				},
 				["start_time"] = 43487.351,
 				["TimeData"] = {
 				},
-				["tempo_start"] = 1665496040,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 			}, -- [1]
 		},
 	},
@@ -1905,7 +1905,7 @@ _detalhes_database = {
 				1, -- [3]
 				0.5, -- [4]
 			},
-			["author"] = "Terciob",
+			["arrow_anchor_y"] = 0,
 			["main_frame_size"] = {
 				299.9999389648438, -- [1]
 				499.9999084472656, -- [2]
@@ -1917,20 +1917,20 @@ _detalhes_database = {
 			},
 			["main_frame_locked"] = false,
 			["arrow_anchor_x"] = 0,
-			["font_size"] = 10,
+			["use_spark"] = true,
 			["row_texture"] = "Details Serenity",
 			["square_grow_direction"] = "right",
-			["arrow_anchor_y"] = 0,
-			["use_spark"] = true,
-			["square_amount"] = 5,
-			["enabled"] = false,
-			["arrow_size"] = 10,
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
+			["author"] = "Terciob",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["y"] = -4.57763671875e-05,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -1940,6 +1940,7 @@ _detalhes_database = {
 			},
 			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -1951,7 +1952,6 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
-			["y"] = -4.57763671875e-05,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
@@ -1966,6 +1966,12 @@ _detalhes_database = {
 			["scale"] = 1,
 		},
 	},
+	["last_day"] = "12",
+	["last_instance_time"] = 0,
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "",
 		["started"] = false,
@@ -1977,12 +1983,6 @@ _detalhes_database = {
 		["dungeon_zone_id"] = 0,
 		["previous_boss_killed_at"] = 0,
 	},
-	["last_day"] = "12",
-	["announce_damagerecord"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
-	},
-	["last_instance_time"] = 0,
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
@@ -1992,9 +1992,9 @@ _detalhes_database = {
 	["savedStyles"] = {
 	},
 	["character_data"] = {
-		["logons"] = 2,
+		["logons"] = 4,
 	},
-	["combat_counter"] = 7,
+	["combat_counter"] = 9,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -2014,35 +2014,35 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["colocacao"] = 1,
-					["delay"] = 0,
 					["classe"] = "MAGE",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 0.009621000000000001,
-					["end_time"] = 1665496040,
-					["damage_taken"] = 18072900.006832,
-					["dps_started"] = false,
-					["total"] = 45227059.006832,
-					["aID"] = "",
 					["spells"] = {
 						["_ActorTable"] = {
 						},
 						["tipo"] = 2,
 					},
+					["friendlyfire_total"] = 49336247,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.009621000000000001,
+					["last_dps"] = 125630.7194634222,
+					["delay"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1665496040,
+					["aID"] = "",
+					["damage_taken"] = 18072900.006832,
 					["nome"] = "Antonidas",
 					["spec"] = 63,
 					["grupo"] = true,
-					["last_dps"] = 125630.7194634222,
+					["total"] = 45227059.006832,
 					["tipo"] = 1,
-					["friendlyfire_total"] = 49336247,
+					["colocacao"] = 1,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["start_time"] = 1665496037,
 					["serial"] = "0x0000-0000-0000",
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 				}, -- [1]
 				{
 					["flag_original"] = "0x514",
@@ -2053,35 +2053,35 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["colocacao"] = 2,
-					["delay"] = 0,
 					["classe"] = "MAGE",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 0.008709999999999999,
-					["end_time"] = 1665496040,
-					["damage_taken"] = 35100393.00492,
-					["dps_started"] = false,
-					["total"] = 34415772.00492,
-					["aID"] = "",
 					["spells"] = {
 						["_ActorTable"] = {
 						},
 						["tipo"] = 2,
 					},
+					["friendlyfire_total"] = 15019028,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.008709999999999999,
+					["last_dps"] = 95599.36668033333,
+					["delay"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1665496040,
+					["aID"] = "",
+					["damage_taken"] = 35100393.00492,
 					["nome"] = "Spiro",
 					["spec"] = 63,
 					["grupo"] = true,
-					["last_dps"] = 95599.36668033333,
+					["total"] = 34415772.00492,
 					["tipo"] = 1,
-					["friendlyfire_total"] = 15019028,
+					["colocacao"] = 2,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["start_time"] = 1665496037,
 					["serial"] = "0x0000-0000-0000",
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 				}, -- [2]
 				{
 					["flag_original"] = "0x514",
@@ -2092,35 +2092,35 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["colocacao"] = 3,
-					["delay"] = 0,
 					["classe"] = "MAGE",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 0.006073,
-					["end_time"] = 1665496040,
-					["damage_taken"] = 24116613.003106,
-					["dps_started"] = false,
-					["total"] = 32605167.003106,
-					["aID"] = "",
 					["spells"] = {
 						["_ActorTable"] = {
 						},
 						["tipo"] = 2,
 					},
+					["friendlyfire_total"] = 50143907,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.006073,
+					["last_dps"] = 90569.90834196111,
+					["delay"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1665496040,
+					["aID"] = "",
+					["damage_taken"] = 24116613.003106,
 					["nome"] = "Sargeras",
 					["spec"] = 63,
 					["grupo"] = true,
-					["last_dps"] = 90569.90834196111,
+					["total"] = 32605167.003106,
 					["tipo"] = 1,
-					["friendlyfire_total"] = 50143907,
+					["colocacao"] = 3,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["start_time"] = 1665496037,
 					["serial"] = "0x0000-0000-0000",
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 				}, -- [3]
 				{
 					["flag_original"] = "0x514",
@@ -2131,35 +2131,35 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["colocacao"] = 4,
-					["delay"] = 0,
 					["classe"] = "MAGE",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 0.007051,
-					["end_time"] = 1665496040,
-					["damage_taken"] = 55891794.001032,
-					["dps_started"] = false,
-					["total"] = 29612695.001032,
-					["aID"] = "",
 					["spells"] = {
 						["_ActorTable"] = {
 						},
 						["tipo"] = 2,
 					},
+					["friendlyfire_total"] = 39718456,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.007051,
+					["last_dps"] = 82257.48611397778,
+					["delay"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1665496040,
+					["aID"] = "",
+					["damage_taken"] = 55891794.001032,
 					["nome"] = "Fritz Fizzlesprocket",
 					["spec"] = 63,
 					["grupo"] = true,
-					["last_dps"] = 82257.48611397778,
+					["total"] = 29612695.001032,
 					["tipo"] = 1,
-					["friendlyfire_total"] = 39718456,
+					["colocacao"] = 4,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["start_time"] = 1665496037,
 					["serial"] = "0x0000-0000-0000",
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 				}, -- [4]
 				{
 					["flag_original"] = "0x514",
@@ -2170,35 +2170,35 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["colocacao"] = 5,
-					["delay"] = 0,
 					["classe"] = "MAGE",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 0.00907,
-					["end_time"] = 1665496040,
-					["damage_taken"] = 53330717.003823,
-					["dps_started"] = false,
-					["total"] = 20628981.003823,
-					["aID"] = "",
 					["spells"] = {
 						["_ActorTable"] = {
 						},
 						["tipo"] = 2,
 					},
+					["friendlyfire_total"] = 14821262,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.00907,
+					["last_dps"] = 57302.72501061945,
+					["delay"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1665496040,
+					["aID"] = "",
+					["damage_taken"] = 53330717.003823,
 					["nome"] = "Your Internet Girlfriend",
 					["spec"] = 63,
 					["grupo"] = true,
-					["last_dps"] = 57302.72501061945,
+					["total"] = 20628981.003823,
 					["tipo"] = 1,
-					["friendlyfire_total"] = 14821262,
+					["colocacao"] = 5,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["start_time"] = 1665496037,
 					["serial"] = "0x0000-0000-0000",
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 				}, -- [5]
 				{
 					["flag_original"] = "0x514",
@@ -2209,36 +2209,74 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["colocacao"] = 6,
-					["delay"] = 0,
 					["classe"] = "MAGE",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 0.009918,
-					["end_time"] = 1665496040,
-					["damage_taken"] = 44959897.006361,
-					["dps_started"] = false,
-					["total"] = 10831582.006361,
-					["aID"] = "",
 					["spells"] = {
 						["_ActorTable"] = {
 						},
 						["tipo"] = 2,
 					},
+					["friendlyfire_total"] = 22717412,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.009918,
+					["last_dps"] = 30087.72779544722,
+					["delay"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1665496040,
+					["aID"] = "",
+					["damage_taken"] = 44959897.006361,
 					["nome"] = "Roland",
 					["spec"] = 63,
 					["grupo"] = true,
-					["last_dps"] = 30087.72779544722,
+					["total"] = 10831582.006361,
 					["tipo"] = 1,
-					["friendlyfire_total"] = 22717412,
+					["colocacao"] = 6,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1665496037,
+					["serial"] = "0x0000-0000-0000",
+					["friendlyfire"] = {
+					},
+				}, -- [6]
+				{
+					["flag_original"] = 1297,
+					["totalabsorbed"] = 0.001078,
+					["damage_from"] = {
+					},
+					["targets"] = {
+					},
+					["delay"] = 0,
+					["pets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 0.001078,
+					["aID"] = "4778-04F3EDE6",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.001078,
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["end_time"] = 1665552512,
+					["last_dps"] = 0,
+					["tipo"] = 1,
+					["nome"] = "新特能源",
+					["spec"] = 256,
+					["grupo"] = true,
+					["classe"] = "PRIEST",
+					["on_hold"] = false,
 					["custom"] = 0,
 					["last_event"] = 0,
 					["friendlyfire"] = {
 					},
-					["start_time"] = 1665496037,
-					["serial"] = "0x0000-0000-0000",
-					["on_hold"] = false,
-				}, -- [6]
+					["start_time"] = 1665552509,
+					["serial"] = "Player-4778-04F3EDE6",
+					["total"] = 0.001078,
+				}, -- [7]
 			},
 		}, -- [1]
 		{
@@ -2251,7 +2289,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["aID"] = "",
+					["classe"] = "MAGE",
 					["totalover"] = 51705777.004193,
 					["total_without_pet"] = 0.009059,
 					["total"] = 19701937.004193,
@@ -2267,7 +2305,7 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.009059,
 					["healing_taken"] = 58298789.004193,
 					["end_time"] = 1665496040,
-					["tipo"] = 2,
+					["last_event"] = 0,
 					["healing_from"] = {
 					},
 					["nome"] = "Bolvar Fordragon",
@@ -2277,11 +2315,11 @@ _detalhes_database = {
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["heal_enemy_amt"] = 0,
+					["aID"] = "",
 					["totaldenied"] = 0.009059,
 					["custom"] = 0,
-					["last_event"] = 0,
-					["classe"] = "MAGE",
+					["tipo"] = 2,
+					["heal_enemy_amt"] = 0,
 					["start_time"] = 1665496037,
 					["delay"] = 0,
 					["targets_absorbs"] = {
@@ -2294,7 +2332,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["aID"] = "",
+					["classe"] = "MAGE",
 					["totalover"] = 19819860.005537,
 					["total_without_pet"] = 0.006989,
 					["total"] = 32097492.005537,
@@ -2310,7 +2348,7 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.006989,
 					["healing_taken"] = 10694235.005537,
 					["end_time"] = 1665496040,
-					["tipo"] = 2,
+					["last_event"] = 0,
 					["healing_from"] = {
 					},
 					["nome"] = "Footman Malakai",
@@ -2320,11 +2358,11 @@ _detalhes_database = {
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["heal_enemy_amt"] = 0,
+					["aID"] = "",
 					["totaldenied"] = 0.006989,
 					["custom"] = 0,
-					["last_event"] = 0,
-					["classe"] = "MAGE",
+					["tipo"] = 2,
+					["heal_enemy_amt"] = 0,
 					["start_time"] = 1665496037,
 					["delay"] = 0,
 					["targets_absorbs"] = {
@@ -2337,7 +2375,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["aID"] = "",
+					["classe"] = "MAGE",
 					["totalover"] = 23746541.004516,
 					["total_without_pet"] = 0.011639,
 					["total"] = 31313078.004516,
@@ -2353,7 +2391,7 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.011639,
 					["healing_taken"] = 46900520.004516,
 					["end_time"] = 1665496040,
-					["tipo"] = 2,
+					["last_event"] = 0,
 					["healing_from"] = {
 					},
 					["nome"] = "Fritz Fizzlesprocket",
@@ -2363,11 +2401,11 @@ _detalhes_database = {
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["heal_enemy_amt"] = 0,
+					["aID"] = "",
 					["totaldenied"] = 0.011639,
 					["custom"] = 0,
-					["last_event"] = 0,
-					["classe"] = "MAGE",
+					["tipo"] = 2,
+					["heal_enemy_amt"] = 0,
 					["start_time"] = 1665496037,
 					["delay"] = 0,
 					["targets_absorbs"] = {
@@ -2380,7 +2418,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["aID"] = "",
+					["classe"] = "MAGE",
 					["totalover"] = 26596888.003761,
 					["total_without_pet"] = 0.008735,
 					["total"] = 59490031.003761,
@@ -2396,7 +2434,7 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.008735,
 					["healing_taken"] = 18186075.003761,
 					["end_time"] = 1665496040,
-					["tipo"] = 2,
+					["last_event"] = 0,
 					["healing_from"] = {
 					},
 					["nome"] = "Elune",
@@ -2406,11 +2444,11 @@ _detalhes_database = {
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["heal_enemy_amt"] = 0,
+					["aID"] = "",
 					["totaldenied"] = 0.008735,
 					["custom"] = 0,
-					["last_event"] = 0,
-					["classe"] = "MAGE",
+					["tipo"] = 2,
+					["heal_enemy_amt"] = 0,
 					["start_time"] = 1665496037,
 					["delay"] = 0,
 					["targets_absorbs"] = {
@@ -2423,7 +2461,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["aID"] = "",
+					["classe"] = "MAGE",
 					["totalover"] = 50955890.002526,
 					["total_without_pet"] = 0.004144,
 					["total"] = 20408443.002526,
@@ -2439,7 +2477,7 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.004144,
 					["healing_taken"] = 42094414.002526,
 					["end_time"] = 1665496040,
-					["tipo"] = 2,
+					["last_event"] = 0,
 					["healing_from"] = {
 					},
 					["nome"] = "Priestess MacDonnell",
@@ -2449,11 +2487,11 @@ _detalhes_database = {
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["heal_enemy_amt"] = 0,
+					["aID"] = "",
 					["totaldenied"] = 0.004144,
 					["custom"] = 0,
-					["last_event"] = 0,
-					["classe"] = "MAGE",
+					["tipo"] = 2,
+					["heal_enemy_amt"] = 0,
 					["start_time"] = 1665496037,
 					["delay"] = 0,
 					["targets_absorbs"] = {
@@ -2466,7 +2504,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["aID"] = "",
+					["classe"] = "MAGE",
 					["totalover"] = 29912006.005146,
 					["total_without_pet"] = 0.01257,
 					["total"] = 34901290.005146,
@@ -2482,7 +2520,7 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.01257,
 					["healing_taken"] = 57907694.005146,
 					["end_time"] = 1665496040,
-					["tipo"] = 2,
+					["last_event"] = 0,
 					["healing_from"] = {
 					},
 					["nome"] = "Borivar",
@@ -2492,11 +2530,11 @@ _detalhes_database = {
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["heal_enemy_amt"] = 0,
+					["aID"] = "",
 					["totaldenied"] = 0.01257,
 					["custom"] = 0,
-					["last_event"] = 0,
-					["classe"] = "MAGE",
+					["tipo"] = 2,
+					["heal_enemy_amt"] = 0,
 					["start_time"] = 1665496037,
 					["delay"] = 0,
 					["targets_absorbs"] = {
@@ -2509,7 +2547,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["aID"] = "",
+					["classe"] = "MAGE",
 					["totalover"] = 23023731.005819,
 					["total_without_pet"] = 0.012107,
 					["total"] = 41419337.005819,
@@ -2525,7 +2563,7 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.012107,
 					["healing_taken"] = 18307367.005819,
 					["end_time"] = 1665496040,
-					["tipo"] = 2,
+					["last_event"] = 0,
 					["healing_from"] = {
 					},
 					["nome"] = "A PvP Player",
@@ -2535,11 +2573,11 @@ _detalhes_database = {
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["heal_enemy_amt"] = 0,
+					["aID"] = "",
 					["totaldenied"] = 0.012107,
 					["custom"] = 0,
-					["last_event"] = 0,
-					["classe"] = "MAGE",
+					["tipo"] = 2,
+					["heal_enemy_amt"] = 0,
 					["start_time"] = 1665496037,
 					["delay"] = 0,
 					["targets_absorbs"] = {
@@ -2552,7 +2590,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["aID"] = "",
+					["classe"] = "MAGE",
 					["totalover"] = 29725204.001722,
 					["total_without_pet"] = 0.005242999999999999,
 					["total"] = 39081564.001722,
@@ -2568,7 +2606,7 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.005242999999999999,
 					["healing_taken"] = 26314148.001722,
 					["end_time"] = 1665496040,
-					["tipo"] = 2,
+					["last_event"] = 0,
 					["healing_from"] = {
 					},
 					["nome"] = "King Djoffrey",
@@ -2578,11 +2616,11 @@ _detalhes_database = {
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["heal_enemy_amt"] = 0,
+					["aID"] = "",
 					["totaldenied"] = 0.005242999999999999,
 					["custom"] = 0,
-					["last_event"] = 0,
-					["classe"] = "MAGE",
+					["tipo"] = 2,
+					["heal_enemy_amt"] = 0,
 					["start_time"] = 1665496037,
 					["delay"] = 0,
 					["targets_absorbs"] = {
@@ -2595,7 +2633,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["aID"] = "",
+					["classe"] = "MAGE",
 					["totalover"] = 52987644.005473,
 					["total_without_pet"] = 0.01264,
 					["total"] = 38790252.005473,
@@ -2611,7 +2649,7 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.01264,
 					["healing_taken"] = 22612359.005473,
 					["end_time"] = 1665496040,
-					["tipo"] = 2,
+					["last_event"] = 0,
 					["healing_from"] = {
 					},
 					["nome"] = "Arthas",
@@ -2621,11 +2659,11 @@ _detalhes_database = {
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["heal_enemy_amt"] = 0,
+					["aID"] = "",
 					["totaldenied"] = 0.01264,
 					["custom"] = 0,
-					["last_event"] = 0,
-					["classe"] = "MAGE",
+					["tipo"] = 2,
+					["heal_enemy_amt"] = 0,
 					["start_time"] = 1665496037,
 					["delay"] = 0,
 					["targets_absorbs"] = {
@@ -2638,7 +2676,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["aID"] = "",
+					["classe"] = "MAGE",
 					["totalover"] = 35298737.003298,
 					["total_without_pet"] = 0.008142,
 					["total"] = 20465227.003298,
@@ -2654,7 +2692,7 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.008142,
 					["healing_taken"] = 14720215.003298,
 					["end_time"] = 1665496040,
-					["tipo"] = 2,
+					["last_event"] = 0,
 					["healing_from"] = {
 					},
 					["nome"] = "Stormwind Guard",
@@ -2664,16 +2702,85 @@ _detalhes_database = {
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["heal_enemy_amt"] = 0,
+					["aID"] = "",
 					["totaldenied"] = 0.008142,
 					["custom"] = 0,
-					["last_event"] = 0,
-					["classe"] = "MAGE",
+					["tipo"] = 2,
+					["heal_enemy_amt"] = 0,
 					["start_time"] = 1665496037,
 					["delay"] = 0,
 					["targets_absorbs"] = {
 					},
 				}, -- [10]
+				{
+					["flag_original"] = 1297,
+					["healing_from"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 0.003226,
+					["total_without_pet"] = 0.003226,
+					["total"] = 0.003226,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-4778-04F3EDE6",
+					["totalabsorb"] = 0.003226,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.003226,
+					["healing_taken"] = 0.003226,
+					["end_time"] = 1665552512,
+					["spec"] = 256,
+					["targets_overheal"] = {
+						["女公爵麦恩克丝"] = 0,
+					},
+					["nome"] = "新特能源",
+					["spells"] = {
+						["_ActorTable"] = {
+							[56160] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["女公爵麦恩克丝"] = 0,
+								},
+								["n_max"] = 0,
+								["targets"] = {
+									["女公爵麦恩克丝"] = 0,
+								},
+								["n_min"] = 0,
+								["counter"] = 0,
+								["overheal"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 56160,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_curado"] = 0,
+								["n_amt"] = 0,
+								["n_curado"] = 0,
+								["totaldenied"] = 0,
+								["absorbed"] = 0,
+							},
+						},
+						["tipo"] = 3,
+					},
+					["grupo"] = true,
+					["last_event"] = 0,
+					["classe"] = "PRIEST",
+					["custom"] = 0,
+					["tipo"] = 2,
+					["totaldenied"] = 0.003226,
+					["start_time"] = 1665552509,
+					["delay"] = 0,
+					["aID"] = "4778-04F3EDE6",
+				}, -- [11]
 			},
 		}, -- [2]
 		{
@@ -2719,21 +2826,21 @@ _detalhes_database = {
 								},
 								["refreshamt"] = 0,
 							},
-							[57822] = {
-								["counter"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 57822,
-								["uptime"] = 0,
-								["targets"] = {
-								},
-								["refreshamt"] = 0,
-							},
 							[48168] = {
 								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 48168,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[57822] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 57822,
 								["uptime"] = 0,
 								["targets"] = {
 								},
@@ -2756,10 +2863,16 @@ _detalhes_database = {
 		},
 		["raid_roster_indexed"] = {
 		},
-		["cleu_timeline"] = {
+		["segments_added"] = {
+			{
+				["elapsed"] = 360,
+				["type"] = 0,
+				["name"] = "Illidan Stormrage",
+				["clock"] = "21:47:20",
+			}, -- [1]
 		},
 		["tempo_start"] = 1665496040,
-		["last_events_tables"] = {
+		["cleu_timeline"] = {
 		},
 		["alternate_power"] = {
 		},
@@ -2796,6 +2909,8 @@ _detalhes_database = {
 		},
 		["data_inicio"] = "21:47:20",
 		["end_time"] = 43847.351,
+		["last_events_tables"] = {
+		},
 		["totals_grupo"] = {
 			173321256, -- [1]
 			337668651, -- [2]
@@ -2831,14 +2946,6 @@ _detalhes_database = {
 			},
 			["damage_section"] = {
 			},
-		},
-		["segments_added"] = {
-			{
-				["elapsed"] = 360,
-				["type"] = 0,
-				["name"] = "Illidan Stormrage",
-				["clock"] = "21:47:20",
-			}, -- [1]
 		},
 		["hasSaved"] = true,
 		["spells_cast_timeline"] = {

@@ -67,7 +67,7 @@ DataStore_CraftsDB = {
 				["lastUpdate"] = 1659786092,
 			},
 			["Default.祈福.特变电工"] = {
-				["lastUpdate"] = 1665510779,
+				["lastUpdate"] = 1665601960,
 				["Professions"] = {
 					["烹饪"] = {
 						["Categories"] = {

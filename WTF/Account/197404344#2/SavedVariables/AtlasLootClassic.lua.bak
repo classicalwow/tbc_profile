@@ -58,7 +58,7 @@ AtlasLootClassicDB = {
 			[41918] = "EmblemOfHeroism:45",
 			[41930] = "EmblemOfHeroism:30",
 			[41938] = "EmblemOfValor:30",
-			[41847] = "EmblemOfHeroism:30",
+			[50356] = "EmblemOfFrost:60",
 			[40721] = "EmblemOfValor:25",
 			[40680] = "EmblemOfHeroism:25",
 			[40684] = "EmblemOfHeroism:40",
@@ -66,7 +66,7 @@ AtlasLootClassicDB = {
 			[40692] = "EmblemOfHeroism:40",
 			[40696] = "EmblemOfHeroism:40",
 			[40700] = "EmblemOfHeroism:35",
-			[50356] = "EmblemOfFrost:60",
+			[41847] = "EmblemOfHeroism:30",
 			[41851] = "EmblemOfHeroism:45",
 			[40615] = "EmblemOfHeroism:60",
 			[40716] = "EmblemOfHeroism:15",
@@ -108,18 +108,21 @@ AtlasLootClassicDB = {
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
+			["minimap"] = {
+				["minimapPos"] = 214.0023519491544,
+			},
 			["GUI"] = {
 				["point"] = {
 					nil, -- [1]
 					nil, -- [2]
 					"CENTER", -- [3]
-					-155.4442138671875, -- [4]
-					112.0000228881836, -- [5]
+					-148.3333435058594, -- [4]
+					93.11114501953125, -- [5]
 				},
 				["selected"] = {
 					nil, -- [1]
 					"NaxxramasWrath", -- [2]
-					15, -- [3]
+					nil, -- [3]
 					3, -- [4]
 					0, -- [5]
 				},

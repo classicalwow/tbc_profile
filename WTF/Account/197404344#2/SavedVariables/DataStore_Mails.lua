@@ -10,6 +10,10 @@ DataStore_MailsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.祈福.特变电工"] = {
+				["lastUpdate"] = 1665580409,
+				["lastVisitDate"] = "2022/10/12 21:13",
+			},
 			["Default.祈福.新特能源"] = {
 				["lastUpdate"] = 1662053162,
 				["Mails"] = {
@@ -88,10 +92,6 @@ DataStore_MailsDB = {
 					}, -- [8]
 				},
 				["lastVisitDate"] = "2022/09/02 01:26",
-			},
-			["Default.祈福.特变电工"] = {
-				["lastUpdate"] = 1665510789,
-				["lastVisitDate"] = "2022/10/12 01:53",
 			},
 		},
 	},

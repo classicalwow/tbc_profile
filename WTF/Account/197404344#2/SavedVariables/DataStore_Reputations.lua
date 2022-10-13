@@ -64,7 +64,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.祈福.特变电工"] = {
-				["lastUpdate"] = 1665510779,
+				["lastUpdate"] = 1665601960,
 				["Factions"] = {
 					21661, -- [1]
 					nil, -- [2]

@@ -12,7 +12,8 @@ AddOnSkinsDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["WIM"] = false,
+			["Parchment"] = true,
+			["DBMSkinHalf"] = true,
 			["Altoholic"] = false,
 			["Auctionator"] = false,
 			["BugSack"] = false,
