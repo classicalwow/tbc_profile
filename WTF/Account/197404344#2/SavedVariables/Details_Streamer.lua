@@ -23,7 +23,7 @@ Details_StreamerDB = {
 			["minimap"] = {
 				["minimapPos"] = 160,
 				["radius"] = 160,
-				["hide"] = false,
+				["hide"] = true,
 			},
 			["main_frame_locked"] = false,
 			["arrow_anchor_x"] = 0,

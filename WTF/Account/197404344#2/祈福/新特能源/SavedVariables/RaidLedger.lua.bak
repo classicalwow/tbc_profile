@@ -280,6 +280,66 @@ RaidLedgerDatabase = {
 						["count"] = 1,
 					},
 				}, -- [23]
+				{
+					["beneficiary"] = "诺锘",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cff0070dd|Hitem:34052::::::::80:::::::::|h[梦境碎片]|h|r",
+						["count"] = 2,
+					},
+				}, -- [24]
+				{
+					["beneficiary"] = "诺锘",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34057::::::::80:::::::::|h[深渊水晶]|h|r",
+						["count"] = 1,
+					},
+				}, -- [25]
+				{
+					["beneficiary"] = "诺锘",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39564::::::::80:::::::::|h[英雄的骨镰腿甲]|h|r",
+						["count"] = 1,
+					},
+				}, -- [26]
+				{
+					["beneficiary"] = "喵小猎",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39580::::::::80:::::::::|h[英雄的地穴追猎者护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [27]
+				{
+					["beneficiary"] = "冷冰霸天",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cff0070dd|Hitem:34052::::::::80:::::::::|h[梦境碎片]|h|r",
+						["count"] = 2,
+					},
+				}, -- [28]
 			},
 		}, -- [1]
 	},

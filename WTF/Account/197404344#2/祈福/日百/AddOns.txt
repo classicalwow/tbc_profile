@@ -62,7 +62,7 @@ GTFO: disabled
 ItemRack: disabled
 ItemRackOptions: disabled
 Leatrix_Maps: disabled
-LFGBulletinBoard: disabled
+LFGBulletinBoard: enabled
 LoonBestInSlot: disabled
 LootMonitor: disabled
 LoseControl: disabled
@@ -150,3 +150,10 @@ DBM-BlackTemple: disabled
 DBM-BWL: disabled
 FFLU: disabled
 HeyboxPlayerInfo: disabled
+Details: disabled
+Details_EncounterDetails: disabled
+Details_RaidCheck: disabled
+Details_DataStorage: disabled
+Details_Streamer: disabled
+Details_TinyThreat: disabled
+Details_Vanguard: disabled
