@@ -45,13 +45,13 @@ GroupBulletinBoardDBChar = {
 	["FilterDungeonPOS"] = true,
 	["FilterDungeonFOS"] = true,
 	["DontFilterOwn"] = false,
-	["FilterDungeonSFK"] = false,
-	["FilterDungeonZF"] = false,
 	["FilterDungeonEOE"] = true,
+	["FilterDungeonZF"] = false,
+	["FilterDungeonSFK"] = false,
 	["FilterDungeonBAD"] = true,
-	["FilterDungeonBFD"] = false,
-	["FilterDungeonSV"] = true,
 	["FilterDungeonMAG"] = true,
+	["FilterDungeonSV"] = true,
+	["FilterDungeonVOA"] = true,
 	["FilterDungeonHOL"] = true,
 	["FilterDungeonOCC"] = true,
 	["FilterDungeonSSC"] = true,
@@ -63,20 +63,20 @@ GroupBulletinBoardDBChar = {
 	["FilterDungeonOS"] = true,
 	["FilterDungeonSMG"] = false,
 	["FilterDungeonSML"] = false,
-	["FilterDungeonBWL"] = false,
 	["FilterDungeonAQ20"] = false,
-	["FilterDungeonUB"] = true,
+	["FilterDungeonBWL"] = false,
 	["FilterDungeonNAXX"] = true,
-	["FilterDungeonUK"] = true,
+	["FilterDungeonUB"] = true,
 	["FilterDungeonNAX"] = false,
+	["FilterDungeonUK"] = true,
 	["FilterDungeonBM"] = true,
 	["FilterDungeonMISC"] = true,
 	["FilterDungeonEYE"] = true,
 	["FilterDungeonICC"] = true,
 	["FilterDungeonSCH"] = false,
+	["FilterDungeonARC"] = true,
 	["FilterDungeonSETH"] = true,
 	["FilterDungeonSTR"] = false,
-	["FilterDungeonARC"] = true,
 	["FilterDungeonAZN"] = true,
 	["FilterDungeonNEX"] = true,
 	["FilterDungeonGD"] = true,
@@ -94,31 +94,31 @@ GroupBulletinBoardDBChar = {
 		}, -- [1]
 		{
 			["dungeon"] = "阿尔卡冯的宝库",
-			["name"] = "红温波比",
-			["lastSeen"] = 1665672716,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4778-052AA53E",
-		}, -- [2]
-		{
-			["dungeon"] = "阿尔卡冯的宝库",
 			["name"] = "偶尔丿圣光",
 			["lastSeen"] = 1665672716,
 			["class"] = "PALADIN",
 			["guid"] = "Player-4778-035C601F",
+		}, -- [2]
+		{
+			["dungeon"] = "阿尔卡冯的宝库",
+			["name"] = "贫道法号乱搞",
+			["lastSeen"] = 1665672716,
+			["class"] = "DRUID",
+			["guid"] = "Player-4778-0414E24B",
 		}, -- [3]
+		{
+			["dungeon"] = "阿尔卡冯的宝库",
+			["name"] = "红温波比",
+			["lastSeen"] = 1665672716,
+			["class"] = "HUNTER",
+			["guid"] = "Player-4778-052AA53E",
+		}, -- [4]
 		{
 			["dungeon"] = "阿尔卡冯的宝库",
 			["name"] = "日日野晴矢",
 			["lastSeen"] = 1665672716,
 			["class"] = "PALADIN",
 			["guid"] = "Player-4778-047D646A",
-		}, -- [4]
-		{
-			["dungeon"] = "阿尔卡冯的宝库",
-			["name"] = "小兔瑞貝卡",
-			["lastSeen"] = 1665672716,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4778-02192B97",
 		}, -- [5]
 		{
 			["dungeon"] = "阿尔卡冯的宝库",
@@ -129,45 +129,45 @@ GroupBulletinBoardDBChar = {
 		}, -- [6]
 		{
 			["dungeon"] = "阿尔卡冯的宝库",
-			["name"] = "箭血封喉丶",
-			["lastSeen"] = 1665672716,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4778-0352ED32",
-		}, -- [7]
-		{
-			["dungeon"] = "阿尔卡冯的宝库",
-			["name"] = "贫道法号乱搞",
-			["lastSeen"] = 1665672716,
-			["class"] = "DRUID",
-			["guid"] = "Player-4778-0414E24B",
-		}, -- [8]
-		{
-			["dungeon"] = "阿尔卡冯的宝库",
-			["name"] = "凌玲琪",
-			["lastSeen"] = 1665672716,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4778-03EBF4D0",
-		}, -- [9]
-		{
-			["dungeon"] = "阿尔卡冯的宝库",
-			["name"] = "凤舞清扬",
+			["name"] = "小兔瑞貝卡",
 			["lastSeen"] = 1665672716,
 			["class"] = "WARLOCK",
-			["guid"] = "Player-4778-040D86FB",
-		}, -- [10]
-		{
-			["dungeon"] = "阿尔卡冯的宝库",
-			["name"] = "山岛竦峙",
-			["lastSeen"] = 1665672716,
-			["class"] = "MAGE",
-			["guid"] = "Player-4778-0407FF58",
-		}, -- [11]
+			["guid"] = "Player-4778-02192B97",
+		}, -- [7]
 		{
 			["dungeon"] = "阿尔卡冯的宝库",
 			["name"] = "丶寒江孤影",
 			["lastSeen"] = 1665672716,
 			["class"] = "DRUID",
 			["guid"] = "Player-4778-01E2474A",
+		}, -- [8]
+		{
+			["dungeon"] = "阿尔卡冯的宝库",
+			["name"] = "箭血封喉丶",
+			["lastSeen"] = 1665672716,
+			["class"] = "HUNTER",
+			["guid"] = "Player-4778-0352ED32",
+		}, -- [9]
+		{
+			["dungeon"] = "阿尔卡冯的宝库",
+			["name"] = "山岛竦峙",
+			["lastSeen"] = 1665672716,
+			["class"] = "MAGE",
+			["guid"] = "Player-4778-0407FF58",
+		}, -- [10]
+		{
+			["dungeon"] = "阿尔卡冯的宝库",
+			["name"] = "凤舞清扬",
+			["lastSeen"] = 1665672716,
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4778-040D86FB",
+		}, -- [11]
+		{
+			["dungeon"] = "阿尔卡冯的宝库",
+			["name"] = "凌玲琪",
+			["lastSeen"] = 1665672716,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4778-03EBF4D0",
 		}, -- [12]
 		{
 			["dungeon"] = "阿尔卡冯的宝库",
@@ -199,10 +199,10 @@ GroupBulletinBoardDBChar = {
 		}, -- [16]
 		{
 			["dungeon"] = "阿尔卡冯的宝库",
-			["name"] = "王开心",
+			["name"] = "懲戒",
 			["lastSeen"] = 1665676746,
-			["class"] = "DRUID",
-			["guid"] = "Player-4778-014DA947",
+			["class"] = "PALADIN",
+			["guid"] = "Player-4778-04FAFBE3",
 		}, -- [17]
 		{
 			["dungeon"] = "阿尔卡冯的宝库",
@@ -213,46 +213,109 @@ GroupBulletinBoardDBChar = {
 		}, -- [18]
 		{
 			["dungeon"] = "阿尔卡冯的宝库",
+			["name"] = "灬祥瑞灬",
+			["lastSeen"] = 1665676746,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4778-03C3FA1D",
+		}, -- [19]
+		{
+			["dungeon"] = "阿尔卡冯的宝库",
 			["name"] = "布拉格灬神术",
 			["lastSeen"] = 1665676746,
 			["class"] = "WARLOCK",
 			["guid"] = "Player-4778-03FEB6BA",
-		}, -- [19]
+		}, -- [20]
 		{
 			["dungeon"] = "阿尔卡冯的宝库",
 			["name"] = "飘花雪柔",
 			["lastSeen"] = 1665676746,
 			["class"] = "MAGE",
 			["guid"] = "Player-4778-02759D57",
-		}, -- [20]
+		}, -- [21]
 		{
 			["dungeon"] = "阿尔卡冯的宝库",
 			["name"] = "诺锘",
 			["lastSeen"] = 1665676746,
 			["class"] = "ROGUE",
 			["guid"] = "Player-4778-045467B7",
-		}, -- [21]
+		}, -- [22]
+		{
+			["dungeon"] = "阿尔卡冯的宝库",
+			["name"] = "王开心",
+			["lastSeen"] = 1665676746,
+			["class"] = "DRUID",
+			["guid"] = "Player-4778-014DA947",
+		}, -- [23]
 		{
 			["dungeon"] = "阿尔卡冯的宝库",
 			["name"] = "瞪谁谁怀孕丨",
 			["lastSeen"] = 1665676746,
 			["class"] = "DEATHKNIGHT",
 			["guid"] = "Player-4778-04FF5216",
-		}, -- [22]
-		{
-			["dungeon"] = "阿尔卡冯的宝库",
-			["name"] = "灬祥瑞灬",
-			["lastSeen"] = 1665676746,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4778-03C3FA1D",
-		}, -- [23]
-		{
-			["dungeon"] = "阿尔卡冯的宝库",
-			["name"] = "懲戒",
-			["lastSeen"] = 1665676746,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4778-04FAFBE3",
 		}, -- [24]
+		{
+			["dungeon"] = "黑曜石圣殿",
+			["name"] = "娜儿娜儿",
+			["lastSeen"] = 1665680998,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4778-03B9B0AA",
+		}, -- [25]
+		{
+			["dungeon"] = "黑曜石圣殿",
+			["name"] = "冷冰霸天",
+			["lastSeen"] = 1665681054,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4778-038A3190",
+		}, -- [26]
+		{
+			["dungeon"] = "黑曜石圣殿",
+			["name"] = "黑二大爷",
+			["lastSeen"] = 1665681064,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4778-044B5B28",
+		}, -- [27]
+		{
+			["dungeon"] = "黑曜石圣殿",
+			["name"] = "沉着稳健",
+			["lastSeen"] = 1665681064,
+			["class"] = "DRUID",
+			["guid"] = "Player-4778-049E5B11",
+		}, -- [28]
+		{
+			["dungeon"] = "黑曜石圣殿",
+			["name"] = "哕你壹脸",
+			["lastSeen"] = 1665681064,
+			["class"] = "DEATHKNIGHT",
+			["guid"] = "Player-4778-0500F864",
+		}, -- [29]
+		{
+			["dungeon"] = "黑曜石圣殿",
+			["name"] = "二哥一塌糊涂",
+			["lastSeen"] = 1665681064,
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4778-049FBE7C",
+		}, -- [30]
+		{
+			["dungeon"] = "黑曜石圣殿",
+			["name"] = "Sumdy",
+			["lastSeen"] = 1665681064,
+			["class"] = "MAGE",
+			["guid"] = "Player-4778-0483D70D",
+		}, -- [31]
+		{
+			["dungeon"] = "黑曜石圣殿",
+			["name"] = "血入",
+			["lastSeen"] = 1665681064,
+			["class"] = "DEATHKNIGHT",
+			["guid"] = "Player-4778-0501F512",
+		}, -- [32]
+		{
+			["dungeon"] = "黑曜石圣殿",
+			["name"] = "Dukatidan",
+			["lastSeen"] = 1665681064,
+			["class"] = "ROGUE",
+			["guid"] = "Player-4778-0389C50C",
+		}, -- [33]
 	},
 	["FilterDungeonMC"] = false,
 	["FilterDungeonSWP"] = true,
@@ -261,10 +324,11 @@ GroupBulletinBoardDBChar = {
 	["FilterDungeonBT"] = true,
 	["FilterDungeonDM"] = false,
 	["FilterDungeonDMN"] = false,
-	["FilterDungeonVOA"] = true,
+	["FilterDungeonBFD"] = false,
 	["FilterDungeonGL"] = true,
 	["FilterDungeonVH"] = true,
 	["FilterDungeonTRADE"] = true,
+	["HeroicOnly"] = false,
 	["channel"] = {
 		true, -- [1]
 		true, -- [2]
@@ -287,7 +351,6 @@ GroupBulletinBoardDBChar = {
 		true, -- [19]
 		true, -- [20]
 	},
-	["HeroicOnly"] = false,
 	["FilterDungeonLBRS"] = false,
 	["FilterDungeonMGT"] = true,
 	["FilterDungeonOHB"] = true,

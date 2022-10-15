@@ -11,10 +11,6 @@ ItemRackUser = {
 		["~CombatQueue"] = {
 			["equip"] = {
 			},
-			["Queues"] = {
-				{
-				}, -- [1]
-			},
 		},
 		["裸体"] = {
 			["equip"] = {
@@ -42,10 +38,6 @@ ItemRackUser = {
 		},
 		["~Unequip"] = {
 			["equip"] = {
-			},
-			["Queues"] = {
-				{
-				}, -- [1]
 			},
 		},
 	},
