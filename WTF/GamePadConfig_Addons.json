@@ -13,7 +13,9 @@
             "stickConfigs": [
                 {
                     "stick": "Movement",
-                    "deadzone": 0.25
+                    "axisX": "GStickX",
+                    "axisY": "GStickX",
+                    "deadzone": 0.5
                 },
                 {
                     "stick": "Camera",

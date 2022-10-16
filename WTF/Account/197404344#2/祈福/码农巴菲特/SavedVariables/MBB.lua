@@ -1,15 +1,19 @@
 
 MBB_Exclude = {
+	"LibDBIcon10_AtlasLoot", -- [1]
+	"LibDBIcon10_RXPGuides", -- [2]
+	"Lib_GPI_Minimap_LFGBulletinBoard", -- [3]
+	"WIM3MinimapButton", -- [4]
 }
 MBB_Options = {
 	["CollapseTimeout"] = 1,
 	["AltExpandDirection"] = 4,
 	["AttachToMinimap"] = 1,
-	["ExpandDirection"] = 1,
-	["DetachedButtonPos"] = "CENTER",
+	["DetachedButtonPos"] = "TOPLEFT",
+	["MaxButtonsPerLine"] = 6,
 	["ButtonPos"] = {
-		-18, -- [1]
-		-100, -- [2]
+		-25.48821067810059, -- [1]
+		-34.98499298095703, -- [2]
 	},
-	["MaxButtonsPerLine"] = 0,
+	["ExpandDirection"] = 1,
 }

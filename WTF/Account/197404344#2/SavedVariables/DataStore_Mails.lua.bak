@@ -10,9 +10,28 @@ DataStore_MailsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.祈福.特变电工"] = {
-				["lastUpdate"] = 1665677399,
-				["lastVisitDate"] = "2022/10/14 00:09",
+			["Default.祈福.码农巴菲特"] = {
+				["lastUpdate"] = 1665807544,
+				["Mails"] = {
+					{
+						["sender"] = "特变电工",
+						["itemID"] = 49177,
+						["link"] = "|cffe6cc80|Hitem:49177::::::::80:::::::::|h[寒冷天气飞行宝典]|h|r",
+						["count"] = 1,
+						["lastCheck"] = 1665807544,
+						["icon"] = 133743,
+						["daysLeft"] = 30,
+					}, -- [1]
+					{
+						["sender"] = "特变电工",
+						["subject"] = "1",
+						["lastCheck"] = 1665807562,
+						["money"] = 70000000,
+						["text"] = "",
+						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
+						["daysLeft"] = 30,
+					}, -- [2]
+				},
 			},
 			["Default.祈福.新特能源"] = {
 				["lastUpdate"] = 1662053162,
@@ -101,6 +120,10 @@ DataStore_MailsDB = {
 					}, -- [9]
 				},
 				["lastVisitDate"] = "2022/09/02 01:26",
+			},
+			["Default.祈福.特变电工"] = {
+				["lastUpdate"] = 1665845871,
+				["lastVisitDate"] = "2022/10/15 22:57",
 			},
 		},
 	},

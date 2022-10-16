@@ -566,19 +566,19 @@ AutoBarDB = {
 				["AutoBarButtonBuff"] = {
 					["arrangeOnUse"] = 37093,
 				},
-				["AutoBarButtonBuffWeapon1"] = {
-					["arrangeOnUse"] = 43232,
-				},
 				["AutoBarButtonQuest"] = {
 					["arrangeOnUse"] = 42203,
+				},
+				["AutoBarButtonElixirGuardian"] = {
+					["arrangeOnUse"] = 40097,
 				},
 				["AutoBarButtonCrafting"] = {
 					["arrangeOnUse"] = "急救",
 				},
 				["AutoBarButtonMount"] = {
 				},
-				["AutoBarButtonElixirGuardian"] = {
-					["arrangeOnUse"] = 40097,
+				["AutoBarButtonBuffWeapon1"] = {
+					["arrangeOnUse"] = 43230,
 				},
 			},
 			["barList"] = {
@@ -604,6 +604,9 @@ AutoBarDB = {
 		},
 		["码农巴菲特 - 祈福"] = {
 			["buttonDataList"] = {
+				["AutoBarButtonBuff"] = {
+					["arrangeOnUse"] = 2459,
+				},
 				["AutoBarButtonMount"] = {
 				},
 			},

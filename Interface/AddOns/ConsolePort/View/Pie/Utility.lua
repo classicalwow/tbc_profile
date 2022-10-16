@@ -11,7 +11,7 @@ local Utility = Mixin(CPAPI.EventHandler(ConsolePortUtilityToggle, {
 }), CPAPI.AdvancedSecureMixin)
 local Button = CreateFromMixins(CPActionButton);
 ---------------------------------------------------------------
-local DEFAULT_SET, EXTRA_ACTION_ID = 1, ExtraActionButton1 and ExtraActionButton1.action or 169;
+local DEFAULT_SET, EXTRA_ACTION_ID = 1, CPAPI.ExtraActionButtonID;
 local TYPE_ATTRIBUTE = CPAPI.IsWoW10Version and 'typerelease' or 'type';
 ---------------------------------------------------------------
 Utility.Data = {[DEFAULT_SET] = {}};
@@ -731,7 +731,7 @@ function Utility:ToggleInventoryQuestItems(hideAnnouncement)
 	end
 
 	CPAPI.IteratePlayerInventory(function(item)
-		local link = select(7, GetContainerItemInfo(item:GetBagAndSlot()))
+		local link = CPAPI.GetContainerItemInfo(item:GetBagAndSlot()).hyperlink;
 		local isQuestItem = link and select(6, GetItemInfoInstant(link)) == LE_ITEM_CLASS_QUESTITEM;
 		if isQuestItem and IsUsableItem(link) and not exists[getItemID(link)] then
 			local info = self.SecureHandlerMap.item(link)

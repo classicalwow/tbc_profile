@@ -18,7 +18,7 @@ Postal3DB = {
 				"查尔斯三世|祈福|Alliance|70|MAGE", -- [4]
 				"沈南鹏|祈福|Alliance|70|PALADIN", -- [5]
 				"特变电工|祈福|Alliance|80|ROGUE", -- [6]
-				"码农巴菲特|祈福|Alliance|70|DEATHKNIGHT", -- [7]
+				"码农巴菲特|祈福|Alliance|71|DEATHKNIGHT", -- [7]
 			},
 		},
 	},
@@ -27,8 +27,9 @@ Postal3DB = {
 			["BlackBook"] = {
 				["recent"] = {
 					"新特能源|祈福|Alliance", -- [1]
-					"骑风|祈福|Alliance", -- [2]
-					"特工仓库|祈福|Alliance", -- [3]
+					"码农巴菲特|祈福|Alliance", -- [2]
+					"骑风|祈福|Alliance", -- [3]
+					"特工仓库|祈福|Alliance", -- [4]
 				},
 			},
 		},
@@ -55,8 +56,8 @@ Postal3DB = {
 		["码农巴菲特 - 祈福"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"沈南鹏|祈福|Alliance", -- [1]
-					"特工仓库|祈福|Alliance", -- [2]
+					"特工仓库|祈福|Alliance", -- [1]
+					"沈南鹏|祈福|Alliance", -- [2]
 				},
 			},
 		},
@@ -65,10 +66,10 @@ Postal3DB = {
 		["新特能源 - 祈福"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"特变电工|祈福|Alliance", -- [1]
-					"特工仓库|祈福|Alliance", -- [2]
-					"骑风|祈福|Alliance", -- [3]
-					"码农巴菲特|祈福|Alliance", -- [4]
+					"码农巴菲特|祈福|Alliance", -- [1]
+					"特变电工|祈福|Alliance", -- [2]
+					"特工仓库|祈福|Alliance", -- [3]
+					"骑风|祈福|Alliance", -- [4]
 				},
 			},
 		},

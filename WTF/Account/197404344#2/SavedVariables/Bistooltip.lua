@@ -16,10 +16,10 @@ BisTooltipDB = {
 			["version"] = 6.1,
 		},
 		["新特能源 - 祈福"] = {
+			["minimapPos"] = 215.9056964941312,
 			["class_index"] = 6,
 			["version"] = 6.1,
 			["phase_index"] = 2,
-			["minimapPos"] = 215.9056964941312,
 		},
 	},
 }

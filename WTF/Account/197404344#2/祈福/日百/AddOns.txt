@@ -62,7 +62,7 @@ GTFO: disabled
 ItemRack: disabled
 ItemRackOptions: disabled
 Leatrix_Maps: disabled
-LFGBulletinBoard: enabled
+LFGBulletinBoard: disabled
 LoonBestInSlot: disabled
 LootMonitor: disabled
 LoseControl: disabled
@@ -157,3 +157,9 @@ Details_DataStorage: disabled
 Details_Streamer: disabled
 Details_TinyThreat: disabled
 Details_Vanguard: disabled
+ConsolePortAdvanced: disabled
+ConsolePortBar: disabled
+ConsolePortHelp: disabled
+ConsolePortLoader: disabled
+ConsolePortUI_Loot: disabled
+ConsolePortUI_Menu: disabled

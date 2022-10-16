@@ -276,7 +276,7 @@ function Bar:OnLoad(cfg, benign)
 
 	-- Don't run this when updating simple cvars
 	if not benign then
-		Clusters:UpdateAllBindings(db.Gamepad:GetBindings())
+		Clusters:UpdateAllBindings(db.Gamepad:GetBindings(true))
 		self:UpdateOverrides()
 		-- states have been reparsed, set back to current state
 		self:Execute([[
@@ -325,18 +325,7 @@ for name, script in pairs({
 		control:ChildUpdate('state', newstate)
 		cursor:RunAttribute('ActionPageChanged')
 	]],
-	['_onstate-page'] = [[
-		if HasVehicleActionBar and HasVehicleActionBar() then
-			newstate = GetVehicleBarIndex()
-		elseif HasOverrideActionBar and HasOverrideActionBar() then
-			newstate = GetOverrideBarIndex()
-		elseif HasTempShapeshiftActionBar() then
-			newstate = GetTempShapeshiftBarIndex()
-		elseif GetBonusBarOffset() > 0 then
-			newstate = GetBonusBarOffset()+6
-		else
-			newstate = GetActionBarPage()
-		end
+	['_onstate-page'] = env.db.Pager:GetPageResponse() .. [[
 		self:SetAttribute('actionpage', newstate)
 		control:ChildUpdate('actionpage', newstate)
 	]],

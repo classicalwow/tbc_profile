@@ -96,8 +96,8 @@ GladiatorlosSA2_zhCN: disabled
 GTFO: disabled
 AceBIS: enabled
 AddonProfiles: enabled
-ArkInventoryRules_Profession: disabled
-ArkInventory: disabled
+ArkInventoryRules_Profession: enabled
+ArkInventory: enabled
 ArkInventoryRules: enabled
 ArkInventoryRules_Example: enabled
 ArkInventorySearch: enabled
@@ -172,7 +172,7 @@ ElvUI_PVPDT: enabled
 ElvUI: enabled
 TalentEmu: enabled
 Altoholic: enabled
-DBM-Core: disabled
+DBM-Core: enabled
 DBM-StatusBarTimers: enabled
 DBM-CountPack-Overwatch: enabled
 DBM-VPVEM: enabled
@@ -180,3 +180,5 @@ DBM-VPVV: enabled
 MeetingHorn: enabled
 HeyboxPlayerInfo: enabled
 WeakAurasCompanion: enabled
+VuhDo: disabled
+VuhDoOptions: disabled

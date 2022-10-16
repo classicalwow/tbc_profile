@@ -11,6 +11,7 @@ ItemRackUser = {
 	["Sets"] = {
 		["~CombatQueue"] = {
 			["equip"] = {
+				[17] = "39427::::::::80:::::::::",
 			},
 		},
 		["胡萝卜"] = {
@@ -28,7 +29,7 @@ ItemRackUser = {
 			},
 		},
 	},
-	["EnableQueues"] = "ON",
+	["EnablePerSetQueues"] = "OFF",
 	["Queues"] = {
 	},
 	["Buttons"] = {
@@ -47,5 +48,5 @@ ItemRackUser = {
 	},
 	["Alpha"] = 1,
 	["MenuScale"] = 0.85,
-	["EnablePerSetQueues"] = "OFF",
+	["EnableQueues"] = "ON",
 }

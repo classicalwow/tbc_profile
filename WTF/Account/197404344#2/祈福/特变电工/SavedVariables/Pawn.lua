@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0702,
+	["LastVersion"] = 2.0703,
 	["LastPlayerFullName"] = "特变电工-祈福",
 	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
@@ -47,16 +47,16 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:43172::::::::80:::::::::|h[犀牛皮革长靴]|h|r",
 		},
 		[16] = {
-			["ID"] = 37856,
-			["Level"] = 200,
+			["ID"] = 39420,
+			["Level"] = 213,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff0070dd|Hitem:37856:1606:::::::80:::::::::|h[图书馆员的裁纸刀]|h|r",
+			["Link"] = "|cffa335ee|Hitem:39420::::::::80:::::::::|h[混乱]|h|r",
 		},
 		[17] = {
-			["ID"] = 37181,
-			["Level"] = 200,
+			["ID"] = 39420,
+			["Level"] = 213,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff0070dd|Hitem:37181::::::::80:::::::::|h[背叛匕首]|h|r",
+			["Link"] = "|cffa335ee|Hitem:39420:1606:::::::80:::::::::|h[混乱]|h|r",
 		},
 		[5] = {
 			["ID"] = 37165,
@@ -85,10 +85,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:37194::40088::::::80:::::::::|h[钩刺皮质腰带]|h|r",
 		},
 		[12] = {
-			["ID"] = 37685,
-			["Level"] = 200,
+			["ID"] = 40474,
+			["Level"] = 213,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:37685::::::::80:::::::::|h[莫比乌斯指环]|h|r",
+			["Link"] = "|cffa335ee|Hitem:40474::::::::80:::::::::|h[湍流之针指环]|h|r",
 		},
 		[18] = {
 			["ID"] = 40265,
