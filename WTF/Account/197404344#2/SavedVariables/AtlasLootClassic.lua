@@ -158,7 +158,7 @@ AtlasLootClassicDB = {
 					nil, -- [1]
 					"TheEyeOfEternity", -- [2]
 					nil, -- [3]
-					7, -- [4]
+					9, -- [4]
 					0, -- [5]
 				},
 			},
@@ -182,7 +182,7 @@ AtlasLootClassicDB = {
 		},
 		["码农巴菲特 - 祈福"] = {
 			["minimap"] = {
-				["minimapPos"] = 179.2814124251628,
+				["minimapPos"] = 263.4188819558989,
 			},
 			["GUI"] = {
 				["selected"] = {
@@ -211,24 +211,24 @@ AtlasLootClassicDB = {
 			},
 		},
 		["新特能源 - 祈福"] = {
-			["minimap"] = {
-				["minimapPos"] = 237.5638532547268,
-			},
 			["GUI"] = {
 				["point"] = {
-					"LEFT", -- [1]
+					"BOTTOMLEFT", -- [1]
 					nil, -- [2]
-					"LEFT", -- [3]
+					"BOTTOMLEFT", -- [3]
 					0, -- [4]
-					-18.88913917541504, -- [5]
+					62.66681671142578, -- [5]
 				},
 				["selected"] = {
 					nil, -- [1]
 					"ObsidianSanctum", -- [2]
 					2, -- [3]
-					7, -- [4]
+					9, -- [4]
 					0, -- [5]
 				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 259.3494714425075,
 			},
 		},
 	},

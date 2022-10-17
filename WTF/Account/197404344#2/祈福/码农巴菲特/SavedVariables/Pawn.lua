@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0703,
+	["LastPlayerFullName"] = "码农巴菲特-祈福",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 35891,
@@ -73,9 +75,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:36871::::::::71:::::::::|h[临近风暴之怒]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 28031,
-			["Level"] = 97,
-			["Link"] = "|cff0070dd|Hitem:28031::::::::66:::::::::|h[游牧者精织披风]|h|r",
+			["ID"] = 36998,
+			["Level"] = 138,
+			["Link"] = "|cff1eff00|Hitem:36998::::::::73:::::::::|h[攻击者披风]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 35849,
@@ -89,8 +91,6 @@ PawnOptions = {
 			["Link"] = "|cffffffff|Hitem:39371::::::::57:::::::::|h[凯雷塞斯的说服者]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "码农巴菲特-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

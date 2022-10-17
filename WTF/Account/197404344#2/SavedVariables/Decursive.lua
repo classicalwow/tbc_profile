@@ -1,7 +1,7 @@
 
 DecursiveDB = {
 	["global"] = {
-		["LastVersionAnnounce"] = 1665847662,
+		["LastVersionAnnounce"] = 1665937208,
 	},
 	["class"] = {
 		["DEATHKNIGHT"] = {
@@ -69,10 +69,10 @@ DecursiveDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["DebuffsFrameContainer_y"] = 313.9554031387997,
+			["DebuffsFrameContainer_y"] = 345.6000704002363,
 			["MainBarX"] = 682.6667034912098,
 			["MainBarY"] = -95.99999785423279,
-			["DebuffsFrameContainer_x"] = 913.7777920754743,
+			["DebuffsFrameContainer_x"] = 962.8447441037424,
 		},
 	},
 }

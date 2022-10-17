@@ -14,8 +14,8 @@ MBB_Options = {
 	["DetachedButtonPos"] = "TOPLEFT",
 	["MaxButtonsPerLine"] = 6,
 	["ButtonPos"] = {
-		-26.35148620605469, -- [1]
-		-71.25859069824219, -- [2]
+		-9.235389709472656, -- [1]
+		-106.8435745239258, -- [2]
 	},
 	["ExpandDirection"] = 1,
 }

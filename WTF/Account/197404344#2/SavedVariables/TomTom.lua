@@ -70,6 +70,31 @@ TomTomWaypointsM = {
 					["world"] = true,
 				},
 			},
+			[120] = {
+				["120:626161369.19315:609046454.76773:哈尔弗丹"] = {
+					120, -- [1]
+					0.6261613691931541, -- [2]
+					0.6090464547677262, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "哈尔弗丹",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "哈尔弗丹",
+					["from"] = "Questie",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
 			[1424] = {
 				["1424:765464179.84741:417951893.16464:TomTom 路径点"] = {
 					1424, -- [1]

@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0703,
-	["LastPlayerFullName"] = "特变电工-祈福",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 37636,
@@ -15,9 +13,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:40065::::::::80:::::::::|h[愚者的试炼]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 37139,
-			["Level"] = 200,
-			["Link"] = "|cff0070dd|Hitem:37139::::::::80:::::::::|h[粗心窃贼的护肩]|h|r",
+			["ID"] = 40502,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:40502::::::::80:::::::::|h[勇猛的骨镰肩甲]|h|r",
 		}, -- [3]
 		[13] = {
 			["ID"] = 40684,
@@ -47,16 +45,16 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:43172::::::::80:::::::::|h[犀牛皮革长靴]|h|r",
 		},
 		[16] = {
-			["ID"] = 39420,
-			["Level"] = 213,
+			["ID"] = 40386,
+			["Level"] = 226,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cffa335ee|Hitem:39420::::::::80:::::::::|h[混乱]|h|r",
+			["Link"] = "|cffa335ee|Hitem:40386::::::::80:::::::::|h[邪恶复仇]|h|r",
 		},
 		[17] = {
-			["ID"] = 39420,
-			["Level"] = 213,
+			["ID"] = 40386,
+			["Level"] = 226,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cffa335ee|Hitem:39420:1606:::::::80:::::::::|h[混乱]|h|r",
+			["Link"] = "|cffa335ee|Hitem:40386:3789:::::::80:::::::::|h[邪恶复仇]|h|r",
 		},
 		[5] = {
 			["ID"] = 37165,
@@ -68,10 +66,10 @@ PawnOptions = {
 			["Level"] = 213,
 			["Link"] = "|cffa335ee|Hitem:40496:1603:40014::::::80:::::::::|h[勇猛的骨镰护手]|h|r",
 		},
-		[9] = {
-			["ID"] = 37853,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:37853::::::::80:::::::::|h[高级精工皮革护腕]|h|r",
+		[18] = {
+			["ID"] = 40265,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:40265::::::::80:::::::::|h[飞矢之歌]|h|r",
 		},
 		[11] = {
 			["ID"] = 40717,
@@ -90,12 +88,14 @@ PawnOptions = {
 			["AlsoFitsIn"] = 11,
 			["Link"] = "|cffa335ee|Hitem:40474::::::::80:::::::::|h[湍流之针指环]|h|r",
 		},
-		[18] = {
-			["ID"] = 40265,
+		[9] = {
+			["ID"] = 40186,
 			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40265::::::::80:::::::::|h[飞矢之歌]|h|r",
+			["Link"] = "|cffa335ee|Hitem:40186::::::::80:::::::::|h[无情护腕]|h|r",
 		},
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "特变电工-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
