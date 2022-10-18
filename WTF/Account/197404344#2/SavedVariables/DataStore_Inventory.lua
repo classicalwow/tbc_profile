@@ -5,12 +5,13 @@ DataStore_InventoryDB = {
 		["沈南鹏 - 祈福"] = "沈南鹏 - 祈福",
 		["张坤 - 祈福"] = "张坤 - 祈福",
 		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
-		["Vscode - 加丁"] = "Vscode - 加丁",
 		["新特能源 - 祈福"] = "新特能源 - 祈福",
+		["Vscode - 加丁"] = "Vscode - 加丁",
 	},
 	["global"] = {
 		["Characters"] = {
 			["Default.祈福.张坤"] = {
+				["lastUpdate"] = 1662142671,
 				["Inventory"] = {
 					"|cffffffff|Hitem:34652::::::::55:::::::::|h[]|h|r", -- [1]
 					"|cffffffff|Hitem:34657::::::::55:::::::::|h[]|h|r", -- [2]
@@ -26,16 +27,15 @@ DataStore_InventoryDB = {
 					"|cffffffff|Hitem:38147::::::::55:::::::::|h[]|h|r", -- [12]
 					[15] = "|cffffffff|Hitem:34659::::::::55:::::::::|h[]|h|r",
 				},
-				["lastUpdate"] = 1662142671,
 			},
 			["Default.祈福.沈南鹏"] = {
+				["lastUpdate"] = 1662377990,
 				["Inventory"] = {
 					[8] = "|cffffffff|Hitem:43::::::::1:::::::::|h[]|h|r",
 					[16] = "|cffffffff|Hitem:2361::::::::1:::::::::|h[]|h|r",
 					[7] = "|cffffffff|Hitem:44::::::::1:::::::::|h[]|h|r",
 					[4] = "|cffffffff|Hitem:45::::::::1:::::::::|h[]|h|r",
 				},
-				["lastUpdate"] = 1662377990,
 			},
 			["Default.祈福.新特能源"] = {
 				["lastUpdate"] = 1662167869,
@@ -62,6 +62,7 @@ DataStore_InventoryDB = {
 				},
 			},
 			["Default.祈福.码农巴菲特"] = {
+				["lastUpdate"] = 1662199200,
 				["Inventory"] = {
 					"|cffffffff|Hitem:34652::::::::55:::::::::|h[]|h|r", -- [1]
 					"|cffffffff|Hitem:34657::::::::55:::::::::|h[]|h|r", -- [2]
@@ -80,26 +81,25 @@ DataStore_InventoryDB = {
 					"|cffffffff|Hitem:34659::::::::55:::::::::|h[]|h|r", -- [15]
 					"|cffffffff|Hitem:38707:3369:::::::55:::::::::|h[]|h|r", -- [16]
 				},
-				["lastUpdate"] = 1662199200,
 			},
 			["Default.加丁.Vscode"] = {
+				["lastUpdate"] = 1659786092,
 				["Inventory"] = {
 					[7] = "|cffffffff|Hitem:1366::::::::3:::::::::|h[]|h|r",
 					[8] = "|cffffffff|Hitem:47::::::::3:::::::::|h[]|h|r",
 					[18] = "|cffffffff|Hitem:28979::::::::3:::::::::|h[]|h|r",
-					[9] = "|cffffffff|Hitem:6070::::::::3:::::::::|h[]|h|r",
-					[4] = "|cffffffff|Hitem:49::::::::3:::::::::|h[]|h|r",
-					[5] = "|cffffffff|Hitem:1380::::::::3:::::::::|h[]|h|r",
 					[16] = "|cffffffff|Hitem:2092::::::::3:::::::::|h[]|h|r",
+					[4] = "|cffffffff|Hitem:49::::::::3:::::::::|h[]|h|r",
+					[9] = "|cffffffff|Hitem:6070::::::::3:::::::::|h[]|h|r",
+					[5] = "|cffffffff|Hitem:1380::::::::3:::::::::|h[]|h|r",
 				},
-				["lastUpdate"] = 1659786092,
 			},
 			["Default.祈福.特变电工"] = {
 				["Inventory"] = {
 					"|cffa335ee|Hitem:39399:3817:41398:40003:::::80:::::::::|h[亡灵军团头盔]|h|r", -- [1]
 					"|cffa335ee|Hitem:40065::::::::80:::::::::|h[愚者的试炼]|h|r", -- [2]
-					"|cffa335ee|Hitem:40502::40003::::::80:::::::::|h[勇猛的骨镰肩甲]|h|r", -- [3]
-					"|cffffffff|Hitem:2575::::::::80:::::::::|h[]|h|r", -- [4]
+					"|cffa335ee|Hitem:40502:3808:40003::::::80:::::::::|h[勇猛的骨镰肩甲]|h|r", -- [3]
+					"|cffffffff|Hitem:2575::::::::80:::::::::|h[红色亚麻衬衣]|h|r", -- [4]
 					"|cffa335ee|Hitem:39558:3252:40003:40088:::::80:::::::::|h[英雄的骨镰胸甲]|h|r", -- [5]
 					"|cffa335ee|Hitem:37194::40088::::::80:::::::::|h[钩刺皮质腰带]|h|r", -- [6]
 					"|cff0070dd|Hitem:37374:3326:40003:40003:::::80:::::::::|h[熊怪的贪婪护腿]|h|r", -- [7]
@@ -117,14 +117,14 @@ DataStore_InventoryDB = {
 					"|cffffffff|Hitem:43154::::::::80:::::::::|h[银色北伐军战袍]|h|r", -- [19]
 				},
 				["averageItemLvl"] = 206.1764705882353,
-				["lastUpdate"] = 1665919935,
+				["lastUpdate"] = 1666027665,
 			},
 		},
 		["Guilds"] = {
 			["Default.祈福.Play for Uber"] = {
 				["Members"] = {
 					["特变电工"] = {
-						["averageItemLvl"] = 206,
+						["averageItemLvl"] = 183,
 					},
 				},
 			},

@@ -1396,6 +1396,403 @@ RaidLedgerDatabase = {
 						["count"] = 1,
 					},
 				}, -- [116]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39146::::::::80:::::::::|h[腐朽项圈]|h|r",
+						["count"] = 1,
+					},
+				}, -- [117]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39190::::::::80:::::::::|h[垂死苦痛腰带]|h|r",
+						["count"] = 1,
+					},
+				}, -- [118]
+				{
+					["beneficiary"] = "新特能源",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 400,
+					["outstanding"] = false,
+					["costcache"] = 4000000,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39199::::::::80:::::::::|h[凝视之眼]|h|r",
+						["count"] = 1,
+					},
+				}, -- [119]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39198::::::::80:::::::::|h[冰霜疫病肩铠]|h|r",
+						["count"] = 1,
+					},
+				}, -- [120]
+				{
+					["beneficiary"] = "你",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39199::::::::80:::::::::|h[凝视之眼]|h|r",
+						["count"] = 1,
+					},
+				}, -- [121]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39233::::::::80:::::::::|h[诅咒的庇护]|h|r",
+						["count"] = 1,
+					},
+				}, -- [122]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39226::::::::80:::::::::|h[迈克斯纳的腿骨]|h|r",
+						["count"] = 1,
+					},
+				}, -- [123]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39236::::::::80:::::::::|h[侵犯者之靴]|h|r",
+						["count"] = 1,
+					},
+				}, -- [124]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39240::::::::80:::::::::|h[诺斯的诅咒]|h|r",
+						["count"] = 1,
+					},
+				}, -- [125]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39248::::::::80:::::::::|h[迷失兽群外套]|h|r",
+						["count"] = 1,
+					},
+				}, -- [126]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39251::::::::80:::::::::|h[腐尸腰带]|h|r",
+						["count"] = 1,
+					},
+				}, -- [127]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39259::::::::80:::::::::|h[真菌罩衣]|h|r",
+						["count"] = 1,
+					},
+				}, -- [128]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40622::::::::80:::::::::|h[失落征服者的护肩]|h|r",
+						["count"] = 1,
+					},
+				}, -- [129]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39267::::::::80:::::::::|h[憎恶肩刃]|h|r",
+						["count"] = 1,
+					},
+				}, -- [130]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39274::::::::80:::::::::|h[呕吐者的肩垫]|h|r",
+						["count"] = 1,
+					},
+				}, -- [131]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39276::::::::80:::::::::|h[废墟之颅]|h|r",
+						["count"] = 1,
+					},
+				}, -- [132]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39281::::::::80:::::::::|h[感染清除者]|h|r",
+						["count"] = 1,
+					},
+				}, -- [133]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39344::::::::80:::::::::|h[亡灵杀手]|h|r",
+						["count"] = 1,
+					},
+				}, -- [134]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40610::::::::80:::::::::|h[失落征服者的护胸]|h|r",
+						["count"] = 1,
+					},
+				}, -- [135]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40619::::::::80:::::::::|h[失落征服者的护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [136]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39294::::::::80:::::::::|h[电弧灼烧头盔]|h|r",
+						["count"] = 1,
+					},
+				}, -- [137]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39310::::::::80:::::::::|h[开拓思绪衬肩]|h|r",
+						["count"] = 1,
+					},
+				}, -- [138]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39306::::::::80:::::::::|h[抚慰板甲手套]|h|r",
+						["count"] = 1,
+					},
+				}, -- [139]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39389::::::::80:::::::::|h[恶意徽记之戒]|h|r",
+						["count"] = 1,
+					},
+				}, -- [140]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39379::::::::80:::::::::|h[幽灵骑士束腰]|h|r",
+						["count"] = 1,
+					},
+				}, -- [141]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cff0070dd|Hitem:37781::::::::80:::::::::|h[温暖之心手套]|h|r",
+						["count"] = 1,
+					},
+				}, -- [142]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cff0070dd|Hitem:34052::::::::80:::::::::|h[梦境碎片]|h|r",
+						["count"] = 1,
+					},
+				}, -- [143]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39409::::::::80:::::::::|h[恐怖龙翼兜帽]|h|r",
+						["count"] = 1,
+					},
+				}, -- [144]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39403::::::::80:::::::::|h[坚强头盔]|h|r",
+						["count"] = 1,
+					},
+				}, -- [145]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:44569::::::::80:::::::::|h[聚焦之虹的钥匙]|h|r",
+						["count"] = 1,
+					},
+				}, -- [146]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39417::::::::80:::::::::|h[死亡之咬]|h|r",
+						["count"] = 1,
+					},
+				}, -- [147]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39424::::::::80:::::::::|h[魂之利刃]|h|r",
+						["count"] = 1,
+					},
+				}, -- [148]
+				{
+					["beneficiary"] = "法七七",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40616::::::::80:::::::::|h[失落征服者的头盔]|h|r",
+						["count"] = 1,
+					},
+				}, -- [149]
 			},
 		}, -- [1]
 	},

@@ -6,13 +6,6 @@ X: 364
 Y: 181
 W: 40
 H: 40
-Frame: Recount_MainWindow
-FrameLevel: 40
-Anchor: BOTTOM
-X: -417
-Y: 1
-W: 297
-H: 199
 Frame: InterfaceOptionsFrame
 FrameLevel: 1
 Anchor: BOTTOM

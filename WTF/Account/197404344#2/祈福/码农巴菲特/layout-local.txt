@@ -1,4 +1,11 @@
 Version: 1
+Frame: RXPItemFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 251
+Y: -196
+W: 78
+H: 40
 Frame: RXPG_ARROW
 FrameLevel: 1
 Anchor: BOTTOM
@@ -34,13 +41,6 @@ X: 0
 Y: 128
 W: 200
 H: 50
-Frame: RXPItemFrame
-FrameLevel: 1
-Anchor: CENTER
-X: 251
-Y: -196
-W: 78
-H: 40
 Frame: GroupBulletinBoardFrame
 FrameLevel: 1
 Anchor: LEFT
