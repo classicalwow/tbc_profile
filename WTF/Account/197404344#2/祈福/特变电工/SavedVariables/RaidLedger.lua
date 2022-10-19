@@ -1240,6 +1240,90 @@ RaidLedgerDatabase = {
 						["count"] = 6,
 					},
 				}, -- [103]
+				{
+					["beneficiary"] = "雪花丶有点飘",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cff0070dd|Hitem:44128::::::::80:::::::::|h[极地毛皮]|h|r",
+						["count"] = 1,
+					},
+				}, -- [104]
+				{
+					["beneficiary"] = "夕里安",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40428::::::::80:::::::::|h[泰坦的展望]|h|r",
+						["count"] = 1,
+					},
+				}, -- [105]
+				{
+					["beneficiary"] = "夕里安",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:43993::::::::80:::::::::|h[冲撞重戒]|h|r",
+						["count"] = 1,
+					},
+				}, -- [106]
+				{
+					["beneficiary"] = "夕里安",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40615::::::::80:::::::::|h[失落胜利者的手套]|h|r",
+						["count"] = 1,
+					},
+				}, -- [107]
+				{
+					["beneficiary"] = "夕里安",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:43991::::::::80:::::::::|h[镇静护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [108]
+				{
+					["beneficiary"] = "夕里安",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:43347::::::::80:::::::::|h[一包战利品]|h|r",
+						["count"] = 1,
+					},
+				}, -- [109]
+				{
+					["beneficiary"] = "夕里安",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:43345::::::::80:::::::::|h[龙皮包]|h|r",
+						["count"] = 1,
+					},
+				}, -- [110]
 			},
 		}, -- [1]
 	},
@@ -1251,11 +1335,11 @@ RaidLedgerDatabase = {
 		["minimapicons"] = {
 			["hide"] = false,
 		},
-		["debittemplates"] = {
-		},
+		["minimapicon"] = true,
 		["raidbutton"] = true,
 		["filteritems"] = "# 每行一條, 可以是物品名稱或物品ID\n# 以 # 開頭的行自動被忽略\n",
-		["minimapicon"] = true,
+		["debittemplates"] = {
+		},
 		["filterzero"] = false,
 	},
 	["current"] = 1,

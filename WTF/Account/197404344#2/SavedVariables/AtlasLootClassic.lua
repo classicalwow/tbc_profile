@@ -155,10 +155,10 @@ AtlasLootClassicDB = {
 					93.11114501953125, -- [5]
 				},
 				["selected"] = {
-					"AtlasLootClassic_Factions", -- [1]
-					"AllianceVanguard", -- [2]
-					nil, -- [3]
-					2, -- [4]
+					nil, -- [1]
+					"ObsidianSanctum", -- [2]
+					2, -- [3]
+					1, -- [4]
 					0, -- [5]
 				},
 			},
@@ -211,9 +211,6 @@ AtlasLootClassicDB = {
 			},
 		},
 		["新特能源 - 祈福"] = {
-			["minimap"] = {
-				["minimapPos"] = 259.3494714425075,
-			},
 			["GUI"] = {
 				["point"] = {
 					nil, -- [1]
@@ -229,6 +226,9 @@ AtlasLootClassicDB = {
 					9, -- [4]
 					0, -- [5]
 				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 259.3494714425075,
 			},
 		},
 	},

@@ -9,7 +9,7 @@ Postal3DB = {
 				"查尔斯三世|祈福|Alliance|70|MAGE", -- [4]
 				"沈南鹏|祈福|Alliance|70|PALADIN", -- [5]
 				"特变电工|祈福|Alliance|80|ROGUE", -- [6]
-				"码农巴菲特|祈福|Alliance|73|DEATHKNIGHT", -- [7]
+				"码农巴菲特|祈福|Alliance|74|DEATHKNIGHT", -- [7]
 			},
 		},
 	},

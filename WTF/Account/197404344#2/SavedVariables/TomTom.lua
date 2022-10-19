@@ -70,18 +70,17 @@ TomTomWaypointsM = {
 					["world"] = true,
 				},
 			},
-			[120] = {
-				["120:626161369.19315:609046454.76773:哈尔弗丹"] = {
-					120, -- [1]
-					0.6261613691931541, -- [2]
-					0.6090464547677262, -- [3]
+			[115] = {
+				["115:603178484.10758:515403422.98289:奈瑟斯塔兹"] = {
+					115, -- [1]
+					0.6031784841075795, -- [2]
+					0.5154034229828851, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "哈尔弗丹",
-					["silent"] = true,
+					["minimap"] = true,
 					["cleardistance"] = 10,
-					["title"] = "哈尔弗丹",
+					["title"] = "奈瑟斯塔兹",
 					["from"] = "Questie",
 					["callbacks"] = {
 						["distance"] = {
@@ -91,7 +90,6 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
-					["minimap"] = true,
 					["world"] = true,
 				},
 			},
@@ -128,31 +126,6 @@ TomTomWaypointsM = {
 		["查尔斯三世 - 祈福"] = {
 		},
 		["码农巴菲特 - 祈福"] = {
-			[1955] = {
-				["1955:640586797.06601:411002444.98778:努特拉尔"] = {
-					1955, -- [1]
-					0.6405867970660146, -- [2]
-					0.4110024449877751, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "努特拉尔",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "努特拉尔",
-					["from"] = "Questie",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
 		},
 		["新特能源 - 祈福"] = {
 		},

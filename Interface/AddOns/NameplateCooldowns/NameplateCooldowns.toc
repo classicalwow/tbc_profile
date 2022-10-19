@@ -2,7 +2,7 @@
 ## Title: NameplateCooldowns [WotLK]
 ## Notes: Shows the cooldowns of enemy players above their nameplates
 ## SavedVariables: NameplateCooldownsAceDB
-## Version: 30400.1-release
+## Version: 30400.2-release
 ## X-Curse-Project-ID: 66866
 ## X-Wago-ID: 0mNwjlGo
 

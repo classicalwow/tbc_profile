@@ -936,10 +936,10 @@ TalentEmuSV = {
 		["minimapPos"] = 185,
 	},
 	["var"] = {
-		["Player-4778-0505CE58"] = "!T32-9111JAT8A26v1C1jg:::ENt1GA!G3211e+9:7IC:51u+-:EIC:41u+-:cgC:F1u+9:VIC:91u++!E320+^+nk8:891:9+GJ9:891:9+3l-:891:9+^+hs=:891:9+5-9:891:9+vj8:891:9+Ok8:891:9+--9:891:9+6k8:891:9+dk8:891:9+fJ9:891:9+709:891:9+nJ9:891:9+629:891:9+RJ9:1do:791:9+^+cY9:891:9+^",
+		["Player-4778-0505CE58"] = "!T32--111KAT8A26v1C1z01:::ENt1GA!G3211e+9:7IC:51u+-:EIC:41u+-:cgC:F1u+9:VIC:91u++!E320+^+D-9:8-1:9+GJ9:8-1:9+3l-:8-1:9+^+hs=:8-1:9+T99:8-1:9+b99:8-1:9+Ok8:8-1:9+--9:8-1:9+2-9:8-1:9+dk8:8-1:9+fJ9:8-1:9+709:8-1:9+nJ9:8-1:9+629:8-1:9+RJ9:1do:7-1:9+^+cY9:8-1:9+^",
 		["Player-4778-04F3E689"] = "110",
 		["Player-4778-050B37B0"] = "!T3246111MG::UT9::0MWB-L=Pk5nRMlA1!G3211e+9:DOB:01u+-:a9C:=1u+-:P9C:H1u+9:BOB:A1u++!E320+^+pD6:861:9+OD6:861:9+Af7:861:9+Dc:861:9+cj7:1nQ:761:9+xD6:861:9+Tg7:861:9+Zq6:861:9+og7:861:9+ig7:861:9+jG6:861:9+BC6:861:9+9q6:861:9+VE6:861:9+zp6:861:9+WG6:861:9+^+Vq6:861:9+^",
-		["Player-4778-04F3EDE6"] = "!T325E122JK0f1:::::3O3a8L5ZWAnZFe7o8=AcmJAMidX:h1!G3222w+9:8aB:A1u+-:oBC:91u+-:N-C:81u+9:7aB:=1u+-:3-C:B1u+9:9aB:41uw+9:zZB:51u+-:T-C:I1u+-:3-C:B1u+9:sZB:D1u+-:N-C:81u+9:3QD:51u!E320+^+mt9:1fv:1t6-:1yk9:5E1:9+as9:8E1:9+2s9:1Vv:1kl9:6E1:9+^+2o9:1sv:1Ol9:6E1:9+u59:8E1:9+Cr9:17u:1yk9:1yk9:5E1:9+W59:1Um:7E1:9+l79:1QY:7E1:9+Td9:1im:1yk9:6E1:9+gm9:8E1:9+yA9:8E1:9+hv9:8E1:9+NA9:8E1:9+vo9:8E1:9+k79:1qv:7E1:9+^+po9:8E1:9+IW-:8E1:9",
+		["Player-4778-04F3EDE6"] = "!T325E122JK0f1:::::3O3a8L5ZWAnZFe7o8=AcmJAMidX:h1!G3222w+9:8aB:A1u+-:oBC:91u+-:N-C:81u+9:7aB:=1u+-:3-C:B1u+9:9aB:41uw+9:zZB:51u+-:T-C:I1u+-:3-C:B1u+9:sZB:D1u+-:N-C:81u+9:3QD:51u!E320+^+mt9:1fv:1t6-:1yk9:5E1:9+as9:8E1:9+2s9:1Vv:1kl9:6E1:9+^+2o9:1sv:1Ol9:6E1:9+u59:8E1:9+Cr9:17u:1yk9:1yk9:5E1:9+W59:1Um:7E1:9+l79:1QY:7E1:9+Td9:1im:1yk9:6E1:9+gm9:8E1:9+Yz=:8E1:9+hv9:8E1:9+NA9:8E1:9+vo9:8E1:9+k79:1qv:7E1:9+^+po9:8E1:9+IW-:8E1:9",
 		["savedTalent"] = {
 			["|cfff48cba圣骑士|r- 神圣 0 防护 0 |cff7fbfff惩戒53|r"] = "!T324E111I::::0MWB-L=Pk5nRMlA1",
 			["|cffffffff牧师|r- |cff7fbfff戒律57|r 神圣 4 暗影 0"] = "!T325E111Ce7o8=AcmJAMqfN",

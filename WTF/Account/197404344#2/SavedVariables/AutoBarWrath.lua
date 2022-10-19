@@ -346,14 +346,14 @@ AutoBarDB = {
 					["defaultButtonIndex"] = 3,
 				},
 				["AutoBarButtonPickLock"] = {
-					["enabled"] = true,
-					["buttonClass"] = "AutoBarButtonPickLock",
-					["defaultButtonIndex"] = "*",
 					["barKey"] = "AutoBarClassBarRogue",
+					["buttonClass"] = "AutoBarButtonPickLock",
+					["square_popups"] = true,
+					["enabled"] = true,
 					["arrangeOnUse"] = true,
 					["targeted"] = "Lockpicking",
 					["buttonKey"] = "AutoBarButtonPickLock",
-					["square_popups"] = true,
+					["defaultButtonIndex"] = "*",
 				},
 				["AutoBarButtonInterrupt"] = {
 					["barKey"] = "AutoBarClassBarRogue",
@@ -566,19 +566,19 @@ AutoBarDB = {
 				["AutoBarButtonBuff"] = {
 					["arrangeOnUse"] = 37093,
 				},
-				["AutoBarButtonElixirGuardian"] = {
-					["arrangeOnUse"] = 40097,
-				},
 				["AutoBarButtonBuffWeapon1"] = {
 					["arrangeOnUse"] = 43232,
+				},
+				["AutoBarButtonQuest"] = {
+					["arrangeOnUse"] = 42203,
 				},
 				["AutoBarButtonCrafting"] = {
 					["arrangeOnUse"] = "急救",
 				},
 				["AutoBarButtonMount"] = {
 				},
-				["AutoBarButtonQuest"] = {
-					["arrangeOnUse"] = 42203,
+				["AutoBarButtonElixirGuardian"] = {
+					["arrangeOnUse"] = 40097,
 				},
 			},
 			["barList"] = {
@@ -614,10 +614,13 @@ AutoBarDB = {
 		},
 		["码农巴菲特 - 祈福"] = {
 			["buttonDataList"] = {
-				["AutoBarButtonBuff"] = {
-					["arrangeOnUse"] = 2459,
+				["AutoBarButtonQuest"] = {
+					["arrangeOnUse"] = 34620,
 				},
 				["AutoBarButtonMount"] = {
+				},
+				["AutoBarButtonBuff"] = {
+					["arrangeOnUse"] = 2459,
 				},
 			},
 			["barList"] = {
