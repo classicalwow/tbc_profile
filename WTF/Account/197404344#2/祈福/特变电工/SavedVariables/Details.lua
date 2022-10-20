@@ -7,45 +7,508 @@ _detalhes_database = {
 		["tabelas"] = {
 			{
 				{
-					["combatId"] = 8,
 					["tipo"] = 2,
+					["combatId"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.008624,
+							["damage_from"] = {
+								["希弗列尔达风暴之女"] = true,
+							},
+							["targets"] = {
+								["希弗列尔达风暴之女"] = 12181,
+							},
+							["pets"] = {
+							},
+							["classe"] = "ROGUE",
+							["spec"] = 259,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 12181.008624,
+							["damage_taken"] = 321.008624,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1666196412,
+							["aID"] = "4778-04DBFC9E",
+							["last_dps"] = 1257.329544180004,
+							["nome"] = "特变电工",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 5,
+										["b_amt"] = 1,
+										["c_dmg"] = 3483,
+										["g_amt"] = 0,
+										["n_max"] = 370,
+										["targets"] = {
+											["希弗列尔达风暴之女"] = 6586,
+										},
+										["n_dmg"] = 3103,
+										["n_min"] = 290,
+										["g_dmg"] = 0,
+										["counter"] = 14,
+										["total"] = 6586,
+										["c_max"] = 736,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 290,
+										["a_dmg"] = 0,
+										["c_min"] = 659,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 9,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									}, -- [1]
+									[48664] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 3013,
+										["g_amt"] = 0,
+										["n_max"] = 656,
+										["targets"] = {
+											["希弗列尔达风暴之女"] = 3669,
+										},
+										["n_dmg"] = 656,
+										["n_min"] = 656,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 3669,
+										["c_max"] = 1563,
+										["id"] = 48664,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 1450,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[48665] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 652,
+										["targets"] = {
+											["希弗列尔达风暴之女"] = 1926,
+										},
+										["n_dmg"] = 1926,
+										["n_min"] = 627,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 1926,
+										["c_max"] = 0,
+										["id"] = 48665,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["total"] = 12181.008624,
+							["last_event"] = 1666196411,
+							["custom"] = 0,
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1666196403,
+							["serial"] = "Player-4778-04DBFC9E",
+							["friendlyfire"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.002786,
+							["damage_from"] = {
+								["特变电工"] = true,
+							},
+							["targets"] = {
+								["特变电工"] = 321,
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["total"] = 321.002786,
+							["aID"] = "29323",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 321.002786,
+							["fight_component"] = true,
+							["monster"] = true,
+							["end_time"] = 1666196412,
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["nome"] = "希弗列尔达风暴之女",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 321,
+										["targets"] = {
+											["特变电工"] = 321,
+										},
+										["n_dmg"] = 321,
+										["n_min"] = 321,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 321,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 1,
+										["spellschool"] = 1,
+										["DODGE"] = 1,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["on_hold"] = false,
+							["custom"] = 0,
+							["last_event"] = 1666196407,
+							["damage_taken"] = 12181.002786,
+							["start_time"] = 1666196407,
+							["serial"] = "Creature-0-4894-571-7513-29323-000050235A",
+							["classe"] = "UNKNOW",
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 9,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 9,
+					["_ActorTable"] = {
+						{
+							["received"] = 39.002321,
+							["resource"] = 0.002321,
+							["targets"] = {
+								["特变电工"] = 39,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 3,
+							["classe"] = "ROGUE",
+							["passiveover"] = 0.002321,
+							["total"] = 39.002321,
+							["nome"] = "特变电工",
+							["spells"] = {
+								["_ActorTable"] = {
+									[51637] = {
+										["total"] = 14,
+										["id"] = 51637,
+										["totalover"] = 0,
+										["targets"] = {
+											["特变电工"] = 14,
+										},
+										["counter"] = 7,
+									},
+									[14181] = {
+										["total"] = 25,
+										["id"] = 14181,
+										["totalover"] = 0,
+										["targets"] = {
+											["特变电工"] = 25,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["totalover"] = 0.002321,
+							["flag_original"] = 1297,
+							["last_event"] = 1666196411,
+							["tipo"] = 3,
+							["aID"] = "4778-04DBFC9E",
+							["alternatepower"] = 0.002321,
+							["serial"] = "Player-4778-04DBFC9E",
+							["spec"] = 259,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["buff_uptime"] = 23,
+							["aID"] = "4778-04DBFC9E",
+							["interrupt_spells"] = {
+								["_ActorTable"] = {
+									[1766] = {
+										["id"] = 1766,
+										["counter"] = 1,
+										["targets"] = {
+											["希弗列尔达风暴之女"] = 1,
+										},
+										["interrompeu_oque"] = {
+											[57408] = 1,
+										},
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[60233] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 60233,
+										["uptime"] = 9,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[57819] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 57819,
+										["uptime"] = 9,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[6774] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 6774,
+										["uptime"] = 5,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["interrompeu_oque"] = {
+								[57408] = 1,
+							},
+							["interrupt"] = 1.002544,
+							["nome"] = "特变电工",
+							["spec"] = 259,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[1766] = 1,
+								[6774] = 1,
+								[48666] = 2,
+							},
+							["classe"] = "ROGUE",
+							["last_event"] = 1666196412,
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["serial"] = "Player-4778-04DBFC9E",
+							["interrupt_targets"] = {
+								["希弗列尔达风暴之女"] = 1,
+							},
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 9,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["特变电工"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"特变电工", -- [1]
+				},
+				["CombatStartedAt"] = 53073.84400000001,
+				["tempo_start"] = 1666196403,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 470,
+				["playing_solo"] = true,
+				["totals"] = {
+					12501.959233, -- [1]
+					-0.05583, -- [2]
+					{
+						0, -- [1]
+						[0] = -0.0090839999998856,
+						["alternatepower"] = 0,
+						[6] = -0.01533699999999882,
+						[3] = 39,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "00:20:13",
+				["hasTimer"] = 9.03399999999965,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "希弗列尔达风暴之女",
+				["TotalElapsedCombatTime"] = 9.687999999994645,
+				["CombatEndedAt"] = 53083.532,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "00:20:04",
+				["end_time"] = 53083.532,
+				["combat_id"] = 9,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["希弗列尔达风暴之女"] = 1,
+				},
+				["totals_grupo"] = {
+					12181, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 39,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["spells_cast_timeline"] = {
+				},
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["特变电工"] = 12181.008624,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["start_time"] = 53073.84400000001,
+				["contra"] = "希弗列尔达风暴之女",
+				["overall_added"] = true,
+			}, -- [1]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 8,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.005511,
 							["damage_from"] = {
+								["火焰旋风"] = true,
+								["沙德隆的追随者"] = true,
 								["萨塔里奥"] = true,
 								["暮光传送门"] = true,
-								["沙德隆的追随者"] = true,
-								["火焰旋风"] = true,
+								["希弗列尔达风暴之女"] = true,
 							},
 							["targets"] = {
 								["塔尼布隆"] = 306465,
 								["沙德隆的追随者"] = 39846,
 								["沙德隆"] = 285344,
 								["萨塔里奥"] = 736434,
-								["熔岩烈焰"] = 25221,
 								["萨塔里奥暮光雏龙"] = 53135,
+								["熔岩烈焰"] = 25221,
 							},
-							["spec"] = 259,
+							["custom"] = 0,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 3956.023984593823,
 							["boss_fight_component"] = true,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1446445.005511,
-							["end_time"] = 1666100940,
-							["colocacao"] = 1,
+							["on_hold"] = false,
+							["aID"] = "4778-04DBFC9E",
 							["dps_started"] = false,
 							["total"] = 1446445.005511,
-							["aID"] = "4778-04DBFC9E",
-							["classe"] = "ROGUE",
+							["delay"] = 0,
+							["end_time"] = 1666100940,
 							["nome"] = "特变电工",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 208,
@@ -63,23 +526,23 @@ _detalhes_database = {
 										["n_min"] = 320,
 										["g_dmg"] = 60621,
 										["counter"] = 574,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["total"] = 373483,
 										["c_max"] = 1482,
-										["DODGE"] = 13,
+										["b_dmg"] = 791,
 										["id"] = 1,
 										["r_dmg"] = 0,
 										["MISS"] = 65,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
 										["extra"] = {
 										},
 										["PARRY"] = 4,
 										["c_min"] = 672,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
 										["n_amt"] = 141,
-										["b_dmg"] = 791,
-										["r_amt"] = 0,
+										["DODGE"] = 13,
+										["a_dmg"] = 0,
 									}, -- [1]
 									[52874] = {
 										["c_amt"] = 16,
@@ -91,8 +554,8 @@ _detalhes_database = {
 											["塔尼布隆"] = 2874,
 											["沙德隆"] = 4502,
 											["萨塔里奥暮光雏龙"] = 19251,
-											["萨塔里奥"] = 2195,
 											["熔岩烈焰"] = 10635,
+											["萨塔里奥"] = 2195,
 										},
 										["n_dmg"] = 15098,
 										["n_min"] = 464,
@@ -102,17 +565,17 @@ _detalhes_database = {
 										["c_max"] = 1934,
 										["id"] = 52874,
 										["r_dmg"] = 0,
-										["IMMUNE"] = 3,
-										["spellschool"] = 1,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 1280,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["n_amt"] = 22,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["IMMUNE"] = 3,
 									},
 									[48676] = {
 										["c_amt"] = 0,
@@ -131,16 +594,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 48676,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 6,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[57969] = {
 										["c_amt"] = 0,
@@ -153,8 +616,8 @@ _detalhes_database = {
 											["沙德隆的追随者"] = 3213,
 											["沙德隆"] = 31844,
 											["萨塔里奥暮光雏龙"] = 10729,
-											["熔岩烈焰"] = 526,
 											["萨塔里奥"] = 82899,
+											["熔岩烈焰"] = 526,
 										},
 										["n_dmg"] = 165136,
 										["n_min"] = 175,
@@ -164,17 +627,17 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 57969,
 										["r_dmg"] = 72694,
-										["IMMUNE"] = 1,
-										["spellschool"] = 8,
+										["r_amt"] = 60,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["n_amt"] = 150,
-										["b_dmg"] = 0,
-										["r_amt"] = 60,
+										["spellschool"] = 8,
+										["IMMUNE"] = 1,
 									},
 									[1330] = {
 										["c_amt"] = 0,
@@ -193,17 +656,17 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1330,
 										["r_dmg"] = 0,
-										["IMMUNE"] = 1,
-										["spellschool"] = 1,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["IMMUNE"] = 1,
 									},
 									[57993] = {
 										["c_amt"] = 22,
@@ -225,17 +688,17 @@ _detalhes_database = {
 										["c_max"] = 14124,
 										["id"] = 57993,
 										["r_dmg"] = 80507,
-										["DODGE"] = 1,
-										["spellschool"] = 8,
+										["r_amt"] = 14,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 1533,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["n_amt"] = 22,
-										["b_dmg"] = 0,
-										["r_amt"] = 14,
+										["spellschool"] = 8,
+										["DODGE"] = 1,
 									},
 									[57964] = {
 										["c_amt"] = 45,
@@ -248,8 +711,8 @@ _detalhes_database = {
 											["沙德隆的追随者"] = 7128,
 											["沙德隆"] = 71534,
 											["萨塔里奥暮光雏龙"] = 5943,
-											["熔岩烈焰"] = 2427,
 											["萨塔里奥"] = 190204,
+											["熔岩烈焰"] = 2427,
 										},
 										["n_dmg"] = 264323,
 										["n_min"] = 702,
@@ -259,137 +722,16 @@ _detalhes_database = {
 										["c_max"] = 2381,
 										["id"] = 57964,
 										["r_dmg"] = 137129,
-										["spellschool"] = 8,
-										["extra"] = {
-										},
+										["r_amt"] = 119,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 1075,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 234,
-										["b_dmg"] = 0,
-										["r_amt"] = 119,
-									},
-									[51723] = {
-										["c_amt"] = 13,
-										["b_amt"] = 0,
-										["c_dmg"] = 20332,
-										["g_amt"] = 0,
-										["n_max"] = 842,
-										["targets"] = {
-											["塔尼布隆"] = 2214,
-											["沙德隆"] = 4847,
-											["萨塔里奥暮光雏龙"] = 17212,
-											["萨塔里奥"] = 1509,
-											["熔岩烈焰"] = 11633,
-										},
-										["n_dmg"] = 17083,
-										["n_min"] = 607,
-										["g_dmg"] = 0,
-										["counter"] = 40,
-										["total"] = 37415,
-										["c_max"] = 2050,
-										["id"] = 51723,
-										["r_dmg"] = 0,
-										["IMMUNE"] = 3,
-										["spellschool"] = 1,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
-										["c_min"] = 1289,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 24,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[48665] = {
-										["c_amt"] = 30,
-										["b_amt"] = 1,
-										["c_dmg"] = 82711,
-										["g_amt"] = 0,
-										["n_max"] = 1315,
-										["targets"] = {
-											["塔尼布隆"] = 25051,
-											["萨塔里奥"] = 61730,
-											["沙德隆的追随者"] = 4084,
-											["沙德隆"] = 19654,
-										},
-										["n_dmg"] = 27808,
-										["n_min"] = 751,
-										["g_dmg"] = 0,
-										["counter"] = 55,
-										["total"] = 110519,
-										["c_max"] = 3720,
-										["id"] = 48665,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 1607,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 25,
-										["b_dmg"] = 1005,
-										["r_amt"] = 0,
-									},
-									[54043] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 136,
-										["targets"] = {
-											["沙德隆的追随者"] = 136,
-										},
-										["n_dmg"] = 136,
-										["n_min"] = 136,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 136,
-										["c_max"] = 0,
-										["id"] = 54043,
-										["r_dmg"] = 0,
-										["spellschool"] = 2,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[48666] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["萨塔里奥"] = 0,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 48666,
-										["r_dmg"] = 0,
-										["DODGE"] = 1,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 8,
 									},
 									[48664] = {
 										["c_amt"] = 34,
@@ -411,29 +753,152 @@ _detalhes_database = {
 										["c_max"] = 3401,
 										["id"] = 48664,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 1559,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 21,
-										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[48665] = {
+										["c_amt"] = 30,
+										["b_amt"] = 1,
+										["c_dmg"] = 82711,
+										["g_amt"] = 0,
+										["n_max"] = 1315,
+										["targets"] = {
+											["塔尼布隆"] = 25051,
+											["萨塔里奥"] = 61730,
+											["沙德隆的追随者"] = 4084,
+											["沙德隆"] = 19654,
+										},
+										["n_dmg"] = 27808,
+										["n_min"] = 751,
+										["g_dmg"] = 0,
+										["counter"] = 55,
+										["total"] = 110519,
+										["c_max"] = 3720,
+										["id"] = 48665,
+										["r_dmg"] = 0,
 										["r_amt"] = 0,
+										["b_dmg"] = 1005,
+										["a_dmg"] = 0,
+										["c_min"] = 1607,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 25,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[54043] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 136,
+										["targets"] = {
+											["沙德隆的追随者"] = 136,
+										},
+										["n_dmg"] = 136,
+										["n_min"] = 136,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 136,
+										["c_max"] = 0,
+										["id"] = 54043,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[48666] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["萨塔里奥"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 48666,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 1,
+										["DODGE"] = 1,
+									},
+									[51723] = {
+										["c_amt"] = 13,
+										["b_amt"] = 0,
+										["c_dmg"] = 20332,
+										["g_amt"] = 0,
+										["n_max"] = 842,
+										["targets"] = {
+											["塔尼布隆"] = 2214,
+											["沙德隆"] = 4847,
+											["萨塔里奥暮光雏龙"] = 17212,
+											["熔岩烈焰"] = 11633,
+											["萨塔里奥"] = 1509,
+										},
+										["n_dmg"] = 17083,
+										["n_min"] = 607,
+										["g_dmg"] = 0,
+										["counter"] = 40,
+										["total"] = 37415,
+										["c_max"] = 2050,
+										["id"] = 51723,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 1289,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 24,
+										["spellschool"] = 1,
+										["IMMUNE"] = 3,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
-							["serial"] = "Player-4778-04DBFC9E",
-							["last_dps"] = 3956.023984593823,
-							["custom"] = 0,
-							["last_event"] = 1666100939,
-							["damage_taken"] = 34716.005511,
-							["start_time"] = 1666100578,
-							["delay"] = 0,
+							["classe"] = "ROGUE",
 							["tipo"] = 1,
+							["spec"] = 259,
+							["colocacao"] = 1,
+							["last_event"] = 1666100939,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1666100578,
+							["serial"] = "Player-4778-04DBFC9E",
+							["damage_taken"] = 35114.005511,
 						}, -- [1]
 						{
 							["flag_original"] = 1300,
@@ -441,45 +906,37 @@ _detalhes_database = {
 							["damage_from"] = {
 								["雪花丶有点飘"] = true,
 								["沙德隆的追随者"] = true,
-								["萨塔里奥"] = true,
-								["熔岩烈焰"] = true,
-								["暮光传送门"] = true,
-								["萨塔里奥暮光雏龙"] = true,
 								["火焰旋风"] = true,
+								["萨塔里奥"] = true,
+								["萨塔里奥暮光雏龙"] = true,
+								["暮光传送门"] = true,
+								["熔岩烈焰"] = true,
 							},
 							["targets"] = {
 								["塔尼布隆"] = 241173,
 								["沙德隆的追随者"] = 50268,
 								["沙德隆"] = 256408,
 								["萨塔里奥"] = 707704,
-								["熔岩烈焰"] = 42922,
 								["萨塔里奥暮光雏龙"] = 123547,
+								["熔岩烈焰"] = 42922,
 							},
-							["spec"] = 259,
+							["custom"] = 0,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-								["雪花丶有点飘"] = {
-									["spells"] = {
-										[57634] = 2069,
-									},
-									["total"] = 2069,
-								},
-							},
+							["last_dps"] = 3889.227140666474,
 							["boss_fight_component"] = true,
 							["friendlyfire_total"] = 2069,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1422022.008669,
-							["end_time"] = 1666100940,
-							["colocacao"] = 2,
+							["on_hold"] = false,
+							["aID"] = "4778-048F0669",
 							["dps_started"] = false,
 							["total"] = 1422022.008669,
-							["aID"] = "4778-048F0669",
-							["classe"] = "ROGUE",
+							["delay"] = 0,
+							["end_time"] = 1666100940,
 							["nome"] = "雪花丶有点飘",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 285,
@@ -498,23 +955,23 @@ _detalhes_database = {
 										["n_min"] = 229,
 										["g_dmg"] = 48781,
 										["counter"] = 632,
-										["DODGE"] = 30,
+										["r_amt"] = 0,
 										["total"] = 349211,
 										["c_max"] = 1271,
-										["a_dmg"] = 0,
+										["b_dmg"] = 602,
 										["id"] = 1,
 										["r_dmg"] = 0,
 										["MISS"] = 109,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
 										["extra"] = {
 										},
 										["PARRY"] = 5,
 										["c_min"] = 594,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
 										["n_amt"] = 66,
-										["b_dmg"] = 602,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["DODGE"] = 30,
 									}, -- [1]
 									[52874] = {
 										["c_amt"] = 42,
@@ -526,30 +983,30 @@ _detalhes_database = {
 											["塔尼布隆"] = 8050,
 											["沙德隆"] = 9049,
 											["萨塔里奥"] = 2941,
-											["萨塔里奥暮光雏龙"] = 38663,
 											["熔岩烈焰"] = 15813,
+											["萨塔里奥暮光雏龙"] = 38663,
 										},
 										["n_dmg"] = 30558,
 										["n_min"] = 250,
 										["g_dmg"] = 0,
 										["counter"] = 119,
-										["IMMUNE"] = 9,
+										["r_amt"] = 0,
 										["total"] = 74516,
 										["c_max"] = 1349,
-										["DODGE"] = 6,
+										["b_dmg"] = 938,
 										["id"] = 52874,
 										["r_dmg"] = 0,
 										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
 										["extra"] = {
 										},
 										["PARRY"] = 3,
 										["c_min"] = 962,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
 										["n_amt"] = 59,
-										["b_dmg"] = 938,
-										["r_amt"] = 0,
+										["DODGE"] = 6,
+										["IMMUNE"] = 9,
 									},
 									[48676] = {
 										["c_amt"] = 0,
@@ -568,50 +1025,51 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 48676,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 5,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[51723] = {
-										["c_amt"] = 46,
-										["b_amt"] = 2,
-										["c_dmg"] = 45689,
-										["g_amt"] = 0,
-										["n_max"] = 612,
-										["targets"] = {
-											["塔尼布隆"] = 7686,
-											["沙德隆"] = 9596,
-											["萨塔里奥"] = 3811,
-											["萨塔里奥暮光雏龙"] = 38846,
-											["熔岩烈焰"] = 14210,
-										},
-										["n_dmg"] = 28460,
-										["n_min"] = 400,
-										["g_dmg"] = 0,
-										["counter"] = 117,
-										["total"] = 74149,
-										["c_max"] = 1273,
-										["DODGE"] = 3,
-										["id"] = 51723,
-										["r_dmg"] = 0,
-										["IMMUNE"] = 9,
-										["spellschool"] = 1,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
-										["c_min"] = 917,
-										["successful_casted"] = 0,
+										["spellschool"] = 1,
+									},
+									[57970] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1984,
+										["targets"] = {
+											["塔尼布隆"] = 44733,
+											["沙德隆的追随者"] = 3400,
+											["沙德隆"] = 43112,
+											["萨塔里奥暮光雏龙"] = 24812,
+											["萨塔里奥"] = 87513,
+											["熔岩烈焰"] = 4428,
+										},
+										["n_dmg"] = 207998,
+										["n_min"] = 225,
+										["g_dmg"] = 0,
+										["counter"] = 204,
+										["total"] = 207998,
+										["c_max"] = 0,
+										["r_amt"] = 64,
+										["id"] = 57970,
+										["r_dmg"] = 73236,
+										["b_dmg"] = 0,
+										["spellschool"] = 8,
 										["a_amt"] = 0,
-										["n_amt"] = 59,
-										["b_dmg"] = 825,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["extra"] = {
+										},
+										["n_amt"] = 195,
+										["MISS"] = 5,
+										["IMMUNE"] = 4,
 									},
 									[1330] = {
 										["c_amt"] = 0,
@@ -630,49 +1088,51 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1330,
 										["r_dmg"] = 0,
-										["IMMUNE"] = 1,
-										["spellschool"] = 1,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["IMMUNE"] = 1,
 									},
-									[57993] = {
-										["c_amt"] = 9,
-										["b_amt"] = 0,
-										["c_dmg"] = 80850,
+									[51723] = {
+										["c_amt"] = 46,
+										["b_amt"] = 2,
+										["c_dmg"] = 45689,
 										["g_amt"] = 0,
-										["n_max"] = 6136,
+										["n_max"] = 612,
 										["targets"] = {
-											["塔尼布隆"] = 15713,
-											["萨塔里奥"] = 89566,
-											["沙德隆的追随者"] = 6635,
-											["沙德隆"] = 15255,
+											["塔尼布隆"] = 7686,
+											["沙德隆"] = 9596,
+											["萨塔里奥"] = 3811,
+											["熔岩烈焰"] = 14210,
+											["萨塔里奥暮光雏龙"] = 38846,
 										},
-										["n_dmg"] = 46319,
-										["n_min"] = 3735,
+										["n_dmg"] = 28460,
+										["n_min"] = 400,
 										["g_dmg"] = 0,
-										["counter"] = 20,
-										["total"] = 127169,
-										["c_max"] = 11734,
-										["id"] = 57993,
-										["r_dmg"] = 55935,
-										["DODGE"] = 2,
-										["spellschool"] = 8,
+										["counter"] = 117,
+										["total"] = 74149,
+										["c_max"] = 1273,
+										["r_amt"] = 0,
+										["id"] = 51723,
+										["r_dmg"] = 0,
+										["b_dmg"] = 825,
+										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 917,
+										["successful_casted"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
-										["c_min"] = 6635,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 9,
-										["b_dmg"] = 0,
-										["r_amt"] = 8,
+										["n_amt"] = 59,
+										["IMMUNE"] = 9,
+										["DODGE"] = 3,
 									},
 									[8643] = {
 										["c_amt"] = 0,
@@ -691,17 +1151,17 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 8643,
 										["r_dmg"] = 0,
-										["IMMUNE"] = 1,
-										["spellschool"] = 1,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["IMMUNE"] = 1,
 									},
 									[48664] = {
 										["c_amt"] = 27,
@@ -723,16 +1183,50 @@ _detalhes_database = {
 										["c_max"] = 2786,
 										["id"] = 48664,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 1620,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 16,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[57965] = {
+										["c_amt"] = 74,
+										["b_amt"] = 0,
+										["c_dmg"] = 127759,
+										["g_amt"] = 0,
+										["n_max"] = 1586,
+										["targets"] = {
+											["塔尼布隆"] = 74919,
+											["沙德隆的追随者"] = 14940,
+											["沙德隆"] = 75380,
+											["萨塔里奥"] = 230314,
+											["萨塔里奥暮光雏龙"] = 19672,
+											["熔岩烈焰"] = 8275,
+										},
+										["n_dmg"] = 295741,
+										["n_min"] = 523,
+										["g_dmg"] = 0,
+										["counter"] = 345,
+										["total"] = 423500,
+										["c_max"] = 2333,
+										["id"] = 57965,
+										["r_dmg"] = 158556,
+										["r_amt"] = 139,
 										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 1028,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 261,
+										["spellschool"] = 8,
+										["MISS"] = 10,
 									},
 									[48665] = {
 										["c_amt"] = 28,
@@ -754,50 +1248,16 @@ _detalhes_database = {
 										["c_max"] = 3124,
 										["id"] = 48665,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 1621,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 15,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[57965] = {
-										["c_amt"] = 74,
-										["b_amt"] = 0,
-										["c_dmg"] = 127759,
-										["g_amt"] = 0,
-										["n_max"] = 1586,
-										["targets"] = {
-											["塔尼布隆"] = 74919,
-											["沙德隆的追随者"] = 14940,
-											["沙德隆"] = 75380,
-											["萨塔里奥"] = 230314,
-											["熔岩烈焰"] = 8275,
-											["萨塔里奥暮光雏龙"] = 19672,
-										},
-										["n_dmg"] = 295741,
-										["n_min"] = 523,
-										["g_dmg"] = 0,
-										["counter"] = 345,
-										["total"] = 423500,
-										["c_max"] = 2333,
-										["id"] = 57965,
-										["r_dmg"] = 158556,
-										["MISS"] = 10,
-										["spellschool"] = 8,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
-										["c_min"] = 1028,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 261,
-										["b_dmg"] = 0,
-										["r_amt"] = 139,
+										["spellschool"] = 1,
 									},
 									[54043] = {
 										["c_amt"] = 0,
@@ -818,16 +1278,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 54043,
 										["r_dmg"] = 0,
-										["spellschool"] = 2,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 4,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
 									},
 									[48666] = {
 										["c_amt"] = 0,
@@ -847,65 +1307,70 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 48666,
 										["r_dmg"] = 0,
-										["DODGE"] = 2,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
 										["r_amt"] = 0,
-									},
-									[57970] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1984,
-										["targets"] = {
-											["塔尼布隆"] = 44733,
-											["沙德隆的追随者"] = 3400,
-											["沙德隆"] = 43112,
-											["萨塔里奥暮光雏龙"] = 24812,
-											["熔岩烈焰"] = 4428,
-											["萨塔里奥"] = 87513,
-										},
-										["n_dmg"] = 207998,
-										["n_min"] = 225,
-										["g_dmg"] = 0,
-										["counter"] = 204,
-										["total"] = 207998,
-										["c_max"] = 0,
-										["IMMUNE"] = 4,
-										["id"] = 57970,
-										["r_dmg"] = 73236,
-										["MISS"] = 5,
-										["spellschool"] = 8,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 195,
+										["a_dmg"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 1,
+										["DODGE"] = 2,
+									},
+									[57993] = {
+										["c_amt"] = 9,
+										["b_amt"] = 0,
+										["c_dmg"] = 80850,
+										["g_amt"] = 0,
+										["n_max"] = 6136,
+										["targets"] = {
+											["塔尼布隆"] = 15713,
+											["萨塔里奥"] = 89566,
+											["沙德隆的追随者"] = 6635,
+											["沙德隆"] = 15255,
+										},
+										["n_dmg"] = 46319,
+										["n_min"] = 3735,
+										["g_dmg"] = 0,
+										["counter"] = 20,
+										["total"] = 127169,
+										["c_max"] = 11734,
+										["id"] = 57993,
+										["r_dmg"] = 55935,
+										["r_amt"] = 8,
 										["b_dmg"] = 0,
-										["r_amt"] = 64,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 6635,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 9,
+										["spellschool"] = 8,
+										["DODGE"] = 2,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["classe"] = "ROGUE",
+							["tipo"] = 1,
+							["spec"] = 259,
+							["colocacao"] = 2,
+							["last_event"] = 1666100939,
+							["friendlyfire"] = {
+								["雪花丶有点飘"] = {
+									["total"] = 2069,
+									["spells"] = {
+										[57634] = 2069,
 									},
 								},
 							},
-							["grupo"] = true,
-							["on_hold"] = false,
-							["serial"] = "Player-4778-048F0669",
-							["last_dps"] = 3889.227140666475,
-							["custom"] = 0,
-							["last_event"] = 1666100939,
-							["damage_taken"] = 59422.008669,
 							["start_time"] = 1666100577,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Player-4778-048F0669",
+							["damage_taken"] = 59422.008669,
 						}, -- [2]
 						{
 							["flag_original"] = 1298,
@@ -914,36 +1379,34 @@ _detalhes_database = {
 								["塔尼布隆"] = true,
 								["暮光传送门"] = true,
 								["萨塔里奥暮光雏龙"] = true,
-								["熔岩烈焰"] = true,
 								["火焰旋风"] = true,
+								["熔岩烈焰"] = true,
 							},
 							["targets"] = {
 								["塔尼布隆"] = 131544,
 								["沙德隆的追随者"] = 26216,
 								["沙德隆"] = 254488,
 								["萨塔里奥"] = 430362,
-								["萨塔里奥暮光雏龙"] = 153074,
 								["熔岩烈焰"] = 172886,
+								["萨塔里奥暮光雏龙"] = 153074,
 							},
-							["spec"] = 72,
+							["custom"] = 0,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 3196.036458768593,
 							["boss_fight_component"] = true,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1168570.006456,
-							["end_time"] = 1666100940,
-							["colocacao"] = 3,
+							["on_hold"] = false,
+							["aID"] = "4778-04AC8F71",
 							["dps_started"] = false,
 							["total"] = 1168570.006456,
-							["aID"] = "4778-04AC8F71",
-							["classe"] = "WARRIOR",
+							["delay"] = 0,
+							["end_time"] = 1666100940,
 							["nome"] = "陌戮",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 98,
@@ -956,30 +1419,30 @@ _detalhes_database = {
 											["沙德隆的追随者"] = 10878,
 											["沙德隆"] = 55993,
 											["萨塔里奥暮光雏龙"] = 16607,
-											["熔岩烈焰"] = 17245,
 											["萨塔里奥"] = 113914,
+											["熔岩烈焰"] = 17245,
 										},
 										["n_dmg"] = 18086,
 										["n_min"] = 687,
 										["g_dmg"] = 31453,
 										["counter"] = 180,
-										["DODGE"] = 4,
+										["r_amt"] = 0,
 										["total"] = 251904,
 										["c_max"] = 4077,
-										["a_dmg"] = 0,
+										["b_dmg"] = 2095,
 										["id"] = 1,
 										["r_dmg"] = 0,
 										["MISS"] = 14,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
 										["extra"] = {
 										},
 										["PARRY"] = 3,
 										["c_min"] = 1094,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
 										["n_amt"] = 21,
-										["b_dmg"] = 2095,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["DODGE"] = 4,
 									}, -- [1]
 									[47520] = {
 										["c_amt"] = 20,
@@ -991,8 +1454,8 @@ _detalhes_database = {
 											["塔尼布隆"] = 3493,
 											["沙德隆"] = 24569,
 											["熔岩烈焰"] = 27806,
-											["萨塔里奥"] = 5246,
 											["萨塔里奥暮光雏龙"] = 36766,
+											["萨塔里奥"] = 5246,
 										},
 										["n_dmg"] = 28231,
 										["n_min"] = 1504,
@@ -1002,8 +1465,8 @@ _detalhes_database = {
 										["c_max"] = 4358,
 										["id"] = 47520,
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
 										["PARRY"] = 1,
@@ -1011,8 +1474,8 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 17,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 									},
 									[60203] = {
 										["c_amt"] = 3,
@@ -1033,16 +1496,16 @@ _detalhes_database = {
 										["c_max"] = 3636,
 										["id"] = 60203,
 										["r_dmg"] = 10144,
-										["spellschool"] = 32,
-										["extra"] = {
-										},
+										["r_amt"] = 4,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 3174,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 5,
-										["b_dmg"] = 0,
-										["r_amt"] = 4,
+										["extra"] = {
+										},
+										["spellschool"] = 32,
 									},
 									[23881] = {
 										["c_amt"] = 34,
@@ -1055,8 +1518,8 @@ _detalhes_database = {
 											["沙德隆的追随者"] = 5618,
 											["沙德隆"] = 49275,
 											["萨塔里奥暮光雏龙"] = 15739,
-											["熔岩烈焰"] = 13092,
 											["萨塔里奥"] = 95137,
+											["熔岩烈焰"] = 13092,
 										},
 										["n_dmg"] = 57033,
 										["n_min"] = 1213,
@@ -1066,8 +1529,8 @@ _detalhes_database = {
 										["c_max"] = 5585,
 										["id"] = 23881,
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["r_amt"] = 0,
+										["b_dmg"] = 1213,
 										["extra"] = {
 										},
 										["PARRY"] = 1,
@@ -1075,36 +1538,41 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 28,
-										["b_dmg"] = 1213,
-										["r_amt"] = 0,
-									},
-									[50783] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 4306,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["萨塔里奥"] = 4306,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 4306,
-										["c_max"] = 4306,
-										["id"] = 50783,
-										["r_dmg"] = 0,
 										["spellschool"] = 1,
-										["extra"] = {
-										},
 										["a_dmg"] = 0,
-										["c_min"] = 4306,
+									},
+									[12721] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1251,
+										["targets"] = {
+											["塔尼布隆"] = 23396,
+											["沙德隆的追随者"] = 2826,
+											["沙德隆"] = 36367,
+											["萨塔里奥暮光雏龙"] = 17875,
+											["萨塔里奥"] = 68025,
+											["熔岩烈焰"] = 15615,
+										},
+										["n_dmg"] = 164104,
+										["n_min"] = 68,
+										["g_dmg"] = 0,
+										["counter"] = 413,
+										["total"] = 164104,
+										["c_max"] = 0,
+										["id"] = 12721,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["n_amt"] = 413,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[56350] = {
 										["c_amt"] = 0,
@@ -1126,50 +1594,17 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 56350,
 										["r_dmg"] = 2581,
-										["IMMUNE"] = 1,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 6,
-										["b_dmg"] = 0,
 										["r_amt"] = 2,
-									},
-									[12721] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1251,
-										["targets"] = {
-											["塔尼布隆"] = 23396,
-											["沙德隆的追随者"] = 2826,
-											["沙德隆"] = 36367,
-											["萨塔里奥暮光雏龙"] = 17875,
-											["熔岩烈焰"] = 15615,
-											["萨塔里奥"] = 68025,
-										},
-										["n_dmg"] = 164104,
-										["n_min"] = 68,
-										["g_dmg"] = 0,
-										["counter"] = 413,
-										["total"] = 164104,
-										["c_max"] = 0,
-										["id"] = 12721,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 413,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 6,
+										["spellschool"] = 4,
+										["IMMUNE"] = 1,
 									},
 									[34428] = {
 										["c_amt"] = 0,
@@ -1189,45 +1624,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 34428,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[54043] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 175,
-										["targets"] = {
-											["萨塔里奥暮光雏龙"] = 874,
-											["熔岩烈焰"] = 681,
-										},
-										["n_dmg"] = 1555,
-										["n_min"] = 157,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 1555,
-										["c_max"] = 0,
-										["id"] = 54043,
-										["r_dmg"] = 0,
-										["spellschool"] = 2,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 9,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
 									},
 									[44949] = {
 										["c_amt"] = 30,
@@ -1240,30 +1646,96 @@ _detalhes_database = {
 											["沙德隆的追随者"] = 1560,
 											["沙德隆"] = 23971,
 											["萨塔里奥"] = 19466,
-											["萨塔里奥暮光雏龙"] = 21767,
 											["熔岩烈焰"] = 28810,
+											["萨塔里奥暮光雏龙"] = 21767,
 										},
 										["n_dmg"] = 37834,
 										["n_min"] = 866,
 										["g_dmg"] = 0,
 										["counter"] = 76,
-										["DODGE"] = 3,
+										["r_amt"] = 0,
 										["total"] = 102830,
 										["c_max"] = 2802,
-										["IMMUNE"] = 4,
+										["b_dmg"] = 0,
 										["id"] = 44949,
 										["r_dmg"] = 0,
 										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
 										["extra"] = {
 										},
 										["PARRY"] = 1,
 										["c_min"] = 530,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
 										["n_amt"] = 38,
-										["b_dmg"] = 0,
+										["IMMUNE"] = 4,
+										["DODGE"] = 3,
+									},
+									[20253] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 664,
+										["g_amt"] = 0,
+										["n_max"] = 404,
+										["targets"] = {
+											["塔尼布隆"] = 403,
+											["萨塔里奥"] = 1068,
+											["沙德隆"] = 403,
+										},
+										["n_dmg"] = 1210,
+										["n_min"] = 403,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 1874,
+										["c_max"] = 664,
+										["id"] = 20253,
+										["r_dmg"] = 0,
 										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 664,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[1680] = {
+										["c_amt"] = 39,
+										["b_amt"] = 2,
+										["c_dmg"] = 145088,
+										["g_amt"] = 0,
+										["n_max"] = 2147,
+										["targets"] = {
+											["塔尼布隆"] = 14273,
+											["沙德隆的追随者"] = 1118,
+											["沙德隆"] = 35021,
+											["萨塔里奥"] = 32123,
+											["熔岩烈焰"] = 67885,
+											["萨塔里奥暮光雏龙"] = 38041,
+										},
+										["n_dmg"] = 43373,
+										["n_min"] = 1118,
+										["g_dmg"] = 0,
+										["counter"] = 76,
+										["r_amt"] = 0,
+										["total"] = 188461,
+										["c_max"] = 5480,
+										["b_dmg"] = 2807,
+										["id"] = 1680,
+										["r_dmg"] = 0,
+										["DODGE"] = 2,
+										["a_amt"] = 0,
+										["extra"] = {
+										},
+										["PARRY"] = 4,
+										["c_min"] = 3243,
+										["successful_casted"] = 0,
+										["spellschool"] = 1,
+										["n_amt"] = 27,
+										["IMMUNE"] = 4,
+										["a_dmg"] = 0,
 									},
 									[47450] = {
 										["c_amt"] = 12,
@@ -1286,8 +1758,8 @@ _detalhes_database = {
 										["c_max"] = 5260,
 										["id"] = 47450,
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
 										["PARRY"] = 1,
@@ -1295,38 +1767,37 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 14,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[20253] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 664,
-										["g_amt"] = 0,
-										["n_max"] = 404,
-										["targets"] = {
-											["塔尼布隆"] = 403,
-											["萨塔里奥"] = 1068,
-											["沙德隆"] = 403,
-										},
-										["n_dmg"] = 1210,
-										["n_min"] = 403,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 1874,
-										["c_max"] = 664,
-										["id"] = 20253,
-										["r_dmg"] = 0,
 										["spellschool"] = 1,
-										["extra"] = {
-										},
 										["a_dmg"] = 0,
-										["c_min"] = 664,
+									},
+									[54043] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 175,
+										["targets"] = {
+											["萨塔里奥暮光雏龙"] = 874,
+											["熔岩烈焰"] = 681,
+										},
+										["n_dmg"] = 1555,
+										["n_min"] = 157,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 1555,
+										["c_max"] = 0,
+										["id"] = 54043,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["n_amt"] = 9,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
 									},
 									[20647] = {
 										["c_amt"] = 4,
@@ -1347,101 +1818,93 @@ _detalhes_database = {
 										["c_max"] = 5439,
 										["id"] = 20647,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 4598,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 8,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[1680] = {
-										["c_amt"] = 39,
-										["b_amt"] = 2,
-										["c_dmg"] = 145088,
-										["g_amt"] = 0,
-										["n_max"] = 2147,
-										["targets"] = {
-											["塔尼布隆"] = 14273,
-											["沙德隆的追随者"] = 1118,
-											["沙德隆"] = 35021,
-											["萨塔里奥"] = 32123,
-											["萨塔里奥暮光雏龙"] = 38041,
-											["熔岩烈焰"] = 67885,
-										},
-										["n_dmg"] = 43373,
-										["n_min"] = 1118,
-										["g_dmg"] = 0,
-										["counter"] = 76,
-										["a_dmg"] = 0,
-										["total"] = 188461,
-										["c_max"] = 5480,
-										["IMMUNE"] = 4,
-										["id"] = 1680,
-										["r_dmg"] = 0,
-										["DODGE"] = 2,
-										["spellschool"] = 1,
 										["extra"] = {
 										},
-										["PARRY"] = 4,
-										["c_min"] = 3243,
+										["spellschool"] = 1,
+									},
+									[50783] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 4306,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["萨塔里奥"] = 4306,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 4306,
+										["c_max"] = 4306,
+										["id"] = 50783,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 4306,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 27,
-										["b_dmg"] = 2807,
-										["r_amt"] = 0,
+										["n_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
-							["serial"] = "Player-4778-04AC8F71",
-							["last_dps"] = 3196.036458768593,
-							["custom"] = 0,
-							["last_event"] = 1666100940,
-							["damage_taken"] = 59031.006456,
-							["start_time"] = 1666100576,
-							["delay"] = 0,
+							["classe"] = "WARRIOR",
 							["tipo"] = 1,
+							["spec"] = 72,
+							["colocacao"] = 3,
+							["last_event"] = 1666100940,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1666100576,
+							["serial"] = "Player-4778-04AC8F71",
+							["damage_taken"] = 59031.006456,
 						}, -- [3]
 						{
 							["flag_original"] = 1300,
 							["totalabsorbed"] = 0.004373,
 							["damage_from"] = {
-								["暮光传送门"] = true,
 								["火焰旋风"] = true,
+								["暮光传送门"] = true,
 							},
 							["targets"] = {
 								["塔尼布隆"] = 219631,
 								["沙德隆的追随者"] = 13185,
 								["沙德隆"] = 185417,
 								["萨塔里奥暮光雏龙"] = 167800,
-								["熔岩烈焰"] = 42922,
 								["萨塔里奥"] = 518680,
+								["熔岩烈焰"] = 42922,
 							},
-							["spec"] = 102,
+							["custom"] = 0,
 							["pets"] = {
 								"树人 <踏遍天涯>", -- [1]
 							},
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 3138.779273018478,
 							["boss_fight_component"] = true,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1089154.004373,
-							["end_time"] = 1666100940,
-							["colocacao"] = 4,
+							["on_hold"] = false,
+							["aID"] = "4778-018E44DC",
 							["dps_started"] = false,
 							["total"] = 1147635.004373,
-							["aID"] = "4778-018E44DC",
-							["classe"] = "DRUID",
+							["delay"] = 0,
+							["end_time"] = 1666100940,
 							["nome"] = "踏遍天涯",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -1458,21 +1921,122 @@ _detalhes_database = {
 										["counter"] = 3,
 										["total"] = 0,
 										["c_max"] = 0,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["MISS"] = 2,
+										["b_dmg"] = 0,
 										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["a_amt"] = 0,
 										["PARRY"] = 1,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["extra"] = {
+										},
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["MISS"] = 2,
+										["a_dmg"] = 0,
 									}, -- [1]
+									[53195] = {
+										["c_amt"] = 14,
+										["b_amt"] = 0,
+										["c_dmg"] = 42003,
+										["g_amt"] = 0,
+										["n_max"] = 1962,
+										["targets"] = {
+											["塔尼布隆"] = 6972,
+											["沙德隆"] = 32825,
+											["萨塔里奥"] = 44237,
+											["萨塔里奥暮光雏龙"] = 2787,
+											["熔岩烈焰"] = 8742,
+										},
+										["n_dmg"] = 53560,
+										["n_min"] = 1309,
+										["g_dmg"] = 0,
+										["counter"] = 49,
+										["total"] = 95563,
+										["c_max"] = 3466,
+										["id"] = 53195,
+										["r_dmg"] = 39817,
+										["r_amt"] = 22,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 2388,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 34,
+										["spellschool"] = 64,
+										["MISS"] = 1,
+									},
+									[53190] = {
+										["c_amt"] = 19,
+										["b_amt"] = 0,
+										["c_dmg"] = 18228,
+										["g_amt"] = 0,
+										["n_max"] = 617,
+										["targets"] = {
+											["塔尼布隆"] = 7349,
+											["沙德隆"] = 15519,
+											["萨塔里奥"] = 10748,
+											["萨塔里奥暮光雏龙"] = 1664,
+											["熔岩烈焰"] = 9418,
+										},
+										["n_dmg"] = 26470,
+										["n_min"] = 241,
+										["g_dmg"] = 0,
+										["counter"] = 94,
+										["total"] = 44698,
+										["c_max"] = 1234,
+										["r_amt"] = 34,
+										["id"] = 53190,
+										["r_dmg"] = 16278,
+										["b_dmg"] = 0,
+										["spellschool"] = 64,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 809,
+										["successful_casted"] = 0,
+										["extra"] = {
+										},
+										["n_amt"] = 61,
+										["IMMUNE"] = 12,
+										["MISS"] = 2,
+									},
+									[48466] = {
+										["c_amt"] = 54,
+										["b_amt"] = 0,
+										["c_dmg"] = 82383,
+										["g_amt"] = 0,
+										["n_max"] = 1319,
+										["targets"] = {
+											["塔尼布隆"] = 22157,
+											["沙德隆"] = 38038,
+											["萨塔里奥暮光雏龙"] = 163349,
+											["萨塔里奥"] = 5834,
+											["熔岩烈焰"] = 24762,
+										},
+										["n_dmg"] = 171757,
+										["n_min"] = 765,
+										["g_dmg"] = 0,
+										["counter"] = 230,
+										["total"] = 254140,
+										["c_max"] = 1978,
+										["r_amt"] = 48,
+										["id"] = 48466,
+										["r_dmg"] = 51602,
+										["b_dmg"] = 0,
+										["spellschool"] = 8,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 17,
+										["successful_casted"] = 0,
+										["extra"] = {
+										},
+										["n_amt"] = 162,
+										["MISS"] = 3,
+										["IMMUNE"] = 11,
+									},
 									[48461] = {
 										["c_amt"] = 31,
 										["b_amt"] = 0,
@@ -1493,112 +2057,17 @@ _detalhes_database = {
 										["c_max"] = 9507,
 										["id"] = 48461,
 										["r_dmg"] = 118894,
-										["MISS"] = 1,
-										["spellschool"] = 8,
+										["r_amt"] = 31,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 4162,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["n_amt"] = 64,
-										["b_dmg"] = 0,
-										["r_amt"] = 31,
-									},
-									[48465] = {
-										["c_amt"] = 12,
-										["b_amt"] = 0,
-										["c_dmg"] = 111033,
-										["g_amt"] = 0,
-										["n_max"] = 5993,
-										["targets"] = {
-											["塔尼布隆"] = 31667,
-											["萨塔里奥"] = 83350,
-											["沙德隆"] = 31142,
-										},
-										["n_dmg"] = 35126,
-										["n_min"] = 4513,
-										["g_dmg"] = 0,
-										["counter"] = 19,
-										["total"] = 146159,
-										["c_max"] = 10165,
-										["id"] = 48465,
-										["r_dmg"] = 51445,
-										["spellschool"] = 64,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 7853,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 7,
-										["b_dmg"] = 0,
-										["r_amt"] = 7,
-									},
-									[48466] = {
-										["c_amt"] = 54,
-										["b_amt"] = 0,
-										["c_dmg"] = 82383,
-										["g_amt"] = 0,
-										["n_max"] = 1319,
-										["targets"] = {
-											["塔尼布隆"] = 22157,
-											["沙德隆"] = 38038,
-											["萨塔里奥暮光雏龙"] = 163349,
-											["熔岩烈焰"] = 24762,
-											["萨塔里奥"] = 5834,
-										},
-										["n_dmg"] = 171757,
-										["n_min"] = 765,
-										["g_dmg"] = 0,
-										["counter"] = 230,
-										["total"] = 254140,
-										["c_max"] = 1978,
-										["IMMUNE"] = 11,
-										["id"] = 48466,
-										["r_dmg"] = 51602,
-										["MISS"] = 3,
 										["spellschool"] = 8,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 17,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 162,
-										["b_dmg"] = 0,
-										["r_amt"] = 48,
-									},
-									[48468] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 949,
-										["targets"] = {
-											["塔尼布隆"] = 20591,
-											["萨塔里奥"] = 52205,
-											["沙德隆"] = 9620,
-										},
-										["n_dmg"] = 82416,
-										["n_min"] = 563,
-										["g_dmg"] = 0,
-										["counter"] = 112,
-										["total"] = 82416,
-										["c_max"] = 0,
-										["id"] = 48468,
-										["r_dmg"] = 34295,
-										["MISS"] = 2,
-										["spellschool"] = 8,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 110,
-										["b_dmg"] = 0,
-										["r_amt"] = 50,
+										["MISS"] = 1,
 									},
 									[48463] = {
 										["c_amt"] = 9,
@@ -1620,103 +2089,99 @@ _detalhes_database = {
 										["c_max"] = 2372,
 										["id"] = 48463,
 										["r_dmg"] = 35029,
-										["spellschool"] = 64,
-										["extra"] = {
-										},
+										["r_amt"] = 48,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 1560,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 97,
-										["b_dmg"] = 0,
-										["r_amt"] = 48,
-									},
-									[53190] = {
-										["c_amt"] = 19,
-										["b_amt"] = 0,
-										["c_dmg"] = 18228,
-										["g_amt"] = 0,
-										["n_max"] = 617,
-										["targets"] = {
-											["塔尼布隆"] = 7349,
-											["沙德隆"] = 15519,
-											["萨塔里奥"] = 10748,
-											["熔岩烈焰"] = 9418,
-											["萨塔里奥暮光雏龙"] = 1664,
+										["extra"] = {
 										},
-										["n_dmg"] = 26470,
-										["n_min"] = 241,
+										["spellschool"] = 64,
+									},
+									[48465] = {
+										["c_amt"] = 12,
+										["b_amt"] = 0,
+										["c_dmg"] = 111033,
+										["g_amt"] = 0,
+										["n_max"] = 5993,
+										["targets"] = {
+											["塔尼布隆"] = 31667,
+											["萨塔里奥"] = 83350,
+											["沙德隆"] = 31142,
+										},
+										["n_dmg"] = 35126,
+										["n_min"] = 4513,
 										["g_dmg"] = 0,
-										["counter"] = 94,
-										["total"] = 44698,
-										["c_max"] = 1234,
+										["counter"] = 19,
+										["total"] = 146159,
+										["c_max"] = 10165,
+										["id"] = 48465,
+										["r_dmg"] = 51445,
+										["r_amt"] = 7,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 7853,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 7,
+										["extra"] = {
+										},
+										["spellschool"] = 64,
+									},
+									[48468] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 949,
+										["targets"] = {
+											["塔尼布隆"] = 20591,
+											["萨塔里奥"] = 52205,
+											["沙德隆"] = 9620,
+										},
+										["n_dmg"] = 82416,
+										["n_min"] = 563,
+										["g_dmg"] = 0,
+										["counter"] = 112,
+										["total"] = 82416,
+										["c_max"] = 0,
+										["id"] = 48468,
+										["r_dmg"] = 34295,
+										["r_amt"] = 50,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 110,
+										["spellschool"] = 8,
 										["MISS"] = 2,
-										["id"] = 53190,
-										["r_dmg"] = 16278,
-										["IMMUNE"] = 12,
-										["spellschool"] = 64,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 809,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 61,
-										["b_dmg"] = 0,
-										["r_amt"] = 34,
-									},
-									[53195] = {
-										["c_amt"] = 14,
-										["b_amt"] = 0,
-										["c_dmg"] = 42003,
-										["g_amt"] = 0,
-										["n_max"] = 1962,
-										["targets"] = {
-											["塔尼布隆"] = 6972,
-											["沙德隆"] = 32825,
-											["萨塔里奥"] = 44237,
-											["熔岩烈焰"] = 8742,
-											["萨塔里奥暮光雏龙"] = 2787,
-										},
-										["n_dmg"] = 53560,
-										["n_min"] = 1309,
-										["g_dmg"] = 0,
-										["counter"] = 49,
-										["total"] = 95563,
-										["c_max"] = 3466,
-										["id"] = 53195,
-										["r_dmg"] = 39817,
-										["MISS"] = 1,
-										["spellschool"] = 64,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 2388,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 34,
-										["b_dmg"] = 0,
-										["r_amt"] = 22,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
-							["serial"] = "Player-4778-018E44DC",
-							["last_dps"] = 3138.779273018478,
-							["custom"] = 0,
-							["last_event"] = 1666100940,
-							["damage_taken"] = 17507.004373,
-							["start_time"] = 1666100579,
-							["delay"] = 0,
+							["classe"] = "DRUID",
 							["tipo"] = 1,
+							["spec"] = 102,
+							["colocacao"] = 4,
+							["last_event"] = 1666100940,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1666100579,
+							["serial"] = "Player-4778-018E44DC",
+							["damage_taken"] = 17507.004373,
 						}, -- [4]
 						{
 							["flag_original"] = 132372,
 							["totalabsorbed"] = 0.005487,
 							["pets"] = {
 							},
-							["aID"] = "4778-04D9BDE6",
+							["classe"] = "PALADIN",
 							["total_without_pet"] = 1012657.005487,
 							["dps_started"] = false,
 							["total"] = 1012657.005487,
@@ -1731,22 +2196,459 @@ _detalhes_database = {
 								["Just"] = true,
 								["沙德隆"] = true,
 								["萨塔里奥"] = true,
-								["熔岩烈焰"] = true,
-								["暮光裂隙 <塔尼布隆>"] = true,
 								["萨塔里奥暮光雏龙"] = true,
+								["暮光裂隙 <塔尼布隆>"] = true,
+								["熔岩烈焰"] = true,
 							},
 							["targets"] = {
 								["塔尼布隆"] = 156842,
 								["沙德隆"] = 187247,
 								["萨塔里奥"] = 175614,
-								["萨塔里奥暮光雏龙"] = 196855,
 								["熔岩烈焰"] = 296099,
+								["萨塔里奥暮光雏龙"] = 196855,
 							},
-							["boss_fight_component"] = true,
 							["friendlyfire_total"] = 1355,
 							["raid_targets"] = {
 							},
+							["nome"] = "Just",
 							["end_time"] = 1666100940,
+							["last_dps"] = 2769.614735859423,
+							["aID"] = "4778-04D9BDE6",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 36,
+										["b_amt"] = 7,
+										["c_dmg"] = 39749,
+										["g_amt"] = 42,
+										["n_max"] = 690,
+										["targets"] = {
+											["塔尼布隆"] = 28955,
+											["沙德隆"] = 31637,
+											["萨塔里奥"] = 32190,
+											["萨塔里奥暮光雏龙"] = 5525,
+											["熔岩烈焰"] = 13340,
+										},
+										["n_dmg"] = 53696,
+										["b_dmg"] = 3415,
+										["n_min"] = 425,
+										["MISS"] = 2,
+										["counter"] = 192,
+										["r_amt"] = 0,
+										["total"] = 111647,
+										["c_max"] = 1365,
+										["DODGE"] = 4,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+											["extra_attack"] = 16,
+										},
+										["PARRY"] = 9,
+										["c_min"] = 948,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 97,
+										["IMMUNE"] = 2,
+										["g_dmg"] = 18202,
+									}, -- [1]
+									[69403] = {
+										["c_amt"] = 100,
+										["b_amt"] = 21,
+										["c_dmg"] = 64979,
+										["g_amt"] = 0,
+										["n_max"] = 451,
+										["targets"] = {
+											["塔尼布隆"] = 28186,
+											["沙德隆"] = 29888,
+											["萨塔里奥"] = 40206,
+											["熔岩烈焰"] = 64680,
+											["萨塔里奥暮光雏龙"] = 33769,
+										},
+										["n_dmg"] = 131750,
+										["b_dmg"] = 5424,
+										["n_min"] = 159,
+										["g_dmg"] = 0,
+										["counter"] = 547,
+										["r_amt"] = 151,
+										["total"] = 196729,
+										["c_max"] = 846,
+										["a_dmg"] = 0,
+										["id"] = 69403,
+										["r_dmg"] = 53316,
+										["a_amt"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["PARRY"] = 20,
+										["c_min"] = 391,
+										["successful_casted"] = 0,
+										["MISS"] = 8,
+										["n_amt"] = 410,
+										["IMMUNE"] = 6,
+										["DODGE"] = 3,
+									},
+									[53595] = {
+										["c_amt"] = 17,
+										["b_amt"] = 4,
+										["c_dmg"] = 80560,
+										["g_amt"] = 0,
+										["n_max"] = 3192,
+										["targets"] = {
+											["塔尼布隆"] = 31839,
+											["沙德隆"] = 40875,
+											["萨塔里奥"] = 45324,
+											["熔岩烈焰"] = 86151,
+											["萨塔里奥暮光雏龙"] = 51721,
+										},
+										["n_dmg"] = 175350,
+										["n_min"] = 491,
+										["g_dmg"] = 0,
+										["counter"] = 90,
+										["total"] = 255910,
+										["c_max"] = 5746,
+										["id"] = 53595,
+										["r_dmg"] = 80822,
+										["r_amt"] = 31,
+										["b_dmg"] = 16871,
+										["a_dmg"] = 0,
+										["c_min"] = 545,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 73,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[67485] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 3762,
+										["g_amt"] = 0,
+										["n_max"] = 2970,
+										["targets"] = {
+											["塔尼布隆"] = 2508,
+											["熔岩烈焰"] = 5294,
+											["沙德隆"] = 3762,
+										},
+										["n_dmg"] = 7802,
+										["n_min"] = 2324,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 11564,
+										["c_max"] = 3762,
+										["id"] = 67485,
+										["r_dmg"] = 2324,
+										["r_amt"] = 1,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 3762,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[61411] = {
+										["c_amt"] = 4,
+										["b_amt"] = 1,
+										["c_dmg"] = 20213,
+										["g_amt"] = 0,
+										["n_max"] = 3114,
+										["targets"] = {
+											["塔尼布隆"] = 14823,
+											["沙德隆"] = 12473,
+											["萨塔里奥"] = 21967,
+											["萨塔里奥暮光雏龙"] = 2159,
+											["熔岩烈焰"] = 14036,
+										},
+										["n_dmg"] = 45245,
+										["n_min"] = 1999,
+										["g_dmg"] = 0,
+										["counter"] = 25,
+										["total"] = 65458,
+										["c_max"] = 6227,
+										["r_amt"] = 8,
+										["id"] = 61411,
+										["r_dmg"] = 20703,
+										["b_dmg"] = 6151,
+										["spellschool"] = 2,
+										["a_amt"] = 0,
+										["PARRY"] = 3,
+										["c_min"] = 2159,
+										["successful_casted"] = 0,
+										["extra"] = {
+										},
+										["n_amt"] = 17,
+										["a_dmg"] = 0,
+										["DODGE"] = 1,
+									},
+									[48819] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 488,
+										["targets"] = {
+											["塔尼布隆"] = 25612,
+											["沙德隆"] = 36447,
+											["萨塔里奥暮光雏龙"] = 65854,
+											["萨塔里奥"] = 26324,
+											["熔岩烈焰"] = 66091,
+										},
+										["n_dmg"] = 220328,
+										["n_min"] = 85,
+										["g_dmg"] = 0,
+										["counter"] = 618,
+										["total"] = 220328,
+										["c_max"] = 0,
+										["r_amt"] = 158,
+										["id"] = 48819,
+										["r_dmg"] = 55822,
+										["b_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["extra"] = {
+										},
+										["n_amt"] = 575,
+										["IMMUNE"] = 41,
+										["MISS"] = 2,
+									},
+									[48827] = {
+										["c_amt"] = 5,
+										["b_amt"] = 0,
+										["c_dmg"] = 18880,
+										["g_amt"] = 0,
+										["n_max"] = 2069,
+										["targets"] = {
+											["塔尼布隆"] = 7206,
+											["沙德隆"] = 9376,
+											["熔岩烈焰"] = 20432,
+											["萨塔里奥暮光雏龙"] = 8965,
+											["萨塔里奥"] = 1880,
+										},
+										["n_dmg"] = 28979,
+										["n_min"] = 1263,
+										["g_dmg"] = 0,
+										["counter"] = 22,
+										["total"] = 47859,
+										["c_max"] = 4545,
+										["id"] = 48827,
+										["r_dmg"] = 8065,
+										["r_amt"] = 5,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 3207,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 17,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[48806] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1791,
+										["targets"] = {
+											["萨塔里奥暮光雏龙"] = 1719,
+											["熔岩烈焰"] = 1718,
+											["塔尼布隆"] = 1791,
+											["沙德隆"] = 1739,
+										},
+										["n_dmg"] = 6967,
+										["n_min"] = 1718,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 6967,
+										["c_max"] = 0,
+										["id"] = 48806,
+										["r_dmg"] = 3530,
+										["r_amt"] = 2,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 4,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[63529] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["塔尼布隆"] = 0,
+											["萨塔里奥"] = 0,
+											["沙德隆"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 63529,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 1,
+										["IMMUNE"] = 9,
+									},
+									[48952] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 962,
+										["targets"] = {
+											["熔岩烈焰"] = 13251,
+											["塔尼布隆"] = 4330,
+											["萨塔里奥暮光雏龙"] = 22037,
+											["沙德隆"] = 10300,
+										},
+										["n_dmg"] = 49918,
+										["n_min"] = 44,
+										["g_dmg"] = 0,
+										["counter"] = 64,
+										["total"] = 49918,
+										["c_max"] = 0,
+										["id"] = 48952,
+										["r_dmg"] = 8245,
+										["r_amt"] = 11,
+										["b_dmg"] = 0,
+										["n_amt"] = 61,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["RESIST"] = 3,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[54043] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 301,
+										["targets"] = {
+											["熔岩烈焰"] = 4951,
+											["塔尼布隆"] = 4739,
+											["萨塔里奥暮光雏龙"] = 4305,
+											["沙德隆"] = 3149,
+										},
+										["n_dmg"] = 17144,
+										["n_min"] = 185,
+										["g_dmg"] = 0,
+										["counter"] = 75,
+										["total"] = 17144,
+										["c_max"] = 0,
+										["id"] = 54043,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 73,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["RESIST"] = 2,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[26017] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["塔尼布隆"] = 0,
+											["萨塔里奥"] = 0,
+											["沙德隆"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 26017,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 2,
+										["MISS"] = 5,
+									},
+									[20467] = {
+										["c_amt"] = 7,
+										["b_amt"] = 0,
+										["c_dmg"] = 11303,
+										["g_amt"] = 0,
+										["n_max"] = 914,
+										["targets"] = {
+											["塔尼布隆"] = 6853,
+											["沙德隆"] = 7601,
+											["萨塔里奥暮光雏龙"] = 801,
+											["熔岩烈焰"] = 6155,
+											["萨塔里奥"] = 7723,
+										},
+										["n_dmg"] = 17830,
+										["n_min"] = 639,
+										["g_dmg"] = 0,
+										["counter"] = 29,
+										["total"] = 29133,
+										["c_max"] = 1811,
+										["id"] = 20467,
+										["r_dmg"] = 7533,
+										["r_amt"] = 7,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 1241,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 22,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["last_event"] = 1666100939,
+							["damage_taken"] = 430462.005487,
+							["custom"] = 0,
+							["tipo"] = 1,
 							["avoidance"] = {
 								["塔尼布隆"] = {
 									["DODGE"] = 12,
@@ -1828,21 +2730,21 @@ _detalhes_database = {
 									["HITS"] = 49,
 									["FULL_HIT_AMT"] = 54928,
 								},
-								["萨塔里奥暮光雏龙"] = {
-									["DODGE"] = 43,
-									["FULL_ABSORB_AMT"] = 9965,
-									["BLOCKED_AMT"] = 1383,
-									["BLOCKED_HITS"] = 1,
-									["FULL_ABSORBED"] = 10,
-									["ALL"] = 40,
-									["PARTIAL_ABSORBED"] = 2,
-									["PARRY"] = 17,
-									["PARTIAL_ABSORB_AMT"] = 1203,
-									["ABSORB"] = 12,
-									["ABSORB_AMT"] = 11168,
-									["FULL_HIT"] = 28,
-									["HITS"] = 30,
-									["FULL_HIT_AMT"] = 30653,
+								["萨塔里奥"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 2,
+									["PARTIAL_ABSORBED"] = 1,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 126,
+									["ABSORB"] = 1,
+									["ABSORB_AMT"] = 126,
+									["FULL_HIT"] = 1,
+									["HITS"] = 0,
+									["FULL_HIT_AMT"] = 11831,
 								},
 								["暮光裂隙 <塔尼布隆>"] = {
 									["DODGE"] = 0,
@@ -1860,476 +2762,39 @@ _detalhes_database = {
 									["HITS"] = 0,
 									["FULL_HIT_AMT"] = 0,
 								},
-								["萨塔里奥"] = {
-									["DODGE"] = 0,
-									["FULL_ABSORB_AMT"] = 0,
-									["BLOCKED_AMT"] = 0,
-									["BLOCKED_HITS"] = 0,
-									["FULL_ABSORBED"] = 0,
-									["ALL"] = 2,
-									["PARTIAL_ABSORBED"] = 1,
-									["PARRY"] = 0,
-									["PARTIAL_ABSORB_AMT"] = 126,
-									["ABSORB"] = 1,
-									["ABSORB_AMT"] = 126,
-									["FULL_HIT"] = 1,
-									["HITS"] = 0,
-									["FULL_HIT_AMT"] = 11831,
+								["萨塔里奥暮光雏龙"] = {
+									["DODGE"] = 43,
+									["FULL_ABSORB_AMT"] = 9965,
+									["BLOCKED_AMT"] = 1383,
+									["BLOCKED_HITS"] = 1,
+									["FULL_ABSORBED"] = 10,
+									["ALL"] = 40,
+									["PARTIAL_ABSORBED"] = 2,
+									["PARRY"] = 17,
+									["PARTIAL_ABSORB_AMT"] = 1203,
+									["ABSORB"] = 12,
+									["ABSORB_AMT"] = 11168,
+									["FULL_HIT"] = 28,
+									["HITS"] = 30,
+									["FULL_HIT_AMT"] = 30653,
 								},
 							},
+							["start_time"] = 1666100578,
+							["delay"] = 0,
 							["friendlyfire"] = {
 								["Just"] = {
+									["total"] = 1355,
 									["spells"] = {
 										[57634] = 1355,
 									},
-									["total"] = 1355,
 								},
 								["凸凸凹"] = {
+									["total"] = 0,
 									["spells"] = {
 										[64205] = 0,
 									},
-									["total"] = 0,
 								},
 							},
-							["nome"] = "Just",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 36,
-										["b_amt"] = 7,
-										["c_dmg"] = 39749,
-										["g_amt"] = 42,
-										["n_max"] = 690,
-										["targets"] = {
-											["塔尼布隆"] = 28955,
-											["沙德隆"] = 31637,
-											["萨塔里奥"] = 32190,
-											["熔岩烈焰"] = 13340,
-											["萨塔里奥暮光雏龙"] = 5525,
-										},
-										["n_dmg"] = 53696,
-										["MISS"] = 2,
-										["n_min"] = 425,
-										["g_dmg"] = 18202,
-										["counter"] = 192,
-										["IMMUNE"] = 2,
-										["total"] = 111647,
-										["c_max"] = 1365,
-										["DODGE"] = 4,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-											["extra_attack"] = 16,
-										},
-										["PARRY"] = 9,
-										["c_min"] = 948,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 97,
-										["b_dmg"] = 3415,
-										["r_amt"] = 0,
-									}, -- [1]
-									[69403] = {
-										["c_amt"] = 100,
-										["b_amt"] = 21,
-										["c_dmg"] = 64979,
-										["g_amt"] = 0,
-										["n_max"] = 451,
-										["targets"] = {
-											["塔尼布隆"] = 28186,
-											["沙德隆"] = 29888,
-											["萨塔里奥"] = 40206,
-											["萨塔里奥暮光雏龙"] = 33769,
-											["熔岩烈焰"] = 64680,
-										},
-										["n_dmg"] = 131750,
-										["DODGE"] = 3,
-										["n_min"] = 159,
-										["g_dmg"] = 0,
-										["counter"] = 547,
-										["IMMUNE"] = 6,
-										["total"] = 196729,
-										["c_max"] = 846,
-										["a_dmg"] = 0,
-										["id"] = 69403,
-										["r_dmg"] = 53316,
-										["MISS"] = 8,
-										["spellschool"] = 2,
-										["extra"] = {
-										},
-										["PARRY"] = 20,
-										["c_min"] = 391,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 410,
-										["b_dmg"] = 5424,
-										["r_amt"] = 151,
-									},
-									[53595] = {
-										["c_amt"] = 17,
-										["b_amt"] = 4,
-										["c_dmg"] = 80560,
-										["g_amt"] = 0,
-										["n_max"] = 3192,
-										["targets"] = {
-											["塔尼布隆"] = 31839,
-											["沙德隆"] = 40875,
-											["萨塔里奥"] = 45324,
-											["萨塔里奥暮光雏龙"] = 51721,
-											["熔岩烈焰"] = 86151,
-										},
-										["n_dmg"] = 175350,
-										["n_min"] = 491,
-										["g_dmg"] = 0,
-										["counter"] = 90,
-										["total"] = 255910,
-										["c_max"] = 5746,
-										["id"] = 53595,
-										["r_dmg"] = 80822,
-										["spellschool"] = 2,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 545,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 73,
-										["b_dmg"] = 16871,
-										["r_amt"] = 31,
-									},
-									[67485] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 3762,
-										["g_amt"] = 0,
-										["n_max"] = 2970,
-										["targets"] = {
-											["塔尼布隆"] = 2508,
-											["熔岩烈焰"] = 5294,
-											["沙德隆"] = 3762,
-										},
-										["n_dmg"] = 7802,
-										["n_min"] = 2324,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 11564,
-										["c_max"] = 3762,
-										["id"] = 67485,
-										["r_dmg"] = 2324,
-										["spellschool"] = 2,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 3762,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 1,
-									},
-									[61411] = {
-										["c_amt"] = 4,
-										["b_amt"] = 1,
-										["c_dmg"] = 20213,
-										["g_amt"] = 0,
-										["n_max"] = 3114,
-										["targets"] = {
-											["塔尼布隆"] = 14823,
-											["沙德隆"] = 12473,
-											["萨塔里奥"] = 21967,
-											["熔岩烈焰"] = 14036,
-											["萨塔里奥暮光雏龙"] = 2159,
-										},
-										["n_dmg"] = 45245,
-										["n_min"] = 1999,
-										["g_dmg"] = 0,
-										["counter"] = 25,
-										["total"] = 65458,
-										["c_max"] = 6227,
-										["DODGE"] = 1,
-										["id"] = 61411,
-										["r_dmg"] = 20703,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
-										["extra"] = {
-										},
-										["PARRY"] = 3,
-										["c_min"] = 2159,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 17,
-										["b_dmg"] = 6151,
-										["r_amt"] = 8,
-									},
-									[48819] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 488,
-										["targets"] = {
-											["塔尼布隆"] = 25612,
-											["沙德隆"] = 36447,
-											["萨塔里奥暮光雏龙"] = 65854,
-											["熔岩烈焰"] = 66091,
-											["萨塔里奥"] = 26324,
-										},
-										["n_dmg"] = 220328,
-										["n_min"] = 85,
-										["g_dmg"] = 0,
-										["counter"] = 618,
-										["total"] = 220328,
-										["c_max"] = 0,
-										["MISS"] = 2,
-										["id"] = 48819,
-										["r_dmg"] = 55822,
-										["IMMUNE"] = 41,
-										["spellschool"] = 2,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 575,
-										["b_dmg"] = 0,
-										["r_amt"] = 158,
-									},
-									[48827] = {
-										["c_amt"] = 5,
-										["b_amt"] = 0,
-										["c_dmg"] = 18880,
-										["g_amt"] = 0,
-										["n_max"] = 2069,
-										["targets"] = {
-											["塔尼布隆"] = 7206,
-											["沙德隆"] = 9376,
-											["熔岩烈焰"] = 20432,
-											["萨塔里奥"] = 1880,
-											["萨塔里奥暮光雏龙"] = 8965,
-										},
-										["n_dmg"] = 28979,
-										["n_min"] = 1263,
-										["g_dmg"] = 0,
-										["counter"] = 22,
-										["total"] = 47859,
-										["c_max"] = 4545,
-										["id"] = 48827,
-										["r_dmg"] = 8065,
-										["spellschool"] = 2,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 3207,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 17,
-										["b_dmg"] = 0,
-										["r_amt"] = 5,
-									},
-									[48806] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1791,
-										["targets"] = {
-											["萨塔里奥暮光雏龙"] = 1719,
-											["熔岩烈焰"] = 1718,
-											["塔尼布隆"] = 1791,
-											["沙德隆"] = 1739,
-										},
-										["n_dmg"] = 6967,
-										["n_min"] = 1718,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 6967,
-										["c_max"] = 0,
-										["id"] = 48806,
-										["r_dmg"] = 3530,
-										["spellschool"] = 2,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 4,
-										["b_dmg"] = 0,
-										["r_amt"] = 2,
-									},
-									[63529] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["塔尼布隆"] = 0,
-											["萨塔里奥"] = 0,
-											["沙德隆"] = 0,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 63529,
-										["r_dmg"] = 0,
-										["IMMUNE"] = 9,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[26017] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["塔尼布隆"] = 0,
-											["萨塔里奥"] = 0,
-											["沙德隆"] = 0,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 26017,
-										["r_dmg"] = 0,
-										["MISS"] = 5,
-										["spellschool"] = 2,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[54043] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 301,
-										["targets"] = {
-											["熔岩烈焰"] = 4951,
-											["塔尼布隆"] = 4739,
-											["萨塔里奥暮光雏龙"] = 4305,
-											["沙德隆"] = 3149,
-										},
-										["n_dmg"] = 17144,
-										["n_min"] = 185,
-										["g_dmg"] = 0,
-										["counter"] = 75,
-										["total"] = 17144,
-										["c_max"] = 0,
-										["id"] = 54043,
-										["r_dmg"] = 0,
-										["RESIST"] = 2,
-										["spellschool"] = 2,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 73,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[20467] = {
-										["c_amt"] = 7,
-										["b_amt"] = 0,
-										["c_dmg"] = 11303,
-										["g_amt"] = 0,
-										["n_max"] = 914,
-										["targets"] = {
-											["塔尼布隆"] = 6853,
-											["沙德隆"] = 7601,
-											["萨塔里奥暮光雏龙"] = 801,
-											["萨塔里奥"] = 7723,
-											["熔岩烈焰"] = 6155,
-										},
-										["n_dmg"] = 17830,
-										["n_min"] = 639,
-										["g_dmg"] = 0,
-										["counter"] = 29,
-										["total"] = 29133,
-										["c_max"] = 1811,
-										["id"] = 20467,
-										["r_dmg"] = 7533,
-										["spellschool"] = 2,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 1241,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 22,
-										["b_dmg"] = 0,
-										["r_amt"] = 7,
-									},
-									[48952] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 962,
-										["targets"] = {
-											["熔岩烈焰"] = 13251,
-											["塔尼布隆"] = 4330,
-											["萨塔里奥暮光雏龙"] = 22037,
-											["沙德隆"] = 10300,
-										},
-										["n_dmg"] = 49918,
-										["n_min"] = 44,
-										["g_dmg"] = 0,
-										["counter"] = 64,
-										["total"] = 49918,
-										["c_max"] = 0,
-										["id"] = 48952,
-										["r_dmg"] = 8245,
-										["RESIST"] = 3,
-										["spellschool"] = 2,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 61,
-										["b_dmg"] = 0,
-										["r_amt"] = 11,
-									},
-								},
-							},
-							["grupo"] = true,
-							["classe"] = "PALADIN",
-							["last_dps"] = 2769.614735859423,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 430462.005487,
-							["start_time"] = 1666100578,
-							["delay"] = 0,
-							["last_event"] = 1666100939,
 						}, -- [5]
 						{
 							["flag_original"] = 1298,
@@ -2350,34 +2815,26 @@ _detalhes_database = {
 								["沙德隆的追随者"] = 28813,
 								["沙德隆"] = 164121,
 								["萨塔里奥"] = 412282,
-								["萨塔里奥暮光雏龙"] = 76880,
 								["熔岩烈焰"] = 95723,
+								["萨塔里奥暮光雏龙"] = 76880,
 							},
-							["spec"] = 70,
+							["custom"] = 0,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-								["魂之信仰"] = {
-									["spells"] = {
-										[57634] = 783,
-									},
-									["total"] = 783,
-								},
-							},
+							["last_dps"] = 2582.174390853116,
 							["boss_fight_component"] = true,
 							["friendlyfire_total"] = 783,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 944123.004702,
-							["end_time"] = 1666100940,
-							["colocacao"] = 6,
+							["on_hold"] = false,
+							["aID"] = "4778-0520EB5E",
 							["dps_started"] = false,
 							["total"] = 944123.004702,
-							["aID"] = "4778-0520EB5E",
-							["classe"] = "PALADIN",
+							["delay"] = 0,
+							["end_time"] = 1666100940,
 							["nome"] = "魂之信仰",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 32,
@@ -2390,8 +2847,8 @@ _detalhes_database = {
 											["沙德隆的追随者"] = 5775,
 											["沙德隆"] = 25137,
 											["萨塔里奥暮光雏龙"] = 6399,
-											["熔岩烈焰"] = 12869,
 											["萨塔里奥"] = 76377,
+											["熔岩烈焰"] = 12869,
 										},
 										["n_dmg"] = 37744,
 										["n_min"] = 664,
@@ -2399,20 +2856,20 @@ _detalhes_database = {
 										["counter"] = 96,
 										["total"] = 159807,
 										["c_max"] = 3532,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["DODGE"] = 5,
+										["b_dmg"] = 0,
 										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["a_amt"] = 0,
 										["PARRY"] = 3,
 										["c_min"] = 2035,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["extra"] = {
+										},
 										["n_amt"] = 28,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["DODGE"] = 5,
+										["a_dmg"] = 0,
 									}, -- [1]
 									[53385] = {
 										["c_amt"] = 20,
@@ -2425,30 +2882,30 @@ _detalhes_database = {
 											["沙德隆的追随者"] = 3366,
 											["沙德隆"] = 22409,
 											["萨塔里奥"] = 24780,
-											["萨塔里奥暮光雏龙"] = 25040,
 											["熔岩烈焰"] = 44360,
+											["萨塔里奥暮光雏龙"] = 25040,
 										},
 										["n_dmg"] = 63566,
 										["n_min"] = 1131,
 										["g_dmg"] = 0,
 										["counter"] = 68,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["total"] = 131517,
 										["c_max"] = 4198,
-										["IMMUNE"] = 4,
+										["b_dmg"] = 0,
 										["id"] = 53385,
 										["r_dmg"] = 0,
 										["DODGE"] = 3,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
 										["extra"] = {
 										},
 										["PARRY"] = 2,
 										["c_min"] = 2235,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
 										["n_amt"] = 39,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["IMMUNE"] = 4,
+										["a_dmg"] = 0,
 									},
 									[27173] = {
 										["c_amt"] = 0,
@@ -2460,8 +2917,8 @@ _detalhes_database = {
 											["塔尼布隆"] = 3531,
 											["沙德隆"] = 4079,
 											["萨塔里奥"] = 6543,
-											["熔岩烈焰"] = 3644,
 											["萨塔里奥暮光雏龙"] = 25435,
+											["熔岩烈焰"] = 3644,
 										},
 										["n_dmg"] = 43232,
 										["n_min"] = 34,
@@ -2471,305 +2928,17 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 27173,
 										["r_dmg"] = 10224,
-										["IMMUNE"] = 3,
-										["spellschool"] = 2,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 133,
-										["b_dmg"] = 0,
 										["r_amt"] = 34,
-									},
-									[10308] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["沙德隆的追随者"] = 0,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 10308,
-										["r_dmg"] = 0,
-										["IMMUNE"] = 1,
-										["spellschool"] = 2,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[61840] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1314,
-										["targets"] = {
-											["塔尼布隆"] = 6907,
-											["沙德隆的追随者"] = 1083,
-											["沙德隆"] = 10773,
-											["萨塔里奥"] = 24482,
-											["熔岩烈焰"] = 4646,
-											["萨塔里奥暮光雏龙"] = 3278,
-										},
-										["n_dmg"] = 51169,
-										["n_min"] = 166,
-										["g_dmg"] = 0,
-										["counter"] = 131,
-										["total"] = 51169,
-										["c_max"] = 0,
-										["id"] = 61840,
-										["r_dmg"] = 19173,
+										["a_dmg"] = 0,
+										["n_amt"] = 133,
 										["spellschool"] = 2,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 131,
-										["b_dmg"] = 0,
-										["r_amt"] = 51,
-									},
-									[32747] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["沙德隆的追随者"] = 0,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 32747,
-										["r_dmg"] = 0,
-										["IMMUNE"] = 1,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[48806] = {
-										["c_amt"] = 5,
-										["b_amt"] = 0,
-										["c_dmg"] = 17662,
-										["g_amt"] = 0,
-										["n_max"] = 2555,
-										["targets"] = {
-											["塔尼布隆"] = 3625,
-											["萨塔里奥"] = 8947,
-											["熔岩烈焰"] = 6441,
-											["萨塔里奥暮光雏龙"] = 3231,
-										},
-										["n_dmg"] = 4582,
-										["n_min"] = 2027,
-										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 22244,
-										["c_max"] = 4365,
-										["id"] = 48806,
-										["r_dmg"] = 10017,
-										["spellschool"] = 2,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 2254,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 3,
-									},
-									[54043] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 302,
-										["targets"] = {
-											["萨塔里奥暮光雏龙"] = 490,
-											["沙德隆的追随者"] = 546,
-											["熔岩烈焰"] = 2021,
-										},
-										["n_dmg"] = 3057,
-										["n_min"] = 162,
-										["g_dmg"] = 0,
-										["counter"] = 12,
-										["total"] = 3057,
-										["c_max"] = 0,
-										["id"] = 54043,
-										["r_dmg"] = 0,
-										["spellschool"] = 2,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 12,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[42463] = {
-										["c_amt"] = 57,
-										["b_amt"] = 0,
-										["c_dmg"] = 81187,
-										["g_amt"] = 0,
-										["n_max"] = 1085,
-										["targets"] = {
-											["塔尼布隆"] = 34257,
-											["沙德隆的追随者"] = 4055,
-											["沙德隆"] = 25010,
-											["萨塔里奥暮光雏龙"] = 1264,
-											["熔岩烈焰"] = 1534,
-											["萨塔里奥"] = 83000,
-										},
-										["n_dmg"] = 67933,
-										["n_min"] = 101,
-										["g_dmg"] = 0,
-										["counter"] = 160,
-										["total"] = 149120,
-										["c_max"] = 2257,
-										["id"] = 42463,
-										["r_dmg"] = 59197,
-										["spellschool"] = 2,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 221,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 103,
-										["b_dmg"] = 0,
-										["r_amt"] = 65,
-									},
-									[35395] = {
-										["c_amt"] = 20,
-										["b_amt"] = 0,
-										["c_dmg"] = 52134,
-										["g_amt"] = 0,
-										["n_max"] = 1543,
-										["targets"] = {
-											["塔尼布隆"] = 16820,
-											["沙德隆的追随者"] = 5435,
-											["沙德隆"] = 20659,
-											["萨塔里奥暮光雏龙"] = 4912,
-											["熔岩烈焰"] = 6746,
-											["萨塔里奥"] = 54425,
-										},
-										["n_dmg"] = 56863,
-										["n_min"] = 623,
-										["g_dmg"] = 0,
-										["counter"] = 67,
-										["total"] = 108997,
-										["c_max"] = 3193,
-										["id"] = 35395,
-										["r_dmg"] = 0,
-										["DODGE"] = 2,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 1578,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 45,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[31803] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1168,
-										["targets"] = {
-											["塔尼布隆"] = 23093,
-											["沙德隆的追随者"] = 1672,
-											["沙德隆"] = 16190,
-											["萨塔里奥暮光雏龙"] = 1629,
-											["熔岩烈焰"] = 859,
-											["萨塔里奥"] = 47417,
-										},
-										["n_dmg"] = 90860,
-										["n_min"] = 131,
-										["g_dmg"] = 0,
-										["counter"] = 134,
-										["total"] = 90860,
-										["c_max"] = 0,
-										["a_dmg"] = 0,
-										["id"] = 31803,
-										["r_dmg"] = 43096,
-										["DODGE"] = 5,
-										["spellschool"] = 2,
-										["extra"] = {
-										},
-										["PARRY"] = 2,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 127,
-										["b_dmg"] = 0,
-										["r_amt"] = 59,
-									},
-									[48801] = {
-										["c_amt"] = 6,
-										["b_amt"] = 0,
-										["c_dmg"] = 28610,
-										["g_amt"] = 0,
-										["n_max"] = 3781,
-										["targets"] = {
-											["塔尼布隆"] = 4789,
-											["沙德隆的追随者"] = 2236,
-											["沙德隆"] = 19208,
-											["萨塔里奥暮光雏龙"] = 5202,
-											["熔岩烈焰"] = 3781,
-											["萨塔里奥"] = 28014,
-										},
-										["n_dmg"] = 34620,
-										["n_min"] = 2236,
-										["g_dmg"] = 0,
-										["counter"] = 18,
-										["total"] = 63230,
-										["c_max"] = 6124,
-										["id"] = 48801,
-										["r_dmg"] = 22605,
-										["MISS"] = 1,
-										["spellschool"] = 2,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 2249,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 11,
-										["b_dmg"] = 0,
-										["r_amt"] = 6,
+										["IMMUNE"] = 3,
 									},
 									[31804] = {
 										["c_amt"] = 21,
@@ -2792,29 +2961,325 @@ _detalhes_database = {
 										["c_max"] = 6433,
 										["id"] = 31804,
 										["r_dmg"] = 38087,
-										["spellschool"] = 2,
-										["extra"] = {
-										},
+										["r_amt"] = 11,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 2267,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 15,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[61840] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1314,
+										["targets"] = {
+											["塔尼布隆"] = 6907,
+											["沙德隆的追随者"] = 1083,
+											["沙德隆"] = 10773,
+											["萨塔里奥"] = 24482,
+											["萨塔里奥暮光雏龙"] = 3278,
+											["熔岩烈焰"] = 4646,
+										},
+										["n_dmg"] = 51169,
+										["n_min"] = 166,
+										["g_dmg"] = 0,
+										["counter"] = 131,
+										["total"] = 51169,
+										["c_max"] = 0,
+										["id"] = 61840,
+										["r_dmg"] = 19173,
+										["r_amt"] = 51,
 										["b_dmg"] = 0,
-										["r_amt"] = 11,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 131,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[48806] = {
+										["c_amt"] = 5,
+										["b_amt"] = 0,
+										["c_dmg"] = 17662,
+										["g_amt"] = 0,
+										["n_max"] = 2555,
+										["targets"] = {
+											["塔尼布隆"] = 3625,
+											["萨塔里奥暮光雏龙"] = 3231,
+											["熔岩烈焰"] = 6441,
+											["萨塔里奥"] = 8947,
+										},
+										["n_dmg"] = 4582,
+										["n_min"] = 2027,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 22244,
+										["c_max"] = 4365,
+										["id"] = 48806,
+										["r_dmg"] = 10017,
+										["r_amt"] = 3,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 2254,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[10308] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["沙德隆的追随者"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 10308,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 2,
+										["IMMUNE"] = 1,
+									},
+									[31803] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1168,
+										["targets"] = {
+											["塔尼布隆"] = 23093,
+											["沙德隆的追随者"] = 1672,
+											["沙德隆"] = 16190,
+											["萨塔里奥暮光雏龙"] = 1629,
+											["萨塔里奥"] = 47417,
+											["熔岩烈焰"] = 859,
+										},
+										["n_dmg"] = 90860,
+										["n_min"] = 131,
+										["g_dmg"] = 0,
+										["counter"] = 134,
+										["total"] = 90860,
+										["c_max"] = 0,
+										["r_amt"] = 59,
+										["id"] = 31803,
+										["r_dmg"] = 43096,
+										["b_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_amt"] = 0,
+										["PARRY"] = 2,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["extra"] = {
+										},
+										["n_amt"] = 127,
+										["DODGE"] = 5,
+										["a_dmg"] = 0,
+									},
+									[35395] = {
+										["c_amt"] = 20,
+										["b_amt"] = 0,
+										["c_dmg"] = 52134,
+										["g_amt"] = 0,
+										["n_max"] = 1543,
+										["targets"] = {
+											["塔尼布隆"] = 16820,
+											["沙德隆的追随者"] = 5435,
+											["沙德隆"] = 20659,
+											["萨塔里奥暮光雏龙"] = 4912,
+											["萨塔里奥"] = 54425,
+											["熔岩烈焰"] = 6746,
+										},
+										["n_dmg"] = 56863,
+										["n_min"] = 623,
+										["g_dmg"] = 0,
+										["counter"] = 67,
+										["total"] = 108997,
+										["c_max"] = 3193,
+										["id"] = 35395,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 1578,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 45,
+										["spellschool"] = 1,
+										["DODGE"] = 2,
+									},
+									[42463] = {
+										["c_amt"] = 57,
+										["b_amt"] = 0,
+										["c_dmg"] = 81187,
+										["g_amt"] = 0,
+										["n_max"] = 1085,
+										["targets"] = {
+											["塔尼布隆"] = 34257,
+											["沙德隆的追随者"] = 4055,
+											["沙德隆"] = 25010,
+											["萨塔里奥暮光雏龙"] = 1264,
+											["萨塔里奥"] = 83000,
+											["熔岩烈焰"] = 1534,
+										},
+										["n_dmg"] = 67933,
+										["n_min"] = 101,
+										["g_dmg"] = 0,
+										["counter"] = 160,
+										["total"] = 149120,
+										["c_max"] = 2257,
+										["id"] = 42463,
+										["r_dmg"] = 59197,
+										["r_amt"] = 65,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 221,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 103,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[54043] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 302,
+										["targets"] = {
+											["萨塔里奥暮光雏龙"] = 490,
+											["沙德隆的追随者"] = 546,
+											["熔岩烈焰"] = 2021,
+										},
+										["n_dmg"] = 3057,
+										["n_min"] = 162,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 3057,
+										["c_max"] = 0,
+										["id"] = 54043,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 12,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+									[48801] = {
+										["c_amt"] = 6,
+										["b_amt"] = 0,
+										["c_dmg"] = 28610,
+										["g_amt"] = 0,
+										["n_max"] = 3781,
+										["targets"] = {
+											["塔尼布隆"] = 4789,
+											["沙德隆的追随者"] = 2236,
+											["沙德隆"] = 19208,
+											["萨塔里奥暮光雏龙"] = 5202,
+											["萨塔里奥"] = 28014,
+											["熔岩烈焰"] = 3781,
+										},
+										["n_dmg"] = 34620,
+										["n_min"] = 2236,
+										["g_dmg"] = 0,
+										["counter"] = 18,
+										["total"] = 63230,
+										["c_max"] = 6124,
+										["id"] = 48801,
+										["r_dmg"] = 22605,
+										["r_amt"] = 6,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 2249,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 11,
+										["spellschool"] = 2,
+										["MISS"] = 1,
+									},
+									[32747] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["沙德隆的追随者"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 32747,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 1,
+										["IMMUNE"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["classe"] = "PALADIN",
+							["tipo"] = 1,
+							["spec"] = 70,
+							["colocacao"] = 6,
+							["last_event"] = 1666100940,
+							["friendlyfire"] = {
+								["魂之信仰"] = {
+									["total"] = 783,
+									["spells"] = {
+										[57634] = 783,
 									},
 								},
 							},
-							["grupo"] = true,
-							["on_hold"] = false,
-							["serial"] = "Player-4778-0520EB5E",
-							["last_dps"] = 2582.174390853116,
-							["custom"] = 0,
-							["last_event"] = 1666100940,
-							["damage_taken"] = 79995.004702,
 							["start_time"] = 1666100578,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Player-4778-0520EB5E",
+							["damage_taken"] = 79995.004702,
 						}, -- [6]
 						{
 							["flag_original"] = 1298,
@@ -2822,37 +3287,35 @@ _detalhes_database = {
 							["damage_from"] = {
 								["萨塔里奥暮光雏龙"] = true,
 								["火焰旋风"] = true,
-								["暮光传送门"] = true,
 								["萨塔里奥"] = true,
+								["暮光传送门"] = true,
 							},
 							["targets"] = {
 								["塔尼布隆"] = 184571,
 								["沙德隆的追随者"] = 37166,
 								["沙德隆"] = 73286,
 								["萨塔里奥暮光雏龙"] = 9912,
-								["熔岩烈焰"] = 16426,
 								["萨塔里奥"] = 331276,
+								["熔岩烈焰"] = 16426,
 							},
-							["spec"] = 62,
+							["custom"] = 0,
 							["pets"] = {
 								"镜像 <日出东芳>", -- [1]
 							},
-							["on_hold"] = false,
-							["boss_fight_component"] = true,
+							["damage_taken"] = 33124.007857,
+							["nome"] = "日出东芳",
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 635296.007857,
-							["end_time"] = 1666100940,
+							["last_dps"] = 1784.960815294685,
 							["aID"] = "4778-04605F8E",
 							["dps_started"] = false,
 							["total"] = 652637.007857,
-							["colocacao"] = 7,
-							["friendlyfire"] = {
-							},
-							["nome"] = "日出东芳",
+							["delay"] = 1666100911,
+							["end_time"] = 1666100940,
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[42897] = {
 										["c_amt"] = 34,
@@ -2865,8 +3328,8 @@ _detalhes_database = {
 											["沙德隆的追随者"] = 30120,
 											["沙德隆"] = 65106,
 											["萨塔里奥"] = 239840,
-											["熔岩烈焰"] = 13651,
 											["萨塔里奥暮光雏龙"] = 7976,
+											["熔岩烈焰"] = 13651,
 										},
 										["n_dmg"] = 233219,
 										["n_min"] = 2634,
@@ -2876,17 +3339,17 @@ _detalhes_database = {
 										["c_max"] = 12348,
 										["id"] = 42897,
 										["r_dmg"] = 175144,
-										["IMMUNE"] = 1,
-										["spellschool"] = 64,
+										["r_amt"] = 32,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 3887,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["n_amt"] = 53,
-										["b_dmg"] = 0,
-										["r_amt"] = 32,
+										["spellschool"] = 64,
+										["IMMUNE"] = 1,
 									},
 									[54043] = {
 										["c_amt"] = 0,
@@ -2905,16 +3368,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 54043,
 										["r_dmg"] = 0,
-										["spellschool"] = 2,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 4,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
 									},
 									[42845] = {
 										["c_amt"] = 14,
@@ -2936,17 +3399,17 @@ _detalhes_database = {
 										["c_max"] = 5485,
 										["id"] = 42845,
 										["r_dmg"] = 36704,
-										["IMMUNE"] = 2,
-										["spellschool"] = 64,
+										["r_amt"] = 13,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 2500,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["n_amt"] = 28,
-										["b_dmg"] = 0,
-										["r_amt"] = 13,
+										["spellschool"] = 64,
+										["IMMUNE"] = 2,
 									},
 									[42842] = {
 										["c_amt"] = 1,
@@ -2965,16 +3428,44 @@ _detalhes_database = {
 										["c_max"] = 4676,
 										["id"] = 42842,
 										["r_dmg"] = 0,
-										["spellschool"] = 16,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 4676,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 16,
+									},
+									[43044] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 316,
+										["g_amt"] = 0,
+										["n_max"] = 181,
+										["targets"] = {
+											["萨塔里奥暮光雏龙"] = 858,
+										},
+										["n_dmg"] = 542,
+										["n_min"] = 180,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 858,
+										["c_max"] = 316,
+										["id"] = 43044,
+										["r_dmg"] = 0,
 										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 316,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
 									},
 									[27088] = {
 										["c_amt"] = 3,
@@ -2995,65 +3486,39 @@ _detalhes_database = {
 										["c_max"] = 1083,
 										["id"] = 27088,
 										["r_dmg"] = 1083,
-										["IMMUNE"] = 1,
-										["spellschool"] = 16,
+										["r_amt"] = 1,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 1061,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 1,
-									},
-									[43044] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 316,
-										["g_amt"] = 0,
-										["n_max"] = 181,
-										["targets"] = {
-											["萨塔里奥暮光雏龙"] = 858,
-										},
-										["n_dmg"] = 542,
-										["n_min"] = 180,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 858,
-										["c_max"] = 316,
-										["id"] = 43044,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
 										["a_dmg"] = 0,
-										["c_min"] = 316,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["n_amt"] = 1,
+										["spellschool"] = 16,
+										["IMMUNE"] = 1,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
 							["classe"] = "MAGE",
-							["serial"] = "Player-4778-04605F8E",
-							["last_dps"] = 1784.960815294685,
-							["custom"] = 0,
 							["last_event"] = 1666100938,
-							["damage_taken"] = 33124.007857,
-							["start_time"] = 1666100679,
-							["delay"] = 1666100911,
+							["spec"] = 62,
+							["colocacao"] = 7,
 							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1666100679,
+							["serial"] = "Player-4778-04605F8E",
+							["on_hold"] = false,
 						}, -- [7]
 						{
 							["flag_original"] = 1300,
 							["totalabsorbed"] = 0.003627,
 							["pets"] = {
 							},
-							["aID"] = "4778-04F81AA5",
+							["classe"] = "DEATHKNIGHT",
 							["total_without_pet"] = 382506.003627,
 							["dps_started"] = false,
 							["total"] = 382506.003627,
@@ -3073,11 +3538,392 @@ _detalhes_database = {
 								["塔尼布隆"] = 5646,
 								["沙德隆"] = 5971,
 							},
-							["boss_fight_component"] = true,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
+							["nome"] = "夕里安",
 							["end_time"] = 1666100940,
+							["last_dps"] = 1046.15309868968,
+							["aID"] = "4778-04F81AA5",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 6,
+										["b_amt"] = 2,
+										["c_dmg"] = 14975,
+										["g_amt"] = 8,
+										["n_max"] = 1475,
+										["targets"] = {
+											["萨塔里奥"] = 40590,
+											["熔岩烈焰"] = 3833,
+										},
+										["n_dmg"] = 20451,
+										["n_min"] = 1178,
+										["g_dmg"] = 8997,
+										["counter"] = 62,
+										["r_amt"] = 0,
+										["total"] = 44423,
+										["c_max"] = 2893,
+										["b_dmg"] = 2410,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["MISS"] = 3,
+										["a_amt"] = 0,
+										["extra"] = {
+										},
+										["PARRY"] = 3,
+										["c_min"] = 1216,
+										["successful_casted"] = 0,
+										["spellschool"] = 1,
+										["n_amt"] = 15,
+										["IMMUNE"] = 27,
+										["a_dmg"] = 0,
+									}, -- [1]
+									[47632] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1540,
+										["targets"] = {
+											["萨塔里奥"] = 4272,
+											["熔岩烈焰"] = 3016,
+										},
+										["n_dmg"] = 7288,
+										["n_min"] = 1363,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 7288,
+										["c_max"] = 0,
+										["id"] = 47632,
+										["r_dmg"] = 4272,
+										["r_amt"] = 3,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 5,
+										["spellschool"] = 32,
+										["IMMUNE"] = 1,
+									},
+									[55095] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 468,
+										["targets"] = {
+											["熔岩烈焰"] = 5685,
+											["萨塔里奥"] = 26277,
+											["塔尼布隆"] = 2841,
+											["沙德隆"] = 2982,
+										},
+										["n_dmg"] = 37785,
+										["n_min"] = 302,
+										["g_dmg"] = 0,
+										["counter"] = 140,
+										["total"] = 37785,
+										["c_max"] = 0,
+										["id"] = 55095,
+										["r_dmg"] = 13492,
+										["r_amt"] = 37,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 95,
+										["spellschool"] = 16,
+										["IMMUNE"] = 45,
+									},
+									[49921] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 3041,
+										["g_amt"] = 0,
+										["n_max"] = 848,
+										["targets"] = {
+											["萨塔里奥"] = 7089,
+											["熔岩烈焰"] = 2760,
+										},
+										["n_dmg"] = 6808,
+										["n_min"] = 672,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["total"] = 9849,
+										["c_max"] = 1641,
+										["r_amt"] = 0,
+										["id"] = 49921,
+										["r_dmg"] = 0,
+										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["PARRY"] = 1,
+										["c_min"] = 1400,
+										["successful_casted"] = 0,
+										["extra"] = {
+										},
+										["n_amt"] = 9,
+										["a_dmg"] = 0,
+										["MISS"] = 4,
+									},
+									[55262] = {
+										["c_amt"] = 10,
+										["b_amt"] = 4,
+										["c_dmg"] = 27783,
+										["g_amt"] = 0,
+										["n_max"] = 1747,
+										["targets"] = {
+											["萨塔里奥"] = 69835,
+											["熔岩烈焰"] = 28808,
+										},
+										["n_dmg"] = 70860,
+										["n_min"] = 210,
+										["g_dmg"] = 0,
+										["counter"] = 78,
+										["total"] = 98643,
+										["c_max"] = 3162,
+										["r_amt"] = 0,
+										["id"] = 55262,
+										["r_dmg"] = 0,
+										["b_dmg"] = 5684,
+										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["PARRY"] = 8,
+										["c_min"] = 1232,
+										["successful_casted"] = 0,
+										["extra"] = {
+										},
+										["n_amt"] = 55,
+										["MISS"] = 5,
+										["a_dmg"] = 0,
+									},
+									[56815] = {
+										["c_amt"] = 5,
+										["b_amt"] = 0,
+										["c_dmg"] = 25584,
+										["g_amt"] = 0,
+										["n_max"] = 3075,
+										["targets"] = {
+											["萨塔里奥"] = 79552,
+											["熔岩烈焰"] = 17288,
+										},
+										["n_dmg"] = 71256,
+										["n_min"] = 2312,
+										["g_dmg"] = 0,
+										["counter"] = 33,
+										["total"] = 96840,
+										["c_max"] = 5599,
+										["id"] = 56815,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 4744,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 27,
+										["spellschool"] = 1,
+										["MISS"] = 1,
+									},
+									[49909] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1066,
+										["targets"] = {
+											["萨塔里奥"] = 8473,
+											["熔岩烈焰"] = 2790,
+										},
+										["n_dmg"] = 11263,
+										["n_min"] = 740,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 11263,
+										["c_max"] = 0,
+										["id"] = 49909,
+										["r_dmg"] = 3492,
+										["r_amt"] = 4,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 12,
+										["extra"] = {
+										},
+										["spellschool"] = 16,
+									},
+									[54043] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 198,
+										["targets"] = {
+											["萨塔里奥"] = 6282,
+											["熔岩烈焰"] = 1013,
+										},
+										["n_dmg"] = 7295,
+										["n_min"] = 139,
+										["g_dmg"] = 0,
+										["counter"] = 64,
+										["total"] = 7295,
+										["c_max"] = 0,
+										["r_amt"] = 0,
+										["id"] = 54043,
+										["r_dmg"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 41,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["extra"] = {
+										},
+										["RESIST"] = 2,
+										["spellschool"] = 2,
+										["IMMUNE"] = 21,
+									},
+									[49895] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["萨塔里奥"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 49895,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 32,
+										["MISS"] = 1,
+									},
+									[55078] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 477,
+										["targets"] = {
+											["熔岩烈焰"] = 5375,
+											["萨塔里奥"] = 25368,
+											["塔尼布隆"] = 2805,
+											["沙德隆"] = 2989,
+										},
+										["n_dmg"] = 36537,
+										["n_min"] = 310,
+										["g_dmg"] = 0,
+										["counter"] = 134,
+										["total"] = 36537,
+										["c_max"] = 0,
+										["id"] = 55078,
+										["r_dmg"] = 12038,
+										["r_amt"] = 32,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 89,
+										["spellschool"] = 32,
+										["IMMUNE"] = 45,
+									},
+									[49924] = {
+										["c_amt"] = 6,
+										["b_amt"] = 1,
+										["c_dmg"] = 16710,
+										["g_amt"] = 0,
+										["n_max"] = 1521,
+										["targets"] = {
+											["萨塔里奥"] = 31186,
+											["熔岩烈焰"] = 1397,
+										},
+										["n_dmg"] = 15873,
+										["n_min"] = 1332,
+										["g_dmg"] = 0,
+										["counter"] = 20,
+										["total"] = 32583,
+										["c_max"] = 3021,
+										["r_amt"] = 0,
+										["id"] = 49924,
+										["r_dmg"] = 0,
+										["b_dmg"] = 1397,
+										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["PARRY"] = 2,
+										["c_min"] = 2522,
+										["successful_casted"] = 0,
+										["extra"] = {
+										},
+										["n_amt"] = 11,
+										["a_dmg"] = 0,
+										["MISS"] = 1,
+									},
+									[50842] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["萨塔里奥"] = 0,
+											["沙德隆"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 50842,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 32,
+										["MISS"] = 2,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["last_event"] = 1666100940,
+							["damage_taken"] = 815735.003627,
+							["custom"] = 0,
+							["tipo"] = 1,
 							["avoidance"] = {
 								["萨塔里奥"] = {
 									["DODGE"] = 42,
@@ -3144,391 +3990,10 @@ _detalhes_database = {
 									["FULL_HIT_AMT"] = 12237,
 								},
 							},
-							["friendlyfire"] = {
-							},
-							["nome"] = "夕里安",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 6,
-										["b_amt"] = 2,
-										["c_dmg"] = 14975,
-										["g_amt"] = 8,
-										["n_max"] = 1475,
-										["targets"] = {
-											["萨塔里奥"] = 40590,
-											["熔岩烈焰"] = 3833,
-										},
-										["n_dmg"] = 20451,
-										["n_min"] = 1178,
-										["g_dmg"] = 8997,
-										["counter"] = 62,
-										["a_dmg"] = 0,
-										["total"] = 44423,
-										["c_max"] = 2893,
-										["IMMUNE"] = 27,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["MISS"] = 3,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["PARRY"] = 3,
-										["c_min"] = 1216,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 15,
-										["b_dmg"] = 2410,
-										["r_amt"] = 0,
-									}, -- [1]
-									[47632] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1540,
-										["targets"] = {
-											["萨塔里奥"] = 4272,
-											["熔岩烈焰"] = 3016,
-										},
-										["n_dmg"] = 7288,
-										["n_min"] = 1363,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 7288,
-										["c_max"] = 0,
-										["id"] = 47632,
-										["r_dmg"] = 4272,
-										["IMMUNE"] = 1,
-										["spellschool"] = 32,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 5,
-										["b_dmg"] = 0,
-										["r_amt"] = 3,
-									},
-									[55095] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 468,
-										["targets"] = {
-											["熔岩烈焰"] = 5685,
-											["萨塔里奥"] = 26277,
-											["塔尼布隆"] = 2841,
-											["沙德隆"] = 2982,
-										},
-										["n_dmg"] = 37785,
-										["n_min"] = 302,
-										["g_dmg"] = 0,
-										["counter"] = 140,
-										["total"] = 37785,
-										["c_max"] = 0,
-										["id"] = 55095,
-										["r_dmg"] = 13492,
-										["IMMUNE"] = 45,
-										["spellschool"] = 16,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 95,
-										["b_dmg"] = 0,
-										["r_amt"] = 37,
-									},
-									[49921] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 3041,
-										["g_amt"] = 0,
-										["n_max"] = 848,
-										["targets"] = {
-											["萨塔里奥"] = 7089,
-											["熔岩烈焰"] = 2760,
-										},
-										["n_dmg"] = 6808,
-										["n_min"] = 672,
-										["g_dmg"] = 0,
-										["counter"] = 16,
-										["total"] = 9849,
-										["c_max"] = 1641,
-										["MISS"] = 4,
-										["id"] = 49921,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["PARRY"] = 1,
-										["c_min"] = 1400,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 9,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[55262] = {
-										["c_amt"] = 10,
-										["b_amt"] = 4,
-										["c_dmg"] = 27783,
-										["g_amt"] = 0,
-										["n_max"] = 1747,
-										["targets"] = {
-											["萨塔里奥"] = 69835,
-											["熔岩烈焰"] = 28808,
-										},
-										["n_dmg"] = 70860,
-										["n_min"] = 210,
-										["g_dmg"] = 0,
-										["counter"] = 78,
-										["total"] = 98643,
-										["c_max"] = 3162,
-										["a_dmg"] = 0,
-										["id"] = 55262,
-										["r_dmg"] = 0,
-										["MISS"] = 5,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["PARRY"] = 8,
-										["c_min"] = 1232,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 55,
-										["b_dmg"] = 5684,
-										["r_amt"] = 0,
-									},
-									[56815] = {
-										["c_amt"] = 5,
-										["b_amt"] = 0,
-										["c_dmg"] = 25584,
-										["g_amt"] = 0,
-										["n_max"] = 3075,
-										["targets"] = {
-											["萨塔里奥"] = 79552,
-											["熔岩烈焰"] = 17288,
-										},
-										["n_dmg"] = 71256,
-										["n_min"] = 2312,
-										["g_dmg"] = 0,
-										["counter"] = 33,
-										["total"] = 96840,
-										["c_max"] = 5599,
-										["id"] = 56815,
-										["r_dmg"] = 0,
-										["MISS"] = 1,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 4744,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 27,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[49909] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1066,
-										["targets"] = {
-											["萨塔里奥"] = 8473,
-											["熔岩烈焰"] = 2790,
-										},
-										["n_dmg"] = 11263,
-										["n_min"] = 740,
-										["g_dmg"] = 0,
-										["counter"] = 12,
-										["total"] = 11263,
-										["c_max"] = 0,
-										["id"] = 49909,
-										["r_dmg"] = 3492,
-										["spellschool"] = 16,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 12,
-										["b_dmg"] = 0,
-										["r_amt"] = 4,
-									},
-									[50842] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["萨塔里奥"] = 0,
-											["沙德隆"] = 0,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 50842,
-										["r_dmg"] = 0,
-										["MISS"] = 2,
-										["spellschool"] = 32,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[49895] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["萨塔里奥"] = 0,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 49895,
-										["r_dmg"] = 0,
-										["MISS"] = 1,
-										["spellschool"] = 32,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[55078] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 477,
-										["targets"] = {
-											["熔岩烈焰"] = 5375,
-											["萨塔里奥"] = 25368,
-											["塔尼布隆"] = 2805,
-											["沙德隆"] = 2989,
-										},
-										["n_dmg"] = 36537,
-										["n_min"] = 310,
-										["g_dmg"] = 0,
-										["counter"] = 134,
-										["total"] = 36537,
-										["c_max"] = 0,
-										["id"] = 55078,
-										["r_dmg"] = 12038,
-										["IMMUNE"] = 45,
-										["spellschool"] = 32,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 89,
-										["b_dmg"] = 0,
-										["r_amt"] = 32,
-									},
-									[49924] = {
-										["c_amt"] = 6,
-										["b_amt"] = 1,
-										["c_dmg"] = 16710,
-										["g_amt"] = 0,
-										["n_max"] = 1521,
-										["targets"] = {
-											["萨塔里奥"] = 31186,
-											["熔岩烈焰"] = 1397,
-										},
-										["n_dmg"] = 15873,
-										["n_min"] = 1332,
-										["g_dmg"] = 0,
-										["counter"] = 20,
-										["total"] = 32583,
-										["c_max"] = 3021,
-										["MISS"] = 1,
-										["id"] = 49924,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["PARRY"] = 2,
-										["c_min"] = 2522,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 11,
-										["b_dmg"] = 1397,
-										["r_amt"] = 0,
-									},
-									[54043] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 198,
-										["targets"] = {
-											["萨塔里奥"] = 6282,
-											["熔岩烈焰"] = 1013,
-										},
-										["n_dmg"] = 7295,
-										["n_min"] = 139,
-										["g_dmg"] = 0,
-										["counter"] = 64,
-										["total"] = 7295,
-										["c_max"] = 0,
-										["RESIST"] = 2,
-										["id"] = 54043,
-										["r_dmg"] = 0,
-										["IMMUNE"] = 21,
-										["spellschool"] = 2,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 41,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["classe"] = "DEATHKNIGHT",
-							["last_dps"] = 1046.15309868968,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 815735.003627,
 							["start_time"] = 1666100574,
 							["delay"] = 0,
-							["last_event"] = 1666100940,
+							["friendlyfire"] = {
+							},
 						}, -- [8]
 						{
 							["flag_original"] = 1300,
@@ -3537,9 +4002,9 @@ _detalhes_database = {
 								["火焰旋风"] = true,
 								["Just"] = true,
 								["熔岩烈焰"] = true,
-								["凸凸凹"] = true,
-								["环境伤害 (坠落)"] = true,
 								["萨塔里奥"] = true,
+								["环境伤害 (坠落)"] = true,
+								["凸凸凹"] = true,
 							},
 							["targets"] = {
 								["熔岩烈焰"] = 1850,
@@ -3547,31 +4012,27 @@ _detalhes_database = {
 								["塔尼布隆"] = 3240,
 								["沙德隆"] = 3134,
 							},
-							["spec"] = 65,
+							["custom"] = 0,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-								["凸凸凹"] = {
-									["spells"] = {
-										[57634] = 29103,
-									},
-									["total"] = 29103,
-								},
-							},
-							["timeMachine"] = 2,
-							["classe"] = "PALADIN",
+							["damage_taken"] = 102716.003742,
+							["total"] = 29725.003742,
+							["friendlyfire_total"] = 29103,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 29725.003742,
-							["boss_fight_component"] = true,
-							["colocacao"] = 8,
-							["dps_started"] = true,
-							["total"] = 29725.003742,
-							["friendlyfire_total"] = 29103,
+							["last_dps"] = 245.7816695057627,
 							["aID"] = "4778-04F57291",
+							["dps_started"] = false,
+							["end_time"] = 1666196403,
+							["delay"] = 1666101321,
+							["classe"] = "PALADIN",
 							["nome"] = "凸凸凹",
+							["spec"] = 65,
+							["grupo"] = true,
+							["last_event"] = 1666101321,
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 5,
@@ -3586,23 +4047,23 @@ _detalhes_database = {
 										["n_min"] = 310,
 										["g_dmg"] = 736,
 										["counter"] = 16,
-										["IMMUNE"] = 1,
+										["r_amt"] = 0,
 										["total"] = 5228,
 										["c_max"] = 725,
-										["DODGE"] = 2,
+										["b_dmg"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
 										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
 										["extra"] = {
 										},
 										["PARRY"] = 1,
 										["c_min"] = 553,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
 										["n_amt"] = 4,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["DODGE"] = 2,
+										["IMMUNE"] = 1,
 									}, -- [1]
 									[54158] = {
 										["c_amt"] = 3,
@@ -3624,17 +4085,17 @@ _detalhes_database = {
 										["c_max"] = 2315,
 										["id"] = 54158,
 										["r_dmg"] = 8606,
-										["IMMUNE"] = 4,
-										["spellschool"] = 2,
+										["r_amt"] = 9,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 2314,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["n_amt"] = 14,
-										["b_dmg"] = 0,
-										["r_amt"] = 9,
+										["spellschool"] = 2,
+										["IMMUNE"] = 4,
 									},
 									[48823] = {
 										["c_amt"] = 0,
@@ -3653,44 +4114,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 48823,
 										["r_dmg"] = 2499,
-										["spellschool"] = 2,
-										["extra"] = {
-										},
+										["r_amt"] = 1,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 1,
-									},
-									[54043] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 239,
-										["targets"] = {
-											["熔岩烈焰"] = 929,
-										},
-										["n_dmg"] = 929,
-										["n_min"] = 214,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 929,
-										["c_max"] = 0,
-										["id"] = 54043,
-										["r_dmg"] = 0,
-										["spellschool"] = 2,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 4,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 2,
 									},
 									[53408] = {
 										["c_amt"] = 0,
@@ -3709,72 +4142,83 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 53408,
 										["r_dmg"] = 0,
-										["MISS"] = 1,
-										["spellschool"] = 2,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 2,
+										["MISS"] = 1,
+									},
+									[54043] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 239,
+										["targets"] = {
+											["熔岩烈焰"] = 929,
+										},
+										["n_dmg"] = 929,
+										["n_min"] = 214,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 929,
+										["c_max"] = 0,
+										["id"] = 54043,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["n_amt"] = 4,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["colocacao"] = 8,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1666196188,
+							["serial"] = "Player-4778-04F57291",
+							["friendlyfire"] = {
+								["凸凸凹"] = {
+									["total"] = 29103,
+									["spells"] = {
+										[57634] = 29103,
 									},
 								},
 							},
-							["grupo"] = true,
-							["on_hold"] = true,
-							["serial"] = "Player-4778-04F57291",
-							["last_dps"] = 245.7816695057627,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 102716.003742,
-							["start_time"] = 1666101107,
-							["delay"] = 1666101321,
-							["last_event"] = 1666101321,
 						}, -- [9]
 						{
 							["flag_original"] = 1298,
 							["totalabsorbed"] = 0.006186,
-							["spec"] = 256,
 							["damage_from"] = {
 								["火焰旋风"] = true,
 								["大风车滋滋转"] = true,
 								["萨塔里奥"] = true,
-								["暮光传送门"] = true,
-								["萨塔里奥暮光雏龙"] = true,
 								["熔岩烈焰"] = true,
+								["萨塔里奥暮光雏龙"] = true,
+								["暮光传送门"] = true,
 							},
 							["targets"] = {
 								["熔岩烈焰"] = 4880,
-								["萨塔里奥"] = 792,
 								["萨塔里奥暮光雏龙"] = 765,
+								["萨塔里奥"] = 792,
 							},
 							["pets"] = {
 							},
-							["on_hold"] = true,
-							["timeMachine"] = 3,
 							["aID"] = "4778-04D4E39F",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 6437.006186000001,
-							["boss_fight_component"] = true,
-							["friendlyfire"] = {
-								["大风车滋滋转"] = {
-									["spells"] = {
-										[57634] = 1620,
-									},
-									["total"] = 1620,
-								},
-							},
-							["dps_started"] = true,
-							["total"] = 6437.006186000001,
-							["classe"] = "PRIEST",
-							["friendlyfire_total"] = 1620,
-							["nome"] = "大风车滋滋转",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -3793,16 +4237,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 									[54043] = {
 										["c_amt"] = 0,
@@ -3822,16 +4266,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 54043,
 										["r_dmg"] = 0,
-										["spellschool"] = 2,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 4,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 2,
 									},
 									[48078] = {
 										["c_amt"] = 1,
@@ -3851,74 +4295,95 @@ _detalhes_database = {
 										["c_max"] = 1313,
 										["id"] = 48078,
 										["r_dmg"] = 1516,
-										["MISS"] = 2,
-										["spellschool"] = 2,
+										["r_amt"] = 2,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 1313,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["n_amt"] = 5,
-										["b_dmg"] = 0,
-										["r_amt"] = 2,
+										["spellschool"] = 2,
+										["MISS"] = 2,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire_total"] = 1620,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 6437.006186000001,
+							["damage_taken"] = 39066.006186,
+							["delay"] = 1666101023,
+							["dps_started"] = false,
+							["total"] = 6437.006186000001,
+							["classe"] = "PRIEST",
+							["last_dps"] = 0,
+							["nome"] = "大风车滋滋转",
+							["spec"] = 256,
+							["grupo"] = true,
+							["end_time"] = 1666196403,
+							["tipo"] = 1,
+							["boss_fight_component"] = true,
+							["custom"] = 0,
+							["last_event"] = 1666101023,
+							["friendlyfire"] = {
+								["大风车滋滋转"] = {
+									["total"] = 1620,
+									["spells"] = {
+										[57634] = 1620,
 									},
 								},
 							},
-							["grupo"] = true,
+							["start_time"] = 1666196316,
 							["serial"] = "Player-4778-04D4E39F",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 39066.006186,
-							["start_time"] = 1666100937,
-							["delay"] = 1666101023,
-							["last_event"] = 1666101023,
+							["on_hold"] = false,
 						}, -- [10]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 60165.008095,
-							["aID"] = "28860",
 							["damage_from"] = {
 								["特变电工"] = true,
 								["Just"] = true,
 								["大风车滋滋转"] = true,
 								["夕里安"] = true,
-								["镜像 <日出东芳>"] = true,
-								["雪花丶有点飘"] = true,
-								["日出东芳"] = true,
-								["踏遍天涯"] = true,
-								["凸凸凹"] = true,
-								["树人 <踏遍天涯>"] = true,
-								["陌戮"] = true,
 								["魂之信仰"] = true,
+								["雪花丶有点飘"] = true,
+								["陌戮"] = true,
+								["踏遍天涯"] = true,
+								["树人 <踏遍天涯>"] = true,
+								["凸凸凹"] = true,
+								["镜像 <日出东芳>"] = true,
+								["日出东芳"] = true,
 							},
 							["targets"] = {
+								["夕里安"] = 798049,
 								["雪花丶有点飘"] = 6785,
-								["凸凸凹"] = 2824,
 								["Just"] = 31590,
 								["大风车滋滋转"] = 2717,
+								["日出东芳"] = 3101,
+								["凸凸凹"] = 2824,
 								["特变电工"] = 10818,
 								["魂之信仰"] = 5800,
-								["日出东芳"] = 3101,
-								["夕里安"] = 798049,
 							},
+							["delay"] = 0,
 							["pets"] = {
 							},
-							["end_time"] = 1666100940,
-							["boss_fight_component"] = true,
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["friendlyfire"] = {
+							},
+							["aID"] = "28860",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 861684.0080949999,
-							["monster"] = true,
-							["dps_started"] = false,
-							["total"] = 861684.0080949999,
-							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
-							["nome"] = "萨塔里奥",
+							["dps_started"] = false,
+							["end_time"] = 1666100940,
+							["damage_taken"] = 3633569.008095,
+							["tipo"] = 1,
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -3933,23 +4398,23 @@ _detalhes_database = {
 										["n_min"] = 3385,
 										["g_dmg"] = 0,
 										["counter"] = 140,
-										["DODGE"] = 40,
+										["r_amt"] = 0,
 										["total"] = 477010,
 										["c_max"] = 0,
-										["a_dmg"] = 188744,
+										["b_dmg"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
 										["MISS"] = 11,
-										["spellschool"] = 1,
+										["a_amt"] = 24,
 										["extra"] = {
 										},
 										["PARRY"] = 28,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 24,
+										["spellschool"] = 1,
 										["n_amt"] = 61,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 188744,
+										["DODGE"] = 40,
 									}, -- [1]
 									[56909] = {
 										["c_amt"] = 0,
@@ -3966,20 +4431,20 @@ _detalhes_database = {
 										["counter"] = 24,
 										["total"] = 38266,
 										["c_max"] = 0,
-										["DODGE"] = 2,
+										["r_amt"] = 0,
 										["id"] = 56909,
 										["r_dmg"] = 0,
-										["a_dmg"] = 4721,
+										["b_dmg"] = 0,
 										["MISS"] = 4,
-										["extra"] = {
-										},
+										["a_amt"] = 2,
 										["PARRY"] = 3,
 										["c_min"] = 0,
 										["successful_casted"] = 24,
-										["a_amt"] = 2,
+										["extra"] = {
+										},
 										["n_amt"] = 15,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 4721,
+										["DODGE"] = 2,
 									},
 									[56908] = {
 										["c_amt"] = 0,
@@ -3999,16 +4464,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 56908,
 										["r_dmg"] = 273336,
-										["MISS"] = 2,
-										["extra"] = {
-										},
+										["r_amt"] = 21,
+										["b_dmg"] = 0,
 										["a_dmg"] = 162747,
 										["c_min"] = 0,
 										["successful_casted"] = 24,
 										["a_amt"] = 14,
 										["n_amt"] = 24,
-										["b_dmg"] = 0,
-										["r_amt"] = 21,
+										["extra"] = {
+										},
+										["MISS"] = 2,
 									},
 									[56910] = {
 										["c_amt"] = 0,
@@ -4019,10 +4484,10 @@ _detalhes_database = {
 										["targets"] = {
 											["凸凸凹"] = 2824,
 											["大风车滋滋转"] = 2717,
+											["日出东芳"] = 3101,
 											["雪花丶有点飘"] = 6785,
 											["特变电工"] = 10818,
 											["魂之信仰"] = 5800,
-											["日出东芳"] = 3101,
 										},
 										["n_dmg"] = 32045,
 										["n_min"] = 1204,
@@ -4032,15 +4497,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 56910,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 3363,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 20,
 										["a_amt"] = 1,
 										["n_amt"] = 11,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 3363,
+										["extra"] = {
+										},
 									},
 									[61254] = {
 										["c_amt"] = 0,
@@ -4058,15 +4523,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 61254,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 									[61632] = {
 										["c_amt"] = 0,
@@ -4084,65 +4549,65 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 61632,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 32,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-5002-615-15071-28860-00004EAA97",
-							["last_dps"] = 0,
+							["total"] = 861684.0080949999,
+							["nome"] = "萨塔里奥",
+							["on_hold"] = false,
 							["custom"] = 0,
 							["last_event"] = 1666100939,
-							["damage_taken"] = 3633569.008095,
+							["last_dps"] = 0,
 							["start_time"] = 1666100576,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Creature-0-5002-615-15071-28860-00004EAA97",
+							["classe"] = "UNKNOW",
 						}, -- [11]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 15497.002492,
-							["aID"] = "30451",
 							["damage_from"] = {
 								["特变电工"] = true,
 								["陌戮"] = true,
 								["夕里安"] = true,
 								["凸凸凹"] = true,
 								["踏遍天涯"] = true,
-								["日出东芳"] = true,
-								["雪花丶有点飘"] = true,
-								["Just"] = true,
 								["魂之信仰"] = true,
+								["Just"] = true,
+								["雪花丶有点飘"] = true,
+								["日出东芳"] = true,
 							},
 							["targets"] = {
 								["Just"] = 157341,
 								["魂之信仰"] = 23150,
 							},
+							["delay"] = 1666100813,
 							["pets"] = {
 								"暮光裂隙 <沙德隆>", -- [1]
 							},
-							["end_time"] = 1666100940,
-							["boss_fight_component"] = true,
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["friendlyfire"] = {
+							},
+							["aID"] = "30451",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 168158.002492,
-							["monster"] = true,
-							["dps_started"] = false,
-							["total"] = 180491.002492,
-							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
-							["nome"] = "沙德隆",
+							["dps_started"] = false,
+							["end_time"] = 1666100940,
+							["damage_taken"] = 1415416.002492,
+							["tipo"] = 1,
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -4157,23 +4622,23 @@ _detalhes_database = {
 										["n_min"] = 915,
 										["g_dmg"] = 0,
 										["counter"] = 65,
-										["MISS"] = 7,
+										["r_amt"] = 0,
 										["total"] = 89079,
 										["c_max"] = 0,
-										["DODGE"] = 18,
+										["b_dmg"] = 57946,
 										["id"] = 1,
 										["r_dmg"] = 0,
 										["a_dmg"] = 24863,
-										["spellschool"] = 1,
+										["a_amt"] = 7,
 										["extra"] = {
 										},
 										["PARRY"] = 13,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 7,
+										["spellschool"] = 1,
 										["n_amt"] = 27,
-										["b_dmg"] = 57946,
-										["r_amt"] = 0,
+										["DODGE"] = 18,
+										["MISS"] = 7,
 									}, -- [1]
 									[60639] = {
 										["c_amt"] = 0,
@@ -4191,15 +4656,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 60639,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 									[58105] = {
 										["c_amt"] = 0,
@@ -4217,15 +4682,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 58105,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 									[57579] = {
 										["c_amt"] = 0,
@@ -4243,15 +4708,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 57579,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 19,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 									[57570] = {
 										["c_amt"] = 0,
@@ -4271,33 +4736,32 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 57570,
 										["r_dmg"] = 65120,
-										["extra"] = {
-										},
-										["a_dmg"] = 35008,
+										["r_amt"] = 10,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 10,
 										["a_amt"] = 5,
 										["n_amt"] = 12,
-										["b_dmg"] = 0,
-										["r_amt"] = 10,
+										["a_dmg"] = 35008,
+										["extra"] = {
+										},
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-5002-615-15071-30451-00004EAA97",
-							["last_dps"] = 0,
+							["total"] = 180491.002492,
+							["nome"] = "沙德隆",
+							["on_hold"] = false,
 							["custom"] = 0,
 							["last_event"] = 1666100813,
-							["damage_taken"] = 1415416.002492,
+							["last_dps"] = 0,
 							["start_time"] = 1666100788,
-							["delay"] = 1666100813,
-							["tipo"] = 1,
+							["serial"] = "Creature-0-5002-615-15071-30451-00004EAA97",
+							["classe"] = "UNKNOW",
 						}, -- [12]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 50259.005907,
-							["aID"] = "30648",
 							["damage_from"] = {
 							},
 							["targets"] = {
@@ -4305,31 +4769,32 @@ _detalhes_database = {
 								["陌戮"] = 20073,
 								["大风车滋滋转"] = 18012,
 								["夕里安"] = 2713,
-								["镜像 <日出东芳>"] = 180,
-								["雪花丶有点飘"] = 19788,
-								["树人 <踏遍天涯>"] = 2175,
-								["踏遍天涯"] = 12220,
-								["Just"] = 7420,
-								["凸凸凹"] = 45202,
-								["魂之信仰"] = 17460,
 								["日出东芳"] = 11058,
+								["雪花丶有点飘"] = 19788,
+								["镜像 <日出东芳>"] = 180,
+								["踏遍天涯"] = 12220,
+								["凸凸凹"] = 45202,
+								["Just"] = 7420,
+								["树人 <踏遍天涯>"] = 2175,
+								["魂之信仰"] = 17460,
 							},
-							["boss_fight_component"] = true,
+							["delay"] = 1666101305,
 							["pets"] = {
 							},
-							["timeMachine"] = 1,
-							["classe"] = "UNKNOW",
+							["on_hold"] = false,
+							["end_time"] = 1666196403,
+							["aID"] = "30648",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 165807.005907,
 							["monster"] = true,
-							["dps_started"] = true,
+							["dps_started"] = false,
 							["total"] = 165807.005907,
-							["on_hold"] = true,
-							["friendlyfire_total"] = 0,
-							["nome"] = "火焰旋风",
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[57591] = {
 										["c_amt"] = 0,
@@ -4342,14 +4807,14 @@ _detalhes_database = {
 											["陌戮"] = 20073,
 											["大风车滋滋转"] = 17112,
 											["夕里安"] = 2713,
-											["镜像 <日出东芳>"] = 180,
-											["雪花丶有点飘"] = 19788,
-											["树人 <踏遍天涯>"] = 2175,
-											["踏遍天涯"] = 12220,
-											["Just"] = 7420,
-											["凸凸凹"] = 13192,
-											["魂之信仰"] = 17460,
 											["日出东芳"] = 11058,
+											["雪花丶有点飘"] = 19788,
+											["镜像 <日出东芳>"] = 180,
+											["踏遍天涯"] = 12220,
+											["凸凸凹"] = 13192,
+											["Just"] = 7420,
+											["树人 <踏遍天涯>"] = 2175,
+											["魂之信仰"] = 17460,
 										},
 										["n_dmg"] = 132897,
 										["n_min"] = 116,
@@ -4359,16 +4824,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 57591,
 										["r_dmg"] = 86518,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
+										["r_amt"] = 59,
+										["b_dmg"] = 0,
 										["a_dmg"] = 6343,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 2,
 										["n_amt"] = 83,
-										["b_dmg"] = 0,
-										["r_amt"] = 59,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
 									},
 									[57562] = {
 										["c_amt"] = 0,
@@ -4377,8 +4842,8 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 970,
 										["targets"] = {
-											["大风车滋滋转"] = 900,
 											["凸凸凹"] = 32010,
+											["大风车滋滋转"] = 900,
 										},
 										["n_dmg"] = 32910,
 										["n_min"] = 900,
@@ -4388,68 +4853,68 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 57562,
 										["r_dmg"] = 0,
-										["RESIST"] = 4,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
-										["a_dmg"] = 970,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 34,
+										["a_amt"] = 1,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 1,
-										["n_amt"] = 34,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 970,
+										["RESIST"] = 4,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-5002-615-15071-30648-0001CEAA97",
-							["last_dps"] = 0,
+							["damage_taken"] = 0.005907,
+							["friendlyfire_total"] = 0,
+							["nome"] = "火焰旋风",
 							["custom"] = 0,
 							["last_event"] = 1666101305,
-							["damage_taken"] = 0.005907,
-							["start_time"] = 1666101055,
-							["delay"] = 1666101305,
-							["tipo"] = 1,
+							["last_dps"] = 0,
+							["start_time"] = 1666196152,
+							["serial"] = "Creature-0-5002-615-15071-30648-0001CEAA97",
+							["classe"] = "UNKNOW",
 						}, -- [13]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 4497.008216,
-							["aID"] = "30452",
 							["damage_from"] = {
 								["特变电工"] = true,
 								["陌戮"] = true,
 								["夕里安"] = true,
 								["雪花丶有点飘"] = true,
 								["踏遍天涯"] = true,
+								["魂之信仰"] = true,
 								["凸凸凹"] = true,
 								["Just"] = true,
 								["日出东芳"] = true,
-								["魂之信仰"] = true,
 							},
 							["targets"] = {
 								["镜像 <日出东芳>"] = 1316,
 								["Just"] = 142269,
 								["陌戮"] = 15966,
 							},
+							["delay"] = 1666100714,
 							["pets"] = {
 								"暮光裂隙 <塔尼布隆>", -- [1]
 							},
-							["end_time"] = 1666100940,
-							["boss_fight_component"] = true,
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["friendlyfire"] = {
+							},
+							["aID"] = "30452",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 147701.008216,
-							["monster"] = true,
-							["dps_started"] = false,
-							["total"] = 159551.008216,
-							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
-							["nome"] = "塔尼布隆",
+							["dps_started"] = false,
+							["end_time"] = 1666100940,
+							["damage_taken"] = 1415416.008216,
+							["tipo"] = 1,
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -4464,23 +4929,23 @@ _detalhes_database = {
 										["n_min"] = 1639,
 										["g_dmg"] = 0,
 										["counter"] = 47,
-										["a_dmg"] = 21409,
+										["r_amt"] = 0,
 										["total"] = 80906,
 										["c_max"] = 0,
-										["DODGE"] = 12,
+										["b_dmg"] = 23053,
 										["id"] = 1,
 										["r_dmg"] = 0,
 										["MISS"] = 6,
-										["spellschool"] = 1,
+										["a_amt"] = 5,
 										["extra"] = {
 										},
 										["PARRY"] = 9,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 5,
+										["spellschool"] = 1,
 										["n_amt"] = 20,
-										["b_dmg"] = 23053,
-										["r_amt"] = 0,
+										["DODGE"] = 12,
+										["a_dmg"] = 21409,
 									}, -- [1]
 									[61248] = {
 										["c_amt"] = 0,
@@ -4498,15 +4963,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 61248,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 									[58793] = {
 										["c_amt"] = 0,
@@ -4524,15 +4989,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 58793,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 2,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 									[57570] = {
 										["c_amt"] = 0,
@@ -4552,15 +5017,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 57570,
 										["r_dmg"] = 50829,
-										["extra"] = {
-										},
-										["a_dmg"] = 30845,
+										["r_amt"] = 6,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 6,
 										["a_amt"] = 4,
 										["n_amt"] = 7,
-										["b_dmg"] = 0,
-										["r_amt"] = 6,
+										["a_dmg"] = 30845,
+										["extra"] = {
+										},
 									},
 									[57579] = {
 										["c_amt"] = 0,
@@ -4578,15 +5043,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 57579,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 9,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 									[60639] = {
 										["c_amt"] = 0,
@@ -4604,33 +5069,32 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 60639,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-5002-615-15071-30452-00004EAA97",
-							["last_dps"] = 0,
+							["total"] = 159551.008216,
+							["nome"] = "塔尼布隆",
+							["on_hold"] = false,
 							["custom"] = 0,
 							["last_event"] = 1666100714,
-							["damage_taken"] = 1415416.008216,
+							["last_dps"] = 0,
 							["start_time"] = 1666100835,
-							["delay"] = 1666100714,
-							["tipo"] = 1,
+							["serial"] = "Creature-0-5002-615-15071-30452-00004EAA97",
+							["classe"] = "UNKNOW",
 						}, -- [14]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 35379.006148,
-							["aID"] = "30643",
 							["damage_from"] = {
 								["特变电工"] = true,
 								["陌戮"] = true,
@@ -4638,36 +5102,37 @@ _detalhes_database = {
 								["夕里安"] = true,
 								["雪花丶有点飘"] = true,
 								["踏遍天涯"] = true,
-								["日出东芳"] = true,
-								["凸凸凹"] = true,
-								["Just"] = true,
 								["魂之信仰"] = true,
+								["Just"] = true,
+								["凸凸凹"] = true,
+								["日出东芳"] = true,
 							},
 							["targets"] = {
 								["凸凸凹"] = 22403,
 								["Just"] = 58052,
 								["大风车滋滋转"] = 1790,
-								["魂之信仰"] = 6166,
-								["陌戮"] = 5071,
-								["雪花丶有点飘"] = 3632,
 								["夕里安"] = 14973,
+								["雪花丶有点飘"] = 3632,
+								["陌戮"] = 5071,
+								["魂之信仰"] = 6166,
 							},
+							["delay"] = 1666100901,
 							["pets"] = {
 							},
-							["end_time"] = 1666100940,
-							["boss_fight_component"] = true,
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["friendlyfire"] = {
+							},
+							["aID"] = "30643",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 112087.006148,
-							["monster"] = true,
-							["dps_started"] = false,
-							["total"] = 112087.006148,
-							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
-							["nome"] = "熔岩烈焰",
+							["dps_started"] = false,
+							["end_time"] = 1666100940,
+							["damage_taken"] = 770894.006148,
+							["tipo"] = 1,
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -4679,85 +5144,85 @@ _detalhes_database = {
 											["凸凸凹"] = 22403,
 											["Just"] = 58052,
 											["大风车滋滋转"] = 1790,
-											["魂之信仰"] = 6166,
-											["陌戮"] = 5071,
-											["雪花丶有点飘"] = 3632,
 											["夕里安"] = 14973,
+											["雪花丶有点飘"] = 3632,
+											["陌戮"] = 5071,
+											["魂之信仰"] = 6166,
 										},
 										["n_dmg"] = 108455,
-										["RESIST"] = 12,
+										["b_dmg"] = 9334,
 										["n_min"] = 195,
 										["g_dmg"] = 0,
 										["counter"] = 187,
-										["DODGE"] = 41,
+										["r_amt"] = 57,
 										["total"] = 112087,
 										["c_max"] = 3632,
-										["a_dmg"] = 7706,
+										["n_amt"] = 89,
 										["id"] = 1,
 										["r_dmg"] = 74969,
-										["MISS"] = 18,
+										["a_amt"] = 5,
 										["spellschool"] = 1,
 										["extra"] = {
 										},
 										["PARRY"] = 26,
 										["c_min"] = 3632,
 										["successful_casted"] = 0,
-										["a_amt"] = 5,
-										["n_amt"] = 89,
-										["b_dmg"] = 9334,
-										["r_amt"] = 57,
+										["MISS"] = 18,
+										["RESIST"] = 12,
+										["a_dmg"] = 7706,
+										["DODGE"] = 41,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-5002-615-15071-30643-00004EAD7C",
-							["last_dps"] = 0,
+							["total"] = 112087.006148,
+							["nome"] = "熔岩烈焰",
+							["on_hold"] = false,
 							["custom"] = 0,
 							["last_event"] = 1666100939,
-							["damage_taken"] = 770894.006148,
+							["last_dps"] = 0,
 							["start_time"] = 1666100735,
-							["delay"] = 1666100901,
-							["tipo"] = 1,
+							["serial"] = "Creature-0-5002-615-15071-30643-00004EAD7C",
+							["classe"] = "UNKNOW",
 						}, -- [15]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 9965.007607,
-							["aID"] = "31214",
 							["damage_from"] = {
-								["大风车滋滋转"] = true,
+								["魂之信仰"] = true,
 								["雪花丶有点飘"] = true,
 								["Just"] = true,
+								["大风车滋滋转"] = true,
+								["陌戮"] = true,
+								["特变电工"] = true,
 								["踏遍天涯"] = true,
 								["日出东芳"] = true,
-								["特变电工"] = true,
-								["陌戮"] = true,
-								["魂之信仰"] = true,
 							},
 							["targets"] = {
 								["雪花丶有点飘"] = 1846,
 								["Just"] = 32435,
 								["大风车滋滋转"] = 6124,
+								["日出东芳"] = 10360,
 								["陌戮"] = 9724,
 								["魂之信仰"] = 2939,
-								["日出东芳"] = 10360,
 							},
+							["delay"] = 1666100725,
 							["pets"] = {
 							},
-							["end_time"] = 1666100940,
-							["boss_fight_component"] = true,
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["friendlyfire"] = {
+							},
+							["aID"] = "31214",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 63428.007607,
-							["monster"] = true,
-							["dps_started"] = false,
-							["total"] = 63428.007607,
-							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
-							["nome"] = "萨塔里奥暮光雏龙",
+							["dps_started"] = false,
+							["end_time"] = 1666100940,
+							["damage_taken"] = 781968.007607,
+							["tipo"] = 1,
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -4769,32 +5234,32 @@ _detalhes_database = {
 											["雪花丶有点飘"] = 1846,
 											["Just"] = 32435,
 											["大风车滋滋转"] = 6124,
+											["日出东芳"] = 10360,
 											["陌戮"] = 9724,
 											["魂之信仰"] = 2939,
-											["日出东芳"] = 10360,
 										},
 										["n_dmg"] = 60944,
-										["a_dmg"] = 7205,
+										["b_dmg"] = 245,
 										["n_min"] = 245,
 										["g_dmg"] = 0,
 										["counter"] = 152,
-										["DODGE"] = 46,
+										["r_amt"] = 0,
 										["total"] = 63428,
 										["c_max"] = 2484,
 										["MISS"] = 12,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["BLOCK"] = 31,
-										["spellschool"] = 1,
+										["a_amt"] = 4,
 										["extra"] = {
 										},
-										["PARRY"] = 18,
 										["c_min"] = 2484,
+										["PARRY"] = 18,
+										["BLOCK"] = 31,
 										["successful_casted"] = 0,
-										["a_amt"] = 4,
+										["spellschool"] = 1,
 										["n_amt"] = 44,
-										["b_dmg"] = 245,
-										["r_amt"] = 0,
+										["DODGE"] = 46,
+										["a_dmg"] = 7205,
 									}, -- [1]
 									[60708] = {
 										["c_amt"] = 0,
@@ -4814,58 +5279,175 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 60708,
 										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 32,
+										["a_dmg"] = 0,
 										["RESIST"] = 5,
+										["extra"] = {
+										},
 										["MISS"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["total"] = 63428.007607,
+							["nome"] = "萨塔里奥暮光雏龙",
+							["on_hold"] = false,
+							["custom"] = 0,
+							["last_event"] = 1666100725,
+							["last_dps"] = 0,
+							["start_time"] = 1666100885,
+							["serial"] = "Creature-0-5002-615-15071-31214-00014EADA4",
+							["classe"] = "UNKNOW",
+						}, -- [16]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.008442,
+							["damage_from"] = {
+								["暗矛掷斧者"] = true,
+								["暴风城士兵"] = true,
+								["幽暗城法师"] = true,
+								["奥格瑞玛步兵"] = true,
+								["暴风城法师"] = true,
+								["米尔格隆·高山"] = true,
+								["达纳苏斯弓箭手"] = true,
+							},
+							["targets"] = {
+								["达纳苏斯弓箭手"] = 16904,
+								["暴风城士兵"] = 23055,
+								["先驱者加斯提努斯"] = 695,
+								["奥格瑞玛步兵"] = 12630,
+								["奥格瑞玛萨满祭司"] = 2240,
+								["暗矛掷斧者"] = 6636,
+							},
+							["pets"] = {
+							},
+							["aID"] = "18946",
+							["damage_taken"] = 48062.008442,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 62160.008442,
+							["serial"] = "Creature-0-4527-530-968-18946-000050177F",
+							["dps_started"] = false,
+							["end_time"] = 1666196403,
+							["total"] = 62160.008442,
+							["on_hold"] = false,
+							["nome"] = "攻城地狱火",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 3,
+										["c_dmg"] = 6339,
+										["g_amt"] = 0,
+										["n_max"] = 2320,
+										["targets"] = {
+											["达纳苏斯弓箭手"] = 13423,
+											["暴风城士兵"] = 19209,
+											["奥格瑞玛步兵"] = 10538,
+											["奥格瑞玛萨满祭司"] = 1893,
+											["暗矛掷斧者"] = 4515,
+										},
+										["n_dmg"] = 43239,
+										["n_min"] = 1448,
+										["g_dmg"] = 0,
+										["counter"] = 31,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["c_max"] = 3272,
+										["MISS"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["DODGE"] = 3,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["PARRY"] = 1,
+										["c_min"] = 3067,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 24,
+										["b_dmg"] = 5711,
+										["total"] = 49578,
+									}, -- [1]
+									[33651] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 367,
+										["targets"] = {
+											["达纳苏斯弓箭手"] = 3481,
+											["暴风城士兵"] = 3846,
+											["先驱者加斯提努斯"] = 695,
+											["奥格瑞玛步兵"] = 2092,
+											["奥格瑞玛萨满祭司"] = 347,
+											["暗矛掷斧者"] = 2121,
+										},
+										["n_dmg"] = 12582,
+										["n_min"] = 333,
+										["g_dmg"] = 0,
+										["counter"] = 36,
+										["total"] = 12582,
+										["c_max"] = 0,
+										["id"] = 33651,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
 										["extra"] = {
 										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
-										["successful_casted"] = 32,
+										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 0,
+										["n_amt"] = 36,
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
+							["last_event"] = 1666193343,
+							["last_dps"] = 0,
+							["monster"] = true,
+							["custom"] = 0,
+							["tipo"] = 1,
 							["friendlyfire"] = {
 							},
-							["serial"] = "Creature-0-5002-615-15071-31214-00014EADA4",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1666100725,
-							["damage_taken"] = 781968.007607,
-							["start_time"] = 1666100885,
-							["delay"] = 1666100725,
-							["tipo"] = 1,
-						}, -- [16]
+							["start_time"] = 1666196385,
+							["delay"] = 1666193343,
+							["friendlyfire_total"] = 0,
+						}, -- [17]
 						{
 							["flag_original"] = 4372,
 							["totalabsorbed"] = 0.002259,
-							["friendlyfire"] = {
-							},
-							["on_hold"] = false,
 							["damage_from"] = {
 								["火焰旋风"] = true,
 							},
 							["targets"] = {
 								["萨塔里奥"] = 58481,
 							},
+							["delay"] = 1666100854,
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
-							["end_time"] = 1666100940,
+							["damage_taken"] = 2175.002259,
+							["last_dps"] = 0,
 							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 58481.002259,
-							["serial"] = "Creature-0-5002-615-15071-1964-00004EAD67",
+							["end_time"] = 1666100940,
 							["dps_started"] = false,
 							["total"] = 58481.002259,
+							["friendlyfire"] = {
+							},
 							["ownerName"] = "踏遍天涯",
 							["nome"] = "树人 <踏遍天涯>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 10,
@@ -4880,36 +5462,37 @@ _detalhes_database = {
 										["n_min"] = 405,
 										["g_dmg"] = 8627,
 										["counter"] = 110,
-										["DODGE"] = 2,
+										["r_amt"] = 0,
 										["total"] = 58481,
 										["c_max"] = 1238,
-										["a_dmg"] = 0,
+										["b_dmg"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
 										["MISS"] = 5,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
 										["extra"] = {
 										},
 										["PARRY"] = 3,
 										["c_min"] = 1025,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
 										["n_amt"] = 69,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["DODGE"] = 2,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["tipo"] = 1,
 							["aID"] = "1964",
-							["last_dps"] = 0,
+							["boss_fight_component"] = true,
 							["custom"] = 0,
 							["last_event"] = 1666100854,
-							["damage_taken"] = 2175.002259,
+							["on_hold"] = false,
 							["start_time"] = 1666100879,
-							["delay"] = 1666100854,
-							["tipo"] = 1,
-						}, -- [17]
+							["serial"] = "Creature-0-5002-615-15071-1964-00004EAD67",
+							["friendlyfire_total"] = 0,
+						}, -- [18]
 						{
 							["flag_original"] = 16936,
 							["totalabsorbed"] = 28682.003335,
@@ -4919,26 +5502,26 @@ _detalhes_database = {
 								["特变电工"] = 9147,
 								["陌戮"] = 8197,
 								["大风车滋滋转"] = 8803,
+								["日出东芳"] = 8605,
 								["雪花丶有点飘"] = 6896,
 								["踏遍天涯"] = 5287,
 								["魂之信仰"] = 7850,
-								["日出东芳"] = 8605,
 							},
 							["pets"] = {
 							},
 							["classe"] = "UNKNOW",
+							["nome"] = "暮光传送门",
+							["aID"] = "",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 54785.003335,
-							["on_hold"] = false,
-							["boss_fight_component"] = true,
+							["delay"] = 1666100796,
 							["dps_started"] = false,
-							["total"] = 54785.003335,
 							["end_time"] = 1666100940,
-							["friendlyfire_total"] = 0,
-							["nome"] = "暮光传送门",
+							["total"] = 54785.003335,
+							["damage_taken"] = 0.003335,
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[57874] = {
 										["c_amt"] = 0,
@@ -4950,10 +5533,10 @@ _detalhes_database = {
 											["特变电工"] = 9147,
 											["陌戮"] = 8197,
 											["大风车滋滋转"] = 8803,
+											["日出东芳"] = 8605,
 											["雪花丶有点飘"] = 6896,
 											["踏遍天涯"] = 5287,
 											["魂之信仰"] = 7850,
-											["日出东芳"] = 8605,
 										},
 										["n_dmg"] = 54785,
 										["n_min"] = 286,
@@ -4963,64 +5546,242 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 57874,
 										["r_dmg"] = 26103,
-										["spellschool"] = 32,
-										["extra"] = {
-										},
+										["r_amt"] = 61,
+										["b_dmg"] = 0,
 										["a_dmg"] = 545,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 1,
 										["n_amt"] = 131,
-										["b_dmg"] = 0,
-										["r_amt"] = 61,
+										["extra"] = {
+										},
+										["spellschool"] = 32,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "",
-							["serial"] = "GameObject-0-5002-615-15071-193988-00004EADB1",
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["friendlyfire"] = {
 							},
-							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1666100796,
-							["damage_taken"] = 0.003335,
+							["on_hold"] = false,
 							["start_time"] = 1666100919,
-							["delay"] = 1666100796,
+							["serial"] = "GameObject-0-5002-615-15071-193988-00004EADB1",
+							["friendlyfire_total"] = 0,
+						}, -- [19]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.004607,
+							["damage_from"] = {
+								["暗矛掷斧者"] = true,
+								["暴风城士兵"] = true,
+								["达纳苏斯弓箭手"] = true,
+								["奥格瑞玛萨满祭司"] = true,
+								["幽暗城法师"] = true,
+								["奥格瑞玛步兵"] = true,
+								["暴风城法师"] = true,
+								["米尔格隆·高山"] = true,
+								["先驱者加斯提努斯"] = true,
+							},
+							["targets"] = {
+								["暗矛掷斧者"] = 6121,
+								["暴风城士兵"] = 11826,
+								["米尔格隆·高山"] = 13456,
+								["奥格瑞玛步兵"] = 3022,
+								["奥格瑞玛萨满祭司"] = 4533,
+								["先驱者加斯提努斯"] = 14142,
+							},
+							["pets"] = {
+							},
+							["aID"] = "18944",
+							["damage_taken"] = 81963.004607,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 53100.004607,
+							["serial"] = "Creature-0-4527-530-968-18944-000150168D",
+							["dps_started"] = false,
+							["end_time"] = 1666196403,
+							["total"] = 53100.004607,
+							["on_hold"] = false,
+							["nome"] = "魔能士兵",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 1,
+										["c_dmg"] = 4753,
+										["g_amt"] = 0,
+										["n_max"] = 1577,
+										["targets"] = {
+											["暗矛掷斧者"] = 2914,
+											["暴风城士兵"] = 7712,
+											["米尔格隆·高山"] = 9159,
+											["奥格瑞玛步兵"] = 1384,
+											["奥格瑞玛萨满祭司"] = 3022,
+											["先驱者加斯提努斯"] = 8791,
+										},
+										["n_dmg"] = 28229,
+										["n_min"] = 1103,
+										["g_dmg"] = 0,
+										["counter"] = 26,
+										["DODGE"] = 1,
+										["r_amt"] = 0,
+										["c_max"] = 2682,
+										["MISS"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["PARRY"] = 1,
+										["c_min"] = 2071,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 21,
+										["b_dmg"] = 1238,
+										["total"] = 32982,
+									}, -- [1]
+									[32009] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1634,
+										["targets"] = {
+											["先驱者加斯提努斯"] = 2867,
+											["米尔格隆·高山"] = 1634,
+										},
+										["n_dmg"] = 4501,
+										["n_min"] = 1376,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 4501,
+										["c_max"] = 0,
+										["id"] = 32009,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[32008] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 90,
+										["targets"] = {
+											["米尔格隆·高山"] = 180,
+										},
+										["n_dmg"] = 180,
+										["n_min"] = 90,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 180,
+										["c_max"] = 0,
+										["id"] = 32008,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[15496] = {
+										["c_amt"] = 0,
+										["b_amt"] = 1,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1640,
+										["targets"] = {
+											["暗矛掷斧者"] = 3207,
+											["暴风城士兵"] = 4114,
+											["米尔格隆·高山"] = 2483,
+											["奥格瑞玛步兵"] = 1638,
+											["奥格瑞玛萨满祭司"] = 1511,
+											["先驱者加斯提努斯"] = 2484,
+										},
+										["n_dmg"] = 15437,
+										["n_min"] = 1207,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 15437,
+										["c_max"] = 0,
+										["id"] = 15496,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 11,
+										["b_dmg"] = 1584,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["last_event"] = 1666193339,
+							["last_dps"] = 0,
+							["monster"] = true,
+							["custom"] = 0,
 							["tipo"] = 1,
-						}, -- [18]
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1666196395,
+							["delay"] = 1666193339,
+							["friendlyfire_total"] = 0,
+						}, -- [20]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 4223.007945,
-							["aID"] = "31218",
 							["damage_from"] = {
 								["特变电工"] = true,
 								["陌戮"] = true,
 								["踏遍天涯"] = true,
-								["日出东芳"] = true,
-								["雪花丶有点飘"] = true,
 								["魂之信仰"] = true,
+								["雪花丶有点飘"] = true,
+								["日出东芳"] = true,
 							},
 							["targets"] = {
 								["特变电工"] = 5245,
 								["雪花丶有点飘"] = 18406,
 								["魂之信仰"] = 15847,
 							},
+							["delay"] = 1666100795,
 							["pets"] = {
 							},
-							["end_time"] = 1666100940,
-							["boss_fight_component"] = true,
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["friendlyfire"] = {
+							},
+							["aID"] = "31218",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 39498.00794500001,
-							["monster"] = true,
-							["dps_started"] = false,
-							["total"] = 39498.00794500001,
-							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
-							["nome"] = "沙德隆的追随者",
+							["dps_started"] = false,
+							["end_time"] = 1666100940,
+							["damage_taken"] = 195494.007945,
+							["tipo"] = 1,
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -5041,133 +5802,101 @@ _detalhes_database = {
 										["c_max"] = 12000,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["DODGE"] = 2,
-										["spellschool"] = 1,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 24809,
+										["a_amt"] = 4,
 										["c_min"] = 12000,
 										["successful_casted"] = 0,
-										["a_amt"] = 4,
+										["a_dmg"] = 24809,
 										["n_amt"] = 6,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["DODGE"] = 2,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-5002-615-15071-31218-00004EADB1",
-							["last_dps"] = 0,
+							["total"] = 39498.00794500001,
+							["nome"] = "沙德隆的追随者",
+							["on_hold"] = false,
 							["custom"] = 0,
 							["last_event"] = 1666100795,
-							["damage_taken"] = 195494.007945,
+							["last_dps"] = 0,
 							["start_time"] = 1666100924,
-							["delay"] = 1666100795,
-							["tipo"] = 1,
-						}, -- [19]
+							["serial"] = "Creature-0-5002-615-15071-31218-00004EADB1",
+							["classe"] = "UNKNOW",
+						}, -- [21]
 						{
-							["flag_original"] = 1320,
-							["totalabsorbed"] = 0.004901,
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.001071,
 							["damage_from"] = {
 							},
 							["targets"] = {
-								["斑点雄鹿"] = 14380,
-								["强壮的野狼"] = 5521,
+								["魔能士兵"] = 3891,
+								["攻城地狱火"] = 18225,
 							},
-							["on_hold"] = true,
 							["pets"] = {
 							},
-							["timeMachine"] = 5,
-							["friendlyfire_total"] = 0,
+							["tipo"] = 1,
+							["aID"] = "18949",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 19901.004901,
-							["aID"] = "4778-0398A909",
-							["dps_started"] = true,
-							["total"] = 19901.004901,
-							["classe"] = "UNGROUPPLAYER",
-							["serial"] = "Player-4778-0398A909",
-							["nome"] = "滋补烩面",
+							["total_without_pet"] = 22116.001071,
+							["classe"] = "UNKNOW",
+							["dps_started"] = false,
+							["end_time"] = 1666196403,
+							["serial"] = "Creature-0-4527-530-968-18949-0000500227",
+							["total"] = 22116.001071,
+							["nome"] = "暴风城法师",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
-									[49238] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 4308,
-										["g_amt"] = 0,
-										["n_max"] = 2149,
-										["targets"] = {
-											["斑点雄鹿"] = 4308,
-											["强壮的野狼"] = 2149,
-										},
-										["n_dmg"] = 2149,
-										["n_min"] = 2149,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 6457,
-										["c_max"] = 4308,
-										["id"] = 49238,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 4308,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[49240] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 4801,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["斑点雄鹿"] = 2401,
-											["强壮的野狼"] = 2400,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 4801,
-										["c_max"] = 2401,
-										["id"] = 49240,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 2400,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[49233] = {
+									[33624] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 972,
+										["n_max"] = 828,
 										["targets"] = {
-											["斑点雄鹿"] = 1416,
-											["强壮的野狼"] = 972,
+											["魔能士兵"] = 3891,
+											["攻城地狱火"] = 11260,
 										},
-										["n_dmg"] = 2388,
-										["n_min"] = 444,
+										["n_dmg"] = 15151,
+										["n_min"] = 662,
+										["g_dmg"] = 0,
+										["counter"] = 19,
+										["total"] = 15151,
+										["c_max"] = 0,
+										["id"] = 33624,
+										["r_dmg"] = 4387,
+										["spellschool"] = 16,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 19,
+										["b_dmg"] = 0,
+										["r_amt"] = 6,
+									},
+									[33417] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2865,
+										["targets"] = {
+											["攻城地狱火"] = 6965,
+										},
+										["n_dmg"] = 6965,
+										["n_min"] = 1911,
 										["g_dmg"] = 0,
 										["counter"] = 3,
-										["total"] = 2388,
+										["total"] = 6965,
 										["c_max"] = 0,
-										["id"] = 49233,
-										["r_dmg"] = 0,
+										["id"] = 33417,
+										["r_dmg"] = 1911,
 										["spellschool"] = 4,
 										["extra"] = {
 										},
@@ -5177,54 +5906,310 @@ _detalhes_database = {
 										["a_amt"] = 0,
 										["n_amt"] = 3,
 										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["r_amt"] = 1,
 									},
-									[60043] = {
-										["c_amt"] = 1,
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["damage_taken"] = 0.001071,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1666193343,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1666196390,
+							["delay"] = 1666193343,
+							["friendlyfire_total"] = 0,
+						}, -- [22]
+						{
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.004872,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["魔能士兵"] = 5796,
+								["攻城地狱火"] = 15157,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["aID"] = "18971",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 20953.004872,
+							["classe"] = "UNKNOW",
+							["dps_started"] = false,
+							["end_time"] = 1666196403,
+							["serial"] = "Creature-0-4527-530-968-18971-00004FFC86",
+							["total"] = 20953.004872,
+							["nome"] = "幽暗城法师",
+							["spells"] = {
+								["_ActorTable"] = {
+									[33463] = {
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 6255,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 0,
+										["n_max"] = 1960,
 										["targets"] = {
-											["斑点雄鹿"] = 6255,
+											["攻城地狱火"] = 8437,
 										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
+										["n_dmg"] = 8437,
+										["n_min"] = 1497,
 										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 6255,
-										["c_max"] = 6255,
-										["id"] = 60043,
+										["counter"] = 5,
+										["total"] = 8437,
+										["c_max"] = 0,
+										["id"] = 33463,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
+										["spellschool"] = 16,
 										["extra"] = {
 										},
 										["a_dmg"] = 0,
-										["c_min"] = 6255,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 0,
+										["n_amt"] = 5,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[33624] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 840,
+										["targets"] = {
+											["攻城地狱火"] = 6720,
+											["魔能士兵"] = 5796,
+										},
+										["n_dmg"] = 12516,
+										["n_min"] = 756,
+										["g_dmg"] = 0,
+										["counter"] = 15,
+										["total"] = 12516,
+										["c_max"] = 0,
+										["id"] = 33624,
+										["r_dmg"] = 756,
+										["spellschool"] = 16,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 15,
+										["b_dmg"] = 0,
+										["r_amt"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["damage_taken"] = 0.004872,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1666193343,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1666196388,
+							["delay"] = 1666193343,
+							["friendlyfire_total"] = 0,
+						}, -- [23]
+						{
+							["flag_original"] = 2584,
+							["totalabsorbed"] = 0.004857,
+							["damage_from"] = {
+								["攻城地狱火"] = true,
+								["魔能士兵"] = true,
+							},
+							["targets"] = {
+								["魔能士兵"] = 20751,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["aID"] = "18966",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 20751.004857,
+							["classe"] = "UNKNOW",
+							["dps_started"] = false,
+							["end_time"] = 1666196403,
+							["serial"] = "Creature-0-4527-530-968-18966-0000501755",
+							["total"] = 20751.004857,
+							["nome"] = "先驱者加斯提努斯",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 5527,
+										["targets"] = {
+											["魔能士兵"] = 19873,
+										},
+										["n_dmg"] = 19873,
+										["n_min"] = 4519,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 19873,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 4,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[33554] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 878,
+										["targets"] = {
+											["魔能士兵"] = 878,
+										},
+										["n_dmg"] = 878,
+										["n_min"] = 878,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 878,
+										["c_max"] = 0,
+										["id"] = 33554,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["damage_taken"] = 14837.004857,
 							["last_dps"] = 0,
 							["custom"] = 0,
+							["last_event"] = 1666193339,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1666196396,
+							["delay"] = 1666193339,
+							["friendlyfire_total"] = 0,
+						}, -- [24]
+						{
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.002358,
+							["damage_from"] = {
+								["魔能士兵"] = true,
+							},
+							["targets"] = {
+								["攻城地狱火"] = 1328,
+								["魔能士兵"] = 17859,
+							},
+							["pets"] = {
+							},
 							["tipo"] = 1,
-							["damage_taken"] = 0.004901,
-							["start_time"] = 1666101389,
-							["delay"] = 1666101394,
-							["last_event"] = 1666101394,
-						}, -- [20]
+							["aID"] = "18969",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 19187.002358,
+							["classe"] = "UNKNOW",
+							["dps_started"] = false,
+							["end_time"] = 1666196403,
+							["serial"] = "Creature-0-4527-530-968-18969-000050176A",
+							["total"] = 19187.002358,
+							["nome"] = "米尔格隆·高山",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 8970,
+										["g_amt"] = 0,
+										["n_max"] = 4465,
+										["targets"] = {
+											["魔能士兵"] = 17859,
+										},
+										["n_dmg"] = 8889,
+										["n_min"] = 4424,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 17859,
+										["c_max"] = 8970,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 8970,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[33643] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1328,
+										["targets"] = {
+											["攻城地狱火"] = 1328,
+										},
+										["n_dmg"] = 1328,
+										["n_min"] = 1328,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1328,
+										["c_max"] = 0,
+										["id"] = 33643,
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["damage_taken"] = 13456.002358,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1666193342,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1666196392,
+							["delay"] = 1666193342,
+							["friendlyfire_total"] = 0,
+						}, -- [25]
 						{
 							["flag_original"] = 8466,
 							["totalabsorbed"] = 0.001461,
-							["friendlyfire"] = {
-							},
-							["on_hold"] = false,
 							["damage_from"] = {
 								["火焰旋风"] = true,
 								["暮光裂隙 <塔尼布隆>"] = true,
@@ -5233,21 +6218,23 @@ _detalhes_database = {
 							["targets"] = {
 								["萨塔里奥"] = 17341,
 							},
+							["delay"] = 1666100855,
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
-							["end_time"] = 1666100940,
+							["damage_taken"] = 16607.001461,
+							["last_dps"] = 0,
 							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 17341.001461,
-							["serial"] = "Creature-0-5002-615-15071-31216-00014EAD89",
+							["end_time"] = 1666100940,
 							["dps_started"] = false,
 							["total"] = 17341.001461,
+							["friendlyfire"] = {
+							},
 							["ownerName"] = "日出东芳",
 							["nome"] = "镜像 <日出东芳>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[59637] = {
 										["c_amt"] = 2,
@@ -5266,17 +6253,17 @@ _detalhes_database = {
 										["c_max"] = 435,
 										["id"] = 59637,
 										["r_dmg"] = 2479,
-										["MISS"] = 1,
-										["spellschool"] = 4,
+										["r_amt"] = 13,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 340,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["n_amt"] = 23,
-										["b_dmg"] = 0,
-										["r_amt"] = 13,
+										["spellschool"] = 4,
+										["MISS"] = 1,
 									},
 									[59638] = {
 										["c_amt"] = 5,
@@ -5295,55 +6282,155 @@ _detalhes_database = {
 										["c_max"] = 538,
 										["id"] = 59638,
 										["r_dmg"] = 6858,
-										["MISS"] = 2,
+										["r_amt"] = 23,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 427,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 32,
 										["spellschool"] = 16,
+										["MISS"] = 2,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["aID"] = "31216",
+							["boss_fight_component"] = true,
+							["custom"] = 0,
+							["last_event"] = 1666100855,
+							["on_hold"] = false,
+							["start_time"] = 1666100887,
+							["serial"] = "Creature-0-5002-615-15071-31216-00014EAD89",
+							["friendlyfire_total"] = 0,
+						}, -- [26]
+						{
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.00841,
+							["damage_from"] = {
+								["攻城地狱火"] = true,
+								["魔能士兵"] = true,
+							},
+							["targets"] = {
+								["攻城地狱火"] = 6076,
+								["魔能士兵"] = 10834,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["aID"] = "18970",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 16910.00841,
+							["classe"] = "UNKNOW",
+							["dps_started"] = false,
+							["end_time"] = 1666196403,
+							["serial"] = "Creature-0-4527-530-968-18970-0000501625",
+							["total"] = 16910.00841,
+							["nome"] = "暗矛掷斧者",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1602,
+										["g_amt"] = 0,
+										["n_max"] = 1059,
+										["targets"] = {
+											["攻城地狱火"] = 6076,
+											["魔能士兵"] = 10358,
+										},
+										["n_dmg"] = 14832,
+										["n_min"] = 786,
+										["g_dmg"] = 0,
+										["counter"] = 20,
+										["total"] = 16434,
+										["c_max"] = 1602,
+										["a_dmg"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["MISS"] = 1,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["PARRY"] = 2,
+										["c_min"] = 1602,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 16,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[10277] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 241,
+										["targets"] = {
+											["魔能士兵"] = 476,
+										},
+										["n_dmg"] = 476,
+										["n_min"] = 235,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 476,
+										["c_max"] = 0,
+										["id"] = 10277,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
 										["extra"] = {
 										},
 										["a_dmg"] = 0,
-										["c_min"] = 427,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 32,
+										["n_amt"] = 2,
 										["b_dmg"] = 0,
-										["r_amt"] = 23,
+										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
-							["aID"] = "31216",
+							["on_hold"] = false,
+							["damage_taken"] = 12757.00841,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1666100855,
-							["damage_taken"] = 16607.001461,
-							["start_time"] = 1666100887,
-							["delay"] = 1666100855,
-							["tipo"] = 1,
-						}, -- [21]
+							["last_event"] = 1666193338,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1666196396,
+							["delay"] = 1666193338,
+							["friendlyfire_total"] = 0,
+						}, -- [27]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.007032,
-							["aID"] = "30616",
 							["damage_from"] = {
 							},
 							["targets"] = {
 								["镜像 <日出东芳>"] = 15111,
 							},
+							["delay"] = 1666100915,
 							["pets"] = {
 							},
-							["end_time"] = 1666100940,
-							["boss_fight_component"] = true,
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["friendlyfire"] = {
+							},
+							["aID"] = "30616",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 15111.007032,
-							["monster"] = true,
-							["dps_started"] = false,
-							["total"] = 15111.007032,
-							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
-							["nome"] = "烈焰飓风",
+							["dps_started"] = false,
+							["end_time"] = 1666100940,
+							["damage_taken"] = 0.007032,
+							["tipo"] = 1,
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[57491] = {
 										["c_amt"] = 0,
@@ -5362,61 +6449,59 @@ _detalhes_database = {
 										["counter"] = 18,
 										["total"] = 15111,
 										["c_max"] = 0,
-										["IMMUNE"] = 1,
+										["r_amt"] = 0,
 										["id"] = 57491,
 										["r_dmg"] = 0,
-										["MISS"] = 3,
+										["b_dmg"] = 0,
 										["spellschool"] = 4,
-										["extra"] = {
-										},
+										["a_amt"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["extra"] = {
+										},
 										["n_amt"] = 14,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["MISS"] = 3,
+										["IMMUNE"] = 1,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-5002-615-15071-30616-00004EAD99",
-							["last_dps"] = 0,
+							["total"] = 15111.007032,
+							["nome"] = "烈焰飓风",
+							["on_hold"] = false,
 							["custom"] = 0,
 							["last_event"] = 1666100915,
-							["damage_taken"] = 0.007032,
+							["last_dps"] = 0,
 							["start_time"] = 1666100935,
-							["delay"] = 1666100915,
-							["tipo"] = 1,
-						}, -- [22]
+							["serial"] = "Creature-0-5002-615-15071-30616-00004EAD99",
+							["classe"] = "UNKNOW",
+						}, -- [28]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.004412,
-							["friendlyfire_total"] = 0,
+							["monster"] = true,
 							["damage_from"] = {
 							},
 							["targets"] = {
 								["魂之信仰"] = 12333,
 							},
-							["serial"] = "Creature-0-5002-615-15071-30641-00004EADB4",
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
-							["end_time"] = 1666100940,
+							["total"] = 12333.004412,
+							["friendlyfire_total"] = 0,
 							["aID"] = "30641",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 12333.004412,
-							["monster"] = true,
-							["on_hold"] = false,
+							["damage_taken"] = 0.004412,
+							["delay"] = 1666100702,
 							["dps_started"] = false,
-							["total"] = 12333.004412,
+							["end_time"] = 1666100940,
 							["classe"] = "UNKNOW",
 							["ownerName"] = "沙德隆",
 							["nome"] = "暮光裂隙 <沙德隆>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[57581] = {
 										["c_amt"] = 0,
@@ -5425,8 +6510,8 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 12333,
 										["targets"] = {
-											["凸凸凹"] = 0,
 											["魂之信仰"] = 12333,
+											["凸凸凹"] = 0,
 										},
 										["n_dmg"] = 12333,
 										["n_min"] = 12333,
@@ -5436,57 +6521,57 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 57581,
 										["r_dmg"] = 0,
-										["IMMUNE"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 19,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["IMMUNE"] = 1,
 									},
 								},
-							},
-							["friendlyfire"] = {
+								["tipo"] = 2,
 							},
 							["last_dps"] = 0,
+							["last_event"] = 1666100702,
+							["boss_fight_component"] = true,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 0.004412,
+							["on_hold"] = false,
 							["start_time"] = 1666100939,
-							["delay"] = 1666100702,
-							["last_event"] = 1666100702,
-						}, -- [23]
+							["serial"] = "Creature-0-5002-615-15071-30641-00004EADB4",
+							["friendlyfire"] = {
+							},
+						}, -- [29]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.004133,
-							["friendlyfire_total"] = 0,
+							["monster"] = true,
 							["damage_from"] = {
 							},
 							["targets"] = {
 								["Just"] = 10534,
 								["镜像 <日出东芳>"] = 1316,
 							},
-							["serial"] = "Creature-0-5002-615-15071-30641-00004EAD88",
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
-							["end_time"] = 1666100940,
+							["total"] = 11850.004133,
+							["friendlyfire_total"] = 0,
 							["aID"] = "30641",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 11850.004133,
-							["monster"] = true,
-							["on_hold"] = false,
+							["damage_taken"] = 0.004133,
+							["delay"] = 1666100713,
 							["dps_started"] = false,
-							["total"] = 11850.004133,
+							["end_time"] = 1666100940,
 							["classe"] = "UNKNOW",
 							["ownerName"] = "塔尼布隆",
 							["nome"] = "暮光裂隙 <塔尼布隆>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[57581] = {
 										["c_amt"] = 0,
@@ -5506,134 +6591,233 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 57581,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 10534,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 9,
 										["a_amt"] = 1,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.004133,
-							["start_time"] = 1666100939,
-							["delay"] = 1666100713,
-							["last_event"] = 1666100713,
-						}, -- [24]
-						{
-							["flag_original"] = -2147483648,
-							["totalabsorbed"] = 0.008376,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["凸凸凹"] = 3184,
-							},
-							["on_hold"] = true,
-							["pets"] = {
-							},
-							["timeMachine"] = 4,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 3184.008376,
-							["aID"] = "",
-							["dps_started"] = true,
-							["total"] = 3184.008376,
-							["classe"] = "UNKNOW",
-							["serial"] = "",
-							["nome"] = "环境伤害 (坠落)",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[3] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1300,
-										["targets"] = {
-											["凸凸凹"] = 3184,
-										},
-										["n_dmg"] = 3184,
-										["n_min"] = 552,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 3184,
-										["c_max"] = 0,
-										["id"] = 3,
-										["r_dmg"] = 0,
-										["spellschool"] = 3,
+										["a_dmg"] = 10534,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 4,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
 									},
 								},
-							},
-							["friendlyfire"] = {
+								["tipo"] = 2,
 							},
 							["last_dps"] = 0,
+							["last_event"] = 1666100713,
+							["boss_fight_component"] = true,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 0.008376,
-							["start_time"] = 1666101196,
-							["delay"] = 1666101196,
-							["last_event"] = 1666101196,
-						}, -- [25]
+							["on_hold"] = false,
+							["start_time"] = 1666100939,
+							["serial"] = "Creature-0-5002-615-15071-30641-00004EAD88",
+							["friendlyfire"] = {
+							},
+						}, -- [30]
 						{
-							["flag_original"] = 1304,
-							["totalabsorbed"] = 0.004031,
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.006105,
 							["damage_from"] = {
+								["魔能士兵"] = true,
+								["攻城地狱火"] = true,
 							},
 							["targets"] = {
-								["兔子"] = 91,
+								["攻城地狱火"] = 1746,
+								["魔能士兵"] = 8531,
 							},
-							["on_hold"] = true,
 							["pets"] = {
 							},
-							["timeMachine"] = 6,
-							["friendlyfire_total"] = 0,
+							["tipo"] = 1,
+							["aID"] = "18950",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 91.004031,
-							["aID"] = "4778-053621F6",
-							["dps_started"] = true,
-							["total"] = 91.004031,
-							["classe"] = "UNGROUPPLAYER",
-							["serial"] = "Player-4778-053621F6",
-							["nome"] = "请叫我女王呀",
+							["total_without_pet"] = 10277.006105,
+							["classe"] = "UNKNOW",
+							["dps_started"] = false,
+							["end_time"] = 1666196403,
+							["serial"] = "Creature-0-4527-530-968-18950-0000501755",
+							["total"] = 10277.006105,
+							["nome"] = "奥格瑞玛步兵",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 91,
+										["n_max"] = 1067,
 										["targets"] = {
-											["兔子"] = 91,
+											["攻城地狱火"] = 816,
+											["魔能士兵"] = 7420,
 										},
-										["n_dmg"] = 91,
-										["n_min"] = 91,
+										["n_dmg"] = 8236,
+										["n_min"] = 789,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 8236,
+										["c_max"] = 0,
+										["a_dmg"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["DODGE"] = 1,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["PARRY"] = 2,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 9,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[33626] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1111,
+										["targets"] = {
+											["魔能士兵"] = 1111,
+											["攻城地狱火"] = 930,
+										},
+										["n_dmg"] = 2041,
+										["n_min"] = 930,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 2041,
+										["c_max"] = 0,
+										["id"] = 33626,
+										["r_dmg"] = 0,
+										["DODGE"] = 1,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[23511] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["攻城地狱火"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
 										["g_dmg"] = 0,
 										["counter"] = 1,
-										["total"] = 91,
+										["total"] = 0,
 										["c_max"] = 0,
+										["id"] = 23511,
+										["r_dmg"] = 0,
+										["MISS"] = 1,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["damage_taken"] = 15652.006105,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1666193338,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1666196396,
+							["delay"] = 1666193338,
+							["friendlyfire_total"] = 0,
+						}, -- [31]
+						{
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.008555,
+							["damage_from"] = {
+								["魔能士兵"] = true,
+								["攻城地狱火"] = true,
+							},
+							["targets"] = {
+								["攻城地狱火"] = 1696,
+								["魔能士兵"] = 8023,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["aID"] = "18948",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 9719.008555,
+							["classe"] = "UNKNOW",
+							["dps_started"] = false,
+							["end_time"] = 1666196403,
+							["serial"] = "Creature-0-4527-530-968-18948-0000501760",
+							["total"] = 9719.008555,
+							["nome"] = "暴风城士兵",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1039,
+										["targets"] = {
+											["攻城地狱火"] = 1696,
+											["魔能士兵"] = 5599,
+										},
+										["n_dmg"] = 7295,
+										["n_min"] = 776,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 7295,
+										["c_max"] = 0,
+										["MISS"] = 1,
 										["id"] = 1,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 8,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[33626] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1216,
+										["targets"] = {
+											["魔能士兵"] = 2424,
+										},
+										["n_dmg"] = 2424,
+										["n_min"] = 1208,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 2424,
+										["c_max"] = 0,
+										["id"] = 33626,
 										["r_dmg"] = 0,
 										["spellschool"] = 1,
 										["extra"] = {
@@ -5642,95 +6826,691 @@ _detalhes_database = {
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 1,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["damage_taken"] = 34881.008555,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1666193339,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1666196395,
+							["delay"] = 1666193339,
+							["friendlyfire_total"] = 0,
+						}, -- [32]
+						{
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.003882,
+							["damage_from"] = {
+								["攻城地狱火"] = true,
+							},
+							["targets"] = {
+								["魔能士兵"] = 1574,
+								["攻城地狱火"] = 3834,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["aID"] = "18965",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 5408.003882,
+							["classe"] = "UNKNOW",
+							["dps_started"] = false,
+							["end_time"] = 1666196403,
+							["serial"] = "Creature-0-4527-530-968-18965-000050111D",
+							["total"] = 5408.003882,
+							["nome"] = "达纳苏斯弓箭手",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 469,
+										["targets"] = {
+											["攻城地狱火"] = 2171,
+										},
+										["n_dmg"] = 2171,
+										["n_min"] = 392,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 2171,
+										["c_max"] = 0,
+										["DODGE"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["MISS"] = 1,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 5,
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									}, -- [1]
+									[15620] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 450,
+										["targets"] = {
+											["魔能士兵"] = 1574,
+											["攻城地狱火"] = 1663,
+										},
+										["n_dmg"] = 3237,
+										["n_min"] = 347,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 3237,
+										["c_max"] = 0,
+										["id"] = 15620,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 8,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["damage_taken"] = 16904.003882,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.004031,
-							["start_time"] = 1666101381,
-							["delay"] = 1666101381,
-							["last_event"] = 1666101381,
-						}, -- [26]
+							["last_event"] = 1666193338,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1666196393,
+							["delay"] = 1666193338,
+							["friendlyfire_total"] = 0,
+						}, -- [33]
 						{
 							["flag_original"] = 2600,
-							["totalabsorbed"] = 0.008117,
+							["totalabsorbed"] = 0.007311,
 							["damage_from"] = {
-								["滋补烩面"] = true,
+								["魔能士兵"] = true,
+								["攻城地狱火"] = true,
 							},
 							["targets"] = {
-							},
-							["friendlyfire"] = {
+								["魔能士兵"] = 4704,
 							},
 							["pets"] = {
 							},
+							["tipo"] = 1,
+							["aID"] = "18972",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 4704.007311,
+							["classe"] = "UNKNOW",
+							["dps_started"] = false,
+							["end_time"] = 1666196403,
+							["serial"] = "Creature-0-4527-530-968-18972-000050174B",
+							["total"] = 4704.007311,
+							["nome"] = "奥格瑞玛萨满祭司",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 1,
+										["c_dmg"] = 1646,
+										["g_amt"] = 0,
+										["n_max"] = 988,
+										["targets"] = {
+											["魔能士兵"] = 4289,
+										},
+										["n_dmg"] = 2643,
+										["n_min"] = 336,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 4289,
+										["c_max"] = 1646,
+										["MISS"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["DODGE"] = 1,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 1646,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 4,
+										["b_dmg"] = 988,
+										["r_amt"] = 0,
+									}, -- [1]
+									[15616] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 219,
+										["targets"] = {
+											["魔能士兵"] = 415,
+										},
+										["n_dmg"] = 415,
+										["n_min"] = 196,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 415,
+										["c_max"] = 0,
+										["id"] = 15616,
+										["r_dmg"] = 196,
+										["spellschool"] = 4,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
 							["on_hold"] = false,
+							["damage_taken"] = 6773.007311,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1666193338,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1666196398,
+							["delay"] = 1666193338,
+							["friendlyfire_total"] = 0,
+						}, -- [34]
+						{
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.00267,
+							["damage_from"] = {
+								["强壮的野狼"] = true,
+							},
+							["targets"] = {
+								["强壮的野狼"] = 682,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 0.008117,
+							["total_without_pet"] = 682.00267,
 							["aID"] = "31236",
 							["dps_started"] = false,
-							["total"] = 0.008117,
-							["classe"] = "UNKNOW",
-							["serial"] = "Creature-0-5002-571-6287-31236-00004EB066",
-							["nome"] = "斑点雄鹿",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-								},
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 14380.008117,
-							["start_time"] = 0,
-							["delay"] = 0,
-							["last_event"] = 0,
-						}, -- [27]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.005467,
+							["total"] = 682.00267,
+							["delay"] = 1666196343,
 							["friendlyfire"] = {
 							},
+							["nome"] = "斑点雄鹿",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 1,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 298,
+										["targets"] = {
+											["强壮的野狼"] = 682,
+										},
+										["n_dmg"] = 682,
+										["n_min"] = 155,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 682,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 155,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["end_time"] = 1666196403,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1666196343,
+							["damage_taken"] = 265.00267,
+							["start_time"] = 1666196399,
+							["serial"] = "Creature-0-5002-571-1128-31236-00005022F1",
+							["classe"] = "UNKNOW",
+						}, -- [35]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.002199,
 							["damage_from"] = {
-								["滋补烩面"] = true,
+								["斑点雄鹿"] = true,
+							},
+							["targets"] = {
+								["斑点雄鹿"] = 265,
+							},
+							["pets"] = {
+							},
+							["total"] = 265.002199,
+							["on_hold"] = false,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 265.002199,
+							["delay"] = 1666196342,
+							["monster"] = true,
+							["end_time"] = 1666196403,
+							["aID"] = "31233",
+							["friendlyfire"] = {
+							},
+							["nome"] = "强壮的野狼",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 265,
+										["targets"] = {
+											["斑点雄鹿"] = 265,
+										},
+										["n_dmg"] = 265,
+										["n_min"] = 265,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 265,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									}, -- [1]
+									[32919] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["斑点雄鹿"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 32919,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["dps_started"] = false,
+							["custom"] = 0,
+							["last_event"] = 1666196342,
+							["damage_taken"] = 682.002199,
+							["start_time"] = 1666196400,
+							["serial"] = "Creature-0-5002-571-1128-31233-000050192E",
+							["friendlyfire_total"] = 0,
+						}, -- [36]
+						{
+							["flag_original"] = 2584,
+							["totalabsorbed"] = 0.007969,
+							["damage_from"] = {
+								["金队萨满祭司"] = true,
 							},
 							["targets"] = {
 							},
 							["pets"] = {
 							},
-							["monster"] = true,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["tipo"] = 1,
+							["friendlyfire_total"] = 330,
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 0.005467,
-							["aID"] = "31233",
+							["total_without_pet"] = 0.007969,
+							["aID"] = "32342",
 							["dps_started"] = false,
-							["total"] = 0.005467,
-							["classe"] = "UNKNOW",
-							["serial"] = "Creature-0-5002-571-6287-31233-00004E9E63",
-							["nome"] = "强壮的野狼",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
+							["total"] = 0.007969,
+							["delay"] = 1666196322,
+							["friendlyfire"] = {
+								["金队萨满祭司"] = {
+									["total"] = 330,
+									["spells"] = {
+										330, -- [1]
+									},
 								},
 							},
+							["nome"] = "绿队圣骑士",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["金队萨满祭司"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["end_time"] = 1666196403,
 							["last_dps"] = 0,
 							["custom"] = 0,
+							["last_event"] = 1666196322,
+							["damage_taken"] = 784.007969,
+							["start_time"] = 1666196395,
+							["serial"] = "Creature-0-5002-571-1128-32342-0000502325",
+							["classe"] = "UNKNOW",
+						}, -- [37]
+						{
+							["flag_original"] = 2584,
+							["totalabsorbed"] = 0.005794,
+							["damage_from"] = {
+								["绿队圣骑士"] = true,
+								["绿队牧师"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+								"地缚图腾 <金队萨满祭司>", -- [1]
+							},
 							["tipo"] = 1,
-							["damage_taken"] = 5521.005467,
-							["start_time"] = 0,
-							["delay"] = 0,
-							["last_event"] = 0,
-						}, -- [28]
+							["friendlyfire_total"] = 1653,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.005794,
+							["aID"] = "32340",
+							["dps_started"] = false,
+							["total"] = 0.005794,
+							["delay"] = 1666196332,
+							["friendlyfire"] = {
+								["绿队圣骑士"] = {
+									["total"] = 784,
+									["spells"] = {
+										98, -- [1]
+										[12470] = 686,
+									},
+								},
+								["绿队牧师"] = {
+									["total"] = 869,
+									["spells"] = {
+										218, -- [1]
+										[12470] = 651,
+									},
+								},
+							},
+							["nome"] = "金队萨满祭司",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["绿队牧师"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 1,
+										["MISS"] = 1,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["end_time"] = 1666196403,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1666196332,
+							["damage_taken"] = 1194.005794,
+							["start_time"] = 1666196387,
+							["serial"] = "Creature-0-5002-571-1128-32340-0000502325",
+							["classe"] = "UNKNOW",
+						}, -- [38]
+						{
+							["flag_original"] = 2584,
+							["totalabsorbed"] = 0.005514,
+							["damage_from"] = {
+								["金队战士"] = true,
+								["金队萨满祭司"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["friendlyfire_total"] = 2002,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.005514,
+							["aID"] = "32343",
+							["dps_started"] = false,
+							["total"] = 0.005514,
+							["delay"] = 1666196332,
+							["friendlyfire"] = {
+								["金队战士"] = {
+									["total"] = 1138,
+									["spells"] = {
+										190, -- [1]
+										[14032] = 948,
+									},
+								},
+								["金队萨满祭司"] = {
+									["total"] = 864,
+									["spells"] = {
+										74, -- [1]
+										[14032] = 790,
+									},
+								},
+							},
+							["nome"] = "绿队牧师",
+							["spells"] = {
+								["_ActorTable"] = {
+									[44415] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["金队战士"] = 0,
+											["金队萨满祭司"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 44415,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 32,
+										["IMMUNE"] = 3,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["end_time"] = 1666196403,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1666196332,
+							["damage_taken"] = 1097.005514,
+							["start_time"] = 1666196386,
+							["serial"] = "Creature-0-5002-571-1128-32343-0000502325",
+							["classe"] = "UNKNOW",
+						}, -- [39]
+						{
+							["flag_original"] = 2584,
+							["totalabsorbed"] = 265.003911,
+							["damage_from"] = {
+								["绿队牧师"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["friendlyfire_total"] = 763,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.003911,
+							["aID"] = "32322",
+							["dps_started"] = false,
+							["total"] = 0.003911,
+							["delay"] = 1666196331,
+							["friendlyfire"] = {
+								["绿队牧师"] = {
+									["total"] = 763,
+									["spells"] = {
+										494, -- [1]
+										[32736] = 223,
+										[9080] = 46,
+									},
+								},
+							},
+							["nome"] = "金队战士",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["绿队牧师"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 1,
+										["MISS"] = 1,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["on_hold"] = false,
+							["end_time"] = 1666196403,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1666196331,
+							["damage_taken"] = 1138.003911,
+							["start_time"] = 1666196388,
+							["serial"] = "Creature-0-5002-571-1128-32322-0000502325",
+							["classe"] = "UNKNOW",
+						}, -- [40]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.002256,
@@ -5738,24 +7518,22 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
-							["aID"] = "30878",
+							["delay"] = 0,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
-							["classe"] = "UNKNOW",
+							["end_time"] = 1666100940,
+							["damage_taken"] = 0.002256,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002256,
-							["boss_fight_component"] = true,
-							["end_time"] = 1666100940,
-							["dps_started"] = false,
-							["total"] = 0.002256,
+							["aID"] = "30878",
 							["monster"] = true,
-							["on_hold"] = false,
-							["nome"] = "Vesperon Controller",
+							["total"] = 0.002256,
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[58766] = {
 										["c_amt"] = 0,
@@ -5773,69 +7551,168 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 58766,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
-							["serial"] = "Creature-0-5002-615-15071-30878-00004EADB1",
-							["last_dps"] = 0,
+							["dps_started"] = false,
+							["nome"] = "Vesperon Controller",
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
 							["last_event"] = 0,
-							["damage_taken"] = 0.002256,
+							["on_hold"] = false,
 							["start_time"] = 1666100940,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [29]
+							["serial"] = "Creature-0-5002-615-15071-30878-00004EADB1",
+							["classe"] = "UNKNOW",
+						}, -- [41]
 						{
-							["flag_original"] = 2600,
-							["totalabsorbed"] = 0.002096,
+							["flag_original"] = 8728,
+							["totalabsorbed"] = 0.001031,
 							["damage_from"] = {
-								["请叫我女王呀"] = true,
 							},
 							["targets"] = {
 							},
-							["friendlyfire"] = {
-							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["classe"] = "PET",
+							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 0.002096,
-							["aID"] = "721",
+							["total_without_pet"] = 0.001031,
+							["delay"] = 0,
 							["dps_started"] = false,
-							["total"] = 0.002096,
-							["classe"] = "UNKNOW",
-							["serial"] = "Creature-0-5002-571-6287-721-00004EAAE9",
-							["nome"] = "兔子",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-								},
+							["end_time"] = 1666196403,
+							["friendlyfire"] = {
 							},
+							["ownerName"] = "金队萨满祭司",
+							["nome"] = "地缚图腾 <金队萨满祭司>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[3600] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["绿队圣骑士"] = 0,
+											["绿队牧师"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 3600,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 8,
+										["MISS"] = 2,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["damage_taken"] = 0.001031,
+							["aID"] = "2630",
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 91.002096,
-							["start_time"] = 0,
+							["last_event"] = 1666196320,
+							["on_hold"] = false,
+							["start_time"] = 1666196403,
+							["serial"] = "Creature-0-5002-571-1128-2630-000050235D",
+							["total"] = 0.001031,
+						}, -- [42]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.004315,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["特变电工"] = 398,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 398.004315,
 							["delay"] = 0,
-							["last_event"] = 0,
-						}, -- [30]
+							["dps_started"] = false,
+							["total"] = 398.004315,
+							["monster"] = true,
+							["on_hold"] = false,
+							["nome"] = "希弗列尔达风暴之女",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 398,
+										["targets"] = {
+											["特变电工"] = 398,
+										},
+										["n_dmg"] = 398,
+										["n_min"] = 398,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 398,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["end_time"] = 1666196403,
+							["custom"] = 0,
+							["last_event"] = 1666196403,
+							["damage_taken"] = 0.004315,
+							["start_time"] = 1666196403,
+							["serial"] = "Creature-0-4894-571-7513-29323-000050235A",
+							["aID"] = "29323",
+						}, -- [43]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 8,
 					["tipo"] = 3,
+					["combatId"] = 8,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1300,
@@ -5864,18 +7741,12 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.002755,
 							["healing_taken"] = 815970.002755,
-							["boss_fight_component"] = true,
+							["totaldenied"] = 0.002755,
 							["end_time"] = 1666100940,
-							["healing_from"] = {
-								["魂之信仰"] = true,
-								["凸凸凹"] = true,
-								["大风车滋滋转"] = true,
-								["夕里安"] = true,
-							},
 							["heal_enemy_amt"] = 0,
-							["nome"] = "夕里安",
+							["aID"] = "4778-04F81AA5",
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[48707] = {
 										["c_amt"] = 0,
@@ -5895,9 +7766,9 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["夕里安"] = 36638,
 										},
-										["n_amt"] = 4,
-										["c_min"] = 0,
 										["c_curado"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 4,
 										["n_curado"] = 36638,
 										["totaldenied"] = 0,
 										["is_shield"] = true,
@@ -5946,9 +7817,9 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["夕里安"] = 11549,
 										},
-										["n_amt"] = 3,
-										["c_min"] = 0,
 										["c_curado"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 3,
 										["n_curado"] = 11549,
 										["totaldenied"] = 0,
 										["is_shield"] = true,
@@ -5972,9 +7843,9 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["夕里安"] = 700,
 										},
-										["n_amt"] = 5,
-										["c_min"] = 0,
 										["c_curado"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 5,
 										["n_curado"] = 700,
 										["totaldenied"] = 0,
 										["is_shield"] = true,
@@ -6006,21 +7877,30 @@ _detalhes_database = {
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1666100715,
 							["spec"] = 250,
+							["last_event"] = 1666100940,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["aID"] = "4778-04F81AA5",
-							["totaldenied"] = 0.002755,
+							["nome"] = "夕里安",
+							["start_time"] = 1666100715,
 							["delay"] = 1666100778,
-							["last_event"] = 1666100940,
+							["healing_from"] = {
+								["夕里安"] = true,
+								["凸凸凹"] = true,
+								["大风车滋滋转"] = true,
+								["魂之信仰"] = true,
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["陌戮"] = 39698,
+							["healing_from"] = {
+								["魂之信仰"] = true,
+								["凸凸凹"] = true,
+								["陌戮"] = true,
+								["大风车滋滋转"] = true,
 							},
 							["pets"] = {
 							},
@@ -6042,18 +7922,14 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.002296,
 							["healing_taken"] = 57191.002296,
-							["boss_fight_component"] = true,
+							["last_event"] = 1666100940,
 							["end_time"] = 1666100940,
-							["healing_from"] = {
-								["大风车滋滋转"] = true,
-								["凸凸凹"] = true,
-								["陌戮"] = true,
-								["魂之信仰"] = true,
+							["spec"] = 72,
+							["targets_overheal"] = {
+								["陌戮"] = 39698,
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "陌戮",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[23880] = {
 										["c_amt"] = 0,
@@ -6081,30 +7957,24 @@ _detalhes_database = {
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1666100622,
-							["spec"] = 72,
+							["totaldenied"] = 0.002296,
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["aID"] = "4778-04AC8F71",
-							["totaldenied"] = 0.002296,
+							["start_time"] = 1666100622,
 							["delay"] = 1666100922,
-							["last_event"] = 1666100940,
+							["boss_fight_component"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["特变电工"] = 8940,
-								["Just"] = 38605,
-								["大风车滋滋转"] = 11163,
-								["夕里安"] = 63930,
-								["凸凸凹"] = 14328,
-								["踏遍天涯"] = 11154,
-								["雪花丶有点飘"] = 22813,
-								["魂之信仰"] = 6994,
-								["陌戮"] = 2756,
-								["日出东芳"] = 15113,
+							["healing_from"] = {
+								["凸凸凹"] = true,
+								["大风车滋滋转"] = true,
+								["魂之信仰"] = true,
 							},
 							["pets"] = {
 							},
@@ -6120,10 +7990,10 @@ _detalhes_database = {
 								["夕里安"] = 121544,
 								["凸凸凹"] = 24501,
 								["踏遍天涯"] = 3283,
+								["日出东芳"] = 14680,
+								["Just"] = 81239,
 								["雪花丶有点飘"] = 20183,
 								["魂之信仰"] = 11834,
-								["Just"] = 81239,
-								["日出东芳"] = 14680,
 							},
 							["heal_enemy"] = {
 							},
@@ -6138,33 +8008,39 @@ _detalhes_database = {
 								["夕里安"] = 246439,
 								["雪花丶有点飘"] = 39659,
 								["踏遍天涯"] = 9634,
-								["魂之信仰"] = 28852,
-								["凸凸凹"] = 30768,
-								["Just"] = 204924,
 								["日出东芳"] = 24681,
+								["Just"] = 204924,
+								["凸凸凹"] = 30768,
+								["魂之信仰"] = 28852,
 							},
 							["totalover_without_pet"] = 0.003643,
 							["healing_taken"] = 36546.003643,
-							["boss_fight_component"] = true,
-							["spec"] = 256,
+							["last_event"] = 1666100939,
 							["end_time"] = 1666100940,
-							["healing_from"] = {
-								["凸凸凹"] = true,
-								["魂之信仰"] = true,
-								["大风车滋滋转"] = true,
+							["spec"] = 256,
+							["targets_overheal"] = {
+								["特变电工"] = 8940,
+								["Just"] = 38605,
+								["大风车滋滋转"] = 11163,
+								["夕里安"] = 63930,
+								["凸凸凹"] = 14328,
+								["踏遍天涯"] = 11154,
+								["日出东芳"] = 15113,
+								["陌戮"] = 2756,
+								["雪花丶有点飘"] = 22813,
+								["魂之信仰"] = 6994,
 							},
 							["nome"] = "大风车滋滋转",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[64844] = {
 										["c_amt"] = 4,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
-											["日出东芳"] = 6460,
+											["踏遍天涯"] = 8168,
 											["特变电工"] = 1108,
 											["雪花丶有点飘"] = 10924,
-											["踏遍天涯"] = 8168,
+											["日出东芳"] = 6460,
 										},
 										["n_max"] = 4899,
 										["targets"] = {
@@ -6225,9 +8101,9 @@ _detalhes_database = {
 										["targets"] = {
 											["雪花丶有点飘"] = 2332,
 											["Just"] = 17514,
-											["魂之信仰"] = 2732,
-											["日出东芳"] = 537,
 											["夕里安"] = 19809,
+											["日出东芳"] = 537,
+											["魂之信仰"] = 2732,
 										},
 										["n_min"] = 101,
 										["counter"] = 42,
@@ -6238,13 +8114,13 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["雪花丶有点飘"] = 2332,
 											["Just"] = 17514,
-											["魂之信仰"] = 2732,
-											["日出东芳"] = 537,
 											["夕里安"] = 19809,
+											["日出东芳"] = 537,
+											["魂之信仰"] = 2732,
 										},
-										["n_amt"] = 42,
-										["c_min"] = 0,
 										["c_curado"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 42,
 										["n_curado"] = 42924,
 										["totaldenied"] = 0,
 										["is_shield"] = true,
@@ -6254,17 +8130,17 @@ _detalhes_database = {
 										["c_amt"] = 0,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
-											["魂之信仰"] = 2700,
+											["大风车滋滋转"] = 4612,
 											["特变电工"] = 1502,
 											["陌戮"] = 1561,
-											["大风车滋滋转"] = 4612,
+											["魂之信仰"] = 2700,
 										},
 										["n_max"] = 402,
 										["targets"] = {
-											["魂之信仰"] = 402,
+											["大风车滋滋转"] = 0,
 											["特变电工"] = 0,
 											["陌戮"] = 0,
-											["大风车滋滋转"] = 0,
+											["魂之信仰"] = 402,
 										},
 										["n_min"] = 0,
 										["counter"] = 7,
@@ -6310,153 +8186,6 @@ _detalhes_database = {
 										["n_amt"] = 14,
 										["absorbed"] = 0,
 									},
-									[56160] = {
-										["c_amt"] = 22,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["特变电工"] = 1791,
-											["陌戮"] = 1195,
-											["大风车滋滋转"] = 2388,
-											["夕里安"] = 7612,
-											["凸凸凹"] = 12541,
-											["踏遍天涯"] = 2986,
-											["雪花丶有点飘"] = 6570,
-											["Just"] = 10119,
-											["日出东芳"] = 8653,
-										},
-										["n_max"] = 1314,
-										["targets"] = {
-											["特变电工"] = 2388,
-											["陌戮"] = 2389,
-											["大风车滋滋转"] = 2389,
-											["夕里安"] = 15080,
-											["雪花丶有点飘"] = 3585,
-											["踏遍天涯"] = 2389,
-											["魂之信仰"] = 2413,
-											["凸凸凹"] = 0,
-											["Just"] = 10303,
-											["日出东芳"] = 3888,
-										},
-										["n_min"] = 1194,
-										["counter"] = 71,
-										["overheal"] = 53855,
-										["total"] = 44824,
-										["c_max"] = 1792,
-										["id"] = 56160,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 13623,
-										["n_curado"] = 31201,
-										["totaldenied"] = 0,
-										["n_amt"] = 49,
-										["absorbed"] = 0,
-									},
-									[52985] = {
-										["c_amt"] = 8,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["夕里安"] = 11034,
-											["Just"] = 10890,
-											["魂之信仰"] = 2299,
-										},
-										["n_max"] = 3309,
-										["targets"] = {
-											["雪花丶有点飘"] = 9060,
-											["Just"] = 42959,
-											["魂之信仰"] = 10051,
-											["日出东芳"] = 5887,
-											["夕里安"] = 50700,
-										},
-										["n_min"] = 644,
-										["counter"] = 42,
-										["overheal"] = 24223,
-										["total"] = 118657,
-										["c_max"] = 4796,
-										["id"] = 52985,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 2563,
-										["c_curado"] = 29676,
-										["n_curado"] = 88981,
-										["totaldenied"] = 0,
-										["n_amt"] = 34,
-										["absorbed"] = 0,
-									},
-									[48068] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["特变电工"] = 4539,
-											["魂之信仰"] = 1995,
-											["夕里安"] = 13818,
-										},
-										["n_max"] = 1281,
-										["targets"] = {
-											["魂之信仰"] = 4152,
-											["特变电工"] = 1336,
-											["Just"] = 5875,
-											["夕里安"] = 20597,
-										},
-										["n_min"] = 0,
-										["counter"] = 43,
-										["overheal"] = 20352,
-										["total"] = 31960,
-										["c_max"] = 0,
-										["id"] = 48068,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 31960,
-										["totaldenied"] = 0,
-										["n_amt"] = 43,
-										["absorbed"] = 0,
-									},
-									[48066] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 267190,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 5998,
-										["targets"] = {
-											["特变电工"] = 11996,
-											["陌戮"] = 9257,
-											["大风车滋滋转"] = 11597,
-											["夕里安"] = 101735,
-											["凸凸凹"] = 24501,
-											["踏遍天涯"] = 3283,
-											["雪花丶有点飘"] = 17851,
-											["魂之信仰"] = 9102,
-											["Just"] = 63725,
-											["日出东芳"] = 14143,
-										},
-										["n_min"] = 5,
-										["counter"] = 168,
-										["overheal"] = 0,
-										["total"] = 267190,
-										["c_max"] = 0,
-										["id"] = 48066,
-										["targets_absorbs"] = {
-											["特变电工"] = 11996,
-											["陌戮"] = 9257,
-											["大风车滋滋转"] = 11597,
-											["夕里安"] = 101735,
-											["凸凸凹"] = 24501,
-											["踏遍天涯"] = 3283,
-											["雪花丶有点飘"] = 17851,
-											["魂之信仰"] = 9102,
-											["Just"] = 63725,
-											["日出东芳"] = 14143,
-										},
-										["n_amt"] = 168,
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 267190,
-										["totaldenied"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
 									[33110] = {
 										["c_amt"] = 5,
 										["totalabsorb"] = 0,
@@ -6486,33 +8215,172 @@ _detalhes_database = {
 										["n_amt"] = 6,
 										["absorbed"] = 0,
 									},
+									[52985] = {
+										["c_amt"] = 8,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["魂之信仰"] = 2299,
+											["Just"] = 10890,
+											["夕里安"] = 11034,
+										},
+										["n_max"] = 3309,
+										["targets"] = {
+											["雪花丶有点飘"] = 9060,
+											["Just"] = 42959,
+											["夕里安"] = 50700,
+											["日出东芳"] = 5887,
+											["魂之信仰"] = 10051,
+										},
+										["n_min"] = 644,
+										["counter"] = 42,
+										["overheal"] = 24223,
+										["total"] = 118657,
+										["c_max"] = 4796,
+										["id"] = 52985,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 2563,
+										["c_curado"] = 29676,
+										["n_curado"] = 88981,
+										["totaldenied"] = 0,
+										["n_amt"] = 34,
+										["absorbed"] = 0,
+									},
+									[48068] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["特变电工"] = 4539,
+											["夕里安"] = 13818,
+											["魂之信仰"] = 1995,
+										},
+										["n_max"] = 1281,
+										["targets"] = {
+											["夕里安"] = 20597,
+											["特变电工"] = 1336,
+											["Just"] = 5875,
+											["魂之信仰"] = 4152,
+										},
+										["n_min"] = 0,
+										["counter"] = 43,
+										["overheal"] = 20352,
+										["total"] = 31960,
+										["c_max"] = 0,
+										["id"] = 48068,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 31960,
+										["totaldenied"] = 0,
+										["n_amt"] = 43,
+										["absorbed"] = 0,
+									},
+									[48066] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 267190,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 5998,
+										["targets"] = {
+											["特变电工"] = 11996,
+											["陌戮"] = 9257,
+											["大风车滋滋转"] = 11597,
+											["夕里安"] = 101735,
+											["凸凸凹"] = 24501,
+											["踏遍天涯"] = 3283,
+											["日出东芳"] = 14143,
+											["Just"] = 63725,
+											["雪花丶有点飘"] = 17851,
+											["魂之信仰"] = 9102,
+										},
+										["n_min"] = 5,
+										["counter"] = 168,
+										["overheal"] = 0,
+										["total"] = 267190,
+										["c_max"] = 0,
+										["id"] = 48066,
+										["targets_absorbs"] = {
+											["特变电工"] = 11996,
+											["陌戮"] = 9257,
+											["大风车滋滋转"] = 11597,
+											["夕里安"] = 101735,
+											["凸凸凹"] = 24501,
+											["踏遍天涯"] = 3283,
+											["日出东芳"] = 14143,
+											["Just"] = 63725,
+											["雪花丶有点飘"] = 17851,
+											["魂之信仰"] = 9102,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 168,
+										["n_curado"] = 267190,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[56160] = {
+										["c_amt"] = 22,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["特变电工"] = 1791,
+											["陌戮"] = 1195,
+											["大风车滋滋转"] = 2388,
+											["夕里安"] = 7612,
+											["凸凸凹"] = 12541,
+											["踏遍天涯"] = 2986,
+											["雪花丶有点飘"] = 6570,
+											["Just"] = 10119,
+											["日出东芳"] = 8653,
+										},
+										["n_max"] = 1314,
+										["targets"] = {
+											["特变电工"] = 2388,
+											["陌戮"] = 2389,
+											["大风车滋滋转"] = 2389,
+											["夕里安"] = 15080,
+											["雪花丶有点飘"] = 3585,
+											["踏遍天涯"] = 2389,
+											["日出东芳"] = 3888,
+											["Just"] = 10303,
+											["凸凸凹"] = 0,
+											["魂之信仰"] = 2413,
+										},
+										["n_min"] = 1194,
+										["counter"] = 71,
+										["overheal"] = 53855,
+										["total"] = 44824,
+										["c_max"] = 1792,
+										["id"] = 56160,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 13623,
+										["n_curado"] = 31201,
+										["totaldenied"] = 0,
+										["n_amt"] = 49,
+										["absorbed"] = 0,
+									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["totaldenied"] = 0.003643,
 							["heal_enemy_amt"] = 0,
-							["start_time"] = 1666100588,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["aID"] = "4778-04D4E39F",
-							["totaldenied"] = 0.003643,
+							["start_time"] = 1666100588,
 							["delay"] = 1666100584,
-							["last_event"] = 1666100939,
+							["boss_fight_component"] = true,
 						}, -- [3]
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["特变电工"] = 96153,
-								["Just"] = 41633,
-								["大风车滋滋转"] = 716,
-								["夕里安"] = 29993,
-								["镜像 <日出东芳>"] = 1670,
-								["雪花丶有点飘"] = 84789,
-								["日出东芳"] = 24398,
-								["踏遍天涯"] = 25982,
-								["凸凸凹"] = 6959,
-								["陌戮"] = 84511,
-								["树人 <踏遍天涯>"] = 4046,
-								["魂之信仰"] = 59252,
+							["healing_from"] = {
+								["凸凸凹"] = true,
+								["魂之信仰"] = true,
+								["大风车滋滋转"] = true,
 							},
 							["pets"] = {
 							},
@@ -6534,28 +8402,36 @@ _detalhes_database = {
 								["陌戮"] = 17040,
 								["大风车滋滋转"] = 4501,
 								["夕里安"] = 31206,
+								["魂之信仰"] = 28852,
 								["凸凸凹"] = 821,
+								["Just"] = 45510,
+								["踏遍天涯"] = 3181,
+								["树人 <踏遍天涯>"] = 3206,
+								["特变电工"] = 13801,
 								["雪花丶有点飘"] = 11394,
 								["日出东芳"] = 4629,
-								["踏遍天涯"] = 3181,
-								["特变电工"] = 13801,
-								["树人 <踏遍天涯>"] = 3206,
-								["Just"] = 45510,
-								["魂之信仰"] = 28852,
 							},
 							["totalover_without_pet"] = 0.007491,
 							["healing_taken"] = 74468.007491,
-							["boss_fight_component"] = true,
+							["last_event"] = 1666100940,
 							["end_time"] = 1666100940,
-							["healing_from"] = {
-								["凸凸凹"] = true,
-								["大风车滋滋转"] = true,
-								["魂之信仰"] = true,
+							["spec"] = 70,
+							["targets_overheal"] = {
+								["特变电工"] = 96153,
+								["Just"] = 41633,
+								["大风车滋滋转"] = 716,
+								["夕里安"] = 29993,
+								["魂之信仰"] = 59252,
+								["雪花丶有点飘"] = 84789,
+								["树人 <踏遍天涯>"] = 4046,
+								["踏遍天涯"] = 25982,
+								["陌戮"] = 84511,
+								["凸凸凹"] = 6959,
+								["镜像 <日出东芳>"] = 1670,
+								["日出东芳"] = 24398,
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "魂之信仰",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[20267] = {
 										["c_amt"] = 0,
@@ -6565,14 +8441,14 @@ _detalhes_database = {
 											["Just"] = 41633,
 											["大风车滋滋转"] = 412,
 											["夕里安"] = 29993,
-											["镜像 <日出东芳>"] = 1670,
-											["雪花丶有点飘"] = 84789,
-											["日出东芳"] = 24398,
-											["踏遍天涯"] = 25982,
-											["凸凸凹"] = 6631,
-											["陌戮"] = 84227,
-											["树人 <踏遍天涯>"] = 4046,
 											["魂之信仰"] = 53697,
+											["雪花丶有点飘"] = 84789,
+											["树人 <踏遍天涯>"] = 4046,
+											["踏遍天涯"] = 25982,
+											["陌戮"] = 84227,
+											["凸凸凹"] = 6631,
+											["镜像 <日出东芳>"] = 1670,
+											["日出东芳"] = 24398,
 										},
 										["n_max"] = 993,
 										["targets"] = {
@@ -6580,14 +8456,14 @@ _detalhes_database = {
 											["Just"] = 38067,
 											["大风车滋滋转"] = 0,
 											["夕里安"] = 19350,
-											["镜像 <日出东芳>"] = 279,
-											["雪花丶有点飘"] = 11004,
-											["日出东芳"] = 4170,
-											["踏遍天涯"] = 3181,
-											["凸凸凹"] = 0,
-											["陌戮"] = 15661,
-											["树人 <踏遍天涯>"] = 2300,
 											["魂之信仰"] = 19076,
+											["雪花丶有点飘"] = 11004,
+											["树人 <踏遍天涯>"] = 2300,
+											["踏遍天涯"] = 3181,
+											["陌戮"] = 15661,
+											["凸凸凹"] = 0,
+											["镜像 <日出东芳>"] = 279,
+											["日出东芳"] = 4170,
 										},
 										["n_min"] = 599,
 										["counter"] = 1095,
@@ -6608,10 +8484,10 @@ _detalhes_database = {
 										["c_amt"] = 0,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
-											["大风车滋滋转"] = 304,
+											["魂之信仰"] = 3,
 											["凸凸凹"] = 328,
 											["陌戮"] = 284,
-											["魂之信仰"] = 3,
+											["大风车滋滋转"] = 304,
 										},
 										["n_max"] = 3262,
 										["targets"] = {
@@ -6620,11 +8496,11 @@ _detalhes_database = {
 											["大风车滋滋转"] = 4501,
 											["夕里安"] = 11856,
 											["凸凸凹"] = 821,
+											["魂之信仰"] = 2166,
+											["Just"] = 7443,
 											["雪花丶有点飘"] = 390,
 											["特变电工"] = 480,
 											["日出东芳"] = 459,
-											["Just"] = 7443,
-											["魂之信仰"] = 2166,
 										},
 										["n_min"] = 161,
 										["counter"] = 32,
@@ -6639,31 +8515,6 @@ _detalhes_database = {
 										["n_curado"] = 30401,
 										["totaldenied"] = 0,
 										["n_amt"] = 32,
-										["absorbed"] = 0,
-									},
-									[54203] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["魂之信仰"] = 606,
-										},
-										["n_max"] = 606,
-										["targets"] = {
-											["魂之信仰"] = 1817,
-										},
-										["n_min"] = 605,
-										["counter"] = 4,
-										["overheal"] = 606,
-										["total"] = 1817,
-										["c_max"] = 0,
-										["id"] = 54203,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 1817,
-										["totaldenied"] = 0,
-										["n_amt"] = 4,
 										["absorbed"] = 0,
 									},
 									[48785] = {
@@ -6691,31 +8542,50 @@ _detalhes_database = {
 										["n_amt"] = 3,
 										["absorbed"] = 0,
 									},
+									[54203] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["魂之信仰"] = 606,
+										},
+										["n_max"] = 606,
+										["targets"] = {
+											["魂之信仰"] = 1817,
+										},
+										["n_min"] = 605,
+										["counter"] = 4,
+										["overheal"] = 606,
+										["total"] = 1817,
+										["c_max"] = 0,
+										["id"] = 54203,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 1817,
+										["totaldenied"] = 0,
+										["n_amt"] = 4,
+										["absorbed"] = 0,
+									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1666100578,
-							["spec"] = 70,
+							["totaldenied"] = 0.007491,
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["aID"] = "4778-0520EB5E",
-							["totaldenied"] = 0.007491,
+							["start_time"] = 1666100578,
 							["delay"] = 0,
-							["last_event"] = 1666100940,
+							["boss_fight_component"] = true,
 						}, -- [4]
 						{
 							["flag_original"] = 1300,
-							["targets_overheal"] = {
-								["特变电工"] = 36715,
-								["陌戮"] = 49892,
-								["大风车滋滋转"] = 16212,
-								["夕里安"] = 347398,
-								["雪花丶有点飘"] = 106454,
-								["踏遍天涯"] = 52784,
-								["日出东芳"] = 16251,
-								["Just"] = 185643,
-								["凸凸凹"] = 64068,
-								["魂之信仰"] = 10267,
+							["healing_from"] = {
+								["凸凸凹"] = true,
+								["大风车滋滋转"] = true,
+								["魂之信仰"] = true,
 							},
 							["pets"] = {
 							},
@@ -6725,8 +8595,8 @@ _detalhes_database = {
 							["total_without_pet"] = 661563.002715,
 							["total"] = 661563.002715,
 							["targets_absorbs"] = {
-								["夕里安"] = 34950,
 								["凸凸凹"] = 1204,
+								["夕里安"] = 34950,
 							},
 							["heal_enemy"] = {
 							},
@@ -6741,24 +8611,30 @@ _detalhes_database = {
 								["夕里安"] = 437463,
 								["雪花丶有点飘"] = 8369,
 								["踏遍天涯"] = 4692,
-								["日出东芳"] = 1543,
-								["凸凸凹"] = 6830,
-								["Just"] = 160098,
 								["魂之信仰"] = 16764,
+								["Just"] = 160098,
+								["凸凸凹"] = 6830,
+								["日出东芳"] = 1543,
 							},
 							["totalover_without_pet"] = 0.002715,
 							["healing_taken"] = 38419.002715,
-							["boss_fight_component"] = true,
+							["last_event"] = 1666100939,
 							["end_time"] = 1666100940,
-							["healing_from"] = {
-								["凸凸凹"] = true,
-								["魂之信仰"] = true,
-								["大风车滋滋转"] = true,
+							["spec"] = 65,
+							["targets_overheal"] = {
+								["特变电工"] = 36715,
+								["陌戮"] = 49892,
+								["大风车滋滋转"] = 16212,
+								["夕里安"] = 347398,
+								["雪花丶有点飘"] = 106454,
+								["踏遍天涯"] = 52784,
+								["魂之信仰"] = 10267,
+								["凸凸凹"] = 64068,
+								["Just"] = 185643,
+								["日出东芳"] = 16251,
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "凸凸凹",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[53654] = {
 										["c_amt"] = 0,
@@ -6802,9 +8678,9 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["夕里安"] = 34950,
 										},
-										["n_amt"] = 18,
-										["c_min"] = 0,
 										["c_curado"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 18,
 										["n_curado"] = 34950,
 										["totaldenied"] = 0,
 										["is_shield"] = true,
@@ -6814,14 +8690,14 @@ _detalhes_database = {
 										["c_amt"] = 0,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
-											["踏遍天涯"] = 3385,
+											["魂之信仰"] = 7967,
 											["特变电工"] = 6785,
 											["陌戮"] = 6656,
+											["踏遍天涯"] = 3385,
+											["雪花丶有点飘"] = 7803,
+											["凸凸凹"] = 6230,
 											["大风车滋滋转"] = 4362,
 											["日出东芳"] = 4406,
-											["凸凸凹"] = 6230,
-											["雪花丶有点飘"] = 7803,
-											["魂之信仰"] = 7967,
 										},
 										["n_max"] = 1538,
 										["targets"] = {
@@ -6830,10 +8706,10 @@ _detalhes_database = {
 											["大风车滋滋转"] = 1572,
 											["雪花丶有点飘"] = 1045,
 											["踏遍天涯"] = 0,
-											["日出东芳"] = 0,
-											["Just"] = 741,
-											["凸凸凹"] = 0,
 											["魂之信仰"] = 4431,
+											["凸凸凹"] = 0,
+											["Just"] = 741,
+											["日出东芳"] = 0,
 										},
 										["n_min"] = 50,
 										["counter"] = 53,
@@ -6857,21 +8733,21 @@ _detalhes_database = {
 											["凸凸凹"] = 10087,
 											["陌戮"] = 14709,
 											["踏遍天涯"] = 29881,
+											["魂之信仰"] = 2300,
+											["Just"] = 66472,
 											["雪花丶有点飘"] = 14499,
 											["日出东芳"] = 9675,
-											["Just"] = 66472,
-											["魂之信仰"] = 2300,
 										},
 										["n_max"] = 10095,
 										["targets"] = {
+											["魂之信仰"] = 12333,
 											["雪花丶有点飘"] = 0,
-											["凸凸凹"] = 0,
 											["陌戮"] = 9908,
 											["踏遍天涯"] = 0,
-											["日出东芳"] = 411,
-											["夕里安"] = 10057,
 											["Just"] = 67694,
-											["魂之信仰"] = 12333,
+											["夕里安"] = 10057,
+											["凸凸凹"] = 0,
+											["日出东芳"] = 411,
 										},
 										["n_min"] = 0,
 										["counter"] = 23,
@@ -7035,6 +8911,32 @@ _detalhes_database = {
 										["n_amt"] = 115,
 										["absorbed"] = 0,
 									},
+									[57350] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 1204,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 1204,
+										["targets"] = {
+											["凸凸凹"] = 1204,
+										},
+										["n_min"] = 1204,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 1204,
+										["c_max"] = 0,
+										["id"] = 57350,
+										["targets_absorbs"] = {
+											["凸凸凹"] = 1204,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 1,
+										["n_curado"] = 1204,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
 									[48788] = {
 										["c_amt"] = 0,
 										["totalabsorb"] = 0,
@@ -7060,43 +8962,18 @@ _detalhes_database = {
 										["n_amt"] = 1,
 										["absorbed"] = 0,
 									},
-									[57350] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 1204,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 1204,
-										["targets"] = {
-											["凸凸凹"] = 1204,
-										},
-										["n_min"] = 1204,
-										["counter"] = 1,
-										["overheal"] = 0,
-										["total"] = 1204,
-										["c_max"] = 0,
-										["id"] = 57350,
-										["targets_absorbs"] = {
-											["凸凸凹"] = 1204,
-										},
-										["n_amt"] = 1,
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 1204,
-										["totaldenied"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1666100602,
-							["spec"] = 65,
+							["totaldenied"] = 0.002715,
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["aID"] = "4778-04F57291",
-							["totaldenied"] = 0.002715,
+							["start_time"] = 1666100602,
 							["delay"] = 1666100594,
-							["last_event"] = 1666100939,
+							["boss_fight_component"] = true,
 						}, -- [5]
 						{
 							["flag_original"] = 132372,
@@ -7124,18 +9001,12 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.008504,
 							["healing_taken"] = 430808.008504,
-							["boss_fight_component"] = true,
+							["totaldenied"] = 0.008504,
 							["end_time"] = 1666100940,
-							["healing_from"] = {
-								["大风车滋滋转"] = true,
-								["凸凸凹"] = true,
-								["Just"] = true,
-								["魂之信仰"] = true,
-							},
 							["heal_enemy_amt"] = 0,
-							["nome"] = "Just",
+							["aID"] = "4778-04D9BDE6",
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[31852] = {
 										["c_amt"] = 0,
@@ -7155,9 +9026,9 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Just"] = 1016,
 										},
-										["n_amt"] = 2,
-										["c_min"] = 0,
 										["c_curado"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 2,
 										["n_curado"] = 1016,
 										["totaldenied"] = 0,
 										["is_shield"] = true,
@@ -7181,32 +9052,35 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Just"] = 19260,
 										},
-										["n_amt"] = 17,
-										["c_min"] = 0,
 										["c_curado"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 17,
 										["n_curado"] = 19260,
 										["totaldenied"] = 0,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1666100868,
 							["spec"] = 66,
+							["last_event"] = 1666100841,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["aID"] = "4778-04D9BDE6",
-							["totaldenied"] = 0.008504,
+							["nome"] = "Just",
+							["start_time"] = 1666100868,
 							["delay"] = 1666100841,
-							["last_event"] = 1666100841,
+							["healing_from"] = {
+								["魂之信仰"] = true,
+								["凸凸凹"] = true,
+								["Just"] = true,
+								["大风车滋滋转"] = true,
+							},
 						}, -- [6]
 						{
 							["flag_original"] = 1300,
-							["healing_from"] = {
-								["凸凸凹"] = true,
-								["大风车滋滋转"] = true,
-								["魂之信仰"] = true,
+							["targets_overheal"] = {
 							},
 							["pets"] = {
 							},
@@ -7215,8 +9089,7 @@ _detalhes_database = {
 							["totalover"] = 0.002822,
 							["total_without_pet"] = 0.002822,
 							["total"] = 0.002822,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 259,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -7227,33 +9100,34 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.002822,
 							["healing_taken"] = 59422.002822,
-							["boss_fight_component"] = true,
-							["end_time"] = 1666100940,
-							["targets_overheal"] = {
-							},
-							["heal_enemy_amt"] = 0,
-							["nome"] = "雪花丶有点飘",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-								},
-							},
-							["grupo"] = true,
-							["start_time"] = 1666100940,
-							["classe"] = "ROGUE",
-							["custom"] = 0,
-							["last_event"] = 0,
-							["spec"] = 259,
-							["totaldenied"] = 0.002822,
-							["delay"] = 0,
 							["tipo"] = 2,
-						}, -- [7]
-						{
-							["flag_original"] = 1297,
+							["end_time"] = 1666100940,
+							["targets_absorbs"] = {
+							},
 							["healing_from"] = {
 								["凸凸凹"] = true,
 								["魂之信仰"] = true,
 								["大风车滋滋转"] = true,
+							},
+							["nome"] = "雪花丶有点飘",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["totaldenied"] = 0.002822,
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["classe"] = "ROGUE",
+							["start_time"] = 1666100940,
+							["delay"] = 0,
+							["boss_fight_component"] = true,
+						}, -- [7]
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
 							},
 							["pets"] = {
 							},
@@ -7262,8 +9136,7 @@ _detalhes_database = {
 							["totalover"] = 0.004324,
 							["total_without_pet"] = 0.004324,
 							["total"] = 0.004324,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 259,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -7274,33 +9147,34 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.004324,
 							["healing_taken"] = 34053.004324,
-							["boss_fight_component"] = true,
+							["tipo"] = 2,
 							["end_time"] = 1666100940,
-							["targets_overheal"] = {
+							["targets_absorbs"] = {
 							},
-							["heal_enemy_amt"] = 0,
+							["healing_from"] = {
+								["凸凸凹"] = true,
+								["大风车滋滋转"] = true,
+								["魂之信仰"] = true,
+							},
 							["nome"] = "特变电工",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1666100940,
-							["classe"] = "ROGUE",
+							["totaldenied"] = 0.004324,
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["last_event"] = 0,
-							["spec"] = 259,
-							["totaldenied"] = 0.004324,
+							["classe"] = "ROGUE",
+							["start_time"] = 1666100940,
 							["delay"] = 0,
-							["tipo"] = 2,
+							["boss_fight_component"] = true,
 						}, -- [8]
 						{
 							["flag_original"] = 1300,
-							["healing_from"] = {
-								["凸凸凹"] = true,
-								["魂之信仰"] = true,
-								["大风车滋滋转"] = true,
+							["targets_overheal"] = {
 							},
 							["pets"] = {
 								"树人 <踏遍天涯>", -- [1]
@@ -7310,8 +9184,7 @@ _detalhes_database = {
 							["totalover"] = 0.006456,
 							["total_without_pet"] = 0.006456,
 							["total"] = 0.006456,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 102,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -7322,26 +9195,30 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.006456,
 							["healing_taken"] = 17507.006456,
-							["boss_fight_component"] = true,
+							["tipo"] = 2,
 							["end_time"] = 1666100940,
-							["targets_overheal"] = {
+							["targets_absorbs"] = {
 							},
-							["heal_enemy_amt"] = 0,
+							["healing_from"] = {
+								["凸凸凹"] = true,
+								["大风车滋滋转"] = true,
+								["魂之信仰"] = true,
+							},
 							["nome"] = "踏遍天涯",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1666100940,
-							["classe"] = "DRUID",
+							["totaldenied"] = 0.006456,
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["last_event"] = 0,
-							["spec"] = 102,
-							["totaldenied"] = 0.006456,
+							["classe"] = "DRUID",
+							["start_time"] = 1666100940,
 							["delay"] = 0,
-							["tipo"] = 2,
+							["boss_fight_component"] = true,
 						}, -- [9]
 						{
 							["flag_original"] = 4372,
@@ -7351,7 +9228,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["aID"] = "1964",
+							["classe"] = "PET",
 							["totalover"] = 0.005818,
 							["total_without_pet"] = 0.005818,
 							["total"] = 0.005818,
@@ -7367,29 +9244,33 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.005818,
 							["healing_taken"] = 3206.005818,
-							["boss_fight_component"] = true,
 							["end_time"] = 1666100940,
 							["targets_overheal"] = {
 							},
 							["ownerName"] = "踏遍天涯",
-							["nome"] = "树人 <踏遍天涯>",
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 3,
 							},
-							["start_time"] = 1666100940,
-							["classe"] = "PET",
-							["custom"] = 0,
-							["last_event"] = 0,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 0,
 							["totaldenied"] = 0.005818,
-							["delay"] = 0,
+							["custom"] = 0,
 							["tipo"] = 2,
+							["aID"] = "1964",
+							["start_time"] = 1666100940,
+							["delay"] = 0,
+							["nome"] = "树人 <踏遍天涯>",
 						}, -- [10]
 						{
 							["flag_original"] = 1298,
-							["targets_overheal"] = {
+							["healing_from"] = {
+								["大风车滋滋转"] = true,
+								["凸凸凹"] = true,
+								["日出东芳"] = true,
+								["魂之信仰"] = true,
 							},
 							["pets"] = {
 								"镜像 <日出东芳>", -- [1]
@@ -7413,18 +9294,13 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.002298,
 							["healing_taken"] = 33124.002298,
-							["boss_fight_component"] = true,
+							["last_event"] = 1666100693,
 							["end_time"] = 1666100940,
-							["healing_from"] = {
-								["魂之信仰"] = true,
-								["凸凸凹"] = true,
-								["日出东芳"] = true,
-								["大风车滋滋转"] = true,
+							["spec"] = 62,
+							["targets_overheal"] = {
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "日出东芳",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[27131] = {
 										["c_amt"] = 0,
@@ -7444,25 +9320,26 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["日出东芳"] = 2271,
 										},
-										["n_amt"] = 1,
-										["c_min"] = 0,
 										["c_curado"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 1,
 										["n_curado"] = 2271,
 										["totaldenied"] = 0,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1666100939,
-							["spec"] = 62,
+							["totaldenied"] = 0.002298,
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["aID"] = "4778-04605F8E",
-							["totaldenied"] = 0.002298,
+							["start_time"] = 1666100939,
 							["delay"] = 1666100693,
-							["last_event"] = 1666100693,
+							["boss_fight_component"] = true,
 						}, -- [11]
 						{
 							["flag_original"] = 8466,
@@ -7472,7 +9349,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["aID"] = "31216",
+							["classe"] = "PET",
 							["totalover"] = 0.007863,
 							["total_without_pet"] = 0.007863,
 							["total"] = 0.007863,
@@ -7488,206 +9365,268 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.007863,
 							["healing_taken"] = 279.007863,
-							["boss_fight_component"] = true,
 							["end_time"] = 1666100940,
 							["targets_overheal"] = {
 							},
 							["ownerName"] = "日出东芳",
-							["nome"] = "镜像 <日出东芳>",
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 3,
 							},
-							["start_time"] = 1666100940,
-							["classe"] = "PET",
-							["custom"] = 0,
-							["last_event"] = 0,
 							["heal_enemy_amt"] = 0,
+							["last_event"] = 0,
 							["totaldenied"] = 0.007863,
-							["delay"] = 0,
+							["custom"] = 0,
 							["tipo"] = 2,
+							["aID"] = "31216",
+							["start_time"] = 1666100940,
+							["delay"] = 0,
+							["nome"] = "镜像 <日出东芳>",
 						}, -- [12]
 						{
 							["flag_original"] = 1304,
-							["totalabsorb"] = 0.008427,
+							["totalabsorb"] = 0.008644,
 							["last_hps"] = 0,
 							["healing_from"] = {
 							},
 							["targets"] = {
 							},
+							["nome"] = "手术室",
 							["pets"] = {
 							},
-							["totalover_without_pet"] = 0.008427,
+							["totalover_without_pet"] = 0.008644,
 							["targets_overheal"] = {
-								["七分之一爱人"] = 1816,
+								["手术室"] = 466,
 							},
-							["classe"] = "UNGROUPPLAYER",
-							["totalover"] = 1816.008427,
-							["total_without_pet"] = 0.008427,
-							["serial"] = "Player-4778-0382F1A0",
-							["iniciar_hps"] = true,
-							["aID"] = "4778-0382F1A0",
-							["total"] = 0.008427,
+							["healing_taken"] = 0.008644,
+							["totalover"] = 466.008644,
+							["total_without_pet"] = 0.008644,
+							["iniciar_hps"] = false,
+							["start_time"] = 1666196173,
 							["heal_enemy_amt"] = 0,
+							["end_time"] = 1666196403,
+							["aID"] = "4778-049FD48F",
+							["classe"] = "UNGROUPPLAYER",
 							["timeMachine"] = 1,
-							["nome"] = "七分之一爱人",
-							["targets_absorbs"] = {
-							},
-							["start_time"] = 1666101345,
-							["healing_taken"] = 0.008427,
-							["heal_enemy"] = {
-							},
 							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[47892] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["七分之一爱人"] = 1816,
-										},
-										["n_max"] = 0,
-										["targets"] = {
-											["七分之一爱人"] = 0,
-										},
-										["n_min"] = 0,
-										["counter"] = 4,
-										["overheal"] = 1816,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 47892,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 0,
-										["totaldenied"] = 0,
-										["n_amt"] = 4,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["custom"] = 0,
-							["last_event"] = 1666101359,
-							["on_hold"] = true,
-							["totaldenied"] = 0.008427,
-							["delay"] = 1666101359,
-							["tipo"] = 2,
-						}, -- [13]
-						{
-							["flag_original"] = 1304,
-							["totalabsorb"] = 0.006571,
-							["last_hps"] = 0,
-							["healing_from"] = {
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["totalover_without_pet"] = 0.006571,
-							["targets_overheal"] = {
-								["迷路喵喵"] = 1654,
-							},
-							["classe"] = "UNGROUPPLAYER",
-							["totalover"] = 1654.006571,
-							["total_without_pet"] = 0.006571,
-							["serial"] = "Player-4778-0419DBA2",
-							["iniciar_hps"] = true,
-							["aID"] = "4778-0419DBA2",
-							["total"] = 0.006571,
-							["heal_enemy_amt"] = 0,
-							["timeMachine"] = 2,
-							["nome"] = "迷路喵喵",
-							["targets_absorbs"] = {
-							},
-							["start_time"] = 1666101346,
-							["healing_taken"] = 0.006571,
-							["heal_enemy"] = {
-							},
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[28189] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["迷路喵喵"] = 1654,
-										},
-										["n_max"] = 0,
-										["targets"] = {
-											["迷路喵喵"] = 0,
-										},
-										["n_min"] = 0,
-										["counter"] = 4,
-										["overheal"] = 1654,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 28189,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 0,
-										["totaldenied"] = 0,
-										["n_amt"] = 4,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["custom"] = 0,
-							["last_event"] = 1666101362,
-							["on_hold"] = true,
-							["totaldenied"] = 0.006571,
-							["delay"] = 1666101362,
-							["tipo"] = 2,
-						}, -- [14]
-						{
-							["flag_original"] = 1304,
-							["totalabsorb"] = 0.003521,
-							["last_hps"] = 0,
-							["healing_from"] = {
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["totalover_without_pet"] = 0.003521,
-							["targets_overheal"] = {
-								["吖嘿"] = 1458,
-							},
-							["classe"] = "UNGROUPPLAYER",
-							["totalover"] = 1458.003521,
-							["total_without_pet"] = 0.003521,
-							["serial"] = "Player-4778-04D21C1D",
-							["iniciar_hps"] = true,
-							["aID"] = "4778-04D21C1D",
-							["total"] = 0.003521,
-							["heal_enemy_amt"] = 0,
-							["timeMachine"] = 3,
-							["nome"] = "吖嘿",
-							["targets_absorbs"] = {
-							},
-							["start_time"] = 1666101347,
-							["healing_taken"] = 0.003521,
-							["heal_enemy"] = {
-							},
-							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[47893] = {
 										["c_amt"] = 0,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
-											["吖嘿"] = 1458,
+											["手术室"] = 466,
 										},
 										["n_max"] = 0,
 										["targets"] = {
-											["吖嘿"] = 0,
+											["手术室"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 1,
+										["overheal"] = 466,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 47893,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_amt"] = 1,
+										["n_curado"] = 0,
+										["totaldenied"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["total"] = 0.008644,
+							["serial"] = "Player-4778-049FD48F",
+							["heal_enemy"] = {
+							},
+							["targets_absorbs"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1666196173,
+							["on_hold"] = false,
+							["totaldenied"] = 0.008644,
+							["delay"] = 0,
+							["tipo"] = 2,
+						}, -- [13]
+						{
+							["flag_original"] = 1304,
+							["totalabsorb"] = 0.006748,
+							["last_hps"] = 0,
+							["healing_from"] = {
+							},
+							["targets"] = {
+							},
+							["nome"] = "氺获",
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.006748,
+							["targets_overheal"] = {
+								["氺获"] = 445,
+							},
+							["healing_taken"] = 0.006748,
+							["totalover"] = 445.006748,
+							["total_without_pet"] = 0.006748,
+							["iniciar_hps"] = false,
+							["start_time"] = 1666196181,
+							["heal_enemy_amt"] = 0,
+							["end_time"] = 1666196403,
+							["aID"] = "4778-04D4819C",
+							["classe"] = "UNGROUPPLAYER",
+							["timeMachine"] = 2,
+							["spells"] = {
+								["_ActorTable"] = {
+									[47893] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["氺获"] = 445,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["氺获"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 1,
+										["overheal"] = 445,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 47893,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_amt"] = 1,
+										["n_curado"] = 0,
+										["totaldenied"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["total"] = 0.006748,
+							["serial"] = "Player-4778-04D4819C",
+							["heal_enemy"] = {
+							},
+							["targets_absorbs"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1666196181,
+							["on_hold"] = false,
+							["totaldenied"] = 0.006748,
+							["delay"] = 0,
+							["tipo"] = 2,
+						}, -- [14]
+						{
+							["flag_original"] = 1304,
+							["totalabsorb"] = 0.005153,
+							["last_hps"] = 0,
+							["healing_from"] = {
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.005153,
+							["targets_overheal"] = {
+								["云天冷月"] = 370,
+							},
+							["classe"] = "UNGROUPPLAYER",
+							["totalover"] = 370.005153,
+							["total_without_pet"] = 0.005153,
+							["total"] = 0.005153,
+							["iniciar_hps"] = false,
+							["aID"] = "4778-05351DD6",
+							["end_time"] = 1666196403,
+							["delay"] = 1666196299,
+							["heal_enemy_amt"] = 0,
+							["nome"] = "云天冷月",
+							["spells"] = {
+								["_ActorTable"] = {
+									[47893] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["云天冷月"] = 370,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["云天冷月"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 1,
+										["overheal"] = 370,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 47893,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 1,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["last_event"] = 1666196299,
+							["healing_taken"] = 0.005153,
+							["heal_enemy"] = {
+							},
+							["targets_absorbs"] = {
+							},
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["totaldenied"] = 0.005153,
+							["serial"] = "Player-4778-05351DD6",
+							["start_time"] = 1666196402,
+						}, -- [15]
+						{
+							["flag_original"] = 1304,
+							["totalabsorb"] = 0.002336,
+							["last_hps"] = 0,
+							["healing_from"] = {
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.002336,
+							["targets_overheal"] = {
+								["嗯不行"] = 1173,
+							},
+							["classe"] = "UNGROUPPLAYER",
+							["totalover"] = 1173.002336,
+							["total_without_pet"] = 0.002336,
+							["total"] = 0.002336,
+							["iniciar_hps"] = false,
+							["aID"] = "4778-03B4B346",
+							["end_time"] = 1666196403,
+							["delay"] = 1666196326,
+							["heal_enemy_amt"] = 0,
+							["nome"] = "嗯不行",
+							["spells"] = {
+								["_ActorTable"] = {
+									[47893] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["嗯不行"] = 1173,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["嗯不行"] = 0,
 										},
 										["n_min"] = 0,
 										["counter"] = 3,
-										["overheal"] = 1458,
+										["overheal"] = 1173,
 										["total"] = 0,
 										["c_max"] = 0,
 										["id"] = 47893,
@@ -7701,17 +9640,120 @@ _detalhes_database = {
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
+							},
+							["last_event"] = 1666196326,
+							["healing_taken"] = 0.002336,
+							["heal_enemy"] = {
+							},
+							["targets_absorbs"] = {
 							},
 							["custom"] = 0,
-							["last_event"] = 1666101357,
-							["on_hold"] = true,
-							["totaldenied"] = 0.003521,
-							["delay"] = 1666101357,
 							["tipo"] = 2,
-						}, -- [15]
+							["on_hold"] = false,
+							["totaldenied"] = 0.002336,
+							["serial"] = "Player-4778-03B4B346",
+							["start_time"] = 1666196392,
+						}, -- [16]
+						{
+							["flag_original"] = 2584,
+							["totalabsorb"] = 800.006357,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+								["绿队牧师"] = 156,
+							},
+							["targets"] = {
+								["绿队牧师"] = 1649,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["healing_from"] = {
+								["绿队牧师"] = true,
+							},
+							["aID"] = "32343",
+							["totalover"] = 156.006357,
+							["total_without_pet"] = 1649.006357,
+							["total"] = 1649.006357,
+							["totalover_without_pet"] = 0.006357,
+							["heal_enemy_amt"] = 0,
+							["end_time"] = 1666196403,
+							["delay"] = 1666196330,
+							["healing_taken"] = 1649.006357,
+							["nome"] = "绿队牧师",
+							["targets_absorbs"] = {
+								["绿队牧师"] = 800,
+							},
+							["tipo"] = 2,
+							["classe"] = "UNKNOW",
+							["heal_enemy"] = {
+							},
+							["spells"] = {
+								["_ActorTable"] = {
+									[11974] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 800,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 456,
+										["targets"] = {
+											["绿队牧师"] = 800,
+										},
+										["n_min"] = 23,
+										["counter"] = 5,
+										["overheal"] = 0,
+										["total"] = 800,
+										["c_max"] = 0,
+										["id"] = 11974,
+										["targets_absorbs"] = {
+											["绿队牧师"] = 800,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 5,
+										["n_curado"] = 800,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[17843] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["绿队牧师"] = 156,
+										},
+										["n_max"] = 849,
+										["targets"] = {
+											["绿队牧师"] = 849,
+										},
+										["n_min"] = 849,
+										["counter"] = 1,
+										["overheal"] = 156,
+										["total"] = 849,
+										["c_max"] = 0,
+										["id"] = 17843,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 849,
+										["totaldenied"] = 0,
+										["n_amt"] = 1,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["custom"] = 0,
+							["last_event"] = 1666196330,
+							["on_hold"] = false,
+							["totaldenied"] = 0.006357,
+							["serial"] = "Creature-0-5002-571-1128-32343-0000502325",
+							["start_time"] = 1666196389,
+						}, -- [17]
 						{
 							["flag_original"] = 4376,
-							["totalabsorb"] = 0.002436,
+							["totalabsorb"] = 0.007006,
 							["last_hps"] = 0,
 							["healing_from"] = {
 							},
@@ -7719,45 +9761,41 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["totalover_without_pet"] = 0.002436,
+							["totalover_without_pet"] = 0.007006,
 							["targets_overheal"] = {
-								["海龟"] = 792,
-								["狂暴小浣熊"] = 822,
+								["轻云风静夜"] = 1272,
+								["细狗胖虎"] = 667,
+								["未知目标"] = 333,
 							},
 							["classe"] = "PET",
-							["totalover"] = 1614.002436,
-							["total_without_pet"] = 0.002436,
-							["serial"] = "Pet-0-5002-571-6287-2408-0101780BFA",
-							["iniciar_hps"] = true,
-							["aID"] = "Pet-0-5002-571-6287-2408-0101780BFA",
-							["total"] = 0.002436,
+							["totalover"] = 2272.007006,
+							["total_without_pet"] = 0.007006,
+							["total"] = 0.007006,
+							["iniciar_hps"] = false,
+							["aID"] = "Pet-0-5002-571-1128-29452-0901770545",
+							["end_time"] = 1666196403,
+							["delay"] = 1666196338,
 							["heal_enemy_amt"] = 0,
-							["timeMachine"] = 4,
-							["nome"] = "海龟",
-							["targets_absorbs"] = {
-							},
-							["start_time"] = 1666101357,
-							["healing_taken"] = 0.002436,
-							["heal_enemy"] = {
-							},
+							["nome"] = "未知目标",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[24529] = {
 										["c_amt"] = 0,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
-											["海龟"] = 792,
-											["狂暴小浣熊"] = 822,
+											["轻云风静夜"] = 1272,
+											["细狗胖虎"] = 667,
+											["未知目标"] = 333,
 										},
 										["n_max"] = 0,
 										["targets"] = {
-											["海龟"] = 0,
-											["狂暴小浣熊"] = 0,
+											["轻云风静夜"] = 0,
+											["细狗胖虎"] = 0,
+											["未知目标"] = 0,
 										},
 										["n_min"] = 0,
-										["counter"] = 4,
-										["overheal"] = 1614,
+										["counter"] = 6,
+										["overheal"] = 2272,
 										["total"] = 0,
 										["c_max"] = 0,
 										["id"] = 24529,
@@ -7767,181 +9805,14 @@ _detalhes_database = {
 										["c_curado"] = 0,
 										["n_curado"] = 0,
 										["totaldenied"] = 0,
-										["n_amt"] = 4,
+										["n_amt"] = 6,
 										["absorbed"] = 0,
 									},
 								},
-							},
-							["custom"] = 0,
-							["last_event"] = 1666101357,
-							["on_hold"] = true,
-							["totaldenied"] = 0.002436,
-							["delay"] = 1666101357,
-							["tipo"] = 2,
-						}, -- [16]
-						{
-							["flag_original"] = 1304,
-							["totalabsorb"] = 0.001086,
-							["last_hps"] = 0,
-							["healing_from"] = {
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["totalover_without_pet"] = 0.001086,
-							["targets_overheal"] = {
-								["沐子谦"] = 1561,
-							},
-							["classe"] = "UNGROUPPLAYER",
-							["totalover"] = 1561.001086,
-							["total_without_pet"] = 0.001086,
-							["serial"] = "Player-4778-047C1119",
-							["iniciar_hps"] = true,
-							["aID"] = "4778-047C1119",
-							["total"] = 0.001086,
-							["heal_enemy_amt"] = 0,
-							["timeMachine"] = 5,
-							["nome"] = "沐子谦",
-							["targets_absorbs"] = {
-							},
-							["start_time"] = 1666101347,
-							["healing_taken"] = 0.001086,
-							["heal_enemy"] = {
-							},
-							["spells"] = {
 								["tipo"] = 3,
-								["_ActorTable"] = {
-									[47893] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["沐子谦"] = 1561,
-										},
-										["n_max"] = 0,
-										["targets"] = {
-											["沐子谦"] = 0,
-										},
-										["n_min"] = 0,
-										["counter"] = 4,
-										["overheal"] = 1561,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 47893,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 0,
-										["totaldenied"] = 0,
-										["n_amt"] = 4,
-										["absorbed"] = 0,
-									},
-								},
 							},
-							["custom"] = 0,
-							["last_event"] = 1666101363,
-							["on_hold"] = true,
-							["totaldenied"] = 0.001086,
-							["delay"] = 1666101363,
-							["tipo"] = 2,
-						}, -- [17]
-						{
-							["flag_original"] = 1304,
-							["totalabsorb"] = 0.002274,
-							["last_hps"] = 0,
-							["healing_from"] = {
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["totalover_without_pet"] = 0.002274,
-							["targets_overheal"] = {
-								["意度"] = 3548,
-							},
-							["classe"] = "UNGROUPPLAYER",
-							["totalover"] = 3548.002274,
-							["total_without_pet"] = 0.002274,
-							["serial"] = "Player-4778-02689D06",
-							["iniciar_hps"] = true,
-							["aID"] = "4778-02689D06",
-							["total"] = 0.002274,
-							["heal_enemy_amt"] = 0,
-							["timeMachine"] = 6,
-							["nome"] = "意度",
-							["targets_absorbs"] = {
-							},
-							["start_time"] = 1666101431,
-							["healing_taken"] = 0.002274,
-							["heal_enemy"] = {
-							},
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[47893] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["意度"] = 3548,
-										},
-										["n_max"] = 0,
-										["targets"] = {
-											["意度"] = 0,
-										},
-										["n_min"] = 0,
-										["counter"] = 8,
-										["overheal"] = 3548,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 47893,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 0,
-										["totaldenied"] = 0,
-										["n_amt"] = 8,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["custom"] = 0,
-							["last_event"] = 1666101461,
-							["on_hold"] = true,
-							["totaldenied"] = 0.002274,
-							["delay"] = 1666101461,
-							["tipo"] = 2,
-						}, -- [18]
-						{
-							["flag_original"] = 1304,
-							["totalabsorb"] = 0.00888,
-							["last_hps"] = 0,
-							["targets_overheal"] = {
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.00888,
-							["total_without_pet"] = 0.00888,
-							["healing_from"] = {
-							},
-							["aID"] = "4778-03932722",
-							["totalover_without_pet"] = 0.00888,
-							["total"] = 0.00888,
-							["start_time"] = 0,
-							["healing_taken"] = 0.00888,
-							["nome"] = "狂暴小浣熊",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-								},
-							},
-							["classe"] = "UNGROUPPLAYER",
-							["serial"] = "Player-4778-03932722",
+							["last_event"] = 1666196338,
+							["healing_taken"] = 0.007006,
 							["heal_enemy"] = {
 							},
 							["targets_absorbs"] = {
@@ -7949,13 +9820,54 @@ _detalhes_database = {
 							["custom"] = 0,
 							["tipo"] = 2,
 							["on_hold"] = false,
-							["totaldenied"] = 0.00888,
+							["totaldenied"] = 0.007006,
+							["serial"] = "Pet-0-5002-571-1128-29452-0901770545",
+							["start_time"] = 1666196402,
+						}, -- [18]
+						{
+							["flag_original"] = 1304,
+							["totalabsorb"] = 0.008446,
+							["last_hps"] = 0,
+							["healing_from"] = {
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.008446,
+							["targets_overheal"] = {
+							},
+							["classe"] = "UNGROUPPLAYER",
+							["totalover"] = 0.008446,
+							["total_without_pet"] = 0.008446,
+							["total"] = 0.008446,
+							["iniciar_hps"] = false,
+							["aID"] = "4778-0383C61D",
+							["end_time"] = 1666196403,
 							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+							["nome"] = "轻云风静夜",
+							["targets_absorbs"] = {
+							},
 							["last_event"] = 0,
+							["healing_taken"] = 0.008446,
+							["heal_enemy"] = {
+							},
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["totaldenied"] = 0.008446,
+							["serial"] = "Player-4778-0383C61D",
+							["start_time"] = 1666196403,
 						}, -- [19]
 						{
 							["flag_original"] = 1304,
-							["totalabsorb"] = 0.007832,
+							["totalabsorb"] = 0.008088,
 							["last_hps"] = 0,
 							["healing_from"] = {
 							},
@@ -7963,42 +9875,35 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["totalover_without_pet"] = 0.007832,
+							["totalover_without_pet"] = 0.008088,
 							["targets_overheal"] = {
-								["恶行易施"] = 879,
+								["明月星空"] = 364,
 							},
 							["classe"] = "UNGROUPPLAYER",
-							["totalover"] = 879.007832,
-							["total_without_pet"] = 0.007832,
-							["serial"] = "Player-4778-0532D55C",
-							["iniciar_hps"] = true,
-							["aID"] = "4778-0532D55C",
-							["total"] = 0.007832,
+							["totalover"] = 364.008088,
+							["total_without_pet"] = 0.008088,
+							["total"] = 0.008088,
+							["iniciar_hps"] = false,
+							["aID"] = "4778-0253CC48",
+							["end_time"] = 1666196403,
+							["delay"] = 1666196323,
 							["heal_enemy_amt"] = 0,
-							["timeMachine"] = 7,
-							["nome"] = "恶行易施",
-							["targets_absorbs"] = {
-							},
-							["start_time"] = 1666101357,
-							["healing_taken"] = 0.007832,
-							["heal_enemy"] = {
-							},
+							["nome"] = "明月星空",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[47893] = {
 										["c_amt"] = 0,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
-											["恶行易施"] = 879,
+											["明月星空"] = 364,
 										},
 										["n_max"] = 0,
 										["targets"] = {
-											["恶行易施"] = 0,
+											["明月星空"] = 0,
 										},
 										["n_min"] = 0,
-										["counter"] = 3,
-										["overheal"] = 879,
+										["counter"] = 1,
+										["overheal"] = 364,
 										["total"] = 0,
 										["c_max"] = 0,
 										["id"] = 47893,
@@ -8008,90 +9913,30 @@ _detalhes_database = {
 										["c_curado"] = 0,
 										["n_curado"] = 0,
 										["totaldenied"] = 0,
-										["n_amt"] = 3,
+										["n_amt"] = 1,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
+							},
+							["last_event"] = 1666196323,
+							["healing_taken"] = 0.008088,
+							["heal_enemy"] = {
+							},
+							["targets_absorbs"] = {
 							},
 							["custom"] = 0,
-							["last_event"] = 1666101367,
-							["on_hold"] = true,
-							["totaldenied"] = 0.007832,
-							["delay"] = 1666101367,
 							["tipo"] = 2,
+							["on_hold"] = false,
+							["totaldenied"] = 0.008088,
+							["serial"] = "Player-4778-0253CC48",
+							["start_time"] = 1666196402,
 						}, -- [20]
-						{
-							["flag_original"] = 1304,
-							["totalabsorb"] = 0.005925,
-							["last_hps"] = 0,
-							["healing_from"] = {
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["totalover_without_pet"] = 0.005925,
-							["targets_overheal"] = {
-								["丨糖丶门丨"] = 1334,
-							},
-							["classe"] = "UNGROUPPLAYER",
-							["totalover"] = 1334.005925,
-							["total_without_pet"] = 0.005925,
-							["serial"] = "Player-4778-013208C3",
-							["iniciar_hps"] = true,
-							["aID"] = "4778-013208C3",
-							["total"] = 0.005925,
-							["heal_enemy_amt"] = 0,
-							["timeMachine"] = 8,
-							["nome"] = "丨糖丶门丨",
-							["targets_absorbs"] = {
-							},
-							["start_time"] = 1666101371,
-							["healing_taken"] = 0.005925,
-							["heal_enemy"] = {
-							},
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[47893] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["丨糖丶门丨"] = 1334,
-										},
-										["n_max"] = 0,
-										["targets"] = {
-											["丨糖丶门丨"] = 0,
-										},
-										["n_min"] = 0,
-										["counter"] = 4,
-										["overheal"] = 1334,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 47893,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 0,
-										["totaldenied"] = 0,
-										["n_amt"] = 4,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["custom"] = 0,
-							["last_event"] = 1666101381,
-							["on_hold"] = true,
-							["totaldenied"] = 0.005925,
-							["delay"] = 1666101381,
-							["tipo"] = 2,
-						}, -- [21]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 8,
 					["tipo"] = 7,
+					["combatId"] = 8,
 					["_ActorTable"] = {
 						{
 							["received"] = 450.001897,
@@ -8105,10 +9950,9 @@ _detalhes_database = {
 							["classe"] = "WARRIOR",
 							["passiveover"] = 0.001897,
 							["total"] = 450.001897,
+							["totalover"] = 29.001897,
 							["boss_fight_component"] = true,
-							["nome"] = "陌戮",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[2687] = {
 										["total"] = 120,
@@ -8156,16 +10000,17 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 72,
-							["flag_original"] = 1298,
-							["alternatepower"] = 0.001897,
-							["last_event"] = 1666100940,
 							["aID"] = "4778-04AC8F71",
 							["tipo"] = 3,
+							["last_event"] = 1666100940,
+							["alternatepower"] = 0.001897,
+							["flag_original"] = 1298,
 							["serial"] = "Player-4778-04AC8F71",
-							["totalover"] = 29.001897,
+							["nome"] = "陌戮",
 						}, -- [1]
 						{
 							["received"] = 1385.004825,
@@ -8179,11 +10024,10 @@ _detalhes_database = {
 							["classe"] = "DEATHKNIGHT",
 							["passiveover"] = 0.004825,
 							["total"] = 1385.004825,
+							["spec"] = 250,
+							["totalover"] = 1127.404828433228,
 							["boss_fight_component"] = true,
-							["tipo"] = 3,
-							["nome"] = "夕里安",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[49909] = {
 										["total"] = 85,
@@ -8203,41 +10047,14 @@ _detalhes_database = {
 										},
 										["counter"] = 15,
 									},
-									[57623] = {
-										["total"] = 0,
-										["id"] = 57623,
-										["totalover"] = 20,
+									[49921] = {
+										["total"] = 98,
+										["id"] = 49921,
+										["totalover"] = 32,
 										["targets"] = {
-											["夕里安"] = 0,
+											["夕里安"] = 98,
 										},
-										["counter"] = 2,
-									},
-									[63652] = {
-										["total"] = 210,
-										["id"] = 63652,
-										["totalover"] = 174,
-										["targets"] = {
-											["夕里安"] = 210,
-										},
-										["counter"] = 12,
-									},
-									[49924] = {
-										["total"] = 293,
-										["id"] = 49924,
-										["totalover"] = 202,
-										["targets"] = {
-											["夕里安"] = 293,
-										},
-										["counter"] = 33,
-									},
-									[55262] = {
-										["total"] = 469,
-										["id"] = 55262,
-										["totalover"] = 271,
-										["targets"] = {
-											["夕里安"] = 469,
-										},
-										["counter"] = 74,
+										["counter"] = 13,
 									},
 									[49088] = {
 										["total"] = 150,
@@ -8248,26 +10065,54 @@ _detalhes_database = {
 										},
 										["counter"] = 4,
 									},
-									[49921] = {
-										["total"] = 98,
-										["id"] = 49921,
-										["totalover"] = 32,
+									[49924] = {
+										["total"] = 293,
+										["id"] = 49924,
+										["totalover"] = 202,
 										["targets"] = {
-											["夕里安"] = 98,
+											["夕里安"] = 293,
 										},
-										["counter"] = 13,
+										["counter"] = 33,
+									},
+									[63652] = {
+										["total"] = 210,
+										["id"] = 63652,
+										["totalover"] = 174,
+										["targets"] = {
+											["夕里安"] = 210,
+										},
+										["counter"] = 12,
+									},
+									[55262] = {
+										["total"] = 469,
+										["id"] = 55262,
+										["totalover"] = 271,
+										["targets"] = {
+											["夕里安"] = 469,
+										},
+										["counter"] = 74,
+									},
+									[57623] = {
+										["total"] = 0,
+										["id"] = 57623,
+										["totalover"] = 20,
+										["targets"] = {
+											["夕里安"] = 0,
+										},
+										["counter"] = 2,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["spec"] = 250,
 							["flag_original"] = 1300,
-							["alternatepower"] = 0.004825,
-							["last_event"] = 1666100940,
 							["aID"] = "4778-04F81AA5",
+							["last_event"] = 1666100940,
+							["tipo"] = 3,
+							["alternatepower"] = 0.004825,
 							["isTank"] = true,
 							["serial"] = "Player-4778-04F81AA5",
-							["totalover"] = 1127.404828433228,
+							["nome"] = "夕里安",
 						}, -- [2]
 						{
 							["received"] = 46453.008424,
@@ -8276,9 +10121,9 @@ _detalhes_database = {
 								["凸凸凹"] = 14555,
 								["Just"] = 3913,
 								["踏遍天涯"] = 14024,
-								["日出东芳"] = 13739,
-								["大风车滋滋转"] = 16083,
 								["魂之信仰"] = 40887,
+								["大风车滋滋转"] = 16083,
+								["日出东芳"] = 13739,
 							},
 							["pets"] = {
 							},
@@ -8286,10 +10131,9 @@ _detalhes_database = {
 							["classe"] = "PALADIN",
 							["passiveover"] = 0.008424,
 							["total"] = 103201.008424,
+							["totalover"] = 4400.008424,
 							["boss_fight_component"] = true,
-							["nome"] = "魂之信仰",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[63654] = {
 										["total"] = 164,
@@ -8317,9 +10161,9 @@ _detalhes_database = {
 											["凸凸凹"] = 14555,
 											["Just"] = 3913,
 											["踏遍天涯"] = 14024,
-											["日出东芳"] = 13739,
-											["大风车滋滋转"] = 16083,
 											["魂之信仰"] = 5417,
+											["大风车滋滋转"] = 16083,
+											["日出东芳"] = 13739,
 										},
 										["counter"] = 1891,
 									},
@@ -8333,16 +10177,17 @@ _detalhes_database = {
 										["counter"] = 36,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 70,
-							["flag_original"] = 1298,
-							["alternatepower"] = 0.008424,
-							["last_event"] = 1666100939,
 							["aID"] = "4778-0520EB5E",
 							["tipo"] = 3,
+							["last_event"] = 1666100939,
+							["alternatepower"] = 0.008424,
+							["flag_original"] = 1298,
 							["serial"] = "Player-4778-0520EB5E",
-							["totalover"] = 4400.008424,
+							["nome"] = "魂之信仰",
 						}, -- [3]
 						{
 							["received"] = 50091.004902,
@@ -8356,10 +10201,9 @@ _detalhes_database = {
 							["classe"] = "DRUID",
 							["passiveover"] = 0.004902,
 							["total"] = 30496.004902,
+							["totalover"] = 0.004902,
 							["boss_fight_component"] = true,
-							["nome"] = "踏遍天涯",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[54833] = {
 										["total"] = 1572,
@@ -8389,16 +10233,17 @@ _detalhes_database = {
 										["counter"] = 52,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 102,
-							["flag_original"] = 1300,
-							["alternatepower"] = 0.004902,
-							["last_event"] = 1666100938,
 							["aID"] = "4778-018E44DC",
 							["tipo"] = 3,
+							["last_event"] = 1666100938,
+							["alternatepower"] = 0.004902,
+							["flag_original"] = 1300,
 							["serial"] = "Player-4778-018E44DC",
-							["totalover"] = 0.004902,
+							["nome"] = "踏遍天涯",
 						}, -- [4]
 						{
 							["received"] = 54064.00776,
@@ -8407,10 +10252,10 @@ _detalhes_database = {
 								["凸凸凹"] = 38816,
 								["Just"] = 3499,
 								["踏遍天涯"] = 2798,
+								["魂之信仰"] = 5566,
 								["镜像 <日出东芳>"] = 1048,
 								["大风车滋滋转"] = 77,
 								["日出东芳"] = 1963,
-								["魂之信仰"] = 5566,
 							},
 							["pets"] = {
 							},
@@ -8418,10 +10263,9 @@ _detalhes_database = {
 							["classe"] = "PALADIN",
 							["passiveover"] = 0.00776,
 							["total"] = 53767.00776,
+							["totalover"] = 6328.00776,
 							["boss_fight_component"] = true,
-							["nome"] = "凸凸凹",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[20272] = {
 										["total"] = 6648,
@@ -8458,10 +10302,10 @@ _detalhes_database = {
 											["凸凸凹"] = 25,
 											["Just"] = 3499,
 											["踏遍天涯"] = 2798,
+											["魂之信仰"] = 5566,
 											["镜像 <日出东芳>"] = 1048,
 											["大风车滋滋转"] = 77,
 											["日出东芳"] = 1963,
-											["魂之信仰"] = 5566,
 										},
 										["counter"] = 207,
 									},
@@ -8474,15 +10318,6 @@ _detalhes_database = {
 										},
 										["counter"] = 1,
 									},
-									[54428] = {
-										["total"] = 11552,
-										["id"] = 54428,
-										["totalover"] = 0,
-										["targets"] = {
-											["凸凸凹"] = 11552,
-										},
-										["counter"] = 10,
-									},
 									[55382] = {
 										["total"] = 3000,
 										["id"] = 55382,
@@ -8492,26 +10327,36 @@ _detalhes_database = {
 										},
 										["counter"] = 5,
 									},
+									[54428] = {
+										["total"] = 11552,
+										["id"] = 54428,
+										["totalover"] = 0,
+										["targets"] = {
+											["凸凸凹"] = 11552,
+										},
+										["counter"] = 10,
+									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 65,
-							["flag_original"] = 1300,
-							["alternatepower"] = 0.00776,
-							["last_event"] = 1666101318,
 							["aID"] = "4778-04F57291",
 							["tipo"] = 3,
+							["last_event"] = 1666101318,
+							["alternatepower"] = 0.00776,
+							["flag_original"] = 1300,
 							["serial"] = "Player-4778-04F57291",
-							["totalover"] = 6328.00776,
+							["nome"] = "凸凸凹",
 						}, -- [5]
 						{
 							["received"] = 33642.001115,
 							["resource"] = 0.001115,
 							["targets"] = {
-								["踏遍天涯"] = 2773,
+								["大风车滋滋转"] = 17482,
 								["凸凸凹"] = 693,
 								["日出东芳"] = 2960,
-								["大风车滋滋转"] = 17482,
+								["踏遍天涯"] = 2773,
 							},
 							["pets"] = {
 							},
@@ -8519,20 +10364,19 @@ _detalhes_database = {
 							["classe"] = "PRIEST",
 							["passiveover"] = 0.001115,
 							["total"] = 23908.001115,
+							["totalover"] = 545.001115,
 							["boss_fight_component"] = true,
-							["nome"] = "大风车滋滋转",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[64904] = {
 										["total"] = 8806,
 										["id"] = 64904,
 										["totalover"] = 0,
 										["targets"] = {
-											["踏遍天涯"] = 2773,
+											["大风车滋滋转"] = 2380,
 											["凸凸凹"] = 693,
 											["日出东芳"] = 2960,
-											["大风车滋滋转"] = 2380,
+											["踏遍天涯"] = 2773,
 										},
 										["counter"] = 12,
 									},
@@ -8555,16 +10399,17 @@ _detalhes_database = {
 										["counter"] = 19,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 256,
-							["flag_original"] = 1298,
-							["alternatepower"] = 0.001115,
-							["last_event"] = 1666100939,
 							["aID"] = "4778-04D4E39F",
 							["tipo"] = 3,
+							["last_event"] = 1666100939,
+							["alternatepower"] = 0.001115,
+							["flag_original"] = 1298,
 							["serial"] = "Player-4778-04D4E39F",
-							["totalover"] = 545.001115,
+							["nome"] = "大风车滋滋转",
 						}, -- [6]
 						{
 							["received"] = 790.005146,
@@ -8578,10 +10423,9 @@ _detalhes_database = {
 							["classe"] = "ROGUE",
 							["passiveover"] = 42.005146,
 							["total"] = 790.005146,
+							["totalover"] = 0.005146,
 							["boss_fight_component"] = true,
-							["nome"] = "雪花丶有点飘",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[51637] = {
 										["total"] = 790,
@@ -8593,16 +10437,17 @@ _detalhes_database = {
 										["counter"] = 395,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 259,
-							["flag_original"] = 1300,
-							["alternatepower"] = 0.005146,
-							["last_event"] = 1666100939,
 							["aID"] = "4778-048F0669",
 							["tipo"] = 3,
+							["last_event"] = 1666100939,
+							["alternatepower"] = 0.005146,
+							["flag_original"] = 1300,
 							["serial"] = "Player-4778-048F0669",
-							["totalover"] = 0.005146,
+							["nome"] = "雪花丶有点飘",
 						}, -- [7]
 						{
 							["received"] = 1523.007084,
@@ -8616,10 +10461,9 @@ _detalhes_database = {
 							["classe"] = "ROGUE",
 							["passiveover"] = 76.00708399999999,
 							["total"] = 1523.007084,
+							["totalover"] = 7.007084,
 							["boss_fight_component"] = true,
-							["nome"] = "特变电工",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[14181] = {
 										["total"] = 900,
@@ -8649,16 +10493,17 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 259,
-							["flag_original"] = 1297,
-							["alternatepower"] = 0.007084,
-							["last_event"] = 1666100939,
 							["aID"] = "4778-04DBFC9E",
 							["tipo"] = 3,
+							["last_event"] = 1666100939,
+							["alternatepower"] = 0.007084,
+							["flag_original"] = 1297,
 							["serial"] = "Player-4778-04DBFC9E",
-							["totalover"] = 7.007084,
+							["nome"] = "特变电工",
 						}, -- [8]
 						{
 							["received"] = 73107.004864,
@@ -8672,11 +10517,10 @@ _detalhes_database = {
 							["classe"] = "PALADIN",
 							["passiveover"] = 0.004864,
 							["total"] = 65695.004864,
+							["spec"] = 66,
+							["totalover"] = 24694.004864,
 							["boss_fight_component"] = true,
-							["tipo"] = 3,
-							["nome"] = "Just",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[54428] = {
 										["total"] = 33374,
@@ -8715,16 +10559,17 @@ _detalhes_database = {
 										["counter"] = 4,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["spec"] = 66,
 							["flag_original"] = 132372,
-							["alternatepower"] = 0.004864,
-							["last_event"] = 1666100938,
 							["aID"] = "4778-04D9BDE6",
+							["last_event"] = 1666100938,
+							["tipo"] = 3,
+							["alternatepower"] = 0.004864,
 							["isTank"] = true,
 							["serial"] = "Player-4778-04D9BDE6",
-							["totalover"] = 24694.004864,
+							["nome"] = "Just",
 						}, -- [9]
 						{
 							["received"] = 35118.003149,
@@ -8739,10 +10584,9 @@ _detalhes_database = {
 							["classe"] = "MAGE",
 							["passiveover"] = 0.003149,
 							["total"] = 16456.003149,
+							["totalover"] = 0.003149,
 							["boss_fight_component"] = true,
-							["nome"] = "日出东芳",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[42987] = {
 										["total"] = 6802,
@@ -8763,16 +10607,17 @@ _detalhes_database = {
 										["counter"] = 3,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 62,
-							["flag_original"] = 1298,
-							["alternatepower"] = 0.003149,
-							["last_event"] = 1666100921,
 							["aID"] = "4778-04605F8E",
 							["tipo"] = 3,
+							["last_event"] = 1666100921,
+							["alternatepower"] = 0.003149,
+							["flag_original"] = 1298,
 							["serial"] = "Player-4778-04605F8E",
-							["totalover"] = 0.003149,
+							["nome"] = "日出东芳",
 						}, -- [10]
 						{
 							["received"] = 1048.005275,
@@ -8785,67 +10630,278 @@ _detalhes_database = {
 							["classe"] = "PET",
 							["passiveover"] = 0.005275,
 							["total"] = 0.005275,
-							["boss_fight_component"] = true,
 							["ownerName"] = "日出东芳",
-							["nome"] = "镜像 <日出东芳>",
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
+							["totalover"] = 0.005275,
 							["flag_original"] = 8466,
-							["alternatepower"] = 0.005275,
+							["tipo"] = 3,
 							["last_event"] = 0,
 							["aID"] = "31216",
-							["tipo"] = 3,
+							["alternatepower"] = 0.005275,
 							["serial"] = "Creature-0-5002-615-15071-31216-0000CEAE59",
-							["totalover"] = 0.005275,
+							["nome"] = "镜像 <日出东芳>",
 						}, -- [11]
+						{
+							["received"] = 10.003541,
+							["resource"] = 0.003541,
+							["targets"] = {
+								["拉过来锤死"] = 10,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 6,
+							["classe"] = "UNGROUPPLAYER",
+							["passiveover"] = 0.003541,
+							["total"] = 10.003541,
+							["nome"] = "拉过来锤死",
+							["spells"] = {
+								["_ActorTable"] = {
+									[57623] = {
+										["total"] = 10,
+										["id"] = 57623,
+										["totalover"] = 0,
+										["targets"] = {
+											["拉过来锤死"] = 10,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["flag_original"] = 1304,
+							["alternatepower"] = 0.003541,
+							["last_event"] = 1666196143,
+							["aID"] = "4778-050752DB",
+							["tipo"] = 3,
+							["serial"] = "Player-4778-050752DB",
+							["totalover"] = 0.003541,
+						}, -- [12]
+						{
+							["received"] = 10.002023,
+							["resource"] = 0.002023,
+							["targets"] = {
+								["摘叶飞花"] = 10,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 1,
+							["classe"] = "DRUID",
+							["passiveover"] = 0.002023,
+							["total"] = 10.002023,
+							["nome"] = "摘叶飞花",
+							["spells"] = {
+								["_ActorTable"] = {
+									[17057] = {
+										["total"] = 10,
+										["id"] = 17057,
+										["totalover"] = 0,
+										["targets"] = {
+											["摘叶飞花"] = 10,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["flag_original"] = 1304,
+							["alternatepower"] = 0.002023,
+							["last_event"] = 1666196146,
+							["aID"] = "4778-0281AE39",
+							["tipo"] = 3,
+							["serial"] = "Player-4778-0281AE39",
+							["totalover"] = 0.002023,
+						}, -- [13]
+						{
+							["received"] = 2809.004535,
+							["resource"] = 0.004535,
+							["targets"] = {
+							},
+							["pets"] = {
+								"法力之潮图腾 <特斯拉能量>", -- [1]
+							},
+							["powertype"] = 0,
+							["classe"] = "UNGROUPPLAYER",
+							["passiveover"] = 0.004535,
+							["total"] = 2809.004535,
+							["nome"] = "特斯拉能量",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 7,
+							},
+							["flag_original"] = 1304,
+							["alternatepower"] = 0.004535,
+							["last_event"] = 0,
+							["aID"] = "4778-04D0F4EA",
+							["tipo"] = 3,
+							["serial"] = "Player-4778-04D0F4EA",
+							["totalover"] = 0.004535,
+						}, -- [14]
+						{
+							["received"] = 0.006161,
+							["resource"] = 0.006161,
+							["targets"] = {
+								["特斯拉能量"] = 2809,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "PET",
+							["passiveover"] = 0.006161,
+							["total"] = 2809.006161,
+							["ownerName"] = "特斯拉能量",
+							["nome"] = "法力之潮图腾 <特斯拉能量>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[39609] = {
+										["total"] = 2809,
+										["id"] = 39609,
+										["totalover"] = 0,
+										["targets"] = {
+											["特斯拉能量"] = 2809,
+										},
+										["counter"] = 4,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["flag_original"] = 8472,
+							["alternatepower"] = 0.006161,
+							["last_event"] = 1666196163,
+							["aID"] = "10467",
+							["tipo"] = 3,
+							["serial"] = "Creature-0-5002-571-1128-10467-00005022B7",
+							["totalover"] = 0.006161,
+						}, -- [15]
+						{
+							["received"] = 30.008122,
+							["resource"] = 0.008122,
+							["targets"] = {
+								["旺仔米饼"] = 30,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 1,
+							["classe"] = "UNGROUPPLAYER",
+							["passiveover"] = 0.008122,
+							["total"] = 30.008122,
+							["nome"] = "旺仔米饼",
+							["spells"] = {
+								["_ActorTable"] = {
+									[2687] = {
+										["total"] = 20,
+										["id"] = 2687,
+										["totalover"] = 0,
+										["targets"] = {
+											["旺仔米饼"] = 20,
+										},
+										["counter"] = 1,
+									},
+									[29131] = {
+										["total"] = 10,
+										["id"] = 29131,
+										["totalover"] = 0,
+										["targets"] = {
+											["旺仔米饼"] = 10,
+										},
+										["counter"] = 10,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["totalover"] = 0.008122,
+							["alternatepower"] = 0.008122,
+							["last_event"] = 1666196289,
+							["tipo"] = 3,
+							["aID"] = "4778-0284C5FF",
+							["serial"] = "Player-4778-0284C5FF",
+							["flag_original"] = 1304,
+						}, -- [16]
+						{
+							["received"] = 10.007405,
+							["resource"] = 0.007405,
+							["targets"] = {
+								["Eddiie"] = 10,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 6,
+							["classe"] = "UNGROUPPLAYER",
+							["passiveover"] = 0.007405,
+							["total"] = 10.007405,
+							["nome"] = "Eddiie",
+							["spells"] = {
+								["_ActorTable"] = {
+									[57623] = {
+										["total"] = 10,
+										["id"] = 57623,
+										["totalover"] = 0,
+										["targets"] = {
+											["Eddiie"] = 10,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["totalover"] = 0.007405,
+							["alternatepower"] = 0.007405,
+							["last_event"] = 1666196308,
+							["tipo"] = 3,
+							["aID"] = "4778-04FE5E84",
+							["serial"] = "Player-4778-04FE5E84",
+							["flag_original"] = 1304,
+						}, -- [17]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 8,
 					["tipo"] = 9,
+					["combatId"] = 8,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1300,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[55078] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 5,
 										["id"] = 55078,
+										["uptime"] = 340,
 										["targets"] = {
 										},
-										["uptime"] = 340,
 										["appliedamt"] = 12,
-										["refreshamt"] = 5,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[55095] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 9,
 										["id"] = 55095,
+										["uptime"] = 360,
 										["targets"] = {
 										},
-										["uptime"] = 360,
 										["appliedamt"] = 9,
-										["refreshamt"] = 9,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[49560] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 49560,
+										["uptime"] = 3,
 										["targets"] = {
 										},
-										["uptime"] = 3,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["cooldowns_defensive"] = 8.007684000000001,
 							["buff_uptime"] = 2918,
@@ -8858,157 +10914,182 @@ _detalhes_database = {
 								["夕里安"] = 8,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[64859] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 5,
+										["refreshamt"] = 157,
 										["id"] = 64859,
+										["uptime"] = 332,
 										["targets"] = {
 										},
-										["uptime"] = 332,
 										["appliedamt"] = 5,
-										["refreshamt"] = 157,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[48263] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 48263,
+										["uptime"] = 366,
 										["targets"] = {
 										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[62146] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 6,
+										["refreshamt"] = 8,
 										["id"] = 62146,
+										["uptime"] = 248,
 										["targets"] = {
 										},
-										["uptime"] = 248,
 										["appliedamt"] = 6,
-										["refreshamt"] = 8,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[57399] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 57399,
+										["uptime"] = 366,
 										["targets"] = {
 										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[48707] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 6,
+										["refreshamt"] = 0,
 										["id"] = 48707,
+										["uptime"] = 24,
 										["targets"] = {
 										},
-										["uptime"] = 24,
 										["appliedamt"] = 6,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[57820] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 57820,
+										["uptime"] = 366,
 										["targets"] = {
 										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[51911] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 3,
+										["refreshamt"] = 0,
 										["id"] = 51911,
-										["targets"] = {
-										},
 										["uptime"] = 4,
+										["targets"] = {
+										},
 										["appliedamt"] = 3,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[60218] = {
-										["activedamt"] = 2,
-										["id"] = 60218,
-										["targets"] = {
-										},
-										["uptime"] = 20,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[48792] = {
-										["activedamt"] = 2,
-										["id"] = 48792,
-										["targets"] = {
-										},
-										["uptime"] = 24,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[57623] = {
-										["activedamt"] = 2,
-										["id"] = 57623,
-										["targets"] = {
-										},
-										["uptime"] = 366,
-										["appliedamt"] = 2,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[53758] = {
-										["activedamt"] = 1,
-										["id"] = 53758,
-										["targets"] = {
-										},
-										["uptime"] = 366,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[53138] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 53138,
+										["uptime"] = 366,
 										["targets"] = {
 										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
+									},
+									[48792] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 48792,
+										["uptime"] = 24,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
 									},
 									[55018] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 7,
+										["refreshamt"] = 0,
 										["id"] = 55018,
+										["uptime"] = 70,
 										["targets"] = {
 										},
-										["uptime"] = 70,
 										["appliedamt"] = 7,
-										["refreshamt"] = 0,
-										["actived"] = false,
+									},
+									[53758] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 53758,
+										["uptime"] = 366,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[57623] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 1,
+										["id"] = 57623,
+										["uptime"] = 366,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[60218] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 60218,
+										["uptime"] = 20,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
 									},
 								},
-							},
-							["boss_fight_component"] = true,
-							["debuff_uptime"] = 703,
-							["cooldowns_defensive_spells"] = {
 								["tipo"] = 9,
+							},
+							["nome"] = "夕里安",
+							["debuff_uptime"] = 703,
+							["boss_fight_component"] = true,
+							["serial"] = "Player-4778-04F81AA5",
+							["debuff_uptime_targets"] = {
+							},
+							["spec"] = 250,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[50842] = 16,
+								[57623] = 2,
+								[49921] = 18,
+								[55262] = 86,
+								[56815] = 44,
+								[49924] = 36,
+								[48792] = 2,
+								[49895] = 7,
+								[48707] = 6,
+								[49909] = 13,
+								[49576] = 1,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1666100940,
+							["buff_uptime_targets"] = {
+							},
+							["isTank"] = true,
+							["cooldowns_defensive_spells"] = {
 								["_ActorTable"] = {
 									[48707] = {
 										["id"] = 48707,
@@ -9025,74 +11106,49 @@ _detalhes_database = {
 										["counter"] = 2,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["debuff_uptime_targets"] = {
-							},
-							["nome"] = "夕里安",
-							["spec"] = 250,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[50842] = 16,
-								[57623] = 2,
-								[49921] = 18,
-								[55262] = 86,
-								[56815] = 44,
-								[49924] = 36,
-								[48792] = 2,
-								[49895] = 7,
-								[49576] = 1,
-								[49909] = 13,
-								[48707] = 6,
-							},
-							["buff_uptime_targets"] = {
-							},
-							["pets"] = {
-							},
-							["last_event"] = 1666100940,
 							["classe"] = "DEATHKNIGHT",
-							["isTank"] = true,
-							["serial"] = "Player-4778-04F81AA5",
-							["tipo"] = 4,
 						}, -- [1]
 						{
 							["flag_original"] = 1300,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[57970] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
-										["id"] = 57970,
-										["targets"] = {
-										},
-										["uptime"] = 357,
-										["appliedamt"] = 29,
 										["refreshamt"] = 276,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[57634] = {
-										["activedamt"] = 0,
-										["id"] = 57634,
+										["id"] = 57970,
+										["uptime"] = 357,
 										["targets"] = {
 										},
-										["uptime"] = 3,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 29,
 									},
 									[48676] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 48676,
+										["uptime"] = 15,
 										["targets"] = {
 										},
-										["uptime"] = 15,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
+									},
+									[57634] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 57634,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["cooldowns_defensive"] = 2.007204,
 							["buff_uptime"] = 2105,
@@ -9105,190 +11161,179 @@ _detalhes_database = {
 								["雪花丶有点飘"] = 2,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[14177] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 2,
+										["refreshamt"] = 0,
 										["id"] = 14177,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[53760] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 53760,
+										["uptime"] = 366,
 										["targets"] = {
 										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[63848] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 3,
-										["id"] = 63848,
-										["targets"] = {
-										},
-										["uptime"] = 345,
-										["appliedamt"] = 3,
 										["refreshamt"] = 5,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[31224] = {
-										["activedamt"] = 2,
-										["id"] = 31224,
+										["id"] = 63848,
+										["uptime"] = 345,
 										["targets"] = {
 										},
-										["uptime"] = 10,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[11305] = {
-										["activedamt"] = 1,
-										["id"] = 11305,
-										["targets"] = {
-										},
-										["uptime"] = 15,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[58427] = {
-										["activedamt"] = 1,
-										["id"] = 58427,
-										["targets"] = {
-										},
-										["uptime"] = 23,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[57820] = {
-										["activedamt"] = 1,
-										["id"] = 57820,
-										["targets"] = {
-										},
-										["uptime"] = 366,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[1784] = {
-										["activedamt"] = 1,
-										["id"] = 1784,
-										["targets"] = {
-										},
-										["uptime"] = 3,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[57993] = {
-										["activedamt"] = 19,
-										["id"] = 57993,
-										["targets"] = {
-										},
-										["uptime"] = 109,
-										["appliedamt"] = 19,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[57934] = {
-										["activedamt"] = 7,
-										["id"] = 57934,
-										["targets"] = {
-										},
-										["uptime"] = 18,
-										["appliedamt"] = 7,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[6774] = {
-										["activedamt"] = 5,
-										["id"] = 6774,
-										["targets"] = {
-										},
-										["uptime"] = 311,
-										["appliedamt"] = 5,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[60065] = {
-										["activedamt"] = 7,
-										["id"] = 60065,
-										["targets"] = {
-										},
-										["uptime"] = 66,
-										["appliedamt"] = 7,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[60439] = {
-										["activedamt"] = 3,
-										["id"] = 60439,
-										["targets"] = {
-										},
-										["uptime"] = 60,
 										["appliedamt"] = 3,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[57399] = {
-										["activedamt"] = 1,
-										["id"] = 57399,
-										["targets"] = {
-										},
-										["uptime"] = 366,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[59628] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 7,
+										["refreshamt"] = 0,
 										["id"] = 59628,
+										["uptime"] = 42,
 										["targets"] = {
 										},
-										["uptime"] = 42,
 										["appliedamt"] = 7,
-										["refreshamt"] = 0,
-										["actived"] = false,
+									},
+									[11305] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 11305,
+										["uptime"] = 15,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[58427] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 58427,
+										["uptime"] = 23,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[31224] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 31224,
+										["uptime"] = 10,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[1784] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 1784,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[57399] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 57399,
+										["uptime"] = 366,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[57934] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 7,
+										["refreshamt"] = 0,
+										["id"] = 57934,
+										["uptime"] = 18,
+										["targets"] = {
+										},
+										["appliedamt"] = 7,
+									},
+									[60439] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 3,
+										["refreshamt"] = 0,
+										["id"] = 60439,
+										["uptime"] = 60,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+									[60065] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 7,
+										["refreshamt"] = 0,
+										["id"] = 60065,
+										["uptime"] = 66,
+										["targets"] = {
+										},
+										["appliedamt"] = 7,
+									},
+									[6774] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 5,
+										["refreshamt"] = 1,
+										["id"] = 6774,
+										["uptime"] = 311,
+										["targets"] = {
+										},
+										["appliedamt"] = 5,
+									},
+									[57993] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 19,
+										["refreshamt"] = 1,
+										["id"] = 57993,
+										["uptime"] = 109,
+										["targets"] = {
+										},
+										["appliedamt"] = 19,
+									},
+									[57820] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 57820,
+										["uptime"] = 366,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 375,
+							["serial"] = "Player-4778-048F0669",
+							["classe"] = "ROGUE",
 							["boss_fight_component"] = true,
-							["cooldowns_defensive_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[31224] = {
-										["id"] = 31224,
-										["targets"] = {
-											["雪花丶有点飘"] = 2,
-										},
-										["counter"] = 2,
-									},
-								},
-							},
-							["nome"] = "雪花丶有点飘",
 							["spec"] = 259,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -9300,337 +11345,348 @@ _detalhes_database = {
 								[6774] = 6,
 								[8643] = 1,
 								[57934] = 6,
-								[51723] = 19,
-								[48666] = 45,
 								[60439] = 3,
+								[48666] = 45,
+								[51723] = 19,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1666100940,
+							["buff_uptime_targets"] = {
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
+							["cooldowns_defensive_spells"] = {
+								["_ActorTable"] = {
+									[31224] = {
+										["id"] = 31224,
+										["targets"] = {
+											["雪花丶有点飘"] = 2,
+										},
+										["counter"] = 2,
+									},
+								},
+								["tipo"] = 9,
 							},
-							["last_event"] = 1666100940,
-							["pets"] = {
-							},
-							["classe"] = "ROGUE",
-							["serial"] = "Player-4778-048F0669",
-							["tipo"] = 4,
+							["nome"] = "雪花丶有点飘",
 						}, -- [2]
 						{
 							["flag_original"] = 1300,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[68055] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 9,
 										["id"] = 68055,
+										["uptime"] = 256,
 										["targets"] = {
 										},
-										["uptime"] = 256,
 										["appliedamt"] = 19,
-										["refreshamt"] = 9,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[48819] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 5,
+										["refreshamt"] = 0,
 										["id"] = 48819,
+										["uptime"] = 229,
 										["targets"] = {
 										},
-										["uptime"] = 229,
 										["appliedamt"] = 147,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[48827] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 48827,
+										["uptime"] = 63,
 										["targets"] = {
 										},
-										["uptime"] = 63,
 										["appliedamt"] = 13,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[20184] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 18,
 										["id"] = 20184,
+										["uptime"] = 296,
 										["targets"] = {
 										},
-										["uptime"] = 296,
 										["appliedamt"] = 11,
-										["refreshamt"] = 18,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[54499] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 54499,
-										["targets"] = {
-										},
 										["uptime"] = 71,
+										["targets"] = {
+										},
 										["appliedamt"] = 10,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[57634] = {
-										["activedamt"] = 0,
-										["id"] = 57634,
-										["targets"] = {
-										},
-										["uptime"] = 2,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[62124] = {
-										["activedamt"] = 0,
-										["id"] = 62124,
-										["targets"] = {
-										},
-										["uptime"] = 12,
-										["appliedamt"] = 4,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[26017] = {
-										["activedamt"] = 1,
-										["id"] = 26017,
-										["targets"] = {
-										},
-										["uptime"] = 311,
-										["appliedamt"] = 33,
-										["refreshamt"] = 63,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[63529] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 63529,
+										["uptime"] = 25,
 										["targets"] = {
 										},
-										["uptime"] = 25,
 										["appliedamt"] = 13,
-										["refreshamt"] = 0,
-										["actived"] = false,
+									},
+									[62124] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 62124,
+										["uptime"] = 12,
+										["targets"] = {
+										},
+										["appliedamt"] = 4,
+									},
+									[26017] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 63,
+										["id"] = 26017,
+										["uptime"] = 311,
+										["targets"] = {
+										},
+										["appliedamt"] = 33,
+									},
+									[57634] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 57634,
+										["uptime"] = 2,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 4032,
 							["aID"] = "4778-04D9BDE6",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[57399] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 57399,
+										["uptime"] = 366,
 										["targets"] = {
 										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[23214] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 23214,
+										["uptime"] = 4,
 										["targets"] = {
 										},
-										["uptime"] = 4,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[60286] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 60286,
+										["uptime"] = 20,
 										["targets"] = {
 										},
-										["uptime"] = 20,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[54428] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 54428,
+										["uptime"] = 342,
 										["targets"] = {
 										},
-										["uptime"] = 342,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[48942] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 48942,
+										["uptime"] = 366,
 										["targets"] = {
 										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[20132] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 6,
+										["refreshamt"] = 4,
 										["id"] = 20132,
+										["uptime"] = 58,
 										["targets"] = {
 										},
-										["uptime"] = 58,
 										["appliedamt"] = 6,
-										["refreshamt"] = 4,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[53749] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 53749,
+										["uptime"] = 366,
 										["targets"] = {
 										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[25899] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 25899,
+										["uptime"] = 366,
 										["targets"] = {
 										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[53601] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 2,
+										["refreshamt"] = 0,
 										["id"] = 53601,
+										["uptime"] = 120,
 										["targets"] = {
 										},
-										["uptime"] = 120,
 										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[48952] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 8,
+										["refreshamt"] = 12,
 										["id"] = 48952,
+										["uptime"] = 120,
 										["targets"] = {
 										},
-										["uptime"] = 120,
 										["appliedamt"] = 8,
-										["refreshamt"] = 12,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[60795] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 18,
+										["refreshamt"] = 36,
 										["id"] = 60795,
+										["uptime"] = 280,
 										["targets"] = {
 										},
-										["uptime"] = 280,
 										["appliedamt"] = 18,
-										["refreshamt"] = 36,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[25780] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 25780,
+										["uptime"] = 366,
 										["targets"] = {
 										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[58597] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 14,
+										["refreshamt"] = 2,
 										["id"] = 58597,
+										["uptime"] = 34,
 										["targets"] = {
 										},
-										["uptime"] = 34,
 										["appliedamt"] = 14,
-										["refreshamt"] = 2,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[53763] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 53763,
+										["uptime"] = 366,
 										["targets"] = {
 										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[28093] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 6,
+										["refreshamt"] = 0,
 										["id"] = 28093,
+										["uptime"] = 78,
 										["targets"] = {
 										},
-										["uptime"] = 78,
 										["appliedamt"] = 6,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[20375] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 20375,
+										["uptime"] = 366,
 										["targets"] = {
 										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[57819] = {
-										["activedamt"] = 1,
-										["id"] = 57819,
-										["targets"] = {
-										},
-										["uptime"] = 366,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[20178] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 6,
+										["refreshamt"] = 2,
 										["id"] = 20178,
+										["uptime"] = 48,
 										["targets"] = {
 										},
-										["uptime"] = 48,
 										["appliedamt"] = 6,
-										["refreshamt"] = 2,
-										["actived"] = false,
+									},
+									[57819] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 57819,
+										["uptime"] = 366,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 1265,
-							["boss_fight_component"] = true,
-							["debuff_uptime_targets"] = {
-							},
 							["nome"] = "Just",
+							["boss_fight_component"] = true,
+							["buff_uptime_targets"] = {
+							},
 							["spec"] = 66,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -9642,60 +11698,60 @@ _detalhes_database = {
 								[48827] = 10,
 								[20424] = 224,
 								[48806] = 4,
-								[60286] = 1,
+								[48952] = 14,
 								[62124] = 4,
 								[53601] = 2,
-								[48952] = 14,
+								[60286] = 1,
 							},
-							["buff_uptime_targets"] = {
-							},
+							["classe"] = "PALADIN",
+							["tipo"] = 4,
+							["last_event"] = 1666100940,
 							["pets"] = {
 							},
-							["last_event"] = 1666100940,
-							["classe"] = "PALADIN",
 							["isTank"] = true,
 							["serial"] = "Player-4778-04D9BDE6",
-							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
 						}, -- [3]
 						{
 							["flag_original"] = 1300,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[20186] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 12,
 										["id"] = 20186,
+										["uptime"] = 327,
 										["targets"] = {
 										},
-										["uptime"] = 327,
 										["appliedamt"] = 9,
-										["refreshamt"] = 12,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[25771] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 25771,
+										["uptime"] = 120,
 										["targets"] = {
 										},
-										["uptime"] = 120,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[10308] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 10308,
+										["uptime"] = 6,
 										["targets"] = {
 										},
-										["uptime"] = 6,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["cooldowns_defensive"] = 1.00738,
 							["buff_uptime"] = 2835,
@@ -9704,7 +11760,6 @@ _detalhes_database = {
 								642, -- [2]
 							},
 							["cc_done_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[10308] = {
 										["id"] = 10308,
@@ -9714,177 +11769,205 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["aID"] = "4778-04F57291",
 							["cooldowns_defensive_targets"] = {
 								["凸凸凹"] = 1,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[31834] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 23,
+										["refreshamt"] = 0,
 										["id"] = 31834,
+										["uptime"] = 157,
 										["targets"] = {
 										},
-										["uptime"] = 157,
 										["appliedamt"] = 23,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[25898] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 25898,
-										["targets"] = {
-										},
 										["uptime"] = 366,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[54428] = {
-										["activedamt"] = 2,
-										["id"] = 54428,
 										["targets"] = {
 										},
-										["uptime"] = 30,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[57399] = {
-										["activedamt"] = 1,
-										["id"] = 57399,
-										["targets"] = {
-										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[54212] = {
-										["activedamt"] = 1,
-										["id"] = 54212,
-										["targets"] = {
-										},
-										["uptime"] = 366,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[70940] = {
-										["activedamt"] = 1,
-										["id"] = 70940,
-										["targets"] = {
-										},
-										["uptime"] = 6,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[54153] = {
-										["activedamt"] = 1,
-										["id"] = 54153,
-										["targets"] = {
-										},
-										["uptime"] = 358,
-										["appliedamt"] = 1,
-										["refreshamt"] = 37,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[64205] = {
-										["activedamt"] = 1,
-										["id"] = 64205,
-										["targets"] = {
-										},
-										["uptime"] = 10,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[20166] = {
-										["activedamt"] = 1,
-										["id"] = 20166,
-										["targets"] = {
-										},
-										["uptime"] = 366,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[642] = {
-										["activedamt"] = 1,
-										["id"] = 642,
-										["targets"] = {
-										},
-										["uptime"] = 12,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[57350] = {
-										["activedamt"] = 1,
-										["id"] = 57350,
-										["targets"] = {
-										},
-										["uptime"] = 6,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[57819] = {
-										["activedamt"] = 1,
-										["id"] = 57819,
-										["targets"] = {
-										},
-										["uptime"] = 366,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[48947] = {
-										["activedamt"] = 1,
-										["id"] = 48947,
-										["targets"] = {
-										},
-										["uptime"] = 366,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[60062] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 6,
+										["refreshamt"] = 0,
 										["id"] = 60062,
+										["uptime"] = 60,
 										["targets"] = {
 										},
-										["uptime"] = 60,
 										["appliedamt"] = 6,
-										["refreshamt"] = 0,
-										["actived"] = false,
+									},
+									[57399] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 57399,
+										["uptime"] = 366,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[54212] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 54212,
+										["uptime"] = 366,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[48947] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 48947,
+										["uptime"] = 366,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[70940] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 70940,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[57819] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 57819,
+										["uptime"] = 366,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[20166] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 20166,
+										["uptime"] = 366,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[57350] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 57350,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[64205] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 64205,
+										["uptime"] = 10,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[642] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 642,
+										["uptime"] = 12,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[54153] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 37,
+										["id"] = 54153,
+										["uptime"] = 358,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[54428] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 54428,
+										["uptime"] = 30,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
 									},
 								},
+								["tipo"] = 9,
 							},
+							["classe"] = "PALADIN",
+							["pets"] = {
+							},
+							["debuff_uptime"] = 453,
+							["serial"] = "Player-4778-04F57291",
+							["cc_done"] = 1.008415,
 							["boss_fight_component"] = true,
+							["spec"] = 65,
+							["grupo"] = true,
 							["cc_done_targets"] = {
 								["熔岩烈焰"] = 1,
 							},
-							["debuff_uptime"] = 453,
+							["buff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1666100940,
+							["debuff_uptime_targets"] = {
+							},
+							["spell_cast"] = {
+								[48825] = 6,
+								[53408] = 22,
+								[43186] = 1,
+								[48782] = 23,
+								[54428] = 2,
+								[642] = 1,
+								[10308] = 1,
+								[64205] = 1,
+								[48785] = 138,
+								[57350] = 1,
+								[53563] = 3,
+								[53601] = 2,
+								[48788] = 1,
+							},
 							["cooldowns_defensive_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[642] = {
 										["id"] = 642,
@@ -9894,98 +11977,71 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["cc_done"] = 1.008415,
 							["nome"] = "凸凸凹",
-							["spec"] = 65,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[48825] = 6,
-								[53408] = 22,
-								[43186] = 1,
-								[48782] = 23,
-								[48788] = 1,
-								[54428] = 2,
-								[10308] = 1,
-								[642] = 1,
-								[64205] = 1,
-								[57350] = 1,
-								[53563] = 3,
-								[53601] = 2,
-								[48785] = 138,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["buff_uptime_targets"] = {
-							},
-							["last_event"] = 1666100940,
-							["pets"] = {
-							},
-							["classe"] = "PALADIN",
-							["serial"] = "Player-4778-04F57291",
-							["tipo"] = 4,
 						}, -- [4]
 						{
 							["flag_original"] = 1300,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[48467] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 48467,
+										["uptime"] = 31,
 										["targets"] = {
 										},
-										["uptime"] = 31,
 										["appliedamt"] = 30,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[770] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 1,
 										["id"] = 770,
+										["uptime"] = 364,
 										["targets"] = {
 										},
-										["uptime"] = 364,
 										["appliedamt"] = 3,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[48468] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 4,
 										["id"] = 48468,
+										["uptime"] = 226,
 										["targets"] = {
 										},
-										["uptime"] = 226,
 										["appliedamt"] = 13,
-										["refreshamt"] = 4,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[60433] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 103,
 										["id"] = 60433,
+										["uptime"] = 275,
 										["targets"] = {
 										},
-										["uptime"] = 275,
 										["appliedamt"] = 10,
-										["refreshamt"] = 103,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[48463] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 8,
 										["id"] = 48463,
+										["uptime"] = 268,
 										["targets"] = {
 										},
-										["uptime"] = 268,
 										["appliedamt"] = 13,
-										["refreshamt"] = 8,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["cooldowns_defensive"] = 1.007923,
 							["buff_uptime"] = 3149,
@@ -9998,212 +12054,201 @@ _detalhes_database = {
 								["踏遍天涯"] = 1,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[48470] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 48470,
+										["uptime"] = 366,
 										["targets"] = {
 										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[57399] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 57399,
+										["uptime"] = 366,
 										["targets"] = {
 										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[29166] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 29166,
+										["uptime"] = 10,
 										["targets"] = {
 										},
-										["uptime"] = 10,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[24858] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 24858,
+										["uptime"] = 366,
 										["targets"] = {
 										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[54833] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 54833,
+										["uptime"] = 10,
 										["targets"] = {
 										},
-										["uptime"] = 10,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[24907] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 24907,
+										["uptime"] = 366,
 										["targets"] = {
 										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[48421] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 48421,
+										["uptime"] = 366,
 										["targets"] = {
 										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[48517] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 3,
+										["refreshamt"] = 0,
 										["id"] = 48517,
+										["uptime"] = 45,
 										["targets"] = {
 										},
-										["uptime"] = 45,
 										["appliedamt"] = 3,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[28491] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 28491,
+										["uptime"] = 366,
 										["targets"] = {
 										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[53201] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 4,
+										["refreshamt"] = 0,
 										["id"] = 53201,
+										["uptime"] = 40,
 										["targets"] = {
 										},
-										["uptime"] = 40,
 										["appliedamt"] = 4,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[57822] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 57822,
+										["uptime"] = 366,
 										["targets"] = {
 										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[60520] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 6,
+										["refreshamt"] = 0,
 										["id"] = 60520,
+										["uptime"] = 90,
 										["targets"] = {
 										},
-										["uptime"] = 90,
 										["appliedamt"] = 6,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[16870] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 13,
+										["refreshamt"] = 1,
 										["id"] = 16870,
+										["uptime"] = 62,
 										["targets"] = {
 										},
-										["uptime"] = 62,
 										["appliedamt"] = 13,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[16886] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 35,
+										["refreshamt"] = 32,
 										["id"] = 16886,
+										["uptime"] = 148,
 										["targets"] = {
 										},
-										["uptime"] = 148,
 										["appliedamt"] = 35,
-										["refreshamt"] = 32,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[48467] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 5,
+										["refreshamt"] = 0,
 										["id"] = 48467,
-										["targets"] = {
-										},
 										["uptime"] = 33,
-										["appliedamt"] = 5,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[48518] = {
-										["activedamt"] = 7,
-										["id"] = 48518,
 										["targets"] = {
 										},
-										["uptime"] = 99,
-										["appliedamt"] = 7,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 5,
 									},
 									[60064] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 5,
+										["refreshamt"] = 0,
 										["id"] = 60064,
+										["uptime"] = 50,
 										["targets"] = {
 										},
-										["uptime"] = 50,
 										["appliedamt"] = 5,
-										["refreshamt"] = 0,
-										["actived"] = false,
+									},
+									[48518] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 7,
+										["refreshamt"] = 0,
+										["id"] = 48518,
+										["uptime"] = 99,
+										["targets"] = {
+										},
+										["appliedamt"] = 7,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 1164,
+							["serial"] = "Player-4778-018E44DC",
+							["classe"] = "DRUID",
 							["boss_fight_component"] = true,
-							["cooldowns_defensive_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[29166] = {
-										["id"] = 29166,
-										["targets"] = {
-											["踏遍天涯"] = 1,
-										},
-										["counter"] = 1,
-									},
-								},
-							},
-							["nome"] = "踏遍天涯",
 							["spec"] = 102,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -10214,65 +12259,75 @@ _detalhes_database = {
 								[48468] = 19,
 								[48461] = 97,
 								[29166] = 1,
-								[48467] = 5,
+								[53201] = 4,
 								[48463] = 21,
 								[33831] = 2,
-								[53201] = 4,
+								[48467] = 5,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1666100940,
+							["buff_uptime_targets"] = {
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
+							["cooldowns_defensive_spells"] = {
+								["_ActorTable"] = {
+									[29166] = {
+										["id"] = 29166,
+										["targets"] = {
+											["踏遍天涯"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 9,
 							},
-							["last_event"] = 1666100940,
-							["pets"] = {
-							},
-							["classe"] = "DRUID",
-							["serial"] = "Player-4778-018E44DC",
-							["tipo"] = 4,
+							["nome"] = "踏遍天涯",
 						}, -- [5]
 						{
 							["flag_original"] = 1300,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[36032] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 118,
 										["id"] = 36032,
+										["uptime"] = 192,
 										["targets"] = {
 										},
-										["uptime"] = 192,
 										["appliedamt"] = 25,
-										["refreshamt"] = 118,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[27088] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 27088,
+										["uptime"] = 8,
 										["targets"] = {
 										},
-										["uptime"] = 8,
 										["appliedamt"] = 3,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[42842] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 42842,
+										["uptime"] = 9,
 										["targets"] = {
 										},
-										["uptime"] = 9,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 2011,
 							["cc_done_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[27088] = {
 										["id"] = 27088,
@@ -10282,218 +12337,219 @@ _detalhes_database = {
 										["counter"] = 3,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["aID"] = "4778-04605F8E",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[60064] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 6,
+										["refreshamt"] = 0,
 										["id"] = 60064,
+										["uptime"] = 60,
 										["targets"] = {
 										},
-										["uptime"] = 60,
 										["appliedamt"] = 6,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[43046] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 43046,
+										["uptime"] = 366,
 										["targets"] = {
 										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[44413] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 44413,
+										["uptime"] = 10,
 										["targets"] = {
 										},
-										["uptime"] = 10,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[1953] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 1953,
+										["uptime"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 1,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[12043] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 3,
+										["refreshamt"] = 0,
 										["id"] = 12043,
+										["uptime"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 1,
 										["appliedamt"] = 3,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[12051] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 12051,
+										["uptime"] = 7,
 										["targets"] = {
 										},
-										["uptime"] = 7,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[60479] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 5,
+										["refreshamt"] = 0,
 										["id"] = 60479,
+										["uptime"] = 50,
 										["targets"] = {
 										},
-										["uptime"] = 50,
 										["appliedamt"] = 5,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[53908] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 53908,
+										["uptime"] = 15,
 										["targets"] = {
 										},
-										["uptime"] = 15,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[10060] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 2,
+										["refreshamt"] = 0,
 										["id"] = 10060,
+										["uptime"] = 30,
 										["targets"] = {
 										},
-										["uptime"] = 30,
 										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[43002] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 43002,
+										["uptime"] = 366,
 										["targets"] = {
 										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[57821] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 57821,
+										["uptime"] = 366,
 										["targets"] = {
 										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[55342] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 2,
+										["refreshamt"] = 0,
 										["id"] = 55342,
+										["uptime"] = 60,
 										["targets"] = {
 										},
-										["uptime"] = 60,
 										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[44401] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 20,
+										["refreshamt"] = 9,
 										["id"] = 44401,
+										["uptime"] = 137,
 										["targets"] = {
 										},
-										["uptime"] = 137,
 										["appliedamt"] = 20,
-										["refreshamt"] = 9,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[27131] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 2,
+										["refreshamt"] = 0,
 										["id"] = 27131,
+										["uptime"] = 80,
 										["targets"] = {
 										},
-										["uptime"] = 80,
 										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[54758] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 5,
+										["refreshamt"] = 0,
 										["id"] = 54758,
+										["uptime"] = 60,
 										["targets"] = {
 										},
-										["uptime"] = 60,
 										["appliedamt"] = 5,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[12536] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 7,
+										["refreshamt"] = 0,
 										["id"] = 12536,
-										["targets"] = {
-										},
 										["uptime"] = 18,
-										["appliedamt"] = 7,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[31583] = {
-										["activedamt"] = 1,
-										["id"] = 31583,
 										["targets"] = {
 										},
-										["uptime"] = 366,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 7,
 									},
 									[57531] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 10,
+										["refreshamt"] = 0,
 										["id"] = 57531,
+										["uptime"] = 18,
 										["targets"] = {
 										},
-										["uptime"] = 18,
 										["appliedamt"] = 10,
-										["refreshamt"] = 0,
-										["actived"] = false,
+									},
+									[31583] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 31583,
+										["uptime"] = 366,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["boss_fight_component"] = true,
-							["debuff_uptime"] = 209,
 							["cc_done_targets"] = {
 								["熔岩烈焰"] = 3,
 							},
-							["cc_done"] = 3.003057,
+							["debuff_uptime"] = 209,
 							["nome"] = "日出东芳",
+							["cc_done"] = 3.003057,
+							["boss_fight_component"] = true,
 							["spec"] = 62,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -10504,64 +12560,64 @@ _detalhes_database = {
 								[42842] = 1,
 								[27088] = 1,
 								[1953] = 1,
-								[12051] = 1,
+								[42987] = 2,
 								[42897] = 88,
 								[42845] = 45,
 								[53908] = 1,
 								[12043] = 3,
-								[42987] = 2,
+								[12051] = 1,
 							},
-							["debuff_uptime_targets"] = {
-							},
-							["buff_uptime_targets"] = {
-							},
-							["last_event"] = 1666100940,
 							["pets"] = {
 								"镜像 <日出东芳>", -- [1]
 							},
-							["classe"] = "MAGE",
-							["serial"] = "Player-4778-04605F8E",
 							["tipo"] = 4,
+							["last_event"] = 1666100940,
+							["buff_uptime_targets"] = {
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["serial"] = "Player-4778-04605F8E",
+							["classe"] = "MAGE",
 						}, -- [6]
 						{
 							["flag_original"] = 1300,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[48676] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 48676,
+										["uptime"] = 18,
 										["targets"] = {
 										},
-										["uptime"] = 18,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[57969] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 167,
 										["id"] = 57969,
+										["uptime"] = 348,
 										["targets"] = {
 										},
-										["uptime"] = 348,
 										["appliedamt"] = 18,
-										["refreshamt"] = 167,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[57634] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 57634,
+										["uptime"] = 3,
 										["targets"] = {
 										},
-										["uptime"] = 3,
 										["appliedamt"] = 4,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["cooldowns_defensive"] = 2.007483,
 							["buff_uptime"] = 2032,
@@ -10574,173 +12630,7 @@ _detalhes_database = {
 								["特变电工"] = 2,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
-									[26669] = {
-										["activedamt"] = 1,
-										["id"] = 26669,
-										["targets"] = {
-										},
-										["uptime"] = 15,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[14177] = {
-										["activedamt"] = 2,
-										["id"] = 14177,
-										["targets"] = {
-										},
-										["uptime"] = 0,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[59628] = {
-										["activedamt"] = 5,
-										["id"] = 59628,
-										["targets"] = {
-										},
-										["uptime"] = 30,
-										["appliedamt"] = 5,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[63848] = {
-										["activedamt"] = 5,
-										["id"] = 63848,
-										["targets"] = {
-										},
-										["uptime"] = 316,
-										["appliedamt"] = 5,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[57993] = {
-										["activedamt"] = 37,
-										["id"] = 57993,
-										["targets"] = {
-										},
-										["uptime"] = 196,
-										["appliedamt"] = 37,
-										["refreshamt"] = 8,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[57399] = {
-										["activedamt"] = 1,
-										["id"] = 57399,
-										["targets"] = {
-										},
-										["uptime"] = 366,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[58427] = {
-										["activedamt"] = 2,
-										["id"] = 58427,
-										["targets"] = {
-										},
-										["uptime"] = 42,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[59620] = {
-										["activedamt"] = 16,
-										["id"] = 59620,
-										["targets"] = {
-										},
-										["uptime"] = 141,
-										["appliedamt"] = 16,
-										["refreshamt"] = 5,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[6774] = {
-										["activedamt"] = 1,
-										["id"] = 6774,
-										["targets"] = {
-										},
-										["uptime"] = 359,
-										["appliedamt"] = 1,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[57819] = {
-										["activedamt"] = 1,
-										["id"] = 57819,
-										["targets"] = {
-										},
-										["uptime"] = 366,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[57934] = {
-										["activedamt"] = 5,
-										["id"] = 57934,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 5,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[60233] = {
-										["activedamt"] = 8,
-										["id"] = 60233,
-										["targets"] = {
-										},
-										["uptime"] = 120,
-										["appliedamt"] = 8,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[60065] = {
-										["activedamt"] = 6,
-										["id"] = 60065,
-										["targets"] = {
-										},
-										["uptime"] = 60,
-										["appliedamt"] = 6,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[1784] = {
-										["activedamt"] = 2,
-										["id"] = 1784,
-										["targets"] = {
-										},
-										["uptime"] = 2,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[11305] = {
-										["activedamt"] = 1,
-										["id"] = 11305,
-										["targets"] = {
-										},
-										["uptime"] = 15,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
 									[48024] = {
 										["activedamt"] = 1,
 										["id"] = 48024,
@@ -10748,17 +12638,207 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1666100574,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = true,
+										["appliedamt"] = 1,
+									},
+									[14177] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 14177,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[11305] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 11305,
+										["uptime"] = 15,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[63848] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 5,
+										["refreshamt"] = 1,
+										["id"] = 63848,
+										["uptime"] = 316,
+										["targets"] = {
+										},
+										["appliedamt"] = 5,
+									},
+									[1784] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 1784,
+										["uptime"] = 2,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[57399] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 57399,
+										["uptime"] = 366,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[58427] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 58427,
+										["uptime"] = 42,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[59620] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 16,
+										["refreshamt"] = 5,
+										["id"] = 59620,
+										["uptime"] = 141,
+										["targets"] = {
+										},
+										["appliedamt"] = 16,
+									},
+									[59628] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 5,
+										["refreshamt"] = 0,
+										["id"] = 59628,
+										["uptime"] = 30,
+										["targets"] = {
+										},
+										["appliedamt"] = 5,
+									},
+									[60065] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 6,
+										["refreshamt"] = 0,
+										["id"] = 60065,
+										["uptime"] = 60,
+										["targets"] = {
+										},
+										["appliedamt"] = 6,
+									},
+									[57934] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 5,
+										["refreshamt"] = 0,
+										["id"] = 57934,
+										["uptime"] = 4,
+										["targets"] = {
+										},
+										["appliedamt"] = 5,
+									},
+									[60233] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 8,
+										["refreshamt"] = 0,
+										["id"] = 60233,
+										["uptime"] = 120,
+										["targets"] = {
+										},
+										["appliedamt"] = 8,
+									},
+									[26669] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 26669,
+										["uptime"] = 15,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[6774] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 1,
+										["id"] = 6774,
+										["uptime"] = 359,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[57819] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 57819,
+										["uptime"] = 366,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[57993] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 37,
+										["refreshamt"] = 8,
+										["id"] = 57993,
+										["uptime"] = 196,
+										["targets"] = {
+										},
+										["appliedamt"] = 37,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 369,
+							["serial"] = "Player-4778-04DBFC9E",
+							["classe"] = "ROGUE",
 							["boss_fight_component"] = true,
+							["spec"] = 259,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[14177] = 2,
+								[48676] = 1,
+								[11305] = 1,
+								[51662] = 6,
+								[26889] = 1,
+								[6774] = 2,
+								[57934] = 5,
+								[26669] = 1,
+								[1784] = 1,
+								[48666] = 56,
+								[51723] = 7,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1666100940,
+							["buff_uptime_targets"] = {
+							},
+							["debuff_uptime_targets"] = {
+							},
 							["cooldowns_defensive_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[26669] = {
 										["id"] = 26669,
@@ -10775,273 +12855,249 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["nome"] = "特变电工",
-							["spec"] = 259,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[14177] = 2,
-								[48676] = 1,
-								[11305] = 1,
-								[51662] = 6,
-								[26889] = 1,
-								[6774] = 2,
-								[57934] = 5,
-								[26669] = 1,
-								[51723] = 7,
-								[48666] = 56,
-								[1784] = 1,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["buff_uptime_targets"] = {
-							},
-							["last_event"] = 1666100940,
-							["pets"] = {
-							},
-							["classe"] = "ROGUE",
-							["serial"] = "Player-4778-04DBFC9E",
-							["tipo"] = 4,
 						}, -- [7]
 						{
 							["flag_original"] = 1300,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[58567] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 35,
 										["id"] = 58567,
+										["uptime"] = 236,
 										["targets"] = {
 										},
-										["uptime"] = 236,
 										["appliedamt"] = 5,
-										["refreshamt"] = 35,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[12721] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 2,
+										["refreshamt"] = 187,
 										["id"] = 12721,
+										["uptime"] = 328,
 										["targets"] = {
 										},
-										["uptime"] = 328,
 										["appliedamt"] = 47,
-										["refreshamt"] = 187,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[57634] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 57634,
+										["uptime"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 1,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 2236,
 							["aID"] = "4778-04AC8F71",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[29801] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 29801,
+										["uptime"] = 366,
 										["targets"] = {
 										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[1719] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 1719,
+										["uptime"] = 3,
 										["targets"] = {
 										},
-										["uptime"] = 3,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[28497] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 28497,
+										["uptime"] = 366,
 										["targets"] = {
 										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[57399] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 57399,
+										["uptime"] = 366,
 										["targets"] = {
 										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[23885] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 59,
+										["refreshamt"] = 6,
 										["id"] = 23885,
+										["uptime"] = 135,
 										["targets"] = {
 										},
-										["uptime"] = 135,
 										["appliedamt"] = 59,
-										["refreshamt"] = 6,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[47440] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 2,
+										["refreshamt"] = 0,
 										["id"] = 47440,
+										["uptime"] = 340,
 										["targets"] = {
 										},
-										["uptime"] = 340,
 										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[46916] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 22,
-										["id"] = 46916,
-										["targets"] = {
-										},
-										["uptime"] = 126,
-										["appliedamt"] = 22,
 										["refreshamt"] = 9,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[12970] = {
-										["activedamt"] = 10,
-										["id"] = 12970,
+										["id"] = 46916,
+										["uptime"] = 126,
 										["targets"] = {
 										},
-										["uptime"] = 346,
-										["appliedamt"] = 10,
-										["refreshamt"] = 359,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[12292] = {
-										["activedamt"] = 1,
-										["id"] = 12292,
-										["targets"] = {
-										},
-										["uptime"] = 30,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[60065] = {
-										["activedamt"] = 5,
-										["id"] = 60065,
-										["targets"] = {
-										},
-										["uptime"] = 43,
-										["appliedamt"] = 5,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[14201] = {
-										["activedamt"] = 3,
-										["id"] = 14201,
-										["targets"] = {
-										},
-										["uptime"] = 36,
-										["appliedamt"] = 3,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[54861] = {
-										["activedamt"] = 1,
-										["id"] = 54861,
-										["targets"] = {
-										},
-										["uptime"] = 6,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 22,
 									},
 									[29131] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 8,
+										["refreshamt"] = 0,
 										["id"] = 29131,
+										["uptime"] = 73,
 										["targets"] = {
 										},
-										["uptime"] = 73,
 										["appliedamt"] = 8,
-										["refreshamt"] = 0,
-										["actived"] = false,
+									},
+									[12292] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 12292,
+										["uptime"] = 30,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[60065] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 5,
+										["refreshamt"] = 0,
+										["id"] = 60065,
+										["uptime"] = 43,
+										["targets"] = {
+										},
+										["appliedamt"] = 5,
+									},
+									[14201] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 3,
+										["refreshamt"] = 0,
+										["id"] = 14201,
+										["uptime"] = 36,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+									[54861] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 54861,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[12970] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 10,
+										["refreshamt"] = 359,
+										["id"] = 12970,
+										["uptime"] = 346,
+										["targets"] = {
+										},
+										["appliedamt"] = 10,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 565,
-							["boss_fight_component"] = true,
+							["debuff_uptime_targets"] = {
+							},
 							["nome"] = "陌戮",
 							["spec"] = 72,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[47475] = 1,
 								[1719] = 1,
-								[2687] = 7,
 								[23881] = 63,
-								[47440] = 1,
-								[56350] = 1,
-								[34428] = 3,
+								[7386] = 25,
 								[46916] = 31,
-								[47520] = 20,
+								[47440] = 1,
+								[34428] = 3,
+								[20252] = 4,
+								[1680] = 34,
 								[12292] = 1,
 								[47450] = 27,
-								[20252] = 4,
-								[7386] = 25,
-								[1680] = 34,
+								[47520] = 20,
+								[56350] = 1,
+								[2687] = 7,
 							},
-							["debuff_uptime_targets"] = {
-							},
-							["buff_uptime_targets"] = {
-							},
+							["classe"] = "WARRIOR",
+							["tipo"] = 4,
 							["last_event"] = 1666100940,
 							["pets"] = {
 							},
-							["classe"] = "WARRIOR",
+							["buff_uptime_targets"] = {
+							},
 							["serial"] = "Player-4778-04AC8F71",
-							["tipo"] = 4,
+							["boss_fight_component"] = true,
 						}, -- [8]
 						{
 							["flag_original"] = 1300,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[6788] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 2,
+										["refreshamt"] = 0,
 										["id"] = 6788,
+										["uptime"] = 352,
 										["targets"] = {
 										},
-										["uptime"] = 352,
 										["appliedamt"] = 71,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["cooldowns_defensive"] = 2.007445,
 							["buff_uptime"] = 3362,
@@ -11051,168 +13107,192 @@ _detalhes_database = {
 								["[*] 团队CD"] = 1,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[48074] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 48074,
-										["targets"] = {
-										},
 										["uptime"] = 366,
+										["targets"] = {
+										},
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[64904] = {
-										["activedamt"] = 1,
-										["id"] = 64904,
-										["targets"] = {
-										},
-										["uptime"] = 11,
-										["appliedamt"] = 1,
-										["refreshamt"] = 2,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[64901] = {
-										["activedamt"] = 1,
-										["id"] = 64901,
-										["targets"] = {
-										},
-										["uptime"] = 6,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[57399] = {
-										["activedamt"] = 1,
-										["id"] = 57399,
-										["targets"] = {
-										},
-										["uptime"] = 366,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[60062] = {
-										["activedamt"] = 6,
-										["id"] = 60062,
-										["targets"] = {
-										},
-										["uptime"] = 60,
-										["appliedamt"] = 6,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[53755] = {
-										["activedamt"] = 1,
-										["id"] = 53755,
-										["targets"] = {
-										},
-										["uptime"] = 366,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[48168] = {
-										["activedamt"] = 1,
-										["id"] = 48168,
-										["targets"] = {
-										},
-										["uptime"] = 366,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[59891] = {
-										["activedamt"] = 31,
-										["id"] = 59891,
-										["targets"] = {
-										},
-										["uptime"] = 242,
-										["appliedamt"] = 31,
-										["refreshamt"] = 40,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[64843] = {
-										["activedamt"] = 1,
-										["id"] = 64843,
-										["targets"] = {
-										},
-										["uptime"] = 5,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[48162] = {
-										["activedamt"] = 1,
-										["id"] = 48162,
-										["targets"] = {
-										},
-										["uptime"] = 366,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[63944] = {
-										["activedamt"] = 1,
-										["id"] = 63944,
-										["targets"] = {
-										},
-										["uptime"] = 362,
-										["appliedamt"] = 1,
-										["refreshamt"] = 20,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[28878] = {
-										["activedamt"] = 1,
-										["id"] = 28878,
-										["targets"] = {
-										},
-										["uptime"] = 366,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[48066] = {
-										["activedamt"] = 3,
-										["id"] = 48066,
-										["targets"] = {
-										},
-										["uptime"] = 114,
-										["appliedamt"] = 3,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[57821] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 57821,
+										["uptime"] = 366,
 										["targets"] = {
 										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
+									},
+									[59891] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 31,
+										["refreshamt"] = 40,
+										["id"] = 59891,
+										["uptime"] = 242,
+										["targets"] = {
+										},
+										["appliedamt"] = 31,
+									},
+									[57399] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 57399,
+										["uptime"] = 366,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[60062] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 6,
+										["refreshamt"] = 0,
+										["id"] = 60062,
+										["uptime"] = 60,
+										["targets"] = {
+										},
+										["appliedamt"] = 6,
+									},
+									[53755] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 53755,
+										["uptime"] = 366,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[48168] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 48168,
+										["uptime"] = 366,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[64901] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 64901,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[28878] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 28878,
+										["uptime"] = 366,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[48162] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 48162,
+										["uptime"] = 366,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[63944] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 20,
+										["id"] = 63944,
+										["uptime"] = 362,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[64843] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 64843,
+										["uptime"] = 5,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[48066] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 3,
+										["refreshamt"] = 1,
+										["id"] = 48066,
+										["uptime"] = 114,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+									[64904] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 2,
+										["id"] = 64904,
+										["uptime"] = 11,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 352,
+							["serial"] = "Player-4778-04D4E39F",
+							["classe"] = "PRIEST",
 							["boss_fight_component"] = true,
+							["spec"] = 256,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[48120] = 2,
+								[48113] = 10,
+								[43186] = 1,
+								[10060] = 2,
+								[48070] = 24,
+								[48078] = 3,
+								[33206] = 1,
+								[48068] = 10,
+								[52985] = 42,
+								[64843] = 1,
+								[48066] = 71,
+								[64901] = 1,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1666100940,
+							["nome"] = "大风车滋滋转",
+							["debuff_uptime_targets"] = {
+							},
 							["cooldowns_defensive_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[33206] = {
 										["id"] = 33206,
@@ -11229,129 +13309,105 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime_targets"] = {
 							},
-							["spec"] = 256,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[48120] = 2,
-								[48113] = 10,
-								[43186] = 1,
-								[10060] = 2,
-								[48070] = 24,
-								[48078] = 3,
-								[33206] = 1,
-								[64901] = 1,
-								[52985] = 42,
-								[64843] = 1,
-								[48066] = 71,
-								[48068] = 10,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["nome"] = "大风车滋滋转",
-							["last_event"] = 1666100940,
-							["pets"] = {
-							},
-							["classe"] = "PRIEST",
-							["serial"] = "Player-4778-04D4E39F",
-							["tipo"] = 4,
 						}, -- [9]
 						{
 							["flag_original"] = 1300,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
-									[57634] = {
-										["activedamt"] = 0,
-										["id"] = 57634,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[25771] = {
-										["activedamt"] = 0,
-										["id"] = 25771,
-										["targets"] = {
-										},
-										["uptime"] = 120,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[31803] = {
-										["activedamt"] = 1,
-										["id"] = 31803,
-										["targets"] = {
-										},
-										["uptime"] = 343,
-										["appliedamt"] = 14,
-										["refreshamt"] = 90,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[31790] = {
-										["activedamt"] = 0,
-										["id"] = 31790,
-										["targets"] = {
-										},
-										["uptime"] = 3,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
 									[20185] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
-										["id"] = 20185,
-										["targets"] = {
-										},
-										["uptime"] = 348,
-										["appliedamt"] = 10,
 										["refreshamt"] = 26,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[61840] = {
-										["activedamt"] = 1,
-										["id"] = 61840,
+										["id"] = 20185,
+										["uptime"] = 348,
 										["targets"] = {
 										},
-										["uptime"] = 261,
-										["appliedamt"] = 27,
-										["refreshamt"] = 34,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[54499] = {
-										["activedamt"] = 0,
-										["id"] = 54499,
-										["targets"] = {
-										},
-										["uptime"] = 20,
-										["appliedamt"] = 5,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 10,
 									},
 									[27173] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 27173,
+										["uptime"] = 31,
 										["targets"] = {
 										},
-										["uptime"] = 31,
 										["appliedamt"] = 25,
-										["refreshamt"] = 0,
-										["actived"] = false,
+									},
+									[57634] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 57634,
+										["uptime"] = 4,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[31790] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 31790,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[25771] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 25771,
+										["uptime"] = 120,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[61840] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 34,
+										["id"] = 61840,
+										["uptime"] = 261,
+										["targets"] = {
+										},
+										["appliedamt"] = 27,
+									},
+									[54499] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 54499,
+										["uptime"] = 20,
+										["targets"] = {
+										},
+										["appliedamt"] = 5,
+									},
+									[31803] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 90,
+										["id"] = 31803,
+										["uptime"] = 343,
+										["targets"] = {
+										},
+										["appliedamt"] = 14,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["cooldowns_defensive"] = 1.006965,
 							["buff_uptime"] = 3373,
@@ -11364,190 +13420,216 @@ _detalhes_database = {
 								["魂之信仰"] = 1,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[57669] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 57669,
+										["uptime"] = 0,
 										["targets"] = {
 										},
-										["uptime"] = 0,
 										["appliedamt"] = 0,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[48892] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 48892,
+										["uptime"] = 366,
 										["targets"] = {
 										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[642] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 642,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[54203] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 54203,
-										["targets"] = {
-										},
 										["uptime"] = 12,
+										["targets"] = {
+										},
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[59752] = {
-										["activedamt"] = 1,
-										["id"] = 59752,
-										["targets"] = {
-										},
-										["uptime"] = 1,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[57294] = {
-										["activedamt"] = 1,
-										["id"] = 57294,
-										["targets"] = {
-										},
-										["uptime"] = 366,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[60305] = {
-										["activedamt"] = 2,
-										["id"] = 60305,
-										["targets"] = {
-										},
-										["uptime"] = 40,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[31884] = {
-										["activedamt"] = 3,
-										["id"] = 31884,
-										["targets"] = {
-										},
-										["uptime"] = 57,
-										["appliedamt"] = 3,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[20053] = {
-										["activedamt"] = 1,
-										["id"] = 20053,
-										["targets"] = {
-										},
-										["uptime"] = 362,
-										["appliedamt"] = 1,
-										["refreshamt"] = 130,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[57821] = {
-										["activedamt"] = 1,
-										["id"] = 57821,
-										["targets"] = {
-										},
-										["uptime"] = 366,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[48934] = {
-										["activedamt"] = 1,
-										["id"] = 48934,
-										["targets"] = {
-										},
-										["uptime"] = 366,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[24925] = {
-										["activedamt"] = 1,
-										["id"] = 24925,
-										["targets"] = {
-										},
-										["uptime"] = 366,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[60065] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 4,
+										["refreshamt"] = 0,
 										["id"] = 60065,
-										["targets"] = {
-										},
 										["uptime"] = 40,
-										["appliedamt"] = 4,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[54043] = {
-										["activedamt"] = 1,
-										["id"] = 54043,
 										["targets"] = {
 										},
-										["uptime"] = 366,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
+										["appliedamt"] = 4,
+									},
+									[57294] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 57294,
+										["uptime"] = 366,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 									[59578] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 22,
+										["refreshamt"] = 68,
 										["id"] = 59578,
+										["uptime"] = 294,
 										["targets"] = {
 										},
-										["uptime"] = 294,
 										["appliedamt"] = 22,
-										["refreshamt"] = 68,
-										["actived"] = false,
+									},
+									[31884] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 3,
+										["refreshamt"] = 0,
+										["id"] = 31884,
+										["uptime"] = 57,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+									[20053] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 130,
+										["id"] = 20053,
+										["uptime"] = 362,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[57821] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 57821,
+										["uptime"] = 366,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[48934] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 48934,
+										["uptime"] = 366,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[24925] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 24925,
+										["uptime"] = 366,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[60305] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 60305,
+										["uptime"] = 40,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[54043] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 54043,
+										["uptime"] = 366,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 									[31801] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 31801,
+										["uptime"] = 366,
 										["targets"] = {
 										},
-										["uptime"] = 366,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
+									},
+									[59752] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 59752,
+										["uptime"] = 1,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 1130,
+							["serial"] = "Player-4778-0520EB5E",
+							["classe"] = "PALADIN",
 							["boss_fight_component"] = true,
+							["spec"] = 70,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[59752] = 1,
+								[53385] = 30,
+								[27173] = 4,
+								[35395] = 67,
+								[31884] = 3,
+								[48806] = 7,
+								[10308] = 1,
+								[20271] = 36,
+								[642] = 1,
+								[48785] = 4,
+								[60305] = 2,
+								[48801] = 18,
+								[31789] = 1,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1666100940,
+							["buff_uptime_targets"] = {
+							},
+							["debuff_uptime_targets"] = {
+							},
 							["cooldowns_defensive_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[642] = {
 										["id"] = 642,
@@ -11557,40 +13639,14 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["nome"] = "魂之信仰",
-							["spec"] = 70,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[59752] = 1,
-								[53385] = 30,
-								[27173] = 4,
-								[31789] = 1,
-								[31884] = 3,
-								[10308] = 1,
-								[48806] = 7,
-								[20271] = 36,
-								[48785] = 4,
-								[60305] = 2,
-								[642] = 1,
-								[48801] = 18,
-								[35395] = 67,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["buff_uptime_targets"] = {
-							},
-							["last_event"] = 1666100940,
-							["pets"] = {
-							},
-							["classe"] = "PALADIN",
-							["serial"] = "Player-4778-0520EB5E",
-							["tipo"] = 4,
 						}, -- [10]
 						{
 							["monster"] = true,
+							["last_event"] = 0,
 							["boss_fight_component"] = true,
-							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[61248] = 1,
 								[58793] = 2,
@@ -11598,42 +13654,42 @@ _detalhes_database = {
 								[57579] = 9,
 								[60639] = 1,
 							},
-							["classe"] = "UNKNOW",
-							["nome"] = "塔尼布隆",
-							["last_event"] = 0,
 							["pets"] = {
 								"暮光裂隙 <塔尼布隆>", -- [1]
 							},
+							["nome"] = "塔尼布隆",
 							["tipo"] = 4,
-							["serial"] = "Creature-0-5002-615-15071-30452-00004EAA97",
+							["classe"] = "UNKNOW",
 							["aID"] = "30452",
+							["serial"] = "Creature-0-5002-615-15071-30452-00004EAA97",
+							["flag_original"] = 2632,
 						}, -- [11]
 						{
 							["monster"] = true,
+							["last_event"] = 0,
 							["boss_fight_component"] = true,
-							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[60639] = 1,
 								[58105] = 1,
 								[57579] = 19,
 								[57570] = 10,
 							},
-							["classe"] = "UNKNOW",
-							["nome"] = "沙德隆",
-							["last_event"] = 0,
 							["pets"] = {
 								"暮光裂隙 <沙德隆>", -- [1]
 							},
+							["nome"] = "沙德隆",
 							["tipo"] = 4,
-							["serial"] = "Creature-0-5002-615-15071-30451-00004EAA97",
+							["classe"] = "UNKNOW",
 							["aID"] = "30451",
+							["serial"] = "Creature-0-5002-615-15071-30451-00004EAA97",
+							["flag_original"] = 2632,
 						}, -- [12]
 						{
 							["flag_original"] = 2632,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 9,
 							},
 							["pets"] = {
 							},
@@ -11643,92 +13699,92 @@ _detalhes_database = {
 							["debuff_uptime"] = 1410,
 							["spellschool"] = 1,
 							["nome"] = "塔尼布隆之力",
-							["boss_fight_component"] = true,
-							["debuff_uptime_targets"] = {
-								["特变电工"] = {
-									["uptime"] = 141,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["Just"] = {
-									["uptime"] = 141,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["大风车滋滋转"] = {
-									["uptime"] = 141,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["夕里安"] = {
-									["uptime"] = 141,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["雪花丶有点飘"] = {
-									["uptime"] = 141,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["踏遍天涯"] = {
-									["uptime"] = 141,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["魂之信仰"] = {
-									["uptime"] = 141,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["凸凸凹"] = {
-									["uptime"] = 141,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["陌戮"] = {
-									["uptime"] = 141,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["日出东芳"] = {
-									["uptime"] = 141,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-							},
-							["damage_spellid"] = 61248,
-							["tipo"] = 4,
-							["damage_twin"] = "塔尼布隆",
 							["aID"] = "30452",
 							["serial"] = "Creature-0-5002-615-15071-30452-00004EAA97",
 							["last_event"] = 1666100715,
+							["tipo"] = 4,
+							["damage_twin"] = "塔尼布隆",
+							["debuff_uptime_targets"] = {
+								["特变电工"] = {
+									["uptime"] = 141,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["Just"] = {
+									["uptime"] = 141,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["大风车滋滋转"] = {
+									["uptime"] = 141,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["夕里安"] = {
+									["uptime"] = 141,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["雪花丶有点飘"] = {
+									["uptime"] = 141,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["踏遍天涯"] = {
+									["uptime"] = 141,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["日出东芳"] = {
+									["uptime"] = 141,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["陌戮"] = {
+									["uptime"] = 141,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["凸凸凹"] = {
+									["uptime"] = 141,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["魂之信仰"] = {
+									["uptime"] = 141,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+							},
+							["damage_spellid"] = 61248,
+							["boss_fight_component"] = true,
 						}, -- [13]
 						{
 							["flag_original"] = 2632,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 9,
 							},
 							["pets"] = {
 							},
@@ -11738,90 +13794,90 @@ _detalhes_database = {
 							["debuff_uptime"] = 2400,
 							["spellschool"] = 1,
 							["nome"] = "沙德隆之力",
-							["boss_fight_component"] = true,
-							["debuff_uptime_targets"] = {
-								["特变电工"] = {
-									["uptime"] = 240,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["Just"] = {
-									["uptime"] = 240,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["大风车滋滋转"] = {
-									["uptime"] = 240,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["夕里安"] = {
-									["uptime"] = 240,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["雪花丶有点飘"] = {
-									["uptime"] = 240,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["踏遍天涯"] = {
-									["uptime"] = 240,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["魂之信仰"] = {
-									["uptime"] = 240,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["凸凸凹"] = {
-									["uptime"] = 240,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["陌戮"] = {
-									["uptime"] = 240,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["日出东芳"] = {
-									["uptime"] = 240,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-							},
-							["damage_spellid"] = 58105,
-							["tipo"] = 4,
-							["damage_twin"] = "沙德隆",
 							["aID"] = "30451",
 							["serial"] = "Creature-0-5002-615-15071-30451-00004EAA97",
 							["last_event"] = 1666100814,
+							["tipo"] = 4,
+							["damage_twin"] = "沙德隆",
+							["debuff_uptime_targets"] = {
+								["特变电工"] = {
+									["uptime"] = 240,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["Just"] = {
+									["uptime"] = 240,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["大风车滋滋转"] = {
+									["uptime"] = 240,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["夕里安"] = {
+									["uptime"] = 240,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["雪花丶有点飘"] = {
+									["uptime"] = 240,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["踏遍天涯"] = {
+									["uptime"] = 240,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["日出东芳"] = {
+									["uptime"] = 240,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["陌戮"] = {
+									["uptime"] = 240,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["凸凸凹"] = {
+									["uptime"] = 240,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["魂之信仰"] = {
+									["uptime"] = 240,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+							},
+							["damage_spellid"] = 58105,
+							["boss_fight_component"] = true,
 						}, -- [14]
 						{
 							["monster"] = true,
+							["last_event"] = 0,
 							["boss_fight_component"] = true,
-							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[56909] = 24,
 								[56908] = 24,
@@ -11829,44 +13885,44 @@ _detalhes_database = {
 								[61254] = 1,
 								[61632] = 32,
 							},
-							["classe"] = "UNKNOW",
-							["nome"] = "萨塔里奥",
-							["last_event"] = 0,
 							["pets"] = {
 							},
+							["nome"] = "萨塔里奥",
 							["tipo"] = 4,
-							["serial"] = "Creature-0-5002-615-15071-28860-00004EAA97",
+							["classe"] = "UNKNOW",
 							["aID"] = "28860",
+							["serial"] = "Creature-0-5002-615-15071-28860-00004EAA97",
+							["flag_original"] = 68168,
 						}, -- [15]
 						{
 							["flag_original"] = 8466,
-							["classe"] = "PET",
+							["tipo"] = 4,
 							["ownerName"] = "日出东芳",
 							["nome"] = "镜像 <日出东芳>",
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[59637] = 26,
 								[59638] = 39,
 							},
-							["tipo"] = 4,
+							["classe"] = "PET",
 							["aID"] = "31216",
 							["serial"] = "Creature-0-5002-615-15071-31216-00014EAD89",
-							["last_event"] = 0,
+							["boss_fight_component"] = true,
 						}, -- [16]
 						{
-							["flag_original"] = 2632,
-							["ownerName"] = "塔尼布隆",
-							["boss_fight_component"] = true,
-							["last_event"] = 0,
 							["monster"] = true,
 							["pets"] = {
 							},
+							["ownerName"] = "塔尼布隆",
 							["nome"] = "暮光裂隙 <塔尼布隆>",
+							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[57581] = 9,
 							},
+							["last_event"] = 0,
+							["boss_fight_component"] = true,
 							["aID"] = "30641",
 							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-5002-615-15071-30641-00004EAD88",
@@ -11874,26 +13930,26 @@ _detalhes_database = {
 						}, -- [17]
 						{
 							["monster"] = true,
+							["last_event"] = 0,
 							["boss_fight_component"] = true,
-							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[60708] = 32,
 							},
-							["classe"] = "UNKNOW",
-							["nome"] = "萨塔里奥暮光雏龙",
-							["last_event"] = 0,
 							["pets"] = {
 							},
+							["nome"] = "萨塔里奥暮光雏龙",
 							["tipo"] = 4,
-							["serial"] = "Creature-0-5002-615-15071-31214-0002CEADA4",
+							["classe"] = "UNKNOW",
 							["aID"] = "31214",
+							["serial"] = "Creature-0-5002-615-15071-31214-0002CEADA4",
+							["flag_original"] = 2632,
 						}, -- [18]
 						{
 							["flag_original"] = 2632,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 9,
 							},
 							["pets"] = {
 							},
@@ -11903,79 +13959,79 @@ _detalhes_database = {
 							["debuff_uptime"] = 125,
 							["spellschool"] = 32,
 							["nome"] = "护甲衰减",
-							["boss_fight_component"] = true,
-							["debuff_uptime_targets"] = {
-								["雪花丶有点飘"] = {
-									["uptime"] = 17,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["Just"] = {
-									["uptime"] = 56,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["魂之信仰"] = {
-									["uptime"] = 12,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["陌戮"] = {
-									["uptime"] = 25,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["日出东芳"] = {
-									["uptime"] = 15,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-							},
-							["damage_spellid"] = 60708,
-							["tipo"] = 4,
-							["damage_twin"] = "萨塔里奥暮光雏龙",
 							["aID"] = "31214",
 							["serial"] = "Creature-0-5002-615-15071-31214-0002CEADA4",
 							["last_event"] = 1666100734,
+							["tipo"] = 4,
+							["damage_twin"] = "萨塔里奥暮光雏龙",
+							["debuff_uptime_targets"] = {
+								["雪花丶有点飘"] = {
+									["uptime"] = 17,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["Just"] = {
+									["uptime"] = 56,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["日出东芳"] = {
+									["uptime"] = 15,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["陌戮"] = {
+									["uptime"] = 25,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["魂之信仰"] = {
+									["uptime"] = 12,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+							},
+							["damage_spellid"] = 60708,
+							["boss_fight_component"] = true,
 						}, -- [19]
 						{
 							["monster"] = true,
+							["last_event"] = 0,
 							["boss_fight_component"] = true,
-							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[58766] = 1,
 							},
-							["classe"] = "UNKNOW",
-							["nome"] = "Vesperon Controller",
-							["last_event"] = 0,
 							["pets"] = {
 							},
+							["nome"] = "Vesperon Controller",
 							["tipo"] = 4,
-							["serial"] = "Creature-0-5002-615-15071-30878-00004EADB1",
+							["classe"] = "UNKNOW",
 							["aID"] = "30878",
+							["serial"] = "Creature-0-5002-615-15071-30878-00004EADB1",
+							["flag_original"] = 2632,
 						}, -- [20]
 						{
-							["flag_original"] = 2632,
-							["ownerName"] = "沙德隆",
-							["boss_fight_component"] = true,
-							["last_event"] = 0,
 							["monster"] = true,
 							["pets"] = {
 							},
+							["ownerName"] = "沙德隆",
 							["nome"] = "暮光裂隙 <沙德隆>",
+							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[57581] = 19,
 							},
+							["last_event"] = 0,
+							["boss_fight_component"] = true,
 							["aID"] = "30641",
 							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-5002-615-15071-30641-00004EADB4",
@@ -11984,9 +14040,9 @@ _detalhes_database = {
 						{
 							["flag_original"] = 2632,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 9,
 							},
 							["pets"] = {
 							},
@@ -11996,51 +14052,51 @@ _detalhes_database = {
 							["debuff_uptime"] = 15,
 							["spellschool"] = 1,
 							["nome"] = "眩晕",
-							["boss_fight_component"] = true,
-							["debuff_uptime_targets"] = {
-								["魂之信仰"] = {
-									["uptime"] = 2,
-									["actived_at"] = 1666100937,
-									["appliedamt"] = 0,
-									["activedamt"] = 1,
-									["actived"] = true,
-									["refreshamt"] = 0,
-								},
-								["凸凸凹"] = {
-									["uptime"] = 5,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["陌戮"] = {
-									["uptime"] = 4,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["日出东芳"] = {
-									["uptime"] = 4,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-							},
-							["damage_spellid"] = 1604,
-							["tipo"] = 4,
-							["damage_twin"] = "萨塔里奥暮光雏龙",
 							["aID"] = "31214",
 							["serial"] = "Creature-0-5002-615-15071-31214-00024EADD5",
 							["last_event"] = 1666100937,
+							["tipo"] = 4,
+							["damage_twin"] = "萨塔里奥暮光雏龙",
+							["debuff_uptime_targets"] = {
+								["日出东芳"] = {
+									["uptime"] = 4,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["凸凸凹"] = {
+									["uptime"] = 5,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["陌戮"] = {
+									["uptime"] = 4,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["魂之信仰"] = {
+									["uptime"] = 2,
+									["refreshamt"] = 0,
+									["appliedamt"] = 0,
+									["activedamt"] = 1,
+									["actived"] = true,
+									["actived_at"] = 1666100937,
+								},
+							},
+							["damage_spellid"] = 1604,
+							["boss_fight_component"] = true,
 						}, -- [22]
 						{
 							["flag_original"] = 2632,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 9,
 							},
 							["pets"] = {
 							},
@@ -12050,67 +14106,67 @@ _detalhes_database = {
 							["debuff_uptime"] = 15,
 							["spellschool"] = 1,
 							["nome"] = "扫尾",
-							["boss_fight_component"] = true,
-							["debuff_uptime_targets"] = {
-								["凸凸凹"] = {
-									["uptime"] = 3,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["大风车滋滋转"] = {
-									["uptime"] = 2,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["雪花丶有点飘"] = {
-									["uptime"] = 2,
-									["actived_at"] = 1666100939,
-									["appliedamt"] = 0,
-									["activedamt"] = 1,
-									["actived"] = true,
-									["refreshamt"] = 0,
-								},
-								["魂之信仰"] = {
-									["uptime"] = 2,
-									["actived_at"] = 1666100939,
-									["appliedamt"] = 0,
-									["activedamt"] = 1,
-									["actived"] = true,
-									["refreshamt"] = 0,
-								},
-								["特变电工"] = {
-									["uptime"] = 4,
-									["actived_at"] = 1666100939,
-									["appliedamt"] = 0,
-									["activedamt"] = 1,
-									["actived"] = true,
-									["refreshamt"] = 0,
-								},
-								["日出东芳"] = {
-									["uptime"] = 2,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-							},
-							["damage_spellid"] = 56910,
-							["tipo"] = 4,
-							["damage_twin"] = "萨塔里奥",
 							["aID"] = "28860",
 							["serial"] = "Creature-0-5002-615-15071-28860-00004EAA97",
 							["last_event"] = 1666100939,
+							["tipo"] = 4,
+							["damage_twin"] = "萨塔里奥",
+							["debuff_uptime_targets"] = {
+								["凸凸凹"] = {
+									["uptime"] = 3,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["大风车滋滋转"] = {
+									["uptime"] = 2,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["日出东芳"] = {
+									["uptime"] = 2,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["特变电工"] = {
+									["uptime"] = 4,
+									["refreshamt"] = 0,
+									["appliedamt"] = 0,
+									["activedamt"] = 1,
+									["actived"] = true,
+									["actived_at"] = 1666100939,
+								},
+								["雪花丶有点飘"] = {
+									["uptime"] = 2,
+									["refreshamt"] = 0,
+									["appliedamt"] = 0,
+									["activedamt"] = 1,
+									["actived"] = true,
+									["actived_at"] = 1666100939,
+								},
+								["魂之信仰"] = {
+									["uptime"] = 2,
+									["refreshamt"] = 0,
+									["appliedamt"] = 0,
+									["activedamt"] = 1,
+									["actived"] = true,
+									["actived_at"] = 1666100939,
+								},
+							},
+							["damage_spellid"] = 56910,
+							["boss_fight_component"] = true,
 						}, -- [23]
 						{
 							["flag_original"] = 2632,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 9,
 							},
 							["pets"] = {
 							},
@@ -12120,70 +14176,70 @@ _detalhes_database = {
 							["debuff_uptime"] = 132,
 							["spellschool"] = 32,
 							["nome"] = "暮光位移",
-							["boss_fight_component"] = true,
-							["debuff_uptime_targets"] = {
-								["特变电工"] = {
-									["uptime"] = 20,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["陌戮"] = {
-									["uptime"] = 21,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["大风车滋滋转"] = {
-									["uptime"] = 21,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["雪花丶有点飘"] = {
-									["uptime"] = 17,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["踏遍天涯"] = {
-									["uptime"] = 14,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["魂之信仰"] = {
-									["uptime"] = 19,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["日出东芳"] = {
-									["uptime"] = 20,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-							},
-							["damage_spellid"] = 57874,
-							["last_event"] = 1666100796,
-							["damage_twin"] = "[*] 暮光位移",
 							["aID"] = "",
 							["serial"] = "",
 							["tipo"] = 4,
+							["last_event"] = 1666100796,
+							["damage_twin"] = "[*] 暮光位移",
+							["debuff_uptime_targets"] = {
+								["特变电工"] = {
+									["uptime"] = 20,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["陌戮"] = {
+									["uptime"] = 21,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["大风车滋滋转"] = {
+									["uptime"] = 21,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["日出东芳"] = {
+									["uptime"] = 20,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["雪花丶有点飘"] = {
+									["uptime"] = 17,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["踏遍天涯"] = {
+									["uptime"] = 14,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+								["魂之信仰"] = {
+									["uptime"] = 19,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+							},
+							["damage_spellid"] = 57874,
+							["boss_fight_component"] = true,
 						}, -- [24]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 8,
 					["tipo"] = 2,
+					["combatId"] = 8,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -12194,10 +14250,10 @@ _detalhes_database = {
 					["夕里安"] = true,
 					["凸凸凹"] = true,
 					["踏遍天涯"] = true,
-					["魂之信仰"] = true,
-					["陌戮"] = true,
-					["雪花丶有点飘"] = true,
 					["日出东芳"] = true,
+					["雪花丶有点飘"] = true,
+					["陌戮"] = true,
+					["魂之信仰"] = true,
 				},
 				["raid_roster_indexed"] = {
 					"雪花丶有点飘", -- [1]
@@ -12212,172 +14268,38 @@ _detalhes_database = {
 					"Just", -- [10]
 				},
 				["CombatStartedAt"] = 43366.271,
-				["overall_added"] = true,
+				["tempo_start"] = 1666100574,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 461,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["totals"] = {
-					9888375, -- [1]
-					1600992.99583, -- [2]
+					10111828.914157, -- [1]
+					1602641.883046, -- [2]
 					{
-						450, -- [1]
-						[0] = 293523,
+						490, -- [1]
+						[0] = 296331.976671,
 						["alternatepower"] = 0,
+						[6] = 1405,
 						[3] = 2313,
-						[6] = 1385,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 17,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 17,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
-				["totals_grupo"] = {
-					8171865, -- [1]
-					1600993, -- [2]
-					{
-						450, -- [1]
-						[0] = 293523,
-						["alternatepower"] = 0,
-						[3] = 2313,
-						[6] = 1385,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 17,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "raid",
-				["data_fim"] = "21:49:01",
-				["hasTimer"] = 364.9019999999946,
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "萨塔里奥",
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "21:42:55",
-				["end_time"] = 43727.916,
-				["combat_id"] = 8,
-				["tempo_start"] = 1666100574,
-				["resincked"] = true,
 				["player_last_events"] = {
-					["大风车滋滋转"] = {
-						{
-							true, -- [1]
-							57562, -- [2]
-							900, -- [3]
-							1666101017.086, -- [4]
-							22635, -- [5]
-							"火焰旋风", -- [6]
-							nil, -- [7]
-							4, -- [8]
-							false, -- [9]
-							-1, -- [10]
-							false, -- [11]
-							false, -- [12]
-						}, -- [1]
-						{
-							true, -- [1]
-							57634, -- [2]
-							756, -- [3]
-							1666101021.759, -- [4]
-							21873, -- [5]
-							"大风车滋滋转", -- [6]
-							nil, -- [7]
-							4, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [2]
-						{
-							true, -- [1]
-							57634, -- [2]
-							864, -- [3]
-							1666101023.758, -- [4]
-							21186, -- [5]
-							"大风车滋滋转", -- [6]
-							nil, -- [7]
-							4, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [3]
-						{
-						}, -- [4]
-						{
-						}, -- [5]
-						{
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						{
-						}, -- [9]
-						{
-						}, -- [10]
-						{
-						}, -- [11]
-						{
-						}, -- [12]
-						{
-						}, -- [13]
-						{
-						}, -- [14]
-						{
-						}, -- [15]
-						{
-						}, -- [16]
-						{
-						}, -- [17]
-						{
-						}, -- [18]
-						{
-						}, -- [19]
-						{
-						}, -- [20]
-						{
-						}, -- [21]
-						{
-						}, -- [22]
-						{
-						}, -- [23]
-						{
-						}, -- [24]
-						{
-						}, -- [25]
-						{
-						}, -- [26]
-						{
-						}, -- [27]
-						{
-						}, -- [28]
-						{
-						}, -- [29]
-						{
-						}, -- [30]
-						{
-						}, -- [31]
-						{
-						}, -- [32]
-						["n"] = 4,
-					},
 					["凸凸凹"] = {
 						{
 							true, -- [1]
@@ -12811,9 +14733,240 @@ _detalhes_database = {
 						}, -- [32]
 						["n"] = 7,
 					},
+					["特变电工"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							398, -- [3]
+							1666196403.823, -- [4]
+							17764, -- [5]
+							"希弗列尔达风暴之女", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+							false, -- [11]
+							false, -- [12]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+					["大风车滋滋转"] = {
+						{
+							true, -- [1]
+							57562, -- [2]
+							900, -- [3]
+							1666101017.086, -- [4]
+							22635, -- [5]
+							"火焰旋风", -- [6]
+							nil, -- [7]
+							4, -- [8]
+							false, -- [9]
+							-1, -- [10]
+							false, -- [11]
+							false, -- [12]
+						}, -- [1]
+						{
+							true, -- [1]
+							57634, -- [2]
+							756, -- [3]
+							1666101021.759, -- [4]
+							21873, -- [5]
+							"大风车滋滋转", -- [6]
+							nil, -- [7]
+							4, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							57634, -- [2]
+							864, -- [3]
+							1666101023.758, -- [4]
+							21186, -- [5]
+							"大风车滋滋转", -- [6]
+							nil, -- [7]
+							4, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 4,
+					},
 				},
-				["cleu_events"] = {
-					["n"] = 1,
+				["frags_need_refresh"] = true,
+				["instance_type"] = "raid",
+				["hasSaved"] = true,
+				["data_fim"] = "21:49:01",
+				["hasTimer"] = 364.9019999999946,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "萨塔里奥",
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["特变电工"] = 1446445.005511,
+							["Just"] = 1012657.005487,
+							["大风车滋滋转"] = 6437.006186000001,
+							["夕里安"] = 383045.00485,
+							["雪花丶有点飘"] = 1422022.008669,
+							["踏遍天涯"] = 1147635.004373,
+							["魂之信仰"] = 944123.004702,
+							["凸凸凹"] = 29725.003742,
+							["陌戮"] = 1168570.006456,
+							["日出东芳"] = 652637.007857,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["特变电工"] = 0.004324,
+							["Just"] = 20276.008504,
+							["大风车滋滋转"] = 641672.003643,
+							["夕里安"] = 100862.010888,
+							["雪花丶有点飘"] = 0.002822,
+							["踏遍天涯"] = 0.006456,
+							["魂之信仰"] = 164420.007491,
+							["陌戮"] = 9929.002296,
+							["凸凸凹"] = 661563.002715,
+							["日出东芳"] = 2271.002298,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 43727.916,
+				["combat_id"] = 8,
+				["overall_added"] = true,
+				["resincked"] = true,
+				["TimeData"] = {
 				},
 				["frags"] = {
 					["塔尼布隆"] = 1,
@@ -12821,8 +14974,10 @@ _detalhes_database = {
 					["沙德隆"] = 1,
 					["树人"] = 6,
 					["镜像"] = 2,
-					["熔岩烈焰"] = 21,
 					["萨塔里奥暮光雏龙"] = 12,
+					["熔岩烈焰"] = 21,
+				},
+				["spells_cast_timeline"] = {
 				},
 				["is_boss"] = {
 					["diff_string"] = "10人",
@@ -12836,53 +14991,34 @@ _detalhes_database = {
 					["id"] = 742,
 					["killed"] = true,
 				},
-				["PhaseData"] = {
+				["totals_grupo"] = {
+					8171865, -- [1]
+					1600993, -- [2]
 					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["特变电工"] = 0.004324,
-							["Just"] = 20276.008504,
-							["大风车滋滋转"] = 641672.003643,
-							["夕里安"] = 100862.010888,
-							["雪花丶有点飘"] = 0.002822,
-							["踏遍天涯"] = 0.006456,
-							["日出东芳"] = 2271.002298,
-							["凸凸凹"] = 661563.002715,
-							["陌戮"] = 9929.002296,
-							["魂之信仰"] = 164420.007491,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["特变电工"] = 1446445.005511,
-							["Just"] = 1012657.005487,
-							["大风车滋滋转"] = 6437.006186000001,
-							["夕里安"] = 383045.00485,
-							["雪花丶有点飘"] = 1422022.008669,
-							["踏遍天涯"] = 1147635.004373,
-							["凸凸凹"] = 29725.003742,
-							["陌戮"] = 1168570.006456,
-							["日出东芳"] = 652637.007857,
-							["魂之信仰"] = 944123.004702,
-						}, -- [1]
-					},
+						450, -- [1]
+						[0] = 293523,
+						["alternatepower"] = 0,
+						[6] = 1385,
+						[3] = 2313,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 17,
+					}, -- [4]
 				},
 				["CombatSkillCache"] = {
 				},
-				["spells_cast_timeline"] = {
-				},
+				["data_inicio"] = "21:42:55",
 				["start_time"] = 43362.285,
 				["contra"] = "萨塔里奥",
-				["TimeData"] = {
-				},
-			}, -- [1]
+				["combat_counter"] = 461,
+			}, -- [2]
 		},
 	},
 	["ocd_tracker"] = {
@@ -12900,17 +15036,17 @@ _detalhes_database = {
 		},
 		["width"] = 120,
 		["height"] = 18,
-		["framme_locked"] = false,
+		["cooldowns"] = {
+		},
 		["show_conditions"] = {
 			["only_inside_instance"] = true,
 			["only_in_group"] = true,
 		},
-		["cooldowns"] = {
-		},
+		["framme_locked"] = false,
 		["pos"] = {
 		},
 	},
-	["last_version"] = "3.4.0 10142",
+	["last_version"] = "3.4.0 10144",
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
@@ -12924,5240 +15060,6 @@ _detalhes_database = {
 	},
 	["on_death_menu"] = false,
 	["cached_talents"] = {
-		["Player-4778-0520EB5E"] = {
-			{
-				135736, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				65, -- [6]
-				5, -- [7]
-			}, -- [1]
-			{
-				135915, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				65, -- [6]
-				1, -- [7]
-			}, -- [2]
-			{
-				135872, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				65, -- [6]
-				1, -- [7]
-			}, -- [3]
-			{
-				135928, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				2, -- [7]
-			}, -- [4]
-			{
-				135920, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				65, -- [6]
-				3, -- [7]
-			}, -- [5]
-			{
-				135970, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				2, -- [7]
-			}, -- [6]
-			{
-				136090, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				65, -- [6]
-				5, -- [7]
-			}, -- [7]
-			{
-				135933, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				1, -- [5]
-				65, -- [6]
-				3, -- [7]
-			}, -- [8]
-			{
-				135913, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				65, -- [6]
-				5, -- [7]
-			}, -- [9]
-			{
-				132325, -- [1]
-				5, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				5, -- [7]
-			}, -- [10]
-			{
-				135917, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				3, -- [7]
-			}, -- [11]
-			{
-				135972, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				65, -- [6]
-				1, -- [7]
-			}, -- [12]
-			{
-				135938, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				5, -- [7]
-			}, -- [13]
-			{
-				135984, -- [1]
-				1, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				2, -- [7]
-			}, -- [14]
-			{
-				135948, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				65, -- [6]
-				2, -- [7]
-			}, -- [15]
-			{
-				135950, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				1, -- [5]
-				65, -- [6]
-				2, -- [7]
-			}, -- [16]
-			{
-				135876, -- [1]
-				0, -- [2]
-				7, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				3, -- [7]
-			}, -- [17]
-			{
-				135931, -- [1]
-				0, -- [2]
-				7, -- [3]
-				1, -- [4]
-				1, -- [5]
-				65, -- [6]
-				3, -- [7]
-			}, -- [18]
-			{
-				135921, -- [1]
-				0, -- [2]
-				8, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				5, -- [7]
-			}, -- [19]
-			{
-				135895, -- [1]
-				0, -- [2]
-				9, -- [3]
-				1, -- [4]
-				1, -- [5]
-				65, -- [6]
-				1, -- [7]
-			}, -- [20]
-			{
-				236261, -- [1]
-				0, -- [2]
-				8, -- [3]
-				1, -- [4]
-				1, -- [5]
-				65, -- [6]
-				3, -- [7]
-			}, -- [21]
-			{
-				236251, -- [1]
-				0, -- [2]
-				10, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				2, -- [7]
-			}, -- [22]
-			{
-				236247, -- [1]
-				0, -- [2]
-				11, -- [3]
-				2, -- [4]
-				1, -- [5]
-				65, -- [6]
-				1, -- [7]
-			}, -- [23]
-			{
-				236254, -- [1]
-				0, -- [2]
-				10, -- [3]
-				2, -- [4]
-				1, -- [5]
-				65, -- [6]
-				2, -- [7]
-			}, -- [24]
-			{
-				236248, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				1, -- [5]
-				65, -- [6]
-				2, -- [7]
-			}, -- [25]
-			{
-				236256, -- [1]
-				0, -- [2]
-				9, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				5, -- [7]
-			}, -- [26]
-			{
-				132110, -- [1]
-				0, -- [2]
-				8, -- [3]
-				1, -- [4]
-				2, -- [5]
-				66, -- [6]
-				3, -- [7]
-			}, -- [27]
-			{
-				135893, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				3, -- [7]
-			}, -- [28]
-			{
-				135892, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				5, -- [7]
-			}, -- [29]
-			{
-				135964, -- [1]
-				2, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				66, -- [6]
-				2, -- [7]
-			}, -- [30]
-			{
-				135882, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				5, -- [7]
-			}, -- [31]
-			{
-				135321, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				3, -- [7]
-			}, -- [32]
-			{
-				135880, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				66, -- [6]
-				1, -- [7]
-			}, -- [33]
-			{
-				136051, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				66, -- [6]
-				1, -- [7]
-			}, -- [34]
-			{
-				135883, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				66, -- [6]
-				5, -- [7]
-			}, -- [35]
-			{
-				135962, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				66, -- [6]
-				3, -- [7]
-			}, -- [36]
-			{
-				135963, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				66, -- [6]
-				2, -- [7]
-			}, -- [37]
-			{
-				135994, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				5, -- [7]
-			}, -- [38]
-			{
-				135978, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				66, -- [6]
-				3, -- [7]
-			}, -- [39]
-			{
-				135896, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				2, -- [5]
-				66, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				135870, -- [1]
-				0, -- [2]
-				7, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				3, -- [7]
-			}, -- [41]
-			{
-				135986, -- [1]
-				0, -- [2]
-				8, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				3, -- [7]
-			}, -- [42]
-			{
-				135874, -- [1]
-				0, -- [2]
-				9, -- [3]
-				2, -- [4]
-				2, -- [5]
-				66, -- [6]
-				1, -- [7]
-			}, -- [43]
-			{
-				132154, -- [1]
-				5, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				5, -- [7]
-			}, -- [44]
-			{
-				236252, -- [1]
-				0, -- [2]
-				9, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				2, -- [7]
-			}, -- [45]
-			{
-				236267, -- [1]
-				0, -- [2]
-				9, -- [3]
-				1, -- [4]
-				2, -- [5]
-				66, -- [6]
-				3, -- [7]
-			}, -- [46]
-			{
-				236253, -- [1]
-				0, -- [2]
-				11, -- [3]
-				2, -- [4]
-				2, -- [5]
-				66, -- [6]
-				1, -- [7]
-			}, -- [47]
-			{
-				236259, -- [1]
-				0, -- [2]
-				10, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				2, -- [7]
-			}, -- [48]
-			{
-				236264, -- [1]
-				0, -- [2]
-				10, -- [3]
-				2, -- [4]
-				2, -- [5]
-				66, -- [6]
-				3, -- [7]
-			}, -- [49]
-			{
-				253400, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				66, -- [6]
-				1, -- [7]
-			}, -- [50]
-			{
-				253400, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				66, -- [6]
-				2, -- [7]
-			}, -- [51]
-			{
-				135958, -- [1]
-				0, -- [2]
-				7, -- [3]
-				1, -- [4]
-				2, -- [5]
-				66, -- [6]
-				2, -- [7]
-			}, -- [52]
-			{
-				135906, -- [1]
-				2, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				70, -- [6]
-				2, -- [7]
-			}, -- [53]
-			{
-				132275, -- [1]
-				3, -- [2]
-				6, -- [3]
-				2, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [54]
-			{
-				132269, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				70, -- [6]
-				5, -- [7]
-			}, -- [55]
-			{
-				135863, -- [1]
-				5, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				70, -- [6]
-				5, -- [7]
-			}, -- [56]
-			{
-				133041, -- [1]
-				3, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [57]
-			{
-				135957, -- [1]
-				5, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				70, -- [6]
-				5, -- [7]
-			}, -- [58]
-			{
-				135942, -- [1]
-				1, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				70, -- [6]
-				1, -- [7]
-			}, -- [59]
-			{
-				135924, -- [1]
-				3, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [60]
-			{
-				132347, -- [1]
-				1, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				70, -- [6]
-				1, -- [7]
-			}, -- [61]
-			{
-				135959, -- [1]
-				2, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				70, -- [6]
-				2, -- [7]
-			}, -- [62]
-			{
-				135904, -- [1]
-				2, -- [2]
-				4, -- [3]
-				1, -- [4]
-				3, -- [5]
-				70, -- [6]
-				2, -- [7]
-			}, -- [63]
-			{
-				135985, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				70, -- [6]
-				2, -- [7]
-			}, -- [64]
-			{
-				135937, -- [1]
-				2, -- [2]
-				3, -- [3]
-				4, -- [4]
-				3, -- [5]
-				70, -- [6]
-				2, -- [7]
-			}, -- [65]
-			{
-				135889, -- [1]
-				3, -- [2]
-				4, -- [3]
-				4, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [66]
-			{
-				135934, -- [1]
-				1, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				70, -- [6]
-				1, -- [7]
-			}, -- [67]
-			{
-				135897, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				70, -- [6]
-				2, -- [7]
-			}, -- [68]
-			{
-				236257, -- [1]
-				3, -- [2]
-				7, -- [3]
-				3, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [69]
-			{
-				135905, -- [1]
-				3, -- [2]
-				8, -- [3]
-				2, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [70]
-			{
-				135924, -- [1]
-				3, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [71]
-			{
-				135891, -- [1]
-				1, -- [2]
-				9, -- [3]
-				2, -- [4]
-				3, -- [5]
-				70, -- [6]
-				1, -- [7]
-			}, -- [72]
-			{
-				236262, -- [1]
-				2, -- [2]
-				8, -- [3]
-				3, -- [4]
-				3, -- [5]
-				70, -- [6]
-				2, -- [7]
-			}, -- [73]
-			{
-				236266, -- [1]
-				3, -- [2]
-				9, -- [3]
-				1, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [74]
-			{
-				236260, -- [1]
-				3, -- [2]
-				10, -- [3]
-				2, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [75]
-			{
-				236250, -- [1]
-				1, -- [2]
-				11, -- [3]
-				2, -- [4]
-				3, -- [5]
-				70, -- [6]
-				1, -- [7]
-			}, -- [76]
-			{
-				236246, -- [1]
-				2, -- [2]
-				7, -- [3]
-				1, -- [4]
-				3, -- [5]
-				70, -- [6]
-				2, -- [7]
-			}, -- [77]
-			{
-				236263, -- [1]
-				3, -- [2]
-				9, -- [3]
-				3, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [78]
-		},
-		["Player-4778-0384ECAB"] = {
-			{
-				135736, -- [1]
-				5, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				65, -- [6]
-				5, -- [7]
-			}, -- [1]
-			{
-				135915, -- [1]
-				1, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				65, -- [6]
-				1, -- [7]
-			}, -- [2]
-			{
-				135872, -- [1]
-				1, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				65, -- [6]
-				1, -- [7]
-			}, -- [3]
-			{
-				135928, -- [1]
-				2, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				2, -- [7]
-			}, -- [4]
-			{
-				135920, -- [1]
-				3, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				65, -- [6]
-				3, -- [7]
-			}, -- [5]
-			{
-				135970, -- [1]
-				1, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				2, -- [7]
-			}, -- [6]
-			{
-				136090, -- [1]
-				5, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				65, -- [6]
-				5, -- [7]
-			}, -- [7]
-			{
-				135933, -- [1]
-				3, -- [2]
-				4, -- [3]
-				1, -- [4]
-				1, -- [5]
-				65, -- [6]
-				3, -- [7]
-			}, -- [8]
-			{
-				135913, -- [1]
-				5, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				65, -- [6]
-				5, -- [7]
-			}, -- [9]
-			{
-				132325, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				5, -- [7]
-			}, -- [10]
-			{
-				135917, -- [1]
-				3, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				3, -- [7]
-			}, -- [11]
-			{
-				135972, -- [1]
-				1, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				65, -- [6]
-				1, -- [7]
-			}, -- [12]
-			{
-				135938, -- [1]
-				5, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				5, -- [7]
-			}, -- [13]
-			{
-				135984, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				2, -- [7]
-			}, -- [14]
-			{
-				135948, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				65, -- [6]
-				2, -- [7]
-			}, -- [15]
-			{
-				135950, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				1, -- [5]
-				65, -- [6]
-				2, -- [7]
-			}, -- [16]
-			{
-				135876, -- [1]
-				0, -- [2]
-				7, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				3, -- [7]
-			}, -- [17]
-			{
-				135931, -- [1]
-				3, -- [2]
-				7, -- [3]
-				1, -- [4]
-				1, -- [5]
-				65, -- [6]
-				3, -- [7]
-			}, -- [18]
-			{
-				135921, -- [1]
-				5, -- [2]
-				8, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				5, -- [7]
-			}, -- [19]
-			{
-				135895, -- [1]
-				1, -- [2]
-				9, -- [3]
-				1, -- [4]
-				1, -- [5]
-				65, -- [6]
-				1, -- [7]
-			}, -- [20]
-			{
-				236261, -- [1]
-				0, -- [2]
-				8, -- [3]
-				1, -- [4]
-				1, -- [5]
-				65, -- [6]
-				3, -- [7]
-			}, -- [21]
-			{
-				236251, -- [1]
-				2, -- [2]
-				10, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				2, -- [7]
-			}, -- [22]
-			{
-				236247, -- [1]
-				1, -- [2]
-				11, -- [3]
-				2, -- [4]
-				1, -- [5]
-				65, -- [6]
-				1, -- [7]
-			}, -- [23]
-			{
-				236254, -- [1]
-				2, -- [2]
-				10, -- [3]
-				2, -- [4]
-				1, -- [5]
-				65, -- [6]
-				2, -- [7]
-			}, -- [24]
-			{
-				236248, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				1, -- [5]
-				65, -- [6]
-				2, -- [7]
-			}, -- [25]
-			{
-				236256, -- [1]
-				5, -- [2]
-				9, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				5, -- [7]
-			}, -- [26]
-			{
-				132110, -- [1]
-				0, -- [2]
-				8, -- [3]
-				1, -- [4]
-				2, -- [5]
-				66, -- [6]
-				3, -- [7]
-			}, -- [27]
-			{
-				135893, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				3, -- [7]
-			}, -- [28]
-			{
-				135892, -- [1]
-				4, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				5, -- [7]
-			}, -- [29]
-			{
-				135964, -- [1]
-				2, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				66, -- [6]
-				2, -- [7]
-			}, -- [30]
-			{
-				135882, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				5, -- [7]
-			}, -- [31]
-			{
-				135321, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				3, -- [7]
-			}, -- [32]
-			{
-				135880, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				66, -- [6]
-				1, -- [7]
-			}, -- [33]
-			{
-				136051, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				66, -- [6]
-				1, -- [7]
-			}, -- [34]
-			{
-				135883, -- [1]
-				5, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				66, -- [6]
-				5, -- [7]
-			}, -- [35]
-			{
-				135962, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				66, -- [6]
-				3, -- [7]
-			}, -- [36]
-			{
-				135963, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				66, -- [6]
-				2, -- [7]
-			}, -- [37]
-			{
-				135994, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				5, -- [7]
-			}, -- [38]
-			{
-				135978, -- [1]
-				3, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				66, -- [6]
-				3, -- [7]
-			}, -- [39]
-			{
-				135896, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				2, -- [5]
-				66, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				135870, -- [1]
-				0, -- [2]
-				7, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				3, -- [7]
-			}, -- [41]
-			{
-				135986, -- [1]
-				0, -- [2]
-				8, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				3, -- [7]
-			}, -- [42]
-			{
-				135874, -- [1]
-				0, -- [2]
-				9, -- [3]
-				2, -- [4]
-				2, -- [5]
-				66, -- [6]
-				1, -- [7]
-			}, -- [43]
-			{
-				132154, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				5, -- [7]
-			}, -- [44]
-			{
-				236252, -- [1]
-				0, -- [2]
-				9, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				2, -- [7]
-			}, -- [45]
-			{
-				236267, -- [1]
-				0, -- [2]
-				9, -- [3]
-				1, -- [4]
-				2, -- [5]
-				66, -- [6]
-				3, -- [7]
-			}, -- [46]
-			{
-				236253, -- [1]
-				0, -- [2]
-				11, -- [3]
-				2, -- [4]
-				2, -- [5]
-				66, -- [6]
-				1, -- [7]
-			}, -- [47]
-			{
-				236259, -- [1]
-				0, -- [2]
-				10, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				2, -- [7]
-			}, -- [48]
-			{
-				236264, -- [1]
-				0, -- [2]
-				10, -- [3]
-				2, -- [4]
-				2, -- [5]
-				66, -- [6]
-				3, -- [7]
-			}, -- [49]
-			{
-				253400, -- [1]
-				1, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				66, -- [6]
-				1, -- [7]
-			}, -- [50]
-			{
-				253400, -- [1]
-				2, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				66, -- [6]
-				2, -- [7]
-			}, -- [51]
-			{
-				135958, -- [1]
-				0, -- [2]
-				7, -- [3]
-				1, -- [4]
-				2, -- [5]
-				66, -- [6]
-				2, -- [7]
-			}, -- [52]
-			{
-				135906, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				70, -- [6]
-				2, -- [7]
-			}, -- [53]
-			{
-				132275, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [54]
-			{
-				132269, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				70, -- [6]
-				5, -- [7]
-			}, -- [55]
-			{
-				135863, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				70, -- [6]
-				5, -- [7]
-			}, -- [56]
-			{
-				133041, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [57]
-			{
-				135957, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				70, -- [6]
-				5, -- [7]
-			}, -- [58]
-			{
-				135942, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				70, -- [6]
-				1, -- [7]
-			}, -- [59]
-			{
-				135924, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [60]
-			{
-				132347, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				70, -- [6]
-				1, -- [7]
-			}, -- [61]
-			{
-				135959, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				70, -- [6]
-				2, -- [7]
-			}, -- [62]
-			{
-				135904, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				3, -- [5]
-				70, -- [6]
-				2, -- [7]
-			}, -- [63]
-			{
-				135985, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				70, -- [6]
-				2, -- [7]
-			}, -- [64]
-			{
-				135937, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				3, -- [5]
-				70, -- [6]
-				2, -- [7]
-			}, -- [65]
-			{
-				135889, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [66]
-			{
-				135934, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				70, -- [6]
-				1, -- [7]
-			}, -- [67]
-			{
-				135897, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				70, -- [6]
-				2, -- [7]
-			}, -- [68]
-			{
-				236257, -- [1]
-				0, -- [2]
-				7, -- [3]
-				3, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [69]
-			{
-				135905, -- [1]
-				0, -- [2]
-				8, -- [3]
-				2, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [70]
-			{
-				135924, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [71]
-			{
-				135891, -- [1]
-				0, -- [2]
-				9, -- [3]
-				2, -- [4]
-				3, -- [5]
-				70, -- [6]
-				1, -- [7]
-			}, -- [72]
-			{
-				236262, -- [1]
-				0, -- [2]
-				8, -- [3]
-				3, -- [4]
-				3, -- [5]
-				70, -- [6]
-				2, -- [7]
-			}, -- [73]
-			{
-				236266, -- [1]
-				0, -- [2]
-				9, -- [3]
-				1, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [74]
-			{
-				236260, -- [1]
-				0, -- [2]
-				10, -- [3]
-				2, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [75]
-			{
-				236250, -- [1]
-				0, -- [2]
-				11, -- [3]
-				2, -- [4]
-				3, -- [5]
-				70, -- [6]
-				1, -- [7]
-			}, -- [76]
-			{
-				236246, -- [1]
-				0, -- [2]
-				7, -- [3]
-				1, -- [4]
-				3, -- [5]
-				70, -- [6]
-				2, -- [7]
-			}, -- [77]
-			{
-				236263, -- [1]
-				0, -- [2]
-				9, -- [3]
-				3, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [78]
-		},
-		["Player-4778-04AC8F71"] = {
-			{
-				132090, -- [1]
-				3, -- [2]
-				3, -- [3]
-				4, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [1]
-			{
-				135328, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				1, -- [5]
-				71, -- [6]
-				5, -- [7]
-			}, -- [2]
-			{
-				132282, -- [1]
-				3, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [3]
-			{
-				133476, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				5, -- [7]
-			}, -- [4]
-			{
-				132337, -- [1]
-				2, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [5]
-			{
-				132155, -- [1]
-				2, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [6]
-			{
-				136031, -- [1]
-				3, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [7]
-			{
-				132316, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [8]
-			{
-				132269, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				5, -- [7]
-			}, -- [9]
-			{
-				135275, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [10]
-			{
-				132397, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				5, -- [7]
-			}, -- [11]
-			{
-				132306, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [12]
-			{
-				132367, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [13]
-			{
-				132355, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [14]
-			{
-				132400, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [15]
-			{
-				135881, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [16]
-			{
-				135995, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [17]
-			{
-				132312, -- [1]
-				2, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [18]
-			{
-				132344, -- [1]
-				0, -- [2]
-				9, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [19]
-			{
-				132346, -- [1]
-				0, -- [2]
-				9, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [20]
-			{
-				132175, -- [1]
-				0, -- [2]
-				7, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [21]
-			{
-				132334, -- [1]
-				0, -- [2]
-				9, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [22]
-			{
-				132355, -- [1]
-				0, -- [2]
-				8, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [23]
-			{
-				236305, -- [1]
-				0, -- [2]
-				6, -- [3]
-				4, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [24]
-			{
-				236317, -- [1]
-				0, -- [2]
-				8, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [25]
-			{
-				132349, -- [1]
-				0, -- [2]
-				7, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [26]
-			{
-				236303, -- [1]
-				0, -- [2]
-				11, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [27]
-			{
-				132364, -- [1]
-				0, -- [2]
-				10, -- [3]
-				2, -- [4]
-				1, -- [5]
-				71, -- [6]
-				5, -- [7]
-			}, -- [28]
-			{
-				236276, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				71, -- [6]
-				3, -- [7]
-			}, -- [29]
-			{
-				132340, -- [1]
-				0, -- [2]
-				7, -- [3]
-				4, -- [4]
-				1, -- [5]
-				71, -- [6]
-				2, -- [7]
-			}, -- [30]
-			{
-				132335, -- [1]
-				0, -- [2]
-				8, -- [3]
-				1, -- [4]
-				1, -- [5]
-				71, -- [6]
-				1, -- [7]
-			}, -- [31]
-			{
-				136035, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				2, -- [5]
-				72, -- [6]
-				5, -- [7]
-			}, -- [32]
-			{
-				136224, -- [1]
-				2, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				5, -- [7]
-			}, -- [33]
-			{
-				132152, -- [1]
-				5, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				5, -- [7]
-			}, -- [34]
-			{
-				132292, -- [1]
-				5, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				5, -- [7]
-			}, -- [35]
-			{
-				136075, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [36]
-			{
-				136097, -- [1]
-				4, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				5, -- [7]
-			}, -- [37]
-			{
-				136147, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [38]
-			{
-				132366, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				5, -- [7]
-			}, -- [39]
-			{
-				136146, -- [1]
-				1, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [40]
-			{
-				132338, -- [1]
-				3, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [41]
-			{
-				136012, -- [1]
-				1, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [42]
-			{
-				136218, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [43]
-			{
-				136009, -- [1]
-				2, -- [2]
-				6, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [44]
-			{
-				135358, -- [1]
-				2, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [45]
-			{
-				132307, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [46]
-			{
-				132147, -- [1]
-				5, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				5, -- [7]
-			}, -- [47]
-			{
-				132369, -- [1]
-				2, -- [2]
-				7, -- [3]
-				4, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [48]
-			{
-				132222, -- [1]
-				3, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [49]
-			{
-				132275, -- [1]
-				5, -- [2]
-				8, -- [3]
-				4, -- [4]
-				2, -- [5]
-				72, -- [6]
-				5, -- [7]
-			}, -- [50]
-			{
-				132352, -- [1]
-				1, -- [2]
-				9, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [51]
-			{
-				132344, -- [1]
-				3, -- [2]
-				7, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [52]
-			{
-				236308, -- [1]
-				0, -- [2]
-				8, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				2, -- [7]
-			}, -- [53]
-			{
-				236306, -- [1]
-				3, -- [2]
-				9, -- [3]
-				3, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [54]
-			{
-				236316, -- [1]
-				1, -- [2]
-				11, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [55]
-			{
-				236171, -- [1]
-				0, -- [2]
-				9, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				1, -- [7]
-			}, -- [56]
-			{
-				236310, -- [1]
-				5, -- [2]
-				10, -- [3]
-				2, -- [4]
-				2, -- [5]
-				72, -- [6]
-				5, -- [7]
-			}, -- [57]
-			{
-				135053, -- [1]
-				3, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				72, -- [6]
-				3, -- [7]
-			}, -- [58]
-			{
-				136056, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				5, -- [7]
-			}, -- [59]
-			{
-				135892, -- [1]
-				0, -- [2]
-				3, -- [3]
-				4, -- [4]
-				3, -- [5]
-				73, -- [6]
-				5, -- [7]
-			}, -- [60]
-			{
-				132326, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [61]
-			{
-				132277, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [62]
-			{
-				236309, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [63]
-			{
-				132363, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [64]
-			{
-				132353, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [65]
-			{
-				236318, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [66]
-			{
-				132357, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [67]
-			{
-				132362, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [68]
-			{
-				132343, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [69]
-			{
-				132325, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [70]
-			{
-				135871, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [71]
-			{
-				135321, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				5, -- [7]
-			}, -- [72]
-			{
-				134952, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				5, -- [7]
-			}, -- [73]
-			{
-				132341, -- [1]
-				0, -- [2]
-				7, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [74]
-			{
-				133123, -- [1]
-				0, -- [2]
-				8, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [75]
-			{
-				132360, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [76]
-			{
-				132345, -- [1]
-				0, -- [2]
-				7, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [77]
-			{
-				135291, -- [1]
-				0, -- [2]
-				9, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [78]
-			{
-				236311, -- [1]
-				0, -- [2]
-				8, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [79]
-			{
-				236315, -- [1]
-				0, -- [2]
-				10, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [80]
-			{
-				236312, -- [1]
-				0, -- [2]
-				11, -- [3]
-				2, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [81]
-			{
-				236307, -- [1]
-				0, -- [2]
-				9, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				3, -- [7]
-			}, -- [82]
-			{
-				236319, -- [1]
-				0, -- [2]
-				9, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				1, -- [7]
-			}, -- [83]
-			{
-				134976, -- [1]
-				0, -- [2]
-				10, -- [3]
-				3, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [84]
-			{
-				132361, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				3, -- [5]
-				73, -- [6]
-				2, -- [7]
-			}, -- [85]
-		},
-		["Player-4778-051F9AB9"] = {
-			{
-				135770, -- [1]
-				0, -- [2]
-				7, -- [3]
-				3, -- [4]
-				1, -- [5]
-				250, -- [6]
-				2, -- [7]
-			}, -- [1]
-			{
-				135067, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				250, -- [6]
-				5, -- [7]
-			}, -- [2]
-			{
-				132455, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				250, -- [6]
-				2, -- [7]
-			}, -- [3]
-			{
-				237529, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				250, -- [6]
-				1, -- [7]
-			}, -- [4]
-			{
-				237529, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				1, -- [5]
-				250, -- [6]
-				3, -- [7]
-			}, -- [5]
-			{
-				237518, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				250, -- [6]
-				5, -- [7]
-			}, -- [6]
-			{
-				132090, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				1, -- [5]
-				250, -- [6]
-				3, -- [7]
-			}, -- [7]
-			{
-				237533, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				250, -- [6]
-				3, -- [7]
-			}, -- [8]
-			{
-				132284, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				250, -- [6]
-				3, -- [7]
-			}, -- [9]
-			{
-				132205, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				1, -- [5]
-				250, -- [6]
-				1, -- [7]
-			}, -- [10]
-			{
-				136005, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				250, -- [6]
-				3, -- [7]
-			}, -- [11]
-			{
-				237536, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				1, -- [5]
-				250, -- [6]
-				3, -- [7]
-			}, -- [12]
-			{
-				237512, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				250, -- [6]
-				1, -- [7]
-			}, -- [13]
-			{
-				136181, -- [1]
-				0, -- [2]
-				8, -- [3]
-				2, -- [4]
-				1, -- [5]
-				250, -- [6]
-				3, -- [7]
-			}, -- [14]
-			{
-				135675, -- [1]
-				0, -- [2]
-				9, -- [3]
-				2, -- [4]
-				1, -- [5]
-				250, -- [6]
-				1, -- [7]
-			}, -- [15]
-			{
-				135771, -- [1]
-				0, -- [2]
-				9, -- [3]
-				3, -- [4]
-				1, -- [5]
-				250, -- [6]
-				3, -- [7]
-			}, -- [16]
-			{
-				132094, -- [1]
-				0, -- [2]
-				9, -- [3]
-				1, -- [4]
-				1, -- [5]
-				250, -- [6]
-				3, -- [7]
-			}, -- [17]
-			{
-				136211, -- [1]
-				0, -- [2]
-				7, -- [3]
-				1, -- [4]
-				1, -- [5]
-				250, -- [6]
-				3, -- [7]
-			}, -- [18]
-			{
-				135277, -- [1]
-				0, -- [2]
-				11, -- [3]
-				2, -- [4]
-				1, -- [5]
-				250, -- [6]
-				1, -- [7]
-			}, -- [19]
-			{
-				135772, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				250, -- [6]
-				3, -- [7]
-			}, -- [20]
-			{
-				132330, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				250, -- [6]
-				5, -- [7]
-			}, -- [21]
-			{
-				237531, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				250, -- [6]
-				3, -- [7]
-			}, -- [22]
-			{
-				136168, -- [1]
-				0, -- [2]
-				8, -- [3]
-				3, -- [4]
-				1, -- [5]
-				250, -- [6]
-				1, -- [7]
-			}, -- [23]
-			{
-				136080, -- [1]
-				0, -- [2]
-				10, -- [3]
-				2, -- [4]
-				1, -- [5]
-				250, -- [6]
-				5, -- [7]
-			}, -- [24]
-			{
-				135372, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				250, -- [6]
-				3, -- [7]
-			}, -- [25]
-			{
-				236310, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				250, -- [6]
-				2, -- [7]
-			}, -- [26]
-			{
-				135378, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				250, -- [6]
-				2, -- [7]
-			}, -- [27]
-			{
-				237517, -- [1]
-				0, -- [2]
-				8, -- [3]
-				1, -- [4]
-				1, -- [5]
-				250, -- [6]
-				2, -- [7]
-			}, -- [28]
-			{
-				135892, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				251, -- [6]
-				5, -- [7]
-			}, -- [29]
-			{
-				136223, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				2, -- [5]
-				251, -- [6]
-				2, -- [7]
-			}, -- [30]
-			{
-				136141, -- [1]
-				4, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				251, -- [6]
-				5, -- [7]
-			}, -- [31]
-			{
-				237520, -- [1]
-				0, -- [2]
-				9, -- [3]
-				2, -- [4]
-				2, -- [5]
-				251, -- [6]
-				1, -- [7]
-			}, -- [32]
-			{
-				132388, -- [1]
-				0, -- [2]
-				8, -- [3]
-				3, -- [4]
-				2, -- [5]
-				251, -- [6]
-				1, -- [7]
-			}, -- [33]
-			{
-				136213, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				2, -- [5]
-				251, -- [6]
-				1, -- [7]
-			}, -- [34]
-			{
-				135849, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				251, -- [6]
-				2, -- [7]
-			}, -- [35]
-			{
-				135833, -- [1]
-				0, -- [2]
-				11, -- [3]
-				2, -- [4]
-				2, -- [5]
-				251, -- [6]
-				1, -- [7]
-			}, -- [36]
-			{
-				132734, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				251, -- [6]
-				3, -- [7]
-			}, -- [37]
-			{
-				135840, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				251, -- [6]
-				3, -- [7]
-			}, -- [38]
-			{
-				135294, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				2, -- [5]
-				251, -- [6]
-				2, -- [7]
-			}, -- [39]
-			{
-				135791, -- [1]
-				0, -- [2]
-				9, -- [3]
-				1, -- [4]
-				2, -- [5]
-				251, -- [6]
-				3, -- [7]
-			}, -- [40]
-			{
-				136107, -- [1]
-				0, -- [2]
-				10, -- [3]
-				2, -- [4]
-				2, -- [5]
-				251, -- [6]
-				5, -- [7]
-			}, -- [41]
-			{
-				135152, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				251, -- [6]
-				1, -- [7]
-			}, -- [42]
-			{
-				135728, -- [1]
-				2, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				251, -- [6]
-				2, -- [7]
-			}, -- [43]
-			{
-				132147, -- [1]
-				2, -- [2]
-				2, -- [3]
-				4, -- [4]
-				2, -- [5]
-				251, -- [6]
-				3, -- [7]
-			}, -- [44]
-			{
-				135773, -- [1]
-				0, -- [2]
-				7, -- [3]
-				3, -- [4]
-				2, -- [5]
-				251, -- [6]
-				2, -- [7]
-			}, -- [45]
-			{
-				136083, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				2, -- [5]
-				251, -- [6]
-				3, -- [7]
-			}, -- [46]
-			{
-				237526, -- [1]
-				3, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				251, -- [6]
-				3, -- [7]
-			}, -- [47]
-			{
-				135859, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				251, -- [6]
-				2, -- [7]
-			}, -- [48]
-			{
-				132373, -- [1]
-				0, -- [2]
-				9, -- [3]
-				3, -- [4]
-				2, -- [5]
-				251, -- [6]
-				3, -- [7]
-			}, -- [49]
-			{
-				252994, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				251, -- [6]
-				5, -- [7]
-			}, -- [50]
-			{
-				135305, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				251, -- [6]
-				5, -- [7]
-			}, -- [51]
-			{
-				135609, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				251, -- [6]
-				3, -- [7]
-			}, -- [52]
-			{
-				135714, -- [1]
-				0, -- [2]
-				8, -- [3]
-				2, -- [4]
-				2, -- [5]
-				251, -- [6]
-				3, -- [7]
-			}, -- [53]
-			{
-				136187, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				251, -- [6]
-				1, -- [7]
-			}, -- [54]
-			{
-				252994, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				2, -- [5]
-				251, -- [6]
-				1, -- [7]
-			}, -- [55]
-			{
-				135864, -- [1]
-				0, -- [2]
-				7, -- [3]
-				1, -- [4]
-				2, -- [5]
-				251, -- [6]
-				3, -- [7]
-			}, -- [56]
-			{
-				132148, -- [1]
-				0, -- [2]
-				8, -- [3]
-				1, -- [4]
-				2, -- [5]
-				251, -- [6]
-				3, -- [7]
-			}, -- [57]
-			{
-				136126, -- [1]
-				3, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				252, -- [6]
-				3, -- [7]
-			}, -- [58]
-			{
-				136144, -- [1]
-				3, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				252, -- [6]
-				3, -- [7]
-			}, -- [59]
-			{
-				237524, -- [1]
-				3, -- [2]
-				2, -- [3]
-				4, -- [4]
-				3, -- [5]
-				252, -- [6]
-				3, -- [7]
-			}, -- [60]
-			{
-				136066, -- [1]
-				3, -- [2]
-				8, -- [3]
-				2, -- [4]
-				3, -- [5]
-				252, -- [6]
-				3, -- [7]
-			}, -- [61]
-			{
-				136207, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				252, -- [6]
-				2, -- [7]
-			}, -- [62]
-			{
-				136119, -- [1]
-				1, -- [2]
-				6, -- [3]
-				4, -- [4]
-				3, -- [5]
-				252, -- [6]
-				1, -- [7]
-			}, -- [63]
-			{
-				132099, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				252, -- [6]
-				1, -- [7]
-			}, -- [64]
-			{
-				136132, -- [1]
-				1, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				252, -- [6]
-				1, -- [7]
-			}, -- [65]
-			{
-				132182, -- [1]
-				1, -- [2]
-				11, -- [3]
-				2, -- [4]
-				3, -- [5]
-				252, -- [6]
-				1, -- [7]
-			}, -- [66]
-			{
-				136195, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				252, -- [6]
-				3, -- [7]
-			}, -- [67]
-			{
-				136127, -- [1]
-				3, -- [2]
-				9, -- [3]
-				1, -- [4]
-				3, -- [5]
-				252, -- [6]
-				3, -- [7]
-			}, -- [68]
-			{
-				132109, -- [1]
-				3, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				252, -- [6]
-				3, -- [7]
-			}, -- [69]
-			{
-				136196, -- [1]
-				5, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				252, -- [6]
-				5, -- [7]
-			}, -- [70]
-			{
-				132728, -- [1]
-				1, -- [2]
-				8, -- [3]
-				3, -- [4]
-				3, -- [5]
-				252, -- [6]
-				1, -- [7]
-			}, -- [71]
-			{
-				136182, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				252, -- [6]
-				3, -- [7]
-			}, -- [72]
-			{
-				136120, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				3, -- [5]
-				252, -- [6]
-				3, -- [7]
-			}, -- [73]
-			{
-				136194, -- [1]
-				2, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				252, -- [6]
-				2, -- [7]
-			}, -- [74]
-			{
-				135775, -- [1]
-				0, -- [2]
-				7, -- [3]
-				3, -- [4]
-				3, -- [5]
-				252, -- [6]
-				2, -- [7]
-			}, -- [75]
-			{
-				237532, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				252, -- [6]
-				2, -- [7]
-			}, -- [76]
-			{
-				135564, -- [1]
-				5, -- [2]
-				10, -- [3]
-				2, -- [4]
-				3, -- [5]
-				252, -- [6]
-				5, -- [7]
-			}, -- [77]
-			{
-				237534, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				3, -- [5]
-				252, -- [6]
-				2, -- [7]
-			}, -- [78]
-			{
-				132095, -- [1]
-				3, -- [2]
-				9, -- [3]
-				2, -- [4]
-				3, -- [5]
-				252, -- [6]
-				3, -- [7]
-			}, -- [79]
-			{
-				135695, -- [1]
-				5, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				252, -- [6]
-				5, -- [7]
-			}, -- [80]
-			{
-				135774, -- [1]
-				2, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				252, -- [6]
-				2, -- [7]
-			}, -- [81]
-			{
-				132152, -- [1]
-				1, -- [2]
-				7, -- [3]
-				4, -- [4]
-				3, -- [5]
-				252, -- [6]
-				1, -- [7]
-			}, -- [82]
-			{
-				237530, -- [1]
-				0, -- [2]
-				9, -- [3]
-				3, -- [4]
-				3, -- [5]
-				252, -- [6]
-				1, -- [7]
-			}, -- [83]
-			{
-				136056, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				252, -- [6]
-				5, -- [7]
-			}, -- [84]
-			{
-				237510, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				252, -- [6]
-				1, -- [7]
-			}, -- [85]
-			{
-				237511, -- [1]
-				2, -- [2]
-				4, -- [3]
-				4, -- [4]
-				3, -- [5]
-				252, -- [6]
-				2, -- [7]
-			}, -- [86]
-			{
-				136199, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				3, -- [5]
-				252, -- [6]
-				2, -- [7]
-			}, -- [87]
-			{
-				136224, -- [1]
-				5, -- [2]
-				7, -- [3]
-				1, -- [4]
-				3, -- [5]
-				252, -- [6]
-				5, -- [7]
-			}, -- [88]
-		},
-		["Player-4778-04D9BDE6"] = {
-			{
-				135736, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				65, -- [6]
-				5, -- [7]
-			}, -- [1]
-			{
-				135915, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				65, -- [6]
-				1, -- [7]
-			}, -- [2]
-			{
-				135872, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				65, -- [6]
-				1, -- [7]
-			}, -- [3]
-			{
-				135928, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				2, -- [7]
-			}, -- [4]
-			{
-				135920, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				65, -- [6]
-				3, -- [7]
-			}, -- [5]
-			{
-				135970, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				2, -- [7]
-			}, -- [6]
-			{
-				136090, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				65, -- [6]
-				5, -- [7]
-			}, -- [7]
-			{
-				135933, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				1, -- [5]
-				65, -- [6]
-				3, -- [7]
-			}, -- [8]
-			{
-				135913, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				65, -- [6]
-				5, -- [7]
-			}, -- [9]
-			{
-				132325, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				5, -- [7]
-			}, -- [10]
-			{
-				135917, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				3, -- [7]
-			}, -- [11]
-			{
-				135972, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				65, -- [6]
-				1, -- [7]
-			}, -- [12]
-			{
-				135938, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				5, -- [7]
-			}, -- [13]
-			{
-				135984, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				2, -- [7]
-			}, -- [14]
-			{
-				135948, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				65, -- [6]
-				2, -- [7]
-			}, -- [15]
-			{
-				135950, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				1, -- [5]
-				65, -- [6]
-				2, -- [7]
-			}, -- [16]
-			{
-				135876, -- [1]
-				0, -- [2]
-				7, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				3, -- [7]
-			}, -- [17]
-			{
-				135931, -- [1]
-				0, -- [2]
-				7, -- [3]
-				1, -- [4]
-				1, -- [5]
-				65, -- [6]
-				3, -- [7]
-			}, -- [18]
-			{
-				135921, -- [1]
-				0, -- [2]
-				8, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				5, -- [7]
-			}, -- [19]
-			{
-				135895, -- [1]
-				0, -- [2]
-				9, -- [3]
-				1, -- [4]
-				1, -- [5]
-				65, -- [6]
-				1, -- [7]
-			}, -- [20]
-			{
-				236261, -- [1]
-				0, -- [2]
-				8, -- [3]
-				1, -- [4]
-				1, -- [5]
-				65, -- [6]
-				3, -- [7]
-			}, -- [21]
-			{
-				236251, -- [1]
-				0, -- [2]
-				10, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				2, -- [7]
-			}, -- [22]
-			{
-				236247, -- [1]
-				0, -- [2]
-				11, -- [3]
-				2, -- [4]
-				1, -- [5]
-				65, -- [6]
-				1, -- [7]
-			}, -- [23]
-			{
-				236254, -- [1]
-				0, -- [2]
-				10, -- [3]
-				2, -- [4]
-				1, -- [5]
-				65, -- [6]
-				2, -- [7]
-			}, -- [24]
-			{
-				236248, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				1, -- [5]
-				65, -- [6]
-				2, -- [7]
-			}, -- [25]
-			{
-				236256, -- [1]
-				0, -- [2]
-				9, -- [3]
-				3, -- [4]
-				1, -- [5]
-				65, -- [6]
-				5, -- [7]
-			}, -- [26]
-			{
-				132110, -- [1]
-				3, -- [2]
-				8, -- [3]
-				1, -- [4]
-				2, -- [5]
-				66, -- [6]
-				3, -- [7]
-			}, -- [27]
-			{
-				135893, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				3, -- [7]
-			}, -- [28]
-			{
-				135892, -- [1]
-				5, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				5, -- [7]
-			}, -- [29]
-			{
-				135964, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				66, -- [6]
-				2, -- [7]
-			}, -- [30]
-			{
-				135882, -- [1]
-				3, -- [2]
-				5, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				5, -- [7]
-			}, -- [31]
-			{
-				135321, -- [1]
-				3, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				3, -- [7]
-			}, -- [32]
-			{
-				135880, -- [1]
-				1, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				66, -- [6]
-				1, -- [7]
-			}, -- [33]
-			{
-				136051, -- [1]
-				1, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				66, -- [6]
-				1, -- [7]
-			}, -- [34]
-			{
-				135883, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				66, -- [6]
-				5, -- [7]
-			}, -- [35]
-			{
-				135962, -- [1]
-				3, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				66, -- [6]
-				3, -- [7]
-			}, -- [36]
-			{
-				135963, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				66, -- [6]
-				2, -- [7]
-			}, -- [37]
-			{
-				135994, -- [1]
-				5, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				5, -- [7]
-			}, -- [38]
-			{
-				135978, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				66, -- [6]
-				3, -- [7]
-			}, -- [39]
-			{
-				135896, -- [1]
-				2, -- [2]
-				6, -- [3]
-				1, -- [4]
-				2, -- [5]
-				66, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				135870, -- [1]
-				3, -- [2]
-				7, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				3, -- [7]
-			}, -- [41]
-			{
-				135986, -- [1]
-				3, -- [2]
-				8, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				3, -- [7]
-			}, -- [42]
-			{
-				135874, -- [1]
-				1, -- [2]
-				9, -- [3]
-				2, -- [4]
-				2, -- [5]
-				66, -- [6]
-				1, -- [7]
-			}, -- [43]
-			{
-				132154, -- [1]
-				5, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				5, -- [7]
-			}, -- [44]
-			{
-				236252, -- [1]
-				2, -- [2]
-				9, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				2, -- [7]
-			}, -- [45]
-			{
-				236267, -- [1]
-				3, -- [2]
-				9, -- [3]
-				1, -- [4]
-				2, -- [5]
-				66, -- [6]
-				3, -- [7]
-			}, -- [46]
-			{
-				236253, -- [1]
-				1, -- [2]
-				11, -- [3]
-				2, -- [4]
-				2, -- [5]
-				66, -- [6]
-				1, -- [7]
-			}, -- [47]
-			{
-				236259, -- [1]
-				2, -- [2]
-				10, -- [3]
-				3, -- [4]
-				2, -- [5]
-				66, -- [6]
-				2, -- [7]
-			}, -- [48]
-			{
-				236264, -- [1]
-				3, -- [2]
-				10, -- [3]
-				2, -- [4]
-				2, -- [5]
-				66, -- [6]
-				3, -- [7]
-			}, -- [49]
-			{
-				253400, -- [1]
-				1, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				66, -- [6]
-				1, -- [7]
-			}, -- [50]
-			{
-				253400, -- [1]
-				2, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				66, -- [6]
-				2, -- [7]
-			}, -- [51]
-			{
-				135958, -- [1]
-				1, -- [2]
-				7, -- [3]
-				1, -- [4]
-				2, -- [5]
-				66, -- [6]
-				2, -- [7]
-			}, -- [52]
-			{
-				135906, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				70, -- [6]
-				2, -- [7]
-			}, -- [53]
-			{
-				132275, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [54]
-			{
-				132269, -- [1]
-				5, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				70, -- [6]
-				5, -- [7]
-			}, -- [55]
-			{
-				135863, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				70, -- [6]
-				5, -- [7]
-			}, -- [56]
-			{
-				133041, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [57]
-			{
-				135957, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				70, -- [6]
-				5, -- [7]
-			}, -- [58]
-			{
-				135942, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				70, -- [6]
-				1, -- [7]
-			}, -- [59]
-			{
-				135924, -- [1]
-				3, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [60]
-			{
-				132347, -- [1]
-				1, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				70, -- [6]
-				1, -- [7]
-			}, -- [61]
-			{
-				135959, -- [1]
-				2, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				70, -- [6]
-				2, -- [7]
-			}, -- [62]
-			{
-				135904, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				3, -- [5]
-				70, -- [6]
-				2, -- [7]
-			}, -- [63]
-			{
-				135985, -- [1]
-				2, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				70, -- [6]
-				2, -- [7]
-			}, -- [64]
-			{
-				135937, -- [1]
-				2, -- [2]
-				3, -- [3]
-				4, -- [4]
-				3, -- [5]
-				70, -- [6]
-				2, -- [7]
-			}, -- [65]
-			{
-				135889, -- [1]
-				3, -- [2]
-				4, -- [3]
-				4, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [66]
-			{
-				135934, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				70, -- [6]
-				1, -- [7]
-			}, -- [67]
-			{
-				135897, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				70, -- [6]
-				2, -- [7]
-			}, -- [68]
-			{
-				236257, -- [1]
-				0, -- [2]
-				7, -- [3]
-				3, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [69]
-			{
-				135905, -- [1]
-				0, -- [2]
-				8, -- [3]
-				2, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [70]
-			{
-				135924, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [71]
-			{
-				135891, -- [1]
-				0, -- [2]
-				9, -- [3]
-				2, -- [4]
-				3, -- [5]
-				70, -- [6]
-				1, -- [7]
-			}, -- [72]
-			{
-				236262, -- [1]
-				0, -- [2]
-				8, -- [3]
-				3, -- [4]
-				3, -- [5]
-				70, -- [6]
-				2, -- [7]
-			}, -- [73]
-			{
-				236266, -- [1]
-				0, -- [2]
-				9, -- [3]
-				1, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [74]
-			{
-				236260, -- [1]
-				0, -- [2]
-				10, -- [3]
-				2, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [75]
-			{
-				236250, -- [1]
-				0, -- [2]
-				11, -- [3]
-				2, -- [4]
-				3, -- [5]
-				70, -- [6]
-				1, -- [7]
-			}, -- [76]
-			{
-				236246, -- [1]
-				0, -- [2]
-				7, -- [3]
-				1, -- [4]
-				3, -- [5]
-				70, -- [6]
-				2, -- [7]
-			}, -- [77]
-			{
-				236263, -- [1]
-				0, -- [2]
-				9, -- [3]
-				3, -- [4]
-				3, -- [5]
-				70, -- [6]
-				3, -- [7]
-			}, -- [78]
-		},
-		["Player-4778-05244F19"] = {
-			{
-				136006, -- [1]
-				5, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				102, -- [6]
-				5, -- [7]
-			}, -- [1]
-			{
-				136096, -- [1]
-				2, -- [2]
-				2, -- [3]
-				4, -- [4]
-				1, -- [5]
-				102, -- [6]
-				2, -- [7]
-			}, -- [2]
-			{
-				136065, -- [1]
-				2, -- [2]
-				3, -- [3]
-				4, -- [4]
-				1, -- [5]
-				102, -- [6]
-				2, -- [7]
-			}, -- [3]
-			{
-				136104, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				102, -- [6]
-				3, -- [7]
-			}, -- [4]
-			{
-				136087, -- [1]
-				3, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				102, -- [6]
-				3, -- [7]
-			}, -- [5]
-			{
-				135753, -- [1]
-				3, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				102, -- [6]
-				3, -- [7]
-			}, -- [6]
-			{
-				136045, -- [1]
-				1, -- [2]
-				5, -- [3]
-				2, -- [4]
-				1, -- [5]
-				102, -- [6]
-				1, -- [7]
-			}, -- [7]
-			{
-				136062, -- [1]
-				3, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				102, -- [6]
-				3, -- [7]
-			}, -- [8]
-			{
-				136057, -- [1]
-				3, -- [2]
-				6, -- [3]
-				2, -- [4]
-				1, -- [5]
-				102, -- [6]
-				3, -- [7]
-			}, -- [9]
-			{
-				136075, -- [1]
-				5, -- [2]
-				4, -- [3]
-				2, -- [4]
-				1, -- [5]
-				102, -- [6]
-				5, -- [7]
-			}, -- [10]
-			{
-				136036, -- [1]
-				1, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				102, -- [6]
-				1, -- [7]
-			}, -- [11]
-			{
-				132132, -- [1]
-				3, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				102, -- [6]
-				3, -- [7]
-			}, -- [12]
-			{
-				132113, -- [1]
-				2, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				102, -- [6]
-				2, -- [7]
-			}, -- [13]
-			{
-				132123, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				1, -- [5]
-				102, -- [6]
-				3, -- [7]
-			}, -- [14]
-			{
-				136033, -- [1]
-				3, -- [2]
-				7, -- [3]
-				4, -- [4]
-				1, -- [5]
-				102, -- [6]
-				3, -- [7]
-			}, -- [15]
-			{
-				132146, -- [1]
-				5, -- [2]
-				8, -- [3]
-				3, -- [4]
-				1, -- [5]
-				102, -- [6]
-				5, -- [7]
-			}, -- [16]
-			{
-				132129, -- [1]
-				1, -- [2]
-				9, -- [3]
-				3, -- [4]
-				1, -- [5]
-				102, -- [6]
-				1, -- [7]
-			}, -- [17]
-			{
-				135138, -- [1]
-				2, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				102, -- [6]
-				2, -- [7]
-			}, -- [18]
-			{
-				236156, -- [1]
-				3, -- [2]
-				7, -- [3]
-				3, -- [4]
-				1, -- [5]
-				102, -- [6]
-				3, -- [7]
-			}, -- [19]
-			{
-				236163, -- [1]
-				0, -- [2]
-				8, -- [3]
-				1, -- [4]
-				1, -- [5]
-				102, -- [6]
-				3, -- [7]
-			}, -- [20]
-			{
-				236170, -- [1]
-				1, -- [2]
-				9, -- [3]
-				2, -- [4]
-				1, -- [5]
-				102, -- [6]
-				1, -- [7]
-			}, -- [21]
-			{
-				236151, -- [1]
-				3, -- [2]
-				9, -- [3]
-				1, -- [4]
-				1, -- [5]
-				102, -- [6]
-				3, -- [7]
-			}, -- [22]
-			{
-				236154, -- [1]
-				2, -- [2]
-				9, -- [3]
-				4, -- [4]
-				1, -- [5]
-				102, -- [6]
-				2, -- [7]
-			}, -- [23]
-			{
-				236168, -- [1]
-				1, -- [2]
-				11, -- [3]
-				2, -- [4]
-				1, -- [5]
-				102, -- [6]
-				1, -- [7]
-			}, -- [24]
-			{
-				236150, -- [1]
-				3, -- [2]
-				10, -- [3]
-				2, -- [4]
-				1, -- [5]
-				102, -- [6]
-				3, -- [7]
-			}, -- [25]
-			{
-				135730, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				102, -- [6]
-				5, -- [7]
-			}, -- [26]
-			{
-				136045, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				102, -- [6]
-				3, -- [7]
-			}, -- [27]
-			{
-				136060, -- [1]
-				1, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				102, -- [6]
-				1, -- [7]
-			}, -- [28]
-			{
-				134355, -- [1]
-				0, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				103, -- [6]
-				3, -- [7]
-			}, -- [29]
-			{
-				132121, -- [1]
-				0, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				103, -- [6]
-				5, -- [7]
-			}, -- [30]
-			{
-				132190, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				103, -- [6]
-				5, -- [7]
-			}, -- [31]
-			{
-				132114, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				2, -- [5]
-				103, -- [6]
-				2, -- [7]
-			}, -- [32]
-			{
-				134297, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				103, -- [6]
-				3, -- [7]
-			}, -- [33]
-			{
-				132089, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-				103, -- [6]
-				3, -- [7]
-			}, -- [34]
-			{
-				132278, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				103, -- [6]
-				2, -- [7]
-			}, -- [35]
-			{
-				136231, -- [1]
-				0, -- [2]
-				4, -- [3]
-				1, -- [4]
-				2, -- [5]
-				103, -- [6]
-				2, -- [7]
-			}, -- [36]
-			{
-				132185, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				103, -- [6]
-				3, -- [7]
-			}, -- [37]
-			{
-				132183, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				2, -- [5]
-				103, -- [6]
-				1, -- [7]
-			}, -- [38]
-			{
-				132141, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				103, -- [6]
-				2, -- [7]
-			}, -- [39]
-			{
-				136095, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				103, -- [6]
-				2, -- [7]
-			}, -- [40]
-			{
-				135879, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				2, -- [5]
-				103, -- [6]
-				5, -- [7]
-			}, -- [41]
-			{
-				136112, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				103, -- [6]
-				1, -- [7]
-			}, -- [42]
-			{
-				236169, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				103, -- [6]
-				1, -- [7]
-			}, -- [43]
-			{
-				132130, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				2, -- [5]
-				103, -- [6]
-				2, -- [7]
-			}, -- [44]
-			{
-				132139, -- [1]
-				0, -- [2]
-				7, -- [3]
-				4, -- [4]
-				2, -- [5]
-				103, -- [6]
-				3, -- [7]
-			}, -- [45]
-			{
-				132126, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				103, -- [6]
-				3, -- [7]
-			}, -- [46]
-			{
-				132138, -- [1]
-				0, -- [2]
-				8, -- [3]
-				3, -- [4]
-				2, -- [5]
-				103, -- [6]
-				3, -- [7]
-			}, -- [47]
-			{
-				132135, -- [1]
-				0, -- [2]
-				9, -- [3]
-				2, -- [4]
-				2, -- [5]
-				103, -- [6]
-				1, -- [7]
-			}, -- [48]
-			{
-				136112, -- [1]
-				0, -- [2]
-				7, -- [3]
-				3, -- [4]
-				2, -- [5]
-				103, -- [6]
-				2, -- [7]
-			}, -- [49]
-			{
-				236165, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				2, -- [5]
-				103, -- [6]
-				2, -- [7]
-			}, -- [50]
-			{
-				236164, -- [1]
-				0, -- [2]
-				10, -- [3]
-				2, -- [4]
-				2, -- [5]
-				103, -- [6]
-				5, -- [7]
-			}, -- [51]
-			{
-				236158, -- [1]
-				0, -- [2]
-				8, -- [3]
-				4, -- [4]
-				2, -- [5]
-				103, -- [6]
-				3, -- [7]
-			}, -- [52]
-			{
-				132135, -- [1]
-				0, -- [2]
-				9, -- [3]
-				3, -- [4]
-				2, -- [5]
-				103, -- [6]
-				3, -- [7]
-			}, -- [53]
-			{
-				236159, -- [1]
-				0, -- [2]
-				9, -- [3]
-				1, -- [4]
-				2, -- [5]
-				103, -- [6]
-				3, -- [7]
-			}, -- [54]
-			{
-				236149, -- [1]
-				0, -- [2]
-				11, -- [3]
-				2, -- [4]
-				2, -- [5]
-				103, -- [6]
-				1, -- [7]
-			}, -- [55]
-			{
-				132117, -- [1]
-				0, -- [2]
-				8, -- [3]
-				1, -- [4]
-				2, -- [5]
-				103, -- [6]
-				3, -- [7]
-			}, -- [56]
-			{
-				132091, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				2, -- [5]
-				103, -- [6]
-				3, -- [7]
-			}, -- [57]
-			{
-				132140, -- [1]
-				0, -- [2]
-				10, -- [3]
-				3, -- [4]
-				2, -- [5]
-				103, -- [6]
-				1, -- [7]
-			}, -- [58]
-			{
-				136078, -- [1]
-				2, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				105, -- [6]
-				2, -- [7]
-			}, -- [59]
-			{
-				135881, -- [1]
-				5, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				105, -- [6]
-				5, -- [7]
-			}, -- [60]
-			{
-				136042, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				105, -- [6]
-				3, -- [7]
-			}, -- [61]
-			{
-				136041, -- [1]
-				0, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				105, -- [6]
-				5, -- [7]
-			}, -- [62]
-			{
-				136085, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				105, -- [6]
-				5, -- [7]
-			}, -- [63]
-			{
-				136116, -- [1]
-				3, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				105, -- [6]
-				3, -- [7]
-			}, -- [64]
-			{
-				136017, -- [1]
-				1, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				105, -- [6]
-				1, -- [7]
-			}, -- [65]
-			{
-				136074, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				105, -- [6]
-				5, -- [7]
-			}, -- [66]
-			{
-				135863, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				105, -- [6]
-				3, -- [7]
-			}, -- [67]
-			{
-				136081, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				105, -- [6]
-				3, -- [7]
-			}, -- [68]
-			{
-				136076, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				105, -- [6]
-				1, -- [7]
-			}, -- [69]
-			{
-				132150, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				105, -- [6]
-				3, -- [7]
-			}, -- [70]
-			{
-				136107, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				3, -- [5]
-				105, -- [6]
-				2, -- [7]
-			}, -- [71]
-			{
-				135900, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				3, -- [5]
-				105, -- [6]
-				5, -- [7]
-			}, -- [72]
-			{
-				134914, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				105, -- [6]
-				1, -- [7]
-			}, -- [73]
-			{
-				132125, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				3, -- [5]
-				105, -- [6]
-				2, -- [7]
-			}, -- [74]
-			{
-				132124, -- [1]
-				0, -- [2]
-				8, -- [3]
-				2, -- [4]
-				3, -- [5]
-				105, -- [6]
-				5, -- [7]
-			}, -- [75]
-			{
-				132137, -- [1]
-				0, -- [2]
-				7, -- [3]
-				3, -- [4]
-				3, -- [5]
-				105, -- [6]
-				3, -- [7]
-			}, -- [76]
-			{
-				132145, -- [1]
-				0, -- [2]
-				9, -- [3]
-				2, -- [4]
-				3, -- [5]
-				105, -- [6]
-				1, -- [7]
-			}, -- [77]
-			{
-				136037, -- [1]
-				0, -- [2]
-				7, -- [3]
-				1, -- [4]
-				3, -- [5]
-				105, -- [6]
-				3, -- [7]
-			}, -- [78]
-			{
-				236161, -- [1]
-				2, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				105, -- [6]
-				2, -- [7]
-			}, -- [79]
-			{
-				236160, -- [1]
-				0, -- [2]
-				10, -- [3]
-				3, -- [4]
-				3, -- [5]
-				105, -- [6]
-				5, -- [7]
-			}, -- [80]
-			{
-				236153, -- [1]
-				0, -- [2]
-				11, -- [3]
-				2, -- [4]
-				3, -- [5]
-				105, -- [6]
-				1, -- [7]
-			}, -- [81]
-			{
-				236155, -- [1]
-				0, -- [2]
-				8, -- [3]
-				3, -- [4]
-				3, -- [5]
-				105, -- [6]
-				3, -- [7]
-			}, -- [82]
-			{
-				236166, -- [1]
-				0, -- [2]
-				9, -- [3]
-				1, -- [4]
-				3, -- [5]
-				105, -- [6]
-				3, -- [7]
-			}, -- [83]
-			{
-				236157, -- [1]
-				0, -- [2]
-				9, -- [3]
-				3, -- [4]
-				3, -- [5]
-				105, -- [6]
-				3, -- [7]
-			}, -- [84]
-			{
-				136097, -- [1]
-				0, -- [2]
-				10, -- [3]
-				1, -- [4]
-				3, -- [5]
-				105, -- [6]
-				2, -- [7]
-			}, -- [85]
-		},
-		["Player-4778-04F81AA5"] = {
-			{
-				135770, -- [1]
-				2, -- [2]
-				7, -- [3]
-				3, -- [4]
-				1, -- [5]
-				250, -- [6]
-				2, -- [7]
-			}, -- [1]
-			{
-				135067, -- [1]
-				5, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-				250, -- [6]
-				5, -- [7]
-			}, -- [2]
-			{
-				132455, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-				250, -- [6]
-				2, -- [7]
-			}, -- [3]
-			{
-				237529, -- [1]
-				1, -- [2]
-				3, -- [3]
-				1, -- [4]
-				1, -- [5]
-				250, -- [6]
-				1, -- [7]
-			}, -- [4]
-			{
-				237529, -- [1]
-				3, -- [2]
-				4, -- [3]
-				1, -- [4]
-				1, -- [5]
-				250, -- [6]
-				3, -- [7]
-			}, -- [5]
-			{
-				237518, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-				250, -- [6]
-				5, -- [7]
-			}, -- [6]
-			{
-				132090, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				1, -- [5]
-				250, -- [6]
-				3, -- [7]
-			}, -- [7]
-			{
-				237533, -- [1]
-				3, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-				250, -- [6]
-				3, -- [7]
-			}, -- [8]
-			{
-				132284, -- [1]
-				0, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-				250, -- [6]
-				3, -- [7]
-			}, -- [9]
-			{
-				132205, -- [1]
-				1, -- [2]
-				5, -- [3]
-				4, -- [4]
-				1, -- [5]
-				250, -- [6]
-				1, -- [7]
-			}, -- [10]
-			{
-				136005, -- [1]
-				3, -- [2]
-				5, -- [3]
-				3, -- [4]
-				1, -- [5]
-				250, -- [6]
-				3, -- [7]
-			}, -- [11]
-			{
-				237536, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				1, -- [5]
-				250, -- [6]
-				3, -- [7]
-			}, -- [12]
-			{
-				237512, -- [1]
-				1, -- [2]
-				7, -- [3]
-				2, -- [4]
-				1, -- [5]
-				250, -- [6]
-				1, -- [7]
-			}, -- [13]
-			{
-				136181, -- [1]
-				0, -- [2]
-				8, -- [3]
-				2, -- [4]
-				1, -- [5]
-				250, -- [6]
-				3, -- [7]
-			}, -- [14]
-			{
-				135675, -- [1]
-				1, -- [2]
-				9, -- [3]
-				2, -- [4]
-				1, -- [5]
-				250, -- [6]
-				1, -- [7]
-			}, -- [15]
-			{
-				135771, -- [1]
-				0, -- [2]
-				9, -- [3]
-				3, -- [4]
-				1, -- [5]
-				250, -- [6]
-				3, -- [7]
-			}, -- [16]
-			{
-				132094, -- [1]
-				3, -- [2]
-				9, -- [3]
-				1, -- [4]
-				1, -- [5]
-				250, -- [6]
-				3, -- [7]
-			}, -- [17]
-			{
-				136211, -- [1]
-				0, -- [2]
-				7, -- [3]
-				1, -- [4]
-				1, -- [5]
-				250, -- [6]
-				3, -- [7]
-			}, -- [18]
-			{
-				135277, -- [1]
-				0, -- [2]
-				11, -- [3]
-				2, -- [4]
-				1, -- [5]
-				250, -- [6]
-				1, -- [7]
-			}, -- [19]
-			{
-				135772, -- [1]
-				3, -- [2]
-				5, -- [3]
-				1, -- [4]
-				1, -- [5]
-				250, -- [6]
-				3, -- [7]
-			}, -- [20]
-			{
-				132330, -- [1]
-				5, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-				250, -- [6]
-				5, -- [7]
-			}, -- [21]
-			{
-				237531, -- [1]
-				3, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-				250, -- [6]
-				3, -- [7]
-			}, -- [22]
-			{
-				136168, -- [1]
-				1, -- [2]
-				8, -- [3]
-				3, -- [4]
-				1, -- [5]
-				250, -- [6]
-				1, -- [7]
-			}, -- [23]
-			{
-				136080, -- [1]
-				0, -- [2]
-				10, -- [3]
-				2, -- [4]
-				1, -- [5]
-				250, -- [6]
-				5, -- [7]
-			}, -- [24]
-			{
-				135372, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-				250, -- [6]
-				3, -- [7]
-			}, -- [25]
-			{
-				236310, -- [1]
-				2, -- [2]
-				6, -- [3]
-				3, -- [4]
-				1, -- [5]
-				250, -- [6]
-				2, -- [7]
-			}, -- [26]
-			{
-				135378, -- [1]
-				2, -- [2]
-				2, -- [3]
-				3, -- [4]
-				1, -- [5]
-				250, -- [6]
-				2, -- [7]
-			}, -- [27]
-			{
-				237517, -- [1]
-				2, -- [2]
-				8, -- [3]
-				1, -- [4]
-				1, -- [5]
-				250, -- [6]
-				2, -- [7]
-			}, -- [28]
-			{
-				135892, -- [1]
-				5, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-				251, -- [6]
-				5, -- [7]
-			}, -- [29]
-			{
-				136223, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				2, -- [5]
-				251, -- [6]
-				2, -- [7]
-			}, -- [30]
-			{
-				136141, -- [1]
-				4, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-				251, -- [6]
-				5, -- [7]
-			}, -- [31]
-			{
-				237520, -- [1]
-				0, -- [2]
-				9, -- [3]
-				2, -- [4]
-				2, -- [5]
-				251, -- [6]
-				1, -- [7]
-			}, -- [32]
-			{
-				132388, -- [1]
-				0, -- [2]
-				8, -- [3]
-				3, -- [4]
-				2, -- [5]
-				251, -- [6]
-				1, -- [7]
-			}, -- [33]
-			{
-				136213, -- [1]
-				0, -- [2]
-				5, -- [3]
-				4, -- [4]
-				2, -- [5]
-				251, -- [6]
-				1, -- [7]
-			}, -- [34]
-			{
-				135849, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-				251, -- [6]
-				2, -- [7]
-			}, -- [35]
-			{
-				135833, -- [1]
-				0, -- [2]
-				11, -- [3]
-				2, -- [4]
-				2, -- [5]
-				251, -- [6]
-				1, -- [7]
-			}, -- [36]
-			{
-				132734, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				2, -- [5]
-				251, -- [6]
-				3, -- [7]
-			}, -- [37]
-			{
-				135840, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				2, -- [5]
-				251, -- [6]
-				3, -- [7]
-			}, -- [38]
-			{
-				135294, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				2, -- [5]
-				251, -- [6]
-				2, -- [7]
-			}, -- [39]
-			{
-				135791, -- [1]
-				0, -- [2]
-				9, -- [3]
-				1, -- [4]
-				2, -- [5]
-				251, -- [6]
-				3, -- [7]
-			}, -- [40]
-			{
-				136107, -- [1]
-				0, -- [2]
-				10, -- [3]
-				2, -- [4]
-				2, -- [5]
-				251, -- [6]
-				5, -- [7]
-			}, -- [41]
-			{
-				135152, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				2, -- [5]
-				251, -- [6]
-				1, -- [7]
-			}, -- [42]
-			{
-				135728, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-				251, -- [6]
-				2, -- [7]
-			}, -- [43]
-			{
-				132147, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				2, -- [5]
-				251, -- [6]
-				3, -- [7]
-			}, -- [44]
-			{
-				135773, -- [1]
-				0, -- [2]
-				7, -- [3]
-				3, -- [4]
-				2, -- [5]
-				251, -- [6]
-				2, -- [7]
-			}, -- [45]
-			{
-				136083, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				2, -- [5]
-				251, -- [6]
-				3, -- [7]
-			}, -- [46]
-			{
-				237526, -- [1]
-				3, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				251, -- [6]
-				3, -- [7]
-			}, -- [47]
-			{
-				135859, -- [1]
-				2, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-				251, -- [6]
-				2, -- [7]
-			}, -- [48]
-			{
-				132373, -- [1]
-				0, -- [2]
-				9, -- [3]
-				3, -- [4]
-				2, -- [5]
-				251, -- [6]
-				3, -- [7]
-			}, -- [49]
-			{
-				252994, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				2, -- [5]
-				251, -- [6]
-				5, -- [7]
-			}, -- [50]
-			{
-				135305, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
-				251, -- [6]
-				5, -- [7]
-			}, -- [51]
-			{
-				135609, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-				251, -- [6]
-				3, -- [7]
-			}, -- [52]
-			{
-				135714, -- [1]
-				0, -- [2]
-				8, -- [3]
-				2, -- [4]
-				2, -- [5]
-				251, -- [6]
-				3, -- [7]
-			}, -- [53]
-			{
-				136187, -- [1]
-				1, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-				251, -- [6]
-				1, -- [7]
-			}, -- [54]
-			{
-				252994, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				2, -- [5]
-				251, -- [6]
-				1, -- [7]
-			}, -- [55]
-			{
-				135864, -- [1]
-				0, -- [2]
-				7, -- [3]
-				1, -- [4]
-				2, -- [5]
-				251, -- [6]
-				3, -- [7]
-			}, -- [56]
-			{
-				132148, -- [1]
-				0, -- [2]
-				8, -- [3]
-				1, -- [4]
-				2, -- [5]
-				251, -- [6]
-				3, -- [7]
-			}, -- [57]
-			{
-				136126, -- [1]
-				0, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-				252, -- [6]
-				3, -- [7]
-			}, -- [58]
-			{
-				136144, -- [1]
-				3, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
-				252, -- [6]
-				3, -- [7]
-			}, -- [59]
-			{
-				237524, -- [1]
-				0, -- [2]
-				2, -- [3]
-				4, -- [4]
-				3, -- [5]
-				252, -- [6]
-				3, -- [7]
-			}, -- [60]
-			{
-				136066, -- [1]
-				0, -- [2]
-				8, -- [3]
-				2, -- [4]
-				3, -- [5]
-				252, -- [6]
-				3, -- [7]
-			}, -- [61]
-			{
-				136207, -- [1]
-				2, -- [2]
-				2, -- [3]
-				1, -- [4]
-				3, -- [5]
-				252, -- [6]
-				2, -- [7]
-			}, -- [62]
-			{
-				136119, -- [1]
-				0, -- [2]
-				6, -- [3]
-				4, -- [4]
-				3, -- [5]
-				252, -- [6]
-				1, -- [7]
-			}, -- [63]
-			{
-				132099, -- [1]
-				0, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-				252, -- [6]
-				1, -- [7]
-			}, -- [64]
-			{
-				136132, -- [1]
-				0, -- [2]
-				5, -- [3]
-				1, -- [4]
-				3, -- [5]
-				252, -- [6]
-				1, -- [7]
-			}, -- [65]
-			{
-				132182, -- [1]
-				0, -- [2]
-				11, -- [3]
-				2, -- [4]
-				3, -- [5]
-				252, -- [6]
-				1, -- [7]
-			}, -- [66]
-			{
-				136195, -- [1]
-				0, -- [2]
-				6, -- [3]
-				3, -- [4]
-				3, -- [5]
-				252, -- [6]
-				3, -- [7]
-			}, -- [67]
-			{
-				136127, -- [1]
-				0, -- [2]
-				9, -- [3]
-				1, -- [4]
-				3, -- [5]
-				252, -- [6]
-				3, -- [7]
-			}, -- [68]
-			{
-				132109, -- [1]
-				0, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-				252, -- [6]
-				3, -- [7]
-			}, -- [69]
-			{
-				136196, -- [1]
-				0, -- [2]
-				5, -- [3]
-				2, -- [4]
-				3, -- [5]
-				252, -- [6]
-				5, -- [7]
-			}, -- [70]
-			{
-				132728, -- [1]
-				0, -- [2]
-				8, -- [3]
-				3, -- [4]
-				3, -- [5]
-				252, -- [6]
-				1, -- [7]
-			}, -- [71]
-			{
-				136182, -- [1]
-				0, -- [2]
-				3, -- [3]
-				1, -- [4]
-				3, -- [5]
-				252, -- [6]
-				3, -- [7]
-			}, -- [72]
-			{
-				136120, -- [1]
-				0, -- [2]
-				6, -- [3]
-				2, -- [4]
-				3, -- [5]
-				252, -- [6]
-				3, -- [7]
-			}, -- [73]
-			{
-				136194, -- [1]
-				0, -- [2]
-				5, -- [3]
-				3, -- [4]
-				3, -- [5]
-				252, -- [6]
-				2, -- [7]
-			}, -- [74]
-			{
-				135775, -- [1]
-				0, -- [2]
-				7, -- [3]
-				3, -- [4]
-				3, -- [5]
-				252, -- [6]
-				2, -- [7]
-			}, -- [75]
-			{
-				237532, -- [1]
-				2, -- [2]
-				2, -- [3]
-				3, -- [4]
-				3, -- [5]
-				252, -- [6]
-				2, -- [7]
-			}, -- [76]
-			{
-				135564, -- [1]
-				0, -- [2]
-				10, -- [3]
-				2, -- [4]
-				3, -- [5]
-				252, -- [6]
-				5, -- [7]
-			}, -- [77]
-			{
-				237534, -- [1]
-				0, -- [2]
-				4, -- [3]
-				2, -- [4]
-				3, -- [5]
-				252, -- [6]
-				2, -- [7]
-			}, -- [78]
-			{
-				132095, -- [1]
-				0, -- [2]
-				9, -- [3]
-				2, -- [4]
-				3, -- [5]
-				252, -- [6]
-				3, -- [7]
-			}, -- [79]
-			{
-				135695, -- [1]
-				0, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-				252, -- [6]
-				5, -- [7]
-			}, -- [80]
-			{
-				135774, -- [1]
-				0, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-				252, -- [6]
-				2, -- [7]
-			}, -- [81]
-			{
-				132152, -- [1]
-				0, -- [2]
-				7, -- [3]
-				4, -- [4]
-				3, -- [5]
-				252, -- [6]
-				1, -- [7]
-			}, -- [82]
-			{
-				237530, -- [1]
-				0, -- [2]
-				9, -- [3]
-				3, -- [4]
-				3, -- [5]
-				252, -- [6]
-				1, -- [7]
-			}, -- [83]
-			{
-				136056, -- [1]
-				5, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-				252, -- [6]
-				5, -- [7]
-			}, -- [84]
-			{
-				237510, -- [1]
-				0, -- [2]
-				7, -- [3]
-				2, -- [4]
-				3, -- [5]
-				252, -- [6]
-				1, -- [7]
-			}, -- [85]
-			{
-				237511, -- [1]
-				0, -- [2]
-				4, -- [3]
-				4, -- [4]
-				3, -- [5]
-				252, -- [6]
-				2, -- [7]
-			}, -- [86]
-			{
-				136199, -- [1]
-				0, -- [2]
-				6, -- [3]
-				1, -- [4]
-				3, -- [5]
-				252, -- [6]
-				2, -- [7]
-			}, -- [87]
-			{
-				136224, -- [1]
-				0, -- [2]
-				7, -- [3]
-				1, -- [4]
-				3, -- [5]
-				252, -- [6]
-				5, -- [7]
-			}, -- [88]
-		},
 		["Player-4778-04DBFC9E"] = {
 			{
 				132273, -- [1]
@@ -18940,13 +15842,13 @@ _detalhes_database = {
 			},
 			["usefocus"] = false,
 			["updatespeed"] = 1,
-			["disable_gouge"] = false,
+			["useclasscolors"] = false,
 			["showamount"] = false,
 			["useplayercolor"] = false,
 			["absolute_mode"] = false,
 			["playSound"] = false,
 			["playSoundFile"] = "Details Threat Warning Volume 3",
-			["useclasscolors"] = false,
+			["disable_gouge"] = false,
 		},
 		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
 			["enabled"] = true,
@@ -18956,11 +15858,11 @@ _detalhes_database = {
 			["last_section_selected"] = "main",
 			["author"] = "Terciob",
 			["window_scale"] = 1,
-			["hide_on_combat"] = false,
-			["show_icon"] = 5,
-			["opened"] = 0,
 			["encounter_timers_dbm"] = {
 			},
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["hide_on_combat"] = false,
 		},
 		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
 			["use_square_mode"] = false,
@@ -18971,29 +15873,32 @@ _detalhes_database = {
 				1, -- [3]
 				0.5, -- [4]
 			},
-			["scale"] = 1,
+			["main_frame_size"] = {
+				299.9999389648438, -- [1]
+				499.9999084472656, -- [2]
+			},
 			["arrow_anchor_y"] = 0,
 			["minimap"] = {
 				["minimapPos"] = 160,
 				["radius"] = 160,
 				["hide"] = true,
 			},
-			["row_height"] = 20,
+			["main_frame_locked"] = false,
 			["arrow_anchor_x"] = 0,
-			["font_color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["author"] = "Terciob",
 			["row_texture"] = "Details Serenity",
 			["square_grow_direction"] = "right",
-			["point"] = "CENTER",
-			["main_frame_strata"] = "LOW",
+			["font_size"] = 10,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["y"] = -4.57763671875e-05,
+			["use_spark"] = true,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -19001,14 +15906,8 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = true,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -19016,132 +15915,26 @@ _detalhes_database = {
 				["font_shadow"] = true,
 				["y"] = 6.103515625e-05,
 				["x"] = -6.103515625e-05,
-				["size"] = 32,
-				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
 			},
+			["y"] = -4.57763671875e-05,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["font_size"] = 10,
-			["author"] = "Terciob",
-			["main_frame_locked"] = false,
-			["main_frame_size"] = {
-				299.9999389648438, -- [1]
-				499.9999084472656, -- [2]
-			},
-		},
-	},
-	["local_instances_config"] = {
-		{
-			["modo"] = 2,
-			["sub_attribute"] = 1,
-			["sub_atributo_last"] = {
+			["point"] = "CENTER",
+			["font_color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
-				1, -- [5]
 			},
-			["is_open"] = true,
-			["isLocked"] = false,
-			["snap"] = {
-			},
-			["segment"] = 0,
-			["mode"] = 2,
-			["attribute"] = 1,
-			["pos"] = {
-				["normal"] = {
-					["y"] = -504.3333358764648,
-					["x"] = -406.9442749023438,
-					["w"] = 322.77783203125,
-					["h"] = 183.5555572509766,
-				},
-				["solo"] = {
-					["y"] = 2,
-					["x"] = 1,
-					["w"] = 300,
-					["h"] = 200,
-				},
-			},
-		}, -- [1]
+			["row_height"] = 20,
+			["scale"] = 1,
+		},
 	},
 	["last_instance_time"] = 1666099955,
-	["cached_roles"] = {
-		["Player-4778-04603D52"] = "DAMAGER",
-		["Player-4778-0501C0EB"] = "DAMAGER",
-		["Player-4778-04A1F7B6"] = "HEALER",
-		["Player-4778-050B7E6E"] = "DAMAGER",
-		["Player-4778-04DBFC9E"] = "DAMAGER",
-		["Player-4778-03FF4CC2"] = "DAMAGER",
-		["Player-4778-00C7037C"] = "DAMAGER",
-		["Player-4778-0514F1D4"] = "HEALER",
-		["Player-4778-04AF4EDB"] = "DAMAGER",
-		["Player-4778-05189327"] = "DAMAGER",
-		["Player-4778-03DF4030"] = "DAMAGER",
-		["Player-4778-038866BF"] = "DAMAGER",
-		["Player-4778-052DE5BF"] = "DAMAGER",
-		["Player-4778-03D31C32"] = "TANK",
-		["Player-4778-038F5744"] = "DAMAGER",
-		["Player-4778-05099D23"] = "DAMAGER",
-		["Player-4778-03DEDEF0"] = "DAMAGER",
-		["Player-4778-050CA59D"] = "DAMAGER",
-		["Player-4778-040AACDB"] = "DAMAGER",
-		["Player-4778-04C9EC6C"] = "DAMAGER",
-		["Player-4778-05253687"] = "DAMAGER",
-		["Player-4778-034FFEC7"] = "DAMAGER",
-		["Player-4778-00D8E296"] = "HEALER",
-		["Player-4778-052E443F"] = "HEALER",
-		["Player-4778-0363E95F"] = "DAMAGER",
-		["Player-4778-03FC38EB"] = "DAMAGER",
-		["Player-4778-052ACEE6"] = "DAMAGER",
-		["Player-4778-050085FA"] = "DAMAGER",
-		["Player-4778-05103E89"] = "DAMAGER",
-		["Player-4778-049FC7EE"] = "DAMAGER",
-		["Player-4778-052AA5B9"] = "DAMAGER",
-		["Player-4778-0506B6CE"] = "HEALER",
-		["Player-4778-04CAFA9D"] = "DAMAGER",
-		["Player-4778-05236B34"] = "HEALER",
-		["Player-4778-04F1795E"] = "DAMAGER",
-		["Player-4778-04F2A400"] = "TANK",
-		["Player-4778-04D56C2B"] = "DAMAGER",
-		["Player-4778-04CE7780"] = "DAMAGER",
-		["Player-4778-04A38621"] = "DAMAGER",
-		["Player-4778-016AB539"] = "HEALER",
-		["Player-4778-034448E9"] = "DAMAGER",
-		["Player-4778-04FCB399"] = "DAMAGER",
-		["Player-4778-04AC8F71"] = "DAMAGER",
-		["Player-4778-02CEAC2D"] = "DAMAGER",
-		["Player-4778-05144436"] = "DAMAGER",
-		["Player-4778-051F9AB9"] = "DAMAGER",
-		["Player-4778-04F81AA5"] = "TANK",
-		["Player-4778-02D66257"] = "DAMAGER",
-		["Player-4778-04FDACAF"] = "TANK",
-		["Player-4778-04F181E3"] = "DAMAGER",
-		["Player-4778-0220ED5C"] = "DAMAGER",
-		["Player-4778-0384ECAB"] = "HEALER",
-		["Player-4778-04FB4BAB"] = "DAMAGER",
-		["Player-4778-04F9E1E2"] = "TANK",
-		["Player-4778-0445AB0F"] = "DAMAGER",
-		["Player-4778-04C9EC17"] = "DAMAGER",
-		["Player-4778-04F3E1E0"] = "HEALER",
-		["Player-4778-04D4F9D7"] = "HEALER",
-		["Player-4778-0520EB5E"] = "DAMAGER",
-		["Player-4778-049CA007"] = "DAMAGER",
-		["Player-4778-04AB8A60"] = "HEALER",
-		["Player-4778-052646D4"] = "TANK",
-		["Player-4778-05244F19"] = "DAMAGER",
-		["Player-4778-047BCD17"] = "HEALER",
-		["Player-4778-03412F1B"] = "DAMAGER",
-		["Player-4778-04106026"] = "HEALER",
-		["Player-4778-052DA202"] = "HEALER",
-		["Player-4778-050577AD"] = "DAMAGER",
-		["Player-4778-05057050"] = "DAMAGER",
-		["Player-4778-04D9BDE6"] = "TANK",
-		["Player-4778-04D718AB"] = "DAMAGER",
-		["Player-4778-050EF9DA"] = "TANK",
-		["Player-4778-00E429A7"] = "HEALER",
-	},
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "",
 		["started"] = false,
@@ -19153,20 +15946,27 @@ _detalhes_database = {
 		["dungeon_zone_id"] = 0,
 		["previous_boss_killed_at"] = 0,
 	},
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["last_day"] = "18",
-	["ignore_nicktag"] = false,
-	["combat_id"] = 8,
+	["last_encounter"] = "萨塔里奥",
+	["force_font_outline"] = "",
+	["character_data"] = {
+		["logons"] = 34,
+	},
+	["combat_id"] = 9,
 	["savedStyles"] = {
 	},
 	["nick_tag_cache"] = {
 		["nextreset"] = 1666792059,
 		["last_version"] = 15,
 	},
-	["combat_counter"] = 463,
+	["combat_counter"] = 473,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -19180,7 +15980,7 @@ _detalhes_database = {
 				{
 					["flag_original"] = 1300,
 					["totalabsorbed"] = 0.011079,
-					["spec"] = 250,
+					["aID"] = "4778-04F81AA5",
 					["damage_from"] = {
 						["熔岩烈焰"] = true,
 						["火焰旋风"] = true,
@@ -19192,42 +15992,23 @@ _detalhes_database = {
 						["塔尼布隆"] = 5646,
 						["沙德隆"] = 5971,
 					},
-					["avoidance"] = {
-						["overall"] = {
-							["DODGE"] = 0,
-							["FULL_ABSORB_AMT"] = 0,
-							["BLOCKED_AMT"] = 0,
-							["BLOCKED_HITS"] = 0,
-							["FULL_ABSORBED"] = 0,
-							["ALL"] = 0,
-							["PARTIAL_ABSORBED"] = 0,
-							["PARRY"] = 0,
-							["PARTIAL_ABSORB_AMT"] = 0,
-							["ABSORB"] = 0,
-							["ABSORB_AMT"] = 0,
-							["FULL_HIT"] = 0,
-							["HITS"] = 0,
-							["FULL_HIT_AMT"] = 0,
-						},
-					},
+					["tipo"] = 1,
 					["pets"] = {
 					},
-					["end_time"] = 1666100941,
-					["boss_fight_component"] = true,
-					["aID"] = "4778-04F81AA5",
+					["on_hold"] = false,
+					["damage_taken"] = 815735.0110790001,
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 382506.011079,
-					["friendlyfire"] = {
-					},
+					["delay"] = 0,
 					["classe"] = "DEATHKNIGHT",
 					["dps_started"] = false,
+					["end_time"] = 1666100941,
+					["start_time"] = 1666100572,
 					["total"] = 382506.011079,
-					["last_event"] = 0,
-					["friendlyfire_total"] = 0,
-					["nome"] = "夕里安",
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 6,
@@ -19245,20 +16026,20 @@ _detalhes_database = {
 								["counter"] = 62,
 								["total"] = 44423,
 								["c_max"] = 2893,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["MISS"] = 3,
+								["b_dmg"] = 2410,
 								["IMMUNE"] = 27,
-								["extra"] = {
-								},
+								["a_amt"] = 0,
 								["PARRY"] = 3,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
-								["a_amt"] = 0,
+								["extra"] = {
+								},
 								["n_amt"] = 15,
-								["b_dmg"] = 2410,
-								["r_amt"] = 0,
+								["MISS"] = 3,
+								["a_dmg"] = 0,
 							}, -- [1]
 							[47632] = {
 								["c_amt"] = 0,
@@ -19278,16 +16059,16 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 47632,
 								["r_dmg"] = 4272,
-								["IMMUNE"] = 1,
-								["extra"] = {
-								},
+								["r_amt"] = 3,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 5,
-								["b_dmg"] = 0,
-								["r_amt"] = 3,
+								["extra"] = {
+								},
+								["IMMUNE"] = 1,
 							},
 							[55095] = {
 								["c_amt"] = 0,
@@ -19309,16 +16090,16 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 55095,
 								["r_dmg"] = 13492,
-								["IMMUNE"] = 45,
-								["extra"] = {
-								},
+								["r_amt"] = 37,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 95,
-								["b_dmg"] = 0,
-								["r_amt"] = 37,
+								["extra"] = {
+								},
+								["IMMUNE"] = 45,
 							},
 							[49921] = {
 								["c_amt"] = 2,
@@ -19338,8 +16119,8 @@ _detalhes_database = {
 								["c_max"] = 1641,
 								["id"] = 49921,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["MISS"] = 4,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["extra"] = {
 								},
 								["PARRY"] = 1,
@@ -19347,8 +16128,8 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 9,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["MISS"] = 4,
+								["a_dmg"] = 0,
 							},
 							[55262] = {
 								["c_amt"] = 10,
@@ -19368,8 +16149,8 @@ _detalhes_database = {
 								["c_max"] = 3162,
 								["id"] = 55262,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["MISS"] = 5,
+								["r_amt"] = 0,
+								["b_dmg"] = 5684,
 								["extra"] = {
 								},
 								["PARRY"] = 8,
@@ -19377,8 +16158,8 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 55,
-								["b_dmg"] = 5684,
-								["r_amt"] = 0,
+								["MISS"] = 5,
+								["a_dmg"] = 0,
 							},
 							[56815] = {
 								["c_amt"] = 5,
@@ -19398,16 +16179,16 @@ _detalhes_database = {
 								["c_max"] = 5599,
 								["id"] = 56815,
 								["r_dmg"] = 0,
-								["MISS"] = 1,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 27,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["extra"] = {
+								},
+								["MISS"] = 1,
 							},
 							[49909] = {
 								["c_amt"] = 0,
@@ -19427,15 +16208,72 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 49909,
 								["r_dmg"] = 3492,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 4,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 12,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[50842] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["萨塔里奥"] = 0,
+									["沙德隆"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 50842,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
 								["b_dmg"] = 0,
-								["r_amt"] = 4,
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["extra"] = {
+								},
+								["MISS"] = 2,
+							},
+							[49895] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["萨塔里奥"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 49895,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["extra"] = {
+								},
+								["MISS"] = 1,
 							},
 							[54043] = {
 								["c_amt"] = 0,
@@ -19455,45 +16293,47 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 54043,
 								["r_dmg"] = 0,
-								["IMMUNE"] = 21,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 41,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_dmg"] = 0,
 								["RESIST"] = 2,
 								["extra"] = {
 								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 41,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["IMMUNE"] = 21,
 							},
-							[49895] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
+							[49924] = {
+								["c_amt"] = 6,
+								["b_amt"] = 1,
+								["c_dmg"] = 16710,
 								["g_amt"] = 0,
-								["n_max"] = 0,
+								["n_max"] = 1521,
 								["targets"] = {
-									["萨塔里奥"] = 0,
+									["萨塔里奥"] = 31186,
+									["熔岩烈焰"] = 1397,
 								},
-								["n_dmg"] = 0,
+								["n_dmg"] = 15873,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 49895,
+								["counter"] = 20,
+								["total"] = 32583,
+								["c_max"] = 3021,
+								["id"] = 49924,
 								["r_dmg"] = 0,
-								["MISS"] = 1,
+								["r_amt"] = 0,
+								["b_dmg"] = 1397,
 								["extra"] = {
 								},
-								["a_dmg"] = 0,
+								["PARRY"] = 2,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
-								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["n_amt"] = 11,
+								["MISS"] = 1,
+								["a_dmg"] = 0,
 							},
 							[55078] = {
 								["c_amt"] = 0,
@@ -19515,88 +16355,48 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 55078,
 								["r_dmg"] = 12038,
-								["IMMUNE"] = 45,
-								["extra"] = {
-								},
+								["r_amt"] = 32,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 89,
-								["b_dmg"] = 0,
-								["r_amt"] = 32,
-							},
-							[49924] = {
-								["c_amt"] = 6,
-								["b_amt"] = 1,
-								["c_dmg"] = 16710,
-								["g_amt"] = 0,
-								["n_max"] = 1521,
-								["targets"] = {
-									["萨塔里奥"] = 31186,
-									["熔岩烈焰"] = 1397,
-								},
-								["n_dmg"] = 15873,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 20,
-								["total"] = 32583,
-								["c_max"] = 3021,
-								["id"] = 49924,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["MISS"] = 1,
 								["extra"] = {
 								},
-								["PARRY"] = 2,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 11,
-								["b_dmg"] = 1397,
-								["r_amt"] = 0,
-							},
-							[50842] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["萨塔里奥"] = 0,
-									["沙德隆"] = 0,
-								},
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 2,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 50842,
-								["r_dmg"] = 0,
-								["MISS"] = 2,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["IMMUNE"] = 45,
 							},
 						},
+						["tipo"] = 2,
 					},
 					["grupo"] = true,
-					["isTank"] = true,
-					["on_hold"] = false,
-					["serial"] = "Player-4778-04F81AA5",
+					["avoidance"] = {
+						["overall"] = {
+							["DODGE"] = 0,
+							["FULL_ABSORB_AMT"] = 0,
+							["BLOCKED_AMT"] = 0,
+							["BLOCKED_HITS"] = 0,
+							["FULL_ABSORBED"] = 0,
+							["ALL"] = 0,
+							["PARTIAL_ABSORBED"] = 0,
+							["PARRY"] = 0,
+							["PARTIAL_ABSORB_AMT"] = 0,
+							["ABSORB"] = 0,
+							["ABSORB_AMT"] = 0,
+							["FULL_HIT"] = 0,
+							["HITS"] = 0,
+							["FULL_HIT_AMT"] = 0,
+						},
+					},
+					["nome"] = "夕里安",
+					["spec"] = 250,
 					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 815735.0110790001,
-					["start_time"] = 1666100572,
-					["delay"] = 0,
+					["last_event"] = 0,
 					["last_dps"] = 0,
+					["isTank"] = true,
+					["serial"] = "Player-4778-04F81AA5",
+					["friendlyfire"] = {
+					},
 				}, -- [1]
 				{
 					["flag_original"] = 2632,
@@ -19606,43 +16406,42 @@ _detalhes_database = {
 						["Just"] = true,
 						["大风车滋滋转"] = true,
 						["夕里安"] = true,
-						["魂之信仰"] = true,
-						["雪花丶有点飘"] = true,
-						["陌戮"] = true,
-						["踏遍天涯"] = true,
-						["树人 <踏遍天涯>"] = true,
-						["凸凸凹"] = true,
-						["特变电工"] = true,
 						["日出东芳"] = true,
+						["雪花丶有点飘"] = true,
+						["特变电工"] = true,
+						["踏遍天涯"] = true,
+						["凸凸凹"] = true,
+						["树人 <踏遍天涯>"] = true,
+						["陌戮"] = true,
+						["魂之信仰"] = true,
 					},
 					["targets"] = {
-						["夕里安"] = 798049,
+						["魂之信仰"] = 5800,
 						["雪花丶有点飘"] = 6785,
 						["Just"] = 31590,
 						["大风车滋滋转"] = 2717,
-						["日出东芳"] = 3101,
-						["凸凸凹"] = 2824,
 						["特变电工"] = 10818,
-						["魂之信仰"] = 5800,
+						["凸凸凹"] = 2824,
+						["日出东芳"] = 3101,
+						["夕里安"] = 798049,
 					},
-					["on_hold"] = false,
+					["delay"] = 0,
 					["pets"] = {
 					},
-					["monster"] = true,
+					["nome"] = "萨塔里奥",
+					["dps_started"] = false,
 					["aID"] = "28860",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 861684.011802,
+					["total"] = 861684.011802,
+					["monster"] = true,
+					["end_time"] = 1666100941,
 					["friendlyfire"] = {
 					},
-					["end_time"] = 1666100941,
-					["dps_started"] = false,
-					["total"] = 861684.011802,
+					["tipo"] = 1,
 					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["nome"] = "萨塔里奥",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -19659,20 +16458,20 @@ _detalhes_database = {
 								["counter"] = 140,
 								["total"] = 477010,
 								["c_max"] = 0,
-								["a_dmg"] = 188744,
+								["r_amt"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["MISS"] = 11,
+								["b_dmg"] = 0,
 								["DODGE"] = 40,
-								["extra"] = {
-								},
+								["a_amt"] = 24,
 								["PARRY"] = 28,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
-								["a_amt"] = 24,
+								["extra"] = {
+								},
 								["n_amt"] = 61,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["MISS"] = 11,
+								["a_dmg"] = 188744,
 							}, -- [1]
 							[56909] = {
 								["c_amt"] = 0,
@@ -19689,20 +16488,20 @@ _detalhes_database = {
 								["counter"] = 24,
 								["total"] = 38266,
 								["c_max"] = 0,
-								["a_dmg"] = 4721,
+								["r_amt"] = 0,
 								["id"] = 56909,
 								["r_dmg"] = 0,
-								["MISS"] = 4,
+								["b_dmg"] = 0,
 								["DODGE"] = 2,
-								["extra"] = {
-								},
+								["a_amt"] = 2,
 								["PARRY"] = 3,
 								["c_min"] = 0,
 								["successful_casted"] = 24,
-								["a_amt"] = 2,
+								["extra"] = {
+								},
 								["n_amt"] = 15,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["MISS"] = 4,
+								["a_dmg"] = 4721,
 							},
 							[56908] = {
 								["c_amt"] = 0,
@@ -19722,16 +16521,16 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 56908,
 								["r_dmg"] = 273336,
-								["MISS"] = 2,
-								["extra"] = {
-								},
+								["r_amt"] = 21,
+								["b_dmg"] = 0,
 								["a_dmg"] = 162747,
 								["c_min"] = 0,
 								["successful_casted"] = 24,
 								["a_amt"] = 14,
 								["n_amt"] = 24,
-								["b_dmg"] = 0,
-								["r_amt"] = 21,
+								["extra"] = {
+								},
+								["MISS"] = 2,
 							},
 							[56910] = {
 								["c_amt"] = 0,
@@ -19742,10 +16541,10 @@ _detalhes_database = {
 								["targets"] = {
 									["雪花丶有点飘"] = 6785,
 									["大风车滋滋转"] = 2717,
-									["日出东芳"] = 3101,
-									["凸凸凹"] = 2824,
-									["特变电工"] = 10818,
 									["魂之信仰"] = 5800,
+									["特变电工"] = 10818,
+									["凸凸凹"] = 2824,
+									["日出东芳"] = 3101,
 								},
 								["n_dmg"] = 32045,
 								["n_min"] = 0,
@@ -19755,15 +16554,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 56910,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 3363,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 20,
 								["a_amt"] = 1,
 								["n_amt"] = 11,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 3363,
+								["extra"] = {
+								},
 							},
 							[61254] = {
 								["c_amt"] = 0,
@@ -19781,15 +16580,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 61254,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[61632] = {
 								["c_amt"] = 0,
@@ -19807,27 +16606,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 61632,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 32,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
-					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-5002-615-15071-28860-00004EAA97",
-					["custom"] = 0,
-					["tipo"] = 1,
 					["last_dps"] = 0,
-					["start_time"] = 1666100574,
-					["delay"] = 0,
+					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 3633569.011802,
+					["start_time"] = 1666100574,
+					["serial"] = "Creature-0-5002-615-15071-28860-00004EAA97",
+					["classe"] = "UNKNOW",
 				}, -- [2]
 				{
 					["flag_original"] = 2632,
@@ -19838,35 +16638,34 @@ _detalhes_database = {
 						["夕里安"] = true,
 						["雪花丶有点飘"] = true,
 						["踏遍天涯"] = true,
-						["魂之信仰"] = true,
-						["凸凸凹"] = true,
-						["陌戮"] = true,
 						["日出东芳"] = true,
+						["陌戮"] = true,
+						["凸凸凹"] = true,
+						["魂之信仰"] = true,
 					},
 					["targets"] = {
 						["镜像 <日出东芳>"] = 1316,
 						["Just"] = 142269,
 						["陌戮"] = 15966,
 					},
-					["on_hold"] = false,
+					["delay"] = 0,
 					["pets"] = {
 						"暮光裂隙 <塔尼布隆>", -- [1]
 					},
-					["monster"] = true,
+					["nome"] = "塔尼布隆",
+					["dps_started"] = false,
 					["aID"] = "30452",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 147701.013138,
+					["total"] = 159551.013138,
+					["monster"] = true,
+					["end_time"] = 1666100941,
 					["friendlyfire"] = {
 					},
-					["end_time"] = 1666100941,
-					["dps_started"] = false,
-					["total"] = 159551.013138,
+					["tipo"] = 1,
 					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["nome"] = "塔尼布隆",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -19883,20 +16682,20 @@ _detalhes_database = {
 								["counter"] = 47,
 								["total"] = 80906,
 								["c_max"] = 0,
-								["a_dmg"] = 21409,
+								["r_amt"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["MISS"] = 6,
+								["b_dmg"] = 23053,
 								["DODGE"] = 12,
-								["extra"] = {
-								},
+								["a_amt"] = 5,
 								["PARRY"] = 9,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
-								["a_amt"] = 5,
+								["extra"] = {
+								},
 								["n_amt"] = 20,
-								["b_dmg"] = 23053,
-								["r_amt"] = 0,
+								["MISS"] = 6,
+								["a_dmg"] = 21409,
 							}, -- [1]
 							[61248] = {
 								["c_amt"] = 0,
@@ -19914,15 +16713,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 61248,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[58793] = {
 								["c_amt"] = 0,
@@ -19940,15 +16739,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 58793,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 2,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[57570] = {
 								["c_amt"] = 0,
@@ -19968,15 +16767,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 57570,
 								["r_dmg"] = 50829,
-								["extra"] = {
-								},
-								["a_dmg"] = 30845,
+								["r_amt"] = 6,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 6,
 								["a_amt"] = 4,
 								["n_amt"] = 7,
-								["b_dmg"] = 0,
-								["r_amt"] = 6,
+								["a_dmg"] = 30845,
+								["extra"] = {
+								},
 							},
 							[57579] = {
 								["c_amt"] = 0,
@@ -19994,15 +16793,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 57579,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 9,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[60639] = {
 								["c_amt"] = 0,
@@ -20020,27 +16819,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 60639,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
-					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-5002-615-15071-30452-00004EAA97",
-					["custom"] = 0,
-					["tipo"] = 1,
 					["last_dps"] = 0,
-					["start_time"] = 1666100833,
-					["delay"] = 0,
+					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 1415416.013138,
+					["start_time"] = 1666100833,
+					["serial"] = "Creature-0-5002-615-15071-30452-00004EAA97",
+					["classe"] = "UNKNOW",
 				}, -- [3]
 				{
 					["flag_original"] = 2632,
@@ -20051,34 +16851,33 @@ _detalhes_database = {
 						["夕里安"] = true,
 						["凸凸凹"] = true,
 						["踏遍天涯"] = true,
-						["魂之信仰"] = true,
-						["Just"] = true,
-						["雪花丶有点飘"] = true,
 						["日出东芳"] = true,
+						["雪花丶有点飘"] = true,
+						["Just"] = true,
+						["魂之信仰"] = true,
 					},
 					["targets"] = {
 						["Just"] = 157341,
 						["魂之信仰"] = 23150,
 					},
-					["on_hold"] = false,
+					["delay"] = 0,
 					["pets"] = {
 						"暮光裂隙 <沙德隆>", -- [1]
 					},
-					["monster"] = true,
+					["nome"] = "沙德隆",
+					["dps_started"] = false,
 					["aID"] = "30451",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 168158.004536,
+					["total"] = 180491.004536,
+					["monster"] = true,
+					["end_time"] = 1666100941,
 					["friendlyfire"] = {
 					},
-					["end_time"] = 1666100941,
-					["dps_started"] = false,
-					["total"] = 180491.004536,
+					["tipo"] = 1,
 					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["nome"] = "沙德隆",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -20095,20 +16894,20 @@ _detalhes_database = {
 								["counter"] = 65,
 								["total"] = 89079,
 								["c_max"] = 0,
-								["a_dmg"] = 24863,
+								["r_amt"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["DODGE"] = 18,
+								["b_dmg"] = 57946,
 								["MISS"] = 7,
-								["extra"] = {
-								},
+								["a_amt"] = 7,
 								["PARRY"] = 13,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
-								["a_amt"] = 7,
+								["extra"] = {
+								},
 								["n_amt"] = 27,
-								["b_dmg"] = 57946,
-								["r_amt"] = 0,
+								["DODGE"] = 18,
+								["a_dmg"] = 24863,
 							}, -- [1]
 							[57570] = {
 								["c_amt"] = 0,
@@ -20128,15 +16927,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 57570,
 								["r_dmg"] = 65120,
-								["extra"] = {
-								},
-								["a_dmg"] = 35008,
+								["r_amt"] = 10,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 10,
 								["a_amt"] = 5,
 								["n_amt"] = 12,
-								["b_dmg"] = 0,
-								["r_amt"] = 10,
+								["a_dmg"] = 35008,
+								["extra"] = {
+								},
 							},
 							[58105] = {
 								["c_amt"] = 0,
@@ -20154,15 +16953,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 58105,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[60639] = {
 								["c_amt"] = 0,
@@ -20180,15 +16979,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 60639,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[57579] = {
 								["c_amt"] = 0,
@@ -20206,27 +17005,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 57579,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 19,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
-					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-5002-615-15071-30451-00004EAA97",
-					["custom"] = 0,
-					["tipo"] = 1,
 					["last_dps"] = 0,
-					["start_time"] = 1666100786,
-					["delay"] = 0,
+					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 1415416.004536,
+					["start_time"] = 1666100786,
+					["serial"] = "Creature-0-5002-615-15071-30451-00004EAA97",
+					["classe"] = "UNKNOW",
 				}, -- [4]
 				{
 					["flag_original"] = 1298,
@@ -20235,38 +17035,34 @@ _detalhes_database = {
 						["塔尼布隆"] = true,
 						["暮光传送门"] = true,
 						["萨塔里奥暮光雏龙"] = true,
-						["火焰旋风"] = true,
 						["熔岩烈焰"] = true,
+						["火焰旋风"] = true,
 					},
 					["targets"] = {
 						["塔尼布隆"] = 131544,
 						["沙德隆的追随者"] = 26216,
 						["沙德隆"] = 254488,
 						["萨塔里奥"] = 430362,
-						["熔岩烈焰"] = 172886,
 						["萨塔里奥暮光雏龙"] = 153074,
+						["熔岩烈焰"] = 172886,
 					},
 					["pets"] = {
 					},
-					["friendlyfire_total"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
+					["spec"] = 72,
 					["classe"] = "WARRIOR",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1168570.008117,
-					["end_time"] = 1666100941,
-					["boss_fight_component"] = true,
+					["nome"] = "陌戮",
+					["delay"] = 0,
 					["dps_started"] = false,
 					["total"] = 1168570.008117,
-					["aID"] = "4778-04AC8F71",
-					["last_event"] = 0,
-					["nome"] = "陌戮",
-					["spec"] = 72,
-					["grupo"] = true,
-					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["friendlyfire"] = {
+					},
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 98,
@@ -20279,8 +17075,8 @@ _detalhes_database = {
 									["沙德隆的追随者"] = 10878,
 									["沙德隆"] = 55993,
 									["萨塔里奥暮光雏龙"] = 16607,
-									["萨塔里奥"] = 113914,
 									["熔岩烈焰"] = 17245,
+									["萨塔里奥"] = 113914,
 								},
 								["n_dmg"] = 18086,
 								["n_min"] = 0,
@@ -20288,20 +17084,20 @@ _detalhes_database = {
 								["counter"] = 180,
 								["total"] = 251904,
 								["c_max"] = 4077,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["MISS"] = 14,
+								["b_dmg"] = 2095,
 								["DODGE"] = 4,
-								["extra"] = {
-								},
+								["a_amt"] = 0,
 								["PARRY"] = 3,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
-								["a_amt"] = 0,
+								["extra"] = {
+								},
 								["n_amt"] = 21,
-								["b_dmg"] = 2095,
-								["r_amt"] = 0,
+								["MISS"] = 14,
+								["a_dmg"] = 0,
 							}, -- [1]
 							[47520] = {
 								["c_amt"] = 20,
@@ -20313,8 +17109,8 @@ _detalhes_database = {
 									["塔尼布隆"] = 3493,
 									["沙德隆"] = 24569,
 									["熔岩烈焰"] = 27806,
-									["萨塔里奥暮光雏龙"] = 36766,
 									["萨塔里奥"] = 5246,
+									["萨塔里奥暮光雏龙"] = 36766,
 								},
 								["n_dmg"] = 28231,
 								["n_min"] = 0,
@@ -20324,16 +17120,16 @@ _detalhes_database = {
 								["c_max"] = 4358,
 								["id"] = 47520,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["PARRY"] = 1,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 17,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 							},
 							[50783] = {
 								["c_amt"] = 1,
@@ -20352,15 +17148,15 @@ _detalhes_database = {
 								["c_max"] = 4306,
 								["id"] = 50783,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[23881] = {
 								["c_amt"] = 34,
@@ -20373,8 +17169,8 @@ _detalhes_database = {
 									["沙德隆的追随者"] = 5618,
 									["沙德隆"] = 49275,
 									["萨塔里奥暮光雏龙"] = 15739,
-									["萨塔里奥"] = 95137,
 									["熔岩烈焰"] = 13092,
+									["萨塔里奥"] = 95137,
 								},
 								["n_dmg"] = 57033,
 								["n_min"] = 0,
@@ -20384,51 +17180,45 @@ _detalhes_database = {
 								["c_max"] = 5585,
 								["id"] = 23881,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 1213,
 								["PARRY"] = 1,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 28,
-								["b_dmg"] = 1213,
-								["r_amt"] = 0,
-							},
-							[1680] = {
-								["c_amt"] = 39,
-								["b_amt"] = 2,
-								["c_dmg"] = 145088,
-								["g_amt"] = 0,
-								["n_max"] = 2147,
-								["targets"] = {
-									["塔尼布隆"] = 14273,
-									["沙德隆的追随者"] = 1118,
-									["沙德隆"] = 35021,
-									["萨塔里奥"] = 32123,
-									["熔岩烈焰"] = 67885,
-									["萨塔里奥暮光雏龙"] = 38041,
-								},
-								["n_dmg"] = 43373,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 76,
-								["total"] = 188461,
-								["c_max"] = 5480,
-								["a_dmg"] = 0,
-								["id"] = 1680,
-								["r_dmg"] = 0,
-								["DODGE"] = 2,
-								["IMMUNE"] = 4,
 								["extra"] = {
 								},
-								["PARRY"] = 4,
+								["a_dmg"] = 0,
+							},
+							[60203] = {
+								["c_amt"] = 3,
+								["b_amt"] = 0,
+								["c_dmg"] = 10005,
+								["g_amt"] = 0,
+								["n_max"] = 2395,
+								["targets"] = {
+									["萨塔里奥"] = 9817,
+									["塔尼布隆"] = 1851,
+									["沙德隆"] = 8973,
+								},
+								["n_dmg"] = 10636,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 8,
+								["total"] = 20641,
+								["c_max"] = 3636,
+								["id"] = 60203,
+								["r_dmg"] = 10144,
+								["r_amt"] = 4,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
-								["n_amt"] = 27,
-								["b_dmg"] = 2807,
-								["r_amt"] = 0,
+								["n_amt"] = 5,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[56350] = {
 								["c_amt"] = 0,
@@ -20450,16 +17240,16 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 56350,
 								["r_dmg"] = 2581,
-								["IMMUNE"] = 1,
-								["extra"] = {
-								},
+								["r_amt"] = 2,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 6,
-								["b_dmg"] = 0,
-								["r_amt"] = 2,
+								["extra"] = {
+								},
+								["IMMUNE"] = 1,
 							},
 							[34428] = {
 								["c_amt"] = 0,
@@ -20479,76 +17269,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 34428,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 3,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							},
-							[12721] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 1251,
-								["targets"] = {
-									["塔尼布隆"] = 23396,
-									["沙德隆的追随者"] = 2826,
-									["沙德隆"] = 36367,
-									["萨塔里奥暮光雏龙"] = 17875,
-									["萨塔里奥"] = 68025,
-									["熔岩烈焰"] = 15615,
-								},
-								["n_dmg"] = 164104,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 413,
-								["total"] = 164104,
-								["c_max"] = 0,
-								["id"] = 12721,
-								["r_dmg"] = 0,
+								["a_dmg"] = 0,
 								["extra"] = {
 								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 413,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							},
-							[20253] = {
-								["c_amt"] = 1,
-								["b_amt"] = 0,
-								["c_dmg"] = 664,
-								["g_amt"] = 0,
-								["n_max"] = 404,
-								["targets"] = {
-									["萨塔里奥"] = 1068,
-									["塔尼布隆"] = 403,
-									["沙德隆"] = 403,
-								},
-								["n_dmg"] = 1210,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 4,
-								["total"] = 1874,
-								["c_max"] = 664,
-								["id"] = 20253,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 3,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
 							},
 							[44949] = {
 								["c_amt"] = 30,
@@ -20561,8 +17290,8 @@ _detalhes_database = {
 									["沙德隆的追随者"] = 1560,
 									["沙德隆"] = 23971,
 									["萨塔里奥"] = 19466,
-									["熔岩烈焰"] = 28810,
 									["萨塔里奥暮光雏龙"] = 21767,
+									["熔岩烈焰"] = 28810,
 								},
 								["n_dmg"] = 37834,
 								["n_min"] = 0,
@@ -20570,20 +17299,48 @@ _detalhes_database = {
 								["counter"] = 76,
 								["total"] = 102830,
 								["c_max"] = 2802,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["id"] = 44949,
 								["r_dmg"] = 0,
-								["IMMUNE"] = 4,
+								["b_dmg"] = 0,
 								["DODGE"] = 3,
-								["extra"] = {
-								},
+								["a_amt"] = 0,
 								["PARRY"] = 1,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
-								["a_amt"] = 0,
+								["extra"] = {
+								},
 								["n_amt"] = 38,
-								["b_dmg"] = 0,
+								["IMMUNE"] = 4,
+								["a_dmg"] = 0,
+							},
+							[54043] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 175,
+								["targets"] = {
+									["萨塔里奥暮光雏龙"] = 874,
+									["熔岩烈焰"] = 681,
+								},
+								["n_dmg"] = 1555,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 9,
+								["total"] = 1555,
+								["c_max"] = 0,
+								["id"] = 54043,
+								["r_dmg"] = 0,
 								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 9,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[47450] = {
 								["c_amt"] = 12,
@@ -20606,44 +17363,80 @@ _detalhes_database = {
 								["c_max"] = 5260,
 								["id"] = 47450,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["PARRY"] = 1,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 14,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							},
-							[54043] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 175,
-								["targets"] = {
-									["萨塔里奥暮光雏龙"] = 874,
-									["熔岩烈焰"] = 681,
-								},
-								["n_dmg"] = 1555,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 9,
-								["total"] = 1555,
-								["c_max"] = 0,
-								["id"] = 54043,
-								["r_dmg"] = 0,
 								["extra"] = {
 								},
 								["a_dmg"] = 0,
+							},
+							[1680] = {
+								["c_amt"] = 39,
+								["b_amt"] = 2,
+								["c_dmg"] = 145088,
+								["g_amt"] = 0,
+								["n_max"] = 2147,
+								["targets"] = {
+									["塔尼布隆"] = 14273,
+									["沙德隆的追随者"] = 1118,
+									["沙德隆"] = 35021,
+									["萨塔里奥"] = 32123,
+									["萨塔里奥暮光雏龙"] = 38041,
+									["熔岩烈焰"] = 67885,
+								},
+								["n_dmg"] = 43373,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 76,
+								["total"] = 188461,
+								["c_max"] = 5480,
+								["r_amt"] = 0,
+								["id"] = 1680,
+								["r_dmg"] = 0,
+								["b_dmg"] = 2807,
+								["IMMUNE"] = 4,
+								["a_amt"] = 0,
+								["PARRY"] = 4,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["extra"] = {
+								},
+								["n_amt"] = 27,
+								["DODGE"] = 2,
+								["a_dmg"] = 0,
+							},
+							[20253] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 664,
+								["g_amt"] = 0,
+								["n_max"] = 404,
+								["targets"] = {
+									["萨塔里奥"] = 1068,
+									["塔尼布隆"] = 403,
+									["沙德隆"] = 403,
+								},
+								["n_dmg"] = 1210,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 4,
+								["total"] = 1874,
+								["c_max"] = 664,
+								["id"] = 20253,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
-								["n_amt"] = 9,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["n_amt"] = 3,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[20647] = {
 								["c_amt"] = 4,
@@ -20664,54 +17457,61 @@ _detalhes_database = {
 								["c_max"] = 5439,
 								["id"] = 20647,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 8,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							},
-							[60203] = {
-								["c_amt"] = 3,
-								["b_amt"] = 0,
-								["c_dmg"] = 10005,
-								["g_amt"] = 0,
-								["n_max"] = 2395,
-								["targets"] = {
-									["萨塔里奥"] = 9817,
-									["塔尼布隆"] = 1851,
-									["沙德隆"] = 8973,
-								},
-								["n_dmg"] = 10636,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 8,
-								["total"] = 20641,
-								["c_max"] = 3636,
-								["id"] = 60203,
-								["r_dmg"] = 10144,
+								["a_dmg"] = 0,
 								["extra"] = {
 								},
-								["a_dmg"] = 0,
+							},
+							[12721] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 1251,
+								["targets"] = {
+									["塔尼布隆"] = 23396,
+									["沙德隆的追随者"] = 2826,
+									["沙德隆"] = 36367,
+									["萨塔里奥暮光雏龙"] = 17875,
+									["熔岩烈焰"] = 15615,
+									["萨塔里奥"] = 68025,
+								},
+								["n_dmg"] = 164104,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 413,
+								["total"] = 164104,
+								["c_max"] = 0,
+								["id"] = 12721,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
-								["n_amt"] = 5,
-								["b_dmg"] = 0,
-								["r_amt"] = 4,
+								["n_amt"] = 413,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
+						["tipo"] = 2,
 					},
-					["serial"] = "Player-4778-04AC8F71",
-					["custom"] = 0,
+					["grupo"] = true,
+					["end_time"] = 1666100941,
 					["tipo"] = 1,
+					["on_hold"] = false,
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 59031.00811700001,
 					["start_time"] = 1666100574,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Player-4778-04AC8F71",
+					["aID"] = "4778-04AC8F71",
 				}, -- [5]
 				{
 					["flag_original"] = 1300,
@@ -20719,47 +17519,43 @@ _detalhes_database = {
 					["damage_from"] = {
 						["雪花丶有点飘"] = true,
 						["沙德隆的追随者"] = true,
-						["火焰旋风"] = true,
-						["熔岩烈焰"] = true,
-						["萨塔里奥暮光雏龙"] = true,
-						["暮光传送门"] = true,
 						["萨塔里奥"] = true,
+						["熔岩烈焰"] = true,
+						["暮光传送门"] = true,
+						["萨塔里奥暮光雏龙"] = true,
+						["火焰旋风"] = true,
 					},
 					["targets"] = {
 						["塔尼布隆"] = 241173,
 						["沙德隆的追随者"] = 50268,
 						["沙德隆"] = 256408,
 						["萨塔里奥"] = 707704,
-						["萨塔里奥暮光雏龙"] = 123547,
 						["熔岩烈焰"] = 42922,
+						["萨塔里奥暮光雏龙"] = 123547,
 					},
 					["pets"] = {
 					},
-					["friendlyfire_total"] = 2069,
-					["friendlyfire"] = {
-						["雪花丶有点飘"] = {
-							["spells"] = {
-								[57634] = 2069,
-							},
-							["total"] = 2069,
-						},
-					},
+					["last_dps"] = 0,
+					["spec"] = 259,
 					["classe"] = "ROGUE",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1422022.010981,
-					["end_time"] = 1666100941,
-					["boss_fight_component"] = true,
+					["nome"] = "雪花丶有点飘",
+					["delay"] = 0,
 					["dps_started"] = false,
 					["total"] = 1422022.010981,
-					["aID"] = "4778-048F0669",
-					["last_event"] = 0,
-					["nome"] = "雪花丶有点飘",
-					["spec"] = 259,
-					["grupo"] = true,
-					["on_hold"] = false,
+					["friendlyfire_total"] = 2069,
+					["friendlyfire"] = {
+						["雪花丶有点飘"] = {
+							["total"] = 2069,
+							["spells"] = {
+								[57634] = 0,
+							},
+						},
+					},
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 285,
@@ -20780,20 +17576,20 @@ _detalhes_database = {
 								["counter"] = 632,
 								["total"] = 349211,
 								["c_max"] = 1271,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["MISS"] = 109,
+								["b_dmg"] = 602,
 								["DODGE"] = 30,
-								["extra"] = {
-								},
+								["a_amt"] = 0,
 								["PARRY"] = 5,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
-								["a_amt"] = 0,
+								["extra"] = {
+								},
 								["n_amt"] = 66,
-								["b_dmg"] = 602,
-								["r_amt"] = 0,
+								["MISS"] = 109,
+								["a_dmg"] = 0,
 							}, -- [1]
 							[52874] = {
 								["c_amt"] = 42,
@@ -20805,8 +17601,8 @@ _detalhes_database = {
 									["塔尼布隆"] = 8050,
 									["沙德隆"] = 9049,
 									["萨塔里奥"] = 2941,
-									["熔岩烈焰"] = 15813,
 									["萨塔里奥暮光雏龙"] = 38663,
+									["熔岩烈焰"] = 15813,
 								},
 								["n_dmg"] = 30558,
 								["n_min"] = 0,
@@ -20814,20 +17610,20 @@ _detalhes_database = {
 								["counter"] = 119,
 								["total"] = 74516,
 								["c_max"] = 1349,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["id"] = 52874,
 								["r_dmg"] = 0,
-								["DODGE"] = 6,
+								["b_dmg"] = 938,
 								["IMMUNE"] = 9,
-								["extra"] = {
-								},
+								["a_amt"] = 0,
 								["PARRY"] = 3,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
-								["a_amt"] = 0,
+								["extra"] = {
+								},
 								["n_amt"] = 59,
-								["b_dmg"] = 938,
-								["r_amt"] = 0,
+								["DODGE"] = 6,
+								["a_dmg"] = 0,
 							},
 							[48676] = {
 								["c_amt"] = 0,
@@ -20846,15 +17642,48 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 48676,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 5,
-								["b_dmg"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[51723] = {
+								["c_amt"] = 46,
+								["b_amt"] = 2,
+								["c_dmg"] = 45689,
+								["g_amt"] = 0,
+								["n_max"] = 612,
+								["targets"] = {
+									["塔尼布隆"] = 7686,
+									["沙德隆"] = 9596,
+									["萨塔里奥"] = 3811,
+									["萨塔里奥暮光雏龙"] = 38846,
+									["熔岩烈焰"] = 14210,
+								},
+								["n_dmg"] = 28460,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 117,
+								["total"] = 74149,
+								["c_max"] = 1273,
+								["id"] = 51723,
+								["r_dmg"] = 0,
 								["r_amt"] = 0,
+								["b_dmg"] = 825,
+								["extra"] = {
+								},
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_dmg"] = 0,
+								["n_amt"] = 59,
+								["DODGE"] = 3,
+								["IMMUNE"] = 9,
 							},
 							[57970] = {
 								["c_amt"] = 0,
@@ -20867,8 +17696,8 @@ _detalhes_database = {
 									["沙德隆的追随者"] = 3400,
 									["沙德隆"] = 43112,
 									["萨塔里奥暮光雏龙"] = 24812,
-									["萨塔里奥"] = 87513,
 									["熔岩烈焰"] = 4428,
+									["萨塔里奥"] = 87513,
 								},
 								["n_dmg"] = 207998,
 								["n_min"] = 0,
@@ -20878,45 +17707,17 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 57970,
 								["r_dmg"] = 73236,
-								["MISS"] = 5,
-								["IMMUNE"] = 4,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 195,
-								["b_dmg"] = 0,
 								["r_amt"] = 64,
-							},
-							[1330] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["萨塔里奥"] = 0,
-								},
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 1330,
-								["r_dmg"] = 0,
-								["IMMUNE"] = 1,
+								["b_dmg"] = 0,
 								["extra"] = {
 								},
-								["a_dmg"] = 0,
+								["a_amt"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["n_amt"] = 195,
+								["IMMUNE"] = 4,
+								["MISS"] = 5,
 							},
 							[57993] = {
 								["c_amt"] = 9,
@@ -20938,16 +17739,16 @@ _detalhes_database = {
 								["c_max"] = 11734,
 								["id"] = 57993,
 								["r_dmg"] = 55935,
-								["DODGE"] = 2,
-								["extra"] = {
-								},
+								["r_amt"] = 8,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 9,
-								["b_dmg"] = 0,
-								["r_amt"] = 8,
+								["extra"] = {
+								},
+								["DODGE"] = 2,
 							},
 							[8643] = {
 								["c_amt"] = 0,
@@ -20966,16 +17767,16 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 8643,
 								["r_dmg"] = 0,
-								["IMMUNE"] = 1,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["extra"] = {
+								},
+								["IMMUNE"] = 1,
 							},
 							[48664] = {
 								["c_amt"] = 27,
@@ -20997,48 +17798,15 @@ _detalhes_database = {
 								["c_max"] = 2786,
 								["id"] = 48664,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 16,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							},
-							[57965] = {
-								["c_amt"] = 74,
-								["b_amt"] = 0,
-								["c_dmg"] = 127759,
-								["g_amt"] = 0,
-								["n_max"] = 1586,
-								["targets"] = {
-									["塔尼布隆"] = 74919,
-									["沙德隆的追随者"] = 14940,
-									["沙德隆"] = 75380,
-									["萨塔里奥"] = 230314,
-									["萨塔里奥暮光雏龙"] = 19672,
-									["熔岩烈焰"] = 8275,
-								},
-								["n_dmg"] = 295741,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 345,
-								["total"] = 423500,
-								["c_max"] = 2333,
-								["id"] = 57965,
-								["r_dmg"] = 158556,
-								["MISS"] = 10,
+								["a_dmg"] = 0,
 								["extra"] = {
 								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 261,
-								["b_dmg"] = 0,
-								["r_amt"] = 139,
 							},
 							[48665] = {
 								["c_amt"] = 28,
@@ -21060,15 +17828,48 @@ _detalhes_database = {
 								["c_max"] = 3124,
 								["id"] = 48665,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 15,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[57965] = {
+								["c_amt"] = 74,
+								["b_amt"] = 0,
+								["c_dmg"] = 127759,
+								["g_amt"] = 0,
+								["n_max"] = 1586,
+								["targets"] = {
+									["塔尼布隆"] = 74919,
+									["沙德隆的追随者"] = 14940,
+									["沙德隆"] = 75380,
+									["萨塔里奥"] = 230314,
+									["熔岩烈焰"] = 8275,
+									["萨塔里奥暮光雏龙"] = 19672,
+								},
+								["n_dmg"] = 295741,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 345,
+								["total"] = 423500,
+								["c_max"] = 2333,
+								["id"] = 57965,
+								["r_dmg"] = 158556,
+								["r_amt"] = 139,
 								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 261,
+								["extra"] = {
+								},
+								["MISS"] = 10,
 							},
 							[54043] = {
 								["c_amt"] = 0,
@@ -21089,15 +17890,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 54043,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 4,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[48666] = {
 								["c_amt"] = 0,
@@ -21117,129 +17918,97 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 48666,
 								["r_dmg"] = 0,
-								["DODGE"] = 2,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							},
-							[51723] = {
-								["c_amt"] = 46,
-								["b_amt"] = 2,
-								["c_dmg"] = 45689,
-								["g_amt"] = 0,
-								["n_max"] = 612,
-								["targets"] = {
-									["塔尼布隆"] = 7686,
-									["沙德隆"] = 9596,
-									["萨塔里奥"] = 3811,
-									["熔岩烈焰"] = 14210,
-									["萨塔里奥暮光雏龙"] = 38846,
-								},
-								["n_dmg"] = 28460,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 117,
-								["total"] = 74149,
-								["c_max"] = 1273,
-								["id"] = 51723,
-								["r_dmg"] = 0,
-								["IMMUNE"] = 9,
-								["DODGE"] = 3,
 								["extra"] = {
 								},
+								["DODGE"] = 2,
+							},
+							[1330] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["萨塔里奥"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 1330,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
-								["n_amt"] = 59,
-								["b_dmg"] = 825,
-								["r_amt"] = 0,
+								["n_amt"] = 0,
+								["extra"] = {
+								},
+								["IMMUNE"] = 1,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["serial"] = "Player-4778-048F0669",
-					["custom"] = 0,
+					["grupo"] = true,
+					["end_time"] = 1666100941,
 					["tipo"] = 1,
+					["on_hold"] = false,
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 59422.010981,
 					["start_time"] = 1666100575,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Player-4778-048F0669",
+					["aID"] = "4778-048F0669",
 				}, -- [6]
 				{
 					["flag_original"] = 132372,
 					["totalabsorbed"] = 0.009930999999999999,
-					["spec"] = 66,
+					["aID"] = "4778-04D9BDE6",
 					["damage_from"] = {
 						["塔尼布隆"] = true,
 						["火焰旋风"] = true,
 						["Just"] = true,
 						["沙德隆"] = true,
 						["萨塔里奥"] = true,
-						["萨塔里奥暮光雏龙"] = true,
-						["暮光裂隙 <塔尼布隆>"] = true,
 						["熔岩烈焰"] = true,
+						["暮光裂隙 <塔尼布隆>"] = true,
+						["萨塔里奥暮光雏龙"] = true,
 					},
 					["targets"] = {
 						["塔尼布隆"] = 156842,
 						["沙德隆"] = 187247,
 						["萨塔里奥"] = 175614,
-						["熔岩烈焰"] = 296099,
 						["萨塔里奥暮光雏龙"] = 196855,
+						["熔岩烈焰"] = 296099,
 					},
-					["avoidance"] = {
-						["overall"] = {
-							["DODGE"] = 0,
-							["FULL_ABSORB_AMT"] = 0,
-							["BLOCKED_AMT"] = 0,
-							["BLOCKED_HITS"] = 0,
-							["FULL_ABSORBED"] = 0,
-							["ALL"] = 0,
-							["PARTIAL_ABSORBED"] = 0,
-							["PARRY"] = 0,
-							["PARTIAL_ABSORB_AMT"] = 0,
-							["ABSORB"] = 0,
-							["ABSORB_AMT"] = 0,
-							["FULL_HIT"] = 0,
-							["HITS"] = 0,
-							["FULL_HIT_AMT"] = 0,
-						},
-					},
+					["tipo"] = 1,
 					["pets"] = {
 					},
-					["end_time"] = 1666100941,
-					["boss_fight_component"] = true,
-					["aID"] = "4778-04D9BDE6",
+					["on_hold"] = false,
+					["damage_taken"] = 430462.009931,
+					["friendlyfire_total"] = 1355,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1012657.009931,
-					["friendlyfire"] = {
-						["Just"] = {
-							["spells"] = {
-								[57634] = 1355,
-							},
-							["total"] = 1355,
-						},
-						["凸凸凹"] = {
-							["spells"] = {
-								[64205] = 0,
-							},
-							["total"] = 0,
-						},
-					},
+					["delay"] = 0,
 					["classe"] = "PALADIN",
 					["dps_started"] = false,
+					["end_time"] = 1666100941,
+					["start_time"] = 1666100576,
 					["total"] = 1012657.009931,
-					["last_event"] = 0,
-					["friendlyfire_total"] = 1355,
-					["nome"] = "Just",
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 36,
@@ -21251,31 +18020,31 @@ _detalhes_database = {
 									["塔尼布隆"] = 28955,
 									["沙德隆"] = 31637,
 									["萨塔里奥"] = 32190,
-									["萨塔里奥暮光雏龙"] = 5525,
 									["熔岩烈焰"] = 13340,
+									["萨塔里奥暮光雏龙"] = 5525,
 								},
 								["n_dmg"] = 53696,
 								["n_min"] = 0,
 								["g_dmg"] = 18202,
 								["counter"] = 192,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["total"] = 111647,
 								["c_max"] = 1365,
-								["DODGE"] = 4,
+								["b_dmg"] = 3415,
 								["id"] = 1,
 								["r_dmg"] = 0,
 								["IMMUNE"] = 2,
-								["MISS"] = 2,
+								["a_amt"] = 0,
 								["extra"] = {
 									["extra_attack"] = 16,
 								},
 								["PARRY"] = 9,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
-								["a_amt"] = 0,
+								["MISS"] = 2,
 								["n_amt"] = 97,
-								["b_dmg"] = 3415,
-								["r_amt"] = 0,
+								["DODGE"] = 4,
+								["a_dmg"] = 0,
 							}, -- [1]
 							[69403] = {
 								["c_amt"] = 100,
@@ -21287,30 +18056,30 @@ _detalhes_database = {
 									["塔尼布隆"] = 28186,
 									["沙德隆"] = 29888,
 									["萨塔里奥"] = 40206,
-									["熔岩烈焰"] = 64680,
 									["萨塔里奥暮光雏龙"] = 33769,
+									["熔岩烈焰"] = 64680,
 								},
 								["n_dmg"] = 131750,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
 								["counter"] = 547,
-								["a_dmg"] = 0,
+								["r_amt"] = 151,
 								["total"] = 196729,
 								["c_max"] = 846,
-								["MISS"] = 8,
+								["b_dmg"] = 5424,
 								["id"] = 69403,
 								["r_dmg"] = 53316,
 								["IMMUNE"] = 6,
-								["DODGE"] = 3,
+								["a_amt"] = 0,
 								["extra"] = {
 								},
 								["PARRY"] = 20,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
-								["a_amt"] = 0,
+								["DODGE"] = 3,
 								["n_amt"] = 410,
-								["b_dmg"] = 5424,
-								["r_amt"] = 151,
+								["MISS"] = 8,
+								["a_dmg"] = 0,
 							},
 							[53595] = {
 								["c_amt"] = 17,
@@ -21322,8 +18091,8 @@ _detalhes_database = {
 									["塔尼布隆"] = 31839,
 									["沙德隆"] = 40875,
 									["萨塔里奥"] = 45324,
-									["熔岩烈焰"] = 86151,
 									["萨塔里奥暮光雏龙"] = 51721,
+									["熔岩烈焰"] = 86151,
 								},
 								["n_dmg"] = 175350,
 								["n_min"] = 0,
@@ -21333,15 +18102,15 @@ _detalhes_database = {
 								["c_max"] = 5746,
 								["id"] = 53595,
 								["r_dmg"] = 80822,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 31,
+								["b_dmg"] = 16871,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 73,
-								["b_dmg"] = 16871,
-								["r_amt"] = 31,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[67485] = {
 								["c_amt"] = 1,
@@ -21362,15 +18131,15 @@ _detalhes_database = {
 								["c_max"] = 3762,
 								["id"] = 67485,
 								["r_dmg"] = 2324,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 1,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 3,
-								["b_dmg"] = 0,
-								["r_amt"] = 1,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[61411] = {
 								["c_amt"] = 4,
@@ -21382,8 +18151,8 @@ _detalhes_database = {
 									["塔尼布隆"] = 14823,
 									["沙德隆"] = 12473,
 									["萨塔里奥"] = 21967,
-									["萨塔里奥暮光雏龙"] = 2159,
 									["熔岩烈焰"] = 14036,
+									["萨塔里奥暮光雏龙"] = 2159,
 								},
 								["n_dmg"] = 45245,
 								["n_min"] = 0,
@@ -21393,8 +18162,8 @@ _detalhes_database = {
 								["c_max"] = 6227,
 								["id"] = 61411,
 								["r_dmg"] = 20703,
-								["a_dmg"] = 0,
-								["DODGE"] = 1,
+								["r_amt"] = 8,
+								["b_dmg"] = 6151,
 								["extra"] = {
 								},
 								["PARRY"] = 3,
@@ -21402,8 +18171,8 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 17,
-								["b_dmg"] = 6151,
-								["r_amt"] = 8,
+								["DODGE"] = 1,
+								["a_dmg"] = 0,
 							},
 							[48819] = {
 								["c_amt"] = 0,
@@ -21415,8 +18184,8 @@ _detalhes_database = {
 									["塔尼布隆"] = 25612,
 									["沙德隆"] = 36447,
 									["萨塔里奥暮光雏龙"] = 65854,
-									["萨塔里奥"] = 26324,
 									["熔岩烈焰"] = 66091,
+									["萨塔里奥"] = 26324,
 								},
 								["n_dmg"] = 220328,
 								["n_min"] = 0,
@@ -21426,17 +18195,17 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 48819,
 								["r_dmg"] = 55822,
-								["IMMUNE"] = 41,
-								["MISS"] = 2,
+								["r_amt"] = 158,
+								["b_dmg"] = 0,
 								["extra"] = {
 								},
-								["a_dmg"] = 0,
+								["a_amt"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
-								["a_amt"] = 0,
+								["a_dmg"] = 0,
 								["n_amt"] = 575,
-								["b_dmg"] = 0,
-								["r_amt"] = 158,
+								["MISS"] = 2,
+								["IMMUNE"] = 41,
 							},
 							[48827] = {
 								["c_amt"] = 5,
@@ -21448,8 +18217,8 @@ _detalhes_database = {
 									["塔尼布隆"] = 7206,
 									["沙德隆"] = 9376,
 									["熔岩烈焰"] = 20432,
-									["萨塔里奥暮光雏龙"] = 8965,
 									["萨塔里奥"] = 1880,
+									["萨塔里奥暮光雏龙"] = 8965,
 								},
 								["n_dmg"] = 28979,
 								["n_min"] = 0,
@@ -21459,15 +18228,15 @@ _detalhes_database = {
 								["c_max"] = 4545,
 								["id"] = 48827,
 								["r_dmg"] = 8065,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 5,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 17,
-								["b_dmg"] = 0,
-								["r_amt"] = 5,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[48806] = {
 								["c_amt"] = 0,
@@ -21489,15 +18258,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 48806,
 								["r_dmg"] = 3530,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 2,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 4,
-								["b_dmg"] = 0,
-								["r_amt"] = 2,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[63529] = {
 								["c_amt"] = 0,
@@ -21518,47 +18287,47 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 63529,
 								["r_dmg"] = 0,
-								["IMMUNE"] = 9,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							},
-							[48952] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 962,
-								["targets"] = {
-									["塔尼布隆"] = 4330,
-									["熔岩烈焰"] = 13251,
-									["萨塔里奥暮光雏龙"] = 22037,
-									["沙德隆"] = 10300,
-								},
-								["n_dmg"] = 49918,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 64,
-								["total"] = 49918,
-								["c_max"] = 0,
-								["id"] = 48952,
-								["r_dmg"] = 8245,
-								["RESIST"] = 3,
 								["extra"] = {
 								},
-								["a_dmg"] = 0,
+								["IMMUNE"] = 9,
+							},
+							[20467] = {
+								["c_amt"] = 7,
+								["b_amt"] = 0,
+								["c_dmg"] = 11303,
+								["g_amt"] = 0,
+								["n_max"] = 914,
+								["targets"] = {
+									["塔尼布隆"] = 6853,
+									["沙德隆"] = 7601,
+									["萨塔里奥暮光雏龙"] = 801,
+									["萨塔里奥"] = 7723,
+									["熔岩烈焰"] = 6155,
+								},
+								["n_dmg"] = 17830,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 29,
+								["total"] = 29133,
+								["c_max"] = 1811,
+								["id"] = 20467,
+								["r_dmg"] = 7533,
+								["r_amt"] = 7,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
-								["n_amt"] = 61,
-								["b_dmg"] = 0,
-								["r_amt"] = 11,
+								["n_amt"] = 22,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[54043] = {
 								["c_amt"] = 0,
@@ -21580,16 +18349,16 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 54043,
 								["r_dmg"] = 0,
-								["RESIST"] = 2,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 73,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
-								["n_amt"] = 73,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["RESIST"] = 2,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[26017] = {
 								["c_amt"] = 0,
@@ -21610,60 +18379,91 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 26017,
 								["r_dmg"] = 0,
-								["MISS"] = 5,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							},
-							[20467] = {
-								["c_amt"] = 7,
-								["b_amt"] = 0,
-								["c_dmg"] = 11303,
-								["g_amt"] = 0,
-								["n_max"] = 914,
-								["targets"] = {
-									["塔尼布隆"] = 6853,
-									["沙德隆"] = 7601,
-									["萨塔里奥暮光雏龙"] = 801,
-									["熔岩烈焰"] = 6155,
-									["萨塔里奥"] = 7723,
-								},
-								["n_dmg"] = 17830,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 29,
-								["total"] = 29133,
-								["c_max"] = 1811,
-								["id"] = 20467,
-								["r_dmg"] = 7533,
 								["extra"] = {
 								},
-								["a_dmg"] = 0,
+								["MISS"] = 5,
+							},
+							[48952] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 962,
+								["targets"] = {
+									["塔尼布隆"] = 4330,
+									["熔岩烈焰"] = 13251,
+									["萨塔里奥暮光雏龙"] = 22037,
+									["沙德隆"] = 10300,
+								},
+								["n_dmg"] = 49918,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 64,
+								["total"] = 49918,
+								["c_max"] = 0,
+								["id"] = 48952,
+								["r_dmg"] = 8245,
+								["r_amt"] = 11,
+								["b_dmg"] = 0,
+								["n_amt"] = 61,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
-								["n_amt"] = 22,
-								["b_dmg"] = 0,
-								["r_amt"] = 7,
+								["RESIST"] = 3,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+						},
+						["tipo"] = 2,
+					},
+					["grupo"] = true,
+					["avoidance"] = {
+						["overall"] = {
+							["DODGE"] = 0,
+							["FULL_ABSORB_AMT"] = 0,
+							["BLOCKED_AMT"] = 0,
+							["BLOCKED_HITS"] = 0,
+							["FULL_ABSORBED"] = 0,
+							["ALL"] = 0,
+							["PARTIAL_ABSORBED"] = 0,
+							["PARRY"] = 0,
+							["PARTIAL_ABSORB_AMT"] = 0,
+							["ABSORB"] = 0,
+							["ABSORB_AMT"] = 0,
+							["FULL_HIT"] = 0,
+							["HITS"] = 0,
+							["FULL_HIT_AMT"] = 0,
+						},
+					},
+					["nome"] = "Just",
+					["spec"] = 66,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["last_dps"] = 0,
+					["isTank"] = true,
+					["serial"] = "Player-4778-04D9BDE6",
+					["friendlyfire"] = {
+						["Just"] = {
+							["total"] = 1355,
+							["spells"] = {
+								[57634] = 0,
+							},
+						},
+						["凸凸凹"] = {
+							["total"] = 0,
+							["spells"] = {
+								[64205] = 0,
 							},
 						},
 					},
-					["grupo"] = true,
-					["isTank"] = true,
-					["on_hold"] = false,
-					["serial"] = "Player-4778-04D9BDE6",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 430462.009931,
-					["start_time"] = 1666100576,
-					["delay"] = 0,
-					["last_dps"] = 0,
 				}, -- [7]
 				{
 					["flag_original"] = 1298,
@@ -21684,36 +18484,32 @@ _detalhes_database = {
 						["沙德隆的追随者"] = 28813,
 						["沙德隆"] = 164121,
 						["萨塔里奥"] = 412282,
-						["熔岩烈焰"] = 95723,
 						["萨塔里奥暮光雏龙"] = 76880,
+						["熔岩烈焰"] = 95723,
 					},
 					["pets"] = {
 					},
-					["friendlyfire_total"] = 783,
-					["friendlyfire"] = {
-						["魂之信仰"] = {
-							["spells"] = {
-								[57634] = 783,
-							},
-							["total"] = 783,
-						},
-					},
+					["last_dps"] = 0,
+					["spec"] = 70,
 					["classe"] = "PALADIN",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 944123.0074019999,
-					["end_time"] = 1666100941,
-					["boss_fight_component"] = true,
+					["nome"] = "魂之信仰",
+					["delay"] = 0,
 					["dps_started"] = false,
 					["total"] = 944123.0074019999,
-					["aID"] = "4778-0520EB5E",
-					["last_event"] = 0,
-					["nome"] = "魂之信仰",
-					["spec"] = 70,
-					["grupo"] = true,
-					["on_hold"] = false,
+					["friendlyfire_total"] = 783,
+					["friendlyfire"] = {
+						["魂之信仰"] = {
+							["total"] = 783,
+							["spells"] = {
+								[57634] = 0,
+							},
+						},
+					},
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 32,
@@ -21726,8 +18522,8 @@ _detalhes_database = {
 									["沙德隆的追随者"] = 5775,
 									["沙德隆"] = 25137,
 									["萨塔里奥暮光雏龙"] = 6399,
-									["萨塔里奥"] = 76377,
 									["熔岩烈焰"] = 12869,
+									["萨塔里奥"] = 76377,
 								},
 								["n_dmg"] = 37744,
 								["n_min"] = 0,
@@ -21737,8 +18533,8 @@ _detalhes_database = {
 								["c_max"] = 3532,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["DODGE"] = 5,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["extra"] = {
 								},
 								["PARRY"] = 3,
@@ -21746,8 +18542,8 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 28,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["DODGE"] = 5,
+								["a_dmg"] = 0,
 							}, -- [1]
 							[53385] = {
 								["c_amt"] = 20,
@@ -21760,8 +18556,8 @@ _detalhes_database = {
 									["沙德隆的追随者"] = 3366,
 									["沙德隆"] = 22409,
 									["萨塔里奥"] = 24780,
-									["熔岩烈焰"] = 44360,
 									["萨塔里奥暮光雏龙"] = 25040,
+									["熔岩烈焰"] = 44360,
 								},
 								["n_dmg"] = 63566,
 								["n_min"] = 0,
@@ -21769,20 +18565,20 @@ _detalhes_database = {
 								["counter"] = 68,
 								["total"] = 131517,
 								["c_max"] = 4198,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["id"] = 53385,
 								["r_dmg"] = 0,
-								["DODGE"] = 3,
+								["b_dmg"] = 0,
 								["IMMUNE"] = 4,
-								["extra"] = {
-								},
+								["a_amt"] = 0,
 								["PARRY"] = 2,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
-								["a_amt"] = 0,
+								["extra"] = {
+								},
 								["n_amt"] = 39,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["DODGE"] = 3,
+								["a_dmg"] = 0,
 							},
 							[27173] = {
 								["c_amt"] = 0,
@@ -21794,8 +18590,8 @@ _detalhes_database = {
 									["塔尼布隆"] = 3531,
 									["沙德隆"] = 4079,
 									["萨塔里奥"] = 6543,
-									["萨塔里奥暮光雏龙"] = 25435,
 									["熔岩烈焰"] = 3644,
+									["萨塔里奥暮光雏龙"] = 25435,
 								},
 								["n_dmg"] = 43232,
 								["n_min"] = 0,
@@ -21805,16 +18601,295 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 27173,
 								["r_dmg"] = 10224,
-								["IMMUNE"] = 3,
-								["extra"] = {
-								},
+								["r_amt"] = 34,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 133,
+								["extra"] = {
+								},
+								["IMMUNE"] = 3,
+							},
+							[10308] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["沙德隆的追随者"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 10308,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
 								["b_dmg"] = 0,
-								["r_amt"] = 34,
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["extra"] = {
+								},
+								["IMMUNE"] = 1,
+							},
+							[61840] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 1314,
+								["targets"] = {
+									["塔尼布隆"] = 6907,
+									["沙德隆的追随者"] = 1083,
+									["沙德隆"] = 10773,
+									["萨塔里奥"] = 24482,
+									["熔岩烈焰"] = 4646,
+									["萨塔里奥暮光雏龙"] = 3278,
+								},
+								["n_dmg"] = 51169,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 131,
+								["total"] = 51169,
+								["c_max"] = 0,
+								["id"] = 61840,
+								["r_dmg"] = 19173,
+								["r_amt"] = 51,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 131,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[48806] = {
+								["c_amt"] = 5,
+								["b_amt"] = 0,
+								["c_dmg"] = 17662,
+								["g_amt"] = 0,
+								["n_max"] = 2555,
+								["targets"] = {
+									["萨塔里奥"] = 8947,
+									["塔尼布隆"] = 3625,
+									["熔岩烈焰"] = 6441,
+									["萨塔里奥暮光雏龙"] = 3231,
+								},
+								["n_dmg"] = 4582,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 7,
+								["total"] = 22244,
+								["c_max"] = 4365,
+								["id"] = 48806,
+								["r_dmg"] = 10017,
+								["r_amt"] = 3,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 2,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[32747] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["沙德隆的追随者"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 32747,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["extra"] = {
+								},
+								["IMMUNE"] = 1,
+							},
+							[54043] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 302,
+								["targets"] = {
+									["萨塔里奥暮光雏龙"] = 490,
+									["沙德隆的追随者"] = 546,
+									["熔岩烈焰"] = 2021,
+								},
+								["n_dmg"] = 3057,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 12,
+								["total"] = 3057,
+								["c_max"] = 0,
+								["id"] = 54043,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 12,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[42463] = {
+								["c_amt"] = 57,
+								["b_amt"] = 0,
+								["c_dmg"] = 81187,
+								["g_amt"] = 0,
+								["n_max"] = 1085,
+								["targets"] = {
+									["塔尼布隆"] = 34257,
+									["沙德隆的追随者"] = 4055,
+									["沙德隆"] = 25010,
+									["萨塔里奥暮光雏龙"] = 1264,
+									["熔岩烈焰"] = 1534,
+									["萨塔里奥"] = 83000,
+								},
+								["n_dmg"] = 67933,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 160,
+								["total"] = 149120,
+								["c_max"] = 2257,
+								["id"] = 42463,
+								["r_dmg"] = 59197,
+								["r_amt"] = 65,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 103,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[35395] = {
+								["c_amt"] = 20,
+								["b_amt"] = 0,
+								["c_dmg"] = 52134,
+								["g_amt"] = 0,
+								["n_max"] = 1543,
+								["targets"] = {
+									["塔尼布隆"] = 16820,
+									["沙德隆的追随者"] = 5435,
+									["沙德隆"] = 20659,
+									["萨塔里奥暮光雏龙"] = 4912,
+									["熔岩烈焰"] = 6746,
+									["萨塔里奥"] = 54425,
+								},
+								["n_dmg"] = 56863,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 67,
+								["total"] = 108997,
+								["c_max"] = 3193,
+								["id"] = 35395,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 45,
+								["extra"] = {
+								},
+								["DODGE"] = 2,
+							},
+							[31803] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 1168,
+								["targets"] = {
+									["塔尼布隆"] = 23093,
+									["沙德隆的追随者"] = 1672,
+									["沙德隆"] = 16190,
+									["萨塔里奥暮光雏龙"] = 1629,
+									["熔岩烈焰"] = 859,
+									["萨塔里奥"] = 47417,
+								},
+								["n_dmg"] = 90860,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 134,
+								["total"] = 90860,
+								["c_max"] = 0,
+								["id"] = 31803,
+								["r_dmg"] = 43096,
+								["r_amt"] = 59,
+								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["PARRY"] = 2,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 127,
+								["DODGE"] = 5,
+								["a_dmg"] = 0,
+							},
+							[48801] = {
+								["c_amt"] = 6,
+								["b_amt"] = 0,
+								["c_dmg"] = 28610,
+								["g_amt"] = 0,
+								["n_max"] = 3781,
+								["targets"] = {
+									["塔尼布隆"] = 4789,
+									["沙德隆的追随者"] = 2236,
+									["沙德隆"] = 19208,
+									["萨塔里奥暮光雏龙"] = 5202,
+									["熔岩烈焰"] = 3781,
+									["萨塔里奥"] = 28014,
+								},
+								["n_dmg"] = 34620,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 18,
+								["total"] = 63230,
+								["c_max"] = 6124,
+								["id"] = 48801,
+								["r_dmg"] = 22605,
+								["r_amt"] = 6,
+								["b_dmg"] = 0,
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 11,
+								["extra"] = {
+								},
+								["MISS"] = 1,
 							},
 							[31804] = {
 								["c_amt"] = 21,
@@ -21837,376 +18912,100 @@ _detalhes_database = {
 								["c_max"] = 6433,
 								["id"] = 31804,
 								["r_dmg"] = 38087,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 11,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 15,
-								["b_dmg"] = 0,
-								["r_amt"] = 11,
-							},
-							[61840] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 1314,
-								["targets"] = {
-									["塔尼布隆"] = 6907,
-									["沙德隆的追随者"] = 1083,
-									["沙德隆"] = 10773,
-									["萨塔里奥"] = 24482,
-									["萨塔里奥暮光雏龙"] = 3278,
-									["熔岩烈焰"] = 4646,
-								},
-								["n_dmg"] = 51169,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 131,
-								["total"] = 51169,
-								["c_max"] = 0,
-								["id"] = 61840,
-								["r_dmg"] = 19173,
+								["a_dmg"] = 0,
 								["extra"] = {
 								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 131,
-								["b_dmg"] = 0,
-								["r_amt"] = 51,
-							},
-							[32747] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["沙德隆的追随者"] = 0,
-								},
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 32747,
-								["r_dmg"] = 0,
-								["IMMUNE"] = 1,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							},
-							[48806] = {
-								["c_amt"] = 5,
-								["b_amt"] = 0,
-								["c_dmg"] = 17662,
-								["g_amt"] = 0,
-								["n_max"] = 2555,
-								["targets"] = {
-									["萨塔里奥"] = 8947,
-									["萨塔里奥暮光雏龙"] = 3231,
-									["熔岩烈焰"] = 6441,
-									["塔尼布隆"] = 3625,
-								},
-								["n_dmg"] = 4582,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 7,
-								["total"] = 22244,
-								["c_max"] = 4365,
-								["id"] = 48806,
-								["r_dmg"] = 10017,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 2,
-								["b_dmg"] = 0,
-								["r_amt"] = 3,
-							},
-							[31803] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 1168,
-								["targets"] = {
-									["塔尼布隆"] = 23093,
-									["沙德隆的追随者"] = 1672,
-									["沙德隆"] = 16190,
-									["萨塔里奥暮光雏龙"] = 1629,
-									["萨塔里奥"] = 47417,
-									["熔岩烈焰"] = 859,
-								},
-								["n_dmg"] = 90860,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 134,
-								["total"] = 90860,
-								["c_max"] = 0,
-								["id"] = 31803,
-								["r_dmg"] = 43096,
-								["a_dmg"] = 0,
-								["DODGE"] = 5,
-								["extra"] = {
-								},
-								["PARRY"] = 2,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 127,
-								["b_dmg"] = 0,
-								["r_amt"] = 59,
-							},
-							[35395] = {
-								["c_amt"] = 20,
-								["b_amt"] = 0,
-								["c_dmg"] = 52134,
-								["g_amt"] = 0,
-								["n_max"] = 1543,
-								["targets"] = {
-									["塔尼布隆"] = 16820,
-									["沙德隆的追随者"] = 5435,
-									["沙德隆"] = 20659,
-									["萨塔里奥暮光雏龙"] = 4912,
-									["萨塔里奥"] = 54425,
-									["熔岩烈焰"] = 6746,
-								},
-								["n_dmg"] = 56863,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 67,
-								["total"] = 108997,
-								["c_max"] = 3193,
-								["id"] = 35395,
-								["r_dmg"] = 0,
-								["DODGE"] = 2,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 45,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							},
-							[42463] = {
-								["c_amt"] = 57,
-								["b_amt"] = 0,
-								["c_dmg"] = 81187,
-								["g_amt"] = 0,
-								["n_max"] = 1085,
-								["targets"] = {
-									["塔尼布隆"] = 34257,
-									["沙德隆的追随者"] = 4055,
-									["沙德隆"] = 25010,
-									["萨塔里奥暮光雏龙"] = 1264,
-									["萨塔里奥"] = 83000,
-									["熔岩烈焰"] = 1534,
-								},
-								["n_dmg"] = 67933,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 160,
-								["total"] = 149120,
-								["c_max"] = 2257,
-								["id"] = 42463,
-								["r_dmg"] = 59197,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 103,
-								["b_dmg"] = 0,
-								["r_amt"] = 65,
-							},
-							[54043] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 302,
-								["targets"] = {
-									["萨塔里奥暮光雏龙"] = 490,
-									["沙德隆的追随者"] = 546,
-									["熔岩烈焰"] = 2021,
-								},
-								["n_dmg"] = 3057,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 12,
-								["total"] = 3057,
-								["c_max"] = 0,
-								["id"] = 54043,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 12,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							},
-							[48801] = {
-								["c_amt"] = 6,
-								["b_amt"] = 0,
-								["c_dmg"] = 28610,
-								["g_amt"] = 0,
-								["n_max"] = 3781,
-								["targets"] = {
-									["塔尼布隆"] = 4789,
-									["沙德隆的追随者"] = 2236,
-									["沙德隆"] = 19208,
-									["萨塔里奥暮光雏龙"] = 5202,
-									["萨塔里奥"] = 28014,
-									["熔岩烈焰"] = 3781,
-								},
-								["n_dmg"] = 34620,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 18,
-								["total"] = 63230,
-								["c_max"] = 6124,
-								["id"] = 48801,
-								["r_dmg"] = 22605,
-								["MISS"] = 1,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 11,
-								["b_dmg"] = 0,
-								["r_amt"] = 6,
-							},
-							[10308] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["沙德隆的追随者"] = 0,
-								},
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 10308,
-								["r_dmg"] = 0,
-								["IMMUNE"] = 1,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["serial"] = "Player-4778-0520EB5E",
-					["custom"] = 0,
+					["grupo"] = true,
+					["end_time"] = 1666100941,
 					["tipo"] = 1,
+					["on_hold"] = false,
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 79995.007402,
 					["start_time"] = 1666100576,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Player-4778-0520EB5E",
+					["aID"] = "4778-0520EB5E",
 				}, -- [8]
 				{
 					["flag_original"] = 1297,
-					["totalabsorbed"] = 0.007727,
+					["totalabsorbed"] = 0.016351,
 					["damage_from"] = {
+						["火焰旋风"] = true,
+						["沙德隆的追随者"] = true,
 						["萨塔里奥"] = true,
 						["暮光传送门"] = true,
-						["沙德隆的追随者"] = true,
-						["火焰旋风"] = true,
+						["希弗列尔达风暴之女"] = true,
 					},
 					["targets"] = {
 						["塔尼布隆"] = 306465,
 						["沙德隆的追随者"] = 39846,
 						["沙德隆"] = 285344,
 						["萨塔里奥"] = 736434,
-						["萨塔里奥暮光雏龙"] = 53135,
 						["熔岩烈焰"] = 25221,
+						["萨塔里奥暮光雏龙"] = 53135,
+						["希弗列尔达风暴之女"] = 12181,
 					},
 					["pets"] = {
 					},
-					["friendlyfire_total"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
+					["spec"] = 259,
 					["classe"] = "ROGUE",
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 1446445.007727,
-					["end_time"] = 1666100941,
-					["boss_fight_component"] = true,
-					["dps_started"] = false,
-					["total"] = 1446445.007727,
-					["aID"] = "4778-04DBFC9E",
-					["last_event"] = 0,
+					["total_without_pet"] = 1458626.016351,
 					["nome"] = "特变电工",
-					["spec"] = 259,
-					["grupo"] = true,
-					["on_hold"] = false,
+					["delay"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1666100941,
+					["friendlyfire_total"] = 0,
+					["friendlyfire"] = {
+					},
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
-								["c_amt"] = 208,
-								["b_amt"] = 2,
-								["c_dmg"] = 236073,
+								["c_amt"] = 213,
+								["b_amt"] = 3,
+								["c_dmg"] = 239556,
 								["g_amt"] = 143,
 								["n_max"] = 773,
 								["targets"] = {
-									["萨塔里奥"] = 194869,
 									["塔尼布隆"] = 81941,
 									["沙德隆的追随者"] = 13184,
 									["沙德隆"] = 83489,
+									["萨塔里奥"] = 194869,
+									["希弗列尔达风暴之女"] = 6586,
 								},
-								["n_dmg"] = 76789,
+								["n_dmg"] = 79892,
 								["n_min"] = 0,
 								["g_dmg"] = 60621,
-								["counter"] = 574,
-								["total"] = 373483,
+								["counter"] = 588,
+								["total"] = 380069,
 								["c_max"] = 1482,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["MISS"] = 65,
+								["b_dmg"] = 1081,
 								["DODGE"] = 13,
-								["extra"] = {
-								},
+								["a_amt"] = 0,
 								["PARRY"] = 4,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 141,
-								["b_dmg"] = 791,
-								["r_amt"] = 0,
+								["extra"] = {
+								},
+								["n_amt"] = 150,
+								["MISS"] = 65,
+								["a_dmg"] = 0,
 							}, -- [1]
 							[52874] = {
 								["c_amt"] = 16,
@@ -22218,8 +19017,8 @@ _detalhes_database = {
 									["塔尼布隆"] = 2874,
 									["沙德隆"] = 4502,
 									["萨塔里奥暮光雏龙"] = 19251,
-									["熔岩烈焰"] = 10635,
 									["萨塔里奥"] = 2195,
+									["熔岩烈焰"] = 10635,
 								},
 								["n_dmg"] = 15098,
 								["n_min"] = 0,
@@ -22229,16 +19028,16 @@ _detalhes_database = {
 								["c_max"] = 1934,
 								["id"] = 52874,
 								["r_dmg"] = 0,
-								["IMMUNE"] = 3,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 22,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["extra"] = {
+								},
+								["IMMUNE"] = 3,
 							},
 							[48676] = {
 								["c_amt"] = 0,
@@ -22257,15 +19056,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 48676,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 6,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[57969] = {
 								["c_amt"] = 0,
@@ -22278,8 +19077,8 @@ _detalhes_database = {
 									["沙德隆的追随者"] = 3213,
 									["沙德隆"] = 31844,
 									["萨塔里奥暮光雏龙"] = 10729,
-									["萨塔里奥"] = 82899,
 									["熔岩烈焰"] = 526,
+									["萨塔里奥"] = 82899,
 								},
 								["n_dmg"] = 165136,
 								["n_min"] = 0,
@@ -22289,16 +19088,16 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 57969,
 								["r_dmg"] = 72694,
-								["IMMUNE"] = 1,
-								["extra"] = {
-								},
+								["r_amt"] = 60,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 150,
-								["b_dmg"] = 0,
-								["r_amt"] = 60,
+								["extra"] = {
+								},
+								["IMMUNE"] = 1,
 							},
 							[1330] = {
 								["c_amt"] = 0,
@@ -22317,16 +19116,16 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1330,
 								["r_dmg"] = 0,
-								["IMMUNE"] = 1,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["extra"] = {
+								},
+								["IMMUNE"] = 1,
 							},
 							[51723] = {
 								["c_amt"] = 13,
@@ -22338,8 +19137,8 @@ _detalhes_database = {
 									["塔尼布隆"] = 2214,
 									["沙德隆"] = 4847,
 									["萨塔里奥暮光雏龙"] = 17212,
-									["熔岩烈焰"] = 11633,
 									["萨塔里奥"] = 1509,
+									["熔岩烈焰"] = 11633,
 								},
 								["n_dmg"] = 17083,
 								["n_min"] = 0,
@@ -22349,16 +19148,16 @@ _detalhes_database = {
 								["c_max"] = 2050,
 								["id"] = 51723,
 								["r_dmg"] = 0,
-								["IMMUNE"] = 3,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 24,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["extra"] = {
+								},
+								["IMMUNE"] = 3,
 							},
 							[57964] = {
 								["c_amt"] = 45,
@@ -22371,8 +19170,8 @@ _detalhes_database = {
 									["沙德隆的追随者"] = 7128,
 									["沙德隆"] = 71534,
 									["萨塔里奥暮光雏龙"] = 5943,
-									["萨塔里奥"] = 190204,
 									["熔岩烈焰"] = 2427,
+									["萨塔里奥"] = 190204,
 								},
 								["n_dmg"] = 264323,
 								["n_min"] = 0,
@@ -22382,130 +19181,15 @@ _detalhes_database = {
 								["c_max"] = 2381,
 								["id"] = 57964,
 								["r_dmg"] = 137129,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 119,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 234,
-								["b_dmg"] = 0,
-								["r_amt"] = 119,
-							},
-							[48664] = {
-								["c_amt"] = 34,
-								["b_amt"] = 0,
-								["c_dmg"] = 87582,
-								["g_amt"] = 0,
-								["n_max"] = 1172,
-								["targets"] = {
-									["萨塔里奥"] = 52165,
-									["塔尼布隆"] = 25973,
-									["沙德隆的追随者"] = 5010,
-									["沙德隆"] = 26063,
-								},
-								["n_dmg"] = 21629,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 55,
-								["total"] = 109211,
-								["c_max"] = 3401,
-								["id"] = 48664,
-								["r_dmg"] = 0,
+								["a_dmg"] = 0,
 								["extra"] = {
 								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 21,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							},
-							[48665] = {
-								["c_amt"] = 30,
-								["b_amt"] = 1,
-								["c_dmg"] = 82711,
-								["g_amt"] = 0,
-								["n_max"] = 1315,
-								["targets"] = {
-									["萨塔里奥"] = 61730,
-									["塔尼布隆"] = 25051,
-									["沙德隆的追随者"] = 4084,
-									["沙德隆"] = 19654,
-								},
-								["n_dmg"] = 27808,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 55,
-								["total"] = 110519,
-								["c_max"] = 3720,
-								["id"] = 48665,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 25,
-								["b_dmg"] = 1005,
-								["r_amt"] = 0,
-							},
-							[54043] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 136,
-								["targets"] = {
-									["沙德隆的追随者"] = 136,
-								},
-								["n_dmg"] = 136,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 136,
-								["c_max"] = 0,
-								["id"] = 54043,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 1,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							},
-							[48666] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["萨塔里奥"] = 0,
-								},
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 48666,
-								["r_dmg"] = 0,
-								["DODGE"] = 1,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
 							},
 							[57993] = {
 								["c_amt"] = 22,
@@ -22527,64 +19211,181 @@ _detalhes_database = {
 								["c_max"] = 14124,
 								["id"] = 57993,
 								["r_dmg"] = 80507,
-								["DODGE"] = 1,
-								["extra"] = {
-								},
+								["r_amt"] = 14,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 22,
+								["extra"] = {
+								},
+								["DODGE"] = 1,
+							},
+							[48665] = {
+								["c_amt"] = 30,
+								["b_amt"] = 1,
+								["c_dmg"] = 82711,
+								["g_amt"] = 0,
+								["n_max"] = 1315,
+								["targets"] = {
+									["塔尼布隆"] = 25051,
+									["沙德隆的追随者"] = 4084,
+									["沙德隆"] = 19654,
+									["萨塔里奥"] = 61730,
+									["希弗列尔达风暴之女"] = 1926,
+								},
+								["n_dmg"] = 29734,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 58,
+								["total"] = 112445,
+								["c_max"] = 3720,
+								["id"] = 48665,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 1005,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 28,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[54043] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 136,
+								["targets"] = {
+									["沙德隆的追随者"] = 136,
+								},
+								["n_dmg"] = 136,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 136,
+								["c_max"] = 0,
+								["id"] = 54043,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
 								["b_dmg"] = 0,
-								["r_amt"] = 14,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 1,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[48666] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["萨塔里奥"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 48666,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["extra"] = {
+								},
+								["DODGE"] = 1,
+							},
+							[48664] = {
+								["c_amt"] = 36,
+								["b_amt"] = 0,
+								["c_dmg"] = 90595,
+								["g_amt"] = 0,
+								["n_max"] = 1172,
+								["targets"] = {
+									["塔尼布隆"] = 25973,
+									["沙德隆的追随者"] = 5010,
+									["沙德隆"] = 26063,
+									["萨塔里奥"] = 52165,
+									["希弗列尔达风暴之女"] = 3669,
+								},
+								["n_dmg"] = 22285,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 58,
+								["total"] = 112880,
+								["c_max"] = 3401,
+								["id"] = 48664,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 22,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
+						["tipo"] = 2,
 					},
-					["serial"] = "Player-4778-04DBFC9E",
-					["custom"] = 0,
+					["grupo"] = true,
+					["total"] = 1458626.016351,
 					["tipo"] = 1,
-					["damage_taken"] = 34716.007727,
-					["start_time"] = 1666100576,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["on_hold"] = false,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 35037.016351,
+					["start_time"] = 1666100567,
+					["serial"] = "Player-4778-04DBFC9E",
+					["aID"] = "4778-04DBFC9E",
 				}, -- [9]
 				{
 					["flag_original"] = 1300,
 					["totalabsorbed"] = 0.012659,
 					["damage_from"] = {
-						["火焰旋风"] = true,
 						["暮光传送门"] = true,
+						["火焰旋风"] = true,
 					},
 					["targets"] = {
 						["塔尼布隆"] = 219631,
 						["沙德隆的追随者"] = 13185,
 						["沙德隆"] = 185417,
 						["萨塔里奥暮光雏龙"] = 167800,
-						["萨塔里奥"] = 518680,
 						["熔岩烈焰"] = 42922,
+						["萨塔里奥"] = 518680,
 					},
 					["pets"] = {
 						"树人 <踏遍天涯>", -- [1]
 					},
-					["friendlyfire_total"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
+					["spec"] = 102,
 					["classe"] = "DRUID",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1089154.012659,
-					["end_time"] = 1666100941,
-					["boss_fight_component"] = true,
+					["nome"] = "踏遍天涯",
+					["delay"] = 0,
 					["dps_started"] = false,
 					["total"] = 1147635.012659,
-					["aID"] = "4778-018E44DC",
-					["last_event"] = 0,
-					["nome"] = "踏遍天涯",
-					["spec"] = 102,
-					["grupo"] = true,
-					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["friendlyfire"] = {
+					},
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -22603,8 +19404,8 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["MISS"] = 2,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["extra"] = {
 								},
 								["PARRY"] = 1,
@@ -22612,73 +19413,68 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							}, -- [1]
-							[53195] = {
-								["c_amt"] = 14,
-								["b_amt"] = 0,
-								["c_dmg"] = 42003,
-								["g_amt"] = 0,
-								["n_max"] = 1962,
-								["targets"] = {
-									["塔尼布隆"] = 6972,
-									["沙德隆"] = 32825,
-									["萨塔里奥"] = 44237,
-									["萨塔里奥暮光雏龙"] = 2787,
-									["熔岩烈焰"] = 8742,
-								},
-								["n_dmg"] = 53560,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 49,
-								["total"] = 95563,
-								["c_max"] = 3466,
-								["id"] = 53195,
-								["r_dmg"] = 39817,
-								["MISS"] = 1,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 34,
-								["b_dmg"] = 0,
-								["r_amt"] = 22,
-							},
-							[53190] = {
-								["c_amt"] = 19,
-								["b_amt"] = 0,
-								["c_dmg"] = 18228,
-								["g_amt"] = 0,
-								["n_max"] = 617,
-								["targets"] = {
-									["塔尼布隆"] = 7349,
-									["沙德隆"] = 15519,
-									["萨塔里奥"] = 10748,
-									["萨塔里奥暮光雏龙"] = 1664,
-									["熔岩烈焰"] = 9418,
-								},
-								["n_dmg"] = 26470,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 94,
-								["total"] = 44698,
-								["c_max"] = 1234,
-								["id"] = 53190,
-								["r_dmg"] = 16278,
-								["IMMUNE"] = 12,
 								["MISS"] = 2,
-								["extra"] = {
+								["a_dmg"] = 0,
+							}, -- [1]
+							[48461] = {
+								["c_amt"] = 31,
+								["b_amt"] = 0,
+								["c_dmg"] = 193816,
+								["g_amt"] = 0,
+								["n_max"] = 4756,
+								["targets"] = {
+									["萨塔里奥"] = 213225,
+									["塔尼布隆"] = 110937,
+									["沙德隆的追随者"] = 10609,
+									["沙德隆"] = 44635,
 								},
+								["n_dmg"] = 185590,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 96,
+								["total"] = 379406,
+								["c_max"] = 9507,
+								["id"] = 48461,
+								["r_dmg"] = 118894,
+								["r_amt"] = 31,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
-								["n_amt"] = 61,
+								["n_amt"] = 64,
+								["extra"] = {
+								},
+								["MISS"] = 1,
+							},
+							[48465] = {
+								["c_amt"] = 12,
+								["b_amt"] = 0,
+								["c_dmg"] = 111033,
+								["g_amt"] = 0,
+								["n_max"] = 5993,
+								["targets"] = {
+									["萨塔里奥"] = 83350,
+									["塔尼布隆"] = 31667,
+									["沙德隆"] = 31142,
+								},
+								["n_dmg"] = 35126,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 19,
+								["total"] = 146159,
+								["c_max"] = 10165,
+								["id"] = 48465,
+								["r_dmg"] = 51445,
+								["r_amt"] = 7,
 								["b_dmg"] = 0,
-								["r_amt"] = 34,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 7,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[48466] = {
 								["c_amt"] = 54,
@@ -22690,8 +19486,8 @@ _detalhes_database = {
 									["塔尼布隆"] = 22157,
 									["沙德隆"] = 38038,
 									["萨塔里奥暮光雏龙"] = 163349,
-									["萨塔里奥"] = 5834,
 									["熔岩烈焰"] = 24762,
+									["萨塔里奥"] = 5834,
 								},
 								["n_dmg"] = 171757,
 								["n_min"] = 0,
@@ -22701,17 +19497,17 @@ _detalhes_database = {
 								["c_max"] = 1978,
 								["id"] = 48466,
 								["r_dmg"] = 51602,
-								["MISS"] = 3,
-								["IMMUNE"] = 11,
+								["r_amt"] = 48,
+								["b_dmg"] = 0,
 								["extra"] = {
 								},
-								["a_dmg"] = 0,
+								["a_amt"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
-								["a_amt"] = 0,
+								["a_dmg"] = 0,
 								["n_amt"] = 162,
-								["b_dmg"] = 0,
-								["r_amt"] = 48,
+								["IMMUNE"] = 11,
+								["MISS"] = 3,
 							},
 							[48468] = {
 								["c_amt"] = 0,
@@ -22732,16 +19528,81 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 48468,
 								["r_dmg"] = 34295,
-								["MISS"] = 2,
-								["extra"] = {
-								},
+								["r_amt"] = 50,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 110,
+								["extra"] = {
+								},
+								["MISS"] = 2,
+							},
+							[53195] = {
+								["c_amt"] = 14,
+								["b_amt"] = 0,
+								["c_dmg"] = 42003,
+								["g_amt"] = 0,
+								["n_max"] = 1962,
+								["targets"] = {
+									["塔尼布隆"] = 6972,
+									["沙德隆"] = 32825,
+									["萨塔里奥"] = 44237,
+									["熔岩烈焰"] = 8742,
+									["萨塔里奥暮光雏龙"] = 2787,
+								},
+								["n_dmg"] = 53560,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 49,
+								["total"] = 95563,
+								["c_max"] = 3466,
+								["id"] = 53195,
+								["r_dmg"] = 39817,
+								["r_amt"] = 22,
 								["b_dmg"] = 0,
-								["r_amt"] = 50,
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 34,
+								["extra"] = {
+								},
+								["MISS"] = 1,
+							},
+							[53190] = {
+								["c_amt"] = 19,
+								["b_amt"] = 0,
+								["c_dmg"] = 18228,
+								["g_amt"] = 0,
+								["n_max"] = 617,
+								["targets"] = {
+									["塔尼布隆"] = 7349,
+									["沙德隆"] = 15519,
+									["萨塔里奥"] = 10748,
+									["熔岩烈焰"] = 9418,
+									["萨塔里奥暮光雏龙"] = 1664,
+								},
+								["n_dmg"] = 26470,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 94,
+								["total"] = 44698,
+								["c_max"] = 1234,
+								["id"] = 53190,
+								["r_dmg"] = 16278,
+								["r_amt"] = 34,
+								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_dmg"] = 0,
+								["n_amt"] = 61,
+								["MISS"] = 2,
+								["IMMUNE"] = 12,
 							},
 							[48463] = {
 								["c_amt"] = 9,
@@ -22763,90 +19624,33 @@ _detalhes_database = {
 								["c_max"] = 2372,
 								["id"] = 48463,
 								["r_dmg"] = 35029,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 48,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 97,
-								["b_dmg"] = 0,
-								["r_amt"] = 48,
-							},
-							[48465] = {
-								["c_amt"] = 12,
-								["b_amt"] = 0,
-								["c_dmg"] = 111033,
-								["g_amt"] = 0,
-								["n_max"] = 5993,
-								["targets"] = {
-									["萨塔里奥"] = 83350,
-									["塔尼布隆"] = 31667,
-									["沙德隆"] = 31142,
-								},
-								["n_dmg"] = 35126,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 19,
-								["total"] = 146159,
-								["c_max"] = 10165,
-								["id"] = 48465,
-								["r_dmg"] = 51445,
+								["a_dmg"] = 0,
 								["extra"] = {
 								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 7,
-								["b_dmg"] = 0,
-								["r_amt"] = 7,
-							},
-							[48461] = {
-								["c_amt"] = 31,
-								["b_amt"] = 0,
-								["c_dmg"] = 193816,
-								["g_amt"] = 0,
-								["n_max"] = 4756,
-								["targets"] = {
-									["萨塔里奥"] = 213225,
-									["塔尼布隆"] = 110937,
-									["沙德隆的追随者"] = 10609,
-									["沙德隆"] = 44635,
-								},
-								["n_dmg"] = 185590,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 96,
-								["total"] = 379406,
-								["c_max"] = 9507,
-								["id"] = 48461,
-								["r_dmg"] = 118894,
-								["MISS"] = 1,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 64,
-								["b_dmg"] = 0,
-								["r_amt"] = 31,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["serial"] = "Player-4778-018E44DC",
-					["custom"] = 0,
+					["grupo"] = true,
+					["end_time"] = 1666100941,
 					["tipo"] = 1,
+					["on_hold"] = false,
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 17507.012659,
 					["start_time"] = 1666100577,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Player-4778-018E44DC",
+					["aID"] = "4778-018E44DC",
 				}, -- [10]
 				{
 					["flag_original"] = 4372,
 					["totalabsorbed"] = 0.004721,
-					["aID"] = "1964",
 					["damage_from"] = {
 						["火焰旋风"] = true,
 					},
@@ -22855,19 +19659,20 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["boss_fight_component"] = true,
-					["classe"] = "PET",
+					["last_dps"] = 0,
+					["nome"] = "树人 <踏遍天涯>",
+					["aID"] = "1964",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 58481.004721,
-					["last_event"] = 0,
+					["delay"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1666100941,
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
-					["nome"] = "树人 <踏遍天涯>",
+					["friendlyfire"] = {
+					},
+					["damage_taken"] = 2175.004721,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 10,
@@ -22884,33 +19689,33 @@ _detalhes_database = {
 								["counter"] = 110,
 								["total"] = 58481,
 								["c_max"] = 1238,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["MISS"] = 5,
+								["b_dmg"] = 0,
 								["DODGE"] = 2,
-								["extra"] = {
-								},
+								["a_amt"] = 0,
 								["PARRY"] = 3,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
-								["a_amt"] = 0,
+								["extra"] = {
+								},
 								["n_amt"] = 69,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["MISS"] = 5,
+								["a_dmg"] = 0,
 							}, -- [1]
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
-					["total"] = 58481.004721,
-					["serial"] = "Creature-0-5002-615-15071-1964-00004EAD67",
-					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 2175.004721,
+					["friendlyfire_total"] = 0,
+					["total"] = 58481.004721,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1666100877,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Creature-0-5002-615-15071-1964-00004EAD67",
+					["classe"] = "PET",
 				}, -- [11]
 				{
 					["flag_original"] = 1300,
@@ -22929,25 +19734,27 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["friendlyfire_total"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
+					["spec"] = 65,
 					["classe"] = "PALADIN",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 29725.004938,
-					["end_time"] = 1666100941,
-					["boss_fight_component"] = true,
+					["nome"] = "凸凸凹",
+					["delay"] = 0,
 					["dps_started"] = false,
 					["total"] = 29725.004938,
-					["aID"] = "4778-04F57291",
-					["last_event"] = 0,
-					["nome"] = "凸凸凹",
-					["spec"] = 65,
-					["grupo"] = true,
-					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["friendlyfire"] = {
+						["凸凸凹"] = {
+							["spells"] = {
+								[57634] = 0,
+							},
+							["total"] = 0,
+						},
+					},
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 5,
@@ -22964,20 +19771,20 @@ _detalhes_database = {
 								["counter"] = 16,
 								["total"] = 5228,
 								["c_max"] = 725,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["DODGE"] = 2,
+								["b_dmg"] = 0,
 								["IMMUNE"] = 1,
-								["extra"] = {
-								},
+								["a_amt"] = 0,
 								["PARRY"] = 1,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
-								["a_amt"] = 0,
+								["extra"] = {
+								},
 								["n_amt"] = 4,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["DODGE"] = 2,
+								["a_dmg"] = 0,
 							}, -- [1]
 							[54158] = {
 								["c_amt"] = 3,
@@ -22999,16 +19806,16 @@ _detalhes_database = {
 								["c_max"] = 2315,
 								["id"] = 54158,
 								["r_dmg"] = 8606,
-								["IMMUNE"] = 4,
-								["extra"] = {
-								},
+								["r_amt"] = 9,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 14,
-								["b_dmg"] = 0,
-								["r_amt"] = 9,
+								["extra"] = {
+								},
+								["IMMUNE"] = 4,
 							},
 							[48823] = {
 								["c_amt"] = 0,
@@ -23027,43 +19834,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 48823,
 								["r_dmg"] = 2499,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 1,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 1,
-								["b_dmg"] = 0,
-								["r_amt"] = 1,
-							},
-							[53408] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["萨塔里奥"] = 0,
-								},
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 53408,
-								["r_dmg"] = 0,
-								["MISS"] = 1,
+								["a_dmg"] = 0,
 								["extra"] = {
 								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
 							},
 							[54043] = {
 								["c_amt"] = 0,
@@ -23082,25 +19861,57 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 54043,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 4,
-								["b_dmg"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[53408] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["萨塔里奥"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 53408,
+								["r_dmg"] = 0,
 								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["extra"] = {
+								},
+								["MISS"] = 1,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["serial"] = "Player-4778-04F57291",
-					["custom"] = 0,
+					["grupo"] = true,
+					["end_time"] = 1666100941,
 					["tipo"] = 1,
+					["on_hold"] = false,
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 38419.004938,
 					["start_time"] = 1666100879,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Player-4778-04F57291",
+					["aID"] = "4778-04F57291",
 				}, -- [12]
 				{
 					["flag_original"] = 1298,
@@ -23108,39 +19919,35 @@ _detalhes_database = {
 					["damage_from"] = {
 						["萨塔里奥暮光雏龙"] = true,
 						["火焰旋风"] = true,
-						["萨塔里奥"] = true,
 						["暮光传送门"] = true,
+						["萨塔里奥"] = true,
 					},
 					["targets"] = {
 						["塔尼布隆"] = 184571,
 						["沙德隆的追随者"] = 37166,
 						["沙德隆"] = 73286,
 						["萨塔里奥暮光雏龙"] = 9912,
-						["萨塔里奥"] = 331276,
 						["熔岩烈焰"] = 16426,
+						["萨塔里奥"] = 331276,
 					},
 					["pets"] = {
 						"镜像 <日出东芳>", -- [1]
 					},
-					["friendlyfire_total"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
+					["spec"] = 62,
 					["classe"] = "MAGE",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 635296.008858,
-					["end_time"] = 1666100941,
-					["boss_fight_component"] = true,
+					["nome"] = "日出东芳",
+					["delay"] = 0,
 					["dps_started"] = false,
 					["total"] = 652637.008858,
-					["aID"] = "4778-04605F8E",
-					["last_event"] = 0,
-					["nome"] = "日出东芳",
-					["spec"] = 62,
-					["grupo"] = true,
-					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["friendlyfire"] = {
+					},
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[42897] = {
 								["c_amt"] = 34,
@@ -23153,8 +19960,8 @@ _detalhes_database = {
 									["沙德隆的追随者"] = 30120,
 									["沙德隆"] = 65106,
 									["萨塔里奥"] = 239840,
-									["萨塔里奥暮光雏龙"] = 7976,
 									["熔岩烈焰"] = 13651,
+									["萨塔里奥暮光雏龙"] = 7976,
 								},
 								["n_dmg"] = 233219,
 								["n_min"] = 0,
@@ -23164,16 +19971,16 @@ _detalhes_database = {
 								["c_max"] = 12348,
 								["id"] = 42897,
 								["r_dmg"] = 175144,
-								["IMMUNE"] = 1,
-								["extra"] = {
-								},
+								["r_amt"] = 32,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 53,
-								["b_dmg"] = 0,
-								["r_amt"] = 32,
+								["extra"] = {
+								},
+								["IMMUNE"] = 1,
 							},
 							[54043] = {
 								["c_amt"] = 0,
@@ -23192,15 +19999,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 54043,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 4,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[42845] = {
 								["c_amt"] = 14,
@@ -23222,16 +20029,16 @@ _detalhes_database = {
 								["c_max"] = 5485,
 								["id"] = 42845,
 								["r_dmg"] = 36704,
-								["IMMUNE"] = 2,
-								["extra"] = {
-								},
+								["r_amt"] = 13,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 28,
-								["b_dmg"] = 0,
-								["r_amt"] = 13,
+								["extra"] = {
+								},
+								["IMMUNE"] = 2,
 							},
 							[42842] = {
 								["c_amt"] = 1,
@@ -23250,42 +20057,15 @@ _detalhes_database = {
 								["c_max"] = 4676,
 								["id"] = 42842,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							},
-							[43044] = {
-								["c_amt"] = 1,
-								["b_amt"] = 0,
-								["c_dmg"] = 316,
-								["g_amt"] = 0,
-								["n_max"] = 181,
-								["targets"] = {
-									["萨塔里奥暮光雏龙"] = 858,
-								},
-								["n_dmg"] = 542,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 4,
-								["total"] = 858,
-								["c_max"] = 316,
-								["id"] = 43044,
-								["r_dmg"] = 0,
+								["a_dmg"] = 0,
 								["extra"] = {
 								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 3,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
 							},
 							[27088] = {
 								["c_amt"] = 3,
@@ -23306,26 +20086,57 @@ _detalhes_database = {
 								["c_max"] = 1083,
 								["id"] = 27088,
 								["r_dmg"] = 1083,
-								["IMMUNE"] = 1,
-								["extra"] = {
-								},
+								["r_amt"] = 1,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 1,
+								["extra"] = {
+								},
+								["IMMUNE"] = 1,
+							},
+							[43044] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 316,
+								["g_amt"] = 0,
+								["n_max"] = 181,
+								["targets"] = {
+									["萨塔里奥暮光雏龙"] = 858,
+								},
+								["n_dmg"] = 542,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 4,
+								["total"] = 858,
+								["c_max"] = 316,
+								["id"] = 43044,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
 								["b_dmg"] = 0,
-								["r_amt"] = 1,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 3,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
+						["tipo"] = 2,
 					},
-					["serial"] = "Player-4778-04605F8E",
-					["custom"] = 0,
+					["grupo"] = true,
+					["end_time"] = 1666100941,
 					["tipo"] = 1,
+					["on_hold"] = false,
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 33124.008858,
 					["start_time"] = 1666100677,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Player-4778-04605F8E",
+					["aID"] = "4778-04605F8E",
 				}, -- [13]
 				{
 					["flag_original"] = 2632,
@@ -23337,33 +20148,32 @@ _detalhes_database = {
 						["陌戮"] = 20073,
 						["大风车滋滋转"] = 17112,
 						["夕里安"] = 2713,
-						["日出东芳"] = 11058,
-						["雪花丶有点飘"] = 19788,
-						["树人 <踏遍天涯>"] = 2175,
-						["踏遍天涯"] = 12220,
-						["凸凸凹"] = 13192,
-						["Just"] = 7420,
-						["特变电工"] = 9506,
 						["魂之信仰"] = 17460,
+						["雪花丶有点飘"] = 19788,
+						["特变电工"] = 9506,
+						["踏遍天涯"] = 12220,
+						["Just"] = 7420,
+						["凸凸凹"] = 13192,
+						["树人 <踏遍天涯>"] = 2175,
+						["日出东芳"] = 11058,
 					},
-					["on_hold"] = false,
+					["delay"] = 0,
 					["pets"] = {
 					},
-					["monster"] = true,
+					["nome"] = "火焰旋风",
+					["dps_started"] = false,
 					["aID"] = "30648",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 132897.008546,
+					["total"] = 132897.008546,
+					["monster"] = true,
+					["end_time"] = 1666100941,
 					["friendlyfire"] = {
 					},
-					["end_time"] = 1666100941,
-					["dps_started"] = false,
-					["total"] = 132897.008546,
+					["tipo"] = 1,
 					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["nome"] = "火焰旋风",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[57591] = {
 								["c_amt"] = 0,
@@ -23376,14 +20186,14 @@ _detalhes_database = {
 									["陌戮"] = 20073,
 									["大风车滋滋转"] = 17112,
 									["夕里安"] = 2713,
-									["日出东芳"] = 11058,
-									["雪花丶有点飘"] = 19788,
-									["树人 <踏遍天涯>"] = 2175,
-									["踏遍天涯"] = 12220,
-									["凸凸凹"] = 13192,
-									["Just"] = 7420,
-									["特变电工"] = 9506,
 									["魂之信仰"] = 17460,
+									["雪花丶有点飘"] = 19788,
+									["特变电工"] = 9506,
+									["踏遍天涯"] = 12220,
+									["Just"] = 7420,
+									["凸凸凹"] = 13192,
+									["树人 <踏遍天涯>"] = 2175,
+									["日出东芳"] = 11058,
 								},
 								["n_dmg"] = 132897,
 								["n_min"] = 0,
@@ -23393,27 +20203,56 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 57591,
 								["r_dmg"] = 86518,
-								["extra"] = {
-								},
-								["a_dmg"] = 6343,
+								["r_amt"] = 59,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 2,
 								["n_amt"] = 83,
+								["a_dmg"] = 6343,
+								["extra"] = {
+								},
+							},
+							[57562] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["大风车滋滋转"] = 0,
+									["凸凸凹"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 57562,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
 								["b_dmg"] = 0,
-								["r_amt"] = 59,
+								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
-					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-5002-615-15071-30648-0001CEAA97",
-					["custom"] = 0,
-					["tipo"] = 1,
 					["last_dps"] = 0,
-					["start_time"] = 1666100876,
-					["delay"] = 0,
+					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 0.008546,
+					["start_time"] = 1666100876,
+					["serial"] = "Creature-0-5002-615-15071-30648-0001CEAA97",
+					["classe"] = "UNKNOW",
 				}, -- [14]
 				{
 					["flag_original"] = 1298,
@@ -23421,36 +20260,38 @@ _detalhes_database = {
 					["damage_from"] = {
 						["暮光传送门"] = true,
 						["萨塔里奥暮光雏龙"] = true,
-						["熔岩烈焰"] = true,
-						["萨塔里奥"] = true,
 						["火焰旋风"] = true,
+						["萨塔里奥"] = true,
+						["熔岩烈焰"] = true,
 					},
 					["targets"] = {
 						["萨塔里奥"] = 792,
-						["萨塔里奥暮光雏龙"] = 765,
 						["熔岩烈焰"] = 4880,
+						["萨塔里奥暮光雏龙"] = 765,
 					},
 					["pets"] = {
 					},
-					["friendlyfire_total"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
+					["spec"] = 256,
 					["classe"] = "PRIEST",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 6437.012373000001,
-					["end_time"] = 1666100941,
-					["boss_fight_component"] = true,
+					["nome"] = "大风车滋滋转",
+					["delay"] = 0,
 					["dps_started"] = false,
 					["total"] = 6437.012373000001,
-					["aID"] = "4778-04D4E39F",
-					["last_event"] = 0,
-					["nome"] = "大风车滋滋转",
-					["spec"] = 256,
-					["grupo"] = true,
-					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["friendlyfire"] = {
+						["大风车滋滋转"] = {
+							["spells"] = {
+								[57634] = 0,
+							},
+							["total"] = 0,
+						},
+					},
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -23469,15 +20310,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							}, -- [1]
 							[54043] = {
 								["c_amt"] = 0,
@@ -23497,15 +20338,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 54043,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 4,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[48078] = {
 								["c_amt"] = 1,
@@ -23525,26 +20366,30 @@ _detalhes_database = {
 								["c_max"] = 1313,
 								["id"] = 48078,
 								["r_dmg"] = 1516,
-								["MISS"] = 2,
-								["extra"] = {
-								},
+								["r_amt"] = 2,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 5,
-								["b_dmg"] = 0,
-								["r_amt"] = 2,
+								["extra"] = {
+								},
+								["MISS"] = 2,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["serial"] = "Player-4778-04D4E39F",
-					["custom"] = 0,
+					["grupo"] = true,
+					["end_time"] = 1666100941,
 					["tipo"] = 1,
+					["on_hold"] = false,
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 36546.012373,
 					["start_time"] = 1666100935,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Player-4778-04D4E39F",
+					["aID"] = "4778-04D4E39F",
 				}, -- [15]
 				{
 					["flag_original"] = 2632,
@@ -23556,38 +20401,37 @@ _detalhes_database = {
 						["夕里安"] = true,
 						["雪花丶有点飘"] = true,
 						["踏遍天涯"] = true,
-						["魂之信仰"] = true,
-						["Just"] = true,
-						["凸凸凹"] = true,
 						["日出东芳"] = true,
+						["凸凸凹"] = true,
+						["Just"] = true,
+						["魂之信仰"] = true,
 					},
 					["targets"] = {
 						["凸凸凹"] = 22403,
 						["Just"] = 58052,
 						["大风车滋滋转"] = 1790,
-						["夕里安"] = 14973,
-						["雪花丶有点飘"] = 3632,
-						["陌戮"] = 5071,
 						["魂之信仰"] = 6166,
+						["陌戮"] = 5071,
+						["雪花丶有点飘"] = 3632,
+						["夕里安"] = 14973,
 					},
-					["on_hold"] = false,
+					["delay"] = 0,
 					["pets"] = {
 					},
-					["monster"] = true,
+					["nome"] = "熔岩烈焰",
+					["dps_started"] = false,
 					["aID"] = "30643",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 112087.013329,
+					["total"] = 112087.013329,
+					["monster"] = true,
+					["end_time"] = 1666100941,
 					["friendlyfire"] = {
 					},
-					["end_time"] = 1666100941,
-					["dps_started"] = false,
-					["total"] = 112087.013329,
+					["tipo"] = 1,
 					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["nome"] = "熔岩烈焰",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 1,
@@ -23599,50 +20443,49 @@ _detalhes_database = {
 									["凸凸凹"] = 22403,
 									["Just"] = 58052,
 									["大风车滋滋转"] = 1790,
-									["夕里安"] = 14973,
-									["雪花丶有点飘"] = 3632,
-									["陌戮"] = 5071,
 									["魂之信仰"] = 6166,
+									["陌戮"] = 5071,
+									["雪花丶有点飘"] = 3632,
+									["夕里安"] = 14973,
 								},
 								["n_dmg"] = 108455,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
 								["counter"] = 187,
-								["a_dmg"] = 7706,
+								["r_amt"] = 57,
 								["total"] = 112087,
 								["c_max"] = 3632,
-								["MISS"] = 18,
+								["b_dmg"] = 9334,
 								["id"] = 1,
 								["r_dmg"] = 74969,
-								["DODGE"] = 41,
-								["RESIST"] = 12,
+								["n_amt"] = 89,
+								["a_amt"] = 5,
 								["extra"] = {
 								},
 								["PARRY"] = 26,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
-								["a_amt"] = 5,
-								["n_amt"] = 89,
-								["b_dmg"] = 9334,
-								["r_amt"] = 57,
+								["DODGE"] = 41,
+								["RESIST"] = 12,
+								["MISS"] = 18,
+								["a_dmg"] = 7706,
 							}, -- [1]
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
-					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-5002-615-15071-30643-00004EAD7C",
-					["custom"] = 0,
-					["tipo"] = 1,
 					["last_dps"] = 0,
-					["start_time"] = 1666100733,
-					["delay"] = 0,
+					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 770894.013329,
+					["start_time"] = 1666100733,
+					["serial"] = "Creature-0-5002-615-15071-30643-00004EAD7C",
+					["classe"] = "UNKNOW",
 				}, -- [16]
 				{
 					["flag_original"] = 8466,
 					["totalabsorbed"] = 0.009977,
-					["serial"] = "Creature-0-5002-615-15071-31216-00014EAD89",
-					["boss_fight_component"] = true,
 					["damage_from"] = {
 						["火焰旋风"] = true,
 						["暮光裂隙 <塔尼布隆>"] = true,
@@ -23651,22 +20494,22 @@ _detalhes_database = {
 					["targets"] = {
 						["萨塔里奥"] = 17341,
 					},
+					["delay"] = 0,
 					["pets"] = {
 					},
+					["nome"] = "镜像 <日出东芳>",
+					["total"] = 17341.009977,
 					["friendlyfire_total"] = 0,
-					["end_time"] = 1666100941,
-					["aID"] = "31216",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 17341.009977,
-					["last_event"] = 0,
+					["on_hold"] = false,
 					["dps_started"] = false,
-					["total"] = 17341.009977,
-					["classe"] = "PET",
+					["end_time"] = 1666100941,
+					["damage_taken"] = 16607.009977,
 					["ownerName"] = "日出东芳",
-					["nome"] = "镜像 <日出东芳>",
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[59637] = {
 								["c_amt"] = 2,
@@ -23685,16 +20528,16 @@ _detalhes_database = {
 								["c_max"] = 435,
 								["id"] = 59637,
 								["r_dmg"] = 2479,
-								["MISS"] = 1,
-								["extra"] = {
-								},
+								["r_amt"] = 13,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 23,
-								["b_dmg"] = 0,
-								["r_amt"] = 13,
+								["extra"] = {
+								},
+								["MISS"] = 1,
 							},
 							[59638] = {
 								["c_amt"] = 5,
@@ -23713,56 +20556,58 @@ _detalhes_database = {
 								["c_max"] = 538,
 								["id"] = 59638,
 								["r_dmg"] = 6858,
-								["MISS"] = 2,
-								["extra"] = {
-								},
+								["r_amt"] = 23,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 32,
-								["b_dmg"] = 0,
-								["r_amt"] = 23,
+								["extra"] = {
+								},
+								["MISS"] = 2,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
+					["tipo"] = 1,
 					["friendlyfire"] = {
 					},
+					["classe"] = "PET",
 					["custom"] = 0,
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["last_dps"] = 0,
 					["start_time"] = 1666100885,
-					["delay"] = 0,
-					["damage_taken"] = 16607.009977,
+					["serial"] = "Creature-0-5002-615-15071-31216-00014EAD89",
+					["aID"] = "31216",
 				}, -- [17]
 				{
 					["flag_original"] = 2632,
 					["totalabsorbed"] = 0.005484,
-					["on_hold"] = false,
+					["total"] = 11850.005484,
 					["damage_from"] = {
 					},
 					["targets"] = {
 						["Just"] = 10534,
 						["镜像 <日出东芳>"] = 1316,
 					},
-					["monster"] = true,
 					["pets"] = {
 					},
-					["end_time"] = 1666100941,
-					["classe"] = "UNKNOW",
+					["monster"] = true,
+					["damage_taken"] = 0.005484,
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 11850.005484,
-					["boss_fight_component"] = true,
-					["friendlyfire_total"] = 0,
+					["friendlyfire"] = {
+					},
+					["delay"] = 0,
 					["dps_started"] = false,
-					["total"] = 11850.005484,
-					["tipo"] = 1,
+					["end_time"] = 1666100941,
+					["classe"] = "UNKNOW",
 					["ownerName"] = "塔尼布隆",
 					["nome"] = "暮光裂隙 <塔尼布隆>",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[57581] = {
 								["c_amt"] = 0,
@@ -23782,28 +20627,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 57581,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 10534,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 9,
 								["a_amt"] = 1,
 								["n_amt"] = 2,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 10534,
+								["extra"] = {
+								},
 							},
 						},
+						["tipo"] = 2,
 					},
-					["aID"] = "30641",
-					["serial"] = "Creature-0-5002-615-15071-30641-00004EAD88",
-					["friendlyfire"] = {
-					},
-					["custom"] = 0,
-					["last_event"] = 0,
-					["damage_taken"] = 0.005484,
-					["start_time"] = 1666100937,
-					["delay"] = 0,
 					["last_dps"] = 0,
+					["last_event"] = 0,
+					["boss_fight_component"] = true,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["on_hold"] = false,
+					["start_time"] = 1666100937,
+					["serial"] = "Creature-0-5002-615-15071-30641-00004EAD88",
+					["aID"] = "30641",
 				}, -- [18]
 				{
 					["flag_original"] = 2632,
@@ -23813,24 +20658,23 @@ _detalhes_database = {
 					["targets"] = {
 						["镜像 <日出东芳>"] = 15111,
 					},
-					["on_hold"] = false,
+					["delay"] = 0,
 					["pets"] = {
 					},
-					["monster"] = true,
+					["nome"] = "烈焰飓风",
+					["dps_started"] = false,
 					["aID"] = "30616",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 15111.014534,
+					["total"] = 15111.014534,
+					["monster"] = true,
+					["end_time"] = 1666100941,
 					["friendlyfire"] = {
 					},
-					["end_time"] = 1666100941,
-					["dps_started"] = false,
-					["total"] = 15111.014534,
+					["tipo"] = 1,
 					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["nome"] = "烈焰飓风",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[57491] = {
 								["c_amt"] = 0,
@@ -23851,69 +20695,69 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 57491,
 								["r_dmg"] = 0,
-								["MISS"] = 3,
-								["IMMUNE"] = 1,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["extra"] = {
 								},
-								["a_dmg"] = 0,
+								["a_amt"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
-								["a_amt"] = 0,
+								["a_dmg"] = 0,
 								["n_amt"] = 14,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["IMMUNE"] = 1,
+								["MISS"] = 3,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
-					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-5002-615-15071-30616-00004EAD99",
-					["custom"] = 0,
-					["tipo"] = 1,
 					["last_dps"] = 0,
-					["start_time"] = 1666100933,
-					["delay"] = 0,
+					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 0.014534,
+					["start_time"] = 1666100933,
+					["serial"] = "Creature-0-5002-615-15071-30616-00004EAD99",
+					["classe"] = "UNKNOW",
 				}, -- [19]
 				{
 					["flag_original"] = 2632,
 					["totalabsorbed"] = 9965.015062999999,
 					["damage_from"] = {
-						["魂之信仰"] = true,
+						["日出东芳"] = true,
 						["雪花丶有点飘"] = true,
 						["Just"] = true,
 						["大风车滋滋转"] = true,
-						["陌戮"] = true,
-						["特变电工"] = true,
 						["踏遍天涯"] = true,
-						["日出东芳"] = true,
+						["特变电工"] = true,
+						["陌戮"] = true,
+						["魂之信仰"] = true,
 					},
 					["targets"] = {
 						["雪花丶有点飘"] = 1846,
 						["Just"] = 32435,
 						["大风车滋滋转"] = 6124,
-						["日出东芳"] = 10360,
-						["陌戮"] = 9724,
 						["魂之信仰"] = 2939,
+						["陌戮"] = 9724,
+						["日出东芳"] = 10360,
 					},
-					["on_hold"] = false,
+					["delay"] = 0,
 					["pets"] = {
 					},
-					["monster"] = true,
+					["nome"] = "萨塔里奥暮光雏龙",
+					["dps_started"] = false,
 					["aID"] = "31214",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 63428.015063,
+					["total"] = 63428.015063,
+					["monster"] = true,
+					["end_time"] = 1666100941,
 					["friendlyfire"] = {
 					},
-					["end_time"] = 1666100941,
-					["dps_started"] = false,
-					["total"] = 63428.015063,
+					["tipo"] = 1,
 					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["nome"] = "萨塔里奥暮光雏龙",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 1,
@@ -23925,31 +20769,31 @@ _detalhes_database = {
 									["雪花丶有点飘"] = 1846,
 									["Just"] = 32435,
 									["大风车滋滋转"] = 6124,
-									["日出东芳"] = 10360,
-									["陌戮"] = 9724,
 									["魂之信仰"] = 2939,
+									["陌戮"] = 9724,
+									["日出东芳"] = 10360,
 								},
 								["n_dmg"] = 60944,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
 								["counter"] = 152,
-								["a_dmg"] = 7205,
+								["r_amt"] = 0,
 								["total"] = 63428,
 								["c_max"] = 2484,
-								["BLOCK"] = 31,
+								["b_dmg"] = 245,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["MISS"] = 12,
 								["DODGE"] = 46,
+								["a_amt"] = 4,
+								["c_min"] = 0,
+								["PARRY"] = 18,
+								["BLOCK"] = 31,
+								["successful_casted"] = 0,
 								["extra"] = {
 								},
-								["PARRY"] = 18,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 4,
 								["n_amt"] = 44,
-								["b_dmg"] = 245,
-								["r_amt"] = 0,
+								["MISS"] = 12,
+								["a_dmg"] = 7205,
 							}, -- [1]
 							[60708] = {
 								["c_amt"] = 0,
@@ -23969,29 +20813,30 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 60708,
 								["r_dmg"] = 0,
-								["MISS"] = 1,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 32,
+								["a_dmg"] = 0,
 								["RESIST"] = 5,
 								["extra"] = {
 								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 32,
-								["a_amt"] = 0,
-								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["MISS"] = 1,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
-					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-5002-615-15071-31214-00014EADA4",
-					["custom"] = 0,
-					["tipo"] = 1,
 					["last_dps"] = 0,
-					["start_time"] = 1666100883,
-					["delay"] = 0,
+					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 781968.0150629999,
+					["start_time"] = 1666100883,
+					["serial"] = "Creature-0-5002-615-15071-31214-00014EADA4",
+					["classe"] = "UNKNOW",
 				}, -- [20]
 				{
 					["flag_original"] = 2632,
@@ -24000,24 +20845,23 @@ _detalhes_database = {
 					},
 					["targets"] = {
 					},
-					["on_hold"] = false,
+					["delay"] = 0,
 					["pets"] = {
 					},
-					["monster"] = true,
+					["nome"] = "Vesperon Controller",
+					["dps_started"] = false,
 					["aID"] = "30878",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.0102,
+					["total"] = 0.0102,
+					["monster"] = true,
+					["end_time"] = 1666100941,
 					["friendlyfire"] = {
 					},
-					["end_time"] = 1666100941,
-					["dps_started"] = false,
-					["total"] = 0.0102,
+					["tipo"] = 1,
 					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["nome"] = "Vesperon Controller",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[58766] = {
 								["c_amt"] = 0,
@@ -24035,54 +20879,55 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 58766,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
-					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-5002-615-15071-30878-00004EADB1",
-					["custom"] = 0,
-					["tipo"] = 1,
 					["last_dps"] = 0,
-					["start_time"] = 1666100938,
-					["delay"] = 0,
+					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 0.0102,
+					["start_time"] = 1666100938,
+					["serial"] = "Creature-0-5002-615-15071-30878-00004EADB1",
+					["classe"] = "UNKNOW",
 				}, -- [21]
 				{
 					["flag_original"] = 2632,
 					["totalabsorbed"] = 0.008684,
-					["on_hold"] = false,
+					["total"] = 12333.008684,
 					["damage_from"] = {
 					},
 					["targets"] = {
 						["魂之信仰"] = 12333,
 					},
-					["monster"] = true,
 					["pets"] = {
 					},
-					["end_time"] = 1666100941,
-					["classe"] = "UNKNOW",
+					["monster"] = true,
+					["damage_taken"] = 0.008684,
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 12333.008684,
-					["boss_fight_component"] = true,
-					["friendlyfire_total"] = 0,
+					["friendlyfire"] = {
+					},
+					["delay"] = 0,
 					["dps_started"] = false,
-					["total"] = 12333.008684,
-					["tipo"] = 1,
+					["end_time"] = 1666100941,
+					["classe"] = "UNKNOW",
 					["ownerName"] = "沙德隆",
 					["nome"] = "暮光裂隙 <沙德隆>",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[57581] = {
 								["c_amt"] = 0,
@@ -24091,8 +20936,8 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 12333,
 								["targets"] = {
-									["魂之信仰"] = 12333,
 									["凸凸凹"] = 0,
+									["魂之信仰"] = 12333,
 								},
 								["n_dmg"] = 12333,
 								["n_min"] = 0,
@@ -24102,61 +20947,59 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 57581,
 								["r_dmg"] = 0,
-								["IMMUNE"] = 1,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 19,
 								["a_amt"] = 0,
 								["n_amt"] = 1,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["extra"] = {
+								},
+								["IMMUNE"] = 1,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["aID"] = "30641",
-					["serial"] = "Creature-0-5002-615-15071-30641-00004EADB4",
-					["friendlyfire"] = {
-					},
-					["custom"] = 0,
-					["last_event"] = 0,
-					["damage_taken"] = 0.008684,
-					["start_time"] = 1666100937,
-					["delay"] = 0,
 					["last_dps"] = 0,
+					["last_event"] = 0,
+					["boss_fight_component"] = true,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["on_hold"] = false,
+					["start_time"] = 1666100937,
+					["serial"] = "Creature-0-5002-615-15071-30641-00004EADB4",
+					["aID"] = "30641",
 				}, -- [22]
 				{
 					["flag_original"] = 16936,
 					["totalabsorbed"] = 28682.010909,
-					["aID"] = "",
 					["damage_from"] = {
 					},
 					["targets"] = {
 						["特变电工"] = 9147,
 						["陌戮"] = 8197,
 						["大风车滋滋转"] = 8803,
-						["日出东芳"] = 8605,
-						["雪花丶有点飘"] = 6896,
-						["踏遍天涯"] = 5287,
 						["魂之信仰"] = 7850,
+						["踏遍天涯"] = 5287,
+						["雪花丶有点飘"] = 6896,
+						["日出东芳"] = 8605,
 					},
 					["pets"] = {
 					},
-					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
+					["nome"] = "暮光传送门",
+					["aID"] = "",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 54785.010909,
-					["last_event"] = 0,
+					["delay"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1666100941,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["nome"] = "暮光传送门",
+					["on_hold"] = false,
+					["damage_taken"] = 0.010909,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[57874] = {
 								["c_amt"] = 0,
@@ -24168,10 +21011,10 @@ _detalhes_database = {
 									["特变电工"] = 9147,
 									["陌戮"] = 8197,
 									["大风车滋滋转"] = 8803,
-									["日出东芳"] = 8605,
-									["雪花丶有点飘"] = 6896,
-									["踏遍天涯"] = 5287,
 									["魂之信仰"] = 7850,
+									["踏遍天涯"] = 5287,
+									["雪花丶有点飘"] = 6896,
+									["日出东芳"] = 8605,
 								},
 								["n_dmg"] = 54785,
 								["n_min"] = 0,
@@ -24181,27 +21024,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 57874,
 								["r_dmg"] = 26103,
-								["extra"] = {
-								},
-								["a_dmg"] = 545,
+								["r_amt"] = 61,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 1,
 								["n_amt"] = 131,
-								["b_dmg"] = 0,
-								["r_amt"] = 61,
+								["a_dmg"] = 545,
+								["extra"] = {
+								},
 							},
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
-					["total"] = 54785.010909,
-					["serial"] = "GameObject-0-5002-615-15071-193988-00004EADB1",
-					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 0.010909,
+					["friendlyfire_total"] = 0,
+					["total"] = 54785.010909,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1666100917,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "GameObject-0-5002-615-15071-193988-00004EADB1",
+					["classe"] = "UNKNOW",
 				}, -- [23]
 				{
 					["flag_original"] = 68168,
@@ -24210,33 +21055,32 @@ _detalhes_database = {
 						["特变电工"] = true,
 						["陌戮"] = true,
 						["踏遍天涯"] = true,
-						["魂之信仰"] = true,
-						["雪花丶有点飘"] = true,
 						["日出东芳"] = true,
+						["雪花丶有点飘"] = true,
+						["魂之信仰"] = true,
 					},
 					["targets"] = {
 						["特变电工"] = 5245,
 						["雪花丶有点飘"] = 18406,
 						["魂之信仰"] = 15847,
 					},
-					["on_hold"] = false,
+					["delay"] = 0,
 					["pets"] = {
 					},
-					["monster"] = true,
+					["nome"] = "沙德隆的追随者",
+					["dps_started"] = false,
 					["aID"] = "31218",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 39498.014773,
+					["total"] = 39498.014773,
+					["monster"] = true,
+					["end_time"] = 1666100941,
 					["friendlyfire"] = {
 					},
-					["end_time"] = 1666100941,
-					["dps_started"] = false,
-					["total"] = 39498.014773,
+					["tipo"] = 1,
 					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["nome"] = "沙德隆的追随者",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 1,
@@ -24257,29 +21101,98 @@ _detalhes_database = {
 								["c_max"] = 12000,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["DODGE"] = 2,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["a_dmg"] = 24809,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 4,
 								["n_amt"] = 6,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["extra"] = {
+								},
+								["DODGE"] = 2,
 							}, -- [1]
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
-					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-5002-615-15071-31218-00004EADB1",
-					["custom"] = 0,
-					["tipo"] = 1,
 					["last_dps"] = 0,
-					["start_time"] = 1666100922,
-					["delay"] = 0,
+					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 195494.014773,
+					["start_time"] = 1666100922,
+					["serial"] = "Creature-0-5002-615-15071-31218-00004EADB1",
+					["classe"] = "UNKNOW",
 				}, -- [24]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.005604,
+					["damage_from"] = {
+						["特变电工"] = true,
+					},
+					["targets"] = {
+						["特变电工"] = 321,
+					},
+					["delay"] = 0,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["monster"] = true,
+					["aID"] = "29323",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 321.005604,
+					["total"] = 321.005604,
+					["fight_component"] = true,
+					["end_time"] = 1666196413,
+					["damage_taken"] = 12181.005604,
+					["tipo"] = 1,
+					["nome"] = "希弗列尔达风暴之女",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 321,
+								["targets"] = {
+									["特变电工"] = 321,
+								},
+								["n_dmg"] = 321,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 321,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 1,
+								["extra"] = {
+								},
+								["DODGE"] = 1,
+							}, -- [1]
+						},
+						["tipo"] = 2,
+					},
+					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
+					["start_time"] = 1666196405,
+					["serial"] = "Creature-0-4894-571-7513-29323-000050235A",
+					["dps_started"] = false,
+				}, -- [25]
 			},
 		}, -- [1]
 		{
@@ -24288,7 +21201,7 @@ _detalhes_database = {
 				{
 					["flag_original"] = 1300,
 					["targets_overheal"] = {
-						["夕里安"] = 57942,
+						["夕里安"] = 0,
 					},
 					["pets"] = {
 					},
@@ -24298,7 +21211,7 @@ _detalhes_database = {
 					["total_without_pet"] = 100862.006939,
 					["total"] = 100862.006939,
 					["targets_absorbs"] = {
-						["夕里安"] = 48887,
+						["夕里安"] = 0,
 					},
 					["heal_enemy"] = {
 					},
@@ -24308,22 +21221,16 @@ _detalhes_database = {
 					["totalabsorb"] = 48887.006939,
 					["last_hps"] = 0,
 					["targets"] = {
-						["夕里安"] = 100862,
+						["夕里安"] = 0,
 					},
 					["totalover_without_pet"] = 0.006939000000000001,
 					["healing_taken"] = 815970.006939,
-					["boss_fight_component"] = true,
+					["totaldenied"] = 0.006939000000000001,
 					["end_time"] = 1666100941,
-					["healing_from"] = {
-						["夕里安"] = true,
-						["凸凸凹"] = true,
-						["大风车滋滋转"] = true,
-						["魂之信仰"] = true,
-					},
 					["heal_enemy_amt"] = 0,
-					["nome"] = "夕里安",
+					["aID"] = "4778-04F81AA5",
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[48707] = {
 								["c_amt"] = 0,
@@ -24451,24 +21358,27 @@ _detalhes_database = {
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["start_time"] = 1666100713,
 					["spec"] = 250,
+					["last_event"] = 0,
 					["custom"] = 0,
 					["tipo"] = 2,
-					["aID"] = "4778-04F81AA5",
-					["totaldenied"] = 0.006939000000000001,
+					["nome"] = "夕里安",
+					["start_time"] = 1666100713,
 					["delay"] = 0,
-					["last_event"] = 0,
-				}, -- [1]
-				{
-					["flag_original"] = 1298,
 					["healing_from"] = {
 						["魂之信仰"] = true,
 						["凸凸凹"] = true,
-						["陌戮"] = true,
 						["大风车滋滋转"] = true,
+						["夕里安"] = true,
+					},
+				}, -- [1]
+				{
+					["flag_original"] = 1298,
+					["targets_overheal"] = {
+						["陌戮"] = 0,
 					},
 					["pets"] = {
 					},
@@ -24477,8 +21387,7 @@ _detalhes_database = {
 					["totalover"] = 39698.004813,
 					["total_without_pet"] = 9929.004813000001,
 					["total"] = 9929.004813000001,
-					["targets_absorbs"] = {
-					},
+					["spec"] = 72,
 					["heal_enemy"] = {
 					},
 					["on_hold"] = false,
@@ -24486,19 +21395,22 @@ _detalhes_database = {
 					["totalabsorb"] = 0.004813,
 					["last_hps"] = 0,
 					["targets"] = {
-						["陌戮"] = 9929,
+						["陌戮"] = 0,
 					},
 					["totalover_without_pet"] = 0.004813,
 					["healing_taken"] = 57191.004813,
-					["boss_fight_component"] = true,
+					["tipo"] = 2,
 					["end_time"] = 1666100941,
-					["targets_overheal"] = {
-						["陌戮"] = 39698,
+					["targets_absorbs"] = {
 					},
-					["heal_enemy_amt"] = 0,
+					["healing_from"] = {
+						["大风车滋滋转"] = true,
+						["凸凸凹"] = true,
+						["陌戮"] = true,
+						["魂之信仰"] = true,
+					},
 					["nome"] = "陌戮",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[23880] = {
 								["c_amt"] = 0,
@@ -24526,23 +21438,31 @@ _detalhes_database = {
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["aID"] = "4778-04AC8F71",
-					["start_time"] = 1666100620,
+					["totaldenied"] = 0.004813,
+					["heal_enemy_amt"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["spec"] = 72,
-					["totaldenied"] = 0.004813,
+					["aID"] = "4778-04AC8F71",
+					["start_time"] = 1666100620,
 					["delay"] = 0,
-					["tipo"] = 2,
+					["boss_fight_component"] = true,
 				}, -- [2]
 				{
 					["flag_original"] = 1298,
-					["healing_from"] = {
-						["凸凸凹"] = true,
-						["大风车滋滋转"] = true,
-						["魂之信仰"] = true,
+					["targets_overheal"] = {
+						["特变电工"] = 0,
+						["Just"] = 0,
+						["大风车滋滋转"] = 0,
+						["夕里安"] = 0,
+						["凸凸凹"] = 0,
+						["踏遍天涯"] = 0,
+						["魂之信仰"] = 0,
+						["雪花丶有点飘"] = 0,
+						["陌戮"] = 0,
+						["日出东芳"] = 0,
 					},
 					["pets"] = {
 					},
@@ -24551,18 +21471,7 @@ _detalhes_database = {
 					["totalover"] = 195796.0086,
 					["total_without_pet"] = 641672.0086000001,
 					["total"] = 641672.0086000001,
-					["targets_absorbs"] = {
-						["特变电工"] = 11996,
-						["陌戮"] = 9257,
-						["大风车滋滋转"] = 11597,
-						["夕里安"] = 121544,
-						["凸凸凹"] = 24501,
-						["踏遍天涯"] = 3283,
-						["日出东芳"] = 14680,
-						["Just"] = 81239,
-						["雪花丶有点飘"] = 20183,
-						["魂之信仰"] = 11834,
-					},
+					["spec"] = 256,
 					["heal_enemy"] = {
 					},
 					["on_hold"] = false,
@@ -24570,46 +21479,49 @@ _detalhes_database = {
 					["totalabsorb"] = 310114.0086000001,
 					["last_hps"] = 0,
 					["targets"] = {
-						["特变电工"] = 19121,
-						["陌戮"] = 19750,
-						["大风车滋滋转"] = 17844,
-						["夕里安"] = 246439,
-						["雪花丶有点飘"] = 39659,
-						["踏遍天涯"] = 9634,
-						["日出东芳"] = 24681,
-						["Just"] = 204924,
-						["凸凸凹"] = 30768,
-						["魂之信仰"] = 28852,
+						["特变电工"] = 0,
+						["陌戮"] = 0,
+						["大风车滋滋转"] = 0,
+						["夕里安"] = 0,
+						["雪花丶有点飘"] = 0,
+						["踏遍天涯"] = 0,
+						["魂之信仰"] = 0,
+						["凸凸凹"] = 0,
+						["Just"] = 0,
+						["日出东芳"] = 0,
 					},
 					["totalover_without_pet"] = 0.0086,
 					["healing_taken"] = 36546.0086,
-					["boss_fight_component"] = true,
+					["tipo"] = 2,
 					["end_time"] = 1666100941,
-					["targets_overheal"] = {
-						["特变电工"] = 8940,
-						["Just"] = 38605,
-						["大风车滋滋转"] = 11163,
-						["夕里安"] = 63930,
-						["凸凸凹"] = 14328,
-						["踏遍天涯"] = 11154,
-						["日出东芳"] = 15113,
-						["陌戮"] = 2756,
-						["雪花丶有点飘"] = 22813,
-						["魂之信仰"] = 6994,
+					["targets_absorbs"] = {
+						["特变电工"] = 0,
+						["陌戮"] = 0,
+						["大风车滋滋转"] = 0,
+						["夕里安"] = 0,
+						["凸凸凹"] = 0,
+						["踏遍天涯"] = 0,
+						["魂之信仰"] = 0,
+						["雪花丶有点飘"] = 0,
+						["Just"] = 0,
+						["日出东芳"] = 0,
 					},
-					["heal_enemy_amt"] = 0,
+					["healing_from"] = {
+						["凸凸凹"] = true,
+						["魂之信仰"] = true,
+						["大风车滋滋转"] = true,
+					},
 					["nome"] = "大风车滋滋转",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[64844] = {
 								["c_amt"] = 4,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
-									["踏遍天涯"] = 8168,
+									["日出东芳"] = 6460,
 									["特变电工"] = 1108,
 									["雪花丶有点飘"] = 10924,
-									["日出东芳"] = 6460,
+									["踏遍天涯"] = 8168,
 								},
 								["n_max"] = 4899,
 								["targets"] = {
@@ -24657,10 +21569,10 @@ _detalhes_database = {
 									["夕里安"] = 15080,
 									["雪花丶有点飘"] = 3585,
 									["踏遍天涯"] = 2389,
-									["日出东芳"] = 3888,
-									["Just"] = 10303,
-									["凸凸凹"] = 0,
 									["魂之信仰"] = 2413,
+									["凸凸凹"] = 0,
+									["Just"] = 10303,
+									["日出东芳"] = 3888,
 								},
 								["n_min"] = 0,
 								["counter"] = 71,
@@ -24682,15 +21594,15 @@ _detalhes_database = {
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
 									["特变电工"] = 4539,
-									["夕里安"] = 13818,
 									["魂之信仰"] = 1995,
+									["夕里安"] = 13818,
 								},
 								["n_max"] = 1281,
 								["targets"] = {
-									["夕里安"] = 20597,
+									["魂之信仰"] = 4152,
 									["特变电工"] = 1336,
 									["Just"] = 5875,
-									["魂之信仰"] = 4152,
+									["夕里安"] = 20597,
 								},
 								["n_min"] = 0,
 								["counter"] = 43,
@@ -24711,17 +21623,17 @@ _detalhes_database = {
 								["c_amt"] = 0,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
-									["大风车滋滋转"] = 4612,
+									["魂之信仰"] = 2700,
 									["特变电工"] = 1502,
 									["陌戮"] = 1561,
-									["魂之信仰"] = 2700,
+									["大风车滋滋转"] = 4612,
 								},
 								["n_max"] = 402,
 								["targets"] = {
-									["大风车滋滋转"] = 0,
+									["魂之信仰"] = 402,
 									["特变电工"] = 0,
 									["陌戮"] = 0,
-									["魂之信仰"] = 402,
+									["大风车滋滋转"] = 0,
 								},
 								["n_min"] = 0,
 								["counter"] = 7,
@@ -24767,6 +21679,32 @@ _detalhes_database = {
 								["n_amt"] = 14,
 								["absorbed"] = 0,
 							},
+							[48120] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["大风车滋滋转"] = 4163,
+								},
+								["n_max"] = 4232,
+								["targets"] = {
+									["陌戮"] = 8104,
+									["大风车滋滋转"] = 3858,
+								},
+								["n_min"] = 0,
+								["counter"] = 4,
+								["overheal"] = 4163,
+								["total"] = 11962,
+								["c_max"] = 0,
+								["id"] = 48120,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_curado"] = 0,
+								["n_curado"] = 11962,
+								["totaldenied"] = 0,
+								["n_amt"] = 4,
+								["absorbed"] = 0,
+							},
 							[33110] = {
 								["c_amt"] = 5,
 								["totalabsorb"] = 0,
@@ -24796,37 +21734,6 @@ _detalhes_database = {
 								["n_amt"] = 6,
 								["absorbed"] = 0,
 							},
-							[52985] = {
-								["c_amt"] = 8,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-									["魂之信仰"] = 2299,
-									["Just"] = 10890,
-									["夕里安"] = 11034,
-								},
-								["n_max"] = 3309,
-								["targets"] = {
-									["雪花丶有点飘"] = 9060,
-									["Just"] = 42959,
-									["夕里安"] = 50700,
-									["日出东芳"] = 5887,
-									["魂之信仰"] = 10051,
-								},
-								["n_min"] = 0,
-								["counter"] = 42,
-								["overheal"] = 24223,
-								["total"] = 118657,
-								["c_max"] = 4796,
-								["id"] = 52985,
-								["targets_absorbs"] = {
-								},
-								["c_min"] = 0,
-								["c_curado"] = 29676,
-								["n_curado"] = 88981,
-								["totaldenied"] = 0,
-								["n_amt"] = 34,
-								["absorbed"] = 0,
-							},
 							[47753] = {
 								["c_amt"] = 0,
 								["totalabsorb"] = 42924,
@@ -24836,9 +21743,9 @@ _detalhes_database = {
 								["targets"] = {
 									["雪花丶有点飘"] = 2332,
 									["Just"] = 17514,
-									["夕里安"] = 19809,
-									["日出东芳"] = 537,
 									["魂之信仰"] = 2732,
+									["日出东芳"] = 537,
+									["夕里安"] = 19809,
 								},
 								["n_min"] = 0,
 								["counter"] = 42,
@@ -24849,9 +21756,9 @@ _detalhes_database = {
 								["targets_absorbs"] = {
 									["雪花丶有点飘"] = 2332,
 									["Just"] = 17514,
-									["夕里安"] = 19809,
-									["日出东芳"] = 537,
 									["魂之信仰"] = 2732,
+									["日出东芳"] = 537,
+									["夕里安"] = 19809,
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
@@ -24873,10 +21780,10 @@ _detalhes_database = {
 									["夕里安"] = 101735,
 									["凸凸凹"] = 24501,
 									["踏遍天涯"] = 3283,
-									["日出东芳"] = 14143,
-									["Just"] = 63725,
-									["雪花丶有点飘"] = 17851,
 									["魂之信仰"] = 9102,
+									["雪花丶有点飘"] = 17851,
+									["Just"] = 63725,
+									["日出东芳"] = 14143,
 								},
 								["n_min"] = 0,
 								["counter"] = 168,
@@ -24891,10 +21798,10 @@ _detalhes_database = {
 									["夕里安"] = 101735,
 									["凸凸凹"] = 24501,
 									["踏遍天涯"] = 3283,
-									["日出东芳"] = 14143,
-									["Just"] = 63725,
-									["雪花丶有点飘"] = 17851,
 									["魂之信仰"] = 9102,
+									["雪花丶有点飘"] = 17851,
+									["Just"] = 63725,
+									["日出东芳"] = 14143,
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
@@ -24903,50 +21810,65 @@ _detalhes_database = {
 								["n_amt"] = 168,
 								["absorbed"] = 0,
 							},
-							[48120] = {
-								["c_amt"] = 0,
+							[52985] = {
+								["c_amt"] = 8,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
-									["大风车滋滋转"] = 4163,
+									["夕里安"] = 11034,
+									["Just"] = 10890,
+									["魂之信仰"] = 2299,
 								},
-								["n_max"] = 4232,
+								["n_max"] = 3309,
 								["targets"] = {
-									["陌戮"] = 8104,
-									["大风车滋滋转"] = 3858,
+									["雪花丶有点飘"] = 9060,
+									["Just"] = 42959,
+									["魂之信仰"] = 10051,
+									["日出东芳"] = 5887,
+									["夕里安"] = 50700,
 								},
 								["n_min"] = 0,
-								["counter"] = 4,
-								["overheal"] = 4163,
-								["total"] = 11962,
-								["c_max"] = 0,
-								["id"] = 48120,
+								["counter"] = 42,
+								["overheal"] = 24223,
+								["total"] = 118657,
+								["c_max"] = 4796,
+								["id"] = 52985,
 								["targets_absorbs"] = {
 								},
 								["c_min"] = 0,
-								["c_curado"] = 0,
-								["n_curado"] = 11962,
+								["c_curado"] = 29676,
+								["n_curado"] = 88981,
 								["totaldenied"] = 0,
-								["n_amt"] = 4,
+								["n_amt"] = 34,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["aID"] = "4778-04D4E39F",
-					["start_time"] = 1666100586,
+					["totaldenied"] = 0.0086,
+					["heal_enemy_amt"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["spec"] = 256,
-					["totaldenied"] = 0.0086,
+					["aID"] = "4778-04D4E39F",
+					["start_time"] = 1666100586,
 					["delay"] = 0,
-					["tipo"] = 2,
+					["boss_fight_component"] = true,
 				}, -- [3]
 				{
 					["flag_original"] = 1298,
-					["healing_from"] = {
-						["凸凸凹"] = true,
-						["魂之信仰"] = true,
-						["大风车滋滋转"] = true,
+					["targets_overheal"] = {
+						["镜像 <日出东芳>"] = 0,
+						["Just"] = 0,
+						["大风车滋滋转"] = 0,
+						["夕里安"] = 0,
+						["日出东芳"] = 0,
+						["雪花丶有点飘"] = 0,
+						["特变电工"] = 0,
+						["踏遍天涯"] = 0,
+						["凸凸凹"] = 0,
+						["陌戮"] = 0,
+						["树人 <踏遍天涯>"] = 0,
+						["魂之信仰"] = 0,
 					},
 					["pets"] = {
 					},
@@ -24955,8 +21877,7 @@ _detalhes_database = {
 					["totalover"] = 460102.008853,
 					["total_without_pet"] = 164420.008853,
 					["total"] = 164420.008853,
-					["targets_absorbs"] = {
-					},
+					["spec"] = 70,
 					["heal_enemy"] = {
 					},
 					["on_hold"] = false,
@@ -24964,41 +21885,32 @@ _detalhes_database = {
 					["totalabsorb"] = 0.008853,
 					["last_hps"] = 0,
 					["targets"] = {
-						["镜像 <日出东芳>"] = 279,
-						["陌戮"] = 17040,
-						["大风车滋滋转"] = 4501,
-						["夕里安"] = 31206,
-						["魂之信仰"] = 28852,
-						["凸凸凹"] = 821,
-						["Just"] = 45510,
-						["踏遍天涯"] = 3181,
-						["树人 <踏遍天涯>"] = 3206,
-						["特变电工"] = 13801,
-						["雪花丶有点飘"] = 11394,
-						["日出东芳"] = 4629,
+						["镜像 <日出东芳>"] = 0,
+						["陌戮"] = 0,
+						["大风车滋滋转"] = 0,
+						["夕里安"] = 0,
+						["日出东芳"] = 0,
+						["凸凸凹"] = 0,
+						["雪花丶有点飘"] = 0,
+						["踏遍天涯"] = 0,
+						["特变电工"] = 0,
+						["树人 <踏遍天涯>"] = 0,
+						["Just"] = 0,
+						["魂之信仰"] = 0,
 					},
 					["totalover_without_pet"] = 0.008853,
 					["healing_taken"] = 74468.00885299999,
-					["boss_fight_component"] = true,
+					["tipo"] = 2,
 					["end_time"] = 1666100941,
-					["targets_overheal"] = {
-						["镜像 <日出东芳>"] = 1670,
-						["Just"] = 41633,
-						["大风车滋滋转"] = 716,
-						["夕里安"] = 29993,
-						["魂之信仰"] = 59252,
-						["雪花丶有点飘"] = 84789,
-						["树人 <踏遍天涯>"] = 4046,
-						["踏遍天涯"] = 25982,
-						["陌戮"] = 84511,
-						["凸凸凹"] = 6959,
-						["特变电工"] = 96153,
-						["日出东芳"] = 24398,
+					["targets_absorbs"] = {
 					},
-					["heal_enemy_amt"] = 0,
+					["healing_from"] = {
+						["凸凸凹"] = true,
+						["大风车滋滋转"] = true,
+						["魂之信仰"] = true,
+					},
 					["nome"] = "魂之信仰",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[20267] = {
 								["c_amt"] = 0,
@@ -25008,14 +21920,14 @@ _detalhes_database = {
 									["Just"] = 41633,
 									["大风车滋滋转"] = 412,
 									["夕里安"] = 29993,
-									["魂之信仰"] = 53697,
-									["雪花丶有点飘"] = 84789,
-									["树人 <踏遍天涯>"] = 4046,
-									["踏遍天涯"] = 25982,
-									["陌戮"] = 84227,
-									["凸凸凹"] = 6631,
-									["特变电工"] = 96153,
 									["日出东芳"] = 24398,
+									["雪花丶有点飘"] = 84789,
+									["特变电工"] = 96153,
+									["踏遍天涯"] = 25982,
+									["凸凸凹"] = 6631,
+									["陌戮"] = 84227,
+									["树人 <踏遍天涯>"] = 4046,
+									["魂之信仰"] = 53697,
 								},
 								["n_max"] = 993,
 								["targets"] = {
@@ -25023,14 +21935,14 @@ _detalhes_database = {
 									["Just"] = 38067,
 									["大风车滋滋转"] = 0,
 									["夕里安"] = 19350,
-									["魂之信仰"] = 19076,
-									["雪花丶有点飘"] = 11004,
-									["树人 <踏遍天涯>"] = 2300,
-									["踏遍天涯"] = 3181,
-									["陌戮"] = 15661,
-									["凸凸凹"] = 0,
-									["特变电工"] = 13321,
 									["日出东芳"] = 4170,
+									["雪花丶有点飘"] = 11004,
+									["特变电工"] = 13321,
+									["踏遍天涯"] = 3181,
+									["凸凸凹"] = 0,
+									["陌戮"] = 15661,
+									["树人 <踏遍天涯>"] = 2300,
+									["魂之信仰"] = 19076,
 								},
 								["n_min"] = 0,
 								["counter"] = 1095,
@@ -25051,10 +21963,10 @@ _detalhes_database = {
 								["c_amt"] = 0,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
-									["魂之信仰"] = 3,
+									["大风车滋滋转"] = 304,
 									["凸凸凹"] = 328,
 									["陌戮"] = 284,
-									["大风车滋滋转"] = 304,
+									["魂之信仰"] = 3,
 								},
 								["n_max"] = 3262,
 								["targets"] = {
@@ -25063,11 +21975,11 @@ _detalhes_database = {
 									["大风车滋滋转"] = 4501,
 									["夕里安"] = 11856,
 									["凸凸凹"] = 821,
-									["魂之信仰"] = 2166,
-									["Just"] = 7443,
-									["雪花丶有点飘"] = 390,
-									["树人 <踏遍天涯>"] = 906,
 									["日出东芳"] = 459,
+									["树人 <踏遍天涯>"] = 906,
+									["雪花丶有点飘"] = 390,
+									["Just"] = 7443,
+									["魂之信仰"] = 2166,
 								},
 								["n_min"] = 0,
 								["counter"] = 32,
@@ -25082,31 +21994,6 @@ _detalhes_database = {
 								["n_curado"] = 30401,
 								["totaldenied"] = 0,
 								["n_amt"] = 32,
-								["absorbed"] = 0,
-							},
-							[48785] = {
-								["c_amt"] = 1,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-									["魂之信仰"] = 4946,
-								},
-								["n_max"] = 2190,
-								["targets"] = {
-									["魂之信仰"] = 5793,
-								},
-								["n_min"] = 0,
-								["counter"] = 4,
-								["overheal"] = 4946,
-								["total"] = 5793,
-								["c_max"] = 3298,
-								["id"] = 48785,
-								["targets_absorbs"] = {
-								},
-								["c_min"] = 0,
-								["c_curado"] = 3298,
-								["n_curado"] = 2495,
-								["totaldenied"] = 0,
-								["n_amt"] = 3,
 								["absorbed"] = 0,
 							},
 							[54203] = {
@@ -25134,24 +22021,57 @@ _detalhes_database = {
 								["n_amt"] = 4,
 								["absorbed"] = 0,
 							},
+							[48785] = {
+								["c_amt"] = 1,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["魂之信仰"] = 4946,
+								},
+								["n_max"] = 2190,
+								["targets"] = {
+									["魂之信仰"] = 5793,
+								},
+								["n_min"] = 0,
+								["counter"] = 4,
+								["overheal"] = 4946,
+								["total"] = 5793,
+								["c_max"] = 3298,
+								["id"] = 48785,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_curado"] = 3298,
+								["n_curado"] = 2495,
+								["totaldenied"] = 0,
+								["n_amt"] = 3,
+								["absorbed"] = 0,
+							},
 						},
+						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["aID"] = "4778-0520EB5E",
-					["start_time"] = 1666100576,
+					["totaldenied"] = 0.008853,
+					["heal_enemy_amt"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["spec"] = 70,
-					["totaldenied"] = 0.008853,
+					["aID"] = "4778-0520EB5E",
+					["start_time"] = 1666100576,
 					["delay"] = 0,
-					["tipo"] = 2,
+					["boss_fight_component"] = true,
 				}, -- [4]
 				{
 					["flag_original"] = 1300,
-					["healing_from"] = {
-						["凸凸凹"] = true,
-						["大风车滋滋转"] = true,
-						["魂之信仰"] = true,
+					["targets_overheal"] = {
+						["特变电工"] = 0,
+						["陌戮"] = 0,
+						["大风车滋滋转"] = 0,
+						["夕里安"] = 0,
+						["雪花丶有点飘"] = 0,
+						["踏遍天涯"] = 0,
+						["日出东芳"] = 0,
+						["Just"] = 0,
+						["凸凸凹"] = 0,
+						["魂之信仰"] = 0,
 					},
 					["pets"] = {
 					},
@@ -25160,10 +22080,7 @@ _detalhes_database = {
 					["totalover"] = 885684.0115189999,
 					["total_without_pet"] = 661563.0115189999,
 					["total"] = 661563.0115189999,
-					["targets_absorbs"] = {
-						["凸凸凹"] = 1204,
-						["夕里安"] = 34950,
-					},
+					["spec"] = 65,
 					["heal_enemy"] = {
 					},
 					["on_hold"] = false,
@@ -25171,37 +22088,32 @@ _detalhes_database = {
 					["totalabsorb"] = 36154.011519,
 					["last_hps"] = 0,
 					["targets"] = {
-						["特变电工"] = 1131,
-						["陌戮"] = 10472,
-						["大风车滋滋转"] = 14201,
-						["夕里安"] = 437463,
-						["雪花丶有点飘"] = 8369,
-						["踏遍天涯"] = 4692,
-						["魂之信仰"] = 16764,
-						["Just"] = 160098,
-						["凸凸凹"] = 6830,
-						["日出东芳"] = 1543,
+						["特变电工"] = 0,
+						["陌戮"] = 0,
+						["大风车滋滋转"] = 0,
+						["夕里安"] = 0,
+						["雪花丶有点飘"] = 0,
+						["踏遍天涯"] = 0,
+						["日出东芳"] = 0,
+						["凸凸凹"] = 0,
+						["Just"] = 0,
+						["魂之信仰"] = 0,
 					},
 					["totalover_without_pet"] = 0.011519,
 					["healing_taken"] = 38419.011519,
-					["boss_fight_component"] = true,
+					["tipo"] = 2,
 					["end_time"] = 1666100941,
-					["targets_overheal"] = {
-						["特变电工"] = 36715,
-						["陌戮"] = 49892,
-						["大风车滋滋转"] = 16212,
-						["夕里安"] = 347398,
-						["雪花丶有点飘"] = 106454,
-						["踏遍天涯"] = 52784,
-						["魂之信仰"] = 10267,
-						["凸凸凹"] = 64068,
-						["Just"] = 185643,
-						["日出东芳"] = 16251,
+					["targets_absorbs"] = {
+						["夕里安"] = 0,
+						["凸凸凹"] = 0,
 					},
-					["heal_enemy_amt"] = 0,
+					["healing_from"] = {
+						["凸凸凹"] = true,
+						["魂之信仰"] = true,
+						["大风车滋滋转"] = true,
+					},
 					["nome"] = "凸凸凹",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[53654] = {
 								["c_amt"] = 0,
@@ -25256,14 +22168,14 @@ _detalhes_database = {
 								["c_amt"] = 0,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
-									["魂之信仰"] = 7967,
+									["日出东芳"] = 4406,
 									["特变电工"] = 6785,
 									["陌戮"] = 6656,
 									["踏遍天涯"] = 3385,
-									["雪花丶有点飘"] = 7803,
-									["凸凸凹"] = 6230,
 									["大风车滋滋转"] = 4362,
-									["日出东芳"] = 4406,
+									["凸凸凹"] = 6230,
+									["雪花丶有点飘"] = 7803,
+									["魂之信仰"] = 7967,
 								},
 								["n_max"] = 1538,
 								["targets"] = {
@@ -25272,10 +22184,10 @@ _detalhes_database = {
 									["大风车滋滋转"] = 1572,
 									["雪花丶有点飘"] = 1045,
 									["踏遍天涯"] = 0,
-									["魂之信仰"] = 4431,
-									["凸凸凹"] = 0,
-									["陌戮"] = 0,
 									["日出东芳"] = 0,
+									["陌戮"] = 0,
+									["凸凸凹"] = 0,
+									["魂之信仰"] = 4431,
 								},
 								["n_min"] = 0,
 								["counter"] = 53,
@@ -25299,21 +22211,21 @@ _detalhes_database = {
 									["凸凸凹"] = 10087,
 									["陌戮"] = 14709,
 									["踏遍天涯"] = 29881,
-									["魂之信仰"] = 2300,
-									["Just"] = 66472,
-									["雪花丶有点飘"] = 14499,
 									["日出东芳"] = 9675,
+									["雪花丶有点飘"] = 14499,
+									["Just"] = 66472,
+									["魂之信仰"] = 2300,
 								},
 								["n_max"] = 10095,
 								["targets"] = {
-									["魂之信仰"] = 12333,
+									["日出东芳"] = 411,
 									["雪花丶有点飘"] = 0,
 									["陌戮"] = 9908,
 									["踏遍天涯"] = 0,
-									["Just"] = 67694,
-									["夕里安"] = 10057,
 									["凸凸凹"] = 0,
-									["日出东芳"] = 411,
+									["夕里安"] = 10057,
+									["Just"] = 67694,
+									["魂之信仰"] = 12333,
 								},
 								["n_min"] = 0,
 								["counter"] = 23,
@@ -25477,31 +22389,6 @@ _detalhes_database = {
 								["n_amt"] = 115,
 								["absorbed"] = 0,
 							},
-							[57350] = {
-								["c_amt"] = 0,
-								["totalabsorb"] = 1204,
-								["targets_overheal"] = {
-								},
-								["n_max"] = 1204,
-								["targets"] = {
-									["凸凸凹"] = 1204,
-								},
-								["n_min"] = 0,
-								["counter"] = 1,
-								["overheal"] = 0,
-								["total"] = 1204,
-								["c_max"] = 0,
-								["id"] = 57350,
-								["targets_absorbs"] = {
-									["凸凸凹"] = 1204,
-								},
-								["c_min"] = 0,
-								["c_curado"] = 0,
-								["n_curado"] = 1204,
-								["totaldenied"] = 0,
-								["n_amt"] = 1,
-								["absorbed"] = 0,
-							},
 							[48788] = {
 								["c_amt"] = 0,
 								["totalabsorb"] = 0,
@@ -25527,17 +22414,43 @@ _detalhes_database = {
 								["n_amt"] = 1,
 								["absorbed"] = 0,
 							},
+							[57350] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 1204,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 1204,
+								["targets"] = {
+									["凸凸凹"] = 1204,
+								},
+								["n_min"] = 0,
+								["counter"] = 1,
+								["overheal"] = 0,
+								["total"] = 1204,
+								["c_max"] = 0,
+								["id"] = 57350,
+								["targets_absorbs"] = {
+									["凸凸凹"] = 1204,
+								},
+								["c_min"] = 0,
+								["c_curado"] = 0,
+								["n_curado"] = 1204,
+								["totaldenied"] = 0,
+								["n_amt"] = 1,
+								["absorbed"] = 0,
+							},
 						},
+						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["aID"] = "4778-04F57291",
-					["start_time"] = 1666100600,
+					["totaldenied"] = 0.011519,
+					["heal_enemy_amt"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["spec"] = 65,
-					["totaldenied"] = 0.011519,
+					["aID"] = "4778-04F57291",
+					["start_time"] = 1666100600,
 					["delay"] = 0,
-					["tipo"] = 2,
+					["boss_fight_component"] = true,
 				}, -- [5]
 				{
 					["flag_original"] = 132372,
@@ -25551,7 +22464,7 @@ _detalhes_database = {
 					["total_without_pet"] = 20276.011395,
 					["total"] = 20276.011395,
 					["targets_absorbs"] = {
-						["Just"] = 20276,
+						["Just"] = 0,
 					},
 					["heal_enemy"] = {
 					},
@@ -25561,22 +22474,16 @@ _detalhes_database = {
 					["totalabsorb"] = 20276.011395,
 					["last_hps"] = 0,
 					["targets"] = {
-						["Just"] = 20276,
+						["Just"] = 0,
 					},
 					["totalover_without_pet"] = 0.011395,
 					["healing_taken"] = 430808.011395,
-					["boss_fight_component"] = true,
+					["totaldenied"] = 0.011395,
 					["end_time"] = 1666100941,
-					["healing_from"] = {
-						["魂之信仰"] = true,
-						["凸凸凹"] = true,
-						["Just"] = true,
-						["大风车滋滋转"] = true,
-					},
 					["heal_enemy_amt"] = 0,
-					["nome"] = "Just",
+					["aID"] = "4778-04D9BDE6",
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[31852] = {
 								["c_amt"] = 0,
@@ -25629,23 +22536,26 @@ _detalhes_database = {
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["start_time"] = 1666100866,
 					["spec"] = 66,
+					["last_event"] = 0,
 					["custom"] = 0,
 					["tipo"] = 2,
-					["aID"] = "4778-04D9BDE6",
-					["totaldenied"] = 0.011395,
+					["nome"] = "Just",
+					["start_time"] = 1666100866,
 					["delay"] = 0,
-					["last_event"] = 0,
+					["healing_from"] = {
+						["大风车滋滋转"] = true,
+						["凸凸凹"] = true,
+						["Just"] = true,
+						["魂之信仰"] = true,
+					},
 				}, -- [6]
 				{
 					["flag_original"] = 1300,
-					["healing_from"] = {
-						["凸凸凹"] = true,
-						["魂之信仰"] = true,
-						["大风车滋滋转"] = true,
+					["targets_overheal"] = {
 					},
 					["pets"] = {
 					},
@@ -25654,8 +22564,7 @@ _detalhes_database = {
 					["totalover"] = 0.008607,
 					["total_without_pet"] = 0.008607,
 					["total"] = 0.008607,
-					["targets_absorbs"] = {
-					},
+					["spec"] = 259,
 					["heal_enemy"] = {
 					},
 					["on_hold"] = false,
@@ -25666,33 +22575,34 @@ _detalhes_database = {
 					},
 					["totalover_without_pet"] = 0.008607,
 					["healing_taken"] = 59422.008607,
-					["boss_fight_component"] = true,
-					["end_time"] = 1666100941,
-					["targets_overheal"] = {
-					},
-					["heal_enemy_amt"] = 0,
-					["nome"] = "雪花丶有点飘",
-					["spells"] = {
-						["tipo"] = 3,
-						["_ActorTable"] = {
-						},
-					},
-					["grupo"] = true,
-					["aID"] = "4778-048F0669",
-					["start_time"] = 1666100938,
-					["custom"] = 0,
-					["last_event"] = 0,
-					["spec"] = 259,
-					["totaldenied"] = 0.008607,
-					["delay"] = 0,
 					["tipo"] = 2,
-				}, -- [7]
-				{
-					["flag_original"] = 1297,
+					["end_time"] = 1666100941,
+					["targets_absorbs"] = {
+					},
 					["healing_from"] = {
 						["凸凸凹"] = true,
 						["大风车滋滋转"] = true,
 						["魂之信仰"] = true,
+					},
+					["nome"] = "雪花丶有点飘",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 3,
+					},
+					["grupo"] = true,
+					["totaldenied"] = 0.008607,
+					["heal_enemy_amt"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["aID"] = "4778-048F0669",
+					["start_time"] = 1666100938,
+					["delay"] = 0,
+					["boss_fight_component"] = true,
+				}, -- [7]
+				{
+					["flag_original"] = 1297,
+					["targets_overheal"] = {
 					},
 					["pets"] = {
 					},
@@ -25701,8 +22611,7 @@ _detalhes_database = {
 					["totalover"] = 0.010407,
 					["total_without_pet"] = 0.010407,
 					["total"] = 0.010407,
-					["targets_absorbs"] = {
-					},
+					["spec"] = 259,
 					["heal_enemy"] = {
 					},
 					["on_hold"] = false,
@@ -25713,33 +22622,34 @@ _detalhes_database = {
 					},
 					["totalover_without_pet"] = 0.010407,
 					["healing_taken"] = 34053.010407,
-					["boss_fight_component"] = true,
+					["tipo"] = 2,
 					["end_time"] = 1666100941,
-					["targets_overheal"] = {
+					["targets_absorbs"] = {
 					},
-					["heal_enemy_amt"] = 0,
+					["healing_from"] = {
+						["凸凸凹"] = true,
+						["魂之信仰"] = true,
+						["大风车滋滋转"] = true,
+					},
 					["nome"] = "特变电工",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["aID"] = "4778-04DBFC9E",
-					["start_time"] = 1666100938,
+					["totaldenied"] = 0.010407,
+					["heal_enemy_amt"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["spec"] = 259,
-					["totaldenied"] = 0.010407,
+					["aID"] = "4778-04DBFC9E",
+					["start_time"] = 1666100938,
 					["delay"] = 0,
-					["tipo"] = 2,
+					["boss_fight_component"] = true,
 				}, -- [8]
 				{
 					["flag_original"] = 1300,
-					["healing_from"] = {
-						["凸凸凹"] = true,
-						["大风车滋滋转"] = true,
-						["魂之信仰"] = true,
+					["targets_overheal"] = {
 					},
 					["pets"] = {
 						"树人 <踏遍天涯>", -- [1]
@@ -25749,8 +22659,7 @@ _detalhes_database = {
 					["totalover"] = 0.013716,
 					["total_without_pet"] = 0.013716,
 					["total"] = 0.013716,
-					["targets_absorbs"] = {
-					},
+					["spec"] = 102,
 					["heal_enemy"] = {
 					},
 					["on_hold"] = false,
@@ -25761,77 +22670,77 @@ _detalhes_database = {
 					},
 					["totalover_without_pet"] = 0.013716,
 					["healing_taken"] = 17507.013716,
-					["boss_fight_component"] = true,
+					["tipo"] = 2,
 					["end_time"] = 1666100941,
-					["targets_overheal"] = {
+					["targets_absorbs"] = {
 					},
-					["heal_enemy_amt"] = 0,
+					["healing_from"] = {
+						["凸凸凹"] = true,
+						["魂之信仰"] = true,
+						["大风车滋滋转"] = true,
+					},
 					["nome"] = "踏遍天涯",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["aID"] = "4778-018E44DC",
-					["start_time"] = 1666100938,
+					["totaldenied"] = 0.013716,
+					["heal_enemy_amt"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["spec"] = 102,
-					["totaldenied"] = 0.013716,
+					["aID"] = "4778-018E44DC",
+					["start_time"] = 1666100938,
 					["delay"] = 0,
-					["tipo"] = 2,
+					["boss_fight_component"] = true,
 				}, -- [9]
 				{
 					["flag_original"] = 4372,
 					["totalabsorb"] = 0.012228,
 					["last_hps"] = 0,
-					["healing_from"] = {
-						["魂之信仰"] = true,
+					["targets_overheal"] = {
 					},
 					["targets"] = {
 					},
 					["aID"] = "1964",
 					["pets"] = {
 					},
-					["iniciar_hps"] = false,
-					["targets_overheal"] = {
-					},
-					["healing_taken"] = 3206.012228,
-					["totalover"] = 0.012228,
-					["total_without_pet"] = 0.012228,
-					["end_time"] = 1666100941,
 					["totalover_without_pet"] = 0.012228,
-					["classe"] = "PET",
-					["total"] = 0.012228,
-					["targets_absorbs"] = {
+					["healing_from"] = {
+						["魂之信仰"] = true,
 					},
 					["heal_enemy_amt"] = 0,
+					["totalover"] = 0.012228,
+					["total_without_pet"] = 0.012228,
+					["iniciar_hps"] = false,
+					["totaldenied"] = 0.012228,
+					["healing_taken"] = 3206.012228,
+					["end_time"] = 1666100941,
+					["nome"] = "树人 <踏遍天涯>",
+					["classe"] = "PET",
 					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 3,
 					},
-					["start_time"] = 1666100938,
-					["nome"] = "树人 <踏遍天涯>",
+					["total"] = 0.012228,
+					["tipo"] = 2,
 					["heal_enemy"] = {
 					},
-					["serial"] = "Creature-0-5002-615-15071-1964-00014EAD67",
+					["targets_absorbs"] = {
+					},
 					["custom"] = 0,
 					["last_event"] = 0,
 					["on_hold"] = false,
-					["totaldenied"] = 0.012228,
+					["start_time"] = 1666100938,
+					["serial"] = "Creature-0-5002-615-15071-1964-00014EAD67",
 					["delay"] = 0,
-					["tipo"] = 2,
 				}, -- [10]
 				{
 					["flag_original"] = 1298,
-					["healing_from"] = {
-						["大风车滋滋转"] = true,
-						["凸凸凹"] = true,
-						["日出东芳"] = true,
-						["魂之信仰"] = true,
+					["targets_overheal"] = {
 					},
 					["pets"] = {
 						"镜像 <日出东芳>", -- [1]
@@ -25841,9 +22750,7 @@ _detalhes_database = {
 					["totalover"] = 0.005799,
 					["total_without_pet"] = 2271.005799,
 					["total"] = 2271.005799,
-					["targets_absorbs"] = {
-						["日出东芳"] = 2271,
-					},
+					["spec"] = 62,
 					["heal_enemy"] = {
 					},
 					["on_hold"] = false,
@@ -25851,18 +22758,23 @@ _detalhes_database = {
 					["totalabsorb"] = 2271.005799,
 					["last_hps"] = 0,
 					["targets"] = {
-						["日出东芳"] = 2271,
+						["日出东芳"] = 0,
 					},
 					["totalover_without_pet"] = 0.005799,
 					["healing_taken"] = 33124.005799,
-					["boss_fight_component"] = true,
+					["tipo"] = 2,
 					["end_time"] = 1666100941,
-					["targets_overheal"] = {
+					["targets_absorbs"] = {
+						["日出东芳"] = 0,
 					},
-					["heal_enemy_amt"] = 0,
+					["healing_from"] = {
+						["魂之信仰"] = true,
+						["凸凸凹"] = true,
+						["日出东芳"] = true,
+						["大风车滋滋转"] = true,
+					},
 					["nome"] = "日出东芳",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[27131] = {
 								["c_amt"] = 0,
@@ -25890,25 +22802,27 @@ _detalhes_database = {
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["aID"] = "4778-04605F8E",
-					["start_time"] = 1666100937,
+					["totaldenied"] = 0.005799,
+					["heal_enemy_amt"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["spec"] = 62,
-					["totaldenied"] = 0.005799,
+					["aID"] = "4778-04605F8E",
+					["start_time"] = 1666100937,
 					["delay"] = 0,
-					["tipo"] = 2,
+					["boss_fight_component"] = true,
 				}, -- [11]
 				{
 					["flag_original"] = 8466,
-					["targets_overheal"] = {
+					["healing_from"] = {
+						["魂之信仰"] = true,
 					},
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["classe"] = "PET",
+					["aID"] = "31216",
 					["totalover"] = 0.015646,
 					["total_without_pet"] = 0.015646,
 					["total"] = 0.015646,
@@ -25924,26 +22838,25 @@ _detalhes_database = {
 					},
 					["totalover_without_pet"] = 0.015646,
 					["healing_taken"] = 279.015646,
-					["last_event"] = 0,
-					["boss_fight_component"] = true,
 					["end_time"] = 1666100941,
-					["healing_from"] = {
-						["魂之信仰"] = true,
+					["targets_overheal"] = {
 					},
 					["ownerName"] = "日出东芳",
-					["nome"] = "镜像 <日出东芳>",
-					["heal_enemy_amt"] = 0,
-					["aID"] = "31216",
-					["custom"] = 0,
-					["tipo"] = 2,
-					["start_time"] = 1666100938,
-					["totaldenied"] = 0.015646,
-					["delay"] = 0,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 3,
 					},
+					["last_event"] = 0,
+					["classe"] = "PET",
+					["totaldenied"] = 0.015646,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["heal_enemy_amt"] = 0,
+					["start_time"] = 1666100938,
+					["delay"] = 0,
+					["nome"] = "镜像 <日出东芳>",
 				}, -- [12]
 			},
 		}, -- [2]
@@ -25952,29 +22865,26 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["received"] = 450.004112,
-					["resource"] = 0.004112,
+					["resource"] = 0.021185,
 					["targets"] = {
-						["陌戮"] = 450,
+						["陌戮"] = 0,
 					},
 					["pets"] = {
 					},
 					["powertype"] = 1,
 					["classe"] = "WARRIOR",
 					["passiveover"] = 0.002215,
-					["boss_fight_component"] = true,
 					["total"] = 450.004112,
-					["tipo"] = 3,
-					["totalover"] = 0.002215,
 					["nome"] = "陌戮",
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 							[2687] = {
 								["total"] = 120,
 								["id"] = 2687,
 								["totalover"] = 0,
 								["targets"] = {
-									["陌戮"] = 120,
+									["陌戮"] = 0,
 								},
 								["counter"] = 7,
 							},
@@ -25983,7 +22893,7 @@ _detalhes_database = {
 								["id"] = 58362,
 								["totalover"] = 0,
 								["targets"] = {
-									["陌戮"] = 120,
+									["陌戮"] = 0,
 								},
 								["counter"] = 12,
 							},
@@ -25992,7 +22902,7 @@ _detalhes_database = {
 								["id"] = 12964,
 								["totalover"] = 0,
 								["targets"] = {
-									["陌戮"] = 131,
+									["陌戮"] = 0,
 								},
 								["counter"] = 140,
 							},
@@ -26001,7 +22911,7 @@ _detalhes_database = {
 								["id"] = 29131,
 								["totalover"] = 0,
 								["targets"] = {
-									["陌戮"] = 71,
+									["陌戮"] = 0,
 								},
 								["counter"] = 71,
 							},
@@ -26010,45 +22920,46 @@ _detalhes_database = {
 								["id"] = 63653,
 								["totalover"] = 0,
 								["targets"] = {
-									["陌戮"] = 8,
+									["陌戮"] = 0,
 								},
 								["counter"] = 1,
 							},
 						},
+						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["spec"] = 72,
-					["flag_original"] = 1298,
+					["aID"] = "4778-04AC8F71",
 					["alternatepower"] = 0.004112,
 					["last_event"] = 0,
-					["aID"] = "4778-04AC8F71",
+					["tipo"] = 3,
+					["flag_original"] = 1298,
+					["spec"] = 72,
 					["serial"] = "Player-4778-04AC8F71",
+					["totalover"] = 0.002215,
 				}, -- [1]
 				{
 					["received"] = 1385.008094,
-					["resource"] = 0.008094,
+					["resource"] = 0.05151900000000002,
 					["targets"] = {
-						["夕里安"] = 1385,
+						["夕里安"] = 0,
 					},
 					["pets"] = {
 					},
 					["powertype"] = 6,
 					["classe"] = "DEATHKNIGHT",
 					["passiveover"] = 0.003269,
-					["boss_fight_component"] = true,
 					["total"] = 1385.008094,
-					["totalover"] = 0.003269,
-					["tipo"] = 3,
+					["spec"] = 250,
 					["nome"] = "夕里安",
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 							[49909] = {
 								["total"] = 85,
 								["id"] = 49909,
 								["totalover"] = 0,
 								["targets"] = {
-									["夕里安"] = 85,
+									["夕里安"] = 0,
 								},
 								["counter"] = 13,
 							},
@@ -26057,34 +22968,34 @@ _detalhes_database = {
 								["id"] = 63652,
 								["totalover"] = 0,
 								["targets"] = {
-									["夕里安"] = 210,
+									["夕里安"] = 0,
 								},
 								["counter"] = 12,
 							},
-							[49921] = {
-								["total"] = 98,
-								["id"] = 49921,
+							[50842] = {
+								["total"] = 80,
+								["id"] = 50842,
 								["totalover"] = 0,
 								["targets"] = {
-									["夕里安"] = 98,
+									["夕里安"] = 0,
 								},
-								["counter"] = 13,
+								["counter"] = 15,
 							},
-							[49088] = {
-								["total"] = 150,
-								["id"] = 49088,
+							[55262] = {
+								["total"] = 469,
+								["id"] = 55262,
 								["totalover"] = 0,
 								["targets"] = {
-									["夕里安"] = 150,
+									["夕里安"] = 0,
 								},
-								["counter"] = 4,
+								["counter"] = 74,
 							},
 							[49924] = {
 								["total"] = 293,
 								["id"] = 49924,
 								["totalover"] = 0,
 								["targets"] = {
-									["夕里安"] = 293,
+									["夕里安"] = 0,
 								},
 								["counter"] = 33,
 							},
@@ -26097,65 +23008,64 @@ _detalhes_database = {
 								},
 								["counter"] = 2,
 							},
-							[55262] = {
-								["total"] = 469,
-								["id"] = 55262,
+							[49921] = {
+								["total"] = 98,
+								["id"] = 49921,
 								["totalover"] = 0,
 								["targets"] = {
-									["夕里安"] = 469,
+									["夕里安"] = 0,
 								},
-								["counter"] = 74,
+								["counter"] = 13,
 							},
-							[50842] = {
-								["total"] = 80,
-								["id"] = 50842,
+							[49088] = {
+								["total"] = 150,
+								["id"] = 49088,
 								["totalover"] = 0,
 								["targets"] = {
-									["夕里安"] = 80,
+									["夕里安"] = 0,
 								},
-								["counter"] = 15,
+								["counter"] = 4,
 							},
 						},
+						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["spec"] = 250,
-					["flag_original"] = 1300,
+					["aID"] = "4778-04F81AA5",
 					["alternatepower"] = 0.008094,
 					["last_event"] = 0,
-					["aID"] = "4778-04F81AA5",
+					["tipo"] = 3,
+					["flag_original"] = 1300,
 					["isTank"] = true,
 					["serial"] = "Player-4778-04F81AA5",
+					["totalover"] = 0.003269,
 				}, -- [2]
 				{
 					["received"] = 46453.015916,
-					["resource"] = 0.015916,
+					["resource"] = 0.091732,
 					["targets"] = {
-						["凸凸凹"] = 14555,
-						["Just"] = 3913,
-						["踏遍天涯"] = 14024,
-						["魂之信仰"] = 40887,
-						["大风车滋滋转"] = 16083,
-						["日出东芳"] = 13739,
+						["凸凸凹"] = 0,
+						["Just"] = 0,
+						["踏遍天涯"] = 0,
+						["日出东芳"] = 0,
+						["大风车滋滋转"] = 0,
+						["魂之信仰"] = 0,
 					},
 					["pets"] = {
 					},
 					["powertype"] = 0,
 					["classe"] = "PALADIN",
 					["passiveover"] = 0.007492,
-					["boss_fight_component"] = true,
 					["total"] = 103201.015916,
-					["tipo"] = 3,
-					["totalover"] = 0.007492,
 					["nome"] = "魂之信仰",
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 							[31930] = {
 								["total"] = 35142,
 								["id"] = 31930,
 								["totalover"] = 0,
 								["targets"] = {
-									["魂之信仰"] = 35142,
+									["魂之信仰"] = 0,
 								},
 								["counter"] = 36,
 							},
@@ -26164,7 +23074,7 @@ _detalhes_database = {
 								["id"] = 57319,
 								["totalover"] = 0,
 								["targets"] = {
-									["魂之信仰"] = 164,
+									["魂之信仰"] = 0,
 								},
 								["counter"] = 1,
 							},
@@ -26173,7 +23083,7 @@ _detalhes_database = {
 								["id"] = 63654,
 								["totalover"] = 0,
 								["targets"] = {
-									["魂之信仰"] = 164,
+									["魂之信仰"] = 0,
 								},
 								["counter"] = 1,
 							},
@@ -26182,50 +23092,50 @@ _detalhes_database = {
 								["id"] = 57669,
 								["totalover"] = 0,
 								["targets"] = {
-									["凸凸凹"] = 14555,
-									["Just"] = 3913,
-									["踏遍天涯"] = 14024,
-									["魂之信仰"] = 5417,
-									["大风车滋滋转"] = 16083,
-									["日出东芳"] = 13739,
+									["凸凸凹"] = 0,
+									["Just"] = 0,
+									["踏遍天涯"] = 0,
+									["日出东芳"] = 0,
+									["大风车滋滋转"] = 0,
+									["魂之信仰"] = 0,
 								},
 								["counter"] = 1891,
 							},
 						},
+						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["spec"] = 70,
-					["flag_original"] = 1298,
+					["aID"] = "4778-0520EB5E",
 					["alternatepower"] = 0.015916,
 					["last_event"] = 0,
-					["aID"] = "4778-0520EB5E",
+					["tipo"] = 3,
+					["flag_original"] = 1298,
+					["spec"] = 70,
 					["serial"] = "Player-4778-0520EB5E",
+					["totalover"] = 0.007492,
 				}, -- [3]
 				{
 					["received"] = 50091.007403,
-					["resource"] = 0.007403,
+					["resource"] = 0.05152099999999998,
 					["targets"] = {
-						["踏遍天涯"] = 30496,
+						["踏遍天涯"] = 0,
 					},
 					["pets"] = {
 					},
 					["powertype"] = 0,
 					["classe"] = "DRUID",
 					["passiveover"] = 0.002501,
-					["boss_fight_component"] = true,
 					["total"] = 30496.007403,
-					["tipo"] = 3,
-					["totalover"] = 0.002501,
 					["nome"] = "踏遍天涯",
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 							[54833] = {
 								["total"] = 1572,
 								["id"] = 54833,
 								["totalover"] = 0,
 								["targets"] = {
-									["踏遍天涯"] = 1572,
+									["踏遍天涯"] = 0,
 								},
 								["counter"] = 10,
 							},
@@ -26234,7 +23144,7 @@ _detalhes_database = {
 								["id"] = 29166,
 								["totalover"] = 0,
 								["targets"] = {
-									["踏遍天涯"] = 7866,
+									["踏遍天涯"] = 0,
 								},
 								["counter"] = 10,
 							},
@@ -26243,51 +23153,51 @@ _detalhes_database = {
 								["id"] = 53506,
 								["totalover"] = 0,
 								["targets"] = {
-									["踏遍天涯"] = 21058,
+									["踏遍天涯"] = 0,
 								},
 								["counter"] = 52,
 							},
 						},
+						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["spec"] = 102,
-					["flag_original"] = 1300,
+					["aID"] = "4778-018E44DC",
 					["alternatepower"] = 0.007403,
 					["last_event"] = 0,
-					["aID"] = "4778-018E44DC",
+					["tipo"] = 3,
+					["flag_original"] = 1300,
+					["spec"] = 102,
 					["serial"] = "Player-4778-018E44DC",
+					["totalover"] = 0.002501,
 				}, -- [4]
 				{
 					["received"] = 53299.011952,
-					["resource"] = 0.011952,
+					["resource"] = 0.08179200000000003,
 					["targets"] = {
-						["凸凸凹"] = 38051,
-						["Just"] = 3499,
-						["踏遍天涯"] = 2798,
-						["魂之信仰"] = 5566,
-						["镜像 <日出东芳>"] = 1048,
-						["大风车滋滋转"] = 77,
-						["日出东芳"] = 1963,
+						["凸凸凹"] = 0,
+						["Just"] = 0,
+						["踏遍天涯"] = 0,
+						["日出东芳"] = 0,
+						["大风车滋滋转"] = 0,
+						["镜像 <日出东芳>"] = 0,
+						["魂之信仰"] = 0,
 					},
 					["pets"] = {
 					},
 					["powertype"] = 0,
 					["classe"] = "PALADIN",
 					["passiveover"] = 0.004192,
-					["boss_fight_component"] = true,
 					["total"] = 53002.011952,
-					["tipo"] = 3,
-					["totalover"] = 0.004192,
 					["nome"] = "凸凸凹",
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 							[20272] = {
 								["total"] = 5883,
 								["id"] = 20272,
 								["totalover"] = 0,
 								["targets"] = {
-									["凸凸凹"] = 5883,
+									["凸凸凹"] = 0,
 								},
 								["counter"] = 48,
 							},
@@ -26296,7 +23206,7 @@ _detalhes_database = {
 								["id"] = 20168,
 								["totalover"] = 0,
 								["targets"] = {
-									["凸凸凹"] = 11767,
+									["凸凸凹"] = 0,
 								},
 								["counter"] = 18,
 							},
@@ -26305,7 +23215,7 @@ _detalhes_database = {
 								["id"] = 43186,
 								["totalover"] = 0,
 								["targets"] = {
-									["凸凸凹"] = 4324,
+									["凸凸凹"] = 0,
 								},
 								["counter"] = 1,
 							},
@@ -26314,13 +23224,13 @@ _detalhes_database = {
 								["id"] = 20268,
 								["totalover"] = 0,
 								["targets"] = {
-									["凸凸凹"] = 25,
-									["Just"] = 3499,
-									["踏遍天涯"] = 2798,
-									["魂之信仰"] = 5566,
-									["镜像 <日出东芳>"] = 1048,
-									["大风车滋滋转"] = 77,
-									["日出东芳"] = 1963,
+									["凸凸凹"] = 0,
+									["Just"] = 0,
+									["踏遍天涯"] = 0,
+									["日出东芳"] = 0,
+									["大风车滋滋转"] = 0,
+									["镜像 <日出东芳>"] = 0,
+									["魂之信仰"] = 0,
 								},
 								["counter"] = 207,
 							},
@@ -26329,69 +23239,69 @@ _detalhes_database = {
 								["id"] = 60242,
 								["totalover"] = 0,
 								["targets"] = {
-									["凸凸凹"] = 1500,
+									["凸凸凹"] = 0,
 								},
 								["counter"] = 1,
-							},
-							[55382] = {
-								["total"] = 3000,
-								["id"] = 55382,
-								["totalover"] = 0,
-								["targets"] = {
-									["凸凸凹"] = 3000,
-								},
-								["counter"] = 5,
 							},
 							[54428] = {
 								["total"] = 11552,
 								["id"] = 54428,
 								["totalover"] = 0,
 								["targets"] = {
-									["凸凸凹"] = 11552,
+									["凸凸凹"] = 0,
 								},
 								["counter"] = 10,
 							},
+							[55382] = {
+								["total"] = 3000,
+								["id"] = 55382,
+								["totalover"] = 0,
+								["targets"] = {
+									["凸凸凹"] = 0,
+								},
+								["counter"] = 5,
+							},
 						},
+						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["spec"] = 65,
-					["flag_original"] = 1300,
+					["aID"] = "4778-04F57291",
 					["alternatepower"] = 0.011952,
 					["last_event"] = 0,
-					["aID"] = "4778-04F57291",
+					["tipo"] = 3,
+					["flag_original"] = 1300,
+					["spec"] = 65,
 					["serial"] = "Player-4778-04F57291",
+					["totalover"] = 0.004192,
 				}, -- [5]
 				{
 					["received"] = 33642.005508,
-					["resource"] = 0.005508000000000001,
+					["resource"] = 0.015543,
 					["targets"] = {
-						["大风车滋滋转"] = 17482,
-						["凸凸凹"] = 693,
-						["日出东芳"] = 2960,
-						["踏遍天涯"] = 2773,
+						["踏遍天涯"] = 0,
+						["凸凸凹"] = 0,
+						["日出东芳"] = 0,
+						["大风车滋滋转"] = 0,
 					},
 					["pets"] = {
 					},
 					["powertype"] = 0,
 					["classe"] = "PRIEST",
 					["passiveover"] = 0.004393,
-					["boss_fight_component"] = true,
 					["total"] = 23908.005508,
-					["tipo"] = 3,
-					["totalover"] = 0.004393,
 					["nome"] = "大风车滋滋转",
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 							[64904] = {
 								["total"] = 8806,
 								["id"] = 64904,
 								["totalover"] = 0,
 								["targets"] = {
-									["大风车滋滋转"] = 2380,
-									["凸凸凹"] = 693,
-									["日出东芳"] = 2960,
-									["踏遍天涯"] = 2773,
+									["踏遍天涯"] = 0,
+									["凸凸凹"] = 0,
+									["日出东芳"] = 0,
+									["大风车滋滋转"] = 0,
 								},
 								["counter"] = 12,
 							},
@@ -26400,7 +23310,7 @@ _detalhes_database = {
 								["id"] = 43186,
 								["totalover"] = 0,
 								["targets"] = {
-									["大风车滋滋转"] = 4297,
+									["大风车滋滋转"] = 0,
 								},
 								["counter"] = 1,
 							},
@@ -26409,139 +23319,140 @@ _detalhes_database = {
 								["id"] = 47755,
 								["totalover"] = 0,
 								["targets"] = {
-									["大风车滋滋转"] = 10805,
+									["大风车滋滋转"] = 0,
 								},
 								["counter"] = 19,
 							},
 						},
+						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["spec"] = 256,
-					["flag_original"] = 1298,
+					["aID"] = "4778-04D4E39F",
 					["alternatepower"] = 0.005508000000000001,
 					["last_event"] = 0,
-					["aID"] = "4778-04D4E39F",
+					["tipo"] = 3,
+					["flag_original"] = 1298,
+					["spec"] = 256,
 					["serial"] = "Player-4778-04D4E39F",
+					["totalover"] = 0.004393,
 				}, -- [6]
 				{
 					["received"] = 790.006929,
-					["resource"] = 0.006929,
+					["resource"] = 0.053243,
 					["targets"] = {
-						["雪花丶有点飘"] = 790,
+						["雪花丶有点飘"] = 0,
 					},
 					["pets"] = {
 					},
 					["powertype"] = 3,
 					["classe"] = "ROGUE",
 					["passiveover"] = 0.001783,
-					["boss_fight_component"] = true,
 					["total"] = 790.006929,
-					["tipo"] = 3,
-					["totalover"] = 0.001783,
 					["nome"] = "雪花丶有点飘",
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 							[51637] = {
 								["total"] = 790,
 								["id"] = 51637,
 								["totalover"] = 0,
 								["targets"] = {
-									["雪花丶有点飘"] = 790,
+									["雪花丶有点飘"] = 0,
 								},
 								["counter"] = 395,
 							},
 						},
+						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["spec"] = 259,
-					["flag_original"] = 1300,
+					["aID"] = "4778-048F0669",
 					["alternatepower"] = 0.006929,
 					["last_event"] = 0,
-					["aID"] = "4778-048F0669",
+					["tipo"] = 3,
+					["flag_original"] = 1300,
+					["spec"] = 259,
 					["serial"] = "Player-4778-048F0669",
+					["totalover"] = 0.001783,
 				}, -- [7]
 				{
-					["received"] = 1523.015352,
-					["resource"] = 0.015352,
+					["received"] = 1562.017673,
+					["resource"] = 0.08839199999999997,
 					["targets"] = {
-						["特变电工"] = 1523,
+						["特变电工"] = 0,
 					},
 					["pets"] = {
 					},
 					["powertype"] = 3,
 					["classe"] = "ROGUE",
 					["passiveover"] = 0.008268,
-					["boss_fight_component"] = true,
-					["total"] = 1523.015352,
-					["tipo"] = 3,
-					["totalover"] = 0.008268,
+					["total"] = 1562.017673,
 					["nome"] = "特变电工",
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 							[14181] = {
-								["total"] = 900,
+								["total"] = 925,
 								["id"] = 14181,
 								["totalover"] = 0,
 								["targets"] = {
-									["特变电工"] = 900,
+									["特变电工"] = 0,
 								},
-								["counter"] = 36,
+								["counter"] = 37,
 							},
 							[51637] = {
-								["total"] = 607,
+								["total"] = 621,
 								["id"] = 51637,
 								["totalover"] = 0,
 								["targets"] = {
-									["特变电工"] = 607,
+									["特变电工"] = 0,
 								},
-								["counter"] = 307,
+								["counter"] = 314,
 							},
 							[63655] = {
 								["total"] = 16,
 								["id"] = 63655,
 								["totalover"] = 0,
 								["targets"] = {
-									["特变电工"] = 16,
+									["特变电工"] = 0,
 								},
 								["counter"] = 1,
 							},
 						},
+						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["spec"] = 259,
-					["flag_original"] = 1297,
-					["alternatepower"] = 0.015352,
-					["last_event"] = 0,
 					["aID"] = "4778-04DBFC9E",
+					["alternatepower"] = 0.017673,
+					["last_event"] = 0,
+					["tipo"] = 3,
+					["flag_original"] = 1297,
+					["spec"] = 259,
 					["serial"] = "Player-4778-04DBFC9E",
+					["totalover"] = 0.008268,
 				}, -- [8]
 				{
 					["received"] = 73107.010839,
-					["resource"] = 0.010839,
+					["resource"] = 0.054615,
 					["targets"] = {
-						["Just"] = 65695,
+						["Just"] = 0,
 					},
 					["pets"] = {
 					},
 					["powertype"] = 0,
 					["classe"] = "PALADIN",
 					["passiveover"] = 0.005975,
-					["boss_fight_component"] = true,
 					["total"] = 65695.010839,
-					["totalover"] = 0.005975,
-					["tipo"] = 3,
+					["spec"] = 66,
 					["nome"] = "Just",
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 							[54428] = {
 								["total"] = 33374,
 								["id"] = 54428,
 								["totalover"] = 0,
 								["targets"] = {
-									["Just"] = 33374,
+									["Just"] = 0,
 								},
 								["counter"] = 93,
 							},
@@ -26550,7 +23461,7 @@ _detalhes_database = {
 								["id"] = 57319,
 								["totalover"] = 0,
 								["targets"] = {
-									["Just"] = 22825,
+									["Just"] = 0,
 								},
 								["counter"] = 249,
 							},
@@ -26559,7 +23470,7 @@ _detalhes_database = {
 								["id"] = 31786,
 								["totalover"] = 0,
 								["targets"] = {
-									["Just"] = 9336,
+									["Just"] = 0,
 								},
 								["counter"] = 188,
 							},
@@ -26568,26 +23479,28 @@ _detalhes_database = {
 								["id"] = 63654,
 								["totalover"] = 0,
 								["targets"] = {
-									["Just"] = 160,
+									["Just"] = 0,
 								},
 								["counter"] = 4,
 							},
 						},
+						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["spec"] = 66,
-					["flag_original"] = 132372,
+					["aID"] = "4778-04D9BDE6",
 					["alternatepower"] = 0.010839,
 					["last_event"] = 0,
-					["aID"] = "4778-04D9BDE6",
+					["tipo"] = 3,
+					["flag_original"] = 132372,
 					["isTank"] = true,
 					["serial"] = "Player-4778-04D9BDE6",
+					["totalover"] = 0.005975,
 				}, -- [9]
 				{
 					["received"] = 35118.00962,
-					["resource"] = 0.00962,
+					["resource"] = 0.037961,
 					["targets"] = {
-						["日出东芳"] = 16456,
+						["日出东芳"] = 0,
 					},
 					["pets"] = {
 						"镜像 <日出东芳>", -- [1]
@@ -26595,20 +23508,17 @@ _detalhes_database = {
 					["powertype"] = 0,
 					["classe"] = "MAGE",
 					["passiveover"] = 0.006471,
-					["boss_fight_component"] = true,
 					["total"] = 16456.00962,
-					["tipo"] = 3,
-					["totalover"] = 0.006471,
 					["nome"] = "日出东芳",
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 							[42987] = {
 								["total"] = 6802,
 								["id"] = 42987,
 								["totalover"] = 0,
 								["targets"] = {
-									["日出东芳"] = 6802,
+									["日出东芳"] = 0,
 								},
 								["counter"] = 2,
 							},
@@ -26617,46 +23527,49 @@ _detalhes_database = {
 								["id"] = 12051,
 								["totalover"] = 0,
 								["targets"] = {
-									["日出东芳"] = 9654,
+									["日出东芳"] = 0,
 								},
 								["counter"] = 3,
 							},
 						},
+						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["spec"] = 62,
-					["flag_original"] = 1298,
+					["aID"] = "4778-04605F8E",
 					["alternatepower"] = 0.00962,
 					["last_event"] = 0,
-					["aID"] = "4778-04605F8E",
+					["tipo"] = 3,
+					["flag_original"] = 1298,
+					["spec"] = 62,
 					["serial"] = "Player-4778-04605F8E",
+					["totalover"] = 0.006471,
 				}, -- [10]
 				{
 					["received"] = 1048.009752,
-					["resource"] = 0.009752,
-					["boss_fight_component"] = true,
+					["resource"] = 0.05722700000000001,
 					["targets"] = {
 					},
-					["totalover"] = 0.004477,
 					["pets"] = {
 					},
 					["powertype"] = 0,
 					["classe"] = "PET",
-					["passiveover"] = 0.004477,
-					["tipo"] = 3,
+					["totalover"] = 0.004477,
 					["total"] = 0.009752,
 					["ownerName"] = "日出东芳",
-					["nome"] = "镜像 <日出东芳>",
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 7,
 					},
-					["flag_original"] = 8466,
-					["alternatepower"] = 0.009752,
-					["last_event"] = 0,
+					["nome"] = "镜像 <日出东芳>",
 					["aID"] = "31216",
+					["last_event"] = 0,
+					["tipo"] = 3,
+					["alternatepower"] = 0.009752,
+					["flag_original"] = 8466,
 					["serial"] = "Creature-0-5002-615-15071-31216-0000CEAE59",
+					["passiveover"] = 0.004477,
 				}, -- [11]
 			},
 		}, -- [3]
@@ -26666,39 +23579,39 @@ _detalhes_database = {
 				{
 					["flag_original"] = 1300,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[55078] = {
-								["refreshamt"] = 5,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 12,
 								["id"] = 55078,
 								["uptime"] = 340,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 5,
 							},
 							[55095] = {
-								["refreshamt"] = 9,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 9,
 								["id"] = 55095,
 								["uptime"] = 360,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 9,
 							},
 							[49560] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 1,
 								["id"] = 49560,
 								["uptime"] = 3,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["cooldowns_defensive"] = 8.012862000000002,
 					["pets"] = {
@@ -26708,147 +23621,146 @@ _detalhes_database = {
 						["夕里安"] = 8,
 					},
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[64859] = {
-								["refreshamt"] = 157,
+								["counter"] = 0,
 								["activedamt"] = 5,
 								["appliedamt"] = 5,
 								["id"] = 64859,
 								["uptime"] = 332,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 157,
 							},
 							[48263] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 48263,
 								["uptime"] = 366,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[62146] = {
-								["refreshamt"] = 8,
+								["counter"] = 0,
 								["activedamt"] = 6,
 								["appliedamt"] = 6,
 								["id"] = 62146,
 								["uptime"] = 248,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 8,
 							},
 							[57399] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 57399,
 								["uptime"] = 366,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[48707] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 6,
 								["appliedamt"] = 6,
 								["id"] = 48707,
 								["uptime"] = 24,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[57820] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 57820,
 								["uptime"] = 366,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[51911] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 3,
 								["appliedamt"] = 3,
 								["id"] = 51911,
 								["uptime"] = 4,
 								["targets"] = {
 								},
-								["counter"] = 0,
-							},
-							[55018] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 7,
-								["appliedamt"] = 7,
-								["id"] = 55018,
-								["uptime"] = 70,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[48792] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 2,
-								["appliedamt"] = 2,
-								["id"] = 48792,
-								["uptime"] = 24,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[53138] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 53138,
-								["uptime"] = 366,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[53758] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 53758,
-								["uptime"] = 366,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[57623] = {
-								["refreshamt"] = 1,
-								["activedamt"] = 2,
-								["appliedamt"] = 2,
-								["id"] = 57623,
-								["uptime"] = 366,
-								["targets"] = {
-								},
-								["counter"] = 0,
 							},
 							[60218] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 2,
 								["appliedamt"] = 2,
 								["id"] = 60218,
 								["uptime"] = 20,
 								["targets"] = {
 								},
+								["refreshamt"] = 0,
+							},
+							[48792] = {
 								["counter"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 48792,
+								["uptime"] = 24,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[57623] = {
+								["counter"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 57623,
+								["uptime"] = 366,
+								["targets"] = {
+								},
+								["refreshamt"] = 1,
+							},
+							[55018] = {
+								["counter"] = 0,
+								["activedamt"] = 7,
+								["appliedamt"] = 7,
+								["id"] = 55018,
+								["uptime"] = 70,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[53758] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 53758,
+								["uptime"] = 366,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[53138] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 53138,
+								["uptime"] = 366,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
+					["boss_fight_component"] = true,
+					["debuff_uptime"] = 703,
 					["debuff_uptime_targets"] = {
 					},
-					["debuff_uptime"] = 703,
-					["buff_uptime_targets"] = {
-					},
-					["buff_uptime"] = 2918,
-					["boss_fight_component"] = true,
+					["serial"] = "Player-4778-04F81AA5",
+					["nome"] = "夕里安",
 					["spec"] = 250,
 					["grupo"] = true,
 					["spell_cast"] = {
@@ -26860,12 +23772,16 @@ _detalhes_database = {
 						[49924] = 36,
 						[48792] = 2,
 						[49895] = 7,
-						[48707] = 6,
-						[49909] = 13,
 						[49576] = 1,
+						[49909] = 13,
+						[48707] = 6,
 					},
+					["classe"] = "DEATHKNIGHT",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["buff_uptime"] = 2918,
+					["isTank"] = true,
 					["cooldowns_defensive_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[48707] = {
 								["id"] = 48707,
@@ -26882,50 +23798,47 @@ _detalhes_database = {
 								["counter"] = 2,
 							},
 						},
+						["tipo"] = 9,
 					},
-					["classe"] = "DEATHKNIGHT",
-					["tipo"] = 4,
-					["nome"] = "夕里安",
-					["isTank"] = true,
-					["serial"] = "Player-4778-04F81AA5",
-					["last_event"] = 0,
+					["buff_uptime_targets"] = {
+					},
 				}, -- [1]
 				{
 					["flag_original"] = 1300,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[57634] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 1,
 								["id"] = 57634,
 								["uptime"] = 3,
 								["targets"] = {
 								},
-								["counter"] = 0,
-							},
-							[48676] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 0,
-								["appliedamt"] = 1,
-								["id"] = 48676,
-								["uptime"] = 15,
-								["targets"] = {
-								},
-								["counter"] = 0,
 							},
 							[57970] = {
-								["refreshamt"] = 276,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 29,
 								["id"] = 57970,
 								["uptime"] = 357,
 								["targets"] = {
 								},
+								["refreshamt"] = 276,
+							},
+							[48676] = {
 								["counter"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 1,
+								["id"] = 48676,
+								["uptime"] = 15,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["cooldowns_defensive"] = 2.01487,
 					["pets"] = {
@@ -26935,166 +23848,165 @@ _detalhes_database = {
 						["雪花丶有点飘"] = 2,
 					},
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[14177] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 2,
 								["appliedamt"] = 2,
 								["id"] = 14177,
 								["uptime"] = 5,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[53760] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 53760,
 								["uptime"] = 366,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[63848] = {
-								["refreshamt"] = 5,
+								["counter"] = 0,
 								["activedamt"] = 3,
 								["appliedamt"] = 3,
 								["id"] = 63848,
 								["uptime"] = 345,
 								["targets"] = {
 								},
-								["counter"] = 0,
-							},
-							[59628] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 7,
-								["appliedamt"] = 7,
-								["id"] = 59628,
-								["uptime"] = 42,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[11305] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 11305,
-								["uptime"] = 15,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[58427] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 58427,
-								["uptime"] = 23,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[57820] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 57820,
-								["uptime"] = 366,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[1784] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 1784,
-								["uptime"] = 3,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[57399] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 57399,
-								["uptime"] = 366,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[57934] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 7,
-								["appliedamt"] = 7,
-								["id"] = 57934,
-								["uptime"] = 18,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[60439] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 3,
-								["appliedamt"] = 3,
-								["id"] = 60439,
-								["uptime"] = 60,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[60065] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 7,
-								["appliedamt"] = 7,
-								["id"] = 60065,
-								["uptime"] = 66,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[6774] = {
-								["refreshamt"] = 1,
-								["activedamt"] = 5,
-								["appliedamt"] = 5,
-								["id"] = 6774,
-								["uptime"] = 311,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[57993] = {
-								["refreshamt"] = 1,
-								["activedamt"] = 19,
-								["appliedamt"] = 19,
-								["id"] = 57993,
-								["uptime"] = 109,
-								["targets"] = {
-								},
-								["counter"] = 0,
+								["refreshamt"] = 5,
 							},
 							[31224] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 2,
 								["appliedamt"] = 2,
 								["id"] = 31224,
 								["uptime"] = 10,
 								["targets"] = {
 								},
+								["refreshamt"] = 0,
+							},
+							[11305] = {
 								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 11305,
+								["uptime"] = 15,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[58427] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 58427,
+								["uptime"] = 23,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[57820] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 57820,
+								["uptime"] = 366,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[59628] = {
+								["counter"] = 0,
+								["activedamt"] = 7,
+								["appliedamt"] = 7,
+								["id"] = 59628,
+								["uptime"] = 42,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[57993] = {
+								["counter"] = 0,
+								["activedamt"] = 19,
+								["appliedamt"] = 19,
+								["id"] = 57993,
+								["uptime"] = 109,
+								["targets"] = {
+								},
+								["refreshamt"] = 1,
+							},
+							[57934] = {
+								["counter"] = 0,
+								["activedamt"] = 7,
+								["appliedamt"] = 7,
+								["id"] = 57934,
+								["uptime"] = 18,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[6774] = {
+								["counter"] = 0,
+								["activedamt"] = 5,
+								["appliedamt"] = 5,
+								["id"] = 6774,
+								["uptime"] = 311,
+								["targets"] = {
+								},
+								["refreshamt"] = 1,
+							},
+							[60065] = {
+								["counter"] = 0,
+								["activedamt"] = 7,
+								["appliedamt"] = 7,
+								["id"] = 60065,
+								["uptime"] = 66,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[60439] = {
+								["counter"] = 0,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 60439,
+								["uptime"] = 60,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[57399] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 57399,
+								["uptime"] = 366,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[1784] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 1784,
+								["uptime"] = 3,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["debuff_uptime"] = 375,
-					["debuff_uptime_targets"] = {
-					},
+					["serial"] = "Player-4778-048F0669",
+					["nome"] = "雪花丶有点飘",
 					["buff_uptime_targets"] = {
 					},
-					["boss_fight_component"] = true,
 					["spec"] = 259,
 					["grupo"] = true,
 					["spell_cast"] = {
@@ -27106,13 +24018,16 @@ _detalhes_database = {
 						[6774] = 6,
 						[8643] = 1,
 						[57934] = 6,
-						[60439] = 3,
-						[48666] = 45,
 						[51723] = 19,
+						[48666] = 45,
+						[60439] = 3,
 					},
+					["classe"] = "ROGUE",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["boss_fight_component"] = true,
 					["buff_uptime"] = 2105,
 					["cooldowns_defensive_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[31224] = {
 								["id"] = 31224,
@@ -27122,304 +24037,301 @@ _detalhes_database = {
 								["counter"] = 2,
 							},
 						},
+						["tipo"] = 9,
 					},
-					["tipo"] = 4,
-					["classe"] = "ROGUE",
-					["nome"] = "雪花丶有点飘",
-					["serial"] = "Player-4778-048F0669",
-					["last_event"] = 0,
+					["debuff_uptime_targets"] = {
+					},
 				}, -- [2]
 				{
 					["flag_original"] = 1300,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[68055] = {
-								["refreshamt"] = 9,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 19,
 								["id"] = 68055,
 								["uptime"] = 256,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 9,
 							},
 							[48819] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 5,
 								["appliedamt"] = 147,
 								["id"] = 48819,
 								["uptime"] = 229,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[48827] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 13,
 								["id"] = 48827,
 								["uptime"] = 63,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[20184] = {
-								["refreshamt"] = 18,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 11,
 								["id"] = 20184,
 								["uptime"] = 296,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 18,
 							},
 							[54499] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 10,
 								["id"] = 54499,
 								["uptime"] = 71,
 								["targets"] = {
 								},
-								["counter"] = 0,
-							},
-							[63529] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 0,
-								["appliedamt"] = 13,
-								["id"] = 63529,
-								["uptime"] = 25,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[62124] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 0,
-								["appliedamt"] = 4,
-								["id"] = 62124,
-								["uptime"] = 12,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[26017] = {
-								["refreshamt"] = 63,
-								["activedamt"] = 1,
-								["appliedamt"] = 33,
-								["id"] = 26017,
-								["uptime"] = 311,
-								["targets"] = {
-								},
-								["counter"] = 0,
 							},
 							[57634] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 1,
 								["id"] = 57634,
 								["uptime"] = 2,
 								["targets"] = {
 								},
+								["refreshamt"] = 0,
+							},
+							[62124] = {
 								["counter"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 4,
+								["id"] = 62124,
+								["uptime"] = 12,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[26017] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 33,
+								["id"] = 26017,
+								["uptime"] = 311,
+								["targets"] = {
+								},
+								["refreshamt"] = 63,
+							},
+							[63529] = {
+								["counter"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 13,
+								["id"] = 63529,
+								["uptime"] = 25,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
 					["classe"] = "PALADIN",
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[57399] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 57399,
 								["uptime"] = 366,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[23214] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 23214,
 								["uptime"] = 4,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[60286] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 60286,
 								["uptime"] = 20,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[54428] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 54428,
 								["uptime"] = 342,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[48942] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 48942,
 								["uptime"] = 366,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[20132] = {
-								["refreshamt"] = 4,
+								["counter"] = 0,
 								["activedamt"] = 6,
 								["appliedamt"] = 6,
 								["id"] = 20132,
 								["uptime"] = 58,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 4,
 							},
 							[53749] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 53749,
 								["uptime"] = 366,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[25899] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 25899,
 								["uptime"] = 366,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[53601] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 2,
 								["appliedamt"] = 2,
 								["id"] = 53601,
 								["uptime"] = 120,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[48952] = {
-								["refreshamt"] = 12,
+								["counter"] = 0,
 								["activedamt"] = 8,
 								["appliedamt"] = 8,
 								["id"] = 48952,
 								["uptime"] = 120,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 12,
 							},
 							[60795] = {
-								["refreshamt"] = 36,
+								["counter"] = 0,
 								["activedamt"] = 18,
 								["appliedamt"] = 18,
 								["id"] = 60795,
 								["uptime"] = 280,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 36,
 							},
 							[25780] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 25780,
 								["uptime"] = 366,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[58597] = {
-								["refreshamt"] = 2,
+								["counter"] = 0,
 								["activedamt"] = 14,
 								["appliedamt"] = 14,
 								["id"] = 58597,
 								["uptime"] = 34,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 2,
 							},
 							[53763] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 53763,
 								["uptime"] = 366,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[28093] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 6,
 								["appliedamt"] = 6,
 								["id"] = 28093,
 								["uptime"] = 78,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[20375] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 20375,
 								["uptime"] = 366,
 								["targets"] = {
 								},
-								["counter"] = 0,
-							},
-							[20178] = {
-								["refreshamt"] = 2,
-								["activedamt"] = 6,
-								["appliedamt"] = 6,
-								["id"] = 20178,
-								["uptime"] = 48,
-								["targets"] = {
-								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[57819] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 57819,
 								["uptime"] = 366,
 								["targets"] = {
 								},
+								["refreshamt"] = 0,
+							},
+							[20178] = {
 								["counter"] = 0,
+								["activedamt"] = 6,
+								["appliedamt"] = 6,
+								["id"] = 20178,
+								["uptime"] = 48,
+								["targets"] = {
+								},
+								["refreshamt"] = 2,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["debuff_uptime"] = 1265,
+					["boss_fight_component"] = true,
+					["aID"] = "4778-04D9BDE6",
 					["debuff_uptime_targets"] = {
 					},
-					["buff_uptime_targets"] = {
-					},
-					["boss_fight_component"] = true,
 					["spec"] = 66,
 					["grupo"] = true,
 					["spell_cast"] = {
@@ -27431,63 +24343,61 @@ _detalhes_database = {
 						[48827] = 10,
 						[20424] = 224,
 						[48806] = 4,
-						[48952] = 14,
+						[60286] = 1,
 						[62124] = 4,
 						[53601] = 2,
-						[60286] = 1,
+						[48952] = 14,
 					},
 					["buff_uptime"] = 4032,
-					["nome"] = "Just",
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["tipo"] = 4,
+					["nome"] = "Just",
 					["isTank"] = true,
 					["serial"] = "Player-4778-04D9BDE6",
-					["aID"] = "4778-04D9BDE6",
+					["buff_uptime_targets"] = {
+					},
 				}, -- [3]
 				{
 					["flag_original"] = 1300,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[20186] = {
-								["refreshamt"] = 12,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 9,
 								["id"] = 20186,
 								["uptime"] = 327,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 12,
 							},
 							[25771] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 1,
 								["id"] = 25771,
 								["uptime"] = 120,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[10308] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 1,
 								["id"] = 10308,
 								["uptime"] = 6,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 						},
-					},
-					["buff_uptime_targets"] = {
+						["tipo"] = 9,
 					},
 					["cooldowns_defensive"] = 1.009129,
 					["pets"] = {
 					},
 					["cc_done_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[10308] = {
 								["id"] = 10308,
@@ -27497,181 +24407,189 @@ _detalhes_database = {
 								["counter"] = 1,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["classe"] = "PALADIN",
 					["cooldowns_defensive_targets"] = {
 						["凸凸凹"] = 1,
 					},
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[31834] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 23,
 								["appliedamt"] = 23,
 								["id"] = 31834,
 								["uptime"] = 157,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[25898] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 25898,
 								["uptime"] = 366,
 								["targets"] = {
 								},
-								["counter"] = 0,
-							},
-							[60062] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 6,
-								["appliedamt"] = 6,
-								["id"] = 60062,
-								["uptime"] = 60,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[57399] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 57399,
-								["uptime"] = 366,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[54212] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 54212,
-								["uptime"] = 366,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[48947] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 48947,
-								["uptime"] = 366,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[70940] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 70940,
-								["uptime"] = 6,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[57819] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 57819,
-								["uptime"] = 366,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[20166] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 20166,
-								["uptime"] = 366,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[57350] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 57350,
-								["uptime"] = 6,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[64205] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 64205,
-								["uptime"] = 10,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[642] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 642,
-								["uptime"] = 12,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[54153] = {
-								["refreshamt"] = 37,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 54153,
-								["uptime"] = 358,
-								["targets"] = {
-								},
-								["counter"] = 0,
 							},
 							[54428] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 2,
 								["appliedamt"] = 2,
 								["id"] = 54428,
 								["uptime"] = 30,
 								["targets"] = {
 								},
+								["refreshamt"] = 0,
+							},
+							[57399] = {
 								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 57399,
+								["uptime"] = 366,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[60062] = {
+								["counter"] = 0,
+								["activedamt"] = 6,
+								["appliedamt"] = 6,
+								["id"] = 60062,
+								["uptime"] = 60,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[54153] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 54153,
+								["uptime"] = 358,
+								["targets"] = {
+								},
+								["refreshamt"] = 37,
+							},
+							[70940] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 70940,
+								["uptime"] = 6,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[642] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 642,
+								["uptime"] = 12,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[20166] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 20166,
+								["uptime"] = 366,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[64205] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 64205,
+								["uptime"] = 10,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[57350] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 57350,
+								["uptime"] = 6,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[57819] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 57819,
+								["uptime"] = 366,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[48947] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 48947,
+								["uptime"] = 366,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[54212] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 54212,
+								["uptime"] = 366,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
-					["debuff_uptime_targets"] = {
-					},
-					["debuff_uptime"] = 453,
-					["buff_uptime"] = 2835,
-					["cc_done"] = 1.010777,
-					["nome"] = "凸凸凹",
-					["spec"] = 65,
-					["grupo"] = true,
 					["spell_cast"] = {
 						[48825] = 6,
 						[48788] = 1,
 						[43186] = 1,
 						[48782] = 23,
-						[48785] = 138,
-						[53408] = 22,
-						[10308] = 1,
+						[54428] = 2,
 						[642] = 1,
+						[10308] = 1,
+						[48785] = 138,
 						[57350] = 1,
 						[64205] = 1,
 						[53563] = 3,
 						[53601] = 2,
-						[54428] = 2,
+						[53408] = 22,
 					},
+					["aID"] = "4778-04F57291",
+					["debuff_uptime"] = 453,
+					["serial"] = "Player-4778-04F57291",
+					["cc_done"] = 1.010777,
+					["buff_uptime_targets"] = {
+					},
+					["spec"] = 65,
+					["grupo"] = true,
+					["cc_done_targets"] = {
+						["熔岩烈焰"] = 1,
+					},
+					["boss_fight_component"] = true,
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["buff_uptime"] = 2835,
+					["nome"] = "凸凸凹",
 					["cooldowns_defensive_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[642] = {
 								["id"] = 642,
@@ -27681,72 +24599,67 @@ _detalhes_database = {
 								["counter"] = 1,
 							},
 						},
+						["tipo"] = 9,
 					},
-					["boss_fight_component"] = true,
-					["tipo"] = 4,
-					["cc_done_targets"] = {
-						["熔岩烈焰"] = 1,
+					["debuff_uptime_targets"] = {
 					},
-					["aID"] = "4778-04F57291",
-					["serial"] = "Player-4778-04F57291",
-					["last_event"] = 0,
 				}, -- [4]
 				{
 					["flag_original"] = 1300,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[48467] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 30,
 								["id"] = 48467,
 								["uptime"] = 31,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[770] = {
-								["refreshamt"] = 1,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 3,
 								["id"] = 770,
 								["uptime"] = 364,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 1,
 							},
 							[48468] = {
-								["refreshamt"] = 4,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 13,
 								["id"] = 48468,
 								["uptime"] = 226,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 4,
 							},
 							[60433] = {
-								["refreshamt"] = 103,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 10,
 								["id"] = 60433,
 								["uptime"] = 275,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 103,
 							},
 							[48463] = {
-								["refreshamt"] = 8,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 13,
 								["id"] = 48463,
 								["uptime"] = 268,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 8,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["cooldowns_defensive"] = 1.00896,
 					["pets"] = {
@@ -27756,186 +24669,185 @@ _detalhes_database = {
 						["踏遍天涯"] = 1,
 					},
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[48470] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 48470,
 								["uptime"] = 366,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[57399] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 57399,
 								["uptime"] = 366,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[29166] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 29166,
 								["uptime"] = 10,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[24858] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 24858,
 								["uptime"] = 366,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[54833] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 54833,
 								["uptime"] = 10,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[24907] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 24907,
 								["uptime"] = 366,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[48421] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 48421,
 								["uptime"] = 366,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[48517] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 3,
 								["appliedamt"] = 3,
 								["id"] = 48517,
 								["uptime"] = 45,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[28491] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 28491,
 								["uptime"] = 366,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[53201] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 4,
 								["appliedamt"] = 4,
 								["id"] = 53201,
 								["uptime"] = 40,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[57822] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 57822,
 								["uptime"] = 366,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[60520] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 6,
 								["appliedamt"] = 6,
 								["id"] = 60520,
 								["uptime"] = 90,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[16870] = {
-								["refreshamt"] = 1,
+								["counter"] = 0,
 								["activedamt"] = 13,
 								["appliedamt"] = 13,
 								["id"] = 16870,
 								["uptime"] = 62,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 1,
 							},
 							[16886] = {
-								["refreshamt"] = 32,
+								["counter"] = 0,
 								["activedamt"] = 35,
 								["appliedamt"] = 35,
 								["id"] = 16886,
 								["uptime"] = 148,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 32,
 							},
 							[48467] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 5,
 								["appliedamt"] = 5,
 								["id"] = 48467,
 								["uptime"] = 33,
 								["targets"] = {
 								},
-								["counter"] = 0,
-							},
-							[60064] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 5,
-								["appliedamt"] = 5,
-								["id"] = 60064,
-								["uptime"] = 50,
-								["targets"] = {
-								},
-								["counter"] = 0,
 							},
 							[48518] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 7,
 								["appliedamt"] = 7,
 								["id"] = 48518,
 								["uptime"] = 99,
 								["targets"] = {
 								},
+								["refreshamt"] = 0,
+							},
+							[60064] = {
 								["counter"] = 0,
+								["activedamt"] = 5,
+								["appliedamt"] = 5,
+								["id"] = 60064,
+								["uptime"] = 50,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["debuff_uptime"] = 1164,
-					["debuff_uptime_targets"] = {
-					},
+					["serial"] = "Player-4778-018E44DC",
+					["nome"] = "踏遍天涯",
 					["buff_uptime_targets"] = {
 					},
-					["boss_fight_component"] = true,
 					["spec"] = 102,
 					["grupo"] = true,
 					["spell_cast"] = {
@@ -27946,14 +24858,17 @@ _detalhes_database = {
 						[48468] = 19,
 						[48461] = 97,
 						[29166] = 1,
-						[53201] = 4,
+						[48467] = 5,
 						[48463] = 21,
 						[33831] = 2,
-						[48467] = 5,
+						[53201] = 4,
 					},
+					["classe"] = "DRUID",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["boss_fight_component"] = true,
 					["buff_uptime"] = 3149,
 					["cooldowns_defensive_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[29166] = {
 								["id"] = 29166,
@@ -27963,55 +24878,52 @@ _detalhes_database = {
 								["counter"] = 1,
 							},
 						},
+						["tipo"] = 9,
 					},
-					["tipo"] = 4,
-					["classe"] = "DRUID",
-					["nome"] = "踏遍天涯",
-					["serial"] = "Player-4778-018E44DC",
-					["last_event"] = 0,
+					["debuff_uptime_targets"] = {
+					},
 				}, -- [5]
 				{
 					["flag_original"] = 1300,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[36032] = {
-								["refreshamt"] = 118,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 25,
 								["id"] = 36032,
 								["uptime"] = 192,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 118,
 							},
 							[27088] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 3,
 								["id"] = 27088,
 								["uptime"] = 8,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[42842] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 1,
 								["id"] = 42842,
 								["uptime"] = 9,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 						"镜像 <日出东芳>", -- [1]
 					},
 					["cc_done_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[27088] = {
 								["id"] = 27088,
@@ -28021,200 +24933,201 @@ _detalhes_database = {
 								["counter"] = 3,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["classe"] = "MAGE",
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[60064] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 6,
 								["appliedamt"] = 6,
 								["id"] = 60064,
 								["uptime"] = 60,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[43046] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 43046,
 								["uptime"] = 366,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[44413] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 44413,
 								["uptime"] = 10,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[1953] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 1953,
 								["uptime"] = 1,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[12043] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 3,
 								["appliedamt"] = 3,
 								["id"] = 12043,
 								["uptime"] = 1,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[12051] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 12051,
 								["uptime"] = 7,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[60479] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 5,
 								["appliedamt"] = 5,
 								["id"] = 60479,
 								["uptime"] = 50,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[53908] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 53908,
 								["uptime"] = 15,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[10060] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 2,
 								["appliedamt"] = 2,
 								["id"] = 10060,
 								["uptime"] = 30,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[43002] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 43002,
 								["uptime"] = 366,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[57821] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 57821,
 								["uptime"] = 366,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[55342] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 2,
 								["appliedamt"] = 2,
 								["id"] = 55342,
 								["uptime"] = 60,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[44401] = {
-								["refreshamt"] = 9,
+								["counter"] = 0,
 								["activedamt"] = 20,
 								["appliedamt"] = 20,
 								["id"] = 44401,
 								["uptime"] = 137,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 9,
 							},
 							[27131] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 2,
 								["appliedamt"] = 2,
 								["id"] = 27131,
 								["uptime"] = 80,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[54758] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 5,
 								["appliedamt"] = 5,
 								["id"] = 54758,
 								["uptime"] = 60,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[12536] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 7,
 								["appliedamt"] = 7,
 								["id"] = 12536,
 								["uptime"] = 18,
 								["targets"] = {
 								},
-								["counter"] = 0,
-							},
-							[57531] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 10,
-								["appliedamt"] = 10,
-								["id"] = 57531,
-								["uptime"] = 18,
-								["targets"] = {
-								},
-								["counter"] = 0,
 							},
 							[31583] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 31583,
 								["uptime"] = 366,
 								["targets"] = {
 								},
+								["refreshamt"] = 0,
+							},
+							[57531] = {
 								["counter"] = 0,
+								["activedamt"] = 10,
+								["appliedamt"] = 10,
+								["id"] = 57531,
+								["uptime"] = 18,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
+					["nome"] = "日出东芳",
+					["debuff_uptime"] = 209,
 					["debuff_uptime_targets"] = {
 					},
-					["debuff_uptime"] = 209,
+					["cc_done"] = 3.004701,
 					["buff_uptime_targets"] = {
 					},
-					["cc_done"] = 3.004701,
-					["nome"] = "日出东芳",
 					["spec"] = 62,
 					["grupo"] = true,
 					["spell_cast"] = {
@@ -28225,239 +25138,245 @@ _detalhes_database = {
 						[42842] = 1,
 						[27088] = 1,
 						[1953] = 1,
+						[12051] = 1,
 						[42987] = 2,
-						[42897] = 88,
 						[42845] = 45,
 						[53908] = 1,
 						[12043] = 3,
-						[12051] = 1,
+						[42897] = 88,
 					},
-					["buff_uptime"] = 2011,
-					["boss_fight_component"] = true,
-					["tipo"] = 4,
 					["cc_done_targets"] = {
 						["熔岩烈焰"] = 3,
 					},
-					["aID"] = "4778-04605F8E",
-					["serial"] = "Player-4778-04605F8E",
 					["last_event"] = 0,
+					["tipo"] = 4,
+					["boss_fight_component"] = true,
+					["buff_uptime"] = 2011,
+					["serial"] = "Player-4778-04605F8E",
+					["aID"] = "4778-04605F8E",
 				}, -- [6]
 				{
 					["flag_original"] = 1300,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[48676] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 1,
 								["id"] = 48676,
 								["uptime"] = 18,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[57969] = {
-								["refreshamt"] = 167,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 18,
 								["id"] = 57969,
 								["uptime"] = 348,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 167,
 							},
 							[57634] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 4,
 								["id"] = 57634,
 								["uptime"] = 3,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["cooldowns_defensive"] = 2.015376,
 					["pets"] = {
 					},
+					["classe"] = "ROGUE",
+					["tipo"] = 4,
 					["aID"] = "4778-04DBFC9E",
 					["cooldowns_defensive_targets"] = {
 						["特变电工"] = 2,
 					},
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
-							[48024] = {
-								["refreshamt"] = 0,
-								["appliedamt"] = 1,
-								["activedamt"] = 1,
-								["uptime"] = 0,
-								["id"] = 48024,
-								["actived_at"] = 1666100574,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[14177] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 2,
-								["appliedamt"] = 2,
-								["id"] = 14177,
-								["uptime"] = 0,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[11305] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 11305,
-								["uptime"] = 15,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[63848] = {
-								["refreshamt"] = 1,
-								["activedamt"] = 5,
-								["appliedamt"] = 5,
-								["id"] = 63848,
-								["uptime"] = 316,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[1784] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 2,
-								["appliedamt"] = 2,
-								["id"] = 1784,
-								["uptime"] = 2,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[57399] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 57399,
-								["uptime"] = 366,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[58427] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 2,
-								["appliedamt"] = 2,
-								["id"] = 58427,
-								["uptime"] = 42,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[59620] = {
-								["refreshamt"] = 5,
-								["activedamt"] = 16,
-								["appliedamt"] = 16,
-								["id"] = 59620,
-								["uptime"] = 141,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[59628] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 5,
-								["appliedamt"] = 5,
-								["id"] = 59628,
-								["uptime"] = 30,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[60065] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 6,
-								["appliedamt"] = 6,
-								["id"] = 60065,
-								["uptime"] = 60,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[57934] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 5,
-								["appliedamt"] = 5,
-								["id"] = 57934,
-								["uptime"] = 4,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[60233] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 8,
-								["appliedamt"] = 8,
-								["id"] = 60233,
-								["uptime"] = 120,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[26669] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 26669,
-								["uptime"] = 15,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[57819] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 57819,
-								["uptime"] = 366,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[6774] = {
-								["refreshamt"] = 1,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 6774,
-								["uptime"] = 359,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
 							[57993] = {
-								["refreshamt"] = 8,
+								["counter"] = 0,
 								["activedamt"] = 37,
 								["appliedamt"] = 37,
 								["id"] = 57993,
 								["uptime"] = 196,
 								["targets"] = {
 								},
+								["refreshamt"] = 8,
+							},
+							[14177] = {
 								["counter"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 14177,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[57819] = {
+								["counter"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 57819,
+								["uptime"] = 375,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[63848] = {
+								["counter"] = 0,
+								["activedamt"] = 5,
+								["appliedamt"] = 5,
+								["id"] = 63848,
+								["uptime"] = 316,
+								["targets"] = {
+								},
+								["refreshamt"] = 1,
+							},
+							[6774] = {
+								["counter"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 6774,
+								["uptime"] = 364,
+								["targets"] = {
+								},
+								["refreshamt"] = 1,
+							},
+							[48024] = {
+								["counter"] = 0,
+								["appliedamt"] = 1,
+								["activedamt"] = 1,
+								["actived_at"] = 1666100574,
+								["id"] = 48024,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[58427] = {
+								["counter"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 58427,
+								["uptime"] = 42,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[59620] = {
+								["counter"] = 0,
+								["activedamt"] = 16,
+								["appliedamt"] = 16,
+								["id"] = 59620,
+								["uptime"] = 141,
+								["targets"] = {
+								},
+								["refreshamt"] = 5,
+							},
+							[1784] = {
+								["counter"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 1784,
+								["uptime"] = 2,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[26669] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 26669,
+								["uptime"] = 15,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[57934] = {
+								["counter"] = 0,
+								["activedamt"] = 5,
+								["appliedamt"] = 5,
+								["id"] = 57934,
+								["uptime"] = 4,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[60233] = {
+								["counter"] = 0,
+								["activedamt"] = 9,
+								["appliedamt"] = 9,
+								["id"] = 60233,
+								["uptime"] = 129,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[60065] = {
+								["counter"] = 0,
+								["activedamt"] = 6,
+								["appliedamt"] = 6,
+								["id"] = 60065,
+								["uptime"] = 60,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[59628] = {
+								["counter"] = 0,
+								["activedamt"] = 5,
+								["appliedamt"] = 5,
+								["id"] = 59628,
+								["uptime"] = 30,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[57399] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 57399,
+								["uptime"] = 366,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[11305] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 11305,
+								["uptime"] = 15,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
+					["interrompeu_oque"] = {
+						[57408] = 1,
+					},
+					["serial"] = "Player-4778-04DBFC9E",
 					["debuff_uptime"] = 369,
-					["debuff_uptime_targets"] = {
+					["interrupt"] = 1.002544,
+					["interrupt_targets"] = {
+						["希弗列尔达风暴之女"] = 1,
 					},
-					["buff_uptime_targets"] = {
-					},
-					["boss_fight_component"] = true,
+					["nome"] = "特变电工",
 					["spec"] = 259,
 					["grupo"] = true,
 					["spell_cast"] = {
@@ -28466,16 +25385,22 @@ _detalhes_database = {
 						[11305] = 1,
 						[51662] = 6,
 						[26889] = 1,
-						[6774] = 2,
+						[6774] = 3,
 						[57934] = 5,
+						[1766] = 1,
 						[26669] = 1,
-						[1784] = 1,
-						[48666] = 56,
 						[51723] = 7,
+						[48666] = 58,
+						[1784] = 1,
 					},
-					["buff_uptime"] = 2032,
+					["boss_fight_component"] = true,
+					["buff_uptime"] = 2055,
+					["last_event"] = 0,
+					["debuff_uptime_targets"] = {
+					},
+					["buff_uptime_targets"] = {
+					},
 					["cooldowns_defensive_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[26669] = {
 								["id"] = 26669,
@@ -28492,235 +25417,246 @@ _detalhes_database = {
 								["counter"] = 1,
 							},
 						},
+						["tipo"] = 9,
 					},
-					["tipo"] = 4,
-					["classe"] = "ROGUE",
-					["nome"] = "特变电工",
-					["serial"] = "Player-4778-04DBFC9E",
-					["last_event"] = 0,
+					["interrupt_spells"] = {
+						["_ActorTable"] = {
+							[1766] = {
+								["id"] = 1766,
+								["counter"] = 1,
+								["targets"] = {
+									["希弗列尔达风暴之女"] = 1,
+								},
+								["interrompeu_oque"] = {
+									[57408] = 1,
+								},
+							},
+						},
+						["tipo"] = 9,
+					},
 				}, -- [7]
 				{
 					["flag_original"] = 1300,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[58567] = {
-								["refreshamt"] = 35,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 5,
 								["id"] = 58567,
 								["uptime"] = 236,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 35,
 							},
 							[12721] = {
-								["refreshamt"] = 187,
+								["counter"] = 0,
 								["activedamt"] = 2,
 								["appliedamt"] = 47,
 								["id"] = 12721,
 								["uptime"] = 328,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 187,
 							},
 							[57634] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 1,
 								["id"] = 57634,
 								["uptime"] = 1,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
 					["classe"] = "WARRIOR",
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[29801] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 29801,
 								["uptime"] = 366,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[1719] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 1719,
 								["uptime"] = 3,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[28497] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 28497,
 								["uptime"] = 366,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[12970] = {
-								["refreshamt"] = 359,
+								["counter"] = 0,
 								["activedamt"] = 10,
 								["appliedamt"] = 10,
 								["id"] = 12970,
 								["uptime"] = 346,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 359,
 							},
 							[23885] = {
-								["refreshamt"] = 6,
+								["counter"] = 0,
 								["activedamt"] = 59,
 								["appliedamt"] = 59,
 								["id"] = 23885,
 								["uptime"] = 135,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 6,
 							},
 							[47440] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 2,
 								["appliedamt"] = 2,
 								["id"] = 47440,
 								["uptime"] = 340,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[46916] = {
-								["refreshamt"] = 9,
+								["counter"] = 0,
 								["activedamt"] = 22,
 								["appliedamt"] = 22,
 								["id"] = 46916,
 								["uptime"] = 126,
 								["targets"] = {
 								},
-								["counter"] = 0,
-							},
-							[29131] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 8,
-								["appliedamt"] = 8,
-								["id"] = 29131,
-								["uptime"] = 73,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[12292] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 12292,
-								["uptime"] = 30,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[60065] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 5,
-								["appliedamt"] = 5,
-								["id"] = 60065,
-								["uptime"] = 43,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[14201] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 3,
-								["appliedamt"] = 3,
-								["id"] = 14201,
-								["uptime"] = 36,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[54861] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 54861,
-								["uptime"] = 6,
-								["targets"] = {
-								},
-								["counter"] = 0,
+								["refreshamt"] = 9,
 							},
 							[57399] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 57399,
 								["uptime"] = 366,
 								["targets"] = {
 								},
+								["refreshamt"] = 0,
+							},
+							[12292] = {
 								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 12292,
+								["uptime"] = 30,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[60065] = {
+								["counter"] = 0,
+								["activedamt"] = 5,
+								["appliedamt"] = 5,
+								["id"] = 60065,
+								["uptime"] = 43,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[14201] = {
+								["counter"] = 0,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 14201,
+								["uptime"] = 36,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[54861] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 54861,
+								["uptime"] = 6,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[29131] = {
+								["counter"] = 0,
+								["activedamt"] = 8,
+								["appliedamt"] = 8,
+								["id"] = 29131,
+								["uptime"] = 73,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["debuff_uptime"] = 565,
+					["aID"] = "4778-04AC8F71",
 					["debuff_uptime_targets"] = {
 					},
-					["boss_fight_component"] = true,
 					["spec"] = 72,
 					["grupo"] = true,
 					["spell_cast"] = {
 						[47475] = 1,
 						[1719] = 1,
-						[1680] = 34,
+						[2687] = 7,
 						[23881] = 63,
-						[7386] = 25,
+						[47440] = 1,
 						[56350] = 1,
 						[34428] = 3,
 						[46916] = 31,
-						[20252] = 4,
-						[12292] = 1,
-						[47450] = 27,
 						[47520] = 20,
-						[2687] = 7,
-						[47440] = 1,
+						[12292] = 1,
+						[1680] = 34,
+						[47450] = 27,
+						[20252] = 4,
+						[7386] = 25,
 					},
-					["last_event"] = 0,
 					["buff_uptime_targets"] = {
 					},
-					["tipo"] = 4,
-					["buff_uptime"] = 2236,
 					["nome"] = "陌戮",
+					["last_event"] = 0,
+					["buff_uptime"] = 2236,
+					["tipo"] = 4,
 					["serial"] = "Player-4778-04AC8F71",
-					["aID"] = "4778-04AC8F71",
+					["boss_fight_component"] = true,
 				}, -- [8]
 				{
 					["flag_original"] = 1300,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[6788] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 2,
 								["appliedamt"] = 71,
 								["id"] = 6788,
 								["uptime"] = 352,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["cooldowns_defensive"] = 2.011606,
 					["pets"] = {
@@ -28731,156 +25667,155 @@ _detalhes_database = {
 						["[*] 团队CD"] = 1,
 					},
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[64904] = {
-								["refreshamt"] = 2,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 64904,
 								["uptime"] = 11,
 								["targets"] = {
 								},
-								["counter"] = 0,
-							},
-							[57821] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 57821,
-								["uptime"] = 366,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[59891] = {
-								["refreshamt"] = 40,
-								["activedamt"] = 31,
-								["appliedamt"] = 31,
-								["id"] = 59891,
-								["uptime"] = 242,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[57399] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 57399,
-								["uptime"] = 366,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[60062] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 6,
-								["appliedamt"] = 6,
-								["id"] = 60062,
-								["uptime"] = 60,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[53755] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 53755,
-								["uptime"] = 366,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[48168] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 48168,
-								["uptime"] = 366,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[64901] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 64901,
-								["uptime"] = 6,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[28878] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 28878,
-								["uptime"] = 366,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[48162] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 48162,
-								["uptime"] = 366,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[63944] = {
-								["refreshamt"] = 20,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 63944,
-								["uptime"] = 362,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[64843] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 64843,
-								["uptime"] = 5,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[48066] = {
-								["refreshamt"] = 1,
-								["activedamt"] = 3,
-								["appliedamt"] = 3,
-								["id"] = 48066,
-								["uptime"] = 114,
-								["targets"] = {
-								},
-								["counter"] = 0,
+								["refreshamt"] = 2,
 							},
 							[48074] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 48074,
 								["uptime"] = 366,
 								["targets"] = {
 								},
+								["refreshamt"] = 0,
+							},
+							[64901] = {
 								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 64901,
+								["uptime"] = 6,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[57399] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 57399,
+								["uptime"] = 366,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[60062] = {
+								["counter"] = 0,
+								["activedamt"] = 6,
+								["appliedamt"] = 6,
+								["id"] = 60062,
+								["uptime"] = 60,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[53755] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 53755,
+								["uptime"] = 366,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[48168] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 48168,
+								["uptime"] = 366,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[57821] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 57821,
+								["uptime"] = 366,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[64843] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 64843,
+								["uptime"] = 5,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[48162] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 48162,
+								["uptime"] = 366,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[63944] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 63944,
+								["uptime"] = 362,
+								["targets"] = {
+								},
+								["refreshamt"] = 20,
+							},
+							[28878] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 28878,
+								["uptime"] = 366,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[48066] = {
+								["counter"] = 0,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 48066,
+								["uptime"] = 114,
+								["targets"] = {
+								},
+								["refreshamt"] = 1,
+							},
+							[59891] = {
+								["counter"] = 0,
+								["activedamt"] = 31,
+								["appliedamt"] = 31,
+								["id"] = 59891,
+								["uptime"] = 242,
+								["targets"] = {
+								},
+								["refreshamt"] = 40,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["debuff_uptime"] = 352,
-					["debuff_uptime_targets"] = {
-					},
+					["serial"] = "Player-4778-04D4E39F",
+					["nome"] = "大风车滋滋转",
 					["buff_uptime_targets"] = {
 					},
-					["boss_fight_component"] = true,
 					["spec"] = 256,
 					["grupo"] = true,
 					["spell_cast"] = {
@@ -28891,15 +25826,18 @@ _detalhes_database = {
 						[48070] = 24,
 						[48078] = 3,
 						[64901] = 1,
-						[48068] = 10,
+						[33206] = 1,
 						[52985] = 42,
 						[64843] = 1,
 						[48066] = 71,
-						[33206] = 1,
+						[48068] = 10,
 					},
+					["classe"] = "PRIEST",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["boss_fight_component"] = true,
 					["buff_uptime"] = 3362,
 					["cooldowns_defensive_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[33206] = {
 								["id"] = 33206,
@@ -28916,99 +25854,97 @@ _detalhes_database = {
 								["counter"] = 1,
 							},
 						},
+						["tipo"] = 9,
 					},
-					["tipo"] = 4,
-					["classe"] = "PRIEST",
-					["nome"] = "大风车滋滋转",
-					["serial"] = "Player-4778-04D4E39F",
-					["last_event"] = 0,
+					["debuff_uptime_targets"] = {
+					},
 				}, -- [9]
 				{
 					["flag_original"] = 1300,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
-							[27173] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 0,
-								["appliedamt"] = 25,
-								["id"] = 27173,
-								["uptime"] = 31,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[20185] = {
-								["refreshamt"] = 26,
-								["activedamt"] = 0,
-								["appliedamt"] = 10,
-								["id"] = 20185,
-								["uptime"] = 348,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[31803] = {
-								["refreshamt"] = 90,
-								["activedamt"] = 1,
-								["appliedamt"] = 14,
-								["id"] = 31803,
-								["uptime"] = 343,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[31790] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 0,
-								["appliedamt"] = 1,
-								["id"] = 31790,
-								["uptime"] = 3,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[25771] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 0,
-								["appliedamt"] = 1,
-								["id"] = 25771,
-								["uptime"] = 120,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[61840] = {
-								["refreshamt"] = 34,
-								["activedamt"] = 1,
-								["appliedamt"] = 27,
-								["id"] = 61840,
-								["uptime"] = 261,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[54499] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 0,
-								["appliedamt"] = 5,
-								["id"] = 54499,
-								["uptime"] = 20,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
 							[57634] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 2,
 								["id"] = 57634,
 								["uptime"] = 4,
 								["targets"] = {
 								},
+								["refreshamt"] = 0,
+							},
+							[54499] = {
 								["counter"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 5,
+								["id"] = 54499,
+								["uptime"] = 20,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[31803] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 14,
+								["id"] = 31803,
+								["uptime"] = 343,
+								["targets"] = {
+								},
+								["refreshamt"] = 90,
+							},
+							[31790] = {
+								["counter"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 1,
+								["id"] = 31790,
+								["uptime"] = 3,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[20185] = {
+								["counter"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 10,
+								["id"] = 20185,
+								["uptime"] = 348,
+								["targets"] = {
+								},
+								["refreshamt"] = 26,
+							},
+							[61840] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 27,
+								["id"] = 61840,
+								["uptime"] = 261,
+								["targets"] = {
+								},
+								["refreshamt"] = 34,
+							},
+							[27173] = {
+								["counter"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 25,
+								["id"] = 27173,
+								["uptime"] = 31,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[25771] = {
+								["counter"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 1,
+								["id"] = 25771,
+								["uptime"] = 120,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["cooldowns_defensive"] = 1.011147,
 					["pets"] = {
@@ -29018,196 +25954,198 @@ _detalhes_database = {
 						["魂之信仰"] = 1,
 					},
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
-							[31801] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 31801,
-								["uptime"] = 366,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[48892] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 48892,
-								["uptime"] = 366,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[642] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 642,
-								["uptime"] = 5,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[54203] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 54203,
-								["uptime"] = 12,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[59578] = {
-								["refreshamt"] = 68,
-								["activedamt"] = 22,
-								["appliedamt"] = 22,
-								["id"] = 59578,
-								["uptime"] = 294,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[57294] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 57294,
-								["uptime"] = 366,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[60065] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 4,
-								["appliedamt"] = 4,
-								["id"] = 60065,
-								["uptime"] = 40,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[31884] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 3,
-								["appliedamt"] = 3,
-								["id"] = 31884,
-								["uptime"] = 57,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[20053] = {
-								["refreshamt"] = 130,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 20053,
-								["uptime"] = 362,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[57821] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 57821,
-								["uptime"] = 366,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[48934] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 48934,
-								["uptime"] = 366,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[24925] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 24925,
-								["uptime"] = 366,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[60305] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 2,
-								["appliedamt"] = 2,
-								["id"] = 60305,
-								["uptime"] = 40,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[54043] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 54043,
-								["uptime"] = 366,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[57669] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 0,
-								["appliedamt"] = 0,
-								["id"] = 57669,
-								["uptime"] = 0,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
 							[59752] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 59752,
 								["uptime"] = 1,
 								["targets"] = {
 								},
+								["refreshamt"] = 0,
+							},
+							[48892] = {
 								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 48892,
+								["uptime"] = 366,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[642] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 642,
+								["uptime"] = 5,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[54203] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 54203,
+								["uptime"] = 12,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[31801] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 31801,
+								["uptime"] = 366,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[57294] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 57294,
+								["uptime"] = 366,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[54043] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 54043,
+								["uptime"] = 366,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[31884] = {
+								["counter"] = 0,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 31884,
+								["uptime"] = 57,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[20053] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 20053,
+								["uptime"] = 362,
+								["targets"] = {
+								},
+								["refreshamt"] = 130,
+							},
+							[57821] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 57821,
+								["uptime"] = 366,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[48934] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 48934,
+								["uptime"] = 366,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[24925] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 24925,
+								["uptime"] = 366,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[60065] = {
+								["counter"] = 0,
+								["activedamt"] = 4,
+								["appliedamt"] = 4,
+								["id"] = 60065,
+								["uptime"] = 40,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[59578] = {
+								["counter"] = 0,
+								["activedamt"] = 22,
+								["appliedamt"] = 22,
+								["id"] = 59578,
+								["uptime"] = 294,
+								["targets"] = {
+								},
+								["refreshamt"] = 68,
+							},
+							[60305] = {
+								["counter"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 60305,
+								["uptime"] = 40,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[57669] = {
+								["counter"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 0,
+								["id"] = 57669,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["debuff_uptime"] = 1130,
-					["debuff_uptime_targets"] = {
-					},
+					["serial"] = "Player-4778-0520EB5E",
+					["nome"] = "魂之信仰",
 					["buff_uptime_targets"] = {
 					},
-					["boss_fight_component"] = true,
 					["spec"] = 70,
 					["grupo"] = true,
 					["spell_cast"] = {
 						[59752] = 1,
 						[53385] = 30,
 						[27173] = 4,
-						[35395] = 67,
-						[31884] = 3,
 						[31789] = 1,
+						[35395] = 67,
+						[10308] = 1,
 						[48806] = 7,
 						[20271] = 36,
-						[642] = 1,
-						[48785] = 4,
 						[60305] = 2,
+						[48785] = 4,
+						[642] = 1,
 						[48801] = 18,
-						[10308] = 1,
+						[31884] = 3,
 					},
+					["classe"] = "PALADIN",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["boss_fight_component"] = true,
 					["buff_uptime"] = 3373,
 					["cooldowns_defensive_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[642] = {
 								["id"] = 642,
@@ -29217,23 +26155,18 @@ _detalhes_database = {
 								["counter"] = 1,
 							},
 						},
+						["tipo"] = 9,
 					},
-					["tipo"] = 4,
-					["classe"] = "PALADIN",
-					["nome"] = "魂之信仰",
-					["serial"] = "Player-4778-0520EB5E",
-					["last_event"] = 0,
+					["debuff_uptime_targets"] = {
+					},
 				}, -- [10]
 				{
 					["flag_original"] = 2632,
+					["tipo"] = 4,
 					["boss_fight_component"] = true,
-					["monster"] = true,
 					["pets"] = {
 						"暮光裂隙 <塔尼布隆>", -- [1]
 					},
-					["classe"] = "UNKNOW",
-					["nome"] = "塔尼布隆",
-					["tipo"] = 4,
 					["spell_cast"] = {
 						[61248] = 1,
 						[58793] = 2,
@@ -29241,36 +26174,39 @@ _detalhes_database = {
 						[57579] = 9,
 						[60639] = 1,
 					},
+					["nome"] = "塔尼布隆",
 					["aID"] = "30452",
-					["serial"] = "Creature-0-5002-615-15071-30452-00004EAA97",
+					["classe"] = "UNKNOW",
 					["last_event"] = 0,
+					["serial"] = "Creature-0-5002-615-15071-30452-00004EAA97",
+					["monster"] = true,
 				}, -- [11]
 				{
 					["flag_original"] = 2632,
+					["tipo"] = 4,
 					["boss_fight_component"] = true,
-					["monster"] = true,
 					["pets"] = {
 						"暮光裂隙 <沙德隆>", -- [1]
 					},
-					["classe"] = "UNKNOW",
-					["nome"] = "沙德隆",
-					["tipo"] = 4,
 					["spell_cast"] = {
 						[57570] = 10,
 						[58105] = 1,
 						[60639] = 1,
 						[57579] = 19,
 					},
+					["nome"] = "沙德隆",
 					["aID"] = "30451",
-					["serial"] = "Creature-0-5002-615-15071-30451-00004EAA97",
+					["classe"] = "UNKNOW",
 					["last_event"] = 0,
+					["serial"] = "Creature-0-5002-615-15071-30451-00004EAA97",
+					["monster"] = true,
 				}, -- [12]
 				{
 					["flag_original"] = 2632,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
@@ -29282,90 +26218,90 @@ _detalhes_database = {
 					["debuff_uptime_targets"] = {
 						["特变电工"] = {
 							["uptime"] = 141,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 0,
 							["actived"] = false,
-							["refreshamt"] = 0,
+							["appliedamt"] = 0,
 						},
 						["Just"] = {
 							["uptime"] = 141,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 0,
 							["actived"] = false,
-							["refreshamt"] = 0,
+							["appliedamt"] = 0,
 						},
 						["大风车滋滋转"] = {
 							["uptime"] = 141,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 0,
 							["actived"] = false,
-							["refreshamt"] = 0,
+							["appliedamt"] = 0,
 						},
 						["夕里安"] = {
 							["uptime"] = 141,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 0,
 							["actived"] = false,
-							["refreshamt"] = 0,
+							["appliedamt"] = 0,
 						},
 						["雪花丶有点飘"] = {
 							["uptime"] = 141,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 0,
 							["actived"] = false,
-							["refreshamt"] = 0,
+							["appliedamt"] = 0,
 						},
 						["踏遍天涯"] = {
 							["uptime"] = 141,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 0,
 							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-						["日出东芳"] = {
-							["uptime"] = 141,
 							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-						["陌戮"] = {
-							["uptime"] = 141,
-							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-						["凸凸凹"] = {
-							["uptime"] = 141,
-							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
 						},
 						["魂之信仰"] = {
 							["uptime"] = 141,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 0,
 							["actived"] = false,
+							["appliedamt"] = 0,
+						},
+						["凸凸凹"] = {
+							["uptime"] = 141,
 							["refreshamt"] = 0,
+							["activedamt"] = 0,
+							["actived"] = false,
+							["appliedamt"] = 0,
+						},
+						["陌戮"] = {
+							["uptime"] = 141,
+							["refreshamt"] = 0,
+							["activedamt"] = 0,
+							["actived"] = false,
+							["appliedamt"] = 0,
+						},
+						["日出东芳"] = {
+							["uptime"] = 141,
+							["refreshamt"] = 0,
+							["activedamt"] = 0,
+							["actived"] = false,
+							["appliedamt"] = 0,
 						},
 					},
+					["aID"] = "30452",
+					["serial"] = "Creature-0-5002-615-15071-30452-00004EAA97",
+					["nome"] = "塔尼布隆之力",
+					["last_event"] = 0,
+					["damage_twin"] = "塔尼布隆",
+					["tipo"] = 4,
 					["damage_spellid"] = 61248,
 					["boss_fight_component"] = true,
-					["last_event"] = 0,
-					["tipo"] = 4,
-					["damage_twin"] = "塔尼布隆",
-					["nome"] = "塔尼布隆之力",
-					["serial"] = "Creature-0-5002-615-15071-30452-00004EAA97",
-					["aID"] = "30452",
 				}, -- [13]
 				{
 					["flag_original"] = 2632,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
@@ -29377,93 +26313,90 @@ _detalhes_database = {
 					["debuff_uptime_targets"] = {
 						["特变电工"] = {
 							["uptime"] = 240,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 0,
 							["actived"] = false,
-							["refreshamt"] = 0,
+							["appliedamt"] = 0,
 						},
 						["Just"] = {
 							["uptime"] = 240,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 0,
 							["actived"] = false,
-							["refreshamt"] = 0,
+							["appliedamt"] = 0,
 						},
 						["大风车滋滋转"] = {
 							["uptime"] = 240,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 0,
 							["actived"] = false,
-							["refreshamt"] = 0,
+							["appliedamt"] = 0,
 						},
 						["夕里安"] = {
 							["uptime"] = 240,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 0,
 							["actived"] = false,
-							["refreshamt"] = 0,
+							["appliedamt"] = 0,
 						},
 						["雪花丶有点飘"] = {
 							["uptime"] = 240,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 0,
 							["actived"] = false,
-							["refreshamt"] = 0,
+							["appliedamt"] = 0,
 						},
 						["踏遍天涯"] = {
 							["uptime"] = 240,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 0,
 							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-						["日出东芳"] = {
-							["uptime"] = 240,
 							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-						["陌戮"] = {
-							["uptime"] = 240,
-							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-						["凸凸凹"] = {
-							["uptime"] = 240,
-							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
 						},
 						["魂之信仰"] = {
 							["uptime"] = 240,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 0,
 							["actived"] = false,
+							["appliedamt"] = 0,
+						},
+						["凸凸凹"] = {
+							["uptime"] = 240,
 							["refreshamt"] = 0,
+							["activedamt"] = 0,
+							["actived"] = false,
+							["appliedamt"] = 0,
+						},
+						["陌戮"] = {
+							["uptime"] = 240,
+							["refreshamt"] = 0,
+							["activedamt"] = 0,
+							["actived"] = false,
+							["appliedamt"] = 0,
+						},
+						["日出东芳"] = {
+							["uptime"] = 240,
+							["refreshamt"] = 0,
+							["activedamt"] = 0,
+							["actived"] = false,
+							["appliedamt"] = 0,
 						},
 					},
+					["aID"] = "30451",
+					["serial"] = "Creature-0-5002-615-15071-30451-00004EAA97",
+					["nome"] = "沙德隆之力",
+					["last_event"] = 0,
+					["damage_twin"] = "沙德隆",
+					["tipo"] = 4,
 					["damage_spellid"] = 58105,
 					["boss_fight_component"] = true,
-					["last_event"] = 0,
-					["tipo"] = 4,
-					["damage_twin"] = "沙德隆",
-					["nome"] = "沙德隆之力",
-					["serial"] = "Creature-0-5002-615-15071-30451-00004EAA97",
-					["aID"] = "30451",
 				}, -- [14]
 				{
 					["flag_original"] = 68168,
+					["tipo"] = 4,
 					["boss_fight_component"] = true,
-					["monster"] = true,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
-					["nome"] = "萨塔里奥",
-					["tipo"] = 4,
 					["spell_cast"] = {
 						[56909] = 24,
 						[56908] = 24,
@@ -29471,39 +26404,42 @@ _detalhes_database = {
 						[61254] = 1,
 						[61632] = 32,
 					},
+					["nome"] = "萨塔里奥",
 					["aID"] = "28860",
-					["serial"] = "Creature-0-5002-615-15071-28860-00004EAA97",
+					["classe"] = "UNKNOW",
 					["last_event"] = 0,
+					["serial"] = "Creature-0-5002-615-15071-28860-00004EAA97",
+					["monster"] = true,
 				}, -- [15]
 				{
 					["flag_original"] = 8466,
+					["tipo"] = 4,
 					["ownerName"] = "日出东芳",
 					["boss_fight_component"] = true,
-					["aID"] = "31216",
 					["pets"] = {
 					},
-					["classe"] = "PET",
+					["last_event"] = 0,
 					["spell_cast"] = {
 						[59637] = 26,
 						[59638] = 39,
 					},
-					["tipo"] = 4,
+					["aID"] = "31216",
 					["nome"] = "镜像 <日出东芳>",
 					["serial"] = "Creature-0-5002-615-15071-31216-00014EAD89",
-					["last_event"] = 0,
+					["classe"] = "PET",
 				}, -- [16]
 				{
-					["monster"] = true,
-					["ownerName"] = "塔尼布隆",
-					["nome"] = "暮光裂隙 <塔尼布隆>",
-					["tipo"] = 4,
 					["flag_original"] = 2632,
 					["spell_cast"] = {
 						[57581] = 9,
 					},
+					["ownerName"] = "塔尼布隆",
 					["boss_fight_component"] = true,
+					["monster"] = true,
 					["pets"] = {
 					},
+					["tipo"] = 4,
+					["nome"] = "暮光裂隙 <塔尼布隆>",
 					["classe"] = "UNKNOW",
 					["last_event"] = 0,
 					["serial"] = "Creature-0-5002-615-15071-30641-00004EAD88",
@@ -29511,26 +26447,26 @@ _detalhes_database = {
 				}, -- [17]
 				{
 					["flag_original"] = 2632,
+					["tipo"] = 4,
 					["boss_fight_component"] = true,
-					["monster"] = true,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
-					["nome"] = "萨塔里奥暮光雏龙",
-					["tipo"] = 4,
 					["spell_cast"] = {
 						[60708] = 32,
 					},
+					["nome"] = "萨塔里奥暮光雏龙",
 					["aID"] = "31214",
-					["serial"] = "Creature-0-5002-615-15071-31214-0002CEADA4",
+					["classe"] = "UNKNOW",
 					["last_event"] = 0,
+					["serial"] = "Creature-0-5002-615-15071-31214-0002CEADA4",
+					["monster"] = true,
 				}, -- [18]
 				{
 					["flag_original"] = 2632,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
@@ -29542,77 +26478,77 @@ _detalhes_database = {
 					["debuff_uptime_targets"] = {
 						["雪花丶有点飘"] = {
 							["uptime"] = 17,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 0,
 							["actived"] = false,
-							["refreshamt"] = 0,
+							["appliedamt"] = 0,
 						},
 						["Just"] = {
 							["uptime"] = 56,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 0,
 							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-						["日出东芳"] = {
-							["uptime"] = 15,
 							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-						["陌戮"] = {
-							["uptime"] = 25,
-							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
 						},
 						["魂之信仰"] = {
 							["uptime"] = 12,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 0,
 							["actived"] = false,
+							["appliedamt"] = 0,
+						},
+						["陌戮"] = {
+							["uptime"] = 25,
 							["refreshamt"] = 0,
+							["activedamt"] = 0,
+							["actived"] = false,
+							["appliedamt"] = 0,
+						},
+						["日出东芳"] = {
+							["uptime"] = 15,
+							["refreshamt"] = 0,
+							["activedamt"] = 0,
+							["actived"] = false,
+							["appliedamt"] = 0,
 						},
 					},
+					["aID"] = "31214",
+					["serial"] = "Creature-0-5002-615-15071-31214-0002CEADA4",
+					["nome"] = "护甲衰减",
+					["last_event"] = 0,
+					["damage_twin"] = "萨塔里奥暮光雏龙",
+					["tipo"] = 4,
 					["damage_spellid"] = 60708,
 					["boss_fight_component"] = true,
-					["last_event"] = 0,
-					["tipo"] = 4,
-					["damage_twin"] = "萨塔里奥暮光雏龙",
-					["nome"] = "护甲衰减",
-					["serial"] = "Creature-0-5002-615-15071-31214-0002CEADA4",
-					["aID"] = "31214",
 				}, -- [19]
 				{
 					["flag_original"] = 2632,
+					["tipo"] = 4,
 					["boss_fight_component"] = true,
-					["monster"] = true,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
-					["nome"] = "Vesperon Controller",
-					["tipo"] = 4,
 					["spell_cast"] = {
 						[58766] = 1,
 					},
+					["nome"] = "Vesperon Controller",
 					["aID"] = "30878",
-					["serial"] = "Creature-0-5002-615-15071-30878-00004EADB1",
+					["classe"] = "UNKNOW",
 					["last_event"] = 0,
+					["serial"] = "Creature-0-5002-615-15071-30878-00004EADB1",
+					["monster"] = true,
 				}, -- [20]
 				{
-					["monster"] = true,
-					["ownerName"] = "沙德隆",
-					["nome"] = "暮光裂隙 <沙德隆>",
-					["tipo"] = 4,
 					["flag_original"] = 2632,
 					["spell_cast"] = {
 						[57581] = 19,
 					},
+					["ownerName"] = "沙德隆",
 					["boss_fight_component"] = true,
+					["monster"] = true,
 					["pets"] = {
 					},
+					["tipo"] = 4,
+					["nome"] = "暮光裂隙 <沙德隆>",
 					["classe"] = "UNKNOW",
 					["last_event"] = 0,
 					["serial"] = "Creature-0-5002-615-15071-30641-00004EADB4",
@@ -29621,9 +26557,9 @@ _detalhes_database = {
 				{
 					["flag_original"] = 2632,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
@@ -29633,50 +26569,50 @@ _detalhes_database = {
 					["debuff_uptime"] = 15,
 					["spellschool"] = 1,
 					["debuff_uptime_targets"] = {
-						["日出东芳"] = {
-							["uptime"] = 4,
-							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
+						["魂之信仰"] = {
+							["uptime"] = 2,
 							["refreshamt"] = 0,
+							["activedamt"] = 1,
+							["actived"] = false,
+							["appliedamt"] = 0,
 						},
 						["凸凸凹"] = {
 							["uptime"] = 5,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 0,
 							["actived"] = false,
-							["refreshamt"] = 0,
+							["appliedamt"] = 0,
 						},
 						["陌戮"] = {
 							["uptime"] = 4,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 0,
 							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-						["魂之信仰"] = {
-							["uptime"] = 2,
 							["appliedamt"] = 0,
-							["activedamt"] = 1,
-							["actived"] = false,
+						},
+						["日出东芳"] = {
+							["uptime"] = 4,
 							["refreshamt"] = 0,
+							["activedamt"] = 0,
+							["actived"] = false,
+							["appliedamt"] = 0,
 						},
 					},
+					["aID"] = "31214",
+					["serial"] = "Creature-0-5002-615-15071-31214-00024EADD5",
+					["nome"] = "眩晕",
+					["last_event"] = 0,
+					["damage_twin"] = "萨塔里奥暮光雏龙",
+					["tipo"] = 4,
 					["damage_spellid"] = 1604,
 					["boss_fight_component"] = true,
-					["last_event"] = 0,
-					["tipo"] = 4,
-					["damage_twin"] = "萨塔里奥暮光雏龙",
-					["nome"] = "眩晕",
-					["serial"] = "Creature-0-5002-615-15071-31214-00024EADD5",
-					["aID"] = "31214",
 				}, -- [22]
 				{
 					["flag_original"] = 2632,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
@@ -29688,62 +26624,62 @@ _detalhes_database = {
 					["debuff_uptime_targets"] = {
 						["雪花丶有点飘"] = {
 							["uptime"] = 2,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 1,
 							["actived"] = false,
-							["refreshamt"] = 0,
+							["appliedamt"] = 0,
 						},
 						["大风车滋滋转"] = {
 							["uptime"] = 2,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 0,
 							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-						["日出东芳"] = {
-							["uptime"] = 2,
 							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-						["特变电工"] = {
-							["uptime"] = 4,
-							["appliedamt"] = 0,
-							["activedamt"] = 1,
-							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-						["凸凸凹"] = {
-							["uptime"] = 3,
-							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
 						},
 						["魂之信仰"] = {
 							["uptime"] = 2,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 1,
 							["actived"] = false,
+							["appliedamt"] = 0,
+						},
+						["凸凸凹"] = {
+							["uptime"] = 3,
 							["refreshamt"] = 0,
+							["activedamt"] = 0,
+							["actived"] = false,
+							["appliedamt"] = 0,
+						},
+						["特变电工"] = {
+							["uptime"] = 4,
+							["refreshamt"] = 0,
+							["activedamt"] = 1,
+							["actived"] = false,
+							["appliedamt"] = 0,
+						},
+						["日出东芳"] = {
+							["uptime"] = 2,
+							["refreshamt"] = 0,
+							["activedamt"] = 0,
+							["actived"] = false,
+							["appliedamt"] = 0,
 						},
 					},
+					["aID"] = "28860",
+					["serial"] = "Creature-0-5002-615-15071-28860-00004EAA97",
+					["nome"] = "扫尾",
+					["last_event"] = 0,
+					["damage_twin"] = "萨塔里奥",
+					["tipo"] = 4,
 					["damage_spellid"] = 56910,
 					["boss_fight_component"] = true,
-					["last_event"] = 0,
-					["tipo"] = 4,
-					["damage_twin"] = "萨塔里奥",
-					["nome"] = "扫尾",
-					["serial"] = "Creature-0-5002-615-15071-28860-00004EAA97",
-					["aID"] = "28860",
 				}, -- [23]
 				{
 					["flag_original"] = 2632,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
@@ -29755,62 +26691,62 @@ _detalhes_database = {
 					["debuff_uptime_targets"] = {
 						["特变电工"] = {
 							["uptime"] = 20,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 0,
 							["actived"] = false,
-							["refreshamt"] = 0,
+							["appliedamt"] = 0,
 						},
 						["陌戮"] = {
 							["uptime"] = 21,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 0,
 							["actived"] = false,
-							["refreshamt"] = 0,
+							["appliedamt"] = 0,
 						},
 						["大风车滋滋转"] = {
 							["uptime"] = 21,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 0,
 							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-						["日出东芳"] = {
-							["uptime"] = 20,
 							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-						["雪花丶有点飘"] = {
-							["uptime"] = 17,
-							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-						["踏遍天涯"] = {
-							["uptime"] = 14,
-							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
 						},
 						["魂之信仰"] = {
 							["uptime"] = 19,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 0,
 							["actived"] = false,
+							["appliedamt"] = 0,
+						},
+						["踏遍天涯"] = {
+							["uptime"] = 14,
 							["refreshamt"] = 0,
+							["activedamt"] = 0,
+							["actived"] = false,
+							["appliedamt"] = 0,
+						},
+						["雪花丶有点飘"] = {
+							["uptime"] = 17,
+							["refreshamt"] = 0,
+							["activedamt"] = 0,
+							["actived"] = false,
+							["appliedamt"] = 0,
+						},
+						["日出东芳"] = {
+							["uptime"] = 20,
+							["refreshamt"] = 0,
+							["activedamt"] = 0,
+							["actived"] = false,
+							["appliedamt"] = 0,
 						},
 					},
+					["aID"] = "",
+					["serial"] = "",
+					["nome"] = "暮光位移",
+					["last_event"] = 0,
+					["damage_twin"] = "[*] 暮光位移",
+					["tipo"] = 4,
 					["damage_spellid"] = 57874,
 					["boss_fight_component"] = true,
-					["last_event"] = 0,
-					["tipo"] = 4,
-					["damage_twin"] = "[*] 暮光位移",
-					["nome"] = "暮光位移",
-					["serial"] = "",
-					["aID"] = "",
 				}, -- [24]
 			},
 		}, -- [4]
@@ -29823,36 +26759,48 @@ _detalhes_database = {
 		},
 		["raid_roster_indexed"] = {
 		},
+		["segments_added"] = {
+			{
+				["elapsed"] = 9.687999999994645,
+				["type"] = 0,
+				["name"] = "希弗列尔达风暴之女",
+				["clock"] = "00:20:04",
+			}, -- [1]
+			{
+				["elapsed"] = 365.630999999994,
+				["type"] = 8,
+				["name"] = "萨塔里奥",
+				["clock"] = "21:42:55",
+			}, -- [2]
+		},
 		["tempo_start"] = 1666100940,
-		["last_events_tables"] = {
+		["cleu_timeline"] = {
 		},
 		["alternate_power"] = {
 		},
 		["combat_counter"] = 462,
-		["spells_cast_timeline"] = {
-		},
 		["totals"] = {
-			9932294.127907991, -- [1]
-			1600993.056985, -- [2]
+			9944796.09687999, -- [1]
+			1600992.987049, -- [2]
 			{
 				450.001897, -- [1]
 				[0] = 292758.035489,
 				["alternatepower"] = 0,
-				[3] = 2313.01223,
 				[6] = 1385.004825,
+				[3] = 2352.014551,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["debuff_uptime"] = 0,
-				["cooldowns_defensive"] = 17.052084,
-				["interrupt"] = 0,
-				["dispell"] = 0,
-				["cc_break"] = 0,
 				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 1.002544,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 17.052084,
 			}, -- [4]
-			["frags_total"] = 0,
 			["voidzone_damage"] = 0,
+			["frags_total"] = 0,
 		},
 		["player_last_events"] = {
 		},
@@ -29862,76 +26810,103 @@ _detalhes_database = {
 		["__call"] = {
 		},
 		["data_inicio"] = "21:42:55",
-		["end_time"] = 43727.916,
-		["cleu_events"] = {
-			["n"] = 1,
-		},
-		["segments_added"] = {
-			{
-				["elapsed"] = 365.630999999994,
-				["type"] = 8,
-				["name"] = "萨塔里奥",
-				["clock"] = "21:42:55",
-			}, -- [1]
+		["end_time"] = 53083.532,
+		["last_events_tables"] = {
 		},
 		["totals_grupo"] = {
-			8212757.05661, -- [1]
+			8224938.065234, -- [1]
 			1600993.043304, -- [2]
 			{
 				450.001897, -- [1]
 				[0] = 292758.030214,
 				["alternatepower"] = 0,
-				[3] = 2313.01223,
 				[6] = 1385.004825,
+				[3] = 2352.014551,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["debuff_uptime"] = 0,
-				["cooldowns_defensive"] = 17.052084,
-				["interrupt"] = 0,
-				["dispell"] = 0,
-				["cc_break"] = 0,
 				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 1.002544,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 17.052084,
 			}, -- [4]
 		},
-		["frags"] = {
-		},
-		["data_fim"] = "21:49:01",
-		["overall_enemy_name"] = "萨塔里奥",
-		["CombatSkillCache"] = {
-		},
-		["cleu_timeline"] = {
-		},
-		["start_time"] = 43362.285,
-		["TimeData"] = {
-			["Raid Damage Done"] = {
-			},
-		},
+		["overall_refreshed"] = true,
 		["PhaseData"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 			}, -- [1]
+			["damage"] = {
+			},
 			["heal_section"] = {
 			},
 			["heal"] = {
 			},
 			["damage_section"] = {
 			},
-			["damage"] = {
+		},
+		["hasSaved"] = true,
+		["spells_cast_timeline"] = {
+		},
+		["data_fim"] = "00:20:13",
+		["overall_enemy_name"] = "-- x -- x --",
+		["CombatSkillCache"] = {
+		},
+		["frags"] = {
+		},
+		["start_time"] = 52708.21300000001,
+		["TimeData"] = {
+			["Raid Damage Done"] = {
 			},
 		},
+		["cleu_events"] = {
+			["n"] = 1,
+		},
 	},
-	["character_data"] = {
-		["logons"] = 25,
+	["ignore_nicktag"] = false,
+	["last_day"] = "20",
+	["local_instances_config"] = {
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 1,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["is_open"] = true,
+			["isLocked"] = false,
+			["snap"] = {
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -504.3333358764648,
+					["x"] = -406.9442749023438,
+					["w"] = 322.77783203125,
+					["h"] = 183.5555572509766,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
 	},
-	["force_font_outline"] = "",
-	["last_encounter"] = "萨塔里奥",
 	["announce_cooldowns"] = {
-		["enabled"] = false,
 		["ignored_cooldowns"] = {
 		},
+		["enabled"] = false,
 		["custom"] = "",
 		["channel"] = "RAID",
 	},
@@ -29939,11 +26914,89 @@ _detalhes_database = {
 		["last_difficulty"] = 15,
 		["last_raid"] = "",
 	},
-	["announce_damagerecord"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
+	["cached_roles"] = {
+		["Player-4778-04F3E1E0"] = "HEALER",
+		["Player-4778-0501C0EB"] = "DAMAGER",
+		["Player-4778-04A1F7B6"] = "HEALER",
+		["Player-4778-050B7E6E"] = "DAMAGER",
+		["Player-4778-04DBFC9E"] = "DAMAGER",
+		["Player-4778-03FF4CC2"] = "DAMAGER",
+		["Player-4778-00C7037C"] = "DAMAGER",
+		["Player-4778-0514F1D4"] = "HEALER",
+		["Player-4778-04AC8F71"] = "DAMAGER",
+		["Player-4778-05189327"] = "DAMAGER",
+		["Player-4778-03DF4030"] = "DAMAGER",
+		["Player-4778-038866BF"] = "DAMAGER",
+		["Player-4778-052DE5BF"] = "DAMAGER",
+		["Player-4778-04106026"] = "HEALER",
+		["Player-4778-038F5744"] = "DAMAGER",
+		["Player-4778-05099D23"] = "DAMAGER",
+		["Player-4778-05057050"] = "DAMAGER",
+		["Player-4778-050CA59D"] = "DAMAGER",
+		["Player-4778-040AACDB"] = "DAMAGER",
+		["Player-4778-04C9EC6C"] = "DAMAGER",
+		["Player-4778-05253687"] = "DAMAGER",
+		["Player-4778-034FFEC7"] = "DAMAGER",
+		["Player-4778-00D8E296"] = "HEALER",
+		["Player-4778-00E429A7"] = "HEALER",
+		["Player-4778-0363E95F"] = "DAMAGER",
+		["Player-4778-03FC38EB"] = "DAMAGER",
+		["Player-4778-052ACEE6"] = "DAMAGER",
+		["Player-4778-050085FA"] = "DAMAGER",
+		["Player-4778-05103E89"] = "DAMAGER",
+		["Player-4778-04D4F9D7"] = "HEALER",
+		["Player-4778-052AA5B9"] = "DAMAGER",
+		["Player-4778-05244F19"] = "DAMAGER",
+		["Player-4778-04CAFA9D"] = "DAMAGER",
+		["Player-4778-05236B34"] = "HEALER",
+		["Player-4778-04F1795E"] = "DAMAGER",
+		["Player-4778-04F2A400"] = "TANK",
+		["Player-4778-04D56C2B"] = "DAMAGER",
+		["Player-4778-04CE7780"] = "DAMAGER",
+		["Player-4778-04A38621"] = "DAMAGER",
+		["Player-4778-016AB539"] = "HEALER",
+		["Player-4778-034448E9"] = "DAMAGER",
+		["Player-4778-04F181E3"] = "DAMAGER",
+		["Player-4778-04F81AA5"] = "TANK",
+		["Player-4778-02CEAC2D"] = "DAMAGER",
+		["Player-4778-05144436"] = "DAMAGER",
+		["Player-4778-03D31C32"] = "TANK",
+		["Player-4778-04D718AB"] = "DAMAGER",
+		["Player-4778-02D66257"] = "DAMAGER",
+		["Player-4778-04FDACAF"] = "TANK",
+		["Player-4778-047BCD17"] = "HEALER",
+		["Player-4778-0384ECAB"] = "HEALER",
+		["Player-4778-04F9E1E2"] = "TANK",
+		["Player-4778-04FB4BAB"] = "DAMAGER",
+		["Player-4778-04C9EC17"] = "DAMAGER",
+		["Player-4778-0445AB0F"] = "DAMAGER",
+		["Player-4778-04AF4EDB"] = "DAMAGER",
+		["Player-4778-04603D52"] = "DAMAGER",
+		["Player-4778-049FC7EE"] = "DAMAGER",
+		["Player-4778-0520EB5E"] = "DAMAGER",
+		["Player-4778-049CA007"] = "DAMAGER",
+		["Player-4778-051F9AB9"] = "DAMAGER",
+		["Player-4778-04AB8A60"] = "HEALER",
+		["Player-4778-0220ED5C"] = "DAMAGER",
+		["Player-4778-0506B6CE"] = "HEALER",
+		["Player-4778-03412F1B"] = "DAMAGER",
+		["Player-4778-052DA202"] = "HEALER",
+		["Player-4778-04FCB399"] = "DAMAGER",
+		["Player-4778-050577AD"] = "DAMAGER",
+		["Player-4778-052646D4"] = "TANK",
+		["Player-4778-04D9BDE6"] = "TANK",
+		["Player-4778-03DEDEF0"] = "DAMAGER",
+		["Player-4778-050EF9DA"] = "TANK",
+		["Player-4778-052E443F"] = "HEALER",
 	},
 	["cached_specs"] = {
+		["Player-4778-051DF3FC"] = 252,
+		["Player-4778-0520EB5E"] = 70,
+		["Player-4778-03CF3FA6"] = 262,
+		["Player-4778-04F81AA5"] = 250,
+		["Player-4778-04D9BDE6"] = 66,
+		["Player-4778-048F0669"] = 259,
+		["Player-4778-04AC8F71"] = 72,
 		["Player-4778-04DBFC9E"] = 259,
 	},
 }

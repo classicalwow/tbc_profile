@@ -9,7 +9,6 @@ NameplateCooldownsAceDB = {
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
-			["MigrationVersion"] = 7,
 			["SpellCDs"] = {
 				[1513] = {
 					["enabled"] = true,
@@ -867,6 +866,7 @@ NameplateCooldownsAceDB = {
 					["enabled"] = true,
 				},
 			},
+			["MigrationVersion"] = 7,
 		},
 		["沈南鹏 - 祈福"] = {
 			["MigrationVersion"] = 7,
@@ -1462,19 +1462,19 @@ NameplateCooldownsAceDB = {
 				[64843] = {
 					["enabled"] = true,
 				},
-				[27009] = {
+				[865] = {
 					["enabled"] = true,
 				},
 				[33043] = {
 					["enabled"] = true,
 				},
-				[34600] = {
+				[14303] = {
 					["enabled"] = true,
 				},
 				[16813] = {
 					["enabled"] = true,
 				},
-				[14303] = {
+				[34600] = {
 					["enabled"] = true,
 				},
 				[14311] = {
@@ -1663,7 +1663,7 @@ NameplateCooldownsAceDB = {
 				[13018] = {
 					["enabled"] = true,
 				},
-				[865] = {
+				[27009] = {
 					["enabled"] = true,
 				},
 				[12809] = {
@@ -2301,10 +2301,10 @@ NameplateCooldownsAceDB = {
 				[59543] = {
 					["enabled"] = true,
 				},
-				[27009] = {
+				[865] = {
 					["enabled"] = true,
 				},
-				[865] = {
+				[27009] = {
 					["enabled"] = true,
 				},
 				[55342] = {
@@ -2316,7 +2316,7 @@ NameplateCooldownsAceDB = {
 				[16813] = {
 					["enabled"] = true,
 				},
-				[14303] = {
+				[34600] = {
 					["enabled"] = true,
 				},
 				[14311] = {
@@ -2499,7 +2499,7 @@ NameplateCooldownsAceDB = {
 				[8046] = {
 					["enabled"] = true,
 				},
-				[34600] = {
+				[14303] = {
 					["enabled"] = true,
 				},
 				[13018] = {
@@ -2553,6 +2553,7 @@ NameplateCooldownsAceDB = {
 			},
 		},
 		["码农巴菲特 - 祈福"] = {
+			["MigrationVersion"] = 7,
 			["SpellCDs"] = {
 				[47585] = {
 					["enabled"] = true,
@@ -3410,7 +3411,6 @@ NameplateCooldownsAceDB = {
 					["enabled"] = true,
 				},
 			},
-			["MigrationVersion"] = 7,
 		},
 		["新特能源 - 祈福"] = {
 			["MigrationVersion"] = 7,
@@ -3955,7 +3955,7 @@ NameplateCooldownsAceDB = {
 				[17924] = {
 					["enabled"] = true,
 				},
-				[17116] = {
+				[11129] = {
 					["enabled"] = true,
 				},
 				[853] = {
@@ -4261,7 +4261,7 @@ NameplateCooldownsAceDB = {
 				[1767] = {
 					["enabled"] = true,
 				},
-				[11129] = {
+				[17116] = {
 					["enabled"] = true,
 				},
 				[1768] = {

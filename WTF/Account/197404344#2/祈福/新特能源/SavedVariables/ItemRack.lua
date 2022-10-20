@@ -7,13 +7,12 @@ ItemRackUser = {
 	["MainScale"] = 1,
 	["SetMenuWrapValue"] = 3,
 	["SetMenuWrap"] = "OFF",
-	["Queues"] = {
-		{
-			"37294:3819:41401:39998:::::80:::::::::", -- [1]
-			0, -- [2]
-		}, -- [1]
-	},
+	["CurrentSet"] = "戒律牧",
 	["Sets"] = {
+		["~CombatQueue"] = {
+			["equip"] = {
+			},
+		},
 		["戒律牧"] = {
 			["oldset"] = "命中",
 			["equip"] = {
@@ -55,10 +54,6 @@ ItemRackUser = {
 				nil, -- [16]
 				nil, -- [17]
 				"37177::::::::80:::::::::", -- [18]
-			},
-		},
-		["~CombatQueue"] = {
-			["equip"] = {
 			},
 		},
 		["命中"] = {
@@ -121,7 +116,8 @@ ItemRackUser = {
 	},
 	["EnableQueues"] = "ON",
 	["EnablePerSetQueues"] = "OFF",
-	["EnableEvents"] = "ON",
+	["Buttons"] = {
+	},
 	["ItemsUsed"] = {
 	},
 	["Events"] = {
@@ -130,11 +126,15 @@ ItemRackUser = {
 		["Set"] = {
 		},
 	},
+	["Alpha"] = 1,
 	["Hidden"] = {
 	},
-	["Alpha"] = 1,
-	["Buttons"] = {
-	},
+	["EnableEvents"] = "ON",
 	["MenuScale"] = 0.85,
-	["CurrentSet"] = "戒律牧",
+	["Queues"] = {
+		{
+			"37294:3819:41401:39998:::::80:::::::::", -- [1]
+			0, -- [2]
+		}, -- [1]
+	},
 }

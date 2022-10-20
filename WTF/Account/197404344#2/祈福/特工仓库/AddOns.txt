@@ -97,7 +97,7 @@ TomTom: disabled
 TradeShout: enabled
 tullaRange: disabled
 tullaRange_Config: disabled
-VendorPrice: enabled
+VendorPrice: disabled
 VuhDo: disabled
 VuhDoOptions: disabled
 WeakAuras: disabled
@@ -110,7 +110,7 @@ WIM: enabled
 WIM_ElvUI_Skin: enabled
 xanSoundAlerts: disabled
 TradeSkillMaster: enabled
-Accountant_Classic: enabled
+Accountant_Classic: disabled
 EZQuest: disabled
 AddOnSkins: disabled
 ElvUI_PVPDT: enabled
