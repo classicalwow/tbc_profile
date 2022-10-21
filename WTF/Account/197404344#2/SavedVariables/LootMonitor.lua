@@ -6,10 +6,7 @@ LootMonitorDB = {
 			["Class"] = "PRIEST",
 			["InstanceID"] = 533,
 			["FirstPlayer"] = "未知",
-			["FirstClass"] = "UNKNOWN",
-			["InstanceName"] = "纳克萨玛斯",
 			["SavedID"] = 1828576848,
-			["Player"] = "新特能源",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4536-533-27346-15956-00004BF4E7",
@@ -288,6 +285,9 @@ LootMonitorDB = {
 					},
 				}, -- [22]
 			},
+			["FirstClass"] = "UNKNOWN",
+			["Player"] = "新特能源",
+			["InstanceName"] = "纳克萨玛斯",
 		}, -- [1]
 	},
 	["Config"] = {
