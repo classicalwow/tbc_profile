@@ -1,5 +1,6 @@
 VER 3 0000000000000007 "Decursive" "INV_MISC_QUESTIONMARK"
-/script DecursiveRootTable.Dcr:Println('没有相关技能')
+/stopcasting
+/cast [@mouseover,nomod,exists] 驱散魔法;  [@mouseover,exists,mod:ctrl] 驱除疾病; [@mouseover,exists,mod:shift] 驱散魔法
 END
 VER 3 0000000000000006 "RXPTargeting" "Ability_eyeoftheowl"
 //RestedXP Guides - current step has no configured targets

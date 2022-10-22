@@ -1,11 +1,13 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0703,
+	["LastPlayerFullName"] = "码农巴菲特-祈福",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 35891,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:35891::::::::70:::::::::|h[符文铁甲头盔]|h|r",
+			["ID"] = 38094,
+			["Level"] = 146,
+			["Link"] = "|cff1eff00|Hitem:38094::::::::74:::::::::|h[达拉然斥候头盔]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 35936,
@@ -34,9 +36,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:35835::::::::70:::::::::|h[古旧强化护腿]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 35821,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:35821::::::::70:::::::::|h[流线战靴]|h|r",
+			["ID"] = 38084,
+			["Level"] = 146,
+			["Link"] = "|cff1eff00|Hitem:38084::::::::75:::::::::|h[甲壳战靴]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 35910,
@@ -49,16 +51,16 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:35846::::::::70:::::::::|h[镶环链甲手套]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 35922,
-			["Level"] = 138,
+			["ID"] = 37982,
+			["Level"] = 146,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff1eff00|Hitem:35922::::::::70:::::::::|h[黑铁徽记之戒]|h|r",
+			["Link"] = "|cff1eff00|Hitem:37982::::::::74:::::::::|h[微光齿环]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 35922,
-			["Level"] = 138,
+			["ID"] = 37982,
+			["Level"] = 146,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff1eff00|Hitem:35922::::::::71:::::::::|h[黑铁徽记之戒]|h|r",
+			["Link"] = "|cff1eff00|Hitem:37982::::::::75:::::::::|h[微光齿环]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 38259,
@@ -89,8 +91,6 @@ PawnOptions = {
 			["Link"] = "|cffffffff|Hitem:39371::::::::57:::::::::|h[凯雷塞斯的说服者]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "码农巴菲特-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
