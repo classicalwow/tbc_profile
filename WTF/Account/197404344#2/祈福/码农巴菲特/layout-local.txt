@@ -16,9 +16,9 @@ H: 40
 Frame: RXPFrame
 FrameLevel: 1
 Anchor: LEFT
-X: 6
-Y: -185
-W: 279
+X: 0
+Y: -122
+W: 299
 H: 28
 Frame: ColorPickerFrame
 FrameLevel: 1
@@ -46,5 +46,12 @@ FrameLevel: 1
 Anchor: CENTER
 X: 251
 Y: -196
-W: 82
+W: 78
 H: 40
+Frame: WeakAurasOptions
+FrameLevel: 1
+Anchor: RIGHT
+X: -159
+Y: 61
+W: 830
+H: 665

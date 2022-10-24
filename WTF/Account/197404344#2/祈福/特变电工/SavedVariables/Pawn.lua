@@ -1,11 +1,13 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0703,
+	["LastPlayerFullName"] = "特变电工-祈福",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 37636,
-			["Level"] = 200,
-			["Link"] = "|cff0070dd|Hitem:37636::::::::80:::::::::|h[坎坷命运头盔]|h|r",
+			["ID"] = 40499,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:40499::::::::80:::::::::|h[勇猛的骨镰头盔]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 40065,
@@ -40,9 +42,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:43566::::::::80:::::::::|h[冰冷突袭披风]|h|r",
 		},
 		[8] = {
-			["ID"] = 43172,
-			["Level"] = 175,
-			["Link"] = "|cff0070dd|Hitem:43172::::::::80:::::::::|h[犀牛皮革长靴]|h|r",
+			["ID"] = 39701,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:39701::::::::80:::::::::|h[黎明行者]|h|r",
 		},
 		[16] = {
 			["ID"] = 40386,
@@ -66,10 +68,10 @@ PawnOptions = {
 			["Level"] = 213,
 			["Link"] = "|cffa335ee|Hitem:40496:1603:40014::::::80:::::::::|h[勇猛的骨镰护手]|h|r",
 		},
-		[18] = {
-			["ID"] = 40265,
+		[9] = {
+			["ID"] = 40186,
 			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40265::::::::80:::::::::|h[飞矢之歌]|h|r",
+			["Link"] = "|cffa335ee|Hitem:40186::::::::80:::::::::|h[无情护腕]|h|r",
 		},
 		[11] = {
 			["ID"] = 40717,
@@ -88,14 +90,12 @@ PawnOptions = {
 			["AlsoFitsIn"] = 11,
 			["Link"] = "|cffa335ee|Hitem:40474::::::::80:::::::::|h[湍流之针指环]|h|r",
 		},
-		[9] = {
-			["ID"] = 40186,
+		[18] = {
+			["ID"] = 40265,
 			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40186::::::::80:::::::::|h[无情护腕]|h|r",
+			["Link"] = "|cffa335ee|Hitem:40265::::::::80:::::::::|h[飞矢之歌]|h|r",
 		},
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "特变电工-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
