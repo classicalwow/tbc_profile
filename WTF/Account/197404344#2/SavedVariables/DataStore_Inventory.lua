@@ -88,15 +88,13 @@ DataStore_InventoryDB = {
 					[7] = "|cffffffff|Hitem:1366::::::::3:::::::::|h[]|h|r",
 					[8] = "|cffffffff|Hitem:47::::::::3:::::::::|h[]|h|r",
 					[18] = "|cffffffff|Hitem:28979::::::::3:::::::::|h[]|h|r",
-					[16] = "|cffffffff|Hitem:2092::::::::3:::::::::|h[]|h|r",
-					[4] = "|cffffffff|Hitem:49::::::::3:::::::::|h[]|h|r",
 					[9] = "|cffffffff|Hitem:6070::::::::3:::::::::|h[]|h|r",
+					[4] = "|cffffffff|Hitem:49::::::::3:::::::::|h[]|h|r",
 					[5] = "|cffffffff|Hitem:1380::::::::3:::::::::|h[]|h|r",
+					[16] = "|cffffffff|Hitem:2092::::::::3:::::::::|h[]|h|r",
 				},
 			},
 			["Default.祈福.特变电工"] = {
-				["lastUpdate"] = 1666541159,
-				["averageItemLvl"] = 209.1764705882353,
 				["Inventory"] = {
 					"|cffa335ee|Hitem:40499:3817:41398:42702:::::80:::::::::|h[勇猛的骨镰头盔]|h|r", -- [1]
 					"|cffa335ee|Hitem:40065::::::::80:::::::::|h[愚者的试炼]|h|r", -- [2]
@@ -118,13 +116,15 @@ DataStore_InventoryDB = {
 					"|cffa335ee|Hitem:40265::::::::80:::::::::|h[飞矢之歌]|h|r", -- [18]
 					"|cffffffff|Hitem:43154::::::::80:::::::::|h[银色北伐军战袍]|h|r", -- [19]
 				},
+				["averageItemLvl"] = 209.1764705882353,
+				["lastUpdate"] = 1666627171,
 			},
 		},
 		["Guilds"] = {
 			["Default.祈福.Play for Uber"] = {
 				["Members"] = {
 					["特变电工"] = {
-						["averageItemLvl"] = 196,
+						["averageItemLvl"] = 209,
 					},
 				},
 			},

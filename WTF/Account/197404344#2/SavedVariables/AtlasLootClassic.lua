@@ -146,9 +146,6 @@ AtlasLootClassicDB = {
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
-			["minimap"] = {
-				["minimapPos"] = 214.0023519491544,
-			},
 			["GUI"] = {
 				["point"] = {
 					"RIGHT", -- [1]
@@ -164,6 +161,9 @@ AtlasLootClassicDB = {
 					1, -- [4]
 					0, -- [5]
 				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 214.0023519491544,
 			},
 		},
 		["沈南鹏 - 祈福"] = {

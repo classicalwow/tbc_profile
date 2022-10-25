@@ -2692,6 +2692,102 @@ RaidLedgerDatabase = {
 						["count"] = 1,
 					},
 				}, -- [224]
+				{
+					["beneficiary"] = "狡猾的豆角",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cff0070dd|Hitem:34052::::::::80:::::::::|h[梦境碎片]|h|r",
+						["count"] = 2,
+					},
+				}, -- [225]
+				{
+					["beneficiary"] = "狡猾的豆角",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40615::::::::80:::::::::|h[失落胜利者的手套]|h|r",
+						["count"] = 1,
+					},
+				}, -- [226]
+				{
+					["beneficiary"] = "狡猾的豆角",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40426::::::::80:::::::::|h[龙眠联军徽记]|h|r",
+						["count"] = 1,
+					},
+				}, -- [227]
+				{
+					["beneficiary"] = "狡猾的豆角",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:43996::::::::80:::::::::|h[苍穹战靴]|h|r",
+						["count"] = 1,
+					},
+				}, -- [228]
+				{
+					["beneficiary"] = "狡猾的豆角",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:43988::::::::80:::::::::|h[防风斗篷]|h|r",
+						["count"] = 1,
+					},
+				}, -- [229]
+				{
+					["beneficiary"] = "狡猾的豆角",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:43347::::::::80:::::::::|h[一包战利品]|h|r",
+						["count"] = 1,
+					},
+				}, -- [230]
+				{
+					["beneficiary"] = "狡猾的豆角",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:43345::::::::80:::::::::|h[龙皮包]|h|r",
+						["count"] = 1,
+					},
+				}, -- [231]
+				{
+					["beneficiary"] = "你",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:43345::::::::80:::::::::|h[龙皮包]|h|r",
+						["count"] = 1,
+					},
+				}, -- [232]
 			},
 		}, -- [1]
 	},

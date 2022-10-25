@@ -47,8 +47,8 @@ RXPCSettings = {
 	["profiles"] = {
 		["沈南鹏 - 祈福"] = {
 			["frameHeight"] = 124.9999847412109,
-			["xprate"] = 1,
 			["hardcore"] = false,
+			["xprate"] = 1,
 		},
 	},
 }

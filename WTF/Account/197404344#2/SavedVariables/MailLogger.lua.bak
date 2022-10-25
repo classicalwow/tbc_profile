@@ -5079,15 +5079,15 @@ MailLoggerDB = {
 					["ItemLink"] = "|cffffffff|Hitem:22578::::::::1:::::::::|h[水之微粒]|h|r",
 					["Name"] = "水之微粒",
 				},
-				[57] = {
-					["Number"] = 33,
-					["ItemLink"] = "|cffffffff|Hitem:14047::::::::1:::::::::|h[符文布]|h|r",
-					["Name"] = "符文布",
-				},
 				[29] = {
 					["Number"] = 5,
 					["ItemLink"] = "|cffffffff|Hitem:22577::::::::1:::::::::|h[暗影微粒]|h|r",
 					["Name"] = "暗影微粒",
+				},
+				[57] = {
+					["Number"] = 33,
+					["ItemLink"] = "|cffffffff|Hitem:14047::::::::1:::::::::|h[符文布]|h|r",
+					["Name"] = "符文布",
 				},
 				[24] = {
 					["Number"] = 5,
@@ -10751,10 +10751,10 @@ MailLoggerDB = {
 					["ItemLink"] = "|cffffffff|Hitem:4338::::::::1:::::::::|h[魔纹布]|h|r",
 					["Name"] = "魔纹布",
 				},
-				[4] = {
-					["Number"] = 3,
-					["ItemLink"] = "|cff1eff00|Hitem:5498::::::::1:::::::::|h[有光泽的小珍珠]|h|r",
-					["Name"] = "有光泽的小珍珠",
+				[34] = {
+					["Number"] = 2,
+					["ItemLink"] = "|cff1eff00|Hitem:5500::::::::1:::::::::|h[彩色珍珠]|h|r",
+					["Name"] = "彩色珍珠",
 				},
 				[8] = {
 					["Number"] = 205,
@@ -10766,25 +10766,25 @@ MailLoggerDB = {
 					["ItemLink"] = "|cff1eff00|Hitem:7910::::::::1:::::::::|h[红宝石]|h|r",
 					["Name"] = "红宝石",
 				},
-				[33] = {
-					["Number"] = 13,
-					["ItemLink"] = "|cffffffff|Hitem:5504::::::::1:::::::::|h[有腥味的蚌肉]|h|r",
-					["Name"] = "有腥味的蚌肉",
-				},
-				[34] = {
+				[12] = {
 					["Number"] = 2,
-					["ItemLink"] = "|cff1eff00|Hitem:5500::::::::1:::::::::|h[彩色珍珠]|h|r",
-					["Name"] = "彩色珍珠",
+					["ItemLink"] = "|cff1eff00|Hitem:8402::::::::1:::::::::|h[图样：硬化蝎壳头盔]|h|r",
+					["Name"] = "图样：硬化蝎壳头盔",
+				},
+				[4] = {
+					["Number"] = 3,
+					["ItemLink"] = "|cff1eff00|Hitem:5498::::::::1:::::::::|h[有光泽的小珍珠]|h|r",
+					["Name"] = "有光泽的小珍珠",
 				},
 				[9] = {
 					["Number"] = 1,
 					["ItemLink"] = "|cff1eff00|Hitem:7971::::::::1:::::::::|h[黑珍珠]|h|r",
 					["Name"] = "黑珍珠",
 				},
-				[12] = {
-					["Number"] = 2,
-					["ItemLink"] = "|cff1eff00|Hitem:8402::::::::1:::::::::|h[图样：硬化蝎壳头盔]|h|r",
-					["Name"] = "图样：硬化蝎壳头盔",
+				[33] = {
+					["Number"] = 13,
+					["ItemLink"] = "|cffffffff|Hitem:5504::::::::1:::::::::|h[有腥味的蚌肉]|h|r",
+					["Name"] = "有腥味的蚌肉",
 				},
 			},
 		}, -- [415]
@@ -20866,5 +20866,45 @@ MailLoggerDB = {
 			["ReceiveItems"] = {
 			},
 		}, -- [889]
+		{
+			["PlayerName"] = "特变电工",
+			["TargetName"] = "联盟拍卖行",
+			["Reason"] = 8,
+			["Date"] = "2022-10-25",
+			["ReceiveMoney"] = 0,
+			["Time"] = "00:03:48",
+			["GiveMoney"] = 0,
+			["Location"] = "暴风城",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 40,
+					["ItemLink"] = "|cffffffff|Hitem:22838::::::::80:::::::::|h[加速药水]|h|r",
+					["Name"] = "加速药水",
+				}, -- [1]
+			},
+		}, -- [890]
+		{
+			["PlayerName"] = "特变电工",
+			["TargetName"] = "联盟拍卖行",
+			["Reason"] = 2,
+			["Date"] = "2022-10-25",
+			["ReceiveMoney"] = 0,
+			["Time"] = "00:09:07",
+			["GiveMoney"] = 0,
+			["Location"] = "暴风城",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 40,
+					["ItemLink"] = "|cffffffff|Hitem:34766::::::::80:::::::::|h[水煮北地蚌背鱼]|h|r",
+					["Name"] = "水煮北地蚌背鱼",
+				}, -- [1]
+			},
+		}, -- [891]
 	},
 }

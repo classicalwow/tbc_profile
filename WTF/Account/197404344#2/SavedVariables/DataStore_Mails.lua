@@ -158,8 +158,8 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2022/09/02 01:26",
 			},
 			["Default.祈福.特变电工"] = {
-				["lastUpdate"] = 1666537676,
-				["lastVisitDate"] = "2022/10/23 23:07",
+				["lastUpdate"] = 1666627748,
+				["lastVisitDate"] = "2022/10/25 00:09",
 			},
 		},
 	},

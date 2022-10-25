@@ -61,9 +61,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -86,9 +86,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -132,18 +132,17 @@ TomTomWaypointsM = {
 		["Vscode - 加丁"] = {
 		},
 		["新特能源 - 祈福"] = {
-			[120] = {
-				["120:223390383.04808:582559087.20456:凋零始祖幼龙"] = {
-					120, -- [1]
-					0.2233903830480848, -- [2]
-					0.5825590872045641, -- [3]
+			[125] = {
+				["125:512469437.65281:584596577.01711:Mailbox"] = {
+					125, -- [1]
+					0.5124694376528117, -- [2]
+					0.5845965770171149, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "凋零始祖幼龙",
-					["silent"] = true,
+					["minimap"] = true,
 					["cleardistance"] = 10,
-					["title"] = "凋零始祖幼龙",
+					["title"] = "Mailbox",
 					["from"] = "Questie",
 					["callbacks"] = {
 						["distance"] = {
@@ -153,7 +152,6 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
-					["minimap"] = true,
 					["world"] = true,
 				},
 			},

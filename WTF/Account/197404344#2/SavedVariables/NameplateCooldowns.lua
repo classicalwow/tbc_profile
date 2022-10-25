@@ -1048,6 +1048,9 @@ NameplateCooldownsAceDB = {
 				[8983] = {
 					["enabled"] = true,
 				},
+				[31228] = {
+					["enabled"] = true,
+				},
 				[26669] = {
 					["enabled"] = true,
 				},
@@ -1123,6 +1126,9 @@ NameplateCooldownsAceDB = {
 				[27133] = {
 					["enabled"] = true,
 				},
+				[31229] = {
+					["enabled"] = true,
+				},
 				[29704] = {
 					["enabled"] = true,
 				},
@@ -1190,6 +1196,9 @@ NameplateCooldownsAceDB = {
 					["enabled"] = true,
 				},
 				[27134] = {
+					["enabled"] = true,
+				},
+				[31230] = {
 					["enabled"] = true,
 				},
 				[6552] = {
@@ -1384,19 +1393,16 @@ NameplateCooldownsAceDB = {
 				[20589] = {
 					["enabled"] = true,
 				},
+				[24133] = {
+					["enabled"] = true,
+				},
+				[60192] = {
+					["enabled"] = true,
+				},
 				[11113] = {
 					["enabled"] = true,
 				},
 				[19647] = {
-					["enabled"] = true,
-				},
-				[24133] = {
-					["enabled"] = true,
-				},
-				[17116] = {
-					["enabled"] = true,
-				},
-				[3411] = {
 					["enabled"] = true,
 				},
 				[33357] = {
@@ -1405,7 +1411,19 @@ NameplateCooldownsAceDB = {
 				[17924] = {
 					["enabled"] = true,
 				},
+				[17116] = {
+					["enabled"] = true,
+				},
 				[2800] = {
+					["enabled"] = true,
+				},
+				[48792] = {
+					["enabled"] = true,
+				},
+				[19263] = {
+					["enabled"] = true,
+				},
+				[51690] = {
 					["enabled"] = true,
 				},
 				[1719] = {
@@ -1420,19 +1438,10 @@ NameplateCooldownsAceDB = {
 				[26889] = {
 					["enabled"] = true,
 				},
-				[61336] = {
+				[16689] = {
 					["enabled"] = true,
 				},
 				[19240] = {
-					["enabled"] = true,
-				},
-				[19263] = {
-					["enabled"] = true,
-				},
-				[50334] = {
-					["enabled"] = true,
-				},
-				[16689] = {
 					["enabled"] = true,
 				},
 				[31224] = {
@@ -1447,10 +1456,19 @@ NameplateCooldownsAceDB = {
 				[27088] = {
 					["enabled"] = true,
 				},
+				[12809] = {
+					["enabled"] = true,
+				},
+				[46968] = {
+					["enabled"] = true,
+				},
+				[55342] = {
+					["enabled"] = true,
+				},
 				[30546] = {
 					["enabled"] = true,
 				},
-				[12809] = {
+				[64843] = {
 					["enabled"] = true,
 				},
 				[57994] = {
@@ -1459,34 +1477,34 @@ NameplateCooldownsAceDB = {
 				[59543] = {
 					["enabled"] = true,
 				},
-				[27009] = {
-					["enabled"] = true,
-				},
 				[865] = {
 					["enabled"] = true,
 				},
-				[33043] = {
-					["enabled"] = true,
-				},
-				[55342] = {
-					["enabled"] = true,
-				},
-				[16813] = {
-					["enabled"] = true,
-				},
-				[14303] = {
-					["enabled"] = true,
-				},
-				[10223] = {
-					["enabled"] = true,
-				},
-				[14311] = {
+				[27009] = {
 					["enabled"] = true,
 				},
 				[8918] = {
 					["enabled"] = true,
 				},
 				[26994] = {
+					["enabled"] = true,
+				},
+				[16813] = {
+					["enabled"] = true,
+				},
+				[34600] = {
+					["enabled"] = true,
+				},
+				[23920] = {
+					["enabled"] = true,
+				},
+				[14311] = {
+					["enabled"] = true,
+				},
+				[33043] = {
+					["enabled"] = true,
+				},
+				[14303] = {
 					["enabled"] = true,
 				},
 				[498] = {
@@ -1498,19 +1516,7 @@ NameplateCooldownsAceDB = {
 				[740] = {
 					["enabled"] = true,
 				},
-				[23920] = {
-					["enabled"] = true,
-				},
-				[27154] = {
-					["enabled"] = true,
-				},
-				[781] = {
-					["enabled"] = true,
-				},
 				[6798] = {
-					["enabled"] = true,
-				},
-				[11285] = {
 					["enabled"] = true,
 				},
 				[14305] = {
@@ -1522,6 +1528,18 @@ NameplateCooldownsAceDB = {
 				[47585] = {
 					["enabled"] = true,
 				},
+				[11285] = {
+					["enabled"] = true,
+				},
+				[22842] = {
+					["enabled"] = true,
+				},
+				[5384] = {
+					["enabled"] = true,
+				},
+				[1953] = {
+					["enabled"] = true,
+				},
 				[22570] = {
 					["enabled"] = true,
 				},
@@ -1531,25 +1549,16 @@ NameplateCooldownsAceDB = {
 				[6940] = {
 					["enabled"] = true,
 				},
-				[22842] = {
+				[19752] = {
 					["enabled"] = true,
 				},
 				[871] = {
 					["enabled"] = true,
 				},
-				[13020] = {
+				[13795] = {
 					["enabled"] = true,
 				},
 				[30283] = {
-					["enabled"] = true,
-				},
-				[1953] = {
-					["enabled"] = true,
-				},
-				[19752] = {
-					["enabled"] = true,
-				},
-				[13795] = {
 					["enabled"] = true,
 				},
 				[58984] = {
@@ -1558,22 +1567,25 @@ NameplateCooldownsAceDB = {
 				[47476] = {
 					["enabled"] = true,
 				},
-				[27023] = {
+				[11426] = {
 					["enabled"] = true,
 				},
 				[853] = {
 					["enabled"] = true,
 				},
-				[11129] = {
+				[50613] = {
+					["enabled"] = true,
+				},
+				[34026] = {
 					["enabled"] = true,
 				},
 				[14751] = {
 					["enabled"] = true,
 				},
-				[10326] = {
+				[11129] = {
 					["enabled"] = true,
 				},
-				[10888] = {
+				[14317] = {
 					["enabled"] = true,
 				},
 				[33933] = {
@@ -1588,37 +1600,43 @@ NameplateCooldownsAceDB = {
 				[27211] = {
 					["enabled"] = true,
 				},
+				[10888] = {
+					["enabled"] = true,
+				},
+				[10326] = {
+					["enabled"] = true,
+				},
 				[2983] = {
 					["enabled"] = true,
 				},
 				[59752] = {
 					["enabled"] = true,
 				},
-				[14317] = {
+				[14185] = {
 					["enabled"] = true,
 				},
 				[10890] = {
 					["enabled"] = true,
 				},
-				[14185] = {
+				[13019] = {
 					["enabled"] = true,
 				},
 				[20742] = {
 					["enabled"] = true,
 				},
-				[50613] = {
+				[38768] = {
 					["enabled"] = true,
 				},
-				[13019] = {
+				[13021] = {
 					["enabled"] = true,
 				},
-				[11426] = {
+				[13020] = {
 					["enabled"] = true,
 				},
 				[19241] = {
 					["enabled"] = true,
 				},
-				[13021] = {
+				[14310] = {
 					["enabled"] = true,
 				},
 				[1499] = {
@@ -1627,16 +1645,16 @@ NameplateCooldownsAceDB = {
 				[2484] = {
 					["enabled"] = true,
 				},
-				[14310] = {
-					["enabled"] = true,
-				},
-				[5384] = {
-					["enabled"] = true,
-				},
-				[38768] = {
-					["enabled"] = true,
-				},
 				[53271] = {
+					["enabled"] = true,
+				},
+				[781] = {
+					["enabled"] = true,
+				},
+				[27154] = {
+					["enabled"] = true,
+				},
+				[10223] = {
 					["enabled"] = true,
 				},
 				[25437] = {
@@ -1657,19 +1675,10 @@ NameplateCooldownsAceDB = {
 				[8046] = {
 					["enabled"] = true,
 				},
-				[34600] = {
-					["enabled"] = true,
-				},
-				[13018] = {
-					["enabled"] = true,
-				},
-				[64843] = {
-					["enabled"] = true,
-				},
 				[26297] = {
 					["enabled"] = true,
 				},
-				[46968] = {
+				[13018] = {
 					["enabled"] = true,
 				},
 				[46924] = {
@@ -1684,28 +1693,37 @@ NameplateCooldownsAceDB = {
 				[51490] = {
 					["enabled"] = true,
 				},
-				[25046] = {
+				[50334] = {
 					["enabled"] = true,
 				},
 				[14304] = {
 					["enabled"] = true,
 				},
+				[61336] = {
+					["enabled"] = true,
+				},
+				[25046] = {
+					["enabled"] = true,
+				},
+				[49206] = {
+					["enabled"] = true,
+				},
 				[1766] = {
 					["enabled"] = true,
 				},
-				[51690] = {
+				[3411] = {
 					["enabled"] = true,
 				},
 				[1767] = {
 					["enabled"] = true,
 				},
-				[48792] = {
+				[27023] = {
 					["enabled"] = true,
 				},
 				[1768] = {
 					["enabled"] = true,
 				},
-				[49206] = {
+				[13809] = {
 					["enabled"] = true,
 				},
 			},
@@ -2304,19 +2322,19 @@ NameplateCooldownsAceDB = {
 				[31224] = {
 					["enabled"] = true,
 				},
-				[865] = {
+				[27009] = {
 					["enabled"] = true,
 				},
 				[55342] = {
 					["enabled"] = true,
 				},
-				[14303] = {
+				[34600] = {
 					["enabled"] = true,
 				},
 				[16813] = {
 					["enabled"] = true,
 				},
-				[34600] = {
+				[14303] = {
 					["enabled"] = true,
 				},
 				[10223] = {
@@ -2505,7 +2523,7 @@ NameplateCooldownsAceDB = {
 				[13018] = {
 					["enabled"] = true,
 				},
-				[27009] = {
+				[865] = {
 					["enabled"] = true,
 				},
 				[853] = {
@@ -3949,13 +3967,13 @@ NameplateCooldownsAceDB = {
 				[19647] = {
 					["enabled"] = true,
 				},
-				[17116] = {
+				[11129] = {
 					["enabled"] = true,
 				},
 				[1767] = {
 					["enabled"] = true,
 				},
-				[11129] = {
+				[17116] = {
 					["enabled"] = true,
 				},
 				[61336] = {
