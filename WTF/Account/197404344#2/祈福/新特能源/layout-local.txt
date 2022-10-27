@@ -55,3 +55,10 @@ X: 0
 Y: 128
 W: 200
 H: 50
+Frame: DetailsPluginContainerWindow
+FrameLevel: 1
+Anchor: CENTER
+X: 47
+Y: 86
+W: 925
+H: 600

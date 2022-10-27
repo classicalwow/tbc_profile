@@ -1,5 +1,13 @@
 
 AtlasLootClassicDB = {
+	["profileKeys"] = {
+		["特变电工 - 祈福"] = "特变电工 - 祈福",
+		["沈南鹏 - 祈福"] = "沈南鹏 - 祈福",
+		["查尔斯三世 - 祈福"] = "查尔斯三世 - 祈福",
+		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
+		["特工仓库 - 祈福"] = "特工仓库 - 祈福",
+		["新特能源 - 祈福"] = "新特能源 - 祈福",
+	},
 	["global"] = {
 		["__addonrevision"] = 3000007,
 		["VendorPrice"] = {
@@ -104,45 +112,37 @@ AtlasLootClassicDB = {
 			[42950] = "EmblemOfHeroism:40",
 			[41938] = "EmblemOfValor:30",
 			[40679] = "EmblemOfHeroism:25",
-			[44909] = "cpvpWintergrasp:40",
+			[41852] = "EmblemOfValor:45",
 			[40695] = "EmblemOfHeroism:40",
 			[40703] = "EmblemOfHeroism:50",
-			[42951] = "EmblemOfHeroism:40",
+			[41931] = "EmblemOfValor:30",
 			[40719] = "EmblemOfValor:25",
 			[31775] = "glowcap:10",
 			[40735] = "EmblemOfValor:60",
 			[40743] = "EmblemOfValor:40",
 			[40751] = "EmblemOfValor:40",
 			[44899] = "cpvpWintergrasp:15",
-			[40733] = "EmblemOfValor:60",
-			[40745] = "EmblemOfValor:40",
+			[41848] = "EmblemOfHeroism:45",
+			[41930] = "EmblemOfHeroism:30",
 			[42991] = "EmblemOfHeroism:50",
-			[42992] = "EmblemOfHeroism:50",
-			[41912] = "EmblemOfHeroism:45",
+			[44910] = "cpvpWintergrasp:40",
+			[41925] = "EmblemOfValor:45",
 			[43102] = "EmblemOfHeroism:10",
-			[41670] = "EmblemOfValor:45",
+			[42984] = "EmblemOfHeroism:40",
 			[41924] = "EmblemOfHeroism:45",
 			[41851] = "EmblemOfHeroism:45",
 			[48718] = "EmblemOfHeroism:65",
 			[41867] = "EmblemOfValor:30",
-			[42984] = "EmblemOfHeroism:40",
-			[41925] = "EmblemOfValor:45",
-			[44910] = "cpvpWintergrasp:40",
+			[41670] = "EmblemOfValor:45",
+			[41912] = "EmblemOfHeroism:45",
+			[42992] = "EmblemOfHeroism:50",
 			[41644] = "EmblemOfHeroism:45",
-			[41930] = "EmblemOfHeroism:30",
-			[41848] = "EmblemOfHeroism:45",
+			[40745] = "EmblemOfValor:40",
+			[40733] = "EmblemOfValor:60",
 			[42943] = "EmblemOfHeroism:65",
-			[41931] = "EmblemOfValor:30",
-			[41852] = "EmblemOfValor:45",
+			[42951] = "EmblemOfHeroism:40",
+			[44909] = "cpvpWintergrasp:40",
 		},
-	},
-	["profileKeys"] = {
-		["特变电工 - 祈福"] = "特变电工 - 祈福",
-		["沈南鹏 - 祈福"] = "沈南鹏 - 祈福",
-		["查尔斯三世 - 祈福"] = "查尔斯三世 - 祈福",
-		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
-		["特工仓库 - 祈福"] = "特工仓库 - 祈福",
-		["新特能源 - 祈福"] = "新特能源 - 祈福",
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
@@ -181,15 +181,15 @@ AtlasLootClassicDB = {
 		["查尔斯三世 - 祈福"] = {
 		},
 		["码农巴菲特 - 祈福"] = {
-			["minimap"] = {
-				["minimapPos"] = 263.4188819558989,
-			},
 			["GUI"] = {
 				["selected"] = {
 					nil, -- [1]
 					"AhnKahet", -- [2]
 					[5] = 0,
 				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 263.4188819558989,
 			},
 		},
 		["特工仓库 - 祈福"] = {

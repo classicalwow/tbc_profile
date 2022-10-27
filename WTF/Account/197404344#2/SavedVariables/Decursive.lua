@@ -1,12 +1,7 @@
 
 DecursiveDB = {
-	["profileKeys"] = {
-		["特变电工 - 祈福"] = "Default",
-		["沈南鹏 - 祈福"] = "Default",
-		["查尔斯三世 - 祈福"] = "Default",
-		["码农巴菲特 - 祈福"] = "Default",
-		["特工仓库 - 祈福"] = "Default",
-		["新特能源 - 祈福"] = "Default",
+	["global"] = {
+		["LastVersionAnnounce"] = 1666804002,
 	},
 	["class"] = {
 		["DEATHKNIGHT"] = {
@@ -65,8 +60,13 @@ DecursiveDB = {
 			},
 		},
 	},
-	["global"] = {
-		["LastVersionAnnounce"] = 1666709374,
+	["profileKeys"] = {
+		["特变电工 - 祈福"] = "Default",
+		["沈南鹏 - 祈福"] = "Default",
+		["查尔斯三世 - 祈福"] = "Default",
+		["码农巴菲特 - 祈福"] = "Default",
+		["特工仓库 - 祈福"] = "Default",
+		["新特能源 - 祈福"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

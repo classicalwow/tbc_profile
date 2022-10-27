@@ -10,13 +10,13 @@ DataStore_AuctionsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.祈福.新特能源"] = {
-				["lastUpdate"] = 1662041655,
-				["lastVisitDate"] = "2022/09/01 22:14",
-			},
 			["Default.祈福.特变电工"] = {
 				["lastUpdate"] = 1666627690,
 				["lastVisitDate"] = "2022/10/25 00:08",
+			},
+			["Default.祈福.新特能源"] = {
+				["lastUpdate"] = 1662041655,
+				["lastVisitDate"] = "2022/09/01 22:14",
 			},
 		},
 	},
