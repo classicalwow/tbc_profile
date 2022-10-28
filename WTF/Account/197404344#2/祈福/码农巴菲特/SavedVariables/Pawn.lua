@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0703,
+	["LastPlayerFullName"] = "码农巴菲特-祈福",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 42878,
@@ -39,9 +41,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:42833::::::::77:::::::::|h[断腭者]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 39860,
-			["Level"] = 158,
-			["Link"] = "|cff1eff00|Hitem:39860::::::::75:::::::::|h[辩护者的牺牲护腕]|h|r",
+			["ID"] = 43944,
+			["Level"] = 174,
+			["Link"] = "|cff1eff00|Hitem:43944::::::::79:::::::::|h[尼尔盖德之环]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 42880,
@@ -73,9 +75,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:44014::::::::77:::::::::|h[菲斯克的怀表]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 39858,
-			["Level"] = 158,
-			["Link"] = "|cff1eff00|Hitem:39858::::::::76:::::::::|h[放血者的斗篷]|h|r",
+			["ID"] = 43924,
+			["Level"] = 174,
+			["Link"] = "|cff1eff00|Hitem:43924::::::::79:::::::::|h[伊尔斯卡的披风]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 41816,
@@ -89,8 +91,6 @@ PawnOptions = {
 			["Link"] = "|cffffffff|Hitem:39371::::::::57:::::::::|h[凯雷塞斯的说服者]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "码农巴菲特-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

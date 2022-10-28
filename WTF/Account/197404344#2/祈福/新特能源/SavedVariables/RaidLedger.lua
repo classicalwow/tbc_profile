@@ -3353,6 +3353,54 @@ RaidLedgerDatabase = {
 						["count"] = 1,
 					},
 				}, -- [279]
+				{
+					["beneficiary"] = "装欢",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40567::::::::80:::::::::|h[勇猛的天灾苦痛护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [280]
+				{
+					["beneficiary"] = "仇恨是啥",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:41080::::::::80:::::::::|h[致命角斗士的鳞甲护胸]|h|r",
+						["count"] = 1,
+					},
+				}, -- [281]
+				{
+					["beneficiary"] = "肚子痛",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40514::::::::80:::::::::|h[勇猛的碎地者锁甲]|h|r",
+						["count"] = 1,
+					},
+				}, -- [282]
+				{
+					["beneficiary"] = "仇恨是啥",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:41000::::::::80:::::::::|h[致命角斗士的环甲手套]|h|r",
+						["count"] = 1,
+					},
+				}, -- [283]
 			},
 		}, -- [1]
 	},
@@ -3364,11 +3412,11 @@ RaidLedgerDatabase = {
 		["minimapicons"] = {
 			["hide"] = false,
 		},
-		["minimapicon"] = true,
-		["raidbutton"] = true,
-		["filteritems"] = "# 每行一条, 可以是物品名称或物品ID\n# 以 # 开头的行自动被忽略\n",
 		["debittemplates"] = {
 		},
+		["raidbutton"] = true,
+		["filteritems"] = "# 每行一条, 可以是物品名称或物品ID\n# 以 # 开头的行自动被忽略\n",
+		["minimapicon"] = true,
 		["filterzero"] = false,
 	},
 	["current"] = 1,

@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0703,
-	["LastPlayerFullName"] = "特变电工-祈福",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 40499,
@@ -68,10 +66,10 @@ PawnOptions = {
 			["Level"] = 213,
 			["Link"] = "|cffa335ee|Hitem:40496:1603:40014::::::80:::::::::|h[勇猛的骨镰护手]|h|r",
 		},
-		[9] = {
-			["ID"] = 40186,
+		[18] = {
+			["ID"] = 40265,
 			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40186::::::::80:::::::::|h[无情护腕]|h|r",
+			["Link"] = "|cffa335ee|Hitem:40265::::::::80:::::::::|h[飞矢之歌]|h|r",
 		},
 		[11] = {
 			["ID"] = 40717,
@@ -90,12 +88,14 @@ PawnOptions = {
 			["AlsoFitsIn"] = 11,
 			["Link"] = "|cffa335ee|Hitem:40474::::::::80:::::::::|h[湍流之针指环]|h|r",
 		},
-		[18] = {
-			["ID"] = 40265,
+		[9] = {
+			["ID"] = 40186,
 			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40265::::::::80:::::::::|h[飞矢之歌]|h|r",
+			["Link"] = "|cffa335ee|Hitem:40186::::::::80:::::::::|h[无情护腕]|h|r",
 		},
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "特变电工-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

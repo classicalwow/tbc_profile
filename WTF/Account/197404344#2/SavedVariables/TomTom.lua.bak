@@ -45,6 +45,31 @@ TomTomWaypointsM = {
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
+			[121] = {
+				["121:170660146.69927:566381418.09291:瓦古杀戮者"] = {
+					121, -- [1]
+					0.1706601466992665, -- [2]
+					0.5663814180929095, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "瓦古杀戮者",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "瓦古杀戮者",
+					["from"] = "Questie",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
 			[1440] = {
 				["1440:615537218.00844:496181435.25368:TomTom 路径点"] = {
 					1440, -- [1]
@@ -60,51 +85,10 @@ TomTomWaypointsM = {
 					["from"] = "TomTom/wm",
 					["callbacks"] = {
 						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
-			[115] = {
-				["115:603178484.10758:515403422.98289:奈瑟斯塔兹"] = {
-					115, -- [1]
-					0.6031784841075795, -- [2]
-					0.5154034229828851, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "奈瑟斯塔兹",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "奈瑟斯塔兹",
-					["from"] = "Questie",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["minimap"] = true,
@@ -146,31 +130,6 @@ TomTomWaypointsM = {
 		["码农巴菲特 - 祈福"] = {
 		},
 		["新特能源 - 祈福"] = {
-			[125] = {
-				["125:512469437.65281:584596577.01711:Mailbox"] = {
-					125, -- [1]
-					0.5124694376528117, -- [2]
-					0.5845965770171149, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Mailbox",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Mailbox",
-					["from"] = "Questie",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
 		},
 		["Vscode - 加丁"] = {
 		},

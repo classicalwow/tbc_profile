@@ -9,8 +9,8 @@ BisTooltipDB = {
 	},
 	["char"] = {
 		["特变电工 - 祈福"] = {
-			["minimapPos"] = 240.3358163393178,
 			["class_index"] = 7,
+			["minimapPos"] = 240.3358163393178,
 			["version"] = 6.1,
 			["phase_index"] = 2,
 		},

@@ -1,7 +1,10 @@
 
 DecursiveDB = {
 	["global"] = {
-		["LastVersionAnnounce"] = 1666804002,
+		["LastVersionAnnounce"] = 1666883519,
+		["NewerVersionName"] = "2.7.8.10",
+		["NewerVersionAlert"] = 1666878455,
+		["NewerVersionDetected"] = 1666748789,
 	},
 	["class"] = {
 		["DEATHKNIGHT"] = {

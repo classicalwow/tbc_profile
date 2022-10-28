@@ -11,8 +11,6 @@ PawnCommon = {
 	["Debug"] = false,
 	["ColorTooltipBorder"] = true,
 	["ShowTooltipIcons"] = true,
-	["ShowSpecIcons"] = true,
-	["ShowSocketingAdvisor"] = true,
 	["Scales"] = {
 		["\"Classic\":WARRIOR2"] = {
 			["PerCharacterOptions"] = {
@@ -110,25 +108,19 @@ PawnCommon = {
 			["SpecID"] = 2,
 			["UnenchantedColor"] = "bfbfbf",
 		},
-		["\"Classic\":ROGUE1"] = {
+		["\"Classic\":HUNTER3"] = {
 			["PerCharacterOptions"] = {
-				["Vscode-加丁"] = {
-					["Visible"] = true,
-				},
-				["特变电工-祈福"] = {
-					["Visible"] = true,
-				},
 			},
-			["Color"] = "fff468",
-			["LocalizedName"] = "潜行者: 奇袭",
-			["ClassID"] = 4,
+			["Color"] = "aad372",
+			["LocalizedName"] = "猎人: 生存",
+			["ClassID"] = 3,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["SpecID"] = 1,
-			["UnenchantedColor"] = "bfb74e",
+			["SpecID"] = 3,
+			["UnenchantedColor"] = "7f9e55",
 		},
 		["\"Classic\":PALADIN2"] = {
 			["PerCharacterOptions"] = {
@@ -254,19 +246,25 @@ PawnCommon = {
 			["SpecID"] = 2,
 			["UnenchantedColor"] = "0054a5",
 		},
-		["\"Classic\":HUNTER3"] = {
+		["\"Classic\":ROGUE1"] = {
 			["PerCharacterOptions"] = {
+				["特变电工-祈福"] = {
+					["Visible"] = true,
+				},
+				["Vscode-加丁"] = {
+					["Visible"] = true,
+				},
 			},
-			["Color"] = "aad372",
-			["LocalizedName"] = "猎人: 生存",
-			["ClassID"] = 3,
+			["Color"] = "fff468",
+			["LocalizedName"] = "潜行者: 奇袭",
+			["ClassID"] = 4,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["SpecID"] = 3,
-			["UnenchantedColor"] = "7f9e55",
+			["SpecID"] = 1,
+			["UnenchantedColor"] = "bfb74e",
 		},
 		["\"Classic\":HUNTER1"] = {
 			["PerCharacterOptions"] = {
@@ -298,10 +296,10 @@ PawnCommon = {
 		},
 		["\"Classic\":ROGUE3"] = {
 			["PerCharacterOptions"] = {
-				["Vscode-加丁"] = {
+				["特变电工-祈福"] = {
 					["Visible"] = true,
 				},
-				["特变电工-祈福"] = {
+				["Vscode-加丁"] = {
 					["Visible"] = true,
 				},
 			},
@@ -332,10 +330,10 @@ PawnCommon = {
 		},
 		["\"Classic\":ROGUE2"] = {
 			["PerCharacterOptions"] = {
-				["Vscode-加丁"] = {
+				["特变电工-祈福"] = {
 					["Visible"] = true,
 				},
-				["特变电工-祈福"] = {
+				["Vscode-加丁"] = {
 					["Visible"] = true,
 				},
 			},
@@ -495,10 +493,10 @@ PawnCommon = {
 			["Color"] = "fff468",
 			["LocalizedName"] = "潜行者: 副手",
 			["PerCharacterOptions"] = {
-				["Vscode-加丁"] = {
+				["特变电工-祈福"] = {
 					["Visible"] = true,
 				},
-				["特变电工-祈福"] = {
+				["Vscode-加丁"] = {
 					["Visible"] = true,
 				},
 			},
@@ -530,6 +528,8 @@ PawnCommon = {
 			["UnenchantedColor"] = "bf3950",
 		},
 	},
+	["ShowSocketingAdvisor"] = true,
+	["ShowSpecIcons"] = true,
 	["IgnoreGemsWhileLeveling"] = true,
 	["ButtonPosition"] = 2,
 	["ShowLootUpgradeAdvisor"] = true,

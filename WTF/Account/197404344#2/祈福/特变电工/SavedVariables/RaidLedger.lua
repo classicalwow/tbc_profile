@@ -2788,6 +2788,78 @@ RaidLedgerDatabase = {
 						["count"] = 1,
 					},
 				}, -- [232]
+				{
+					["beneficiary"] = "渃児",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40567::::::::80:::::::::|h[勇猛的天灾苦痛护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [233]
+				{
+					["beneficiary"] = "西海岸之王",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40423::::::::80:::::::::|h[勇猛的天灾之心长袍]|h|r",
+						["count"] = 1,
+					},
+				}, -- [234]
+				{
+					["beneficiary"] = "Flouret",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40471::::::::80:::::::::|h[勇猛的梦游者外套]|h|r",
+						["count"] = 1,
+					},
+				}, -- [235]
+				{
+					["beneficiary"] = "花间一杯酒",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:41286::::::::80:::::::::|h[致命角斗士的科多皮手套]|h|r",
+						["count"] = 1,
+					},
+				}, -- [236]
+				{
+					["beneficiary"] = "擎苍微霜",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39579::::::::80:::::::::|h[英雄的地穴追猎者外套]|h|r",
+						["count"] = 1,
+					},
+				}, -- [237]
+				{
+					["beneficiary"] = "沐沐爸的骑士",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40842::::::::80:::::::::|h[憎恨角斗士的板鳞甲护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [238]
 			},
 		}, -- [1]
 	},
@@ -2799,11 +2871,11 @@ RaidLedgerDatabase = {
 		["minimapicons"] = {
 			["hide"] = false,
 		},
-		["minimapicon"] = true,
-		["raidbutton"] = true,
-		["filteritems"] = "# 每行一條, 可以是物品名稱或物品ID\n# 以 # 開頭的行自動被忽略\n",
 		["debittemplates"] = {
 		},
+		["raidbutton"] = true,
+		["filteritems"] = "# 每行一條, 可以是物品名稱或物品ID\n# 以 # 開頭的行自動被忽略\n",
+		["minimapicon"] = true,
 		["filterzero"] = false,
 	},
 	["current"] = 1,
