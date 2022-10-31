@@ -76,7 +76,7 @@ end
 
 -- Run snippets
 ---------------------------------------------------------------
-for name, script in pairs({
+for name, script in pairs({[CPAPI.ActionTypeRelease] = 'macro',
 	-- Parse the input
 	Input = [[
 		key = ...
@@ -540,7 +540,7 @@ function HotkeyMixin:DrawIconsForBinding(binding)
 		else
 			icon[id] = self:CreateTexture(nil, 'OVERLAY')
 			icon = icon[id]
-			icon:SetTexture(db.Icons[32][Index[id]])
+			db.Gamepad.SetIconToTexture(icon, Index[id], 32)
 			icon:SetSize(size, size)
 		end
 		shown = shown + 1

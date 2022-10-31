@@ -1,10 +1,12 @@
 
 DecursiveDB = {
-	["global"] = {
-		["LastVersionAnnounce"] = 1666883519,
-		["NewerVersionName"] = "2.7.8.10",
-		["NewerVersionAlert"] = 1666878455,
-		["NewerVersionDetected"] = 1666748789,
+	["profileKeys"] = {
+		["特变电工 - 祈福"] = "Default",
+		["沈南鹏 - 祈福"] = "Default",
+		["查尔斯三世 - 祈福"] = "Default",
+		["码农巴菲特 - 祈福"] = "Default",
+		["特工仓库 - 祈福"] = "Default",
+		["新特能源 - 祈福"] = "Default",
 	},
 	["class"] = {
 		["DEATHKNIGHT"] = {
@@ -63,13 +65,9 @@ DecursiveDB = {
 			},
 		},
 	},
-	["profileKeys"] = {
-		["特变电工 - 祈福"] = "Default",
-		["沈南鹏 - 祈福"] = "Default",
-		["查尔斯三世 - 祈福"] = "Default",
-		["码农巴菲特 - 祈福"] = "Default",
-		["特工仓库 - 祈福"] = "Default",
-		["新特能源 - 祈福"] = "Default",
+	["global"] = {
+		["LastVersionAnnounce"] = 1667043614,
+		["NewerVersionAlert"] = 1666878455,
 	},
 	["profiles"] = {
 		["Default"] = {

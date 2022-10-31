@@ -6,7 +6,6 @@ local _, db = ...; CPAPI = {};
 CPAPI.IsClassicVersion    = WOW_PROJECT_ID == WOW_PROJECT_WRATH_CLASSIC or nil;
 CPAPI.IsRetailVersion     = WOW_PROJECT_ID == WOW_PROJECT_MAINLINE or nil;
 CPAPI.IsClassicEraVersion = WOW_PROJECT_ID == WOW_PROJECT_CLASSIC or nil;
-CPAPI.IsWoW10Version      = select(4, GetBuildInfo()) >= 100000 or nil;
 
 function CPAPI.Log(...)
 	local cc = ChatTypeInfo.SYSTEM;
@@ -70,10 +69,13 @@ function CPAPI.GetAverageItemLevel(...)
 end
 
 ---------------------------------------------------------------
--- Extra action button ID
+-- Action button info
 ---------------------------------------------------------------
 CPAPI.ExtraActionButtonID = ExtraActionButton1 and ExtraActionButton1.action or
-	CPAPI.IsWoW10Version and 181 or 169;
+	CPAPI.IsRetailVersion and 217 or 169;
+
+CPAPI.ActionTypeRelease = CPAPI.IsRetailVersion and 'typerelease' or 'type';
+CPAPI.ActionTypePress   = 'type';
 
 ---------------------------------------------------------------
 -- Internal wrappers
@@ -197,6 +199,7 @@ CPAPI.IsXPUserDisabled = IsXPUserDisabled or nop;
 CPAPI.LeaveParty = C_PartyInfo and C_PartyInfo.LeaveParty or LeaveParty;
 CPAPI.PickupContainerItem = C_Container and C_Container.PickupContainerItem or PickupContainerItem;
 CPAPI.PutActionInSlot = C_ActionBar and C_ActionBar.PutActionInSlot or PlaceAction;
+CPAPI.UseContainerItem = C_Container and C_Container.UseContainerItem or UseContainerItem;
 
 end
 

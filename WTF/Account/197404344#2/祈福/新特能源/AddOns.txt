@@ -126,3 +126,4 @@ ConsolePortLoader: disabled
 ConsolePortUI_Loot: disabled
 ConsolePortUI_Menu: disabled
 weizPVP: disabled
+ElvUI_UnitFramePlugin: disabled

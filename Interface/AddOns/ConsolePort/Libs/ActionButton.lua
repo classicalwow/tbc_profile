@@ -12,7 +12,7 @@ local MAJOR_VERSION = 'CPActionButton';
 local MINOR_VERSION = 1;
 
 if not LibStub then error(MAJOR_VERSION .. ' requires LibStub.') end
-local lib, oldversion = LibStub:NewLibrary(MAJOR_VERSION, MINOR_VERSION)
+local lib = LibStub:NewLibrary(MAJOR_VERSION, MINOR_VERSION)
 if not lib then return end
 
 local _, db = ...;
@@ -174,6 +174,32 @@ function SetupSecureSnippets(button)
 		self:SetID((type == 'action' and _type(action) == 'number' and action <= 12 and action) or 0)
 		if self:GetID() > 0 then
 			self:CallMethod('ButtonContentsChanged', state, type, action + ((self:GetAttribute('actionpage') - 1) * 12))
+		end
+		if IsPressHoldReleaseSpell then
+			local pressAndHold = false
+			if type == "action" then
+				self:SetAttribute("typerelease", "actionrelease")
+				local actionType, id = GetActionInfo(action)
+				if actionType == "spell" then
+					pressAndHold = IsPressHoldReleaseSpell(id)
+				elseif actionType == "macro" then
+					-- GetMacroSpell is not in the restricted environment
+					--[=[
+						local spellID = GetMacroSpell(id)
+						if spellID then
+							pressAndHold = IsPressHoldReleaseSpell(spellID)
+						end
+					]=]
+				end
+			elseif type == "spell" then
+				self:SetAttribute("typerelease", nil)
+				-- XXX: while we can query this attribute, there is no corresponding action to release a spell button, only "actionrelease" exists
+				pressAndHold = IsPressHoldReleaseSpell(action)
+			else
+				self:SetAttribute("typerelease", nil)
+			end
+
+			self:SetAttribute("pressAndHoldAction", pressAndHold)
 		end
 		local onStateChanged = self:GetAttribute('OnStateChanged')
 		if onStateChanged then

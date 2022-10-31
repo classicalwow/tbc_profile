@@ -180,6 +180,7 @@ local function SelectNextPanel()
 	if db('Gamepad/Active') then
 		local panelID = env.Splash:GetID()
 		if panelID then
+			PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON);
 			env.Splash:ShowPanel(panelID + 1)
 		end
 	end
@@ -283,7 +284,7 @@ function Splash:OnFirstShow()
 					_OnLoad = function(self)
 						local rW, gW, bW = CPAPI.GetWebColor(CPAPI.GetClassFile()):GetRGB()
 						local rC, gC, bC = CPAPI.GetClassColor()
-						if CPAPI.IsWoW10Version then
+						if CPAPI.IsRetailVersion then
 							self:SetLight(true, {
 								omnidirectional = false;
 								point = CreateVector3D(-1, 1, -100);
@@ -399,7 +400,9 @@ function Splash:OnFirstShow()
 						_Text  = CONTINUE;
 						_Size  = {260, 50};
 						_RegisterForClicks = 'AnyUp';
-						_OnClick = SelectNextPanel;
+						_OnLoad = function(self)
+							self:HookScript('OnClick', SelectNextPanel)
+						end;
 						{
 							NextPage = {
 								_Type = 'Texture';

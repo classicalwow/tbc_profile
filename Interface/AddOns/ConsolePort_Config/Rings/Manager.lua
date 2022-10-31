@@ -588,13 +588,15 @@ function RingsManager:OnFirstShow()
 							_Size = {260, 50};
 							_Hide = true;
 							_OnShow = function(self)
-								env.Config:PauseCatcher()
-								self:EnableGamePadButton(true)
+								env.Config:CatchAll(function(self, ...)
+									if TrySetBinding(...) then
+										self:GetParent():Hide()
+									end
+								end, self)
 								self.timeUntilCancel = 5;
 							end;
 							_OnHide = function(self)
-								env.Config:ResumeCatcher()
-								self:EnableGamePadButton(false)
+								env.Config:SetDefaultClosures()
 								self.timeUntilCancel = 5;
 							end;
 							_OnUpdate = function(self, elapsed)
@@ -602,11 +604,6 @@ function RingsManager:OnFirstShow()
 								self:SetText(('%s (%d)'):format(CANCEL, ceil(self.timeUntilCancel)))
 								if self.timeUntilCancel <= 0 then
 									self.timeUntilCancel = 5;
-									self:GetParent():Hide()
-								end
-							end;
-							_OnGamePadButtonUp = function(self, ...)
-								if TrySetBinding(...) then
 									self:GetParent():Hide()
 								end
 							end;

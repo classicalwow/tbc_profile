@@ -1,8 +1,8 @@
 VER 3 0000000001000001 "VuhDoDCShieldData" "Ability_Repair"
-R1DH1PT1DR2RM2HR[x]2SR2MR3LR3PT3ET3SR4WT4IH4HT[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]2IH[x][x][x][x]0__[x][x]0__0__[x][x][x][x][x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0000000001000002 "VuhDoDCShieldNames" "Ability_Repair"
-N清水流赵疯子红色彼葡挞天玑小[x]肚子痛悟空来头大身完美圣装欢仇恨是丑但很奶一抖相灬思[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]新特能[x][x][x][x]白狼王[x][x]水元素索乌胡[x][x][x][x][x]狼[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]新特能[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0000000001000003 "坐骑" "INV_MISC_QUESTIONMARK"
 #showtooltip 金色狮鹫

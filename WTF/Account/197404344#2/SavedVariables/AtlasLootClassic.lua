@@ -1,5 +1,13 @@
 
 AtlasLootClassicDB = {
+	["profileKeys"] = {
+		["特变电工 - 祈福"] = "特变电工 - 祈福",
+		["沈南鹏 - 祈福"] = "沈南鹏 - 祈福",
+		["查尔斯三世 - 祈福"] = "查尔斯三世 - 祈福",
+		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
+		["特工仓库 - 祈福"] = "特工仓库 - 祈福",
+		["新特能源 - 祈福"] = "新特能源 - 祈福",
+	},
 	["global"] = {
 		["__addonrevision"] = 3000007,
 		["VendorPrice"] = {
@@ -24,7 +32,9 @@ AtlasLootClassicDB = {
 			[40737] = "EmblemOfValor:60",
 			[41765] = "EmblemOfValor:30",
 			[48722] = "EmblemOfTriumph:50",
+			[40841] = "EmblemOfValor:45",
 			[47734] = "EmblemOfTriumph:50",
+			[40857] = "EmblemOfHeroism:30",
 			[40610] = "EmblemOfHeroism:80",
 			[41646] = "EmblemOfHeroism:30",
 			[40634] = "EmblemOfValor:75",
@@ -33,6 +43,7 @@ AtlasLootClassicDB = {
 			[40682] = "EmblemOfHeroism:40",
 			[42985] = "EmblemOfHeroism:40",
 			[40698] = "EmblemOfHeroism:25",
+			[40714] = "EmblemOfHeroism:15",
 			[40722] = "EmblemOfValor:25",
 			[40738] = "EmblemOfValor:60",
 			[40746] = "EmblemOfValor:40",
@@ -48,9 +59,12 @@ AtlasLootClassicDB = {
 			[40683] = "EmblemOfHeroism:40",
 			[40691] = "EmblemOfHeroism:40",
 			[40699] = "EmblemOfHeroism:25",
+			[40715] = "EmblemOfHeroism:15",
 			[40723] = "EmblemOfValor:25",
 			[40739] = "EmblemOfValor:60",
 			[40747] = "EmblemOfValor:40",
+			[40779] = "EmblemOfHeroism:45",
+			[40803] = "EmblemOfValor:30",
 			[48716] = "EmblemOfHeroism:40",
 			[48724] = "EmblemOfTriumph:50",
 			[41847] = "EmblemOfHeroism:30",
@@ -72,6 +86,7 @@ AtlasLootClassicDB = {
 			[44900] = "cpvpWintergrasp:15",
 			[44908] = "cpvpWintergrasp:40",
 			[41872] = "EmblemOfValor:30",
+			[40860] = "EmblemOfValor:30",
 			[40613] = "EmblemOfHeroism:60",
 			[40637] = "EmblemOfValor:60",
 			[42948] = "EmblemOfHeroism:50",
@@ -83,6 +98,7 @@ AtlasLootClassicDB = {
 			[32828] = "ApexisS:10",
 			[40741] = "EmblemOfValor:60",
 			[40749] = "EmblemOfValor:40",
+			[40781] = "EmblemOfValor:45",
 			[44893] = "cpvpWintergrasp:15",
 			[41849] = "EmblemOfHeroism:45",
 			[41857] = "EmblemOfValor:45",
@@ -98,57 +114,50 @@ AtlasLootClassicDB = {
 			[40750] = "EmblemOfValor:40",
 			[48687] = "EmblemOfHeroism:40",
 			[41850] = "EmblemOfHeroism:30",
+			[41852] = "EmblemOfValor:45",
 			[40615] = "EmblemOfHeroism:60",
 			[41643] = "EmblemOfHeroism:30",
+			[41931] = "EmblemOfValor:30",
 			[40639] = "EmblemOfValor:60",
+			[40837] = "EmblemOfHeroism:45",
 			[42950] = "EmblemOfHeroism:40",
 			[41938] = "EmblemOfValor:30",
+			[41848] = "EmblemOfHeroism:45",
 			[40679] = "EmblemOfHeroism:25",
-			[44909] = "cpvpWintergrasp:40",
+			[41930] = "EmblemOfHeroism:30",
 			[40695] = "EmblemOfHeroism:40",
 			[40703] = "EmblemOfHeroism:50",
-			[42951] = "EmblemOfHeroism:40",
+			[40817] = "EmblemOfHeroism:45",
 			[40719] = "EmblemOfValor:25",
 			[31775] = "glowcap:10",
 			[40735] = "EmblemOfValor:60",
 			[40743] = "EmblemOfValor:40",
 			[40751] = "EmblemOfValor:40",
-			[44899] = "cpvpWintergrasp:15",
-			[40733] = "EmblemOfValor:60",
-			[40745] = "EmblemOfValor:40",
+			[44910] = "cpvpWintergrasp:40",
+			[41925] = "EmblemOfValor:45",
+			[42984] = "EmblemOfHeroism:40",
 			[42991] = "EmblemOfHeroism:50",
-			[42992] = "EmblemOfHeroism:50",
-			[41912] = "EmblemOfHeroism:45",
+			[48718] = "EmblemOfHeroism:65",
+			[40799] = "EmblemOfHeroism:30",
 			[43102] = "EmblemOfHeroism:10",
 			[41670] = "EmblemOfValor:45",
 			[41924] = "EmblemOfHeroism:45",
 			[41851] = "EmblemOfHeroism:45",
-			[48718] = "EmblemOfHeroism:65",
+			[42992] = "EmblemOfHeroism:50",
 			[41867] = "EmblemOfValor:30",
-			[42984] = "EmblemOfHeroism:40",
-			[41925] = "EmblemOfValor:45",
-			[44910] = "cpvpWintergrasp:40",
+			[40745] = "EmblemOfValor:40",
+			[40733] = "EmblemOfValor:60",
+			[44899] = "cpvpWintergrasp:15",
 			[41644] = "EmblemOfHeroism:45",
-			[41930] = "EmblemOfHeroism:30",
-			[41848] = "EmblemOfHeroism:45",
+			[44909] = "cpvpWintergrasp:40",
+			[40820] = "EmblemOfValor:45",
 			[42943] = "EmblemOfHeroism:65",
-			[41931] = "EmblemOfValor:30",
-			[41852] = "EmblemOfValor:45",
+			[42951] = "EmblemOfHeroism:40",
+			[41912] = "EmblemOfHeroism:45",
 		},
-	},
-	["profileKeys"] = {
-		["特变电工 - 祈福"] = "特变电工 - 祈福",
-		["沈南鹏 - 祈福"] = "沈南鹏 - 祈福",
-		["查尔斯三世 - 祈福"] = "查尔斯三世 - 祈福",
-		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
-		["特工仓库 - 祈福"] = "特工仓库 - 祈福",
-		["新特能源 - 祈福"] = "新特能源 - 祈福",
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
-			["minimap"] = {
-				["minimapPos"] = 214.0023519491544,
-			},
 			["GUI"] = {
 				["point"] = {
 					"RIGHT", -- [1]
@@ -164,6 +173,9 @@ AtlasLootClassicDB = {
 					1, -- [4]
 					0, -- [5]
 				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 214.0023519491544,
 			},
 		},
 		["沈南鹏 - 祈福"] = {
@@ -187,8 +199,10 @@ AtlasLootClassicDB = {
 			["GUI"] = {
 				["selected"] = {
 					nil, -- [1]
-					"AhnKahet", -- [2]
-					[5] = 0,
+					"AzjolNerub", -- [2]
+					2, -- [3]
+					6, -- [4]
+					0, -- [5]
 				},
 			},
 		},
@@ -211,24 +225,24 @@ AtlasLootClassicDB = {
 			},
 		},
 		["新特能源 - 祈福"] = {
-			["minimap"] = {
-				["minimapPos"] = 259.3494714425075,
-			},
 			["GUI"] = {
 				["point"] = {
-					"TOPRIGHT", -- [1]
+					"RIGHT", -- [1]
 					nil, -- [2]
-					"TOPRIGHT", -- [3]
-					-234.8895568847656, -- [4]
-					-137.3333129882813, -- [5]
+					"RIGHT", -- [3]
+					-105.5557556152344, -- [4]
+					112.9999771118164, -- [5]
 				},
 				["selected"] = {
-					nil, -- [1]
-					"NaxxramasWrath", -- [2]
-					15, -- [3]
+					"AtlasLootClassic_Crafting", -- [1]
+					"JewelcraftingWrath", -- [2]
+					8, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 259.3494714425075,
 			},
 		},
 	},

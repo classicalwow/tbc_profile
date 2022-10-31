@@ -2836,6 +2836,30 @@ RaidLedgerDatabase = {
 						["count"] = 1,
 					},
 				}, -- [236]
+				{
+					["beneficiary"] = "擎苍微霜",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39579::::::::80:::::::::|h[英雄的地穴追猎者外套]|h|r",
+						["count"] = 1,
+					},
+				}, -- [237]
+				{
+					["beneficiary"] = "沐沐爸的骑士",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40842::::::::80:::::::::|h[憎恨角斗士的板鳞甲护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [238]
 			},
 		}, -- [1]
 	},

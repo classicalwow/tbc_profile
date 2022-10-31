@@ -1826,13 +1826,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "萨塔里奥",
 		},
-		[54528] = {
-			["school"] = 8,
+		[59127] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "费尔根",
+			["source"] = "沙德隆",
 		},
 		[25771] = {
 			["school"] = 2,
@@ -2064,16 +2063,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "沙德隆",
 		},
-		[28542] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[57531] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
 			},
-			["source"] = "萨菲隆",
+			["source"] = "倚楼听雷电",
 		},
 		[57369] = {
 			["school"] = 32,
@@ -2085,21 +2081,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "瑞文戴尔男爵",
 		},
-		[59128] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "暮光裂隙",
-		},
-		[57579] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "塔尼布隆",
-		},
 		[54529] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -2108,6 +2089,21 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "斯塔拉格",
+		},
+		[57579] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "塔尼布隆",
+		},
+		[59128] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "暮光裂隙",
 		},
 		[57428] = {
 			["school"] = 1,
@@ -2143,14 +2139,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "妗婉",
 		},
-		[29125] = {
-			["school"] = 1,
+		[54098] = {
+			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "教官拉苏维奥斯",
+			["source"] = "黑女巫法琳娜",
 		},
 		[61694] = {
 			["school"] = 64,
@@ -2226,6 +2224,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "洛欧塞布",
 		},
+		[29213] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "药剂师诺斯",
+		},
 		[55807] = {
 			["school"] = 16,
 			["type"] = "DEBUFF",
@@ -2235,15 +2242,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "克尔苏加德",
-		},
-		[29213] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "药剂师诺斯",
 		},
 		[51735] = {
 			["school"] = 32,
@@ -2474,16 +2472,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "妗婉",
 		},
-		[54098] = {
-			["school"] = 8,
+		[29125] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "黑女巫法琳娜",
+			["source"] = "教官拉苏维奥斯",
 		},
 		[59638] = {
 			["school"] = 16,
@@ -2520,13 +2516,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "鏌鏌",
 		},
-		[57531] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[28542] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "倚楼听雷电",
+			["source"] = "萨菲隆",
 		},
 		[57430] = {
 			["school"] = 64,
@@ -2646,12 +2645,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "塔迪乌斯",
 		},
-		[59127] = {
-			["school"] = 32,
+		[54528] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "沙德隆",
+			["source"] = "费尔根",
 		},
 		[50475] = {
 			["school"] = 1,

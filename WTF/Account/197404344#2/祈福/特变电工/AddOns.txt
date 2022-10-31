@@ -199,3 +199,5 @@ ElvUI: enabled
 Altoholic: enabled
 DBM-VPVV: enabled
 FFLU: enabled
+altoholic_achievements: enabled
+ElvUI_UnitFramePlugin: disabled
