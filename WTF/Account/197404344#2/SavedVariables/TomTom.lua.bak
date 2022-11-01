@@ -6,8 +6,8 @@ TomTomDB = {
 		["张坤 - 祈福"] = "Default",
 		["查尔斯三世 - 祈福"] = "Default",
 		["码农巴菲特 - 祈福"] = "Default",
-		["Vscode - 加丁"] = "Default",
 		["新特能源 - 祈福"] = "Default",
+		["Vscode - 加丁"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -40,36 +40,11 @@ TomTomWaypointsM = {
 		["张坤 - 祈福"] = "张坤 - 祈福",
 		["查尔斯三世 - 祈福"] = "查尔斯三世 - 祈福",
 		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
-		["Vscode - 加丁"] = "Vscode - 加丁",
 		["新特能源 - 祈福"] = "新特能源 - 祈福",
+		["Vscode - 加丁"] = "Vscode - 加丁",
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
-			[121] = {
-				["121:170660146.69927:566381418.09291:瓦古杀戮者"] = {
-					121, -- [1]
-					0.1706601466992665, -- [2]
-					0.5663814180929095, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "瓦古杀戮者",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "瓦古杀戮者",
-					["from"] = "Questie",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
 			[1440] = {
 				["1440:615537218.00844:496181435.25368:TomTom 路径点"] = {
 					1440, -- [1]
@@ -86,9 +61,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -113,9 +88,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -129,9 +104,9 @@ TomTomWaypointsM = {
 		},
 		["码农巴菲特 - 祈福"] = {
 		},
-		["Vscode - 加丁"] = {
-		},
 		["新特能源 - 祈福"] = {
+		},
+		["Vscode - 加丁"] = {
 		},
 	},
 }

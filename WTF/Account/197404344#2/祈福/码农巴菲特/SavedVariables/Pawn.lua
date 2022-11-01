@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0706,
-	["LastPlayerFullName"] = "码农巴菲特-祈福",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 41387,
@@ -10,20 +8,20 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:41387::::::::80:::::::::|h[淬火泰坦精钢头盔]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 43849,
-			["Level"] = 174,
-			["Link"] = "|cff1eff00|Hitem:43849::::::::78:::::::::|h[统御之链]|h|r",
+			["ID"] = 40387,
+			["Level"] = 226,
+			["Link"] = "|cffa335ee|Hitem:40387::::::::80:::::::::|h[无尽的野心]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 43844,
-			["Level"] = 174,
-			["Link"] = "|cff1eff00|Hitem:43844::::::::80:::::::::|h[黑锋肩铠]|h|r",
+			["ID"] = 39627,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:39627:3811:40022::::::80:::::::::|h[英雄的天灾苦痛肩铠]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 42827,
-			["Level"] = 174,
-			["Link"] = "|cff1eff00|Hitem:42827::::::::80:::::::::|h[塑石者的决心]|h|r",
+			["ID"] = 39623,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:39623:3297:40008:42157:::::80:::::::::|h[英雄的天灾苦痛护胸]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 40689,
@@ -31,9 +29,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:40689::::::::80:::::::::|h[活铁腰带]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 43203,
-			["Level"] = 174,
-			["Link"] = "|cff0070dd|Hitem:43203::::::::78:::::::::|h[钢铁巨像腿铠]|h|r",
+			["ID"] = 40446,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:40446:3822:::::::80:::::::::|h[龙血护腿]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 41392,
@@ -51,10 +49,10 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:37862::::::::80:::::::::|h[水之亡魂的护手]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 42643,
-			["Level"] = 200,
+			["ID"] = 40718,
+			["Level"] = 213,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:42643::::::::80:::::::::|h[泰坦神铁地卫指环]|h|r",
+			["Link"] = "|cffa335ee|Hitem:40718::::::::80:::::::::|h[坚固堡垒徽记]|h|r",
 		}, -- [11]
 		{
 			["ID"] = 42643,
@@ -63,10 +61,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:42643::40008::::::80:::::::::|h[泰坦神铁地卫指环]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 44063,
-			["Level"] = 200,
+			["ID"] = 40257,
+			["Level"] = 213,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff0070dd|Hitem:44063::::::::80:::::::::|h[雕像 - 帝黄晶螃蟹]|h|r",
+			["Link"] = "|cffa335ee|Hitem:40257::::::::80:::::::::|h[防御者的准则]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 44063,
@@ -91,6 +89,8 @@ PawnOptions = {
 			["Link"] = "|cffffffff|Hitem:39371::::::::57:::::::::|h[凯雷塞斯的说服者]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "码农巴菲特-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

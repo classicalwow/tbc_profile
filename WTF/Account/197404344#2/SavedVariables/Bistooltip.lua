@@ -10,9 +10,9 @@ BisTooltipDB = {
 	["char"] = {
 		["特变电工 - 祈福"] = {
 			["class_index"] = 7,
-			["minimapPos"] = 240.3358163393178,
 			["version"] = 6.1,
 			["phase_index"] = 2,
+			["minimapPos"] = 240.3358163393178,
 		},
 		["沈南鹏 - 祈福"] = {
 			["version"] = 6.1,
@@ -33,11 +33,12 @@ BisTooltipDB = {
 			},
 			["version"] = 6.1,
 			["phase_index"] = 2,
+			["minimapPos"] = 292.8758282199745,
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
-					["Protection"] = true,
 					["Arms"] = true,
+					["Protection"] = true,
 				},
 				["Paladin"] = {
 					["Protection"] = true,
@@ -54,15 +55,15 @@ BisTooltipDB = {
 					["Assassination"] = true,
 				},
 				["Mage"] = {
-					["Fire FFB"] = true,
+					["Arcane"] = true,
 					["Frost"] = true,
 					["Fire"] = true,
-					["Arcane"] = true,
+					["Fire FFB"] = true,
 				},
 				["Druid"] = {
-					["Restoration"] = true,
-					["Balance"] = true,
 					["Feral dps"] = true,
+					["Balance"] = true,
+					["Restoration"] = true,
 					["Feral tank"] = true,
 				},
 				["Death knight"] = {
@@ -72,22 +73,20 @@ BisTooltipDB = {
 				},
 				["Hunter"] = {
 					["Marksmanship"] = true,
-					["Survival"] = true,
 					["Beast mastery"] = true,
+					["Survival"] = true,
+				},
+				["Priest"] = {
+					["Discipline"] = true,
+					["Holy"] = true,
+					["Shadow"] = true,
 				},
 				["Warlock"] = {
 					["Demonology"] = true,
 					["Affliction"] = true,
 					["Destruction"] = true,
 				},
-				["Priest"] = {
-					["Discipline"] = true,
-					["Shadow"] = true,
-					["Holy"] = true,
-				},
 			},
-			["minimapPos"] = 292.8758282199745,
-			["spec_index"] = 3,
 		},
 	},
 }
