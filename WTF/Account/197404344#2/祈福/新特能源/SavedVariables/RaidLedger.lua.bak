@@ -3401,6 +3401,126 @@ RaidLedgerDatabase = {
 						["count"] = 1,
 					},
 				}, -- [283]
+				{
+					["beneficiary"] = "苹果真的甜",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40451::::::::80:::::::::|h[狙击手的透明头盔]|h|r",
+						["count"] = 1,
+					},
+				}, -- [284]
+				{
+					["beneficiary"] = "苹果真的甜",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:44004::::::::80:::::::::|h[慷慨护手]|h|r",
+						["count"] = 1,
+					},
+				}, -- [285]
+				{
+					["beneficiary"] = "苹果真的甜",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:43346::::::::80:::::::::|h[一大袋战利品]|h|r",
+						["count"] = 1,
+					},
+				}, -- [286]
+				{
+					["beneficiary"] = "苹果真的甜",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40629::::::::80:::::::::|h[失落保卫者的护手]|h|r",
+						["count"] = 1,
+					},
+				}, -- [287]
+				{
+					["beneficiary"] = "苹果真的甜",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40630::::::::80:::::::::|h[失落胜利者的护手]|h|r",
+						["count"] = 1,
+					},
+				}, -- [288]
+				{
+					["beneficiary"] = "苹果真的甜",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40439::::::::80:::::::::|h[永恒戒卫护肩]|h|r",
+						["count"] = 1,
+					},
+				}, -- [289]
+				{
+					["beneficiary"] = "苹果真的甜",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:44011::::::::80:::::::::|h[荣耀者的护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [290]
+				{
+					["beneficiary"] = "大猎师",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cff0070dd|Hitem:34052::::::::80:::::::::|h[梦境碎片]|h|r",
+						["count"] = 1,
+					},
+				}, -- [291]
+				{
+					["beneficiary"] = "大猎师",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34057::::::::80:::::::::|h[深渊水晶]|h|r",
+						["count"] = 3,
+					},
+				}, -- [292]
+				{
+					["beneficiary"] = "苹果真的甜",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34057::::::::80:::::::::|h[深渊水晶]|h|r",
+						["count"] = 1,
+					},
+				}, -- [293]
 			},
 		}, -- [1]
 	},
