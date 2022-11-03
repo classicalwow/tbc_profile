@@ -1,13 +1,5 @@
 
 AtlasLootClassicDB = {
-	["profileKeys"] = {
-		["特变电工 - 祈福"] = "特变电工 - 祈福",
-		["沈南鹏 - 祈福"] = "沈南鹏 - 祈福",
-		["查尔斯三世 - 祈福"] = "查尔斯三世 - 祈福",
-		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
-		["特工仓库 - 祈福"] = "特工仓库 - 祈福",
-		["新特能源 - 祈福"] = "新特能源 - 祈福",
-	},
 	["global"] = {
 		["__addonrevision"] = 3000007,
 		["VendorPrice"] = {
@@ -114,17 +106,17 @@ AtlasLootClassicDB = {
 			[40750] = "EmblemOfValor:40",
 			[48687] = "EmblemOfHeroism:40",
 			[41850] = "EmblemOfHeroism:30",
-			[41852] = "EmblemOfValor:45",
+			[41912] = "EmblemOfHeroism:45",
 			[40615] = "EmblemOfHeroism:60",
 			[41643] = "EmblemOfHeroism:30",
-			[41931] = "EmblemOfValor:30",
+			[42951] = "EmblemOfHeroism:40",
 			[40639] = "EmblemOfValor:60",
 			[40837] = "EmblemOfHeroism:45",
 			[42950] = "EmblemOfHeroism:40",
 			[41938] = "EmblemOfValor:30",
-			[41848] = "EmblemOfHeroism:45",
+			[40820] = "EmblemOfValor:45",
 			[40679] = "EmblemOfHeroism:25",
-			[41930] = "EmblemOfHeroism:30",
+			[44909] = "cpvpWintergrasp:40",
 			[40695] = "EmblemOfHeroism:40",
 			[40703] = "EmblemOfHeroism:50",
 			[40817] = "EmblemOfHeroism:45",
@@ -133,28 +125,36 @@ AtlasLootClassicDB = {
 			[40735] = "EmblemOfValor:60",
 			[40743] = "EmblemOfValor:40",
 			[40751] = "EmblemOfValor:40",
-			[44910] = "cpvpWintergrasp:40",
-			[41925] = "EmblemOfValor:45",
-			[42984] = "EmblemOfHeroism:40",
+			[44899] = "cpvpWintergrasp:15",
+			[40733] = "EmblemOfValor:60",
+			[40745] = "EmblemOfValor:40",
 			[42991] = "EmblemOfHeroism:50",
-			[48718] = "EmblemOfHeroism:65",
+			[42992] = "EmblemOfHeroism:50",
 			[40799] = "EmblemOfHeroism:30",
 			[43102] = "EmblemOfHeroism:10",
 			[41670] = "EmblemOfValor:45",
 			[41924] = "EmblemOfHeroism:45",
 			[41851] = "EmblemOfHeroism:45",
-			[42992] = "EmblemOfHeroism:50",
+			[48718] = "EmblemOfHeroism:65",
 			[41867] = "EmblemOfValor:30",
-			[40745] = "EmblemOfValor:40",
-			[40733] = "EmblemOfValor:60",
-			[44899] = "cpvpWintergrasp:15",
+			[42984] = "EmblemOfHeroism:40",
+			[41925] = "EmblemOfValor:45",
+			[44910] = "cpvpWintergrasp:40",
 			[41644] = "EmblemOfHeroism:45",
-			[44909] = "cpvpWintergrasp:40",
-			[40820] = "EmblemOfValor:45",
+			[41930] = "EmblemOfHeroism:30",
+			[41848] = "EmblemOfHeroism:45",
 			[42943] = "EmblemOfHeroism:65",
-			[42951] = "EmblemOfHeroism:40",
-			[41912] = "EmblemOfHeroism:45",
+			[41931] = "EmblemOfValor:30",
+			[41852] = "EmblemOfValor:45",
 		},
+	},
+	["profileKeys"] = {
+		["特变电工 - 祈福"] = "特变电工 - 祈福",
+		["沈南鹏 - 祈福"] = "沈南鹏 - 祈福",
+		["查尔斯三世 - 祈福"] = "查尔斯三世 - 祈福",
+		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
+		["特工仓库 - 祈福"] = "特工仓库 - 祈福",
+		["新特能源 - 祈福"] = "新特能源 - 祈福",
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
@@ -163,17 +163,17 @@ AtlasLootClassicDB = {
 			},
 			["GUI"] = {
 				["point"] = {
-					"TOPLEFT", -- [1]
+					nil, -- [1]
 					nil, -- [2]
-					"TOPLEFT", -- [3]
-					-0, -- [4]
-					-133.3333740234375, -- [5]
+					"CENTER", -- [3]
+					-69.44459533691406, -- [4]
+					82.0000228881836, -- [5]
 				},
 				["selected"] = {
 					nil, -- [1]
-					"AhnKahet", -- [2]
-					nil, -- [3]
-					1, -- [4]
+					"ObsidianSanctum", -- [2]
+					2, -- [3]
+					9, -- [4]
 					0, -- [5]
 				},
 			},
@@ -186,24 +186,24 @@ AtlasLootClassicDB = {
 					"HonorHold", -- [2]
 					2, -- [3]
 					2, -- [4]
-					-0, -- [5]
+					0, -- [5]
 				},
 			},
 		},
 		["查尔斯三世 - 祈福"] = {
 		},
 		["码农巴菲特 - 祈福"] = {
-			["minimap"] = {
-				["minimapPos"] = 263.4188819558989,
-			},
 			["GUI"] = {
 				["selected"] = {
 					nil, -- [1]
 					"ObsidianSanctum", -- [2]
-					2, -- [3]
+					nil, -- [3]
 					6, -- [4]
-					-0, -- [5]
+					0, -- [5]
 				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 231.4682519455706,
 			},
 		},
 		["特工仓库 - 祈福"] = {
@@ -220,11 +220,14 @@ AtlasLootClassicDB = {
 					"TheSonsofHodir", -- [2]
 					nil, -- [3]
 					2, -- [4]
-					-0, -- [5]
+					0, -- [5]
 				},
 			},
 		},
 		["新特能源 - 祈福"] = {
+			["minimap"] = {
+				["minimapPos"] = 259.3494714425075,
+			},
 			["GUI"] = {
 				["point"] = {
 					"RIGHT", -- [1]
@@ -235,14 +238,11 @@ AtlasLootClassicDB = {
 				},
 				["selected"] = {
 					nil, -- [1]
-					"ObsidianSanctum", -- [2]
+					"TheEyeOfEternity", -- [2]
 					nil, -- [3]
-					9, -- [4]
-					-0, -- [5]
+					7, -- [4]
+					0, -- [5]
 				},
-			},
-			["minimap"] = {
-				["minimapPos"] = 259.3494714425075,
 			},
 		},
 	},

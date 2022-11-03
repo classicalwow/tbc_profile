@@ -3676,6 +3676,162 @@ RaidLedgerDatabase = {
 						["count"] = 1,
 					},
 				}, -- [306]
+				{
+					["beneficiary"] = "五香麻辣火鸡",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40588::::::::80:::::::::|h[神器守护者外套]|h|r",
+						["count"] = 1,
+					},
+				}, -- [307]
+				{
+					["beneficiary"] = "五香麻辣火鸡",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40594::::::::80:::::::::|h[意志分裂护肩]|h|r",
+						["count"] = 1,
+					},
+				}, -- [308]
+				{
+					["beneficiary"] = "五香麻辣火鸡",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40539::::::::80:::::::::|h[寂寞胸甲]|h|r",
+						["count"] = 1,
+					},
+				}, -- [309]
+				{
+					["beneficiary"] = "五香麻辣火鸡",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40560::::::::80:::::::::|h[邪恶施法者护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [310]
+				{
+					["beneficiary"] = "五香麻辣火鸡",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:43345::::::::80:::::::::|h[龙皮包]|h|r",
+						["count"] = 1,
+					},
+				}, -- [311]
+				{
+					["beneficiary"] = "五香麻辣火鸡",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:43346::::::::80:::::::::|h[一大袋战利品]|h|r",
+						["count"] = 1,
+					},
+				}, -- [312]
+				{
+					["beneficiary"] = "五香麻辣火鸡",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:44008::::::::80:::::::::|h[清白裹腕]|h|r",
+						["count"] = 1,
+					},
+				}, -- [313]
+				{
+					["beneficiary"] = "五香麻辣火鸡",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:44002::::::::80:::::::::|h[圣殿熔流外衣]|h|r",
+						["count"] = 1,
+					},
+				}, -- [314]
+				{
+					["beneficiary"] = "五香麻辣火鸡",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40431::::::::80:::::::::|h[五色巨龙之怒]|h|r",
+						["count"] = 1,
+					},
+				}, -- [315]
+				{
+					["beneficiary"] = "五香麻辣火鸡",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40432::::::::80:::::::::|h[龙魂图典]|h|r",
+						["count"] = 1,
+					},
+				}, -- [316]
+				{
+					["beneficiary"] = "五香麻辣火鸡",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40630::::::::80:::::::::|h[失落胜利者的护手]|h|r",
+						["count"] = 1,
+					},
+				}, -- [317]
+				{
+					["beneficiary"] = "五香麻辣火鸡",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40630::::::::80:::::::::|h[失落胜利者的护手]|h|r",
+						["count"] = 1,
+					},
+				}, -- [318]
+				{
+					["beneficiary"] = "你",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40539::::::::80:::::::::|h[寂寞胸甲]|h|r",
+						["count"] = 1,
+					},
+				}, -- [319]
 			},
 		}, -- [1]
 	},

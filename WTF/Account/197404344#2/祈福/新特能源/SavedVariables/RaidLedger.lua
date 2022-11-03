@@ -3521,6 +3521,138 @@ RaidLedgerDatabase = {
 						["count"] = 1,
 					},
 				}, -- [293]
+				{
+					["beneficiary"] = "你",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:44582::::::::80:::::::::|h[聚焦之虹的钥匙]|h|r",
+						["count"] = 1,
+					},
+				}, -- [294]
+				{
+					["beneficiary"] = "鼟鸃觏鼜",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:44310::::::::80:::::::::|h[纳姆拉克的尖刀]|h|r",
+						["count"] = 1,
+					},
+				}, -- [295]
+				{
+					["beneficiary"] = "鼟鸃觏鼜",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40426::::::::80:::::::::|h[龙眠联军徽记]|h|r",
+						["count"] = 1,
+					},
+				}, -- [296]
+				{
+					["beneficiary"] = "鼟鸃觏鼜",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40614::::::::80:::::::::|h[失落保卫者的手套]|h|r",
+						["count"] = 1,
+					},
+				}, -- [297]
+				{
+					["beneficiary"] = "鼟鸃觏鼜",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:43992::::::::80:::::::::|h[飞翔符咒]|h|r",
+						["count"] = 1,
+					},
+				}, -- [298]
+				{
+					["beneficiary"] = "鼟鸃觏鼜",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:43347::::::::80:::::::::|h[一包战利品]|h|r",
+						["count"] = 1,
+					},
+				}, -- [299]
+				{
+					["beneficiary"] = "小小朵丶",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:43345::::::::80:::::::::|h[龙皮包]|h|r",
+						["count"] = 1,
+					},
+				}, -- [300]
+				{
+					["beneficiary"] = "鼟鸃觏鼜",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40475::::::::80:::::::::|h[永恒壁垒]|h|r",
+						["count"] = 1,
+					},
+				}, -- [301]
+				{
+					["beneficiary"] = "鼟鸃觏鼜",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40488::::::::80:::::::::|h[冰塔节杖]|h|r",
+						["count"] = 1,
+					},
+				}, -- [302]
+				{
+					["beneficiary"] = "Julius",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cff0070dd|Hitem:36927::::::::80:::::::::|h[曙光猫眼石]|h|r",
+						["count"] = 1,
+					},
+				}, -- [303]
+				{
+					["beneficiary"] = "Julius",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cff0070dd|Hitem:36930::::::::80:::::::::|h[帝黄晶]|h|r",
+						["count"] = 1,
+					},
+				}, -- [304]
 			},
 		}, -- [1]
 	},
@@ -3532,11 +3664,11 @@ RaidLedgerDatabase = {
 		["minimapicons"] = {
 			["hide"] = false,
 		},
-		["debittemplates"] = {
-		},
+		["minimapicon"] = true,
 		["raidbutton"] = true,
 		["filteritems"] = "# 每行一条, 可以是物品名称或物品ID\n# 以 # 开头的行自动被忽略\n",
-		["minimapicon"] = true,
+		["debittemplates"] = {
+		},
 		["filterzero"] = false,
 	},
 	["current"] = 1,
