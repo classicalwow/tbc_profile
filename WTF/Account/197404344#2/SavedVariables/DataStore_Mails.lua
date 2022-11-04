@@ -12,6 +12,71 @@ DataStore_MailsDB = {
 		["Characters"] = {
 			["Default.祈福.码农巴菲特"] = {
 				["lastUpdate"] = 1667225752,
+				["Mails"] = {
+					{
+						["sender"] = "特变电工",
+						["itemID"] = 40008,
+						["link"] = "|cff0070dd|Hitem:40008::::::::80:::::::::|h[致密天蓝石]|h|r",
+						["count"] = 1,
+						["lastCheck"] = 1667481609,
+						["icon"] = 237215,
+						["daysLeft"] = 30,
+					}, -- [1]
+					{
+						["sender"] = "特变电工",
+						["itemID"] = 40008,
+						["link"] = "|cff0070dd|Hitem:40008::::::::80:::::::::|h[致密天蓝石]|h|r",
+						["count"] = 1,
+						["lastCheck"] = 1667481609,
+						["icon"] = 237215,
+						["daysLeft"] = 30,
+					}, -- [2]
+					{
+						["sender"] = "特变电工",
+						["itemID"] = 40089,
+						["link"] = "|cff0070dd|Hitem:40089::::::::80:::::::::|h[坚硬森林翡翠]|h|r",
+						["count"] = 1,
+						["lastCheck"] = 1667481609,
+						["icon"] = 237213,
+						["daysLeft"] = 30,
+					}, -- [3]
+					{
+						["sender"] = "特变电工",
+						["itemID"] = 40008,
+						["link"] = "|cff0070dd|Hitem:40008::::::::80:::::::::|h[致密天蓝石]|h|r",
+						["count"] = 1,
+						["lastCheck"] = 1667481609,
+						["icon"] = 237215,
+						["daysLeft"] = 30,
+					}, -- [4]
+					{
+						["sender"] = "特变电工",
+						["itemID"] = 40008,
+						["link"] = "|cff0070dd|Hitem:40008::::::::80:::::::::|h[致密天蓝石]|h|r",
+						["count"] = 1,
+						["lastCheck"] = 1667481609,
+						["icon"] = 237215,
+						["daysLeft"] = 30,
+					}, -- [5]
+					{
+						["sender"] = "特变电工",
+						["itemID"] = 40008,
+						["link"] = "|cff0070dd|Hitem:40008::::::::80:::::::::|h[致密天蓝石]|h|r",
+						["count"] = 1,
+						["lastCheck"] = 1667481609,
+						["icon"] = 237215,
+						["daysLeft"] = 30,
+					}, -- [6]
+					{
+						["sender"] = "特变电工",
+						["itemID"] = 46379,
+						["link"] = "|cffffffff|Hitem:46379::::::::80:::::::::|h[石血合剂]|h|r",
+						["count"] = 3,
+						["lastCheck"] = 1667481609,
+						["icon"] = 236879,
+						["daysLeft"] = 30,
+					}, -- [7]
+				},
 				["lastVisitDate"] = "2022/10/31 22:15",
 			},
 			["Default.祈福.新特能源"] = {
@@ -157,8 +222,8 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2022/09/02 01:26",
 			},
 			["Default.祈福.特变电工"] = {
-				["lastUpdate"] = 1667399624,
-				["lastVisitDate"] = "2022/11/02 22:33",
+				["lastUpdate"] = 1667481610,
+				["lastVisitDate"] = "2022/11/03 21:20",
 			},
 		},
 	},

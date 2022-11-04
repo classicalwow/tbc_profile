@@ -158,6 +158,9 @@ AtlasLootClassicDB = {
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
+			["minimap"] = {
+				["minimapPos"] = 214.0023519491544,
+			},
 			["GUI"] = {
 				["point"] = {
 					nil, -- [1]
@@ -173,9 +176,6 @@ AtlasLootClassicDB = {
 					9, -- [4]
 					0, -- [5]
 				},
-			},
-			["minimap"] = {
-				["minimapPos"] = 214.0023519491544,
 			},
 		},
 		["沈南鹏 - 祈福"] = {
@@ -193,9 +193,6 @@ AtlasLootClassicDB = {
 		["查尔斯三世 - 祈福"] = {
 		},
 		["码农巴菲特 - 祈福"] = {
-			["minimap"] = {
-				["minimapPos"] = 231.4682519455706,
-			},
 			["GUI"] = {
 				["selected"] = {
 					nil, -- [1]
@@ -204,6 +201,9 @@ AtlasLootClassicDB = {
 					6, -- [4]
 					0, -- [5]
 				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 231.4682519455706,
 			},
 		},
 		["特工仓库 - 祈福"] = {
@@ -238,7 +238,7 @@ AtlasLootClassicDB = {
 				},
 				["selected"] = {
 					nil, -- [1]
-					"ObsidianSanctum", -- [2]
+					"TheEyeOfEternity", -- [2]
 					nil, -- [3]
 					7, -- [4]
 					0, -- [5]

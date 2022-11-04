@@ -158,9 +158,6 @@ AtlasLootClassicDB = {
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
-			["minimap"] = {
-				["minimapPos"] = 214.0023519491544,
-			},
 			["GUI"] = {
 				["point"] = {
 					nil, -- [1]
@@ -176,6 +173,9 @@ AtlasLootClassicDB = {
 					9, -- [4]
 					0, -- [5]
 				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 214.0023519491544,
 			},
 		},
 		["沈南鹏 - 祈福"] = {
@@ -193,6 +193,9 @@ AtlasLootClassicDB = {
 		["查尔斯三世 - 祈福"] = {
 		},
 		["码农巴菲特 - 祈福"] = {
+			["minimap"] = {
+				["minimapPos"] = 231.4682519455706,
+			},
 			["GUI"] = {
 				["selected"] = {
 					nil, -- [1]
@@ -201,9 +204,6 @@ AtlasLootClassicDB = {
 					6, -- [4]
 					0, -- [5]
 				},
-			},
-			["minimap"] = {
-				["minimapPos"] = 231.4682519455706,
 			},
 		},
 		["特工仓库 - 祈福"] = {
@@ -226,22 +226,22 @@ AtlasLootClassicDB = {
 		},
 		["新特能源 - 祈福"] = {
 			["minimap"] = {
-				["minimapPos"] = 259.3494714425075,
+				["minimapPos"] = 215.2492147837577,
 			},
 			["GUI"] = {
 				["point"] = {
-					"RIGHT", -- [1]
+					"LEFT", -- [1]
 					nil, -- [2]
-					"RIGHT", -- [3]
-					-105.5557556152344, -- [4]
-					112.9999771118164, -- [5]
+					"LEFT", -- [3]
+					38.33346176147461, -- [4]
+					125.2222061157227, -- [5]
 				},
 				["selected"] = {
-					nil, -- [1]
-					"TheEyeOfEternity", -- [2]
-					nil, -- [3]
-					7, -- [4]
-					0, -- [5]
+					"AtlasLootClassic_Crafting", -- [1]
+					"JewelcraftingWrath", -- [2]
+					10, -- [3]
+					1, -- [4]
+					1, -- [5]
 				},
 			},
 		},

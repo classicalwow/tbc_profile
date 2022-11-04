@@ -62,12 +62,12 @@ DataStore_InventoryDB = {
 				},
 			},
 			["Default.祈福.码农巴菲特"] = {
-				["lastUpdate"] = 1667401567,
-				["averageItemLvl"] = 201.75,
+				["lastUpdate"] = 1667481459,
+				["averageItemLvl"] = 189.25,
 				["Inventory"] = {
 					"|cffa335ee|Hitem:41387:3818:41380:40008:::::80:::::::::|h[淬火泰坦精钢头盔]|h|r", -- [1]
 					"|cffa335ee|Hitem:40387::::::::80:::::::::|h[无尽的野心]|h|r", -- [2]
-					"|cffa335ee|Hitem:39627:3811:40022::::::80:::::::::|h[英雄的天灾苦痛肩铠]|h|r", -- [3]
+					"|cffffffff|Hitem:39627:3811:40022::::::80:::::::::|h[]|h|r", -- [3]
 					nil, -- [4]
 					"|cffa335ee|Hitem:39623:3297:40008:40008:::::80:::::::::|h[英雄的天灾苦痛护胸]|h|r", -- [5]
 					"|cffa335ee|Hitem:40689::40015:36767:::::80:::::::::|h[活铁腰带]|h|r", -- [6]
@@ -90,15 +90,15 @@ DataStore_InventoryDB = {
 					[7] = "|cffffffff|Hitem:1366::::::::3:::::::::|h[]|h|r",
 					[8] = "|cffffffff|Hitem:47::::::::3:::::::::|h[]|h|r",
 					[18] = "|cffffffff|Hitem:28979::::::::3:::::::::|h[]|h|r",
-					[5] = "|cffffffff|Hitem:1380::::::::3:::::::::|h[]|h|r",
-					[4] = "|cffffffff|Hitem:49::::::::3:::::::::|h[]|h|r",
 					[16] = "|cffffffff|Hitem:2092::::::::3:::::::::|h[]|h|r",
+					[4] = "|cffffffff|Hitem:49::::::::3:::::::::|h[]|h|r",
 					[9] = "|cffffffff|Hitem:6070::::::::3:::::::::|h[]|h|r",
+					[5] = "|cffffffff|Hitem:1380::::::::3:::::::::|h[]|h|r",
 				},
 				["lastUpdate"] = 1659786092,
 			},
 			["Default.祈福.特变电工"] = {
-				["lastUpdate"] = 1667402713,
+				["lastUpdate"] = 1667481544,
 				["averageItemLvl"] = 213,
 				["Inventory"] = {
 					"|cffa335ee|Hitem:40499:3817:41398:42702:::::80:::::::::|h[勇猛的骨镰头盔]|h|r", -- [1]

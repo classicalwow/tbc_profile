@@ -82,7 +82,7 @@ BisTooltipDB = {
 			["version"] = 6.1,
 		},
 		["新特能源 - 祈福"] = {
-			["class_index"] = 2,
+			["class_index"] = 6,
 			["highlight_spec"] = {
 				["spec_name"] = "Discipline",
 				["key"] = "6:1",
@@ -144,6 +144,7 @@ BisTooltipDB = {
 				},
 			},
 			["minimapPos"] = 292.8758282199745,
+			["spec_index"] = 3,
 		},
 	},
 }

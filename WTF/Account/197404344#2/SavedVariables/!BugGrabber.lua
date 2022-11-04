@@ -1,6 +1,6 @@
 
 BugGrabberDB = {
-	["session"] = 614,
+	["session"] = 618,
 	["lastSanitation"] = 3,
 	["errors"] = {
 		{
@@ -666,21 +666,13 @@ BugGrabberDB = {
 			["counter"] = 1,
 		}, -- [85]
 		{
-			["message"] = "Interface\\AddOns\\BlizzMove\\BlizzMove-v3.4.11.lua:397: BlizzMove: The frame you just moved (CharacterFrame) is probably in a broken state, possibly because of other addons. Enable the Blizzmove_Debug plugin, to find more debugging information.",
-			["time"] = "2022/10/14 00:31:30",
-			["locals"] = "(*temporary) = \"BlizzMove: The frame you just moved (CharacterFrame) is probably in a broken state, possibly because of other addons. Enable the Blizzmove_Debug plugin, to find more debugging information.\"\n",
-			["stack"] = "[string \"=[C]\"]: in function `error'\n[string \"@Interface\\AddOns\\BlizzMove\\BlizzMove-v3.4.11.lua\"]:397: in function <Interface\\AddOns\\BlizzMove\\BlizzMove.lua:383>\n[string \"@Interface\\AddOns\\BlizzMove\\BlizzMove-v3.4.11.lua\"]:647: in function <Interface\\AddOns\\BlizzMove\\BlizzMove.lua:630>\n[string \"=(tail call)\"]: ?",
-			["session"] = 568,
-			["counter"] = 16,
-		}, -- [86]
-		{
 			["message"] = "Interface\\AddOns\\Puggle\\Puggle-216.lua:1340: script ran too long",
 			["time"] = "2022/10/31 18:29:31",
 			["locals"] = "data = \"圣殿神圣光辉\"\n(*temporary) = \"5Zyj5q6/56We5Zyj5YWJ6L6J\"\n(*temporary) = \"1110010110011100101000111110011010101110101111111110011110100101100111101110010110011100101000111110010110000101100010011110100010111110100010010000\"\n(*temporary) = \"%d%d%d?%d?%d?%d?\"\n(*temporary) = <function> defined @Interface\\AddOns\\Puggle\\Puggle.lua:1335\n(*temporary) = \"5Zyj5q6/56We5Zyj5YWJ6L6J\"\n(*temporary) = \"script ran too long\"\nb = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1340: in function `Puggle_enc'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:630: in function `Puggle_UpdateCurrentGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:526: in function `Puggle_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
 			["session"] = 576,
 			["counter"] = 2,
-		}, -- [87]
+		}, -- [86]
 		{
 			["message"] = "Interface\\AddOns\\Puggle\\Puggle-216.lua:1335: script ran too long",
 			["time"] = "2022/10/31 18:29:18",
@@ -688,7 +680,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1335: in function `Puggle_enc'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:630: in function `Puggle_UpdateCurrentGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:526: in function `Puggle_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
 			["session"] = 576,
 			["counter"] = 3,
-		}, -- [88]
+		}, -- [87]
 		{
 			["message"] = "...ns\\Blizzard_LookingForGroupUI\\Blizzard_LFGBrowse.lua:681: attempt to index local 'displayData' (a nil value)",
 			["time"] = "2022/09/25 13:31:13",
@@ -696,7 +688,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_LookingForGroupUI\\Blizzard_LFGBrowse.lua\"]:681: in function `LFGBrowseGroupDataDisplaySolo_Update'\n[string \"@Interface\\AddOns\\Blizzard_LookingForGroupUI\\Blizzard_LFGBrowse.lua\"]:653: in function `LFGBrowseGroupDataDisplay_Update'\n[string \"@Interface\\AddOns\\Blizzard_LookingForGroupUI\\Blizzard_LFGBrowse.lua\"]:328: in function `LFGBrowseSearchEntry_Update'\n[string \"@Interface\\AddOns\\Blizzard_LookingForGroupUI\\Blizzard_LFGBrowse.lua\"]:239: in function `LFGBrowseSearchEntry_Init'\n[string \"@Interface\\AddOns\\Blizzard_LookingForGroupUI\\Blizzard_LFGBrowse.lua\"]:59: in function `frameFactory'\n[string \"@Interface\\SharedXML\\Scroll\\ScrollBoxListView.lua\"]:217: in function `AcquireInternal'\n[string \"@Interface\\SharedXML\\Scroll\\ScrollBoxListView.lua\"]:250: in function `AcquireRange'\n[string \"@Interface\\SharedXML\\Scroll\\ScrollBoxListView.lua\"]:560: in function `ValidateDataRange'\n[string \"@Interface\\SharedXML\\Scroll\\ScrollBox.lua\"]:613: in function `Update'\n[string \"@Interface\\SharedXML\\Scroll\\ScrollBox.lua\"]:219: in function `SetScrollPercentageInternal'\n[string \"@Interface\\SharedXML\\Scroll\\ScrollBox.lua\"]:211: in function `SetScrollPercentage'\n[string \"@Interface\\SharedXML\\Scroll\\ScrollController.lua\"]:70: in function `ScrollInDirection'\n[string \"@Interface\\SharedXML\\Scroll\\ScrollBox.lua\"]:185: in function `ScrollInDirection'\n[string \"@Interface\\SharedXML\\Scroll\\ScrollController.lua\"]:61: in function <Interface\\SharedXML\\Scroll\\ScrollController.lua:59>",
 			["session"] = 576,
 			["counter"] = 9,
-		}, -- [89]
+		}, -- [88]
 		{
 			["message"] = "[string \"ConvertToRaid() /stopmacro [group]\"]:1: unexpected symbol near '/'",
 			["time"] = "2022/10/31 18:59:59",
@@ -704,7 +696,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `RunScript'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:2196: in function `?'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4933: in function `ChatEdit_ParseText'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:4596: in function `ChatEdit_SendText'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:2977: in function <Interface\\FrameXML\\ChatFrame.lua:2970>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `UseAction'\n[string \"@Interface\\FrameXML\\SecureTemplates.lua\"]:343: in function `handler'\n[string \"@Interface\\FrameXML\\SecureTemplates.lua\"]:625: in function <Interface\\FrameXML\\SecureTemplates.lua:569>\n[string \"=[C]\"]: ?\n[string \"@Interface\\FrameXML\\SecureHandlers.lua\"]:266: in function <Interface\\FrameXML\\SecureHandlers.lua:263>\n[string \"=[C]\"]: ?\n[string \"@Interface\\FrameXML\\SecureHandlers.lua\"]:296: in function <Interface\\FrameXML\\SecureHandlers.lua:279>\n[string \"=(tail call)\"]: ?",
 			["session"] = 579,
 			["counter"] = 89,
-		}, -- [90]
+		}, -- [89]
 		{
 			["message"] = "Interface\\AddOns\\LFGBulletinBoard\\RequestList.lua:344: invalid order function for sorting",
 			["time"] = "2022/10/12 22:06:03",
@@ -712,7 +704,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `sort'\n[string \"@Interface\\AddOns\\LFGBulletinBoard\\RequestList.lua\"]:344: in function `UpdateList'\n[string \"@Interface\\AddOns\\LFGBulletinBoard\\GroupBulletinBoard.lua\"]:739: in function `Entry'\n[string \"@Interface\\AddOns\\LFGBulletinBoard\\LibGPIToolBox.lua\"]:114: in function <Interface\\AddOns\\LFGBulletinBoard\\LibGPIToolBox.lua:112>",
 			["session"] = 580,
 			["counter"] = 16,
-		}, -- [91]
+		}, -- [90]
 		{
 			["message"] = "...ns\\Blizzard_LookingForGroupUI\\Blizzard_LFGBrowse.lua:1187: attempt to index local 'roles1' (a nil value)",
 			["time"] = "2022/09/25 13:31:05",
@@ -720,7 +712,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_LookingForGroupUI\\Blizzard_LFGBrowse.lua\"]:1187: in function <...ns\\Blizzard_LookingForGroupUI\\Blizzard_LFGBrowse.lua:1127>\n[string \"=[C]\"]: in function `sort'\n[string \"@Interface\\AddOns\\Blizzard_LookingForGroupUI\\Blizzard_LFGBrowse.lua\"]:1230: in function `LFGBrowseUtil_SortSearchResults'\n[string \"@Interface\\AddOns\\Blizzard_LookingForGroupUI\\Blizzard_LFGBrowse.lua\"]:121: in function `UpdateResultList'\n[string \"@Interface\\AddOns\\Blizzard_LookingForGroupUI\\Blizzard_LFGBrowse.lua\"]:112: in function <...ns\\Blizzard_LookingForGroupUI\\Blizzard_LFGBrowse.lua:110>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface_Wrath\\FrameXML\\UIParent.lua\"]:2214: in function `SetUIPanel'\n[string \"@Interface_Wrath\\FrameXML\\UIParent.lua\"]:2059: in function `ShowUIPanel'\n[string \"@Interface_Wrath\\FrameXML\\UIParent.lua\"]:1927: in function <Interface_Wrath\\FrameXML\\UIParent.lua:1923>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface_Wrath\\FrameXML\\UIParent.lua\"]:2718: in function <Interface_Wrath\\FrameXML\\UIParent.lua:2697>\n[string \"=[C]\"]: in function `ShowUIPanel'\n[string \"@Interface\\AddOns\\Blizzard_LookingForGroupUI\\Blizzard_LFGParentFrame.lua\"]:48: in function `ShowLFGParentFrame'\n[string \"@Interface\\AddOns\\Blizzard_LookingForGroupUI\\Blizzard_LFGParentFrame.lua\"]:73: in function `ToggleLFGParentFrame'\n[string \"*:OnClick\"]:4: in function <[string \"*:OnClick\"]:1>",
 			["session"] = 581,
 			["counter"] = 10,
-		}, -- [92]
+		}, -- [91]
 		{
 			["message"] = "...e\\AddOns\\ElvUI\\Libraries\\Core\\oUF\\elements\\runes-符文.lua:104: attempt to index local 'color' (a nil value)",
 			["time"] = "2022/10/31 21:28:14",
@@ -728,7 +720,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\ElvUI\\Libraries\\Core\\oUF\\elements\\runes-符文.lua\"]:104: in function <...e\\AddOns\\ElvUI\\Libraries\\Core\\oUF\\elements\\runes.lua:102>\n[string \"@Interface\\AddOns\\ElvUI\\Libraries\\Core\\oUF\\elements\\runes-符文.lua\"]:133: in function <...e\\AddOns\\ElvUI\\Libraries\\Core\\oUF\\elements\\runes.lua:116>\n[string \"@Interface\\AddOns\\ElvUI\\Libraries\\Core\\oUF\\elements\\runes-符文.lua\"]:170: in function <...e\\AddOns\\ElvUI\\Libraries\\Core\\oUF\\elements\\runes.lua:162>\n[string \"=(tail call)\"]: ?",
 			["session"] = 586,
 			["counter"] = 2,
-		}, -- [93]
+		}, -- [92]
 		{
 			["message"] = "Interface\\AddOns\\LootMonitor\\LootMonitor-3.30.lua:1093: attempt to index field '?' (a nil value)",
 			["time"] = "2022/10/31 22:53:51",
@@ -736,7 +728,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\LootMonitor\\LootMonitor-3.30.lua\"]:1093: in function <Interface\\AddOns\\LootMonitor\\LootMonitor.lua:1072>\n[string \"=(tail call)\"]: ?",
 			["session"] = 590,
 			["counter"] = 1,
-		}, -- [94]
+		}, -- [93]
 		{
 			["message"] = "Interface\\AddOns\\VuhDo\\VuhDoBuffWatchBuilder.lua:175: bad argument #1 to 'pairs' (table expected, got nil)",
 			["time"] = "2022/10/31 22:56:35",
@@ -744,7 +736,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\VuhDo\\VuhDoBuffWatchBuilder.lua\"]:175: in function <Interface\\AddOns\\VuhDo\\VuhDoBuffWatchBuilder.lua:162>\n[string \"@Interface\\AddOns\\VuhDo\\VuhDoBuffWatchBuilder.lua\"]:266: in function `VUHDO_reloadBuffPanel'\n[string \"@Interface\\AddOns\\VuhDo\\VuhDoBuffWatchBuilder.lua\"]:241: in function `VUHDO_setIsOutOfCombat'\n[string \"@Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua\"]:527: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:407>",
 			["session"] = 591,
 			["counter"] = 1,
-		}, -- [95]
+		}, -- [94]
 		{
 			["message"] = "Interface\\AddOns\\LootMonitor\\LootMonitor-3.30.lua:412: attempt to index field '?' (a nil value)",
 			["time"] = "2022/10/31 22:53:53",
@@ -752,7 +744,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\LootMonitor\\LootMonitor-3.30.lua\"]:412: in function `UpdateGroupInfo'\n[string \"@Interface\\AddOns\\LootMonitor\\LootMonitor-3.30.lua\"]:793: in function <Interface\\AddOns\\LootMonitor\\LootMonitor.lua:761>\n[string \"=(tail call)\"]: ?",
 			["session"] = 591,
 			["counter"] = 4,
-		}, -- [96]
+		}, -- [95]
 		{
 			["message"] = "...ce\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua:451: bad argument #1 to 'unpack' (table expected, got nil)",
 			["time"] = "2022/10/31 22:57:01",
@@ -760,15 +752,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `unpack'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:451: in function `ResetDurabilityFrame'\n[string \"@Interface\\AddOns\\Questie\\Modules\\Tracker\\QuestieTracker.lua\"]:502: in function `Disable'\n[string \"@Interface\\AddOns\\DBM-Core\\DBM-Core-494a4d8.lua\"]:4969: in function `StartCombat'\n[string \"@Interface\\AddOns\\DBM-Core\\DBM-Core-494a4d8.lua\"]:6001: in function `ReceiveCombatInfo'\n[string \"@Interface\\AddOns\\DBM-Core\\DBM-Core-494a4d8.lua\"]:4274: in function <Interface\\AddOns\\DBM-Core\\DBM-Core.lua:4270>\n[string \"=(tail call)\"]: ?\n[string \"@Interface\\AddOns\\DBM-Core\\DBM-Core-494a4d8.lua\"]:4321: in function `handler'\n[string \"@Interface\\AddOns\\DBM-Core\\DBM-Core-494a4d8.lua\"]:928: in function <Interface\\AddOns\\DBM-Core\\DBM-Core.lua:915>",
 			["session"] = 591,
 			["counter"] = 1,
-		}, -- [97]
-		{
-			["message"] = "光环'背景材质'的Lua错误：触发器 1\nWeakAuras 版本：4.1.4\n光环版本：1.0.0\n[string \"return function(WAevent, event, id, msg, ex...\"]:6: C_Timer.After requires a non-negative duration",
-			["time"] = "2022/10/23 16:49:16",
-			["locals"] = "Skipped (In Encounter)",
-			["stack"] = "[string \"=[C]\"]: in function `After'\n[string \"return function(WAevent, event, id, msg, exp, icon, colors)\n    if WAevent == \"PHOGUILD_RAT\" then\n        if event == \"START\" or event==\"UPDATEPROG\" then\n            if not id then return end\n            aura_env.timers[id] = exp\n            C_Timer.After(exp-GetTime(), function() WeakAuras.ScanEvents(\"PHOGUILD_RAT_EXP\",\"\",id) end)\n            return true\n        end\n        return false\n    end\nend\"]:6: in function <[string \"return function(WAevent, event, id, msg, ex...\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:611: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:537>\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:752: in function `ScanEventsInternal'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:713: in function `ScanEvents'\n[string \"return function() aura_env.DBMCallback = function(event, id, msg, duration, icon, timerType, spellId, colorId)\n    if event==\"DBM_TimerStart\" then\n        local barOptions=DBT.Options\n        local barRed=0\n        local barGreen=0\n        local barBlue=0\n        if colorId == 1 then\n            barRed, barGreen, barBlue = barOptions.StartColorAR, barOptions.StartColorAG, barOptions.StartColorAB\n        elseif colorId == 2 then\n            barRed, barGreen, barBlue = barOptions.StartColorAER, barOptions.StartColorAEG, barOptions.StartColorAEB\n        elseif colorId == 3 then\n            barRed, barGreen, barBlue = barOptions.StartColorDR, barOptions.StartColorDG, barOptions.StartColorDB\n        elseif colorId == 4 then\n            barRed, barGreen, barBlue = barOptions.StartColorIR, barOptions.StartColorIG, barOptions.StartColorIB\n        elseif colorId == 5 then\n            barRed, barGreen, barBlue = barOptions.StartColorRR, barOptions.StartColorRG, barOptions.StartColorRB\n        elseif colorId == 6 then\n            barRed, barGreen, barBlue = barOptions.StartColorPR, barOptions.StartColorPG, barOptions.StartColorPB\n        elseif colorId == 7 then\n            barRed, barGreen, barBlue = barOptions.StartColorUIR, barOptions.StartColorUIG, barOptions.StartColorUIB\n        else\n            barRed, barGreen, barBlue = barOptions.StartColorR, barOptions.StartColorG, barOptions.StartColorB\n        end\n        WeakAuras.ScanEvents(\"PHOGUILD_RAT\",\"START\",id,msg,GetTime()+(duration or 0),icon,{barRed,barGreen,barBlue})\n    elseif event==\"DBM_TimerUpdate\" then\n        WeakAuras.ScanEvents(\"PHOGUILD_RAT\",\"UPDATEPROG\",id,duration,GetTime()+(duration or 0)-(msg or 0))\n    elseif event==\"DBM_TimerStop\" then\n        WeakAuras.ScanEvents(\"PHOGUILD_RAT\",\"STOP\",id,msg,0,icon)\n        \n    elseif event == \"DBM_TimerPause\" then\n        \n        WeakAuras.ScanEvents(\"PHOGUILD_RAT\",\"PauseBar\",id)\n    elseif event == \"DBM_TimerResume\" then\n        \n        WeakAuras.ScanEvents(\"PHOGUILD_RAT\",\"ResumeBar\",id)\n    end\nend\n\naura_env.hideDBMBarsHelper=function()\n    if DBM and DBT then\n        if aura_env.config.hideDBMBars then\n            \n            if not DBT:GetSkins().Jods_Raid_Ability_Timeline_Skin then\n                local skin = DBT:RegisterSkin(\"Jods_Raid_Ability_Timeline_Skin\")\n                skin.Options = {\n                    --HugeAlpha = 0.0001,  --大型计时条透明度\n                    Alpha = 0,  --小型计时条的透明度\n                    IconLeft = false,  --左侧图标\n                    IconRight = false,  --右侧图标\n                    InlineIcons = false,  --显示条内图标\n                    HugeBarsEnabled = false,  --开启大型计时条 (2号计时条)\n                    Bar7CustomInline = false  --使用自定义'!'图标\n                }\n                if DBT:GetSkins().Jods_Raid_Ability_Timeline_Skin then\n                    DBT:SetSkin(\"Jods_Raid_Ability_Timeline_Skin\")\n                    DBT:Rearrange()\n                end\n            end\n        end\n    end\nend\naura_env.hideDBMBarsHelper()\n\nif DBM and not DBM:IsCallbackRegistered(\"DBM_TimerStart\", aura_env.DBMCallback) then \n    DBM:RegisterCallback(\"DBM_TimerStart\",aura_env.DBMCallback)\n    \nend\nif DBM and not DBM:IsCallbackRegistered(\"DBM_TimerUpdate\", aura_env.DBMCallback) then \n    DBM:RegisterCallback(\"DBM_TimerUpdate\",aura_env.DBMCallback)\nend\n\nif DBM and not DBM:IsCallbackRegistered(\"DBM_TimerStop\", aura_env.DBMCallback) then \n    DBM:RegisterCallback(\"DBM_TimerStop\",aura_env.DBMCallback)\nend\n\nif DBM and not DBM:IsCallbackRegistered(\"DBM_TimerPause\", aura_env.DBMCallback) then \n    DBM:RegisterCallback(\"DBM_TimerPause\",aura_env.DBMCallback)\nend\n\nif DBM and not DBM:IsCallbackRegistered(\"DBM_TimerResume\", aura_env.DBMCallback) then \n    DBM:RegisterCallback(\"DBM_TimerResume\",aura_env.DBMCallback)\nend\n\naura_env.BigwigsCallback = function(event, ...)\n    if event==\"BigWigs_StartBar\" then\n        local module, spellId, msg, duration, icon = ...\n        local r,g,b,a=BigWigs:GetPlugin(\"Colors\"):GetColor(\"barText\", module,spellId)\n        WeakAuras.ScanEvents(\"PHOGUILD_RAT\",\"START\",tostring(module)..\"^\"..(msg or \"\"),msg,GetTime()+(duration or 0),icon,{r,g,b,a})\n    elseif event==\"BigWigs_StopBar\" then\n        local module, msg = ...\n        WeakAuras.ScanEvents(\"PHOGUILD_RAT\",\"STOP\",tostring(module)..\"^\"..(msg or \"\"),msg,0,icon)\n    elseif (event == \"BigWigs_StopBars\"\n        or event == \"BigWigs_OnBossDisable\"\n    or event == \"BigWigs_OnPluginDisable\") then\n        local module=...\n        WeakAuras.ScanEvents(\"PHOGUILD_RAT\",\"STOPALL\",module)\n    end\nend\n\nif BigWigsLoader then\n    PHOGUILD_WA_RAT_BWCallbackObj = {}\n    BigWigsLoader.RegisterMessage(PHOGUILD_WA_RAT_BWCallbackObj, \"BigWigs_StartBar\", aura_env.BigwigsCallback);\n    BigWigsLoader.RegisterMessage(PHOGUILD_WA_RAT_BWCallbackObj, \"BigWigs_StopBar\", aura_env.BigwigsCallback);\n    BigWigsLoader.RegisterMessage(PHOGUILD_WA_RAT_BWCallbackObj, \"BigWigs_StopBars\", aura_env.BigwigsCallback);\n    BigWigsLoader.RegisterMessage(PHOGUILD_WA_RAT_BWCallbackObj, \"BigWigs_OnBossDisable\", aura_env.BigwigsCallback);\n    if aura_env.config.hideBWBars then\n        local f = function(event,addon,bar,...) \n            bar.candyBarBar:Hide()\n            bar.candyBarIconFrame:Hide()\n            PHO_BW_BAR_TO_HIDE = bar.candyBarIconFrame\n            C_Timer.After(0.01, function() if (PHO_BW_BAR_TO_HIDE~=nil and PHO_BW_BAR_TO_HIDE:IsVisible()) then PHO_BW_BAR_TO_HIDE:Hide() end end)\n        end\n        BigWigsLoader.RegisterMessage(PHOGUILD_WA_RAT_BWCallbackObj, \"BigWigs_BarCreated\", f);\n        BigWigsLoader.RegisterMessage(PHOGUILD_WA_RAT_BWCallbackObj, \"BigWigs_BarEmphasized\", f);\n    end\nend\n end\"]:26: in function <[string \"return function() aura_env.DBMCallback = fu...\"]:1>\n[string \"=[C]\"]: in function `pcall'\n[string \"@Interface\\AddOns\\DBM-Core\\DBM-Core-30070dd.lua\"]:1738: in function <Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1735>\n[string \"@Interface\\AddOns\\DBM-Core\\DBM-Core-30070dd.lua\"]:9934: in function `Update'\n[string \"@Interface\\AddOns\\DBM-Naxx\\FrostwyrmLair\\Sapphiron.lua\"]:125: in function `OnSync'\n[string \"@Interface\\AddOns\\DBM-Core\\DBM-Core-30070dd.lua\"]:11039: in function `ReceiveSync'\n[string \"@Interface\\AddOns\\DBM-Core\\DBM-Core-30070dd.lua\"]:11015: in function `SendSync'\n[string \"@Interface\\AddOns\\DBM-Naxx\\FrostwyrmLair\\Sapphiron.lua\"]:118: in function `handler'\n[string \"@Interface\\AddOns\\DBM-Core\\DBM-Core-30070dd.lua\"]:928: in function <Interface\\AddOns\\DBM-Core\\DBM-Core.lua:915>",
-			["session"] = 600,
-			["counter"] = 9,
-		}, -- [98]
+		}, -- [96]
 		{
 			["message"] = "...ns\\Blizzard_LookingForGroupUI\\Blizzard_LFGBrowse.lua:734: attempt to index local 'displayData' (a nil value)",
 			["time"] = "2022/11/02 01:34:17",
@@ -776,7 +760,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_LookingForGroupUI\\Blizzard_LFGBrowse.lua\"]:734: in function `LFGBrowseGroupDataDisplayEnumerate_Update'\n[string \"@Interface\\AddOns\\Blizzard_LookingForGroupUI\\Blizzard_LFGBrowse.lua\"]:659: in function `LFGBrowseGroupDataDisplay_Update'\n[string \"@Interface\\AddOns\\Blizzard_LookingForGroupUI\\Blizzard_LFGBrowse.lua\"]:328: in function `LFGBrowseSearchEntry_Update'\n[string \"@Interface\\AddOns\\Blizzard_LookingForGroupUI\\Blizzard_LFGBrowse.lua\"]:346: in function <...ns\\Blizzard_LookingForGroupUI\\Blizzard_LFGBrowse.lua:341>",
 			["session"] = 603,
 			["counter"] = 1,
-		}, -- [99]
+		}, -- [97]
 		{
 			["message"] = "Interface\\AddOns\\SpellReplay\\SpellReplay.lua:89: attempt to index field '?' (a nil value)",
 			["time"] = "2022/07/09 15:49:57",
@@ -784,7 +768,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\SpellReplay\\SpellReplay.lua\"]:89: in function <Interface\\AddOns\\SpellReplay\\SpellReplay.lua:87>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2064: in function `SetUIPanel'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2138: in function `HideUIPanel'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:1826: in function <Interface_TBC\\FrameXML\\UIParent.lua:1818>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2616: in function `HideUIPanel'\n[string \"@Interface\\FrameXML\\CinematicFrame.lua\"]:51: in function <Interface\\FrameXML\\CinematicFrame.lua:39>",
 			["session"] = 603,
 			["counter"] = 33,
-		}, -- [100]
+		}, -- [98]
 		{
 			["message"] = "Interface\\AddOns\\SpellReplay\\SpellReplay.lua:67: attempt to index field '?' (a nil value)",
 			["time"] = "2022/07/09 15:49:57",
@@ -792,7 +776,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\SpellReplay\\SpellReplay.lua\"]:67: in function <Interface\\AddOns\\SpellReplay\\SpellReplay.lua:65>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2064: in function `SetUIPanel'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2138: in function `HideUIPanel'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:1826: in function <Interface_TBC\\FrameXML\\UIParent.lua:1818>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2616: in function `HideUIPanel'\n[string \"@Interface\\FrameXML\\CinematicFrame.lua\"]:51: in function <Interface\\FrameXML\\CinematicFrame.lua:39>",
 			["session"] = 603,
 			["counter"] = 33,
-		}, -- [101]
+		}, -- [99]
 		{
 			["message"] = "...ns\\Blizzard_LookingForGroupUI\\Blizzard_LFGBrowse.lua:245: attempt to index local 'searchResultInfo' (a nil value)",
 			["time"] = "2022/10/11 21:23:34",
@@ -800,7 +784,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_LookingForGroupUI\\Blizzard_LFGBrowse.lua\"]:245: in function `LFGBrowseSearchEntry_Update'\n[string \"@Interface\\AddOns\\Blizzard_LookingForGroupUI\\Blizzard_LFGBrowse.lua\"]:346: in function <...ns\\Blizzard_LookingForGroupUI\\Blizzard_LFGBrowse.lua:341>",
 			["session"] = 605,
 			["counter"] = 34,
-		}, -- [102]
+		}, -- [100]
 		{
 			["message"] = "[string \"*:OnClick\"]:2: Usage: PlaySound(soundKitID, optional[\"SFX\",\"Music\",\"Ambience\", \"Dialog\" or \"Master\"], [forceNoDuplicates, runFinishCallback])",
 			["time"] = "2022/09/11 10:32:46",
@@ -808,46 +792,62 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `PlaySound'\n[string \"*:OnClick\"]:2: in function <[string \"*:OnClick\"]:1>",
 			["session"] = 609,
 			["counter"] = 22,
-		}, -- [103]
-		{
-			["message"] = "Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua:8: attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)",
-			["time"] = "2022/09/01 21:55:45",
-			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:67: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:53>",
-			["session"] = 614,
-			["counter"] = 492,
-		}, -- [104]
-		{
-			["message"] = "Interface\\AddOns\\Puggle\\Puggle-216.lua:1346: bad argument #1 to 'gsub' (string expected, got nil)",
-			["time"] = "2022/08/13 14:30:28",
-			["locals"] = "(*temporary) = nil\n(*temporary) = \"[^ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=]\"\n(*temporary) = \"\"\n(*temporary) = \"string expected, got nil\"\n",
-			["stack"] = "[string \"=[C]\"]: in function `gsub'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1346: in function `Puggle_dec'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:889: in function `Puggle_displayGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:693: in function `Puggle_UpdateCurrentGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:526: in function `Puggle_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
-			["session"] = 614,
-			["counter"] = 2095,
-		}, -- [105]
+		}, -- [101]
 		{
 			["message"] = "Interface\\AddOns\\WIM\\Sources\\Options\\CoreOptions.lua:37: attempt to index global 'db' (a nil value)",
 			["time"] = "2022/08/27 21:46:52",
 			["locals"] = "frame = WIM3_OptionFrameFrame1 {\n ImportCustomObject = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:398\n welcome = WIM3_OptionFrameFrame2 {\n }\n CreateDropDownMenu = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:182\n CreateColorPicker = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:74\n CreateCheckButtonMenu = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:308\n lastObj = WIM3_OptionFrameFrame2 {\n }\n nextOffsetX = 0\n CreateButton = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:64\n CreateCheckButton = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:220\n nextOffSetY = 0\n CreateSlider = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:127\n 0 = <userdata>\n CreateSection = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:353\n CreateText = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:340\n SetFullSize = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:59\n CreateFramedPanel = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:392\n}\n(*temporary) = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:220\n(*temporary) = WIM3_OptionFrameFrame2CheckButton2 {\n 0 = <userdata>\n Enable = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:257\n text = WIM3_OptionFrameFrame2CheckButton2Text {\n }\n CreateCheckButton = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:220\n _Enable = <function> defined =[C]:-1\n UpdateChildren = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:281\n _Disable = <function> defined =[C]:-1\n isCheckButton = true\n children = <table> {\n }\n Disable = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:269\n}\n(*temporary) = \"小地图按钮自由移动\"\n(*temporary) = nil\n(*temporary) = <table> {\n enabled = false\n OnDisable = <function> defined @Interface\\AddOns\\WIM\\Modules\\MinimapIcon.lua:400\n RegisterWidget = <function> defined @Interface\\AddOns\\WIM\\WIM.lua:311\n OnEnable = <function> defined @Interface\\AddOns\\WIM\\Modules\\MinimapIcon.lua:382\n Enable = <function> defined @Interface\\AddOns\\WIM\\WIM.lua:307\n OnDisableWIM = <function> defined @Interface\\AddOns\\WIM\\Modules\\MinimapIcon.lua:371\n canDisable = true\n OnEnableWIM = <function> defined @Interface\\AddOns\\WIM\\Modules\\MinimapIcon.lua:360\n dPrint = <function> defined @Interface\\AddOns\\WIM\\WIM.lua:309\n enableByDefault = true\n title = \"MinimapIcon\"\n RegisterEvent = <function> defined @Interface\\AddOns\\WIM\\WIM.lua:306\n db_defaults = <table> {\n }\n resources = <table> {\n }\n hasWidget = false\n Disable = <function> defined @Interface\\AddOns\\WIM\\WIM.lua:308\n}\n(*temporary) = \"enabled\"\n(*temporary) = nil\n(*temporary) = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\CoreOptions.lua:36\n(*temporary) = WIM3_OptionFrameFrame2CheckButton2 {\n 0 = <userdata>\n Enable = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:257\n text = WIM3_OptionFrameFrame2CheckButton2Text {\n }\n CreateCheckButton = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:220\n _Enable = <function> defined =[C]:-1\n UpdateChildren = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:281\n _Disable = <function> defined =[C]:-1\n isCheckButton = true\n children = <table> {\n }\n Disable = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:269\n}\n(*temporary) = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:46\n(*temporary) = WIM3_OptionFrameFrame2CheckButton2 {\n 0 = <userdata>\n Enable = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:257\n text = WIM3_OptionFrameFrame2CheckButton2Text {\n }\n CreateCheckButton = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:220\n _Enable = <function> defined =[C]:-1\n UpdateChi",
 			["stack"] = "[string \"@Interface\\AddOns\\WIM\\Sources\\Options\\CoreOptions.lua\"]:37: in function `frame'\n[string \"@Interface\\AddOns\\WIM\\Sources\\Options\\Options-设置选项.lua\"]:190: in function <Interface\\AddOns\\WIM\\Sources\\Options\\Options.lua:184>\n[string \"=[C]\"]: in function `Click'\n[string \"@Interface\\AddOns\\WIM\\Sources\\Options\\Options-设置选项.lua\"]:281: in function `UpdateSubCategories'\n[string \"@Interface\\AddOns\\WIM\\Sources\\Options\\Options-设置选项.lua\"]:104: in function <Interface\\AddOns\\WIM\\Sources\\Options\\Options.lua:104>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\AddOns\\WIM\\Sources\\Options\\Options-设置选项.lua\"]:327: in function `ShowOptions'\n[string \"@Interface\\AddOns\\AddOnSkins\\Skins\\AddOns\\WIM-3.9.6.lua\"]:11: in function <Interface\\AddOns\\AddOnSkins\\Skins\\AddOns\\WIM.lua:8>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AddOnSkins\\Core\\Core.lua\"]:217: in function `CallSkin'\n[string \"@Interface\\AddOns\\AddOnSkins\\Core\\Core.lua\"]:311: in function `?'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:119: in function <...ler\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:29: in function <...ler\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceEvent-3.0\\AceEvent-3.0-4.lua\"]:120: in function <...seAddonController\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>",
-			["session"] = 614,
-			["counter"] = 41,
-		}, -- [106]
+			["session"] = 615,
+			["counter"] = 42,
+		}, -- [102]
+		{
+			["message"] = "Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua:8: attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)",
+			["time"] = "2022/09/01 21:55:45",
+			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:67: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:53>",
+			["session"] = 618,
+			["counter"] = 496,
+		}, -- [103]
+		{
+			["message"] = "光环'背景材质'的Lua错误：触发器 1\nWeakAuras 版本：4.1.4\n光环版本：1.0.0\n[string \"return function(WAevent, event, id, msg, ex...\"]:6: C_Timer.After requires a non-negative duration",
+			["time"] = "2022/10/23 16:49:16",
+			["locals"] = "Skipped (In Encounter)",
+			["stack"] = "[string \"=[C]\"]: in function `After'\n[string \"return function(WAevent, event, id, msg, exp, icon, colors)\n    if WAevent == \"PHOGUILD_RAT\" then\n        if event == \"START\" or event==\"UPDATEPROG\" then\n            if not id then return end\n            aura_env.timers[id] = exp\n            C_Timer.After(exp-GetTime(), function() WeakAuras.ScanEvents(\"PHOGUILD_RAT_EXP\",\"\",id) end)\n            return true\n        end\n        return false\n    end\nend\"]:6: in function <[string \"return function(WAevent, event, id, msg, ex...\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:611: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:537>\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:752: in function `ScanEventsInternal'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:713: in function `ScanEvents'\n[string \"return function() aura_env.DBMCallback = function(event, id, msg, duration, icon, timerType, spellId, colorId)\n    if event==\"DBM_TimerStart\" then\n        local barOptions=DBT.Options\n        local barRed=0\n        local barGreen=0\n        local barBlue=0\n        if colorId == 1 then\n            barRed, barGreen, barBlue = barOptions.StartColorAR, barOptions.StartColorAG, barOptions.StartColorAB\n        elseif colorId == 2 then\n            barRed, barGreen, barBlue = barOptions.StartColorAER, barOptions.StartColorAEG, barOptions.StartColorAEB\n        elseif colorId == 3 then\n            barRed, barGreen, barBlue = barOptions.StartColorDR, barOptions.StartColorDG, barOptions.StartColorDB\n        elseif colorId == 4 then\n            barRed, barGreen, barBlue = barOptions.StartColorIR, barOptions.StartColorIG, barOptions.StartColorIB\n        elseif colorId == 5 then\n            barRed, barGreen, barBlue = barOptions.StartColorRR, barOptions.StartColorRG, barOptions.StartColorRB\n        elseif colorId == 6 then\n            barRed, barGreen, barBlue = barOptions.StartColorPR, barOptions.StartColorPG, barOptions.StartColorPB\n        elseif colorId == 7 then\n            barRed, barGreen, barBlue = barOptions.StartColorUIR, barOptions.StartColorUIG, barOptions.StartColorUIB\n        else\n            barRed, barGreen, barBlue = barOptions.StartColorR, barOptions.StartColorG, barOptions.StartColorB\n        end\n        WeakAuras.ScanEvents(\"PHOGUILD_RAT\",\"START\",id,msg,GetTime()+(duration or 0),icon,{barRed,barGreen,barBlue})\n    elseif event==\"DBM_TimerUpdate\" then\n        WeakAuras.ScanEvents(\"PHOGUILD_RAT\",\"UPDATEPROG\",id,duration,GetTime()+(duration or 0)-(msg or 0))\n    elseif event==\"DBM_TimerStop\" then\n        WeakAuras.ScanEvents(\"PHOGUILD_RAT\",\"STOP\",id,msg,0,icon)\n        \n    elseif event == \"DBM_TimerPause\" then\n        \n        WeakAuras.ScanEvents(\"PHOGUILD_RAT\",\"PauseBar\",id)\n    elseif event == \"DBM_TimerResume\" then\n        \n        WeakAuras.ScanEvents(\"PHOGUILD_RAT\",\"ResumeBar\",id)\n    end\nend\n\naura_env.hideDBMBarsHelper=function()\n    if DBM and DBT then\n        if aura_env.config.hideDBMBars then\n            \n            if not DBT:GetSkins().Jods_Raid_Ability_Timeline_Skin then\n                local skin = DBT:RegisterSkin(\"Jods_Raid_Ability_Timeline_Skin\")\n                skin.Options = {\n                    --HugeAlpha = 0.0001,  --大型计时条透明度\n                    Alpha = 0,  --小型计时条的透明度\n                    IconLeft = false,  --左侧图标\n                    IconRight = false,  --右侧图标\n                    InlineIcons = false,  --显示条内图标\n                    HugeBarsEnabled = false,  --开启大型计时条 (2号计时条)\n                    Bar7CustomInline = false  --使用自定义'!'图标\n                }\n                if DBT:GetSkins().Jods_Raid_Ability_Timeline_Skin then\n                    DBT:SetSkin(\"Jods_Raid_Ability_Timeline_Skin\")\n                    DBT:Rearrange()\n                end\n            end\n        end\n    end\nend\naura_env.hideDBMBarsHelper()\n\nif DBM and not DBM:IsCallbackRegistered(\"DBM_TimerStart\", aura_env.DBMCallback) then \n    DBM:RegisterCallback(\"DBM_TimerStart\",aura_env.DBMCallback)\n    \nend\nif DBM and not DBM:IsCallbackRegistered(\"DBM_TimerUpdate\", aura_env.DBMCallback) then \n    DBM:RegisterCallback(\"DBM_TimerUpdate\",aura_env.DBMCallback)\nend\n\nif DBM and not DBM:IsCallbackRegistered(\"DBM_TimerStop\", aura_env.DBMCallback) then \n    DBM:RegisterCallback(\"DBM_TimerStop\",aura_env.DBMCallback)\nend\n\nif DBM and not DBM:IsCallbackRegistered(\"DBM_TimerPause\", aura_env.DBMCallback) then \n    DBM:RegisterCallback(\"DBM_TimerPause\",aura_env.DBMCallback)\nend\n\nif DBM and not DBM:IsCallbackRegistered(\"DBM_TimerResume\", aura_env.DBMCallback) then \n    DBM:RegisterCallback(\"DBM_TimerResume\",aura_env.DBMCallback)\nend\n\naura_env.BigwigsCallback = function(event, ...)\n    if event==\"BigWigs_StartBar\" then\n        local module, spellId, msg, duration, icon = ...\n        local r,g,b,a=BigWigs:GetPlugin(\"Colors\"):GetColor(\"barText\", module,spellId)\n        WeakAuras.ScanEvents(\"PHOGUILD_RAT\",\"START\",tostring(module)..\"^\"..(msg or \"\"),msg,GetTime()+(duration or 0),icon,{r,g,b,a})\n    elseif event==\"BigWigs_StopBar\" then\n        local module, msg = ...\n        WeakAuras.ScanEvents(\"PHOGUILD_RAT\",\"STOP\",tostring(module)..\"^\"..(msg or \"\"),msg,0,icon)\n    elseif (event == \"BigWigs_StopBars\"\n        or event == \"BigWigs_OnBossDisable\"\n    or event == \"BigWigs_OnPluginDisable\") then\n        local module=...\n        WeakAuras.ScanEvents(\"PHOGUILD_RAT\",\"STOPALL\",module)\n    end\nend\n\nif BigWigsLoader then\n    PHOGUILD_WA_RAT_BWCallbackObj = {}\n    BigWigsLoader.RegisterMessage(PHOGUILD_WA_RAT_BWCallbackObj, \"BigWigs_StartBar\", aura_env.BigwigsCallback);\n    BigWigsLoader.RegisterMessage(PHOGUILD_WA_RAT_BWCallbackObj, \"BigWigs_StopBar\", aura_env.BigwigsCallback);\n    BigWigsLoader.RegisterMessage(PHOGUILD_WA_RAT_BWCallbackObj, \"BigWigs_StopBars\", aura_env.BigwigsCallback);\n    BigWigsLoader.RegisterMessage(PHOGUILD_WA_RAT_BWCallbackObj, \"BigWigs_OnBossDisable\", aura_env.BigwigsCallback);\n    if aura_env.config.hideBWBars then\n        local f = function(event,addon,bar,...) \n            bar.candyBarBar:Hide()\n            bar.candyBarIconFrame:Hide()\n            PHO_BW_BAR_TO_HIDE = bar.candyBarIconFrame\n            C_Timer.After(0.01, function() if (PHO_BW_BAR_TO_HIDE~=nil and PHO_BW_BAR_TO_HIDE:IsVisible()) then PHO_BW_BAR_TO_HIDE:Hide() end end)\n        end\n        BigWigsLoader.RegisterMessage(PHOGUILD_WA_RAT_BWCallbackObj, \"BigWigs_BarCreated\", f);\n        BigWigsLoader.RegisterMessage(PHOGUILD_WA_RAT_BWCallbackObj, \"BigWigs_BarEmphasized\", f);\n    end\nend\n end\"]:26: in function <[string \"return function() aura_env.DBMCallback = fu...\"]:1>\n[string \"=[C]\"]: in function `pcall'\n[string \"@Interface\\AddOns\\DBM-Core\\DBM-Core-30070dd.lua\"]:1738: in function <Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1735>\n[string \"@Interface\\AddOns\\DBM-Core\\DBM-Core-30070dd.lua\"]:9934: in function `Update'\n[string \"@Interface\\AddOns\\DBM-Naxx\\FrostwyrmLair\\Sapphiron.lua\"]:125: in function `OnSync'\n[string \"@Interface\\AddOns\\DBM-Core\\DBM-Core-30070dd.lua\"]:11039: in function `ReceiveSync'\n[string \"@Interface\\AddOns\\DBM-Core\\DBM-Core-30070dd.lua\"]:11015: in function `SendSync'\n[string \"@Interface\\AddOns\\DBM-Naxx\\FrostwyrmLair\\Sapphiron.lua\"]:118: in function `handler'\n[string \"@Interface\\AddOns\\DBM-Core\\DBM-Core-30070dd.lua\"]:928: in function <Interface\\AddOns\\DBM-Core\\DBM-Core.lua:915>",
+			["session"] = 618,
+			["counter"] = 11,
+		}, -- [104]
 		{
 			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
 			["time"] = "2022/08/13 19:33:28",
 			["locals"] = "GearScore = 57\nItemLevel = 20\nRed = 0.575650\nBlue = 0.575650\nGreen = 0.575650\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 4\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
-			["session"] = 614,
-			["counter"] = 1857,
-		}, -- [107]
+			["session"] = 618,
+			["counter"] = 1913,
+		}, -- [105]
 		{
 			["message"] = "Interface\\AddOns\\ItemRack\\ItemRack-3.73.nil.lua:1198: Attempt to access forbidden object from code tainted by an AddOn",
 			["time"] = "2022/09/25 15:52:40",
 			["locals"] = "(*temporary) = SecureTransferDialog {\n 0 = <userdata>\n Button2 = <unnamed> {\n }\n MoneyLabel = <unnamed> {\n }\n CautionIcon = <unnamed> {\n }\n Text = <unnamed> {\n }\n Border = <unnamed> {\n }\n Button1 = <unnamed> {\n }\n}\n",
 			["stack"] = "[string \"=[C]\"]: in function `GetName'\n[string \"@Interface\\AddOns\\ItemRack\\ItemRack-3.73.nil.lua\"]:1198: in function `func'\n[string \"@Interface\\AddOns\\ItemRack\\ItemRack-3.73.nil.lua\"]:924: in function `OnUpdate'\n[string \"*:OnUpdate\"]:1: in function <[string \"*:OnUpdate\"]:1>",
-			["session"] = 614,
-			["counter"] = 262,
+			["session"] = 618,
+			["counter"] = 303,
+		}, -- [106]
+		{
+			["message"] = "Interface\\AddOns\\BlizzMove\\BlizzMove-v3.4.11.lua:397: BlizzMove: The frame you just moved (CharacterFrame) is probably in a broken state, possibly because of other addons. Enable the Blizzmove_Debug plugin, to find more debugging information.",
+			["time"] = "2022/10/14 00:31:30",
+			["locals"] = "(*temporary) = \"BlizzMove: The frame you just moved (CharacterFrame) is probably in a broken state, possibly because of other addons. Enable the Blizzmove_Debug plugin, to find more debugging information.\"\n",
+			["stack"] = "[string \"=[C]\"]: in function `error'\n[string \"@Interface\\AddOns\\BlizzMove\\BlizzMove-v3.4.11.lua\"]:397: in function <Interface\\AddOns\\BlizzMove\\BlizzMove.lua:383>\n[string \"@Interface\\AddOns\\BlizzMove\\BlizzMove-v3.4.11.lua\"]:647: in function <Interface\\AddOns\\BlizzMove\\BlizzMove.lua:630>\n[string \"=(tail call)\"]: ?",
+			["session"] = 618,
+			["counter"] = 18,
+		}, -- [107]
+		{
+			["message"] = "Interface\\AddOns\\Puggle\\Puggle-216.lua:1346: bad argument #1 to 'gsub' (string expected, got nil)",
+			["time"] = "2022/08/13 14:30:28",
+			["locals"] = "(*temporary) = nil\n(*temporary) = \"[^ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=]\"\n(*temporary) = \"\"\n(*temporary) = \"string expected, got nil\"\n",
+			["stack"] = "[string \"=[C]\"]: in function `gsub'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1346: in function `Puggle_dec'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:889: in function `Puggle_displayGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:693: in function `Puggle_UpdateCurrentGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:526: in function `Puggle_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
+			["session"] = 618,
+			["counter"] = 2204,
 		}, -- [108]
 	},
 }
