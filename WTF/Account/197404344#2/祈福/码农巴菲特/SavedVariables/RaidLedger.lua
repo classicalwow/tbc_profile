@@ -196,6 +196,54 @@ RaidLedgerDatabase = {
 						["count"] = 1,
 					},
 				}, -- [16]
+				{
+					["beneficiary"] = "蠕动马桶天使",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:41858::::::::80:::::::::|h[致命角斗士的月布长袍]|h|r",
+						["count"] = 1,
+					},
+				}, -- [17]
+				{
+					["beneficiary"] = "洛丹伦之殇",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:41920::::::::80:::::::::|h[致命角斗士的绸缎长袍]|h|r",
+						["count"] = 1,
+					},
+				}, -- [18]
+				{
+					["beneficiary"] = "你",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40845::::::::80:::::::::|h[致命角斗士的恐怖板甲护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [19]
+				{
+					["beneficiary"] = "你",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40784::::::::80:::::::::|h[致命角斗士的恐怖板甲护胸]|h|r",
+						["count"] = 1,
+					},
+				}, -- [20]
 			},
 		}, -- [1]
 	},
@@ -208,11 +256,11 @@ RaidLedgerDatabase = {
 		["minimapicons"] = {
 			["hide"] = false,
 		},
-		["minimapicon"] = true,
-		["raidbutton"] = true,
-		["filteritems"] = "# 每行一条, 可以是物品名称或物品ID\n# 以 # 开头的行自动被忽略\n",
 		["debittemplates"] = {
 		},
+		["raidbutton"] = true,
+		["filteritems"] = "# 每行一条, 可以是物品名称或物品ID\n# 以 # 开头的行自动被忽略\n",
+		["minimapicon"] = true,
 		["filterzero"] = false,
 	},
 	["current"] = 1,

@@ -113,31 +113,6 @@ TomTomWaypointsM = {
 		["码农巴菲特 - 祈福"] = {
 		},
 		["新特能源 - 祈福"] = {
-			[114] = {
-				["114:283129584.35208:288753056.23472:Meeting Stone"] = {
-					114, -- [1]
-					0.2831295843520783, -- [2]
-					0.2887530562347189, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "Meeting Stone",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Meeting Stone",
-					["from"] = "Questie",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
 		},
 		["Vscode - 加丁"] = {
 		},

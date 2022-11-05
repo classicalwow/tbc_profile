@@ -13,6 +13,11 @@ PawnCommon = {
 	["ShowTooltipIcons"] = true,
 	["LastVersion"] = 2.0706,
 	["ShowSocketingAdvisor"] = true,
+	["ShowSpecIcons"] = true,
+	["IgnoreGemsWhileLeveling"] = true,
+	["ButtonPosition"] = 2,
+	["ShowLootUpgradeAdvisor"] = true,
+	["ShowQuestUpgradeAdvisor"] = true,
 	["Scales"] = {
 		["\"Classic\":WARRIOR2"] = {
 			["PerCharacterOptions"] = {
@@ -255,19 +260,25 @@ PawnCommon = {
 			["SpecID"] = 2,
 			["UnenchantedColor"] = "0054a5",
 		},
-		["\"Classic\":HUNTER3"] = {
+		["\"Classic\":ROGUE1"] = {
 			["PerCharacterOptions"] = {
+				["特变电工-祈福"] = {
+					["Visible"] = true,
+				},
+				["Vscode-加丁"] = {
+					["Visible"] = true,
+				},
 			},
-			["Color"] = "aad372",
-			["LocalizedName"] = "猎人: 生存",
-			["ClassID"] = 3,
+			["Color"] = "fff468",
+			["LocalizedName"] = "潜行者: 奇袭",
+			["ClassID"] = 4,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["SpecID"] = 3,
-			["UnenchantedColor"] = "7f9e55",
+			["SpecID"] = 1,
+			["UnenchantedColor"] = "bfb74e",
 		},
 		["\"Classic\":HUNTER1"] = {
 			["PerCharacterOptions"] = {
@@ -492,25 +503,19 @@ PawnCommon = {
 			["SpecID"] = 1,
 			["UnenchantedColor"] = "b7698b",
 		},
-		["\"Classic\":ROGUE1"] = {
+		["\"Classic\":HUNTER3"] = {
 			["PerCharacterOptions"] = {
-				["特变电工-祈福"] = {
-					["Visible"] = true,
-				},
-				["Vscode-加丁"] = {
-					["Visible"] = true,
-				},
 			},
-			["Color"] = "fff468",
-			["LocalizedName"] = "潜行者: 奇袭",
-			["ClassID"] = 4,
+			["Color"] = "aad372",
+			["LocalizedName"] = "猎人: 生存",
+			["ClassID"] = 3,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["SpecID"] = 1,
-			["UnenchantedColor"] = "bfb74e",
+			["SpecID"] = 3,
+			["UnenchantedColor"] = "7f9e55",
 		},
 		["\"Classic\":PRIEST2"] = {
 			["PerCharacterOptions"] = {
@@ -530,10 +535,5 @@ PawnCommon = {
 			["UnenchantedColor"] = "bfbfbf",
 		},
 	},
-	["IgnoreGemsWhileLeveling"] = true,
-	["ButtonPosition"] = 2,
-	["ShowLootUpgradeAdvisor"] = true,
-	["ShowQuestUpgradeAdvisor"] = true,
-	["ShowSpecIcons"] = true,
 	["ShownGettingStarted"] = true,
 }
