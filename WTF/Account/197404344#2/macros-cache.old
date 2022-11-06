@@ -20,7 +20,8 @@ END
 VER 3 000000000000000C "开团" "132269"
 /click [@party1,noexists]PlayerFrame RightButton
 /click [@party1,noexists]DropDownList1Button20
-/run ConvertToRaid() /stopmacro [group]
+/run ConvertToRaid() 
+/stopmacro [group]
 /邀请 开团
 END
 VER 3 0000000000000003 "自动攻击" "135325"

@@ -2092,10 +2092,10 @@ EncounterDetailsDB = {
 		[47811] = {
 			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "恶魔呓欲",
 		},
@@ -3554,14 +3554,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "陈先丶生",
 		},
-		[64701] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "风行月色",
-		},
 		[31884] = {
 			["school"] = 2,
 			["type"] = "BUFF",
@@ -3571,6 +3563,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "辣条十圣光",
 		},
+		[28786] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "阿努布雷坎",
+		},
 		[53352] = {
 			["school"] = 4,
 			["token"] = {
@@ -3578,14 +3579,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "天才电竞少女",
 		},
-		[28834] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[64701] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "瑞文戴尔男爵",
+			["source"] = "风行月色",
 		},
 		[48301] = {
 			["school"] = 32,
@@ -3604,6 +3604,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "萨塔里奥",
 		},
+		[28834] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "瑞文戴尔男爵",
+		},
 		[28882] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -3613,15 +3622,6 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "瑞文戴尔男爵",
-		},
-		[28786] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "阿努布雷坎",
 		},
 		[50475] = {
 			["school"] = 1,

@@ -15,7 +15,7 @@ AutoBarDB = {
 					["enabled"] = true,
 					["columns"] = 10,
 					["MAGE"] = true,
-					["frameStrata"] = "LOW",
+					["alpha"] = 1,
 					["buttonWidth"] = 36,
 					["buttonKeys"] = {
 						"AutoBarButtonShields", -- [1]
@@ -31,7 +31,7 @@ AutoBarDB = {
 					["popupDirection"] = "1",
 					["padding"] = 0,
 					["dockShiftX"] = 0,
-					["alpha"] = 1,
+					["frameStrata"] = "LOW",
 				},
 			},
 			["buttonList"] = {
@@ -250,12 +250,12 @@ AutoBarDB = {
 				},
 				["AutoBarButtonPickLock"] = {
 					["enabled"] = true,
-					["buttonClass"] = "AutoBarButtonPickLock",
-					["square_popups"] = true,
-					["barKey"] = "AutoBarClassBarRogue",
-					["arrangeOnUse"] = true,
 					["targeted"] = "Lockpicking",
 					["buttonKey"] = "AutoBarButtonPickLock",
+					["square_popups"] = true,
+					["arrangeOnUse"] = true,
+					["buttonClass"] = "AutoBarButtonPickLock",
+					["barKey"] = "AutoBarClassBarRogue",
 					["defaultButtonIndex"] = "*",
 				},
 				["AutoBarButtonInterrupt"] = {
@@ -314,7 +314,7 @@ AutoBarDB = {
 					["enabled"] = true,
 					["columns"] = 10,
 					["DEATHKNIGHT"] = true,
-					["alpha"] = 1,
+					["frameStrata"] = "LOW",
 					["buttonWidth"] = 36,
 					["buttonKeys"] = {
 						"AutoBarButtonShields", -- [1]
@@ -331,7 +331,7 @@ AutoBarDB = {
 					["popupDirection"] = "1",
 					["padding"] = 0,
 					["dockShiftX"] = 0,
-					["frameStrata"] = "LOW",
+					["alpha"] = 1,
 				},
 			},
 			["buttonList"] = {
@@ -410,8 +410,8 @@ AutoBarDB = {
 					["hide"] = true,
 					["enabled"] = true,
 					["columns"] = 10,
-					["frameStrata"] = "LOW",
 					["alpha"] = 1,
+					["frameStrata"] = "LOW",
 					["buttonWidth"] = 36,
 					["buttonKeys"] = {
 						"AutoBarButtonShields", -- [1]
@@ -494,9 +494,9 @@ AutoBarDB = {
 					["hide"] = true,
 					["enabled"] = true,
 					["columns"] = 10,
-					["PRIEST"] = true,
-					["alpha"] = 1,
 					["buttonWidth"] = 36,
+					["frameStrata"] = "LOW",
+					["PRIEST"] = true,
 					["buttonKeys"] = {
 						"AutoBarButtonShields", -- [1]
 						"AutoBarButtonER", -- [2]
@@ -510,7 +510,7 @@ AutoBarDB = {
 					["popupDirection"] = "1",
 					["padding"] = 0,
 					["dockShiftX"] = 0,
-					["frameStrata"] = "LOW",
+					["alpha"] = 1,
 				},
 			},
 			["buttonList"] = {
@@ -601,11 +601,11 @@ AutoBarDB = {
 				["columns"] = 16,
 				["MAGE"] = true,
 				["SHAMAN"] = true,
-				["buttonWidth"] = 36,
-				["alpha"] = 1,
 				["PRIEST"] = true,
-				["posY"] = 122.9189035025484,
 				["frameStrata"] = "LOW",
+				["buttonWidth"] = 36,
+				["posY"] = 122.9189035025484,
+				["alpha"] = 1,
 				["WARLOCK"] = true,
 				["DEMONHUNTER"] = true,
 				["PALADIN"] = true,
@@ -645,11 +645,11 @@ AutoBarDB = {
 				["columns"] = 9,
 				["MAGE"] = true,
 				["posY"] = 360,
-				["frameStrata"] = "LOW",
 				["alpha"] = 1,
-				["PRIEST"] = true,
-				["HUNTER"] = true,
+				["frameStrata"] = "LOW",
 				["buttonWidth"] = 36,
+				["HUNTER"] = true,
+				["PRIEST"] = true,
 				["WARLOCK"] = true,
 				["DEMONHUNTER"] = true,
 				["SHAMAN"] = true,
@@ -968,19 +968,19 @@ AutoBarDB = {
 				["AutoBarButtonBuff"] = {
 					["arrangeOnUse"] = 37093,
 				},
-				["AutoBarButtonBuffWeapon1"] = {
-					["arrangeOnUse"] = 43232,
+				["AutoBarButtonElixirGuardian"] = {
+					["arrangeOnUse"] = 40097,
 				},
-				["AutoBarButtonQuest"] = {
-					["arrangeOnUse"] = 41989,
+				["AutoBarButtonBuffWeapon1"] = {
+					["arrangeOnUse"] = 43230,
 				},
 				["AutoBarButtonMount"] = {
 				},
 				["AutoBarButtonCrafting"] = {
 					["arrangeOnUse"] = "珠宝加工",
 				},
-				["AutoBarButtonElixirGuardian"] = {
-					["arrangeOnUse"] = 40097,
+				["AutoBarButtonQuest"] = {
+					["arrangeOnUse"] = 41989,
 				},
 			},
 			["barList"] = {

@@ -6,13 +6,6 @@ X: 0
 Y: 0
 W: 365
 H: 240
-Frame: InterfaceOptionsFrame
-FrameLevel: 1
-Anchor: CENTER
-X: -169
-Y: 4
-W: 858
-H: 660
 Frame: aux_frame
 FrameLevel: 1
 Anchor: LEFT

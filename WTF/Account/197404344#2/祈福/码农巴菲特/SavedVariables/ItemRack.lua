@@ -42,7 +42,8 @@ ItemRackUser = {
 		},
 	},
 	["EnableQueues"] = "ON",
-	["EnablePerSetQueues"] = "OFF",
+	["Queues"] = {
+	},
 	["Buttons"] = {
 	},
 	["ItemsUsed"] = {
@@ -53,11 +54,10 @@ ItemRackUser = {
 		["Set"] = {
 		},
 	},
-	["Alpha"] = 1,
+	["EnableEvents"] = "ON",
 	["Hidden"] = {
 	},
-	["EnableEvents"] = "ON",
+	["Alpha"] = 1,
 	["MenuScale"] = 0.85,
-	["Queues"] = {
-	},
+	["EnablePerSetQueues"] = "OFF",
 }

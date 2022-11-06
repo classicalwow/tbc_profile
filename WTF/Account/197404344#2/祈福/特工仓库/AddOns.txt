@@ -164,3 +164,4 @@ ElvUI_DTBars2: disabled
 ElvUI_QuestXP: disabled
 ElvUI_CustomTags: disabled
 kExtraBossFrames: disabled
+ElvUI_UnitFramePlugin: disabled

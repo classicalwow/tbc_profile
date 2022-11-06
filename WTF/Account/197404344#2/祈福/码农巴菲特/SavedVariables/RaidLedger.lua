@@ -244,6 +244,30 @@ RaidLedgerDatabase = {
 						["count"] = 1,
 					},
 				}, -- [20]
+				{
+					["beneficiary"] = "残阳小猎",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39579::::::::80:::::::::|h[英雄的地穴追猎者外套]|h|r",
+						["count"] = 1,
+					},
+				}, -- [21]
+				{
+					["beneficiary"] = "可爱皮皮兔",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:41653::::::::80:::::::::|h[憎恨角斗士的皮甲护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [22]
 			},
 		}, -- [1]
 	},
@@ -256,11 +280,11 @@ RaidLedgerDatabase = {
 		["minimapicons"] = {
 			["hide"] = false,
 		},
-		["debittemplates"] = {
-		},
+		["minimapicon"] = true,
 		["raidbutton"] = true,
 		["filteritems"] = "# 每行一条, 可以是物品名称或物品ID\n# 以 # 开头的行自动被忽略\n",
-		["minimapicon"] = true,
+		["debittemplates"] = {
+		},
 		["filterzero"] = false,
 	},
 	["current"] = 1,

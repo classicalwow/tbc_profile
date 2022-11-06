@@ -10,6 +10,12 @@ VER 3 0000000000000001 "target" "134328"
 END
 VER 3 000000000000000B "TSMMacro" "INV_Misc_Flower_01"
 END
+VER 3 000000000000000D "刀扇" "132324"
+#showtooltips 刀扇
+/equipslot 17 恶魔之击
+/startattack
+/cast 刀扇
+END
 VER 3 0000000000000002 "大脚世界频道" "132874"
 /join 大脚世界频道
 END
@@ -26,6 +32,7 @@ VER 3 000000000000000C "开团" "132269"
 END
 VER 3 0000000000000003 "自动攻击" "135325"
 /startattack
+/equipslot 17 邪恶复仇
 END
 VER 3 0000000000000004 "谢谢" "135805"
 /thanks
