@@ -76,6 +76,7 @@ BisTooltipDB = {
 			["version"] = 6.1,
 		},
 		["码农巴菲特 - 祈福"] = {
+			["class_index"] = 6,
 			["version"] = 6.1,
 			["phase_index"] = 2,
 		},

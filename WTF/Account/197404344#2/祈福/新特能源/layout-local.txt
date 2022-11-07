@@ -30,8 +30,8 @@ H: 240
 Frame: AtlasLoot_GUI-Frame
 FrameLevel: 1
 Anchor: CENTER
-X: 15
-Y: 97
+X: 130
+Y: 94
 W: 920
 H: 600
 Frame: aux_frame

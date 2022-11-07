@@ -1,8 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0706,
-	["LastPlayerFullName"] = "新特能源-祈福",
-	["AutoSelectScales"] = false,
+	["LastVersion"] = 2.0707,
 	["ItemLevels"] = {
 		{
 			["ID"] = 40562,
@@ -95,6 +93,8 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:40245::::::::80:::::::::|h[消逝之光]|h|r",
 		}, -- [18]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "新特能源-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

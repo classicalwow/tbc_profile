@@ -6,17 +6,13 @@ LootMonitorDB = {
 			["Class"] = "PRIEST",
 			["InstanceID"] = 533,
 			["FirstPlayer"] = "芬达上头",
-			["FirstClass"] = "SHAMAN",
-			["InstanceName"] = "纳克萨玛斯",
-			["SavedID"] = 1847122575,
-			["Player"] = "新特能源",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4528-533-30376-16028-000063C4FB",
 					["Time"] = "22:05:17",
-					["Class"] = "ROGUE",
-					["Date"] = "2022-11-03",
 					["Looter"] = "凌灵冷",
+					["Date"] = "2022-11-03",
+					["Class"] = "ROGUE",
 					["Name"] = "帕奇维克",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40075::::::::80:::::::::|h[冷酷]|h|r", -- [1]
@@ -25,9 +21,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4528-533-30376-15931-000063C4FB",
 					["Time"] = "22:11:44",
-					["Class"] = "WARRIOR",
-					["Date"] = "2022-11-03",
 					["Looter"] = "茹花",
+					["Date"] = "2022-11-03",
+					["Class"] = "WARRIOR",
 					["Name"] = "格罗布鲁斯",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40275::::::::80:::::::::|h[堕落锁链腰带]|h|r", -- [1]
@@ -39,9 +35,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4528-533-30376-15932-000063C4FB",
 					["Time"] = "22:16:33",
-					["Class"] = "WARLOCK",
-					["Date"] = "2022-11-03",
 					["Looter"] = "小小只恶魔",
+					["Date"] = "2022-11-03",
+					["Class"] = "WARLOCK",
 					["Name"] = "格拉斯",
 					["Loots"] = {
 						"|cffa335ee|Hitem:39722::::::::80:::::::::|h[虫群护腕]|h|r", -- [1]
@@ -52,9 +48,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4528-533-30376-15928-000063C4FB",
 					["Time"] = "22:25:12",
-					["Class"] = "MAGE",
-					["Date"] = "2022-11-03",
 					["Looter"] = "约的妹子滴滴",
+					["Date"] = "2022-11-03",
+					["Class"] = "MAGE",
 					["Name"] = "塔迪乌斯",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40636::::::::80:::::::::|h[失落胜利者的腿甲]|h|r", -- [1]
@@ -66,9 +62,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4528-533-30376-15956-000063C4FB",
 					["Time"] = "22:31:46",
-					["Class"] = "ROGUE",
-					["Date"] = "2022-11-03",
 					["Looter"] = "凌灵冷",
+					["Date"] = "2022-11-03",
+					["Class"] = "ROGUE",
 					["Name"] = "阿努布雷坎",
 					["Loots"] = {
 						"|cffa335ee|Hitem:39706::::::::80:::::::::|h[迅疾报复之靴]|h|r", -- [1]
@@ -80,9 +76,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4528-533-30376-15953-000063C4FB",
 					["Time"] = "22:37:19",
-					["Class"] = "WARLOCK",
-					["Date"] = "2022-11-03",
 					["Looter"] = "小小只恶魔",
+					["Date"] = "2022-11-03",
+					["Class"] = "WARLOCK",
 					["Name"] = "黑女巫法琳娜",
 					["Loots"] = {
 						"|cffa335ee|Hitem:39733::::::::80:::::::::|h[失落尊严手套]|h|r", -- [1]
@@ -94,9 +90,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4528-533-30376-15952-000063C4FB",
 					["Time"] = "22:43:11",
-					["Class"] = "ROGUE",
-					["Date"] = "2022-11-03",
 					["Looter"] = "凌灵冷",
+					["Date"] = "2022-11-03",
+					["Class"] = "ROGUE",
 					["Name"] = "迈克斯纳",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40256::::::::80:::::::::|h[死亡之钟]|h|r", -- [1]
@@ -107,9 +103,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4528-533-30376-15936-000063C4FB",
 					["Time"] = "22:56:29",
-					["Class"] = "ROGUE",
-					["Date"] = "2022-11-03",
 					["Looter"] = "趁天黑好行善",
+					["Date"] = "2022-11-03",
+					["Class"] = "ROGUE",
 					["Name"] = "肮脏的希尔盖",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40252::::::::80:::::::::|h[蔽日披风]|h|r", -- [1]
@@ -121,9 +117,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4528-533-30376-16011-000063C4FB",
 					["Time"] = "23:02:26",
-					["Class"] = "WARLOCK",
-					["Date"] = "2022-11-03",
 					["Looter"] = "雨中沉默",
+					["Date"] = "2022-11-03",
+					["Class"] = "WARLOCK",
 					["Name"] = "洛欧塞布",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40244::::::::80:::::::::|h[奢梦]|h|r", -- [1]
@@ -135,9 +131,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4528-533-30376-16061-000063C4FB",
 					["Time"] = "23:12:06",
-					["Class"] = "ROGUE",
-					["Date"] = "2022-11-03",
 					["Looter"] = "凌灵冷",
+					["Date"] = "2022-11-03",
+					["Class"] = "ROGUE",
 					["Name"] = "教官拉苏维奥斯",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40317::::::::80:::::::::|h[拉苏维奥斯的腰带]|h|r", -- [1]
@@ -149,9 +145,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4528-533-30376-16060-000063C4FB",
 					["Time"] = "23:21:15",
-					["Class"] = "DRUID",
-					["Date"] = "2022-11-03",
 					["Looter"] = "丶跌笛丶",
+					["Date"] = "2022-11-03",
+					["Class"] = "DRUID",
 					["Name"] = "收割者戈提克",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40328::::::::80:::::::::|h[严密防护头盔]|h|r", -- [1]
@@ -163,9 +159,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4528-533-30376-15989-000063DF3F",
 					["Time"] = "23:37:09",
-					["Class"] = "DEATHKNIGHT",
-					["Date"] = "2022-11-03",
 					["Looter"] = "坟墓舞者",
+					["Date"] = "2022-11-03",
+					["Class"] = "DEATHKNIGHT",
 					["Name"] = "萨菲隆",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40376::::::::80:::::::::|h[战败巨龙护腿]|h|r", -- [1]
@@ -178,9 +174,9 @@ LootMonitorDB = {
 				{
 					["GUID"] = "Creature-0-4528-533-30376-15990-000063C4FB",
 					["Time"] = "23:49:39",
-					["Class"] = "MAGE",
-					["Date"] = "2022-11-03",
 					["Looter"] = "约的妹子滴滴",
+					["Date"] = "2022-11-03",
+					["Class"] = "MAGE",
 					["Name"] = "克尔苏加德",
 					["Loots"] = {
 						"|cffa335ee|Hitem:40385::::::::80:::::::::|h[死亡的使者]|h|r", -- [1]
@@ -191,6 +187,10 @@ LootMonitorDB = {
 					},
 				}, -- [13]
 			},
+			["InstanceName"] = "纳克萨玛斯",
+			["FirstClass"] = "SHAMAN",
+			["Player"] = "新特能源",
+			["SavedID"] = 1847122575,
 		}, -- [1]
 	},
 	["Config"] = {

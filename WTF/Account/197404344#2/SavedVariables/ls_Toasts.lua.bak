@@ -11,7 +11,7 @@ LS_TOASTS_GLOBAL_CONFIG = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["version"] = 3040001,
+			["version"] = 3040003,
 			["types"] = {
 				["loot_items"] = {
 					["enabled"] = true,

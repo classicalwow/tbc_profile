@@ -1,6 +1,8 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0706,
+	["LastVersion"] = 2.0707,
+	["LastPlayerFullName"] = "码农巴菲特-祈福",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 41387,
@@ -44,9 +46,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:40734::::::::80:::::::::|h[达拉然城墙护腕]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 37862,
-			["Level"] = 200,
-			["Link"] = "|cff0070dd|Hitem:37862::::::::80:::::::::|h[水之亡魂的护手]|h|r",
+			["ID"] = 40563,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:40563::::::::80:::::::::|h[勇猛的天灾苦痛手套]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 40718,
@@ -55,10 +57,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:40718::::::::80:::::::::|h[坚固堡垒徽记]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 42643,
-			["Level"] = 200,
+			["ID"] = 40107,
+			["Level"] = 213,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:42643::40008::::::80:::::::::|h[泰坦神铁地卫指环]|h|r",
+			["Link"] = "|cffa335ee|Hitem:40107::::::::80:::::::::|h[沙砾指环]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 40257,
@@ -89,8 +91,6 @@ PawnOptions = {
 			["Link"] = "|cffffffff|Hitem:39371::::::::57:::::::::|h[凯雷塞斯的说服者]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "码农巴菲特-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

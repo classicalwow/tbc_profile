@@ -24,6 +24,7 @@
 		hidden="true"
 		parent="UIParent"
 		inherits="CPPopupFrameTemplate"
+		frameStrata="DIALOG"
 		mixin="ItemLocationMixin, ItemMixin">
 		<Size x="440" y="130"/>
 		<Anchors>
@@ -52,6 +53,7 @@
 		hidden="true"
 		parent="UIParent"
 		inherits="CPPopupFrameTemplate"
+		frameStrata="DIALOG"
 		mixin="SpellMixin">
 		<Size x="440" y="130"/>
 		<Anchors>
@@ -65,6 +67,6 @@
 
 	<Script file="Tooltip.lua"/>
 	<Script file="Button.lua"/>
-	<Script file="Item.lua"/>
-	<Script file="Spell.lua"/>
+	<Script file="ItemMenu.lua"/>
+	<Script file="SpellMenu.lua"/>
 </Ui>

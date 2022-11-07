@@ -4,11 +4,17 @@
 local _, db, L = ...; L = db.Locale;
 local SpellMenu = db:Register('SpellMenu', CPAPI.EventHandler(ConsolePortSpellMenu, {
 	'PLAYER_REGEN_DISABLED';
+	'UPDATE_BINDINGS';
 }))
 ---------------------------------------------------------------
 local SPELL_MENU_SIZE = 440;
 local SPELL_MAP_BAR_SIZE = 600;
-local SPELL_MAP_BAR_IDS = {1, 6, 5, 3, 4, 13, 14, 15, 7, 8, 9, 10, 2};
+local SPELL_MAP_BAR_IDS = {
+	setmetatable({1, 6, 5, 3, 4}, {__call = function() return true end}),
+	setmetatable({13, 14, 15},    {__call = function() return CPAPI.IsRetailVersion end}),
+	setmetatable({7, 8, 9, 10},   {__call = function() return GetNumShapeshiftForms() > 0 or db('bindingShowExtraBars') end}),
+	setmetatable({2},             {__call = function() return db('bindingShowExtraBars') or db.Gamepad:GetBindingKey('ACTIONPAGE2') end}),
+}
 local SPELL_MAP_BAR_NAMES = {
 	[2] = L'Page 2';
 	[7] = L'Stance 1';
@@ -82,10 +88,10 @@ function SpellMenu:Pickup()
 end
 
 function SpellMenu:AddUtilityRingCommand()
-	local link = self:GetLink()
+	local link = self:GetSpellLink()
 	local action = {
 		type  = 'spell';
-		spell = self:GetSpellID();
+		spell = self:GetSpellName();
 		link  = link;
 	};
 
@@ -118,35 +124,57 @@ function SpellMenu:MapActionBar()
 	self:Show()
 
 	self.ActionButtons:ReleaseAll()
-	local actionButtonsWithSpellID, firstWidget, targetWidget = tInvert(C_ActionBar.FindSpellActionButtons(self:GetSpellID()) or {})
-	for barPos, barID in ipairs(SPELL_MAP_BAR_IDS) do
-		local text = self.ActionBarText:Acquire()
-		text:SetText(SPELL_MAP_BAR_NAMES[barID] or ('%s %d'):format(L'Bar', barPos))
-		text:SetPoint('TOPLEFT', 16, -((barPos + 1) * 40) - 12)
-		text:Show()
-		for i=1, NUM_ACTIONBAR_BUTTONS do
-			local actionID = (barID - 1) * NUM_ACTIONBAR_BUTTONS + i;
-			local widget, newObj = self.ActionButtons:Acquire()
-			if newObj then
-				widget:RegisterForClicks('LeftButtonUp', 'RightButtonUp')
-				widget:SetDrawOutline(true)
-				db.table.mixin(widget, db.PopupMenuMapActionButton)
+	local drawnBars, actionButtonsWithSpellID, firstWidget, targetWidget = 0, tInvert(C_ActionBar.FindSpellActionButtons(self:GetSpellID()) or {})
+	for _, data in ipairs(SPELL_MAP_BAR_IDS) do
+		local shouldDrawBars = data();
+		if shouldDrawBars then
+			for barPos, barID in ipairs(data) do
+				drawnBars = drawnBars + 1;
+
+				local text = self.ActionBarText:Acquire()
+				text:SetText(SPELL_MAP_BAR_NAMES[barID] or ('%s %d'):format(L'Bar', drawnBars))
+				text:SetPoint('TOPLEFT', 16, -((drawnBars + 1) * 40) - 12)
+				text:Show()
+				for i=1, NUM_ACTIONBAR_BUTTONS do
+					local actionID = (barID - 1) * NUM_ACTIONBAR_BUTTONS + i;
+					local widget, newObj = self.ActionButtons:Acquire()
+					if newObj then
+						widget:RegisterForClicks('LeftButtonUp', 'RightButtonUp')
+						widget:SetDrawOutline(true)
+						db.table.mixin(widget, db.PopupMenuMapActionButton)
+					end
+					if not firstWidget and not GetActionInfo(actionID) then
+						firstWidget = widget;
+					end
+					if not targetWidget and actionButtonsWithSpellID[actionID] then
+						targetWidget = widget;
+					end
+					widget:SetID(actionID)
+					widget:SetPoint('TOPLEFT', i * 40 + 40, -((drawnBars + 1) * 40))
+					widget:Update()
+					widget:Show()
+				end
 			end
-			if not firstWidget and not GetActionInfo(actionID) then
-				firstWidget = widget;
-			end
-			if not targetWidget and actionButtonsWithSpellID[actionID] then
-				targetWidget = widget;
-			end
-			widget:SetID(actionID)
-			widget:SetPoint('TOPLEFT', i * 40 + 40, -((barPos + 1) * 40))
-			widget:Update()
-			widget:Show()
 		end
 	end
-	self:SetHeight(#SPELL_MAP_BAR_IDS * 40 + 100)
+	self:SetHeight(drawnBars * 40 + 100)
 	if targetWidget or firstWidget then
 		ConsolePortCursor:SetCurrentNode(targetWidget or firstWidget)
+	end
+
+	local handle = db.UIHandle;
+	local leftClick, rightClick, specialClick =
+		db('UICursorLeftClick'), db('UICursorRightClick'), db('UICursorSpecial')
+
+	handle:SetHintFocus(self)
+	if leftClick then
+		handle:AddHint(leftClick, L'Place in slot')
+	end
+	if rightClick then
+		handle:AddHint(rightClick, L'Clear slot or binding')
+	end
+	if specialClick then
+		handle:AddHint(specialClick, L'Set binding')
 	end
 end
 
@@ -194,10 +222,79 @@ function SpellMenu:ClearTooltip()
 end
 
 ---------------------------------------------------------------
+-- Catcher
+---------------------------------------------------------------
+SpellMenu.CatchBinding = CreateFrame('Button', nil, SpellMenu,
+	(CPAPI.IsRetailVersion and 'SharedButtonLargeTemplate' or 'UIPanelButtonTemplate') .. ',CPPopupBindingCatchButtonTemplate')
+
+local NO_BINDING_TEXT, SET_BINDING_TEXT = [[ 
+|cFFFFFF00Set Binding|r
+
+%s in %s, does not have a binding assigned to it.
+
+Press a button combination to select a new binding for this slot.
+
+]], [[ 
+|cFFFFFF00Set Binding|r
+
+Press a button combination to select a new binding for %s.
+
+]]
+
+function SpellMenu.CatchBinding:OnBindingCaught(button)
+	local bindingID = self.bindingID;
+	if not bindingID then return end;
+
+	if CPAPI.IsButtonValidForBinding(button) then
+		local keychord = CPAPI.CreateKeyChord(button)
+		if not db('bindingOverlapEnable') then
+			db.table.map(SetBinding, db.Gamepad:GetBindingKey(bindingID))
+		end
+		if SetBinding(keychord, bindingID) then
+			SaveBindings(GetCurrentBindingSet())
+			return true;
+		end
+	end
+end
+
+function SpellMenu:CatchBindingForSlot(slot, bindingID, text)
+	self.CatchBinding.bindingID = bindingID;
+	self.CatchBinding:TryCatchBinding({
+		text = text;
+		OnShow = function()
+			db.Cursor:SetCurrentNode(slot)
+		end;
+	})
+end
+
+function SpellMenu:ReportNoBinding(slot, bindingID)
+	self:CatchBindingForSlot(slot, bindingID, NO_BINDING_TEXT:format(self:GetSpellLink(), _G['BINDING_NAME_'..bindingID] or bindingID))
+end
+
+function SpellMenu:ReportSetBinding(slot, bindingID, actionID)
+	self:CatchBindingForSlot(slot, bindingID, SET_BINDING_TEXT:format(_G['BINDING_NAME_'..bindingID] or bindingID))
+end
+
+function SpellMenu:ReportClearBinding(bindingID)
+	if bindingID then
+		db.table.map(SetBinding, db.Gamepad:GetBindingKey(bindingID))
+		SaveBindings(GetCurrentBindingSet())
+	end
+end
+
+---------------------------------------------------------------
 -- API
 ---------------------------------------------------------------
-function SpellMenu:GetLink()
-	return GetSpellLink(self:GetSpellID())
+SpellMenu.GetSpellLink = SpellMenu.GetSpellLink or function(self)
+	return (GetSpellLink(self:GetSpellID()));
+end
+
+SpellMenu.GetSpellName = SpellMenu.GetSpellName or function(self)
+	return (GetSpellName(self:GetSpellID()));
+end
+
+SpellMenu.GetSpellTexture = SpellMenu.GetSpellTexture or function(self)
+	return (GetSpellTexture(self:GetSpellID()));
 end
 
 ---------------------------------------------------------------
@@ -206,10 +303,22 @@ end
 function SpellMenu:OnHide()
 	self:ReturnCursor()
 	self.ActionButtons:ReleaseAll()
+
+	local handle = db.UIHandle;
+	if handle:IsHintFocus(self) then
+		handle:HideHintBar()
+	end
+	handle:ClearHintsForFrame(self)
 end
 
 function SpellMenu:PLAYER_REGEN_DISABLED()
 	self:Hide()
+end
+
+function SpellMenu:UPDATE_BINDINGS()
+	for widget in self.ActionButtons:EnumerateActive() do
+		widget:UpdateBinding()
+	end
 end
 
 ---------------------------------------------------------------

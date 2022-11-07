@@ -3832,6 +3832,930 @@ RaidLedgerDatabase = {
 						["count"] = 1,
 					},
 				}, -- [319]
+				{
+					["beneficiary"] = "你",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:12590::::::::80:::::::::|h[恶魔之击]|h|r",
+						["count"] = 1,
+					},
+				}, -- [320]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40075::::::::80:::::::::|h[冷酷]|h|r",
+						["count"] = 1,
+					},
+				}, -- [321]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39721::::::::80:::::::::|h[会客腰带]|h|r",
+						["count"] = 1,
+					},
+				}, -- [322]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39703::::::::80:::::::::|h[废除之握]|h|r",
+						["count"] = 1,
+					},
+				}, -- [323]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39716::::::::80:::::::::|h[消化之盾]|h|r",
+						["count"] = 1,
+					},
+				}, -- [324]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39727::::::::80:::::::::|h[脱臼裹手]|h|r",
+						["count"] = 1,
+					},
+				}, -- [325]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39729::::::::80:::::::::|h[暴君护腕]|h|r",
+						["count"] = 1,
+					},
+				}, -- [326]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39757::::::::80:::::::::|h[膜拜神像]|h|r",
+						["count"] = 1,
+					},
+				}, -- [327]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40069::::::::80:::::::::|h[传承]|h|r",
+						["count"] = 1,
+					},
+				}, -- [328]
+				{
+					["beneficiary"] = "乔丨小战",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cff0070dd|Hitem:37824::::::::80:::::::::|h[维奈斯的符文龙杖]|h|r",
+						["count"] = 1,
+					},
+				}, -- [329]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39761::::::::80:::::::::|h[毒蛛护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [330]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39765::::::::80:::::::::|h[罪孽护腕]|h|r",
+						["count"] = 1,
+					},
+				}, -- [331]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40061::::::::80:::::::::|h[颤抖外套]|h|r",
+						["count"] = 1,
+					},
+				}, -- [332]
+				{
+					["beneficiary"] = "灰烬骑",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34057::::::::80:::::::::|h[深渊水晶]|h|r",
+						["count"] = 1,
+					},
+				}, -- [333]
+				{
+					["beneficiary"] = "灰烬骑",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cff0070dd|Hitem:34052::::::::80:::::::::|h[梦境碎片]|h|r",
+						["count"] = 1,
+					},
+				}, -- [334]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40260::::::::80:::::::::|h[被折磨者的腰带]|h|r",
+						["count"] = 1,
+					},
+				}, -- [335]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40266::::::::80:::::::::|h[英雄的屈服]|h|r",
+						["count"] = 1,
+					},
+				}, -- [336]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40271::::::::80:::::::::|h[孤独腰带]|h|r",
+						["count"] = 1,
+					},
+				}, -- [337]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40075::::::::80:::::::::|h[冷酷]|h|r",
+						["count"] = 1,
+					},
+				}, -- [338]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40277::::::::80:::::::::|h[纵容外套]|h|r",
+						["count"] = 1,
+					},
+				}, -- [339]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40251::::::::80:::::::::|h[光辉斗篷]|h|r",
+						["count"] = 1,
+					},
+				}, -- [340]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40281::::::::80:::::::::|h[暮色迷雾]|h|r",
+						["count"] = 1,
+					},
+				}, -- [341]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40351::::::::80:::::::::|h[疲惫先知衬肩]|h|r",
+						["count"] = 1,
+					},
+				}, -- [342]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40267::::::::80:::::::::|h[妖术图腾]|h|r",
+						["count"] = 1,
+					},
+				}, -- [343]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40277::::::::80:::::::::|h[纵容外套]|h|r",
+						["count"] = 1,
+					},
+				}, -- [344]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40634::::::::80:::::::::|h[失落征服者的腿甲]|h|r",
+						["count"] = 1,
+					},
+				}, -- [345]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40634::::::::80:::::::::|h[失落征服者的腿甲]|h|r",
+						["count"] = 1,
+					},
+				}, -- [346]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40297::::::::80:::::::::|h[耐久马靴]|h|r",
+						["count"] = 1,
+					},
+				}, -- [347]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40302::::::::80:::::::::|h[善行护手]|h|r",
+						["count"] = 1,
+					},
+				}, -- [348]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40409::::::::80:::::::::|h[越狱之靴]|h|r",
+						["count"] = 1,
+					},
+				}, -- [349]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40305::::::::80:::::::::|h[自负护肩]|h|r",
+						["count"] = 1,
+					},
+				}, -- [350]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40320::::::::80:::::::::|h[虔诚精钢之靴]|h|r",
+						["count"] = 1,
+					},
+				}, -- [351]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40074::::::::80:::::::::|h[强力指环]|h|r",
+						["count"] = 1,
+					},
+				}, -- [352]
+				{
+					["beneficiary"] = "豆子大的豆子",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40327::::::::80:::::::::|h[复原束带]|h|r",
+						["count"] = 1,
+					},
+				}, -- [353]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40329::::::::80:::::::::|h[逃离兜帽]|h|r",
+						["count"] = 1,
+					},
+				}, -- [354]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40335::::::::80:::::::::|h[恐惧之触]|h|r",
+						["count"] = 1,
+					},
+				}, -- [355]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40342::::::::80:::::::::|h[觉醒神像]|h|r",
+						["count"] = 1,
+					},
+				}, -- [356]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40257::::::::80:::::::::|h[防御者的准则]|h|r",
+						["count"] = 1,
+					},
+				}, -- [357]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40347::::::::80:::::::::|h[瑟里耶克的护手]|h|r",
+						["count"] = 1,
+					},
+				}, -- [358]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40625::::::::80:::::::::|h[失落征服者的胸甲]|h|r",
+						["count"] = 1,
+					},
+				}, -- [359]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40350::::::::80:::::::::|h[失落记忆骨灰]|h|r",
+						["count"] = 1,
+					},
+				}, -- [360]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40627::::::::80:::::::::|h[失落胜利者的胸甲]|h|r",
+						["count"] = 1,
+					},
+				}, -- [361]
+				{
+					["beneficiary"] = "西西丽",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34057::::::::80:::::::::|h[深渊水晶]|h|r",
+						["count"] = 7,
+					},
+				}, -- [362]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40184::::::::80:::::::::|h[残缺之靴]|h|r",
+						["count"] = 1,
+					},
+				}, -- [363]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40191::::::::80:::::::::|h[光辉圣契]|h|r",
+						["count"] = 1,
+					},
+				}, -- [364]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40200::::::::80:::::::::|h[圣歌腰带]|h|r",
+						["count"] = 1,
+					},
+				}, -- [365]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40069::::::::80:::::::::|h[传承]|h|r",
+						["count"] = 1,
+					},
+				}, -- [366]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40201::::::::80:::::::::|h[巨型阔步者护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [367]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40208::::::::80:::::::::|h[蛛魔之刺]|h|r",
+						["count"] = 1,
+					},
+				}, -- [368]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40238::::::::80:::::::::|h[舞熊手套]|h|r",
+						["count"] = 1,
+					},
+				}, -- [369]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40256::::::::80:::::::::|h[死亡之钟]|h|r",
+						["count"] = 1,
+					},
+				}, -- [370]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40243::::::::80:::::::::|h[邪恶谎言裹足]|h|r",
+						["count"] = 1,
+					},
+				}, -- [371]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40246::::::::80:::::::::|h[冲动之靴]|h|r",
+						["count"] = 1,
+					},
+				}, -- [372]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40638::::::::80:::::::::|h[失落保卫者的肩甲]|h|r",
+						["count"] = 1,
+					},
+				}, -- [373]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40637::::::::80:::::::::|h[失落征服者的肩甲]|h|r",
+						["count"] = 1,
+					},
+				}, -- [374]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:44577::::::::80:::::::::|h[英雄聚焦之虹的钥匙]|h|r",
+						["count"] = 1,
+					},
+				}, -- [375]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40365::::::::80:::::::::|h[冰冷痛楚胸铠]|h|r",
+						["count"] = 1,
+					},
+				}, -- [376]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40382::::::::80:::::::::|h[亡者之魂]|h|r",
+						["count"] = 1,
+					},
+				}, -- [377]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40375::::::::80:::::::::|h[衰老之戒]|h|r",
+						["count"] = 1,
+					},
+				}, -- [378]
+				{
+					["beneficiary"] = "近身百人斩",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40371::::::::80:::::::::|h[盗匪的徽记]|h|r",
+						["count"] = 1,
+					},
+				}, -- [379]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40384::::::::80:::::::::|h[人性的背叛者]|h|r",
+						["count"] = 1,
+					},
+				}, -- [380]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40388::::::::80:::::::::|h[旅途的终结]|h|r",
+						["count"] = 1,
+					},
+				}, -- [381]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40403::::::::80:::::::::|h[致命仇敌斗篷]|h|r",
+						["count"] = 1,
+					},
+				}, -- [382]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40633::::::::80:::::::::|h[失落胜利者的头冠]|h|r",
+						["count"] = 1,
+					},
+				}, -- [383]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40633::::::::80:::::::::|h[失落胜利者的头冠]|h|r",
+						["count"] = 1,
+					},
+				}, -- [384]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:44011::::::::80:::::::::|h[荣耀者的护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [385]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40439::::::::80:::::::::|h[永恒戒卫护肩]|h|r",
+						["count"] = 1,
+					},
+				}, -- [386]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:43346::::::::80:::::::::|h[一大袋战利品]|h|r",
+						["count"] = 1,
+					},
+				}, -- [387]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:44000::::::::80:::::::::|h[巨龙风暴胸铠]|h|r",
+						["count"] = 1,
+					},
+				}, -- [388]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:43345::::::::80:::::::::|h[龙皮包]|h|r",
+						["count"] = 1,
+					},
+				}, -- [389]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40630::::::::80:::::::::|h[失落胜利者的护手]|h|r",
+						["count"] = 1,
+					},
+				}, -- [390]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40629::::::::80:::::::::|h[失落保卫者的护手]|h|r",
+						["count"] = 1,
+					},
+				}, -- [391]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40451::::::::80:::::::::|h[狙击手的透明头盔]|h|r",
+						["count"] = 1,
+					},
+				}, -- [392]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40562::::::::80:::::::::|h[理性兜帽]|h|r",
+						["count"] = 1,
+					},
+				}, -- [393]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40543::::::::80:::::::::|h[蓝色龙神头盔]|h|r",
+						["count"] = 1,
+					},
+				}, -- [394]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40558::::::::80:::::::::|h[奥法践踏者]|h|r",
+						["count"] = 1,
+					},
+				}, -- [395]
+				{
+					["beneficiary"] = "一一小机灵",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40594::::::::80:::::::::|h[意志分裂护肩]|h|r",
+						["count"] = 1,
+					},
+				}, -- [396]
 			},
 		}, -- [1]
 	},
