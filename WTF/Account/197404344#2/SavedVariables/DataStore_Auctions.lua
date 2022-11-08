@@ -11,8 +11,8 @@ DataStore_AuctionsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.祈福.码农巴菲特"] = {
-				["lastUpdate"] = 1667747598,
-				["lastVisitDate"] = "2022/11/06 23:13",
+				["lastUpdate"] = 1667829100,
+				["lastVisitDate"] = "2022/11/07 21:51",
 			},
 			["Default.祈福.新特能源"] = {
 				["lastUpdate"] = 1662041655,

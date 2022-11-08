@@ -6,13 +6,6 @@ X: 363
 Y: -110
 W: 40
 H: 40
-Frame: Recount_MainWindow
-FrameLevel: 40
-Anchor: BOTTOMLEFT
-X: 223
-Y: 233
-W: 203
-H: 195
 Frame: ColorPickerFrame
 FrameLevel: 1
 Anchor: CENTER

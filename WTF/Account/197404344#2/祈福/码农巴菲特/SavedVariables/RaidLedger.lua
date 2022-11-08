@@ -1144,6 +1144,438 @@ RaidLedgerDatabase = {
 						["count"] = 1,
 					},
 				}, -- [95]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39146::::::::80:::::::::|h[腐朽项圈]|h|r",
+						["count"] = 1,
+					},
+				}, -- [96]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39192::::::::80:::::::::|h[黑暗示意手套]|h|r",
+						["count"] = 1,
+					},
+				}, -- [97]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39200::::::::80:::::::::|h[忧伤]|h|r",
+						["count"] = 1,
+					},
+				}, -- [98]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39198::::::::80:::::::::|h[冰霜疫病肩铠]|h|r",
+						["count"] = 1,
+					},
+				}, -- [99]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39232::::::::80:::::::::|h[失职坠饰]|h|r",
+						["count"] = 1,
+					},
+				}, -- [100]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39226::::::::80:::::::::|h[迈克斯纳的腿骨]|h|r",
+						["count"] = 1,
+					},
+				}, -- [101]
+				{
+					["beneficiary"] = "你",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39146::::::::80:::::::::|h[腐朽项圈]|h|r",
+						["count"] = 1,
+					},
+				}, -- [102]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39274::::::::80:::::::::|h[呕吐者的肩垫]|h|r",
+						["count"] = 1,
+					},
+				}, -- [103]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39261::::::::80:::::::::|h[治愈之玷污束带]|h|r",
+						["count"] = 1,
+					},
+				}, -- [104]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39283::::::::80:::::::::|h[腐烂护腕]|h|r",
+						["count"] = 1,
+					},
+				}, -- [105]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39276::::::::80:::::::::|h[废墟之颅]|h|r",
+						["count"] = 1,
+					},
+				}, -- [106]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39278::::::::80:::::::::|h[焦虑腕甲]|h|r",
+						["count"] = 1,
+					},
+				}, -- [107]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40623::::::::80:::::::::|h[失落保卫者的护肩]|h|r",
+						["count"] = 1,
+					},
+				}, -- [108]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39292::::::::80:::::::::|h[退击护符]|h|r",
+						["count"] = 1,
+					},
+				}, -- [109]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40621::::::::80:::::::::|h[失落胜利者的护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [110]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39472::::::::80:::::::::|h[潜伏能量之链]|h|r",
+						["count"] = 1,
+					},
+				}, -- [111]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39309::::::::80:::::::::|h[教官的护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [112]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39299::::::::80:::::::::|h[急速攻击手套]|h|r",
+						["count"] = 1,
+					},
+				}, -- [113]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39467::::::::80:::::::::|h[爪牙护腕]|h|r",
+						["count"] = 1,
+					},
+				}, -- [114]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39386::::::::80:::::::::|h[脱臼外套]|h|r",
+						["count"] = 1,
+					},
+				}, -- [115]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39391::::::::80:::::::::|h[憎恨锁链胸甲]|h|r",
+						["count"] = 1,
+					},
+				}, -- [116]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cff0070dd|Hitem:37761::::::::80:::::::::|h[明丝束带]|h|r",
+						["count"] = 1,
+					},
+				}, -- [117]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39395::::::::80:::::::::|h[领主的玷污巨盔]|h|r",
+						["count"] = 1,
+					},
+				}, -- [118]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40612::::::::80:::::::::|h[失落胜利者的护胸]|h|r",
+						["count"] = 1,
+					},
+				}, -- [119]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39235::::::::80:::::::::|h[骨架护腕]|h|r",
+						["count"] = 1,
+					},
+				}, -- [120]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39241::::::::80:::::::::|h[天灾的黑暗披风]|h|r",
+						["count"] = 1,
+					},
+				}, -- [121]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39250::::::::80:::::::::|h[神圣净化指环]|h|r",
+						["count"] = 1,
+					},
+				}, -- [122]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39248::::::::80:::::::::|h[迷失兽群外套]|h|r",
+						["count"] = 1,
+					},
+				}, -- [123]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40622::::::::80:::::::::|h[失落征服者的护肩]|h|r",
+						["count"] = 1,
+					},
+				}, -- [124]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:44569::::::::80:::::::::|h[聚焦之虹的钥匙]|h|r",
+						["count"] = 1,
+					},
+				}, -- [125]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39403::::::::80:::::::::|h[坚强头盔]|h|r",
+						["count"] = 1,
+					},
+				}, -- [126]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39408::::::::80:::::::::|h[萨菲隆护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [127]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39419::::::::80:::::::::|h[蛛魔征服者]|h|r",
+						["count"] = 1,
+					},
+				}, -- [128]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39422::::::::80:::::::::|h[天灾猎犬法杖]|h|r",
+						["count"] = 1,
+					},
+				}, -- [129]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40616::::::::80:::::::::|h[失落征服者的头盔]|h|r",
+						["count"] = 1,
+					},
+				}, -- [130]
+				{
+					["beneficiary"] = "Royce",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34057::::::::80:::::::::|h[深渊水晶]|h|r",
+						["count"] = 14,
+					},
+				}, -- [131]
 			},
 		}, -- [1]
 	},

@@ -32,7 +32,7 @@ _detalhes_database = {
 		["pos"] = {
 		},
 	},
-	["last_version"] = "3.4.0 10205",
+	["last_version"] = "3.4.0 10259",
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
@@ -815,7 +815,10 @@ _detalhes_database = {
 				0.5, -- [4]
 			},
 			["scale"] = 1,
-			["arrow_anchor_y"] = 0,
+			["main_frame_size"] = {
+				299.9999389648438, -- [1]
+				499.9999084472656, -- [2]
+			},
 			["minimap"] = {
 				["minimapPos"] = 160,
 				["radius"] = 160,
@@ -836,7 +839,7 @@ _detalhes_database = {
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["font_size"] = 10,
+			["use_spark"] = true,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -844,13 +847,13 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["author"] = "Terciob",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["font_size"] = 10,
+			["y"] = -4.57763671875e-05,
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
+			["square_size"] = 32,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -862,18 +865,20 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
-			["use_spark"] = true,
-			["x"] = 0,
-			["font_face"] = "Friz Quadrata TT",
-			["square_size"] = 32,
-			["y"] = -4.57763671875e-05,
-			["author"] = "Terciob",
-			["main_frame_locked"] = false,
-			["main_frame_size"] = {
-				299.9999389648438, -- [1]
-				499.9999084472656, -- [2]
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
 			},
+			["main_frame_locked"] = false,
+			["arrow_anchor_y"] = 0,
 		},
+	},
+	["last_day"] = "07",
+	["last_instance_time"] = 0,
+	["cached_roles"] = {
+		["Player-4778-050B37B0"] = "DAMAGER",
 	},
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "",
@@ -886,11 +891,6 @@ _detalhes_database = {
 		["dungeon_zone_id"] = 0,
 		["previous_boss_killed_at"] = 0,
 	},
-	["last_day"] = "28",
-	["cached_roles"] = {
-		["Player-4778-050B37B0"] = "DAMAGER",
-	},
-	["last_instance_time"] = 0,
 	["local_instances_config"] = {
 		{
 			["modo"] = 2,
@@ -930,10 +930,10 @@ _detalhes_database = {
 	["savedStyles"] = {
 	},
 	["nick_tag_cache"] = {
-		["nextreset"] = 1667293892,
+		["nextreset"] = 1669113285,
 		["last_version"] = 15,
 	},
-	["combat_counter"] = 10,
+	["combat_counter"] = 14,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -1061,7 +1061,7 @@ _detalhes_database = {
 		},
 	},
 	["character_data"] = {
-		["logons"] = 5,
+		["logons"] = 7,
 	},
 	["force_font_outline"] = "",
 	["announce_firsthit"] = {
@@ -1084,6 +1084,5 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
-		["Player-4778-050B37B0"] = 70,
 	},
 }

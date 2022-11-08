@@ -39,7 +39,7 @@ DataStore_CraftsDB = {
 				["lastUpdate"] = 1662167869,
 			},
 			["Default.祈福.码农巴菲特"] = {
-				["lastUpdate"] = 1667748655,
+				["lastUpdate"] = 1667842158,
 				["Professions"] = {
 					["符文熔铸"] = {
 						["Categories"] = {
@@ -276,7 +276,7 @@ DataStore_CraftsDB = {
 				["lastUpdate"] = 1659786092,
 			},
 			["Default.祈福.特变电工"] = {
-				["lastUpdate"] = 1667722918,
+				["lastUpdate"] = 1667829163,
 				["Professions"] = {
 					["烹饪"] = {
 						["Categories"] = {

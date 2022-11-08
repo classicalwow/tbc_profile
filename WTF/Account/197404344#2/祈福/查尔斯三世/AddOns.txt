@@ -184,3 +184,4 @@ kExtraBossFrames: disabled
 WeakAurasCompanion: enabled
 VuhDo: disabled
 VuhDoOptions: disabled
+ElvUI_UnitFramePlugin: disabled

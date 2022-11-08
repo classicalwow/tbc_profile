@@ -83,17 +83,17 @@ DataStore_InventoryDB = {
 					[19] = "|cffffffff|Hitem:43154::::::::80:::::::::|h[银色北伐军战袍]|h|r",
 				},
 				["averageItemLvl"] = 203.375,
-				["lastUpdate"] = 1667748655,
+				["lastUpdate"] = 1667842158,
 			},
 			["Default.加丁.Vscode"] = {
 				["Inventory"] = {
 					[7] = "|cffffffff|Hitem:1366::::::::3:::::::::|h[]|h|r",
 					[8] = "|cffffffff|Hitem:47::::::::3:::::::::|h[]|h|r",
 					[18] = "|cffffffff|Hitem:28979::::::::3:::::::::|h[]|h|r",
-					[5] = "|cffffffff|Hitem:1380::::::::3:::::::::|h[]|h|r",
-					[4] = "|cffffffff|Hitem:49::::::::3:::::::::|h[]|h|r",
-					[16] = "|cffffffff|Hitem:2092::::::::3:::::::::|h[]|h|r",
 					[9] = "|cffffffff|Hitem:6070::::::::3:::::::::|h[]|h|r",
+					[4] = "|cffffffff|Hitem:49::::::::3:::::::::|h[]|h|r",
+					[5] = "|cffffffff|Hitem:1380::::::::3:::::::::|h[]|h|r",
+					[16] = "|cffffffff|Hitem:2092::::::::3:::::::::|h[]|h|r",
 				},
 				["lastUpdate"] = 1659786092,
 			},
@@ -102,7 +102,7 @@ DataStore_InventoryDB = {
 					"|cffa335ee|Hitem:40499:3817:41398:42702:::::80:::::::::|h[勇猛的骨镰头盔]|h|r", -- [1]
 					"|cffa335ee|Hitem:40065::::::::80:::::::::|h[愚者的试炼]|h|r", -- [2]
 					"|cffa335ee|Hitem:40502:3808:36766::::::80:::::::::|h[勇猛的骨镰肩甲]|h|r", -- [3]
-					"|cffffffff|Hitem:2575::::::::80:::::::::|h[红色亚麻衬衣]|h|r", -- [4]
+					"|cffffffff|Hitem:2575::::::::80:::::::::|h[]|h|r", -- [4]
 					"|cffa335ee|Hitem:40539:3832:36766::::::80:::::::::|h[寂寞胸甲]|h|r", -- [5]
 					"|cffa335ee|Hitem:37194::39999:39910:::::80:::::::::|h[钩刺皮质腰带]|h|r", -- [6]
 					"|cffa335ee|Hitem:40500:3823:36766:39999:::::80:::::::::|h[勇猛的骨镰腿甲]|h|r", -- [7]
@@ -120,7 +120,7 @@ DataStore_InventoryDB = {
 					"|cffffffff|Hitem:43154::::::::80:::::::::|h[银色北伐军战袍]|h|r", -- [19]
 				},
 				["averageItemLvl"] = 213,
-				["lastUpdate"] = 1667722918,
+				["lastUpdate"] = 1667829163,
 			},
 		},
 		["Guilds"] = {

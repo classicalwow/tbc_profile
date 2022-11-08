@@ -17,8 +17,8 @@ DBMPvP_AllSavedVars = {
 				["TimerFlag"] = true,
 				["TimerFlagCVoice"] = 0,
 				["TimerCapCVoice"] = 0,
+				["HideBossEmoteFrame"] = false,
 				["AutoSpirit"] = false,
-				["TimerCap"] = true,
 				["TimerWinCVoice"] = 0,
 				["TimerWinTColor"] = 0,
 				["ShowRelativeGameTime"] = true,
@@ -28,7 +28,7 @@ DBMPvP_AllSavedVars = {
 				["Enabled"] = true,
 				["TimerCapTColor"] = 0,
 				["TimerFlagTColor"] = 0,
-				["HideBossEmoteFrame"] = false,
+				["TimerCap"] = true,
 				["TimerStart"] = true,
 			}, -- [1]
 		},
