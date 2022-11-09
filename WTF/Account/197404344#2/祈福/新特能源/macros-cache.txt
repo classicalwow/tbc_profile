@@ -1,8 +1,8 @@
 VER 3 0000000001000001 "VuhDoDCShieldData" "Ability_Repair"
-P1LR1MR1DR1EM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P1ET1DT1HR1PT[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IR0__[x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0000000001000002 "VuhDoDCShieldNames" "Ability_Repair"
-N乌瑞恩小千暖骑风狂飙的[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]新特能[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+N大白娅黑暗魅小色丶夕阳欲[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]新特能卵石之[x]狼[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0000000001000003 "坐骑" "INV_MISC_QUESTIONMARK"
 #showtooltip 金色狮鹫
@@ -10,5 +10,5 @@ VER 3 0000000001000003 "坐骑" "INV_MISC_QUESTIONMARK"
 /use 迅捷白马
 END
 VER 3 0000000001000004 "监狱" "INV_MISC_QUESTIONMARK"
-/5 {圆形}H 监狱{圆形} {圆形}战争囚徒印记{圆形} 已需求 出了一人100G 来DPS或者治疗 顺带做水boss成就
+/5 {圆形}H 监狱{圆形} {圆形}战争囚徒印记{圆形} 已需求 出了一人100G 来T DPS 治疗 
 END

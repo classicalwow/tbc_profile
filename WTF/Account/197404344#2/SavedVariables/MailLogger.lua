@@ -5084,15 +5084,15 @@ MailLoggerDB = {
 					["ItemLink"] = "|cffffffff|Hitem:24449::::::::1:::::::::|h[成熟的孢子]|h|r",
 					["Name"] = "成熟的孢子",
 				},
-				[57] = {
-					["Number"] = 33,
-					["ItemLink"] = "|cffffffff|Hitem:14047::::::::1:::::::::|h[符文布]|h|r",
-					["Name"] = "符文布",
-				},
 				[29] = {
 					["Number"] = 5,
 					["ItemLink"] = "|cffffffff|Hitem:22577::::::::1:::::::::|h[暗影微粒]|h|r",
 					["Name"] = "暗影微粒",
+				},
+				[57] = {
+					["Number"] = 33,
+					["ItemLink"] = "|cffffffff|Hitem:14047::::::::1:::::::::|h[符文布]|h|r",
+					["Name"] = "符文布",
 				},
 			},
 		}, -- [195]
@@ -10751,10 +10751,10 @@ MailLoggerDB = {
 					["ItemLink"] = "|cffffffff|Hitem:4338::::::::1:::::::::|h[魔纹布]|h|r",
 					["Name"] = "魔纹布",
 				},
-				[12] = {
-					["Number"] = 2,
-					["ItemLink"] = "|cff1eff00|Hitem:8402::::::::1:::::::::|h[图样：硬化蝎壳头盔]|h|r",
-					["Name"] = "图样：硬化蝎壳头盔",
+				[33] = {
+					["Number"] = 13,
+					["ItemLink"] = "|cffffffff|Hitem:5504::::::::1:::::::::|h[有腥味的蚌肉]|h|r",
+					["Name"] = "有腥味的蚌肉",
 				},
 				[8] = {
 					["Number"] = 205,
@@ -10766,25 +10766,25 @@ MailLoggerDB = {
 					["ItemLink"] = "|cff1eff00|Hitem:7910::::::::1:::::::::|h[红宝石]|h|r",
 					["Name"] = "红宝石",
 				},
-				[33] = {
-					["Number"] = 13,
-					["ItemLink"] = "|cffffffff|Hitem:5504::::::::1:::::::::|h[有腥味的蚌肉]|h|r",
-					["Name"] = "有腥味的蚌肉",
+				[12] = {
+					["Number"] = 2,
+					["ItemLink"] = "|cff1eff00|Hitem:8402::::::::1:::::::::|h[图样：硬化蝎壳头盔]|h|r",
+					["Name"] = "图样：硬化蝎壳头盔",
 				},
-				[4] = {
-					["Number"] = 3,
-					["ItemLink"] = "|cff1eff00|Hitem:5498::::::::1:::::::::|h[有光泽的小珍珠]|h|r",
-					["Name"] = "有光泽的小珍珠",
+				[34] = {
+					["Number"] = 2,
+					["ItemLink"] = "|cff1eff00|Hitem:5500::::::::1:::::::::|h[彩色珍珠]|h|r",
+					["Name"] = "彩色珍珠",
 				},
 				[9] = {
 					["Number"] = 1,
 					["ItemLink"] = "|cff1eff00|Hitem:7971::::::::1:::::::::|h[黑珍珠]|h|r",
 					["Name"] = "黑珍珠",
 				},
-				[34] = {
-					["Number"] = 2,
-					["ItemLink"] = "|cff1eff00|Hitem:5500::::::::1:::::::::|h[彩色珍珠]|h|r",
-					["Name"] = "彩色珍珠",
+				[4] = {
+					["Number"] = 3,
+					["ItemLink"] = "|cff1eff00|Hitem:5498::::::::1:::::::::|h[有光泽的小珍珠]|h|r",
+					["Name"] = "有光泽的小珍珠",
 				},
 			},
 		}, -- [415]
@@ -21263,10 +21263,10 @@ MailLoggerDB = {
 					["ItemLink"] = "|cffffffff|Hitem:2840::::::::80:::::::::|h[铜锭]|h|r",
 					["Name"] = "铜锭",
 				}, -- [1]
-				[40] = {
-					["Number"] = 5,
-					["ItemLink"] = "|cff1eff00|Hitem:7909::::::::80:::::::::|h[青绿石]|h|r",
-					["Name"] = "青绿石",
+				[55] = {
+					["Number"] = 20,
+					["ItemLink"] = "|cff1eff00|Hitem:12364::::::::80:::::::::|h[巨型绿宝石]|h|r",
+					["Name"] = "巨型绿宝石",
 				},
 				[25] = {
 					["Number"] = 140,
@@ -21313,20 +21313,20 @@ MailLoggerDB = {
 					["ItemLink"] = "|cff1eff00|Hitem:12799::::::::80:::::::::|h[大猫眼石]|h|r",
 					["Name"] = "大猫眼石",
 				},
-				[36] = {
-					["Number"] = 20,
-					["ItemLink"] = "|cff1eff00|Hitem:6037::::::::80:::::::::|h[真银锭]|h|r",
-					["Name"] = "真银锭",
+				[19] = {
+					["Number"] = 80,
+					["ItemLink"] = "|cffffffff|Hitem:2838::::::::80:::::::::|h[沉重的石头]|h|r",
+					["Name"] = "沉重的石头",
 				},
 				[53] = {
 					["Number"] = 10,
 					["ItemLink"] = "|cff1eff00|Hitem:12361::::::::80:::::::::|h[蓝宝石]|h|r",
 					["Name"] = "蓝宝石",
 				},
-				[55] = {
-					["Number"] = 20,
-					["ItemLink"] = "|cff1eff00|Hitem:12364::::::::80:::::::::|h[巨型绿宝石]|h|r",
-					["Name"] = "巨型绿宝石",
+				[40] = {
+					["Number"] = 5,
+					["ItemLink"] = "|cff1eff00|Hitem:7909::::::::80:::::::::|h[青绿石]|h|r",
+					["Name"] = "青绿石",
 				},
 				[42] = {
 					["Number"] = 60,
@@ -21338,10 +21338,10 @@ MailLoggerDB = {
 					["ItemLink"] = "|cff1eff00|Hitem:1206::::::::80:::::::::|h[绿玛瑙]|h|r",
 					["Name"] = "绿玛瑙",
 				},
-				[19] = {
-					["Number"] = 80,
-					["ItemLink"] = "|cffffffff|Hitem:2838::::::::80:::::::::|h[沉重的石头]|h|r",
-					["Name"] = "沉重的石头",
+				[36] = {
+					["Number"] = 20,
+					["ItemLink"] = "|cff1eff00|Hitem:6037::::::::80:::::::::|h[真银锭]|h|r",
+					["Name"] = "真银锭",
 				},
 			},
 		}, -- [903]
@@ -23897,5 +23897,86 @@ MailLoggerDB = {
 			["ReceiveItems"] = {
 			},
 		}, -- [1042]
+		{
+			["Date"] = "2022-11-08",
+			["TargetName"] = "星鱼的萨满",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:36:25",
+			["GiveMoney"] = 0,
+			["Location"] = "艾卓-尼鲁布",
+			["GiveItems"] = {
+			},
+			["PlayerName"] = "码农巴菲特",
+			["ReceiveItems"] = {
+			},
+		}, -- [1043]
+		{
+			["TargetName"] = "星鱼的萨满",
+			["PlayerName"] = "码农巴菲特",
+			["Date"] = "2022-11-08",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:36:25",
+			["GiveMoney"] = 1000000,
+			["Location"] = "艾卓-尼鲁布",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [1044]
+		{
+			["Date"] = "2022-11-08",
+			["TargetName"] = "单盯二条",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:36:31",
+			["GiveMoney"] = 0,
+			["Location"] = "艾卓-尼鲁布",
+			["GiveItems"] = {
+			},
+			["PlayerName"] = "码农巴菲特",
+			["ReceiveItems"] = {
+			},
+		}, -- [1045]
+		{
+			["TargetName"] = "单盯二条",
+			["PlayerName"] = "码农巴菲特",
+			["Date"] = "2022-11-08",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:36:31",
+			["GiveMoney"] = 1000000,
+			["Location"] = "艾卓-尼鲁布",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [1046]
+		{
+			["Date"] = "2022-11-08",
+			["TargetName"] = "云巅丨生哥",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:37:00",
+			["GiveMoney"] = 0,
+			["Location"] = "艾卓-尼鲁布",
+			["GiveItems"] = {
+			},
+			["PlayerName"] = "码农巴菲特",
+			["ReceiveItems"] = {
+			},
+		}, -- [1047]
+		{
+			["TargetName"] = "云巅丨生哥",
+			["PlayerName"] = "码农巴菲特",
+			["Date"] = "2022-11-08",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:37:00",
+			["GiveMoney"] = 1000000,
+			["Location"] = "艾卓-尼鲁布",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [1048]
 	},
 }

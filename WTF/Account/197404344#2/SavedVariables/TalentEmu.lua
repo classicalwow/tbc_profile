@@ -936,10 +936,10 @@ TalentEmuSV = {
 		["supreme"] = false,
 	},
 	["var"] = {
-		["Player-4778-0505CE58"] = "!T32-E121JwZ70BK2PI1rjrVG::EfPB0!G3221w+9:aRD:H1u+-:sIC:61u+-:cgC:F1u+9:ZRD:G1u+-:hSC:31u+9:oIC:F1u6++++++!E320+^+f6-:1ev:1Y6-:18l9:5E1:9+3r9:8E1:9+=f9:1Xv:1Kl9:6E1:9+^+7f9:1Vn:18l9:18l9:5E1:9+lv9:2Dl9:1Ty8:5E1:9+yr9:1iv:7E1:9+k6-:1Um:7E1:9+Sw9:1-w:7E1:9+nt9:1pm:1Ty8:6E1:9+fm9:8E1:9+Cw9:8E1:9+Tk-:28l9:1hG-:5E1:9+1p9:8E1:9+hc-:1Sn:7E1:9+d4-:17w:7E1:9+^+qx9:8E1:9+GW-:8E1:9",
+		["Player-4778-0505CE58"] = "!T32-E121JwZ70BK2PI1rjrVG::EfPB0!G3221w+9:aRD:H1u+-:sIC:61u+-:cgC:F1u+9:ZRD:G1u+-:hSC:31u+9:oIC:F1u6++++++!E320+^+f6-:1ev:1Y6-:18l9:5E1:9+3r9:8E1:9+=f9:1Xv:1Kl9:6E1:9+^+7f9:1Vn:18l9:18l9:5E1:9+lv9:2Dl9:1Ty8:5E1:9+yr9:1iv:7E1:9+k6-:1Um:7E1:9+Sw9:1-w:7E1:9+nt9:1pm:1Ty8:6E1:9+fm9:8E1:9+Cw9:8E1:9+Y59:8E1:9+Tk-:28l9:1hG-:5E1:9+hc-:1Sn:7E1:9+d4-:17w:7E1:9+^+qx9:8E1:9+GW-:8E1:9",
 		["Player-4778-04F3E689"] = "110",
 		["Player-4778-050B37B0"] = "!T3246111MG::UT9::0MWB-L=Pk5nRMlA1!G3211e+9:DOB:01u+-:a9C:=1u+-:P9C:H1u+9:BOB:A1u++!E320+^+pD6:861:9+OD6:861:9+Af7:861:9+Dc:861:9+cj7:1nQ:761:9+xD6:861:9+Tg7:861:9+Zq6:861:9+og7:861:9+ig7:861:9+jG6:861:9+BC6:861:9+9q6:861:9+VE6:861:9+zp6:861:9+WG6:861:9+^+Vq6:861:9+^",
-		["Player-4778-04F3EDE6"] = "!T325E122JK0f1:::::3O3a8L5ZWAnZFe7o8=AcmJAMidX:h1!G3222w+9:8aB:A1u+-:oBC:91u+-:N-C:81u+9:7aB:=1u+-:3-C:B1u+9:9aB:41uw+9:zZB:51u+-:T-C:I1u+-:3-C:B1u+9:sZB:D1u+-:N-C:81u+9:3QD:51u!E320+^+mt9:1fv:1t6-:1UG-:5E1:9+as9:8E1:9+2s9:1Vv:1kl9:6E1:9+^+2o9:1sv:1Ol9:6E1:9+kY9:8E1:9+Cr9:17u:1UG-:1yk9:5E1:9+iw9:1Um:7E1:9+l79:1QY:7E1:9+Td9:1im:1yk9:6E1:9+gm9:8E1:9+Yz=:8E1:9+hv9:8E1:9+gT-:8E1:9+vo9:8E1:9+k79:1qv:7E1:9+^+po9:8E1:9+IW-:8E1:9",
+		["Player-4778-04F3EDE6"] = "!T325E121JK0f1:::::3O3a8L5ZWAnZFe7o8=AcmJAMidX:h1!G3221w+9:8aB:A1u+-:oBC:91u+-:N-C:81u+9:7aB:=1u+-:3-C:B1u+9:9aB:41uw+9:zZB:51u+-:T-C:I1u+-:3-C:B1u+9:sZB:D1u+-:N-C:81u+9:3QD:51u!E320+^+mt9:1fv:1t6-:1UG-:5E1:9+mt-:2Zm9:6E1:9+=s9:1Wv:1gG-:6E1:9+^+2o9:1sv:1Ol9:6E1:9+u59:8E1:9+Cr9:17u:1UG-:1yk9:5E1:9+iw9:1Um:7E1:9+l79:1QY:7E1:9+Td9:1im:1yk9:6E1:9+Rb9:8E1:9+Xz=:8E1:9+hv9:8E1:9+PK-:2Cl9:1Cl9:5E1:9+vo9:8E1:9+k79:1qv:7E1:9+^+Ug9:8E1:9+IW-:8E1:9",
 		["savedTalent"] = {
 			["dkt- |cff7fbfff鲜血46|r 冰霜13 邪恶12"] = "!T32-E111JwZ70BK2PI1rjrVG::EfPB",
 			["|cfffff468盗贼|r- |cff7fbfff刺杀51|r 战斗13 敏锐 7"] = "!T326E111JQZkIIMaRcAFXd6Gg1::B1",

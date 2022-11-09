@@ -103,29 +103,6 @@ TomTomWaypointsM = {
 		["查尔斯三世 - 祈福"] = {
 		},
 		["码农巴菲特 - 祈福"] = {
-			[115] = {
-				["115:263325183.37408:504889975.55012:Meeting Stone"] = {
-					115, -- [1]
-					0.2633251833740831, -- [2]
-					0.5048899755501223, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["minimap"] = true,
-					["cleardistance"] = 10,
-					["title"] = "Meeting Stone",
-					["from"] = "Questie",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["world"] = true,
-				},
-			},
 		},
 		["Vscode - 加丁"] = {
 		},
