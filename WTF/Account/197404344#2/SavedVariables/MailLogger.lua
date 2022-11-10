@@ -37,40 +37,6 @@ MailLoggerDB = {
 	},
 	["TradeLog"] = {
 		{
-			["TargetName"] = "连你接他",
-			["PlayerName"] = "特变电工",
-			["Date"] = "2022-08-11",
-			["ReceiveMoney"] = 50000000,
-			["Time"] = "23:23:17",
-			["GiveMoney"] = 0,
-			["Location"] = "艾爾文森林",
-			["GiveItems"] = {
-			},
-			["Result"] = "completed",
-			["ReceiveItems"] = {
-				{
-					["Number"] = 1,
-					["ItemLink"] = "|cff1eff00|Hitem:21841::::::::8:::::::::|h[幽紋布包]|h|r",
-					["Name"] = "幽紋布包",
-				}, -- [1]
-				{
-					["Number"] = 1,
-					["ItemLink"] = "|cff1eff00|Hitem:21841::::::::8:::::::::|h[幽紋布包]|h|r",
-					["Name"] = "幽紋布包",
-				}, -- [2]
-				{
-					["Number"] = 1,
-					["ItemLink"] = "|cff1eff00|Hitem:21841::::::::8:::::::::|h[幽紋布包]|h|r",
-					["Name"] = "幽紋布包",
-				}, -- [3]
-				{
-					["Number"] = 1,
-					["ItemLink"] = "|cff1eff00|Hitem:4766::::::::8:::::::::|h[野獸之刃]|h|r",
-					["Name"] = "野獸之刃",
-				}, -- [4]
-			},
-		}, -- [1]
-		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
 			["Date"] = "2022-08-13",
@@ -83,7 +49,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [2]
+		}, -- [1]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "特变电工",
@@ -98,7 +64,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [3]
+		}, -- [2]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -113,7 +79,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [4]
+		}, -- [3]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -127,7 +93,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [5]
+		}, -- [4]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "特变电工",
@@ -142,7 +108,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [6]
+		}, -- [5]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -172,7 +138,7 @@ MailLoggerDB = {
 					["Name"] = "粗制磨刀石",
 				},
 			},
-		}, -- [7]
+		}, -- [6]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -196,7 +162,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [8]
+		}, -- [7]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -216,7 +182,7 @@ MailLoggerDB = {
 					["Name"] = "治疗药水",
 				}, -- [1]
 			},
-		}, -- [9]
+		}, -- [8]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -235,7 +201,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [10]
+		}, -- [9]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "特工仓库",
@@ -325,7 +291,7 @@ MailLoggerDB = {
 					["Name"] = "治疗药水",
 				}, -- [15]
 			},
-		}, -- [11]
+		}, -- [10]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -340,7 +306,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [12]
+		}, -- [11]
 		{
 			["TargetName"] = "趴趴小蝶",
 			["PlayerName"] = "特变电工",
@@ -359,7 +325,7 @@ MailLoggerDB = {
 					["Name"] = "魔法黑面包",
 				}, -- [1]
 			},
-		}, -- [13]
+		}, -- [12]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -389,7 +355,7 @@ MailLoggerDB = {
 					["Name"] = "孤狼之歹徒肚带",
 				}, -- [3]
 			},
-		}, -- [14]
+		}, -- [13]
 		{
 			["TargetName"] = "匂丶德",
 			["PlayerName"] = "特变电工",
@@ -413,7 +379,7 @@ MailLoggerDB = {
 					["Name"] = "简易匕首",
 				}, -- [2]
 			},
-		}, -- [15]
+		}, -- [14]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -438,7 +404,7 @@ MailLoggerDB = {
 					["Name"] = "野熊之斗士短剑",
 				}, -- [2]
 			},
-		}, -- [16]
+		}, -- [15]
 		{
 			["TargetName"] = "久坐不掩柴扉",
 			["PlayerName"] = "特变电工",
@@ -457,7 +423,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [17]
+		}, -- [16]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -477,7 +443,7 @@ MailLoggerDB = {
 					["Name"] = "青铜管",
 				}, -- [1]
 			},
-		}, -- [18]
+		}, -- [17]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -496,7 +462,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [19]
+		}, -- [18]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "特工仓库",
@@ -516,7 +482,7 @@ MailLoggerDB = {
 					["Name"] = "青铜管",
 				}, -- [1]
 			},
-		}, -- [20]
+		}, -- [19]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -541,7 +507,7 @@ MailLoggerDB = {
 					["Name"] = "狼肋排",
 				},
 			},
-		}, -- [21]
+		}, -- [20]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -561,7 +527,7 @@ MailLoggerDB = {
 					["Name"] = "青铜管",
 				}, -- [1]
 			},
-		}, -- [22]
+		}, -- [21]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -581,7 +547,7 @@ MailLoggerDB = {
 					["Name"] = "大块野猪肉",
 				}, -- [1]
 			},
-		}, -- [23]
+		}, -- [22]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -600,7 +566,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [24]
+		}, -- [23]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "特工仓库",
@@ -620,7 +586,7 @@ MailLoggerDB = {
 					["Name"] = "大块野猪肉",
 				}, -- [1]
 			},
-		}, -- [25]
+		}, -- [24]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -640,7 +606,7 @@ MailLoggerDB = {
 					["Name"] = "雨燕草",
 				}, -- [1]
 			},
-		}, -- [26]
+		}, -- [25]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -664,7 +630,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [27]
+		}, -- [26]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "特工仓库",
@@ -689,7 +655,7 @@ MailLoggerDB = {
 					["Name"] = "雨燕草",
 				}, -- [2]
 			},
-		}, -- [28]
+		}, -- [27]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -714,7 +680,7 @@ MailLoggerDB = {
 					["Name"] = "强效治疗药水",
 				},
 			},
-		}, -- [29]
+		}, -- [28]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -738,7 +704,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [30]
+		}, -- [29]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "特工仓库",
@@ -758,7 +724,7 @@ MailLoggerDB = {
 					["Name"] = "强效治疗药水",
 				}, -- [1]
 			},
-		}, -- [31]
+		}, -- [30]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -778,7 +744,7 @@ MailLoggerDB = {
 					["Name"] = "暴风城特产调料",
 				}, -- [1]
 			},
-		}, -- [32]
+		}, -- [31]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -797,7 +763,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [33]
+		}, -- [32]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "特工仓库",
@@ -817,7 +783,7 @@ MailLoggerDB = {
 					["Name"] = "暴风城特产调料",
 				}, -- [1]
 			},
-		}, -- [34]
+		}, -- [33]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "特工仓库",
@@ -837,7 +803,7 @@ MailLoggerDB = {
 					["Name"] = "迅捷药水",
 				}, -- [1]
 			},
-		}, -- [35]
+		}, -- [34]
 		{
 			["TargetName"] = "叙利亚第一骑",
 			["PlayerName"] = "特变电工",
@@ -881,7 +847,7 @@ MailLoggerDB = {
 					["Name"] = "野蛮铁项圈",
 				}, -- [6]
 			},
-		}, -- [36]
+		}, -- [35]
 		{
 			["TargetName"] = "叙利亚第一骑",
 			["PlayerName"] = "特变电工",
@@ -900,7 +866,7 @@ MailLoggerDB = {
 					["Name"] = "重型翡翠戒指",
 				}, -- [1]
 			},
-		}, -- [37]
+		}, -- [36]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "特工仓库",
@@ -920,7 +886,7 @@ MailLoggerDB = {
 					["Name"] = "强效治疗药水",
 				}, -- [1]
 			},
-		}, -- [38]
+		}, -- [37]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -950,7 +916,7 @@ MailLoggerDB = {
 					["Name"] = "徽记军帽",
 				}, -- [3]
 			},
-		}, -- [39]
+		}, -- [38]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -1001,7 +967,7 @@ MailLoggerDB = {
 					["Name"] = "秘银马刺",
 				}, -- [8]
 			},
-		}, -- [40]
+		}, -- [39]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -1021,7 +987,7 @@ MailLoggerDB = {
 					["Name"] = "丝绸",
 				}, -- [1]
 			},
-		}, -- [41]
+		}, -- [40]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -1040,7 +1006,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [42]
+		}, -- [41]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "特工仓库",
@@ -1060,7 +1026,7 @@ MailLoggerDB = {
 					["Name"] = "丝绸",
 				}, -- [1]
 			},
-		}, -- [43]
+		}, -- [42]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -1085,7 +1051,7 @@ MailLoggerDB = {
 					["Name"] = "山地披风",
 				}, -- [2]
 			},
-		}, -- [44]
+		}, -- [43]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -1109,7 +1075,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [45]
+		}, -- [44]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "特工仓库",
@@ -1134,7 +1100,7 @@ MailLoggerDB = {
 					["Name"] = "山地披风",
 				}, -- [2]
 			},
-		}, -- [46]
+		}, -- [45]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -1149,7 +1115,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [47]
+		}, -- [46]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "匂丶德",
@@ -1174,7 +1140,7 @@ MailLoggerDB = {
 					["Name"] = "灵猴之射手夹克",
 				}, -- [2]
 			},
-		}, -- [48]
+		}, -- [47]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -1194,7 +1160,7 @@ MailLoggerDB = {
 					["Name"] = "快速钢剑",
 				}, -- [1]
 			},
-		}, -- [49]
+		}, -- [48]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -1219,7 +1185,7 @@ MailLoggerDB = {
 					["Name"] = "图样：魔化魔纹布包",
 				},
 			},
-		}, -- [50]
+		}, -- [49]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -1238,7 +1204,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [51]
+		}, -- [50]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "特工仓库",
@@ -1258,7 +1224,7 @@ MailLoggerDB = {
 					["Name"] = "魔纹布",
 				}, -- [1]
 			},
-		}, -- [52]
+		}, -- [51]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -1278,7 +1244,7 @@ MailLoggerDB = {
 					["Name"] = "符文布",
 				}, -- [1]
 			},
-		}, -- [53]
+		}, -- [52]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -1297,7 +1263,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [54]
+		}, -- [53]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "特工仓库",
@@ -1322,7 +1288,7 @@ MailLoggerDB = {
 					["Name"] = "符文布",
 				},
 			},
-		}, -- [55]
+		}, -- [54]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -1346,7 +1312,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [56]
+		}, -- [55]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "特变电工",
@@ -1371,7 +1337,7 @@ MailLoggerDB = {
 					["Name"] = "魔纹布",
 				}, -- [2]
 			},
-		}, -- [57]
+		}, -- [56]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -1396,7 +1362,7 @@ MailLoggerDB = {
 					["Name"] = "月钢宽剑",
 				}, -- [2]
 			},
-		}, -- [58]
+		}, -- [57]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -1420,7 +1386,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [59]
+		}, -- [58]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "特工仓库",
@@ -1445,7 +1411,7 @@ MailLoggerDB = {
 					["Name"] = "月钢宽剑",
 				}, -- [2]
 			},
-		}, -- [60]
+		}, -- [59]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -1459,7 +1425,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [61]
+		}, -- [60]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -1479,7 +1445,7 @@ MailLoggerDB = {
 					["Name"] = "复仇短剑",
 				}, -- [1]
 			},
-		}, -- [62]
+		}, -- [61]
 		{
 			["TargetName"] = "春哥六五",
 			["PlayerName"] = "特变电工",
@@ -1493,7 +1459,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [63]
+		}, -- [62]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -1544,7 +1510,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [64]
+		}, -- [63]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -1563,7 +1529,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [65]
+		}, -- [64]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -1582,7 +1548,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [66]
+		}, -- [65]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -1601,7 +1567,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [67]
+		}, -- [66]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "特变电工",
@@ -1661,7 +1627,7 @@ MailLoggerDB = {
 					["Name"] = "翡翠",
 				},
 			},
-		}, -- [68]
+		}, -- [67]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -1686,7 +1652,7 @@ MailLoggerDB = {
 					["Name"] = "图样：魔化魔纹布包",
 				}, -- [2]
 			},
-		}, -- [69]
+		}, -- [68]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "特变电工",
@@ -1701,7 +1667,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [70]
+		}, -- [69]
 		{
 			["TargetName"] = "春哥六三",
 			["PlayerName"] = "特变电工",
@@ -1715,7 +1681,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [71]
+		}, -- [70]
 		{
 			["TargetName"] = "春哥八二",
 			["PlayerName"] = "特变电工",
@@ -1729,7 +1695,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [72]
+		}, -- [71]
 		{
 			["TargetName"] = "春哥十二",
 			["PlayerName"] = "特变电工",
@@ -1743,7 +1709,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [73]
+		}, -- [72]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -1777,7 +1743,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [74]
+		}, -- [73]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "特变电工",
@@ -1812,7 +1778,7 @@ MailLoggerDB = {
 					["Name"] = "魔纹布",
 				}, -- [4]
 			},
-		}, -- [75]
+		}, -- [74]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -1837,7 +1803,7 @@ MailLoggerDB = {
 					["Name"] = "半藏之剑",
 				}, -- [2]
 			},
-		}, -- [76]
+		}, -- [75]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -1861,7 +1827,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [77]
+		}, -- [76]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "特工仓库",
@@ -1886,7 +1852,7 @@ MailLoggerDB = {
 					["Name"] = "半藏之剑",
 				}, -- [2]
 			},
-		}, -- [78]
+		}, -- [77]
 		{
 			["TargetName"] = "春哥十二",
 			["PlayerName"] = "特变电工",
@@ -1900,7 +1866,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [79]
+		}, -- [78]
 		{
 			["TargetName"] = "春哥六一",
 			["PlayerName"] = "特变电工",
@@ -1914,7 +1880,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [80]
+		}, -- [79]
 		{
 			["TargetName"] = "一春哥八十九",
 			["PlayerName"] = "特变电工",
@@ -1928,7 +1894,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [81]
+		}, -- [80]
 		{
 			["TargetName"] = "丶春哥只曱",
 			["PlayerName"] = "特变电工",
@@ -1942,7 +1908,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [82]
+		}, -- [81]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -1961,7 +1927,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [83]
+		}, -- [82]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -1985,7 +1951,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [84]
+		}, -- [83]
 		{
 			["TargetName"] = "春哥十五",
 			["PlayerName"] = "特变电工",
@@ -1999,7 +1965,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [85]
+		}, -- [84]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "特变电工",
@@ -2029,7 +1995,7 @@ MailLoggerDB = {
 					["Name"] = "魔纹布",
 				}, -- [3]
 			},
-		}, -- [86]
+		}, -- [85]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -2049,7 +2015,7 @@ MailLoggerDB = {
 					["Name"] = "秘银外壳",
 				}, -- [1]
 			},
-		}, -- [87]
+		}, -- [86]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -2068,7 +2034,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [88]
+		}, -- [87]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "特工仓库",
@@ -2088,7 +2054,7 @@ MailLoggerDB = {
 					["Name"] = "秘银外壳",
 				}, -- [1]
 			},
-		}, -- [89]
+		}, -- [88]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -2107,7 +2073,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [90]
+		}, -- [89]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "特变电工",
@@ -2132,7 +2098,7 @@ MailLoggerDB = {
 					["Name"] = "优质治疗药水",
 				}, -- [2]
 			},
-		}, -- [91]
+		}, -- [90]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -2147,7 +2113,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [92]
+		}, -- [91]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -2167,7 +2133,7 @@ MailLoggerDB = {
 					["Name"] = "特效治疗药水",
 				}, -- [1]
 			},
-		}, -- [93]
+		}, -- [92]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -2186,7 +2152,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [94]
+		}, -- [93]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "特工仓库",
@@ -2206,7 +2172,7 @@ MailLoggerDB = {
 					["Name"] = "特效治疗药水",
 				}, -- [1]
 			},
-		}, -- [95]
+		}, -- [94]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -2235,7 +2201,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [96]
+		}, -- [95]
 		{
 			["TargetName"] = "春哥八四",
 			["PlayerName"] = "特变电工",
@@ -2249,7 +2215,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [97]
+		}, -- [96]
 		{
 			["TargetName"] = "春哥八四",
 			["PlayerName"] = "特变电工",
@@ -2263,7 +2229,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [98]
+		}, -- [97]
 		{
 			["TargetName"] = "春哥八三",
 			["PlayerName"] = "特变电工",
@@ -2277,7 +2243,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [99]
+		}, -- [98]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -2302,7 +2268,7 @@ MailLoggerDB = {
 					["Name"] = "超级治疗药水",
 				},
 			},
-		}, -- [100]
+		}, -- [99]
 		{
 			["TargetName"] = "春哥四位",
 			["PlayerName"] = "特变电工",
@@ -2316,7 +2282,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [101]
+		}, -- [100]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -2331,7 +2297,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [102]
+		}, -- [101]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "特变电工",
@@ -2362,7 +2328,7 @@ MailLoggerDB = {
 					["Name"] = "红宝石",
 				}, -- [4]
 			},
-		}, -- [103]
+		}, -- [102]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -2387,7 +2353,7 @@ MailLoggerDB = {
 					["Name"] = "符文布",
 				},
 			},
-		}, -- [104]
+		}, -- [103]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -2411,7 +2377,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [105]
+		}, -- [104]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -2430,7 +2396,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [106]
+		}, -- [105]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -2445,7 +2411,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [107]
+		}, -- [106]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "特工仓库",
@@ -2470,7 +2436,7 @@ MailLoggerDB = {
 					["Name"] = "灵纹布",
 				},
 			},
-		}, -- [108]
+		}, -- [107]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -2504,7 +2470,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [109]
+		}, -- [108]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -2539,7 +2505,7 @@ MailLoggerDB = {
 					["Name"] = "烤泥鱼",
 				},
 			},
-		}, -- [110]
+		}, -- [109]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "特变电工",
@@ -2575,7 +2541,7 @@ MailLoggerDB = {
 					["Name"] = "灵纹布",
 				},
 			},
-		}, -- [111]
+		}, -- [110]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -2604,7 +2570,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [112]
+		}, -- [111]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -2624,7 +2590,7 @@ MailLoggerDB = {
 					["Name"] = "特效治疗药水",
 				}, -- [1]
 			},
-		}, -- [113]
+		}, -- [112]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "特工仓库",
@@ -2655,7 +2621,7 @@ MailLoggerDB = {
 					["Name"] = "超级治疗药水",
 				}, -- [4]
 			},
-		}, -- [114]
+		}, -- [113]
 		{
 			["TargetName"] = "周也周也",
 			["PlayerName"] = "特变电工",
@@ -2675,7 +2641,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [115]
+		}, -- [114]
 		{
 			["TargetName"] = "周也周也",
 			["PlayerName"] = "特变电工",
@@ -2695,7 +2661,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [116]
+		}, -- [115]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -2715,7 +2681,7 @@ MailLoggerDB = {
 					["Name"] = "秘银马刺",
 				}, -- [1]
 			},
-		}, -- [117]
+		}, -- [116]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -2730,7 +2696,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [118]
+		}, -- [117]
 		{
 			["TargetName"] = "连你接他",
 			["PlayerName"] = "特变电工",
@@ -2754,7 +2720,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [119]
+		}, -- [118]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -2779,7 +2745,7 @@ MailLoggerDB = {
 					["Name"] = "火翼徽记",
 				}, -- [2]
 			},
-		}, -- [120]
+		}, -- [119]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -2803,7 +2769,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [121]
+		}, -- [120]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "特工仓库",
@@ -2828,7 +2794,7 @@ MailLoggerDB = {
 					["Name"] = "火翼徽记",
 				}, -- [2]
 			},
-		}, -- [122]
+		}, -- [121]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -2858,7 +2824,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [123]
+		}, -- [122]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -2877,7 +2843,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [124]
+		}, -- [123]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -2901,7 +2867,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [125]
+		}, -- [124]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -2925,7 +2891,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [126]
+		}, -- [125]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -2950,7 +2916,7 @@ MailLoggerDB = {
 					["Name"] = "敏捷卷轴 V",
 				}, -- [2]
 			},
-		}, -- [127]
+		}, -- [126]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "特变电工",
@@ -3007,7 +2973,7 @@ MailLoggerDB = {
 					["Name"] = "符文布",
 				},
 			},
-		}, -- [128]
+		}, -- [127]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -3031,7 +2997,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [129]
+		}, -- [128]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "特工仓库",
@@ -3056,7 +3022,7 @@ MailLoggerDB = {
 					["Name"] = "敏捷卷轴 V",
 				}, -- [2]
 			},
-		}, -- [130]
+		}, -- [129]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "朮丶爷",
@@ -3076,7 +3042,7 @@ MailLoggerDB = {
 					["Name"] = "厚灵纹布绷带",
 				}, -- [1]
 			},
-		}, -- [131]
+		}, -- [130]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -3146,7 +3112,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [132]
+		}, -- [131]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -3171,7 +3137,7 @@ MailLoggerDB = {
 					["Name"] = "敏捷卷轴 V",
 				},
 			},
-		}, -- [133]
+		}, -- [132]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -3191,7 +3157,7 @@ MailLoggerDB = {
 					["Name"] = "特效敏捷药剂",
 				}, -- [1]
 			},
-		}, -- [134]
+		}, -- [133]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -3225,7 +3191,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [135]
+		}, -- [134]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -3244,7 +3210,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [136]
+		}, -- [135]
 		{
 			["TargetName"] = "连你接他",
 			["PlayerName"] = "特变电工",
@@ -3263,7 +3229,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [137]
+		}, -- [136]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -3298,7 +3264,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [138]
+		}, -- [137]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -3332,7 +3298,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [139]
+		}, -- [138]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -3356,7 +3322,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [140]
+		}, -- [139]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -3386,7 +3352,7 @@ MailLoggerDB = {
 					["Name"] = "烤泥鱼",
 				},
 			},
-		}, -- [141]
+		}, -- [140]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "特变电工",
@@ -3504,7 +3470,7 @@ MailLoggerDB = {
 					["Name"] = "土之微粒",
 				},
 			},
-		}, -- [142]
+		}, -- [141]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -3533,7 +3499,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [143]
+		}, -- [142]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "特工仓库",
@@ -3563,7 +3529,7 @@ MailLoggerDB = {
 					["Name"] = "敏捷卷轴 V",
 				}, -- [3]
 			},
-		}, -- [144]
+		}, -- [143]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -3582,7 +3548,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [145]
+		}, -- [144]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -3601,7 +3567,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [146]
+		}, -- [145]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -3620,7 +3586,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [147]
+		}, -- [146]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -3639,7 +3605,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [148]
+		}, -- [147]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "朮丶爷",
@@ -3664,7 +3630,7 @@ MailLoggerDB = {
 					["Name"] = "恒金宝箱",
 				}, -- [2]
 			},
-		}, -- [149]
+		}, -- [148]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特变电工",
@@ -3678,7 +3644,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [150]
+		}, -- [149]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特变电工",
@@ -3693,7 +3659,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [151]
+		}, -- [150]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -3713,7 +3679,7 @@ MailLoggerDB = {
 					["Name"] = "灵纹布包",
 				}, -- [1]
 			},
-		}, -- [152]
+		}, -- [151]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -3748,7 +3714,7 @@ MailLoggerDB = {
 					["Name"] = "智力卷轴 V",
 				},
 			},
-		}, -- [153]
+		}, -- [152]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "特变电工",
@@ -3783,7 +3749,7 @@ MailLoggerDB = {
 					["Name"] = "萨格拉斯印记",
 				},
 			},
-		}, -- [154]
+		}, -- [153]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特工仓库",
@@ -3817,7 +3783,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [155]
+		}, -- [154]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -3837,7 +3803,7 @@ MailLoggerDB = {
 					["Name"] = "迅捷药水",
 				}, -- [1]
 			},
-		}, -- [156]
+		}, -- [155]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特工仓库",
@@ -3856,7 +3822,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [157]
+		}, -- [156]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特工仓库",
@@ -3897,7 +3863,7 @@ MailLoggerDB = {
 					["Name"] = "迅捷药水",
 				},
 			},
-		}, -- [158]
+		}, -- [157]
 		{
 			["TargetName"] = "春哥十二",
 			["PlayerName"] = "新特能源",
@@ -3911,7 +3877,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [159]
+		}, -- [158]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -3940,7 +3906,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [160]
+		}, -- [159]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特工仓库",
@@ -3959,7 +3925,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [161]
+		}, -- [160]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特工仓库",
@@ -3979,7 +3945,7 @@ MailLoggerDB = {
 					["Name"] = "未鉴定过的植物",
 				}, -- [1]
 			},
-		}, -- [162]
+		}, -- [161]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -4004,7 +3970,7 @@ MailLoggerDB = {
 					["Name"] = "火翼徽记",
 				}, -- [2]
 			},
-		}, -- [163]
+		}, -- [162]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "新特能源",
@@ -4059,7 +4025,7 @@ MailLoggerDB = {
 					["Name"] = "灵纹布",
 				}, -- [8]
 			},
-		}, -- [164]
+		}, -- [163]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -4074,7 +4040,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [165]
+		}, -- [164]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特工仓库",
@@ -4098,7 +4064,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [166]
+		}, -- [165]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特工仓库",
@@ -4123,7 +4089,7 @@ MailLoggerDB = {
 					["Name"] = "奥法宝典",
 				}, -- [2]
 			},
-		}, -- [167]
+		}, -- [166]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -4148,7 +4114,7 @@ MailLoggerDB = {
 					["Name"] = "智力卷轴 V",
 				},
 			},
-		}, -- [168]
+		}, -- [167]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -4168,7 +4134,7 @@ MailLoggerDB = {
 					["Name"] = "轻羽毛",
 				}, -- [1]
 			},
-		}, -- [169]
+		}, -- [168]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特工仓库",
@@ -4197,7 +4163,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [170]
+		}, -- [169]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特工仓库",
@@ -4227,7 +4193,7 @@ MailLoggerDB = {
 					["Name"] = "法能药剂",
 				}, -- [3]
 			},
-		}, -- [171]
+		}, -- [170]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -4280,7 +4246,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [172]
+		}, -- [171]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -4300,7 +4266,7 @@ MailLoggerDB = {
 					["Name"] = "鸦人的羽毛",
 				}, -- [1]
 			},
-		}, -- [173]
+		}, -- [172]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "新特能源",
@@ -4352,7 +4318,7 @@ MailLoggerDB = {
 					["Name"] = "灵纹布",
 				},
 			},
-		}, -- [174]
+		}, -- [173]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -4392,7 +4358,7 @@ MailLoggerDB = {
 					["Name"] = "力量卷轴 V",
 				},
 			},
-		}, -- [175]
+		}, -- [174]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特工仓库",
@@ -4411,7 +4377,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [176]
+		}, -- [175]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特工仓库",
@@ -4431,7 +4397,7 @@ MailLoggerDB = {
 					["Name"] = "鸦人的羽毛",
 				}, -- [1]
 			},
-		}, -- [177]
+		}, -- [176]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -4471,7 +4437,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [178]
+		}, -- [177]
 		{
 			["TargetName"] = "连你接他",
 			["PlayerName"] = "新特能源",
@@ -4490,7 +4456,7 @@ MailLoggerDB = {
 					["Name"] = "巨牙毒囊",
 				}, -- [1]
 			},
-		}, -- [179]
+		}, -- [178]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -4520,7 +4486,7 @@ MailLoggerDB = {
 					["Name"] = "坚韧雕文",
 				}, -- [3]
 			},
-		}, -- [180]
+		}, -- [179]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -4549,7 +4515,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [181]
+		}, -- [180]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -4588,7 +4554,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [182]
+		}, -- [181]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -4613,7 +4579,7 @@ MailLoggerDB = {
 					["Name"] = "水煮蓝鱼",
 				},
 			},
-		}, -- [183]
+		}, -- [182]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -4662,7 +4628,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [184]
+		}, -- [183]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -4691,7 +4657,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [185]
+		}, -- [184]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -4725,7 +4691,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [186]
+		}, -- [185]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -4744,7 +4710,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [187]
+		}, -- [186]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -4773,7 +4739,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [188]
+		}, -- [187]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特工仓库",
@@ -4818,7 +4784,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [189]
+		}, -- [188]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "丹希尔·亚当斯",
@@ -4838,7 +4804,7 @@ MailLoggerDB = {
 					["Name"] = "北方的消息",
 				}, -- [1]
 			},
-		}, -- [190]
+		}, -- [189]
 		{
 			["TargetName"] = "码农巴菲特",
 			["PlayerName"] = "新特能源",
@@ -4852,7 +4818,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [191]
+		}, -- [190]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "新特能源",
@@ -4867,7 +4833,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [192]
+		}, -- [191]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "联盟拍卖行",
@@ -4920,7 +4886,7 @@ MailLoggerDB = {
 					["Name"] = "活力分流雕文",
 				}, -- [10]
 			},
-		}, -- [193]
+		}, -- [192]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "联盟拍卖行",
@@ -4945,7 +4911,7 @@ MailLoggerDB = {
 					["Name"] = "烧烤裂蹄牛",
 				}, -- [2]
 			},
-		}, -- [194]
+		}, -- [193]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "新特能源",
@@ -5084,18 +5050,18 @@ MailLoggerDB = {
 					["ItemLink"] = "|cffffffff|Hitem:24449::::::::1:::::::::|h[成熟的孢子]|h|r",
 					["Name"] = "成熟的孢子",
 				},
-				[29] = {
-					["Number"] = 5,
-					["ItemLink"] = "|cffffffff|Hitem:22577::::::::1:::::::::|h[暗影微粒]|h|r",
-					["Name"] = "暗影微粒",
-				},
 				[57] = {
 					["Number"] = 33,
 					["ItemLink"] = "|cffffffff|Hitem:14047::::::::1:::::::::|h[符文布]|h|r",
 					["Name"] = "符文布",
 				},
+				[29] = {
+					["Number"] = 5,
+					["ItemLink"] = "|cffffffff|Hitem:22577::::::::1:::::::::|h[暗影微粒]|h|r",
+					["Name"] = "暗影微粒",
+				},
 			},
-		}, -- [195]
+		}, -- [194]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "联盟拍卖行",
@@ -5115,7 +5081,7 @@ MailLoggerDB = {
 					["Name"] = "奥金尼治疗药水",
 				}, -- [1]
 			},
-		}, -- [196]
+		}, -- [195]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "码农巴菲特",
@@ -5139,7 +5105,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [197]
+		}, -- [196]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "码农巴菲特",
@@ -5163,7 +5129,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [198]
+		}, -- [197]
 		{
 			["TargetName"] = "码农巴菲特",
 			["PlayerName"] = "特工仓库",
@@ -5182,7 +5148,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [199]
+		}, -- [198]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "特工仓库",
@@ -5202,7 +5168,7 @@ MailLoggerDB = {
 					["Name"] = "未鉴定过的植物",
 				}, -- [1]
 			},
-		}, -- [200]
+		}, -- [199]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "码农巴菲特",
@@ -5231,7 +5197,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [201]
+		}, -- [200]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "码农巴菲特",
@@ -5290,7 +5256,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [202]
+		}, -- [201]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "码农巴菲特",
@@ -5314,7 +5280,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [203]
+		}, -- [202]
 		{
 			["TargetName"] = "沈南鹏",
 			["PlayerName"] = "码农巴菲特",
@@ -5328,7 +5294,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [204]
+		}, -- [203]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -5348,7 +5314,7 @@ MailLoggerDB = {
 					["Name"] = "灵纹布包",
 				}, -- [1]
 			},
-		}, -- [205]
+		}, -- [204]
 		{
 			["TargetName"] = "沈南鹏",
 			["PlayerName"] = "特工仓库",
@@ -5367,7 +5333,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [206]
+		}, -- [205]
 		{
 			["PlayerName"] = "沈南鹏",
 			["TargetName"] = "码农巴菲特",
@@ -5382,7 +5348,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [207]
+		}, -- [206]
 		{
 			["PlayerName"] = "沈南鹏",
 			["TargetName"] = "特工仓库",
@@ -5402,7 +5368,7 @@ MailLoggerDB = {
 					["Name"] = "灵纹布包",
 				}, -- [1]
 			},
-		}, -- [208]
+		}, -- [207]
 		{
 			["PlayerName"] = "沈南鹏",
 			["TargetName"] = "联盟拍卖行",
@@ -5422,7 +5388,7 @@ MailLoggerDB = {
 					["Name"] = "孤狼之锋利的重剑",
 				}, -- [1]
 			},
-		}, -- [209]
+		}, -- [208]
 		{
 			["PlayerName"] = "沈南鹏",
 			["TargetName"] = "联盟拍卖行",
@@ -5447,7 +5413,7 @@ MailLoggerDB = {
 					["Name"] = "劣质磨刀石",
 				}, -- [2]
 			},
-		}, -- [210]
+		}, -- [209]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -5494,7 +5460,7 @@ MailLoggerDB = {
 					["Name"] = "劣质青铜护腿",
 				}, -- [8]
 			},
-		}, -- [211]
+		}, -- [210]
 		{
 			["TargetName"] = "沈南鹏",
 			["PlayerName"] = "特工仓库",
@@ -5538,7 +5504,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [212]
+		}, -- [211]
 		{
 			["PlayerName"] = "沈南鹏",
 			["TargetName"] = "特工仓库",
@@ -5583,7 +5549,7 @@ MailLoggerDB = {
 					["Name"] = "黑石护手",
 				}, -- [6]
 			},
-		}, -- [213]
+		}, -- [212]
 		{
 			["TargetName"] = "码农巴菲特",
 			["PlayerName"] = "沈南鹏",
@@ -5602,7 +5568,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [214]
+		}, -- [213]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "沈南鹏",
@@ -5622,7 +5588,7 @@ MailLoggerDB = {
 					["Name"] = "虚空毒蛇腿甲片",
 				}, -- [1]
 			},
-		}, -- [215]
+		}, -- [214]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "联盟拍卖行",
@@ -5642,7 +5608,7 @@ MailLoggerDB = {
 					["Name"] = "卷轴：附魔武器 - 烈焰",
 				}, -- [1]
 			},
-		}, -- [216]
+		}, -- [215]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "联盟拍卖行",
@@ -5662,7 +5628,7 @@ MailLoggerDB = {
 					["Name"] = "虚空毒蛇腿甲片",
 				}, -- [1]
 			},
-		}, -- [217]
+		}, -- [216]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "联盟拍卖行",
@@ -5682,7 +5648,7 @@ MailLoggerDB = {
 					["Name"] = "劣质青铜护腿",
 				}, -- [1]
 			},
-		}, -- [218]
+		}, -- [217]
 		{
 			["TargetName"] = "沈南鹏",
 			["PlayerName"] = "码农巴菲特",
@@ -5701,7 +5667,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [219]
+		}, -- [218]
 		{
 			["PlayerName"] = "沈南鹏",
 			["TargetName"] = "码农巴菲特",
@@ -5721,7 +5687,7 @@ MailLoggerDB = {
 					["Name"] = "卷轴：附魔武器 - 烈焰",
 				}, -- [1]
 			},
-		}, -- [220]
+		}, -- [219]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "联盟拍卖行",
@@ -5746,7 +5712,7 @@ MailLoggerDB = {
 					["Name"] = "虚空毒蛇腿甲片",
 				}, -- [2]
 			},
-		}, -- [221]
+		}, -- [220]
 		{
 			["PlayerName"] = "沈南鹏",
 			["TargetName"] = "联盟拍卖行",
@@ -5766,7 +5732,7 @@ MailLoggerDB = {
 					["Name"] = "秘银马刺",
 				}, -- [1]
 			},
-		}, -- [222]
+		}, -- [221]
 		{
 			["PlayerName"] = "沈南鹏",
 			["TargetName"] = "联盟拍卖行",
@@ -5806,7 +5772,7 @@ MailLoggerDB = {
 					["Name"] = "抛光盾牌",
 				}, -- [5]
 			},
-		}, -- [223]
+		}, -- [222]
 		{
 			["TargetName"] = "晚安油条",
 			["PlayerName"] = "沈南鹏",
@@ -5835,7 +5801,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [224]
+		}, -- [223]
 		{
 			["TargetName"] = "巴拿巴",
 			["PlayerName"] = "沈南鹏",
@@ -5854,7 +5820,7 @@ MailLoggerDB = {
 					["Name"] = "束皮锁甲护肩",
 				}, -- [1]
 			},
-		}, -- [225]
+		}, -- [224]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "联盟拍卖行",
@@ -5874,7 +5840,7 @@ MailLoggerDB = {
 					["Name"] = "鱼人的鳍",
 				}, -- [1]
 			},
-		}, -- [226]
+		}, -- [225]
 		{
 			["TargetName"] = "沈南鹏",
 			["PlayerName"] = "码农巴菲特",
@@ -5893,7 +5859,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [227]
+		}, -- [226]
 		{
 			["PlayerName"] = "沈南鹏",
 			["TargetName"] = "码农巴菲特",
@@ -5913,7 +5879,7 @@ MailLoggerDB = {
 					["Name"] = "鱼人的鳍",
 				}, -- [1]
 			},
-		}, -- [228]
+		}, -- [227]
 		{
 			["TargetName"] = "连你接他",
 			["PlayerName"] = "沈南鹏",
@@ -5927,7 +5893,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [229]
+		}, -- [228]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -5947,7 +5913,7 @@ MailLoggerDB = {
 					["Name"] = "青铜管",
 				}, -- [1]
 			},
-		}, -- [230]
+		}, -- [229]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "码农巴菲特",
@@ -5988,7 +5954,7 @@ MailLoggerDB = {
 					["Name"] = "特效法力药水",
 				}, -- [6]
 			},
-		}, -- [231]
+		}, -- [230]
 		{
 			["TargetName"] = "沈南鹏",
 			["PlayerName"] = "特工仓库",
@@ -6007,7 +5973,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [232]
+		}, -- [231]
 		{
 			["PlayerName"] = "沈南鹏",
 			["TargetName"] = "特工仓库",
@@ -6027,7 +5993,7 @@ MailLoggerDB = {
 					["Name"] = "青铜管",
 				}, -- [1]
 			},
-		}, -- [233]
+		}, -- [232]
 		{
 			["TargetName"] = "牧丶糸",
 			["PlayerName"] = "沈南鹏",
@@ -6046,7 +6012,7 @@ MailLoggerDB = {
 					["Name"] = "迪菲亚叛徒之戒",
 				}, -- [1]
 			},
-		}, -- [234]
+		}, -- [233]
 		{
 			["PlayerName"] = "沈南鹏",
 			["TargetName"] = "联盟拍卖行",
@@ -6081,7 +6047,7 @@ MailLoggerDB = {
 					["Name"] = "金色巨龙戒指",
 				}, -- [4]
 			},
-		}, -- [235]
+		}, -- [234]
 		{
 			["PlayerName"] = "沈南鹏",
 			["TargetName"] = "联盟拍卖行",
@@ -6101,7 +6067,7 @@ MailLoggerDB = {
 					["Name"] = "军用锁甲护臂",
 				}, -- [1]
 			},
-		}, -- [236]
+		}, -- [235]
 		{
 			["PlayerName"] = "沈南鹏",
 			["TargetName"] = "联盟拍卖行",
@@ -6121,7 +6087,7 @@ MailLoggerDB = {
 					["Name"] = "卷轴：附魔武器 - 烈焰",
 				}, -- [1]
 			},
-		}, -- [237]
+		}, -- [236]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "沈南鹏",
@@ -6145,7 +6111,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [238]
+		}, -- [237]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "沈南鹏",
@@ -6164,7 +6130,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [239]
+		}, -- [238]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -6189,7 +6155,7 @@ MailLoggerDB = {
 					["Name"] = "强效治疗药水",
 				}, -- [2]
 			},
-		}, -- [240]
+		}, -- [239]
 		{
 			["TargetName"] = "沈南鹏",
 			["PlayerName"] = "特工仓库",
@@ -6213,7 +6179,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [241]
+		}, -- [240]
 		{
 			["PlayerName"] = "沈南鹏",
 			["TargetName"] = "特工仓库",
@@ -6238,7 +6204,7 @@ MailLoggerDB = {
 					["Name"] = "强效治疗药水",
 				}, -- [2]
 			},
-		}, -- [242]
+		}, -- [241]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -6268,7 +6234,7 @@ MailLoggerDB = {
 					["Name"] = "敏捷药剂",
 				}, -- [3]
 			},
-		}, -- [243]
+		}, -- [242]
 		{
 			["TargetName"] = "沈南鹏",
 			["PlayerName"] = "特工仓库",
@@ -6297,7 +6263,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [244]
+		}, -- [243]
 		{
 			["PlayerName"] = "沈南鹏",
 			["TargetName"] = "特工仓库",
@@ -6327,7 +6293,7 @@ MailLoggerDB = {
 					["Name"] = "毛布卷",
 				}, -- [3]
 			},
-		}, -- [245]
+		}, -- [244]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "沈南鹏",
@@ -6372,7 +6338,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [246]
+		}, -- [245]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "沈南鹏",
@@ -6396,7 +6362,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [247]
+		}, -- [246]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -6431,7 +6397,7 @@ MailLoggerDB = {
 					["Name"] = "奉献雕文",
 				}, -- [4]
 			},
-		}, -- [248]
+		}, -- [247]
 		{
 			["TargetName"] = "沈南鹏",
 			["PlayerName"] = "特工仓库",
@@ -6465,7 +6431,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [249]
+		}, -- [248]
 		{
 			["PlayerName"] = "沈南鹏",
 			["TargetName"] = "特工仓库",
@@ -6500,7 +6466,7 @@ MailLoggerDB = {
 					["Name"] = "野熊之骑士头盔",
 				}, -- [4]
 			},
-		}, -- [250]
+		}, -- [249]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "沈南鹏",
@@ -6524,7 +6490,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [251]
+		}, -- [250]
 		{
 			["TargetName"] = "春哥四位",
 			["PlayerName"] = "沈南鹏",
@@ -6538,7 +6504,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [252]
+		}, -- [251]
 		{
 			["PlayerName"] = "沈南鹏",
 			["TargetName"] = "联盟拍卖行",
@@ -6568,7 +6534,7 @@ MailLoggerDB = {
 					["Name"] = "巨鲸之哥特板甲护手",
 				}, -- [3]
 			},
-		}, -- [253]
+		}, -- [252]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -6593,7 +6559,7 @@ MailLoggerDB = {
 					["Name"] = "巨猿之巨型木槌",
 				}, -- [2]
 			},
-		}, -- [254]
+		}, -- [253]
 		{
 			["TargetName"] = "沈南鹏",
 			["PlayerName"] = "特工仓库",
@@ -6617,7 +6583,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [255]
+		}, -- [254]
 		{
 			["PlayerName"] = "沈南鹏",
 			["TargetName"] = "特工仓库",
@@ -6642,7 +6608,7 @@ MailLoggerDB = {
 					["Name"] = "巨猿之巨型木槌",
 				}, -- [2]
 			},
-		}, -- [256]
+		}, -- [255]
 		{
 			["TargetName"] = "春哥八四",
 			["PlayerName"] = "沈南鹏",
@@ -6656,7 +6622,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [257]
+		}, -- [256]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "沈南鹏",
@@ -6680,7 +6646,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [258]
+		}, -- [257]
 		{
 			["TargetName"] = "春哥六十",
 			["PlayerName"] = "沈南鹏",
@@ -6694,7 +6660,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [259]
+		}, -- [258]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "沈南鹏",
@@ -6723,7 +6689,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [260]
+		}, -- [259]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "沈南鹏",
@@ -6742,7 +6708,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [261]
+		}, -- [260]
 		{
 			["TargetName"] = "丶春哥天丅",
 			["PlayerName"] = "沈南鹏",
@@ -6756,7 +6722,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [262]
+		}, -- [261]
 		{
 			["TargetName"] = "春哥十八",
 			["PlayerName"] = "沈南鹏",
@@ -6770,7 +6736,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [263]
+		}, -- [262]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "沈南鹏",
@@ -6804,7 +6770,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [264]
+		}, -- [263]
 		{
 			["TargetName"] = "一春哥九十二",
 			["PlayerName"] = "沈南鹏",
@@ -6818,7 +6784,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [265]
+		}, -- [264]
 		{
 			["TargetName"] = "丶春哥们人",
 			["PlayerName"] = "沈南鹏",
@@ -6832,7 +6798,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [266]
+		}, -- [265]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -6852,7 +6818,7 @@ MailLoggerDB = {
 					["Name"] = "秘银外壳",
 				}, -- [1]
 			},
-		}, -- [267]
+		}, -- [266]
 		{
 			["PlayerName"] = "沈南鹏",
 			["TargetName"] = "联盟拍卖行",
@@ -6903,7 +6869,7 @@ MailLoggerDB = {
 					["Name"] = "特效敏捷药剂",
 				},
 			},
-		}, -- [268]
+		}, -- [267]
 		{
 			["PlayerName"] = "沈南鹏",
 			["TargetName"] = "普拉特·马克格鲁比",
@@ -6923,7 +6889,7 @@ MailLoggerDB = {
 					["Name"] = "毛皮护甲片",
 				}, -- [1]
 			},
-		}, -- [269]
+		}, -- [268]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "沈南鹏",
@@ -6942,7 +6908,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [270]
+		}, -- [269]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "沈南鹏",
@@ -6971,7 +6937,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [271]
+		}, -- [270]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "沈南鹏",
@@ -7000,7 +6966,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [272]
+		}, -- [271]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "沈南鹏",
@@ -7019,7 +6985,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [273]
+		}, -- [272]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "沈南鹏",
@@ -7068,7 +7034,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [274]
+		}, -- [273]
 		{
 			["PlayerName"] = "沈南鹏",
 			["TargetName"] = "联盟拍卖行",
@@ -7088,7 +7054,7 @@ MailLoggerDB = {
 					["Name"] = "特效敏捷药剂",
 				}, -- [1]
 			},
-		}, -- [275]
+		}, -- [274]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "沈南鹏",
@@ -7122,7 +7088,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [276]
+		}, -- [275]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "沈南鹏",
@@ -7141,7 +7107,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [277]
+		}, -- [276]
 		{
 			["PlayerName"] = "沈南鹏",
 			["TargetName"] = "联盟拍卖行",
@@ -7161,7 +7127,7 @@ MailLoggerDB = {
 					["Name"] = "灵纹布包",
 				}, -- [1]
 			},
-		}, -- [278]
+		}, -- [277]
 		{
 			["TargetName"] = "查尔斯三世",
 			["PlayerName"] = "沈南鹏",
@@ -7180,7 +7146,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [279]
+		}, -- [278]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "沈南鹏",
@@ -7199,7 +7165,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [280]
+		}, -- [279]
 		{
 			["PlayerName"] = "查尔斯三世",
 			["TargetName"] = "沈南鹏",
@@ -7219,7 +7185,7 @@ MailLoggerDB = {
 					["Name"] = "灵纹布包",
 				}, -- [1]
 			},
-		}, -- [281]
+		}, -- [280]
 		{
 			["TargetName"] = "查尔斯三世",
 			["PlayerName"] = "特工仓库",
@@ -7253,7 +7219,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [282]
+		}, -- [281]
 		{
 			["PlayerName"] = "查尔斯三世",
 			["TargetName"] = "特工仓库",
@@ -7288,7 +7254,7 @@ MailLoggerDB = {
 					["Name"] = "卷轴：附魔胸甲 - 强效属性",
 				}, -- [4]
 			},
-		}, -- [283]
+		}, -- [282]
 		{
 			["TargetName"] = "丶春哥大哥",
 			["PlayerName"] = "查尔斯三世",
@@ -7302,7 +7268,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [284]
+		}, -- [283]
 		{
 			["PlayerName"] = "查尔斯三世",
 			["TargetName"] = "联盟拍卖行",
@@ -7337,7 +7303,7 @@ MailLoggerDB = {
 					["Name"] = "次级法力药水",
 				}, -- [4]
 			},
-		}, -- [285]
+		}, -- [284]
 		{
 			["PlayerName"] = "查尔斯三世",
 			["TargetName"] = "联盟拍卖行",
@@ -7357,7 +7323,7 @@ MailLoggerDB = {
 					["Name"] = "次级治疗药水",
 				}, -- [1]
 			},
-		}, -- [286]
+		}, -- [285]
 		{
 			["PlayerName"] = "查尔斯三世",
 			["TargetName"] = "联盟拍卖行",
@@ -7382,7 +7348,7 @@ MailLoggerDB = {
 					["Name"] = "次级法力药水",
 				}, -- [2]
 			},
-		}, -- [287]
+		}, -- [286]
 		{
 			["TargetName"] = "春哥八三",
 			["PlayerName"] = "查尔斯三世",
@@ -7396,7 +7362,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [288]
+		}, -- [287]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -7421,7 +7387,7 @@ MailLoggerDB = {
 					["Name"] = "卷轴：附魔武器 - 烈焰",
 				}, -- [2]
 			},
-		}, -- [289]
+		}, -- [288]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "沈南鹏",
@@ -7441,7 +7407,7 @@ MailLoggerDB = {
 					["Name"] = "灵纹布",
 				}, -- [1]
 			},
-		}, -- [290]
+		}, -- [289]
 		{
 			["TargetName"] = "查尔斯三世",
 			["PlayerName"] = "特工仓库",
@@ -7460,7 +7426,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [291]
+		}, -- [290]
 		{
 			["PlayerName"] = "查尔斯三世",
 			["TargetName"] = "特工仓库",
@@ -7480,7 +7446,7 @@ MailLoggerDB = {
 					["Name"] = "青铜管",
 				}, -- [1]
 			},
-		}, -- [292]
+		}, -- [291]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "查尔斯三世",
@@ -7504,7 +7470,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [293]
+		}, -- [292]
 		{
 			["PlayerName"] = "查尔斯三世",
 			["TargetName"] = "联盟拍卖行",
@@ -7529,7 +7495,7 @@ MailLoggerDB = {
 					["Name"] = "强效治疗药水",
 				},
 			},
-		}, -- [294]
+		}, -- [293]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "查尔斯三世",
@@ -7553,7 +7519,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [295]
+		}, -- [294]
 		{
 			["PlayerName"] = "查尔斯三世",
 			["TargetName"] = "联盟拍卖行",
@@ -7578,7 +7544,7 @@ MailLoggerDB = {
 					["Name"] = "毛布卷",
 				}, -- [2]
 			},
-		}, -- [296]
+		}, -- [295]
 		{
 			["PlayerName"] = "查尔斯三世",
 			["TargetName"] = "联盟拍卖行",
@@ -7618,7 +7584,7 @@ MailLoggerDB = {
 					["Name"] = "秘银马刺",
 				}, -- [5]
 			},
-		}, -- [297]
+		}, -- [296]
 		{
 			["PlayerName"] = "查尔斯三世",
 			["TargetName"] = "联盟拍卖行",
@@ -7638,7 +7604,7 @@ MailLoggerDB = {
 					["Name"] = "金色治疗之黄水晶坠饰",
 				}, -- [1]
 			},
-		}, -- [298]
+		}, -- [297]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "查尔斯三世",
@@ -7662,7 +7628,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [299]
+		}, -- [298]
 		{
 			["PlayerName"] = "查尔斯三世",
 			["TargetName"] = "联盟拍卖行",
@@ -7682,7 +7648,7 @@ MailLoggerDB = {
 					["Name"] = "强力水下呼吸药剂",
 				}, -- [1]
 			},
-		}, -- [300]
+		}, -- [299]
 		{
 			["PlayerName"] = "查尔斯三世",
 			["TargetName"] = "联盟拍卖行",
@@ -7702,7 +7668,7 @@ MailLoggerDB = {
 					["Name"] = "强效法力药水",
 				}, -- [1]
 			},
-		}, -- [301]
+		}, -- [300]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "查尔斯三世",
@@ -7721,7 +7687,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [302]
+		}, -- [301]
 		{
 			["TargetName"] = "春哥八三",
 			["PlayerName"] = "查尔斯三世",
@@ -7735,7 +7701,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [303]
+		}, -- [302]
 		{
 			["TargetName"] = "春哥八三",
 			["PlayerName"] = "查尔斯三世",
@@ -7749,7 +7715,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [304]
+		}, -- [303]
 		{
 			["TargetName"] = "春哥六三",
 			["PlayerName"] = "查尔斯三世",
@@ -7763,7 +7729,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [305]
+		}, -- [304]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "查尔斯三世",
@@ -7797,7 +7763,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [306]
+		}, -- [305]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "查尔斯三世",
@@ -7826,7 +7792,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [307]
+		}, -- [306]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "查尔斯三世",
@@ -7850,7 +7816,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [308]
+		}, -- [307]
 		{
 			["PlayerName"] = "查尔斯三世",
 			["TargetName"] = "联盟拍卖行",
@@ -7870,7 +7836,7 @@ MailLoggerDB = {
 					["Name"] = "秘银外壳",
 				}, -- [1]
 			},
-		}, -- [309]
+		}, -- [308]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "查尔斯三世",
@@ -7889,7 +7855,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [310]
+		}, -- [309]
 		{
 			["PlayerName"] = "查尔斯三世",
 			["TargetName"] = "联盟拍卖行",
@@ -7914,7 +7880,7 @@ MailLoggerDB = {
 					["Name"] = "奥术智慧雕文",
 				}, -- [2]
 			},
-		}, -- [311]
+		}, -- [310]
 		{
 			["PlayerName"] = "查尔斯三世",
 			["TargetName"] = "联盟拍卖行",
@@ -7939,7 +7905,7 @@ MailLoggerDB = {
 					["Name"] = "治疗药水注射器",
 				}, -- [2]
 			},
-		}, -- [312]
+		}, -- [311]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "查尔斯三世",
@@ -7963,7 +7929,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [313]
+		}, -- [312]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "查尔斯三世",
@@ -7987,7 +7953,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [314]
+		}, -- [313]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "查尔斯三世",
@@ -8006,7 +7972,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [315]
+		}, -- [314]
 		{
 			["PlayerName"] = "查尔斯三世",
 			["TargetName"] = "联盟拍卖行",
@@ -8026,7 +7992,7 @@ MailLoggerDB = {
 					["Name"] = "秘银马刺",
 				}, -- [1]
 			},
-		}, -- [316]
+		}, -- [315]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "查尔斯三世",
@@ -8070,7 +8036,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [317]
+		}, -- [316]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "查尔斯三世",
@@ -8094,7 +8060,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [318]
+		}, -- [317]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "查尔斯三世",
@@ -8128,7 +8094,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [319]
+		}, -- [318]
 		{
 			["TargetName"] = "Oneonone",
 			["PlayerName"] = "特变电工",
@@ -8142,7 +8108,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [320]
+		}, -- [319]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特工仓库",
@@ -8161,7 +8127,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [321]
+		}, -- [320]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特工仓库",
@@ -8180,7 +8146,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [322]
+		}, -- [321]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特工仓库",
@@ -8199,7 +8165,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [323]
+		}, -- [322]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "查尔斯三世",
@@ -8229,7 +8195,7 @@ MailLoggerDB = {
 					["Name"] = "魔纹布",
 				},
 			},
-		}, -- [324]
+		}, -- [323]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "查尔斯三世",
@@ -8249,7 +8215,7 @@ MailLoggerDB = {
 					["Name"] = "魔纹布",
 				}, -- [1]
 			},
-		}, -- [325]
+		}, -- [324]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特工仓库",
@@ -8273,7 +8239,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [326]
+		}, -- [325]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -8293,7 +8259,7 @@ MailLoggerDB = {
 					["Name"] = "亚麻布",
 				}, -- [1]
 			},
-		}, -- [327]
+		}, -- [326]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特工仓库",
@@ -8328,7 +8294,7 @@ MailLoggerDB = {
 					["Name"] = "丝绸",
 				},
 			},
-		}, -- [328]
+		}, -- [327]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -8348,7 +8314,7 @@ MailLoggerDB = {
 					["Name"] = "亚麻布",
 				}, -- [1]
 			},
-		}, -- [329]
+		}, -- [328]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "查尔斯三世",
@@ -8368,7 +8334,7 @@ MailLoggerDB = {
 					["Name"] = "毛料",
 				}, -- [1]
 			},
-		}, -- [330]
+		}, -- [329]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特工仓库",
@@ -8387,7 +8353,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [331]
+		}, -- [330]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "查尔斯三世",
@@ -8407,7 +8373,7 @@ MailLoggerDB = {
 					["Name"] = "魔纹布",
 				}, -- [1]
 			},
-		}, -- [332]
+		}, -- [331]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特工仓库",
@@ -8427,7 +8393,7 @@ MailLoggerDB = {
 					["Name"] = "毛料",
 				}, -- [1]
 			},
-		}, -- [333]
+		}, -- [332]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "沈南鹏",
@@ -8447,7 +8413,7 @@ MailLoggerDB = {
 					["Name"] = "毛料",
 				}, -- [1]
 			},
-		}, -- [334]
+		}, -- [333]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "沈南鹏",
@@ -8467,7 +8433,7 @@ MailLoggerDB = {
 					["Name"] = "毛料",
 				}, -- [1]
 			},
-		}, -- [335]
+		}, -- [334]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特工仓库",
@@ -8486,7 +8452,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [336]
+		}, -- [335]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特工仓库",
@@ -8506,7 +8472,7 @@ MailLoggerDB = {
 					["Name"] = "毛料",
 				}, -- [1]
 			},
-		}, -- [337]
+		}, -- [336]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特工仓库",
@@ -8525,7 +8491,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [338]
+		}, -- [337]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特工仓库",
@@ -8545,7 +8511,7 @@ MailLoggerDB = {
 					["Name"] = "丝绸",
 				}, -- [1]
 			},
-		}, -- [339]
+		}, -- [338]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特工仓库",
@@ -8564,7 +8530,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [340]
+		}, -- [339]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特工仓库",
@@ -8584,7 +8550,7 @@ MailLoggerDB = {
 					["Name"] = "魔纹布",
 				}, -- [1]
 			},
-		}, -- [341]
+		}, -- [340]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -8613,7 +8579,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [342]
+		}, -- [341]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -8642,7 +8608,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [343]
+		}, -- [342]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -8662,7 +8628,7 @@ MailLoggerDB = {
 					["Name"] = "漂浮雕文",
 				}, -- [1]
 			},
-		}, -- [344]
+		}, -- [343]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -8697,7 +8663,7 @@ MailLoggerDB = {
 					["Name"] = "漂浮雕文",
 				}, -- [4]
 			},
-		}, -- [345]
+		}, -- [344]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "查尔斯三世",
@@ -8711,7 +8677,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [346]
+		}, -- [345]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "查尔斯三世",
@@ -8726,7 +8692,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [347]
+		}, -- [346]
 		{
 			["TargetName"] = "邪龍",
 			["PlayerName"] = "新特能源",
@@ -8739,7 +8705,7 @@ MailLoggerDB = {
 			["Date"] = "2022-09-25",
 			["ReceiveItems"] = {
 			},
-		}, -- [348]
+		}, -- [347]
 		{
 			["TargetName"] = "邪龍",
 			["PlayerName"] = "新特能源",
@@ -8773,7 +8739,7 @@ MailLoggerDB = {
 					["Name"] = "阵亡卫士的胸甲",
 				}, -- [4]
 			},
-		}, -- [349]
+		}, -- [348]
 		{
 			["TargetName"] = "天泽一",
 			["PlayerName"] = "新特能源",
@@ -8786,7 +8752,7 @@ MailLoggerDB = {
 			["Date"] = "2022-09-25",
 			["ReceiveItems"] = {
 			},
-		}, -- [350]
+		}, -- [349]
 		{
 			["TargetName"] = "天泽一",
 			["PlayerName"] = "新特能源",
@@ -8800,7 +8766,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [351]
+		}, -- [350]
 		{
 			["TargetName"] = "春哥八六",
 			["PlayerName"] = "新特能源",
@@ -8813,7 +8779,7 @@ MailLoggerDB = {
 			["Date"] = "2022-09-25",
 			["ReceiveItems"] = {
 			},
-		}, -- [352]
+		}, -- [351]
 		{
 			["TargetName"] = "春哥八六",
 			["PlayerName"] = "新特能源",
@@ -8827,7 +8793,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [353]
+		}, -- [352]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -8847,7 +8813,7 @@ MailLoggerDB = {
 					["Name"] = "法能药剂",
 				}, -- [1]
 			},
-		}, -- [354]
+		}, -- [353]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "牧丶糸",
@@ -8883,7 +8849,7 @@ MailLoggerDB = {
 					["Name"] = "治疗能量药剂",
 				}, -- [5]
 			},
-		}, -- [355]
+		}, -- [354]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -8912,7 +8878,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [356]
+		}, -- [355]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -8931,7 +8897,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [357]
+		}, -- [356]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -8950,7 +8916,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [358]
+		}, -- [357]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -8974,7 +8940,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [359]
+		}, -- [358]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -9008,7 +8974,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [360]
+		}, -- [359]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -9027,7 +8993,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [361]
+		}, -- [360]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -9046,7 +9012,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [362]
+		}, -- [361]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -9065,7 +9031,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [363]
+		}, -- [362]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -9104,7 +9070,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [364]
+		}, -- [363]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -9123,7 +9089,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [365]
+		}, -- [364]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -9142,7 +9108,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [366]
+		}, -- [365]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -9161,7 +9127,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [367]
+		}, -- [366]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -9185,7 +9151,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [368]
+		}, -- [367]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -9204,7 +9170,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [369]
+		}, -- [368]
 		{
 			["Date"] = "2022-09-28",
 			["TargetName"] = "春哥六三",
@@ -9217,7 +9183,7 @@ MailLoggerDB = {
 			["PlayerName"] = "新特能源",
 			["ReceiveItems"] = {
 			},
-		}, -- [370]
+		}, -- [369]
 		{
 			["TargetName"] = "春哥六三",
 			["PlayerName"] = "新特能源",
@@ -9231,7 +9197,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [371]
+		}, -- [370]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -9275,7 +9241,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [372]
+		}, -- [371]
 		{
 			["PlayerName"] = "新特能源",
 			["Date"] = "2022-10-01",
@@ -9288,7 +9254,7 @@ MailLoggerDB = {
 			["TargetName"] = "春哥六拾",
 			["ReceiveItems"] = {
 			},
-		}, -- [373]
+		}, -- [372]
 		{
 			["TargetName"] = "春哥六拾",
 			["PlayerName"] = "新特能源",
@@ -9302,7 +9268,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [374]
+		}, -- [373]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -9322,7 +9288,7 @@ MailLoggerDB = {
 					["Name"] = "霜纹包",
 				}, -- [1]
 			},
-		}, -- [375]
+		}, -- [374]
 		{
 			["Date"] = "2022-10-01",
 			["PlayerName"] = "新特能源",
@@ -9335,7 +9301,7 @@ MailLoggerDB = {
 			["Time"] = "16:00:20",
 			["ReceiveItems"] = {
 			},
-		}, -- [376]
+		}, -- [375]
 		{
 			["TargetName"] = "Haruno",
 			["PlayerName"] = "新特能源",
@@ -9354,7 +9320,7 @@ MailLoggerDB = {
 					["Name"] = "海豹的乳汁",
 				}, -- [1]
 			},
-		}, -- [377]
+		}, -- [376]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -9414,7 +9380,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [378]
+		}, -- [377]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -9438,7 +9404,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [379]
+		}, -- [378]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -9482,7 +9448,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [380]
+		}, -- [379]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -9501,7 +9467,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [381]
+		}, -- [380]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -9520,7 +9486,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [382]
+		}, -- [381]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "连你接他",
@@ -9535,7 +9501,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [383]
+		}, -- [382]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -9597,7 +9563,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [384]
+		}, -- [383]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -9616,7 +9582,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [385]
+		}, -- [384]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -9635,7 +9601,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [386]
+		}, -- [385]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -9709,7 +9675,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [387]
+		}, -- [386]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -9728,7 +9694,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [388]
+		}, -- [387]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "罗宁",
@@ -9748,7 +9714,7 @@ MailLoggerDB = {
 					["Name"] = "魔法包装的礼物",
 				}, -- [1]
 			},
-		}, -- [389]
+		}, -- [388]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -9773,7 +9739,7 @@ MailLoggerDB = {
 					["Name"] = "暗影魔雕文",
 				}, -- [2]
 			},
-		}, -- [390]
+		}, -- [389]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -9803,7 +9769,7 @@ MailLoggerDB = {
 					["Name"] = "防护暗影雕文",
 				}, -- [3]
 			},
-		}, -- [391]
+		}, -- [390]
 		{
 			["PlayerName"] = "新特能源",
 			["Date"] = "2022-10-02",
@@ -9815,53 +9781,67 @@ MailLoggerDB = {
 			},
 			["TargetName"] = "牧丶糸",
 			["ReceiveItems"] = {
+			},
+		}, -- [391]
+		{
+			["TargetName"] = "牧丶糸",
+			["PlayerName"] = "新特能源",
+			["Date"] = "2022-10-02",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:07:18",
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28118::::::::80:::::::::|h[符文红绚石]|h|r",
+					["Name"] = "符文红绚石",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28118::::::::80:::::::::|h[符文红绚石]|h|r",
+					["Name"] = "符文红绚石",
+				}, -- [2]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28118::::::::80:::::::::|h[符文红绚石]|h|r",
+					["Name"] = "符文红绚石",
+				}, -- [3]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28118::::::::80:::::::::|h[符文红绚石]|h|r",
+					["Name"] = "符文红绚石",
+				}, -- [4]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28118::::::::80:::::::::|h[符文红绚石]|h|r",
+					["Name"] = "符文红绚石",
+				}, -- [5]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28118::::::::80:::::::::|h[符文红绚石]|h|r",
+					["Name"] = "符文红绚石",
+				}, -- [6]
 			},
 		}, -- [392]
 		{
-			["TargetName"] = "牧丶糸",
 			["PlayerName"] = "新特能源",
 			["Date"] = "2022-10-02",
 			["ReceiveMoney"] = 0,
-			["Time"] = "22:07:18",
+			["Time"] = "22:07:41",
 			["GiveMoney"] = 0,
 			["Location"] = "达拉然",
 			["GiveItems"] = {
 			},
-			["Result"] = "completed",
+			["TargetName"] = "牧丶糸",
 			["ReceiveItems"] = {
-				{
-					["Number"] = 1,
-					["ItemLink"] = "|cffa335ee|Hitem:28118::::::::80:::::::::|h[符文红绚石]|h|r",
-					["Name"] = "符文红绚石",
-				}, -- [1]
-				{
-					["Number"] = 1,
-					["ItemLink"] = "|cffa335ee|Hitem:28118::::::::80:::::::::|h[符文红绚石]|h|r",
-					["Name"] = "符文红绚石",
-				}, -- [2]
-				{
-					["Number"] = 1,
-					["ItemLink"] = "|cffa335ee|Hitem:28118::::::::80:::::::::|h[符文红绚石]|h|r",
-					["Name"] = "符文红绚石",
-				}, -- [3]
-				{
-					["Number"] = 1,
-					["ItemLink"] = "|cffa335ee|Hitem:28118::::::::80:::::::::|h[符文红绚石]|h|r",
-					["Name"] = "符文红绚石",
-				}, -- [4]
-				{
-					["Number"] = 1,
-					["ItemLink"] = "|cffa335ee|Hitem:28118::::::::80:::::::::|h[符文红绚石]|h|r",
-					["Name"] = "符文红绚石",
-				}, -- [5]
-				{
-					["Number"] = 1,
-					["ItemLink"] = "|cffa335ee|Hitem:28118::::::::80:::::::::|h[符文红绚石]|h|r",
-					["Name"] = "符文红绚石",
-				}, -- [6]
 			},
 		}, -- [393]
 		{
+			["TargetName"] = "牧丶糸",
 			["PlayerName"] = "新特能源",
 			["Date"] = "2022-10-02",
 			["ReceiveMoney"] = 0,
@@ -9870,68 +9850,54 @@ MailLoggerDB = {
 			["Location"] = "达拉然",
 			["GiveItems"] = {
 			},
-			["TargetName"] = "牧丶糸",
+			["Result"] = "completed",
 			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28123::::::::80:::::::::|h[高能精致黄宝石]|h|r",
+					["Name"] = "高能精致黄宝石",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28123::::::::80:::::::::|h[高能精致黄宝石]|h|r",
+					["Name"] = "高能精致黄宝石",
+				}, -- [2]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28123::::::::80:::::::::|h[高能精致黄宝石]|h|r",
+					["Name"] = "高能精致黄宝石",
+				}, -- [3]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28123::::::::80:::::::::|h[高能精致黄宝石]|h|r",
+					["Name"] = "高能精致黄宝石",
+				}, -- [4]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28123::::::::80:::::::::|h[高能精致黄宝石]|h|r",
+					["Name"] = "高能精致黄宝石",
+				}, -- [5]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:28123::::::::80:::::::::|h[高能精致黄宝石]|h|r",
+					["Name"] = "高能精致黄宝石",
+				}, -- [6]
 			},
 		}, -- [394]
 		{
-			["TargetName"] = "牧丶糸",
 			["PlayerName"] = "新特能源",
 			["Date"] = "2022-10-02",
 			["ReceiveMoney"] = 0,
-			["Time"] = "22:07:41",
+			["Time"] = "22:07:49",
 			["GiveMoney"] = 0,
 			["Location"] = "达拉然",
 			["GiveItems"] = {
 			},
-			["Result"] = "completed",
+			["TargetName"] = "牧丶糸",
 			["ReceiveItems"] = {
-				{
-					["Number"] = 1,
-					["ItemLink"] = "|cffa335ee|Hitem:28123::::::::80:::::::::|h[高能精致黄宝石]|h|r",
-					["Name"] = "高能精致黄宝石",
-				}, -- [1]
-				{
-					["Number"] = 1,
-					["ItemLink"] = "|cffa335ee|Hitem:28123::::::::80:::::::::|h[高能精致黄宝石]|h|r",
-					["Name"] = "高能精致黄宝石",
-				}, -- [2]
-				{
-					["Number"] = 1,
-					["ItemLink"] = "|cffa335ee|Hitem:28123::::::::80:::::::::|h[高能精致黄宝石]|h|r",
-					["Name"] = "高能精致黄宝石",
-				}, -- [3]
-				{
-					["Number"] = 1,
-					["ItemLink"] = "|cffa335ee|Hitem:28123::::::::80:::::::::|h[高能精致黄宝石]|h|r",
-					["Name"] = "高能精致黄宝石",
-				}, -- [4]
-				{
-					["Number"] = 1,
-					["ItemLink"] = "|cffa335ee|Hitem:28123::::::::80:::::::::|h[高能精致黄宝石]|h|r",
-					["Name"] = "高能精致黄宝石",
-				}, -- [5]
-				{
-					["Number"] = 1,
-					["ItemLink"] = "|cffa335ee|Hitem:28123::::::::80:::::::::|h[高能精致黄宝石]|h|r",
-					["Name"] = "高能精致黄宝石",
-				}, -- [6]
 			},
 		}, -- [395]
 		{
-			["PlayerName"] = "新特能源",
-			["Date"] = "2022-10-02",
-			["ReceiveMoney"] = 0,
-			["Time"] = "22:07:49",
-			["GiveMoney"] = 0,
-			["Location"] = "达拉然",
-			["GiveItems"] = {
-			},
-			["TargetName"] = "牧丶糸",
-			["ReceiveItems"] = {
-			},
-		}, -- [396]
-		{
 			["TargetName"] = "牧丶糸",
 			["PlayerName"] = "新特能源",
 			["Date"] = "2022-10-02",
@@ -9974,7 +9940,7 @@ MailLoggerDB = {
 					["Name"] = "符文红绚石",
 				}, -- [6]
 			},
-		}, -- [397]
+		}, -- [396]
 		{
 			["PlayerName"] = "新特能源",
 			["Date"] = "2022-10-02",
@@ -9987,7 +9953,7 @@ MailLoggerDB = {
 			["TargetName"] = "牧丶糸",
 			["ReceiveItems"] = {
 			},
-		}, -- [398]
+		}, -- [397]
 		{
 			["TargetName"] = "牧丶糸",
 			["PlayerName"] = "新特能源",
@@ -10016,7 +9982,7 @@ MailLoggerDB = {
 					["Name"] = "高能精致黄宝石",
 				}, -- [3]
 			},
-		}, -- [399]
+		}, -- [398]
 		{
 			["PlayerName"] = "新特能源",
 			["Date"] = "2022-10-02",
@@ -10029,7 +9995,7 @@ MailLoggerDB = {
 			["TargetName"] = "战复丶德",
 			["ReceiveItems"] = {
 			},
-		}, -- [400]
+		}, -- [399]
 		{
 			["TargetName"] = "战复丶德",
 			["PlayerName"] = "新特能源",
@@ -10048,7 +10014,7 @@ MailLoggerDB = {
 					["Name"] = "卷轴：附魔手套 - 优异法术能量",
 				}, -- [1]
 			},
-		}, -- [401]
+		}, -- [400]
 		{
 			["PlayerName"] = "新特能源",
 			["Date"] = "2022-10-02",
@@ -10061,7 +10027,7 @@ MailLoggerDB = {
 			["TargetName"] = "战复丶德",
 			["ReceiveItems"] = {
 			},
-		}, -- [402]
+		}, -- [401]
 		{
 			["TargetName"] = "战复丶德",
 			["PlayerName"] = "新特能源",
@@ -10080,7 +10046,7 @@ MailLoggerDB = {
 					["Name"] = "符文血玉石",
 				}, -- [1]
 			},
-		}, -- [403]
+		}, -- [402]
 		{
 			["PlayerName"] = "新特能源",
 			["Date"] = "2022-10-02",
@@ -10093,7 +10059,7 @@ MailLoggerDB = {
 			["TargetName"] = "战复丶德",
 			["ReceiveItems"] = {
 			},
-		}, -- [404]
+		}, -- [403]
 		{
 			["TargetName"] = "战复丶德",
 			["PlayerName"] = "新特能源",
@@ -10117,7 +10083,7 @@ MailLoggerDB = {
 					["Name"] = "薄荷蜜茶",
 				}, -- [2]
 			},
-		}, -- [405]
+		}, -- [404]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "新特能源",
@@ -10282,7 +10248,7 @@ MailLoggerDB = {
 					["Name"] = "薄荷蜜茶",
 				},
 			},
-		}, -- [406]
+		}, -- [405]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "新特能源",
@@ -10385,7 +10351,7 @@ MailLoggerDB = {
 					["Name"] = "保护卷轴 VII",
 				},
 			},
-		}, -- [407]
+		}, -- [406]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -10405,7 +10371,7 @@ MailLoggerDB = {
 					["Name"] = "奇怪的孢子",
 				}, -- [1]
 			},
-		}, -- [408]
+		}, -- [407]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "新特能源",
@@ -10441,7 +10407,7 @@ MailLoggerDB = {
 					["Name"] = "灵纹布",
 				},
 			},
-		}, -- [409]
+		}, -- [408]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "查尔斯三世",
@@ -10491,7 +10457,7 @@ MailLoggerDB = {
 					["Name"] = "水之微粒",
 				},
 			},
-		}, -- [410]
+		}, -- [409]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "查尔斯三世",
@@ -10581,7 +10547,7 @@ MailLoggerDB = {
 					["Name"] = "青绿石",
 				},
 			},
-		}, -- [411]
+		}, -- [410]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "查尔斯三世",
@@ -10606,7 +10572,7 @@ MailLoggerDB = {
 					["Name"] = "绿玛瑙",
 				},
 			},
-		}, -- [412]
+		}, -- [411]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "沈南鹏",
@@ -10687,7 +10653,7 @@ MailLoggerDB = {
 					["Name"] = "特效治疗药水",
 				},
 			},
-		}, -- [413]
+		}, -- [412]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "沈南鹏",
@@ -10727,7 +10693,7 @@ MailLoggerDB = {
 					["Name"] = "符文布",
 				},
 			},
-		}, -- [414]
+		}, -- [413]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "沈南鹏",
@@ -10751,10 +10717,10 @@ MailLoggerDB = {
 					["ItemLink"] = "|cffffffff|Hitem:4338::::::::1:::::::::|h[魔纹布]|h|r",
 					["Name"] = "魔纹布",
 				},
-				[33] = {
-					["Number"] = 13,
-					["ItemLink"] = "|cffffffff|Hitem:5504::::::::1:::::::::|h[有腥味的蚌肉]|h|r",
-					["Name"] = "有腥味的蚌肉",
+				[12] = {
+					["Number"] = 2,
+					["ItemLink"] = "|cff1eff00|Hitem:8402::::::::1:::::::::|h[图样：硬化蝎壳头盔]|h|r",
+					["Name"] = "图样：硬化蝎壳头盔",
 				},
 				[8] = {
 					["Number"] = 205,
@@ -10766,28 +10732,28 @@ MailLoggerDB = {
 					["ItemLink"] = "|cff1eff00|Hitem:7910::::::::1:::::::::|h[红宝石]|h|r",
 					["Name"] = "红宝石",
 				},
-				[12] = {
-					["Number"] = 2,
-					["ItemLink"] = "|cff1eff00|Hitem:8402::::::::1:::::::::|h[图样：硬化蝎壳头盔]|h|r",
-					["Name"] = "图样：硬化蝎壳头盔",
-				},
-				[34] = {
-					["Number"] = 2,
-					["ItemLink"] = "|cff1eff00|Hitem:5500::::::::1:::::::::|h[彩色珍珠]|h|r",
-					["Name"] = "彩色珍珠",
-				},
-				[9] = {
-					["Number"] = 1,
-					["ItemLink"] = "|cff1eff00|Hitem:7971::::::::1:::::::::|h[黑珍珠]|h|r",
-					["Name"] = "黑珍珠",
+				[33] = {
+					["Number"] = 13,
+					["ItemLink"] = "|cffffffff|Hitem:5504::::::::1:::::::::|h[有腥味的蚌肉]|h|r",
+					["Name"] = "有腥味的蚌肉",
 				},
 				[4] = {
 					["Number"] = 3,
 					["ItemLink"] = "|cff1eff00|Hitem:5498::::::::1:::::::::|h[有光泽的小珍珠]|h|r",
 					["Name"] = "有光泽的小珍珠",
 				},
+				[9] = {
+					["Number"] = 1,
+					["ItemLink"] = "|cff1eff00|Hitem:7971::::::::1:::::::::|h[黑珍珠]|h|r",
+					["Name"] = "黑珍珠",
+				},
+				[34] = {
+					["Number"] = 2,
+					["ItemLink"] = "|cff1eff00|Hitem:5500::::::::1:::::::::|h[彩色珍珠]|h|r",
+					["Name"] = "彩色珍珠",
+				},
 			},
-		}, -- [415]
+		}, -- [414]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "沈南鹏",
@@ -10817,7 +10783,7 @@ MailLoggerDB = {
 					["Name"] = "丝绸",
 				},
 			},
-		}, -- [416]
+		}, -- [415]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "码农巴菲特",
@@ -10857,7 +10823,7 @@ MailLoggerDB = {
 					["Name"] = "源生之水",
 				},
 			},
-		}, -- [417]
+		}, -- [416]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "码农巴菲特",
@@ -10908,7 +10874,7 @@ MailLoggerDB = {
 					["Name"] = "符文布",
 				},
 			},
-		}, -- [418]
+		}, -- [417]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "新特能源",
@@ -10927,7 +10893,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [419]
+		}, -- [418]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "電丶爷",
@@ -10947,7 +10913,7 @@ MailLoggerDB = {
 					["Name"] = "维库镣铐",
 				}, -- [1]
 			},
-		}, -- [420]
+		}, -- [419]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "新特能源",
@@ -10967,7 +10933,7 @@ MailLoggerDB = {
 					["Name"] = "寒冷天气飞行宝典",
 				}, -- [1]
 			},
-		}, -- [421]
+		}, -- [420]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -10987,7 +10953,7 @@ MailLoggerDB = {
 					["Name"] = "霜纹包",
 				}, -- [1]
 			},
-		}, -- [422]
+		}, -- [421]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特变电工",
@@ -11006,7 +10972,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [423]
+		}, -- [422]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -11035,7 +11001,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [424]
+		}, -- [423]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -11075,7 +11041,7 @@ MailLoggerDB = {
 					["Name"] = "消失雕文",
 				}, -- [5]
 			},
-		}, -- [425]
+		}, -- [424]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "丶春哥大哥",
@@ -11088,7 +11054,7 @@ MailLoggerDB = {
 			["Time"] = "18:57:52",
 			["ReceiveItems"] = {
 			},
-		}, -- [426]
+		}, -- [425]
 		{
 			["TargetName"] = "丶春哥大哥",
 			["PlayerName"] = "特变电工",
@@ -11100,24 +11066,24 @@ MailLoggerDB = {
 			["GiveItems"] = {
 			},
 			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [426]
+		{
+			["TargetName"] = "春哥六五",
+			["Date"] = "2022-10-04",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["PlayerName"] = "特变电工",
+			["Time"] = "01:53:13",
 			["ReceiveItems"] = {
 			},
 		}, -- [427]
 		{
 			["TargetName"] = "春哥六五",
-			["Date"] = "2022-10-04",
-			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
-			["GiveMoney"] = 0,
-			["Location"] = "达拉然",
-			["PlayerName"] = "特变电工",
-			["Time"] = "01:53:13",
-			["ReceiveItems"] = {
-			},
-		}, -- [428]
-		{
-			["TargetName"] = "春哥六五",
 			["PlayerName"] = "特变电工",
 			["Date"] = "2022-10-04",
 			["ReceiveMoney"] = 0,
@@ -11129,7 +11095,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [429]
+		}, -- [428]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -11173,7 +11139,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [430]
+		}, -- [429]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "春哥六五",
@@ -11186,7 +11152,7 @@ MailLoggerDB = {
 			["Time"] = "11:32:56",
 			["ReceiveItems"] = {
 			},
-		}, -- [431]
+		}, -- [430]
 		{
 			["TargetName"] = "春哥六五",
 			["PlayerName"] = "特变电工",
@@ -11200,7 +11166,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [432]
+		}, -- [431]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -11219,7 +11185,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [433]
+		}, -- [432]
 		{
 			["TargetName"] = "肥兔",
 			["PlayerName"] = "新特能源",
@@ -11232,7 +11198,7 @@ MailLoggerDB = {
 			["Date"] = "2022-10-04",
 			["ReceiveItems"] = {
 			},
-		}, -- [434]
+		}, -- [433]
 		{
 			["TargetName"] = "肥兔",
 			["PlayerName"] = "新特能源",
@@ -11251,7 +11217,7 @@ MailLoggerDB = {
 					["Name"] = "符文法力药水",
 				}, -- [1]
 			},
-		}, -- [435]
+		}, -- [434]
 		{
 			["TargetName"] = "肥兔",
 			["PlayerName"] = "新特能源",
@@ -11264,7 +11230,7 @@ MailLoggerDB = {
 			["Date"] = "2022-10-04",
 			["ReceiveItems"] = {
 			},
-		}, -- [436]
+		}, -- [435]
 		{
 			["TargetName"] = "肥兔",
 			["PlayerName"] = "新特能源",
@@ -11283,7 +11249,7 @@ MailLoggerDB = {
 					["Name"] = "魔法酪饼",
 				}, -- [1]
 			},
-		}, -- [437]
+		}, -- [436]
 		{
 			["TargetName"] = "丶春哥们人",
 			["Date"] = "2022-10-04",
@@ -11296,7 +11262,7 @@ MailLoggerDB = {
 			["Time"] = "20:35:31",
 			["ReceiveItems"] = {
 			},
-		}, -- [438]
+		}, -- [437]
 		{
 			["TargetName"] = "丶春哥们人",
 			["PlayerName"] = "特变电工",
@@ -11310,7 +11276,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [439]
+		}, -- [438]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特变电工",
@@ -11324,7 +11290,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [440]
+		}, -- [439]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特变电工",
@@ -11339,7 +11305,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [441]
+		}, -- [440]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -11353,7 +11319,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [442]
+		}, -- [441]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "新特能源",
@@ -11368,7 +11334,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [443]
+		}, -- [442]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -11383,7 +11349,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [444]
+		}, -- [443]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "特变电工",
@@ -11403,7 +11369,7 @@ MailLoggerDB = {
 					["Name"] = "霜纹布",
 				}, -- [1]
 			},
-		}, -- [445]
+		}, -- [444]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -11468,7 +11434,7 @@ MailLoggerDB = {
 					["Name"] = "魔纹布",
 				},
 			},
-		}, -- [446]
+		}, -- [445]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "特变电工",
@@ -11513,7 +11479,7 @@ MailLoggerDB = {
 					["Name"] = "暗影水晶",
 				}, -- [6]
 			},
-		}, -- [447]
+		}, -- [446]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -11528,7 +11494,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [448]
+		}, -- [447]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -11553,7 +11519,7 @@ MailLoggerDB = {
 					["Name"] = "符文血玉石",
 				}, -- [2]
 			},
-		}, -- [449]
+		}, -- [448]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "特变电工",
@@ -11583,7 +11549,7 @@ MailLoggerDB = {
 					["Name"] = "源生法力",
 				}, -- [3]
 			},
-		}, -- [450]
+		}, -- [449]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特工仓库",
@@ -11607,7 +11573,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [451]
+		}, -- [450]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特工仓库",
@@ -11643,7 +11609,7 @@ MailLoggerDB = {
 					["Name"] = "水之微粒",
 				}, -- [5]
 			},
-		}, -- [452]
+		}, -- [451]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特变电工",
@@ -11663,7 +11629,7 @@ MailLoggerDB = {
 					["Name"] = "灵纹布",
 				}, -- [1]
 			},
-		}, -- [453]
+		}, -- [452]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特工仓库",
@@ -11688,7 +11654,7 @@ MailLoggerDB = {
 					["Name"] = "符文血玉石",
 				}, -- [2]
 			},
-		}, -- [454]
+		}, -- [453]
 		{
 			["PlayerName"] = "新特能源",
 			["Date"] = "2022-10-04",
@@ -11701,7 +11667,7 @@ MailLoggerDB = {
 			["TargetName"] = "荔枝王超怒的",
 			["ReceiveItems"] = {
 			},
-		}, -- [455]
+		}, -- [454]
 		{
 			["TargetName"] = "荔枝王超怒的",
 			["PlayerName"] = "新特能源",
@@ -11730,7 +11696,7 @@ MailLoggerDB = {
 					["Name"] = "魔法酪饼",
 				}, -- [3]
 			},
-		}, -- [456]
+		}, -- [455]
 		{
 			["PlayerName"] = "新特能源",
 			["Date"] = "2022-10-04",
@@ -11743,7 +11709,7 @@ MailLoggerDB = {
 			["TargetName"] = "我来卖个萌",
 			["ReceiveItems"] = {
 			},
-		}, -- [457]
+		}, -- [456]
 		{
 			["TargetName"] = "我来卖个萌",
 			["PlayerName"] = "新特能源",
@@ -11762,7 +11728,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [458]
+		}, -- [457]
 		{
 			["PlayerName"] = "新特能源",
 			["Date"] = "2022-10-04",
@@ -11775,7 +11741,7 @@ MailLoggerDB = {
 			["TargetName"] = "苍天保佑",
 			["ReceiveItems"] = {
 			},
-		}, -- [459]
+		}, -- [458]
 		{
 			["PlayerName"] = "新特能源",
 			["Date"] = "2022-10-05",
@@ -11788,7 +11754,7 @@ MailLoggerDB = {
 			["TargetName"] = "苍天保佑",
 			["ReceiveItems"] = {
 			},
-		}, -- [460]
+		}, -- [459]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -11812,7 +11778,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [461]
+		}, -- [460]
 		{
 			["PlayerName"] = "新特能源",
 			["Date"] = "2022-10-05",
@@ -11825,7 +11791,7 @@ MailLoggerDB = {
 			["TargetName"] = "骑风",
 			["ReceiveItems"] = {
 			},
-		}, -- [462]
+		}, -- [461]
 		{
 			["TargetName"] = "骑风",
 			["PlayerName"] = "新特能源",
@@ -11849,7 +11815,7 @@ MailLoggerDB = {
 					["Name"] = "活力魔精腰带",
 				}, -- [2]
 			},
-		}, -- [463]
+		}, -- [462]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -11863,7 +11829,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [464]
+		}, -- [463]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "新特能源",
@@ -11888,7 +11854,7 @@ MailLoggerDB = {
 					["Name"] = "灵纹布",
 				},
 			},
-		}, -- [465]
+		}, -- [464]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -11918,7 +11884,7 @@ MailLoggerDB = {
 					["Name"] = "皇家曙光猫眼石",
 				}, -- [3]
 			},
-		}, -- [466]
+		}, -- [465]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特工仓库",
@@ -11947,7 +11913,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [467]
+		}, -- [466]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特工仓库",
@@ -11977,7 +11943,7 @@ MailLoggerDB = {
 					["Name"] = "洞察之大地侵攻钻石",
 				}, -- [3]
 			},
-		}, -- [468]
+		}, -- [467]
 		{
 			["Date"] = "2022-10-05",
 			["TargetName"] = "小雪柔情",
@@ -11990,7 +11956,7 @@ MailLoggerDB = {
 			["PlayerName"] = "新特能源",
 			["ReceiveItems"] = {
 			},
-		}, -- [469]
+		}, -- [468]
 		{
 			["TargetName"] = "小雪柔情",
 			["PlayerName"] = "新特能源",
@@ -12004,7 +11970,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [470]
+		}, -- [469]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -12029,7 +11995,7 @@ MailLoggerDB = {
 					["Name"] = "符文法师衬肩",
 				}, -- [2]
 			},
-		}, -- [471]
+		}, -- [470]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特工仓库",
@@ -12053,7 +12019,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [472]
+		}, -- [471]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特工仓库",
@@ -12078,7 +12044,7 @@ MailLoggerDB = {
 					["Name"] = "鲁莽帝黄晶",
 				}, -- [2]
 			},
-		}, -- [473]
+		}, -- [472]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -12092,7 +12058,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [474]
+		}, -- [473]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "新特能源",
@@ -12107,7 +12073,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [475]
+		}, -- [474]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -12127,7 +12093,7 @@ MailLoggerDB = {
 					["Name"] = "奥杜尔的圣物",
 				}, -- [1]
 			},
-		}, -- [476]
+		}, -- [475]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特工仓库",
@@ -12146,7 +12112,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [477]
+		}, -- [476]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "骑风",
@@ -12166,7 +12132,7 @@ MailLoggerDB = {
 					["Name"] = "侏儒军刀",
 				}, -- [1]
 			},
-		}, -- [478]
+		}, -- [477]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特工仓库",
@@ -12186,7 +12152,7 @@ MailLoggerDB = {
 					["Name"] = "奥杜尔的圣物",
 				}, -- [1]
 			},
-		}, -- [479]
+		}, -- [478]
 		{
 			["TargetName"] = "骑风",
 			["PlayerName"] = "新特能源",
@@ -12205,7 +12171,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [480]
+		}, -- [479]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "骑风",
@@ -12220,7 +12186,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [481]
+		}, -- [480]
 		{
 			["Date"] = "2022-10-05",
 			["TargetName"] = "骑风",
@@ -12233,7 +12199,7 @@ MailLoggerDB = {
 			["PlayerName"] = "新特能源",
 			["ReceiveItems"] = {
 			},
-		}, -- [482]
+		}, -- [481]
 		{
 			["TargetName"] = "骑风",
 			["PlayerName"] = "新特能源",
@@ -12257,7 +12223,7 @@ MailLoggerDB = {
 					["Name"] = "魔法酪饼",
 				}, -- [2]
 			},
-		}, -- [483]
+		}, -- [482]
 		{
 			["Date"] = "2022-10-05",
 			["TargetName"] = "酥酥脆饼",
@@ -12270,7 +12236,7 @@ MailLoggerDB = {
 			["PlayerName"] = "新特能源",
 			["ReceiveItems"] = {
 			},
-		}, -- [484]
+		}, -- [483]
 		{
 			["TargetName"] = "酥酥脆饼",
 			["PlayerName"] = "新特能源",
@@ -12289,7 +12255,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [485]
+		}, -- [484]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -12309,7 +12275,7 @@ MailLoggerDB = {
 					["Name"] = "卷轴：附魔护腕 - 超强法术能量",
 				}, -- [1]
 			},
-		}, -- [486]
+		}, -- [485]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特工仓库",
@@ -12328,7 +12294,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [487]
+		}, -- [486]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特工仓库",
@@ -12348,7 +12314,7 @@ MailLoggerDB = {
 					["Name"] = "卷轴：附魔护腕 - 超强法术能量",
 				}, -- [1]
 			},
-		}, -- [488]
+		}, -- [487]
 		{
 			["TargetName"] = "丿丶尛鋼鞄",
 			["Date"] = "2022-10-05",
@@ -12361,7 +12327,7 @@ MailLoggerDB = {
 			["Time"] = "15:20:15",
 			["ReceiveItems"] = {
 			},
-		}, -- [489]
+		}, -- [488]
 		{
 			["TargetName"] = "丿丶尛鋼鞄",
 			["PlayerName"] = "特变电工",
@@ -12385,7 +12351,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [490]
+		}, -- [489]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -12451,7 +12417,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [491]
+		}, -- [490]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -12480,7 +12446,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [492]
+		}, -- [491]
 		{
 			["Date"] = "2022-10-05",
 			["PlayerName"] = "新特能源",
@@ -12493,7 +12459,7 @@ MailLoggerDB = {
 			["Time"] = "19:28:11",
 			["ReceiveItems"] = {
 			},
-		}, -- [493]
+		}, -- [492]
 		{
 			["TargetName"] = "厕所蹲个狗",
 			["PlayerName"] = "新特能源",
@@ -12517,7 +12483,7 @@ MailLoggerDB = {
 					["Name"] = "魔法酪饼",
 				}, -- [2]
 			},
-		}, -- [494]
+		}, -- [493]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -12541,7 +12507,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [495]
+		}, -- [494]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -12570,7 +12536,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [496]
+		}, -- [495]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -12589,7 +12555,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [497]
+		}, -- [496]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -12628,7 +12594,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [498]
+		}, -- [497]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -12652,7 +12618,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [499]
+		}, -- [498]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -12676,7 +12642,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [500]
+		}, -- [499]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -12700,7 +12666,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [501]
+		}, -- [500]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -12719,7 +12685,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [502]
+		}, -- [501]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -12738,7 +12704,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [503]
+		}, -- [502]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -12783,7 +12749,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [504]
+		}, -- [503]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -12847,7 +12813,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [505]
+		}, -- [504]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -12892,7 +12858,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [506]
+		}, -- [505]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "Oneonone",
@@ -12905,7 +12871,7 @@ MailLoggerDB = {
 			["Time"] = "18:28:52",
 			["ReceiveItems"] = {
 			},
-		}, -- [507]
+		}, -- [506]
 		{
 			["TargetName"] = "Oneonone",
 			["PlayerName"] = "新特能源",
@@ -12919,7 +12885,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [508]
+		}, -- [507]
 		{
 			["Date"] = "2022-10-06",
 			["PlayerName"] = "新特能源",
@@ -12932,7 +12898,7 @@ MailLoggerDB = {
 			["Time"] = "20:37:21",
 			["ReceiveItems"] = {
 			},
-		}, -- [509]
+		}, -- [508]
 		{
 			["TargetName"] = "Oneonone",
 			["PlayerName"] = "新特能源",
@@ -12951,7 +12917,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [510]
+		}, -- [509]
 		{
 			["Date"] = "2022-10-06",
 			["PlayerName"] = "新特能源",
@@ -12964,7 +12930,7 @@ MailLoggerDB = {
 			["Time"] = "22:27:20",
 			["ReceiveItems"] = {
 			},
-		}, -- [511]
+		}, -- [510]
 		{
 			["TargetName"] = "战复丶德",
 			["PlayerName"] = "新特能源",
@@ -12988,7 +12954,7 @@ MailLoggerDB = {
 					["Name"] = "薄荷蜜茶",
 				}, -- [2]
 			},
-		}, -- [512]
+		}, -- [511]
 		{
 			["Date"] = "2022-10-06",
 			["PlayerName"] = "新特能源",
@@ -13001,7 +12967,7 @@ MailLoggerDB = {
 			["Time"] = "22:27:25",
 			["ReceiveItems"] = {
 			},
-		}, -- [513]
+		}, -- [512]
 		{
 			["TargetName"] = "骑风",
 			["PlayerName"] = "新特能源",
@@ -13020,7 +12986,7 @@ MailLoggerDB = {
 					["Name"] = "薄荷蜜茶",
 				}, -- [1]
 			},
-		}, -- [514]
+		}, -- [513]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -13045,7 +13011,7 @@ MailLoggerDB = {
 					["Name"] = "生拌狼肉糜",
 				},
 			},
-		}, -- [515]
+		}, -- [514]
 		{
 			["TargetName"] = "骑风",
 			["PlayerName"] = "特变电工",
@@ -13064,7 +13030,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [516]
+		}, -- [515]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特变电工",
@@ -13078,7 +13044,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [517]
+		}, -- [516]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特变电工",
@@ -13093,7 +13059,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [518]
+		}, -- [517]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -13113,7 +13079,7 @@ MailLoggerDB = {
 					["Name"] = "精准血玉石",
 				}, -- [1]
 			},
-		}, -- [519]
+		}, -- [518]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "新特能源",
@@ -13137,7 +13103,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [520]
+		}, -- [519]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "新特能源",
@@ -13162,7 +13128,7 @@ MailLoggerDB = {
 					["Name"] = "强效利斧铭文",
 				}, -- [2]
 			},
-		}, -- [521]
+		}, -- [520]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -13182,7 +13148,7 @@ MailLoggerDB = {
 					["Name"] = "无尽怒气合剂",
 				}, -- [1]
 			},
-		}, -- [522]
+		}, -- [521]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -13202,7 +13168,7 @@ MailLoggerDB = {
 					["Name"] = "精准血石",
 				}, -- [1]
 			},
-		}, -- [523]
+		}, -- [522]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -13222,7 +13188,7 @@ MailLoggerDB = {
 					["Name"] = "精准血石",
 				}, -- [1]
 			},
-		}, -- [524]
+		}, -- [523]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "新特能源",
@@ -13236,7 +13202,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [525]
+		}, -- [524]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "新特能源",
@@ -13251,7 +13217,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [526]
+		}, -- [525]
 		{
 			["PlayerName"] = "特变电工",
 			["Date"] = "2022-10-12",
@@ -13264,7 +13230,7 @@ MailLoggerDB = {
 			["TargetName"] = "天灾打击",
 			["ReceiveItems"] = {
 			},
-		}, -- [527]
+		}, -- [526]
 		{
 			["TargetName"] = "天灾打击",
 			["PlayerName"] = "特变电工",
@@ -13283,7 +13249,7 @@ MailLoggerDB = {
 					["Name"] = "亡灵军团头盔",
 				}, -- [1]
 			},
-		}, -- [528]
+		}, -- [527]
 		{
 			["PlayerName"] = "特变电工",
 			["Date"] = "2022-10-12",
@@ -13296,7 +13262,7 @@ MailLoggerDB = {
 			["TargetName"] = "天灾打击",
 			["ReceiveItems"] = {
 			},
-		}, -- [529]
+		}, -- [528]
 		{
 			["TargetName"] = "天灾打击",
 			["PlayerName"] = "特变电工",
@@ -13310,7 +13276,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [530]
+		}, -- [529]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特变电工",
@@ -13324,7 +13290,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [531]
+		}, -- [530]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特变电工",
@@ -13339,7 +13305,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [532]
+		}, -- [531]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -13359,7 +13325,7 @@ MailLoggerDB = {
 					["Name"] = "残酷之大地侵攻钻石",
 				}, -- [1]
 			},
-		}, -- [533]
+		}, -- [532]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -13379,7 +13345,7 @@ MailLoggerDB = {
 					["Name"] = "精准血玉石",
 				}, -- [1]
 			},
-		}, -- [534]
+		}, -- [533]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "新特能源",
@@ -13408,7 +13374,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [535]
+		}, -- [534]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "新特能源",
@@ -13438,7 +13404,7 @@ MailLoggerDB = {
 					["Name"] = "精准血玉石",
 				}, -- [3]
 			},
-		}, -- [536]
+		}, -- [535]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -13478,7 +13444,7 @@ MailLoggerDB = {
 					["Name"] = "卷轴：附魔武器 - 强效潜能",
 				}, -- [5]
 			},
-		}, -- [537]
+		}, -- [536]
 		{
 			["PlayerName"] = "特变电工",
 			["Date"] = "2022-10-12",
@@ -13491,7 +13457,7 @@ MailLoggerDB = {
 			["TargetName"] = "雪诺琼恩",
 			["ReceiveItems"] = {
 			},
-		}, -- [538]
+		}, -- [537]
 		{
 			["TargetName"] = "雪诺琼恩",
 			["PlayerName"] = "特变电工",
@@ -13505,7 +13471,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [539]
+		}, -- [538]
 		{
 			["PlayerName"] = "特变电工",
 			["Date"] = "2022-10-13",
@@ -13518,7 +13484,7 @@ MailLoggerDB = {
 			["TargetName"] = "魂魄",
 			["ReceiveItems"] = {
 			},
-		}, -- [540]
+		}, -- [539]
 		{
 			["TargetName"] = "魂魄",
 			["PlayerName"] = "特变电工",
@@ -13537,7 +13503,7 @@ MailLoggerDB = {
 					["Name"] = "飞矢之歌",
 				}, -- [1]
 			},
-		}, -- [541]
+		}, -- [540]
 		{
 			["PlayerName"] = "特变电工",
 			["Date"] = "2022-10-13",
@@ -13550,7 +13516,7 @@ MailLoggerDB = {
 			["TargetName"] = "魂魄",
 			["ReceiveItems"] = {
 			},
-		}, -- [542]
+		}, -- [541]
 		{
 			["TargetName"] = "魂魄",
 			["PlayerName"] = "特变电工",
@@ -13569,7 +13535,7 @@ MailLoggerDB = {
 					["Name"] = "愚者的试炼",
 				}, -- [1]
 			},
-		}, -- [543]
+		}, -- [542]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "巨型波比",
@@ -13584,7 +13550,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [544]
+		}, -- [543]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "骑风",
@@ -13604,7 +13570,7 @@ MailLoggerDB = {
 					["Name"] = "侏儒军刀",
 				}, -- [1]
 			},
-		}, -- [545]
+		}, -- [544]
 		{
 			["TargetName"] = "猫仔哆比",
 			["PlayerName"] = "特变电工",
@@ -13617,7 +13583,7 @@ MailLoggerDB = {
 			["Date"] = "2022-10-13",
 			["ReceiveItems"] = {
 			},
-		}, -- [546]
+		}, -- [545]
 		{
 			["TargetName"] = "猫仔哆比",
 			["PlayerName"] = "特变电工",
@@ -13631,7 +13597,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [547]
+		}, -- [546]
 		{
 			["TargetName"] = "小雪祈福",
 			["PlayerName"] = "特变电工",
@@ -13644,7 +13610,7 @@ MailLoggerDB = {
 			["Date"] = "2022-10-13",
 			["ReceiveItems"] = {
 			},
-		}, -- [548]
+		}, -- [547]
 		{
 			["TargetName"] = "小雪祈福",
 			["PlayerName"] = "特变电工",
@@ -13658,7 +13624,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [549]
+		}, -- [548]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特变电工",
@@ -13672,7 +13638,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [550]
+		}, -- [549]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特变电工",
@@ -13687,7 +13653,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [551]
+		}, -- [550]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "血入",
@@ -13700,7 +13666,7 @@ MailLoggerDB = {
 			["Time"] = "00:30:57",
 			["ReceiveItems"] = {
 			},
-		}, -- [552]
+		}, -- [551]
 		{
 			["TargetName"] = "血入",
 			["PlayerName"] = "新特能源",
@@ -13719,7 +13685,7 @@ MailLoggerDB = {
 					["Name"] = "光芒大厅项链",
 				}, -- [1]
 			},
-		}, -- [553]
+		}, -- [552]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -13744,7 +13710,7 @@ MailLoggerDB = {
 					["Name"] = "精神控制雕文",
 				}, -- [2]
 			},
-		}, -- [554]
+		}, -- [553]
 		{
 			["TargetName"] = "码农巴菲特",
 			["PlayerName"] = "特变电工",
@@ -13763,7 +13729,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [555]
+		}, -- [554]
 		{
 			["TargetName"] = "码农巴菲特",
 			["PlayerName"] = "特变电工",
@@ -13777,7 +13743,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [556]
+		}, -- [555]
 		{
 			["TargetName"] = "码农巴菲特",
 			["PlayerName"] = "新特能源",
@@ -13801,7 +13767,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [557]
+		}, -- [556]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "特变电工",
@@ -13821,7 +13787,7 @@ MailLoggerDB = {
 					["Name"] = "寒冷天气飞行宝典",
 				}, -- [1]
 			},
-		}, -- [558]
+		}, -- [557]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "新特能源",
@@ -13846,7 +13812,7 @@ MailLoggerDB = {
 					["Name"] = "抛光后的勇气胸甲",
 				}, -- [2]
 			},
-		}, -- [559]
+		}, -- [558]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "联盟拍卖行",
@@ -13866,7 +13832,7 @@ MailLoggerDB = {
 					["Name"] = "霜纹包",
 				}, -- [1]
 			},
-		}, -- [560]
+		}, -- [559]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "新特能源",
@@ -13957,7 +13923,7 @@ MailLoggerDB = {
 					["Name"] = "黑玉",
 				}, -- [16]
 			},
-		}, -- [561]
+		}, -- [560]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "联盟拍卖行",
@@ -13993,7 +13959,7 @@ MailLoggerDB = {
 					["Name"] = "力量卷轴 VII",
 				}, -- [5]
 			},
-		}, -- [562]
+		}, -- [561]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "码农巴菲特",
@@ -14063,7 +14029,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [563]
+		}, -- [562]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "冰小雪",
@@ -14076,7 +14042,7 @@ MailLoggerDB = {
 			["Time"] = "17:26:52",
 			["ReceiveItems"] = {
 			},
-		}, -- [564]
+		}, -- [563]
 		{
 			["TargetName"] = "冰小雪",
 			["PlayerName"] = "特变电工",
@@ -14090,7 +14056,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [565]
+		}, -- [564]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "萨灬爷",
@@ -14103,7 +14069,7 @@ MailLoggerDB = {
 			["Time"] = "17:41:44",
 			["ReceiveItems"] = {
 			},
-		}, -- [566]
+		}, -- [565]
 		{
 			["Date"] = "2022-10-15",
 			["PlayerName"] = "特变电工",
@@ -14116,7 +14082,7 @@ MailLoggerDB = {
 			["Time"] = "18:06:20",
 			["ReceiveItems"] = {
 			},
-		}, -- [567]
+		}, -- [566]
 		{
 			["TargetName"] = "有个大屁股",
 			["PlayerName"] = "特变电工",
@@ -14130,7 +14096,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [568]
+		}, -- [567]
 		{
 			["TargetName"] = "方小虎",
 			["Date"] = "2022-10-15",
@@ -14143,7 +14109,7 @@ MailLoggerDB = {
 			["Time"] = "20:22:55",
 			["ReceiveItems"] = {
 			},
-		}, -- [569]
+		}, -- [568]
 		{
 			["TargetName"] = "方小虎",
 			["Date"] = "2022-10-15",
@@ -14156,7 +14122,7 @@ MailLoggerDB = {
 			["Time"] = "20:22:57",
 			["ReceiveItems"] = {
 			},
-		}, -- [570]
+		}, -- [569]
 		{
 			["TargetName"] = "方小虎",
 			["PlayerName"] = "特变电工",
@@ -14175,7 +14141,7 @@ MailLoggerDB = {
 					["Name"] = "无情突袭合剂",
 				}, -- [1]
 			},
-		}, -- [571]
+		}, -- [570]
 		{
 			["TargetName"] = "枕戈待旦",
 			["Date"] = "2022-10-15",
@@ -14188,7 +14154,7 @@ MailLoggerDB = {
 			["Time"] = "20:23:42",
 			["ReceiveItems"] = {
 			},
-		}, -- [572]
+		}, -- [571]
 		{
 			["TargetName"] = "枕戈待旦",
 			["PlayerName"] = "特变电工",
@@ -14207,7 +14173,7 @@ MailLoggerDB = {
 					["Name"] = "无尽怒气合剂",
 				}, -- [1]
 			},
-		}, -- [573]
+		}, -- [572]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["Date"] = "2022-10-15",
@@ -14220,7 +14186,7 @@ MailLoggerDB = {
 			["Time"] = "20:28:51",
 			["ReceiveItems"] = {
 			},
-		}, -- [574]
+		}, -- [573]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["PlayerName"] = "特变电工",
@@ -14239,7 +14205,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [575]
+		}, -- [574]
 		{
 			["TargetName"] = "兜里有光",
 			["Date"] = "2022-10-15",
@@ -14252,7 +14218,7 @@ MailLoggerDB = {
 			["Time"] = "20:35:49",
 			["ReceiveItems"] = {
 			},
-		}, -- [576]
+		}, -- [575]
 		{
 			["TargetName"] = "兜里有光",
 			["PlayerName"] = "特变电工",
@@ -14271,7 +14237,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [577]
+		}, -- [576]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["Date"] = "2022-10-15",
@@ -14284,7 +14250,7 @@ MailLoggerDB = {
 			["Time"] = "20:35:59",
 			["ReceiveItems"] = {
 			},
-		}, -- [578]
+		}, -- [577]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["Date"] = "2022-10-15",
@@ -14297,7 +14263,7 @@ MailLoggerDB = {
 			["Time"] = "20:36:34",
 			["ReceiveItems"] = {
 			},
-		}, -- [579]
+		}, -- [578]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["PlayerName"] = "特变电工",
@@ -14316,7 +14282,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [580]
+		}, -- [579]
 		{
 			["TargetName"] = "骑风",
 			["Date"] = "2022-10-15",
@@ -14329,7 +14295,7 @@ MailLoggerDB = {
 			["Time"] = "20:45:33",
 			["ReceiveItems"] = {
 			},
-		}, -- [581]
+		}, -- [580]
 		{
 			["TargetName"] = "骑风",
 			["PlayerName"] = "特变电工",
@@ -14348,7 +14314,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [582]
+		}, -- [581]
 		{
 			["TargetName"] = "贰丶柒丶拾",
 			["Date"] = "2022-10-15",
@@ -14361,7 +14327,7 @@ MailLoggerDB = {
 			["Time"] = "20:46:53",
 			["ReceiveItems"] = {
 			},
-		}, -- [583]
+		}, -- [582]
 		{
 			["TargetName"] = "贰丶柒丶拾",
 			["PlayerName"] = "特变电工",
@@ -14380,7 +14346,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [584]
+		}, -- [583]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["Date"] = "2022-10-15",
@@ -14393,7 +14359,7 @@ MailLoggerDB = {
 			["Time"] = "20:50:35",
 			["ReceiveItems"] = {
 			},
-		}, -- [585]
+		}, -- [584]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["PlayerName"] = "特变电工",
@@ -14412,7 +14378,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [586]
+		}, -- [585]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["Date"] = "2022-10-15",
@@ -14425,7 +14391,7 @@ MailLoggerDB = {
 			["Time"] = "20:52:45",
 			["ReceiveItems"] = {
 			},
-		}, -- [587]
+		}, -- [586]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["PlayerName"] = "特变电工",
@@ -14444,7 +14410,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [588]
+		}, -- [587]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["Date"] = "2022-10-15",
@@ -14457,7 +14423,7 @@ MailLoggerDB = {
 			["Time"] = "20:53:51",
 			["ReceiveItems"] = {
 			},
-		}, -- [589]
+		}, -- [588]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["PlayerName"] = "特变电工",
@@ -14476,7 +14442,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [590]
+		}, -- [589]
 		{
 			["TargetName"] = "兜里有光",
 			["Date"] = "2022-10-15",
@@ -14489,7 +14455,7 @@ MailLoggerDB = {
 			["Time"] = "20:57:13",
 			["ReceiveItems"] = {
 			},
-		}, -- [591]
+		}, -- [590]
 		{
 			["TargetName"] = "兜里有光",
 			["PlayerName"] = "特变电工",
@@ -14508,7 +14474,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [592]
+		}, -- [591]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["Date"] = "2022-10-15",
@@ -14521,7 +14487,7 @@ MailLoggerDB = {
 			["Time"] = "20:57:55",
 			["ReceiveItems"] = {
 			},
-		}, -- [593]
+		}, -- [592]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["PlayerName"] = "特变电工",
@@ -14540,7 +14506,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [594]
+		}, -- [593]
 		{
 			["TargetName"] = "牧丶糸",
 			["Date"] = "2022-10-15",
@@ -14553,7 +14519,7 @@ MailLoggerDB = {
 			["Time"] = "21:06:05",
 			["ReceiveItems"] = {
 			},
-		}, -- [595]
+		}, -- [594]
 		{
 			["TargetName"] = "牧丶糸",
 			["PlayerName"] = "特变电工",
@@ -14572,7 +14538,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [596]
+		}, -- [595]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["Date"] = "2022-10-15",
@@ -14585,7 +14551,7 @@ MailLoggerDB = {
 			["Time"] = "21:07:04",
 			["ReceiveItems"] = {
 			},
-		}, -- [597]
+		}, -- [596]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["PlayerName"] = "特变电工",
@@ -14609,7 +14575,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [598]
+		}, -- [597]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["Date"] = "2022-10-15",
@@ -14622,7 +14588,7 @@ MailLoggerDB = {
 			["Time"] = "21:07:25",
 			["ReceiveItems"] = {
 			},
-		}, -- [599]
+		}, -- [598]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["PlayerName"] = "特变电工",
@@ -14641,7 +14607,7 @@ MailLoggerDB = {
 					["Name"] = "深渊水晶",
 				}, -- [1]
 			},
-		}, -- [600]
+		}, -- [599]
 		{
 			["TargetName"] = "贰丶柒丶拾",
 			["Date"] = "2022-10-15",
@@ -14654,7 +14620,7 @@ MailLoggerDB = {
 			["Time"] = "21:32:58",
 			["ReceiveItems"] = {
 			},
-		}, -- [601]
+		}, -- [600]
 		{
 			["TargetName"] = "贰丶柒丶拾",
 			["PlayerName"] = "特变电工",
@@ -14673,7 +14639,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [602]
+		}, -- [601]
 		{
 			["TargetName"] = "兜里有光",
 			["Date"] = "2022-10-15",
@@ -14686,7 +14652,7 @@ MailLoggerDB = {
 			["Time"] = "21:34:05",
 			["ReceiveItems"] = {
 			},
-		}, -- [603]
+		}, -- [602]
 		{
 			["TargetName"] = "兜里有光",
 			["PlayerName"] = "特变电工",
@@ -14705,7 +14671,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [604]
+		}, -- [603]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["Date"] = "2022-10-15",
@@ -14718,7 +14684,7 @@ MailLoggerDB = {
 			["Time"] = "21:35:09",
 			["ReceiveItems"] = {
 			},
-		}, -- [605]
+		}, -- [604]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["PlayerName"] = "特变电工",
@@ -14737,7 +14703,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [606]
+		}, -- [605]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["Date"] = "2022-10-15",
@@ -14750,7 +14716,7 @@ MailLoggerDB = {
 			["Time"] = "21:35:47",
 			["ReceiveItems"] = {
 			},
-		}, -- [607]
+		}, -- [606]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["PlayerName"] = "特变电工",
@@ -14769,7 +14735,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [608]
+		}, -- [607]
 		{
 			["TargetName"] = "贰丶柒丶拾",
 			["Date"] = "2022-10-15",
@@ -14782,7 +14748,7 @@ MailLoggerDB = {
 			["Time"] = "21:43:20",
 			["ReceiveItems"] = {
 			},
-		}, -- [609]
+		}, -- [608]
 		{
 			["TargetName"] = "贰丶柒丶拾",
 			["PlayerName"] = "特变电工",
@@ -14801,7 +14767,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [610]
+		}, -- [609]
 		{
 			["TargetName"] = "牧丶糸",
 			["Date"] = "2022-10-15",
@@ -14814,7 +14780,7 @@ MailLoggerDB = {
 			["Time"] = "21:56:26",
 			["ReceiveItems"] = {
 			},
-		}, -- [611]
+		}, -- [610]
 		{
 			["TargetName"] = "牧丶糸",
 			["PlayerName"] = "特变电工",
@@ -14833,7 +14799,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [612]
+		}, -- [611]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["Date"] = "2022-10-15",
@@ -14846,7 +14812,7 @@ MailLoggerDB = {
 			["Time"] = "22:08:00",
 			["ReceiveItems"] = {
 			},
-		}, -- [613]
+		}, -- [612]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["PlayerName"] = "特变电工",
@@ -14865,7 +14831,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [614]
+		}, -- [613]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["Date"] = "2022-10-15",
@@ -14878,7 +14844,7 @@ MailLoggerDB = {
 			["Time"] = "22:08:45",
 			["ReceiveItems"] = {
 			},
-		}, -- [615]
+		}, -- [614]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["PlayerName"] = "特变电工",
@@ -14897,7 +14863,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [616]
+		}, -- [615]
 		{
 			["TargetName"] = "骑风",
 			["Date"] = "2022-10-15",
@@ -14910,7 +14876,7 @@ MailLoggerDB = {
 			["Time"] = "22:19:58",
 			["ReceiveItems"] = {
 			},
-		}, -- [617]
+		}, -- [616]
 		{
 			["TargetName"] = "骑风",
 			["PlayerName"] = "特变电工",
@@ -14924,7 +14890,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [618]
+		}, -- [617]
 		{
 			["TargetName"] = "枕戈待旦",
 			["Date"] = "2022-10-15",
@@ -14937,7 +14903,7 @@ MailLoggerDB = {
 			["Time"] = "22:20:07",
 			["ReceiveItems"] = {
 			},
-		}, -- [619]
+		}, -- [618]
 		{
 			["TargetName"] = "枕戈待旦",
 			["PlayerName"] = "特变电工",
@@ -14951,7 +14917,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [620]
+		}, -- [619]
 		{
 			["TargetName"] = "夏澜",
 			["Date"] = "2022-10-15",
@@ -14964,7 +14930,7 @@ MailLoggerDB = {
 			["Time"] = "22:20:15",
 			["ReceiveItems"] = {
 			},
-		}, -- [621]
+		}, -- [620]
 		{
 			["TargetName"] = "夏澜",
 			["Date"] = "2022-10-15",
@@ -14977,7 +14943,7 @@ MailLoggerDB = {
 			["Time"] = "22:20:18",
 			["ReceiveItems"] = {
 			},
-		}, -- [622]
+		}, -- [621]
 		{
 			["TargetName"] = "夏澜",
 			["PlayerName"] = "特变电工",
@@ -14991,7 +14957,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [623]
+		}, -- [622]
 		{
 			["TargetName"] = "骑风",
 			["Date"] = "2022-10-15",
@@ -15004,7 +14970,7 @@ MailLoggerDB = {
 			["Time"] = "22:34:20",
 			["ReceiveItems"] = {
 			},
-		}, -- [624]
+		}, -- [623]
 		{
 			["TargetName"] = "骑风",
 			["PlayerName"] = "特变电工",
@@ -15018,7 +14984,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [625]
+		}, -- [624]
 		{
 			["TargetName"] = "贰丶柒丶拾",
 			["Date"] = "2022-10-15",
@@ -15031,7 +14997,7 @@ MailLoggerDB = {
 			["Time"] = "22:36:57",
 			["ReceiveItems"] = {
 			},
-		}, -- [626]
+		}, -- [625]
 		{
 			["TargetName"] = "贰丶柒丶拾",
 			["PlayerName"] = "特变电工",
@@ -15045,7 +15011,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [627]
+		}, -- [626]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["Date"] = "2022-10-15",
@@ -15058,7 +15024,7 @@ MailLoggerDB = {
 			["Time"] = "22:38:59",
 			["ReceiveItems"] = {
 			},
-		}, -- [628]
+		}, -- [627]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["Date"] = "2022-10-15",
@@ -15071,7 +15037,7 @@ MailLoggerDB = {
 			["Time"] = "22:40:04",
 			["ReceiveItems"] = {
 			},
-		}, -- [629]
+		}, -- [628]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["PlayerName"] = "特变电工",
@@ -15095,7 +15061,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [630]
+		}, -- [629]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["Date"] = "2022-10-15",
@@ -15108,7 +15074,7 @@ MailLoggerDB = {
 			["Time"] = "22:40:33",
 			["ReceiveItems"] = {
 			},
-		}, -- [631]
+		}, -- [630]
 		{
 			["TargetName"] = "光头吃鸡腿",
 			["PlayerName"] = "特变电工",
@@ -15127,7 +15093,7 @@ MailLoggerDB = {
 					["Name"] = "深渊水晶",
 				}, -- [1]
 			},
-		}, -- [632]
+		}, -- [631]
 		{
 			["TargetName"] = "枕戈待旦",
 			["Date"] = "2022-10-15",
@@ -15140,7 +15106,7 @@ MailLoggerDB = {
 			["Time"] = "22:40:43",
 			["ReceiveItems"] = {
 			},
-		}, -- [633]
+		}, -- [632]
 		{
 			["TargetName"] = "枕戈待旦",
 			["PlayerName"] = "特变电工",
@@ -15159,7 +15125,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [634]
+		}, -- [633]
 		{
 			["TargetName"] = "夏澜",
 			["Date"] = "2022-10-15",
@@ -15172,7 +15138,7 @@ MailLoggerDB = {
 			["Time"] = "22:41:14",
 			["ReceiveItems"] = {
 			},
-		}, -- [635]
+		}, -- [634]
 		{
 			["TargetName"] = "夏澜",
 			["PlayerName"] = "特变电工",
@@ -15184,24 +15150,24 @@ MailLoggerDB = {
 			["GiveItems"] = {
 			},
 			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [635]
+		{
+			["TargetName"] = "方小虎",
+			["Date"] = "2022-10-15",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "纳克萨玛斯",
+			["PlayerName"] = "特变电工",
+			["Time"] = "22:41:24",
 			["ReceiveItems"] = {
 			},
 		}, -- [636]
 		{
 			["TargetName"] = "方小虎",
-			["Date"] = "2022-10-15",
-			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
-			["GiveMoney"] = 0,
-			["Location"] = "纳克萨玛斯",
-			["PlayerName"] = "特变电工",
-			["Time"] = "22:41:24",
-			["ReceiveItems"] = {
-			},
-		}, -- [637]
-		{
-			["TargetName"] = "方小虎",
 			["PlayerName"] = "特变电工",
 			["Date"] = "2022-10-15",
 			["ReceiveMoney"] = 0,
@@ -15211,24 +15177,24 @@ MailLoggerDB = {
 			["GiveItems"] = {
 			},
 			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [637]
+		{
+			["TargetName"] = "箭杀四方",
+			["Date"] = "2022-10-15",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "纳克萨玛斯",
+			["PlayerName"] = "特变电工",
+			["Time"] = "22:41:30",
 			["ReceiveItems"] = {
 			},
 		}, -- [638]
 		{
 			["TargetName"] = "箭杀四方",
-			["Date"] = "2022-10-15",
-			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
-			["GiveMoney"] = 0,
-			["Location"] = "纳克萨玛斯",
-			["PlayerName"] = "特变电工",
-			["Time"] = "22:41:30",
-			["ReceiveItems"] = {
-			},
-		}, -- [639]
-		{
-			["TargetName"] = "箭杀四方",
 			["PlayerName"] = "特变电工",
 			["Date"] = "2022-10-15",
 			["ReceiveMoney"] = 0,
@@ -15240,7 +15206,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [640]
+		}, -- [639]
 		{
 			["TargetName"] = "兜里有光",
 			["Date"] = "2022-10-15",
@@ -15253,7 +15219,7 @@ MailLoggerDB = {
 			["Time"] = "22:41:40",
 			["ReceiveItems"] = {
 			},
-		}, -- [641]
+		}, -- [640]
 		{
 			["TargetName"] = "骑风",
 			["Date"] = "2022-10-15",
@@ -15266,7 +15232,7 @@ MailLoggerDB = {
 			["Time"] = "22:42:05",
 			["ReceiveItems"] = {
 			},
-		}, -- [642]
+		}, -- [641]
 		{
 			["TargetName"] = "骑风",
 			["PlayerName"] = "特变电工",
@@ -15278,24 +15244,24 @@ MailLoggerDB = {
 			["GiveItems"] = {
 			},
 			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [642]
+		{
+			["TargetName"] = "光头吃鸡腿",
+			["Date"] = "2022-10-15",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "纳克萨玛斯",
+			["PlayerName"] = "特变电工",
+			["Time"] = "22:42:11",
 			["ReceiveItems"] = {
 			},
 		}, -- [643]
 		{
 			["TargetName"] = "光头吃鸡腿",
-			["Date"] = "2022-10-15",
-			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
-			["GiveMoney"] = 0,
-			["Location"] = "纳克萨玛斯",
-			["PlayerName"] = "特变电工",
-			["Time"] = "22:42:11",
-			["ReceiveItems"] = {
-			},
-		}, -- [644]
-		{
-			["TargetName"] = "光头吃鸡腿",
 			["PlayerName"] = "特变电工",
 			["Date"] = "2022-10-15",
 			["ReceiveMoney"] = 0,
@@ -15305,24 +15271,24 @@ MailLoggerDB = {
 			["GiveItems"] = {
 			},
 			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [644]
+		{
+			["TargetName"] = "贰丶柒丶拾",
+			["Date"] = "2022-10-15",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "纳克萨玛斯",
+			["PlayerName"] = "特变电工",
+			["Time"] = "22:42:17",
 			["ReceiveItems"] = {
 			},
 		}, -- [645]
 		{
 			["TargetName"] = "贰丶柒丶拾",
-			["Date"] = "2022-10-15",
-			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
-			["GiveMoney"] = 0,
-			["Location"] = "纳克萨玛斯",
-			["PlayerName"] = "特变电工",
-			["Time"] = "22:42:17",
-			["ReceiveItems"] = {
-			},
-		}, -- [646]
-		{
-			["TargetName"] = "贰丶柒丶拾",
 			["PlayerName"] = "特变电工",
 			["Date"] = "2022-10-15",
 			["ReceiveMoney"] = 0,
@@ -15332,24 +15298,24 @@ MailLoggerDB = {
 			["GiveItems"] = {
 			},
 			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [646]
+		{
+			["TargetName"] = "牧丶糸",
+			["Date"] = "2022-10-15",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "纳克萨玛斯",
+			["PlayerName"] = "特变电工",
+			["Time"] = "22:42:28",
 			["ReceiveItems"] = {
 			},
 		}, -- [647]
 		{
 			["TargetName"] = "牧丶糸",
-			["Date"] = "2022-10-15",
-			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
-			["GiveMoney"] = 0,
-			["Location"] = "纳克萨玛斯",
-			["PlayerName"] = "特变电工",
-			["Time"] = "22:42:28",
-			["ReceiveItems"] = {
-			},
-		}, -- [648]
-		{
-			["TargetName"] = "牧丶糸",
 			["PlayerName"] = "特变电工",
 			["Date"] = "2022-10-15",
 			["ReceiveMoney"] = 0,
@@ -15359,24 +15325,24 @@ MailLoggerDB = {
 			["GiveItems"] = {
 			},
 			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [648]
+		{
+			["TargetName"] = "枕戈待旦",
+			["Date"] = "2022-10-15",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "纳克萨玛斯",
+			["PlayerName"] = "特变电工",
+			["Time"] = "22:42:35",
 			["ReceiveItems"] = {
 			},
 		}, -- [649]
 		{
 			["TargetName"] = "枕戈待旦",
-			["Date"] = "2022-10-15",
-			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
-			["GiveMoney"] = 0,
-			["Location"] = "纳克萨玛斯",
-			["PlayerName"] = "特变电工",
-			["Time"] = "22:42:35",
-			["ReceiveItems"] = {
-			},
-		}, -- [650]
-		{
-			["TargetName"] = "枕戈待旦",
 			["PlayerName"] = "特变电工",
 			["Date"] = "2022-10-15",
 			["ReceiveMoney"] = 0,
@@ -15386,24 +15352,24 @@ MailLoggerDB = {
 			["GiveItems"] = {
 			},
 			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [650]
+		{
+			["TargetName"] = "兜里有光",
+			["Date"] = "2022-10-15",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "纳克萨玛斯",
+			["PlayerName"] = "特变电工",
+			["Time"] = "22:42:44",
 			["ReceiveItems"] = {
 			},
 		}, -- [651]
 		{
 			["TargetName"] = "兜里有光",
-			["Date"] = "2022-10-15",
-			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
-			["GiveMoney"] = 0,
-			["Location"] = "纳克萨玛斯",
-			["PlayerName"] = "特变电工",
-			["Time"] = "22:42:44",
-			["ReceiveItems"] = {
-			},
-		}, -- [652]
-		{
-			["TargetName"] = "兜里有光",
 			["PlayerName"] = "特变电工",
 			["Date"] = "2022-10-15",
 			["ReceiveMoney"] = 0,
@@ -15415,7 +15381,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [653]
+		}, -- [652]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -15451,7 +15417,7 @@ MailLoggerDB = {
 					["Name"] = "卷轴：附魔胸甲 - 超级属性",
 				}, -- [5]
 			},
-		}, -- [654]
+		}, -- [653]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -15471,7 +15437,7 @@ MailLoggerDB = {
 					["Name"] = "卷轴：附魔武器 - 强效潜能",
 				}, -- [1]
 			},
-		}, -- [655]
+		}, -- [654]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特变电工",
@@ -15485,7 +15451,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [656]
+		}, -- [655]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特变电工",
@@ -15500,7 +15466,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [657]
+		}, -- [656]
 		{
 			["Date"] = "2022-10-16",
 			["TargetName"] = "英勇灵气",
@@ -15513,7 +15479,7 @@ MailLoggerDB = {
 			["PlayerName"] = "新特能源",
 			["ReceiveItems"] = {
 			},
-		}, -- [658]
+		}, -- [657]
 		{
 			["TargetName"] = "英勇灵气",
 			["PlayerName"] = "新特能源",
@@ -15532,7 +15498,7 @@ MailLoggerDB = {
 					["Name"] = "雪绒长袍",
 				}, -- [1]
 			},
-		}, -- [659]
+		}, -- [658]
 		{
 			["Date"] = "2022-10-16",
 			["TargetName"] = "英勇灵气",
@@ -15545,7 +15511,7 @@ MailLoggerDB = {
 			["PlayerName"] = "新特能源",
 			["ReceiveItems"] = {
 			},
-		}, -- [660]
+		}, -- [659]
 		{
 			["TargetName"] = "英勇灵气",
 			["PlayerName"] = "新特能源",
@@ -15564,7 +15530,7 @@ MailLoggerDB = {
 					["Name"] = "理性兜帽",
 				}, -- [1]
 			},
-		}, -- [661]
+		}, -- [660]
 		{
 			["Date"] = "2022-10-16",
 			["TargetName"] = "英勇灵气",
@@ -15577,7 +15543,7 @@ MailLoggerDB = {
 			["PlayerName"] = "新特能源",
 			["ReceiveItems"] = {
 			},
-		}, -- [662]
+		}, -- [661]
 		{
 			["TargetName"] = "英勇灵气",
 			["PlayerName"] = "新特能源",
@@ -15591,7 +15557,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [663]
+		}, -- [662]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -15626,7 +15592,7 @@ MailLoggerDB = {
 					["Name"] = "卷轴：附魔胸甲 - 强力属性",
 				}, -- [4]
 			},
-		}, -- [664]
+		}, -- [663]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "新特能源",
@@ -15640,7 +15606,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [665]
+		}, -- [664]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "码农巴菲特",
@@ -15654,7 +15620,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [666]
+		}, -- [665]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "新特能源",
@@ -15669,7 +15635,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [667]
+		}, -- [666]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "码农巴菲特",
@@ -15684,7 +15650,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [668]
+		}, -- [667]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -15704,7 +15670,7 @@ MailLoggerDB = {
 					["Name"] = "无尽怒气合剂",
 				}, -- [1]
 			},
-		}, -- [669]
+		}, -- [668]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "是风中呀",
@@ -15717,7 +15683,7 @@ MailLoggerDB = {
 			["Time"] = "16:00:09",
 			["ReceiveItems"] = {
 			},
-		}, -- [670]
+		}, -- [669]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "秋月灬爱莉",
@@ -15730,7 +15696,7 @@ MailLoggerDB = {
 			["Time"] = "16:26:43",
 			["ReceiveItems"] = {
 			},
-		}, -- [671]
+		}, -- [670]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "一帝",
@@ -15743,7 +15709,7 @@ MailLoggerDB = {
 			["Time"] = "16:26:49",
 			["ReceiveItems"] = {
 			},
-		}, -- [672]
+		}, -- [671]
 		{
 			["TargetName"] = "一帝",
 			["PlayerName"] = "特变电工",
@@ -15762,7 +15728,7 @@ MailLoggerDB = {
 					["Name"] = "无情护腕",
 				}, -- [1]
 			},
-		}, -- [673]
+		}, -- [672]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "一帝",
@@ -15775,7 +15741,7 @@ MailLoggerDB = {
 			["Time"] = "16:44:34",
 			["ReceiveItems"] = {
 			},
-		}, -- [674]
+		}, -- [673]
 		{
 			["TargetName"] = "一帝",
 			["PlayerName"] = "特变电工",
@@ -15794,7 +15760,7 @@ MailLoggerDB = {
 					["Name"] = "死亡之网",
 				}, -- [1]
 			},
-		}, -- [675]
+		}, -- [674]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "一帝",
@@ -15807,7 +15773,7 @@ MailLoggerDB = {
 			["Time"] = "18:25:46",
 			["ReceiveItems"] = {
 			},
-		}, -- [676]
+		}, -- [675]
 		{
 			["TargetName"] = "一帝",
 			["PlayerName"] = "特变电工",
@@ -15826,7 +15792,7 @@ MailLoggerDB = {
 					["Name"] = "邪恶复仇",
 				}, -- [1]
 			},
-		}, -- [677]
+		}, -- [676]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "秋月灬爱莉",
@@ -15839,7 +15805,7 @@ MailLoggerDB = {
 			["Time"] = "18:35:31",
 			["ReceiveItems"] = {
 			},
-		}, -- [678]
+		}, -- [677]
 		{
 			["TargetName"] = "秋月灬爱莉",
 			["PlayerName"] = "特变电工",
@@ -15853,7 +15819,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [679]
+		}, -- [678]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "骑风",
@@ -15866,7 +15832,7 @@ MailLoggerDB = {
 			["Time"] = "18:35:42",
 			["ReceiveItems"] = {
 			},
-		}, -- [680]
+		}, -- [679]
 		{
 			["TargetName"] = "骑风",
 			["PlayerName"] = "特变电工",
@@ -15880,7 +15846,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [681]
+		}, -- [680]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -15911,7 +15877,7 @@ MailLoggerDB = {
 					["Name"] = "精准血玉石",
 				}, -- [4]
 			},
-		}, -- [682]
+		}, -- [681]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -15931,7 +15897,7 @@ MailLoggerDB = {
 					["Name"] = "精准血玉石",
 				}, -- [1]
 			},
-		}, -- [683]
+		}, -- [682]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -15951,7 +15917,7 @@ MailLoggerDB = {
 					["Name"] = "卷轴：附魔披风 - 超强敏捷",
 				}, -- [1]
 			},
-		}, -- [684]
+		}, -- [683]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特变电工",
@@ -15965,7 +15931,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [685]
+		}, -- [684]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特变电工",
@@ -15980,7 +15946,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [686]
+		}, -- [685]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "新特能源",
@@ -15999,7 +15965,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [687]
+		}, -- [686]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "新特能源",
@@ -16019,7 +15985,7 @@ MailLoggerDB = {
 					["Name"] = "强效利斧铭文",
 				}, -- [1]
 			},
-		}, -- [688]
+		}, -- [687]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特红",
@@ -16032,7 +15998,7 @@ MailLoggerDB = {
 			["Time"] = "00:06:34",
 			["ReceiveItems"] = {
 			},
-		}, -- [689]
+		}, -- [688]
 		{
 			["TargetName"] = "特红",
 			["PlayerName"] = "新特能源",
@@ -16051,7 +16017,7 @@ MailLoggerDB = {
 					["Name"] = "傲慢护腿",
 				}, -- [1]
 			},
-		}, -- [690]
+		}, -- [689]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "捌叁肆星空帝",
@@ -16064,7 +16030,7 @@ MailLoggerDB = {
 			["Time"] = "00:19:04",
 			["ReceiveItems"] = {
 			},
-		}, -- [691]
+		}, -- [690]
 		{
 			["TargetName"] = "捌叁肆星空帝",
 			["PlayerName"] = "新特能源",
@@ -16078,7 +16044,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [692]
+		}, -- [691]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特红",
@@ -16091,7 +16057,7 @@ MailLoggerDB = {
 			["Time"] = "00:21:24",
 			["ReceiveItems"] = {
 			},
-		}, -- [693]
+		}, -- [692]
 		{
 			["TargetName"] = "特红",
 			["PlayerName"] = "新特能源",
@@ -16105,7 +16071,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [694]
+		}, -- [693]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "薇薇儿",
@@ -16118,7 +16084,7 @@ MailLoggerDB = {
 			["Time"] = "00:21:49",
 			["ReceiveItems"] = {
 			},
-		}, -- [695]
+		}, -- [694]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "薇薇儿",
@@ -16131,7 +16097,7 @@ MailLoggerDB = {
 			["Time"] = "00:22:01",
 			["ReceiveItems"] = {
 			},
-		}, -- [696]
+		}, -- [695]
 		{
 			["TargetName"] = "薇薇儿",
 			["PlayerName"] = "新特能源",
@@ -16145,7 +16111,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [697]
+		}, -- [696]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -16170,7 +16136,7 @@ MailLoggerDB = {
 					["Name"] = "辉煌魔线",
 				},
 			},
-		}, -- [698]
+		}, -- [697]
 		{
 			["TargetName"] = "法七七",
 			["PlayerName"] = "新特能源",
@@ -16183,7 +16149,7 @@ MailLoggerDB = {
 			["Date"] = "2022-10-17",
 			["ReceiveItems"] = {
 			},
-		}, -- [699]
+		}, -- [698]
 		{
 			["TargetName"] = "法七七",
 			["PlayerName"] = "新特能源",
@@ -16196,7 +16162,7 @@ MailLoggerDB = {
 			["Date"] = "2022-10-17",
 			["ReceiveItems"] = {
 			},
-		}, -- [700]
+		}, -- [699]
 		{
 			["TargetName"] = "法七七",
 			["PlayerName"] = "新特能源",
@@ -16215,7 +16181,7 @@ MailLoggerDB = {
 					["Name"] = "凝视之眼",
 				}, -- [1]
 			},
-		}, -- [701]
+		}, -- [700]
 		{
 			["TargetName"] = "大领主丶米罗",
 			["PlayerName"] = "新特能源",
@@ -16228,7 +16194,7 @@ MailLoggerDB = {
 			["Date"] = "2022-10-17",
 			["ReceiveItems"] = {
 			},
-		}, -- [702]
+		}, -- [701]
 		{
 			["TargetName"] = "大领主丶米罗",
 			["PlayerName"] = "新特能源",
@@ -16242,7 +16208,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [703]
+		}, -- [702]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "码农巴菲特",
@@ -16311,7 +16277,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [704]
+		}, -- [703]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "新特能源",
@@ -16325,7 +16291,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [705]
+		}, -- [704]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "新特能源",
@@ -16340,7 +16306,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [706]
+		}, -- [705]
 		{
 			["PlayerName"] = "特变电工",
 			["Date"] = "2022-10-18",
@@ -16353,7 +16319,7 @@ MailLoggerDB = {
 			["TargetName"] = "夕里安",
 			["ReceiveItems"] = {
 			},
-		}, -- [707]
+		}, -- [706]
 		{
 			["TargetName"] = "夕里安",
 			["PlayerName"] = "特变电工",
@@ -16367,7 +16333,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [708]
+		}, -- [707]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -16387,7 +16353,7 @@ MailLoggerDB = {
 					["Name"] = "铜锭",
 				}, -- [1]
 			},
-		}, -- [709]
+		}, -- [708]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -16406,7 +16372,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [710]
+		}, -- [709]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -16440,7 +16406,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [711]
+		}, -- [710]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -16460,7 +16426,7 @@ MailLoggerDB = {
 					["Name"] = "珠宝制作工具",
 				}, -- [1]
 			},
-		}, -- [712]
+		}, -- [711]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -16480,7 +16446,7 @@ MailLoggerDB = {
 					["Name"] = "铜锭",
 				}, -- [1]
 			},
-		}, -- [713]
+		}, -- [712]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -16500,7 +16466,7 @@ MailLoggerDB = {
 					["Name"] = "孔雀石",
 				}, -- [1]
 			},
-		}, -- [714]
+		}, -- [713]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -16520,7 +16486,7 @@ MailLoggerDB = {
 					["Name"] = "青铜锭",
 				}, -- [1]
 			},
-		}, -- [715]
+		}, -- [714]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -16540,7 +16506,7 @@ MailLoggerDB = {
 					["Name"] = "青铜锭",
 				}, -- [1]
 			},
-		}, -- [716]
+		}, -- [715]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -16560,7 +16526,7 @@ MailLoggerDB = {
 					["Name"] = "次级月亮石",
 				}, -- [1]
 			},
-		}, -- [717]
+		}, -- [716]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -16580,7 +16546,7 @@ MailLoggerDB = {
 					["Name"] = "银锭",
 				}, -- [1]
 			},
-		}, -- [718]
+		}, -- [717]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -16600,7 +16566,7 @@ MailLoggerDB = {
 					["Name"] = "银锭",
 				}, -- [1]
 			},
-		}, -- [719]
+		}, -- [718]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -16620,7 +16586,7 @@ MailLoggerDB = {
 					["Name"] = "沉重的石头",
 				}, -- [1]
 			},
-		}, -- [720]
+		}, -- [719]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -16640,7 +16606,7 @@ MailLoggerDB = {
 					["Name"] = "图鉴：玛瑙护盾坠饰",
 				}, -- [1]
 			},
-		}, -- [721]
+		}, -- [720]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -16660,7 +16626,7 @@ MailLoggerDB = {
 					["Name"] = "绿玛瑙",
 				}, -- [1]
 			},
-		}, -- [722]
+		}, -- [721]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -16680,7 +16646,7 @@ MailLoggerDB = {
 					["Name"] = "秘银锭",
 				}, -- [1]
 			},
-		}, -- [723]
+		}, -- [722]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -16700,7 +16666,7 @@ MailLoggerDB = {
 					["Name"] = "秘银锭",
 				}, -- [1]
 			},
-		}, -- [724]
+		}, -- [723]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -16720,7 +16686,7 @@ MailLoggerDB = {
 					["Name"] = "真银锭",
 				}, -- [1]
 			},
-		}, -- [725]
+		}, -- [724]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -16740,7 +16706,7 @@ MailLoggerDB = {
 					["Name"] = "秘银锭",
 				}, -- [1]
 			},
-		}, -- [726]
+		}, -- [725]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -16765,7 +16731,7 @@ MailLoggerDB = {
 					["Name"] = "秘银锭",
 				},
 			},
-		}, -- [727]
+		}, -- [726]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -16785,7 +16751,7 @@ MailLoggerDB = {
 					["Name"] = "青绿石",
 				}, -- [1]
 			},
-		}, -- [728]
+		}, -- [727]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -16805,7 +16771,7 @@ MailLoggerDB = {
 					["Name"] = "魔精",
 				}, -- [1]
 			},
-		}, -- [729]
+		}, -- [728]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -16825,7 +16791,7 @@ MailLoggerDB = {
 					["Name"] = "瑟银锭",
 				}, -- [1]
 			},
-		}, -- [730]
+		}, -- [729]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -16845,7 +16811,7 @@ MailLoggerDB = {
 					["Name"] = "红宝石",
 				}, -- [1]
 			},
-		}, -- [731]
+		}, -- [730]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -16865,7 +16831,7 @@ MailLoggerDB = {
 					["Name"] = "红宝石",
 				}, -- [1]
 			},
-		}, -- [732]
+		}, -- [731]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -16885,7 +16851,7 @@ MailLoggerDB = {
 					["Name"] = "大猫眼石",
 				}, -- [1]
 			},
-		}, -- [733]
+		}, -- [732]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -16910,7 +16876,7 @@ MailLoggerDB = {
 					["Name"] = "真银锭",
 				},
 			},
-		}, -- [734]
+		}, -- [733]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -16930,7 +16896,7 @@ MailLoggerDB = {
 					["Name"] = "艾泽拉斯钻石",
 				}, -- [1]
 			},
-		}, -- [735]
+		}, -- [734]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -16950,7 +16916,7 @@ MailLoggerDB = {
 					["Name"] = "巨型绿宝石",
 				}, -- [1]
 			},
-		}, -- [736]
+		}, -- [735]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -16964,7 +16930,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [737]
+		}, -- [736]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -17104,7 +17070,7 @@ MailLoggerDB = {
 					["Name"] = "铭文火榴石",
 				}, -- [25]
 			},
-		}, -- [738]
+		}, -- [737]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "特变电工",
@@ -17129,7 +17095,7 @@ MailLoggerDB = {
 					["Name"] = "精神卷轴 VII",
 				}, -- [2]
 			},
-		}, -- [739]
+		}, -- [738]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -17149,7 +17115,7 @@ MailLoggerDB = {
 					["Name"] = "血榴石",
 				}, -- [1]
 			},
-		}, -- [740]
+		}, -- [739]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -17168,7 +17134,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [741]
+		}, -- [740]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -17188,7 +17154,7 @@ MailLoggerDB = {
 					["Name"] = "火榴石",
 				}, -- [1]
 			},
-		}, -- [742]
+		}, -- [741]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -17207,7 +17173,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [743]
+		}, -- [742]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -17227,7 +17193,7 @@ MailLoggerDB = {
 					["Name"] = "德拉诺金钻",
 				}, -- [1]
 			},
-		}, -- [744]
+		}, -- [743]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "特变电工",
@@ -17257,7 +17223,7 @@ MailLoggerDB = {
 					["Name"] = "霜纹布",
 				}, -- [3]
 			},
-		}, -- [745]
+		}, -- [744]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -17276,7 +17242,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [746]
+		}, -- [745]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -17301,7 +17267,7 @@ MailLoggerDB = {
 					["Name"] = "水银精金",
 				},
 			},
-		}, -- [747]
+		}, -- [746]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -17325,7 +17291,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [748]
+		}, -- [747]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -17350,7 +17316,7 @@ MailLoggerDB = {
 					["Name"] = "茶晶石",
 				},
 			},
-		}, -- [749]
+		}, -- [748]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "特变电工",
@@ -17370,7 +17336,7 @@ MailLoggerDB = {
 					["Name"] = "霜纹布",
 				}, -- [1]
 			},
-		}, -- [750]
+		}, -- [749]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "码农巴菲特",
@@ -17390,7 +17356,7 @@ MailLoggerDB = {
 					["Name"] = "符文法力药水",
 				}, -- [1]
 			},
-		}, -- [751]
+		}, -- [750]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -17420,7 +17386,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [752]
+		}, -- [751]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -17440,7 +17406,7 @@ MailLoggerDB = {
 					["Name"] = "玉髓石",
 				}, -- [1]
 			},
-		}, -- [753]
+		}, -- [752]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -17459,7 +17425,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [754]
+		}, -- [753]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "特工仓库",
@@ -17479,7 +17445,7 @@ MailLoggerDB = {
 					["Name"] = "玉髓石",
 				}, -- [1]
 			},
-		}, -- [755]
+		}, -- [754]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -17499,7 +17465,7 @@ MailLoggerDB = {
 					["Name"] = "黑玉",
 				}, -- [1]
 			},
-		}, -- [756]
+		}, -- [755]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -17518,7 +17484,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [757]
+		}, -- [756]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "特工仓库",
@@ -17538,7 +17504,7 @@ MailLoggerDB = {
 					["Name"] = "黑玉",
 				}, -- [1]
 			},
-		}, -- [758]
+		}, -- [757]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -17558,7 +17524,7 @@ MailLoggerDB = {
 					["Name"] = "血石",
 				}, -- [1]
 			},
-		}, -- [759]
+		}, -- [758]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "码农巴菲特",
@@ -17604,7 +17570,7 @@ MailLoggerDB = {
 					["Name"] = "水之结晶",
 				}, -- [7]
 			},
-		}, -- [760]
+		}, -- [759]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -17623,7 +17589,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [761]
+		}, -- [760]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "码农巴菲特",
@@ -17673,7 +17639,7 @@ MailLoggerDB = {
 					["Name"] = "生命结晶",
 				}, -- [7]
 			},
-		}, -- [762]
+		}, -- [761]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "特工仓库",
@@ -17687,7 +17653,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [763]
+		}, -- [762]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "特工仓库",
@@ -17707,7 +17673,7 @@ MailLoggerDB = {
 					["Name"] = "血石",
 				}, -- [1]
 			},
-		}, -- [764]
+		}, -- [763]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "骑风",
@@ -17720,7 +17686,7 @@ MailLoggerDB = {
 			["Time"] = "22:37:40",
 			["ReceiveItems"] = {
 			},
-		}, -- [765]
+		}, -- [764]
 		{
 			["TargetName"] = "骑风",
 			["PlayerName"] = "特变电工",
@@ -17734,7 +17700,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [766]
+		}, -- [765]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "铁南",
@@ -17747,7 +17713,7 @@ MailLoggerDB = {
 			["Time"] = "23:06:05",
 			["ReceiveItems"] = {
 			},
-		}, -- [767]
+		}, -- [766]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "铁南",
@@ -17760,7 +17726,7 @@ MailLoggerDB = {
 			["Time"] = "23:06:13",
 			["ReceiveItems"] = {
 			},
-		}, -- [768]
+		}, -- [767]
 		{
 			["TargetName"] = "铁南",
 			["PlayerName"] = "特变电工",
@@ -17779,7 +17745,7 @@ MailLoggerDB = {
 					["Name"] = "分歧护腿",
 				}, -- [1]
 			},
-		}, -- [769]
+		}, -- [768]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "铁南",
@@ -17792,7 +17758,7 @@ MailLoggerDB = {
 			["Time"] = "00:46:51",
 			["ReceiveItems"] = {
 			},
-		}, -- [770]
+		}, -- [769]
 		{
 			["TargetName"] = "铁南",
 			["PlayerName"] = "特变电工",
@@ -17811,7 +17777,7 @@ MailLoggerDB = {
 					["Name"] = "主宰披风",
 				}, -- [1]
 			},
-		}, -- [771]
+		}, -- [770]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "铁南",
@@ -17824,7 +17790,7 @@ MailLoggerDB = {
 			["Time"] = "01:40:29",
 			["ReceiveItems"] = {
 			},
-		}, -- [772]
+		}, -- [771]
 		{
 			["TargetName"] = "铁南",
 			["PlayerName"] = "特变电工",
@@ -17838,7 +17804,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [773]
+		}, -- [772]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -17863,7 +17829,7 @@ MailLoggerDB = {
 					["Name"] = "冰鳞腿甲片",
 				}, -- [2]
 			},
-		}, -- [774]
+		}, -- [773]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -17943,7 +17909,7 @@ MailLoggerDB = {
 					["Name"] = "红宝石",
 				},
 			},
-		}, -- [775]
+		}, -- [774]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -17963,7 +17929,7 @@ MailLoggerDB = {
 					["Name"] = "次级月亮石",
 				}, -- [1]
 			},
-		}, -- [776]
+		}, -- [775]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -17983,7 +17949,7 @@ MailLoggerDB = {
 					["Name"] = "次级月亮石",
 				}, -- [1]
 			},
-		}, -- [777]
+		}, -- [776]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -18008,7 +17974,7 @@ MailLoggerDB = {
 					["Name"] = "翡翠",
 				}, -- [2]
 			},
-		}, -- [778]
+		}, -- [777]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -18039,7 +18005,7 @@ MailLoggerDB = {
 					["Name"] = "青铜锭",
 				}, -- [4]
 			},
-		}, -- [779]
+		}, -- [778]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -18059,7 +18025,7 @@ MailLoggerDB = {
 					["Name"] = "图鉴：玛瑙护盾坠饰",
 				}, -- [1]
 			},
-		}, -- [780]
+		}, -- [779]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -18079,7 +18045,7 @@ MailLoggerDB = {
 					["Name"] = "图鉴：闪耀黄水晶之戒",
 				}, -- [1]
 			},
-		}, -- [781]
+		}, -- [780]
 		{
 			["Date"] = "2022-10-22",
 			["PlayerName"] = "新特能源",
@@ -18092,7 +18058,7 @@ MailLoggerDB = {
 			["Time"] = "17:13:28",
 			["ReceiveItems"] = {
 			},
-		}, -- [782]
+		}, -- [781]
 		{
 			["TargetName"] = "她像云资源",
 			["PlayerName"] = "新特能源",
@@ -18116,7 +18082,7 @@ MailLoggerDB = {
 					["Name"] = "魔法酪饼",
 				}, -- [2]
 			},
-		}, -- [783]
+		}, -- [782]
 		{
 			["Date"] = "2022-10-22",
 			["PlayerName"] = "新特能源",
@@ -18129,7 +18095,7 @@ MailLoggerDB = {
 			["Time"] = "18:11:06",
 			["ReceiveItems"] = {
 			},
-		}, -- [784]
+		}, -- [783]
 		{
 			["TargetName"] = "皮可爱",
 			["PlayerName"] = "新特能源",
@@ -18143,7 +18109,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [785]
+		}, -- [784]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -18163,7 +18129,7 @@ MailLoggerDB = {
 					["Name"] = "真银锭",
 				}, -- [1]
 			},
-		}, -- [786]
+		}, -- [785]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -18183,7 +18149,7 @@ MailLoggerDB = {
 					["Name"] = "黄水晶",
 				}, -- [1]
 			},
-		}, -- [787]
+		}, -- [786]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -18203,7 +18169,7 @@ MailLoggerDB = {
 					["Name"] = "黄水晶",
 				}, -- [1]
 			},
-		}, -- [788]
+		}, -- [787]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -18223,7 +18189,7 @@ MailLoggerDB = {
 					["Name"] = "大猫眼石",
 				}, -- [1]
 			},
-		}, -- [789]
+		}, -- [788]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -18248,7 +18214,7 @@ MailLoggerDB = {
 					["Name"] = "瑟银锭",
 				},
 			},
-		}, -- [790]
+		}, -- [789]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -18268,7 +18234,7 @@ MailLoggerDB = {
 					["Name"] = "巨型绿宝石",
 				}, -- [1]
 			},
-		}, -- [791]
+		}, -- [790]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -18326,7 +18292,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [792]
+		}, -- [791]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -18391,7 +18357,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [793]
+		}, -- [792]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "新特能源",
@@ -18406,7 +18372,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [794]
+		}, -- [793]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -18436,7 +18402,7 @@ MailLoggerDB = {
 					["Name"] = "血榴石",
 				},
 			},
-		}, -- [795]
+		}, -- [794]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "新特能源",
@@ -18456,7 +18422,7 @@ MailLoggerDB = {
 					["Name"] = "秘银丝",
 				}, -- [1]
 			},
-		}, -- [796]
+		}, -- [795]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特工仓库",
@@ -18507,7 +18473,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [797]
+		}, -- [796]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特工仓库",
@@ -18557,7 +18523,7 @@ MailLoggerDB = {
 					["Name"] = "碧月石",
 				}, -- [7]
 			},
-		}, -- [798]
+		}, -- [797]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -18577,7 +18543,7 @@ MailLoggerDB = {
 					["Name"] = "火榴石",
 				}, -- [1]
 			},
-		}, -- [799]
+		}, -- [798]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "新特能源",
@@ -18597,7 +18563,7 @@ MailLoggerDB = {
 					["Name"] = "沉重的石头",
 				}, -- [1]
 			},
-		}, -- [800]
+		}, -- [799]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特工仓库",
@@ -18616,7 +18582,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [801]
+		}, -- [800]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特工仓库",
@@ -18636,7 +18602,7 @@ MailLoggerDB = {
 					["Name"] = "火榴石",
 				}, -- [1]
 			},
-		}, -- [802]
+		}, -- [801]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -18656,7 +18622,7 @@ MailLoggerDB = {
 					["Name"] = "德拉诺金钻",
 				}, -- [1]
 			},
-		}, -- [803]
+		}, -- [802]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "新特能源",
@@ -18686,7 +18652,7 @@ MailLoggerDB = {
 					["Name"] = "铜锭",
 				}, -- [3]
 			},
-		}, -- [804]
+		}, -- [803]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特工仓库",
@@ -18705,7 +18671,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [805]
+		}, -- [804]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特工仓库",
@@ -18725,7 +18691,7 @@ MailLoggerDB = {
 					["Name"] = "德拉诺金钻",
 				}, -- [1]
 			},
-		}, -- [806]
+		}, -- [805]
 		{
 			["PlayerName"] = "新特能源",
 			["Date"] = "2022-10-22",
@@ -18738,7 +18704,7 @@ MailLoggerDB = {
 			["TargetName"] = "Oneonone",
 			["ReceiveItems"] = {
 			},
-		}, -- [807]
+		}, -- [806]
 		{
 			["TargetName"] = "Oneonone",
 			["PlayerName"] = "新特能源",
@@ -18752,7 +18718,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [808]
+		}, -- [807]
 		{
 			["PlayerName"] = "新特能源",
 			["Date"] = "2022-10-22",
@@ -18765,7 +18731,7 @@ MailLoggerDB = {
 			["TargetName"] = "给老张抹油",
 			["ReceiveItems"] = {
 			},
-		}, -- [809]
+		}, -- [808]
 		{
 			["PlayerName"] = "新特能源",
 			["Date"] = "2022-10-22",
@@ -18778,7 +18744,7 @@ MailLoggerDB = {
 			["TargetName"] = "给老张抹油",
 			["ReceiveItems"] = {
 			},
-		}, -- [810]
+		}, -- [809]
 		{
 			["TargetName"] = "给老张抹油",
 			["PlayerName"] = "新特能源",
@@ -18797,7 +18763,7 @@ MailLoggerDB = {
 					["Name"] = "蛛魔宝石短杖",
 				}, -- [1]
 			},
-		}, -- [811]
+		}, -- [810]
 		{
 			["PlayerName"] = "新特能源",
 			["Date"] = "2022-10-22",
@@ -18810,7 +18776,7 @@ MailLoggerDB = {
 			["TargetName"] = "奶不够得挤",
 			["ReceiveItems"] = {
 			},
-		}, -- [812]
+		}, -- [811]
 		{
 			["TargetName"] = "奶不够得挤",
 			["PlayerName"] = "新特能源",
@@ -18824,7 +18790,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [813]
+		}, -- [812]
 		{
 			["PlayerName"] = "新特能源",
 			["Date"] = "2022-10-22",
@@ -18837,7 +18803,7 @@ MailLoggerDB = {
 			["TargetName"] = "给老张抹油",
 			["ReceiveItems"] = {
 			},
-		}, -- [814]
+		}, -- [813]
 		{
 			["TargetName"] = "给老张抹油",
 			["PlayerName"] = "新特能源",
@@ -18851,7 +18817,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [815]
+		}, -- [814]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -18876,7 +18842,7 @@ MailLoggerDB = {
 					["Name"] = "水银精金",
 				},
 			},
-		}, -- [816]
+		}, -- [815]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -18901,7 +18867,7 @@ MailLoggerDB = {
 					["Name"] = "精金锭",
 				}, -- [2]
 			},
-		}, -- [817]
+		}, -- [816]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "新特能源",
@@ -18947,7 +18913,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [818]
+		}, -- [817]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -18992,7 +18958,7 @@ MailLoggerDB = {
 					["Name"] = "茶晶石",
 				},
 			},
-		}, -- [819]
+		}, -- [818]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "新特能源",
@@ -19012,7 +18978,7 @@ MailLoggerDB = {
 					["Name"] = "精金锭",
 				}, -- [1]
 			},
-		}, -- [820]
+		}, -- [819]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特工仓库",
@@ -19058,7 +19024,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [821]
+		}, -- [820]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特工仓库",
@@ -19105,7 +19071,7 @@ MailLoggerDB = {
 					["Name"] = "玉髓石",
 				}, -- [8]
 			},
-		}, -- [822]
+		}, -- [821]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "新特能源",
@@ -19188,7 +19154,7 @@ MailLoggerDB = {
 					["Name"] = "红宝石",
 				}, -- [16]
 			},
-		}, -- [823]
+		}, -- [822]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "新特能源",
@@ -19253,7 +19219,7 @@ MailLoggerDB = {
 					["Name"] = "极效思维药剂",
 				},
 			},
-		}, -- [824]
+		}, -- [823]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "新特能源",
@@ -19357,7 +19323,7 @@ MailLoggerDB = {
 					["Name"] = "霜纹布",
 				}, -- [21]
 			},
-		}, -- [825]
+		}, -- [824]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "特变电工",
@@ -19412,7 +19378,7 @@ MailLoggerDB = {
 					["Name"] = "银锭",
 				},
 			},
-		}, -- [826]
+		}, -- [825]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -19432,7 +19398,7 @@ MailLoggerDB = {
 					["Name"] = "铭文火榴石",
 				}, -- [1]
 			},
-		}, -- [827]
+		}, -- [826]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -19457,7 +19423,7 @@ MailLoggerDB = {
 					["Name"] = "巨牙毒囊",
 				},
 			},
-		}, -- [828]
+		}, -- [827]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "码农巴菲特",
@@ -19518,7 +19484,7 @@ MailLoggerDB = {
 					["Name"] = "金苜蓿",
 				}, -- [10]
 			},
-		}, -- [829]
+		}, -- [828]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "特变电工",
@@ -19538,7 +19504,7 @@ MailLoggerDB = {
 					["Name"] = "霜纹布",
 				}, -- [1]
 			},
-		}, -- [830]
+		}, -- [829]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "特变电工",
@@ -19608,7 +19574,7 @@ MailLoggerDB = {
 					["Name"] = "玉髓石",
 				},
 			},
-		}, -- [831]
+		}, -- [830]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "特变电工",
@@ -19643,7 +19609,7 @@ MailLoggerDB = {
 					["Name"] = "蛇信草",
 				}, -- [4]
 			},
-		}, -- [832]
+		}, -- [831]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -19663,7 +19629,7 @@ MailLoggerDB = {
 					["Name"] = "公式：附魔手套 - 钓鱼",
 				}, -- [1]
 			},
-		}, -- [833]
+		}, -- [832]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "特变电工",
@@ -19693,7 +19659,7 @@ MailLoggerDB = {
 					["Name"] = "金苜蓿",
 				}, -- [3]
 			},
-		}, -- [834]
+		}, -- [833]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "特变电工",
@@ -19724,7 +19690,7 @@ MailLoggerDB = {
 					["Name"] = "霜纹布",
 				}, -- [4]
 			},
-		}, -- [835]
+		}, -- [834]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -19749,7 +19715,7 @@ MailLoggerDB = {
 					["Name"] = "水之精华",
 				}, -- [2]
 			},
-		}, -- [836]
+		}, -- [835]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "新特能源",
@@ -19829,7 +19795,7 @@ MailLoggerDB = {
 					["Name"] = "空气结晶",
 				},
 			},
-		}, -- [837]
+		}, -- [836]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "新特能源",
@@ -19854,7 +19820,7 @@ MailLoggerDB = {
 					["Name"] = "敏捷卷轴 VII",
 				},
 			},
-		}, -- [838]
+		}, -- [837]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "新特能源",
@@ -19889,7 +19855,7 @@ MailLoggerDB = {
 					["Name"] = "符文治疗药水",
 				}, -- [4]
 			},
-		}, -- [839]
+		}, -- [838]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "联盟拍卖行",
@@ -19904,7 +19870,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [840]
+		}, -- [839]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "新特能源",
@@ -19929,7 +19895,7 @@ MailLoggerDB = {
 					["Name"] = "符文法力药水",
 				},
 			},
-		}, -- [841]
+		}, -- [840]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "特变电工",
@@ -19986,7 +19952,7 @@ MailLoggerDB = {
 					["Name"] = "水之结晶",
 				}, -- [10]
 			},
-		}, -- [842]
+		}, -- [841]
 		{
 			["PlayerName"] = "特工仓库",
 			["TargetName"] = "特变电工",
@@ -20026,7 +19992,7 @@ MailLoggerDB = {
 					["Name"] = "霜纹布",
 				}, -- [5]
 			},
-		}, -- [843]
+		}, -- [842]
 		{
 			["Date"] = "2022-10-23",
 			["TargetName"] = "奥陌默",
@@ -20039,7 +20005,7 @@ MailLoggerDB = {
 			["PlayerName"] = "新特能源",
 			["ReceiveItems"] = {
 			},
-		}, -- [844]
+		}, -- [843]
 		{
 			["TargetName"] = "奥陌默",
 			["PlayerName"] = "新特能源",
@@ -20053,7 +20019,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [845]
+		}, -- [844]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -20073,7 +20039,7 @@ MailLoggerDB = {
 					["Name"] = "冰霜巨龙合剂",
 				}, -- [1]
 			},
-		}, -- [846]
+		}, -- [845]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "新特能源",
@@ -20087,7 +20053,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [847]
+		}, -- [846]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "新特能源",
@@ -20102,7 +20068,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [848]
+		}, -- [847]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特变电工",
@@ -20116,7 +20082,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [849]
+		}, -- [848]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特变电工",
@@ -20131,7 +20097,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [850]
+		}, -- [849]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -20151,7 +20117,7 @@ MailLoggerDB = {
 					["Name"] = "刚硬秋色石",
 				}, -- [1]
 			},
-		}, -- [851]
+		}, -- [850]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -20171,7 +20137,7 @@ MailLoggerDB = {
 					["Name"] = "狂野魔法药水",
 				}, -- [1]
 			},
-		}, -- [852]
+		}, -- [851]
 		{
 			["Date"] = "2022-10-23",
 			["PlayerName"] = "新特能源",
@@ -20184,7 +20150,7 @@ MailLoggerDB = {
 			["Time"] = "15:13:23",
 			["ReceiveItems"] = {
 			},
-		}, -- [853]
+		}, -- [852]
 		{
 			["TargetName"] = "哥舒不带刀",
 			["PlayerName"] = "新特能源",
@@ -20203,7 +20169,7 @@ MailLoggerDB = {
 					["Name"] = "恶意徽记之戒",
 				}, -- [1]
 			},
-		}, -- [854]
+		}, -- [853]
 		{
 			["Date"] = "2022-10-23",
 			["PlayerName"] = "新特能源",
@@ -20216,7 +20182,7 @@ MailLoggerDB = {
 			["Time"] = "16:21:38",
 			["ReceiveItems"] = {
 			},
-		}, -- [855]
+		}, -- [854]
 		{
 			["TargetName"] = "哥舒不带刀",
 			["PlayerName"] = "新特能源",
@@ -20235,7 +20201,7 @@ MailLoggerDB = {
 					["Name"] = "布劳缪克丝之袍",
 				}, -- [1]
 			},
-		}, -- [856]
+		}, -- [855]
 		{
 			["Date"] = "2022-10-23",
 			["PlayerName"] = "新特能源",
@@ -20248,7 +20214,7 @@ MailLoggerDB = {
 			["Time"] = "17:15:03",
 			["ReceiveItems"] = {
 			},
-		}, -- [857]
+		}, -- [856]
 		{
 			["TargetName"] = "哥舒不带刀",
 			["PlayerName"] = "新特能源",
@@ -20267,7 +20233,7 @@ MailLoggerDB = {
 					["Name"] = "聚焦之虹的钥匙",
 				}, -- [1]
 			},
-		}, -- [858]
+		}, -- [857]
 		{
 			["Date"] = "2022-10-23",
 			["PlayerName"] = "新特能源",
@@ -20280,7 +20246,7 @@ MailLoggerDB = {
 			["Time"] = "17:17:36",
 			["ReceiveItems"] = {
 			},
-		}, -- [859]
+		}, -- [858]
 		{
 			["TargetName"] = "哥舒不带刀",
 			["PlayerName"] = "新特能源",
@@ -20299,7 +20265,7 @@ MailLoggerDB = {
 					["Name"] = "欲望腰带",
 				}, -- [1]
 			},
-		}, -- [860]
+		}, -- [859]
 		{
 			["Date"] = "2022-10-23",
 			["PlayerName"] = "新特能源",
@@ -20312,7 +20278,7 @@ MailLoggerDB = {
 			["Time"] = "17:21:39",
 			["ReceiveItems"] = {
 			},
-		}, -- [861]
+		}, -- [860]
 		{
 			["TargetName"] = "皇家顶级会所",
 			["PlayerName"] = "新特能源",
@@ -20326,7 +20292,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [862]
+		}, -- [861]
 		{
 			["Date"] = "2022-10-23",
 			["PlayerName"] = "新特能源",
@@ -20339,7 +20305,7 @@ MailLoggerDB = {
 			["Time"] = "17:23:04",
 			["ReceiveItems"] = {
 			},
-		}, -- [863]
+		}, -- [862]
 		{
 			["TargetName"] = "皇家顶级会所",
 			["PlayerName"] = "新特能源",
@@ -20353,7 +20319,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [864]
+		}, -- [863]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -20373,7 +20339,7 @@ MailLoggerDB = {
 					["Name"] = "卷轴：附魔胸甲 - 超级属性",
 				}, -- [1]
 			},
-		}, -- [865]
+		}, -- [864]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "新特能源",
@@ -20387,7 +20353,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [866]
+		}, -- [865]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "新特能源",
@@ -20402,7 +20368,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [867]
+		}, -- [866]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -20427,7 +20393,7 @@ MailLoggerDB = {
 					["Name"] = "刀扇雕文",
 				}, -- [2]
 			},
-		}, -- [868]
+		}, -- [867]
 		{
 			["Date"] = "2022-10-23",
 			["TargetName"] = "冰心在玉壶",
@@ -20440,7 +20406,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特变电工",
 			["ReceiveItems"] = {
 			},
-		}, -- [869]
+		}, -- [868]
 		{
 			["TargetName"] = "冰心在玉壶",
 			["PlayerName"] = "特变电工",
@@ -20459,7 +20425,7 @@ MailLoggerDB = {
 					["Name"] = "黎明行者",
 				}, -- [1]
 			},
-		}, -- [870]
+		}, -- [869]
 		{
 			["Date"] = "2022-10-23",
 			["TargetName"] = "冰心在玉壶",
@@ -20472,7 +20438,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特变电工",
 			["ReceiveItems"] = {
 			},
-		}, -- [871]
+		}, -- [870]
 		{
 			["TargetName"] = "冰心在玉壶",
 			["PlayerName"] = "特变电工",
@@ -20491,7 +20457,7 @@ MailLoggerDB = {
 					["Name"] = "失落胜利者的头冠",
 				}, -- [1]
 			},
-		}, -- [872]
+		}, -- [871]
 		{
 			["Date"] = "2022-10-23",
 			["TargetName"] = "冰心在玉壶",
@@ -20504,7 +20470,7 @@ MailLoggerDB = {
 			["PlayerName"] = "特变电工",
 			["ReceiveItems"] = {
 			},
-		}, -- [873]
+		}, -- [872]
 		{
 			["TargetName"] = "冰心在玉壶",
 			["PlayerName"] = "特变电工",
@@ -20518,7 +20484,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [874]
+		}, -- [873]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -20543,7 +20509,7 @@ MailLoggerDB = {
 					["Name"] = "残酷之大地侵攻钻石",
 				}, -- [2]
 			},
-		}, -- [875]
+		}, -- [874]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特变电工",
@@ -20557,7 +20523,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [876]
+		}, -- [875]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特变电工",
@@ -20572,7 +20538,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [877]
+		}, -- [876]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "新特能源",
@@ -20591,7 +20557,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [878]
+		}, -- [877]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "新特能源",
@@ -20611,7 +20577,7 @@ MailLoggerDB = {
 					["Name"] = "折磨秘药",
 				}, -- [1]
 			},
-		}, -- [879]
+		}, -- [878]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -20630,7 +20596,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [880]
+		}, -- [879]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -20650,7 +20616,7 @@ MailLoggerDB = {
 					["Name"] = "刚硬秋色石",
 				}, -- [1]
 			},
-		}, -- [881]
+		}, -- [880]
 		{
 			["TargetName"] = "狡猾的豆角",
 			["PlayerName"] = "特变电工",
@@ -20663,7 +20629,7 @@ MailLoggerDB = {
 			["Date"] = "2022-10-24",
 			["ReceiveItems"] = {
 			},
-		}, -- [882]
+		}, -- [881]
 		{
 			["TargetName"] = "狡猾的豆角",
 			["PlayerName"] = "特变电工",
@@ -20682,7 +20648,7 @@ MailLoggerDB = {
 					["Name"] = "龙皮包",
 				}, -- [1]
 			},
-		}, -- [883]
+		}, -- [882]
 		{
 			["TargetName"] = "狡猾的豆角",
 			["PlayerName"] = "特变电工",
@@ -20695,7 +20661,7 @@ MailLoggerDB = {
 			["Date"] = "2022-10-24",
 			["ReceiveItems"] = {
 			},
-		}, -- [884]
+		}, -- [883]
 		{
 			["TargetName"] = "狡猾的豆角",
 			["PlayerName"] = "特变电工",
@@ -20709,7 +20675,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [885]
+		}, -- [884]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "码农巴菲特",
@@ -20783,7 +20749,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [886]
+		}, -- [885]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "码农巴菲特",
@@ -20802,7 +20768,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [887]
+		}, -- [886]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "码农巴菲特",
@@ -20826,7 +20792,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [888]
+		}, -- [887]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "码农巴菲特",
@@ -20865,7 +20831,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [889]
+		}, -- [888]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -20885,7 +20851,7 @@ MailLoggerDB = {
 					["Name"] = "加速药水",
 				}, -- [1]
 			},
-		}, -- [890]
+		}, -- [889]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -20905,7 +20871,7 @@ MailLoggerDB = {
 					["Name"] = "水煮北地蚌背鱼",
 				}, -- [1]
 			},
-		}, -- [891]
+		}, -- [890]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "码农巴菲特",
@@ -20961,7 +20927,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [892]
+		}, -- [891]
 		{
 			["TargetName"] = "码农巴菲特",
 			["PlayerName"] = "特变电工",
@@ -20975,7 +20941,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [893]
+		}, -- [892]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "罗宁",
@@ -20995,7 +20961,7 @@ MailLoggerDB = {
 					["Name"] = "魔法包装的礼物",
 				}, -- [1]
 			},
-		}, -- [894]
+		}, -- [893]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "特变电工",
@@ -21010,7 +20976,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [895]
+		}, -- [894]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "联盟拍卖行",
@@ -21091,7 +21057,7 @@ MailLoggerDB = {
 					["Name"] = "泰坦精钢毁灭者",
 				}, -- [14]
 			},
-		}, -- [896]
+		}, -- [895]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "联盟拍卖行",
@@ -21131,7 +21097,7 @@ MailLoggerDB = {
 					["Name"] = "传染雕文",
 				}, -- [5]
 			},
-		}, -- [897]
+		}, -- [896]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "联盟拍卖行",
@@ -21151,7 +21117,7 @@ MailLoggerDB = {
 					["Name"] = "守护者的曙光猫眼石",
 				}, -- [1]
 			},
-		}, -- [898]
+		}, -- [897]
 		{
 			["TargetName"] = "码农巴菲特",
 			["PlayerName"] = "新特能源",
@@ -21170,7 +21136,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [899]
+		}, -- [898]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "新特能源",
@@ -21190,7 +21156,7 @@ MailLoggerDB = {
 					["Name"] = "坚定防御者秘药",
 				}, -- [1]
 			},
-		}, -- [900]
+		}, -- [899]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "码农巴菲特",
@@ -21224,7 +21190,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [901]
+		}, -- [900]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "联盟拍卖行",
@@ -21244,7 +21210,7 @@ MailLoggerDB = {
 					["Name"] = "石血合剂",
 				}, -- [1]
 			},
-		}, -- [902]
+		}, -- [901]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "联盟拍卖行",
@@ -21263,10 +21229,10 @@ MailLoggerDB = {
 					["ItemLink"] = "|cffffffff|Hitem:2840::::::::80:::::::::|h[铜锭]|h|r",
 					["Name"] = "铜锭",
 				}, -- [1]
-				[55] = {
-					["Number"] = 20,
-					["ItemLink"] = "|cff1eff00|Hitem:12364::::::::80:::::::::|h[巨型绿宝石]|h|r",
-					["Name"] = "巨型绿宝石",
+				[40] = {
+					["Number"] = 5,
+					["ItemLink"] = "|cff1eff00|Hitem:7909::::::::80:::::::::|h[青绿石]|h|r",
+					["Name"] = "青绿石",
 				},
 				[25] = {
 					["Number"] = 140,
@@ -21313,20 +21279,20 @@ MailLoggerDB = {
 					["ItemLink"] = "|cff1eff00|Hitem:12799::::::::80:::::::::|h[大猫眼石]|h|r",
 					["Name"] = "大猫眼石",
 				},
-				[19] = {
-					["Number"] = 80,
-					["ItemLink"] = "|cffffffff|Hitem:2838::::::::80:::::::::|h[沉重的石头]|h|r",
-					["Name"] = "沉重的石头",
+				[36] = {
+					["Number"] = 20,
+					["ItemLink"] = "|cff1eff00|Hitem:6037::::::::80:::::::::|h[真银锭]|h|r",
+					["Name"] = "真银锭",
 				},
 				[53] = {
 					["Number"] = 10,
 					["ItemLink"] = "|cff1eff00|Hitem:12361::::::::80:::::::::|h[蓝宝石]|h|r",
 					["Name"] = "蓝宝石",
 				},
-				[40] = {
-					["Number"] = 5,
-					["ItemLink"] = "|cff1eff00|Hitem:7909::::::::80:::::::::|h[青绿石]|h|r",
-					["Name"] = "青绿石",
+				[55] = {
+					["Number"] = 20,
+					["ItemLink"] = "|cff1eff00|Hitem:12364::::::::80:::::::::|h[巨型绿宝石]|h|r",
+					["Name"] = "巨型绿宝石",
 				},
 				[42] = {
 					["Number"] = 60,
@@ -21338,13 +21304,13 @@ MailLoggerDB = {
 					["ItemLink"] = "|cff1eff00|Hitem:1206::::::::80:::::::::|h[绿玛瑙]|h|r",
 					["Name"] = "绿玛瑙",
 				},
-				[36] = {
-					["Number"] = 20,
-					["ItemLink"] = "|cff1eff00|Hitem:6037::::::::80:::::::::|h[真银锭]|h|r",
-					["Name"] = "真银锭",
+				[19] = {
+					["Number"] = 80,
+					["ItemLink"] = "|cffffffff|Hitem:2838::::::::80:::::::::|h[沉重的石头]|h|r",
+					["Name"] = "沉重的石头",
 				},
 			},
-		}, -- [903]
+		}, -- [902]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "联盟拍卖行",
@@ -21364,7 +21330,7 @@ MailLoggerDB = {
 					["Name"] = "暗影石",
 				}, -- [1]
 			},
-		}, -- [904]
+		}, -- [903]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "联盟拍卖行",
@@ -21384,7 +21350,7 @@ MailLoggerDB = {
 					["Name"] = "图鉴：玛瑙护盾坠饰",
 				}, -- [1]
 			},
-		}, -- [905]
+		}, -- [904]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "联盟拍卖行",
@@ -21424,7 +21390,7 @@ MailLoggerDB = {
 					["Name"] = "源生之土",
 				},
 			},
-		}, -- [906]
+		}, -- [905]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -21444,7 +21410,7 @@ MailLoggerDB = {
 					["Name"] = "德拉诺影钻",
 				}, -- [1]
 			},
-		}, -- [907]
+		}, -- [906]
 		{
 			["TargetName"] = "码农巴菲特",
 			["PlayerName"] = "新特能源",
@@ -21463,7 +21429,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [908]
+		}, -- [907]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "新特能源",
@@ -21483,7 +21449,7 @@ MailLoggerDB = {
 					["Name"] = "德拉诺影钻",
 				}, -- [1]
 			},
-		}, -- [909]
+		}, -- [908]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -21531,7 +21497,7 @@ MailLoggerDB = {
 					["Name"] = "太阳水晶",
 				}, -- [9]
 			},
-		}, -- [910]
+		}, -- [909]
 		{
 			["TargetName"] = "码农巴菲特",
 			["PlayerName"] = "新特能源",
@@ -21578,7 +21544,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [911]
+		}, -- [910]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "新特能源",
@@ -21623,7 +21589,7 @@ MailLoggerDB = {
 					["Name"] = "血石",
 				}, -- [6]
 			},
-		}, -- [912]
+		}, -- [911]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -21643,7 +21609,7 @@ MailLoggerDB = {
 					["Name"] = "血玉石",
 				}, -- [1]
 			},
-		}, -- [913]
+		}, -- [912]
 		{
 			["TargetName"] = "码农巴菲特",
 			["PlayerName"] = "新特能源",
@@ -21662,7 +21628,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [914]
+		}, -- [913]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "新特能源",
@@ -21682,7 +21648,7 @@ MailLoggerDB = {
 					["Name"] = "血玉石",
 				}, -- [1]
 			},
-		}, -- [915]
+		}, -- [914]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "码农巴菲特",
@@ -21701,7 +21667,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [916]
+		}, -- [915]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -21732,7 +21698,7 @@ MailLoggerDB = {
 					["Name"] = "森林翡翠",
 				}, -- [4]
 			},
-		}, -- [917]
+		}, -- [916]
 		{
 			["TargetName"] = "码农巴菲特",
 			["PlayerName"] = "新特能源",
@@ -21761,7 +21727,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [918]
+		}, -- [917]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "新特能源",
@@ -21791,7 +21757,7 @@ MailLoggerDB = {
 					["Name"] = "森林翡翠",
 				}, -- [3]
 			},
-		}, -- [919]
+		}, -- [918]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -21816,7 +21782,7 @@ MailLoggerDB = {
 					["Name"] = "黑玉",
 				}, -- [2]
 			},
-		}, -- [920]
+		}, -- [919]
 		{
 			["TargetName"] = "码农巴菲特",
 			["PlayerName"] = "新特能源",
@@ -21840,7 +21806,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [921]
+		}, -- [920]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "新特能源",
@@ -21865,7 +21831,7 @@ MailLoggerDB = {
 					["Name"] = "黑玉",
 				}, -- [2]
 			},
-		}, -- [922]
+		}, -- [921]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -21885,7 +21851,7 @@ MailLoggerDB = {
 					["Name"] = "致密天蓝石",
 				}, -- [1]
 			},
-		}, -- [923]
+		}, -- [922]
 		{
 			["TargetName"] = "码农巴菲特",
 			["PlayerName"] = "新特能源",
@@ -21909,7 +21875,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [924]
+		}, -- [923]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "新特能源",
@@ -21934,7 +21900,7 @@ MailLoggerDB = {
 					["Name"] = "致密天蓝石",
 				}, -- [2]
 			},
-		}, -- [925]
+		}, -- [924]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "美呆了",
@@ -21947,7 +21913,7 @@ MailLoggerDB = {
 			["Time"] = "15:27:19",
 			["ReceiveItems"] = {
 			},
-		}, -- [926]
+		}, -- [925]
 		{
 			["TargetName"] = "美呆了",
 			["PlayerName"] = "新特能源",
@@ -21966,7 +21932,7 @@ MailLoggerDB = {
 					["Name"] = "魔法酪饼",
 				}, -- [1]
 			},
-		}, -- [927]
+		}, -- [926]
 		{
 			["TargetName"] = "码农巴菲特",
 			["PlayerName"] = "特变电工",
@@ -21985,7 +21951,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [928]
+		}, -- [927]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "特变电工",
@@ -22005,7 +21971,7 @@ MailLoggerDB = {
 					["Name"] = "龙眼石",
 				}, -- [1]
 			},
-		}, -- [929]
+		}, -- [928]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "新特能源",
@@ -22019,7 +21985,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [930]
+		}, -- [929]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "新特能源",
@@ -22034,7 +22000,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [931]
+		}, -- [930]
 		{
 			["TargetName"] = "码农巴菲特",
 			["PlayerName"] = "特变电工",
@@ -22048,7 +22014,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [932]
+		}, -- [931]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "特变电工",
@@ -22063,7 +22029,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [933]
+		}, -- [932]
 		{
 			["TargetName"] = "冰桃汁",
 			["PlayerName"] = "码农巴菲特",
@@ -22076,7 +22042,7 @@ MailLoggerDB = {
 			["Date"] = "2022-10-31",
 			["ReceiveItems"] = {
 			},
-		}, -- [934]
+		}, -- [933]
 		{
 			["TargetName"] = "冰桃汁",
 			["PlayerName"] = "码农巴菲特",
@@ -22090,7 +22056,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [935]
+		}, -- [934]
 		{
 			["TargetName"] = "汪芷亦",
 			["PlayerName"] = "码农巴菲特",
@@ -22103,7 +22069,7 @@ MailLoggerDB = {
 			["Date"] = "2022-10-31",
 			["ReceiveItems"] = {
 			},
-		}, -- [936]
+		}, -- [935]
 		{
 			["TargetName"] = "汪芷亦",
 			["PlayerName"] = "码农巴菲特",
@@ -22122,7 +22088,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [937]
+		}, -- [936]
 		{
 			["TargetName"] = "冰桃汁",
 			["PlayerName"] = "码农巴菲特",
@@ -22135,7 +22101,7 @@ MailLoggerDB = {
 			["Date"] = "2022-10-31",
 			["ReceiveItems"] = {
 			},
-		}, -- [938]
+		}, -- [937]
 		{
 			["TargetName"] = "冰桃汁",
 			["PlayerName"] = "码农巴菲特",
@@ -22159,7 +22125,7 @@ MailLoggerDB = {
 					["Name"] = "痛击腿铠",
 				}, -- [2]
 			},
-		}, -- [939]
+		}, -- [938]
 		{
 			["TargetName"] = "冰桃汁",
 			["PlayerName"] = "码农巴菲特",
@@ -22172,7 +22138,7 @@ MailLoggerDB = {
 			["Date"] = "2022-10-31",
 			["ReceiveItems"] = {
 			},
-		}, -- [940]
+		}, -- [939]
 		{
 			["TargetName"] = "冰桃汁",
 			["PlayerName"] = "码农巴菲特",
@@ -22186,7 +22152,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [941]
+		}, -- [940]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "联盟拍卖行",
@@ -22206,7 +22172,7 @@ MailLoggerDB = {
 					["Name"] = "卷轴：附魔手套 - 士兵",
 				}, -- [1]
 			},
-		}, -- [942]
+		}, -- [941]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "码农巴菲特",
@@ -22220,7 +22186,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [943]
+		}, -- [942]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "码农巴菲特",
@@ -22235,7 +22201,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [944]
+		}, -- [943]
 		{
 			["Date"] = "2022-10-31",
 			["PlayerName"] = "新特能源",
@@ -22248,7 +22214,7 @@ MailLoggerDB = {
 			["Time"] = "23:21:11",
 			["ReceiveItems"] = {
 			},
-		}, -- [945]
+		}, -- [944]
 		{
 			["TargetName"] = "忘忆",
 			["PlayerName"] = "新特能源",
@@ -22262,7 +22228,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [946]
+		}, -- [945]
 		{
 			["PlayerName"] = "特变电工",
 			["Date"] = "2022-11-02",
@@ -22275,7 +22241,7 @@ MailLoggerDB = {
 			["TargetName"] = "我老婆真懒",
 			["ReceiveItems"] = {
 			},
-		}, -- [947]
+		}, -- [946]
 		{
 			["TargetName"] = "我老婆真懒",
 			["PlayerName"] = "特变电工",
@@ -22294,7 +22260,7 @@ MailLoggerDB = {
 					["Name"] = "致命仇敌斗篷",
 				}, -- [1]
 			},
-		}, -- [948]
+		}, -- [947]
 		{
 			["PlayerName"] = "特变电工",
 			["Date"] = "2022-11-02",
@@ -22307,7 +22273,7 @@ MailLoggerDB = {
 			["TargetName"] = "天才电竞少女",
 			["ReceiveItems"] = {
 			},
-		}, -- [949]
+		}, -- [948]
 		{
 			["TargetName"] = "天才电竞少女",
 			["PlayerName"] = "特变电工",
@@ -22321,7 +22287,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [950]
+		}, -- [949]
 		{
 			["PlayerName"] = "特变电工",
 			["Date"] = "2022-11-02",
@@ -22334,7 +22300,7 @@ MailLoggerDB = {
 			["TargetName"] = "我老婆真懒",
 			["ReceiveItems"] = {
 			},
-		}, -- [951]
+		}, -- [950]
 		{
 			["TargetName"] = "我老婆真懒",
 			["PlayerName"] = "特变电工",
@@ -22348,7 +22314,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [952]
+		}, -- [951]
 		{
 			["PlayerName"] = "特变电工",
 			["Date"] = "2022-11-02",
@@ -22359,24 +22325,24 @@ MailLoggerDB = {
 			["GiveItems"] = {
 			},
 			["TargetName"] = "丶秋风落叶丶",
+			["ReceiveItems"] = {
+			},
+		}, -- [952]
+		{
+			["TargetName"] = "丶秋风落叶丶",
+			["PlayerName"] = "特变电工",
+			["Date"] = "2022-11-02",
+			["ReceiveMoney"] = 0,
+			["Time"] = "01:09:17",
+			["GiveMoney"] = 2000000,
+			["Location"] = "达拉然",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
 		}, -- [953]
 		{
-			["TargetName"] = "丶秋风落叶丶",
-			["PlayerName"] = "特变电工",
-			["Date"] = "2022-11-02",
-			["ReceiveMoney"] = 0,
-			["Time"] = "01:09:17",
-			["GiveMoney"] = 2000000,
-			["Location"] = "达拉然",
-			["GiveItems"] = {
-			},
-			["Result"] = "completed",
-			["ReceiveItems"] = {
-			},
-		}, -- [954]
-		{
 			["PlayerName"] = "特变电工",
 			["Date"] = "2022-11-02",
 			["ReceiveMoney"] = 0,
@@ -22388,7 +22354,7 @@ MailLoggerDB = {
 			["TargetName"] = "阿草",
 			["ReceiveItems"] = {
 			},
-		}, -- [955]
+		}, -- [954]
 		{
 			["TargetName"] = "阿草",
 			["PlayerName"] = "特变电工",
@@ -22402,7 +22368,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [956]
+		}, -- [955]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -22422,7 +22388,7 @@ MailLoggerDB = {
 					["Name"] = "明亮血玉石",
 				}, -- [1]
 			},
-		}, -- [957]
+		}, -- [956]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -22442,7 +22408,7 @@ MailLoggerDB = {
 					["Name"] = "冰鳞腿甲片",
 				}, -- [1]
 			},
-		}, -- [958]
+		}, -- [957]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -22462,7 +22428,7 @@ MailLoggerDB = {
 					["Name"] = "卷轴：附魔披风 - 特效敏捷",
 				}, -- [1]
 			},
-		}, -- [959]
+		}, -- [958]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -22482,7 +22448,7 @@ MailLoggerDB = {
 					["Name"] = "永恒腰带扣",
 				}, -- [1]
 			},
-		}, -- [960]
+		}, -- [959]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -22502,7 +22468,7 @@ MailLoggerDB = {
 					["Name"] = "卷轴：附魔靴子 - 强效突袭",
 				}, -- [1]
 			},
-		}, -- [961]
+		}, -- [960]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特变电工",
@@ -22516,7 +22482,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [962]
+		}, -- [961]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特变电工",
@@ -22531,7 +22497,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [963]
+		}, -- [962]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "新特能源",
@@ -22545,7 +22511,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [964]
+		}, -- [963]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "新特能源",
@@ -22560,7 +22526,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [965]
+		}, -- [964]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "五香麻辣火鸡",
@@ -22573,7 +22539,7 @@ MailLoggerDB = {
 			["Time"] = "22:04:07",
 			["ReceiveItems"] = {
 			},
-		}, -- [966]
+		}, -- [965]
 		{
 			["TargetName"] = "五香麻辣火鸡",
 			["PlayerName"] = "特变电工",
@@ -22592,7 +22558,7 @@ MailLoggerDB = {
 					["Name"] = "寂寞胸甲",
 				}, -- [1]
 			},
-		}, -- [967]
+		}, -- [966]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "你简直不是人",
@@ -22605,7 +22571,7 @@ MailLoggerDB = {
 			["Time"] = "22:19:45",
 			["ReceiveItems"] = {
 			},
-		}, -- [968]
+		}, -- [967]
 		{
 			["TargetName"] = "你简直不是人",
 			["PlayerName"] = "特变电工",
@@ -22619,7 +22585,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [969]
+		}, -- [968]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -22639,7 +22605,7 @@ MailLoggerDB = {
 					["Name"] = "明亮血玉石",
 				}, -- [1]
 			},
-		}, -- [970]
+		}, -- [969]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -22659,7 +22625,7 @@ MailLoggerDB = {
 					["Name"] = "卷轴：附魔胸甲 - 强力属性",
 				}, -- [1]
 			},
-		}, -- [971]
+		}, -- [970]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特变电工",
@@ -22673,7 +22639,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [972]
+		}, -- [971]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特变电工",
@@ -22688,7 +22654,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [973]
+		}, -- [972]
 		{
 			["Date"] = "2022-11-03",
 			["TargetName"] = "鼟鸃觏鼜",
@@ -22701,7 +22667,7 @@ MailLoggerDB = {
 			["PlayerName"] = "新特能源",
 			["ReceiveItems"] = {
 			},
-		}, -- [974]
+		}, -- [973]
 		{
 			["TargetName"] = "鼟鸃觏鼜",
 			["PlayerName"] = "新特能源",
@@ -22715,7 +22681,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [975]
+		}, -- [974]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "战复丶德",
@@ -22735,7 +22701,7 @@ MailLoggerDB = {
 					["Name"] = "石血合剂",
 				}, -- [1]
 			},
-		}, -- [976]
+		}, -- [975]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "朮丶爷",
@@ -22760,7 +22726,7 @@ MailLoggerDB = {
 					["Name"] = "坚硬森林翡翠",
 				},
 			},
-		}, -- [977]
+		}, -- [976]
 		{
 			["TargetName"] = "码农巴菲特",
 			["PlayerName"] = "特变电工",
@@ -22789,7 +22755,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [978]
+		}, -- [977]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -22835,7 +22801,7 @@ MailLoggerDB = {
 					["Name"] = "焦虑森林翡翠",
 				},
 			},
-		}, -- [979]
+		}, -- [978]
 		{
 			["PlayerName"] = "新特能源",
 			["Date"] = "2022-11-03",
@@ -22848,7 +22814,7 @@ MailLoggerDB = {
 			["TargetName"] = "凌灵冷",
 			["ReceiveItems"] = {
 			},
-		}, -- [980]
+		}, -- [979]
 		{
 			["TargetName"] = "凌灵冷",
 			["PlayerName"] = "新特能源",
@@ -22867,7 +22833,7 @@ MailLoggerDB = {
 					["Name"] = "多余的肢体",
 				}, -- [1]
 			},
-		}, -- [981]
+		}, -- [980]
 		{
 			["PlayerName"] = "新特能源",
 			["Date"] = "2022-11-04",
@@ -22880,7 +22846,7 @@ MailLoggerDB = {
 			["TargetName"] = "本间芽衣子",
 			["ReceiveItems"] = {
 			},
-		}, -- [982]
+		}, -- [981]
 		{
 			["TargetName"] = "本间芽衣子",
 			["PlayerName"] = "新特能源",
@@ -22894,7 +22860,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [983]
+		}, -- [982]
 		{
 			["PlayerName"] = "新特能源",
 			["Date"] = "2022-11-04",
@@ -22907,7 +22873,7 @@ MailLoggerDB = {
 			["TargetName"] = "凌灵冷",
 			["ReceiveItems"] = {
 			},
-		}, -- [984]
+		}, -- [983]
 		{
 			["TargetName"] = "凌灵冷",
 			["PlayerName"] = "新特能源",
@@ -22921,7 +22887,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [985]
+		}, -- [984]
 		{
 			["PlayerName"] = "新特能源",
 			["Date"] = "2022-11-04",
@@ -22934,7 +22900,7 @@ MailLoggerDB = {
 			["TargetName"] = "Guineveye",
 			["ReceiveItems"] = {
 			},
-		}, -- [986]
+		}, -- [985]
 		{
 			["TargetName"] = "Guineveye",
 			["PlayerName"] = "新特能源",
@@ -22948,7 +22914,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [987]
+		}, -- [986]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -22973,7 +22939,7 @@ MailLoggerDB = {
 					["Name"] = "符文血玉石",
 				}, -- [2]
 			},
-		}, -- [988]
+		}, -- [987]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -23013,7 +22979,7 @@ MailLoggerDB = {
 					["Name"] = "茶晶石",
 				}, -- [5]
 			},
-		}, -- [989]
+		}, -- [988]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -23033,7 +22999,7 @@ MailLoggerDB = {
 					["Name"] = "加速药水",
 				}, -- [1]
 			},
-		}, -- [990]
+		}, -- [989]
 		{
 			["TargetName"] = "特工仓库",
 			["PlayerName"] = "特变电工",
@@ -23080,7 +23046,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [991]
+		}, -- [990]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -23128,7 +23094,7 @@ MailLoggerDB = {
 					["Name"] = "黑玉",
 				},
 			},
-		}, -- [992]
+		}, -- [991]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "小雪祈福",
@@ -23141,7 +23107,7 @@ MailLoggerDB = {
 			["Time"] = "16:13:52",
 			["ReceiveItems"] = {
 			},
-		}, -- [993]
+		}, -- [992]
 		{
 			["TargetName"] = "小雪祈福",
 			["PlayerName"] = "码农巴菲特",
@@ -23155,7 +23121,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [994]
+		}, -- [993]
 		{
 			["TargetName"] = "骑风",
 			["PlayerName"] = "新特能源",
@@ -23168,7 +23134,7 @@ MailLoggerDB = {
 			["Date"] = "2022-11-05",
 			["ReceiveItems"] = {
 			},
-		}, -- [995]
+		}, -- [994]
 		{
 			["TargetName"] = "骑风",
 			["PlayerName"] = "新特能源",
@@ -23182,7 +23148,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [996]
+		}, -- [995]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "特变电工",
@@ -23212,7 +23178,7 @@ MailLoggerDB = {
 					["Name"] = "致密天蓝石",
 				}, -- [3]
 			},
-		}, -- [997]
+		}, -- [996]
 		{
 			["TargetName"] = "特变电工",
 			["PlayerName"] = "码农巴菲特",
@@ -23226,7 +23192,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [998]
+		}, -- [997]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "码农巴菲特",
@@ -23241,7 +23207,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [999]
+		}, -- [998]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "请自重",
@@ -23254,7 +23220,7 @@ MailLoggerDB = {
 			["Time"] = "01:39:56",
 			["ReceiveItems"] = {
 			},
-		}, -- [1000]
+		}, -- [999]
 		{
 			["TargetName"] = "请自重",
 			["PlayerName"] = "特变电工",
@@ -23268,7 +23234,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [1001]
+		}, -- [1000]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "请自重",
@@ -23281,7 +23247,7 @@ MailLoggerDB = {
 			["Time"] = "01:40:27",
 			["ReceiveItems"] = {
 			},
-		}, -- [1002]
+		}, -- [1001]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "请自重",
@@ -23294,7 +23260,7 @@ MailLoggerDB = {
 			["Time"] = "01:40:44",
 			["ReceiveItems"] = {
 			},
-		}, -- [1003]
+		}, -- [1002]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "联盟拍卖行",
@@ -23319,7 +23285,7 @@ MailLoggerDB = {
 					["Name"] = "加速药水",
 				},
 			},
-		}, -- [1004]
+		}, -- [1003]
 		{
 			["PlayerName"] = "特变电工",
 			["TargetName"] = "请自重",
@@ -23332,7 +23298,7 @@ MailLoggerDB = {
 			["Time"] = "02:41:30",
 			["ReceiveItems"] = {
 			},
-		}, -- [1005]
+		}, -- [1004]
 		{
 			["TargetName"] = "请自重",
 			["PlayerName"] = "特变电工",
@@ -23346,7 +23312,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [1006]
+		}, -- [1005]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "骑风",
@@ -23361,7 +23327,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [1007]
+		}, -- [1006]
 		{
 			["TargetName"] = "码农巴菲特",
 			["PlayerName"] = "新特能源",
@@ -23375,7 +23341,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [1008]
+		}, -- [1007]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "新特能源",
@@ -23390,7 +23356,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [1009]
+		}, -- [1008]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "联盟拍卖行",
@@ -23415,7 +23381,7 @@ MailLoggerDB = {
 					["Name"] = "不灭药水",
 				},
 			},
-		}, -- [1010]
+		}, -- [1009]
 		{
 			["TargetName"] = "多多丶",
 			["Date"] = "2022-11-06",
@@ -23428,7 +23394,7 @@ MailLoggerDB = {
 			["Time"] = "19:41:15",
 			["ReceiveItems"] = {
 			},
-		}, -- [1011]
+		}, -- [1010]
 		{
 			["TargetName"] = "多多丶",
 			["PlayerName"] = "码农巴菲特",
@@ -23447,7 +23413,7 @@ MailLoggerDB = {
 					["Name"] = "沙砾指环",
 				}, -- [1]
 			},
-		}, -- [1012]
+		}, -- [1011]
 		{
 			["TargetName"] = "多多丶",
 			["Date"] = "2022-11-06",
@@ -23460,7 +23426,7 @@ MailLoggerDB = {
 			["Time"] = "20:51:01",
 			["ReceiveItems"] = {
 			},
-		}, -- [1013]
+		}, -- [1012]
 		{
 			["TargetName"] = "多多丶",
 			["PlayerName"] = "码农巴菲特",
@@ -23479,7 +23445,7 @@ MailLoggerDB = {
 					["Name"] = "钉板憎恶护腿",
 				}, -- [1]
 			},
-		}, -- [1014]
+		}, -- [1013]
 		{
 			["TargetName"] = "多多丶",
 			["Date"] = "2022-11-06",
@@ -23492,7 +23458,7 @@ MailLoggerDB = {
 			["Time"] = "22:29:53",
 			["ReceiveItems"] = {
 			},
-		}, -- [1015]
+		}, -- [1014]
 		{
 			["TargetName"] = "多多丶",
 			["PlayerName"] = "码农巴菲特",
@@ -23511,7 +23477,7 @@ MailLoggerDB = {
 					["Name"] = "失落胜利者的护手",
 				}, -- [1]
 			},
-		}, -- [1016]
+		}, -- [1015]
 		{
 			["TargetName"] = "大豆包",
 			["Date"] = "2022-11-06",
@@ -23524,7 +23490,7 @@ MailLoggerDB = {
 			["Time"] = "22:32:03",
 			["ReceiveItems"] = {
 			},
-		}, -- [1017]
+		}, -- [1016]
 		{
 			["TargetName"] = "大豆包",
 			["Date"] = "2022-11-06",
@@ -23537,7 +23503,7 @@ MailLoggerDB = {
 			["Time"] = "22:32:05",
 			["ReceiveItems"] = {
 			},
-		}, -- [1018]
+		}, -- [1017]
 		{
 			["TargetName"] = "大豆包",
 			["PlayerName"] = "码农巴菲特",
@@ -23551,7 +23517,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [1019]
+		}, -- [1018]
 		{
 			["TargetName"] = "大豆包",
 			["Date"] = "2022-11-06",
@@ -23564,7 +23530,7 @@ MailLoggerDB = {
 			["Time"] = "22:35:52",
 			["ReceiveItems"] = {
 			},
-		}, -- [1020]
+		}, -- [1019]
 		{
 			["TargetName"] = "大豆包",
 			["PlayerName"] = "码农巴菲特",
@@ -23578,7 +23544,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [1021]
+		}, -- [1020]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "联盟拍卖行",
@@ -23598,7 +23564,7 @@ MailLoggerDB = {
 					["Name"] = "卷轴：附魔手套 - 士兵",
 				}, -- [1]
 			},
-		}, -- [1022]
+		}, -- [1021]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "就是臭臭",
@@ -23613,7 +23579,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [1023]
+		}, -- [1022]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "就是臭臭",
@@ -23633,7 +23599,7 @@ MailLoggerDB = {
 					["Name"] = "力量卷轴 VII",
 				}, -- [1]
 			},
-		}, -- [1024]
+		}, -- [1023]
 		{
 			["PlayerName"] = "码农巴菲特",
 			["TargetName"] = "联盟拍卖行",
@@ -23653,7 +23619,7 @@ MailLoggerDB = {
 					["Name"] = "暗月卡片：伟大",
 				}, -- [1]
 			},
-		}, -- [1025]
+		}, -- [1024]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特变电工",
@@ -23667,7 +23633,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [1026]
+		}, -- [1025]
 		{
 			["TargetName"] = "新特能源",
 			["PlayerName"] = "特变电工",
@@ -23681,7 +23647,7 @@ MailLoggerDB = {
 			["Result"] = "sent",
 			["ReceiveItems"] = {
 			},
-		}, -- [1027]
+		}, -- [1026]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "特变电工",
@@ -23696,7 +23662,7 @@ MailLoggerDB = {
 			["Result"] = "received",
 			["ReceiveItems"] = {
 			},
-		}, -- [1028]
+		}, -- [1027]
 		{
 			["PlayerName"] = "新特能源",
 			["TargetName"] = "联盟拍卖行",
@@ -23716,7 +23682,7 @@ MailLoggerDB = {
 					["Name"] = "暗月卡片：幻象",
 				}, -- [1]
 			},
-		}, -- [1029]
+		}, -- [1028]
 		{
 			["Date"] = "2022-11-07",
 			["PlayerName"] = "新特能源",
@@ -23729,7 +23695,7 @@ MailLoggerDB = {
 			["Time"] = "22:37:13",
 			["ReceiveItems"] = {
 			},
-		}, -- [1030]
+		}, -- [1029]
 		{
 			["TargetName"] = "乌瑞恩丨狗蛋",
 			["PlayerName"] = "新特能源",
@@ -23743,7 +23709,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [1031]
+		}, -- [1030]
 		{
 			["TargetName"] = "法斗小可爱",
 			["PlayerName"] = "码农巴菲特",
@@ -23756,7 +23722,7 @@ MailLoggerDB = {
 			["Date"] = "2022-11-07",
 			["ReceiveItems"] = {
 			},
-		}, -- [1032]
+		}, -- [1031]
 		{
 			["TargetName"] = "法斗小可爱",
 			["PlayerName"] = "码农巴菲特",
@@ -23768,25 +23734,25 @@ MailLoggerDB = {
 			["GiveItems"] = {
 			},
 			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [1032]
+		{
+			["TargetName"] = "小飞棍唻咯",
+			["PlayerName"] = "码农巴菲特",
+			["ReceiveMoney"] = 0,
+			["Time"] = "23:04:32",
+			["GiveMoney"] = 0,
+			["Location"] = "乌特加德之巅",
+			["GiveItems"] = {
+			},
+			["Date"] = "2022-11-07",
 			["ReceiveItems"] = {
 			},
 		}, -- [1033]
 		{
 			["TargetName"] = "小飞棍唻咯",
 			["PlayerName"] = "码农巴菲特",
-			["ReceiveMoney"] = 0,
-			["Time"] = "23:04:32",
-			["GiveMoney"] = 0,
-			["Location"] = "乌特加德之巅",
-			["GiveItems"] = {
-			},
-			["Date"] = "2022-11-07",
-			["ReceiveItems"] = {
-			},
-		}, -- [1034]
-		{
-			["TargetName"] = "小飞棍唻咯",
-			["PlayerName"] = "码农巴菲特",
 			["Date"] = "2022-11-07",
 			["ReceiveMoney"] = 0,
 			["Time"] = "23:04:32",
@@ -23795,25 +23761,25 @@ MailLoggerDB = {
 			["GiveItems"] = {
 			},
 			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [1034]
+		{
+			["TargetName"] = "祈福暗影",
+			["PlayerName"] = "码农巴菲特",
+			["ReceiveMoney"] = 0,
+			["Time"] = "23:04:40",
+			["GiveMoney"] = 0,
+			["Location"] = "乌特加德之巅",
+			["GiveItems"] = {
+			},
+			["Date"] = "2022-11-07",
 			["ReceiveItems"] = {
 			},
 		}, -- [1035]
 		{
 			["TargetName"] = "祈福暗影",
 			["PlayerName"] = "码农巴菲特",
-			["ReceiveMoney"] = 0,
-			["Time"] = "23:04:40",
-			["GiveMoney"] = 0,
-			["Location"] = "乌特加德之巅",
-			["GiveItems"] = {
-			},
-			["Date"] = "2022-11-07",
-			["ReceiveItems"] = {
-			},
-		}, -- [1036]
-		{
-			["TargetName"] = "祈福暗影",
-			["PlayerName"] = "码农巴菲特",
 			["Date"] = "2022-11-07",
 			["ReceiveMoney"] = 0,
 			["Time"] = "23:04:40",
@@ -23824,7 +23790,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [1037]
+		}, -- [1036]
 		{
 			["TargetName"] = "Royce",
 			["PlayerName"] = "码农巴菲特",
@@ -23837,7 +23803,7 @@ MailLoggerDB = {
 			["Date"] = "2022-11-07",
 			["ReceiveItems"] = {
 			},
-		}, -- [1038]
+		}, -- [1037]
 		{
 			["TargetName"] = "Royce",
 			["PlayerName"] = "码农巴菲特",
@@ -23850,7 +23816,7 @@ MailLoggerDB = {
 			["Date"] = "2022-11-07",
 			["ReceiveItems"] = {
 			},
-		}, -- [1039]
+		}, -- [1038]
 		{
 			["TargetName"] = "Royce",
 			["PlayerName"] = "码农巴菲特",
@@ -23869,7 +23835,7 @@ MailLoggerDB = {
 					["Name"] = "腐朽项圈",
 				}, -- [1]
 			},
-		}, -- [1040]
+		}, -- [1039]
 		{
 			["TargetName"] = "丶大轩",
 			["PlayerName"] = "码农巴菲特",
@@ -23882,7 +23848,7 @@ MailLoggerDB = {
 			["Date"] = "2022-11-08",
 			["ReceiveItems"] = {
 			},
-		}, -- [1041]
+		}, -- [1040]
 		{
 			["TargetName"] = "丶大轩",
 			["PlayerName"] = "码农巴菲特",
@@ -23896,7 +23862,7 @@ MailLoggerDB = {
 			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
-		}, -- [1042]
+		}, -- [1041]
 		{
 			["Date"] = "2022-11-08",
 			["TargetName"] = "星鱼的萨满",
@@ -23907,51 +23873,51 @@ MailLoggerDB = {
 			["GiveItems"] = {
 			},
 			["PlayerName"] = "码农巴菲特",
+			["ReceiveItems"] = {
+			},
+		}, -- [1042]
+		{
+			["TargetName"] = "星鱼的萨满",
+			["PlayerName"] = "码农巴菲特",
+			["Date"] = "2022-11-08",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:36:25",
+			["GiveMoney"] = 1000000,
+			["Location"] = "艾卓-尼鲁布",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
 		}, -- [1043]
 		{
-			["TargetName"] = "星鱼的萨满",
-			["PlayerName"] = "码农巴菲特",
 			["Date"] = "2022-11-08",
+			["TargetName"] = "单盯二条",
 			["ReceiveMoney"] = 0,
-			["Time"] = "22:36:25",
-			["GiveMoney"] = 1000000,
+			["Time"] = "22:36:31",
+			["GiveMoney"] = 0,
 			["Location"] = "艾卓-尼鲁布",
 			["GiveItems"] = {
 			},
-			["Result"] = "completed",
+			["PlayerName"] = "码农巴菲特",
 			["ReceiveItems"] = {
 			},
 		}, -- [1044]
 		{
-			["Date"] = "2022-11-08",
 			["TargetName"] = "单盯二条",
+			["PlayerName"] = "码农巴菲特",
+			["Date"] = "2022-11-08",
 			["ReceiveMoney"] = 0,
 			["Time"] = "22:36:31",
-			["GiveMoney"] = 0,
+			["GiveMoney"] = 1000000,
 			["Location"] = "艾卓-尼鲁布",
 			["GiveItems"] = {
 			},
-			["PlayerName"] = "码农巴菲特",
+			["Result"] = "completed",
 			["ReceiveItems"] = {
 			},
 		}, -- [1045]
 		{
-			["TargetName"] = "单盯二条",
-			["PlayerName"] = "码农巴菲特",
-			["Date"] = "2022-11-08",
-			["ReceiveMoney"] = 0,
-			["Time"] = "22:36:31",
-			["GiveMoney"] = 1000000,
-			["Location"] = "艾卓-尼鲁布",
-			["GiveItems"] = {
-			},
-			["Result"] = "completed",
-			["ReceiveItems"] = {
-			},
-		}, -- [1046]
-		{
 			["Date"] = "2022-11-08",
 			["TargetName"] = "云巅丨生哥",
 			["ReceiveMoney"] = 0,
@@ -23963,7 +23929,7 @@ MailLoggerDB = {
 			["PlayerName"] = "码农巴菲特",
 			["ReceiveItems"] = {
 			},
-		}, -- [1047]
+		}, -- [1046]
 		{
 			["TargetName"] = "云巅丨生哥",
 			["PlayerName"] = "码农巴菲特",
@@ -23976,6 +23942,41 @@ MailLoggerDB = {
 			},
 			["Result"] = "completed",
 			["ReceiveItems"] = {
+			},
+		}, -- [1047]
+		{
+			["PlayerName"] = "码农巴菲特",
+			["TargetName"] = "联盟拍卖行",
+			["Reason"] = 4,
+			["Date"] = "2022-11-10",
+			["ReceiveMoney"] = 0,
+			["Time"] = "00:23:28",
+			["GiveMoney"] = 0,
+			["Location"] = "暴风城",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:44963::::::::80:::::::::|h[土灵腿甲片]|h|r",
+					["Name"] = "土灵腿甲片",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff0070dd|Hitem:40011::::::::80:::::::::|h[风暴天蓝石]|h|r",
+					["Name"] = "风暴天蓝石",
+				}, -- [2]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:38975::::::::80:::::::::|h[卷轴：附魔胸甲 - 优异韧性]|h|r",
+					["Name"] = "卷轴：附魔胸甲 - 优异韧性",
+				}, -- [3]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff0070dd|Hitem:40098::::::::80:::::::::|h[辐光森林翡翠]|h|r",
+					["Name"] = "辐光森林翡翠",
+				}, -- [4]
 			},
 		}, -- [1048]
 	},

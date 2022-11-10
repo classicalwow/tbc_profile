@@ -55,10 +55,3 @@ X: 0
 Y: 128
 W: 200
 H: 50
-Frame: WIM3_msgFrame3
-FrameLevel: 2
-Anchor: CENTER
-X: -144
-Y: 215
-W: 333
-H: 220

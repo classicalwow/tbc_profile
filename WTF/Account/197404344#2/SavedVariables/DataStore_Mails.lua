@@ -11,8 +11,8 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.祈福.码农巴菲特"] = {
-				["lastUpdate"] = 1667920564,
-				["lastVisitDate"] = "2022/11/08 23:16",
+				["lastUpdate"] = 1668011008,
+				["lastVisitDate"] = "2022/11/10 00:23",
 			},
 			["Default.祈福.新特能源"] = {
 				["lastUpdate"] = 1662053162,

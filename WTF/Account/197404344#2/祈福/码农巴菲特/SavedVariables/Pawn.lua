@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0707,
-	["LastPlayerFullName"] = "码农巴菲特-祈福",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 41387,
@@ -21,14 +19,14 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 39623,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:39623:3297:40008:42157:::::80:::::::::|h[英雄的天灾苦痛护胸]|h|r",
+			["ID"] = 40784,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:40784::::::::80:::::::::|h[致命角斗士的恐怖板甲护胸]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 40689,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:40689::::::::80:::::::::|h[活铁腰带]|h|r",
+			["ID"] = 40317,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:40317::::::::80:::::::::|h[拉苏维奥斯的腰带]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 40446,
@@ -91,6 +89,8 @@ PawnOptions = {
 			["Link"] = "|cffffffff|Hitem:39371::::::::57:::::::::|h[凯雷塞斯的说服者]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "码农巴菲特-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
