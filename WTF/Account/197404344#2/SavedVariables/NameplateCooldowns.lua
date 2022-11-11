@@ -9,7 +9,6 @@ NameplateCooldownsAceDB = {
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
-			["MigrationVersion"] = 7,
 			["SpellCDs"] = {
 				[1513] = {
 					["enabled"] = true,
@@ -704,7 +703,7 @@ NameplateCooldownsAceDB = {
 				[33357] = {
 					["enabled"] = true,
 				},
-				[55342] = {
+				[20549] = {
 					["enabled"] = true,
 				},
 				[19503] = {
@@ -716,7 +715,7 @@ NameplateCooldownsAceDB = {
 				[48172] = {
 					["enabled"] = true,
 				},
-				[3411] = {
+				[55342] = {
 					["enabled"] = true,
 				},
 				[19752] = {
@@ -863,10 +862,10 @@ NameplateCooldownsAceDB = {
 				[50613] = {
 					["enabled"] = true,
 				},
-				[498] = {
+				[48477] = {
 					["enabled"] = true,
 				},
-				[38768] = {
+				[498] = {
 					["enabled"] = true,
 				},
 				[14327] = {
@@ -908,7 +907,7 @@ NameplateCooldownsAceDB = {
 				[6940] = {
 					["enabled"] = true,
 				},
-				[48477] = {
+				[38768] = {
 					["enabled"] = true,
 				},
 				[871] = {
@@ -995,7 +994,7 @@ NameplateCooldownsAceDB = {
 				[19241] = {
 					["enabled"] = true,
 				},
-				[20549] = {
+				[3411] = {
 					["enabled"] = true,
 				},
 				[1499] = {
@@ -1086,6 +1085,7 @@ NameplateCooldownsAceDB = {
 					["enabled"] = true,
 				},
 			},
+			["MigrationVersion"] = 7,
 		},
 		["沈南鹏 - 祈福"] = {
 			["MigrationVersion"] = 7,
@@ -1756,7 +1756,7 @@ NameplateCooldownsAceDB = {
 				[2484] = {
 					["enabled"] = true,
 				},
-				[64843] = {
+				[27088] = {
 					["enabled"] = true,
 				},
 				[724] = {
@@ -1942,10 +1942,10 @@ NameplateCooldownsAceDB = {
 				[46924] = {
 					["enabled"] = true,
 				},
-				[38768] = {
+				[498] = {
 					["enabled"] = true,
 				},
-				[48477] = {
+				[38768] = {
 					["enabled"] = true,
 				},
 				[14327] = {
@@ -1987,7 +1987,7 @@ NameplateCooldownsAceDB = {
 				[6940] = {
 					["enabled"] = true,
 				},
-				[498] = {
+				[48477] = {
 					["enabled"] = true,
 				},
 				[871] = {
@@ -2089,10 +2089,10 @@ NameplateCooldownsAceDB = {
 				[27128] = {
 					["enabled"] = true,
 				},
-				[27088] = {
+				[31687] = {
 					["enabled"] = true,
 				},
-				[31687] = {
+				[64843] = {
 					["enabled"] = true,
 				},
 				[25437] = {
@@ -3021,10 +3021,10 @@ NameplateCooldownsAceDB = {
 				[27087] = {
 					["enabled"] = true,
 				},
-				[498] = {
+				[38768] = {
 					["enabled"] = true,
 				},
-				[48477] = {
+				[498] = {
 					["enabled"] = true,
 				},
 				[14327] = {
@@ -3066,7 +3066,7 @@ NameplateCooldownsAceDB = {
 				[6940] = {
 					["enabled"] = true,
 				},
-				[38768] = {
+				[48477] = {
 					["enabled"] = true,
 				},
 				[871] = {
@@ -3246,6 +3246,7 @@ NameplateCooldownsAceDB = {
 			},
 		},
 		["码农巴菲特 - 祈福"] = {
+			["MigrationVersion"] = 7,
 			["SpellCDs"] = {
 				[47585] = {
 					["enabled"] = true,
@@ -4322,7 +4323,6 @@ NameplateCooldownsAceDB = {
 					["enabled"] = true,
 				},
 			},
-			["MigrationVersion"] = 7,
 		},
 		["新特能源 - 祈福"] = {
 			["MigrationVersion"] = 7,
@@ -5179,10 +5179,10 @@ NameplateCooldownsAceDB = {
 				[46924] = {
 					["enabled"] = true,
 				},
-				[38768] = {
+				[48477] = {
 					["enabled"] = true,
 				},
-				[498] = {
+				[38768] = {
 					["enabled"] = true,
 				},
 				[14327] = {
@@ -5224,7 +5224,7 @@ NameplateCooldownsAceDB = {
 				[6940] = {
 					["enabled"] = true,
 				},
-				[48477] = {
+				[498] = {
 					["enabled"] = true,
 				},
 				[871] = {

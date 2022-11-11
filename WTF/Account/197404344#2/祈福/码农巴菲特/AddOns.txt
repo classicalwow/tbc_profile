@@ -198,3 +198,4 @@ Details_Vanguard: enabled
 RXPGuides: disabled
 EZQuest: enabled
 FFLU: enabled
+dbm-party-vanilla: enabled

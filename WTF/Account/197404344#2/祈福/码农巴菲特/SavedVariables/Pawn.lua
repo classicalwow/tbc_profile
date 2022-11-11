@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0707,
+	["LastPlayerFullName"] = "码农巴菲特-祈福",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 41387,
@@ -89,8 +91,6 @@ PawnOptions = {
 			["Link"] = "|cffffffff|Hitem:39371::::::::57:::::::::|h[凯雷塞斯的说服者]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "码农巴菲特-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
