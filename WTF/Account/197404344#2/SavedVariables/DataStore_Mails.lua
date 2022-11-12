@@ -11,12 +11,8 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.祈福.码农巴菲特"] = {
-				["lastUpdate"] = 1668087784,
-				["lastVisitDate"] = "2022/11/10 21:43",
-			},
-			["Default.祈福.特变电工"] = {
-				["lastUpdate"] = 1667829202,
-				["lastVisitDate"] = "2022/11/07 21:53",
+				["lastUpdate"] = 1668189458,
+				["lastVisitDate"] = "2022/11/12 01:57",
 			},
 			["Default.祈福.新特能源"] = {
 				["lastUpdate"] = 1662053162,
@@ -33,20 +29,20 @@ DataStore_MailsDB = {
 					}, -- [1]
 					{
 						["sender"] = "特变电工",
-						["subject"] = "1",
-						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
-						["money"] = 410000000,
+						["subject"] = "100",
+						["lastCheck"] = 1666537143,
+						["money"] = 1000000,
 						["text"] = "",
-						["lastCheck"] = 1667323428,
+						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
 						["daysLeft"] = 30,
 					}, -- [2]
 					{
 						["sender"] = "特变电工",
 						["subject"] = "1",
-						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
-						["money"] = 150000000,
+						["lastCheck"] = 1665677398,
+						["money"] = 200000000,
 						["text"] = "",
-						["lastCheck"] = 1665847696,
+						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
 						["daysLeft"] = 30,
 					}, -- [3]
 					{
@@ -61,46 +57,46 @@ DataStore_MailsDB = {
 					{
 						["sender"] = "特变电工",
 						["subject"] = "1",
-						["lastCheck"] = 1665510340,
-						["money"] = 10000000,
+						["lastCheck"] = 1667399624,
+						["money"] = 360000000,
 						["text"] = "",
 						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
 						["daysLeft"] = 30,
 					}, -- [5]
 					{
 						["sender"] = "特变电工",
-						["subject"] = "[23000金币 0银币 0铜币]",
+						["subject"] = "1",
 						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
-						["money"] = 230000000,
+						["money"] = 180000000,
 						["text"] = "",
-						["lastCheck"] = 1666504352,
+						["lastCheck"] = 1665919201,
 						["daysLeft"] = 30,
 					}, -- [6]
 					{
 						["sender"] = "特变电工",
-						["subject"] = "1",
-						["lastCheck"] = 1664893538,
-						["money"] = 20000000,
-						["text"] = "",
-						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[灵纹布]|h|r",
+						["count"] = 17,
+						["lastCheck"] = 1664785065,
+						["icon"] = 132898,
 						["daysLeft"] = 30,
 					}, -- [7]
 					{
 						["sender"] = "特变电工",
 						["subject"] = "1",
-						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
+						["lastCheck"] = 1665419536,
 						["money"] = 10000000,
 						["text"] = "",
-						["lastCheck"] = 1667829193,
+						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
 						["daysLeft"] = 30,
 					}, -- [8]
 					{
 						["sender"] = "特变电工",
-						["itemID"] = 21877,
-						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[灵纹布]|h|r",
-						["count"] = 20,
-						["lastCheck"] = 1664785065,
-						["icon"] = 132898,
+						["subject"] = "[2000金币 0银币 0铜币]",
+						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
+						["money"] = 20000000,
+						["text"] = "",
+						["lastCheck"] = 1667829201,
 						["daysLeft"] = 30,
 					}, -- [9]
 					{
@@ -115,68 +111,81 @@ DataStore_MailsDB = {
 					{
 						["sender"] = "特变电工",
 						["subject"] = "1",
-						["lastCheck"] = 1665677398,
-						["money"] = 200000000,
+						["lastCheck"] = 1664893538,
+						["money"] = 20000000,
 						["text"] = "",
 						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
 						["daysLeft"] = 30,
 					}, -- [11]
 					{
 						["sender"] = "特变电工",
-						["subject"] = "100",
-						["lastCheck"] = 1666537143,
-						["money"] = 1000000,
-						["text"] = "",
+						["subject"] = "1",
 						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
+						["money"] = 150000000,
+						["text"] = "",
+						["lastCheck"] = 1665847696,
 						["daysLeft"] = 30,
 					}, -- [12]
 					{
 						["sender"] = "特变电工",
 						["subject"] = "1",
-						["lastCheck"] = 1667399624,
-						["money"] = 360000000,
-						["text"] = "",
 						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
+						["money"] = 410000000,
+						["text"] = "",
+						["lastCheck"] = 1667323428,
 						["daysLeft"] = 30,
 					}, -- [13]
 					{
 						["sender"] = "特变电工",
-						["itemID"] = 21877,
-						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[灵纹布]|h|r",
-						["count"] = 17,
-						["lastCheck"] = 1664785065,
-						["icon"] = 132898,
+						["subject"] = "1",
+						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
+						["money"] = 10000000,
+						["text"] = "",
+						["lastCheck"] = 1667829193,
 						["daysLeft"] = 30,
 					}, -- [14]
 					{
 						["sender"] = "特变电工",
-						["subject"] = "1",
-						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
-						["money"] = 180000000,
-						["text"] = "",
-						["lastCheck"] = 1665919201,
+						["itemID"] = 21877,
+						["link"] = "|cffffffff|Hitem:21877::::::::70:::::::::|h[灵纹布]|h|r",
+						["count"] = 20,
+						["lastCheck"] = 1664785065,
+						["icon"] = 132898,
 						["daysLeft"] = 30,
 					}, -- [15]
 					{
 						["sender"] = "特变电工",
-						["subject"] = "1",
-						["lastCheck"] = 1665419536,
-						["money"] = 10000000,
-						["text"] = "",
+						["subject"] = "[23000金币 0银币 0铜币]",
 						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
+						["money"] = 230000000,
+						["text"] = "",
+						["lastCheck"] = 1666504352,
 						["daysLeft"] = 30,
 					}, -- [16]
 					{
 						["sender"] = "特变电工",
-						["subject"] = "[2000金币 0银币 0铜币]",
-						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
-						["money"] = 20000000,
+						["subject"] = "1",
+						["lastCheck"] = 1665510340,
+						["money"] = 10000000,
 						["text"] = "",
-						["lastCheck"] = 1667829201,
+						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
 						["daysLeft"] = 30,
 					}, -- [17]
+					{
+						["sender"] = "码农巴菲特",
+						["subject"] = "[21000金币 0银币 0铜币]",
+						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
+						["money"] = 210000000,
+						["text"] = "",
+						["lastCheck"] = 1668176675,
+						["daysLeft"] = 30,
+					}, -- [18]
 				},
 				["lastVisitDate"] = "2022/09/02 01:26",
+			},
+			["Default.祈福.特变电工"] = {
+				["lastUpdate"] = 1667829202,
+				["lastVisitDate"] = "2022/11/07 21:53",
 			},
 		},
 	},

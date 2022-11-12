@@ -11,16 +11,16 @@ DataStore_AuctionsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.祈福.码农巴菲特"] = {
-				["lastUpdate"] = 1668010928,
-				["lastVisitDate"] = "2022/11/10 00:22",
-			},
-			["Default.祈福.特变电工"] = {
-				["lastUpdate"] = 1667673447,
-				["lastVisitDate"] = "2022/11/06 02:37",
+				["lastUpdate"] = 1668189445,
+				["lastVisitDate"] = "2022/11/12 01:57",
 			},
 			["Default.祈福.新特能源"] = {
 				["lastUpdate"] = 1662041655,
 				["lastVisitDate"] = "2022/09/01 22:14",
+			},
+			["Default.祈福.特变电工"] = {
+				["lastUpdate"] = 1667673447,
+				["lastVisitDate"] = "2022/11/06 02:37",
 			},
 		},
 	},

@@ -18,6 +18,70 @@ BisTooltipDB = {
 			},
 			["version"] = 6.1,
 			["phase_index"] = 2,
+			["class_index"] = 7,
+			["filter_specs"] = {
+				["Warrior"] = {
+					["Fury"] = true,
+					["Arms"] = true,
+					["Protection"] = true,
+				},
+				["Paladin"] = {
+					["Protection"] = true,
+					["Holy"] = true,
+					["Retribution"] = true,
+				},
+				["Shaman"] = {
+					["Enhancement"] = true,
+					["Elemental"] = true,
+					["Restoration"] = true,
+				},
+				["Rogue"] = {
+					["Combat"] = true,
+					["Assassination"] = true,
+				},
+				["Mage"] = {
+					["Arcane"] = true,
+					["Frost"] = true,
+					["Fire"] = true,
+					["Fire FFB"] = true,
+				},
+				["Druid"] = {
+					["Feral dps"] = true,
+					["Balance"] = true,
+					["Restoration"] = true,
+					["Feral tank"] = true,
+				},
+				["Death knight"] = {
+					["Unholy"] = true,
+					["Frost"] = true,
+					["Blood tank"] = true,
+				},
+				["Hunter"] = {
+					["Marksmanship"] = true,
+					["Beast mastery"] = true,
+					["Survival"] = true,
+				},
+				["Priest"] = {
+					["Discipline"] = true,
+					["Holy"] = true,
+					["Shadow"] = true,
+				},
+				["Warlock"] = {
+					["Demonology"] = true,
+					["Affliction"] = true,
+					["Destruction"] = true,
+				},
+			},
+		},
+		["沈南鹏 - 祈福"] = {
+			["version"] = 6.1,
+		},
+		["查尔斯三世 - 祈福"] = {
+			["version"] = 6.1,
+		},
+		["码农巴菲特 - 祈福"] = {
+			["version"] = 6.1,
+			["phase_index"] = 2,
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -39,9 +103,9 @@ BisTooltipDB = {
 					["Assassination"] = true,
 				},
 				["Mage"] = {
-					["Fire FFB"] = true,
 					["Frost"] = true,
 					["Fire"] = true,
+					["Fire FFB"] = true,
 					["Arcane"] = true,
 				},
 				["Druid"] = {
@@ -71,17 +135,6 @@ BisTooltipDB = {
 					["Holy"] = true,
 				},
 			},
-			["class_index"] = 7,
-		},
-		["沈南鹏 - 祈福"] = {
-			["version"] = 6.1,
-		},
-		["查尔斯三世 - 祈福"] = {
-			["version"] = 6.1,
-		},
-		["码农巴菲特 - 祈福"] = {
-			["phase_index"] = 2,
-			["version"] = 6.1,
 			["spec_index"] = 3,
 		},
 		["特工仓库 - 祈福"] = {
@@ -96,13 +149,11 @@ BisTooltipDB = {
 			},
 			["version"] = 6.1,
 			["phase_index"] = 2,
-			["spec_index"] = 3,
-			["minimapPos"] = 261.2231151497614,
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
-					["Arms"] = true,
 					["Protection"] = true,
+					["Arms"] = true,
 				},
 				["Paladin"] = {
 					["Protection"] = true,
@@ -119,15 +170,15 @@ BisTooltipDB = {
 					["Assassination"] = true,
 				},
 				["Mage"] = {
-					["Arcane"] = true,
+					["Fire FFB"] = true,
 					["Frost"] = true,
 					["Fire"] = true,
-					["Fire FFB"] = true,
+					["Arcane"] = true,
 				},
 				["Druid"] = {
-					["Feral dps"] = true,
-					["Balance"] = true,
 					["Restoration"] = true,
+					["Balance"] = true,
+					["Feral dps"] = true,
 					["Feral tank"] = true,
 				},
 				["Death knight"] = {
@@ -137,20 +188,21 @@ BisTooltipDB = {
 				},
 				["Hunter"] = {
 					["Marksmanship"] = true,
-					["Beast mastery"] = true,
 					["Survival"] = true,
-				},
-				["Priest"] = {
-					["Discipline"] = true,
-					["Holy"] = true,
-					["Shadow"] = true,
+					["Beast mastery"] = true,
 				},
 				["Warlock"] = {
 					["Demonology"] = true,
 					["Affliction"] = true,
 					["Destruction"] = true,
 				},
+				["Priest"] = {
+					["Discipline"] = true,
+					["Shadow"] = true,
+					["Holy"] = true,
+				},
 			},
+			["minimapPos"] = 261.2231151497614,
 		},
 	},
 }

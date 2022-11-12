@@ -1576,6 +1576,66 @@ RaidLedgerDatabase = {
 						["count"] = 14,
 					},
 				}, -- [131]
+				{
+					["beneficiary"] = "洛乂漓",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40415::::::::80:::::::::|h[勇猛的霜火手套]|h|r",
+						["count"] = 1,
+					},
+				}, -- [132]
+				{
+					["beneficiary"] = "你",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40552::::::::80:::::::::|h[勇猛的天灾苦痛护手]|h|r",
+						["count"] = 1,
+					},
+				}, -- [133]
+				{
+					["beneficiary"] = "妗婉",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:41309::::::::80:::::::::|h[致命角斗士的科多皮长袍]|h|r",
+						["count"] = 1,
+					},
+				}, -- [134]
+				{
+					["beneficiary"] = "韩小粘",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40457::::::::80:::::::::|h[勇猛的信仰短裤]|h|r",
+						["count"] = 1,
+					},
+				}, -- [135]
+				{
+					["beneficiary"] = "贾漂亮",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:41025::::::::80:::::::::|h[憎恨角斗士的环甲护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [136]
 			},
 		}, -- [1]
 	},
@@ -1588,11 +1648,11 @@ RaidLedgerDatabase = {
 		["minimapicons"] = {
 			["hide"] = false,
 		},
-		["minimapicon"] = true,
-		["raidbutton"] = true,
-		["filteritems"] = "# 每行一条, 可以是物品名称或物品ID\n# 以 # 开头的行自动被忽略\n",
 		["debittemplates"] = {
 		},
+		["raidbutton"] = true,
+		["filteritems"] = "# 每行一条, 可以是物品名称或物品ID\n# 以 # 开头的行自动被忽略\n",
+		["minimapicon"] = true,
 		["filterzero"] = false,
 	},
 	["current"] = 1,

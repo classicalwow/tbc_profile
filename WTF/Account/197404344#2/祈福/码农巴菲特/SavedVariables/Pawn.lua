@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0707,
-	["LastPlayerFullName"] = "码农巴菲特-祈福",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 41387,
@@ -75,9 +73,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:44063:::40090:::::80:::::::::|h[雕像 - 帝黄晶螃蟹]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 43565,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:43565::::::::80:::::::::|h[强化蛛魔外皮斗篷]|h|r",
+			["ID"] = 42068,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:42068::::::::80:::::::::|h[致命角斗士的胜利披风]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 41257,
@@ -91,6 +89,8 @@ PawnOptions = {
 			["Link"] = "|cffffffff|Hitem:39371::::::::57:::::::::|h[凯雷塞斯的说服者]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "码农巴菲特-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
