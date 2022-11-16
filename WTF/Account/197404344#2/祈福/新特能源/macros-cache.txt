@@ -1,8 +1,8 @@
 VER 3 0000000001000001 "VuhDoDCShieldData" "Ability_Repair"
-R5IT1ET1RM1PT1DT1PM2SH2PH2PH2IH[x]3ET3MR3HT3RM3WT4LR4MR4SH4HR4LR5LR5EM8SR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]2IH[x][x][x][x][x][x][x][x][x][x][x][x][x]0__[x][x][x][x][x]0__0__0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0000000001000002 "VuhDoDCShieldNames" "Ability_Repair"
-N兰因仙人上王胖曼圣光大德尔瓦光头圣神马满暗月小皇家戴千变冰[x]髻曏兲调皮小再见阿狂野尐冰雹妹嗜睡的阳光般小瑜瑜依阶听钢琴手喜宝妹书生意雪夜流[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]新特能[x][x][x][x][x][x][x][x][x][x][x][x][x]对不起[x][x][x][x][x]狼伊拉格基格尼[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]新特能[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0000000001000003 "坐骑" "INV_MISC_QUESTIONMARK"
 #showtooltip 金色狮鹫

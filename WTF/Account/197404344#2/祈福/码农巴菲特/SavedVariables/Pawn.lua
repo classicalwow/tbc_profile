@@ -1,11 +1,13 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0707,
+	["LastPlayerFullName"] = "码农巴菲特-祈福",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 41387,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:41387::::::::80:::::::::|h[淬火泰坦精钢头盔]|h|r",
+			["ID"] = 44006,
+			["Level"] = 226,
+			["Link"] = "|cffa335ee|Hitem:44006:3817:41400:42702:::::80:::::::::|h[黑曜石巨盔]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 40387,
@@ -13,9 +15,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:40387::::::::80:::::::::|h[无尽的野心]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 39627,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:39627:3811:40022::::::80:::::::::|h[英雄的天灾苦痛肩铠]|h|r",
+			["ID"] = 40557,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:40557::::::::80:::::::::|h[勇猛的天灾苦痛肩甲]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -83,14 +85,12 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:41257::::::::80:::::::::|h[泰坦精钢毁灭者]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 39371,
-			["Level"] = 70,
+			["ID"] = 39226,
+			["Level"] = 200,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cffffffff|Hitem:39371::::::::57:::::::::|h[凯雷塞斯的说服者]|h|r",
+			["Link"] = "|cffa335ee|Hitem:39226::::::::80:::::::::|h[迈克斯纳的腿骨]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "码农巴菲特-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

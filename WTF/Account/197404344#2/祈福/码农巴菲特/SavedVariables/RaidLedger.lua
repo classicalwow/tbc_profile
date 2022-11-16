@@ -1636,6 +1636,54 @@ RaidLedgerDatabase = {
 						["count"] = 1,
 					},
 				}, -- [136]
+				{
+					["beneficiary"] = "纯欲撩人-火锤",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cff0070dd|Hitem:34052::::::::80:::::::::|h[梦境碎片]|h|r",
+						["count"] = 1,
+					},
+				}, -- [137]
+				{
+					["beneficiary"] = "你",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40878::::::::80:::::::::|h[憎恨角斗士的凯旋胫甲]|h|r",
+						["count"] = 1,
+					},
+				}, -- [138]
+				{
+					["beneficiary"] = "你",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cff0070dd|Hitem:40016::::::::80:::::::::|h[秘法秋色石]|h|r",
+						["count"] = 1,
+					},
+				}, -- [139]
+				{
+					["beneficiary"] = "你",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40888::::::::80:::::::::|h[致命角斗士的凯旋护腕]|h|r",
+						["count"] = 1,
+					},
+				}, -- [140]
 			},
 		}, -- [1]
 	},
@@ -1648,11 +1696,11 @@ RaidLedgerDatabase = {
 		["minimapicons"] = {
 			["hide"] = false,
 		},
-		["minimapicon"] = true,
-		["raidbutton"] = true,
-		["filteritems"] = "# 每行一条, 可以是物品名称或物品ID\n# 以 # 开头的行自动被忽略\n",
 		["debittemplates"] = {
 		},
+		["raidbutton"] = true,
+		["filteritems"] = "# 每行一条, 可以是物品名称或物品ID\n# 以 # 开头的行自动被忽略\n",
+		["minimapicon"] = true,
 		["filterzero"] = false,
 	},
 	["current"] = 1,

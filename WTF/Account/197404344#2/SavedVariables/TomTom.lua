@@ -6,8 +6,8 @@ TomTomDB = {
 		["张坤 - 祈福"] = "Default",
 		["查尔斯三世 - 祈福"] = "Default",
 		["码农巴菲特 - 祈福"] = "Default",
-		["Vscode - 加丁"] = "Default",
 		["新特能源 - 祈福"] = "Default",
+		["Vscode - 加丁"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -40,8 +40,8 @@ TomTomWaypointsM = {
 		["张坤 - 祈福"] = "张坤 - 祈福",
 		["查尔斯三世 - 祈福"] = "查尔斯三世 - 祈福",
 		["码农巴菲特 - 祈福"] = "码农巴菲特 - 祈福",
-		["Vscode - 加丁"] = "Vscode - 加丁",
 		["新特能源 - 祈福"] = "新特能源 - 祈福",
+		["Vscode - 加丁"] = "Vscode - 加丁",
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
@@ -61,9 +61,34 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
+						["world"] = {
+						},
 						["minimap"] = {
 						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+			[121] = {
+				["121:147432762.83619:573716381.41809:瓦古唤亡者"] = {
+					121, -- [1]
+					0.1474327628361858, -- [2]
+					0.5737163814180929, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "瓦古唤亡者",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "瓦古唤亡者",
+					["from"] = "Questie",
+					["callbacks"] = {
+						["distance"] = {
+						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -88,9 +113,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -104,32 +129,9 @@ TomTomWaypointsM = {
 		},
 		["码农巴菲特 - 祈福"] = {
 		},
-		["Vscode - 加丁"] = {
-		},
 		["新特能源 - 祈福"] = {
-			[115] = {
-				["115:603178484.10758:515403422.98289:奈瑟斯塔兹"] = {
-					115, -- [1]
-					0.6031784841075795, -- [2]
-					0.5154034229828851, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["minimap"] = true,
-					["cleardistance"] = 10,
-					["title"] = "奈瑟斯塔兹",
-					["from"] = "Questie",
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["world"] = true,
-				},
-			},
+		},
+		["Vscode - 加丁"] = {
 		},
 	},
 }

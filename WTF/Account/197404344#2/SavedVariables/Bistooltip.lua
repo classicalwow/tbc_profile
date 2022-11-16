@@ -81,6 +81,7 @@ BisTooltipDB = {
 		},
 		["码农巴菲特 - 祈福"] = {
 			["version"] = 6.1,
+			["spec_index"] = 3,
 			["phase_index"] = 2,
 			["filter_specs"] = {
 				["Warrior"] = {
@@ -103,9 +104,9 @@ BisTooltipDB = {
 					["Assassination"] = true,
 				},
 				["Mage"] = {
+					["Fire FFB"] = true,
 					["Frost"] = true,
 					["Fire"] = true,
-					["Fire FFB"] = true,
 					["Arcane"] = true,
 				},
 				["Druid"] = {
@@ -135,13 +136,12 @@ BisTooltipDB = {
 					["Holy"] = true,
 				},
 			},
-			["spec_index"] = 3,
 		},
 		["特工仓库 - 祈福"] = {
 			["version"] = 6.1,
 		},
 		["新特能源 - 祈福"] = {
-			["class_index"] = 6,
+			["minimapPos"] = 261.2231151497614,
 			["highlight_spec"] = {
 				["spec_name"] = "Discipline",
 				["key"] = "6:1",
@@ -202,7 +202,7 @@ BisTooltipDB = {
 					["Holy"] = true,
 				},
 			},
-			["minimapPos"] = 261.2231151497614,
+			["spec_index"] = 3,
 		},
 	},
 }

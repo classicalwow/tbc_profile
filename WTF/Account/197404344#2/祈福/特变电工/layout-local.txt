@@ -11,7 +11,7 @@ FrameLevel: 1
 Anchor: TOPRIGHT
 X: -369
 Y: -3
-W: 131
+W: 116
 H: 21
 Frame: ItemRefTooltip
 FrameLevel: 1
