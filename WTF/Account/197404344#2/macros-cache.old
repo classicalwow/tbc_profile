@@ -41,6 +41,7 @@ VER 3 000000000000000E "毁伤" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0000000000000003 "自动攻击" "135325"
 /startattack
+/petattack
 /equipslot 16  死亡之网
 /equipslot 17 邪恶复仇
 END

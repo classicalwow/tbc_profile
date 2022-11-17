@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0707,
-	["LastPlayerFullName"] = "码农巴菲特-祈福",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 44006,
@@ -91,6 +89,8 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:39226::::::::80:::::::::|h[迈克斯纳的腿骨]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "码农巴菲特-祈福",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

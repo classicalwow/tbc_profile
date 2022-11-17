@@ -5,6 +5,11 @@ END
 VER 3 0000000001000007 "11" "132269"
 /5 {圆形}H 乌颠{圆形} {圆形} 陨星磨石 已需求 {圆形} 出了1人100G 来治疗 4=1
 END
+VER 3 000000000100000C "A" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=focus] 绞袭
+/cast 绞袭
+END
 VER 3 0000000001000009 "aa" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [nopet,nomounted] 亡者复生

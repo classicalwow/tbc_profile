@@ -125,7 +125,7 @@ DataStore_Spells: enabled
 DataStore_Talents: enabled
 Dejunk: enabled
 GearScoreLite: enabled
-Gladdy: disabled
+Gladdy: enabled
 Guidelime: enabled
 Guidelime_ShikuTW: enabled
 GuideLime_TUGs_WOTLK: enabled

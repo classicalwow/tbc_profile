@@ -11,8 +11,12 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.祈福.码农巴菲特"] = {
-				["lastUpdate"] = 1668524389,
-				["lastVisitDate"] = "2022/11/15 22:59",
+				["lastUpdate"] = 1668616172,
+				["lastVisitDate"] = "2022/11/17 00:29",
+			},
+			["Default.祈福.特变电工"] = {
+				["lastUpdate"] = 1667829202,
+				["lastVisitDate"] = "2022/11/07 21:53",
 			},
 			["Default.祈福.新特能源"] = {
 				["lastUpdate"] = 1662053162,
@@ -182,10 +186,6 @@ DataStore_MailsDB = {
 					}, -- [18]
 				},
 				["lastVisitDate"] = "2022/09/02 01:26",
-			},
-			["Default.祈福.特变电工"] = {
-				["lastUpdate"] = 1667829202,
-				["lastVisitDate"] = "2022/11/07 21:53",
 			},
 		},
 	},
