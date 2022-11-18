@@ -1,6 +1,6 @@
 
 BugGrabberDB = {
-	["session"] = 700,
+	["session"] = 704,
 	["lastSanitation"] = 3,
 	["errors"] = {
 		{
@@ -873,60 +873,60 @@ BugGrabberDB = {
 			["counter"] = 59,
 		}, -- [111]
 		{
-			["message"] = "Interface\\AddOns\\Puggle\\Puggle-216.lua:1335: script ran too long",
-			["time"] = "2022/10/31 18:29:18",
-			["locals"] = "data = \"Actress\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = \"010000010110001101110100011100100110010101110011011100110000\"\n(*temporary) = \"%d%d%d?%d?%d?%d?\"\n(*temporary) = <function> defined @Interface\\AddOns\\Puggle\\Puggle.lua:1335\n(*temporary) = \"01000001011000110111010001110010011001010111001101110011\"\n(*temporary) = \"script ran too long\"\nb = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1335: in function `Puggle_enc'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:630: in function `Puggle_UpdateCurrentGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:526: in function `Puggle_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
-			["session"] = 698,
-			["counter"] = 25,
-		}, -- [112]
-		{
 			["message"] = "...ns\\Blizzard_LookingForGroupUI\\Blizzard_LFGBrowse.lua:245: attempt to index local 'searchResultInfo' (a nil value)",
 			["time"] = "2022/10/11 21:23:34",
 			["locals"] = "self = <unnamed> {\n 0 = <userdata>\n Highlight = <unnamed> {\n }\n PartyIcon = <unnamed> {\n }\n DataDisplay = <unnamed> {\n }\n ActivityName = <unnamed> {\n }\n hasSelf = false\n isDelisted = false\n resultID = 104\n Name = <unnamed> {\n }\n NewPlayerFriendlyIcon = <unnamed> {\n }\n Selected = <unnamed> {\n }\n ResultBG = <unnamed> {\n }\n Level = <unnamed> {\n }\n ClassIcon = <unnamed> {\n }\n}\nsearchResultInfo = nil\nactiveEntryInfo = <table> {\n newPlayerFriendly = true\n activityIDs = <table> {\n }\n comment = \"|Ks2|k\"\n duration = 41516\n}\n(*temporary) = <table> {\n newPlayerFriendly = true\n activityIDs = <table> {\n }\n comment = \"|Ks2|k\"\n duration = 41516\n}\n(*temporary) = <table> {\n newPlayerFriendly = true\n activityIDs = <table> {\n }\n comment = \"|Ks2|k\"\n duration = 41516\n}\n(*temporary) = true\n(*temporary) = 4\n(*temporary) = 1098\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index local 'searchResultInfo' (a nil value)\"\nLFGBROWSE_GROUPDATA_ATLASES = <table> {\n DEATHKNIGHT = \"groupfinder-icon-class-deathknight\"\n TANK = \"groupfinder-icon-role-large-tank\"\n PALADIN = \"groupfinder-icon-class-paladin\"\n DAMAGER = \"groupfinder-icon-role-large-dps\"\n HEALER = \"groupfinder-icon-role-large-heal\"\n PRIEST = \"groupfinder-icon-class-priest\"\n HUNTER = \"groupfinder-icon-class-hunter\"\n WARLOCK = \"groupfinder-icon-class-warlock\"\n MAGE = \"groupfinder-icon-class-mage\"\n ROGUE = \"groupfinder-icon-class-rogue\"\n DRUID = \"groupfinder-icon-class-druid\"\n WARRIOR = \"groupfinder-icon-class-warrior\"\n SHAMAN = \"groupfinder-icon-class-shaman\"\n}\nLFGBROWSE_ACTIVITY_NOMATCH_FONT_COLOR = <table> {\n GetRGB = <function> defined @Interface\\SharedXML\\Color.lua:20\n OnLoad = <function> defined @Interface\\SharedXML\\Color.lua:9\n b = 0.500000\n GenerateHexColorMarkup = <function> defined @Interface\\SharedXML\\Color.lua:51\n WrapTextInColorCode = <function> defined @Interface\\SharedXML\\Color.lua:55\n GenerateHexColor = <function> defined @Interface\\SharedXML\\Color.lua:47\n GetRGBA = <function> defined @Interface\\SharedXML\\Color.lua:28\n IsEqualTo = <function> defined @Interface\\SharedXML\\Color.lua:13\n g = 0.500000\n r = 0.500000\n SetRGBA = <function> defined @Interface\\SharedXML\\Color.lua:36\n GetRGBAsBytes = <function> defined @Interface\\SharedXML\\Color.lua:24\n SetRGB = <function> defined @Interface\\SharedXML\\Color.lua:43\n GetRGBAAsBytes = <function> defined @Interface\\SharedXML\\Color.lua:32\n}\nLFGBROWSE_DELISTED_FONT_COLOR = <table> {\n b = 0.300000\n g = 0.300000\n r = 0.300000\n}\nLFGBROWSE_SELF_FONT_COLOR = <table> {\n GetRGB = <function> defined @Interface\\SharedXML\\Color.lua:20\n OnLoad = <function> defined @Interface\\SharedXML\\Color.lua:9\n b = 0.375000\n GenerateHexColorMarkup = <function> defined @Interface\\SharedXML\\Color.lua:51\n WrapTextInColorCode = <function> defined @Interface\\SharedXML\\Color.lua:55\n GenerateHexColor = <function> defined @Interface\\SharedXML\\Color.lua:47\n GetRGBA = <function> defined @Interface\\SharedXML\\Color.lua:28\n IsEqualTo = <function> defined @Interface\\SharedXML\\Color.lua:13\n g = 1\n r = 0.400000\n SetRGBA = <function> defined @Interface\\SharedXML\\Color.lua:36\n GetRGBAsBytes = <function> defined @Interface\\SharedXML\\Color.lua:24\n SetRGB = <function> defined @Interface\\SharedXML\\Color.lua:43\n GetRGBAAsBytes = <function> defined @Interface\\SharedXML\\Color.lua:32\n}\nLFGBROWSE_ACTIVITY_MATCH_FONT_COLOR = <table> {\n GetRGB = <function> defined @Interface\\SharedXML\\Color.lua:20\n OnLoad = <function> defined @Interface\\SharedXML\\Color.lua:9\n b = 1\n GenerateHexColorMarkup = <function> defined @Interface\\SharedXML\\Color.lua:51\n WrapTextInColorCode = <function> defined @Interface\\SharedXML\\Color.lua:55\n GenerateHexColor = <function> defined @Interface\\SharedXML\\Color.lua:47\n GetRGBA = <function> defined @Interface\\SharedXML\\Color.lua:28\n IsEqualTo = <function> defined @Interface\\SharedXML\\Color.lua:13\n g = 0.733000\n r = 0.400000\n SetRGBA = <fu",
 			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_LookingForGroupUI\\Blizzard_LFGBrowse.lua\"]:245: in function `LFGBrowseSearchEntry_Update'\n[string \"@Interface\\AddOns\\Blizzard_LookingForGroupUI\\Blizzard_LFGBrowse.lua\"]:346: in function <...ns\\Blizzard_LookingForGroupUI\\Blizzard_LFGBrowse.lua:341>",
 			["session"] = 698,
 			["counter"] = 41,
-		}, -- [113]
+		}, -- [112]
 		{
-			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
-			["time"] = "2022/08/13 19:33:28",
-			["locals"] = "GearScore = 57\nItemLevel = 20\nRed = 0.575650\nBlue = 0.575650\nGreen = 0.575650\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 4\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
-			["session"] = 698,
-			["counter"] = 2387,
-		}, -- [114]
+			["message"] = "Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua:8: attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)",
+			["time"] = "2022/09/01 21:55:45",
+			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:67: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:53>",
+			["session"] = 704,
+			["counter"] = 582,
+		}, -- [113]
 		{
 			["message"] = "Interface\\AddOns\\Puggle\\Puggle-216.lua:1340: script ran too long",
 			["time"] = "2022/10/31 18:29:31",
 			["locals"] = "data = \"圣殿神圣光辉\"\n(*temporary) = \"5Zyj5q6/56We5Zyj5YWJ6L6J\"\n(*temporary) = \"1110010110011100101000111110011010101110101111111110011110100101100111101110010110011100101000111110010110000101100010011110100010111110100010010000\"\n(*temporary) = \"%d%d%d?%d?%d?%d?\"\n(*temporary) = <function> defined @Interface\\AddOns\\Puggle\\Puggle.lua:1335\n(*temporary) = \"5Zyj5q6/56We5Zyj5YWJ6L6J\"\n(*temporary) = \"script ran too long\"\nb = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1340: in function `Puggle_enc'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:630: in function `Puggle_UpdateCurrentGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:526: in function `Puggle_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
-			["session"] = 698,
-			["counter"] = 27,
+			["session"] = 704,
+			["counter"] = 30,
+		}, -- [114]
+		{
+			["message"] = "Interface\\AddOns\\Puggle\\Puggle-216.lua:1335: script ran too long",
+			["time"] = "2022/10/31 18:29:18",
+			["locals"] = "data = \"Actress\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = \"010000010110001101110100011100100110010101110011011100110000\"\n(*temporary) = \"%d%d%d?%d?%d?%d?\"\n(*temporary) = <function> defined @Interface\\AddOns\\Puggle\\Puggle.lua:1335\n(*temporary) = \"01000001011000110111010001110010011001010111001101110011\"\n(*temporary) = \"script ran too long\"\nb = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1335: in function `Puggle_enc'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:630: in function `Puggle_UpdateCurrentGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:526: in function `Puggle_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
+			["session"] = 704,
+			["counter"] = 34,
 		}, -- [115]
 		{
 			["message"] = "...terface\\AddOns\\Blizzard_ArenaUI\\Blizzard_ArenaUI.lua:93: attempt to index global 'ArenaEnemyFrames' (a nil value)",
 			["time"] = "2022/11/16 22:24:43",
 			["locals"] = "_ = true\ninstanceType = \"arena\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index global 'ArenaEnemyFrames' (a nil value)\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_ArenaUI\\Blizzard_ArenaUI.lua\"]:93: in function `ArenaEnemyFrames_UpdateVisible'\n[string \"@Interface\\AddOns\\Blizzard_ArenaUI\\Blizzard_ArenaUI.lua\"]:241: in function <...terface\\AddOns\\Blizzard_ArenaUI\\Blizzard_ArenaUI.lua:212>",
-			["session"] = 698,
-			["counter"] = 430,
+			["session"] = 704,
+			["counter"] = 475,
 		}, -- [116]
-		{
-			["message"] = "Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua:8: attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)",
-			["time"] = "2022/09/01 21:55:45",
-			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:67: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:53>",
-			["session"] = 700,
-			["counter"] = 578,
-		}, -- [117]
 		{
 			["message"] = "Interface\\AddOns\\Puggle\\Puggle-216.lua:1346: bad argument #1 to 'gsub' (string expected, got nil)",
 			["time"] = "2022/08/13 14:30:28",
 			["locals"] = "(*temporary) = nil\n(*temporary) = \"[^ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=]\"\n(*temporary) = \"\"\n(*temporary) = \"string expected, got nil\"\n",
 			["stack"] = "[string \"=[C]\"]: in function `gsub'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1346: in function `Puggle_dec'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:889: in function `Puggle_displayGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:693: in function `Puggle_UpdateCurrentGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:526: in function `Puggle_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
-			["session"] = 700,
-			["counter"] = 3046,
+			["session"] = 704,
+			["counter"] = 3096,
+		}, -- [117]
+		{
+			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
+			["time"] = "2022/08/13 19:33:28",
+			["locals"] = "GearScore = 57\nItemLevel = 20\nRed = 0.575650\nBlue = 0.575650\nGreen = 0.575650\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 4\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
+			["session"] = 704,
+			["counter"] = 2394,
 		}, -- [118]
 	},
 }

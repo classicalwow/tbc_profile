@@ -1702,11 +1702,12 @@ VMRT = {
 		["upd4525"] = true,
 		["enabled"] = true,
 		["gnGUIDs"] = {
+			["Awos"] = 0,
 			["蒙面鹹魚"] = 0,
 			["把妳當小孩打"] = 0,
 			["牛肉內牛滿面"] = 0,
 			["白胖很好"] = 0,
-			["Awos"] = 0,
+			["佰鳥朝鳳"] = 0,
 			["邁克爾假死"] = 0,
 			["別逼我變熊"] = 0,
 			["淡淡的憂傷"] = 0,
@@ -1720,9 +1721,9 @@ VMRT = {
 			["2825;1"] = 1,
 		},
 		["NoRaid"] = true,
-		["Left"] = 9.589947700500488,
+		["Left"] = 27.65914916992188,
 		["upd4380"] = true,
-		["Top"] = 993.733642578125,
+		["Top"] = 590.38232421875,
 		["Save"] = {
 		},
 		["Profiles"] = {
@@ -1935,12 +1936,12 @@ VMRT = {
 		["ReadyCheckFrameTimerFade"] = 4,
 	},
 	["Addon"] = {
-		["Version"] = 4660,
-		["PreVersion"] = 4660,
-		["IconMiniMapTop"] = -13.09867688054399,
+		["Version"] = 4680,
+		["Scale"] = 0.91,
+		["PreVersion"] = 4680,
 		["IconMiniMapLeft"] = -80,
 		["Timer"] = 0.1,
-		["Scale"] = 0.91,
+		["IconMiniMapTop"] = -13.09867688054399,
 	},
 	["WhoPulled"] = {
 	},

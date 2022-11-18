@@ -1684,6 +1684,54 @@ RaidLedgerDatabase = {
 						["count"] = 1,
 					},
 				}, -- [140]
+				{
+					["beneficiary"] = "羊叻个羊",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:41086::::::::80:::::::::|h[致命角斗士的链甲护胸]|h|r",
+						["count"] = 1,
+					},
+				}, -- [141]
+				{
+					["beneficiary"] = "丶浪蹄子丶",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40523::::::::80:::::::::|h[勇猛的碎地者护胸]|h|r",
+						["count"] = 1,
+					},
+				}, -- [142]
+				{
+					["beneficiary"] = "沈清秋",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:41951::::::::80:::::::::|h[致命角斗士的丝质外衣]|h|r",
+						["count"] = 1,
+					},
+				}, -- [143]
+				{
+					["beneficiary"] = "大葱不蘸酱",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40926::::::::80:::::::::|h[致命角斗士的雕饰板甲手套]|h|r",
+						["count"] = 1,
+					},
+				}, -- [144]
 			},
 		}, -- [1]
 	},

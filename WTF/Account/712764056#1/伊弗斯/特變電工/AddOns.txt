@@ -6,7 +6,7 @@ AutoBar: disabled
 BiSTracker: disabled
 BattleGroundEnemies: disabled
 ElvUI_KlixUI_TBC_Classic: disabled
-exrt: enabled
+exrt: disabled
 gladiatorlossa2: disabled
 weakauras: enabled
 immersion: enabled
@@ -106,8 +106,8 @@ Guidelime_Flymolo's Outland Leveling Guide: enabled
 Guidelime: enabled
 LFGBulletinBoard: enabled
 ls_Toasts: enabled
-Mapster: disabled
-MRT: enabled
+Mapster: enabled
+MRT: disabled
 MBB: enabled
 Myslot: enabled
 Parrot: enabled
@@ -168,3 +168,10 @@ dbm-chamberofaspects: enabled
 DataStore: disabled
 Gladdy: disabled
 vuhdo: disabled
+decursive: disabled
+dbm-party-vanilla: enabled
+details_datastorage: enabled
+altoholic_achievements: enabled
+elvui_options: enabled
+ElvUI_UnitFramePlugin: disabled
+VuhDoOptions: disabled

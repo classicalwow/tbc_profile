@@ -347,12 +347,12 @@ AutoBarDB = {
 				},
 				["AutoBarButtonPickLock"] = {
 					["enabled"] = true,
-					["buttonClass"] = "AutoBarButtonPickLock",
-					["defaultButtonIndex"] = "*",
-					["barKey"] = "AutoBarClassBarRogue",
-					["arrangeOnUse"] = true,
 					["targeted"] = "Lockpicking",
 					["buttonKey"] = "AutoBarButtonPickLock",
+					["defaultButtonIndex"] = "*",
+					["arrangeOnUse"] = true,
+					["buttonClass"] = "AutoBarButtonPickLock",
+					["barKey"] = "AutoBarClassBarRogue",
 					["square_popups"] = true,
 				},
 				["AutoBarButtonInterrupt"] = {
@@ -566,19 +566,19 @@ AutoBarDB = {
 				["AutoBarButtonBuff"] = {
 					["arrangeOnUse"] = 37093,
 				},
+				["AutoBarButtonQuest"] = {
+					["arrangeOnUse"] = 41989,
+				},
 				["AutoBarButtonElixirGuardian"] = {
 					["arrangeOnUse"] = 40097,
-				},
-				["AutoBarButtonBuffWeapon1"] = {
-					["arrangeOnUse"] = 43230,
 				},
 				["AutoBarButtonCrafting"] = {
 					["arrangeOnUse"] = "珠宝加工",
 				},
 				["AutoBarButtonMount"] = {
 				},
-				["AutoBarButtonQuest"] = {
-					["arrangeOnUse"] = 41989,
+				["AutoBarButtonBuffWeapon1"] = {
+					["arrangeOnUse"] = 43230,
 				},
 			},
 			["barList"] = {

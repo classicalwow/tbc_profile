@@ -112,10 +112,10 @@ PawnCommon = {
 		},
 		["\"Classic\":ROGUE1"] = {
 			["PerCharacterOptions"] = {
-				["特变电工-祈福"] = {
+				["Vscode-加丁"] = {
 					["Visible"] = true,
 				},
-				["Vscode-加丁"] = {
+				["特变电工-祈福"] = {
 					["Visible"] = true,
 				},
 			},
@@ -298,10 +298,10 @@ PawnCommon = {
 		},
 		["\"Classic\":ROGUE3"] = {
 			["PerCharacterOptions"] = {
-				["特变电工-祈福"] = {
+				["Vscode-加丁"] = {
 					["Visible"] = true,
 				},
-				["Vscode-加丁"] = {
+				["特变电工-祈福"] = {
 					["Visible"] = true,
 				},
 			},
@@ -332,10 +332,10 @@ PawnCommon = {
 		},
 		["\"Classic\":ROGUE2"] = {
 			["PerCharacterOptions"] = {
-				["特变电工-祈福"] = {
+				["Vscode-加丁"] = {
 					["Visible"] = true,
 				},
-				["Vscode-加丁"] = {
+				["特变电工-祈福"] = {
 					["Visible"] = true,
 				},
 			},
@@ -495,10 +495,10 @@ PawnCommon = {
 			["Color"] = "fff468",
 			["LocalizedName"] = "潜行者: 副手",
 			["PerCharacterOptions"] = {
-				["特变电工-祈福"] = {
+				["Vscode-加丁"] = {
 					["Visible"] = true,
 				},
-				["Vscode-加丁"] = {
+				["特变电工-祈福"] = {
 					["Visible"] = true,
 				},
 			},

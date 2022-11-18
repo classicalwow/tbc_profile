@@ -535,9 +535,6 @@ AtlasLootClassicDB = {
 	},
 	["profiles"] = {
 		["特变电工 - 祈福"] = {
-			["minimap"] = {
-				["minimapPos"] = 227.4679819833677,
-			},
 			["GUI"] = {
 				["point"] = {
 					nil, -- [1]
@@ -553,6 +550,9 @@ AtlasLootClassicDB = {
 					9, -- [4]
 					0, -- [5]
 				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 227.4679819833677,
 			},
 		},
 		["沈南鹏 - 祈福"] = {
@@ -609,6 +609,9 @@ AtlasLootClassicDB = {
 			},
 		},
 		["新特能源 - 祈福"] = {
+			["minimap"] = {
+				["minimapPos"] = 215.2492147837577,
+			},
 			["GUI"] = {
 				["point"] = {
 					nil, -- [1]
@@ -624,9 +627,6 @@ AtlasLootClassicDB = {
 					9, -- [4]
 					0, -- [5]
 				},
-			},
-			["minimap"] = {
-				["minimapPos"] = 215.2492147837577,
 			},
 		},
 	},

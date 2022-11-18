@@ -20,6 +20,10 @@ bind CTRL-F3 NONE
 bind CTRL-1 NONE
 bind CTRL-2 NONE
 bind CTRL-3 NONE
+bind SHIFT-1 CLICK RXPItemFrameButton1:LeftButton
+bind SHIFT-2 CLICK RXPItemFrameButton2:LeftButton
+bind SHIFT-3 CLICK RXPItemFrameButton3:LeftButton
+bind SHIFT-4 CLICK RXPItemFrameButton4:LeftButton
 bind G MULTIACTIONBAR4BUTTON7
 bind F MULTIACTIONBAR4BUTTON8
 bind V MULTIACTIONBAR4BUTTON9

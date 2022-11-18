@@ -1,0 +1,64 @@
+
+RXPCData = {
+	["completedWaypoints"] = {
+	},
+	["currentStep"] = 1,
+	["currentGuideName"] = "",
+	["stepSkip"] = {
+	},
+	["flightPaths"] = {
+	},
+	["currentGuideGroup"] = "",
+}
+RXPCTrackingData = {
+	["profileKeys"] = {
+		["特變電工 - 伊弗斯"] = "特變電工 - 伊弗斯",
+	},
+	["profiles"] = {
+		["特變電工 - 伊弗斯"] = {
+			["levels"] = {
+				[70] = {
+					["groupExperience"] = 0,
+					["deaths"] = 0,
+					["mobs"] = {
+					},
+					["timestamp"] = {
+					},
+					["quests"] = {
+					},
+				},
+			},
+		},
+	},
+}
+RXPCComms = {
+	["profileKeys"] = {
+		["特變電工 - 伊弗斯"] = "特變電工 - 伊弗斯",
+	},
+	["profiles"] = {
+		["特變電工 - 伊弗斯"] = {
+			["players"] = {
+				["佰鳥朝鳳"] = {
+					["class"] = "DEATHKNIGHT",
+					["lastSeen"] = 45429.746,
+					["xpPercentage"] = 0,
+					["isRxp"] = true,
+					["timePlayed"] = 0,
+					["level"] = 80,
+				},
+			},
+		},
+	},
+}
+RXPCSettings = {
+	["profileKeys"] = {
+		["特變電工 - 伊弗斯"] = "特變電工 - 伊弗斯",
+	},
+	["profiles"] = {
+		["特變電工 - 伊弗斯"] = {
+			["frameHeight"] = 125.0000152587891,
+			["hardcore"] = false,
+			["xprate"] = 1,
+		},
+	},
+}

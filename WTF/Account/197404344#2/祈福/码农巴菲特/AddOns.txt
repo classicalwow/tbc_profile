@@ -199,3 +199,4 @@ RXPGuides: disabled
 EZQuest: enabled
 FFLU: enabled
 dbm-party-vanilla: enabled
+elvui_options: enabled

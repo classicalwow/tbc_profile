@@ -570,6 +570,9 @@ AtlasLootClassicDB = {
 		["查尔斯三世 - 祈福"] = {
 		},
 		["码农巴菲特 - 祈福"] = {
+			["minimap"] = {
+				["minimapPos"] = 273.4413374068691,
+			},
 			["GUI"] = {
 				["point"] = {
 					nil, -- [1]
@@ -585,9 +588,6 @@ AtlasLootClassicDB = {
 					6, -- [4]
 					0, -- [5]
 				},
-			},
-			["minimap"] = {
-				["minimapPos"] = 273.4413374068691,
 			},
 		},
 		["特工仓库 - 祈福"] = {
@@ -609,9 +609,6 @@ AtlasLootClassicDB = {
 			},
 		},
 		["新特能源 - 祈福"] = {
-			["minimap"] = {
-				["minimapPos"] = 215.2492147837577,
-			},
 			["GUI"] = {
 				["point"] = {
 					nil, -- [1]
@@ -627,6 +624,9 @@ AtlasLootClassicDB = {
 					9, -- [4]
 					0, -- [5]
 				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 215.2492147837577,
 			},
 		},
 	},

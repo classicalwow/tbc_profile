@@ -122,10 +122,10 @@ PawnCommon = {
 			["Color"] = "fff468",
 			["ClassID"] = 4,
 			["PerCharacterOptions"] = {
-				["Vscode-加丁"] = {
+				["特变电工-祈福"] = {
 					["Visible"] = true,
 				},
-				["特变电工-祈福"] = {
+				["Vscode-加丁"] = {
 					["Visible"] = true,
 				},
 			},
@@ -262,10 +262,10 @@ PawnCommon = {
 		},
 		["\"Classic\":ROGUE1"] = {
 			["PerCharacterOptions"] = {
-				["Vscode-加丁"] = {
+				["特变电工-祈福"] = {
 					["Visible"] = true,
 				},
-				["特变电工-祈福"] = {
+				["Vscode-加丁"] = {
 					["Visible"] = true,
 				},
 			},
@@ -434,10 +434,10 @@ PawnCommon = {
 		},
 		["\"Classic\":ROGUE2"] = {
 			["PerCharacterOptions"] = {
-				["Vscode-加丁"] = {
+				["特变电工-祈福"] = {
 					["Visible"] = true,
 				},
-				["特变电工-祈福"] = {
+				["Vscode-加丁"] = {
 					["Visible"] = true,
 				},
 			},
@@ -454,10 +454,10 @@ PawnCommon = {
 		},
 		["\"Classic\":ROGUE3"] = {
 			["PerCharacterOptions"] = {
-				["Vscode-加丁"] = {
+				["特变电工-祈福"] = {
 					["Visible"] = true,
 				},
-				["特变电工-祈福"] = {
+				["Vscode-加丁"] = {
 					["Visible"] = true,
 				},
 			},

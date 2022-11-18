@@ -202,3 +202,4 @@ FFLU: enabled
 altoholic_achievements: enabled
 ElvUI_UnitFramePlugin: disabled
 dbm-party-vanilla: enabled
+elvui_options: enabled
