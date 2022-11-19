@@ -30,9 +30,9 @@ VER 3 000000000100000E "援護" "132365"
 /cast 阻擾
 END
 VER 3 0000000001000015 "斬殺" "INV_MISC_QUESTIONMARK"
-#showtooltip 斬殺
-/cast 斬殺
-/cast !英勇打擊
+#showtooltip 斩杀
+/cast 斩杀
+/cast !英勇打击
 /startattack
 END
 VER 3 0000000001000017 "爆發" "INV_MISC_QUESTIONMARK"
@@ -60,7 +60,7 @@ VER 3 000000000100000B "盾反宏" "132361"
 END
 VER 3 0000000001000006 "致死" "132355"
 /startattack
-/cast 致死打擊
+/cast 致死打击
 END
 VER 3 0000000001000016 "英勇打擊" "INV_MISC_QUESTIONMARK"
 #showtooltip 英勇打擊
@@ -72,9 +72,9 @@ VER 3 0000000001000010 "雙手武器" "132090"
 /equip 裂地之鋒
 END
 VER 3 0000000001000014 "順劈斬" "INV_MISC_QUESTIONMARK"
-#showtooltip 順劈斬
-/cast 順劈斬
-/cast 勝利衝擊
+#showtooltip 顺劈斩
+/cast 顺劈斩
+/cast 乘胜追击
 /startattack
 END
 VER 3 0000000001000013 "龍錘" "132108"

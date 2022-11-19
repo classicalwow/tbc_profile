@@ -1,6 +1,6 @@
 
 BugGrabberDB = {
-	["session"] = 874,
+	["session"] = 880,
 	["lastSanitation"] = 3,
 	["errors"] = {
 		{
@@ -1202,21 +1202,13 @@ BugGrabberDB = {
 			["counter"] = 4,
 		}, -- [158]
 		{
-			["message"] = "Interface\\AddOns\\WIM\\Sources\\Options\\CoreOptions.lua:37: attempt to index global 'db' (a nil value)",
-			["time"] = "2022/09/28 20:32:11",
-			["locals"] = "frame = WIM3_OptionFrameFrame1 {\n ImportCustomObject = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:398\n welcome = WIM3_OptionFrameFrame2 {\n }\n CreateDropDownMenu = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:182\n CreateColorPicker = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:74\n CreateCheckButtonMenu = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:308\n lastObj = WIM3_OptionFrameFrame2 {\n }\n nextOffsetX = 0\n CreateButton = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:64\n CreateCheckButton = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:220\n nextOffSetY = 0\n CreateSlider = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:127\n 0 = <userdata>\n CreateSection = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:353\n CreateText = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:340\n SetFullSize = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:59\n CreateFramedPanel = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:392\n}\n(*temporary) = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:220\n(*temporary) = WIM3_OptionFrameFrame2CheckButton2 {\n 0 = <userdata>\n Enable = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:257\n text = WIM3_OptionFrameFrame2CheckButton2Text {\n }\n CreateCheckButton = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:220\n _Enable = <function> defined =[C]:-1\n UpdateChildren = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:281\n _Disable = <function> defined =[C]:-1\n isCheckButton = true\n children = <table> {\n }\n Disable = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:269\n}\n(*temporary) = \"小地图按钮自由移动\"\n(*temporary) = nil\n(*temporary) = <table> {\n enabled = false\n OnDisable = <function> defined @Interface\\AddOns\\WIM\\Modules\\MinimapIcon.lua:400\n RegisterWidget = <function> defined @Interface\\AddOns\\WIM\\WIM.lua:311\n OnEnable = <function> defined @Interface\\AddOns\\WIM\\Modules\\MinimapIcon.lua:382\n Enable = <function> defined @Interface\\AddOns\\WIM\\WIM.lua:307\n OnDisableWIM = <function> defined @Interface\\AddOns\\WIM\\Modules\\MinimapIcon.lua:371\n canDisable = true\n OnEnableWIM = <function> defined @Interface\\AddOns\\WIM\\Modules\\MinimapIcon.lua:360\n dPrint = <function> defined @Interface\\AddOns\\WIM\\WIM.lua:309\n enableByDefault = true\n title = \"MinimapIcon\"\n RegisterEvent = <function> defined @Interface\\AddOns\\WIM\\WIM.lua:306\n db_defaults = <table> {\n }\n resources = <table> {\n }\n hasWidget = false\n Disable = <function> defined @Interface\\AddOns\\WIM\\WIM.lua:308\n}\n(*temporary) = \"enabled\"\n(*temporary) = nil\n(*temporary) = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\CoreOptions.lua:36\n(*temporary) = WIM3_OptionFrameFrame2CheckButton2 {\n 0 = <userdata>\n Enable = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:257\n text = WIM3_OptionFrameFrame2CheckButton2Text {\n }\n CreateCheckButton = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:220\n _Enable = <function> defined =[C]:-1\n UpdateChildren = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:281\n _Disable = <function> defined =[C]:-1\n isCheckButton = true\n children = <table> {\n }\n Disable = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:269\n}\n(*temporary) = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:46\n(*temporary) = WIM3_OptionFrameFrame2CheckButton2 {\n 0 = <userdata>\n Enable = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:257\n text = WIM3_OptionFrameFrame2CheckButton2Text {\n }\n CreateCheckButton = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:220\n _Enable = <function> defined =[C]:-1\n UpdateChi",
-			["stack"] = "[string \"@Interface\\AddOns\\WIM\\Sources\\Options\\CoreOptions.lua\"]:37: in function `frame'\n[string \"@Interface\\AddOns\\WIM\\Sources\\Options\\Options-设置选项.lua\"]:190: in function <Interface\\AddOns\\WIM\\Sources\\Options\\Options.lua:184>\n[string \"=[C]\"]: in function `Click'\n[string \"@Interface\\AddOns\\WIM\\Sources\\Options\\Options-设置选项.lua\"]:281: in function `UpdateSubCategories'\n[string \"@Interface\\AddOns\\WIM\\Sources\\Options\\Options-设置选项.lua\"]:104: in function <Interface\\AddOns\\WIM\\Sources\\Options\\Options.lua:104>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\AddOns\\WIM\\Sources\\Options\\Options-设置选项.lua\"]:327: in function `ShowOptions'\n[string \"@Interface\\AddOns\\AddOnSkins\\Skins\\AddOns\\WIM-3.9.6.lua\"]:11: in function <Interface\\AddOns\\AddOnSkins\\Skins\\AddOns\\WIM.lua:8>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AddOnSkins\\Core\\Core.lua\"]:217: in function `CallSkin'\n[string \"@Interface\\AddOns\\AddOnSkins\\Core\\Core.lua\"]:311: in function `?'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:119: in function <...ler\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:29: in function <...ler\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceEvent-3.0\\AceEvent-3.0-4.lua\"]:120: in function <...seAddonController\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>",
-			["session"] = 868,
-			["counter"] = 2,
-		}, -- [159]
-		{
 			["message"] = "Interface_Wrath\\FrameXML\\QuestLogFrame.lua:210: attempt to index local 'questLogTitle' (a nil value)",
 			["time"] = "2022/09/28 20:53:57",
 			["locals"] = "self = nil\nnumEntries = 14\nnumQuests = 8\nquestLogSelection = 2\nscrollOffset = 0\nbuttons = <table> {\n 1 = QuestLogListScrollFrameButton1 {\n }\n 2 = QuestLogListScrollFrameButton2 {\n }\n 3 = QuestLogListScrollFrameButton3 {\n }\n 4 = QuestLogListScrollFrameButton4 {\n }\n 5 = QuestLogListScrollFrameButton5 {\n }\n 6 = QuestLogListScrollFrameButton6 {\n }\n 7 = QuestLogListScrollFrameButton7 {\n }\n 8 = QuestLogListScrollFrameButton8 {\n }\n 9 = QuestLogListScrollFrameButton9 {\n }\n 10 = QuestLogListScrollFrameButton10 {\n }\n 11 = QuestLogListScrollFrameButton11 {\n }\n 12 = QuestLogListScrollFrameButton12 {\n }\n 13 = QuestLogListScrollFrameButton13 {\n }\n 14 = QuestLogListScrollFrameButton14 {\n }\n 15 = QuestLogListScrollFrameButton15 {\n }\n 16 = QuestLogListScrollFrameButton16 {\n }\n 17 = QuestLogListScrollFrameButton17 {\n }\n 18 = QuestLogListScrollFrameButton18 {\n }\n 19 = QuestLogListScrollFrameButton19 {\n }\n 20 = QuestLogListScrollFrameButton20 {\n }\n 21 = QuestLogListScrollFrameButton21 {\n }\n 22 = QuestLogListScrollFrameButton22 {\n }\n}\nbuttonHeight = 16.000027\ndisplayedHeight = 352.000587\nquestIndex = 23\nquestLogTitle = nil\nquestTitleTag = QuestLogListScrollFrameButton22Tag {\n 0 = <userdata>\n}\nquestNumGroupMates = QuestLogListScrollFrameButton22GroupMates {\n 0 = <userdata>\n}\nquestNormalText = QuestLogListScrollFrameButton22NormalText {\n 0 = <userdata>\n}\nquestHighlight = nil\nquestCheck = QuestLogListScrollFrameButton22Check {\n 0 = <userdata>\n}\nquestLogTitleText = \"勇士的誓约\"\nlevel = 70\nquestTag = nil\nisHeader = false\nisCollapsed = false\nisComplete = nil\ncolor = <table> {\n b = 0\n font = \"QuestDifficulty_Difficult\"\n g = 1\n r = 1\n}\nnumPartyMembers = nil\npartyMembersOnQuest = 0\ntempWidth = 191.803291\ntextWidth = 165.537277\n(for index) = 23\n(for limit) = 40\n(for step) = 1\ni = 23\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = nil\n(*temporary) = <userdata>\n(*temporary) = <userdata>\n(*temporary) = QuestLogListScrollFrameButton14Check {\n 0 = <userdata>\n}\n(*temporary) = 295.000041\n(*temporary) = 86.265945\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = QuestLogListScrollFrameButton14NormalText {\n 0 = <userdata>\n}\n(*temporary) = 86.265945\n(*temporary) = <userdata>\n(*temporary) = 10466\n(*temporary) = false\n(*temporary) = false\n(*temporary) = false\n(*temporary) = false\n(*temporary) = false\n(*temporary) = \"attempt to index local 'questLogTitle' (a nil value)\"\n_QuestLog_HighlightQuest = <function> defined @Interface_Wrath\\FrameXML\\QuestLogFrame.lua:17\n",
 			["stack"] = "[string \"@Interface_Wrath\\FrameXML\\QuestLogFrame.lua\"]:210: in function <Interface_Wrath\\FrameXML\\QuestLogFrame.lua:167>\n[string \"=[C]\"]: in function `QuestLog_Update'\n[string \"@Interface_Wrath\\FrameXML\\QuestLogFrame.lua\"]:145: in function <Interface_Wrath\\FrameXML\\QuestLogFrame.lua:135>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface_Wrath\\FrameXML\\UIParent.lua\"]:2214: in function `SetUIPanel'\n[string \"@Interface_Wrath\\FrameXML\\UIParent.lua\"]:2114: in function `ShowUIPanel'\n[string \"@Interface_Wrath\\FrameXML\\UIParent.lua\"]:1927: in function <Interface_Wrath\\FrameXML\\UIParent.lua:1923>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface_Wrath\\FrameXML\\UIParent.lua\"]:2718: in function `ShowUIPanel'\n[string \"@Interface_Wrath\\FrameXML\\QuestLogFrame.lua\"]:48: in function `ToggleQuestLog'\n[string \"TOGGLEQUESTLOG\"]:1: in function <[string \"TOGGLEQUESTLOG\"]:1>",
 			["session"] = 868,
 			["counter"] = 2,
-		}, -- [160]
+		}, -- [159]
 		{
 			["message"] = "...ace\\AddOns\\WideQuestLogLevels\\WideQuestLogLevels.lua:22: attempt to index local 'questCheck' (a nil value)",
 			["time"] = "2022/09/28 20:53:57",
@@ -1224,28 +1216,28 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\WideQuestLogLevels\\WideQuestLogLevels.lua\"]:22: in function <...ace\\AddOns\\WideQuestLogLevels\\WideQuestLogLevels.lua:1>\n[string \"=[C]\"]: ?",
 			["session"] = 868,
 			["counter"] = 55,
-		}, -- [161]
+		}, -- [160]
 		{
 			["message"] = "...ace\\AddOns\\ElvUI\\Wrath\\Modules\\Skins\\Battlefield.lua:30: attempt to index local 'WintergraspTimer' (a nil value)",
 			["time"] = "2022/09/25 20:05:45",
 			["stack"] = "[string \"@Interface\\AddOns\\ElvUI\\Wrath\\Modules\\Skins\\Battlefield.lua\"]:30: in function <...ace\\AddOns\\ElvUI\\Wrath\\Modules\\Skins\\Battlefield.lua:9>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\ElvUI\\Core\\Modules\\Skins\\Skins.lua\"]:1672: in function <Interface\\AddOns\\ElvUI\\Core\\Modules\\Skins\\Skins.lua:1667>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\ElvUI\\Core\\General\\Core.lua\"]:1786: in function `CallLoadFunc'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\General\\Core.lua\"]:1801: in function `CallLoadedModule'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\General\\Core.lua\"]:1827: in function `InitializeModules'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\General\\Core.lua\"]:1936: in function `Initialize'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\init.lua\"]:220: in function <Interface\\AddOns\\ElvUI\\Core\\init.lua:219>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:70: in function <...seAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:630: in function <...seAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>",
 			["session"] = 869,
 			["counter"] = 7,
-		}, -- [162]
+		}, -- [161]
 		{
 			["message"] = "Interface\\AddOns\\WideQuestLog\\WideQuestLog.lua:27: attempt to index local 'questLogTitle' (a nil value)",
 			["time"] = "2022/09/18 19:44:35",
 			["stack"] = "[string \"@Interface\\AddOns\\WideQuestLog\\WideQuestLog.lua\"]:27: in function <Interface\\AddOns\\WideQuestLog\\WideQuestLog.lua:24>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\ElvUI\\Core\\Modules\\Skins\\Skins.lua\"]:1665: in function <Interface\\AddOns\\ElvUI\\Core\\Modules\\Skins\\Skins.lua:1660>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\ElvUI\\Core\\General\\Core.lua\"]:1766: in function `CallLoadFunc'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\General\\Core.lua\"]:1781: in function `CallLoadedModule'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\General\\Core.lua\"]:1807: in function `InitializeModules'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\General\\Core.lua\"]:1916: in function `Initialize'\n[string \"@Interface\\AddOns\\ElvUI\\Core\\init.lua\"]:225: in function <Interface\\AddOns\\ElvUI\\Core\\init.lua:224>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:70: in function <...seAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:630: in function <...seAddonController\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>",
 			["session"] = 869,
 			["counter"] = 13,
-		}, -- [163]
+		}, -- [162]
 		{
 			["message"] = "Interface\\AddOns\\weizPVP\\Modules\\CombatLog.lua:126: attempt to call field 'GetLevelFromSpellId' (a nil value)",
 			["time"] = "2022/09/18 19:44:40",
 			["stack"] = "[string \"@Interface\\AddOns\\weizPVP\\Modules\\CombatLog.lua\"]:126: in function <Interface\\AddOns\\weizPVP\\Modules\\CombatLog.lua:119>\n[string \"@Interface\\AddOns\\weizPVP\\Modules\\CombatLog.lua\"]:186: in function <Interface\\AddOns\\weizPVP\\Modules\\CombatLog.lua:180>\n[string \"@Interface\\AddOns\\weizPVP\\Modules\\CombatLog.lua\"]:229: in function <Interface\\AddOns\\weizPVP\\Modules\\CombatLog.lua:228>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:29: in function <...ler\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceEvent-3.0\\AceEvent-3.0-4.lua\"]:120: in function <...seAddonController\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>",
 			["session"] = 869,
 			["counter"] = 42,
-		}, -- [164]
+		}, -- [163]
 		{
 			["message"] = "Interface\\AddOns\\weizPVP\\Modules\\Events.lua:106: attempt to call upvalue 'C_PvP_IsWarModeDesired' (a nil value)",
 			["time"] = "2022/09/18 19:44:42",
@@ -1253,7 +1245,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\weizPVP\\Modules\\Events.lua\"]:106: in function `WarModeChanged'\n[string \"@Interface\\AddOns\\weizPVP\\Modules\\Zones.lua\"]:94: in function <Interface\\AddOns\\weizPVP\\Modules\\Zones.lua:56>",
 			["session"] = 869,
 			["counter"] = 22,
-		}, -- [165]
+		}, -- [164]
 		{
 			["message"] = "Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua:3518: attempt to index local 'factionHeader' (a nil value)",
 			["time"] = "2022/09/18 19:44:34",
@@ -1261,22 +1253,14 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua\"]:3518: in function `OriginalRepOrder'\n[string \"@Interface\\AddOns\\RepHelper_Classic\\RepHelper.lua\"]:1447: in function `ReputationFrame_Update'\n[string \"*:OnEvent\"]:4: in function <[string \"*:OnEvent\"]:1>",
 			["session"] = 869,
 			["counter"] = 45,
-		}, -- [166]
+		}, -- [165]
 		{
 			["message"] = "Interface\\AddOns\\weizPVP\\Modules\\CombatLog.lua:191: attempt to call field 'GetLevelFromSpellId' (a nil value)",
 			["time"] = "2022/09/18 19:44:40",
 			["stack"] = "[string \"@Interface\\AddOns\\weizPVP\\Modules\\CombatLog.lua\"]:191: in function <Interface\\AddOns\\weizPVP\\Modules\\CombatLog.lua:180>\n[string \"@Interface\\AddOns\\weizPVP\\Modules\\CombatLog.lua\"]:229: in function <Interface\\AddOns\\weizPVP\\Modules\\CombatLog.lua:228>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:29: in function <...ler\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceEvent-3.0\\AceEvent-3.0-4.lua\"]:120: in function <...seAddonController\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>",
 			["session"] = 869,
 			["counter"] = 240,
-		}, -- [167]
-		{
-			["message"] = "Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua:8: attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)",
-			["time"] = "2022/09/18 19:44:22",
-			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:67: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:53>",
-			["session"] = 874,
-			["counter"] = 19,
-		}, -- [168]
+		}, -- [166]
 		{
 			["message"] = "Invalid quest item in SetQuestLogItem(\"type\", index [, questID])",
 			["time"] = "2022/11/18 01:13:17",
@@ -1284,46 +1268,86 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Service\\ItemTooltipClasses\\Wrapper.lua\"]:107: in function <...Master\\LibTSM\\Service\\ItemTooltipClasses\\Wrapper.lua:105>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Bistooltip\\lib\\LibExtraTip\\LibExtraTip.lua\"]:408: in function <...ce\\AddOns\\Bistooltip\\lib\\LibExtraTip\\LibExtraTip.lua:402>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetQuestLogItem'\n[string \"@Interface_Wrath\\FrameXML\\QuestInfo.lua\"]:1017: in function <Interface_Wrath\\FrameXML\\QuestInfo.lua:1013>",
 			["session"] = 874,
 			["counter"] = 2,
-		}, -- [169]
+		}, -- [167]
 		{
-			["message"] = "Interface\\AddOns\\Puggle\\Puggle-216.lua:1335: script ran too long",
-			["time"] = "2022/11/18 01:35:29",
-			["locals"] = "data = \"小飛象\"\n(*temporary) = \"111001011011000010001111111010011010001110011011111010001011000110100001\"\n(*temporary) = \"小飛象\"\n(*temporary) = \".\"\n(*temporary) = <function> defined @Interface\\AddOns\\Puggle\\Puggle.lua:1331\n(*temporary) = \"111001011011000010001111111010011010001110011011111010001011000110100001\"\n(*temporary) = \"script ran too long\"\nb = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1335: in function `Puggle_enc'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:630: in function `Puggle_UpdateCurrentGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:526: in function `Puggle_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
-			["session"] = 874,
+			["message"] = "Interface\\AddOns\\WIM\\Sources\\Options\\CoreOptions.lua:37: attempt to index global 'db' (a nil value)",
+			["time"] = "2022/09/28 20:32:11",
+			["locals"] = "frame = WIM3_OptionFrameFrame1 {\n ImportCustomObject = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:398\n welcome = WIM3_OptionFrameFrame2 {\n }\n CreateDropDownMenu = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:182\n CreateColorPicker = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:74\n CreateCheckButtonMenu = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:308\n lastObj = WIM3_OptionFrameFrame2 {\n }\n nextOffsetX = 0\n CreateButton = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:64\n CreateCheckButton = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:220\n nextOffSetY = 0\n CreateSlider = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:127\n 0 = <userdata>\n CreateSection = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:353\n CreateText = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:340\n SetFullSize = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:59\n CreateFramedPanel = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:392\n}\n(*temporary) = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:220\n(*temporary) = WIM3_OptionFrameFrame2CheckButton2 {\n 0 = <userdata>\n Enable = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:257\n text = WIM3_OptionFrameFrame2CheckButton2Text {\n }\n CreateCheckButton = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:220\n _Enable = <function> defined =[C]:-1\n UpdateChildren = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:281\n _Disable = <function> defined =[C]:-1\n isCheckButton = true\n children = <table> {\n }\n Disable = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:269\n}\n(*temporary) = \"小地图按钮自由移动\"\n(*temporary) = nil\n(*temporary) = <table> {\n enabled = false\n OnDisable = <function> defined @Interface\\AddOns\\WIM\\Modules\\MinimapIcon.lua:400\n RegisterWidget = <function> defined @Interface\\AddOns\\WIM\\WIM.lua:311\n OnEnable = <function> defined @Interface\\AddOns\\WIM\\Modules\\MinimapIcon.lua:382\n Enable = <function> defined @Interface\\AddOns\\WIM\\WIM.lua:307\n OnDisableWIM = <function> defined @Interface\\AddOns\\WIM\\Modules\\MinimapIcon.lua:371\n canDisable = true\n OnEnableWIM = <function> defined @Interface\\AddOns\\WIM\\Modules\\MinimapIcon.lua:360\n dPrint = <function> defined @Interface\\AddOns\\WIM\\WIM.lua:309\n enableByDefault = true\n title = \"MinimapIcon\"\n RegisterEvent = <function> defined @Interface\\AddOns\\WIM\\WIM.lua:306\n db_defaults = <table> {\n }\n resources = <table> {\n }\n hasWidget = false\n Disable = <function> defined @Interface\\AddOns\\WIM\\WIM.lua:308\n}\n(*temporary) = \"enabled\"\n(*temporary) = nil\n(*temporary) = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\CoreOptions.lua:36\n(*temporary) = WIM3_OptionFrameFrame2CheckButton2 {\n 0 = <userdata>\n Enable = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:257\n text = WIM3_OptionFrameFrame2CheckButton2Text {\n }\n CreateCheckButton = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:220\n _Enable = <function> defined =[C]:-1\n UpdateChildren = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:281\n _Disable = <function> defined =[C]:-1\n isCheckButton = true\n children = <table> {\n }\n Disable = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:269\n}\n(*temporary) = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:46\n(*temporary) = WIM3_OptionFrameFrame2CheckButton2 {\n 0 = <userdata>\n Enable = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:257\n text = WIM3_OptionFrameFrame2CheckButton2Text {\n }\n CreateCheckButton = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:220\n _Enable = <function> defined =[C]:-1\n UpdateChi",
+			["stack"] = "[string \"@Interface\\AddOns\\WIM\\Sources\\Options\\CoreOptions.lua\"]:37: in function `frame'\n[string \"@Interface\\AddOns\\WIM\\Sources\\Options\\Options-设置选项.lua\"]:190: in function <Interface\\AddOns\\WIM\\Sources\\Options\\Options.lua:184>\n[string \"=[C]\"]: in function `Click'\n[string \"@Interface\\AddOns\\WIM\\Sources\\Options\\Options-设置选项.lua\"]:281: in function `UpdateSubCategories'\n[string \"@Interface\\AddOns\\WIM\\Sources\\Options\\Options-设置选项.lua\"]:104: in function <Interface\\AddOns\\WIM\\Sources\\Options\\Options.lua:104>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\AddOns\\WIM\\Sources\\Options\\Options-设置选项.lua\"]:327: in function `ShowOptions'\n[string \"@Interface\\AddOns\\AddOnSkins\\Skins\\AddOns\\WIM-3.9.6.lua\"]:11: in function <Interface\\AddOns\\AddOnSkins\\Skins\\AddOns\\WIM.lua:8>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AddOnSkins\\Core\\Core.lua\"]:217: in function `CallSkin'\n[string \"@Interface\\AddOns\\AddOnSkins\\Core\\Core.lua\"]:311: in function `?'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:119: in function <...ler\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:29: in function <...ler\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceEvent-3.0\\AceEvent-3.0-4.lua\"]:120: in function <...seAddonController\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>",
+			["session"] = 875,
+			["counter"] = 3,
+		}, -- [168]
+		{
+			["message"] = "Interface\\AddOns\\ItemRack\\ItemRack-3.73.nil.lua:1962: Usage: SaveBindings(1||2)",
+			["time"] = "2022/11/18 10:30:27",
+			["locals"] = "(*temporary) = 0\n",
+			["stack"] = "[string \"=[C]\"]: in function `SaveBindings'\n[string \"@Interface\\AddOns\\ItemRack\\ItemRack-3.73.nil.lua\"]:1962: in function `SetSetBindings'\n[string \"@Interface\\AddOns\\ItemRack\\ItemRack-3.73.nil.lua\"]:243: in function `?'\n[string \"@Interface\\AddOns\\ItemRack\\ItemRack-3.73.nil.lua\"]:208: in function `OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
+			["session"] = 875,
 			["counter"] = 1,
-		}, -- [170]
-		{
-			["message"] = "Interface\\AddOns\\Puggle\\Puggle-216.lua:1340: script ran too long",
-			["time"] = "2022/11/18 01:32:49",
-			["locals"] = "data = \"未知目标\"\n(*temporary) = \"5pyq55+l55uu5qCH\"\n(*temporary) = \"1110011010011100101010101110011110011111101001011110011110011011101011101110011010100000100001110000\"\n(*temporary) = \"%d%d%d?%d?%d?%d?\"\n(*temporary) = <function> defined @Interface\\AddOns\\Puggle\\Puggle.lua:1335\n(*temporary) = \"5pyq55+l55uu5qCH\"\n(*temporary) = \"script ran too long\"\nb = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1340: in function `Puggle_enc'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:630: in function `Puggle_UpdateCurrentGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:526: in function `Puggle_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
-			["session"] = 874,
-			["counter"] = 4,
-		}, -- [171]
-		{
-			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
-			["time"] = "2021/07/01 16:18:25",
-			["locals"] = "GearScore = 2320\nItemLevel = 105\nRed = 0.081600\nBlue = 0.320000\nGreen = 0.840000\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 5\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
-			["session"] = 874,
-			["counter"] = 12010,
-		}, -- [172]
+		}, -- [169]
 		{
 			["message"] = "Interface\\AddOns\\BlizzMove_Debug\\BlizzMoveDebug.lua:86: Action[FrameMeasurement] failed because[Can't measure restricted regions]: attempted from: ElvNP_NamePlate1RaisedElementQuestIcons:GetPoint().",
 			["time"] = "2022/11/18 01:36:47",
 			["locals"] = "(*temporary) = ElvNP_NamePlate1RaisedElementQuestIcons {\n 0 = <userdata>\n ForceUpdate = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Modules\\Nameplates\\Plugins\\QuestIcons.lua:252\n Default = <unnamed> {\n }\n __owner = ElvNP_NamePlate1 {\n }\n PixelSnapDisabled = true\n Item = <unnamed> {\n }\n Skull = <unnamed> {\n }\n Chat = <unnamed> {\n }\n}\n(*temporary) = 1\n",
 			["stack"] = "[string \"=[C]\"]: in function `GetPoint'\n[string \"@Interface\\AddOns\\BlizzMove_Debug\\BlizzMoveDebug.lua\"]:86: in function `BuildAnchorTree'\n[string \"@Interface\\AddOns\\BlizzMove_Debug\\BlizzMoveDebug.lua\"]:47: in function `FindBadAnchorConnections'\n[string \"@Interface\\AddOns\\BlizzMove\\BlizzMove-v3.4.11.lua\"]:400: in function <Interface\\AddOns\\BlizzMove\\BlizzMove.lua:383>\n[string \"@Interface\\AddOns\\BlizzMove\\BlizzMove-v3.4.11.lua\"]:647: in function <Interface\\AddOns\\BlizzMove\\BlizzMove.lua:630>\n[string \"=(tail call)\"]: ?",
-			["session"] = 874,
+			["session"] = 876,
+			["counter"] = 4,
+		}, -- [170]
+		{
+			["message"] = "Interface\\AddOns\\Puggle\\Puggle-216.lua:1335: script ran too long",
+			["time"] = "2022/11/18 01:35:29",
+			["locals"] = "data = \"小飛象\"\n(*temporary) = \"111001011011000010001111111010011010001110011011111010001011000110100001\"\n(*temporary) = \"小飛象\"\n(*temporary) = \".\"\n(*temporary) = <function> defined @Interface\\AddOns\\Puggle\\Puggle.lua:1331\n(*temporary) = \"111001011011000010001111111010011010001110011011111010001011000110100001\"\n(*temporary) = \"script ran too long\"\nb = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1335: in function `Puggle_enc'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:630: in function `Puggle_UpdateCurrentGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:526: in function `Puggle_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
+			["session"] = 876,
 			["counter"] = 2,
+		}, -- [171]
+		{
+			["message"] = "...dOns\\TradeSkillMaster\\Core\\Service\\Vendoring\\Buy.lua:81: attempt to compare number with nil",
+			["time"] = "2022/11/18 16:08:57",
+			["locals"] = "index = 22\nmaxCanAfford = Infinite\n_ = nil\n_ = nil\nprice = nil\nstackSize = nil\n_ = nil\n_ = nil\n_ = nil\nextendedCost = false\nnumAltCurrencies = 0\n(*temporary) = 22\n(*temporary) = 0\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to compare number with nil\"\nItemString = <table> {\n IsItem = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\ItemString.lua:260\n IsLevel = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\ItemString.lua:267\n ToLevel = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\ItemString.lua:162\n GetUnknown = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\ItemString.lua:59\n GetPetCage = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\ItemString.lua:71\n GetItemLevel = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\ItemString.lua:211\n HasNonBase = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\ItemString.lua:155\n ParseLevel = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\ItemString.lua:192\n GetBaseFromItemKey = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\ItemString.lua:144\n GetBaseMap = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\ItemString.lua:77\n GetStatModifiers = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\ItemString.lua:226\n ToWow = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\ItemString.lua:236\n IsPet = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\ItemString.lua:274\n GetLevelMap = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\ItemString.lua:83\n GetBase = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\ItemString.lua:131\n Filter = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\ItemString.lua:100\n ToId = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\ItemString.lua:110\n GetBaseFast = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\ItemString.lua:121\n GetPlaceholder = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\ItemString.lua:65\n Get = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\ItemString.lua:90\n}\nInventory = <table> {\n GetMailQuantity = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Service\\Inventory.lua:65\n GetReagentBankQuantity = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Service\\Inventory.lua:57\n RegisterCallback = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Service\\Inventory.lua:45\n GetTotalQuantity = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Service\\Inventory.lua:118\n GetBankQuantity = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Service\\Inventory.lua:53\n GetGuildTotal = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Service\\Inventory.lua:104\n GetPlayerTotals = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Service\\Inventory.lua:84\n GetAuctionQuantity = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Service\\Inventory.lua:61\n GetBagQuantity = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Service\\Inventory.lua:49\n GetGuildQuantity = <function> defined @Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Service\\Inventory.lua:72\n}\n",
+			["stack"] = "[string \"@Interface\\AddOns\\TradeSkillMaster\\Core\\Service\\Vendoring\\Buy.lua\"]:81: in function `GetMaxCanAfford'\n[string \"@Interface\\AddOns\\TradeSkillMaster\\Core\\Service\\Vendoring\\Buy.lua\"]:218: in function `BuyIndex'\n[string \"@Interface\\AddOns\\TradeSkillMaster\\Core\\Service\\Vendoring\\Buy.lua\"]:116: in function `BuyItemIndex'\n[string \"@Interface\\AddOns\\TradeSkillMaster\\Core\\Service\\Vendoring\\Buy.lua\"]:284: in function `pendingCallback'\n[string \"@Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\Delay.lua\"]:171: in function <...erface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\Delay.lua:136>",
+			["session"] = 876,
+			["counter"] = 1,
+		}, -- [172]
+		{
+			["message"] = "Interface\\AddOns\\BlizzMove_Debug\\BlizzMoveDebug.lua:86: Action[FrameMeasurement] failed because[Can't measure restricted regions]: attempted from: <unnamed>:GetPoint().",
+			["time"] = "2022/11/18 18:46:37",
+			["locals"] = "(*temporary) = <unnamed> {\n 0 = <userdata>\n}\n(*temporary) = 1\n",
+			["stack"] = "[string \"=[C]\"]: in function `GetPoint'\n[string \"@Interface\\AddOns\\BlizzMove_Debug\\BlizzMoveDebug.lua\"]:86: in function `BuildAnchorTree'\n[string \"@Interface\\AddOns\\BlizzMove_Debug\\BlizzMoveDebug.lua\"]:47: in function `FindBadAnchorConnections'\n[string \"@Interface\\AddOns\\BlizzMove\\BlizzMove-v3.4.11.lua\"]:400: in function <Interface\\AddOns\\BlizzMove\\BlizzMove.lua:383>\n[string \"@Interface\\AddOns\\BlizzMove\\BlizzMove-v3.4.11.lua\"]:647: in function <Interface\\AddOns\\BlizzMove\\BlizzMove.lua:630>\n[string \"=(tail call)\"]: ?",
+			["session"] = 876,
+			["counter"] = 1,
 		}, -- [173]
 		{
 			["message"] = "Interface\\AddOns\\Puggle\\Puggle-216.lua:1346: bad argument #1 to 'gsub' (string expected, got nil)",
 			["time"] = "2021/10/01 10:34:12",
 			["locals"] = "(*temporary) = nil\n(*temporary) = \"[^ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=]\"\n(*temporary) = \"\"\n(*temporary) = \"string expected, got nil\"\n",
 			["stack"] = "[string \"=[C]\"]: in function `gsub'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1346: in function `Puggle_dec'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:974: in function `Puggle_displayPlayers'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1367: in function `Puggle_SetStarSource'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>",
-			["session"] = 874,
-			["counter"] = 70,
+			["session"] = 876,
+			["counter"] = 218,
 		}, -- [174]
+		{
+			["message"] = "Interface\\AddOns\\Puggle\\Puggle-216.lua:1340: script ran too long",
+			["time"] = "2022/11/18 01:32:49",
+			["locals"] = "data = \"未知目标\"\n(*temporary) = \"5pyq55+l55uu5qCH\"\n(*temporary) = \"1110011010011100101010101110011110011111101001011110011110011011101011101110011010100000100001110000\"\n(*temporary) = \"%d%d%d?%d?%d?%d?\"\n(*temporary) = <function> defined @Interface\\AddOns\\Puggle\\Puggle.lua:1335\n(*temporary) = \"5pyq55+l55uu5qCH\"\n(*temporary) = \"script ran too long\"\nb = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1340: in function `Puggle_enc'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:630: in function `Puggle_UpdateCurrentGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:526: in function `Puggle_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
+			["session"] = 876,
+			["counter"] = 9,
+		}, -- [175]
+		{
+			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
+			["time"] = "2021/07/01 16:18:25",
+			["locals"] = "GearScore = 2320\nItemLevel = 105\nRed = 0.081600\nBlue = 0.320000\nGreen = 0.840000\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 5\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
+			["session"] = 877,
+			["counter"] = 12084,
+		}, -- [176]
+		{
+			["message"] = "Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua:8: attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)",
+			["time"] = "2022/09/18 19:44:22",
+			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:67: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:53>",
+			["session"] = 880,
+			["counter"] = 25,
+		}, -- [177]
 	},
 }

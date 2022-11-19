@@ -1,5 +1,5 @@
 VER 3 0000000001000001 "target" "132090"
-/target 不服從
+/target 击碎
 /script SetRaidTarget("target",8)
 END
 VER 3 0000000001000018 "力量卷軸" "INV_MISC_QUESTIONMARK"
@@ -60,7 +60,7 @@ VER 3 0000000001000011 "盾反宏" "132361"
 END
 VER 3 0000000001000006 "致死" "132355"
 /startattack
-/cast 致死打擊
+/cast 致死打击
 END
 VER 3 0000000001000016 "英勇打擊" "INV_MISC_QUESTIONMARK"
 #showtooltip 英勇打擊

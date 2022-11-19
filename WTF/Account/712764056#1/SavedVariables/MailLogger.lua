@@ -201,5 +201,82 @@ MailLoggerDB = {
 			["ReceiveItems"] = {
 			},
 		}, -- [10]
+		{
+			["PlayerName"] = "特變電工",
+			["TargetName"] = "部落拍卖行",
+			["Reason"] = 10,
+			["Date"] = "2022-11-18",
+			["ReceiveMoney"] = 2451830,
+			["Time"] = "18:49:10",
+			["GiveMoney"] = 0,
+			["Location"] = "奥格瑞玛",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:43421::::::::72:::::::::|h[致死打击雕文]|h|r",
+					["Name"] = "致死打击雕文",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:45790::::::::72:::::::::|h[利刃风暴雕文]|h|r",
+					["Name"] = "利刃风暴雕文",
+				}, -- [2]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:43423::::::::72:::::::::|h[撕裂雕文]|h|r",
+					["Name"] = "撕裂雕文",
+				}, -- [3]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:43397::::::::72:::::::::|h[冲锋雕文]|h|r",
+					["Name"] = "冲锋雕文",
+				}, -- [4]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:49084::::::::72:::::::::|h[命令雕文]|h|r",
+					["Name"] = "命令雕文",
+				}, -- [5]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:43396::::::::72:::::::::|h[血性狂暴雕文]|h|r",
+					["Name"] = "血性狂暴雕文",
+				}, -- [6]
+			},
+		}, -- [11]
+		{
+			["Date"] = "2022-11-19",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "龙骨荒野",
+			["TargetName"] = "花恰娜嚕",
+			["Time"] = "02:01:51",
+			["ReceiveItems"] = {
+			},
+		}, -- [12]
+		{
+			["TargetName"] = "花恰娜嚕",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2022-11-19",
+			["ReceiveMoney"] = 0,
+			["Time"] = "02:01:51",
+			["GiveMoney"] = 0,
+			["Location"] = "龙骨荒野",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 20,
+					["ItemLink"] = "|cffffffff|Hitem:43518::::::::74:::::::::|h[魔法馅饼]|h|r",
+					["Name"] = "魔法馅饼",
+				}, -- [1]
+			},
+		}, -- [13]
 	},
 }

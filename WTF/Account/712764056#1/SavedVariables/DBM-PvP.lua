@@ -35,7 +35,6 @@ DBMPvP_AllSavedVars = {
 			{
 				["TimerFlagCVoice"] = 0,
 				["ShowRelativeGameTime"] = true,
-				["ShowBasesToWin"] = false,
 				["TimerFlagTColor"] = 0,
 				["HideBossEmoteFrame"] = false,
 				["TimerFlag"] = true,
