@@ -72,15 +72,15 @@ MailLoggerDB = {
 			},
 		}, -- [1]
 		{
-			["Date"] = "2022-09-18",
 			["PlayerName"] = "特變電工",
+			["Date"] = "2022-09-18",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "21:45:58",
 			["GiveMoney"] = 0,
 			["Location"] = "太陽之井高地",
+			["GiveItems"] = {
+			},
 			["TargetName"] = "安藝惠",
-			["Time"] = "21:45:58",
 			["ReceiveItems"] = {
 			},
 		}, -- [2]
@@ -99,15 +99,15 @@ MailLoggerDB = {
 			},
 		}, -- [3]
 		{
-			["TargetName"] = "Awos",
 			["PlayerName"] = "特變電工",
+			["TargetName"] = "Awos",
 			["ReceiveMoney"] = 0,
-			["Time"] = "22:00:41",
-			["GiveMoney"] = 0,
-			["Location"] = "奥格瑞玛",
 			["GiveItems"] = {
 			},
+			["GiveMoney"] = 0,
+			["Location"] = "奥格瑞玛",
 			["Date"] = "2022-09-18",
+			["Time"] = "22:00:41",
 			["ReceiveItems"] = {
 			},
 		}, -- [4]
@@ -175,15 +175,15 @@ MailLoggerDB = {
 			},
 		}, -- [8]
 		{
-			["Date"] = "2022-11-17",
 			["TargetName"] = "佰鳥朝鳳",
+			["Date"] = "2022-11-17",
 			["ReceiveMoney"] = 0,
-			["Time"] = "22:33:52",
-			["GiveMoney"] = 0,
-			["Location"] = "奥格瑞玛",
 			["GiveItems"] = {
 			},
+			["GiveMoney"] = 0,
+			["Location"] = "奥格瑞玛",
 			["PlayerName"] = "特變電工",
+			["Time"] = "22:33:52",
 			["ReceiveItems"] = {
 			},
 		}, -- [9]
@@ -247,15 +247,15 @@ MailLoggerDB = {
 			},
 		}, -- [11]
 		{
-			["Date"] = "2022-11-19",
 			["PlayerName"] = "特變電工",
+			["Date"] = "2022-11-19",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "02:01:51",
 			["GiveMoney"] = 0,
 			["Location"] = "龙骨荒野",
+			["GiveItems"] = {
+			},
 			["TargetName"] = "花恰娜嚕",
-			["Time"] = "02:01:51",
 			["ReceiveItems"] = {
 			},
 		}, -- [12]

@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-	["session"] = 880,
 	["lastSanitation"] = 3,
+	["session"] = 883,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\TomTom\\TomTom_Config.lua:40: attempt to call method 'EnableDisablePOIIntegration' (a nil value)",
@@ -74,8 +74,8 @@ BugGrabberDB = {
 		}, -- [9]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\MeetingHorn\\Libs\\tdGUI\\Libs\\LibClass-2.0-10\\LibClass-2.0.xml",
-			["session"] = 47,
 			["time"] = "2021/06/08 20:55:27",
+			["session"] = 47,
 			["counter"] = 91,
 		}, -- [10]
 		{
@@ -189,26 +189,26 @@ BugGrabberDB = {
 		}, -- [24]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\alaTalentEmu\\libs\\libs.xml",
-			["time"] = "2021/08/08 18:21:56",
 			["session"] = 304,
+			["time"] = "2021/08/08 18:21:56",
 			["counter"] = 3,
 		}, -- [25]
 		{
 			["message"] = "Error loading Interface\\AddOns\\ClassicCodex-patch\\objects-questie-tbc.lua",
-			["time"] = "2021/08/08 18:21:56",
 			["session"] = 304,
+			["time"] = "2021/08/08 18:21:56",
 			["counter"] = 3,
 		}, -- [26]
 		{
 			["message"] = "Error loading Interface\\AddOns\\ClassicCodex-patch\\objects-loc-tbc.lua",
-			["time"] = "2021/08/08 18:21:56",
 			["session"] = 304,
+			["time"] = "2021/08/08 18:21:56",
 			["counter"] = 3,
 		}, -- [27]
 		{
 			["message"] = "Error loading Interface\\AddOns\\Questie\\Localization\\Translations\\Zones\\Battlegrounds-戰場.lua",
-			["time"] = "2021/08/08 18:21:56",
 			["session"] = 304,
+			["time"] = "2021/08/08 18:21:56",
 			["counter"] = 1,
 		}, -- [28]
 		{
@@ -292,8 +292,8 @@ BugGrabberDB = {
 		}, -- [38]
 		{
 			["message"] = "Texture <unnamed>: Unable to load atlas entry QuestSharing-Padlock",
-			["session"] = 333,
 			["time"] = "2021/08/22 00:26:04",
+			["session"] = 333,
 			["counter"] = 10,
 		}, -- [39]
 		{
@@ -529,14 +529,14 @@ BugGrabberDB = {
 		}, -- [68]
 		{
 			["message"] = "Error loading Interface\\AddOns\\DBM-Core\\modules\\Modules.lua",
-			["time"] = "2021/10/17 14:23:42",
 			["session"] = 495,
+			["time"] = "2021/10/17 14:23:42",
 			["counter"] = 6,
 		}, -- [69]
 		{
 			["message"] = "Error loading Interface\\AddOns\\DBM-Core\\modules\\Icons.lua",
-			["time"] = "2021/10/17 14:23:42",
 			["session"] = 495,
+			["time"] = "2021/10/17 14:23:42",
 			["counter"] = 6,
 		}, -- [70]
 		{
@@ -642,14 +642,14 @@ BugGrabberDB = {
 		}, -- [83]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GladiusEx\\libs\\LibCooldownTracker-1.0-10\\cooldowns_bcc_racials.lua",
-			["session"] = 520,
 			["time"] = "2021/08/22 00:22:49",
+			["session"] = 520,
 			["counter"] = 470,
 		}, -- [84]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GladiusEx\\libs\\LibCooldownTracker-1.0-10\\cooldowns_bcc_items.lua",
-			["session"] = 520,
 			["time"] = "2021/08/22 00:22:49",
+			["session"] = 520,
 			["counter"] = 470,
 		}, -- [85]
 		{
@@ -724,14 +724,14 @@ BugGrabberDB = {
 		}, -- [94]
 		{
 			["message"] = "Binding ALARAIDTOOL_NEWWINDOW is defined more than once in Interface\\AddOns\\TalentEmu\\Bindings.xml",
-			["time"] = "2021/12/04 19:36:22",
 			["session"] = 578,
+			["time"] = "2021/12/04 19:36:22",
 			["counter"] = 2,
 		}, -- [95]
 		{
 			["message"] = "Binding ALARAIDTOOL_QUERY is defined more than once in Interface\\AddOns\\TalentEmu\\Bindings.xml",
-			["time"] = "2021/12/04 19:36:22",
 			["session"] = 578,
+			["time"] = "2021/12/04 19:36:22",
 			["counter"] = 2,
 		}, -- [96]
 		{
@@ -751,14 +751,14 @@ BugGrabberDB = {
 		}, -- [98]
 		{
 			["message"] = "Binding ALARAIDTOOL_NEWWINDOW is defined more than once in Interface\\AddOns\\alaTalentEmu\\Bindings.xml",
-			["session"] = 608,
 			["time"] = "2021/12/05 20:25:25",
+			["session"] = 608,
 			["counter"] = 58,
 		}, -- [99]
 		{
 			["message"] = "Binding ALARAIDTOOL_QUERY is defined more than once in Interface\\AddOns\\alaTalentEmu\\Bindings.xml",
-			["session"] = 608,
 			["time"] = "2021/12/05 20:25:25",
+			["session"] = 608,
 			["counter"] = 58,
 		}, -- [100]
 		{
@@ -881,56 +881,56 @@ BugGrabberDB = {
 		}, -- [115]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-EditBox.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [116]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Heading.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [117]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Icon.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [118]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-InteractiveLabel.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [119]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Keybinding.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [120]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Label.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [121]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-MultiLineEditBox.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [122]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Slider.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 1,
 		}, -- [123]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-ColorPicker.lua",
-			["session"] = 677,
 			["time"] = "2022/02/23 22:24:56",
+			["session"] = 677,
 			["counter"] = 2,
 		}, -- [124]
 		{
@@ -1286,21 +1286,13 @@ BugGrabberDB = {
 			["counter"] = 1,
 		}, -- [169]
 		{
-			["message"] = "Interface\\AddOns\\BlizzMove_Debug\\BlizzMoveDebug.lua:86: Action[FrameMeasurement] failed because[Can't measure restricted regions]: attempted from: ElvNP_NamePlate1RaisedElementQuestIcons:GetPoint().",
-			["time"] = "2022/11/18 01:36:47",
-			["locals"] = "(*temporary) = ElvNP_NamePlate1RaisedElementQuestIcons {\n 0 = <userdata>\n ForceUpdate = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Modules\\Nameplates\\Plugins\\QuestIcons.lua:252\n Default = <unnamed> {\n }\n __owner = ElvNP_NamePlate1 {\n }\n PixelSnapDisabled = true\n Item = <unnamed> {\n }\n Skull = <unnamed> {\n }\n Chat = <unnamed> {\n }\n}\n(*temporary) = 1\n",
-			["stack"] = "[string \"=[C]\"]: in function `GetPoint'\n[string \"@Interface\\AddOns\\BlizzMove_Debug\\BlizzMoveDebug.lua\"]:86: in function `BuildAnchorTree'\n[string \"@Interface\\AddOns\\BlizzMove_Debug\\BlizzMoveDebug.lua\"]:47: in function `FindBadAnchorConnections'\n[string \"@Interface\\AddOns\\BlizzMove\\BlizzMove-v3.4.11.lua\"]:400: in function <Interface\\AddOns\\BlizzMove\\BlizzMove.lua:383>\n[string \"@Interface\\AddOns\\BlizzMove\\BlizzMove-v3.4.11.lua\"]:647: in function <Interface\\AddOns\\BlizzMove\\BlizzMove.lua:630>\n[string \"=(tail call)\"]: ?",
-			["session"] = 876,
-			["counter"] = 4,
-		}, -- [170]
-		{
 			["message"] = "Interface\\AddOns\\Puggle\\Puggle-216.lua:1335: script ran too long",
 			["time"] = "2022/11/18 01:35:29",
 			["locals"] = "data = \"小飛象\"\n(*temporary) = \"111001011011000010001111111010011010001110011011111010001011000110100001\"\n(*temporary) = \"小飛象\"\n(*temporary) = \".\"\n(*temporary) = <function> defined @Interface\\AddOns\\Puggle\\Puggle.lua:1331\n(*temporary) = \"111001011011000010001111111010011010001110011011111010001011000110100001\"\n(*temporary) = \"script ran too long\"\nb = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1335: in function `Puggle_enc'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:630: in function `Puggle_UpdateCurrentGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:526: in function `Puggle_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
 			["session"] = 876,
 			["counter"] = 2,
-		}, -- [171]
+		}, -- [170]
 		{
 			["message"] = "...dOns\\TradeSkillMaster\\Core\\Service\\Vendoring\\Buy.lua:81: attempt to compare number with nil",
 			["time"] = "2022/11/18 16:08:57",
@@ -1308,7 +1300,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\TradeSkillMaster\\Core\\Service\\Vendoring\\Buy.lua\"]:81: in function `GetMaxCanAfford'\n[string \"@Interface\\AddOns\\TradeSkillMaster\\Core\\Service\\Vendoring\\Buy.lua\"]:218: in function `BuyIndex'\n[string \"@Interface\\AddOns\\TradeSkillMaster\\Core\\Service\\Vendoring\\Buy.lua\"]:116: in function `BuyItemIndex'\n[string \"@Interface\\AddOns\\TradeSkillMaster\\Core\\Service\\Vendoring\\Buy.lua\"]:284: in function `pendingCallback'\n[string \"@Interface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\Delay.lua\"]:171: in function <...erface\\AddOns\\TradeSkillMaster\\LibTSM\\Util\\Delay.lua:136>",
 			["session"] = 876,
 			["counter"] = 1,
-		}, -- [172]
+		}, -- [171]
 		{
 			["message"] = "Interface\\AddOns\\BlizzMove_Debug\\BlizzMoveDebug.lua:86: Action[FrameMeasurement] failed because[Can't measure restricted regions]: attempted from: <unnamed>:GetPoint().",
 			["time"] = "2022/11/18 18:46:37",
@@ -1316,7 +1308,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `GetPoint'\n[string \"@Interface\\AddOns\\BlizzMove_Debug\\BlizzMoveDebug.lua\"]:86: in function `BuildAnchorTree'\n[string \"@Interface\\AddOns\\BlizzMove_Debug\\BlizzMoveDebug.lua\"]:47: in function `FindBadAnchorConnections'\n[string \"@Interface\\AddOns\\BlizzMove\\BlizzMove-v3.4.11.lua\"]:400: in function <Interface\\AddOns\\BlizzMove\\BlizzMove.lua:383>\n[string \"@Interface\\AddOns\\BlizzMove\\BlizzMove-v3.4.11.lua\"]:647: in function <Interface\\AddOns\\BlizzMove\\BlizzMove.lua:630>\n[string \"=(tail call)\"]: ?",
 			["session"] = 876,
 			["counter"] = 1,
-		}, -- [173]
+		}, -- [172]
 		{
 			["message"] = "Interface\\AddOns\\Puggle\\Puggle-216.lua:1346: bad argument #1 to 'gsub' (string expected, got nil)",
 			["time"] = "2021/10/01 10:34:12",
@@ -1324,7 +1316,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `gsub'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1346: in function `Puggle_dec'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:974: in function `Puggle_displayPlayers'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1367: in function `Puggle_SetStarSource'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>",
 			["session"] = 876,
 			["counter"] = 218,
-		}, -- [174]
+		}, -- [173]
 		{
 			["message"] = "Interface\\AddOns\\Puggle\\Puggle-216.lua:1340: script ran too long",
 			["time"] = "2022/11/18 01:32:49",
@@ -1332,7 +1324,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1340: in function `Puggle_enc'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:630: in function `Puggle_UpdateCurrentGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:526: in function `Puggle_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
 			["session"] = 876,
 			["counter"] = 9,
-		}, -- [175]
+		}, -- [174]
 		{
 			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
 			["time"] = "2021/07/01 16:18:25",
@@ -1340,14 +1332,22 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
 			["session"] = 877,
 			["counter"] = 12084,
+		}, -- [175]
+		{
+			["message"] = "Interface\\AddOns\\BlizzMove_Debug\\BlizzMoveDebug.lua:86: Action[FrameMeasurement] failed because[Can't measure restricted regions]: attempted from: ElvNP_NamePlate1RaisedElementQuestIcons:GetPoint().",
+			["time"] = "2022/11/18 01:36:47",
+			["locals"] = "(*temporary) = ElvNP_NamePlate1RaisedElementQuestIcons {\n 0 = <userdata>\n ForceUpdate = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Modules\\Nameplates\\Plugins\\QuestIcons.lua:252\n Default = <unnamed> {\n }\n __owner = ElvNP_NamePlate1 {\n }\n PixelSnapDisabled = true\n Item = <unnamed> {\n }\n Skull = <unnamed> {\n }\n Chat = <unnamed> {\n }\n}\n(*temporary) = 1\n",
+			["stack"] = "[string \"=[C]\"]: in function `GetPoint'\n[string \"@Interface\\AddOns\\BlizzMove_Debug\\BlizzMoveDebug.lua\"]:86: in function `BuildAnchorTree'\n[string \"@Interface\\AddOns\\BlizzMove_Debug\\BlizzMoveDebug.lua\"]:47: in function `FindBadAnchorConnections'\n[string \"@Interface\\AddOns\\BlizzMove\\BlizzMove-v3.4.11.lua\"]:400: in function <Interface\\AddOns\\BlizzMove\\BlizzMove.lua:383>\n[string \"@Interface\\AddOns\\BlizzMove\\BlizzMove-v3.4.11.lua\"]:647: in function <Interface\\AddOns\\BlizzMove\\BlizzMove.lua:630>\n[string \"=(tail call)\"]: ?",
+			["session"] = 882,
+			["counter"] = 5,
 		}, -- [176]
 		{
 			["message"] = "Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua:8: attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)",
 			["time"] = "2022/09/18 19:44:22",
 			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:67: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:53>",
-			["session"] = 880,
-			["counter"] = 25,
+			["session"] = 883,
+			["counter"] = 28,
 		}, -- [177]
 	},
 }
