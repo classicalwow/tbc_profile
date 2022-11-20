@@ -73,14 +73,14 @@ MailLoggerDB = {
 		}, -- [1]
 		{
 			["PlayerName"] = "特變電工",
-			["Date"] = "2022-09-18",
+			["TargetName"] = "安藝惠",
 			["ReceiveMoney"] = 0,
-			["Time"] = "21:45:58",
-			["GiveMoney"] = 0,
-			["Location"] = "太陽之井高地",
 			["GiveItems"] = {
 			},
-			["TargetName"] = "安藝惠",
+			["GiveMoney"] = 0,
+			["Location"] = "太陽之井高地",
+			["Date"] = "2022-09-18",
+			["Time"] = "21:45:58",
 			["ReceiveItems"] = {
 			},
 		}, -- [2]
@@ -99,15 +99,15 @@ MailLoggerDB = {
 			},
 		}, -- [3]
 		{
-			["PlayerName"] = "特變電工",
+			["Date"] = "2022-09-18",
 			["TargetName"] = "Awos",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "22:00:41",
 			["GiveMoney"] = 0,
 			["Location"] = "奥格瑞玛",
-			["Date"] = "2022-09-18",
-			["Time"] = "22:00:41",
+			["GiveItems"] = {
+			},
+			["PlayerName"] = "特變電工",
 			["ReceiveItems"] = {
 			},
 		}, -- [4]
@@ -175,15 +175,15 @@ MailLoggerDB = {
 			},
 		}, -- [8]
 		{
-			["TargetName"] = "佰鳥朝鳳",
+			["PlayerName"] = "特變電工",
 			["Date"] = "2022-11-17",
 			["ReceiveMoney"] = 0,
-			["GiveItems"] = {
-			},
+			["Time"] = "22:33:52",
 			["GiveMoney"] = 0,
 			["Location"] = "奥格瑞玛",
-			["PlayerName"] = "特變電工",
-			["Time"] = "22:33:52",
+			["GiveItems"] = {
+			},
+			["TargetName"] = "佰鳥朝鳳",
 			["ReceiveItems"] = {
 			},
 		}, -- [9]
@@ -248,14 +248,14 @@ MailLoggerDB = {
 		}, -- [11]
 		{
 			["PlayerName"] = "特變電工",
-			["Date"] = "2022-11-19",
+			["TargetName"] = "花恰娜嚕",
 			["ReceiveMoney"] = 0,
-			["Time"] = "02:01:51",
-			["GiveMoney"] = 0,
-			["Location"] = "龙骨荒野",
 			["GiveItems"] = {
 			},
-			["TargetName"] = "花恰娜嚕",
+			["GiveMoney"] = 0,
+			["Location"] = "龙骨荒野",
+			["Date"] = "2022-11-19",
+			["Time"] = "02:01:51",
 			["ReceiveItems"] = {
 			},
 		}, -- [12]
@@ -278,5 +278,140 @@ MailLoggerDB = {
 				}, -- [1]
 			},
 		}, -- [13]
+		{
+			["PlayerName"] = "特變電工",
+			["Date"] = "2022-11-19",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:17:42",
+			["GiveMoney"] = 0,
+			["Location"] = "祖达克",
+			["GiveItems"] = {
+			},
+			["TargetName"] = "蛮蛮",
+			["ReceiveItems"] = {
+			},
+		}, -- [14]
+		{
+			["TargetName"] = "蛮蛮",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2022-11-19",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:17:42",
+			["GiveMoney"] = 500000,
+			["Location"] = "祖达克",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [15]
+		{
+			["TargetName"] = "邁克爾假死",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2022-11-19",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 99,
+					["ItemLink"] = "|cffffffff|Hitem:33470::::::::76:::::::::|h[霜纹布]|h|r",
+					["Name"] = "霜纹布",
+				}, -- [1]
+				[6] = {
+					["Number"] = 2,
+					["ItemLink"] = "|cff1eff00|Hitem:43622::::::::76:::::::::|h[霜钢宝箱]|h|r",
+					["Name"] = "霜钢宝箱",
+				},
+				[8] = {
+					["Number"] = 8,
+					["ItemLink"] = "|cffffffff|Hitem:36909::::::::76:::::::::|h[钴矿石]|h|r",
+					["Name"] = "钴矿石",
+				},
+				[10] = {
+					["Number"] = 3,
+					["ItemLink"] = "|cffffffff|Hitem:33568::::::::76:::::::::|h[北地皮]|h|r",
+					["Name"] = "北地皮",
+				},
+				[12] = {
+					["Number"] = 2,
+					["ItemLink"] = "|cffffffff|Hitem:36907::::::::76:::::::::|h[塔兰德拉的玫瑰]|h|r",
+					["Name"] = "塔兰德拉的玫瑰",
+				},
+				[9] = {
+					["Number"] = 2,
+					["ItemLink"] = "|cffffffff|Hitem:36904::::::::76:::::::::|h[卷丹]|h|r",
+					["Name"] = "卷丹",
+				},
+				[11] = {
+					["Number"] = 5,
+					["ItemLink"] = "|cffffffff|Hitem:37701::::::::76:::::::::|h[土之结晶]|h|r",
+					["Name"] = "土之结晶",
+				},
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "祖达克",
+			["Time"] = "22:32:02",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [16]
+		{
+			["TargetName"] = "邁克爾假死",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2022-11-19",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff0070dd|Hitem:36927::::::::76:::::::::|h[曙光猫眼石]|h|r",
+					["Name"] = "曙光猫眼石",
+				}, -- [1]
+				{
+					["Number"] = 5,
+					["ItemLink"] = "|cff1eff00|Hitem:36917::::::::76:::::::::|h[血石]|h|r",
+					["Name"] = "血石",
+				}, -- [2]
+				{
+					["Number"] = 4,
+					["ItemLink"] = "|cff1eff00|Hitem:36932::::::::76:::::::::|h[黑玉]|h|r",
+					["Name"] = "黑玉",
+				}, -- [3]
+				{
+					["Number"] = 2,
+					["ItemLink"] = "|cffffffff|Hitem:37705::::::::76:::::::::|h[水之结晶]|h|r",
+					["Name"] = "水之结晶",
+				}, -- [4]
+				{
+					["Number"] = 2,
+					["ItemLink"] = "|cff1eff00|Hitem:36910::::::::76:::::::::|h[泰坦神铁矿石]|h|r",
+					["Name"] = "泰坦神铁矿石",
+				}, -- [5]
+				{
+					["Number"] = 6,
+					["ItemLink"] = "|cffffffff|Hitem:37700::::::::76:::::::::|h[空气结晶]|h|r",
+					["Name"] = "空气结晶",
+				}, -- [6]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff1eff00|Hitem:36920::::::::76:::::::::|h[太阳水晶]|h|r",
+					["Name"] = "太阳水晶",
+				}, -- [7]
+				{
+					["Number"] = 2,
+					["ItemLink"] = "|cffffffff|Hitem:36905::::::::76:::::::::|h[巫妖花]|h|r",
+					["Name"] = "巫妖花",
+				}, -- [8]
+				{
+					["Number"] = 43,
+					["ItemLink"] = "|cffffffff|Hitem:33448::::::::76:::::::::|h[符文法力药水]|h|r",
+					["Name"] = "符文法力药水",
+				}, -- [9]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "祖达克",
+			["Time"] = "22:32:18",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [17]
 	},
 }
