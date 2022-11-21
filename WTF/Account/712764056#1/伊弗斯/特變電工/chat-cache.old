@@ -3,12 +3,10 @@ VERSION 7
 ADDEDVERSION 22
 
 CHANNELS
+大脚世界频道 1 2 0
 交易 0 3 0
+综合 1 4 0
 大陸老鄉會 1 5 0
-Community:30274313:1 0 6 1
-Community:30826573:1 0 7 1
-Community:30310233:1 0 8 1
-Community:30705513:1 0 9 1
 鏡花水月 1 10 0
 END
 
@@ -164,12 +162,9 @@ COMBAT_HONOR_GAIN
 END
 
 CHANNELS
-Community:30274313:1
-Community:30310233:1
-Community:30705513:1
 大陸老鄉會
-Community:30826573:1
 鏡花水月
+大脚世界频道
 END
 
 ZONECHANNELS 2097153
@@ -270,7 +265,7 @@ BN_WHISPER
 END
 
 CHANNELS
-尋求組隊
+寻求组队
 END
 
 ZONECHANNELS 0

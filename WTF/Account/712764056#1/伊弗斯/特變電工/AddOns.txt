@@ -175,3 +175,6 @@ altoholic_achievements: enabled
 elvui_options: enabled
 ElvUI_UnitFramePlugin: disabled
 VuhDoOptions: disabled
+EZQuest: disabled
+RaidLedger: enabled
+RXPGuides: disabled

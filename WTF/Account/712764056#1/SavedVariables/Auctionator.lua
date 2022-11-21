@@ -23,6 +23,8 @@ AUCTIONATOR_SHOPPING_LISTS = {
 AUCTIONATOR_SHOPPING_LISTS_MIGRATED_V2 = true
 AUCTIONATOR_PRICE_DATABASE = {
 	["__dbversion"] = 4,
+	["伊弗斯_Alliance"] = {
+	},
 	["伊弗斯_Horde"] = {
 	},
 }
@@ -42,6 +44,11 @@ AUCTIONATOR_TOONS = {
 		["firstSeen"] = 1626022682,
 		["firstVersion"] = "100.0.11",
 		["guid"] = "Player-4487-0012ECFA",
+	},
+	["暖男你馬四了"] = {
+		["firstSeen"] = 1668964932,
+		["guid"] = "Player-4487-0018BE27",
+		["firstVersion"] = "2.5.5-1-g17bf777",
 	},
 }
 AUCTIONATOR_STACKING_PREFS = {

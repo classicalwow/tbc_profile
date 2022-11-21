@@ -6,11 +6,11 @@ DataStore_AgendaDB = {
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.伊弗斯.邁克爾假死"] = {
+				["lastUpdate"] = 1664462132,
+			},
 			["Default.伊弗斯.特變電工"] = {
 				["lastUpdate"] = 1663501480,
-			},
-			["Default.伊弗斯.邁克爾假死"] = {
-				["lastUpdate"] = 1664368333,
 			},
 		},
 	},

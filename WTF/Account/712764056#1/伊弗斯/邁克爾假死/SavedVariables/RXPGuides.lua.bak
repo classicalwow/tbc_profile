@@ -1,0 +1,88 @@
+
+RXPCData = {
+	["completedWaypoints"] = {
+		[25] = {
+		},
+	},
+	["currentStep"] = 25,
+	["currentGuideName"] = "70-72 北风苔原",
+	["stepSkip"] = {
+		true, -- [1]
+		[11] = true,
+		[24] = true,
+		[15] = true,
+		[18] = true,
+		[19] = true,
+		[16] = true,
+		[5] = true,
+	},
+	["flightPaths"] = {
+	},
+	["currentGuideGroup"] = "RestedXP 部落 70-80",
+}
+RXPCTrackingData = {
+	["profileKeys"] = {
+		["邁克爾假死 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
+	},
+	["profiles"] = {
+		["邁克爾假死 - 伊弗斯"] = {
+			["levels"] = {
+				[70] = {
+					["groupExperience"] = 0,
+					["deaths"] = 2,
+					["mobs"] = {
+						["北风苔原"] = {
+							["xp"] = 158840,
+							["count"] = 34,
+						},
+					},
+					["timestamp"] = {
+					},
+					["quests"] = {
+						["北风苔原"] = {
+							[11595] = 2000,
+							[11614] = 5050,
+							[11611] = 20100,
+							[11598] = 20100,
+							[11585] = 2000,
+							[11602] = 20100,
+							[11606] = 20100,
+							[11608] = 20100,
+							[11615] = 5050,
+						},
+					},
+				},
+			},
+		},
+	},
+}
+RXPCComms = {
+	["profileKeys"] = {
+		["邁克爾假死 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
+	},
+	["profiles"] = {
+		["邁克爾假死 - 伊弗斯"] = {
+			["announcements"] = {
+				["70-72 北风苔原"] = {
+					["collect"] = {
+					},
+					["complete"] = {
+					},
+				},
+			},
+		},
+	},
+}
+RXPCSettings = {
+	["profileKeys"] = {
+		["邁克爾假死 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
+	},
+	["profiles"] = {
+		["邁克爾假死 - 伊弗斯"] = {
+			["frameHeight"] = 39.6576042175293,
+			["xprate"] = 1,
+			["hardcore"] = false,
+			["windowScale"] = 1.45,
+		},
+	},
+}
