@@ -1,4 +1,11 @@
 Version: 1
+Frame: RXPItemFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 255
+Y: -222
+W: 75
+H: 40
 Frame: RXPG_ARROW
 FrameLevel: 1
 Anchor: BOTTOM
@@ -10,9 +17,9 @@ Frame: RXPFrame
 FrameLevel: 1
 Anchor: LEFT
 X: 0
-Y: -40
-W: 251
-H: 40
+Y: -34
+W: 265
+H: 28
 Frame: ItemRefTooltip
 FrameLevel: 1
 Anchor: TOP
@@ -34,10 +41,3 @@ X: -202
 Y: -78
 W: 920
 H: 600
-Frame: RXPItemFrame
-FrameLevel: 1
-Anchor: CENTER
-X: 255
-Y: -223
-W: 75
-H: 40

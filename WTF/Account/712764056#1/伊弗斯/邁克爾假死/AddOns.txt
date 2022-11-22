@@ -121,7 +121,7 @@ LFGBulletinBoard: enabled
 ls_Toasts: disabled
 Mapster: enabled
 MRT: disabled
-MBB: disabled
+MBB: enabled
 Myslot: enabled
 Parrot: enabled
 Pawn: enabled

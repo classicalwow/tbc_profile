@@ -33,17 +33,6 @@ HekiliDB = {
 					["y"] = -224.9999847412109,
 				},
 			},
-			["specs"] = {
-				[9] = {
-					["package"] = "Destruction (wowtbc.gg)",
-					["settings"] = {
-						["solo_curse"] = "curse_of_agony",
-						["shadow_mastery"] = true,
-						["group_curse"] = "curse_of_the_elements",
-						["group_type"] = "party",
-					},
-				},
-			},
 			["runOnce"] = {
 				["forceReloadAllDefaultPriorities_20220228"] = true,
 				["forceEnableAllClassesOnceDueToBug_20220225"] = true,
@@ -57,6 +46,17 @@ HekiliDB = {
 			["notifications"] = {
 				["x"] = 64.11541748046875,
 				["y"] = 26.81244087219238,
+			},
+			["specs"] = {
+				[9] = {
+					["settings"] = {
+						["solo_curse"] = "curse_of_agony",
+						["shadow_mastery"] = true,
+						["group_curse"] = "curse_of_the_elements",
+						["group_type"] = "party",
+					},
+					["package"] = "Destruction (wowtbc.gg)",
+				},
 			},
 			["packs"] = {
 				["Beast Mastery (wowtbc.gg)"] = {
@@ -246,8 +246,8 @@ HekiliDB = {
 							{
 								["enabled"] = true,
 								["interrupt_if"] = "dot.unstable_affliction.remains<2||dot.corruption.remains<2||debuff.my_curse.down",
-								["criteria"] = "target.health.pct < 25",
 								["action"] = "drain_soul",
+								["criteria"] = "target.health.pct < 25",
 							}, -- [12]
 							{
 								["action"] = "shadow_bolt",
@@ -833,9 +833,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 								["criteria"] = "active_enemies > 3",
 								["action"] = "thunder_clap",
+								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 							}, -- [2]
 							{
 								["action"] = "overpower",

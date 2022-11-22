@@ -1,13 +1,11 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0707,
-	["LastPlayerFullName"] = "邁克爾假死-伊弗斯",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 29081,
-			["Level"] = 120,
-			["Link"] = "|cffa335ee|Hitem:29081::::::::70:::::::::|h[惡魔獵者巨盔]|h|r",
+			["ID"] = 37414,
+			["Level"] = 138,
+			["Link"] = "|cff1eff00|Hitem:37414::::::::71:::::::::|h[先知的头饰]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 32649,
@@ -51,16 +49,16 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:31001::::::::70:::::::::|h[古羅行者的手套]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 30052,
-			["Level"] = 128,
+			["ID"] = 38251,
+			["Level"] = 138,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:30052::::::::70:::::::::|h[致命之戒]|h|r",
+			["Link"] = "|cff0070dd|Hitem:38251::::::::71:::::::::|h[愤慨之戒]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 29298,
-			["Level"] = 128,
+			["ID"] = 38251,
+			["Level"] = 138,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:29298::::::::70:::::::::|h[永恆指環]|h|r",
+			["Link"] = "|cff0070dd|Hitem:38251::::::::72:::::::::|h[愤慨之戒]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 28034,
@@ -75,9 +73,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:28034::::::::70:::::::::|h[破壞者沙漏]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 27878,
-			["Level"] = 115,
-			["Link"] = "|cff0070dd|Hitem:27878::::::::70::::::::|h[奧奇奈死亡罩氅]|h|r",
+			["ID"] = 36998,
+			["Level"] = 138,
+			["Link"] = "|cff1eff00|Hitem:36998::::::::71:::::::::|h[攻击者披风]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 30865,
@@ -96,6 +94,8 @@ PawnOptions = {
 			["Link"] = "|cffff8000|Hitem:30318::::::::70:::::::::|h[虛空之絃長弓]|h|r",
 		}, -- [18]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "邁克爾假死-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
