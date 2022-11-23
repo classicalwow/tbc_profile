@@ -45,6 +45,35 @@ TomTomWaypointsM = {
 	["profiles"] = {
 		["特變電工 - 伊弗斯"] = {
 			[115] = {
+				["115:603178484.10758:515403422.98289:奈瑟斯塔兹"] = {
+					115, -- [1]
+					0.6031784841075795, -- [2]
+					0.5154034229828851, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "奈瑟斯塔兹",
+					["from"] = "Questie",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["world"] = true,
+				},
 				["115:441950259.10092:448367138.86488:TomTom 路径点"] = {
 					115, -- [1]
 					0.4419502591009248, -- [2]

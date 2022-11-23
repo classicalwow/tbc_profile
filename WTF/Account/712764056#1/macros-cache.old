@@ -51,7 +51,7 @@ VER 3 0000000000000072 "dd" "132112"
 /script SetCVar("cameraDistanceMax", 25)
 END
 VER 3 000000000000002D "Decursive" "INV_MISC_QUESTIONMARK"
-/script DecursiveRootTable.Dcr:Println('沒有可用法術')
+/script DecursiveRootTable.Dcr:Println('没有相关技能')
 END
 VER 3 000000000000002E "eat" "INV_Misc_QuestionMark"
 #showtooltip
@@ -82,8 +82,8 @@ VER 3 0000000000000098 "target" "132090"
 /target 薩
 /script SetRaidTarget("target",8)
 END
-VER 3 0000000000000040 "VuhDoDCShieldNames" "132281"
-N毛皮皮[x]瑪嘉黛妮妮唲[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Dde[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]鬆餅給
+VER 3 0000000000000040 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]路易斯[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 000000000000003E "VuhDoDCShieldNames" "132281"
 N麥噹噹HanNep舌忝至躺著賺Han瑪嘉黛巴拉逼你這樣[x]穿馬靴[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Dde[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]鬆餅給
@@ -118,6 +118,20 @@ END
 VER 3 0000000000000042 "VuhDoDCShieldNames" "132281"
 N[x]斷風五初夏的Nat給本仙屁縫子韓森蓋魅惑夜民主的[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Dde[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]鬆餅給
 END
+VER 3 0000000000000044 "假死" "INV_Misc_QuestionMark"
+#showtooltip
+/petpassive
+/petfollow
+/stopcasting
+/cleartarget
+/castsequence reset=10 假死,冰凍陷阱
+END
+VER 3 0000000000000043 "假死" "INV_Misc_QuestionMark"
+#showtooltip
+/PetPassiveMode
+/petpassive
+/castsequence reset=10 假死,冰凍陷阱
+END
 VER 3 0000000000000046 "假死" "INV_Misc_QuestionMark"
 #showtooltip
 /petpassive
@@ -132,20 +146,6 @@ VER 3 0000000000000045 "假死" "INV_Misc_QuestionMark"
 /stopcasting
 /cleartarget
 /castsequence reset=10 假死,獻祭陷阱
-END
-VER 3 0000000000000044 "假死" "INV_Misc_QuestionMark"
-#showtooltip
-/petpassive
-/petfollow
-/stopcasting
-/cleartarget
-/castsequence reset=10 假死,冰凍陷阱
-END
-VER 3 0000000000000043 "假死" "INV_Misc_QuestionMark"
-#showtooltip
-/PetPassiveMode
-/petpassive
-/castsequence reset=10 假死,冰凍陷阱
 END
 VER 3 0000000000000047 "假死爆" "INV_Misc_QuestionMark"
 #showtooltip

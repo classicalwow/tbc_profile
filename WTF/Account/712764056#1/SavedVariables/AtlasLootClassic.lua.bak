@@ -552,18 +552,18 @@ AtlasLootClassicDB = {
 		["路易斯桑拿 - 伊弗斯"] = {
 			["GUI"] = {
 				["point"] = {
-					"BOTTOM", -- [1]
+					nil, -- [1]
 					nil, -- [2]
-					"BOTTOM", -- [3]
-					132.1975402832031, -- [4]
-					-0, -- [5]
+					"CENTER", -- [3]
+					295.2060852050781, -- [4]
+					-13.00544738769531, -- [5]
 				},
 				["selected"] = {
 					"AtlasLootClassic_Crafting", -- [1]
-					"EnchantingBC", -- [2]
-					6, -- [3]
+					"JewelcraftingWrath", -- [2]
+					7, -- [3]
 					1, -- [4]
-					-0, -- [5]
+					0, -- [5]
 				},
 			},
 		},
@@ -577,10 +577,10 @@ AtlasLootClassicDB = {
 					121.8341522216797, -- [5]
 				},
 				["selected"] = {
-					nil, -- [1]
-					"TheOculus", -- [2]
-					4, -- [3]
-					6, -- [4]
+					"AtlasLootClassic_Crafting", -- [1]
+					"AlchemyWrath", -- [2]
+					nil, -- [3]
+					1, -- [4]
 					-0, -- [5]
 				},
 			},
@@ -594,7 +594,7 @@ AtlasLootClassicDB = {
 				},
 			},
 			["minimap"] = {
-				["minimapPos"] = 232.2005268178225,
+				["minimapPos"] = 238.0107461904307,
 			},
 		},
 		["邁克爾假死 - 伊弗斯"] = {
@@ -602,13 +602,6 @@ AtlasLootClassicDB = {
 				["minimapPos"] = 259.6597694701143,
 			},
 			["GUI"] = {
-				["point"] = {
-					"RIGHT", -- [1]
-					nil, -- [2]
-					"RIGHT", -- [3]
-					-201.6755828857422, -- [4]
-					-78.09302520751953, -- [5]
-				},
 				["selectedGameVersion"] = 1,
 				["selected"] = {
 					"AtlasLootClassic_Crafting", -- [1]
@@ -616,6 +609,13 @@ AtlasLootClassicDB = {
 					8, -- [3]
 					1, -- [4]
 					-0, -- [5]
+				},
+				["point"] = {
+					"RIGHT", -- [1]
+					nil, -- [2]
+					"RIGHT", -- [3]
+					-201.6755828857422, -- [4]
+					-78.09302520751953, -- [5]
 				},
 			},
 		},

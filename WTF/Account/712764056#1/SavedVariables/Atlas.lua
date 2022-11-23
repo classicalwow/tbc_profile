@@ -1,8 +1,9 @@
 
 AtlasDB = {
 	["profileKeys"] = {
-		["邁克爾假死 - 伊弗斯"] = "Default",
 		["特變電工 - 伊弗斯"] = "Default",
+		["邁克爾假死 - 伊弗斯"] = "Default",
+		["路易斯桑拿 - 伊弗斯"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -18,7 +19,7 @@ AtlasDB = {
 				["checkMissingModules"] = true,
 			},
 			["minimap"] = {
-				["minimapPos"] = 217.4525238045274,
+				["minimapPos"] = 259.9475741963705,
 			},
 		},
 	},
