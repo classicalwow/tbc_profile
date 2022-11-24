@@ -3,14 +3,13 @@ BisTooltipDB = {
 	["profileKeys"] = {
 		["特變電工 - 伊弗斯"] = "Default",
 		["路易斯桑拿 - 伊弗斯"] = "Default",
-		["暖男你馬四了 - 伊弗斯"] = "Default",
 		["邁克爾假死 - 伊弗斯"] = "Default",
+		["暖男你馬四了 - 伊弗斯"] = "Default",
 	},
 	["char"] = {
 		["特變電工 - 伊弗斯"] = {
 			["class_index"] = 10,
 			["version"] = 6.1,
-			["spec_index"] = 3,
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -32,9 +31,9 @@ BisTooltipDB = {
 					["Assassination"] = true,
 				},
 				["Mage"] = {
+					["Fire FFB"] = true,
 					["Frost"] = true,
 					["Fire"] = true,
-					["Fire FFB"] = true,
 					["Arcane"] = true,
 				},
 				["Druid"] = {
@@ -64,14 +63,16 @@ BisTooltipDB = {
 					["Holy"] = true,
 				},
 			},
+			["spec_index"] = 3,
+			["phase_index"] = 2,
 		},
 		["路易斯桑拿 - 伊弗斯"] = {
 			["version"] = 6.1,
 		},
-		["暖男你馬四了 - 伊弗斯"] = {
+		["邁克爾假死 - 伊弗斯"] = {
 			["version"] = 6.1,
 		},
-		["邁克爾假死 - 伊弗斯"] = {
+		["暖男你馬四了 - 伊弗斯"] = {
 			["version"] = 6.1,
 		},
 	},

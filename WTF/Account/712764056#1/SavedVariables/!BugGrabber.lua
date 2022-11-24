@@ -1,6 +1,6 @@
 
 BugGrabberDB = {
-	["session"] = 930,
+	["session"] = 936,
 	["lastSanitation"] = 3,
 	["errors"] = {
 		{
@@ -1317,37 +1317,13 @@ BugGrabberDB = {
 			["counter"] = 5,
 		}, -- [173]
 		{
-			["message"] = "Interface\\AddOns\\SpellReplay\\SpellReplay.lua:89: attempt to index field '?' (a nil value)",
-			["time"] = "2022/05/12 23:53:43",
-			["locals"] = "(for index) = 32\n(for limit) = 50\n(for step) = 1\ni = 32\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"32\"\n(*temporary) = nil\n(*temporary) = \"attempt to index field '?' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\SpellReplay\\SpellReplay.lua\"]:89: in function <Interface\\AddOns\\SpellReplay\\SpellReplay.lua:87>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2064: in function `SetUIPanel'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2138: in function `HideUIPanel'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:1826: in function <Interface_TBC\\FrameXML\\UIParent.lua:1818>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2616: in function `HideUIPanel'\n[string \"@Interface\\FrameXML\\CinematicFrame.lua\"]:51: in function <Interface\\FrameXML\\CinematicFrame.lua:39>",
-			["session"] = 901,
-			["counter"] = 3,
-		}, -- [174]
-		{
-			["message"] = "Interface\\AddOns\\SpellReplay\\SpellReplay.lua:67: attempt to index field '?' (a nil value)",
-			["time"] = "2022/05/12 23:53:43",
-			["locals"] = "(for index) = 32\n(for limit) = 50\n(for step) = 1\ni = 32\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"32\"\n(*temporary) = nil\n(*temporary) = \"attempt to index field '?' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\SpellReplay\\SpellReplay.lua\"]:67: in function <Interface\\AddOns\\SpellReplay\\SpellReplay.lua:65>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2064: in function `SetUIPanel'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2138: in function `HideUIPanel'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:1826: in function <Interface_TBC\\FrameXML\\UIParent.lua:1818>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2616: in function `HideUIPanel'\n[string \"@Interface\\FrameXML\\CinematicFrame.lua\"]:51: in function <Interface\\FrameXML\\CinematicFrame.lua:39>",
-			["session"] = 901,
-			["counter"] = 3,
-		}, -- [175]
-		{
 			["message"] = "Interface\\AddOns\\Puggle\\Puggle-216.lua:1352: script ran too long",
 			["time"] = "2022/11/21 21:17:57",
 			["locals"] = "data = \"5pyq55+l55uu5qCH\"\n(*temporary) = \"111001101001110010101010111001111001111110100101111001111001101110101110111001101010000010000111\"\n(*temporary) = \"5pyq55+l55uu5qCH\"\n(*temporary) = \".\"\n(*temporary) = <function> defined @Interface\\AddOns\\Puggle\\Puggle.lua:1347\n(*temporary) = \"111001101001110010101010111001111001111110100101111001111001101110101110111001101010000010000111\"\n(*temporary) = \"script ran too long\"\nb = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1352: in function `Puggle_dec'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:887: in function `Puggle_displayGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:693: in function `Puggle_UpdateCurrentGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:526: in function `Puggle_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
 			["session"] = 911,
 			["counter"] = 1,
-		}, -- [176]
-		{
-			["message"] = "Interface\\FrameXML\\ChatFrame.lua:1060: bad argument #1 to 'strlower' (string expected, got nil)",
-			["time"] = "2022/11/21 01:06:11",
-			["locals"] = "(*temporary) = nil\n(*temporary) = \"string expected, got nil\"\n",
-			["stack"] = "[string \"=[C]\"]: in function `strlower'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:1060: in function <Interface\\FrameXML\\ChatFrame.lua:1055>",
-			["session"] = 920,
-			["counter"] = 42,
-		}, -- [177]
+		}, -- [174]
 		{
 			["message"] = "Interface\\AddOns\\WIM\\Sources\\Options\\CoreOptions.lua:37: attempt to index global 'db' (a nil value)",
 			["time"] = "2022/09/28 20:32:11",
@@ -1355,15 +1331,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\WIM\\Sources\\Options\\CoreOptions.lua\"]:37: in function `frame'\n[string \"@Interface\\AddOns\\WIM\\Sources\\Options\\Options-设置选项.lua\"]:190: in function <Interface\\AddOns\\WIM\\Sources\\Options\\Options.lua:184>\n[string \"=[C]\"]: in function `Click'\n[string \"@Interface\\AddOns\\WIM\\Sources\\Options\\Options-设置选项.lua\"]:281: in function `UpdateSubCategories'\n[string \"@Interface\\AddOns\\WIM\\Sources\\Options\\Options-设置选项.lua\"]:104: in function <Interface\\AddOns\\WIM\\Sources\\Options\\Options.lua:104>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\AddOns\\WIM\\Sources\\Options\\Options-设置选项.lua\"]:327: in function `ShowOptions'\n[string \"@Interface\\AddOns\\AddOnSkins\\Skins\\AddOns\\WIM-3.9.6.lua\"]:11: in function <Interface\\AddOns\\AddOnSkins\\Skins\\AddOns\\WIM.lua:8>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AddOnSkins\\Core\\Core.lua\"]:217: in function `CallSkin'\n[string \"@Interface\\AddOns\\AddOnSkins\\Core\\Core.lua\"]:311: in function `?'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:119: in function <...ler\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:29: in function <...ler\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceEvent-3.0\\AceEvent-3.0-4.lua\"]:120: in function <...seAddonController\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>",
 			["session"] = 929,
 			["counter"] = 14,
-		}, -- [178]
-		{
-			["message"] = "Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua:8: attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)",
-			["time"] = "2022/09/18 19:44:22",
-			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:67: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:53>",
-			["session"] = 930,
-			["counter"] = 75,
-		}, -- [179]
+		}, -- [175]
 		{
 			["message"] = "Interface\\AddOns\\Puggle\\Puggle-216.lua:1340: script ran too long",
 			["time"] = "2022/11/18 01:32:49",
@@ -1371,7 +1339,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1340: in function `Puggle_enc'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:630: in function `Puggle_UpdateCurrentGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:526: in function `Puggle_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
 			["session"] = 930,
 			["counter"] = 13,
-		}, -- [180]
+		}, -- [176]
 		{
 			["message"] = "Interface\\AddOns\\Puggle\\Puggle-216.lua:1335: script ran too long",
 			["time"] = "2022/11/18 01:35:29",
@@ -1379,22 +1347,54 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1335: in function `Puggle_enc'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:630: in function `Puggle_UpdateCurrentGroup'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:526: in function `Puggle_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
 			["session"] = 930,
 			["counter"] = 15,
+		}, -- [177]
+		{
+			["message"] = "Interface\\AddOns\\SpellReplay\\SpellReplay.lua:89: attempt to index field '?' (a nil value)",
+			["time"] = "2022/05/12 23:53:43",
+			["locals"] = "(for index) = 32\n(for limit) = 50\n(for step) = 1\ni = 32\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"32\"\n(*temporary) = nil\n(*temporary) = \"attempt to index field '?' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\SpellReplay\\SpellReplay.lua\"]:89: in function <Interface\\AddOns\\SpellReplay\\SpellReplay.lua:87>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2064: in function `SetUIPanel'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2138: in function `HideUIPanel'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:1826: in function <Interface_TBC\\FrameXML\\UIParent.lua:1818>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2616: in function `HideUIPanel'\n[string \"@Interface\\FrameXML\\CinematicFrame.lua\"]:51: in function <Interface\\FrameXML\\CinematicFrame.lua:39>",
+			["session"] = 934,
+			["counter"] = 4,
+		}, -- [178]
+		{
+			["message"] = "Interface\\AddOns\\SpellReplay\\SpellReplay.lua:67: attempt to index field '?' (a nil value)",
+			["time"] = "2022/05/12 23:53:43",
+			["locals"] = "(for index) = 32\n(for limit) = 50\n(for step) = 1\ni = 32\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"32\"\n(*temporary) = nil\n(*temporary) = \"attempt to index field '?' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\SpellReplay\\SpellReplay.lua\"]:67: in function <Interface\\AddOns\\SpellReplay\\SpellReplay.lua:65>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2064: in function `SetUIPanel'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2138: in function `HideUIPanel'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:1826: in function <Interface_TBC\\FrameXML\\UIParent.lua:1818>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface_TBC\\FrameXML\\UIParent.lua\"]:2616: in function `HideUIPanel'\n[string \"@Interface\\FrameXML\\CinematicFrame.lua\"]:51: in function <Interface\\FrameXML\\CinematicFrame.lua:39>",
+			["session"] = 934,
+			["counter"] = 4,
+		}, -- [179]
+		{
+			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
+			["time"] = "2021/07/01 16:18:25",
+			["locals"] = "GearScore = 2320\nItemLevel = 105\nRed = 0.081600\nBlue = 0.320000\nGreen = 0.840000\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 5\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
+			["session"] = 935,
+			["counter"] = 12223,
+		}, -- [180]
+		{
+			["message"] = "Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua:8: attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)",
+			["time"] = "2022/09/18 19:44:22",
+			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:67: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:53>",
+			["session"] = 936,
+			["counter"] = 81,
 		}, -- [181]
 		{
 			["message"] = "Interface\\AddOns\\Puggle\\Puggle-216.lua:1346: bad argument #1 to 'gsub' (string expected, got nil)",
 			["time"] = "2021/10/01 10:34:12",
 			["locals"] = "(*temporary) = nil\n(*temporary) = \"[^ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=]\"\n(*temporary) = \"\"\n(*temporary) = \"string expected, got nil\"\n",
 			["stack"] = "[string \"=[C]\"]: in function `gsub'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1346: in function `Puggle_dec'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:974: in function `Puggle_displayPlayers'\n[string \"@Interface\\AddOns\\Puggle\\Puggle-216.lua\"]:1367: in function `Puggle_SetStarSource'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>",
-			["session"] = 930,
-			["counter"] = 463,
+			["session"] = 936,
+			["counter"] = 541,
 		}, -- [182]
 		{
-			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
-			["time"] = "2021/07/01 16:18:25",
-			["locals"] = "GearScore = 2320\nItemLevel = 105\nRed = 0.081600\nBlue = 0.320000\nGreen = 0.840000\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 5\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
-			["session"] = 930,
-			["counter"] = 12181,
+			["message"] = "Interface\\FrameXML\\ChatFrame.lua:1060: bad argument #1 to 'strlower' (string expected, got nil)",
+			["time"] = "2022/11/21 01:06:11",
+			["locals"] = "(*temporary) = nil\n(*temporary) = \"string expected, got nil\"\n",
+			["stack"] = "[string \"=[C]\"]: in function `strlower'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:1060: in function <Interface\\FrameXML\\ChatFrame.lua:1055>",
+			["session"] = 936,
+			["counter"] = 50,
 		}, -- [183]
 	},
 }

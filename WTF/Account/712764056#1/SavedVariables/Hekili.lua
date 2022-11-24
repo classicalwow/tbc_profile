@@ -7,8 +7,8 @@ HekiliDB = {
 	["profileKeys"] = {
 		["特變電工 - 伊弗斯"] = "Default",
 		["路易斯桑拿 - 伊弗斯"] = "Default",
-		["暖男你馬四了 - 伊弗斯"] = "Default",
 		["邁克爾假死 - 伊弗斯"] = "Default",
+		["暖男你馬四了 - 伊弗斯"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -247,8 +247,8 @@ HekiliDB = {
 							{
 								["enabled"] = true,
 								["interrupt_if"] = "dot.unstable_affliction.remains<2||dot.corruption.remains<2||debuff.my_curse.down",
-								["action"] = "drain_soul",
 								["criteria"] = "target.health.pct < 25",
+								["action"] = "drain_soul",
 							}, -- [12]
 							{
 								["action"] = "shadow_bolt",

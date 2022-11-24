@@ -7,7 +7,7 @@ VER 3 000000000100001C "坐騎" "132150"
 /cast 霜狼嗥叫者
 END
 VER 3 000000000100001E "守护" "INV_MISC_QUESTIONMARK"
-/castsequence 雄鹰守护,蝰蛇守护
+/castsequence 龙鹰守护,蝰蛇守护
 END
 VER 3 000000000100000E "爆發" "136048"
 #showtooltip 急速射擊

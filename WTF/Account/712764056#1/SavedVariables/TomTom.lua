@@ -52,54 +52,17 @@ TomTomWaypointsM = {
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["minimap"] = true,
+					["desc"] = "奈瑟斯塔兹",
+					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "奈瑟斯塔兹",
 					["from"] = "Questie",
 					["callbacks"] = {
 						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["world"] = true,
-				},
-				["115:441950259.10092:448367138.86488:TomTom 路径点"] = {
-					115, -- [1]
-					0.4419502591009248, -- [2]
-					0.4483671388648768, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["desc"] = "TomTom 路径点",
-					["silent"] = true,
-					["cleardistance"] = 10,
-					["title"] = "TomTom 路径点",
-					["from"] = "TomTom/wm",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["minimap"] = true,

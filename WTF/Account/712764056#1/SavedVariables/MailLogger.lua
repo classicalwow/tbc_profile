@@ -739,10 +739,10 @@ MailLoggerDB = {
 					["ItemLink"] = "|cff1eff00|Hitem:12799::::::::80:::::::::|h[大猫眼石]|h|r",
 					["Name"] = "大猫眼石",
 				},
-				[98] = {
-					["Number"] = 30,
-					["ItemLink"] = "|cff1eff00|Hitem:12361::::::::80:::::::::|h[蓝宝石]|h|r",
-					["Name"] = "蓝宝石",
+				[10] = {
+					["Number"] = 21,
+					["ItemLink"] = "|cff1eff00|Hitem:1206::::::::80:::::::::|h[绿玛瑙]|h|r",
+					["Name"] = "绿玛瑙",
 				},
 				[95] = {
 					["Number"] = 10,
@@ -754,10 +754,10 @@ MailLoggerDB = {
 					["ItemLink"] = "|cff1eff00|Hitem:6037::::::::80:::::::::|h[真银锭]|h|r",
 					["Name"] = "真银锭",
 				},
-				[10] = {
-					["Number"] = 21,
-					["ItemLink"] = "|cff1eff00|Hitem:1206::::::::80:::::::::|h[绿玛瑙]|h|r",
-					["Name"] = "绿玛瑙",
+				[98] = {
+					["Number"] = 30,
+					["ItemLink"] = "|cff1eff00|Hitem:12361::::::::80:::::::::|h[蓝宝石]|h|r",
+					["Name"] = "蓝宝石",
 				},
 				[72] = {
 					["Number"] = 36,
@@ -1355,5 +1355,263 @@ MailLoggerDB = {
 				}, -- [2]
 			},
 		}, -- [49]
+		{
+			["PlayerName"] = "特變電工",
+			["TargetName"] = "部落拍卖行",
+			["Reason"] = 3,
+			["Date"] = "2022-11-23",
+			["ReceiveMoney"] = 19146,
+			["Time"] = "20:07:16",
+			["GiveMoney"] = 0,
+			["Location"] = "奥格瑞玛",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 10,
+					["ItemLink"] = "|cffffffff|Hitem:46379::::::::80:::::::::|h[石血合剂]|h|r",
+					["Name"] = "石血合剂",
+				}, -- [1]
+			},
+		}, -- [50]
+		{
+			["PlayerName"] = "特變電工",
+			["TargetName"] = "部落拍卖行",
+			["Reason"] = 1,
+			["Date"] = "2022-11-23",
+			["ReceiveMoney"] = 0,
+			["Time"] = "20:08:42",
+			["GiveMoney"] = 0,
+			["Location"] = "奥格瑞玛",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff0070dd|Hitem:40015::::::::80:::::::::|h[厚重秋色石]|h|r",
+					["Name"] = "厚重秋色石",
+				}, -- [1]
+			},
+		}, -- [51]
+		{
+			["PlayerName"] = "特變電工",
+			["TargetName"] = "部落拍卖行",
+			["Reason"] = 4,
+			["Date"] = "2022-11-23",
+			["ReceiveMoney"] = 0,
+			["Time"] = "20:11:43",
+			["GiveMoney"] = 0,
+			["Location"] = "奥格瑞玛",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff0070dd|Hitem:42225::::::::80:::::::::|h[龙眼石]|h|r",
+					["Name"] = "龙眼石",
+				}, -- [1]
+				{
+					["Number"] = 2,
+					["ItemLink"] = "|cff1eff00|Hitem:39906::::::::80:::::::::|h[明亮血石]|h|r",
+					["Name"] = "明亮血石",
+				}, -- [2]
+				nil, -- [3]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:44947::::::::80:::::::::|h[卷轴：附魔护腕 - 特效耐力]|h|r",
+					["Name"] = "卷轴：附魔护腕 - 特效耐力",
+				}, -- [4]
+			},
+		}, -- [52]
+		{
+			["Date"] = "2022-11-23",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "纳克萨玛斯",
+			["TargetName"] = "青樓探花",
+			["Time"] = "20:20:08",
+			["ReceiveItems"] = {
+			},
+		}, -- [53]
+		{
+			["TargetName"] = "青樓探花",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2022-11-23",
+			["ReceiveMoney"] = 0,
+			["Time"] = "20:20:08",
+			["GiveMoney"] = 0,
+			["Location"] = "纳克萨玛斯",
+			["GiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff1eff00|Hitem:39906::::::::80:::::::::|h[明亮血石]|h|r",
+					["Name"] = "明亮血石",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff1eff00|Hitem:39906::::::::80:::::::::|h[明亮血石]|h|r",
+					["Name"] = "明亮血石",
+				}, -- [2]
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [54]
+		{
+			["Date"] = "2022-11-23",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "纳克萨玛斯",
+			["TargetName"] = "小賓州圍走",
+			["Time"] = "21:12:59",
+			["ReceiveItems"] = {
+			},
+		}, -- [55]
+		{
+			["TargetName"] = "小賓州圍走",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2022-11-23",
+			["ReceiveMoney"] = 0,
+			["Time"] = "21:12:59",
+			["GiveMoney"] = 9000000,
+			["Location"] = "纳克萨玛斯",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:39141::::::::80:::::::::|h[偏斜指环]|h|r",
+					["Name"] = "偏斜指环",
+				}, -- [1]
+			},
+		}, -- [56]
+		{
+			["Date"] = "2022-11-23",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "纳克萨玛斯",
+			["TargetName"] = "小賓州圍走",
+			["Time"] = "22:12:30",
+			["ReceiveItems"] = {
+			},
+		}, -- [57]
+		{
+			["TargetName"] = "小賓州圍走",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2022-11-23",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:12:30",
+			["GiveMoney"] = 10000000,
+			["Location"] = "纳克萨玛斯",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:39472::::::::80:::::::::|h[潜伏能量之链]|h|r",
+					["Name"] = "潜伏能量之链",
+				}, -- [1]
+			},
+		}, -- [58]
+		{
+			["Date"] = "2022-11-23",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "纳克萨玛斯",
+			["TargetName"] = "小賓州圍走",
+			["Time"] = "23:12:29",
+			["ReceiveItems"] = {
+			},
+		}, -- [59]
+		{
+			["TargetName"] = "小賓州圍走",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2022-11-23",
+			["ReceiveMoney"] = 13000000,
+			["Time"] = "23:12:29",
+			["GiveMoney"] = 0,
+			["Location"] = "纳克萨玛斯",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [60]
+		{
+			["Date"] = "2022-11-23",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "永恒之眼",
+			["TargetName"] = "小賓州圍走",
+			["Time"] = "23:52:23",
+			["ReceiveItems"] = {
+			},
+		}, -- [61]
+		{
+			["TargetName"] = "小賓州圍走",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2022-11-23",
+			["ReceiveMoney"] = 0,
+			["Time"] = "23:52:23",
+			["GiveMoney"] = 3000000,
+			["Location"] = "永恒之眼",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:40614::::::::80:::::::::|h[失落保卫者的手套]|h|r",
+					["Name"] = "失落保卫者的手套",
+				}, -- [1]
+			},
+		}, -- [62]
+		{
+			["Date"] = "2022-11-24",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["TargetName"] = "小賓州圍走",
+			["Time"] = "00:08:24",
+			["ReceiveItems"] = {
+			},
+		}, -- [63]
+		{
+			["TargetName"] = "小賓州圍走",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2022-11-24",
+			["ReceiveMoney"] = 3440000,
+			["Time"] = "00:08:24",
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [64]
 	},
 }
