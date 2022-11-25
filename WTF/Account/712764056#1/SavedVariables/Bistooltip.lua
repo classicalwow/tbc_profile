@@ -2,19 +2,18 @@
 BisTooltipDB = {
 	["profileKeys"] = {
 		["特變電工 - 伊弗斯"] = "Default",
-		["路易斯桑拿 - 伊弗斯"] = "Default",
 		["邁克爾假死 - 伊弗斯"] = "Default",
 		["暖男你馬四了 - 伊弗斯"] = "Default",
+		["路易斯桑拿 - 伊弗斯"] = "Default",
 	},
 	["char"] = {
 		["特變電工 - 伊弗斯"] = {
 			["class_index"] = 10,
-			["version"] = 6.1,
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
-					["Protection"] = true,
 					["Arms"] = true,
+					["Protection"] = true,
 				},
 				["Paladin"] = {
 					["Protection"] = true,
@@ -31,15 +30,15 @@ BisTooltipDB = {
 					["Assassination"] = true,
 				},
 				["Mage"] = {
-					["Fire FFB"] = true,
+					["Arcane"] = true,
 					["Frost"] = true,
 					["Fire"] = true,
-					["Arcane"] = true,
+					["Fire FFB"] = true,
 				},
 				["Druid"] = {
-					["Restoration"] = true,
-					["Balance"] = true,
 					["Feral dps"] = true,
+					["Balance"] = true,
+					["Restoration"] = true,
 					["Feral tank"] = true,
 				},
 				["Death knight"] = {
@@ -49,30 +48,30 @@ BisTooltipDB = {
 				},
 				["Hunter"] = {
 					["Marksmanship"] = true,
-					["Survival"] = true,
 					["Beast mastery"] = true,
+					["Survival"] = true,
+				},
+				["Priest"] = {
+					["Discipline"] = true,
+					["Holy"] = true,
+					["Shadow"] = true,
 				},
 				["Warlock"] = {
 					["Demonology"] = true,
 					["Affliction"] = true,
 					["Destruction"] = true,
 				},
-				["Priest"] = {
-					["Discipline"] = true,
-					["Shadow"] = true,
-					["Holy"] = true,
-				},
 			},
-			["spec_index"] = 3,
-			["phase_index"] = 2,
-		},
-		["路易斯桑拿 - 伊弗斯"] = {
 			["version"] = 6.1,
+			["spec_index"] = 3,
 		},
 		["邁克爾假死 - 伊弗斯"] = {
 			["version"] = 6.1,
 		},
 		["暖男你馬四了 - 伊弗斯"] = {
+			["version"] = 6.1,
+		},
+		["路易斯桑拿 - 伊弗斯"] = {
 			["version"] = 6.1,
 		},
 	},

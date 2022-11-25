@@ -64,15 +64,11 @@ L["options:general:full-opacity-always:tooltip"] = "Falls diese Option aktiviert
 L["options:general:icon-grow-direction"] = "Die Wuchsrichtung der Symbole"
 L["options:general:ignore-nameplate-scale"] = "Namensplakettenskalierung ignorieren"
 L["options:general:ignore-nameplate-scale:tooltip"] = "Falls diese Option aktiviert ist, ist die Größe des Symbols nicht abhängig von der Skalierung der Namensplakette. (Zum Beispiel falls die Namensplakette deines Ziels größer wird.)"
---[[Translation missing --]]
-L["options:general:inverse-logic"] = "Inverse logic"
---[[Translation missing --]]
-L["options:general:inverse-logic:tooltip"] = "Display icon if player IS ABLE to cast certain spell"
+L["options:general:inverse-logic"] = "Umgekehrte Logik"
+L["options:general:inverse-logic:tooltip"] = "Zeigt das Symbol an, wenn der Spieler in der Lage ist, einen bestimmten Zauber zu wirken"
 L["options:general:show-cd-on-allies"] = "Abklingzeiten auf Namensplaketten von Verbündeten anzeigen"
---[[Translation missing --]]
-L["options:general:show-cooldown-animation"] = "Enable cooldown animation"
---[[Translation missing --]]
-L["options:general:show-cooldown-animation:tooltip"] = "Enables spin animation on cooldown icons"
+L["options:general:show-cooldown-animation"] = "Abklingzeitanimation aktivieren"
+L["options:general:show-cooldown-animation:tooltip"] = "Aktiviert die rotierende Animation auf Abklingzeitsymbolen"
 L["options:general:show-cooldown-tooltip"] = "Abklingzeittooltip anzeigen"
 L["options:general:show-inactive-cd"] = "Inaktive Abklingzeiten anzeigen"
 L["options:general:show-inactive-cd:tooltip"] = [=[Beachte: Du wirst NICHT all verfügbaren Abklingzauber sehen!

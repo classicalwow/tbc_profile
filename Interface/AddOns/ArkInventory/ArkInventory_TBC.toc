@@ -3,7 +3,7 @@
 ## Title: ArkInventory [TBC]
 ## Author: Arkayenro - Khaz'goroth
 ## Email: arkayenro at gmail dot com
-## Version: 31005
+## Version: 31003
 ## X-ReleaseType: 
 ## SavedVariables: ARKINVDB
 
@@ -24,10 +24,6 @@
 ## X-Curse-Project-ID: 3651
 ## X-WoWI-ID: 6488
 ## X-Wago-ID: rkGr1XKy
-
-## t-Curse-Project-ID: 581591
-## t-WoWI-ID: 26395
-## t-Wago-ID: 5bGo1860
 
 
 #@no-lib-strip@
@@ -72,7 +68,7 @@ Core\ArkInventoryTooltip.lua
 Core\ArkInventoryMoney.lua
 Core\ArkInventoryMedia.lua
 
-Core\ArkInventoryAction.lua
+Core\ArkInventoryJunk.lua
 
 Core\ArkInventory.xml
 

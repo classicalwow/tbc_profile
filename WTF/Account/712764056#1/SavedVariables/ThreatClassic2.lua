@@ -2,9 +2,9 @@
 ThreatClassic2DB = {
 	["profileKeys"] = {
 		["路易斯桑拿 - 伊弗斯"] = "路易斯桑拿 - 伊弗斯",
-		["特變電工 - 伊弗斯"] = "Default",
 		["邁克爾假死 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
 		["暖男你馬四了 - 伊弗斯"] = "Default",
+		["特變電工 - 伊弗斯"] = "Default",
 	},
 	["profiles"] = {
 		["路易斯桑拿 - 伊弗斯"] = {
@@ -29,11 +29,13 @@ ThreatClassic2DB = {
 			},
 		},
 		["Default"] = {
-			["bar"] = {
-				["count"] = 7,
+			["warnings"] = {
+				["sound"] = true,
+				["flash"] = true,
 			},
 			["frame"] = {
 				["height"] = 139.9329986572266,
+				["width"] = 251.4393310546875,
 				["position"] = {
 					nil, -- [1]
 					nil, -- [2]
@@ -41,14 +43,12 @@ ThreatClassic2DB = {
 					707.6512451171875, -- [4]
 					-757.6970825195312, -- [5]
 				},
-				["width"] = 251.4393310546875,
 			},
 			["general"] = {
 				["hideOOC"] = true,
 			},
-			["warnings"] = {
-				["sound"] = true,
-				["flash"] = true,
+			["bar"] = {
+				["count"] = 7,
 			},
 		},
 	},

@@ -442,7 +442,6 @@ ArkInventory.Const = { -- constants
 					COLLECTED = LE_PET_JOURNAL_FILTER_COLLECTED or 1,
 					NOTCOLLECTED = LE_PET_JOURNAL_FILTER_NOT_COLLECTED or 2,
 				},
-				CAGE_ITEMID = 82800,
 			},
 			MAILBOX = {
 				NUM_ATTACHMENT_MAX = ATTACHMENTS_MAX_RECEIVE,
@@ -738,36 +737,8 @@ ArkInventory.Const = { -- constants
 			YES = 1,
 			ALWAYS = 2,
 		},
-		CATEGORY = {
-			ACTION = {
-				WHEN = {
-					DISABLED = 0,
-					MANUAL = 1,
-					AUTO = 2,
-					MAX = 2,
-				},
-				TYPE = {
-					DISABLED = 0,
-					VENDOR = 1,
-					MAIL = 2,
-					BANK = 3,
-					MAX = 3,
-				},
-			},
-			LIST = {
-				SORT = {
-					NAME = 1,
-					NUMBER = 2,
-					ORDER = 3,
-				},
-				SHOW = {
-					ACTIVE = 1,
-					DELETED = 2,
-				},
-			},
-		},
 	},
-	
+
 	Frame = {
 		Main = {
 			Name = "ARKINV_Frame",
@@ -1108,7 +1079,7 @@ ArkInventory.Const = { -- constants
 			},
 		},
 		
-		Money = [[Interface\Icons\INV_Misc_Coin_02]],
+		Junk = [[Interface\Icons\INV_Misc_Coin_02]],
 		
 		Yes = [[Interface\RAIDFRAME\ReadyCheck-Ready]],
 		No = [[Interface\RAIDFRAME\ReadyCheck-NotReady]],
@@ -1316,28 +1287,6 @@ ArkInventory.Const = { -- constants
 	
 	ObjectDataMaxAttempts = 10,
 	
-}
-
-ArkInventory.Collection = { }
-ArkInventory.Action = { }
-
-ArkInventory.Const.Texture.Action = {
-	[ArkInventory.Const.ENUM.CATEGORY.ACTION.TYPE.VENDOR] = {
-		[ArkInventory.Const.ENUM.CATEGORY.ACTION.WHEN.AUTO] = [[Interface\Icons\INV_Misc_Coin_02]],
-		[ArkInventory.Const.ENUM.CATEGORY.ACTION.WHEN.MANUAL] = [[Interface\Icons\INV_Misc_Coin_04]],
-	},
-	[ArkInventory.Const.ENUM.CATEGORY.ACTION.TYPE.MAIL] = {
-		[ArkInventory.Const.ENUM.CATEGORY.ACTION.WHEN.AUTO] = [[Interface\Icons\INV_Letter_03]],
-		[ArkInventory.Const.ENUM.CATEGORY.ACTION.WHEN.MANUAL] = [[Interface\Icons\INV_Letter_13]],
-	},
-}
-
-
-ArkInventory.Const.ClassArmor = {
-	[ArkInventory.Const.ENUM.ITEMCLASS.ARMOR.CLOTH] = { MAGE = 1, PRIEST = 1, WARLOCK = 1 },
-	[ArkInventory.Const.ENUM.ITEMCLASS.ARMOR.LEATHER] = { DRUID = 1, ROGUE = 1, LOWLEVELHUNTER = 1, MONK = 1, DEMONHUNTER = 1 },
-	[ArkInventory.Const.ENUM.ITEMCLASS.ARMOR.MAIL] = { HUNTER = 1, SHAMAN = 1, EVOKER = 1 },
-	[ArkInventory.Const.ENUM.ITEMCLASS.ARMOR.PLATE] = { PALADIN = 1, WARRIOR = 1, DEATHKNIGHT = 1 },
 }
 
 ArkInventory.Const.BLIZZARD.GLOBAL.CONTAINER.NUM_BAGS = ArkInventory.Const.BLIZZARD.GLOBAL.CONTAINER.NUM_BAGS_NORMAL + ArkInventory.Const.BLIZZARD.GLOBAL.CONTAINER.NUM_BAGS_REAGENT
