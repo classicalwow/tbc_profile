@@ -210,9 +210,10 @@ RXPGuides: enabled
 SpellReplay: disabled
 TradeShout: enabled
 VuhDoOptions: disabled
-EZQuest: disabled
+EZQuest: enabled
 ElvUI_Libraries: enabled
 ElvUI_Options: enabled
 DBM-Party-Vanilla: disabled
 FFLU: enabled
 ElvUI_UnitFramePlugin: disabled
+Hekili: enabled

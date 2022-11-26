@@ -24,9 +24,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:44063::::::::80:::::::::|h[雕像 - 帝黄晶螃蟹]|h|r",
 		},
 		[7] = {
-			["ID"] = 44240,
-			["Level"] = 187,
-			["Link"] = "|cff0070dd|Hitem:44240::::::::80:::::::::|h[特殊制式腿铠]|h|r",
+			["ID"] = 37263,
+			["Level"] = 200,
+			["Link"] = "|cff0070dd|Hitem:37263::::::::80:::::::::|h[魔环守护者腿铠]|h|r",
 		},
 		[14] = {
 			["ID"] = 42341,
@@ -45,10 +45,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:37618::::::::80:::::::::|h[上古邪恶胫甲]|h|r",
 		},
 		[16] = {
-			["ID"] = 44311,
-			["Level"] = 200,
-			["AlsoFitsIn"] = 17,
-			["Link"] = "|cffa335ee|Hitem:44311::::::::80:::::::::|h[艾沃尔的巨魔剑]|h|r",
+			["ID"] = 40497,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:40497::::::::80:::::::::|h[黑冰]|h|r",
 		},
 		[17] = {
 			["ID"] = 42508,
@@ -88,13 +87,13 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:42112::::::::80:::::::::|h[憎恨角斗士的凯旋指环]|h|r",
 		},
 		[5] = {
-			["ID"] = 36381,
-			["Level"] = 174,
-			["Link"] = "|cff1eff00|Hitem:36381::::::-45:1183973477:80:::::::::|h[勇士之魔像胸甲]|h|r",
+			["ID"] = 37722,
+			["Level"] = 200,
+			["Link"] = "|cff0070dd|Hitem:37722::::::::80:::::::::|h[死灵胸铠]|h|r",
 		},
 	},
-	["LastPlayerFullName"] = "特變電工-伊弗斯",
 	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "特變電工-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

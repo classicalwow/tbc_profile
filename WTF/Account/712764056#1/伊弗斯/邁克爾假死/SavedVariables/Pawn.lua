@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0712,
+	["LastPlayerFullName"] = "邁克爾假死-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 39020,
@@ -19,14 +21,14 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 30139,
-			["Level"] = 133,
-			["Link"] = "|cffa335ee|Hitem:30139::::::::70:::::::::|h[裂隙行者鍊衫]|h|r",
+			["ID"] = 39799,
+			["Level"] = 158,
+			["Link"] = "|cff1eff00|Hitem:39799::::::::75:::::::::|h[营救者的胸甲]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 30879,
-			["Level"] = 141,
-			["Link"] = "|cffa335ee|Hitem:30879::::::::70:::::::::|h[阿里漢多先生的金幣腰帶]|h|r",
+			["ID"] = 39780,
+			["Level"] = 158,
+			["Link"] = "|cff1eff00|Hitem:39780::::::::76:::::::::|h[勇猛战斗腰带]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 30142,
@@ -55,10 +57,10 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:38748::::::::75:::::::::|h[休眠恶狼印记]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 38068,
-			["Level"] = 146,
+			["ID"] = 38748,
+			["Level"] = 154,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff1eff00|Hitem:38068::::::::73:::::::::|h[罪人的悔悟]|h|r",
+			["Link"] = "|cff1eff00|Hitem:38748::::::::76:::::::::|h[休眠恶狼印记]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 38761,
@@ -67,10 +69,10 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:38761::::::::75:::::::::|h[仇恨之爪]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 38081,
-			["Level"] = 146,
+			["ID"] = 38761,
+			["Level"] = 154,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff1eff00|Hitem:38081::::::::73:::::::::|h[伊萨诺斯甲虫]|h|r",
+			["Link"] = "|cff1eff00|Hitem:38761::::::::76:::::::::|h[仇恨之爪]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 36998,
@@ -93,8 +95,6 @@ PawnOptions = {
 			["Link"] = "|cffff8000|Hitem:30318::::::::70:::::::::|h[虛空之絃長弓]|h|r",
 		}, -- [18]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "邁克爾假死-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
