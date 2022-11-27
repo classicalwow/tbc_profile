@@ -739,10 +739,10 @@ MailLoggerDB = {
 					["ItemLink"] = "|cff1eff00|Hitem:12799::::::::80:::::::::|h[大猫眼石]|h|r",
 					["Name"] = "大猫眼石",
 				},
-				[10] = {
-					["Number"] = 21,
-					["ItemLink"] = "|cff1eff00|Hitem:1206::::::::80:::::::::|h[绿玛瑙]|h|r",
-					["Name"] = "绿玛瑙",
+				[98] = {
+					["Number"] = 30,
+					["ItemLink"] = "|cff1eff00|Hitem:12361::::::::80:::::::::|h[蓝宝石]|h|r",
+					["Name"] = "蓝宝石",
 				},
 				[95] = {
 					["Number"] = 10,
@@ -754,10 +754,10 @@ MailLoggerDB = {
 					["ItemLink"] = "|cff1eff00|Hitem:6037::::::::80:::::::::|h[真银锭]|h|r",
 					["Name"] = "真银锭",
 				},
-				[98] = {
-					["Number"] = 30,
-					["ItemLink"] = "|cff1eff00|Hitem:12361::::::::80:::::::::|h[蓝宝石]|h|r",
-					["Name"] = "蓝宝石",
+				[10] = {
+					["Number"] = 21,
+					["ItemLink"] = "|cff1eff00|Hitem:1206::::::::80:::::::::|h[绿玛瑙]|h|r",
+					["Name"] = "绿玛瑙",
 				},
 				[72] = {
 					["Number"] = 36,
@@ -2295,5 +2295,165 @@ MailLoggerDB = {
 				}, -- [7]
 			},
 		}, -- [101]
+		{
+			["TargetName"] = "路易斯桑拿",
+			["PlayerName"] = "邁克爾假死",
+			["Date"] = "2022-11-26",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 45,
+					["ItemLink"] = "|cffffffff|Hitem:33470::::::::76:::::::::|h[霜纹布]|h|r",
+					["Name"] = "霜纹布",
+				}, -- [1]
+				nil, -- [2]
+				{
+					["Number"] = 5,
+					["ItemLink"] = "|cffffffff|Hitem:42253::::::::76:::::::::|h[冰网蛛丝]|h|r",
+					["Name"] = "冰网蛛丝",
+				}, -- [3]
+				nil, -- [4]
+				{
+					["Number"] = 4,
+					["ItemLink"] = "|cff1eff00|Hitem:36932::::::::76:::::::::|h[黑玉]|h|r",
+					["Name"] = "黑玉",
+				}, -- [5]
+				{
+					["Number"] = 2,
+					["ItemLink"] = "|cff1eff00|Hitem:36926::::::::76:::::::::|h[暗影水晶]|h|r",
+					["Name"] = "暗影水晶",
+				}, -- [6]
+				{
+					["Number"] = 3,
+					["ItemLink"] = "|cff1eff00|Hitem:36920::::::::76:::::::::|h[太阳水晶]|h|r",
+					["Name"] = "太阳水晶",
+				}, -- [7]
+				{
+					["Number"] = 2,
+					["ItemLink"] = "|cff0070dd|Hitem:36918::::::::76:::::::::|h[血玉石]|h|r",
+					["Name"] = "血玉石",
+				}, -- [8]
+				{
+					["Number"] = 2,
+					["ItemLink"] = "|cff1eff00|Hitem:36929::::::::76:::::::::|h[茶晶石]|h|r",
+					["Name"] = "茶晶石",
+				}, -- [9]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff1eff00|Hitem:36923::::::::76:::::::::|h[玉髓石]|h|r",
+					["Name"] = "玉髓石",
+				}, -- [10]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff0070dd|Hitem:36930::::::::76:::::::::|h[帝黄晶]|h|r",
+					["Name"] = "帝黄晶",
+				}, -- [11]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "祖达克",
+			["Time"] = "14:36:37",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [102]
+		{
+			["TargetName"] = "路易斯桑拿",
+			["PlayerName"] = "邁克爾假死",
+			["Date"] = "2022-11-26",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 3,
+					["ItemLink"] = "|cffffffff|Hitem:36909::::::::76:::::::::|h[钴矿石]|h|r",
+					["Name"] = "钴矿石",
+				}, -- [1]
+				{
+					["Number"] = 3,
+					["ItemLink"] = "|cffffffff|Hitem:36901::::::::76:::::::::|h[金苜蓿]|h|r",
+					["Name"] = "金苜蓿",
+				}, -- [2]
+				{
+					["Number"] = 2,
+					["ItemLink"] = "|cffffffff|Hitem:40097::::::::76:::::::::|h[防护药剂]|h|r",
+					["Name"] = "防护药剂",
+				}, -- [3]
+				{
+					["Number"] = 3,
+					["ItemLink"] = "|cffffffff|Hitem:44331::::::::76:::::::::|h[闪电疾速药剂]|h|r",
+					["Name"] = "闪电疾速药剂",
+				}, -- [4]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "祖达克",
+			["Time"] = "14:36:44",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [103]
+		{
+			["TargetName"] = "路易斯桑拿",
+			["PlayerName"] = "邁克爾假死",
+			["Date"] = "2022-11-26",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 36,
+					["ItemLink"] = "|cffffffff|Hitem:33470::::::::77:::::::::|h[霜纹布]|h|r",
+					["Name"] = "霜纹布",
+				}, -- [1]
+				nil, -- [2]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:42253::::::::77:::::::::|h[冰网蛛丝]|h|r",
+					["Name"] = "冰网蛛丝",
+				}, -- [3]
+				{
+					["Number"] = 4,
+					["ItemLink"] = "|cffffffff|Hitem:37705::::::::77:::::::::|h[水之结晶]|h|r",
+					["Name"] = "水之结晶",
+				}, -- [4]
+				{
+					["Number"] = 2,
+					["ItemLink"] = "|cff1eff00|Hitem:35622::::::::77:::::::::|h[永恒之水]|h|r",
+					["Name"] = "永恒之水",
+				}, -- [5]
+				{
+					["Number"] = 2,
+					["ItemLink"] = "|cffffffff|Hitem:36905::::::::77:::::::::|h[巫妖花]|h|r",
+					["Name"] = "巫妖花",
+				}, -- [6]
+				{
+					["Number"] = 5,
+					["ItemLink"] = "|cffffffff|Hitem:36907::::::::77:::::::::|h[塔兰德拉的玫瑰]|h|r",
+					["Name"] = "塔兰德拉的玫瑰",
+				}, -- [7]
+				{
+					["Number"] = 6,
+					["ItemLink"] = "|cffffffff|Hitem:37701::::::::77:::::::::|h[土之结晶]|h|r",
+					["Name"] = "土之结晶",
+				}, -- [8]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:44330::::::::77:::::::::|h[护甲穿透药剂]|h|r",
+					["Name"] = "护甲穿透药剂",
+				}, -- [9]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:36906::::::::77:::::::::|h[冰棘草]|h|r",
+					["Name"] = "冰棘草",
+				}, -- [10]
+				{
+					["Number"] = 20,
+					["ItemLink"] = "|cffffffff|Hitem:33568::::::::77:::::::::|h[北地皮]|h|r",
+					["Name"] = "北地皮",
+				}, -- [11]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "风暴峭壁",
+			["Time"] = "17:03:28",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [104]
 	},
 }

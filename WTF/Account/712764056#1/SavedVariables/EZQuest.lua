@@ -2,7 +2,7 @@
 EZQuest_SavedVars = {
 	["AutoAcceptQuests"] = true,
 	["version"] = 1,
-	["IsEnabled"] = true,
+	["IsEnabled"] = false,
 	["AutoTrackQuests"] = true,
 	["AutoTurnInQuests"] = true,
 }

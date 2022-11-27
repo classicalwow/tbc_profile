@@ -10,7 +10,7 @@ Postal3DB = {
 			["alts"] = {
 				"暖男你馬四了|伊弗斯|Alliance|1|WARLOCK", -- [1]
 				"特變電工|伊弗斯|Horde|80|WARRIOR", -- [2]
-				"邁克爾假死|伊弗斯|Horde|76|HUNTER", -- [3]
+				"邁克爾假死|伊弗斯|Horde|78|HUNTER", -- [3]
 			},
 		},
 	},

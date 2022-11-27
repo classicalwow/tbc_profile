@@ -1,5 +1,5 @@
 VER 3 000000000100001F "target" "135769"
-/target 祖达克老鼠
+/target 雷铸技师
 /script SetRaidTarget("target",8)
 END
 VER 3 000000000100001C "坐騎" "132150"

@@ -6,7 +6,10 @@ LootMonitorDB = {
 			["Class"] = "WARRIOR",
 			["InstanceID"] = 533,
 			["FirstPlayer"] = "大呆猛",
+			["FirstClass"] = "PALADIN",
+			["InstanceName"] = "纳克萨玛斯",
 			["SavedID"] = 113131489,
+			["Player"] = "特變電工",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-533-9792-16028-00007E0EBE",
@@ -141,9 +144,6 @@ LootMonitorDB = {
 					},
 				}, -- [11]
 			},
-			["FirstClass"] = "PALADIN",
-			["Player"] = "特變電工",
-			["InstanceName"] = "纳克萨玛斯",
 		}, -- [1]
 	},
 	["Config"] = {

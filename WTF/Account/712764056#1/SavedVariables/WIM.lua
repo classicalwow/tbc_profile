@@ -41,19 +41,19 @@ WIM3_Data = {
 				["autofocus"] = false,
 				["onReceive"] = true,
 			},
-			["arena"] = {
-				["keepfocus"] = false,
-				["supress"] = false,
-				["onSend"] = false,
-				["autofocus"] = false,
-				["onReceive"] = false,
-			},
 			["raid"] = {
 				["keepfocus"] = false,
 				["supress"] = true,
 				["onSend"] = true,
 				["autofocus"] = false,
 				["onReceive"] = true,
+			},
+			["arena"] = {
+				["keepfocus"] = false,
+				["supress"] = false,
+				["onSend"] = false,
+				["autofocus"] = false,
+				["onReceive"] = false,
 			},
 			["alwaysOther"] = false,
 		},
@@ -102,14 +102,14 @@ WIM3_Data = {
 				["autofocus"] = false,
 				["onReceive"] = false,
 			},
-			["arena"] = {
+			["raid"] = {
 				["keepfocus"] = false,
 				["supress"] = false,
 				["onSend"] = false,
 				["autofocus"] = false,
 				["onReceive"] = false,
 			},
-			["raid"] = {
+			["arena"] = {
 				["keepfocus"] = false,
 				["supress"] = false,
 				["onSend"] = false,
@@ -202,12 +202,12 @@ WIM3_Data = {
 			["g"] = 0,
 			["b"] = 0,
 		},
+		["useSkin"] = true,
 		["BNwispIn"] = {
 			["r"] = 0,
 			["g"] = 0.4862745098039216,
 			["b"] = 0.6549019607843137,
 		},
-		["useSkin"] = true,
 		["historyOut"] = {
 			["r"] = 0.7058823529411764,
 			["g"] = 0.7058823529411764,
@@ -304,11 +304,11 @@ WIM3_Data = {
 		},
 	},
 	["ignoreArrowKeys"] = true,
+	["coloredNames"] = true,
 	["winLoc"] = {
 		["left"] = 217,
 		["top"] = 664,
 	},
-	["coloredNames"] = true,
 	["clampToScreen"] = true,
 	["stats"] = {
 		["startDate"] = "",
@@ -322,6 +322,21 @@ WIM3_Data = {
 		["selected"] = "WIM Classic",
 		["font"] = "ChatFontNormal",
 		["suggest"] = true,
+	},
+	["ClickControl"] = {
+		["clickSensitivity"] = 0.2,
+	},
+	["tabs"] = {
+		["sortBy"] = 2,
+		["whispers"] = {
+			["enabled"] = false,
+			["guild"] = false,
+			["friends"] = false,
+		},
+		["chat"] = {
+			["enabled"] = false,
+			["aswhisper"] = false,
+		},
 	},
 	["history"] = {
 		["ageLimit"] = true,
@@ -343,21 +358,6 @@ WIM3_Data = {
 			["maxCount"] = 500,
 			["previewCount"] = 25,
 		},
-	},
-	["tabs"] = {
-		["sortBy"] = 2,
-		["whispers"] = {
-			["enabled"] = false,
-			["guild"] = false,
-			["friends"] = false,
-		},
-		["chat"] = {
-			["enabled"] = false,
-			["aswhisper"] = false,
-		},
-	},
-	["ClickControl"] = {
-		["clickSensitivity"] = 0.2,
 	},
 	["chat"] = {
 		["bn"] = {
@@ -415,55 +415,56 @@ WIM3_Cache = {
 		["邁克爾假死"] = {
 			["friendList"] = {
 				["朝闻道"] = 1,
+				["楓糖奶油"] = 1,
 				["|Kq16|k"] = 2,
 				["吐司小淘氣"] = 1,
-				["號呆"] = 1,
-				["|Kq9|k"] = 2,
+				["Thisisbookk"] = 1,
+				["乆牛乆排丂"] = 1,
 				["樹獺從命"] = 1,
 				["畜生區隊長"] = 1,
-				["妮妮兒"] = 1,
+				["|Kq9|k"] = 2,
 				["舊大魔"] = 1,
-				["佛印"] = 1,
+				["|Kq23|k"] = 2,
 				["琥珀貓"] = 1,
-				["Thisisbookk"] = 1,
+				["佛印"] = 1,
 				["沒有小骨"] = 1,
-				["花生夾心酥"] = 1,
+				["別背對我"] = 1,
 				["|Kq14|k"] = 2,
 				["|Kq18|k"] = 2,
-				["展雄飛"] = 1,
+				["花生夾心酥"] = 1,
 				["崩巴"] = 1,
-				["|Kq22|k"] = 2,
+				["展雄飛"] = 1,
 				["凡凡射爆妳"] = 1,
 				["小泰山"] = 1,
 				["鮮肉牛"] = 1,
-				["十塊錢"] = 1,
+				["號呆"] = 1,
 				["小璐大人"] = 1,
 				["|Kq15|k"] = 2,
 				["|Kq10|k"] = 2,
 				["|Kq7|k"] = 2,
 				["亞娜娜"] = 1,
 				["比烈"] = 1,
-				["泰山喔一喔"] = 1,
+				["|Kq22|k"] = 2,
 				["阿強"] = 1,
-				["卡莉米奈西爾"] = 1,
+				["白菜蘿蔔湯"] = 1,
 				["颯可買地殼"] = 1,
-				["萬一"] = 1,
-				["甲鳥薩"] = 1,
 				["裴矩"] = 1,
-				["|Kq26|k"] = 2,
-				["客家鳥德"] = 1,
-				["奶很小不給力"] = 1,
-				["孟德兄"] = 1,
+				["甲鳥薩"] = 1,
 				["帕司達"] = 1,
+				["瀟灑大壞蛋"] = 1,
+				["孟德兄"] = 1,
+				["奶很小不給力"] = 1,
+				["|Kq26|k"] = 2,
+				["強插插卡稱"] = 1,
 				["尊重友善包容"] = 1,
 				["|Kq1|k"] = 2,
-				["強插插卡稱"] = 1,
 				["忘卻的紀念"] = 1,
+				["哞哞牛哞哞"] = 1,
 				["大泰山"] = 1,
-				["|Kq19|k"] = 2,
-				["狄玥"] = 1,
-				["戒斷症"] = 1,
+				["九如魚翅湯"] = 1,
 				["Xemomo"] = 1,
+				["柴汪汪"] = 1,
+				["Ddevv"] = 1,
 				["麥噹噹當勞"] = 1,
 				["过来看看咋样"] = 1,
 				["|Kq21|k"] = 2,
@@ -471,113 +472,113 @@ WIM3_Cache = {
 				["|Kq27|k"] = 2,
 				["|Kq13|k"] = 2,
 				["皮蛋瘦肉粥"] = 1,
-				["Ddevv"] = 1,
+				["浪漫牛兒"] = 1,
 				["后羿之后"] = 1,
-				["|Kq3|k"] = 2,
-				["國家機器動次"] = 1,
-				["路易斯衝鋒"] = 1,
-				["九如魚翅湯"] = 1,
+				["為你跑屍"] = 1,
 				["|Kq2|k"] = 2,
+				["路易斯衝鋒"] = 1,
+				["|Kq19|k"] = 2,
+				["快刀"] = 1,
 				["|Kq28|k"] = 2,
 				["黑暗蘿莉"] = 1,
 				["|Kq5|k"] = 2,
-				["浪漫牛兒"] = 1,
+				["國家機器動次"] = 1,
 				["大發哥"] = 1,
 				["畜生大隊長"] = 1,
-				["|Kq25|k"] = 2,
-				["貝西揮出釣竿"] = 1,
-				["跌倒馬丁尼"] = 1,
+				["|Kq12|k"] = 2,
 				["術匠師"] = 1,
-				["站住別動"] = 1,
+				["|Kq3|k"] = 2,
+				["貝西揮出釣竿"] = 1,
+				["十塊錢"] = 1,
 				["|Kq11|k"] = 2,
 				["傻酷喇"] = 1,
-				["|Kq12|k"] = 2,
+				["對您失望透頂"] = 1,
 				["芋頭冰"] = 1,
 				["|Kq4|k"] = 2,
 				["兇神惡薩"] = 1,
 				["半藏來也"] = 1,
-				["唯恐不亂"] = 1,
-				["Lars"] = 1,
+				["佐久夜巨巨"] = 1,
+				["搞事莉莉絲"] = 1,
 				["拔蘿蔔"] = 1,
-				["小芸"] = 1,
+				["唯恐不亂"] = 1,
 				["|Kq20|k"] = 2,
 				["威尼斯紹琴"] = 1,
-				["對您失望透頂"] = 1,
-				["美腿"] = 1,
-				["柴汪汪"] = 1,
-				["|Kq6|k"] = 2,
-				["桃園綠巨人"] = 1,
-				["|Kq23|k"] = 2,
-				["鈴木一徹"] = 1,
-				["卡副本專員"] = 1,
-				["搞事莉莉絲"] = 1,
-				["佐久夜巨巨"] = 1,
 				["|Kq24|k"] = 2,
-				["快刀"] = 1,
+				["美腿"] = 1,
+				["鈴木一徹"] = 1,
+				["|Kq6|k"] = 2,
+				["站住別動"] = 1,
+				["夕映澤瞳"] = 1,
+				["桃園綠巨人"] = 1,
+				["卡副本專員"] = 1,
+				["小芸"] = 1,
+				["Lars"] = 1,
+				["狄玥"] = 1,
+				["萬一"] = 1,
 				["青蛙"] = 1,
-				["小心吐乃"] = 1,
+				["跌倒馬丁尼"] = 1,
 				["阿峰哥"] = 1,
-				["為你跑屍"] = 1,
+				["|Kq25|k"] = 2,
 				["狂霸王子"] = 1,
 				["唯我心狂"] = 1,
-				["夕映澤瞳"] = 1,
+				["小心吐乃"] = 1,
 				["萬箭"] = 1,
 				["帕爾提娜"] = 1,
 				["|Kq17|k"] = 2,
-				["哞哞牛哞哞"] = 1,
+				["戒斷症"] = 1,
 				["給本仙女跪下"] = 1,
-				["楓糖奶油"] = 1,
+				["毛毛小寶貝"] = 1,
 				["|Kq8|k"] = 2,
-				["瀟灑大壞蛋"] = 1,
+				["客家鳥德"] = 1,
 				["觀自在"] = 1,
 				["友善"] = 1,
 				["成都張叔叔"] = 1,
-				["毛毛小寶貝"] = 1,
-				["白菜蘿蔔湯"] = 1,
-				["小小寶"] = 1,
+				["泰山喔一喔"] = 1,
+				["卡莉米奈西爾"] = 1,
+				["青樓探花"] = 1,
 				["Impatience"] = 1,
 				["喵之琳琳"] = 1,
-				["青樓探花"] = 1,
-				["別背對我"] = 1,
+				["妮妮兒"] = 1,
+				["小小寶"] = 1,
 				["部落之首"] = 1,
 			},
 			["guildList"] = {
-				["酒小獵"] = 27,
-				["小員工"] = 8,
-				["別逼我開大軍"] = 22,
-				["雷霆聖經"] = 19,
-				["騎風"] = 5,
-				["別逼我消失"] = 12,
-				["柒莫"] = 14,
-				["陰牙婦產科"] = 3,
-				["柒荷"] = 24,
-				["咕牟拎"] = 7,
-				["別逼我變熊"] = 21,
-				["山怪山怪"] = 1,
-				["追著元素跑"] = 18,
-				["阿梨"] = 29,
+				["若相依"] = 2,
+				["小員工"] = 7,
+				["別逼我開大軍"] = 21,
+				["雷霆聖經"] = 18,
+				["騎風"] = 4,
+				["別逼我消失"] = 11,
+				["柒莫"] = 13,
+				["神戶牛刺身"] = 16,
+				["柒荷"] = 23,
+				["咕牟拎"] = 1,
+				["別逼我變熊"] = 20,
+				["柒刻"] = 35,
+				["山怪山怪"] = 6,
+				["別逼我擋怪"] = 33,
+				["不死夜空"] = 32,
+				["终焉誓約"] = 31,
+				["阿梨"] = 30,
+				["追著元素跑"] = 17,
+				["司命"] = 22,
+				["桂妮薇兒"] = 29,
+				["陰牙婦產科"] = 28,
 				["終焉之戰"] = 36,
-				["咩哞"] = 20,
-				["邁克爾假死"] = 6,
-				["夜空之光"] = 33,
-				["術難奉陪"] = 2,
-				["內魯岡"] = 11,
-				["姒凰"] = 4,
-				["终焉誓約"] = 30,
-				["森井冰檸檬"] = 15,
-				["必出鳳凰"] = 9,
-				["必出龍脊"] = 10,
-				["柒丌"] = 13,
-				["獵艷狂魔"] = 16,
-				["神戶牛刺身"] = 17,
-				["程昱"] = 26,
-				["若相依"] = 35,
-				["別逼我擋怪"] = 32,
-				["不死夜空"] = 31,
-				["司命"] = 23,
-				["歐艾丹"] = 25,
-				["柒刻"] = 34,
-				["桂妮薇兒"] = 28,
+				["咩哞"] = 19,
+				["酒小獵"] = 27,
+				["邁克爾假死"] = 5,
+				["程昱"] = 25,
+				["夜空之光"] = 34,
+				["術難奉陪"] = 26,
+				["獵艷狂魔"] = 15,
+				["柒丌"] = 12,
+				["必出龍脊"] = 9,
+				["內魯岡"] = 10,
+				["必出鳳凰"] = 8,
+				["森井冰檸檬"] = 14,
+				["歐艾丹"] = 24,
+				["姒凰"] = 3,
 			},
 		},
 		["路易斯桑拿"] = {
@@ -612,11 +613,11 @@ WIM3_Cache = {
 				["|Kq69|k"] = 2,
 				["|Kq74|k"] = 2,
 				["|Kq73|k"] = 2,
-				["|Kq67|k"] = 2,
+				["|Kq58|k"] = 2,
 				["|Kq24|k"] = 2,
 				["|Kq53|k"] = 2,
 				["|Kq64|k"] = 2,
-				["|Kq58|k"] = 2,
+				["|Kq67|k"] = 2,
 				["|Kq57|k"] = 2,
 				["|Kq55|k"] = 2,
 			},
@@ -647,32 +648,32 @@ WIM3_Cache = {
 				["董卓"] = 1,
 				["愛很簡單"] = 1,
 				["司命"] = 1,
-				["騎風"] = 1,
-				["房仲陳先生"] = 1,
+				["|Kq16|k"] = 2,
+				["|Kq18|k"] = 2,
 				["阿鋒哥"] = 1,
 				["|Kq26|k"] = 2,
-				["橋下小酒杯"] = 1,
-				["Tods"] = 1,
+				["房仲陳先生"] = 1,
 				["Cqzqs"] = 1,
+				["|Kq1|k"] = 2,
 				["萬箭"] = 1,
-				["|Kq5|k"] = 2,
+				["|Kq25|k"] = 2,
 				["|Kq17|k"] = 2,
 				["Geng"] = 1,
-				["|Kq13|k"] = 2,
+				["|Kq5|k"] = 2,
 				["白白昀"] = 1,
 				["|Kq8|k"] = 2,
-				["Lonelykiller"] = 1,
-				["|Kq21|k"] = 2,
+				["|Kq13|k"] = 2,
+				["|Kq24|k"] = 2,
 				["卡道圖騰"] = 1,
-				["|Kq18|k"] = 2,
+				["|Kq21|k"] = 2,
 				["|Kq27|k"] = 2,
 				["Cqknight"] = 1,
-				["|Kq1|k"] = 2,
+				["Lonelykiller"] = 1,
 				["後天"] = 1,
-				["|Kq25|k"] = 2,
-				["|Kq24|k"] = 2,
-				["|Kq16|k"] = 2,
 				["Shadowlol"] = 1,
+				["橋下小酒杯"] = 1,
+				["Tods"] = 1,
+				["騎風"] = 1,
 			},
 			["guildList"] = {
 				["若相依"] = 5,
@@ -3163,6 +3164,18 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
+			["|Kq1|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1669441646,
+					["from"] = "特變電工",
+					["msg"] = "yy",
+					["inbound"] = false,
+					["convo"] = "|Kq1|k",
+				}, -- [1]
+				["info"] = {
+				},
+			},
 			["Doomhammer#4763"] = {
 				{
 					["type"] = 1,
@@ -3240,6 +3253,22 @@ WIM3_History = {
 					["inbound"] = false,
 					["convo"] = "厄運烏鴉#316851",
 				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1669478822,
+					["from"] = "特變電工",
+					["msg"] = "點了一個火鍋",
+					["inbound"] = false,
+					["convo"] = "厄運烏鴉#316851",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1669479025,
+					["from"] = "厄運烏鴉#316851",
+					["msg"] = "在吃火锅了迈",
+					["inbound"] = true,
+					["convo"] = "厄運烏鴉#316851",
+				}, -- [6]
 				["info"] = {
 				},
 			},
@@ -3259,6 +3288,766 @@ WIM3_History = {
 					["msg"] = "！",
 					["inbound"] = true,
 					["convo"] = "誓約之劍#31592",
+				}, -- [2]
+				["info"] = {
+				},
+			},
+			["Cqknight"] = {
+				{
+					["type"] = 1,
+					["time"] = 1669125921,
+					["from"] = "Cqknight",
+					["msg"] = "封半个月了",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1669125927,
+					["from"] = "特變電工",
+					["msg"] = "安逸的很哦",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1669126011,
+					["from"] = "Cqknight",
+					["msg"] = "安逸傻子哦 没钱用",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1669126031,
+					["from"] = "特變電工",
+					["msg"] = "水魔方离你近布",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1669126039,
+					["from"] = "特變電工",
+					["msg"] = "倒闭没得",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1669126069,
+					["from"] = "Cqknight",
+					["msg"] = "龙门阵关了",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1669126086,
+					["from"] = "特變電工",
+					["msg"] = "龙门阵可以",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1669126096,
+					["from"] = "特變電工",
+					["msg"] = "11年前去耍的",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1669126106,
+					["from"] = "特變電工",
+					["msg"] = "时间过的好吉尔快",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1669126146,
+					["from"] = "Cqknight",
+					["msg"] = "你哪点的哦",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1669126164,
+					["from"] = "特變電工",
+					["msg"] = "李家沱",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1669126175,
+					["from"] = "Cqknight",
+					["msg"] = "我再巴南很多年 哈哈哈",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1669126181,
+					["from"] = "Cqknight",
+					["msg"] = "9中毕业的",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1669126189,
+					["from"] = "特變電工",
+					["msg"] = "我初中9中的",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1669126191,
+					["from"] = "特變電工",
+					["msg"] = "我日",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1669126196,
+					["from"] = "Cqknight",
+					["msg"] = "我高中",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1669126205,
+					["from"] = "特變電工",
+					["msg"] = "哪一级",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1669126211,
+					["from"] = "Cqknight",
+					["msg"] = "09",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1669126217,
+					["from"] = "特變電工",
+					["msg"] = "。。",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1669126230,
+					["from"] = "特變電工",
+					["msg"] = "90年的？",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1669126254,
+					["from"] = "Cqknight",
+					["msg"] = "不是",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1669126279,
+					["from"] = "Cqknight",
+					["msg"] = "初中留了级的 ",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1669126285,
+					["from"] = "Cqknight",
+					["msg"] = "110毕业 89年的",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1669126288,
+					["from"] = "特變電工",
+					["msg"] = "小崽儿",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1669126295,
+					["from"] = "Cqknight",
+					["msg"] = "。。。。。",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1669126310,
+					["from"] = "特變電工",
+					["msg"] = "比你大2随",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1669126321,
+					["from"] = "Cqknight",
+					["msg"] = "87年的嘛",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1669126324,
+					["from"] = "特變電工",
+					["msg"] = "嗯",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1669126332,
+					["from"] = "特變電工",
+					["msg"] = "我有2年没回重庆了",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [29]
+				{
+					["type"] = 1,
+					["time"] = 1669126343,
+					["from"] = "Cqknight",
+					["msg"] = "在哪点的嘛",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [30]
+				{
+					["type"] = 1,
+					["time"] = 1669126345,
+					["from"] = "特變電工",
+					["msg"] = "想吃烧烤的很",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [31]
+				{
+					["type"] = 1,
+					["time"] = 1669126348,
+					["from"] = "特變電工",
+					["msg"] = "北京",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [32]
+				{
+					["type"] = 1,
+					["time"] = 1669126358,
+					["from"] = "Cqknight",
+					["msg"] = "也 京城人士哟",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [33]
+				{
+					["type"] = 1,
+					["time"] = 1669126363,
+					["from"] = "特變電工",
+					["msg"] = "北漂",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [34]
+				{
+					["type"] = 1,
+					["time"] = 1669126367,
+					["from"] = "Cqknight",
+					["msg"] = "北京没得迈",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [35]
+				{
+					["type"] = 1,
+					["time"] = 1669126377,
+					["from"] = "特變電工",
+					["msg"] = "没得重庆的那种",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [36]
+				{
+					["type"] = 1,
+					["time"] = 1669126381,
+					["from"] = "特變電工",
+					["msg"] = "都是北方的 难吃的很",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [37]
+				{
+					["type"] = 1,
+					["time"] = 1669126396,
+					["from"] = "Cqknight",
+					["msg"] = "赵大妹都不想哈麦",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [38]
+				{
+					["type"] = 1,
+					["time"] = 1669126399,
+					["from"] = "Cqknight",
+					["msg"] = "田姐米线",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [39]
+				{
+					["type"] = 1,
+					["time"] = 1669126404,
+					["from"] = "Cqknight",
+					["msg"] = "你李家沱人都嘛",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [40]
+				{
+					["type"] = 1,
+					["time"] = 1669126414,
+					["from"] = "特變電工",
+					["msg"] = "赵大妹是小时候吃的了",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [41]
+				{
+					["type"] = 1,
+					["time"] = 1669126420,
+					["from"] = "Cqknight",
+					["msg"] = "是啥 老店了",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [42]
+				{
+					["type"] = 1,
+					["time"] = 1669126452,
+					["from"] = "Cqknight",
+					["msg"] = "你才过来亚服 还是之前就在了哦",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [43]
+				{
+					["type"] = 1,
+					["time"] = 1669126459,
+					["from"] = "特變電工",
+					["msg"] = "一直都在",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [44]
+				{
+					["type"] = 1,
+					["time"] = 1669126469,
+					["from"] = "特變電工",
+					["msg"] = "然后人太少了 80级就回去了",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [45]
+				{
+					["type"] = 1,
+					["time"] = 1669126474,
+					["from"] = "Cqknight",
+					["msg"] = "国服不香吗",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [46]
+				{
+					["type"] = 1,
+					["time"] = 1669126479,
+					["from"] = "特變電工",
+					["msg"] = "3个号都毕业了",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [47]
+				{
+					["type"] = 1,
+					["time"] = 1669126482,
+					["from"] = "特變電工",
+					["msg"] = "结果黄了",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [48]
+				{
+					["type"] = 1,
+					["time"] = 1669126488,
+					["from"] = "特變電工",
+					["msg"] = "只有屁颠回来跟台湾人混",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [49]
+				{
+					["type"] = 1,
+					["time"] = 1669126490,
+					["from"] = "Cqknight",
+					["msg"] = "我也是3个号毕业",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [50]
+				{
+					["type"] = 1,
+					["time"] = 1669126497,
+					["from"] = "特變電工",
+					["msg"] = "有个台湾妹子喜欢我的很",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [51]
+				{
+					["type"] = 1,
+					["time"] = 1669126504,
+					["from"] = "Cqknight",
+					["msg"] = "乱码",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [52]
+				{
+					["type"] = 1,
+					["time"] = 1669126509,
+					["from"] = "特變電工",
+					["msg"] = "确实日白",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [53]
+				{
+					["type"] = 1,
+					["time"] = 1669126524,
+					["from"] = "特變電工",
+					["msg"] = "台 湾是乱码？",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [54]
+				{
+					["type"] = 1,
+					["time"] = 1669126528,
+					["from"] = "特變電工",
+					["msg"] = "你客户端有问题",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [55]
+				{
+					["type"] = 1,
+					["time"] = 1669126536,
+					["from"] = "Cqknight",
+					["msg"] = "我用的简体客户端",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [56]
+				{
+					["type"] = 1,
+					["time"] = 1669126543,
+					["from"] = "特變電工",
+					["msg"] = "我还不是简体",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [57]
+				{
+					["type"] = 1,
+					["time"] = 1669126550,
+					["from"] = "Cqknight",
+					["msg"] = "那应该是和谐了",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [58]
+				{
+					["type"] = 1,
+					["time"] = 1669126552,
+					["from"] = "特變電工",
+					["msg"] = "设置",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [59]
+				{
+					["type"] = 1,
+					["time"] = 1669126554,
+					["from"] = "特變電工",
+					["msg"] = "改一下",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [60]
+				{
+					["type"] = 1,
+					["time"] = 1669126563,
+					["from"] = "Cqknight",
+					["msg"] = "不想改繁体",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [61]
+				{
+					["type"] = 1,
+					["time"] = 1669126574,
+					["from"] = "特變電工",
+					["msg"] = "台服是可以把和谐词关了",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [62]
+				{
+					["type"] = 1,
+					["time"] = 1669126580,
+					["from"] = "特變電工",
+					["msg"] = "设置里面",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [63]
+				{
+					["type"] = 1,
+					["time"] = 1669126609,
+					["from"] = "Cqknight",
+					["msg"] = "难得搞",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [64]
+				{
+					["type"] = 1,
+					["time"] = 1669126629,
+					["from"] = "特變電工",
+					["msg"] = "来YY 24046515",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [65]
+				{
+					["type"] = 1,
+					["time"] = 1669126630,
+					["from"] = "特變電工",
+					["msg"] = "日白",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [66]
+				{
+					["type"] = 1,
+					["time"] = 1669126636,
+					["from"] = "特變電工",
+					["msg"] = "我在冲珠宝",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [67]
+				{
+					["type"] = 1,
+					["time"] = 1669126639,
+					["from"] = "特變電工",
+					["msg"] = "无聊的很",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [68]
+				{
+					["type"] = 1,
+					["time"] = 1669126652,
+					["from"] = "Cqknight",
+					["msg"] = "满世界矿工  想挖点矿都不得行",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [69]
+				{
+					["type"] = 1,
+					["time"] = 1669216742,
+					["from"] = "特變電工",
+					["msg"] = "10人NAXX賺了2500G",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [70]
+				{
+					["type"] = 1,
+					["time"] = 1669216748,
+					["from"] = "特變電工",
+					["msg"] = "確實日白",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [71]
+				{
+					["type"] = 1,
+					["time"] = 1669216751,
+					["from"] = "Cqknight",
+					["msg"] = "牛逼",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [72]
+				{
+					["type"] = 1,
+					["time"] = 1669216756,
+					["from"] = "Cqknight",
+					["msg"] = "我大鸟钱都还不够",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [73]
+				{
+					["type"] = 1,
+					["time"] = 1669216762,
+					["from"] = "Cqknight",
+					["msg"] = "你跟我说赚G",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [74]
+				{
+					["type"] = 1,
+					["time"] = 1669216773,
+					["from"] = "特變電工",
+					["msg"] = "我一身綠裝進去儅MT",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [75]
+				{
+					["type"] = 1,
+					["time"] = 1669216777,
+					["from"] = "特變電工",
+					["msg"] = "你説日白不",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [76]
+				{
+					["type"] = 1,
+					["time"] = 1669216787,
+					["from"] = "Cqknight",
+					["msg"] = "本来都简单",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [77]
+				{
+					["type"] = 1,
+					["time"] = 1669216795,
+					["from"] = "特變電工",
+					["msg"] = "難的很",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [78]
+				{
+					["type"] = 1,
+					["time"] = 1669216798,
+					["from"] = "特變電工",
+					["msg"] = "滅了好幾次",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [79]
+				{
+					["type"] = 1,
+					["time"] = 1669216801,
+					["from"] = "特變電工",
+					["msg"] = "都是垃圾裝備",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [80]
+				{
+					["type"] = 1,
+					["time"] = 1669216814,
+					["from"] = "Cqknight",
+					["msg"] = "T硬随便打",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [81]
+				{
+					["type"] = 1,
+					["time"] = 1669261808,
+					["from"] = "特變電工",
+					["msg"] = "速度哦",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [82]
+				{
+					["type"] = 1,
+					["time"] = 1669261817,
+					["from"] = "Cqknight",
+					["msg"] = "开新服了啊",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [83]
+				{
+					["type"] = 1,
+					["time"] = 1669261860,
+					["from"] = "特變電工",
+					["msg"] = "你要去嗎",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [84]
+				{
+					["type"] = 1,
+					["time"] = 1669261861,
+					["from"] = "特變電工",
+					["msg"] = "我擦",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [85]
+				{
+					["type"] = 1,
+					["time"] = 1669261883,
+					["from"] = "特變電工",
+					["msg"] = "加你展望好友",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [86]
+				{
+					["type"] = 1,
+					["time"] = 1669261889,
+					["from"] = "Cqknight",
+					["msg"] = "没有啊 我只是说说而已",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [87]
+				{
+					["type"] = 1,
+					["time"] = 1669261916,
+					["from"] = "Cqknight",
+					["msg"] = "能免费转 还是可以去",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [88]
+				{
+					["type"] = 1,
+					["time"] = 1669381724,
+					["from"] = "特變電工",
+					["msg"] = "yy",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [89]
+				{
+					["type"] = 1,
+					["time"] = 1669381734,
+					["from"] = "Cqknight",
+					["msg"] = "等哈哈",
+					["inbound"] = true,
+					["convo"] = "Cqknight",
+				}, -- [90]
+				{
+					["type"] = 1,
+					["time"] = 1669381735,
+					["from"] = "特變電工",
+					["msg"] = "<DBM> 特變電工正在与10人 - 格罗布鲁斯交战，（当前92%，10/10存活）",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [91]
+				{
+					["type"] = 1,
+					["time"] = 1669381845,
+					["from"] = "特變電工",
+					["msg"] = "<DBM> 特變電工已在10人 - 格罗布鲁斯的战斗中取得胜利！",
+					["inbound"] = false,
+					["convo"] = "Cqknight",
+				}, -- [92]
+				["info"] = {
+				},
+			},
+			["蜀都張叔叔#3649"] = {
+				{
+					["type"] = 1,
+					["time"] = 1668865003,
+					["from"] = "特變電工",
+					["msg"] = "我擦",
+					["inbound"] = false,
+					["convo"] = "蜀都張叔叔#3649",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1668865011,
+					["from"] = "蜀都張叔叔#3649",
+					["msg"] = "？",
+					["inbound"] = true,
+					["convo"] = "蜀都張叔叔#3649",
 				}, -- [2]
 				["info"] = {
 				},
@@ -4059,766 +4848,6 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
-			["蜀都張叔叔#3649"] = {
-				{
-					["type"] = 1,
-					["time"] = 1668865003,
-					["from"] = "特變電工",
-					["msg"] = "我擦",
-					["inbound"] = false,
-					["convo"] = "蜀都張叔叔#3649",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1668865011,
-					["from"] = "蜀都張叔叔#3649",
-					["msg"] = "？",
-					["inbound"] = true,
-					["convo"] = "蜀都張叔叔#3649",
-				}, -- [2]
-				["info"] = {
-				},
-			},
-			["Cqknight"] = {
-				{
-					["type"] = 1,
-					["time"] = 1669125921,
-					["from"] = "Cqknight",
-					["msg"] = "封半个月了",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1669125927,
-					["from"] = "特變電工",
-					["msg"] = "安逸的很哦",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1669126011,
-					["from"] = "Cqknight",
-					["msg"] = "安逸傻子哦 没钱用",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1669126031,
-					["from"] = "特變電工",
-					["msg"] = "水魔方离你近布",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1669126039,
-					["from"] = "特變電工",
-					["msg"] = "倒闭没得",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1669126069,
-					["from"] = "Cqknight",
-					["msg"] = "龙门阵关了",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1669126086,
-					["from"] = "特變電工",
-					["msg"] = "龙门阵可以",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1669126096,
-					["from"] = "特變電工",
-					["msg"] = "11年前去耍的",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1669126106,
-					["from"] = "特變電工",
-					["msg"] = "时间过的好吉尔快",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1669126146,
-					["from"] = "Cqknight",
-					["msg"] = "你哪点的哦",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1669126164,
-					["from"] = "特變電工",
-					["msg"] = "李家沱",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1669126175,
-					["from"] = "Cqknight",
-					["msg"] = "我再巴南很多年 哈哈哈",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1669126181,
-					["from"] = "Cqknight",
-					["msg"] = "9中毕业的",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1669126189,
-					["from"] = "特變電工",
-					["msg"] = "我初中9中的",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1669126191,
-					["from"] = "特變電工",
-					["msg"] = "我日",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1669126196,
-					["from"] = "Cqknight",
-					["msg"] = "我高中",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1669126205,
-					["from"] = "特變電工",
-					["msg"] = "哪一级",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1669126211,
-					["from"] = "Cqknight",
-					["msg"] = "09",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1669126217,
-					["from"] = "特變電工",
-					["msg"] = "。。",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1669126230,
-					["from"] = "特變電工",
-					["msg"] = "90年的？",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1669126254,
-					["from"] = "Cqknight",
-					["msg"] = "不是",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1669126279,
-					["from"] = "Cqknight",
-					["msg"] = "初中留了级的 ",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [22]
-				{
-					["type"] = 1,
-					["time"] = 1669126285,
-					["from"] = "Cqknight",
-					["msg"] = "110毕业 89年的",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [23]
-				{
-					["type"] = 1,
-					["time"] = 1669126288,
-					["from"] = "特變電工",
-					["msg"] = "小崽儿",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [24]
-				{
-					["type"] = 1,
-					["time"] = 1669126295,
-					["from"] = "Cqknight",
-					["msg"] = "。。。。。",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [25]
-				{
-					["type"] = 1,
-					["time"] = 1669126310,
-					["from"] = "特變電工",
-					["msg"] = "比你大2随",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [26]
-				{
-					["type"] = 1,
-					["time"] = 1669126321,
-					["from"] = "Cqknight",
-					["msg"] = "87年的嘛",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [27]
-				{
-					["type"] = 1,
-					["time"] = 1669126324,
-					["from"] = "特變電工",
-					["msg"] = "嗯",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [28]
-				{
-					["type"] = 1,
-					["time"] = 1669126332,
-					["from"] = "特變電工",
-					["msg"] = "我有2年没回重庆了",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [29]
-				{
-					["type"] = 1,
-					["time"] = 1669126343,
-					["from"] = "Cqknight",
-					["msg"] = "在哪点的嘛",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [30]
-				{
-					["type"] = 1,
-					["time"] = 1669126345,
-					["from"] = "特變電工",
-					["msg"] = "想吃烧烤的很",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [31]
-				{
-					["type"] = 1,
-					["time"] = 1669126348,
-					["from"] = "特變電工",
-					["msg"] = "北京",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [32]
-				{
-					["type"] = 1,
-					["time"] = 1669126358,
-					["from"] = "Cqknight",
-					["msg"] = "也 京城人士哟",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [33]
-				{
-					["type"] = 1,
-					["time"] = 1669126363,
-					["from"] = "特變電工",
-					["msg"] = "北漂",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [34]
-				{
-					["type"] = 1,
-					["time"] = 1669126367,
-					["from"] = "Cqknight",
-					["msg"] = "北京没得迈",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [35]
-				{
-					["type"] = 1,
-					["time"] = 1669126377,
-					["from"] = "特變電工",
-					["msg"] = "没得重庆的那种",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [36]
-				{
-					["type"] = 1,
-					["time"] = 1669126381,
-					["from"] = "特變電工",
-					["msg"] = "都是北方的 难吃的很",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [37]
-				{
-					["type"] = 1,
-					["time"] = 1669126396,
-					["from"] = "Cqknight",
-					["msg"] = "赵大妹都不想哈麦",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [38]
-				{
-					["type"] = 1,
-					["time"] = 1669126399,
-					["from"] = "Cqknight",
-					["msg"] = "田姐米线",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [39]
-				{
-					["type"] = 1,
-					["time"] = 1669126404,
-					["from"] = "Cqknight",
-					["msg"] = "你李家沱人都嘛",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [40]
-				{
-					["type"] = 1,
-					["time"] = 1669126414,
-					["from"] = "特變電工",
-					["msg"] = "赵大妹是小时候吃的了",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [41]
-				{
-					["type"] = 1,
-					["time"] = 1669126420,
-					["from"] = "Cqknight",
-					["msg"] = "是啥 老店了",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [42]
-				{
-					["type"] = 1,
-					["time"] = 1669126452,
-					["from"] = "Cqknight",
-					["msg"] = "你才过来亚服 还是之前就在了哦",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [43]
-				{
-					["type"] = 1,
-					["time"] = 1669126459,
-					["from"] = "特變電工",
-					["msg"] = "一直都在",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [44]
-				{
-					["type"] = 1,
-					["time"] = 1669126469,
-					["from"] = "特變電工",
-					["msg"] = "然后人太少了 80级就回去了",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [45]
-				{
-					["type"] = 1,
-					["time"] = 1669126474,
-					["from"] = "Cqknight",
-					["msg"] = "国服不香吗",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [46]
-				{
-					["type"] = 1,
-					["time"] = 1669126479,
-					["from"] = "特變電工",
-					["msg"] = "3个号都毕业了",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [47]
-				{
-					["type"] = 1,
-					["time"] = 1669126482,
-					["from"] = "特變電工",
-					["msg"] = "结果黄了",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [48]
-				{
-					["type"] = 1,
-					["time"] = 1669126488,
-					["from"] = "特變電工",
-					["msg"] = "只有屁颠回来跟台湾人混",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [49]
-				{
-					["type"] = 1,
-					["time"] = 1669126490,
-					["from"] = "Cqknight",
-					["msg"] = "我也是3个号毕业",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [50]
-				{
-					["type"] = 1,
-					["time"] = 1669126497,
-					["from"] = "特變電工",
-					["msg"] = "有个台湾妹子喜欢我的很",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [51]
-				{
-					["type"] = 1,
-					["time"] = 1669126504,
-					["from"] = "Cqknight",
-					["msg"] = "乱码",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [52]
-				{
-					["type"] = 1,
-					["time"] = 1669126509,
-					["from"] = "特變電工",
-					["msg"] = "确实日白",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [53]
-				{
-					["type"] = 1,
-					["time"] = 1669126524,
-					["from"] = "特變電工",
-					["msg"] = "台 湾是乱码？",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [54]
-				{
-					["type"] = 1,
-					["time"] = 1669126528,
-					["from"] = "特變電工",
-					["msg"] = "你客户端有问题",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [55]
-				{
-					["type"] = 1,
-					["time"] = 1669126536,
-					["from"] = "Cqknight",
-					["msg"] = "我用的简体客户端",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [56]
-				{
-					["type"] = 1,
-					["time"] = 1669126543,
-					["from"] = "特變電工",
-					["msg"] = "我还不是简体",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [57]
-				{
-					["type"] = 1,
-					["time"] = 1669126550,
-					["from"] = "Cqknight",
-					["msg"] = "那应该是和谐了",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [58]
-				{
-					["type"] = 1,
-					["time"] = 1669126552,
-					["from"] = "特變電工",
-					["msg"] = "设置",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [59]
-				{
-					["type"] = 1,
-					["time"] = 1669126554,
-					["from"] = "特變電工",
-					["msg"] = "改一下",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [60]
-				{
-					["type"] = 1,
-					["time"] = 1669126563,
-					["from"] = "Cqknight",
-					["msg"] = "不想改繁体",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [61]
-				{
-					["type"] = 1,
-					["time"] = 1669126574,
-					["from"] = "特變電工",
-					["msg"] = "台服是可以把和谐词关了",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [62]
-				{
-					["type"] = 1,
-					["time"] = 1669126580,
-					["from"] = "特變電工",
-					["msg"] = "设置里面",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [63]
-				{
-					["type"] = 1,
-					["time"] = 1669126609,
-					["from"] = "Cqknight",
-					["msg"] = "难得搞",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [64]
-				{
-					["type"] = 1,
-					["time"] = 1669126629,
-					["from"] = "特變電工",
-					["msg"] = "来YY 24046515",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [65]
-				{
-					["type"] = 1,
-					["time"] = 1669126630,
-					["from"] = "特變電工",
-					["msg"] = "日白",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [66]
-				{
-					["type"] = 1,
-					["time"] = 1669126636,
-					["from"] = "特變電工",
-					["msg"] = "我在冲珠宝",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [67]
-				{
-					["type"] = 1,
-					["time"] = 1669126639,
-					["from"] = "特變電工",
-					["msg"] = "无聊的很",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [68]
-				{
-					["type"] = 1,
-					["time"] = 1669126652,
-					["from"] = "Cqknight",
-					["msg"] = "满世界矿工  想挖点矿都不得行",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [69]
-				{
-					["type"] = 1,
-					["time"] = 1669216742,
-					["from"] = "特變電工",
-					["msg"] = "10人NAXX賺了2500G",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [70]
-				{
-					["type"] = 1,
-					["time"] = 1669216748,
-					["from"] = "特變電工",
-					["msg"] = "確實日白",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [71]
-				{
-					["type"] = 1,
-					["time"] = 1669216751,
-					["from"] = "Cqknight",
-					["msg"] = "牛逼",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [72]
-				{
-					["type"] = 1,
-					["time"] = 1669216756,
-					["from"] = "Cqknight",
-					["msg"] = "我大鸟钱都还不够",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [73]
-				{
-					["type"] = 1,
-					["time"] = 1669216762,
-					["from"] = "Cqknight",
-					["msg"] = "你跟我说赚G",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [74]
-				{
-					["type"] = 1,
-					["time"] = 1669216773,
-					["from"] = "特變電工",
-					["msg"] = "我一身綠裝進去儅MT",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [75]
-				{
-					["type"] = 1,
-					["time"] = 1669216777,
-					["from"] = "特變電工",
-					["msg"] = "你説日白不",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [76]
-				{
-					["type"] = 1,
-					["time"] = 1669216787,
-					["from"] = "Cqknight",
-					["msg"] = "本来都简单",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [77]
-				{
-					["type"] = 1,
-					["time"] = 1669216795,
-					["from"] = "特變電工",
-					["msg"] = "難的很",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [78]
-				{
-					["type"] = 1,
-					["time"] = 1669216798,
-					["from"] = "特變電工",
-					["msg"] = "滅了好幾次",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [79]
-				{
-					["type"] = 1,
-					["time"] = 1669216801,
-					["from"] = "特變電工",
-					["msg"] = "都是垃圾裝備",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [80]
-				{
-					["type"] = 1,
-					["time"] = 1669216814,
-					["from"] = "Cqknight",
-					["msg"] = "T硬随便打",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [81]
-				{
-					["type"] = 1,
-					["time"] = 1669261808,
-					["from"] = "特變電工",
-					["msg"] = "速度哦",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [82]
-				{
-					["type"] = 1,
-					["time"] = 1669261817,
-					["from"] = "Cqknight",
-					["msg"] = "开新服了啊",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [83]
-				{
-					["type"] = 1,
-					["time"] = 1669261860,
-					["from"] = "特變電工",
-					["msg"] = "你要去嗎",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [84]
-				{
-					["type"] = 1,
-					["time"] = 1669261861,
-					["from"] = "特變電工",
-					["msg"] = "我擦",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [85]
-				{
-					["type"] = 1,
-					["time"] = 1669261883,
-					["from"] = "特變電工",
-					["msg"] = "加你展望好友",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [86]
-				{
-					["type"] = 1,
-					["time"] = 1669261889,
-					["from"] = "Cqknight",
-					["msg"] = "没有啊 我只是说说而已",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [87]
-				{
-					["type"] = 1,
-					["time"] = 1669261916,
-					["from"] = "Cqknight",
-					["msg"] = "能免费转 还是可以去",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [88]
-				{
-					["type"] = 1,
-					["time"] = 1669381724,
-					["from"] = "特變電工",
-					["msg"] = "yy",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [89]
-				{
-					["type"] = 1,
-					["time"] = 1669381734,
-					["from"] = "Cqknight",
-					["msg"] = "等哈哈",
-					["inbound"] = true,
-					["convo"] = "Cqknight",
-				}, -- [90]
-				{
-					["type"] = 1,
-					["time"] = 1669381735,
-					["from"] = "特變電工",
-					["msg"] = "<DBM> 特變電工正在与10人 - 格罗布鲁斯交战，（当前92%，10/10存活）",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [91]
-				{
-					["type"] = 1,
-					["time"] = 1669381845,
-					["from"] = "特變電工",
-					["msg"] = "<DBM> 特變電工已在10人 - 格罗布鲁斯的战斗中取得胜利！",
-					["inbound"] = false,
-					["convo"] = "Cqknight",
-				}, -- [92]
-				["info"] = {
-				},
-			},
 			["Oneonone#3565"] = {
 				{
 					["type"] = 1,
@@ -5324,6 +5353,30 @@ WIM3_History = {
 					["inbound"] = false,
 					["convo"] = "Oneonone#3565",
 				}, -- [63]
+				{
+					["type"] = 1,
+					["time"] = 1669436816,
+					["from"] = "Oneonone#3565",
+					["msg"] = "我擦 ",
+					["inbound"] = true,
+					["convo"] = "Oneonone#3565",
+				}, -- [64]
+				{
+					["type"] = 1,
+					["time"] = 1669436830,
+					["from"] = "Oneonone#3565",
+					["msg"] = "這麽早",
+					["inbound"] = true,
+					["convo"] = "Oneonone#3565",
+				}, -- [65]
+				{
+					["type"] = 1,
+					["time"] = 1669436879,
+					["from"] = "特變電工",
+					["msg"] = "yy",
+					["inbound"] = false,
+					["convo"] = "Oneonone#3565",
+				}, -- [66]
 				["info"] = {
 				},
 			},
@@ -5700,6 +5753,134 @@ WIM3_History = {
 					["inbound"] = false,
 					["convo"] = "Cqzqs",
 				}, -- [41]
+				{
+					["type"] = 1,
+					["time"] = 1669467527,
+					["from"] = "特變電工",
+					["msg"] = "麥克風準備好沒得 來yy日白",
+					["inbound"] = false,
+					["convo"] = "Cqzqs",
+				}, -- [42]
+				{
+					["type"] = 1,
+					["time"] = 1669467538,
+					["from"] = "Cqzqs",
+					["msg"] = "我买了，没到。。。",
+					["inbound"] = true,
+					["convo"] = "Cqzqs",
+				}, -- [43]
+				{
+					["type"] = 1,
+					["time"] = 1669467607,
+					["from"] = "Cqzqs",
+					["msg"] = "你为啥子打ZS野，P1不强的嘛",
+					["inbound"] = true,
+					["convo"] = "Cqzqs",
+				}, -- [44]
+				{
+					["type"] = 1,
+					["time"] = 1669467623,
+					["from"] = "特變電工",
+					["msg"] = "沒號",
+					["inbound"] = false,
+					["convo"] = "Cqzqs",
+				}, -- [45]
+				{
+					["type"] = 1,
+					["time"] = 1669467628,
+					["from"] = "特變電工",
+					["msg"] = "這個號直接70",
+					["inbound"] = false,
+					["convo"] = "Cqzqs",
+				}, -- [46]
+				{
+					["type"] = 1,
+					["time"] = 1669467641,
+					["from"] = "特變電工",
+					["msg"] = "防戰將就打",
+					["inbound"] = false,
+					["convo"] = "Cqzqs",
+				}, -- [47]
+				{
+					["type"] = 1,
+					["time"] = 1669467671,
+					["from"] = "Cqzqs",
+					["msg"] = "额",
+					["inbound"] = true,
+					["convo"] = "Cqzqs",
+				}, -- [48]
+				{
+					["type"] = 1,
+					["time"] = 1669467681,
+					["from"] = "特變電工",
+					["msg"] = "這個號陪伴了我整個70",
+					["inbound"] = false,
+					["convo"] = "Cqzqs",
+				}, -- [49]
+				{
+					["type"] = 1,
+					["time"] = 1669467699,
+					["from"] = "Cqzqs",
+					["msg"] = "我换了个公会，重庆，四川人",
+					["inbound"] = true,
+					["convo"] = "Cqzqs",
+				}, -- [50]
+				{
+					["type"] = 1,
+					["time"] = 1669467710,
+					["from"] = "Cqzqs",
+					["msg"] = "人不多】",
+					["inbound"] = true,
+					["convo"] = "Cqzqs",
+				}, -- [51]
+				{
+					["type"] = 1,
+					["time"] = 1669467712,
+					["from"] = "特變電工",
+					["msg"] = ".。",
+					["inbound"] = false,
+					["convo"] = "Cqzqs",
+				}, -- [52]
+				{
+					["type"] = 1,
+					["time"] = 1669467718,
+					["from"] = "Cqzqs",
+					["msg"] = "只有几个",
+					["inbound"] = true,
+					["convo"] = "Cqzqs",
+				}, -- [53]
+				{
+					["type"] = 1,
+					["time"] = 1669467723,
+					["from"] = "特變電工",
+					["msg"] = "直接標四川話嗎",
+					["inbound"] = false,
+					["convo"] = "Cqzqs",
+				}, -- [54]
+				{
+					["type"] = 1,
+					["time"] = 1669467730,
+					["from"] = "Cqzqs",
+					["msg"] = "有",
+					["inbound"] = true,
+					["convo"] = "Cqzqs",
+				}, -- [55]
+				{
+					["type"] = 1,
+					["time"] = 1669467738,
+					["from"] = "Cqzqs",
+					["msg"] = "会长成都的，应该是个主播",
+					["inbound"] = true,
+					["convo"] = "Cqzqs",
+				}, -- [56]
+				{
+					["type"] = 1,
+					["time"] = 1669467753,
+					["from"] = "Cqzqs",
+					["msg"] = "人不多，但精",
+					["inbound"] = true,
+					["convo"] = "Cqzqs",
+				}, -- [57]
 				["info"] = {
 				},
 			},
@@ -6365,6 +6546,18 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
+			["乆牛乆排丂"] = {
+				{
+					["type"] = 1,
+					["time"] = 1669473335,
+					["from"] = "邁克爾假死",
+					["msg"] = "你的外挂咋不一直挂起 中間還掉了？",
+					["inbound"] = false,
+					["convo"] = "乆牛乆排丂",
+				}, -- [1]
+				["info"] = {
+				},
+			},
 			["厄運烏鴉#316851"] = {
 				{
 					["type"] = 1,
@@ -6446,6 +6639,198 @@ WIM3_History = {
 					["inbound"] = false,
 					["convo"] = "厄運烏鴉#316851",
 				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1669464121,
+					["from"] = "邁克爾假死",
+					["msg"] = "yy",
+					["inbound"] = false,
+					["convo"] = "厄運烏鴉#316851",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1669464184,
+					["from"] = "厄運烏鴉#316851",
+					["msg"] = "大团去了",
+					["inbound"] = true,
+					["convo"] = "厄運烏鴉#316851",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1669471543,
+					["from"] = "邁克爾假死",
+					["msg"] = "yy回來",
+					["inbound"] = false,
+					["convo"] = "厄運烏鴉#316851",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1669473509,
+					["from"] = "邁克爾假死",
+					["msg"] = "打完沒得",
+					["inbound"] = false,
+					["convo"] = "厄運烏鴉#316851",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1669481910,
+					["from"] = "厄運烏鴉#316851",
+					["msg"] = "习近平",
+					["inbound"] = true,
+					["convo"] = "厄運烏鴉#316851",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1669481917,
+					["from"] = "邁克爾假死",
+					["msg"] = "擦",
+					["inbound"] = false,
+					["convo"] = "厄運烏鴉#316851",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1669481933,
+					["from"] = "厄運烏鴉#316851",
+					["msg"] = "试试",
+					["inbound"] = true,
+					["convo"] = "厄運烏鴉#316851",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1669481936,
+					["from"] = "邁克爾假死",
+					["msg"] = "小心明天被喝茶",
+					["inbound"] = false,
+					["convo"] = "厄運烏鴉#316851",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1669481942,
+					["from"] = "邁克爾假死",
+					["msg"] = "加速器是明文的",
+					["inbound"] = false,
+					["convo"] = "厄運烏鴉#316851",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1669481944,
+					["from"] = "厄運烏鴉#316851",
+					["msg"] = "我切回简体了",
+					["inbound"] = true,
+					["convo"] = "厄運烏鴉#316851",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1669481948,
+					["from"] = "邁克爾假死",
+					["msg"] = "別亂來",
+					["inbound"] = false,
+					["convo"] = "厄運烏鴉#316851",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1669481972,
+					["from"] = "厄運烏鴉#316851",
+					["msg"] = "我说习近平主席没问题啊",
+					["inbound"] = true,
+					["convo"] = "厄運烏鴉#316851",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1669481993,
+					["from"] = "厄運烏鴉#316851",
+					["msg"] = "又没说坏话 尊敬的习大大",
+					["inbound"] = true,
+					["convo"] = "厄運烏鴉#316851",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1669481999,
+					["from"] = "邁克爾假死",
+					["msg"] = "有些傻逼主播播臺服很容易出事情",
+					["inbound"] = false,
+					["convo"] = "厄運烏鴉#316851",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1669482010,
+					["from"] = "厄運烏鴉#316851",
+					["msg"] = "没事的",
+					["inbound"] = true,
+					["convo"] = "厄運烏鴉#316851",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1669482014,
+					["from"] = "邁克爾假死",
+					["msg"] = "我之前直播 把所有聊天都擋住了的",
+					["inbound"] = false,
+					["convo"] = "厄運烏鴉#316851",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1669482016,
+					["from"] = "厄運烏鴉#316851",
+					["msg"] = "把聊天框挡住就行了",
+					["inbound"] = true,
+					["convo"] = "厄運烏鴉#316851",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1669482053,
+					["from"] = "邁克爾假死",
+					["msg"] = "然後有個工會叫光復香港名字 直接被攔下來斷播了",
+					["inbound"] = false,
+					["convo"] = "厄運烏鴉#316851",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1669482059,
+					["from"] = "邁克爾假死",
+					["msg"] = "防不勝防",
+					["inbound"] = false,
+					["convo"] = "厄運烏鴉#316851",
+				}, -- [29]
+				{
+					["type"] = 1,
+					["time"] = 1669482066,
+					["from"] = "邁克爾假死",
+					["msg"] = "機器識別的",
+					["inbound"] = false,
+					["convo"] = "厄運烏鴉#316851",
+				}, -- [30]
+				{
+					["type"] = 1,
+					["time"] = 1669482574,
+					["from"] = "厄運烏鴉#316851",
+					["msg"] = "把珠寶日常做了 下了 ",
+					["inbound"] = true,
+					["convo"] = "厄運烏鴉#316851",
+				}, -- [31]
+				{
+					["type"] = 1,
+					["time"] = 1669482579,
+					["from"] = "厄運烏鴉#316851",
+					["msg"] = "看世界杯去",
+					["inbound"] = true,
+					["convo"] = "厄運烏鴉#316851",
+				}, -- [32]
+				{
+					["type"] = 1,
+					["time"] = 1669482592,
+					["from"] = "厄運烏鴉#316851",
+					["msg"] = "一件裝備沒賣到",
+					["inbound"] = true,
+					["convo"] = "厄運烏鴉#316851",
+				}, -- [33]
+				{
+					["type"] = 1,
+					["time"] = 1669482597,
+					["from"] = "厄運烏鴉#316851",
+					["msg"] = "分了3000多",
+					["inbound"] = true,
+					["convo"] = "厄運烏鴉#316851",
+				}, -- [34]
 				["info"] = {
 				},
 			},
@@ -6602,6 +6987,26 @@ WIM3_History = {
 					["inbound"] = true,
 					["convo"] = "Oneonone#3565",
 				}, -- [19]
+				["info"] = {
+				},
+			},
+			["若相依"] = {
+				{
+					["type"] = 1,
+					["time"] = 1669464972,
+					["from"] = "邁克爾假死",
+					["msg"] = "你是誰",
+					["inbound"] = false,
+					["convo"] = "若相依",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1669464978,
+					["from"] = "邁克爾假死",
+					["msg"] = "期末嗎",
+					["inbound"] = false,
+					["convo"] = "若相依",
+				}, -- [2]
 				["info"] = {
 				},
 			},
@@ -7017,6 +7422,90 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
+			["誓約之劍#31592"] = {
+				{
+					["type"] = 1,
+					["time"] = 1669475197,
+					["from"] = "邁克爾假死",
+					["msg"] = "能聼到我DC説話嗎",
+					["inbound"] = false,
+					["convo"] = "誓約之劍#31592",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1669475212,
+					["from"] = "誓約之劍#31592",
+					["msg"] = "聽不見",
+					["inbound"] = true,
+					["convo"] = "誓約之劍#31592",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1669475214,
+					["from"] = "邁克爾假死",
+					["msg"] = "明天我防戰能起飛不",
+					["inbound"] = false,
+					["convo"] = "誓約之劍#31592",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1669475235,
+					["from"] = "邁克爾假死",
+					["msg"] = "好",
+					["inbound"] = false,
+					["convo"] = "誓約之劍#31592",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1669475239,
+					["from"] = "邁克爾假死",
+					["msg"] = "幾點",
+					["inbound"] = false,
+					["convo"] = "誓約之劍#31592",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1669475304,
+					["from"] = "邁克爾假死",
+					["msg"] = "下周六我的獵人可以",
+					["inbound"] = false,
+					["convo"] = "誓約之劍#31592",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1669476036,
+					["from"] = "邁克爾假死",
+					["msg"] = "下周我有獵人",
+					["inbound"] = false,
+					["convo"] = "誓約之劍#31592",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1669476059,
+					["from"] = "邁克爾假死",
+					["msg"] = "下周六滿級",
+					["inbound"] = false,
+					["convo"] = "誓約之劍#31592",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1669476064,
+					["from"] = "邁克爾假死",
+					["msg"] = "之前",
+					["inbound"] = false,
+					["convo"] = "誓約之劍#31592",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1669476071,
+					["from"] = "邁克爾假死",
+					["msg"] = "至少190",
+					["inbound"] = false,
+					["convo"] = "誓約之劍#31592",
+				}, -- [10]
+				["info"] = {
+				},
+			},
 			["xuanxuan#31204"] = {
 				{
 					["type"] = 1,
@@ -7234,6 +7723,286 @@ WIM3_History = {
 					["inbound"] = true,
 					["convo"] = "xuanxuan#31204",
 				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1669464125,
+					["from"] = "邁克爾假死",
+					["msg"] = "yy",
+					["inbound"] = false,
+					["convo"] = "xuanxuan#31204",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1669467144,
+					["from"] = "邁克爾假死",
+					["msg"] = "yy",
+					["inbound"] = false,
+					["convo"] = "xuanxuan#31204",
+				}, -- [29]
+				{
+					["type"] = 1,
+					["time"] = 1669467144,
+					["from"] = "xuanxuan#31204",
+					["msg"] = "<DBM> 心悅會員正在与英雄 - Ingvar the Plunderer交战，（当前25% (阶段1)，5/5存活）",
+					["inbound"] = true,
+					["convo"] = "xuanxuan#31204",
+				}, -- [30]
+				{
+					["type"] = 1,
+					["time"] = 1669467223,
+					["from"] = "xuanxuan#31204",
+					["msg"] = "<DBM> 心悅會員已在英雄 - Ingvar the Plunderer的战斗中取得胜利！",
+					["inbound"] = true,
+					["convo"] = "xuanxuan#31204",
+				}, -- [31]
+				{
+					["type"] = 1,
+					["time"] = 1669470912,
+					["from"] = "邁克爾假死",
+					["msg"] = "我擦",
+					["inbound"] = false,
+					["convo"] = "xuanxuan#31204",
+				}, -- [32]
+				{
+					["type"] = 1,
+					["time"] = 1669470925,
+					["from"] = "邁克爾假死",
+					["msg"] = "抖音有個PVP主播聲音跟你一模一樣",
+					["inbound"] = false,
+					["convo"] = "xuanxuan#31204",
+				}, -- [33]
+				{
+					["type"] = 1,
+					["time"] = 1669470941,
+					["from"] = "邁克爾假死",
+					["msg"] = "明白的幹活？",
+					["inbound"] = false,
+					["convo"] = "xuanxuan#31204",
+				}, -- [34]
+				{
+					["type"] = 1,
+					["time"] = 1669470942,
+					["from"] = "xuanxuan#31204",
+					["msg"] = "its me",
+					["inbound"] = true,
+					["convo"] = "xuanxuan#31204",
+				}, -- [35]
+				{
+					["type"] = 1,
+					["time"] = 1669470958,
+					["from"] = "邁克爾假死",
+					["msg"] = "叫啥",
+					["inbound"] = false,
+					["convo"] = "xuanxuan#31204",
+				}, -- [36]
+				{
+					["type"] = 1,
+					["time"] = 1669470960,
+					["from"] = "邁克爾假死",
+					["msg"] = "主播",
+					["inbound"] = false,
+					["convo"] = "xuanxuan#31204",
+				}, -- [37]
+				{
+					["type"] = 1,
+					["time"] = 1669470979,
+					["from"] = "邁克爾假死",
+					["msg"] = "來YY",
+					["inbound"] = false,
+					["convo"] = "xuanxuan#31204",
+				}, -- [38]
+				{
+					["type"] = 1,
+					["time"] = 1669470987,
+					["from"] = "xuanxuan#31204",
+					["msg"] = "再单位。",
+					["inbound"] = true,
+					["convo"] = "xuanxuan#31204",
+				}, -- [39]
+				{
+					["type"] = 1,
+					["time"] = 1669471004,
+					["from"] = "邁克爾假死",
+					["msg"] = "聲音真的跟你一模一樣",
+					["inbound"] = false,
+					["convo"] = "xuanxuan#31204",
+				}, -- [40]
+				{
+					["type"] = 1,
+					["time"] = 1669471008,
+					["from"] = "邁克爾假死",
+					["msg"] = "我經常看他打PVP",
+					["inbound"] = false,
+					["convo"] = "xuanxuan#31204",
+				}, -- [41]
+				{
+					["type"] = 1,
+					["time"] = 1669471011,
+					["from"] = "邁克爾假死",
+					["msg"] = "不是看他打",
+					["inbound"] = false,
+					["convo"] = "xuanxuan#31204",
+				}, -- [42]
+				{
+					["type"] = 1,
+					["time"] = 1669471024,
+					["from"] = "邁克爾假死",
+					["msg"] = "看他放別人的視頻",
+					["inbound"] = false,
+					["convo"] = "xuanxuan#31204",
+				}, -- [43]
+				{
+					["type"] = 1,
+					["time"] = 1669471032,
+					["from"] = "xuanxuan#31204",
+					["msg"] = "= =",
+					["inbound"] = true,
+					["convo"] = "xuanxuan#31204",
+				}, -- [44]
+				{
+					["type"] = 1,
+					["time"] = 1669471044,
+					["from"] = "邁克爾假死",
+					["msg"] = "真的聲音跟你一模一樣",
+					["inbound"] = false,
+					["convo"] = "xuanxuan#31204",
+				}, -- [45]
+				{
+					["type"] = 1,
+					["time"] = 1669471050,
+					["from"] = "邁克爾假死",
+					["msg"] = "你不去聽一下嗎",
+					["inbound"] = false,
+					["convo"] = "xuanxuan#31204",
+				}, -- [46]
+				{
+					["type"] = 1,
+					["time"] = 1669474303,
+					["from"] = "邁克爾假死",
+					["msg"] = "你貴姓",
+					["inbound"] = false,
+					["convo"] = "xuanxuan#31204",
+				}, -- [47]
+				{
+					["type"] = 1,
+					["time"] = 1669474313,
+					["from"] = "xuanxuan#31204",
+					["msg"] = "LI",
+					["inbound"] = true,
+					["convo"] = "xuanxuan#31204",
+				}, -- [48]
+				{
+					["type"] = 1,
+					["time"] = 1669474318,
+					["from"] = "邁克爾假死",
+					["msg"] = "那不是你",
+					["inbound"] = false,
+					["convo"] = "xuanxuan#31204",
+				}, -- [49]
+				{
+					["type"] = 1,
+					["time"] = 1669474319,
+					["from"] = "xuanxuan#31204",
+					["msg"] = "<DBM> 心悅會員正在与英雄 - Slad'ran交战，（当前85%，5/5存活）",
+					["inbound"] = true,
+					["convo"] = "xuanxuan#31204",
+				}, -- [50]
+				{
+					["type"] = 1,
+					["time"] = 1669474324,
+					["from"] = "邁克爾假死",
+					["msg"] = "那個主播是老周",
+					["inbound"] = false,
+					["convo"] = "xuanxuan#31204",
+				}, -- [51]
+				{
+					["type"] = 1,
+					["time"] = 1669474324,
+					["from"] = "xuanxuan#31204",
+					["msg"] = "HAHA ",
+					["inbound"] = true,
+					["convo"] = "xuanxuan#31204",
+				}, -- [52]
+				{
+					["type"] = 1,
+					["time"] = 1669474332,
+					["from"] = "邁克爾假死",
+					["msg"] = "真的跟你一模一樣的聲音",
+					["inbound"] = false,
+					["convo"] = "xuanxuan#31204",
+				}, -- [53]
+				{
+					["type"] = 1,
+					["time"] = 1669474333,
+					["from"] = "邁克爾假死",
+					["msg"] = "我擦",
+					["inbound"] = false,
+					["convo"] = "xuanxuan#31204",
+				}, -- [54]
+				{
+					["type"] = 1,
+					["time"] = 1669474348,
+					["from"] = "xuanxuan#31204",
+					["msg"] = "<DBM> 心悅會員已在英雄 - Slad'ran的战斗中取得胜利！",
+					["inbound"] = true,
+					["convo"] = "xuanxuan#31204",
+				}, -- [55]
+				{
+					["type"] = 1,
+					["time"] = 1669474469,
+					["from"] = "邁克爾假死",
+					["msg"] = "發你微信了",
+					["inbound"] = false,
+					["convo"] = "xuanxuan#31204",
+				}, -- [56]
+				{
+					["type"] = 1,
+					["time"] = 1669474471,
+					["from"] = "xuanxuan#31204",
+					["msg"] = "<DBM> 心悅會員正在与英雄 - Drakkari Colossus交战，（当前48%，5/5存活）",
+					["inbound"] = true,
+					["convo"] = "xuanxuan#31204",
+				}, -- [57]
+				{
+					["type"] = 1,
+					["time"] = 1669474471,
+					["from"] = "邁克爾假死",
+					["msg"] = "速度看",
+					["inbound"] = false,
+					["convo"] = "xuanxuan#31204",
+				}, -- [58]
+				{
+					["type"] = 1,
+					["time"] = 1669474475,
+					["from"] = "邁克爾假死",
+					["msg"] = "立刻 趕緊",
+					["inbound"] = false,
+					["convo"] = "xuanxuan#31204",
+				}, -- [59]
+				{
+					["type"] = 1,
+					["time"] = 1669474480,
+					["from"] = "邁克爾假死",
+					["msg"] = "一模一樣",
+					["inbound"] = false,
+					["convo"] = "xuanxuan#31204",
+				}, -- [60]
+				{
+					["type"] = 1,
+					["time"] = 1669474490,
+					["from"] = "邁克爾假死",
+					["msg"] = "也是喜歡玩戰士 打pVP",
+					["inbound"] = false,
+					["convo"] = "xuanxuan#31204",
+				}, -- [61]
+				{
+					["type"] = 1,
+					["time"] = 1669474502,
+					["from"] = "xuanxuan#31204",
+					["msg"] = "<DBM> 心悅會員已在英雄 - Drakkari Colossus的战斗中取得胜利！",
+					["inbound"] = true,
+					["convo"] = "xuanxuan#31204",
+				}, -- [62]
 				["info"] = {
 				},
 			},

@@ -452,7 +452,7 @@ AtlasLootClassicDB = {
 			[38549] = "arena:400",
 			[16544] = "honor:2000",
 			[28854] = "honor:3800",
-			[40691] = "EmblemOfHeroism:40",
+			[33530] = "BoJ:75",
 			[40723] = "EmblemOfValor:25",
 			[28245] = "honor:2850",
 			[33325] = "BoJ:35",
@@ -483,19 +483,19 @@ AtlasLootClassicDB = {
 			[41587] = "honor:5700",
 			[38550] = "arena:400",
 			[30344] = "honor:2280",
-			[16335] = "honor:400",
-			[40692] = "EmblemOfHeroism:40",
 			[40724] = "EmblemOfValor:25",
+			[33531] = "BoJ:60",
+			[16335] = "honor:400",
 			[30764] = "BoJ:20",
 			[34577] = "honor:3990",
 			[44912] = "cpvpWintergrasp:25",
 			[37929] = "honor:5700",
 			[24550] = "honor:9500",
-			[18428] = "honor:200",
+			[33755] = "honor:8550",
 			[23467] = "honor:2500",
 			[33506] = "BoJ:20",
-			[30768] = "BoJ:20",
 			[42067] = "honor:33180",
+			[30768] = "BoJ:20",
 			[33056] = "honor:3990",
 			[42131] = "honor:43400",
 			[31855] = "honor:50",
@@ -522,10 +522,10 @@ AtlasLootClassicDB = {
 			[28305] = "honor:4750",
 			[33507] = "BoJ:20",
 			[32819] = "honor:3990",
-			[33755] = "honor:8550",
+			[18428] = "honor:200",
 			[33756] = "honor:8550",
 			[33729] = "honor:6840",
-			[33531] = "BoJ:60",
+			[40692] = "EmblemOfHeroism:40",
 			[16341] = "honor:200",
 			[42068] = "honor:33180",
 			[28641] = "honor:3800",
@@ -545,7 +545,7 @@ AtlasLootClassicDB = {
 			[32453] = "honor:8",
 			[28309] = "honor:4750",
 			[41589] = "honor:5700",
-			[33530] = "BoJ:75",
+			[40691] = "EmblemOfHeroism:40",
 			[34997] = "honor:19000",
 			[33501] = "BoJ:75",
 			[40694] = "EmblemOfHeroism:40",
@@ -634,6 +634,18 @@ AtlasLootClassicDB = {
 			},
 		},
 		["特變電工 - 伊弗斯"] = {
+			["minimap"] = {
+				["minimapPos"] = 238.0107461904307,
+			},
+			["Addons"] = {
+				["Favourites"] = {
+					["lists"] = {
+						["ProfileBase"] = {
+							[32231] = true,
+						},
+					},
+				},
+			},
 			["GUI"] = {
 				["point"] = {
 					"RIGHT", -- [1]
@@ -650,31 +662,9 @@ AtlasLootClassicDB = {
 					0, -- [5]
 				},
 			},
-			["Addons"] = {
-				["Favourites"] = {
-					["lists"] = {
-						["ProfileBase"] = {
-							[32231] = true,
-						},
-					},
-				},
-			},
-			["minimap"] = {
-				["minimapPos"] = 238.0107461904307,
-			},
 		},
 		["邁克爾假死 - 伊弗斯"] = {
-			["minimap"] = {
-				["minimapPos"] = 259.6597694701143,
-			},
 			["GUI"] = {
-				["point"] = {
-					"RIGHT", -- [1]
-					nil, -- [2]
-					"RIGHT", -- [3]
-					-201.6755828857422, -- [4]
-					-78.09302520751953, -- [5]
-				},
 				["selectedGameVersion"] = 1,
 				["selected"] = {
 					"AtlasLootClassic_Crafting", -- [1]
@@ -683,6 +673,16 @@ AtlasLootClassicDB = {
 					1, -- [4]
 					0, -- [5]
 				},
+				["point"] = {
+					"RIGHT", -- [1]
+					nil, -- [2]
+					"RIGHT", -- [3]
+					-201.6755828857422, -- [4]
+					-78.09302520751953, -- [5]
+				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 259.6597694701143,
 			},
 		},
 		["畜生犬隊長 - 伊弗斯"] = {

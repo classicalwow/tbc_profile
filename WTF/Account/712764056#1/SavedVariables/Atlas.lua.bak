@@ -19,7 +19,7 @@ AtlasDB = {
 				["checkMissingModules"] = true,
 			},
 			["minimap"] = {
-				["minimapPos"] = 259.9475741963705,
+				["minimapPos"] = 242.1420135122949,
 			},
 		},
 	},
