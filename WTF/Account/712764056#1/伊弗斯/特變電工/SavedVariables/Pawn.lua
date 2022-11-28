@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0712,
-	["LastPlayerFullName"] = "特變電工-伊弗斯",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 41387,
@@ -15,15 +13,15 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:42027::::::::80:::::::::|h[致命角斗士的凯旋坠饰]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 37115,
-			["Level"] = 187,
-			["Link"] = "|cff0070dd|Hitem:37115::::::::80:::::::::|h[十字军广场护肩]|h|r",
+			["ID"] = 40856,
+			["Level"] = 200,
+			["Link"] = "|cff0070dd|Hitem:40856::::::::80:::::::::|h[凶残角斗士的板甲护肩]|h|r",
 		}, -- [3]
 		[13] = {
-			["ID"] = 44063,
-			["Level"] = 200,
+			["ID"] = 40257,
+			["Level"] = 213,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff0070dd|Hitem:44063::::::::80:::::::::|h[雕像 - 帝黄晶螃蟹]|h|r",
+			["Link"] = "|cffa335ee|Hitem:40257::::::::80:::::::::|h[防御者的准则]|h|r",
 		},
 		[7] = {
 			["ID"] = 37263,
@@ -42,9 +40,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:42067::::::::80:::::::::|h[致命角斗士的凯旋披风]|h|r",
 		},
 		[8] = {
-			["ID"] = 37618,
-			["Level"] = 200,
-			["Link"] = "|cff0070dd|Hitem:37618::::::::80:::::::::|h[上古邪恶胫甲]|h|r",
+			["ID"] = 39701,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:39701::::::::80:::::::::|h[黎明行者]|h|r",
 		},
 		[16] = {
 			["ID"] = 40497,
@@ -66,10 +64,10 @@ PawnOptions = {
 			["Level"] = 200,
 			["Link"] = "|cffa335ee|Hitem:39622::::::::80:::::::::|h[英雄的无畏手套]|h|r",
 		},
-		[5] = {
-			["ID"] = 37722,
-			["Level"] = 200,
-			["Link"] = "|cff0070dd|Hitem:37722::::::::80:::::::::|h[死灵胸铠]|h|r",
+		[9] = {
+			["ID"] = 40888,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:40888::::::::80:::::::::|h[致命角斗士的凯旋护腕]|h|r",
 		},
 		[11] = {
 			["ID"] = 42115,
@@ -88,12 +86,14 @@ PawnOptions = {
 			["AlsoFitsIn"] = 11,
 			["Link"] = "|cffa335ee|Hitem:40718::::::::80:::::::::|h[坚固堡垒徽记]|h|r",
 		},
-		[9] = {
-			["ID"] = 40888,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40888::::::::80:::::::::|h[致命角斗士的凯旋护腕]|h|r",
+		[5] = {
+			["ID"] = 37722,
+			["Level"] = 200,
+			["Link"] = "|cff0070dd|Hitem:37722::::::::80:::::::::|h[死灵胸铠]|h|r",
 		},
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "特變電工-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

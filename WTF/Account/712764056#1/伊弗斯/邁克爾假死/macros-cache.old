@@ -1,5 +1,5 @@
 VER 3 000000000100001F "target" "135769"
-/target 雷铸工头
+/target 逐日
 /script SetRaidTarget("target",8)
 END
 VER 3 000000000100001C "坐騎" "132150"
@@ -27,5 +27,5 @@ VER 3 000000000100001D "自动攻击" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0000000001000020 "误导宠物" "INV_MISC_QUESTIONMARK"
 #showtooltips 误导
-/cast [pet,target=pet] 误导
+/cast [@focus,help,exists,nodead][help,exists,nodead][@pet] 误导
 END

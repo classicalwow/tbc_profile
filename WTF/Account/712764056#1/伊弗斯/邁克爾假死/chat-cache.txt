@@ -235,6 +235,7 @@ END
 CHANNELS
 寻求组队
 尋求組隊
+大脚世界频道
 END
 
 ZONECHANNELS 18874371
