@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0712,
+	["LastPlayerFullName"] = "邁克爾假死-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 37726,
@@ -34,14 +36,14 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:43202::::::::78:::::::::|h[冰虫外皮护腿]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 42891,
-			["Level"] = 174,
-			["Link"] = "|cff1eff00|Hitem:42891::::::::77:::::::::|h[布伦希尔达踏雪靴]|h|r",
+			["ID"] = 39196,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:39196::::::::80:::::::::|h[膜拜者之靴]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 43131,
-			["Level"] = 187,
-			["Link"] = "|cff0070dd|Hitem:43131::::::::80:::::::::|h[射雕护腕]|h|r",
+			["ID"] = 40736,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:40736::::::::80:::::::::|h[塔楼射手护臂]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 37409,
@@ -73,9 +75,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:44014::::::::77:::::::::|h[菲斯克的怀表]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 43889,
-			["Level"] = 174,
-			["Link"] = "|cff1eff00|Hitem:43889::::::::79:::::::::|h[笨重憎恶披风]|h|r",
+			["ID"] = 40721,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:40721::::::::80:::::::::|h[锤头鲨皮披风]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 37883,
@@ -89,13 +91,11 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:44250::::::::80:::::::::|h[暗魂收割者]|h|r",
 		}, -- [17]
 		{
-			["ID"] = 30318,
-			["Level"] = 175,
-			["Link"] = "|cffff8000|Hitem:30318::::::::70:::::::::|h[虛空之絃長弓]|h|r",
+			["ID"] = 39296,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:39296::::::::80:::::::::|h[精锐的憎恨之弓]|h|r",
 		}, -- [18]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "邁克爾假死-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

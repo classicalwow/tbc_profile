@@ -7,7 +7,7 @@ ItemRackUser = {
 	["MainScale"] = 1,
 	["SetMenuWrapValue"] = 3,
 	["SetMenuWrap"] = "OFF",
-	["CurrentSet"] = "防戰",
+	["CurrentSet"] = "pvp",
 	["Sets"] = {
 		["~Unequip"] = {
 			["equip"] = {
@@ -180,7 +180,6 @@ ItemRackUser = {
 		},
 		["~CombatQueue"] = {
 			["equip"] = {
-				[13] = "40257::::::::80:::::::::",
 			},
 		},
 		["pvp"] = {

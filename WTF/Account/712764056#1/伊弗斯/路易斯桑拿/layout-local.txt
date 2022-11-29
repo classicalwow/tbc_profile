@@ -8,8 +8,8 @@ W: 365
 H: 240
 Frame: AtlasLoot_GUI-Frame
 FrameLevel: 1
-Anchor: CENTER
-X: 295
-Y: -13
+Anchor: BOTTOMLEFT
+X: 101
+Y: 110
 W: 920
 H: 600
