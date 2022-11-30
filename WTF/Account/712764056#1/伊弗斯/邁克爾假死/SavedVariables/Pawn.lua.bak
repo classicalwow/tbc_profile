@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0712,
+	["LastPlayerFullName"] = "邁克爾假死-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 37726,
@@ -8,14 +10,14 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:37726::::::::80:::::::::|h[爵德的头盔]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 40678,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:40678::::::::80:::::::::|h[流浪英雄坠饰]|h|r",
+			["ID"] = 40065,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:40065::::::::80:::::::::|h[愚者的试炼]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 37373,
-			["Level"] = 200,
-			["Link"] = "|cff0070dd|Hitem:37373::::::::80:::::::::|h[冰虫的巨型肩甲]|h|r",
+			["ID"] = 40507,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:40507::::::::80:::::::::|h[勇猛的地穴追猎者护肩]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -29,9 +31,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:37648::::::::80:::::::::|h[灯穗腰带]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 43202,
-			["Level"] = 174,
-			["Link"] = "|cff0070dd|Hitem:43202::::::::78:::::::::|h[冰虫外皮护腿]|h|r",
+			["ID"] = 40506,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:40506::::::::80:::::::::|h[勇猛的地穴追猎者护腿]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 39196,
@@ -44,9 +46,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:40736::::::::80:::::::::|h[塔楼射手护臂]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 37409,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:37409::::::::80:::::::::|h[金边皮护手]|h|r",
+			["ID"] = 40262,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:40262::::::::80:::::::::|h[风险手套]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 37685,
@@ -94,8 +96,6 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:39296::::::::80:::::::::|h[精锐的憎恨之弓]|h|r",
 		}, -- [18]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "邁克爾假死-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

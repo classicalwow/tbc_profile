@@ -166,7 +166,7 @@ dbm-icecrown: enabled
 dbm-ulduar: enabled
 dbm-chamberofaspects: enabled
 DataStore: disabled
-Gladdy: disabled
+Gladdy: enabled
 vuhdo: disabled
 decursive: disabled
 dbm-party-vanilla: enabled

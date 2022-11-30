@@ -20,6 +20,7 @@ VER 3 000000000100000E "爆發" "136048"
 /cast 急速射擊
 /cast 狂野怒火
 /cast 狂暴
+/use 加速药水
 END
 VER 3 000000000100001B "稳固" "INV_MISC_QUESTIONMARK"
 /castsequence reset=3 穩固射擊, 自動射擊

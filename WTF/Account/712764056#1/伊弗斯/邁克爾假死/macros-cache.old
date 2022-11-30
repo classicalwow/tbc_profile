@@ -9,6 +9,12 @@ END
 VER 3 000000000100001E "守护" "INV_MISC_QUESTIONMARK"
 /castsequence 龙鹰守护,蝰蛇守护
 END
+VER 3 0000000001000021 "爆发" "INV_MISC_QUESTIONMARK"
+/cast 狂暴(种族特长)
+/cast 急速射击
+/use 菲斯克的怀表
+/cast 野性呼唤
+END
 VER 3 000000000100000E "爆發" "136048"
 #showtooltip 急速射擊
 /cast 急速射擊
@@ -27,5 +33,5 @@ VER 3 000000000100001D "自动攻击" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0000000001000020 "误导宠物" "INV_MISC_QUESTIONMARK"
 #showtooltips 误导
-/cast [@focus,help,exists,nodead][help,exists,nodead][@pet] 误导
+/cast [target=focus,exists][target=pet][] 误导
 END
