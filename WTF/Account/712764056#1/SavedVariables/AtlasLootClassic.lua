@@ -10,7 +10,7 @@ AtlasLootClassicDB = {
 			[33535] = "BoJ:35",
 			[23465] = "honor:5000",
 			[33663] = "honor:17100",
-			[40856] = "honor:35000",
+			[40856] = "EmblemOfHeroism:30",
 			[40888] = "honor:27580",
 			[18430] = "honor:200",
 			[30770] = "BoJ:20",
@@ -87,7 +87,7 @@ AtlasLootClassicDB = {
 			[33508] = "BoJ:20",
 			[33540] = "BoJ:35",
 			[18848] = "honor:2500",
-			[40797] = "honor:35000",
+			[40797] = "EmblemOfHeroism:30",
 			[28119] = "honor:1425",
 			[33732] = "honor:6840",
 			[33764] = "honor:5130",
@@ -153,7 +153,7 @@ AtlasLootClassicDB = {
 			[18834] = "honor:400",
 			[40737] = "EmblemOfValor:60",
 			[18866] = "honor:2500",
-			[40801] = "honor:5040:arena:400",
+			[40801] = "EmblemOfValor:30",
 			[44957] = "honor:10000",
 			[33736] = "honor:4275",
 			[33832] = "BoJ:75",
@@ -200,7 +200,7 @@ AtlasLootClassicDB = {
 			[33515] = "BoJ:75",
 			[33579] = "BoJ:75",
 			[40804] = "arena:1350",
-			[40836] = "honor:42000",
+			[40836] = "EmblemOfHeroism:45",
 			[37927] = "honor:5700",
 			[30776] = "BoJ:30",
 			[42115] = "honor:33180",
@@ -260,7 +260,7 @@ AtlasLootClassicDB = {
 			[41575] = "honor:1250",
 			[33519] = "BoJ:60",
 			[33583] = "BoJ:60",
-			[40840] = "honor:8400:arena:700",
+			[40840] = "EmblemOfValor:45",
 			[24544] = "honor:4750",
 			[33743] = "honor:12825",
 			[42023] = "honor:16590",
@@ -283,7 +283,7 @@ AtlasLootClassicDB = {
 			[40682] = "EmblemOfHeroism:40",
 			[34576] = "honor:3990",
 			[33585] = "BoJ:75",
-			[40778] = "honor:42000",
+			[40778] = "EmblemOfHeroism:45",
 			[44902] = "cpvpWintergrasp:40",
 			[33681] = "honor:4275",
 			[24545] = "honor:4750",
@@ -411,12 +411,12 @@ AtlasLootClassicDB = {
 			[32044] = "honor:6650",
 			[33661] = "honor:12825",
 			[38545] = "arena:400",
-			[40859] = "honor:6720:arena:550",
+			[40859] = "EmblemOfValor:30",
 			[28293] = "honor:7600",
 			[40750] = "EmblemOfValor:40",
 			[18841] = "honor:1",
 			[40751] = "EmblemOfValor:40",
-			[40783] = "honor:8400:arena:700",
+			[40783] = "EmblemOfValor:45",
 			[32450] = "honor:7125",
 			[29383] = "BoJ:41",
 			[40879] = "honor:43400",
@@ -449,7 +449,7 @@ AtlasLootClassicDB = {
 			[40720] = "EmblemOfValor:25",
 			[37928] = "honor:5700",
 			[16548] = "honor:2000",
-			[40816] = "honor:42000",
+			[40816] = "EmblemOfHeroism:45",
 			[33687] = "honor:12825",
 			[40880] = "honor:43400",
 			[42260] = "arena:3150",
@@ -476,8 +476,8 @@ AtlasLootClassicDB = {
 			[42607] = "arena:1200",
 			[38547] = "arena:400",
 			[30763] = "BoJ:20",
-			[33528] = "BoJ:60",
 			[18826] = "honor:2500",
+			[40689] = "EmblemOfHeroism:40",
 			[40721] = "EmblemOfValor:25",
 			[33973] = "BoJ:60",
 			[18874] = "honor:5000",
@@ -545,7 +545,7 @@ AtlasLootClassicDB = {
 			[40723] = "EmblemOfValor:25",
 			[30768] = "BoJ:20",
 			[22858] = "honor:1000",
-			[40819] = "honor:8400:arena:700",
+			[40819] = "EmblemOfValor:45",
 			[34162] = "BoJ:75",
 			[28362] = "honor:1425",
 			[33754] = "honor:8550",
@@ -610,7 +610,7 @@ AtlasLootClassicDB = {
 			[18860] = "honor:5000",
 			[32819] = "honor:3990",
 			[29275] = "BoJ:50",
-			[40689] = "EmblemOfHeroism:40",
+			[33528] = "BoJ:60",
 			[33729] = "honor:6840",
 			[33756] = "honor:8550",
 			[42511] = "honor:4480:arena:175",
@@ -723,21 +723,8 @@ AtlasLootClassicDB = {
 			},
 		},
 		["特變電工 - 伊弗斯"] = {
-			["GUI"] = {
-				["point"] = {
-					nil, -- [1]
-					nil, -- [2]
-					"CENTER", -- [3]
-					265.8341979980469, -- [4]
-					-68.9034423828125, -- [5]
-				},
-				["selected"] = {
-					"AtlasLootClassic_Crafting", -- [1]
-					"EnchantingWrath", -- [2]
-					8, -- [3]
-					1, -- [4]
-					0, -- [5]
-				},
+			["minimap"] = {
+				["minimapPos"] = 238.0107461904307,
 			},
 			["Addons"] = {
 				["Favourites"] = {
@@ -748,14 +735,24 @@ AtlasLootClassicDB = {
 					},
 				},
 			},
-			["minimap"] = {
-				["minimapPos"] = 238.0107461904307,
+			["GUI"] = {
+				["point"] = {
+					nil, -- [1]
+					nil, -- [2]
+					"CENTER", -- [3]
+					265.9999694824219, -- [4]
+					-69.00003051757812, -- [5]
+				},
+				["selected"] = {
+					"AtlasLootClassic_Crafting", -- [1]
+					"EnchantingWrath", -- [2]
+					nil, -- [3]
+					1, -- [4]
+					0, -- [5]
+				},
 			},
 		},
 		["邁克爾假死 - 伊弗斯"] = {
-			["minimap"] = {
-				["minimapPos"] = 272.1504379571508,
-			},
 			["GUI"] = {
 				["point"] = {
 					"RIGHT", -- [1]
@@ -771,6 +768,9 @@ AtlasLootClassicDB = {
 					1, -- [4]
 					0, -- [5]
 				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 272.1504379571508,
 			},
 		},
 		["畜生犬隊長 - 伊弗斯"] = {

@@ -825,7 +825,7 @@ AutoBarDB = {
 					["arrangeOnUse"] = "分解",
 				},
 				["AutoBarButtonQuest"] = {
-					["arrangeOnUse"] = 43494,
+					["arrangeOnUse"] = 42108,
 				},
 				["AutoBarButtonBuff"] = {
 					["arrangeOnUse"] = 43465,

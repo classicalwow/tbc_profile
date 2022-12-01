@@ -117,7 +117,7 @@ SafeQueue: enabled
 WideQuestLog: enabled
 AddOnSkins: enabled
 DBM-CountPack-Overwatch: enabled
-nameplatecooldowns: enabled
+nameplatecooldowns: disabled
 gladiusex: enabled
 ItemRack: enabled
 MailLogger: enabled
@@ -178,3 +178,4 @@ VuhDoOptions: disabled
 EZQuest: disabled
 RaidLedger: enabled
 RXPGuides: disabled
+NameplateAuras: disabled

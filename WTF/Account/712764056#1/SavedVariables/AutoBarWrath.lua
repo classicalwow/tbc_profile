@@ -421,7 +421,7 @@ AutoBarDB = {
 				["AutoBarButtonMount"] = {
 				},
 				["AutoBarButtonQuest"] = {
-					["arrangeOnUse"] = 43494,
+					["arrangeOnUse"] = 42108,
 				},
 				["AutoBarButtonCrafting"] = {
 					["arrangeOnUse"] = "分解",

@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0712,
+	["LastPlayerFullName"] = "特變電工-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 41387,
@@ -64,10 +66,10 @@ PawnOptions = {
 			["Level"] = 200,
 			["Link"] = "|cffa335ee|Hitem:39622::::::::80:::::::::|h[英雄的无畏手套]|h|r",
 		},
-		[9] = {
-			["ID"] = 40888,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40888::::::::80:::::::::|h[致命角斗士的凯旋护腕]|h|r",
+		[5] = {
+			["ID"] = 37722,
+			["Level"] = 200,
+			["Link"] = "|cff0070dd|Hitem:37722::::::::80:::::::::|h[死灵胸铠]|h|r",
 		},
 		[11] = {
 			["ID"] = 42115,
@@ -86,14 +88,12 @@ PawnOptions = {
 			["AlsoFitsIn"] = 11,
 			["Link"] = "|cffa335ee|Hitem:40718::::::::80:::::::::|h[坚固堡垒徽记]|h|r",
 		},
-		[5] = {
-			["ID"] = 37722,
-			["Level"] = 200,
-			["Link"] = "|cff0070dd|Hitem:37722::::::::80:::::::::|h[死灵胸铠]|h|r",
+		[9] = {
+			["ID"] = 40888,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:40888::::::::80:::::::::|h[致命角斗士的凯旋护腕]|h|r",
 		},
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "特變電工-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

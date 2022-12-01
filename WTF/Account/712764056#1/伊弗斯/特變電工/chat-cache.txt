@@ -7,6 +7,7 @@ CHANNELS
 交易 0 3 0
 综合 1 4 0
 大陸老鄉會 1 5 0
+胖丁愛唱歌 1 6 0
 鏡花水月 1 10 0
 END
 
@@ -164,6 +165,7 @@ END
 CHANNELS
 大陸老鄉會
 鏡花水月
+胖丁愛唱歌
 END
 
 ZONECHANNELS 2097153
