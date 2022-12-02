@@ -11,7 +11,8 @@ VER 3 0000000001000001 "target" "132090"
 /script SetRaidTarget("target",8)
 END
 VER 3 0000000001000018 "力量卷軸" "INV_MISC_QUESTIONMARK"
-/use [target=player] 力量卷軸 V
+/equip 黑冰
+/cast [stance:2/3] 战斗姿态
 END
 VER 3 0000000001000002 "吐口水" "132100"
 /耳光
@@ -71,9 +72,9 @@ VER 3 0000000001000006 "致死" "132355"
 /cast 致死打击
 END
 VER 3 0000000001000016 "英勇打擊" "INV_MISC_QUESTIONMARK"
-#showtooltip 英勇打擊
-/cast !英勇打擊
-/startattack
+#showtooltip 拳击
+/cast [nostance:3] 狂暴姿态
+/cast 拳击
 END
 VER 3 0000000001000010 "雙手武器" "132090"
 /cast 狂暴姿態

@@ -13,11 +13,6 @@ PawnCommon = {
 	["ShowTooltipIcons"] = true,
 	["LastVersion"] = 2.0712,
 	["ShowSocketingAdvisor"] = true,
-	["ShowSpecIcons"] = true,
-	["IgnoreGemsWhileLeveling"] = true,
-	["ButtonPosition"] = 2,
-	["ShowLootUpgradeAdvisor"] = true,
-	["ShowQuestUpgradeAdvisor"] = true,
 	["Scales"] = {
 		["\"Classic\":WARRIOR2"] = {
 			["PerCharacterOptions"] = {
@@ -112,22 +107,25 @@ PawnCommon = {
 			["UnenchantedColor"] = "bfbfbf",
 			["SpecID"] = 2,
 		},
-		["\"Classic\":PRIEST3"] = {
+		["\"Classic\":SHAMAN1"] = {
 			["PerCharacterOptions"] = {
 			},
-			["Color"] = "ffffff",
-			["LocalizedName"] = "牧师: 暗影",
-			["ClassID"] = 5,
+			["Color"] = "0070dd",
+			["LocalizedName"] = "萨满祭司: 元素",
+			["ClassID"] = 7,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "bfbfbf",
-			["SpecID"] = 3,
+			["UnenchantedColor"] = "0054a5",
+			["SpecID"] = 1,
 		},
 		["\"Classic\":PALADIN2"] = {
 			["PerCharacterOptions"] = {
+				["頂級投資家-伊弗斯"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "f48cba",
 			["LocalizedName"] = "圣骑士: 防护",
@@ -210,6 +208,9 @@ PawnCommon = {
 		},
 		["\"Classic\":PALADIN3"] = {
 			["PerCharacterOptions"] = {
+				["頂級投資家-伊弗斯"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "f48cba",
 			["LocalizedName"] = "圣骑士: 惩戒",
@@ -222,19 +223,19 @@ PawnCommon = {
 			["UnenchantedColor"] = "b7698b",
 			["SpecID"] = 3,
 		},
-		["\"Classic\":SHAMAN1"] = {
+		["\"Classic\":PRIEST3"] = {
 			["PerCharacterOptions"] = {
 			},
-			["Color"] = "0070dd",
-			["LocalizedName"] = "萨满祭司: 元素",
-			["ClassID"] = 7,
+			["Color"] = "ffffff",
+			["LocalizedName"] = "牧师: 暗影",
+			["ClassID"] = 5,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = false,
 			["Provider"] = "Classic",
-			["UnenchantedColor"] = "0054a5",
-			["SpecID"] = 1,
+			["UnenchantedColor"] = "bfbfbf",
+			["SpecID"] = 3,
 		},
 		["\"Classic\":SHAMAN2"] = {
 			["PerCharacterOptions"] = {
@@ -463,6 +464,9 @@ PawnCommon = {
 		},
 		["\"Classic\":PALADIN1"] = {
 			["PerCharacterOptions"] = {
+				["頂級投資家-伊弗斯"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "f48cba",
 			["LocalizedName"] = "圣骑士: 神圣",
@@ -502,5 +506,10 @@ PawnCommon = {
 			["SpecID"] = 2,
 		},
 	},
+	["IgnoreGemsWhileLeveling"] = true,
+	["ButtonPosition"] = 2,
+	["ShowLootUpgradeAdvisor"] = true,
+	["ShowQuestUpgradeAdvisor"] = true,
+	["ShowSpecIcons"] = true,
 	["ShownGettingStarted"] = true,
 }

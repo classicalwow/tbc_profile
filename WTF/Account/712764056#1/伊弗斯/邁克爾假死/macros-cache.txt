@@ -7,7 +7,7 @@ VER 3 000000000100001C "坐騎" "132150"
 /cast 霜狼嗥叫者
 END
 VER 3 000000000100001E "守护" "INV_MISC_QUESTIONMARK"
-/castsequence 龙鹰守护,蝰蛇守护
+/castsequence 龙鹰守护,猎豹守护
 END
 VER 3 0000000001000021 "爆发" "INV_MISC_QUESTIONMARK"
 /cast 狂暴(种族特长)

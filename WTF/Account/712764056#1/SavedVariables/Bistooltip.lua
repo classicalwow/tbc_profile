@@ -1,17 +1,30 @@
 
 BisTooltipDB = {
 	["profileKeys"] = {
-		["特變電工 - 伊弗斯"] = "Default",
+		["頂級投資家 - 伊弗斯"] = "Default",
+		["路易斯桑拿 - 伊弗斯"] = "Default",
 		["邁克爾假死 - 伊弗斯"] = "Default",
 		["暖男你馬四了 - 伊弗斯"] = "Default",
-		["路易斯桑拿 - 伊弗斯"] = "Default",
+		["特變電工 - 伊弗斯"] = "Default",
 	},
 	["char"] = {
-		["特變電工 - 伊弗斯"] = {
+		["頂級投資家 - 伊弗斯"] = {
+			["version"] = 6.1,
+		},
+		["路易斯桑拿 - 伊弗斯"] = {
+			["version"] = 6.1,
+		},
+		["邁克爾假死 - 伊弗斯"] = {
 			["class_index"] = 3,
 			["version"] = 6.1,
 			["phase_index"] = 2,
 			["spec_index"] = 3,
+		},
+		["暖男你馬四了 - 伊弗斯"] = {
+			["version"] = 6.1,
+		},
+		["特變電工 - 伊弗斯"] = {
+			["class_index"] = 10,
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -65,18 +78,8 @@ BisTooltipDB = {
 					["Destruction"] = true,
 				},
 			},
-		},
-		["邁克爾假死 - 伊弗斯"] = {
-			["class_index"] = 3,
-			["spec_index"] = 3,
 			["version"] = 6.1,
 			["phase_index"] = 2,
-		},
-		["暖男你馬四了 - 伊弗斯"] = {
-			["version"] = 6.1,
-		},
-		["路易斯桑拿 - 伊弗斯"] = {
-			["version"] = 6.1,
 		},
 	},
 }

@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0712,
-	["LastPlayerFullName"] = "邁克爾假死-伊弗斯",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 37726,
@@ -51,16 +49,16 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:40262::::::::80:::::::::|h[风险手套]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 37685,
-			["Level"] = 200,
+			["ID"] = 40717,
+			["Level"] = 213,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:37685::::::::80:::::::::|h[莫比乌斯指环]|h|r",
+			["Link"] = "|cffa335ee|Hitem:40717::::::::80:::::::::|h[无敌之戒]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 42864,
-			["Level"] = 174,
+			["ID"] = 37685,
+			["Level"] = 200,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff1eff00|Hitem:42864::::::::77:::::::::|h[冰冷心境之戒]|h|r",
+			["Link"] = "|cff0070dd|Hitem:37685::::::::80:::::::::|h[莫比乌斯指环]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 40684,
@@ -96,6 +94,8 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:39296::::::::80:::::::::|h[精锐的憎恨之弓]|h|r",
 		}, -- [18]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "邁克爾假死-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
