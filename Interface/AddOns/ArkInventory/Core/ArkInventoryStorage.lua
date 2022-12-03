@@ -2366,6 +2366,7 @@ function ArkInventory.ScanBag_Threaded( blizzard_id, loc_id, bag_id, thread_id, 
 			local tooltipInfo = ArkInventory.TooltipSet( ArkInventory.Global.Tooltip.Scan, loc_id, bag_id, slot_id, itemInfo.hyperlink )
 			
 			sb = helper_ItemBindingStatus( ArkInventory.Global.Tooltip.Scan )
+			--ArkInventory.Output( i.h, " = ", sb )
 			
 			if tooltipInfo.battlePetSpeciesID then
 				

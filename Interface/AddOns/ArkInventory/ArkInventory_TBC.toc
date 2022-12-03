@@ -3,8 +3,8 @@
 ## Title: ArkInventory [TBC]
 ## Author: Arkayenro - Khaz'goroth
 ## Email: arkayenro at gmail dot com
-## Version: 31010
-## X-ReleaseType: 
+## Version: 31010.02
+## X-ReleaseType: Alpha
 ## SavedVariables: ARKINVDB
 
 ## Notes: Allows you to view all items from all your characters on the same account, when-ever and where-ever you want.

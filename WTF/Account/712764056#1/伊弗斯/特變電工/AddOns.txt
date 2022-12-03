@@ -179,4 +179,6 @@ EZQuest: disabled
 RaidLedger: enabled
 RXPGuides: disabled
 NameplateAuras: disabled
-ArkInventory: disabled
+ArkInventory: enabled
+ArkInventoryRules_Example: disabled
+ArkInventoryRules_Profession: disabled

@@ -47,10 +47,10 @@ local ZoneRestrictions = {
 	
 	[75207] = { 201,204,205 }, -- Vashj'ir Seahorse
 	
-	[360954] = { 2112,2022,2023,2025 }, -- Highland Drake
-	[368896] = { 2112,2022,2023,2025 }, -- Renewed Proto-Drake
-	[368899] = { 2112,2022,2023,2025 }, -- Windborne Velocidrake
-	[368901] = { 2112,2022,2023,2025 }, -- Cliffside Wylderdrake
+	[360954] = { 2112,2022,2023,2024,2025 }, -- Highland Drake
+	[368896] = { 2112,2022,2023,2024,2025 }, -- Renewed Proto-Drake
+	[368899] = { 2112,2022,2023,2024,2025 }, -- Windborne Velocidrake
+	[368901] = { 2112,2022,2023,2024,2025 }, -- Cliffside Wylderdrake
 	
 --	[294143] = { [85]=1 }, -- X-995 Mechanocat, testing in org
 	

@@ -153,11 +153,11 @@ blizzmove: enabled
 blizzmove_debug: enabled
 dbm-worldevents: enabled
 TalentEmu: enabled
-ArkInventoryRules_Profession: disabled
+ArkInventoryRules_Profession: enabled
 ArkInventoryRules_Example: enabled
-ArkInventory: disabled
-ArkInventoryRules: disabled
-ArkInventorySearch: disabled
+ArkInventory: enabled
+ArkInventoryRules: enabled
+ArkInventorySearch: enabled
 DataStore: disabled
 DataStore_Agenda: disabled
 DataStore_Auctions: disabled

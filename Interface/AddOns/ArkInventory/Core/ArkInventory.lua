@@ -1787,12 +1787,12 @@ ArkInventory.Const.DatabaseDefaults.global = {
 						[ArkInventory.Const.Location.Bag] = {
 							["notify"] = true,
 							["override"] = true,
-							["preload"] = true,
+							--["preload"] = true,
 						},
 						[ArkInventory.Const.Location.Bank] = {
 							["notify"] = true,
 							["override"] = true,
-							["preload"] = true,
+							--["preload"] = true,
 						},
 						[ArkInventory.Const.Location.Vault] = {
 							["notify"] = true,
@@ -2909,9 +2909,9 @@ function ArkInventory.OnInitialize( )
 		{ "AUCTION_CANCELED", "EVENT_ARKINV_AUCTION_UPDATE", ArkInventory.ENUM.EXPANSION.BFA },
 		
 		{ "PLAYER_EQUIPMENT_CHANGED", "EVENT_ARKINV_PLAYER_EQUIPMENT_CHANGED" },
-		{ "WEAR_EQUIPMENT_SET", "EVENT_ARKINV_PLAYER_EQUIPMENT_CHANGED" },
-		
+		{ "WEAR_EQUIPMENT_SET", "EVENT_ARKINV_PLAYER_EQUIPMENT_CHANGED", ArkInventory.ENUM.EXPANSION.WRATH },
 		{ "EQUIPMENT_SETS_CHANGED", "EVENT_ARKINV_EQUIPMENT_SETS_CHANGED", ArkInventory.ENUM.EXPANSION.WRATH },
+		
 --		{ "BAG_NEW_ITEMS_UPDATED", "" },
 --		{ "BAG_SLOT_FLAGS_UPDATED", "EVENT_ARKINV_BAG_UPDATE" },
 		{ "BAG_UPDATE", "EVENT_ARKINV_BAG_UPDATE" },
@@ -3117,7 +3117,11 @@ function ArkInventory.OnEnable( )
 				-- 5 = max toc required
 				if ArkInventory.ClientCheck( v[3], v[4] ) then
 					--ArkInventory.Output( "registering event: ", v[1], "=", v[2] )
-					ArkInventory:RegisterEvent( v[1], v[2] )
+					-- use pcall to register them as events can be removed at any time which will cause this to break otherwise
+					local ok, msg = pcall( ArkInventory.RegisterEvent, ArkInventory, v[1], v[2] )
+					if not ok then
+						ArkInventory.OutputWarning( "skipped event: ", v[1], ": ", msg )
+					end
 				else
 					--ArkInventory.OutputWarning( "skipped event: ", v[1], ": not meant for this client/toc" )
 				end
@@ -3783,7 +3787,7 @@ function ArkInventory.ItemCacheClear( h )
 			i.loc_id = loc_id
 			for bag_id in pairs( ArkInventory.Global.Location[loc_id].Bags ) do
 				i.bag_id = bag_id
-				for k, v in ipairs( ArkInventory.Const.Bind ) do
+				for k, v in ipairs( ArkInventory.Const.BindingText ) do
 					
 					i.sb = v
 					

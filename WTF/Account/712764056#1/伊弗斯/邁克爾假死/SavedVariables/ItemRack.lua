@@ -7,11 +7,10 @@ ItemRackUser = {
 	["MainScale"] = 1,
 	["SetMenuWrapValue"] = 3,
 	["SetMenuWrap"] = "OFF",
-	["EnablePerSetQueues"] = "OFF",
+	["CurrentSet"] = "暗抗",
 	["Sets"] = {
 		["~CombatQueue"] = {
 			["equip"] = {
-				[11] = "40074::::::::80:::::::::",
 			},
 		},
 		["暗抗"] = {
@@ -30,10 +29,6 @@ ItemRackUser = {
 			["old"] = {
 				nil, -- [1]
 				"30017::::::::70:::::::::", -- [2]
-			},
-		},
-		["~Unequip"] = {
-			["equip"] = {
 			},
 		},
 		["PVE"] = {
@@ -67,11 +62,16 @@ ItemRackUser = {
 				[8] = "24903::::::-35:1172308009:70:::::::::",
 			},
 		},
+		["~Unequip"] = {
+			["equip"] = {
+			},
+		},
 	},
-	["EnableQueues"] = "ON",
+	["EnablePerSetQueues"] = "OFF",
 	["Queues"] = {
 	},
-	["Alpha"] = 1,
+	["Buttons"] = {
+	},
 	["ItemsUsed"] = {
 	},
 	["Events"] = {
@@ -80,11 +80,10 @@ ItemRackUser = {
 		["Set"] = {
 		},
 	},
+	["EnableEvents"] = "ON",
 	["Hidden"] = {
 	},
-	["EnableEvents"] = "ON",
-	["Buttons"] = {
-	},
+	["Alpha"] = 1,
 	["MenuScale"] = 0.85,
-	["CurrentSet"] = "暗抗",
+	["EnableQueues"] = "ON",
 }

@@ -689,8 +689,8 @@ ArkInventory.Const = { -- constants
 			FONT = {
 				COLOR = {
 					UNUSABLE = {
-						["fefe1f1f"] = true, -- shadowlands
 						["ffff2020"] = true, -- dragonflight
+						["fffe1f1f"] = true, -- classic / wrath
 					},
 				},
 			},
