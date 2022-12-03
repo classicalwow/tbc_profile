@@ -65,9 +65,9 @@ ArkInventory.Lib.PeriodicTable:AddData( "ArkInventory", "1", {
 	["ArkInventory.System.Quest.Start.PTBase"] = "m,Misc.Usable.StartsQuest",
 	["ArkInventory.System.Quest.PTBase"] = "m,Misc.QuestMats",
 	
-	["ArkInventory.System.Toy.Shadowlands"] = "179295,179977,179982,180062,184719",
+	["ArkInventory.System.Toy.Shadowlands"] = "179295,179977,179982,180062,184719,190738",
 	["ArkInventory.System.Toy.BFA"] = "141652,153023,153189,163743,167077,168222,174875",
-	["ArkInventory.System.Toy.Legion"] = "113575,131744,138111,140493,153071,153127,153188,153226",
+	["ArkInventory.System.Toy.Legion"] = "113575,131744,138111,140493,153071,153127,153226",
 	["ArkInventory.System.Toy.Draenor"] = "116114,127770,128502,128503",
 	["ArkInventory.System.Toy.Pandaria"] = "89124,89770",
 	["ArkInventory.System.Toy.Classic"] = "20402,21175",
@@ -79,6 +79,8 @@ ArkInventory.Lib.PeriodicTable:AddData( "ArkInventory", "1", {
 	["ArkInventory.System.Junk.Achievement.A Penny For Your Thoughts"] = "43702,43703,43704,43705,43706,43707,43708,43709,43710,43711,43712,43713,43714,43715,43716,43717,43718,43719,43720,43721,43722,43723",
 	["ArkInventory.System.Junk.Achievement.Silver in the City"] = "43643,43644,43675,43676,43677,43678,43679,43680,43681,43682,43683,43684,43685,43686,43687",
 	["ArkInventory.System.Junk.Achievement.Theres Gold In That There Fountain"] = "43627,43628,43629,43630,43631,43632,43633,43634,43635,43636,43637,43638,43639,43640,43641",
+	
+	["ArkInventory.System.Heirloom.DragonFlight.PrePatch"] = "199836,199837,199838,199839",
 	
 	
 	-- used for both item to currency mappings (itemid:currencyid), and just knowing what items are currencies
@@ -300,7 +302,8 @@ ArkInventory.Lib.PeriodicTable:AddData( "ArkInventory", "1", {
 	["ArkInventory.Consumable.Food"] = "m,Consumable.Food.Edible",
 	["ArkInventory.Consumable.Drink"] = "m,Consumable.Water",
 	["ArkInventory.Consumable.Food and Drink"] = "",
-	["ArkInventory.Consumable.Bandage"] = "m,Consumable.Bandage",
+	["ArkInventory.Consumable.Bandage.Legion"] = "153188",
+	["ArkInventory.Consumable.Bandage.PTBase"] = "m,Consumable.Bandage",
 	["ArkInventory.Consumable.Devices"] = "",
 	["ArkInventory.Consumable.Scroll"] = "m,Consumable.Scroll",
 	["ArkInventory.Consumable.Explosives"] = "m,Misc.Explosives.Engineering,Misc.Explosives.Other",

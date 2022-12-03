@@ -354,8 +354,8 @@ AtlasLootClassicDB = {
 			[30779] = "BoJ:20",
 			[22868] = "honor:1000",
 			[40681] = "EmblemOfHeroism:25",
-			[40685] = "EmblemOfHeroism:40",
 			[33524] = "BoJ:60",
+			[40685] = "EmblemOfHeroism:40",
 			[34579] = "honor:3990",
 			[33588] = "BoJ:35",
 			[33662] = "honor:8550",
@@ -450,9 +450,9 @@ AtlasLootClassicDB = {
 			[42606] = "honor:4480:arena:350",
 			[38546] = "arena:400",
 			[41566] = "honor:1250",
-			[33559] = "BoJ:60",
-			[40688] = "EmblemOfHeroism:40",
 			[40720] = "EmblemOfValor:25",
+			[33527] = "BoJ:75",
+			[33559] = "BoJ:60",
 			[37928] = "honor:5700",
 			[16548] = "honor:2000",
 			[40816] = "honor:8400:arena:350",
@@ -474,9 +474,9 @@ AtlasLootClassicDB = {
 			[31986] = "honor:13300",
 			[44429] = "honor:5700",
 			[31965] = "honor:6650",
-			[42511] = "honor:4480:arena:175",
-			[28928] = "honor:3800",
 			[33304] = "BoJ:60",
+			[28928] = "honor:3800",
+			[42511] = "honor:4480:arena:175",
 			[42575] = "honor:4480:arena:175",
 			[32045] = "honor:6650",
 			[42607] = "arena:1200",
@@ -502,8 +502,8 @@ AtlasLootClassicDB = {
 			[41588] = "honor:5700",
 			[35095] = "honor:9500",
 			[31853] = "honor:50",
-			[29376] = "BoJ:41",
 			[42352] = "arena:3150",
+			[29376] = "BoJ:41",
 			[42384] = "arena:4500",
 			[28385] = "honor:3800",
 			[42448] = "honor:4480:arena:175",
@@ -519,14 +519,14 @@ AtlasLootClassicDB = {
 			[40722] = "EmblemOfValor:25",
 			[33593] = "BoJ:35",
 			[40786] = "arena:2250",
-			[28641] = "honor:3800",
-			[33689] = "honor:8550",
 			[24549] = "honor:3800",
+			[33689] = "honor:8550",
+			[28641] = "honor:3800",
 			[18427] = "honor:100",
-			[30767] = "BoJ:20",
+			[42065] = "honor:33180",
 			[32794] = "honor:5320",
 			[42033] = "honor:33180",
-			[42065] = "honor:33180",
+			[30767] = "BoJ:20",
 			[34015] = "honor:8550",
 			[42129] = "honor:43400",
 			[34049] = "BoJ:75",
@@ -562,11 +562,11 @@ AtlasLootClassicDB = {
 			[28929] = "honor:3800",
 			[42130] = "honor:43400",
 			[40739] = "EmblemOfValor:60",
-			[35065] = "honor:5700",
 			[41203] = "EmblemOfValor:45",
+			[35065] = "honor:5700",
 			[40724] = "EmblemOfValor:25",
-			[42290] = "arena:1350",
-			[35161] = "honor:7600",
+			[35129] = "honor:5700",
+			[15200] = "honor:100",
 			[40692] = "EmblemOfHeroism:40",
 			[23467] = "honor:2500",
 			[42322] = "arena:4500",
@@ -581,8 +581,8 @@ AtlasLootClassicDB = {
 			[28358] = "honor:4750",
 			[33531] = "BoJ:60",
 			[16335] = "honor:400",
-			[15200] = "honor:100",
-			[35129] = "honor:5700",
+			[35161] = "honor:7600",
+			[42290] = "arena:1350",
 			[44912] = "cpvpWintergrasp:25",
 			[30344] = "honor:2280",
 			[24550] = "honor:9500",
@@ -631,7 +631,7 @@ AtlasLootClassicDB = {
 			[42260] = "arena:3150",
 			[35131] = "honor:5700",
 			[35163] = "honor:7600",
-			[33527] = "BoJ:75",
+			[40688] = "EmblemOfHeroism:40",
 			[23572] = "BoJ:10",
 			[40741] = "EmblemOfValor:60",
 			[35324] = "BoJ:60",
@@ -732,12 +732,15 @@ AtlasLootClassicDB = {
 					-69.00003051757812, -- [5]
 				},
 				["selected"] = {
-					"AtlasLootClassic_PvP", -- [1]
-					"Wintergrasp", -- [2]
-					nil, -- [3]
-					2, -- [4]
+					"AtlasLootClassic_Crafting", -- [1]
+					"EnchantingWrath", -- [2]
+					6, -- [3]
+					1, -- [4]
 					0, -- [5]
 				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 238.0107461904307,
 			},
 			["Addons"] = {
 				["Favourites"] = {
@@ -748,9 +751,6 @@ AtlasLootClassicDB = {
 					},
 				},
 			},
-			["minimap"] = {
-				["minimapPos"] = 238.0107461904307,
-			},
 		},
 		["邁克爾假死 - 伊弗斯"] = {
 			["minimap"] = {
@@ -758,17 +758,17 @@ AtlasLootClassicDB = {
 			},
 			["GUI"] = {
 				["point"] = {
-					"RIGHT", -- [1]
+					nil, -- [1]
 					nil, -- [2]
-					"RIGHT", -- [3]
-					-215.4408111572266, -- [4]
-					-127.1001358032227, -- [5]
+					"CENTER", -- [3]
+					306.4316101074219, -- [4]
+					150.9963226318359, -- [5]
 				},
 				["selected"] = {
-					nil, -- [1]
-					"ObsidianSanctum", -- [2]
+					"AtlasLootClassic_Crafting", -- [1]
+					"EnchantingWrath", -- [2]
 					2, -- [3]
-					7, -- [4]
+					1, -- [4]
 					0, -- [5]
 				},
 			},

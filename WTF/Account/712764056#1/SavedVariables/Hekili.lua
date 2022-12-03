@@ -7,8 +7,8 @@ HekiliDB = {
 	["profileKeys"] = {
 		["頂級投資家 - 伊弗斯"] = "Default",
 		["路易斯桑拿 - 伊弗斯"] = "Default",
-		["邁克爾假死 - 伊弗斯"] = "Default",
 		["暖男你馬四了 - 伊弗斯"] = "Default",
+		["邁克爾假死 - 伊弗斯"] = "Default",
 		["特變電工 - 伊弗斯"] = "Default",
 	},
 	["profiles"] = {
@@ -359,8 +359,8 @@ HekiliDB = {
 							}, -- [11]
 							{
 								["enabled"] = true,
-								["action"] = "drain_soul",
 								["criteria"] = "target.health.pct < 25",
+								["action"] = "drain_soul",
 								["interrupt_if"] = "dot.unstable_affliction.remains<2||dot.corruption.remains<2||debuff.my_curse.down",
 							}, -- [12]
 							{
@@ -680,112 +680,172 @@ HekiliDB = {
 					["profile"] = "## Protection Warrior (wowtbc.gg)\n## 3 October 2022\n\nactions.precombat+=/defensive_stance,if=buff.stance.down\nactions.precombat+=/berserker_rage\nactions.precombat+=/bloodrage\nactions.precombat+=/battle_shout,if=buff.shout.down\nactions.precombat+=/potion,name=indestructible_potion\nactions.precombat+=/charge\nactions.precombat+=/heroic_throw\n\nactions+=/shield_bash\nactions+=/charge\nactions+=/devastate,if=debuff.sunder_armor.stack<5&target.time_to_die>10||debuff.sunder_armor.remains<3\nactions+=/thunder_clap,if=debuff.thunder_clap.down&talent.improved_thunder_clap.enabled\nactions+=/shield_block,if=tanking\nactions+=/vigilance,if=group&active_dot.vigilance=0\nactions+=/battle_shout,if=buff.shout.down\nactions+=/demoralizing_shout,if=debuff.demoralizing_shout.down\nactions+=/heroic_throw\nactions+=/recklessness\nactions+=/retaliation\nactions+=/potion\nactions+=/use_items\nactions+=/bloodrage,if=rage<80\nactions+=/enraged_regeneration,if=aggro&buff.dispellable_enrage.up&health.deficit>40\nactions+=/last_stand,if=aggro&health.deficit>50\nactions+=/shield_wall,if=aggro&health.deficit>50&buff.last_stand.down\nactions+=/thunder_clap,if=active_enemies>1\nactions+=/shockwave,if=active_enemies>1\nactions+=/cleave,if=active_enemies>1&rage>70\nactions+=/heroic_strike,if=active_enemies=1&rage>70\nactions+=/shield_slam\nactions+=/revenge\nactions+=/devastate",
 					["author"] = "wowtbc.gg",
 				},
-				["Retribution (wowtbc.gg)"] = {
-					["source"] = "https://wowtbc.gg/wotlk/class-guides/retribution-paladin/",
+				["Demonology (wowtbc.gg)"] = {
+					["source"] = "https://wowtbc.gg/wotlk/class-guides/demonology-warlock/",
 					["builtIn"] = true,
-					["date"] = 20221002.1,
-					["spec"] = 2,
-					["desc"] = "This priority is based on the wowtbc.gg Wrath guide.",
+					["date"] = 20221002,
+					["spec"] = 9,
+					["desc"] = "This priority was written based on the wowtbc.gg Wrath of the Lich King guide.",
 					["lists"] = {
-						["default"] = {
+						["aoe"] = {
 							{
 								["enabled"] = true,
-								["criteria"] = "buff.seal.down & active_enemies = 1",
-								["action"] = "seal_of_corruption",
+								["criteria"] = "active_enemies > 3",
+								["action"] = "metamorphosis",
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["criteria"] = "buff.seal.down & active_enemies > 1",
-								["action"] = "seal_of_command",
+								["criteria"] = "! up",
+								["action"] = "immolation_aura",
 							}, -- [2]
 							{
 								["enabled"] = true,
-								["criteria"] = "buff.seal.down",
-								["action"] = "seal_of_righteousness",
+								["criteria"] = "active_enemies > 3",
+								["action"] = "shadowflame",
 							}, -- [3]
 							{
-								["action"] = "avenging_wrath",
 								["enabled"] = true,
+								["criteria"] = "active_enemies > 3",
+								["action"] = "seed_of_corruption",
 							}, -- [4]
 							{
-								["action"] = "divine_plea",
 								["enabled"] = true,
+								["action"] = "corruption",
+								["criteria"] = "! ticking & active_enemies < 4",
+								["cycle_targets"] = 1,
+							}, -- [5]
+							{
+								["enabled"] = true,
+								["action"] = "immolate",
+								["criteria"] = "! ticking & active_enemies < 4",
+								["cycle_targets"] = 1,
+							}, -- [6]
+						},
+						["default"] = {
+							{
+								["action"] = "demonic_empowerment",
+								["enabled"] = true,
+							}, -- [1]
+							{
+								["action"] = "potion",
+								["enabled"] = true,
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["criteria"] = "! ticking & target.time_to_die > dot.immolate.duration",
+								["action"] = "immolate",
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["criteria"] = "debuff.my_curse.down & curse_grouped",
+								["action"] = "curse_of_the_elements",
+							}, -- [4]
+							{
+								["enabled"] = true,
+								["criteria"] = "debuff.my_curse.down",
+								["action"] = "curse_of_agony",
+							}, -- [5]
+							{
+								["enabled"] = true,
+								["criteria"] = "! ticking & target.time_to_die > dot.corruption.duration",
+								["action"] = "corruption",
+							}, -- [6]
+							{
+								["enabled"] = true,
+								["criteria"] = "fight_remains > 210 || boss & fight_remains < 40",
+								["action"] = "metamorphosis",
+							}, -- [7]
+							{
+								["action"] = "use_items",
+								["enabled"] = true,
+							}, -- [8]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.metamorphosis.up & target.distance > 8",
+								["action"] = "demon_charge",
+							}, -- [9]
+							{
+								["enabled"] = true,
+								["criteria"] = "! up",
+								["action"] = "immolation_aura",
+							}, -- [10]
+							{
+								["enabled"] = true,
+								["action"] = "call_action_list",
+								["strict"] = 1,
+								["criteria"] = "active_enemies > 1",
+								["list_name"] = "aoe",
+							}, -- [11]
+							{
+								["enabled"] = true,
+								["criteria"] = "talent.improved_shadow_bolt.enabled & debuff.shadow_mastery.remains < cast_time + 2",
+								["action"] = "shadow_bolt",
+							}, -- [12]
+							{
+								["enabled"] = true,
+								["criteria"] = "glyph.life_tap.enabled & buff.life_tap.down",
+								["action"] = "life_tap",
+							}, -- [13]
+							{
+								["action"] = "metamorphosis",
+								["enabled"] = true,
+							}, -- [14]
+							{
+								["enabled"] = true,
+								["criteria"] = "talent.decimation.enabled & target.health.pct < 35 & buff.molten_core.up",
+								["action"] = "soul_fire",
+							}, -- [15]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.molten_core.up",
+								["action"] = "incinerate",
+							}, -- [16]
+							{
+								["action"] = "shadow_bolt",
+								["enabled"] = true,
+							}, -- [17]
+						},
+						["precombat"] = {
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.armor.down",
+								["action"] = "fel_armor",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["criteria"] = "! pet.active",
+								["action"] = "summon_felguard",
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["criteria"] = "! pet.active",
+								["action"] = "summon_voidwalker",
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["criteria"] = "! pet.active",
+								["action"] = "summon_imp",
+							}, -- [4]
+							{
+								["enabled"] = true,
+								["criteria"] = "glyph.life_tap.enabled & buff.life_tap.down",
+								["action"] = "life_tap",
 							}, -- [5]
 							{
 								["action"] = "potion",
 								["enabled"] = true,
 							}, -- [6]
 							{
-								["action"] = "use_items",
 								["enabled"] = true,
+								["criteria"] = "talent.improved_shadow_bolt.enabled",
+								["action"] = "soul_fire",
 							}, -- [7]
-							{
-								["enabled"] = true,
-								["criteria"] = "mana.percent < 70",
-								["action"] = "judgement_of_wisdom",
-							}, -- [8]
-							{
-								["action"] = "judgement_of_light",
-								["enabled"] = true,
-							}, -- [9]
-							{
-								["action"] = "hammer_of_wrath",
-								["enabled"] = true,
-							}, -- [10]
-							{
-								["enabled"] = true,
-								["criteria"] = "active_enemies > 1",
-								["action"] = "divine_storm",
-							}, -- [11]
-							{
-								["action"] = "crusader_strike",
-								["enabled"] = true,
-							}, -- [12]
-							{
-								["action"] = "divine_storm",
-								["enabled"] = true,
-							}, -- [13]
-							{
-								["enabled"] = true,
-								["criteria"] = "! moving",
-								["action"] = "consecration",
-							}, -- [14]
-							{
-								["enabled"] = true,
-								["criteria"] = "buff.the_art_of_war.up",
-								["action"] = "exorcism",
-							}, -- [15]
-							{
-								["enabled"] = true,
-								["criteria"] = "target.is_demon",
-								["action"] = "holy_wrath",
-							}, -- [16]
-							{
-								["action"] = "shield_of_righteousness",
-								["enabled"] = true,
-							}, -- [17]
-						},
-						["precombat"] = {
-							{
-								["action"] = "retribution_aura",
-								["enabled"] = true,
-							}, -- [1]
-							{
-								["enabled"] = true,
-								["criteria"] = "buff.blessing.down",
-								["action"] = "blessing_of_kings",
-							}, -- [2]
-							{
-								["enabled"] = true,
-								["criteria"] = "buff.blessing.down",
-								["action"] = "blessing_of_might",
-							}, -- [3]
 						},
 					},
-					["version"] = 20221002.1,
-					["warnings"] = "Imported 2 action lists.\n",
-					["profile"] = "## Retribution Paladin\n## 2 October 2022\n\nactions.precombat+=/assigned_aura\nactions.precombat+=/blessing_of_kings,if=buff.blessing.down\nactions.precombat+=/blessing_of_might,if=buff.blessing.down\n\nactions+=/seal_of_vengeance,if=buff.seal.down&active_enemies=1\nactions+=/seal_of_command,if=buff.seal.down&active_enemies>1\nactions+=/seal_of_righteousness,if=buff.seal.down\nactions+=/avenging_wrath\nactions+=/divine_plea\nactions+=/potion\nactions+=/use_items\nactions+=/judgement_of_wisdom,if=mana.percent<70\nactions+=/judgement_of_light\nactions+=/hammer_of_wrath\nactions+=/divine_storm,if=active_enemies>1\nactions+=/crusader_strike\nactions+=/divine_storm\nactions+=/consecration,if=!moving\nactions+=/exorcism,if=buff.the_art_of_war.up\nactions+=/holy_wrath,if=target.is_demon\nactions+=/shield_of_righteousness",
+					["version"] = 20221002,
+					["warnings"] = "Imported 3 action lists.\n",
 					["author"] = "wowtbc.gg",
+					["profile"] = "## Demonology Warlock\n## 2 October 2022\n\nactions.precombat+=/fel_armor,if=buff.armor.down\nactions.precombat+=/summon_felguard,if=!pet.active\nactions.precombat+=/summon_voidwalker,if=!pet.active\nactions.precombat+=/summon_imp,if=!pet.active\nactions.precombat+=/life_tap,if=glyph.life_tap.enabled&buff.life_tap.down\nactions.precombat+=/potion\nactions.precombat+=/soul_fire,if=talent.improved_shadow_bolt.enabled\n\nactions+=/demonic_empowerment\nactions+=/potion\nactions+=/immolate,if=!ticking&target.time_to_die>dot.immolate.duration\nactions+=/group_curse,if=debuff.my_curse.down&curse_grouped\nactions+=/solo_curse,if=debuff.my_curse.down\nactions+=/corruption,if=!ticking&target.time_to_die>dot.corruption.duration\nactions+=/metamorphosis,if=fight_remains>210||boss&fight_remains<40\nactions+=/use_items\nactions+=/demon_charge,if=buff.metamorphosis.up&target.distance>8\nactions+=/immolation_aura,if=!up\nactions+=/call_action_list,name=aoe,strict=1,if=active_enemies>1\nactions+=/shadow_bolt,if=talent.improved_shadow_bolt.enabled&debuff.shadow_mastery.remains<cast_time+2\nactions+=/life_tap,if=glyph.life_tap.enabled&buff.life_tap.down\nactions+=/metamorphosis\nactions+=/soul_fire,if=talent.decimation.enabled&target.health.pct<35&buff.molten_core.up\nactions+=/incinerate,if=buff.molten_core.up\nactions+=/shadow_bolt\n\nactions.aoe+=/metamorphosis,if=active_enemies>3\nactions.aoe+=/immolation_aura,if=!up\nactions.aoe+=/shadowflame,if=active_enemies>3\nactions.aoe+=/seed_of_corruption,if=active_enemies>3\nactions.aoe+=/corruption,cycle_targets=1,if=!ticking&active_enemies<4\nactions.aoe+=/immolate,cycle_targets=1,if=!ticking&active_enemies<4",
 				},
 				["Holy Paladin (wowtbc.gg)"] = {
 					["source"] = "https://wowtbc.gg/wotlk/class-guides/holy-paladin/",
@@ -1122,172 +1182,112 @@ HekiliDB = {
 					["profile"] = "## Survival Hunter\n## 2 October 2022\n\nactions.precombat+=/aspect_of_the_dragonhawk\nactions.precombat+=/hunters_mark,if=down\nactions.precombat+=/potion\nactions.precombat+=/steady_shot\n\nactions+=/hunters_mark,if=down\nactions+=/rapid_fire\nactions+=/call_of_the_wild\nactions+=/kill_command\n## actions+=/furious_howl\nactions+=/potion\nactions+=/use_items\nactions+=/explosive_shot,if=debuff.explosive_shot.down\nactions+=/black_arrow,if=target.outside10\nactions+=/explosive_trap,if=target.within10\nactions+=/multishot,if=active_enemies>2\nactions+=/volley,if=active_enemies>2\nactions+=/kill_shot\nactions+=/aimed_shot\nactions+=/serpent_sting,if=debuff.sting.down\nactions+=/frost_trap,if=target.within10\nactions+=/steady_shot",
 					["author"] = "wowtbc.gg",
 				},
-				["Demonology (wowtbc.gg)"] = {
-					["source"] = "https://wowtbc.gg/wotlk/class-guides/demonology-warlock/",
+				["Retribution (wowtbc.gg)"] = {
+					["source"] = "https://wowtbc.gg/wotlk/class-guides/retribution-paladin/",
 					["builtIn"] = true,
-					["date"] = 20221002,
-					["spec"] = 9,
-					["desc"] = "This priority was written based on the wowtbc.gg Wrath of the Lich King guide.",
+					["date"] = 20221002.1,
+					["spec"] = 2,
+					["desc"] = "This priority is based on the wowtbc.gg Wrath guide.",
 					["lists"] = {
-						["aoe"] = {
+						["default"] = {
 							{
 								["enabled"] = true,
-								["criteria"] = "active_enemies > 3",
-								["action"] = "metamorphosis",
+								["criteria"] = "buff.seal.down & active_enemies = 1",
+								["action"] = "seal_of_corruption",
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["criteria"] = "! up",
-								["action"] = "immolation_aura",
+								["criteria"] = "buff.seal.down & active_enemies > 1",
+								["action"] = "seal_of_command",
 							}, -- [2]
 							{
 								["enabled"] = true,
-								["criteria"] = "active_enemies > 3",
-								["action"] = "shadowflame",
+								["criteria"] = "buff.seal.down",
+								["action"] = "seal_of_righteousness",
 							}, -- [3]
 							{
+								["action"] = "avenging_wrath",
 								["enabled"] = true,
-								["criteria"] = "active_enemies > 3",
-								["action"] = "seed_of_corruption",
 							}, -- [4]
 							{
+								["action"] = "divine_plea",
 								["enabled"] = true,
-								["action"] = "corruption",
-								["criteria"] = "! ticking & active_enemies < 4",
-								["cycle_targets"] = 1,
 							}, -- [5]
-							{
-								["enabled"] = true,
-								["action"] = "immolate",
-								["criteria"] = "! ticking & active_enemies < 4",
-								["cycle_targets"] = 1,
-							}, -- [6]
-						},
-						["default"] = {
-							{
-								["action"] = "demonic_empowerment",
-								["enabled"] = true,
-							}, -- [1]
 							{
 								["action"] = "potion",
 								["enabled"] = true,
-							}, -- [2]
-							{
-								["enabled"] = true,
-								["criteria"] = "! ticking & target.time_to_die > dot.immolate.duration",
-								["action"] = "immolate",
-							}, -- [3]
-							{
-								["enabled"] = true,
-								["criteria"] = "debuff.my_curse.down & curse_grouped",
-								["action"] = "curse_of_the_elements",
-							}, -- [4]
-							{
-								["enabled"] = true,
-								["criteria"] = "debuff.my_curse.down",
-								["action"] = "curse_of_agony",
-							}, -- [5]
-							{
-								["enabled"] = true,
-								["criteria"] = "! ticking & target.time_to_die > dot.corruption.duration",
-								["action"] = "corruption",
 							}, -- [6]
-							{
-								["enabled"] = true,
-								["criteria"] = "fight_remains > 210 || boss & fight_remains < 40",
-								["action"] = "metamorphosis",
-							}, -- [7]
 							{
 								["action"] = "use_items",
 								["enabled"] = true,
+							}, -- [7]
+							{
+								["enabled"] = true,
+								["criteria"] = "mana.percent < 70",
+								["action"] = "judgement_of_wisdom",
 							}, -- [8]
 							{
+								["action"] = "judgement_of_light",
 								["enabled"] = true,
-								["criteria"] = "buff.metamorphosis.up & target.distance > 8",
-								["action"] = "demon_charge",
 							}, -- [9]
 							{
+								["action"] = "hammer_of_wrath",
 								["enabled"] = true,
-								["criteria"] = "! up",
-								["action"] = "immolation_aura",
 							}, -- [10]
 							{
 								["enabled"] = true,
-								["action"] = "call_action_list",
-								["strict"] = 1,
 								["criteria"] = "active_enemies > 1",
-								["list_name"] = "aoe",
+								["action"] = "divine_storm",
 							}, -- [11]
 							{
+								["action"] = "crusader_strike",
 								["enabled"] = true,
-								["criteria"] = "talent.improved_shadow_bolt.enabled & debuff.shadow_mastery.remains < cast_time + 2",
-								["action"] = "shadow_bolt",
 							}, -- [12]
 							{
+								["action"] = "divine_storm",
 								["enabled"] = true,
-								["criteria"] = "glyph.life_tap.enabled & buff.life_tap.down",
-								["action"] = "life_tap",
 							}, -- [13]
 							{
-								["action"] = "metamorphosis",
 								["enabled"] = true,
+								["criteria"] = "! moving",
+								["action"] = "consecration",
 							}, -- [14]
 							{
 								["enabled"] = true,
-								["criteria"] = "talent.decimation.enabled & target.health.pct < 35 & buff.molten_core.up",
-								["action"] = "soul_fire",
+								["criteria"] = "buff.the_art_of_war.up",
+								["action"] = "exorcism",
 							}, -- [15]
 							{
 								["enabled"] = true,
-								["criteria"] = "buff.molten_core.up",
-								["action"] = "incinerate",
+								["criteria"] = "target.is_demon",
+								["action"] = "holy_wrath",
 							}, -- [16]
 							{
-								["action"] = "shadow_bolt",
+								["action"] = "shield_of_righteousness",
 								["enabled"] = true,
 							}, -- [17]
 						},
 						["precombat"] = {
 							{
+								["action"] = "retribution_aura",
 								["enabled"] = true,
-								["criteria"] = "buff.armor.down",
-								["action"] = "fel_armor",
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["criteria"] = "! pet.active",
-								["action"] = "summon_felguard",
+								["criteria"] = "buff.blessing.down",
+								["action"] = "blessing_of_kings",
 							}, -- [2]
 							{
 								["enabled"] = true,
-								["criteria"] = "! pet.active",
-								["action"] = "summon_voidwalker",
+								["criteria"] = "buff.blessing.down",
+								["action"] = "blessing_of_might",
 							}, -- [3]
-							{
-								["enabled"] = true,
-								["criteria"] = "! pet.active",
-								["action"] = "summon_imp",
-							}, -- [4]
-							{
-								["enabled"] = true,
-								["criteria"] = "glyph.life_tap.enabled & buff.life_tap.down",
-								["action"] = "life_tap",
-							}, -- [5]
-							{
-								["action"] = "potion",
-								["enabled"] = true,
-							}, -- [6]
-							{
-								["enabled"] = true,
-								["criteria"] = "talent.improved_shadow_bolt.enabled",
-								["action"] = "soul_fire",
-							}, -- [7]
 						},
 					},
-					["version"] = 20221002,
-					["warnings"] = "Imported 3 action lists.\n",
+					["version"] = 20221002.1,
+					["warnings"] = "Imported 2 action lists.\n",
+					["profile"] = "## Retribution Paladin\n## 2 October 2022\n\nactions.precombat+=/assigned_aura\nactions.precombat+=/blessing_of_kings,if=buff.blessing.down\nactions.precombat+=/blessing_of_might,if=buff.blessing.down\n\nactions+=/seal_of_vengeance,if=buff.seal.down&active_enemies=1\nactions+=/seal_of_command,if=buff.seal.down&active_enemies>1\nactions+=/seal_of_righteousness,if=buff.seal.down\nactions+=/avenging_wrath\nactions+=/divine_plea\nactions+=/potion\nactions+=/use_items\nactions+=/judgement_of_wisdom,if=mana.percent<70\nactions+=/judgement_of_light\nactions+=/hammer_of_wrath\nactions+=/divine_storm,if=active_enemies>1\nactions+=/crusader_strike\nactions+=/divine_storm\nactions+=/consecration,if=!moving\nactions+=/exorcism,if=buff.the_art_of_war.up\nactions+=/holy_wrath,if=target.is_demon\nactions+=/shield_of_righteousness",
 					["author"] = "wowtbc.gg",
-					["profile"] = "## Demonology Warlock\n## 2 October 2022\n\nactions.precombat+=/fel_armor,if=buff.armor.down\nactions.precombat+=/summon_felguard,if=!pet.active\nactions.precombat+=/summon_voidwalker,if=!pet.active\nactions.precombat+=/summon_imp,if=!pet.active\nactions.precombat+=/life_tap,if=glyph.life_tap.enabled&buff.life_tap.down\nactions.precombat+=/potion\nactions.precombat+=/soul_fire,if=talent.improved_shadow_bolt.enabled\n\nactions+=/demonic_empowerment\nactions+=/potion\nactions+=/immolate,if=!ticking&target.time_to_die>dot.immolate.duration\nactions+=/group_curse,if=debuff.my_curse.down&curse_grouped\nactions+=/solo_curse,if=debuff.my_curse.down\nactions+=/corruption,if=!ticking&target.time_to_die>dot.corruption.duration\nactions+=/metamorphosis,if=fight_remains>210||boss&fight_remains<40\nactions+=/use_items\nactions+=/demon_charge,if=buff.metamorphosis.up&target.distance>8\nactions+=/immolation_aura,if=!up\nactions+=/call_action_list,name=aoe,strict=1,if=active_enemies>1\nactions+=/shadow_bolt,if=talent.improved_shadow_bolt.enabled&debuff.shadow_mastery.remains<cast_time+2\nactions+=/life_tap,if=glyph.life_tap.enabled&buff.life_tap.down\nactions+=/metamorphosis\nactions+=/soul_fire,if=talent.decimation.enabled&target.health.pct<35&buff.molten_core.up\nactions+=/incinerate,if=buff.molten_core.up\nactions+=/shadow_bolt\n\nactions.aoe+=/metamorphosis,if=active_enemies>3\nactions.aoe+=/immolation_aura,if=!up\nactions.aoe+=/shadowflame,if=active_enemies>3\nactions.aoe+=/seed_of_corruption,if=active_enemies>3\nactions.aoe+=/corruption,cycle_targets=1,if=!ticking&active_enemies<4\nactions.aoe+=/immolate,cycle_targets=1,if=!ticking&active_enemies<4",
 				},
 				["Protection Warrior (IV)"] = {
 					["source"] = "https://www.icy-veins.com/wotlk-classic/protection-warrior-tank-pve-rotation-cooldowns-abilities",
@@ -1547,6 +1547,105 @@ HekiliDB = {
 					["author"] = "Icy Veins",
 					["profile"] = "## Arms Warrior (Icy Veins)\n## 2022-10-21\n\nactions.precombat+=/battle_stance,if=buff.stance.down\nactions.precombat+=/battle_shout,if=buff.battle_shout.down&buff.blessing_of_might.down\nactions.precombat+=/commanding_shout,if=buff.my_battle_shout.down\n\nactions+=/pummel\nactions+=/spell_reflection\nactions+=/charge\nactions+=/bloodrage,if=rage.deficit>20\nactions+=/shattering_throw,if=buff.bloodlust.up&debuff.shattering_throw.down\nactions+=/rend,if=!ticking\nactions+=/call_action_list,name=aoe,if=active_enemies>1\nactions+=/sunder_armor,if=(debuff.sunder_armor.stack<5||debuff.sunder_armor.remains<5)&!debuff.expose_armor.up&target.time_to_die>15\nactions+=/overpower\nactions+=/use_items\nactions+=/recklessness,if=cooldown.bladestorm.ready||debuff.shattering_throw.up\nactions+=/bladestorm\nactions+=/execute\nactions+=/heroic_strike,if=rage>60\nactions+=/slam,if=!moving\nactions+=/mortal_strike\n\nactions.aoe+=/sweeping_strikes\n# TODO: Determine threshold for TC vs. Overpower.\nactions.aoe+=/thunder_clap,if=active_enemies>3\nactions.aoe+=/overpower\nactions.aoe+=/thunder_clap\nactions.aoe+=/bladestorm,if=active_dot.rend>0&cooldown.thunder_clap.remains\nactions.aoe+=/cleave,if=rage>80",
 				},
+				["Marksmanship (wowtbc.gg)"] = {
+					["source"] = "https://wowtbc.gg/wotlk/class-guides/marksmanship-hunter/",
+					["builtIn"] = true,
+					["date"] = 20221002,
+					["spec"] = 3,
+					["desc"] = "This priority is based on the wowtbc.gg Wrath guide.",
+					["lists"] = {
+						["default"] = {
+							{
+								["enabled"] = true,
+								["criteria"] = "debuff.casting.up",
+								["action"] = "intimidation",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["criteria"] = "down",
+								["action"] = "hunters_mark",
+							}, -- [2]
+							{
+								["action"] = "rapid_fire",
+								["enabled"] = true,
+							}, -- [3]
+							{
+								["action"] = "call_of_the_wild",
+								["enabled"] = true,
+							}, -- [4]
+							{
+								["action"] = "kill_command",
+								["enabled"] = true,
+							}, -- [5]
+							{
+								["action"] = "potion",
+								["enabled"] = true,
+							}, -- [6]
+							{
+								["action"] = "use_items",
+								["enabled"] = true,
+							}, -- [7]
+							{
+								["enabled"] = true,
+								["criteria"] = "debuff.sting.down",
+								["action"] = "serpent_sting",
+							}, -- [8]
+							{
+								["action"] = "chimera_shot",
+								["enabled"] = true,
+							}, -- [9]
+							{
+								["enabled"] = true,
+								["criteria"] = "active_enemies > 2",
+								["action"] = "multishot",
+							}, -- [10]
+							{
+								["enabled"] = true,
+								["criteria"] = "target.within10",
+								["action"] = "explosive_trap",
+							}, -- [11]
+							{
+								["enabled"] = true,
+								["criteria"] = "active_enemies > 2",
+								["action"] = "volley",
+							}, -- [12]
+							{
+								["action"] = "aimed_shot",
+								["enabled"] = true,
+							}, -- [13]
+							{
+								["action"] = "arcane_shot",
+								["enabled"] = true,
+							}, -- [14]
+							{
+								["action"] = "readiness",
+								["enabled"] = true,
+							}, -- [15]
+							{
+								["action"] = "silencing_shot",
+								["enabled"] = true,
+							}, -- [16]
+							{
+								["action"] = "kill_shot",
+								["enabled"] = true,
+							}, -- [17]
+						},
+						["precombat"] = {
+							{
+								["action"] = "aspect_of_the_dragonhawk",
+								["enabled"] = true,
+							}, -- [1]
+							{
+								["action"] = "potion",
+								["enabled"] = true,
+							}, -- [2]
+						},
+					},
+					["version"] = 20221002,
+					["warnings"] = "Imported 2 action lists.\n",
+					["profile"] = "## Marksmanship Hunter\n## 2 October 2022\n\nactions.precombat+=/aspect_of_the_dragonhawk\nactions.precombat+=/potion\n\nactions+=/intimidation,if=debuff.casting.up\nactions+=/hunters_mark,if=down\nactions+=/rapid_fire\nactions+=/call_of_the_wild\nactions+=/kill_command\n## actions+=/furious_howl\nactions+=/potion\nactions+=/use_items\nactions+=/serpent_sting,if=debuff.sting.down\nactions+=/chimera_shot\nactions+=/multishot,if=active_enemies>2\nactions+=/explosive_trap,if=target.within10\nactions+=/volley,if=active_enemies>2\nactions+=/aimed_shot\nactions+=/arcane_shot\nactions+=/readiness\nactions+=/silencing_shot\nactions+=/kill_shot",
+					["author"] = "wowtbc.gg",
+				},
 				["Arms (IV) (2)"] = {
 					["source"] = "https://www.icy-veins.com/wotlk-classic/arms-warrior-dps-pve-rotation-cooldowns-abilities",
 					["date"] = 20221127.215141,
@@ -1671,105 +1770,6 @@ HekiliDB = {
 					["profile"] = "## Arms Warrior (Icy Veins)\n## 2022-10-21\n\nactions.precombat+=/battle_stance,if=buff.stance.down\n\nactions+=/pummel\nactions+=/spell_reflection\nactions+=/charge\nactions+=/bloodrage,if=rage.deficit>20\nactions+=/shattering_throw,if=buff.bloodlust.up&debuff.shattering_throw.down\nactions+=/rend,if=!ticking\nactions+=/call_action_list,name=aoe,if=active_enemies>1\nactions+=/sunder_armor,if=(debuff.sunder_armor.stack<5||debuff.sunder_armor.remains<5)&!debuff.expose_armor.up&target.time_to_die>15\nactions+=/overpower\nactions+=/use_items\nactions+=/recklessness,if=cooldown.bladestorm.ready||debuff.shattering_throw.up\nactions+=/bladestorm\nactions+=/execute\nactions+=/heroic_strike,if=rage>60\nactions+=/slam,if=!moving\nactions+=/mortal_strike\n\nactions.aoe+=/sweeping_strikes\n# TODO: Determine threshold for TC vs. Overpower.\nactions.aoe+=/thunder_clap,if=active_enemies>3\nactions.aoe+=/overpower\nactions.aoe+=/thunder_clap\nactions.aoe+=/bladestorm,if=active_dot.rend>0&cooldown.thunder_clap.remains\nactions.aoe+=/cleave,if=rage>80",
 					["basedOn"] = "Arms (IV)",
 					["author"] = "Icy Veins",
-				},
-				["Marksmanship (wowtbc.gg)"] = {
-					["source"] = "https://wowtbc.gg/wotlk/class-guides/marksmanship-hunter/",
-					["builtIn"] = true,
-					["date"] = 20221002,
-					["spec"] = 3,
-					["desc"] = "This priority is based on the wowtbc.gg Wrath guide.",
-					["lists"] = {
-						["default"] = {
-							{
-								["enabled"] = true,
-								["criteria"] = "debuff.casting.up",
-								["action"] = "intimidation",
-							}, -- [1]
-							{
-								["enabled"] = true,
-								["criteria"] = "down",
-								["action"] = "hunters_mark",
-							}, -- [2]
-							{
-								["action"] = "rapid_fire",
-								["enabled"] = true,
-							}, -- [3]
-							{
-								["action"] = "call_of_the_wild",
-								["enabled"] = true,
-							}, -- [4]
-							{
-								["action"] = "kill_command",
-								["enabled"] = true,
-							}, -- [5]
-							{
-								["action"] = "potion",
-								["enabled"] = true,
-							}, -- [6]
-							{
-								["action"] = "use_items",
-								["enabled"] = true,
-							}, -- [7]
-							{
-								["enabled"] = true,
-								["criteria"] = "debuff.sting.down",
-								["action"] = "serpent_sting",
-							}, -- [8]
-							{
-								["action"] = "chimera_shot",
-								["enabled"] = true,
-							}, -- [9]
-							{
-								["enabled"] = true,
-								["criteria"] = "active_enemies > 2",
-								["action"] = "multishot",
-							}, -- [10]
-							{
-								["enabled"] = true,
-								["criteria"] = "target.within10",
-								["action"] = "explosive_trap",
-							}, -- [11]
-							{
-								["enabled"] = true,
-								["criteria"] = "active_enemies > 2",
-								["action"] = "volley",
-							}, -- [12]
-							{
-								["action"] = "aimed_shot",
-								["enabled"] = true,
-							}, -- [13]
-							{
-								["action"] = "arcane_shot",
-								["enabled"] = true,
-							}, -- [14]
-							{
-								["action"] = "readiness",
-								["enabled"] = true,
-							}, -- [15]
-							{
-								["action"] = "silencing_shot",
-								["enabled"] = true,
-							}, -- [16]
-							{
-								["action"] = "kill_shot",
-								["enabled"] = true,
-							}, -- [17]
-						},
-						["precombat"] = {
-							{
-								["action"] = "aspect_of_the_dragonhawk",
-								["enabled"] = true,
-							}, -- [1]
-							{
-								["action"] = "potion",
-								["enabled"] = true,
-							}, -- [2]
-						},
-					},
-					["version"] = 20221002,
-					["warnings"] = "Imported 2 action lists.\n",
-					["profile"] = "## Marksmanship Hunter\n## 2 October 2022\n\nactions.precombat+=/aspect_of_the_dragonhawk\nactions.precombat+=/potion\n\nactions+=/intimidation,if=debuff.casting.up\nactions+=/hunters_mark,if=down\nactions+=/rapid_fire\nactions+=/call_of_the_wild\nactions+=/kill_command\n## actions+=/furious_howl\nactions+=/potion\nactions+=/use_items\nactions+=/serpent_sting,if=debuff.sting.down\nactions+=/chimera_shot\nactions+=/multishot,if=active_enemies>2\nactions+=/explosive_trap,if=target.within10\nactions+=/volley,if=active_enemies>2\nactions+=/aimed_shot\nactions+=/arcane_shot\nactions+=/readiness\nactions+=/silencing_shot\nactions+=/kill_shot",
-					["author"] = "wowtbc.gg",
 				},
 				["Fury (IV)"] = {
 					["source"] = "https://www.icy-veins.com/wotlk-classic/fury-warrior-dps-pve-rotation-cooldowns-abilities",

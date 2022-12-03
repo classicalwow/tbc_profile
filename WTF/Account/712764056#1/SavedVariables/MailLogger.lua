@@ -755,10 +755,10 @@ MailLoggerDB = {
 					["ItemLink"] = "|cff1eff00|Hitem:6037::::::::80:::::::::|h[真银锭]|h|r",
 					["Name"] = "真银锭",
 				},
-				[98] = {
-					["Number"] = 30,
-					["ItemLink"] = "|cff1eff00|Hitem:12361::::::::80:::::::::|h[蓝宝石]|h|r",
-					["Name"] = "蓝宝石",
+				[10] = {
+					["Number"] = 21,
+					["ItemLink"] = "|cff1eff00|Hitem:1206::::::::80:::::::::|h[绿玛瑙]|h|r",
+					["Name"] = "绿玛瑙",
 				},
 				[72] = {
 					["Number"] = 36,
@@ -775,10 +775,10 @@ MailLoggerDB = {
 					["ItemLink"] = "|cffffffff|Hitem:10286::::::::80:::::::::|h[野性之心]|h|r",
 					["Name"] = "野性之心",
 				},
-				[10] = {
-					["Number"] = 21,
-					["ItemLink"] = "|cff1eff00|Hitem:1206::::::::80:::::::::|h[绿玛瑙]|h|r",
-					["Name"] = "绿玛瑙",
+				[98] = {
+					["Number"] = 30,
+					["ItemLink"] = "|cff1eff00|Hitem:12361::::::::80:::::::::|h[蓝宝石]|h|r",
+					["Name"] = "蓝宝石",
 				},
 				[67] = {
 					["Number"] = 24,
@@ -4652,5 +4652,276 @@ MailLoggerDB = {
 			["ReceiveItems"] = {
 			},
 		}, -- [207]
+		{
+			["PlayerName"] = "特變電工",
+			["TargetName"] = "部落拍卖行",
+			["Reason"] = 2,
+			["Date"] = "2022-12-02",
+			["ReceiveMoney"] = 0,
+			["Time"] = "14:08:43",
+			["GiveMoney"] = 0,
+			["Location"] = "奥格瑞玛",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff0070dd|Hitem:40022::::::::80:::::::::|h[统御曙光猫眼石]|h|r",
+					["Name"] = "统御曙光猫眼石",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:44458::::::::80:::::::::|h[卷轴：附魔手套 - 碾压]|h|r",
+					["Name"] = "卷轴：附魔手套 - 碾压",
+				}, -- [2]
+			},
+		}, -- [208]
+		{
+			["PlayerName"] = "邁克爾假死",
+			["TargetName"] = "部落拍卖行",
+			["Reason"] = 3,
+			["Date"] = "2022-12-02",
+			["ReceiveMoney"] = 0,
+			["Time"] = "19:55:09",
+			["GiveMoney"] = 0,
+			["Location"] = "奥格瑞玛",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff0070dd|Hitem:42702::::::::80:::::::::|h[魔化之泪]|h|r",
+					["Name"] = "魔化之泪",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff0070dd|Hitem:39997::::::::80:::::::::|h[精致血玉石]|h|r",
+					["Name"] = "精致血玉石",
+				}, -- [2]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:44465::::::::80:::::::::|h[卷轴：附魔胸甲 - 强力属性]|h|r",
+					["Name"] = "卷轴：附魔胸甲 - 强力属性",
+				}, -- [3]
+			},
+		}, -- [209]
+		{
+			["PlayerName"] = "邁克爾假死",
+			["TargetName"] = "部落拍卖行",
+			["Reason"] = 1,
+			["Date"] = "2022-12-02",
+			["ReceiveMoney"] = 0,
+			["Time"] = "19:59:40",
+			["GiveMoney"] = 0,
+			["Location"] = "奥格瑞玛",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:38989::::::::80:::::::::|h[卷轴：附魔胸甲 - 超级属性]|h|r",
+					["Name"] = "卷轴：附魔胸甲 - 超级属性",
+				}, -- [1]
+			},
+		}, -- [210]
+		{
+			["TargetName"] = "魔爆術",
+			["PlayerName"] = "邁克爾假死",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:03:50",
+			["GiveMoney"] = 0,
+			["Location"] = "纳克萨玛斯",
+			["GiveItems"] = {
+			},
+			["Date"] = "2022-12-02",
+			["ReceiveItems"] = {
+			},
+		}, -- [211]
+		{
+			["TargetName"] = "魔爆術",
+			["PlayerName"] = "邁克爾假死",
+			["Date"] = "2022-12-02",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:03:50",
+			["GiveMoney"] = 7000000,
+			["Location"] = "纳克萨玛斯",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:40265::::::::80:::::::::|h[飞矢之歌]|h|r",
+					["Name"] = "飞矢之歌",
+				}, -- [1]
+			},
+		}, -- [212]
+		{
+			["TargetName"] = "魔爆術",
+			["PlayerName"] = "邁克爾假死",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:16:23",
+			["GiveMoney"] = 0,
+			["Location"] = "纳克萨玛斯",
+			["GiveItems"] = {
+			},
+			["Date"] = "2022-12-02",
+			["ReceiveItems"] = {
+			},
+		}, -- [213]
+		{
+			["TargetName"] = "魔爆術",
+			["PlayerName"] = "邁克爾假死",
+			["Date"] = "2022-12-02",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:16:23",
+			["GiveMoney"] = 16000000,
+			["Location"] = "纳克萨玛斯",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:40074::::::::80:::::::::|h[强力指环]|h|r",
+					["Name"] = "强力指环",
+				}, -- [1]
+			},
+		}, -- [214]
+		{
+			["PlayerName"] = "邁克爾假死",
+			["TargetName"] = "部落拍卖行",
+			["Reason"] = 2,
+			["Date"] = "2022-12-02",
+			["ReceiveMoney"] = 4250108,
+			["Time"] = "23:31:19",
+			["GiveMoney"] = 0,
+			["Location"] = "奥格瑞玛",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff0070dd|Hitem:41167::::::::80:::::::::|h[觅心瞄准镜]|h|r",
+					["Name"] = "觅心瞄准镜",
+				}, -- [1]
+			},
+		}, -- [215]
+		{
+			["TargetName"] = "魔爆術",
+			["PlayerName"] = "邁克爾假死",
+			["ReceiveMoney"] = 0,
+			["Time"] = "23:35:49",
+			["GiveMoney"] = 0,
+			["Location"] = "永恒之眼",
+			["GiveItems"] = {
+			},
+			["Date"] = "2022-12-02",
+			["ReceiveItems"] = {
+			},
+		}, -- [216]
+		{
+			["TargetName"] = "魔爆術",
+			["PlayerName"] = "邁克爾假死",
+			["ReceiveMoney"] = 0,
+			["Time"] = "23:36:11",
+			["GiveMoney"] = 0,
+			["Location"] = "永恒之眼",
+			["GiveItems"] = {
+			},
+			["Date"] = "2022-12-02",
+			["ReceiveItems"] = {
+			},
+		}, -- [217]
+		{
+			["TargetName"] = "魔爆術",
+			["PlayerName"] = "邁克爾假死",
+			["Date"] = "2022-12-02",
+			["ReceiveMoney"] = 0,
+			["Time"] = "23:36:11",
+			["GiveMoney"] = 3000000,
+			["Location"] = "永恒之眼",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:40233::::::::80:::::::::|h[死灵携载者]|h|r",
+					["Name"] = "死灵携载者",
+				}, -- [1]
+			},
+		}, -- [218]
+		{
+			["TargetName"] = "色違皮卡丘",
+			["PlayerName"] = "邁克爾假死",
+			["ReceiveMoney"] = 0,
+			["Time"] = "01:03:33",
+			["GiveMoney"] = 0,
+			["Location"] = "黑曜石圣殿",
+			["GiveItems"] = {
+			},
+			["Date"] = "2022-12-03",
+			["ReceiveItems"] = {
+			},
+		}, -- [219]
+		{
+			["TargetName"] = "色違皮卡丘",
+			["PlayerName"] = "邁克爾假死",
+			["Date"] = "2022-12-03",
+			["ReceiveMoney"] = 46760000,
+			["Time"] = "01:03:33",
+			["GiveMoney"] = 0,
+			["Location"] = "黑曜石圣殿",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [220]
+		{
+			["PlayerName"] = "邁克爾假死",
+			["TargetName"] = "部落拍卖行",
+			["Reason"] = 1,
+			["Date"] = "2022-12-03",
+			["ReceiveMoney"] = 0,
+			["Time"] = "01:06:23",
+			["GiveMoney"] = 0,
+			["Location"] = "奥格瑞玛",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff0070dd|Hitem:38992::::::::80:::::::::|h[卷轴：附魔双手武器 - 强效野蛮]|h|r",
+					["Name"] = "卷轴：附魔双手武器 - 强效野蛮",
+				}, -- [1]
+			},
+		}, -- [221]
+		{
+			["PlayerName"] = "邁克爾假死",
+			["TargetName"] = "部落拍卖行",
+			["Reason"] = 1,
+			["Date"] = "2022-12-03",
+			["ReceiveMoney"] = 0,
+			["Time"] = "01:07:45",
+			["GiveMoney"] = 0,
+			["Location"] = "奥格瑞玛",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 20,
+					["ItemLink"] = "|cffffffff|Hitem:22838::::::::80:::::::::|h[加速药水]|h|r",
+					["Name"] = "加速药水",
+				}, -- [1]
+			},
+		}, -- [222]
 	},
 }

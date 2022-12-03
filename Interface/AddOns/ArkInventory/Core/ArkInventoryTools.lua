@@ -6,11 +6,11 @@ ArkInventory.Tools = { }
 
 
 --[[
--- /dump GetItemClassInfo( ArkInventory.Const.ENUM.ITEMCLASS.ARMOR.PARENT )
--- /dump GetItemSubClassInfo( ArkInventory.Const.ENUM.ITEMCLASS.ARMOR.PARENT, ArkInventory.Const.ENUM.ITEMCLASS.ARMOR.LEATHER )
+-- /dump GetItemClassInfo( ArkInventory.ENUM.ITEM.TYPE.ARMOR.PARENT )
+-- /dump GetItemSubClassInfo( ArkInventory.ENUM.ITEM.TYPE.ARMOR.PARENT, ArkInventory.ENUM.ITEM.TYPE.ARMOR.LEATHER )
 
 for x = 4, 4 do
-	--local x = ArkInventory.Const.ENUM.ITEMCLASS.TRADEGOODS.HERBS
+	--local x = ArkInventory.ENUM.ITEM.TYPE.TRADEGOODS.HERBS
 	local n = GetItemClassInfo( x )
 	--if n and n ~= "" then
 		ArkInventory.Output( "----------" )
@@ -41,7 +41,7 @@ end
 
 
 --[[
-local z = "always"
+local z = "destroy"
 ArkInventory.Output( "search=", z )
 for k, v in pairs (_G) do
 	if type( k ) == "string" and type( v ) == "string" then

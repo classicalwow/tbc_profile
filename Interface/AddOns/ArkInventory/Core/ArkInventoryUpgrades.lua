@@ -14,9 +14,9 @@ local function helper_CategoryRenumber( cat_old, cat_new )
 	
 	if ArkInventory.acedb.global.option.cateset then
 		for k, v in pairs( ArkInventory.acedb.global.option.cateset.data ) do
-			for k2, v2 in pairs( v.category.assign ) do
+			for k2, v2 in pairs( v.assign ) do
 				if v2 == cat_old then
-					v.category.assign[k2] = cat_new
+					v.assign[k2] = cat_new
 				end
 			end
 		end
@@ -246,7 +246,6 @@ function ArkInventory.DatabaseUpgradePreLoad( )
 			end
 		end
 	end
-	
 	
 	
 	helper_SystemCleanupPreLoad( ARKINVDB )
@@ -781,7 +780,7 @@ local function helper_UpgradeProfile( profile, profile_name )
 				if id then
 					
 					if profile.option.category then
-						ArkInventory.Table.Merge( profile.option.category, data.category.assign )
+						ArkInventory.Table.Merge( profile.option.category, data.assign )
 					end
 					profile.option.category = nil
 					
@@ -900,7 +899,7 @@ local function helper_UpgradeProfile( profile, profile_name )
 				catset = id
 				
 				if profile.option.category then
-					ArkInventory.Table.Merge( profile.option.category, data.category.assign )
+					ArkInventory.Table.Merge( profile.option.category, data.assign )
 				end
 				profile.option.category = nil
 				
@@ -1412,12 +1411,12 @@ function ArkInventory.DatabaseUpgradePostLoad( )
 		
 		for k1, v1 in pairs( ArkInventory.acedb.global.option.catset.data ) do
 			
-			for k2, v2 in pairs( v1.category.assign ) do
+			for k2, v2 in pairs( v1.assign ) do
 				
 				local v = string.match( k2, "^%d+:(.+)$" )
 				if v then
-					v1.category.assign[v] = v2
-					v1.category.assign[k2] = nil
+					v1.assign[v] = v2
+					v1.assign[k2] = nil
 				end
 				
 			end
@@ -1812,17 +1811,17 @@ function ArkInventory.DatabaseUpgradePostLoad( )
 		
 		for k, v in pairs( ArkInventory.acedb.global.option.auto.open ) do
 			if v == true then
-				ArkInventory.acedb.global.option.auto.open[k] = ArkInventory.Const.ENUM.BAGAUTOACTION.YES
+				ArkInventory.acedb.global.option.auto.open[k] = ArkInventory.ENUM.BAG.OPENCLOSE.YES
 			elseif v == false then
-				ArkInventory.acedb.global.option.auto.open[k] = ArkInventory.Const.ENUM.BAGAUTOACTION.NO
+				ArkInventory.acedb.global.option.auto.open[k] = ArkInventory.ENUM.BAG.OPENCLOSE.NO
 			end
 		end
 			
 		for k, v in pairs( ArkInventory.acedb.global.option.auto.close ) do
 			if v == true then
-				ArkInventory.acedb.global.option.auto.close[k] = ArkInventory.Const.ENUM.BAGAUTOACTION.YES
+				ArkInventory.acedb.global.option.auto.close[k] = ArkInventory.ENUM.BAG.OPENCLOSE.YES
 			elseif v == false then
-				ArkInventory.acedb.global.option.auto.close[k] = ArkInventory.Const.ENUM.BAGAUTOACTION.NO
+				ArkInventory.acedb.global.option.auto.close[k] = ArkInventory.ENUM.BAG.OPENCLOSE.NO
 			end
 		end
 		
@@ -2019,6 +2018,82 @@ function ArkInventory.DatabaseUpgradePostLoad( )
 		
 	end
 	
+	
+	
+	upgrade_version = 31004.11
+	if ArkInventory.acedb.global.option.version < upgrade_version then
+		
+		ArkInventory.Output( string.format( ArkInventory.Localise["UPGRADE_GLOBAL"], "option", upgrade_version ) )
+		
+		for _, catset in pairs( ArkInventory.acedb.global.option.catset.data ) do
+			
+			if catset.category then
+				
+				if catset.category.assign then
+					for k, v in pairs( catset.category.assign ) do
+						catset.ia[k].assign = v
+					end
+				end
+				
+				if catset.category.active then
+					for cat_type, data in pairs( catset.category.active ) do
+						for cat_id, value in pairs( data ) do
+							catset.ca[cat_type][cat_id].active = not not value
+						end
+					end
+				end
+				
+				if catset.category.junk then
+					for cat_type, data in pairs( catset.category.junk ) do
+						for cat_id, junk in pairs( data ) do
+							if junk then
+								catset.ca[cat_type][cat_id].action.t = ArkInventory.ENUM.ACTION.TYPE.VENDOR
+								catset.ca[cat_type][cat_id].action.w = ArkInventory.ENUM.ACTION.WHEN.AUTO
+							end
+						end
+					end
+					
+				end
+				
+				catset.category = nil
+				
+			end
+			
+		end
+		
+		
+		ArkInventory.acedb.global.option.version = upgrade_version
+		
+	end
+	
+	
+	
+	upgrade_version = 31005.03
+	if ArkInventory.acedb.global.option.version < upgrade_version then
+		
+		ArkInventory.Output( string.format( ArkInventory.Localise["UPGRADE_GLOBAL"], "option", upgrade_version ) )
+		
+		if ArkInventory.acedb.global.option.junk then
+			ArkInventory.acedb.global.option.action.vendor.auto = not not ArkInventory.acedb.global.option.junk.sell
+			ArkInventory.acedb.global.option.action.vendor.combat = not not ArkInventory.acedb.global.option.junk.combat
+			ArkInventory.acedb.global.option.action.vendor.limit = not not ArkInventory.acedb.global.option.junk.limit
+			ArkInventory.acedb.global.option.action.vendor.delete = not not ArkInventory.acedb.global.option.junk.delete
+			ArkInventory.acedb.global.option.action.vendor.notify = not not ArkInventory.acedb.global.option.junk.notify
+			ArkInventory.acedb.global.option.action.vendor.raritycutoff = ArkInventory.acedb.global.option.junk.raritycutoff or ArkInventory.ENUM.ITEM.QUALITY.POOR
+			ArkInventory.acedb.global.option.action.vendor.list = not not ArkInventory.acedb.global.option.junk.list
+			ArkInventory.acedb.global.option.action.vendor.test = not not ArkInventory.acedb.global.option.junk.test
+			if ArkInventory.acedb.global.option.junk.soulbound then
+				ArkInventory.acedb.global.option.action.vendor.soulbound.known = not not ArkInventory.acedb.global.option.junk.soulbound.known
+				ArkInventory.acedb.global.option.action.vendor.soulbound.equipment = not not ArkInventory.acedb.global.option.junk.soulbound.equipment
+				ArkInventory.acedb.global.option.action.vendor.soulbound.itemlevel = not not ArkInventory.acedb.global.option.junk.soulbound.itemlevel
+			end
+		end
+		ArkInventory.acedb.global.option.junk = nil
+		
+		
+		ArkInventory.acedb.global.option.version = upgrade_version
+		
+	end
 	
 	
 	if ArkInventory.acedb.global.vendor then

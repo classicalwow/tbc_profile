@@ -23,7 +23,7 @@ function ArkInventory.CrossClient.GetFirstBagBankSlotIndex( )
 		-- classic
 		return GetFirstBagBankSlotIndex( )
 	else
-		return ArkInventory.CrossClient.GetContainerNumSlots( ArkInventory.Const.ENUM.BAGINDEX.BANK )
+		return ArkInventory.CrossClient.GetContainerNumSlots( ArkInventory.ENUM.BAG.INDEX.BANK )
 	end
 end
 
@@ -177,10 +177,7 @@ function ArkInventory.CrossClient.GetContainerItemQuestInfo( i, ... )
 	if C_Container and C_Container.GetContainerItemQuestInfo then
 		info = C_Container.GetContainerItemQuestInfo( ... )
 	elseif GetContainerItemQuestInfo then
-		local questitem, questid, active = GetContainerItemQuestInfo( ... )
-		info.isQuestItem = questitem
-		info.questID = questid
-		info.isActive = active
+		info.isQuestItem, info.questID, info.isActive = GetContainerItemQuestInfo( ... )
 	else
 		if ArkInventory.PT_ItemInSets( i.h, "ArkInventory.System.Quest.Start" ) then
 			info.isQuestItem = true
@@ -480,28 +477,35 @@ function ArkInventory.CrossClient.GetContainerItemInfo( ... )
 	if C_Container and C_Container.GetContainerItemInfo then
 		info = C_Container.GetContainerItemInfo( ... )
 	elseif GetContainerItemInfo then
-		local icon, count, locked, quality, readable, lootable, hyperlink, filtered, novalue, itemid, bound = GetContainerItemInfo( ... )
-		info.iconFileID = icon
-		info.stackCount = count
-		info.isLocked = locked
-		info.quality = quality
-		info.isReadable = readable
-		info.hasLoot = lootable
-		info.hyperlink = hyperlink
-		info.isFiltered = filtered
-		info.hasNoValue = novalue
-		info.itemID = itemid
-		info.isBound = bound
+		info.iconFileID, info.stackCount, info.isLocked, info.quality, info.isReadable, info.hasLoot, info.hyperlink, info.isFiltered, info.hasNoValue, info.itemID, info.isBound = GetContainerItemInfo( ... )
 	end
 	
 	if not info then
 		info = { }
 	end
 	
-	info.quality = info.quality or ArkInventory.Const.ENUM.ITEMQUALITY.POOR
 	info.stackCount = info.stackCount or 1
+	info.quality = info.quality or ArkInventory.ENUM.ITEM.QUALITY.POOR
 	
 	return info
+	
+end
+
+function ArkInventory.CrossClient.GetContainerItemID( ... )
+	
+	if C_Container and C_Container.GetContainerItemID then
+		return C_Container.GetContainerItemID( ... )
+	elseif GetContainerItemID then
+		return GetContainerItemID( ... )
+	end
+	
+end
+
+function ArkInventory.CrossClient.GetInventoryItemID( ... )
+	
+	if GetInventoryItemID then
+		return GetInventoryItemID( ... )
+	end
 	
 end
 
@@ -659,9 +663,9 @@ for k,v in pairs( ArkInventory.Const.BLIZZARD.CLIENT.EXPANSION ) do
 		break
 	end
 end
-ArkInventory.Const.ENUM.EXPANSION.CURRENT = ArkInventory.Const.BLIZZARD.CLIENT.ID
+ArkInventory.ENUM.EXPANSION.CURRENT = ArkInventory.Const.BLIZZARD.CLIENT.ID
 
-if ArkInventory.Const.BLIZZARD.CLIENT.ID <= ArkInventory.Const.ENUM.EXPANSION.WRATH then
+if ArkInventory.Const.BLIZZARD.CLIENT.ID <= ArkInventory.ENUM.EXPANSION.WRATH then
 	ArkInventory.CrossClient.TemplateVersion = 2
 end
 
@@ -682,14 +686,14 @@ function ArkInventory.ClientCheck( id_toc_min, id_toc_max, loud )
 	
 	if type( id_toc_min ) == "boolean" then return id_toc_min end
 	
-	local tmin = id_toc_min or ArkInventory.Const.BLIZZARD.CLIENT.EXPANSION[ArkInventory.Const.ENUM.EXPANSION.CLASSIC].TOC.MIN
-	if tmin < ArkInventory.Const.BLIZZARD.CLIENT.EXPANSION[ArkInventory.Const.ENUM.EXPANSION.CLASSIC].TOC.MIN then
-		tmin = ArkInventory.Const.BLIZZARD.CLIENT.EXPANSION[tmin].TOC.MIN or ArkInventory.Const.BLIZZARD.CLIENT.EXPANSION[ArkInventory.Const.ENUM.EXPANSION.CLASSIC].TOC.MIN
+	local tmin = id_toc_min or ArkInventory.Const.BLIZZARD.CLIENT.EXPANSION[ArkInventory.ENUM.EXPANSION.CLASSIC].TOC.MIN
+	if tmin < ArkInventory.Const.BLIZZARD.CLIENT.EXPANSION[ArkInventory.ENUM.EXPANSION.CLASSIC].TOC.MIN then
+		tmin = ArkInventory.Const.BLIZZARD.CLIENT.EXPANSION[tmin].TOC.MIN or ArkInventory.Const.BLIZZARD.CLIENT.EXPANSION[ArkInventory.ENUM.EXPANSION.CLASSIC].TOC.MIN
 	end
 	
-	local tmax = id_toc_max or ArkInventory.Const.BLIZZARD.CLIENT.EXPANSION[ArkInventory.Const.ENUM.EXPANSION.CURRENT].TOC.MAX
-	if tmax < ArkInventory.Const.BLIZZARD.CLIENT.EXPANSION[ArkInventory.Const.ENUM.EXPANSION.CLASSIC].TOC.MIN then
-		tmax = ArkInventory.Const.BLIZZARD.CLIENT.EXPANSION[tmax].TOC.MAX or ArkInventory.Const.BLIZZARD.CLIENT.EXPANSION[ArkInventory.Const.ENUM.EXPANSION.CURRENT].TOC.MAX
+	local tmax = id_toc_max or ArkInventory.Const.BLIZZARD.CLIENT.EXPANSION[ArkInventory.ENUM.EXPANSION.CURRENT].TOC.MAX
+	if tmax < ArkInventory.Const.BLIZZARD.CLIENT.EXPANSION[ArkInventory.ENUM.EXPANSION.CLASSIC].TOC.MIN then
+		tmax = ArkInventory.Const.BLIZZARD.CLIENT.EXPANSION[tmax].TOC.MAX or ArkInventory.Const.BLIZZARD.CLIENT.EXPANSION[ArkInventory.ENUM.EXPANSION.CURRENT].TOC.MAX
 	end
 	
 	if loud then

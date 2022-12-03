@@ -740,10 +740,10 @@ MailLoggerDB = {
 					["ItemLink"] = "|cff1eff00|Hitem:12799::::::::80:::::::::|h[大猫眼石]|h|r",
 					["Name"] = "大猫眼石",
 				},
-				[10] = {
-					["Number"] = 21,
-					["ItemLink"] = "|cff1eff00|Hitem:1206::::::::80:::::::::|h[绿玛瑙]|h|r",
-					["Name"] = "绿玛瑙",
+				[98] = {
+					["Number"] = 30,
+					["ItemLink"] = "|cff1eff00|Hitem:12361::::::::80:::::::::|h[蓝宝石]|h|r",
+					["Name"] = "蓝宝石",
 				},
 				[95] = {
 					["Number"] = 10,
@@ -755,10 +755,10 @@ MailLoggerDB = {
 					["ItemLink"] = "|cff1eff00|Hitem:6037::::::::80:::::::::|h[真银锭]|h|r",
 					["Name"] = "真银锭",
 				},
-				[98] = {
-					["Number"] = 30,
-					["ItemLink"] = "|cff1eff00|Hitem:12361::::::::80:::::::::|h[蓝宝石]|h|r",
-					["Name"] = "蓝宝石",
+				[10] = {
+					["Number"] = 21,
+					["ItemLink"] = "|cff1eff00|Hitem:1206::::::::80:::::::::|h[绿玛瑙]|h|r",
+					["Name"] = "绿玛瑙",
 				},
 				[72] = {
 					["Number"] = 36,
@@ -4593,5 +4593,139 @@ MailLoggerDB = {
 			["ReceiveItems"] = {
 			},
 		}, -- [203]
+		{
+			["TargetName"] = "Bzld",
+			["Date"] = "2022-12-01",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "纳克萨玛斯",
+			["PlayerName"] = "邁克爾假死",
+			["Time"] = "23:11:52",
+			["ReceiveItems"] = {
+			},
+		}, -- [204]
+		{
+			["TargetName"] = "Bzld",
+			["PlayerName"] = "邁克爾假死",
+			["Date"] = "2022-12-01",
+			["ReceiveMoney"] = 0,
+			["Time"] = "23:11:52",
+			["GiveMoney"] = 1000000,
+			["Location"] = "纳克萨玛斯",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:39379::::::::80:::::::::|h[幽灵骑士束腰]|h|r",
+					["Name"] = "幽灵骑士束腰",
+				}, -- [1]
+			},
+		}, -- [205]
+		{
+			["TargetName"] = "Bzld",
+			["Date"] = "2022-12-02",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "北风苔原",
+			["PlayerName"] = "邁克爾假死",
+			["Time"] = "00:48:50",
+			["ReceiveItems"] = {
+			},
+		}, -- [206]
+		{
+			["TargetName"] = "Bzld",
+			["PlayerName"] = "邁克爾假死",
+			["Date"] = "2022-12-02",
+			["ReceiveMoney"] = 14600000,
+			["Time"] = "00:48:50",
+			["GiveMoney"] = 0,
+			["Location"] = "北风苔原",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [207]
+		{
+			["PlayerName"] = "特變電工",
+			["TargetName"] = "部落拍卖行",
+			["Reason"] = 2,
+			["Date"] = "2022-12-02",
+			["ReceiveMoney"] = 0,
+			["Time"] = "14:08:43",
+			["GiveMoney"] = 0,
+			["Location"] = "奥格瑞玛",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff0070dd|Hitem:40022::::::::80:::::::::|h[统御曙光猫眼石]|h|r",
+					["Name"] = "统御曙光猫眼石",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:44458::::::::80:::::::::|h[卷轴：附魔手套 - 碾压]|h|r",
+					["Name"] = "卷轴：附魔手套 - 碾压",
+				}, -- [2]
+			},
+		}, -- [208]
+		{
+			["PlayerName"] = "邁克爾假死",
+			["TargetName"] = "部落拍卖行",
+			["Reason"] = 3,
+			["Date"] = "2022-12-02",
+			["ReceiveMoney"] = 0,
+			["Time"] = "19:55:09",
+			["GiveMoney"] = 0,
+			["Location"] = "奥格瑞玛",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff0070dd|Hitem:42702::::::::80:::::::::|h[魔化之泪]|h|r",
+					["Name"] = "魔化之泪",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff0070dd|Hitem:39997::::::::80:::::::::|h[精致血玉石]|h|r",
+					["Name"] = "精致血玉石",
+				}, -- [2]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:44465::::::::80:::::::::|h[卷轴：附魔胸甲 - 强力属性]|h|r",
+					["Name"] = "卷轴：附魔胸甲 - 强力属性",
+				}, -- [3]
+			},
+		}, -- [209]
+		{
+			["PlayerName"] = "邁克爾假死",
+			["TargetName"] = "部落拍卖行",
+			["Reason"] = 1,
+			["Date"] = "2022-12-02",
+			["ReceiveMoney"] = 0,
+			["Time"] = "19:59:40",
+			["GiveMoney"] = 0,
+			["Location"] = "奥格瑞玛",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:38989::::::::80:::::::::|h[卷轴：附魔胸甲 - 超级属性]|h|r",
+					["Name"] = "卷轴：附魔胸甲 - 超级属性",
+				}, -- [1]
+			},
+		}, -- [210]
 	},
 }

@@ -155,7 +155,7 @@ dbm-worldevents: enabled
 TalentEmu: enabled
 ArkInventoryRules_Profession: disabled
 ArkInventoryRules_Example: enabled
-ArkInventory: enabled
+ArkInventory: disabled
 ArkInventoryRules: disabled
 ArkInventorySearch: disabled
 DataStore: disabled

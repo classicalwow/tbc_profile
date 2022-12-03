@@ -6,7 +6,6 @@ LootMonitorDB = {
 			["Class"] = "WARRIOR",
 			["InstanceID"] = 533,
 			["FirstPlayer"] = "大呆猛",
-			["InstanceName"] = "纳克萨玛斯",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-533-9792-16028-00007E0EBE",
@@ -335,15 +334,17 @@ LootMonitorDB = {
 					},
 				}, -- [25]
 			},
-			["SavedID"] = 113131489,
-			["Player"] = "特變電工",
+			["InstanceName"] = "纳克萨玛斯",
 			["FirstClass"] = "PALADIN",
+			["Player"] = "特變電工",
+			["SavedID"] = 113131489,
 		}, -- [1]
 		{
 			["Date"] = "2022-11-28",
 			["Class"] = "HUNTER",
 			["InstanceID"] = 533,
 			["FirstPlayer"] = "盧山升龍霸",
+			["InstanceName"] = "纳克萨玛斯",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-533-9602-15956-000004A81E",
@@ -698,11 +699,34 @@ LootMonitorDB = {
 						"|cffa335ee|Hitem:40402::::::::80:::::::::|h[最終狂笑]|h|r", -- [5]
 					},
 				}, -- [27]
+				{
+					["GUID"] = "Creature-0-4491-533-11817-15952-000008A619",
+					["Time"] = "21:48:23",
+					["Class"] = "SHAMAN",
+					["Date"] = "2022-12-01",
+					["Looter"] = "大导弹",
+					["Name"] = "迈克斯纳",
+					["Loots"] = {
+						"|cffa335ee|Hitem:39225::::::::80:::::::::|h[武装冲突披风]|h|r", -- [1]
+						"|cffa335ee|Hitem:39229::::::::80:::::::::|h[蜘蛛的拥抱]|h|r", -- [2]
+					},
+				}, -- [28]
+				{
+					["GUID"] = "Creature-0-4491-533-11817-15932-000008A619",
+					["Time"] = "22:07:28",
+					["Class"] = "WARLOCK",
+					["Date"] = "2022-12-01",
+					["Looter"] = "代号首长",
+					["Name"] = "格拉斯",
+					["Loots"] = {
+						"|cffa335ee|Hitem:40624::::::::80:::::::::|h[失落胜利者的护肩]|h|r", -- [1]
+						"|cffa335ee|Hitem:39254::::::::80:::::::::|h[轻舞之靴]|h|r", -- [2]
+					},
+				}, -- [29]
 			},
-			["InstanceName"] = "纳克萨玛斯",
-			["FirstClass"] = "WARLOCK",
-			["Player"] = "邁克爾假死",
 			["SavedID"] = 113591126,
+			["Player"] = "邁克爾假死",
+			["FirstClass"] = "WARLOCK",
 		}, -- [2]
 	},
 	["Config"] = {
