@@ -54,6 +54,29 @@ TomTomWaypointsM = {
 		["暖男你馬四了 - 伊弗斯"] = {
 		},
 		["邁克爾假死 - 伊弗斯"] = {
+			[120] = {
+				["120:247921760.3912:691931540.3423:雷铸监督者"] = {
+					120, -- [1]
+					0.2479217603911981, -- [2]
+					0.6919315403422983, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
+					["cleardistance"] = 10,
+					["title"] = "雷铸监督者",
+					["from"] = "Questie",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["world"] = true,
+				},
+			},
 		},
 	},
 }
