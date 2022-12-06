@@ -62,7 +62,8 @@ TomTomWaypointsM = {
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["minimap"] = true,
+					["desc"] = "雷铸监督者",
+					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "雷铸监督者",
 					["from"] = "Questie",
@@ -74,6 +75,7 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
+					["minimap"] = true,
 					["world"] = true,
 				},
 			},

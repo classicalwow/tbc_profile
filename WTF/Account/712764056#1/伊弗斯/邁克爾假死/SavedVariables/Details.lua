@@ -7,8 +7,8 @@ _detalhes_database = {
 		["tabelas"] = {
 			{
 				{
-					["combatId"] = 1592,
 					["tipo"] = 2,
+					["combatId"] = 1592,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -21,23 +21,53 @@ _detalhes_database = {
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["total"] = 15130.004334,
-							["on_hold"] = false,
-							["aID"] = "4487-0008386D",
+							["classe"] = "HUNTER",
+							["last_dps"] = 3108.053478635957,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 13857.004334,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_event"] = 1670125624,
+							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1670125625,
-							["classe"] = "HUNTER",
-							["friendlyfire_total"] = 0,
+							["aID"] = "4487-0008386D",
+							["damage_taken"] = 0.004334,
 							["nome"] = "邁克爾假死",
+							["spec"] = 255,
+							["grupo"] = true,
+							["total"] = 15130.004334,
+							["custom"] = 0,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
+									[75] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 2220,
+										["g_amt"] = 0,
+										["n_max"] = 909,
+										["targets"] = {
+											["雷铸抢劫者"] = 3129,
+										},
+										["n_dmg"] = 909,
+										["n_min"] = 909,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 3129,
+										["c_max"] = 2220,
+										["id"] = 75,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 2220,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
 									[49050] = {
 										["c_amt"] = 1,
 										["b_amt"] = 0,
@@ -55,16 +85,16 @@ _detalhes_database = {
 										["c_max"] = 3372,
 										["id"] = 49050,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 3372,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[53352] = {
 										["c_amt"] = 2,
@@ -83,57 +113,27 @@ _detalhes_database = {
 										["c_max"] = 3039,
 										["id"] = 53352,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 3039,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[75] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 2220,
-										["g_amt"] = 0,
-										["n_max"] = 909,
-										["targets"] = {
-											["雷铸抢劫者"] = 3129,
-										},
-										["n_dmg"] = 909,
-										["n_min"] = 909,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 3129,
-										["c_max"] = 2220,
-										["id"] = 75,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
-										["c_min"] = 2220,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 4,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 255,
-							["serial"] = "Player-4487-0008386D",
-							["last_dps"] = 3108.053478635957,
-							["custom"] = 0,
+							["colocacao"] = 1,
 							["tipo"] = 1,
-							["damage_taken"] = 0.004334,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1670125620,
-							["delay"] = 0,
-							["last_event"] = 1670125624,
+							["serial"] = "Player-4487-0008386D",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -145,20 +145,20 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
-							["serial"] = "Pet-0-4491-571-14248-30164-0100082C0F",
+							["last_event"] = 1670125624,
+							["friendlyfire"] = {
+							},
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1273.007603,
-							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
+							["delay"] = 0,
 							["dps_started"] = false,
 							["total"] = 1273.007603,
 							["classe"] = "PET",
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -177,16 +177,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 									[52474] = {
 										["c_amt"] = 0,
@@ -205,29 +205,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 52474,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 0.007603,
 							["end_time"] = 1670125625,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 0.007603,
+							["on_hold"] = false,
 							["start_time"] = 1670125621,
-							["delay"] = 0,
-							["last_event"] = 1670125624,
+							["serial"] = "Pet-0-4491-571-14248-30164-0100082C0F",
+							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -238,23 +238,22 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
+							["delay"] = 0,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002409,
-							["fight_component"] = true,
-							["monster"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1670125625,
 							["on_hold"] = false,
+							["fight_component"] = true,
+							["end_time"] = 1670125625,
+							["damage_taken"] = 15130.002409,
 							["friendlyfire_total"] = 0,
 							["nome"] = "雷铸抢劫者",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[52701] = {
 										["c_amt"] = 0,
@@ -272,44 +271,45 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 52701,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 								},
+								["tipo"] = 2,
 							},
 							["aID"] = "29586",
+							["dps_started"] = false,
 							["total"] = 0.002409,
-							["serial"] = "Creature-0-4491-571-14248-29586-00000C1829",
-							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 0,
-							["damage_taken"] = 15130.002409,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1670125625,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Creature-0-4491-571-14248-29586-00000C1829",
+							["monster"] = true,
 						}, -- [3]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1592,
 					["tipo"] = 3,
+					["combatId"] = 1592,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1300,
-							["targets_overheal"] = {
+							["healing_from"] = {
 							},
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "HUNTER",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 390.001973,
 							["total_without_pet"] = 0.001973,
 							["total"] = 0.001973,
@@ -326,34 +326,33 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.001973,
 							["healing_taken"] = 0.001973,
 							["end_time"] = 1670125625,
-							["healing_from"] = {
+							["last_event"] = 1670125625,
+							["targets_overheal"] = {
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "邁克爾假死",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1670125622,
-							["spec"] = 255,
-							["custom"] = 0,
-							["tipo"] = 2,
 							["aID"] = "4487-0008386D",
 							["totaldenied"] = 0.001973,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["classe"] = "HUNTER",
+							["start_time"] = 1670125622,
 							["delay"] = 0,
-							["last_event"] = 1670125625,
+							["spec"] = 255,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
-							["targets_overheal"] = {
-								["全球頂級投資家 <邁克爾假死>"] = 390,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
 							["totalover"] = 390.002904,
 							["total_without_pet"] = 0.002904,
 							["total"] = 0.002904,
@@ -370,12 +369,9 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.002904,
 							["healing_taken"] = 0.002904,
 							["end_time"] = 1670125625,
-							["healing_from"] = {
-							},
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[54131] = {
 										["c_amt"] = 0,
@@ -397,27 +393,31 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
+										["n_amt"] = 3,
 										["n_curado"] = 0,
 										["totaldenied"] = 0,
-										["n_amt"] = 3,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["start_time"] = 1670125622,
-							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
+							["totaldenied"] = 0.002904,
+							["targets_overheal"] = {
+								["全球頂級投資家 <邁克爾假死>"] = 390,
+							},
+							["last_event"] = 1670125625,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "PET",
-							["totaldenied"] = 0.002904,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1670125622,
 							["delay"] = 0,
-							["last_event"] = 1670125625,
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1592,
 					["tipo"] = 7,
+					["combatId"] = 1592,
 					["_ActorTable"] = {
 						{
 							["received"] = 315.001994,
@@ -433,7 +433,6 @@ _detalhes_database = {
 							["total"] = 315.001994,
 							["nome"] = "邁克爾假死",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[57669] = {
 										["total"] = 60,
@@ -454,38 +453,38 @@ _detalhes_database = {
 										["counter"] = 3,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["spec"] = 255,
+							["totalover"] = 0.001994,
 							["flag_original"] = 1297,
-							["alternatepower"] = 0.001994,
+							["tipo"] = 3,
 							["last_event"] = 1670125624,
 							["aID"] = "4487-0008386D",
-							["tipo"] = 3,
+							["alternatepower"] = 0.001994,
 							["serial"] = "Player-4487-0008386D",
-							["totalover"] = 0.001994,
+							["spec"] = 255,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1592,
 					["tipo"] = 9,
+					["combatId"] = 1592,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[60053] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 60053,
+										["uptime"] = 2,
 										["targets"] = {
 										},
-										["uptime"] = 2,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[53338] = {
 										["activedamt"] = -1,
@@ -494,50 +493,50 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670125624,
 										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 									[49050] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 49050,
+										["uptime"] = 0,
 										["targets"] = {
 										},
-										["uptime"] = 0,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 45,
 							["aID"] = "4487-0008386D",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[34837] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 34837,
+										["uptime"] = 3,
 										["targets"] = {
 										},
-										["uptime"] = 3,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[34501] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 2,
 										["id"] = 34501,
+										["uptime"] = 2,
 										["targets"] = {
 										},
-										["uptime"] = 2,
 										["appliedamt"] = 1,
-										["refreshamt"] = 2,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[57669] = {
 										["activedamt"] = 1,
@@ -546,65 +545,65 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670125620,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = true,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[61847] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 61847,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[64420] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 64420,
-										["targets"] = {
-										},
 										["uptime"] = 5,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[34027] = {
-										["activedamt"] = 0,
-										["id"] = 34027,
 										["targets"] = {
 										},
-										["uptime"] = 0,
-										["appliedamt"] = 0,
-										["refreshamt"] = 0,
-										["actived"] = false,
+										["appliedamt"] = 1,
+									},
+									[57940] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 57940,
+										["uptime"] = 5,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 									[64495] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 64495,
+										["uptime"] = 20,
 										["targets"] = {
 										},
-										["uptime"] = 20,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[57819] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 57819,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[34026] = {
 										["activedamt"] = 1,
@@ -613,23 +612,24 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670125622,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = true,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
-									[57940] = {
-										["activedamt"] = 1,
-										["id"] = 57940,
+									[34027] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 34027,
+										["uptime"] = 0,
 										["targets"] = {
 										},
-										["uptime"] = 5,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 2,
 							["nome"] = "邁克爾假死",
@@ -637,59 +637,59 @@ _detalhes_database = {
 							["grupo"] = true,
 							["spell_cast"] = {
 								[60053] = 1,
+								[75] = 1,
 								[49050] = 1,
 								[34026] = 1,
-								[75] = 1,
 							},
-							["debuff_uptime_targets"] = {
-							},
+							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
 							["last_event"] = 1670125643,
+							["classe"] = "HUNTER",
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["classe"] = "HUNTER",
 							["serial"] = "Player-4487-0008386D",
-							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["monster"] = true,
+							["last_event"] = 0,
 							["nome"] = "雷铸抢劫者",
-							["flag_original"] = 68168,
+							["aID"] = "29586",
 							["spell_cast"] = {
 								[52701] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
 							["pets"] = {
 							},
-							["tipo"] = 4,
 							["serial"] = "Creature-0-4491-571-14248-29586-00000C1829",
-							["aID"] = "29586",
+							["flag_original"] = 68168,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
+							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
 							["pets"] = {
 							},
+							["last_event"] = 0,
 							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-4491-571-14248-30164-0100082C0F",
 							["spell_cast"] = {
 								[52474] = 2,
 								[64495] = 1,
 							},
-							["tipo"] = 4,
-							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
-							["serial"] = "Pet-0-4491-571-14248-30164-0100082C0F",
-							["last_event"] = 0,
 						}, -- [3]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1592,
 					["tipo"] = 2,
+					["combatId"] = 1592,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -699,35 +699,37 @@ _detalhes_database = {
 				["raid_roster_indexed"] = {
 					"邁克爾假死", -- [1]
 				},
-				["tempo_start"] = 1670125620,
+				["overall_added"] = true,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 4912,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					15129.976032, -- [1]
-					-0.08671899999999999, -- [2]
+					-0.115626, -- [2]
 					{
 						0, -- [1]
 						[0] = 314.9955719999998,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["totals_grupo"] = {
 					13857, -- [1]
@@ -736,22 +738,23 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 315,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["data_fim"] = "11:47:06",
 				["cleu_timeline"] = {
 				},
@@ -762,11 +765,28 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
+				["data_inicio"] = "11:47:01",
+				["end_time"] = 859.884,
+				["combat_id"] = 1592,
+				["player_last_events"] = {
+				},
+				["tempo_start"] = 1670125620,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "雷铸抢劫者",
+				["combat_counter"] = 4912,
+				["CombatSkillCache"] = {
+				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage"] = {
+						{
+							["邁克爾假死"] = 15130.004334,
+						}, -- [1]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -776,37 +796,18 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["邁克爾假死"] = 15130.004334,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 859.884,
-				["combat_id"] = 1592,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["player_last_events"] = {
-				},
-				["data_inicio"] = "11:47:01",
-				["CombatSkillCache"] = {
-				},
-				["frags"] = {
-					["雷铸抢劫者"] = 1,
 				},
 				["start_time"] = 855.016,
 				["TimeData"] = {
 				},
-				["contra"] = "雷铸抢劫者",
+				["frags"] = {
+					["雷铸抢劫者"] = 1,
+				},
 			}, -- [1]
 			{
 				{
-					["combatId"] = 1591,
 					["tipo"] = 2,
+					["combatId"] = 1591,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -819,22 +820,24 @@ _detalhes_database = {
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["total"] = 14187.004169,
-							["on_hold"] = false,
-							["aID"] = "4487-0008386D",
+							["classe"] = "HUNTER",
+							["last_dps"] = 3006.358162534475,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 12244.004169,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_event"] = 1670125608,
+							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1670125608,
-							["classe"] = "HUNTER",
-							["friendlyfire_total"] = 0,
+							["aID"] = "4487-0008386D",
+							["damage_taken"] = 0.004169,
 							["nome"] = "邁克爾假死",
+							["spec"] = 255,
+							["grupo"] = true,
+							["total"] = 14187.004169,
+							["custom"] = 0,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[61006] = {
 										["c_amt"] = 0,
@@ -853,16 +856,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 61006,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[53352] = {
 										["c_amt"] = 2,
@@ -881,16 +884,16 @@ _detalhes_database = {
 										["c_max"] = 2908,
 										["id"] = 53352,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 2908,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
 									},
 									[75] = {
 										["c_amt"] = 1,
@@ -909,29 +912,27 @@ _detalhes_database = {
 										["c_max"] = 1886,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 1886,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 255,
-							["serial"] = "Player-4487-0008386D",
-							["last_dps"] = 3006.358162534475,
-							["custom"] = 0,
+							["colocacao"] = 1,
 							["tipo"] = 1,
-							["damage_taken"] = 0.004169,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1670125603,
-							["delay"] = 0,
-							["last_event"] = 1670125608,
+							["serial"] = "Player-4487-0008386D",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -942,22 +943,21 @@ _detalhes_database = {
 							["targets"] = {
 								["雷铸抢劫者"] = 1943,
 							},
-							["total"] = 1943.004558,
 							["pets"] = {
 							},
+							["tipo"] = 1,
+							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
 							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1943.004558,
-							["on_hold"] = false,
-							["serial"] = "Pet-0-4491-571-14248-30164-0100082C0F",
+							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1670125608,
+							["total"] = 1943.004558,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -976,16 +976,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 242,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["b_dmg"] = 242,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 									[52474] = {
 										["c_amt"] = 2,
@@ -1004,34 +1004,34 @@ _detalhes_database = {
 										["c_max"] = 560,
 										["id"] = 52474,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 547,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
+							["damage_taken"] = 440.004558,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1670125607,
-							["damage_taken"] = 440.004558,
+							["on_hold"] = false,
 							["start_time"] = 1670125604,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Pet-0-4491-571-14248-30164-0100082C0F",
+							["end_time"] = 1670125608,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.001779,
-							["total"] = 440.001779,
 							["damage_from"] = {
 								["邁克爾假死"] = true,
 								["全球頂級投資家 <邁克爾假死>"] = true,
@@ -1039,23 +1039,22 @@ _detalhes_database = {
 							["targets"] = {
 								["全球頂級投資家 <邁克爾假死>"] = 440,
 							},
+							["delay"] = 0,
 							["pets"] = {
 							},
-							["monster"] = true,
-							["fight_component"] = true,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 440.001779,
-							["on_hold"] = false,
-							["dps_started"] = false,
 							["end_time"] = 1670125608,
+							["monster"] = true,
+							["total"] = 440.001779,
+							["damage_taken"] = 14187.001779,
 							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
 							["nome"] = "雷铸抢劫者",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -1074,17 +1073,17 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["MISS"] = 1,
-										["spellschool"] = 1,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["MISS"] = 1,
 									}, -- [1]
 									[52701] = {
 										["c_amt"] = 0,
@@ -1102,15 +1101,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 52701,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 									[52700] = {
 										["c_amt"] = 0,
@@ -1129,40 +1128,42 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 52700,
 										["r_dmg"] = 440,
-										["spellschool"] = 8,
-										["extra"] = {
-										},
+										["r_amt"] = 1,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 8,
 									},
 								},
+								["tipo"] = 2,
 							},
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
 							["aID"] = "29586",
-							["serial"] = "Creature-0-4491-571-14248-29586-00008C17E7",
-							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1670125606,
-							["damage_taken"] = 14187.001779,
+							["on_hold"] = false,
 							["start_time"] = 1670125606,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Creature-0-4491-571-14248-29586-00008C17E7",
+							["fight_component"] = true,
 						}, -- [3]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1591,
 					["tipo"] = 3,
+					["combatId"] = 1591,
 					["_ActorTable"] = {
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1591,
 					["tipo"] = 7,
+					["combatId"] = 1591,
 					["_ActorTable"] = {
 						{
 							["received"] = 421.001389,
@@ -1178,7 +1179,6 @@ _detalhes_database = {
 							["total"] = 421.001389,
 							["nome"] = "邁克爾假死",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[57669] = {
 										["total"] = 327,
@@ -1199,124 +1199,125 @@ _detalhes_database = {
 										["counter"] = 2,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["spec"] = 255,
+							["totalover"] = 0.001389,
 							["flag_original"] = 1297,
-							["alternatepower"] = 0.001389,
+							["tipo"] = 3,
 							["last_event"] = 1670125619,
 							["aID"] = "4487-0008386D",
-							["tipo"] = 3,
+							["alternatepower"] = 0.001389,
 							["serial"] = "Player-4487-0008386D",
-							["totalover"] = 0.001389,
+							["spec"] = 255,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1591,
 					["tipo"] = 9,
+					["combatId"] = 1591,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[60053] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 60053,
+										["uptime"] = 2,
 										["targets"] = {
 										},
-										["uptime"] = 2,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 40,
 							["aID"] = "4487-0008386D",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[57819] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 57819,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[57940] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 57940,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[57669] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 57669,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[34501] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 2,
+										["refreshamt"] = 0,
 										["id"] = 34501,
+										["uptime"] = 4,
 										["targets"] = {
 										},
-										["uptime"] = 4,
 										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[61847] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
-										["id"] = 61847,
-										["targets"] = {
-										},
-										["uptime"] = 5,
-										["appliedamt"] = 1,
 										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[70893] = {
-										["activedamt"] = 1,
-										["id"] = 70893,
+										["id"] = 61847,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 11,
 										["appliedamt"] = 1,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[64420] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 64420,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
+									},
+									[70893] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 1,
+										["id"] = 70893,
+										["uptime"] = 11,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 2,
 							["nome"] = "邁克爾假死",
@@ -1327,54 +1328,54 @@ _detalhes_database = {
 								[61006] = 1,
 								[75] = 1,
 							},
-							["debuff_uptime_targets"] = {
-							},
+							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
 							["last_event"] = 1670125616,
+							["classe"] = "HUNTER",
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["classe"] = "HUNTER",
 							["serial"] = "Player-4487-0008386D",
-							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["monster"] = true,
+							["last_event"] = 0,
 							["nome"] = "雷铸抢劫者",
-							["flag_original"] = 2632,
+							["aID"] = "29586",
 							["spell_cast"] = {
 								[52701] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
 							["pets"] = {
 							},
-							["tipo"] = 4,
 							["serial"] = "Creature-0-4491-571-14248-29586-00008C17E7",
-							["aID"] = "29586",
+							["flag_original"] = 2632,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
+							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
 							["pets"] = {
 							},
+							["last_event"] = 0,
 							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-4491-571-14248-30164-0100082C0F",
 							["spell_cast"] = {
 								[52474] = 2,
 							},
-							["tipo"] = 4,
-							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
-							["serial"] = "Pet-0-4491-571-14248-30164-0100082C0F",
-							["last_event"] = 0,
 						}, -- [3]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1591,
 					["tipo"] = 2,
+					["combatId"] = 1591,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -1385,12 +1386,14 @@ _detalhes_database = {
 					"邁克爾假死", -- [1]
 				},
 				["CombatStartedAt"] = 854.45,
-				["overall_added"] = true,
+				["tempo_start"] = 1670125603,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 4911,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					14626.986403, -- [1]
@@ -1399,26 +1402,46 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 421,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = -0.008321999999999719,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
-				["player_last_events"] = {
+				["totals_grupo"] = {
+					12244, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 421,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["data_fim"] = "11:46:49",
 				["cleu_timeline"] = {
 				},
@@ -1429,43 +1452,16 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "11:46:44",
-				["end_time"] = 843.294,
-				["combat_id"] = 1591,
-				["tempo_start"] = 1670125603,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["frags"] = {
-					["雷铸学者"] = 1,
-					["雷铸抢劫者"] = 1,
-				},
-				["totals_grupo"] = {
-					12244, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 421,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage"] = {
+						{
+							["邁克爾假死"] = 14187.004169,
+						}, -- [1]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -1474,25 +1470,31 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["邁克爾假死"] = 14187.004169,
-						}, -- [1]
-					},
+				},
+				["end_time"] = 843.294,
+				["combat_id"] = 1591,
+				["overall_added"] = true,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["雷铸学者"] = 1,
+					["雷铸抢劫者"] = 1,
+				},
+				["combat_counter"] = 4911,
+				["player_last_events"] = {
 				},
 				["CombatSkillCache"] = {
 				},
-				["spells_cast_timeline"] = {
-				},
+				["data_inicio"] = "11:46:44",
 				["start_time"] = 838.575,
 				["contra"] = "雷铸抢劫者",
-				["TimeData"] = {
+				["spells_cast_timeline"] = {
 				},
 			}, -- [2]
 			{
 				{
-					["combatId"] = 1590,
 					["tipo"] = 2,
+					["combatId"] = 1590,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1300,
@@ -1505,23 +1507,52 @@ _detalhes_database = {
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["spec"] = 255,
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
+							["classe"] = "HUNTER",
+							["last_dps"] = 2630.928526647104,
+							["aID"] = "4487-0008386D",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10406.005358,
-							["end_time"] = 1670125600,
-							["colocacao"] = 1,
+							["tipo"] = 1,
+							["delay"] = 0,
 							["dps_started"] = false,
 							["total"] = 12539.005358,
-							["aID"] = "4487-0008386D",
-							["classe"] = "HUNTER",
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 0.005358,
 							["nome"] = "邁克爾假死",
+							["spec"] = 255,
+							["grupo"] = true,
+							["end_time"] = 1670125600,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
+									[53352] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 6035,
+										["g_amt"] = 0,
+										["n_max"] = 1269,
+										["targets"] = {
+											["雷铸学者"] = 7304,
+										},
+										["n_dmg"] = 1269,
+										["n_min"] = 1269,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 7304,
+										["c_max"] = 3018,
+										["id"] = 53352,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 3017,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
+									},
 									[49050] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
@@ -1539,16 +1570,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 49050,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[75] = {
 										["c_amt"] = 0,
@@ -1567,62 +1598,32 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[53352] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 6035,
-										["g_amt"] = 0,
-										["n_max"] = 1269,
-										["targets"] = {
-											["雷铸学者"] = 7304,
-										},
-										["n_dmg"] = 1269,
-										["n_min"] = 1269,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 7304,
-										["c_max"] = 3018,
-										["id"] = 53352,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
-										["c_min"] = 3017,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["on_hold"] = false,
-							["serial"] = "Player-4487-0008386D",
-							["last_dps"] = 2630.928526647104,
 							["custom"] = 0,
+							["colocacao"] = 1,
 							["last_event"] = 1670125599,
-							["damage_taken"] = 0.005358,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1670125595,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Player-4487-0008386D",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["totalabsorbed"] = 0.008372,
-							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
 							["damage_from"] = {
 								["雷铸学者"] = true,
 							},
@@ -1631,20 +1632,19 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
-							["end_time"] = 1670125600,
-							["classe"] = "PET",
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2133.008372,
-							["serial"] = "Pet-0-4491-571-14248-30164-0100082C0F",
+							["delay"] = 0,
 							["dps_started"] = false,
+							["end_time"] = 1670125600,
 							["total"] = 2133.008372,
-							["friendlyfire_total"] = 0,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -1663,16 +1663,16 @@ _detalhes_database = {
 										["c_max"] = 611,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 611,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 									[52474] = {
 										["c_amt"] = 0,
@@ -1691,58 +1691,59 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 52474,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
+								["tipo"] = 2,
 							},
+							["damage_taken"] = 486.008372,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1670125598,
-							["damage_taken"] = 486.008372,
+							["on_hold"] = false,
 							["start_time"] = 1670125595,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Pet-0-4491-571-14248-30164-0100082C0F",
+							["classe"] = "PET",
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.003503,
-							["aID"] = "29843",
 							["damage_from"] = {
 								["邁克爾假死"] = true,
-								["樂園流放"] = true,
 								["全球頂級投資家 <邁克爾假死>"] = true,
+								["樂園流放"] = true,
 							},
 							["targets"] = {
-								["樂園流放"] = 141,
 								["全球頂級投資家 <邁克爾假死>"] = 486,
+								["樂園流放"] = 141,
 							},
-							["end_time"] = 1670125603,
+							["delay"] = 0,
 							["pets"] = {
 							},
-							["fight_component"] = true,
-							["classe"] = "UNKNOW",
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["aID"] = "29843",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 627.003503,
-							["monster"] = true,
 							["dps_started"] = false,
+							["fight_component"] = true,
+							["end_time"] = 1670125603,
+							["damage_taken"] = 14197.003503,
 							["total"] = 627.003503,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
 							["nome"] = "雷铸学者",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -1751,8 +1752,8 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 218,
 										["targets"] = {
-											["樂園流放"] = 141,
 											["全球頂級投資家 <邁克爾假死>"] = 218,
+											["樂園流放"] = 141,
 										},
 										["n_dmg"] = 359,
 										["n_min"] = 141,
@@ -1762,16 +1763,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 									[12550] = {
 										["c_amt"] = 0,
@@ -1790,45 +1791,46 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 12550,
 										["r_dmg"] = 110,
-										["spellschool"] = 8,
-										["extra"] = {
-										},
+										["r_amt"] = 1,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 8,
 									},
 								},
+								["tipo"] = 2,
 							},
+							["friendlyfire_total"] = 0,
+							["monster"] = true,
 							["friendlyfire"] = {
 							},
-							["serial"] = "Creature-0-4491-571-14248-29843-00000C17CC",
-							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1670125602,
-							["damage_taken"] = 14197.003503,
+							["on_hold"] = false,
 							["start_time"] = 1670125595,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Creature-0-4491-571-14248-29843-00000C17CC",
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1590,
 					["tipo"] = 3,
+					["combatId"] = 1590,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1300,
-							["targets_overheal"] = {
+							["healing_from"] = {
 							},
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "HUNTER",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.001349,
 							["total_without_pet"] = 0.001349,
 							["total"] = 130.001349,
@@ -1846,33 +1848,34 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.001349,
 							["healing_taken"] = 0.001349,
 							["end_time"] = 1670125600,
-							["healing_from"] = {
+							["last_event"] = 1670125599,
+							["targets_overheal"] = {
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "邁克爾假死",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1670125599,
-							["spec"] = 255,
-							["custom"] = 0,
-							["tipo"] = 2,
 							["aID"] = "4487-0008386D",
 							["totaldenied"] = 0.001349,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["classe"] = "HUNTER",
+							["start_time"] = 1670125599,
 							["delay"] = 0,
-							["last_event"] = 1670125599,
+							["spec"] = 255,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
-							["targets_overheal"] = {
+							["healing_from"] = {
+								["全球頂級投資家 <邁克爾假死>"] = true,
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
 							["totalover"] = 0.008174,
 							["total_without_pet"] = 130.008174,
 							["total"] = 130.008174,
@@ -1891,13 +1894,9 @@ _detalhes_database = {
 							["healing_taken"] = 130.008174,
 							["fight_component"] = true,
 							["end_time"] = 1670125600,
-							["healing_from"] = {
-								["全球頂級投資家 <邁克爾假死>"] = true,
-							},
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[54131] = {
 										["c_amt"] = 0,
@@ -1918,27 +1917,30 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
+										["n_amt"] = 1,
 										["n_curado"] = 130,
 										["totaldenied"] = 0,
-										["n_amt"] = 1,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["start_time"] = 1670125599,
-							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
+							["targets_overheal"] = {
+							},
+							["last_event"] = 1670125599,
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "PET",
 							["totaldenied"] = 0.008174,
+							["start_time"] = 1670125599,
 							["delay"] = 0,
-							["last_event"] = 1670125599,
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1590,
 					["tipo"] = 7,
+					["combatId"] = 1590,
 					["_ActorTable"] = {
 						{
 							["received"] = 238.002305,
@@ -1954,7 +1956,6 @@ _detalhes_database = {
 							["total"] = 238.002305,
 							["nome"] = "邁克爾假死",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[57669] = {
 										["total"] = 144,
@@ -1975,135 +1976,136 @@ _detalhes_database = {
 										["counter"] = 2,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["spec"] = 255,
+							["totalover"] = 0.002305,
 							["flag_original"] = 1297,
-							["alternatepower"] = 0.002305,
+							["tipo"] = 3,
 							["last_event"] = 1670125602,
 							["aID"] = "4487-0008386D",
-							["tipo"] = 3,
+							["alternatepower"] = 0.002305,
 							["serial"] = "Player-4487-0008386D",
-							["totalover"] = 0.002305,
+							["spec"] = 255,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1590,
 					["tipo"] = 9,
+					["combatId"] = 1590,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[60053] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 60053,
+										["uptime"] = 2,
 										["targets"] = {
 										},
-										["uptime"] = 2,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[49050] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 49050,
+										["uptime"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 1,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 28,
 							["aID"] = "4487-0008386D",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[57819] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 57819,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[57940] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 57940,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[57669] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 57669,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[34501] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 1,
 										["id"] = 34501,
+										["uptime"] = 3,
 										["targets"] = {
 										},
-										["uptime"] = 3,
 										["appliedamt"] = 1,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[61847] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 61847,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[64495] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 64495,
+										["uptime"] = 0,
 										["targets"] = {
 										},
-										["uptime"] = 0,
 										["appliedamt"] = 0,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[64420] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 64420,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 3,
 							["nome"] = "邁克爾假死",
@@ -2111,43 +2113,43 @@ _detalhes_database = {
 							["grupo"] = true,
 							["spell_cast"] = {
 								[60053] = 1,
+								[75] = 2,
 								[49050] = 1,
 								[58074] = 1,
-								[75] = 2,
 							},
-							["debuff_uptime_targets"] = {
-							},
+							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
 							["last_event"] = 1670125602,
+							["classe"] = "HUNTER",
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["classe"] = "HUNTER",
 							["serial"] = "Player-4487-0008386D",
-							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
+							["tipo"] = 4,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
-							["classe"] = "PET",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[52474] = 3,
 							},
-							["tipo"] = 4,
+							["classe"] = "PET",
 							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
 							["serial"] = "Pet-0-4491-571-14248-30164-0100082C0F",
-							["last_event"] = 0,
+							["fight_component"] = true,
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1590,
 					["tipo"] = 2,
+					["combatId"] = 1590,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -2158,12 +2160,14 @@ _detalhes_database = {
 					"邁克爾假死", -- [1]
 				},
 				["CombatStartedAt"] = 837.871,
-				["overall_added"] = true,
+				["tempo_start"] = 1670125595,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 4910,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					13165.991349, -- [1]
@@ -2172,26 +2176,46 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 238,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = -0.003728999999999871,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
-				["player_last_events"] = {
+				["totals_grupo"] = {
+					10406, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 238,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["data_fim"] = "11:46:40",
 				["cleu_timeline"] = {
 				},
@@ -2202,42 +2226,16 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "11:46:36",
-				["end_time"] = 834.784,
-				["combat_id"] = 1590,
-				["tempo_start"] = 1670125595,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["frags"] = {
-					["雷铸学者"] = 1,
-				},
-				["totals_grupo"] = {
-					10406, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 238,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage"] = {
+						{
+							["邁克爾假死"] = 12539.005358,
+						}, -- [1]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -2247,25 +2245,30 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["邁克爾假死"] = 12539.005358,
-						}, -- [1]
-					},
+				},
+				["end_time"] = 834.784,
+				["combat_id"] = 1590,
+				["overall_added"] = true,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["雷铸学者"] = 1,
+				},
+				["combat_counter"] = 4910,
+				["player_last_events"] = {
 				},
 				["CombatSkillCache"] = {
 				},
-				["spells_cast_timeline"] = {
-				},
+				["data_inicio"] = "11:46:36",
 				["start_time"] = 830.018,
 				["contra"] = "雷铸学者",
-				["TimeData"] = {
+				["spells_cast_timeline"] = {
 				},
 			}, -- [3]
 			{
 				{
-					["combatId"] = 1589,
 					["tipo"] = 2,
+					["combatId"] = 1589,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -2280,22 +2283,23 @@ _detalhes_database = {
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["spec"] = 255,
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
+							["classe"] = "HUNTER",
+							["last_dps"] = 1638.165900930855,
+							["aID"] = "4487-0008386D",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10004.007575,
-							["end_time"] = 1670125589,
-							["colocacao"] = 1,
+							["tipo"] = 1,
+							["delay"] = 0,
 							["dps_started"] = false,
 							["total"] = 12319.007575,
-							["aID"] = "4487-0008386D",
-							["classe"] = "HUNTER",
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 776.007575,
 							["nome"] = "邁克爾假死",
+							["spec"] = 255,
+							["grupo"] = true,
+							["end_time"] = 1670125589,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -2317,17 +2321,17 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["MISS"] = 1,
-										["spellschool"] = 1,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["MISS"] = 1,
 									}, -- [1]
 									[53339] = {
 										["c_amt"] = 1,
@@ -2346,78 +2350,16 @@ _detalhes_database = {
 										["c_max"] = 1475,
 										["id"] = 53339,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 1475,
 										["a_dmg"] = 0,
 										["c_min"] = 1475,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 1475,
-										["r_amt"] = 0,
-									},
-									[53352] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 2936,
-										["g_amt"] = 0,
-										["n_max"] = 1235,
-										["targets"] = {
-											["雷铸抢劫者"] = 5406,
-										},
-										["n_dmg"] = 2470,
-										["n_min"] = 1235,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["ChartData"] = {
-											[5] = 5406,
-										},
-										["total"] = 5406,
-										["c_max"] = 2936,
-										["id"] = 53352,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
-										["c_min"] = 2936,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[75] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 974,
-										["targets"] = {
-											["雷铸抢劫者"] = 1931,
-										},
-										["n_dmg"] = 1931,
-										["n_min"] = 957,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["ChartData"] = {
-											[5] = 1931,
-										},
-										["total"] = 1931,
-										["c_max"] = 0,
-										["id"] = 75,
-										["r_dmg"] = 0,
 										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
 									},
 									[49050] = {
 										["c_amt"] = 0,
@@ -2439,29 +2381,90 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 49050,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[53352] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 2936,
+										["g_amt"] = 0,
+										["n_max"] = 1235,
+										["targets"] = {
+											["雷铸抢劫者"] = 5406,
+										},
+										["n_dmg"] = 2470,
+										["n_min"] = 1235,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["ChartData"] = {
+											[5] = 5406,
+										},
+										["total"] = 5406,
+										["c_max"] = 2936,
+										["id"] = 53352,
+										["r_dmg"] = 0,
 										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 2936,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
+									},
+									[75] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 974,
+										["targets"] = {
+											["雷铸抢劫者"] = 1931,
+										},
+										["n_dmg"] = 1931,
+										["n_min"] = 957,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["ChartData"] = {
+											[5] = 1931,
+										},
+										["total"] = 1931,
+										["c_max"] = 0,
+										["id"] = 75,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["on_hold"] = false,
-							["serial"] = "Player-4487-0008386D",
-							["last_dps"] = 1638.165900930855,
 							["custom"] = 0,
+							["colocacao"] = 1,
 							["last_event"] = 1670125588,
-							["damage_taken"] = 776.007575,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1670125582,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Player-4487-0008386D",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -2472,22 +2475,21 @@ _detalhes_database = {
 							["targets"] = {
 								["雷铸抢劫者"] = 2315,
 							},
-							["total"] = 2315.007001,
 							["pets"] = {
 							},
+							["tipo"] = 1,
+							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
 							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2315.007001,
-							["on_hold"] = false,
-							["serial"] = "Pet-0-4491-571-14248-30164-0100082C0F",
+							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1670125589,
+							["total"] = 2315.007001,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -2506,16 +2508,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 4,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 									[52474] = {
 										["c_amt"] = 0,
@@ -2534,34 +2536,34 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 52474,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
+							["damage_taken"] = 228.007001,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1670125588,
-							["damage_taken"] = 228.007001,
+							["on_hold"] = false,
 							["start_time"] = 1670125583,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Pet-0-4491-571-14248-30164-0100082C0F",
+							["end_time"] = 1670125589,
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.001835,
-							["total"] = 804.001835,
 							["damage_from"] = {
 								["邁克爾假死"] = true,
 								["全球頂級投資家 <邁克爾假死>"] = true,
@@ -2570,23 +2572,22 @@ _detalhes_database = {
 								["邁克爾假死"] = 576,
 								["全球頂級投資家 <邁克爾假死>"] = 228,
 							},
+							["delay"] = 0,
 							["pets"] = {
 							},
-							["monster"] = true,
-							["fight_component"] = true,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 804.001835,
-							["on_hold"] = false,
-							["dps_started"] = false,
 							["end_time"] = 1670125589,
+							["monster"] = true,
+							["total"] = 804.001835,
+							["damage_taken"] = 12319.001835,
 							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
 							["nome"] = "雷铸抢劫者",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -2607,29 +2608,31 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["MISS"] = 4,
-										["spellschool"] = 1,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["MISS"] = 4,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
 							["aID"] = "29586",
-							["serial"] = "Creature-0-4491-571-14248-29586-00000C17CC",
-							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1670125587,
-							["damage_taken"] = 12319.001835,
+							["on_hold"] = false,
 							["start_time"] = 1670125581,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Creature-0-4491-571-14248-29586-00000C17CC",
+							["fight_component"] = true,
 						}, -- [3]
 						{
 							["flag_original"] = -2147483648,
@@ -2641,19 +2644,19 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 200.002679,
-							["on_hold"] = false,
+							["delay"] = 0,
 							["fight_component"] = true,
-							["dps_started"] = false,
 							["end_time"] = 1670125589,
-							["friendlyfire_total"] = 0,
 							["aID"] = "",
+							["damage_taken"] = 0.002679,
 							["nome"] = "环境伤害 (坠落)",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[3] = {
 										["c_amt"] = 0,
@@ -2672,46 +2675,46 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 3,
 										["r_dmg"] = 0,
-										["spellschool"] = 3,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 3,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["total"] = 200.002679,
-							["serial"] = "",
+							["last_dps"] = 0,
 							["friendlyfire"] = {
 							},
-							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1670125582,
-							["damage_taken"] = 0.002679,
+							["on_hold"] = false,
 							["start_time"] = 1670125582,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "",
+							["dps_started"] = false,
 						}, -- [4]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1589,
 					["tipo"] = 3,
+					["combatId"] = 1589,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1300,
-							["targets_overheal"] = {
+							["healing_from"] = {
 							},
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "HUNTER",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 292.008324,
 							["total_without_pet"] = 0.008324,
 							["total"] = 228.008324,
@@ -2729,34 +2732,34 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.008324,
 							["healing_taken"] = 0.008324,
 							["end_time"] = 1670125589,
-							["healing_from"] = {
+							["last_event"] = 1670125589,
+							["targets_overheal"] = {
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "邁克爾假死",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1670125586,
-							["spec"] = 255,
-							["custom"] = 0,
-							["tipo"] = 2,
 							["aID"] = "4487-0008386D",
 							["totaldenied"] = 0.008324,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["classe"] = "HUNTER",
+							["start_time"] = 1670125586,
 							["delay"] = 0,
-							["last_event"] = 1670125589,
+							["spec"] = 255,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
-							["targets_overheal"] = {
-								["全球頂級投資家 <邁克爾假死>"] = 292,
+							["healing_from"] = {
+								["全球頂級投資家 <邁克爾假死>"] = true,
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
 							["totalover"] = 292.006863,
 							["total_without_pet"] = 228.006863,
 							["total"] = 228.006863,
@@ -2775,13 +2778,9 @@ _detalhes_database = {
 							["healing_taken"] = 228.006863,
 							["fight_component"] = true,
 							["end_time"] = 1670125589,
-							["healing_from"] = {
-								["全球頂級投資家 <邁克爾假死>"] = true,
-							},
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[54131] = {
 										["c_amt"] = 0,
@@ -2803,27 +2802,31 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
+										["n_amt"] = 4,
 										["n_curado"] = 228,
 										["totaldenied"] = 0,
-										["n_amt"] = 4,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["start_time"] = 1670125586,
-							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
+							["targets_overheal"] = {
+								["全球頂級投資家 <邁克爾假死>"] = 292,
+							},
+							["last_event"] = 1670125589,
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "PET",
 							["totaldenied"] = 0.006863,
+							["start_time"] = 1670125586,
 							["delay"] = 0,
-							["last_event"] = 1670125589,
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1589,
 					["tipo"] = 7,
+					["combatId"] = 1589,
 					["_ActorTable"] = {
 						{
 							["received"] = 228.002619,
@@ -2839,7 +2842,6 @@ _detalhes_database = {
 							["total"] = 228.002619,
 							["nome"] = "邁克爾假死",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[57669] = {
 										["total"] = 181,
@@ -2860,111 +2862,111 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["spec"] = 255,
+							["totalover"] = 0.002619,
 							["flag_original"] = 1297,
-							["alternatepower"] = 0.002619,
+							["tipo"] = 3,
 							["last_event"] = 1670125595,
 							["aID"] = "4487-0008386D",
-							["tipo"] = 3,
+							["alternatepower"] = 0.002619,
 							["serial"] = "Player-4487-0008386D",
-							["totalover"] = 0.002619,
+							["spec"] = 255,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1589,
 					["tipo"] = 9,
+					["combatId"] = 1589,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[60053] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 60053,
+										["uptime"] = 2,
 										["targets"] = {
 										},
-										["uptime"] = 2,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[53338] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 53338,
+										["uptime"] = 6,
 										["targets"] = {
 										},
-										["uptime"] = 6,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[49050] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 49050,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 34,
 							["aID"] = "4487-0008386D",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[57819] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 57819,
+										["uptime"] = 8,
 										["targets"] = {
 										},
-										["uptime"] = 8,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[57940] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 57940,
+										["uptime"] = 8,
 										["targets"] = {
 										},
-										["uptime"] = 8,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[57669] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 57669,
+										["uptime"] = 8,
 										["targets"] = {
 										},
-										["uptime"] = 8,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[34501] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 34501,
+										["uptime"] = 2,
 										["targets"] = {
 										},
-										["uptime"] = 2,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[34027] = {
 										["activedamt"] = 1,
@@ -2973,21 +2975,21 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670125581,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = true,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[61847] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 61847,
+										["uptime"] = 8,
 										["targets"] = {
 										},
-										["uptime"] = 8,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[64495] = {
 										["activedamt"] = 1,
@@ -2996,23 +2998,24 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670125582,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = true,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[34026] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 34026,
+										["uptime"] = 0,
 										["targets"] = {
 										},
-										["uptime"] = 0,
 										["appliedamt"] = 0,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 13,
 							["nome"] = "邁克爾假死",
@@ -3025,40 +3028,40 @@ _detalhes_database = {
 								[53338] = 1,
 								[60053] = 1,
 							},
-							["debuff_uptime_targets"] = {
-							},
+							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
 							["last_event"] = 1670125589,
+							["classe"] = "HUNTER",
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["classe"] = "HUNTER",
 							["serial"] = "Player-4487-0008386D",
-							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
+							["tipo"] = 4,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
-							["classe"] = "PET",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[64495] = 1,
 								[52474] = 3,
 							},
-							["tipo"] = 4,
+							["classe"] = "PET",
 							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
 							["serial"] = "Pet-0-4491-571-14248-30164-0100082C0F",
-							["last_event"] = 0,
+							["fight_component"] = true,
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1589,
 					["tipo"] = 2,
+					["combatId"] = 1589,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -3068,12 +3071,14 @@ _detalhes_database = {
 				["raid_roster_indexed"] = {
 					"邁克爾假死", -- [1]
 				},
-				["tempo_start"] = 1670125581,
+				["overall_added"] = true,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 4909,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					13322.990211, -- [1]
@@ -3082,21 +3087,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 228,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = -0.007457000000002267,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["totals_grupo"] = {
 					10004, -- [1]
@@ -3105,22 +3110,23 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 228,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["data_fim"] = "11:46:30",
 				["cleu_timeline"] = {
 				},
@@ -3131,11 +3137,28 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
+				["data_inicio"] = "11:46:22",
+				["end_time"] = 824.184,
+				["combat_id"] = 1589,
+				["player_last_events"] = {
+				},
+				["tempo_start"] = 1670125581,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "雷铸抢劫者",
+				["combat_counter"] = 4909,
+				["CombatSkillCache"] = {
+				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage"] = {
+						{
+							["邁克爾假死"] = 12319.007575,
+						}, -- [1]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -3145,37 +3168,18 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["邁克爾假死"] = 12319.007575,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 824.184,
-				["combat_id"] = 1589,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["player_last_events"] = {
-				},
-				["data_inicio"] = "11:46:22",
-				["CombatSkillCache"] = {
-				},
-				["frags"] = {
-					["雷铸抢劫者"] = 1,
 				},
 				["start_time"] = 816.664,
 				["TimeData"] = {
 				},
-				["contra"] = "雷铸抢劫者",
+				["frags"] = {
+					["雷铸抢劫者"] = 1,
+				},
 			}, -- [4]
 			{
 				{
-					["combatId"] = 1588,
 					["tipo"] = 2,
+					["combatId"] = 1588,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -3188,23 +3192,53 @@ _detalhes_database = {
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["total"] = 12312.001228,
-							["on_hold"] = false,
-							["aID"] = "4487-0008386D",
+							["classe"] = "HUNTER",
+							["last_dps"] = 4269.071160887635,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 11544.001228,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_event"] = 1670125567,
+							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1670125568,
-							["classe"] = "HUNTER",
-							["friendlyfire_total"] = 0,
+							["aID"] = "4487-0008386D",
+							["damage_taken"] = 0.001228,
 							["nome"] = "邁克爾假死",
+							["spec"] = 255,
+							["grupo"] = true,
+							["total"] = 12312.001228,
+							["custom"] = 0,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
+									[53352] = {
+										["c_amt"] = 2,
+										["b_amt"] = 1,
+										["c_dmg"] = 6532,
+										["g_amt"] = 0,
+										["n_max"] = 1387,
+										["targets"] = {
+											["雷铸抢劫者"] = 7919,
+										},
+										["n_dmg"] = 1387,
+										["n_min"] = 1387,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 7919,
+										["c_max"] = 3297,
+										["id"] = 53352,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 3235,
+										["a_dmg"] = 0,
+										["c_min"] = 3235,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
+									},
 									[49050] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
@@ -3222,16 +3256,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 49050,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[75] = {
 										["c_amt"] = 1,
@@ -3250,57 +3284,27 @@ _detalhes_database = {
 										["c_max"] = 2253,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 2253,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[53352] = {
-										["c_amt"] = 2,
-										["b_amt"] = 1,
-										["c_dmg"] = 6532,
-										["g_amt"] = 0,
-										["n_max"] = 1387,
-										["targets"] = {
-											["雷铸抢劫者"] = 7919,
-										},
-										["n_dmg"] = 1387,
-										["n_min"] = 1387,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 7919,
-										["c_max"] = 3297,
-										["id"] = 53352,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
-										["c_min"] = 3235,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 3235,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 255,
-							["serial"] = "Player-4487-0008386D",
-							["last_dps"] = 4269.071160887635,
-							["custom"] = 0,
+							["colocacao"] = 1,
 							["tipo"] = 1,
-							["damage_taken"] = 0.001228,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1670125565,
-							["delay"] = 0,
-							["last_event"] = 1670125567,
+							["serial"] = "Player-4487-0008386D",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -3310,22 +3314,21 @@ _detalhes_database = {
 							["targets"] = {
 								["雷铸抢劫者"] = 768,
 							},
-							["total"] = 768.006579,
 							["pets"] = {
 							},
+							["tipo"] = 1,
+							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
 							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 768.006579,
-							["on_hold"] = false,
-							["serial"] = "Pet-0-4491-571-14248-30164-0100082C0F",
+							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1670125568,
+							["total"] = 768.006579,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -3344,16 +3347,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 									[52474] = {
 										["c_amt"] = 0,
@@ -3372,59 +3375,58 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 52474,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
+							["damage_taken"] = 0.006579,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1670125566,
-							["damage_taken"] = 0.006579,
+							["on_hold"] = false,
 							["start_time"] = 1670125566,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Pet-0-4491-571-14248-30164-0100082C0F",
+							["end_time"] = 1670125568,
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.004311,
-							["total"] = 87.004311,
 							["damage_from"] = {
 								["邁克爾假死"] = true,
-								["樂園流放"] = true,
 								["全球頂級投資家 <邁克爾假死>"] = true,
+								["樂園流放"] = true,
 							},
 							["targets"] = {
 								["樂園流放"] = 87,
 							},
+							["delay"] = 0,
 							["pets"] = {
 							},
-							["monster"] = true,
-							["fight_component"] = true,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 87.004311,
-							["on_hold"] = false,
-							["dps_started"] = false,
 							["end_time"] = 1670125581,
+							["monster"] = true,
+							["total"] = 87.004311,
+							["damage_taken"] = 16099.004311,
 							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
 							["nome"] = "雷铸抢劫者",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -3443,44 +3445,46 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
 							["aID"] = "29586",
-							["serial"] = "Creature-0-4491-571-14248-29586-00000C1774",
-							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1670125579,
-							["damage_taken"] = 16099.004311,
+							["on_hold"] = false,
 							["start_time"] = 1670125568,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Creature-0-4491-571-14248-29586-00000C1774",
+							["fight_component"] = true,
 						}, -- [3]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1588,
 					["tipo"] = 3,
+					["combatId"] = 1588,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1300,
-							["targets_overheal"] = {
+							["healing_from"] = {
 							},
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "HUNTER",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 130.006024,
 							["total_without_pet"] = 0.006024,
 							["total"] = 0.006024,
@@ -3497,34 +3501,33 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.006024,
 							["healing_taken"] = 0.006024,
 							["end_time"] = 1670125568,
-							["healing_from"] = {
+							["last_event"] = 1670125567,
+							["targets_overheal"] = {
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "邁克爾假死",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1670125567,
-							["spec"] = 255,
-							["custom"] = 0,
-							["tipo"] = 2,
 							["aID"] = "4487-0008386D",
 							["totaldenied"] = 0.006024,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["classe"] = "HUNTER",
+							["start_time"] = 1670125567,
 							["delay"] = 0,
-							["last_event"] = 1670125567,
+							["spec"] = 255,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
-							["targets_overheal"] = {
-								["全球頂級投資家 <邁克爾假死>"] = 130,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
 							["totalover"] = 130.001632,
 							["total_without_pet"] = 0.001632,
 							["total"] = 0.001632,
@@ -3541,12 +3544,9 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.001632,
 							["healing_taken"] = 0.001632,
 							["end_time"] = 1670125568,
-							["healing_from"] = {
-							},
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[54131] = {
 										["c_amt"] = 0,
@@ -3568,27 +3568,31 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
+										["n_amt"] = 1,
 										["n_curado"] = 0,
 										["totaldenied"] = 0,
-										["n_amt"] = 1,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["start_time"] = 1670125567,
-							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
+							["totaldenied"] = 0.001632,
+							["targets_overheal"] = {
+								["全球頂級投資家 <邁克爾假死>"] = 130,
+							},
+							["last_event"] = 1670125567,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "PET",
-							["totaldenied"] = 0.001632,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1670125567,
 							["delay"] = 0,
-							["last_event"] = 1670125567,
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1588,
 					["tipo"] = 7,
+					["combatId"] = 1588,
 					["_ActorTable"] = {
 						{
 							["received"] = 378.007305,
@@ -3604,7 +3608,6 @@ _detalhes_database = {
 							["total"] = 378.007305,
 							["nome"] = "邁克爾假死",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[34720] = {
 										["total"] = 94,
@@ -3625,27 +3628,27 @@ _detalhes_database = {
 										["counter"] = 14,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["spec"] = 255,
+							["totalover"] = 0.007305,
 							["flag_original"] = 1297,
-							["alternatepower"] = 0.007305,
+							["tipo"] = 3,
 							["last_event"] = 1670125581,
 							["aID"] = "4487-0008386D",
-							["tipo"] = 3,
+							["alternatepower"] = 0.007305,
 							["serial"] = "Player-4487-0008386D",
-							["totalover"] = 0.007305,
+							["spec"] = 255,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1588,
 					["tipo"] = 9,
+					["combatId"] = 1588,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[60053] = {
 										["activedamt"] = -1,
@@ -3654,10 +3657,10 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670125567,
 										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 									[53338] = {
 										["activedamt"] = -1,
@@ -3666,129 +3669,130 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670125567,
 										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 									[49050] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 49050,
+										["uptime"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 1,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 23,
 							["aID"] = "4487-0008386D",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[34027] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 34027,
+										["uptime"] = 3,
 										["targets"] = {
 										},
-										["uptime"] = 3,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[34501] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 34501,
+										["uptime"] = 3,
 										["targets"] = {
 										},
-										["uptime"] = 3,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[57819] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 57819,
+										["uptime"] = 3,
 										["targets"] = {
 										},
-										["uptime"] = 3,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[61847] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 61847,
+										["uptime"] = 3,
 										["targets"] = {
 										},
-										["uptime"] = 3,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[64420] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 64420,
+										["uptime"] = 3,
 										["targets"] = {
 										},
-										["uptime"] = 3,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[59658] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 59658,
-										["targets"] = {
-										},
 										["uptime"] = 3,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[57669] = {
-										["activedamt"] = 0,
-										["id"] = 57669,
 										["targets"] = {
 										},
-										["uptime"] = 0,
-										["appliedamt"] = 0,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[57940] = {
-										["activedamt"] = 1,
-										["id"] = 57940,
-										["targets"] = {
-										},
-										["uptime"] = 3,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[34837] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 34837,
+										["uptime"] = 2,
 										["targets"] = {
 										},
-										["uptime"] = 2,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
+									},
+									[57940] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 57940,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[57669] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 57669,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 1,
 							["nome"] = "邁克爾假死",
@@ -3798,38 +3802,38 @@ _detalhes_database = {
 								[49050] = 1,
 								[75] = 1,
 							},
-							["debuff_uptime_targets"] = {
-							},
+							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
 							["last_event"] = 1670125568,
+							["classe"] = "HUNTER",
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["classe"] = "HUNTER",
 							["serial"] = "Player-4487-0008386D",
-							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
+							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
 							["pets"] = {
 							},
+							["last_event"] = 0,
 							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-4491-571-14248-30164-0100082C0F",
 							["spell_cast"] = {
 								[52474] = 1,
 							},
-							["tipo"] = 4,
-							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
-							["serial"] = "Pet-0-4491-571-14248-30164-0100082C0F",
-							["last_event"] = 0,
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1588,
 					["tipo"] = 2,
+					["combatId"] = 1588,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -3840,12 +3844,14 @@ _detalhes_database = {
 					"邁克爾假死", -- [1]
 				},
 				["CombatStartedAt"] = 816.135,
-				["overall_added"] = true,
+				["tempo_start"] = 1670125565,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 4908,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					12398.985681, -- [1]
@@ -3854,26 +3860,46 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 378,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = -0.0056769999999986,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
-				["player_last_events"] = {
+				["totals_grupo"] = {
+					11544, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 378,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["data_fim"] = "11:46:08",
 				["cleu_timeline"] = {
 				},
@@ -3884,42 +3910,16 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "11:46:06",
-				["end_time"] = 802.7810000000001,
-				["combat_id"] = 1588,
-				["tempo_start"] = 1670125565,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["frags"] = {
-					["雷铸抢劫者"] = 1,
-				},
-				["totals_grupo"] = {
-					11544, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 378,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage"] = {
+						{
+							["邁克爾假死"] = 12312.001228,
+						}, -- [1]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -3929,30 +3929,34 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["邁克爾假死"] = 12312.001228,
-						}, -- [1]
-					},
+				},
+				["end_time"] = 802.7810000000001,
+				["combat_id"] = 1588,
+				["overall_added"] = true,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["雷铸抢劫者"] = 1,
+				},
+				["combat_counter"] = 4908,
+				["player_last_events"] = {
 				},
 				["CombatSkillCache"] = {
 				},
-				["spells_cast_timeline"] = {
-				},
+				["data_inicio"] = "11:46:06",
 				["start_time"] = 799.897,
 				["contra"] = "雷铸抢劫者",
-				["TimeData"] = {
+				["spells_cast_timeline"] = {
 				},
 			}, -- [5]
 			{
 				{
-					["combatId"] = 1587,
 					["tipo"] = 2,
+					["combatId"] = 1587,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.003143,
-							["spec"] = 255,
 							["damage_from"] = {
 							},
 							["targets"] = {
@@ -3961,50 +3965,48 @@ _detalhes_database = {
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["on_hold"] = false,
-							["end_time"] = 1670125554,
-							["aID"] = "4487-0008386D",
+							["classe"] = "HUNTER",
+							["last_dps"] = 5771.287721961943,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 19446.003143,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_event"] = 1670125552,
+							["delay"] = 0,
 							["dps_started"] = false,
 							["total"] = 20944.003143,
-							["classe"] = "HUNTER",
-							["friendlyfire_total"] = 0,
+							["aID"] = "4487-0008386D",
+							["damage_taken"] = 0.003143,
 							["nome"] = "邁克爾假死",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
-									[49050] = {
-										["c_amt"] = 0,
+									[75] = {
+										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 2113,
 										["g_amt"] = 0,
-										["n_max"] = 1201,
+										["n_max"] = 1037,
 										["targets"] = {
-											["雷铸抢劫者"] = 1201,
+											["雷铸抢劫者"] = 3150,
 										},
-										["n_dmg"] = 1201,
-										["n_min"] = 1201,
+										["n_dmg"] = 1037,
+										["n_min"] = 1037,
 										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 1201,
-										["c_max"] = 0,
-										["id"] = 49050,
+										["counter"] = 2,
+										["total"] = 3150,
+										["c_max"] = 2113,
+										["id"] = 75,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 2113,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[61006] = {
 										["c_amt"] = 1,
@@ -4023,16 +4025,44 @@ _detalhes_database = {
 										["c_max"] = 9583,
 										["id"] = 61006,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 9583,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[49050] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1201,
+										["targets"] = {
+											["雷铸抢劫者"] = 1201,
+										},
+										["n_dmg"] = 1201,
+										["n_min"] = 1201,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1201,
+										["c_max"] = 0,
+										["id"] = 49050,
+										["r_dmg"] = 0,
 										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[53352] = {
 										["c_amt"] = 1,
@@ -4051,83 +4081,57 @@ _detalhes_database = {
 										["c_max"] = 2994,
 										["id"] = 53352,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 2994,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[75] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 2113,
-										["g_amt"] = 0,
-										["n_max"] = 1037,
-										["targets"] = {
-											["雷铸抢劫者"] = 3150,
-										},
-										["n_dmg"] = 1037,
-										["n_min"] = 1037,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 3150,
-										["c_max"] = 2113,
-										["id"] = 75,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
-										["c_min"] = 2113,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 4,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["serial"] = "Player-4487-0008386D",
-							["last_dps"] = 5771.287721961943,
+							["end_time"] = 1670125554,
 							["custom"] = 0,
+							["spec"] = 255,
+							["colocacao"] = 1,
 							["tipo"] = 1,
-							["damage_taken"] = 0.003143,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1670125549,
-							["delay"] = 0,
-							["last_event"] = 1670125552,
+							["serial"] = "Player-4487-0008386D",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.001737,
-							["aID"] = "29586",
 							["damage_from"] = {
 								["邁克爾假死"] = true,
 								["全球頂級投資家 <邁克爾假死>"] = true,
 							},
 							["targets"] = {
 							},
+							["delay"] = 0,
 							["pets"] = {
 							},
-							["end_time"] = 1670125554,
-							["fight_component"] = true,
-							["classe"] = "UNKNOW",
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["aID"] = "29586",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.001737,
-							["monster"] = true,
 							["dps_started"] = false,
+							["fight_component"] = true,
+							["end_time"] = 1670125554,
+							["damage_taken"] = 20944.001737,
 							["total"] = 0.001737,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
 							["nome"] = "雷铸抢劫者",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[52701] = {
 										["c_amt"] = 0,
@@ -4145,33 +4149,33 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 52701,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 								},
+								["tipo"] = 2,
 							},
+							["friendlyfire_total"] = 0,
+							["monster"] = true,
 							["friendlyfire"] = {
 							},
-							["serial"] = "Creature-0-4491-571-14248-29586-00010C1774",
-							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 0,
-							["damage_taken"] = 20944.001737,
+							["on_hold"] = false,
 							["start_time"] = 1670125554,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Creature-0-4491-571-14248-29586-00010C1774",
+							["classe"] = "UNKNOW",
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
 							["totalabsorbed"] = 0.006391,
-							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
 							["damage_from"] = {
 							},
 							["targets"] = {
@@ -4179,20 +4183,19 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
-							["end_time"] = 1670125554,
-							["classe"] = "PET",
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1498.006391,
-							["serial"] = "Pet-0-4491-571-14248-30164-0100082C0F",
+							["delay"] = 0,
 							["dps_started"] = false,
+							["end_time"] = 1670125554,
 							["total"] = 1498.006391,
-							["friendlyfire_total"] = 0,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -4211,16 +4214,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 									[52474] = {
 										["c_amt"] = 1,
@@ -4239,44 +4242,46 @@ _detalhes_database = {
 										["c_max"] = 560,
 										["id"] = 52474,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 560,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
+								["tipo"] = 2,
 							},
+							["damage_taken"] = 0.006391,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1670125551,
-							["damage_taken"] = 0.006391,
+							["on_hold"] = false,
 							["start_time"] = 1670125550,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Pet-0-4491-571-14248-30164-0100082C0F",
+							["classe"] = "PET",
 						}, -- [3]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1587,
 					["tipo"] = 3,
+					["combatId"] = 1587,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1300,
-							["targets_overheal"] = {
+							["healing_from"] = {
 							},
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "HUNTER",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 520.005319,
 							["total_without_pet"] = 0.005319,
 							["total"] = 0.005319,
@@ -4293,34 +4298,33 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.005319,
 							["healing_taken"] = 0.005319,
 							["end_time"] = 1670125554,
-							["healing_from"] = {
+							["last_event"] = 1670125554,
+							["targets_overheal"] = {
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "邁克爾假死",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1670125551,
-							["spec"] = 255,
-							["custom"] = 0,
-							["tipo"] = 2,
 							["aID"] = "4487-0008386D",
 							["totaldenied"] = 0.005319,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["classe"] = "HUNTER",
+							["start_time"] = 1670125551,
 							["delay"] = 0,
-							["last_event"] = 1670125554,
+							["spec"] = 255,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
-							["targets_overheal"] = {
-								["全球頂級投資家 <邁克爾假死>"] = 520,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
 							["totalover"] = 520.0041249999999,
 							["total_without_pet"] = 0.004125,
 							["total"] = 0.004125,
@@ -4337,12 +4341,9 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.004125,
 							["healing_taken"] = 0.004125,
 							["end_time"] = 1670125554,
-							["healing_from"] = {
-							},
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[54131] = {
 										["c_amt"] = 0,
@@ -4364,27 +4365,31 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
+										["n_amt"] = 4,
 										["n_curado"] = 0,
 										["totaldenied"] = 0,
-										["n_amt"] = 4,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["start_time"] = 1670125551,
-							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
+							["totaldenied"] = 0.004125,
+							["targets_overheal"] = {
+								["全球頂級投資家 <邁克爾假死>"] = 520,
+							},
+							["last_event"] = 1670125554,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "PET",
-							["totaldenied"] = 0.004125,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1670125551,
 							["delay"] = 0,
-							["last_event"] = 1670125554,
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1587,
 					["tipo"] = 7,
+					["combatId"] = 1587,
 					["_ActorTable"] = {
 						{
 							["received"] = 491.001747,
@@ -4400,7 +4405,6 @@ _detalhes_database = {
 							["total"] = 491.001747,
 							["nome"] = "邁克爾假死",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[34720] = {
 										["total"] = 188,
@@ -4421,38 +4425,38 @@ _detalhes_database = {
 										["counter"] = 15,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["spec"] = 255,
+							["totalover"] = 0.001747,
 							["flag_original"] = 1297,
-							["alternatepower"] = 0.001747,
+							["tipo"] = 3,
 							["last_event"] = 1670125564,
 							["aID"] = "4487-0008386D",
-							["tipo"] = 3,
+							["alternatepower"] = 0.001747,
 							["serial"] = "Player-4487-0008386D",
-							["totalover"] = 0.001747,
+							["spec"] = 255,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1587,
 					["tipo"] = 9,
+					["combatId"] = 1587,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[60053] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 60053,
+										["uptime"] = 2,
 										["targets"] = {
 										},
-										["uptime"] = 2,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[53338] = {
 										["activedamt"] = -1,
@@ -4461,140 +4465,141 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670125552,
 										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 									[49050] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 49050,
+										["uptime"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 1,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 42,
 							["aID"] = "4487-0008386D",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[34837] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 34837,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[5118] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 5118,
+										["uptime"] = 2,
 										["targets"] = {
 										},
-										["uptime"] = 2,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[34501] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 1,
 										["id"] = 34501,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[57669] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 57669,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[61847] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 61847,
+										["uptime"] = 3,
 										["targets"] = {
 										},
-										["uptime"] = 3,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[57940] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 57940,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[60065] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 60065,
-										["targets"] = {
-										},
 										["uptime"] = 2,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[64495] = {
-										["activedamt"] = 0,
-										["id"] = 64495,
 										["targets"] = {
 										},
-										["uptime"] = 0,
-										["appliedamt"] = 0,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[57819] = {
-										["activedamt"] = 1,
-										["id"] = 57819,
-										["targets"] = {
-										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[70893] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 70893,
+										["uptime"] = 10,
 										["targets"] = {
 										},
-										["uptime"] = 10,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
+									},
+									[57819] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 57819,
+										["uptime"] = 5,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[64495] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 64495,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 3,
 							["nome"] = "邁克爾假死",
@@ -4606,54 +4611,54 @@ _detalhes_database = {
 								[49050] = 1,
 								[75] = 2,
 							},
-							["debuff_uptime_targets"] = {
-							},
+							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
 							["last_event"] = 1670125561,
+							["classe"] = "HUNTER",
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["classe"] = "HUNTER",
 							["serial"] = "Player-4487-0008386D",
-							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
+							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
 							["pets"] = {
 							},
+							["last_event"] = 0,
 							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-4491-571-14248-30164-0100082C0F",
 							["spell_cast"] = {
 								[52474] = 2,
 							},
-							["tipo"] = 4,
-							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
-							["serial"] = "Pet-0-4491-571-14248-30164-0100082C0F",
-							["last_event"] = 0,
 						}, -- [2]
 						{
 							["monster"] = true,
+							["last_event"] = 0,
 							["nome"] = "雷铸抢劫者",
-							["flag_original"] = 68168,
+							["aID"] = "29586",
 							["spell_cast"] = {
 								[52701] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
 							["pets"] = {
 							},
-							["tipo"] = 4,
 							["serial"] = "Creature-0-4491-571-14248-29586-00010C1774",
-							["aID"] = "29586",
+							["flag_original"] = 68168,
 						}, -- [3]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1587,
 					["tipo"] = 2,
+					["combatId"] = 1587,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -4664,12 +4669,14 @@ _detalhes_database = {
 					"邁克爾假死", -- [1]
 				},
 				["CombatStartedAt"] = 799.0550000000001,
-				["overall_added"] = true,
+				["tempo_start"] = 1670125549,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 4907,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					20944, -- [1]
@@ -4678,26 +4685,46 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 491,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
-				["player_last_events"] = {
+				["totals_grupo"] = {
+					19446, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 491,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["data_fim"] = "11:45:55",
 				["cleu_timeline"] = {
 				},
@@ -4708,42 +4735,16 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "11:45:50",
-				["end_time"] = 789.0070000000001,
-				["combat_id"] = 1587,
-				["tempo_start"] = 1670125549,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["frags"] = {
-					["雷铸抢劫者"] = 1,
-				},
-				["totals_grupo"] = {
-					19446, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 491,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage"] = {
+						{
+							["邁克爾假死"] = 20944.003143,
+						}, -- [1]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -4753,25 +4754,30 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["邁克爾假死"] = 20944.003143,
-						}, -- [1]
-					},
+				},
+				["end_time"] = 789.0070000000001,
+				["combat_id"] = 1587,
+				["overall_added"] = true,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["雷铸抢劫者"] = 1,
+				},
+				["combat_counter"] = 4907,
+				["player_last_events"] = {
 				},
 				["CombatSkillCache"] = {
 				},
-				["spells_cast_timeline"] = {
-				},
+				["data_inicio"] = "11:45:50",
 				["start_time"] = 783.914,
 				["contra"] = "雷铸抢劫者",
-				["TimeData"] = {
+				["spells_cast_timeline"] = {
 				},
 			}, -- [6]
 			{
 				{
-					["combatId"] = 1586,
 					["tipo"] = 2,
+					["combatId"] = 1586,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1300,
@@ -4784,23 +4790,53 @@ _detalhes_database = {
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["total"] = 12072.00846,
-							["on_hold"] = false,
-							["aID"] = "4487-0008386D",
+							["classe"] = "HUNTER",
+							["last_dps"] = 3022.535918878296,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10227.00846,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_event"] = 1670125542,
+							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1670125543,
-							["classe"] = "HUNTER",
-							["friendlyfire_total"] = 0,
+							["aID"] = "4487-0008386D",
+							["damage_taken"] = 0.00846,
 							["nome"] = "邁克爾假死",
+							["spec"] = 255,
+							["grupo"] = true,
+							["total"] = 12072.00846,
+							["custom"] = 0,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
+									[53352] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 5707,
+										["g_amt"] = 0,
+										["n_max"] = 1200,
+										["targets"] = {
+											["雷铸学者"] = 6907,
+										},
+										["n_dmg"] = 1200,
+										["n_min"] = 1200,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 6907,
+										["c_max"] = 2854,
+										["id"] = 53352,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 2853,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
+									},
 									[49050] = {
 										["c_amt"] = 0,
 										["b_amt"] = 1,
@@ -4818,16 +4854,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 49050,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 1130,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 1130,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[75] = {
 										["c_amt"] = 1,
@@ -4846,57 +4882,27 @@ _detalhes_database = {
 										["c_max"] = 2190,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 2190,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[53352] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 5707,
-										["g_amt"] = 0,
-										["n_max"] = 1200,
-										["targets"] = {
-											["雷铸学者"] = 6907,
-										},
-										["n_dmg"] = 1200,
-										["n_min"] = 1200,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 6907,
-										["c_max"] = 2854,
-										["id"] = 53352,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
-										["c_min"] = 2853,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 255,
-							["serial"] = "Player-4487-0008386D",
-							["last_dps"] = 3022.535918878296,
-							["custom"] = 0,
+							["colocacao"] = 1,
 							["tipo"] = 1,
-							["damage_taken"] = 0.00846,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1670125538,
-							["delay"] = 0,
-							["last_event"] = 1670125542,
+							["serial"] = "Player-4487-0008386D",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -4907,22 +4913,21 @@ _detalhes_database = {
 							["targets"] = {
 								["雷铸学者"] = 1845,
 							},
-							["total"] = 1845.003504,
 							["pets"] = {
 							},
+							["tipo"] = 1,
+							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
 							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1845.003504,
-							["on_hold"] = false,
-							["serial"] = "Pet-0-4491-571-14248-30164-0100082C0F",
+							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1670125543,
+							["total"] = 1845.003504,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -4941,16 +4946,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 									[52474] = {
 										["c_amt"] = 0,
@@ -4969,34 +4974,34 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 52474,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
+							["damage_taken"] = 336.003504,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1670125541,
-							["damage_taken"] = 336.003504,
+							["on_hold"] = false,
 							["start_time"] = 1670125538,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Pet-0-4491-571-14248-30164-0100082C0F",
+							["end_time"] = 1670125543,
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.003066,
-							["total"] = 336.003066,
 							["damage_from"] = {
 								["邁克爾假死"] = true,
 								["全球頂級投資家 <邁克爾假死>"] = true,
@@ -5004,23 +5009,22 @@ _detalhes_database = {
 							["targets"] = {
 								["全球頂級投資家 <邁克爾假死>"] = 336,
 							},
+							["delay"] = 0,
 							["pets"] = {
 							},
-							["monster"] = true,
-							["fight_component"] = true,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 336.003066,
-							["on_hold"] = false,
-							["dps_started"] = false,
 							["end_time"] = 1670125543,
+							["monster"] = true,
+							["total"] = 336.003066,
+							["damage_taken"] = 12072.003066,
 							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
 							["nome"] = "雷铸学者",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -5039,16 +5043,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 									[12550] = {
 										["c_amt"] = 0,
@@ -5067,44 +5071,46 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 12550,
 										["r_dmg"] = 141,
-										["spellschool"] = 8,
-										["extra"] = {
-										},
+										["r_amt"] = 1,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 8,
 									},
 								},
+								["tipo"] = 2,
 							},
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
 							["aID"] = "29843",
-							["serial"] = "Creature-0-4491-571-14248-29843-00008C1736",
-							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1670125538,
-							["damage_taken"] = 12072.003066,
+							["on_hold"] = false,
 							["start_time"] = 1670125538,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Creature-0-4491-571-14248-29843-00008C1736",
+							["fight_component"] = true,
 						}, -- [3]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1586,
 					["tipo"] = 3,
+					["combatId"] = 1586,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1300,
-							["targets_overheal"] = {
+							["healing_from"] = {
 							},
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "HUNTER",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 22.001063,
 							["total_without_pet"] = 0.001063,
 							["total"] = 497.001063,
@@ -5122,34 +5128,34 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.001063,
 							["healing_taken"] = 0.001063,
 							["end_time"] = 1670125543,
-							["healing_from"] = {
+							["last_event"] = 1670125542,
+							["targets_overheal"] = {
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "邁克爾假死",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1670125539,
-							["spec"] = 255,
-							["custom"] = 0,
-							["tipo"] = 2,
 							["aID"] = "4487-0008386D",
 							["totaldenied"] = 0.001063,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["classe"] = "HUNTER",
+							["start_time"] = 1670125539,
 							["delay"] = 0,
-							["last_event"] = 1670125542,
+							["spec"] = 255,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
-							["targets_overheal"] = {
-								["全球頂級投資家 <邁克爾假死>"] = 22,
+							["healing_from"] = {
+								["全球頂級投資家 <邁克爾假死>"] = true,
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
 							["totalover"] = 22.006517,
 							["total_without_pet"] = 497.006517,
 							["total"] = 497.006517,
@@ -5168,13 +5174,9 @@ _detalhes_database = {
 							["healing_taken"] = 497.006517,
 							["fight_component"] = true,
 							["end_time"] = 1670125543,
-							["healing_from"] = {
-								["全球頂級投資家 <邁克爾假死>"] = true,
-							},
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[54131] = {
 										["c_amt"] = 0,
@@ -5196,27 +5198,31 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
+										["n_amt"] = 4,
 										["n_curado"] = 497,
 										["totaldenied"] = 0,
-										["n_amt"] = 4,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["start_time"] = 1670125539,
-							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
+							["targets_overheal"] = {
+								["全球頂級投資家 <邁克爾假死>"] = 22,
+							},
+							["last_event"] = 1670125542,
+							["heal_enemy_amt"] = 0,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "PET",
 							["totaldenied"] = 0.006517,
+							["start_time"] = 1670125539,
 							["delay"] = 0,
-							["last_event"] = 1670125542,
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1586,
 					["tipo"] = 7,
+					["combatId"] = 1586,
 					["_ActorTable"] = {
 						{
 							["received"] = 236.004698,
@@ -5232,7 +5238,6 @@ _detalhes_database = {
 							["total"] = 236.004698,
 							["nome"] = "邁克爾假死",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[34720] = {
 										["total"] = 95,
@@ -5253,38 +5258,38 @@ _detalhes_database = {
 										["counter"] = 7,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["spec"] = 255,
+							["totalover"] = 0.004698,
 							["flag_original"] = 1297,
-							["alternatepower"] = 0.004698,
+							["tipo"] = 3,
 							["last_event"] = 1670125548,
 							["aID"] = "4487-0008386D",
-							["tipo"] = 3,
+							["alternatepower"] = 0.004698,
 							["serial"] = "Player-4487-0008386D",
-							["totalover"] = 0.004698,
+							["spec"] = 255,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1586,
 					["tipo"] = 9,
+					["combatId"] = 1586,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[60053] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 60053,
+										["uptime"] = 3,
 										["targets"] = {
 										},
-										["uptime"] = 3,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[53338] = {
 										["activedamt"] = -1,
@@ -5293,83 +5298,83 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670125542,
 										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 									[49050] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 49050,
+										["uptime"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 1,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 16,
 							["aID"] = "4487-0008386D",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[57819] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 57819,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[57940] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 57940,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[57669] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 57669,
+										["uptime"] = 0,
 										["targets"] = {
 										},
-										["uptime"] = 0,
 										["appliedamt"] = 0,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[34501] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 34501,
+										["uptime"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 1,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[61847] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 61847,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[64495] = {
 										["activedamt"] = 1,
@@ -5378,12 +5383,13 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670125538,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = true,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 4,
 							["nome"] = "邁克爾假死",
@@ -5394,39 +5400,39 @@ _detalhes_database = {
 								[75] = 2,
 								[49050] = 1,
 							},
-							["debuff_uptime_targets"] = {
-							},
+							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
 							["last_event"] = 1670125543,
+							["classe"] = "HUNTER",
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["classe"] = "HUNTER",
 							["serial"] = "Player-4487-0008386D",
-							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
+							["tipo"] = 4,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
-							["classe"] = "PET",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[52474] = 3,
 							},
-							["tipo"] = 4,
+							["classe"] = "PET",
 							["aID"] = "Pet-0-4491-571-14248-30164-0100082C0F",
 							["serial"] = "Pet-0-4491-571-14248-30164-0100082C0F",
-							["last_event"] = 0,
+							["fight_component"] = true,
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1586,
 					["tipo"] = 2,
+					["combatId"] = 1586,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -5437,12 +5443,14 @@ _detalhes_database = {
 					"邁克爾假死", -- [1]
 				},
 				["CombatStartedAt"] = 783.1800000000001,
-				["overall_added"] = true,
+				["tempo_start"] = 1670125538,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 4906,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					12408, -- [1]
@@ -5451,26 +5459,46 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 236,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
-				["player_last_events"] = {
+				["totals_grupo"] = {
+					10227, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 236,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["data_fim"] = "11:45:43",
 				["cleu_timeline"] = {
 				},
@@ -5481,42 +5509,16 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "11:45:38",
-				["end_time"] = 777.719,
-				["combat_id"] = 1586,
-				["tempo_start"] = 1670125538,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["frags"] = {
-					["雷铸学者"] = 1,
-				},
-				["totals_grupo"] = {
-					10227, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 236,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage"] = {
+						{
+							["邁克爾假死"] = 12072.00846,
+						}, -- [1]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -5526,19 +5528,24 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["邁克爾假死"] = 12072.00846,
-						}, -- [1]
-					},
+				},
+				["end_time"] = 777.719,
+				["combat_id"] = 1586,
+				["overall_added"] = true,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["雷铸学者"] = 1,
+				},
+				["combat_counter"] = 4906,
+				["player_last_events"] = {
 				},
 				["CombatSkillCache"] = {
 				},
-				["spells_cast_timeline"] = {
-				},
+				["data_inicio"] = "11:45:38",
 				["start_time"] = 772.774,
 				["contra"] = "雷铸学者",
-				["TimeData"] = {
+				["spells_cast_timeline"] = {
 				},
 			}, -- [7]
 			{
@@ -5549,7 +5556,6 @@ _detalhes_database = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.002431,
-							["total"] = 12032.002431,
 							["damage_from"] = {
 								["铁毛猛犸象"] = true,
 							},
@@ -5559,12 +5565,24 @@ _detalhes_database = {
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["aID"] = "4487-0008386D",
-							["damage_taken"] = 261.002431,
+							["end_time"] = 1670041774,
+							["friendlyfire"] = {
+							},
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 8428.002431,
+							["on_hold"] = false,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 12032.002431,
+							["aID"] = "4487-0008386D",
+							["last_dps"] = 1198.88425976484,
+							["nome"] = "邁克爾假死",
+							["spec"] = 255,
+							["grupo"] = true,
+							["last_event"] = 1670041772,
+							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -5588,17 +5606,49 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
+									[75] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1078,
+										["targets"] = {
+											["铁毛猛犸象"] = 1078,
+										},
+										["n_dmg"] = 1078,
+										["n_min"] = 1078,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["ChartData"] = {
+											[5] = 1078,
+											[8] = 1078,
+										},
+										["total"] = 1078,
+										["c_max"] = 0,
+										["id"] = 75,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
 									[49050] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
@@ -5620,16 +5670,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 49050,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[53352] = {
 										["c_amt"] = 1,
@@ -5652,69 +5702,26 @@ _detalhes_database = {
 										["c_max"] = 2941,
 										["id"] = 53352,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 2941,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[75] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1078,
-										["targets"] = {
-											["铁毛猛犸象"] = 1078,
-										},
-										["n_dmg"] = 1078,
-										["n_min"] = 1078,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["ChartData"] = {
-											[5] = 1078,
-											[8] = 1078,
-										},
-										["total"] = 1078,
-										["c_max"] = 0,
-										["id"] = 75,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 4,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["serial"] = "Player-4487-0008386D",
-							["dps_started"] = false,
-							["end_time"] = 1670041774,
-							["classe"] = "HUNTER",
-							["friendlyfire"] = {
-							},
-							["nome"] = "邁克爾假死",
-							["spec"] = 255,
-							["grupo"] = true,
-							["tipo"] = 1,
 							["colocacao"] = 1,
-							["custom"] = 0,
-							["last_event"] = 1670041772,
-							["last_dps"] = 1198.88425976484,
+							["tipo"] = 1,
+							["damage_taken"] = 261.002431,
 							["start_time"] = 1670041764,
-							["delay"] = 0,
-							["on_hold"] = false,
+							["serial"] = "Player-4487-0008386D",
+							["classe"] = "HUNTER",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -5726,13 +5733,13 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["aID"] = "Pet-0-4490-571-166-30164-0A00082C0F",
+							["tipo"] = 1,
 							["classe"] = "PET",
-							["last_event"] = 1670041772,
-							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3604.005495,
-							["serial"] = "Pet-0-4490-571-166-30164-0A00082C0F",
+							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1670041774,
 							["total"] = 3604.005495,
@@ -5757,16 +5764,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 5,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 									[52474] = {
 										["c_amt"] = 1,
@@ -5785,56 +5792,56 @@ _detalhes_database = {
 										["c_max"] = 629,
 										["id"] = 52474,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 629,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 4,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.005495,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.005495,
+							["last_event"] = 1670041772,
+							["on_hold"] = false,
 							["start_time"] = 1670041766,
-							["delay"] = 0,
-							["aID"] = "Pet-0-4490-571-166-30164-0A00082C0F",
+							["serial"] = "Pet-0-4490-571-166-30164-0A00082C0F",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 68136,
 							["totalabsorbed"] = 0.00894,
 							["damage_from"] = {
 								["邁克爾假死"] = true,
-								["星空骑士"] = true,
 								["全球頂級投資家 <邁克爾假死>"] = true,
+								["星空骑士"] = true,
 							},
 							["targets"] = {
 								["邁克爾假死"] = 261,
 							},
 							["pets"] = {
 							},
+							["aID"] = "29402",
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 261.00894,
-							["serial"] = "Creature-0-4490-571-166-29402-00000AD029",
+							["delay"] = 0,
 							["fight_component"] = true,
 							["total"] = 261.00894,
 							["end_time"] = 1670041774,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 18886.00894,
 							["nome"] = "铁毛猛犸象",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5856,30 +5863,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["DODGE"] = 2,
-										["spellschool"] = 1,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["DODGE"] = 2,
 									}, -- [1]
 								},
 								["tipo"] = 2,
 							},
-							["last_event"] = 1670041807,
-							["dps_started"] = false,
-							["last_dps"] = 0,
-							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 18886.00894,
+							["last_dps"] = 0,
+							["dps_started"] = false,
+							["custom"] = 0,
+							["last_event"] = 1670041807,
+							["on_hold"] = false,
 							["start_time"] = 1670041768,
-							["delay"] = 0,
-							["aID"] = "29402",
+							["serial"] = "Creature-0-4490-571-166-29402-00000AD029",
+							["friendlyfire_total"] = 0,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -5930,14 +5937,14 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["spec"] = 255,
+							["totalover"] = 0.005608,
 							["flag_original"] = 1297,
-							["alternatepower"] = 0.005608,
+							["last_event"] = 1670041779,
 							["tipo"] = 3,
 							["aID"] = "4487-0008386D",
-							["last_event"] = 1670041779,
+							["alternatepower"] = 0.005608,
 							["serial"] = "Player-4487-0008386D",
-							["totalover"] = 0.005608,
+							["spec"] = 255,
 						}, -- [1]
 					},
 				}, -- [3]
@@ -5950,15 +5957,15 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[49050] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 49050,
+										["uptime"] = 7,
 										["targets"] = {
 										},
-										["activedamt"] = 0,
-										["uptime"] = 7,
-										["id"] = 49050,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[60053] = {
 										["activedamt"] = -1,
@@ -5967,10 +5974,10 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670041766,
 										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -5986,43 +5993,43 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670041764,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = true,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[34501] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 34501,
+										["uptime"] = 7,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 7,
-										["id"] = 34501,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[57819] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 57819,
+										["uptime"] = 10,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 10,
-										["id"] = 57819,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[61847] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 61847,
+										["uptime"] = 10,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 10,
-										["id"] = 61847,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[64495] = {
 										["activedamt"] = 1,
@@ -6031,43 +6038,10 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670041764,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = true,
-										["counter"] = 0,
-									},
-									[57669] = {
-										["appliedamt"] = 0,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 0,
-										["id"] = 57669,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[19263] = {
 										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 4,
-										["id"] = 19263,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[34026] = {
-										["appliedamt"] = 0,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 0,
-										["id"] = 34026,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[70893] = {
 										["activedamt"] = 1,
@@ -6076,10 +6050,43 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670041771,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = true,
+										["appliedamt"] = 1,
+									},
+									[19263] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 19263,
+										["uptime"] = 4,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[34026] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 34026,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 0,
+									},
+									[57669] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 57669,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -6089,54 +6096,54 @@ _detalhes_database = {
 							["spec"] = 255,
 							["grupo"] = true,
 							["spell_cast"] = {
-								[781] = 1,
-								[19263] = 1,
-								[49050] = 1,
 								[75] = 1,
+								[781] = 1,
+								[49050] = 1,
+								[19263] = 1,
 							},
-							["debuff_uptime_targets"] = {
+							["buff_uptime_targets"] = {
 							},
-							["last_event"] = 1670041774,
 							["tipo"] = 4,
+							["last_event"] = 1670041774,
+							["classe"] = "HUNTER",
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["classe"] = "HUNTER",
 							["serial"] = "Player-4487-0008386D",
-							["buff_uptime_targets"] = {
+							["debuff_uptime_targets"] = {
 							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
-							["tipo"] = 4,
+							["classe"] = "PET",
 							["pets"] = {
 							},
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["aID"] = "Pet-0-4490-571-166-30164-0A00082C0F",
+							["serial"] = "Pet-0-4490-571-166-30164-0A00082C0F",
 							["spell_cast"] = {
 								[61684] = 1,
-								[52474] = 5,
 								[64495] = 1,
+								[52474] = 5,
 							},
-							["aID"] = "Pet-0-4490-571-166-30164-0A00082C0F",
-							["classe"] = "PET",
-							["serial"] = "Pet-0-4490-571-166-30164-0A00082C0F",
-							["last_event"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 68136,
-							["classe"] = "UNKNOW",
+							["tipo"] = 4,
 							["nome"] = "铁毛猛犸象",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[56356] = 1,
 							},
-							["tipo"] = 4,
+							["classe"] = "UNKNOW",
 							["aID"] = "29402",
 							["serial"] = "Creature-0-4490-571-166-29402-00000AD029",
-							["last_event"] = 0,
+							["fight_component"] = true,
 						}, -- [3]
 					},
 				}, -- [4]
@@ -6152,12 +6159,14 @@ _detalhes_database = {
 				["raid_roster_indexed"] = {
 					"邁克爾假死", -- [1]
 				},
-				["overall_added"] = true,
+				["tempo_start"] = 1670041764,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 4903,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					12292.910239, -- [1]
@@ -6166,42 +6175,23 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 351.9855939999998,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = -0.01768999999999998,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					8428, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 352,
-						["alternatepower"] = 0,
 						[3] = 0,
-						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
@@ -6217,15 +6207,15 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "12:29:24",
-				["end_time"] = 2374.474,
-				["combat_id"] = 1585,
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["邁克爾假死"] = 12032.002431,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -6233,28 +6223,45 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["邁克爾假死"] = 12032.002431,
-						}, -- [1]
+					["damage_section"] = {
 					},
+				},
+				["end_time"] = 2374.474,
+				["combat_id"] = 1585,
+				["frags"] = {
+					["铁毛猛犸象"] = 1,
 				},
 				["spells_cast_timeline"] = {
 				},
-				["tempo_start"] = 1670041764,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
+				["overall_added"] = true,
+				["combat_counter"] = 4903,
 				["CombatSkillCache"] = {
 				},
-				["player_last_events"] = {
+				["totals_grupo"] = {
+					8428, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 352,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
 				},
 				["start_time"] = 2364.438,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["铁毛猛犸象"] = 1,
-				},
+				["data_inicio"] = "12:29:24",
 			}, -- [8]
 			{
 				{
@@ -6272,20 +6279,7 @@ _detalhes_database = {
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["aID"] = "4487-0008386D",
-							["spec"] = 255,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 11573.005118,
-							["on_hold"] = false,
-							["serial"] = "Player-4487-0008386D",
-							["dps_started"] = false,
-							["end_time"] = 1670041744,
 							["classe"] = "HUNTER",
-							["friendlyfire"] = {
-							},
-							["nome"] = "邁克爾假死",
 							["spells"] = {
 								["_ActorTable"] = {
 									[53352] = {
@@ -6305,16 +6299,16 @@ _detalhes_database = {
 										["c_max"] = 3833,
 										["id"] = 53352,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 3627,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
 									},
 									[75] = {
 										["c_amt"] = 1,
@@ -6333,30 +6327,43 @@ _detalhes_database = {
 										["c_max"] = 2536,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 2536,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["total"] = 12354.005118,
-							["tipo"] = 1,
-							["colocacao"] = 1,
-							["custom"] = 0,
-							["last_event"] = 1670041742,
-							["last_dps"] = 4020.177389521817,
-							["start_time"] = 1670041740,
-							["delay"] = 0,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 11573.005118,
 							["damage_taken"] = 0.005118,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 12354.005118,
+							["aID"] = "4487-0008386D",
+							["last_dps"] = 4020.177389521817,
+							["nome"] = "邁克爾假死",
+							["spec"] = 255,
+							["grupo"] = true,
+							["end_time"] = 1670041744,
+							["last_event"] = 1670041742,
+							["custom"] = 0,
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1670041740,
+							["serial"] = "Player-4487-0008386D",
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -6368,15 +6375,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1670041744,
-							["last_event"] = 1670041741,
+							["classe"] = "PET",
+							["tipo"] = 1,
 							["aID"] = "Pet-0-4490-571-166-30164-0900082C0F",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 781.0036620000001,
-							["serial"] = "Pet-0-4490-571-166-30164-0900082C0F",
+							["delay"] = 0,
 							["dps_started"] = false,
-							["total"] = 781.0036620000001,
+							["end_time"] = 1670041744,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
@@ -6399,16 +6406,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 									[52474] = {
 										["c_amt"] = 0,
@@ -6427,55 +6434,56 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 52474,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.003662,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.003662,
+							["last_event"] = 1670041741,
+							["on_hold"] = false,
 							["start_time"] = 1670041741,
-							["delay"] = 0,
-							["classe"] = "PET",
+							["serial"] = "Pet-0-4490-571-166-30164-0900082C0F",
+							["total"] = 781.0036620000001,
 						}, -- [2]
 						{
 							["flag_original"] = 68136,
 							["totalabsorbed"] = 0.001334,
 							["damage_from"] = {
 								["邁克爾假死"] = true,
-								["豆丁布丁"] = true,
 								["全球頂級投資家 <邁克爾假死>"] = true,
+								["豆丁布丁"] = true,
 							},
 							["targets"] = {
 								["豆丁布丁"] = 587,
 							},
 							["pets"] = {
 							},
+							["total"] = 587.001334,
+							["on_hold"] = false,
 							["classe"] = "UNKNOW",
-							["friendlyfire_total"] = 0,
-							["aID"] = "29402",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 587.001334,
-							["serial"] = "Creature-0-4490-571-166-29402-00000AD083",
+							["delay"] = 0,
 							["fight_component"] = true,
 							["end_time"] = 1670041764,
-							["damage_taken"] = 29224.001334,
-							["on_hold"] = false,
+							["aID"] = "29402",
+							["friendlyfire"] = {
+							},
 							["nome"] = "铁毛猛犸象",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6496,30 +6504,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 								},
 								["tipo"] = 2,
 							},
-							["last_event"] = 1670041760,
-							["dps_started"] = false,
-							["last_dps"] = 0,
-							["custom"] = 0,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 0,
+							["dps_started"] = false,
+							["custom"] = 0,
+							["last_event"] = 1670041760,
+							["damage_taken"] = 29224.001334,
 							["start_time"] = 1670041744,
-							["delay"] = 0,
-							["total"] = 587.001334,
+							["serial"] = "Creature-0-4490-571-166-29402-00000AD083",
+							["friendlyfire_total"] = 0,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -6570,14 +6577,14 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["spec"] = 255,
+							["totalover"] = 0.003044,
 							["flag_original"] = 1297,
-							["alternatepower"] = 0.003044,
+							["last_event"] = 1670041756,
 							["tipo"] = 3,
 							["aID"] = "4487-0008386D",
-							["last_event"] = 1670041756,
+							["alternatepower"] = 0.003044,
 							["serial"] = "Player-4487-0008386D",
-							["totalover"] = 0.003044,
+							["spec"] = 255,
 						}, -- [1]
 					},
 				}, -- [3]
@@ -6596,10 +6603,10 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670041742,
 										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 									[53338] = {
 										["activedamt"] = -1,
@@ -6608,10 +6615,10 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670041742,
 										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -6621,15 +6628,81 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[57819] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 57819,
+										["uptime"] = 4,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 4,
-										["id"] = 57819,
-										["refreshamt"] = 0,
-										["actived"] = false,
+										["appliedamt"] = 1,
+									},
+									[64420] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 64420,
+										["uptime"] = 1,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[57669] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 57669,
+										["uptime"] = 4,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[34501] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 1,
+										["id"] = 34501,
+										["uptime"] = 4,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[34027] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 34027,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 0,
+									},
+									[61847] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 61847,
+										["uptime"] = 4,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[60065] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 60065,
+										["uptime"] = 4,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 									[34026] = {
 										["activedamt"] = 1,
@@ -6638,76 +6711,10 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670041741,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = true,
-										["counter"] = 0,
-									},
-									[57669] = {
 										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 4,
-										["id"] = 57669,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[34501] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 4,
-										["id"] = 34501,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[34027] = {
-										["appliedamt"] = 0,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 0,
-										["id"] = 34027,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[61847] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 4,
-										["id"] = 61847,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[60065] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 4,
-										["id"] = 60065,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[64420] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 1,
-										["id"] = 64420,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -6719,32 +6726,32 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[34026] = 1,
 							},
-							["debuff_uptime_targets"] = {
+							["buff_uptime_targets"] = {
 							},
-							["last_event"] = 1670041744,
 							["tipo"] = 4,
+							["last_event"] = 1670041744,
+							["classe"] = "HUNTER",
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["classe"] = "HUNTER",
 							["serial"] = "Player-4487-0008386D",
-							["buff_uptime_targets"] = {
+							["debuff_uptime_targets"] = {
 							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
-							["tipo"] = 4,
+							["classe"] = "PET",
 							["pets"] = {
 							},
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["aID"] = "Pet-0-4490-571-166-30164-0900082C0F",
+							["serial"] = "Pet-0-4490-571-166-30164-0900082C0F",
 							["spell_cast"] = {
 								[52474] = 1,
 							},
-							["aID"] = "Pet-0-4490-571-166-30164-0900082C0F",
-							["classe"] = "PET",
-							["serial"] = "Pet-0-4490-571-166-30164-0900082C0F",
-							["last_event"] = 0,
 						}, -- [2]
 					},
 				}, -- [4]
@@ -6777,21 +6784,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 422,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["totals_grupo"] = {
 					11573, -- [1]
@@ -6800,18 +6807,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 422,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
@@ -6833,7 +6840,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["邁克爾假死"] = 12354.005118,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -6841,15 +6851,12 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["邁克爾假死"] = 12354.005118,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 2344.025,
 				["combat_id"] = 1584,
-				["data_inicio"] = "12:29:01",
+				["overall_added"] = true,
 				["frags"] = {
 					["铁毛猛犸象"] = 1,
 				},
@@ -6863,7 +6870,7 @@ _detalhes_database = {
 				["start_time"] = 2340.952,
 				["TimeData"] = {
 				},
-				["overall_added"] = true,
+				["data_inicio"] = "12:29:01",
 			}, -- [9]
 			{
 				{
@@ -6881,22 +6888,37 @@ _detalhes_database = {
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["aID"] = "4487-0008386D",
-							["spec"] = 255,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 11347.003683,
-							["on_hold"] = false,
-							["serial"] = "Player-4487-0008386D",
-							["dps_started"] = false,
-							["end_time"] = 1670041737,
 							["classe"] = "HUNTER",
-							["friendlyfire"] = {
-							},
-							["nome"] = "邁克爾假死",
 							["spells"] = {
 								["_ActorTable"] = {
+									[49050] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 2958,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["铁毛猛犸象"] = 2958,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2958,
+										["c_max"] = 2958,
+										["id"] = 49050,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 2958,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
 									[75] = {
 										["c_amt"] = 1,
 										["b_amt"] = 0,
@@ -6914,16 +6936,16 @@ _detalhes_database = {
 										["c_max"] = 1976,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 1976,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[53352] = {
 										["c_amt"] = 1,
@@ -6942,58 +6964,43 @@ _detalhes_database = {
 										["c_max"] = 2929,
 										["id"] = 53352,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 2929,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[49050] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 2958,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["铁毛猛犸象"] = 2958,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 2958,
-										["c_max"] = 2958,
-										["id"] = 49050,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
-										["c_min"] = 2958,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 4,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["total"] = 11905.003683,
-							["tipo"] = 1,
-							["colocacao"] = 1,
-							["custom"] = 0,
-							["last_event"] = 1670041736,
-							["last_dps"] = 4105.173683792975,
-							["start_time"] = 1670041733,
-							["delay"] = 0,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 11347.003683,
 							["damage_taken"] = 0.003683,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 11905.003683,
+							["aID"] = "4487-0008386D",
+							["last_dps"] = 4105.173683792975,
+							["nome"] = "邁克爾假死",
+							["spec"] = 255,
+							["grupo"] = true,
+							["end_time"] = 1670041737,
+							["last_event"] = 1670041736,
+							["custom"] = 0,
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1670041733,
+							["serial"] = "Player-4487-0008386D",
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -7006,33 +7013,33 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["aID"] = "29402",
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.005936,
-							["serial"] = "Creature-0-4490-571-166-29402-00000AD014",
+							["delay"] = 0,
 							["fight_component"] = true,
 							["total"] = 0.005936,
 							["end_time"] = 1670041737,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 11905.005936,
 							["nome"] = "铁毛猛犸象",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["last_event"] = 0,
-							["dps_started"] = false,
-							["last_dps"] = 0,
-							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 11905.005936,
+							["last_dps"] = 0,
+							["dps_started"] = false,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["on_hold"] = false,
 							["start_time"] = 1670041737,
-							["delay"] = 0,
-							["aID"] = "29402",
+							["serial"] = "Creature-0-4490-571-166-29402-00000AD014",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
@@ -7044,13 +7051,13 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["aID"] = "Pet-0-4490-571-166-30164-0900082C0F",
+							["tipo"] = 1,
 							["classe"] = "PET",
-							["last_event"] = 1670041736,
-							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 558.0047500000001,
-							["serial"] = "Pet-0-4490-571-166-30164-0900082C0F",
+							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1670041737,
 							["total"] = 558.0047500000001,
@@ -7075,30 +7082,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.00475,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.00475,
+							["last_event"] = 1670041736,
+							["on_hold"] = false,
 							["start_time"] = 1670041735,
-							["delay"] = 0,
-							["aID"] = "Pet-0-4490-571-166-30164-0900082C0F",
+							["serial"] = "Pet-0-4490-571-166-30164-0900082C0F",
+							["friendlyfire_total"] = 0,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -7149,14 +7156,14 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["spec"] = 255,
+							["totalover"] = 0.003559,
 							["flag_original"] = 1297,
-							["alternatepower"] = 0.003559,
+							["last_event"] = 1670041740,
 							["tipo"] = 3,
 							["aID"] = "4487-0008386D",
-							["last_event"] = 1670041740,
+							["alternatepower"] = 0.003559,
 							["serial"] = "Player-4487-0008386D",
-							["totalover"] = 0.003559,
+							["spec"] = 255,
 						}, -- [1]
 					},
 				}, -- [3]
@@ -7175,10 +7182,10 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670041735,
 										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 									[53338] = {
 										["activedamt"] = -1,
@@ -7187,21 +7194,21 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670041736,
 										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 									[49050] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 49050,
+										["uptime"] = 1,
 										["targets"] = {
 										},
-										["activedamt"] = 0,
-										["uptime"] = 1,
-										["id"] = 49050,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -7211,70 +7218,70 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[57819] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 57819,
+										["uptime"] = 4,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 4,
-										["id"] = 57819,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[57669] = {
-										["appliedamt"] = 0,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 57669,
+										["uptime"] = 0,
 										["targets"] = {
 										},
-										["activedamt"] = 0,
-										["uptime"] = 0,
-										["id"] = 57669,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 									[34501] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 1,
+										["id"] = 34501,
+										["uptime"] = 2,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 2,
-										["id"] = 34501,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[61847] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
-										["uptime"] = 4,
+										["refreshamt"] = 0,
 										["id"] = 61847,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[60065] = {
-										["appliedamt"] = 1,
+										["uptime"] = 4,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 1,
-										["id"] = 60065,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[64420] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 64420,
+										["uptime"] = 4,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 4,
-										["id"] = 64420,
-										["refreshamt"] = 0,
-										["actived"] = false,
+										["appliedamt"] = 1,
+									},
+									[60065] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 60065,
+										["uptime"] = 1,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -7288,15 +7295,15 @@ _detalhes_database = {
 								[75] = 1,
 								[49050] = 1,
 							},
-							["debuff_uptime_targets"] = {
+							["buff_uptime_targets"] = {
 							},
-							["last_event"] = 1670041737,
 							["tipo"] = 4,
+							["last_event"] = 1670041737,
+							["classe"] = "HUNTER",
 							["pets"] = {
 							},
-							["classe"] = "HUNTER",
 							["serial"] = "Player-4487-0008386D",
-							["buff_uptime_targets"] = {
+							["debuff_uptime_targets"] = {
 							},
 						}, -- [1]
 					},
@@ -7330,21 +7337,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 309,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["totals_grupo"] = {
 					11347, -- [1]
@@ -7353,18 +7360,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 309,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
@@ -7386,7 +7393,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["邁克爾假死"] = 11905.003683,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -7394,15 +7404,12 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["邁克爾假死"] = 11905.003683,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 2337.095,
 				["combat_id"] = 1583,
-				["data_inicio"] = "12:28:53",
+				["overall_added"] = true,
 				["frags"] = {
 					["铁毛猛犸象"] = 1,
 				},
@@ -7416,7 +7423,7 @@ _detalhes_database = {
 				["start_time"] = 2333.839,
 				["TimeData"] = {
 				},
-				["overall_added"] = true,
+				["data_inicio"] = "12:28:53",
 			}, -- [10]
 			{
 				{
@@ -7434,9 +7441,49 @@ _detalhes_database = {
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
+							["classe"] = "HUNTER",
+							["spec"] = 255,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 10594.007222,
+							["damage_taken"] = 0.007222,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1670041715,
 							["aID"] = "4487-0008386D",
+							["last_dps"] = 3366.619977159626,
+							["nome"] = "邁克爾假死",
 							["spells"] = {
 								["_ActorTable"] = {
+									[53352] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 3082,
+										["g_amt"] = 0,
+										["n_max"] = 1340,
+										["targets"] = {
+											["铁毛猛犸象"] = 4422,
+										},
+										["n_dmg"] = 1340,
+										["n_min"] = 1340,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 4422,
+										["c_max"] = 3082,
+										["id"] = 53352,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 3082,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
+									},
 									[49050] = {
 										["c_amt"] = 1,
 										["b_amt"] = 0,
@@ -7454,16 +7501,16 @@ _detalhes_database = {
 										["c_max"] = 2972,
 										["id"] = 49050,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 2972,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[75] = {
 										["c_amt"] = 1,
@@ -7482,71 +7529,31 @@ _detalhes_database = {
 										["c_max"] = 2081,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 2081,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[53352] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 3082,
-										["g_amt"] = 0,
-										["n_max"] = 1340,
-										["targets"] = {
-											["铁毛猛犸象"] = 4422,
-										},
-										["n_dmg"] = 1340,
-										["n_min"] = 1340,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 4422,
-										["c_max"] = 3082,
-										["id"] = 53352,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
-										["c_min"] = 3082,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 10594.007222,
-							["on_hold"] = false,
-							["serial"] = "Player-4487-0008386D",
-							["dps_started"] = false,
+							["grupo"] = true,
 							["total"] = 11497.007222,
-							["classe"] = "HUNTER",
+							["last_event"] = 1670041714,
+							["custom"] = 0,
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1670041712,
+							["serial"] = "Player-4487-0008386D",
 							["friendlyfire"] = {
 							},
-							["nome"] = "邁克爾假死",
-							["spec"] = 255,
-							["grupo"] = true,
-							["end_time"] = 1670041715,
-							["tipo"] = 1,
-							["colocacao"] = 1,
-							["custom"] = 0,
-							["last_event"] = 1670041714,
-							["last_dps"] = 3366.619977159626,
-							["start_time"] = 1670041712,
-							["delay"] = 0,
-							["damage_taken"] = 0.007222,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -7558,15 +7565,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1670041715,
-							["last_event"] = 1670041714,
+							["classe"] = "PET",
+							["tipo"] = 1,
 							["aID"] = "Pet-0-4490-571-166-30164-0800082C0F",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 903.007255,
-							["serial"] = "Pet-0-4490-571-166-30164-0800082C0F",
+							["delay"] = 0,
 							["dps_started"] = false,
-							["total"] = 903.007255,
+							["end_time"] = 1670041715,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
@@ -7589,16 +7596,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 									[52474] = {
 										["c_amt"] = 0,
@@ -7617,30 +7624,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 52474,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.007255,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.007255,
+							["last_event"] = 1670041714,
+							["on_hold"] = false,
 							["start_time"] = 1670041713,
-							["delay"] = 0,
-							["classe"] = "PET",
+							["serial"] = "Pet-0-4490-571-166-30164-0800082C0F",
+							["total"] = 903.007255,
 						}, -- [2]
 						{
 							["flag_original"] = 68136,
@@ -7653,33 +7660,33 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["dps_started"] = false,
+							["end_time"] = 1670041715,
+							["friendlyfire_total"] = 0,
 							["aID"] = "29402",
-							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004913,
-							["serial"] = "Creature-0-4490-571-166-29402-00000ACFA5",
-							["fight_component"] = true,
+							["delay"] = 0,
+							["dps_started"] = false,
 							["total"] = 0.004913,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["fight_component"] = true,
+							["damage_taken"] = 11497.004913,
 							["nome"] = "铁毛猛犸象",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["last_event"] = 0,
-							["on_hold"] = false,
-							["last_dps"] = 0,
-							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 11497.004913,
+							["last_dps"] = 0,
+							["on_hold"] = false,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1670041715,
-							["delay"] = 0,
-							["end_time"] = 1670041715,
+							["serial"] = "Creature-0-4490-571-166-29402-00000ACFA5",
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -7689,13 +7696,13 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1300,
-							["targets_overheal"] = {
+							["healing_from"] = {
 							},
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
 							["iniciar_hps"] = false,
-							["aID"] = "4487-0008386D",
+							["classe"] = "HUNTER",
 							["totalover"] = 0.001093,
 							["total_without_pet"] = 0.001093,
 							["total"] = 130.001093,
@@ -7713,8 +7720,8 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.001093,
 							["healing_taken"] = 0.001093,
 							["end_time"] = 1670041715,
-							["spec"] = 255,
-							["healing_from"] = {
+							["tipo"] = 2,
+							["targets_overheal"] = {
 							},
 							["nome"] = "邁克爾假死",
 							["spells"] = {
@@ -7723,23 +7730,24 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["classe"] = "HUNTER",
-							["start_time"] = 1670041714,
-							["custom"] = 0,
-							["last_event"] = 1670041714,
 							["heal_enemy_amt"] = 0,
 							["totaldenied"] = 0.001093,
+							["custom"] = 0,
+							["last_event"] = 1670041714,
+							["aID"] = "4487-0008386D",
+							["start_time"] = 1670041714,
 							["delay"] = 0,
-							["tipo"] = 2,
+							["spec"] = 255,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
-							["targets_overheal"] = {
+							["healing_from"] = {
+								["全球頂級投資家 <邁克爾假死>"] = true,
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "Pet-0-4490-571-166-30164-0800082C0F",
 							["totalover"] = 0.005886,
 							["total_without_pet"] = 130.005886,
 							["total"] = 130.005886,
@@ -7781,25 +7789,24 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
+										["n_curado"] = 130,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
-										["n_curado"] = 130,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
-							["healing_from"] = {
-								["全球頂級投資家 <邁克爾假死>"] = true,
-							},
 							["classe"] = "PET",
-							["aID"] = "Pet-0-4490-571-166-30164-0800082C0F",
+							["targets_overheal"] = {
+							},
+							["tipo"] = 2,
 							["custom"] = 0,
 							["last_event"] = 1670041714,
-							["start_time"] = 1670041714,
 							["totaldenied"] = 0.005886,
+							["start_time"] = 1670041714,
 							["delay"] = 0,
-							["tipo"] = 2,
+							["heal_enemy_amt"] = 0,
 						}, -- [2]
 					},
 				}, -- [2]
@@ -7844,14 +7851,14 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["spec"] = 255,
+							["totalover"] = 0.008323,
 							["flag_original"] = 1297,
-							["alternatepower"] = 0.008323,
+							["last_event"] = 1670041729,
 							["tipo"] = 3,
 							["aID"] = "4487-0008386D",
-							["last_event"] = 1670041729,
+							["alternatepower"] = 0.008323,
 							["serial"] = "Player-4487-0008386D",
-							["totalover"] = 0.008323,
+							["spec"] = 255,
 						}, -- [1]
 					},
 				}, -- [3]
@@ -7864,15 +7871,15 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[60053] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 60053,
+										["uptime"] = 1,
 										["targets"] = {
 										},
-										["activedamt"] = 0,
-										["uptime"] = 1,
-										["id"] = 60053,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[53338] = {
 										["activedamt"] = -1,
@@ -7881,21 +7888,21 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670041714,
 										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 									[49050] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 49050,
+										["uptime"] = 2,
 										["targets"] = {
 										},
-										["activedamt"] = 0,
-										["uptime"] = 2,
-										["id"] = 49050,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -7905,48 +7912,48 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[61847] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 61847,
+										["uptime"] = 3,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 3,
-										["id"] = 61847,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[34501] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 2,
+										["id"] = 34501,
+										["uptime"] = 3,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 3,
-										["id"] = 34501,
-										["refreshamt"] = 2,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[57819] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 57819,
+										["uptime"] = 3,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 3,
-										["id"] = 57819,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[57669] = {
-										["appliedamt"] = 0,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 57669,
+										["uptime"] = 0,
 										["targets"] = {
 										},
-										["activedamt"] = 0,
-										["uptime"] = 0,
-										["id"] = 57669,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -7959,33 +7966,33 @@ _detalhes_database = {
 								[60053] = 1,
 								[75] = 1,
 							},
-							["debuff_uptime_targets"] = {
+							["buff_uptime_targets"] = {
 							},
-							["last_event"] = 1670041715,
 							["tipo"] = 4,
+							["last_event"] = 1670041715,
+							["classe"] = "HUNTER",
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["classe"] = "HUNTER",
 							["serial"] = "Player-4487-0008386D",
-							["buff_uptime_targets"] = {
+							["debuff_uptime_targets"] = {
 							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
-							["classe"] = "PET",
+							["tipo"] = 4,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[52474] = 1,
 							},
-							["tipo"] = 4,
+							["classe"] = "PET",
 							["aID"] = "Pet-0-4490-571-166-30164-0800082C0F",
 							["serial"] = "Pet-0-4490-571-166-30164-0800082C0F",
-							["last_event"] = 0,
+							["fight_component"] = true,
 						}, -- [2]
 					},
 				}, -- [4]
@@ -8018,21 +8025,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 513,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["totals_grupo"] = {
 					10594, -- [1]
@@ -8041,18 +8048,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 513,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
@@ -8074,7 +8081,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["邁克爾假死"] = 11497.007222,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -8083,15 +8093,12 @@ _detalhes_database = {
 							["邁克爾假死"] = 130.001093,
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["邁克爾假死"] = 11497.007222,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 2315.553,
 				["combat_id"] = 1582,
-				["data_inicio"] = "12:28:32",
+				["overall_added"] = true,
 				["frags"] = {
 					["铁毛猛犸象"] = 1,
 				},
@@ -8105,7 +8112,7 @@ _detalhes_database = {
 				["start_time"] = 2312.138,
 				["TimeData"] = {
 				},
-				["overall_added"] = true,
+				["data_inicio"] = "12:28:32",
 			}, -- [11]
 			{
 				{
@@ -8123,22 +8130,50 @@ _detalhes_database = {
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["friendlyfire_total"] = 0,
-							["damage_taken"] = 0.001194,
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-0008386D",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10181.001194,
-							["on_hold"] = false,
-							["serial"] = "Player-4487-0008386D",
+							["spec"] = 255,
+							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1670041618,
-							["classe"] = "HUNTER",
-							["friendlyfire"] = {
-							},
+							["total"] = 12435.001194,
+							["friendlyfire_total"] = 0,
+							["last_dps"] = 1569.283340989404,
 							["nome"] = "邁克爾假死",
 							["spells"] = {
 								["_ActorTable"] = {
+									[49065] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1720,
+										["targets"] = {
+											["野蛮岭暴徒"] = 1720,
+										},
+										["n_dmg"] = 1720,
+										["n_min"] = 1720,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1720,
+										["c_max"] = 0,
+										["id"] = 49065,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
+									},
 									[53352] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
@@ -8159,16 +8194,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 53352,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
 									},
 									[75] = {
 										["c_amt"] = 1,
@@ -8190,58 +8225,30 @@ _detalhes_database = {
 										["c_max"] = 1784,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 1784,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[49065] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1720,
-										["targets"] = {
-											["野蛮岭暴徒"] = 1720,
-										},
-										["n_dmg"] = 1720,
-										["n_min"] = 1720,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 1720,
-										["c_max"] = 0,
-										["id"] = 49065,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["total"] = 12435.001194,
-							["last_event"] = 1670041618,
-							["colocacao"] = 1,
-							["custom"] = 0,
+							["end_time"] = 1670041618,
 							["tipo"] = 1,
-							["last_dps"] = 1569.283340989404,
+							["custom"] = 0,
+							["colocacao"] = 1,
+							["last_event"] = 1670041618,
+							["damage_taken"] = 0.001194,
 							["start_time"] = 1670041611,
-							["delay"] = 0,
-							["spec"] = 255,
+							["serial"] = "Player-4487-0008386D",
+							["classe"] = "HUNTER",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -8253,15 +8260,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1670041618,
-							["last_event"] = 1670041618,
+							["classe"] = "PET",
+							["tipo"] = 1,
 							["aID"] = "Pet-0-4490-571-166-30164-0700082C0F",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2254.008202,
-							["serial"] = "Pet-0-4490-571-166-30164-0700082C0F",
+							["delay"] = 0,
 							["dps_started"] = false,
-							["total"] = 2254.008202,
+							["end_time"] = 1670041618,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
@@ -8284,16 +8291,16 @@ _detalhes_database = {
 										["c_max"] = 568,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 568,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 									[52474] = {
 										["c_amt"] = 0,
@@ -8312,30 +8319,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 52474,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.008202,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.008202,
+							["last_event"] = 1670041618,
+							["on_hold"] = false,
 							["start_time"] = 1670041613,
-							["delay"] = 0,
-							["classe"] = "PET",
+							["serial"] = "Pet-0-4490-571-166-30164-0700082C0F",
+							["total"] = 2254.008202,
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -8348,21 +8355,20 @@ _detalhes_database = {
 							["targets"] = {
 								["付夢妮露"] = 435,
 							},
-							["serial"] = "Creature-0-4490-571-166-29623-00000ACED1",
+							["delay"] = 1670041682,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
+							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
 							["classe"] = "UNKNOW",
-							["aID"] = "29623",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 435.006011,
 							["damage_taken"] = 24385.006011,
 							["dps_started"] = false,
 							["end_time"] = 1670041712,
-							["on_hold"] = false,
-							["last_event"] = 1670041682,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "野蛮岭暴徒",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8382,33 +8388,34 @@ _detalhes_database = {
 										["counter"] = 5,
 										["total"] = 435,
 										["c_max"] = 0,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["DODGE"] = 2,
+										["b_dmg"] = 0,
 										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["a_amt"] = 0,
 										["PARRY"] = 2,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["extra"] = {
+										},
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["DODGE"] = 2,
+										["a_dmg"] = 0,
 									}, -- [1]
 								},
 								["tipo"] = 2,
 							},
-							["total"] = 435.006011,
+							["on_hold"] = false,
 							["monster"] = true,
-							["friendlyfire_total"] = 0,
+							["total"] = 435.006011,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["last_dps"] = 0,
+							["last_event"] = 1670041682,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1670041647,
-							["delay"] = 1670041682,
-							["fight_component"] = true,
+							["serial"] = "Creature-0-4490-571-166-29623-00000ACED1",
+							["aID"] = "29623",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -8418,13 +8425,13 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1300,
-							["targets_overheal"] = {
+							["healing_from"] = {
 							},
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
 							["iniciar_hps"] = false,
-							["aID"] = "4487-0008386D",
+							["classe"] = "HUNTER",
 							["totalover"] = 260.001705,
 							["total_without_pet"] = 0.001705,
 							["total"] = 0.001705,
@@ -8441,8 +8448,8 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.001705,
 							["healing_taken"] = 0.001705,
 							["end_time"] = 1670041618,
-							["spec"] = 255,
-							["healing_from"] = {
+							["tipo"] = 2,
+							["targets_overheal"] = {
 							},
 							["nome"] = "邁克爾假死",
 							["spells"] = {
@@ -8451,24 +8458,23 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["classe"] = "HUNTER",
-							["start_time"] = 1670041617,
-							["custom"] = 0,
-							["last_event"] = 1670041618,
 							["heal_enemy_amt"] = 0,
 							["totaldenied"] = 0.001705,
+							["custom"] = 0,
+							["last_event"] = 1670041618,
+							["aID"] = "4487-0008386D",
+							["start_time"] = 1670041617,
 							["delay"] = 0,
-							["tipo"] = 2,
+							["spec"] = 255,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
-							["targets_overheal"] = {
-								["全球頂級投資家 <邁克爾假死>"] = 260,
+							["healing_from"] = {
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "PET",
 							["totalover"] = 260.003472,
 							["total_without_pet"] = 0.003472,
 							["total"] = 0.003472,
@@ -8509,24 +8515,25 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
+										["n_curado"] = 0,
 										["totaldenied"] = 0,
 										["n_amt"] = 2,
-										["n_curado"] = 0,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
-							["start_time"] = 1670041617,
-							["healing_from"] = {
+							["totaldenied"] = 0.003472,
+							["targets_overheal"] = {
+								["全球頂級投資家 <邁克爾假死>"] = 260,
 							},
-							["classe"] = "PET",
+							["tipo"] = 2,
 							["custom"] = 0,
 							["last_event"] = 1670041618,
-							["aID"] = "Pet-0-4490-571-166-30164-0700082C0F",
-							["totaldenied"] = 0.003472,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1670041617,
 							["delay"] = 0,
-							["tipo"] = 2,
+							["aID"] = "Pet-0-4490-571-166-30164-0700082C0F",
 						}, -- [2]
 					},
 				}, -- [2]
@@ -8545,15 +8552,15 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[60053] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 60053,
+										["uptime"] = 2,
 										["targets"] = {
 										},
-										["activedamt"] = 0,
-										["uptime"] = 2,
-										["id"] = 60053,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -8563,48 +8570,48 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[57819] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 57819,
+										["uptime"] = 7,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 7,
-										["id"] = 57819,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[34501] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
-										["uptime"] = 6,
+										["refreshamt"] = 0,
 										["id"] = 34501,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[34837] = {
-										["appliedamt"] = 1,
+										["uptime"] = 6,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 1,
-										["id"] = 34837,
-										["refreshamt"] = 0,
-										["actived"] = false,
+										["appliedamt"] = 1,
+									},
+									[64420] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 1,
+										["id"] = 64420,
+										["uptime"] = 7,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 									[61847] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 61847,
+										["uptime"] = 7,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 7,
-										["id"] = 61847,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[64495] = {
 										["activedamt"] = 1,
@@ -8613,21 +8620,21 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670041711,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = true,
-										["counter"] = 0,
-									},
-									[64420] = {
 										["appliedamt"] = 1,
+									},
+									[34837] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 34837,
+										["uptime"] = 1,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 7,
-										["id"] = 64420,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -8642,33 +8649,33 @@ _detalhes_database = {
 								[75] = 3,
 								[49067] = 1,
 							},
-							["debuff_uptime_targets"] = {
+							["buff_uptime_targets"] = {
 							},
-							["last_event"] = 1670041711,
 							["tipo"] = 4,
+							["last_event"] = 1670041711,
+							["classe"] = "HUNTER",
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["classe"] = "HUNTER",
 							["serial"] = "Player-4487-0008386D",
-							["buff_uptime_targets"] = {
+							["debuff_uptime_targets"] = {
 							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
-							["tipo"] = 4,
+							["classe"] = "PET",
 							["pets"] = {
 							},
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["aID"] = "Pet-0-4490-571-166-30164-0700082C0F",
+							["serial"] = "Pet-0-4490-571-166-30164-0700082C0F",
 							["spell_cast"] = {
 								[61684] = 1,
 								[52474] = 3,
 							},
-							["aID"] = "Pet-0-4490-571-166-30164-0700082C0F",
-							["classe"] = "PET",
-							["serial"] = "Pet-0-4490-571-166-30164-0700082C0F",
-							["last_event"] = 0,
 						}, -- [2]
 					},
 				}, -- [4]
@@ -8701,21 +8708,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = -0.003259999999954744,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = -0.008673999999999182,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["totals_grupo"] = {
 					10181, -- [1]
@@ -8724,18 +8731,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
@@ -8756,7 +8763,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["邁克爾假死"] = 12435.001194,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -8765,30 +8775,27 @@ _detalhes_database = {
 							["邁克爾假死"] = 0.001705,
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["邁克爾假死"] = 12435.001194,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 2218.985,
 				["combat_id"] = 1581,
+				["overall_added"] = true,
+				["TimeData"] = {
+				},
 				["spells_cast_timeline"] = {
 				},
+				["combat_counter"] = 4899,
+				["player_last_events"] = {
+				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "12:26:51",
+				["start_time"] = 2211.061,
 				["contra"] = "野蛮岭暴徒",
 				["frags"] = {
 					["野蛮岭暴徒"] = 1,
 				},
-				["combat_counter"] = 4899,
-				["data_inicio"] = "12:26:51",
-				["CombatSkillCache"] = {
-				},
-				["player_last_events"] = {
-				},
-				["start_time"] = 2211.061,
-				["TimeData"] = {
-				},
-				["overall_added"] = true,
 			}, -- [12]
 			{
 				{
@@ -8807,7 +8814,19 @@ _detalhes_database = {
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
+							["classe"] = "HUNTER",
+							["spec"] = 255,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 9496.008585,
+							["damage_taken"] = 446.008585,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1670041585,
 							["aID"] = "4487-0008386D",
+							["last_dps"] = 2397.397930357316,
+							["nome"] = "邁克爾假死",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -8827,17 +8846,17 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["DODGE"] = 1,
-										["spellschool"] = 1,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["DODGE"] = 1,
 									}, -- [1]
 									[75] = {
 										["c_amt"] = 1,
@@ -8856,16 +8875,16 @@ _detalhes_database = {
 										["c_max"] = 2164,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 2164,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[53352] = {
 										["c_amt"] = 2,
@@ -8884,43 +8903,31 @@ _detalhes_database = {
 										["c_max"] = 2642,
 										["id"] = 53352,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 2642,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 9496.008585,
-							["on_hold"] = false,
-							["serial"] = "Player-4487-0008386D",
-							["dps_started"] = false,
+							["grupo"] = true,
 							["total"] = 11601.008585,
-							["classe"] = "HUNTER",
+							["last_event"] = 1670041584,
+							["custom"] = 0,
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1670041579,
+							["serial"] = "Player-4487-0008386D",
 							["friendlyfire"] = {
 							},
-							["nome"] = "邁克爾假死",
-							["spec"] = 255,
-							["grupo"] = true,
-							["end_time"] = 1670041585,
-							["tipo"] = 1,
-							["colocacao"] = 1,
-							["custom"] = 0,
-							["last_event"] = 1670041584,
-							["last_dps"] = 2397.397930357316,
-							["start_time"] = 1670041579,
-							["delay"] = 0,
-							["damage_taken"] = 446.008585,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -8932,20 +8939,21 @@ _detalhes_database = {
 							["targets"] = {
 								["邁克爾假死"] = 446,
 							},
-							["serial"] = "Creature-0-4490-571-166-29623-00000ACFDB",
+							["delay"] = 0,
 							["pets"] = {
 							},
+							["friendlyfire"] = {
+							},
+							["total"] = 446.005294,
 							["aID"] = "29623",
-							["fight_component"] = true,
-							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 446.005294,
-							["damage_taken"] = 11601.005294,
 							["monster"] = true,
+							["fight_component"] = true,
 							["end_time"] = 1670041585,
-							["on_hold"] = false,
-							["last_event"] = 1670041582,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "野蛮岭暴徒",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8966,16 +8974,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 									[54678] = {
 										["c_amt"] = 0,
@@ -8993,29 +9001,28 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 54678,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["friendlyfire"] = {
-							},
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["last_dps"] = 0,
+							["last_event"] = 1670041582,
+							["damage_taken"] = 11601.005294,
 							["start_time"] = 1670041582,
-							["delay"] = 0,
-							["total"] = 446.005294,
+							["serial"] = "Creature-0-4490-571-166-29623-00000ACFDB",
+							["classe"] = "UNKNOW",
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
@@ -9027,15 +9034,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1670041585,
-							["last_event"] = 1670041584,
+							["classe"] = "PET",
+							["tipo"] = 1,
 							["aID"] = "Pet-0-4490-571-166-30164-0700082C0F",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2105.00306,
-							["serial"] = "Pet-0-4490-571-166-30164-0700082C0F",
+							["delay"] = 0,
 							["dps_started"] = false,
-							["total"] = 2105.00306,
+							["end_time"] = 1670041585,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
@@ -9058,16 +9065,16 @@ _detalhes_database = {
 										["c_max"] = 613,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 613,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 									[52474] = {
 										["c_amt"] = 0,
@@ -9086,30 +9093,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 52474,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.00306,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.00306,
+							["last_event"] = 1670041584,
+							["on_hold"] = false,
 							["start_time"] = 1670041581,
-							["delay"] = 0,
-							["classe"] = "PET",
+							["serial"] = "Pet-0-4490-571-166-30164-0700082C0F",
+							["total"] = 2105.00306,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -9119,13 +9126,13 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1300,
-							["targets_overheal"] = {
+							["healing_from"] = {
 							},
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
 							["iniciar_hps"] = false,
-							["aID"] = "4487-0008386D",
+							["classe"] = "HUNTER",
 							["totalover"] = 0.005801,
 							["total_without_pet"] = 0.005801,
 							["total"] = 520.005801,
@@ -9143,8 +9150,8 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.005801,
 							["healing_taken"] = 0.005801,
 							["end_time"] = 1670041585,
-							["spec"] = 255,
-							["healing_from"] = {
+							["tipo"] = 2,
+							["targets_overheal"] = {
 							},
 							["nome"] = "邁克爾假死",
 							["spells"] = {
@@ -9153,23 +9160,24 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["classe"] = "HUNTER",
-							["start_time"] = 1670041582,
-							["custom"] = 0,
-							["last_event"] = 1670041585,
 							["heal_enemy_amt"] = 0,
 							["totaldenied"] = 0.005801,
+							["custom"] = 0,
+							["last_event"] = 1670041585,
+							["aID"] = "4487-0008386D",
+							["start_time"] = 1670041582,
 							["delay"] = 0,
-							["tipo"] = 2,
+							["spec"] = 255,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
-							["targets_overheal"] = {
+							["healing_from"] = {
+								["全球頂級投資家 <邁克爾假死>"] = true,
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "Pet-0-4490-571-166-30164-0700082C0F",
 							["totalover"] = 0.005549,
 							["total_without_pet"] = 520.005549,
 							["total"] = 520.005549,
@@ -9211,25 +9219,24 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
+										["n_curado"] = 520,
 										["totaldenied"] = 0,
 										["n_amt"] = 4,
-										["n_curado"] = 520,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
-							["healing_from"] = {
-								["全球頂級投資家 <邁克爾假死>"] = true,
-							},
 							["classe"] = "PET",
-							["aID"] = "Pet-0-4490-571-166-30164-0700082C0F",
+							["targets_overheal"] = {
+							},
+							["tipo"] = 2,
 							["custom"] = 0,
 							["last_event"] = 1670041585,
-							["start_time"] = 1670041582,
 							["totaldenied"] = 0.005549,
+							["start_time"] = 1670041582,
 							["delay"] = 0,
-							["tipo"] = 2,
+							["heal_enemy_amt"] = 0,
 						}, -- [2]
 					},
 				}, -- [2]
@@ -9274,14 +9281,14 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["spec"] = 255,
+							["totalover"] = 0.005623,
 							["flag_original"] = 1297,
-							["alternatepower"] = 0.005623,
+							["last_event"] = 1670041595,
 							["tipo"] = 3,
 							["aID"] = "4487-0008386D",
-							["last_event"] = 1670041595,
+							["alternatepower"] = 0.005623,
 							["serial"] = "Player-4487-0008386D",
-							["totalover"] = 0.005623,
+							["spec"] = 255,
 						}, -- [1]
 					},
 				}, -- [3]
@@ -9300,10 +9307,10 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670041581,
 										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -9313,59 +9320,59 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[57819] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 57819,
+										["uptime"] = 6,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 6,
-										["id"] = 57819,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[57669] = {
-										["appliedamt"] = 0,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 57669,
+										["uptime"] = 0,
 										["targets"] = {
 										},
-										["activedamt"] = 0,
-										["uptime"] = 0,
-										["id"] = 57669,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 									[34501] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 1,
+										["id"] = 34501,
+										["uptime"] = 4,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 4,
-										["id"] = 34501,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[61847] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 61847,
+										["uptime"] = 6,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 6,
-										["id"] = 61847,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[64495] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 64495,
+										["uptime"] = 20,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 20,
-										["id"] = 64495,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -9378,50 +9385,50 @@ _detalhes_database = {
 								[781] = 1,
 								[75] = 1,
 							},
-							["debuff_uptime_targets"] = {
+							["buff_uptime_targets"] = {
 							},
-							["last_event"] = 1670041601,
 							["tipo"] = 4,
+							["last_event"] = 1670041601,
+							["classe"] = "HUNTER",
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["classe"] = "HUNTER",
 							["serial"] = "Player-4487-0008386D",
-							["buff_uptime_targets"] = {
+							["debuff_uptime_targets"] = {
 							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
-							["classe"] = "PET",
+							["tipo"] = 4,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[64495] = 1,
 								[52474] = 3,
 							},
-							["tipo"] = 4,
+							["classe"] = "PET",
 							["aID"] = "Pet-0-4490-571-166-30164-0700082C0F",
 							["serial"] = "Pet-0-4490-571-166-30164-0700082C0F",
-							["last_event"] = 0,
+							["fight_component"] = true,
 						}, -- [2]
 						{
 							["monster"] = true,
-							["tipo"] = 4,
+							["pets"] = {
+							},
 							["nome"] = "野蛮岭暴徒",
-							["flag_original"] = 68168,
+							["aID"] = "29623",
 							["spell_cast"] = {
 								[54678] = 1,
 							},
 							["fight_component"] = true,
-							["pets"] = {
-							},
-							["last_event"] = 0,
 							["classe"] = "UNKNOW",
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-4490-571-166-29623-00000ACFDB",
-							["aID"] = "29623",
+							["flag_original"] = 68168,
 						}, -- [3]
 					},
 				}, -- [4]
@@ -9454,21 +9461,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 401,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["totals_grupo"] = {
 					9496, -- [1]
@@ -9477,18 +9484,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 401,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
@@ -9509,7 +9516,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["邁克爾假死"] = 11601.008585,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -9518,30 +9528,27 @@ _detalhes_database = {
 							["邁克爾假死"] = 520.005801,
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["邁克爾假死"] = 11601.008585,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 2185.688,
 				["combat_id"] = 1580,
+				["overall_added"] = true,
+				["TimeData"] = {
+				},
 				["spells_cast_timeline"] = {
 				},
+				["combat_counter"] = 4898,
+				["player_last_events"] = {
+				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "12:26:19",
+				["start_time"] = 2179.689,
 				["contra"] = "野蛮岭暴徒",
 				["frags"] = {
 					["野蛮岭暴徒"] = 1,
 				},
-				["combat_counter"] = 4898,
-				["data_inicio"] = "12:26:19",
-				["CombatSkillCache"] = {
-				},
-				["player_last_events"] = {
-				},
-				["start_time"] = 2179.689,
-				["TimeData"] = {
-				},
-				["overall_added"] = true,
 			}, -- [13]
 			{
 				{
@@ -9559,19 +9566,19 @@ _detalhes_database = {
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["friendlyfire_total"] = 0,
-							["damage_taken"] = 0.002923,
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["aID"] = "4487-0008386D",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 21432.002923,
-							["on_hold"] = false,
-							["serial"] = "Player-4487-0008386D",
+							["spec"] = 255,
+							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1670041289,
-							["classe"] = "HUNTER",
-							["friendlyfire"] = {
-							},
+							["total"] = 24706.002923,
+							["friendlyfire_total"] = 0,
+							["last_dps"] = 1870.391621091704,
 							["nome"] = "邁克爾假死",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -9590,23 +9597,23 @@ _detalhes_database = {
 										["counter"] = 1,
 										["ChartData"] = {
 											[8] = 761,
-											[11] = 761,
 											[5] = 761,
+											[11] = 761,
 										},
 										["total"] = 761,
 										["c_max"] = 0,
 										["id"] = 53339,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[49050] = {
 										["c_amt"] = 1,
@@ -9623,23 +9630,23 @@ _detalhes_database = {
 										["counter"] = 2,
 										["ChartData"] = {
 											[8] = 1364,
-											[11] = 1364,
 											[5] = 1364,
+											[11] = 1364,
 										},
 										["total"] = 4977,
 										["c_max"] = 3613,
 										["id"] = 49050,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 3613,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[75] = {
 										["c_amt"] = 2,
@@ -9656,23 +9663,23 @@ _detalhes_database = {
 										["counter"] = 2,
 										["ChartData"] = {
 											[8] = 1993,
-											[11] = 1993,
 											[5] = 1993,
+											[11] = 1993,
 										},
 										["total"] = 4159,
 										["c_max"] = 2166,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 1993,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[53352] = {
 										["c_amt"] = 2,
@@ -9689,23 +9696,23 @@ _detalhes_database = {
 										["counter"] = 5,
 										["ChartData"] = {
 											[8] = 3873,
-											[11] = 7172,
 											[5] = 3873,
+											[11] = 7172,
 										},
 										["total"] = 10471,
 										["c_max"] = 3299,
 										["id"] = 53352,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 3299,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
 									},
 									[48996] = {
 										["c_amt"] = 0,
@@ -9722,37 +9729,37 @@ _detalhes_database = {
 										["counter"] = 1,
 										["ChartData"] = {
 											[8] = 1064,
-											[11] = 1064,
 											[5] = 1064,
+											[11] = 1064,
 										},
 										["total"] = 1064,
 										["c_max"] = 0,
 										["id"] = 48996,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["total"] = 24706.002923,
-							["last_event"] = 1670041289,
-							["colocacao"] = 1,
-							["custom"] = 0,
+							["end_time"] = 1670041289,
 							["tipo"] = 1,
-							["last_dps"] = 1870.391621091704,
+							["custom"] = 0,
+							["colocacao"] = 1,
+							["last_event"] = 1670041289,
+							["damage_taken"] = 0.002923,
 							["start_time"] = 1670041276,
-							["delay"] = 0,
-							["spec"] = 255,
+							["serial"] = "Player-4487-0008386D",
+							["classe"] = "HUNTER",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -9765,13 +9772,13 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["aID"] = "Pet-0-4490-571-166-30164-0500082C0F",
+							["tipo"] = 1,
 							["classe"] = "PET",
-							["last_event"] = 1670041289,
-							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3274.004303,
-							["serial"] = "Pet-0-4490-571-166-30164-0500082C0F",
+							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1670041289,
 							["total"] = 3274.004303,
@@ -9796,16 +9803,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 6,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 									[52474] = {
 										["c_amt"] = 1,
@@ -9824,30 +9831,30 @@ _detalhes_database = {
 										["c_max"] = 597,
 										["id"] = 52474,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 597,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 196.004303,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 196.004303,
+							["last_event"] = 1670041289,
+							["on_hold"] = false,
 							["start_time"] = 1670041278,
-							["delay"] = 0,
-							["aID"] = "Pet-0-4490-571-166-30164-0500082C0F",
+							["serial"] = "Pet-0-4490-571-166-30164-0500082C0F",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 68136,
@@ -9863,18 +9870,17 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["dps_started"] = false,
-							["friendlyfire"] = {
-							},
+							["classe"] = "UNKNOW",
+							["on_hold"] = false,
 							["aID"] = "29402",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 739.003549,
-							["serial"] = "Creature-0-4490-571-166-29402-00000ACDFE",
-							["fight_component"] = true,
+							["delay"] = 1670041554,
+							["dps_started"] = false,
 							["end_time"] = 1670041579,
 							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
+							["damage_taken"] = 43066.003549,
 							["nome"] = "铁毛猛犸象",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -9895,33 +9901,34 @@ _detalhes_database = {
 										["counter"] = 6,
 										["total"] = 739,
 										["c_max"] = 0,
-										["MISS"] = 1,
+										["r_amt"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["DODGE"] = 2,
+										["b_dmg"] = 0,
 										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["a_amt"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["extra"] = {
+										},
 										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["DODGE"] = 2,
+										["MISS"] = 1,
 									}, -- [1]
 								},
 								["tipo"] = 2,
 							},
-							["last_event"] = 1670041554,
-							["total"] = 739.003549,
-							["last_dps"] = 0,
-							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 43066.003549,
+							["last_dps"] = 0,
+							["total"] = 739.003549,
+							["custom"] = 0,
+							["last_event"] = 1670041554,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1670041526,
-							["delay"] = 1670041554,
-							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-4490-571-166-29402-00000ACDFE",
+							["fight_component"] = true,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -9963,14 +9970,14 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["spec"] = 255,
+							["totalover"] = 0.005305,
 							["flag_original"] = 1297,
-							["alternatepower"] = 0.005305,
+							["last_event"] = 1670041289,
 							["tipo"] = 3,
 							["aID"] = "4487-0008386D",
-							["last_event"] = 1670041289,
+							["alternatepower"] = 0.005305,
 							["serial"] = "Player-4487-0008386D",
-							["totalover"] = 0.005305,
+							["spec"] = 255,
 						}, -- [1]
 					},
 				}, -- [3]
@@ -9983,37 +9990,37 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[60053] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = -1,
+										["refreshamt"] = 0,
+										["id"] = 60053,
+										["uptime"] = 11,
 										["targets"] = {
 										},
-										["activedamt"] = -1,
-										["uptime"] = 11,
-										["id"] = 60053,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[53338] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = -1,
+										["refreshamt"] = 0,
+										["id"] = 53338,
+										["uptime"] = 6,
 										["targets"] = {
 										},
-										["activedamt"] = -1,
-										["uptime"] = 6,
-										["id"] = 53338,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[49050] = {
-										["appliedamt"] = 2,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 49050,
+										["uptime"] = 6,
 										["targets"] = {
 										},
-										["activedamt"] = 0,
-										["uptime"] = 6,
-										["id"] = 49050,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 2,
 									},
 								},
 								["tipo"] = 9,
@@ -10023,48 +10030,48 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[34026] = {
-										["appliedamt"] = 0,
-										["targets"] = {
-										},
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
-										["uptime"] = 0,
-										["id"] = 34026,
 										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[34501] = {
-										["appliedamt"] = 2,
+										["id"] = 34026,
+										["uptime"] = 0,
 										["targets"] = {
 										},
-										["activedamt"] = 2,
-										["uptime"] = 8,
-										["id"] = 34501,
-										["refreshamt"] = 3,
-										["actived"] = false,
+										["appliedamt"] = 0,
+									},
+									[57819] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 57819,
+										["uptime"] = 13,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 									[70893] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
-										["uptime"] = 10,
+										["refreshamt"] = 0,
 										["id"] = 70893,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[60065] = {
-										["appliedamt"] = 1,
+										["uptime"] = 10,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 0,
-										["id"] = 60065,
-										["refreshamt"] = 0,
-										["actived"] = false,
+										["appliedamt"] = 1,
+									},
+									[34501] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 3,
+										["id"] = 34501,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
 									},
 									[34027] = {
 										["activedamt"] = 1,
@@ -10073,21 +10080,21 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670041276,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = true,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[61847] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 61847,
+										["uptime"] = 13,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 13,
-										["id"] = 61847,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[64495] = {
 										["activedamt"] = 1,
@@ -10096,21 +10103,21 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670041288,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = true,
-										["counter"] = 0,
-									},
-									[57819] = {
 										["appliedamt"] = 1,
+									},
+									[60065] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 60065,
+										["uptime"] = 0,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 13,
-										["id"] = 57819,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -10127,34 +10134,34 @@ _detalhes_database = {
 								[60053] = 1,
 								[48996] = 1,
 							},
-							["debuff_uptime_targets"] = {
+							["buff_uptime_targets"] = {
 							},
-							["last_event"] = 1670041290,
 							["tipo"] = 4,
+							["last_event"] = 1670041290,
+							["classe"] = "HUNTER",
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["classe"] = "HUNTER",
 							["serial"] = "Player-4487-0008386D",
-							["buff_uptime_targets"] = {
+							["debuff_uptime_targets"] = {
 							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
-							["tipo"] = 4,
+							["classe"] = "PET",
 							["pets"] = {
 							},
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["aID"] = "Pet-0-4490-571-166-30164-0500082C0F",
+							["serial"] = "Pet-0-4490-571-166-30164-0500082C0F",
 							["spell_cast"] = {
 								[61684] = 1,
-								[64495] = 1,
 								[52474] = 4,
+								[64495] = 1,
 							},
-							["aID"] = "Pet-0-4490-571-166-30164-0500082C0F",
-							["classe"] = "PET",
-							["serial"] = "Pet-0-4490-571-166-30164-0500082C0F",
-							["last_event"] = 0,
 						}, -- [2]
 					},
 				}, -- [4]
@@ -10187,21 +10194,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 255,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = -0.004697000000000173,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["totals_grupo"] = {
 					21432, -- [1]
@@ -10210,18 +10217,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 255,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
@@ -10243,7 +10250,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["邁克爾假死"] = 24706.002923,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -10251,15 +10261,12 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["邁克爾假死"] = 24706.002923,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 1889.809,
 				["combat_id"] = 1579,
-				["data_inicio"] = "12:21:16",
+				["overall_added"] = true,
 				["frags"] = {
 					["铁毛猛犸象"] = 2,
 				},
@@ -10273,7 +10280,7 @@ _detalhes_database = {
 				["start_time"] = 1876.6,
 				["TimeData"] = {
 				},
-				["overall_added"] = true,
+				["data_inicio"] = "12:21:16",
 			}, -- [14]
 			{
 				{
@@ -10291,20 +10298,7 @@ _detalhes_database = {
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["aID"] = "4487-0008386D",
-							["spec"] = 255,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 18810.008847,
-							["on_hold"] = false,
-							["serial"] = "Player-4487-0008386D",
-							["dps_started"] = false,
-							["end_time"] = 1670041259,
 							["classe"] = "HUNTER",
-							["friendlyfire"] = {
-							},
-							["nome"] = "邁克爾假死",
 							["spells"] = {
 								["_ActorTable"] = {
 									[61006] = {
@@ -10324,16 +10318,16 @@ _detalhes_database = {
 										["c_max"] = 9850,
 										["id"] = 61006,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 9850,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[75] = {
 										["c_amt"] = 1,
@@ -10352,16 +10346,16 @@ _detalhes_database = {
 										["c_max"] = 2073,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 2073,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[53352] = {
 										["c_amt"] = 1,
@@ -10380,30 +10374,43 @@ _detalhes_database = {
 										["c_max"] = 3200,
 										["id"] = 53352,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 3200,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["total"] = 20698.008847,
-							["tipo"] = 1,
-							["colocacao"] = 1,
-							["custom"] = 0,
-							["last_event"] = 1670041258,
-							["last_dps"] = 5222.813234166081,
-							["start_time"] = 1670041254,
-							["delay"] = 0,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 18810.008847,
 							["damage_taken"] = 0.008847,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 20698.008847,
+							["aID"] = "4487-0008386D",
+							["last_dps"] = 5222.813234166081,
+							["nome"] = "邁克爾假死",
+							["spec"] = 255,
+							["grupo"] = true,
+							["end_time"] = 1670041259,
+							["last_event"] = 1670041258,
+							["custom"] = 0,
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1670041254,
+							["serial"] = "Player-4487-0008386D",
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -10416,33 +10423,33 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["aID"] = "29402",
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004157,
-							["serial"] = "Creature-0-4490-571-166-29402-00000ACA02",
+							["delay"] = 0,
 							["fight_component"] = true,
 							["total"] = 0.004157,
 							["end_time"] = 1670041259,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 20698.004157,
 							["nome"] = "铁毛猛犸象",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["last_event"] = 0,
-							["dps_started"] = false,
-							["last_dps"] = 0,
-							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 20698.004157,
+							["last_dps"] = 0,
+							["dps_started"] = false,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["on_hold"] = false,
 							["start_time"] = 1670041259,
-							["delay"] = 0,
-							["aID"] = "29402",
+							["serial"] = "Creature-0-4490-571-166-29402-00000ACA02",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
@@ -10454,15 +10461,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1670041259,
-							["last_event"] = 1670041258,
+							["classe"] = "PET",
+							["tipo"] = 1,
 							["aID"] = "Pet-0-4490-571-166-30164-0400082C0F",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1888.007004,
-							["serial"] = "Pet-0-4490-571-166-30164-0400082C0F",
+							["delay"] = 0,
 							["dps_started"] = false,
-							["total"] = 1888.007004,
+							["end_time"] = 1670041259,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
@@ -10485,16 +10492,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 									[52474] = {
 										["c_amt"] = 1,
@@ -10513,30 +10520,30 @@ _detalhes_database = {
 										["c_max"] = 814,
 										["id"] = 52474,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 429,
 										["a_dmg"] = 0,
 										["c_min"] = 814,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 429,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.007004,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.007004,
+							["last_event"] = 1670041258,
+							["on_hold"] = false,
 							["start_time"] = 1670041256,
-							["delay"] = 0,
-							["classe"] = "PET",
+							["serial"] = "Pet-0-4490-571-166-30164-0400082C0F",
+							["total"] = 1888.007004,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -10546,13 +10553,13 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1300,
-							["targets_overheal"] = {
+							["healing_from"] = {
 							},
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
 							["iniciar_hps"] = false,
-							["aID"] = "4487-0008386D",
+							["classe"] = "HUNTER",
 							["totalover"] = 0.003322,
 							["total_without_pet"] = 0.003322,
 							["total"] = 130.003322,
@@ -10570,8 +10577,8 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.003322,
 							["healing_taken"] = 0.003322,
 							["end_time"] = 1670041259,
-							["spec"] = 255,
-							["healing_from"] = {
+							["tipo"] = 2,
+							["targets_overheal"] = {
 							},
 							["nome"] = "邁克爾假死",
 							["spells"] = {
@@ -10580,23 +10587,24 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["classe"] = "HUNTER",
-							["start_time"] = 1670041259,
-							["custom"] = 0,
-							["last_event"] = 1670041259,
 							["heal_enemy_amt"] = 0,
 							["totaldenied"] = 0.003322,
+							["custom"] = 0,
+							["last_event"] = 1670041259,
+							["aID"] = "4487-0008386D",
+							["start_time"] = 1670041259,
 							["delay"] = 0,
-							["tipo"] = 2,
+							["spec"] = 255,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
-							["targets_overheal"] = {
+							["healing_from"] = {
+								["全球頂級投資家 <邁克爾假死>"] = true,
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "Pet-0-4490-571-166-30164-0400082C0F",
 							["totalover"] = 0.002989,
 							["total_without_pet"] = 130.002989,
 							["total"] = 130.002989,
@@ -10638,25 +10646,24 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
+										["n_curado"] = 130,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
-										["n_curado"] = 130,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
-							["healing_from"] = {
-								["全球頂級投資家 <邁克爾假死>"] = true,
-							},
 							["classe"] = "PET",
-							["aID"] = "Pet-0-4490-571-166-30164-0400082C0F",
+							["targets_overheal"] = {
+							},
+							["tipo"] = 2,
 							["custom"] = 0,
 							["last_event"] = 1670041259,
-							["start_time"] = 1670041259,
 							["totaldenied"] = 0.002989,
+							["start_time"] = 1670041259,
 							["delay"] = 0,
-							["tipo"] = 2,
+							["heal_enemy_amt"] = 0,
 						}, -- [2]
 					},
 				}, -- [2]
@@ -10701,14 +10708,14 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["spec"] = 255,
+							["totalover"] = 0.003162,
 							["flag_original"] = 1297,
-							["alternatepower"] = 0.003162,
+							["last_event"] = 1670041264,
 							["tipo"] = 3,
 							["aID"] = "4487-0008386D",
-							["last_event"] = 1670041264,
+							["alternatepower"] = 0.003162,
 							["serial"] = "Player-4487-0008386D",
-							["totalover"] = 0.003162,
+							["spec"] = 255,
 						}, -- [1]
 					},
 				}, -- [3]
@@ -10727,10 +10734,10 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670041256,
 										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -10740,71 +10747,70 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[57819] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 57819,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 5,
-										["id"] = 57819,
-										["refreshamt"] = 0,
-										["actived"] = false,
+										["appliedamt"] = 1,
+									},
+									[34501] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 3,
+										["id"] = 34501,
+										["uptime"] = 5,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 									[57669] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 5,
-										["id"] = 57669,
-										["refreshamt"] = 0,
+										["counter"] = 0,
 										["actived"] = false,
-										["counter"] = 0,
-									},
-									[70893] = {
 										["activedamt"] = 1,
-										["id"] = 70893,
+										["refreshamt"] = 0,
+										["id"] = 57669,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["actived_at"] = 1670041258,
-										["uptime"] = 0,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = true,
-										["counter"] = 0,
 									},
 									[34837] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 34837,
+										["uptime"] = 4,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 4,
-										["id"] = 34837,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[34027] = {
-										["appliedamt"] = 0,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 34027,
+										["uptime"] = 0,
 										["targets"] = {
 										},
-										["activedamt"] = 0,
-										["uptime"] = 0,
-										["id"] = 34027,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 									[61847] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 61847,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 5,
-										["id"] = 61847,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[34026] = {
 										["activedamt"] = 1,
@@ -10813,21 +10819,22 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670041255,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = true,
-										["counter"] = 0,
-									},
-									[34501] = {
 										["appliedamt"] = 1,
+									},
+									[70893] = {
+										["activedamt"] = 1,
+										["id"] = 70893,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 5,
-										["id"] = 34501,
-										["refreshamt"] = 3,
-										["actived"] = false,
+										["actived_at"] = 1670041258,
+										["uptime"] = 0,
 										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -10841,33 +10848,33 @@ _detalhes_database = {
 								[75] = 1,
 								[34026] = 1,
 							},
-							["debuff_uptime_targets"] = {
+							["buff_uptime_targets"] = {
 							},
-							["last_event"] = 1670041259,
 							["tipo"] = 4,
+							["last_event"] = 1670041259,
+							["classe"] = "HUNTER",
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["classe"] = "HUNTER",
 							["serial"] = "Player-4487-0008386D",
-							["buff_uptime_targets"] = {
+							["debuff_uptime_targets"] = {
 							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
-							["classe"] = "PET",
+							["tipo"] = 4,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[52474] = 2,
 							},
-							["tipo"] = 4,
+							["classe"] = "PET",
 							["aID"] = "Pet-0-4490-571-166-30164-0400082C0F",
 							["serial"] = "Pet-0-4490-571-166-30164-0400082C0F",
-							["last_event"] = 0,
+							["fight_component"] = true,
 						}, -- [2]
 					},
 				}, -- [4]
@@ -10900,21 +10907,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 391,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["totals_grupo"] = {
 					18810, -- [1]
@@ -10923,18 +10930,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 391,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
@@ -10956,7 +10963,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["邁克爾假死"] = 20698.008847,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -10965,15 +10975,12 @@ _detalhes_database = {
 							["邁克爾假死"] = 130.003322,
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["邁克爾假死"] = 20698.008847,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 1859.324,
 				["combat_id"] = 1578,
-				["data_inicio"] = "12:20:54",
+				["overall_added"] = true,
 				["frags"] = {
 					["铁毛猛犸象"] = 1,
 				},
@@ -10987,7 +10994,7 @@ _detalhes_database = {
 				["start_time"] = 1854.681,
 				["TimeData"] = {
 				},
-				["overall_added"] = true,
+				["data_inicio"] = "12:20:54",
 			}, -- [15]
 			{
 				{
@@ -11005,20 +11012,7 @@ _detalhes_database = {
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["aID"] = "4487-0008386D",
-							["spec"] = 255,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 13612.00403,
-							["on_hold"] = false,
-							["serial"] = "Player-4487-0008386D",
-							["dps_started"] = false,
-							["end_time"] = 1670041250,
 							["classe"] = "HUNTER",
-							["friendlyfire"] = {
-							},
-							["nome"] = "邁克爾假死",
 							["spells"] = {
 								["_ActorTable"] = {
 									[61006] = {
@@ -11038,16 +11032,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 61006,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[49050] = {
 										["c_amt"] = 0,
@@ -11066,16 +11060,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 49050,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[53352] = {
 										["c_amt"] = 3,
@@ -11094,30 +11088,43 @@ _detalhes_database = {
 										["c_max"] = 2825,
 										["id"] = 53352,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 2824,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["total"] = 14222.00403,
-							["tipo"] = 1,
-							["colocacao"] = 1,
-							["custom"] = 0,
-							["last_event"] = 1670041249,
-							["last_dps"] = 4939.91109065625,
-							["start_time"] = 1670041246,
-							["delay"] = 0,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 13612.00403,
 							["damage_taken"] = 0.00403,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 14222.00403,
+							["aID"] = "4487-0008386D",
+							["last_dps"] = 4939.91109065625,
+							["nome"] = "邁克爾假死",
+							["spec"] = 255,
+							["grupo"] = true,
+							["end_time"] = 1670041250,
+							["last_event"] = 1670041249,
+							["custom"] = 0,
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1670041246,
+							["serial"] = "Player-4487-0008386D",
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -11130,33 +11137,33 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["aID"] = "29402",
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004764,
-							["serial"] = "Creature-0-4490-571-166-29402-00010ACE88",
+							["delay"] = 0,
 							["fight_component"] = true,
 							["total"] = 0.004764,
 							["end_time"] = 1670041250,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 14222.004764,
 							["nome"] = "铁毛猛犸象",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["last_event"] = 0,
-							["dps_started"] = false,
-							["last_dps"] = 0,
-							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 14222.004764,
+							["last_dps"] = 0,
+							["dps_started"] = false,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["on_hold"] = false,
 							["start_time"] = 1670041250,
-							["delay"] = 0,
-							["aID"] = "29402",
+							["serial"] = "Creature-0-4490-571-166-29402-00010ACE88",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
@@ -11168,15 +11175,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1670041250,
-							["last_event"] = 1670041248,
+							["classe"] = "PET",
+							["tipo"] = 1,
 							["aID"] = "Pet-0-4490-571-166-30164-0400082C0F",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 610.0066879999999,
-							["serial"] = "Pet-0-4490-571-166-30164-0400082C0F",
+							["delay"] = 0,
 							["dps_started"] = false,
-							["total"] = 610.0066879999999,
+							["end_time"] = 1670041250,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
@@ -11199,16 +11206,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 									[52474] = {
 										["c_amt"] = 0,
@@ -11227,30 +11234,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 52474,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.006688,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.006688,
+							["last_event"] = 1670041248,
+							["on_hold"] = false,
 							["start_time"] = 1670041248,
-							["delay"] = 0,
-							["classe"] = "PET",
+							["serial"] = "Pet-0-4490-571-166-30164-0400082C0F",
+							["total"] = 610.0066879999999,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -11301,14 +11308,14 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["spec"] = 255,
+							["totalover"] = 0.002883,
 							["flag_original"] = 1297,
-							["alternatepower"] = 0.002883,
+							["last_event"] = 1670041254,
 							["tipo"] = 3,
 							["aID"] = "4487-0008386D",
-							["last_event"] = 1670041254,
+							["alternatepower"] = 0.002883,
 							["serial"] = "Player-4487-0008386D",
-							["totalover"] = 0.002883,
+							["spec"] = 255,
 						}, -- [1]
 					},
 				}, -- [3]
@@ -11321,15 +11328,15 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[49050] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 49050,
+										["uptime"] = 1,
 										["targets"] = {
 										},
-										["activedamt"] = 0,
-										["uptime"] = 1,
-										["id"] = 49050,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[60053] = {
 										["activedamt"] = -1,
@@ -11338,10 +11345,10 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670041248,
 										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -11351,48 +11358,48 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[57819] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 57819,
+										["uptime"] = 4,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 4,
-										["id"] = 57819,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[57669] = {
-										["appliedamt"] = 0,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 57669,
+										["uptime"] = 0,
 										["targets"] = {
 										},
-										["activedamt"] = 0,
-										["uptime"] = 0,
-										["id"] = 57669,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 									[34501] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 2,
+										["id"] = 34501,
+										["uptime"] = 4,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 4,
-										["id"] = 34501,
-										["refreshamt"] = 2,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[61847] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 61847,
+										["uptime"] = 4,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 4,
-										["id"] = 61847,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[64495] = {
 										["activedamt"] = 1,
@@ -11401,10 +11408,10 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670041247,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = true,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -11418,33 +11425,33 @@ _detalhes_database = {
 								[49050] = 1,
 								[75] = 1,
 							},
-							["debuff_uptime_targets"] = {
+							["buff_uptime_targets"] = {
 							},
-							["last_event"] = 1670041250,
 							["tipo"] = 4,
+							["last_event"] = 1670041250,
+							["classe"] = "HUNTER",
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["classe"] = "HUNTER",
 							["serial"] = "Player-4487-0008386D",
-							["buff_uptime_targets"] = {
+							["debuff_uptime_targets"] = {
 							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
-							["tipo"] = 4,
+							["classe"] = "PET",
 							["pets"] = {
 							},
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["aID"] = "Pet-0-4490-571-166-30164-0400082C0F",
+							["serial"] = "Pet-0-4490-571-166-30164-0400082C0F",
 							["spell_cast"] = {
 								[64495] = 1,
 								[52474] = 1,
 							},
-							["aID"] = "Pet-0-4490-571-166-30164-0400082C0F",
-							["classe"] = "PET",
-							["serial"] = "Pet-0-4490-571-166-30164-0400082C0F",
-							["last_event"] = 0,
 						}, -- [2]
 					},
 				}, -- [4]
@@ -11477,21 +11484,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 264,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["totals_grupo"] = {
 					13612, -- [1]
@@ -11500,18 +11507,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 264,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
@@ -11533,7 +11540,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["邁克爾假死"] = 14222.00403,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -11541,15 +11551,12 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["邁克爾假死"] = 14222.00403,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 1850.097,
 				["combat_id"] = 1577,
-				["data_inicio"] = "12:20:47",
+				["overall_added"] = true,
 				["frags"] = {
 					["雪盲追随者"] = 1,
 					["铁毛猛犸象"] = 1,
@@ -11564,7 +11571,7 @@ _detalhes_database = {
 				["start_time"] = 1846.945,
 				["TimeData"] = {
 				},
-				["overall_added"] = true,
+				["data_inicio"] = "12:20:47",
 			}, -- [16]
 			{
 				{
@@ -11582,36 +11589,48 @@ _detalhes_database = {
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
+							["classe"] = "HUNTER",
+							["spec"] = 255,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 14536.002281,
+							["damage_taken"] = 0.002281,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1670041214,
 							["aID"] = "4487-0008386D",
+							["last_dps"] = 3414.188649702588,
+							["nome"] = "邁克爾假死",
 							["spells"] = {
 								["_ActorTable"] = {
-									[75] = {
+									[49050] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 1038,
+										["n_max"] = 1403,
 										["targets"] = {
-											["铁毛猛犸象"] = 1038,
+											["铁毛猛犸象"] = 1403,
 										},
-										["n_dmg"] = 1038,
-										["n_min"] = 1038,
+										["n_dmg"] = 1403,
+										["n_min"] = 1403,
 										["g_dmg"] = 0,
 										["counter"] = 1,
-										["total"] = 1038,
+										["total"] = 1403,
 										["c_max"] = 0,
-										["id"] = 75,
+										["id"] = 49050,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[61006] = {
 										["c_amt"] = 0,
@@ -11630,16 +11649,44 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 61006,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[75] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1038,
+										["targets"] = {
+											["铁毛猛犸象"] = 1038,
+										},
+										["n_dmg"] = 1038,
+										["n_min"] = 1038,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1038,
+										["c_max"] = 0,
+										["id"] = 75,
+										["r_dmg"] = 0,
 										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[53352] = {
 										["c_amt"] = 2,
@@ -11658,71 +11705,31 @@ _detalhes_database = {
 										["c_max"] = 3414,
 										["id"] = 53352,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 3414,
 										["a_dmg"] = 0,
 										["c_min"] = 3160,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 3414,
-										["r_amt"] = 0,
-									},
-									[49050] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1403,
-										["targets"] = {
-											["铁毛猛犸象"] = 1403,
-										},
-										["n_dmg"] = 1403,
-										["n_min"] = 1403,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 1403,
-										["c_max"] = 0,
-										["id"] = 49050,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 4,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 14536.002281,
-							["on_hold"] = false,
-							["serial"] = "Player-4487-0008386D",
-							["dps_started"] = false,
+							["grupo"] = true,
 							["total"] = 15497.002281,
-							["classe"] = "HUNTER",
+							["last_event"] = 1670041213,
+							["custom"] = 0,
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1670041209,
+							["serial"] = "Player-4487-0008386D",
 							["friendlyfire"] = {
 							},
-							["nome"] = "邁克爾假死",
-							["spec"] = 255,
-							["grupo"] = true,
-							["end_time"] = 1670041214,
-							["tipo"] = 1,
-							["colocacao"] = 1,
-							["custom"] = 0,
-							["last_event"] = 1670041213,
-							["last_dps"] = 3414.188649702588,
-							["start_time"] = 1670041209,
-							["delay"] = 0,
-							["damage_taken"] = 0.002281,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -11734,15 +11741,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1670041214,
-							["last_event"] = 1670041212,
+							["classe"] = "PET",
+							["tipo"] = 1,
 							["aID"] = "Pet-0-4490-571-166-30164-0300082C0F",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 961.008553,
-							["serial"] = "Pet-0-4490-571-166-30164-0300082C0F",
+							["delay"] = 0,
 							["dps_started"] = false,
-							["total"] = 961.008553,
+							["end_time"] = 1670041214,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
@@ -11765,16 +11772,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 									[52474] = {
 										["c_amt"] = 0,
@@ -11793,30 +11800,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 52474,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.008553,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.008553,
+							["last_event"] = 1670041212,
+							["on_hold"] = false,
 							["start_time"] = 1670041211,
-							["delay"] = 0,
-							["classe"] = "PET",
+							["serial"] = "Pet-0-4490-571-166-30164-0300082C0F",
+							["total"] = 961.008553,
 						}, -- [2]
 						{
 							["flag_original"] = 68136,
@@ -11829,33 +11836,33 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["dps_started"] = false,
+							["end_time"] = 1670041214,
+							["friendlyfire_total"] = 0,
 							["aID"] = "29402",
-							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004057,
-							["serial"] = "Creature-0-4490-571-166-29402-00000ACE45",
-							["fight_component"] = true,
+							["delay"] = 0,
+							["dps_started"] = false,
 							["total"] = 0.004057,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["fight_component"] = true,
+							["damage_taken"] = 15497.004057,
 							["nome"] = "铁毛猛犸象",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["last_event"] = 0,
-							["on_hold"] = false,
-							["last_dps"] = 0,
-							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 15497.004057,
+							["last_dps"] = 0,
+							["on_hold"] = false,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1670041214,
-							["delay"] = 0,
-							["end_time"] = 1670041214,
+							["serial"] = "Creature-0-4490-571-166-29402-00000ACE45",
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -11906,14 +11913,14 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["spec"] = 255,
+							["totalover"] = 0.005856,
 							["flag_original"] = 1297,
-							["alternatepower"] = 0.005856,
+							["last_event"] = 1670041226,
 							["tipo"] = 3,
 							["aID"] = "4487-0008386D",
-							["last_event"] = 1670041226,
+							["alternatepower"] = 0.005856,
 							["serial"] = "Player-4487-0008386D",
-							["totalover"] = 0.005856,
+							["spec"] = 255,
 						}, -- [1]
 					},
 				}, -- [3]
@@ -11932,10 +11939,10 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670041211,
 										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 									[53338] = {
 										["activedamt"] = -1,
@@ -11944,21 +11951,21 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670041213,
 										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 									[49050] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 49050,
+										["uptime"] = 2,
 										["targets"] = {
 										},
-										["activedamt"] = 0,
-										["uptime"] = 2,
-										["id"] = 49050,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -11968,70 +11975,70 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[64420] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 64420,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 5,
-										["id"] = 64420,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[57669] = {
-										["appliedamt"] = 0,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 57669,
+										["uptime"] = 0,
 										["targets"] = {
 										},
-										["activedamt"] = 0,
-										["uptime"] = 0,
-										["id"] = 57669,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 									[34501] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 1,
+										["id"] = 34501,
+										["uptime"] = 4,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 4,
-										["id"] = 34501,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[34027] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 34027,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 5,
-										["id"] = 34027,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[61847] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 61847,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 5,
-										["id"] = 61847,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[57819] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 57819,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 5,
-										["id"] = 57819,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -12045,47 +12052,47 @@ _detalhes_database = {
 								[49050] = 1,
 								[75] = 1,
 							},
-							["debuff_uptime_targets"] = {
+							["buff_uptime_targets"] = {
 							},
-							["last_event"] = 1670041214,
 							["tipo"] = 4,
+							["last_event"] = 1670041214,
+							["classe"] = "HUNTER",
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["classe"] = "HUNTER",
 							["serial"] = "Player-4487-0008386D",
-							["buff_uptime_targets"] = {
+							["debuff_uptime_targets"] = {
 							},
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
-							["classe"] = "UNKNOW",
+							["tipo"] = 4,
 							["nome"] = "铁毛猛犸象",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[56356] = 1,
 							},
-							["tipo"] = 4,
+							["classe"] = "UNKNOW",
 							["aID"] = "29402",
 							["serial"] = "Creature-0-4490-571-166-29402-00000ACE45",
-							["last_event"] = 0,
+							["fight_component"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
-							["tipo"] = 4,
+							["classe"] = "PET",
 							["pets"] = {
 							},
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["aID"] = "Pet-0-4490-571-166-30164-0300082C0F",
+							["serial"] = "Pet-0-4490-571-166-30164-0300082C0F",
 							["spell_cast"] = {
 								[52474] = 1,
 							},
-							["aID"] = "Pet-0-4490-571-166-30164-0300082C0F",
-							["classe"] = "PET",
-							["serial"] = "Pet-0-4490-571-166-30164-0300082C0F",
-							["last_event"] = 0,
 						}, -- [3]
 					},
 				}, -- [4]
@@ -12118,21 +12125,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 418,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["totals_grupo"] = {
 					14536, -- [1]
@@ -12141,18 +12148,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 418,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
@@ -12174,7 +12181,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["邁克爾假死"] = 15497.002281,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -12182,15 +12192,12 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["邁克爾假死"] = 15497.002281,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 1814.345,
 				["combat_id"] = 1576,
-				["data_inicio"] = "12:20:09",
+				["overall_added"] = true,
 				["frags"] = {
 					["铁毛猛犸象"] = 1,
 				},
@@ -12204,7 +12211,7 @@ _detalhes_database = {
 				["start_time"] = 1809.806,
 				["TimeData"] = {
 				},
-				["overall_added"] = true,
+				["data_inicio"] = "12:20:09",
 			}, -- [17]
 			{
 				{
@@ -12222,9 +12229,49 @@ _detalhes_database = {
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
+							["classe"] = "HUNTER",
+							["spec"] = 255,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 11514.006905,
+							["damage_taken"] = 0.006905,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1670041192,
 							["aID"] = "4487-0008386D",
+							["last_dps"] = 3478.299578635849,
+							["nome"] = "邁克爾假死",
 							["spells"] = {
 								["_ActorTable"] = {
+									[49050] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1570,
+										["targets"] = {
+											["铁毛猛犸象"] = 1570,
+										},
+										["n_dmg"] = 1570,
+										["n_min"] = 1570,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1570,
+										["c_max"] = 0,
+										["id"] = 49050,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
 									[53352] = {
 										["c_amt"] = 1,
 										["b_amt"] = 0,
@@ -12242,16 +12289,16 @@ _detalhes_database = {
 										["c_max"] = 3015,
 										["id"] = 53352,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 3015,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
 									},
 									[75] = {
 										["c_amt"] = 2,
@@ -12270,71 +12317,31 @@ _detalhes_database = {
 										["c_max"] = 2197,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 2196,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[49050] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1570,
-										["targets"] = {
-											["铁毛猛犸象"] = 1570,
-										},
-										["n_dmg"] = 1570,
-										["n_min"] = 1570,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 1570,
-										["c_max"] = 0,
-										["id"] = 49050,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 11514.006905,
-							["on_hold"] = false,
-							["serial"] = "Player-4487-0008386D",
-							["dps_started"] = false,
+							["grupo"] = true,
 							["total"] = 12341.006905,
-							["classe"] = "HUNTER",
+							["last_event"] = 1670041191,
+							["custom"] = 0,
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1670041188,
+							["serial"] = "Player-4487-0008386D",
 							["friendlyfire"] = {
 							},
-							["nome"] = "邁克爾假死",
-							["spec"] = 255,
-							["grupo"] = true,
-							["end_time"] = 1670041192,
-							["tipo"] = 1,
-							["colocacao"] = 1,
-							["custom"] = 0,
-							["last_event"] = 1670041191,
-							["last_dps"] = 3478.299578635849,
-							["start_time"] = 1670041188,
-							["delay"] = 0,
-							["damage_taken"] = 0.006905,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -12346,15 +12353,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1670041192,
-							["last_event"] = 1670041191,
+							["classe"] = "PET",
+							["tipo"] = 1,
 							["aID"] = "Pet-0-4490-571-166-30164-0200082C0F",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 827.007616,
-							["serial"] = "Pet-0-4490-571-166-30164-0200082C0F",
+							["delay"] = 0,
 							["dps_started"] = false,
-							["total"] = 827.007616,
+							["end_time"] = 1670041192,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
@@ -12377,16 +12384,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 									[52474] = {
 										["c_amt"] = 0,
@@ -12405,30 +12412,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 52474,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.007616,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.007616,
+							["last_event"] = 1670041191,
+							["on_hold"] = false,
 							["start_time"] = 1670041191,
-							["delay"] = 0,
-							["classe"] = "PET",
+							["serial"] = "Pet-0-4490-571-166-30164-0200082C0F",
+							["total"] = 827.007616,
 						}, -- [2]
 						{
 							["flag_original"] = 68136,
@@ -12441,33 +12448,33 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["dps_started"] = false,
+							["end_time"] = 1670041192,
+							["friendlyfire_total"] = 0,
 							["aID"] = "29402",
-							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002981,
-							["serial"] = "Creature-0-4490-571-166-29402-00000ACE5F",
-							["fight_component"] = true,
+							["delay"] = 0,
+							["dps_started"] = false,
 							["total"] = 0.002981,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["fight_component"] = true,
+							["damage_taken"] = 12341.002981,
 							["nome"] = "铁毛猛犸象",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["last_event"] = 0,
-							["on_hold"] = false,
-							["last_dps"] = 0,
-							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 12341.002981,
+							["last_dps"] = 0,
+							["on_hold"] = false,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1670041192,
-							["delay"] = 0,
-							["end_time"] = 1670041192,
+							["serial"] = "Creature-0-4490-571-166-29402-00000ACE5F",
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -12509,14 +12516,14 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["spec"] = 255,
+							["totalover"] = 0.001801,
 							["flag_original"] = 1297,
-							["alternatepower"] = 0.001801,
+							["last_event"] = 1670041189,
 							["tipo"] = 3,
 							["aID"] = "4487-0008386D",
-							["last_event"] = 1670041189,
+							["alternatepower"] = 0.001801,
 							["serial"] = "Player-4487-0008386D",
-							["totalover"] = 0.001801,
+							["spec"] = 255,
 						}, -- [1]
 					},
 				}, -- [3]
@@ -12529,15 +12536,15 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[60053] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 60053,
+										["uptime"] = 2,
 										["targets"] = {
 										},
-										["activedamt"] = 0,
-										["uptime"] = 2,
-										["id"] = 60053,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[53338] = {
 										["activedamt"] = -1,
@@ -12546,21 +12553,21 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670041191,
 										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 									[49050] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 49050,
+										["uptime"] = 0,
 										["targets"] = {
 										},
-										["activedamt"] = 0,
-										["uptime"] = 0,
-										["id"] = 49050,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -12570,71 +12577,15 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[57819] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
-										["uptime"] = 4,
+										["refreshamt"] = 0,
 										["id"] = 57819,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[34501] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
 										["uptime"] = 4,
-										["id"] = 34501,
-										["refreshamt"] = 2,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[60065] = {
+										["targets"] = {
+										},
 										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 2,
-										["id"] = 60065,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[34027] = {
-										["appliedamt"] = 0,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 0,
-										["id"] = 34027,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[61847] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 4,
-										["id"] = 61847,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[64495] = {
-										["activedamt"] = 1,
-										["id"] = 64495,
-										["targets"] = {
-										},
-										["actived_at"] = 1670041190,
-										["uptime"] = 0,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = true,
-										["counter"] = 0,
 									},
 									[34026] = {
 										["activedamt"] = 1,
@@ -12643,10 +12594,66 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1670041190,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = true,
+										["appliedamt"] = 1,
+									},
+									[34501] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 2,
+										["id"] = 34501,
+										["uptime"] = 4,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[34027] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 34027,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 0,
+									},
+									[61847] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 61847,
+										["uptime"] = 4,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[64495] = {
+										["activedamt"] = 1,
+										["id"] = 64495,
+										["targets"] = {
+										},
+										["actived_at"] = 1670041190,
+										["uptime"] = 0,
+										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["appliedamt"] = 1,
+									},
+									[60065] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 60065,
+										["uptime"] = 2,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -12657,38 +12664,38 @@ _detalhes_database = {
 							["grupo"] = true,
 							["spell_cast"] = {
 								[60053] = 1,
+								[49050] = 1,
 								[75] = 1,
 								[34026] = 1,
-								[49050] = 1,
 							},
-							["debuff_uptime_targets"] = {
+							["buff_uptime_targets"] = {
 							},
-							["last_event"] = 1670041192,
 							["tipo"] = 4,
+							["last_event"] = 1670041192,
+							["classe"] = "HUNTER",
 							["pets"] = {
 								"全球頂級投資家 <邁克爾假死>", -- [1]
 							},
-							["classe"] = "HUNTER",
 							["serial"] = "Player-4487-0008386D",
-							["buff_uptime_targets"] = {
+							["debuff_uptime_targets"] = {
 							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "邁克爾假死",
 							["nome"] = "全球頂級投資家 <邁克爾假死>",
-							["tipo"] = 4,
+							["classe"] = "PET",
 							["pets"] = {
 							},
+							["last_event"] = 0,
+							["tipo"] = 4,
+							["aID"] = "Pet-0-4490-571-166-30164-0200082C0F",
+							["serial"] = "Pet-0-4490-571-166-30164-0200082C0F",
 							["spell_cast"] = {
 								[61684] = 1,
-								[52474] = 1,
 								[64495] = 1,
+								[52474] = 1,
 							},
-							["aID"] = "Pet-0-4490-571-166-30164-0200082C0F",
-							["classe"] = "PET",
-							["serial"] = "Pet-0-4490-571-166-30164-0200082C0F",
-							["last_event"] = 0,
 						}, -- [2]
 					},
 				}, -- [4]
@@ -12721,21 +12728,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 48,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["totals_grupo"] = {
 					11514, -- [1]
@@ -12744,18 +12751,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 48,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
@@ -12777,7 +12784,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["邁克爾假死"] = 12341.006905,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -12785,15 +12795,12 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["邁克爾假死"] = 12341.006905,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 1792.443,
 				["combat_id"] = 1575,
-				["data_inicio"] = "12:19:49",
+				["overall_added"] = true,
 				["frags"] = {
 					["铁毛猛犸象"] = 1,
 				},
@@ -12807,7 +12814,7 @@ _detalhes_database = {
 				["start_time"] = 1788.895,
 				["TimeData"] = {
 				},
-				["overall_added"] = true,
+				["data_inicio"] = "12:19:49",
 			}, -- [18]
 		},
 	},
@@ -12840,9 +12847,9 @@ _detalhes_database = {
 		},
 		["pos"] = {
 		},
+		["height"] = 18,
 		["cooldowns"] = {
 		},
-		["height"] = 18,
 		["framme_locked"] = false,
 		["show_conditions"] = {
 			["only_inside_instance"] = true,
@@ -13607,10 +13614,10 @@ _detalhes_database = {
 	["data_harvest_for_charsts"] = {
 		["players"] = {
 			{
-				["name"] = "Damage of Each Individual Player",
-				["playerOnly"] = true,
 				["playerKey"] = "total",
 				["combatObjectContainer"] = 1,
+				["name"] = "Damage of Each Individual Player",
+				["playerOnly"] = true,
 			}, -- [1]
 		},
 		["totals"] = {
@@ -13639,9 +13646,16 @@ _detalhes_database = {
 		["frame"] = {
 		},
 	},
-	["announce_firsthit"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
+	["mythic_dungeon_currentsaved"] = {
+		["dungeon_name"] = "",
+		["started"] = false,
+		["segment_id"] = 0,
+		["ej_id"] = 0,
+		["started_at"] = 0,
+		["run_id"] = 0,
+		["level"] = 0,
+		["dungeon_zone_id"] = 0,
+		["previous_boss_killed_at"] = 0,
 	},
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
@@ -13656,13 +13670,13 @@ _detalhes_database = {
 			},
 			["playSound"] = false,
 			["updatespeed"] = 1,
-			["useclasscolors"] = false,
+			["disable_gouge"] = false,
 			["showamount"] = false,
 			["useplayercolor"] = false,
 			["absolute_mode"] = false,
 			["usefocus"] = false,
 			["playSoundFile"] = "Details Threat Warning Volume 3",
-			["disable_gouge"] = false,
+			["useclasscolors"] = false,
 		},
 		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
 			["enabled"] = true,
@@ -13672,11 +13686,11 @@ _detalhes_database = {
 			["last_section_selected"] = "main",
 			["author"] = "Terciob",
 			["window_scale"] = 1,
-			["encounter_timers_dbm"] = {
-			},
+			["hide_on_combat"] = false,
 			["show_icon"] = 5,
 			["opened"] = 0,
-			["hide_on_combat"] = false,
+			["encounter_timers_dbm"] = {
+			},
 		},
 		["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
 			["enabled"] = true,
@@ -13692,7 +13706,7 @@ _detalhes_database = {
 				1, -- [3]
 				0.5, -- [4]
 			},
-			["scale"] = 1,
+			["arrow_anchor_y"] = 0,
 			["main_frame_size"] = {
 				300, -- [1]
 				500.0000305175781, -- [2]
@@ -13702,36 +13716,21 @@ _detalhes_database = {
 				["radius"] = 160,
 				["hide"] = true,
 			},
-			["row_height"] = 20,
+			["main_frame_locked"] = false,
 			["arrow_anchor_x"] = 0,
-			["font_color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["author"] = "Details! Team",
 			["row_texture"] = "Details Serenity",
 			["square_grow_direction"] = "right",
-			["point"] = "CENTER",
-			["main_frame_strata"] = "LOW",
-			["square_amount"] = 5,
-			["enabled"] = false,
-			["arrow_size"] = 10,
-			["font_size"] = 10,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
+			["y"] = 0,
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -13739,380 +13738,49 @@ _detalhes_database = {
 				["font_shadow"] = true,
 				["y"] = 3.0517578125e-05,
 				["x"] = -3.0517578125e-05,
-				["size"] = 32,
-				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
 			},
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["use_spark"] = true,
+			["font_size"] = 10,
 			["x"] = -3.0517578125e-05,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["y"] = 0,
-			["author"] = "Details! Team",
-			["main_frame_locked"] = false,
-			["arrow_anchor_y"] = 0,
-		},
-	},
-	["data_harvested_for_charts"] = {
-	},
-	["cached_roles"] = {
-		["Player-4487-000549C0"] = "HEALER",
-		["Player-4487-000E73EA"] = "DAMAGER",
-		["Player-4487-00032689"] = "DAMAGER",
-		["Player-4487-0011D135"] = "HEALER",
-		["Player-4487-0018F683"] = "TANK",
-		["Player-4487-0018700B"] = "TANK",
-		["Player-4487-00117867"] = "DAMAGER",
-		["Player-4487-00003762"] = "TANK",
-		["Player-4487-00180DF2"] = "DAMAGER",
-		["Player-4487-00097A96"] = "HEALER",
-		["Player-4487-00016957"] = "HEALER",
-		["Player-4487-00115A52"] = "TANK",
-		["Player-4487-0019127F"] = "DAMAGER",
-		["Player-4487-001890D3"] = "DAMAGER",
-		["Player-4487-001255E0"] = "DAMAGER",
-		["Player-4487-0002ED65"] = "DAMAGER",
-		["Player-4487-0004F4A5"] = "DAMAGER",
-		["Player-4487-00011801"] = "DAMAGER",
-		["Player-4487-0011FFCB"] = "DAMAGER",
-		["Player-4487-001219A1"] = "DAMAGER",
-		["Player-4487-00084796"] = "DAMAGER",
-		["Player-4487-001352E6"] = "DAMAGER",
-		["Player-4487-00183A09"] = "DAMAGER",
-		["Player-4487-001331EB"] = "DAMAGER",
-		["Player-4487-0007C36C"] = "DAMAGER",
-		["Player-4487-0007BE5E"] = "HEALER",
-		["Player-4487-00100F32"] = "DAMAGER",
-		["Player-4487-0012296F"] = "DAMAGER",
-		["Player-4487-0011916C"] = "DAMAGER",
-		["Player-4487-0000ABCE"] = "HEALER",
-		["Player-4487-0018EEEA"] = "TANK",
-		["Player-4487-0006DFB2"] = "DAMAGER",
-		["Player-4487-00153A4A"] = "TANK",
-		["Player-4487-00064DF0"] = "HEALER",
-		["Player-4487-00115F40"] = "TANK",
-		["Player-4487-00117CE8"] = "DAMAGER",
-		["Player-4487-0011A935"] = "HEALER",
-		["Player-4487-0000FD1C"] = "DAMAGER",
-		["Player-4487-00027C8B"] = "HEALER",
-		["Player-4487-0010F825"] = "TANK",
-		["Player-4487-0011835D"] = "DAMAGER",
-		["Player-4487-000860F6"] = "HEALER",
-		["Player-4487-00125786"] = "DAMAGER",
-		["Player-4487-00001E49"] = "HEALER",
-		["Player-4487-00121C75"] = "DAMAGER",
-		["Player-4487-0002BCEF"] = "HEALER",
-		["Player-4487-0011A041"] = "HEALER",
-		["Player-4487-001AE178"] = "TANK",
-		["Player-4487-0010F7EB"] = "DAMAGER",
-		["Player-4487-00113924"] = "DAMAGER",
-		["Player-4487-0010FE03"] = "DAMAGER",
-		["Player-4487-000106E3"] = "DAMAGER",
-		["Player-4487-00058238"] = "DAMAGER",
-		["Player-4487-00127D9C"] = "DAMAGER",
-		["Player-4487-0014BB5D"] = "DAMAGER",
-		["Player-4487-000CCE9B"] = "DAMAGER",
-		["Player-4487-0017FE51"] = "DAMAGER",
-		["Player-4487-00025897"] = "HEALER",
-		["Player-4487-00123940"] = "DAMAGER",
-		["Player-4487-000B441D"] = "NONE",
-		["Player-4487-0008596C"] = "HEALER",
-		["Player-4487-00124D8A"] = "DAMAGER",
-		["Player-4487-00025C26"] = "TANK",
-		["Player-4487-0001D182"] = "DAMAGER",
-		["Player-4487-00080C4E"] = "DAMAGER",
-		["Player-4487-00126F6D"] = "HEALER",
-		["Player-4487-0015388F"] = "DAMAGER",
-		["Player-4487-001199DD"] = "TANK",
-		["Player-4487-001187E4"] = "HEALER",
-		["Player-4487-000CE868"] = "DAMAGER",
-		["Player-4487-000800AD"] = "DAMAGER",
-		["Player-4487-00190953"] = "DAMAGER",
-		["Player-4487-00029B1D"] = "HEALER",
-		["Player-4487-001641C8"] = "DAMAGER",
-		["Player-4487-001153B5"] = "DAMAGER",
-		["Player-4487-0000E724"] = "DAMAGER",
-		["Player-4487-001208C9"] = "DAMAGER",
-		["Player-4487-000C123D"] = "TANK",
-		["Player-4487-0004AB14"] = "TANK",
-		["Player-4487-00087BBC"] = "DAMAGER",
-		["Player-4487-000E130F"] = "HEALER",
-		["Player-4487-0009672E"] = "DAMAGER",
-		["Player-4487-000242ED"] = "DAMAGER",
-		["Player-4487-0003BCC7"] = "DAMAGER",
-		["Player-4487-001283F9"] = "DAMAGER",
-		["Player-4487-00035519"] = "DAMAGER",
-		["Player-4487-00092D5E"] = "HEALER",
-		["Player-4487-000A2EE3"] = "DAMAGER",
-		["Player-4487-00014B42"] = "DAMAGER",
-		["Player-4487-0000F982"] = "DAMAGER",
-		["Player-4487-0012C19D"] = "HEALER",
-		["Player-4487-00019DD4"] = "DAMAGER",
-		["Player-4487-00047FAF"] = "TANK",
-		["Player-4487-0005F672"] = "TANK",
-		["Player-4487-00184ABD"] = "DAMAGER",
-		["Player-4487-0007BE23"] = "DAMAGER",
-		["Player-4487-000AEB54"] = "DAMAGER",
-		["Player-4487-0014F751"] = "HEALER",
-		["Player-4487-00076A11"] = "DAMAGER",
-		["Player-4487-0007628E"] = "DAMAGER",
-		["Player-4487-0009E565"] = "HEALER",
-		["Player-4487-001665D8"] = "HEALER",
-		["Player-4487-0011B7B4"] = "DAMAGER",
-		["Player-4487-00125E88"] = "DAMAGER",
-		["Player-4487-001169FA"] = "NONE",
-		["Player-4487-00117543"] = "TANK",
-		["Player-4487-00025307"] = "HEALER",
-		["Player-4487-00000920"] = "HEALER",
-		["Player-4487-0002300E"] = "DAMAGER",
-		["Player-4487-00096A11"] = "DAMAGER",
-		["Player-4487-001178E3"] = "DAMAGER",
-		["Player-4487-0017D260"] = "DAMAGER",
-		["Player-4487-00113DDA"] = "DAMAGER",
-		["Player-4487-00010753"] = "DAMAGER",
-		["Player-4487-001886F9"] = "DAMAGER",
-		["Player-4487-00116737"] = "HEALER",
-		["Player-4487-00167F3C"] = "TANK",
-		["Player-4487-00116C29"] = "HEALER",
-		["Player-4487-0002C63F"] = "TANK",
-		["Player-4487-00115BD0"] = "HEALER",
-		["Player-4487-00009EC9"] = "HEALER",
-		["Player-4487-000D8E35"] = "DAMAGER",
-		["Player-4487-001819EC"] = "DAMAGER",
-		["Player-4487-0011DD3C"] = "TANK",
-		["Player-4487-000E5CB0"] = "DAMAGER",
-		["Player-4487-00037F96"] = "HEALER",
-		["Player-4487-00057F67"] = "DAMAGER",
-		["Player-4487-0002D52C"] = "DAMAGER",
-		["Player-4487-000030E9"] = "HEALER",
-		["Player-4487-0008CC1C"] = "DAMAGER",
-		["Player-4487-0000D7A3"] = "HEALER",
-		["Player-4487-000DDCE1"] = "NONE",
-		["Player-4487-000DBDF8"] = "DAMAGER",
-		["Player-4487-00015CFD"] = "DAMAGER",
-		["Player-4487-00111B9C"] = "HEALER",
-		["Player-4487-000B945A"] = "DAMAGER",
-		["Player-4487-000F34CD"] = "DAMAGER",
-		["Player-4487-00034E86"] = "HEALER",
-		["Player-4487-0010956C"] = "DAMAGER",
-		["Player-4487-00115FE5"] = "TANK",
-		["Player-4487-000D309D"] = "DAMAGER",
-		["Player-4487-0015C9BF"] = "TANK",
-		["Player-4487-000AAF53"] = "HEALER",
-		["Player-4487-0000BB0F"] = "HEALER",
-		["Player-4487-00118904"] = "HEALER",
-		["Player-4487-0010D6F8"] = "NONE",
-		["Player-4487-001812E3"] = "DAMAGER",
-		["Player-4487-0017CBB7"] = "DAMAGER",
-		["Player-4487-0000A20C"] = "DAMAGER",
-		["Player-4487-0011590D"] = "DAMAGER",
-		["Player-4487-001224AB"] = "DAMAGER",
-		["Player-4487-00035768"] = "DAMAGER",
-		["Player-4487-00134802"] = "DAMAGER",
-		["Player-4487-001092EF"] = "DAMAGER",
-		["Player-4487-00184289"] = "DAMAGER",
-		["Player-4487-00090C83"] = "DAMAGER",
-		["Player-4487-000C3A9D"] = "DAMAGER",
-		["Player-4487-001163FA"] = "DAMAGER",
-		["Player-4487-000E2948"] = "NONE",
-		["Player-4487-00066116"] = "DAMAGER",
-		["Player-4487-0015EBC2"] = "DAMAGER",
-		["Player-4487-001848B6"] = "DAMAGER",
-		["Player-4487-000B1571"] = "HEALER",
-		["Player-4487-0011673F"] = "TANK",
-		["Player-4487-00123FA2"] = "NONE",
-		["Player-4487-0005B19A"] = "HEALER",
-		["Player-4487-00194718"] = "DAMAGER",
-		["Player-4487-0003A0C2"] = "DAMAGER",
-		["Player-4487-00117206"] = "TANK",
-		["Player-4487-001836AB"] = "HEALER",
-		["Player-4487-00125016"] = "DAMAGER",
-		["Player-4487-0018259A"] = "TANK",
-		["Player-4487-00127C2E"] = "TANK",
-		["Player-4487-001229BA"] = "HEALER",
-		["Player-4487-00113A79"] = "DAMAGER",
-		["Player-4487-000973A9"] = "DAMAGER",
-		["Player-4487-0011DCF7"] = "DAMAGER",
-		["Player-4487-0001B17E"] = "DAMAGER",
-		["Player-4487-0019A038"] = "DAMAGER",
-		["Player-4487-0003B5CE"] = "DAMAGER",
-		["Player-4487-0016AE91"] = "DAMAGER",
-		["Player-4487-0017990B"] = "HEALER",
-		["Player-4487-00181F13"] = "DAMAGER",
-		["Player-4487-00048FCD"] = "HEALER",
-		["Player-4487-00012FE0"] = "DAMAGER",
-		["Player-4487-0011636B"] = "DAMAGER",
-		["Player-4487-00005DA7"] = "DAMAGER",
-		["Player-4487-001104E5"] = "DAMAGER",
-		["Player-4487-00018A86"] = "DAMAGER",
-		["Player-4487-0007DE96"] = "DAMAGER",
-		["Player-4487-0012E38B"] = "DAMAGER",
-		["Player-4487-000A9B53"] = "DAMAGER",
-		["Player-4487-0011441B"] = "DAMAGER",
-		["Player-4487-001831AC"] = "DAMAGER",
-		["Player-4487-0007B8E2"] = "HEALER",
-		["Player-4487-00053C88"] = "DAMAGER",
-		["Player-4487-00032D56"] = "HEALER",
-		["Player-4487-0018C968"] = "DAMAGER",
-		["Player-4487-0003A79F"] = "DAMAGER",
-		["Player-4487-00120675"] = "DAMAGER",
-		["Player-4487-0004D24B"] = "HEALER",
-		["Player-4487-0018F410"] = "DAMAGER",
-		["Player-4487-00105E35"] = "DAMAGER",
-		["Player-4487-000313B9"] = "DAMAGER",
-		["Player-4487-00122A25"] = "HEALER",
-		["Player-4487-0017838F"] = "DAMAGER",
-		["Player-4487-0006964A"] = "HEALER",
-		["Player-4487-00029CF9"] = "DAMAGER",
-		["Player-4487-0011F53F"] = "DAMAGER",
-		["Player-4487-0008386D"] = "DAMAGER",
-		["Player-4487-0008486F"] = "DAMAGER",
-		["Player-4487-00022F11"] = "DAMAGER",
-		["Player-4487-0017FC79"] = "DAMAGER",
-		["Player-4487-00189553"] = "HEALER",
-		["Player-4487-00004A7C"] = "HEALER",
-		["Player-4487-0000E392"] = "HEALER",
-		["Player-4487-0003C2D7"] = "HEALER",
-		["Player-4487-001254E1"] = "DAMAGER",
-		["Player-4487-00062314"] = "DAMAGER",
-		["Player-4487-000336F6"] = "DAMAGER",
-		["Player-4487-00046F4C"] = "DAMAGER",
-		["Player-4487-0000F719"] = "DAMAGER",
-		["Player-4487-0012DFD9"] = "DAMAGER",
-		["Player-4487-0007302B"] = "TANK",
-		["Player-4487-00011A97"] = "DAMAGER",
-		["Player-4487-00115B96"] = "HEALER",
-		["Player-4487-0018D285"] = "TANK",
-		["Player-4487-0018EDD5"] = "DAMAGER",
-		["Player-4487-0001C3C5"] = "DAMAGER",
-		["Player-4487-000144C9"] = "TANK",
-		["Player-4487-0017DCEA"] = "DAMAGER",
-		["Player-4487-00023701"] = "DAMAGER",
-		["Player-4487-00182A66"] = "DAMAGER",
-		["Player-4487-0019A8C9"] = "HEALER",
-		["Player-4487-000CC195"] = "DAMAGER",
-		["Player-4487-00018CF4"] = "HEALER",
-		["Player-4487-0012198A"] = "DAMAGER",
-		["Player-4487-00102767"] = "HEALER",
-		["Player-4487-001A439D"] = "HEALER",
-		["Player-4487-0014F16E"] = "TANK",
-		["Player-4487-00123A4C"] = "HEALER",
-		["Player-4487-001AB49C"] = "DAMAGER",
-		["Player-4487-00115562"] = "DAMAGER",
-		["Player-4487-000DC528"] = "DAMAGER",
-		["Player-4487-00187EFD"] = "DAMAGER",
-		["Player-4487-00123792"] = "TANK",
-		["Player-4487-000DB293"] = "HEALER",
-		["Player-4487-0011DFDC"] = "HEALER",
-		["Player-4487-0008667C"] = "DAMAGER",
-		["Player-4487-000E9481"] = "DAMAGER",
-		["Player-4487-0008CDBF"] = "TANK",
-		["Player-4487-000676F7"] = "DAMAGER",
-		["Player-4487-0001301E"] = "HEALER",
-		["Player-4487-00032B8E"] = "DAMAGER",
-		["Player-4487-0000DE3F"] = "DAMAGER",
-		["Player-4487-00001273"] = "DAMAGER",
-		["Player-4487-001811D1"] = "DAMAGER",
-		["Player-4487-0018C4C2"] = "DAMAGER",
-		["Player-4487-0012B70A"] = "DAMAGER",
-		["Player-4487-001024BD"] = "DAMAGER",
-		["Player-4487-000E2FEC"] = "DAMAGER",
-		["Player-4487-000E6750"] = "DAMAGER",
-		["Player-4487-00191E2B"] = "DAMAGER",
-		["Player-4487-00118D24"] = "DAMAGER",
-		["Player-4487-00122022"] = "DAMAGER",
-		["Player-4487-00022B13"] = "HEALER",
-		["Player-4487-0010FEFB"] = "DAMAGER",
-		["Player-4487-000FCB14"] = "DAMAGER",
-		["Player-4487-00191B5F"] = "DAMAGER",
-		["Player-4487-00005A82"] = "DAMAGER",
-		["Player-4487-0013D4ED"] = "DAMAGER",
-		["Player-4487-000569A9"] = "TANK",
-		["Player-4487-00087A5A"] = "DAMAGER",
-		["Player-4487-000068FA"] = "DAMAGER",
-		["Player-4487-0018454A"] = "DAMAGER",
-		["Player-4487-000B65AC"] = "HEALER",
-		["Player-4487-001884F7"] = "HEALER",
-		["Player-4487-001937D0"] = "TANK",
-		["Player-4487-000B83D2"] = "HEALER",
-		["Player-4487-00110547"] = "DAMAGER",
-		["Player-4487-00126F9C"] = "TANK",
-		["Player-4487-0007D413"] = "DAMAGER",
-		["Player-4487-001794A7"] = "DAMAGER",
-		["Player-4487-00056B36"] = "DAMAGER",
-		["Player-4487-0000F552"] = "DAMAGER",
-		["Player-4487-0007A479"] = "DAMAGER",
-		["Player-4487-0011742F"] = "HEALER",
-		["Player-4487-001166AB"] = "DAMAGER",
-		["Player-4487-0006BA6B"] = "DAMAGER",
-		["Player-4487-00122301"] = "DAMAGER",
-		["Player-4487-00115418"] = "DAMAGER",
-		["Player-4487-00090A8F"] = "DAMAGER",
-		["Player-4487-0011904C"] = "DAMAGER",
-		["Player-4487-0011D16E"] = "NONE",
-		["Player-4487-0017C51A"] = "HEALER",
-		["Player-4487-0011CAC6"] = "DAMAGER",
-		["Player-4487-00115888"] = "NONE",
-		["Player-4487-00114936"] = "DAMAGER",
-		["Player-4487-00189461"] = "TANK",
-		["Player-4487-0008300F"] = "HEALER",
-		["Player-4487-00159183"] = "DAMAGER",
-		["Player-4487-00070444"] = "DAMAGER",
-		["Player-4487-001AB6CA"] = "DAMAGER",
-		["Player-4487-00022E05"] = "DAMAGER",
-		["Player-4487-001482A9"] = "DAMAGER",
-		["Player-4487-00030DB9"] = "DAMAGER",
-		["Player-4487-00120650"] = "DAMAGER",
-		["Player-4487-000DB823"] = "DAMAGER",
-		["Player-4487-000CCC81"] = "DAMAGER",
-		["Player-4487-0017C490"] = "DAMAGER",
-		["Player-4487-000275F5"] = "DAMAGER",
-		["Player-4487-0004A74C"] = "DAMAGER",
-		["Player-4487-000A6960"] = "DAMAGER",
-		["Player-4487-0007666D"] = "DAMAGER",
-		["Player-4487-0017DE41"] = "DAMAGER",
-		["Player-4487-00079681"] = "DAMAGER",
-		["Player-4487-00091FFB"] = "HEALER",
-		["Player-4487-0017CE07"] = "HEALER",
-		["Player-4487-00011569"] = "DAMAGER",
-		["Player-4487-000E738C"] = "HEALER",
-	},
-	["last_encounter"] = "萨塔里奥",
-	["last_day"] = "04",
-	["force_font_outline"] = "",
-	["local_instances_config"] = {
-		{
-			["modo"] = 2,
-			["sub_attribute"] = 1,
-			["sub_atributo_last"] = {
+			["point"] = "CENTER",
+			["font_color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
-				1, -- [5]
 			},
-			["is_open"] = true,
-			["isLocked"] = false,
-			["snap"] = {
-			},
-			["segment"] = 0,
-			["mode"] = 2,
-			["attribute"] = 1,
-			["pos"] = {
-				["normal"] = {
-					["y"] = -538.6555557250977,
-					["x"] = -440.4375,
-					["w"] = 347.6788940429688,
-					["h"] = 164.2200927734375,
-				},
-				["solo"] = {
-					["y"] = 2,
-					["x"] = 1,
-					["w"] = 300,
-					["h"] = 200,
-				},
-			},
-		}, -- [1]
+			["row_height"] = 20,
+			["scale"] = 1,
+		},
+	},
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["data_harvested_for_charts"] = {
+	},
+	["last_encounter"] = "萨塔里奥",
+	["last_instance_time"] = 1670000391,
+	["character_data"] = {
+		["logons"] = 174,
 	},
 	["ignore_nicktag"] = false,
 	["combat_id"] = 1592,
@@ -14122,7 +13790,7 @@ _detalhes_database = {
 		["nextreset"] = 1670834982,
 		["last_version"] = 15,
 	},
-	["combat_counter"] = 4912,
+	["combat_counter"] = 4913,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -14138,35 +13806,35 @@ _detalhes_database = {
 					["totalabsorbed"] = 0.09030600000000003,
 					["damage_from"] = {
 						["铁毛猛犸象"] = true,
+						["雷铸抢劫者"] = true,
 						["环境伤害 (坠落)"] = true,
 						["野蛮岭暴徒"] = true,
-						["雷铸抢劫者"] = true,
 					},
 					["targets"] = {
 						["铁毛猛犸象"] = 135252,
-						["雷铸抢劫者"] = 74892,
-						["野蛮岭暴徒"] = 24036,
 						["雷铸学者"] = 24611,
+						["野蛮岭暴徒"] = 24036,
+						["雷铸抢劫者"] = 74892,
 					},
-					["total"] = 258791.090306,
+					["delay"] = 0,
 					["pets"] = {
 						"全球頂級投資家 <邁克爾假死>", -- [1]
 					},
-					["serial"] = "Player-4487-0008386D",
+					["friendlyfire_total"] = 0,
+					["last_event"] = 0,
 					["classe"] = "HUNTER",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 229251.090306,
-					["damage_taken"] = 1483.090306,
-					["friendlyfire"] = {
-					},
-					["dps_started"] = false,
 					["end_time"] = 1670041192,
+					["dps_started"] = false,
+					["total"] = 258791.090306,
+					["last_dps"] = 0,
 					["aID"] = "4487-0008386D",
-					["friendlyfire_total"] = 0,
 					["nome"] = "邁克爾假死",
 					["spec"] = 255,
 					["grupo"] = true,
+					["on_hold"] = false,
 					["spells"] = {
 						["_ActorTable"] = {
 							{
@@ -14188,17 +13856,17 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["MISS"] = 1,
-								["DODGE"] = 1,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["extra"] = {
 								},
-								["a_dmg"] = 0,
+								["a_amt"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
-								["a_amt"] = 0,
+								["a_dmg"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["DODGE"] = 1,
+								["MISS"] = 1,
 							}, -- [1]
 							[53339] = {
 								["c_amt"] = 1,
@@ -14218,15 +13886,15 @@ _detalhes_database = {
 								["c_max"] = 1475,
 								["id"] = 53339,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 1475,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 1,
-								["b_dmg"] = 1475,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[49050] = {
 								["c_amt"] = 4,
@@ -14247,15 +13915,15 @@ _detalhes_database = {
 								["c_max"] = 3613,
 								["id"] = 49050,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 1130,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 10,
-								["b_dmg"] = 1130,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[75] = {
 								["c_amt"] = 15,
@@ -14265,9 +13933,9 @@ _detalhes_database = {
 								["n_max"] = 1119,
 								["targets"] = {
 									["铁毛猛犸象"] = 22387,
-									["雷铸抢劫者"] = 13214,
-									["野蛮岭暴徒"] = 7788,
 									["雷铸学者"] = 4008,
+									["野蛮岭暴徒"] = 7788,
+									["雷铸抢劫者"] = 13214,
 								},
 								["n_dmg"] = 15569,
 								["n_min"] = 0,
@@ -14277,15 +13945,15 @@ _detalhes_database = {
 								["c_max"] = 2536,
 								["id"] = 75,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 16,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[53352] = {
 								["c_amt"] = 28,
@@ -14295,9 +13963,9 @@ _detalhes_database = {
 								["n_max"] = 1577,
 								["targets"] = {
 									["铁毛猛犸象"] = 62722,
-									["雷铸抢劫者"] = 32009,
-									["野蛮岭暴徒"] = 10169,
 									["雷铸学者"] = 14211,
+									["野蛮岭暴徒"] = 10169,
+									["雷铸抢劫者"] = 32009,
 								},
 								["n_dmg"] = 33457,
 								["n_min"] = 0,
@@ -14307,15 +13975,15 @@ _detalhes_database = {
 								["c_max"] = 3833,
 								["id"] = 53352,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 6649,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 26,
-								["b_dmg"] = 6649,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[49065] = {
 								["c_amt"] = 0,
@@ -14334,42 +14002,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 49065,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 1,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							},
-							[48996] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 1064,
-								["targets"] = {
-									["铁毛猛犸象"] = 1064,
-								},
-								["n_dmg"] = 1064,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 1064,
-								["c_max"] = 0,
-								["id"] = 48996,
-								["r_dmg"] = 0,
+								["a_dmg"] = 0,
 								["extra"] = {
 								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 1,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
 							},
 							[61006] = {
 								["c_amt"] = 2,
@@ -14389,26 +14030,53 @@ _detalhes_database = {
 								["c_max"] = 9850,
 								["id"] = 61006,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 3,
-								["b_dmg"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[48996] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 1064,
+								["targets"] = {
+									["铁毛猛犸象"] = 1064,
+								},
+								["n_dmg"] = 1064,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 1064,
+								["c_max"] = 0,
+								["id"] = 48996,
+								["r_dmg"] = 0,
 								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 1,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
 						["tipo"] = 2,
 					},
-					["on_hold"] = false,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 1483.090306,
 					["start_time"] = 1670041089,
-					["delay"] = 0,
-					["last_event"] = 0,
+					["serial"] = "Player-4487-0008386D",
+					["friendlyfire"] = {
+					},
 				}, -- [1]
 				{
 					["flag_original"] = 68136,
@@ -14419,23 +14087,23 @@ _detalhes_database = {
 					},
 					["targets"] = {
 						["邁克爾假死"] = 261,
-						["全球頂級投資家 <邁克爾假死>"] = 196,
-						["懶覺妳噶"] = 0,
 						["豆丁布丁"] = 0,
+						["懶覺妳噶"] = 0,
+						["全球頂級投資家 <邁克爾假死>"] = 196,
 					},
 					["pets"] = {
 					},
+					["dps_started"] = false,
+					["on_hold"] = false,
 					["aID"] = "29402",
-					["damage_taken"] = 135252.045054,
-					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 457.045054,
-					["serial"] = "Creature-0-4490-571-166-29402-00000ACE5F",
+					["delay"] = 0,
 					["fight_component"] = true,
 					["end_time"] = 1670041192,
 					["friendlyfire_total"] = 0,
-					["on_hold"] = false,
+					["last_dps"] = 0,
 					["nome"] = "铁毛猛犸象",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -14448,9 +14116,9 @@ _detalhes_database = {
 								["targets"] = {
 									["邁克爾假死"] = 261,
 									["豆丁布丁"] = 0,
-									["全球頂級投資家 <邁克爾假死>"] = 196,
-									["懶覺妳噶"] = 0,
 									["星空骑士"] = 0,
+									["懶覺妳噶"] = 0,
+									["全球頂級投資家 <邁克爾假死>"] = 196,
 								},
 								["n_dmg"] = 457,
 								["n_min"] = 0,
@@ -14460,30 +14128,30 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["DODGE"] = 3,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 2,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["extra"] = {
+								},
+								["DODGE"] = 3,
 							}, -- [1]
 						},
 						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["tipo"] = 1,
+					["total"] = 457.045054,
 					["friendlyfire"] = {
 					},
-					["total"] = 457.045054,
 					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
+					["last_event"] = 0,
+					["damage_taken"] = 135252.045054,
 					["start_time"] = 1670041181,
-					["delay"] = 0,
-					["dps_started"] = false,
+					["serial"] = "Creature-0-4490-571-166-29402-00000ACE5F",
+					["classe"] = "UNKNOW",
 				}, -- [2]
 				{
 					["flag_original"] = 4369,
@@ -14495,22 +14163,22 @@ _detalhes_database = {
 					},
 					["targets"] = {
 						["铁毛猛犸象"] = 13406,
-						["雷铸抢劫者"] = 7797,
-						["野蛮岭暴徒"] = 4359,
 						["雷铸学者"] = 3978,
+						["野蛮岭暴徒"] = 4359,
+						["雷铸抢劫者"] = 7797,
 					},
 					["pets"] = {
 					},
+					["damage_taken"] = 1686.119016,
+					["tipo"] = 1,
 					["friendlyfire_total"] = 0,
-					["last_event"] = 0,
-					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 29540.119016,
-					["serial"] = "Pet-0-4490-571-166-30164-0200082C0F",
+					["delay"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1670041192,
-					["on_hold"] = false,
+					["aID"] = "Pet-0-4490-571-166-30164-0200082C0F",
 					["ownerName"] = "邁克爾假死",
 					["nome"] = "全球頂級投資家 <邁克爾假死>",
 					["spells"] = {
@@ -14523,9 +14191,9 @@ _detalhes_database = {
 								["n_max"] = 349,
 								["targets"] = {
 									["铁毛猛犸象"] = 6762,
-									["雷铸抢劫者"] = 3539,
-									["野蛮岭暴徒"] = 2653,
 									["雷铸学者"] = 2202,
+									["野蛮岭暴徒"] = 2653,
+									["雷铸抢劫者"] = 3539,
 								},
 								["n_dmg"] = 13364,
 								["n_min"] = 0,
@@ -14535,15 +14203,15 @@ _detalhes_database = {
 								["c_max"] = 613,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 242,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 44,
-								["b_dmg"] = 242,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							}, -- [1]
 							[52474] = {
 								["c_amt"] = 6,
@@ -14553,9 +14221,9 @@ _detalhes_database = {
 								["n_max"] = 479,
 								["targets"] = {
 									["铁毛猛犸象"] = 6644,
-									["雷铸抢劫者"] = 4258,
-									["野蛮岭暴徒"] = 1706,
 									["雷铸学者"] = 1776,
+									["野蛮岭暴徒"] = 1706,
+									["雷铸抢劫者"] = 4258,
 								},
 								["n_dmg"] = 10677,
 								["n_min"] = 0,
@@ -14565,29 +14233,29 @@ _detalhes_database = {
 								["c_max"] = 814,
 								["id"] = 52474,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 429,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 32,
-								["b_dmg"] = 429,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
 						["tipo"] = 2,
 					},
-					["aID"] = "Pet-0-4490-571-166-30164-0200082C0F",
+					["friendlyfire"] = {
+					},
 					["total"] = 29540.119016,
 					["last_dps"] = 0,
 					["custom"] = 0,
-					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1670041115,
-					["delay"] = 0,
-					["damage_taken"] = 1686.119016,
+					["serial"] = "Pet-0-4490-571-166-30164-0200082C0F",
+					["classe"] = "PET",
 				}, -- [3]
 				{
 					["flag_original"] = 68168,
@@ -14600,21 +14268,20 @@ _detalhes_database = {
 						["邁克爾假死"] = 446,
 						["付夢妮露"] = 0,
 					},
-					["serial"] = "Creature-0-4490-571-166-29623-00000ACFDB",
+					["delay"] = 0,
 					["pets"] = {
 					},
+					["monster"] = true,
+					["fight_component"] = true,
 					["classe"] = "UNKNOW",
-					["friendlyfire"] = {
-					},
-					["aID"] = "29623",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 446.016429,
-					["end_time"] = 1670041585,
-					["dps_started"] = false,
 					["total"] = 446.016429,
-					["on_hold"] = false,
-					["last_event"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1670041585,
+					["damage_taken"] = 24036.016429,
+					["tipo"] = 1,
 					["nome"] = "野蛮岭暴徒",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -14636,16 +14303,16 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["DODGE"] = 2,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 1,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["extra"] = {
+								},
+								["DODGE"] = 2,
 							}, -- [1]
 							[54678] = {
 								["c_amt"] = 0,
@@ -14663,59 +14330,58 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 54678,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["monster"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 24036.016429,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1670041579,
-					["delay"] = 0,
-					["fight_component"] = true,
+					["serial"] = "Creature-0-4490-571-166-29623-00000ACFDB",
+					["aID"] = "29623",
 				}, -- [4]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 0.023463,
-					["on_hold"] = false,
 					["damage_from"] = {
 						["邁克爾假死"] = true,
-						["樂園流放"] = true,
 						["全球頂級投資家 <邁克爾假死>"] = true,
+						["樂園流放"] = true,
 					},
 					["targets"] = {
-						["樂園流放"] = 689,
 						["全球頂級投資家 <邁克爾假死>"] = 822,
+						["樂園流放"] = 689,
 					},
+					["delay"] = 0,
 					["pets"] = {
 					},
-					["end_time"] = 1670125543,
-					["friendlyfire"] = {
-					},
+					["dps_started"] = false,
+					["damage_taken"] = 44504.023463,
 					["aID"] = "29843",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1511.023463,
-					["fight_component"] = true,
-					["dps_started"] = false,
 					["total"] = 1511.023463,
-					["classe"] = "UNKNOW",
-					["monster"] = true,
+					["fight_component"] = true,
+					["end_time"] = 1670125543,
+					["last_dps"] = 0,
+					["tipo"] = 1,
 					["nome"] = "雷铸学者",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -14724,8 +14390,8 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 218,
 								["targets"] = {
-									["樂園流放"] = 472,
 									["全球頂級投資家 <邁克爾假死>"] = 413,
+									["樂園流放"] = 472,
 								},
 								["n_dmg"] = 885,
 								["n_min"] = 0,
@@ -14735,16 +14401,16 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["MISS"] = 1,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 5,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["extra"] = {
+								},
+								["MISS"] = 1,
 							}, -- [1]
 							[12550] = {
 								["c_amt"] = 0,
@@ -14753,8 +14419,8 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 158,
 								["targets"] = {
-									["樂園流放"] = 217,
 									["全球頂級投資家 <邁克爾假死>"] = 409,
+									["樂園流放"] = 217,
 								},
 								["n_dmg"] = 626,
 								["n_min"] = 0,
@@ -14764,27 +14430,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 12550,
 								["r_dmg"] = 468,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 4,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 5,
-								["b_dmg"] = 0,
-								["r_amt"] = 4,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["monster"] = true,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-4491-571-14248-29843-00008C1736",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1670125523,
-					["delay"] = 0,
-					["damage_taken"] = 44504.023463,
+					["serial"] = "Creature-0-4491-571-14248-29843-00008C1736",
+					["friendlyfire"] = {
+					},
 				}, -- [5]
 				{
 					["flag_original"] = 68168,
@@ -14795,26 +14463,26 @@ _detalhes_database = {
 					},
 					["targets"] = {
 						["邁克爾假死"] = 576,
+						["樂園流放"] = 0,
 						["全球頂級投資家 <邁克爾假死>"] = 668,
 					},
-					["dps_started"] = false,
+					["delay"] = 0,
 					["pets"] = {
 					},
-					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1244.020647,
-					["on_hold"] = false,
-					["friendlyfire"] = {
-					},
 					["monster"] = true,
+					["dps_started"] = false,
 					["total"] = 1244.020647,
-					["end_time"] = 1670125555,
-					["aID"] = "29586",
+					["damage_taken"] = 74892.020647,
+					["tipo"] = 1,
 					["nome"] = "雷铸抢劫者",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -14824,6 +14492,7 @@ _detalhes_database = {
 								["n_max"] = 305,
 								["targets"] = {
 									["邁克爾假死"] = 576,
+									["樂園流放"] = 0,
 									["全球頂級投資家"] = 0,
 									["全球頂級投資家 <邁克爾假死>"] = 228,
 								},
@@ -14835,16 +14504,16 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["MISS"] = 5,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 3,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["extra"] = {
+								},
+								["MISS"] = 5,
 							}, -- [1]
 							[52701] = {
 								["c_amt"] = 0,
@@ -14862,15 +14531,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 52701,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 3,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[52700] = {
 								["c_amt"] = 0,
@@ -14889,32 +14558,32 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 52700,
 								["r_dmg"] = 440,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 1,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 1,
-								["b_dmg"] = 0,
-								["r_amt"] = 1,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
+						["tipo"] = 2,
 					},
+					["aID"] = "29586",
+					["end_time"] = 1670125555,
 					["classe"] = "UNKNOW",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-4491-571-14248-29586-00010C1774",
 					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 74892.020647,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1670125542,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Creature-0-4491-571-14248-29586-00010C1774",
+					["fight_component"] = true,
 				}, -- [6]
 				{
 					["flag_original"] = -2147483648,
 					["totalabsorbed"] = 0.009971,
-					["aID"] = "",
 					["damage_from"] = {
 					},
 					["targets"] = {
@@ -14922,20 +14591,19 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
+					["on_hold"] = false,
+					["aID"] = "",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 200.009971,
-					["last_event"] = 0,
-					["dps_started"] = false,
+					["delay"] = 0,
+					["fight_component"] = true,
 					["end_time"] = 1670125590,
-					["friendlyfire"] = {
-					},
 					["friendlyfire_total"] = 0,
+					["damage_taken"] = 0.009971,
 					["nome"] = "环境伤害 (坠落)",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[3] = {
 								["c_amt"] = 0,
@@ -14954,27 +14622,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 3,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 1,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
-					["total"] = 200.009971,
-					["serial"] = "",
-					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 0.009971,
+					["dps_started"] = false,
+					["total"] = 200.009971,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1670125580,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "",
+					["classe"] = "UNKNOW",
 				}, -- [7]
 			},
 		}, -- [1]
@@ -14983,13 +14653,13 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1300,
-					["healing_from"] = {
+					["targets_overheal"] = {
 					},
 					["pets"] = {
 						"全球頂級投資家 <邁克爾假死>", -- [1]
 					},
 					["iniciar_hps"] = false,
-					["classe"] = "HUNTER",
+					["heal_enemy_amt"] = 0,
 					["totalover"] = 1614.037439,
 					["total_without_pet"] = 0.037439,
 					["total"] = 1635.037439,
@@ -15002,13 +14672,13 @@ _detalhes_database = {
 					["totalabsorb"] = 0.037439,
 					["last_hps"] = 0,
 					["targets"] = {
-						["全球頂級投資家 <邁克爾假死>"] = 855,
+						["全球頂級投資家 <邁克爾假死>"] = 0,
 					},
 					["totalover_without_pet"] = 0.037439,
 					["healing_taken"] = 0.037439,
 					["end_time"] = 1670041259,
-					["heal_enemy_amt"] = 0,
-					["targets_overheal"] = {
+					["spec"] = 255,
+					["healing_from"] = {
 					},
 					["nome"] = "邁克爾假死",
 					["spells"] = {
@@ -15017,24 +14687,24 @@ _detalhes_database = {
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["last_event"] = 0,
-					["start_time"] = 1670041236,
-					["custom"] = 0,
-					["tipo"] = 2,
 					["aID"] = "4487-0008386D",
 					["totaldenied"] = 0.037439,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["classe"] = "HUNTER",
+					["start_time"] = 1670041236,
 					["delay"] = 0,
-					["spec"] = 255,
+					["tipo"] = 2,
 				}, -- [1]
 				{
 					["flag_original"] = 4369,
-					["targets_overheal"] = {
-						["全球頂級投資家 <邁克爾假死>"] = 1354,
+					["healing_from"] = {
+						["全球頂級投資家 <邁克爾假死>"] = true,
 					},
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["classe"] = "PET",
 					["totalover"] = 1614.050674,
 					["total_without_pet"] = 1635.050674,
 					["total"] = 1635.050674,
@@ -15047,10 +14717,7 @@ _detalhes_database = {
 					["totalabsorb"] = 0.050674,
 					["last_hps"] = 0,
 					["targets"] = {
-						["全球頂級投資家 <邁克爾假死>"] = 855,
-					},
-					["healing_from"] = {
-						["全球頂級投資家 <邁克爾假死>"] = true,
+						["全球頂級投資家 <邁克爾假死>"] = 0,
 					},
 					["totalover_without_pet"] = 0.050674,
 					["healing_taken"] = 1635.050674,
@@ -15080,22 +14747,25 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
+								["n_curado"] = 1635,
 								["totaldenied"] = 0,
 								["n_amt"] = 25,
-								["n_curado"] = 1635,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
 					},
 					["aID"] = "Pet-0-4490-571-166-30164-0400082C0F",
-					["classe"] = "PET",
+					["targets_overheal"] = {
+						["全球頂級投資家 <邁克爾假死>"] = 0,
+					},
+					["tipo"] = 2,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["start_time"] = 1670041236,
 					["totaldenied"] = 0.050674,
+					["start_time"] = 1670041236,
 					["delay"] = 0,
-					["tipo"] = 2,
+					["heal_enemy_amt"] = 0,
 				}, -- [2]
 			},
 		}, -- [2]
@@ -15104,9 +14774,9 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["received"] = 3200.073751,
-					["resource"] = 0.164079,
+					["resource"] = 0.2313,
 					["targets"] = {
-						["邁克爾假死"] = 1251,
+						["邁克爾假死"] = 0,
 					},
 					["pets"] = {
 					},
@@ -15122,7 +14792,7 @@ _detalhes_database = {
 								["id"] = 34720,
 								["totalover"] = 0,
 								["targets"] = {
-									["邁克爾假死"] = 867,
+									["邁克爾假死"] = 0,
 								},
 								["counter"] = 34,
 							},
@@ -15131,7 +14801,7 @@ _detalhes_database = {
 								["id"] = 57669,
 								["totalover"] = 0,
 								["targets"] = {
-									["邁克爾假死"] = 384,
+									["邁克爾假死"] = 0,
 								},
 								["counter"] = 47,
 							},
@@ -15139,14 +14809,14 @@ _detalhes_database = {
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["flag_original"] = 1297,
+					["aID"] = "4487-0008386D",
 					["spec"] = 255,
-					["totalover"] = 0.00653,
+					["tipo"] = 3,
 					["last_event"] = 0,
 					["alternatepower"] = 0.073751,
-					["tipo"] = 3,
+					["totalover"] = 0.00653,
 					["serial"] = "Player-4487-0008386D",
-					["aID"] = "4487-0008386D",
+					["flag_original"] = 1297,
 				}, -- [1]
 			},
 		}, -- [3]
@@ -15158,36 +14828,36 @@ _detalhes_database = {
 					["debuff_uptime_spells"] = {
 						["_ActorTable"] = {
 							[60053] = {
-								["actived_at"] = 13360416106,
+								["counter"] = 0,
 								["refreshamt"] = 0,
 								["activedamt"] = -9,
-								["appliedamt"] = 10,
-								["id"] = 60053,
 								["uptime"] = 29,
+								["id"] = 60053,
+								["appliedamt"] = 10,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 13360416106,
 							},
 							[53338] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["appliedamt"] = 2,
 								["activedamt"] = -10,
-								["uptime"] = 12,
-								["id"] = 53338,
 								["actived_at"] = 15030709881,
+								["id"] = 53338,
+								["uptime"] = 12,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[49050] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 14,
 								["id"] = 49050,
 								["uptime"] = 28,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 						},
 						["tipo"] = 9,
@@ -15199,159 +14869,159 @@ _detalhes_database = {
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
 							[34027] = {
-								["actived_at"] = 5010208621,
+								["counter"] = 0,
 								["refreshamt"] = 0,
 								["activedamt"] = 5,
-								["appliedamt"] = 5,
-								["id"] = 34027,
 								["uptime"] = 8,
+								["id"] = 34027,
+								["appliedamt"] = 5,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 5010208621,
 							},
 							[5118] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 5118,
 								["uptime"] = 2,
 								["targets"] = {
 								},
-								["counter"] = 0,
-							},
-							[57940] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 7,
-								["appliedamt"] = 7,
-								["id"] = 57940,
-								["uptime"] = 36,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[34501] = {
-								["refreshamt"] = 20,
-								["activedamt"] = 20,
-								["appliedamt"] = 20,
-								["id"] = 34501,
-								["uptime"] = 71,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[57819] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 18,
-								["appliedamt"] = 18,
-								["id"] = 57819,
-								["uptime"] = 101,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[61847] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 18,
-								["appliedamt"] = 18,
-								["id"] = 61847,
-								["uptime"] = 99,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[64495] = {
-								["refreshamt"] = 0,
-								["appliedamt"] = 8,
-								["activedamt"] = 8,
-								["uptime"] = 0,
-								["id"] = 64495,
-								["actived_at"] = 13360583813,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[59658] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 59658,
-								["uptime"] = 3,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[57669] = {
-								["actived_at"] = 1670125620,
-								["refreshamt"] = 0,
-								["activedamt"] = 7,
-								["appliedamt"] = 7,
-								["id"] = 57669,
-								["uptime"] = 32,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[34837] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 5,
-								["appliedamt"] = 5,
-								["id"] = 34837,
-								["uptime"] = 15,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[70893] = {
-								["refreshamt"] = 1,
-								["appliedamt"] = 5,
-								["activedamt"] = 5,
-								["uptime"] = 1,
-								["id"] = 70893,
-								["actived_at"] = 8350375466,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[60065] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 5,
-								["appliedamt"] = 5,
-								["id"] = 60065,
-								["uptime"] = 9,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[19263] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 19263,
-								["uptime"] = 4,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[34026] = {
-								["refreshamt"] = 0,
-								["appliedamt"] = 4,
-								["activedamt"] = 4,
-								["uptime"] = 0,
-								["id"] = 34026,
-								["actived_at"] = 6680249808,
-								["targets"] = {
-								},
-								["counter"] = 0,
 							},
 							[64420] = {
-								["refreshamt"] = 1,
+								["counter"] = 0,
 								["activedamt"] = 8,
 								["appliedamt"] = 8,
 								["id"] = 64420,
 								["uptime"] = 35,
 								["targets"] = {
 								},
+								["refreshamt"] = 1,
+							},
+							[34501] = {
 								["counter"] = 0,
+								["activedamt"] = 20,
+								["appliedamt"] = 20,
+								["id"] = 34501,
+								["uptime"] = 71,
+								["targets"] = {
+								},
+								["refreshamt"] = 20,
+							},
+							[57819] = {
+								["counter"] = 0,
+								["activedamt"] = 18,
+								["appliedamt"] = 18,
+								["id"] = 57819,
+								["uptime"] = 101,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[61847] = {
+								["counter"] = 0,
+								["activedamt"] = 18,
+								["appliedamt"] = 18,
+								["id"] = 61847,
+								["uptime"] = 99,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[57940] = {
+								["counter"] = 0,
+								["activedamt"] = 7,
+								["appliedamt"] = 7,
+								["id"] = 57940,
+								["uptime"] = 36,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[59658] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 59658,
+								["uptime"] = 3,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[57669] = {
+								["counter"] = 0,
+								["refreshamt"] = 0,
+								["activedamt"] = 7,
+								["uptime"] = 32,
+								["id"] = 57669,
+								["appliedamt"] = 7,
+								["targets"] = {
+								},
+								["actived_at"] = 1670125620,
+							},
+							[34837] = {
+								["counter"] = 0,
+								["activedamt"] = 5,
+								["appliedamt"] = 5,
+								["id"] = 34837,
+								["uptime"] = 15,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[70893] = {
+								["counter"] = 0,
+								["appliedamt"] = 5,
+								["activedamt"] = 5,
+								["actived_at"] = 8350375466,
+								["id"] = 70893,
+								["uptime"] = 1,
+								["targets"] = {
+								},
+								["refreshamt"] = 1,
+							},
+							[60065] = {
+								["counter"] = 0,
+								["activedamt"] = 5,
+								["appliedamt"] = 5,
+								["id"] = 60065,
+								["uptime"] = 9,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[19263] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 19263,
+								["uptime"] = 4,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[34026] = {
+								["counter"] = 0,
+								["appliedamt"] = 4,
+								["activedamt"] = 4,
+								["actived_at"] = 6680249808,
+								["id"] = 34026,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[64495] = {
+								["counter"] = 0,
+								["appliedamt"] = 8,
+								["activedamt"] = 8,
+								["actived_at"] = 13360583813,
+								["id"] = 64495,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
 							},
 						},
 						["tipo"] = 9,
@@ -15369,86 +15039,86 @@ _detalhes_database = {
 						[58074] = 1,
 						[49067] = 1,
 						[75] = 24,
-						[61847] = 1,
-						[781] = 3,
-						[48996] = 1,
-						[53338] = 2,
-						[34026] = 4,
 						[19263] = 1,
+						[34026] = 4,
+						[781] = 3,
+						[53338] = 2,
+						[48996] = 1,
+						[61847] = 1,
 					},
-					["buff_uptime"] = 416,
-					["tipo"] = 4,
+					["classe"] = "HUNTER",
 					["last_event"] = 0,
-					["nome"] = "邁克爾假死",
+					["tipo"] = 4,
 					["debuff_uptime_targets"] = {
 					},
+					["nome"] = "邁克爾假死",
 					["serial"] = "Player-4487-0008386D",
-					["classe"] = "HUNTER",
+					["buff_uptime"] = 416,
 				}, -- [1]
 				{
 					["fight_component"] = true,
-					["flag_original"] = 4369,
+					["classe"] = "PET",
 					["ownerName"] = "邁克爾假死",
 					["nome"] = "全球頂級投資家 <邁克爾假死>",
-					["aID"] = "Pet-0-4490-571-166-30164-0200082C0F",
 					["pets"] = {
 					},
+					["last_event"] = 0,
 					["spell_cast"] = {
 						[52474] = 38,
-						[64495] = 7,
 						[61684] = 4,
+						[64495] = 7,
 					},
-					["classe"] = "PET",
+					["aID"] = "Pet-0-4490-571-166-30164-0200082C0F",
 					["tipo"] = 4,
 					["serial"] = "Pet-0-4490-571-166-30164-0200082C0F",
-					["last_event"] = 0,
+					["flag_original"] = 4369,
 				}, -- [2]
 				{
 					["fight_component"] = true,
-					["last_event"] = 0,
+					["aID"] = "29402",
 					["nome"] = "铁毛猛犸象",
 					["pets"] = {
 					},
+					["tipo"] = 4,
+					["flag_original"] = 68136,
+					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-4490-571-166-29402-00000ACE45",
 					["spell_cast"] = {
 						[56356] = 2,
 					},
-					["flag_original"] = 68136,
-					["aID"] = "29402",
-					["classe"] = "UNKNOW",
-					["serial"] = "Creature-0-4490-571-166-29402-00000ACE45",
-					["tipo"] = 4,
 				}, -- [3]
 				{
 					["monster"] = true,
-					["last_event"] = 0,
+					["aID"] = "29623",
 					["nome"] = "野蛮岭暴徒",
+					["flag_original"] = 68168,
 					["pets"] = {
 					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["serial"] = "Creature-0-4490-571-166-29623-00000ACFDB",
 					["spell_cast"] = {
 						[54678] = 1,
 					},
-					["fight_component"] = true,
-					["aID"] = "29623",
-					["tipo"] = 4,
-					["classe"] = "UNKNOW",
-					["serial"] = "Creature-0-4490-571-166-29623-00000ACFDB",
-					["flag_original"] = 68168,
 				}, -- [4]
 				{
 					["flag_original"] = 68168,
-					["monster"] = true,
+					["fight_component"] = true,
 					["nome"] = "雷铸抢劫者",
-					["last_event"] = 0,
+					["classe"] = "UNKNOW",
 					["pets"] = {
 					},
 					["spell_cast"] = {
 						[52701] = 3,
 					},
-					["fight_component"] = true,
-					["tipo"] = 4,
 					["aID"] = "29586",
+					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-4491-571-14248-29586-00010C1774",
-					["classe"] = "UNKNOW",
+					["monster"] = true,
 				}, -- [5]
 			},
 		}, -- [4]
@@ -15461,74 +15131,6 @@ _detalhes_database = {
 		},
 		["raid_roster_indexed"] = {
 		},
-		["spells_cast_timeline"] = {
-		},
-		["tempo_start"] = 1670041188,
-		["cleu_timeline"] = {
-		},
-		["alternate_power"] = {
-		},
-		["combat_counter"] = 4892,
-		["totals"] = {
-			312082.2908970001, -- [1]
-			3270.075358, -- [2]
-			{
-				0, -- [1]
-				[0] = 3200.067221,
-				["alternatepower"] = 0,
-				[3] = 0,
-				[6] = 70.021456,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["cooldowns_defensive"] = 0,
-				["dispell"] = 0,
-				["interrupt"] = 0,
-				["debuff_uptime"] = 0,
-				["cc_break"] = 0,
-				["dead"] = 0,
-			}, -- [4]
-			["frags_total"] = 0,
-			["voidzone_damage"] = 0,
-		},
-		["player_last_events"] = {
-		},
-		["frags_need_refresh"] = false,
-		["aura_timeline"] = {
-		},
-		["__call"] = {
-		},
-		["data_inicio"] = "12:19:49",
-		["end_time"] = 859.884,
-		["cleu_events"] = {
-			["n"] = 1,
-		},
-		["totals_grupo"] = {
-			258791.087486, -- [1]
-			1635.035973, -- [2]
-			{
-				0, -- [1]
-				[0] = 3200.067221,
-				["alternatepower"] = 0,
-				[3] = 0,
-				[6] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["cooldowns_defensive"] = 0,
-				["dispell"] = 0,
-				["interrupt"] = 0,
-				["debuff_uptime"] = 0,
-				["cc_break"] = 0,
-				["dead"] = 0,
-			}, -- [4]
-		},
-		["overall_refreshed"] = true,
-		["frags"] = {
-		},
-		["hasSaved"] = true,
 		["segments_added"] = {
 			{
 				["elapsed"] = 4.868000000000052,
@@ -15639,51 +15241,140 @@ _detalhes_database = {
 				["clock"] = "12:19:49",
 			}, -- [18]
 		},
-		["data_fim"] = "11:47:06",
-		["overall_enemy_name"] = "-- x -- x --",
-		["CombatSkillCache"] = {
+		["tempo_start"] = 1670041188,
+		["cleu_timeline"] = {
 		},
+		["alternate_power"] = {
+		},
+		["combat_counter"] = 4892,
+		["totals"] = {
+			312082.2908970001, -- [1]
+			3270.075358, -- [2]
+			{
+				0, -- [1]
+				[0] = 3200.067221,
+				["alternatepower"] = 0,
+				[6] = 70.021456,
+				[3] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
+			}, -- [4]
+			["voidzone_damage"] = 0,
+			["frags_total"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["aura_timeline"] = {
+		},
+		["__call"] = {
+		},
+		["data_inicio"] = "12:19:49",
+		["end_time"] = 859.884,
+		["last_events_tables"] = {
+		},
+		["totals_grupo"] = {
+			258791.087486, -- [1]
+			1635.035973, -- [2]
+			{
+				0, -- [1]
+				[0] = 3200.067221,
+				["alternatepower"] = 0,
+				[6] = 0,
+				[3] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
+			}, -- [4]
+		},
+		["overall_refreshed"] = true,
 		["PhaseData"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 			}, -- [1]
-			["damage_section"] = {
+			["damage"] = {
 			},
 			["heal_section"] = {
 			},
 			["heal"] = {
 			},
-			["damage"] = {
+			["damage_section"] = {
 			},
+		},
+		["hasSaved"] = true,
+		["spells_cast_timeline"] = {
+		},
+		["data_fim"] = "11:47:06",
+		["overall_enemy_name"] = "-- x -- x --",
+		["CombatSkillCache"] = {
+		},
+		["frags"] = {
 		},
 		["start_time"] = 762.2949999999996,
 		["TimeData"] = {
 			["Raid Damage Done"] = {
 			},
 		},
-		["last_events_tables"] = {
+		["cleu_events"] = {
+			["n"] = 1,
 		},
 	},
-	["character_data"] = {
-		["logons"] = 173,
+	["local_instances_config"] = {
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 1,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["is_open"] = true,
+			["isLocked"] = false,
+			["snap"] = {
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -538.6555557250977,
+					["x"] = -440.4375,
+					["w"] = 347.6788940429688,
+					["h"] = 164.2200927734375,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
 	},
-	["mythic_dungeon_currentsaved"] = {
-		["dungeon_name"] = "",
-		["started"] = false,
-		["segment_id"] = 0,
-		["ej_id"] = 0,
-		["started_at"] = 0,
-		["run_id"] = 0,
-		["level"] = 0,
-		["dungeon_zone_id"] = 0,
-		["previous_boss_killed_at"] = 0,
-	},
-	["last_instance_time"] = 1670000391,
+	["force_font_outline"] = "",
+	["last_day"] = "05",
 	["announce_cooldowns"] = {
-		["enabled"] = false,
 		["ignored_cooldowns"] = {
 		},
+		["enabled"] = false,
 		["custom"] = "",
 		["channel"] = "RAID",
 	},
@@ -15691,14 +15382,329 @@ _detalhes_database = {
 		["last_difficulty"] = 15,
 		["last_raid"] = "",
 	},
-	["announce_damagerecord"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
+	["cached_roles"] = {
+		["Player-4487-000549C0"] = "HEALER",
+		["Player-4487-000E73EA"] = "DAMAGER",
+		["Player-4487-00032689"] = "DAMAGER",
+		["Player-4487-0011D135"] = "HEALER",
+		["Player-4487-0018F683"] = "TANK",
+		["Player-4487-0018700B"] = "TANK",
+		["Player-4487-00117867"] = "DAMAGER",
+		["Player-4487-00003762"] = "TANK",
+		["Player-4487-00180DF2"] = "DAMAGER",
+		["Player-4487-001937D0"] = "TANK",
+		["Player-4487-00016957"] = "HEALER",
+		["Player-4487-00115A52"] = "TANK",
+		["Player-4487-0019127F"] = "DAMAGER",
+		["Player-4487-001890D3"] = "DAMAGER",
+		["Player-4487-001255E0"] = "DAMAGER",
+		["Player-4487-0002ED65"] = "DAMAGER",
+		["Player-4487-0004F4A5"] = "DAMAGER",
+		["Player-4487-00011801"] = "DAMAGER",
+		["Player-4487-0011FFCB"] = "DAMAGER",
+		["Player-4487-001219A1"] = "DAMAGER",
+		["Player-4487-00126F9C"] = "TANK",
+		["Player-4487-001352E6"] = "DAMAGER",
+		["Player-4487-00183A09"] = "DAMAGER",
+		["Player-4487-001331EB"] = "DAMAGER",
+		["Player-4487-0007C36C"] = "DAMAGER",
+		["Player-4487-0007BE5E"] = "HEALER",
+		["Player-4487-00100F32"] = "DAMAGER",
+		["Player-4487-0012296F"] = "DAMAGER",
+		["Player-4487-0011916C"] = "DAMAGER",
+		["Player-4487-0000ABCE"] = "HEALER",
+		["Player-4487-0018EEEA"] = "TANK",
+		["Player-4487-0006DFB2"] = "DAMAGER",
+		["Player-4487-00153A4A"] = "TANK",
+		["Player-4487-0012DFD9"] = "DAMAGER",
+		["Player-4487-00046F4C"] = "DAMAGER",
+		["Player-4487-00117CE8"] = "DAMAGER",
+		["Player-4487-0011A935"] = "HEALER",
+		["Player-4487-0000FD1C"] = "DAMAGER",
+		["Player-4487-00027C8B"] = "HEALER",
+		["Player-4487-0010F825"] = "TANK",
+		["Player-4487-00022F11"] = "DAMAGER",
+		["Player-4487-000860F6"] = "HEALER",
+		["Player-4487-00070444"] = "DAMAGER",
+		["Player-4487-00001E49"] = "HEALER",
+		["Player-4487-00121C75"] = "DAMAGER",
+		["Player-4487-0002BCEF"] = "HEALER",
+		["Player-4487-000275F5"] = "DAMAGER",
+		["Player-4487-001AE178"] = "TANK",
+		["Player-4487-0010F7EB"] = "DAMAGER",
+		["Player-4487-00113924"] = "DAMAGER",
+		["Player-4487-0010FE03"] = "DAMAGER",
+		["Player-4487-000106E3"] = "DAMAGER",
+		["Player-4487-00058238"] = "DAMAGER",
+		["Player-4487-00127D9C"] = "DAMAGER",
+		["Player-4487-0014BB5D"] = "DAMAGER",
+		["Player-4487-000DB823"] = "DAMAGER",
+		["Player-4487-0017FE51"] = "DAMAGER",
+		["Player-4487-00025897"] = "HEALER",
+		["Player-4487-00123940"] = "DAMAGER",
+		["Player-4487-000B441D"] = "NONE",
+		["Player-4487-0008596C"] = "HEALER",
+		["Player-4487-00124D8A"] = "DAMAGER",
+		["Player-4487-00025C26"] = "TANK",
+		["Player-4487-0001D182"] = "DAMAGER",
+		["Player-4487-00080C4E"] = "DAMAGER",
+		["Player-4487-00126F6D"] = "HEALER",
+		["Player-4487-0015388F"] = "DAMAGER",
+		["Player-4487-001199DD"] = "TANK",
+		["Player-4487-001187E4"] = "HEALER",
+		["Player-4487-000CE868"] = "DAMAGER",
+		["Player-4487-000800AD"] = "DAMAGER",
+		["Player-4487-00190953"] = "DAMAGER",
+		["Player-4487-00029B1D"] = "HEALER",
+		["Player-4487-001641C8"] = "DAMAGER",
+		["Player-4487-001153B5"] = "DAMAGER",
+		["Player-4487-0000E724"] = "DAMAGER",
+		["Player-4487-001208C9"] = "DAMAGER",
+		["Player-4487-000C123D"] = "TANK",
+		["Player-4487-0004AB14"] = "TANK",
+		["Player-4487-00087BBC"] = "DAMAGER",
+		["Player-4487-000E130F"] = "HEALER",
+		["Player-4487-0009672E"] = "DAMAGER",
+		["Player-4487-000242ED"] = "DAMAGER",
+		["Player-4487-0003BCC7"] = "DAMAGER",
+		["Player-4487-001283F9"] = "DAMAGER",
+		["Player-4487-00035519"] = "DAMAGER",
+		["Player-4487-00092D5E"] = "HEALER",
+		["Player-4487-000A2EE3"] = "DAMAGER",
+		["Player-4487-0017CE07"] = "HEALER",
+		["Player-4487-0000F982"] = "DAMAGER",
+		["Player-4487-0012C19D"] = "HEALER",
+		["Player-4487-00019DD4"] = "DAMAGER",
+		["Player-4487-00047FAF"] = "TANK",
+		["Player-4487-0005F672"] = "TANK",
+		["Player-4487-00184ABD"] = "DAMAGER",
+		["Player-4487-0007BE23"] = "DAMAGER",
+		["Player-4487-000AEB54"] = "DAMAGER",
+		["Player-4487-0014F751"] = "HEALER",
+		["Player-4487-00076A11"] = "DAMAGER",
+		["Player-4487-0007628E"] = "DAMAGER",
+		["Player-4487-0009E565"] = "HEALER",
+		["Player-4487-001665D8"] = "HEALER",
+		["Player-4487-0011B7B4"] = "DAMAGER",
+		["Player-4487-00125E88"] = "DAMAGER",
+		["Player-4487-001169FA"] = "NONE",
+		["Player-4487-00117543"] = "TANK",
+		["Player-4487-00025307"] = "HEALER",
+		["Player-4487-00000920"] = "HEALER",
+		["Player-4487-0002300E"] = "DAMAGER",
+		["Player-4487-00096A11"] = "DAMAGER",
+		["Player-4487-001178E3"] = "DAMAGER",
+		["Player-4487-0017D260"] = "DAMAGER",
+		["Player-4487-00113DDA"] = "DAMAGER",
+		["Player-4487-00010753"] = "DAMAGER",
+		["Player-4487-001886F9"] = "DAMAGER",
+		["Player-4487-00116737"] = "HEALER",
+		["Player-4487-0000DE3F"] = "DAMAGER",
+		["Player-4487-00116C29"] = "HEALER",
+		["Player-4487-0002C63F"] = "TANK",
+		["Player-4487-00115BD0"] = "HEALER",
+		["Player-4487-000068FA"] = "DAMAGER",
+		["Player-4487-000D8E35"] = "DAMAGER",
+		["Player-4487-001819EC"] = "DAMAGER",
+		["Player-4487-0011DD3C"] = "TANK",
+		["Player-4487-000E5CB0"] = "DAMAGER",
+		["Player-4487-001884F7"] = "HEALER",
+		["Player-4487-00057F67"] = "DAMAGER",
+		["Player-4487-0002D52C"] = "DAMAGER",
+		["Player-4487-000030E9"] = "HEALER",
+		["Player-4487-0008CC1C"] = "DAMAGER",
+		["Player-4487-0000D7A3"] = "HEALER",
+		["Player-4487-000DDCE1"] = "NONE",
+		["Player-4487-000DBDF8"] = "DAMAGER",
+		["Player-4487-00015CFD"] = "DAMAGER",
+		["Player-4487-00111B9C"] = "HEALER",
+		["Player-4487-000B945A"] = "DAMAGER",
+		["Player-4487-000F34CD"] = "DAMAGER",
+		["Player-4487-00034E86"] = "HEALER",
+		["Player-4487-0010956C"] = "DAMAGER",
+		["Player-4487-00115FE5"] = "TANK",
+		["Player-4487-000D309D"] = "DAMAGER",
+		["Player-4487-0015C9BF"] = "TANK",
+		["Player-4487-000AAF53"] = "HEALER",
+		["Player-4487-001A439D"] = "HEALER",
+		["Player-4487-00118904"] = "HEALER",
+		["Player-4487-0010D6F8"] = "NONE",
+		["Player-4487-001812E3"] = "DAMAGER",
+		["Player-4487-0017CBB7"] = "DAMAGER",
+		["Player-4487-00090A8F"] = "DAMAGER",
+		["Player-4487-0011590D"] = "DAMAGER",
+		["Player-4487-001224AB"] = "DAMAGER",
+		["Player-4487-00035768"] = "DAMAGER",
+		["Player-4487-00115888"] = "NONE",
+		["Player-4487-001092EF"] = "DAMAGER",
+		["Player-4487-00184289"] = "DAMAGER",
+		["Player-4487-00090C83"] = "DAMAGER",
+		["Player-4487-000C3A9D"] = "DAMAGER",
+		["Player-4487-001163FA"] = "DAMAGER",
+		["Player-4487-000E2948"] = "NONE",
+		["Player-4487-00066116"] = "DAMAGER",
+		["Player-4487-0015EBC2"] = "DAMAGER",
+		["Player-4487-001848B6"] = "DAMAGER",
+		["Player-4487-000B1571"] = "HEALER",
+		["Player-4487-0011673F"] = "TANK",
+		["Player-4487-00123FA2"] = "NONE",
+		["Player-4487-0005B19A"] = "HEALER",
+		["Player-4487-00194718"] = "DAMAGER",
+		["Player-4487-0003A0C2"] = "DAMAGER",
+		["Player-4487-00117206"] = "TANK",
+		["Player-4487-001836AB"] = "HEALER",
+		["Player-4487-00125016"] = "DAMAGER",
+		["Player-4487-0018259A"] = "TANK",
+		["Player-4487-00127C2E"] = "TANK",
+		["Player-4487-001229BA"] = "HEALER",
+		["Player-4487-00113A79"] = "DAMAGER",
+		["Player-4487-000973A9"] = "DAMAGER",
+		["Player-4487-0011DCF7"] = "DAMAGER",
+		["Player-4487-0001B17E"] = "DAMAGER",
+		["Player-4487-0019A038"] = "DAMAGER",
+		["Player-4487-0003B5CE"] = "DAMAGER",
+		["Player-4487-0016AE91"] = "DAMAGER",
+		["Player-4487-0017990B"] = "HEALER",
+		["Player-4487-00181F13"] = "DAMAGER",
+		["Player-4487-00048FCD"] = "HEALER",
+		["Player-4487-00012FE0"] = "DAMAGER",
+		["Player-4487-0011636B"] = "DAMAGER",
+		["Player-4487-00005DA7"] = "DAMAGER",
+		["Player-4487-001104E5"] = "DAMAGER",
+		["Player-4487-00018A86"] = "DAMAGER",
+		["Player-4487-00030DB9"] = "DAMAGER",
+		["Player-4487-0012E38B"] = "DAMAGER",
+		["Player-4487-000A9B53"] = "DAMAGER",
+		["Player-4487-0011441B"] = "DAMAGER",
+		["Player-4487-001831AC"] = "DAMAGER",
+		["Player-4487-0007B8E2"] = "HEALER",
+		["Player-4487-00032D56"] = "HEALER",
+		["Player-4487-0018C968"] = "DAMAGER",
+		["Player-4487-00053C88"] = "DAMAGER",
+		["Player-4487-0003A79F"] = "DAMAGER",
+		["Player-4487-00120675"] = "DAMAGER",
+		["Player-4487-0004D24B"] = "HEALER",
+		["Player-4487-000144C9"] = "TANK",
+		["Player-4487-00189461"] = "TANK",
+		["Player-4487-000313B9"] = "DAMAGER",
+		["Player-4487-00122A25"] = "HEALER",
+		["Player-4487-0011A041"] = "HEALER",
+		["Player-4487-0006964A"] = "HEALER",
+		["Player-4487-00029CF9"] = "DAMAGER",
+		["Player-4487-0011F53F"] = "DAMAGER",
+		["Player-4487-0008386D"] = "DAMAGER",
+		["Player-4487-0008486F"] = "DAMAGER",
+		["Player-4487-0011835D"] = "DAMAGER",
+		["Player-4487-0018F410"] = "DAMAGER",
+		["Player-4487-0000E392"] = "HEALER",
+		["Player-4487-00004A7C"] = "HEALER",
+		["Player-4487-00189553"] = "HEALER",
+		["Player-4487-0003C2D7"] = "HEALER",
+		["Player-4487-001254E1"] = "DAMAGER",
+		["Player-4487-00062314"] = "DAMAGER",
+		["Player-4487-000336F6"] = "DAMAGER",
+		["Player-4487-00115F40"] = "TANK",
+		["Player-4487-0000F719"] = "DAMAGER",
+		["Player-4487-00064DF0"] = "HEALER",
+		["Player-4487-0007302B"] = "TANK",
+		["Player-4487-00011A97"] = "DAMAGER",
+		["Player-4487-00115B96"] = "HEALER",
+		["Player-4487-0018D285"] = "TANK",
+		["Player-4487-0018EDD5"] = "DAMAGER",
+		["Player-4487-0001C3C5"] = "DAMAGER",
+		["Player-4487-000CC195"] = "DAMAGER",
+		["Player-4487-0017DCEA"] = "DAMAGER",
+		["Player-4487-00023701"] = "DAMAGER",
+		["Player-4487-00182A66"] = "DAMAGER",
+		["Player-4487-0019A8C9"] = "HEALER",
+		["Player-4487-000CCC81"] = "DAMAGER",
+		["Player-4487-00018CF4"] = "HEALER",
+		["Player-4487-0017C51A"] = "HEALER",
+		["Player-4487-00102767"] = "HEALER",
+		["Player-4487-0000BB0F"] = "HEALER",
+		["Player-4487-001AB49C"] = "DAMAGER",
+		["Player-4487-00123A4C"] = "HEALER",
+		["Player-4487-00110547"] = "DAMAGER",
+		["Player-4487-00115562"] = "DAMAGER",
+		["Player-4487-001794A7"] = "DAMAGER",
+		["Player-4487-00123792"] = "TANK",
+		["Player-4487-00187EFD"] = "DAMAGER",
+		["Player-4487-000DB293"] = "HEALER",
+		["Player-4487-0011DFDC"] = "HEALER",
+		["Player-4487-0008667C"] = "DAMAGER",
+		["Player-4487-000E9481"] = "DAMAGER",
+		["Player-4487-0008CDBF"] = "TANK",
+		["Player-4487-000676F7"] = "DAMAGER",
+		["Player-4487-0001301E"] = "HEALER",
+		["Player-4487-00032B8E"] = "DAMAGER",
+		["Player-4487-00167F3C"] = "TANK",
+		["Player-4487-00001273"] = "DAMAGER",
+		["Player-4487-001811D1"] = "DAMAGER",
+		["Player-4487-0018C4C2"] = "DAMAGER",
+		["Player-4487-0012B70A"] = "DAMAGER",
+		["Player-4487-000E2FEC"] = "DAMAGER",
+		["Player-4487-001024BD"] = "DAMAGER",
+		["Player-4487-000E6750"] = "DAMAGER",
+		["Player-4487-00191E2B"] = "DAMAGER",
+		["Player-4487-00122022"] = "DAMAGER",
+		["Player-4487-00118D24"] = "DAMAGER",
+		["Player-4487-00022B13"] = "HEALER",
+		["Player-4487-0010FEFB"] = "DAMAGER",
+		["Player-4487-000FCB14"] = "DAMAGER",
+		["Player-4487-00191B5F"] = "DAMAGER",
+		["Player-4487-00005A82"] = "DAMAGER",
+		["Player-4487-0013D4ED"] = "DAMAGER",
+		["Player-4487-000569A9"] = "TANK",
+		["Player-4487-00087A5A"] = "DAMAGER",
+		["Player-4487-00009EC9"] = "HEALER",
+		["Player-4487-0018454A"] = "DAMAGER",
+		["Player-4487-000B65AC"] = "HEALER",
+		["Player-4487-00037F96"] = "HEALER",
+		["Player-4487-00097A96"] = "HEALER",
+		["Player-4487-000B83D2"] = "HEALER",
+		["Player-4487-0007DE96"] = "DAMAGER",
+		["Player-4487-00084796"] = "DAMAGER",
+		["Player-4487-0007D413"] = "DAMAGER",
+		["Player-4487-000DC528"] = "DAMAGER",
+		["Player-4487-00056B36"] = "DAMAGER",
+		["Player-4487-0000F552"] = "DAMAGER",
+		["Player-4487-0007A479"] = "DAMAGER",
+		["Player-4487-0011742F"] = "HEALER",
+		["Player-4487-001166AB"] = "DAMAGER",
+		["Player-4487-0006BA6B"] = "DAMAGER",
+		["Player-4487-0014F16E"] = "TANK",
+		["Player-4487-00115418"] = "DAMAGER",
+		["Player-4487-0000A20C"] = "DAMAGER",
+		["Player-4487-00120650"] = "DAMAGER",
+		["Player-4487-0011D16E"] = "NONE",
+		["Player-4487-0012198A"] = "DAMAGER",
+		["Player-4487-0011CAC6"] = "DAMAGER",
+		["Player-4487-00134802"] = "DAMAGER",
+		["Player-4487-00114936"] = "DAMAGER",
+		["Player-4487-00105E35"] = "DAMAGER",
+		["Player-4487-0008300F"] = "HEALER",
+		["Player-4487-00159183"] = "DAMAGER",
+		["Player-4487-00125786"] = "DAMAGER",
+		["Player-4487-00122301"] = "DAMAGER",
+		["Player-4487-00022E05"] = "DAMAGER",
+		["Player-4487-001482A9"] = "DAMAGER",
+		["Player-4487-001AB6CA"] = "DAMAGER",
+		["Player-4487-0011904C"] = "DAMAGER",
+		["Player-4487-000CCE9B"] = "DAMAGER",
+		["Player-4487-0017FC79"] = "DAMAGER",
+		["Player-4487-0017C490"] = "DAMAGER",
+		["Player-4487-0017838F"] = "DAMAGER",
+		["Player-4487-0004A74C"] = "DAMAGER",
+		["Player-4487-000A6960"] = "DAMAGER",
+		["Player-4487-0007666D"] = "DAMAGER",
+		["Player-4487-0017DE41"] = "DAMAGER",
+		["Player-4487-00079681"] = "DAMAGER",
+		["Player-4487-00091FFB"] = "HEALER",
+		["Player-4487-00014B42"] = "DAMAGER",
+		["Player-4487-00011569"] = "DAMAGER",
+		["Player-4487-000E738C"] = "HEALER",
 	},
 	["cached_specs"] = {
-		["Player-4487-00167E8C"] = 251,
 		["Player-4487-0008386D"] = 255,
-		["Player-4487-00155FE7"] = 258,
-		["Player-4487-00151DEF"] = 70,
 	},
 }

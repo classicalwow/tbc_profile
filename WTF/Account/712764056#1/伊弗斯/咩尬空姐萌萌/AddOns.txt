@@ -198,3 +198,4 @@ DBM-Party-Vanilla: disabled
 DBM-VoA: disabled
 FFLU: disabled
 HeyboxPlayerInfo: disabled
+Details_Compare2: disabled

@@ -755,10 +755,10 @@ MailLoggerDB = {
 					["ItemLink"] = "|cff1eff00|Hitem:6037::::::::80:::::::::|h[真银锭]|h|r",
 					["Name"] = "真银锭",
 				},
-				[98] = {
-					["Number"] = 30,
-					["ItemLink"] = "|cff1eff00|Hitem:12361::::::::80:::::::::|h[蓝宝石]|h|r",
-					["Name"] = "蓝宝石",
+				[10] = {
+					["Number"] = 21,
+					["ItemLink"] = "|cff1eff00|Hitem:1206::::::::80:::::::::|h[绿玛瑙]|h|r",
+					["Name"] = "绿玛瑙",
 				},
 				[72] = {
 					["Number"] = 36,
@@ -775,10 +775,10 @@ MailLoggerDB = {
 					["ItemLink"] = "|cffffffff|Hitem:10286::::::::80:::::::::|h[野性之心]|h|r",
 					["Name"] = "野性之心",
 				},
-				[10] = {
-					["Number"] = 21,
-					["ItemLink"] = "|cff1eff00|Hitem:1206::::::::80:::::::::|h[绿玛瑙]|h|r",
-					["Name"] = "绿玛瑙",
+				[98] = {
+					["Number"] = 30,
+					["ItemLink"] = "|cff1eff00|Hitem:12361::::::::80:::::::::|h[蓝宝石]|h|r",
+					["Name"] = "蓝宝石",
 				},
 				[67] = {
 					["Number"] = 24,
@@ -5113,5 +5113,332 @@ MailLoggerDB = {
 				}, -- [1]
 			},
 		}, -- [233]
+		{
+			["Date"] = "2022-12-05",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "纳克萨玛斯",
+			["TargetName"] = "感覺是世壹騎",
+			["Time"] = "21:06:46",
+			["ReceiveItems"] = {
+			},
+		}, -- [234]
+		{
+			["TargetName"] = "感覺是世壹騎",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2022-12-05",
+			["ReceiveMoney"] = 0,
+			["Time"] = "21:06:46",
+			["GiveMoney"] = 0,
+			["Location"] = "纳克萨玛斯",
+			["GiveItems"] = {
+				{
+					["Number"] = 20,
+					["ItemLink"] = "|cffffffff|Hitem:43523::::::::80:::::::::|h[魔法酪饼]|h|r",
+					["Name"] = "魔法酪饼",
+				}, -- [1]
+				{
+					["Number"] = 20,
+					["ItemLink"] = "|cffffffff|Hitem:43523::::::::80:::::::::|h[魔法酪饼]|h|r",
+					["Name"] = "魔法酪饼",
+				}, -- [2]
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [235]
+		{
+			["Date"] = "2022-12-05",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "纳克萨玛斯",
+			["TargetName"] = "牧中無人丶",
+			["Time"] = "21:06:56",
+			["ReceiveItems"] = {
+			},
+		}, -- [236]
+		{
+			["TargetName"] = "牧中無人丶",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2022-12-05",
+			["ReceiveMoney"] = 0,
+			["Time"] = "21:06:56",
+			["GiveMoney"] = 0,
+			["Location"] = "纳克萨玛斯",
+			["GiveItems"] = {
+				{
+					["Number"] = 20,
+					["ItemLink"] = "|cffffffff|Hitem:43523::::::::80:::::::::|h[魔法酪饼]|h|r",
+					["Name"] = "魔法酪饼",
+				}, -- [1]
+				{
+					["Number"] = 20,
+					["ItemLink"] = "|cffffffff|Hitem:43523::::::::80:::::::::|h[魔法酪饼]|h|r",
+					["Name"] = "魔法酪饼",
+				}, -- [2]
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [237]
+		{
+			["Date"] = "2022-12-05",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "纳克萨玛斯",
+			["TargetName"] = "感覺是世壹騎",
+			["Time"] = "21:40:03",
+			["ReceiveItems"] = {
+			},
+		}, -- [238]
+		{
+			["TargetName"] = "感覺是世壹騎",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2022-12-05",
+			["ReceiveMoney"] = 0,
+			["Time"] = "21:40:03",
+			["GiveMoney"] = 1000000,
+			["Location"] = "纳克萨玛斯",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:39267::::::::80:::::::::|h[憎恶肩刃]|h|r",
+					["Name"] = "憎恶肩刃",
+				}, -- [1]
+			},
+		}, -- [239]
+		{
+			["Date"] = "2022-12-05",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "纳克萨玛斯",
+			["TargetName"] = "感覺是世壹騎",
+			["Time"] = "22:42:58",
+			["ReceiveItems"] = {
+			},
+		}, -- [240]
+		{
+			["TargetName"] = "感覺是世壹騎",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2022-12-05",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:42:58",
+			["GiveMoney"] = 0,
+			["Location"] = "纳克萨玛斯",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:39221::::::::80:::::::::|h[怨灵长矛]|h|r",
+					["Name"] = "怨灵长矛",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:39189::::::::80:::::::::|h[坚持之靴]|h|r",
+					["Name"] = "坚持之靴",
+				}, -- [2]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:39231::::::::80:::::::::|h[古旧丝环]|h|r",
+					["Name"] = "古旧丝环",
+				}, -- [3]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:39274::::::::80:::::::::|h[呕吐者的肩垫]|h|r",
+					["Name"] = "呕吐者的肩垫",
+				}, -- [4]
+			},
+		}, -- [241]
+		{
+			["Date"] = "2022-12-05",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "纳克萨玛斯",
+			["TargetName"] = "感覺是世壹騎",
+			["Time"] = "22:43:16",
+			["ReceiveItems"] = {
+			},
+		}, -- [242]
+		{
+			["TargetName"] = "感覺是世壹騎",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2022-12-05",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:43:16",
+			["GiveMoney"] = 0,
+			["Location"] = "纳克萨玛斯",
+			["GiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:39231::::::::80:::::::::|h[古旧丝环]|h|r",
+					["Name"] = "古旧丝环",
+				}, -- [1]
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [243]
+		{
+			["Date"] = "2022-12-05",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "黑曜石圣殿",
+			["TargetName"] = "感覺是世壹騎",
+			["Time"] = "23:04:15",
+			["ReceiveItems"] = {
+			},
+		}, -- [244]
+		{
+			["Date"] = "2022-12-05",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "永恒之眼",
+			["TargetName"] = "感覺是世壹騎",
+			["Time"] = "23:26:31",
+			["ReceiveItems"] = {
+			},
+		}, -- [245]
+		{
+			["TargetName"] = "感覺是世壹騎",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2022-12-05",
+			["ReceiveMoney"] = 0,
+			["Time"] = "23:26:31",
+			["GiveMoney"] = 0,
+			["Location"] = "永恒之眼",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:43998::::::::80:::::::::|h[卓越勇气胸甲]|h|r",
+					["Name"] = "卓越勇气胸甲",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:39308::::::::80:::::::::|h[仁慈束带]|h|r",
+					["Name"] = "仁慈束带",
+				}, -- [2]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:39395::::::::80:::::::::|h[领主的玷污巨盔]|h|r",
+					["Name"] = "领主的玷污巨盔",
+				}, -- [3]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:39256::::::::80:::::::::|h[硫磺之杖]|h|r",
+					["Name"] = "硫磺之杖",
+				}, -- [4]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:39246::::::::80:::::::::|h[剖检护符]|h|r",
+					["Name"] = "剖检护符",
+				}, -- [5]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:40617::::::::80:::::::::|h[失落保卫者的头盔]|h|r",
+					["Name"] = "失落保卫者的头盔",
+				}, -- [6]
+			},
+		}, -- [246]
+		{
+			["Date"] = "2022-12-05",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "北风苔原",
+			["TargetName"] = "感覺是世壹騎",
+			["Time"] = "23:38:41",
+			["ReceiveItems"] = {
+			},
+		}, -- [247]
+		{
+			["Date"] = "2022-12-05",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "北风苔原",
+			["TargetName"] = "感覺是世壹騎",
+			["Time"] = "23:38:45",
+			["ReceiveItems"] = {
+			},
+		}, -- [248]
+		{
+			["TargetName"] = "感覺是世壹騎",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2022-12-05",
+			["ReceiveMoney"] = 0,
+			["Time"] = "23:38:45",
+			["GiveMoney"] = 0,
+			["Location"] = "北风苔原",
+			["GiveItems"] = {
+				{
+					["Number"] = 8,
+					["ItemLink"] = "|cffa335ee|Hitem:34057::::::::80:::::::::|h[深渊水晶]|h|r",
+					["Name"] = "深渊水晶",
+				}, -- [1]
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [249]
+		{
+			["Date"] = "2022-12-05",
+			["PlayerName"] = "特變電工",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "北风苔原",
+			["TargetName"] = "感覺是世壹騎",
+			["Time"] = "23:42:06",
+			["ReceiveItems"] = {
+			},
+		}, -- [250]
+		{
+			["TargetName"] = "感覺是世壹騎",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2022-12-05",
+			["ReceiveMoney"] = 15100000,
+			["Time"] = "23:42:06",
+			["GiveMoney"] = 0,
+			["Location"] = "北风苔原",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [251]
 	},
 }
