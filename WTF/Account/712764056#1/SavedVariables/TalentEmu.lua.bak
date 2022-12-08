@@ -736,7 +736,7 @@ TalentEmuSV = {
 		["minimap"] = true,
 	},
 	["var"] = {
-		["Player-4487-0012ECFA"] = "!T329E121OaLI1228JQ7kqsA1::EmUa8ZS-GGivcpA5Mxp7m-nA9JFt!G3221w+9:yDC:11u+-:m=C:=1u+-:k=C:C1u+9:wDC:=1u+-:l=C:D1u+9:EEC:I1uw+9:0EC:81u+-:4dE:81u+-:k=C:C1u+9:QRD:91u+-:l=C:D1u+9:FEC:31u!E320+^+ax-:1dv:155-:1wk9:5E1:9+fE-:8E1:9+My9:1Fv:1El9:6E1:9+^+Dx9:1hm:1wk9:1El9:5E1:9+hy9:2Kl9:1wk9:5E1:9+4y9:1Bw:1wk9:1Kl9:5E1:9+iy9:1Um:1El9:6E1:9+sy9:15w:7E1:9+Vx9:13N:1Kl9:6E1:9+3G-:8E1:9+0G-:8E1:9+S27:8E1:9+-G-:8E1:9+HF-:1LD:7E1:9+ls9:1ov:7E1:9+^+FL-:8E1:9+IW-:8E1:9",
+		["Player-4487-0012ECFA"] = "!T329E122OaLI1228JQ7kqsA1::EmUa8ZS-GGivcpA5Mxp7m-nA9JFt!G3222w+9:yDC:11u+-:m=C:=1u+-:k=C:C1u+9:wDC:=1u+-:l=C:D1u+9:EEC:I1uw+9:0EC:81u+-:4dE:81u+-:k=C:C1u+9:QRD:91u+-:l=C:D1u+9:FEC:31u!E320+^+ax-:1dv:155-:1wk9:5E1:9+fE-:8E1:9+My9:1Fv:1El9:6E1:9+^+Dx9:1hm:1wk9:1El9:5E1:9+hy9:2Kl9:1wk9:5E1:9+4y9:1Bw:1wk9:1Kl9:5E1:9+iy9:1Um:1El9:6E1:9+sy9:15w:7E1:9+Vx9:13N:1Kl9:6E1:9+3G-:8E1:9+0G-:8E1:9+S27:8E1:9+-G-:8E1:9+HF-:1LD:7E1:9+ls9:1ov:7E1:9+^+FL-:8E1:9+IW-:8E1:9",
 		["Player-4487-0008386D"] = "!T322E122JKsOWGkoVE3BxH43:0UlN2O::07ye66:0sB038-SbAxroK2n4!G3222n+9:urB:H1u+-:g8C:G1u+-:j8C:-1u+9:1sB:51u+-:-8C:91u+w+9:PND:81u+-:j8C:-1u+-:C8C:41u+9:OND:71u+-:-8C:91u+9:QND:91u!E320+^+bb9:1dv:1q6-:1Vj9:5E1:9+1m9:8E1:9+vs9:1Uv:1TG-:6E1:9+z1:8E1:9+rs9:1om:1xk9:1CP-:5E1:9+Hb9:8E1:9+us9:1jv:1TG-:1TG-:5E1:9+QY9:1LD:7E1:9+Uw9:15w:7E1:9+6p9:1Km:7E1:9+-m9:8E1:9+Bw9:8E1:9+ij-:8E1:9+gv9:8E1:9+uo9:1=F:7E1:9+do9:1ov:7E1:9+^+9p9:1Ms:7E1:9+GW-:8E1:9",
 		["Player-4487-000AC97B"] = "910",
 		["savedTalent"] = {

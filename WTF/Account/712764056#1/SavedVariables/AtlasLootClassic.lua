@@ -10,7 +10,7 @@ AtlasLootClassicDB = {
 			[33535] = "BoJ:35",
 			[23465] = "honor:5000",
 			[33663] = "honor:17100",
-			[40856] = "honor:6720:arena:275",
+			[40856] = "honor:35000",
 			[40888] = "honor:27580",
 			[18430] = "honor:200",
 			[30770] = "BoJ:20",
@@ -87,7 +87,7 @@ AtlasLootClassicDB = {
 			[33508] = "BoJ:20",
 			[33540] = "BoJ:35",
 			[18848] = "honor:2500",
-			[40797] = "honor:5040:arena:200",
+			[40797] = "honor:35000",
 			[28119] = "honor:1425",
 			[33732] = "honor:6840",
 			[33764] = "honor:5130",
@@ -200,7 +200,7 @@ AtlasLootClassicDB = {
 			[33515] = "BoJ:75",
 			[33579] = "BoJ:75",
 			[40804] = "arena:1350",
-			[40836] = "honor:8400:arena:350",
+			[40836] = "honor:42000",
 			[37927] = "honor:5700",
 			[30776] = "BoJ:30",
 			[42115] = "honor:33180",
@@ -283,7 +283,7 @@ AtlasLootClassicDB = {
 			[40682] = "EmblemOfHeroism:40",
 			[34576] = "honor:3990",
 			[33585] = "BoJ:75",
-			[40778] = "honor:8400:arena:350",
+			[40778] = "honor:42000",
 			[44902] = "cpvpWintergrasp:40",
 			[33681] = "honor:4275",
 			[24545] = "honor:4750",
@@ -449,7 +449,7 @@ AtlasLootClassicDB = {
 			[40720] = "EmblemOfValor:25",
 			[37928] = "honor:5700",
 			[16548] = "honor:2000",
-			[40816] = "honor:8400:arena:350",
+			[40816] = "honor:42000",
 			[33687] = "honor:12825",
 			[40880] = "honor:43400",
 			[42260] = "arena:3150",
@@ -476,8 +476,8 @@ AtlasLootClassicDB = {
 			[42607] = "arena:1200",
 			[38547] = "arena:400",
 			[30763] = "BoJ:20",
+			[18826] = "honor:2500",
 			[40689] = "EmblemOfHeroism:40",
-			[33528] = "BoJ:60",
 			[40721] = "EmblemOfValor:25",
 			[33973] = "BoJ:60",
 			[18874] = "honor:5000",
@@ -610,7 +610,7 @@ AtlasLootClassicDB = {
 			[18860] = "honor:5000",
 			[32819] = "honor:3990",
 			[29275] = "BoJ:50",
-			[18826] = "honor:2500",
+			[33528] = "BoJ:60",
 			[33729] = "honor:6840",
 			[33756] = "honor:8550",
 			[42511] = "honor:4480:arena:175",
@@ -747,7 +747,7 @@ AtlasLootClassicDB = {
 				["selected"] = {
 					"AtlasLootClassic_Crafting", -- [1]
 					"EnchantingBC", -- [2]
-					2, -- [3]
+					3, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},
