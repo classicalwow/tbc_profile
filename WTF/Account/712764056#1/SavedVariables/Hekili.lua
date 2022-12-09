@@ -37,7 +37,6 @@ HekiliDB = {
 					["y"] = -224.9999542236328,
 				},
 			},
-			["enabled"] = false,
 			["runOnce"] = {
 				["forceReloadAllDefaultPriorities_20220228"] = true,
 				["forceEnableAllClassesOnceDueToBug_20220225"] = true,
@@ -694,9 +693,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["action"] = "thunder_clap",
 								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 								["criteria"] = "active_enemies > 3",
+								["action"] = "thunder_clap",
 							}, -- [2]
 							{
 								["action"] = "overpower",
@@ -1445,9 +1444,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 								["criteria"] = "active_enemies > 3",
 								["action"] = "thunder_clap",
+								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 							}, -- [2]
 							{
 								["action"] = "overpower",

@@ -1,6 +1,6 @@
 
 BugGrabberDB = {
-	["session"] = 1104,
+	["session"] = 1112,
 	["lastSanitation"] = 3,
 	["errors"] = {
 		{
@@ -1471,21 +1471,13 @@ BugGrabberDB = {
 			["counter"] = 12,
 		}, -- [193]
 		{
-			["message"] = "Interface\\FrameXML\\ChatFrame.lua:1060: bad argument #1 to 'strlower' (string expected, got nil)",
-			["time"] = "2022/11/21 01:06:11",
-			["locals"] = "(*temporary) = nil\n(*temporary) = \"string expected, got nil\"\n",
-			["stack"] = "[string \"=[C]\"]: in function `strlower'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:1060: in function <Interface\\FrameXML\\ChatFrame.lua:1055>",
-			["session"] = 1088,
-			["counter"] = 196,
-		}, -- [194]
-		{
 			["message"] = "Interface\\AddOns\\WIM\\Sources\\Options\\CoreOptions.lua:37: attempt to index global 'db' (a nil value)",
 			["time"] = "2022/09/28 20:32:11",
 			["locals"] = "frame = WIM3_OptionFrameFrame1 {\n ImportCustomObject = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:398\n welcome = WIM3_OptionFrameFrame2 {\n }\n CreateDropDownMenu = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:182\n CreateColorPicker = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:74\n CreateCheckButtonMenu = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:308\n lastObj = WIM3_OptionFrameFrame2 {\n }\n nextOffsetX = 0\n CreateButton = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:64\n CreateCheckButton = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:220\n nextOffSetY = 0\n CreateSlider = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:127\n 0 = <userdata>\n CreateSection = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:353\n CreateText = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:340\n SetFullSize = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:59\n CreateFramedPanel = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:392\n}\n(*temporary) = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:220\n(*temporary) = WIM3_OptionFrameFrame2CheckButton2 {\n 0 = <userdata>\n Enable = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:257\n text = WIM3_OptionFrameFrame2CheckButton2Text {\n }\n CreateCheckButton = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:220\n _Enable = <function> defined =[C]:-1\n UpdateChildren = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:281\n _Disable = <function> defined =[C]:-1\n isCheckButton = true\n children = <table> {\n }\n Disable = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:269\n}\n(*temporary) = \"小地图按钮自由移动\"\n(*temporary) = nil\n(*temporary) = <table> {\n enabled = false\n OnDisable = <function> defined @Interface\\AddOns\\WIM\\Modules\\MinimapIcon.lua:400\n RegisterWidget = <function> defined @Interface\\AddOns\\WIM\\WIM.lua:311\n OnEnable = <function> defined @Interface\\AddOns\\WIM\\Modules\\MinimapIcon.lua:382\n Enable = <function> defined @Interface\\AddOns\\WIM\\WIM.lua:307\n OnDisableWIM = <function> defined @Interface\\AddOns\\WIM\\Modules\\MinimapIcon.lua:371\n canDisable = true\n OnEnableWIM = <function> defined @Interface\\AddOns\\WIM\\Modules\\MinimapIcon.lua:360\n dPrint = <function> defined @Interface\\AddOns\\WIM\\WIM.lua:309\n enableByDefault = true\n title = \"MinimapIcon\"\n RegisterEvent = <function> defined @Interface\\AddOns\\WIM\\WIM.lua:306\n db_defaults = <table> {\n }\n resources = <table> {\n }\n hasWidget = false\n Disable = <function> defined @Interface\\AddOns\\WIM\\WIM.lua:308\n}\n(*temporary) = \"enabled\"\n(*temporary) = nil\n(*temporary) = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\CoreOptions.lua:36\n(*temporary) = WIM3_OptionFrameFrame2CheckButton2 {\n 0 = <userdata>\n Enable = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:257\n text = WIM3_OptionFrameFrame2CheckButton2Text {\n }\n CreateCheckButton = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:220\n _Enable = <function> defined =[C]:-1\n UpdateChildren = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:281\n _Disable = <function> defined =[C]:-1\n isCheckButton = true\n children = <table> {\n }\n Disable = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:269\n}\n(*temporary) = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:46\n(*temporary) = WIM3_OptionFrameFrame2CheckButton2 {\n 0 = <userdata>\n Enable = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:257\n text = WIM3_OptionFrameFrame2CheckButton2Text {\n }\n CreateCheckButton = <function> defined @Interface\\AddOns\\WIM\\Sources\\Options\\OptionsTookKit.lua:220\n _Enable = <function> defined =[C]:-1\n UpdateChi",
 			["stack"] = "[string \"@Interface\\AddOns\\WIM\\Sources\\Options\\CoreOptions.lua\"]:37: in function `frame'\n[string \"@Interface\\AddOns\\WIM\\Sources\\Options\\Options-设置选项.lua\"]:190: in function <Interface\\AddOns\\WIM\\Sources\\Options\\Options.lua:184>\n[string \"=[C]\"]: in function `Click'\n[string \"@Interface\\AddOns\\WIM\\Sources\\Options\\Options-设置选项.lua\"]:281: in function `UpdateSubCategories'\n[string \"@Interface\\AddOns\\WIM\\Sources\\Options\\Options-设置选项.lua\"]:104: in function <Interface\\AddOns\\WIM\\Sources\\Options\\Options.lua:104>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\AddOns\\WIM\\Sources\\Options\\Options-设置选项.lua\"]:327: in function `ShowOptions'\n[string \"@Interface\\AddOns\\AddOnSkins\\Skins\\AddOns\\WIM-3.9.6.lua\"]:11: in function <Interface\\AddOns\\AddOnSkins\\Skins\\AddOns\\WIM.lua:8>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\AddOnSkins\\Core\\Core.lua\"]:217: in function `CallSkin'\n[string \"@Interface\\AddOns\\AddOnSkins\\Core\\Core.lua\"]:311: in function `?'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:119: in function <...ler\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:29: in function <...ler\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\!!!EaseAddonController\\Libs\\AceEvent-3.0\\AceEvent-3.0-4.lua\"]:120: in function <...seAddonController\\Libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>",
 			["session"] = 1094,
 			["counter"] = 28,
-		}, -- [195]
+		}, -- [194]
 		{
 			["message"] = "[string \"*:OnClick\"]:2: Usage: PlaySound(soundKitID, optional[\"SFX\",\"Music\",\"Ambience\", \"Dialog\" or \"Master\"], [forceNoDuplicates, runFinishCallback])",
 			["time"] = "2022/11/24 23:22:34",
@@ -1493,30 +1485,46 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `PlaySound'\n[string \"*:OnClick\"]:2: in function <[string \"*:OnClick\"]:1>",
 			["session"] = 1094,
 			["counter"] = 5,
-		}, -- [196]
+		}, -- [195]
 		{
-			["message"] = "Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua:8: attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)",
-			["time"] = "2022/09/18 19:44:22",
-			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:67: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:53>",
-			["session"] = 1104,
-			["counter"] = 249,
-		}, -- [197]
+			["message"] = "Interface\\AddOns\\DBM-Core\\DBM-Core-5bd31e2.lua:3989: attempt to compare nil with number",
+			["time"] = "2022/12/08 20:51:34",
+			["locals"] = "revision = 20221206225337\nversion = 20221206000000\ndisplayVersion = \"3.4.21\"\nsender = \"姜望\"\n(*temporary) = nil\n(*temporary) = 30400\n(*temporary) = \"Newer version detected from 姜望 : Rev - 20221206225337, Ver - 20221206000000, Rev Diff - 78010089\"\n(*temporary) = 3\n(*temporary) = false\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to compare nil with number\"\nDBM = <table> {\n GetUnitIdFromCID = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:2596\n CHAT_MSG_ADDON_LOGGED = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:4320\n StopLogging = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:5560\n FindScenarioIDs = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6531\n GetNumGuildPlayersInZone = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:2337\n VibrateController = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6497\n FindDungeonMapIDs = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6523\n GetUnitIdFromGUID = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:2418\n CopyProfile = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1837\n CHAT_MSG_MONSTER_EMOTE = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:4671\n CHAT_MSG_WHISPER = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6269\n SendPVPTimers = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6074\n DeleteProfile = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1854\n DungeonMusic = <table> {\n }\n ShowUpdateReminder = <function> defined @Interface\\AddOns\\DBM-Core\\modules\\UpdateReminder.lua:76\n GetRaidRoster = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:2373\n PLAYER_REGEN_DISABLED = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:4432\n FireEvent = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1745\n CreateModLocalization = <function> defined @Interface\\AddOns\\DBM-Core\\modules\\objects\\Localization.lua:89\n SCENARIO_COMPLETED = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:3277\n IsEnabled = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6354\n GetMyPlayerInfo = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:2441\n ADDON_LOADED = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1428\n NewerVersion = \"3.4.21\"\n IconNumToTexture = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6512\n BattleMusic = <table> {\n }\n INSTANCE_GROUP_SIZE_CHANGED = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:2308\n AddDefeatSound = <function> defined @Interface\\AddOns\\DBM-Core\\modules\\Sounds.lua:106\n GetBossUnitId = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:2578\n AddDefaultOptions = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:2660\n UPDATE_MOUSEOVER_UNIT = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:3606\n InfoFrame = <table> {\n }\n FilterRaidBossEmote = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1261\n RequestTimers = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:5973\n UPDATE_BATTLEFIELD_STATUS = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:3255\n CheckNearby = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:2620\n CHAT_MSG_MONSTER_YELL = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:4636\n LFG_PROPOSAL_SHOW = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:3171\n ReleaseRevision = 20221128000000\n StartLogging = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:5535\n GetModByName = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6677\n RegisterShortTermEvents = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1199\n VoiceVersions = <table> {\n }\n LOADING_SCREEN_DISABLED = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:3442\n GetUnitFullName = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:2446\n Voices = <table> {\n }\n UNIT_HEALTH_FREQUENT = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:5131\n Add",
+			["stack"] = "[string \"@Interface\\AddOns\\DBM-Core\\DBM-Core-5bd31e2.lua\"]:3989: in function <Interface\\AddOns\\DBM-Core\\DBM-Core.lua:3957>\n[string \"@Interface\\AddOns\\DBM-Core\\DBM-Core-5bd31e2.lua\"]:4045: in function <Interface\\AddOns\\DBM-Core\\DBM-Core.lua:4035>\n[string \"=(tail call)\"]: ?\n[string \"@Interface\\AddOns\\DBM-Core\\DBM-Core-5bd31e2.lua\"]:4323: in function `handler'\n[string \"@Interface\\AddOns\\DBM-Core\\DBM-Core-5bd31e2.lua\"]:930: in function <Interface\\AddOns\\DBM-Core\\DBM-Core.lua:917>",
+			["session"] = 1110,
+			["counter"] = 3,
+		}, -- [196]
 		{
 			["message"] = "Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua:300: attempt to index a nil value",
 			["time"] = "2021/07/01 16:18:25",
 			["locals"] = "GearScore = 2320\nItemLevel = 105\nRed = 0.081600\nBlue = 0.320000\nGreen = 0.840000\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 5\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:276: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:269>",
-			["session"] = 1104,
-			["counter"] = 12898,
+			["session"] = 1110,
+			["counter"] = 13005,
+		}, -- [197]
+		{
+			["message"] = "Interface\\FrameXML\\ChatFrame.lua:1060: bad argument #1 to 'strlower' (string expected, got nil)",
+			["time"] = "2022/11/21 01:06:11",
+			["locals"] = "(*temporary) = nil\n(*temporary) = \"string expected, got nil\"\n",
+			["stack"] = "[string \"=[C]\"]: in function `strlower'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:1060: in function <Interface\\FrameXML\\ChatFrame.lua:1055>",
+			["session"] = 1110,
+			["counter"] = 203,
 		}, -- [198]
 		{
 			["message"] = "...terface\\AddOns\\Blizzard_ArenaUI\\Blizzard_ArenaUI.lua:93: attempt to index global 'ArenaEnemyFrames' (a nil value)",
 			["time"] = "2022/11/21 01:22:13",
 			["locals"] = "_ = false\ninstanceType = \"none\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index global 'ArenaEnemyFrames' (a nil value)\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_ArenaUI\\Blizzard_ArenaUI.lua\"]:93: in function `ArenaEnemyFrames_UpdateVisible'\n[string \"@Interface\\AddOns\\Blizzard_ArenaUI\\Blizzard_ArenaUI.lua\"]:241: in function <...terface\\AddOns\\Blizzard_ArenaUI\\Blizzard_ArenaUI.lua:212>",
-			["session"] = 1104,
-			["counter"] = 1560,
+			["session"] = 1111,
+			["counter"] = 1600,
 		}, -- [199]
+		{
+			["message"] = "Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua:8: attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)",
+			["time"] = "2022/09/18 19:44:22",
+			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface\\AddOns\\Blizzard_InspectUI\\Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface\\AddOns\\GearScoreLite\\GearScoreLite-0.1 (based on 3x04y05).lua\"]:67: in function <Interface\\AddOns\\GearScoreLite\\GearScoreLite.lua:53>",
+			["session"] = 1112,
+			["counter"] = 257,
+		}, -- [200]
 	},
 }

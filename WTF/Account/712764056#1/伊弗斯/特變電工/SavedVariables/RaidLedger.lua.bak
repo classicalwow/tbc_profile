@@ -12288,6 +12288,54 @@ RaidLedgerDatabase = {
 						["count"] = 2,
 					},
 				}, -- [1022]
+				{
+					["beneficiary"] = "神奇熊貓",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40522::::::::80:::::::::|h[勇猛的碎地者战裙]|h|r",
+						["count"] = 1,
+					},
+				}, -- [1023]
+				{
+					["beneficiary"] = "瑪幽內孜",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40552::::::::80:::::::::|h[勇猛的天灾苦痛护手]|h|r",
+						["count"] = 1,
+					},
+				}, -- [1024]
+				{
+					["beneficiary"] = "小妞有點濕",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40806::::::::80:::::::::|h[致命角斗士的恐怖板甲护手]|h|r",
+						["count"] = 1,
+					},
+				}, -- [1025]
+				{
+					["beneficiary"] = "瑪幽內孜",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40563::::::::80:::::::::|h[勇猛的天灾苦痛手套]|h|r",
+						["count"] = 1,
+					},
+				}, -- [1026]
 			},
 		}, -- [1]
 	},

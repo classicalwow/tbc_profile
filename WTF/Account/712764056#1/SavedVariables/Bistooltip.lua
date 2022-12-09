@@ -16,7 +16,6 @@ BisTooltipDB = {
 		},
 		["特變電工 - 伊弗斯"] = {
 			["class_index"] = 10,
-			["version"] = 6.1,
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -70,6 +69,7 @@ BisTooltipDB = {
 					["Holy"] = true,
 				},
 			},
+			["version"] = 6.1,
 			["phase_index"] = 2,
 		},
 		["暖男你馬四了 - 伊弗斯"] = {
@@ -77,8 +77,8 @@ BisTooltipDB = {
 		},
 		["邁克爾假死 - 伊弗斯"] = {
 			["class_index"] = 3,
-			["spec_index"] = 3,
 			["version"] = 6.1,
+			["spec_index"] = 3,
 			["phase_index"] = 2,
 		},
 	},

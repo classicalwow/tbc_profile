@@ -818,9 +818,9 @@ ElvDB = {
 					["point"] = "BOTTOMLEFT",
 					["buttonSize"] = 30,
 					["showGrid"] = true,
-					["buttonSpacing"] = 1,
 					["backdropSpacing"] = 0,
 					["mouseover"] = true,
+					["buttonSpacing"] = 1,
 				},
 				["cooldown"] = {
 					["fonts"] = {
@@ -1467,21 +1467,21 @@ ElvDB = {
 		},
 		["my profile"] = {
 			["databars"] = {
+				["reputation"] = {
+					["enable"] = true,
+					["height"] = 223,
+					["width"] = 10,
+				},
 				["threat"] = {
 					["enable"] = false,
 				},
-				["reputation"] = {
-					["enable"] = true,
-					["width"] = 10,
-					["height"] = 223,
-				},
 				["experience"] = {
+					["font"] = "2002",
 					["hideAtMaxLevel"] = false,
 					["orientation"] = "VERTICAL",
 					["questCompletedOnly"] = true,
-					["width"] = 10,
-					["font"] = "2002",
 					["height"] = 223,
+					["width"] = 10,
 				},
 				["transparent"] = false,
 			},
@@ -1490,6 +1490,18 @@ ElvDB = {
 					["size"] = 50,
 					["spacing"] = 8,
 				},
+				["fontSize"] = 15,
+				["backdropcolor"] = {
+					["b"] = 0,
+					["g"] = 0,
+					["r"] = 0,
+				},
+				["topPanel"] = true,
+				["bordercolor"] = {
+					["b"] = 0.007843137254902,
+					["r"] = 0.34901960784314,
+				},
+				["bottomPanel"] = false,
 				["backdropfadecolor"] = {
 					["a"] = 0.80000001192093,
 					["b"] = 0.058823529411765,
@@ -1501,56 +1513,7 @@ ElvDB = {
 					["g"] = 0.61,
 					["r"] = 0.78,
 				},
-				["bordercolor"] = {
-					["b"] = 0.007843137254902,
-					["r"] = 0.34901960784314,
-				},
-				["topPanel"] = true,
-				["bottomPanel"] = false,
 				["afk"] = false,
-				["fontSize"] = 15,
-				["backdropcolor"] = {
-					["b"] = 0,
-					["g"] = 0,
-					["r"] = 0,
-				},
-			},
-			["bags"] = {
-				["itemLevelFont"] = "Expressway",
-				["bagSize"] = 42,
-				["itemLevelCustomColorEnable"] = true,
-				["bankSize"] = 42,
-				["itemLevelFontOutline"] = "THICKOUTLINE",
-				["split"] = {
-					["player"] = true,
-				},
-				["bagWidth"] = 474,
-				["countFont"] = "Expressway",
-				["vendorGrays"] = {
-					["enable"] = true,
-					["details"] = true,
-				},
-				["countFontOutline"] = "THICKOUTLINE",
-				["bagBar"] = {
-					["mouseover"] = true,
-				},
-				["bankWidth"] = 474,
-			},
-			["chat"] = {
-				["panelSnapRightID"] = 3,
-				["panelWidth"] = 472,
-				["emotionIcons"] = false,
-				["panelHeight"] = 200,
-				["throttleInterval"] = 0,
-				["panelSnapLeftID"] = 1,
-			},
-			["dbConverted"] = 13.08,
-			["convertPages"] = true,
-			["tooltip"] = {
-				["healthBar"] = {
-					["fontOutline"] = "MONOCHROMEOUTLINE",
-					["height"] = 12,
-				},
 			},
 			["movers"] = {
 				["ElvUF_AssistMover"] = "TOPLEFT,UIParent,TOPLEFT,4,-102",
@@ -1562,17 +1525,17 @@ ElvDB = {
 				["LeftChatMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,4",
 				["GMMover"] = "TOP,UIParent,TOP,0,-192",
 				["BuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-181,-4",
+				["TotemBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,153",
 				["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-203,266",
-				["ElvUIBagMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,125",
 				["ElvAB_8"] = "TOP,ElvUIParent,TOP,-346,-340",
 				["BossButton"] = "BOTTOM,ElvUIParent,BOTTOM,-1,293",
 				["LootFrameMover"] = "TOPLEFT,UIParent,TOPLEFT,552,-470",
 				["QuestWatchFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-135,-300",
 				["SocialMenuMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-187",
-				["ElvUF_TargetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,203,248",
+				["ElvAB_6"] = "BOTTOM,ElvUIParent,BOTTOM,0,77",
 				["ElvAB_10"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,276",
 				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,737",
-				["ElvUF_PlayerAuraMover"] = "BOTTOM,ElvUIParent,BOTTOM,-202,331",
+				["ElvUF_TargetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,203,248",
 				["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,-203,232",
 				["ElvUF_FocusMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,555,585",
 				["MicrobarMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,-1,0",
@@ -1593,241 +1556,62 @@ ElvDB = {
 				["ElvAB_1"] = "BOTTOM,ElvUIParent,BOTTOM,0,-1",
 				["ElvAB_2"] = "TOP,ElvUIParent,TOP,-346,-309",
 				["BelowMinimapContainerMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-4,-236",
-				["TalkingHeadFrameMover"] = "BOTTOM,ElvUIParent,BOTTOM,-1,373",
 				["QuestTimerFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-135,-300",
+				["ElvAB_4"] = "BOTTOM,ElvUIParent,BOTTOM,0,38",
 				["ReputationBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,484,4",
 				["AltPowerBarMover"] = "TOP,ElvUIParent,TOP,-1,-36",
 				["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,339,0",
 				["ElvAB_5"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,294",
 				["VehicleLeaveButton"] = "BOTTOM,UIParent,BOTTOM,-149,416",
 				["AzeriteBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-3,-245",
-				["ElvAB_4"] = "BOTTOM,ElvUIParent,BOTTOM,0,38",
+				["TalkingHeadFrameMover"] = "BOTTOM,ElvUIParent,BOTTOM,-1,373",
 				["ObjectiveFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-163,-325",
 				["BNETMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-273",
 				["ShiftAB"] = "BOTTOM,ElvUIParent,BOTTOM,0,116",
 				["ElvNP_PlayerMover"] = "TOP,UIParent,CENTER,0,-150",
 				["HonorBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-3,-255",
-				["ElvAB_6"] = "BOTTOM,ElvUIParent,BOTTOM,0,77",
+				["ElvUF_PlayerAuraMover"] = "BOTTOM,ElvUIParent,BOTTOM,-202,331",
 				["TooltipMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-479,72",
 				["ElvUF_TankMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,508",
 				["ZoneAbility"] = "BOTTOM,ElvUIParent,BOTTOM,-1,293",
-				["TotemBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,153",
+				["ElvUIBagMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,125",
 				["ElvAB_7"] = "TOP,ElvUIParent,TOP,0,-539",
 				["ElvUF_PartyMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-240",
 				["AlertFrameMover"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-485,527",
 				["DebuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-181,-99",
 				["MinimapMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-4",
 			},
-			["unitframe"] = {
-				["units"] = {
-					["tank"] = {
-						["debuffs"] = {
-							["enable"] = true,
-						},
-						["threatStyle"] = "NONE",
-						["cutaway"] = {
-							["health"] = {
-								["enabled"] = true,
-							},
-						},
-						["healPrediction"] = {
-							["enable"] = true,
-						},
-						["name"] = {
-							["xOffset"] = 1,
-						},
-					},
-					["raid3"] = {
-						["threatStyle"] = "NONE",
-						["healPrediction"] = {
-							["enable"] = true,
-						},
-						["height"] = 30,
-						["growthDirection"] = "DOWN_RIGHT",
-						["roleIcon"] = {
-							["enable"] = true,
-						},
-						["power"] = {
-							["enable"] = true,
-						},
-					},
-					["focus"] = {
-						["smartAuraPosition"] = "BUFFS_ON_DEBUFFS",
-						["orientation"] = "RIGHT",
-						["buffs"] = {
-							["attachTo"] = "DEBUFFS",
-						},
-					},
-					["target"] = {
-						["debuffs"] = {
-							["yOffset"] = 2,
-							["perrow"] = 10,
-						},
-						["aurabar"] = {
-							["enable"] = false,
-						},
-						["buffs"] = {
-							["perrow"] = 10,
-						},
-					},
-					["raid2"] = {
-						["growthDirection"] = "DOWN_RIGHT",
-					},
-					["focustarget"] = {
-						["debuffs"] = {
-							["enable"] = true,
-						},
-						["enable"] = true,
-						["infoPanel"] = {
-							["enable"] = true,
-						},
-						["buffs"] = {
-							["enable"] = true,
-						},
-					},
-					["pet"] = {
-						["debuffs"] = {
-							["enable"] = true,
-							["anchorPoint"] = "TOPRIGHT",
-						},
-						["disableTargetGlow"] = false,
-						["castbar"] = {
-							["enable"] = false,
-							["iconSize"] = 32,
-						},
-						["customTexts"] = {
-							["[happiness:icon]"] = {
-								["attachTextTo"] = "Health",
-								["xOffset"] = 83,
-								["text_format"] = "[happiness:icon]",
-								["yOffset"] = -5,
-								["font"] = "Homespun",
-								["justifyH"] = "CENTER",
-								["fontOutline"] = "MONOCHROMEOUTLINE",
-								["enable"] = true,
-								["size"] = 23,
-							},
-						},
-						["width"] = 132,
-						["infoPanel"] = {
-							["height"] = 14,
-						},
-						["buffs"] = {
-							["enable"] = true,
-						},
-					},
-					["player"] = {
-						["debuffs"] = {
-							["anchorPoint"] = "RIGHT",
-							["perrow"] = 11,
-						},
-						["buffs"] = {
-							["enable"] = true,
-							["perrow"] = 10,
-							["attachTo"] = "HEALTH",
-						},
-						["aurabar"] = {
-							["enable"] = false,
-						},
-					},
-					["raid1"] = {
-						["threatStyle"] = "NONE",
-						["healPrediction"] = {
-							["enable"] = true,
-						},
-						["height"] = 30,
-						["rdebuffs"] = {
-							["enable"] = false,
-						},
-						["growthDirection"] = "DOWN_RIGHT",
-					},
-					["party"] = {
-						["targetsGroup"] = {
-							["enable"] = true,
-							["disableMouseoverGlow"] = false,
-							["disableFocusGlow"] = false,
-							["disableTargetGlow"] = false,
-						},
-						["threatStyle"] = "NONE",
-						["healPrediction"] = {
-							["enable"] = true,
-						},
-						["infoPanel"] = {
-							["height"] = 12,
-						},
-						["name"] = {
-							["text_format"] = "[namecolor][name:short]",
-						},
-						["height"] = 60,
-						["verticalSpacing"] = 5,
-						["horizontalSpacing"] = 3,
-						["rdebuffs"] = {
-							["enable"] = false,
-						},
-						["growthDirection"] = "DOWN_RIGHT",
-						["groupBy"] = "GROUP",
-						["power"] = {
-							["text_format"] = "",
-							["yOffset"] = 2,
-							["position"] = "BOTTOMRIGHT",
-							["height"] = 15,
-						},
-						["debuffs"] = {
-							["sizeOverride"] = 0,
-							["perrow"] = 3,
-							["attachTo"] = "HEALTH",
-						},
-						["width"] = 245,
-						["health"] = {
-							["position"] = "BOTTOM",
-							["text_format"] = "[healthcolor][health:deficit:shortvalue]",
-							["yOffset"] = 2,
-						},
-						["buffs"] = {
-							["perrow"] = 3,
-						},
-						["petsGroup"] = {
-							["disableTargetGlow"] = false,
-							["disableMouseoverGlow"] = false,
-							["disableFocusGlow"] = false,
-						},
-					},
-					["arena"] = {
-						["enable"] = false,
-						["infoPanel"] = {
-							["enable"] = true,
-						},
-					},
-					["assist"] = {
-						["threatStyle"] = "NONE",
-					},
-					["raidpet"] = {
-						["threatStyle"] = "NONE",
-					},
+			["convertPages"] = true,
+			["bags"] = {
+				["bagWidth"] = 474,
+				["countFont"] = "Expressway",
+				["itemLevelFont"] = "Expressway",
+				["split"] = {
+					["player"] = true,
 				},
-				["smoothbars"] = true,
-				["colors"] = {
-					["healthclass"] = true,
-					["auraBarBuff"] = {
-						["b"] = 0.43,
-						["g"] = 0.61,
-						["r"] = 0.78,
-					},
-					["castClassColor"] = true,
-					["powerPrediction"] = {
-						["color"] = {
-							["g"] = 0,
-							["b"] = 0.050980392156863,
-						},
-						["additional"] = {
-							["g"] = 0,
-							["b"] = 0.074509803921569,
-						},
-					},
+				["vendorGrays"] = {
+					["enable"] = true,
+					["details"] = true,
 				},
-				["fontOutline"] = "OUTLINE",
-				["font"] = "Expressway",
+				["countFontOutline"] = "THICKOUTLINE",
+				["bagSize"] = 42,
+				["bankWidth"] = 474,
+				["itemLevelFontOutline"] = "THICKOUTLINE",
+				["itemLevelCustomColorEnable"] = true,
+				["bagBar"] = {
+					["mouseover"] = true,
+				},
+				["bankSize"] = 42,
 			},
+			["chat"] = {
+				["panelSnapRightID"] = 3,
+				["emotionIcons"] = false,
+				["panelHeight"] = 200,
+				["throttleInterval"] = 0,
+				["panelSnapLeftID"] = 1,
+				["panelWidth"] = 472,
+			},
+			["dbConverted"] = 13.08,
 			["datatexts"] = {
 				["panels"] = {
 					["KUI_MiddlePanel"] = {
@@ -1836,183 +1620,180 @@ ElvDB = {
 						"", -- [3]
 						["enable"] = false,
 					},
+					["LeftChatDataPanel"] = {
+						["1"] = "Hit",
+						["right"] = "Quick Join",
+						["3"] = "Guild",
+					},
 					["KUI_TimePanel"] = {
 						"", -- [1]
 						"", -- [2]
 						"", -- [3]
 						["enable"] = false,
 					},
-					["LeftChatDataPanel"] = {
-						["1"] = "Hit",
-						["3"] = "Guild",
-						["right"] = "Quick Join",
-					},
 				},
 			},
 			["actionbar"] = {
 				["bar3"] = {
-					["hotkeyFont"] = "Expressway",
-					["macroFont"] = "Expressway",
-					["macroTextPosition"] = "BOTTOMRIGHT",
-					["visibility"] = "[petbattle] hide; show",
-					["buttonSpacing"] = 0,
-					["macroFontOutline"] = "OUTLINE",
 					["countFont"] = "Expressway",
 					["buttonSize"] = 35,
-					["countFontOutline"] = "OUTLINE",
-					["hotkeyFontOutline"] = "OUTLINE",
-					["macrotext"] = true,
+					["macroFont"] = "Expressway",
+					["buttonSpacing"] = 0,
+					["macroFontOutline"] = "OUTLINE",
+					["macroTextPosition"] = "BOTTOMRIGHT",
 					["buttons"] = 12,
+					["hotkeyFont"] = "Expressway",
+					["macrotext"] = true,
+					["hotkeyFontOutline"] = "OUTLINE",
+					["visibility"] = "[petbattle] hide; show",
+					["countFontOutline"] = "OUTLINE",
+				},
+				["bar6"] = {
+					["enabled"] = true,
+					["countFont"] = "Expressway",
+					["buttonSize"] = 35,
+					["macroFont"] = "Expressway",
+					["buttonSpacing"] = 1,
+					["macroFontOutline"] = "OUTLINE",
+					["macroTextPosition"] = "BOTTOMRIGHT",
+					["backdrop"] = true,
+					["hotkeyFont"] = "Expressway",
+					["macrotext"] = true,
+					["hotkeyFontOutline"] = "OUTLINE",
+					["visibility"] = "[petbattle] hide; show",
+					["countFontOutline"] = "OUTLINE",
+				},
+				["bar10"] = {
+					["enabled"] = true,
+					["countFont"] = "Expressway",
+					["buttonSize"] = 35,
+					["macroFont"] = "Expressway",
+					["buttonSpacing"] = 0,
+					["macroFontOutline"] = "OUTLINE",
+					["macroTextPosition"] = "BOTTOMRIGHT",
+					["hotkeyFont"] = "Expressway",
+					["macrotext"] = true,
+					["buttonsPerRow"] = 1,
+					["hotkeyFontOutline"] = "OUTLINE",
+					["countFontOutline"] = "OUTLINE",
 				},
 				["bar8"] = {
-					["hotkeyFont"] = "Expressway",
-					["macroFont"] = "Expressway",
 					["macroTextPosition"] = "BOTTOMRIGHT",
-					["macroFontOutline"] = "OUTLINE",
 					["countFont"] = "Expressway",
-					["countFontOutline"] = "OUTLINE",
-					["hotkeyFontOutline"] = "OUTLINE",
 					["macrotext"] = true,
+					["hotkeyFontOutline"] = "OUTLINE",
+					["macroFont"] = "Expressway",
+					["hotkeyFont"] = "Expressway",
+					["countFontOutline"] = "OUTLINE",
+					["macroFontOutline"] = "OUTLINE",
 				},
 				["fontOutline"] = "OUTLINE",
 				["bar9"] = {
-					["hotkeyFont"] = "Expressway",
+					["countFont"] = "Expressway",
+					["buttonSize"] = 35,
 					["macroFont"] = "Expressway",
-					["macroTextPosition"] = "BOTTOMRIGHT",
-					["buttonsPerRow"] = 1,
 					["buttonSpacing"] = 0,
 					["macroFontOutline"] = "OUTLINE",
-					["countFont"] = "Expressway",
-					["buttonSize"] = 35,
+					["macroTextPosition"] = "BOTTOMRIGHT",
+					["hotkeyFont"] = "Expressway",
+					["macrotext"] = true,
+					["buttonsPerRow"] = 1,
+					["hotkeyFontOutline"] = "OUTLINE",
 					["countFontOutline"] = "OUTLINE",
+				},
+				["microbar"] = {
+					["enabled"] = true,
+					["buttons"] = 10,
+				},
+				["keyDown"] = false,
+				["bar2"] = {
+					["countFont"] = "Expressway",
+					["macroFont"] = "Expressway",
+					["macroFontOutline"] = "OUTLINE",
+					["macroTextPosition"] = "BOTTOMRIGHT",
 					["hotkeyFontOutline"] = "OUTLINE",
 					["macrotext"] = true,
+					["hotkeyFont"] = "Expressway",
+					["visibility"] = "[petbattle] hide; show",
+					["countFontOutline"] = "OUTLINE",
 				},
 				["bar1"] = {
-					["hotkeyFont"] = "Expressway",
-					["macroFont"] = "Expressway",
-					["macroTextPosition"] = "BOTTOMRIGHT",
-					["buttonSpacing"] = 1,
-					["macroFontOutline"] = "OUTLINE",
 					["countFont"] = "Expressway",
 					["buttonSize"] = 35,
-					["countFontOutline"] = "OUTLINE",
-					["hotkeyFontOutline"] = "OUTLINE",
+					["macroFont"] = "Expressway",
+					["buttonSpacing"] = 1,
+					["macroFontOutline"] = "OUTLINE",
+					["macroTextPosition"] = "BOTTOMRIGHT",
+					["hotkeyFont"] = "Expressway",
 					["macrotext"] = true,
 					["backdrop"] = true,
+					["hotkeyFontOutline"] = "OUTLINE",
+					["countFontOutline"] = "OUTLINE",
 				},
+				["bar5"] = {
+					["enabled"] = false,
+					["countFont"] = "Expressway",
+					["buttonSize"] = 35,
+					["macroFont"] = "Expressway",
+					["countFontOutline"] = "OUTLINE",
+					["backdrop"] = true,
+					["macroFontOutline"] = "OUTLINE",
+					["macroTextPosition"] = "BOTTOMRIGHT",
+					["buttons"] = 12,
+					["hotkeyFont"] = "Expressway",
+					["hotkeyFontOutline"] = "OUTLINE",
+					["macrotext"] = true,
+					["buttonsPerRow"] = 1,
+					["visibility"] = "[petbattle] hide; show",
+					["buttonSpacing"] = 1,
+				},
+				["lockActionBars"] = false,
 				["macroTextPosition"] = "BOTTOMRIGHT",
 				["font"] = "Expressway",
 				["bar7"] = {
-					["hotkeyFont"] = "Expressway",
-					["macroFont"] = "Expressway",
 					["macroTextPosition"] = "BOTTOMRIGHT",
-					["macroFontOutline"] = "OUTLINE",
 					["countFont"] = "Expressway",
-					["countFontOutline"] = "OUTLINE",
-					["hotkeyFontOutline"] = "OUTLINE",
 					["macrotext"] = true,
+					["hotkeyFontOutline"] = "OUTLINE",
+					["macroFont"] = "Expressway",
+					["hotkeyFont"] = "Expressway",
+					["countFontOutline"] = "OUTLINE",
+					["macroFontOutline"] = "OUTLINE",
+				},
+				["globalFadeAlpha"] = 1,
+				["cooldown"] = {
+					["fonts"] = {
+						["enable"] = true,
+					},
+					["override"] = false,
 				},
 				["barPet"] = {
 					["buttonsPerRow"] = 10,
 					["countFont"] = "Expressway",
 					["countFontOutline"] = "OUTLINE",
 				},
-				["bar6"] = {
-					["hotkeyFont"] = "Expressway",
-					["enabled"] = true,
-					["macroFont"] = "Expressway",
-					["macroTextPosition"] = "BOTTOMRIGHT",
-					["visibility"] = "[petbattle] hide; show",
-					["buttonSpacing"] = 1,
-					["macroFontOutline"] = "OUTLINE",
-					["countFont"] = "Expressway",
-					["buttonSize"] = 35,
-					["countFontOutline"] = "OUTLINE",
-					["hotkeyFontOutline"] = "OUTLINE",
-					["macrotext"] = true,
-					["backdrop"] = true,
-				},
-				["bar10"] = {
-					["hotkeyFont"] = "Expressway",
-					["enabled"] = true,
-					["macroFont"] = "Expressway",
-					["macroTextPosition"] = "BOTTOMRIGHT",
-					["buttonsPerRow"] = 1,
-					["buttonSpacing"] = 0,
-					["macroFontOutline"] = "OUTLINE",
-					["countFont"] = "Expressway",
-					["buttonSize"] = 35,
-					["countFontOutline"] = "OUTLINE",
-					["hotkeyFontOutline"] = "OUTLINE",
-					["macrotext"] = true,
-				},
-				["globalFadeAlpha"] = 1,
-				["microbar"] = {
-					["enabled"] = true,
-					["buttons"] = 10,
-				},
-				["bar2"] = {
-					["macroFont"] = "Expressway",
-					["macroTextPosition"] = "BOTTOMRIGHT",
-					["visibility"] = "[petbattle] hide; show",
-					["macroFontOutline"] = "OUTLINE",
-					["countFont"] = "Expressway",
-					["countFontOutline"] = "OUTLINE",
-					["hotkeyFontOutline"] = "OUTLINE",
-					["macrotext"] = true,
-					["hotkeyFont"] = "Expressway",
-				},
-				["bar5"] = {
-					["hotkeyFont"] = "Expressway",
-					["enabled"] = false,
-					["macroFont"] = "Expressway",
-					["backdrop"] = true,
-					["macroTextPosition"] = "BOTTOMRIGHT",
-					["buttonsPerRow"] = 1,
-					["visibility"] = "[petbattle] hide; show",
-					["buttonSpacing"] = 1,
-					["macroFontOutline"] = "OUTLINE",
-					["countFont"] = "Expressway",
-					["buttonSize"] = 35,
-					["countFontOutline"] = "OUTLINE",
-					["hotkeyFontOutline"] = "OUTLINE",
-					["buttons"] = 12,
-					["macrotext"] = true,
-				},
-				["lockActionBars"] = false,
-				["keyDown"] = false,
-				["cooldown"] = {
-					["override"] = false,
-					["fonts"] = {
-						["enable"] = true,
-					},
-				},
 				["bar4"] = {
-					["hotkeyFontOutline"] = "OUTLINE",
+					["countFont"] = "Expressway",
+					["buttonSize"] = 35,
 					["macroFont"] = "Expressway",
+					["buttonSpacing"] = 1,
+					["macroFontOutline"] = "OUTLINE",
 					["macroTextPosition"] = "BOTTOMRIGHT",
+					["hotkeyFont"] = "Expressway",
+					["hotkeyFontOutline"] = "OUTLINE",
+					["macrotext"] = true,
 					["buttonsPerRow"] = 12,
 					["visibility"] = "[petbattle] hide; show",
-					["buttonSpacing"] = 1,
-					["macroFontOutline"] = "OUTLINE",
-					["countFont"] = "Expressway",
-					["buttonSize"] = 35,
 					["countFontOutline"] = "OUTLINE",
-					["hotkeyFont"] = "Expressway",
-					["macrotext"] = true,
 				},
 			},
 			["nameplates"] = {
-				["clickThrough"] = {
-					["enemy"] = true,
-				},
 				["units"] = {
 					["ENEMY_NPC"] = {
-						["eliteIcon"] = {
+						["title"] = {
 							["enable"] = true,
 						},
-						["title"] = {
+						["eliteIcon"] = {
 							["enable"] = true,
 						},
 					},
@@ -2049,39 +1830,258 @@ ElvDB = {
 						["pets"] = true,
 					},
 				},
+				["clickThrough"] = {
+					["enemy"] = true,
+				},
 			},
 			["auras"] = {
-				["debuffs"] = {
-					["horizontalSpacing"] = 1,
-					["size"] = 28,
-					["verticalSpacing"] = 20,
-					["maxWraps"] = 2,
-				},
 				["buffs"] = {
 					["horizontalSpacing"] = 1,
-					["size"] = 28,
 					["verticalSpacing"] = 20,
 					["maxWraps"] = 2,
+					["size"] = 28,
+				},
+				["debuffs"] = {
+					["horizontalSpacing"] = 1,
+					["verticalSpacing"] = 20,
+					["maxWraps"] = 2,
+					["size"] = 28,
+				},
+			},
+			["unitframe"] = {
+				["smoothbars"] = true,
+				["colors"] = {
+					["auraBarBuff"] = {
+						["b"] = 0.43,
+						["g"] = 0.61,
+						["r"] = 0.78,
+					},
+					["powerPrediction"] = {
+						["color"] = {
+							["g"] = 0,
+							["b"] = 0.050980392156863,
+						},
+						["additional"] = {
+							["g"] = 0,
+							["b"] = 0.074509803921569,
+						},
+					},
+					["castClassColor"] = true,
+					["healthclass"] = true,
+				},
+				["fontOutline"] = "OUTLINE",
+				["font"] = "Expressway",
+				["units"] = {
+					["tank"] = {
+						["cutaway"] = {
+							["health"] = {
+								["enabled"] = true,
+							},
+						},
+						["debuffs"] = {
+							["enable"] = true,
+						},
+						["threatStyle"] = "NONE",
+						["healPrediction"] = {
+							["enable"] = true,
+						},
+						["name"] = {
+							["xOffset"] = 1,
+						},
+					},
+					["party"] = {
+						["horizontalSpacing"] = 3,
+						["debuffs"] = {
+							["attachTo"] = "HEALTH",
+							["sizeOverride"] = 0,
+							["perrow"] = 3,
+						},
+						["rdebuffs"] = {
+							["enable"] = false,
+						},
+						["growthDirection"] = "DOWN_RIGHT",
+						["groupBy"] = "GROUP",
+						["targetsGroup"] = {
+							["enable"] = true,
+							["disableTargetGlow"] = false,
+							["disableMouseoverGlow"] = false,
+							["disableFocusGlow"] = false,
+						},
+						["threatStyle"] = "NONE",
+						["power"] = {
+							["height"] = 15,
+							["position"] = "BOTTOMRIGHT",
+							["text_format"] = "",
+							["yOffset"] = 2,
+						},
+						["healPrediction"] = {
+							["enable"] = true,
+						},
+						["width"] = 245,
+						["infoPanel"] = {
+							["height"] = 12,
+						},
+						["name"] = {
+							["text_format"] = "[namecolor][name:short]",
+						},
+						["verticalSpacing"] = 5,
+						["height"] = 60,
+						["buffs"] = {
+							["perrow"] = 3,
+						},
+						["petsGroup"] = {
+							["disableFocusGlow"] = false,
+							["disableTargetGlow"] = false,
+							["disableMouseoverGlow"] = false,
+						},
+						["health"] = {
+							["yOffset"] = 2,
+							["text_format"] = "[healthcolor][health:deficit:shortvalue]",
+							["position"] = "BOTTOM",
+						},
+					},
+					["focustarget"] = {
+						["enable"] = true,
+						["debuffs"] = {
+							["enable"] = true,
+						},
+						["buffs"] = {
+							["enable"] = true,
+						},
+						["infoPanel"] = {
+							["enable"] = true,
+						},
+					},
+					["pet"] = {
+						["infoPanel"] = {
+							["height"] = 14,
+						},
+						["debuffs"] = {
+							["enable"] = true,
+							["anchorPoint"] = "TOPRIGHT",
+						},
+						["disableTargetGlow"] = false,
+						["castbar"] = {
+							["enable"] = false,
+							["iconSize"] = 32,
+						},
+						["customTexts"] = {
+							["[happiness:icon]"] = {
+								["attachTextTo"] = "Health",
+								["xOffset"] = 83,
+								["text_format"] = "[happiness:icon]",
+								["yOffset"] = -5,
+								["font"] = "Homespun",
+								["justifyH"] = "CENTER",
+								["fontOutline"] = "MONOCHROMEOUTLINE",
+								["enable"] = true,
+								["size"] = 23,
+							},
+						},
+						["buffs"] = {
+							["enable"] = true,
+						},
+						["width"] = 132,
+					},
+					["target"] = {
+						["debuffs"] = {
+							["perrow"] = 10,
+							["yOffset"] = 2,
+						},
+						["buffs"] = {
+							["perrow"] = 10,
+						},
+						["aurabar"] = {
+							["enable"] = false,
+						},
+					},
+					["focus"] = {
+						["orientation"] = "RIGHT",
+						["buffs"] = {
+							["attachTo"] = "DEBUFFS",
+						},
+						["smartAuraPosition"] = "BUFFS_ON_DEBUFFS",
+					},
+					["raid3"] = {
+						["roleIcon"] = {
+							["enable"] = true,
+						},
+						["threatStyle"] = "NONE",
+						["power"] = {
+							["enable"] = true,
+						},
+						["height"] = 30,
+						["healPrediction"] = {
+							["enable"] = true,
+						},
+						["growthDirection"] = "DOWN_RIGHT",
+					},
+					["raid1"] = {
+						["threatStyle"] = "NONE",
+						["height"] = 30,
+						["healPrediction"] = {
+							["enable"] = true,
+						},
+						["rdebuffs"] = {
+							["enable"] = false,
+						},
+						["growthDirection"] = "DOWN_RIGHT",
+					},
+					["raidpet"] = {
+						["threatStyle"] = "NONE",
+					},
+					["assist"] = {
+						["threatStyle"] = "NONE",
+					},
+					["arena"] = {
+						["enable"] = false,
+						["infoPanel"] = {
+							["enable"] = true,
+						},
+					},
+					["raid2"] = {
+						["growthDirection"] = "DOWN_RIGHT",
+					},
+					["player"] = {
+						["debuffs"] = {
+							["anchorPoint"] = "RIGHT",
+							["perrow"] = 11,
+						},
+						["buffs"] = {
+							["enable"] = true,
+							["attachTo"] = "HEALTH",
+							["perrow"] = 10,
+						},
+						["aurabar"] = {
+							["enable"] = false,
+						},
+					},
+				},
+			},
+			["tooltip"] = {
+				["healthBar"] = {
+					["height"] = 12,
+					["fontOutline"] = "MONOCHROMEOUTLINE",
 				},
 			},
 		},
 		["邁克爾假死 - 伊弗斯"] = {
 			["databars"] = {
-				["reputation"] = {
-					["enable"] = true,
-					["height"] = 223,
-					["width"] = 10,
-				},
 				["threat"] = {
 					["enable"] = false,
 				},
+				["reputation"] = {
+					["enable"] = true,
+					["width"] = 10,
+					["height"] = 223,
+				},
 				["experience"] = {
-					["font"] = "2002",
 					["hideAtMaxLevel"] = false,
 					["height"] = 223,
 					["questCompletedOnly"] = true,
-					["orientation"] = "VERTICAL",
 					["width"] = 10,
+					["font"] = "2002",
+					["orientation"] = "VERTICAL",
 				},
 				["transparent"] = false,
 			},
@@ -2090,18 +2090,6 @@ ElvDB = {
 					["size"] = 50,
 					["spacing"] = 8,
 				},
-				["fontSize"] = 15,
-				["backdropcolor"] = {
-					["r"] = 0,
-					["g"] = 0,
-					["b"] = 0,
-				},
-				["topPanel"] = true,
-				["bordercolor"] = {
-					["r"] = 0.34901960784314,
-					["b"] = 0.007843137254902,
-				},
-				["bottomPanel"] = false,
 				["backdropfadecolor"] = {
 					["a"] = 0.80000001192093,
 					["r"] = 0.058823529411765,
@@ -2113,7 +2101,56 @@ ElvDB = {
 					["g"] = 0.83,
 					["b"] = 0.45,
 				},
+				["bordercolor"] = {
+					["r"] = 0.34901960784314,
+					["b"] = 0.007843137254902,
+				},
+				["topPanel"] = true,
+				["bottomPanel"] = false,
 				["afk"] = false,
+				["fontSize"] = 15,
+				["backdropcolor"] = {
+					["r"] = 0,
+					["g"] = 0,
+					["b"] = 0,
+				},
+			},
+			["bags"] = {
+				["itemLevelFont"] = "Expressway",
+				["bagSize"] = 42,
+				["itemLevelCustomColorEnable"] = true,
+				["bankSize"] = 42,
+				["itemLevelFontOutline"] = "THICKOUTLINE",
+				["split"] = {
+					["player"] = true,
+				},
+				["bagWidth"] = 474,
+				["countFont"] = "Expressway",
+				["vendorGrays"] = {
+					["details"] = true,
+					["enable"] = true,
+				},
+				["countFontOutline"] = "THICKOUTLINE",
+				["bagBar"] = {
+					["mouseover"] = true,
+				},
+				["bankWidth"] = 474,
+			},
+			["chat"] = {
+				["panelSnapRightID"] = 3,
+				["panelWidth"] = 472,
+				["emotionIcons"] = false,
+				["panelHeight"] = 200,
+				["throttleInterval"] = 0,
+				["panelSnapLeftID"] = 1,
+			},
+			["dbConverted"] = 13.08,
+			["convertPages"] = true,
+			["tooltip"] = {
+				["healthBar"] = {
+					["fontOutline"] = "MONOCHROMEOUTLINE",
+					["height"] = 12,
+				},
 			},
 			["movers"] = {
 				["ElvUF_FocusCastbarMover"] = "BOTTOM,UIParent,BOTTOM,256,423",
@@ -2132,10 +2169,10 @@ ElvDB = {
 				["ZoneAbility"] = "BOTTOM,ElvUIParent,BOTTOM,-1,293",
 				["SocialMenuMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-187",
 				["TotemBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,153",
-				["ElvUF_PlayerAuraMover"] = "BOTTOM,ElvUIParent,BOTTOM,-202,331",
+				["ElvAB_6"] = "BOTTOM,ElvUIParent,BOTTOM,0,77",
 				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,737",
 				["TooltipMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-479,72",
-				["ElvUF_TargetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,203,248",
+				["ElvUF_PlayerAuraMover"] = "BOTTOM,ElvUIParent,BOTTOM,-202,331",
 				["ElvUF_FocusMover"] = "BOTTOM,UIParent,BOTTOM,255,447",
 				["ArenaHeaderMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-357,304",
 				["ShiftAB"] = "BOTTOM,ElvUIParent,BOTTOM,0,116",
@@ -2169,7 +2206,7 @@ ElvDB = {
 				["VOICECHAT"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-150",
 				["DurabilityFrameMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-4,-328",
 				["HonorBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-3,-255",
-				["ElvAB_6"] = "BOTTOM,ElvUIParent,BOTTOM,0,77",
+				["ElvUF_TargetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,203,248",
 				["ElvAB_10"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,276",
 				["ElvUF_TankMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,508",
 				["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-203,266",
@@ -2180,37 +2217,208 @@ ElvDB = {
 				["DebuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-181,-99",
 				["ElvUF_AssistMover"] = "TOPLEFT,UIParent,TOPLEFT,4,-102",
 			},
-			["convertPages"] = true,
-			["bags"] = {
-				["bagWidth"] = 474,
-				["countFont"] = "Expressway",
-				["itemLevelFont"] = "Expressway",
-				["split"] = {
-					["player"] = true,
+			["unitframe"] = {
+				["units"] = {
+					["tank"] = {
+						["debuffs"] = {
+							["enable"] = true,
+						},
+						["threatStyle"] = "NONE",
+						["cutaway"] = {
+							["health"] = {
+								["enabled"] = true,
+							},
+						},
+						["healPrediction"] = {
+							["enable"] = true,
+						},
+						["name"] = {
+							["xOffset"] = 1,
+						},
+					},
+					["raid3"] = {
+						["threatStyle"] = "NONE",
+						["height"] = 30,
+						["power"] = {
+							["enable"] = true,
+						},
+					},
+					["focus"] = {
+						["smartAuraPosition"] = "BUFFS_ON_DEBUFFS",
+						["orientation"] = "RIGHT",
+						["buffs"] = {
+							["attachTo"] = "DEBUFFS",
+						},
+					},
+					["target"] = {
+						["debuffs"] = {
+							["yOffset"] = 2,
+							["perrow"] = 10,
+						},
+						["aurabar"] = {
+							["enable"] = false,
+						},
+						["buffs"] = {
+							["perrow"] = 10,
+						},
+					},
+					["raid2"] = {
+						["growthDirection"] = "DOWN_RIGHT",
+					},
+					["focustarget"] = {
+						["debuffs"] = {
+							["enable"] = true,
+						},
+						["infoPanel"] = {
+							["enable"] = true,
+						},
+						["buffs"] = {
+							["enable"] = true,
+						},
+					},
+					["pet"] = {
+						["debuffs"] = {
+							["enable"] = true,
+							["anchorPoint"] = "TOPRIGHT",
+						},
+						["disableTargetGlow"] = false,
+						["castbar"] = {
+							["enable"] = false,
+							["iconSize"] = 32,
+						},
+						["customTexts"] = {
+							["[happiness:icon]"] = {
+								["attachTextTo"] = "Health",
+								["enable"] = true,
+								["text_format"] = "[happiness:icon]",
+								["yOffset"] = -5,
+								["font"] = "Homespun",
+								["justifyH"] = "CENTER",
+								["fontOutline"] = "MONOCHROMEOUTLINE",
+								["xOffset"] = 83,
+								["size"] = 23,
+							},
+						},
+						["width"] = 132,
+						["infoPanel"] = {
+							["height"] = 14,
+						},
+						["buffs"] = {
+							["enable"] = true,
+						},
+					},
+					["player"] = {
+						["debuffs"] = {
+							["anchorPoint"] = "RIGHT",
+							["perrow"] = 11,
+						},
+						["buffs"] = {
+							["enable"] = true,
+							["perrow"] = 10,
+							["attachTo"] = "HEALTH",
+						},
+						["aurabar"] = {
+							["enable"] = false,
+						},
+					},
+					["raid1"] = {
+						["threatStyle"] = "NONE",
+						["healPrediction"] = {
+							["enable"] = true,
+						},
+						["height"] = 30,
+						["rdebuffs"] = {
+							["enable"] = false,
+						},
+						["growthDirection"] = "DOWN_RIGHT",
+					},
+					["raidpet"] = {
+						["threatStyle"] = "NONE",
+					},
+					["arena"] = {
+						["enable"] = false,
+						["infoPanel"] = {
+							["enable"] = true,
+						},
+					},
+					["assist"] = {
+						["threatStyle"] = "NONE",
+					},
+					["party"] = {
+						["targetsGroup"] = {
+							["enable"] = true,
+							["disableMouseoverGlow"] = false,
+							["disableFocusGlow"] = false,
+							["disableTargetGlow"] = false,
+						},
+						["threatStyle"] = "NONE",
+						["healPrediction"] = {
+							["enable"] = true,
+						},
+						["infoPanel"] = {
+							["height"] = 12,
+						},
+						["name"] = {
+							["text_format"] = "[namecolor][name:short]",
+						},
+						["height"] = 60,
+						["buffs"] = {
+							["perrow"] = 3,
+						},
+						["horizontalSpacing"] = 3,
+						["rdebuffs"] = {
+							["enable"] = false,
+						},
+						["growthDirection"] = "DOWN_RIGHT",
+						["groupBy"] = "GROUP",
+						["power"] = {
+							["text_format"] = "",
+							["yOffset"] = 2,
+							["position"] = "BOTTOMRIGHT",
+							["height"] = 15,
+						},
+						["debuffs"] = {
+							["sizeOverride"] = 0,
+							["perrow"] = 3,
+							["attachTo"] = "HEALTH",
+						},
+						["width"] = 245,
+						["health"] = {
+							["position"] = "BOTTOM",
+							["text_format"] = "[healthcolor][health:deficit:shortvalue]",
+							["yOffset"] = 2,
+						},
+						["verticalSpacing"] = 5,
+						["petsGroup"] = {
+							["disableTargetGlow"] = false,
+							["disableMouseoverGlow"] = false,
+							["disableFocusGlow"] = false,
+						},
+					},
 				},
-				["vendorGrays"] = {
-					["details"] = true,
-					["enable"] = true,
+				["font"] = "Expressway",
+				["colors"] = {
+					["healthclass"] = true,
+					["castClassColor"] = true,
+					["powerPrediction"] = {
+						["color"] = {
+							["g"] = 0,
+							["b"] = 0.050980392156863,
+						},
+						["additional"] = {
+							["g"] = 0,
+							["b"] = 0.074509803921569,
+						},
+					},
+					["auraBarBuff"] = {
+						["r"] = 0.78,
+						["g"] = 0.61,
+						["b"] = 0.43,
+					},
 				},
-				["countFontOutline"] = "THICKOUTLINE",
-				["bagSize"] = 42,
-				["bankWidth"] = 474,
-				["itemLevelFontOutline"] = "THICKOUTLINE",
-				["itemLevelCustomColorEnable"] = true,
-				["bankSize"] = 42,
-				["bagBar"] = {
-					["mouseover"] = true,
-				},
+				["fontOutline"] = "OUTLINE",
+				["smoothbars"] = true,
 			},
-			["chat"] = {
-				["panelSnapRightID"] = 3,
-				["emotionIcons"] = false,
-				["panelHeight"] = 200,
-				["throttleInterval"] = 0,
-				["panelSnapLeftID"] = 1,
-				["panelWidth"] = 472,
-			},
-			["dbConverted"] = 13.08,
 			["datatexts"] = {
 				["panels"] = {
 					["KUI_MiddlePanel"] = {
@@ -2227,181 +2435,175 @@ ElvDB = {
 					},
 					["LeftChatDataPanel"] = {
 						["1"] = "Hit",
-						["right"] = "Quick Join",
 						["3"] = "Guild",
+						["right"] = "Quick Join",
 					},
 				},
 			},
 			["actionbar"] = {
 				["bar3"] = {
-					["countFont"] = "Expressway",
-					["buttonSize"] = 35,
+					["hotkeyFont"] = "Expressway",
 					["macroFont"] = "Expressway",
+					["macroTextPosition"] = "BOTTOMRIGHT",
+					["visibility"] = "[petbattle] hide; show",
 					["buttonSpacing"] = 0,
 					["macroFontOutline"] = "OUTLINE",
-					["macroTextPosition"] = "BOTTOMRIGHT",
+					["countFont"] = "Expressway",
+					["buttonSize"] = 35,
 					["countFontOutline"] = "OUTLINE",
-					["hotkeyFont"] = "Expressway",
-					["macrotext"] = true,
 					["hotkeyFontOutline"] = "OUTLINE",
-					["visibility"] = "[petbattle] hide; show",
+					["macrotext"] = true,
 					["buttons"] = 12,
 				},
-				["bar6"] = {
-					["enabled"] = true,
-					["countFont"] = "Expressway",
-					["buttonSize"] = 35,
-					["macroFont"] = "Expressway",
-					["buttonSpacing"] = 1,
-					["macroFontOutline"] = "OUTLINE",
-					["macroTextPosition"] = "BOTTOMRIGHT",
-					["countFontOutline"] = "OUTLINE",
-					["hotkeyFont"] = "Expressway",
-					["macrotext"] = true,
-					["hotkeyFontOutline"] = "OUTLINE",
-					["visibility"] = "[petbattle] hide; show",
-					["backdrop"] = true,
-				},
-				["bar10"] = {
-					["enabled"] = true,
-					["countFont"] = "Expressway",
-					["buttonSize"] = 35,
-					["macroFont"] = "Expressway",
-					["buttonSpacing"] = 0,
-					["macroFontOutline"] = "OUTLINE",
-					["macroTextPosition"] = "BOTTOMRIGHT",
-					["hotkeyFont"] = "Expressway",
-					["macrotext"] = true,
-					["buttonsPerRow"] = 1,
-					["countFontOutline"] = "OUTLINE",
-					["hotkeyFontOutline"] = "OUTLINE",
-				},
 				["bar8"] = {
-					["macroTextPosition"] = "BOTTOMRIGHT",
-					["countFont"] = "Expressway",
-					["macroFontOutline"] = "OUTLINE",
 					["hotkeyFont"] = "Expressway",
-					["macrotext"] = true,
 					["macroFont"] = "Expressway",
-					["hotkeyFontOutline"] = "OUTLINE",
+					["macroTextPosition"] = "BOTTOMRIGHT",
+					["macroFontOutline"] = "OUTLINE",
+					["countFont"] = "Expressway",
 					["countFontOutline"] = "OUTLINE",
+					["hotkeyFontOutline"] = "OUTLINE",
+					["macrotext"] = true,
 				},
 				["fontOutline"] = "OUTLINE",
 				["bar9"] = {
-					["countFont"] = "Expressway",
-					["buttonSize"] = 35,
+					["hotkeyFont"] = "Expressway",
 					["macroFont"] = "Expressway",
+					["macroTextPosition"] = "BOTTOMRIGHT",
+					["buttonsPerRow"] = 1,
 					["buttonSpacing"] = 0,
 					["macroFontOutline"] = "OUTLINE",
-					["macroTextPosition"] = "BOTTOMRIGHT",
-					["hotkeyFont"] = "Expressway",
-					["macrotext"] = true,
-					["buttonsPerRow"] = 1,
-					["countFontOutline"] = "OUTLINE",
-					["hotkeyFontOutline"] = "OUTLINE",
-				},
-				["microbar"] = {
-					["enabled"] = true,
-					["buttons"] = 10,
-				},
-				["keyDown"] = false,
-				["bar2"] = {
 					["countFont"] = "Expressway",
-					["macroFont"] = "Expressway",
-					["macroFontOutline"] = "OUTLINE",
-					["macroTextPosition"] = "BOTTOMRIGHT",
-					["hotkeyFont"] = "Expressway",
-					["macrotext"] = true,
+					["buttonSize"] = 35,
 					["countFontOutline"] = "OUTLINE",
-					["visibility"] = "[petbattle] hide; show",
 					["hotkeyFontOutline"] = "OUTLINE",
+					["macrotext"] = true,
 				},
 				["bar1"] = {
-					["countFont"] = "Expressway",
-					["buttonSize"] = 35,
+					["hotkeyFont"] = "Expressway",
 					["macroFont"] = "Expressway",
+					["macroTextPosition"] = "BOTTOMRIGHT",
 					["buttonSpacing"] = 1,
 					["macroFontOutline"] = "OUTLINE",
-					["macroTextPosition"] = "BOTTOMRIGHT",
-					["hotkeyFont"] = "Expressway",
-					["macrotext"] = true,
-					["countFontOutline"] = "OUTLINE",
-					["hotkeyFontOutline"] = "OUTLINE",
-					["backdrop"] = true,
-				},
-				["bar5"] = {
-					["enabled"] = false,
 					["countFont"] = "Expressway",
 					["buttonSize"] = 35,
-					["macroFont"] = "Expressway",
-					["buttonSpacing"] = 1,
-					["backdrop"] = true,
 					["countFontOutline"] = "OUTLINE",
-					["macroTextPosition"] = "BOTTOMRIGHT",
-					["buttons"] = 12,
-					["hotkeyFont"] = "Expressway",
 					["hotkeyFontOutline"] = "OUTLINE",
 					["macrotext"] = true,
-					["buttonsPerRow"] = 1,
-					["visibility"] = "[petbattle] hide; show",
-					["macroFontOutline"] = "OUTLINE",
+					["backdrop"] = true,
 				},
-				["lockActionBars"] = false,
 				["macroTextPosition"] = "BOTTOMRIGHT",
 				["font"] = "Expressway",
 				["bar7"] = {
-					["macroTextPosition"] = "BOTTOMRIGHT",
-					["countFont"] = "Expressway",
-					["macroFontOutline"] = "OUTLINE",
 					["hotkeyFont"] = "Expressway",
-					["macrotext"] = true,
 					["macroFont"] = "Expressway",
-					["hotkeyFontOutline"] = "OUTLINE",
+					["macroTextPosition"] = "BOTTOMRIGHT",
+					["macroFontOutline"] = "OUTLINE",
+					["countFont"] = "Expressway",
 					["countFontOutline"] = "OUTLINE",
+					["hotkeyFontOutline"] = "OUTLINE",
+					["macrotext"] = true,
 				},
-				["globalFadeAlpha"] = 1,
 				["barPet"] = {
 					["buttonsPerRow"] = 10,
 					["countFont"] = "Expressway",
 					["countFontOutline"] = "OUTLINE",
 				},
-				["cooldown"] = {
-					["fonts"] = {
-						["enable"] = true,
-					},
-					["override"] = false,
-				},
-				["bar4"] = {
-					["countFont"] = "Expressway",
-					["buttonSize"] = 35,
+				["bar6"] = {
+					["hotkeyFont"] = "Expressway",
+					["enabled"] = true,
 					["macroFont"] = "Expressway",
+					["macroTextPosition"] = "BOTTOMRIGHT",
+					["visibility"] = "[petbattle] hide; show",
 					["buttonSpacing"] = 1,
 					["macroFontOutline"] = "OUTLINE",
+					["countFont"] = "Expressway",
+					["buttonSize"] = 35,
+					["countFontOutline"] = "OUTLINE",
+					["hotkeyFontOutline"] = "OUTLINE",
+					["macrotext"] = true,
+					["backdrop"] = true,
+				},
+				["bar10"] = {
+					["hotkeyFont"] = "Expressway",
+					["enabled"] = true,
+					["macroFont"] = "Expressway",
 					["macroTextPosition"] = "BOTTOMRIGHT",
+					["buttonsPerRow"] = 1,
+					["buttonSpacing"] = 0,
+					["macroFontOutline"] = "OUTLINE",
+					["countFont"] = "Expressway",
+					["buttonSize"] = 35,
+					["countFontOutline"] = "OUTLINE",
+					["hotkeyFontOutline"] = "OUTLINE",
+					["macrotext"] = true,
+				},
+				["globalFadeAlpha"] = 1,
+				["microbar"] = {
+					["enabled"] = true,
+					["buttons"] = 10,
+				},
+				["bar2"] = {
+					["macroFont"] = "Expressway",
+					["macroTextPosition"] = "BOTTOMRIGHT",
+					["visibility"] = "[petbattle] hide; show",
+					["macroFontOutline"] = "OUTLINE",
+					["countFont"] = "Expressway",
 					["countFontOutline"] = "OUTLINE",
 					["hotkeyFont"] = "Expressway",
 					["macrotext"] = true,
+					["hotkeyFontOutline"] = "OUTLINE",
+				},
+				["keyDown"] = false,
+				["bar5"] = {
+					["hotkeyFont"] = "Expressway",
+					["enabled"] = false,
+					["macroFont"] = "Expressway",
+					["backdrop"] = true,
+					["macroTextPosition"] = "BOTTOMRIGHT",
+					["buttonsPerRow"] = 1,
+					["visibility"] = "[petbattle] hide; show",
+					["buttonSpacing"] = 1,
+					["macroFontOutline"] = "OUTLINE",
+					["countFont"] = "Expressway",
+					["buttonSize"] = 35,
+					["countFontOutline"] = "OUTLINE",
+					["hotkeyFontOutline"] = "OUTLINE",
+					["buttons"] = 12,
+					["macrotext"] = true,
+				},
+				["lockActionBars"] = false,
+				["cooldown"] = {
+					["override"] = false,
+					["fonts"] = {
+						["enable"] = true,
+					},
+				},
+				["bar4"] = {
+					["hotkeyFont"] = "Expressway",
+					["macroFont"] = "Expressway",
+					["macroTextPosition"] = "BOTTOMRIGHT",
 					["buttonsPerRow"] = 12,
 					["visibility"] = "[petbattle] hide; show",
+					["buttonSpacing"] = 1,
+					["macroFontOutline"] = "OUTLINE",
+					["countFont"] = "Expressway",
+					["buttonSize"] = 35,
+					["countFontOutline"] = "OUTLINE",
 					["hotkeyFontOutline"] = "OUTLINE",
+					["macrotext"] = true,
 				},
 			},
 			["nameplates"] = {
 				["clickThrough"] = {
 					["enemy"] = true,
 				},
-				["visibility"] = {
-					["enemy"] = {
-						["totems"] = true,
-						["pets"] = true,
-					},
-				},
 				["units"] = {
 					["ENEMY_NPC"] = {
-						["title"] = {
+						["eliteIcon"] = {
 							["enable"] = true,
 						},
-						["eliteIcon"] = {
+						["title"] = {
 							["enable"] = true,
 						},
 					},
@@ -2432,227 +2634,25 @@ ElvDB = {
 						["enable"] = true,
 					},
 				},
-			},
-			["tooltip"] = {
-				["healthBar"] = {
-					["height"] = 12,
-					["fontOutline"] = "MONOCHROMEOUTLINE",
-				},
-			},
-			["unitframe"] = {
-				["font"] = "Expressway",
-				["colors"] = {
-					["powerPrediction"] = {
-						["color"] = {
-							["g"] = 0,
-							["b"] = 0.050980392156863,
-						},
-						["additional"] = {
-							["g"] = 0,
-							["b"] = 0.074509803921569,
-						},
-					},
-					["auraBarBuff"] = {
-						["r"] = 0.78,
-						["g"] = 0.61,
-						["b"] = 0.43,
-					},
-					["castClassColor"] = true,
-					["healthclass"] = true,
-				},
-				["fontOutline"] = "OUTLINE",
-				["smoothbars"] = true,
-				["units"] = {
-					["tank"] = {
-						["cutaway"] = {
-							["health"] = {
-								["enabled"] = true,
-							},
-						},
-						["debuffs"] = {
-							["enable"] = true,
-						},
-						["threatStyle"] = "NONE",
-						["healPrediction"] = {
-							["enable"] = true,
-						},
-						["name"] = {
-							["xOffset"] = 1,
-						},
-					},
-					["player"] = {
-						["debuffs"] = {
-							["anchorPoint"] = "RIGHT",
-							["perrow"] = 11,
-						},
-						["buffs"] = {
-							["enable"] = true,
-							["attachTo"] = "HEALTH",
-							["perrow"] = 10,
-						},
-						["aurabar"] = {
-							["enable"] = false,
-						},
-					},
-					["focustarget"] = {
-						["infoPanel"] = {
-							["enable"] = true,
-						},
-						["debuffs"] = {
-							["enable"] = true,
-						},
-						["buffs"] = {
-							["enable"] = true,
-						},
-					},
-					["pet"] = {
-						["infoPanel"] = {
-							["height"] = 14,
-						},
-						["debuffs"] = {
-							["enable"] = true,
-							["anchorPoint"] = "TOPRIGHT",
-						},
-						["disableTargetGlow"] = false,
-						["castbar"] = {
-							["enable"] = false,
-							["iconSize"] = 32,
-						},
-						["customTexts"] = {
-							["[happiness:icon]"] = {
-								["attachTextTo"] = "Health",
-								["enable"] = true,
-								["text_format"] = "[happiness:icon]",
-								["yOffset"] = -5,
-								["font"] = "Homespun",
-								["justifyH"] = "CENTER",
-								["fontOutline"] = "MONOCHROMEOUTLINE",
-								["xOffset"] = 83,
-								["size"] = 23,
-							},
-						},
-						["buffs"] = {
-							["enable"] = true,
-						},
-						["width"] = 132,
-					},
-					["focus"] = {
-						["orientation"] = "RIGHT",
-						["buffs"] = {
-							["attachTo"] = "DEBUFFS",
-						},
-						["smartAuraPosition"] = "BUFFS_ON_DEBUFFS",
-					},
-					["target"] = {
-						["debuffs"] = {
-							["yOffset"] = 2,
-							["perrow"] = 10,
-						},
-						["buffs"] = {
-							["perrow"] = 10,
-						},
-						["aurabar"] = {
-							["enable"] = false,
-						},
-					},
-					["party"] = {
-						["horizontalSpacing"] = 3,
-						["debuffs"] = {
-							["attachTo"] = "HEALTH",
-							["sizeOverride"] = 0,
-							["perrow"] = 3,
-						},
-						["rdebuffs"] = {
-							["enable"] = false,
-						},
-						["growthDirection"] = "DOWN_RIGHT",
-						["groupBy"] = "GROUP",
-						["targetsGroup"] = {
-							["enable"] = true,
-							["disableFocusGlow"] = false,
-							["disableTargetGlow"] = false,
-							["disableMouseoverGlow"] = false,
-						},
-						["threatStyle"] = "NONE",
-						["power"] = {
-							["height"] = 15,
-							["yOffset"] = 2,
-							["text_format"] = "",
-							["position"] = "BOTTOMRIGHT",
-						},
-						["healPrediction"] = {
-							["enable"] = true,
-						},
-						["width"] = 245,
-						["infoPanel"] = {
-							["height"] = 12,
-						},
-						["name"] = {
-							["text_format"] = "[namecolor][name:short]",
-						},
-						["health"] = {
-							["position"] = "BOTTOM",
-							["text_format"] = "[healthcolor][health:deficit:shortvalue]",
-							["yOffset"] = 2,
-						},
-						["height"] = 60,
-						["buffs"] = {
-							["perrow"] = 3,
-						},
-						["petsGroup"] = {
-							["disableFocusGlow"] = false,
-							["disableTargetGlow"] = false,
-							["disableMouseoverGlow"] = false,
-						},
-						["verticalSpacing"] = 5,
-					},
-					["raid1"] = {
-						["threatStyle"] = "NONE",
-						["height"] = 30,
-						["healPrediction"] = {
-							["enable"] = true,
-						},
-						["rdebuffs"] = {
-							["enable"] = false,
-						},
-						["growthDirection"] = "DOWN_RIGHT",
-					},
-					["raidpet"] = {
-						["threatStyle"] = "NONE",
-					},
-					["assist"] = {
-						["threatStyle"] = "NONE",
-					},
-					["arena"] = {
-						["enable"] = false,
-						["infoPanel"] = {
-							["enable"] = true,
-						},
-					},
-					["raid2"] = {
-						["growthDirection"] = "DOWN_RIGHT",
-					},
-					["raid3"] = {
-						["height"] = 30,
-						["threatStyle"] = "NONE",
-						["power"] = {
-							["enable"] = true,
-						},
+				["visibility"] = {
+					["enemy"] = {
+						["totems"] = true,
+						["pets"] = true,
 					},
 				},
 			},
 			["auras"] = {
 				["debuffs"] = {
 					["horizontalSpacing"] = 1,
+					["size"] = 28,
 					["verticalSpacing"] = 20,
 					["maxWraps"] = 2,
-					["size"] = 28,
 				},
 				["buffs"] = {
 					["horizontalSpacing"] = 1,
+					["size"] = 28,
 					["verticalSpacing"] = 20,
 					["maxWraps"] = 2,
-					["size"] = 28,
 				},
 			},
 		},
@@ -2672,11 +2672,11 @@ ElvDB = {
 	},
 	["gold"] = {
 		["伊弗斯"] = {
-			["邁克爾假死"] = 4466467,
+			["邁克爾假死"] = 68402677,
 			["滴滴一下"] = 64,
 			["路易斯桑拿"] = 3386888,
 			["暖男你馬四了"] = 0,
-			["特變電工"] = 111562380,
+			["特變電工"] = 2083186,
 			["畜生犬隊長"] = 164166,
 			["頂級投資家"] = 30,
 		},
@@ -2701,12 +2701,12 @@ ElvDB = {
 	},
 	["profileKeys"] = {
 		["頂級投資家 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
-		["路易斯桑拿 - 伊弗斯"] = "Default",
-		["畜生犬隊長 - 伊弗斯"] = "Default",
 		["滴滴一下 - 伊弗斯"] = "Default",
+		["畜生犬隊長 - 伊弗斯"] = "Default",
+		["特變電工 - 伊弗斯"] = "my profile",
 		["邁克爾假死 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
 		["暖男你馬四了 - 伊弗斯"] = "Default",
-		["特變電工 - 伊弗斯"] = "my profile",
+		["路易斯桑拿 - 伊弗斯"] = "Default",
 	},
 	["namespaces"] = {
 		["LibDualSpec-1.0"] = {
@@ -2716,19 +2716,19 @@ ElvDB = {
 ElvPrivateDB = {
 	["profileKeys"] = {
 		["頂級投資家 - 伊弗斯"] = "頂級投資家 - 伊弗斯",
-		["路易斯桑拿 - 伊弗斯"] = "路易斯桑拿 - 伊弗斯",
-		["畜生犬隊長 - 伊弗斯"] = "畜生犬隊長 - 伊弗斯",
 		["滴滴一下 - 伊弗斯"] = "滴滴一下 - 伊弗斯",
+		["畜生犬隊長 - 伊弗斯"] = "畜生犬隊長 - 伊弗斯",
+		["特變電工 - 伊弗斯"] = "特變電工 - 伊弗斯",
 		["邁克爾假死 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
 		["暖男你馬四了 - 伊弗斯"] = "暖男你馬四了 - 伊弗斯",
-		["特變電工 - 伊弗斯"] = "特變電工 - 伊弗斯",
+		["路易斯桑拿 - 伊弗斯"] = "路易斯桑拿 - 伊弗斯",
 	},
 	["profiles"] = {
 		["頂級投資家 - 伊弗斯"] = {
 			["install_complete"] = 13.06,
 		},
-		["路易斯桑拿 - 伊弗斯"] = {
-			["install_complete"] = 2.08,
+		["滴滴一下 - 伊弗斯"] = {
+			["install_complete"] = 2.47,
 		},
 		["畜生犬隊長 - 伊弗斯"] = {
 			["install_complete"] = 2.08,
@@ -2740,10 +2740,26 @@ ElvPrivateDB = {
 				["pvpreadydialogreset"] = true,
 			},
 		},
-		["滴滴一下 - 伊弗斯"] = {
-			["install_complete"] = 2.47,
+		["特變電工 - 伊弗斯"] = {
+			["KlixUI"] = {
+				["characterGoldsSorting"] = {
+					["伊弗斯"] = {
+					},
+				},
+				["pvpreadydialogreset"] = true,
+			},
+			["bags"] = {
+				["enable"] = false,
+			},
+			["general"] = {
+				["worldMap"] = false,
+			},
+			["install_complete"] = 2.1,
 		},
 		["邁克爾假死 - 伊弗斯"] = {
+			["general"] = {
+				["worldMap"] = false,
+			},
 			["bags"] = {
 				["bagBar"] = true,
 				["enable"] = false,
@@ -2756,29 +2772,13 @@ ElvPrivateDB = {
 				},
 				["install_complete"] = "0.03",
 			},
-			["general"] = {
-				["worldMap"] = false,
-			},
 			["install_complete"] = 2.1,
 		},
 		["暖男你馬四了 - 伊弗斯"] = {
 			["install_complete"] = 13.02,
 		},
-		["特變電工 - 伊弗斯"] = {
-			["general"] = {
-				["worldMap"] = false,
-			},
-			["bags"] = {
-				["enable"] = false,
-			},
-			["KlixUI"] = {
-				["characterGoldsSorting"] = {
-					["伊弗斯"] = {
-					},
-				},
-				["pvpreadydialogreset"] = true,
-			},
-			["install_complete"] = 2.1,
+		["路易斯桑拿 - 伊弗斯"] = {
+			["install_complete"] = 2.08,
 		},
 	},
 }
