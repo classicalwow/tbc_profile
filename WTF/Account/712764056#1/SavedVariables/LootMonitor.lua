@@ -6,7 +6,6 @@ LootMonitorDB = {
 			["Class"] = "HUNTER",
 			["InstanceID"] = 533,
 			["FirstPlayer"] = "盧山升龍霸",
-			["InstanceName"] = "纳克萨玛斯",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4490-533-9602-15956-000004A81E",
@@ -606,16 +605,20 @@ LootMonitorDB = {
 					},
 				}, -- [45]
 			},
-			["SavedID"] = 113591126,
-			["Player"] = "邁克爾假死",
+			["InstanceName"] = "纳克萨玛斯",
 			["FirstClass"] = "WARLOCK",
+			["Player"] = "邁克爾假死",
+			["SavedID"] = 113591126,
 		}, -- [1]
 		{
 			["Date"] = "2022-12-04",
 			["Class"] = "WARRIOR",
 			["InstanceID"] = 533,
 			["FirstPlayer"] = "司命",
+			["FirstClass"] = "PRIEST",
+			["InstanceName"] = "纳克萨玛斯",
 			["SavedID"] = 115124376,
+			["Player"] = "特變電工",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-533-31638-15956-00000C8C0C",
@@ -956,16 +959,12 @@ LootMonitorDB = {
 					},
 				}, -- [26]
 			},
-			["FirstClass"] = "PRIEST",
-			["Player"] = "特變電工",
-			["InstanceName"] = "纳克萨玛斯",
 		}, -- [2]
 		{
 			["Date"] = "2022-12-08",
 			["Class"] = "HUNTER",
 			["InstanceID"] = 533,
 			["FirstPlayer"] = "未知",
-			["InstanceName"] = "纳克萨玛斯",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-4491-533-2074-16028-000011D81B",
@@ -1187,9 +1186,10 @@ LootMonitorDB = {
 					},
 				}, -- [16]
 			},
-			["SavedID"] = 117153411,
-			["Player"] = "邁克爾假死",
+			["InstanceName"] = "纳克萨玛斯",
 			["FirstClass"] = "UNKNOWN",
+			["Player"] = "邁克爾假死",
+			["SavedID"] = 117153411,
 		}, -- [3]
 	},
 	["Config"] = {
