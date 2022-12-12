@@ -6,8 +6,8 @@ WeakAurasOptionsSaved = {
 	["locale"] = "zhCN",
 	["needsRebuild"] = false,
 	["version"] = "4.1.4",
-	["spellCacheStrings"] = true,
 	["spellCacheAchivements"] = true,
+	["spellCacheStrings"] = true,
 	["spellCache"] = {
 		["胶质防盾"] = {
 			["spells"] = "38026=135864",

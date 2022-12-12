@@ -50,10 +50,6 @@ TomTomWaypointsM = {
 		["畜生犬隊長 - 伊弗斯"] = {
 		},
 		["特變電工 - 伊弗斯"] = {
-		},
-		["暖男你馬四了 - 伊弗斯"] = {
-		},
-		["邁克爾假死 - 伊弗斯"] = {
 			[115] = {
 				["115:603178484.10758:515403422.98289:奈瑟斯塔兹"] = {
 					115, -- [1]
@@ -62,8 +58,7 @@ TomTomWaypointsM = {
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "奈瑟斯塔兹",
-					["silent"] = true,
+					["minimap"] = true,
 					["cleardistance"] = 10,
 					["title"] = "奈瑟斯塔兹",
 					["from"] = "Questie",
@@ -83,10 +78,13 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
-					["minimap"] = true,
 					["world"] = true,
 				},
 			},
+		},
+		["暖男你馬四了 - 伊弗斯"] = {
+		},
+		["邁克爾假死 - 伊弗斯"] = {
 		},
 	},
 }
