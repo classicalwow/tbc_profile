@@ -58,7 +58,8 @@ TomTomWaypointsM = {
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["minimap"] = true,
+					["desc"] = "水晶冰雪元素",
+					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "水晶冰雪元素",
 					["from"] = "Questie",
@@ -70,6 +71,7 @@ TomTomWaypointsM = {
 						["world"] = {
 						},
 					},
+					["minimap"] = true,
 					["world"] = true,
 				},
 			},
