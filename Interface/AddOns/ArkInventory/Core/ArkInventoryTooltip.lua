@@ -42,6 +42,7 @@ ArkInventory.Const.BLIZZARD.TooltipFunctions = {
 	["SetCurrencyByID"] = ArkInventory.Global.Location[ArkInventory.Const.Location.Currency].proj,
 	["SetCurrencyToken"] = ArkInventory.ClientCheck( ArkInventory.ENUM.EXPANSION.TBC ), -- FIX ME
 	["SetCurrencyTokenByID"] = ArkInventory.ClientCheck( ArkInventory.ENUM.EXPANSION.TBC ), -- FIX ME
+	["SetCompanionPet"] = true, -- FIX ME
 	["SetCraftItem"] = ArkInventory.ClientCheck( nil, ArkInventory.ENUM.EXPANSION.SHADOWLANDS ), -- FIX ME
 	["SetCraftSpell"] = ArkInventory.ClientCheck( ArkInventory.ENUM.EXPANSION.CLASSIC ), -- FIX ME
 	["SetGuildBankItem"] = ArkInventory.Global.Location[ArkInventory.Const.Location.Vault].proj,
@@ -70,7 +71,7 @@ ArkInventory.Const.BLIZZARD.TooltipFunctions = {
 	["SetTradePlayerItem"] = true,
 	["SetTradeSkillItem"] = ArkInventory.Global.Location[ArkInventory.Const.Location.Tradeskill].proj,
 	["SetTradeTargetItem"] = true,
---	["SetUnit"] = false, --  > conflicts with OnSetUnit, do NOT use
+--	["SetUnit"] = true, --  > conflicts with OnSetUnit, do NOT use
 	["SetVoidItem"] = ArkInventory.Global.Location[ArkInventory.Const.Location.Void].proj,
 	["SetVoidDepositItem"] = ArkInventory.Global.Location[ArkInventory.Const.Location.Void].proj,
 	["SetVoidWithdrawalItem"] = ArkInventory.Global.Location[ArkInventory.Const.Location.Void].proj,
@@ -133,6 +134,7 @@ end
 local function checkAbortShow( tooltip )
 	
 	if not tooltip then return true end
+	if not tooltip.ARKTTD then return true end
 	if not ArkInventory:IsEnabled( ) then return true end
 	
 	if not ArkInventory.db.option.tooltip.show then return true end
@@ -639,7 +641,7 @@ function ArkInventory.TooltipCustomBattlepetAddDetail( tooltip, speciesID, h, i 
 --	test = check unit tooltip (target a battle pet)
 --	checked ok = 
 	
-	--ArkInventory.Output2( "TooltipCustomBattlepetAddDetail" )
+	--ArkInventory.Output( "TooltipCustomBattlepetAddDetail" )
 	
 	if not speciesID then return end
 	
@@ -1596,7 +1598,7 @@ end
 local function helper_CurrencyRepuationCheck( currencyID )
 	--ArkInventory.Output2( "currencyID=", currencyID )
 	if currencyID then
-		local factionID = C_CurrencyInfo.GetFactionGrantedByCurrency and C_CurrencyInfo.GetFactionGrantedByCurrency( currencyID )
+		local factionID = C_CurrencyInfo and C_CurrencyInfo.GetFactionGrantedByCurrency and C_CurrencyInfo.GetFactionGrantedByCurrency( currencyID )
 		--ArkInventory.Output2( "factionID=", factionID )
 		if factionID then
 			-- its actually reputation
@@ -1844,10 +1846,13 @@ end
 
 
 function ArkInventory.HookOnTooltipSetUnit( tooltip, ... )
+	
 --	this tooltip doesnt normally refresh
 	
 --	test = mouseover your active pet, or a wild battlepet
 --	checked ok = 
+	
+	--ArkInventory.Output( "here1" )
 	
 	if not C_PetJournal then return end
 	if not ArkInventory.db.option.tooltip.battlepet.enable then return end
@@ -1855,7 +1860,7 @@ function ArkInventory.HookOnTooltipSetUnit( tooltip, ... )
 	if checkAbortShow( tooltip ) then return true end
 	
 	local arg1, arg2, arg3, arg4, arg5 = ...
-	--ArkInventory.Output2( arg1, " / ", arg2, " / ", arg3, " / ", arg4, " / ", arg5 )
+	--ArkInventory.Output( arg1, " / ", arg2, " / ", arg3, " / ", arg4, " / ", arg5 )
 	
 	-- reload previous critter
 	if arg4 or arg5 then
@@ -1932,17 +1937,72 @@ function ArkInventory.HookOnTooltipSetUnit( tooltip, ... )
 	
 end
 
+function ArkInventory.HookTooltipSetCompanionPet( tooltip, ... )
+	
+--	this tooltip doesnt normally refresh
+	
+--	test = mouseover a pet in the pet journal
+--	checked ok = true
+	
+	if not C_PetJournal then return end
+	if not ArkInventory.db.option.tooltip.battlepet.enable then return end
+	
+	if checkAbortShow( tooltip ) then return true end
+	
+	local arg1, arg2, arg3, arg4, arg5 = ...
+	--ArkInventory.Output( arg1, " / ", arg2, " / ", arg3, " / ", arg4, " / ", arg5 )
+	
+	-- reload previous battlepet
+	if arg4 or arg5 then
+		
+		local h = arg4
+		local i = arg5
+		
+		ArkInventory.TooltipCustomBattlepetShow( tooltip, h, i )
+		
+		local fn = "HookTooltipSetCompanionPet"
+		ArkInventory.TooltipMyDataSave( tooltip, fn, false, false, false, h, i )
+		
+		return
+		
+	end
+	
+	
+	-- new battlepet set
+	local pd = ArkInventory.Collection.Pet.GetByID( arg1 )
+	if pd then
+		
+		local sd = pd.sd
+		if not sd then
+			--ArkInventory.OutputWarning( "no species data found for ", bpSpeciesID )
+			return
+		end
+		
+		local h = pd.link
+		local i = { index = pd.index }
+		
+		ArkInventory.TooltipCustomBattlepetBuild( tooltip, h, i )
+		ArkInventory.TooltipCustomBattlepetAddDetail( tooltip, bpSpeciesID, h, i )
+		
+		local fn = "HookTooltipSetCompanionPet"
+		ArkInventory.TooltipMyDataSave( tooltip, fn, false, false, false, h, i )
+		
+	end
+	
+end
+
 
 
 function ArkInventory.HookTooltipSetGeneric( fn, tooltip, ... )
 	
 	if not tooltip:IsShown( ) then
+		
 		-- caters for the game closing the tooltip when opening the same link again.
 		-- when that happens we still get the click so it looks new, but the tooltip will have been hidden underneath us.
-		-- we check for that via the isshown.  cant use isvisible as some tooltips arent immediately visible
+		-- we check for that via the isshown.  cant use isvisible as some tooltips are shown but not visible yet
 		
 		if tooltip.ARKTTD.scan then
-			ArkInventory.Output( "not shown - ", tooltip.ARKTTD )
+			--ArkInventory.Output( "not shown - ", tooltip.ARKTTD )
 		end
 		
 		return
@@ -2688,19 +2748,19 @@ function ArkInventory.TooltipAddMoneyText( frame, money, txt, r1, g1, b1, r2, g2
 end
 
 
-function ArkInventory.TooltipDataDump( tooltipData )
+function ArkInventory.TooltipDataDump( tooltipInfo )
 	
-	if tooltipData then
+	if tooltipInfo then
 		
-		TooltipUtil.SurfaceArgs( tooltipData )
-		for k, line in ipairs( tooltipData.lines ) do
+		TooltipUtil.SurfaceArgs( tooltipInfo )
+		for k, line in ipairs( tooltipInfo.lines ) do
 			TooltipUtil.SurfaceArgs( line )
 		end
 		
-		--tooltipData.type
+		--tooltipInfo.type
 			
 		local show = false
-		for k, line in ipairs( tooltipData.lines ) do
+		for k, line in ipairs( tooltipInfo.lines ) do
 			
 			if k == 1 then
 				if string.match( line.leftText, "^Pattern: (.+)" ) then
@@ -2719,7 +2779,7 @@ function ArkInventory.TooltipDataDump( tooltipData )
 			end
 		end
 		
-		return tooltipData
+		return tooltipInfo
 		
 	end
 end
@@ -2765,6 +2825,12 @@ function ArkInventory.TooltipDump( tooltip )
 		--ArkInventory.Output( k )
 	end
 	
+end
+
+function ArkInventory.GameTooltipDump( )
+	for k in pairs( GameTooltip ) do
+		ArkInventory.Output( k )
+	end
 end
 
 function ArkInventory.ListAllTooltips( )
@@ -2952,16 +3018,112 @@ end
 
 
 
-function ArkInventory.TooltipProcessorAddItemCount( tooltip, tooltipData )
+function ArkInventory.TooltipProcessorSetItem( ... )
 	
-	if not tooltip.ARKTTD then return end
+	local tooltip, tooltipInfo = ...
+	if checkAbortShow( tooltip ) then return true end
 	
-	--ArkInventory.Output( "add item count to ", tooltip:GetName( ), " - ", tooltipData.hyperlink )
-	--ArkInventory.TooltipAddItemCount( tooltip, tooltipData.hyperlink )
+	TooltipUtil.SurfaceArgs( tooltipInfo )
+	--tooltipInfo.args = nil
+	--tooltipInfo.lines = nil
+	--ArkInventory.Output( tooltipInfo )
+	
+	local hyperlink
+	
+	if tooltipInfo.hyperlink then
+		hyperlink = tooltipInfo.hyperlink
+	elseif tooltipInfo.guid then
+		hyperlink = C_Item.GetItemLinkByGUID( tooltipInfo.guid )
+	end
+	
+	--ArkInventory.Output( hyperlink )
+	
+	ArkInventory.TooltipAddItemCount( tooltip, hyperlink )
 	
 end
+
+function ArkInventory.TooltipProcessorSetUnit( ... )
+	ArkInventory.HookOnTooltipSetUnit( ... )
+end
+
+function ArkInventory.TooltipProcessorSetCompanionPet( ... )
+	
+	if not C_PetJournal then return end
+	if not ArkInventory.db.option.tooltip.battlepet.enable then return end
+	
+	local tooltip, tooltipInfo = ...
+	if checkAbortShow( tooltip ) then return true end
+	
+	--  theres nothing in the tooltip or tooltipInfo that identifies the pet you are moused over in your pet journal
+	
+end
+
+function ArkInventory.TooltipProcessorSetBattlePet( ... )
+	
+	if not C_PetJournal then return end
+	if not ArkInventory.db.option.tooltip.battlepet.enable then return end
+	
+	local tooltip, tooltipInfo = ...
+	if checkAbortShow( tooltip ) then return true end
+	
+	ArkInventory.Output( "add battlepet count to ", tooltip:GetName( ), " - ", tooltipInfo.hyperlink )
+	ArkInventory.HookOnTooltipSetUnit( ... )
+	
+end
+
+function ArkInventory.TooltipProcessorSetMount( ... )
+	
+	if not C_MountJournal then return end
+	
+	local tooltip, tooltipInfo = ...
+	if checkAbortShow( tooltip ) then return true end
+	
+	local name, spellID = C_MountJournal.GetMountInfoByID( tooltipInfo.id )
+	local hyperlink = GetSpellLink( spellID )
+	ArkInventory.TooltipAddItemCount( tooltip, hyperlink )
+	
+end
+
+function ArkInventory.TooltipProcessorSetToy( ... )
+	
+	if not C_ToyBox then return end
+	
+	local tooltip, tooltipInfo = ...
+	if checkAbortShow( tooltip ) then return true end
+	
+	local hyperlink = C_ToyBox.GetToyLink( tooltipInfo.id )
+	ArkInventory.TooltipAddItemCount( tooltip, hyperlink )
+	
+end
+
+function ArkInventory.TooltipProcessorSetCurrency( ... )
+	
+	local tooltip, tooltipInfo = ...
+	if checkAbortShow( tooltip ) then return true end
+	
+	local hyperlink = helper_CurrencyRepuationCheck( tooltipInfo.id )
+	ArkInventory.TooltipAddItemCount( tooltip, hyperlink )
+	
+end
+
+function ArkInventory.TooltipProcessorSetSpell( ... )
+	
+	local tooltip, tooltipInfo = ...
+	if checkAbortShow( tooltip ) then return true end
+	
+	local hyperlink = GetSpellLink( tooltipInfo.id )
+	ArkInventory.TooltipAddItemCount( tooltip, hyperlink )
+	
+end
+
 
 if TooltipDataProcessor then
-	TooltipDataProcessor.AddTooltipPostCall( Enum.TooltipDataType.Item, ArkInventory.TooltipProcessorAddItemCount )
+	TooltipDataProcessor.AddTooltipPostCall( Enum.TooltipDataType.Item, ArkInventory.TooltipProcessorSetItem )
+	TooltipDataProcessor.AddTooltipPostCall( Enum.TooltipDataType.Unit, ArkInventory.TooltipProcessorSetUnit )
+	TooltipDataProcessor.AddTooltipPostCall( Enum.TooltipDataType.Mount, ArkInventory.TooltipProcessorSetMount )
+	TooltipDataProcessor.AddTooltipPostCall( Enum.TooltipDataType.Toy, ArkInventory.TooltipProcessorSetToy )
+	TooltipDataProcessor.AddTooltipPostCall( Enum.TooltipDataType.Currency, ArkInventory.TooltipProcessorSetCurrency )
+	TooltipDataProcessor.AddTooltipPostCall( Enum.TooltipDataType.CompanionPet, ArkInventory.TooltipProcessorSetCompanionPet )
+	TooltipDataProcessor.AddTooltipPostCall( Enum.TooltipDataType.BattlePet, ArkInventory.TooltipProcessorSetBattlePet )
+	TooltipDataProcessor.AddTooltipPostCall( Enum.TooltipDataType.Spell, ArkInventory.TooltipProcessorSetSpell )
 end
-

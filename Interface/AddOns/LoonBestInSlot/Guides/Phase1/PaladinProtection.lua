@@ -22,8 +22,8 @@ LBIS:AddItem(spec, "40252", LBIS.L["Back"], "Alt Mit") --Cloak of the Shadowed S
 LBIS:AddItem(spec, "39225", LBIS.L["Back"], "Alt Mit") --Cloak of Armed Strife
 LBIS:AddItem(spec, "43988", LBIS.L["Back"], "Alt") --Gale-Proof Cloak
 
-LBIS:AddItem(spec, "40579", LBIS.L["Chest"], "BIS Mit") --Valorous Redemption Breastplate
 LBIS:AddItem(spec, "40625", LBIS.L["Chest"], "BIS Mit") --Breastplate of the Lost Conqueror
+LBIS:AddItem(spec, "40579", LBIS.L["Chest"], "BIS Mit") --Valorous Redemption Breastplate
 LBIS:AddItem(spec, "44000", LBIS.L["Chest"], "BIS") --Dragonstorm Breastplate
 LBIS:AddItem(spec, "39638", LBIS.L["Chest"], "Alt Mit") --Heroes' Redemption Breastplate
 LBIS:AddItem(spec, "40610", LBIS.L["Chest"], "Alt Mit") --Chestguard of the Lost Conqueror
@@ -40,6 +40,8 @@ LBIS:AddItem(spec, "40580", LBIS.L["Hands"], "BIS") --Valorous Redemption Handgu
 LBIS:AddItem(spec, "40628", LBIS.L["Hands"], "BIS") --Gauntlets of the Lost Conqueror
 LBIS:AddItem(spec, "39726", LBIS.L["Hands"], "BIS") --Callous-Hearted Gauntlets
 LBIS:AddItem(spec, "40188", LBIS.L["Hands"], "BIS Mit") --Gauntlets of the Disobedient
+LBIS:AddItem(spec, "39639", LBIS.L["Hands"], "Alt") --Heroes' Redemption Handguards
+LBIS:AddItem(spec, "40613", LBIS.L["Hands"], "Alt") --Gloves of the Lost Conqueror
 LBIS:AddItem(spec, "39197", LBIS.L["Hands"], "Alt") --Gauntlets of the Master
 
 LBIS:AddItem(spec, "39759", LBIS.L["Waist"], "BIS") --Ablative Chitin Girdle
@@ -66,8 +68,8 @@ LBIS:AddItem(spec, "39470", LBIS.L["Neck"], "Alt Mit") --Medallion of the Disgra
 LBIS:AddItem(spec, "44660", LBIS.L["Neck"], "Alt") --Drakescale Collar
 LBIS:AddItem(spec, "40069", LBIS.L["Neck"], "Alt") --Heritage
 
-LBIS:AddItem(spec, "40107", LBIS.L["Ring"], "BIS") --Sand-Worn Band
-LBIS:AddItem(spec, "40370", LBIS.L["Ring"], "BIS Mit") --Gatekeeper
+LBIS:AddItem(spec, "40107", LBIS.L["Ring"], "Alt") --Sand-Worn Band
+LBIS:AddItem(spec, "40370", LBIS.L["Ring"], "Alt Mit") --Gatekeeper
 LBIS:AddItem(spec, "40718", LBIS.L["Ring"], "Alt Thrt") --Signet of the Impregnable Fortress
 LBIS:AddItem(spec, "40426", LBIS.L["Ring"], "Alt") --Signet of the Accord
 LBIS:AddItem(spec, "39141", LBIS.L["Ring"], "Alt") --Deflection Band
@@ -75,7 +77,8 @@ LBIS:AddItem(spec, "39141", LBIS.L["Ring"], "Alt") --Deflection Band
 LBIS:AddItem(spec, "44063", LBIS.L["Trinket"], "BIS Stam") --Figurine - Monarch Crab
 LBIS:AddItem(spec, "37220", LBIS.L["Trinket"], "BIS Stam") --Essence of Gossamer
 LBIS:AddItem(spec, "42987", LBIS.L["Trinket"], "BIS Thrt") --Darkmoon Card: Greatness
-LBIS:AddItem(spec, "29387", LBIS.L["Trinket"], "Mit") --Gnomeregan Auto-Blocker 600
+LBIS:AddItem(spec, "40257", LBIS.L["Trinket"], "Alt Mit") --Defender's Code
+LBIS:AddItem(spec, "29387", LBIS.L["Trinket"], "Alt Mit") --Gnomeregan Auto-Blocker 600
 LBIS:AddItem(spec, "39292", LBIS.L["Trinket"], "Alt Mit") --Repelling Charge
 LBIS:AddItem(spec, "40683", LBIS.L["Trinket"], "Alt Mit") --Valor Medal of the First War
 LBIS:AddItem(spec, "40372", LBIS.L["Trinket"], "Alt Mit") --Rune of Repulsion
@@ -85,9 +88,9 @@ LBIS:AddItem(spec, "40345", LBIS.L["Main Hand"], "BIS Thrt") --Broken Promise
 LBIS:AddItem(spec, "37401", LBIS.L["Main Hand"], "Alt") --Red Sword of Courage
 LBIS:AddItem(spec, "39344", LBIS.L["Main Hand"], "Alt") --Slayer of the Lifeless
 
-LBIS:AddItem(spec, "40400", LBIS.L["Shield"], "BIS") --Wall of Terror
-LBIS:AddItem(spec, "39276", LBIS.L["Shield"], "Alt Mit") --The Skull of Ruin
-LBIS:AddItem(spec, "40266", LBIS.L["Shield"], "Alt") --Hero's Surrender
-LBIS:AddItem(spec, "40475", LBIS.L["Shield"], "Alt Thrt") --Barricade of Eternity
+LBIS:AddItem(spec, "40400", LBIS.L["Off Hand"], "BIS") --Wall of Terror
+LBIS:AddItem(spec, "39276", LBIS.L["Off Hand"], "Alt Mit") --The Skull of Ruin
+LBIS:AddItem(spec, "40266", LBIS.L["Off Hand"], "Alt") --Hero's Surrender
+LBIS:AddItem(spec, "40475", LBIS.L["Off Hand"], "Alt Thrt") --Barricade of Eternity
 
-LBIS:AddItem(spec, "40707", LBIS.L["Libram"], "BIS") --Libram of Obstruction
+LBIS:AddItem(spec, "40707", LBIS.L["Ranged/Relic"], "BIS") --Libram of Obstruction

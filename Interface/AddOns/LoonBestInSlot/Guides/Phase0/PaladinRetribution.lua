@@ -5,8 +5,8 @@ LBIS:AddItem(spec, "42552", LBIS.L["Head"], "Alt") --Charged Titanium Specs
 LBIS:AddItem(spec, "37237", LBIS.L["Head"], "Alt") --Chitin Shell Greathelm
 
 LBIS:AddItem(spec, "43481", LBIS.L["Shoulder"], "BIS") --Trollwoven Spaulders
-LBIS:AddItem(spec, "34388", LBIS.L["Shoulder"], "BIS") --Pauldrons of Berserking
-LBIS:AddItem(spec, "34192", LBIS.L["Shoulder"], "Transmute BIS") --Pauldrons of Perseverance
+LBIS:AddItem(spec, "34388", LBIS.L["Shoulder"], "Alt") --Pauldrons of Berserking
+LBIS:AddItem(spec, "34192", LBIS.L["Shoulder"], "Alt Transmute") --Pauldrons of Perseverance
 LBIS:AddItem(spec, "37139", LBIS.L["Shoulder"], "Alt") --Spaulders of the Careless Thief
 LBIS:AddItem(spec, "37679", LBIS.L["Shoulder"], "Alt") --Spaulders of the Abomination
 
@@ -15,8 +15,8 @@ LBIS:AddItem(spec, "43566", LBIS.L["Back"], "Alt") --Ice Striker's Cloak
 LBIS:AddItem(spec, "38614", LBIS.L["Back"], "Alt") --Embrace of Sorrow
 LBIS:AddItem(spec, "37840", LBIS.L["Back"], "Alt") --Shroud of Reverberation
 
-LBIS:AddItem(spec, "39633", LBIS.L["Chest"], "BIS") --Heroes' Redemption Chestpiece
 LBIS:AddItem(spec, "40610", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Conqueror
+LBIS:AddItem(spec, "39633", LBIS.L["Chest"], "BIS") --Heroes' Redemption Chestpiece
 LBIS:AddItem(spec, "34215", LBIS.L["Chest"], "Alt") --Warharness of Reckless Fury
 LBIS:AddItem(spec, "37722", LBIS.L["Chest"], "Alt") --Breastplate of Undeath
 LBIS:AddItem(spec, "37219", LBIS.L["Chest"], "Alt") --Custodian's Chestpiece
@@ -64,6 +64,6 @@ LBIS:AddItem(spec, "37852", LBIS.L["Two Hand"], "BIS") --Colossal Skull-Clad Cle
 LBIS:AddItem(spec, "41257", LBIS.L["Two Hand"], "BIS") --Titansteel Destroyer
 LBIS:AddItem(spec, "37653", LBIS.L["Two Hand"], "Alt") --Sword of Justice
 
-LBIS:AddItem(spec, "37574", LBIS.L["Libram"], "BIS") --Libram of Furious Blows
-LBIS:AddItem(spec, "33503", LBIS.L["Libram"], "BIS") --Libram of Divine Judgement
-LBIS:AddItem(spec, "27484", LBIS.L["Libram"], "Alt") --Libram of Avengement
+LBIS:AddItem(spec, "37574", LBIS.L["Ranged/Relic"], "BIS") --Libram of Furious Blows
+LBIS:AddItem(spec, "33503", LBIS.L["Ranged/Relic"], "Alt") --Libram of Divine Judgement
+LBIS:AddItem(spec, "27484", LBIS.L["Ranged/Relic"], "Alt") --Libram of Avengement

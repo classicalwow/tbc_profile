@@ -84,8 +84,8 @@ LBIS:AddItem(spec, "37883", LBIS.L["Two Hand"], "Alt") --Staff of Trickery
 LBIS:AddItem(spec, "36962", LBIS.L["Two Hand"], "Alt") --Wyrmclaw Battleaxe
 LBIS:AddItem(spec, "34198", LBIS.L["Two Hand"], "Alt") --Stanchion of Primal Instinct
 
-LBIS:AddItem(spec, "37191", LBIS.L["Ranged"], "BIS") --Drake-Mounted Crossbow
-LBIS:AddItem(spec, "44504", LBIS.L["Ranged"], "BIS") --Nesingwary 4000
-LBIS:AddItem(spec, "43284", LBIS.L["Ranged"], "Alt") --Amanitar Skullbow
-LBIS:AddItem(spec, "37692", LBIS.L["Ranged"], "Alt") --Pierce's Pistol
-LBIS:AddItem(spec, "34334", LBIS.L["Ranged"], "Alt") --Thori'dal, the Stars' Fury
+LBIS:AddItem(spec, "37191", LBIS.L["Ranged/Relic"], "BIS") --Drake-Mounted Crossbow
+LBIS:AddItem(spec, "44504", LBIS.L["Ranged/Relic"], "BIS") --Nesingwary 4000
+LBIS:AddItem(spec, "43284", LBIS.L["Ranged/Relic"], "Alt") --Amanitar Skullbow
+LBIS:AddItem(spec, "37692", LBIS.L["Ranged/Relic"], "Alt") --Pierce's Pistol
+LBIS:AddItem(spec, "34334", LBIS.L["Ranged/Relic"], "Alt") --Thori'dal, the Stars' Fury

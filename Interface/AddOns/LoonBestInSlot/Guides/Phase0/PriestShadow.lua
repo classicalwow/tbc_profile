@@ -11,7 +11,7 @@ LBIS:AddItem(spec, "42850", LBIS.L["Head"], "Alt") --Flamebringer's Crown
 LBIS:AddItem(spec, "37715", LBIS.L["Head"], "Alt") --Cowl of the Dire Troll
 LBIS:AddItem(spec, "44408", LBIS.L["Head"], "Alt") --Cowl of the Vindictive Captain
 
-LBIS:AddItem(spec, "34210", LBIS.L["Shoulder"], "BIS") --Amice of the Convoker
+LBIS:AddItem(spec, "34210", LBIS.L["Shoulder"], "Alt") --Amice of the Convoker
 LBIS:AddItem(spec, "37673", LBIS.L["Shoulder"], "Alt") --Dark Runic Mantle
 LBIS:AddItem(spec, "37196", LBIS.L["Shoulder"], "Alt") --Runecaster's Mantle
 LBIS:AddItem(spec, "41550", LBIS.L["Shoulder"], "Alt") --Duskweave Shoulders
@@ -23,8 +23,8 @@ LBIS:AddItem(spec, "44378", LBIS.L["Shoulder"], "Alt") --Mantle of the Flesh Gia
 
 LBIS:AddItem(spec, "41610", LBIS.L["Back"], "BIS") --Deathchill Cloak
 LBIS:AddItem(spec, "42064", LBIS.L["Back"], "Alt") --Deadly Gladiator's Cloak of Ascendancy
-LBIS:AddItem(spec, "42063", LBIS.L["Back"], "Alt") --Deadly Gladiator's Cloak of Subjugation
 LBIS:AddItem(spec, "42062", LBIS.L["Back"], "Alt") --Deadly Gladiator's Cloak of Dominance
+LBIS:AddItem(spec, "42063", LBIS.L["Back"], "Alt") --Deadly Gladiator's Cloak of Subjugation
 LBIS:AddItem(spec, "42066", LBIS.L["Back"], "Alt") --Deadly Gladiator's Cloak of Deliverance
 LBIS:AddItem(spec, "37291", LBIS.L["Back"], "Alt") --Ancient Dragon Spirit Cape
 LBIS:AddItem(spec, "34242", LBIS.L["Back"], "Alt") --Tattered Cape of Antonidas
@@ -95,7 +95,7 @@ LBIS:AddItem(spec, "41986", LBIS.L["Waist"], "Alt") --Deep Frozen Cord
 LBIS:AddItem(spec, "44104", LBIS.L["Waist"], "Alt") --Fishy Cinch
 LBIS:AddItem(spec, "39804", LBIS.L["Waist"], "Alt") --Braided Bat Sinew
 
-LBIS:AddItem(spec, "34181", LBIS.L["Legs"], "BIS") --Leggings of Calamity
+LBIS:AddItem(spec, "34181", LBIS.L["Legs"], "Alt") --Leggings of Calamity
 LBIS:AddItem(spec, "37854", LBIS.L["Legs"], "Alt") --Woven Bracae Leggings
 LBIS:AddItem(spec, "37369", LBIS.L["Legs"], "Alt") --Sorrowgrave's Breeches
 LBIS:AddItem(spec, "37189", LBIS.L["Legs"], "Alt") --Breeches of the Caller
@@ -184,10 +184,10 @@ LBIS:AddItem(spec, "37099", LBIS.L["Two Hand"], "Alt") --Sempiternal Staff
 LBIS:AddItem(spec, "41821", LBIS.L["Two Hand"], "Alt") --Chilly Slobberknocker
 LBIS:AddItem(spec, "44748", LBIS.L["Two Hand"], "Alt") --Stave of Youthful Sorrow
 
-LBIS:AddItem(spec, "37238", LBIS.L["Wand"], "BIS") --Rod of the Fallen Monarch
-LBIS:AddItem(spec, "37177", LBIS.L["Wand"], "Alt") --Wand of the San'layn
-LBIS:AddItem(spec, "37626", LBIS.L["Wand"], "Alt") --Wand of Sseratus
-LBIS:AddItem(spec, "44108", LBIS.L["Wand"], "Alt") --Shinygem Rod
-LBIS:AddItem(spec, "35617", LBIS.L["Wand"], "Alt") --Wand of Shimmering Scales
-LBIS:AddItem(spec, "38206", LBIS.L["Wand"], "Alt") --Wand of Blinding Light
-LBIS:AddItem(spec, "43186", LBIS.L["Wand"], "Alt") --Iceshrieker's Touch
+LBIS:AddItem(spec, "37238", LBIS.L["Ranged/Relic"], "BIS") --Rod of the Fallen Monarch
+LBIS:AddItem(spec, "37177", LBIS.L["Ranged/Relic"], "Alt") --Wand of the San'layn
+LBIS:AddItem(spec, "37626", LBIS.L["Ranged/Relic"], "Alt") --Wand of Sseratus
+LBIS:AddItem(spec, "44108", LBIS.L["Ranged/Relic"], "Alt") --Shinygem Rod
+LBIS:AddItem(spec, "35617", LBIS.L["Ranged/Relic"], "Alt") --Wand of Shimmering Scales
+LBIS:AddItem(spec, "38206", LBIS.L["Ranged/Relic"], "Alt") --Wand of Blinding Light
+LBIS:AddItem(spec, "43186", LBIS.L["Ranged/Relic"], "Alt") --Iceshrieker's Touch

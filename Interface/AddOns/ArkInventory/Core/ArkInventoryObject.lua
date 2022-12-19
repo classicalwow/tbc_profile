@@ -313,6 +313,7 @@ local function helper_UpdateObjectInfo( info, thread_id )
 			info.ready = false
 		end
 		
+		info.q = info.osd.q
 		info.ilvl = info.osd.level or 1
 		info.itemtypeid = ArkInventory.ENUM.ITEM.TYPE.BATTLEPET.PARENT
 		
@@ -364,7 +365,7 @@ local function helper_Scan_Threaded( thread_id )
 	
 	for hs in pairs( Queue ) do
 		
-		--ArkInventory.OutputDebug( "getting object data for ", hs )
+		--ArkInventory.Output( "getting object data for ", hs )
 		
 		local info = cacheGetObjectInfo[hs]
 		helper_UpdateObjectInfo( info )

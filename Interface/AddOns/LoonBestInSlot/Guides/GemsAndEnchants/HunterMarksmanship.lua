@@ -13,9 +13,9 @@ LBIS:AddGem(spec1, "49110", "4", "False") --Nightmare Tear
 LBIS:AddGem(spec1, "42702", "3", "False") --Enchanted Tear
 
 
-LBIS:AddEnchant(spec1, "50367", LBIS.L["Head"]) --Arcanum of Torment
+LBIS:AddEnchant(spec1, "44149", LBIS.L["Head"]) --Arcanum of Torment
 
-LBIS:AddEnchant(spec1, "44133", LBIS.L["Shoulder"]) --Greater Inscription of the Axe
+LBIS:AddEnchant(spec1, "50335", LBIS.L["Shoulder"]) --Greater Inscription of the Axe
 LBIS:AddEnchant(spec1, "28888", LBIS.L["Shoulder"]) --Greater Inscription of Vengeance
 
 LBIS:AddEnchant(spec1, "55002", LBIS.L["Back"]) --Flexweave Underlay
@@ -45,7 +45,7 @@ LBIS:AddEnchant(spec1, "60707", LBIS.L["Main Hand"]) --Enchant Weapon - Superior
 LBIS:AddEnchant(spec1, "60691", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Massacre
 LBIS:AddEnchant(spec1, "59619", LBIS.L["Two Hand"]) --Enchant Weapon - Accuracy
 
-LBIS:AddEnchant(spec1, "41167", LBIS.L["Ranged"]) --Heartseeker Scope
+LBIS:AddEnchant(spec1, "41167", LBIS.L["Ranged/Relic"]) --Heartseeker Scope
 
 LBIS:AddEnchant(spec1, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
 

@@ -1,13 +1,23 @@
-# 3.10.10 Alpha 2 (02-DEC-2022)
- - fixed - wrapped event registrations in pcalls to ensure missing changed events dont cause errors
- - fixed - red color code for unusable text in wrath
- - changed - the default has been changed to false for pre-loading the bag and bank data (it appears to be causing some weird issues)
- 
-# 3.10.10 Alpha 1 (01-DEC-2022)
- - fixed - (wrath/classic) issue with tooltip unusable red text detection
- - fixed - issue with item cache clear code
- - fixed - dragonriding mounts in azure span
+# 3.10.12 Alpha 3 (16-DEC-2022)
+ - updated - CallBackHandler embedded library
+ - fixed - item counts getting added to some tooltips
+ - fixed - reputation standing text and values for the new factions
  - updated - categorised some items
+ - updated - zone restrictions for dragonriding mounts
+ - changed - global yieldafter reverted from 5 to 25
+ - changed - currency update bucket timer default increased from 1 to 3 seconds
+ 
+# 3.10.12 Alpha 2 (11-DEC-2022)
+ - fixed - mount summon in the dragon isles with druid travel form enabled
+ - workaround - acknowledged the reagent bag tutorial so its popup wont open - if its already open then you'll need another reload for it to go away.
+ - changed - global yieldafter lowered from 25 to 5
+ - updated - categorised some items
+
+# 3.10.12 Alpha 1 (06-DEC-2022)
+ - fixed - battle pet quality borders
+ - fixed - (possibly) framelevel issue
+ - fixed - issue with GetContainerNumFreeSlots
+ 
  
 # known issues
  - (dragonflight) reagentbank slots are no longer readable unless the bank is open

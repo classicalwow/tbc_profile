@@ -55,8 +55,8 @@ LBIS:AddItem(spec, "40745", LBIS.L["Feet"], "Alt") --Sabatons of Rapid Recovery
 
 LBIS:AddItem(spec, "44661", LBIS.L["Neck"], "BIS") --Wyrmrest Necklace of Power
 LBIS:AddItem(spec, "44662", LBIS.L["Neck"], "BIS") --Life-Binder's Locket
-LBIS:AddItem(spec, "44658", LBIS.L["Neck"], "Alt") --Chain of the Ancient Wyrm
 LBIS:AddItem(spec, "44657", LBIS.L["Neck"], "Alt") --Torque of the Red Dragonflight
+LBIS:AddItem(spec, "44658", LBIS.L["Neck"], "Alt") --Chain of the Ancient Wyrm
 LBIS:AddItem(spec, "40374", LBIS.L["Neck"], "Alt") --Cosmic Lights
 LBIS:AddItem(spec, "40071", LBIS.L["Neck"], "Alt") --Chains of Adoration
 LBIS:AddItem(spec, "39232", LBIS.L["Neck"], "Alt") --Pendant of Lost Vocations
@@ -88,4 +88,4 @@ LBIS:AddItem(spec, "40401", LBIS.L["Off Hand"], "BIS") --Voice of Reason
 LBIS:AddItem(spec, "39716", LBIS.L["Off Hand"], "Alt") --Shield of Assimilation
 LBIS:AddItem(spec, "39233", LBIS.L["Off Hand"], "Alt") --Aegis of Damnation
 
-LBIS:AddItem(spec, "40705", LBIS.L["Libram"], "BIS") --Libram of Renewal
+LBIS:AddItem(spec, "40705", LBIS.L["Ranged/Relic"], "BIS") --Libram of Renewal

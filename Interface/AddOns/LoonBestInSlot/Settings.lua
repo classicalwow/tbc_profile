@@ -1,14 +1,16 @@
-LBISSettings = LBISSettings or 
-{ 
+LBISSettingsDefault =
+{
 	SelectedSpec = "", 
 	SelectedSlot = LBIS.L["All"], 
 	SelectedPhase = LBIS.L["All"], 
 	SelectedSourceType = LBIS.L["All"], 
 	SelectedZone = LBIS.L["All"], 
+	SelectedZoneNumber = LBIS.L["All"],
+	ShowCustom = false,
 	minimap = { 
 		hide = false, 
 		minimapPos = 180
-	}, 
+	},
 	Tooltip = {
 		[LBIS.L["Blood"]..LBIS.L["Death Knight"]] = true,
 		[LBIS.L["Frost"]..LBIS.L["Death Knight"]] = true,
@@ -41,16 +43,30 @@ LBISSettings = LBISSettings or
 		[LBIS.L["Arms"]..LBIS.L["Warrior"]] = true,
 		[LBIS.L["Fury"]..LBIS.L["Warrior"]] = true,
 		[LBIS.L["Protection"]..LBIS.L["Warrior"]] = true
+	},
+	PhaseTooltip = {
+		[LBIS.L["PreRaid"]] = true,
+		[LBIS.L["Phase 1"]] = true,
+		--[LBIS.L["Phase 2"]] = true,
+		--[LBIS.L["Phase 3"]] = true,
+		--[LBIS.L["Phase 4"]] = true,
+		--[LBIS.L["Phase 5"]] = true
 	}
-}
+};
 
+LBISServerSettingsDefault = 
+{
+	ItemCache = {},
+	CustomList = {},
+	LastCacheDate = nil,
+}
 
 local lbis_options = {
 	name = "Loon Best In Slot",
     handler = LBIS,
     type = "group",
     args = {		
-		spacer1 = {
+		spacer0 = {
 			type = "header",
 			name = LBIS.L["Settings"],
 			width = "full",
@@ -434,47 +450,68 @@ local lbis_options = {
 			width = 1.6,
 			order = 38,
 		},
+		spacer2 = {
+			type = "header",
+			name = "",
+			width = "full",
+			order = 39,
+		},
+		showPreRaid = {
+			type = "toggle",
+			name = LBIS.L["PreRaid"],
+			desc = LBIS.L["PreRaid"],
+			get = function(info) return LBISSettings.PhaseTooltip[LBIS.L["PreRaid"]] end,
+			set = function(info, val) LBISSettings.PhaseTooltip[LBIS.L["PreRaid"]] = val end,
+			width = 1.1,
+			order = 40,
+		},
+		showPhase1 = {
+			type = "toggle",
+			name = LBIS.L["Phase 1"],
+			desc = LBIS.L["Phase 1"],
+			get = function(info) return LBISSettings.PhaseTooltip[LBIS.L["Phase 1"]] end,
+			set = function(info, val) LBISSettings.PhaseTooltip[LBIS.L["Phase 1"]] = val end,
+			width = 1.1,
+			order = 41,
+		},
+		spacer2 = {
+			type = "header",
+			name = "",
+			width = "full",
+			order = 42,
+		},
+		show = {
+			type = "toggle",
+			name = "*BETA*:"..LBIS.L["Show Custom"],
+			desc = "*BETA*:"..LBIS.L["Show Custom"],
+			get = function(info) return LBISSettings.ShowCustom end,
+			set = function(info, val) LBISSettings.ShowCustom = val end,
+			width = 1.1,
+			order = 43,
+		},
 	}
 };
 
+-- This function will make sure your saved table contains all the same
+-- keys as your table, and that each key's value is of the same type
+-- as the value of the same key in the default table.
+local function CopyDefaults(src, dst)
+	if type(src) ~= "table" then return {} end
+	if type(dst) ~= "table" then dst = {} end
+	for k, v in pairs(src) do
+		if type(v) == "table" then
+			dst[k] = CopyDefaults(v, dst[k])
+		elseif type(v) ~= type(dst[k]) then
+			dst[k] = v
+		end
+	end
+	return dst
+end
+
 function LBIS:CreateSettings()
 
-	--TODO: Remove this after a certain amount of time
-	if LBISSettings.Tooltip == nil then
-		LBISSettings.Tooltip = {			
-				[LBIS.L["Blood"]..LBIS.L["Death Knight"]] = true,
-				[LBIS.L["Frost"]..LBIS.L["Death Knight"]] = true,
-				[LBIS.L["Unholy"]..LBIS.L["Death Knight"]] = true,
-				[LBIS.L["Balance"]..LBIS.L["Druid"]] = true,
-				[LBIS.L["Bear"]..LBIS.L["Druid"]] = true,
-				[LBIS.L["Cat"]..LBIS.L["Druid"]] = true,
-				[LBIS.L["Restoration"]..LBIS.L["Druid"]] = true,
-				[LBIS.L["Beast Mastery"]..LBIS.L["Hunter"]] = true,
-				[LBIS.L["Marksmanship"]..LBIS.L["Hunter"]] = true,
-				[LBIS.L["Survival"]..LBIS.L["Hunter"]] = true,
-				[LBIS.L["Arcane"]..LBIS.L["Mage"]] = true,
-				[LBIS.L["Fire"]..LBIS.L["Mage"]] = true,
-				[LBIS.L["Frost"]..LBIS.L["Mage"]] = true,
-				[LBIS.L["Holy"]..LBIS.L["Paladin"]] = true,
-				[LBIS.L["Protection"]..LBIS.L["Paladin"]] = true,
-				[LBIS.L["Retribution"]..LBIS.L["Paladin"]] = true,
-				[LBIS.L["Discipline"]..LBIS.L["Priest"]] = true,
-				[LBIS.L["Holy"]..LBIS.L["Priest"]] = true,
-				[LBIS.L["Shadow"]..LBIS.L["Priest"]] = true,
-				[LBIS.L["Assassination"]..LBIS.L["Rogue"]] = true,
-				[LBIS.L["Combat"]..LBIS.L["Rogue"]] = true,
-				[LBIS.L["Subtlety"]..LBIS.L["Rogue"]] = true,
-				[LBIS.L["Elemental"]..LBIS.L["Shaman"]] = true,
-				[LBIS.L["Enhancement"]..LBIS.L["Shaman"]] = true,
-				[LBIS.L["Restoration"]..LBIS.L["Shaman"]] = true,
-				[LBIS.L["Affliction"]..LBIS.L["Warlock"]] = true,
-				[LBIS.L["Demonology"]..LBIS.L["Warlock"]] = true,
-				[LBIS.L["Destruction"]..LBIS.L["Warlock"]] = true,
-				[LBIS.L["Arms"]..LBIS.L["Warrior"]] = true,
-				[LBIS.L["Fury"]..LBIS.L["Warrior"]] = true,
-				[LBIS.L["Protection"]..LBIS.L["Warrior"]] = true
-		}
-	end
+	LBISSettings = CopyDefaults(LBISSettingsDefault, LBISSettings);
+	LBISServerSettings = CopyDefaults(LBISServerSettingsDefault, LBISServerSettings);
 
 	LibStub("AceConfig-3.0"):RegisterOptionsTable("Loon Best In Slot", lbis_options, nil)
 	LibStub("AceConfigDialog-3.0"):AddToBlizOptions("Loon Best In Slot"):SetParent(InterfaceOptionsFramePanelContainer)

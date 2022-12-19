@@ -43,23 +43,23 @@ LBIS:AddItem(spec, "44203", LBIS.L["Wrist"], "Alt") --Dragonfriend Bracers
 
 LBIS:AddItem(spec, "40541", LBIS.L["Hands"], "BIS") --Frosted Adroit Handguards
 LBIS:AddItem(spec, "39727", LBIS.L["Hands"], "Alt") --Dislocating Handguards
-LBIS:AddItem(spec, "40496", LBIS.L["Hands"], "Alt") --Valorous Bonescythe Gauntlets
 LBIS:AddItem(spec, "40630", LBIS.L["Hands"], "Alt") --Gauntlets of the Lost Vanquisher
+LBIS:AddItem(spec, "40496", LBIS.L["Hands"], "Alt") --Valorous Bonescythe Gauntlets
 LBIS:AddItem(spec, "40362", LBIS.L["Hands"], "Alt") --Gloves of Fast Reactions
 LBIS:AddItem(spec, "39299", LBIS.L["Hands"], "Alt") --Rapid Attack Gloves
 LBIS:AddItem(spec, "39560", LBIS.L["Hands"], "Alt") --Heroes' Bonescythe Gauntlets
 LBIS:AddItem(spec, "40615", LBIS.L["Hands"], "Alt") --Gloves of the Lost Vanquisher
 
+LBIS:AddItem(spec, "40205", LBIS.L["Waist"], "BIS") --Stalk-Skin Belt
+LBIS:AddItem(spec, "40260", LBIS.L["Waist"], "BIS") --Belt of the Tortured
 LBIS:AddItem(spec, "34558", LBIS.L["Waist"], "BIS") --Slayer's Belt
 LBIS:AddItem(spec, "34855", LBIS.L["Waist"], "BIS") --Belt of the Forgotten Vanquisher
-LBIS:AddItem(spec, "40260", LBIS.L["Waist"], "BIS") --Belt of the Tortured
-LBIS:AddItem(spec, "40205", LBIS.L["Waist"], "Alt") --Stalk-Skin Belt
 LBIS:AddItem(spec, "40694", LBIS.L["Waist"], "Alt") --Jorach's Crocolisk Skin Belt
 LBIS:AddItem(spec, "39279", LBIS.L["Waist"], "Alt") --Blistered Belt of Decay
 
 LBIS:AddItem(spec, "44011", LBIS.L["Legs"], "BIS") --Leggings of the Honored
-LBIS:AddItem(spec, "40500", LBIS.L["Legs"], "Alt") --Valorous Bonescythe Legplates
 LBIS:AddItem(spec, "40636", LBIS.L["Legs"], "Alt") --Legplates of the Lost Vanquisher
+LBIS:AddItem(spec, "40500", LBIS.L["Legs"], "Alt") --Valorous Bonescythe Legplates
 LBIS:AddItem(spec, "39761", LBIS.L["Legs"], "Alt") --Infectious Skitterer Leggings
 LBIS:AddItem(spec, "40333", LBIS.L["Legs"], "Alt") --Leggings of Fleeting Moments
 LBIS:AddItem(spec, "39224", LBIS.L["Legs"], "Alt") --Leggings of Discord
@@ -111,10 +111,10 @@ LBIS:AddItem(spec, "40368", LBIS.L["Off Hand"], "Alt") --Murder
 LBIS:AddItem(spec, "40491", LBIS.L["Off Hand"], "Alt") --Hailstorm
 LBIS:AddItem(spec, "39427", LBIS.L["Off Hand"], "Alt") --Omen of Ruin
 
-LBIS:AddItem(spec, "40385", LBIS.L["Ranged"], "BIS") --Envoy of Mortality
-LBIS:AddItem(spec, "40190", LBIS.L["Ranged"], "Alt") --Spinning Fate
-LBIS:AddItem(spec, "40346", LBIS.L["Ranged"], "Alt") --Final Voyage
-LBIS:AddItem(spec, "40265", LBIS.L["Ranged"], "Alt") --Arrowsong
-LBIS:AddItem(spec, "39419", LBIS.L["Ranged"], "Alt") --Nerubian Conquerer
-LBIS:AddItem(spec, "39296", LBIS.L["Ranged"], "Alt") --Accursed Bow of the Elite
-LBIS:AddItem(spec, "37191", LBIS.L["Ranged"], "Alt") --Drake-Mounted Crossbow
+LBIS:AddItem(spec, "40385", LBIS.L["Ranged/Relic"], "BIS") --Envoy of Mortality
+LBIS:AddItem(spec, "40190", LBIS.L["Ranged/Relic"], "Alt") --Spinning Fate
+LBIS:AddItem(spec, "40346", LBIS.L["Ranged/Relic"], "Alt") --Final Voyage
+LBIS:AddItem(spec, "40265", LBIS.L["Ranged/Relic"], "Alt") --Arrowsong
+LBIS:AddItem(spec, "39419", LBIS.L["Ranged/Relic"], "Alt") --Nerubian Conquerer
+LBIS:AddItem(spec, "39296", LBIS.L["Ranged/Relic"], "Alt") --Accursed Bow of the Elite
+LBIS:AddItem(spec, "37191", LBIS.L["Ranged/Relic"], "Alt") --Drake-Mounted Crossbow

@@ -19,8 +19,8 @@ LBIS:AddItem(spec, "43406", LBIS.L["Back"], "Alt") --Cloak of the Gushing Wound
 
 LBIS:AddItem(spec, "43998", LBIS.L["Chest"], "BIS") --Chestguard of Flagrant Prowess
 LBIS:AddItem(spec, "40193", LBIS.L["Chest"], "Alt") --Tunic of Masked Suffering
-LBIS:AddItem(spec, "40503", LBIS.L["Chest"], "Alt") --Valorous Cryptstalker Tunic
 LBIS:AddItem(spec, "40626", LBIS.L["Chest"], "Alt") --Breastplate of the Lost Protector
+LBIS:AddItem(spec, "40503", LBIS.L["Chest"], "Alt") --Valorous Cryptstalker Tunic
 LBIS:AddItem(spec, "39579", LBIS.L["Chest"], "Alt") --Heroes' Cryptstalker Tunic
 LBIS:AddItem(spec, "40611", LBIS.L["Chest"], "Alt") --Chestguard of the Lost Protector
 
@@ -77,9 +77,9 @@ LBIS:AddItem(spec, "40208", LBIS.L["Two Hand"], "Alt") --Cryptfiend's Bite
 LBIS:AddItem(spec, "40497", LBIS.L["Two Hand"], "Alt") --Black Ice
 LBIS:AddItem(spec, "44249", LBIS.L["Two Hand"], "Alt") --Runeblade of Demonstrable Power
 
-LBIS:AddItem(spec, "40385", LBIS.L["Ranged"], "BIS") --Envoy of Mortality
-LBIS:AddItem(spec, "40265", LBIS.L["Ranged"], "Alt") --Arrowsong
-LBIS:AddItem(spec, "39419", LBIS.L["Ranged"], "Alt") --Nerubian Conquerer
-LBIS:AddItem(spec, "40346", LBIS.L["Ranged"], "Alt") --Final Voyage
-LBIS:AddItem(spec, "37191", LBIS.L["Ranged"], "Alt") --Drake-Mounted Crossbow
-LBIS:AddItem(spec, "44504", LBIS.L["Ranged"], "Alt") --Nesingwary 4000
+LBIS:AddItem(spec, "40385", LBIS.L["Ranged/Relic"], "BIS") --Envoy of Mortality
+LBIS:AddItem(spec, "40265", LBIS.L["Ranged/Relic"], "Alt") --Arrowsong
+LBIS:AddItem(spec, "39419", LBIS.L["Ranged/Relic"], "Alt") --Nerubian Conquerer
+LBIS:AddItem(spec, "40346", LBIS.L["Ranged/Relic"], "Alt") --Final Voyage
+LBIS:AddItem(spec, "37191", LBIS.L["Ranged/Relic"], "Alt") --Drake-Mounted Crossbow
+LBIS:AddItem(spec, "44504", LBIS.L["Ranged/Relic"], "Alt") --Nesingwary 4000

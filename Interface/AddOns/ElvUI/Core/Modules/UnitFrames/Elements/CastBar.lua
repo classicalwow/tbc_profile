@@ -19,10 +19,11 @@ local ticks = {}
 
 do
 	local pipMapColor = {4, 1, 2, 3}
-	function UF:CastBar_UpdatePip(pip, stage, texture)
-		local color = UF.db.colors.empoweredCast[pipMapColor[stage]]
-		pip.texture:SetVertexColor(color.r, color.g, color.b, pip.pipAlpha)
-		pip.texture:SetTexture(texture)
+	function UF:CastBar_UpdatePip(castbar, pip, stage)
+		if castbar.pipColor then
+			local color = castbar.pipColor[pipMapColor[stage]]
+			pip.texture:SetVertexColor(color.r, color.g, color.b, pip.pipAlpha)
+		end
 	end
 
 	local pipMapAlpha = {2, 3, 4, 1}
@@ -70,21 +71,34 @@ end
 function UF:CreatePip(stage)
 	local pip = CreateFrame('Frame', nil, self, 'CastingBarFrameStagePipTemplate')
 
+	-- clear the original art (the line)
 	pip.BasePip:SetAlpha(0)
 
+	-- create the texture
 	pip.texture = pip:CreateTexture(nil, 'ARTWORK', nil, 2)
 	pip.texture:Point('BOTTOM')
 	pip.texture:Point('TOP')
 
+	-- values for the animation
 	pip.pipStart = 1.0 -- alpha on hit
 	pip.pipAlpha = 0.3 -- alpha on init
 	pip.pipFaded = 0.6 -- alpha when passed
 	pip.pipTimer = 0.4 -- fading time to passed
 
-	UF.statusbars[pip.texture] = true
+	-- self is the castbar
+	if self.ModuleStatusBars then
+		self.ModuleStatusBars[pip.texture] = true
+	end
 
-	UF:CastBar_UpdatePip(pip, stage, LSM:Fetch('statusbar', UF.db.statusbar))
+	-- update colors
+	UF:CastBar_UpdatePip(self, pip, stage)
 
+	return pip
+end
+
+function UF:BuildPip(stage)
+	local pip = UF.CreatePip(self, stage)
+	UF:Update_StatusBar(pip.texture)
 	return pip
 end
 
@@ -93,6 +107,8 @@ function UF:Construct_Castbar(frame, moverName)
 	castbar:SetFrameLevel(frame.RaisedElementParent.CastBarLevel)
 
 	UF.statusbars[castbar] = true
+	castbar.ModuleStatusBars = UF.statusbars -- not oUF
+
 	castbar.CustomDelayText = UF.CustomCastDelayText
 	castbar.CustomTimeText = UF.CustomTimeText
 	castbar.PostCastStart = UF.PostCastStart
@@ -101,7 +117,7 @@ function UF:Construct_Castbar(frame, moverName)
 	castbar.PostCastFail = UF.PostCastFail
 	castbar.UpdatePipStep = UF.UpdatePipStep
 	castbar.PostUpdatePip = UF.PostUpdatePip
-	castbar.CreatePip = UF.CreatePip
+	castbar.CreatePip = UF.BuildPip
 
 	castbar:SetClampedToScreen(true)
 	castbar:CreateBackdrop(nil, nil, nil, nil, true)
@@ -186,9 +202,9 @@ function UF:Configure_Castbar(frame)
 	end
 
 	--Empowered
-	local pipTexture = LSM:Fetch('statusbar', UF.db.statusbar)
+	castbar.pipColor = UF.db.colors.empoweredCast
 	for stage, pip in next, castbar.Pips do
-		UF:CastBar_UpdatePip(pip, stage, pipTexture)
+		UF:CastBar_UpdatePip(castbar, pip, stage)
 	end
 
 	--Latency

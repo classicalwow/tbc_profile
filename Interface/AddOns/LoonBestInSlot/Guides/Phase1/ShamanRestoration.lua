@@ -87,7 +87,9 @@ LBIS:AddItem(spec, "39244", LBIS.L["Ring"], "Alt") --Ring of the Fated
 
 LBIS:AddItem(spec, "40432", LBIS.L["Trinket"], "BIS") --Illustration of the Dragon Soul
 LBIS:AddItem(spec, "37111", LBIS.L["Trinket"], "BIS") --Soul Preserver
+LBIS:AddItem(spec, "39229", LBIS.L["Trinket"], "BIS") --Embrace of the Spider
 LBIS:AddItem(spec, "40685", LBIS.L["Trinket"], "BIS") --The Egg of Mortal Essence
+LBIS:AddItem(spec, "40258", LBIS.L["Trinket"], "Alt") --Forethought Talisman
 LBIS:AddItem(spec, "40382", LBIS.L["Trinket"], "Alt") --Soul of the Dead
 
 LBIS:AddItem(spec, "40395", LBIS.L["Main Hand"], "BIS") --Torch of Holy Fire
@@ -100,4 +102,4 @@ LBIS:AddItem(spec, "39716", LBIS.L["Off Hand"], "Alt") --Shield of Assimilation
 LBIS:AddItem(spec, "39233", LBIS.L["Off Hand"], "Alt") --Aegis of Damnation
 LBIS:AddItem(spec, "40700", LBIS.L["Off Hand"], "Alt") --Protective Barricade of the Light
 
-LBIS:AddItem(spec, "40709", LBIS.L["Totem"], "BIS") --Totem of Forest Growth
+LBIS:AddItem(spec, "40709", LBIS.L["Ranged/Relic"], "BIS") --Totem of Forest Growth

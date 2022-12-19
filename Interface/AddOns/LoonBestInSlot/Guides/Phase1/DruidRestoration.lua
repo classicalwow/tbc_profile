@@ -12,8 +12,8 @@ LBIS:AddItem(spec, "40063", LBIS.L["Shoulder"], "Alt") --Mantle of Shattered Kin
 LBIS:AddItem(spec, "40465", LBIS.L["Shoulder"], "Alt") --Valorous Dreamwalker Spaulders
 LBIS:AddItem(spec, "40639", LBIS.L["Shoulder"], "Alt") --Mantle of the Lost Vanquisher
 LBIS:AddItem(spec, "40286", LBIS.L["Shoulder"], "Alt") --Mantle of the Corrupted
-LBIS:AddItem(spec, "39542", LBIS.L["Shoulder"], "Alt") --Heroes' Dreamwalker Spaulders
 LBIS:AddItem(spec, "40624", LBIS.L["Shoulder"], "Alt") --Spaulders of the Lost Vanquisher
+LBIS:AddItem(spec, "39542", LBIS.L["Shoulder"], "Alt") --Heroes' Dreamwalker Spaulders
 LBIS:AddItem(spec, "39310", LBIS.L["Shoulder"], "Alt") --Mantle of the Extensive Mind
 LBIS:AddItem(spec, "40594", LBIS.L["Shoulder"], "Alt") --Spaulders of Catatonia
 LBIS:AddItem(spec, "40439", LBIS.L["Shoulder"], "Alt") --Mantle of the Eternal Sentinel
@@ -101,15 +101,15 @@ LBIS:AddItem(spec, "39423", LBIS.L["Main Hand"], "Alt") --Hammer of the Astral P
 LBIS:AddItem(spec, "39424", LBIS.L["Main Hand"], "Alt") --The Soulblade
 LBIS:AddItem(spec, "40244", LBIS.L["Main Hand"], "Alt") --The Impossible Dream
 
+LBIS:AddItem(spec, "39766", LBIS.L["Off Hand"], "BIS") --Matriarch's Spawn
+LBIS:AddItem(spec, "40699", LBIS.L["Off Hand"], "Alt") --Handbook of Obscure Remedies
+LBIS:AddItem(spec, "40273", LBIS.L["Off Hand"], "Alt") --Surplus Limb
+
 LBIS:AddItem(spec, "40300", LBIS.L["Two Hand"], "BIS") --Spire of Sunset
 LBIS:AddItem(spec, "40489", LBIS.L["Two Hand"], "Alt") --Greatstaff of the Nexus
 LBIS:AddItem(spec, "44419", LBIS.L["Two Hand"], "Alt") --Deadly Gladiator's War Staff
 LBIS:AddItem(spec, "39394", LBIS.L["Two Hand"], "Alt") --Charmed Cierge
 LBIS:AddItem(spec, "37360", LBIS.L["Two Hand"], "Alt") --Staff of Draconic Combat
 
-LBIS:AddItem(spec, "39766", LBIS.L["Off Hand"], "BIS") --Matriarch's Spawn
-LBIS:AddItem(spec, "40699", LBIS.L["Off Hand"], "Alt") --Handbook of Obscure Remedies
-LBIS:AddItem(spec, "40273", LBIS.L["Off Hand"], "Alt") --Surplus Limb
-
-LBIS:AddItem(spec, "40342", LBIS.L["Idol"], "BIS") --Idol of Awakening
-LBIS:AddItem(spec, "33508", LBIS.L["Idol"], "Alt") --Idol of Budding Life
+LBIS:AddItem(spec, "40342", LBIS.L["Ranged/Relic"], "BIS") --Idol of Awakening
+LBIS:AddItem(spec, "33508", LBIS.L["Ranged/Relic"], "Alt") --Idol of Budding Life

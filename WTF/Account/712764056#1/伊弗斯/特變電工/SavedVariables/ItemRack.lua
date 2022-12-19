@@ -266,5 +266,5 @@ ItemRackUser = {
 	["Buttons"] = {
 	},
 	["MenuScale"] = 0.85,
-	["CurrentSet"] = "pvp",
+	["CurrentSet"] = "武器戰",
 }

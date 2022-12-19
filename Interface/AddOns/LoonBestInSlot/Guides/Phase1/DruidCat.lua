@@ -9,8 +9,8 @@ LBIS:AddItem(spec, "40618", LBIS.L["Head"], "Alt") --Helm of the Lost Vanquisher
 LBIS:AddItem(spec, "42550", LBIS.L["Head"], "Alt") --Weakness Spectralizers
 
 LBIS:AddItem(spec, "40437", LBIS.L["Shoulder"], "BIS") --Concealment Shoulderpads
-LBIS:AddItem(spec, "40494", LBIS.L["Shoulder"], "BIS") --Valorous Dreamwalker Shoulderpads
 LBIS:AddItem(spec, "40639", LBIS.L["Shoulder"], "BIS") --Mantle of the Lost Vanquisher
+LBIS:AddItem(spec, "40494", LBIS.L["Shoulder"], "BIS") --Valorous Dreamwalker Shoulderpads
 LBIS:AddItem(spec, "40305", LBIS.L["Shoulder"], "Alt") --Spaulders of Egotism
 LBIS:AddItem(spec, "39237", LBIS.L["Shoulder"], "Alt") --Spaulders of Resumed Battle
 LBIS:AddItem(spec, "39556", LBIS.L["Shoulder"], "Alt") --Heroes' Dreamwalker Shoulderpads
@@ -89,5 +89,5 @@ LBIS:AddItem(spec, "40406", LBIS.L["Two Hand"], "Alt") --Inevitable Defeat
 LBIS:AddItem(spec, "40208", LBIS.L["Two Hand"], "Alt") --Cryptfiend's Bite
 LBIS:AddItem(spec, "39758", LBIS.L["Two Hand"], "Alt") --The Jawbone
 
-LBIS:AddItem(spec, "39757", LBIS.L["Idol"], "BIS") --Idol of Worship
-LBIS:AddItem(spec, "40713", LBIS.L["Idol"], "Alt") --Idol of the Ravenous Beast
+LBIS:AddItem(spec, "39757", LBIS.L["Ranged/Relic"], "BIS") --Idol of Worship
+LBIS:AddItem(spec, "40713", LBIS.L["Ranged/Relic"], "Alt") --Idol of the Ravenous Beast

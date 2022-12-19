@@ -2,7 +2,7 @@ local spec = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "0")
 
 LBIS:AddItem(spec, "42549", LBIS.L["Head"], "BIS") --Armored Titanium Goggles
 LBIS:AddItem(spec, "34401", LBIS.L["Head"], "Alt") --Helm of Uther's Resolve
-LBIS:AddItem(spec, "34243", LBIS.L["Head"], "Transmute Alt") --Helm of Burning Righteousness
+LBIS:AddItem(spec, "34243", LBIS.L["Head"], "Alt Transmute") --Helm of Burning Righteousness
 LBIS:AddItem(spec, "37633", LBIS.L["Head"], "Alt") --Ground Tremor Helm
 LBIS:AddItem(spec, "36969", LBIS.L["Head"], "Alt") --Helm of the Ley-Guardian
 LBIS:AddItem(spec, "37135", LBIS.L["Head"], "Alt") --Arcane-Shielded Helm
@@ -10,7 +10,7 @@ LBIS:AddItem(spec, "41387", LBIS.L["Head"], "Alt") --Tempered Titansteel Helm
 LBIS:AddItem(spec, "44040", LBIS.L["Head"], "Alt") --The Crusader's Resolution
 
 LBIS:AddItem(spec, "34389", LBIS.L["Shoulder"], "BIS") --Spaulders of the Thalassian Defender
-LBIS:AddItem(spec, "34193", LBIS.L["Shoulder"], "Transmute BIS") --Spaulders of the Thalassian Savior
+LBIS:AddItem(spec, "34193", LBIS.L["Shoulder"], "BIS Transmute") --Spaulders of the Thalassian Savior
 LBIS:AddItem(spec, "44312", LBIS.L["Shoulder"], "BIS") --Wapach's Spaulders of Solidarity
 LBIS:AddItem(spec, "34192", LBIS.L["Shoulder"], "BIS") --Pauldrons of Perseverance
 LBIS:AddItem(spec, "37814", LBIS.L["Shoulder"], "Alt") --Iron Dwarf Smith Pauldrons
@@ -53,9 +53,9 @@ LBIS:AddItem(spec, "37826", LBIS.L["Waist"], "Alt") --The General's Steel Girdle
 LBIS:AddItem(spec, "43500", LBIS.L["Legs"], "BIS") --Bolstered Legplates
 LBIS:AddItem(spec, "37292", LBIS.L["Legs"], "Alt") --Ley-Guardian's Legguards
 LBIS:AddItem(spec, "34382", LBIS.L["Legs"], "Alt") --Judicator's Legguards
-LBIS:AddItem(spec, "34167", LBIS.L["Legs"], "Transmute Alt") --Legplates of the Holy Juggernaut
+LBIS:AddItem(spec, "34167", LBIS.L["Legs"], "Alt Transmute") --Legplates of the Holy Juggernaut
 LBIS:AddItem(spec, "34381", LBIS.L["Legs"], "Alt") --Felstrength Legplates
-LBIS:AddItem(spec, "34180", LBIS.L["Legs"], "Transmute Alt") --Felfury Legplates
+LBIS:AddItem(spec, "34180", LBIS.L["Legs"], "Alt Transmute") --Felfury Legplates
 LBIS:AddItem(spec, "37688", LBIS.L["Legs"], "Alt") --Legplates of the Infinite Drakonid
 LBIS:AddItem(spec, "44240", LBIS.L["Legs"], "Alt") --Special Issue Legplates
 
@@ -65,8 +65,8 @@ LBIS:AddItem(spec, "44201", LBIS.L["Feet"], "Alt Mit") --Sabatons of Draconic Vi
 LBIS:AddItem(spec, "44243", LBIS.L["Feet"], "Alt") --Toxin-Tempered Sabatons
 LBIS:AddItem(spec, "37082", LBIS.L["Feet"], "Alt") --Slaughterhouse Sabatons
 
-LBIS:AddItem(spec, "37646", LBIS.L["Neck"], "BIS") --Burning Skull Pendant
-LBIS:AddItem(spec, "40679", LBIS.L["Neck"], "BIS") --Chained Military Gorget
+LBIS:AddItem(spec, "37646", LBIS.L["Neck"], "Alt") --Burning Skull Pendant
+LBIS:AddItem(spec, "40679", LBIS.L["Neck"], "Alt") --Chained Military Gorget
 LBIS:AddItem(spec, "42646", LBIS.L["Neck"], "Alt") --Titanium Earthguard Chain
 LBIS:AddItem(spec, "43282", LBIS.L["Neck"], "Alt Mit") --Shadowseeker's Pendant
 LBIS:AddItem(spec, "37689", LBIS.L["Neck"], "Alt") --Pendant of the Nathrezim
@@ -107,19 +107,19 @@ LBIS:AddItem(spec, "44735", LBIS.L["Main Hand"], "Alt") --Crescent of Brooding F
 LBIS:AddItem(spec, "44734", LBIS.L["Main Hand"], "Alt") --Hammer of Quiet Mourning
 LBIS:AddItem(spec, "44745", LBIS.L["Main Hand"], "Alt") --Blade of the Empty Void
 
-LBIS:AddItem(spec, "43085", LBIS.L["Shield"], "BIS") --Royal Crest of Lordaeron
-LBIS:AddItem(spec, "40701", LBIS.L["Shield"], "BIS") --Crygil's Discarded Plate Panel
-LBIS:AddItem(spec, "42508", LBIS.L["Shield"], "BIS Mit") --Titansteel Shield Wall
-LBIS:AddItem(spec, "37162", LBIS.L["Shield"], "Alt") --Bulwark of the Noble Protector
-LBIS:AddItem(spec, "35642", LBIS.L["Shield"], "Alt") --Riot Shield
-LBIS:AddItem(spec, "37107", LBIS.L["Shield"], "Alt") --Leeka's Shield
-LBIS:AddItem(spec, "34185", LBIS.L["Shield"], "Alt") --Sword Breaker's Bulwark
-LBIS:AddItem(spec, "41113", LBIS.L["Shield"], "Alt") --Saronite Bulwark
+LBIS:AddItem(spec, "43085", LBIS.L["Off Hand"], "BIS") --Royal Crest of Lordaeron
+LBIS:AddItem(spec, "40701", LBIS.L["Off Hand"], "BIS") --Crygil's Discarded Plate Panel
+LBIS:AddItem(spec, "42508", LBIS.L["Off Hand"], "BIS Mit") --Titansteel Shield Wall
+LBIS:AddItem(spec, "37162", LBIS.L["Off Hand"], "Alt") --Bulwark of the Noble Protector
+LBIS:AddItem(spec, "35642", LBIS.L["Off Hand"], "Alt") --Riot Shield
+LBIS:AddItem(spec, "37107", LBIS.L["Off Hand"], "Alt") --Leeka's Shield
+LBIS:AddItem(spec, "34185", LBIS.L["Off Hand"], "Alt") --Sword Breaker's Bulwark
+LBIS:AddItem(spec, "41113", LBIS.L["Off Hand"], "Alt") --Saronite Bulwark
 
-LBIS:AddItem(spec, "41168", LBIS.L["Ranged"], "BIS") --Armor Plated Combat Shotgun
-LBIS:AddItem(spec, "44118", LBIS.L["Ranged"], "Alt") --Stolen Vrykul Harpoon
-LBIS:AddItem(spec, "40716", LBIS.L["Ranged"], "Alt") --Lillehoff's Winged Blades
-LBIS:AddItem(spec, "43284", LBIS.L["Ranged"], "Alt") --Amanitar Skullbow
-LBIS:AddItem(spec, "37615", LBIS.L["Ranged"], "Alt") --Titanium Compound Bow
-LBIS:AddItem(spec, "43187", LBIS.L["Ranged"], "Alt Mit") --Weighted Throwing Axe
-LBIS:AddItem(spec, "42863", LBIS.L["Ranged"], "Alt") --Sharpened Hyldnir Harpoon
+LBIS:AddItem(spec, "41168", LBIS.L["Ranged/Relic"], "BIS") --Armor Plated Combat Shotgun
+LBIS:AddItem(spec, "44118", LBIS.L["Ranged/Relic"], "Alt") --Stolen Vrykul Harpoon
+LBIS:AddItem(spec, "40716", LBIS.L["Ranged/Relic"], "Alt") --Lillehoff's Winged Blades
+LBIS:AddItem(spec, "43284", LBIS.L["Ranged/Relic"], "Alt") --Amanitar Skullbow
+LBIS:AddItem(spec, "37615", LBIS.L["Ranged/Relic"], "Alt") --Titanium Compound Bow
+LBIS:AddItem(spec, "43187", LBIS.L["Ranged/Relic"], "Alt Mit") --Weighted Throwing Axe
+LBIS:AddItem(spec, "42863", LBIS.L["Ranged/Relic"], "Alt") --Sharpened Hyldnir Harpoon

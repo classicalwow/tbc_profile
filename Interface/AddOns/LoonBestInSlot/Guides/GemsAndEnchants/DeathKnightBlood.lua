@@ -27,7 +27,7 @@ LBIS:AddGem(spec1, "40088", "3", "False") --Vivid Forest Emerald
 LBIS:AddGem(spec1, "41481", "2", "False") --Perfect Vivid Dark Jade
 
 
-LBIS:AddEnchant(spec1, "44878", LBIS.L["Head"]) --Arcanum of the Stalwart Protector
+LBIS:AddEnchant(spec1, "50369", LBIS.L["Head"]) --Arcanum of the Stalwart Protector
 LBIS:AddEnchant(spec1, "44875", LBIS.L["Head"]) --Arcanum of the Savage Gladiator
 
 LBIS:AddEnchant(spec1, "44957", LBIS.L["Shoulder"]) --Greater Inscription of the Gladiator
@@ -36,6 +36,7 @@ LBIS:AddEnchant(spec1, "47672", LBIS.L["Back"]) --Formula: Enchant Cloak - Might
 LBIS:AddEnchant(spec1, "44591", LBIS.L["Back"]) --Formula: Enchant Cloak - Titanweave
 LBIS:AddEnchant(spec1, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility
 
+LBIS:AddEnchant(spec1, "47900", LBIS.L["Chest"]) --Enchant Chest - Super Health
 LBIS:AddEnchant(spec1, "50963", LBIS.L["Chest"]) --Heavy Borean Armor Kit
 LBIS:AddEnchant(spec1, "60692", LBIS.L["Chest"]) --Formula: Enchant Chest - Powerful Stats
 LBIS:AddEnchant(spec1, "47766", LBIS.L["Chest"]) --Formula: Enchant Chest - Greater Defense

@@ -17,9 +17,9 @@ LBIS:AddGem(spec1, "49110", "4", "False") --Nightmare Tear
 LBIS:AddGem(spec1, "42702", "3", "False") --Enchanted Tear
 
 
-LBIS:AddEnchant(spec1, "44879", LBIS.L["Head"]) --Arcanum of Torment
+LBIS:AddEnchant(spec1, "44149", LBIS.L["Head"]) --Arcanum of Torment
 
-LBIS:AddEnchant(spec1, "44871", LBIS.L["Shoulder"]) --Greater Inscription of the Axe
+LBIS:AddEnchant(spec1, "50335", LBIS.L["Shoulder"]) --Greater Inscription of the Axe
 LBIS:AddEnchant(spec1, "28888", LBIS.L["Shoulder"]) --Greater Inscription of Vengeance
 LBIS:AddEnchant(spec1, "44131", LBIS.L["Shoulder"]) --Lesser Inscription of the Axe
 
@@ -43,6 +43,7 @@ LBIS:AddEnchant(spec1, "60763", LBIS.L["Feet"]) --Enchant Boots - Greater Assaul
 LBIS:AddEnchant(spec1, "53344", LBIS.L["Main Hand"]) --Rune of the Fallen Crusader
 
 LBIS:AddEnchant(spec1, "59625", LBIS.L["Off Hand"]) --Enchant Weapon - Black Magic
+LBIS:AddEnchant(spec1, "53344", LBIS.L["Off Hand"]) --Rune of the Fallen Crusader
 
 LBIS:AddEnchant(spec1, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
 

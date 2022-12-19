@@ -42,8 +42,8 @@ LBIS:AddItem(spec, "39765", LBIS.L["Wrist"], "Alt") --Sinner's Bindings
 LBIS:AddItem(spec, "39247", LBIS.L["Wrist"], "Alt") --Cuffs of Dark Shadows
 LBIS:AddItem(spec, "44203", LBIS.L["Wrist"], "Alt") --Dragonfriend Bracers
 
-LBIS:AddItem(spec, "40496", LBIS.L["Hands"], "BIS") --Valorous Bonescythe Gauntlets
 LBIS:AddItem(spec, "40630", LBIS.L["Hands"], "BIS") --Gauntlets of the Lost Vanquisher
+LBIS:AddItem(spec, "40496", LBIS.L["Hands"], "BIS") --Valorous Bonescythe Gauntlets
 LBIS:AddItem(spec, "40541", LBIS.L["Hands"], "Alt") --Frosted Adroit Handguards
 LBIS:AddItem(spec, "39727", LBIS.L["Hands"], "Alt") --Dislocating Handguards
 LBIS:AddItem(spec, "40362", LBIS.L["Hands"], "Alt") --Gloves of Fast Reactions
@@ -107,10 +107,10 @@ LBIS:AddItem(spec, "37856", LBIS.L["Main Hand"], "Alt") --Librarian's Paper Cutt
 LBIS:AddItem(spec, "40281", LBIS.L["Main Hand"], "Alt") --Twilight Mist
 LBIS:AddItem(spec, "39140", LBIS.L["Main Hand"], "Alt") --Knife of Incision
 
-LBIS:AddItem(spec, "40385", LBIS.L["Ranged"], "BIS") --Envoy of Mortality
-LBIS:AddItem(spec, "40190", LBIS.L["Ranged"], "Alt") --Spinning Fate
-LBIS:AddItem(spec, "40346", LBIS.L["Ranged"], "Alt") --Final Voyage
-LBIS:AddItem(spec, "39419", LBIS.L["Ranged"], "Alt") --Nerubian Conquerer
-LBIS:AddItem(spec, "40265", LBIS.L["Ranged"], "Alt") --Arrowsong
-LBIS:AddItem(spec, "39296", LBIS.L["Ranged"], "Alt") --Accursed Bow of the Elite
-LBIS:AddItem(spec, "37191", LBIS.L["Ranged"], "Alt") --Drake-Mounted Crossbow
+LBIS:AddItem(spec, "40385", LBIS.L["Ranged/Relic"], "BIS") --Envoy of Mortality
+LBIS:AddItem(spec, "40190", LBIS.L["Ranged/Relic"], "Alt") --Spinning Fate
+LBIS:AddItem(spec, "40346", LBIS.L["Ranged/Relic"], "Alt") --Final Voyage
+LBIS:AddItem(spec, "39419", LBIS.L["Ranged/Relic"], "Alt") --Nerubian Conquerer
+LBIS:AddItem(spec, "40265", LBIS.L["Ranged/Relic"], "Alt") --Arrowsong
+LBIS:AddItem(spec, "39296", LBIS.L["Ranged/Relic"], "Alt") --Accursed Bow of the Elite
+LBIS:AddItem(spec, "37191", LBIS.L["Ranged/Relic"], "Alt") --Drake-Mounted Crossbow

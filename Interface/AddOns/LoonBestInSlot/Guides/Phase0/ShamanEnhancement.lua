@@ -10,8 +10,8 @@ LBIS:AddItem(spec, "37373", LBIS.L["Shoulder"], "BIS") --Massive Spaulders of th
 LBIS:AddItem(spec, "43481", LBIS.L["Shoulder"], "Alt") --Trollwoven Spaulders
 LBIS:AddItem(spec, "37679", LBIS.L["Shoulder"], "Alt") --Spaulders of the Abomination
 LBIS:AddItem(spec, "44257", LBIS.L["Shoulder"], "Alt") --Spaulders of the Black Arrow
-LBIS:AddItem(spec, "31024", LBIS.L["Shoulder"], "Alt") --Skyshatter Pauldrons
 LBIS:AddItem(spec, "31103", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Forgotten Protector
+LBIS:AddItem(spec, "31024", LBIS.L["Shoulder"], "Alt") --Skyshatter Pauldrons
 
 LBIS:AddItem(spec, "43566", LBIS.L["Back"], "BIS") --Ice Striker's Cloak
 LBIS:AddItem(spec, "37840", LBIS.L["Back"], "BIS") --Shroud of Reverberation
@@ -86,12 +86,13 @@ LBIS:AddItem(spec, "45085", LBIS.L["Main Hand"], "BIS") --Titansteel Spellblade
 LBIS:AddItem(spec, "41384", LBIS.L["Main Hand"], "BIS") --Titansteel Guardian
 LBIS:AddItem(spec, "41383", LBIS.L["Main Hand"], "BIS") --Titansteel Bonecrusher
 LBIS:AddItem(spec, "37693", LBIS.L["Main Hand"], "Alt") --Greed
+LBIS:AddItem(spec, "44192", LBIS.L["Main Hand"], "Alt") --Stalactite Chopper
 LBIS:AddItem(spec, "34331", LBIS.L["Main Hand"], "Alt") --Hand of the Deceiver
 
 LBIS:AddItem(spec, "40704", LBIS.L["Off Hand"], "BIS") --Pride
 LBIS:AddItem(spec, "37871", LBIS.L["Off Hand"], "Alt") --The Key
 LBIS:AddItem(spec, "34346", LBIS.L["Off Hand"], "Alt") --Mounting Vengeance
 
-LBIS:AddItem(spec, "40708", LBIS.L["Totem"], "BIS") --Totem of the Elemental Plane
-LBIS:AddItem(spec, "37575", LBIS.L["Totem"], "Alt") --Totem of the Tundra
-LBIS:AddItem(spec, "33507", LBIS.L["Totem"], "Alt") --Stonebreaker's Totem
+LBIS:AddItem(spec, "40708", LBIS.L["Ranged/Relic"], "BIS") --Totem of the Elemental Plane
+LBIS:AddItem(spec, "37575", LBIS.L["Ranged/Relic"], "Alt") --Totem of the Tundra
+LBIS:AddItem(spec, "33507", LBIS.L["Ranged/Relic"], "Alt") --Stonebreaker's Totem

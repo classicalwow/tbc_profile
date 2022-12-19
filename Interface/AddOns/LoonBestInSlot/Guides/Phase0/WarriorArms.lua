@@ -8,7 +8,7 @@ LBIS:AddItem(spec, "37237", LBIS.L["Head"], "Alt") --Chitin Shell Greathelm
 LBIS:AddItem(spec, "44195", LBIS.L["Shoulder"], "BIS") --Spaulders of the Giant Lords
 LBIS:AddItem(spec, "44111", LBIS.L["Shoulder"], "Alt") --Gold Star Spaulders
 LBIS:AddItem(spec, "34388", LBIS.L["Shoulder"], "Alt") --Pauldrons of Berserking
-LBIS:AddItem(spec, "34192", LBIS.L["Shoulder"], "Transmute Alt") --Pauldrons of Perseverance
+LBIS:AddItem(spec, "34192", LBIS.L["Shoulder"], "Alt Transmute") --Pauldrons of Perseverance
 
 LBIS:AddItem(spec, "37647", LBIS.L["Back"], "BIS") --Cloak of Bloodied Waters
 LBIS:AddItem(spec, "37840", LBIS.L["Back"], "Alt") --Shroud of Reverberation
@@ -61,6 +61,6 @@ LBIS:AddItem(spec, "43409", LBIS.L["Two Hand"], "BIS") --Saliva Corroded Pike
 LBIS:AddItem(spec, "43281", LBIS.L["Two Hand"], "BIS") --Edge of Oblivion
 LBIS:AddItem(spec, "37653", LBIS.L["Two Hand"], "Alt") --Sword of Justice
 
-LBIS:AddItem(spec, "37191", LBIS.L["Ranged"], "BIS") --Drake-Mounted Crossbow
-LBIS:AddItem(spec, "44504", LBIS.L["Ranged"], "Alt") --Nesingwary 4000
-LBIS:AddItem(spec, "44245", LBIS.L["Ranged"], "Alt") --Zombie Sweeper Shotgun
+LBIS:AddItem(spec, "37191", LBIS.L["Ranged/Relic"], "BIS") --Drake-Mounted Crossbow
+LBIS:AddItem(spec, "44504", LBIS.L["Ranged/Relic"], "Alt") --Nesingwary 4000
+LBIS:AddItem(spec, "44245", LBIS.L["Ranged/Relic"], "Alt") --Zombie Sweeper Shotgun

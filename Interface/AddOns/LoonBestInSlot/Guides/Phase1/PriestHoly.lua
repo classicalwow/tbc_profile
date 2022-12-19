@@ -67,9 +67,9 @@ LBIS:AddItem(spec, "40634", LBIS.L["Legs"], "Alt") --Legplates of the Lost Conqu
 LBIS:AddItem(spec, "40457", LBIS.L["Legs"], "Alt") --Valorous Pants of Faith
 LBIS:AddItem(spec, "40060", LBIS.L["Legs"], "Alt") --Distorted Limbs
 LBIS:AddItem(spec, "39408", LBIS.L["Legs"], "Alt") --Leggings of Sapphiron
-LBIS:AddItem(spec, "39517", LBIS.L["Legs"], "Alt") --Heroes' Leggings of Faith
-LBIS:AddItem(spec, "40619", LBIS.L["Legs"], "Alt") --Leggings of the Lost Conqueror
 LBIS:AddItem(spec, "39528", LBIS.L["Legs"], "Alt") --Heroes' Pants of Faith
+LBIS:AddItem(spec, "40619", LBIS.L["Legs"], "Alt") --Leggings of the Lost Conqueror
+LBIS:AddItem(spec, "39517", LBIS.L["Legs"], "Alt") --Heroes' Leggings of Faith
 LBIS:AddItem(spec, "39309", LBIS.L["Legs"], "Alt") --Leggings of the Instructor
 LBIS:AddItem(spec, "37189", LBIS.L["Legs"], "Alt") --Breeches of the Caller
 
@@ -105,9 +105,9 @@ LBIS:AddItem(spec, "44283", LBIS.L["Ring"], "Alt") --Signet of Hopeful Light
 LBIS:AddItem(spec, "37111", LBIS.L["Trinket"], "BIS") --Soul Preserver
 LBIS:AddItem(spec, "44255", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Greatness
 LBIS:AddItem(spec, "42413", LBIS.L["Trinket"], "BIS") --Figurine - Sapphire Owl
+LBIS:AddItem(spec, "40432", LBIS.L["Trinket"], "BIS") --Illustration of the Dragon Soul
 LBIS:AddItem(spec, "40382", LBIS.L["Trinket"], "Alt") --Soul of the Dead
 LBIS:AddItem(spec, "40430", LBIS.L["Trinket"], "Alt") --Majestic Dragon Figurine
-LBIS:AddItem(spec, "40432", LBIS.L["Trinket"], "BIS") --Illustration of the Dragon Soul
 
 LBIS:AddItem(spec, "40395", LBIS.L["Main Hand"], "BIS") --Torch of Holy Fire
 LBIS:AddItem(spec, "40300", LBIS.L["Main Hand"], "Alt") --Spire of Sunset
@@ -126,13 +126,13 @@ LBIS:AddItem(spec, "40350", LBIS.L["Off Hand"], "BIS") --Urn of Lost Memories
 LBIS:AddItem(spec, "40699", LBIS.L["Off Hand"], "Alt") --Handbook of Obscure Remedies
 LBIS:AddItem(spec, "39311", LBIS.L["Off Hand"], "Alt") --Scepter of Murmuring Spirits
 
-LBIS:AddItem(spec, "39426", LBIS.L["Wand"], "BIS") --Wand of the Archlich
-LBIS:AddItem(spec, "40245", LBIS.L["Wand"], "BIS") --Fading Glow
-LBIS:AddItem(spec, "40284", LBIS.L["Wand"], "BIS") --Plague Igniter
-LBIS:AddItem(spec, "40335", LBIS.L["Wand"], "BIS") --Touch of Horror
-LBIS:AddItem(spec, "39712", LBIS.L["Wand"], "Alt") --Gemmed Wand of the Nerubians
-LBIS:AddItem(spec, "39473", LBIS.L["Wand"], "Alt") --Contortion
-LBIS:AddItem(spec, "37619", LBIS.L["Wand"], "Alt") --Wand of Ahn'kahet
-LBIS:AddItem(spec, "37238", LBIS.L["Wand"], "Alt") --Rod of the Fallen Monarch
-LBIS:AddItem(spec, "34348", LBIS.L["Wand"], "Alt") --Wand of Cleansing Light
-LBIS:AddItem(spec, "34347", LBIS.L["Wand"], "Alt") --Wand of the Demonsoul
+LBIS:AddItem(spec, "39426", LBIS.L["Ranged/Relic"], "BIS") --Wand of the Archlich
+LBIS:AddItem(spec, "40245", LBIS.L["Ranged/Relic"], "BIS") --Fading Glow
+LBIS:AddItem(spec, "40284", LBIS.L["Ranged/Relic"], "BIS") --Plague Igniter
+LBIS:AddItem(spec, "40335", LBIS.L["Ranged/Relic"], "BIS") --Touch of Horror
+LBIS:AddItem(spec, "39712", LBIS.L["Ranged/Relic"], "Alt") --Gemmed Wand of the Nerubians
+LBIS:AddItem(spec, "39473", LBIS.L["Ranged/Relic"], "Alt") --Contortion
+LBIS:AddItem(spec, "37619", LBIS.L["Ranged/Relic"], "Alt") --Wand of Ahn'kahet
+LBIS:AddItem(spec, "37238", LBIS.L["Ranged/Relic"], "Alt") --Rod of the Fallen Monarch
+LBIS:AddItem(spec, "34348", LBIS.L["Ranged/Relic"], "Alt") --Wand of Cleansing Light
+LBIS:AddItem(spec, "34347", LBIS.L["Ranged/Relic"], "Alt") --Wand of the Demonsoul

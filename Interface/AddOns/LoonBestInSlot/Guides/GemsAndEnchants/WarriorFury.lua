@@ -14,7 +14,7 @@ LBIS:AddGem(spec1, "42702", "3", "False") --Enchanted Tear
 LBIS:AddGem(spec1, "40022", "3", "False") --Sovereign Twilight Opal
 
 
-LBIS:AddEnchant(spec1, "50367", LBIS.L["Head"]) --Arcanum of Torment
+LBIS:AddEnchant(spec1, "44149", LBIS.L["Head"]) --Arcanum of Torment
 
 LBIS:AddEnchant(spec1, "50335", LBIS.L["Shoulder"]) --Greater Inscription of the Axe
 LBIS:AddEnchant(spec1, "44131", LBIS.L["Shoulder"]) --Lesser Inscription of the Axe
@@ -42,7 +42,7 @@ LBIS:AddEnchant(spec1, "60623", LBIS.L["Feet"]) --Enchant Boots - Icewalker
 
 LBIS:AddEnchant(spec1, "59621", LBIS.L["Main Hand"]) --Enchant Weapon - Berserking
 
-LBIS:AddEnchant(spec1, "41167", LBIS.L["Ranged"]) --Heartseeker Scope
+LBIS:AddEnchant(spec1, "41167", LBIS.L["Ranged/Relic"]) --Heartseeker Scope
 
 LBIS:AddEnchant(spec1, "44645", LBIS.L["Ring"]) --Enchant Ring - Assault
 

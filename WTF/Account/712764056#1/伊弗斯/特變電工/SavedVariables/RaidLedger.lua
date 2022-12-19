@@ -13176,6 +13176,78 @@ RaidLedgerDatabase = {
 						["count"] = 1,
 					},
 				}, -- [1095]
+				{
+					["beneficiary"] = "施法中断丶",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:41926::::::::80:::::::::|h[致命角斗士的绸缎护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [1096]
+				{
+					["beneficiary"] = "Jiushu",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:42016::::::::80:::::::::|h[致命角斗士的邪纹护手]|h|r",
+						["count"] = 1,
+					},
+				}, -- [1097]
+				{
+					["beneficiary"] = "彡丄尤亞",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:41204::::::::80:::::::::|h[致命角斗士的链甲护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [1098]
+				{
+					["beneficiary"] = "喬大寞",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40845::::::::80:::::::::|h[致命角斗士的恐怖板甲护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [1099]
+				{
+					["beneficiary"] = "彡丄尤亞",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:41203::::::::80:::::::::|h[憎恨角斗士的链甲护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [1100]
+				{
+					["beneficiary"] = "湖北陳小春",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39589::::::::80:::::::::|h[英雄的碎地者护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [1101]
 			},
 		}, -- [1]
 	},

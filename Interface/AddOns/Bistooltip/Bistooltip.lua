@@ -47,7 +47,7 @@ local function printSpecLine(tooltip, slot, class_name, spec_name)
         prefix = ""
     end
     local left_text = prefix .. "|T" .. Bistooltip_spec_icons[class_name][spec_name] .. ":14|t " .. spec_name
-    if (slot_name == "off hand" or slot_name == "weapon") then
+    if (slot_name == "Off hand" or slot_name == "Weapon" or slot_name == "Weapon 1h" or slot_name == "Weapon 2h") then
         left_text = left_text .. " (" .. slot_name .. ")"
     end
     local color_r = 1
@@ -105,6 +105,10 @@ local function OnGameTooltipSetItem(tooltip)
                 printSpecLine(tooltip, slot, class_name, spec_name)
             end
         end
+    end
+    if (#item > 0 and Bistooltip_char_equipment[itemId] == 1) then
+        LibExtraTip:AddLine(tooltip, " ", 1, 1, 0, false)
+        LibExtraTip:AddLine(tooltip, "You have this item in your inventory", 0.074, 0.964, 0.129, false)
     end
     if not (#item == specs_count) then
         if (#item > 0) then

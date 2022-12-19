@@ -1048,52 +1048,51 @@ function ArkInventory.ItemCategoryGetDefaultActual( i )
 		
 		local ignore, ignore, req = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, nil, ArkInventory.Localise["WOW_TOOLTIP_REQUIRES_SKILL"], false, true, false, 0, ArkInventory.Const.Tooltip.Search.Short )
 		
-		-- priority profession
+		-- the priority profession
 		for x = 1, ArkInventory.Const.Tradeskill.numPrimary do
-			
-			if codex.player.data.info.tradeskill[x] then
-				
-				local skill = ArkInventory.Const.Tradeskill.Data[codex.player.data.info.tradeskill[x]]
-				if skill and codex.player.data.tradeskill.priority == x then
+			if codex.player.data.tradeskill.priority == x then
+				if codex.player.data.info.tradeskill[x] then
 					
-					if ArkInventory.PT_ItemInSets( i.h, skill.pt ) then
-						return ArkInventory.CategoryGetSystemID( skill.id )
-					end
-					
-					if req and string.find( req, tostring( skill.text ) ) then
-						return ArkInventory.CategoryGetSystemID( skill.id )
+					local skill = ArkInventory.Const.Tradeskill.Data[codex.player.data.info.tradeskill[x]]
+					if skill then
+						
+						if req and string.find( req, tostring( skill.text ) ) then
+							return ArkInventory.CategoryGetSystemID( skill.id )
+						end
+						
+						if ArkInventory.PT_ItemInSets( i.h, skill.pt ) then
+							return ArkInventory.CategoryGetSystemID( skill.id )
+						end
+						
 					end
 					
 				end
-				
 			end
-			
 		end
 		
-		-- other profession
+		-- the other profession
 		for x = 1, ArkInventory.Const.Tradeskill.numPrimary do
-			
-			if codex.player.data.info.tradeskill[x] then
-				
-				local skill = ArkInventory.Const.Tradeskill.Data[codex.player.data.info.tradeskill[x]]
-				if skill and codex.player.data.tradeskill.priority ~= x then
+			if codex.player.data.tradeskill.priority ~= x then
+				if codex.player.data.info.tradeskill[x] then
 					
-					if ArkInventory.PT_ItemInSets( i.h, skill.pt ) then
-						return ArkInventory.CategoryGetSystemID( skill.id )
-					end
-					
-					if req and string.find( req, tostring( skill.text ) ) then
-						return ArkInventory.CategoryGetSystemID( skill.id )
+					local skill = ArkInventory.Const.Tradeskill.Data[codex.player.data.info.tradeskill[x]]
+					if skill then
+						
+						if req and string.find( req, tostring( skill.text ) ) then
+							return ArkInventory.CategoryGetSystemID( skill.id )
+						end
+						
+						if ArkInventory.PT_ItemInSets( i.h, skill.pt ) then
+							return ArkInventory.CategoryGetSystemID( skill.id )
+						end
+						
 					end
 					
 				end
-				
 			end
-			
 		end
 		
 	end
-	
 	
 	
 	-- tradegoods
@@ -1255,23 +1254,27 @@ function ArkInventory.ItemCategoryGetDefaultActual( i )
 		return ArkInventory.CategoryGetSystemID( "SYSTEM_REPUTATION" )
 	end
 	
-	-- secondary professions
-	if ArkInventory.PT_ItemInSets( i.h, "ArkInventory.Skill.Fishing" ) then
-		return ArkInventory.CategoryGetSystemID( "SKILL_FISHING" )
+	
+	-- primary professions - non crafting reagents?
+	if not info.craft then
+		for x in pairs( codex.player.data.info.tradeskill ) do
+			local skill = ArkInventory.Const.Tradeskill.Data[codex.player.data.info.tradeskill[x]]
+			if skill and skill.primary then
+				if ArkInventory.PT_ItemInSets( i.h, skill.pt ) then
+					return ArkInventory.CategoryGetSystemID( skill.id )
+				end
+			end
+		end
 	end
 	
-	if ArkInventory.PT_ItemInSets( i.h, "ArkInventory.Skill.Cooking" ) then
-		return ArkInventory.CategoryGetSystemID( "SKILL_COOKING" )
-	end
-	
-	if ArkInventory.PT_ItemInSets( i.h, "ArkInventory.Skill.Archaeology" ) then
-		return ArkInventory.CategoryGetSystemID( "SKILL_ARCHAEOLOGY" )
-	end
-	
-	-- primary professions
-	
-	if ArkInventory.PT_ItemInSets( i.h, "ArkInventory.Skill.Enchanting" ) then
-		return ArkInventory.CategoryGetSystemID( "SKILL_ENCHANTING" )
+	-- secondary professions - all items
+	for x in pairs( codex.player.data.info.tradeskill ) do
+		local skill = ArkInventory.Const.Tradeskill.Data[codex.player.data.info.tradeskill[x]]
+		if skill and not skill.primary then
+			if ArkInventory.PT_ItemInSets( i.h, skill.pt ) then
+				return ArkInventory.CategoryGetSystemID( skill.id )
+			end
+		end
 	end
 	
 	
@@ -1304,9 +1307,6 @@ function ArkInventory.ItemCategoryGetDefaultActual( i )
 	
 	
 	-- left overs
-	
-	
-	
 	
 	-- crafting reagents (after professions so only the leftovers are categorised)
 	if info.craft then

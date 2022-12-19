@@ -234,57 +234,68 @@ ArkInventory.Const.Tradeskill = {
 			id = "SKILL_ALCHEMY",
 			pt = "ArkInventory.Skill.Alchemy",
 			text = ArkInventory.Localise["WOW_SKILL_ALCHEMY"],
+			primary = true,
 		},
 		[164] = {
 			id = "SKILL_BLACKSMITHING",
 			pt = "ArkInventory.Skill.Blacksmithing",
 			text = ArkInventory.Localise["WOW_SKILL_BLACKSMITHING"],
+			primary = true,
 		},
 		[333] = {
 			id = "SKILL_ENCHANTING",
 			pt = "ArkInventory.Skill.Enchanting",
 			text = ArkInventory.Localise["WOW_SKILL_ENCHANTING"],
+			primary = true,
 		},
 		[202] = {
 			id = "SKILL_ENGINEERING",
 			pt = "ArkInventory.Skill.Engineering",
 			text = ArkInventory.Localise["WOW_SKILL_ENGINEERING"],
+			primary = true,
 		},
 		[773] = {
 			id = "SKILL_INSCRIPTION",
 			pt = "ArkInventory.Skill.Inscription",
 			text = ArkInventory.Localise["WOW_SKILL_INSCRIPTION"],
+			primary = true,
 		},
 		[755] = {
 			id = "SKILL_JEWELCRAFTING",
 			pt = "ArkInventory.Skill.Jewelcrafting",
 			text = ArkInventory.Localise["WOW_SKILL_JEWELCRAFTING"],
+			primary = true,
 		},
 		[165] = {
 			id = "SKILL_LEATHERWORKING",
 			pt = "ArkInventory.Skill.Leatherworking",
 			text = ArkInventory.Localise["WOW_SKILL_LEATHERWORKING"],
+			primary = true,
 		},
 		[197] = {
 			id = "SKILL_TAILORING",
 			pt = "ArkInventory.Skill.Tailoring",
 			text = ArkInventory.Localise["WOW_SKILL_TAILORING"],
+			primary = true,
 		},
 		-- primary gather
 		[182] = {
 			id = "SKILL_HERBALISM",
 			pt = "ArkInventory.Skill.Herbalism",
 			text = ArkInventory.Localise["WOW_SKILL_HERBALISM"],
+			primary = true,
 		},
 		[186] = {
 			id = "SKILL_MINING",
 			pt = "ArkInventory.Skill.Mining",
 			text = ArkInventory.Localise["WOW_SKILL_MINING"],
+			primary = true,
 		},
 		[393] = {
 			id = "SKILL_SKINNING",
 			pt = "ArkInventory.Skill.Skinning",
 			text = ArkInventory.Localise["WOW_SKILL_SKINNING"],
+			primary = true,
 		},
 		-- secondary
 		[794] = {
@@ -2024,7 +2035,7 @@ ArkInventory.Const.DatabaseDefaults.global = {
 				custom = false,
 				value = nil,
 			},
-			["EVENT_ARKINV_ACTIONBAR_UPDATE_USABLE_BUCKET"] = { default = 1 },
+			["EVENT_ARKINV_ACTIONBAR_UPDATE_USABLE_BUCKET"] = { default = 0.2 },
 			["EVENT_ARKINV_AUCTION_LEAVE_BUCKET"] = { default = 0.3 },
 			["EVENT_ARKINV_AUCTION_UPDATE_MASSIVE_BUCKET"] = { default = 60 },
 			["EVENT_ARKINV_AUCTION_UPDATE_BUCKET"] = { default = 2 },
@@ -2037,7 +2048,7 @@ ArkInventory.Const.DatabaseDefaults.global = {
 			["EVENT_ARKINV_BANK_LEAVE_BUCKET"] = {  default = 0.3 },
 			["EVENT_ARKINV_CHANGER_UPDATE_BUCKET"] = { default = 1 },
 			["EVENT_ARKINV_COLLECTION_HEIRLOOM_UPDATE_BUCKET"] = { default = 1 },
-			["EVENT_ARKINV_COLLECTION_CURRENCY_UPDATE_BUCKET"] = { default = 1 },
+			["EVENT_ARKINV_COLLECTION_CURRENCY_UPDATE_BUCKET"] = { default = 3 },
 			["EVENT_ARKINV_COLLECTION_MOUNT_UPDATE_BUCKET"] = { default = 1 },
 			["EVENT_ARKINV_COLLECTION_PET_UPDATE_BUCKET"] = { default = 1 },
 			["EVENT_ARKINV_COLLECTION_REPUTATION_UPDATE_BUCKET"] = { default = 1 },
@@ -2056,7 +2067,7 @@ ArkInventory.Const.DatabaseDefaults.global = {
 			["EVENT_ARKINV_VAULT_UPDATE_BUCKET"] = { default = 1.5 },
 			["EVENT_ARKINV_VAULT_TABS_UPDATE_BUCKET"] = { },
 			["EVENT_ARKINV_VOID_UPDATE_BUCKET"] = { },
-			["EVENT_ARKINV_ZONE_CHANGED_BUCKET"] = { default = 5 },
+			["EVENT_ARKINV_ZONE_CHANGED_BUCKET"] = { default = 0.2 },
 			["EVENT_ARKINV_BACKPACK_TOKEN_UPDATE_BUCKET"] = { default = 1 },
 			
 			["EVENT_ARKINV_GETOBJECTINFO_QUEUE_UPDATE_BUCKET"] = { default = 1 },
@@ -2414,6 +2425,7 @@ ArkInventory.Const.DatabaseDefaults.global = {
 					},
 					["mounts"] = {
 						["randomise"] = true,
+						["dragonriding"] = false,
 						["type"] = {
 							["l"] = { -- land (ground)
 								["useflying"] = false,
@@ -2514,9 +2526,7 @@ ArkInventory.Const.DatabaseDefaults.global = {
 								["type"] = ArkInventory.Const.Slot.Type.Unknown,
 								["count"] = 0,
 								["empty"] = 0,
-								["slot"] = {
---									stuff
-								},
+								["slot"] = { },
 							},
 						},
 					},
@@ -2791,6 +2801,91 @@ function ArkInventory.SetMountMacro( )
 	
 	if not InCombatLockdown( ) then
 		
+		--ArkInventory.Output( "SetMountMacro" )
+		
+		local codex = ArkInventory.GetPlayerCodex( )
+		
+		local macrotext = ""
+		macrotext = macrotext .. "/dismount [combat, mounted, noflying]" -- dismount if in combat and mounted and not flying
+		macrotext = macrotext .. "\n/stopmacro [combat]" -- abort if in combat
+		
+		if codex.player.data.info.class == "DRUID" or codex.player.data.info.class == "WARLOCK" or codex.player.data.info.class == "SHAMAN" then
+			macrotext = macrotext .. "\n/cancelform [noform:0]" -- cancel all forms
+		end
+		
+		
+		local usingtravelform = false
+		if codex.player.data.ldb.travelform then
+			
+			if codex.player.data.info.class == "DRUID" then
+				
+				usingtravelform = true
+				
+				local cat_form = GetSpellInfo( 768 )
+				local travel_form = GetSpellInfo( 783 )
+				
+				macrotext = macrotext .. "\n/cast [indoors] " .. cat_form
+				
+				if ArkInventory.Collection.Mount.isDragonridingAvailable( ) then
+					if codex.player.data.ldb.mounts.dragonriding then
+						
+						macrotext = macrotext .. "\n/run if not IsModifiedClick( ) then ArkInventory.LDB.Mounts.GetNext( ) end"
+						macrotext = macrotext .. "\n/cast [mod] " .. travel_form
+					else
+						macrotext = macrotext .. "\n/run if IsModifiedClick( ) then ArkInventory.LDB.Mounts.GetNext( ) end"
+						macrotext = macrotext .. "\n/cast [nomod] " .. travel_form
+					end
+				else
+					macrotext = macrotext .. "\n/cast [nomounted] " .. travel_form
+				end
+				
+				
+			end
+			
+			-- shaman ghost wolf?
+			
+		end
+		
+		
+		if not usingtravelform then
+			macrotext = macrotext .. "\n/run ArkInventory.LDB.Mounts.GetNext( )"
+		end
+		
+		
+		
+		--ArkInventory.Output( macrotext )
+		
+		local btn = ARKINV_MountToggle
+		if not btn then
+			btn = CreateFrame( "Button", "ARKINV_MountToggle", UIParent, "SecureActionButtonTemplate" )
+			btn:SetAttribute( "type", "macro" )
+			btn:SetPoint( "CENTER" )
+			btn:Hide( )
+			btn:RegisterForClicks( "LeftButtonDown", "LeftButtonUp" )
+		end
+		btn:SetAttribute( "macrotext", macrotext )
+		
+		if ArkInventory.ClientCheck( nil, ArkInventory.ENUM.EXPANSION.SHADOWLANDS ) then
+			
+			local state = ArkInventory.CrossClient.GetCVarBool( "ActionButtonUseKeyDown" )
+			
+			-- /run C_CVar.SetCVar("ActionButtonUseKeyDown",1)
+			
+			if state then
+				btn:RegisterForClicks( "LeftButtonDown" )
+			else
+				btn:RegisterForClicks( "LeftButtonUp" )
+			end
+		end
+		
+	end
+	
+end
+
+function ArkInventory.SetMountMacro_OLD( )
+	
+	if not InCombatLockdown( ) then
+		
 		local me = ArkInventory.GetPlayerCodex( )
 		
 		local macrotext = ""
@@ -2806,7 +2901,12 @@ function ArkInventory.SetMountMacro( )
 			if me.player.data.info.class == "DRUID" then
 				local cat_form = GetSpellInfo( 768 )
 				local travel_form = GetSpellInfo( 783 )
-				macrotext = macrotext .. "/cast [indoors] " .. cat_form .. "; " .. travel_form .. "\n"
+				if ArkInventory.Collection.Mount.ZoneCheck( ArkInventory.Const.Mount.Zone.DragonIsles ) then
+					macrotext = macrotext .. "/cast [indoors] " .. cat_form .. "\n"
+					macrotext = macrotext .. "/run ArkInventory.LDB.Mounts:OnClick( )\n"
+				else
+					macrotext = macrotext .. "/cast [indoors] " .. cat_form .. "; " .. travel_form .. "\n"
+				end
 			end
 			-- shaman ghost wolf?
 		else
@@ -2881,12 +2981,10 @@ function ArkInventory.OnInitialize( )
 		end
 	end
 	
-	ArkInventory.SetMountMacro( )
-	
 	ArkInventory.Const.BLIZZARD.Events = {
 --		{ "blizzard event name", "arkinventory function name", blizzard_project_id, min_toc, max_toc }
 		
---		{ "ACTIONBAR_UPDATE_USABLE", "EVENT_ARKINV_ACTIONBAR_UPDATE_USABLE" },
+		{ "ACTIONBAR_UPDATE_USABLE", "EVENT_ARKINV_ACTIONBAR_UPDATE_USABLE" },
 		{ "CVAR_UPDATE", "EVENT_ARKINV_CVAR_UPDATE" },
 --		{ "PLAYER_CONTROL_GAINED", "EVENT_ARKINV_PLAYER_CONTROL_GAINED" },
 --		{ "PLAYER_CONTROL_LOST", "EVENT_ARKINV_PLAYER_CONTROL_LOST" },
@@ -2909,7 +3007,7 @@ function ArkInventory.OnInitialize( )
 		{ "AUCTION_CANCELED", "EVENT_ARKINV_AUCTION_UPDATE", ArkInventory.ENUM.EXPANSION.BFA },
 		
 		{ "PLAYER_EQUIPMENT_CHANGED", "EVENT_ARKINV_PLAYER_EQUIPMENT_CHANGED" },
-		{ "WEAR_EQUIPMENT_SET", "EVENT_ARKINV_PLAYER_EQUIPMENT_CHANGED", ArkInventory.ENUM.EXPANSION.WRATH },
+		{ "WEAR_EQUIPMENT_SET", "EVENT_ARKINV_PLAYER_EQUIPMENT_CHANGED", ArkInventory.ENUM.EXPANSION.DRAGONFLIGHT },
 		{ "EQUIPMENT_SETS_CHANGED", "EVENT_ARKINV_EQUIPMENT_SETS_CHANGED", ArkInventory.ENUM.EXPANSION.WRATH },
 		
 --		{ "BAG_NEW_ITEMS_UPDATED", "" },
@@ -3097,11 +3195,11 @@ function ArkInventory.OnEnable( )
 	-- register bucket events
 	for name, timer in pairs( ArkInventory.db.option.updatetimer ) do
 		if ArkInventory[name] then
-			local value = timer.custom and timer.value or timer.default
+			local value = ( timer.custom and timer.value ) or timer.default
 			ArkInventory.OutputDebug( "RegisterBucketMessage( ", name, ", ", value, " )" )
 			ArkInventory:RegisterBucketMessage( name, value )
 		else
-			ArkInventory.OutputDebug( "RegisterBucketMessage failed as a function named ", name, " does not exist" )
+			ArkInventory.OutputDebug( "RegisterBucketMessage failed as a function named ", name, " does not exist, clearing data" )
 			ArkInventory.db.option.updatetimer[name] = nil
 		end
 	end
@@ -3253,6 +3351,13 @@ function ArkInventory.OnEnable( )
 	
 	ArkInventory.GenerateMailRecipients( )
 	
+	if ArkInventory.ClientCheck( ArkInventory.ENUM.EXPANSION.SHADOWLANDS ) then
+		-- acknowledge reagent bag tutorial so it doesnt keep popping up
+		SetCVarBitfield( "closedInfoFrames", LE_FRAME_TUTORIAL_EQUIP_REAGENT_BAG, true )
+	end
+	
+	
+	
 	ArkInventory.ExtractData( )
 	
 end
@@ -3355,7 +3460,7 @@ function ArkInventory.ItemSortKeyGenerate( i, bar_id, codex )
 		end
 		
 		-- item quality
-		s.quality = i.q or 0
+		s.quality = info.q or ArkInventory.ENUM.ITEM.QUALITY.POOR
 		
 		-- profession rank/quality
 		s.rank = 0
@@ -3850,7 +3955,7 @@ function ArkInventory.PutItemInBank( )
 	if CursorHasItem( ) then
 		
 		for x = 1, ArkInventory.CrossClient.GetContainerNumSlots( ArkInventory.ENUM.BAG.INDEX.BANK ) do
-			h = GetContainerItemLink( ArkInventory.ENUM.BAG.INDEX.BANK, x )
+			local h = ArkInventory.CrossClient.GetContainerItemLink( ArkInventory.ENUM.BAG.INDEX.BANK, x )
 			if not h then
 				if not ArkInventory.CrossClient.PickupContainerItem( ArkInventory.ENUM.BAG.INDEX.BANK, x ) then
 					ClearCursor( )
@@ -3873,7 +3978,7 @@ function ArkInventory.PutItemInReagentBank( )
 	if CursorHasItem( ) then
 		
 		for x = 1, ArkInventory.CrossClient.GetContainerNumSlots( ArkInventory.ENUM.BAG.INDEX.REAGENTBANK ) do
-			h = GetContainerItemLink( ArkInventory.ENUM.BAG.INDEX.REAGENTBANK, x )
+			local h = ArkInventory.CrossClient.GetContainerItemLink( ArkInventory.ENUM.BAG.INDEX.REAGENTBANK, x )
 			if not h then
 				if not ArkInventory.CrossClient.PickupContainerItem( ArkInventory.ENUM.BAG.INDEX.REAGENTBANK, x ) then
 					ClearCursor( )
@@ -3909,7 +4014,7 @@ function ArkInventory.PutItemInGuildBank( tab_id )
 			end
 			
 			for x = 1, ArkInventory.Const.BLIZZARD.GLOBAL.GUILDBANK.SLOTS_PER_TAB do
-				h = GetGuildBankItemLink( tab_id, x )
+				local h = GetGuildBankItemLink( tab_id, x )
 				if not h then
 					if not PickupGuildBankItem( tab_id, x ) then --AutoStoreGuildBankItem
 						ClearCursor( )
@@ -4729,6 +4834,8 @@ end
 
 function ArkInventory.FrameLevelReset( frame, level )
 	
+	if not ArkInventory.db.option.bugfix.framelevel.enable then return end
+	
 	if type( frame ) == "string" then
 		frame = _G[frame]
 	end
@@ -4744,7 +4851,7 @@ function ArkInventory.FrameLevelReset( frame, level )
 	for _, z in pairs( { frame:GetChildren( ) } ) do
 		ArkInventory.FrameLevelReset( z, level + 1 )
 	end
-
+	
 end
 
 local function FrameLevelGetMaxRecurse( frame, level )
@@ -7347,6 +7454,7 @@ function ArkInventory.Frame_Item_OnLoad( frame, tainted )
 	
 	
 	-- adjust any fixed size blizzard subframes so they scale properly
+	-- fairly sure these are whats been contributing to the framelevel issue as they extend well past the item border and cause a massive amount of overlap
 	
 	local obj = _G[string.format( "%s%s", frame:GetName( ), "IconQuestTexture" )]
 	if obj then
@@ -7356,6 +7464,13 @@ function ArkInventory.Frame_Item_OnLoad( frame, tainted )
 	end
 	
 	local obj = frame.NewItemTexture
+	if obj then
+		obj:ClearAllPoints( )
+		obj:SetPoint( "TOPLEFT", frame )
+		obj:SetPoint( "BOTTOMRIGHT", frame )
+	end
+	
+	local obj = frame.flash
 	if obj then
 		obj:ClearAllPoints( )
 		obj:SetPoint( "TOPLEFT", frame )
@@ -7596,7 +7711,8 @@ function ArkInventory.Frame_Item_Update_StatusIconUpgrade( frame, codex )
 					
 				elseif IsContainerItemAnUpgrade then
 					
-					-- dragonflight
+					-- no longer exists in dragonflight
+					-- code left here in case something similar comes back
 					
 					local itemIsUpgrade = IsContainerItemAnUpgrade( frame:GetBagID( ), frame:GetID( ) )
 					if frame.isExtended then
@@ -7817,7 +7933,8 @@ function ArkInventory.Frame_Item_Update_Overlays( frame, codex )
 		
 		local button = frame
 		local itemIDOrLink = i.h
-		local quality = i.q
+		local info = ArkInventory.GetObjectInfo( i.h, i )
+		local quality = info.q
 		
 		if button.IconOverlay then
 			
@@ -8308,8 +8425,9 @@ function ArkInventory.Frame_Item_Update_Border( frame, codex, changer )
 				if i and i.h then
 					
 					if codex.style.slot.border.rarity then
-						if ( i.q or ArkInventory.ENUM.ITEM.QUALITY.POOR ) >= ( codex.style.slot.border.raritycutoff or ArkInventory.ENUM.ITEM.QUALITY.POOR ) then
-							r, g, b = ArkInventory.GetItemQualityColor( i.q or ArkInventory.ENUM.ITEM.QUALITY.POOR )
+						local info = ArkInventory.GetObjectInfo( i.h, i )
+						if ( info.q or ArkInventory.ENUM.ITEM.QUALITY.POOR ) >= ( codex.style.slot.border.raritycutoff or ArkInventory.ENUM.ITEM.QUALITY.POOR ) then
+							r, g, b = ArkInventory.GetItemQualityColor( info.q or ArkInventory.ENUM.ITEM.QUALITY.POOR )
 						end
 					end
 					
@@ -8910,7 +9028,7 @@ function ArkInventory.Frame_Item_PreClick( frame, button, down )
 					
 					local itemInfo = ArkInventory.CrossClient.GetContainerItemInfo( frame.ARK_Data.blizzard_id, frame.ARK_Data.slot_id )
 					
-					if ArkInventory.Global.Mode.Merchant and itemInfo.hasNoValue and ArkInventory.db.option.action.vendor.delete and i.q <= ArkInventory.db.option.action.vendor.raritycutoff then
+					if ArkInventory.Global.Mode.Merchant and itemInfo.hasNoValue and ArkInventory.db.option.action.vendor.delete and itemInfo.quality <= ArkInventory.db.option.action.vendor.raritycutoff then
 						
 						--ArkInventory.Output( "good to delete" )
 						
@@ -11567,7 +11685,8 @@ function ArkInventory.BlizzardAPIHook( disable, reload )
 		
 		
 		-- tooltips
-		for func, proj in pairs( ArkInventory.Const.BLIZZARD.TooltipFunctions ) do
+		for func, proj in pairs( ArkInventory.Const.BLIZZARD.TooltipFunctions ) do	
+			-- one off error message here instead of one per tooltip below
 			local myfunc = "HookTooltip"..func
 			if not ArkInventory[myfunc] then
 				ArkInventory.OutputWarning( "code issue - a matching function for [", myfunc, "] was not found!" )
@@ -11579,16 +11698,26 @@ function ArkInventory.BlizzardAPIHook( disable, reload )
 				
 				ArkInventory.TooltipMyDataClear( obj )
 				
-				for func, proj in pairs( ArkInventory.Const.BLIZZARD.TooltipFunctions ) do
-					--if ArkInventory.ClientCheck( proj ) then
+				if ArkInventory.ClientCheck( nil, ArkInventory.ENUM.EXPANSION.SHADOWLANDS ) then
+					
+					for func, proj in pairs( ArkInventory.Const.BLIZZARD.TooltipFunctions ) do
 						local myfunc = "HookTooltip"..func
-						if obj[func] and ArkInventory[myfunc] then
-							ArkInventory:SecureHook( obj, func, ArkInventory[myfunc] )
-							--ArkInventory.Output( obj:GetName( ), ":", func, " secure hooked" )
+						if obj[func] then
+							if ArkInventory[myfunc] then
+								ArkInventory:SecureHook( obj, func, ArkInventory[myfunc] )
+								--ArkInventory.Output( obj:GetName( ), ":", func, " secure hooked" )
+							end
 						else
-							--ArkInventory.OutputWarning( obj:GetName( ), ":", func, " is missing, please contact the author" )
+							--ArkInventory.OutputWarning( "code issue - ", obj:GetName( ), " [", myfunc, "] was not found!" )
 						end
-					--end
+					end
+					
+					if obj:HasScript( "OnTooltipSetUnit" ) then
+						-- battlepet mouseovers (retail only check is in the hook function)
+						--ArkInventory.Output( obj:GetName( ), " hooking OnTooltipSetUnit" )
+						obj:HookScript( "OnTooltipSetUnit", ArkInventory.HookOnTooltipSetUnit )
+					end
+					
 				end
 				
 				obj:HookScript( "OnUpdate", ArkInventory.HookTooltipOnUpdate )
@@ -11598,11 +11727,6 @@ function ArkInventory.BlizzardAPIHook( disable, reload )
 				if obj == ItemRefTooltip then
 					obj:HookScript( "OnEnter", ArkInventory.HookTooltipOnEnter )
 					obj:HookScript( "OnLeave", ArkInventory.HookTooltipOnLeave )
-				end
-				
-				-- battlepet mouseovers (retail only check is in the hook function)
-				if obj:HasScript( "OnTooltipSetUnit" ) then
-					obj:HookScript( "OnTooltipSetUnit", ArkInventory.HookOnTooltipSetUnit )
 				end
 				
 			end

@@ -6,7 +6,7 @@ LBIS:AddItem(spec, "37237", LBIS.L["Head"], "Alt") --Chitin Shell Greathelm
 LBIS:AddItem(spec, "37293", LBIS.L["Head"], "Alt") --Mask of the Watcher
 
 LBIS:AddItem(spec, "34388", LBIS.L["Shoulder"], "BIS") --Pauldrons of Berserking
-LBIS:AddItem(spec, "34192", LBIS.L["Shoulder"], "Transmute BIS") --Pauldrons of Perseverance
+LBIS:AddItem(spec, "34192", LBIS.L["Shoulder"], "BIS Transmute") --Pauldrons of Perseverance
 LBIS:AddItem(spec, "44195", LBIS.L["Shoulder"], "Alt") --Spaulders of the Giant Lords
 LBIS:AddItem(spec, "37627", LBIS.L["Shoulder"], "Alt") --Snake Den Spaulders
 
@@ -16,8 +16,8 @@ LBIS:AddItem(spec, "37840", LBIS.L["Back"], "Alt") --Shroud of Reverberation
 
 LBIS:AddItem(spec, "39617", LBIS.L["Chest"], "BIS") --Heroes' Scourgeborne Battleplate
 LBIS:AddItem(spec, "40612", LBIS.L["Chest"], "BIS") --Chestguard of the Lost Vanquisher
+LBIS:AddItem(spec, "34211", LBIS.L["Chest"], "Alt Transmute") --Harness of Carnal Instinct
 LBIS:AddItem(spec, "34397", LBIS.L["Chest"], "Alt") --Bladed Chaos Tunic
-LBIS:AddItem(spec, "34211", LBIS.L["Chest"], "Transmute Alt") --Harness of Carnal Instinct
 LBIS:AddItem(spec, "37612", LBIS.L["Chest"], "Alt") --Bonegrinder Breastplate
 
 LBIS:AddItem(spec, "37668", LBIS.L["Wrist"], "BIS") --Bands of the Stoneforge
@@ -60,9 +60,6 @@ LBIS:AddItem(spec, "37723", LBIS.L["Trinket"], "Alt") --Incisor Fragment
 LBIS:AddItem(spec, "34472", LBIS.L["Trinket"], "Alt") --Shard of Contempt
 LBIS:AddItem(spec, "33831", LBIS.L["Trinket"], "Alt") --Berserker's Call
 
-LBIS:AddItem(spec, "41257", LBIS.L["Two Hand"], "BIS") --Titansteel Destroyer
-LBIS:AddItem(spec, "37852", LBIS.L["Two Hand"], "Alt") --Colossal Skull-Clad Cleaver
-
 LBIS:AddItem(spec, "41383", LBIS.L["Main Hand"], "BIS") --Titansteel Bonecrusher
 LBIS:AddItem(spec, "44250", LBIS.L["Main Hand"], "Alt") --Reaper of Dark Souls
 LBIS:AddItem(spec, "37235", LBIS.L["Main Hand"], "Alt") --Crypt Lord's Deft Blade
@@ -70,4 +67,7 @@ LBIS:AddItem(spec, "37871", LBIS.L["Main Hand"], "Alt") --The Key
 
 LBIS:AddItem(spec, "40703", LBIS.L["Off Hand"], "BIS") --Grasscutter
 
-LBIS:AddItem(spec, "40867", LBIS.L["Relic"], "BIS") --Sigil of the Wild Buck
+LBIS:AddItem(spec, "41257", LBIS.L["Two Hand"], "BIS") --Titansteel Destroyer
+LBIS:AddItem(spec, "37852", LBIS.L["Two Hand"], "Alt") --Colossal Skull-Clad Cleaver
+
+LBIS:AddItem(spec, "40867", LBIS.L["Ranged/Relic"], "BIS") --Sigil of the Wild Buck
