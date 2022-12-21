@@ -51,17 +51,16 @@ TomTomWaypointsM = {
 		},
 		["特變電工 - 伊弗斯"] = {
 			[115] = {
-				["115:577261613.69193:142542787.28606:水晶冰雪元素"] = {
+				["115:603178484.10758:515403422.98289:奈瑟斯塔兹"] = {
 					115, -- [1]
-					0.5772616136919315, -- [2]
-					0.1425427872860636, -- [3]
+					0.6031784841075795, -- [2]
+					0.5154034229828851, -- [3]
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["desc"] = "水晶冰雪元素",
-					["silent"] = true,
+					["minimap"] = true,
 					["cleardistance"] = 10,
-					["title"] = "水晶冰雪元素",
+					["title"] = "奈瑟斯塔兹",
 					["from"] = "Questie",
 					["callbacks"] = {
 						["distance"] = {
@@ -79,7 +78,6 @@ TomTomWaypointsM = {
 							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
-					["minimap"] = true,
 					["world"] = true,
 				},
 			},
