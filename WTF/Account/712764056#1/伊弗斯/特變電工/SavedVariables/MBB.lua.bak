@@ -5,6 +5,7 @@ MBB_Exclude = {
 	"LibDBIcon10_AtlasLoot", -- [3]
 	"WIM3MinimapButton", -- [4]
 	"LibDBIcon10_PoisonCharges", -- [5]
+	"LibDBIcon10_BisTooltipIcon", -- [6]
 }
 MBB_Options = {
 	["CollapseTimeout"] = 1,

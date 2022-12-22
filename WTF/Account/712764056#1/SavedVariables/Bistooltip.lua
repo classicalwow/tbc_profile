@@ -22,7 +22,6 @@ BisTooltipDB = {
 			["data_source"] = "wh",
 		},
 		["特變電工 - 伊弗斯"] = {
-			["class_index"] = 9,
 			["version"] = 6.1,
 			["filter_specs"] = {
 				["Warrior"] = {
@@ -78,7 +77,6 @@ BisTooltipDB = {
 				},
 			},
 			["data_source"] = "wh",
-			["phase_index"] = 2,
 		},
 	},
 }

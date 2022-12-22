@@ -689,8 +689,8 @@ LootMonitorDB = {
 			["Date"] = "2022-12-20",
 			["Class"] = "WARRIOR",
 			["InstanceID"] = 533,
-			["Player"] = "特變電工",
 			["FirstPlayer"] = "未知",
+			["InstanceName"] = "纳克萨玛斯",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-533-9383-15956-000021AC06",
@@ -905,7 +905,7 @@ LootMonitorDB = {
 				}, -- [15]
 			},
 			["SavedID"] = 131250861,
-			["InstanceName"] = "纳克萨玛斯",
+			["Player"] = "特變電工",
 			["FirstClass"] = "UNKNOWN",
 		}, -- [4]
 	},

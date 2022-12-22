@@ -16,7 +16,7 @@ AtlasLootClassicDB = {
 			[33535] = "BoJ:35",
 			[23465] = "honor:5000",
 			[33663] = "honor:17100",
-			[40856] = "honor:35000",
+			[40856] = "EmblemOfHeroism:30",
 			[40888] = "honor:27580",
 			[18430] = "honor:200",
 			[30770] = "BoJ:20",
@@ -93,7 +93,7 @@ AtlasLootClassicDB = {
 			[33508] = "BoJ:20",
 			[33540] = "BoJ:35",
 			[18848] = "honor:2500",
-			[40797] = "honor:35000",
+			[40797] = "EmblemOfHeroism:30",
 			[28119] = "honor:1425",
 			[33732] = "honor:6840",
 			[33764] = "honor:5130",
@@ -206,7 +206,7 @@ AtlasLootClassicDB = {
 			[33515] = "BoJ:75",
 			[33579] = "BoJ:75",
 			[40804] = "arena:1350",
-			[40836] = "honor:42000",
+			[40836] = "EmblemOfHeroism:45",
 			[37927] = "honor:5700",
 			[30776] = "BoJ:30",
 			[42115] = "honor:33180",
@@ -289,7 +289,7 @@ AtlasLootClassicDB = {
 			[40682] = "EmblemOfHeroism:40",
 			[34576] = "honor:3990",
 			[33585] = "BoJ:75",
-			[40778] = "honor:42000",
+			[40778] = "EmblemOfHeroism:45",
 			[44902] = "cpvpWintergrasp:40",
 			[33681] = "honor:4275",
 			[24545] = "honor:4750",
@@ -455,7 +455,7 @@ AtlasLootClassicDB = {
 			[33559] = "BoJ:60",
 			[37928] = "honor:5700",
 			[16548] = "honor:2000",
-			[40816] = "honor:42000",
+			[40816] = "EmblemOfHeroism:45",
 			[33687] = "honor:12825",
 			[40880] = "honor:43400",
 			[28307] = "honor:4750",
@@ -482,8 +482,8 @@ AtlasLootClassicDB = {
 			[42607] = "arena:1200",
 			[38547] = "arena:400",
 			[33729] = "honor:6840",
+			[40689] = "EmblemOfHeroism:40",
 			[33528] = "BoJ:60",
-			[18826] = "honor:2500",
 			[40721] = "EmblemOfValor:25",
 			[29275] = "BoJ:50",
 			[18874] = "honor:5000",
@@ -616,7 +616,7 @@ AtlasLootClassicDB = {
 			[18860] = "honor:5000",
 			[33716] = "honor:17100",
 			[33973] = "BoJ:60",
-			[40689] = "EmblemOfHeroism:40",
+			[18826] = "honor:2500",
 			[30763] = "BoJ:20",
 			[33756] = "honor:8550",
 			[16341] = "honor:200",
@@ -737,16 +737,15 @@ AtlasLootClassicDB = {
 			},
 			["GUI"] = {
 				["point"] = {
-					"TOP", -- [1]
+					"TOPRIGHT", -- [1]
 					nil, -- [2]
-					"TOP", -- [3]
-					277.9234924316406, -- [4]
-					-118.7796478271484, -- [5]
+					"TOPRIGHT", -- [3]
+					-199.8504180908203, -- [4]
+					-115.5025253295898, -- [5]
 				},
-				["selectedGameVersion"] = 2,
 				["selected"] = {
-					nil, -- [1]
-					"NaxxramasWrath", -- [2]
+					"AtlasLootClassic_Crafting", -- [1]
+					"EnchantingWrath", -- [2]
 					nil, -- [3]
 					1, -- [4]
 					0, -- [5]
