@@ -14160,6 +14160,54 @@ RaidLedgerDatabase = {
 						["count"] = 1,
 					},
 				}, -- [1177]
+				{
+					["beneficiary"] = "你",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40844::::::::80:::::::::|h[致命角斗士的板甲护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [1178]
+				{
+					["beneficiary"] = "Jigsawkiller",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40556::::::::80:::::::::|h[勇猛的天灾苦痛腿铠]|h|r",
+						["count"] = 1,
+					},
+				}, -- [1179]
+				{
+					["beneficiary"] = "誰來弄死我丶",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40575::::::::80:::::::::|h[勇猛的救赎护手]|h|r",
+						["count"] = 1,
+					},
+				}, -- [1180]
+				{
+					["beneficiary"] = "欲火",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:41970::::::::80:::::::::|h[致命角斗士的丝质护手]|h|r",
+						["count"] = 1,
+					},
+				}, -- [1181]
 			},
 		}, -- [1]
 	},
