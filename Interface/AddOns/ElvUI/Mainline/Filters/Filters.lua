@@ -725,6 +725,8 @@ G.unitframe.aurafilters.RaidDebuffs = {
 		[215430] = List(), -- Thunderstrike 1
 		[215429] = List(), -- Thunderstrike 2
 		[203963] = List(), -- Eye of the Storm
+		[196497] = List(), -- Ravenous Leap
+		[193660] = List(), -- Felblaze Rush
 	-- Shadowmoon Burial Grounds
 		[156776] = List(), -- Rending Voidlash
 		[153692] = List(), -- Necrotic Pitch
@@ -813,6 +815,7 @@ G.unitframe.aurafilters.RaidDebuffs = {
 		[371007] = List(), -- Splintering Shards
 		[375591] = List(), -- Sappy Burst
 		[385409] = List(), -- Ouch, ouch, ouch!
+		[386549] = List(), -- Waking Bane
 	-- Algeth'ar Academy
 		[389033] = List(), -- Lasher Toxin
 		[391977] = List(), -- Oversurge
@@ -1037,14 +1040,10 @@ G.unitframe.aurafilters.RaidBuffsElvUI = {
 		[388029] = List(), -- Diverted Essence 1
 		[387982] = List(), -- Diverted Essence 2
 	-- Kurog Grimtotem
-		[374918] = List(), -- Thundering Dominance
-		[374881] = List(), -- Flaming Dominance
-		[374916] = List(), -- Chilling Dominance
-		[374917] = List(), -- Shattering Dominance
 		[374321] = List(), -- Breaking Gravel
 		[395893] = List(), -- Erupting Bedrock
 		[374485] = List(), -- Magma Flow
-		[374779] = List(6), -- Primal Barrier
+		[374779] = List(), -- Primal Barrier
 		[374707] = List(), -- Seismic Rupture
 		[374624] = List(), -- Freezing Tempest
 	-- Broodkeeper Diurna
@@ -1180,6 +1179,18 @@ G.unitframe.ChannelTicks = {
 	[257044]	= 7, -- Rapid Fire
 }
 
+-- Spells that chain, second step
+G.unitframe.ChainChannelTicks = {
+	-- Evoker
+	[356995]	= 4, -- Disintegrate
+}
+
+-- Window to chain time (in seconds); usually the channel duration
+G.unitframe.ChainChannelTime = {
+	-- Evoker
+	[356995]	= 3, -- Disintegrate
+}
+
 -- Spells Effected By Talents
 G.unitframe.TalentChannelTicks = {
 	-- Priest
@@ -1187,17 +1198,18 @@ G.unitframe.TalentChannelTicks = {
 	-- [47758]	= {tier = 1, column = 1, ticks = 4}, -- Penance (DPS)
 }
 
+-- Spells Effected By Haste, these spells require a Tick Size (table above)
+G.unitframe.HastedChannelTicks = {
+	-- Mage
+	[205021]	= true, -- Ray of Frost
+}
+
+-- The Base Tick Size
 G.unitframe.ChannelTicksSize = {
 	-- Warlock
 	[198590]	= 1, -- Drain Soul
 	-- Mage
 	[205021]	= 1, -- Ray of Frost
-}
-
--- Spells Effected By Haste, these spells require a Tick Size (table above)
-G.unitframe.HastedChannelTicks = {
-	-- Mage
-	[205021]	= true, -- Ray of Frost
 }
 
 -- This should probably be the same as the whitelist filter + any personal class ones that may be important to watch
