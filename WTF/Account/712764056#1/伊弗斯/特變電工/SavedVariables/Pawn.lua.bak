@@ -87,9 +87,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:40718::::::::80:::::::::|h[坚固堡垒徽记]|h|r",
 		},
 		[5] = {
-			["ID"] = 44000,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:44000::::::::80:::::::::|h[巨龙风暴胸铠]|h|r",
+			["ID"] = 40539,
+			["Level"] = 226,
+			["Link"] = "|cffa335ee|Hitem:40539::::::::80:::::::::|h[寂寞胸甲]|h|r",
 		},
 	},
 	["AutoSelectScales"] = false,
