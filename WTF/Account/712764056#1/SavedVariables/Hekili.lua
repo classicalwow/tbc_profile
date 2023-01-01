@@ -64,7 +64,7 @@ HekiliDB = {
 					["package"] = "Protection Paladin (wowtbc.gg)",
 				}, -- [2]
 				{
-					["package"] = "my",
+					["package"] = "Survival (wowtbc.gg)",
 				}, -- [3]
 				[9] = {
 					["settings"] = {
@@ -1363,9 +1363,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
+								["criteria"] = "active_enemies > 3",
 								["action"] = "thunder_clap",
 								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
-								["criteria"] = "active_enemies > 3",
 							}, -- [2]
 							{
 								["action"] = "overpower",
@@ -1497,9 +1497,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
+								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 								["criteria"] = "active_enemies > 3",
 								["action"] = "thunder_clap",
-								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 							}, -- [2]
 							{
 								["action"] = "overpower",

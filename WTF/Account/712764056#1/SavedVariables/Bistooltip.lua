@@ -9,6 +9,7 @@ BisTooltipDB = {
 	},
 	["char"] = {
 		["頂級投資家 - 伊弗斯"] = {
+			["data_source"] = "wowtbc",
 			["version"] = 6.1,
 		},
 		["路易斯桑拿 - 伊弗斯"] = {
@@ -74,8 +75,12 @@ BisTooltipDB = {
 			["phase_index"] = 2,
 		},
 		["邁克爾假死 - 伊弗斯"] = {
+			["class_index"] = 3,
+			["spec_index"] = 3,
+			["minimapPos"] = 219.0600081825738,
 			["version"] = 6.1,
 			["data_source"] = "wh",
+			["phase_index"] = 2,
 		},
 		["暖男你馬四了 - 伊弗斯"] = {
 			["version"] = 6.1,

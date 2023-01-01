@@ -1,6 +1,8 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0712,
+	["LastVersion"] = 2.0713,
+	["LastPlayerFullName"] = "頂級投資家-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		[8] = {
 			["ID"] = 24146,
@@ -18,8 +20,6 @@ PawnOptions = {
 			["Link"] = "|cff9d9d9d|Hitem:24145::::::::1:::::::::|h[见习者短裤]|h|r",
 		},
 	},
-	["LastPlayerFullName"] = "頂級投資家-伊弗斯",
-	["AutoSelectScales"] = false,
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

@@ -2,9 +2,21 @@
 DataStore_AchievementsDB = {
 	["profileKeys"] = {
 		["暖男你馬四了 - 伊弗斯"] = "暖男你馬四了 - 伊弗斯",
+		["頂級投資家 - 伊弗斯"] = "頂級投資家 - 伊弗斯",
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.伊弗斯.頂級投資家"] = {
+				["Partial"] = {
+					[762] = "1:500,2:3100,3:500,4:500,5:4000",
+					[859] = "4",
+					[705] = "6:1,7:1,10:1,14:1",
+					[16] = 1,
+				},
+				["numAchievements"] = 1055,
+				["lastUpdate"] = 1669891727,
+				["guid"] = "Player-4487-001C0EC2",
+			},
 			["Default.伊弗斯.暖男你馬四了"] = {
 				["Partial"] = {
 					[776] = "9",
@@ -12,9 +24,9 @@ DataStore_AchievementsDB = {
 					[705] = "3:1,9:1,12:1,14:1",
 					[948] = "1:3100,2:3000,3:3100,4:3100,5:4000",
 				},
-				["numAchievements"] = 1055,
-				["lastUpdate"] = 1668964936,
 				["guid"] = "Player-4487-0018BE27",
+				["lastUpdate"] = 1668964936,
+				["numAchievements"] = 1055,
 			},
 		},
 	},
