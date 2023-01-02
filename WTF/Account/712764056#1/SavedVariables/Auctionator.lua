@@ -55,6 +55,11 @@ AUCTIONATOR_TOONS = {
 		["firstVersion"] = "100.0.11",
 		["guid"] = "Player-4487-000B0452",
 	},
+	["特斯拉大股東"] = {
+		["firstSeen"] = 1672571874,
+		["firstVersion"] = "2.5.5-1-g17bf777",
+		["guid"] = "Player-4487-00246B86",
+	},
 }
 AUCTIONATOR_STACKING_PREFS = {
 	["克銀錠"] = {

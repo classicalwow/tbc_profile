@@ -29,6 +29,7 @@ MailLoggerDB = {
 			["暖男你馬四了"] = true,
 			["特變電工"] = true,
 			["畜生犬隊長"] = true,
+			["特斯拉大股東"] = true,
 		},
 		["LogEverything"] = false,
 	},
@@ -597,10 +598,10 @@ MailLoggerDB = {
 					["ItemLink"] = "|cff1eff00|Hitem:12799::::::::80:::::::::|h[大猫眼石]|h|r",
 					["Name"] = "大猫眼石",
 				},
-				[98] = {
-					["Number"] = 30,
-					["ItemLink"] = "|cff1eff00|Hitem:12361::::::::80:::::::::|h[蓝宝石]|h|r",
-					["Name"] = "蓝宝石",
+				[10] = {
+					["Number"] = 21,
+					["ItemLink"] = "|cff1eff00|Hitem:1206::::::::80:::::::::|h[绿玛瑙]|h|r",
+					["Name"] = "绿玛瑙",
 				},
 				[95] = {
 					["Number"] = 10,
@@ -612,10 +613,10 @@ MailLoggerDB = {
 					["ItemLink"] = "|cff1eff00|Hitem:6037::::::::80:::::::::|h[真银锭]|h|r",
 					["Name"] = "真银锭",
 				},
-				[10] = {
-					["Number"] = 21,
-					["ItemLink"] = "|cff1eff00|Hitem:1206::::::::80:::::::::|h[绿玛瑙]|h|r",
-					["Name"] = "绿玛瑙",
+				[98] = {
+					["Number"] = 30,
+					["ItemLink"] = "|cff1eff00|Hitem:12361::::::::80:::::::::|h[蓝宝石]|h|r",
+					["Name"] = "蓝宝石",
 				},
 				[72] = {
 					["Number"] = 36,
@@ -6775,5 +6776,458 @@ MailLoggerDB = {
 				}, -- [1]
 			},
 		}, -- [331]
+		{
+			["PlayerName"] = "特變電工",
+			["TargetName"] = "路易斯桑拿",
+			["Reason"] = 1,
+			["Date"] = "2023-01-01",
+			["ReceiveMoney"] = 0,
+			["Time"] = "18:45:45",
+			["GiveMoney"] = 0,
+			["Location"] = "奥格瑞玛",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 27,
+					["ItemLink"] = "|cffffffff|Hitem:33470::::::::80:::::::::|h[霜纹布]|h|r",
+					["Name"] = "霜纹布",
+				}, -- [1]
+			},
+		}, -- [332]
+		{
+			["TargetName"] = "特變電工",
+			["PlayerName"] = "邁克爾假死",
+			["Date"] = "2023-01-01",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 150000000,
+			["Location"] = "奥格瑞玛",
+			["Time"] = "18:47:57",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [333]
+		{
+			["TargetName"] = "路易斯桑拿",
+			["PlayerName"] = "邁克爾假死",
+			["Date"] = "2023-01-01",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 1000000,
+			["Location"] = "达拉然",
+			["Time"] = "18:53:42",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [334]
+		{
+			["PlayerName"] = "邁克爾假死",
+			["TargetName"] = "路易斯桑拿",
+			["Reason"] = 1,
+			["Date"] = "2023-01-01",
+			["ReceiveMoney"] = 0,
+			["Time"] = "18:58:54",
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 9,
+					["ItemLink"] = "|cff1eff00|Hitem:36929::::::::80:::::::::|h[茶晶石]|h|r",
+					["Name"] = "茶晶石",
+				}, -- [1]
+				{
+					["Number"] = 18,
+					["ItemLink"] = "|cff1eff00|Hitem:36926::::::::80:::::::::|h[暗影水晶]|h|r",
+					["Name"] = "暗影水晶",
+				}, -- [2]
+				{
+					["Number"] = 18,
+					["ItemLink"] = "|cff1eff00|Hitem:36920::::::::80:::::::::|h[太阳水晶]|h|r",
+					["Name"] = "太阳水晶",
+				}, -- [3]
+				{
+					["Number"] = 10,
+					["ItemLink"] = "|cff1eff00|Hitem:36923::::::::80:::::::::|h[玉髓石]|h|r",
+					["Name"] = "玉髓石",
+				}, -- [4]
+				{
+					["Number"] = 15,
+					["ItemLink"] = "|cff1eff00|Hitem:36917::::::::80:::::::::|h[血石]|h|r",
+					["Name"] = "血石",
+				}, -- [5]
+			},
+		}, -- [335]
+		{
+			["PlayerName"] = "特變電工",
+			["TargetName"] = "路易斯桑拿",
+			["Reason"] = 2,
+			["Date"] = "2023-01-01",
+			["ReceiveMoney"] = 0,
+			["Time"] = "19:28:53",
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 20,
+					["ItemLink"] = "|cffffffff|Hitem:33470::::::::80:::::::::|h[霜纹布]|h|r",
+					["Name"] = "霜纹布",
+				}, -- [1]
+			},
+		}, -- [336]
+		{
+			["PlayerName"] = "特變電工",
+			["TargetName"] = "邁克爾假死",
+			["Reason"] = 1,
+			["Date"] = "2023-01-01",
+			["ReceiveMoney"] = 150000000,
+			["Time"] = "19:28:55",
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+			},
+		}, -- [337]
+		{
+			["TargetName"] = "特斯拉大股東",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-01-01",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffe6cc80|Hitem:49177::::::::80:::::::::|h[寒冷天气飞行宝典]|h|r",
+					["Name"] = "寒冷天气飞行宝典",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffe6cc80|Hitem:48691::::::::80:::::::::|h[破烂的鬼雾长袍]|h|r",
+					["Name"] = "破烂的鬼雾长袍",
+				}, -- [2]
+			},
+			["GiveMoney"] = 55000000,
+			["Location"] = "达拉然",
+			["Time"] = "19:33:57",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [338]
+		{
+			["PlayerName"] = "特斯拉大股東",
+			["TargetName"] = "特變電工",
+			["Reason"] = 1,
+			["Date"] = "2023-01-01",
+			["ReceiveMoney"] = 55000000,
+			["Time"] = "19:40:01",
+			["GiveMoney"] = 0,
+			["Location"] = "地狱火半岛",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffe6cc80|Hitem:48691::::::::70:::::::::|h[破烂的鬼雾长袍]|h|r",
+					["Name"] = "破烂的鬼雾长袍",
+				}, -- [1]
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffe6cc80|Hitem:49177::::::::70:::::::::|h[寒冷天气飞行宝典]|h|r",
+					["Name"] = "寒冷天气飞行宝典",
+				}, -- [2]
+			},
+		}, -- [339]
+		{
+			["PlayerName"] = "特斯拉大股東",
+			["TargetName"] = "部落拍卖行",
+			["Reason"] = 4,
+			["Date"] = "2023-01-01",
+			["ReceiveMoney"] = 0,
+			["Time"] = "19:44:13",
+			["GiveMoney"] = 0,
+			["Location"] = "奥格瑞玛",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 4,
+					["ItemLink"] = "|cff1eff00|Hitem:41599::::::::70:::::::::|h[霜纹包]|h|r",
+					["Name"] = "霜纹包",
+				}, -- [1]
+			},
+		}, -- [340]
+		{
+			["PlayerName"] = "特斯拉大股東",
+			["TargetName"] = "部落拍卖行",
+			["Reason"] = 4,
+			["Date"] = "2023-01-01",
+			["ReceiveMoney"] = 0,
+			["Time"] = "19:48:56",
+			["GiveMoney"] = 0,
+			["Location"] = "奥格瑞玛",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 2,
+					["ItemLink"] = "|cffffffff|Hitem:42469::::::::70:::::::::|h[生命虹吸雕文]|h|r",
+					["Name"] = "生命虹吸雕文",
+				}, -- [1]
+				{
+					["Number"] = 2,
+					["ItemLink"] = "|cffffffff|Hitem:45785::::::::70:::::::::|h[生命分流雕文]|h|r",
+					["Name"] = "生命分流雕文",
+				}, -- [2]
+				[5] = {
+					["Number"] = 1,
+					["ItemLink"] = "|cffffffff|Hitem:43389::::::::70:::::::::|h[水下呼吸雕文]|h|r",
+					["Name"] = "水下呼吸雕文",
+				},
+				[6] = {
+					["Number"] = 20,
+					["ItemLink"] = "|cffffffff|Hitem:43390::::::::70:::::::::|h[吸取灵魂雕文]|h|r",
+					["Name"] = "吸取灵魂雕文",
+				},
+			},
+		}, -- [341]
+		{
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-01-01",
+			["ReceiveMoney"] = 0,
+			["Time"] = "21:48:26",
+			["GiveMoney"] = 0,
+			["Location"] = "纳克萨玛斯",
+			["GiveItems"] = {
+			},
+			["TargetName"] = "终焉誓約",
+			["ReceiveItems"] = {
+			},
+		}, -- [342]
+		{
+			["TargetName"] = "终焉誓約",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-01-01",
+			["ReceiveMoney"] = 0,
+			["Time"] = "21:48:26",
+			["GiveMoney"] = 3000000,
+			["Location"] = "纳克萨玛斯",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:40208::::::::80:::::::::|h[蛛魔之刺]|h|r",
+					["Name"] = "蛛魔之刺",
+				}, -- [1]
+			},
+		}, -- [343]
+		{
+			["PlayerName"] = "特變電工",
+			["TargetName"] = "部落拍卖行",
+			["Reason"] = 1,
+			["Date"] = "2023-01-01",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:50:15",
+			["GiveMoney"] = 0,
+			["Location"] = "奥格瑞玛",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cff0070dd|Hitem:38992::::::::80:::::::::|h[卷轴：附魔双手武器 - 强效野蛮]|h|r",
+					["Name"] = "卷轴：附魔双手武器 - 强效野蛮",
+				}, -- [1]
+			},
+		}, -- [344]
+		{
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-01-01",
+			["ReceiveMoney"] = 0,
+			["Time"] = "23:43:14",
+			["GiveMoney"] = 0,
+			["Location"] = "黑曜石圣殿",
+			["GiveItems"] = {
+			},
+			["TargetName"] = "终焉誓約",
+			["ReceiveItems"] = {
+			},
+		}, -- [345]
+		{
+			["TargetName"] = "终焉誓約",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-01-01",
+			["ReceiveMoney"] = 174600000,
+			["Time"] = "23:43:14",
+			["GiveMoney"] = 0,
+			["Location"] = "黑曜石圣殿",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [346]
+		{
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-01-01",
+			["ReceiveMoney"] = 0,
+			["Time"] = "23:43:31",
+			["GiveMoney"] = 0,
+			["Location"] = "黑曜石圣殿",
+			["GiveItems"] = {
+			},
+			["TargetName"] = "四代目",
+			["ReceiveItems"] = {
+			},
+		}, -- [347]
+		{
+			["TargetName"] = "四代目",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-01-01",
+			["ReceiveMoney"] = 0,
+			["Time"] = "23:43:31",
+			["GiveMoney"] = 34920000,
+			["Location"] = "黑曜石圣殿",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [348]
+		{
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-01-01",
+			["ReceiveMoney"] = 0,
+			["Time"] = "23:43:44",
+			["GiveMoney"] = 0,
+			["Location"] = "黑曜石圣殿",
+			["GiveItems"] = {
+			},
+			["TargetName"] = "曉唄唄",
+			["ReceiveItems"] = {
+			},
+		}, -- [349]
+		{
+			["TargetName"] = "曉唄唄",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-01-01",
+			["ReceiveMoney"] = 0,
+			["Time"] = "23:43:44",
+			["GiveMoney"] = 34920000,
+			["Location"] = "黑曜石圣殿",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [350]
+		{
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-01-01",
+			["ReceiveMoney"] = 0,
+			["Time"] = "23:43:56",
+			["GiveMoney"] = 0,
+			["Location"] = "黑曜石圣殿",
+			["GiveItems"] = {
+			},
+			["TargetName"] = "歐耶嘎狼寵",
+			["ReceiveItems"] = {
+			},
+		}, -- [351]
+		{
+			["TargetName"] = "歐耶嘎狼寵",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-01-01",
+			["ReceiveMoney"] = 0,
+			["Time"] = "23:43:56",
+			["GiveMoney"] = 34920000,
+			["Location"] = "黑曜石圣殿",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [352]
+		{
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-01-01",
+			["ReceiveMoney"] = 0,
+			["Time"] = "23:44:06",
+			["GiveMoney"] = 0,
+			["Location"] = "黑曜石圣殿",
+			["GiveItems"] = {
+			},
+			["TargetName"] = "夏爾賽絲",
+			["ReceiveItems"] = {
+			},
+		}, -- [353]
+		{
+			["TargetName"] = "夏爾賽絲",
+			["PlayerName"] = "特變電工",
+			["Date"] = "2023-01-01",
+			["ReceiveMoney"] = 0,
+			["Time"] = "23:44:06",
+			["GiveMoney"] = 34920000,
+			["Location"] = "黑曜石圣殿",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [354]
+		{
+			["TargetName"] = "特斯拉大股東",
+			["PlayerName"] = "邁克爾假死",
+			["Date"] = "2023-01-01",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffe6cc80|Hitem:42985::::::::80:::::::::|h[褴褛的鬼雾衬肩]|h|r",
+					["Name"] = "褴褛的鬼雾衬肩",
+				}, -- [1]
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "达拉然",
+			["Time"] = "23:50:51",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [355]
+		{
+			["PlayerName"] = "特斯拉大股東",
+			["TargetName"] = "邁克爾假死",
+			["Reason"] = 1,
+			["Date"] = "2023-01-02",
+			["ReceiveMoney"] = 0,
+			["Time"] = "00:03:58",
+			["GiveMoney"] = 0,
+			["Location"] = "嚎风峡湾",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffe6cc80|Hitem:42985::::::::70:::::::::|h[褴褛的鬼雾衬肩]|h|r",
+					["Name"] = "褴褛的鬼雾衬肩",
+				}, -- [1]
+			},
+		}, -- [356]
 	},
 }

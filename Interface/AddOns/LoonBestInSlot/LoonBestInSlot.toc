@@ -1,7 +1,7 @@
 ## Interface: 30400
 ## Title: Loon Best In Slot
 ## Notes: 
-## OptionalDeps: LibExtraTip
+## OptionalDeps: LinkWrangler
 ## SavedVariables: LBISServerSettings
 ## SavedVariablesPerCharacter: LBISSettings
 ## Version: 4.4.0
@@ -32,5 +32,8 @@ UI\LootBrowser.lua
 UI\ItemList.lua
 UI\GemList.lua
 UI\EnchantList.lua
-UI\CustomList.lua
+UI\CustomEditList.lua
+UI\CustomItemList.lua
+UI\AutoComplete.lua
 UI\SearchFrame.lua
+UI\NewFeaturesWindow.lua

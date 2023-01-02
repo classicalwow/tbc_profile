@@ -4376,7 +4376,7 @@ RaidLedgerDatabase = {
 					["detail"] = {
 						["type"] = "ITEM",
 						["item"] = "|cffa335ee|Hitem:38374::::::::80:::::::::|h[冰鳞腿甲片]|h|r",
-						["count"] = 1,
+						["count"] = 2,
 					},
 				}, -- [363]
 				{
@@ -7859,6 +7859,966 @@ RaidLedgerDatabase = {
 						["count"] = 1,
 					},
 				}, -- [653]
+				{
+					["beneficiary"] = "你",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cff0070dd|Hitem:31079::::::::80:::::::::|h[水银精金]|h|r",
+						["count"] = 1,
+					},
+				}, -- [654]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39717::::::::80:::::::::|h[无情战靴]|h|r",
+						["count"] = 1,
+					},
+				}, -- [655]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39704::::::::80:::::::::|h[暴毙肩铠]|h|r",
+						["count"] = 1,
+					},
+				}, -- [656]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40107::::::::80:::::::::|h[沙砾指环]|h|r",
+						["count"] = 1,
+					},
+				}, -- [657]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39719::::::::80:::::::::|h[蝗虫衬肩]|h|r",
+						["count"] = 1,
+					},
+				}, -- [658]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39757::::::::80:::::::::|h[膜拜神像]|h|r",
+						["count"] = 1,
+					},
+				}, -- [659]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39727::::::::80:::::::::|h[脱臼裹手]|h|r",
+						["count"] = 1,
+					},
+				}, -- [660]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39731::::::::80:::::::::|h[谨慎护腕]|h|r",
+						["count"] = 1,
+					},
+				}, -- [661]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40074::::::::80:::::::::|h[强力指环]|h|r",
+						["count"] = 1,
+					},
+				}, -- [662]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40412::::::::80:::::::::|h[流放珠串]|h|r",
+						["count"] = 1,
+					},
+				}, -- [663]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39759::::::::80:::::::::|h[熔蚀几丁质束带]|h|r",
+						["count"] = 1,
+					},
+				}, -- [664]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:39763::::::::80:::::::::|h[怨灵之击]|h|r",
+						["count"] = 1,
+					},
+				}, -- [665]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40062::::::::80:::::::::|h[被消化的丝绸长袍]|h|r",
+						["count"] = 1,
+					},
+				}, -- [666]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40252::::::::80:::::::::|h[蔽日披风]|h|r",
+						["count"] = 1,
+					},
+				}, -- [667]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40262::::::::80:::::::::|h[风险手套]|h|r",
+						["count"] = 1,
+					},
+				}, -- [668]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40265::::::::80:::::::::|h[飞矢之歌]|h|r",
+						["count"] = 1,
+					},
+				}, -- [669]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40273::::::::80:::::::::|h[多余的肢体]|h|r",
+						["count"] = 1,
+					},
+				}, -- [670]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40108::::::::80:::::::::|h[美貌之戒]|h|r",
+						["count"] = 1,
+					},
+				}, -- [671]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40285::::::::80:::::::::|h[亵渎短裤]|h|r",
+						["count"] = 1,
+					},
+				}, -- [672]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40284::::::::80:::::::::|h[疫病点燃器]|h|r",
+						["count"] = 1,
+					},
+				}, -- [673]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40279::::::::80:::::::::|h[枯竭胸甲]|h|r",
+						["count"] = 1,
+					},
+				}, -- [674]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40253::::::::80:::::::::|h[修女披风]|h|r",
+						["count"] = 1,
+					},
+				}, -- [675]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cff0070dd|Hitem:34052::::::::80:::::::::|h[梦境碎片]|h|r",
+						["count"] = 4,
+					},
+				}, -- [676]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:22450::::::::80:::::::::|h[虚空水晶]|h|r",
+						["count"] = 6,
+					},
+				}, -- [677]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:34057::::::::80:::::::::|h[深渊水晶]|h|r",
+						["count"] = 15,
+					},
+				}, -- [678]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40284::::::::80:::::::::|h[疫病点燃器]|h|r",
+						["count"] = 1,
+					},
+				}, -- [679]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40637::::::::80:::::::::|h[失落征服者的肩甲]|h|r",
+						["count"] = 1,
+					},
+				}, -- [680]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40626::::::::80:::::::::|h[失落保卫者的胸甲]|h|r",
+						["count"] = 1,
+					},
+				}, -- [681]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40320::::::::80:::::::::|h[虔诚精钢之靴]|h|r",
+						["count"] = 1,
+					},
+				}, -- [682]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40296::::::::80:::::::::|h[沉默之帽]|h|r",
+						["count"] = 1,
+					},
+				}, -- [683]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40301::::::::80:::::::::|h[极性腰带]|h|r",
+						["count"] = 1,
+					},
+				}, -- [684]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40635::::::::80:::::::::|h[失落保卫者的腿甲]|h|r",
+						["count"] = 1,
+					},
+				}, -- [685]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40634::::::::80:::::::::|h[失落征服者的腿甲]|h|r",
+						["count"] = 1,
+					},
+				}, -- [686]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40410::::::::80:::::::::|h[食尸鬼之影]|h|r",
+						["count"] = 1,
+					},
+				}, -- [687]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40317::::::::80:::::::::|h[拉苏维奥斯的腰带]|h|r",
+						["count"] = 1,
+					},
+				}, -- [688]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40321::::::::80:::::::::|h[飞星神像]|h|r",
+						["count"] = 1,
+					},
+				}, -- [689]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40107::::::::80:::::::::|h[沙砾指环]|h|r",
+						["count"] = 1,
+					},
+				}, -- [690]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40324::::::::80:::::::::|h[尊重腕甲]|h|r",
+						["count"] = 1,
+					},
+				}, -- [691]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40339::::::::80:::::::::|h[戈提克的罩帽]|h|r",
+						["count"] = 1,
+					},
+				}, -- [692]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40252::::::::80:::::::::|h[蔽日披风]|h|r",
+						["count"] = 1,
+					},
+				}, -- [693]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40334::::::::80:::::::::|h[责任肩甲]|h|r",
+						["count"] = 1,
+					},
+				}, -- [694]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40331::::::::80:::::::::|h[无可逃避护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [695]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40345::::::::80:::::::::|h[破碎的承诺]|h|r",
+						["count"] = 1,
+					},
+				}, -- [696]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40348::::::::80:::::::::|h[诅咒]|h|r",
+						["count"] = 1,
+					},
+				}, -- [697]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40627::::::::80:::::::::|h[失落胜利者的胸甲]|h|r",
+						["count"] = 1,
+					},
+				}, -- [698]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40626::::::::80:::::::::|h[失落保卫者的胸甲]|h|r",
+						["count"] = 1,
+					},
+				}, -- [699]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40188::::::::80:::::::::|h[抗拒手套]|h|r",
+						["count"] = 1,
+					},
+				}, -- [700]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40193::::::::80:::::::::|h[遮蔽苦难外套]|h|r",
+						["count"] = 1,
+					},
+				}, -- [701]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40196::::::::80:::::::::|h[安息者的护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [702]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40080::::::::80:::::::::|h[遗失的珠宝]|h|r",
+						["count"] = 1,
+					},
+				}, -- [703]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40208::::::::80:::::::::|h[蛛魔之刺]|h|r",
+						["count"] = 1,
+					},
+				}, -- [704]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40257::::::::80:::::::::|h[防御者的准则]|h|r",
+						["count"] = 1,
+					},
+				}, -- [705]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40235::::::::80:::::::::|h[朝圣头盔]|h|r",
+						["count"] = 1,
+					},
+				}, -- [706]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40204::::::::80:::::::::|h[使徒护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [707]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cff0070dd|Hitem:37793::::::::80:::::::::|h[永恒恐惧头盔]|h|r",
+						["count"] = 1,
+					},
+				}, -- [708]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40246::::::::80:::::::::|h[冲动之靴]|h|r",
+						["count"] = 1,
+					},
+				}, -- [709]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40637::::::::80:::::::::|h[失落征服者的肩甲]|h|r",
+						["count"] = 1,
+					},
+				}, -- [710]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40239::::::::80:::::::::|h[蛛魔之手]|h|r",
+						["count"] = 1,
+					},
+				}, -- [711]
+				{
+					["beneficiary"] = "你",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40331::::::::80:::::::::|h[无可逃避护腿]|h|r",
+						["count"] = 1,
+					},
+				}, -- [712]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40368::::::::80:::::::::|h[谋杀]|h|r",
+						["count"] = 1,
+					},
+				}, -- [713]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40374::::::::80:::::::::|h[宇宙之光]|h|r",
+						["count"] = 1,
+					},
+				}, -- [714]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:44577::::::::80:::::::::|h[英雄聚焦之虹的钥匙]|h|r",
+						["count"] = 1,
+					},
+				}, -- [715]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40366::::::::80:::::::::|h[巨龙战盔]|h|r",
+						["count"] = 1,
+					},
+				}, -- [716]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40381::::::::80:::::::::|h[同情]|h|r",
+						["count"] = 1,
+					},
+				}, -- [717]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40387::::::::80:::::::::|h[无尽的野心]|h|r",
+						["count"] = 1,
+					},
+				}, -- [718]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40396::::::::80:::::::::|h[逆潮]|h|r",
+						["count"] = 1,
+					},
+				}, -- [719]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40401::::::::80:::::::::|h[理智之声]|h|r",
+						["count"] = 1,
+					},
+				}, -- [720]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40631::::::::80:::::::::|h[失落征服者的头冠]|h|r",
+						["count"] = 1,
+					},
+				}, -- [721]
+				{
+					["beneficiary"] = "暗影庇护着你",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cff0070dd|Hitem:34052::::::::80:::::::::|h[梦境碎片]|h|r",
+						["count"] = 1,
+					},
+				}, -- [722]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40632::::::::80:::::::::|h[失落保卫者的头冠]|h|r",
+						["count"] = 1,
+					},
+				}, -- [723]
+				{
+					["beneficiary"] = "你",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cff0070dd|Hitem:42225::::::::80:::::::::|h[龙眼石]|h|r",
+						["count"] = 2,
+					},
+				}, -- [724]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:43345::::::::80:::::::::|h[龙皮包]|h|r",
+						["count"] = 1,
+					},
+				}, -- [725]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:43346::::::::80:::::::::|h[一大袋战利品]|h|r",
+						["count"] = 1,
+					},
+				}, -- [726]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:44006::::::::80:::::::::|h[黑曜石巨盔]|h|r",
+						["count"] = 1,
+					},
+				}, -- [727]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:44002::::::::80:::::::::|h[圣殿熔流外衣]|h|r",
+						["count"] = 1,
+					},
+				}, -- [728]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40451::::::::80:::::::::|h[狙击手的透明头盔]|h|r",
+						["count"] = 1,
+					},
+				}, -- [729]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40433::::::::80:::::::::|h[龙眠指环]|h|r",
+						["count"] = 1,
+					},
+				}, -- [730]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40628::::::::80:::::::::|h[失落征服者的护手]|h|r",
+						["count"] = 1,
+					},
+				}, -- [731]
+				{
+					["beneficiary"] = "姒凰",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40630::::::::80:::::::::|h[失落胜利者的护手]|h|r",
+						["count"] = 1,
+					},
+				}, -- [732]
+				{
+					["beneficiary"] = "你",
+					["type"] = "CREDIT",
+					["costtype"] = "GOLD",
+					["cost"] = 0,
+					["costcache"] = 0,
+					["detail"] = {
+						["type"] = "ITEM",
+						["item"] = "|cffa335ee|Hitem:40541::::::::80:::::::::|h[霜冻灵敏护手]|h|r",
+						["count"] = 1,
+					},
+				}, -- [733]
 			},
 		}, -- [1]
 	},

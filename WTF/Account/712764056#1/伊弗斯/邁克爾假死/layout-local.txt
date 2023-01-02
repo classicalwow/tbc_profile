@@ -13,13 +13,6 @@ X: 0
 Y: 0
 W: 365
 H: 240
-Frame: RaidGroupButton23
-FrameLevel: 12
-Anchor: LEFT
-X: 187
-Y: 243
-W: 156
-H: 14
 Frame: aux_frame
 FrameLevel: 1
 Anchor: RIGHT

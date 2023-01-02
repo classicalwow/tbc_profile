@@ -16,9 +16,9 @@ VER 3 0000000001000021 "爆发" "INV_MISC_QUESTIONMARK"
 /cast 野性呼唤
 END
 VER 3 000000000100000E "爆發" "136048"
-#showtooltip 急速射擊
-/cast 急速射擊
-/cast 狂野怒火
+#showtooltip 急速射击
+/cast 急速射击
+/cast 野性呼唤
 /cast 狂暴
 /use 加速药水
 END
