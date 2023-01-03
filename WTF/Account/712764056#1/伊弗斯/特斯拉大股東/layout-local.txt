@@ -2,8 +2,8 @@ Version: 1
 Frame: RXPG_ARROW
 FrameLevel: 1
 Anchor: BOTTOM
-X: -1
-Y: 148
+X: 4
+Y: 248
 W: 32
 H: 32
 Frame: RXPFrame
@@ -30,14 +30,7 @@ H: 50
 Frame: RXPItemFrame
 FrameLevel: 1
 Anchor: CENTER
-X: 307
-Y: -100
+X: 308
+Y: -97
 W: 75
 H: 40
-Frame: WorldMapFrame
-FrameLevel: 1
-Anchor: CENTER
-X: 60
-Y: -97
-W: 1024
-H: 768

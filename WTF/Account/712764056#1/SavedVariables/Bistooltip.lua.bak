@@ -10,8 +10,8 @@ BisTooltipDB = {
 	},
 	["char"] = {
 		["頂級投資家 - 伊弗斯"] = {
-			["data_source"] = "wowtbc",
 			["version"] = 6.1,
+			["data_source"] = "wowtbc",
 		},
 		["特變電工 - 伊弗斯"] = {
 			["class_index"] = 9,

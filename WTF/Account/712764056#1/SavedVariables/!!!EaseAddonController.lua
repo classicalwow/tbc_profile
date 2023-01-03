@@ -18,7 +18,7 @@ U1DBG = {
 				},
 				["ptype"] = "auto",
 				["class"] = "WARLOCK",
-				["savedate"] = 1672595534,
+				["savedate"] = 1672673414,
 				["config"] = {
 					["u1dbconfigs"] = true,
 					["u1dbaddons"] = true,
@@ -205,7 +205,7 @@ U1DBG = {
 				},
 				["ptype"] = "auto",
 				["class"] = "WARLOCK",
-				["savedate"] = 1672588275,
+				["savedate"] = 1672641865,
 				["config"] = {
 					["u1dbconfigs"] = true,
 					["u1dbaddons"] = true,
@@ -266,7 +266,7 @@ U1DBG = {
 					["datastore_quests"] = 0,
 					["altoholic_guild"] = 1,
 					["datastore_inventory"] = 0,
-					["gearscorelite"] = 0,
+					["gearscorelite"] = 1,
 					["weakaurasoptions"] = 1,
 					["arkinventoryrules"] = 1,
 					["threatclassic2"] = 0,

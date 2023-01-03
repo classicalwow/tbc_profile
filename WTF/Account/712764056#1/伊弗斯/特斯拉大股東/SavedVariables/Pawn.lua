@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0714,
+	["LastPlayerFullName"] = "特斯拉大股東-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 35814,
@@ -29,9 +31,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:35888::::::::70:::::::::|h[纹饰貂皮束带]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 199331,
-			["Level"] = 125,
-			["Link"] = "|cff1eff00|Hitem:199331::::::::70:::::::::|h[群集长裤]|h|r",
+			["ID"] = 35863,
+			["Level"] = 138,
+			["Link"] = "|cff1eff00|Hitem:35863::::::::71:::::::::|h[大地能量护腿]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 35900,
@@ -39,9 +41,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:35900::::::::71:::::::::|h[柔软的鹿皮靴]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 199333,
-			["Level"] = 125,
-			["Link"] = "|cff1eff00|Hitem:199333::::::::70:::::::::|h[群集护腕]|h|r",
+			["ID"] = 35896,
+			["Level"] = 138,
+			["Link"] = "|cff1eff00|Hitem:35896::::::::71:::::::::|h[寒冰打击护腕]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 35832,
@@ -61,21 +63,21 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:35925::::::::70:::::::::|h[闪光寒铁指环]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 199529,
-			["Level"] = 125,
+			["ID"] = 35935,
+			["Level"] = 138,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff1eff00|Hitem:199529::::::::70:::::::::|h[群集智慧之石]|h|r",
+			["Link"] = "|cff1eff00|Hitem:35935::::::::71:::::::::|h[魔法冻石符文]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 199529,
-			["Level"] = 125,
+			["ID"] = 35935,
+			["Level"] = 138,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff1eff00|Hitem:199529::::::::71:::::::::|h[群集智慧之石]|h|r",
+			["Link"] = "|cff1eff00|Hitem:35935::::::::72:::::::::|h[魔法冻石符文]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 199470,
-			["Level"] = 125,
-			["Link"] = "|cff1eff00|Hitem:199470::::::::70:::::::::|h[群集斗篷]|h|r",
+			["ID"] = 37277,
+			["Level"] = 138,
+			["Link"] = "|cff1eff00|Hitem:37277::::::::72:::::::::|h[貂皮披风]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 35809,
@@ -93,8 +95,6 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:35826::::::::70:::::::::|h[雏龙骨杖]|h|r",
 		}, -- [18]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "特斯拉大股東-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

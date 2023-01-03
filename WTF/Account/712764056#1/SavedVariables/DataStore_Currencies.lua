@@ -6,7 +6,7 @@ DataStore_CurrenciesDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.伊弗斯.頂級投資家"] = {
-				["lastUpdate"] = 1672485946,
+				["lastUpdate"] = 1672640196,
 			},
 		},
 	},

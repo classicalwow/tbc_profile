@@ -336,13 +336,15 @@ AutoBarDB = {
 					["rows"] = 1,
 					["dockShiftY"] = 0,
 					["alignButtons"] = "3",
-					["posX"] = 300,
+					["posX"] = 549.7317969493815,
 					["hide"] = false,
 					["enabled"] = true,
 					["columns"] = 10,
 					["alpha"] = 1,
 					["buttonWidth"] = 36,
-					["posY"] = 280,
+					["posY"] = 86.42182835114181,
+					["frameStrata"] = "LOW",
+					["WARLOCK"] = true,
 					["buttonKeys"] = {
 						"AutoBarButtonShields", -- [1]
 						"AutoBarButtonClassPets2", -- [2]
@@ -353,12 +355,10 @@ AutoBarDB = {
 						"AutoBarButtonTrack", -- [7]
 						"AutoBarButtonClassPet", -- [8]
 					},
-					["WARLOCK"] = true,
-					["scale"] = 1,
 					["popupDirection"] = "1",
 					["padding"] = 0,
 					["dockShiftX"] = 0,
-					["frameStrata"] = "LOW",
+					["scale"] = 1,
 				},
 			},
 			["buttonList"] = {
@@ -998,6 +998,9 @@ AutoBarDB = {
 					["arrangeOnUse"] = 33340,
 				},
 				["AutoBarButtonMount"] = {
+				},
+				["AutoBarButtonBuff"] = {
+					["arrangeOnUse"] = 37091,
 				},
 			},
 			["barList"] = {
