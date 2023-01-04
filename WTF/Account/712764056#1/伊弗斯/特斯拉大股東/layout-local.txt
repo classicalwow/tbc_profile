@@ -2,8 +2,8 @@ Version: 1
 Frame: RXPG_ARROW
 FrameLevel: 1
 Anchor: BOTTOM
-X: 4
-Y: 248
+X: -2
+Y: 246
 W: 32
 H: 32
 Frame: RXPFrame

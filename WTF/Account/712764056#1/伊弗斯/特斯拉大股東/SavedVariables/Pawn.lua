@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0714,
-	["LastPlayerFullName"] = "特斯拉大股東-伊弗斯",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 35814,
@@ -95,6 +93,8 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:35826::::::::70:::::::::|h[雏龙骨杖]|h|r",
 		}, -- [18]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "特斯拉大股東-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

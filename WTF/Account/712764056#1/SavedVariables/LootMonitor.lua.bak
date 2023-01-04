@@ -6,7 +6,6 @@ LootMonitorDB = {
 			["Class"] = "WARRIOR",
 			["InstanceID"] = 533,
 			["FirstPlayer"] = "未知",
-			["InstanceName"] = "纳克萨玛斯",
 			["LootTable"] = {
 				{
 					["GUID"] = "Creature-0-5580-533-9383-15956-000021AC06",
@@ -425,9 +424,10 @@ LootMonitorDB = {
 					},
 				}, -- [30]
 			},
-			["SavedID"] = 131250861,
-			["Player"] = "特變電工",
+			["InstanceName"] = "纳克萨玛斯",
 			["FirstClass"] = "UNKNOWN",
+			["Player"] = "特變電工",
+			["SavedID"] = 131250861,
 		}, -- [1]
 		{
 			["InstanceID"] = 533,
@@ -588,15 +588,14 @@ LootMonitorDB = {
 				}, -- [11]
 			},
 			["Date"] = "2022-12-31",
-			["FirstClass"] = "UNKNOWN",
 			["Class"] = "HUNTER",
+			["FirstClass"] = "UNKNOWN",
 			["InstanceName"] = "纳克萨玛斯",
 		}, -- [2]
 		{
 			["Date"] = "2023-01-01",
 			["Class"] = "WARRIOR",
 			["InstanceID"] = 533,
-			["Player"] = "特變電工",
 			["FirstPlayer"] = "特變電工",
 			["LootTable"] = {
 				{
@@ -820,9 +819,10 @@ LootMonitorDB = {
 					},
 				}, -- [16]
 			},
-			["FirstClass"] = "WARRIOR",
 			["InstanceName"] = "纳克萨玛斯",
 			["SavedID"] = 140394537,
+			["Player"] = "特變電工",
+			["FirstClass"] = "WARRIOR",
 		}, -- [3]
 	},
 	["Config"] = {
