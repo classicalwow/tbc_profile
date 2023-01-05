@@ -74,7 +74,7 @@ Hekili: enabled
 ItemRack: enabled
 ItemRackOptions: enabled
 Leatrix_Maps: enabled
-LFGBulletinBoard: disabled
+LFGBulletinBoard: enabled
 LoonBestInSlot: disabled
 LootMonitor: disabled
 LoseControl: disabled
