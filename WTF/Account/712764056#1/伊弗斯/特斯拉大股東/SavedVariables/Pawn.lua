@@ -1,13 +1,11 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0714,
-	["LastPlayerFullName"] = "特斯拉大股東-伊弗斯",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 39816,
-			["Level"] = 158,
-			["Link"] = "|cff1eff00|Hitem:39816::::::::75:::::::::|h[医师的兜帽]|h|r",
+			["ID"] = 42843,
+			["Level"] = 174,
+			["Link"] = "|cff1eff00|Hitem:42843::::::::77:::::::::|h[米尔德蕾的兜帽]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 39840,
@@ -41,9 +39,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:39775::::::::76:::::::::|h[占卜者的便鞋]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 35896,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:35896::::::::71:::::::::|h[寒冰打击护腕]|h|r",
+			["ID"] = 42787,
+			["Level"] = 174,
+			["Link"] = "|cff1eff00|Hitem:42787::::::::77:::::::::|h[铁毛护腕]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 41826,
@@ -51,10 +49,10 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:41826::::::::75:::::::::|h[巨人骑士护手]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 39792,
-			["Level"] = 158,
+			["ID"] = 42845,
+			["Level"] = 174,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff1eff00|Hitem:39792::::::::76:::::::::|h[光明仪祭指环]|h|r",
+			["Link"] = "|cff1eff00|Hitem:42845::::::::78:::::::::|h[布伦希尔达符文之戒]|h|r",
 		}, -- [11]
 		{
 			["ID"] = 39792,
@@ -63,16 +61,16 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:39792::::::::77:::::::::|h[光明仪祭指环]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 35935,
-			["Level"] = 138,
+			["ID"] = 44013,
+			["Level"] = 174,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff1eff00|Hitem:35935::::::::71:::::::::|h[魔法冻石符文]|h|r",
+			["Link"] = "|cff0070dd|Hitem:44013::::::::77:::::::::|h[炮兵的点火器]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 35935,
-			["Level"] = 138,
+			["ID"] = 44013,
+			["Level"] = 174,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff1eff00|Hitem:35935::::::::72:::::::::|h[魔法冻石符文]|h|r",
+			["Link"] = "|cff0070dd|Hitem:44013::::::::78:::::::::|h[炮兵的点火器]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 39807,
@@ -90,11 +88,13 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:199710::::::::70:::::::::|h[群集玫瑰]|h|r",
 		}, -- [17]
 		{
-			["ID"] = 35826,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:35826::::::::70:::::::::|h[雏龙骨杖]|h|r",
+			["ID"] = 43828,
+			["Level"] = 174,
+			["Link"] = "|cff1eff00|Hitem:43828::::::::77:::::::::|h[圣光之触]|h|r",
 		}, -- [18]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "特斯拉大股東-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

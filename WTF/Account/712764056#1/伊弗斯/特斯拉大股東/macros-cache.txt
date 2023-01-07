@@ -1,5 +1,5 @@
 VER 3 0000000001000003 "target" "INV_MISC_QUESTIONMARK"
-/target 蛤
+/target 筋疲
 /script SetRaidTarget("target",8)
 END
 VER 3 0000000001000001 "坐骑" "INV_MISC_QUESTIONMARK"
