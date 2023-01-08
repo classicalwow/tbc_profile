@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0714,
+	["LastPlayerFullName"] = "特斯拉大股東-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 42843,
@@ -29,14 +31,14 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:39804::::::::76:::::::::|h[蝙蝠肌腱腰带]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 39812,
-			["Level"] = 158,
-			["Link"] = "|cff1eff00|Hitem:39812::::::::75:::::::::|h[污染长裤]|h|r",
+			["ID"] = 42795,
+			["Level"] = 174,
+			["Link"] = "|cff1eff00|Hitem:42795::::::::78:::::::::|h[新生希望护腿]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 39775,
-			["Level"] = 158,
-			["Link"] = "|cff1eff00|Hitem:39775::::::::76:::::::::|h[占卜者的便鞋]|h|r",
+			["ID"] = 43839,
+			["Level"] = 174,
+			["Link"] = "|cff1eff00|Hitem:43839::::::::79:::::::::|h[莉娅安的足垫]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 42787,
@@ -55,10 +57,10 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:42845::::::::78:::::::::|h[布伦希尔达符文之戒]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 39792,
-			["Level"] = 158,
+			["ID"] = 42845,
+			["Level"] = 174,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff1eff00|Hitem:39792::::::::77:::::::::|h[光明仪祭指环]|h|r",
+			["Link"] = "|cff1eff00|Hitem:42845::::::::79:::::::::|h[布伦希尔达符文之戒]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 44013,
@@ -73,9 +75,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:44013::::::::78:::::::::|h[炮兵的点火器]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 39807,
-			["Level"] = 158,
-			["Link"] = "|cff1eff00|Hitem:39807::::::::75:::::::::|h[营救者的披风]|h|r",
+			["ID"] = 43925,
+			["Level"] = 174,
+			["Link"] = "|cff1eff00|Hitem:43925::::::::79:::::::::|h[暗影拱顶披风]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 41821,
@@ -93,8 +95,6 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:43828::::::::77:::::::::|h[圣光之触]|h|r",
 		}, -- [18]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "特斯拉大股東-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

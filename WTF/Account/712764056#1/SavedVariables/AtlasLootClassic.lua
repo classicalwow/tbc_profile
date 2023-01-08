@@ -1,10 +1,11 @@
 
 AtlasLootClassicDB = {
 	["profileKeys"] = {
-		["路易斯桑拿 - 伊弗斯"] = "路易斯桑拿 - 伊弗斯",
-		["特變電工 - 伊弗斯"] = "特變電工 - 伊弗斯",
-		["邁克爾假死 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
 		["畜生犬隊長 - 伊弗斯"] = "畜生犬隊長 - 伊弗斯",
+		["特變電工 - 伊弗斯"] = "特變電工 - 伊弗斯",
+		["路易斯桑拿 - 伊弗斯"] = "路易斯桑拿 - 伊弗斯",
+		["邁克爾假死 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
+		["特斯拉大股東 - 伊弗斯"] = "特斯拉大股東 - 伊弗斯",
 	},
 	["global"] = {
 		["__addonrevision"] = 3000007,
@@ -734,23 +735,7 @@ AtlasLootClassicDB = {
 		},
 	},
 	["profiles"] = {
-		["路易斯桑拿 - 伊弗斯"] = {
-			["GUI"] = {
-				["point"] = {
-					"BOTTOMLEFT", -- [1]
-					nil, -- [2]
-					"BOTTOMLEFT", -- [3]
-					101.3755416870117, -- [4]
-					109.5864944458008, -- [5]
-				},
-				["selected"] = {
-					"AtlasLootClassic_Crafting", -- [1]
-					"JewelcraftingWrath", -- [2]
-					8, -- [3]
-					1, -- [4]
-					0, -- [5]
-				},
-			},
+		["畜生犬隊長 - 伊弗斯"] = {
 		},
 		["特變電工 - 伊弗斯"] = {
 			["GUI"] = {
@@ -769,6 +754,9 @@ AtlasLootClassicDB = {
 					0, -- [5]
 				},
 			},
+			["minimap"] = {
+				["minimapPos"] = 238.0107461904307,
+			},
 			["Addons"] = {
 				["Favourites"] = {
 					["lists"] = {
@@ -778,13 +766,28 @@ AtlasLootClassicDB = {
 					},
 				},
 			},
-			["minimap"] = {
-				["minimapPos"] = 238.0107461904307,
+		},
+		["路易斯桑拿 - 伊弗斯"] = {
+			["GUI"] = {
+				["point"] = {
+					"BOTTOMLEFT", -- [1]
+					nil, -- [2]
+					"BOTTOMLEFT", -- [3]
+					101.3755416870117, -- [4]
+					109.5864944458008, -- [5]
+				},
+				["selected"] = {
+					"AtlasLootClassic_Crafting", -- [1]
+					"JewelcraftingWrath", -- [2]
+					8, -- [3]
+					1, -- [4]
+					0, -- [5]
+				},
 			},
 		},
 		["邁克爾假死 - 伊弗斯"] = {
 			["minimap"] = {
-				["minimapPos"] = 272.1504379571508,
+				["minimapPos"] = 254.228336851523,
 			},
 			["GUI"] = {
 				["point"] = {
@@ -797,13 +800,13 @@ AtlasLootClassicDB = {
 				["selected"] = {
 					"AtlasLootClassic_Crafting", -- [1]
 					"EnchantingWrath", -- [2]
-					6, -- [3]
+					nil, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},
 			},
 		},
-		["畜生犬隊長 - 伊弗斯"] = {
+		["特斯拉大股東 - 伊弗斯"] = {
 		},
 	},
 }

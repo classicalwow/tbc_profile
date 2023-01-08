@@ -20,3 +20,10 @@ X: -347
 Y: 7
 W: 768
 H: 447
+Frame: GroupBulletinBoardFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 150
+Y: 74
+W: 1423
+H: 526
