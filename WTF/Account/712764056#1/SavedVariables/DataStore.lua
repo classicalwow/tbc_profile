@@ -1,8 +1,9 @@
 
 DataStoreDB = {
 	["profileKeys"] = {
-		["特變電工 - 伊弗斯"] = "特變電工 - 伊弗斯",
 		["頂級投資家 - 伊弗斯"] = "頂級投資家 - 伊弗斯",
+		["畜生犬隊長 - 伊弗斯"] = "畜生犬隊長 - 伊弗斯",
+		["特變電工 - 伊弗斯"] = "特變電工 - 伊弗斯",
 		["邁克爾假死 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
 		["暖男你馬四了 - 伊弗斯"] = "暖男你馬四了 - 伊弗斯",
 	},
@@ -23,18 +24,21 @@ DataStoreDB = {
 		},
 		["Version"] = 1,
 		["Characters"] = {
-			["Default.伊弗斯.頂級投資家"] = {
-				["faction"] = "Horde",
-			},
 			["Default.伊弗斯.暖男你馬四了"] = {
 				["faction"] = "Alliance",
 			},
+			["Default.伊弗斯.畜生犬隊長"] = {
+				["faction"] = "Horde",
+			},
 			["Default.伊弗斯.邁克爾假死"] = {
+				["guildName"] = "光之烙印",
+				["faction"] = "Horde",
+			},
+			["Default.伊弗斯.特變電工"] = {
 				["faction"] = "Horde",
 				["guildName"] = "光之烙印",
 			},
-			["Default.伊弗斯.特變電工"] = {
-				["guildName"] = "光之烙印",
+			["Default.伊弗斯.頂級投資家"] = {
 				["faction"] = "Horde",
 			},
 		},

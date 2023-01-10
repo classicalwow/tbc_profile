@@ -3,6 +3,7 @@ BisTooltipDB = {
 	["profileKeys"] = {
 		["頂級投資家 - 伊弗斯"] = "Default",
 		["路易斯桑拿 - 伊弗斯"] = "Default",
+		["畜生犬隊長 - 伊弗斯"] = "Default",
 		["特變電工 - 伊弗斯"] = "Default",
 		["暖男你馬四了 - 伊弗斯"] = "Default",
 		["邁克爾假死 - 伊弗斯"] = "Default",
@@ -15,6 +16,10 @@ BisTooltipDB = {
 		},
 		["路易斯桑拿 - 伊弗斯"] = {
 			["version"] = 6.1,
+		},
+		["畜生犬隊長 - 伊弗斯"] = {
+			["version"] = 6.1,
+			["data_source"] = "wowtbc",
 		},
 		["特變電工 - 伊弗斯"] = {
 			["minimapPos"] = 270.5829038238746,
@@ -80,11 +85,7 @@ BisTooltipDB = {
 			["version"] = 6.1,
 		},
 		["邁克爾假死 - 伊弗斯"] = {
-			["minimapPos"] = 277.1180262104614,
-			["version"] = 6.1,
-			["phase_index"] = 2,
 			["class_index"] = 10,
-			["data_source"] = "wowtbc",
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -139,6 +140,10 @@ BisTooltipDB = {
 					["Holy"] = true,
 				},
 			},
+			["minimapPos"] = 277.1180262104614,
+			["version"] = 6.1,
+			["data_source"] = "wowtbc",
+			["phase_index"] = 2,
 		},
 		["特斯拉大股東 - 伊弗斯"] = {
 			["class_index"] = 10,

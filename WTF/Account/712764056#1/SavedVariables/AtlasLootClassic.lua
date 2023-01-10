@@ -506,8 +506,8 @@ AtlasLootClassicDB = {
 			[42607] = "arena:1200",
 			[38547] = "arena:400",
 			[32818] = "honor:3990",
-			[40689] = "EmblemOfHeroism:40",
 			[33528] = "BoJ:60",
+			[18826] = "honor:2500",
 			[40721] = "EmblemOfValor:25",
 			[30183] = "BoJ:15",
 			[18874] = "honor:5000",
@@ -588,10 +588,10 @@ AtlasLootClassicDB = {
 			[42577] = "honor:4480:arena:350",
 			[35129] = "honor:5700",
 			[35065] = "honor:5700",
-			[42322] = "arena:4500",
-			[42290] = "arena:1350",
 			[15200] = "honor:100",
+			[42290] = "arena:1350",
 			[35161] = "honor:7600",
+			[42322] = "arena:4500",
 			[41203] = "EmblemOfValor:45",
 			[33530] = "BoJ:75",
 			[42450] = "arena:1200",
@@ -624,7 +624,7 @@ AtlasLootClassicDB = {
 			[35130] = "honor:5700",
 			[42063] = "honor:33180",
 			[33557] = "BoJ:35",
-			[18826] = "honor:2500",
+			[40689] = "EmblemOfHeroism:40",
 			[35103] = "honor:19000",
 			[42575] = "honor:4480:arena:175",
 			[28930] = "honor:3800",
@@ -738,6 +738,18 @@ AtlasLootClassicDB = {
 		["畜生犬隊長 - 伊弗斯"] = {
 		},
 		["特變電工 - 伊弗斯"] = {
+			["minimap"] = {
+				["minimapPos"] = 238.0107461904307,
+			},
+			["Addons"] = {
+				["Favourites"] = {
+					["lists"] = {
+						["ProfileBase"] = {
+							[32231] = true,
+						},
+					},
+				},
+			},
 			["GUI"] = {
 				["point"] = {
 					"TOPRIGHT", -- [1]
@@ -753,18 +765,6 @@ AtlasLootClassicDB = {
 					1, -- [4]
 					0, -- [5]
 				},
-			},
-			["Addons"] = {
-				["Favourites"] = {
-					["lists"] = {
-						["ProfileBase"] = {
-							[32231] = true,
-						},
-					},
-				},
-			},
-			["minimap"] = {
-				["minimapPos"] = 238.0107461904307,
 			},
 		},
 		["路易斯桑拿 - 伊弗斯"] = {

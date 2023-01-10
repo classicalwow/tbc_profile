@@ -1,55 +1,118 @@
 
 GroupBulletinBoardDBChar = {
-	["FilterDungeonCHAMP"] = true,
+	["FilterDungeonCHAMP"] = false,
 	["FilterDungeonBF"] = false,
 	["FilterDungeonMT"] = false,
-	["FilterDungeonHOS"] = true,
-	["FilterDungeonUP"] = true,
+	["FilterDungeonHOS"] = false,
+	["FilterDungeonUP"] = false,
 	["FilterDungeonSMA"] = false,
 	["FilterDungeonCRYPTS"] = false,
 	["FilterDungeonGNO"] = false,
-	["FilterDungeonTOTC"] = true,
+	["FilterDungeonTOTC"] = false,
 	["FilterDungeonBOT"] = false,
 	["FilterDungeonMAR"] = false,
 	["FilterDungeonRFK"] = false,
-	["FilterDungeonHOR"] = true,
-	["FilterDungeonRS"] = true,
+	["FilterDungeonHOR"] = false,
+	["FilterDungeonRS"] = false,
 	["FilterDungeonRAMPS"] = false,
-	["FilterDungeonOS"] = true,
-	["FilterDungeonONY"] = true,
+	["FilterDungeonOS"] = false,
+	["FilterDungeonONY"] = false,
 	["FilterDungeonSL"] = false,
-	["FilterDungeonWSG"] = true,
-	["FilterDungeonCOS"] = true,
+	["FilterDungeonWSG"] = false,
+	["FilterDungeonCOS"] = false,
 	["FilterDungeonSP"] = false,
-	["FilterDungeonANK"] = true,
-	["FilterDungeonARENA"] = true,
+	["FilterDungeonANK"] = false,
+	["FilterDungeonARENA"] = false,
 	["FilterDungeonWC"] = false,
 	["FilterDungeonHYJAL"] = false,
-	["FilterDungeonPOS"] = true,
+	["FilterDungeonPOS"] = false,
 	["FilterDungeonZA"] = false,
 	["FilterDungeonSTK"] = false,
 	["FilterDungeonKARA"] = false,
-	["FilterDungeonVH"] = true,
-	["FilterDungeonAV"] = true,
+	["FilterDungeonVH"] = false,
+	["FilterDungeonAV"] = false,
 	["FilterDungeonULD"] = false,
-	["FilterDungeonWG"] = true,
-	["FilterDungeonAQ40"] = false,
-	["FilterDungeonSMC"] = false,
+	["FilterDungeonWG"] = false,
+	["NormalOnly"] = false,
+	["FilterDungeonSH"] = false,
+	["FilterDungeonOHB"] = false,
 	["FilterDungeonRFD"] = false,
-	["FilterDungeonMC"] = false,
-	["FilterDungeonDMW"] = false,
+	["HeroicOnly"] = false,
 	["FilterDungeonDEBUG"] = true,
-	["FilterDungeonZG"] = false,
+	["channel"] = {
+		true, -- [1]
+		true, -- [2]
+		true, -- [3]
+		true, -- [4]
+		true, -- [5]
+		true, -- [6]
+		true, -- [7]
+		true, -- [8]
+		true, -- [9]
+		true, -- [10]
+		true, -- [11]
+		true, -- [12]
+		true, -- [13]
+		true, -- [14]
+		true, -- [15]
+		true, -- [16]
+		true, -- [17]
+		true, -- [18]
+		true, -- [19]
+		true, -- [20]
+	},
 	["FilterDungeonHOLLOW"] = false,
 	["FilterDungeonST"] = false,
-	["FilterDungeonDMN"] = false,
-	["FilterDungeonDME"] = false,
+	["FilterDungeonMECH"] = false,
+	["FilterDungeonBRD"] = false,
 	["DontFilterOwn"] = false,
-	["FilterDungeonSV"] = false,
+	["FilterDungeonMGT"] = false,
 	["FilterDungeonZF"] = false,
-	["FilterDungeonEOE"] = true,
+	["FilterDungeonEOE"] = false,
 	["FilterDungeonBAD"] = true,
-	["FilterDungeonHOL"] = true,
+	["FilterDungeonMAG"] = false,
+	["FilterDungeonSV"] = false,
+	["FilterDungeonVOA"] = false,
+	["FilterDungeonFOS"] = false,
+	["FilterDungeonOCC"] = false,
+	["FilterDungeonSSC"] = false,
+	["FilterDungeonAB"] = false,
+	["FilterDungeonULDAR"] = false,
+	["FilterDungeonGL"] = false,
+	["FilterDungeonSOTA"] = false,
+	["FilterDungeonTRADE"] = false,
+	["FilterDungeonSWP"] = false,
+	["FilterDungeonSMG"] = false,
+	["FilterDungeonSM2"] = false,
+	["FilterLevel"] = false,
+	["FilterDungeonBWL"] = false,
+	["FilterDungeonUB"] = false,
+	["FilterDungeonNAXX"] = true,
+	["FilterDungeonDTK"] = false,
+	["FilterDungeonNAX"] = false,
+	["FilterDungeonBM"] = false,
+	["FilterDungeonMISC"] = false,
+	["FilterDungeonEYE"] = false,
+	["FilterDungeonICC"] = false,
+	["FilterDungeonSCH"] = false,
+	["FilterDungeonSTR"] = false,
+	["FilterDungeonARC"] = false,
+	["FilterDungeonSETH"] = false,
+	["FilterDungeonAZN"] = false,
+	["FilterDungeonNEX"] = false,
+	["FilterDungeonGD"] = false,
+	["FilterDungeonEOTS"] = false,
+	["FilterDungeonBREW"] = false,
+	["FilterDungeonUK"] = false,
+	["FilterDungeonRFC"] = false,
+	["FilterDungeonAQ20"] = false,
+	["FilterDungeonSML"] = false,
+	["FilterDungeonSFK"] = false,
+	["FilterDungeonBFD"] = false,
+	["FilterDungeonUBRS"] = false,
+	["FilterDungeonBT"] = false,
+	["FilterDungeonDM"] = false,
+	["FilterDungeonLBRS"] = false,
 	["GroupList"] = {
 		{
 			["dungeon"] = "阿尔卡冯的宝库",
@@ -109,101 +172,101 @@ GroupBulletinBoardDBChar = {
 		}, -- [8]
 		{
 			["dungeon"] = "阿尔卡冯的宝库",
-			["name"] = "雷剋頓",
-			["lastSeen"] = 1673157629,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-0019CC45",
-		}, -- [9]
-		{
-			["dungeon"] = "阿尔卡冯的宝库",
-			["name"] = "一牧了然",
-			["lastSeen"] = 1673157629,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-000EBCDE",
-		}, -- [10]
-		{
-			["dungeon"] = "阿尔卡冯的宝库",
-			["name"] = "元气骑",
-			["lastSeen"] = 1673157629,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-00194D9E",
-		}, -- [11]
-		{
-			["dungeon"] = "阿尔卡冯的宝库",
-			["name"] = "唏噓的鬍渣",
+			["name"] = "Babybearxx",
 			["lastSeen"] = 1673157629,
 			["class"] = "DEATHKNIGHT",
-			["guid"] = "Player-4487-001E3709",
-		}, -- [12]
-		{
-			["dungeon"] = "阿尔卡冯的宝库",
-			["name"] = "肥羊的小迷妹",
-			["lastSeen"] = 1673157629,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-001CAD6C",
-		}, -- [13]
-		{
-			["dungeon"] = "阿尔卡冯的宝库",
-			["name"] = "八卦海",
-			["lastSeen"] = 1673157629,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-001C0294",
-		}, -- [14]
+			["guid"] = "Player-4487-001CBEEB",
+		}, -- [9]
 		{
 			["dungeon"] = "阿尔卡冯的宝库",
 			["name"] = "Startder",
 			["lastSeen"] = 1673157629,
 			["class"] = "PRIEST",
 			["guid"] = "Player-4487-0003E89D",
-		}, -- [15]
-		{
-			["dungeon"] = "阿尔卡冯的宝库",
-			["name"] = "Babybearxx",
-			["lastSeen"] = 1673157629,
-			["class"] = "DEATHKNIGHT",
-			["guid"] = "Player-4487-001CBEEB",
-		}, -- [16]
+		}, -- [10]
 		{
 			["dungeon"] = "阿尔卡冯的宝库",
 			["name"] = "慵懶下午茶",
 			["lastSeen"] = 1673157629,
 			["class"] = "MAGE",
 			["guid"] = "Player-4487-0025388D",
-		}, -- [17]
+		}, -- [11]
 		{
 			["dungeon"] = "阿尔卡冯的宝库",
 			["name"] = "無用",
 			["lastSeen"] = 1673157629,
 			["class"] = "WARRIOR",
 			["guid"] = "Player-4487-0009BE56",
-		}, -- [18]
+		}, -- [12]
 		{
-			["dungeon"] = "净化斯坦索姆",
-			["name"] = "瞧狗表演",
-			["lastSeen"] = 1673159521,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4487-001F15D2",
-		}, -- [19]
+			["dungeon"] = "阿尔卡冯的宝库",
+			["name"] = "八卦海",
+			["lastSeen"] = 1673157629,
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-001C0294",
+		}, -- [13]
 		{
-			["dungeon"] = "净化斯坦索姆",
-			["name"] = "傻饅最可愛",
-			["lastSeen"] = 1673159521,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-001EF34A",
-		}, -- [20]
+			["dungeon"] = "阿尔卡冯的宝库",
+			["name"] = "一牧了然",
+			["lastSeen"] = 1673157629,
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-000EBCDE",
+		}, -- [14]
 		{
-			["dungeon"] = "净化斯坦索姆",
-			["name"] = "嘿益達",
-			["lastSeen"] = 1673159521,
+			["dungeon"] = "阿尔卡冯的宝库",
+			["name"] = "唏噓的鬍渣",
+			["lastSeen"] = 1673157629,
+			["class"] = "DEATHKNIGHT",
+			["guid"] = "Player-4487-001E3709",
+		}, -- [15]
+		{
+			["dungeon"] = "阿尔卡冯的宝库",
+			["name"] = "肥羊的小迷妹",
+			["lastSeen"] = 1673157629,
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-001CAD6C",
+		}, -- [16]
+		{
+			["dungeon"] = "阿尔卡冯的宝库",
+			["name"] = "元气骑",
+			["lastSeen"] = 1673157629,
 			["class"] = "PALADIN",
-			["guid"] = "Player-4487-0017E21A",
-		}, -- [21]
+			["guid"] = "Player-4487-00194D9E",
+		}, -- [17]
+		{
+			["dungeon"] = "阿尔卡冯的宝库",
+			["name"] = "雷剋頓",
+			["lastSeen"] = 1673157629,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-0019CC45",
+		}, -- [18]
 		{
 			["dungeon"] = "净化斯坦索姆",
 			["name"] = "蘇小妹",
 			["lastSeen"] = 1673159521,
 			["class"] = "PALADIN",
 			["guid"] = "Player-4487-00244CF9",
+		}, -- [19]
+		{
+			["dungeon"] = "净化斯坦索姆",
+			["name"] = "嘿益達",
+			["lastSeen"] = 1673159521,
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-0017E21A",
+		}, -- [20]
+		{
+			["dungeon"] = "净化斯坦索姆",
+			["name"] = "瞧狗表演",
+			["lastSeen"] = 1673159521,
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-001F15D2",
+		}, -- [21]
+		{
+			["dungeon"] = "净化斯坦索姆",
+			["name"] = "傻饅最可愛",
+			["lastSeen"] = 1673159521,
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-001EF34A",
 		}, -- [22]
 		{
 			["dungeon"] = "纳克萨玛斯",
@@ -242,73 +305,73 @@ GroupBulletinBoardDBChar = {
 		}, -- [27]
 		{
 			["dungeon"] = "黑曜石圣殿",
-			["name"] = "行走賀爾蒙",
+			["name"] = "不死夜空",
 			["lastSeen"] = 1673190461,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4487-0015200F",
+			["class"] = "WARLOCK",
+			["guid"] = "Player-4487-0006A4FD",
 		}, -- [28]
 		{
 			["dungeon"] = "黑曜石圣殿",
-			["name"] = "山怪山怪",
+			["name"] = "樹蛙藍腳",
 			["lastSeen"] = 1673190461,
-			["class"] = "WARRIOR",
-			["guid"] = "Player-4487-0003C584",
+			["class"] = "DEATHKNIGHT",
+			["guid"] = "Player-4487-0016A9B2",
 		}, -- [29]
 		{
 			["dungeon"] = "黑曜石圣殿",
-			["name"] = "Agnesvia",
+			["name"] = "陰牙婦產科",
 			["lastSeen"] = 1673190461,
 			["class"] = "PRIEST",
-			["guid"] = "Player-4487-0001937F",
+			["guid"] = "Player-4487-00058116",
 		}, -- [30]
 		{
 			["dungeon"] = "黑曜石圣殿",
-			["name"] = "隨便你啦",
+			["name"] = "可可味的貓",
 			["lastSeen"] = 1673190461,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-0013D4ED",
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-0014CD5C",
 		}, -- [31]
 		{
 			["dungeon"] = "黑曜石圣殿",
-			["name"] = "拿牙籤當弓箭",
+			["name"] = "翹課喝奶茶",
 			["lastSeen"] = 1673190461,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4487-00143C38",
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-0014CE63",
 		}, -- [32]
 		{
 			["dungeon"] = "黑曜石圣殿",
-			["name"] = "施韃韃",
+			["name"] = "凱薩裂蹄",
 			["lastSeen"] = 1673190461,
 			["class"] = "DRUID",
-			["guid"] = "Player-4487-000A0D46",
+			["guid"] = "Player-4487-000A6960",
 		}, -- [33]
 		{
 			["dungeon"] = "黑曜石圣殿",
-			["name"] = "襲胸小綿羊",
+			["name"] = "餅乾味的狗",
 			["lastSeen"] = 1673190461,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-000676A9",
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-00143269",
 		}, -- [34]
 		{
 			["dungeon"] = "黑曜石圣殿",
-			["name"] = "背鍋俠",
+			["name"] = "车厘子超甜",
 			["lastSeen"] = 1673190461,
-			["class"] = "ROGUE",
-			["guid"] = "Player-4487-0001ABB3",
+			["class"] = "SHAMAN",
+			["guid"] = "Player-4487-0020568F",
 		}, -- [35]
 		{
 			["dungeon"] = "黑曜石圣殿",
-			["name"] = "我叫緋村",
+			["name"] = "巴爹利",
 			["lastSeen"] = 1673190461,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-00127E77",
+			["class"] = "DRUID",
+			["guid"] = "Player-4487-0008CB50",
 		}, -- [36]
 		{
 			["dungeon"] = "黑曜石圣殿",
-			["name"] = "阿梨的風信子",
+			["name"] = "終焉之戰",
 			["lastSeen"] = 1673190461,
-			["class"] = "DEATHKNIGHT",
-			["guid"] = "Player-4487-0016A130",
+			["class"] = "WARRIOR",
+			["guid"] = "Player-4487-0011EE65",
 		}, -- [37]
 		{
 			["dungeon"] = "黑曜石圣殿",
@@ -319,122 +382,122 @@ GroupBulletinBoardDBChar = {
 		}, -- [38]
 		{
 			["dungeon"] = "黑曜石圣殿",
-			["name"] = "樹蛙藍腳",
+			["name"] = "行走賀爾蒙",
 			["lastSeen"] = 1673190461,
-			["class"] = "DEATHKNIGHT",
-			["guid"] = "Player-4487-0016A9B2",
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-0015200F",
 		}, -- [39]
 		{
 			["dungeon"] = "黑曜石圣殿",
-			["name"] = "可可味的貓",
+			["name"] = "我叫緋村",
 			["lastSeen"] = 1673190461,
-			["class"] = "HUNTER",
-			["guid"] = "Player-4487-0014CD5C",
+			["class"] = "PALADIN",
+			["guid"] = "Player-4487-00127E77",
 		}, -- [40]
 		{
 			["dungeon"] = "黑曜石圣殿",
-			["name"] = "不死夜空",
+			["name"] = "隨便你啦",
 			["lastSeen"] = 1673190461,
-			["class"] = "WARLOCK",
-			["guid"] = "Player-4487-0006A4FD",
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-0013D4ED",
 		}, -- [41]
 		{
 			["dungeon"] = "黑曜石圣殿",
-			["name"] = "陰牙婦產科",
+			["name"] = "山怪山怪",
 			["lastSeen"] = 1673190461,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-00058116",
+			["class"] = "WARRIOR",
+			["guid"] = "Player-4487-0003C584",
 		}, -- [42]
 		{
 			["dungeon"] = "黑曜石圣殿",
-			["name"] = "翹課喝奶茶",
+			["name"] = "阿梨的風信子",
 			["lastSeen"] = 1673190461,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-0014CE63",
+			["class"] = "DEATHKNIGHT",
+			["guid"] = "Player-4487-0016A130",
 		}, -- [43]
 		{
 			["dungeon"] = "黑曜石圣殿",
-			["name"] = "车厘子超甜",
+			["name"] = "拿牙籤當弓箭",
 			["lastSeen"] = 1673190461,
-			["class"] = "SHAMAN",
-			["guid"] = "Player-4487-0020568F",
+			["class"] = "HUNTER",
+			["guid"] = "Player-4487-00143C38",
 		}, -- [44]
 		{
 			["dungeon"] = "黑曜石圣殿",
-			["name"] = "餅乾味的狗",
+			["name"] = "Agnesvia",
 			["lastSeen"] = 1673190461,
-			["class"] = "PALADIN",
-			["guid"] = "Player-4487-00143269",
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-0001937F",
 		}, -- [45]
 		{
 			["dungeon"] = "黑曜石圣殿",
-			["name"] = "凱薩裂蹄",
+			["name"] = "背鍋俠",
 			["lastSeen"] = 1673190461,
-			["class"] = "DRUID",
-			["guid"] = "Player-4487-000A6960",
+			["class"] = "ROGUE",
+			["guid"] = "Player-4487-0001ABB3",
 		}, -- [46]
 		{
 			["dungeon"] = "黑曜石圣殿",
-			["name"] = "終焉之戰",
+			["name"] = "襲胸小綿羊",
 			["lastSeen"] = 1673190461,
-			["class"] = "WARRIOR",
-			["guid"] = "Player-4487-0011EE65",
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-000676A9",
 		}, -- [47]
 		{
 			["dungeon"] = "黑曜石圣殿",
-			["name"] = "巴爹利",
+			["name"] = "施韃韃",
 			["lastSeen"] = 1673190461,
 			["class"] = "DRUID",
-			["guid"] = "Player-4487-0008CB50",
+			["guid"] = "Player-4487-000A0D46",
 		}, -- [48]
-		{
-			["dungeon"] = "安卡赫特：古代王国",
-			["name"] = "刺啦刺啦",
-			["lastSeen"] = 1673193913,
-			["class"] = "MAGE",
-			["guid"] = "Player-4487-001FB2D9",
-		}, -- [49]
-		{
-			["dungeon"] = "安卡赫特：古代王国",
-			["name"] = "憨憨咋又",
-			["lastSeen"] = 1673193913,
-			["class"] = "DEATHKNIGHT",
-			["guid"] = "Player-4487-001CEFBE",
-		}, -- [50]
-		{
-			["dungeon"] = "安卡赫特：古代王国",
-			["name"] = "追风与憨憨",
-			["lastSeen"] = 1673193913,
-			["class"] = "PRIEST",
-			["guid"] = "Player-4487-0021CE02",
-		}, -- [51]
 		{
 			["dungeon"] = "安卡赫特：古代王国",
 			["name"] = "迷小壮",
 			["lastSeen"] = 1673193913,
 			["class"] = "MAGE",
 			["guid"] = "Player-4487-00221D27",
-		}, -- [52]
+		}, -- [49]
 		{
-			["dungeon"] = "魔环",
-			["name"] = "少寒的初白",
-			["lastSeen"] = 1673196483,
+			["dungeon"] = "安卡赫特：古代王国",
+			["name"] = "追风与憨憨",
+			["lastSeen"] = 1673193913,
+			["class"] = "PRIEST",
+			["guid"] = "Player-4487-0021CE02",
+		}, -- [50]
+		{
+			["dungeon"] = "安卡赫特：古代王国",
+			["name"] = "刺啦刺啦",
+			["lastSeen"] = 1673193913,
 			["class"] = "MAGE",
-			["guid"] = "Player-4487-0024D694",
-		}, -- [53]
+			["guid"] = "Player-4487-001FB2D9",
+		}, -- [51]
+		{
+			["dungeon"] = "安卡赫特：古代王国",
+			["name"] = "憨憨咋又",
+			["lastSeen"] = 1673193913,
+			["class"] = "DEATHKNIGHT",
+			["guid"] = "Player-4487-001CEFBE",
+		}, -- [52]
 		{
 			["dungeon"] = "魔环",
 			["name"] = "歐少之小滿",
 			["lastSeen"] = 1673196483,
 			["class"] = "DRUID",
 			["guid"] = "Player-4487-0024D698",
-		}, -- [54]
+		}, -- [53]
 		{
 			["dungeon"] = "魔环",
 			["name"] = "豆豆酸菜粉",
 			["lastSeen"] = 1673196483,
 			["class"] = "SHAMAN",
 			["guid"] = "Player-4487-00232CC1",
+		}, -- [54]
+		{
+			["dungeon"] = "魔环",
+			["name"] = "少寒的初白",
+			["lastSeen"] = 1673196483,
+			["class"] = "MAGE",
+			["guid"] = "Player-4487-0024D694",
 		}, -- [55]
 		{
 			["dungeon"] = "魔环",
@@ -444,75 +507,12 @@ GroupBulletinBoardDBChar = {
 			["guid"] = "Player-4487-00186BF5",
 		}, -- [56]
 	},
-	["FilterDungeonVOA"] = true,
-	["FilterDungeonLBRS"] = false,
-	["FilterDungeonDM"] = false,
-	["FilterDungeonAB"] = true,
-	["FilterDungeonSSC"] = false,
-	["FilterDungeonUBRS"] = false,
-	["FilterDungeonBFD"] = false,
-	["FilterDungeonSOTA"] = true,
-	["FilterDungeonSFK"] = false,
-	["FilterDungeonSM2"] = false,
-	["FilterDungeonSMG"] = false,
-	["FilterDungeonSML"] = false,
-	["FilterDungeonBWL"] = false,
-	["FilterDungeonAQ20"] = false,
-	["FilterDungeonRFC"] = false,
-	["FilterDungeonNAXX"] = true,
-	["FilterDungeonNAX"] = false,
-	["FilterDungeonUK"] = true,
-	["FilterDungeonBREW"] = false,
-	["FilterDungeonEYE"] = false,
-	["FilterDungeonMISC"] = false,
-	["FilterDungeonGD"] = true,
-	["FilterDungeonSCH"] = false,
-	["FilterDungeonSETH"] = false,
-	["FilterDungeonSTR"] = false,
-	["FilterDungeonARC"] = false,
-	["FilterDungeonAZN"] = true,
-	["FilterDungeonNEX"] = true,
-	["FilterDungeonICC"] = true,
-	["FilterDungeonEOTS"] = true,
-	["FilterDungeonBM"] = false,
-	["FilterDungeonDTK"] = true,
-	["FilterDungeonUB"] = false,
-	["FilterLevel"] = false,
-	["FilterDungeonSWP"] = false,
-	["FilterDungeonTRADE"] = false,
-	["FilterDungeonGL"] = false,
-	["FilterDungeonULDAR"] = true,
-	["FilterDungeonBT"] = false,
-	["FilterDungeonOCC"] = true,
-	["FilterDungeonFOS"] = true,
-	["FilterDungeonMAG"] = false,
-	["FilterDungeonMGT"] = false,
-	["FilterDungeonBRD"] = false,
-	["FilterDungeonMECH"] = false,
-	["channel"] = {
-		true, -- [1]
-		true, -- [2]
-		true, -- [3]
-		true, -- [4]
-		true, -- [5]
-		true, -- [6]
-		true, -- [7]
-		true, -- [8]
-		true, -- [9]
-		true, -- [10]
-		true, -- [11]
-		true, -- [12]
-		true, -- [13]
-		true, -- [14]
-		true, -- [15]
-		true, -- [16]
-		true, -- [17]
-		true, -- [18]
-		true, -- [19]
-		true, -- [20]
-	},
-	["HeroicOnly"] = false,
-	["FilterDungeonOHB"] = false,
-	["FilterDungeonSH"] = false,
-	["NormalOnly"] = false,
+	["FilterDungeonHOL"] = false,
+	["FilterDungeonDME"] = false,
+	["FilterDungeonDMN"] = false,
+	["FilterDungeonZG"] = false,
+	["FilterDungeonDMW"] = false,
+	["FilterDungeonMC"] = false,
+	["FilterDungeonSMC"] = false,
+	["FilterDungeonAQ40"] = false,
 }

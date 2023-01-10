@@ -261,30 +261,6 @@ AutoBarDB = {
 				},
 			},
 			["buttonList"] = {
-				["AutoBarButtonShields"] = {
-					["barKey"] = "AutoBarClassBarWarlock",
-					["buttonClass"] = "AutoBarButtonShields",
-					["defaultButtonIndex"] = 1,
-					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonShields",
-					["square_popups"] = true,
-				},
-				["AutoBarButtonTrack"] = {
-					["barKey"] = "AutoBarClassBarWarlock",
-					["buttonClass"] = "AutoBarButtonTrack",
-					["defaultButtonIndex"] = 9,
-					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonTrack",
-					["square_popups"] = true,
-				},
-				["AutoBarButtonClassBuff"] = {
-					["barKey"] = "AutoBarClassBarWarlock",
-					["buttonClass"] = "AutoBarButtonClassBuff",
-					["defaultButtonIndex"] = 5,
-					["enabled"] = true,
-					["buttonKey"] = "AutoBarButtonClassBuff",
-					["square_popups"] = true,
-				},
 				["AutoBarButtonDebuff"] = {
 					["barKey"] = "AutoBarClassBarWarlock",
 					["buttonClass"] = "AutoBarButtonDebuff",
@@ -299,6 +275,22 @@ AutoBarDB = {
 					["defaultButtonIndex"] = 10,
 					["enabled"] = true,
 					["buttonKey"] = "AutoBarButtonClassPet",
+					["square_popups"] = true,
+				},
+				["AutoBarButtonShields"] = {
+					["barKey"] = "AutoBarClassBarWarlock",
+					["buttonClass"] = "AutoBarButtonShields",
+					["defaultButtonIndex"] = 1,
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonShields",
+					["square_popups"] = true,
+				},
+				["AutoBarButtonTrack"] = {
+					["barKey"] = "AutoBarClassBarWarlock",
+					["buttonClass"] = "AutoBarButtonTrack",
+					["defaultButtonIndex"] = 9,
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonTrack",
 					["square_popups"] = true,
 				},
 				["AutoBarButtonConjure"] = {
@@ -323,6 +315,14 @@ AutoBarDB = {
 					["defaultButtonIndex"] = 2,
 					["enabled"] = true,
 					["buttonKey"] = "AutoBarButtonClassPets2",
+					["square_popups"] = true,
+				},
+				["AutoBarButtonClassBuff"] = {
+					["barKey"] = "AutoBarClassBarWarlock",
+					["buttonClass"] = "AutoBarButtonClassBuff",
+					["defaultButtonIndex"] = 5,
+					["enabled"] = true,
+					["buttonKey"] = "AutoBarButtonClassBuff",
 					["square_popups"] = true,
 				},
 			},
@@ -532,7 +532,7 @@ AutoBarDB = {
 				["AutoBarButtonMount"] = {
 				},
 				["AutoBarButtonQuest"] = {
-					["arrangeOnUse"] = 42106,
+					["arrangeOnUse"] = 42104,
 				},
 				["AutoBarButtonCrafting"] = {
 					["arrangeOnUse"] = "珠宝加工",
@@ -545,6 +545,16 @@ AutoBarDB = {
 				},
 				["AutoBarButtonElixirBoth"] = {
 					["arrangeOnUse"] = 46377,
+				},
+			},
+			["barList"] = {
+			},
+			["buttonList"] = {
+			},
+		},
+		["畜生犬隊長 - 伊弗斯"] = {
+			["buttonDataList"] = {
+				["AutoBarButtonMount"] = {
 				},
 			},
 			["barList"] = {

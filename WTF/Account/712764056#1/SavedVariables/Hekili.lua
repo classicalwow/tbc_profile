@@ -7,6 +7,7 @@ HekiliDB = {
 	["profileKeys"] = {
 		["頂級投資家 - 伊弗斯"] = "Default",
 		["特變電工 - 伊弗斯"] = "Default",
+		["畜生犬隊長 - 伊弗斯"] = "Default",
 		["路易斯桑拿 - 伊弗斯"] = "Default",
 		["邁克爾假死 - 伊弗斯"] = "Default",
 		["暖男你馬四了 - 伊弗斯"] = "Default",
@@ -71,13 +72,13 @@ HekiliDB = {
 					["package"] = "my",
 				}, -- [3]
 				[9] = {
-					["package"] = "Destruction (wowtbc.gg)",
 					["settings"] = {
 						["solo_curse"] = "curse_of_agony",
 						["shadow_mastery"] = true,
 						["group_curse"] = "curse_of_the_elements",
 						["group_type"] = "party",
 					},
+					["package"] = "Destruction (wowtbc.gg)",
 				},
 			},
 			["notifications"] = {
@@ -1435,9 +1436,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["action"] = "thunder_clap",
 								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 								["criteria"] = "active_enemies > 3",
+								["action"] = "thunder_clap",
 							}, -- [2]
 							{
 								["action"] = "overpower",
@@ -1668,9 +1669,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["criteria"] = "active_enemies > 3",
 								["action"] = "thunder_clap",
 								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
+								["criteria"] = "active_enemies > 3",
 							}, -- [2]
 							{
 								["action"] = "overpower",

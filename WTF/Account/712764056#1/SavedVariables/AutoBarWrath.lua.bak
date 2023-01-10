@@ -935,6 +935,16 @@ AutoBarDB = {
 			["buttonList"] = {
 			},
 		},
+		["畜生犬隊長 - 伊弗斯"] = {
+			["buttonDataList"] = {
+				["AutoBarButtonMount"] = {
+				},
+			},
+			["barList"] = {
+			},
+			["buttonList"] = {
+			},
+		},
 		["特變電工 - 伊弗斯"] = {
 			["buttonDataList"] = {
 				["AutoBarButtonElixirBattle"] = {
@@ -995,7 +1005,7 @@ AutoBarDB = {
 		["特斯拉大股東 - 伊弗斯"] = {
 			["buttonDataList"] = {
 				["AutoBarButtonQuest"] = {
-					["arrangeOnUse"] = 38699,
+					["arrangeOnUse"] = 41989,
 				},
 				["AutoBarButtonMount"] = {
 				},

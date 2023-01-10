@@ -1228,11 +1228,11 @@ RaidLedgerDatabase = {
 		["minimapicons"] = {
 			["hide"] = false,
 		},
-		["minimapicon"] = true,
-		["rounddownchecked"] = false,
-		["filteritems"] = "# 每行一条, 可以是物品名称或物品ID\n# 以 # 开头的行自动被忽略\n",
 		["debittemplates"] = {
 		},
+		["rounddownchecked"] = false,
+		["filteritems"] = "# 每行一条, 可以是物品名称或物品ID\n# 以 # 开头的行自动被忽略\n",
+		["minimapicon"] = true,
 		["filterzero"] = false,
 	},
 	["current"] = 1,

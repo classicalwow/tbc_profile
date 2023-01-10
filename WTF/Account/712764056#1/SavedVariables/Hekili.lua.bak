@@ -7,6 +7,7 @@ HekiliDB = {
 	["profileKeys"] = {
 		["頂級投資家 - 伊弗斯"] = "Default",
 		["路易斯桑拿 - 伊弗斯"] = "Default",
+		["畜生犬隊長 - 伊弗斯"] = "Default",
 		["特變電工 - 伊弗斯"] = "Default",
 		["暖男你馬四了 - 伊弗斯"] = "Default",
 		["邁克爾假死 - 伊弗斯"] = "Default",
@@ -1423,9 +1424,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 								["criteria"] = "active_enemies > 3",
 								["action"] = "thunder_clap",
+								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 							}, -- [2]
 							{
 								["action"] = "overpower",
@@ -1557,9 +1558,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["action"] = "thunder_clap",
 								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 								["criteria"] = "active_enemies > 3",
+								["action"] = "thunder_clap",
 							}, -- [2]
 							{
 								["action"] = "overpower",
