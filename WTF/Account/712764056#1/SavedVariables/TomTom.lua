@@ -4,8 +4,8 @@ TomTomDB = {
 		["頂級投資家 - 伊弗斯"] = "Default",
 		["畜生犬隊長 - 伊弗斯"] = "Default",
 		["特變電工 - 伊弗斯"] = "Default",
-		["邁克爾假死 - 伊弗斯"] = "Default",
 		["暖男你馬四了 - 伊弗斯"] = "Default",
+		["邁克爾假死 - 伊弗斯"] = "Default",
 		["特斯拉大股東 - 伊弗斯"] = "Default",
 	},
 	["profiles"] = {
@@ -42,8 +42,8 @@ TomTomWaypointsM = {
 		["頂級投資家 - 伊弗斯"] = "頂級投資家 - 伊弗斯",
 		["畜生犬隊長 - 伊弗斯"] = "畜生犬隊長 - 伊弗斯",
 		["特變電工 - 伊弗斯"] = "特變電工 - 伊弗斯",
-		["邁克爾假死 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
 		["暖男你馬四了 - 伊弗斯"] = "暖男你馬四了 - 伊弗斯",
+		["邁克爾假死 - 伊弗斯"] = "邁克爾假死 - 伊弗斯",
 		["特斯拉大股東 - 伊弗斯"] = "特斯拉大股東 - 伊弗斯",
 	},
 	["profiles"] = {
@@ -52,37 +52,8 @@ TomTomWaypointsM = {
 		["畜生犬隊長 - 伊弗斯"] = {
 		},
 		["特變電工 - 伊弗斯"] = {
-			[120] = {
-				["120:328606356.96822:868948655.25672:铁毛猛犸象"] = {
-					120, -- [1]
-					0.3286063569682152, -- [2]
-					0.8689486552567237, -- [3]
-					["arrivaldistance"] = 15,
-					["crazy"] = true,
-					["persistent"] = true,
-					["minimap"] = true,
-					["cleardistance"] = 10,
-					["title"] = "铁毛猛犸象",
-					["from"] = "Questie",
-					["callbacks"] = {
-						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
-						},
-					},
-					["world"] = true,
-				},
-			},
+		},
+		["暖男你馬四了 - 伊弗斯"] = {
 		},
 		["邁克爾假死 - 伊弗斯"] = {
 			[115] = {
@@ -110,8 +81,6 @@ TomTomWaypointsM = {
 					["world"] = true,
 				},
 			},
-		},
-		["暖男你馬四了 - 伊弗斯"] = {
 		},
 		["特斯拉大股東 - 伊弗斯"] = {
 		},
