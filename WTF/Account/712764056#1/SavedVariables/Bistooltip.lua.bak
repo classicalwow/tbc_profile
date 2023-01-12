@@ -16,10 +16,10 @@ BisTooltipDB = {
 		},
 		["特變電工 - 伊弗斯"] = {
 			["class_index"] = 9,
-			["version"] = 6.1,
 			["phase_index"] = 2,
 			["minimapPos"] = 254.8610638264219,
-			["data_source"] = "wh",
+			["version"] = 6.1,
+			["data_source"] = "wowtbc",
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -38,6 +38,7 @@ BisTooltipDB = {
 				},
 				["Rogue"] = {
 					["Combat"] = true,
+					["Subtlety"] = true,
 					["Assassination"] = true,
 				},
 				["Mage"] = {
@@ -82,11 +83,8 @@ BisTooltipDB = {
 			["version"] = 6.1,
 		},
 		["邁克爾假死 - 伊弗斯"] = {
-			["minimapPos"] = 277.1180262104614,
-			["phase_index"] = 2,
 			["class_index"] = 10,
 			["version"] = 6.1,
-			["data_source"] = "wowtbc",
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -141,16 +139,19 @@ BisTooltipDB = {
 					["Feral tank"] = true,
 				},
 			},
+			["phase_index"] = 2,
+			["data_source"] = "wowtbc",
+			["minimapPos"] = 277.1180262104614,
 		},
 		["暖男你馬四了 - 伊弗斯"] = {
 			["version"] = 6.1,
 		},
 		["特斯拉大股東 - 伊弗斯"] = {
-			["minimapPos"] = 246.5599118120476,
+			["class_index"] = 10,
 			["version"] = 6.1,
 			["phase_index"] = 2,
 			["data_source"] = "wowtbc",
-			["class_index"] = 10,
+			["minimapPos"] = 246.5599118120476,
 		},
 	},
 }

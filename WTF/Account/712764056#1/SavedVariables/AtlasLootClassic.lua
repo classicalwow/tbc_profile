@@ -513,8 +513,8 @@ AtlasLootClassicDB = {
 			[42607] = "arena:1200",
 			[38547] = "arena:400",
 			[35103] = "honor:19000",
+			[40689] = "EmblemOfHeroism:40",
 			[33528] = "BoJ:60",
-			[18826] = "honor:2500",
 			[40721] = "EmblemOfValor:25",
 			[33557] = "BoJ:35",
 			[18874] = "honor:5000",
@@ -595,10 +595,10 @@ AtlasLootClassicDB = {
 			[33530] = "BoJ:75",
 			[35065] = "honor:5700",
 			[41203] = "EmblemOfValor:45",
-			[15200] = "honor:100",
-			[42290] = "arena:1350",
-			[35161] = "honor:7600",
 			[42322] = "arena:4500",
+			[42290] = "arena:1350",
+			[15200] = "honor:100",
+			[35161] = "honor:7600",
 			[35129] = "honor:5700",
 			[42577] = "honor:4480:arena:350",
 			[42450] = "arena:1200",
@@ -631,7 +631,7 @@ AtlasLootClassicDB = {
 			[35130] = "honor:5700",
 			[33517] = "BoJ:60",
 			[30183] = "BoJ:15",
-			[40689] = "EmblemOfHeroism:40",
+			[18826] = "honor:2500",
 			[32818] = "honor:3990",
 			[33325] = "BoJ:35",
 			[28930] = "honor:3800",
@@ -738,18 +738,6 @@ AtlasLootClassicDB = {
 		["畜生犬隊長 - 伊弗斯"] = {
 		},
 		["特變電工 - 伊弗斯"] = {
-			["minimap"] = {
-				["minimapPos"] = 238.0107461904307,
-			},
-			["Addons"] = {
-				["Favourites"] = {
-					["lists"] = {
-						["ProfileBase"] = {
-							[32231] = true,
-						},
-					},
-				},
-			},
 			["GUI"] = {
 				["point"] = {
 					"TOPRIGHT", -- [1]
@@ -765,6 +753,18 @@ AtlasLootClassicDB = {
 					1, -- [4]
 					0, -- [5]
 				},
+			},
+			["Addons"] = {
+				["Favourites"] = {
+					["lists"] = {
+						["ProfileBase"] = {
+							[32231] = true,
+						},
+					},
+				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 238.0107461904307,
 			},
 		},
 		["路易斯桑拿 - 伊弗斯"] = {
@@ -786,6 +786,9 @@ AtlasLootClassicDB = {
 			},
 		},
 		["邁克爾假死 - 伊弗斯"] = {
+			["minimap"] = {
+				["minimapPos"] = 254.228336851523,
+			},
 			["GUI"] = {
 				["point"] = {
 					"RIGHT", -- [1]
@@ -802,9 +805,6 @@ AtlasLootClassicDB = {
 					0, -- [5]
 				},
 			},
-			["minimap"] = {
-				["minimapPos"] = 254.228336851523,
-			},
 		},
 		["特斯拉大股東 - 伊弗斯"] = {
 			["GUI"] = {
@@ -816,9 +816,9 @@ AtlasLootClassicDB = {
 					69.81580352783203, -- [5]
 				},
 				["selected"] = {
-					"AtlasLootClassic_Crafting", -- [1]
-					"EnchantingWrath", -- [2]
-					8, -- [3]
+					nil, -- [1]
+					"TheEyeOfEternity", -- [2]
+					nil, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},
