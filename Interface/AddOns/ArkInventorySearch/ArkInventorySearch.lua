@@ -382,7 +382,7 @@ function ArkInventorySearch.Frame_Table_Scroll( frame )
 	
 	local tc = #ArkInventorySearch.SourceTable
 	
-	FauxScrollFrame_Update( _G[string.format( "%s%s", ft, "Scroll" )], tc, rows, height )
+	FauxScrollFrame_Update( _G[ft .. "Scroll"], tc, rows, height )
 	
 	local linename, c, r
 	

@@ -115,7 +115,7 @@
         "Look",
         "Cursor"
     ],
-    "configVersion": 3,
+    "configVersion": 4,
     "configs": [
         {
             "separator": "================================================================================",
@@ -185,6 +185,8 @@
                     "stick": "Movement",
                     "axisX": "LStickX",
                     "axisY": "LStickY",
+                    "deadzoneX": 0.05,
+                    "deadzoneY": 0.05,
                     "deadzone": 0.25
                 },
                 {

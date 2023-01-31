@@ -6,9 +6,9 @@ local LSM = E.Libs.LSM
 -- GLOBALS: ElvDB
 
 local _G = _G
-local tostring, format, type, pcall, unpack = tostring, format, type, pcall, unpack
-local tinsert, ipairs, pairs, wipe, sort = tinsert, ipairs, pairs, wipe, sort
-local next, strfind, strlen, strsplit = next, strfind, strlen, strsplit
+local next, format, type, pcall, unpack = next, format, type, pcall, unpack
+local tinsert, ipairs, pairs, wipe, sort, gsub = tinsert, ipairs, pairs, wipe, sort, gsub
+local tostring, strfind, strsplit = tostring, strfind, strsplit
 local hooksecurefunc = hooksecurefunc
 
 local CloseDropDownMenus = CloseDropDownMenus
@@ -71,7 +71,7 @@ DT.SPECIALIZATION_CACHE = {}
 function DT:QuickDTMode(_, key, active)
 	if DT.SelectedDatatext and (key == 'LALT' or key == 'RALT') then
 		if active == 1 and MouseIsOver(DT.SelectedDatatext) then
-			DT:OnLeave()
+			DT.OnLeave(DT.SelectedDatatext)
 			E:SetEasyMenuAnchor(E.EasyMenu, DT.SelectedDatatext)
 			EasyMenu(QuickList, E.EasyMenu, nil, nil, nil, 'MENU')
 		elseif _G.DropDownList1:IsShown() and not _G.DropDownList1:IsMouseOver() then
@@ -94,6 +94,10 @@ function DT:OnEnter()
 		end
 	end
 
+	if self.watchModKey then
+		self:RegisterEvent('MODIFIER_STATE_CHANGED')
+	end
+
 	DT.MouseEnter(self)
 end
 
@@ -102,6 +106,10 @@ function DT:OnLeave()
 		for _, func in ipairs(self.MouseLeaves) do
 			func(self)
 		end
+	end
+
+	if self.watchModKey then
+		self:UnregisterEvent('MODIFIER_STATE_CHANGED')
 	end
 
 	DT.MouseLeave(self)
@@ -193,19 +201,33 @@ function DT:BuildPanelFrame(name, fromInit)
 	end
 end
 
-local LDBhex, LDBna = '|cffFFFFFF', {['N/A'] = true, ['n/a'] = true, ['N/a'] = true}
 function DT:BuildPanelFunctions(name, obj)
-	local panel
+	local text, hex
 
 	local function OnEnter(dt)
-		DT.tooltip:ClearLines()
-		if obj.OnTooltipShow then obj.OnTooltipShow(DT.tooltip) end
-		if obj.OnEnter then obj.OnEnter(dt) end
-		DT.tooltip:Show()
+		if obj.tooltip then
+			obj.tooltip:ClearAllPoints()
+			obj.tooltip:SetOwner(DT:SetupTooltip(self))
+			obj.tooltip:Show()
+		else
+			DT.tooltip:ClearLines()
+
+			if obj.OnEnter then
+				obj.OnEnter(dt)
+			elseif obj.OnTooltipShow then
+				obj.OnTooltipShow(DT.tooltip)
+			end
+
+			DT.tooltip:Show()
+		end
 	end
 
 	local function OnLeave(dt)
-		if obj.OnLeave then obj.OnLeave(dt) end
+		if obj.tooltip then
+			obj.tooltip:Hide()
+		elseif obj.OnLeave then
+			obj.OnLeave(dt)
+		end
 	end
 
 	local function OnClick(dt, button)
@@ -214,38 +236,55 @@ function DT:BuildPanelFunctions(name, obj)
 		end
 	end
 
-	local function UpdateText(_, Name, _, Value)
-		if not Value or (strlen(Value) >= 3) or (Value == Name or LDBna[Value]) then
-			panel.text:SetText((not LDBna[Value] and Value) or Name)
-		else
-			panel.text:SetFormattedText('%s: %s%s|r', Name, LDBhex, Value)
+	local function UpdateText(_, _, _, _, data)
+		local db = E.global.datatexts.settings['LDB_'..name]
+		local icon = db.icon and data.icon
+		local label = db.label and data.label
+		local value = db.text and data.text
+
+		local str = ''
+		if icon then
+			str = format(iconString, icon)
 		end
+
+		if label then
+			str = str .. (icon and ' ' or '') .. (db.customLabel ~= '' and db.customLabel or label)
+		end
+
+		if value then
+			local color = (db.useValueColor and hex) or '|cFFFFFFFF'
+			str = str .. (label and ': ' or '') .. (color .. value .. '|r')
+		end
+
+		text:SetText(str)
 	end
 
-	local function OnCallback(Hex)
-		if name and obj then
-			LDBhex = Hex
-			LDB.callbacks:Fire('LibDataBroker_AttributeChanged_'..name..'_text', name, nil, obj.text, obj)
-		end
+	local function UpdateColor(_, Hex)
+		hex = Hex
+		LDB.callbacks:Fire('LibDataBroker_AttributeChanged_'..name..'_text', name, nil, obj.text, obj)
 	end
 
 	local function OnEvent(dt)
-		panel = dt
+		text = dt.text
 		LDB:RegisterCallback('LibDataBroker_AttributeChanged_'..name..'_text', UpdateText)
 		LDB:RegisterCallback('LibDataBroker_AttributeChanged_'..name..'_value', UpdateText)
-		OnCallback(LDBhex)
+		UpdateColor(dt, hex)
 	end
 
-	return OnEnter, OnLeave, OnClick, OnCallback, OnEvent, UpdateText
+	return OnEvent, OnClick, OnEnter, OnLeave, UpdateColor, UpdateText
 end
 
 function DT:SetupObjectLDB(name, obj)
-	if DT.RegisteredDataTexts[name] then return end
+	local ldbName = 'LDB_'..name
+	if DT.RegisteredDataTexts[ldbName] then return end
 
-	local onEnter, onLeave, onClick, onCallback, onEvent = DT:BuildPanelFunctions(name, obj)
-	local data = DT:RegisterDatatext(name, 'Data Broker', nil, onEvent, nil, onClick, onEnter, onLeave)
-	E.valueColorUpdateFuncs[onCallback] = true
+	local onEvent, onClick, onEnter, onLeave, updateColor = DT:BuildPanelFunctions(name, obj)
+	local data = DT:RegisterDatatext(ldbName, 'Data Broker', nil, onEvent, nil, onClick, onEnter, onLeave, 'LDB: '..name, nil, updateColor)
 	data.isLibDataBroker = true
+
+	local defaults = { customLabel = '', label = false, text = true, icon = false, useValueColor = false }
+	G.datatexts.settings[ldbName] = defaults
+	E.global.datatexts.settings[ldbName] = E.global.datatexts.settings[ldbName] or E:CopyTable({}, defaults)
 
 	if self ~= DT then -- This checks to see if we are calling it or the callback.
 		DT:UpdateQuickDT()
@@ -254,7 +293,14 @@ end
 
 function DT:RegisterLDB()
 	for name, obj in LDB:DataObjectIterator() do
-		DT:SetupObjectLDB(name, obj)
+		if obj.type == "data source" or obj.type == "launcher" then
+			local label = obj.label
+			if not label then
+				obj.label = name
+			end
+
+			DT:SetupObjectLDB(name, obj)
+		end
 	end
 end
 
@@ -267,8 +313,8 @@ function DT:GetDataPanelPoint(panel, i, numPoints, vertical)
 			point, relativePoint, xOffset, yOffset = 'TOP', i == 1 and 'TOP' or 'BOTTOM', 0, -4
 		end
 
-		local lastPanel = (i == 1 and panel) or panel.dataPanels[i - 1]
-		return point, lastPanel, relativePoint, xOffset, yOffset
+		local previous = (i == 1 and panel) or panel.dataPanels[i - 1]
+		return point, previous, relativePoint, xOffset, yOffset
 	end
 end
 
@@ -279,6 +325,8 @@ function DT:SetupTooltip(panel)
 	if not _G.GameTooltip:IsForbidden() then
 		_G.GameTooltip:Hide() -- WHY??? BECAUSE FUCK GAMETOOLTIP, THATS WHY!!
 	end
+
+	return panel, parent.anchor, parent.xOff, parent.yOff
 end
 
 function DT:RegisterPanel(panel, numPoints, anchor, xOff, yOff, vertical)
@@ -339,10 +387,18 @@ function DT:AssignPanelToDataText(dt, data, event, ...)
 				elseif DT.UnitEvents[ev] then
 					pcall(dt.RegisterUnitEvent, dt, ev, 'player')
 				else
-					pcall(dt.RegisterEvent, dt, ev)
+					if ev == 'MODIFIER_STATE_CHANGED' then
+						dt.watchModKey = true
+					else
+						pcall(dt.RegisterEvent, dt, ev)
+					end
 				end
 			end
 		end
+	end
+
+	if data.colorUpdate then -- has to be before event function
+		data.colorUpdate(dt, E.media.hexvaluecolor)
 	end
 
 	local ev = event or 'ELVUI_FORCE_UPDATE'
@@ -379,7 +435,7 @@ function DT:ForceUpdate_DataText(name)
 	for dtSlot, dtInfo in pairs(DT.AssignedDatatexts) do
 		if dtInfo.name == name then
 			if dtInfo.colorUpdate then
-				dtInfo.colorUpdate(hex, r, g, b)
+				dtInfo.colorUpdate(dtSlot, hex, r, g, b)
 			end
 			if dtInfo.eventFunc then
 				dtInfo.eventFunc(dtSlot, 'ELVUI_FORCE_UPDATE')
@@ -387,6 +443,15 @@ function DT:ForceUpdate_DataText(name)
 		end
 	end
 end
+
+function DT:UpdateHexColors(hex, r, g, b)
+	for dtSlot, dtInfo in pairs(DT.AssignedDatatexts) do
+		if dtInfo.colorUpdate then
+			dtInfo.colorUpdate(dtSlot, hex, r, g, b)
+		end
+	end
+end
+E.valueColorUpdateFuncs.DataTexts = DT.UpdateHexColors
 
 function DT:GetTextAttributes(panel, db)
 	local panelWidth, panelHeight = panel:GetSize()
@@ -471,6 +536,7 @@ function DT:UpdatePanelInfo(panelName, panel, ...)
 		dt.parentName = panelName
 		dt.battleStats = battlePanel
 		dt.db = db
+		dt.watchModKey = nil
 
 		E:StopFlash(dt)
 
@@ -578,7 +644,7 @@ end
 
 do
 	local function menuSort(a, b)
-		if a.order and b.order then
+		if a.order and b.order and not (a.order == b.order) then
 			return a.order < b.order
 		end
 
@@ -617,13 +683,14 @@ do
 
 			if not hasName(QuickList[category].menuList, info.localizedName or name) then
 				tinsert(QuickList[category].menuList, {
-					text = info.localizedName or name,
+					text = gsub(info.localizedName or name, '^LDB: ', ''),
 					checked = function() return E.EasyMenu.MenuGetItem(DT.SelectedDatatext, name) end,
 					func = function() E.EasyMenu.MenuSetItem(DT.SelectedDatatext, name) end
 				})
 			end
 		end
 
+		tinsert(QuickList, { order = 99, text = ' ', notCheckable = true, isTitle = true })
 		tinsert(QuickList, {
 			order = 100, text = L["None"],
 			checked = function() return E.EasyMenu.MenuGetItem(DT.SelectedDatatext, '') end,
@@ -837,7 +904,7 @@ end
 	onLeaveFunc - function to fire OnLeave, if not provided one will be set for you that hides the tooltip. [function]
 	localizedName - localized name of the datetext [string]
 	objectEvent - register events on an object, using E.RegisterEventForObject instead of panel.RegisterEvent [function]
-	colorUpdate - function that fires when called from the config when you change the dt options. [function]
+	colorUpdate - function that fires when you change the dt or update the value color. [function]
 ]]
 
 function DT:RegisterDatatext(name, category, events, eventFunc, updateFunc, clickFunc, onEnterFunc, onLeaveFunc, localizedName, objectEvent, colorUpdate)

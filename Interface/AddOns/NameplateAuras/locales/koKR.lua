@@ -5,313 +5,221 @@ L["< 1min"] = "< 1분"
 L["< 5sec"] = "< 5초"
 L["> 1min"] = "> 1분"
 L["Add spell"] = "주문 추가"
-L["Always show auras cast by myself"] = "내가 시전한 효과 항상 보이기"
-L["Anchor point"] = "포인트 기준점"
-L["Anchor to icon"] = "아이콘 기준점"
---[[Translation missing --]]
-L["anchor-point:bottom"] = "Bottom"
---[[Translation missing --]]
-L["anchor-point:bottomleft"] = "Bottom left"
---[[Translation missing --]]
-L["anchor-point:bottomright"] = "Bottom right"
---[[Translation missing --]]
-L["anchor-point:center"] = "Center"
---[[Translation missing --]]
-L["anchor-point:left"] = "Left"
---[[Translation missing --]]
-L["anchor-point:right"] = "Right"
---[[Translation missing --]]
-L["anchor-point:top"] = "Top"
---[[Translation missing --]]
-L["anchor-point:topleft"] = "Top left"
---[[Translation missing --]]
-L["anchor-point:topright"] = "Top right"
---[[Translation missing --]]
-L["Any"] = "Any"
-L["Aura type"] = "오라 종류"
+L["Always show auras cast by myself"] = "내가 시전한 효과 항상 표시"
+L["Anchor point"] = "고정 지점"
+L["Anchor to icon"] = "아이콘에 고정"
+L["anchor-point:bottom"] = "하단"
+L["anchor-point:bottomleft"] = "좌측 하단"
+L["anchor-point:bottomright"] = "우측 하단"
+L["anchor-point:center"] = "가운데"
+L["anchor-point:left"] = "좌측"
+L["anchor-point:right"] = "우측"
+L["anchor-point:top"] = "상단"
+L["anchor-point:topleft"] = "좌측 상단"
+L["anchor-point:topright"] = "우측 상단"
+L["Any"] = "모두"
+L["Aura type"] = "효과 유형"
 L["Border thickness"] = "테두리 두께"
-L["Buff"] = "버프"
-L["Check spell ID"] = "주문 ID 확인"
+L["Buff"] = "강화 효과"
+L["Check spell ID"] = "주문 ID 확인 (쉼표로 구분)"
 L["Click to select spell"] = "주문을 선택하려면 클릭"
 L["Curse"] = "저주"
-L["Debuff"] = "디버프"
+L["Debuff"] = "약화 효과"
 L["Delete all spells"] = "모든 주문 삭제"
 L["Delete spell"] = "주문 삭제"
 L["Disabled"] = "비활성화 됨"
 L["Disease"] = "질병"
-L["Display auras on nameplates of friendly units"] = "아군 유닛들의 이름표에 효과들 표시하기"
-L["Display auras on player's nameplate"] = "플레이어의 이름표에 효과들 표시하기"
-L["Do you really want to delete ALL spells?"] = "정말 모든 스킬을 삭제하실 건가요?"
-L["Font"] = "글씨체"
-L["Font scale"] = "글씨체 크기"
-L["Font size"] = "글씨체 크기"
+L["Display auras on nameplates of friendly units"] = "아군 유닛 이름표에 효과 표시"
+L["Display auras on player's nameplate"] = "플레이어 이름표에 효과 표시"
+L["Do you really want to delete ALL spells?"] = "정말 모든 주문을 삭제할까요?"
+L["Font"] = "글꼴"
+L["Font scale"] = "글꼴 크기 비율"
+L["Font size"] = "글꼴 크기"
 L["General"] = "일반"
 L["Icon borders"] = "아이콘 테두리"
-L["Icon X-coord offset"] = "아이콘 X좌표"
-L["Icon Y-coord offset"] = "아이콘 Y좌표"
---[[Translation missing --]]
-L["icon-grow-direction:down"] = "Down"
---[[Translation missing --]]
-L["icon-grow-direction:left"] = "Left"
---[[Translation missing --]]
-L["icon-grow-direction:right"] = "Right"
---[[Translation missing --]]
-L["icon-grow-direction:up"] = "Up"
---[[Translation missing --]]
-L["icon-sort-mode:by-aura-type+by-expire-time"] = "By aura type + by expiration time"
---[[Translation missing --]]
-L["icon-sort-mode:by-expire-time"] = "By expiration time"
---[[Translation missing --]]
-L["icon-sort-mode:by-icon-size"] = "By icon size"
---[[Translation missing --]]
-L["icon-sort-mode:custom"] = "Custom"
---[[Translation missing --]]
-L["icon-sort-mode:none"] = "Without sorting"
---[[Translation missing --]]
-L["instance-type:arena"] = "Arenas"
---[[Translation missing --]]
-L["instance-type:none"] = "Open World"
---[[Translation missing --]]
-L["instance-type:party"] = "5ppl dungeons"
---[[Translation missing --]]
-L["instance-type:pvp"] = "Battlegrounds"
---[[Translation missing --]]
-L["instance-type:pvp_bg_40ppl"] = "40ppl Battlegrounds"
---[[Translation missing --]]
-L["instance-type:raid"] = "Raid dungeons"
---[[Translation missing --]]
-L["instance-type:scenario"] = "Scenarios"
---[[Translation missing --]]
-L["instance-type:unknown"] = "Unknown dungeons (some quest scenarios)"
+L["Icon X-coord offset"] = "아이콘 X 좌표"
+L["Icon Y-coord offset"] = "아이콘 Y 좌표"
+L["icon-grow-direction:down"] = "아래로"
+L["icon-grow-direction:left"] = "왼쪽으로"
+L["icon-grow-direction:right"] = "오른쪽으로"
+L["icon-grow-direction:up"] = "위로"
+L["icon-sort-mode:by-aura-type+by-expire-time"] = "효과 유형 + 만료 시간별로"
+L["icon-sort-mode:by-expire-time"] = "만료 시간별로"
+L["icon-sort-mode:by-icon-size"] = "아이콘 크기별로"
+L["icon-sort-mode:custom"] = "사용자 정의"
+L["icon-sort-mode:none"] = "정렬 안 함"
+L["instance-type:arena"] = "투기장"
+L["instance-type:none"] = "오픈 월드"
+L["instance-type:party"] = "5인 던전"
+L["instance-type:pvp"] = "전장"
+L["instance-type:pvp_bg_40ppl"] = "40인 전장"
+L["instance-type:raid"] = "공격대 던전"
+L["instance-type:scenario"] = "시나리오"
+L["instance-type:unknown"] = "알 수 없는 던전 (일부 퀘스트 시나리오)"
 L["Magic"] = "마법"
 L["Options are not available in combat!"] = "전투 중에는 옵션을 사용할 수 없습니다!"
---[[Translation missing --]]
-L["options:alpha:alpha"] = "Alpha of the icons (except the nameplate of your target)"
---[[Translation missing --]]
-L["options:alpha:alpha-target"] = "Alpha of the icons on the nameplate of your target"
---[[Translation missing --]]
-L["options:alpha:use-target-alpha-if-not-target-selected"] = "Display auras with target's alpha if no target selected"
---[[Translation missing --]]
-L["options:animation-type:ICON_ANIMATION_TYPE_ALPHA"] = "Alpha"
---[[Translation missing --]]
-L["options:apps:dispellable-spells"] = "Show dispellable/stealable auras on enemy nameplates"
---[[Translation missing --]]
-L["options:apps:dispellable-spells:black-list-button"] = "Open blacklist"
---[[Translation missing --]]
-L["options:apps:dispellable-spells:tooltip"] = "Show dispellable/stealable auras on nameplates of enemies. These auras have a dim glow and default size"
---[[Translation missing --]]
-L["options:apps:dr"] = "Enable display of diminishing return (beta)"
---[[Translation missing --]]
-L["options:apps:dr:pve"] = "PvE (stun only)"
---[[Translation missing --]]
+L["options:alpha:alpha"] = "아이콘 투명도 (대상 이름표 제외)"
+L["options:alpha:alpha-target"] = "대상 이름표에 있는 아이콘의 투명도"
+L["options:alpha:use-target-alpha-if-not-target-selected"] = "대상이 선택되지 않은 경우 대상의 투명도와 함께 효과 표시"
+L["options:animation-type:ICON_ANIMATION_TYPE_ALPHA"] = "투명도"
+L["options:apps:dispellable-spells"] = "적 이름표에 해제/훔치기 가능한 효과 표시"
+L["options:apps:dispellable-spells:black-list-button"] = "차단목록 열기"
+L["options:apps:dispellable-spells:tooltip"] = "적 이름표에 해제/훔치기 가능한 효과를 표시합니다. 이 효과는 희미한 빛과 기본 크기를 가집니다."
+L["options:apps:dr"] = "점감 표시 사용 (베타)"
+L["options:apps:dr:pve"] = "PvE (기절만)"
 L["options:apps:dr:pvp"] = "PvP"
---[[Translation missing --]]
-L["options:apps:explosive-orbs:tooltip"] = [=[Show special aura above Fel Explosive's nameplates (M+ Explosive Affix)
-This aura have a bright glow and default size]=]
---[[Translation missing --]]
-L["options:apps:spiteful"] = "Highlight Spiteful Shade (Spiteful M+ affix)"
---[[Translation missing --]]
-L["options:apps:spiteful:sound"] = "Sound"
-L["options:auras:enabled-state:tooltip"] = [=[사용/비사용 오라
-%s: 오라 보지 않기
-%s: 내가 시전한 오라만 보기 
+L["options:apps:explosive-orbs:tooltip"] = [=[폭발물 이름표 위에 특별 효과 표시 (쐐기 폭탄 수정치)
+이 효과는 밝은 빛과 기본 크기를 가집니다.]=]
+L["options:apps:spiteful"] = "원한의 망령 강조 (원한 쐐기돌 수정치)"
+L["options:apps:spiteful:sound"] = "소리"
+L["options:auras:enabled-state:tooltip"] = [=[%s: 효과 표시 안 함
+%s: 내가 시전한 경우 표시 
 %s: 모두 보기]=]
-L["options:auras:enabled-state-all"] = "사용, 모든 오라 표시"
-L["options:auras:enabled-state-mineonly"] = "사용, 내 오라만 표시"
---[[Translation missing --]]
-L["options:auras:show-on-npcs"] = "Show this aura on NPC only"
---[[Translation missing --]]
-L["options:auras:show-on-npcs-and-players"] = "Show this aura on players and NPC"
---[[Translation missing --]]
-L["options:auras:show-on-players"] = "Show this aura on players only"
---[[Translation missing --]]
-L["options:borders:BORDER_TYPE_BUILTIN"] = "Built-in"
---[[Translation missing --]]
-L["options:borders:BORDER_TYPE_CUSTOM"] = "Custom"
---[[Translation missing --]]
-L["options:borders:border-file-path"] = "Border texture file path (starts with 'Interface\\')"
---[[Translation missing --]]
-L["options:borders:border-type"] = "Border type"
---[[Translation missing --]]
-L["options:category:alpha"] = "Alpha"
+L["options:auras:enabled-state-all"] = "사용, 모든 효과 표시"
+L["options:auras:enabled-state-mineonly"] = "사용, 내 효과만 표시"
+L["options:auras:show-on-npcs"] = "NPC에만 이 효과 표시"
+L["options:auras:show-on-npcs-and-players"] = "플레이어 및 NPC에 이 효과 표시"
+L["options:auras:show-on-players"] = "플레이어에만 이 효과 표시"
+L["options:borders:BORDER_TYPE_BUILTIN"] = "내장"
+L["options:borders:BORDER_TYPE_CUSTOM"] = "사용자 정의"
+L["options:borders:border-file-path"] = "테두리 텍스처 파일 경로 ('Interface\\'로 시작)"
+L["options:borders:border-type"] = "테두리 유형"
+L["options:category:alpha"] = "투명도"
 L["options:category:apps"] = "앱"
+L["options:category:dispel"] = "정화/훔치기"
 --[[Translation missing --]]
-L["options:category:dispel"] = "Purge/steal"
+L["options:category:icon-groups"] = "Icon groups"
 L["options:category:interrupts"] = "방해"
+L["options:category:size-and-position"] = "크기 및 위치"
+L["options:general:always-show-my-auras:tooltip"] = "이것은 최우선 필터입니다. 이 기능을 사용하면 다른 필터와 상관없이 효과가 표시됩니다."
+L["options:general:always-show-my-auras-blacklist:button"] = "-> 차단목록"
+L["options:general:always-show-my-auras-blacklist:button:tooltip"] = "주의! 주문이 '주문' 목록 및 이 차단목록에 추가되면 이름표에 표시됩니다."
 --[[Translation missing --]]
-L["options:category:size-and-position"] = "Size & position"
-L["options:general:always-show-my-auras:tooltip"] = [=[이것은 최우선 순위 필터입니다.
-이 기능을 사용하면 다른 필터와 관계없이 오라가 표시됩니다]=]
+L["options:general:current-icon-group"] = "Current icon group"
+L["options:general:export-profile"] = "프로필 내보내기"
+L["options:general:hide-blizz-frames"] = "Blizzard 효과 창 숨기기 (플레이어 제외)"
+L["options:general:hide-player-blizz-frame"] = "플레이어의 Blizzard 효과 창 숨기기"
+L["options:general:icon-grow-direction"] = "아이콘 성장 방향"
+L["options:general:import-profile"] = "프로필 가져오기"
+L["options:general:instance-types"] = "다른 위치에서 재사용 대기시간의 표시 여부를 설정"
+L["options:general:npc-blacklist"] = "NPC 차단목록"
+L["options:general:npc-blacklist-add-button"] = "NPC 추가"
+L["options:general:npc-blacklist-editbox-add"] = "여기에 NPC 이름을 입력하세요."
+L["options:general:show-aura-tooltip"] = "마우스가 효과 아이콘 위에 있을 때 효과 이름 표시"
+L["options:general:show-cooldown-animation"] = "재사용 대기시간 애니메이션 표시"
+L["options:general:show-cooldown-text"] = "효과의 남은 시간 표시"
+L["options:general:show-on-target-even-in-disabled-area-types"] = "미사용 지역 유형에서도 대상의 이름표에 효과 표시"
+L["options:general:show-on-target-only"] = "대상 이름표에만 효과 표시"
+L["options:general:show-stacks"] = "효과의 중첩 표시"
+L["options:general:test-mode"] = "시험 모드"
+L["options:general:use-default-tooltip"] = "기본 Blizzard 효과 툴팁 표시"
+L["options:glow-type"] = "반짝임 유형"
+L["options:glow-type:GLOW_TYPE_ACTIONBUTTON"] = "행동 단축 버튼"
+L["options:glow-type:GLOW_TYPE_ACTIONBUTTON_DIM"] = "행동 단축 버튼 (희미함)"
+L["options:glow-type:GLOW_TYPE_AUTOUSE"] = "자동 사용 버튼"
+L["options:glow-type:GLOW_TYPE_NONE"] = "없음"
+L["options:glow-type:GLOW_TYPE_PIXEL"] = "픽셀"
 --[[Translation missing --]]
-L["options:general:always-show-my-auras-blacklist:button"] = "-> Blacklist"
+L["options:icon-groups:description"] = [=[
+An icon group is a set of icons with independent settings. For example, you can create a separate icon group for debuffs, a separate icon group for interrupts, and a separate icon group for important boss buffs. Then you can place these icon groups around the nameplate independently. FYI addons can't distinguish buffs and debuffs, so populating groups with spells is, unfortunately, your responsibility. :)
+The drop-down menu in the upper left corner of this window displays the icon group that you're currently editing.
+Pay attention: spells are shared between icon groups, but you can create multiple spells with the same name but with different options, and then set links to different icon groups.]=]
 --[[Translation missing --]]
-L["options:general:always-show-my-auras-blacklist:button:tooltip"] = "Pay attention! If spell is added to `Spells` list AND this blacklist, it WILL be shown on nameplates"
+L["options:icon-groups:dropdown-list"] = "Icon groups"
 --[[Translation missing --]]
-L["options:general:export-profile"] = "Export profile"
-L["options:general:hide-blizz-frames"] = "블리자드 프레임 숨기기 (UI 재시작 필요)"
+L["options:icon-groups:editbox-add-text"] = "Enter name and hit Enter key to add new icon group"
 --[[Translation missing --]]
-L["options:general:hide-player-blizz-frame"] = "Hide Blizzard's aura frames on player"
---[[Translation missing --]]
-L["options:general:icon-grow-direction"] = "Icon growing direction"
---[[Translation missing --]]
-L["options:general:import-profile"] = "Import profile"
---[[Translation missing --]]
-L["options:general:instance-types"] = [=[Set the visibility of the cooldowns
-in different types of locations]=]
---[[Translation missing --]]
-L["options:general:show-aura-tooltip"] = "Show aura name when mouse is over auras icon"
---[[Translation missing --]]
-L["options:general:show-cooldown-animation"] = "Show cooldown animation"
---[[Translation missing --]]
-L["options:general:show-cooldown-text"] = "Show aura's remaining time"
---[[Translation missing --]]
-L["options:general:show-on-target-even-in-disabled-area-types"] = "Show auras on target's nameplate even in disabled types of zones"
---[[Translation missing --]]
-L["options:general:show-on-target-only"] = "Show auras on target's nameplate only"
---[[Translation missing --]]
-L["options:general:show-stacks"] = "Show aura's stacks"
---[[Translation missing --]]
-L["options:general:test-mode"] = "Test mode"
---[[Translation missing --]]
-L["options:glow-type"] = "Glow type"
---[[Translation missing --]]
-L["options:glow-type:GLOW_TYPE_ACTIONBUTTON"] = "Action button"
---[[Translation missing --]]
-L["options:glow-type:GLOW_TYPE_ACTIONBUTTON_DIM"] = "Action button (dim)"
---[[Translation missing --]]
-L["options:glow-type:GLOW_TYPE_AUTOUSE"] = "Auto-use button"
---[[Translation missing --]]
-L["options:glow-type:GLOW_TYPE_NONE"] = "None"
---[[Translation missing --]]
-L["options:glow-type:GLOW_TYPE_PIXEL"] = "Pixel"
-L["options:interrupts:enable-interrupts"] = "방해 추적 활성화"
-L["options:interrupts:enable-only-during-pvp-battles"] = "PVP 전투에서만 사용 가능"
+L["options:icon-groups:remove"] = "Delete"
+L["options:interrupts:enable-interrupts"] = "방해 추적 사용"
+L["options:interrupts:enable-only-during-pvp-battles"] = "PVP 전투에서만 사용"
 L["options:interrupts:use-shared-icon-texture"] = "모든 방해 주문에 동일한 텍스처 사용"
---[[Translation missing --]]
-L["options:size-and-position:anchor-point-of-frame"] = "Anchor point to group of icons"
---[[Translation missing --]]
-L["options:size-and-position:anchor-point-of-frame:tooltip"] = "'Group of icons' is collection of icons per nameplate"
---[[Translation missing --]]
-L["options:size-and-position:anchor-point-to-nameplate"] = "Anchor point to nameplate"
---[[Translation missing --]]
-L["options:size-and-position:custom-sorting:tooltip"] = [=[Rules:
-  - code must be an unnamed function with 2 arguments. These arguments are tables, representing auras to compare
-  - this function must return true if the first aura should be placed before the second aura, and false otherwise
-  - sorting is done quite often, so don't make sorting function too heavy
-  - don't modify content of aura's table unless you REALLY know what you are doing
-  - double-check any code you got from strangers
+L["options:size-and-position:anchor-point-of-frame"] = "아이콘 그룹에 대한 고정 지점"
+L["options:size-and-position:anchor-point-of-frame:tooltip"] = "'아이콘 그룹'은 이름표당 아이콘 모음입니다."
+L["options:size-and-position:anchor-point-to-nameplate"] = "이름표에 대한 고정 지점"
+L["options:size-and-position:custom-sorting:tooltip"] = [=[규칙:
+   - 코드는 인수가 2개인 이름 없는 함수여야 합니다. 이러한 인수는 비교할 효과를 나타내는 테이블입니다.
+   - 이 함수는 첫 번째 효과가 두 번째 효과 앞에 배치되어야 하는 경우 true를 반환해야 하고 그렇지 않으면 false를 반환해야 합니다.
+   - 정렬이 꽤 자주 수행되므로 정렬 함수를 너무 무겁게 만들지 마세요.
+   - 당신이 하는 일을 정말로 알지 못한다면 효과 테이블의 내용을 수정하지 마세요.
+   - 낯선 이에게 받은 코드를 다시 확인하세요.
 
-Aura's table content:
-  - aura.duration - contains duration of aura in seconds. If aura is permanent, value of this field is 0. (type: number)
-  - aura.expires - time when aura will finish. You can compare it with GetTime(). If aura is permanent, value of this field is 0. (type: number)
-  - aura.stacks - number of stacks (type: number)
-  - aura.spellID - ID of aura (type: number)
-  - aura.spellName - name of aura (type: string)
+효과 테이블 내용:
+   - aura.duration - 초 단위 효과 지속 시간을 포함합니다. 효과가 영구적인 경우 이 필드값은 0입니다. (유형: 숫자)
+   - aura.expires - 효과가 끝나는 시간. GetTime()과 비교할 수 있습니다. 효과가 영구적인 경우 이 필드값은 0입니다. (유형: 숫자)
+   - aura.stacks - 중첩 수 (유형: 숫자)
+   - aura.spellID - 효과 ID (유형: 숫자)
+   - aura.spellName - 효과 이름 (유형: 문자열)
 
-Built-in sorting functions (result is a boolean value):
-  - local result = sort_time(aura1, aura2) - sort by aura's remaining time
-  - local result = sort_size(aura1, aura2) - sort by icon's size
-]=]
---[[Translation missing --]]
-L["options:size-and-position:icon-align"] = "Alignment of icons"
---[[Translation missing --]]
-L["options:size-and-position:icon-align:bottom-left"] = "Horizontal: bottom / Vertical: left"
---[[Translation missing --]]
-L["options:size-and-position:icon-align:center"] = "Center"
---[[Translation missing --]]
-L["options:size-and-position:icon-align:top-right"] = "Horizontal: top / Vertical: right"
---[[Translation missing --]]
-L["options:size-and-position:icon-height"] = "Default icon height"
---[[Translation missing --]]
-L["options:size-and-position:icon-width"] = "Default icon width"
---[[Translation missing --]]
-L["options:size-and-position:icon-zoom"] = "Icon zoom"
---[[Translation missing --]]
-L["options:size-and-position:keep-aspect-ratio"] = "Keep aspect ratio of textures"
---[[Translation missing --]]
-L["options:size-and-position:keep-aspect-ratio:tooltip"] = "If this option is checked and icon width and height are not equal, then texture of spell will be cropped in that way to save original image proportions"
---[[Translation missing --]]
-L["options:size-and-position:non-target-strata"] = "Layer of icons on non-target nameplates"
---[[Translation missing --]]
-L["options:size-and-position:scale-target"] = "Scale of the icons on the nameplate of your target"
---[[Translation missing --]]
-L["options:size-and-position:target-strata"] = "Layer of icons on target nameplate"
---[[Translation missing --]]
-L["options:spells:add-import-new-spell"] = "Add/import aura"
---[[Translation missing --]]
-L["options:spells:add-new-spell"] = "Spell name/link/id or import string..."
---[[Translation missing --]]
-L["options:spells:animation-relative:tooltip"] = [=[This option changes the meaning of slider on the left.
+내장 정렬 함수 (결과는 부울 값):
+  - local result = sort_time(효과1, 효과2) - 효과 남은 시간별 정렬
+  - local result = sort_size(효과1, 효과2) - 아이콘 크기별 정렬]=]
+L["options:size-and-position:icon-align"] = "아이콘 정렬"
+L["options:size-and-position:icon-align:bottom-left"] = "가로: 하단 / 세로: 좌측"
+L["options:size-and-position:icon-align:center"] = "가운데"
+L["options:size-and-position:icon-align:top-right"] = "가로: 상단 / 세로: 우측"
+L["options:size-and-position:icon-height"] = "기본 아이콘 높이"
+L["options:size-and-position:icon-width"] = "기본 아이콘 너비"
+L["options:size-and-position:icon-zoom"] = "아이콘 확대"
+L["options:size-and-position:keep-aspect-ratio"] = "텍스처의 종횡비 유지"
+L["options:size-and-position:keep-aspect-ratio:tooltip"] = "이 옵션을 켜고 아이콘의 너비와 높이가 같지 않으면 주문의 텍스처가 원래 이미지 비율을 저장하는 방식으로 잘립니다."
+L["options:size-and-position:non-target-strata"] = "비대상 이름표 아이콘의 레이어"
+L["options:size-and-position:scale-target"] = "대상 이름표 아이콘의 크기 비율"
+L["options:size-and-position:target-strata"] = "대상 이름표 아이콘의 레이어"
+L["options:spells:add-import-new-spell"] = "효과 추가/가져오기"
+L["options:spells:add-new-spell"] = "주문 이름/링크/ID 또는 가져오기 문자열..."
+L["options:spells:animation-relative:tooltip"] = [=[이 옵션은 왼쪽 슬라이더의 의미를 바꿉니다.
 
-If this option is checked, animation will start when aura's remaining duration is less than the selected percent of maximum duration of this aura. It is useful, for example, if you want to know when you can safely re-apply your DoT spell without losing it's duration.
+이 옵션을 켜면 남은 효과 지속 시간이 선택한 이 효과의 최대 지속 시간 백분율보다 작을 때 애니메이션이 시작됩니다. 예를 들어, DoT 주문의 지속 시간을 잃지 않고 안전하게 다시 적용할 수 있는 때를 알고 싶다면 유용합니다.
 
-If this option is unchecked, animation will start when aura's remaining duration is less than absolute value of slider (in seconds)]=]
---[[Translation missing --]]
-L["options:spells:animation-type"] = "Animation type"
---[[Translation missing --]]
-L["options:spells:appropriate-spell-ids"] = "Appropriate aura IDs:"
---[[Translation missing --]]
-L["options:spells:disable-all-spells"] = "Disable all spells"
---[[Translation missing --]]
-L["options:spells:enable-all-spells"] = "Enable all spells"
---[[Translation missing --]]
-L["options:spells:export-spell"] = "Export aura"
---[[Translation missing --]]
-L["options:spells:glow-relative"] = "Use relative time"
---[[Translation missing --]]
-L["options:spells:glow-relative:tooltip"] = [=[This option changes the meaning of slider on the left.
+이 옵션을 끄면 남은 효과 지속 시간이 슬라이더의 절댓값(초)보다 작을 때 애니메이션이 시작됩니다.]=]
+L["options:spells:animation-type"] = "애니메이션 유형"
+L["options:spells:appropriate-spell-ids"] = "알맞은 주문 ID:"
+L["options:spells:disable-all-spells"] = "모든 주문 사용 안 함"
+L["options:spells:enable-all-spells"] = "모든 주문 사용"
+L["options:spells:export-spell"] = "효과 내보내기"
+L["options:spells:glow-relative"] = "상대 시간 사용"
+L["options:spells:glow-relative:tooltip"] = [=[이 옵션은 왼쪽 슬라이더의 의미를 바꿉니다.
 
-If this option is checked, glow will appear when aura's remaining duration is less than the selected percent of maximum duration of this aura. It is useful, for example, if you want to know when you can safely re-apply your DoT spell without losing it's duration.
+이 옵션을 켜면 남은 효과 지속 시간이 선택한 이 효과의 최대 지속 시간 백분율보다 작을 때 반짝임이 나타납니다. 예를 들어, DoT 주문의 지속 시간을 잃지 않고 안전하게 다시 적용할 수 있는 때를 알고 싶다면 유용합니다.
 
-If this option is unchecked, glow will appear when aura's remaining duration is less than absolute value of slider (in seconds)]=]
---[[Translation missing --]]
-L["options:spells:icon-animation"] = "Icon animation"
---[[Translation missing --]]
-L["options:spells:icon-animation-always"] = "Show animation all the time"
---[[Translation missing --]]
-L["options:spells:icon-animation-threshold"] = "Show animation if aura's remaining time is less than"
---[[Translation missing --]]
-L["options:spells:icon-border:builtin"] = "Border: Built-in"
---[[Translation missing --]]
-L["options:spells:icon-border:custom"] = "Border: Custom"
---[[Translation missing --]]
-L["options:spells:icon-border:disabled"] = "Border: Disabled"
-L["options:spells:icon-glow"] = "반짝임 보기"
-L["options:spells:icon-glow-always"] = "항상 반짝임"
---[[Translation missing --]]
-L["options:spells:icon-glow-threshold"] = "Show glow if aura's remaining time is less than"
---[[Translation missing --]]
-L["options:spells:icon-height"] = "Icon height"
---[[Translation missing --]]
-L["options:spells:icon-width"] = "Icon width"
---[[Translation missing --]]
-L["options:spells:please-push-once-more"] = "Please push once more"
-L["options:spells:show-on-friends:warning0"] = [=[주의하십시오 : 
-이 옵션을 사용 가능 할 때까지 nameplates에 이 오라를 볼 수 없습니다 : 
-<일반> -> <아군 유닛의 nameplates에 오라를 표시하십시오>]=]
---[[Translation missing --]]
-L["options:timer-text:min-duration-to-display-tenths-of-seconds"] = "Minimum duration to display tenths of seconds"
+이 옵션을 끄면 남은 효과 지속 시간이 슬라이더의 절댓값(초)보다 작을 때 반짝임이 나타납니다.]=]
+L["options:spells:icon-animation"] = "아이콘 애니메이션"
+L["options:spells:icon-animation-always"] = "항상 애니메이션 표시"
+L["options:spells:icon-animation-threshold"] = "효과의 남은 시간이 다음보다 짧다면 애니메이션 표시"
+L["options:spells:icon-border:builtin"] = "테두리: 내장"
+L["options:spells:icon-border:custom"] = "테두리: 사용자 정의"
+L["options:spells:icon-border:disabled"] = "테두리: 사용 안 함"
+L["options:spells:icon-glow"] = "반짝임 표시"
+L["options:spells:icon-glow-always"] = "항상 반짝임 표시"
+L["options:spells:icon-glow-threshold"] = "효과의 남은 시간이 다음보다 짧다면 반짝임 표시"
+L["options:spells:icon-height"] = "아이콘 높이"
+L["options:spells:icon-width"] = "아이콘 너비"
+L["options:spells:please-push-once-more"] = "한번 더 누르세요."
+L["options:spells:show-on-friends:warning0"] = "주의: 이 옵션을 켤 때까지 아군 이름표에서는 이 효과를 볼 수 없습니다: <일반> --> <아군 유닛 이름표에 효과 표시>"
+L["options:spells:spell-tooltip"] = "주문 툴팁은 문자가 포함되어야 합니다."
+L["options:timer-text:min-duration-to-display-tenths-of-seconds"] = "1/10초를 표시하는 최소 지속 시간"
+L["options:timer-text:relative-color"] = "그러데이션 색상 사용"
+L["options:timer-text:relative-color:tooltip"] = "타이머 문자의 색상은 효과의 지속 시간과 남은 시간에 따라 동적으로 계산됩니다."
 L["options:timer-text:scale-font-size"] = "아이콘 크기에 따라 글꼴 크기 조정"
-L["options:timer-text:text-color-note"] = "남은 시간에 따라 텍스트 색상이 변경됩니다."
+L["options:timer-text:text-color-note"] = "남은 시간에 따라 문자 색상이 바뀝니다:"
 L["Other"] = "기타"
 L["Please reload UI to apply changes"] = "변경점을 적용하려면 UI를 재시작 해주세요"
 L["Poison"] = "독"
 L["Profiles"] = "프로필"
 L["Reload UI"] = "UI 새로고침"
-L["Show border around buff icons"] = "이로운 효과 아이콘의 테두리 표시하기"
-L["Show border around debuff icons"] = "해로운 효과 아이콘의 테두리 표시하기"
-L["Show this aura on nameplates of allies"] = "이 효과를 아군 이름표에 표시하기"
-L["Show this aura on nameplates of enemies"] = "이 효과를 적 이름표에 표시하기"
+L["Show border around buff icons"] = "강화 효과 아이콘 주위에 테두리 표시"
+L["Show border around debuff icons"] = "약화 효과 아이콘 주위에 테두리 표시"
+L["Show this aura on nameplates of allies"] = "이 효과를 아군 이름표에 표시"
+L["Show this aura on nameplates of enemies"] = "이 효과를 적 이름표에 표시"
 L["Sort mode:"] = "정렬 방식:"
-L["Space between icons"] = "아이콘 간 거리"
+L["Space between icons"] = "아이콘 사이 간격"
 L["Spell seems to be nonexistent"] = "주문이 존재하지 않습니다"
 L["Spells"] = "주문"
---[[Translation missing --]]
-L["Stack text"] = "Stack text"
-L["Text color"] = "텍스트 색상"
-L["Timer text"] = "타이머 텍스트"
+L["Stack text"] = "중첩 문자"
+L["Text color"] = "문자 색상"
+L["Timer text"] = "타이머 문자"
 L["Value must be a number"] = "값은 숫자여야 합니다."
-L["X offset"] = "X 좌표 위치"
-L["Y offset"] = "Y 좌표 위치"
+L["X offset"] = "X 좌표"
+L["Y offset"] = "Y 좌표"
 
 --@end-non-debug@

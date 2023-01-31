@@ -1,8 +1,8 @@
-## Interface: 30400
+## Interface: 30401
 ## Title: NameplateAuras [WotLK]
 ## Notes: Displays people's buffs/debuffs above their nameplates
 ## SavedVariables: NameplateAurasAceDB
-## Version: 30400.2-release
+## Version: 30401.4-release
 ## X-Curse-Project-ID: 101192
 ## X-Wago-ID: lQNl536e
 

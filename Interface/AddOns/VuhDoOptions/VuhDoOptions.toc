@@ -1,8 +1,8 @@
-## Interface: 30400
+## Interface: 30401 
 
 ## Title: VuhDo ['vu:du:] - Options
 ## Author: Iza@Gilneas, humfras, Ivaria@Hyjal
-## Version: 3.145-wotlkc
+## Version: 3.147-wotlkc
 ## Notes: VuhDo Options
 
 ## X-Curse-Project-ID: 7950

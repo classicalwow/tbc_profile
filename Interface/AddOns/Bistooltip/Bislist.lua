@@ -130,11 +130,11 @@ end
 local function drawItemSlot(slot)
     local f = AceGUI:Create("Label")
     f:SetText(slot.slot_name)
-    f:SetFont("Fonts\\FRIZQT__.TTF", 14)
+    f:SetFont("Fonts\\FRIZQT__.TTF", 14, "")
     spec_frame:AddChild(f)
     spec_frame:AddChild(createEnhancementsFrame(slot.enhs))
     for i, item_id in ipairs(slot) do
-        if item_id~=nil and Bistooltip_char_equipment[item_id] == 1 then
+        if item_id ~= nil and Bistooltip_char_equipment[item_id] == 1 then
             spec_frame:AddChild(createItemFrame(item_id, 40, true))
         else
             spec_frame:AddChild(createItemFrame(item_id, 40))
@@ -145,7 +145,7 @@ end
 local function drawTableHeader(frame)
     local f = AceGUI:Create("Label")
     f:SetText("Slot")
-    f:SetFont("Fonts\\FRIZQT__.TTF", 14)
+    f:SetFont("Fonts\\FRIZQT__.TTF", 14, "")
     local color = 0.6
     f:SetColor(color, color, color)
     frame:AddChild(f)
@@ -174,8 +174,8 @@ local function drawSpecData()
         return
     end
     local slots = Bistooltip_bislists[class][spec][phase]
-    for key,value in ipairs(checkmarks) do
-       value:SetTexture(nil)
+    for key, value in ipairs(checkmarks) do
+        value:SetTexture(nil)
     end
     checkmarks = {}
     for i, slot in ipairs(slots) do
@@ -336,7 +336,15 @@ function BistooltipAddon:createMainFrame()
     end
     main_frame = AceGUI:Create("Frame")
     main_frame:SetWidth(450)
-    main_frame.frame:SetMinResize(420,300)
+    main_frame.frame:SetResizeBounds(450, 300)
+
+    --main_frame.frame:SetScript("OnKeyDown", function(self, key)
+    --    if key == "ESCAPE" then
+    --        BistooltipAddon:closeMainFrame()
+    --    end
+    --end)
+    --main_frame.frame:SetPropagateKeyboardInput(false)
+
     main_frame:SetCallback("OnClose", function(widget)
         spec_frame = nil
         items = {}
@@ -361,7 +369,6 @@ function BistooltipAddon:closeMainFrame()
         return
     end
 end
-
 
 function BistooltipAddon:initBislists()
     buildClassDict()

@@ -20,13 +20,17 @@ function LBIS:PreCacheItems()
     for prioSpec in pairs(LBISServerSettings.CustomList) do
         for prioSlot in pairs(LBISServerSettings.CustomList[prioSpec]) do
             local itemCount = 1;
-            for _, itemId in pairs(LBISServerSettings.CustomList[prioSpec][prioSlot]) do                
 
-                if LBIS.CustomEditList.Items[itemId] == nil then
-                    LBIS.CustomEditList.Items[itemId] = {};
+            LBIS:ConvertCustomList(LBISServerSettings.CustomList[prioSpec][prioSlot]);
+
+            for _, item in pairs(LBISServerSettings.CustomList[prioSpec][prioSlot]) do
+                
+                if LBIS.CustomEditList.Items[item.ItemId] == nil then
+                    LBIS.CustomEditList.Items[item.ItemId] = {};
                 end
 
-                LBIS.CustomEditList.Items[itemId][prioSpec] = itemCount;
+                LBIS.CustomEditList.Items[item.ItemId][prioSpec] = item;
+
                 itemCount = itemCount + 1;
             end
         end
@@ -38,6 +42,24 @@ function LBIS:PreCacheItems()
         end
     end
     return LBIS.AllItemsCached;
+end
+
+--TODO: Remove this after a few months ?
+function LBIS:ConvertCustomList(list)
+    
+    local itemCount = 1;
+    --Loop through all items in list
+    for _, item in pairs(list) do
+        if type(item) == "number" then
+            local itemId = item;
+            item = { ItemId = itemId, TooltipText = "Custom #"..itemCount }
+        end
+
+        list[itemCount] = item;
+
+        itemCount = itemCount + 1;
+    end
+
 end
 
 function LBIS:CacheItem(itemId)
@@ -67,6 +89,19 @@ function LBIS:GetPhaseNumbers(phaseText)
     end
 
     return firstNumber, lastNumber;
+end
+
+function LBIS:FindInPhase(phaseText, phase)
+
+    local phaseNumber = tonumber(phase);
+
+    local firstNumber, lastNumber = LBIS:GetPhaseNumbers(phaseText);
+
+    if firstNumber == nil then
+        return false;
+    end
+
+    return tonumber(firstNumber) <= phaseNumber and tonumber(lastNumber) >= phaseNumber;
 end
 
 function LBIS:TableLength(T)
@@ -133,8 +168,8 @@ function LBIS:GetItemInfo(itemId, returnFunc)
                 Class = classId,
                 Slot = itemSlots[itemSlot]
             };
-
-            if name then
+            
+            if name and LBIS.ItemSources[itemId] ~= nil then
                 LBISServerSettings.ItemCache[itemId] = newItem;
             end
             
@@ -149,7 +184,7 @@ function LBIS:GetSpellInfo(spellId, returnFunc)
         returnFunc({ Name = nil, Link = nil, Quality = nil, Type = nil, SubType = nil, Texture = nil });
     end
 
-    local cachedSpell = LBIS.WowSpellCache[spellId];
+    local cachedSpell = LBIS.SpellCache[spellId];
 
     if cachedSpell then
         returnFunc(cachedSpell);
@@ -167,7 +202,7 @@ function LBIS:GetSpellInfo(spellId, returnFunc)
             };
 
             if name then
-                LBIS.WowSpellCache[spellId] = newSpell;
+                LBIS.SpellCache[spellId] = newSpell;
             end
             
             returnFunc(newSpell);
@@ -211,7 +246,7 @@ function LBIS:CreateDropdown(opts, width)
     LibDD:UIDropDownMenu_SetText(dropdown, default_val)
     LibDD:UIDropDownMenu_SetWidth(dropdown, width, 0)
 
-    local dd_title = dropdown:CreateFontString(dropdown, 'OVERLAY', 'GameFontNormalSmall')
+    local dd_title = dropdown:CreateFontString(nil, 'OVERLAY', 'GameFontNormalSmall')
     dd_title:SetText(title_text)
     dd_title:SetPoint("TOPLEFT", (-1 * dd_title:GetStringWidth()) + 20, -8)
 
@@ -357,4 +392,17 @@ function LBIS:GetItemIdFromLink(itemLink)
     "|?c?f?f?(%x*)|?H?([^:]*):?(%d+):?(%d*):?(%d*):?(%d*):?(%d*):?(%d*):?(%-?%d*):?(%-?%d*):?(%d*):?(%d*):?(%-?%d*)|?h?%[?([^%[%]]*)%]?|?h?|?r?")
 
     return Id;
+end
+
+function LBIS:DeepCopy(src, dst)
+	if type(src) ~= "table" then return {} end
+	if type(dst) ~= "table" then dst = {} end
+	for k, v in pairs(src) do
+		if type(v) == "table" then
+			dst[k] = LBIS:DeepCopy(v, dst[k])
+		elseif type(v) ~= type(dst[k]) then
+			dst[k] = v
+		end
+	end
+	return dst
 end

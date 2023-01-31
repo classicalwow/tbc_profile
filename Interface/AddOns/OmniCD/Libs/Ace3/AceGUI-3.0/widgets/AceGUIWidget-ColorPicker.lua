@@ -7,7 +7,11 @@
 --[[-----------------------------------------------------------------------------
 ColorPicker Widget
 -------------------------------------------------------------------------------]]
+--[[ s r
+local Type, Version = "ColorPicker", 25
+]]
 local Type, Version = "ColorPicker-OmniCD", 25
+-- e
 local AceGUI = LibStub and LibStub("AceGUI-3.0", true)
 if not AceGUI or (AceGUI:GetWidgetVersion(Type) or 0) >= Version then return end
 
@@ -16,10 +20,6 @@ local pairs = pairs
 
 -- WoW APIs
 local CreateFrame, UIParent = CreateFrame, UIParent
-
--- Global vars/functions that we don't upvalue since they might get hooked, or upgraded
--- List them here for Mikk's FindGlobals script
--- GLOBALS: ColorPickerFrame, OpacitySliderFrame
 
 --[[-----------------------------------------------------------------------------
 Support functions
@@ -188,7 +188,11 @@ local function Constructor()
 	checkers:SetPoint("CENTER", colorSwatch)
 	checkers:Show()
 
+	--[[ s r
+	local text = frame:CreateFontString(nil,"OVERLAY","GameFontHighlight")
+	]]
 	local text = frame:CreateFontString(nil,"OVERLAY","GameFontHighlight-OmniCD")
+	-- e
 	text:SetHeight(24)
 	text:SetJustifyH("LEFT")
 	text:SetTextColor(1, 1, 1)
@@ -202,9 +206,9 @@ local function Constructor()
 
 	local widget = {
 		colorSwatch = colorSwatch,
-		text        = text,
-		frame       = frame,
-		type        = Type
+		text	    = text,
+		frame	    = frame,
+		type	    = Type
 	}
 	for method, func in pairs(methods) do
 		widget[method] = func

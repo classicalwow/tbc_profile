@@ -92,11 +92,13 @@ L["options:borders:border-type"] = "Border type"
 L["options:category:alpha"] = "Alpha"
 L["options:category:apps"] = "Apps"
 L["options:category:dispel"] = "Purge/steal"
+L["options:category:icon-groups"] = "Icon groups"
 L["options:category:interrupts"] = "Interrupts"
 L["options:category:size-and-position"] = "Size & position"
 L["options:general:always-show-my-auras:tooltip"] = "This is top priority filter. If you enable this feature, your auras will be shown regardless of other filters"
 L["options:general:always-show-my-auras-blacklist:button"] = "-> Blacklist"
 L["options:general:always-show-my-auras-blacklist:button:tooltip"] = "Pay attention! If spell is added to `Spells` list AND this blacklist, it WILL be shown on nameplates"
+L["options:general:current-icon-group"] = "Current icon group"
 L["options:general:export-profile"] = "Export profile"
 L["options:general:hide-blizz-frames"] = "Hide Blizzard's aura frames (except player)"
 L["options:general:hide-player-blizz-frame"] = "Hide Blizzard's aura frames on player"
@@ -104,6 +106,9 @@ L["options:general:icon-grow-direction"] = "Icon growing direction"
 L["options:general:import-profile"] = "Import profile"
 L["options:general:instance-types"] = [=[Set the visibility of the cooldowns
 in different types of locations]=]
+L["options:general:npc-blacklist"] = "NPC blacklist"
+L["options:general:npc-blacklist-add-button"] = "Add NPC"
+L["options:general:npc-blacklist-editbox-add"] = "Please enter NPC name here"
 L["options:general:show-aura-tooltip"] = "Show aura name when mouse is over auras icon"
 L["options:general:show-cooldown-animation"] = "Show cooldown animation"
 L["options:general:show-cooldown-text"] = "Show aura's remaining time"
@@ -111,12 +116,20 @@ L["options:general:show-on-target-even-in-disabled-area-types"] = "Show auras on
 L["options:general:show-on-target-only"] = "Show auras on target's nameplate only"
 L["options:general:show-stacks"] = "Show aura's stacks"
 L["options:general:test-mode"] = "Test mode"
+L["options:general:use-default-tooltip"] = "Show default Blizzard's aura tooltip"
 L["options:glow-type"] = "Glow type"
 L["options:glow-type:GLOW_TYPE_ACTIONBUTTON"] = "Action button"
 L["options:glow-type:GLOW_TYPE_ACTIONBUTTON_DIM"] = "Action button (dim)"
 L["options:glow-type:GLOW_TYPE_AUTOUSE"] = "Auto-use button"
 L["options:glow-type:GLOW_TYPE_NONE"] = "None"
 L["options:glow-type:GLOW_TYPE_PIXEL"] = "Pixel"
+L["options:icon-groups:description"] = [=[
+An icon group is a set of icons with independent settings. For example, you can create a separate icon group for debuffs, a separate icon group for interrupts, and a separate icon group for important boss buffs. Then you can place these icon groups around the nameplate independently. FYI addons can't distinguish buffs and debuffs, so populating groups with spells is, unfortunately, your responsibility. :)
+The drop-down menu in the upper left corner of this window displays the icon group that you're currently editing.
+Pay attention: spells are shared between icon groups, but you can create multiple spells with the same name but with different options, and then set links to different icon groups.]=]
+L["options:icon-groups:dropdown-list"] = "Icon groups"
+L["options:icon-groups:editbox-add-text"] = "Enter name and hit Enter key to add new icon group"
+L["options:icon-groups:remove"] = "Delete"
 L["options:interrupts:enable-interrupts"] = "Enable interrupt tracking"
 L["options:interrupts:enable-only-during-pvp-battles"] = "Enable during PvP battles only"
 L["options:interrupts:use-shared-icon-texture"] = "Use the same texture for all interrupt spells"
@@ -185,7 +198,12 @@ L["options:spells:icon-width"] = "Icon width"
 L["options:spells:please-push-once-more"] = "Please push once more"
 L["options:spells:show-on-friends:warning0"] = [=[Please pay attention:
 You will not see this aura on friendly nameplates until you enable this option: <General> --> <Display auras on nameplates of friendly units>]=]
+L["options:spells:spell-tooltip"] = [=[Spell tooltip
+must contain text]=]
 L["options:timer-text:min-duration-to-display-tenths-of-seconds"] = "Minimum duration to display tenths of seconds"
+L["options:timer-text:relative-color"] = "Use gradient color"
+L["options:timer-text:relative-color:tooltip"] = [=[Timer text's color will be calculated dynamically,
+based on aura's duration and remaining time.]=]
 L["options:timer-text:scale-font-size"] = "Scale font size according to icon size"
 L["options:timer-text:text-color-note"] = [=[Text colour will change
 depending on the time remaining:]=]
@@ -421,5 +439,29 @@ L["options:general:import-profile"] = "Import profile"
 L["options:general:export-profile"] = "Export profile"
 L["options:general:always-show-my-auras-blacklist:button"] = "-> Blacklist"
 L["options:general:always-show-my-auras-blacklist:button:tooltip"] = "Pay attention! If spell is added to `Spells` list AND this blacklist, it WILL be shown on nameplates"
+L["options:general:use-default-tooltip"] = "Show default Blizzard's aura tooltip"
+L["options:general:npc-blacklist"] = "NPC blacklist"
+L["options:general:npc-blacklist-add-button"] = "Add NPC"
+L["options:general:npc-blacklist-editbox-add"] = "Please enter NPC name here"
+L["options:timer-text:relative-color"] = "Use gradient color"
+L["options:timer-text:relative-color:tooltip"] = [=[Timer text's color will be calculated dynamically,
+based on aura's duration and remaining time.]=]
+L["options:spells:spell-tooltip"] = [=[Spell tooltip
+must contain text]=]
+
+L["options:icon-groups:editbox-add-text"] = "Enter name and hit Enter key to add new icon group"
+L["options:icon-groups:dropdown-list"] = "Icon groups"
+L["options:category:icon-groups"] = "Icon groups"
+L["options:icon-groups:remove"] = "Delete"
+L["options:general:current-icon-group"] = "Current icon group"
+L["options:icon-groups:description"] =
+[=[Icon group is a set of icons with independent settings.
+For example, you can create separate icon group for debuffs,
+separate icon group for interrupts, and separate icon group for
+important boss buffs. Then you can place these icon groups around
+nameplate independently.
+Pay attention: spells are shared between icon groups, but you can create
+multiple spells with the same name but with different options, and then
+set link to different icon groups.]=]
 
 --@end-debug@]==]

@@ -88,17 +88,24 @@ L["options:borders:border-type"] = "边框类型"
 L["options:category:alpha"] = "透明度"
 L["options:category:apps"] = "附加 功能"
 L["options:category:dispel"] = "净化/偷取"
+--[[Translation missing --]]
+L["options:category:icon-groups"] = "Icon groups"
 L["options:category:interrupts"] = "打断"
 L["options:category:size-and-position"] = "大小和位置"
 L["options:general:always-show-my-auras:tooltip"] = "这是最高级的过滤器。如果你开启了这个功能，你的光环显示设置将无视其他过滤器的设置。"
 L["options:general:always-show-my-auras-blacklist:button"] = "-> 黑名单"
 L["options:general:always-show-my-auras-blacklist:button:tooltip"] = "注意！ 如果将法术添加到“法术”列表和此黑名单中，它将显示在姓名板上"
+--[[Translation missing --]]
+L["options:general:current-icon-group"] = "Current icon group"
 L["options:general:export-profile"] = "导出配置"
 L["options:general:hide-blizz-frames"] = "隐藏暴雪的光环框架（除玩家外）"
 L["options:general:hide-player-blizz-frame"] = "隐藏暴雪的光环框架（玩家）"
 L["options:general:icon-grow-direction"] = "图标增长方向"
 L["options:general:import-profile"] = "导入配置"
 L["options:general:instance-types"] = "设置光环在不同区域的可见性"
+L["options:general:npc-blacklist"] = "NPC黑名单"
+L["options:general:npc-blacklist-add-button"] = "添加NPC"
+L["options:general:npc-blacklist-editbox-add"] = "请在此处输入NPC名称"
 L["options:general:show-aura-tooltip"] = "当鼠标在光环图标上悬停时显示光环名称"
 L["options:general:show-cooldown-animation"] = "显示冷却动画"
 L["options:general:show-cooldown-text"] = "显示光环的剩余时间"
@@ -106,12 +113,24 @@ L["options:general:show-on-target-even-in-disabled-area-types"] = "在目标姓�
 L["options:general:show-on-target-only"] = "仅在目标姓名板上显示光环"
 L["options:general:show-stacks"] = "显示光环的层数"
 L["options:general:test-mode"] = "测试模式"
+L["options:general:use-default-tooltip"] = "显示默认的暴雪光环提示框"
 L["options:glow-type"] = "发光类型"
 L["options:glow-type:GLOW_TYPE_ACTIONBUTTON"] = "动作条按钮"
 L["options:glow-type:GLOW_TYPE_ACTIONBUTTON_DIM"] = "动作条按钮(暗光)"
 L["options:glow-type:GLOW_TYPE_AUTOUSE"] = "自动使用按钮"
 L["options:glow-type:GLOW_TYPE_NONE"] = "无"
 L["options:glow-type:GLOW_TYPE_PIXEL"] = "像素"
+--[[Translation missing --]]
+L["options:icon-groups:description"] = [=[
+An icon group is a set of icons with independent settings. For example, you can create a separate icon group for debuffs, a separate icon group for interrupts, and a separate icon group for important boss buffs. Then you can place these icon groups around the nameplate independently. FYI addons can't distinguish buffs and debuffs, so populating groups with spells is, unfortunately, your responsibility. :)
+The drop-down menu in the upper left corner of this window displays the icon group that you're currently editing.
+Pay attention: spells are shared between icon groups, but you can create multiple spells with the same name but with different options, and then set links to different icon groups.]=]
+--[[Translation missing --]]
+L["options:icon-groups:dropdown-list"] = "Icon groups"
+--[[Translation missing --]]
+L["options:icon-groups:editbox-add-text"] = "Enter name and hit Enter key to add new icon group"
+--[[Translation missing --]]
+L["options:icon-groups:remove"] = "Delete"
 L["options:interrupts:enable-interrupts"] = "开启打断监视"
 L["options:interrupts:enable-only-during-pvp-battles"] = "只在PvP战斗中开启"
 L["options:interrupts:use-shared-icon-texture"] = "在打断法术上使用同样的材质"
@@ -169,7 +188,12 @@ L["options:spells:icon-width"] = "图标宽度"
 L["options:spells:please-push-once-more"] = "请再点击一次"
 L["options:spells:show-on-friends:warning0"] = [=[请注意：除非你打开这个选项，否则你将不会在友方姓名板上看到这个光环：
 <综合> --> <在友方姓名板上显示光环>]=]
+--[[Translation missing --]]
+L["options:spells:spell-tooltip"] = [=[Spell tooltip
+must contain text]=]
 L["options:timer-text:min-duration-to-display-tenths-of-seconds"] = "最小显示时间为零点一秒"
+L["options:timer-text:relative-color"] = "使用渐变颜色"
+L["options:timer-text:relative-color:tooltip"] = "计时器文本的颜色将根据光环的持续时间和剩余时间动态计算。"
 L["options:timer-text:scale-font-size"] = "根据图标大小缩放字体"
 L["options:timer-text:text-color-note"] = "文字颜色随剩余时间改变:"
 L["Other"] = "其他"
@@ -179,8 +203,8 @@ L["Profiles"] = "配置文件"
 L["Reload UI"] = "重新加载用户界面"
 L["Show border around buff icons"] = "在增益图标周围显示边框"
 L["Show border around debuff icons"] = "在减益图标周围显示边框"
-L["Show this aura on nameplates of allies"] = "在盟友的姓名板上显示这个光环"
-L["Show this aura on nameplates of enemies"] = "在敌人的姓名板上显示这个光环"
+L["Show this aura on nameplates of allies"] = "在友方的姓名板上显示这个光环"
+L["Show this aura on nameplates of enemies"] = "在敌方的姓名板上显示这个光环"
 L["Sort mode:"] = "排序方式:"
 L["Space between icons"] = "图标间距"
 L["Spell seems to be nonexistent"] = "法术似乎不存在"

@@ -1295,21 +1295,25 @@ end
 
 function ArkInventory.Collection.Mount.isUsable( id )
 	
-	if IsOutdoors( ) then
+	local md = ArkInventory.Collection.Mount.GetMount( id )
+	if md then
 		
-		local md = ArkInventory.Collection.Mount.GetMount( id )
-		if md then
+		if IsUsableSpell( md.spellID ) then
 			
-			if ( IsUsableSpell( md.spellID ) ) then
+			local mz = false
+			
+			local mu = select( 5, C_MountJournal.GetMountInfoByID( id ) ) -- is not always correct
+			if mu then
 				
-				local mz = false
-				
-				local mu = select( 5, C_MountJournal.GetMountInfoByID( id ) ) -- is not always correct
-				if mu then
+				if ZoneRestrictions[md.spellID] then
 					
-					if ZoneRestrictions[md.spellID] then
+					ArkInventory.OutputDebug( "mount ", md.spellID, " has zone restrictions ", ZoneRestrictions[md.spellID] )
+					
+					if #ZoneRestrictions == 0 then
 						
-						ArkInventory.OutputDebug( "mount ", md.spellID, " has zone restrictions ", ZoneRestrictions[md.spellID] )
+						mz = true
+						
+					else
 						
 						local map = C_Map.GetBestMapForUnit( "player" )
 						for _, z in pairs( ZoneRestrictions[md.spellID] ) do
@@ -1319,18 +1323,18 @@ function ArkInventory.Collection.Mount.isUsable( id )
 							end
 						end
 						
-						if not mz then
-							ArkInventory.OutputDebug( "mount ", md.spellID, " cannot be used here [zone=", map, "]" )
-							mu = false
-						end
-						
+					end
+					
+					if not mz then
+						ArkInventory.OutputDebug( "mount ", md.spellID, " cannot be used here [zone=", map, "]" )
+						mu = false
 					end
 					
 				end
 				
-				return mu, mz
-				
 			end
+			
+			return mu, mz
 			
 		end
 		
@@ -1538,7 +1542,7 @@ local function Scan_Threaded( thread_id )
 		numTotal = numTotal + 1
 		YieldCount = YieldCount + 1
 		
-		local name, spellID, icon, isActive, isUsable, source, isFavorite, isFactionSpecific, faction, shouldHideOnChar, isCollected, mountID = C_MountJournal.GetMountInfoByID( index )
+		local name, spellID, icon, isActive, isUsable, source, isFavorite, isFactionSpecific, faction, shouldHideOnChar, isCollected, mountID, isDragonriding = C_MountJournal.GetMountInfoByID( index )
 		local creatureDisplayInfoID, description, source2, isSelfMount, mountTypeID, uiModelSceneID = C_MountJournal.GetMountInfoExtraByID( index )
 --		local isFavorite, canSetFavorite = C_MountJournal.GetIsFavorite( i )
 		
@@ -1583,6 +1587,7 @@ local function Scan_Threaded( thread_id )
 			c[i].isSelfMount = isSelfMount
 			c[i].mountTypeID = mountTypeID
 			c[i].uiModelSceneID = uiModelSceneID
+			c[i].isDragonriding = isDragonriding
 			
 			c[i].link = GetSpellLink( spellID )
 			

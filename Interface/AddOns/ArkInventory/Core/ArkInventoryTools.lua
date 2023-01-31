@@ -40,7 +40,7 @@ end
 ]]--
 
 --[[
-local z = "obtained a reagent bag"
+local z = "level is decreased"
 ArkInventory.Output( "search=", z )
 for k, v in pairs (_G) do
 	if type( k ) == "string" and type( v ) == "string" then

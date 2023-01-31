@@ -2,12 +2,19 @@
 
 -- Customized for OmniCD by permission of the copyright owner.
 
+-- Parameters to Edit on CTRL + mouse click
+-- arg = spellID (number), func DND
+
 ---------------------------------------------------------------------------------
 
 --[[-----------------------------------------------------------------------------
 Checkbox Widget
 -------------------------------------------------------------------------------]]
-local Type, Version = "CheckBox-OmniCD", 26
+--[[ s r
+local Type, Version = "CheckBox", 26
+]]
+local Type, Version = "CheckBox-OmniCD", 27 --26 by OA
+-- e
 local AceGUI = LibStub and LibStub("AceGUI-3.0", true)
 if not AceGUI or (AceGUI:GetWidgetVersion(Type) or 0) >= Version then return end
 
@@ -18,15 +25,14 @@ local select, pairs = select, pairs
 local PlaySound = PlaySound
 local CreateFrame, UIParent = CreateFrame, UIParent
 
--- Global vars/functions that we don't upvalue since they might get hooked, or upgraded
--- List them here for Mikk's FindGlobals script
--- GLOBALS: SetDesaturation, GameFontHighlight
-
 -- s b
+local USE_ICON_CROP = false
+local DEFAULT_ICON_SIZE = USE_ICON_CROP and 21 or 18 -- tree icon: 18
 local IMAGED_CHECKBOX_SIZE = 14
-local DEFAULT_ICON_SIZE = 21 -- 1.5 crop
-local USE_ICON_BACKDROP = WOW_PROJECT_ID ~= WOW_PROJECT_CLASSIC
-local USE_ICON_CROP = true
+local CROP_FACTOR = 1.5
+local CROP_ICON_HEIGHT = DEFAULT_ICON_SIZE / CROP_FACTOR
+local CROP_BOTTOM_TEXCOORD = 1/CROP_FACTOR - 0.1
+local USE_ICON_BACKDROP = false --WOW_PROJECT_ID ~= WOW_PROJECT_CLASSIC
 
 --[[-----------------------------------------------------------------------------
 Support functions
@@ -109,12 +115,16 @@ end
 ]]
 local function Control_OnEnter(frame)
 	frame.obj:Fire("OnEnter")
-	frame.obj.checkbg:SetBackdropBorderColor(0.5, 0.5, 0.5)  -- match range slider editbox
+	-- v27
+--	frame.obj.checkbg:SetBackdropBorderColor(0.5, 0.5, 0.5)	 -- match range slider editbox
+	frame.obj.checkbg.border:SetColorTexture(0.5, 0.5, 0.5)
 end
 
 local function Control_OnLeave(frame)
 	frame.obj:Fire("OnLeave")
-	frame.obj.checkbg:SetBackdropBorderColor(0.2, 0.2, 0.25) -- match range slider editbox
+	-- v27
+--	frame.obj.checkbg:SetBackdropBorderColor(0.2, 0.2, 0.25) -- match range slider editbox
+	frame.obj.checkbg.border:SetColorTexture(0.2, 0.2, 0.25)
 end
 
 local mouseOverFrame -- (mu) prevent mouseup registering outside of frame region
@@ -216,7 +226,9 @@ local methods = {
 			if self.desc then
 				self.desc:SetTextColor(0.5, 0.5, 0.5)
 			end
-			self.checkbg:SetBackdropColor(0.5, 0.5, 0.5) -- s a
+			-- v27
+--			self.checkbg:SetBackdropColor(0.5, 0.5, 0.5) -- s a
+			self.checkbg.bg:SetColorTexture(0.5, 0.5, 0.5)
 		else
 			self.frame:Enable()
 			self.text:SetTextColor(1, 1, 1)
@@ -228,7 +240,9 @@ local methods = {
 			if self.desc then
 				self.desc:SetTextColor(1, 1, 1)
 			end
-			self.checkbg:SetBackdropColor(0, 0, 0) -- s a
+			-- v27
+--			self.checkbg:SetBackdropColor(0, 0, 0) -- s a
+			self.checkbg.bg:SetColorTexture(0, 0, 0)
 		end
 	end,
 
@@ -325,14 +339,18 @@ local methods = {
 	["SetDescription"] = function(self, desc)
 		if desc then
 			if not self.desc then
-				local desc = self.frame:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall-OmniCD")
-				desc:ClearAllPoints()
-				desc:SetPoint("TOPLEFT", self.checkbg, "TOPRIGHT", 5, -21)
-				desc:SetWidth(self.frame.width - 30)
-				desc:SetPoint("RIGHT", self.frame, "RIGHT", -30, 0)
-				desc:SetJustifyH("LEFT")
-				desc:SetJustifyV("TOP")
-				self.desc = desc
+				--[[ s r
+				local f = self.frame:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
+				]]
+				local f = self.frame:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall-OmniCD")
+				-- e
+				f:ClearAllPoints()
+				f:SetPoint("TOPLEFT", self.checkbg, "TOPRIGHT", 5, -21)
+				f:SetWidth(self.frame.width - 30)
+				f:SetPoint("RIGHT", self.frame, "RIGHT", -30, 0)
+				f:SetJustifyH("LEFT")
+				f:SetJustifyV("TOP")
+				self.desc = f
 			end
 			self.desc:Show()
 			--self.text:SetFontObject(GameFontNormal)
@@ -360,16 +378,16 @@ local methods = {
 				]]
 				if USE_ICON_BACKDROP then -- override
 					if USE_ICON_CROP then
-						self.imagebg:SetHeight(DEFAULT_ICON_SIZE/1.5)
-						image:SetTexCoord(0.05, 0.95, 0.1, 0.6)
+						self.imagebg:SetHeight(CROP_ICON_HEIGHT)
+						image:SetTexCoord(0.05, 0.95, 0.1, CROP_BOTTOM_TEXCOORD)
 					else
 						self.imagebg:SetHeight(DEFAULT_ICON_SIZE)
-						image:SetTexCoord(0.07, 0.93, 0.07, 0.93)
+						image:SetTexCoord(...)
 					end
 				else
 					if USE_ICON_CROP then
-						image:SetHeight(DEFAULT_ICON_SIZE/1.5)
-						image:SetTexCoord(0.05, 0.95, 0.1, 0.6)
+						image:SetHeight(CROP_ICON_HEIGHT)
+						image:SetTexCoord(0.05, 0.95, 0.1, CROP_BOTTOM_TEXCOORD)
 					else
 						image:SetHeight(DEFAULT_ICON_SIZE)
 						image:SetTexCoord(...)
@@ -382,7 +400,7 @@ local methods = {
 		AlignImage(self)
 	end,
 
-	-- s b (dnd)
+	-- s b (edit/dnd)
 	---[[
 	["SetArg"] = function(self, arg)
 		self.arg = arg
@@ -403,7 +421,7 @@ local function Constructor()
 	frame:SetScript("OnMouseDown", CheckBox_OnMouseDown)
 	frame:SetScript("OnMouseUp", CheckBox_OnMouseUp)
 
-	frame:SetHitRectInsets(0, 20, 0, 0) -- s a (avoid misclicking)
+	frame:SetHitRectInsets(0, 10, 0, 0) -- s a (avoid misclicking) -- v27 20>10
 
 	--[[ s r
 	local checkbg = frame:CreateTexture(nil, "ARTWORK")
@@ -420,9 +438,23 @@ local function Constructor()
 	checkbg:SetWidth(14)
 	checkbg:SetHeight(14)
 	checkbg:SetPoint("LEFT")
-	OmniCD[1].BackdropTemplate(checkbg)
+
+	--[[ v27 added texture borders instead of backdrop
+	OmniCD[1].BackdropTemplate(checkbg, "ACD")
 	checkbg:SetBackdropColor(0, 0, 0)
 	checkbg:SetBackdropBorderColor(0.2, 0.2, 0.25)
+	]]
+	checkbg.border = checkbg:CreateTexture(nil, "BACKGROUND")
+	OmniCD[1].DisablePixelSnap(checkbg.border)
+	checkbg.border:SetAllPoints()
+	checkbg.border:SetColorTexture(0.2, 0.2, 0.25)
+
+	checkbg.bg = checkbg:CreateTexture(nil, "BORDER")
+	OmniCD[1].DisablePixelSnap(checkbg.bg)
+	checkbg.bg:SetColorTexture(0, 0, 0)
+	local edgeSize = OmniCD[1].PixelMult / (OmniCD[1].global.optionPanelScale or 1)
+	checkbg.bg:SetPoint("TOPLEFT", checkbg, "TOPLEFT", edgeSize, -edgeSize)
+	checkbg.bg:SetPoint("BOTTOMRIGHT", checkbg, "BOTTOMRIGHT", -edgeSize, edgeSize)
 
 	local check = checkbg:CreateTexture(nil, "OVERLAY")
 	check:SetPoint("TOPLEFT", -5, 5)
@@ -430,7 +462,11 @@ local function Constructor()
 	check:SetTexture(130751) -- Interface\\Buttons\\UI-CheckBox-Check
 	-- e
 
+	--[[ s r
+	local text = frame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
+	]]
 	local text = frame:CreateFontString(nil, "OVERLAY", "GameFontHighlight-OmniCD")
+	-- e
 	text:SetJustifyH("LEFT")
 	text:SetHeight(18)
 	text:SetPoint("LEFT", checkbg, "RIGHT")
@@ -455,12 +491,24 @@ local function Constructor()
 		imagebg:SetHeight(DEFAULT_ICON_SIZE) -- 24 is frames full height
 		imagebg:SetWidth(DEFAULT_ICON_SIZE)
 		imagebg:SetPoint("LEFT", checkbg, "RIGHT", 2, 0)
-		OmniCD[1].BackdropTemplate(imagebg)
+
+		--[[ v27
+		OmniCD[1].BackdropTemplate(imagebg, "ACD")
 		imagebg:SetBackdropBorderColor(0.2, 0.2, 0.05)
+		]]
+		imagebg.border = imagebg:CreateTexture(nil, "BORDER")
+		OmniCD[1].DisablePixelSnap(imagebg.border)
+		imagebg.border:SetAllPoints()
+		imagebg.border:SetColorTexture(0.2, 0.2, 0.05)
+
 		image = imagebg:CreateTexture(nil, "OVERLAY")
 		OmniCD[1].DisablePixelSnap(image)
+		--[[ v27
 		image:SetPoint("TOPLEFT", imagebg.TopEdge, "BOTTOMLEFT")
 		image:SetPoint("BOTTOMRIGHT", imagebg.BottomEdge, "TOPRIGHT")
+		]]
+		image:SetPoint("TOPLEFT", imagebg, "TOPLEFT", edgeSize, -edgeSize)
+		image:SetPoint("BOTTOMRIGHT", imagebg, "BOTTOMRIGHT", -edgeSize, edgeSize)
 	else
 		image = frame:CreateTexture(nil, "OVERLAY")
 		image:SetHeight(DEFAULT_ICON_SIZE)
@@ -470,15 +518,15 @@ local function Constructor()
 	-- e
 
 	local widget = {
-		checkbg   = checkbg,
-		check     = check,
-		text      = text,
+		checkbg	  = checkbg,
+		check	  = check,
+		text	  = text,
 		--[[ s -r
 		highlight = highlight,
 		]]
-		image     = image,
-		frame     = frame,
-		type      = Type
+		image	  = image,
+		frame	  = frame,
+		type	  = Type
 	}
 
 	-- s b

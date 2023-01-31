@@ -103,6 +103,8 @@ L["options:category:alpha"] = "Transparencia"
 --[[Translation missing --]]
 L["options:category:apps"] = "Apps"
 L["options:category:dispel"] = "Purgar/robar"
+--[[Translation missing --]]
+L["options:category:icon-groups"] = "Icon groups"
 L["options:category:interrupts"] = "Interrupciones"
 L["options:category:size-and-position"] = "Tamaño y posición"
 L["options:general:always-show-my-auras:tooltip"] = "Este filtro tiene máxima prioridad. Si activas esta opción, tus auras se mostrarán siempre, sin tener en cuenta los demás filtros."
@@ -110,6 +112,8 @@ L["options:general:always-show-my-auras:tooltip"] = "Este filtro tiene máxima p
 L["options:general:always-show-my-auras-blacklist:button"] = "-> Blacklist"
 --[[Translation missing --]]
 L["options:general:always-show-my-auras-blacklist:button:tooltip"] = "Pay attention! If spell is added to `Spells` list AND this blacklist, it WILL be shown on nameplates"
+--[[Translation missing --]]
+L["options:general:current-icon-group"] = "Current icon group"
 --[[Translation missing --]]
 L["options:general:export-profile"] = "Export profile"
 L["options:general:hide-blizz-frames"] = "Ocultar los marcos de aura de Blizzard (es necesario recargar la UI)"
@@ -121,6 +125,12 @@ L["options:general:import-profile"] = "Import profile"
 --[[Translation missing --]]
 L["options:general:instance-types"] = [=[Set the visibility of the cooldowns
 in different types of locations]=]
+--[[Translation missing --]]
+L["options:general:npc-blacklist"] = "NPC blacklist"
+--[[Translation missing --]]
+L["options:general:npc-blacklist-add-button"] = "Add NPC"
+--[[Translation missing --]]
+L["options:general:npc-blacklist-editbox-add"] = "Please enter NPC name here"
 L["options:general:show-aura-tooltip"] = "Mostrar el nombre del aura al pasar el ratón sobre su icono"
 L["options:general:show-cooldown-animation"] = "Mostrar animación de tiempo de enfriamiento"
 L["options:general:show-cooldown-text"] = "Mostrar el tiempo restante del aura"
@@ -131,6 +141,8 @@ L["options:general:show-on-target-only"] = "Solamente mostrar auras en las placa
 L["options:general:show-stacks"] = "Show aura's stacks"
 L["options:general:test-mode"] = "Modo de prueba"
 --[[Translation missing --]]
+L["options:general:use-default-tooltip"] = "Show default Blizzard's aura tooltip"
+--[[Translation missing --]]
 L["options:glow-type"] = "Glow type"
 --[[Translation missing --]]
 L["options:glow-type:GLOW_TYPE_ACTIONBUTTON"] = "Action button"
@@ -140,6 +152,17 @@ L["options:glow-type:GLOW_TYPE_ACTIONBUTTON_DIM"] = "Action button (dim)"
 L["options:glow-type:GLOW_TYPE_AUTOUSE"] = "Auto-use button"
 L["options:glow-type:GLOW_TYPE_NONE"] = "Ninguno"
 L["options:glow-type:GLOW_TYPE_PIXEL"] = "Píxel"
+--[[Translation missing --]]
+L["options:icon-groups:description"] = [=[
+An icon group is a set of icons with independent settings. For example, you can create a separate icon group for debuffs, a separate icon group for interrupts, and a separate icon group for important boss buffs. Then you can place these icon groups around the nameplate independently. FYI addons can't distinguish buffs and debuffs, so populating groups with spells is, unfortunately, your responsibility. :)
+The drop-down menu in the upper left corner of this window displays the icon group that you're currently editing.
+Pay attention: spells are shared between icon groups, but you can create multiple spells with the same name but with different options, and then set links to different icon groups.]=]
+--[[Translation missing --]]
+L["options:icon-groups:dropdown-list"] = "Icon groups"
+--[[Translation missing --]]
+L["options:icon-groups:editbox-add-text"] = "Enter name and hit Enter key to add new icon group"
+--[[Translation missing --]]
+L["options:icon-groups:remove"] = "Delete"
 L["options:interrupts:enable-interrupts"] = "Activar rastreo de interrupciones"
 L["options:interrupts:enable-only-during-pvp-battles"] = "Activar solamente en combates JcJ"
 L["options:interrupts:use-shared-icon-texture"] = "Usar la misma textura para todos los hechizos de interrupción"
@@ -237,7 +260,15 @@ L["options:spells:icon-height"] = "Altura del icono"
 L["options:spells:icon-width"] = "Anchura del icono"
 L["options:spells:please-push-once-more"] = "Por favor pulsa otra vez"
 L["options:spells:show-on-friends:warning0"] = "Atención: Esta aura no se mostrará en las placas de nombre amistosas hasta que se active la siguiente opción: <General> --> <Mostrar auras en las placas de nombre de las unidades amistosas>"
+--[[Translation missing --]]
+L["options:spells:spell-tooltip"] = [=[Spell tooltip
+must contain text]=]
 L["options:timer-text:min-duration-to-display-tenths-of-seconds"] = "Duración mínima para mostrar décimas de segundo"
+--[[Translation missing --]]
+L["options:timer-text:relative-color"] = "Use gradient color"
+--[[Translation missing --]]
+L["options:timer-text:relative-color:tooltip"] = [=[Timer text's color will be calculated dynamically,
+based on aura's duration and remaining time.]=]
 L["options:timer-text:scale-font-size"] = "Escalar el tamaño de la fuente en relación al tamaño del icono"
 L["options:timer-text:text-color-note"] = [=[El color de texto cambiará
 de acuerdo con el tiempo restante:]=]

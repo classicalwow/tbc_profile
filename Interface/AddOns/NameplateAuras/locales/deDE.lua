@@ -96,6 +96,8 @@ L["options:borders:border-type"] = "Rahmenart"
 L["options:category:alpha"] = "Deckkraft"
 L["options:category:apps"] = "Erweiterungen"
 L["options:category:dispel"] = "Reinigen/stehlen"
+--[[Translation missing --]]
+L["options:category:icon-groups"] = "Icon groups"
 L["options:category:interrupts"] = "Unterbrechungen"
 L["options:category:size-and-position"] = "Größe & Position"
 L["options:general:always-show-my-auras:tooltip"] = [=[Dies ist ein Filter höchster Priorität. Falls du diese
@@ -106,8 +108,10 @@ L["options:general:always-show-my-auras-blacklist:button"] = "-> Blacklist"
 --[[Translation missing --]]
 L["options:general:always-show-my-auras-blacklist:button:tooltip"] = "Pay attention! If spell is added to `Spells` list AND this blacklist, it WILL be shown on nameplates"
 --[[Translation missing --]]
+L["options:general:current-icon-group"] = "Current icon group"
+--[[Translation missing --]]
 L["options:general:export-profile"] = "Export profile"
-L["options:general:hide-blizz-frames"] = "Blizzards Auraelemente ausblenden (UI-Neuladen erforderlich)"
+L["options:general:hide-blizz-frames"] = "Blizzards Auraelemente ausblenden (außer dem Spieler)"
 --[[Translation missing --]]
 L["options:general:hide-player-blizz-frame"] = "Hide Blizzard's aura frames on player"
 --[[Translation missing --]]
@@ -117,6 +121,12 @@ L["options:general:import-profile"] = "Import profile"
 --[[Translation missing --]]
 L["options:general:instance-types"] = [=[Set the visibility of the cooldowns
 in different types of locations]=]
+--[[Translation missing --]]
+L["options:general:npc-blacklist"] = "NPC blacklist"
+--[[Translation missing --]]
+L["options:general:npc-blacklist-add-button"] = "Add NPC"
+--[[Translation missing --]]
+L["options:general:npc-blacklist-editbox-add"] = "Please enter NPC name here"
 L["options:general:show-aura-tooltip"] = "Zeigt den Namen der Aura, wenn die Maus sich auf dem Aurasymbol befindet."
 L["options:general:show-cooldown-animation"] = "Abklingzeitanimation anzeigen"
 L["options:general:show-cooldown-text"] = "Die verbleibende Zeit der Aura anzeigen"
@@ -125,6 +135,8 @@ L["options:general:show-on-target-even-in-disabled-area-types"] = "Show auras on
 L["options:general:show-on-target-only"] = "Auren nur auf der Namensplakette des Ziels anzeigen"
 L["options:general:show-stacks"] = "Aurastapel anzeigen"
 L["options:general:test-mode"] = "Testmodus"
+--[[Translation missing --]]
+L["options:general:use-default-tooltip"] = "Show default Blizzard's aura tooltip"
 L["options:glow-type"] = "Leuchttyp"
 L["options:glow-type:GLOW_TYPE_ACTIONBUTTON"] = "Aktionsbutton"
 --[[Translation missing --]]
@@ -134,6 +146,17 @@ L["options:glow-type:GLOW_TYPE_AUTOUSE"] = "Auto-use button"
 --[[Translation missing --]]
 L["options:glow-type:GLOW_TYPE_NONE"] = "None"
 L["options:glow-type:GLOW_TYPE_PIXEL"] = "Pixel"
+--[[Translation missing --]]
+L["options:icon-groups:description"] = [=[
+An icon group is a set of icons with independent settings. For example, you can create a separate icon group for debuffs, a separate icon group for interrupts, and a separate icon group for important boss buffs. Then you can place these icon groups around the nameplate independently. FYI addons can't distinguish buffs and debuffs, so populating groups with spells is, unfortunately, your responsibility. :)
+The drop-down menu in the upper left corner of this window displays the icon group that you're currently editing.
+Pay attention: spells are shared between icon groups, but you can create multiple spells with the same name but with different options, and then set links to different icon groups.]=]
+--[[Translation missing --]]
+L["options:icon-groups:dropdown-list"] = "Icon groups"
+--[[Translation missing --]]
+L["options:icon-groups:editbox-add-text"] = "Enter name and hit Enter key to add new icon group"
+--[[Translation missing --]]
+L["options:icon-groups:remove"] = "Delete"
 L["options:interrupts:enable-interrupts"] = "Unterbrechungsverfolgung aktivieren"
 L["options:interrupts:enable-only-during-pvp-battles"] = "Nur während PvP-Kämpfen aktivieren"
 L["options:interrupts:use-shared-icon-texture"] = "Die gleiche Textur für alle Unterbrechungszauber verwenden"
@@ -214,7 +237,15 @@ L["options:spells:please-push-once-more"] = "Bitte drücke noch einmal"
 L["options:spells:show-on-friends:warning0"] = [=[Achtung:
 Die Aura wird nicht bei Nameplates freundlicher Einheiten angezeigt bis folgende Option aktiviert wird:
 <Allgemein> --> <Auren auf Namensplaketten verbündeter Einheiten anzeigen>]=]
+--[[Translation missing --]]
+L["options:spells:spell-tooltip"] = [=[Spell tooltip
+must contain text]=]
 L["options:timer-text:min-duration-to-display-tenths-of-seconds"] = "Minimale Dauer zur Anzeige von Zehntelsekunden"
+--[[Translation missing --]]
+L["options:timer-text:relative-color"] = "Use gradient color"
+--[[Translation missing --]]
+L["options:timer-text:relative-color:tooltip"] = [=[Timer text's color will be calculated dynamically,
+based on aura's duration and remaining time.]=]
 L["options:timer-text:scale-font-size"] = [=[Schriftgröße an
 Symbolgröße
 anpassen]=]

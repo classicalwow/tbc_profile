@@ -1,7 +1,8 @@
-## Interface: 30400
+## Interface: 30401
 ## Title: tullaRange
 ## Author: Tuller
 ## Notes: Out of range coloring based on RedRange
-## Version: 9.2.1
+## Notes-ruRU: Аддон, который позволяет полностью менять цвет кнопок действий
+## Version: 10.0.11
 ## SavedVariables: TULLARANGE_COLORS
 tullaRange.lua

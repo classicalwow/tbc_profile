@@ -6,8 +6,8 @@ local select, wipe = select, wipe
 local format, strjoin = format, strjoin
 
 local GetItemInfo = GetItemInfo
-local GetItemInfoInstant = GetItemInfoInstant
 local GetItemCount = GetItemCount
+local GetItemInfoInstant = GetItemInfoInstant
 local GetContainerItemID = GetContainerItemID
 local GetInventoryItemCount = GetInventoryItemCount
 local GetInventoryItemID = GetInventoryItemID
@@ -15,6 +15,8 @@ local ContainerIDToInventoryID = ContainerIDToInventoryID
 local GetContainerNumSlots = GetContainerNumSlots
 local GetContainerNumFreeSlots = GetContainerNumFreeSlots
 local GetItemQualityColor = GetItemQualityColor
+local ToggleAllBags = ToggleAllBags
+
 local NUM_BAG_SLOTS = NUM_BAG_SLOTS
 local NUM_BAG_FRAMES = NUM_BAG_FRAMES
 local INVTYPE_AMMO = INVTYPE_AMMO
@@ -24,7 +26,7 @@ local LE_ITEM_CLASS_QUIVER = LE_ITEM_CLASS_QUIVER
 local LE_ITEM_CLASS_CONTAINER = LE_ITEM_CLASS_CONTAINER
 
 local iconString = '|T%s:16:16:0:0:64:64:4:55:4:55|t'
-local displayString, lastPanel = ''
+local displayString = ''
 local itemName = {}
 
 local waitingItemID
@@ -82,8 +84,6 @@ local function OnEvent(self, event, ...)
 		waitingItemID = itemID
 		self:RegisterEvent('GET_ITEM_INFO_RECEIVED')
 	end
-
-	lastPanel = self
 end
 
 local itemCount = {}
@@ -141,18 +141,15 @@ local function OnClick(_, btn)
 				end
 			end
 		else
-			_G.ToggleAllBags()
+			ToggleAllBags()
 		end
 	end
 end
 
-local function ValueColorUpdate(hex)
+local function ValueColorUpdate(self, hex)
 	displayString = strjoin('', '%s: ', hex, '%d|r')
 
-	if lastPanel ~= nil then
-		OnEvent(lastPanel)
-	end
+	OnEvent(self)
 end
-E.valueColorUpdateFuncs[ValueColorUpdate] = true
 
-DT:RegisterDatatext('Ammo', nil, {'BAG_UPDATE', 'UNIT_INVENTORY_CHANGED'}, OnEvent, nil, OnClick, OnEnter, nil, L["Ammo/Shard Counter"])
+DT:RegisterDatatext('Ammo', nil, {'BAG_UPDATE', 'UNIT_INVENTORY_CHANGED'}, OnEvent, nil, OnClick, OnEnter, nil, L["Ammo/Shard Counter"], nil, ValueColorUpdate)

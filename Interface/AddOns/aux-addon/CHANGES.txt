@@ -1,10 +1,10 @@
-lightweight tag 6f686849168866cfd98bdefa52ca5b3e8341a372 v3.1.5
-Author:	GitHub <noreply@github.com>
-Date:	Sat Dec 31 09:00:47 2022 +0100
+lightweight tag a6d8b0dc396848ce57550a1961ce05b3b0d9598d v3.2.1
+Author:	Simon Hirsig <simon.hirsig@gmail.com>
+Date:	Wed Jan 18 21:23:10 2023 +0100
 
-commit 7cb11922bc276a299053ec56fbb169ee14ce09ab
+commit a6d8b0dc396848ce57550a1961ce05b3b0d9598d
 Author: Simon Hirsig <simon.hirsig@gmail.com>
-Date:   Sat Oct 29 10:58:19 2022 +0200
+Date:   Wed Jan 18 21:23:10 2023 +0100
 
-    post scan fix
+    fix for wotlk phase 2
 

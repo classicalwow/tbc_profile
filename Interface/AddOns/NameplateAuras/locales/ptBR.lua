@@ -7,8 +7,7 @@ L["> 1min"] = "> 1 min"
 L["Add spell"] = "Adicionar magia"
 L["Always show auras cast by myself"] = "Sempre mostrar auras lançadas por mim"
 L["Anchor point"] = "Ponto de ancoragem"
---[[Translation missing --]]
-L["Anchor to icon"] = "Anchor to icon"
+L["Anchor to icon"] = "Prender ao icone"
 --[[Translation missing --]]
 L["anchor-point:bottom"] = "Bottom"
 --[[Translation missing --]]
@@ -30,8 +29,7 @@ L["anchor-point:topright"] = "Top right"
 --[[Translation missing --]]
 L["Any"] = "Any"
 L["Aura type"] = "Tipo de aura"
---[[Translation missing --]]
-L["Border thickness"] = "Border thickness"
+L["Border thickness"] = "Espessura da borda"
 L["Buff"] = "Buff"
 L["Check spell ID"] = "Checar ID de habilidade"
 L["Click to select spell"] = "Clique para selecionar a magia"
@@ -53,14 +51,10 @@ L["General"] = "Geral"
 L["Icon borders"] = "Bordas do ícone"
 L["Icon X-coord offset"] = "Descolamento da coordenada X do ícone"
 L["Icon Y-coord offset"] = "Descolamento da coordenada Y do ícone"
---[[Translation missing --]]
-L["icon-grow-direction:down"] = "Down"
---[[Translation missing --]]
-L["icon-grow-direction:left"] = "Left"
---[[Translation missing --]]
-L["icon-grow-direction:right"] = "Right"
---[[Translation missing --]]
-L["icon-grow-direction:up"] = "Up"
+L["icon-grow-direction:down"] = "Pra baixo"
+L["icon-grow-direction:left"] = "Esquerda"
+L["icon-grow-direction:right"] = "Direita"
+L["icon-grow-direction:up"] = "Pra cima"
 --[[Translation missing --]]
 L["icon-sort-mode:by-aura-type+by-expire-time"] = "By aura type + by expiration time"
 --[[Translation missing --]]
@@ -145,6 +139,8 @@ L["options:category:apps"] = "Apps"
 --[[Translation missing --]]
 L["options:category:dispel"] = "Purge/steal"
 --[[Translation missing --]]
+L["options:category:icon-groups"] = "Icon groups"
+--[[Translation missing --]]
 L["options:category:interrupts"] = "Interrupts"
 --[[Translation missing --]]
 L["options:category:size-and-position"] = "Size & position"
@@ -154,6 +150,8 @@ L["options:general:always-show-my-auras:tooltip"] = "This is top priority filter
 L["options:general:always-show-my-auras-blacklist:button"] = "-> Blacklist"
 --[[Translation missing --]]
 L["options:general:always-show-my-auras-blacklist:button:tooltip"] = "Pay attention! If spell is added to `Spells` list AND this blacklist, it WILL be shown on nameplates"
+--[[Translation missing --]]
+L["options:general:current-icon-group"] = "Current icon group"
 --[[Translation missing --]]
 L["options:general:export-profile"] = "Export profile"
 L["options:general:hide-blizz-frames"] = "Esconder os frames de auras da Blizzard (recarregar a interface é necessário)"
@@ -166,6 +164,12 @@ L["options:general:import-profile"] = "Import profile"
 --[[Translation missing --]]
 L["options:general:instance-types"] = [=[Set the visibility of the cooldowns
 in different types of locations]=]
+--[[Translation missing --]]
+L["options:general:npc-blacklist"] = "NPC blacklist"
+--[[Translation missing --]]
+L["options:general:npc-blacklist-add-button"] = "Add NPC"
+--[[Translation missing --]]
+L["options:general:npc-blacklist-editbox-add"] = "Please enter NPC name here"
 --[[Translation missing --]]
 L["options:general:show-aura-tooltip"] = "Show aura name when mouse is over auras icon"
 --[[Translation missing --]]
@@ -181,6 +185,8 @@ L["options:general:show-stacks"] = "Show aura's stacks"
 --[[Translation missing --]]
 L["options:general:test-mode"] = "Test mode"
 --[[Translation missing --]]
+L["options:general:use-default-tooltip"] = "Show default Blizzard's aura tooltip"
+--[[Translation missing --]]
 L["options:glow-type"] = "Glow type"
 --[[Translation missing --]]
 L["options:glow-type:GLOW_TYPE_ACTIONBUTTON"] = "Action button"
@@ -192,6 +198,17 @@ L["options:glow-type:GLOW_TYPE_AUTOUSE"] = "Auto-use button"
 L["options:glow-type:GLOW_TYPE_NONE"] = "None"
 --[[Translation missing --]]
 L["options:glow-type:GLOW_TYPE_PIXEL"] = "Pixel"
+--[[Translation missing --]]
+L["options:icon-groups:description"] = [=[
+An icon group is a set of icons with independent settings. For example, you can create a separate icon group for debuffs, a separate icon group for interrupts, and a separate icon group for important boss buffs. Then you can place these icon groups around the nameplate independently. FYI addons can't distinguish buffs and debuffs, so populating groups with spells is, unfortunately, your responsibility. :)
+The drop-down menu in the upper left corner of this window displays the icon group that you're currently editing.
+Pay attention: spells are shared between icon groups, but you can create multiple spells with the same name but with different options, and then set links to different icon groups.]=]
+--[[Translation missing --]]
+L["options:icon-groups:dropdown-list"] = "Icon groups"
+--[[Translation missing --]]
+L["options:icon-groups:editbox-add-text"] = "Enter name and hit Enter key to add new icon group"
+--[[Translation missing --]]
+L["options:icon-groups:remove"] = "Delete"
 --[[Translation missing --]]
 L["options:interrupts:enable-interrupts"] = "Enable interrupt tracking"
 --[[Translation missing --]]
@@ -303,22 +320,22 @@ L["options:spells:please-push-once-more"] = "Please push once more"
 L["options:spells:show-on-friends:warning0"] = [=[Please pay attention:
 You will not see this aura on friendly nameplates until you enable this option: <General> --> <Display auras on nameplates of friendly units>]=]
 --[[Translation missing --]]
+L["options:spells:spell-tooltip"] = [=[Spell tooltip
+must contain text]=]
+--[[Translation missing --]]
 L["options:timer-text:min-duration-to-display-tenths-of-seconds"] = "Minimum duration to display tenths of seconds"
 --[[Translation missing --]]
-L["options:timer-text:scale-font-size"] = "Scale font size according to icon size"
+L["options:timer-text:relative-color"] = "Use gradient color"
 --[[Translation missing --]]
-L["options:timer-text:text-color-note"] = [=[Text colour will change
-depending on the time remaining:]=]
---[[Translation missing --]]
-L["Other"] = "Other"
---[[Translation missing --]]
-L["Please reload UI to apply changes"] = "Please reload UI to apply changes"
---[[Translation missing --]]
-L["Poison"] = "Poison"
---[[Translation missing --]]
-L["Profiles"] = "Profiles"
---[[Translation missing --]]
-L["Reload UI"] = "Reload UI"
+L["options:timer-text:relative-color:tooltip"] = [=[Timer text's color will be calculated dynamically,
+based on aura's duration and remaining time.]=]
+L["options:timer-text:scale-font-size"] = "Ajustar o tamanho da fonte de acordo com o tamanho do ícone"
+L["options:timer-text:text-color-note"] = "A cor do texto irá mudar dependendo do tempo restante:"
+L["Other"] = "Outro"
+L["Please reload UI to apply changes"] = "Por favor, recarregue a UI para aplicar as mudanças"
+L["Poison"] = "Veneno"
+L["Profiles"] = "Perfis"
+L["Reload UI"] = "Recarregar UI"
 --[[Translation missing --]]
 L["Show border around buff icons"] = "Show border around buff icons"
 --[[Translation missing --]]
@@ -327,14 +344,11 @@ L["Show border around debuff icons"] = "Show border around debuff icons"
 L["Show this aura on nameplates of allies"] = "Show this aura on nameplates of allies"
 --[[Translation missing --]]
 L["Show this aura on nameplates of enemies"] = "Show this aura on nameplates of enemies"
---[[Translation missing --]]
-L["Sort mode:"] = "Sort mode:"
---[[Translation missing --]]
-L["Space between icons"] = "Space between icons"
+L["Sort mode:"] = "Modo de filtragem:"
+L["Space between icons"] = "Espaço entre os icones"
 --[[Translation missing --]]
 L["Spell seems to be nonexistent"] = "Spell seems to be nonexistent"
---[[Translation missing --]]
-L["Spells"] = "Spells"
+L["Spells"] = "Feitiços"
 --[[Translation missing --]]
 L["Stack text"] = "Stack text"
 --[[Translation missing --]]

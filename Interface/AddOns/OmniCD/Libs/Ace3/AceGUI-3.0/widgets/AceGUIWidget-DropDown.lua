@@ -1,8 +1,8 @@
---[[ $Id: AceGUIWidget-DropDown.lua 1257 2022-01-10 16:25:37Z nevcairiel $ ]]--
 ---------------------------------------------------------------------------------
 
 -- Customized for OmniCD by permission of the copyright owner.
 
+---------------------------------------------------------------------------------
 -- Parameters for dropdown with disable item support:
 -- type = "select",
 -- disabledItem = function() return key end, -- must be a function
@@ -11,8 +11,10 @@
 -- dialogControl = "Dropdown-OmniCD",
 -- disabledItem = function() return key end, -- key can be a string or table(multiple items)
 
+-- Add disabledItem to AceConfigregistery-3.0 typedkeys to validate
 ---------------------------------------------------------------------------------
 
+--[[ $Id: AceGUIWidget-DropDown.lua 1284 2022-09-25 09:15:30Z nevcairiel $ ]]--
 local AceGUI = LibStub("AceGUI-3.0")
 
 -- Lua APIs
@@ -24,10 +26,6 @@ local tsort = table.sort
 local PlaySound = PlaySound
 local UIParent, CreateFrame = UIParent, CreateFrame
 local _G = _G
-
--- Global vars/functions that we don't upvalue since they might get hooked, or upgraded
--- List them here for Mikk's FindGlobals script
--- GLOBALS: CLOSE
 
 local function fixlevels(parent,...)
 	local i = 1
@@ -52,7 +50,11 @@ local function fixstrata(strata, parent, ...)
 end
 
 do
+	--[[ s r
+	local widgetType = "Dropdown-Pullout"
+	--]]
 	local widgetType = "Dropdown-Pullout-OmniCD"
+	-- e
 	local widgetVersion = 5
 
 	--[[ Static data ]]--
@@ -66,7 +68,6 @@ do
 		tile = true,
 		insets = { left = 11, right = 12, top = 12, bottom = 11 },
 	}
-
 	local sliderBackdrop  = {
 		bgFile = "Interface\\Buttons\\UI-SliderBar-Background",
 		edgeFile = "Interface\\Buttons\\UI-SliderBar-Border",
@@ -81,8 +82,8 @@ do
 	--[[ UI Event Handlers ]]--
 
 	-- HACK: This should be no part of the pullout, but there
-	--       is no other 'clean' way to response to any item-OnEnter
-	--       Used to close Submenus when an other item is entered
+	--	 is no other 'clean' way to response to any item-OnEnter
+	--	 Used to close Submenus when an other item is entered
 	local function OnEnter(item)
 		local self = item.pullout
 		for k, v in ipairs(self.items) do
@@ -274,7 +275,11 @@ do
 
 	local function Constructor()
 		local count = AceGUI:GetNextWidgetNum(widgetType)
+		--[[ s r
+		local frame = CreateFrame("Frame", "AceGUI30Pullout"..count, UIParent, "BackdropTemplate")
+		]]
 		local frame = CreateFrame("Frame", "AceGUI30Pullout-OmniCD"..count, UIParent, BackdropTemplateMixin and "BackdropTemplate" or nil)
+		-- e
 		local self = {}
 		self.count = count
 		self.type = widgetType
@@ -291,9 +296,9 @@ do
 		self.IterateItems = IterateItems
 		self.SetHideOnLeave = SetHideOnLeave
 
-		self.SetScroll  = SetScroll
+		self.SetScroll	= SetScroll
 		self.MoveScroll = MoveScroll
-		self.FixScroll  = FixScroll
+		self.FixScroll	= FixScroll
 
 		self.SetMaxHeight = SetMaxHeight
 		self.GetRightBorderWidth = GetRightBorderWidth
@@ -311,7 +316,7 @@ do
 		frame:SetBackdrop(backdrop)
 		frame:SetBackdropColor(0, 0, 0)
 		]]
-		OmniCD[1].BackdropTemplate(frame)
+		OmniCD[1].BackdropTemplate(frame, "ACD")
 		frame:SetBackdropColor(0.12, 0.12, 0.17)
 		frame:SetBackdropBorderColor(0, 0, 0)
 		-- e
@@ -331,7 +336,11 @@ do
 		scrollFrame.obj = self
 		itemFrame.obj = self
 
+		--[[ s r
+		local slider = CreateFrame("Slider", "AceGUI30PulloutScrollbar"..count, scrollFrame, "BackdropTemplate")
+		]]
 		local slider = CreateFrame("Slider", "AceGUI30PulloutScrollbar-OmniCD"..count, scrollFrame, BackdropTemplateMixin and "BackdropTemplate" or nil)
+		-- e
 		slider:SetOrientation("VERTICAL")
 		--[[ s r
 		slider:SetHitRectInsets(0, 0, -10, 0)
@@ -343,7 +352,7 @@ do
 		slider:SetWidth(8)
 		slider:SetThumbTexture("Interface\\Buttons\\UI-SliderBar-Button-Vertical")
 		]]
-		OmniCD[1].BackdropTemplate(slider)
+		OmniCD[1].BackdropTemplate(slider, "ACD")
 		slider:SetBackdropColor(0, 0, 0, 0.4)
 		slider:SetBackdropBorderColor(0, 0, 0)
 		slider:SetWidth(12)
@@ -401,7 +410,11 @@ do
 end
 
 do
+	--[[ s r
+	local widgetType = "Dropdown"
+	]]
 	local widgetType = "Dropdown-OmniCD"
+	-- e
 	local widgetVersion = 36
 
 	--[[ Static data ]]--
@@ -467,7 +480,11 @@ do
 	local function ShowMultiText(self)
 		local text
 		for i, widget in self.pullout:IterateItems() do
+			--[[ s r
+			if widget.type == "Dropdown-Item-Toggle" then
+			]]
 			if widget.type == "Dropdown-Item-Toggle-OmniCD" then
+			-- e
 				if widget:GetValue() then
 					if text then
 						text = text..", "..widget:GetText()
@@ -503,7 +520,11 @@ do
 
 	-- exported, AceGUI callback
 	local function OnAcquire(self)
+		--[[ s r
+		local pullout = AceGUI:Create("Dropdown-Pullout")
+		]]
 		local pullout = AceGUI:Create("Dropdown-Pullout-OmniCD")
+		-- e
 		self.pullout = pullout
 		pullout.userdata.obj = self
 		pullout:SetCallback("OnClose", OnPulloutClose)
@@ -637,7 +658,11 @@ do
 	-- e
 
 	local function AddListItem(self, value, text, itemType)
+		--[[ s r
+		if not itemType then itemType = "Dropdown-Item-Toggle" end
+		]]
 		if not itemType then itemType = "Dropdown-Item-Toggle-OmniCD" end
+		-- e
 		local exists = AceGUI:GetWidgetVersion(itemType)
 		if not exists then error(("The given item type, %q, does not exist within AceGUI-3.0"):format(tostring(itemType)), 2) end
 
@@ -651,10 +676,11 @@ do
 
 	local function AddCloseButton(self)
 		if not self.hasClose then
-			local close = AceGUI:Create("Dropdown-Item-Execute-OmniCD")
 			--[[ s r
+			local close = AceGUI:Create("Dropdown-Item-Execute")
 			close:SetText(CLOSE)
 			]]
+			local close = AceGUI:Create("Dropdown-Item-Execute-OmniCD")
 			close:SetText("|cffff2020" .. CLOSE)
 			-- e
 			self.pullout:AddItem(close)
@@ -742,18 +768,18 @@ do
 		frame.obj = self
 		dropdown.obj = self
 
-		self.OnRelease   = OnRelease
-		self.OnAcquire   = OnAcquire
+		self.OnRelease	 = OnRelease
+		self.OnAcquire	 = OnAcquire
 
-		self.ClearFocus  = ClearFocus
+		self.ClearFocus	 = ClearFocus
 
-		self.SetText     = SetText
-		self.SetValue    = SetValue
-		self.GetValue    = GetValue
-		self.SetList     = SetList
-		self.SetLabel    = SetLabel
+		self.SetText	 = SetText
+		self.SetValue	 = SetValue
+		self.GetValue	 = GetValue
+		self.SetList	 = SetList
+		self.SetLabel	 = SetLabel
 		self.SetDisabled = SetDisabled
-		self.AddItem     = AddItem
+		self.AddItem	 = AddItem
 		self.SetMultiselect = SetMultiselect
 		self.GetMultiselect = GetMultiselect
 		self.SetItemValue = SetItemValue
@@ -789,7 +815,7 @@ do
 		dropdown.Left:Hide()
 		dropdown.Right:Hide()
 		dropdown.Middle:Hide()
-		OmniCD[1].BackdropTemplate(dropdown)
+		OmniCD[1].BackdropTemplate(dropdown, "ACD")
 		dropdown:SetBackdropColor(0.15, 0.15, 0.2)
 		dropdown:SetBackdropBorderColor(0, 0, 0)
 		-- e
@@ -836,7 +862,11 @@ do
 		text:SetFontObject("GameFontNormalSmall-OmniCD")
 		-- e
 
+		--[[ s r
+		local label = frame:CreateFontString(nil,"OVERLAY","GameFontNormalSmall")
+		]]
 		local label = frame:CreateFontString(nil,"OVERLAY","GameFontNormalSmall-OmniCD")
+		-- e
 		label:SetPoint("TOPLEFT",frame,"TOPLEFT",0,0)
 		label:SetPoint("TOPRIGHT",frame,"TOPRIGHT",0,0)
 		label:SetJustifyH("LEFT")

@@ -2,6 +2,7 @@ local E, L, V, P, G = unpack(ElvUI)
 local DT = E:GetModule('DataTexts')
 
 local format, strjoin, abs = format, strjoin, abs
+
 local GetBlockChance = GetBlockChance
 local GetBonusBarOffset = GetBonusBarOffset
 local GetDodgeChance = GetDodgeChance
@@ -12,14 +13,15 @@ local GetParryChance = GetParryChance
 local UnitLevel = UnitLevel
 local UnitExists = UnitExists
 local UnitDefense = UnitDefense
+
 local BOSS = BOSS
 local BLOCK_CHANCE = BLOCK_CHANCE
 local DODGE_CHANCE = DODGE_CHANCE
 local MISS_CHANCE = MISS_CHANCE
 local PARRY_CHANCE = PARRY_CHANCE
-local STAT_CATEGORY_ENHANCEMENTS = STAT_CATEGORY_ENHANCEMENTS
+local STAT_CATEGORY_DEFENSE = STAT_CATEGORY_DEFENSE
 
-local displayString, lastPanel, targetlv, playerlv
+local displayString, targetlv, playerlv
 local basemisschance, misschance, baseDef, armorDef, leveldifference, dodge, parry, block, unhittable
 local AVD_DECAY_RATE, chanceString = 0.2, '%.2f%%'	--According to Light's Club discord, avoidance decay should be 0.2% per level per avoidance (thus 102.4 for +3 crush cap)
 
@@ -104,7 +106,6 @@ local function OnEvent(self)
 	end
 
 	--print(unhittableMax) -- should report 102.4 for a level differance of +3 for shield classes, 101.2 for druids, 101.8 for monks and dks
-	lastPanel = self
 end
 
 local function OnEnter()
@@ -131,13 +132,10 @@ local function OnEnter()
 	DT.tooltip:Show()
 end
 
-local function ValueColorUpdate(hex)
+local function ValueColorUpdate(self, hex)
 	displayString = strjoin('', E.global.datatexts.settings.Avoidance.NoLabel and '' or '%s', hex, '%.'..E.global.datatexts.settings.Avoidance.decimalLength..'f%%|r')
 
-	if lastPanel ~= nil then
-		OnEvent(lastPanel)
-	end
+	OnEvent(self)
 end
-E.valueColorUpdateFuncs[ValueColorUpdate] = true
 
-DT:RegisterDatatext('Avoidance', STAT_CATEGORY_ENHANCEMENTS, { 'UNIT_TARGET', 'UNIT_STATS', 'UNIT_AURA', 'PLAYER_EQUIPMENT_CHANGED' }, OnEvent, nil, nil, OnEnter, nil, L["Avoidance Breakdown"], nil, ValueColorUpdate)
+DT:RegisterDatatext('Avoidance', STAT_CATEGORY_DEFENSE, { 'UNIT_TARGET', 'UNIT_STATS', 'UNIT_AURA', 'PLAYER_EQUIPMENT_CHANGED' }, OnEvent, nil, nil, OnEnter, nil, L["Avoidance Breakdown"], nil, ValueColorUpdate)

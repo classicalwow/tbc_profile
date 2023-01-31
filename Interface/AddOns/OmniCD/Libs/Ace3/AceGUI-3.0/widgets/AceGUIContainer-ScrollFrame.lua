@@ -8,7 +8,11 @@
 ScrollFrame Container
 Plain container that scrolls its content and doesn't grow in height.
 -------------------------------------------------------------------------------]]
+--[[ s r
+local Type, Version = "ScrollFrame", 26
+]]
 local Type, Version = "ScrollFrame-OmniCD", 26
+-- e
 local AceGUI = LibStub and LibStub("AceGUI-3.0", true)
 if not AceGUI or (AceGUI:GetWidgetVersion(Type) or 0) >= Version then return end
 
@@ -137,9 +141,15 @@ local methods = {
 			if not self.scrollBarShown then
 				self.scrollBarShown = true
 				self.scrollbar:Show()
+				--[[ s r (20 = scrollbar 16 + scrollbar to scrollframe offset 4)
 				self.scrollframe:SetPoint("BOTTOMRIGHT", -20, 0)
 				if self.content.original_width then
 					self.content.width = self.content.original_width - 20
+				end
+				]]
+				self.scrollframe:SetPoint("BOTTOMRIGHT", -14, 0)
+				if self.content.original_width then
+					self.content.width = self.content.original_width - 14
 				end
 				self:DoLayout()
 			end
@@ -186,7 +196,10 @@ local methods = {
 
 	["OnWidthSet"] = function(self, width)
 		local content = self.content
+		--[[ s r
 		content.width = width - (self.scrollBarShown and 20 or 0)
+		]]
+		content.width = width - (self.scrollBarShown and 14 or 0)
 		content.original_width = width
 	end,
 
@@ -209,17 +222,18 @@ local function Constructor()
 	scrollframe:SetScript("OnMouseWheel", ScrollFrame_OnMouseWheel)
 	scrollframe:SetScript("OnSizeChanged", ScrollFrame_OnSizeChanged)
 
-	local scrollbar = CreateFrame("Slider", ("AceConfigDialogScrollFrame%dScrollBar-OmniCD"):format(num), scrollframe, "UIPanelScrollBarTemplate")
 	--[[ s r (No one uses arrows, just hide them)
+	local scrollbar = CreateFrame("Slider", ("AceConfigDialogScrollFrame%dScrollBar"):format(num), scrollframe, "UIPanelScrollBarTemplate")
 	scrollbar:SetPoint("TOPLEFT", scrollframe, "TOPRIGHT", 4, -16)
 	scrollbar:SetPoint("BOTTOMLEFT", scrollframe, "BOTTOMRIGHT", 4, 16)
 	]]
+	local scrollbar = CreateFrame("Slider", ("AceConfigDialogScrollFrame%dScrollBar-OmniCD"):format(num), scrollframe, "UIPanelScrollBarTemplate")
 	scrollbar:SetPoint("TOPLEFT", scrollframe, "TOPRIGHT", 4, 0)
 	scrollbar:SetPoint("BOTTOMLEFT", scrollframe, "BOTTOMRIGHT", 4, 0)
 	scrollbar.ScrollUpButton:Hide()
 	scrollbar.ScrollDownButton:Hide()
 	scrollbar.ThumbTexture:SetTexture([[Interface\BUTTONS\White8x8]])
-	scrollbar.ThumbTexture:SetSize(16, 32)
+	scrollbar.ThumbTexture:SetSize(10, 32) -- match scrollbar width
 	scrollbar.ThumbTexture:SetColorTexture(0.3, 0.3, 0.3) -- red is too much
 	scrollbar:SetScript("OnEnter", Thumb_OnEnter)
 	scrollbar:SetScript("OnLeave", Thumb_OnLeave)
@@ -229,7 +243,10 @@ local function Constructor()
 	scrollbar:SetMinMaxValues(0, 1000)
 	scrollbar:SetValueStep(1)
 	scrollbar:SetValue(0)
+	--[[
 	scrollbar:SetWidth(16)
+	]]
+	scrollbar:SetWidth(10)
 	scrollbar:Hide()
 	-- set the script as the last step, so it doesn't fire yet
 	scrollbar:SetScript("OnValueChanged", ScrollBar_OnScrollValueChanged)
@@ -249,9 +266,9 @@ local function Constructor()
 		localstatus = { scrollvalue = 0 },
 		scrollframe = scrollframe,
 		scrollbar   = scrollbar,
-		content     = content,
-		frame       = frame,
-		type        = Type
+		content	    = content,
+		frame	    = frame,
+		type	    = Type
 	}
 	for method, func in pairs(methods) do
 		widget[method] = func

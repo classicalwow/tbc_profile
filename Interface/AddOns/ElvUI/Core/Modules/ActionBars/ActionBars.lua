@@ -88,7 +88,7 @@ AB.barDefaults = {
 
 do
 	local fullConditions = (E.Retail or E.Wrath) and format('[overridebar] %d; [vehicleui][possessbar] %d;', GetOverrideBarIndex(), GetVehicleBarIndex()) or ''
-	AB.barDefaults.bar1.conditions = fullConditions..format('[bonusbar:5] 11; [shapeshift] %d; [bar:2] 2; [bar:3] 3; [bar:4] 4; [bar:5] 5; [bar:6] 6;', GetTempShapeshiftBarIndex())
+	AB.barDefaults.bar1.conditions = fullConditions..format('[shapeshift] %d; [bar:2] 2; [bar:3] 3; [bar:4] 4; [bar:5] 5; [bar:6] 6; [bonusbar:5] 11;', GetTempShapeshiftBarIndex())
 end
 
 AB.customExitButton = {
@@ -554,7 +554,7 @@ do
 			E.db.actionbar['bar'..i][option] = value
 		end
 
-		if E.Retail then
+		if not E.Classic then
 			for i = 13, 15 do
 				E.db.actionbar['bar'..i][option] = value
 			end
@@ -1703,7 +1703,7 @@ function AB:Initialize()
 		AB:CreateBar(i)
 	end
 
-	if E.Retail then
+	if not E.Classic then
 		for i = 13, 15 do
 			AB:CreateBar(i)
 		end

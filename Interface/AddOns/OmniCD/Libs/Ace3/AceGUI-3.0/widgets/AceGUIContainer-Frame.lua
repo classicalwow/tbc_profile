@@ -7,7 +7,11 @@
 --[[-----------------------------------------------------------------------------
 Frame Container
 -------------------------------------------------------------------------------]]
-local Type, Version = "Frame-OmniCD", 28
+--[[ s r
+local Type, Version = "Frame", 30
+]]
+local Type, Version = "Frame-OmniCD", 31 -- 28 DF
+-- e
 local AceGUI = LibStub and LibStub("AceGUI-3.0", true)
 if not AceGUI or (AceGUI:GetWidgetVersion(Type) or 0) >= Version then return end
 
@@ -18,10 +22,6 @@ local wipe = table.wipe
 -- WoW APIs
 local PlaySound = PlaySound
 local CreateFrame, UIParent = CreateFrame, UIParent
-
--- Global vars/functions that we don't upvalue since they might get hooked, or upgraded
--- List them here for Mikk's FindGlobals script
--- GLOBALS: CLOSE
 
 --[[-----------------------------------------------------------------------------
 Scripts
@@ -107,12 +107,13 @@ local methods = {
 		self:SetStatusText()
 		self:ApplyStatus()
 		self:Show()
-		self:EnableResize(true)
+	self:EnableResize(true)
 	end,
 
 	["OnRelease"] = function(self)
 		self.status = nil
 		wipe(self.localstatus)
+		self.frame:SetScale(1) -- s a remove scaling done
 	end,
 
 	["OnWidthSet"] = function(self, width)
@@ -136,7 +137,7 @@ local methods = {
 	end,
 
 	["SetTitle"] = function(self, title)
-		self.titletext:SetText(title)
+		self.titletext:SetText("") -- s c title
 		self.titlebg:SetWidth((self.titletext:GetWidth() or 0) + 10)
 	end,
 
@@ -205,7 +206,7 @@ local PaneBackdrop  = {
 ]]
 
 local function Constructor()
-	local frame = CreateFrame("Frame", nil, UIParent, BackdropTemplateMixin and "BackdropTemplate" or nil)
+	local frame = CreateFrame("Frame", nil, UIParent, "BackdropTemplate")
 	frame:Hide()
 
 	frame:EnableMouse(true)
@@ -217,12 +218,16 @@ local function Constructor()
 	frame:SetBackdrop(FrameBackdrop)
 	frame:SetBackdropColor(0, 0, 0, 1)
 	]]
-	OmniCD[1].BackdropTemplate(frame)
+	OmniCD[1].BackdropTemplate(frame, "ACD")
 	frame:SetBackdropColor(0.05, 0.05, 0.05, 0.75) -- BDR
 	frame:SetBackdropBorderColor(0, 0, 0, 1)
 	--frame:SetClampedToScreen(true) -- s a let's not
 	-- e
-	frame:SetMinResize(400, 200)
+	if frame.SetResizeBounds then -- WoW 10.0
+		frame:SetResizeBounds(400, 200)
+	else
+		frame:SetMinResize(400, 200)
+	end
 	frame:SetToplevel(true)
 	frame:SetScript("OnShow", Frame_OnShow)
 	frame:SetScript("OnHide", Frame_OnClose)
@@ -237,13 +242,13 @@ local function Constructor()
 	closebutton:SetWidth(100)
 	closebutton:SetText(CLOSE)
 	]]
-	local closebutton = OmniCD[1].CreateFlashButton(frame, CLOSE, 100, 22) -- where is this getting pushed text position ???
-	closebutton:SetPoint("BOTTOM", 0, 10)
+	local closebutton = OmniCD[1].CreateFlashButton(frame, "X", 25, 25, "ACD") -- where is this getting pushed text position ???
+	closebutton:SetPoint("TOPRIGHT", 0, 0)
 	closebutton:SetScript("OnClick", Button_OnClick)
 	-- e
 
-	local statusbg = CreateFrame("Button", nil, frame, BackdropTemplateMixin and "BackdropTemplate" or nil)
 	--[[ s r
+	local statusbg = CreateFrame("Button", nil, frame, "BackdropTemplate")
 	statusbg:SetPoint("BOTTOMLEFT", 15, 15)
 	statusbg:SetPoint("BOTTOMRIGHT", -132, 15)
 	statusbg:SetHeight(24)
@@ -251,16 +256,19 @@ local function Constructor()
 	statusbg:SetBackdropColor(0.1,0.1,0.1)
 	statusbg:SetBackdropBorderColor(0.4,0.4,0.4)
 	]]
-	statusbg:SetPoint("BOTTOMLEFT", 17, 15)
-	statusbg:SetPoint("BOTTOMRIGHT", closebutton, "BOTTOMLEFT", -20, 0)
+	local statusbg = CreateFrame("Button", nil, frame)
+	statusbg:SetPoint("BOTTOMLEFT", 0, 2)
 	statusbg:SetHeight(22)
-	statusbg:SetBackdrop(nil)
-	statusbg:Hide() -- this is where it displays the 'usage' parameter.
+	statusbg:SetWidth(145) -- DEFAULT_TREE_WIDTH
 	-- e
 	statusbg:SetScript("OnEnter", StatusBar_OnEnter)
 	statusbg:SetScript("OnLeave", StatusBar_OnLeave)
 
+	--[[ s r
+	local statustext = statusbg:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+	]]
 	local statustext = statusbg:CreateFontString(nil, "OVERLAY", "GameFontNormal-OmniCD")
+	-- e
 	statustext:SetPoint("TOPLEFT", 7, -2)
 	statustext:SetPoint("BOTTOMRIGHT", -7, 2)
 	statustext:SetHeight(20)
@@ -334,7 +342,7 @@ local function Constructor()
 	line2:SetHeight(8)
 	line2:SetPoint("BOTTOMRIGHT", -8, 8)
 	line2:SetTexture(137057) -- Interface\\Tooltips\\UI-Tooltip-Border
-	local x = 0.1 * 8/17
+	x = 0.1 * 8/17
 	line2:SetTexCoord(0.05 - x, 0.5, 0.05, 0.5 + x, 0.05, 0.5 - x, 0.5 + x, 0.5)
 
 	local sizer_s = CreateFrame("Frame", nil, frame)
@@ -360,24 +368,29 @@ local function Constructor()
 
 	--Container Support
 	local content = CreateFrame("Frame", nil, frame)
+	--[[ s r
 	content:SetPoint("TOPLEFT", 17, -27)
 	content:SetPoint("BOTTOMRIGHT", -17, 40)
+	]]
+	content:SetPoint("TOPLEFT", 1, -24)
+	content:SetPoint("BOTTOMRIGHT", -1, 24)
+	-- e
 
 	local widget = {
 		localstatus = {},
 		titletext   = titletext,
 		statustext  = statustext,
-		titlebg     = titlebg,
+		titlebg	    = titlebg,
 		--[[ s r
 		sizer_se    = sizer_se,
-		sizer_s     = sizer_s,
-		sizer_e     = sizer_e,
+		sizer_s	    = sizer_s,
+		sizer_e	    = sizer_e,
 		]]
 		sizer_seX   = sizer_se, -- name change to block skins
 		-- e
-		content     = content,
-		frame       = frame,
-		type        = Type
+		content	    = content,
+		frame	    = frame,
+		type	    = Type
 	}
 	for method, func in pairs(methods) do
 		widget[method] = func

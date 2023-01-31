@@ -8,20 +8,42 @@ end
 
 local function isInEnabledPhase(phaseText) 
 
-	local showTooltip = false;
-	
-	if LBISSettings.PhaseTooltip[LBIS.L["PreRaid"]] == true then
-		if strfind(phaseText, "0") ~= nil then
-			showTooltip = true;
-		end
-	end
-	if LBISSettings.PhaseTooltip[LBIS.L["Phase 1"]] == true then
-		if strfind(phaseText, "1") ~= nil then
-			showTooltip = true;
-		end
+	if phaseText == "" then
+		return true;
 	end
 	
-	return showTooltip;
+	if LBISSettings.PhaseTooltip[LBIS.L["PreRaid"]] then
+		if LBIS:FindInPhase(phaseText, "0") then
+			return true;
+		end
+	end
+	if LBISSettings.PhaseTooltip[LBIS.L["Phase 1"]] then
+		if LBIS:FindInPhase(phaseText, "1") then
+			return true;
+		end
+	end
+	if LBISSettings.PhaseTooltip[LBIS.L["Phase 2"]] then
+	 	if LBIS:FindInPhase(phaseText, "2") then
+			return true;
+	 	end
+	end
+	-- if LBISSettings.PhaseTooltip[LBIS.L["Phase 3"]] then
+	-- 	if LBIS:FindInPhase(phaseText, "3") then
+	--		return true;
+	-- 	end
+	-- end
+	-- if LBISSettings.PhaseTooltip[LBIS.L["Phase 4"]] then
+	-- 	if LBIS:FindInPhase(phaseText, "4") then
+	--		return true;
+	-- 	end
+	-- end
+	-- if LBISSettings.PhaseTooltip[LBIS.L["Phase 5"]] then
+	-- 	if LBIS:FindInPhase(phaseText, "5") then
+	--		return true;
+	-- 	end
+	-- end
+	
+	return false;
 end
 
 local function buildCombinedTooltip(entry, combinedTooltip, foundCustom)
@@ -30,7 +52,7 @@ local function buildCombinedTooltip(entry, combinedTooltip, foundCustom)
 	local combinedSpecs = {};
 
 	for k, v in pairs(entry) do
-		if LBISSettings.Tooltip[k] and isInEnabledPhase(v.PhaseList) and foundCustom[k] == nil then
+		if LBISSettings.Tooltip[k] and isInEnabledPhase(v.Phase) and foundCustom[k] == nil then
 			local classSpec = LBIS.ClassSpec[k]
 
 			classCount[classSpec.Class..v.Bis..v.Phase] = (classCount[classSpec.Class..v.Bis..v.Phase] or 0) + 1;
@@ -62,7 +84,7 @@ local function buildCustomTooltip(priorityEntry, combinedTooltip)
 			local classSpec = LBIS.ClassSpec[k]
 			foundCustom[k] = true;
 				
-			table.insert(combinedTooltip, { Class = classSpec.Class, Spec = classSpec.Spec, Bis = "Custom", Phase = "#"..v })
+			table.insert(combinedTooltip, { Class = classSpec.Class, Spec = classSpec.Spec, Bis = v.TooltipText, Phase = "" })
 		end
 	end
 
@@ -91,14 +113,14 @@ local function buildTooltip(tooltip, combinedTooltip)
 	end
 end
 
-local function CheckRecipe(tt, classID)
-	if classID == Enum.ItemClass.Recipe then
-		tt.isFirstMoneyLine = not tt.isFirstMoneyLine
-		return tt.isFirstMoneyLine
-	end
-end
-
+local tooltip_modified = {}
 local function onTooltipSetItem(tooltip, ...)
+
+	if tooltip_modified[tooltip:GetName()] then
+		-- this happens twice, because of how recipes work
+		return
+	end
+	tooltip_modified[tooltip:GetName()] = true
 
 	local _, itemLink = tooltip:GetItem()
     if not itemLink then return end
@@ -109,20 +131,40 @@ local function onTooltipSetItem(tooltip, ...)
 		local combinedTooltip = {};
 		local foundCustom = {};
 
-		if CheckRecipe(tooltip, item.Class) then
-			return;
-		end
-
+		
 		if LBIS.CustomEditList.Items[itemId] then
 			foundCustom = buildCustomTooltip(LBIS.CustomEditList.Items[itemId], combinedTooltip)
 		end
 
-		if LBIS.Items[itemId] then
-			buildCombinedTooltip(LBIS.Items[itemId], combinedTooltip, foundCustom)
+		local itemEntries = {};
+		if LBIS.ItemsByIdAndSpec[itemId] then		
+			for key, entry in pairs(LBIS.ItemsByIdAndSpec[itemId]) do 	
+				itemEntries[key] = entry;
+			end
 		end
+
+		if LBIS.TierSources[itemId] then
+			for k, v in pairs(LBIS.TierSources[itemId]) do
+				if LBIS.CustomEditList.Items[v] then
+					foundCustom = buildCustomTooltip(LBIS.CustomEditList.Items[v], combinedTooltip)
+				end
+				
+				if LBIS.ItemsByIdAndSpec[v] then
+					for key, entry in pairs(LBIS.ItemsByIdAndSpec[v]) do 	
+						itemEntries[key] = entry;
+					end
+				end
+			end
+		end
+
+		buildCombinedTooltip(itemEntries, combinedTooltip, foundCustom);
 
 		buildTooltip(tooltip, combinedTooltip);
 	end)
+end
+
+local function onTooltipCleared(tooltip)
+    tooltip_modified[tooltip:GetName()] = nil
 end
 
 local function onTooltipSetSpell(tooltip, ...)
@@ -132,8 +174,8 @@ local function onTooltipSetSpell(tooltip, ...)
 
 	local combinedTooltip = {};
 
-	if LBIS.Spells[spellId] then
-		buildCombinedTooltip(LBIS.Spells[spellId], combinedTooltip, {})
+	if LBIS.SpellsByIdAndSpec[spellId] then
+		buildCombinedTooltip(LBIS.SpellsByIdAndSpec[spellId], combinedTooltip, {})
 	end
 
 	buildTooltip(tooltip, combinedTooltip);
@@ -169,6 +211,7 @@ local function registerTooltip(tooltip)
 
 	hookScript(tooltip, "OnTooltipSetItem", onTooltipSetItem);
 	hookScript(tooltip, "OnTooltipSetSpell", onTooltipSetSpell);
+	hookScript(tooltip, "OnTooltipCleared", onTooltipCleared);
 
 end
 

@@ -50,7 +50,7 @@ ArkInventory.Const.BLIZZARD.TooltipFunctions = {
 	["SetHyperlink"] = true,
 	["SetInboxItem"] = true,
 	["SetInventoryItem"] = true,
-	["SetItemByGUID"] = true, -- dragonflight?
+	["SetItemByGUID"] = true,
 	["SetItemByID"] = true,
 	["SetLootCurrency"] = ArkInventory.ClientCheck( ArkInventory.ENUM.EXPANSION.TBC ), -- FIX ME
 	["SetLootItem"] = true,
@@ -77,6 +77,15 @@ ArkInventory.Const.BLIZZARD.TooltipFunctions = {
 	["SetVoidWithdrawalItem"] = ArkInventory.Global.Location[ArkInventory.Const.Location.Void].proj,
 	
 }
+
+if ArkInventory.ClientCheck( ArkInventory.ENUM.EXPANSION.DRAGONFLIGHT ) then
+	ArkInventory.Const.BLIZZARD.TooltipFunctions = {
+		["SetText"] = true,
+		["ClearLines"] = true,
+		["FadeOut"] = true,
+	}
+end
+
 
 function ArkInventory.TooltipTextToNumber( v )
 	if type( v ) == "number" then
@@ -665,7 +674,11 @@ function ArkInventory.TooltipCustomBattlepetAddDetail( tooltip, speciesID, h, i 
 	if numOwned == 0 then
 		info = ArkInventory.Localise["NOT_COLLECTED"]
 	else
-		info = string.format( ITEM_PET_KNOWN, numOwned, maxAllowed )
+		local c = ""
+		if numOwned == maxAllowed then
+			c = RED_FONT_COLOR_CODE
+		end
+		info = string.format( "%s%s", c, string.format( ITEM_PET_KNOWN, numOwned, maxAllowed ) )
 	end
 	tooltip:AddLine( info )
 	
@@ -1083,60 +1096,50 @@ end
 
 function ArkInventory.TooltipGetBaseStats( tooltip, activeonly )
 	
-	local obj, txt, ctxt
-	
 	local started = false
 	local rv = ""
-	
---	obj = _G[string.format( "%s%s%s", tooltip:GetName( ), "TextLeft", 1 )]
---	txt = obj:GetText( )
---	ArkInventory.Output( txt )
+	local leftText, rightText, leftTextClean, rightTextClean, leftColor, rightColor, line
+	local c
 	
 	for i = 2, ArkInventory.TooltipGetNumLines( tooltip ) do
 		
-		obj = _G[string.format( "%s%s%s", tooltip:GetName( ), "TextLeft", i )]
-		if obj and obj:IsShown( ) then
+		leftText, rightText, leftTextClean, rightTextClean, leftColor, rightColor, line = ArkInventory.TooltipGetLine( tooltip, i )
+		
+		local basestat = false
+		if string.find( leftTextClean, "^%+?[%d,.]+ [%a ]+$" ) then
+			--ArkInventory.OutputDebug( "1 - ", leftTextClean )
+			basestat = true
+		end
+		
+		if started and ( leftText == "" or string.find( leftText, "^\10" ) or string.find( leftText, "^\n" ) or string.find( leftText, "^|n" ) or not basestat ) then
+			--ArkInventory.OutputDebug( "X - ", leftTextClean )
+			--ArkInventory.OutputDebug( "rv = ", rv )
+			return rv
+		end
+		
+		if basestat then
 			
-			txt = obj:GetText( )
-			ctxt = ArkInventory.TooltipCleanText( txt )
+			started = true
 			
-			local basestat = false
-			if string.find( ctxt, "^%+?[%d,.]+ [%a ]+$" ) then
-				--ArkInventory.Output( "1 - ", ctxt )
-				basestat = true
-			end
-			
-			if started and ( txt == "" or string.find( txt, "^\10" ) or string.find( txt, "^\n" ) or string.find( txt, "^|n" ) or not basestat ) then
-				--ArkInventory.Output( "X - ", ctxt )
-				--ArkInventory.Output( "rv = ", rv )
-				return rv
-			end
-			
-			if basestat then
-				
-				started = true
-				
-				if activeonly then
-					local r, g, b = obj:GetTextColor( )
-					local c = string.format( "%02x%02x%02x", r * 255, g * 255, b * 255 )
-					--ArkInventory.Output( string.format( "%04i = %s %s", i, c, txt ) )
-					if c ~= "7f7f7f" then
-						--ArkInventory.Output( "A - ", ctxt )
-						rv = string.format( "%s %s", rv, ctxt )
-					end
-				else
-					rv = string.format( "%s %s", rv, ctxt )
+			if activeonly then
+				c = leftColor and leftColor:GenerateHexColor( )
+				--ArkInventory.OutputDebug( string.format( "%04i = %s %s", i, c, leftText ) )
+				if not ( c == "ff808080" or c == "7f7f7f" ) then
+					--ArkInventory.OutputDebug( "A - ", leftTextClean )
+					rv = string.format( "%s %s", rv, leftTextClean )
 				end
-				
+			else
+				--ArkInventory.OutputDebug( "X - ", leftTextClean )
+				rv = string.format( "%s %s", rv, leftTextClean )
 			end
-			
-			--ArkInventory.Output( "Z - ", ctxt )
 			
 		end
 		
+		--ArkInventory.OutputDebug( "Z - ", leftTextClean )
+		
 	end
 	
-	--ArkInventory.Output( "rv = ", rv )
+	--ArkInventory.OutputDebug( "rv = ", rv )
 	return rv
 	
 	-- /run ArkInventory.TooltipGetBaseStats( GameTooltip )
@@ -1144,6 +1147,22 @@ function ArkInventory.TooltipGetBaseStats( tooltip, activeonly )
 	
 end
 
+local function helper_IgnoredText( txt )
+	
+	-- what text can be ignored when jumping over an item
+	
+	if txt == "" then
+		return true
+	elseif txt == ArkInventory.Localise["ITEM_SOCKETABLE"] then
+		return true
+	elseif txt == ArkInventory.Localise["ITEM_APPEARANCE_KNOWN"] or txt == ArkInventory.Localise["ITEM_APPEARANCE_UNKNOWN"] then
+		return true
+	end
+	
+	
+	return false
+	
+end
 
 function helper_TooltipJumpEmbeddedItem( tooltip, start )
 	
@@ -1155,40 +1174,53 @@ function helper_TooltipJumpEmbeddedItem( tooltip, start )
 	local valid = false
 	local restart = false
 	
+--	for i = 2, n do
+--		local leftText, rightText, leftTextClean, rightTextClean, leftColor, rightColor = ArkInventory.TooltipGetLine( tooltip, i )
+--		ArkInventory.OutputDebug( "jump - line [", i, "]=[", leftText, "]" )
+--	end
+	
 	for i = n, start, -1 do
 		
 		local leftText, rightText, leftTextClean, rightTextClean, leftColor, rightColor = ArkInventory.TooltipGetLine( tooltip, i )
 		if leftTextClean then
 			
-			--ArkInventory.Output( "line [", i, "]=[", leftText, "]" )
+			--ArkInventory.OutputDebug( "jump - line [", i, "]=[", leftText, "]" )
 			
-			if leftTextClean == "" or string.find( leftText, "^\10" ) or string.find( leftText, "^\n" ) or string.find( leftText, "^|n" ) then
-				if valid then
-					restart = true
-				end
+			if helper_IgnoredText( leftTextClean ) then
+				
+				--ArkInventory.OutputDebug( "ignored: ", leftTextClean )
+				
 			else
-				valid = true
-			end
-			
-			if restart or string.find( leftTextClean, USE_COLON ) then
-				--ArkInventory.Output( "embedded item found between ", start, " and ", i )
-				return i
+				
+				if leftTextClean == "" or string.find( leftText, "^\10" ) or string.find( leftText, "^\n" ) or string.find( leftText, "^|n" ) then
+					if valid then
+						restart = true
+					end
+				else
+					valid = true
+				end
+				
+				if restart or string.find( leftTextClean, USE_COLON ) then
+					--ArkInventory.OutputDebug( "embedded item found between ", start, " and ", i )
+					return i
+				end
+				
 			end
 			
 		end
 		
 	end
 	
-	--ArkInventory.Output( "nothing found keep going from [", start, "]" )
+	--ArkInventory.OutputDebug( "nothing found keep going from [", start, "]" )
 	return
 	
 end
 
-function ArkInventory.TooltipFind( tooltip, start, TextToFind, IgnoreLeft, IgnoreRight, CaseSensitive, maxDepth, searchMode )
+function ArkInventory.TooltipMatch( tooltip, start, matchPattern, IgnoreLeft, IgnoreRight, CaseSensitive, maxDepth, searchMode )
 	
-	local TextToFind = ArkInventory.TooltipCleanText( TextToFind )
-	if TextToFind == "" then
-		return false
+	local matchPattern = ArkInventory.TooltipCleanText( matchPattern )
+	if matchPattern == "" then
+		return
 	end
 	
 	local n = ArkInventory.TooltipGetNumLines( tooltip )
@@ -1203,7 +1235,7 @@ function ArkInventory.TooltipFind( tooltip, start, TextToFind, IgnoreLeft, Ignor
 	local searchMode = searchMode or ArkInventory.Const.Tooltip.Search.Full
 	
 	if not CaseSensitive then
-		TextToFind = string.lower( TextToFind )
+		matchPattern = string.lower( matchPattern )
 	end
 	
 	local obj, txt
@@ -1219,7 +1251,7 @@ function ArkInventory.TooltipFind( tooltip, start, TextToFind, IgnoreLeft, Ignor
 				if searchMode == ArkInventory.Const.Tooltip.Search.Base then
 					restart = helper_TooltipJumpEmbeddedItem( tooltip, i + 1 )
 					if restart then
-						return ArkInventory.TooltipFind( tooltip, restart, TextToFind, IgnoreLeft, IgnoreRight, CaseSensitive, maxDepth, searchMode )
+						return ArkInventory.TooltipMatch( tooltip, restart, matchPattern, IgnoreLeft, IgnoreRight, CaseSensitive, maxDepth, searchMode )
 					end
 				elseif searchMode == ArkInventory.Const.Tooltip.Search.Short then
 					return
@@ -1233,9 +1265,9 @@ function ArkInventory.TooltipFind( tooltip, start, TextToFind, IgnoreLeft, Ignor
 				leftTextClean = string.lower( leftTextClean )
 			end
 			
-			local a, b = string.find( leftTextClean, TextToFind )
-			if a then
-				return a, b
+			local tbl = { string.match( leftTextClean, matchPattern ) }
+			if #tbl > 0 then
+				return unpack( tbl )
 			end
 			
 		end
@@ -1246,9 +1278,9 @@ function ArkInventory.TooltipFind( tooltip, start, TextToFind, IgnoreLeft, Ignor
 				rightTextClean = string.lower( rightTextClean )
 			end
 			
-			local a, b = string.find( rightTextClean, TextToFind )
-			if a then
-				return a, b
+			local tbl = { string.match( rightTextClean, matchPattern ) }
+			if #tbl > 0 then
+				return unpack( tbl )
 			end
 			
 		end
@@ -1259,7 +1291,7 @@ end
 
 function ArkInventory.TooltipContains( tooltip, start, TextToFind, IgnoreLeft, IgnoreRight, CaseSensitive, searchMode )
 	
-	if ArkInventory.TooltipFind( tooltip, start, TextToFind, IgnoreLeft, IgnoreRight, CaseSensitive, 0, searchMode ) then
+	if ArkInventory.TooltipMatch( tooltip, start, TextToFind, IgnoreLeft, IgnoreRight, CaseSensitive, 0, searchMode ) then
 		return true
 	else
 		return false
@@ -1290,8 +1322,12 @@ local function helper_AcceptableRedText( txt, ignore_known, ignore_level )
 		return true
 	elseif txt == ArkInventory.Localise["ITEM_CANNOT_SCRAP"] then
 		return true
-	elseif txt == ArkInventory.Localise["PREVIOUS_RANK_UNKNOWN"] then
+	elseif txt == ArkInventory.Localise["ITEM_WRONG_ZONE"] then
 		return true
+--	elseif txt == ArkInventory.Localise["LEVEL_LINKED_NOT_USABLE"] then
+--		return true
+--	elseif txt == ArkInventory.Localise["PREVIOUS_RANK_UNKNOWN"] then
+--		return true
 	elseif txt == ArkInventory.Localise["WOW_TOOLTIP_RETRIEVING_ITEM_INFO"] then
 		return true
 	elseif txt == ArkInventory.Localise["HEART_OF_AZEROTH_INACTIVE"] then
@@ -1313,6 +1349,7 @@ local function helper_AcceptableRedText( txt, ignore_known, ignore_level )
 		end
 	end
 	
+	
 	--ArkInventory.Output( "red text: ", txt )
 	return false
 	
@@ -1327,14 +1364,14 @@ function ArkInventory.TooltipCanUse( tooltip, start, ignore_known, ignore_level 
 	local start = start or 2
 	local restart
 	
-	--ArkInventory.Output( "start=[", start, "] lines=[", n, "]" )
+	--ArkInventory.OutputDebug( "start=[", start, "] lines=[", n, "]" )
 	for i = start, n do
 		
 		local leftText, rightText, leftTextClean, rightTextClean, leftColor, rightColor = ArkInventory.TooltipGetLine( tooltip, i )
-		--ArkInventory.Output( i, " = [", leftTextClean, "] [", rightTextClean, "]" )
+		--ArkInventory.OutputDebug( i, " = [", leftTextClean, "] [", rightTextClean, "]" )
 		
 		if ( i < n ) and ( newscan ) and ( leftTextClean == "" or string.find( leftText, "^\10" ) or string.find( leftText, "^\n" ) or string.find( leftText, "^|n" ) ) then
-			--ArkInventory.Output( "jump from line [", i, "]" )
+			--ArkInventory.OutputDebug( "jump from line [", i, "]" )
 			restart = helper_TooltipJumpEmbeddedItem( tooltip, i + 1 )
 			if restart then
 				return ArkInventory.TooltipCanUse( tooltip, restart, ignore_known, ignore_level )
@@ -1343,10 +1380,10 @@ function ArkInventory.TooltipCanUse( tooltip, start, ignore_known, ignore_level 
 		
 		if leftColor and leftTextClean ~= "" then
 			local c = leftColor:GenerateHexColor( )
-			--ArkInventory.Output( "left [", i, "]=[", c, "]" )
+			--ArkInventory.OutputDebug( "left [", i, "]=[", c, "]" )
 			if ArkInventory.Const.BLIZZARD.GLOBAL.FONT.COLOR.UNUSABLE[c] then
 				if not helper_AcceptableRedText( leftTextClean, ignore_known, ignore_level ) then
-					--ArkInventory.Output( "unusable left [", i, "] ", leftText )
+					--ArkInventory.OutputDebug( "unusable left [", i, "] ", leftText )
 					return false
 				end
 			end
@@ -1354,10 +1391,10 @@ function ArkInventory.TooltipCanUse( tooltip, start, ignore_known, ignore_level 
 		
 		if rightColor and rightTextClean ~= "" then
 			local c = rightColor:GenerateHexColor( )
-			--ArkInventory.Output( "right [", i, "]=[", c, "]" )
+			--ArkInventory.OutputDebug( "right [", i, "]=[", c, "]" )
 			if ArkInventory.Const.BLIZZARD.GLOBAL.FONT.COLOR.UNUSABLE[c] then
 				if not helper_AcceptableRedText( rightTextClean, ignore_known, ignore_level ) then
-					--ArkInventory.Output( "unusable right [", i, "] ", rightText )
+					--ArkInventory.OutputDebug( "unusable right [", i, "] ", rightText )
 					return false
 				end
 			end
@@ -1372,23 +1409,24 @@ end
 function ArkInventory.TooltipIsReady( tooltip )
 	
 	local numlines = ArkInventory.TooltipGetNumLines( tooltip )
+	
+	-- batllepet tooltip conversions generate a zero line tooltip
 	if numlines == 0 then
-		-- batllepet tooltip conversions generate a zero line tooltip
 		return true
 	end
 	
-	-- normal tooltips will always have at least one line (retrieving item information)
+	-- normal tooltips will always have at least one line and it wont be red
 	local leftText, rightText, leftTextClean, rightTextClean, leftColor, rightColor = ArkInventory.TooltipGetLine( tooltip, 1 )
-	
-	
 	local c = leftColor and leftColor:GenerateHexColor( )
-	if c and ArkInventory.Const.BLIZZARD.GLOBAL.FONT.COLOR.UNUSABLE[c] then
+	if c and not ArkInventory.Const.BLIZZARD.GLOBAL.FONT.COLOR.UNUSABLE[c] then
 		return true
 	end
 	
-	if leftTextClean and leftTextClean ~= "" and leftTextClean ~= ArkInventory.Localise["WOW_TOOLTIP_RETRIEVING_ITEM_INFO"] then
+	if leftTextClean and not ( leftTextClean == "" or leftTextClean == ArkInventory.Localise["WOW_TOOLTIP_RETRIEVING_ITEM_INFO"] ) then
 		return true
 	end
+	
+	ArkInventory.OutputDebug( "tooltip not ready [", leftTextClean, "]" )
 	
 end
 
@@ -2798,38 +2836,38 @@ function ArkInventory.TooltipDump( tooltip )
 -- 
 --	/run ArkInventory.TooltipDump( ArkInventory.Global.Tooltip.Scan )
 --	/run ArkInventory.TooltipDump( GameTooltip )
-	ArkInventory.Output( "----- ----- -----" )
+	ArkInventory.OutputDebug( "----- ----- -----" )
 	local c = ArkInventory.TooltipGetNumLines( tooltip )
-	ArkInventory.Output( "lines = ", c )
+	ArkInventory.OutputDebug( "lines = ", c )
 	for i = 1, c do
 		local leftText, rightText, leftTextClean, rightTextClean, leftColor, rightColor = ArkInventory.TooltipGetLine( tooltip, i )
-		ArkInventory.Output( i, " left: ", leftColor:GenerateHexColor( ), ": ", leftText )
+		ArkInventory.OutputDebug( i, " left: ", leftColor:GenerateHexColor( ), ": ", leftText )
 		if rightText ~= "" then
-			ArkInventory.Output( i, " right: ", rightColor:GenerateHexColor( ), ": ", rightText )
+			ArkInventory.OutputDebug( i, " right: ", rightColor:GenerateHexColor( ), ": ", rightText )
 		end
 	end
 	
 	if tooltip:GetParent( ) then
-		ArkInventory.Output( "parent = ", tooltip:GetParent( ):GetName( ) )
+		ArkInventory.OutputDebug( "parent = ", tooltip:GetParent( ):GetName( ) )
 	else
-		ArkInventory.Output( "parent = *not set*" )
+		ArkInventory.OutputDebug( "parent = *not set*" )
 	end
 	
 	if tooltip:GetOwner( ) then
-		ArkInventory.Output( "owner = ", tooltip:GetOwner( ):GetName( ) )
+		ArkInventory.OutputDebug( "owner = ", tooltip:GetOwner( ):GetName( ) )
 	else
-		ArkInventory.Output( "owner = *not set*" )
+		ArkInventory.OutputDebug( "owner = *not set*" )
 	end
 	
 	for k, v in pairs( tooltip ) do
-		--ArkInventory.Output( k )
+		--ArkInventory.OutputDebug( k )
 	end
 	
 end
 
 function ArkInventory.GameTooltipDump( )
 	for k in pairs( GameTooltip ) do
-		ArkInventory.Output( k )
+		ArkInventory.OutputDebug( k )
 	end
 end
 
@@ -2888,12 +2926,12 @@ end
 function ArkInventory.TooltipExtractValueArtifactPower( h )
 	
 	local tooltipInfo = ArkInventory.TooltipSet( ArkInventory.Global.Tooltip.Scan, nil, nil, nil, h )
+	local amount, suffix = ArkInventory.TooltipMatch( ArkInventory.Global.Tooltip.Scan, nil, ArkInventory.Localise["WOW_TOOLTIP_ARTIFACT_POWER_AMOUNT"], false, true, true, 0, ArkInventory.Const.Tooltip.Search.Short )
 	
-	if not ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, nil, ArkInventory.Localise["WOW_TOOLTIP_ARTIFACT_POWER"], false, true, false, 0, ArkInventory.Const.Tooltip.Search.Short ) then
+	if not amount then
 		return
 	end
 	
-	local _, _, amount, suffix = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, nil, ArkInventory.Localise["WOW_TOOLTIP_ARTIFACT_POWER_AMOUNT"], false, true, true, 0, ArkInventory.Const.Tooltip.Search.Short )
 	amount = ArkInventory.TooltipTextToNumber( amount )
 	
 	--ArkInventory.Output2( h, "[", amount, "] [", suffix, "]" )
@@ -2923,17 +2961,14 @@ end
 function ArkInventory.TooltipExtractValueAncientMana( h )
 	
 	local tooltipInfo = ArkInventory.TooltipSet( ArkInventory.Global.Tooltip.Scan, nil, nil, nil, h )
+	local amount, suffix = ArkInventory.TooltipMatch( ArkInventory.Global.Tooltip.Scan, nil, ArkInventory.Localise["WOW_TOOLTIP_ARTIFACT_POWER_AMOUNT"], false, true, true, 0, ArkInventory.Const.Tooltip.Search.Short )
 	
-	if not ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, nil, ArkInventory.Localise["WOW_TOOLTIP_ANCIENT_MANA"], false, true, false, 0, ArkInventory.Const.Tooltip.Search.Short ) then
+	if not amount then
 		return
 	end
 	
-	local _, _, amount, suffix = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, nil, ArkInventory.Localise["WOW_TOOLTIP_ARTIFACT_POWER_AMOUNT"], false, true, true, 0, ArkInventory.Const.Tooltip.Search.Short )
 	amount = ArkInventory.TooltipTextToNumber( amount )
-	--local _, _, amount, suffix = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, nil, "(%d+)(..)", false, true, true, 0, ArkInventory.Const.Tooltip.Search.Short )
 	
-	--ArkInventory.Output2( h, " [", amount, "] [", suffix, "]" )
-	--ArkInventory.Output2( "[", string.byte( string.sub( suffix, 1, 1 ) ), "] [", string.byte( string.sub( suffix, 2, 2 ) ), "]" )
 	
 	return amount
 	
