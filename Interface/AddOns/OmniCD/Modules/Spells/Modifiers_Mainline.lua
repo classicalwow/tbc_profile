@@ -313,7 +313,7 @@ E.spell_cdmod_by_aura_mult = {
 	[320976] = { nil, "coordinatedKillAuraMult" },
 	[31935] = { 0.25, "isMomentOfGlory" },
 	[703] = { 0, "isImprovedGarrote" },
-	[107574] = { 0.5, "isAvatar" },
+	[107574] = { 0.5, "isAvatarWithUnstoppableForce" },
 }
 
 E.spell_noreset_onencounterend = {
@@ -1282,7 +1282,7 @@ E.sync_cooldowns = {
 
 
 
-		[107574] = { 73, 107574, 152278 },
+		[401150] = { 73, 401150, 152278 },
 		[871] = { 73, 871, 152278 },
 		[1719] = { 72, 1719, 152278 },
 		[228920] = { 72, 228920, 152278 },

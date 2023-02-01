@@ -247,7 +247,7 @@ E.spell_db = {
 
 
 
-
+		{ ["class"]="WARRIOR",["type"]="offensive",["buff"]=401150,["spec"]=true,["maxRanks"]=1,["name"]="Avatar",["ID"]=203,["duration"]=90,["icon"]=613534,["spellID"]=401150, },
 	},
 	["ROGUE"] = {
 		{ ["class"]="ROGUE",["type"]="cc",["buff"]=207736,["spec"]=true,["name"]="Shadowy Duel",["duration"]=120,["icon"]=1020341,["spellID"]=207736, },

@@ -9,7 +9,7 @@ OmniCDDB = {
 	["global"] = {
 		["disableElvMsg"] = true,
 	},
-	["version"] = 2.51,
+	["version"] = 3,
 	["profiles"] = {
 		["Default"] = {
 			["Party"] = {

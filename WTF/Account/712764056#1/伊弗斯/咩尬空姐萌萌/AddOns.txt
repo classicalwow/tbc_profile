@@ -199,3 +199,4 @@ DBM-VoA: disabled
 FFLU: disabled
 HeyboxPlayerInfo: disabled
 Details_Compare2: disabled
+DataStore_Currencies: disabled

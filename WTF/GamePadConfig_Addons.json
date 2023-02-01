@@ -5,28 +5,6 @@
         "You can create your own GamePadConfig_*.json config files, such as GamePadConfig_MyConfigs.json",
         "Multiple config files will be loaded in alphabetical order. (Not counting the Default and AddOns files, which come first/last respectively)"
     ],
-    "configVersion": 3,
-    "configs": [
-        {
-            "separator": "================================================================================",
-            "name": "默认",
-            "stickConfigs": [
-                {
-                    "stick": "Movement",
-                    "axisX": "GStickX",
-                    "axisY": "GStickX",
-                    "deadzone": 0.5
-                },
-                {
-                    "stick": "Camera",
-                    "axisX": "GStickY",
-                    "axisY": "RTrigger",
-                    "deadzoneX": 0.15
-                },
-                {
-                    "stick": "Look"
-                }
-            ]
-        }
-    ]
+    "configVersion": 4,
+    "configs": []
 }

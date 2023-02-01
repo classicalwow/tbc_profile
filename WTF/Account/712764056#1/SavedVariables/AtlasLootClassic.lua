@@ -8,7 +8,7 @@ AtlasLootClassicDB = {
 		["特斯拉大股東 - 伊弗斯"] = "特斯拉大股東 - 伊弗斯",
 	},
 	["global"] = {
-		["__addonrevision"] = 3000007,
+		["__addonrevision"] = 3010000,
 		["VendorPrice"] = {
 			[42518] = "honor:4480:arena:350",
 			[41559] = "honor:1250",
@@ -513,8 +513,8 @@ AtlasLootClassicDB = {
 			[42607] = "arena:1200",
 			[38547] = "arena:400",
 			[35103] = "honor:19000",
+			[18826] = "honor:2500",
 			[40689] = "EmblemOfHeroism:40",
-			[33528] = "BoJ:60",
 			[40721] = "EmblemOfValor:25",
 			[33557] = "BoJ:35",
 			[18874] = "honor:5000",
@@ -595,10 +595,10 @@ AtlasLootClassicDB = {
 			[33530] = "BoJ:75",
 			[35065] = "honor:5700",
 			[41203] = "EmblemOfValor:45",
-			[42322] = "arena:4500",
-			[42290] = "arena:1350",
-			[15200] = "honor:100",
 			[35161] = "honor:7600",
+			[42290] = "arena:1350",
+			[42322] = "arena:4500",
+			[15200] = "honor:100",
 			[35129] = "honor:5700",
 			[42577] = "honor:4480:arena:350",
 			[42450] = "arena:1200",
@@ -631,7 +631,7 @@ AtlasLootClassicDB = {
 			[35130] = "honor:5700",
 			[33517] = "BoJ:60",
 			[30183] = "BoJ:15",
-			[18826] = "honor:2500",
+			[33528] = "BoJ:60",
 			[32818] = "honor:3990",
 			[33325] = "BoJ:35",
 			[28930] = "honor:3800",
@@ -738,6 +738,18 @@ AtlasLootClassicDB = {
 		["畜生犬隊長 - 伊弗斯"] = {
 		},
 		["特變電工 - 伊弗斯"] = {
+			["minimap"] = {
+				["minimapPos"] = 221.2639414330138,
+			},
+			["Addons"] = {
+				["Favourites"] = {
+					["lists"] = {
+						["ProfileBase"] = {
+							[32231] = true,
+						},
+					},
+				},
+			},
 			["GUI"] = {
 				["point"] = {
 					"TOPRIGHT", -- [1]
@@ -749,22 +761,10 @@ AtlasLootClassicDB = {
 				["selected"] = {
 					"AtlasLootClassic_Crafting", -- [1]
 					"EnchantingWrath", -- [2]
-					2, -- [3]
+					nil, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},
-			},
-			["Addons"] = {
-				["Favourites"] = {
-					["lists"] = {
-						["ProfileBase"] = {
-							[32231] = true,
-						},
-					},
-				},
-			},
-			["minimap"] = {
-				["minimapPos"] = 238.0107461904307,
 			},
 		},
 		["路易斯桑拿 - 伊弗斯"] = {
@@ -787,7 +787,7 @@ AtlasLootClassicDB = {
 		},
 		["邁克爾假死 - 伊弗斯"] = {
 			["minimap"] = {
-				["minimapPos"] = 254.228336851523,
+				["minimapPos"] = 202.343654848935,
 			},
 			["GUI"] = {
 				["point"] = {

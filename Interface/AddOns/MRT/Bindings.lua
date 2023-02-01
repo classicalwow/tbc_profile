@@ -9,7 +9,7 @@ local function make(name, command, description)
 	local btn = CreateFrame("Button", name, nil, "SecureActionButtonTemplate")
 	btn:SetAttribute("type", "macro")
 	btn:SetAttribute("macrotext", command)
-	btn:RegisterForClicks("AnyUp", "AnyDown")
+	btn:RegisterForClicks("AnyDown")
 end
 
 for i=1,8 do

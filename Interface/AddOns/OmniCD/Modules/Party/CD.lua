@@ -135,7 +135,7 @@ local function UpdateCdBySpender(info, guid, t, isTrueBearing)
 		if type(target) == "table" then
 			for _, targetID in pairs(target) do
 				local icon = info.spellIcons[targetID]
-				if icon and icon.active and (targetID ~= 107574 or not info.talentData[targetID]) then
+				if icon and icon.active then
 					P:UpdateCooldown(icon, isTrueBearing and reducedTime * 2 or reducedTime)
 				end
 			end
@@ -3975,15 +3975,14 @@ end
 
 
 
-registeredEvents['SPELL_AURA_REMOVED'][107574] = function(info, srcGUID, spellID, destGUID)
-	info.auras["isAvatar"] = nil
+registeredEvents['SPELL_AURA_REMOVED'][401150] = function(info, srcGUID, spellID, destGUID)
+	info.auras["isAvatarWithUnstoppableForce"] = nil
 	RemoveHighlightByCLEU(info, srcGUID, spellID, destGUID)
 end
 
-registeredEvents['SPELL_AURA_APPLIED'][107574] = function(info)
-	local icon = info.spellIcons[6343]
-	if icon then
-		info.auras["isAvatar"] = true
+registeredEvents['SPELL_AURA_APPLIED'][401150] = function(info)
+	if info.spellIcons[6343] and info.talentData[275336] then
+		info.auras["isAvatarWithUnstoppableForce"] = true
 	end
 end
 
@@ -4017,16 +4016,16 @@ local rageSpenders = {
 	[845]	 = { 1.0, { 262161, 167105, 227847 }, nil, { "hasBattlelord", -0.5} },
 	[772]	 = { 1.5, { 262161, 167105, 227847 }  },
 	[396719] = { 1.5, { 262161, 167105, 227847, 1719, 228920 }, { 384277, .5} },
-	[394062] = { 3.0, { 107574, 871 } },
-	[190456] = { 3.5, { 107574, 871 } },
-	[6572]	 = { 2.0, { 107574, 871}, { 390675, 1 }, { "hasRevenge", 0 } },
-	[1680]	 = { { [73]=3, ["d"]=2.0 }, { 262161, 167105, 227847, 107574, 871 }, { 385512, 1.5, 383082, .001 }	},
-	[163201] = { { [73]=4, ["d"]=2.0 }, { 262161, 167105, 227847, 107574, 871 }, nil, { "SuddenDeath", 0 } },
-	[281000] = { { [73]=4, ["d"]=2.0 }, { 262161, 167105, 227847, 107574, 871 }, nil, { "SuddenDeath", 0 } },
-	[1464]	 = { { [73]=2, ["d"]=1.0 }, { 262161, 167105, 227847, 107574, 871, 1719, 228920 }, { 383082, .5 } },
-	[2565]	 = { { [73]=3, ["d"]=1.5 }, { 262161, 167105, 227847, 107574, 871, 1719, 228920 } },
-	[202168] = { { [73]=1, ["d"]=0.5 }, { 262161, 167105, 227847, 107574, 871, 1719, 228920 }, nil, { "hasVictorious", 0 } },
-	[1715]	 = { { [73]=1, ["d"]=0.5 }, { 262161, 167105, 227847, 107574, 871, 1719, 228920 } },
+	[394062] = { 3.0, { 401150, 871 } },
+	[190456] = { 3.5, { 401150, 871 } },
+	[6572]	 = { 2.0, { 401150, 871}, { 390675, 1 }, { "hasRevenge", 0 } },
+	[1680]	 = { { [73]=3, ["d"]=2.0 }, { 262161, 167105, 227847, 401150, 871 }, { 385512, 1.5, 383082, .001 }	},
+	[163201] = { { [73]=4, ["d"]=2.0 }, { 262161, 167105, 227847, 401150, 871 }, nil, { "SuddenDeath", 0 } },
+	[281000] = { { [73]=4, ["d"]=2.0 }, { 262161, 167105, 227847, 401150, 871 }, nil, { "SuddenDeath", 0 } },
+	[1464]	 = { { [73]=2, ["d"]=1.0 }, { 262161, 167105, 227847, 401150, 871, 1719, 228920 }, { 383082, .5 } },
+	[2565]	 = { { [73]=3, ["d"]=1.5 }, { 262161, 167105, 227847, 401150, 871, 1719, 228920 } },
+	[202168] = { { [73]=1, ["d"]=0.5 }, { 262161, 167105, 227847, 401150, 871, 1719, 228920 }, nil, { "hasVictorious", 0 } },
+	[1715]	 = { { [73]=1, ["d"]=0.5 }, { 262161, 167105, 227847, 401150, 871, 1719, 228920 } },
 }
 
 for id, t in pairs(rageSpenders) do
@@ -4047,7 +4046,7 @@ for id, t in pairs(rageSpenders) do
 		end
 		for _, spellID in pairs(target) do
 			local icon = info.spellIcons[spellID]
-			if icon and icon.active and (spellID ~= 107574 or info.spec == 73) and (spellID ~= 228920 or info.spec == 72) then
+			if icon and icon.active and (spellID ~= 228920 or info.spec == 72) then
 				P:UpdateCooldown(icon, rCD)
 			end
 		end
@@ -4618,7 +4617,7 @@ end
 
 
 local benevolentFaerieMajorCD = {
-	[71]={227847,152277},	[72]=1719,		[73]=107574,
+	[71]={227847,152277},	[72]=1719,		[73]=401150,
 	[65]={31884,216331},	[66]=31884,		[70]={31884,231895},
 	[253]=193530,		[254]=288613,		[255]=266779,
 	[259]=79140,		[260]=13750,		[261]=121471,
