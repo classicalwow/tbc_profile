@@ -13,7 +13,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1668964937,
 			},
 			["Default.伊弗斯.畜生犬隊長"] = {
-				["lastUpdate"] = 1673269625,
+				["lastUpdate"] = 1675508560,
 			},
 			["Default.伊弗斯.邁克爾假死"] = {
 				["lastUpdate"] = 1664462132,

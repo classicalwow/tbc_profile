@@ -12,6 +12,14 @@ KNOWN ISSUES:
 
 
 
+Version 4.13.04  (for WOTLK Classic)  February 2, 2023
+
+- TOC updated for 30401 (Ulduar) patch
+- Fix for Ulduar patch not showing quests provided by Zilom. (Thanks!)
+
+
+
+
 Version 4.13.03  (for WOTLK Classic)  October 4, 2022
 
 - Fixed Caverns of Time quests not showing up.
@@ -34,6 +42,7 @@ Version 4.13.03  (for WOTLK Classic)  October 4, 2022
 	- Gundrak: Proof of Demise: Gal'darah
 	- Violet Hold: Proof of Demise: Cyanigosa
 	- Trial of the Champion: Proof of Demise: The Black Knight
+
 
 
 

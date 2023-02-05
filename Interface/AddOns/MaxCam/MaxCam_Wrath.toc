@@ -1,5 +1,5 @@
 ## Interface: 30400
-## Version: v2.6.0
+## Version: v2.6.1
 ## Title: MaxCam
 ## Notes: Max Camera Distance
 ## Author: Ketho @ EU-Boulderfist

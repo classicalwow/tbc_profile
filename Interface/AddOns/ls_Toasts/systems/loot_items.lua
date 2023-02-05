@@ -5,17 +5,6 @@ local E, L, C = addonTable.E, addonTable.L, addonTable.C
 local _G = getfenv(0)
 local tonumber = _G.tonumber
 
--- Blizz
-local C_Timer = _G.C_Timer
-
---[[ luacheck: globals
-	DressUpVisual GameTooltip GetItemInfo IsDressableItem IsModifiedClick OpenBag UnitGUID UnitName
-
-	ITEM_QUALITY_COLORS ITEM_QUALITY1_DESC ITEM_QUALITY2_DESC ITEM_QUALITY3_DESC ITEM_QUALITY4_DESC
-	LOOT_ITEM_CREATED_SELF LOOT_ITEM_CREATED_SELF_MULTIPLE LOOT_ITEM_PUSHED_SELF LOOT_ITEM_PUSHED_SELF_MULTIPLE
-	LOOT_ITEM_SELF LOOT_ITEM_SELF_MULTIPLE
-]]
-
 -- Mine
 local PLAYER_GUID = UnitGUID("player")
 local PLAYER_NAME = UnitName("player")
@@ -71,22 +60,9 @@ local function delayedUpdatePatterns()
 	C_Timer.After(0.1, updatePatterns)
 end
 
-local function dressUp(link)
-	if not link then
-		return
-	end
-
-	-- item
-	if IsDressableItem(link) then
-		if DressUpVisual(link) then
-			return
-		end
-	end
-end
-
 local function Toast_OnClick(self)
 	if self._data.link and IsModifiedClick("DRESSUP") then
-		dressUp(self._data.link)
+		DressUpItemLink(self._data.link)
 	elseif self._data.item_id then
 		local slot = E:SearchBagsForItemID(self._data.item_id)
 		if slot >= 0 then

@@ -1,5 +1,89 @@
 # Changelog
 
+## [1.5.1] - 2023-01-27
+
+### Changed
+
+- Split the dual-functionality of the Junk Frame button into two distinct buttons: `Start Selling` & `Destroy Next Item`
+- Added tooltips to the Junk Frame's `Destroy Next Item` button: mousing over the button will display the name of the next item to be destroyed, and holding shift will display the item's tooltip
+
+### Fixed
+
+- Issue with frame levels
+- Support for reagent bag in retail ([#165](https://github.com/moody/Dejunk/issues/165))
+
+## [1.5.0] - 2023-01-27
+
+### Added
+
+- Option: `Exclude Unbound Equipment`
+- Option: `Include Artifact Relics` ([#106](https://github.com/moody/Dejunk/issues/106))
+
+### Changed
+
+- Updated the merchant button to support ElvUI
+- Reverted behavior of option `Auto Junk Frame` to no longer apply to bags
+
+### Fixed
+
+- Issues with minimap icon positioning ([#163](https://github.com/moody/Dejunk/issues/163))
+- Issues with bag item caching
+- Taint with keybinding UI ([#166](https://github.com/moody/Dejunk/issues/166))
+
+## [1.4.1] - 2022-11-04
+
+### Fixed
+
+- Option: `Auto Junk Frame` support for AdiBags, ArkInventory, Bagnon, and ElvUI ([#158](https://github.com/moody/Dejunk/issues/158))
+- Potential error related to accessing saved variables before they are ready ([#159](https://github.com/moody/Dejunk/issues/159))
+
+## [1.4.0] - 2022-11-03
+
+### Added
+
+- Option: `Include Below Item Level`
+- Additional tooltips and `OnClick` handling for List Frame and Junk Frame item buttons ([#144](https://github.com/moody/Dejunk/issues/144))
+
+### Changed
+
+- Updated option buttons to contain a checkbox visual
+- Reverted change to Merchant Button point ([#155](https://github.com/moody/Dejunk/issues/155))
+
+### Removed
+
+- Option: `Include Below Average Equipment`
+- UI sound effects
+
+## [1.3.3] - 2022-10-30
+
+### Fixed
+
+- Protected function errors in Retail ([#153](https://github.com/moody/Dejunk/issues/153))
+
+## [1.3.2] - 2022-10-29
+
+### Changed
+
+- Unified the functionality of the merchant and minimap buttons
+- Updated option `Auto Junk Frame` to also apply when opening/closing bags
+- Updated code for compatibility with Dragonflight beta
+
+### Fixed
+
+- Cloaks are no longer considered unsuitable equipment for non-cloth characters in Retail ([#143](https://github.com/moody/Dejunk/issues/143))
+- The `/dejunk keybinds` command and UI button now navigate to the new Dragonflight keybinding UI ([#145](https://github.com/moody/Dejunk/issues/145))
+
+## [1.3.1] - 2022-10-26
+
+### Changed
+
+- Updated code for Dragonflight pre-patch
+- Modified the size and location of the Merchant Button (now appears at the bottom right corner)
+
+### Fixed
+
+- Static popup handling for tradeable items in Wrath
+
 ## [1.3.0] - 2022-10-09
 
 ### Added

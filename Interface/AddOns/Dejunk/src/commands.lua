@@ -1,16 +1,17 @@
 local _, Addon = ...
-local Colors = Addon.Colors
-local Commands = Addon.Commands
-local Destroyer = Addon.Destroyer
-local E = Addon.Events
-local EventManager = Addon.EventManager
-local Items = Addon.Items
-local JunkFrame = Addon.UserInterface.JunkFrame
-local L = Addon.Locale
-local Lists = Addon.Lists
-local Seller = Addon.Seller
-local TransportFrame = Addon.UserInterface.TransportFrame
-local UserInterface = Addon.UserInterface
+local Colors = Addon:GetModule("Colors")
+local Commands = Addon:GetModule("Commands")
+local Container = Addon:GetModule("Container")
+local Destroyer = Addon:GetModule("Destroyer")
+local E = Addon:GetModule("Events")
+local EventManager = Addon:GetModule("EventManager")
+local Items = Addon:GetModule("Items")
+local JunkFrame = Addon:GetModule("JunkFrame")
+local L = Addon:GetModule("Locale")
+local Lists = Addon:GetModule("Lists")
+local Seller = Addon:GetModule("Seller")
+local TransportFrame = Addon:GetModule("TransportFrame")
+local UserInterface = Addon:GetModule("UserInterface")
 
 -- ============================================================================
 -- Events
@@ -103,7 +104,7 @@ do -- Commands.loot()
     for _, item in ipairs(items) do
       if item.lootable then
         hasLootables = true
-        UseContainerItem(item.bag, item.slot)
+        Container.UseContainerItem(item.bag, item.slot)
       end
     end
 
@@ -114,16 +115,23 @@ do -- Commands.loot()
 end
 
 function Commands.keybinds()
-  if not KeyBindingFrame then KeyBindingFrame_LoadUI() end
   CloseMenus()
   CloseAllWindows()
-  KeyBindingFrame:Show()
 
-  -- Navigate to Dejunk binding category.
-  for _, button in ipairs(KeyBindingFrame.categoryList.buttons) do
-    local name = button.element and button.element.name
-    if name == BINDING_CATEGORY_DEJUNK then
-      return button:Click()
+  if Addon.IS_RETAIL then
+    -- Open the settings panel.
+    local keybindingsCategoryId = SettingsPanel.keybindingsCategory:GetID()
+    Settings.OpenToCategory(keybindingsCategoryId)
+  else
+    -- Open the keybinding frame.
+    if not KeyBindingFrame then KeyBindingFrame_LoadUI() end
+    KeyBindingFrame:Show()
+    -- Navigate to Dejunk binding category.
+    for _, button in ipairs(KeyBindingFrame.categoryList.buttons) do
+      local name = button.element and button.element.name
+      if name == BINDING_CATEGORY_DEJUNK then
+        return button:Click()
+      end
     end
   end
 end

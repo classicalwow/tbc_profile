@@ -204,7 +204,7 @@ BlizzMoveAPI:RegisterFrames(
 			["GuildFrame"] =
 			{
 				MinVersion = 0,
-				MaxVersion = 40000, -- Moved to LoD when?
+				MaxVersion = 40000, -- Moved to Blizzard_GuildUI when?
 				SubFrames =
 				{
 					["GuildInfoFrame"] =
@@ -263,7 +263,7 @@ BlizzMoveAPI:RegisterFrames(
 	["LFGParentFrame"] =
 	{
 		MinVersion = 20502,
-		MaxVersion = 20503, -- Moved to LOD Blizzard_LookingForGroupUI
+		MaxVersion = 20503, -- Moved to Blizzard_LookingForGroupUI
 	},
 	["LootFrame"] =
 	{
@@ -277,6 +277,11 @@ BlizzMoveAPI:RegisterFrames(
 			["SendMailFrame"] =
 			{
 				MinVersion = 0,
+			},
+			["MailFrameInset"] =
+			{
+				MinVersion = 0,
+				ForceParentage = true,
 			},
 			["OpenMailFrame"] =
 			{
@@ -345,7 +350,7 @@ BlizzMoveAPI:RegisterFrames(
 		{
 			["BattlefieldFrame"] =
 			{
-				MinVersion = 30400, -- Moved from UIParent
+				MinVersion = 30400, -- Moved from FrameXML
 				MaxVersion = 70300, -- Removed when?
 				SilenceCompatabilityWarnings = true,
 			},
@@ -403,6 +408,11 @@ BlizzMoveAPI:RegisterFrames(
 	{
 		MinVersion = 40000, -- Added when?
 	},
+	["QuickKeybindFrame"] =
+	{
+		MinVersion = 100000, -- Moved from Blizzard_BindingUI
+		SilenceCompatabilityWarnings = true,
+	},
 	["ReadyCheckFrame"] =
 	{
 		MinVersion = 0,
@@ -430,6 +440,11 @@ BlizzMoveAPI:RegisterFrames(
 	["TabardFrame"] =
 	{
 		MinVersion = 0,
+	},
+	["TalkingHeadFrame"] =
+	{
+		MinVersion = 100000, -- Moved from Blizzard_TalkingHeadUI
+		SilenceCompatabilityWarnings = true,
 	},
 	["TaxiFrame"] =
 	{
@@ -607,12 +622,25 @@ BlizzMoveAPI:RegisterAddOnFrames(
 			SilenceCompatabilityWarnings = true
 		},
 	},
+	["Blizzard_BehavioralMessaging"] =
+	{
+		["BehavioralMessagingDetails"] =
+		{
+			MinVersion = 0, -- Added when?
+		},
+	},
 	["Blizzard_BindingUI"] =
 	{
 		["KeyBindingFrame"] =
 		{
 			MinVersion = 0,
 			MaxVersion = 100000,
+		},
+		["QuickKeybindFrame"] =
+		{
+			MinVersion = 40000, -- Added when?
+			MaxVersion = 100000, -- Moved to FrameXML
+			SilenceCompatabilityWarnings = true,
 		},
 	},
 	["Blizzard_BlackMarketUI"] =
@@ -679,6 +707,13 @@ BlizzMoveAPI:RegisterAddOnFrames(
 		["ChannelFrame"] =
 		{
 			MinVersion = 0,
+		},
+	},
+	["Blizzard_ChromieTimeUI"] =
+	{
+		["ChromieTimeFrame"] =
+		{
+			MinVersion = 90000,
 		},
 	},
 	["Blizzard_ClassTalentUI"] =
@@ -748,13 +783,17 @@ BlizzMoveAPI:RegisterAddOnFrames(
 				},
 				["CommunitiesFrame.NotificationSettingsDialog"] =
 				{
-					MinVersion = 40000, -- Added when?
+					MinVersion = 0, -- Added when?
 				},
 			},
 		},
 		["CommunitiesFrame.RecruitmentDialog"] =
 		{
 			MinVersion = 40000, -- Added when?
+		},
+		["CommunitiesSettingsDialog"] =
+		{
+			MinVersion = 0, -- Added when?
 		},
 		["CommunitiesGuildLogFrame"] =
 		{
@@ -978,7 +1017,7 @@ BlizzMoveAPI:RegisterAddOnFrames(
 		["PlayerTalentFrame"] =
 		{
 			MinVersion = 11401,
-			MaxVersion = 100000,
+			-- MaxVersion = 100000, -- Not actually removed yet, but presumably will be in the near future
 			SubFrames =
 			{
 				["GlyphFrame"] =
@@ -1015,7 +1054,7 @@ BlizzMoveAPI:RegisterAddOnFrames(
 	{
 		["GuildFrame"] =
 		{
-			MinVersion = 40000, -- Moved out of FriendsFrame when?
+			MinVersion = 40000, -- Moved from FrameXML when?
 		},
 	},
 	["Blizzard_InspectUI"] =
@@ -1112,7 +1151,7 @@ BlizzMoveAPI:RegisterAddOnFrames(
 	{
 		["ItemSocketingFrame"] =
 		{
-			MinVersion = 20000,
+			MinVersion = 0,
 		},
 	},
 	["Blizzard_ItemUpgradeUI"] =
@@ -1126,7 +1165,7 @@ BlizzMoveAPI:RegisterAddOnFrames(
 	{
 		["LFGParentFrame"] =
 		{
-			MinVersion = 20504, -- Moved from framexml
+			MinVersion = 20504, -- Moved from FrameXML
 			MaxVersion = 70000, -- Removed when?
 		},
 	},
@@ -1181,6 +1220,25 @@ BlizzMoveAPI:RegisterAddOnFrames(
 			MinVersion = 100000,
 		},
 	},
+	["Blizzard_ProfessionsCustomerOrders"] =
+	{
+		["ProfessionsCustomerOrdersFrame"] =
+		{
+			MinVersion = 100002,
+			SubFrames =
+			{
+				["ProfessionsCustomerOrdersFrame.Form"] =
+				{
+					MinVersion = 100002,
+				},
+				["ProfessionsCustomerOrdersFrame.Form.CurrentListings"] =
+				{
+					MinVersion = 100002,
+					Detachable = true,
+				}
+			},
+		},
+	},
 	["Blizzard_PVPMatch"] =
 	{
 		["PVPMatchResults"] =
@@ -1232,6 +1290,13 @@ BlizzMoveAPI:RegisterAddOnFrames(
 			},
 		},
 	},
+	["Blizzard_SubscriptionInterstitialUI"] =
+	{
+		["SubscriptionInterstitialFrame"] =
+		{
+			MinVersion = 40000, -- Added when?
+		},
+	},
 	["Blizzard_TalentUI"] =
 	{
 		["TalentFrame"] =
@@ -1242,7 +1307,7 @@ BlizzMoveAPI:RegisterAddOnFrames(
 		["PlayerTalentFrame"] =
 		{
 			MinVersion = 11401,
-			MaxVersion = 100000,
+			-- MaxVersion = 100000, -- Not actually removed yet, but presumably will be in the near future
 		},
 	},
 	["Blizzard_TalkingHeadUI"] =
@@ -1250,6 +1315,15 @@ BlizzMoveAPI:RegisterAddOnFrames(
 		["TalkingHeadFrame"] =
 		{
 			MinVersion = 40000, -- Added when?
+			MaxVersion = 100000, -- Moved to FrameXML
+			SilenceCompatabilityWarnings = true,
+		},
+	},
+	["Blizzard_TimeManager"] =
+	{
+		["TimeManagerFrame"] =
+		{
+			MinVersion = 0, -- Added when?
 		},
 	},
 	["Blizzard_TorghastLevelPicker"] =

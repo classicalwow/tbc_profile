@@ -1,19 +1,25 @@
 local _, Addon = ...
-local Destroyer = Addon.Destroyer
-local E = Addon.Events
-local EventManager = Addon.EventManager
-local JunkFilter = Addon.JunkFilter
-local L = Addon.Locale
+local Container = Addon:GetModule("Container")
+local Destroyer = Addon:GetModule("Destroyer")
+local E = Addon:GetModule("Events")
+local EventManager = Addon:GetModule("EventManager")
+local Items = Addon:GetModule("Items")
+local JunkFilter = Addon:GetModule("JunkFilter")
+local L = Addon:GetModule("Locale")
 
 -- ============================================================================
 -- Local Functions
 -- ============================================================================
 
--- Sorts items by most expensive to least expensive.
-local function sortByTotalPrice(a, b)
-  local aTotalPrice = (a.price * a.quantity)
-  local bTotalPrice = (b.price * b.quantity)
-  return aTotalPrice == bTotalPrice and a.quality > b.quality or aTotalPrice > bTotalPrice
+local function handleItem(item)
+  if not Items:IsItemStillInBags(item) then return end
+  if Items:IsItemLocked(item) then return end
+
+  ClearCursor()
+  Container.PickupContainerItem(item.bag, item.slot)
+  DeleteCursorItem()
+
+  EventManager:Fire(E.AttemptedToDestroyItem, item)
 end
 
 -- ============================================================================
@@ -28,14 +34,13 @@ function Destroyer:Start()
   local items = JunkFilter:GetDestroyableJunkItems()
   if #items == 0 then return Addon:Print(L.NO_JUNK_ITEMS_TO_DESTROY) end
 
-  -- Sort, and get least expensive item.
-  table.sort(items, sortByTotalPrice)
-  local item = table.remove(items)
+  -- Get least expensive item.
+  local item = table.remove(items, 1)
 
-  -- Delete item.
-  ClearCursor()
-  PickupContainerItem(item.bag, item.slot)
-  DeleteCursorItem()
+  -- Handle item.
+  handleItem(item)
+end
 
-  EventManager:Fire(E.AttemptedToDestroyItem, item)
+function Destroyer:HandleItem(item)
+  if not Addon:IsBusy() then handleItem(item) end
 end

@@ -1,10 +1,10 @@
-tag abf372cbe5bd6c6bb451e4d25fc2356e9405c46c Details.DF.Wrath.10410.148
+lightweight tag 899ac439a17c19a799d30a6a2a0e2faf5cc215e1 DetailsRetail.8.3.0.7348.141
 Author:	Tercio Jose <terciob19@hotmail.com>
-Date:	Thu Jan 26 22:39:48 2023 -0300
+Date:	Mon Jul 6 11:27:35 2020 -0300
 
-commit e9f9adab230b98cd7269157b5100b0448bf82129
+commit 899ac439a17c19a799d30a6a2a0e2faf5cc215e1
 Author: Tercio Jose <terciob19@hotmail.com>
-Date:   Thu Jan 26 22:39:27 2023 -0300
+Date:   Mon Jul 6 11:27:35 2020 -0300
 
-    Toc Updates
+    Fixed an issue affecting the Auto Hide for some users
 

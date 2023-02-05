@@ -14,11 +14,12 @@ local GetAddOnInfo = _G.GetAddOnInfo;
 local GetAddOnMetadata = _G.GetAddOnMetadata;
 
 local BlizzMove = LibStub('AceAddon-3.0'):GetAddon('BlizzMove');
---local BlizzMove = LibStub('AceAddon-3.0'):GetAddon('BlizzMove'):GetModule('Debug');
 if not BlizzMove then return ; end
 
 --- @class BlizzMove_Debug
 local Module = BlizzMove:NewModule('Debug')
+--- @type BlizzMoveAPI
+local BlizzMoveAPI = BlizzMoveAPI;
 
 local json = LibStub('JsonLua-1.0');
 
@@ -55,6 +56,7 @@ function Module:FindBadAnchorConnections(frame)
                     name = getFrameName(child),
                     targetName = getFrameName(parent),
                     source = child.GetSourceLocation and child:GetSourceLocation() or 'Unknown',
+                    targetSource = parent.GetSourceLocation and parent:GetSourceLocation() or 'Unknown',
                 });
             end
         end
@@ -82,7 +84,10 @@ function Module:BuildAnchorTree()
 
     local frame = EnumerateFrames();
     while frame do
-        for i = 1, frame.GetNumPoints and frame:GetNumPoints() or 0 do
+        local isForbidden = frame.IsForbidden and frame:IsForbidden();
+        local isRestricted = not isForbidden and frame.IsAnchoringRestricted and frame:IsAnchoringRestricted();
+        local numPoints = not isRestricted and frame.GetNumPoints and frame:GetNumPoints() or 0;
+        for i = 1, numPoints do
             local relativeTo = select(2, frame:GetPoint(i));
             if not relativeTo then
                 relativeTo = frame.GetParent and frame:GetParent() or UIParent;
@@ -119,7 +124,7 @@ function Module:DumpCVars(options)
 
     local data = self:ExtractCVars(changedOnly);
     local text = '';
-    if(pastableFormat) then
+    if (pastableFormat) then
         for command, info in pairs(data) do
             if not info.readonly then
                 text = text .. string__format('/run C_CVar.SetCVar(\"%s\", %s)\n', command, encode_string(info.value));
@@ -173,6 +178,81 @@ end
 
 function Module:ExtractSavedVars()
     return BlizzMove.DB;
+end
+
+-- list extracted from the listfile @ https://github.com/wowdev/wow-listfile/blob/master/community-listfile.csv
+local blizzardAddons = { "blizzard_achievementui", "blizzard_adventuremap", "blizzard_alliedracesui", "blizzard_animadiversionui", "blizzard_animcreate", "blizzard_apidocumentation", "blizzard_apidocumentationgenerated", "blizzard_archaeologyui", "blizzard_ardenwealdgardening", "blizzard_arenaui", "blizzard_artifactui", "blizzard_auctionhouseshared", "blizzard_auctionhouseui", "blizzard_auctionui", "blizzard_authchallengeui", "blizzard_autoxml", "blizzard_azeriteessenceui", "blizzard_azeriterespecui", "blizzard_azeritetempui", "blizzard_azeriteui", "blizzard_barbershopui", "blizzard_battlefieldmap", "blizzard_battlefieldminimap", "blizzard_behavioralmessaging", "blizzard_bindingui", "blizzard_blackmarketui", "blizzard_boosttutorial", "blizzard_cachedlogin", "blizzard_calendar", "blizzard_challengesui", "blizzard_channels", "blizzard_charactercreate", "blizzard_charactercustomize", "blizzard_charcustomize", "blizzard_chromietimeui", "blizzard_classtalentdebug", "blizzard_classtalentui", "blizzard_classtrial", "blizzard_clickbindingui", "blizzard_clientsavedvariables", "blizzard_collections", "blizzard_combatlog", "blizzard_combattext", "blizzard_commentator", "blizzard_communities", "blizzard_compactraidframes", "blizzard_componenttests", "blizzard_console", "blizzard_consoleextensions", "blizzard_contribution", "blizzard_covenantcallings", "blizzard_covenantpreviewui", "blizzard_covenantrenown", "blizzard_covenantsanctum", "blizzard_covenanttoasts", "blizzard_craftui", "blizzard_cufprofiles", "blizzard_deathrecap", "blizzard_debugloader", "blizzard_debugtools", "blizzard_deprecated", "blizzard_encounterjournal", "blizzard_eventtrace", "blizzard_expansionlandingpage", "blizzard_flightmap", "blizzard_frameeffects", "blizzard_garrisontemplates", "blizzard_garrisonui", "blizzard_generictraitui", "blizzard_glyphui", "blizzard_gmchatui", "blizzard_gmsurveyui", "blizzard_guildbankui", "blizzard_guildcontrolui", "blizzard_guildrecruitmentui", "blizzard_guildui", "blizzard_hybridminimap", "blizzard_inspectui", "blizzard_islandspartyposeui", "blizzard_islandsqueueui", "blizzard_itemalterationui", "blizzard_iteminteractionui", "blizzard_itemsocketingui", "blizzard_itemupgradeui", "blizzard_kiosk", "blizzard_kioskmodeui", "blizzard_landingsoulbinds", "blizzard_loginerrorhelpers", "blizzard_lookingforgroupui", "blizzard_lookingforguildui", "blizzard_macroui", "blizzard_mainlinesettings", "blizzard_majorfactions", "blizzard_mapcanvas", "blizzard_mawbuffs", "blizzard_moneyreceipt", "blizzard_movepad", "blizzard_nameplates", "blizzard_newplayerexperience", "blizzard_newplayerexperienceguide", "blizzard_objectivetracker", "blizzard_obliterumui", "blizzard_olditemupgradeui", "blizzard_oldplayerchoiceui", "blizzard_orderhallui", "blizzard_partyposeui", "blizzard_perksprogram", "blizzard_perksprogramdevtool", "blizzard_petbattleui", "blizzard_petjournal", "blizzard_playerchoice", "blizzard_playerchoiceui", "blizzard_professions", "blizzard_professionscrafterorders", "blizzard_professionscustomerorders", "blizzard_professionsdebug", "blizzard_professionsspecializations", "blizzard_professionstemplates", "blizzard_profspecsimporter", "blizzard_prototypedialog", "blizzard_ptrfeedback", "blizzard_ptrfeedbackglue", "blizzard_pvphonorsystemui", "blizzard_pvpmatch", "blizzard_pvpui", "blizzard_questchoice", "blizzard_questnavigation", "blizzard_questnextquestlog", "blizzard_raidui", "blizzard_reforgingui", "blizzard_runeforgeui", "blizzard_scrappingmachineui", "blizzard_scriptedanimations", "blizzard_scriptedanimationstest", "blizzard_scrollboxdebug", "blizzard_securetransferui", "blizzard_selectorui", "blizzard_settings", "blizzard_settingsdebug", "blizzard_sharedmapdataproviders", "blizzard_sharedtalentui", "blizzard_sharedwidgetframes", "blizzard_socialui", "blizzard_soulbinds", "blizzard_soulbindsdebug", "blizzard_storeui", "blizzard_subscriptioninterstitialui", "blizzard_talenttestapi", "blizzard_talenttestdata", "blizzard_talenttestui", "blizzard_talentui", "blizzard_talkingheadui", "blizzard_testdataset", "blizzard_testdataseteditor", "blizzard_testframe", "blizzard_testingmode", "blizzard_timemanager", "blizzard_tokenui", "blizzard_toolsui", "blizzard_torghastlevelpicker", "blizzard_tradeskillui", "blizzard_trainerui", "blizzard_tutorial", "blizzard_tutorialmanager", "blizzard_tutorials", "blizzard_tutorialtemplates", "blizzard_uiframemanager", "blizzard_uiwidgets", "blizzard_undosystem", "blizzard_utility", "blizzard_voidstorageui", "blizzard_warboardui", "blizzard_warfrontspartyposeui", "blizzard_warfrontui", "blizzard_weeklyrewards", "blizzard_worldmap", "blizzard_wowtokenui" };
+-- manual list of Toplevel frames that we don't handle on purpose
+local ignoredFrames = {
+    AuctionHouseMultisellProgressFrame = true, -- popup frame
+    BarberShopFrame = true, -- fullscreen frame
+    BattlefieldMapFrame = true, -- movable by default
+    ClassTrialThanksForPlayingDialog = true, -- popup frame
+    CombatText = true, -- seems to be scrolling combat text - don't move it
+    CommunitiesAvatarPickerDialog = true, -- fullscreen popup frame
+    CommunitiesTicketManagerDialog = true, -- popup frame, not sure if we want to move it
+    CompactRaidFrameManager = true, -- does not behave like a window
+    EventTrace = true, -- movable by default
+    ExpansionTrialThanksForPlayingDialog = true, -- popup frame
+    GMChatFrame = true, -- movable by default
+    GMChatStatusFrame = true, -- popup frame
+    GuideFrame = true, -- not sure what it is
+    KioskSessionFinishedDialog = true, -- popup frame
+    MawBuffsBelowMinimapFrame = true, -- does not behave like a window
+    MovePadFrame = true, -- movable by default
+    NamePlateDriverFrame = true, -- has no visuals
+    OrderHallCommandBar = true, -- the bar at the top of the screen
+    PerksProgramFrame = true, -- fullscreen frame
+    PlayerChoiceFrame = true, -- causes various issues when opening in combat
+    PlayerChoiceTimeRemaining = true, -- presumed to have the same issues as PlayerChoiceFrame
+    StopwatchFrame = true, -- movable by default
+    TableAttributeDisplay = true, -- movable by default
+    UIFrameManager = true, -- has no visuals
+    UIWidgetManager = true, -- has no visuals
+    UIWidgetTopCenterContainerFrame = true, -- not sure what it is
+    VoiceChatChannelActivatedNotification = true, -- popup frame, not sure if we want to move it
+    VoiceChatPromptActivateChannel = true, -- popup frame, not sure if we want to move it
+};
+function Module:DumpTopLevelFrames()
+    local registeredFrames = {};
+
+    for _, addon in pairs(blizzardAddons) do
+        LoadAddOn(addon);
+    end
+    for _, addon in pairs(BlizzMoveAPI:GetRegisteredAddOns()) do
+        LoadAddOn(addon);
+        for _, frameName in pairs(BlizzMoveAPI:GetRegisteredFrames(addon)) do
+            local frame = BlizzMove:GetFrameFromName(addon, frameName);
+            registeredFrames[frame] = true;
+        end
+    end
+
+    local data = {};
+    local frame = EnumerateFrames();
+    while frame do
+        local name = getFrameName(frame);
+        if (
+            name
+            and not ignoredFrames[name]
+            and not registeredFrames[frame]
+            and not BlizzMove.FrameData[frame]
+            and frame.IsToplevel and frame:IsToplevel()
+            and frame.GetParent and (frame:GetParent() == UIParent or frame:GetParent() == nil)
+        ) then
+            local source = frame.GetSourceLocation and frame:GetSourceLocation() or 'Unknown';
+            -- source starts with Interface/AddOns/Blizzard_
+            if source:match('Interface/AddOns/Blizzard_(.*)') then
+                table.insert(data, {
+                    name = name,
+                    source = source
+                });
+            end
+        end
+        frame = EnumerateFrames(frame);
+    end
+
+    local mainFrame = self:GetMainFrame(json.encode(data));
+    mainFrame:Show();
 end
 
 function Module:GetMainFrame(text)
@@ -229,33 +309,6 @@ function Module:GetMainFrame(text)
         eb:SetFontObject('ChatFontNormal');
         eb:SetScript('OnEscapePressed', function() f:Hide() end);
         sf:SetScrollChild(eb);
-
-        -- resizing
-        f:SetResizable(true);
-        --f:SetMinResize(150, 100);
-        local rb = CreateFrame('Button', f);
-        rb:SetPoint('BOTTOMRIGHT', -6, 7);
-        rb:SetSize(16, 16);
-
-        rb:SetNormalTexture('Interface\\ChatFrame\\UI-ChatIM-SizeGrabber-Up');
-        rb:SetHighlightTexture('Interface\\ChatFrame\\UI-ChatIM-SizeGrabber-Highlight');
-        rb:SetPushedTexture('Interface\\ChatFrame\\UI-ChatIM-SizeGrabber-Down');
-
-        rb:SetScript('OnMouseDown', function(frame, button)
-            if button == 'LeftButton' then
-                f:StartSizing('BOTTOMRIGHT');
-                frame:GetHighlightTexture():Hide(); -- more noticeable
-            end
-        end);
-        rb:SetScript('OnMouseUp', function(frame, button)
-            f:StopMovingOrSizing();
-            frame:GetHighlightTexture():Show();
-            eb:SetWidth(sf:GetWidth());
-
-            -- save size between sessions
-            self.frameConfig.width = f:GetWidth();
-            self.frameConfig.height = f:GetHeight();
-        end);
 
         _G.BlizzMoveCopyFrame = f;
     end

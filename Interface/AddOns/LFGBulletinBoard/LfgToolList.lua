@@ -75,6 +75,23 @@ local function InviteRequest(name)
 	GBB.Tool.RunSlashCmd("/invite " .. name)
 end
 
+local function InviteRequestWithRole(gbbName,gbbDungeon,gbbHeroic,gbbRaid)
+	if not GBB.DB.InviteRole then GBB.DB.InviteRole = "DPS" end
+	local gbbDungeonPrefix = ""	
+	if gbbHeroic then
+		gbbDungeonPrefix = "H "
+	elseif not gbbHeroic and not gbbRaid then
+		gbbDungeonPrefix = "N "
+	end
+
+	-- Not sure if necessary, but Heroic Miscellaneous sounds like a dangerous place.
+	if gbbDungeon == "MISC" or gbbDungeon == "TRADE" then
+		gbbDungeonPrefix = ""
+	end
+
+	SendChatMessage(string.format(GBB.L["msgLeaderOutbound"], gbbDungeonPrefix .. GBB.dungeonNames[gbbDungeon], GBB.DB.InviteRole), "WHISPER", nil, gbbName)
+end
+
 local function IgnoreRequest(name)
 	for ir,req in pairs(GBB.RequestList) do
 		if type(req) == "table" and req.name == name then
@@ -125,7 +142,6 @@ end
 function GBB.GetLfgList()
 
 	local totalResultsFound, results = C_LFGList.GetSearchResults()
-
 
 	for _, v in pairs(results) do
 		local dungeonTXT=""
@@ -212,7 +228,7 @@ function GBB.UpdateLfgTool()
     end
 
 	local activities = C_LFGList.GetAvailableActivities(category)
-	C_LFGList.Search(category, activities)
+	--C_LFGList.Search(category, activities)
     if LFGBrowseFrame.searching then return end
 
 	GBB.GetLfgList()
@@ -394,7 +410,9 @@ local function CreateItem(yy,i,doCompact,req,forceHight)
         local roles = ""
         
         for _, v in pairs(req.partyInfo) do 
-            if (v.class == "DAMAGER") then
+			if (v.classLocalized == "ROGUE" or v.classLocalized == "WARLOCK" or v.classLocalized == "MAGE") then 
+				roles = roles..GBB.Tool.RoleIcon["DAMAGER"]
+			elseif (v.class == "DAMAGER") then
                 roles = roles..GBB.Tool.RoleIcon["DAMAGER"]
             elseif (v.class == "TANK") then
                 roles = roles..GBB.Tool.RoleIcon["TANK"]
@@ -643,6 +661,10 @@ function GBB.LfgClickRequest(self,button)
 		if IsShiftKeyDown() then
 			WhoRequest(req.name)
 			--SendWho( req.name )
+		elseif IsAltKeyDown() then
+			-- Leaving this here for a message without the automatic invite request
+			-- as it obviously doesn't affect overall functionality. 
+			InviteRequestWithRole(req.name,req.dungeon,req.IsHeroic,req.IsRaid)
 		elseif IsControlKeyDown() then
 			InviteRequest(req.name)
 		else
@@ -650,7 +672,8 @@ function GBB.LfgClickRequest(self,button)
             if UnitIsGroupLeader("player", LE_PARTY_CATEGORY_HOME) or searchResult.numMembers == 1 then
                 InviteRequest(req.name)
             elseif searchResult.isDelisted == false and searchResult.numMembers ~= 5 then 
-                RequestInviteFromUnit(searchResult.leaderName)
+				InviteRequestWithRole(req.name,req.dungeon,req.IsHeroic,req.IsRaid) -- sends message telling leader your role
+                RequestInviteFromUnit(searchResult.leaderName) -- requests the actual invite. 
             end
 		end
 	else

@@ -175,3 +175,5 @@ ElvUI_CustomTags: disabled
 ElvUI_UnitFramePlugin: disabled
 kExtraBossFrames: disabled
 WeakAurasCompanion: enabled
+ElvUI_ExtraDataTexts: disabled
+ElvUI_SecondsToBuff: disabled

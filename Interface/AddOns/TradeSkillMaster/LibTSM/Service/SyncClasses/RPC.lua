@@ -4,8 +4,8 @@
 --    All Rights Reserved - Detailed license information included with addon.     --
 -- ------------------------------------------------------------------------------ --
 
-local _, TSM = ...
-local RPC = TSM.Init("Service.SyncClasses.RPC")
+local TSM = select(2, ...) ---@type TSM
+local RPC = TSM.Init("Service.SyncClasses.RPC") ---@class Service.SyncClasses.RPC
 local Delay = TSM.Include("Util.Delay")
 local TempTable = TSM.Include("Util.TempTable")
 local Log = TSM.Include("Util.Log")
@@ -16,6 +16,7 @@ local private = {
 	rpcFunctions = {},
 	pendingRPC = {},
 	rpcSeqNum = 0,
+	pendingTimer = nil,
 }
 local RPC_EXTRA_TIMEOUT = 15
 local CALLBACK_TIME_WARNING_THRESHOLD_MS = 20
@@ -27,6 +28,7 @@ local CALLBACK_TIME_WARNING_THRESHOLD_MS = 20
 -- ============================================================================
 
 RPC:OnModuleLoad(function()
+	private.pendingTimer = Delay.CreateTimer("SYNC_RPC_PENDING", private.HandlePendingRPC)
 	Comm.RegisterHandler(Constants.DATA_TYPES.RPC_CALL, private.HandleCall)
 	Comm.RegisterHandler(Constants.DATA_TYPES.RPC_RETURN, private.HandleReturn)
 	Comm.RegisterHandler(Constants.DATA_TYPES.RPC_PREAMBLE, private.HandlePreamble)
@@ -62,22 +64,13 @@ function RPC.Call(name, targetPlayer, handler, ...)
 
 	local context = TempTable.Acquire()
 	context.name = name
+	context.targetPlayer = targetPlayer
 	context.handler = handler
 	context.timeoutTime = time() + RPC_EXTRA_TIMEOUT + private.EstimateTransferTime(numBytes)
 	private.pendingRPC[private.rpcSeqNum] = context
-	Delay.AfterTime("SYNC_PENDING_RPC", 1, private.HandlePendingRPC)
+	private.pendingTimer:RunForTime(1)
 
 	return true, (context.timeoutTime - time()) * 2 / 3
-end
-
-function RPC.Cancel(name, handler)
-	for seq, info in pairs(private.pendingRPC) do
-		if info.name == name and info.handler == handler then
-			TempTable.Release(info)
-			private.pendingRPC[seq] = nil
-			return
-		end
-	end
 end
 
 
@@ -123,20 +116,23 @@ function private.HandleCall(dataType, _, sourcePlayer, data)
 	end
 end
 
-function private.HandleReturn(dataType, _, _, data)
+function private.HandleReturn(dataType, _, character, data)
 	assert(dataType == Constants.DATA_TYPES.RPC_RETURN)
 	if type(data.seq) ~= "number" or type(data.result) ~= "table" then
 		return
-	elseif not private.pendingRPC[data.seq] then
+	end
+	local context = private.pendingRPC[data.seq]
+	if not context then
 		return
 	end
+	assert(character == context.targetPlayer)
 	local startTime = debugprofilestop()
-	private.pendingRPC[data.seq].handler(unpack(data.result))
+	context.handler(true, context.targetPlayer, unpack(data.result))
 	local timeTaken = debugprofilestop() - startTime
 	if timeTaken > CALLBACK_TIME_WARNING_THRESHOLD_MS then
-		Log.Warn("RPC (%s) result handler took %0.2fms", tostring(private.pendingRPC[data.seq].name), timeTaken)
+		Log.Warn("RPC (%s) result handler took %0.2fms", tostring(context.name), timeTaken)
 	end
-	TempTable.Release(private.pendingRPC[data.seq])
+	TempTable.Release(context)
 	private.pendingRPC[data.seq] = nil
 end
 
@@ -172,10 +168,10 @@ function private.HandlePendingRPC()
 		end
 	end
 	for _, seq in ipairs(timedOut) do
-		local info = private.pendingRPC[seq]
-		Log.Warn("RPC timed out (%s)", info.name)
-		info.handler()
-		TempTable.Release(info)
+		local context = private.pendingRPC[seq]
+		Log.Warn("RPC timed out (%s)", context.name)
+		context.handler(false, context.targetPlayer)
+		TempTable.Release(context)
 		private.pendingRPC[seq] = nil
 	end
 	TempTable.Release(timedOut)

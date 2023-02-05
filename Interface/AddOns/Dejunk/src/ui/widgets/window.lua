@@ -1,7 +1,25 @@
 local _, Addon = ...
-local Colors = Addon.Colors
-local Sounds = Addon.Sounds
-local Widgets = Addon.UserInterface.Widgets
+local Colors = Addon:GetModule("Colors")
+local Widgets = Addon:GetModule("Widgets")
+
+-- ============================================================================
+-- Local Functions
+-- ============================================================================
+
+local setFrameLevel
+do
+  local prevLevel = 0
+  setFrameLevel = function(frame)
+    local level = prevLevel + 1
+    prevLevel = level
+    -- Delay to avoid overwrites from existing values in `{character}/layout-local.txt`.
+    C_Timer.After(1, function() frame:SetFrameLevel(level) end)
+  end
+end
+
+-- ============================================================================
+-- Window
+-- ============================================================================
 
 --[[
   Creates a moveable frame with title text and a close button.
@@ -28,6 +46,7 @@ function Widgets:Window(options)
   local frame = self:TitleFrame(options)
   frame.titleButton:SetBackdrop(nil)
   frame.titleButton:EnableMouse(false)
+  setFrameLevel(frame)
 
   -- Add as special frame to be hidden on certain events.
   table.insert(UISpecialFrames, frame:GetName())
@@ -66,9 +85,6 @@ function Widgets:Window(options)
   end)
 
   frame.closeButton:SetScript("OnClick", function() frame:Hide() end)
-
-  frame:SetScript("OnShow", Sounds.WindowOpened)
-  frame:SetScript("OnHide", Sounds.WindowClosed)
 
   return frame
 end

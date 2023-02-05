@@ -1,9 +1,13 @@
 local ADDON_NAME, Addon = ...
-local Colors = Addon.Colors
-local L = Addon.Locale
-local SavedVariables = Addon.SavedVariables
-local UserInterface = Addon.UserInterface
-local Widgets = Addon.UserInterface.Widgets
+local Colors = Addon:GetModule("Colors")
+local Commands = Addon:GetModule("Commands")
+local L = Addon:GetModule("Locale")
+local Lists = Addon:GetModule("Lists")
+local MinimapIcon = Addon:GetModule("MinimapIcon")
+local Popup = Addon:GetModule("Popup")
+local SavedVariables = Addon:GetModule("SavedVariables")
+local UserInterface = Addon:GetModule("UserInterface")
+local Widgets = Addon:GetModule("Widgets")
 
 -- ============================================================================
 -- UserInterface
@@ -32,8 +36,8 @@ end
 UserInterface.frame = (function()
   local frame = Widgets:Window({
     name = ADDON_NAME .. "_ParentFrame",
-    width = 650,
-    height = 500,
+    width = 780,
+    height = 600,
     titleText = Colors.Blue(ADDON_NAME),
   })
 
@@ -59,7 +63,7 @@ UserInterface.frame = (function()
   frame.keybindsButton:SetWidth(frame.keybindsButton.text:GetWidth() + Widgets:Padding(4))
   frame.keybindsButton:SetScript("OnEnter", function(self) self:SetBackdropColor(Colors.Blue:GetRGBA(0.75)) end)
   frame.keybindsButton:SetScript("OnLeave", function(self) self:SetBackdropColor(0, 0, 0, 0) end)
-  frame.keybindsButton:SetScript("OnClick", Addon.Commands.keybinds)
+  frame.keybindsButton:SetScript("OnClick", Commands.keybinds)
 
   -- Options frame.
   frame.optionsFrame = Widgets:OptionsFrame({
@@ -98,8 +102,8 @@ UserInterface.frame = (function()
   frame.optionsFrame:AddOption({
     labelText = L.MINIMAP_ICON_TEXT,
     tooltipText = L.MINIMAP_ICON_TOOLTIP,
-    get = function() return not SavedVariables:Get().minimapIcon.hide end,
-    set = function(value) SavedVariables:Get().minimapIcon.hide = not value end
+    get = function() return MinimapIcon:IsEnabled() end,
+    set = function(value) MinimapIcon:SetEnabled(value) end
   })
   frame.optionsFrame:AddOption({
     labelText = L.AUTO_JUNK_FRAME_TEXT,
@@ -126,20 +130,40 @@ UserInterface.frame = (function()
     set = function(value) SavedVariables:Get().safeMode = value end
   })
   frame.optionsFrame:AddOption({
+    labelText = L.EXCLUDE_UNBOUND_EQUIPMENT_TEXT,
+    tooltipText = L.EXCLUDE_UNBOUND_EQUIPMENT_TOOLTIP,
+    get = function() return SavedVariables:Get().excludeUnboundEquipment end,
+    set = function(value) SavedVariables:Get().excludeUnboundEquipment = value end
+  })
+  frame.optionsFrame:AddOption({
     labelText = L.INCLUDE_POOR_ITEMS_TEXT,
     tooltipText = L.INCLUDE_POOR_ITEMS_TOOLTIP,
     get = function() return SavedVariables:Get().includePoorItems end,
     set = function(value) SavedVariables:Get().includePoorItems = value end
   })
   frame.optionsFrame:AddOption({
-    labelText = L.INCLUDE_BELOW_AVERAGE_EQUIPMENT_TEXT,
+    labelText = L.INCLUDE_BELOW_ITEM_LEVEL_TEXT,
     onUpdateTooltip = function(self, tooltip)
-      local itemLevel = Colors.White(Addon.Items:GetAverageEquippedItemLevel())
-      tooltip:SetText(L.INCLUDE_BELOW_AVERAGE_EQUIPMENT_TEXT)
-      tooltip:AddLine(L.INCLUDE_BELOW_AVERAGE_EQUIPMENT_TOOLTIP:format(itemLevel))
+      local itemLevel = Colors.White(SavedVariables:Get().includeBelowItemLevel.value)
+      tooltip:SetText(L.INCLUDE_BELOW_ITEM_LEVEL_TEXT)
+      tooltip:AddLine(L.INCLUDE_BELOW_ITEM_LEVEL_TOOLTIP:format(itemLevel))
     end,
-    get = function() return SavedVariables:Get().includeBelowAverageEquipment end,
-    set = function(value) SavedVariables:Get().includeBelowAverageEquipment = value end
+    get = function() return SavedVariables:Get().includeBelowItemLevel.enabled end,
+    set = function(value)
+      if value then
+        local sv = SavedVariables:Get()
+        Popup:GetInteger({
+          text = Colors.Gold(L.INCLUDE_BELOW_ITEM_LEVEL_TEXT) .. "|n|n" .. L.INCLUDE_BELOW_ITEM_LEVEL_POPUP_HELP,
+          initialValue = sv.includeBelowItemLevel.value,
+          onAccept = function(self, value)
+            sv.includeBelowItemLevel.enabled = true
+            sv.includeBelowItemLevel.value = value
+          end
+        })
+      else
+        SavedVariables:Get().includeBelowItemLevel.enabled = value
+      end
+    end
   })
   frame.optionsFrame:AddOption({
     labelText = L.INCLUDE_UNSUITABLE_EQUIPMENT_TEXT,
@@ -147,6 +171,15 @@ UserInterface.frame = (function()
     get = function() return SavedVariables:Get().includeUnsuitableEquipment end,
     set = function(value) SavedVariables:Get().includeUnsuitableEquipment = value end
   })
+
+  if Addon.IS_RETAIL then
+    frame.optionsFrame:AddOption({
+      labelText = L.INCLUDE_ARTIFACT_RELICS_TEXT,
+      tooltipText = L.INCLUDE_ARTIFACT_RELICS_TOOLTIP,
+      get = function() return SavedVariables:Get().includeArtifactRelics end,
+      set = function(value) SavedVariables:Get().includeArtifactRelics = value end
+    })
+  end
 
   -- Inclusions frame.
   frame.inclusionsFrame = Widgets:ListFrame({
@@ -158,7 +191,8 @@ UserInterface.frame = (function()
     },
     titleText = Colors.Red(L.INCLUSIONS_TEXT),
     descriptionText = L.INCLUSIONS_DESCRIPTION,
-    list = Addon.Lists.Inclusions
+    list = Lists.Inclusions,
+    numButtons = 8
   })
 
   -- Exclusions frame.
@@ -171,7 +205,8 @@ UserInterface.frame = (function()
     },
     titleText = Colors.Green(L.EXCLUSIONS_TEXT),
     descriptionText = L.EXCLUSIONS_DESCRIPTION,
-    list = Addon.Lists.Exclusions
+    list = Lists.Exclusions,
+    numButtons = 8
   })
 
   return frame

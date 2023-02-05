@@ -14,9 +14,9 @@ DataStore_AchievementsDB = {
 					[705] = "3:1,9:1,12:1,14:1",
 					[948] = "1:3100,2:3000,3:3100,4:3100,5:4000",
 				},
-				["guid"] = "Player-4487-0018BE27",
-				["lastUpdate"] = 1668964936,
 				["numAchievements"] = 1055,
+				["lastUpdate"] = 1668964936,
+				["guid"] = "Player-4487-0018BE27",
 			},
 			["Default.伊弗斯.畜生犬隊長"] = {
 				["Partial"] = {
@@ -31,7 +31,7 @@ DataStore_AchievementsDB = {
 					[728] = "2,4,5,6,7,10",
 				},
 				["numAchievements"] = 1055,
-				["lastUpdate"] = 1673267384,
+				["lastUpdate"] = 1673269624,
 				["numAchievementPoints"] = 30,
 				["Completed"] = {
 					448, -- [1]
@@ -47,16 +47,16 @@ DataStore_AchievementsDB = {
 			["Default.伊弗斯.頂級投資家"] = {
 				["Partial"] = {
 					[705] = "6:1,7:1,10:9,14:1",
-					[859] = "4",
+					[1182] = 30,
 					[503] = 3,
 					[762] = "1:521,2:3121,3:521,4:521,5:4335",
-					[16] = 1,
 					[1677] = 2,
-					[1182] = 30,
+					[16] = 1,
+					[859] = "4",
 				},
-				["numAchievements"] = 1055,
-				["lastUpdate"] = 1672640195,
 				["guid"] = "Player-4487-001C0EC2",
+				["lastUpdate"] = 1672640195,
+				["numAchievements"] = 1055,
 			},
 		},
 	},

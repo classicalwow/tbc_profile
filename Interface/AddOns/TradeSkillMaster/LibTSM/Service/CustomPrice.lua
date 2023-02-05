@@ -4,15 +4,12 @@
 --    All Rights Reserved - Detailed license information included with addon.     --
 -- ------------------------------------------------------------------------------ --
 
---- Custom Price Functions
--- @module CustomPrice
-
-local _, TSM = ...
-local CustomPrice = TSM.Init("Service.CustomPrice")
+local TSM = select(2, ...) ---@type TSM
+local CustomPrice = TSM.Init("Service.CustomPrice") ---@class Service.CustomPrice
+local Environment = TSM.Include("Environment")
 local L = TSM.Include("Locale").GetTable()
 local DisenchantInfo = TSM.Include("Data.DisenchantInfo")
 local TempTable = TSM.Include("Util.TempTable")
-local Table = TSM.Include("Util.Table")
 local Math = TSM.Include("Util.Math")
 local Money = TSM.Include("Util.Money")
 local String = TSM.Include("Util.String")
@@ -131,15 +128,6 @@ end)
 -- ============================================================================
 -- Module Functions
 -- ============================================================================
-
-function CustomPrice.OnEnable()
-	for name in pairs(TSM.db.global.userData.customPriceSources) do
-		if not CustomPrice.ValidateName(name, true) then
-			Log.PrintfUser(L["Removed custom price source (%s) which has an invalid name."], name)
-			CustomPrice.DeleteCustomPriceSource(name)
-		end
-	end
-end
 
 --- Register a built-in price source.
 -- @tparam string moduleName The name of the module which provides this source
@@ -296,7 +284,7 @@ function CustomPrice.ValidateName(customPriceName, ignoreExistingCustomPriceSour
 		return false, format(L["Custom price name %s already exists."], Theme.GetColor("INDICATOR"):ColorText(customPriceName))
 	end
 	-- TSM defined price sources
-	for source in CustomPrice.Iterator() do
+	for _, source in ipairs(private.priceSourceKeys) do
 		if strlower(source) == strlower(customPriceName) then
 			return false, format(L["Custom price name %s is a reserved word which cannot be used."], Theme.GetColor("INDICATOR"):ColorText(customPriceName))
 		end
@@ -393,8 +381,8 @@ function CustomPrice.GetConversionsValue(itemString, customPrice, method)
 	if (not method or method == Conversions.METHOD.DISENCHANT) and ItemInfo.IsDisenchantable(itemString) then
 		local classId = ItemInfo.GetClassId(itemString)
 		local quality = ItemInfo.GetQuality(itemString)
-		local itemLevel = not TSM.IsWowClassic() and ItemInfo.GetItemLevel(itemString) or ItemInfo.GetItemLevel(ItemString.GetBase(itemString))
-		local expansion = not TSM.IsWowClassic() and ItemInfo.GetExpansion(itemString) or nil
+		local itemLevel = Environment.IsRetail() and ItemInfo.GetItemLevel(itemString) or ItemInfo.GetItemLevel(ItemString.GetBase(itemString))
+		local expansion = Environment.IsRetail() and ItemInfo.GetExpansion(itemString) or nil
 		local value = 0
 		if quality and itemLevel and classId then
 			for targetItemString in DisenchantInfo.TargetItemIterator() do
@@ -411,29 +399,39 @@ function CustomPrice.GetConversionsValue(itemString, customPrice, method)
 
 		value = floor(value)
 		if value > 0 then
-			return value
+			return value, Conversions.METHOD.DISENCHANT
 		end
 	end
 
 	-- calculate other conversion values
 	local value = 0
-	for targetItemString, rate in Conversions.TargetItemsByMethodIterator(itemString, method) do
+	for targetItemString, rate, _, _, _, _, targetItemMethod in Conversions.TargetItemsByMethodIterator(itemString, method) do
+		method = method or targetItemMethod
 		local matValue = CustomPrice.GetValue(customPrice, targetItemString)
 		value = value + (matValue or 0) * rate
 	end
 
 	value = Math.Round(value)
-	return value > 0 and value or nil
+	return value > 0 and value or nil, method
 end
 
-local function CustomPriceIteratorHelper(_, key)
-	local info = private.priceSourceInfo[key]
-	return info.key, info.moduleName, info.label
-end
 --- Iterate over the price sources.
--- @return An iterator which provides the following fields: `key, moduleName, label`
+-- @return An iterator which provides the following fields: `index, key, moduleName, label`
 function CustomPrice.Iterator()
-	return Table.Iterator(private.priceSourceKeys, CustomPriceIteratorHelper)
+	return private.IteratorHelper, nil, 0
+end
+
+function CustomPrice.IsMathFunction(key)
+	return MATH_FUNCTIONS[strlower(key)]
+end
+
+function CustomPrice.IsSource(key)
+	key = strlower(key)
+	return (private.priceSourceInfo[key] or key == "convert") and true or false
+end
+
+function CustomPrice.IsCustomSource(key)
+	return private.settings.customPriceSources[strlower(key)] and true or false
 end
 
 --- Should be called when the value of a registered source changes.
@@ -488,9 +486,7 @@ function CustomPrice.OnSourceChange(key, itemString)
 
 			data.map:SetCallbacksPaused(true)
 			if clearAll then
-				for mapItemString in data.map:Iterator() do
-					data.map:ValueChanged(mapItemString)
-				end
+				data.map:Invalidate()
 				for name in pairs(data.customPriceSourceNames) do
 					CustomPrice.OnSourceChange(name)
 				end
@@ -520,7 +516,7 @@ function CustomPrice.DependantCustomSourceIterator(str)
 	local proxy = private.ParseCustomPrice(str)
 	if proxy then
 		local data = private.proxyData[proxy]
-		for name, customSourceStr in pairs(TSM.db.global.userData.customPriceSources) do
+		for name, customSourceStr in pairs(private.settings.customPriceSources) do
 			if data.dependantPriceSources[name] then
 				tinsert(result, name)
 				tinsert(result, customSourceStr)
@@ -1038,4 +1034,14 @@ function private.CallCustomSourceCallbacks()
 	for _, callback in ipairs(private.customSourceCallbacks) do
 		callback()
 	end
+end
+
+function private.IteratorHelper(_, index)
+	index = index + 1
+	local key = private.priceSourceKeys[index]
+	if not key then
+		return
+	end
+	local info = private.priceSourceInfo[key]
+	return index, info.key, info.moduleName, info.label
 end

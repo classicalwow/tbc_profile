@@ -13,6 +13,13 @@ X: 0
 Y: 0
 W: 365
 H: 240
+Frame: AtlasLoot_GUI-Frame
+FrameLevel: 1
+Anchor: TOPRIGHT
+X: -200
+Y: -116
+W: 920
+H: 600
 Frame: PawnUIFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -27,10 +34,3 @@ X: -245
 Y: -178
 W: 200
 H: 50
-Frame: AtlasLoot_GUI-Frame
-FrameLevel: 1
-Anchor: TOPRIGHT
-X: -200
-Y: -116
-W: 920
-H: 600

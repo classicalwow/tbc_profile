@@ -6,16 +6,17 @@ MBB_Exclude = {
 	"LibDBIcon10_AtlasLoot", -- [4]
 	"LibDBIcon10_BisTooltipIcon", -- [5]
 	"LibDBIcon10_Hekili", -- [6]
+	"LibDBIcon10_ItemRack", -- [7]
 }
 MBB_Options = {
 	["CollapseTimeout"] = 0,
 	["AltExpandDirection"] = 4,
 	["AttachToMinimap"] = 1,
-	["ExpandDirection"] = 1,
+	["DetachedButtonPos"] = "TOPLEFT",
 	["MaxButtonsPerLine"] = 6,
 	["ButtonPos"] = {
 		-24.58710098266602, -- [1]
 		-78.26460266113281, -- [2]
 	},
-	["DetachedButtonPos"] = "TOPLEFT",
+	["ExpandDirection"] = 1,
 }

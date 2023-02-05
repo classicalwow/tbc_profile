@@ -1,54 +1,70 @@
 local _, Addon = ...
-local E = Addon.Events
-local EventManager = Addon.EventManager
-local Items = Addon.Items
+local Container = Addon:GetModule("Container")
+local E = Addon:GetModule("Events")
+local EventManager = Addon:GetModule("EventManager")
+local Items = Addon:GetModule("Items")
+local NUM_BAG_SLOTS = Addon.IS_RETAIL and NUM_TOTAL_EQUIPPED_BAG_SLOTS or NUM_BAG_SLOTS
 
 -- Initialize cache table.
 Items.cache = {}
+Items.location = ItemLocation:CreateEmpty()
 
 -- ============================================================================
 -- Local Functions
 -- ============================================================================
 
+local getContainerItem
+do
+  local t = {}
+
+  function getContainerItem(bag, slot)
+    local item = Container.GetContainerItemInfo(bag, slot)
+    if type(item) ~= "table" then return nil end
+
+    for k in pairs(t) do t[k] = nil end
+    for k in pairs(item) do
+      t[k] = item[k]
+      item[k] = nil
+    end
+
+    item.bag = bag
+    item.slot = slot
+    item.texture = t.iconFileID
+    item.quantity = t.stackCount
+    item.quality = t.quality
+    item.lootable = t.hasLoot
+    item.link = t.hyperlink
+    item.noValue = t.hasNoValue
+    item.id = t.itemID
+
+    return item
+  end
+end
+
 local function getItem(bag, slot)
-  -- GetContainerItemInfo.
-  local texture, quantity, _, quality, _, lootable, link, _, noValue, id = GetContainerItemInfo(bag, slot)
-  if id == nil then return nil end
+  local item = getContainerItem(bag, slot)
+  if item == nil then return nil end
 
   -- GetItemInfo.
-  local name, _, _, itemLevel, _, _, _, _, invType, _, price, classId, subclassId = GetItemInfo(link)
+  local name, _, _, itemLevel, _, _, _, _, invType, _, price, classId, subclassId = GetItemInfo(item.link)
   if name == nil then
-    name, _, _, itemLevel, _, _, _, _, invType, _, price, classId, subclassId = GetItemInfo(id)
+    name, _, _, itemLevel, _, _, _, _, invType, _, price, classId, subclassId = GetItemInfo(item.id)
     if name == nil then return nil end
   end
 
-  -- Build item.
-  return {
-    bag = bag,
-    slot = slot,
-    -- GetContainerItemInfo.
-    texture = texture,
-    quantity = quantity,
-    quality = quality,
-    lootable = lootable,
-    link = link,
-    noValue = noValue,
-    id = id,
-    -- GetItemInfo.
-    name = name,
-    itemLevel = GetDetailedItemLevelInfo(link) or itemLevel,
-    invType = invType,
-    price = price,
-    classId = classId,
-    subclassId = subclassId,
-    -- Other.
-    isBound = C_Item.IsBound(ItemLocation:CreateFromBagAndSlot(bag, slot))
-  }
+  item.name = name
+  item.itemLevel = GetDetailedItemLevelInfo(item.link) or itemLevel
+  item.invType = invType
+  item.price = price
+  item.classId = classId
+  item.subclassId = subclassId
+
+  return item
 end
 
 local function iterateBags()
   local bag, slot = BACKPACK_CONTAINER, 0
-  local numSlots = GetContainerNumSlots(bag)
+  local numSlots = Container.GetContainerNumSlots(bag)
 
   return function()
     slot = slot + 1
@@ -60,11 +76,11 @@ local function iterateBags()
       repeat
         bag = bag + 1
         if bag > NUM_BAG_SLOTS then return nil end
-        numSlots = GetContainerNumSlots(bag)
+        numSlots = Container.GetContainerNumSlots(bag)
       until numSlots > 0
     end
 
-    return bag, slot, GetContainerItemID(bag, slot)
+    return bag, slot, Container.GetContainerItemID(bag, slot)
   end
 end
 
@@ -94,22 +110,18 @@ end
 do
   local ticker
 
-  EventManager:Once(E.Wow.PlayerLogin, function()
+  local function refreshTicker()
     if ticker then ticker:Cancel() end
-    updateCache()
-  end)
+    ticker = C_Timer.NewTicker(0.01, updateCache, 1)
+  end
 
-  EventManager:On(E.Wow.BagUpdateDelayed, function()
-    if ticker then ticker:Cancel() end
-    updateCache()
-  end)
+  EventManager:Once(E.Wow.PlayerLogin, refreshTicker)
+
+  EventManager:On(E.Wow.BagUpdate, refreshTicker)
+  EventManager:On(E.Wow.BagUpdateDelayed, refreshTicker)
 
   EventManager:On(E.BagsUpdated, function(allItemsCached)
-    -- If not all cached, start a new ticker to try again.
-    if not allItemsCached then
-      if ticker then ticker:Cancel() end
-      ticker = C_Timer.NewTicker(0.25, updateCache, 1)
-    end
+    if not allItemsCached then refreshTicker() end
   end)
 end
 
@@ -141,17 +153,25 @@ function Items:GetItems(items)
 end
 
 function Items:IsBagSlotEmpty(bag, slot)
-  return GetContainerItemID(bag, slot) == nil
+  return Container.GetContainerItemID(bag, slot) == nil
 end
 
 function Items:IsItemStillInBags(item)
-  local _, quantity, _, _, _, _, _, _, _, id = GetContainerItemInfo(item.bag, item.slot)
-  return item.id == id and item.quantity == quantity
+  return item.id == Container.GetContainerItemID(item.bag, item.slot)
 end
 
 function Items:IsItemLocked(item)
-  local locked = select(3, GetContainerItemInfo(item.bag, item.slot))
-  return locked
+  self.location:SetBagAndSlot(item.bag, item.slot)
+  local success, isLocked = pcall(C_Item.IsLocked, self.location)
+  if success then return isLocked end
+  return true
+end
+
+function Items:IsItemBound(item)
+  self.location:SetBagAndSlot(item.bag, item.slot)
+  local success, isBound = pcall(C_Item.IsBound, self.location)
+  if success then return isBound end
+  return false
 end
 
 function Items:IsItemSellable(item)
@@ -171,7 +191,7 @@ function Items:IsItemDestroyable(item)
 end
 
 function Items:IsItemRefundable(item)
-  local refundTimeRemaining = select(3, GetContainerItemPurchaseInfo(item.bag, item.slot))
+  local refundTimeRemaining = select(3, Container.GetContainerItemPurchaseInfo(item.bag, item.slot, false))
   return refundTimeRemaining and refundTimeRemaining > 0
 end
 
@@ -202,61 +222,12 @@ do -- Items:IsItemEquipment()
 end
 
 function Items:IsItemSuitable(item)
+  if item.invType == "INVTYPE_CLOAK" then return true end
   return self.suitable[item.classId] and self.suitable[item.classId][item.subclassId]
 end
 
-do -- Items:GetAverageEquippedItemLevel()
-  local slotIds = {
-    INVSLOT_HEAD,
-    INVSLOT_NECK,
-    INVSLOT_SHOULDER,
-    INVSLOT_BACK,
-    INVSLOT_CHEST,
-    -- INVSLOT_BODY,
-    -- INVSLOT_TABARD,
-    INVSLOT_WRIST,
-
-    INVSLOT_MAINHAND,
-    INVSLOT_OFFHAND,
-    -- INVSLOT_RANGED,
-    -- INVSLOT_AMMO,
-
-    INVSLOT_HAND,
-    INVSLOT_WAIST,
-    INVSLOT_LEGS,
-    INVSLOT_FEET,
-    INVSLOT_FINGER1,
-    INVSLOT_FINGER2,
-    INVSLOT_TRINKET1,
-    INVSLOT_TRINKET2,
-  }
-
-  if Addon.IS_CLASSIC then
-    -- slotIds[#slotIds + 1] = INVSLOT_AMMO
-    slotIds[#slotIds + 1] = INVSLOT_RANGED
-  end
-
-  function Items:GetAverageEquippedItemLevel()
-    if Addon.IS_RETAIL then
-      local _, averageEquippedItemLevel = GetAverageItemLevel()
-      return math.floor(averageEquippedItemLevel)
-    end
-
-    local sumItemLevel = 0
-
-    -- Iterate all equipped items.
-    for _, slotId in pairs(slotIds) do
-      local link = GetInventoryItemLink("player", slotId)
-      if link then
-        local itemLevel = GetDetailedItemLevelInfo(link)
-        if itemLevel then
-          sumItemLevel = sumItemLevel + itemLevel
-        end
-      end
-    end
-
-    return math.floor(sumItemLevel / #slotIds)
-  end
+function Items:IsArtifactRelic(item)
+  return item.classId == Enum.ItemClass.Gem and item.subclassId == Enum.ItemGemSubclass.Artifactrelic
 end
 
 -- ============================================================================

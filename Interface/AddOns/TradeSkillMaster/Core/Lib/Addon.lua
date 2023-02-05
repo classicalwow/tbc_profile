@@ -4,7 +4,8 @@
 --    All Rights Reserved - Detailed license information included with addon.     --
 -- ------------------------------------------------------------------------------ --
 
-local TSM_NAME, TSM = ...
+local ADDON_NAME = select(1, ...)
+local TSM = select(2, ...) ---@type TSM
 local Analytics = TSM.Include("Util.Analytics")
 local Event = TSM.Include("Util.Event")
 local Log = TSM.Include("Util.Log")
@@ -147,18 +148,21 @@ end
 -- AddonPackage Class
 -- ============================================================================
 
-local AddonPackage = LibTSMClass.DefineClass("AddonPackage")
+local AddonPackage = LibTSMClass.DefineClass("AddonPackage") ---@class AddonPackage
 
-function AddonPackage.__init(self, name)
+function AddonPackage:__init(name)
 	self.name = name
 	tinsert(private.initializeQueue, self)
 end
 
-function AddonPackage.__tostring(self)
+function AddonPackage:__tostring()
 	return self.name
 end
 
-function AddonPackage.NewPackage(self, name)
+---Creates a new application-level module.
+---@param name string The name of the module
+---@return AddonPackage
+function AddonPackage:NewPackage(name)
 	local package = AddonPackage(name)
 	assert(not self[name])
 	self[name] = package
@@ -171,11 +175,7 @@ end
 -- Addon Class
 -- ============================================================================
 
-local Addon = LibTSMClass.DefineClass("Addon", AddonPackage)
-
-function Addon.__init(self, name)
-	self.__super:__init(name)
-end
+local Addon = LibTSMClass.DefineClass("Addon", AddonPackage) ---@class Addon: AddonPackage
 
 
 
@@ -184,7 +184,7 @@ end
 -- ============================================================================
 
 do
-	LibTSMClass.ConstructWithTable(TSM, Addon, TSM_NAME)
+	LibTSMClass.ConstructWithTable(TSM, Addon, ADDON_NAME)
 end
 
 

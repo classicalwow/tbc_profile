@@ -4,9 +4,11 @@
 --    All Rights Reserved - Detailed license information included with addon.     --
 -- ------------------------------------------------------------------------------ --
 
-local _, TSM = ...
-local AuctionHouseWrapper = TSM.Init("Service.AuctionHouseWrapper")
+local TSM = select(2, ...) ---@type TSM
+local AuctionHouseWrapper = TSM.Init("Service.AuctionHouseWrapper") ---@class Service.AuctionHouseWrapper
+local Environment = TSM.Include("Environment")
 local LibTSMClass = TSM.Include("LibTSMClass")
+local Container = TSM.Include("Util.Container")
 local Log = TSM.Include("Util.Log")
 local Delay = TSM.Include("Util.Delay")
 local Event = TSM.Include("Util.Event")
@@ -16,6 +18,7 @@ local Vararg = TSM.Include("Util.Vararg")
 local Analytics = TSM.Include("Util.Analytics")
 local Math = TSM.Include("Util.Math")
 local Debug = TSM.Include("Util.Debug")
+local DefaultUI = TSM.Include("Service.DefaultUI")
 local APIWrapper = LibTSMClass.DefineClass("APIWrapper")
 local private = {
 	wrappers = {},
@@ -24,14 +27,15 @@ local private = {
 	sortsPartsTemp = {},
 	itemKeyPartsTemp = {},
 	searchQueryAPITimes = {},
-	isAHOpen = false,
 	lastResponseReceived = 0,
 	hookedTime = {},
 	lastAuctionCanceledAuctionId = nil,
 	lastAuctionCanceledTime = 0,
 	auctionIdUpdateCallbacks = {},
+	canSendAuctionQueryTimer = nil,
 	canSendAuctionQueryValue = true,
 	canSendAuctionQueryCallbacks = {},
+	analyticsRegionRealm = nil,
 }
 local API_TIMEOUT = 5
 local GET_ALL_TIMEOUT = 30
@@ -50,20 +54,10 @@ local SILENT_EVENTS = {
 }
 local GENERIC_EVENTS = {
 	CHAT_MSG_SYSTEM = 1,
-	UI_ERROR_MESSAGE = TSM.IsWowClassic() and 1 or 2,
+	UI_ERROR_MESSAGE = Environment.IsRetail() and 2 or 1,
 }
 local GENERIC_EVENT_SEP = "/"
-local DUMMY_BROWSE_QUERY = {
-	-- If you work for Blizzard and are trying to figure out why we are doing this, Sapu would love to talk to you
-	-- in Discord to get this bug fixed so we can remove this ugly workaround. <3
-	searchString = "WORKAROUND_FOR_9_2_7_BUG",
-	minLevel = 1000,
-	maxLevel = 1000,
-	sorts = {},
-	filters = {},
-	itemClassFilters = {},
-}
-local API_EVENT_INFO = TSM.IsWowClassic() and
+local API_EVENT_INFO = not Environment.HasFeature(Environment.FEATURES.C_AUCTION_HOUSE) and
 	{ -- Classic
 		QueryAuctionItems = {
 			AUCTION_ITEM_LIST_UPDATE = { result = true },
@@ -202,17 +196,14 @@ local API_EVENT_INFO = TSM.IsWowClassic() and
 -- ============================================================================
 
 AuctionHouseWrapper:OnModuleLoad(function()
-	Event.Register("AUCTION_HOUSE_SHOW", private.AuctionHouseShowHandler)
-	Event.Register("AUCTION_HOUSE_CLOSED", private.AuctionHouseClosedHandler)
+	DefaultUI.RegisterAuctionHouseVisibleCallback(private.AuctionHouseClosed, false)
 
 	-- setup wrappers
 	for apiName in pairs(API_EVENT_INFO) do
 		private.wrappers[apiName] = APIWrapper(apiName)
 	end
 
-	if TSM.IsWowClassic() then
-		Delay.AfterTime("CHECK_CAN_SEND_AUCTION_QUERY", 0.1, private.CheckCanSendAuctionQuery, 0.1)
-	else
+	if Environment.HasFeature(Environment.FEATURES.C_AUCTION_HOUSE) then
 		-- extra hooks to track search query calls since they are limited
 		hooksecurefunc(C_AuctionHouse, "SendSearchQuery", function()
 			tinsert(private.searchQueryAPITimes, GetTime())
@@ -234,6 +225,9 @@ AuctionHouseWrapper:OnModuleLoad(function()
 		Event.Register("AUCTION_HOUSE_THROTTLED_MESSAGE_QUEUED", private.UnusedEventHandler)
 		Event.Register("AUCTION_HOUSE_THROTTLED_MESSAGE_SENT", private.UnusedEventHandler)
 		Event.Register("AUCTION_HOUSE_THROTTLED_SYSTEM_READY", private.UnusedEventHandler)
+	else
+		private.canSendAuctionQueryTimer = Delay.CreateTimer("CHECK_CAN_SEND_AUCTION_QUERY", private.CheckCanSendAuctionQuery)
+		private.canSendAuctionQueryTimer:RunForTime(0.1)
 	end
 end)
 
@@ -243,12 +237,12 @@ end)
 -- Module Functions
 -- ============================================================================
 
-function AuctionHouseWrapper.RegisterAuctionIdUpdateCallback(callback)
-	tinsert(private.auctionIdUpdateCallbacks, callback)
+function AuctionHouseWrapper.SetAnalyticsRegionRealm(regionRealm)
+	private.analyticsRegionRealm = regionRealm
 end
 
-function AuctionHouseWrapper.IsOpen()
-	return private.isAHOpen
+function AuctionHouseWrapper.RegisterAuctionIdUpdateCallback(callback)
+	tinsert(private.auctionIdUpdateCallbacks, callback)
 end
 
 function AuctionHouseWrapper.RegisterCanSendAuctionQueryCallback(callback)
@@ -269,7 +263,7 @@ function AuctionHouseWrapper.GetAndResetTotalHookedTime()
 end
 
 function AuctionHouseWrapper.SendBrowseQuery(query)
-	assert(not TSM.IsWowClassic())
+	assert(Environment.HasFeature(Environment.FEATURES.C_AUCTION_HOUSE))
 	if not private.CheckAllIdle() then
 		return
 	end
@@ -277,7 +271,7 @@ function AuctionHouseWrapper.SendBrowseQuery(query)
 end
 
 function AuctionHouseWrapper.RequestMoreBrowseResults()
-	assert(not TSM.IsWowClassic())
+	assert(Environment.HasFeature(Environment.FEATURES.C_AUCTION_HOUSE))
 	if not private.CheckAllIdle() then
 		return
 	end
@@ -285,7 +279,7 @@ function AuctionHouseWrapper.RequestMoreBrowseResults()
 end
 
 function AuctionHouseWrapper.SendSearchQuery(itemKey, isSell)
-	assert(not TSM.IsWowClassic())
+	assert(Environment.HasFeature(Environment.FEATURES.C_AUCTION_HOUSE))
 	if not private.CheckAllIdle() then
 		return
 	end
@@ -309,12 +303,8 @@ function AuctionHouseWrapper.SendSearchQuery(itemKey, isSell)
 	end
 end
 
-function AuctionHouseWrapper.ResetSellerCache()
-	return AuctionHouseWrapper.SendBrowseQuery(DUMMY_BROWSE_QUERY)
-end
-
 function AuctionHouseWrapper.RequestMoreCommoditySearchResults(itemId)
-	assert(not TSM.IsWowClassic())
+	assert(Environment.HasFeature(Environment.FEATURES.C_AUCTION_HOUSE))
 	if not private.CheckAllIdle() then
 		return
 	end
@@ -322,7 +312,7 @@ function AuctionHouseWrapper.RequestMoreCommoditySearchResults(itemId)
 end
 
 function AuctionHouseWrapper.RequestMoreItemSearchResults(itemKey)
-	assert(not TSM.IsWowClassic())
+	assert(Environment.HasFeature(Environment.FEATURES.C_AUCTION_HOUSE))
 	if not private.CheckAllIdle() then
 		return
 	end
@@ -330,7 +320,7 @@ function AuctionHouseWrapper.RequestMoreItemSearchResults(itemKey)
 end
 
 function AuctionHouseWrapper.QueryOwnedAuctions(sorts)
-	assert(not TSM.IsWowClassic())
+	assert(Environment.HasFeature(Environment.FEATURES.C_AUCTION_HOUSE))
 	if not private.CheckAllIdle() then
 		return
 	end
@@ -338,7 +328,7 @@ function AuctionHouseWrapper.QueryOwnedAuctions(sorts)
 end
 
 function AuctionHouseWrapper.CancelAuction(auctionId)
-	if not TSM.IsWowClassic() then
+	if Environment.HasFeature(Environment.FEATURES.C_AUCTION_HOUSE) then
 		-- if QueryOwnedAuctions is pending, just cancel it
 		private.wrappers.QueryOwnedAuctions:CancelIfPending()
 	end
@@ -349,7 +339,7 @@ function AuctionHouseWrapper.CancelAuction(auctionId)
 end
 
 function AuctionHouseWrapper.StartCommoditiesPurchase(itemId, quantity, itemBuyout)
-	assert(not TSM.IsWowClassic())
+	assert(Environment.HasFeature(Environment.FEATURES.C_AUCTION_HOUSE))
 	if not private.CheckAllIdle() then
 		return
 	end
@@ -357,7 +347,7 @@ function AuctionHouseWrapper.StartCommoditiesPurchase(itemId, quantity, itemBuyo
 end
 
 function AuctionHouseWrapper.ConfirmCommoditiesPurchase(itemId, quantity, totalBuyout)
-	assert(not TSM.IsWowClassic())
+	assert(Environment.HasFeature(Environment.FEATURES.C_AUCTION_HOUSE))
 	if not private.CheckAllIdle() then
 		return
 	end
@@ -368,22 +358,22 @@ function AuctionHouseWrapper.PlaceBid(auctionId, bidBuyout)
 	if not private.CheckAllIdle() then
 		return
 	end
-	if TSM.IsWowClassic() then
-		return private.wrappers.PlaceAuctionBid:Start("list", auctionId, bidBuyout)
-	else
+	if Environment.HasFeature(Environment.FEATURES.C_AUCTION_HOUSE) then
 		return private.wrappers.PlaceBid:Start(auctionId, bidBuyout)
+	else
+		return private.wrappers.PlaceAuctionBid:Start("list", auctionId, bidBuyout)
 	end
 end
 
 function AuctionHouseWrapper.PostAuction(bag, slot, bid, buyout, postTime, stackSize, quantity)
-	assert(TSM.IsWowClassic())
+	assert(not Environment.HasFeature(Environment.FEATURES.C_AUCTION_HOUSE))
 	if not private.CheckAllIdle() then
 		return
 	end
 	-- need to set the duration in the default UI to avoid Blizzard errors
 	AuctionFrameAuctions.duration = postTime
 	ClearCursor()
-	PickupContainerItem(bag, slot)
+	Container.PickupItem(bag, slot)
 	ClickAuctionSellItemButton(AuctionsItemButton, "LeftButton")
 	local result = private.wrappers.PostAuction:Start(bid, buyout, postTime, stackSize, quantity)
 	ClearCursor()
@@ -391,7 +381,7 @@ function AuctionHouseWrapper.PostAuction(bag, slot, bid, buyout, postTime, stack
 end
 
 function AuctionHouseWrapper.PostItem(itemLocation, postTime, stackSize, bid, buyout)
-	assert(not TSM.IsWowClassic())
+	assert(Environment.HasFeature(Environment.FEATURES.C_AUCTION_HOUSE))
 	if not private.CheckAllIdle() then
 		return
 	end
@@ -399,7 +389,7 @@ function AuctionHouseWrapper.PostItem(itemLocation, postTime, stackSize, bid, bu
 end
 
 function AuctionHouseWrapper.PostCommodity(itemLocation, postTime, stackSize, itemBuyout)
-	assert(not TSM.IsWowClassic())
+	assert(Environment.HasFeature(Environment.FEATURES.C_AUCTION_HOUSE))
 	if not private.CheckAllIdle() then
 		return
 	end
@@ -407,12 +397,28 @@ function AuctionHouseWrapper.PostCommodity(itemLocation, postTime, stackSize, it
 end
 
 function AuctionHouseWrapper.QueryAuctionItems(name, minLevel, maxLevel, page, usable, quality, getAll, exact, filterData)
-	assert(TSM.IsWowClassic())
+	assert(not Environment.HasFeature(Environment.FEATURES.C_AUCTION_HOUSE))
 	local canSendQuery, canSendGetAll = CanSendAuctionQuery()
 	if not canSendQuery or (getAll and not canSendGetAll) or not private.CheckAllIdle() then
 		return
 	end
 	return private.wrappers.QueryAuctionItems:Start(name, minLevel, maxLevel, page, usable, quality, getAll, exact, filterData)
+end
+
+function AuctionHouseWrapper.GetNumAuctions()
+	assert(not Environment.HasFeature(Environment.FEATURES.C_AUCTION_HOUSE))
+	local numAuctions = GetNumAuctionItems("list")
+	return numAuctions
+end
+
+function AuctionHouseWrapper.GetNumPages()
+	assert(not Environment.HasFeature(Environment.FEATURES.C_AUCTION_HOUSE))
+	local numAuctions, totalNumAuctions = GetNumAuctionItems("list")
+	if numAuctions == 0 then
+		-- Sometimes the AH refuses to give more results, so don't keep scanning
+		totalNumAuctions = 0
+	end
+	return ceil(totalNumAuctions / NUM_AUCTION_ITEMS_PER_PAGE)
 end
 
 
@@ -435,13 +441,13 @@ function APIWrapper.__init(self, name)
 			self._state = "IDLE"
 		end
 	end)
-	self._timeoutWrapper = function()
+	self._timeoutTimer = Delay.CreateTimer("AH_API_TIMEOUT_"..name, function()
 		Log.Err("API timed out: %s(%s)", self._name, private.ArgsToStr(unpack(self._args)))
 		return self:_Done(false)
-	end
+	end)
 
 	-- hook the API
-	hooksecurefunc(TSM.IsWowClassic() and _G or C_AuctionHouse, self._name, function(...)
+	hooksecurefunc(Environment.HasFeature(Environment.FEATURES.C_AUCTION_HOUSE) and C_AuctionHouse or _G, self._name, function(...)
 		Log.Info("%s(%s)", self._name, private.ArgsToStr(...))
 		if self:_IsPending() and select("#", ...) == 0 then
 			return
@@ -489,7 +495,7 @@ function APIWrapper._IsPending(self)
 end
 
 function APIWrapper._CallAPI(self, ...)
-	return (TSM.IsWowClassic() and _G or C_AuctionHouse)[self._name](...)
+	return (Environment.HasFeature(Environment.FEATURES.C_AUCTION_HOUSE) and C_AuctionHouse or _G)[self._name](...)
 end
 
 function APIWrapper._HandleAPICall(self, ...)
@@ -505,14 +511,14 @@ function APIWrapper._HandleAPICall(self, ...)
 	end
 	Vararg.IntoTable(self._args, ...)
 	local timeout = nil
-	if not private.isAHOpen then
+	if not DefaultUI.IsAuctionHouseVisible() then
 		timeout = 0
 	elseif self._name == "QueryAuctionItems" and select(7, ...) then
 		timeout = GET_ALL_TIMEOUT
 	else
 		timeout = API_TIMEOUT
 	end
-	Delay.AfterTime(self._name.."_TIMEOUT", timeout, self._timeoutWrapper)
+	self._timeoutTimer:RunForTime(timeout)
 	return true
 end
 
@@ -538,8 +544,8 @@ function APIWrapper._ValidateEvent(self, eventName, ...)
 	end
 	assert(info)
 	if info.timeoutChange then
-		Delay.Cancel(self._name.."_TIMEOUT")
-		Delay.AfterTime(self._name.."_TIMEOUT", info.timeoutChange, self._timeoutWrapper)
+		self._timeoutTimer:Cancel()
+		self._timeoutTimer:RunForTime(info.timeoutChange)
 		return false
 	end
 	local eventIsValid, result = true, nil
@@ -588,10 +594,10 @@ function APIWrapper._Done(self, result)
 	self._hookAddon = nil
 	local totalTime = Math.Round((GetTime() - (self._callTime or GetTime())) * 1000)
 	self._callTime = nil
-	Delay.Cancel(self._name.."_TIMEOUT")
+	self._timeoutTimer:Cancel()
 	if self._state == "PENDING_REQUESTED" then
 		if totalTime > 0 then
-			Analytics.Action("AH_API_TIME", private.GetAnalyticsRegionRealm(), self._name, result and totalTime or -1)
+			Analytics.Action("AH_API_TIME", private.analyticsRegionRealm, self._name, result and totalTime or -1)
 		end
 		self._state = "DONE"
 		-- need to do this last as it might trigger another API call or OnCleanup on the future
@@ -612,12 +618,7 @@ end
 -- Private Helper Functions
 -- ============================================================================
 
-function private.AuctionHouseShowHandler()
-	private.isAHOpen = true
-end
-
-function private.AuctionHouseClosedHandler()
-	private.isAHOpen = false
+function private.AuctionHouseClosed()
 	for _, wrapper in pairs(private.wrappers) do
 		wrapper:CancelIfPending()
 	end
@@ -680,7 +681,7 @@ function private.ArgToStr(arg)
 			if type(arg[1]) == "table" and arg[1].sortOrder then
 				return format("{sorts=%s}", private.SortsToStr(arg))
 			end
-			if TSM.IsWowClassic() and #arg == 1 and arg[1].classID then
+			if not Environment.HasFeature(Environment.FEATURES.C_AUCTION_HOUSE) and #arg == 1 and arg[1].classID then
 				return format("{classID=%s, subClassID=%s, inventoryType=%s}", tostring(arg[1].classID), tostring(arg[1].subClassID), tostring(arg[1].inventoryType))
 			end
 			return format("{<%d items>}", count)
@@ -694,8 +695,9 @@ end
 
 function private.ArgsToStr(...)
 	assert(#private.argsTemp == 0)
-	for _, arg in Vararg.Iterator(...) do
-		tinsert(private.argsTemp, private.ArgToStr(arg))
+	Vararg.IntoTable(private.argsTemp, ...)
+	for i = 1, #private.argsTemp do
+		private.argsTemp[i] = private.ArgToStr(private.argsTemp[i])
 	end
 	local result = table.concat(private.argsTemp, ",")
 	wipe(private.argsTemp)
@@ -723,7 +725,7 @@ function private.EventHandler(eventName, ...)
 		-- log an analytics event for "Internal Auction Error" messages
 		for apiName, wrapper in pairs(private.wrappers) do
 			if not wrapper:IsIdle() then
-				Analytics.Action("AH_INTERNAL_ERROR", private.GetAnalyticsRegionRealm(), apiName)
+				Analytics.Action("AH_INTERNAL_ERROR", private.analyticsRegionRealm, apiName)
 				break
 			end
 		end
@@ -796,12 +798,9 @@ function private.ItemSearchResultsUpdated(_, itemKey, auctionId)
 	end
 end
 
-function private.GetAnalyticsRegionRealm()
-	return TSM.GetRegion().."-"..gsub(GetRealmName(), "\226", "'")
-end
-
 function private.CheckCanSendAuctionQuery()
-	assert(TSM.IsWowClassic())
+	assert(not Environment.HasFeature(Environment.FEATURES.C_AUCTION_HOUSE))
+	private.canSendAuctionQueryTimer:RunForTime(0.1)
 	local value = CanSendAuctionQuery() and true or false
 	if value ~= private.canSendAuctionQueryValue then
 		private.canSendAuctionQueryValue = value

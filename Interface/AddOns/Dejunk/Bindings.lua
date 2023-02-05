@@ -1,17 +1,15 @@
 local ADDON_NAME, Addon = ...
-local Colors = Addon.Colors
-local Commands = Addon.Commands
-local L = Addon.Locale
-local Lists = Addon.Lists
-
-local currentItemId = nil
+local Colors = Addon:GetModule("Colors")
+local Commands = Addon:GetModule("Commands")
+local L = Addon:GetModule("Locale")
+local Lists = Addon:GetModule("Lists")
 
 -- ============================================================================
 -- Binding Strings
 -- ============================================================================
 
 -- Category.
-BINDING_CATEGORY_DEJUNK = Colors.Blue(ADDON_NAME)
+BINDING_CATEGORY_DEJUNK = "|cFF4FAFE3Dejunk|r"
 
 -- Headers.
 BINDING_HEADER_DEJUNK_HEADER_GENERAL = L.GENERAL
@@ -42,26 +40,17 @@ DejunkBindings_DestroyNextItem = Commands.destroy
 DejunkBindings_OpenLootables = Commands.loot
 
 function DejunkBindings_AddToList(listKey)
-  if not currentItemId then return end
-  Lists[listKey]:Add(currentItemId)
+  local name, link = GameTooltip:GetItem()
+  if name and link then
+    local id = GetItemInfoFromHyperlink(link)
+    Lists[listKey]:Add(id)
+  end
 end
 
 function DejunkBindings_RemoveFromList(listKey)
-  if not currentItemId then return end
-  local list = Lists[listKey]
-  list:Remove(currentItemId)
+  local name, link = GameTooltip:GetItem()
+  if name and link then
+    local id = GetItemInfoFromHyperlink(link)
+    Lists[listKey]:Remove(id)
+  end
 end
-
--- ============================================================================
--- Item Tooltip Hook
--- ============================================================================
-
-GameTooltip:HookScript("OnTooltipSetItem", function(self)
-  local link = select(2, self:GetItem())
-  if not link then return end
-  currentItemId = GetItemInfoFromHyperlink(link)
-end)
-
-GameTooltip:HookScript("OnTooltipCleared", function(self)
-  currentItemId = nil
-end)

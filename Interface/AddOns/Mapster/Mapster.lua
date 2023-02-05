@@ -9,6 +9,7 @@ local LibWindow = LibStub("LibWindow-1.1")
 local L = LibStub("AceLocale-3.0"):GetLocale("Mapster")
 
 local WoWClassic = (WOW_PROJECT_ID ~= WOW_PROJECT_MAINLINE)
+local WoWRetail = (WOW_PROJECT_ID == WOW_PROJECT_MAINLINE)
 
 local defaults = {
 	profile = {
@@ -50,11 +51,30 @@ function Mapster:OnInitialize()
 	self:SetupOptions()
 end
 
+local function purgeKey(t, k)
+	t[k] = nil
+	local c = 42
+	repeat
+		if t[c] == nil then
+			t[c] = nil
+		end
+		c = c + 1
+	until issecurevariable(t, k)
+end
+
+local function FaderOnUpdate(frame, elapsed)
+	Mapster:WorldMapFrameOnUpdate(elapsed)
+end
+
+local FaderFrame = CreateFrame("Frame", nil, WorldMapFrame)
+FaderFrame:Hide()
+FaderFrame:SetScript("OnUpdate", FaderOnUpdate)
+
 function Mapster:OnEnable()
 	LibWindow.RegisterConfig(WorldMapFrame, db)
 
 	-- remove from UI panel system
-	UIPanelWindows["WorldMapFrame"] = nil
+	purgeKey(UIPanelWindows, "WorldMapFrame")
 	WorldMapFrame:SetAttribute("UIPanelLayout-area", nil)
 	WorldMapFrame:SetAttribute("UIPanelLayout-enabled", false)
 
@@ -70,7 +90,7 @@ function Mapster:OnEnable()
 	end
 
 	-- hook Show events for fading
-	self:HookScript(WorldMapFrame, "OnShow", "WorldMapFrame_OnShow")
+	self:SecureHookScript(WorldMapFrame, "OnShow", "WorldMapFrame_OnShow")
 
 	-- hooks for scale
 	if HelpPlate_Show then
@@ -78,7 +98,9 @@ function Mapster:OnEnable()
 		self:SecureHook("HelpPlate_Hide")
 		self:SecureHook("HelpPlate_Button_AnimGroup_Show_OnFinished")
 	end
-	self:RawHook(WorldMapFrame.ScrollContainer, "GetCursorPosition", "WorldMapFrame_ScrollContainer_GetCursorPosition", true)
+	if not WoWRetail then
+		self:RawHook(WorldMapFrame.ScrollContainer, "GetCursorPosition", "WorldMapFrame_ScrollContainer_GetCursorPosition", true)
+	end
 
 	-- hook into EJ icons
 	self:SecureHook(EncounterJournalPinMixin, "OnAcquired", "EncounterJournalPin_OnAcquired")
@@ -168,6 +190,21 @@ function Mapster:Refresh()
 	end
 end
 
+function Mapster:SetFadeAlpha()
+	if GetCVarBool("mapFade") then
+		FaderFrame:Show()
+	else
+		FaderFrame:Hide()
+	end
+end
+
+function Mapster:WorldMapFrameOnUpdate(elapsed)
+	local fadeOut = IsPlayerMoving() and (GetCVarBool("mapFade") and not WorldMapFrame:IsMouseOver())
+	local alpha = DeltaLerp(WorldMapFrame:GetAlpha(), fadeOut and db.fadealpha or 1.0, 0.2, elapsed)
+	if alpha >= 0.98 then alpha = 1.0 end
+	WorldMapFrame:SetAlpha(alpha)
+end
+
 function WorldMapFrameStartMoving(frame)
 	if not WorldMapFrame:IsMaximized() then
 		WorldMapFrame:StartMoving()
@@ -187,13 +224,8 @@ function Mapster:SetPosition()
 	end
 end
 
-function Mapster:SetFadeAlpha()
-	PlayerMovementFrameFader.RemoveFrame(WorldMapFrame)
-	PlayerMovementFrameFader.AddDeferredFrame(WorldMapFrame, db.fadealpha, 1.0, .5, function() return GetCVarBool("mapFade") and not WorldMapFrame:IsMouseOver() end)
-end
-
 function Mapster:WorldMapFrame_OnShow()
-	self:SetFadeAlpha()
+	PlayerMovementFrameFader.RemoveFrame(WorldMapFrame)
 end
 
 function Mapster:SetScale(force)
@@ -205,11 +237,9 @@ function Mapster:SetScale(force)
 end
 
 function Mapster:WorldMapFrame_ScrollContainer_GetCursorPosition()
-	local x,y = self.hooks[WorldMapFrame.ScrollContainer].GetCursorPosition(WorldMapFrame.ScrollContainer)
-	local s = WorldMapFrame:GetScale()
-	if WoWClassic then
-		s = s * UIParent:GetEffectiveScale()
-	end
+	-- intentionally not calling the original function to avoid double-hooks with addons trying to fix the same thing
+	local x,y = GetCursorPosition()
+	local s = WorldMapFrame:GetEffectiveScale()
 	return x / s, y / s
 end
 

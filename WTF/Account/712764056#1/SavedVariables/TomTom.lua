@@ -71,10 +71,18 @@ TomTomWaypointsM = {
 					["from"] = "Questie",
 					["callbacks"] = {
 						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["minimap"] = true,
@@ -91,7 +99,8 @@ TomTomWaypointsM = {
 					["arrivaldistance"] = 15,
 					["crazy"] = true,
 					["persistent"] = true,
-					["minimap"] = true,
+					["desc"] = "奈瑟斯塔兹",
+					["silent"] = true,
 					["cleardistance"] = 10,
 					["title"] = "奈瑟斯塔兹",
 					["from"] = "Questie",
@@ -103,6 +112,7 @@ TomTomWaypointsM = {
 						["minimap"] = {
 						},
 					},
+					["minimap"] = true,
 					["world"] = true,
 				},
 			},

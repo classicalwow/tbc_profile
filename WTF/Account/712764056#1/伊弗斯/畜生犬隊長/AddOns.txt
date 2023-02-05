@@ -185,3 +185,5 @@ SpellReplay: disabled
 TradeShout: disabled
 FFLU: disabled
 HeyboxPlayerInfo: disabled
+ElvUI_ExtraDataTexts: disabled
+ElvUI_SecondsToBuff: disabled

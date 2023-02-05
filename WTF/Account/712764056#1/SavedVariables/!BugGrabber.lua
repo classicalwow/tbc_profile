@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+	["session"] = 1258,
 	["lastSanitation"] = 3,
-	["session"] = 1247,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\TomTom\\TomTom_Config.lua:40: attempt to call method 'EnableDisablePOIIntegration' (a nil value)",
@@ -74,8 +74,8 @@ BugGrabberDB = {
 		}, -- [9]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\MeetingHorn\\Libs\\tdGUI\\Libs\\LibClass-2.0-10\\LibClass-2.0.xml",
-			["time"] = "2021/06/08 20:55:27",
 			["session"] = 47,
+			["time"] = "2021/06/08 20:55:27",
 			["counter"] = 91,
 		}, -- [10]
 		{
@@ -189,26 +189,26 @@ BugGrabberDB = {
 		}, -- [24]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\alaTalentEmu\\libs\\libs.xml",
-			["session"] = 304,
 			["time"] = "2021/08/08 18:21:56",
+			["session"] = 304,
 			["counter"] = 3,
 		}, -- [25]
 		{
 			["message"] = "Error loading Interface\\AddOns\\ClassicCodex-patch\\objects-questie-tbc.lua",
-			["session"] = 304,
 			["time"] = "2021/08/08 18:21:56",
+			["session"] = 304,
 			["counter"] = 3,
 		}, -- [26]
 		{
 			["message"] = "Error loading Interface\\AddOns\\ClassicCodex-patch\\objects-loc-tbc.lua",
-			["session"] = 304,
 			["time"] = "2021/08/08 18:21:56",
+			["session"] = 304,
 			["counter"] = 3,
 		}, -- [27]
 		{
 			["message"] = "Error loading Interface\\AddOns\\Questie\\Localization\\Translations\\Zones\\Battlegrounds-戰場.lua",
-			["session"] = 304,
 			["time"] = "2021/08/08 18:21:56",
+			["session"] = 304,
 			["counter"] = 1,
 		}, -- [28]
 		{
@@ -292,8 +292,8 @@ BugGrabberDB = {
 		}, -- [38]
 		{
 			["message"] = "Texture <unnamed>: Unable to load atlas entry QuestSharing-Padlock",
-			["time"] = "2021/08/22 00:26:04",
 			["session"] = 333,
+			["time"] = "2021/08/22 00:26:04",
 			["counter"] = 10,
 		}, -- [39]
 		{
@@ -529,14 +529,14 @@ BugGrabberDB = {
 		}, -- [68]
 		{
 			["message"] = "Error loading Interface\\AddOns\\DBM-Core\\modules\\Modules.lua",
-			["session"] = 495,
 			["time"] = "2021/10/17 14:23:42",
+			["session"] = 495,
 			["counter"] = 6,
 		}, -- [69]
 		{
 			["message"] = "Error loading Interface\\AddOns\\DBM-Core\\modules\\Icons.lua",
-			["session"] = 495,
 			["time"] = "2021/10/17 14:23:42",
+			["session"] = 495,
 			["counter"] = 6,
 		}, -- [70]
 		{
@@ -642,14 +642,14 @@ BugGrabberDB = {
 		}, -- [83]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GladiusEx\\libs\\LibCooldownTracker-1.0-10\\cooldowns_bcc_racials.lua",
-			["time"] = "2021/08/22 00:22:49",
 			["session"] = 520,
+			["time"] = "2021/08/22 00:22:49",
 			["counter"] = 470,
 		}, -- [84]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GladiusEx\\libs\\LibCooldownTracker-1.0-10\\cooldowns_bcc_items.lua",
-			["time"] = "2021/08/22 00:22:49",
 			["session"] = 520,
+			["time"] = "2021/08/22 00:22:49",
 			["counter"] = 470,
 		}, -- [85]
 		{
@@ -724,14 +724,14 @@ BugGrabberDB = {
 		}, -- [94]
 		{
 			["message"] = "Binding ALARAIDTOOL_NEWWINDOW is defined more than once in Interface\\AddOns\\TalentEmu\\Bindings.xml",
-			["session"] = 578,
 			["time"] = "2021/12/04 19:36:22",
+			["session"] = 578,
 			["counter"] = 2,
 		}, -- [95]
 		{
 			["message"] = "Binding ALARAIDTOOL_QUERY is defined more than once in Interface\\AddOns\\TalentEmu\\Bindings.xml",
-			["session"] = 578,
 			["time"] = "2021/12/04 19:36:22",
+			["session"] = 578,
 			["counter"] = 2,
 		}, -- [96]
 		{
@@ -751,14 +751,14 @@ BugGrabberDB = {
 		}, -- [98]
 		{
 			["message"] = "Binding ALARAIDTOOL_NEWWINDOW is defined more than once in Interface\\AddOns\\alaTalentEmu\\Bindings.xml",
-			["time"] = "2021/12/05 20:25:25",
 			["session"] = 608,
+			["time"] = "2021/12/05 20:25:25",
 			["counter"] = 58,
 		}, -- [99]
 		{
 			["message"] = "Binding ALARAIDTOOL_QUERY is defined more than once in Interface\\AddOns\\alaTalentEmu\\Bindings.xml",
-			["time"] = "2021/12/05 20:25:25",
 			["session"] = 608,
+			["time"] = "2021/12/05 20:25:25",
 			["counter"] = 58,
 		}, -- [100]
 		{
@@ -881,56 +881,56 @@ BugGrabberDB = {
 		}, -- [115]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-EditBox.lua",
-			["time"] = "2022/02/23 22:24:56",
 			["session"] = 677,
+			["time"] = "2022/02/23 22:24:56",
 			["counter"] = 1,
 		}, -- [116]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Heading.lua",
-			["time"] = "2022/02/23 22:24:56",
 			["session"] = 677,
+			["time"] = "2022/02/23 22:24:56",
 			["counter"] = 1,
 		}, -- [117]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Icon.lua",
-			["time"] = "2022/02/23 22:24:56",
 			["session"] = 677,
+			["time"] = "2022/02/23 22:24:56",
 			["counter"] = 1,
 		}, -- [118]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-InteractiveLabel.lua",
-			["time"] = "2022/02/23 22:24:56",
 			["session"] = 677,
+			["time"] = "2022/02/23 22:24:56",
 			["counter"] = 1,
 		}, -- [119]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Keybinding.lua",
-			["time"] = "2022/02/23 22:24:56",
 			["session"] = 677,
+			["time"] = "2022/02/23 22:24:56",
 			["counter"] = 1,
 		}, -- [120]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Label.lua",
-			["time"] = "2022/02/23 22:24:56",
 			["session"] = 677,
+			["time"] = "2022/02/23 22:24:56",
 			["counter"] = 1,
 		}, -- [121]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-MultiLineEditBox.lua",
-			["time"] = "2022/02/23 22:24:56",
 			["session"] = 677,
+			["time"] = "2022/02/23 22:24:56",
 			["counter"] = 1,
 		}, -- [122]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-Slider.lua",
-			["time"] = "2022/02/23 22:24:56",
 			["session"] = 677,
+			["time"] = "2022/02/23 22:24:56",
 			["counter"] = 1,
 		}, -- [123]
 		{
 			["message"] = "Error loading Interface\\AddOns\\BlizzMove\\Libs\\AceGUI-3.0-41\\widgets\\AceGUIWidget-ColorPicker.lua",
-			["time"] = "2022/02/23 22:24:56",
 			["session"] = 677,
+			["time"] = "2022/02/23 22:24:56",
 			["counter"] = 2,
 		}, -- [124]
 		{
@@ -1404,8 +1404,8 @@ BugGrabberDB = {
 		}, -- [184]
 		{
 			["message"] = "Error loading WTF\\Account\\712764056#1\\SavedVariables\\ArkInventory-31010.lua",
-			["session"] = 1068,
 			["time"] = "2022/12/02 21:14:42",
+			["session"] = 1068,
 			["counter"] = 2,
 		}, -- [185]
 		{
@@ -1623,92 +1623,195 @@ BugGrabberDB = {
 			["counter"] = 13905,
 		}, -- [212]
 		{
+			["message"] = "Interface/AddOns/ItemRack/ItemRack.lua:2006: Usage: SaveBindings(1||2)",
+			["time"] = "2023/02/04 13:26:02",
+			["locals"] = "(*temporary) = 0\n",
+			["stack"] = "[string \"=[C]\"]: in function `SaveBindings'\n[string \"@Interface/AddOns/ItemRack/ItemRack.lua\"]:2006: in function `SetSetBindings'\n[string \"@Interface/AddOns/ItemRack/ItemRack.lua\"]:265: in function `?'\n[string \"@Interface/AddOns/ItemRack/ItemRack.lua\"]:230: in function `OnEvent'\n[string \"*ItemRack.xml:4_OnEvent\"]:1: in function <[string \"*ItemRack.xml:4_OnEvent\"]:1>",
+			["session"] = 1248,
+			["counter"] = 1,
+		}, -- [213]
+		{
 			["message"] = "...radeSkillMaster/Core/Service/Accounting/Merchant.lua:36: hooksecurefunc(): UseContainerItem is not a function",
 			["time"] = "2023/01/31 21:49:44",
 			["locals"] = "",
 			["stack"] = "[string \"=[C]\"]: in function `hooksecurefunc'\n[string \"@Interface/AddOns/TradeSkillMaster/Core/Service/Accounting/Merchant.lua\"]:36: in function `OnInitialize'\n[string \"@Interface/AddOns/TradeSkillMaster/Core/Lib/Addon.lua\"]:36: in function `DoInitialize'\n[string \"@Interface/AddOns/TradeSkillMaster/Core/Lib/Addon.lua\"]:113: in function <Interface/AddOns/TradeSkillMaster/Core/Lib/Addon.lua:111>",
-			["session"] = 1247,
-			["counter"] = 1,
-		}, -- [213]
-		{
-			["message"] = "...rface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:396: attempt to call method 'SetMinResize' (a nil value)",
-			["time"] = "2023/01/31 21:49:47",
-			["locals"] = "(*temporary) = nil\n(*temporary) = GroupBulletinBoardFrame {\n 0 = <userdata>\n MessageFrame = GroupBulletinBoardFrame_GroupFrame {\n }\n}\n(*temporary) = 300\n(*temporary) = 170\n(*temporary) = \"attempt to call method 'SetMinResize' (a nil value)\"\nGBB = <table> {\n GetLfgList = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:125\n DUNGEONBREAK = 25\n GetDungeonNames = <function> defined @Interface/AddOns/LFGBulletinBoard/Dungeons.lua:15\n InitGroupList = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupList.Lua:175\n TAGSEARCH = \"+++\"\n TBCDUNGEONBREAK = 50\n CreateTagListLOC = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:252\n LevelRange = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:116\n InsertChat = <function> defined @Interface/AddOns/LFGBulletinBoard/Chat.lua:49\n Clear = <function> defined @Interface/AddOns/LFGBulletinBoard/RequestList.lua:307\n ParseMessage = <function> defined @Interface/AddOns/LFGBulletinBoard/RequestList.lua:625\n CreateChannelPulldown = <function> defined @Interface/AddOns/LFGBulletinBoard/Chat.lua:149\n LfgClickRequest = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:637\n TbcDungeonLevels = <table> {\n }\n EditAnnounceMessage_Changed = <function> defined @Interface/AddOns/LFGBulletinBoard/Chat.lua:131\n UpdateLfgToolNoSearch = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:222\n TbcDungeonNames = <table> {\n }\n AddGroupList = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupList.Lua:46\n LfgRequestHideTooltip = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:712\n PostTbcDungeonLevels = <table> {\n }\n LfgRequestShowTooltip = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:663\n SeasonalActiveEvents = <table> {\n }\n LfgClickDungeon = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:620\n ScrollLfgList = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:615\n searchTagsLoc = <table> {\n }\n FoldAllDungeon = <function> defined @Interface/AddOns/LFGBulletinBoard/RequestList.lua:774\n ClickFrame = <function> defined @Interface/AddOns/LFGBulletinBoard/RequestList.lua:817\n LfgUpdateList = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:479\n SaveAnchors = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:182\n GetPartyInfo = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:235\n CreateChatFrame = <function> defined @Interface/AddOns/LFGBulletinBoard/Chat.lua:3\n Split = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:56\n FriendIcon = \"Interface\\LootFrame\\toast-star\"\n Icon = \"Interface\\Icons\\spell_holy_prayerofshadowprotection\"\n OnUpdate = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:733\n OnSizeChanged = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:727\n PvpLevels = <table> {\n }\n Options = <table> {\n }\n OnLoad = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:713\n VanillDungeonNames = <table> {\n }\n Popup_Minimap = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:366\n dungeonSecondTags = <table> {\n }\n CreateTagList = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:288\n ResetWindow = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:189\n BtnRefresh = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:245\n Version = \"3.05\"\n TAGBAD = \"---\"\n BtnSettings = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:236\n BtnClose = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:232\n MinimapButton = <table> {\n }\n UpdateGroupList = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupList.Lua:78\n suffixTagsLoc = <table> {\n }\n UpdateList = <function> defined @Interface/AddOns/LFGBulletinBoard/RequestList.lua:330\n ToggleWindow = <function> defined @Interface/AddOns/LF",
-			["stack"] = "[string \"@Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua\"]:396: in function `Init'\n[string \"@Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua\"]:698: in function `?'\n[string \"@Interface/AddOns/LFGBulletinBoard/LibGPIToolBox.lua\"]:108: in function <Interface/AddOns/LFGBulletinBoard/LibGPIToolBox.lua:105>",
-			["session"] = 1247,
-			["counter"] = 1,
+			["session"] = 1249,
+			["counter"] = 3,
 		}, -- [214]
+		{
+			["message"] = "...terface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.lua:93: attempt to index global 'ArenaEnemyFrames' (a nil value)",
+			["time"] = "2023/02/04 13:25:59",
+			["locals"] = "_ = false\ninstanceType = \"none\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index global 'ArenaEnemyFrames' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.lua\"]:93: in function `ArenaEnemyFrames_UpdateVisible'\n[string \"@Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.lua\"]:241: in function <...terface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.lua:212>",
+			["session"] = 1249,
+			["counter"] = 10,
+		}, -- [215]
 		{
 			["message"] = "Interface/AddOns/WIM/Sources/Options/Options.lua:153: bad argument #2 to 'SetGradient' (Usage: self:SetGradient(orientation, minColor, maxColor))",
 			["time"] = "2023/01/31 21:49:53",
 			["locals"] = "(*temporary) = Texture {\n 0 = <userdata>\n PixelSnapDisabled = true\n}\n(*temporary) = \"VERTICAL\"\n(*temporary) = 0.171413\n(*temporary) = 0.293299\n(*temporary) = 0.381667\n(*temporary) = 0.510643\n(*temporary) = 0.615130\n(*temporary) = 0.690882\n",
 			["stack"] = "[string \"=[C]\"]: in function `SetGradient'\n[string \"@Interface/AddOns/WIM/Sources/Options/Options.lua\"]:153: in function <Interface/AddOns/WIM/Sources/Options/Options.lua:144>\n[string \"@Interface/AddOns/WIM/Sources/Options/Options.lua\"]:214: in function `UpdateCategories'\n[string \"@Interface/AddOns/WIM/Sources/Options/Options.lua\"]:99: in function <Interface/AddOns/WIM/Sources/Options/Options.lua:99>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/AddOns/WIM/Sources/Options/Options.lua\"]:327: in function `ShowOptions'\n[string \"@Interface/AddOns/AddOnSkins/Skins/AddOns/WIM.lua\"]:11: in function <Interface/AddOns/AddOnSkins/Skins/AddOns/WIM.lua:8>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/AddOnSkins/Core/Core.lua\"]:217: in function `CallSkin'\n[string \"@Interface/AddOns/AddOnSkins/Core/Core.lua\"]:311: in function `?'\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:109: in function <...ies/Core/CallbackHandler-1.0/CallbackHandler-1.0.lua:109>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:19: in function <...ies/Core/CallbackHandler-1.0/CallbackHandler-1.0.lua:15>\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:54: in function `Fire'\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceEvent-3.0-4/AceEvent-3.0.lua\"]:120: in function <...UI_Libraries/Core/Ace3/AceEvent-3.0/AceEvent-3.0.lua:119>",
-			["session"] = 1247,
-			["counter"] = 1,
-		}, -- [215]
-		{
-			["message"] = "Interface/AddOns/LFGBulletinBoard/GroupList.Lua:79: attempt to index field 'DB' (a nil value)",
-			["time"] = "2023/01/31 21:49:53",
-			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index field 'DB' (a nil value)\"\nGBB = <table> {\n GetLfgList = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:125\n DUNGEONBREAK = 25\n GetDungeonNames = <function> defined @Interface/AddOns/LFGBulletinBoard/Dungeons.lua:15\n InitGroupList = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupList.Lua:175\n TAGSEARCH = \"+++\"\n TBCDUNGEONBREAK = 50\n CreateTagListLOC = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:252\n LevelRange = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:116\n InsertChat = <function> defined @Interface/AddOns/LFGBulletinBoard/Chat.lua:49\n Clear = <function> defined @Interface/AddOns/LFGBulletinBoard/RequestList.lua:307\n ParseMessage = <function> defined @Interface/AddOns/LFGBulletinBoard/RequestList.lua:625\n CreateChannelPulldown = <function> defined @Interface/AddOns/LFGBulletinBoard/Chat.lua:149\n LfgClickRequest = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:637\n TbcDungeonLevels = <table> {\n }\n EditAnnounceMessage_Changed = <function> defined @Interface/AddOns/LFGBulletinBoard/Chat.lua:131\n UpdateLfgToolNoSearch = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:222\n TbcDungeonNames = <table> {\n }\n AddGroupList = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupList.Lua:46\n LfgRequestHideTooltip = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:712\n PostTbcDungeonLevels = <table> {\n }\n LfgRequestShowTooltip = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:663\n SeasonalActiveEvents = <table> {\n }\n LfgClickDungeon = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:620\n ScrollLfgList = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:615\n searchTagsLoc = <table> {\n }\n FoldAllDungeon = <function> defined @Interface/AddOns/LFGBulletinBoard/RequestList.lua:774\n ClickFrame = <function> defined @Interface/AddOns/LFGBulletinBoard/RequestList.lua:817\n LfgUpdateList = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:479\n SaveAnchors = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:182\n GetPartyInfo = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:235\n CreateChatFrame = <function> defined @Interface/AddOns/LFGBulletinBoard/Chat.lua:3\n Split = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:56\n FriendIcon = \"Interface\\LootFrame\\toast-star\"\n Icon = \"Interface\\Icons\\spell_holy_prayerofshadowprotection\"\n OnUpdate = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:733\n OnSizeChanged = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:727\n PvpLevels = <table> {\n }\n Options = <table> {\n }\n OnLoad = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:713\n VanillDungeonNames = <table> {\n }\n Popup_Minimap = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:366\n dungeonSecondTags = <table> {\n }\n CreateTagList = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:288\n ResetWindow = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:189\n BtnRefresh = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:245\n Version = \"3.05\"\n TAGBAD = \"---\"\n BtnSettings = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:236\n BtnClose = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:232\n MinimapButton = <table> {\n }\n UpdateGroupList = <function> defined @Interface/AddOns/LFGBullet",
-			["stack"] = "[string \"@Interface/AddOns/LFGBulletinBoard/GroupList.Lua\"]:79: in function `?'\n[string \"@Interface/AddOns/LFGBulletinBoard/LibGPIToolBox.lua\"]:108: in function <Interface/AddOns/LFGBulletinBoard/LibGPIToolBox.lua:105>",
-			["session"] = 1247,
-			["counter"] = 2,
+			["session"] = 1249,
+			["counter"] = 3,
 		}, -- [216]
-		{
-			["message"] = "Interface/AddOns/WIM/Modules/MinimapIcon.lua:216: bad argument #2 to 'SetGradient' (Usage: self:SetGradient(orientation, minColor, maxColor))",
-			["time"] = "2023/01/31 21:49:53",
-			["locals"] = "(*temporary) = Texture {\n 0 = <userdata>\n PixelSnapDisabled = true\n}\n(*temporary) = \"VERTICAL\"\n(*temporary) = 0\n(*temporary) = 0\n(*temporary) = 0\n(*temporary) = 0\n(*temporary) = 0\n(*temporary) = 0\n",
-			["stack"] = "[string \"=[C]\"]: in function `SetGradient'\n[string \"@Interface/AddOns/WIM/Modules/MinimapIcon.lua\"]:216: in function <Interface/AddOns/WIM/Modules/MinimapIcon.lua:192>",
-			["session"] = 1247,
-			["counter"] = 1,
-		}, -- [217]
 		{
 			["message"] = "...dOns/TradeSkillMaster/LibTSM/Service/BagTracking.lua:463: attempt to call global 'GetContainerNumSlots' (a nil value)",
 			["time"] = "2023/01/31 21:49:52",
 			["locals"] = "bag = 0\n(*temporary) = nil\n(*temporary) = 0\n(*temporary) = \"attempt to call global 'GetContainerNumSlots' (a nil value)\"\nprivate = <table> {\n OnCallbackQueryUpdated = <function> defined @Interface/AddOns/TradeSkillMaster/LibTSM/Service/BagTracking.lua:572\n ScanReagentBankSlot = <function> defined @Interface/AddOns/TradeSkillMaster/LibTSM/Service/BagTracking.lua:478\n callbacks = <table> {\n }\n BagUpdateDelayedHandler = <function> defined @Interface/AddOns/TradeSkillMaster/LibTSM/Service/BagTracking.lua:357\n BankSlotChangedHandler = <function> defined @Interface/AddOns/TradeSkillMaster/LibTSM/Service/BagTracking.lua:391\n settings = <table> {\n }\n bagUpdates = <table> {\n }\n quantityDB = <table> {\n }\n callbackQuery = <table> {\n }\n BankClosedHandler = <function> defined @Interface/AddOns/TradeSkillMaster/LibTSM/Service/BagTracking.lua:339\n slotDB = <table> {\n }\n ScanBagOrBank = <function> defined @Interface/AddOns/TradeSkillMaster/LibTSM/Service/BagTracking.lua:462\n UpdateQuantity = <function> defined @Interface/AddOns/TradeSkillMaster/LibTSM/Service/BagTracking.lua:599\n bankOpen = false\n ChangeBagItemTotal = <function> defined @Interface/AddOns/TradeSkillMaster/LibTSM/Service/BagTracking.lua:576\n ReagentBankSlotChangedHandler = <function> defined @Interface/AddOns/TradeSkillMaster/LibTSM/Service/BagTracking.lua:427\n DelayedBagTrackingCallback = <function> defined @Interface/AddOns/TradeSkillMaster/LibTSM/Service/BagTracking.lua:566\n BankSlotUpdateDelayed = <function> defined @Interface/AddOns/TradeSkillMaster/LibTSM/Service/BagTracking.lua:405\n RemoveExtraSlots = <function> defined @Interface/AddOns/TradeSkillMaster/LibTSM/Service/BagTracking.lua:492\n NoUsedChargesQueryFilter = <function> defined @Interface/AddOns/TradeSkillMaster/LibTSM/Service/BagTracking.lua:488\n bankSlotUpdates = <table> {\n }\n ScanBankSlot = <function> defined @Interface/AddOns/TradeSkillMaster/LibTSM/Service/BagTracking.lua:474\n BankOpenedHandler = <function> defined @Interface/AddOns/TradeSkillMaster/LibTSM/Service/BagTracking.lua:312\n ScanBagSlot = <function> defined @Interface/AddOns/TradeSkillMaster/LibTSM/Service/BagTracking.lua:505\n ReagentBankSlotUpdateDelayed = <function> defined @Interface/AddOns/TradeSkillMaster/LibTSM/Service/BagTracking.lua:437\n reagentBankSlotUpdates = <table> {\n }\n isFirstBankOpen = true\n BagUpdateHandler = <function> defined @Interface/AddOns/TradeSkillMaster/LibTSM/Service/BagTracking.lua:343\n}\n",
 			["stack"] = "[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Service/BagTracking.lua\"]:463: in function `ScanBagOrBank'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Service/BagTracking.lua\"]:363: in function `BagUpdateDelayedHandler'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Service/BagTracking.lua\"]:174: in function `gameDataLoadFunc'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Core.lua\"]:190: in function `ProcessGameDataLoad'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Core.lua\"]:235: in function <Interface/AddOns/TradeSkillMaster/LibTSM/Core.lua:217>",
-			["session"] = 1247,
-			["counter"] = 2,
-		}, -- [218]
-		{
-			["message"] = "Interface/AddOns/Blizzard_AuctionUI/Localization.lua:10: attempt to index global 'BrowseBidText' (a nil value)",
-			["time"] = "2023/01/31 21:49:53",
-			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"BOTTOMLEFT\"\n(*temporary) = \"AuctionFrameBrowse\"\n(*temporary) = \"TOPLEFT\"\n(*temporary) = 230\n(*temporary) = -56\n(*temporary) = AuctionFrameBrowse {\n 0 = <userdata>\n FilterButtons = <table> {\n }\n isSearchingThrottle = 0\n page = 0\n dotCount = 0\n}\n(*temporary) = <userdata>\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'BrowseBidText' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface/AddOns/Blizzard_AuctionUI/Localization.lua\"]:10: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface/AddOns/TradeSkillMaster/Core/UI/AuctionUI/Core.lua\"]:44: in function `pendingCallback'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/Delay.lua\"]:171: in function <...erface/AddOns/TradeSkillMaster/LibTSM/Util/Delay.lua:136>",
-			["session"] = 1247,
-			["counter"] = 1,
-		}, -- [219]
+			["session"] = 1249,
+			["counter"] = 5,
+		}, -- [217]
 		{
 			["message"] = "...erface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua:97: assertion failed!",
 			["time"] = "2023/01/31 21:49:54",
 			["locals"] = "(*temporary) = false\n",
 			["stack"] = "[string \"=[C]\"]: in function `assert'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua\"]:97: in function <...erface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua:93>",
-			["session"] = 1247,
-			["counter"] = 8,
-		}, -- [220]
+			["session"] = 1249,
+			["counter"] = 22,
+		}, -- [218]
 		{
 			["message"] = "Usage: self:SetNormalTexture(asset)",
 			["time"] = "2023/01/31 21:50:45",
 			["locals"] = "(*temporary) = \"Usage: self:SetNormalTexture(asset)\"\n",
 			["stack"] = "[string \"=[C]\"]: in function `SetNormalTexture'\n[string \"@Interface/AddOns/AddOnSkins/Skins/AddOns/ArkInventory.lua\"]:83: in function <...face/AddOns/AddOnSkins/Skins/AddOns/ArkInventory.lua:73>\n[string \"=[C]\"]: in function `Frame_Item_Update_Border'\n[string \"@Interface/AddOns/ArkInventory/Core/ArkInventory.lua\"]:9737: in function `Frame_Item_Update_Instant'\n[string \"@Interface/AddOns/ArkInventory/Core/ArkInventory.lua\"]:6840: in function `Frame_Bar_DrawItems'\n[string \"@Interface/AddOns/ArkInventory/Core/ArkInventory.lua\"]:6058: in function `Frame_Container_Draw'\n[string \"@Interface/AddOns/ArkInventory/Core/ArkInventory.lua\"]:4624: in function `Frame_Main_Draw_Threaded'\n[string \"@Interface/AddOns/ArkInventory/Core/ArkInventory.lua\"]:4508: in function <Interface/AddOns/ArkInventory/Core/ArkInventory.lua:4505>",
-			["session"] = 1247,
-			["counter"] = 3,
-		}, -- [221]
-		{
-			["message"] = "Interface/AddOns/WIM/Modules/MinimapIcon.lua:198: bad argument #2 to 'SetGradient' (Usage: self:SetGradient(orientation, minColor, maxColor))",
-			["time"] = "2023/01/31 21:49:53",
-			["locals"] = "(*temporary) = Texture {\n 0 = <userdata>\n PixelSnapDisabled = true\n}\n(*temporary) = \"VERTICAL\"\n(*temporary) = 0\n(*temporary) = 0\n(*temporary) = 0\n(*temporary) = 0\n(*temporary) = 0\n(*temporary) = 0\n",
-			["stack"] = "[string \"=[C]\"]: in function `SetGradient'\n[string \"@Interface/AddOns/WIM/Modules/MinimapIcon.lua\"]:198: in function <Interface/AddOns/WIM/Modules/MinimapIcon.lua:192>",
-			["session"] = 1247,
-			["counter"] = 327,
-		}, -- [222]
+			["session"] = 1249,
+			["counter"] = 4,
+		}, -- [219]
 		{
 			["message"] = "...ce/AddOns/TradeSkillMaster/LibTSM/Util/TempTable.lua:41: Could not acquire temp table",
 			["time"] = "2023/01/31 21:49:56",
 			["locals"] = "(*temporary) = nil\n(*temporary) = \"Could not acquire temp table\"\n",
 			["stack"] = "[string \"=[C]\"]: in function `assert'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/TempTable.lua\"]:41: in function `Acquire'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua\"]:96: in function <...erface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua:93>",
-			["session"] = 1247,
-			["counter"] = 665,
+			["session"] = 1249,
+			["counter"] = 708,
+		}, -- [220]
+		{
+			["message"] = "...eSkillMaster/LibTSM/Util/DatabaseClasses/DBTable.lua:478: assertion failed!",
+			["time"] = "2023/02/04 13:26:06",
+			["locals"] = "(*temporary) = false\n",
+			["stack"] = "[string \"=[C]\"]: in function `assert'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/DatabaseClasses/DBTable.lua\"]:478: in function <...eSkillMaster/LibTSM/Util/DatabaseClasses/DBTable.lua:477>\n[string \"=(tail call)\"]: ?\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Service/ItemInfo.lua\"]:1138: in function `pendingCallback'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/Delay.lua\"]:171: in function <...erface/AddOns/TradeSkillMaster/LibTSM/Util/Delay.lua:136>",
+			["session"] = 1249,
+			["counter"] = 520,
+		}, -- [221]
+		{
+			["message"] = "Interface/AddOns/WIM/Modules/MinimapIcon.lua:216: bad argument #2 to 'SetGradient' (Usage: self:SetGradient(orientation, minColor, maxColor))",
+			["time"] = "2023/01/31 21:49:53",
+			["locals"] = "(*temporary) = Texture {\n 0 = <userdata>\n PixelSnapDisabled = true\n}\n(*temporary) = \"VERTICAL\"\n(*temporary) = 0\n(*temporary) = 0\n(*temporary) = 0\n(*temporary) = 0\n(*temporary) = 0\n(*temporary) = 0\n",
+			["stack"] = "[string \"=[C]\"]: in function `SetGradient'\n[string \"@Interface/AddOns/WIM/Modules/MinimapIcon.lua\"]:216: in function <Interface/AddOns/WIM/Modules/MinimapIcon.lua:192>",
+			["session"] = 1251,
+			["counter"] = 3,
+		}, -- [222]
+		{
+			["message"] = "Interface/AddOns/WeakAuras/Transmission.lua:464: attempt to call field 'OpenUpdate' (a nil value)",
+			["time"] = "2023/02/04 20:00:28",
+			["locals"] = "data = <table> {\n controlledChildren = <table> {\n }\n borderBackdrop = \"Blizzard Tooltip\"\n wagoID = \"uKMqfYh2d\"\n xOffset = -33.684021\n yOffset = 8.982269\n anchorPoint = \"CENTER\"\n borderColor = <table> {\n }\n url = \"https://wago.io/uKMqfYh2d/15\"\n actions = <table> {\n }\n triggers = <table> {\n }\n internalVersion = 64\n animation = <table> {\n }\n version = 15\n subRegions = <table> {\n }\n load = <table> {\n }\n backdropColor = <table> {\n }\n source = \"import\"\n scale = 1\n border = false\n borderEdge = \"Square Full White\"\n regionType = \"group\"\n borderSize = 2\n borderOffset = 4\n semver = \"2.1.3\"\n tocversion = 30401\n id = \"ULD战斗提醒 by 巴尼\"\n frameStrata = 1\n anchorFrameType = \"SCREEN\"\n authorOptions = <table> {\n }\n config = <table> {\n }\n uid = \"xepQIaf2arT\"\n selfPoint = \"CENTER\"\n conditions = <table> {\n }\n information = <table> {\n }\n borderInset = 1\n}\nchildren = <table> {\n 1 = <table> {\n }\n 2 = <table> {\n }\n 3 = <table> {\n }\n 4 = <table> {\n }\n 5 = <table> {\n }\n 6 = <table> {\n }\n 7 = <table> {\n }\n 8 = <table> {\n }\n 9 = <table> {\n }\n 10 = <table> {\n }\n 11 = <table> {\n }\n 12 = <table> {\n }\n 13 = <table> {\n }\n 14 = <table> {\n }\n 15 = <table> {\n }\n 16 = <table> {\n }\n 17 = <table> {\n }\n 18 = <table> {\n }\n 19 = <table> {\n }\n 20 = <table> {\n }\n 21 = <table> {\n }\n 22 = <table> {\n }\n 23 = <table> {\n }\n 24 = <table> {\n }\n 25 = <table> {\n }\n 26 = <table> {\n }\n 27 = <table> {\n }\n 28 = <table> {\n }\n 29 = <table> {\n }\n 30 = <table> {\n }\n 31 = <table> {\n }\n 32 = <table> {\n }\n 33 = <table> {\n }\n 34 = <table> {\n }\n 35 = <table> {\n }\n 36 = <table> {\n }\n 37 = <table> {\n }\n 38 = <table> {\n }\n 39 = <table> {\n }\n 40 = <table> {\n }\n 41 = <table> {\n }\n 42 = <table> {\n }\n 43 = <table> {\n }\n 44 = <table> {\n }\n 45 = <table> {\n }\n 46 = <table> {\n }\n 47 = <table> {\n }\n 48 = <table> {\n }\n 49 = <table> {\n }\n 50 = <table> {\n }\n 51 = <table> {\n }\n 52 = <table> {\n }\n 53 = <table> {\n }\n 54 = <table> {\n }\n 55 = <table> {\n }\n 56 = <table> {\n }\n 57 = <table> {\n }\n 58 = <table> {\n }\n 59 = <table> {\n }\n 60 = <table> {\n }\n 61 = <table> {\n }\n 62 = <table> {\n }\n 63 = <table> {\n }\n 64 = <table> {\n }\n 65 = <table> {\n }\n 66 = <table> {\n }\n 67 = <table> {\n }\n 68 = <table> {\n }\n 69 = <table> {\n }\n 70 = <table> {\n }\n 71 = <table> {\n }\n 72 = <table> {\n }\n 73 = <table> {\n }\n 74 = <table> {\n }\n 75 = <table> {\n }\n 76 = <table> {\n }\n 77 = <table> {\n }\n 78 = <table> {\n }\n 79 = <table> {\n }\n 80 = <table> {\n }\n 81 = <table> {\n }\n 82 = <table> {\n }\n 83 = <table> {\n }\n 84 = <table> {\n }\n 85 = <table> {\n }\n 86 = <table> {\n }\n 87 = <table> {\n }\n 88 = <table> {\n }\n 89 = <table> {\n }\n 90 = <table> {\n }\n 91 = <table> {\n }\n 92 = <table> {\n }\n 93 = <table> {\n }\n 94 = <table> {\n }\n 95 = <table> {\n }\n 96 = <table> {\n }\n 97 = <table> {\n }\n 98 = <table> {\n }\n 99 = <table> {\n }\n 100 = <table> {\n }\n 101 = <table> {\n }\n 102 = <table> {\n }\n 103 = <table> {\n }\n 104 = <table> {\n }\n 105 = <table> {\n }\n 106 = <table> {\n }\n 107 = <table> {\n }\n 108 = <table> {\n }\n 109 = <table> {\n }\n 110 = <table> {\n }\n 111 = <table> {\n }\n 112 = <table> {\n }\n 113 = <table> {\n }\n 114 = <table> {\n }\n 115 = <table> {\n }\n 116 = <table> {\n }\n 117 = <table> {\n }\n 118 = <table> {\n }\n 119 = <table> {\n }\n 120 = <table> {\n }\n 121 = <table> {\n }\n 122 = <table> {\n }\n 123 = <table> {\n }\n 124 = <table> {\n }\n 125 = <table> {\n }\n 126 = <table> {\n }\n 127 = <table> {\n }\n 128 = <table> {\n }\n 129 = <table> {\n }\n 130 = <table> {\n }\n 131 = <table> {\n }\n 132 = <table> {\n }\n 133 = <table> {\n }\n 134 = <table> {\n }\n 135 = <table> {\n }\n 136 = <table> {\n }\n 137 = <table> {\n }\n 138 = <table> {\n }\n 139 = <table> {\n }\n 140 = <table> {\n }\n 141 = <table> {\n }\n 142 = <table> {\n }\n 143 = <table> {\n }\n 144 = <table> {\n }\n 145 = <table> {\n }\n 146 = <table> {\n }\n 147 = <table> {\n }\n 148 = <table> {\n }\n 149 = <table> {\n }\n 150 = <table> {\n }\n 151 = <table> {\n }\n 152 = <table> {\n }\n 153 = <table> {\n }\n 154 = <table> {\n }\n 155 = <table> {\n }\n 156 = <table> {\n }\n 157 = <table> {\n }\n 158 = <table> {\n }\n 159 = <table> {\n }\n 160 = <table> {\n }\n 161 = <table> {\n }\n 162 = <table> {\n }\n}\ntarget = nil\nsender = \"別逼我開大軍\"\ncallbackFunc = nil\n(*temporary) = nil\n(*te",
+			["stack"] = "[string \"@Interface/AddOns/WeakAuras/Transmission.lua\"]:464: in function <Interface/AddOns/WeakAuras/Transmission.lua:448>\n[string \"@Interface/AddOns/WeakAuras/Transmission.lua\"]:651: in function <Interface/AddOns/WeakAuras/Transmission.lua:600>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ItemRack/Libs/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:19: in function <...ack/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:15>\n[string \"@Interface/AddOns/ItemRack/Libs/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:54: in function `Fire'\n[string \"@Interface/AddOns/AtlasLootClassic/Libs/AceComm-3.0-12/AceComm-3.0.lua\"]:214: in function `OnReceiveMultipartLast'\n[string \"@Interface/AddOns/AtlasLootClassic/Libs/AceComm-3.0-12/AceComm-3.0.lua\"]:252: in function <...ns/AtlasLootClassic/Libs/AceComm-3.0/AceComm-3.0.lua:242>",
+			["session"] = 1251,
+			["counter"] = 1,
 		}, -- [223]
+		{
+			["message"] = "Interface/AddOns/WIM/Modules/MinimapIcon.lua:198: bad argument #2 to 'SetGradient' (Usage: self:SetGradient(orientation, minColor, maxColor))",
+			["time"] = "2023/01/31 21:49:53",
+			["locals"] = "(*temporary) = Texture {\n 0 = <userdata>\n PixelSnapDisabled = true\n}\n(*temporary) = \"VERTICAL\"\n(*temporary) = 0\n(*temporary) = 0\n(*temporary) = 0\n(*temporary) = 0\n(*temporary) = 0\n(*temporary) = 0\n",
+			["stack"] = "[string \"=[C]\"]: in function `SetGradient'\n[string \"@Interface/AddOns/WIM/Modules/MinimapIcon.lua\"]:198: in function <Interface/AddOns/WIM/Modules/MinimapIcon.lua:192>",
+			["session"] = 1251,
+			["counter"] = 3763,
+		}, -- [224]
+		{
+			["message"] = "Interface/AddOns/WeakAuras/RegionTypes/Icon.lua:190: attempt to call method 'SetMinResize' (a nil value)\n[string \"@Interface/AddOns/WeakAuras/RegionTypes/Icon.lua\"]:190: in function `create'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2948: in function `SetRegion'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2863: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:2752>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2900: in function `Add'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2388: in function `load'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2395: in function `AddMany'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1141: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1113>\n",
+			["time"] = "2023/02/04 19:58:43",
+			["stack"] = "[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1258: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1209>",
+			["session"] = 1252,
+			["counter"] = 2,
+		}, -- [225]
+		{
+			["message"] = "...rface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:692: attempt to index field 'L' (a nil value)",
+			["time"] = "2023/02/04 20:10:46",
+			["locals"] = "Skipped (In Encounter)",
+			["stack"] = "[string \"@Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua\"]:692: in function `?'\n[string \"@Interface/AddOns/LFGBulletinBoard/LibGPIToolBox.lua\"]:108: in function <Interface/AddOns/LFGBulletinBoard/LibGPIToolBox.lua:105>",
+			["session"] = 1252,
+			["counter"] = 1,
+		}, -- [226]
+		{
+			["message"] = "...rface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:396: attempt to call method 'SetMinResize' (a nil value)",
+			["time"] = "2023/01/31 21:49:47",
+			["locals"] = "(*temporary) = nil\n(*temporary) = GroupBulletinBoardFrame {\n 0 = <userdata>\n MessageFrame = GroupBulletinBoardFrame_GroupFrame {\n }\n}\n(*temporary) = 300\n(*temporary) = 170\n(*temporary) = \"attempt to call method 'SetMinResize' (a nil value)\"\nGBB = <table> {\n GetLfgList = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:125\n DUNGEONBREAK = 25\n GetDungeonNames = <function> defined @Interface/AddOns/LFGBulletinBoard/Dungeons.lua:15\n InitGroupList = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupList.Lua:175\n TAGSEARCH = \"+++\"\n TBCDUNGEONBREAK = 50\n CreateTagListLOC = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:252\n LevelRange = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:116\n InsertChat = <function> defined @Interface/AddOns/LFGBulletinBoard/Chat.lua:49\n Clear = <function> defined @Interface/AddOns/LFGBulletinBoard/RequestList.lua:307\n ParseMessage = <function> defined @Interface/AddOns/LFGBulletinBoard/RequestList.lua:625\n CreateChannelPulldown = <function> defined @Interface/AddOns/LFGBulletinBoard/Chat.lua:149\n LfgClickRequest = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:637\n TbcDungeonLevels = <table> {\n }\n EditAnnounceMessage_Changed = <function> defined @Interface/AddOns/LFGBulletinBoard/Chat.lua:131\n UpdateLfgToolNoSearch = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:222\n TbcDungeonNames = <table> {\n }\n AddGroupList = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupList.Lua:46\n LfgRequestHideTooltip = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:712\n PostTbcDungeonLevels = <table> {\n }\n LfgRequestShowTooltip = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:663\n SeasonalActiveEvents = <table> {\n }\n LfgClickDungeon = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:620\n ScrollLfgList = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:615\n searchTagsLoc = <table> {\n }\n FoldAllDungeon = <function> defined @Interface/AddOns/LFGBulletinBoard/RequestList.lua:774\n ClickFrame = <function> defined @Interface/AddOns/LFGBulletinBoard/RequestList.lua:817\n LfgUpdateList = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:479\n SaveAnchors = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:182\n GetPartyInfo = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:235\n CreateChatFrame = <function> defined @Interface/AddOns/LFGBulletinBoard/Chat.lua:3\n Split = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:56\n FriendIcon = \"Interface\\LootFrame\\toast-star\"\n Icon = \"Interface\\Icons\\spell_holy_prayerofshadowprotection\"\n OnUpdate = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:733\n OnSizeChanged = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:727\n PvpLevels = <table> {\n }\n Options = <table> {\n }\n OnLoad = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:713\n VanillDungeonNames = <table> {\n }\n Popup_Minimap = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:366\n dungeonSecondTags = <table> {\n }\n CreateTagList = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:288\n ResetWindow = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:189\n BtnRefresh = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:245\n Version = \"3.05\"\n TAGBAD = \"---\"\n BtnSettings = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:236\n BtnClose = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:232\n MinimapButton = <table> {\n }\n UpdateGroupList = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupList.Lua:78\n suffixTagsLoc = <table> {\n }\n UpdateList = <function> defined @Interface/AddOns/LFGBulletinBoard/RequestList.lua:330\n ToggleWindow = <function> defined @Interface/AddOns/LF",
+			["stack"] = "[string \"@Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua\"]:396: in function `Init'\n[string \"@Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua\"]:698: in function `?'\n[string \"@Interface/AddOns/LFGBulletinBoard/LibGPIToolBox.lua\"]:108: in function <Interface/AddOns/LFGBulletinBoard/LibGPIToolBox.lua:105>",
+			["session"] = 1253,
+			["counter"] = 7,
+		}, -- [227]
+		{
+			["message"] = "Interface/AddOns/LFGBulletinBoard/GroupList.Lua:79: attempt to index field 'DB' (a nil value)",
+			["time"] = "2023/01/31 21:49:53",
+			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index field 'DB' (a nil value)\"\nGBB = <table> {\n GetLfgList = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:125\n DUNGEONBREAK = 25\n GetDungeonNames = <function> defined @Interface/AddOns/LFGBulletinBoard/Dungeons.lua:15\n InitGroupList = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupList.Lua:175\n TAGSEARCH = \"+++\"\n TBCDUNGEONBREAK = 50\n CreateTagListLOC = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:252\n LevelRange = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:116\n InsertChat = <function> defined @Interface/AddOns/LFGBulletinBoard/Chat.lua:49\n Clear = <function> defined @Interface/AddOns/LFGBulletinBoard/RequestList.lua:307\n ParseMessage = <function> defined @Interface/AddOns/LFGBulletinBoard/RequestList.lua:625\n CreateChannelPulldown = <function> defined @Interface/AddOns/LFGBulletinBoard/Chat.lua:149\n LfgClickRequest = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:637\n TbcDungeonLevels = <table> {\n }\n EditAnnounceMessage_Changed = <function> defined @Interface/AddOns/LFGBulletinBoard/Chat.lua:131\n UpdateLfgToolNoSearch = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:222\n TbcDungeonNames = <table> {\n }\n AddGroupList = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupList.Lua:46\n LfgRequestHideTooltip = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:712\n PostTbcDungeonLevels = <table> {\n }\n LfgRequestShowTooltip = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:663\n SeasonalActiveEvents = <table> {\n }\n LfgClickDungeon = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:620\n ScrollLfgList = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:615\n searchTagsLoc = <table> {\n }\n FoldAllDungeon = <function> defined @Interface/AddOns/LFGBulletinBoard/RequestList.lua:774\n ClickFrame = <function> defined @Interface/AddOns/LFGBulletinBoard/RequestList.lua:817\n LfgUpdateList = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:479\n SaveAnchors = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:182\n GetPartyInfo = <function> defined @Interface/AddOns/LFGBulletinBoard/LfgToolList.lua:235\n CreateChatFrame = <function> defined @Interface/AddOns/LFGBulletinBoard/Chat.lua:3\n Split = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:56\n FriendIcon = \"Interface\\LootFrame\\toast-star\"\n Icon = \"Interface\\Icons\\spell_holy_prayerofshadowprotection\"\n OnUpdate = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:733\n OnSizeChanged = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:727\n PvpLevels = <table> {\n }\n Options = <table> {\n }\n OnLoad = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:713\n VanillDungeonNames = <table> {\n }\n Popup_Minimap = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:366\n dungeonSecondTags = <table> {\n }\n CreateTagList = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:288\n ResetWindow = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:189\n BtnRefresh = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:245\n Version = \"3.05\"\n TAGBAD = \"---\"\n BtnSettings = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:236\n BtnClose = <function> defined @Interface/AddOns/LFGBulletinBoard/GroupBulletinBoard.lua:232\n MinimapButton = <table> {\n }\n UpdateGroupList = <function> defined @Interface/AddOns/LFGBullet",
+			["stack"] = "[string \"@Interface/AddOns/LFGBulletinBoard/GroupList.Lua\"]:79: in function `?'\n[string \"@Interface/AddOns/LFGBulletinBoard/LibGPIToolBox.lua\"]:108: in function <Interface/AddOns/LFGBulletinBoard/LibGPIToolBox.lua:105>",
+			["session"] = 1253,
+			["counter"] = 31,
+		}, -- [228]
+		{
+			["message"] = "Interface/AddOns/GearScoreLite/GearScoreLite.lua:300: attempt to index a nil value",
+			["time"] = "2023/02/04 22:04:35",
+			["locals"] = "GearScore = 596\nItemLevel = 232\nRed = 0.818200\nBlue = 0.818200\nGreen = 0.818200\ni = 0\nTooltipFound = 0\n(for index) = 4\n(for limit) = 5\n(for step) = 1\ni = 4\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index a nil value\"\n",
+			["stack"] = "[string \"@Interface/AddOns/GearScoreLite/GearScoreLite.lua\"]:300: in function `GearScore_UpdateGTData'\n[string \"@Interface/AddOns/GearScoreLite/GearScoreLite.lua\"]:276: in function <Interface/AddOns/GearScoreLite/GearScoreLite.lua:269>",
+			["session"] = 1256,
+			["counter"] = 64,
+		}, -- [229]
+		{
+			["message"] = "Interface/FrameXML/ChatFrame.lua:1060: bad argument #1 to 'strlower' (string expected, got nil)",
+			["time"] = "2023/02/04 20:22:35",
+			["locals"] = "Skipped (In Encounter)",
+			["stack"] = "[string \"=[C]\"]: in function `strlower'\n[string \"@Interface/FrameXML/ChatFrame.lua\"]:1060: in function <Interface/FrameXML/ChatFrame.lua:1055>",
+			["session"] = 1256,
+			["counter"] = 17,
+		}, -- [230]
+		{
+			["message"] = "...Master/LibTSM/Service/ItemTooltipClasses/Builder.lua:240: assertion failed!",
+			["time"] = "2023/02/05 01:22:16",
+			["locals"] = "(*temporary) = false\n",
+			["stack"] = "[string \"=[C]\"]: in function `assert'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Service/ItemTooltipClasses/Builder.lua\"]:240: in function <...Master/LibTSM/Service/ItemTooltipClasses/Builder.lua:239>\n[string \"@Interface/AddOns/TradeSkillMaster/External/LibTSMClass-2/LibTSMClass.lua\"]:332: in function `_IsEmpty'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Service/ItemTooltipClasses/Wrapper.lua\"]:212: in function `SetTooltipItem'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Service/ItemTooltipClasses/Wrapper.lua\"]:152: in function <...Master/LibTSM/Service/ItemTooltipClasses/Wrapper.lua:122>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua\"]:482: in function <...ce/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:476>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n...\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Service/ItemTooltipClasses/Wrapper.lua\"]:106: in function <...Master/LibTSM/Service/ItemTooltipClasses/Wrapper.lua:104>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua\"]:408: in function <...ce/AddOns/Bistooltip/lib/LibExtraTip/LibExtraTip.lua:402>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetInboxItem'\n[string \"@Interface/FrameXML/MailFrame.lua\"]:314: in function `InboxFrameItem_OnEnter'\n[string \"@Interface/AddOns/Postal/Modules/Express.lua\"]:100: in function <Interface/AddOns/Postal/Modules/Express.lua:99>\n[string \"=(tail call)\"]: ?\n[string \"*MailFrame.xml:152_OnUpdate\"]:2: in function <[string \"*MailFrame.xml:152_OnUpdate\"]:1>",
+			["session"] = 1256,
+			["counter"] = 23,
+		}, -- [231]
+		{
+			["message"] = "...ce/AddOns/TradeSkillMaster/LibTSM/Util/TempTable.lua:51: Could not acquire temp table",
+			["time"] = "2023/02/05 01:22:14",
+			["locals"] = "(*temporary) = \"Could not acquire temp table\"\n",
+			["stack"] = "[string \"=[C]\"]: in function `error'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/TempTable.lua\"]:51: in function `Acquire'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua\"]:142: in function <...erface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua:141>",
+			["session"] = 1256,
+			["counter"] = 205,
+		}, -- [232]
+		{
+			["message"] = "...e/AddOns/TradeSkillMaster/Core/UI/AuctionUI/Core.lua:248: assertion failed!",
+			["time"] = "2023/02/05 01:21:53",
+			["locals"] = "(*temporary) = false\n",
+			["stack"] = "[string \"=[C]\"]: in function `assert'\n[string \"@Interface/AddOns/TradeSkillMaster/Core/UI/AuctionUI/Core.lua\"]:248: in function `callback'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Service/DefaultUI.lua\"]:148: in function `HandleEvent'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Service/DefaultUI.lua\"]:43: in function `callback'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua\"]:132: in function `ProcessEvent'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua\"]:150: in function <...erface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua:141>\n[string \"=[C]\"]: in function `CloseAuctionHouse'\n[string \"@Interface/AddOns/aux-addon/frame.lua\"]:29: in function <Interface/AddOns/aux-addon/frame.lua:29>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface/AddOns/aux-addon/aux-addon.lua\"]:207: in function `?'\n[string \"@Interface/AddOns/aux-addon/aux-addon.lua\"]:40: in function <Interface/AddOns/aux-addon/aux-addon.lua:28>",
+			["session"] = 1257,
+			["counter"] = 2,
+		}, -- [233]
+		{
+			["message"] = "...erface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua:146: assertion failed!",
+			["time"] = "2023/02/05 01:22:13",
+			["locals"] = "(*temporary) = false\n",
+			["stack"] = "[string \"=[C]\"]: in function `assert'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua\"]:146: in function <...erface/AddOns/TradeSkillMaster/LibTSM/Util/Event.lua:141>",
+			["session"] = 1257,
+			["counter"] = 23,
+		}, -- [234]
+		{
+			["message"] = "Interface/AddOns/Blizzard_InspectUI/Localization.lua:8: attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)",
+			["time"] = "2023/02/04 20:26:27",
+			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = 3\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = InspectFrameTab3Text {\n 0 = <userdata>\n}\n(*temporary) = \"CENTER\"\n(*temporary) = \"InspectFrameTab3\"\n(*temporary) = \"CENTER\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'InspectTalentFrameSpentPoints' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface/AddOns/Blizzard_InspectUI/Localization.lua\"]:8: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:385: in function `UIParentLoadAddOn'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:428: in function `InspectFrame_LoadUI'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:733: in function `InspectUnit'\n[string \"@Interface/FrameXML/UnitPopupSharedButtonMixins.lua\"]:200: in function `OnClick'\n[string \"@Interface/FrameXML/UnitPopupShared.lua\"]:148: in function `func'\n[string \"@Interface/FrameXML/UIDropDownMenu.lua\"]:948: in function `UIDropDownMenuButton_OnClick'\n[string \"*UIDropDownMenuTemplates.xml:149_OnClick\"]:1: in function <[string \"*UIDropDownMenuTemplates.xml:149_OnClick\"]:1>",
+			["session"] = 1258,
+			["counter"] = 4,
+		}, -- [235]
+		{
+			["message"] = "Interface/AddOns/Blizzard_AuctionUI/Localization.lua:10: attempt to index global 'BrowseBidText' (a nil value)",
+			["time"] = "2023/01/31 21:49:53",
+			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"BOTTOMLEFT\"\n(*temporary) = \"AuctionFrameBrowse\"\n(*temporary) = \"TOPLEFT\"\n(*temporary) = 230\n(*temporary) = -56\n(*temporary) = AuctionFrameBrowse {\n 0 = <userdata>\n FilterButtons = <table> {\n }\n isSearchingThrottle = 0\n page = 0\n dotCount = 0\n}\n(*temporary) = <userdata>\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"attempt to index global 'BrowseBidText' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface/AddOns/Blizzard_AuctionUI/Localization.lua\"]:10: in main chunk\n[string \"=[C]\"]: in function `LoadAddOn'\n[string \"@Interface/AddOns/TradeSkillMaster/Core/UI/AuctionUI/Core.lua\"]:44: in function `pendingCallback'\n[string \"@Interface/AddOns/TradeSkillMaster/LibTSM/Util/Delay.lua\"]:171: in function <...erface/AddOns/TradeSkillMaster/LibTSM/Util/Delay.lua:136>",
+			["session"] = 1258,
+			["counter"] = 7,
+		}, -- [236]
 	},
 }
