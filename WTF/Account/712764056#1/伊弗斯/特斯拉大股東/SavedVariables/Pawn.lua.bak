@@ -1,11 +1,13 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0714,
+	["LastVersion"] = 2.0716,
+	["LastPlayerFullName"] = "特斯拉大股東-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 41984,
-			["Level"] = 187,
-			["Link"] = "|cff0070dd|Hitem:41984::::::::80:::::::::|h[寒冬末日之帽]|h|r",
+			["ID"] = 40421,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:40421::::::::80:::::::::|h[勇猛的天灾之心头饰]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 44661,
@@ -19,14 +21,14 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 40602,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40602::::::::80:::::::::|h[变异长袍]|h|r",
+			["ID"] = 46137,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:46137::::::::80:::::::::|h[征服者的死亡信使长袍]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 41986,
-			["Level"] = 187,
-			["Link"] = "|cff0070dd|Hitem:41986::::::::80:::::::::|h[深度冻结腰带]|h|r",
+			["ID"] = 45508,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:45508::::::::80:::::::::|h[暗语者腰带]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 42004,
@@ -44,9 +46,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:40740::::::::80:::::::::|h[星界旅者护腕]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 42095,
-			["Level"] = 187,
-			["Link"] = "|cff0070dd|Hitem:42095::::::::80:::::::::|h[光明赐福手套]|h|r",
+			["ID"] = 46135,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:46135::::::::80:::::::::|h[征服者的死亡信使手套]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 40080,
@@ -73,14 +75,14 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:44013::::::::78:::::::::|h[炮兵的点火器]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 37799,
-			["Level"] = 200,
-			["Link"] = "|cff0070dd|Hitem:37799::::::::80:::::::::|h[复活者的披风]|h|r",
+			["ID"] = 40253,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:40253::::::::80:::::::::|h[修女披风]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 41821,
-			["Level"] = 175,
-			["Link"] = "|cff0070dd|Hitem:41821::::::::76:::::::::|h[寒冷长棍]|h|r",
+			["ID"] = 40489,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:40489::::::::80:::::::::|h[魔枢巨杖]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 199710,
@@ -88,13 +90,11 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:199710::::::::70:::::::::|h[群集玫瑰]|h|r",
 		}, -- [17]
 		{
-			["ID"] = 43828,
-			["Level"] = 174,
-			["Link"] = "|cff1eff00|Hitem:43828::::::::77:::::::::|h[圣光之触]|h|r",
+			["ID"] = 45511,
+			["Level"] = 238,
+			["Link"] = "|cffa335ee|Hitem:45511::::::::80:::::::::|h[迷失灵魂节杖]|h|r",
 		}, -- [18]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "特斯拉大股東-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

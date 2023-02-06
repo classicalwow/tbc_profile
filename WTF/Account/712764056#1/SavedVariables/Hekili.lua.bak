@@ -42,17 +42,7 @@ HekiliDB = {
 			["iconStore"] = {
 				["minimapPos"] = 238.1225247066815,
 			},
-			["runOnce"] = {
-				["forceReloadAllDefaultPriorities_20220228"] = true,
-				["forceEnableAllClassesOnceDueToBug_20220225"] = true,
-				["updateMaxRefreshToNewSpecOptions_20220222"] = true,
-				["forceReloadClassDefaultOptions_20220306_9"] = true,
-				["forceReloadClassDefaultOptions_20220306_3"] = true,
-				["forceEnableEnhancedRecheckBoomkin_20210712"] = true,
-				["forceReloadClassDefaultOptions_20220306_2"] = true,
-				["forceReloadClassDefaultOptions_20220306_1"] = true,
-				["resetAberrantPackageDates_20190728_1"] = true,
-			},
+			["enabled"] = false,
 			["toggles"] = {
 				["mode"] = {
 					["value"] = "single",
@@ -72,13 +62,13 @@ HekiliDB = {
 					["package"] = "my",
 				}, -- [3]
 				[9] = {
+					["package"] = "Destruction (wowtbc.gg)",
 					["settings"] = {
 						["solo_curse"] = "curse_of_agony",
 						["shadow_mastery"] = true,
 						["group_curse"] = "curse_of_the_elements",
 						["group_type"] = "party",
 					},
-					["package"] = "Destruction (wowtbc.gg)",
 				},
 			},
 			["notifications"] = {
@@ -1436,9 +1426,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 								["criteria"] = "active_enemies > 3",
 								["action"] = "thunder_clap",
+								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 							}, -- [2]
 							{
 								["action"] = "overpower",
@@ -1570,9 +1560,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 								["criteria"] = "active_enemies > 3",
 								["action"] = "thunder_clap",
+								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 							}, -- [2]
 							{
 								["action"] = "overpower",
@@ -1892,6 +1882,17 @@ HekiliDB = {
 					},
 					["author"] = "Icy Veins",
 				},
+			},
+			["runOnce"] = {
+				["forceReloadAllDefaultPriorities_20220228"] = true,
+				["forceEnableAllClassesOnceDueToBug_20220225"] = true,
+				["updateMaxRefreshToNewSpecOptions_20220222"] = true,
+				["forceReloadClassDefaultOptions_20220306_9"] = true,
+				["forceReloadClassDefaultOptions_20220306_3"] = true,
+				["forceEnableEnhancedRecheckBoomkin_20210712"] = true,
+				["forceReloadClassDefaultOptions_20220306_2"] = true,
+				["forceReloadClassDefaultOptions_20220306_1"] = true,
+				["resetAberrantPackageDates_20190728_1"] = true,
 			},
 		},
 	},

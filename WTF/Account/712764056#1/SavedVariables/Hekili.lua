@@ -72,13 +72,13 @@ HekiliDB = {
 					["package"] = "my",
 				}, -- [3]
 				[9] = {
+					["package"] = "Destruction (wowtbc.gg)",
 					["settings"] = {
 						["solo_curse"] = "curse_of_agony",
 						["shadow_mastery"] = true,
 						["group_curse"] = "curse_of_the_elements",
 						["group_type"] = "party",
 					},
-					["package"] = "Destruction (wowtbc.gg)",
 				},
 			},
 			["notifications"] = {
@@ -1428,9 +1428,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["action"] = "thunder_clap",
 								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 								["criteria"] = "active_enemies > 3",
+								["action"] = "thunder_clap",
 							}, -- [2]
 							{
 								["action"] = "overpower",
@@ -1562,9 +1562,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["action"] = "thunder_clap",
 								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 								["criteria"] = "active_enemies > 3",
+								["action"] = "thunder_clap",
 							}, -- [2]
 							{
 								["action"] = "overpower",
@@ -1893,6 +1893,7 @@ HekiliDB = {
 					},
 				},
 			},
+			["enabled"] = false,
 		},
 	},
 }
