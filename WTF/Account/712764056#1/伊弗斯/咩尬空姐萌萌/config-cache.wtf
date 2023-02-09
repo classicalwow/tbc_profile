@@ -1,7 +1,7 @@
 SET nameplateShowDebuffsOnFriendly "0"
 SET autoQuestPopUps "v"
 SET showPartyPets "1"
-SET cameraSavedPitch "24.616587"
+SET cameraSavedPitch "0.949845"
 SET useCompactPartyFrames "1"
 SET EJLootClass "4"
 SET nameplateShowEnemies "1"

@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0716,
+	["LastPlayerFullName"] = "邁克爾假死-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 37726,
@@ -34,9 +36,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:40506::::::::80:::::::::|h[勇猛的地穴追猎者护腿]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 39701,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:39701::::::::80:::::::::|h[黎明行者]|h|r",
+			["ID"] = 46346,
+			["Level"] = 225,
+			["Link"] = "|cffa335ee|Hitem:46346::::::::80:::::::::|h[掠食之靴]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 45454,
@@ -94,8 +96,6 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:40265::::::::80:::::::::|h[飞矢之歌]|h|r",
 		}, -- [18]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "邁克爾假死-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

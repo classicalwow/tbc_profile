@@ -613,10 +613,10 @@ MailLoggerDB = {
 					["ItemLink"] = "|cff1eff00|Hitem:6037::::::::80:::::::::|h[真银锭]|h|r",
 					["Name"] = "真银锭",
 				},
-				[98] = {
-					["Number"] = 30,
-					["ItemLink"] = "|cff1eff00|Hitem:12361::::::::80:::::::::|h[蓝宝石]|h|r",
-					["Name"] = "蓝宝石",
+				[10] = {
+					["Number"] = 21,
+					["ItemLink"] = "|cff1eff00|Hitem:1206::::::::80:::::::::|h[绿玛瑙]|h|r",
+					["Name"] = "绿玛瑙",
 				},
 				[72] = {
 					["Number"] = 36,
@@ -633,10 +633,10 @@ MailLoggerDB = {
 					["ItemLink"] = "|cffffffff|Hitem:10286::::::::80:::::::::|h[野性之心]|h|r",
 					["Name"] = "野性之心",
 				},
-				[10] = {
-					["Number"] = 21,
-					["ItemLink"] = "|cff1eff00|Hitem:1206::::::::80:::::::::|h[绿玛瑙]|h|r",
-					["Name"] = "绿玛瑙",
+				[98] = {
+					["Number"] = 30,
+					["ItemLink"] = "|cff1eff00|Hitem:12361::::::::80:::::::::|h[蓝宝石]|h|r",
+					["Name"] = "蓝宝石",
 				},
 				[67] = {
 					["Number"] = 24,
@@ -9647,5 +9647,177 @@ MailLoggerDB = {
 				}, -- [2]
 			},
 		}, -- [479]
+		{
+			["TargetName"] = "邁克爾假死",
+			["PlayerName"] = "特斯拉大股東",
+			["Date"] = "2023-02-08",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 140000000,
+			["Location"] = "幽暗城",
+			["Time"] = "21:36:51",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [480]
+		{
+			["PlayerName"] = "邁克爾假死",
+			["TargetName"] = "特斯拉大股東",
+			["Reason"] = 1,
+			["Date"] = "2023-02-08",
+			["ReceiveMoney"] = 140000000,
+			["Time"] = "21:37:37",
+			["GiveMoney"] = 0,
+			["Location"] = "奥格瑞玛",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+			},
+		}, -- [481]
+		{
+			["PlayerName"] = "邁克爾假死",
+			["TargetName"] = "部落拍卖行",
+			["Reason"] = 6,
+			["Date"] = "2023-02-08",
+			["ReceiveMoney"] = 0,
+			["Time"] = "21:55:50",
+			["GiveMoney"] = 0,
+			["Location"] = "奥格瑞玛",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 2000,
+					["ItemLink"] = "|cff0070dd|Hitem:41165::::::::80:::::::::|h[萨隆邪铁箭头]|h|r",
+					["Name"] = "萨隆邪铁箭头",
+				}, -- [1]
+			},
+		}, -- [482]
+		{
+			["PlayerName"] = "邁克爾假死",
+			["TargetName"] = "部落拍卖行",
+			["Reason"] = 4,
+			["Date"] = "2023-02-08",
+			["ReceiveMoney"] = 0,
+			["Time"] = "21:56:30",
+			["GiveMoney"] = 0,
+			["Location"] = "奥格瑞玛",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1000,
+					["ItemLink"] = "|cff0070dd|Hitem:41165::::::::80:::::::::|h[萨隆邪铁箭头]|h|r",
+					["Name"] = "萨隆邪铁箭头",
+				}, -- [1]
+				{
+					["Number"] = 1000,
+					["ItemLink"] = "|cff0070dd|Hitem:41165::::::::80:::::::::|h[萨隆邪铁箭头]|h|r",
+					["Name"] = "萨隆邪铁箭头",
+				}, -- [2]
+				{
+					["Number"] = 1000,
+					["ItemLink"] = "|cff0070dd|Hitem:41165::::::::80:::::::::|h[萨隆邪铁箭头]|h|r",
+					["Name"] = "萨隆邪铁箭头",
+				}, -- [3]
+				{
+					["Number"] = 1000,
+					["ItemLink"] = "|cff0070dd|Hitem:41165::::::::80:::::::::|h[萨隆邪铁箭头]|h|r",
+					["Name"] = "萨隆邪铁箭头",
+				}, -- [4]
+			},
+		}, -- [483]
+		{
+			["PlayerName"] = "邁克爾假死",
+			["TargetName"] = "打笨不打懶",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["Date"] = "2023-02-08",
+			["Time"] = "22:41:02",
+			["ReceiveItems"] = {
+			},
+		}, -- [484]
+		{
+			["TargetName"] = "打笨不打懶",
+			["PlayerName"] = "邁克爾假死",
+			["Date"] = "2023-02-08",
+			["ReceiveMoney"] = 0,
+			["Time"] = "22:41:02",
+			["GiveMoney"] = 3000000,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+				{
+					["Number"] = 1,
+					["ItemLink"] = "|cffa335ee|Hitem:46346::::::::80:::::::::|h[掠食之靴]|h|r",
+					["Name"] = "掠食之靴",
+				}, -- [1]
+			},
+		}, -- [485]
+		{
+			["PlayerName"] = "邁克爾假死",
+			["TargetName"] = "打笨不打懶",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["Date"] = "2023-02-08",
+			["Time"] = "23:15:18",
+			["ReceiveItems"] = {
+			},
+		}, -- [486]
+		{
+			["TargetName"] = "打笨不打懶",
+			["PlayerName"] = "邁克爾假死",
+			["Date"] = "2023-02-08",
+			["ReceiveMoney"] = 11000000,
+			["Time"] = "23:15:18",
+			["GiveMoney"] = 0,
+			["Location"] = "奥杜尔",
+			["GiveItems"] = {
+			},
+			["Result"] = "completed",
+			["ReceiveItems"] = {
+			},
+		}, -- [487]
+		{
+			["TargetName"] = "特斯拉大股東",
+			["PlayerName"] = "邁克爾假死",
+			["Date"] = "2023-02-08",
+			["ReceiveMoney"] = 0,
+			["GiveItems"] = {
+			},
+			["GiveMoney"] = 140000000,
+			["Location"] = "达拉然",
+			["Time"] = "23:20:38",
+			["Result"] = "sent",
+			["ReceiveItems"] = {
+			},
+		}, -- [488]
+		{
+			["PlayerName"] = "特斯拉大股東",
+			["TargetName"] = "邁克爾假死",
+			["Reason"] = 1,
+			["Date"] = "2023-02-08",
+			["ReceiveMoney"] = 140000000,
+			["Time"] = "23:21:16",
+			["GiveMoney"] = 0,
+			["Location"] = "幽暗城",
+			["GiveItems"] = {
+			},
+			["Result"] = "received",
+			["ReceiveItems"] = {
+			},
+		}, -- [489]
 	},
 }
