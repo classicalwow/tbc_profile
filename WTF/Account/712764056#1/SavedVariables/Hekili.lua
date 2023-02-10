@@ -42,11 +42,6 @@ HekiliDB = {
 			["iconStore"] = {
 				["minimapPos"] = 238.1225247066815,
 			},
-			["toggles"] = {
-				["mode"] = {
-					["value"] = "single",
-				},
-			},
 			["runOnce"] = {
 				["forceReloadAllDefaultPriorities_20220228"] = true,
 				["forceEnableAllClassesOnceDueToBug_20220225"] = true,
@@ -57,6 +52,11 @@ HekiliDB = {
 				["forceReloadClassDefaultOptions_20220306_2"] = true,
 				["forceReloadClassDefaultOptions_20220306_1"] = true,
 				["resetAberrantPackageDates_20190728_1"] = true,
+			},
+			["toggles"] = {
+				["mode"] = {
+					["value"] = "single",
+				},
 			},
 			["specs"] = {
 				{
@@ -72,13 +72,13 @@ HekiliDB = {
 					["package"] = "my",
 				}, -- [3]
 				[9] = {
-					["package"] = "Destruction (wowtbc.gg)",
 					["settings"] = {
 						["solo_curse"] = "curse_of_agony",
 						["shadow_mastery"] = true,
 						["group_curse"] = "curse_of_the_elements",
 						["group_type"] = "party",
 					},
+					["package"] = "Destruction (wowtbc.gg)",
 				},
 			},
 			["notifications"] = {
@@ -703,9 +703,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
+								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 								["criteria"] = "active_enemies > 3",
 								["action"] = "thunder_clap",
-								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 							}, -- [2]
 							{
 								["action"] = "overpower",
@@ -1389,9 +1389,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
+								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 								["criteria"] = "active_enemies > 3",
 								["action"] = "thunder_clap",
-								["description"] = "TODO: Determine threshold for TC vs. Overpower.",
 							}, -- [2]
 							{
 								["action"] = "overpower",
@@ -1893,7 +1893,6 @@ HekiliDB = {
 					},
 				},
 			},
-			["enabled"] = false,
 		},
 	},
 }

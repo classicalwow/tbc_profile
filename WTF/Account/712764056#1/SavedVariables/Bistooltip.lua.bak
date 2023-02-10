@@ -150,7 +150,7 @@ BisTooltipDB = {
 		["特斯拉大股東 - 伊弗斯"] = {
 			["class_index"] = 10,
 			["version"] = 6.1,
-			["phase_index"] = 2,
+			["phase_index"] = 3,
 			["data_source"] = "wowtbc",
 			["minimapPos"] = 246.5599118120476,
 		},

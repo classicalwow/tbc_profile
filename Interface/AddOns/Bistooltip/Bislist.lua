@@ -134,7 +134,7 @@ local function drawItemSlot(slot)
     spec_frame:AddChild(f)
     spec_frame:AddChild(createEnhancementsFrame(slot.enhs))
     for i, item_id in ipairs(slot) do
-        if item_id ~= nil and Bistooltip_char_equipment[item_id] == 1 then
+        if item_id ~= nil and Bistooltip_char_equipment[item_id] ~= nil then
             spec_frame:AddChild(createItemFrame(item_id, 40, true))
         else
             spec_frame:AddChild(createItemFrame(item_id, 40))
@@ -164,7 +164,15 @@ local function saveData()
     BistooltipAddon.db.char.phase_index = phase_index
 end
 
+local function clearCheckMarks()
+    for key, value in ipairs(checkmarks) do
+        value:SetTexture(nil)
+    end
+    checkmarks = {}
+end
+
 local function drawSpecData()
+    clearCheckMarks()
     saveData()
     items = {}
     spells = {}
@@ -174,10 +182,6 @@ local function drawSpecData()
         return
     end
     local slots = Bistooltip_bislists[class][spec][phase]
-    for key, value in ipairs(checkmarks) do
-        value:SetTexture(nil)
-    end
-    checkmarks = {}
     for i, slot in ipairs(slots) do
         drawItemSlot(slot)
     end
@@ -346,6 +350,7 @@ function BistooltipAddon:createMainFrame()
     --main_frame.frame:SetPropagateKeyboardInput(false)
 
     main_frame:SetCallback("OnClose", function(widget)
+        clearCheckMarks()
         spec_frame = nil
         items = {}
         spells = {}

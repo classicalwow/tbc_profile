@@ -28,7 +28,7 @@ local function createEquipmentWatcher()
             for i=0,18 do
                 local itemID = GetInventoryItemID("player", i)
                 if itemID ~= nil then
-                    collection[itemID] = 1
+                    collection[itemID] = 2
                 end
             end
             Bistooltip_char_equipment = collection
@@ -40,7 +40,7 @@ end
 function BistooltipAddon:OnInitialize()
     createEquipmentWatcher()
     BistooltipAddon.AceAddonName = "Bis-Tooltip"
-    BistooltipAddon.AddonNameAndVersion = "Bis-Tooltip v7.16"
+    BistooltipAddon.AddonNameAndVersion = "Bis-Tooltip v7.17"
     BistooltipAddon:initConfig()
     BistooltipAddon:addMapIcon()
     BistooltipAddon:initBislists()

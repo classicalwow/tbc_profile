@@ -15,9 +15,7 @@ BisTooltipDB = {
 			["data_source"] = "wowtbc",
 		},
 		["特變電工 - 伊弗斯"] = {
-			["class_index"] = 9,
-			["version"] = 6.1,
-			["phase_index"] = 2,
+			["minimapPos"] = 268.1705939600712,
 			["filter_specs"] = {
 				["Warrior"] = {
 					["Fury"] = true,
@@ -72,8 +70,10 @@ BisTooltipDB = {
 					["Destruction"] = true,
 				},
 			},
+			["class_index"] = 9,
+			["version"] = 6.1,
 			["data_source"] = "wowtbc",
-			["minimapPos"] = 268.1705939600712,
+			["phase_index"] = 2,
 		},
 		["畜生犬隊長 - 伊弗斯"] = {
 			["version"] = 6.1,
@@ -148,11 +148,11 @@ BisTooltipDB = {
 			["version"] = 6.1,
 		},
 		["特斯拉大股東 - 伊弗斯"] = {
-			["minimapPos"] = 246.5599118120476,
-			["phase_index"] = 3,
 			["class_index"] = 10,
-			["data_source"] = "wowtbc",
 			["version"] = 6.1,
+			["phase_index"] = 3,
+			["data_source"] = "wowtbc",
+			["minimapPos"] = 246.5599118120476,
 		},
 	},
 }

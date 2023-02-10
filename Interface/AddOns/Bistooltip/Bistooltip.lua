@@ -106,9 +106,13 @@ local function OnGameTooltipSetItem(tooltip)
             end
         end
     end
-    if (#item > 0 and Bistooltip_char_equipment[itemId] == 1) then
+    if #item > 0 and Bistooltip_char_equipment[itemId] ~= nil then
         LibExtraTip:AddLine(tooltip, " ", 1, 1, 0, false)
-        LibExtraTip:AddLine(tooltip, "You have this item in your inventory", 0.074, 0.964, 0.129, false)
+        if Bistooltip_char_equipment[itemId] == 2 then
+            LibExtraTip:AddLine(tooltip, "You have this item equipped", 0.074, 0.964, 0.129, false)
+        else
+            LibExtraTip:AddLine(tooltip, "You have this item in your inventory", 0.074, 0.964, 0.129, false)
+        end
     end
     if not (#item == specs_count) then
         if (#item > 0) then
