@@ -277,6 +277,58 @@ state.trinket.proc = state.trinket.stat
 state.trinket[1] = state.trinket.t1
 state.trinket[2] = state.trinket.t2
 
+state.tinker = {
+    head = {
+        slot = "head",
+        slotId = INVSLOT_HEAD,
+        item = 0,
+        texture = 0,
+        name = nil,
+        spell = 0
+    },
+    waist = {
+        slot = "waist",
+        slotId = INVSLOT_WAIST,
+        item = 0,
+        texture = 0,
+        name = nil,
+        spell = 0
+    },
+    feet = {
+        slot = "feet",
+        slotId = INVSLOT_FEET,
+        item = 0,
+        texture = 0,
+        name = nil,
+        spell = 0
+    },
+    hand = {
+        slot = "hand",
+        slotId = INVSLOT_HAND,
+        item = 0,
+        texture = 0,
+        name = nil,
+        spell = 0
+    },
+    back = {
+        slot = "back",
+        slotId = INVSLOT_BACK,
+        item = 0,
+        texture = 0,
+        name = nil,
+        spell = 0
+    }
+}
+for i=0,19,1 do
+    state.tinker[i] = nil
+end
+state.tinker[INVSLOT_HEAD] = state.tinker.head
+state.tinker[INVSLOT_WAIST] = state.tinker.waist
+state.tinker[INVSLOT_FEET] = state.tinker.feet
+state.tinker[INVSLOT_HAND] = state.tinker.hand
+state.tinker[INVSLOT_BACK] = state.tinker.back
+
+
 state.using_apl = setmetatable( {}, {
     __index = function( t, k )
         return false
@@ -987,7 +1039,7 @@ local function removeDebuffStack( unit, aura, stacks )
         d.lastCount = d.count
         d.count = max( 1, d.count - stacks )
     else
-        removeDebuff( unit, aura )
+        state.removeDebuff( unit, aura )
     end
 end
 state.removeDebuffStack = removeDebuffStack
@@ -2309,6 +2361,12 @@ local mt_stat = {
         elseif k == "haste_rating" then
             t[k] = GetCombatRating(CR_HASTE_MELEE)
 
+        elseif k == "armor_pen_rating" then
+            t[k] = GetCombatRating(CR_ARMOR_PENETRATION)
+
+        elseif k == "armor_penetration" then
+            t[k] = GetArmorPenetration()
+
         elseif k == "weapon_dps" or k == "weapon_offhand_dps" then
             local low, high, offlow, offhigh = UnitDamage( "player" )
             t.weapon_dps = 0.5 * ( low + high )
@@ -2361,7 +2419,7 @@ local mt_stat = {
             t[k] = 0
 
         elseif k == "crit" then
-            t[k] = ( max( GetCritChance(), GetSpellCritChance( "player" ), GetRangedCritChance() ) + ( t.mod_crit_pct or 0 ) )
+            t[k] = ( max( GetCritChance(), Hekili.IsWrath() and GetSpellCritChance( 3 ) or GetSpellCritChance( "player" ), GetRangedCritChance() ) + ( t.mod_crit_pct or 0 ) )
 
         end
 
@@ -2854,7 +2912,7 @@ do
                 end
 
                 if ability.item then
-                    GetCooldown = _G.GetItemCooldown
+                    GetCooldown = _G.C_Container.GetItemCooldown
                     id = ability.itemCd or ability.item
                 elseif ability.funcs.cooldown_special then
                     GetCooldown = ability.funcs.cooldown_special
@@ -2898,7 +2956,7 @@ do
                     local potion = class.potions[ itemName ]
 
                     if state.toggle.potions and potion and GetItemCount( potion.item ) > 0 then
-                        start, duration = GetItemCooldown( potion.item )
+                        start, duration = _G.C_Container.GetItemCooldown( potion.item )
 
                     else
                         start = state.now
@@ -3132,10 +3190,10 @@ local mt_gcd = {
             if gcd == "totem" then return 1 end
 
             if UnitPowerType( "player" ) == Enum.PowerType.Energy then
-                return state.buff.adrenaline_rush.up and 0.8 or 1
+                return state.spec.rogue and state.buff.adrenaline_rush.up and 0.8 or 1
             end
 
-            return max( ( state.spec.deathknight and state.buff.unholy_presence.up and 1 or 1.5 ) * state.haste, state.buff.voidform.up and 0.67 or 0.75 )
+            return max( ( state.spec.deathknight and state.buff.unholy_presence.up and 1 or 1.5 ) * state.haste, state.spec.priest and state.buff.voidform.up and 0.67 or 0.75 )
 
         elseif k == "remains" then
             return state.cooldown.global_cooldown.remains
@@ -3148,7 +3206,7 @@ local mt_gcd = {
                 return state.buff.adrenaline_rush.up and 0.8 or 1
             end
 
-            return max( ( state.buff.unholy_presence.up and 1 or 1.5 ) * state.haste, state.buff.voidform.up and 0.67 or 0.75 )
+            return max( ( state.spec.deathknight and state.buff.unholy_presence.up and 1 or 1.5 ) * state.haste, state.spec.priest and state.buff.voidform.up and 0.67 or 0.75 )
 
         elseif k == "lastStart" then
             return 0
@@ -6135,7 +6193,11 @@ do
             local res = rawget( state, k )
 
             if res then
-                res.actual = UnitPower( "player", power.type )
+                if k == "combo_points" then
+                    res.actual = UnitExists( "target" ) and GetComboPoints("player", "target") or UnitPower( "player", power.type )
+                else
+                    res.actual = UnitPower( "player", power.type )
+                end
                 res.max = UnitPowerMax( "player", power.type )
 
                 if res.max > 0 then foundResource = true end

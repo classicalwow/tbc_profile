@@ -24,7 +24,7 @@ local insert, wipe = table.insert, table.wipe
 
 local mt_resource = ns.metatables.mt_resource
 
-local GetItemCooldown = _G.GetItemCooldown
+local GetItemCooldown = _G.C_Container.GetItemCooldown
 
 local GetPlayerAuraBySpellID = _G.GetPlayerAuraBySpellID or function( id ) return FindUnitBuffByID( "player", id ) end
 
@@ -1347,6 +1347,33 @@ all:RegisterAuras( {
         end,
     },
 
+    -- Increases Stamina by $w1.
+    prayer_of_fortitude = {
+        id = 21562,
+        duration = 3600,
+        max_stack = 1,
+        copy = { 21562, 21564, 25392, 39231, 43939, 48162 },
+        shared = "player"
+    },
+
+    -- Increases Stamina by $w1.
+    power_word_fortitude = {
+        id = 1243,
+        duration = 1800,
+        max_stack = 1,
+        copy = { 1243, 1244, 1245, 2791, 10937, 10938, 23947, 23948, 25389, 48161 },
+        shared = "player"
+    },
+
+    -- Increases Spirit by $s1.
+    divine_spirit = {
+        id = 14752,
+        duration = 1800,
+        max_stack = 1,
+        copy = { 14752, 14818, 14819, 16875, 25312, 27841, 39234, 48073 },
+        shared = "player"
+    },
+
     demonic_pact = {
         id = 48090,
         duration = 34,
@@ -1388,6 +1415,21 @@ all:RegisterAuras( {
         copy = { 469, 45517, 47439, 47440 },
     },
 
+    -- Armor reduced by $s2%.
+    shattering_throw = {
+        id = 64382,
+        duration = 10,
+        max_stack = 1,
+    },
+
+    acid_spit = {
+        id = 55754,
+        duration = 30,
+        max_stack = 2,
+        shared = "target",
+        copy = { 55749, 55750, 55751, 55752, 55753, 55754 }
+    },
+
     -- Armor decreased by $s1%.
     sunder_armor = {
         id = 58567,
@@ -1395,6 +1437,12 @@ all:RegisterAuras( {
         max_stack = 5,
         shared = "target",
         copy = { 7405, 8380, 11596, 11597, 25225, 47467, 58567, 65936, 71554 },
+    },
+
+    major_armor_reduction = {
+        alias = { "sunder_armor", "acid_spit", "expose_armor" },
+        aliasType = "debuff",
+        aliasMode = "first"
     },
 
     -- Reduces melee attack power by $s1.
@@ -1441,10 +1489,69 @@ all:RegisterAuras( {
         copy = { 33876, 33982, 33983, 48565, 48566 },
     },
 
+    -- All bleed effects cause $s2% additional damage.
+    trauma = {
+        id = 46855,
+        duration = 60,
+        max_stack = 1,
+        shared = "target",
+        copy = { 46855, 46856, 46854, 46857 },
+    },
+
+    -- All bleed effects cause $s2% additional damage.
+    stampede = {
+        id = 57393,
+        duration = 12,
+        max_stack = 1,
+        shared = "target",
+        copy = { 57393, 57392, 57391, 57390, 57389, 57386 },
+    },
+
     mangle = {
-        alias = { "mangle_bear", "mangle_cat" },
+        alias = { "mangle_bear", "mangle_cat", "trauma", "stampede" },
         aliasType = "debuff",
         aliasMode = "longest"
+    },
+
+    -- Decreases armor by $s1%.  Cannot stealth or turn invisible.
+    faerie_fire = {
+        id = 770,
+        duration = 300,
+        max_stack = 1,
+        shared = "target",
+        copy = { 770, 778, 9749, 9907, 26993 },
+    },
+    -- Decreases armor by $s1%.  Cannot stealth or turn invisible.
+    faerie_fire_feral = {
+        id = 16857,
+        duration = 300,
+        max_stack = 1,
+        shared = "target",
+        copy = { 16857, 17390, 17391, 17392, 27011 },
+    },
+
+    -- Decreases armor by $s1%.  Cannot stealth or turn invisible.
+    curse_of_weakness = {
+        id = 50511,
+        duration = 120,
+        max_stack = 1,
+        shared = "target",
+        copy = { 50511, 30909, 27224, 11708, 11707, 7646, 6205, 1108, 702 },
+    },
+
+    -- Decreases armor by $s1%.  Cannot stealth or turn invisible.
+    sting = {
+        id = 56631,
+        duration = 20,
+        max_stack = 1,
+        shared = "target",
+        copy = { 56631, 56630, 56629, 56628, 56627, 56626 },
+    },
+
+    armor_reduction = {
+        alias = { "faerie_fire", "faerie_fire_feral", "curse_of_weakness", "sting" },
+        aliasType = "debuff",
+        aliasMode = "first"
     },
 
     -- Increases armor by $s1.
@@ -2206,6 +2313,24 @@ all:RegisterAuras( {
             t.applied = 0
             t.caster = "nobody"
         end,
+    },
+
+    banner_of_the_horde = {
+        id = 61574,
+        max_stack = 1,
+        shared = "target"
+    },
+
+    banner_of_the_alliance = {
+        id = 61573,
+        max_stack = 1,
+        shared = "target"
+    },
+
+    training_dummy = {
+        alias = { "banner_of_the_horde", "banner_of_the_alliance" },
+        aliasType = "buff",
+        aliasMode = "longest"
     }
 } )
 
@@ -3502,6 +3627,38 @@ all:RegisterAura( "chain_of_suffering", {
     duration = 25,
     max_stack = 1
 } )
+
+-- Tinkers
+if Hekili.IsWrath() then
+    all:RegisterAura( "hyperspeed_acceleration", {
+        id = 54758,
+        duration = 15,
+        max_stack = 1
+    })
+    all:RegisterAbility( "hyperspeed_acceleration", {
+        id = 54758,
+        known = function () return tinker.hand.spell == 54758 end,
+        cast = 0,
+        cooldown = 60,
+        gcd = "off",
+
+        item = function() return tinker.hand.spell == 54758 and tinker.hand.item or 0 end,
+        itemKey = "hyperspeed_acceleration",
+
+        texture = function() return tinker.hand.spell == 54758 and tinker.hand.texture or 0 end,
+        startsCombat = true,
+
+        toggle = "cooldowns",
+
+        usable = function ()
+            return tinker.hand.spell == 54758
+        end,
+
+        handler = function()
+            applyBuff("hyperspeed_acceleration")
+        end
+    } )
+end
 
 
 -- Mechagon

@@ -70,7 +70,7 @@ Details_Vanguard: enabled
 GearScoreLite: enabled
 Gladdy: disabled
 GTFO: enabled
-Hekili: enabled
+Hekili: disabled
 ItemRack: enabled
 ItemRackOptions: enabled
 Leatrix_Maps: disabled

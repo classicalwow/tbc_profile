@@ -9,6 +9,7 @@ CHANNELS
 寻求组队 0 4 0
 鏡花水月 1 5 0
 大脚世界频道 1 6 0
+zzm 1 7 0
 END
 
 ZONECHANNELS 0
@@ -159,6 +160,7 @@ END
 
 CHANNELS
 鏡花水月
+zzm
 END
 
 ZONECHANNELS 2097155

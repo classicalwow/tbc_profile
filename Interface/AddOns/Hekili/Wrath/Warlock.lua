@@ -139,8 +139,8 @@ spec:RegisterAuras( {
     -- $s1 Shadow damage every $t1 seconds.
     corruption = {
         id = 47813,
-        duration = 18,
-        tick_time = 3,
+        duration = function() return ( 18 * haste)	end,
+        tick_time = function() return ( 3 * haste)	end,
         max_stack = 1,
         copy = { 172, 6222, 6223, 7648, 11671, 11672, 25311, 27216, 47812, 47813 },
     },
@@ -242,22 +242,23 @@ spec:RegisterAuras( {
     -- Drains $s1 health every $t1 sec to the caster.
     drain_life = {
         id = 47857,
-        duration = 5,
-        tick_time = 1,
+        duration = function () return (5 * haste ) end,
+        tick_time = function () return (1 * haste ) end,
         max_stack = 1,
         copy = { 689, 699, 709, 7651, 11699, 11700, 27219, 27220, 47857, 358742 },
     },
     -- Drains $m1% mana each second to the caster.
     drain_mana = {
         id = 5138,
-        duration = 5,
-        tick_time = 1,
+		duration = function () return (5 * haste ) end,
+        tick_time = function () return (1 * haste ) end,
         max_stack = 1,
     },
     -- $s2 Shadow damage every $t2 seconds.
     drain_soul = {
         id = 47855,
-        duration = 15,
+		tick_time = function() return (3 * haste) end,
+        duration = function () return (15 * haste) end, 
         max_stack = 1,
         copy = { 1120, 8288, 8289, 11675, 27217, 47855 },
     },
@@ -537,6 +538,11 @@ spec:RegisterAuras( {
         duration = 3600,
         max_stack = 1,
     },
+	inferno = { -- TODO: Check Aura (https://wowhead.com/wotlk/spell=1122)
+        id = 89,
+        duration = 60,
+        max_stack = 1,
+    },
     -- Underwater Breathing.
     unending_breath = {
         id = 5697,
@@ -611,6 +617,7 @@ spec:RegisterPet( "felhunter", 417, "summon_felhunter", 3600 )
 spec:RegisterPet( "succubus", 1863, "summon_succubus", 3600 )
 spec:RegisterPet( "incubus", 185317, "summon_incubus", 3600 )
 spec:RegisterPet( "felguard", 17252, "summon_felguard", 3600 )
+spec:RegisterPet( "infernal", 89, "inferno", 60 )
 
 local cataclysm_reduction = {
     [0] = 1,
@@ -651,7 +658,7 @@ spec:RegisterStateExpr( "persistent_multiplier", function( action )
         end
     end
 
-    return 1
+    return mult
 end )
 
 spec:RegisterCombatLogEvent( function( _, subtype, _,  sourceGUID, sourceName, _, _, destGUID, destName, destFlags, _, spellID, spellName )
@@ -731,6 +738,9 @@ spec:RegisterHook( "runHandler", function( action )
     end
 end )
 
+spec:RegisterStateExpr("inferno_enabled", function()
+    return settings.inferno_enabled
+end)
 
 
 -- Abilities
@@ -738,7 +748,9 @@ spec:RegisterAbilities( {
     -- Banishes the enemy target, preventing all action but making it invulnerable for up to 20 sec.  Only one target can be banished at a time.  Casting Banish on a banished target will cancel the spell.  Only works on Demons and Elementals.
     banish = {
         id = 710,
-        cast = 1.5,
+        cast = function()
+            return ( 1.5 * haste)
+        end,
         cooldown = 0,
         gcd = "spell",
 
@@ -780,7 +792,9 @@ spec:RegisterAbilities( {
     -- Sends a bolt of chaotic fire at the enemy, dealing 864 to 1089 Fire damage. Chaos Bolt cannot be resisted, and pierces through all absorption effects.
     chaos_bolt = {
         id = 50796,
-        cast = 2.5,
+        cast =  function()
+            return ( 2.5 * haste)
+        end,
         cooldown = function() return ( glyph.chaos_bolt.enabled and 10 or 12 ) - 0.1 * talent.bane.rank end,
         gcd = "spell",
 
@@ -838,6 +852,8 @@ spec:RegisterAbilities( {
 
         startsCombat = true,
         texture = 136118,
+	
+		cycle = "corruption",
 
         handler = function( rank )
             applyDebuff( "target", "corruption" )
@@ -851,7 +867,9 @@ spec:RegisterAbilities( {
     -- While applied to target weapon it increases damage dealt by direct spells by 1% and spell critical strike rating by 7.  Lasts for 1 hour.
     create_firestone = {
         id = 6366,
-        cast = 3,
+        cast = function()
+            return ( 3 * haste)
+        end,
         cooldown = 0,
         gcd = "spell",
 
@@ -871,7 +889,9 @@ spec:RegisterAbilities( {
     -- Creates a Minor Healthstone that can be used to instantly restore 100 health.    Conjured items disappear if logged out for more than 15 minutes.
     create_healthstone = {
         id = 6201,
-        cast = 3,
+        cast = function()
+            return ( 3 * haste)
+        end,
         cooldown = 0,
         gcd = "spell",
 
@@ -891,7 +911,9 @@ spec:RegisterAbilities( {
     -- Creates a Minor Soulstone.  The Soulstone can be used to store one target's soul.  If the target dies while their soul is stored, they will be able to resurrect with 400 health and 700 mana.    Conjured items disappear if logged out for more than 15 minutes.
     create_soulstone = {
         id = 693,
-        cast = 3,
+        cast = function()
+            return ( 3 * haste)
+        end,
         cooldown = 0,
         gcd = "spell",
 
@@ -911,7 +933,9 @@ spec:RegisterAbilities( {
     -- While applied to target weapon it increases damage dealt by periodic spells by 1% and spell haste rating by 10.  Lasts for 1 hour.
     create_spellstone = {
         id = 2362,
-        cast = 5,
+        cast = function()
+            return ( 5 * haste)
+        end,
         cooldown = 0,
         gcd = "spell",
 
@@ -1252,22 +1276,28 @@ spec:RegisterAbilities( {
     -- Transfers 10 health every 1 sec from the target to the caster.  Lasts 5 sec.
     drain_life = {
         id = 689,
-        cast = 0,
+        cast = function() return ( 5 * haste) end,
         cooldown = 0,
         gcd = "spell",
-
+		channeled = true,
+        breakable = true,
         spend = function() return mod_suppression( 0.17 ) end,
         spendType = "mana",
-
         startsCombat = true,
         texture = 136169,
-
         aura = "drain_life",
-
+		tick_time = function () return class.auras.drain_life.tick_time end,
         start = function( rank )
             applyDebuff( "target", "drain_life" )
             if talent.everlasting_affliction.rank == 5 and dot.corruption.ticking then dot.corruption.expires = query_time + dot.corruption.duration end
             -- TODO: Decide whether to model health gains; Soul Siphon.
+        end,
+		tick = function () end,
+		breakchannel = function ()
+            removeDebuff( "target", "drain_life" )
+        end,
+		
+		handler = function ()
         end,
 
         copy = { 699, 709, 7651, 11699, 11700, 27219, 27220, 47857 },
@@ -1277,20 +1307,26 @@ spec:RegisterAbilities( {
     -- Transfers 3% of target's maximum mana every 1 sec from the target to the caster (up to a maximum of 6% of the caster's maximum mana every 1 sec).  Lasts 5 sec.
     drain_mana = {
         id = 5138,
-        cast = 0,
+        cast = function() return ( 5 * haste) end,
         cooldown = 0,
         gcd = "spell",
-
+		channeled = true,
+        breakable = true,
         spend = function() return mod_suppression( 0.17 ) end,
         spendType = "mana",
-
         startsCombat = true,
         texture = 136208,
-
         aura = "drain_mana",
-
+		tick_time = function () return class.auras.drain_mana.tick_time end,
         start = function( rank )
             applyDebuff( "target", "drain_mana" )
+        end,
+		
+		tick = function () end,
+		breakchannel = function ()
+		   removeDebuff( "target", "drain_mana" )
+        end,
+		handler = function ()
         end,
     },
 
@@ -1298,23 +1334,30 @@ spec:RegisterAbilities( {
     -- Drains the soul of the target, causing 55 Shadow damage over 15 sec.  If the target is at or below 25% health, Drain Soul causes four times the normal damage. If the target dies while being drained, and yields experience or honor, the caster gains a Soul Shard.  Each time the Drain Soul damages the target, it also has a chance to generate a Soul Shard.  Soul Shards are required for other spells.
     drain_soul = {
         id = 1120,
-        cast = 0,
+        cast = function() return ( 15 * haste) end,
         cooldown = 0,
         gcd = "spell",
-
+		channeled = true,
+        breakable = true,
         spend = function() return mod_suppression( 0.14 ) end,
         spendType = "mana",
-
         startsCombat = true,
         texture = 136163,
-
         aura = "drain_soul",
-
+		tick_time = function () return class.auras.drain_soul.tick_time end,
         start = function( rank )
             applyDebuff( "target", "drain_soul" )
             if talent.everlasting_affliction.rank == 5 and dot.corruption.ticking then dot.corruption.expires = query_time + dot.corruption.duration end
         end,
-
+		tick = function () end, 
+		
+		 breakchannel = function ()
+            removeDebuff( "target", "drain_soul" )
+        end,
+		
+		handler = function ()
+        end,
+		
         copy = { 8288, 8289, 11675, 27217, 47855 },
     },
 
@@ -1341,7 +1384,9 @@ spec:RegisterAbilities( {
     -- Strikes fear in the enemy, causing it to run in fear for up to 10 sec.  Damage caused may interrupt the effect.  Only 1 target can be feared at a time.
     fear = {
         id = 6215,
-        cast = 1.5,
+        cast = function()
+            return ( 1.5 * haste)
+        end,
         cooldown = 0,
         gcd = "spell",
 
@@ -1403,13 +1448,19 @@ spec:RegisterAbilities( {
     -- You send a ghostly soul into the target, dealing 405 to 473 Shadow damage and increasing all damage done by your Shadow damage-over-time effects on the target by 20% for 12 sec. When the Haunt spell ends or is dispelled, the soul returns to you, healing you for 100% of the damage it did to the target.
     haunt = {
         id = 48181,
-        cast = 1.5,
+        cast = function()
+            return ( 1.5 * haste)
+        end,
+		
         cooldown = 8,
         gcd = "spell",
 
         spend = 0.12,
         spendType = "mana",
-
+		
+		velocity = 6,
+		impact = function() end, 
+		
         talent = "haunt",
         startsCombat = true,
         texture = 236298,
@@ -1514,7 +1565,8 @@ spec:RegisterAbilities( {
 
         startsCombat = true,
         texture = 135817,
-
+		cycle = "immolate",
+		
         handler = function()
             removeDebuff( "target", "unstable_affliction" )
             applyDebuff( "target", "immolate" )
@@ -1722,7 +1774,9 @@ spec:RegisterAbilities( {
     -- Imbeds a demon seed in the enemy target, causing 1044 Shadow damage over 18 sec.  When the target takes 1044 total damage or dies, the seed will inflict 1110 to 1290 Shadow damage to all enemies within 15 yards of the target.  Only one Corruption spell per Warlock can be active on any one target.
     seed_of_corruption = {
         id = 27243,
-        cast = 2,
+        cast = function()
+            return ( 2 * haste)
+        end,
         cooldown = 0,
         gcd = "spell",
 
@@ -1763,7 +1817,7 @@ spec:RegisterAbilities( {
         cast = function()
             if buff.backlash.up then return 0 end
             if buff.shadow_trance.up then return 0 end
-            return ( 1.7 - 0.1 * talent.bane.rank ) * ( 1 - 0.1 * ( buff.backdraft.up and talent.backdraft.rank or 0 ) )
+            return ( 1.7 - 0.1 * talent.bane.rank ) * ( 1 - 0.1 * ( buff.backdraft.up and talent.backdraft.rank or 0 ) * haste )
         end,
         cooldown = 0,
         gcd = "spell",
@@ -1773,13 +1827,17 @@ spec:RegisterAbilities( {
 
         startsCombat = true,
         texture = 136197,
+		
+		cycle = "shadow_bolt",
 
+		velocity = 6,
+		impact = function()   if talent.improved_shadow_bolt.rank == 5 then applyDebuff( "target", "shadow_mastery", nil, debuff.shadow_mastery.stack + 1 ) end end, 
+		
         handler = function ()
             -- TODO: Confirm order in which Backlash vs. Shadow Trace would be consumed.
             if buff.backlash.up then removeBuff( "backlash" )
             elseif buff.shadow_trance.up then removeBuff( "shadow_trance" ) end
             if talent.shadow_embrace.enabled then applyDebuff( "target", "shadow_embrace", nil, debuff.shadow_embrace.stack + 1 ) end
-            if talent.improved_shadow_bolt.rank == 5 then applyDebuff( "target", "shadow_mastery", nil, debuff.shadow_mastery.stack + 1 ) end
             if talent.everlasting_affliction.rank == 5 and dot.corruption.ticking then dot.corruption.expires = query_time + dot.corruption.duration end
             removeStack( "backdraft" )
         end,
@@ -1871,7 +1929,7 @@ spec:RegisterAbilities( {
 
         startsCombat = true,
         texture = 236302,
-
+		cycle = "shadowflame",
         handler = function ()
             applyDebuff( "target", "shadowflame" )
         end,
@@ -1954,7 +2012,7 @@ spec:RegisterAbilities( {
 
 
     -- Reduces threat by 50% for all enemies within 50 yards.
-    soulshatter = {
+    soulshatter = {	
         id = 29858,
         cast = 0,
         cooldown = 180,
@@ -2021,7 +2079,31 @@ spec:RegisterAbilities( {
             dismissPet( "felhunter" )
             dismissPet( "succubus" )
             summonPet( "felguard" )
+			dismissPet( "infernal" )
             soul_shards = max( 0, soul_shards - 1 )
+        end
+    },
+	
+	inferno = {
+        id = 1122,
+        cast = function() return (1.5 * haste) end,
+        cooldown = 600,
+        gcd = "spell",
+
+        spend = function() return 0.8 * ( buff.fel_domination.up and 0.5 or 1 ) * ( 1 - 0.2 * talent.master_summoner.rank ) end,
+        spendType = "mana",
+		toggle = "cooldown",
+        startsCombat = false,
+        texture = 136219,
+        essential = true,
+
+        handler = function()
+            dismissPet( "imp" )
+            dismissPet( "voidwalker" )
+            dismissPet( "felhunter" )
+            dismissPet( "succubus" )
+            dismissPet( "felguard" )
+			summonPet( "infernal" )
         end
     },
 
@@ -2048,6 +2130,7 @@ spec:RegisterAbilities( {
             summonPet( "felhunter" )
             dismissPet( "succubus" )
             dismissPet( "felguard" )
+			dismissPet( "infernal" )
             soul_shards = max( 0, soul_shards - 1 )
         end
     },
@@ -2073,6 +2156,7 @@ spec:RegisterAbilities( {
             dismissPet( "felhunter" )
             dismissPet( "succubus" )
             dismissPet( "felguard" )
+			dismissPet( "infernal" )
         end
     },
 
@@ -2097,6 +2181,7 @@ spec:RegisterAbilities( {
             dismissPet( "felhunter" )
             summonPet( "succubus" )
             dismissPet( "felguard" )
+			dismissPet( "infernal" )
             soul_shards = max( 0, soul_shards - 1 )
         end
     },
@@ -2122,6 +2207,7 @@ spec:RegisterAbilities( {
             dismissPet( "felhunter" )
             summonPet( "succubus" )
             dismissPet( "felguard" )
+			dismissPet( "infernal" )
             soul_shards = max( 0, soul_shards - 1 )
         end
     },
@@ -2149,6 +2235,7 @@ spec:RegisterAbilities( {
             dismissPet( "felhunter" )
             dismissPet( "succubus" )
             dismissPet( "felguard" )
+			dismissPet( "infernal" )
             soul_shards = max( 0, soul_shards - 1 )
         end
     },
@@ -2173,10 +2260,13 @@ spec:RegisterAbilities( {
     },
 
 
-    -- Shadow energy slowly destroys the target, causing 550 damage over 15 sec.  In addition, if the Unstable Affliction is dispelled it will cause 990 damage to the dispeller and silence them for 5 sec. Only one Unstable Affliction or Immolate per Warlock can be active on any one target.
+    -- Shadow energy slowly destroys the target, causing 550 damage over 15 sec.  In addition, if the ` Affliction is dispelled it will cause 990 damage to the dispeller and silence them for 5 sec. Only one Unstable Affliction or Immolate per Warlock can be active on any one target.
     unstable_affliction = {
         id = 47843,
-        cast = function() return glyph.unstable_affliction.enabled and 1.3 or 1.5 end,
+        cast = function() 
+			if glyph.unstable_affliction.enabled then return 1.3 or 1.5 * haste end
+			return (1.5 * haste)
+			end,
         cooldown = 0,
         gcd = "spell",
 
@@ -2186,7 +2276,8 @@ spec:RegisterAbilities( {
         talent = "unstable_affliction",
         startsCombat = true,
         texture = 136228,
-
+		
+		cycle = "unstable_affliction",
         handler = function ()
             removeDebuff( "target", "immolate" )
             applyDebuff( "target", "unstable_affliction" )
@@ -2247,6 +2338,16 @@ spec:RegisterSetting( "group_curse", "curse_of_the_elements", {
     end,
 } )
 
+spec:RegisterSetting("inferno_enabled", false, {
+    type = "toggle",
+    name = "Inferno: Enabled?",
+    desc = "Select whether or not Inferno should be used",
+    width = "full",
+    set = function( _, val )
+        Hekili.DB.profile.specs[ 9 ].settings.inferno_enabled = val
+    end
+})
+
 spec:RegisterSetting( "group_type", "party", {
     type = "select",
     name = "Group Type for Group Curse",
@@ -2284,15 +2385,15 @@ spec:RegisterOptions( {
 
     potion = "wild_magic",
 
-    package = "Affliction (wowtbc.gg)",
+    package = "Affliction",
 
-    package1 = "Affliction (wowtbc.gg)",
+    package1 = "Affliction",
     package2 = "Demonology (wowtbc.gg)",
-    package3 = "Destruction (wowtbc.gg)",
+    package3 = "Destruction",
 } )
 
-spec:RegisterPack( "Affliction (wowtbc.gg)", 20221002, [[Hekili:1EvuVnkoq4FlvRu0DQzjbs6U3EkPs3922h69aR09gGdycwXGrgtJIue)2VX2jGdXqsv79sBap(Bgp(B(MHa3GFf4NGe4Gx9M755oFUNJ7Y5Ulxe4louId8lrX7qBHFuGYH)(xPPusSGWkAI(T9S9InXoB3(7s7oqzOejEvSAEmyBMquw9NZM1Ag8lbD3SykQQ6RBRjj4QzOwa)6EeNYI3nlWFtnHk(zrWgRbNRh4JsCCWR)aCcjjbRTexfh4)RmsvtujNW4eXHMi5tBqv4KMizmlYWnrTbutKkkCc8PKkrLm4rmm8VxvjgCbAdfNe83b(XaAyobbgab7B4qCboNGbWFUjArt0eaAeFlw4KaiHkIb3SQjYDUEdSciKZqjS9PuzEuahPEEO1mmojKLggZ486s97UdV)aeaK4DKITG5hIP4qD8ujplG7wmG7S7Mo0uG33RWjBPD3SCa3uxazf4LHD33Fk(7Pb8hjpNrLuNHDI8refxiCSeCoNW89focjlmfvtfJZHmVSgldzHM8Xoowsqw4g29XXJqDfMxb8BWlH5WPKusjyUIfMWeoDCjNYULTY1Sqv68QeRmunCu44CePqNYJrvIqbjhQSESjYRdwLP2idgiI3uNM6KFimUMxHDGcXcvwt9y4woRU0m7OFnufc6fHykohoXvsx8T3LlSaiAlR4GePVRuBoTCjt))oKbl(dtlQHTdUkVQNr)yWaAl9qzMdLKkjPLxqOvrA7kxgPNFTeCq(6Did6cIxcoq4Ku)UtoIsd1pekvz1ATH62js1wP5dxQCIttYl5S3aLrTkA4ggvCXrQcleanTY5Kb5aBbZpOw70vZLRCFCld3Pc0Hlhpj)NHrurMtzSqbS3tDyLWb)fcDhPq5xbSnzXqijvt4Tv1Ekex5D8yV6lZvSr8KX6ct(J5b5cge8yjhhZY3GUHQLYniEoJ3JYKIHBy57VPGvjKH0mhJiRgKIkcbqYQLzLBQinciVXij7r0DAugwHzCuaY24YjFcLwF7ML)F))RAIHy3kUWBsfEyT2rUc8H5YkKWe4)Z8sgxirFHUROCKk1OtonVaWwlYasGF78vsQflLqHu8x(stK5WJ)REyVMxKl41e9pXc2gzVePFBEP5fn8voTKZhxpRLOnLKUUhD0(o6tUKB8HUR(r3uhz69Sl4w5Um)mzqASD(0KR5s2HstFgiQ6UILE6oOotgskT7sbW1ICL6yFECbdtppQH56tE42dRyIrN0NjkhpADGKNhEyetmvZniH7Q5nw12p4rpZDOMtqlZQ2NfL3jxmrH5MRyu247106E3PYm(5jamF5hJfjtS9Appv2yEn0xEQUx(Axj0AI85U9p7EX56tJHnz0g1dDP01wDQzx11F6nv1NUED5x590ajdtrmiF2UO6laTKuxmP3xqUYD(viC1hho9IpdX6T1IjxvvEcUXHPTw9s8wTSpm20c(i41kymgi3HaYvos1Il4)(d]] )
+spec:RegisterPack( "Affliction", 20230208, [[Hekili:DRvBVTTnq4FlffqydjttYo2nbq2aBFATBOyaQFwsmYuXerVbj60Aad9BF3jklrrrjRK0SoSp0MgrYN749YZD8q9S9(IN7ocN695fwlwATW6wtR7wyzT2ZLFmN65MtcFK8a8psjjWF)BrrXSqollfx6yCgzhcrz2HIqyzp37pWI5Fm17E94UYZLCGVpRWZ9pzXzHEU7z72rf7Nwc)(x2ZkRcW)qQcAKEvqwe871YTkiMvYHLJYkQc(d6JSyMPNB9hrvjMfrHF(56RgPrv3rj89(HzSypxAk5(y6oVF3JdAxVDvqyP(1a0BxCeGiYHyElWDl7gwW40cgrGZtuFAknHrbnCtvGDvGrvaNu8aLBUNsI57nZd5vbBRcwSUt0fhs9f)BF8MiUp(cBEjVvtNLyDQcUPwSQlS97J(qYOOcTC2keG9YVdYTKccce8nJkyn47mF8PFJgEGxF3wnQiuXE18WUoOQoskVGgMLCprBS0zOIOX(KIemnbZkky5IV)B)9Fvf80sZBmT)fBZ1MGF(9YA39hIImRpO5USVc5kNovfi9XcAceIlIrSV1A64Q3b5FG1u4nR9FcfVoW2QtzlpKKa3zqN3Fifo70bhptuFkJT7RK4hfWoUR)zclljFA)8dXhZ3BIUnFoj3Szp1axBpBxbTZDWF(Zi4RL5wYZe)Sh7ZhMisoMMYnb1Si7j6o)Y9eqq(3NfZ7PlLuoNL(qPzZgsiLachRxBhTwt7VII(kHRi88CsGkdQw9Vh75HsQpO(jLkBA8qHDzCZdPLCCjFsBLLErPHGA7ZzjcFkEI9eikRBpB7TNRasMcYtq6t7VhdLHsdfMe8J(8m)DmyTTi)Su(Rgv5IXCCw4JG9xKOPr7C2mt1RtnQry6GtvbNtlkbUgiIXpbQsXYJz0IAtdQsHzffhQjqmZ7wUtGDR3g1Q3DjINso6hEOOK2WWOZQU4gj0X96Nf5tEil940r9jKusl1QTLe9vB6MCSXkXg(oKQE74jIY3nuRKUA7pIg(COSeW7hsJPfKZwX7qaziBiAA9zrisHpwUDJTXpnioXztBmYvsXhx1eBC60fYuC2iujT7Pd6g4mAktkD1a1AfifnoyTBEXn)SAxtqhGXd6Ac7uyYoM(H5WvR6PjxWn8yymEa8(xI3cqD)MF)V6ARpVuhX3u8mZtylhxyQSuJK(9QLJkPuFwR5b)e2mv2hDbzxSFVvA0Jj5DuyjBd5AQ4mznQM903opyzLYcAAohu8LtuxU8cV9qUKWO1(FZkAmEtK9RnufCN1S4pNUPHxtlax0H6OI2Gk0VjnkmZ7WlUpHUNFP6sSx9gByMOLcTPgxutG9irB8IA1qNTaBwBTvn8DfMWhOk(glnIwKM5FgVw52SW0nsOR46uQ(D)3ROPTfQtdiD9CDKFIT2xkypoZvdE7aUisAytxwwQuHrX47OrKMGR5n7rtJNdSymo7pBVu(1rYlQ2Mu9GnMKD)zAJgR7guqyqwVUCAfIAfP2X2iNRPRW64K1)OcvRnRpHf4GfopcYp45(vsrk659C)ysEwbhr9dktw0S6tGLkNgI5GUqOuelM65((QaDtFP6tIdxA2oyNR28RTZV5Aw0gLHYC60WbY4yFRLEKuhUcc476M0HHyJBM(0Ddr5fDCiH65DUZEc8u6DMgdDK6HsWMmI61LtHsAgP)gJK6Bm(SsQ(uRWbrQmJVRXP7TPSw89tFG35nGOC7I1xel4jtdbZ5gJ(Fy7leDKayi8Bx(YqRzwrcBVY5DMX5r3pEy5tTsYEBwIE5oYQ6GWgMOr8ynRE6K2UB3oENTkcDKwtRVQsVe(olLZPPTf8md6Zz7Kp434sV3FWB6vvFuwYMlXie6p0HjvH5DVA9gAMsG9Qx91OFxrAnKxsggNvrfOB6ztk2vs3D2S2Y4CTRTlSmuA97YQPUrL1)qYCKNfLJTvt1b1YJoRoD6fWKw2rHE9Gu0nY5OITk1hHKL5CBhG6PD)VHmWdJuwmUkitD0WnPPcs3kTtSw7IJNjpRqAJNBoVY440PtZkTE6zjQdw9mSVgoujSNvUHHY4f1H0)kjms26zvbWXwRU2nUQRLhc8M)Fnd4ELQbd1ZKaP5edEtY19EJXgBTnSOHwxG3BAysN0G(0ERfwFrnH9zWiwf2SHMibs6y2UmKlNcsLS8xjAcAUldYK3sPuqnNst)QRurqP4M(HeFX(pgF4WdRqO0LVZs5iom6aVxT)xzz4sD))xbFaS3)m]] )
 
 spec:RegisterPack( "Demonology (wowtbc.gg)", 20221002, [[Hekili:TEvxVnkou0FlJgPODv7qcjTZ0zvBFy1(Y0Du3hYinVb4ymGvnyKTPrrQIF7712aXqaAAN5LwaF)Y3ZXxFsGFWpc2gJuKGhxVA9A)vRw75VEZM1xfSvDOKeSTeHFcLcpuGYH)(pKCEbNXtpuh9h757v7WEPP)P2UdmokwhpjVsGbBZuQs5FTCzNzWtk2tlXmKu(P0kAmrUmUlGFApsW44NwgSDxfLP(wrWUrlo)Vc5OKGdEeEiJghtSwsK4GT)iJkRJkfuUGQGICpcEDp8SIuuhTdjjX1rC4rvgbwOT0QJ(PaPYGLsAw67um86)slG1m1QxWwgvQK6TiItG)9OP9rkq7yK4G)oylgYdrqrGbyf9zsiPGKtjqfCFD0g7x5fbBZjkuoxuMXLuzGc2FtgOpuhvvE0tAEoNH0phIQeiTVBENfHmdfZ3NW04keMREVHHqId5jHyUquvA(geTRheTwRDSQ)MurXpz61lQJgMWBRJa(i(aMrcvirkbabO3dP5ZtKMM2e53rsuAQvcQIP6G820yiVuCijVKVNiYjfk3YPfyBnVKB)FplMg(guW2IYtrZHcKhgtjgOiMR8A3UEXaNWMJt6eZcXXKDvjjE5hcXvcjeh((ctsnVgMk4vLGphHrZNbuhoQesye9oxogUpFkgjGOuEXHXG23tF5iBBKotFc7xMmDj00mvOGKJOfw2pmkQo6LxGXjCP0uddSrZLwnZX9BCzfvWghYvUCaX4Rtwr2gPBq9QkD7fXWCkub22iUzaFneNPTsNc)v)cZD8Ftt)8HjfkbfRD0bdqmwO9Lq9Wv7i2q7Dn6HSAZNE4OcXaIhq)lf8NHXq2rAH74mLxJdM2sd3Rz5CKe8)GNlCHHVfQPq1rxaa8WPKMqAkMPpUMYouM5XOj65hL9YVj7DR0N53(zt0VYLy0N20NC4p9bTMMsmbtZniwVsPHHKrqmvMxjwz2(BU(yDcanCxPEEoXZLcaxRZctOclOm9XZzdcTatliIMbs(FXD)62Q7TBHxlfempFhsn)1UMCJeqxBqxoHa8m93F1BBlHUJL)6uzv56doqqsRqI4xDS9mX4zonEpI9erm)e55JcW4NFA7VbY4NF1RUMEM5zCWCCILbSFMiK6v6K9fSf0gwad8HJbFdURvO07Ln2lX1I5mcZ8QFacALkdq5TDk70ChEcLbnXp(X6ixbS)0k4S(b9cRRJ(pSIVJiGNH8w)q9d2Wl96yFxC3YoM0L0K7gW3g3JbShTFF4i2oRphzlVfVG2(zzElARnECcZItjlJhkl)yIQQfF155mygoDEW7r0y5U8GedFPvXJPf0iuyXPIeUFuHtUbYO6XQwrhRXeWSON(ixNLahBEFDT(OwKZPQhrwJBW6DVHoE9uNCpCI6Lx0kxw0773E1k3G0Pk5eSOr)qh9FOqKfdeHC)nJGo0gHeMTliEXTxmqtWLA1a3bIbU0kG4oFTtwEDReJ79717pYPotk3IzviCBN6Glw7MNFTZpdrQ(SNtpYC6f6lo5Y8B3C9IrU)Tha0Dd8reCsJDAvUZdbWymE2amzZqhEfSVXkNFx65e0t)9NNJxow37N8zjxDha7hMBVAIDe5nfeZLCb))p]] )
 
-spec:RegisterPack( "Destruction (wowtbc.gg)", 20221002, [[Hekili:TAvqZTPoq4FlD6m(stXgBN0KoX9qNEj(qEhOD6naHqG1eHeJKiz8f9BVRKmyGi38Y8ExSbPvF7UF7QVL040FMMuI0K0hxVA964vRwhfVnE9MRtt0hBjPjTi8tOA4boQb(9heLw2H1ub3U3rMavAXqj6Kyy)dADR6Rlx(I4fDboQUgEsZEAjMHuQpx3rljQLLNb5ZVGKmb(PLPjfDuM(bEArWiADm4Kwco9X7aVqlljEljkCAYppqvM8wjviP6JMC7BfifP0K31k4MC9bIjFiMm5)wI0hm5U4jknHrvALnnqcc83JoAHWrfmsz63ttWaSejfbgar9ZKmcN0qjGx(MjFJjFb4bKSMOJkbKqCm4T7n5XR8hWYvQdOsXlvmllQHCBMhgmJqkZevzyHu216x7FH3)aeau8tuEny(rmJK5JhLnxa3T5cUJ20iywYEKtoJ1a0igHRJ64qUbiKHQQyuhcrNW0z58OdyGTbdhTTUvH6y6)ozxsk6QQIAoMH7KkseqGCNNCVMvlfDTWzgYg)Ya7bL7mcJ0arTkeBhkzdqk9e3a(couaRLoc7mCGzBFx5qGigvl4hTiD9frQMDS9qeJwzzZ2jmVZfd7m1f9lBb)MjzZbKqLviGQW0K5lVl2AuNkC2Bh7HwH))jOF3yl6GShaVrnZi4MZ74gOvAqlHosBZ05adXyz(xYSxW9xZZ86y2l6wZN38fiRg57gXZUCNr5Kmm05DJdKl3E5pGRg1G4OOwS2DV42vHlqXt63OCm4OaTBXZ73SYGs6P49xkq(jXP3yY)ouFbvqUMYm5pmaOxJKrqsoPmAUmLVRWDrTvsWIMc0BCv11bIKnc5S2VkcueSR)M3dBb5tFXDu40b3f5z0M2qQy)VE3y7B25E9ylGbESSkQCwPXXzWmnou2HM6hAAfsTns241hTdJCtBIm7bW60haMjzyYKLVfvugG6h)OjF00wyMLFsPzVDN1M8)bRffej8mmN0S3S3JVkAOK9PDlhO)ROv7MvKcFIZuU9iF4CvjS59uO14WvHfVUcegkpPFHOQNUhLOWYUraELvBaesSDXKHfJpCVoVlp7h5nA)rY9JxwjyI)UlhB9)n(XgfdY0tJTE9Plf9ZytyLbX2jantL8kR(4oqE8kVK6UyRdMk6(T4lekN0f3DJ9mN0(Uax43DrVQ493UAsP5Sq1EOB)9ROnPGDwtB81eihh209Dzbs0nlM9DD3hV6vi8Qpz7QjFZtqgCZIxvZob3qxzaq6pdC438tYwm1J3V1PnL(Np]] )
+spec:RegisterPack( "Destruction", 20230204, [[Hekili:1EvBloUnq4FlhhKV09CTDYMBlKeOh9d92wwkK(zBRylNiwzlJS8EeWOF7DKKF3YjPuklSjXAMNzMN5n5aVG)o4ycsGdEZ31FTRV7ghp3nF175GJIRf4GJfO43rNHVKJYG))B4sbVkwqy5QZUszOefgLSkEmCEWXtveQ475bNSd8Aq2cCCWB)sWXlKKeSrsCz8iWLr)aXPS43LrfCcJtexLrPmUm63XVtOKGJusPOuzAkjfdF(MowqnUwcgjUegZi0GJ4C0jkoj4BbcWBgjfhrYd1amskHcGuufv0bC)XhJbVbZjidoFGdX54mcUugTtg53JoVkp089qLZAC5qdpwk6CMhc5dYiVhdzedRGE9IqFbJOIlofXcJd)8JHRML0utbhhZYoHSsoTqLIPHiEgJBsUCsH55)6F9NYOpw7SXX9lEW)9LrFEO3DQkn1rROtc7hqDqDTmAWd54miNz4AVxCVnl(jO6blCmKzVVvwLLbHijR42m1z61IloQapuGkCAKrgTQXJ6or5P9W3(yf4BgwUvWmFoPutLXUbtwEbb4Ns1zHBwHSw7Ace)me0jqQdLhJnmLlO61yQYVuNwQmNfQRZMyCsilfAG48QMm3dyAGVfK43j5NTBUPuDR5iq(GQgwmo3DtS2SawdDzkjhhgNeCCRfmgyRm2hk7OZgL3PNpbRZ9zxdJR4L4MQui41)m8mNvva607p6hdCP4cqzuCgohS)9kBBcDt5Fct40srJBaSqHT0CpFKd1oN5A6D0OWPm4TJrlre6ml)QcPN))SfA7OO5cIvgEIbtMhhmF9FfB2xKmIp9TwgbO)Y9AJH1zdKOc4hW8zLtecAdxYlB6AfKmiWzHjevJ7Ez0wxnzLHYrMr2qZMV5zK8umpNf2rQQORbNjd53yvJbvpMd0(4sZHSplOP1zyRMcKLlUnkmjOax8fxtam6HQ5w2Qj8gvItYJbRBPc3B5sCB89Ho6(bBasySmTDwUbWAETZol4fRDVr3MEk1hyEP6yZTR88HjbWfMYbMfQ5(EwbJluveplJm4iJ03xYr(QA)nlLqbU6ZYiBRJLVA0P0PBt)pT)N7wO)ejD)KT011Z3qVd2oBhP(1VkO(u)gA7I3M3vcBFCYQ5JsSdLPZv(QmQ5VwPGZMC3NNu36zp8jy1X7725Fx1Gn6Z17G3D1tfckf77E35)CVZA7BTHzPk(0lFmLSkySvfVA0AQj63UerNxAgAwxBB9ZoVjQoynZKtkzu2T9Pjk8FmHBCNU9eZ8Z2PyZdY5BfgKRnQ3wbn6HDJ7NsNMPQkdnVrF3(TURAh2DW3D1KHZ11ZgLVBZmPwo6AgiVFRY8ndDxMNnc05p7EXTUU7hEUluV1p4DQFmCcP94)ae(pqXW4XFlqLauwmWAy(tpAqpPQyS)Y0pn6gH79S0XUE1KltROIPio7QYpeWTvEtHRRf0cilPJ1SUf9BRc61xvcaa0)2YZpAWRiJQexuVq3FqG3m)lFdcMeIwA9oPG)5d]] )

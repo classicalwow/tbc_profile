@@ -6,6 +6,12 @@ local class, state = Hekili.Class, Hekili.State
 
 local spec = Hekili:NewSpecialization( 5 )
 
+-- Sets
+spec:RegisterGear( "tier7", 39521, 39530, 39529, 39528, 39523, 40456, 40454, 40459, 40457, 40458 )
+spec:RegisterGear( "tier9", 48755, 48756, 48757, 48758, 48759, 48078, 48077, 48081, 48079, 48080, 48085, 48086, 48082, 48084, 48083 )
+spec:RegisterGear( "tier10", 51259, 51257, 51256, 51255, 51258, 51181, 51180, 51182, 51183, 51184, 51741, 51740, 51739, 51738, 51737 )
+
+-- Resources
 spec:RegisterResource( Enum.PowerType.Mana )
 
 -- Talents
@@ -94,7 +100,6 @@ spec:RegisterTalents( {
     veiled_shadows                = {   483, 2, 15274, 15311 },
 } )
 
-
 -- Auras
 spec:RegisterAuras( {
     -- Attempts to dispel $10872s1 disease every $t1 seconds.
@@ -134,9 +139,10 @@ spec:RegisterAuras( {
     -- Causes $s1 damage every $t1 seconds, healing the caster.
     devouring_plague = {
         id = 2944,
-        duration = 24,
-        tick_time = 3,
+        duration = function() return 24 * spell_haste end,
+        tick_time = function() return 3 * (buff.shadowform.up and spell_haste or 1) end,
         max_stack = 1,
+
         copy = { 2944, 19276, 19277, 19278, 19279, 19280, 25467, 48299, 48300 },
     },
     -- Reduces all damage by $s1%, and you regenerate $49766s1% mana every $60069t1 sec for $d.  Cannot attack or cast spells. Immune to snare and movement impairing effects.
@@ -157,13 +163,6 @@ spec:RegisterAuras( {
         duration = 8,
         max_stack = 1,
         copy = { 64844, 64843 },
-    },
-    -- Increases Spirit by $s1.
-    divine_spirit = {
-        id = 14752,
-        duration = 1800,
-        max_stack = 1,
-        copy = { 14752, 14818, 14819, 16875, 25312, 27841, 39234, 48073 },
     },
     -- Reduced threat level.
     fade = {
@@ -307,15 +306,16 @@ spec:RegisterAuras( {
     -- Movement speed slowed.
     mind_flay = {
         id = 15407,
-        duration = 3,
+        duration = function() return (3 - (set_bonus.tier10_4pc == 1 and 0.5 or 0)) * spell_haste end,
+        tick_time = function() return (1 - (set_bonus.tier10_4pc == 1 and 0.17 or 0)) * spell_haste end,
         max_stack = 1,
         copy = { 15407, 17311, 17312, 17313, 17314, 18807, 25387, 48155, 48156, 58381 },
     },
     -- Causing shadow damage to all targets within $49821a1 yards.
     mind_sear = {
         id = 48045,
-        duration = 5,
-        tick_time = 1,
+        duration = function() return 5 * spell_haste end,
+        tick_time = function() return 1 * spell_haste end,
         max_stack = 1,
         copy = { 48045, 49821, 53022, 53023, 60441 },
     },
@@ -351,26 +351,12 @@ spec:RegisterAuras( {
         duration = 15,
         max_stack = 1,
     },
-    -- Increases Stamina by $w1.
-    power_word_fortitude = {
-        id = 1243,
-        duration = 1800,
-        max_stack = 1,
-        copy = { 1243, 1244, 1245, 2791, 10937, 10938, 23947, 23948, 25389, 48161 },
-    },
     -- Absorbs damage.
     power_word_shield = {
         id = 17,
         duration = 30,
         max_stack = 1,
         copy = { 17, 592, 600, 3747, 6065, 6066, 10898, 10899, 10900, 10901, 25217, 25218, 27607, 48065, 48066 },
-    },
-    -- Increases Stamina by $w1.
-    prayer_of_fortitude = {
-        id = 21562,
-        duration = 3600,
-        max_stack = 1,
-        copy = { 21562, 21564, 25392, 39231, 43939, 48162 },
     },
     -- Increases Shadow Resistance by $s1.
     prayer_of_shadow_protection = {
@@ -450,6 +436,10 @@ spec:RegisterAuras( {
         max_stack = 1,
         copy = { 589, 594, 970, 992, 2767, 10892, 10893, 10894, 25367, 25368, 27605, 48124, 48125 },
     },
+    shadowfiend = {
+        duration = 15,
+        max_stack = 1,
+    },
     -- Shadow damage you deal increased by $s2%.  All damage you take reduced by $s3% and threat generated is reduced by $49868s1%. You may not cast Holy spells except Cure Disease and Abolish Disease.  Grants the periodic damage from your Shadow Word: Pain, Devouring Plague, and Vampiric Touch spells the ability to critically hit for $49868s2% increased damage and grants Devouring Plague and Vampiric Touch the ability to benefit from haste.
     shadowform = {
         id = 15473,
@@ -503,12 +493,12 @@ spec:RegisterAuras( {
     -- $s2 Shadow damage every $t2 seconds. Priest's party or raid members gain 1% of their maximum mana per 5 sec when the priest deals damage from Mind Blast.
     vampiric_touch = {
         id = 34914,
-        duration = 15,
+        duration = function() return (15 + (set_bonus.tier9_2pc == 1 and 6 or 0)) * (buff.shadowform.up and spell_haste or 1) end,
         max_stack = 1,
+        tick_time = function() return 3 * (buff.shadowform.up and spell_haste or 1) end,
         copy = { 34914, 34916, 34917, 48159, 48160 },
     },
 } )
-
 
 -- Glyphs
 spec:RegisterGlyphs( {
@@ -545,7 +535,6 @@ spec:RegisterGlyphs( {
     [55692] = "smite",
     [55685] = "spirit_of_redemption",
 } )
-
 
 -- Abilities
 spec:RegisterAbilities( {
@@ -659,6 +648,10 @@ spec:RegisterAbilities( {
         texture = 252997,
 
         handler = function ()
+            if talent.shadow_weaving.rank == 3 then
+                addStack("shadow_weaving")
+            end
+            applyDebuff("target", "devouring_plague")
         end,
 
         copy = { 19276, 19277, 19278, 19279, 19280, 25467, 48299, 48300 },
@@ -956,6 +949,7 @@ spec:RegisterAbilities( {
         toggle = "cooldowns",
 
         handler = function ()
+            applyBuff("inner_focus")
         end,
     },
 
@@ -1059,11 +1053,11 @@ spec:RegisterAbilities( {
     -- Blasts the target for 42 to 46 Shadow damage.
     mind_blast = {
         id = 8092,
-        cast = 1.5,
-        cooldown = 8,
+        cast = function() return 1.5 * haste end,
+        cooldown = function() return 8 - (0.5 * talent.improved_mind_blast.rank) end,
         gcd = "spell",
 
-        spend = 0.17,
+        spend = function() return 0.17 * (set_bonus.tier7_2pc == 1 and 0.90 or 1) end,
         spendType = "mana",
 
         startsCombat = true,
@@ -1097,7 +1091,9 @@ spec:RegisterAbilities( {
     -- Assault the target's mind with Shadow energy, causing 45 Shadow damage over 3 sec and slowing their movement speed by 50%.
     mind_flay = {
         id = 15407,
-        cast = 0,
+        cast = function() return 8 * spell_haste end,
+        channeled = true,
+        breakable = true,
         cooldown = 0,
         gcd = "spell",
 
@@ -1108,15 +1104,39 @@ spec:RegisterAbilities( {
         startsCombat = true,
         texture = 136208,
 
+        aura = "mind_flay",
+        tick_time = function () return class.auras.mind_flay.tick_time end,
+
+        start = function ()
+            applyDebuff( "target", "mind_flay" )
+            if talent.pain_and_suffering.rank == 3 then
+                applyDebuff("shadow_word_pain")
+            end
+        end,
+
+        tick = function ()
+            if talent.shadow_weaving.rank == 3 then
+                addStack("shadow_weaving")
+            end
+        end,
+
+        breakchannel = function ()
+            removeDebuff( "target", "mind_flay" )
+        end,
+
         handler = function ()
         end,
+
+        copy = { 17311, 17312, 17313, 17314, 18807, 25387, 48155, 48156 }
     },
 
 
     -- Causes an explosion of shadow magic around the enemy target, causing 183 to 197 Shadow damage every 1 sec for 5 sec to all enemies within 10 yards around the target.
     mind_sear = {
         id = 48045,
-        cast = 0,
+        cast = function() return 5 * spell_haste end,
+        channeled = true,
+        breakable = true,
         cooldown = 0,
         gcd = "spell",
 
@@ -1125,6 +1145,20 @@ spec:RegisterAbilities( {
 
         startsCombat = true,
         texture = 237565,
+
+        aura = "mind_sear",
+        tick_time = function () return class.auras.mind_sear.tick_time end,
+
+        start = function ()
+            applyDebuff( "target", "mind_sear" )
+        end,
+
+        tick = function ()
+        end,
+
+        breakchannel = function ()
+            removeDebuff( "target", "mind_sear" )
+        end,
 
         handler = function ()
         end,
@@ -1246,6 +1280,7 @@ spec:RegisterAbilities( {
         texture = 135987,
 
         handler = function ()
+            applyBuff("power_word_fortitude")
         end,
 
         copy = { 1244, 1245, 2791, 10937, 10938, 25389, 48161 },
@@ -1288,6 +1323,7 @@ spec:RegisterAbilities( {
         texture = 135941,
 
         handler = function ()
+            applyBuff("prayer_of_fortitude")
         end,
 
         copy = { 21564, 25392, 48162 },
@@ -1348,6 +1384,7 @@ spec:RegisterAbilities( {
         texture = 135945,
 
         handler = function ()
+            applyBuff("prayer_of_shadow_protection")
         end,
 
         copy = { 39374, 48170 },
@@ -1368,6 +1405,7 @@ spec:RegisterAbilities( {
         texture = 135946,
 
         handler = function ()
+            applyBuff("prayer_of_spirit")
         end,
 
         copy = { 32999, 48074 },
@@ -1476,6 +1514,27 @@ spec:RegisterAbilities( {
 
 
     -- Increases the target's resistance to Shadow spells by 30 for 10 min.
+    shadowfiend = {
+        id = 34433,
+        cast = 0,
+        cooldown = 180,
+        gcd = "spell",
+
+        spend = 0,
+        spendType = "mana",
+
+        startsCombat = true,
+        texture = 136199,
+
+        handler = function ()
+            applyBuff("shadowfiend")
+        end,
+
+        copy = {},
+    },
+
+
+    -- Increases the target's resistance to Shadow spells by 30 for 10 min.
     shadow_protection = {
         id = 976,
         cast = 0,
@@ -1489,6 +1548,7 @@ spec:RegisterAbilities( {
         texture = 136121,
 
         handler = function ()
+            applyBuff("shadow_protection")
         end,
 
         copy = { 10957, 10958, 25433, 48169 },
@@ -1529,6 +1589,7 @@ spec:RegisterAbilities( {
         texture = 136207,
 
         handler = function ()
+            applyDebuff("target", "shadow_word_pain")
         end,
 
         copy = { 594, 970, 992, 2767, 10892, 10893, 10894, 25367, 25368, 48124, 48125 },
@@ -1550,6 +1611,7 @@ spec:RegisterAbilities( {
         texture = 136200,
 
         handler = function ()
+            applyBuff("shadowform")
         end,
     },
 
@@ -1569,6 +1631,7 @@ spec:RegisterAbilities( {
         texture = 136164,
 
         handler = function ()
+            applyDebuff("silence")
         end,
     },
 
@@ -1605,6 +1668,7 @@ spec:RegisterAbilities( {
         texture = 136230,
 
         handler = function ()
+            applyBuff("vampiric_embrace")
         end,
     },
 
@@ -1612,7 +1676,7 @@ spec:RegisterAbilities( {
     -- Causes 450 Shadow damage over 15 sec to your target and causes up to 10 party or raid members to gain 1% of their maximum mana per 5 sec when you deal damage from Mind Blast. In addition, if the Vampiric Touch is dispelled it will cause 720 damage to the afflicted target.
     vampiric_touch = {
         id = 34914,
-        cast = 1.5,
+        cast = function() return 1.5 * haste end,
         cooldown = 0,
         gcd = "spell",
 
@@ -1624,11 +1688,15 @@ spec:RegisterAbilities( {
         texture = 135978,
 
         handler = function ()
+            if talent.shadow_weaving.rank == 3 then
+                addStack("shadow_weaving")
+            end
+            applyDebuff("target", "vampiric_touch")
         end,
     },
 } )
 
-
+-- Options
 spec:RegisterOptions( {
     enabled = true,
 
@@ -1639,11 +1707,54 @@ spec:RegisterOptions( {
     nameplates = true,
     nameplateRange = 8,
 
-    damage = false,
-    damageExpiration = 6,
+    damage = true,
+    damageExpiration = 3,
 
-    -- package = "",
-    -- package1 = "",
+    potion = "wild_magic",
+
+    package = "Shadow",
+    package1 = "Shadow",
     -- package2 = "",
     -- package3 = "",
 } )
+
+-- Settings
+spec:RegisterSetting("min_shadowfiend_mana", 25, {
+    type = "range",
+    name = "Shadowfiend: Minimum Mana",
+    desc = "Sets the minimum mana allowed before recommending Shadowfiend.",
+    width = "full",
+    min = 0,
+    max = 100,
+    step = 1,
+    set = function( _, val )
+        Hekili.DB.profile.specs[ 5 ].settings.min_shadowfiend_mana = val
+    end
+})
+
+spec:RegisterSetting("optimize_mind_blast", false, {
+    type = "toggle",
+    name = "Mind Blast: Optimize Use",
+    desc = "When enabled, mind blast will only be recommended if the player's current haste is less than the Mind Blast Breakpoint set below",
+    width = "full",
+    set = function( _, val )
+        Hekili.DB.profile.specs[ 5 ].settings.optimize_mind_blast = val
+    end
+})
+
+-- Hooks
+spec:RegisterHook( "reset_precast", function ()
+end)
+
+-- Expressions
+spec:RegisterStateExpr("flay_over_blast", function()
+    local currentSP = GetSpellBonusDamage(6) or 0
+    local vttimer = select(4, GetSpellInfo(48160))/1000
+    local currentHaste = ((1.5 / vttimer) - 1) * 100
+    local rtn = currentSP >= 39237*(0.975^currentHaste)
+    Hekili:Debug("flay_over_blast()["..tostring(rtn).."]: currentSP["..tostring(currentSP).."] >= 39237*(0.975^currentHaste["..tostring(currentHaste).."])")
+    return rtn
+end)
+
+-- Packs
+spec:RegisterPack( "Shadow", 20230206, [[Hekili:vFvBRTUnu4FlHleAzzE5LMUnioWg7d7wgLl49zBRyl3iQTLrsoLCj4F77iRgBzzzN0TE724cxNkPZZrNZ5rp6i)f()PVxmsG9FC58LRMVC(9oWNvl89ehlW(EfOONrpb)ihLb)V3Eum9f5WhtPOyP1CAjlcMY3Bxjjv85C)D2GC5IvWAlWr(pU23BpjogRwjMhDg3QWVWiyUOkSGrOmI4yvykr(3juwv4VJFMKs89KdXLUgrXWNhRdcuKGqZ99Yi5XbCmI57HZr7sXX()QVa(h4PeuzQONffu1x9L)4s9vuYXbeboJBSOvYf1oIxeSLXmcsz5bCaohNbbuv42QWLT4XkZdu)oqglQikqLHLXea9DgqFnMYfQaL3gJAiO(zqg9aj)PU72jvHcs0ZYXBCum(auyHHcksrpvcW)QLaWNZpTJ0h9Z4WRRSbVqzXbXyKy)vNdfOuCUWParGqwwultsWYDKZRlVkCAvymv4O7d5YDklgEogod(a1KnvHRm4njPOJ(EKCyhWklebKei5Sd8RdjphZcsOrLCa9PY0fFR7YP3mzGnWPtJ59TRU1wv2wjPk80jvOCaLvqyKOabTmAFNajcbSabPMa9Aa1D1sVT(n5ntcWL8xpcd4X7VkpcvQ6C85KfgjjroCbO9uf6wfU2oDsMqLE5h1pRUhKTyGodogoNeHtXmKLJ3)0yBmowiGna3HwaHi5RaTwso2LIKsrY8ZnxArqibajPtb0daX51HV1GVvpSC)8Zx6uGrUr)eWi5oOsTUEnM6rqsDX)yU)Go2DTmMwm)doO22pOuxe8EguMYQTbvgkh5uebL5nUA8dyFeOWlHGHTKCzM856zQHF5GWRVRjmSdywEloTtudZWQQaTSSWIkboBhdfPSEuzjlzVlvX6EewZ2AVnSS03ew7nruAQm550EeSrV2Ue7gLlnNTre80PjwvmllQv5xmSm4vqH)Fqec9CuWWr0SDiRTEyq2PSmvFFmsHAIF5l)rv4Hvo35S47x4CVZ8QWp1J73ATI7FUlKHpTetawioGldjrTrTm1cg6iK9Oj6tRDBMUPJ3NIco6laA1xlb7qbrugJh0JDxHENO9bz82eElIcJE9)L0eU)sDmxZcGR64YzA68337felxQd6795SciOK673P0UP5Q275ovpaGxk2tbX6FdN8ve0WcqPOjKuOdJpvfAJGu9GceUtd577C)HwwYmsIRnIJD76uWBmTpdA6WSh7aBRO2G)G0gt3yqQS6P2YDd(gud72zwVLwpbu1hiCQlCp0mR2yTJ08Ij9bnE7Ym5RwCH37i9xxHWTlVODq7uT7b4Igzj0qDAM61iUlQdOZTB21MEppPXiJf2Ofptxk29B1RdKB5l(aOPdGU9Xpl1VYiY6Q5RNRg9gJM7gUuvOhGd9YIbH0mu0HCSg2mGzGNgyRqxFNzTBgRp)tNUzSPNoX4ba3(EWPgjE1in2BTEyJ3SEA3JG2pai7N()GB2TMBwT2QL(5CR5BChTTCdqEl6P8RsivhwzUA2qjWRNu)3Id9X2HyF993j11)LJcjRRnoGlY0pLu3qK)F9d]] )

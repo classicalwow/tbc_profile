@@ -964,12 +964,6 @@ spec:RegisterAbilities( {
         spend3 = 1,
         spend3Type = "blood_runes",
 
-        spends = {
-            { 1, "unholy_runes" },
-            { 1, "frost_runes" },
-            { 1, "blood_runes" },
-        },
-
         gain = 15,
         gainType = "runic_power",
 
@@ -1203,12 +1197,6 @@ spec:RegisterAbilities( {
         spend3 = 1,
         spend3Type = "frost_runes",
 
-        spends = {
-            { 1, "unholy_runes" },
-            { 1, "frost_runes" },
-            { 1, "blood_runes" },
-        },
-
         gain = 15,
         gainType = "runic_power",
 
@@ -1315,11 +1303,6 @@ spec:RegisterAbilities( {
         spendType = "frost_runes",
         spend2 = 1,
         spend2Type = "unholy_runes",
-
-        spends = {
-            { 1, "unholy_runes" },
-            { 1, "frost_runes" },
-        },
 
         gain = function() return 15 + ( 2.5 * talent.dirge.rank ) end,
         gainType = "runic_power",
@@ -1513,11 +1496,6 @@ spec:RegisterAbilities( {
         end,
         spend2Type = "unholy_runes",
 
-        spends = {
-            { function() return buff.freezing_fog.up and 0 or 1 end, "frost_runes" },
-            { function() return buff.freezing_fog.up and 0 or 1 end, "unholy_runes" },
-        },
-
         gain = function() return 15 + ( 2.5 * talent.chill_of_the_grave.rank ) end,
         gainType = "runic_power",
 
@@ -1684,11 +1662,6 @@ spec:RegisterAbilities( {
         spendType = "frost_runes",
         spend2 = 1,
         spend2Type = "unholy_runes",
-
-        spends = {
-            { 1, "frost_runes" },
-            { 1, "unholy_runes" },
-        },
 
         gain = function() return 15 + ( 2.5 * talent.chill_of_the_grave.rank ) end,
         gainType = "runic_power",
@@ -1891,11 +1864,6 @@ spec:RegisterAbilities( {
         spendType = "frost_runes",
         spend2 = 1,
         spend2Type = "unholy_runes",
-
-        spends = {
-            { 1, "frost_runes" },
-            { 1, "unholy_runes" },
-        },
 
         gain = function() return 15 + ( 2.5 * talent.dirge.rank ) end,
         gainType = "runic_power",
