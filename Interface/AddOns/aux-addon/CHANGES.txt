@@ -1,10 +1,16 @@
-lightweight tag a6d8b0dc396848ce57550a1961ce05b3b0d9598d v3.2.1
-Author:	Simon Hirsig <simon.hirsig@gmail.com>
-Date:	Wed Jan 18 21:23:10 2023 +0100
+lightweight tag 54ad586f61e778b6433f6a1ef69c1d7c035de989 v3.2.3
+Author:	GitHub <noreply@github.com>
+Date:	Sat Feb 11 12:14:34 2023 +0100
 
-commit a6d8b0dc396848ce57550a1961ce05b3b0d9598d
+commit c0cfda3a5697ff195044123cc144d8aa3f2c63be
 Author: Simon Hirsig <simon.hirsig@gmail.com>
-Date:   Wed Jan 18 21:23:10 2023 +0100
+Date:   Sat Feb 11 11:29:18 2023 +0100
 
-    fix for wotlk phase 2
+    interface version update
+
+commit c0cfda3a5697ff195044123cc144d8aa3f2c63be
+Author: Simon Hirsig <simon.hirsig@gmail.com>
+Date:   Sat Feb 11 11:29:18 2023 +0100
+
+    interface version update
 

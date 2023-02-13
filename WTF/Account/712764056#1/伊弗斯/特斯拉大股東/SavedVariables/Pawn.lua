@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0716,
+	["LastPlayerFullName"] = "特斯拉大股東-伊弗斯",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 40421,
@@ -49,16 +51,16 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:46135::::::::80:::::::::|h[征服者的死亡信使手套]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 40080,
-			["Level"] = 213,
+			["ID"] = 45418,
+			["Level"] = 225,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:40080::::::::80:::::::::|h[遗失的珠宝]|h|r",
+			["Link"] = "|cffa335ee|Hitem:45418::::::::80:::::::::|h[麦耶的蓝宝石戒指]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 39250,
-			["Level"] = 200,
+			["ID"] = 40080,
+			["Level"] = 213,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:39250::::::::80:::::::::|h[神圣净化指环]|h|r",
+			["Link"] = "|cffa335ee|Hitem:40080::::::::80:::::::::|h[遗失的珠宝]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 40255,
@@ -78,14 +80,14 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:40253::::::::80:::::::::|h[修女披风]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 40489,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40489::::::::80:::::::::|h[魔枢巨杖]|h|r",
+			["ID"] = 45287,
+			["Level"] = 225,
+			["Link"] = "|cffa335ee|Hitem:45287::::::::80:::::::::|h[火魄]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 199710,
-			["Level"] = 125,
-			["Link"] = "|cff1eff00|Hitem:199710::::::::70:::::::::|h[群集玫瑰]|h|r",
+			["ID"] = 37134,
+			["Level"] = 200,
+			["Link"] = "|cff0070dd|Hitem:37134::::::::80:::::::::|h[泰蕾丝塔的日记]|h|r",
 		}, -- [17]
 		{
 			["ID"] = 45511,
@@ -93,8 +95,6 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45511::::::::80:::::::::|h[迷失灵魂节杖]|h|r",
 		}, -- [18]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "特斯拉大股東-伊弗斯",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

@@ -70,7 +70,7 @@ Details_Vanguard: enabled
 GearScoreLite: enabled
 Gladdy: disabled
 GTFO: enabled
-Hekili: disabled
+Hekili: enabled
 ItemRack: enabled
 ItemRackOptions: enabled
 Leatrix_Maps: disabled
@@ -124,7 +124,7 @@ ElvUI_Libraries: enabled
 ElvUI_OptionsUI: disabled
 ElvUI_Options: enabled
 ElvUI: enabled
-TalentEmu: disabled
+TalentEmu: enabled
 alaTalentEmu: enabled
 Altoholic: disabled
 DBM-Core: enabled
